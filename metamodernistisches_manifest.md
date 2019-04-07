@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: Luke Turner, created: 2011-01-01, translator: niplav, translated: 2019-01-05, modified: 2019-02-10, status: finished, importance: 3, confidence: translation*
+*author: Luke Turner, created: 2011-01-01, translator: niplav, translated: 2019-01-05, modified: 2019-02-10, language: german, status: finished, importance: 3, confidence: translation*
 
 > __Translation of the [*Metamodernist // Manifesto*](http://www.metamodernism.org/)
 > by Luke Turner into German.__

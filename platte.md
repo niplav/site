@@ -1,10 +1,9 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2016-11-20, modified: 2018-04-27, status: finished, importance: 1, confidence: fiction*
+*author: niplav, created: 2016-11-20, modified: 2019-04-08, language: german, status: finished, importance: 1, confidence: fiction*
 
-> __Beschreibung der Erfahrungen eines der schnellsten menschengemachten
-> Objekte.__
+> __Text about the experiences of one of the fastest man-made objects.__
 
 Platte
 ======
