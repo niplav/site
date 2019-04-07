@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2019-03-19, status: in progress, importance: 4, confidence: translation*
+*author: niplav, created: 2019-01-14, modified: 2019-04-08, language: english, status: in progress, importance: 4, confidence: translation*
 
 > __The list of 99 problems was originall written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems)

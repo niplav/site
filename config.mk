@@ -18,19 +18,21 @@ HTML=index.html \
 	clarinet_concerto.html \
 	das_wohltemperierte_klavier.html \
 	differences_gnu_and_posix_make.html \
+	dumpster_diving.html \
 	end_of_discussion.html \
 	equally_many_heads_and_tails.html \
+	hitch_hiking.html \
 	infinite_fractal_meta_recursion.html \
 	keyboards.html \
 	kodomulo_manifesto.html \
-	libertarianism_too_simple.html \
 	metamodernistisches_manifest.html \
 	philosophy_and_art.html \
+	pick_up.html \
 	pipe_rings.html \
 	platte.html \
 	preference_frustration_auctions.html \
 	rationalist_gods.html \
-	slightly_weird_behaviour.html \
-	tao_tê_king.html \
+	tao_te_king.html \
 	the_people_united.html \
 	two_people_on_a_planet.html \
+	unix_is_not_about_reimplementing_unix.html \

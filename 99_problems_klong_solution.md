@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-03-20, status: in progress, importance: 4, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-04-08, language: english, status: in progress, importance: 4, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -681,6 +681,7 @@ Testing:
 	s27::{[m n];m::x;n::y;:[1=#y;
 				,,x;
 				,/{a4(a3(m;x);s27(x;1_n))}'{a3(m;x)}'s26(*y;x)]}
+
 	s28a::{x@<#'x}
 	s28b::{[a b];a::#'x;b::{(#a?x),x}'?a;x@,/{a?x}'{x@1}'b@<*'b}
 

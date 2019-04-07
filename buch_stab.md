@@ -1,9 +1,9 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2016-08-01, modified: 2019-03-20, status: finished, importance: 1, confidence: fiction*
+*author: niplav, created: 2016-08-01, modified: 2019-04-08, language: german, status: finished, importance: 1, confidence: fiction*
 
-> __Eine Charakterisierung der Buchstaben nach Klang und Form.__
+> __A characterisation of the letters by sound and form.__
 
 Buchstab
 ========
