@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: [Lao-tse](https://de.wikipedia.org/wiki/Laozi), created: -400-01-01, translator: Günther Debon, translated: 1979-01-01, transcriptor: niplav, transcribed: 2019-03-23, modified: 2019-04-08, language: german, status: in progress, importance: 4, confidence: transcription*
+*author: [Lao-tse](https://de.wikipedia.org/wiki/Laozi), created: -400-01-01, translator: [Günther Debon](https://de.wikipedia.org/wiki/G%C3%BCnther_Debon), translated: 1979-01-01, transcriptor: niplav, transcribed: 2019-03-23, modified: 2019-04-23, language: german, status: in progress, importance: 4, confidence: transcription*
 
 > __The Tao Tê King is one of the most translated texts in history. This
 > is a transcription of the german translation by Günther Debon from
@@ -10,7 +10,9 @@
 Tao Tê King
 ===========
 
-## Kapitel 1
+## Erstes Buch
+
+### Kapitel 1
 
 §1
 
@@ -42,7 +44,7 @@ Ihre Vereinung nennen wir mystisch.
 Mystisch und abermals mystisch:  
 Die Pforte zu jedwedem Geheimnis.  
 
-## Kapitel 2
+### Kapitel 2
 
 §5
 
@@ -78,7 +80,7 @@ Ist das Werk vollendet, verweilt er nicht dabei.
 Wohl! Nur dadurch, daß er nicht verweilt,  
 Ist nichts, das ihm entginge.  
 
-## Kapitel 3
+### Kapitel 3
 
 §9
 
@@ -106,7 +108,7 @@ Nicht wagen zu tun.
 Tut er das Ohne-Tun,  
 Ist nichts, das nicht regiert würde.  
 
-## Kapitel 4
+### Kapitel 4
 
 §12
 
@@ -129,7 +131,7 @@ Und gleichsam ewig gegenwärtig.
 Ich weiß nicht, wessen Sohn er ist –  
 Ein Bild von dem, das vor den Göttern war.  
 
-## Kapitel 5
+### Kapitel 5
 
 §13
 
@@ -150,7 +152,7 @@ Je mehr bewegt, gibt aus er um so mehr.
 Viele Worte – manch Verlust.  
 Am besten, man bewahrt sie in der Brust!  
 
-## Kapitel 6
+### Kapitel 6
 
 §16
 
@@ -161,7 +163,7 @@ So heißt man die Wurzel von Himmel und Erde.
 Endlos wallend, gleisam gegenwärtig.  
 Also wirkt sie sonder Beschwerde.  
 
-## Kapitel 7
+### Kapitel 7
 
 §17
 
@@ -182,7 +184,7 @@ Und sein Selbst tritt ein.
 Ist das nicht, weil er ohne Eigennutz?  
 Darum vermag er, sein Eigen zu vollenden.  
 
-## Kapitel 8
+### Kapitel 8
 
 §19
 
@@ -208,7 +210,7 @@ Gut beim Sich-Regen: die rechte Zeit.
 Wohl! Nur, wer sich nicht streitet,  
 Ist gegen Schmähung gefeit.  
 
-## Kapitel 9
+### Kapitel 9
 
 §22
 
@@ -225,7 +227,7 @@ Sein Werk vollbringen
 Und sich zurückziehn:  
 Also des Himmels *Weg*.  
 
-## Kapitel 10
+### Kapitel 10
 
 §23
 
@@ -255,7 +257,7 @@ Tun, doch nicht drauf baun;
 Leiten, doch nicht beherrschen –  
 Dies nennt man Mystische Tugend.  
 
-## Kapitel 11
+### Kapitel 11
 
 §25
 
@@ -278,7 +280,7 @@ Wahrlich:
 Erkennst du das Da-Sein als einen Gewinn,  
 Erkenne: Das Nicht-Sein macht brauchbar.  
 
-## Kapitel 12
+### Kapitel 12
 
 §26
 
@@ -304,7 +306,7 @@ Nicht für das Aug.
 Wahrlich:  
 Von jenem laß! Dieses erfaß!  
 
-## Kapitel 13
+### Kapitel 13
 
 §29
 
@@ -333,7 +335,7 @@ Und das Reich kann Dir anvertraut werden.
 Schone wie den Leib so das Reich,  
 Und das Reich kann Dir überantwortet werden.  
 
-## Kapitel 14
+### Kapitel 14
 
 §31
 
@@ -366,7 +368,7 @@ Und du lenkst das Sein der Gegenwart!
 Zu wissen um des Altertums Beginn,  
 Das nennen wir des *Weges* leitenden Sinn.  
 
-## Kapitel 15
+### Kapitel 15
 
 §33
 
@@ -407,7 +409,7 @@ Wünscht nicht, erfüllt zu sein.
 Wohl! Nur was unerfüllt,  
 Kann auch verschleißen ohne Erneuen.  
 
-## Kapitel 16
+### Kapitel 16
 
 §37
 
@@ -440,7 +442,7 @@ Himmlisch ist aber: der *Weg*;
 Der mit dem *Weg* aber dauert.  
 Sinkt hin sein Leib, ist er ohne Gefahr.  
 
-## Kapitel 17
+### Kapitel 17
 
 §41
 
@@ -461,7 +463,7 @@ War vollendet das Werk, vollbracht die Tat,
 Meinten die hundert Geschlechter:  
 Wir schufen es frei.  
 
-## Kapitel 18
+### Kapitel 18
 
 §43
 
@@ -474,7 +476,7 @@ Gibt es die »Kindes-Ehrerbietigkeit«.
 Regiert das Herrscherhaus in Zwist und Wahn,  
 Gibt es den »Lauteren Untertan«.  
 
-## Kapitel 19
+### Kapitel 19
 
 §44
 
@@ -496,7 +498,7 @@ Gib ein Gebot, das bindend verpflichte!
 Betrachte das Blanke, faß an das Schlichte!  
 Mach klein dein Eigen und karg deine Süchte!  
 
-## Kapitel 20
+### Kapitel 20
 
 §47
 
@@ -536,7 +538,7 @@ Nur Ich bin halsstarr, als ob ich ein Wildling wäre.
 Nur Ich bin von den andern Menschen verschieden –  
 Der ich die nährende Mutter verehre.  
 
-## Kapitel 21
+### Kapitel 21
 
 §49
 
@@ -559,7 +561,7 @@ Und woher kenn Ich das Walten
 Des Vaters von allen Dingen?  
 Durch dieses.  
 
-## Kapitel 22
+### Kapitel 22
 
 §50
 
@@ -595,7 +597,7 @@ So sind das keine leeren Worte gewesen!
 
 Zum wahrhaft Heilen kehrt man sich hin.  
 
-## Kapitel 23
+### Kapitel 23
 
 §53
 
@@ -635,7 +637,7 @@ Ihn zu gewinnen.
 (Wer nicht genug vertraut,  
 Dem ist man nicht treu.)  
 
-## Kapitel 24
+### Kapitel 24
 
 §56
 
@@ -655,7 +657,7 @@ Sind den Geschöpfen allzumal ein Überdruß.
 Wahrlich:  
 Wer den *Weg* hat, weilt nicht dabei.  
 
-## Kapitel 25
+### Kapitel 25
 
 §58
 
@@ -687,7 +689,7 @@ Die Erde zum Gesetz den Himmel;
 Der Himmel zum Gesetz den *Weg*;  
 Der *Weg* nimmt zum Gesetz das eigene Weben.  
 
-## Kapitel 26
+### Kapitel 26
 
 §60
 
@@ -705,7 +707,7 @@ Um seiner selbst willen leicht nehmen das Reich?
 Nimmt er es leicht, verliert er den Wurzelgrund;  
 Und ist er ungestüm, verliert er die Herr-schaft.  
 
-## Kapitel 27
+### Kapitel 27
 
 §61
 
@@ -737,7 +739,7 @@ Wer nicht schont sein Kapital:
 Er wäre noch so klug, er wäre höchst verblendet!  
 Dies nennt man das Wichtige Geheimnis.  
 
-## Kapitel 28
+### Kapitel 28
 
 §64
 
@@ -771,7 +773,7 @@ Werd er zum Leiter der Amtsleute.
 Wahrlich:  
 Ein groß Gefügtes ist ungefeilt.  
 
-## Kapitel 29
+### Kapitel 29
 
 §66
 
@@ -798,7 +800,7 @@ Weist ab das Ungemeine,
 Weist ab das Vermessene,  
 Weist ab das Grandiose.  
 
-## Kapitel 30
+### Kapitel 30
 
 §69
 
@@ -816,3 +818,363 @@ Ein guter [Feldherr] hat Erfolg,
 Aber läßt es dabei bewenden.  
 Er wagt nicht, zu nehmen mit Gewalt.  
 Er hat Erfolg, aber rühme sich dessen nicht.  
+
+§128
+
+(Wird ein Wesen fest, so wird es alt.  
+Dieses nennt man: Nicht dem *Weg* gemäß.  
+Nicht dem *Weg* gemäß wird enden bald.)  
+
+### Kapitel 31
+
+§72
+
+(Wohl! Eben weil die Waffen Geräte des Unheils sind  
+Und die Wesen sie hassen,  
+Darum weilt, wer den *Weg* hat,  
+Nicht in ihrer Nähe.  
+Befindet sich der Edelmann daheim,  
+Hält er wert die Linke;  
+Gebraucht er die Waffen,  
+Hält er wert die Rechte.)  
+
+§71
+
+Waffen sind Geräte des Unheils,  
+Keine Geräte des Edelmannns.  
+Nur wenn er nicht umhin kann, gebraucht er sie.  
+Friedliche Milde ist sein Höchstes.  
+Siegt er, so findet ers nicht schön.  
+Denn wer es schön fände,  
+Der freute sich, andere Menschen zu töten.  
+Wer aber sich freut, andere Menschen zu töten,  
+Darf seinen Willen dem Reiche nicht aufprägen.  
+
+§73
+
+(Bei glücklichem Anlaß ist links der Ehrenplatz;  
+Bei traurigem Anlaß ist rechts der Ehrenplatz.  
+Der Nebenfeldherr steht auf der Linken,  
+Der Oberfeldherr steht auf der Rechten.  
+Dies will besagen: Er hält es wie beim Leichenbegängnis.  
+Wenn Menschen getötet sind in Menge,  
+Beklagt man sie voll Trauer und Verzweiflung:  
+Wer in der Schlacht gesiegt hat,  
+Der halte es wie beim Leichenbegängnis.)  
+
+### Kapitel 32
+
+§74
+
+Der *Weg* ist ewig, namenlos.  
+
+Die Schlichtheit [des Namenlosen],  
+So gering sie sei –  
+Das Erdreich wagt nicht, sie dienstbar zu machen.  
+Könnten die Fürsten und Könige dieses bewahren,  
+Kämen die zehntausend Wesen von selbst zu Gast;  
+Himmel und Erde würden sich vereinen,  
+Um süßen Tau hinabzusenden,  
+Und das Volk wäre einträchtig ohne Befehl.  
+
+§75
+
+Erst wenn verfügt wird, gibt es Namen.  
+
+Nachdem wir einmal mit Namen benennen,  
+Wohl! so müssen wir Einhalt kennen.  
+Wer Einhalt kennt, kann ungefährdet bleiben.  
+
+§76
+
+Wenn du vergleichen willst  
+Des *Weges* Dasein in der Welt:  
+Er gleicht dem Bach, dem Talfluß,  
+Die strom- und meerwärts treiben.  
+
+### Kapitel 33
+
+§77
+
+Wer die Menschen kennt, der ist klug;  
+Wer sich selber kennt, ist erleuchtet.  
+Wer andere Menschen besiegt, hat Gewalt;  
+Wer sich selbst besiegt, der ist stark.  
+
+Wer Genügen kennt, der ist reich;  
+Wer vorgeht mit Gewalt, der hat Willen.  
+Wer seinen Platz nicht verliert, der dauert;  
+Wer stirbt, ohne zu vergehn, lebt immerdar.  
+
+### Kapitel 34
+
+§78
+
+Der Große *Weg* ist überströmend so,  
+Daß er nach links und rechts sich wenden mag.  
+Die Wesen alle danken ihm ihr Leben,  
+Ohne daß er sich einem versagt.  
+Er wirkt, doch legt sein Werk nicht in Beschlag.  
+
+§79
+
+Er kleidet und ernährt alle Wesen,  
+Aber macht sich nicht zum Gebieter.  
+Weil ewig ohne Begehren,  
+Kann er durch Kleines benamt werden.  
+Weil alle Wesen ihm sich zuwenden,  
+Ohne daß er sich zum Gebieter macht,  
+Kann er durch Großes benamt werden.  
+Weil er niemals sich selbst für groß nimmt,  
+Darum kann er vollenden seine Größe.  
+
+### Kapitel 35
+
+§80
+
+Hältst du das Große Bild in Händen,  
+Wird sich das Erdreich zu dir wenden.  
+Sich zu der wenden und frei sein von Leid –  
+Friede, Gleichheit, All-Einigkeit!  
+
+§81
+
+Klang von Musik und Wohlgeruch der Speisen:  
+Die Fremden hält es, die vorüberreisen.  
+Doch was der *Weg* an Worten bietet dar,  
+Ist ohne Duft und Köstlichkeit dem Munde.  
+Wer es erblickt, den dünkt es unscheinbar;  
+Wer es vernimmt, nimmts nur mit Mühe wahr;  
+Wer es gebraucht, kommt aber nie zum Grunde.  
+
+### Kapitel 36
+
+§82
+
+Was du willst zwängen,  
+Mußt vorher du längen.  
+Was du willst schwächen,  
+Mußt vorher du stark machen.  
+Wen du willst aufgeben,  
+Den mußt du hinaufheben.  
+Von wem du willst haben,  
+Den mußt du begaben.  
+
+§83
+
+Dies wird Subtile Erleuchtung genannt:  
+Das Weiche, Schwache besiegt  
+Des Harten und Starken Widerstand.  
+
+§84
+
+[Jedoch:]  
+
+Nie darf der Fisch  
+Hinauf aus seinem Grunde steigen.  
+Des Landes wirksamstes Gerät  
+Darf man den Menschen nicht zeigen.  
+
+### Kapitel 37
+
+§85
+
+Der *Weg* ist ewig ohne Tun;  
+Aber nichts, das ungetan bliebe.  
+
+Könnten die Fürsten und Könige dieses bewahren,  
+Würden die zehntausend Wesen von selbst sich entfalten.  
+Würde sie aber, entfalte, zu handeln begehren:  
+Durch die Schlichtheit des Namenlosen  
+Müßten Wir ihnen dann wehren.  
+Die Schlichtheit des Namenlosen,  
+Wohl! sie führt zum Ohne-Begehren.  
+Nicht-Begehren wird in Stille münden,  
+Und das Reich wird selbst zur Ordnung finden.  
+
+## Zweites Buch
+
+### Kapitel 38
+
+§86
+
+Höchste Tugend weiß von der Tugend nicht;  
+Daher gibt es die Tugend.  
+Nieder Tugend läßt von der Tugend nicht;  
+Daher mangelt die Tugend.  
+
+Höchste Tugend ist ohne Tun;  
+Ist auch ohne Grund, warum sie täte.  
+Nieder Tugend tut,  
+Hat auch einen Grund, warum sie tut.  
+
+Höchste Menschlichkeit tut,  
+Aber ohne Grund, warum sie tut.  
+Höchste Rechtlichkeit tut,  
+Doch *mit* einem Grund, warum sie tut.  
+
+Höchste Sittsamkeit tut;  
+Und wenn ihr niemand erwidert,  
+Zwingt sie die andern mit aufgekrempelten Ärmeln.  
+
+§87
+
+Wahrlich:  
+Wer den *Weg* verliert,  
+Ist nachher tugendhaft.  
+Wer die Tugend verliert,  
+Ist nachher gerecht.  
+Wer die Rechtlichkeit verliert,  
+Ist nachher sittsam.  
+
+§88
+
+Wohl!  
+Die Sittsamkeit  
+Ist eine Verkümmerung von Lauterkeit und Treue;  
+Des Haders Anfang ist sie.  
+Vorkenntnis  
+Ist eine prangende Blüte des *Weges*,  
+Aber der Torheit Beginn.  
+
+§89
+
+Deshalb der große, gereifte Mann:  
+Hält sich an das Völlige  
+Und verweilt nicht beim Kümmerlichen;  
+Hält sich an den Kern  
+Und verweilt nicht bei der Blüte.  
+
+Wahrlich:  
+Von jenem laß! Dieses erfaß!  
+
+### Kapitel 39
+
+Denen vorzeiten ward Einheit verliehen:  
+
+Dem Himmel ward Einheit verliehn  
+Und damit die Reine.  
+Der Erde ward Einheit verliehn  
+Und damit die Stille.  
+Den Geistern ward Einheit verliehn  
+Und damit die Seele.  
+Dem Flußtal ward Einheit verliehn  
+Und damit die Fülle.  
+Den zehntausend Wesen ward Einheit verliehn  
+Und damit das Leben.  
+Dem Fürsten, dem König ward Einheit verliehn,  
+Um Ordnung dem Erdreich zu geben.  
+
+Was dieses bewirkt hat, ist die Einheit.  
+
+Fehlte dem Himmel, wodurch er rein,  
+Er würde gewißlich zerreißen.  
+Fehlte der Erde, wodurch sie gestillt,  
+Sie würde gewißlich zerspleißen.  
+Fehlte den Geistern, wodurch sie beseelt,  
+Sie würden gewiß sich entwinden.  
+Fehlte dem Flußtal, wodurch es gefüllt,  
+Es würde gewißlich schwinden.  
+Fehlte den zehntausend Wesen, wodurch sie belebt,  
+Sie würden gewißlich verenden.  
+Fehlte dem Fürsten, dem König, wodurch sie geehrt und erhöht,  
+Sie würden zum Sturze sich wenden.  
+
+§91
+
+Wahrlich: Ehre hat zur Wurzel die Geringheit,  
+Hoheit zum Sockel die Niedrigkeit.  
+Deshalb heißen die Fürsten und Könige sich selbst:  
+Ich Waise, Meine Kärglichkeit, Meine Unzulänglichkeit.  
+Ist dieses nicht, weil sie zur Wurzel die Geringheit nehmen?  
+
+§92
+
+Wahrlich:  
+Wer allzu hochfahrend ist,  
+wird wenig hoch fahren.  
+
+Und:  
+Wünsche nicht zu funkeln gleich einem Juwel,  
+Zu klingeln gleich einem Klangstein!  
+
+### Kapitel 40
+
+§93
+
+Im Gegensinn verläuft des *Weges* Bewegung;  
+In seiner Schwäche liegt des *Weges* Brauchbarkeit.  
+
+§94
+
+Aus dem Sein sind die zehntausend Wesen geboren;  
+Das Sein ist aus dem Nichtssein geboren.  
+
+### Kapitel 41
+
+§95
+
+Ein Meister hohen Grades, der vom *Wege* hört,  
+Wandelt ihn gewissenhaft.  
+Ein Meister mittleren Grades, der vom *Wege* hört,  
+Befolgt ihn einmal und verläßt ihn ein andermal.  
+Ein Meister niederen Grades, der vom *Wege* hört,  
+Verlacht ihn lauthals.  
+
+Was keiner verlacht,  
+Ist würdig nicht, daq man zum *Weg* es macht.  
+
+§96
+
+Darum heißt es in den stehenden Worten:  
+
+Den *Weg* erleuchten gleicht der Dunkelheit;  
+Den *Weg* vorangehn scheint wie Rückwärtsschreiten;  
+Den *Weg* plan machen scheint Unebenheit.  
+
+Die höchste Tugend gleicht dem Tal;  
+Der größte Glanz ist gleichsam Schande,  
+Weiteste Tugend scheinbar schmal.  
+
+Festeste Tugend dünkt dich unscheinbar;  
+Die volle Wahrheit ist wie schwindend;  
+Ein großes Viereck ist der Winkel bar.  
+
+Ein groß Gerät wird spät vollendet;  
+Ein großer Ton klingt selten bloß;  
+Ein großes Bild ist ohne Formen;  
+Der *Weg* verbirgt sich und ist namenlos.  
+
+§97
+
+Wohl! Nur der *Weg*  
+Ist gut im Ausleihn und vollenden.  
+
+### Kapitel 42
+
+§98
+
+Der *Weg* schuf die Einheit.  
+Einheit schuf Zweiheit.  
+Zweiheit schuf Dreiheit.  
+Dreiheit schuf die zehntausend Wesen.  
+Die zehntausend Wesen  
+Tragen das dunkle Yin auf dem Rücken,  
+Das lichte Yang in den Armen.  
+Der Atem des Leeren macht ihren Einklang.  
+
+§99
+
+Was die Menschen verabscheun,  
+Ist Verwaistheit, Kargheit und Unzulänglichkeit:  
+Doch König und Fürst bezeichnen sich selber so.  
+Wahrlich, die Wesen:  
+Manch einer mindert sie – sie werden mehr;  
+Manch einer mehrt sie – doch sie mindern sich.  
+
+§100
+
+Was die Menschen lehren,  
+Das lehre auch Ich.  
+Das Balkenstarke stirbt keinen guten Tod.  
+Die wollen Wir zum Vater unserer Lehre nehmen.  
