@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-08, modified: 2019-03-18, language: english, status: finished, importance: 6, confidence: highly likely*
+*author: niplav, created: 2019-02-08, modified: 2019-04-09, language: english, status: finished, importance: 4, confidence: highly likely*
 
 > __Imagine getting up every morning and throwing a coin so often that
 > heads and tails have come up an equal amount of times. How often
@@ -21,7 +21,7 @@ calculation in a countably infinite case:
 Finding `$x_{i}$`
 -----------------
 
-We know that flipping the coin definitely ends when for `$2*n$` coin flips,
+We know that flipping the coin definitely ends when for `2*n` coin flips,
 we have gotten heads n times and tails n times as well. This gives us
 `$x_{i}=2*i$`.
 
@@ -40,7 +40,7 @@ After starting, we have flipped the coin 2 times, so the possible solutions are:
 	T;H
 	T;T
 
-We are done in two cases, H;T and T;H. `$p_{2}$` therefore is
+We are done in two cases, H;T and T;H. p₂ therefore is
 `$\frac{2}{4}=0.5$`. We then continue flipping the coin 2 more times,
 starting with either H;H or T;T, with the following possible results:
 
@@ -89,8 +89,8 @@ results look like this:
 	T;T;T;T;T;H
 	T;T;T;T;T;T
 
-Here, the sequences `H;H;H;T;T;T, H;H;T;H;T;T, T;T;T;H;H;H,
-T;T;H;T;H;H` finish, so given six coin flips, the chance of finishing is
+Here, the sequences `H;H;H;T;T;T, H;H;T;H;T;T, T;T;T;H;H;H,T;T;H;T;H;H`
+finish, so given six coin flips, the chance of finishing is
 `$\frac{4}{24}=0.1666666\dots$`.
 
 Now writing it down gets messy, but we observed enough to find a pattern in the
@@ -98,10 +98,10 @@ sequences.
 
 ### Considerations on Coin Flips
 
-First of all, the number of finishing sequences given `$2*n$` coin flips
+First of all, the number of finishing sequences given `2*n` coin flips
 is the [Catalan number](https://en.wikipedia.org/wiki/Catalan_number)
 `$C_{n}$`. In this case, it describes the number of [Dyck words](https://en.wikipedia.org/wiki/Dyck_word)
-of the lengh `$2*n$`. To quote Wikipedia:
+of the lengh `2*n`. To quote Wikipedia:
 
 > A Dyck word is a string consisting of n X's and n Y's such that no
 > initial segment of the string has more Y's than X's.
@@ -118,15 +118,17 @@ coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient):
 	catalan::{bincoeff(2*x;x)%x+1}
 	f::{2*catalan(x)}
 
-We call the number of finishing steps given `$2*n$` coin flips `$f_{n}$`.
+We call the number of finishing steps given `2*n` coin flips `$f_{n}$`.
 
 One can also see that the total number of possible sequences of coin flips
 `$o_{n}$` after `$2*n$` coin flips is `$4*(o_{n-1}-f_{n-1})$`, because
 one appends `H;H` or `H;T` or `T;H` or `T;T` to the remaining number of
-sequences. So let
+sequences. So let `$o_{n}$` be
 
-`$o_{1}=4$`  
-`$o_{n}=4*(o_{n-1}-f_{n-1})$`.
+<div>
+	$$o_{1}=4
+	o_{n}=4*(o_{n-1}-f_{n-1})$$
+</div>
 
 One can implement `$o_{n}$` simply:
 
@@ -139,8 +141,10 @@ that `$o_{n}=2*n*f_{n}$`.
 
 Induction basis:
 
-`$o_{1}=2*1*f_{1}$`  
-`$4=2*1*2$`
+<div>
+	$$o_{1}=2*1*f_{1}
+	4=2*1*2$$
+</div>
 
 Induction assumption:
 
@@ -161,23 +165,25 @@ of the Catalan numbers in the OEIS (sixth formula).
 
 ### Probability of Finishing at `$2*n$` Steps
 
-So, what's the probability of finishing given `$2*n$` steps now? Simple:
+So, what's the probability of finishing given `2*n` steps now? Simple:
 it's `$\frac{f_{n}}{o_{n}}=\frac{f_n}{2*n*f_{n}}=\frac{1}{2*n}$`.
 
 	pgn::{1%2*x}
 
-Note that this probability is different from finishing at `$2*n$` steps:
-`pgn` simply tells us how likely it is for us to finish in the next `$2$`
-flips if we have flipped the coin `$2*(n-1)$` times steps already. But
-we are looking for the probability of finishing at `$2*n$` steps.
+Note that this probability is different from finishing at `2*n` steps:
+`pgn` simply tells us how likely it is for us to finish in the next 2
+flips if we have flipped the coin `2*(n-1)` times steps already. But we
+are looking for the probability of finishing at `2*n` steps.
 
 For this, we can now define `$r_{n}$` that tells us the probability
-of arriving at a sequence with `$2*n$` coin flips. This can only have
+of arriving at a sequence with `2*n` coin flips. This can only have
 happened if we arrived at the last step and did not finish there. We
 define `$r_{n}$` recursively:
 
-`$r_{0}=1$`  
-`$r_{n}=r_{n-1}-\frac{1}{2*(n-1)}*r_{n-1}$`
+<div>
+	$$r_{0}=1
+	r_{n}=r_{n-1}-\frac{1}{2*(n-1)}*r_{n-1}$$
+</div>
 
 Now, defining `$p_{n}$` is simple: `$p_{n}=\frac{1}{2*n}*r_{n}$`.
 
@@ -232,7 +238,7 @@ After watching the output of the code above for a while, one gets the
 suspicion that the expected value diverges to infinity.
 
 To prove this, let the `$\mathbb{E}_n$` for `$n \in \mathbb{N}$` be the
-expected value if we finish throwing the coin after `$2*n$` steps:
+expected value if we finish throwing the coin after `2*n` steps:
 
 <div>
 	$$\mathbb{E}_n=\sum_{i=1}^{n} \frac{1}{2*i}*r_{i}*2*i$$

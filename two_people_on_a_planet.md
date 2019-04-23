@@ -1,27 +1,35 @@
 [home](./index.md)
 -----------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-04-07, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-04-02, modified: 2019-04-11, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __Two people are abducted and placed on the opposite poles of a
 > habitable planet. They want to find each other, but they have no
 > way to communicate. The only things they know is their their own
 > respective position on the planet and the position of the equator and
 > the poles. Here, different methods for finding each other under similar
-> conditions are explained and discussed.__
+> conditions are explained and discussed, and a constant-time algorithm
+> is introduced.__
 
 Two People on a Planet
 ======================
 
+TODO: read “The Theory of Search Games and Rendezvous” by Alperin & Gal  
+TODO: It is a linear time algorithm (on the radius of the sphere),
+not constant, but better rewrite the parts and say it is deterministic
+instead of linear
+
 The Problem
 ------------
 
-The original problem is taken from *[What If?, Munroe 2014, p. 183](./doc/lost_immortals_munroe_2014.pdf)*:
+The original problem is taken from [Munroe 2014](./doc/lost_immortals_munroe_2014.pdf):
 
 > If two immortal people were placed on opposite sides of an uninhabited
 > Earthlike planet, how long would it take them to find each other?
 
-Here, several clarifications are added to the problem.
+*– [Randall Munroe](https://en.wikipedia.org/wiki/Randall_Munroe), [“Lost Immortals” in “What If?”, p. 183](./doc/lost_immortals_munroe_2014.pdf), 2014*
+
+Here, I add several clarifications to the problem.
 
 For the following ideas, it is not necessary that the planet is
 earth-like, but it is assumed that the planet has a relatively flat
@@ -32,14 +40,17 @@ Each of the two people has the following abilities:
 * Know their own position on the planet
 * Walk at approximately the same speed
 * Reason about the other person
+* Leave footprints on the ground
 
 Both lack all other abilities, including (but not limited to) creating
 new technology, communicating when they are out of sight (no fireworks,
 launching spaceships etc.).
 
-Both people don't know each other, so they can't infer anything about
-each others' specific behavior, they also didn't have the ability to
-communicate before.
+Both people are typical, but had no opportunity to communicate with
+each other beforehand. They can reason about each others' strategy and
+behavior, but have no intricate knowledge about each others decision
+process (if they are artificial agents, they don't know each others'
+algorithm).
 
 These two people want to find each other.
 
@@ -71,6 +82,9 @@ going to the other side of the planet to the right body half, and then
 choosing the strategy based on which part of the body itches first.
 This would be useful since humans are notoriously bad at generating
 random bits (TODO: put a citation here).
+
+On the other hand, this could lead to problems, since many humans have
+points on their skin that are constantly itchy.
 
 TODO: Think of other possible ways the body can generate random bits.
 
@@ -118,16 +132,42 @@ walk from the starting point to the equator).
 If they both start walking in the same direction, the method still
 succeeds: one of the two people has a distance of less than half of the
 length of the equator to the starting point of the other person. This
-person `$p_1$` walks that distance, and then can use that fact as a
+person p₁ walks that distance, and then can use that fact as a
 distinguishing strategy for acting, namely, turning around and starting
-to walk towards the other person. The other person `$p_2$` can use the
+to walk towards the other person. The other person p₂ can use the
 fact that their distance to the starting point of the other person is
 more than half of the length of the equator to distinguish themselves,
-and continue walking. Because `$p_1$` is now walking towards `$p_2$`,
-they will definitely meet. Interestingly, because they are both walking
-the whole time, it will take them less than one walk across the whole
-equator for this algorithm (again including the journey from the pole
-to the equator).
+and continue walking. Because p₁ is now walking towards p₂, they will
+definitely meet. Interestingly, because they are both walking the whole
+time, it will take them less than one walk across the whole equator for
+this algorithm (again including the journey from the pole to the equator).
+
+### Difference to Other Solutions
+
+Of course, this strategy is only one of infinitely many that will result
+in the two people meeting after a constant time. Other such algorithms
+include meeting at any specific point on the planet (such as the starting
+position of one particular person, or 0°N, 0°E etc. TODO: Find out
+whether this is written correctly). However, the proposed strategy is
+different from these.
+
+First of all, it is not person-specific: Both people follow the same
+strategy, and still manage to meet each other in constant time. This
+is not the case for strategies that involve one person doing something
+different from the other person: there is no way for them to know which
+one of them was meant in the first place, unless specific characteristica
+are given (but those are, of course, also person-specific).
+
+Second, it does not need an absolute coordinate system. The algorithm
+works even when the two people only known where the equator is (e.g. with
+an inner sense of direction or a compass), since they randomly choose
+directions once they have reached the equator.
+
+This allows quite restricted conditions for the algorithm to work:
+Each of the people knows the direction towards the equator, knows how
+much they have walked, and can leave one sign on the surface (more are
+not needed, since the point where they both reached the equator is the
+only relevant information to both).
 
 Complications
 -------------
@@ -150,11 +190,37 @@ around randomly, accounting slightly the possibility that they have
 stayed where started, and then taking into account the other strategies
 proposed here.
 
+More intricate and obscure methods of finding this (or even more optimal)
+strategies are possible: One can imagine using a self-sampling assumption
+(TODO: Wikipedia here) and try to act in predictable ways, assuming that
+the other person is similar to oneself based on the assumption that both
+are typical observers. Furthermore, it would be possible (but perhaps
+computationally intractable) to create a probability distribution over
+the set of possible other observers and then calculate their respective
+strategies. For this, a fixed period of time might be allocated, such as
+a day (if the planet has them) or the time it takes to do a full walk
+from the starting point over the equator back to the origin. Here, one
+runs into issues, because the two most obvious choices (walking along
+the circumference once vs. switching places) seem to be equally simple.
+
 ### Arriving at Opposite Points on the Equator Fails
 
 If both of them arrive at opposite sides of the equator, following the
-algorithm will result in them both switching their direction or both
-of them continuing with their course.
+algorithm will result in them both switching their direction or both of
+them continuing with their course. In this case, the algorithm fails,
+and results in them not meeting after less than one iteration. Several
+strategies would be possible at this point: Attempt the algorithm again by
+returning to the starting point, or assuming one of the other strategies.
+This becomes less of a problem depending on how exact the persons'
+knowledge about the already walked distance and the circumference of
+the planet is. The more accurate, the less often the case of arriving
+at perceived opposite points of the equator occurs.
 
-See Also
---------
+Further Questions
+-----------------
+
+* Under given conditions, are there other constant time algorithms for meeting on a sphere?
+* In which ways can the conditions be made more/less strict, and which kinds of methods would they allow?
+
+External Links
+--------------

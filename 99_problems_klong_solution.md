@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-04-08, language: english, status: in progress, importance: 4, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-04-08, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -32,6 +32,8 @@ Variables are declared locally. The solution for problem N is called
 `sN`, helper functions are numbered `aN` for the Nth helper function
 in __Working with lists__, `bN` in __Arithmetic__, `cN` in __Logic and
 Codes__ and so on.
+
+TODO: Convert problems into subsubsections.
 
 Prerequisites
 -------------
