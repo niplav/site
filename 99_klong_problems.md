@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2019-04-08, language: english, status: in progress, importance: 4, confidence: translation*
+*author: niplav, created: 2019-01-14, modified: 2019-04-17, language: english, status: in progress, importance: 4, confidence: translation*
 
 > __The list of 99 problems was originall written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems)
@@ -717,3 +717,16 @@ Example:
 	[:a :c :d]
 
 ### P62B (\*) Collect the nodes at a given level in a list.
+
+A node of a binary tree is at level N if the path from the root to
+the node has length N-1. The root node is at level 1. Write a function
+`atlevel` that collects all nodes at a given level in a list.
+
+Example:
+
+		atlevel([:a [:b [:c [] []] [:d [] []]] [:e [] []]];3)
+	[:b :c]
+
+Using `atlevel`, it is easy to construct a function `levelorder` which
+creates the level-order sequence of the nodes. However, there are more
+efficient ways to do that.

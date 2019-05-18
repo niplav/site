@@ -8,6 +8,18 @@
 Changelog
 =========
 
+May 2019
+--------
+
+### New Content
+
+* [Pipe Rings](./pipe_rings.md)
+* Transcribed chapters 43 to 56 of the [Tao Tê King](./tao_te_king.md)
+
+### Site Changes
+
+* Updated CSS to highlight quotes & code
+
 April 2019
 ----------
 

@@ -1,23 +1,20 @@
 [home](./index.md)
 -----------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-04-11, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2019-04-02, modified: 2019-04-24, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __Two people are abducted and placed on the opposite poles of a
 > habitable planet. They want to find each other, but they have no
 > way to communicate. The only things they know is their their own
 > respective position on the planet and the position of the equator and
 > the poles. Here, different methods for finding each other under similar
-> conditions are explained and discussed, and a constant-time algorithm
-> is introduced.__
+> conditions are explained and discussed, and a deterministic method
+> for finding each other is introduced.__
 
 Two People on a Planet
 ======================
 
 TODO: read “The Theory of Search Games and Rendezvous” by Alperin & Gal  
-TODO: It is a linear time algorithm (on the radius of the sphere),
-not constant, but better rewrite the parts and say it is deterministic
-instead of linear
 
 The Problem
 ------------
@@ -111,7 +108,8 @@ If they had walked more than half of the circumference of the planet,
 they would continue walking no matter whether they would see other
 footsteps on the ground.
 
-This would ensure that they would meet in constant time.
+This would ensure that they would deterministically meet in `$O(n)$`
+(`$n$` being the circumference of the planet).
 
 Why it Works
 ------------
@@ -145,18 +143,19 @@ this algorithm (again including the journey from the pole to the equator).
 ### Difference to Other Solutions
 
 Of course, this strategy is only one of infinitely many that will result
-in the two people meeting after a constant time. Other such algorithms
-include meeting at any specific point on the planet (such as the starting
-position of one particular person, or 0°N, 0°E etc. TODO: Find out
-whether this is written correctly). However, the proposed strategy is
-different from these.
+in the two people deterministically meeting after a linear amount of
+time. Other such algorithms include meeting at any specific point on the
+planet (such as the starting position of one particular person, or 0°N,
+0°E etc. TODO: Find out whether this is written correctly). However,
+the proposed strategy is different from these.
 
 First of all, it is not person-specific: Both people follow the same
-strategy, and still manage to meet each other in constant time. This
-is not the case for strategies that involve one person doing something
-different from the other person: there is no way for them to know which
-one of them was meant in the first place, unless specific characteristica
-are given (but those are, of course, also person-specific).
+strategy, and still manage to meet each other deterministically in
+linear time. This is not the case for strategies that involve one
+person doing something different from the other person: there is no
+way for them to know which one of them was meant in the first place,
+unless specific characteristica are given (but those are, of course,
+also person-specific).
 
 Second, it does not need an absolute coordinate system. The algorithm
 works even when the two people only known where the equator is (e.g. with
@@ -219,7 +218,7 @@ at perceived opposite points of the equator occurs.
 Further Questions
 -----------------
 
-* Under given conditions, are there other constant time algorithms for meeting on a sphere?
+* Under given conditions, are there other deterministic algorithms for meeting on a sphere?
 * In which ways can the conditions be made more/less strict, and which kinds of methods would they allow?
 
 External Links
