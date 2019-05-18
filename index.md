@@ -23,6 +23,7 @@ Writing
 * Analyses
 * Ideas
 	* [Equally Many Heads and Tails](./equally_many_heads_and_tails.md)
+	* [Pipe Rings](./pipe_rings.md)
 	* [Two People on a Planet](./two_people_on_a_planet.md)
 * Collections
 	* [Rationalist Gods](./rationalist_gods.md)

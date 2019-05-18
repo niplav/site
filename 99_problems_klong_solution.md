@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-04-08, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-05-16, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -33,8 +33,6 @@ Variables are declared locally. The solution for problem N is called
 in __Working with lists__, `bN` in __Arithmetic__, `cN` in __Logic and
 Codes__ and so on.
 
-TODO: Convert problems into subsubsections.
-
 Prerequisites
 -------------
 
@@ -50,7 +48,7 @@ and `sqr::{[a];a::x;:[0=x;0;{(x+a%x)%2}:~a]}` (taken directly from the library).
 Working with Lists
 ------------------
 
-> __P01 (\*) Find the last element of a list.__
+### P01 (\*) Find the last element of a list.
 
 The function reverses the first argument and then returns the first element.
 
@@ -79,7 +77,7 @@ as opposed to 0.65 seconds on my machine):
 
 Klong apparently has a very efficient reversing operation for lists.
 
-> __P02 (\*) Find the last but one sublist of a list.__
+### P02 (\*) Find the last but one sublist of a list.
 
 This implementation uses a property of the Take verb that allows
 indexing from the end of the list with negative numbers. A longer and
@@ -95,7 +93,7 @@ We again take the test from the problems list:
 		mybutlast([:a :b :c :d])
 	[:c :d]
 
-> __P03 (\*) Find the K'th element of a list.__
+### P03 (\*) Find the K'th element of a list.
 
 This one is very straightforward in Klong: indexing is zero-based,
 so one subtracts one of the second element and then extracts the value.
@@ -108,20 +106,20 @@ Testing:
 		elementat([:a :b :c :d :e];3)
 	:c
 
-> __P04 (\*) Find the number of elements of a list.__
+### P04 (\*) Find the number of elements of a list.
 
 Since `#` is a Klong primitive for the length of a list, this
 problem is trivial.
 
 	s4::{#x}
 
-> __P05 (\*) Reverse a list.__
+### P05 (\*) Reverse a list.
 
 Similar to problem 5, there is a primitive for this.
 
 	s5::{|x}
 
-> __P06 (\*) Find out whether a list is a palindrome.__
+### P06 (\*) Find out whether a list is a palindrome.
 
 Since `=` compares a list element-wise (and returns a list with boolean
 values corresponding to the equality of the two lists), we have to use
@@ -130,7 +128,7 @@ compare `x` and its reversion that way.
 
 	s6::{x~|x}
 
-> __P07 (\*\*) Flatten a nested list structure.__
+### P07 (\*\*) Flatten a nested list structure.
 
 This particularly elegant solution is taken from the Klong
 documentation. It applies the concatenation operator to the sublists of
@@ -158,7 +156,7 @@ Unfortunately, this solution fails with lists containing only one element:
 
 TODO: Find a solution that doesn't do this.
 
-> __P08 (\*\*) Eliminate consecutive duplicates of list elements.__
+### P08 (\*\*) Eliminate consecutive duplicates of list elements.
 
 This solution first creates a list of `1` and `0` that has `1` at at
 positions where in `x` the element is followed by an value different
@@ -184,7 +182,7 @@ And compressing the empty list (and a 1-element list) works as well:
 		compress([1])
 	[1]
 
-> __P09 (\*\*) Pack consecutive duplicates of list elements into sublists.__
+### P09 (\*\*) Pack consecutive duplicates of list elements into sublists.
 
 Here, we first do the same matching between the elements as in P08,
 but then we reverse the results and append 0 at the start. In that
@@ -208,7 +206,7 @@ Testing it:
 		pack([:a :a :a :a :b :c :c :a :a :d :e :e :e :e])
 	[[:a :a :a :a] [:b] [:c :c] [:a :a] [:d] [:e :e :e :e]]
 
-> __P10 (\*) Run-length encoding of a list.__
+### P10 (\*) Run-length encoding of a list.
 
 As the problem statement suggests, this solution is pretty
 straightforward. For every sublist of the result of `s9`, we append
@@ -222,7 +220,7 @@ Tests:
 		encode([:a :a :a :a :b :c :c :a :a :d :e :e :e :e])
 	[[4 :a] [1 :b] [2 :c] [2 :a] [1 :d] [4 :e]]
 
-> __P11 (\*) Modified run-length encoding.__
+### P11 (\*) Modified run-length encoding.
 
 Again, this is quite easy. For the result of `s10`, we test whether the
 length of the sublist is 1, and if it is, then we return just the value,
@@ -250,7 +248,7 @@ It works fine with `[]`, though:
 		encodemodified([])
 	[]
 
-> __P12 (\*\*) Decode a run-length encoded list.__
+### P12 (\*\*) Decode a run-length encoded list.
 
 Here, we simply execute a function over the list: If the list element
 is an atom (it is itself not a list), we simply return it, otherwise
@@ -260,7 +258,7 @@ the list elements to each other.
 
 	s12::{,/{:[@x;x;(*x):^x@1]}'x}
 
-> __P13 (\*\*) Run-length encoding of a list (direct solution).__
+### P13 (\*\*) Run-length encoding of a list (direct solution).
 
 The difference between 'creating sublists' and 'indexing them' is
 not very big in Klong, but a reasonable attempt is presented here.
@@ -306,7 +304,7 @@ orders of magnitude slower than `s11`.
 
 TODO: Explore why `s13` is so much slower.
 
-> __P14 (\*) Duplicate the elements of a list.__
+### P14 (\*) Duplicate the elements of a list.
 
 This solution is a specialization of the solution to P15. We take the function
 `2:^x` (repeat x 2 times, abusing Reshape) and call Each-Left on the first
@@ -347,7 +345,7 @@ calling the different versions with `10000` elements:
 As one can see, the indexing-based solution is by far the fastest,
 with little difference between the other two.
 
-> __P15 (\*\*) Replicate the elements of a list a given number of times.__
+### P15 (\*\*) Replicate the elements of a list a given number of times.
 
 Here we have the more general case of P14. We simply have to replace `2`
 by the second argument `y` here: Repeat `x` `y` times for every `x` in
@@ -361,7 +359,7 @@ Test:
 		repli([:a :b :c];3)
 	[:a :a :a :b :b :b :c :c :c]
 
-> __P16 (\*\*) Drop every N'th element from a list.__
+### P16 (\*\*) Drop every N'th element from a list.
 
 The example given indicates that the indexing is 1-based. The Drop verb
 doesn't work with two lists (although that would make a nice addition
@@ -392,7 +390,7 @@ if `x` is `[]`: `s16::{:[x~[];[];x@&(y-1)>(!#x)!y]}`.
 
 TODO: Think about including this into the full text.
 
-> __P17: (\*) Split a list into two parts, the length of the first part is given.__
+### P17: (\*) Split a list into two parts, the length of the first part is given.
 
 For this problem, Split is the fitting verb. It can receive a list of
 lengths, and is quite lenient with lists that don't fit exactly. So we
@@ -416,7 +414,7 @@ The Split verb doesn't work with a range of `0`:
 		split([1 2 3];0)
 	kg: error: split: range error: 0
 
-> __P18: (\*\*) Extract a slice from a list.__
+### P18: (\*\*) Extract a slice from a list.
 
 Here, we can simply take the first `z` elements from the start of
 the list, and then drop `y-1` elements of that list (we have to subtract
@@ -442,7 +440,7 @@ repeats the elements it finds.
 An alternative solution, using Index over a range, is
 `s18::{x@(y-1)+!1+z-y}`.
 
-> __P19: (\*\*) Rotate a list N places to the left.__
+### P19: (\*\*) Rotate a list N places to the left.
 
 Klong has a verb for that™. By default, `:+` rotates to the right with
 positive, and to the left with negative integers, so we have to reverse
@@ -458,7 +456,7 @@ Tests:
 		rotate([:a :b :c :d :e :f :g :h];-2)
 	[:g :h :a :b :c :d :e :f]
 
-> __P20: (\*) Remove the K'th element from a list.__
+### P20: (\*) Remove the K'th element from a list.
 
 It's quite possible that there is a short and elegant solution with 3
 combined adverbs, but this solution does the obvious: it concatenates
@@ -478,7 +476,7 @@ Tests:
 Alternative solutions could use Expand over a list of booleans
 `s20::{x@&~(y-1)=!#x}` or double rotation `s20::{(-y-2):+1_(y-1):+x}`
 
-> __P21: (\*) Insert an element at a given position into a list.__
+### P21: (\*) Insert an element at a given position into a list.
 
 Here, one can use a naïve solution takes the first `z-1` elements from
 the list, concatenates them with `x`, and then concatenates the result
@@ -520,7 +518,7 @@ the end. The solution re-using `s17` is a bit slower, maybe because
 of storing the result in a local variable or because Cut is a more
 expensive operation.
 
-> __P22: (\*) Create a list containing all integers within a given range.__
+### P22: (\*) Create a list containing all integers within a given range.
 
 This one is quite simple, although a bit clunky. We simply create a
 list of integers from 0 to `y-(x-1)` (in Klong, because of right-to-left
@@ -534,7 +532,7 @@ Tests run through like a breeze:
 		range(4;9)
 	[4 5 6 7 8 9]
 
-> __P23 (\*\*) Extract a given number of randomly selected elements from a list.__
+### P23 (\*\*) Extract a given number of randomly selected elements from a list.
 
 We don't use solution 20 because we don't have to. Instead, we wrap the
 function into an Iterate verb that gets executed `(#x)-y` times, and
@@ -555,7 +553,7 @@ we can check if it does the approximately right thing:
 		rndselect([:a :b :c :d :e :f :g :h];0)
 	[]
 
-> __P24 (\*) Lotto: Draw N different random numbers from the set 1..M.__
+### P24 (\*) Lotto: Draw N different random numbers from the set 1..M.
 
 The solution to this is pretty simple. With `s23`, we already have a
 function to draw N elements from a list, so we only have to create the
@@ -580,7 +578,7 @@ Using `s22` here would be wasteful, since that would use up more bytes
 than simply typing `1+!y`: `s24::{s23(s22(1;1+y);x)}`. We don't need
 the given hint.
 
-> __P25 (\*) Generate a random permutation of the elements of a list.__
+### P25 (\*) Generate a random permutation of the elements of a list.
 
 A quite nice solution is the following: First, one creates a list of
 random numbers that has the same length as the first argument using the
@@ -637,7 +635,7 @@ Further doubling of the array size returns following runtimes in seconds:
 Both seem to grow with roughly `$O(n^2)$`. There is probably a Klong verb that
 runs in `$O(n^2)$` and was used in `s20` or `s25`.
 
-> __P26 (\*\*) Generate the combinations of K distinct objects chosen from the N elements of a list.__
+### P26 (\*\*) Generate the combinations of K distinct objects chosen from the N elements of a list.
 
 This solution is a _bit_ more complicated than the previous ones. It
 takes a recursive approach, with the base case being `1`, returning a
@@ -676,7 +674,10 @@ Testing:
 		combination(3;[:a :b])
 	[]
 
-> __P27 (\*\*) Group the elements of a set into disjoint subsets.__
+### P27 (\*\*) Group the elements of a set into disjoint subsets.
+
+	a1::{[b];b::y;flr({[]~b?x};x)}
+	group3::{[a];a::x;{[c];c::x;{(,c),x}',s26(4;a1(a;,/x))}'*'{[b];b::x;{(,b),x}',s26(3;a1(a;x))}'s26(2;x)}
 
 	a3::{[m n];m::x;n::*'{m?x}'y;flr({~:_x};m:=(%0),n@<n)}
 	a4::{[l];l::x;{(,l),x}'y}

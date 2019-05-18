@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-04-15, language: english, status: notes, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2019-04-24, language: english, status: notes, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -68,7 +68,8 @@ for corrections sent my way.
 
 ### Style
 
-The style of writing is mostly formal english.
+The style of writing is mostly formal english. TODO: Find out whether
+to use US or british english.
 
 * Titles and headers use the (TODO: information about the exact style) style of capitalization
 * MathJax is used only when necessary
@@ -82,6 +83,7 @@ The style of writing is mostly formal english.
 	* for one author: `[Author Year](./title_author_year.pdf)`
 	* for two authors: `[Author&Coauthor Year](./title_author_coauthor_year.pdf)`
 	* for more than two authors: `[Author et. al Year](./title_author_et_al_year.pdf)`
+* The year for a text is usually the best date of the last significant change to the text.
 * Link individual chapters from books, not whole books, whole papers are okay.
 * Sections every article contains:
 	* link back to the index page `[home](./index.md)`
@@ -122,7 +124,9 @@ Tags for texts (mainly taken from http://www.gwern.net/About):
 
 The website is built writing the articles in Markdown (TODO: link here)
 and them compiling them to standard HTML using `markdown_py` (TODO:
-link)  Mathematical formulae are typeset using MathJax.
+link). Mathematical formulae are typeset using MathJax. It only uses
+only minimal CSS (highlighting code and quotes, centering the text and
+limiting line length) and no JavaScript.
 
 ### Influences
 
@@ -137,3 +141,9 @@ https://guzey.com/personal/why-have-a-blog/
 
 The author
 ----------
+
+### Elsewhere on the Internet
+
+### Personality Tests
+
+### Anonymity

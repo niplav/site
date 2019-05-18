@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: [Lao-tse](https://de.wikipedia.org/wiki/Laozi), created: -400-01-01, translator: [Günther Debon](https://de.wikipedia.org/wiki/G%C3%BCnther_Debon), translated: 1979-01-01, transcriptor: niplav, transcribed: 2019-03-23, modified: 2019-04-23, language: german, status: in progress, importance: 4, confidence: transcription*
+*author: [Lao-tse](https://de.wikipedia.org/wiki/Laozi), created: -400-01-01, translator: [Günther Debon](https://de.wikipedia.org/wiki/G%C3%BCnther_Debon), translated: 1979-01-01, transcriptor: niplav, transcribed: 2019-03-23, modified: 2019-05-18, language: german, status: in progress, importance: 4, confidence: transcription*
 
 > __The Tao Tê King is one of the most translated texts in history. This
 > is a transcription of the german translation by Günther Debon from
@@ -1178,3 +1178,452 @@ Was die Menschen lehren,
 Das lehre auch Ich.  
 Das Balkenstarke stirbt keinen guten Tod.  
 Die wollen Wir zum Vater unserer Lehre nehmen.  
+
+### Kapitel 43
+
+§101
+
+Das Allerweichste der Welt  
+Holt im Rennen das Allerhärteste ein:  
+Ins Lückenlose dringt, was ohne Sein.  
+
+§102
+
+Daran erkennen Wir:  
+Was ohne Tun ist, wird mehr.  
+Nicht redend lehren,  
+Ohne Tun sich mehren  
+Wird auf der Welt nur selten erreicht.  
+
+### Kapitel 44
+
+§103
+
+Rum oder Leib – was steht dir näher?  
+Leib oder Gut – welches zählt mehr?  
+Gewinnen oder Verlieren – welches macht Pein?  
+Darum:  
+Wer allzu sorgsam spart, wird groß vergeuden;  
+Wer viel sich häuft, in Fülle büßt der ein.  
+
+§104
+
+Wer Genügen kennt, bleibt ohne Schande;  
+Wer Einhalt kennt, ist ohne Gefahr.  
+So kann er dauern und bleibt immerdar.  
+
+### Kapitel 45
+
+§105
+
+Ein groß Vollendetes scheint voll von Rissen,  
+Doch im Gebrauch bleibt es unverschlissen.  
+Ein groß Gefülltes scheint wie leer,  
+Doch im Gebrauch gibts unendlich her.  
+
+Ein groß Aufrechter scheint wie krumm;  
+Ein großer Könner scheint wie dumm;  
+Ein großer Redner stockt wie stumm.  
+
+§106
+
+Durch Ungestüm besiegt man die Kälte;  
+Durch Stillsein besiegt man die Hitze.  
+Durch Reinheit und Stille  
+Machst du das Erdreich recht.  
+
+### Kapitel 46
+
+§107
+
+Wenn das Erdreich den *Weg* hat,  
+Stell man das Rennpferd zum Dunggeben ein.  
+
+Wenn das Erdreich nicht den *Weg* hat,  
+Züchtet man Kriegspferde selbst in der Vorstadt.  
+
+§108
+
+Kein Frevel größer,  
+Als seinen Wünschen nachzugeben.  
+Kein Übel größer,  
+Als nicht Genügen kennen.  
+Kein Makel größer,  
+Als nach Gewinn zu streben.  
+
+Wahrlich:  
+Wer Genügen kennt am Genügenden,  
+Wird ständig genug haben.  
+
+### Kapitel 47
+
+§109
+
+Ohne das Tor zu verlassen,  
+Kannst du das Erdreich erfassen;  
+Ohne durchs Fenster zu spähn,  
+Den Weg des Himmels sehn.  
+Je weiter wir hinausgegangen,  
+Desto geringer wird unser Verstehn.  
+
+§110
+
+Deshalb der Heilige Mensch:  
+Ohne zu wandeln, versteht er;  
+Ohne zu sehn, benennt er;  
+Ohne zu tun, vollendet er.  
+
+### Kapitel 48
+
+§111
+
+Betreibe das Lernen:  
+So mehrst du dich täglich.  
+Betreibe den *Weg:  
+So minderst du dich täglich.  
+Mindern und abermals mindern  
+Führt dich zum Ohne-Tun.  
+
+Bleib ohne Tun –  
+Nichts, das dann ungetan bliebe.  
+
+§112
+
+Nimmst du das Reich, sei ständig ohne Geschäft!  
+Denn wer beschäftigt ist,  
+Ist unzulänglich, das Reich zu nehmen.  
+
+### Kapitel 49
+
+§113
+
+Der Heilige Mensch ist ohne beständigen Sinn:  
+Den Sinn der hundert Geschlechter  
+Macht er zu seinem Sinn.  
+»Zu den Guten bin Ich gut.  
+Zu den Unguten bin Ich auch gut.»  
+So empfängt er Güte.  
+»Den Treuen vertraue Ich.  
+Den Ungetreuen vertraue Ich auch.«  
+So empfängt er Vertrauen.  
+
+§114
+
+Der Heilige Mensch weilt im Reich voll Ängstlichkeit.  
+Um des Reiches willen macht er verworren seinen Sinn.  
+Die Hundert Geschlechter richten auf ihn Aug und Ohr.  
+Der Heilige Mensch begegnet allen wie Kindern.  
+
+### Kapitel 50
+
+§115
+
+Austritt ist Leben, Eintritt ist Tod.  
+
+§116
+
+Des Lebens Begleiter sind dreizehn.  
+Des Todes Begleiter sind dreizehn.  
+Die tödlichen Stellen in des Menschen Lebensregung  
+Sind ebenfalls dreizehn.  
+Und was der Grund?  
+Er lebt sein Leben zu völlig.  
+
+Denn ich habe gehört:  
+Wer es versteht, sein Leben zusammenzuhalten,  
+Der wandelt über Land und trifft nicht Nashorn noch Tiger;  
+Der tritt in die Schlacht und trägt nicht Panzer noch Waffen:  
+Das Nashorn findet nicht, worein das Horn zu stoßen;  
+Der Tiger findet nicht, worein die Klaue zu schlagen;  
+Die Waffe findet nicht, worein die Klinge zu bohren.  
+Und was der Grund?  
+Er ist ohne tödlich Stellen.  
+
+### Kapitel 51
+
+§117
+
+Der *Weg* erzeugt;  
+Die Tugend hegt;  
+Die Wesen formen;  
+Die Macht vollendet.  
+
+Darum ist unter den zehntausend Wesen keines,  
+Das nicht den *Weg* achtet und die Tugend ehrt.  
+Den *Weg* zu achten, die Tugend zu ehren,  
+Wohl! keiner hat es befohlen;  
+Ewig geschieht es von selbst.  
+
+Wahrlich:  
+Der *Weg erzeugt sie;  
+Die Tugend hegt sie,  
+Leitet und pflegt sie,  
+Vermehrt sie,  
+stüzt sie,  
+Nährt sie, beschützt sie.  
+
+§118
+
+Erzeugen, doch nicht besitzen;  
+Tun, doch nicht drauf baun;  
+Leiten, doch nicht beherrschen–  
+Die nennt man Mystische Tugend.  
+
+### Kapitel 52
+
+§119
+
+Das Erdreich hat einen Anbeginn:  
+Er sei des Erdreichs Mutter genannt.  
+Wer einmal seine Mutter fand,  
+Hat sich als ihren Sohn erkannt.  
+Wer einmal sich als Sohn erkannt,  
+Wird treuer noch die Mutter wahren.  
+Sinkt hin sein Leib, ist er ohne Gefahren.  
+
+§120
+
+Wer seinen Zugang sperrt  
+Und seine Pforten schließt,  
+Des Leib ist ohne Mühsal bis zum Ende.  
+Wer seinen Zugang öffnet  
+Und fördert seine Werke,  
+Des Leib ist ohne Rettung bis zum Ende.  
+
+§121
+
+Kleinstes sehen heißt:  
+Erleuchtung.  
+Weihheit wahren heißt: Stärke.  
+Wer seinen Glanz gebraucht,  
+Um zur Erleuchtung heimzufinden,  
+Der büßt nichts ein, trifft Unheil seinen Leib.  
+Dies nennt man: Sich dem Ewigen verbinden.  
+
+### Kapitel 53
+
+§122
+
+Gesetzt, Ich hätte wenig Wissen nur  
+Und wandelte den Großen *Weg*:  
+Ich würde nichts fürchten, als abzuweichen.  
+Denn der Große *Weg* ist völlig plan;  
+Nur, das Volk liebt die Saumpfade.  
+
+§123
+
+Ist der Palast voll Prunk gebaut,  
+Doch die Felder voll von Kraut;  
+Sind die Scheunen völlig leer,  
+Doch die Kleider farbig-fein,  
+Gürtet man ein scharfes Schwert,  
+Ist man satt der Schwelgerein;  
+Hat man Überfluß an Geld und Gut –  
+Nenn ich das: Banditen-Übermut.  
+Solches kann der *Weg* nicht sein!  
+
+### Kapitel 54
+
+§124
+
+Was gut gepflanzt ist, wird nicht ausgereutet;  
+Was gut umhüllt ist, wird nicht ausgebeutet.  
+So wird der Opferdienst von Sohn und Enkel  
+Ohn' Unterbrechen ausgebreitet.  
+
+§125
+
+Wenn du dies pflegst für dich allein,  
+Wird deine Tugend wahrhaft sein.  
+Wenn du dies pflegst bei dir zu Haus,  
+Breitet sich deine Tugend aus.  
+Wenn du dies pflegst am Heimatort,  
+Wächst deine Tugend fort und fort.  
+Wenn du dies pflegst im ganzen Land,  
+Blüht deine Tugend unwverwandt.  
+Wenn du die pflegst im ganzen Reihc,  
+Dient deine Tugend allen gleich.  
+
+Wahrlich:  
+Am eigenen Selbst bemißt man anderer Selbst;  
+Am eignen Haus bemißt man die Häuser;  
+Am eigenen Ort bemißt man die Orte;  
+Am eigenen Land bemißt man die Länder;  
+Am Reich bemißt man das Erdreich.  
+Und woher wissen Wir, wie das Erdreich ist?  
+Durch dieses.  
+
+### Kapitel 55
+
+§126
+
+Die Völligkeit dessen, der Tugend in sich versammelt,  
+Gleicht der eines neugeborenen Kindleins.  
+Bienen, Skorpione, Vipern und Schlangen beißen es nicht;  
+Wilde Tiere schlagen es nicht;  
+Raubvögel reißen es nicht.  
+Seine Knochen sind schwach, seine Sehnen weich,  
+Dennoch ist fest sein Griff.  
+Es weiß noch nicht von Mannes und Weibes Vereinigung,  
+Dennoch zeigt sich sein Glied:  
+Das ist der Samenkraft Gipfel.  
+Den ganzen Tag schreit es,  
+Dennoch wird es nicht heiser:  
+Das ist der Gipfel natürlichen Einklangs.  
+
+§127
+
+Den Einklang kennen heißt: Ewig sein.  
+Das Ewige kennen heißt: Erleuchtet sein.  
+Das Leben mehren heißt: Unheil beschwören.  
+Bewußt den Atem regeln heißt: Stärke (Starrheit) begehren.  
+
+§128
+
+Wird ein Wesen fest, so wird es alt.  
+Dieses nennt man: Nicht dem *Weg* gemäß.  
+Nicht dem *Weg* gemäß wird enden bald.  
+
+### Kapitel 56
+
+§129
+
+Ein Wissender redet nicht:  
+Ein Redender weiß nicht.  
+
+§130
+
+[Der Heilige Mensch]  
+Versperrt seinen Zugang,  
+Verschließt seine Pforten,  
+Schabt ab seine Schärfen,  
+Löst auf seine Wirren,  
+Beschwichtigt sein Glänzen,  
+Vereint seinen Staub.  
+Diies nennt man Mystische Vereinigung.  
+
+§131
+
+Darum ist er  
+Unerreichbar aller Vertrautheit,  
+Unerreichbar aller Zurückweisung,  
+Unerreichbar allem Nutzen,  
+Unerreichbar allem Schaden,  
+Unerreichbar aller Ehrung,  
+Unerreichbar aller Geringheit.  
+
+Darum ist er geehrt vor allen andern im Reich.  
+
+### Kapitel 57
+
+§132
+
+Mit dem Rechten regiert man das Land;  
+Mit Ordnungswidrigem gebraucht man die Waffen;  
+Mit Ungeschäftigkeit nimmt man das Reich.  
+
+(Und woher weiß Ich, daß dem so ist?  
+Durch dieses.)  
+
+§133
+
+Gibt es im Reich viel Hindrung und Verbot,  
+So wird das Volk nur ärmer werden.  
+Gibt es im Volk viel nützliches Gerät,  
+So wird das Herrscherhaus verstört.  
+Mehrt sich der Menschen Schläue und Geschick,  
+Kommt auf viel Ordnungswidrigkeit.  
+Je mehr Gesetz und Weisung man erläßt,  
+Desto mehr Räuber gibts und Diebe.  
+
+§134
+
+Darum sagt der Heilige Mensch:  
+
+»Ich bin ohne Tun,  
+Und das Volk wird von selbst sich entfalten.  
+Ich liebe die Stille,  
+Und das Volk kommt von selber zur Ordnung.  
+Ich bin ohne Geschäftigkeit,  
+Und das Volk wird von selber reich.  
+Ich bin ohne Begehren,  
+Und das Volk wird von selber schlicht.«  
+
+### Kapitel 58
+
+§135
+
+Wes Herrschaft bang-befangen,  
+Des Volk wird harmlos prangen;  
+Wes Herrschaft strebig-straff,  
+Des Volk wird arg und schlaff.  
+
+§136
+
+Der Segen, ach! lehnt an das Unheil sich;  
+Das Unheil, ach! es kauert vor dem Segen.  
+Wer weiß, wo beider First gelegen?  
+Da Rechtes nicht noch Ketzerei vorhanden,  
+Verkehrt das Rechte sich in Widrigkeit  
+Und muß das Gute sich in Dämonie verkehren.  
+Daß blind der Menschen Blick,  
+Des Tage werden ewig währen!  
+
+§137
+
+Deshalb, der Heilige Mensch  
+Ist vierkant, ohne zu schneiden;  
+Ist winkling, ohne zu stechen;  
+Ist aufrecht, ohne sich zu dehnen;  
+Ist glänzend, ohne zu blenden.  
+
+### Kapitel 59
+
+§138
+
+Um die Menschen zu regieren  
+Um dem Himmel zu dienen,  
+Ist nichts so gut wie Geizen.  
+Wohl! Dieses Geizen bedeutet:  
+Sich früzeitig unterziehen.  
+Sich frühzeitig unterziehen, heißt:   
+Die gespeicherte Tugend verdoppeln.  
+Wenn einer die gespeicherte Tugend verdoppelt,  
+Ist nichts, das er nicht zwingt.  
+Wenn nichts ist, das einer nicht zwingt,  
+So kennt niemand seinen First.  
+Wes höchesten First niemand kennt,  
+Der darf das Land haben.  
+
+§139
+
+Wer des Landes Mutter hat,  
+Der kann ewig dauern.  
+Dieses nennt man:  
+Die Wurzel vertiefen und den Stamm festigen.  
+Das ist der Weg ewigen Lebens  
+Und dauernder Scham.  
+
+### Kapitel 60
+
+§140
+
+Regier ein großes Land,  
+Als ob du brietest kleine Grundeln!  
+
+§141
+
+Wenn nach dem *Weg* ist überwacht das Reich,  
+So werden die Dämonen nicht  
+Als Geister sich bekunden.  
+Nicht nur, daß die Dämonen sich  
+Als Geister nicht bekunden;  
+Es werden diese Geister  
+Die Menschen nicht verwunden.  
+Nicht nur, daß diese Geister  
+Die Menschen nicht verwunden:  
+Auch wird der Heilige Mensch  
+Die Menschen nicht verwunden.  
+
+Wohl! Wenn einander nicht verwunden beide,  
+Hat Tugend sich im Wechsel eingefunden.  
