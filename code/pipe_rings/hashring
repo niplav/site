@@ -1,0 +1,7 @@
+#!/usr/bin/env rc
+
+fn oipl {
+	while(read | eval $*) {}
+}
+
+tail -f sums | oipl md5sum | stdbuf -i0 -oL grep -o '^..' >>sums

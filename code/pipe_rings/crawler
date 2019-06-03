@@ -1,0 +1,14 @@
+#!/usr/bin/env rc
+
+# download a webpage and extract all links in it
+fn getl {
+	while(true)
+	{
+		curl `{read} |
+		grep -o '<a href="[^"]*"' |
+		sed 's/^<a href="//;s/"$//' |
+		grep '^https\?://'
+	}
+}
+
+tail -f links | getl | stdbuf -i0 -oL awk '!a[$0]++' >>links

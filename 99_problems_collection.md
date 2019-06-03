@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-09, modified: 2019-02-14, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-02-09, modified: 2019-05-24, language: english, status: in progress, importance: 2, confidence: log*
 
 > __The list of 99 problems, originally for Prolog, has been translated
 > for a few other languages. This page collects links to them.__
@@ -15,7 +15,7 @@ Problems with Solutions
 The original list was written by Werner
 Hett for the Prolog programming language and later
 [re-organized](https://sites.google.com/site/prologsite/prolog-problems).
-Most translations into other alanguages use the old ordering, which only
+Most translations into other languages use the old ordering, which only
 contains 88 problems, due to both sub-problems and gaps in the order.
 
 * [Elm](https://en.wikibooks.org/wiki/99_Elm_Problems/1_to_99), 1-22, solved

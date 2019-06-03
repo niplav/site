@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2019-04-17, language: english, status: in progress, importance: 4, confidence: translation*
+*author: niplav, created: 2019-01-14, modified: 2019-05-24, language: english, status: in progress, importance: 4, confidence: translation*
 
 > __The list of 99 problems was originall written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems)
@@ -18,11 +18,11 @@ Caveat Lector
 -------------
 
 A number of changes were made to the original problems list.  For one,
-Klong neither allows underscores `_` nor dashes `-` in function names,
-so it seemed like the best option to just remove the dashes from the
-names without replacing them with anything else.  Another possible option
-would have been to replace them with dots `.`, but dots are usually used
-in order to denote modules and seemed inappropriate here.
+Klong neither allows underscores nor dashes in function names, so it
+seemed like the best option to just remove the dashes from the names
+without replacing them with anything else.  Another possible option would
+have been to replace them with dots, but dots are usually used in order
+to denote modules and seemed inappropriate here.
 
 Also, some problems in the __Logic and Codes__ (*P46*, *P47* and *P48*)
 section are in their original form not possible in Klong. We tried to
@@ -385,13 +385,13 @@ See problem P34 for the definition of Euler's totient function. If the
 list of the prime factors of a number m is known in the form of problem
 P36 then the function phi(m) can be efficiently calculated as follows:
 
-Let [[p1 m1] [p2 m2] [p3 m3] ...] be the list of prime factors (and their
+Let `[[p1 m1] [p2 m2] [p3 m3] ...]` be the list of prime factors (and their
 multiplicities) of a given number m. Then phi(m) can be calculated with
 the following formula:
 
-phi(m)=(p1-1)\*p1\*\*(m1-1)+(p2-1)\*p2\*\*(m2-1)+(p3-1)\*p3\*\*(m3-1)+...
-
-Note that a\*\*b stands for the b'th power of a.
+<div>
+	$$phi(m)=(p_{1}-1)*p_{1}^{m_{1}-1}+(p_{2}-1)*p_{2}^{m_{2}-1}+...=\sum_{i=1}^{n} (p_{i}-1)*p_i^{m_{i}-1}$$
+</div>
 
 ### P38 (*) Compare the two methods of calculating Euler's totient function.
 

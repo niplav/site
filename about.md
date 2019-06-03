@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-04-24, language: english, status: notes, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2019-05-29, language: english, status: notes, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -13,25 +13,33 @@ The site
 
 ### Content
 
-This website contains essays on different topics, ranging from programming
-over philosophy to discussions of odd social behavior, as well as
-translations, transcriptions, music recordings and programming projects.
-It follows the idea of Long Content (TODO: add gwern link here): pages
-that are continually getting refined and updated, never quite completely
-finished, but approaching stability. This allows for "perpetual drafts",
-along with continuous improvement (similar to a wiki, but mainly edited
-by one person). Because of this, TODO's are left in the text, making it
-easier for me to find them and edit them out, though they may leave the
-reader with an unsatisfying feeling of incompleteness.
+This website contains essays on different topics, ranging
+from programming over philosophy to discussions of odd social
+behavior, as well as translations, transcriptions, music
+recordings and programming projects.  It follows the idea of [Long
+Content](https://www.gwern.net/About#long-content): pages that are
+continually getting refined and updated, never quite completely finished,
+but approaching stability. This allows for "perpetual drafts", along
+with continuous improvement (similar to a wiki, but mainly edited by one
+person). Because of this, TODO's are left in the text, making it easier
+for me to find them and edit them out, though they may leave the reader
+with an unsatisfying feeling of incompleteness.
 
 This is inspired by the idea of Long Content, produced under the motto
 
-> Act Long Now, think Less Wrong, Suck Less.
+> Think Less Wrong, act Long Now and Suck Less.
 
-For this reason, articles are not published by date, both to make
-it easier to read the content of the site in order (TODO: link to
-entirelyusless's post here) and to structure it by topic and form,
-rather than by publishing date.
+*– paraphrasing [Gwern Branwen](https://www.gwern.net/), [“About This Website”](https://www.gwern.net/About), 2019*
+
+For this reason, articles are not published by date,
+but rather by category, both to make it easier to read
+the content of the site in order (i. e. to ["Start at the
+Beginning"](https://entirelyuseless.com/2018/06/12/start-at-the-beginning/))
+and to structure it by topic and form, rather than to strive for quick
+attention grabbing.
+
+The content on this website is licensed under [Creative Commons
+4.0](https://creativecommons.org/licenses/by/4.0/).
 
 #### Essays
 
@@ -79,6 +87,7 @@ to use US or british english.
 * A passive voice is preferred, but I have to get into the flow of writing, so texts may contain that as well. TODO: get rid of "we"?
 * No footnotes/endnotes (see https://entirelyuseless.com/2015/07/11/are-hyperlinks-a-bad-idea/)
 * Quotes have the following style: `*– [Author Name](https://en.wikipedia.org/wiki/Author_Name), [“Chapter” in “Work Name”, p. 1](https://work-name.com), Year*`. If the work is not online, link the wikipedia page.
+* For pages, optimal is to give the pagenumber of the quotation in the linked pdf. If it is not available, the page number written at the bottom of the page is used.
 * Link to document: typical style
 	* for one author: `[Author Year](./title_author_year.pdf)`
 	* for two authors: `[Author&Coauthor Year](./title_author_coauthor_year.pdf)`
@@ -116,7 +125,7 @@ Tags for texts (mainly taken from http://www.gwern.net/About):
 * [transcription date "transcribed"]
 * modification date "modified"
 * language: {english, german, french, serbocroatian, esperanto, lojban, ithkuil, toki pona}
-* confidence {certain, highly likely, likely, possible, unlikely, highly unlikely, remote, impossible, log, fiction, tnheory, translation, transcription, emotional, other}
+* confidence {certain, highly likely, likely, possible, unlikely, highly unlikely, remote, impossible, log, fiction, theory, translation, transcription, emotional, other}
 * status {notes, draft, in progress, finished, abandoned}
 * importance [1;10]
 
@@ -141,6 +150,8 @@ https://guzey.com/personal/why-have-a-blog/
 
 The author
 ----------
+
+### Contact
 
 ### Elsewhere on the Internet
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-08, modified: 2019-04-09, language: english, status: finished, importance: 4, confidence: highly likely*
+*author: niplav, created: 2019-02-08, modified: 2019-05-22, language: english, status: finished, importance: 4, confidence: highly likely*
 
 > __Imagine getting up every morning and throwing a coin so often that
 > heads and tails have come up an equal amount of times. How often
@@ -148,7 +148,9 @@ Induction basis:
 
 Induction assumption:
 
-`$o_{n}=2*n*f_{n}$`
+<div>
+	$$o_{n}=2*n*f_{n}$$
+</div>
 
 Induction step:
 
@@ -267,11 +269,15 @@ Proof by induction.
 
 Induction Basis:
 
-`$r_{0}=1 \ge 1=\frac{1}{1}$`
+<div>
+	$$r_{0}=1 \ge 1=\frac{1}{1}$$
+</div>
 
 Induction Assumption:
 
-`$r_n \ge \frac{1}{n}$`
+<div>
+	$$r_n \ge \frac{1}{n}$$
+</div>
 
 Induction Step:
 

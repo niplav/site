@@ -1,7 +1,7 @@
 [home](./index.md)
 -----------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-04-24, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2019-04-02, modified: 2019-05-29, language: english, status: finished, importance: 3, confidence: likely*
 
 > __Two people are abducted and placed on the opposite poles of a
 > habitable planet. They want to find each other, but they have no
@@ -13,6 +13,11 @@
 
 Two People on a Planet
 ======================
+
+> Wo ist dein Delos, wo dein Olympia,  
+> Daß wir uns alle finden am höchsten Fest?
+
+*– [Friedrich Hölderlin](https://en.wikipedia.org/wiki/Friedrich_H%C3%B6lderlin), [“Gesang des Deutschen”](https://www.textlog.de/17843.html), 1800*
 
 TODO: read “The Theory of Search Games and Rendezvous” by Alperin & Gal  
 
@@ -80,7 +85,7 @@ choosing the strategy based on which part of the body itches first.
 This would be useful since humans are notoriously bad at generating
 random bits (TODO: put a citation here).
 
-On the other hand, this could lead to problems, since many humans have
+On the other hand, this method could be biased, since many humans have
 points on their skin that are constantly itchy.
 
 TODO: Think of other possible ways the body can generate random bits.
@@ -101,22 +106,41 @@ the planet.
 Taking their own position as one pole, they could infer an equator as
 the set of points on the planet that is equally far away from each of
 their positions. They would then both proceed to go to this equator
-and start walking along it. Then each person could follow the following
-algorithm: If they had walked less than half of the circumference
-of the planet, and encountered footsteps, they would reverse direction.
-If they had walked more than half of the circumference of the planet,
-they would continue walking no matter whether they would see other
-footsteps on the ground.
+and start walking along it.
+
+![Two agents move to the equator of a sphere](./img/two_people_on_a_planet/sphere.png)
+
+Then each person could follow the following algorithm: If they had
+walked less than half of the circumference of the planet, and encountered
+footsteps, they would reverse direction.  If they had walked more than
+half of the circumference of the planet, they would continue walking no
+matter whether they would see other footsteps on the ground.
 
 This would ensure that they would deterministically meet in `$O(n)$`
 (`$n$` being the circumference of the planet).
+
+Pseudocode
+----------
+
+This code does not deal with the possibility that the other agent doesn't
+use the same method, or that they don't arrive at the equator at the
+same time.
+
+	circumference=4*walk_to_equator() /* circumference in steps */
+
+	set_marker() /* in case footsteps are not visible after some time */
+	equator_steps=0
+
+	while met_person()==false
+		walk_step()
+		equator_steps++
+		if marker_visible==true and steps_on_equator<circumference/2
+			turn_around()
 
 Why it Works
 ------------
 
 Here, it is assumed that they both reach the equator at the same time.
-
-TODO: Add illustrations?
 
 If both start walking towards each other, the algorithm succeeds:
 Both can walk at most half of the length of the equator upon meeting
@@ -127,18 +151,27 @@ any case. In this case, finding each other takes at most `$\frac{3}{4}$`
 of the time it takes to walk across the whole equator (including the
 walk from the starting point to the equator).
 
+![The two agents start walking towards each other on the equator](./img/two_people_on_a_planet/towards.png)
+
 If they both start walking in the same direction, the method still
 succeeds: one of the two people has a distance of less than half of the
-length of the equator to the starting point of the other person. This
-person p₁ walks that distance, and then can use that fact as a
+length of the equator to the starting point of the other person.
+
+![Both agents start walking in the same direction](./img/two_people_on_a_planet/parallel1.png)
+
+This person p₁ walks that distance, and then can use that fact as a
 distinguishing strategy for acting, namely, turning around and starting
 to walk towards the other person. The other person p₂ can use the
 fact that their distance to the starting point of the other person is
 more than half of the length of the equator to distinguish themselves,
 and continue walking. Because p₁ is now walking towards p₂, they will
-definitely meet. Interestingly, because they are both walking the whole
-time, it will take them less than one walk across the whole equator for
-this algorithm (again including the journey from the pole to the equator).
+definitely meet.
+
+![Both agents are about to meet each other](./img/two_people_on_a_planet/parallel2.png)
+
+Interestingly, because they are both walking the whole time, it will
+take them less than one walk across the whole equator for this algorithm
+(again including the journey from the pole to the equator).
 
 ### Difference to Other Solutions
 
