@@ -1,13 +1,15 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-04-24, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2019-05-24, language: english, status: notes, importance: 2, confidence: log*
 
-> __I have found that I have found great use in software recommendations by
-> people who I respect, such as (TODO: put gwerns uses this and suckless'
-> rocks page, and cat-v recommendations). I hope that the recommendations
-> presented here can provide a comparable utility to similarly-minded
-> people.__
+> __I have found that I have found great use in software
+> recommendations by people who I respect, such as
+> [gwern](https://www.gwern.net/Links#uses-this), the
+> [suckless project](https://suckless.org/rocks/), and
+> [cat-v.org](http://harmful.cat-v.org/software/). I hope that the
+> recommendations presented here can provide a comparable utility to
+> similarly-minded people.__
 
 Uses This
 =========
@@ -16,6 +18,8 @@ Software
 --------
 
 ### List of Programs
+
+TODO: links
 
 * Operating system: Void Linux
 * Window manager: dwm
@@ -47,12 +51,12 @@ Software
 My most important criteria for choosing software are simplicity,
 consistency and durability.
 
-Simplicity here means mostly simplicity of implementation (TODO: link
-to New Jersey style of software development), though in reality there is
-very little difference between software with a simple design&interface and
-software that has a simple implementation. Most of the time, simplicity
-can be roughly approximated in the total number of loc (TODO: link here)
-used to implement the software.
+Simplicity here means mostly simplicity of implementation (TODO: link to
+New Jersey style of software development), though in reality there is
+very little difference between software with a simple design&interface
+and software that only has a simple implementation. Most of the time,
+simplicity can be roughly approximated in the total number of loc (TODO:
+link here) used to implement the software.
 
 Consistency is even more difficult to define and classify than simplicity.
 Broadly speaking, consistency is dependent on symmetry (every input
@@ -74,3 +78,14 @@ less durable).
 
 Hardware
 --------
+
+I tend not to care very much about hardware, except for compatability
+problems. Nearly all of my computing could be done on a Raspberry Pi
+(TODO: link here), or on a generic mildly priced new laptop. I like the
+Raspberry Pi because of its ability to run a wide variety of operating
+systems, but beyond that hardware is rarely a bottleneck for me. I do
+care about keyboards, though.
+
+### Keyboard
+
+### Mouse

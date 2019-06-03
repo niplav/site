@@ -1,0 +1,20 @@
+#!/usr/bin/env rc
+
+#Uses: ag (TODO: link here!)
+
+echo 'Incorrectly formatted citations:'
+
+#short form
+ag '\[[A-Za-z]+,( |\n)-?[0-9]+\]'
+
+#long form
+ag '^\*–[^ ]'
+
+echo 'Incorrect whitespace:'
+
+ag '   $'
+ag '\t$'
+
+echo 'Number of TODOs:'
+
+ag TODO | wc -l

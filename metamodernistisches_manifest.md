@@ -1,13 +1,15 @@
 [home](./index.md)
 -------------------
 
-*author: Luke Turner, created: 2011-01-01, translator: niplav, translated: 2019-01-05, modified: 2019-04-11, language: german, status: finished, importance: 3, confidence: translation*
+*author: Luke Turner, created: 2011-01-01, translator: niplav, translated: 2019-01-05, modified: 2019-06-03, language: german, status: in progress, importance: 3, confidence: translation*
 
 > __Translation of the [*Metamodernist // Manifesto*](http://www.metamodernism.org/)
 > by [Luke Turner](http://luketurner.com/) into German.__
 
 Metamodernistisches // Manifest
 ===============================
+
+TODO: Die Pronomen im letzten Satz von Paragraph 6 sind unklar. Besser formulieren!
 
 1. Wir erkennen Oszillation als die natürliche Ordnung der Welt an.
 
@@ -44,8 +46,6 @@ Ereignissen von einer Vielheit von Positionen aus. Diese emergenten
 Netzwerke zeigen nicht den Niedergang der Demokratisierung der Geschichte,
 sondern ermöglichen sie, und erleuchten die Gabelungen, entlang welcher
 ihre großen Narrative das Hier und Jetzt navigieren können.
-
-TODO: Die Pronomen im letzten Satz sind unklar. Besser formulieren!
 
 7. Genauso, wie Wissenschaft nach poetischer Eleganz strebt, sollten
 Künstler sich auf die Suche nach der Wahrheit begeben. Alle Information,

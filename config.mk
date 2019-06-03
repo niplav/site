@@ -6,14 +6,15 @@ HTML=index.html \
 	about.html \
 	changelog.html \
 	fundamentals.html \
+	notes.html \
 	uses_this.html \
 	99_klong_problems.html \
 	99_problems_collection.html \
 	99_problems_klong_solution.html \
 	against_applause.html \
+	bag_spreading.html \
 	better_mathematical_notation.html \
 	buch_stab.html \
-	circle_combinations.md \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
 	metamodernistisches_manifest.html \

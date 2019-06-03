@@ -1,0 +1,10 @@
+#!/usr/bin/env rc
+
+fn apr{
+	stdbuf -oL awk '/i$/ { print($0 "u") }
+		/^m/ { s=substr($0, 2); print("m" s s); }
+		/iii/ { i=split($0, a, "iii")-1; for(c=1; c<=i; c++) print(gensub("iii", "uu", c)) }
+		/uu/ { i=split($0, a, "uu")-1; for(c=1; c<=i; c++) print(gensub("uu", "", c)) }'
+}
+
+tail -f mu | apr | stdbuf -oL grep -E '^.{,80}$' | stdbuf -oL awk '!a[$0]++' >>mu

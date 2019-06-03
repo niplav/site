@@ -1,3 +1,9 @@
+[home](./index.md)
+------------------
+
+*author: niplav, created: 2019-04-24, modified: 2019-05-29, language: english, status: notes, importance: 3, confidence: highly likely*
+
+
 Fundamentals
 ===========
 

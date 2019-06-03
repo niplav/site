@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: [Lao-tse](https://de.wikipedia.org/wiki/Laozi), created: -400-01-01, translator: [Günther Debon](https://de.wikipedia.org/wiki/G%C3%BCnther_Debon), translated: 1979-01-01, transcriptor: niplav, transcribed: 2019-03-23, modified: 2019-05-18, language: german, status: in progress, importance: 4, confidence: transcription*
+*author: [Lao-tse](https://de.wikipedia.org/wiki/Laozi), created: -400-01-01, translator: [Günther Debon](https://de.wikipedia.org/wiki/G%C3%BCnther_Debon), translated: 1979-01-01, transcriptor: niplav, transcribed: 2019-03-23, modified: 2019-06-01, language: german, status: in progress, importance: 4, confidence: transcription*
 
 > __The Tao Tê King is one of the most translated texts in history. This
 > is a transcription of the german translation by Günther Debon from
@@ -1586,7 +1586,7 @@ Um dem Himmel zu dienen,
 Ist nichts so gut wie Geizen.  
 Wohl! Dieses Geizen bedeutet:  
 Sich früzeitig unterziehen.  
-Sich frühzeitig unterziehen, heißt:   
+Sich frühzeitig unterziehen, heißt:  
 Die gespeicherte Tugend verdoppeln.  
 Wenn einer die gespeicherte Tugend verdoppelt,  
 Ist nichts, das er nicht zwingt.  
@@ -1627,3 +1627,315 @@ Die Menschen nicht verwunden.
 
 Wohl! Wenn einander nicht verwunden beide,  
 Hat Tugend sich im Wechsel eingefunden.  
+
+### Kapitel 61
+
+§142
+
+Ein großes Land soll sein wie Stromes Tiefebene,  
+Soll sein des Erdreichs Sammelbecken,  
+Des Erdreichs Weiblichkeit.  
+Ewig überwindet das Weibliche  
+Mit seiner Stille das Männliche.  
+In seiner Stille ist es das Niedrige.  
+
+Darum:  
+Wenn ein großes Land  
+Sich erniedrigt vor dem kleinen Lande,  
+Gewinnt es das kleine Land.  
+Weil das kleine Land  
+Niedrig ist vor dem großen Lande,  
+Gewinnt es das große Land.  
+
+Wahrlich:  
+Das eine erniedrigt sich,  
+Um dadurch zu gewinnen.  
+Das andere ist niedrig,  
+Und dadurch gewinnt es.  
+
+Ein großes Land begehrt nichts,  
+Als die Menschen einzuordnen und zu nähren.  
+Ein kleines Land begehrt nichts,  
+Als beizutreten und zu dienen.  
+Wohl!  
+Auf daß ein jedes von beiden erhält,  
+Was es begehrt,  
+Muß das große sich füglich erniedrigen.  
+
+### Kapitel 62
+
+§143
+
+Der *Weg* ist der zehntausend Wesen Hort:  
+Der guten Menschen Schatz,  
+Der Bösen Zufluchtsort.  
+
+§144
+
+Durch schäne Worte kannst  
+Du Würde dir erhandeln;  
+Kannst überbieten andere  
+Nur durch dein rechtes Wandeln.  
+
+(Selbst die Bösen unter den Menschen,  
+Warum sollte man sie verwerfen?)  
+
+§145
+
+Wahrlich:  
+Erhebt man den Himmelssohn  
+Oder setzt die drei Großminister ein,  
+Auch wenn sie Jadetafeln in Händen tragen  
+Und ihnen vier Pferde vorangehn:  
+Besser wäre, sie säßen still,  
+Und kämen weiter auf diesem *Wege*.  
+
+Daß die Alten diesen *Weg*? verehrten,  
+Was war der Grund?  
+Sagten sie nicht:  
+Wer sucht, wird auf ihm finden;  
+Wer schuldig ist, wird auf ihm entkommen?  
+Darum ward er verehrt vor allem andern im Reich.  
+
+### Kapitel 63
+
+§146
+
+Tun, was ohne Tun.  
+Schaffen, was ohne Geschäft.  
+Kosten, was ohne Köstlichkeit.  
+Numm Großes für klein, Vieles für wenig!  
+Vergilt Groll mit Tugend!  
+
+§147
+
+Schwieriges planen, solang es leicht;  
+Großes tun, solang es klein:  
+Die schwierigsten Werk der Welt  
+Sind sicher aus Leichtem gemacht;  
+Die größten Werke der Welt  
+Sind sicher aus Kleinstem gemacht.  
+
+§148
+
+Deshalb der Heilige Mensch:  
+Bis ans Ende tut er nichts Großes.  
+Darum kann er vollenden seine Größe.  
+
+§149
+
+Wohl!  
+Wer vorschnell Ja sagt, findet kaum Vertrauen;  
+Wer vieles leicht nimmt, hat viel Schwierigkeit.  
+
+§150
+
+Deshalb der Heilige Mensch:  
+Gleichsam tut er sich schwer.  
+Darum bleibt er ohne Schwierigkeit bis ans Ende.  
+
+### Kapitel 64
+
+§151
+
+Was friedlich ist, wird leicht gehalten;  
+Mit dem, was noch kein Zeichen gab, ist leicht zu schalten.  
+Was spräde ist, schmilzt leicht dahin;  
+Was subtil, wird leicht zerstreut.  
+Walte der Dinge, bevor sie da sind!  
+Regiere, was noch nicht im Widerstreit!  
+
+§152
+
+Auch der gewaltigste Baum  
+War als Keimling fein wie Flaum.  
+Ein Turm von neun Stockwerken  
+Stieg aus einem Häufchen Erde hinan;  
+Eine Reise von tausend Meilen  
+Fägt unter deinem Fuße an.  
+
+§153
+
+Wer etwas tut, zerstört es;  
+Wer etwas festhält, verliert es.  
+
+§154
+
+Deshalb, der Heilige Mensch  
+Ist ohne Tun und darum ohne Zerstörung,  
+Ist ohne Festhalten und darum ohne Verlust.  
+Das Volk jedoch, wenn es ein Werk verfolgt,  
+Zerstört es ständig, wenns beinah vollendet ist.  
+Gib acht auf das Ende wie das Beginnen,  
+So kann dein Werk dir nicht mißlingen!  
+
+§155
+
+Deshalb, des Heilige Mensch  
+Begehrt, nicht zu begehren;  
+Schätzt schwer erlangbare Güter nicht;  
+Lernt, nicht zu lernen;  
+Kehrt sich zu dem, woran die Menge vorübergeht.  
+So stüzt er der zehntausend Wesen natürliches Weben,  
+Aber wagt nicht zu tun.  
+
+### Kapitel 65
+
+§156
+
+Wer im Altertum gut war, des *Weges* zu walten,  
+Tat es nicht, damit das Volk erleuchtet würde,  
+Sondern, um es damit töricht zu halten.  
+Denn das Volk ist um so schwerer zu regieren,  
+Je größer seine Klugheit ist.  
+
+§157
+
+Wahrlich:  
+Wer mit Klugheit herrscht im Land,  
+Ist seines Landes Dieb;  
+Wer nicht mit Klugheit herrscht im Land,  
+Ist seines Landes Glück.  
+
+Er, der die beiden [Möglichkeiten] kennt,  
+Hat auch ein festes Richtmaß gewonnen.  
+Ewig ein festes Richtmaß kennen,  
+Dies nennt man Mystische Tugend.  
+
+Die Mystische Tugend, wie tief, wie weit!  
+Wie gegensinneg den Wesen!  
+Doch erst danach gelangt man  
+Zum großen Gleichströmen.  
+
+### Kapitel 66
+
+§158
+
+Was macht, daß Strom und Meer vermögen,  
+König zu sein den hundert Flußtälern?  
+Wei sie gut sind im Niedrigsein,  
+Darum vermögen sie,  
+König zu sein den hundert Flußtälern.  
+
+§159
+
+Deshalb:  
+Wer dem Volk will über sein,  
+Stellt sich in seinem Wort ihm unter.  
+Wer dem Volk voran sein will,  
+Stellt sich mit seinem Selbst dahinter!  
+
+§160
+
+Deshalb, der Heilige Mensch  
+Weilt oben, ohne das Volk zu belasten;  
+Weilt vorn, ohne dem Volk zu schaden.  
+Deshalb freut sich das Reich, ihn zu fördern,  
+Und wird seiner nicht müde.  
+
+Weil er nicht streitet,  
+Darum vermag niemand im Reich,  
+Mit ihm zu streiten.  
+
+### Kapitel 67
+
+§161
+
+Im Reich sagt jeder, Mein Weg wäre groß,  
+Doch er gleiche nicht dem Herkömmlichen.  
+Wohl! Eben weil er groß,  
+Darum gleicht er nicht dem Herkömmlichen.  
+Und wenn er herkömmlich wäre,  
+Er wäre seit langem verkümmert.  
+
+§162
+
+Wohl! Ich habe drei Kostbarkeiten,  
+Die ich mir halte und hüte.  
+Die erste heißt: Barmherzigkeit;  
+Die zweite heißt: Mäßigkeit;  
+Die dritte heißt: Nicht wagen, dem Reich voranzugehn.  
+
+Barmherzig – darum vermag ich, mutig zu sein;  
+Mäßig – darum vermag ich, großzügig zu sein;  
+Nicht wagend, dem Reich voranzugehn –  
+Darum vermag ich, Leiter zu sein den ›Geräten‹.  
+
+Doch heutzutage ist man mutig  
+Unter Verzicht auf Barmherzigkeit;  
+ISt man großzügig unter Verzicht auf Mäßigkeit;  
+Geht man voran unter Verzicht auf das Zurückstehn –  
+Das wird zum Tode führen!  
+
+§163
+
+Wohl!  
+Wer mit Barmherzigkeit kämpft, der siegt;  
+Wer mit ihr sich schützt, der ist sicher.  
+Wen der Himmel will retten,  
+Mit Barmherzigkeit schützt er ihn.  
+
+### Kapitel 68
+
+§164
+
+Wer gut als Ritter, ist nicht streitbar;  
+Ein guter Kämpfer wütet nicht;  
+Wer gut als Feindbezwinger, wird nicht handgemein;  
+Wer Menschen gut verwendet, stellt sich ihnen unter.  
+
+Dies nennt man: Tugend des Nicht-Streitens;  
+Dies nennt man: Macht der Menschen-Verwendung;  
+Dies nennt man: First der Himmels-Paarung.  
+
+### Kapitel 69
+
+§165
+
+Beim Gebrauch der Waffen gibt es seit alters ein Wort:
+»Ich wage nicht, den Hausherrn zu machen, Sondern mache den Gast;
+Ich wage nicht, um eine Daumenbreite vorzurücken,
+Sondern weiche eine Fußbreit zurück.«
+
+Dies nennt man:
+Vorgehn auch ohne Vorgehn,
+Ärmelaufrollen auch ohne Arm,
+Festhalten auch ohne Waffe,
+Angreifen auch ohne Feind.
+
+§166
+
+Kein Unheil größer, als ohne Feind zu sein.
+Ohne Feind kann ich verlieren Meine Kostbarkeit.
+
+§167
+
+Wahrlich:
+Wenn zwei die Waffe gegeneinander erheben,
+Wird der, der trauert, siegen.
+
+### Kapitel 70
+
+§168
+
+Mein Wort sind
+Sehr leicht zu verstehen
+Und sehr leicht auszuführen.
+Doch im ganzen Reich
+Vermag niemand, sie zu verstehen,
+Vermag niemand, sie auszuführen.
+Mein Wort hat einen Ahn,
+Mein Werk hat einen Herrn.
+Wohl! Nur weil man sich nicht kennt,
+Versteht man auch Mich nicht.
+
+§169
+
+Die Seltenen sind es, die Mich verstehn;
+Und die Mir folgen, sind angesehn.
+
+§170
+
+Deshalb der Heilige Mensch:
+Trägt am Leibe das härene Gewand,
+Aber am Herzen das Kleinod.
