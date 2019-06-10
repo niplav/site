@@ -13,6 +13,9 @@ June 2019
 
 ### New Content
 
+* Solution to [Problem 27](./99_problems_klong_solution.html#P27--Group-the-elements-of-a-set-into-disjoint-subsets) of the 99 problems
+* Transcription of chapters [71 to 81](./tao_te_king.html#Kapitel-71) of the Tao Tê King
+
 ### Site Changes
 
 * Images are centered now
@@ -24,7 +27,7 @@ May 2019
 
 * Started [Notes](./notes.md)
 * [Pipe Rings](./pipe_rings.md)
-* Transcribed chapters 43 to 70 of the [Tao Tê King](./tao_te_king.md#Kapitel-43)
+* Transcribed chapters [43 to 70](./tao_te_king.md#Kapitel-43) of the Tao Tê King
 * Added illustrations to [Two People on a Planet](./two_people_on_a_planet.md)
 
 ### Site Changes

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-05-16, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-06-10, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -676,14 +676,73 @@ Testing:
 
 ### P27 (\*\*) Group the elements of a set into disjoint subsets.
 
-	a1::{[b];b::y;flr({[]~b?x};x)}
-	group3::{[a];a::x;{[c];c::x;{(,c),x}',s26(4;a1(a;,/x))}'*'{[b];b::x;{(,b),x}',s26(3;a1(a;x))}'s26(2;x)}
+Fortunately, given `s26`, both `group3` and `s27` are quite easy to
+implement. `group3` First generates all subsets of `x` containing 2
+members, and then passes them on to another function. This function
+creates the set difference `a1` of the argument and the set passed
+(for example, when `x` is for the local function is `[:a :b]`, and `a`
+is `[:a :b :c :d]`, then `a1(a;x)` is of course `[:c :d]`). Of this,
+all subsets with length 3 are generated with `s26`, and the result is
+concatenated with the sets from the first call of `s26`. The results
+are then passed, and the same procedure is repeated for subsets of size 4.
 
-	a3::{[m n];m::x;n::*'{m?x}'y;flr({~:_x};m:=(%0),n@<n)}
-	a4::{[l];l::x;{(,l),x}'y}
-	s27::{[m n];m::x;n::y;:[1=#y;
-				,,x;
-				,/{a4(a3(m;x);s27(x;1_n))}'{a3(m;x)}'s26(*y;x)]}
+`a1` is not a very efficient implementation of set difference (it seems
+to have a quadratic run-time of `$O(n*m)$`). But it is short and easy to
+implement: it filters out all elements out of `x` that can be found in
+`y`. The quadratic run-time can thus be explained easily: For each
+element in x; that element has to be searched in `y`, resulting in
+[a runtime](https://en.wikipedia.org/wiki/Big_O_notation#Product) of
+`$O(n)*O(m)=O(n*m)$`, where `$n$` is the size of `x` and `$m$` is the
+size of `y`.
+
+`s27` is basically a recursive version of `group3`, producing just the
+result of `s26` for the base case and applying the same set-difference
+call of `s26` as in `group3`.
+It does not check whether the length of `x` corresponds to the size specified
+by `+/y`, although that would be trivial to implement.
+
+	a1::{[b];b::y;flr({[]~b?x};x)}
+	group3::{[a];a::x;*'{x,:\,'s26(4;a1(a;,/x))}',/{(,x),:\,'s26(3;a1(a;x))}'s26(2;x)}
+	s27::{[a b];a::x;b::y;:[1=#y;,'s26(*y;x);,/{x,:\,'s26(*b;a1(a;,/x))}'.f(x;1_y)]}
+
+The tests given in the specification have gigantic results, but small samples confirm
+the correct behavior of `group3`:
+
+		group3([:aldo :beat :carla :david :evi :flip :gary :hugo :ida])@[0 1 2 3]
+	[[[:aldo :beat] [:carla :david :evi] [:flip :gary :hugo :ida]]
+	[[:aldo :beat] [:carla :david :flip] [:evi :gary :hugo :ida]]
+	[[:aldo :beat] [:carla :david :gary] [:evi :flip :hugo :ida]]
+	[[:aldo :beat] [:carla :david :hugo] [:evi :flip :gary :ida]]]
+
+Similarly, this also works for `s27`:
+
+		s27([:aldo :beat :carla :david :evi :flip :gary :hugo :ida];[2 3 4])@[0 1 2 3]
+	[[[:aldo :beat :carla :david] [:evi :flip :gary] [:hugo :ida]]
+	[[:aldo :beat :carla :david] [:evi :flip :hugo] [:gary :ida]]
+	[[:aldo :beat :carla :david] [:evi :flip :ida] [:gary :hugo]]
+	[[:aldo :beat :carla :david] [:evi :gary :hugo] [:flip :ida]]]
+		s27([:a :b :c];[1 2])
+	[[[:a :b] [:c]] [[:a :c] [:b]] [[:b :c] [:a]]]
+		s27([:a :b :c :d];[2 2])
+	[[[:a :b] [:c :d]] [[:a :c] [:b :d]] [[:a :d] [:b :c]]
+	[[:b :c] [:a :d]] [[:b :d] [:a :c]] [[:c :d] [:a :b]]]
+		s27([:a];[1])
+	[[[:a]]]
+
+Empty lists don't work
+
+		s27([:];[])
+	kg: error: interrupted
+
+But set sizes that don't sum to the length of the original list still work:
+
+		s27([:a :b :c :d];[1 2])
+	[[[:a :b] [:c]] [[:a :b] [:d]] [[:a :c] [:b]]
+	[[:a :c] [:d]] [[:a :d] [:b]] [[:a :d] [:c]]
+	[[:b :c] [:a]] [[:b :c] [:d]] [[:b :d] [:a]]
+	[[:b :d] [:c]] [[:c :d] [:a]] [[:c :d] [:b]]]
+
+### P28 (\*\*) Sorting a list of lists according to length of sublists
 
 	s28a::{x@<#'x}
 	s28b::{[a b];a::#'x;b::{(#a?x),x}'?a;x@,/{a?x}'{x@1}'b@<*'b}

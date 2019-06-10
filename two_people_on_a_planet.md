@@ -1,7 +1,7 @@
 [home](./index.md)
 -----------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-05-29, language: english, status: finished, importance: 3, confidence: likely*
+*author: niplav, created: 2019-04-02, modified: 2019-06-03, language: english, status: finished, importance: 3, confidence: likely*
 
 > __Two people are abducted and placed on the opposite poles of a
 > habitable planet. They want to find each other, but they have no
@@ -177,10 +177,10 @@ take them less than one walk across the whole equator for this algorithm
 
 Of course, this strategy is only one of infinitely many that will result
 in the two people deterministically meeting after a linear amount of
-time. Other such algorithms include meeting at any specific point on the
-planet (such as the starting position of one particular person, or 0°N,
-0°E etc. TODO: Find out whether this is written correctly). However,
-the proposed strategy is different from these.
+time. Other such algorithms include meeting at any specific point on
+the planet (such as the starting position of one particular person,
+or 0°0′N 0°0′E etc. However, the proposed strategy is different
+from these.
 
 First of all, it is not person-specific: Both people follow the same
 strategy, and still manage to meet each other deterministically in
@@ -208,24 +208,27 @@ There are, of course, several problems with this approach.
 
 ### The Strategy is not Obvious
 
-This objection of course applies to all possible strategies, including
-Randomly Switching Positions and nearly all of Munroes propositions.
-Ideally, one would try to generate all possible strategies of a typical
-agent and then generate a probability distribution over them, using
-methods such as Minimum Message Length and Solomonoff Induction from
-algorithmic complexity theory to penalize very complex solutions.
-
-TODO: Add links to Wikipedia for them.
+This objection of course applies to all possible strategies,
+including Randomly Switching Positions and nearly all of Munroes
+propositions.  Ideally, one would try to generate all possible
+strategies of a typical agent and then generate a probability
+distribution over them, using methods such as [Minimum Message
+Length](https://en.wikipedia.org/wiki/Minimum_message_length)
+and [Solomonoff
+Induction](https://en.wikipedia.org/wiki/Solomonoff's_theory_of_inductive_inference)
+to penalize very complex solutions.
 
 A good approximation to this is to assume that the other person is moving
 around randomly, accounting slightly the possibility that they have
 stayed where started, and then taking into account the other strategies
 proposed here.
 
-More intricate and obscure methods of finding this (or even more optimal)
-strategies are possible: One can imagine using a self-sampling assumption
-(TODO: Wikipedia here) and try to act in predictable ways, assuming that
-the other person is similar to oneself based on the assumption that both
+More intricate and speculative methods of finding this (or even
+more optimal) strategies are possible: One can imagine using a
+[self-sampling](https://en.wikipedia.org/wiki/Self-sampling_assumption) or
+[self-indication](https://en.wikipedia.org/wiki/Self-indication_assumption)
+assumption and try to act in predictable ways, assuming that the
+other person is similar to oneself based on the assumption that both
 are typical observers. Furthermore, it would be possible (but perhaps
 computationally intractable) to create a probability distribution over
 the set of possible other observers and then calculate their respective
