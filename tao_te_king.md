@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: [Lao-tse](https://de.wikipedia.org/wiki/Laozi), created: -400-01-01, translator: [Günther Debon](https://de.wikipedia.org/wiki/G%C3%BCnther_Debon), translated: 1979-01-01, transcriptor: niplav, transcribed: 2019-03-23, modified: 2019-06-01, language: german, status: in progress, importance: 4, confidence: transcription*
+*author: [Lao-tse](https://de.wikipedia.org/wiki/Laozi), created: -400-01-01, translator: [Günther Debon](https://de.wikipedia.org/wiki/G%C3%BCnther_Debon), translated: 1979-01-01, transcriptor: niplav, transcribed: 2019-03-23, modified: 2019-06-10, language: german, status: in progress, importance: 4, confidence: transcription*
 
 > __The Tao Tê King is one of the most translated texts in history. This
 > is a transcription of the german translation by Günther Debon from
@@ -1939,3 +1939,201 @@ Und die Mir folgen, sind angesehn.
 Deshalb der Heilige Mensch:
 Trägt am Leibe das härene Gewand,
 Aber am Herzen das Kleinod.
+
+### Kapitel 71
+
+§171
+
+Um sein Nichtwissen wissen  
+Ist das Höchste.  
+Um sein Wissen nicht wissen  
+Ist krankhaft.  
+
+§172
+
+Wohl! Nenne das Kranke krank!  
+So nur bist du nicht krank.  
+
+Der Heilige Mensch ist nicht krank.  
+Er nennt das Kranke krank,  
+Deshalb ist er nicht krank.  
+
+### Kapitel 72
+
+§173
+
+Erst wenn das Volk vor deiner Macht nicht bangt,  
+Hast du die größte Macht erlangt.  
+
+Enge nicht ein, worauf sie wohnen!  
+Mache nicht mühsam, wovon sie leben!  
+Wohl, nur wenn du sie nicht mühst,  
+Werden sie deiner nicht müde.  
+
+§174
+
+Deshalb der Heilige Mensch:  
+Er kennt sich selbst,  
+Aber sieht sich nicht;  
+Er schont sich selbst,  
+Aber ehrt sich nicht.  
+
+Wahrlich:  
+Von jenem laß! Dieses erfaß!  
+
+### Kapitel 73
+
+§175
+
+Mutig sein beim Wagen bedeutet Tod;  
+Mutig sein beim Nicht-Wagen bedeutet Leben.  
+Von diesen beiden  
+Bringt eines Nutzen, das andere Schaden.  
+Was der Himmel haßt,  
+Wer kennt den Grund davon?  
+
+§150
+
+(Deshalb der Heilige Mensch:  
+Gleichsam tut er sich schwer.)  
+
+§176
+
+Des Himmels Weg:  
+Er streitet nicht  
+Und ist dennoch gut im Siegen;  
+Er redet nicht  
+Und ist dennoch gut, Antwort zu geben;  
+Er ruft nicht auf,  
+Und dennoch kommt alles von selbst;  
+Sanft ist er  
+Und ist dennoch gut im Planen.  
+
+§177
+
+Des Himmels Netz ist endlos weit;  
+So groß die Maschen –  
+Dennoch entgeht ihm nichts.  
+
+### Kapitel 74
+
+§178
+
+Wenn das Volk nicht vor dem Tode bangt,  
+Warum es dann mit dem Tode schrecken?  
+Gesetz aber, man wirkte,  
+Daß das Volk ständig den Tod fürchtet,  
+Und sie täten Ordnungswidriges:  
+Wer von uns wagte, sie grfeine und töten zu lassen?  
+Ständig ist ein Scharfrichter da, der richtet.  
+Statt des Scharfrichters zu richten,  
+Das hießet »statt des Zimmermanns hobeln«.  
+Wohl! Wenn einer statt des Zimmermanns hobelt,  
+Ists selten, daß er sich nicht die Hand verletzt.  
+
+### Kapitel 75
+
+§179
+
+Wenn das Volk hungert, so darum,  
+Weil der Steuern, die seine Oberen verzehren,  
+Zu viel sind. Nur darum hungert es.  
+Wenn das Volk schwer zu regieren ist, so darum,  
+Weil seine Oberen tätig sind.  
+Nur darum ist es schwer zu regieren.  
+Wenn das Volk den Tod gering achtet, so darum,  
+Weil es dem Leben zu völlig nachgeht.  
+Nur darum achtet es den Tod gering.  
+
+§180
+
+Wohl! Nicht zu haben,  
+Wodurch das Leben schätzenswert,  
+Ist besser, als das Leben wertzuschätzen.  
+
+### Kapitel 76
+
+§181
+
+Wenn den Mensch geboren wird,  
+Ist er weich und schwach;  
+Wenn er stirbt,  
+Ist er fest und stark.  
+Wenn die zehntausend Wesen,  
+Wenn Gräser und Bäume wachsen,  
+Dann sind sie weich und saftig;  
+Doch wenn sie absterben,  
+Dann sind sie dürr und trocken.  
+
+Wahrlich:  
+Das Feste, Starke ist des Todes Begleiter;  
+Das Weich, Schwache des Lebens Begleiter.  
+
+§182
+
+Deshalb:  
+Sind die Waffen stark, dann siegen sie nicht.  
+Sind die Bäume stark, dann werden sie gefällt.  
+Das Starke, Große liegt darnieder;  
+Das Weiche, Schwache ist hochgestellt.  
+
+### Kapitel 77
+
+§183
+
+Des Himmels Weg, wie gleicht er dem Bogenspannen!  
+Was hoch ist, wird niedergedrückt;  
+Was tief ist, nach oben gezogen;  
+Was zu viel ist, wird vermindert;  
+Was unzureichend, wird aufgewogen.  
+
+So auch des Himmels Weg:  
+Er mindert das, was zu viel,  
+Und wiegt auf, was unzureichend ist.  
+Doch der Menschen Weg ist anders:  
+Sie mindern die, bei denen es nicht reicht,  
+Um es darzubringen denen, die zu viel haben.  
+
+§184
+
+Wer ist imstande, sein Zu-Viel  
+Darzubringen dem Reiche?  
+Nur der, der den *Weg* hat.  
+
+§185
+
+Deshalb der Heilige Mensch:  
+Er tut, aber baut nicht darauf:  
+Ist das Werk vollbracht, verweilt er nicht dabei.  
+Denn er wünscht nicht zu zeigen seine Trefflichkeit.  
+
+### Kapitel 78
+
+§186
+
+Nichts auf Erden ist so weich und schwach  
+Wie das Wasser.  
+Dennoch, im Angriff auf das Feste und Starke  
+Wird es durch nichts besiegt:  
+Das Nicht-Sein macht ihm dies leicht.  
+
+§187
+
+Schwaches besiegt das Starke;  
+Weiches besiegt das Harte.  
+Niemand auf Erden, der das nicht weiß,  
+Niemand, der ihm zu folgen vermag.  
+
+§188
+
+Deshalb sagt der Heilige Mensch:  
+
+»Wer auf sich nimmt den Schmutz im Land,  
+Sei Herr des Flur- und Kornaltars genannt.  
+Wer Landes Unheil auf sich nimmt,  
+Der ist zum König des Erdreichs bestimmt.«  
+
+§189
+
+Wahr Worte klingen  
+Oft wie Gegensinn.  
