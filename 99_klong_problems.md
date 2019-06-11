@@ -1,9 +1,9 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2019-05-24, language: english, status: in progress, importance: 4, confidence: translation*
+*author: niplav, created: 2019-01-14, modified: 2019-06-11, language: english, status: in progress, importance: 4, confidence: translation*
 
-> __The list of 99 problems was originall written by Werner Hett for
+> __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems)
 > and has been translated into [a number of languages](./99_problems_collection.md)
 > since then. This is a translation for the programming language
@@ -291,7 +291,7 @@ length. E.g. short lists first, longer lists later, or vice versa.
 
 Example:
 
-		lsort([[:a :b :c] [:d :e] [:f :g :h] [:d :e] [:i :j :k :l] [:m :n] [:o]]])
+		lsort([[:a :b :c] [:d :e] [:f :g :h] [:d :e] [:i :j :k :l] [:m :n] [:o]])
 	[[:o] [:d :e] [:d :e] [:m :n] [:a :b :c] [:f :g :h] [:i :j :k :l]]
 
 b) Again, we suppose that a list contains elements that are lists
@@ -682,7 +682,7 @@ Example:
 	7
 
 Now, we can attack the main problem: construct all the height-balanced
-binary trees with a given nuber of nodes.
+binary trees with a given number of nodes.
 
 Example:
 

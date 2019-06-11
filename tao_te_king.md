@@ -135,7 +135,7 @@ Ein Bild von dem, das vor den Göttern war.
 
 §13
 
-Himmel und Erde sind nicht meschenfreundlich;  
+Himmel und Erde sind nicht menschenfreundlich;  
 Sie nehmen die zehntausend Wesen für Strohhunde.  
 Der Heilige Mensch ist nicht menschenfreundlich;  
 Er nimmt die hundert Geschlechter für Strohhunde.  
@@ -160,7 +160,7 @@ Unsterblich ist die Fee des Tals:
 So heißt es von der Mystischen Weibheit.  
 Der Mystischen Weibheit Pforte:  
 So heißt man die Wurzel von Himmel und Erde.  
-Endlos wallend, gleisam gegenwärtig.  
+Endlos wallend, gleichsam gegenwärtig.  
 Also wirkt sie sonder Beschwerde.  
 
 ### Kapitel 7
@@ -168,7 +168,7 @@ Also wirkt sie sonder Beschwerde.
 §17
 
 Der Himmel währt ewig, und die Erde dauert.  
-Waas aber macht, daß Himmel und Erde vermögen  
+Was aber macht, daß Himmel und Erde vermögen  
 Zu währen, zu dauern?  
 Weil sie nicht selber leben,  
 Darum vermögen sie, ewig zu leben.  
@@ -252,7 +252,7 @@ Erzeuge da, hege das!
 
 §118
 
-Erzeugen, doch nicht besitzenJ  
+Erzeugen, doch nicht besitzen;  
 Tun, doch nicht drauf baun;  
 Leiten, doch nicht beherrschen –  
 Dies nennt man Mystische Tugend.  
@@ -290,7 +290,7 @@ Die Fünf Töne
 Machen das Ohr der Menschen dumpf;  
 Die Fünf Geschmäcke  
 Machen den Mund der Menschen stumpf.  
-Wagenrennen und Jadgen  
+Wagenrennen und Jagden  
 Machen den Sinn der Menschen toll;  
 Schwer erlangbares Gut  
 Macht ihren Wandel bürdevoll.  
@@ -323,7 +323,7 @@ Das heißt:
 Was heißt:  
 »Ehrung ist ein großes Leiden wie Dein Leib?«  
 Daß Wir große Leiden haben,  
-Ist, wiel Wir einen Leib haben.  
+Ist, weil Wir einen Leib haben.  
 Wären Wir ohne Leib,  
 Was hätten Wir für Leid?  
 
@@ -363,7 +363,7 @@ Und wer ihm folgt, erblickt nicht seinen Rücken.
 
 §32
 
-UHalt fest am *Weg* des Altertums,  
+Halt fest am *Weg* des Altertums,  
 Und du lenkst das Sein der Gegenwart!  
 Zu wissen um des Altertums Beginn,  
 Das nennen wir des *Weges* leitenden Sinn.  
@@ -437,7 +437,7 @@ Schafft sinnlos Unheil;
 Wer das Ewige kennt, ist duldsam.  
 Duldsam ist aber: unbefangen;  
 Unbefangen ist aber: allumfassend;  
-Allunfassend ist aber: himmlisch;  
+Allumfassend ist aber: himmlisch;  
 Himmlisch ist aber: der *Weg*;  
 Der mit dem *Weg* aber dauert.  
 Sinkt hin sein Leib, ist er ohne Gefahr.  
@@ -2137,3 +2137,73 @@ Der ist zum König des Erdreichs bestimmt.«
 
 Wahr Worte klingen  
 Oft wie Gegensinn.  
+
+### Kapitel 79
+
+§190
+
+Wenn wir den größten Groll beschwichtigen,  
+Verbleibt des Grolls genug.  
+Wie stellen trotzdem wir  
+Uns mit den andern gut?  
+
+§191
+
+Deshalb, der Heilige Mensch  
+BEhält den linken Teil der Schuldverschreibung,  
+Aber treibt nicht ein von den Menschen:  
+Wer Tugend hat, obliegt der Schuldverschreibung  
+Wer tugendlos, obliegt der Schuld-Eintreibung.  
+
+§192
+
+Des Himmels *Weg* ist ohne Günstlingsgeist,  
+Gibt ewig dem, der sich als gut erweist.  
+
+### Kapiel 80
+
+§193
+
+Ein kleines Land! Ein Volk gering an Zahl!  
+Und gäb es dort Geräte zehnfach, hundertfach  
+Von Wirkung – mach, daß man sie nicht gebraucht!  
+Mach daß das Volk ernst nimmt den Tod  
+Und nicht auswandert in die Ferne!  
+Wohl gibt es Schiff und Wagen dort,  
+Doch keinen Grund, sie aufzunehmen.  
+Laß auch die Menschen finden heim zur Knotenschnur  
+Und sie gebrauchen.  
+Mach süß ihre Speise,  
+Schön ihre Kleider,  
+Friedlich ihr Wohnen,  
+Fröhlich die Lebensweise!  
+Man sieht von weitem wohl das Nachbarland,  
+Die Hähne sind, die Hunde noch zu hören;  
+Das Volk wird aalt, und wenn sie sterben,  
+War dennoch keiner, der zum Nachbarn fand.  
+
+### Kapitel 81
+
+§194
+
+Trauenswerte Worte sind nicht schön;  
+Schöne Worte sind nicht trauenswert.  
+Wer gut ist, disputiert nicht;  
+Wer disputiert, ist nicht gut.  
+Ein Wissender ist nicht gelehrt;  
+Ein Gelehrter nicht wissend.  
+
+§195
+
+Der Heilige Mensch häuft nicht an.  
+Je mehr er für die Menschen tut,  
+Desto mehr hat er selbst.  
+Je mehr er den Menschen gibt,  
+Desto mehr wird ihm selbst zuteil.  
+
+§196
+
+Des Himmels Weg:  
+Er nützt, ohne zu schaden.  
+Des Heiligen Menschen Weg:  
+Er tut, ohne zu streiten.  
