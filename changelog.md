@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-06-01, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-06-11, language: english, status: notes, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -13,8 +13,8 @@ June 2019
 
 ### New Content
 
-* Solution to [Problem 27](./99_problems_klong_solution.html#P27--Group-the-elements-of-a-set-into-disjoint-subsets) of the 99 problems
-* Transcription of chapters [71 to 81](./tao_te_king.html#Kapitel-71) of the Tao Tê King
+* Solution to [Problem 27-28](./99_problems_klong_solution.md#P27--Group-the-elements-of-a-set-into-disjoint-subsets) of the 99 problems
+* Finished transcription of the [Tao Tê King](./tao_te_king.md)
 
 ### Site Changes
 

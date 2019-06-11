@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-06-10, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-06-11, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -704,6 +704,7 @@ by `+/y`, although that would be trivial to implement.
 	a1::{[b];b::y;flr({[]~b?x};x)}
 	group3::{[a];a::x;*'{x,:\,'s26(4;a1(a;,/x))}',/{(,x),:\,'s26(3;a1(a;x))}'s26(2;x)}
 	s27::{[a b];a::x;b::y;:[1=#y;,'s26(*y;x);,/{x,:\,'s26(*b;a1(a;,/x))}'.f(x;1_y)]}
+	group::s27
 
 The tests given in the specification have gigantic results, but small samples confirm
 the correct behavior of `group3`:
@@ -744,7 +745,27 @@ But set sizes that don't sum to the length of the original list still work:
 
 ### P28 (\*\*) Sorting a list of lists according to length of sublists
 
+a) Sorting a list after the length of its sublists is nearly trivial in
+Klong. Create a list with the lengths of the sublists, then grade that
+list and select the indexes from the original argument.
+
 	s28a::{x@<#'x}
+	lsort::s28a
+
+Tests:
+
+		lsort([[:a :b :c] [:d :e] [:f :g :h] [:d :e] [:i :j :k :l] [:m :n] [:o]])
+	[[:o] [:d :e] [:m :n] [:d :e] [:a :b :c] [:f :g :h] [:i :j :k :l]
+		lsort([])
+	[]
+		lsort([:a])
+	kg: error: size: type error: [:a]
+
+It is not stable, though:
+
+		lsort([[:a][:b]])
+	[[:b] [:a]]
+
 	s28b::{[a b];a::#'x;b::{(#a?x),x}'?a;x@,/{a?x}'{x@1}'b@<*'b}
 
 Arithmetic

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-05-29, language: english, status: notes, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2019-06-11, language: english, status: notes, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -58,12 +58,12 @@ whether the idea exists already should stop take at most `$\frac{t}{2}$`.
 
 #### Translations & Transcriptions
 
-TODO: link to the relevant subsection of https://reducing-suffering.org/ways-writing-valuable/
-
-It seems possible that archiving content has a much bigger impact than
-creating new content. Given that I write mostly for self-expression,
-it is a small factor in most of what I do, but occasionally I transcribe
-or translate texts in order to make them more easily accessible.
+It [seems
+possible](https://reducing-suffering.org/ways-writing-valuable/#Old_content_vs_new_content)
+that archiving content has a much bigger impact than creating new
+content. Given that I write mostly for self-expression, it is a small
+factor in most of what I do, but occasionally I transcribe or translate
+texts in order to make them more easily accessible.
 
 The translations are often intertwined with the effort of learning other
 languages or exercising language skills that would otherwise be forgotten.
@@ -104,7 +104,7 @@ to use US or british english.
 
 ### Writing Checklist
 
-* Spell checking
+* Spell checking using [aspell](http://aspell.net/)
 * check broken markdown
 * broken citations
 * "labour" instead of "labor", "behaviour" instead of "behavior"
