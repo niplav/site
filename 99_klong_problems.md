@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2019-06-11, language: english, status: in progress, importance: 4, confidence: translation*
+*author: niplav, created: 2019-01-14, modified: 2019-06-12, language: english, status: in progress, importance: 4, confidence: translation*
 
 > __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems)
@@ -569,7 +569,7 @@ the originals.
 
 ### P54A (\*) Check whether a given term represents a binary tree.
 
-Write a function istree which returns true if and only if its argument
+Write a function `istree` which returns true if and only if its argument
 is a list representing a binary tree.
 
 Example:

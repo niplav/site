@@ -1,4 +1,4 @@
-#gender∈{m,f,o},answer∈{yes,no,ind,out},method∈{dnos,ddos}
+#gender∈{m,f,o},answer∈{yes,no,ind,out},method∈{dnos,ddos},freq
 m,no,dnos
 m,yes,dnos
 m,no,dnos
@@ -116,3 +116,7 @@ m,no,dnos
 f,no,dnos
 m,no,dnos
 f,no,dnos
+f,no,dnos,21
+m,no,dnos
+m,out,dnos,
+f,no,dnos,183

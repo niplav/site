@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-24, modified: 2019-06-01, language: english, status: finished, importance: 4, confidence: possible*
+*author: niplav, created: 2019-04-24, modified: 2019-06-12, language: english, status: finished, importance: 4, confidence: possible*
 
 > __[Pipelines](https://en.wikipedia.org/wiki/Pipeline_(Unix)) are an
 > integral part of the unix operating system. They come in different
@@ -48,7 +48,7 @@ To stop the unconstrained use of hard disk memory, one can use sed:
 	$ wc -l a
 	101
 
-`stdbuf` is needed because on most system, the bytestreams flowing through
+`stdbuf` is needed because on most system, the byte streams flowing through
 pipes are buffered. This means that if the command is `tail -f a | sed
 '100q' >>a` instead, sed consumes all input, writes to the buffered
 output (which has usually a size greater than the length of the line,
@@ -171,13 +171,13 @@ derivation of "mu" from "mi".
 ### Crawl a Website
 
 This also works for creating a list of links that start from a given
-webpage (albeit only partially and not completely reliably).
+web page (albeit only partially and not completely reliably).
 
 The code for this is quite straightforward:
 
 	#!/usr/bin/env rc
 
-	# download a webpage and extract all links in it
+	# download a web page and extract all links in it
 	fn getl {
 		while(true)
 		{
@@ -191,7 +191,7 @@ The code for this is quite straightforward:
 	tail -f links | getl | stdbuf -i0 -oL awk '!a[$0]++' >>links
 
 This code should be understandable: The file links contains the starting
-webpage to be crawled. This is then `curl`ed and all outgoing links
+web page to be crawled. This is then `curl`ed and all outgoing links
 are extracted with a sequence of filtering out non-links using `grep`
 and `sed`. The results are then filtered for results that were already
 obtained, and appended to the links file again–an elegant demonstration
@@ -227,7 +227,7 @@ length 32 that is it's own MD5 hash sum is approximately
 question](https://stackoverflow.com/questions/235785/is-there-an-md5-fixed-point-where-md5x-x)).
 
 This can be illustrated easily with a toy example: the set of hexadecimal
-strings with length 2, and a hashsum that is simply the first two
+strings with length 2, and a hash sum that is simply the first two
 characters of the MD5 sum of the input (here called f2md5sum). Then one
 can try to find such a fixed point with a line of rc:
 
@@ -306,7 +306,7 @@ In the last example, one can see such a cycle starting with 87 and ending
 with 0a, as well as a collision: cc and 0a both have the hash 87.
 
 Theoretically, one could use this method to find cycles for longer
-hashsums, and while it would be interesting to find a string that is it's
+hash sums, and while it would be interesting to find a string that is it's
 own [SHA1 sum](https://en.wikipedia.org/wiki/SHA-1), actually doing it
 seems like a frivolous waste of energy and computing power.
 

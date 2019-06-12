@@ -16,7 +16,7 @@ Acknowledgements
 ----------------
 
 s7 is by [nmh](http://t3x.org/nmh/index.html), who wrote it
-[in the klong documentation](http://t3x.org/klong/klong-ref.txt.html).
+[in the Klong documentation](http://t3x.org/klong/klong-ref.txt.html).
 [/u/John_Earnest](https://old.reddit.com/user/John_Earnest) provided a
 [more elegant](https://old.reddit.com/r/apljk/comments/59asq0/pack_duplicate_consecutive_elements_into_sublists/)
 s9 on [/r/apljk](https://old.reddit.com/r/apljk/). Dave Long provided
@@ -765,6 +765,8 @@ It is not stable, though:
 
 		lsort([[:a][:b]])
 	[[:b] [:a]]
+
+b)
 
 	s28b::{[a b];a::#'x;b::{(#a?x),x}'?a;x@,/{a?x}'{x@1}'b@<*'b}
 

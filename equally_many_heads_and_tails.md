@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-08, modified: 2019-05-22, language: english, status: finished, importance: 4, confidence: highly likely*
+*author: niplav, created: 2019-02-08, modified: 2019-06-12, language: english, status: finished, importance: 4, confidence: highly likely*
 
 > __Imagine getting up every morning and throwing a coin so often that
 > heads and tails have come up an equal amount of times. How often
@@ -21,7 +21,7 @@ calculation in a countably infinite case:
 Finding `$x_{i}$`
 -----------------
 
-We know that flipping the coin definitely ends when for `2*n` coin flips,
+We know that flipping the coin definitely ends when for 2\*n coin flips,
 we have gotten heads n times and tails n times as well. This gives us
 `$x_{i}=2*i$`.
 
@@ -93,22 +93,25 @@ Here, the sequences `H;H;H;T;T;T, H;H;T;H;T;T, T;T;T;H;H;H,T;T;H;T;H;H`
 finish, so given six coin flips, the chance of finishing is
 `$\frac{4}{24}=0.1666666\dots$`.
 
-Now writing it down gets messy, but we observed enough to find a pattern in the
-sequences.
+Now writing it down gets messy, but we have already observed enough
+iterations to find a pattern in the sequences.
 
 ### Considerations on Coin Flips
 
-First of all, the number of finishing sequences given `2*n` coin flips
+First of all, the number of finishing sequences given 2\*n coin flips
 is the [Catalan number](https://en.wikipedia.org/wiki/Catalan_number)
-`$C_{n}$`. In this case, it describes the number of [Dyck words](https://en.wikipedia.org/wiki/Dyck_word)
-of the lengh `2*n`. To quote Wikipedia:
+Cₙ. In this case, it describes the number of [Dyck
+words](https://en.wikipedia.org/wiki/Dyck_word) of the length 2\*n. To
+quote Wikipedia:
 
 > A Dyck word is a string consisting of n X's and n Y's such that no
 > initial segment of the string has more Y's than X's.
 
+*– [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), [Dyck word](https://en.wikipedia.org/wiki/Dyck_word), 2019*
+
 This applies exactly to the given problem. A finishing sequence has
 equally many heads and tails, but doesn't begin with a sequence of
-equally many heads and tails. `$C_{n}$` is defined as `$\frac{1}{n+1}*{2*n \choose n}$`.
+equally many heads and tails. Cₙ is defined as `$\frac{1}{n+1}*{2*n \choose n}$`.
 
 Catalan numbers can be easily implemented using the [binomial
 coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient):
@@ -118,12 +121,12 @@ coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient):
 	catalan::{bincoeff(2*x;x)%x+1}
 	f::{2*catalan(x)}
 
-We call the number of finishing steps given `2*n` coin flips `$f_{n}$`.
+We call the number of finishing steps given 2\*n coin flips fₙ.
 
 One can also see that the total number of possible sequences of coin flips
-`$o_{n}$` after `$2*n$` coin flips is `$4*(o_{n-1}-f_{n-1})$`, because
+oₙ after 2\*n coin flips is `$4*(o_{n-1}-f_{n-1})$`, because
 one appends `H;H` or `H;T` or `T;H` or `T;T` to the remaining number of
-sequences. So let `$o_{n}$` be
+sequences. So let oₙ be
 
 <div>
 	$$o_{1}=4

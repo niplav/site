@@ -187,7 +187,7 @@ strategy, and still manage to meet each other deterministically in
 linear time. This is not the case for strategies that involve one
 person doing something different from the other person: there is no
 way for them to know which one of them was meant in the first place,
-unless specific characteristica are given (but those are, of course,
+unless specific characteristics are given (but those are, of course,
 also person-specific).
 
 Second, it does not need an absolute coordinate system. The algorithm

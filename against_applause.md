@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-06-10, language: english, status: notes, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-04-11, modified: 2019-06-12, language: english, status: notes, importance: 4, confidence: unlikely*
 
 > __In western cultures, it is nearly universal for people to clap
 > before and after pieces in classical music and jazz. An argument
@@ -19,8 +19,8 @@ TODO: research this topic a lot more:
 
 * Find out how culturally universal clapping/audible appreciation of performance is
 * Find out what art theories claim about how to present art
-* Find out about the evolutionary/cultural history of clapping, and make a summary (put on wikipedia)
-* Read the wikipedia articles about applause/clapping, and perhaps improve them
+* Find out about the evolutionary/cultural history of clapping, and make a summary (put on Wikipedia)
+* Read the Wikipedia articles about applause/clapping, and perhaps improve them
 * Similar criticisms?
 * Differences of type and scope of applause in different forms of music.
 
