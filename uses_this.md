@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-06-10, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2019-06-12, language: english, status: notes, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
 > recommendations by people who I respect, such as
@@ -77,7 +77,7 @@ not without warnings (platform specific C code is of course less durable).
 Hardware
 --------
 
-I tend not to care very much about hardware, except for compatability
+I tend not to care very much about hardware, except for compatibility
 problems. Nearly all of my computing could be done on a [Raspberry
 Pi](https://en.wikipedia.org/wiki/Raspberry_Pi), or on a generic mildly
 priced new laptop. I like the Raspberry Pi because of its ability to run
@@ -87,3 +87,12 @@ a bottleneck for me. I do care about keyboards, though.
 ### Keyboard
 
 ### Mouse
+
+Coding Standards
+----------------
+
+### General Project Setup
+
+### C
+
+### Shell Scripting

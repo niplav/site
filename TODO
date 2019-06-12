@@ -1,4 +1,5 @@
 Site:
+	Use unicode in every formula that doesn't need MathJax
 
 Texts:
 
@@ -32,7 +33,6 @@ Collections
 	Differences Between GNU and POSIX `make`
 
 Notes
-	Approach Men First to Overcome Approach Anxienty
 	Use Things Up
 
 Music:

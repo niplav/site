@@ -12,13 +12,10 @@ fn decheck {
 	aspell -x -l de check $1
 }
 
-entexts=(99_klong_problems.md 99_problems_collection.md 99_problems_klong_solution.md a_religion.md about.md against_applause.md bag_spreading.md better_mathematical_notation.md changelog.md equally_many_heads_and_tails.md estimated_life_expectancy.md fundamentals.md index.md notes.md pick_up.md pipe_rings.md rationalist_gods.md two_people_on_a_planet.md uses_this.md)
-detexts=(buch_stab.md metamodernistisches_manifest.md platte.md tao_te_king.md)
-
-for(i in $entexts)
+for(i in `{ag -l 'language: english' | grep -v sitelint})
 	encheck $i
 
-for(i in $detexts)
+for(i in `{ag -l 'language: german' | grep -v sitelint})
 	decheck $i
 
 #Uses: [ag](https://geoff.greer.fm/ag/)

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-05-24, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-05-22, modified: 2019-06-12, language: english, status: in progress, importance: 3, confidence: unlikely*
 
 > __Short texts on different topics.__
 
@@ -22,7 +22,7 @@ One possible method one could use to get
 an overview of everything is to use [Wikipedia's
 contents:Outlines](https://en.wikipedia.org/wiki/Portal:Contents/Outlines):
 it contains a list of all
-[outlines](https://en.wikipedia.org/wiki/Outline_(list)) on wikipedia,
+[outlines](https://en.wikipedia.org/wiki/Outline_(list)) on Wikipedia,
 and is well structured. Wikipedia is generally concise and complete
 enough to provide a sufficient overview over a topic (see [Tomasik
 2017](https://foundational-research.org/education-matters-for-altruism/#Taking_the_big_picture_Textbooks_review_articles_and_Wikipedia)).
@@ -31,10 +31,38 @@ following method:
 
 Read [Wikipedia's
 contents:Outlines](https://en.wikipedia.org/wiki/Portal:Contents/Outlines)
-from top to bottom. If a link is a link to a wikipedia article, open it
+from top to bottom. If a link is a link to a Wikipedia article, open it
 and read it, without opening any further links. If a link leads to an
 outline, open the link and recursively apply the same procedure to the
 outline. If an article is opened a second time, it can be discarded. Lists
 can also be ignored.
 
 This method results in a corpus of considerable size. (TODO: how much text?)
+
+Approach Anxiety
+----------------
+
+I had very big problems when trying to overcome approach anxiety. Since
+this seems to be a common problem, it may be worth it to share a method
+that was successful for me to become more comfortable with it. To make
+progress on that front, I set a goal for several weeks in advance,
+similar to this:
+
+* 1st week: Ask 1 guy a day for his number
+* 2nd week: Ask 2 guys for their numbers
+* 3rd week: Ask 3 guys for their numbers
+* 4th week: Ask 3 guys and 1 girl for their numbers
+* 5th week: Ask 2 guys and 1 girl for their numbers
+* 6th week: Ask 1 guy and 2 girls for their numbers
+* 7th week: Ask 3 girls for their numbers
+
+If I failed in a week, I precommitted to donating a certain amount like
+5€ to an effective charity.
+
+In contrast to the other methods used and advertised by people who cold
+approach, this worked quite well. After the first 4 weeks, I took 1 week
+off, but went back to approaching the week after.
+
+This, of course, only can work if one is able to ask men for their
+numbers. For a reason that eludes me, this is easier for me than
+approaching women, though the gap is shrinking with exposure.

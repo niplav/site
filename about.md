@@ -21,7 +21,7 @@ Content](https://www.gwern.net/About#long-content): pages that are
 continually getting refined and updated, never quite completely finished,
 but approaching stability. This allows for "perpetual drafts", along
 with continuous improvement (similar to a wiki, but mainly edited by one
-person). Because of this, TODO's are left in the text, making it easier
+person). Because of this, TODOs are left in the text, making it easier
 for me to find them and edit them out, though they may leave the reader
 with an unsatisfying feeling of incompleteness.
 
@@ -77,17 +77,17 @@ for corrections sent my way.
 ### Style
 
 The style of writing is mostly formal english. TODO: Find out whether
-to use US or british english.
+to use US or British english.
 
 * Titles and headers use the (TODO: information about the exact style) style of capitalization
 * MathJax is used only when necessary
 * The Oxford comma is not used
-* American english spelling instead of british english spelling is used (labor and not labour) (TODO: follow through on this!)
+* American english spelling instead of British english spelling is used (labor and not labour) (TODO: follow through on this!)
 * Code is not syntax-highlighted
 * A passive voice is preferred, but I have to get into the flow of writing, so texts may contain that as well. TODO: get rid of "we"?
 * No footnotes/endnotes (see https://entirelyuseless.com/2015/07/11/are-hyperlinks-a-bad-idea/)
-* Quotes have the following style: `*– [Author Name](https://en.wikipedia.org/wiki/Author_Name), [“Chapter” in “Work Name”, p. 1](https://work-name.com), Year*`. If the work is not online, link the wikipedia page.
-* For pages, optimal is to give the pagenumber of the quotation in the linked pdf. If it is not available, the page number written at the bottom of the page is used.
+* Quotes have the following style: `*– [Author Name](https://en.wikipedia.org/wiki/Author_Name), [“Chapter” in “Work Name”, p. 1](https://work-name.com), Year*`. If the work is not online, link the Wikipedia page.
+* For pages, optimal is to give the page number of the quotation in the linked PDF. If it is not available, the page number written at the bottom of the page is used.
 * Link to document: typical style
 	* for one author: `[Author Year](./title_author_year.pdf)`
 	* for two authors: `[Author&Coauthor Year](./title_author_coauthor_year.pdf)`
@@ -108,7 +108,7 @@ to use US or british english.
 * check broken markdown
 * broken citations
 * "labour" instead of "labor", "behaviour" instead of "behavior"
-* links for authors to wikipedia
+* links for authors to Wikipedia
 * capitalization (capitalisation?) of headings
 * proselint?
 * fixing 404'ed links?
@@ -121,7 +121,7 @@ Tags for texts (mainly taken from http://www.gwern.net/About):
 * creation date "created"
 * [translator "translator"]
 * [translation date "translated"]
-* [transcriptor "transciptor"]
+* [transcriptor "transcriptor"]
 * [transcription date "transcribed"]
 * modification date "modified"
 * language: {english, german, french, serbocroatian, esperanto, lojban, ithkuil, toki pona}
@@ -152,6 +152,40 @@ The author
 ----------
 
 ### Contact
+
+Contact address is `niplav@posteo.net`.
+
+PGP public key:
+
+	-----BEGIN PGP PUBLIC KEY BLOCK-----
+	mQENBFxjMzUBCAD1GrTHAZ+K50WTzvZJBoUiXhnqIDO7mHpdsD9bpNDGFLudeQKE
+	5BjTV4F4Sfp8BxQU3uo9WUGqPWpYsWZ5VHyYbFoQUZaXulDslwNOfLY4vlT6SLHN
+	5aoLHVDnZQ7wP44nsubIu4iDVUWpKCSQBaxSLku9u1eINlGshXVPlQbxwWoHpxS1
+	Wkpo3wVI8RKDVNuCnSJhUPdYz9L/yIIm833UJ/sSuv6DM3VVKZxNqCB7XJq8qXdg
+	JwaOIMzPiJAnJSvIedOAo5JKDdQNpQ1e7thufPRZVG0vOxt8c+zO8eajMiiG6yMk
+	PMPNaRuKfv/2wZVX/37sIwaHIgj7NxknHix1ABEBAAG0Gm5pcGxhdiA8bmlwbGF2
+	QHBvc3Rlby5uZXQ+iQFUBBMBCAA+FiEEuOHrdbohn8dtrXQGKf5C00UfR10FAlxj
+	MzUCGwMFCQPCZwAFCwkIBwIGFQoJCAsCBBYCAwECHgECF4AACgkQKf5C00UfR12Q
+	bwf+LpmGTGKThsOx0yycplid03ws4sbdXYlEnfzWMgemiJqa4jmwmcExHGhbNbnq
+	wdz7bnXY2qa8oG3mJW/vqWbFIkv8k96bPTshaHg9JzoelooSkmG3rrtSPuKYebrC
+	cJN3eyRERGU39oFJGqPLytVlv9XshLBHvZKA4WRZe6iBco++YRRPk8OLfY4GFXrC
+	68DQZof/MLYjYqHxsm9y4eGLhT3MjbgKnFeia0J3XvGnKfAsbQpKGdRkJaOG3ht4
+	04jb0QHja/3+Px1+iVL0k405IZ1rxiYmstQ1pa3OTQ4HhoB37BMb6R4sKIF8AyMP
+	WGw2ZtikL7HiQZdc3o2I1HLCXrkBDQRcYzM1AQgAucsvQoAi/bYfEKcTtUPt4EqM
+	z2NUkwPCOFJxTu5sSIgTioZbXAlHeCCIXAUVi8sUK496Ymmf5cLjqw8rUeSVorL6
+	Eh9bB6S+gDn8/RlWgqU377pK4f6SIuOCHo1vHcLJ9YeIpwv660KgHci3J40lcTpz
+	7oTlJNu3NxU+F53o+YO5IGOmuNsokXpeCERnnpJpEjaqE+IdyYaAxVHfxcwbUODu
+	ZhA9hkmdYMn9pNiSiSFSNpCSS/D9ZS4+UWV3602IfKegGt6V1W89W78QA1mzALze
+	I1GmpgqlQM5Z/BmKL/zH3NC4rwBTqU62oaf0XZlgIWaM6SbdCZaK4IxDgTDcBwAR
+	AQABiQE8BBgBCAAmFiEEuOHrdbohn8dtrXQGKf5C00UfR10FAlxjMzUCGwwFCQPC
+	ZwAACgkQKf5C00UfR12icwgAlIpsa66lxUEQrMk27V9fXH89h540Y7W3n2rssDKb
+	bY1D8gtfbnQ3Uhs+Sy+XtKSSfpLlI8qVmYfW1UFmyViYkh3bWmT3lQo4ap/JTACm
+	bkA6Gxj91lMqwJMUxSTEgAPaZwkvPB2I2PMWuLBjjsXdA3Y/i64kPPRDO+Exxewi
+	DxfYMGTQf89lrPifvT5y78NL6S8FqHcGeWrwEXsuumg0RDC7uBm9PC5DFEtZQmxP
+	AxRVmda5oa7eNp72JTYpkbna9n6v6QLpWsbr702tKgJmj8NS1QMx+YKFw5U9eP4x
+	INanMfBMaiGYGd1BKfd6xJfapLLRimDp6nUbaVMimNo99w==
+	=9nws
+	-----END PGP PUBLIC KEY BLOCK-----
 
 ### Elsewhere on the Internet
 

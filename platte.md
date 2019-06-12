@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2016-11-20, modified: 2019-05-20, language: german, status: finished, importance: 1, confidence: fiction*
+*author: niplav, created: 2016-11-20, modified: 2019-06-12, language: german, status: finished, importance: 1, confidence: fiction*
 
 > __Text about the experiences of one of the fastest man-made objects.__
 
@@ -20,7 +20,7 @@ Platte
 Es war klar, dass etwas anders war. Obwohl der kühle Wind, trocken,
 strömend, über die Oberseite strich, lag eine Stimmung in der Luft,
 die keinen Zweifel daran ließ, dass die normale Struktur verrührt
-war, durcheinandergebracht, geschüttelt und dann wieder probalistisch
+war, durcheinandergebracht, geschüttelt und dann wieder probabilistisch
 sortiert. Die Sonne war von Wolken verdeckt, meine Oberfläche wurde
 nicht so stark aufgeheizt wie an den Tagen vorher. Ich spürte, wie
 meine 4 drittelmeterlangen Stahlschäfte, in den Beton gedrillt, sich wie
@@ -47,14 +47,14 @@ wahrnehmbar. An der Unterseite, wie immer, kühle, dunkle Luft, die in
 feinem Säuseln ein Gemisch aus Wind und Feuchtigkeit, winzigen Tropfen,
 an meine Unterseite warf, die den schon ahnbaren Rost verstärkte,
 sich langsam, aber sicher sogar am Edelstahl entlangfraß. Trotz des
-Gefühls der immantenten Bedrohung war ich nicht aufgeregt. Ich war
+Gefühls der immanenten Bedrohung war ich nicht aufgeregt. Ich war
 unverrückbar, für Jahrzehnte, vielleicht sogar Jahrhunderte, nur
 langsam, korrodierend, bröckelnd zu zerstören, in den Rändern in
 winzige Fragmente zu zerlegen, im allgemeinen Fluss zu zersetzen. Ich war
 Teil der Erdoberfläche, einen Schacht verdeckend, der als Tor direkt
 in die Unterwelt zu gehen schien, diesen verschließend vor allem,
 was aus ihm herauskommen wollte. Ich war entstanden in dickflüssigem,
-harzigen Feuer, als orangener Stahlembryo, gegossen und abgekühlt, von
+harzigem Feuer, als orangener Stahlembryo, gegossen und abgekühlt, von
 lästigen, blätternden Schichten befreit, von gigantischen Maschinen
 von außen abgebürstet, so robust, dass kein Lebewesen mir mit seiner
 Kraft wirklich schaden könnte. Ich war nicht nur Teil des Ortes, ich
@@ -84,7 +84,7 @@ hatte mich ejakuliert, durch eine zerrende, unbarmherzige Luft
 
 Erneute Geburt, erneutes postnatales Schreien, nun eine Taufe im
 Unsichtbaren, im ehemaligen Wind, im damaligen Orkan, am Altar der
-Athmosphäre, durch den Priester des nahen Alls, Pfeifen, langsam (was
+Atmosphäre, durch den Priester des nahen Alls, Pfeifen, langsam (was
 hieß aber hier langsam, da die Wahrnehmung verzerrt war, durch ein
 Reiben an erkaltendem Sturm), waren meine Welt, für diese Einbettung in
 einen neuen Kosmos, keine feste Oberfläche, als rasendes Geschoss in
