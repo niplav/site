@@ -1,7 +1,7 @@
 [home](./index.md)
 -----------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-06-03, language: english, status: finished, importance: 3, confidence: likely*
+*author: niplav, created: 2019-04-02, modified: 2019-06-13, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __Two people are abducted and placed on the opposite poles of a
 > habitable planet. They want to find each other, but they have no
@@ -19,7 +19,19 @@ Two People on a Planet
 
 *– [Friedrich Hölderlin](https://en.wikipedia.org/wiki/Friedrich_H%C3%B6lderlin), [“Gesang des Deutschen”](https://www.textlog.de/17843.html), 1800*
 
-TODO: read “The Theory of Search Games and Rendezvous” by Alperin & Gal  
+TODO: Read
+
+* /usr/local/doc/unread/rendezvous/deterministic_rendez_vous_ta_shma_zwick_2007.pdf
+* /usr/local/doc/unread/rendezvous/deterministic_rendezvous_in_graphs_dessmark_et_al_2006.pdf
+* /usr/local/doc/unread/rendezvous/how_to_meet_in_anonymous_network_kowalski_malinowski_2008.pdf
+* /usr/local/doc/unread/rendezvous/humans_cannot_consciously_generate_random_numbers_sequences_figurska_et_al_2008.pdf
+* /usr/local/doc/unread/rendezvous/random_walks_universal_traversal_sequences_aleliunas_et_al_1979.pdf
+* /usr/local/doc/unread/rendezvous/rendezvous_problem_gasieniec_2004.pdf
+* /usr/local/doc/unread/rendezvous/theory_of_search_games_and_rendezvous_alpern_2002.pdf
+* https://math.stackexchange.com/questions/1214022/fastest-way-to-meet-without-communication-on-a-sphere
+* https://mathoverflow.net/questions/184404/randall-munroes-lost-immortals
+* [Rendezvous problem](https://en.wikipedia.org/wiki/Rendezvous_problem)
+* [Deterministic rendezvous problem](https://en.wikipedia.org/wiki/Deterministic_rendezvous_problem)
 
 The Problem
 ------------
@@ -87,14 +99,6 @@ random bits (TODO: put a citation here).
 
 On the other hand, this method could be biased, since many humans have
 points on their skin that are constantly itchy.
-
-TODO: Think of other possible ways the body can generate random bits.
-
-https://math.stackexchange.com/questions/1214022/fastest-way-to-meet-without-communication-on-a-sphere  
-https://mathoverflow.net/questions/184404/randall-munroes-lost-immortals  
-
-[Rendezvous problem](https://en.wikipedia.org/wiki/Rendezvous_problem)  
-[Deterministic rendezvous problem](https://en.wikipedia.org/wiki/Deterministic_rendezvous_problem)  
 
 A Better Solution
 -----------------

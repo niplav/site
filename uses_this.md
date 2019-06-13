@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-06-12, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2019-06-12, language: english, status: in progress, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
 > recommendations by people who I respect, such as
@@ -19,6 +19,8 @@ Software
 
 ### List of Programs
 
+TODO: links
+
 * Operating system: [Void Linux](https://voidlinux.org/)
 * Window manager: [dwm](https://dwm.suckless.org/)
 * Terminal emulator: [st](https://st.suckless.org/)
@@ -28,6 +30,7 @@ Software
 * Calendar: [when](http://www.lightandmatter.com/when/when.html)
 * Spaced repetition: [fulgurate](https://github.com/theq629/fulgurate)
 * Version control: [git](https://git-scm.com/)
+* Password manager: spm
 * Code search: [ag](https://geoff.greer.fm/ag/)
 * Music: [sad](http://git.2f30.org/sad/log.html)
 * Videos: [mpv](https://mpv.io/)
@@ -73,6 +76,9 @@ that it will be maintained for a long time, and the durability and number
 of its dependencies. A good example for durable software is correct C
 code. It still compiles and runs after decades of neglect, though often
 not without warnings (platform specific C code is of course less durable).
+
+As a result of this, the programs I use mostly come from the unix/linux
+ecosystem.
 
 Hardware
 --------
