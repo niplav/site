@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-06-11, language: english, status: notes, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2019-06-11, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -43,7 +43,7 @@ The content on this website is licensed under [Creative Commons
 
 #### Essays
 
-The essays contain mainly new material, both short argument and
+The essays contain mainly new material, both short arguments and
 collections of links, but also longer descriptions of new ideas or
 analyses of concepts where existing descriptions (e.g. on Wikipedia or
 other blogs) were deemed incomplete. It is of course not possible to

@@ -795,7 +795,7 @@ Zermalmen bald und liegen bald zertrümmert.
 
 §68
 
-Deshald, der Heilige Mensch  
+Deshalb, der Heilige Mensch  
 Weist ab das Ungemeine,  
 Weist ab das Vermessene,  
 Weist ab das Grandiose.  
@@ -1122,7 +1122,7 @@ Ein Meister niederen Grades, der vom *Wege* hört,
 Verlacht ihn lauthals.  
 
 Was keiner verlacht,  
-Ist würdig nicht, daq man zum *Weg* es macht.  
+Ist würdig nicht, daß man zum *Weg* es macht.  
 
 §96
 
@@ -1359,7 +1359,7 @@ Der *Weg erzeugt sie;
 Die Tugend hegt sie,  
 Leitet und pflegt sie,  
 Vermehrt sie,  
-stüzt sie,  
+stützt sie,  
 Nährt sie, beschützt sie.  
 
 §118
@@ -1394,7 +1394,7 @@ Des Leib ist ohne Rettung bis zum Ende.
 
 Kleinstes sehen heißt:  
 Erleuchtung.  
-Weihheit wahren heißt: Stärke.  
+Weichheit wahren heißt: Stärke.  
 Wer seinen Glanz gebraucht,  
 Um zur Erleuchtung heimzufinden,  
 Der büßt nichts ein, trifft Unheil seinen Leib.  
@@ -1500,7 +1500,7 @@ Schabt ab seine Schärfen,
 Löst auf seine Wirren,  
 Beschwichtigt sein Glänzen,  
 Vereint seinen Staub.  
-Diies nennt man Mystische Vereinigung.  
+Dies nennt man Mystische Vereinigung.  
 
 §131
 
