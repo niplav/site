@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-06-11, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2019-06-14, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -91,7 +91,7 @@ to use US or British english.
 * Link to document: typical style
 	* for one author: `[Author Year](./title_author_year.pdf)`
 	* for two authors: `[Author&Coauthor Year](./title_author_coauthor_year.pdf)`
-	* for more than two authors: `[Author et. al Year](./title_author_et_al_year.pdf)`
+	* for more than two authors: `[Author et al. Year](./title_author_et_al_year.pdf)`
 * The year for a text is usually the best date of the last significant change to the text.
 * Link individual chapters from books, not whole books, whole papers are okay.
 * Sections every article contains:

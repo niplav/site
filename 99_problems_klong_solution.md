@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-06-11, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-06-17, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -766,9 +766,35 @@ It is not stable, though:
 		lsort([[:a][:b]])
 	[[:b] [:a]]
 
-b)
+b) In this exercise, the solution is supposed to sort the sublists of a
+list according to the frequency of length of the list. So if there are
+5 lists with length 2, and one list with length 7, the five lists with
+length 2 come first, and then the list with length 7.
 
-	s28b::{[a b];a::#'x;b::{(#a?x),x}'?a;x@,/{a?x}'{x@1}'b@<*'b}
+I haven't found a very elegant and beautiful solution for this, but the
+obvious answer is quite straightforward and direct: First, one obtains the
+lengths of the sublists and groups (so that the indices of lists with the
+same length are put into sublists. This is assigned to the variable `f`.
+We then sort this list after the length of its sublists so that we simply
+repeat the implementation of s28a (which takes more bytes to be called
+than to be implemented in-line). Finally, `x` is indexed with the flattened
+version of these indices.
+
+	s28b::{[f];f::=#'x;x@,/f@<#'f}
+	lfsort::s28b
+
+Tests:
+
+		lfsort([[:a :b :c] [:d :e] [:f :g :h] [:d :e] [:i :j :k :l] [:m :n] [:o]])
+	[[:o] [:i :j :k :l] [:a :b :c] [:f :g :h] [:d :e] [:d :e] [:m :n]]
+		lfsort([])
+	[]
+		lfsort([[:a]])
+	[[:a]]
+
+One can see that `lfsort` returns the correct result, but is not stable:
+`[:o]` occurred after `[:i :j :k :l]` in the original list, but is before
+it in the returned value.
 
 Arithmetic
 ----------

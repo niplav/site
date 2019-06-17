@@ -1,4 +1,4 @@
-*author: niplav, created: 2019-03-20, modified: 2019-06-03, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2019-06-17, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -19,7 +19,6 @@ Writing
 ### Nonfiction
 
 * Ideas
-	* [99 Problems Klong Solution](./99_problems_klong_solution.md)
 	* [Equally Many Heads and Tails](./equally_many_heads_and_tails.md)
 	* [Pipe Rings](./pipe_rings.md)
 	* [Two People on a Planet](./two_people_on_a_planet.md)
@@ -45,6 +44,13 @@ Transcriptions
 --------------
 
 * [Tao Tê King](./tao_te_king.md)
+
+Programming
+-----------
+
+### Literate Programs
+
+* [99 Problems Klong Solution](./99_problems_klong_solution.md)
 
 Misc
 -----
