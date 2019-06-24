@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-06-14, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2019-06-24, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -76,13 +76,11 @@ for corrections sent my way.
 
 ### Style
 
-The style of writing is mostly formal english. TODO: Find out whether
-to use US or British english.
+The style of writing is mostly formal US english.
 
 * Titles and headers use the (TODO: information about the exact style) style of capitalization
 * MathJax is used only when necessary
-* The Oxford comma is not used
-* American english spelling instead of British english spelling is used (labor and not labour) (TODO: follow through on this!)
+* The Oxford comma is not used (find out what exactly that would entail, and check whether this is true or not)
 * Code is not syntax-highlighted
 * A passive voice is preferred, but I have to get into the flow of writing, so texts may contain that as well. TODO: get rid of "we"?
 * No footnotes/endnotes (see https://entirelyuseless.com/2015/07/11/are-hyperlinks-a-bad-idea/)
@@ -100,7 +98,7 @@ to use US or British english.
 	* title of the article
 	* "External Links"/"See Also" for links to other websites discussing the same (or very similar) ideas
 	* "Discussions" for external discussions on the article
-* Long numbers written with underscores (for separating thousands/millions etc.)
+* Long numbers written with SI-postfixes (K for thousand, M for million etc.) (TODO: Wikipedia link here!)
 
 ### Writing Checklist
 

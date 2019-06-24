@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-06-19, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-06-24, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -11,6 +11,8 @@
 
 99 Problems Klong Solutions
 ===========================
+
+TODO: Convert fish scripts and command lines to rc.
 
 Acknowledgements
 ----------------
@@ -604,36 +606,45 @@ like equivalent `s25::{(#x){p::_.rn()*#x;(x@p),s20(x;p+1)}:*x}`, since
 Grade-Up `<` sorts the list, which results in a `$O(n*log(n))$` time
 complexity, while Fischer-Yates is just `$O(n)$`.
 
-We can compare the two:
+One can then measure the runtimes of these two functions. Unfortunately,
+Klong is yet lacking a timing functionality, so measuring the runtime
+has to be done using `time` on the command line.
 
-	$ time -p kg -e 's25::{x@<(#x){x,.rn()}:*[]};s25(!10000)'
-	[...]
-	real 0.94
-	user 0.93
-	sys 0.00
-	$ time -p kg -e 's20::{((y-1)#x),y_x};s25::{(#x){p::_.rn()*#x;(x@p),s20(x;p+1)}:*x};s25(!10000)'
-	[...]
-	real 4.48
-	user 4.45
-	sys 0.00
-	$ time -p kg -e 's25::{x@<(#x){x,.rn()}:*[]};s25(!20000)'
-	[...]
-	real 3.62
-	user 3.59
-	sys 0.00
-	$ time -p kg -e 's20::{((y-1)#x),y_x};s25::{(#x){p::_.rn()*#x;(x@p),s20(x;p+1)}:*x};s25(!20000)'
-	[...]
-	real 14.68
-	user 14.54
-	sys 0.01
+	$ for i in (seq 1000 500 10000); time -p kg -e 's25.1::{x@<(#x){x,.rn()}:*[]};s25.1(!'$i')' >/dev/null ^| g '^real' | awk '{ print($2) }'; end | tr '\n' ' '
+	0.04 0.03 0.09 0.13 0.20 0.30 0.39 0.49 0.61 0.76
+	$ for i in (seq 1000 500 10000); time -p kg -e 's20::{((y-1)#x),y_x};s25.2::{(#x){p::_.rn()*#x;(x@p),s20(x;p+1)}:*x};s25.2(!'$i')' >/dev/null ^| g '^real' | awk '{ print($2) }'; end | tr '\n' ' '
+	0.05 0.12 0.27 0.50 0.80 1.22 1.67 2.30 2.75 3.73
 
-Further doubling of the array size returns following runtimes in seconds:
+One can now also generate a graph of the runtimes using Klong's nplot library:
 
-* Grading: `0.94,3.62,14.93,64.56`
-* Fisher-Yates: `4.48,14.68,76.71,298.38`
+	.l("nplot")
 
-Both seem to grow with roughly `$O(n^2)$`. There is probably a Klong verb that
-runs in `$O(n^2)$` and was used in `s20` or `s25`.
+	rt1::[0.04 0.02 0.03 0.05 0.08 0.11 0.13 0.17 0.20 0.24 0.30 0.36 0.39 0.44 0.49 0.55 0.63 0.72 0.77]
+	rt2::[0.05 0.10 0.13 0.19 0.27 0.37 0.50 0.64 0.79 0.99 1.23 1.38 1.69 1.87 2.30 2.54 2.76 3.44 3.73]
+
+	frame([0 10000 1000]; [0 4 0.5])
+	ytitle("runtime in seconds")
+
+	segplot(rt1)
+	text(250;60;"Grading Shuffle")
+	setrgb(0;0;1)
+	segplot(rt2)
+	text(200;250;"Fisher-Yates Shuffle")
+	draw()
+
+The output of this is in eps (TODO: Wikipedia link here!) and now has to be converted into png:
+
+	kg -l ./p25plot.kg -e '[]' >runtimes25.eps
+	convert -size 750x750 runtimes25.eps runtimes25.png
+
+![Runtimes for the solutions to problem 3](./img/99_klong/runtimes25.png)
+
+The Fisher-Yates shuffle implementation seems to grow with `$O(n^2)$`,
+but the growth behavior of the Grading Shuffle is not entirely
+clear. Nonetheless, it seems like the grading shuffle is clearly superior
+to the Fisher-Yates Shuffle implementation in terms of performance.
+There is probably a Klong verb that runs in `$O(n^2)$` and was used in
+`s25` or `s25`.
 
 ### P26 (**) Generate the combinations of K distinct objects chosen from the N elements of a list.
 
@@ -801,17 +812,97 @@ Arithmetic
 
 ### P31 (**) Determine whether a given integer number is prime.
 
-In the implementation of a primality test, there is a great trade-off
-between conciseness and performance. Interestingly, this does not seem
-to be the case here: Below are four implementations of primality checking
-implemented in Klong.
-The first three were written by me, the fourth is the primality checking
-implementation adapted from the standard library.
+In the implementation of a primality test, there generally is a great trade-off
+between conciseness and performance. This seems only partially applicable in Klong.
+
+Here, I compare four different primality tests written in Klong. The first three
+were written by me, and the fourth is a slightly adapted version from the Klong
+standard math library.
+
+`s31.1` is the simplest and therefore the shortest of these four
+implementations: it simply checks whether a number is divisible by any
+of the numbers smaller than itself, and if that is the case, it returns
+0, otherwise 1. It needs a special case for the number 2, but otherwise,
+it is quite boring.
 
 	s31.1::{:[[0 1]?x;0:|x=2;1;[]~(x!2+!x-2)?0]}
+
 	s31.2::{:[[0 1]?x;0:|[2 3 5]?x;1;&/(x!2,3+2*!_sqr(x)%2)]}
 	s31.3::{[a v];a::x;v::1;x=*{a>*x}{v::v+2;:[[]~(v!x)?0;v,x;x]}:~[2]}
-	31.4::{[n p];n::x;p::[2];{~x>n}{:[&/x!p;p::p,x;0];x+2}:~3;:[x<2;0;x=*|p]}
+	s31.4::{[n p];n::x;p::[2];{~x>n}{:[&/x!p;p::p,x;0];x+2}:~3;:[x<2;0;x=*|p]}
+
+Even quick performance tests reveal massive differences between these
+four functions:
+
+Testing `s31.1` with 100 random values >100K:
+
+	$ for i in (seq 1 100); time -p kg -e 's31.1::{:[[0 1]?x;0:|x=2;1;[]~(x!2+!x-2)?0]};s31.1(100000+_100*.rn())' >/dev/null ^| g '^real'; end | awk '{ a+=$2 } END { print(a/NR) }'
+	0.2634
+
+Testing `s31.2` with 100 random values >1G:
+
+	$ for i in (seq 1 100); time -p kg -e 's31.2::{:[[0 1]?x;0:|[2 3 5]?x;1;&/(x!2,3+2*!_sqr(x)%2)]};s31.2(10000000+_100*.rn())' >/dev/null ^| g '^real'; end | awk '{ a+=$2 } END { print(a/NR) }'
+	0.0103
+
+Testing `s31.3` with 100 random values >10K:
+
+	$ for i in (seq 1 100); time -p kg -e 's31.3::{[a v];a::x;v::1;x=*{a>*x}{v::v+2;:[[]~(v!x)?0;v,x;x]}:~[2]};s31.3(10000+_100*.rn())' >/dev/null ^| g '^real'; end | awk '{ a+=$2 } END { print(a/NR) }'
+	6.5427
+
+Testing `s31.4` with 100 random values >10K:
+
+	$ for i in (seq 1 100); time -p kg -e 's31.4::{[n p];n::x;p::[2];{~x>n}{:[&/x!p;p::p,x;0];x+2}:~3;:[x<2;0;x=*|p]};s31.4(10000+_100*.rn())' >/dev/null ^| g '^real'; end | awk '{ a+=$2 } END { print(a/NR) }'
+	6.9261
+
+One can already see that the primality checks implementing sieves are
+orders of magnitude slower than the simple and boring divisor-checking
+primality tests. One can also see that `s31.2` is by far the fastest
+of these three implementations (probably due to the ommission of even
+divisors).
+
+One can now check the performance of the first two functions to find
+out about their runtime behavior (notice that both have similar growth
+behavior at 100K and 10G, respectively).
+
+Measuring runtimes of `s31.1`:
+
+	$ for i in (seq 100000 50000 1000000); time -p kg -e 's31.1::{:[[0 1]?x;0:|x=2;1;[]~(x!2+!x-2)?0]};s31.1('$i'+_100*.rn())' >/dev/null ^| g '^real' | awk '{ print($2) }'; end | tr '\n' ' '
+	0.26 0.42 0.59 0.78 0.89 1.07 1.23 1.37 1.52 2.01 1.96 2.11 2.13 2.34 2.63 3.15 3.05 3.02 3.00
+
+Generating the graph with nplot:
+
+	.l("nplot")
+
+	rt::[0.26 0.42 0.59 0.78 0.89 1.07 1.23 1.37 1.52 2.01 1.96 2.11 2.13 2.34 2.63 3.15 3.05 3.02 3.00]
+
+	frame([0 1000000 100000]; [0 4 0.5])
+	ytitle("runtime in seconds")
+
+	segplot(rt)
+	text(300;300;"s31.1")
+	draw()
+
+![Runtimes of s31.1](./img/99_klong/runtimes31_1.png)
+
+Measuring runtimes of `s31.2`:
+
+	$ for i in (seq 10000000000 5000000000 100000000000); time -p kg -e 's31.2::{:[[0 1]?x;0:|[2 3 5]?x;1;&/(x!2,3+2*!_sqr(x)%2)]};s31.2('$i'+_100*.rn())' >/dev/null ^| g '^real' | awk '{ print($2) }'; end | tr '\n' ' '
+	0.55 0.82 1.08 0.99 1.23 1.45 1.68 1.89 1.45 1.59 1.76 1.95 2.16 2.28 2.42 2.60 2.78 2.99 3.09
+
+Generating the graph with nplot:
+
+	.l("nplot")
+
+	rt::[0.55 0.82 1.08 0.99 1.23 1.45 1.68 1.89 1.45 1.59 1.76 1.95 2.16 2.28 2.42 2.60 2.78 2.99 3.09]
+
+	frame([0 1000000000 100000000]; [0 4 0.5])
+	ytitle("runtime in seconds")
+
+	segplot(rt)
+	text(300;300;"s31.2")
+	draw()
+
+![Runtimes of s31.2](./img/99_klong/runtimes31_2.png)
 
 	s32::{:[0=y;x;.f(y;x!y)]}
 	s33::{1=s32(x;y)}
