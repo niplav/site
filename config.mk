@@ -16,6 +16,7 @@ HTML=index.html \
 	bag_spreading.html \
 	better_mathematical_notation.html \
 	buch_stab.html \
+	circle_combinations.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
 	metamodernistisches_manifest.html \
