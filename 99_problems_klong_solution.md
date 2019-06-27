@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-06-24, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-06-25, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -743,7 +743,7 @@ Similarly, this also works for `s27`:
 
 Empty lists don't work
 
-		s27([:];[])
+		s27([];[])
 	kg: error: interrupted
 
 But set sizes that don't sum to the length of the original list still work:
@@ -827,12 +827,18 @@ it is quite boring.
 
 	s31.1::{:[[0 1]?x;0:|x=2;1;[]~(x!2+!x-2)?0]}
 
+`s31.2` basically does the same thing, but tests less numbers: Only odd
+numbers less than the square root of the argument (with special cases
+for 2, 3 and 5). Because of this, it should run a lot faster (and
+it does!).
+
 	s31.2::{:[[0 1]?x;0:|[2 3 5]?x;1;&/(x!2,3+2*!_sqr(x)%2)]}
+
 	s31.3::{[a v];a::x;v::1;x=*{a>*x}{v::v+2;:[[]~(v!x)?0;v,x;x]}:~[2]}
 	s31.4::{[n p];n::x;p::[2];{~x>n}{:[&/x!p;p::p,x;0];x+2}:~3;:[x<2;0;x=*|p]}
 
 Even quick performance tests reveal massive differences between these
-four functions:
+four functions (the result always is the average real runtime in seconds):
 
 Testing `s31.1` with 100 random values >100K:
 
@@ -841,8 +847,8 @@ Testing `s31.1` with 100 random values >100K:
 
 Testing `s31.2` with 100 random values >1G:
 
-	$ for i in (seq 1 100); time -p kg -e 's31.2::{:[[0 1]?x;0:|[2 3 5]?x;1;&/(x!2,3+2*!_sqr(x)%2)]};s31.2(10000000+_100*.rn())' >/dev/null ^| g '^real'; end | awk '{ a+=$2 } END { print(a/NR) }'
-	0.0103
+	$ for i in (seq 1 100); time -p kg -e 's31.2::{:[[0 1]?x;0:|[2 3 5]?x;1;&/(x!2,3+2*!_sqr(x)%2)]};s31.2(1000000000+_100*.rn())' >/dev/null ^| g '^real'; end | awk '{ a+=$2 } END { print(a/NR) }'
+	0.1355
 
 Testing `s31.3` with 100 random values >10K:
 
@@ -895,7 +901,7 @@ Generating the graph with nplot:
 
 	rt::[0.55 0.82 1.08 0.99 1.23 1.45 1.68 1.89 1.45 1.59 1.76 1.95 2.16 2.28 2.42 2.60 2.78 2.99 3.09]
 
-	frame([0 1000000000 100000000]; [0 4 0.5])
+	frame([0 100000000000 10000000000]; [0 4 0.5])
 	ytitle("runtime in seconds")
 
 	segplot(rt)
@@ -903,6 +909,8 @@ Generating the graph with nplot:
 	draw()
 
 ![Runtimes of s31.2](./img/99_klong/runtimes31_2.png)
+
+As one can see, both grow approximately linearly.
 
 	s32::{:[0=y;x;.f(y;x!y)]}
 	s33::{1=s32(x;y)}
