@@ -5,6 +5,7 @@ CONF=config.mk header.html main.css
 HTML=index.html \
 	about.html \
 	changelog.html \
+	contributions.html \
 	fundamentals.html \
 	notes.html \
 	uses_this.html \
