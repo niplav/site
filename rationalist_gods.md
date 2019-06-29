@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-04-07, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-06-28, language: english, status: in progress, importance: 2, confidence: log*
 
 > __[Rationalists](https://en.wikipedia.org/wiki/LessWrong) and the
 > [neoreactionary movement](https://en.wikipedia.org/wiki/Dark_Enlightenment)
@@ -29,7 +29,7 @@ Overview
 
 Alternative view:
 
-* [Meditating on Molochs Pantheon](https://old.reddit.com/r/LessWrongLounge/comments/2cjg1h/meditating_on_molochs_pantheon/)
+* [Meditating on Moloch's Pantheon](https://old.reddit.com/r/LessWrongLounge/comments/2cjg1h/meditating_on_molochs_pantheon/)
 
 Azathoth
 --------

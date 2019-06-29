@@ -1,10 +1,10 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-24, modified: 2019-06-12, language: english, status: finished, importance: 4, confidence: possible*
+*author: niplav, created: 2019-04-24, modified: 2019-06-28, language: english, status: finished, importance: 4, confidence: possible*
 
 > __[Pipelines](https://en.wikipedia.org/wiki/Pipeline_(Unix)) are an
-> integral part of the unix operating system. They come in different
+> integral part of the Unix operating system. They come in different
 > variants ([FIFOs](https://en.wikipedia.org/wiki/Named_pipe) and [anonymous
 > pipes](https://en.wikipedia.org/wiki/Anonymous_pipe)) and have many
 > applications. Here I show how to abuse simple text files and unnamed

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-06-12, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2019-06-28, language: english, status: in progress, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
 > recommendations by people who I respect, such as
@@ -77,7 +77,7 @@ of its dependencies. A good example for durable software is correct C
 code. It still compiles and runs after decades of neglect, though often
 not without warnings (platform specific C code is of course less durable).
 
-As a result of this, the programs I use mostly come from the unix/linux
+As a result of this, the programs I use mostly come from the Unix/Linux
 ecosystem.
 
 Hardware

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: [Lao-tse](https://de.wikipedia.org/wiki/Laozi), created: -400-01-01, translator: [Günther Debon](https://de.wikipedia.org/wiki/G%C3%BCnther_Debon), translated: 1979-01-01, transcriptor: niplav, transcribed: 2019-03-23, modified: 2019-06-10, language: german, status: finished, importance: 4, confidence: transcription*
+*author: [Lao-tse](https://de.wikipedia.org/wiki/Laozi), created: -400-01-01, translator: [Günther Debon](https://de.wikipedia.org/wiki/G%C3%BCnther_Debon), translated: 1979-01-01, transcriptor: niplav, transcribed: 2019-03-23, modified: 2019-06-28, language: german, status: finished, importance: 4, confidence: transcription*
 
 > __The Tao Tê King is one of the most translated texts in history. This
 > is a transcription of the german translation by Günther Debon from
@@ -1440,8 +1440,8 @@ Breitet sich deine Tugend aus.
 Wenn du dies pflegst am Heimatort,  
 Wächst deine Tugend fort und fort.  
 Wenn du dies pflegst im ganzen Land,  
-Blüht deine Tugend unwverwandt.  
-Wenn du die pflegst im ganzen Reihc,  
+Blüht deine Tugend unverwandt.  
+Wenn du die pflegst im ganzen Reich,  
 Dient deine Tugend allen gleich.  
 
 Wahrlich:  
@@ -1585,14 +1585,14 @@ Um die Menschen zu regieren
 Um dem Himmel zu dienen,  
 Ist nichts so gut wie Geizen.  
 Wohl! Dieses Geizen bedeutet:  
-Sich früzeitig unterziehen.  
+Sich frühzeitig unterziehen.  
 Sich frühzeitig unterziehen, heißt:  
 Die gespeicherte Tugend verdoppeln.  
 Wenn einer die gespeicherte Tugend verdoppelt,  
 Ist nichts, das er nicht zwingt.  
 Wenn nichts ist, das einer nicht zwingt,  
 So kennt niemand seinen First.  
-Wes höchesten First niemand kennt,  
+Wes höchsten First niemand kennt,  
 Der darf das Land haben.  
 
 §139
@@ -1672,7 +1672,7 @@ Der Bösen Zufluchtsort.
 
 §144
 
-Durch schäne Worte kannst  
+Durch schöne Worte kannst  
 Du Würde dir erhandeln;  
 Kannst überbieten andere  
 Nur durch dein rechtes Wandeln.  
@@ -1704,7 +1704,7 @@ Darum ward er verehrt vor allem andern im Reich.
 Tun, was ohne Tun.  
 Schaffen, was ohne Geschäft.  
 Kosten, was ohne Köstlichkeit.  
-Numm Großes für klein, Vieles für wenig!  
+Nimm Großes für klein, Vieles für wenig!  
 Vergilt Groll mit Tugend!  
 
 §147
@@ -1740,7 +1740,7 @@ Darum bleibt er ohne Schwierigkeit bis ans Ende.
 
 Was friedlich ist, wird leicht gehalten;  
 Mit dem, was noch kein Zeichen gab, ist leicht zu schalten.  
-Was spräde ist, schmilzt leicht dahin;  
+Was spröde ist, schmilzt leicht dahin;  
 Was subtil, wird leicht zerstreut.  
 Walte der Dinge, bevor sie da sind!  
 Regiere, was noch nicht im Widerstreit!  
@@ -1752,7 +1752,7 @@ War als Keimling fein wie Flaum.
 Ein Turm von neun Stockwerken  
 Stieg aus einem Häufchen Erde hinan;  
 Eine Reise von tausend Meilen  
-Fägt unter deinem Fuße an.  
+Fängt unter deinem Fuße an.  
 
 §153
 
@@ -1776,7 +1776,7 @@ Begehrt, nicht zu begehren;
 Schätzt schwer erlangbare Güter nicht;  
 Lernt, nicht zu lernen;  
 Kehrt sich zu dem, woran die Menge vorübergeht.  
-So stüzt er der zehntausend Wesen natürliches Weben,  
+So stützt er der zehntausend Wesen natürliches Weben,  
 Aber wagt nicht zu tun.  
 
 ### Kapitel 65
@@ -1803,7 +1803,7 @@ Ewig ein festes Richtmaß kennen,
 Dies nennt man Mystische Tugend.  
 
 Die Mystische Tugend, wie tief, wie weit!  
-Wie gegensinneg den Wesen!  
+Wie gegensinnig den Wesen!  
 Doch erst danach gelangt man  
 Zum großen Gleichströmen.  
 
@@ -1813,7 +1813,7 @@ Zum großen Gleichströmen.
 
 Was macht, daß Strom und Meer vermögen,  
 König zu sein den hundert Flußtälern?  
-Wei sie gut sind im Niedrigsein,  
+Weil sie gut sind im Niedrigsein,  
 Darum vermögen sie,  
 König zu sein den hundert Flußtälern.  
 
@@ -1863,7 +1863,7 @@ Darum vermag ich, Leiter zu sein den ›Geräten‹.
 
 Doch heutzutage ist man mutig  
 Unter Verzicht auf Barmherzigkeit;  
-ISt man großzügig unter Verzicht auf Mäßigkeit;  
+Ist man großzügig unter Verzicht auf Mäßigkeit;  
 Geht man voran unter Verzicht auf das Zurückstehn –  
 Das wird zum Tode führen!  
 
@@ -2024,7 +2024,7 @@ Warum es dann mit dem Tode schrecken?
 Gesetz aber, man wirkte,  
 Daß das Volk ständig den Tod fürchtet,  
 Und sie täten Ordnungswidriges:  
-Wer von uns wagte, sie grfeine und töten zu lassen?  
+Wer von uns wagte, sie greifen und töten zu lassen?  
 Ständig ist ein Scharfrichter da, der richtet.  
 Statt des Scharfrichters zu richten,  
 Das hießet »statt des Zimmermanns hobeln«.  
@@ -2150,7 +2150,7 @@ Uns mit den andern gut?
 §191
 
 Deshalb, der Heilige Mensch  
-BEhält den linken Teil der Schuldverschreibung,  
+Behält den linken Teil der Schuldverschreibung,  
 Aber treibt nicht ein von den Menschen:  
 Wer Tugend hat, obliegt der Schuldverschreibung  
 Wer tugendlos, obliegt der Schuld-Eintreibung.  
@@ -2160,7 +2160,7 @@ Wer tugendlos, obliegt der Schuld-Eintreibung.
 Des Himmels *Weg* ist ohne Günstlingsgeist,  
 Gibt ewig dem, der sich als gut erweist.  
 
-### Kapiel 80
+### Kapitel 80
 
 §193
 
@@ -2179,7 +2179,7 @@ Friedlich ihr Wohnen,
 Fröhlich die Lebensweise!  
 Man sieht von weitem wohl das Nachbarland,  
 Die Hähne sind, die Hunde noch zu hören;  
-Das Volk wird aalt, und wenn sie sterben,  
+Das Volk wird alt, und wenn sie sterben,  
 War dennoch keiner, der zum Nachbarn fand.  
 
 ### Kapitel 81
