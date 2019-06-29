@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2016-08-01, modified: 2019-05-29, language: german, status: finished, importance: 1, confidence: fiction*
+*author: niplav, created: 2016-08-01, modified: 2019-06-28, language: german, status: finished, importance: 1, confidence: fiction*
 
 > __A characterisation of the letters by sound and form.__
 
@@ -74,7 +74,7 @@ aber nicht in Form ändernd.
 So wie das B falsch zwei C vollendet und das O, das geniale, das C perfekt
 zeigt, ist auch das dumpfe, hohle D eine unkomplette, fälschliche
 Durchführung des C. Also weicher, kraftloser Buchstabe, nicht an die
-Urkraft des B hinanreichend, trägt es auf einem stabilen Fundament,
+Urkraft des B hinan reichend, trägt es auf einem stabilen Fundament,
 an einem kräftigen Rückgrat eine unförmige, schwere Wampe, die immer
 wieder Tendenzen zum Herabsacken, zum Abschlaffen zeigt. Als dummer,
 dämliche Buchstabe noch verachtenswerter als das ubiquitäre E. Träge
@@ -189,10 +189,10 @@ vom Klugen, Gemeinen ausgelacht.
 
 ## M
 
-Das ist als die latenische Tausend der vielbeinige, spinnenartig
+Das ist als die lateinische Tausend der vielbeinige, spinnenartig
 markante Buchstabe des Ungeheuers und Monsters. Durch die Ähnlichkeit
 mir einer Königskrone wird aber hierbei jeder Eindruck des Niederen
-und Schleichenden negiert, anstattdessen trohnt das M fürstlich,
+und Schleichenden negiert, anstatt dessen trohnt das M fürstlich,
 ja majestätisch sogar über den übrigen Lettern als scheinbar
 gigantischer Arachnide. Es hockt auf einer Anhöhe, ein doppelt
 verkehrtes fürchterliches V. Als Anfang des Mammuts, des Matternhorns
@@ -295,9 +295,9 @@ nur aus der Unfähigkeit des Wesens, mit ihm umzugehen.
 Das T ist das buchstäbliche Symbol der Unsicherheit und der vorsichtigen
 Balance, die Letter, die nur durch Abwesenheit von Wind auf dem Boden
 hält, die fallen würde, wenn Naturgewalt oder menschliche Kraft,
-unabhängig der Intention, es aggressierte. Auch die Symetrie bestätigt
+unabhängig der Intention, es aggressierte. Auch die Symmetrie bestätigt
 und bekräftigt die Balance, die so viel stabiler in ihrer Umkehrung,
-dem Symbol für Ortogonalität, wäre. Das T ist der Buchstabe des
+dem Symbol für Orthogonalität, wäre. Das T ist der Buchstabe des
 gemäßigten, der achtsamen Trance, des kurz bevorstehenden Traumas. Auch
 Buchstabe des Schirms, des Beschützens, unwillkommene Mächte aus
 dem All fernhaltend, sich im unendlich tiefen O verkeilend, um sich
@@ -336,13 +336,13 @@ des Schilfgrases.
 
 ## W
 
-Wie das M bionisch Leid, Schmutzund Außenwelt an sich abprallen
+Wie das M bionisch Leid, Schmutz und Außenwelt an sich abprallen
 lässt, so ist das W Sammelbecken für alles, was es schafft, über
 den steilen Rand zu klettern und es zu verseuchen. Der Klang des W ist
 sein weinerliches Klagen, aus Antriebslosigkeit selbst verschuldetes
 Dahinsiechen. Nutzlos, schwer und verfilzt liegt es im Weg, einfach
 zu ersetzen durch das elegante V, das als Nachbar und als einziger
-Buchstabe zum W hält, wahrsheinlich sowohl wegen einer visuellen als
+Buchstabe zum W hält, wahrscheinlich sowohl wegen einer visuellen als
 auch einer audiblen Ähnlichkeit. Seine weinerliche Schwäche steht
 im Kontrapunkt zum fragenden, ergo wieder "aufnehmenden" Charakter,
 es beherrscht die Sätze des Wissen-Wollens mit seinem "Wie", "Wo" und
@@ -356,7 +356,7 @@ Frau, des geräderten Kindes. Wie das Z zum Ts, so das X zum Ks,
 im Grunde genommen ersetzbar durch vereinte Kraft zweier anderer
 Lettern. Ein wehrhaft gespanntes K, oder aber eines mit gebrochenem
 Rücken. Aber nur bereit nur zur passiven Verteidigung-außer dem
-xerografieren hat das X trotz der Weisung keine Aktion, nur Ort, nicht
+xerographieren hat das X trotz der Weisung keine Aktion, nur Ort, nicht
 aber Weg enthaltend. Enthaltung aus der Sprache ist sowieso eine der
 Stärken des X, als chi schon lange von C und H verdrängt, ist es
 heute nur dazu geeignet, das Besondere, Futuristische für zugekoxte
@@ -367,7 +367,7 @@ und des Automobils. Die Nicht-Letter.
 
 Als Vereinigung von I und V auch ein antiker Buchstabe griechischen
 Ursprungs. Die Letter der Entscheidung, fähig, sowohl J als auch
-Ü zu ersetzen (letzeres zu einer schöneren, eleganteren Srache
+Ü zu ersetzen (letzteres zu einer schöneren, eleganteren Sprache
 fyhrend, da redundanzvernichtend). Der Buchstabe des Mynzwurfs und
 der Superposition, probabilistische Welten wie Damoklesschwerter yber
 uns schwebend, bereit, Leben und Tod zu passieren, ohne Richtspruch

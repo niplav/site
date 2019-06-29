@@ -1,0 +1,21 @@
+diff -r klong/kg.c klongnew/kg.c
+5051a5052,5068
+> static void sys_timer(void) {
+> 	clock_t  before, after;
+> 	cell	x, res;
+> 
+> 	ONE_ARG(".tm");
+> 	x = car(Dstack);
+> 	if (string_p(x)) {
+> 		before=clock();
+> 		x = evalstr(x);
+> 		after=clock();
+> 		res=make_real(1, -7, make_integer(10e6*(after-before)/CLOCKS_PER_SEC));
+> 		push(res);
+> 		return;
+> 	}
+> 	unknown1(".tm");
+> }
+> 
+5090a5108
+> 	{ ".tm",      1, sys_timer   },

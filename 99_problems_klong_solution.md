@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-06-25, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-06-28, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -825,14 +825,20 @@ of the numbers smaller than itself, and if that is the case, it returns
 0, otherwise 1. It needs a special case for the number 2, but otherwise,
 it is quite boring.
 
-	s31.1::{:[[0 1]?x;0:|x=2;1;[]~(x!2+!x-2)?0]}
+	s31.1::{:[x<2;0:|x=2;1;[]~(x!2+!x-2)?0]}
 
 `s31.2` basically does the same thing, but tests less numbers: Only odd
 numbers less than the square root of the argument (with special cases
-for 2, 3 and 5). Because of this, it should run a lot faster (and
-it does!).
+for 2, 3 and 5). Because of this, it should run a lot faster (and as one
+will see, it does!).
 
-	s31.2::{:[[0 1]?x;0:|[2 3 5]?x;1;&/(x!2,3+2*!_sqr(x)%2)]}
+	s31.2::{:[x<2;0:|[2 3 5]?x;1;&/(x!2,3+2*!_sqr(x)%2)]}
+
+One perhaps a naïve primality check is not optimal, and using a sieve
+is a lot faster. These two function implement the Sieve of Eratosthenes
+(TODO: Wikipedia link): checking whether the current number divides all
+smaller prime numbers until the biggest known prime number is either
+bigger than the argument or equal to it.
 
 	s31.3::{[a v];a::x;v::1;x=*{a>*x}{v::v+2;:[[]~(v!x)?0;v,x;x]}:~[2]}
 	s31.4::{[n p];n::x;p::[2];{~x>n}{:[&/x!p;p::p,x;0];x+2}:~3;:[x<2;0;x=*|p]}
@@ -863,7 +869,7 @@ Testing `s31.4` with 100 random values >10K:
 One can already see that the primality checks implementing sieves are
 orders of magnitude slower than the simple and boring divisor-checking
 primality tests. One can also see that `s31.2` is by far the fastest
-of these three implementations (probably due to the ommission of even
+of these three implementations (probably due to the omission of even
 divisors).
 
 One can now check the performance of the first two functions to find
@@ -912,8 +918,32 @@ Generating the graph with nplot:
 
 As one can see, both grow approximately linearly.
 
+One can now give a good justification for choosing `s31.2` as the prime
+checking implementation (though it hurts a bit to not shave off a few
+bytes by choosing `s31.1`).
+
+	s31::{:[x<2;0:|[2 3 5]?x;1;&/(x!2,3+2*!_sqr(x)%2)]}
+	isprime::s31
+
+Tests:
+
+		isprime(7)
+	1
+		flr(s31;!100)
+	[2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97]
+		s31(-1)
+	0
+
+This looks acceptable.
+
+### P32 (**) Determine the greatest common divisor of two positive integer numbers.
+
 	s32::{:[0=y;x;.f(y;x!y)]}
+
+### P33 (*) Determine whether two positive integer numbers are coprime.
+
 	s33::{1=s32(x;y)}
+
 	s34::{[t];t::x;#&{s33(x;t)}'!x}
 	b1::{[a];a::y;{:[0=x!a;_x%a;x]}\~x}
 	b2::{[p a];p::&s31'!1+_x%2;a::x;p@&(#'{b1(a;x)}'p)-1}

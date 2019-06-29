@@ -15,7 +15,7 @@ June 2019
 
 * Notes
 	* [Approach Anxiety](./notes.md#Approach-Anxiety)
-* Solution to [Problem 27-28](./99_problems_klong_solution.md#P27--Group-the-elements-of-a-set-into-disjoint-subsets) of the 99 problems
+* Solution to [Problem 27-31](./99_problems_klong_solution.md#P27--Group-the-elements-of-a-set-into-disjoint-subsets) of the 99 problems
 * Finished transcription of the [Tao Tê King](./tao_te_king.html#Kapitel-71) (chapters 71 to 81)
 
 ### Site Changes

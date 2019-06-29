@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: Luke Turner, created: 2011-01-01, translator: niplav, translated: 2019-01-05, modified: 2019-06-03, language: german, status: in progress, importance: 3, confidence: translation*
+*author: Luke Turner, created: 2011-01-01, translator: niplav, translated: 2019-01-05, modified: 2019-06-28, language: german, status: in progress, importance: 3, confidence: translation*
 
 > __Translation of the [*Metamodernist // Manifesto*](http://www.metamodernism.org/)
 > by [Luke Turner](http://luketurner.com/) into German.__
@@ -18,12 +18,12 @@ Naivität und der zynischen Unehrlichkeit ihres antonymen Bastards
 befreien.
 
 3. Von nun an sei Bewegung durch eine Oszillation zwischen Positionen
-möglich, diametrisch entgegegengesetzte Ideen operieren als die
+möglich, diametrisch entgegengesetzte Ideen operieren als die
 pulsierenden Polaritäten einer kolossalen elektrischen Maschine, die
 die Welt in Bewegung rotiert.
 
 4. Aber wir erkennen auch die Beschränkungen an, die aller Bewegung
-und Erfahrung inhärent sind, sowie die Zecklosigkeit des Versuches,
+und Erfahrung inhärent sind, sowie die Zwecklosigkeit des Versuches,
 diese Grenzen zu überschreiten. Die essentielle Unvollständigkeit
 eines Systems sollte dennoch dessen Akzeptanz nach sich ziehen, nicht um
 eines bestimmten Zieles oder einem sklavischen Folgen des Systems willen,
