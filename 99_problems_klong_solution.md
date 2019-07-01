@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-06-28, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-06-29, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -938,13 +938,50 @@ This looks acceptable.
 
 ### P32 (**) Determine the greatest common divisor of two positive integer numbers.
 
+Implementing [Euclid's
+algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) is not
+very hard:
+
 	s32::{:[0=y;x;.f(y;x!y)]}
+	gcd::s32
+
+Testing it:
+
+		gcd(36;63)
+	9
+		s32(1;10)
+	1
+		s32(0;10)
+	10
+		s32(-15;10)
+	-5
+		s32(123456;98765432)
+	8
+
+Seems about right.
 
 ### P33 (*) Determine whether two positive integer numbers are coprime.
 
+> Two numbers are coprime if their greatest common divisor equals 1.
+
+*–niplav, [“P33“ in 99 Klong Problems](./99_klong_problems.html#P33--Determine-whether-two-positive-integer-numbers-are-coprime), 2019*
+
+This is trivial:
+
 	s33::{1=s32(x;y)}
+	coprime::s33
+
+Testing:
+
+		coprime(35;64)
+	1
+		coprime(35;63)
+	0
+
+### P34 (**) Calculate Euler's totient function phi(m).
 
 	s34::{[t];t::x;#&{s33(x;t)}'!x}
+
 	b1::{[a];a::y;{:[0=x!a;_x%a;x]}\~x}
 	b2::{[p a];p::&s31'!1+_x%2;a::x;p@&(#'{b1(a;x)}'p)-1}
 	s35::{:[s31(x);,x;b2(x)]}
