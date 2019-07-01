@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-06-12, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-06-29, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -15,7 +15,7 @@ June 2019
 
 * Notes
 	* [Approach Anxiety](./notes.md#Approach-Anxiety)
-* Solution to [Problem 27-31](./99_problems_klong_solution.md#P27--Group-the-elements-of-a-set-into-disjoint-subsets) of the 99 problems
+* Solution to [Problem 27-33](./99_problems_klong_solution.md#P27--Group-the-elements-of-a-set-into-disjoint-subsets) of the 99 problems
 * Finished transcription of the [Tao Tê King](./tao_te_king.html#Kapitel-71) (chapters 71 to 81)
 
 ### Site Changes
