@@ -980,7 +980,37 @@ Testing:
 
 ### P34 (**) Calculate Euler's totient function phi(m).
 
+> Euler's so-called totient function phi(m) is defined as the number of
+> positive integers r (1<=r<m) that are coprime to m.
+
+*–niplav, [“P34“ in 99 Klong Problems](./99_klong_problems.html#P34--Calculate-Eulers-totient-function-phim), 2019*
+
+Since a predicate for coprimality is already given with `s33`, it is
+not hard to find the number of coprimes for a given integer: Iterating
+the smaller integers just works fine. `s34` calculates `s33` for all smaller
+integers, returning a list containing 0s and 1s for the respective coprimality.
+Using the Where verb compresses the list of boolean values into indices of
+1, so one can just return the length of that compressed list.
+
 	s34::{[t];t::x;#&{s33(x;t)}'!x}
+	totientphi::s34
+
+An alternative formulation filters the list after coprimality, and then returns
+the length of that list: `s34::{[t];t::x;#flr({s33(x;t)};!x)}`, but that solution is
+slightly longer.
+
+Tests:
+
+		s34(10)
+	4
+		s34(1)
+	1
+		s34(0)
+	0
+		s34'!20
+	[0 1 1 2 2 4 2 6 4 6 4 10 4 12 6 8 8 16 6 18]
+
+### P35 (**) Determine the prime factors of a given positive integer.
 
 	b1::{[a];a::y;{:[0=x!a;_x%a;x]}\~x}
 	b2::{[p a];p::&s31'!1+_x%2;a::x;p@&(#'{b1(a;x)}'p)-1}
