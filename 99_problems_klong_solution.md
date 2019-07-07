@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-06-29, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-07-06, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -12,7 +12,8 @@
 99 Problems Klong Solutions
 ===========================
 
-TODO: Convert fish scripts and command lines to rc.
+TODO: Convert fish scripts and command lines to rc.  
+TODO: Convert timing to the native Klong timing library.
 
 Acknowledgements
 ----------------
@@ -62,20 +63,20 @@ Testing with the example obtains the correct result:
 		mylast([:a :b :c :d])
 	:d
 
-Another possible version would be `s1::{x@((#x)-1)}`, but much to my
-surprise it takes about twice as long on 3 mio. elements (1.47 seconds
-as opposed to 0.65 seconds on my machine):
+Another possible version would be `s1::{x@((#x)-1)}`. These can be
+compared to each other in respect to their performance (the performance
+test repeated 10 times each to avoid advantages from caching):
 
-	$ time -p kg -e 's1::{*|x};s1(!3000000)'
-	2999999
-	real 0.65
-	user 0.57
-	sys 0.06
-	$ time -p kg -e 's1::{x@((#x)-1)};s1(!3000000)'
-	2999999
-	real 1.47
-	user 1.41
-	sys 0.06
+		.l("time")
+		s1::{*|x}
+		(+/1_10{x;time({s1(!3000000)})}\*[])%10
+	0.0842222
+		s1::{x@((#x)-1)}
+		(+/1_10{x;time({s1(!3000000)})}\*[])%10
+	0.1471947
+
+One can see that the first version of `s1` is nearly twice as fast
+as the second version.
 
 Klong apparently has a very efficient reversing operation for lists.
 
@@ -214,7 +215,7 @@ As the problem statement suggests, this solution is pretty
 straightforward. For every sublist of the result of `s9`, we append
 its length to its first element.
 
-	s10::{{(#x),*x}'s9@x}
+	s10::{{(#x),*x}'s9(x)}
 	encode::s10
 
 Tests:
@@ -228,7 +229,7 @@ Again, this is quite easy. For the result of `s10`, we test whether the
 length of the sublist is 1, and if it is, then we return just the value,
 otherwise we return the list.
 
-	s11::{{:[1=*x;*|x;x]}'s10@x}
+	s11::{{:[1=*x;*|x;x]}'s10(x)}
 	encodemodified::s11
 
 Testing:
@@ -289,22 +290,20 @@ Which it does.
 One can now compare the speed of the direct solution with the speed of
 the indirect solution:
 
-	$ time -p kg -e 's9::{:[x~[];[];(&0,~~:\'x):_x]};s10::{{(#x),*x}\'s9(x)};s11::{{:[1=*x;*|x;x]}\'s10(x)};s11(!1000000)'
-	[...]
-	real 1.99
-	user 1.82
-	sys 0.10
-	$ time -p kg -e 's13::{[a];a::x;:[x~[];[];{:[1=y-x;a@x;(y-x),a@x]}:\'&1,~~:\'x]};s13(!1000000)'
-	[...]
-	^C
-	real 8582.60
-	user 8196.00
-	sys 0.11
+		.l("time")
+		s9::{:[x~[];[];(&0,~~:'x):_x]}
+		s10::{{(#x),*x}'s9(x)}
+		s11::{{:[1=*x;*|x;x]}'s10(x)}
+		time({s11(!10000)})
+	0.010219
+		s13::{[a];a::x;:[x~[];[];{:[1=y-x;a@x;(y-x),a@x]}:'&1,~~:'x]}
+		time({s13(!10000)})
+	1.884073
 
-`s13` ran too long, so it had to be aborted, but it is at least 2
-orders of magnitude slower than `s11`.
+As one can see, the more complex solution `s13` is much slower than the
+more idiomatic `s11`.
 
-TODO: Explore why `s13` is so much slower.
+TODO: Explore further why `s13` is so much slower.
 
 ### P14 (*) Duplicate the elements of a list.
 
@@ -328,21 +327,16 @@ The test runs through, as expected:
 We're now interested in the performance of these functions, so we time
 calling the different versions with `10000` elements:
 
-	$ time -p kg -e 's14::{,/2:^:\\x};s14(!10000)'
-	[...]
-	real 1.39
-	user 1.37
-	sys 0.00
-	$ time -p kg -e 's14::{,/{x,x}\'x};s14(!10000)'
-	[...]
-	real 1.38
-	user 1.36
-	sys 0.00
-	$ time -p kg -e 's14::{x@_0.5*!2*#x};s14(!10000)'
-	[...]
-	real 0.11
-	user 0.09
-	sys 0.01
+		.l("time")
+		s14::{,/2:^:\x}
+		time({s14(!10000)})
+	0.666863
+		s14::{,/{x,x}'x}
+		time({s14(!10000)})
+	0.64103
+		 s14::{x@_0.5*!2*#x}
+	        time({s14(!10000)})
+	0.022282
 
 As one can see, the indexing-based solution is by far the fastest,
 with little difference between the other two.
@@ -498,22 +492,15 @@ solution 17 to obtain the sublists `s21::{[r];r::s17(y;z-1);(*r),x,r@1}`.
 
 Timing the different solutions returns unsurprising results:
 
-	$ time -p kg -e 's21::{((z-1)#y),x,(z-1)_y};s21(1;!1000000;500000)'
-	[...]
-	real 0.55
-	user 0.34
-	sys 0.08
-	$ time -p kg -e 's21::{,/y:=(,x,y@z-1),z-1};s21(1;!1000000;500000)'
-	^C
-	real 6819.67
-	user 6437.26
-	sys 0.30
-	[...]
-	$ time -p kg -e 's17::{(y,#x):#x};s21::{[r];r::s17(y;z-1);(*r),x,r@1};s21(1;!1000000;500000)'
-	[...]
-	real 0.66
-	user 0.47
-	sys 0.09
+		s21::{((z-1)#y),x,(z-1)_y}
+		(+/1_100{x;time({s21(1;!100000;50000)})}\*[])%100
+	0.00247086
+		s21::{,/y:=(,x,y@z-1),z-1}
+		time({s21(1;!100000;50000)})
+	31.133766
+		s17::{(y,#x):#x};s21::{[r];r::s17(y;z-1);(*r),x,r@1}
+		(+/1_100{x;time({s21(1;!100000;50000)})}\*[])%100
+	0.00285916
 
 The Amend solution is much slower, mainly because of the flattening at
 the end. The solution re-using `s17` is a bit slower, maybe because

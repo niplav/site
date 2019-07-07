@@ -1,4 +1,4 @@
-*author: niplav, created: 2019-03-20, modified: 2019-06-17, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2019-07-06, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -45,6 +45,11 @@ Transcriptions
 
 * [Tao Tê King](./tao_te_king.md)
 
+Archives
+--------
+
+* [Overcoming Bias Posts Chronological Index](./ob_chrono.md)
+
 Programming
 -----------
 
@@ -59,5 +64,6 @@ Misc
 
 * [About](./about.md)
 * [Changelog](./changelog.md)
+* [Contributions](./contributions.md)
 * [Notes](./notes.md)
 * [Uses This](./uses_this.md)

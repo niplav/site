@@ -21,6 +21,7 @@ HTML=index.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
 	metamodernistisches_manifest.html \
+	ob_chrono.html \
 	pick_up.html \
 	pipe_rings.html \
 	platte.html \
