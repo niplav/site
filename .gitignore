@@ -1,2 +1,3 @@
 *.html
+*.eps
 !header.html

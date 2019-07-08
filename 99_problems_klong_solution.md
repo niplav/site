@@ -593,23 +593,24 @@ like equivalent `s25::{(#x){p::_.rn()*#x;(x@p),s20(x;p+1)}:*x}`, since
 Grade-Up `<` sorts the list, which results in a `$O(n*log(n))$` time
 complexity, while Fischer-Yates is just `$O(n)$`.
 
-One can then measure the runtimes of these two functions. Unfortunately,
-Klong is yet lacking a timing functionality, so measuring the runtime
-has to be done using `time` on the command line.
-
-	$ for i in (seq 1000 500 10000); time -p kg -e 's25.1::{x@<(#x){x,.rn()}:*[]};s25.1(!'$i')' >/dev/null ^| g '^real' | awk '{ print($2) }'; end | tr '\n' ' '
-	0.04 0.03 0.09 0.13 0.20 0.30 0.39 0.49 0.61 0.76
-	$ for i in (seq 1000 500 10000); time -p kg -e 's20::{((y-1)#x),y_x};s25.2::{(#x){p::_.rn()*#x;(x@p),s20(x;p+1)}:*x};s25.2(!'$i')' >/dev/null ^| g '^real' | awk '{ print($2) }'; end | tr '\n' ' '
-	0.05 0.12 0.27 0.50 0.80 1.22 1.67 2.30 2.75 3.73
-
-One can now also generate a graph of the runtimes using Klong's nplot library:
+One can then measure the runtimes of these two functions and generate
+a graph of the runtimes using Klong's nplot and time libraries:
 
 	.l("nplot")
+	.l("time")
 
-	rt1::[0.04 0.02 0.03 0.05 0.08 0.11 0.13 0.17 0.20 0.24 0.30 0.36 0.39 0.44 0.49 0.55 0.63 0.72 0.77]
-	rt2::[0.05 0.10 0.13 0.19 0.27 0.37 0.50 0.64 0.79 0.99 1.23 1.38 1.69 1.87 2.30 2.54 2.76 3.44 3.73]
+	s25.1::{x@<(#x){x,.rn()}:*[]}
 
-	frame([0 10000 1000]; [0 4 0.5])
+	s20::{((y-1)#x),y_x}
+	s25.2::{(#x){p::_.rn()*#x;(x@p),s20(x;p+1)}:*x}
+
+	rt1::{[a];a::x;time({s25.1(!a)})}'1000+500*!19
+	rt2::{[a];a::x;time({s25.2(!a)})}'1000+500*!19
+
+	:"frame with the maximum value"
+
+	frame([0 10000 1000]; [0],(1+_|/rt1,rt2),[0.5])
+
 	ytitle("runtime in seconds")
 
 	segplot(rt1)

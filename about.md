@@ -56,7 +56,7 @@ Generally I use the rule: Let t be the time it would take to write a
 text about the idea I was thinking about. Then the time spent researching
 whether the idea exists already should stop take at most `$\frac{t}{2}$`.
 
-#### Translations & Transcriptions
+#### Translations, Transcriptions & Archives
 
 It [seems
 possible](https://reducing-suffering.org/ways-writing-valuable/#Old_content_vs_new_content)
@@ -73,6 +73,13 @@ for corrections sent my way.
 #### Music Recordings
 
 #### Programming Projects
+
+This site also acts as a central place of organisation for different
+programming related projects and contributions. That includes pages
+representing programming projects, but also literate programs (TODO:
+Wikipedia link here) containing code, comments, tests and performance
+measurements. Most programs will be written in [a small number of
+programming languages](./uses_this.html#List-of-Programs).
 
 ### Style
 

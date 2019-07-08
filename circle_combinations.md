@@ -1,54 +1,117 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-06-21, modified: 2019-06-21, language: english, status: notes, importance: 4, confidence: possible*
+*author: niplav, created: 2019-06-21, modified: 2019-07-08, language: english, status: notes, importance: 4, confidence: highly likely*
+
+> __It is currently unknown how many ways exist to arrange n circles in
+> the affine plane (TODO: [citation needed]). However, for up to 5 circles,
+> the number is known (TODO: OEIS link here!). This page attempts to
+> classify the current known combinations.__
+
 
 Circle Combinations
 ===================
 
-* Compare combinations after their number of unintersected lines
-* Compare combinations after their number of line intersections
-* Compare combinations after their number of unintersected segments
+Characteristic Description of a Circle Combination
+--------------------------------------------------
 
-Create a way to express such a circle combination uniquely with a sentence
-(this should create an upper bound to the number of such circles).
+Any unintersected plane is contained by n circles. How many planes exist
+that are contained in n circles?
 
-Possible method for upper bound: Any unintersected segment is contained
-by n circles. How many segments exist that are contained in n circles?
+The characteristic description of a circle combination lists
+the number of planes contained by n circles, in ascending order.
+For example, the following circle has the description 1,2,1,1:
 
-Unintersected Lines
--------------------
+![Circle Combination 3_6](img/circle_combinations/3_6.png)
 
-### For 2 Circles
+There is only one plane not contained by any circles (the outer plane),
+2 planes only contained by one circle, 1 plane contained by 2 circles,
+and 1 plane (the innermost circle) contained by all 3 circles.
 
-2 unintersected lines:
+As one can see, the outer plane is counted as well.
+
+Conjecture: The characteristic description of a circle is a unique
+identifier of the circle combination described (no 2 circle combinations
+have the same characteristic description).
+
+1 Circle
+--------
+
+![Circle Combination 1_1](img/circle_combinations/1_1.png)
+
+* Unintersected lines: 1
+* Line intersections: 0
+* Unintersected planes: 1
+* Characteristic description: 1,1
+
+2 Circles
+----------
 
 ![Circle Combination 2_1](img/circle_combinations/2_1.png)
-![Circle Combination 2_3](img/circle_combinations/2_3.png)
 
-3 unintersected lines:
+* Unintersected lines: 2
+* Line intersections: 0
+* Unintersected planes: 2
+* Characteristic description: 1,2,0
 
 ![Circle Combination 2_2](img/circle_combinations/2_2.png)
 
-### For 3 Circles
+* Unintersected lines: 4
+* Line intersections: 2
+* Unintersected planes: 3
+* Characteristic description: 1,2,1
+
+![Circle Combination 2_3](img/circle_combinations/2_3.png)
+
+* Unintersected lines: 2
+* Line intersections: 0
+* Unintersected planes: 2
+* Characteristic description: 1,1,1
+
+3 Circles
+---------
+
+![Circle Combination 3_1](img/circle_combinations/3_1.png)
+
+* Unintersected lines: 3
+* Line intersections: 0
+* Unintersected planes: 3
+* Characteristic description: 1,3,0,0
+
+![Circle Combination 3_2](img/circle_combinations/3_2.png)
+
+* Unintersected lines: 5
+* Line intersections: 2
+* Unintersected planes: 4
+* Characteristic description: 1,3,1,0
+
+![Circle Combination 3_3](img/circle_combinations/3_3.png)
+
+* Unintersected lines: 8
+* Line intersections: 4
+* Unintersected planes: 5
+* Characteristic description: 1,3,2,0
+
+![Circle Combination 3_4](img/circle_combinations/3_4.png)
+
+* Unintersected lines: 5
+* Line intersections: 2
+* Unintersected planes: 4
+* Characteristic description: 1,2,2,0
 
 3 unintersected lines:
 
-![Circle Combination 3_1](img/circle_combinations/3_1.png)
 ![Circle Combination 3_8](img/circle_combinations/3_8.png)
 ![Circle Combination 3_9](img/circle_combinations/3_9.png)
 ![Circle Combination 3_11](img/circle_combinations/3_11.png)
 
 5 unintersected lines:
 
-![Circle Combination 3_2](img/circle_combinations/3_2.png)
-![Circle Combination 3_4](img/circle_combinations/3_4.png)
 ![Circle Combination 3_6](img/circle_combinations/3_6.png)
 ![Circle Combination 3_10](img/circle_combinations/3_10.png)
 
 8 unintersected lines:
 
-![Circle Combination 3_3](img/circle_combinations/3_3.png)
 ![Circle Combination 3_5](img/circle_combinations/3_5.png)
 
 12 unintersected lines:
@@ -57,9 +120,3 @@ Unintersected Lines
 ![Circle Combination 3_12](img/circle_combinations/3_12.png)
 ![Circle Combination 3_13](img/circle_combinations/3_13.png)
 ![Circle Combination 3_14](img/circle_combinations/3_14.png)
-
-Line Intersections
-------------------
-
-Unintersected Planes
---------------------
