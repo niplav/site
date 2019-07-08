@@ -57,10 +57,8 @@ Programming
 
 * [99 Problems Klong Solution](./99_problems_klong_solution.md)
 
-### Projects
-
-Misc
------
+Miscellaneous
+=============
 
 * [About](./about.md)
 * [Changelog](./changelog.md)

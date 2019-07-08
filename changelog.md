@@ -8,6 +8,16 @@
 Changelog
 =========
 
+July 2019
+---------
+
+### New Content
+
+* Notes
+	* [Converging Preference Utilitarianism](./notes.html#Converging-Preference-Utilitarianism)
+* [Contributions](./contributions.md)
+* [Overcoming Bias Posts Chronological Index](./ob_chrono.md)
+
 June 2019
 ---------
 

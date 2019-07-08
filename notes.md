@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-06-12, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-05-22, modified: 2019-07-07, language: english, status: in progress, importance: 3, confidence: unlikely*
 
 > __Short texts on different topics.__
 
@@ -66,3 +66,57 @@ off, but went back to approaching the week after.
 This, of course, only can work if one is able to ask men for their
 numbers. For a reason that eludes me, this is easier for me than
 approaching women, though the gap is shrinking with exposure.
+
+Converging Preference Utilitarianism
+------------------------------------
+
+One problem with preference utilitarianism (TODO: Wikipedia link here) is
+the difficulty of aggregating and comparing preferences interpersonally,
+as well as a critique that some persons have very altruistic and others
+very egoistic preferences.
+
+### Method
+
+A possible method of trying to resolve this is to try to hypothetically
+calculate the aggregate preferences of all persons in the following
+way: For every existing person pₐ, this person learns about the
+preferences of all other persons pₙ. For each pₙ, pₐ learns about
+their preferences and experiences pₙ's past sensory inputs. pₐ then
+updates their preferences according to this information. This process
+is repeated until the maximal difference between preferences has shrunk
+to a certain threshold.
+
+### Variations
+
+One possible variation in the procedure is between retaining knowledge
+about the identity of pₐ, the person aggregating the preferences. If
+this were not done, the result would be very akin to the Rawlsian Veil
+of Ignorance (TODO: Wikipedia link here).
+
+Another possible variation could be not attempting to achieve convergence,
+but only simply iterating the method for a finite amount of times. Since
+it's not clear that more iterations would contribute towards further
+convergence, maybe 1 iteration is desirable.
+
+### Problems
+
+This method has a lot of ethical and practical problems.
+
+#### Assumptions
+
+The method assumes a bunch of practical and theoretical premises,
+for example that preferences would necessarily converge upon
+experiencing and knowing other persons qualia and preferences.
+It also assumes that it is in principle possible to make a person
+experience other persons qualia.
+
+#### Sentient Simulations
+
+Since each negative experience would be experienced by every person
+at least one time, and negative experiences could considered to have
+negative value, calculating the converging preferences would be unethical
+in practice (TODO: link Tomasik's considerations on sentient simulations).
+
+### See Also
+
+Coherent Extrapolated Volition

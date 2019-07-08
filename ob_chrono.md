@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-07-07, modified: 2019-07-07, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-07-07, modified: 2019-07-08, language: english, status: in progress, importance: 3, confidence: log*
 
 > __The blog [Overcoming Bias](http://www.overcomingbias.com/), written
 > mainly by [Robin Hanson](https://en.wikipedia.org/wiki/Robin_Hanson),
@@ -14,52 +14,7 @@
 Overcoming Bias Posts Chronological Index
 =========================================
 
-Code
-----
-
-The site was scraped using Python 2 with the libraries
-[urllib2](https://docs.python.org/2/library/urllib2.html) and
-[BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/):
-
-	import urllib2
-	from bs4 import BeautifulSoup
-	import sys
-
-	for year in range(2006, 2020):
-		yearposts=[]
-		for page in range(1, 1000):
-			url='http://www.overcomingbias.com/{}/page/{}'.format(year, page)
-			req=urllib2.Request(url, headers={'User-Agent' : "Magic Browser"})
-			try:
-				con=urllib2.urlopen(req)
-			except urllib2.HTTPError, e:
-				break
-			data=con.read()
-			soup=BeautifulSoup(data, 'html.parser')
-			posts=soup.find_all(class_="post")
-			for p in posts:
-				title=p.find_all(class_="entry-title")[0].a.text
-				link=p.find_all(class_="entry-title")[0].a.get('href')
-				meta=p.find_all(class_="entry-meta")
-
-				# For some reason, BeautifulSoup has a problem with this post: http://www.overcomingbias.com/2012/09/millers-singularity-rising.html
-				# Let's ignore it and fix it by hand
-				if meta!=[]:
-					author=p.find_all(class_="entry-meta")[0].find_all(class_='author')[0].a.text
-					date=p.find_all(class_="entry-meta")[0].find_all(class_='entry-date')[0].text
-				else:
-					author=""
-					date=""
-				entry='* [{}]({}) ({}, {})'.format(title.encode('utf_8'), str(link), str(author), str(date))
-				yearposts.append(entry)
-		print('\n### {}\n'.format(year))
-		for t in reversed(yearposts):
-			print(t)
-
-The conversion into markdown is not perfect, but the links should work
-(though they have not been checked completely yet).
-
-This index currently lists 4042 posts until 2019-06-27.
+This index currently lists 4042 posts from 2006-11-20 until 2019-06-27.
 
 Archives
 --------
@@ -4145,3 +4100,48 @@ Archives
 * [We Agree On So Much](http://www.overcomingbias.com/2019/06/we-agree-on-so-much.html) (Robin Hanson, June 24, 2019 2:00 am)
 * [Libertarian Varieties](http://www.overcomingbias.com/2019/06/libertarian-varieties.html) (Robin Hanson, June 25, 2019 11:55 pm)
 * [Grabbing Now Versus Later](http://www.overcomingbias.com/2019/06/grabbing-now-versus-later.html) (Robin Hanson, June 27, 2019 9:25 pm)
+
+Code
+----
+
+The site was scraped using Python 2 with the libraries
+[urllib2](https://docs.python.org/2/library/urllib2.html) and
+[BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/):
+
+	import urllib2
+	from bs4 import BeautifulSoup
+	import sys
+
+	for year in range(2006, 2020):
+		yearposts=[]
+		for page in range(1, 1000):
+			url='http://www.overcomingbias.com/{}/page/{}'.format(year, page)
+			req=urllib2.Request(url, headers={'User-Agent' : "Magic Browser"})
+			try:
+				con=urllib2.urlopen(req)
+			except urllib2.HTTPError, e:
+				break
+			data=con.read()
+			soup=BeautifulSoup(data, 'html.parser')
+			posts=soup.find_all(class_="post")
+			for p in posts:
+				title=p.find_all(class_="entry-title")[0].a.text
+				link=p.find_all(class_="entry-title")[0].a.get('href')
+				meta=p.find_all(class_="entry-meta")
+
+				# For some reason, BeautifulSoup has a problem with this post: http://www.overcomingbias.com/2012/09/millers-singularity-rising.html
+				# Let's ignore it and fix it by hand
+				if meta!=[]:
+					author=p.find_all(class_="entry-meta")[0].find_all(class_='author')[0].a.text
+					date=p.find_all(class_="entry-meta")[0].find_all(class_='entry-date')[0].text
+				else:
+					author=""
+					date=""
+				entry='* [{}]({}) ({}, {})'.format(title.encode('utf_8'), str(link), str(author), str(date))
+				yearposts.append(entry)
+		print('\n### {}\n'.format(year))
+		for t in reversed(yearposts):
+			print(t)
+
+The conversion into markdown is not perfect, but the links should work
+(though they have not been checked completely yet).
