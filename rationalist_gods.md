@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-06-28, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-07-11, language: english, status: in progress, importance: 2, confidence: log*
 
 > __[Rationalists](https://en.wikipedia.org/wiki/LessWrong) and the
 > [neoreactionary movement](https://en.wikipedia.org/wiki/Dark_Enlightenment)
@@ -62,6 +62,11 @@ Gnon
 * [War in Heaven II](http://www.xenosystems.net/war-in-heaven-ii/)
 * [Capturing Gnon](https://archive.fo/aN2L0), also with Azathoth, Cthulhu, Mammon and Ares
 * [Gnon and Elua](http://freenortherner.com/2014/08/03/of-gnon/), also with Elua
+
+Ra
+--
+
+* [Ra](https://srconstantin.wordpress.com/2016/10/20/ra/)
 
 Cthulhu
 -------

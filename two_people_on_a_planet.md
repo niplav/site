@@ -1,7 +1,7 @@
 [home](./index.md)
 -----------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-07-08, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2019-04-02, modified: 2019-07-11, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __Two people are abducted and placed on the opposite poles of a
 > habitable planet. They want to find each other, but they have no
@@ -43,7 +43,7 @@ Each of the two people has the following abilities:
 * Leave footprints on the ground
 
 Both lack all other abilities, including (but not limited to) creating
-new technology, communicating when they are out of sight (no fireworks,
+new technology and communicating when they are out of sight (no fireworks,
 launching spaceships etc.).
 
 Both people are typical, but had no opportunity to communicate with
@@ -57,7 +57,7 @@ These two people want to find each other.
 Different Existing Solutions
 ----------------------------
 
-### Munroes' Solutions
+### Munroes Solutions
 
 Munroe proposes different solutions:
 
@@ -76,12 +76,13 @@ at ones own side for the duration of such a travel. This drastically
 decreases the time until meeting, since the chance of not having met after
 n such iterations the chance of having met is `$1-\frac{1}{2^n}$`. Munroe
 proposes coin flips to determine whether one changes position, but one
-can imagine other such methods if coins are not available: One could
-assign the choice of staying to the left body half and the choice of
-going to the other side of the planet to the right body half, and then
-choosing the strategy based on which part of the body itches first.
-This would be useful since humans are notoriously bad at generating
-random bits (TODO: put a citation here).
+can imagine other such methods if coins are not available.
+
+One could assign the choice of staying to the left body half and the
+choice of going to the other side of the planet to the right body
+half, and then choosing the strategy based on which part of the body
+itches first. This would be useful since humans are notoriously bad at
+generating random bits (TODO: put a citation here).
 
 On the other hand, this method could be biased, since many humans have
 points on their skin that are constantly itchy.
@@ -102,7 +103,7 @@ and start walking along it.
 
 Then each person could follow the following algorithm: If they had
 walked less than half of the circumference of the planet, and encountered
-footsteps, they would reverse direction.  If they had walked more than
+footsteps, they would reverse direction. If they had walked more than
 half of the circumference of the planet, they would continue walking no
 matter whether they would see other footsteps on the ground.
 
@@ -200,7 +201,7 @@ There are, of course, several problems with this approach.
 
 This objection of course applies to all possible strategies,
 including Randomly Switching Positions and nearly all of Munroes
-propositions.  Ideally, one would try to generate all possible
+propositions. Ideally, one would try to generate all possible
 strategies of a typical agent and then generate a probability
 distribution over them, using methods such as [Minimum Message
 Length](https://en.wikipedia.org/wiki/Minimum_message_length)
