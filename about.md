@@ -90,7 +90,7 @@ The style of writing is mostly formal US english.
 * The Oxford comma is not used (find out what exactly that would entail, and check whether this is true or not)
 * Code is not syntax-highlighted
 * A passive voice is preferred, but I have to get into the flow of writing, so texts may contain that as well. TODO: get rid of "we"?
-* No footnotes/endnotes (see https://entirelyuseless.com/2015/07/11/are-hyperlinks-a-bad-idea/)
+* No footnotes/endnotes (see [entirelyuseless 2015](https://entirelyuseless.com/2015/07/11/are-hyperlinks-a-bad-idea/))
 * Quotes have the following style: `*– [Author Name](https://en.wikipedia.org/wiki/Author_Name), [“Chapter” in “Work Name”, p. 1](https://work-name.com), Year*`. If the work is not online, link the Wikipedia page.
 * For pages, optimal is to give the page number of the quotation in the linked PDF. If it is not available, the page number written at the bottom of the page is used.
 * Link to document: typical style
@@ -108,6 +108,8 @@ The style of writing is mostly formal US english.
 * Long numbers written with SI-postfixes (K for thousand, M for million etc.) (TODO: Wikipedia link here!)
 
 ### Writing Checklist
+
+I use a [script](./code/sitelint) to fix easily catchable mistakes.
 
 * Spell checking using [aspell](http://aspell.net/)
 * check broken markdown

@@ -115,8 +115,21 @@ experience other persons qualia.
 Since each negative experience would be experienced by every person
 at least one time, and negative experiences could considered to have
 negative value, calculating the converging preferences would be unethical
-in practice (TODO: link Tomasik's considerations on sentient simulations).
+in practice (TODO: link Tomasiks considerations on sentient simulations).
+
+#### Genuinely Selfish Agents
+
+If an agent is genuinely selfish (has no explicit term for the welfare of
+another agent in its preferences), it might not adjust its own preferences
+upon experiencing other lifes. It might even be able to circumvent the
+veil of ignorance to locate itself.
+
+#### Lacking Brain Power
+
+Some agents might lack the intelligence to process all the information
+other agents perceive. For example, an ant would probably not be able
+to understand the importance humans give to art.
 
 ### See Also
 
-Coherent Extrapolated Volition
+TODO: Add link to Coherent Extrapolated Volition

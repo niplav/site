@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-07-07, modified: 2019-07-08, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-07-07, modified: 2019-07-11, language: english, status: in progress, importance: 5, confidence: log*
 
 > __The blog [Overcoming Bias](http://www.overcomingbias.com/), written
 > mainly by [Robin Hanson](https://en.wikipedia.org/wiki/Robin_Hanson),
