@@ -1,13 +1,13 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-06-21, modified: 2019-07-09, language: english, status: notes, importance: 4, confidence: highly likely*
+*author: niplav, created: 2019-06-21, modified: 2019-07-13, language: english, status: notes, importance: 4, confidence: highly likely*
 
-> __It is currently unknown how many ways exist to arrange n circles in
-> the affine plane (TODO: [citation needed]). However, for up to 5 circles,
-> the number is known (TODO: OEIS link here!). This page attempts to
-> classify the current known combinations.__
-
+> __It is currently unknown how many ways exist to [arrange
+> n circles](https://www.youtube.com/watch?v=bRIL9kMJJSc) in
+> the affine plane . However, for up to 5 circles, the [number is
+> known](https://oeis.org/A250001). This page attempts to classify the
+> current known combinations.__
 
 Circle Combinations
 ===================

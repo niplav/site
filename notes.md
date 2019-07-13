@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-07-07, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-05-22, modified: 2019-07-13, language: english, status: in progress, importance: 3, confidence: unlikely*
 
 > __Short texts on different topics.__
 
@@ -70,10 +70,11 @@ approaching women, though the gap is shrinking with exposure.
 Converging Preference Utilitarianism
 ------------------------------------
 
-One problem with preference utilitarianism (TODO: Wikipedia link here) is
-the difficulty of aggregating and comparing preferences interpersonally,
-as well as a critique that some persons have very altruistic and others
-very egoistic preferences.
+One problem with [preference
+utilitarianism](https://en.wikipedia.org/wiki/Preference_utilitarianism)
+is the difficulty of aggregating and comparing preferences
+interpersonally, as well as a critique that some persons have very
+altruistic and others very egoistic preferences.
 
 ### Method
 
@@ -90,8 +91,8 @@ to a certain threshold.
 
 One possible variation in the procedure is between retaining knowledge
 about the identity of pₐ, the person aggregating the preferences. If
-this were not done, the result would be very akin to the Rawlsian Veil
-of Ignorance (TODO: Wikipedia link here).
+this were not done, the result would be very akin to the [Rawlsian Veil
+of Ignorance](https://en.wikipedia.org/wiki/Veil_of_ignorance#Rawls'_version).
 
 Another possible variation could be not attempting to achieve convergence,
 but only simply iterating the method for a finite amount of times. Since
@@ -112,10 +113,12 @@ experience other persons qualia.
 
 #### Sentient Simulations
 
-Since each negative experience would be experienced by every person
-at least one time, and negative experiences could considered to have
-negative value, calculating the converging preferences would be unethical
-in practice (TODO: link Tomasiks considerations on sentient simulations).
+Since each negative experience would be experienced by every
+person at least one time, and negative experiences could
+considered to have negative value, calculating the converging
+preferences would be unethical in practice (just as [simulating the
+experience](https://foundational-research.org/risks-of-astronomical-future-suffering/#Sentient_simulations)
+over and over).
 
 #### Genuinely Selfish Agents
 
@@ -132,4 +135,4 @@ to understand the importance humans give to art.
 
 ### See Also
 
-TODO: Add link to Coherent Extrapolated Volition
+* [Coherent Extrapolated Volition](https://intelligence.org/files/CEV.pdf)

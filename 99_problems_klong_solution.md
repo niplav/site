@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-07-09, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-07-13, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -618,7 +618,11 @@ a graph of the runtimes using Klong's nplot and time libraries:
 	text(200;250;"Fisher-Yates Shuffle")
 	draw()
 
-The output of this is in eps (TODO: Wikipedia link here!) and now has to be converted into png:
+The output of this is in [Encapsulated
+PostScript](https://en.wikipedia.org/wiki/Encapsulated_PostScript)
+and now has to be converted into
+[PNG](https://en.wikipedia.org/wiki/Portable_Network_Graphics) using
+[ImageMagick](https://imagemagick.org/index.php):
 
 	kg -l ./p25plot.kg -e '[]' >runtimes25.eps
 	convert -size 750x750 runtimes25.eps runtimes25.png
@@ -1002,6 +1006,7 @@ Tests:
 ### P35 (**) Determine the prime factors of a given positive integer.
 
 	b1::{[a];a::y;{:[0=x!a;_x%a;x]}\~x}
+	s35::{[a v];a::x;v::1;,/{1_(#b1(a;x)):^x}'{(a%2)>*x}{v::v+2;:[[]~(v!x)?0;v,x;x]}:~[2]}
 	b2::{[p a];p::&s31'!1+_x%2;a::x;p@&(#'{b1(a;x)}'p)-1}
 	s35::{:[s31(x);,x;b2(x)]}
 	s36::{{(x@1),x@0}'s10(s35(x))}
