@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-06, modified: 2019-07-06, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-06, modified: 2019-07-13, language: english, status: in progress, importance: 5, confidence: log*
 
 > __A collection of contributions to other projects.__
 
@@ -13,11 +13,11 @@ Texts
 
 ### “Differential Intellectual Progress as a Positive-Sum Project”
 
-TODO: Link to article.
+[Tomasik 2015](https://foundational-research.org/differential-intellectual-progress-as-a-positive-sum-project/).
 
-Fixed a typo where in the section "Transhumanism", the text
-"Transhumanists recognize the importance of thinking about the future
-ahead of time." was repeated.
+Fixed a typo where in the section "Transhumanism" of the pdf version,
+the text "Transhumanists recognize the importance of thinking about the
+future ahead of time." was repeated.
 
 Programming
 -----------

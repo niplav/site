@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-06-28, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2019-07-13, language: english, status: in progress, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
 > recommendations by people who I respect, such as
@@ -19,8 +19,6 @@ Software
 
 ### List of Programs
 
-TODO: links
-
 * Operating system: [Void Linux](https://voidlinux.org/)
 * Window manager: [dwm](https://dwm.suckless.org/)
 * Terminal emulator: [st](https://st.suckless.org/)
@@ -30,7 +28,7 @@ TODO: links
 * Calendar: [when](http://www.lightandmatter.com/when/when.html)
 * Spaced repetition: [fulgurate](https://github.com/theq629/fulgurate)
 * Version control: [git](https://git-scm.com/)
-* Password manager: spm
+* Password manager: [spm](https://notabug.org/kl3/spm/)
 * Code search: [ag](https://geoff.greer.fm/ag/)
 * Music: [sad](http://git.2f30.org/sad/log.html)
 * Videos: [mpv](https://mpv.io/)

@@ -21,10 +21,12 @@ HTML=index.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
 	metamodernistisches_manifest.html \
-	ob_chrono.html \
 	pick_up.html \
 	pipe_rings.html \
 	platte.html \
 	rationalist_gods.html \
 	tao_te_king.html \
 	two_people_on_a_planet.html \
+	trm_chrono.html \
+	so_chrono.html \
+	ob_chrono.html \

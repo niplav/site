@@ -1,4 +1,4 @@
-*author: niplav, created: 2019-03-20, modified: 2019-07-06, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2019-07-13, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -8,7 +8,7 @@ Content
 
 This is the website of niplav. It contains essays on different topics,
 including (but not limited to) programming, unusual social behavior and
-economics, as well as translations and transcriptions of different texts,
+philosophy, as well as translations and transcriptions of different texts,
 recordings of music and programming projects. More information about
 the website and its author can be found on the [about](./about.md) page,
 for recent additions and changes, see the [changelog](./changelog.md).
@@ -22,6 +22,8 @@ Writing
 	* [Equally Many Heads and Tails](./equally_many_heads_and_tails.md)
 	* [Pipe Rings](./pipe_rings.md)
 	* [Two People on a Planet](./two_people_on_a_planet.md)
+* Arguments
+	* [Against Applause](./against_applause.md)
 * Collections
 	* [99 Problems](./99_problems_collection.md)
 	* [Rationalist Gods](./rationalist_gods.md)
@@ -48,7 +50,17 @@ Transcriptions
 Archives
 --------
 
+I try to read blogs completely, mostly [starting at the
+beginning](https://entirelyuseless.com/2018/06/12/start-at-the-beginning/)
+because most blogs are not organized by topic. But blog archives are
+usually hard to navigate and it is often difficult to keep track of my
+current position in the blog (especially with yearly/monthly wordpress
+archives). To salvage this, I scrape blog archives and arrange them
+chronologically.
+
 * [Overcoming Bias Posts Chronological Index](./ob_chrono.md)
+* [Shtetl Optimized Posts Chronological Index](./so_chrono.md)
+* [The Real Movement Posts Chronological Index](./trm_chrono.md)
 
 Programming
 -----------

@@ -1,7 +1,7 @@
 [home](./index.md)
 -----------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-07-11, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2019-04-02, modified: 2019-07-13, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __Two people are abducted and placed on the opposite poles of a
 > habitable planet. They want to find each other, but they have no
@@ -66,6 +66,75 @@ Munroe proposes different solutions:
 * Follow the coastlines of the continents. This is not applicable here, because it is assumed that there are no oceans.
 * Follow the coastlines of the continents, but after each circling, decide randomly whether to switch direction or resume the known path.
 * Walk at random, while leaving a trail of signs with increasing counter along the way, increasing ones speed when finding an unknown trail.
+
+### Other Proposed Solutions
+
+A very similar problem was discussed in a Mathematics Stack
+Exchange post:
+
+> Suppose you and your friend* end up on a big sphere. There are no visual
+> cues on where on the sphere you both are, and the sphere is way bigger
+> than you two. There are no means of communication. You can determine
+> your relative position and direction by navigating the stars**. You can
+> move anywhere, and your friend too.  
+> Upon inspecting the sphere, you see it is rock-solid, so you cannot
+> create markings. To protect the environment, you are not allowed to
+> leave other stuff, like a blood trace or breadcrumbs.
+
+*–[RobAu](https://math.stackexchange.com/users/53495/robau), [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/questions/1214022/fastest-way-to-meet-without-communication-on-a-sphere/), 2015*
+
+In this problem, marking are not possible, and players don't start at
+the opposite sides of the planet (which makes a solution a lot harder).
+
+#### Moving at Random, but Changing Directions Rarely
+
+> Move at random. [...]
+> you could prefer to walk longer distances in a straight line as opposed
+> to choosing a completely new direction after every centimeter of movement.
+
+*–[MvG](https://math.stackexchange.com/users/35416/mvg), answer to [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/a/1214062), 2015*
+
+#### Exhaustive Search, Moving in Spirals
+
+> So the first thing to do is to calculate the size of the sphere (by
+> picking a direction and walking until you arrive back at the start point
+> or some other, more efficient technique). At that point, you can work out
+> an exhaustive search pattern and the duration to perform one (a spiral
+> pattern is close to optimal but difficult for a human to perform). That
+> duration becomes your frequency of decision making.
+> Once per period, you flip a coin. Heads, you do an exhaustive
+> search. Tails, you stay put. Each of the longer period (e.g. the less
+> efficient search pattern), you have a 50/50 chance of doing the opposite
+> of your partner and thus discovering each other in the course of the
+> exhaustive search.
+
+*–[Danikov](https://math.stackexchange.com/users/221242/danikov), answer to [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/a/1214323), 2015*
+
+This is similar to the strategy of randomly switching positions, but
+without opposite starting positions.
+
+#### Randomizing Speed While Keeping Direction
+
+> I think a better strategy is to pick a direction (any will do), stick
+> to it and randomise your speed.  
+> If both parties do this their paths will cross twice each orbit (unless
+> they are on the same orbit in which case they will meet sooner due to
+> randomised speed)  
+> if you go full random changing direction as well as velocity you aren't
+> guaranteed to ever cross the path of the other. (although as t gets large
+> it becomes increasingly likely that your paths will cross at least once.)  
+> Speed randomisation is necessary to avoid never meeting because of resonance.
+
+*–[Luke McGregor](https://math.stackexchange.com/users/30204/luke-mcgregor), answer to [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/a/1215229), 2015*
+
+#### Find a Schelling Point
+
+> I would posit that a better-than-random solution would include finding
+> the most "interesting" such configuration (so first you have to map
+> them all by traveling the sphere methodically) and heading there as a
+> Schelling point.
+
+*–[Qwertronix](https://math.stackexchange.com/users/54545/qwertronix), answer to [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/a/1214322), 2015*
 
 ### Randomly Switching Positions
 
@@ -260,7 +329,6 @@ TODO: read.
 * /usr/local/doc/unread/rendezvous/random_walks_universal_traversal_sequences_aleliunas_et_al_1979.pdf
 * /usr/local/doc/unread/rendezvous/rendezvous_problem_gasieniec_2004.pdf
 * /usr/local/doc/unread/rendezvous/theory_of_search_games_and_rendezvous_alpern_2002.pdf
-* https://math.stackexchange.com/questions/1214022/fastest-way-to-meet-without-communication-on-a-sphere
 * https://mathoverflow.net/questions/184404/randall-munroes-lost-immortals
 * [Rendezvous problem](https://en.wikipedia.org/wiki/Rendezvous_problem)
 * [Deterministic rendezvous problem](https://en.wikipedia.org/wiki/Deterministic_rendezvous_problem)

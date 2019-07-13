@@ -16,7 +16,11 @@ July 2019
 * Notes
 	* [Converging Preference Utilitarianism](./notes.html#Converging-Preference-Utilitarianism)
 * [Contributions](./contributions.md)
-* [Overcoming Bias Posts Chronological Index](./ob_chrono.md)
+* [Other Proposed Solutions to Rendezvous on a Sphere](file:///home/niplav/proj/site/two_people_on_a_planet.html#Other-Proposed-Solutions)
+* Archives
+	* [Overcoming Bias Posts Chronological Index](./ob_chrono.md)
+	* [Shtetl Optimized Posts Chronological Index](./so_chrono.md)
+	* [The Real Movement Posts Chronological Index](./trm_chrono.md)
 
 June 2019
 ---------

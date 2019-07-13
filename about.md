@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-06-24, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2019-07-13, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -75,11 +75,12 @@ for corrections sent my way.
 #### Programming Projects
 
 This site also acts as a central place of organisation for different
-programming related projects and contributions. That includes pages
-representing programming projects, but also literate programs (TODO:
-Wikipedia link here) containing code, comments, tests and performance
-measurements. Most programs will be written in [a small number of
-programming languages](./uses_this.html#List-of-Programs).
+programming related projects and contributions. That includes
+pages representing programming projects, but also [literate
+programs](https://en.wikipedia.org/wiki/Literate_programming)
+containing code, comments, tests and performance measurements. Most
+programs will be written in [a small number of programming
+languages](./uses_this.html#List-of-Programs).
 
 ### Style
 
@@ -105,7 +106,7 @@ The style of writing is mostly formal US english.
 	* title of the article
 	* "External Links"/"See Also" for links to other websites discussing the same (or very similar) ideas
 	* "Discussions" for external discussions on the article
-* Long numbers written with SI-postfixes (K for thousand, M for million etc.) (TODO: Wikipedia link here!)
+* Long numbers written with [SI-postfixes](https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes) (K for thousand, M for million etc.)
 
 ### Writing Checklist
 
@@ -138,11 +139,13 @@ Tags for texts (mainly taken from http://www.gwern.net/About):
 
 ### Implementation
 
-The website is built writing the articles in Markdown (TODO: link here)
-and them compiling them to standard HTML using `markdown_py` (TODO:
-link). Mathematical formulae are typeset using MathJax. It only uses
-only minimal CSS (highlighting code and quotes, centering the text and
-limiting line length) and no JavaScript.
+The website is built writing the articles in
+[Markdown](https://en.wikipedia.org/wiki/Markdown)
+and them compiling them to standard HTML using
+[`markdown_py`](https://pypi.org/project/Markdown/). Mathematical formulae
+are typeset using [MathJax](https://en.wikipedia.org/wiki/MathJax). It
+only uses only minimal CSS (highlighting code and quotes, centering the
+text and limiting line length) and no JavaScript.
 
 ### Influences
 
