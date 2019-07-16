@@ -1,3 +1,5 @@
+![Sol Plav](./favicon.png)
+
 *author: niplav, created: 2019-03-20, modified: 2019-07-13, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,

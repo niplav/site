@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-07-13, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-07-16, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -805,9 +805,11 @@ Arithmetic
 In the implementation of a primality test, there generally is a great trade-off
 between conciseness and performance. This seems only partially applicable in Klong.
 
-Here, I compare four different primality tests written in Klong. The first three
-were written by me, and the fourth is a slightly adapted version from the Klong
-standard math library.
+Here, I compare four different primality tests written in Klong. The
+first three were written by me, and the fourth is a slightly adapted
+version from the Klong standard math library. The fifth one is [from
+wikipedia](https://en.wikipedia.org/wiki/K_(programming_language)#Examples),
+and the sixth is an adaption of the wikipedia version.
 
 `s31.1` is the simplest and therefore the shortest of these four
 implementations: it simply checks whether a number is divisible by any
@@ -832,6 +834,18 @@ bigger than the argument or equal to it.
 
 	s31.3::{[a v];a::x;v::1;x=*{a>*x}{v::v+2;:[[]~(v!x)?0;v,x;x]}:~[2]}
 	s31.4::{[n p];n::x;p::[2];{~x>n}{:[&/x!p;p::p,x;0];x+2}:~3;:[x<2;0;x=*|p]}
+
+`s31.5` is especially beautiful: It generate all numbers smaller than x (save 0 and 1);
+and makes a division test using the Each-Right adverb (x Modulo Each-Right every number
+smaller than x). The resulting list of booleans is then searched for a 1 using Min/And:
+
+	s31.5::{:[x=2;1;&/x!:\2_!x]}
+
+`s31.6` is basically the same principle, but the list of values generated to be checked
+is shorter (through omission of even numbers and numbers greater than the square root
+of x).
+
+	s31.6::{:[x<2;0:|x>3;&/x!:\2,3+2*!_sqr(x)%2;1]}
 
 Even quick performance tests reveal massive differences between these
 four functions (the result always is the average runtime in seconds):
@@ -864,15 +878,31 @@ Testing `s31.4` with 100 random values >10K:
 		(+/1_100{x;time({s31.4(10000+_100*.rn())})}\*[])%100
 	5.4216601
 
+Testing `s31.5` with 100 random values >100K:
+
+		.l("time")
+		s31.5::{:[x=2;1;&/x!:\2_!x]}
+		(+/1_100{x;time({s31.5(100000+_100*.rn())})}\*[])%100
+	0.28281745
+
+Testing `s31.6` with 100 values >1G:
+
+		.l("time")
+		s31.6::{:[x<2;0:|x>3;&/x!:\2,3+2*!_sqr(x)%2;1]}
+	        (+/1_100{x;time({s31.6(1000000000+_100*.rn())})}\*[])%100
+	0.07785973
+
 One can already see that the primality checks implementing sieves are
 orders of magnitude slower than the simple and boring divisor-checking
-primality tests. One can also see that `s31.2` is by far the fastest
-of these three implementations (probably due to the omission of even
-divisors).
+primality tests. One can also see that together with `s31.6`, `s31.2`
+is by far the fastest of these three implementations (probably due to
+the omission of even divisors).
 
 One can now check the performance of the first two functions to find
 out about their runtime behavior (notice that both have similar growth
 behavior at 100K and 10G, respectively).
+
+TODO: Measure `s31.5` as well, I want it to replace the rest.
 
 Measuring runtimes of `s31.1` and generating the graph:
 

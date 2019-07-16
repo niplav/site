@@ -1,0 +1,20 @@
+.l("nplot")
+.l("./load.kg")
+
+cgrid("estimated age (female red, male blue)           (N=",($#data),")";[0 200 20])
+fillrgb(0;0;1)
+scplot(mestages)
+fillrgb(1;0;0)
+scplot(festages)
+
+setrgb(0;0;0)
+segplot(100:^dem)
+setrgb(0;0;1)
+segplot(100:^mem)
+setrgb(1;0;0)
+segplot(100:^fem)
+
+setwidth(1)
+setrgb(0;0;0)
+
+draw()

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-07-13, language: english, status: draft, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-04-11, modified: 2019-07-16, language: english, status: draft, importance: 4, confidence: unlikely*
 
 > __In western cultures, it is nearly universal for people to clap
 > before and after pieces in classical music and jazz. An argument
@@ -57,6 +57,10 @@ a cardinal sin for somebody in a concert hall, though this seems less
 relevant because there is a diffence between distraction during music
 and distraction before and after music.
 
+### Preventing Incorrect Clapping
+
+There exists some confusion about when to clap in a classical concert.
+
 Counterarguments
 ----------------
 
@@ -106,3 +110,5 @@ See Also
 * https://old.reddit.com/r/slatestarcodex/comments/9x323i/applause_vs_jazz_hands/
 * https://www.independent.co.uk/life-style/clapping-banned-manchester-university-students-union-jazz-hands-applause-a8566531.html
 * https://www.cpr.org/2014/06/09/the-clapping-question-should-classical-audiences-applaud-between-movements/
+* https://cjeller.wordpress.com/2015/08/09/against-applause/
+* https://affirmativeright.blogspot.com/2015/03/against-applause-cultivating-aesthetic.html

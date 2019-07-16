@@ -135,4 +135,4 @@ to understand the importance humans give to art.
 
 ### See Also
 
-* [Coherent Extrapolated Volition](https://intelligence.org/files/CEV.pdf)
+* [Coherent Extrapolated Volition](./doc/converging_preference_utilitarianism/coherent_extrapolated_volition_yudkowsky_2004.pdf)
