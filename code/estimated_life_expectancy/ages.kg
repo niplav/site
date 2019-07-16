@@ -1,0 +1,17 @@
+.l("nplot")
+.l("./load.kg")
+
+cgrid("age (female red, male blue)                      (N=",($#data),")";[0 100 20])
+fillrgb(0;0;1)
+scplot(mages)
+fillrgb(1;0;0)
+scplot(fages)
+
+setrgb(0;0;0)
+segplot(100:^dm)
+setrgb(0;0;1)
+segplot(100:^mm)
+setrgb(1;0;0)
+segplot(100:^fm)
+
+draw()

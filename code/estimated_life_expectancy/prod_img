@@ -1,0 +1,8 @@
+#!/usr/bin/env rc
+
+kg -l ./all_scatter.kg -e '[]' >all_scatter.eps
+convert -size 750x750 all_scatter.eps all_scatter.png
+kg -l ./ages.kg -e '[]' >ages.eps
+convert -size 750x750 ages.eps ages.png
+kg -l ./est_ages.kg -e '[]' >est_ages.eps
+convert -size 750x750 est_ages.eps est_ages.png

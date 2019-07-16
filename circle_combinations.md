@@ -5,7 +5,7 @@
 
 > __It is currently unknown how many ways exist to [arrange
 > n circles](https://www.youtube.com/watch?v=bRIL9kMJJSc) in
-> the affine plane . However, for up to 5 circles, the [number is
+> the affine plane. However, for up to 5 circles, the [number is
 > known](https://oeis.org/A250001). This page attempts to classify the
 > current known combinations.__
 
@@ -163,6 +163,8 @@ have the same characteristic description).
 * Characteristic description: 1,2,4,1
 
 ![Circle Combination 3_14](img/circle_combinations/3_14.png)
+
+TODO: Remove line in lower left corner
 
 * Unintersected lines: 12
 * Line intersections: 6
