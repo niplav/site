@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-07-13, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2019-07-17, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -35,8 +35,8 @@ For this reason, articles are not published by date,
 but rather by category, both to make it easier to read
 the content of the site in order (i. e. to ["Start at the
 Beginning"](https://entirelyuseless.com/2018/06/12/start-at-the-beginning/))
-and to structure it by topic and form, rather than to strive for quick
-attention grabbing.
+and to structure it by topic and form, rather than to strive for
+presenting mainly new information to the reader.
 
 The content on this website is licensed under [Creative Commons
 4.0](https://creativecommons.org/licenses/by/4.0/).
@@ -86,7 +86,10 @@ languages](./uses_this.html#List-of-Programs).
 
 The style of writing is mostly formal US english.
 
+#### Titles and Headings
+
 * Titles and headers use the (TODO: information about the exact style) style of capitalization
+
 * MathJax is used only when necessary
 * The Oxford comma is not used (find out what exactly that would entail, and check whether this is true or not)
 * Code is not syntax-highlighted
@@ -123,7 +126,8 @@ I use a [script](./code/sitelint) to fix easily catchable mistakes.
 
 ### Organisation
 
-Tags for texts (mainly taken from http://www.gwern.net/About):
+For every text, there are several tags attached to it (mainly taken from
+[Gwern, 2019](http://www.gwern.net/About) (TODO: add more exact link)):
 
 * author "author"
 * creation date "created"

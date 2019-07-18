@@ -11,7 +11,7 @@ Changelog
 July 2019
 ---------
 
-### New Content
+### Writing
 
 * Notes
 	* [Converging Preference Utilitarianism](./notes.html#Converging-Preference-Utilitarianism)
@@ -25,7 +25,7 @@ July 2019
 June 2019
 ---------
 
-### New Content
+### Writing
 
 * Notes
 	* [Approach Anxiety](./notes.md#Approach-Anxiety)
@@ -39,7 +39,7 @@ June 2019
 May 2019
 --------
 
-### New Content
+### Writing
 
 * Started [Notes](./notes.md)
 * [Pipe Rings](./pipe_rings.md)
@@ -55,7 +55,7 @@ May 2019
 April 2019
 ----------
 
-### New Content
+### Writing
 
 * [Two People on a Planet](./two_people_on_a_planet.md)
 * [Rationalist Gods](./rationalist_gods.md)
@@ -66,18 +66,18 @@ about page](./about.md)) are also new, but not even near being finished.
 At the beginning of the month, I set up the code to generate this website
 and imported some existing projects of mine.
 
-### Essays
+#### Essays
 
 * [99 Problems Collection](./99_problems_collection.md)
 * [K-99: Ninety-Nine Klong Problems](./99_klong_problems.md)
 * [99 Problems Klong Solution](./99_problems_klong_solution.md)
 * [Equally Many Heads and Tails](./equally_many_heads_and_tails.md)
 
-### Translations
+#### Translations
 
 * [Metamodernistisches // Manifest](./metamodernistisches_manifest.md)
 
-### Fiction
+#### Fiction
 
 * [Buch Stab](./buch_stab.md)
 * [Platte](./platte.md)
