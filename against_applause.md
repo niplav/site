@@ -59,8 +59,6 @@ and distraction before and after music.
 
 ### Preventing Incorrect Clapping
 
-There exists some confusion about when to clap in a classical concert.
-
 Counterarguments
 ----------------
 

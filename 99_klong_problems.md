@@ -4,12 +4,14 @@
 *author: niplav, created: 2019-01-14, modified: 2019-06-19, language: english, status: in progress, importance: 4, confidence: translation*
 
 > __The list of 99 problems was original written by Werner Hett for
-> [Prolog](https://sites.google.com/site/prologsite/prolog-problems)
-> and has been translated into [a number of languages](./99_problems_collection.md)
-> since then. This is a translation for the programming language
-> [Klong](http://t3x.org/klong/index.html), inspired mainly by a
-> [Lisp](https://www.ic.unicamp.br/%7Emeidanis/courses/mc336/2006s2/funcional/L-99_Ninety-Nine_Lisp_Problems.html)
-> version.__
+> [Prolog](https://sites.google.com/site/prologsite/prolog-problems
+> "Original 99 Problems in Prolog") and has been translated into [a
+> number of languages](./99_problems_collection.md "A Collection of
+> Translations of the 99 Problems") since then. This is a translation for
+> the programming language [Klong](http://t3x.org/klong/index.html "The
+> Website for the Array Programming Language Klong"), inspired mainly by a
+> [Lisp](https://www.ic.unicamp.br/%7Emeidanis/courses/mc336/2006s2/funcional/L-99_Ninety-Nine_Lisp_Problems.html
+> "99 Problems for Lisp") version.__
 
 K-99: Ninety-Nine Klong Problems
 ================================
@@ -279,9 +281,10 @@ Note that we do not want permutations of the group members; i.e. `[[:aldo
 we make a difference between `[[:aldo :beat] [:carla :david] ...]` and
 `[[:carla :david] [:aldo :beat] ...]`.
 
-You may find more about this combinatorial problem in a good
-book on discrete mathematics under the term
-["multinomial coefficients"](https://en.wikipedia.org/wiki/Multinomial_theorem#Multinomial_coefficients).
+You may find more about this combinatorial problem in a
+good book on discrete mathematics under the term ["multinomial
+coefficients"](https://en.wikipedia.org/wiki/Multinomial_theorem#Multinomial_coefficients
+"Wikipedia: Multinomial Coefficients").
 
 ### P28 (**) Sorting a list of lists according to length of sublists.
 
