@@ -1,6 +1,7 @@
 Site:
 	Use unicode in every formula that doesn't need MathJax
 	Make more mobile-friendly
+	Add tooltips to links (“Title of Text” (Author full name, year)
 
 Texts:
 

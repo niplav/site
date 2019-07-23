@@ -8,6 +8,7 @@ HTML=index.html \
 	contributions.html \
 	fundamentals.html \
 	notes.html \
+	now.html \
 	uses_this.html \
 	99_klong_problems.html \
 	99_problems_collection.html \
