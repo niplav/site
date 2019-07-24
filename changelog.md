@@ -18,6 +18,7 @@ July 2019
 * [Contributions](./contributions.md)
 * [Other Proposed Solutions to Rendezvous on a Sphere](file:///home/niplav/proj/site/two_people_on_a_planet.html#Other-Proposed-Solutions)
 * Archives
+	* [Bit-Player Posts Chronological Index](./bp_chrono.md)
 	* [Overcoming Bias Posts Chronological Index](./ob_chrono.md)
 	* [Shtetl Optimized Posts Chronological Index](./so_chrono.md)
 	* [The Real Movement Posts Chronological Index](./trm_chrono.md)

@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png)
 
-*author: niplav, created: 2019-03-20, modified: 2019-07-13, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2019-07-24, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -60,6 +60,7 @@ current position in the blog (especially with yearly/monthly wordpress
 archives). To salvage this, I scrape blog archives and arrange them
 chronologically.
 
+* [Bit-Player Posts Chronological Index](./bp_chrono.md)
 * [Overcoming Bias Posts Chronological Index](./ob_chrono.md)
 * [Shtetl Optimized Posts Chronological Index](./so_chrono.md)
 * [The Real Movement Posts Chronological Index](./trm_chrono.md)
@@ -78,4 +79,5 @@ Miscellaneous
 * [Changelog](./changelog.md)
 * [Contributions](./contributions.md)
 * [Notes](./notes.md)
+* [Now](./now.md)
 * [Uses This](./uses_this.md)

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-07-17, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2019-07-24, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -89,7 +89,6 @@ The style of writing is mostly formal US english.
 #### Titles and Headings
 
 * Titles and headers use the (TODO: information about the exact style) style of capitalization
-
 * MathJax is used only when necessary
 * The Oxford comma is not used (find out what exactly that would entail, and check whether this is true or not)
 * Code is not syntax-highlighted
@@ -129,13 +128,29 @@ I use a [script](./code/sitelint) to fix easily catchable mistakes.
 For every text, there are several tags attached to it (mainly taken from
 [Gwern, 2019](http://www.gwern.net/About) (TODO: add more exact link)):
 
-* author "author"
-* creation date "created"
+#### Author
+
+The "author" tag is quite self-explanatory, the field is the original author
+of the piece. This is only relevant for translations and transcriptions.
+
+#### Dates
+
+A page has several date tags. The creation date ("created") shows the date
+when the text was first created (if the text is by me) or when the text
+was first published (if the text is by another author). The "modified"
+tag always shows the date of the last modification by me. Both the
+"created" and the "modified" tag are present on every text.
+
+If the text is a translation, the "translated" tag shows the date when
+I started working on the translation. Similarly, the also optional "transcribed" tag
+shows when I started working on the transcription of the text.
+
+The date format is [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601),
+rarely using a "-" as a negative sign for a year before the [Common
+Era](https://en.wikipedia.org/wiki/Common_Era).
+
 * [translator "translator"]
-* [translation date "translated"]
 * [transcriptor "transcriptor"]
-* [transcription date "transcribed"]
-* modification date "modified"
 * language: {english, german, french, serbocroatian, esperanto, lojban, ithkuil, toki pona}
 * confidence {certain, highly likely, likely, possible, unlikely, highly unlikely, remote, impossible, log, fiction, theory, translation, transcription, emotional, other}
 * status {notes, draft, in progress, finished, abandoned}
