@@ -28,6 +28,7 @@ HTML=index.html \
 	rationalist_gods.html \
 	tao_te_king.html \
 	two_people_on_a_planet.html \
-	trm_chrono.html \
-	so_chrono.html \
+	bp_chrono.html \
 	ob_chrono.html \
+	so_chrono.html \
+	trm_chrono.html \

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-07-07, modified: 2019-07-11, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-07, modified: 2019-07-24, language: english, status: in progress, importance: 5, confidence: log*
 
 > __The blog [Overcoming Bias](http://www.overcomingbias.com/), written
 > mainly by [Robin Hanson](https://en.wikipedia.org/wiki/Robin_Hanson),
@@ -14,7 +14,7 @@
 Overcoming Bias Posts Chronological Index
 =========================================
 
-This index currently lists 4042 posts from 2006-11-20 until 2019-06-27.
+This index currently lists 4041 posts from 2006-11-20 until 2019-06-27.
 
 Archives
 --------
