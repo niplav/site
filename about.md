@@ -133,13 +133,20 @@ For every text, there are several tags attached to it (mainly taken from
 The "author" tag is quite self-explanatory, the field is the original author
 of the piece. This is only relevant for translations and transcriptions.
 
+Similarly, there are two optional tags: "translator" for the person
+who translated the text, and "transcriptor" for the person who transcribed
+the text. The former can be me or a professional translator, the latter
+is always me.
+
 #### Dates
 
-A page has several date tags. The creation date ("created") shows the date
-when the text was first created (if the text is by me) or when the text
-was first published (if the text is by another author). The "modified"
-tag always shows the date of the last modification by me. Both the
-"created" and the "modified" tag are present on every text.
+A page has several date tags. The creation date ("created") shows the
+date when the text was first created (if the text is by me) or when
+the text was first published (if the text is by another author). If it
+is unclear when the text was _first_ published, I give my best estimate
+for the year, and set the date to the first of January of that year. The
+"modified" tag always shows the date of the last modification by me. Both
+the "created" and the "modified" tag are present on every text.
 
 If the text is a translation, the "translated" tag shows the date when
 I started working on the translation. Similarly, the also optional "transcribed" tag
@@ -149,10 +156,19 @@ The date format is [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601),
 rarely using a "-" as a negative sign for a year before the [Common
 Era](https://en.wikipedia.org/wiki/Common_Era).
 
-* [translator "translator"]
-* [transcriptor "transcriptor"]
-* language: {english, german, french, serbocroatian, esperanto, lojban, ithkuil, toki pona}
+#### Language
+
+The language tag shows the language the body of the text is written
+in. Currently, there are only texts in English and German, but the tag
+may be one of the following: {english, german, french, serbocroatian,
+esperanto, lojban, ithkuil, toki pona, latin}
+
+#### Confidence
+
 * confidence {certain, highly likely, likely, possible, unlikely, highly unlikely, remote, impossible, log, fiction, theory, translation, transcription, emotional, other}
+
+#### Status
+
 * status {notes, draft, in progress, finished, abandoned}
 * importance [1;10]
 
@@ -168,7 +184,13 @@ text and limiting line length) and no JavaScript.
 
 ### Influences
 
-* [gwern.net](https://www.gwern.net)
+This site is greatly influenced by several websites: The style
+of organisation and presentation is shamelessly influenced by
+[gwern.net](https://www.gwern.net) (although achieving similar quality in
+content, breadth and depth will be diffficult to achieve). I try to follow
+the concept of [Long Content](https://www.gwern.net/About#long-content)
+and extensive presentation.
+
 * [reducing-suffering.org](https://reducing-suffering.org/)
 * [suckless.org](https://suckless.org)
 * [lesswrong.com](https://lesswrong.com)
