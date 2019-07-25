@@ -1,0 +1,13 @@
+.l("nplot")
+.l("time")
+
+s31.5::{:[x=2;1;&/x!:\2_!x]}
+
+rt::{[a];a::x;time({s31.5(a+_100*.rn())})}'100000+50000*!19
+
+frame([0 1000000 100000]; [0],(1+_|/rt),[0.5])
+ytitle("runtime in seconds")
+
+segplot(rt)
+text(300;300;"s31.5")
+draw()

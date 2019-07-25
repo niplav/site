@@ -902,7 +902,6 @@ One can now check the performance of the first two functions to find
 out about their runtime behavior (notice that both have similar growth
 behavior at 100K and 10G, respectively).
 
-TODO: Measure `s31.5` as well, I want it to replace the rest.
 
 Measuring runtimes of `s31.1` and generating the graph:
 
@@ -939,13 +938,33 @@ Measuring runtimes of `s31.2` and generating the graph:
 
 ![Runtimes of s31.2](./img/99_klong/runtimes31_2.png)
 
-As one can see, both grow approximately linearly.
+And, finally, I measure the runtimes of `s31.5` and generate the
+corresponding graph:
 
-One can now give a good justification for choosing `s31.2` as the prime
-checking implementation (though it hurts a bit to not shave off a few
-bytes by choosing `s31.1`).
+	.l("nplot")
+	.l("time")
 
-	s31::{:[x<2;0:|[2 3 5]?x;1;&/(x!2,3+2*!_sqr(x)%2)]}
+	s31.5::{:[x=2;1;&/x!:\2_!x]}
+
+	rt::{[a];a::x;time({s31.5(a+_100*.rn())})}'100000+50000*!19
+
+	frame([0 1000000 100000]; [0],(1+_|/rt),[0.5])
+	ytitle("runtime in seconds")
+
+	segplot(rt)
+	text(300;300;"s31.5")
+	draw()
+
+![Runtimes of s31.2](./img/99_klong/runtimes31_5.png)
+
+As one can see, both grow approximately linearly, and `s31.5` is around
+twice as slow as `s31.1`, while having the same growth behavior.
+
+One can now give a good justification for choosing `s31.5` as the prime
+checking implementation (though it hurts a bit to be alot slower than
+`s31.2`, while shaving off a few bits).
+
+	s31::{:[x=2;1;&/x!:\2_!x]}
 	isprime::s31
 
 Tests:
@@ -954,10 +973,15 @@ Tests:
 	1
 		flr(s31;!100)
 	[2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97]
-		s31(-1)
-	0
+		s3r(-1)
+	kg: error: enumerate: domain error: -1
+		s31(0)
+	[]
+		s31(1)
+	[]
 
-This looks acceptable.
+While it is not perfect to have some odd behavior while being slower,
+this looks acceptable because it is a very short and elegant solution.
 
 ### P32 (**) Determine the greatest common divisor of two positive integer numbers.
 
@@ -1039,6 +1063,7 @@ Tests:
 	s35::{[a v];a::x;v::1;,/{1_(#b1(a;x)):^x}'{(a%2)>*x}{v::v+2;:[[]~(v!x)?0;v,x;x]}:~[2]}
 	b2::{[p a];p::&s31'!1+_x%2;a::x;p@&(#'{b1(a;x)}'p)-1}
 	s35::{:[s31(x);,x;b2(x)]}
+
 	s36::{{(x@1),x@0}'s10(s35(x))}
 	s37::{*/{((x@0)-1)*(x@0)^((x@1)-1)}'s36(x)}
 	s38::{"s34 is faster than s37"}
