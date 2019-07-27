@@ -1,10 +1,11 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-07-24, modified: 2019-07-24, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-24, modified: 2019-07-26, language: english, status: in progress, importance: 5, confidence: log*
 
 > __The blog [bit-player](http://bit-player.org/) is an excellent
-> computer science and mathematics blog written by Brian Hayes. Like many
+> computer science and mathematics blog written by [Brian
+> Hayes](https://en.wikipedia.org/wiki/Brian_Hayes_(scientist)). Like many
 > other blogs, it is not built for complete chronological reading. This
 > page makes that easier.__
 

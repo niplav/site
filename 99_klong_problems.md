@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2019-06-19, language: english, status: in progress, importance: 4, confidence: translation*
+*author: niplav, created: 2019-01-14, modified: 2019-07-27, language: english, status: in progress, importance: 4, confidence: translation*
 
 > __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems
@@ -396,6 +396,9 @@ the following formula:
 	$$phi(m)=(p_{1}-1)*p_{1}^{m_{1}-1}+(p_{2}-1)*p_{2}^{m_{2}-1}+...=\sum_{i=1}^{n} (p_{i}-1)*p_i^{m_{i}-1}$$
 </div>
 
+TODO: This formula is wrong. It is not the sum, but the product of these
+calculations that computes the phi function.
+
 ### P38 (*) Compare the two methods of calculating Euler's totient function.
 
 Use the solutions of problems P34 and P37 to compare the algorithms.
@@ -416,8 +419,8 @@ the most famous facts in number theory that has not been proved to be
 correct in the general case.
 
 It has been numerically confirmed up to very large numbers (much larger
-than we can go with our Prolog system). Write a function to find the
-two prime numbers that sum up to a given even integer.
+than we can go with Klong). Write a function to find the two prime
+numbers that sum up to a given even integer.
 
 Example:
 

@@ -1,10 +1,13 @@
 #!/usr/bin/env rc
 
 kg -l ./p25plot.kg -e '[]' >runtimes25.eps
-convert -size 750x750 runtimes25.eps runtimes25.png
+convert runtimes25.eps runtimes25.png
 kg -l ./p31_1_plot.kg -e '[]' >runtimes31_1.eps
-convert -size 750x750 runtimes31_1.eps runtimes31_1.png
+convert runtimes31_1.eps runtimes31_1.png
 kg -l ./p31_2_plot.kg -e '[]' >runtimes31_2.eps
-convert -size 750x750 runtimes31_2.eps runtimes31_2.png
+convert runtimes31_2.eps runtimes31_2.png
 kg -l ./p31_5_plot.kg -e '[]' >runtimes31_5.eps
-convert -size 750x750 runtimes31_5.eps runtimes31_5.png
+convert runtimes31_5.eps runtimes31_5.png
+kg -l ./p38plot.kg -e '[]' >runtimes38.eps
+convert runtimes38.eps runtimes38.png
+convert -chop 12x192 runtimes38.png runtimes38.png

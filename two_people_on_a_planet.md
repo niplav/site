@@ -1,7 +1,7 @@
 [home](./index.md)
 -----------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-07-13, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2019-04-02, modified: 2019-07-27, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __Two people are abducted and placed on the opposite poles of a
 > habitable planet. They want to find each other, but they have no
@@ -72,10 +72,10 @@ Munroe proposes different solutions:
 A very similar problem was discussed in a Mathematics Stack
 Exchange post:
 
-> Suppose you and your friend* end up on a big sphere. There are no visual
+> Suppose you and your friend end up on a big sphere. There are no visual
 > cues on where on the sphere you both are, and the sphere is way bigger
 > than you two. There are no means of communication. You can determine
-> your relative position and direction by navigating the stars**. You can
+> your relative position and direction by navigating the stars. You can
 > move anywhere, and your friend too.  
 > Upon inspecting the sphere, you see it is rock-solid, so you cannot
 > create markings. To protect the environment, you are not allowed to
