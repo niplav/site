@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-07-16, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-07-27, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -15,12 +15,22 @@
 Acknowledgements
 ----------------
 
-s7 is by [nmh](http://t3x.org/nmh/index.html), who wrote it
-[in the Klong documentation](http://t3x.org/klong/klong-ref.txt.html).
-[/u/John_Earnest](https://old.reddit.com/user/John_Earnest) provided a
-[more elegant](https://old.reddit.com/r/apljk/comments/59asq0/pack_duplicate_consecutive_elements_into_sublists/)
-s9 on [/r/apljk](https://old.reddit.com/r/apljk/). Dave Long provided
-a much more elegant s8, s26, c1, s49 and s55 over email.
+s7 is by [nmh](http://t3x.org/nmh/index.html), who wrote it [in the
+Klong documentation](http://t3x.org/klong/klong-ref.txt.html).
+[/u/John_Earnest](https://old.reddit.com/user/John_Earnest)
+provided a [more
+elegant](https://old.reddit.com/r/apljk/comments/59asq0/pack_duplicate_consecutive_elements_into_sublists/)
+s9 on [/r/apljk](https://old.reddit.com/r/apljk/). Dave
+Long provided a much more elegant s8, s26, c1, s49 and
+s55 over email.  s31 is from the [Wikipedia article about
+K](https://en.wikipedia.org/wiki/K_(programming_language)#Examples).
+
+Code
+----
+
+The pure Klong code, without tests, explanations, comments or performance
+tests is available [here](./code/99_klong/sol.kg).  It currently
+implements solutions for all problems up to P63, in 2871 bytes.
 
 Conventions
 -----------
@@ -634,7 +644,7 @@ but the growth behavior of the Grading Shuffle is not entirely
 clear. Nonetheless, it seems like the grading shuffle is clearly superior
 to the Fisher-Yates Shuffle implementation in terms of performance.
 There is probably a Klong verb that runs in `$O(n^2)$` and was used in
-`s25` or `s25`.
+`s20` or `s25.2`.
 
 ### P26 (**) Generate the combinations of K distinct objects chosen from the N elements of a list.
 
@@ -826,11 +836,12 @@ will see, it does!).
 
 	s31.2::{:[x<2;0:|[2 3 5]?x;1;&/(x!2,3+2*!_sqr(x)%2)]}
 
-One perhaps a naïve primality check is not optimal, and using a sieve
-is a lot faster. These two function implement the Sieve of Eratosthenes
-(TODO: Wikipedia link): checking whether the current number divides all
-smaller prime numbers until the biggest known prime number is either
-bigger than the argument or equal to it.
+One perhaps a naïve primality check is not optimal, and using a
+sieve is a lot faster. These two function implement the [sieve of
+Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) :
+checking whether the current number divides all smaller prime numbers
+until the biggest known prime number is either bigger than the argument
+or equal to it.
 
 	s31.3::{[a v];a::x;v::1;x=*{a>*x}{v::v+2;:[[]~(v!x)?0;v,x;x]}:~[2]}
 	s31.4::{[n p];n::x;p::[2];{~x>n}{:[&/x!p;p::p,x;0];x+2}:~3;:[x<2;0;x=*|p]}
@@ -1059,17 +1070,169 @@ Tests:
 
 ### P35 (**) Determine the prime factors of a given positive integer.
 
-	b1::{[a];a::y;{:[0=x!a;_x%a;x]}\~x}
-	s35::{[a v];a::x;v::1;,/{1_(#b1(a;x)):^x}'{(a%2)>*x}{v::v+2;:[[]~(v!x)?0;v,x;x]}:~[2]}
-	b2::{[p a];p::&s31'!1+_x%2;a::x;p@&(#'{b1(a;x)}'p)-1}
-	s35::{:[s31(x);,x;b2(x)]}
+In short, this solution generates all prime numbers ≤x, iterates to
+determine how often x divides the given prime and repeats that prime
+that many times.
 
-	s36::{{(x@1),x@0}'s10(s35(x))}
-	s37::{*/{((x@0)-1)*(x@0)^((x@1)-1)}'s36(x)}
-	s38::{"s34 is faster than s37"}
+To find the primes, it filters the numbers from 1 to x using `s31`. The
+iteration is similarly easy: it divides `x` by the given prime until
+`x!prime` (x modulo the prime) is 0. This produces a list of numbers,
+starting with x, with x divided by the prime one or more times. The
+length of this list is the number of times x can be divided by the
+prime. In theory, one could then just use the Reshape verb to repeat the
+prime this many times, but unfortunately Reshape, used as repetition,
+has the weird behavior of producing the atom n with 0 as length: `0:^5`
+is `5`, not the empty list `[]` or something similar. Because of this,
+atoms have to be filtered out of the result list using `{~@x}` as a filter.
+The result is then flattened and returned.
+
+Also, this function accesses arguments of outer functions pretty
+often. It would be nice to be able to have a shortcut for the arguments of
+outer functions (or does this violate some deep structure in functional
+programming languages?).  If this were possible, it would probably shave
+off a couple of bytes from the code.
+
+	s35::{[a];a::x;,/flr({~@x};{[b];b::x;(#{~x!b}{x:%b}\~a):^x}'flr(s31;1+!x))}
+
+Tests:
+
+		s35(315)
+	[3 3 5 7]
+		s46'2+!10
+	[[2] [3] [2 2] [5] [2 3] [7] [2 2 2] [3 3] [2 5] [11] [2 2 3] [13] [2 7] [3 5] [2 2 2 2] [17] [2 3 3] [19] [2 2 5] [3 7]]
+		s35(1)
+	[]
+		s35(0)
+	kg: error: plus: type error: [1 []]
+
+Unsurprisingly, this algorithm and its implementation is _abysmally_ slow:
+
+		.l("time")
+		time({s35'2+!100})
+	0.37971
+		time({s35(1023)})
+	1.095063
+
+TODO:
+[Here](https://github.com/kevinlawler/kona/wiki/K-99%3A-Ninety-Nine-K-Problems#problem-30-202)
+is a better solution for factoring (it is shorter etc.), but
+
+1. I don't understand it.
+2. It is written in K.
+
+Solve these two problems, and adopt it!
+
+### P36 (**) Determine the prime factors of a given positive integer (2).
+
+Given the implementations of `s10` and `s35`, this is very easy:
+
+	s36::{|'s10(s35(x))}
+
+Tests:
+
+		s36(315)
+	[[3 2] [5 1] [7 1]]
+
+### P37 (**) Calculate Euler's totient function phi(m) (improved).
+
+This problem is also simple to solve: One simply generates the prime
+factors and their multiplicities, and then implements the function
+that computes them. The only interesting thing in this implementation
+is that one can use the verb Apply (`@`) for the list of prime factors
+and their multiplicities. Here, a list is treated as arguments, where
+`x` is the factor, and `y` becomes the multiplicity.
+
+	s37::{*/{{(x-1)*x^y-1}@x}'s36(x)}
+
+Tests:
+
+		s37(10)
+	4
+		s37(115)
+	88
+		s37(1)
+	[]
+		s37(0)
+	kg: error: plus: type error: [1 []]
+		(s37'2+!100)~s34'2+!100
+	1
+
+The wrong values for 1 and 0 are inherited from `s35`.
+
+### P38 (*) Compare the two methods of calculating Euler's totient function.
+
+> Take the number of logical inferences as a measure for efficiency.
+
+*–niplav, [“P38“ in 99 Klong Problems](./99_klong_problems.html#P38--Compare-the-two-methods-of-calculating-Eulers-totient-function), 2019*
+
+We will not do that, but simply measure the runtimes of the two functions
+in seconds.
+
+First, we make a ballpark estimate of how fast the functions are:
+
+		.l("time")
+		s32::{:[0=y;x;.f(y;x!y)]}
+		s33::{1=s32(x;y)}
+		s34::{[t];t::x;#&{s33(x;t)}'!x}
+		time({s34(10090)})
+	0.113058
+		s9::{:[x~[];[];(&0,~~:'x):_x]}
+		s10::{{(#x),*x}'s9(x)}
+		s31::{:[x=2;1;&/x!:\2_!x]}
+		s35::{[a];a::x;,/flr({~@x};{[b];b::x;(#{~x!b}{x:%b}\~a):^x}'flr(s31;1+!x))}
+		s36::{|'s10(s35(x))}
+		s37::{*/{{(x-1)*x^y-1}@x}'s36(x)}
+		time({s37(10090)})
+	106.232003
+
+One can easily see that `s34` is a lot faster than `s37`. But does
+the same hold for growth?  Maybe `s37` has a much slower growth and is
+surpassed by `s34` at some point.
+
+	.l("nplot")
+	.l("time")
+
+	s32::{:[0=y;x;.f(y;x!y)]}
+	s33::{1=s32(x;y)}
+	s34::{[t];t::x;#&{s33(x;t)}'!x}
+
+	s9::{:[x~[];[];(&0,~~:'x):_x]}
+	s10::{{(#x),*x}'s9(x)}
+	s31::{:[x=2;1;&/x!:\2_!x]}
+	s35::{[a];a::x;,/flr({~@x};{[b];b::x;(#{~x!b}{x:%b}\~a):^x}'flr(s31;1+!x))}
+	s36::{|'s10(s35(x))}
+	s37::{*/{{(x-1)*x^y-1}@x}'s36(x)}
+
+	rt1::{[a];a::x;time({s34(a)})}'100+50*!19
+	rt2::{[a];a::x;time({s37(a)})}'100+50*!19
+
+	:"frame with the maximum value"
+
+	frame([0 1000 100]; [0],(1+_|/rt1,rt2),[0.5])
+	ytitle("runtime in seconds")
+
+	segplot(rt1)
+	text(250;40;"Naive phi function")
+	setrgb(0;0;1)
+	segplot(rt2)
+	text(200;250;"phi function with prime factors")
+	draw()
+
+![Runtimes of the naive phi function and the prime factor version](./img/99_klong/runtimes38.png)
+
+As one can easily see, this is not the case.
+
+### P39 (*) A list of prime numbers.
+
 	s39::{[p];p::&s31'!y;p@(x<p)?1}
+
+### P40 (**) Goldbach's conjecture.
+
 	b3::{[n];n::x;flr({s31(x@1)};{x,,n-x}'s39(1;x))}
 	s40::{*b3(x)}
+
+### P41 (**) A list of Goldbach compositions.
+
 	b4::{2*1+_x%2}
 	b5::{[l u];l::b4(x);u::b4(y);b3'l+2*!_(u-l)%2}
 	s41a::{*'b5(x;y)}
