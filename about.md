@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-07-24, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2019-07-28, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -165,12 +165,15 @@ esperanto, lojban, ithkuil, toki pona, latin}
 
 #### Confidence
 
-* confidence {certain, highly likely, likely, possible, unlikely, highly unlikely, remote, impossible, log, fiction, theory, translation, transcription, emotional, other}
+confidence {certain, highly likely, likely, possible, unlikely, highly unlikely, remote, impossible, log, fiction, theory, translation, transcription, emotional, other}
 
 #### Status
 
-* status {notes, draft, in progress, finished, abandoned}
-* importance [1;10]
+status {notes, draft, in progress, finished, abandoned}
+
+#### Importance
+
+importance [1;10]
 
 ### Implementation
 
