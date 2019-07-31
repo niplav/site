@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-07-27, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-07-31, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -22,14 +22,14 @@ provided a [more
 elegant](https://old.reddit.com/r/apljk/comments/59asq0/pack_duplicate_consecutive_elements_into_sublists/)
 s9 on [/r/apljk](https://old.reddit.com/r/apljk/). Dave
 Long provided a much more elegant s8, s26, c1, s49 and
-s55 over email.  s31 is from the [Wikipedia article about
+s55 over email. s31 is from the [Wikipedia article about
 K](https://en.wikipedia.org/wiki/K_(programming_language)#Examples).
 
 Code
 ----
 
 The pure Klong code, without tests, explanations, comments or performance
-tests is available [here](./code/99_klong/sol.kg).  It currently
+tests is available [here](./code/99_klong/sol.kg). It currently
 implements solutions for all problems up to P63, in 2871 bytes.
 
 Conventions
@@ -342,7 +342,7 @@ calling the different versions with `10000` elements:
 		time({s14(!10000)})
 	0.64103
 		 s14::{x@_0.5*!2*#x}
-	        time({s14(!10000)})
+		time({s14(!10000)})
 	0.022282
 
 As one can see, the indexing-based solution is by far the fastest,
@@ -900,7 +900,7 @@ Testing `s31.6` with 100 values >1G:
 
 		.l("time")
 		s31.6::{:[x<2;0:|x>3;&/x!:\2,3+2*!_sqr(x)%2;1]}
-	        (+/1_100{x;time({s31.6(1000000000+_100*.rn())})}\*[])%100
+		(+/1_100{x;time({s31.6(1000000000+_100*.rn())})}\*[])%100
 	0.07785973
 
 One can already see that the primality checks implementing sieves are
@@ -1089,7 +1089,7 @@ The result is then flattened and returned.
 Also, this function accesses arguments of outer functions pretty
 often. It would be nice to be able to have a shortcut for the arguments of
 outer functions (or does this violate some deep structure in functional
-programming languages?).  If this were possible, it would probably shave
+programming languages?). If this were possible, it would probably shave
 off a couple of bytes from the code.
 
 	s35::{[a];a::x;,/flr({~@x};{[b];b::x;(#{~x!b}{x:%b}\~a):^x}'flr(s31;1+!x))}
@@ -1186,7 +1186,7 @@ First, we make a ballpark estimate of how fast the functions are:
 	106.232003
 
 One can easily see that `s34` is a lot faster than `s37`. But does
-the same hold for growth?  Maybe `s37` has a much slower growth and is
+the same hold for growth? Maybe `s37` has a much slower growth and is
 surpassed by `s34` at some point.
 
 	.l("nplot")
@@ -1224,7 +1224,30 @@ As one can easily see, this is not the case.
 
 ### P39 (*) A list of prime numbers.
 
-	s39::{[p];p::&s31'!y;p@(x<p)?1}
+I assume that the range of numbers is inclusive. Then the solution is
+just filtering the list of numbers from x to y using `s31`. To construct
+this list, one can use `s22`, which returns all the integers in the
+range from x to y.
+
+	s39::{flr(s31;s22@x,y)}
+
+Tests:
+
+		s39(2;23)
+	[2 3 5 7 11 13 17 19 23]
+		s39(4;23)
+	[5 7 11 13 17 19 23]
+		s39(0;23)
+	[2 3 5 7 11 13 17 19 23]
+		s39(4;20)
+	[5 7 11 13 17 19]
+		s39(0;0)
+	[]
+		s39(-1;0)
+	kg: error: enumerate: domain error: -1
+
+Since we know that `s31` can't deal with negative numbers, this is
+no surprise.
 
 ### P40 (**) Goldbach's conjecture.
 

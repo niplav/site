@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-07-13, modified: 2019-07-13, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-13, modified: 2019-07-31, language: english, status: in progress, importance: 5, confidence: log*
 
 > __The blog [The Real Movement](https://therealmovement.wordpress.com/)
 > deals with Marxism, more specifically with abolishing wage labor, the role
@@ -48,7 +48,7 @@ This index currently lists 642 posts from 2013-05-20 to 2019-07-10.
 * [Marx proven wrong by Progressives and Liberals once again (Part 3)](https://therealmovement.wordpress.com/2013/07/21/marx-proven-wrong-by-progressives-and-liberals-once-again-part-3/) (Jehu, July 21, 2013)
 * [Platypus and the “Pre-Political absence of Consciousness”](https://therealmovement.wordpress.com/2013/07/27/platypus-and-the-pre-political-absence-of-consciousness/) (Jehu, July 27, 2013)
 * [How Larry Summers proved Marx was right about everything — (And why this is not necessarily good news)](https://therealmovement.wordpress.com/2013/07/30/how-larry-summers-proved-marx-was-right-about-everything-and-why-this-is-not-necessarily-good-news/) (Jehu, July 30, 2013)
-* [Part 2:  How Larry Summers proved Marx was right about everything — (And why this is not necessarily good news)](https://therealmovement.wordpress.com/2013/08/04/part-2-how-larry-summers-proved-marx-was-right-about-everything-and-why-this-is-not-necessarily-good-news/) (Jehu, August 4, 2013)
+* [Part 2: How Larry Summers proved Marx was right about everything — (And why this is not necessarily good news)](https://therealmovement.wordpress.com/2013/08/04/part-2-how-larry-summers-proved-marx-was-right-about-everything-and-why-this-is-not-necessarily-good-news/) (Jehu, August 4, 2013)
 * [We haven’t been comparing value to value: Kliman is right, but it is worse than that…](https://therealmovement.wordpress.com/2013/08/06/we-havent-been-comparing-value-to-value-kliman-is-right-but-it-is-worse-than-that/) (Jehu, August 6, 2013)
 * [Paul Volcker, the Fed’s “dual mandate”, and the future of capitalism](https://therealmovement.wordpress.com/2013/08/08/paul-volcker-the-feds-dual-mandate-and-the-future-of-capitalism/) (Jehu, August 8, 2013)
 * [The Left’s myopic defense of the Keynesian social state](https://therealmovement.wordpress.com/2013/08/09/the-lefts-myopic-defense-of-the-keynesian-social-state/) (Jehu, August 9, 2013)
@@ -90,7 +90,7 @@ This index currently lists 642 posts from 2013-05-20 to 2019-07-10.
 * [Platypus Question No. 3: Overwork and unemployment](https://therealmovement.wordpress.com/2013/12/08/platypus-question-no-3-overwork-and-unemployment/) (Jehu, December 8, 2013)
 * [Platypus Question No. 4: The Great Depression, the Left and the Politics of Work](https://therealmovement.wordpress.com/2013/12/09/platypus-question-no-4-the-great-depression-the-left-and-the-politics-of-work/) (Jehu, December 9, 2013)
 * [Platypus Question No. 5: Overwork, unemployment and the state](https://therealmovement.wordpress.com/2013/12/10/platypus-question-no-5-overwork-unemployment-and-the-state/) (Jehu, December 10, 2013)
-* [Platypus Question No. 6:  Is there a concrete demand for the immediate abolition of wage labor?](https://therealmovement.wordpress.com/2013/12/11/platypus-question-no-6-is-there-a-concrete-demand-for-the-immediate-abolition-of-wage-labor/) (Jehu, December 11, 2013)
+* [Platypus Question No. 6: Is there a concrete demand for the immediate abolition of wage labor?](https://therealmovement.wordpress.com/2013/12/11/platypus-question-no-6-is-there-a-concrete-demand-for-the-immediate-abolition-of-wage-labor/) (Jehu, December 11, 2013)
 * [Platypus Question No. 7: “The politics of work and the broader project of social emancipation”](https://therealmovement.wordpress.com/2013/12/12/platypus-question-no-7-the-politics-of-work-and-the-broader-project-of-social-emancipation/) (Jehu, December 12, 2013)
 * [Platypus Question No. 8: Self-organization or the fight against austerity?](https://therealmovement.wordpress.com/2013/12/14/platypus-question-no-8-self-organization-or-the-fight-against-austerity/) (Jehu, December 14, 2013)
 * [Platypus Question No. 9: The paradox of Left politics](https://therealmovement.wordpress.com/2013/12/15/platypus-question-no-9-the-paradox-of-left-politics/) (Jehu, December 15, 2013)
@@ -336,13 +336,13 @@ This index currently lists 642 posts from 2013-05-20 to 2019-07-10.
 * [Schrödinger’s Capital: Concrete labor, abstract labor, values and prices](https://therealmovement.wordpress.com/2015/10/20/schrodingers-capital-concrete-labor-abstract-labor-values-and-prices/) (Jehu, October 20, 2015)
 * [Schrodinger’s Capital: The fatal defect of the value-form](https://therealmovement.wordpress.com/2015/10/22/schrodingers-capital-the-fatal-defect-of-the-value-form/) (Jehu, October 22, 2015)
 * [“Schrödinger’s Capital”: How is concrete labor actually reduced to abstract labor?](https://therealmovement.wordpress.com/2015/10/27/schrodingers-capital-how-is-concrete-labor-actually-reduced-to-abstract-labor/) (Jehu, October 27, 2015)
-* [“Schrödinger’s Capital”:  How Marxist academics use ‘Dialectical’ to turn bullshit into a theory](https://therealmovement.wordpress.com/2015/10/29/schrodingers-capital-how-marxist-academics-use-dialectical-to-turn-bullshit-into-a-theory/) (Jehu, October 29, 2015)
+* [“Schrödinger’s Capital”: How Marxist academics use ‘Dialectical’ to turn bullshit into a theory](https://therealmovement.wordpress.com/2015/10/29/schrodingers-capital-how-marxist-academics-use-dialectical-to-turn-bullshit-into-a-theory/) (Jehu, October 29, 2015)
 * [Schrödinger’s Capital: Is Marxism now a variant of anarcho-capitalism?](https://therealmovement.wordpress.com/2015/10/30/schrodingers-capital-is-marxism-now-a-variant-of-anarcho-capitalism/) (Jehu, October 30, 2015)
 * [Schrödinger’s Capital: Chris Arthur explains why inconvertible fiat is as ‘good as gold’](https://therealmovement.wordpress.com/2015/11/01/schrodingers-capital-chris-arthur-explains-why-inconvertible-fiat-is-as-good-as-gold/) (Jehu, November 1, 2015)
 * [Schrödinger’s Capital: How commodity money died (and the value-form school missed it)](https://therealmovement.wordpress.com/2015/11/02/schrodingers-capital-how-commodity-money-died-and-the-value-form-school-missed-it/) (Jehu, November 2, 2015)
-* [“Schrödinger’s Capital”:  The neoclassical core of the value-form argument](https://therealmovement.wordpress.com/2015/11/03/schrodingers-capital-the-neoclassical-core-of-the-value-form-argument/) (Jehu, November 3, 2015)
+* [“Schrödinger’s Capital”: The neoclassical core of the value-form argument](https://therealmovement.wordpress.com/2015/11/03/schrodingers-capital-the-neoclassical-core-of-the-value-form-argument/) (Jehu, November 3, 2015)
 * [Schrödinger’s Capital: Why the value-form school never publishes supporting empirical data on money](https://therealmovement.wordpress.com/2015/11/05/schrodingers-capital-why-the-value-form-school-never-publishes-supporting-empirical-data-on-money/) (Jehu, November 5, 2015)
-* [Schrödinger’s Capital:  How Marxists missed the biggest story of the last 45 years](https://therealmovement.wordpress.com/2015/11/06/schrodingers-capital-how-marxists-missed-the-biggest-story-of-the-last-45-years/) (Jehu, November 6, 2015)
+* [Schrödinger’s Capital: How Marxists missed the biggest story of the last 45 years](https://therealmovement.wordpress.com/2015/11/06/schrodingers-capital-how-marxists-missed-the-biggest-story-of-the-last-45-years/) (Jehu, November 6, 2015)
 * [Schrödinger’s Capital: Is the US dollar world money or the end of money?](https://therealmovement.wordpress.com/2015/11/08/schrodingers-capital-is-the-us-dollar-world-money-or-the-end-of-money/) (Jehu, November 8, 2015)
 * [Schrödinger’s Capital: Money, “technological unemployment” and the cold war](https://therealmovement.wordpress.com/2015/11/10/schrodingers-capital-money-technological-unemployment-and-the-cold-war/) (Jehu, November 10, 2015)
 * [Schrödinger’s Capital: Michael Heinrich explains why Marxists don’t have to prove anything](https://therealmovement.wordpress.com/2015/11/12/schrodingers-capital-michael-heinrich-explains-why-marxists-dont-have-to-prove-anything/) (Jehu, November 12, 2015)
@@ -663,7 +663,7 @@ This index currently lists 642 posts from 2013-05-20 to 2019-07-10.
 * [Breakdown was more than a thought experiment](https://therealmovement.wordpress.com/2019/04/06/breakdown-was-more-than-a-thought-experiment/) (Jehu, April 6, 2019)
 * [Getting past semantics with Adam](https://therealmovement.wordpress.com/2019/04/09/getting-past-semantics-with-adam/) (Jehu, April 9, 2019)
 * [The working class hasn’t been paid wages since April 5, 1933, Adam](https://therealmovement.wordpress.com/2019/04/13/the-working-class-hasnt-been-paid-wages-since-april-5-1933-adam/) (Jehu, April 13, 2019)
-* [Donald Booker: “What is the value of a worker’s labor power, today?  Zero is clearly a bullshit answer…”](https://therealmovement.wordpress.com/2019/04/16/donald-booker-what-is-the-value-of-a-workers-labor-power-today-zero-is-clearly-a-bullshit-answer/) (Jehu, April 16, 2019)
+* [Donald Booker: “What is the value of a worker’s labor power, today? Zero is clearly a bullshit answer…”](https://therealmovement.wordpress.com/2019/04/16/donald-booker-what-is-the-value-of-a-workers-labor-power-today-zero-is-clearly-a-bullshit-answer/) (Jehu, April 16, 2019)
 * [Society chose Barbarism and it has its own peculiar political economy](https://therealmovement.wordpress.com/2019/04/18/society-chose-barbarism-and-it-has-its-own-peculiar-political-economy/) (Jehu, April 18, 2019)
 * [Marx, Breakdown and the renegade Kautsky](https://therealmovement.wordpress.com/2019/04/29/marx-breakdown-and-the-renegade-kautsky/) (Jehu, April 29, 2019)
 * [Wage Labor and Inflation I](https://therealmovement.wordpress.com/2019/05/08/wage-labor-and-inflation-i/) (Jehu, May 8, 2019)
