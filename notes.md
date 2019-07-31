@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-07-13, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-05-22, modified: 2019-07-31, language: english, status: in progress, importance: 3, confidence: unlikely*
 
 > __Short texts on different topics.__
 
@@ -136,3 +136,56 @@ to understand the importance humans give to art.
 ### See Also
 
 * [Yudkowsky 2004](./doc/converging_preference_utilitarianism/coherent_extrapolated_volition_yudkowsky_2004.pdf "“Coherent Extrapolated Volition” (Eliezer Yudkowsky, 2004)")
+
+Silent & Loud Killers
+---------------------
+
+The idea of a Great Filter (TODO: read
+http://hanson.gmu.edu/greatfilter.html and link it here!) proposes that
+we do not observe aliens because in the development of intelligent life,
+there is one or more obstacles that obliterate the developing societies
+before they can start to colonize their own galaxy.
+
+One big question that poses itself is whether humanity is
+before or after such a filter. Some examples of potential
+filters that still await humanity are named in [Bostrom
+2008](./doc/notes/where_are_they_bostrom_2008.pdf):
+
+> We can identify a number of potential existential risks: nuclear
+> war fought with stockpiles much greater than those that exist today
+> (maybe resulting from future arms races); a genetically engineered
+> superbug; environmental disaster; asteroid impact; wars or terrorists act
+> committed with powerful future weapons, perhaps based on advanced forms
+> of nanotechnology; superintelligent general artificial intelligence with
+> destructive goals; high‐energy physics experiments; a permanent global
+> Brave‐New‐World‐like totalitarian regime protected from revolution
+> by new surveillance and mind control technologies. These are just some
+> of the existential risks that have been discussed in the literature, and
+> considering that many of these have been conceptualized only in recent
+> decades, it is plausible to assume that there are further existential
+> risks that we have not yet thought of.
+
+*– Nick Bostrom (TODO: Wikipedia link), [“Where Are They”](./doc/notes/where_are_they_bostrom_2008.pdf) p. 7, 2008*
+
+These risks can be categorized into two groups: silent killers and
+loud killers. A loud killer is an existential catastrophe that produces
+astronomical amounts of energy and with that light. Such an event would be
+visible from earth if it occurred in our galaxy. Examples for loud killers
+would be superintelligent artificial intelligence (maximizing its utility
+function by expanding at a appreciable fraction of the speed of light),
+high-energy physics experiments (although there are exceptions, such as
+creating black holes), and perhaps failure from advanced nanotechnology
+(also expanding rapidly). A silent killer represents the counterfactual
+case: An existential catastrophe that doesn't produce astronomical
+amounts of energy and light. This includes pandemics, environmental
+disaster and totalitarian regimes.
+
+Some failure modes do not fall clearly into either of these categories.
+Examples are nuclear wars and terrorist acts with powerful weapons,
+since these can have a wide variation in intensity.
+
+If humanity is before a Great Filter, it seems likely that this filter
+is not a loud killer, since many civilizations will have encountered the
+same catastrophe, but we do not observe any such irregular phenomena
+when examining the universe. This is presumably good news, since it
+restricts the amount of possible filters still ahead of us.

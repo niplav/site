@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-08, modified: 2019-06-12, language: english, status: finished, importance: 4, confidence: highly likely*
+*author: niplav, created: 2019-02-08, modified: 2019-07-31, language: english, status: finished, importance: 4, confidence: highly likely*
 
 > __Imagine getting up every morning and throwing a coin so often that
 > heads and tails have come up an equal amount of times. How often
@@ -198,7 +198,7 @@ Final Formula and Final Code
 Our final formula for the expected value is thus
 
 <div>
-        $$\mathbb{E}=\sum_{i=1}^{\infty} \frac{1}{2*i}*r_{i}*2*i$$
+	$$\mathbb{E}=\sum_{i=1}^{\infty} \frac{1}{2*i}*r_{i}*2*i$$
 </div>
 
 We could implement `$r_{n}$` very easily:
@@ -222,15 +222,15 @@ We now call ev:
 
 Here is a sample output, piped through `tr , '\t'` to make it easier to read:
 
-	1       0.5     0
-	2       0.125   1.0
-	3       0.0625000000000000001   1.5
-	4       0.0390624999999999998   1.875
+	1	0.5	0
+	2	0.125	1.0
+	3	0.0625000000000000001	1.5
+	4	0.0390624999999999998	1.875
 	...
-	99998   0.00000000892092166024425108    356.819024780555414
-	99999   0.00000000892078784508119576    356.820808929203776
-	100000  0.0000000089206540332635195     356.822593068931216
-	100001  0.00000000892052022479110523    356.824377199737868
+	99998	0.00000000892092166024425108	356.819024780555414
+	99999	0.00000000892078784508119576	356.820808929203776
+	100000	0.0000000089206540332635195 	356.822593068931216
+	100001	0.00000000892052022479110523	356.824377199737868
 
 The first field is the number of iterations, the second field is the
 probability of finishing at the given iteration, and the third field

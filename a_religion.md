@@ -33,4 +33,8 @@ Explanation
 
 ### Hell
 
-Possibly read (TODO): Neoplatonist philosophy, especially Plotinus.
+TODO: read
+
+* Neoplatonist philosophy, especially Plotinus.
+* /usr/local/doc/unread/principia_qualia_johnson_2017.pdf
+* /usr/local/doc/unread/physics/our_mathematical_universe_tegmark_2014.epub

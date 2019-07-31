@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-24, modified: 2019-06-28, language: english, status: finished, importance: 4, confidence: possible*
+*author: niplav, created: 2019-04-24, modified: 2019-07-31, language: english, status: finished, importance: 4, confidence: possible*
 
 > __[Pipelines](https://en.wikipedia.org/wiki/Pipeline_(Unix)) are an
 > integral part of the Unix operating system. They come in different
@@ -73,7 +73,7 @@ There is a starting string, and four rules to modify this string:
 >
 > By the way, if up to this point you had not guessed it, a fact about the
 > meaning of "string" is that the letters are in a fixed order. For example,
-> MI and IM are two different strings.  A string of symbols is not just a
+> MI and IM are two different strings. A string of symbols is not just a
 > "bag" of symbols, in which the order doesn't make any difference.
 > 	Here is the second rule:
 >
@@ -140,7 +140,7 @@ implement a pipe ring that generates mu expressions.
 `awk '!a[$0]++'` is taken from
 [iridakos 2019](https://iridakos.com/how-to/2019/05/16/remove-duplicate-lines-preserving-order-linux.html).
 Also, stdbuf doesn't work with rc functions, so it has to be written
-directly into the function.  `grep` is used to prevent extremely long
+directly into the function. `grep` is used to prevent extremely long
 lines from forming through the repeated application of the first rule.
 
 Executing the script gives the desired result:

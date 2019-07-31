@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-07-28, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2019-07-31, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -16,7 +16,7 @@ The site
 This website contains essays on different topics, ranging
 from programming over philosophy to discussions of odd social
 behavior, as well as translations, transcriptions, music
-recordings and programming projects.  It follows the idea of [Long
+recordings and programming projects. It follows the idea of [Long
 Content](https://www.gwern.net/About#long-content): pages that are
 continually getting refined and updated, never quite completely finished,
 but approaching stability. This allows for "perpetual drafts", along
@@ -94,7 +94,7 @@ The style of writing is mostly formal US english.
 * Code is not syntax-highlighted
 * A passive voice is preferred, but I have to get into the flow of writing, so texts may contain that as well. TODO: get rid of "we"?
 * No footnotes/endnotes (see [entirelyuseless 2015](https://entirelyuseless.com/2015/07/11/are-hyperlinks-a-bad-idea/))
-* Quotes have the following style: `*– [Author Name](https://en.wikipedia.org/wiki/Author_Name), [“Chapter” in “Work Name”, p. 1](https://work-name.com), Year*`. If the work is not online, link the Wikipedia page.
+* Quotes have the following style: `*– [Author Name](https://en.wikipedia.org/wiki/Author_Name), [“Chapter” in “Work Name”](https://work-name.com) p.1, Year*`. If the work is not online, link the Wikipedia page.
 * For pages, optimal is to give the page number of the quotation in the linked PDF. If it is not available, the page number written at the bottom of the page is used.
 * Link to document: typical style
 	* for one author: `[Author Year](./title_author_year.pdf)`
@@ -187,16 +187,30 @@ text and limiting line length) and no JavaScript.
 
 ### Influences
 
-This site is greatly influenced by several websites: The style
-of organisation and presentation is shamelessly influenced by
-[gwern.net](https://www.gwern.net) (although achieving similar quality in
-content, breadth and depth will be diffficult to achieve). I try to follow
-the concept of [Long Content](https://www.gwern.net/About#long-content)
-and extensive presentation.
+This site is greatly influenced by several websites: The
+style of organisation and presentation is shamelessly
+influenced by [gwern.net](https://www.gwern.net) and
+[reducing-suffering.org](https://reducing-suffering.org/) (although
+achieving similar quality in content, breadth and depth will
+be diffficult to achieve). I try to follow the concept of [Long
+Content](https://www.gwern.net/About#long-content) and extensive
+presentation.
 
-* [reducing-suffering.org](https://reducing-suffering.org/)
-* [suckless.org](https://suckless.org)
-* [lesswrong.com](https://lesswrong.com)
+My views on philosophy are heavily influenced by the [rationalist
+movement](https://lesswrong.com), and I stay faithful to the ideas of the
+movement by disagreeing sharply with it on several points. The general
+principles I agree with consequentialism, bayesian epistemology,
+meta-physical nominalism, reductionism and scientific materialism (TODO:
+links to all of these, maybe put them into the fundamentals?).
+
+My views on ethics are very similar to (and influenced by) the idea
+of suffering focused ethics (TODO: link here, perhaps Knutsonns 1
+paragraph case for suffering focussed ethics), especially the writings at
+[reducing-suffering.org](https://reducing-suffering.org/).
+
+In regard to software, my views are quite similar to
+those of the minimalist unix and plan9 supporters at
+[suckless.org](https://suckless.org) and [cat-v.org](http://cat-v.org).
 
 ### Inspiration
 
@@ -243,6 +257,10 @@ PGP public key:
 
 ### Elsewhere on the Internet
 
-### Personality Tests
+TODO: Check links
+
+* [Reddit](https://old.reddit.com/u/niplav)
+* [Github](https://github.com/niplav)
+* [Lesswrong](https://www.lesswrong.com/users/niplav)
 
 ### Anonymity

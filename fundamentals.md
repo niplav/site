@@ -11,4 +11,3 @@ Fundamentals
 > which we intend to communicate.
 
 *– John Nerst, [“30 Fundamentals”](https://everythingstudies.com/2018/07/16/30-fundamentals/), 2018*
-

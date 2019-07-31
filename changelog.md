@@ -15,9 +15,10 @@ July 2019
 
 * Notes
 	* [Converging Preference Utilitarianism](./notes.html#Converging-Preference-Utilitarianism)
+	* [Silent & Loud Killers](./notes.html#Silent--Loud-Killers)
 * [Contributions](./contributions.md)
 * [Other Proposed Solutions to Rendezvous on a Sphere](./two_people_on_a_planet.html#Other-Proposed-Solutions)
-* [Solutions to P34-P38 for the 99 Klong Problems](.//99_problems_klong_solution.html#P34--Calculate-Eulers-totient-function-phim)
+* [Solutions to P34-P39 for the 99 Klong Problems](.//99_problems_klong_solution.html#P34--Calculate-Eulers-totient-function-phim)
 * Archives
 	* [Bit-Player Posts Chronological Index](./bp_chrono.md)
 	* [Overcoming Bias Posts Chronological Index](./ob_chrono.md)
