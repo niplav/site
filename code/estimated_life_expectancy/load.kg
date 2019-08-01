@@ -20,3 +20,27 @@ fages::(*+f)@<*+f
 estages::(*|+data)@<*|+data
 mestages::(*|+m)@<*|+m
 festages::(*|+f)@<*|+f
+
+data::data@<data
+
+grf::=*+f
+abaf::mu'(*|+f)@grf
+rf::(*'(*+f)@grf),'abaf
+rf::rf@<rf
+
+grm::=*+m
+abam::mu'(*|+m)@grm
+rm::(*'(*+m)@grm),'abam
+rm::rm@<rm
+
+gr::=*+data
+aba::mu'(*|+data)@gr
+r::(*'(*+data)@gr),'aba
+r::r@<r
+
+.fc(.ic("../../data/de_at.csv"));known::csv.load()
+
+known::{(1:$*x),(1.0:$x@1),(1.0:$x@2)}'1_known
+mk::{x@[0 1]}'known
+fk::{x@[0 2]}'known
+kr::{(*x),((x@1)+x@2)%2}'known
