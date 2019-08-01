@@ -1,0 +1,19 @@
+.l("nplot")
+.l("nstat")
+.l("./load.kg")
+
+grid([0 100 20];[0 150 20])
+
+setdot(3)
+
+fillrgb(0;0;0)
+scplot2(fk)
+
+fillrgb(1;0;0)
+scplot2(rf)
+
+
+xtitle("age")
+ytitle("female: average estimated life expectancy (red), average life expectancy (black)")
+
+draw()
