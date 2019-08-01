@@ -165,7 +165,7 @@ filters that still await humanity are named in [Bostrom
 > decades, it is plausible to assume that there are further existential
 > risks that we have not yet thought of.
 
-*– Nick Bostrom (TODO: Wikipedia link), [“Where Are They”](./doc/notes/where_are_they_bostrom_2008.pdf) p. 7, 2008*
+*– [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), [“Where Are They”](./doc/notes/where_are_they_bostrom_2008.pdf) p. 7, 2008*
 
 These risks can be categorized into two groups: silent killers and
 loud killers. A loud killer is an existential catastrophe that produces
