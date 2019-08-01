@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2019-07-27, language: english, status: in progress, importance: 4, confidence: translation*
+*author: niplav, created: 2019-01-14, modified: 2019-07-31, language: english, status: in progress, importance: 4, confidence: translation*
 
 > __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems
@@ -393,11 +393,14 @@ multiplicities) of a given number m. Then phi(m) can be calculated with
 the following formula:
 
 <div>
-	$$phi(m)=(p_{1}-1)*p_{1}^{m_{1}-1}+(p_{2}-1)*p_{2}^{m_{2}-1}+...=\sum_{i=1}^{n} (p_{i}-1)*p_i^{m_{i}-1}$$
+	$$phi(m)=(p_{1}-1)*p_{1}^{m_{1}-1}*(p_{2}-1)*p_{2}^{m_{2}-1}*...=\prod_{i=1}^{n} (p_{i}-1)*p_i^{m_{i}-1}$$
 </div>
 
-TODO: This formula is wrong. It is not the sum, but the product of these
-calculations that computes the phi function.
+Note that the [Lisp
+version](https://www.ic.unicamp.br/%7Emeidanis/courses/mc336/2006s2/funcional/L-99_Ninety-Nine_Lisp_Problems.html)
+does not give the correct formula, as opposed to the [Prolog
+version](https://sites.google.com/site/prologsite/prolog-problems/2),
+which works.
 
 ### P38 (*) Compare the two methods of calculating Euler's totient function.
 

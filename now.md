@@ -1,9 +1,10 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2019-07-24, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2019-07-31, language: english, status: in progress, importance: 3, confidence: highly likely*
 
-> __What I am doing at the moment (inspired by the now-movement (TODO: link here)).__
+> __What I am doing at the moment ([inspired by the
+> now movement](https://nownownow.com/about)).__
 
 Now
 ===
@@ -19,8 +20,8 @@ My main focus in programming is working on the [99
 Klong Problems](./99_klong_problems.md) and their
 [solutions](./99_problems_klong_solution.md).
 
-I am also working on an arbtt (TODO: link) like time tracker: awitt
-(TODO: link here).
+I am also working on an [arbtt](https://arbtt.nomeata.de/) like time
+tracker: [awitt](https://github.com/niplav/awitt).
 
 Writing
 -------
@@ -51,8 +52,16 @@ I create [chronological indexes](./index.md#Archives) of blogs I like.
 Pick Up
 -------
 
+I am currently a beginner and not very good. I intend to have a slow
+start. At the end of 2019, I will have done ≥100 approaches. In 2020,
+I plan to do ≥1000.
+
 Data Sets
 ---------
+
+I am currently collecting data on [estimated life
+expectancy](./data/estimated_life_expectancy.csv) and plan to write an
+essay on that sometime in the future.
 
 Music
 -----

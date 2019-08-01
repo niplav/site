@@ -88,7 +88,7 @@ The style of writing is mostly formal US english.
 
 #### Titles and Headings
 
-* Titles and headers use the (TODO: information about the exact style) style of capitalization
+* Titles and headers use the [APA style of capitalization](https://blog.apastyle.org/apastyle/2012/03/title-case-and-sentence-case-capitalization-in-apa-style.html)
 * MathJax is used only when necessary
 * The Oxford comma is not used (find out what exactly that would entail, and check whether this is true or not)
 * Code is not syntax-highlighted
@@ -126,7 +126,7 @@ I use a [script](./code/sitelint) to fix easily catchable mistakes.
 ### Organisation
 
 For every text, there are several tags attached to it (mainly taken from
-[Gwern, 2019](http://www.gwern.net/About) (TODO: add more exact link)):
+[Gwern 2019](http://www.gwern.net/About#confidence-tags)).
 
 #### Author
 
@@ -196,20 +196,27 @@ be diffficult to achieve). I try to follow the concept of [Long
 Content](https://www.gwern.net/About#long-content) and extensive
 presentation.
 
-My views on philosophy are heavily influenced by the [rationalist
-movement](https://lesswrong.com), and I stay faithful to the ideas of the
-movement by disagreeing sharply with it on several points. The general
-principles I agree with consequentialism, bayesian epistemology,
-meta-physical nominalism, reductionism and scientific materialism (TODO:
-links to all of these, maybe put them into the fundamentals?).
+My views on philosophy are heavily influenced by the
+[rationalist movement](https://lesswrong.com), and I stay
+faithful to the ideas of the movement by disagreeing sharply
+with it on several points. The general principles I agree with are
+[consequentialism](https://plato.stanford.edu/entries/consequentialism/),
+[bayesian
+epistemology](https://plato.stanford.edu/entries/epistemology-bayesian/),
+[meta-physical
+nominalism](https://plato.stanford.edu/entries/nominalism-metaphysics/),
+[reductionism](https://en.wikipedia.org/wiki/Reductionism) and [scientific
+materialism](https://plato.stanford.edu/entries/naturalism/#MetNat).
 
-My views on ethics are very similar to (and influenced by) the idea
-of suffering focused ethics (TODO: link here, perhaps Knutsonns 1
-paragraph case for suffering focussed ethics), especially the writings at
+My views on ethics are very similar to
+(and influenced by) the idea of [suffering focused
+ethics](https://foundational-research.org/the-case-for-suffering-focused-ethics/),
+especially the writings at
 [reducing-suffering.org](https://reducing-suffering.org/).
 
-In regard to software, my views are quite similar to
-those of the minimalist unix and plan9 supporters at
+In regard to software, my views are quite
+similar to those of the minimalist unix and [Plan
+9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs) supporters at
 [suckless.org](https://suckless.org) and [cat-v.org](http://cat-v.org).
 
 ### Inspiration
@@ -218,6 +225,13 @@ https://guzey.com/personal/why-have-a-blog/
 
 The author
 ----------
+
+### Elsewhere on the Internet
+
+* [Reddit](https://old.reddit.com/u/niplav)
+* [Github](https://github.com/niplav)
+* [Lesswrong](https://www.lesswrong.com/users/niplav)
+* [Wikipedia](https://en.wikipedia.org/wiki/User:Niplav)
 
 ### Contact
 
@@ -254,13 +268,3 @@ PGP public key:
 	INanMfBMaiGYGd1BKfd6xJfapLLRimDp6nUbaVMimNo99w==
 	=9nws
 	-----END PGP PUBLIC KEY BLOCK-----
-
-### Elsewhere on the Internet
-
-TODO: Check links
-
-* [Reddit](https://old.reddit.com/u/niplav)
-* [Github](https://github.com/niplav)
-* [Lesswrong](https://www.lesswrong.com/users/niplav)
-
-### Anonymity

@@ -4,7 +4,7 @@
 *author: niplav, created: 2019-06-01, modified: 2019-07-28, language: english, status: in progress, importance: 2, confidence: theory*
 
 > __A pseudo-mathematical religion combining several unrelated ideas is
-> presented and explained. Inspired by Unsong (TODO: link).__
+> presented and explained. Inspired by [Unsong](http://unsongbook.com/).__
 
 A Religion
 ==========
@@ -18,7 +18,7 @@ Ingredients
 
 ### Scott Alexander's Solution to Theodicy
 
-* [Scott Alexanders solution to theodicy](https://slatestarcodex.com/2015/03/15/answer-to-job/)
+* [Scott Alexander's solution to theodicy](https://slatestarcodex.com/2015/03/15/answer-to-job/)
 
 ### Timelessness
 
