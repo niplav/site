@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-07-31, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2019-08-01, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -80,7 +80,7 @@ pages representing programming projects, but also [literate
 programs](https://en.wikipedia.org/wiki/Literate_programming)
 containing code, comments, tests and performance measurements. Most
 programs will be written in [a small number of programming
-languages](./uses_this.html#List-of-Programs).
+languages](./uses_this.html#Programming-languages).
 
 ### Style
 
@@ -90,7 +90,7 @@ The style of writing is mostly formal US english.
 
 * Titles and headers use the [APA style of capitalization](https://blog.apastyle.org/apastyle/2012/03/title-case-and-sentence-case-capitalization-in-apa-style.html)
 * MathJax is used only when necessary
-* The Oxford comma is not used (find out what exactly that would entail, and check whether this is true or not)
+* The Oxford comma is not used (TODO: find out what exactly that would entail, and check whether this is true or not)
 * Code is not syntax-highlighted
 * A passive voice is preferred, but I have to get into the flow of writing, so texts may contain that as well. TODO: get rid of "we"?
 * No footnotes/endnotes (see [entirelyuseless 2015](https://entirelyuseless.com/2015/07/11/are-hyperlinks-a-bad-idea/))
@@ -117,7 +117,7 @@ I use a [script](./code/sitelint) to fix easily catchable mistakes.
 * Spell checking using [aspell](http://aspell.net/)
 * check broken markdown
 * broken citations
-* "labour" instead of "labor", "behaviour" instead of "behavior"
+* "labour" instead of "labor", "behaviour" instead of "behavior" (American English)
 * links for authors to Wikipedia
 * capitalization (capitalisation?) of headings
 * proselint?
@@ -160,20 +160,69 @@ Era](https://en.wikipedia.org/wiki/Common_Era).
 
 The language tag shows the language the body of the text is written
 in. Currently, there are only texts in English and German, but the tag
-may be one of the following: {english, german, french, serbocroatian,
-esperanto, lojban, ithkuil, toki pona, latin}
+may be one of the following:
+
+* "english"
+* "german"
+* "french"
+* "serbocroatian"
+* "esperanto"
+* "lojban"
+* "ithkuil"
+* "toki pona"
+* "latin"
 
 #### Confidence
 
-confidence {certain, highly likely, likely, possible, unlikely, highly unlikely, remote, impossible, log, fiction, theory, translation, transcription, emotional, other}
+The confidence tags are also taken mainly from [Gwern
+2019](https://www.gwern.net/About#confidence-tags).
+
+I made some additions to the list of tags which I thought were useful:
+"translation" for translations, "transcription" for transcriptions
+(digitalizing of a book or article written on paper), "theory" for
+unfalsifiable ideas that nonetheless might create new perspectives
+and approaches, "other" for texts that might not fit into any of these
+categories.
+
+The complete list of confidence tags is as follows:
+
+* "certain"
+* "highly likely"
+* "likely"
+* "possible"
+* "unlikely"
+* "highly unlikely"
+* "remote"
+* "impossible"
+* "log"
+* "fiction"
+* "theory"
+* "translation"
+* "transcription"
+* "emotional"
+* "other"
 
 #### Status
 
-status {notes, draft, in progress, finished, abandoned}
+The status tags indicate the state of progress for a piece.
+
+They may be any of the following (in increasing order of
+being-finished-ness):
+
+* "notes"
+* "draft"
+* "in progress"
+* "finished"
+* "abandoned"
 
 #### Importance
 
-importance [1;10]
+The importance tags are also taken from [Gwern
+2019](https://www.gwern.net/About#importance-tags), but I don't do any
+resorting, both because that would be too much effort and because I
+believe that most of the content I produce is not especially important.
+
+The importance tag is a number `$n \in [10] \subset \mathbb{N}$`.
 
 ### Implementation
 

@@ -1,10 +1,10 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2019-07-31, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2019-08-02, language: english, status: in progress, importance: 2, confidence: highly likely*
 
-> __What I am doing at the moment ([inspired by the
-> now movement](https://nownownow.com/about)).__
+> __What I am doing at the moment (inspired by the
+> [now movement](https://nownownow.com/about)).__
 
 Now
 ===

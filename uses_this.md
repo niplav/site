@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-07-13, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2019-08-01, language: english, status: in progress, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
 > recommendations by people who I respect, such as
@@ -32,23 +32,27 @@ Software
 * Code search: [ag](https://geoff.greer.fm/ag/)
 * Music: [sad](http://git.2f30.org/sad/log.html)
 * Videos: [mpv](https://mpv.io/)
-* Programming languages:
-	* [C](https://en.wikipedia.org/wiki/C_%28programming_language%29)
-	* [Klong](http://t3x.org/klong/index.html)
-	* [Myrddin](https://eigenstate.org/myrddin/)
-	* [Lua](https://www.lua.org/)
-	* [Scheme](https://en.wikipedia.org/wiki/Scheme_(programming_language))
-	* [Forth](https://en.wikipedia.org/wiki/Forth_(programming_language))
-	* [Standard ML](https://en.wikipedia.org/wiki/Standard_ML)
 * Shell:
 	* Interactive: [fish](https://fishshell.com/)
 	* Scripting: [rc](https://en.wikipedia.org/wiki/Rc)
 * Keyboard layout: [Neo 2](https://neo-layout.org/index_en.html)
 
+#### Programming languages:
+
+* [C](https://en.wikipedia.org/wiki/C_%28programming_language%29)
+* [Klong](http://t3x.org/klong/index.html)
+* [Myrddin](https://eigenstate.org/myrddin/)
+* [Lua](https://www.lua.org/)
+* [Scheme](https://en.wikipedia.org/wiki/Scheme_(programming_language))
+* [Forth](https://en.wikipedia.org/wiki/Forth_(programming_language))
+* [Standard ML](https://en.wikipedia.org/wiki/Standard_ML)
+
 ### Criteria
 
 My most important criteria for choosing software are simplicity,
 consistency and durability.
+
+TODO: Links for Simplicity, Consistency, Durability and Unix/Linux
 
 Simplicity here means mostly [simplicity of
 implementation](https://en.wikipedia.org/wiki/Worse_is_better), though
@@ -86,17 +90,8 @@ problems. Nearly all of my computing could be done on a [Raspberry
 Pi](https://en.wikipedia.org/wiki/Raspberry_Pi), or on a generic mildly
 priced new laptop. I like the Raspberry Pi because of its ability to run
 a wide variety of operating systems, but beyond that hardware is rarely
-a bottleneck for me. I do care about keyboards, though.
+a bottleneck for me. I do care about peripherals, though.
 
 ### Keyboard
 
 ### Mouse
-
-Coding Standards
-----------------
-
-### General Project Setup
-
-### C
-
-### Shell Scripting

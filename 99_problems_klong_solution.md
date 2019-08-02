@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-07-31, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-08-02, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -850,7 +850,7 @@ or equal to it.
 and makes a division test using the Each-Right adverb (x Modulo Each-Right every number
 smaller than x). The resulting list of booleans is then searched for a 1 using Min/And:
 
-	s31.5::{:[x=2;1;&/x!:\2_!x]}
+	s31.5::{:[x<2;0:|x=2;1;&/x!:\2_!x]}
 
 `s31.6` is basically the same principle, but the list of values generated to be checked
 is shorter (through omission of even numbers and numbers greater than the square root
@@ -892,7 +892,7 @@ Testing `s31.4` with 100 random values >10K:
 Testing `s31.5` with 100 random values >100K:
 
 		.l("time")
-		s31.5::{:[x=2;1;&/x!:\2_!x]}
+		s31.5::{:[x<2;0:|x=2;1;&/x!:\2_!x]}
 		(+/1_100{x;time({s31.5(100000+_100*.rn())})}\*[])%100
 	0.28281745
 
@@ -955,7 +955,7 @@ corresponding graph:
 	.l("nplot")
 	.l("time")
 
-	s31.5::{:[x=2;1;&/x!:\2_!x]}
+	s31.5::{:[x<2;0:|x=2;1;&/x!:\2_!x]}
 
 	rt::{[a];a::x;time({s31.5(a+_100*.rn())})}'100000+50000*!19
 
@@ -975,7 +975,7 @@ One can now give a good justification for choosing `s31.5` as the prime
 checking implementation (though it hurts a bit to be alot slower than
 `s31.2`, while shaving off a few bits).
 
-	s31::{:[x=2;1;&/x!:\2_!x]}
+	s31::{:[x<2;0:|x=2;1;&/x!:\2_!x]}
 	isprime::s31
 
 Tests:
@@ -984,15 +984,12 @@ Tests:
 	1
 		flr(s31;!100)
 	[2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97]
-		s3r(-1)
-	kg: error: enumerate: domain error: -1
+		s31(-1)
+	0
 		s31(0)
-	[]
+	0
 		s31(1)
-	[]
-
-While it is not perfect to have some odd behavior while being slower,
-this looks acceptable because it is a very short and elegant solution.
+	0
 
 ### P32 (**) Determine the greatest common divisor of two positive integer numbers.
 
@@ -1059,13 +1056,13 @@ slightly longer.
 
 Tests:
 
-		s34(10)
+		totientphi(10)
 	4
-		s34(1)
+		totientphi(1)
 	1
-		s34(0)
+		totientphi(0)
 	0
-		s34'!20
+		totientphi'!20
 	[0 1 1 2 2 4 2 6 4 6 4 10 4 12 6 8 8 16 6 18]
 
 ### P35 (**) Determine the prime factors of a given positive integer.
@@ -1093,24 +1090,25 @@ programming languages?). If this were possible, it would probably shave
 off a couple of bytes from the code.
 
 	s35::{[a];a::x;,/flr({~@x};{[b];b::x;(#{~x!b}{x:%b}\~a):^x}'flr(s31;1+!x))}
+	primefactors::s35
 
 Tests:
 
-		s35(315)
+		primefactors(315)
 	[3 3 5 7]
 		s46'2+!10
 	[[2] [3] [2 2] [5] [2 3] [7] [2 2 2] [3 3] [2 5] [11] [2 2 3] [13] [2 7] [3 5] [2 2 2 2] [17] [2 3 3] [19] [2 2 5] [3 7]]
-		s35(1)
+		primefactors(1)
 	[]
-		s35(0)
+		primefactors(0)
 	kg: error: plus: type error: [1 []]
 
 Unsurprisingly, this algorithm and its implementation is _abysmally_ slow:
 
 		.l("time")
-		time({s35'2+!100})
+		time({primefactors'2+!100})
 	0.37971
-		time({s35(1023)})
+		time({primefactors(1023)})
 	1.095063
 
 TODO:
@@ -1127,10 +1125,11 @@ Solve these two problems, and adopt it!
 Given the implementations of `s10` and `s35`, this is very easy:
 
 	s36::{|'s10(s35(x))}
+	primefactorsmult::s36
 
 Tests:
 
-		s36(315)
+		primefactorsmult(315)
 	[[3 2] [5 1] [7 1]]
 
 ### P37 (**) Calculate Euler's totient function phi(m) (improved).
@@ -1178,7 +1177,7 @@ First, we make a ballpark estimate of how fast the functions are:
 	0.113058
 		s9::{:[x~[];[];(&0,~~:'x):_x]}
 		s10::{{(#x),*x}'s9(x)}
-		s31::{:[x=2;1;&/x!:\2_!x]}
+		s31::{:[x<2;0:|x=2;1;&/x!:\2_!x]}
 		s35::{[a];a::x;,/flr({~@x};{[b];b::x;(#{~x!b}{x:%b}\~a):^x}'flr(s31;1+!x))}
 		s36::{|'s10(s35(x))}
 		s37::{*/{{(x-1)*x^y-1}@x}'s36(x)}
@@ -1198,7 +1197,7 @@ surpassed by `s34` at some point.
 
 	s9::{:[x~[];[];(&0,~~:'x):_x]}
 	s10::{{(#x),*x}'s9(x)}
-	s31::{:[x=2;1;&/x!:\2_!x]}
+	s31::{:[x<2;0:|x=2;1;&/x!:\2_!x]}
 	s35::{[a];a::x;,/flr({~@x};{[b];b::x;(#{~x!b}{x:%b}\~a):^x}'flr(s31;1+!x))}
 	s36::{|'s10(s35(x))}
 	s37::{*/{{(x-1)*x^y-1}@x}'s36(x)}
@@ -1244,22 +1243,124 @@ Tests:
 		s39(0;0)
 	[]
 		s39(-1;0)
-	kg: error: enumerate: domain error: -1
-
-Since we know that `s31` can't deal with negative numbers, this is
-no surprise.
+	[]
 
 ### P40 (**) Goldbach's conjecture.
 
-	b3::{[n];n::x;flr({s31(x@1)};{x,,n-x}'s39(1;x))}
-	s40::{*b3(x)}
+This solution starts out with a list containing 0 and the argument x.
+As long as one number in the list is not a prime (using `s31` over
+the list and aggregating the results using And, then negating them),
+`[1 -1]` is added to the list, causing the first element to increment
+and the second element to decrement in a While loop until a solution
+is found.
+
+This way, if a solution exists, the smallest possible solution is
+always returned.
+
+	s40::{{~&/s31'x}{[1 -1]+x}:~0,x}
+	goldbach::s40
+
+Tests:
+
+		goldbach(4)
+	[2 2]
+		goldbach(5)
+	[2 3]
+		goldbach(28)
+	[5 23]
+		goldbach(12000)
+	[13 11987]
+		goldbach(1)
+	kg: error: interrupted
+		goldbach(0)
+	kg: error: interrupted
+		goldbach(11)
+	kg: error: interrupted
+		goldbach(2)
+	kg: error: interrupted
+
+As one can see, it works quite well for even numbers above 4, and even for
+most odd numbers, but goes into infinite loops for all other arguments.
+This should not be a problem, though.
 
 ### P41 (**) A list of Goldbach compositions.
 
-	b4::{2*1+_x%2}
-	b5::{[l u];l::b4(x);u::b4(y);b3'l+2*!_(u-l)%2}
-	s41a::{*'b5(x;y)}
-	s41b::{[m];m::z;flr({m<*x};s41a(x;y))}
+The idea I followed was to have two helper functions: One that generates
+all even numbers from x to y (called `b1`), and another one responsible
+for the string formatting and printing (called `b2`), accepting the two
+prime summands in a list as an argument.
+
+I wrote several possible implementations for `b1` and chose the shortest
+one (since they are all quite similar and simple, I won't bother
+explaining them in detail):
+
+	b1.1::{flr({~x!2};s22@x,y)}
+	b1.2::{(!y)@&~(x>!y)|(!y)!2}
+	b1.3::{2*s22(_0.6+x%2;y:%2)}
+	b1.4::{s22(x;y)@&~s22(x;y)!2}
+	b1.5::{2*s22@_[0.6 0]+(x,y)%2}
+	b1.6::{[v];v::s22@x,y;v@&~v!2}
+	b1.7::{[v];v::!y;v@&~(v<x)|v!2}
+
+Afterwards, I did the same thing with `b2`:
+
+	b2.1::{.p@($+/x)," = ",{x," + ",y}/$x}
+	b2.2::{.p@($+/x)," = ",{x," + ",y}@$x}
+	b2.3::{.p@($+/x)," = ",($*x)," + ",$*|x}
+
+One can now choose the shortest two options for these functions:
+
+	b1::{flr({~x!2};s22@x,y)}
+	b2::{.p@($+/x)," = ",{x," + ",y}/$x}
+
+Together with `s40`, the problem is now pretty easy to solve. `s41a`
+just applies `s40` to the result of `b1` (which returns the numbers
+that interest us), and `b2` (the formatting) is applied to the results
+afterwards.
+
+	s41a::{'b2's40'b1@x,y}
+	goldbachlist::s41a
+
+In `s41b`, we first filter the output of `s40` by checking whether the
+first element of the list is smaller than the argument z. Afterwards, `b2`
+is applied for formatting. This function is not called `goldbachlist`,
+because the name is later needed for testing and because I don't like
+assuming two different namespace for the two functions.
+
+	s41b::{[l];l::z;b2'flr({l<*x};s40'b1@x,y)}
+
+The tests seem to run through pretty well:
+
+		goldbachlist(9;20)
+	10 = 3 + 7
+	12 = 5 + 7
+	14 = 3 + 11
+	16 = 3 + 13
+	18 = 5 + 13
+	20 = 3 + 17
+	["10 = 3 + 7" "12 = 5 + 7" "14 = 3 + 11" "16 = 3 + 13" "18 = 5 + 13" "20 = 3 + 17"]
+		goldbachlist(4;10)
+	4 = 2 + 2
+	6 = 3 + 3
+	8 = 3 + 5
+	10 = 3 + 7
+	["4 = 2 + 2" "6 = 3 + 3" "8 = 3 + 5" "10 = 3 + 7" "12 = 5 + 7" "14 = 3 + 11" "16 = 3 + 13" "18 = 5 + 13" "20 = 3 + 17"]
+		goldbachlist(2;10)
+	kg: error: interrupted
+
+Again, as one can see, `s40` can't deal with the number 2 and goes into
+an infinite loop.
+
+Now the test is repeated for the `s41b` with the lower bound:
+
+		s41b(4;2000;50)
+	992 = 73 + 919
+	1382 = 61 + 1321
+	1856 = 67 + 1789
+	1928 = 61 + 1867
+	["992 = 73 + 919" "1382 = 61 + 1321" "1856 = 67 + 1789" "1928 = 61 + 1867"]
+
+The results are the same as in the problem statement.
 
 Logic and Codes
 ---------------

@@ -5,7 +5,7 @@ include config.mk
 all: $(IMG)
 
 puttit: $(IMG)
-	mv $(IMG) ../../estimated_life_expectancy
+	mv $(IMG) ../../img/estimated_life_expectancy
 
 .eps.png:
 	convert $< $@
