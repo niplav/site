@@ -24,8 +24,6 @@ Writing
 	* [Equally Many Heads and Tails](./equally_many_heads_and_tails.md)
 	* [Pipe Rings](./pipe_rings.md)
 	* [Two People on a Planet](./two_people_on_a_planet.md)
-* Arguments
-	* [Against Applause](./against_applause.md)
 * Collections
 	* [99 Problems](./99_problems_collection.md)
 	* [Rationalist Gods](./rationalist_gods.md)

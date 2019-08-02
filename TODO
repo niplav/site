@@ -1,7 +1,7 @@
 Site:
 	Use unicode in every formula that doesn't need MathJax
 	Make more mobile-friendly
-	Add tooltips to links (“Title of Text” (Author full name, year)
+	Add tooltips to links (“Title of Text” (Author full name, year))
 
 Texts:
 
@@ -10,29 +10,14 @@ Ends of Discussions
 The End of History Fallacy
 The “If Everyone Just” Fallacy
 Modelling the Dream-Time (Population will probably start growing again)
-
-Incels Political Program
-	Short Term
-		Direct Action: Day Game
-		Increased Incentives for offline social meetings
-		Investment in effective psychological treatment/prevention
-			of depression/anxiety
-	Middle Term
-		More societal acceptance of:
-			* prostitution
-			* sex robots
-			* male celibacy
-		Research into medicine reducing sex drive temporarily
-	Long Term
-		More equal distribution of sexuality as a resource, methods:
-			* Incentives for monogamy
-			* Societal matching based on Gale-Shapley+psychological factors
-		Genetic engineering to:
-			* align male/female sexuality more closely to each other
-			* change male/female birth ratio in favor of males (male/female ratio is smaller)
+Why Still Choose C?
+Coding Standards
+	* General Project Setup
+	* C
+	* Shell Scripting
 
 Information and Markets:
-	problems and possible attempts at solutions
+	Problems and possible attempts at solutions
 
 Arguments
 	Unix is Not About Reimplementing Unix
@@ -52,6 +37,32 @@ Analyses
 	Table Diving
 	Walking Barefoot
 	Sexuality is Bad, but Sex is Good
+	Abstinence from Masturbation and Success from Cold Approach
+		Abstract
+			Motivation, Examples for claim
+			Precommitment (H₀):
+			"There is no statistically significant difference in success from cold approach before and after long term abstinence from masturbation."
+		Method
+			≥90 days of masturbation abstinence,
+			Approach 100 women & 100 men (flipping) with
+			"Hey, I know this is really spontaneous, but
+			I just saw you and thought you were really
+			attractive. Would you like to go on a date
+			with me?"
+			7 days daily masturbation
+			Again, approach 100 women & 100 men (flipping) with
+			"Hey, I know this is really spontaneous, but
+			I just saw you and thought you were really
+			attractive. Would you like to go on a date
+			with me?"
+		Results Analysis
+			Does the hypothesis hold up?
+			Make nice bargraphs & so on
+		Problems
+			Approaching of men/women I find attractive, not objective measure
+			Different perception of attractiveness before&after masturbation
+			Different settings/clothing/weather
+		Conclusion
 
 Collections
 	Simple Unsolved Math Problems
@@ -60,7 +71,9 @@ Collections
 Notes
 	Use Things Up
 
-Mistakes
+Misc
+	Mistakes
+	Open Questions
 
 Music:
 
@@ -92,7 +105,3 @@ Top-level:
 Repo:
 
 Add README.md and LICENSE.
-
-Code:
-
-Add a central makefile for the code.
