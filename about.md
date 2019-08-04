@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-08-01, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2019-08-03, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -90,7 +90,7 @@ The style of writing is mostly formal US english.
 
 * Titles and headers use the [APA style of capitalization](https://blog.apastyle.org/apastyle/2012/03/title-case-and-sentence-case-capitalization-in-apa-style.html)
 * MathJax is used only when necessary
-* The Oxford comma is not used (TODO: find out what exactly that would entail, and check whether this is true or not)
+* The [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma) is not used
 * Code is not syntax-highlighted
 * A passive voice is preferred, but I have to get into the flow of writing, so texts may contain that as well. TODO: get rid of "we"?
 * No footnotes/endnotes (see [entirelyuseless 2015](https://entirelyuseless.com/2015/07/11/are-hyperlinks-a-bad-idea/))

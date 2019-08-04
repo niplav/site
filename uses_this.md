@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-08-01, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2019-08-03, language: english, status: in progress, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
 > recommendations by people who I respect, such as
@@ -52,9 +52,7 @@ Software
 My most important criteria for choosing software are simplicity,
 consistency and durability.
 
-TODO: Links for Simplicity, Consistency, Durability and Unix/Linux
-
-Simplicity here means mostly [simplicity of
+[Simplicity](https://plato.stanford.edu/entries/simplicity/) here means mostly [simplicity of
 implementation](https://en.wikipedia.org/wiki/Worse_is_better), though
 in reality there is very little difference between software with a simple
 design&interface and software that only has a simple implementation. Most
@@ -62,7 +60,8 @@ of the time, simplicity can be roughly approximated in the total number
 of [sloc](https://en.wikipedia.org/wiki/Source_lines_of_code) used to
 implement the software.
 
-Consistency is even more difficult to define and classify than simplicity.
+[Consistency](https://en.wikipedia.org/wiki/Consistency_(user_interfaces)#List_of_the_cognitive_dimensions)
+is even more difficult to define and classify than simplicity.
 Broadly speaking, consistency is dependent on symmetry (every input
 method has a corresponding output method and vice versa, for example)
 and generally a lack of "surprise" when using the software (that is,
@@ -71,15 +70,17 @@ to each other). A good example of inconsistency is found in programming
 languages with a unary `+`, but not a unary `-`, or programs with vastly
 different naming conventions.
 
-Durability, by comparison, is quite easy to explain. It simply describes
-the amount of [bit rot](https://en.wikipedia.org/wiki/Software_rot) that
-occurs in the given software over time. This includes the probability
-that it will be maintained for a long time, and the durability and number
-of its dependencies. A good example for durable software is correct C
-code. It still compiles and runs after decades of neglect, though often
-not without warnings (platform specific C code is of course less durable).
+[Durability](https://en.wikipedia.org/wiki/Durability), by comparison,
+is quite easy to explain. It simply describes the amount of [bit
+rot](https://en.wikipedia.org/wiki/Software_rot) that occurs in the
+given software over time. This includes the probability that it will
+be maintained for a long time, and the durability and number of its
+dependencies. A good example for durable software is correct C code. It
+still compiles and runs after decades of neglect, though often not
+without warnings (platform specific C code is of course less durable).
 
-As a result of this, the programs I use mostly come from the Unix/Linux
+As a result of this, the programs I use mostly come from the
+[Unix](https://en.wikipedia.org/wiki/Unix)/[Linux](https://en.wikipedia.org/wiki/Linux)
 ecosystem.
 
 Hardware
