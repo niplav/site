@@ -17,22 +17,46 @@ Abstract
 --------
 
 Actuarial tables are of great interest to statisticians, gerontologists
-and policymakers.
+and policymakers. In this piece, data about subjective life expectancy
+of urban germans is presented and analyzed using linear regression and
+compared to actuarial tables. Gender and age differences in accuracy of
+assessing ones own life expectancy are also considered.
 
 Data Collection Method
 ----------------------
 
-"Entschuldigung, darf ich Ihnen kurz zwei Fragen stellen?"
-"Wie alt, schätzen Sie, werden sie werden?"
-"Nicht einmal eine grobe Schätzung?"
-"Und wie alt sind Sie?"
-"Vielen Dank, schönen Tag noch."
+192 random people were approached during the day in the streets of a major german city.
+They were asked the following questions (in the presented order):
 
-"Do you speak English?"
-"How old, do you think, will you become?"
-"Just a rough estimate."
-"And how old are you?"
-"Thank you very much, have a nice day."
+1. "Entschuldigung, darf ich Ihnen kurz zwei Fragen stellen?"
+2. "Wie alt, schätzen Sie, werden sie werden?"
+3. "Und wie alt sind Sie?"
+4. "Vielen Dank, schönen Tag noch."
+
+If the respondent was unsure after the second question, they were told:
+"Nur eine grobe Schätzung" to indicate that they weren't expected to make
+a perfect estimate). If at any point the respondent seemed uncomfortable,
+the interrogation was stopped with step 4 directly.
+
+If after the first question the respondent didn't seem able to understand,
+they were asked the following questions (in that order):
+
+1. "Do you speak English?"
+2. "How old, do you think, will you become?"
+3. "And how old are you?"
+4. "Thank you very much, have a nice day."
+
+Similarly, if the respondent seemed unsure after step 2, they were told
+to only give "a rough estimate" of the number.
+
+The perceived gender of the respondent was then noted together with
+their age and estimated age.
+
+Data was collected in the time from May 2019 to August 2019 (TODO:
+Finish, collect at least 1000 data points, then do analysis).
+
+The raw data is available in CSV
+[here](./data/estimated_life_expectancy.csv).
 
 Analysis
 --------
@@ -40,10 +64,16 @@ Analysis
 Problems
 ---------
 
+* Hoped for age, not estimated age
+* Joke answers
+* Interrogator bias (age, gender)
+
 Conclusion
 -----------
 
 See Also
 --------
 
-TODO: Find out whether this has been studied.
+TODO: read:
+
+/usr/local/doc/unread/sle/*

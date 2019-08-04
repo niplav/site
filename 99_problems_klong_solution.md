@@ -1365,15 +1365,23 @@ The results are the same as in the problem statement.
 Logic and Codes
 ---------------
 
+### P46 (**) Truth tables for logical expressions.
+
+The problem statements asks to define the functions `and`, `or`, `nand`,
+`nor`, `xor`, `impl` and `equ`:
+
 	and::{x&y}
 	or::{x|y}
 	nand::{~x&y}
 	nor::{~x|y}
-	xor::{(x|y)&~x&y}
+	xor::{~x=y}
 	impl::{~x&~y}
-	equ::{~xor(x;y)}
+	equ::{x=y}
+
+That was easy.
+
 	c1::{(-x)#(&x),{:[x;.f(x:%2),x!2;0]}:(y)}
-	c2::{[n];n::x;{c1(n;x)}'!2^n}
+	c2::{{c1@x}'x,:\(!2^x)}
 	c3::{[f];f::x;{(,x),,,f(x)}'c2(y)}
 	s46::{c3(x;2)}
 	s47::{s46(x)}

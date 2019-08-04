@@ -3,7 +3,9 @@
 
 *author: niplav, created: 2019-08-03, modified: 2019-08-03, language: english, status: notes, importance: 4, confidence: likely*
 
-> __.__
+> __Members of the NoFap movement often claim that abstinence from
+> masturbation increases male attractiveness. Experimental evidence is
+> collected and shows that .__
 
 Abstinence from Masturbation and Success from Cold Approach
 ===========================================================
@@ -15,8 +17,19 @@ Motivation, Examples for claim
 
 TODO: Find threads on /r/nofap claiming this
 
+* https://old.reddit.com/r/NoFap/comments/bluepi/nofap_really_makes_you_more_attractive/
+* https://old.reddit.com/r/NoFap/comments/bzj8ra/they_smell_it_on_you/
+* https://old.reddit.com/r/NoFap/comments/9treo6/im_sorry_but_no_fap_just_fucking_works/
+* https://old.reddit.com/r/NoFap/comments/3mt0nu/fapping_ruins_your_attractiveness/
+* https://old.reddit.com/r/NoFap/comments/buhcb2/i_am_attractive_now/
+* https://old.reddit.com/r/NoFap/comments/bl2ioe/can_nofap_really_make_you_more_attractive/
+* https://old.reddit.com/r/NoFap/comments/blij7t/i_thought_girls_being_more_attracted_to_you_was_a/
+
 Preregistration (H₀):
 "There is no statistically significant difference in success from cold approach before and and long term abstinence from masturbation."
+
+Existing Literature
+-------------------
 
 Method
 ------

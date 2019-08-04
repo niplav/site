@@ -47,9 +47,9 @@ and::{x&y}
 or::{x|y}
 nand::{~x&y}
 nor::{~x|y}
-xor::{(x|y)&~x&y}
+xor::{~x=y}
 impl::{~x&~y}
-equ::{~xor(x;y)}
+equ::{x=y}
 c1::{(-x)#(&x),{:[x;.f(x:%2),x!2;0]}:(y)}
 c2::{[n];n::x;{c1(n;x)}'!2^n}
 c3::{[f];f::x;{(,x),,,f(x)}'c2(y)}
