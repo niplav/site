@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-07-31, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-05-22, modified: 2019-08-03, language: english, status: in progress, importance: 3, confidence: unlikely*
 
 > __Short texts on different topics.__
 
@@ -140,11 +140,11 @@ to understand the importance humans give to art.
 Silent & Loud Killers
 ---------------------
 
-The idea of a Great Filter (TODO: read
-http://hanson.gmu.edu/greatfilter.html and link it here!) proposes that
-we do not observe aliens because in the development of intelligent life,
-there is one or more obstacles that obliterate the developing societies
-before they can start to colonize their own galaxy.
+The idea of a [Great Filter](https://en.wikipedia.org/wiki/Great_Filter)
+(see also [Hanson 1998](http://mason.gmu.edu/~rhanson/greatfilter.html)
+proposes that we do not observe aliens because in the development of
+intelligent life, there is one or more obstacles that obliterate the
+developing societies before they can start to colonize their own galaxy.
 
 One big question that poses itself is whether humanity is
 before or after such a filter. Some examples of potential

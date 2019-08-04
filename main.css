@@ -25,13 +25,13 @@ blockquote {
 	padding: 0.5em 10px;
 }
 
-.hanchor {
-	color: #222;
-	text-decoration: none;
-}
-
 img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.hanchor {
+	color: #222;
+	text-decoration: none;
 }

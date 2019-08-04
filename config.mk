@@ -22,6 +22,7 @@ HTML=index.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
 	incels_political_program.html \
+	masturbation_and_attractiveness.html \
 	metamodernistisches_manifest.html \
 	pick_up.html \
 	pipe_rings.html \

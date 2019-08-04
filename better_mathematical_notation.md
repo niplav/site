@@ -1,19 +1,15 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-23, modified: 2019-06-12, language: english, status: notes, importance: 4, confidence: log*
+*author: niplav, created: 2019-04-23, modified: 2019-08-03, language: english, status: notes, importance: 4, confidence: log*
 
 > __Mathematical notation is not a planned and systematic endeavour, but
 > the result of a long process of generation and selection of different
 > notations. Here I collect contemporary ideas for better notation, and
-> discuss old&discarded methods of writing mathematics.__
+> discuss old & discarded methods of writing mathematics.__
 
 Better Mathematical Notation
 ============================
-
-TODO: Read:
-
-* /usr/local/doc/unread/notation/notation_as_a_tool_of_thought_iverson_1986.pdf
 
 Discarded Methods
 -----------------
@@ -34,3 +30,10 @@ New Notations
 * https://www.youtube.com/watch?v=sULa9Lc4pck
 * https://math.stackexchange.com/questions/30046/alternative-notation-for-exponents-logs-and-roots
 * http://www.solidangl.es/2015/04/a-radical-new-look-for-logarithms.html
+
+See Also
+--------
+
+TODO: Read:
+
+* /usr/local/doc/unread/notation/notation_as_a_tool_of_thought_iverson_1986.pdf
