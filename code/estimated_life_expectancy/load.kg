@@ -7,6 +7,10 @@ m::1:$'{1_x}'flr({"m"~*x};data)
 f::1:$'{1_x}'flr({"f"~*x};data)
 data::1:$'{1_x}'1_data
 
+m::m@<m
+f::f@<f
+data::data@<data
+
 fm::mu(*+f)
 mm::mu(*+m)
 fem::mu(*|+f)
@@ -14,29 +18,36 @@ mem::mu(*|+m)
 dm::mu(*+data)
 dem::mu(*|+data)
 
-ages::(*+data)@<*+data
-mages::(*+m)@<*+m
-fages::(*+f)@<*+f
-estages::(*|+data)@<*|+data
-mestages::(*|+m)@<*|+m
-festages::(*|+f)@<*|+f
-
-data::data@<data
+ages::*+data
+mages::*+m
+fages::*+f
+estages::*|+data
+mestages::*|+m
+festages::*|+f
 
 grf::=*+f
 abaf::mu'(*|+f)@grf
 rf::(*'(*+f)@grf),'abaf
-rf::rf@<rf
 
 grm::=*+m
 abam::mu'(*|+m)@grm
 rm::(*'(*+m)@grm),'abam
-rm::rm@<rm
 
 gr::=*+data
 aba::mu'(*|+data)@gr
 r::(*'(*+data)@gr),'aba
-r::r@<r
+
+:"yl: years left"
+
+yl::{(*|x)-*x}'data
+fyl::{(*|x)-*x}'f
+myl::{(*|x)-*x}'m
+yl::yl@<yl
+fyl::fyl@<fyl
+myl::myl@<myl
+muyl::mu(yl)
+mufyl::mu(fyl)
+mumyl::mu(myl)
 
 .fc(.ic("../../data/de_at.csv"));known::csv.load()
 

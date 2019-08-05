@@ -13,6 +13,6 @@ fillrgb(0;0;0)
 scplot2(r)
 
 xtitle("age")
-ytitle("average estimated life expectancy (black), average life expectancy (green)")
+ytitle("average subjective life expectancy (black), average life expectancy (green)")
 
 draw()

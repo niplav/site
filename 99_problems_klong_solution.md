@@ -1368,7 +1368,8 @@ Logic and Codes
 ### P46 (**) Truth tables for logical expressions.
 
 The problem statements asks to define the functions `and`, `or`, `nand`,
-`nor`, `xor`, `impl` and `equ`:
+`nor`, `xor`, `impl` and `equ`, which can be done easily with atomic
+operations:
 
 	and::{x&y}
 	or::{x|y}
@@ -1380,13 +1381,37 @@ The problem statements asks to define the functions `and`, `or`, `nand`,
 
 That was easy.
 
+Now, the important question: Should I make the argument function a monad,
+simply taking a list of arguments, or, more closely to the original
+problem statement, make it a dyad? The dyad approach is quite limited
+and will not work on P48 (there are no functions with more than 3 arguments
+in Klong).
+
+Dyad solution:
+
+	c1::{(-x)#(&x),{:[x;.f(x:%2),x!2;0]}:(y)}
+	c2::{{c1@x}'x,:\(!2^x)}
+	s46::{[f];f::x;.p'{x,f@x}'c2(2)}
+
 	c1::{(-x)#(&x),{:[x;.f(x:%2),x!2;0]}:(y)}
 	c2::{{c1@x}'x,:\(!2^x)}
 	c3::{[f];f::x;{(,x),,,f(x)}'c2(y)}
 	s46::{c3(x;2)}
+
+### P47 (*) Truth tables for logical expressions (2).
+
 	s47::{s46(x)}
+
+### P48 (**) Truth tables for logical expressions (3).
+
 	s48::{c3(x;y)}
+
+### P49 (**) Gray code.
+
 	s49::{:[x;{(0,:\x),1,:\|x}:(.f(x-1));,[]]}
+
+### P50 (***) Huffman code.
+
 	c4::{(,((**x)+*x@1),(,*x),,(x@1)),2_x}
 	c5::{:[2=#x;,(,y),x@1;.f(x@1;y,0),.f(x@2;y,1)]}
 	s50::{c5(*{~1=#x}{c4(x@<*'x)}:~x;[])}
