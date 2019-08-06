@@ -17,6 +17,8 @@ Short Term
 * Direct Action: Day Game
 * Increased Incentives for offline social meetings
 * Investment in effective psychological treatment/prevention of depression/anxiety
+* Compensation for involuntary celibacy (monetary, mostly)
+	Problem: incentive for poor people to stay celibate
 
 Medium Term
 -----------
