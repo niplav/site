@@ -157,3 +157,7 @@ f,yes,dnos
 f,no,dnos,365
 f,yes,dnos
 f,no,dnos,250
+m,no,dnos
+f,yes,dnos
+f,no,dnos,∞
+f,no,dnos,365

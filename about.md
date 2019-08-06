@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-08-03, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2019-08-06, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -55,6 +55,9 @@ be new to most readers.
 Generally I use the rule: Let t be the time it would take to write a
 text about the idea I was thinking about. Then the time spent researching
 whether the idea exists already should stop take at most `$\frac{t}{2}$`.
+
+There are, of course, some essays that were written about existing and
+well-known ideas. These were written mainly for my own enjoyment.
 
 #### Translations, Transcriptions & Archives
 
@@ -172,6 +175,8 @@ may be one of the following:
 * "toki pona"
 * "latin"
 
+TODO: links for these languages
+
 #### Confidence
 
 The confidence tags are also taken mainly from [Gwern
@@ -232,7 +237,8 @@ and them compiling them to standard HTML using
 [`markdown_py`](https://pypi.org/project/Markdown/). Mathematical formulae
 are typeset using [MathJax](https://en.wikipedia.org/wiki/MathJax). It
 only uses only minimal CSS (highlighting code and quotes, centering the
-text and limiting line length) and no JavaScript.
+text and limiting line length) and very litte JavaScript. The Javascript
+is used for MathJax and converting headers to anchor links.
 
 ### Influences
 
@@ -255,7 +261,7 @@ epistemology](https://plato.stanford.edu/entries/epistemology-bayesian/),
 [meta-physical
 nominalism](https://plato.stanford.edu/entries/nominalism-metaphysics/),
 [reductionism](https://en.wikipedia.org/wiki/Reductionism) and [scientific
-materialism](https://plato.stanford.edu/entries/naturalism/#MetNat).
+naturalism](https://plato.stanford.edu/entries/naturalism/#MetNat).
 
 My views on ethics are very similar to
 (and influenced by) the idea of [suffering focused
@@ -270,7 +276,9 @@ similar to those of the minimalist unix and [Plan
 
 ### Inspiration
 
-https://guzey.com/personal/why-have-a-blog/
+* https://guzey.com/personal/why-have-a-blog/
+* Lesswrong question: Why are people intellectually active
+* Encouraging more gwern-like sites
 
 The author
 ----------

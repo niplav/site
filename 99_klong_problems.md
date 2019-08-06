@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2019-07-31, language: english, status: in progress, importance: 4, confidence: translation*
+*author: niplav, created: 2019-01-14, modified: 2019-08-06, language: english, status: in progress, importance: 4, confidence: other*
 
 > __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems
@@ -484,8 +484,8 @@ Example:
 
 ### P47 (*) Truth tables for logical expressions (2).
 
-> __Note: This seems syntactically impossible in Klong. Ignore this
-> problem if it is, otherwise contact me with your solution, please.__
+__Note: This seems syntactically impossible in Klong. Ignore this
+problem if it is, otherwise contact me with your solution, please.__
 
 Continue problem P46 by defining `and`, `or`, etc as being operators. This
 allows to write the logical expression in the more natural way, as in the
@@ -502,7 +502,7 @@ Example:
 
 ### P48 (**) Truth tables for logical expressions (3).
 
-> __Note: Same restrictions as in problem P47 apply.__
+__Note: Same restrictions as in problem P47 apply.__
 
 Generalize problem P47 in such a way that the logical expression may
 contain any number of logical variables. Define `table` in a way that
@@ -526,9 +526,9 @@ Example:
 An n-bit Gray code is a sequence of n-bit strings constructed according
 to certain rules. For example,
 
-	n = 1: C(1) = ['0','1'].
-	n = 2: C(2) = ['00','01','11','10'].
-	n = 3: C(3) = ['000','001','011','010','110','111','101','100'].
+	n = 1: C(1) = ['0' '1'].
+	n = 2: C(2) = ['00' '01' '11' '10'].
+	n = 3: C(3) = ['000' '001' '011' '010' '110' '111' '101' '100'].
 
 Find out the construction rules and write a function with the following
 specification:

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-08-02, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-08-06, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -30,7 +30,7 @@ Code
 
 The pure Klong code, without tests, explanations, comments or performance
 tests is available [here](./code/99_klong/sol.kg). It currently
-implements solutions for all problems up to P63, in 2871 bytes.
+implements solutions for all problems up to P63, in 2837 bytes.
 
 Conventions
 -----------
@@ -141,9 +141,9 @@ compare `x` and its reversion that way.
 ### P07 (**) Flatten a nested list structure.
 
 This particularly elegant solution is taken from the Klong
-documentation. It applies the concatenation operator to the sublists of
-a list as long as the list changes with each operation, and then returns
-the list.
+[documentation]((http://t3x.org/klong/klong-ref.txt.html)). It applies
+the concatenation operator to the sublists of a list as long as the list
+changes with each operation, and then returns the list.
 
 	s7::{,/:~x}
 	myflatten::s7
@@ -969,7 +969,9 @@ corresponding graph:
 ![Runtimes of s31.2](./img/99_klong/runtimes31_5.png)
 
 As one can see, both grow approximately linearly, and `s31.5` is around
-twice as slow as `s31.1`, while having the same growth behavior.
+twice as slow as `s31.1`, while having the same growth behavior. I am
+not sure where the spikes in the graph come from, they could be from
+cache layers, or the internal Klong garbage collector.
 
 One can now give a good justification for choosing `s31.5` as the prime
 checking implementation (though it hurts a bit to be alot slower than
@@ -1219,7 +1221,12 @@ surpassed by `s34` at some point.
 
 ![Runtimes of the naive phi function and the prime factor version](./img/99_klong/runtimes38.png)
 
-As one can easily see, this is not the case.
+As one can easily see, this is not the case. This is not surprising,
+since calculating prime factors is generally slow (and even slower here,
+because `s35` does not use any efficient prime sieves, but the simplest
+factoring algorithm). It could be improved runtime-wise by pre-computing
+the prime-numbers using a sieve, but that would take up many bytes and
+exceed the scope of this exercise.
 
 ### P39 (*) A list of prime numbers.
 
@@ -1393,6 +1400,13 @@ Dyad solution:
 	c2::{{c1@x}'x,:\(!2^x)}
 	s46::{[f];f::x;.p'{x,f@x}'c2(2)}
 
+Solution with `c2` inlined:
+
+	c1::{(-x)#(&x),{:[x;.f(x:%2),x!2;0]}:(y)}
+	s46::{[f];f::x;.p'{x,f@x}'c1(2;)'!4}
+
+Old solution:
+
 	c1::{(-x)#(&x),{:[x;.f(x:%2),x!2;0]}:(y)}
 	c2::{{c1@x}'x,:\(!2^x)}
 	c3::{[f];f::x;{(,x),,,f(x)}'c2(y)}
@@ -1408,7 +1422,38 @@ Dyad solution:
 
 ### P49 (**) Gray code.
 
+The Gray code can be generated as following: The 0-bit Gray code is
+the empty list `[]`, the 1-bit Gray code is simply `['0' '1']`. The
+n+1-bit Gray code is the n-bit Gray code where 0 is prepended to every
+sequence, concatenated with the n-bit Gray code where 1 is prepended
+to every sequence of the reversed n-bit Gray code. In the case of n=2,
+this would be `['00' '01'],['11' '10']`.
+
+This recursive definition can now be put into code quite easily: If x=0,
+return the empty list, otherwise return the x-1 Gray code prepended with
+first 0 and then 1 to the reversed x-1 code.
+
 	s49::{:[x;{(0,:\x),1,:\|x}:(.f(x-1));,[]]}
+
+One can see that this works for the usual cases:
+
+		s49(0)
+	[[]]
+		s49(1)
+	[[0] [1]]
+		s49(2)
+	[[0 0] [0 1] [1 1] [1 0]
+		s49(10)
+	[… [1 0 0 0 0 0 0 0 1 0] [1 0 0 0 0 0 0 0 1 1] [1 0 0 0 0 0 0 0 0 1] [1 0 0 0 0 0 0 0 0 0]]
+
+However, one runs into problems with negative numbers, since `s49`
+attempts infinite recursion:
+
+		s49(-1)
+	kg: error: interrupted
+
+This is to be expected, since negative-bit Gray codes do not make
+any sense.
 
 ### P50 (***) Huffman code.
 

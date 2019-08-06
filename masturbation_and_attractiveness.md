@@ -36,12 +36,13 @@ Existing Literature
 Method
 ------
 
-≥90 days of masturbation abstinence,
-Approach 100 women & 100 men (alternating) with
-"Hey, I know this is really spontaneous, but I just saw you and thought
-you were really attractive. Would you like to go on a date with me?"
-7 days daily masturbation
-Repeat
+Streets in center of a major german city.  
+≥90 days of masturbation abstinence,  
+Approach 100 women & 100 men (alternating) with  
+"Hey, I know this is really spontaneous, but I just saw you and thought  
+you were really attractive. Would you like to go on a date with me?"  
+7 days daily masturbation  
+Repeat  
 
 Results Analysis
 -----------------

@@ -25,6 +25,10 @@ estages::*|+data
 mestages::*|+m
 festages::*|+f
 
+ages::ages@<ages
+mestages::mestages@<mestages
+festages::festages@<festages
+
 grf::=*+f
 abaf::mu'(*|+f)@grf
 rf::(*'(*+f)@grf),'abaf
