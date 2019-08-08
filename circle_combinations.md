@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-06-21, modified: 2019-07-13, language: english, status: notes, importance: 4, confidence: highly likely*
+*author: niplav, created: 2019-06-21, modified: 2019-08-07, language: english, status: notes, importance: 4, confidence: highly likely*
 
 > __It is currently unknown how many ways exist to [arrange
 > n circles](https://www.youtube.com/watch?v=bRIL9kMJJSc) in
@@ -164,7 +164,7 @@ have the same characteristic description).
 
 ![Circle Combination 3_14](img/circle_combinations/3_14.png)
 
-TODO: Remove line in lower left corner
+<!--TODO: Remove line in lower left corner-->
 
 * Unintersected lines: 12
 * Line intersections: 6

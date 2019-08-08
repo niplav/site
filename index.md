@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png)
 
-*author: niplav, created: 2019-03-20, modified: 2019-07-24, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2019-08-07, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -27,6 +27,8 @@ Writing
 * Collections
 	* [99 Problems](./99_problems_collection.md)
 	* [Rationalist Gods](./rationalist_gods.md)
+* Analyses
+	* [Personal Estimates of Life Expectancy](./estimated_life_expectancy.md)
 * Other
 	* [K-99: Ninety-Nine Klong Problems](./99_klong_problems.md)
 

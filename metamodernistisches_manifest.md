@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: Luke Turner, created: 2011-01-01, translator: niplav, translated: 2019-01-05, modified: 2019-06-28, language: german, status: in progress, importance: 3, confidence: translation*
+*author: Luke Turner, created: 2011-01-01, translator: niplav, translated: 2019-01-05, modified: 2019-08-07, language: german, status: in progress, importance: 3, confidence: translation*
 
 > __Translation of the [*Metamodernist // Manifesto*](http://www.metamodernism.org/)
 > by [Luke Turner](http://luketurner.com/) into German.__
@@ -9,7 +9,9 @@
 Metamodernistisches // Manifest
 ===============================
 
+<!--
 TODO: Die Pronomen im letzten Satz von Paragraph 6 sind unklar. Besser formulieren!
+-->
 
 1. Wir erkennen Oszillation als die natürliche Ordnung der Welt an.
 

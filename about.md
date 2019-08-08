@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-08-06, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2019-08-07, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -21,9 +21,7 @@ Content](https://www.gwern.net/About#long-content): pages that are
 continually getting refined and updated, never quite completely finished,
 but approaching stability. This allows for "perpetual drafts", along
 with continuous improvement (similar to a wiki, but mainly edited by one
-person). Because of this, TODOs are left in the text, making it easier
-for me to find them and edit them out, though they may leave the reader
-with an unsatisfying feeling of incompleteness.
+person).
 
 This is inspired by the idea of Long Content, produced under the motto
 
@@ -95,7 +93,7 @@ The style of writing is mostly formal US english.
 * MathJax is used only when necessary
 * The [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma) is not used
 * Code is not syntax-highlighted
-* A passive voice is preferred, but I have to get into the flow of writing, so texts may contain that as well. TODO: get rid of "we"?
+* A passive voice is preferred, but I have to get into the flow of writing, so texts may contain that as well.
 * No footnotes/endnotes (see [entirelyuseless 2015](https://entirelyuseless.com/2015/07/11/are-hyperlinks-a-bad-idea/))
 * Quotes have the following style: `*– [Author Name](https://en.wikipedia.org/wiki/Author_Name), [“Chapter” in “Work Name”](https://work-name.com) p.1, Year*`. If the work is not online, link the Wikipedia page.
 * For pages, optimal is to give the page number of the quotation in the linked PDF. If it is not available, the page number written at the bottom of the page is used.
@@ -175,7 +173,7 @@ may be one of the following:
 * "toki pona"
 * "latin"
 
-TODO: links for these languages
+<!--TODO: links for these languages-->
 
 #### Confidence
 
@@ -276,9 +274,45 @@ similar to those of the minimalist unix and [Plan
 
 ### Inspiration
 
-* https://guzey.com/personal/why-have-a-blog/
-* Lesswrong question: Why are people intellectually active
-* Encouraging more gwern-like sites
+I always had a few ideas I thought were worth preserving, and a lot
+of ideas I thought would be fun writing down, and also thought about
+creating a repository for all my personal projects, but somehow these
+never really pushed me completely toward actually setting something
+up. A good reason might have been that I only visited sites that were
+poorly organised and contained little to no personal long-term content
+(either blogs focussed <!--TODO: is it focused or focussed?--> on new
+posts or simply haphazard aggregations of short ideas (like in the form of
+[2f30.org](https://2030.org) <!--TODO: check link!--> or the suckless.org
+wiki.<!--TODO: link-->
+
+This was changed upon discovering [gwern.net](https://www.gwern.net)
+and [reducing-suffering.org](https://reducing-suffering.org): both gave
+me a good idea of how a long-term website should look and feel like,
+and which kind of content could be published there.
+
+I decided to start writing down my ideas, collecting older texts and
+reviewing them to see what was still valuable and what was useless.
+
+My decision to solidified by [guzey
+2018](https://guzey.com/personal/why-have-a-blog/)
+<!--TODO: check year--> and a question on
+[/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/comments/ab3ry1/whats_the_bottleneck_to_more_things_like_slate/):
+
+> What's the bottleneck to more things like "Slate Star Codex" or Gwern's site existing in the world?
+
+*– [arikir](https://old.reddit.com/user/arikr), [“What's the bottleneck to more things like "Slate Star Codex" or Gwern's site existing in the world?”](https://old.reddit.com/r/slatestarcodex/comments/ab3ry1/whats_the_bottleneck_to_more_things_like_slate/) on [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/), 2019*
+
+<!--TODO: Lesswrong question: Why are people intellectually active-->
+
+I decided that it could not hurt to try and follow through on the idea
+of aggregating the stuff I produced, and a possible (but unlikely)
+benefit to other people was just a nice addition.
+
+So far, writing for a website has been beneficial to interacting with
+several topics: It streamslines my thoughts, makes it possible to take
+notes, include code and images and several other advantages. Even if
+I had never gotten around to publishing this site, it would still have
+been a net positive project for me.
 
 The author
 ----------

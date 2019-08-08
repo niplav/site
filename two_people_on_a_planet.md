@@ -1,7 +1,7 @@
 [home](./index.md)
 -----------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-07-27, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2019-04-02, modified: 2019-08-07, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __Two people are abducted and placed on the opposite poles of a
 > habitable planet. They want to find each other, but they have no
@@ -94,6 +94,8 @@ the opposite sides of the planet (which makes a solution a lot harder).
 
 *– [MvG](https://math.stackexchange.com/users/35416/mvg), answer to [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/a/1214062), 2015*
 
+This solution does not need any prerequisites.
+
 #### Exhaustive Search, Moving in Spirals
 
 > So the first thing to do is to calculate the size of the sphere (by
@@ -111,7 +113,9 @@ the opposite sides of the planet (which makes a solution a lot harder).
 *– [Danikov](https://math.stackexchange.com/users/221242/danikov), answer to [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/a/1214323), 2015*
 
 This is similar to the strategy of randomly switching positions, but
-without opposite starting positions.
+without opposite starting positions. It assumes one can adequately
+calculate the circumference of the sphere, which is not a given, and it
+assumes that the person can generate random bits.
 
 #### Randomizing Speed While Keeping Direction
 
@@ -136,6 +140,17 @@ without opposite starting positions.
 
 *– [Qwertronix](https://math.stackexchange.com/users/54545/qwertronix), answer to [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/a/1214322), 2015*
 
+This solution is similar to most practical solutions to these
+kinds of problems. It assumes that there *is* a most interesting star
+configuration, the size of such a configuration, and a given metric on how
+to determine the interesting-ness of such a configuration.  The metric is
+the least difficult of them: given a size of the region of sky, the most
+interesting such region would be the one that is the most compressible
+(or most regular). The size aspect of this possible configuration is
+much more difficult: Where does such a configuration end? One possible
+answer is: "At the horizon.", then the Schelling point <!--(TODO: Wikipedia)-->
+would be the point where the whole sky is most interesting.
+
 ### Randomly Switching Positions
 
 Another solution is possible due to the fact that both people start out
@@ -151,7 +166,7 @@ One could assign the choice of staying to the left body half and the
 choice of going to the other side of the planet to the right body
 half, and then choosing the strategy based on which part of the body
 itches first. This would be useful since humans are notoriously bad at
-generating random bits (TODO: put a citation here).
+generating random bits<!--(TODO: put a citation here)-->.
 
 On the other hand, this method could be biased, since many humans have
 points on their skin that are constantly itchy.
@@ -266,6 +281,15 @@ Complications
 
 There are, of course, several problems with this approach.
 
+### Assumptions
+
+This strategy assumes several things:
+
+* The two people start at opposite points on the planet
+* The two people know where the equator is
+* Both can make at least one marking
+* Both follow the same strategy
+
 ### The Strategy is not Obvious
 
 This objection of course applies to all possible strategies,
@@ -320,6 +344,7 @@ Further Questions
 External Links
 --------------
 
+<!--
 TODO: read.
 
 * /usr/local/doc/unread/rendezvous/deterministic_rendez_vous_ta_shma_zwick_2007.pdf
@@ -332,3 +357,4 @@ TODO: read.
 * https://mathoverflow.net/questions/184404/randall-munroes-lost-immortals
 * [Rendezvous problem](https://en.wikipedia.org/wiki/Rendezvous_problem)
 * [Deterministic rendezvous problem](https://en.wikipedia.org/wiki/Deterministic_rendezvous_problem)
+-->

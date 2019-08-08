@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-08-06, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-08-07, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -164,7 +164,7 @@ Unfortunately, this solution fails with lists containing only one element:
 		myflatten([0])
 	0
 
-TODO: Find a solution that doesn't do this.
+<!--TODO: Find a solution that doesn't do this.-->
 
 ### P08 (**) Eliminate consecutive duplicates of list elements.
 
@@ -251,7 +251,7 @@ This works fine. However, `encodemodified` shows weird behavior with lists with 
 		encodemodified([1])
 	[1]
 
-TODO: Fix this.
+<!--TODO: Fix this.-->
 
 It works fine with `[]`, though:
 
@@ -310,7 +310,7 @@ the indirect solution:
 As one can see, the more complex solution `s13` is much slower than the
 more idiomatic `s11`.
 
-TODO: Explore further why `s13` is so much slower.
+<!--TODO: Explore further why `s13` is so much slower.-->
 
 ### P14 (*) Duplicate the elements of a list.
 
@@ -391,7 +391,7 @@ So our solution fails for empty lists. We could modify it to
 include a simple conditional statement to return the empty list
 if `x` is `[]`: `s16::{:[x~[];[];x@&(y-1)>(!#x)!y]}`.
 
-TODO: Think about including this into the full text.
+<!--TODO: Think about including this into the full text.-->
 
 ### P17: (*) Split a list into two parts, the length of the first part is given.
 
@@ -1113,6 +1113,7 @@ Unsurprisingly, this algorithm and its implementation is _abysmally_ slow:
 		time({primefactors(1023)})
 	1.095063
 
+<!--
 TODO:
 [Here](https://github.com/kevinlawler/kona/wiki/K-99%3A-Ninety-Nine-K-Problems#problem-30-202)
 is a better solution for factoring (it is shorter etc.), but
@@ -1121,6 +1122,7 @@ is a better solution for factoring (it is shorter etc.), but
 2. It is written in K.
 
 Solve these two problems, and adopt it!
+-->
 
 ### P36 (**) Determine the prime factors of a given positive integer (2).
 
@@ -1388,6 +1390,10 @@ operations:
 
 That was easy.
 
+<!--
+TODO: Decide on what to do with P47/P48, then implement the correct and good solution.
+-->
+
 Now, the important question: Should I make the argument function a monad,
 simply taking a list of arguments, or, more closely to the original
 problem statement, make it a dyad? The dyad approach is quite limited
@@ -1462,6 +1468,7 @@ any sense.
 	s50::{c5(*{~1=#x}{c4(x@<*'x)}:~x;[])}
 	frq::{[t];t::x;{(#x),t@*x}'=x@<x}
 
+<!--
 Binary Trees
 ------------
 
@@ -1517,3 +1524,4 @@ Graphs
 
 Miscellaneous Problems
 ----------------------
+-->

@@ -53,9 +53,17 @@ muyl::mu(yl)
 mufyl::mu(fyl)
 mumyl::mu(myl)
 
-.fc(.ic("../../data/de_at.csv"));known::csv.load()
+.fc(.ic("../../data/de_actuarial_tables.csv"));known::csv.load()
 
 known::{(1:$*x),(1.0:$x@1),(1.0:$x@2)}'1_known
 mk::{x@[0 1]}'known
 fk::{x@[0 2]}'known
 kr::{(*x),((x@1)+x@2)%2}'known
+
+:"aba[mf]: average estimates for given ages"
+:"cor[mf]: accuracy males/females, correlation between average male/female"
+:"estimate and actuarial values, cord the same for all of the data"
+
+corm::cor(abam;*|+mk@*'(*+m)@grm)
+corf::cor(abaf;*|+fk@*'(*+f)@grf)
+cord::cor(aba;*|+kr@*'(*+data)@gr)
