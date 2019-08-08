@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-07-16, language: english, status: draft, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-04-11, modified: 2019-08-07, language: english, status: draft, importance: 4, confidence: unlikely*
 
 > __In western cultures, it is nearly universal for people to clap
 > before and after pieces in classical music and jazz. An argument
@@ -59,10 +59,16 @@ and distraction before and after music.
 
 ### Preventing Incorrect Clapping
 
+The exact fitting moments of applause are a difficult topic in classical
+music and the source of many faux-pas<!--TODO: correct plural?-->,
+abolishing applause would remove these mistakes, but also prevent the
+ability to express class by knowing where to clap (and the possibility
+to keep out ignorant philistines).
+
 Counterarguments
 ----------------
 
-### Applause Does fit Because of Cultural History
+### Applause Does Fit Because of Cultural History
 
 ### Applause is a Useful Appreciation Signal
 
@@ -78,6 +84,10 @@ Other Approaches
 
 ### Possible new Forms of Appreciation
 
+See Also
+--------
+
+<!--
 TODO: research this topic a lot more:
 
 * Find out how culturally universal clapping/audible appreciation of performance is
@@ -86,16 +96,6 @@ TODO: research this topic a lot more:
 * Read the Wikipedia articles about applause/clapping, and perhaps improve them
 * Similar criticisms?
 * Differences of type and scope of applause in different forms of music.
-
-Tangents:
-
-The exact fitting moments of applause are a difficult topic in classical
-music and the source of many faux-pas, abolishing applause would remove
-these mistakes, but also prevent the ability to express class by knowing
-where to clap (and the possibility to keep out ignorant philistines).
-
-See Also
---------
 
 * https://en.wikipedia.org/wiki/Applause
 * https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Applause
@@ -110,3 +110,4 @@ See Also
 * https://www.cpr.org/2014/06/09/the-clapping-question-should-classical-audiences-applaud-between-movements/
 * https://cjeller.wordpress.com/2015/08/09/against-applause/
 * https://affirmativeright.blogspot.com/2015/03/against-applause-cultivating-aesthetic.html
+-->

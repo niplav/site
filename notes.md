@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-08-03, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-05-22, modified: 2019-08-07, language: english, status: in progress, importance: 3, confidence: unlikely*
 
 > __Short texts on different topics.__
 
@@ -37,7 +37,7 @@ outline, open the link and recursively apply the same procedure to the
 outline. If an article is opened a second time, it can be discarded. Lists
 can also be ignored.
 
-This method results in a corpus of considerable size. (TODO: how much text?)
+This method results in a corpus of considerable size.<!--(TODO: how much text?)-->
 
 Approach Anxiety
 ----------------

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2019-08-06, language: english, status: in progress, importance: 4, confidence: other*
+*author: niplav, created: 2019-01-14, modified: 2019-08-07, language: english, status: in progress, importance: 4, confidence: other*
 
 > __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems
@@ -573,8 +573,8 @@ Other examples are a binary tree that consists of a root node only:
 `[a [] []]` or an empty binary tree: `[]`.
 
 You can check your functions using these example trees. They are given
-as test cases in p54.kg. TODO: Add p54.kg! See how these are done in
-the originals.
+as test cases in p54.kg. <!--TODO: Add p54.kg! See how these are done in
+the originals.-->
 
 ### P54A (*) Check whether a given term represents a binary tree.
 

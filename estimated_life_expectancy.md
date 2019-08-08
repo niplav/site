@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-10, modified: 2019-08-05, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-10, modified: 2019-08-07, language: english, status: draft, importance: 2, confidence: log*
 
 > __A while ago, I became interested in personal estimations
 > of life expectancy. I wanted to know how accurate people are
@@ -22,8 +22,8 @@ of urban germans is presented, analyzed using linear regression and
 compared to actuarial tables. Gender and age differences in accuracy of
 assessing ones own life expectancy are also considered.
 
-Note
-----
+Terminology
+-----------
 
 This text uses the terms "subjective life expectancy" and "estimated
 life expectancy" interchangeably.
@@ -59,8 +59,8 @@ to only give "a rough estimate" of the number.
 The perceived gender of the respondent was then noted together with
 their age and estimated age.
 
-Data was collected in the time from February 2019 to August 2019 (TODO:
-Finish, collect at least 1000 data points, then do analysis).
+Data was collected in the time from February 2019 to August 2019<!--(TODO:
+Finish, collect at least 1000 data points, then do analysis)-->.
 
 The raw data is available in CSV
 [here](./data/estimated_life_expectancy.csv).
@@ -68,7 +68,7 @@ The raw data is available in CSV
 Analysis
 --------
 
-TODO: Add p-values!
+<!--TODO: Add p-values!-->
 
 Code to load the data from the CSV file:
 
@@ -282,6 +282,26 @@ visible, and the difference between the linear regressions is also visible.
 
 ### Comparison With Actuarial Tables
 
+One can also compare the data collected to existing actuarial tables,
+and determine if there is a systematic deviation between subjective life
+expectancy and the values given by actuarial tables.
+
+For this, one can calculate averages for a given age, both separately
+for genders and for the whole data set:
+
+		grf::=*+f
+		abaf::mu'(*|+f)@grf
+		:"female averages, by age"
+		rf::(*'(*+f)@grf),'abaf
+		grm::=*+m
+		abam::mu'(*|+m)@grm
+		"male averages, by age"
+		rm::(*'(*+m)@grm),'abam
+		gr::=*+data
+		aba::mu'(*|+data)@gr
+		"averages, by age"
+		r::(*'(*+data)@gr),'aba
+
 Problems
 ---------
 
@@ -295,6 +315,8 @@ Conclusion
 See Also
 --------
 
+<!--
 TODO: read:
 
 /usr/local/doc/unread/sle/*
+-->

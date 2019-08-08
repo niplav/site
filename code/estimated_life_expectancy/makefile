@@ -9,7 +9,6 @@ puttit: $(IMG)
 
 .eps.png:
 	convert $< $@
-	convert -chop 12x192 $@ $@
 
 .kg.eps:
 	kg -l ./$< -e '.x(0)' >$@

@@ -12,7 +12,6 @@ scplot2(fk)
 fillrgb(1;0;0)
 scplot2(rf)
 
-
 xtitle("age")
 ytitle("female: average estimated life expectancy (red), average life expectancy (black)")
 
