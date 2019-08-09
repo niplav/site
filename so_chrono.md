@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-07-13, modified: 2019-07-31, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-13, modified: 2019-08-08, language: english, status: in progress, importance: 5, confidence: log*
 
 > __The blog [Shtetl Optimized](https://www.scottaaronson.com/blog/) is
 > written by [Scott Aaronson](https://en.wikipedia.org/wiki/Scott_Aaronson),
@@ -15,7 +15,7 @@ Shtetl Optimized Posts Chronological Index
 Archives
 --------
 
-This index currently lists 724 posts from 2005-10-03 to 2019-07-03.
+This index currently lists 727 posts from 2005-10-03 to 2019-07-03.
 
 ### 2005
 
@@ -70,7 +70,7 @@ This index currently lists 724 posts from 2005-10-03 to 2019-07-03.
 * [By popular demand](https://www.scottaaronson.com/blog/?p=49) (Scott Aaronson, Monday, January 23rd, 2006)
 * [Oops, we did it again](https://www.scottaaronson.com/blog/?p=50) (Scott Aaronson, Thursday, January 26th, 2006)
 * [Hooray for democracy!](https://www.scottaaronson.com/blog/?p=51) (Scott Aaronson, Friday, January 27th, 2006)
-* [Hark! From the Fortress of STOC](https://www.scottaaronson.com/blog/?p=52) (Scott Aaronson, Tuesday, January 31st, 2006)
+* [Hark!  From the Fortress of STOC](https://www.scottaaronson.com/blog/?p=52) (Scott Aaronson, Tuesday, January 31st, 2006)
 * [Compressed squeals](https://www.scottaaronson.com/blog/?p=53) (Scott Aaronson, Saturday, February 4th, 2006)
 * [The Cringeometer](https://www.scottaaronson.com/blog/?p=54) (Scott Aaronson, Monday, February 6th, 2006)
 * [A Euclidean theater of misery](https://www.scottaaronson.com/blog/?p=55) (Scott Aaronson, Monday, February 13th, 2006)
@@ -158,7 +158,7 @@ This index currently lists 724 posts from 2005-10-03 to 2019-07-03.
 * [Quantum Computing Since Democritus Lecture 4: Minds and Machines](https://www.scottaaronson.com/blog/?p=138) (Scott Aaronson, Tuesday, October 3rd, 2006)
 * [The Quantum PCP Manifesto](https://www.scottaaronson.com/blog/?p=139) (Scott Aaronson, Friday, October 6th, 2006)
 * [Still fiddling on the roof](https://www.scottaaronson.com/blog/?p=140) (Scott Aaronson, Friday, October 6th, 2006)
-* [Ja! Ein klein Wienerschnitzel Entscheidungsproblem](https://www.scottaaronson.com/blog/?p=141) (Scott Aaronson, Monday, October 9th, 2006)
+* [Ja!  Ein klein Wienerschnitzel Entscheidungsproblem](https://www.scottaaronson.com/blog/?p=141) (Scott Aaronson, Monday, October 9th, 2006)
 * [Why complexity is better than cannabis](https://www.scottaaronson.com/blog/?p=142) (Scott Aaronson, Monday, October 9th, 2006)
 * [Setting The Record straight](https://www.scottaaronson.com/blog/?p=143) (Scott Aaronson, Monday, October 16th, 2006)
 * [Reigniting flame wars is my solemn responsibility](https://www.scottaaronson.com/blog/?p=144) (Scott Aaronson, Tuesday, October 17th, 2006)
@@ -176,7 +176,7 @@ This index currently lists 724 posts from 2005-10-03 to 2019-07-03.
 * [Woohoo!](https://www.scottaaronson.com/blog/?p=156) (Scott Aaronson, Thursday, November 9th, 2006)
 * [Public Relations 101](https://www.scottaaronson.com/blog/?p=157) (Scott Aaronson, Sunday, November 12th, 2006)
 * [Handle with care](https://www.scottaaronson.com/blog/?p=158) (Scott Aaronson, Sunday, November 12th, 2006)
-* [Shtetl-Optimized is dead. Long live Shtetl-Optimized!](https://www.scottaaronson.com/blog/?p=160) (Scott Aaronson, Friday, November 24th, 2006)
+* [Shtetl-Optimized is dead.  Long live Shtetl-Optimized!](https://www.scottaaronson.com/blog/?p=160) (Scott Aaronson, Friday, November 24th, 2006)
 * [Quantum Computing Since Democritus Lecture 7: Randomness](https://www.scottaaronson.com/blog/?p=177) (Scott Aaronson, Monday, December 4th, 2006)
 * [What American accent do you have?](https://www.scottaaronson.com/blog/?p=178) (Scott Aaronson, Tuesday, December 5th, 2006)
 * [Announcing the Shtetl-Optimized Math Journalism Award!](https://www.scottaaronson.com/blog/?p=179) (Scott Aaronson, Friday, December 8th, 2006)
@@ -478,9 +478,9 @@ This index currently lists 724 posts from 2005-10-03 to 2019-07-03.
 * [Blogu Picchu](https://www.scottaaronson.com/blog/?p=978) (Scott Aaronson, Saturday, April 14th, 2012)
 * [U. of Florida CS department: let it be destroyed by rising sea levels 100 years from now, not reckless administrators today](https://www.scottaaronson.com/blog/?p=981) (Scott Aaronson, Monday, April 23rd, 2012)
 * [Bell’s-inequality-denialist Joy Christian offers me $200K if scalable quantum computers are built](https://www.scottaaronson.com/blog/?p=993) (Scott Aaronson, Wednesday, May 2nd, 2012)
-* [Waterman behind the scenes! Partying hard with the National Science Board](https://www.scottaaronson.com/blog/?p=1005) (Scott Aaronson, Wednesday, May 9th, 2012)
+* [Waterman behind the scenes!  Partying hard with the National Science Board](https://www.scottaaronson.com/blog/?p=1005) (Scott Aaronson, Wednesday, May 9th, 2012)
 * [I was wrong about Joy Christian](https://www.scottaaronson.com/blog/?p=1028) (Scott Aaronson, Thursday, May 10th, 2012)
-* [Enough with Bell’s Theorem. New topic: Psychopathic killer robots!](https://www.scottaaronson.com/blog/?p=1052) (Scott Aaronson, Friday, May 25th, 2012)
+* [Enough with Bell’s Theorem.  New topic: Psychopathic killer robots!](https://www.scottaaronson.com/blog/?p=1052) (Scott Aaronson, Friday, May 25th, 2012)
 * [Mihai Pătraşcu (1982-2012)](https://www.scottaaronson.com/blog/?p=1059) (Scott Aaronson, Thursday, June 7th, 2012)
 * [Two announcements](https://www.scottaaronson.com/blog/?p=1064) (Scott Aaronson, Monday, June 18th, 2012)
 * [Scott in Scotland](https://www.scottaaronson.com/blog/?p=1075) (Scott Aaronson, Thursday, July 12th, 2012)
@@ -501,7 +501,7 @@ This index currently lists 724 posts from 2005-10-03 to 2019-07-03.
 
 ### 2013
 
-* [Happy New Year! My response to M. I. Dyakonov](https://www.scottaaronson.com/blog/?p=1211) (Scott Aaronson, Wednesday, January 2nd, 2013)
+* [Happy New Year!  My response to M. I. Dyakonov](https://www.scottaaronson.com/blog/?p=1211) (Scott Aaronson, Wednesday, January 2nd, 2013)
 * [Zork’s bloogorithm](https://www.scottaaronson.com/blog/?p=1224) (Scott Aaronson, Wednesday, January 9th, 2013)
 * [Aaron Swartz (1986-2013)](https://www.scottaaronson.com/blog/?p=1230) (Scott Aaronson, Sunday, January 13th, 2013)
 * [Statement on Aaron Swartz](https://www.scottaaronson.com/blog/?p=1234) (Scott Aaronson, Monday, January 14th, 2013)
@@ -520,10 +520,10 @@ This index currently lists 724 posts from 2005-10-03 to 2019-07-03.
 * [My fortune-cookie wisdom for the day](https://www.scottaaronson.com/blog/?p=1328) (Scott Aaronson, Thursday, April 18th, 2013)
 * [I was right: Congress’s attack on the NSF widens](https://www.scottaaronson.com/blog/?p=1340) (Scott Aaronson, Thursday, April 25th, 2013)
 * [Superiority of the Latke: The Unexpected Convergence of Quantum Mechanics and Common Sense](https://www.scottaaronson.com/blog/?p=1345) (Scott Aaronson, Friday, April 26th, 2013)
-* [Quantum Computing Since Democritus now out in the US! 20% discount for Shtetl-Optimized readers](https://www.scottaaronson.com/blog/?p=1350) (Scott Aaronson, Saturday, April 27th, 2013)
+* [Quantum Computing Since Democritus now out in the US!  20% discount for Shtetl-Optimized readers](https://www.scottaaronson.com/blog/?p=1350) (Scott Aaronson, Saturday, April 27th, 2013)
 * [“Closer to Truth”](https://www.scottaaronson.com/blog/?p=1359) (Scott Aaronson, Wednesday, May 1st, 2013)
 * [The Tenured Toll-Taker](https://www.scottaaronson.com/blog/?p=1366) (Scott Aaronson, Sunday, May 5th, 2013)
-* [Ask Me Anything! Tenure Edition](https://www.scottaaronson.com/blog/?p=1385) (Scott Aaronson, Monday, May 6th, 2013)
+* [Ask Me Anything!  Tenure Edition](https://www.scottaaronson.com/blog/?p=1385) (Scott Aaronson, Monday, May 6th, 2013)
 * [D-Wave: Truth finally starts to emerge](https://www.scottaaronson.com/blog/?p=1400) (Scott Aaronson, Thursday, May 16th, 2013)
 * [The tightrope of truth and courtesy](https://www.scottaaronson.com/blog/?p=1446) (Scott Aaronson, Thursday, June 6th, 2013)
 * [The Ghost in the Quantum Turing Machine](https://www.scottaaronson.com/blog/?p=1438) (Scott Aaronson, Saturday, June 15th, 2013)
@@ -541,13 +541,13 @@ This index currently lists 724 posts from 2005-10-03 to 2019-07-03.
 * [Twenty Reasons to Believe Oswald Acted Alone](https://www.scottaaronson.com/blog/?p=1596) (Scott Aaronson, Monday, December 2nd, 2013)
 * [23, Me, and the Right to Misinterpret Probabilities](https://www.scottaaronson.com/blog/?p=1615) (Scott Aaronson, Wednesday, December 11th, 2013)
 * [Luke Muehlhauser interviews me about philosophical progress](https://www.scottaaronson.com/blog/?p=1622) (Scott Aaronson, Saturday, December 14th, 2013)
-* [Merry Christmas! My quantum computing research explained, using only the 1000 most common English words](https://www.scottaaronson.com/blog/?p=1628) (Scott Aaronson, Tuesday, December 24th, 2013)
+* [Merry Christmas!  My quantum computing research explained, using only the 1000 most common English words](https://www.scottaaronson.com/blog/?p=1628) (Scott Aaronson, Tuesday, December 24th, 2013)
 * [BosonSampling Lecture Notes from Rio](https://www.scottaaronson.com/blog/?p=1631) (Scott Aaronson, Saturday, December 28th, 2013)
 
 ### 2014
 
-* [What happens when an unstoppable PR force hits an NP-hard problem? The answer’s getting clearer](https://www.scottaaronson.com/blog/?p=1643) (Scott Aaronson, Thursday, January 16th, 2014)
-* [Retiring falsifiability? A storm in Russell’s teacup](https://www.scottaaronson.com/blog/?p=1653) (Scott Aaronson, Friday, January 17th, 2014)
+* [What happens when an unstoppable PR force hits an NP-hard problem?  The answer’s getting clearer](https://www.scottaaronson.com/blog/?p=1643) (Scott Aaronson, Thursday, January 16th, 2014)
+* [Retiring falsifiability?  A storm in Russell’s teacup](https://www.scottaaronson.com/blog/?p=1653) (Scott Aaronson, Friday, January 17th, 2014)
 * [More “tweets”](https://www.scottaaronson.com/blog/?p=1668) (Scott Aaronson, Friday, January 31st, 2014)
 * [TIME’s cover story on D-Wave: A case study in the conventions of modern journalism](https://www.scottaaronson.com/blog/?p=1679) (Scott Aaronson, Thursday, February 6th, 2014)
 * [Umesh Vazirani responds to Geordie Rose](https://www.scottaaronson.com/blog/?p=1687) (Scott Aaronson, Thursday, February 6th, 2014)
@@ -572,10 +572,10 @@ This index currently lists 724 posts from 2005-10-03 to 2019-07-03.
 * [“How Might Quantum Information Transform Our Future?”](https://www.scottaaronson.com/blog/?p=1937) (Scott Aaronson, Tuesday, July 22nd, 2014)
 * [3-sentence summary of what’s happening in Israel and Gaza](https://www.scottaaronson.com/blog/?p=1939) (Scott Aaronson, Thursday, July 24th, 2014)
 * [US State Department: Let in cryptographers and other scientists](https://www.scottaaronson.com/blog/?p=1942) (Scott Aaronson, Saturday, July 26th, 2014)
-* [Is the P vs. NP problem ill-posed? (Answer: no.)](https://www.scottaaronson.com/blog/?p=1948) (Scott Aaronson, Wednesday, August 13th, 2014)
+* [Is the P vs. NP problem ill-posed?  (Answer: no.)](https://www.scottaaronson.com/blog/?p=1948) (Scott Aaronson, Wednesday, August 13th, 2014)
 * [Subhash Khot’s prizewinning research](https://www.scottaaronson.com/blog/?p=1958) (Scott Aaronson, Saturday, August 16th, 2014)
 * [“Could a Quantum Computer Have Subjective Experience?”](https://www.scottaaronson.com/blog/?p=1951) (Scott Aaronson, Monday, August 25th, 2014)
-* [Do theoretical computer scientists despise practitioners? (Answer: no, that’s crazy)](https://www.scottaaronson.com/blog/?p=1981) (Scott Aaronson, Thursday, August 28th, 2014)
+* [Do theoretical computer scientists despise practitioners?  (Answer: no, that’s crazy)](https://www.scottaaronson.com/blog/?p=1981) (Scott Aaronson, Thursday, August 28th, 2014)
 * [Raise a martini glass for Google and Martinis!](https://www.scottaaronson.com/blog/?p=1988) (Scott Aaronson, Saturday, September 6th, 2014)
 * [Steven Pinker’s inflammatory proposal: universities should prioritize academics](https://www.scottaaronson.com/blog/?p=2003) (Scott Aaronson, Thursday, September 11th, 2014)
 * [Speaking Truth to Parallelism: The Book](https://www.scottaaronson.com/blog/?p=2011) (Scott Aaronson, Monday, September 22nd, 2014)
@@ -584,7 +584,7 @@ This index currently lists 724 posts from 2005-10-03 to 2019-07-03.
 * [A few quick announcements](https://www.scottaaronson.com/blog/?p=2037) (Scott Aaronson, Tuesday, October 14th, 2014)
 * [Interstellar’s dangling wormholes](https://www.scottaaronson.com/blog/?p=2040) (Scott Aaronson, Monday, November 10th, 2014)
 * [Der Quantencomputer](https://www.scottaaronson.com/blog/?p=2053) (Scott Aaronson, Friday, November 14th, 2014)
-* [What does the NSA think of academic cryptographers? Recently-declassified document provides clues](https://www.scottaaronson.com/blog/?p=2059) (Scott Aaronson, Sunday, November 16th, 2014)
+* [What does the NSA think of academic cryptographers?  Recently-declassified document provides clues](https://www.scottaaronson.com/blog/?p=2059) (Scott Aaronson, Sunday, November 16th, 2014)
 * [Kuperberg’s parable](https://www.scottaaronson.com/blog/?p=2068) (Scott Aaronson, Sunday, November 23rd, 2014)
 * [Lens of Computation on the Sciences](https://www.scottaaronson.com/blog/?p=2070) (Scott Aaronson, Tuesday, November 25th, 2014)
 * [PostBQP Postscripts: A Confession of Mathematical Errors](https://www.scottaaronson.com/blog/?p=2072) (Scott Aaronson, Sunday, November 30th, 2014)
@@ -609,7 +609,7 @@ This index currently lists 724 posts from 2005-10-03 to 2019-07-03.
 * [Five announcements](https://www.scottaaronson.com/blog/?p=2284) (Scott Aaronson, Saturday, May 16th, 2015)
 * [NSA in P/poly: The Power of Precomputation](https://www.scottaaronson.com/blog/?p=2293) (Scott Aaronson, Friday, May 22nd, 2015)
 * [The End of Suffering?](https://www.scottaaronson.com/blog/?p=2307) (Scott Aaronson, Monday, June 1st, 2015)
-* [Can blog posts nourish the soul? Scott A. (alas, not me) as existence proof](https://www.scottaaronson.com/blog/?p=2312) (Scott Aaronson, Wednesday, June 3rd, 2015)
+* [Can blog posts nourish the soul?  Scott A. (alas, not me) as existence proof](https://www.scottaaronson.com/blog/?p=2312) (Scott Aaronson, Wednesday, June 3rd, 2015)
 * [97% environmentalist](https://www.scottaaronson.com/blog/?p=2316) (Scott Aaronson, Sunday, June 7th, 2015)
 * [A query complexity breakthrough](https://www.scottaaronson.com/blog/?p=2325) (Scott Aaronson, Wednesday, June 17th, 2015)
 * [FCRC Highlights](https://www.scottaaronson.com/blog/?p=2335) (Scott Aaronson, Friday, June 19th, 2015)
@@ -626,7 +626,7 @@ This index currently lists 724 posts from 2005-10-03 to 2019-07-03.
 * [Six announcements](https://www.scottaaronson.com/blog/?p=2487) (Scott Aaronson, Monday, September 21st, 2015)
 * [Ordinary Words Will Do](https://www.scottaaronson.com/blog/?p=2494) (Scott Aaronson, Sunday, October 18th, 2015)
 * [A breakthrough on QMA(2)?](https://www.scottaaronson.com/blog/?p=2516) (Scott Aaronson, Friday, October 30th, 2015)
-* [G. Phi. Fo. Fum.](https://www.scottaaronson.com/blog/?p=2521) (Scott Aaronson, Wednesday, November 4th, 2015)
+* [G.  Phi.  Fo.  Fum.](https://www.scottaaronson.com/blog/?p=2521) (Scott Aaronson, Wednesday, November 4th, 2015)
 * [Talk, be merry, and be rational](https://www.scottaaronson.com/blog/?p=2537) (Scott Aaronson, Monday, November 23rd, 2015)
 * [If I can’t do math, I don’t want to be part of your revolution](https://www.scottaaronson.com/blog/?p=2535) (Scott Aaronson, Thursday, December 3rd, 2015)
 * [Google, D-Wave, and the case of the factor-10^8 speedup for WHAT?](https://www.scottaaronson.com/blog/?p=2555) (Scott Aaronson, Wednesday, December 9th, 2015)
@@ -642,7 +642,7 @@ This index currently lists 724 posts from 2005-10-03 to 2019-07-03.
 * [“Why does the universe exist?” … finally answered (or dissolved) in this blog post!](https://www.scottaaronson.com/blog/?p=2648) (Scott Aaronson, Saturday, February 6th, 2016)
 * [The universe has a high (but not infinite) Sleep Number](https://www.scottaaronson.com/blog/?p=2651) (Scott Aaronson, Friday, February 12th, 2016)
 * [From Boston to Austin](https://www.scottaaronson.com/blog/?p=2620) (Scott Aaronson, Sunday, February 28th, 2016)
-* [Quantum. Crypto. Things happen. I blog.](https://www.scottaaronson.com/blog/?p=2673) (Scott Aaronson, Sunday, March 6th, 2016)
+* [Quantum.  Crypto.  Things happen.  I blog.](https://www.scottaaronson.com/blog/?p=2673) (Scott Aaronson, Sunday, March 6th, 2016)
 * [A postdoc post](https://www.scottaaronson.com/blog/?p=2687) (Scott Aaronson, Saturday, March 19th, 2016)
 * [Grading Trudeau on quantum computing](https://www.scottaaronson.com/blog/?p=2694) (Scott Aaronson, Sunday, April 17th, 2016)
 * [Me interviewed by John Horgan (the author of “The End of Science”)](https://www.scottaaronson.com/blog/?p=2703) (Scott Aaronson, Thursday, April 21st, 2016)
@@ -654,13 +654,13 @@ This index currently lists 724 posts from 2005-10-03 to 2019-07-03.
 * [Daddy, why didn’t you blog about Trump?](https://www.scottaaronson.com/blog/?p=2777) (Scott Aaronson, Tuesday, June 7th, 2016)
 * [Entanglement without end](https://www.scottaaronson.com/blog/?p=2820) (Scott Aaronson, Monday, June 20th, 2016)
 * [Leonard Susskind’s Open Letter on “The Lunatic”](https://www.scottaaronson.com/blog/?p=2841) (Scott Aaronson, Wednesday, June 22nd, 2016)
-* [“Did Einstein Kill Schrödinger’s Cat? A Quantum State of Mind”](https://www.scottaaronson.com/blog/?p=2847) (Scott Aaronson, Saturday, July 2nd, 2016)
+* [“Did Einstein Kill Schrödinger’s Cat?  A Quantum State of Mind”](https://www.scottaaronson.com/blog/?p=2847) (Scott Aaronson, Saturday, July 2nd, 2016)
 * [ITCS’2017: Special Guest Post by Christos Papadimitriou](https://www.scottaaronson.com/blog/?p=2849) (Scott Aaronson, Wednesday, July 6th, 2016)
 * [The Complexity of Quantum States and Transformations: From Quantum Money to Black Holes](https://www.scottaaronson.com/blog/?p=2852) (Scott Aaronson, Sunday, July 17th, 2016)
 * [My biology paper in Science (really)](https://www.scottaaronson.com/blog/?p=2862) (Scott Aaronson, Friday, July 22nd, 2016)
 * [More Wrong Things I Said in Papers](https://www.scottaaronson.com/blog/?p=2854) (Scott Aaronson, Friday, July 29th, 2016)
 * [Shtetl-Optimized Open Thread](https://www.scottaaronson.com/blog/?p=2887) (Scott Aaronson, Friday, September 2nd, 2016)
-* [The Ninth Circuit ruled that vote-swapping is legal. Let’s use it to stop Trump.](https://www.scottaaronson.com/blog/?p=2891) (Scott Aaronson, Saturday, September 10th, 2016)
+* [The Ninth Circuit ruled that vote-swapping is legal.  Let’s use it to stop Trump.](https://www.scottaaronson.com/blog/?p=2891) (Scott Aaronson, Saturday, September 10th, 2016)
 * [The No-Cloning Theorem and the Human Condition: My After-Dinner Talk at QCRYPT](https://www.scottaaronson.com/blog/?p=2903) (Scott Aaronson, Monday, September 19th, 2016)
 * [Stuff That’s Happened](https://www.scottaaronson.com/blog/?p=2918) (Scott Aaronson, Sunday, October 9th, 2016)
 * [Avi Wigderson’s “Permanent” Impact on Me](https://www.scottaaronson.com/blog/?p=2925) (Scott Aaronson, Wednesday, October 12th, 2016)
@@ -749,7 +749,7 @@ This index currently lists 724 posts from 2005-10-03 to 2019-07-03.
 * [Summer recapitulates life](https://www.scottaaronson.com/blog/?p=3896) (Scott Aaronson, Tuesday, July 24th, 2018)
 * [Beyond fiction](https://www.scottaaronson.com/blog/?p=3903) (Scott Aaronson, Wednesday, August 8th, 2018)
 * [Thank you, world!](https://www.scottaaronson.com/blog/?p=3922) (Scott Aaronson, Wednesday, August 15th, 2018)
-* [Lecture notes! Intro to Quantum Information Science](https://www.scottaaronson.com/blog/?p=3943) (Scott Aaronson, Sunday, August 26th, 2018)
+* [Lecture notes!  Intro to Quantum Information Science](https://www.scottaaronson.com/blog/?p=3943) (Scott Aaronson, Sunday, August 26th, 2018)
 * [My Tomassoni-Chisesi Prize talk](https://www.scottaaronson.com/blog/?p=3955) (Scott Aaronson, Saturday, September 15th, 2018)
 * [CS and quantum information at UT Austin: come join us!](https://www.scottaaronson.com/blog/?p=3964) (Scott Aaronson, Wednesday, September 19th, 2018)
 * [It’s hard to think when someone Hadamards your brain](https://www.scottaaronson.com/blog/?p=3975) (Scott Aaronson, Tuesday, September 25th, 2018)
@@ -784,7 +784,9 @@ This index currently lists 724 posts from 2005-10-03 to 2019-07-03.
 * [Quantum Sabinacy](https://www.scottaaronson.com/blog/?p=4220) (Scott Aaronson, Monday, July 1st, 2019)
 * [Sensitivity Conjecture resolved](https://www.scottaaronson.com/blog/?p=4229) (Scott Aaronson, Tuesday, July 2nd, 2019)
 * [John Wright joins UT Austin](https://www.scottaaronson.com/blog/?p=4233) (Scott Aaronson, Wednesday, July 3rd, 2019)
-
+* [On two blog posts of Jerry Coyne](https://www.scottaaronson.com/blog/?p=4253) (Scott Aaronson, Saturday, July 13th, 2019)
+* [Fake it till you make it (to the moon)](https://www.scottaaronson.com/blog/?p=4267) (Scott Aaronson, Friday, July 19th, 2019)
+* [Links, proofs, talks, jokes](https://www.scottaaronson.com/blog/?p=4278) (Scott Aaronson, Tuesday, July 30th, 2019)
 Code
 ----
 
