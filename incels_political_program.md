@@ -11,6 +11,11 @@ Incels Political Program
 Assumptions
 -----------
 
+* Incels want to improve their situation
+* Incels want to be happy
+* Incels want to have sex
+* Incels want the price of sex to fall
+
 Short Term
 ----------
 
