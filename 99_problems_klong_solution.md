@@ -1463,10 +1463,26 @@ any sense.
 
 ### P50 (***) Huffman code.
 
+I am especially proud of this code.
+
+The problem statement only asks to create a code from the list of
+frequencies, but to make everything easier, one can write a function
+that returns this list of frequences for a given string. It does this
+by grouping the string, and then concatenating the length of the group
+list with the corresponding element.
+
+	frq::{[t];t::x;{(#x),t@*x}'=x}
+
+That seems to work well:
+
+		frq("aabbccccca")
+	[[3 0ca] [2 0cb] [5 0cc]]
+
+The implementation of the Huffman code.
+
 	c4::{(,((**x)+*x@1),(,*x),,(x@1)),2_x}
 	c5::{:[2=#x;,(,y),x@1;.f(x@1;y,0),.f(x@2;y,1)]}
 	s50::{c5(*{~1=#x}{c4(x@<*'x)}:~x;[])}
-	frq::{[t];t::x;{(#x),t@*x}'=x@<x}
 
 <!--
 Binary Trees

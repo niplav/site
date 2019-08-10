@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-08-01, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-08-09, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -11,17 +11,21 @@ Changelog
 August 2019
 -----------
 
+### Writing
+
+* [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
+
 July 2019
 ---------
 
 ### Writing
 
 * Notes
-	* [Converging Preference Utilitarianism](./notes.html#Converging-Preference-Utilitarianism)
-	* [Silent & Loud Killers](./notes.html#Silent--Loud-Killers)
+	* [Converging Preference Utilitarianism](./notes.md#Converging-Preference-Utilitarianism)
+	* [Silent & Loud Killers](./notes.md#Silent--Loud-Killers)
 * [Contributions](./contributions.md)
-* [Other Proposed Solutions to Rendezvous on a Sphere](./two_people_on_a_planet.html#Other-Proposed-Solutions)
-* [Solutions to P34-P39 for the 99 Klong Problems](.//99_problems_klong_solution.html#P34--Calculate-Eulers-totient-function-phim)
+* [Other Proposed Solutions to Rendezvous on a Sphere](./two_people_on_a_planet.md#Other-Proposed-Solutions)
+* [Solutions to P34-P39 for the 99 Klong Problems](.//99_problems_klong_solution.md#P34--Calculate-Eulers-totient-function-phim)
 * Archives
 	* [Bit-Player Posts Chronological Index](./bp_chrono.md)
 	* [Overcoming Bias Posts Chronological Index](./ob_chrono.md)
@@ -36,7 +40,7 @@ June 2019
 * Notes
 	* [Approach Anxiety](./notes.md#Approach-Anxiety)
 * Solution to [Problem 27-33](./99_problems_klong_solution.md#P27--Group-the-elements-of-a-set-into-disjoint-subsets) of the 99 problems
-* Finished transcription of the [Tao Tê King](./tao_te_king.html#Kapitel-71) (chapters 71 to 81)
+* Finished transcription of the [Tao Tê King](./tao_te_king.md#Kapitel-71) (chapters 71 to 81)
 
 ### Site Changes
 

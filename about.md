@@ -282,7 +282,7 @@ up. A good reason might have been that I only visited sites that were
 poorly organised and contained little to no personal long-term content
 (either blogs focussed <!--TODO: is it focused or focussed?--> on new
 posts or simply haphazard aggregations of short ideas (like in the form of
-[2f30.org](https://2030.org) <!--TODO: check link!--> or the suckless.org
+[2f30.org](http://2030.org) <!--TODO: check link!--> or the suckless.org
 wiki.<!--TODO: link-->
 
 This was changed upon discovering [gwern.net](https://www.gwern.net)
@@ -294,8 +294,7 @@ I decided to start writing down my ideas, collecting older texts and
 reviewing them to see what was still valuable and what was useless.
 
 My decision to solidified by [guzey
-2018](https://guzey.com/personal/why-have-a-blog/)
-<!--TODO: check year--> and a question on
+2019](https://guzey.com/personal/why-have-a-blog/) and a question on
 [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/comments/ab3ry1/whats_the_bottleneck_to_more_things_like_slate/):
 
 > What's the bottleneck to more things like "Slate Star Codex" or Gwern's site existing in the world?
@@ -309,7 +308,7 @@ of aggregating the stuff I produced, and a possible (but unlikely)
 benefit to other people was just a nice addition.
 
 So far, writing for a website has been beneficial to interacting with
-several topics: It streamslines my thoughts, makes it possible to take
+several topics: It streamlines my thoughts, makes it possible to take
 notes, include code and images and several other advantages. Even if
 I had never gotten around to publishing this site, it would still have
 been a net positive project for me.
