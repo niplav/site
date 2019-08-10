@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-10, modified: 2019-08-07, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-10, modified: 2019-08-09, language: english, status: in progress, importance: 2, confidence: log*
 
 > __A while ago, I became interested in personal estimations
 > of life expectancy. I wanted to know how accurate people are
@@ -10,11 +10,13 @@
 > correlates with age or gender. I went out and collected data, which is
 > shared and analysed here.__
 
-Personal Estimates of Life Expectancy
+Subjective Estimates of Life Expectancy
 ======================================
 
 Abstract
 --------
+
+<!--TODO: at ≥1000 data points, put results into the abstract.-->
 
 Actuarial tables are of great interest to statisticians, gerontologists
 and policymakers. In this piece, data about subjective life expectancy
@@ -197,7 +199,7 @@ was 169 (lowest/highest for males: 1/82, lowest/highest for females: 6/169).
 
 Code for the image:
 
-		.l("nplot")
+	.l("nplot")
 	.l("./load.kg")
 
 	cgrid("estimated age (female red, male blue)           (N=",($#data),")";[0 200 20])
@@ -302,12 +304,146 @@ for genders and for the whole data set:
 		"averages, by age"
 		r::(*'(*+data)@gr),'aba
 
+Next, one needs actual actuarial tables for information to compare
+the collected data to. Because the data was collected in Germany, the
+actuarial tables were taken from the Statistisches Bundesamt <!--TODO:
+Richtigen Namen hier, und link-->. The actuarial tables were downloaded,
+converted into the correct format <!--TODO: ISO-SOMETHING to UTF-8-->
+and arranged in the following form:
+
+	age,life expectancy m,life expectancy f
+
+The resulting data can be viewed [here](./data/de_actuarial_tables.csv).
+
+Now, one can start comparing the collected estimates to the actuarial
+tables. To do this, one first loads the data into Klong:
+
+		known::{(1:$*x),(1.0:$x@1),(1.0:$x@2)}'1_known
+		mk::{x@[0 1]}'known
+		fk::{x@[0 2]}'known
+		kr::{(*x),((x@1)+x@2)%2}'known
+
+The variable `kr` contains the mean of the female and male actuarial values.
+
+Since one has already calculate the average estimates for life
+expectancy by age (the variables `grm`, `grf` and `gr`), one can now
+compute correlations between the estimates and the actuarial tables. The
+correlation between the estimates and the actuarial values is 0.0732,
+0.0799 for men and 0.0032 for women.
+
+		cord::cor(aba;*|+kr@*'(*+data)@gr)
+	0.0732435875628164249
+		corm::cor(abam;*|+mk@*'(*+m)@grm)
+	0.0799339532720909585
+		corf::cor(abaf;*|+fk@*'(*+f)@grf)
+	0.00321245137729511554
+
+One can now also visualize the estimates and actuarial values.
+
+For the mean estimate:
+
+	.l("nplot")
+	.l("nstat")
+	.l("./load.kg")
+
+	grid([0 100 20];[0 150 20])
+
+	setdot(3)
+
+	fillrgb(0;0;0)
+	scplot2(mk)
+
+	fillrgb(0;0;1)
+	scplot2(rm)
+
+	xtitle("age")
+	ytitle("male: average estimated life expectancy (blue), average life expectancy (black)")
+
+	draw()
+
+![Mean estimate per year to actuarial table](./img/estimated_life_expectancy/avg_est.png)
+
+For men:
+
+	.l("nplot")
+	.l("nstat")
+	.l("./load.kg")
+
+	grid([0 100 20];[0 150 20])
+
+	setdot(3)
+
+	fillrgb(0;0;0)
+	scplot2(mk)
+
+	fillrgb(0;0;1)
+	scplot2(rm)
+
+	xtitle("age")
+	ytitle("male: average estimated life expectancy (blue), average life expectancy (black)")
+
+	draw()
+
+![Mean estimate per year to actuarial table for men](./img/estimated_life_expectancy/m_res.png)
+
+For women:
+
+	.l("nplot")
+	.l("nstat")
+	.l("./load.kg")
+
+	grid([0 100 20];[0 150 20])
+
+	setdot(3)
+
+	fillrgb(0;0;0)
+	scplot2(fk)
+
+	fillrgb(1;0;0)
+	scplot2(rf)
+
+	xtitle("age")
+	ytitle("female: average estimated life expectancy (red), average life expectancy (black)")
+
+	draw()
+
+![Mean estimate per year to actuarial table for men](./img/estimated_life_expectancy/f_res.png)
+
+<!--TODO: difference between estimated age and actuarial value, is there
+a correlation? Would that even be a useful measure?-->
+
 Problems
 ---------
 
-* Hoped for age, not estimated age
-* Joke answers
-* Interrogator bias (age, gender)
+As with most self-reported data, there are numerous problems with this
+approach. The data presented here represents estimates often made in a
+very short amount of time, and is prone to misunderstandings.
+
+1. Hope instead of estimates: It seemed like very often people
+misunderstood that the estimate they were asked for was not asking for
+the age they hoped for, but the age they estimated. It would not have been
+practical explaining this to people, since the response rate already was
+quite low and there were sometimes severe difficulties in understanding,
+but this seems to be the strongest bias in the data. Interestingly,
+a surprising number of people seemed to hope to die earlier than the
+average person, especially a woman aged 29 who hoped to die at 39.
+
+2. Joke answers: Keeping in line with the [lizardman
+constant](http://slatestarcodex.com/2013/04/12/noisy-poll-results-and-reptilian-muslim-climatologists-from-mars/),
+there was a number of joke answers and sometimes even straight lies. Most
+of the people who answered that they estimated to become 120 years old
+fit into this category (the woman who estimated that she would become
+200 years old seemed convinced of that, though). There was also a number
+of people who either looked way too old or lied about their age.
+
+3. Some ages missing: The visualisation of the data shows a clear
+lack of women aged between 40-50 in the data set, as well as a lack of
+people older than 70. One possible explanation for this observation is an
+age-related bias by the interrogator. Another possible explanation could
+be that people older than 70 don't like to answer questions in the street,
+don't go outside very often, are rare, or lie about their age regularly.
+I note that it seemed to me that older women were most reluctant to answer
+my questions, but that may just be another manifestation of personal bias.
 
 Conclusion
 -----------

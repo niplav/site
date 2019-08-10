@@ -28,7 +28,7 @@ Writing
 	* [99 Problems](./99_problems_collection.md)
 	* [Rationalist Gods](./rationalist_gods.md)
 * Analyses
-	* [Personal Estimates of Life Expectancy](./estimated_life_expectancy.md)
+	* [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
 * Other
 	* [K-99: Ninety-Nine Klong Problems](./99_klong_problems.md)
 

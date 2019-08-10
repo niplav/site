@@ -11,6 +11,11 @@ The End of History Fallacy
 The “If Everyone Just” Fallacy
 Modelling the Dream-Time (Population will probably start growing again)
 Why Still Choose C?
+	Long-term reliability/stability
+	Performance
+	Portability
+	→ Caveat: Only portable if very reliably/portably written
+
 Coding Standards
 	* General Project Setup
 	* C
