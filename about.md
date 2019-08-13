@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-08-07, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2019-08-13, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -166,14 +166,12 @@ may be one of the following:
 * "english"
 * "german"
 * "french"
-* "serbocroatian"
-* "esperanto"
-* "lojban"
-* "ithkuil"
-* "toki pona"
-* "latin"
-
-<!--TODO: links for these languages-->
+* ["serbocroatian"](https://en.wikipedia.org/wiki/Serbo-Croatian)
+* ["esperanto"](https://en.wikipedia.org/wiki/Esperanto)
+* ["lojban"](https://en.wikipedia.org/wiki/Lojban)
+* ["ithkuil"](https://en.wikipedia.org/wiki/Ithkuil)
+* ["toki pona"](https://en.wikipedia.org/wiki/Toki_Pona)
+* ["latin"](https://en.wikipedia.org/wiki/Latin)
 
 #### Confidence
 
@@ -280,10 +278,9 @@ creating a repository for all my personal projects, but somehow these
 never really pushed me completely toward actually setting something
 up. A good reason might have been that I only visited sites that were
 poorly organised and contained little to no personal long-term content
-(either blogs focussed <!--TODO: is it focused or focussed?--> on new
-posts or simply haphazard aggregations of short ideas (like in the form of
-[2f30.org](http://2030.org) <!--TODO: check link!--> or the suckless.org
-wiki.<!--TODO: link-->
+(either blogs focused on new posts or simply haphazard aggregations
+of short ideas (like in the form of [2f30.org](http://2030.org) or the
+[suckless.org wiki](https://suckless.org/wiki/).
 
 This was changed upon discovering [gwern.net](https://www.gwern.net)
 and [reducing-suffering.org](https://reducing-suffering.org): both gave
@@ -301,7 +298,8 @@ My decision to solidified by [guzey
 
 *– [arikir](https://old.reddit.com/user/arikr), [“What's the bottleneck to more things like "Slate Star Codex" or Gwern's site existing in the world?”](https://old.reddit.com/r/slatestarcodex/comments/ab3ry1/whats_the_bottleneck_to_more_things_like_slate/) on [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/), 2019*
 
-<!--TODO: Lesswrong question: Why are people intellectually active-->
+<!--TODO: Lesswrong question: [What makes people intellectually
+active?](https://www.lesswrong.com/posts/XYYyzgyuRH5rFN64K/what-makes-people-intellectually-active)-->
 
 I decided that it could not hurt to try and follow through on the idea
 of aggregating the stuff I produced, and a possible (but unlikely)

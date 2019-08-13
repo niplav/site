@@ -1,7 +1,7 @@
 [home](./index.md)
 -----------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-08-07, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2019-04-02, modified: 2019-08-13, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __Two people are abducted and placed on the opposite poles of a
 > habitable planet. They want to find each other, but they have no
@@ -140,16 +140,17 @@ assumes that the person can generate random bits.
 
 *– [Qwertronix](https://math.stackexchange.com/users/54545/qwertronix), answer to [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/a/1214322), 2015*
 
-This solution is similar to most practical solutions to these
-kinds of problems. It assumes that there *is* a most interesting star
-configuration, the size of such a configuration, and a given metric on how
-to determine the interesting-ness of such a configuration.  The metric is
-the least difficult of them: given a size of the region of sky, the most
-interesting such region would be the one that is the most compressible
-(or most regular). The size aspect of this possible configuration is
-much more difficult: Where does such a configuration end? One possible
-answer is: "At the horizon.", then the Schelling point <!--(TODO: Wikipedia)-->
-would be the point where the whole sky is most interesting.
+This solution is similar to most practical solutions to these kinds
+of problems. It assumes that there *is* a most interesting star
+configuration, the size of such a configuration, and a given metric
+on how to determine the interesting-ness of such a configuration.
+The metric is the least difficult of them: given a size of the region
+of sky, the most interesting such region would be the one that is the
+most compressible (or most regular). The size aspect of this possible
+configuration is much more difficult: Where does such a configuration
+end? One possible answer is: "At the horizon.", then the [Schelling
+point](https://en.wikipedia.org/wiki/Focal_point_(game_theory)) would
+be the point where the whole sky is most interesting.
 
 ### Randomly Switching Positions
 

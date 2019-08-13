@@ -2,6 +2,7 @@
 .l("./load.kg")
 
 cgrid("age (female red, male blue)                      (N=",($#data),")";[0 100 20])
+
 fillrgb(0;0;1)
 scplot(mages)
 fillrgb(1;0;0)

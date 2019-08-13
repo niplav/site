@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-08-07, language: english, status: draft, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-04-11, modified: 2019-08-12, language: english, status: draft, importance: 4, confidence: unlikely*
 
 > __In western cultures, it is nearly universal for people to clap
 > before and after pieces in classical music and jazz. An argument
@@ -62,13 +62,43 @@ and distraction before and after music.
 The exact fitting moments of applause are a difficult topic in classical
 music and the source of many faux-pas<!--TODO: correct plural?-->,
 abolishing applause would remove these mistakes, but also prevent the
-ability to express class by knowing where to clap (and the possibility
-to keep out ignorant philistines).
+ability to signal status and knowledge by knowing where to clap (and
+the possibility to keep out ignorant philistines).
 
 Counterarguments
 ----------------
 
 ### Applause Does Fit Because of Cultural History
+
+Just like the tuning of the instruments before a classical concert,
+applause can be considered an important part of the ritual that goes
+along with all forms of art. If that were the case, removing such an
+integral part would be not beneficial to the appreciation of the piece,
+but detrimental. I personally feel that removing the tuning of instruments
+at the beginning of a piece is not as urgent as removing applause,
+although they both have a negative impact on the pure experiential aspect
+of classical music (although, at least, tuning instruments is in the same
+category of sound as the concert itself, with the sounds being produced
+by instruments, and not just being white-noise-ish background sounds).
+
+There is an interesting trade-off to be observed here: one between
+following art-intrinsic rituals, and optimizing for an optimal
+experience. Similarly, one could argue that painters do not matter,
+and images should be sold on their individual quality alone. This,
+of course, would violate the idea of brand-building in the artist
+community, render social gatherings of artists and collectors useless,
+and destroy the culture around the artists and their works. Removing
+applause wouldn't be as drastic, but in a similar spirit: Exchanging a
+socially and historically aware conception of music for a very puristic
+and theoretical one.
+
+Still, it feels like not being offered a choice whether one wants to
+participate in the rituals of classical music seems unfair to purists.
+One could imagine concerts targeted especially at people who want to
+isolate listening experience from everyday noise, maybe even gaining
+popularity after a while because of a status as especially knowledgeable
+coinisseurs of classical music. And the status signalling treadmill turns
+and turns.
 
 ### Applause is a Useful Appreciation Signal
 
