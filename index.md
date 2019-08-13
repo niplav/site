@@ -29,6 +29,8 @@ Writing
 	* [Rationalist Gods](./rationalist_gods.md)
 * Analyses
 	* [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
+* Arguments
+	* [Against Applause After Classical Concerts](./against_applause.md)
 * Other
 	* [K-99: Ninety-Nine Klong Problems](./99_klong_problems.md)
 

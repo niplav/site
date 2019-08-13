@@ -34,7 +34,7 @@ Data Collection Method
 ----------------------
 
 192 random people were approached during the day in the streets of the
-center of a major german city.  They were asked the following questions
+center of a major german city. They were asked the following questions
 (in the presented order):
 
 1. "Entschuldigung, darf ich Ihnen kurz zwei Fragen stellen?"
@@ -131,6 +131,9 @@ Code for the image:
 	draw()
 
 ![The ages of the participants](./img/estimated_life_expectancy/ages.png)
+
+<!--TODO: there is an annoying red line at the border of the image here
+and in est_ages.png. Fix that.-->
 
 As one can see in the image, the ages of the respondents by gender
 follow a very similar pattern, except a lack of women aged 40 to 50
@@ -305,11 +308,15 @@ for genders and for the whole data set:
 		r::(*'(*+data)@gr),'aba
 
 Next, one needs actual actuarial tables for information to compare
-the collected data to. Because the data was collected in Germany, the
-actuarial tables were taken from the Statistisches Bundesamt <!--TODO:
-Richtigen Namen hier, und link-->. The actuarial tables were downloaded,
-converted into the correct format <!--TODO: ISO-SOMETHING to UTF-8-->
-and arranged in the following form:
+the collected data to. Because the data was collected in Germany,
+the actuarial tables were taken from the [Federal Statistical Office of
+Germany](https://en.wikipedia.org/wiki/Federal_Statistical_Office_of_Germany).
+The [actuarial
+tables](https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/_inhalt.html)
+were downloaded, converted from [ISO/IEC
+8859](https://en.wikipedia.org/wiki/ISO/IEC_8859) to
+[UTF-8](https://en.wikipedia.org/wiki/UTF-8) and arranged in the
+following form:
 
 	age,life expectancy m,life expectancy f
 
@@ -419,16 +426,20 @@ As with most self-reported data, there are numerous problems with this
 approach. The data presented here represents estimates often made in a
 very short amount of time, and is prone to misunderstandings.
 
-1. Hope instead of estimates: It seemed like very often people
-misunderstood that the estimate they were asked for was not asking for
-the age they hoped for, but the age they estimated. It would not have been
-practical explaining this to people, since the response rate already was
-quite low and there were sometimes severe difficulties in understanding,
-but this seems to be the strongest bias in the data. Interestingly,
-a surprising number of people seemed to hope to die earlier than the
-average person, especially a woman aged 29 who hoped to die at 39.
+### Hope Instead of Estimates
 
-2. Joke answers: Keeping in line with the [lizardman
+It seemed like very often people misunderstood that the estimate they were
+asked for was not asking for the age they hoped for, but the age they
+estimated. It would not have been practical explaining this to people,
+since the response rate already was quite low and there were sometimes
+severe difficulties in understanding, but this seems to be the strongest
+bias in the data. Interestingly, a surprising number of people seemed
+to hope to die earlier than the average person, especially a woman aged
+29 who hoped to die at 39.
+
+### Joke Answers
+
+Keeping in line with the [lizardman
 constant](http://slatestarcodex.com/2013/04/12/noisy-poll-results-and-reptilian-muslim-climatologists-from-mars/),
 there was a number of joke answers and sometimes even straight lies. Most
 of the people who answered that they estimated to become 120 years old
@@ -436,14 +447,28 @@ fit into this category (the woman who estimated that she would become
 200 years old seemed convinced of that, though). There was also a number
 of people who either looked way too old or lied about their age.
 
-3. Some ages missing: The visualisation of the data shows a clear
-lack of women aged between 40-50 in the data set, as well as a lack of
-people older than 70. One possible explanation for this observation is an
-age-related bias by the interrogator. Another possible explanation could
-be that people older than 70 don't like to answer questions in the street,
-don't go outside very often, are rare, or lie about their age regularly.
-I note that it seemed to me that older women were most reluctant to answer
-my questions, but that may just be another manifestation of personal bias.
+### Some Ages are Missing
+
+The visualisation of the data shows a clear lack of women aged between
+40-50 in the data set, as well as a lack of people older than 70. One
+possible explanation for this observation is an age-related bias by the
+interrogator. Another possible explanation could be that people older
+than 70 don't like to answer questions in the street, don't go outside
+very often, are rare, or lie about their age regularly.  I note that it
+seemed to me that older women were most reluctant to answer my questions,
+but that may just be another manifestation of personal bias.
+
+### Selection Bias and Non-Representative Data
+
+As with any street poll, this interrogation got responses from
+people willing to answer questions from strangers on the street. This
+could select for high openness, which could function as a proxy for
+optimism. Also, all people were interrogated in a big city, which
+could have biased the data (I am not sure which direction this bias
+woul tend).  One could also argue that self-reported data is [notoriously
+unreliable](https://guzey.com/statistics/dont-believe-self-reported-data/),
+but since the point of this data collection was to aggregate subjective
+estimates, this should not be an issue here.
 
 Conclusion
 -----------
