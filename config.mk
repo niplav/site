@@ -15,7 +15,6 @@ HTML=index.html \
 	99_problems_klong_solution.html \
 	a_religion.html \
 	against_applause.html \
-	bag_spreading.html \
 	better_mathematical_notation.html \
 	buch_stab.html \
 	circle_combinations.html \
