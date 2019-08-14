@@ -247,10 +247,10 @@ be diffficult to achieve). I try to follow the concept of [Long
 Content](https://www.gwern.net/About#long-content) and extensive
 presentation.
 
-My views on philosophy are heavily influenced by the
-[rationalist movement](https://lesswrong.com), and I stay
-faithful to the ideas of the movement by disagreeing sharply
-with it on several points. The general principles I agree with are
+My views on philosophy are heavily influenced by the [rationalist
+movement](https://lesswrong.com), and I stay faithful to
+the ideas of the movement by disagreeing sharply with it on
+several points. The general principles I broadly agree with are
 [consequentialism](https://plato.stanford.edu/entries/consequentialism/),
 [bayesian
 epistemology](https://plato.stanford.edu/entries/epistemology-bayesian/),
@@ -290,7 +290,7 @@ and which kind of content could be published there.
 I decided to start writing down my ideas, collecting older texts and
 reviewing them to see what was still valuable and what was useless.
 
-My decision to solidified by [guzey
+My decision to start a website was solidified by [guzey
 2019](https://guzey.com/personal/why-have-a-blog/) and a question on
 [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/comments/ab3ry1/whats_the_bottleneck_to_more_things_like_slate/):
 

@@ -4,7 +4,7 @@
 *author: niplav, created: 2019-04-11, modified: 2019-08-12, language: english, status: draft, importance: 4, confidence: unlikely*
 
 > __In western cultures, it is nearly universal for people to clap
-> before and after pieces in classical music and jazz. An argument
+> before and after pieces of classical music and jazz. An argument
 > against this practice is presented, counterarguments are discussed,
 > and alternative approaches to appreciation of music are presented.__
 
@@ -100,7 +100,24 @@ popularity after a while because of a status as especially knowledgeable
 coinisseurs of classical music. And the status signalling treadmill turns
 and turns.
 
-### Applause is a Useful Appreciation Signal
+### Applause is Useful for Appreciation
+
+Of course, all if this argumentation ignores the main function of
+applause: Showing appreciation for the musicians'<!--Genitive for
+plurals?--> performance in a clear way. Prohibiting applause entirely
+would make it difficult for musicians to assess the quality of their
+performance by observing different intensities of applause, though it
+seems unclear how often musicians really optimize for loud, long and
+frentic applause (and how often this kind of applause happens because
+of the quality of the performance compared to the celebrity status of
+some performers). It would also remove a major motivation for playing,
+namely, receiving appreciation for a performance.
+
+On the other hand, applause is not the only possible
+appreciation signal available. One could imagine others that
+would both leave the musicians satisfied, for example [Jazz
+Hands](https://en.wikipedia.org/wiki/Jazz_hands) or the amount of time
+spent in the concert hall after the last note has been played.
 
 ### Correct Clapping as a Signal of Sophistication and Knowledge
 
@@ -109,10 +126,13 @@ Other Approaches
 
 ### Existing Different Approaches
 
-* Silence
-* [Jazz hands](https://en.wikipedia.org/wiki/Jazz_hands)
+#### Silence
+
+#### [Jazz hands](https://en.wikipedia.org/wiki/Jazz_hands)
 
 ### Possible new Forms of Appreciation
+
+#### Staying in the Concert Hall
 
 See Also
 --------
