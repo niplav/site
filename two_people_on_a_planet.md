@@ -1,7 +1,7 @@
 [home](./index.md)
 -----------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-08-13, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2019-04-02, modified: 2019-08-15, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __Two people are abducted and placed on the opposite poles of a
 > habitable planet. They want to find each other, but they have no
@@ -22,12 +22,14 @@ Two People on a Planet
 The Problem
 ------------
 
-The original problem is taken from [Munroe 2014](./doc/lost_immortals_munroe_2014.pdf):
+The original problem is taken from [Munroe
+2014](./doc/lost_immortals_munroe_2014.pdf "“Lost Immortals“ (Randall
+Munroe 2014)"):
 
 > If two immortal people were placed on opposite sides of an uninhabited
 > Earthlike planet, how long would it take them to find each other?
 
-*– [Randall Munroe](https://en.wikipedia.org/wiki/Randall_Munroe), [“Lost Immortals” in “What If?”, p. 183](./doc/lost_immortals_munroe_2014.pdf), 2014*
+*– [Randall Munroe](https://en.wikipedia.org/wiki/Randall_Munroe), [“Lost Immortals” in “What If?”, p. 183](./doc/lost_immortals_munroe_2014.pdf "“Lost Immortals“ (Randall Munroe 2014)"), 2014*
 
 Here, I add several clarifications to the problem.
 
@@ -163,11 +165,14 @@ n such iterations the chance of having met is `$1-\frac{1}{2^n}$`. Munroe
 proposes coin flips to determine whether one changes position, but one
 can imagine other such methods if coins are not available.
 
-One could assign the choice of staying to the left body half and the
-choice of going to the other side of the planet to the right body
-half, and then choosing the strategy based on which part of the body
-itches first. This would be useful since humans are notoriously bad at
-generating random bits<!--(TODO: put a citation here)-->.
+One could assign the choice of staying to the left body half and
+the choice of going to the other side of the planet to the right
+body half, and then choosing the strategy based on which part of the
+body itches first. This would be useful since humans are notoriously
+bad at consciously generating random bits (see [Figurska et al.
+2007](./doc/two_people_on_a_planet/humans_cannot_consciously_generate_random_numbers_sequences_figurska_et_al_2008.pdf
+"“Humans cannot consciously generate random numbers sequences: Polemic
+study” (Figurska et al. 2007)")).
 
 On the other hand, this method could be biased, since many humans have
 points on their skin that are constantly itchy.
@@ -255,7 +260,7 @@ Of course, this strategy is only one of infinitely many that will result
 in the two people deterministically meeting after a linear amount of
 time. Other such algorithms include meeting at any specific point on
 the planet (such as the starting position of one particular person,
-or 0°0′N 0°0′E etc. However, the proposed strategy is different
+or 0°0′N 0°0′E etc.). However, the proposed strategy is different
 from these.
 
 First of all, it is not person-specific: Both people follow the same
@@ -351,7 +356,6 @@ TODO: read.
 * /usr/local/doc/unread/rendezvous/deterministic_rendez_vous_ta_shma_zwick_2007.pdf
 * /usr/local/doc/unread/rendezvous/deterministic_rendezvous_in_graphs_dessmark_et_al_2006.pdf
 * /usr/local/doc/unread/rendezvous/how_to_meet_in_anonymous_network_kowalski_malinowski_2008.pdf
-* /usr/local/doc/unread/rendezvous/humans_cannot_consciously_generate_random_numbers_sequences_figurska_et_al_2008.pdf
 * /usr/local/doc/unread/rendezvous/random_walks_universal_traversal_sequences_aleliunas_et_al_1979.pdf
 * /usr/local/doc/unread/rendezvous/rendezvous_problem_gasieniec_2004.pdf
 * /usr/local/doc/unread/rendezvous/theory_of_search_games_and_rendezvous_alpern_2002.pdf

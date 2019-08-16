@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-09, modified: 2019-05-24, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-02-09, modified: 2019-08-15, language: english, status: in progress, importance: 2, confidence: log*
 
 > __The list of 99 problems, originally for Prolog, has been translated
 > for a few other languages. This page collects links to them.__
@@ -18,9 +18,9 @@ Hett for the Prolog programming language and later
 Most translations into other languages use the old ordering, which only
 contains 88 problems, due to both sub-problems and gaps in the order.
 
-* [Elm](https://en.wikibooks.org/wiki/99_Elm_Problems/1_to_99), 1-22, solved
+* [Elm](https://en.wikibooks.org/wiki/99_Elm_Problems/1_to_99), 1-22 solved
 * [Haskell](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems), all solved
-* [K](https://github.com/kevinlawler/kona/wiki/K-99:-Ninety-Nine-K-Problems), 1-39, solved
+* [K](https://github.com/kevinlawler/kona/wiki/K-99:-Ninety-Nine-K-Problems), 1-39 solved
 * [Lisp](https://www.ic.unicamp.br/%7Emeidanis/courses/mc336/2006s2/funcional/L-99_Ninety-Nine_Lisp_Problems.html), partially solved
 * [Ocaml](https://ocaml.org/learn/tutorials/99problems.html), mostly solved
 * [Scala](http://aperiodic.net/phil/scala/s-99/), mostly solved

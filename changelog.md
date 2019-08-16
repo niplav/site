@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-08-13, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-08-15, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -13,10 +13,13 @@ August 2019
 
 ### Writing
 
-* [Against Applause](./against_applause.md)
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
 * [Solutions to P40, P41, and P49 of the 99 Klong Problems](./99_problems_klong_solution.html#P40--Goldbachs-conjecture)
+
+<!--
 * Finished [About](./about.md)
+* [Against Applause](./against_applause.md)
+-->
 
 July 2019
 ---------

@@ -12,15 +12,35 @@ fn decheck {
 	aspell -x -l de check $1
 }
 
-for(i in `{ag -l 'language: english' | grep -v sitelint})
-	encheck $i
+fn balanced {
+	cat $1 |
+	tr -dc '"[]{}()' |
+	sed 's/./&\n/g' |
+	sort |
+	uniq -c |
+	awk '{ a[$2]=$1 }
+	END {
+			if(a["\""]%2) printf("unmatched \" ");
+			if(a["("]>a[")"]) printf("%d unmatched ( ", a["("]-a[")"]);
+			if(a["("]<a[")"]) printf("%d unmatched ) ", a[")"]-a["("]);
+			if(a["["]>a["]"]) printf("%d unmatched [ ", a["["]-a["]"]);
+			if(a["["]<a["]"]) printf("%d unmatched ] ", a["]"]-a["["]);
+			if(a["{"]>a["}"]) printf("%d unmatched { ", a["{"]-a["}"]);
+			if(a["{"]<a["}"]) printf("%d unmatched } ", a["}"]-a["{"]);
+	}'
+}
 
-for(i in `{ag -l 'language: german' | grep -v sitelint})
-	decheck $i
+if(~ $1 'spell') {
+	for(i in `{ag -l 'language: english' | grep -v sitelint})
+		encheck $i
+
+	for(i in `{ag -l 'language: german' | grep -v sitelint})
+		decheck $i
+}
 
 #Uses: [ag](https://geoff.greer.fm/ag/)
 
-echo 'Incorrectly formatted citations:'
+printf 'Incorrectly formatted citations:\n'
 
 #short form
 search '\[[A-Za-z]+,( |\n)-?[0-9]+\]'
@@ -28,15 +48,25 @@ search '\[[A-Za-z]+,( |\n)-?[0-9]+\]'
 #long form
 search '^\*–[^ ]'
 
-echo 'Incorrect whitespace:'
+printf '\nIncorrect whitespace:\n'
 
 search '   $'
 search '\t$'
 
-echo 'Checking for british english:'
+printf '\nChecking for british english:\n'
 
 search 'colour|grey|labour|theatre|behaviour'
 
-echo 'Number of TODOs:'
+printf '\nNumber of TODOs:\n'
 
 search TODO | wc -l
+
+printf '\nChecking for unbalanced characters:\n'
+
+
+
+for(i in `{ls *.md}) {
+	j=`{balanced $i}
+	if(! ~ $j '')
+		echo $i':' $"j
+}

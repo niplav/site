@@ -1,13 +1,13 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-10, modified: 2019-08-09, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-10, modified: 2019-08-15, language: english, status: in progress, importance: 2, confidence: log*
 
 > __A while ago, I became interested in personal estimations
 > of life expectancy. I wanted to know how accurate people are
 > at estimating their own life expectancy (by checking [actuarial
 > tables](https://en.wikipedia.org/wiki/Life_table) and whether accuracy
-> correlates with age or gender. I went out and collected data, which is
+> correlates with age or gender). I went out and collected data, which is
 > shared and analysed here.__
 
 Subjective Estimates of Life Expectancy
@@ -44,7 +44,7 @@ center of a major german city. They were asked the following questions
 
 If the respondent was unsure after the second question, they were told:
 "Nur eine grobe Schätzung" to indicate that they weren't expected to make
-a perfect estimate). If at any point the respondent seemed uncomfortable,
+a perfect estimate. If at any point the respondent seemed uncomfortable,
 the interrogation was stopped with step 4 directly.
 
 If after the first question the respondent didn't seem able to understand,
@@ -87,6 +87,7 @@ Of the 192 respondents, 96 of which were male and 96 were female. The
 mean age was 37.94 years (37.06 years for men and 38.83 years for women)
 with the youngest respondents being 16 years old and the oldest being
 82 years old (youngest/oldest male: 16/82, youngest/oldest female: 17/74).
+The standard deviation for age was 17.13 (16.7 for men, 17.38 for women).
 
 		dm::mu(*+data)
 	37.9479166666666666
@@ -109,6 +110,12 @@ with the youngest respondents being 16 years old and the oldest being
 	16
 		*|fages
 	74
+		sd(ages)
+	17.1261196098769183
+		sd(mages)
+	16.7088337105538922
+		sd(fages)
+	17.3724740308938622
 
 Code for the image:
 
@@ -153,6 +160,9 @@ their life, women estimating having 45.85 left in their lifes, men with
 45.23 years. The lowest estimate for years of life left was 1, the highest
 was 169 (lowest/highest for males: 1/82, lowest/highest for females: 6/169).
 
+The standard deviation for the estimated age was 14.46 (13.84 for men,
+14.96 for women).
+
 		estages::(*|+data)@<*|+data
 		mu(estages)
 	83.4895833333333333
@@ -177,7 +187,7 @@ was 169 (lowest/highest for males: 1/82, lowest/highest for females: 6/169).
 		:"yl: years left"
 		yl::{(*|x)-*x}'data
 		yl::yl@<yl
-	        muyl::mu(yl)
+		muyl::mu(yl)
 	45.5416666666666666
 		fyl::{(*|x)-*x}'f
 		fyl::fyl@<fyl
@@ -199,6 +209,12 @@ was 169 (lowest/highest for males: 1/82, lowest/highest for females: 6/169).
 	6
 		*|fyl
 	169
+		sd(estages)
+	14.4566526421722967
+		sd(mestages)
+	13.8422517635064537
+		sd(festages)
+	14.9593731281680085
 
 Code for the image:
 

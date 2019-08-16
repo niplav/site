@@ -1390,33 +1390,45 @@ operations:
 
 That was easy.
 
-<!--
-TODO: Decide on what to do with P47/P48, then implement the correct and good solution.
--->
+This problem is not really made for Klong. It asks to execute a function
+on a list of binary inputs, but doesn't represent these inputs as a list,
+and instead treats each one of them as a separate argument, while using
+a list and indexing it would be a much simpler and cleaner solution.
 
-Now, the important question: Should I make the argument function a monad,
-simply taking a list of arguments, or, more closely to the original
-problem statement, make it a dyad? The dyad approach is quite limited
-and will not work on P48 (there are no functions with more than 3 arguments
-in Klong).
+Since P47 and P48 can't be implemented nicely, P46 is reduced to mapping
+the function given as an argument over the binary representations of
+all the numbers from 0 to 3, and then formatting and printing the results.
+The formatting simply consists of converting the binary values to strings
+and concatenating them with tabs.
 
-Dyad solution:
+	s46::{[f];f::x;.p'{x,"	",y}/'${x,f@x}'[[0 0][0 1][1 0][1 1]]}
+	table1::s46
+
+A tests show that it works as intended:
+
+		table1({and(x;or(x;y))})
+	0	 0	 0
+	0	 1	 0
+	1	 0	 1
+	1	 1	 1
+	["0     0       0" "0   1       0" "1   0       1" "1   1       1"]
+
+There are two longer and more general solution that could be helpful
+for P47 and P48 in the future. Both contain helper functions for converting
+numbers to binary.
+
+Solution with a separate helper function `c1` that creates the binary
+numbers:
+
+	c1::{(-x)#(&x),{:[x;.f(x:%2),x!2;0]}:(y)}
+	s46::{[f];f::x;.p'{x,"  ",y}/'${x,f@x}'c1(2;)'!4}
+
+Solution with another separate function `c2` that creates all binary
+numbers of length x.
 
 	c1::{(-x)#(&x),{:[x;.f(x:%2),x!2;0]}:(y)}
 	c2::{{c1@x}'x,:\(!2^x)}
-	s46::{[f];f::x;.p'{x,f@x}'c2(2)}
-
-Solution with `c2` inlined:
-
-	c1::{(-x)#(&x),{:[x;.f(x:%2),x!2;0]}:(y)}
-	s46::{[f];f::x;.p'{x,f@x}'c1(2;)'!4}
-
-Old solution:
-
-	c1::{(-x)#(&x),{:[x;.f(x:%2),x!2;0]}:(y)}
-	c2::{{c1@x}'x,:\(!2^x)}
-	c3::{[f];f::x;{(,x),,,f(x)}'c2(y)}
-	s46::{c3(x;2)}
+	s46::{[f];f::x;.p'{x,"  ",y}/'${x,f@x}'c2(2)}
 
 ### P47 (*) Truth tables for logical expressions (2).
 
