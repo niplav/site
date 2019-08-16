@@ -470,7 +470,7 @@ if both A and B succeed. Note that A and B can be Klong function calls
 (not only the constants 1 and 0 (for true and false)).
 
 A logical expression in two variables can then be written in
-prefix notation, as in the following example: `and(or(A;B);nand(A;B))`.
+prefix notation, as in the following example: `and(or(x;y);nand(x;y))`.
 Now, write a function `table` which prints the truth table of a
 given logical expression in two variables.
 
@@ -484,8 +484,12 @@ Example:
 
 ### P47 (*) Truth tables for logical expressions (2).
 
-__Note: This seems syntactically impossible in Klong. Ignore this
-problem if it is, otherwise contact me with your solution, please.__
+__Note: This seems syntactically impossible in Klong if the original
+problem is translated literally, since inline operators are not
+implemented. Ignore this problem if it is, otherwise contact me with
+your solution, please. I am thinking about whether to convert it to a
+string/list parsing problem (the expression is a string/list) but that
+seems unsatisfactory.__
 
 Continue problem P46 by defining `and`, `or`, etc as being operators. This
 allows to write the logical expression in the more natural way, as in the

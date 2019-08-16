@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-07-28, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-08-16, language: english, status: in progress, importance: 2, confidence: log*
 
 > __[Rationalists](https://en.wikipedia.org/wiki/LessWrong) and the
 > [neoreactionary movement](https://en.wikipedia.org/wiki/Dark_Enlightenment)
@@ -90,9 +90,9 @@ The Goddess of Everything Else
 See Also
 --------
 
-> The Wages of Sin is Death.
+> the wages of sin is death
 
-*– [Rudyard Kipling](https://en.wikipedia.org/wiki/Rudyard_Kipling), [“The Gods of the Copybook Headings”](https://en.wikipedia.org/wiki/The_Gods_of_the_Copybook_Headings), 1919*
+*– [Romans 6:23](https://www.biblegateway.com/passage/?search=Romans+6&version=NIV) in [The Bible](https://en.wikipedia.org/wiki/Bible)*
 
 * [The Gods of the Copybook Headings](http://www.kiplingsociety.co.uk/poems_copybook.htm)
 * [Cthulhu Mythos Deities](https://en.wikipedia.org/wiki/Cthulhu_Mythos_deities)

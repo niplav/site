@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-08-12, language: english, status: draft, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-04-11, modified: 2019-08-15, language: english, status: draft, importance: 4, confidence: unlikely*
 
 > __In western cultures, it is nearly universal for people to clap
 > before and after pieces of classical music and jazz. An argument
@@ -35,7 +35,7 @@ analogy with visual art would be putting tv screens with static next to
 pieces of abstract art (and not as part of the art work!). This could
 perhaps fit with some pieces of art, but would mostly be distracting
 and counter-productive to understanding the piece. So, why does a society
-put noise before, after, and sometimes even into music?
+put noise before, after, and sometimes even between pieces music?
 
 On the contrary, treating classical music like visual art would imply creating
 a fitting soundscape around a piece of music. Concretely, this could
@@ -60,10 +60,20 @@ and distraction before and after music.
 ### Preventing Incorrect Clapping
 
 The exact fitting moments of applause are a difficult topic in classical
-music and the source of many faux-pas<!--TODO: correct plural?-->,
+music and the source of many mistakes on the side of the audience,
 abolishing applause would remove these mistakes, but also prevent the
 ability to signal status and knowledge by knowing where to clap (and
 the possibility to keep out ignorant philistines).
+
+<!--TODO: check whether this is correct-->
+
+Examples for such incorrect applause is clapping prematurely, clapping
+after an aria in an opera, applause between different movements of the
+same piece (for different pieces, this is fine though‽) and clapping
+after a particularly impressive solo (which is okay in Jazz, but not in
+classical music).
+
+All of this confusion could be avoided by eschewing applause entirely.
 
 Counterarguments
 ----------------

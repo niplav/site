@@ -71,8 +71,6 @@ languages or exercising language skills that would otherwise be forgotten.
 For that reason, they can be of quite low quality, so I'm always grateful
 for corrections sent my way.
 
-#### Music Recordings
-
 #### Programming Projects
 
 This site also acts as a central place of organisation for different

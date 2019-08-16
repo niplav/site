@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-08-07, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-05-22, modified: 2019-08-15, language: english, status: in progress, importance: 3, confidence: unlikely*
 
 > __Short texts on different topics.__
 
@@ -149,7 +149,8 @@ developing societies before they can start to colonize their own galaxy.
 One big question that poses itself is whether humanity is
 before or after such a filter. Some examples of potential
 filters that still await humanity are named in [Bostrom
-2008](./doc/notes/where_are_they_bostrom_2008.pdf):
+2008](./doc/silent_killers/where_are_they_bostrom_2008.pdf "“Where
+Are They?” (Nick Bostrom, 2008)"):
 
 > We can identify a number of potential existential risks: nuclear
 > war fought with stockpiles much greater than those that exist today

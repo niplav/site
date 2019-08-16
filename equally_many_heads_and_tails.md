@@ -168,6 +168,10 @@ Induction step:
 This is equivalent to [a recursive definition](https://oeis.org/A000108)
 of the Catalan numbers in the OEIS (sixth formula).
 
+<!--TODO: This seems a tiny bit fishy: There is probably an offset here
+(first value of the catalan numbers is not used, so the whole sequence
+is shifted. Look at this.-->
+
 ### Probability of Finishing at `$2*n$` Steps
 
 So, what's the probability of finishing given `2*n` steps now? Simple:
