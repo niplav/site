@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-10, modified: 2019-08-15, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-10, modified: 2019-08-18, language: english, status: in progress, importance: 2, confidence: log*
 
 > __A while ago, I became interested in personal estimations
 > of life expectancy. I wanted to know how accurate people are
@@ -485,6 +485,39 @@ woul tend).  One could also argue that self-reported data is [notoriously
 unreliable](https://guzey.com/statistics/dont-believe-self-reported-data/),
 but since the point of this data collection was to aggregate subjective
 estimates, this should not be an issue here.
+
+### Gender was Determined by Appearance
+
+The gender of the respondent was determined by a subjective estimate
+by the interrogator, which can lead to some problems in regard to
+incorrect perception by the interrogator (for example misgendering trans
+people). If there had been uncertainty about the gender, the respondent
+would have been asked about their identified gender. This was not done
+on all respondents, since it would have increased the response time and
+therefore decreased the amount of usable responses.
+
+<!--TODO Question: How many people pass as gender X, but identify as gender Y≠X?-->
+<!--TODO: Calculate probability of encountering a trans person during interrogation,
+as well as the probability of misgendering them. Code:
+
+	$ kg -l nstat
+		:"probability of being trans"
+		pt::0.001
+		:"probability of passing"
+		pp::0.9
+		"number of people asked"
+		n::228
+		:"maximum number of trans people"
+		maxt::10
+		:"probability of encountering at least 1 trans person"
+		1-b.pmf(0;n;pt)
+	0.203966553701103158
+		:"probability of encountering at least 1 trans person and misgendering them"
+		+/{(1-b.pmf(x;x;pp))*b.pmf(x;n;pt)}'1+!maxt
+	0.0225431585591413277
+
+Assuming P(X ist trans)≅0.1%, I met at most 4 trans people.
+-->
 
 Conclusion
 -----------
