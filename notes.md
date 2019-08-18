@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-08-15, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-05-22, modified: 2019-08-18, language: english, status: in progress, importance: 3, confidence: unlikely*
 
 > __Short texts on different topics.__
 
@@ -190,3 +190,29 @@ is not a loud killer, since many civilizations will have encountered the
 same catastrophe, but we do not observe any such irregular phenomena
 when examining the universe. This is presumably good news, since it
 restricts the amount of possible filters still ahead of us.
+
+Compliments as Utilitarian Practice
+===================================
+
+<!--
+TODO
+Questions:
+
+How often do people get compliments?  
+What is the value of a compliment, i.e how much better does somebody feel upon getting a compliment?
+How much is the value of a compliment dependent on the characteristics of the compliment-giver (e.g. stranger/acquaintance, age, gender, attractiveness etc.)?
+How able are people to identify fake compliments?
+What is more worth: A weird/creative compliment or a standard compliment?
+	Example:
+	"I like your hat!"
+	vs.
+	"Your hat reminds me of a painting of an revolutionary from the French Revolution!"/
+	"You walk like you had a galaxy for breakfast."
+
+-->
+
+It seems like <!--TODO: source here, perhaps a link to reddit of people
+complaining about not getting enough compliments--> people don't get
+as many compliments as they want, and that getting a compliment greatly
+enhances the quality of their lives. <!--Again, link to a reddit thread
+of people talking about how they remember compliments from years ago.-->

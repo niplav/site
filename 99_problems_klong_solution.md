@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-08-07, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-08-16, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -1430,6 +1430,10 @@ numbers of length x.
 	c2::{{c1@x}'x,:\(!2^x)}
 	s46::{[f];f::x;.p'{x,"  ",y}/'${x,f@x}'c2(2)}
 
+Note that these are just code saved for a later point where I might
+revisit P47 and P48 to solve them appropriately as well.
+
+<!--
 ### P47 (*) Truth tables for logical expressions (2).
 
 	s47::{s46(x)}
@@ -1437,6 +1441,7 @@ numbers of length x.
 ### P48 (**) Truth tables for logical expressions (3).
 
 	s48::{c3(x;y)}
+-->
 
 ### P49 (**) Gray code.
 
