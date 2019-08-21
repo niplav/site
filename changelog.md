@@ -15,6 +15,7 @@ August 2019
 
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
 * [Solutions to P40, P41, and P49 of the 99 Klong Problems](./99_problems_klong_solution.html#P40--Goldbachs-conjecture)
+* [Compliments as Utilitarian Practice](./notes.html#Compliments-as-Utilitarian-Practice)
 
 <!--
 * Finished [About](./about.md)

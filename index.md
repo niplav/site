@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png)
 
-*author: niplav, created: 2019-03-20, modified: 2019-08-13, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2019-08-20, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -33,6 +33,7 @@ Writing
 	* [Against Applause After Classical Concerts](./against_applause.md)
 * Other
 	* [K-99: Ninety-Nine Klong Problems](./99_klong_problems.md)
+	* [Notes](./notes.md)
 
 ### Fiction
 
@@ -80,6 +81,5 @@ Miscellaneous
 * [About](./about.md)
 * [Changelog](./changelog.md)
 * [Contributions](./contributions.md)
-* [Notes](./notes.md)
 * [Now](./now.md)
 * [Uses This](./uses_this.md)

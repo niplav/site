@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-08-18, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-05-22, modified: 2019-08-20, language: english, status: in progress, importance: 3, confidence: unlikely*
 
 > __Short texts on different topics.__
 
@@ -192,27 +192,137 @@ when examining the universe. This is presumably good news, since it
 restricts the amount of possible filters still ahead of us.
 
 Compliments as Utilitarian Practice
-===================================
-
-<!--
-TODO
-Questions:
-
-How often do people get compliments?  
-What is the value of a compliment, i.e how much better does somebody feel upon getting a compliment?
-How much is the value of a compliment dependent on the characteristics of the compliment-giver (e.g. stranger/acquaintance, age, gender, attractiveness etc.)?
-How able are people to identify fake compliments?
-What is more worth: A weird/creative compliment or a standard compliment?
-	Example:
-	"I like your hat!"
-	vs.
-	"Your hat reminds me of a painting of an revolutionary from the French Revolution!"/
-	"You walk like you had a galaxy for breakfast."
-
--->
+------------------------------------
 
 It seems like <!--TODO: source here, perhaps a link to reddit of people
 complaining about not getting enough compliments--> people don't get
 as many compliments as they want, and that getting a compliment greatly
 enhances the quality of their lives. <!--Again, link to a reddit thread
 of people talking about how they remember compliments from years ago.-->
+Some people even report to remember compliments months or even years after
+they get them and are very happy about them.
+
+This creates a good opportunity for utilitarians (both hedonic and
+preference) to use otherwise wasted time. Since there is often time
+where one has nothing to do (e.g waiting at a trainstation, an airport,
+or while at the checkout line at the grocery store)) and that can't
+be used productively otherwise, a utilitarian could make somebody a
+compliment in that time. This is of course only advisable if the time
+can't be used productively otherwise (for example by earning money to
+donate, learning something or contributing to a project).
+
+There seem to be two advantages in this scenario, one for the
+compliment-giver and one for the compliment-receiver. Giving compliments
+is usually fun, and therefore makes both the compliment-giver and
+the compliment-receiver happier. It also entails contact with other
+humans in a positive situation, and might be useful for increasing the
+compliment-giver's well-being and therewith productivity.
+
+Since utilitarians would care about the marginal value of a compliment,
+it would be best to give compliments to people who receive the highest
+marginal value by a compliment. This would probably be people who rarely
+receive compliments (under the assumption that compliments have steeply
+diminishing marginal returns), which would perhaps include people who
+are not conventionally attractive, male, and not very well dressed.
+When giving these people compliments, there seems to be a problem:
+It might not be as easy to give them genuine compliments as to more
+conventionally attractive and stylish people, but one can give dishonest
+compliments instead. This would lead to two possible problems:
+
+1. People might interpret these compliments as advice on what to wear
+and how to look, and since this perceived advice might be harmful, it
+may have slight negative effects on social success.
+
+2. People might be good at recognising dishonest compliments and
+be offended or even sad about the dishonest compliment.
+
+Since it doesn't seem hard to find at least one positive aspect of the
+visual appearance of a person, it seems advisable to eschew <!--TODO:
+"vermeiden" in english?--> dishonest but positive compliments.
+
+However, suffering-focused consequantialists <!--TODO: Wikipedia
+link here!--> probably have less incentives to give compliments,
+since compliments simply seem to enhance the well-being of a person,
+and compliments to random strangers would rarely be given to people who
+suffer greatly. A weak case can be made that compliments seem to have a
+long-term effect on well-being and might rarely play a role in reducing
+negative effects of depression. Still, negative utilitarians have the
+same otherwise unusable time of waiting in public space, and might want
+to capitalize on this small opportunity.
+
+### Caveats
+
+If one is not properly socially calibrated, a compliment could be
+perceived as weird or intrusive and not achieve the desired result of
+making the other person feel better. This could also be a problem if
+the value of a compliment is heavily dependent on characteristics of
+the person giving the compliment.
+
+It seems like men often perceive a compliment
+by a woman as an indicator of interest <!-- TODO: read
+/usr/local/doc/unread/blackpill/the_misperception_of_sexual_interest_perilloux_et_al_2012.pdf
+and quote it--> and respond with flirting. And related to the caveat
+about social calibration, compliments by men might be misperceived as
+an attempt at flirting or even cat-calling <!--TODO: wikipedia link-->
+and make the woman receiving the compliment uncomfortable.
+
+It could be that compliments on visual appearance further a very shallow
+and visual image of attractiveness. If the effects of this are strong,
+it might be advisable to instead give compliments to acquaintances and
+compliment their personality instead of their appearance. However, this
+seems unlikely.
+
+### Questions
+
+* How often do people receive compliments?
+* Who receives the most/least compliments (gender, age, attractiveness, race etc.)
+* What is the value of a compliment, i.e how much better does somebody feel upon receiving a compliment (short-term as well as long-term)?
+
+<!--
+* https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/
+* https://old.reddit.com/r/AskMen/comments/a927iv/men_of_reddit_what_are_some_compliments_i_can/
+* https://old.reddit.com/r/fragrance/comments/auz1a0/whats_your_biggest_compliment_giver/
+* https://old.reddit.com/r/AskReddit/comments/b62q7x/what_was_a_small_compliment_that_you_have/
+* https://old.reddit.com/r/AskMen/comments/aryimh/as_someone_who_thinks_that_guys_dont_get_alot_of/
+* https://old.reddit.com/r/AskReddit/comments/5rq1oz/ladies_what_is_a_compliment_men_give_that_you/
+* https://old.reddit.com/r/AskMen/comments/51lnum/whats_the_best_compliment_youve_ever_received/
+* https://old.reddit.com/r/AskReddit/comments/cflyop/what_is_the_best_compliment_youve_ever_received/
+* https://old.reddit.com/r/AskReddit/comments/cc8h6j/whats_the_best_compliment_youve_ever_received/
+-->
+
+> “I’m pretty sure that you might be partly a genius” - boss. […]
+> I know he was blowing smoke because he immediately asked me to Do a
+> Thing, but __it was a nice moment of vindication for me__.
+
+*– [Princ3Ch4rming](https://old.reddit.com/user/Princ3Ch4rming), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6lq0ff/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
+
+Emphasis mine.
+
+> In 8th grade, every morning when coming to school, I had to go through
+> the cafeteria to get to my class and my favorite teacher would always
+> sit there having her morning coffee. I would always smile and say good
+> morning as I pass by. One morning she suddenly stopped me and said
+> "I just want to say that it really makes me happy seeing you smile so
+> wide to me every morning". No one had ever pointed out my smile before,
+> at least not like that. __Felt a glow for days__.
+
+*– [yudodisdolan](https://old.reddit.com/user/yudodisdolan), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6lr3cs/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
+
+Emphasis mine.
+
+> When my wife says she is proud of me. __That's the best thing anyone
+> has ever said to me__.
+
+*– unknown redditor, [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6lpg1p/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
+
+Emphasis mine.
+
+Problem: These questions pose quite a selection bias: Nobody who has
+received a compliment and thought nothing of it bothers to write a reddit
+comment about that.
+
+* What are the diminishing returns on compliments?
+* How much is the value of a compliment dependent on the characteristics of the compliment-giver (e.g. stranger/acquaintance, age, gender, attractiveness etc.)?
+* How able are people to identify fake compliments?
+* How often do people see compliments as advice?
+* What is more worth: A weird/creative compliment or a standard compliment? (Example: "I like your hat!" vs. "Your hat reminds me of a painting of a revolutionary from the French Revolution!")

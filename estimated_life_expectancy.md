@@ -137,7 +137,7 @@ Code for the image:
 
 	draw()
 
-![The ages of the participants](./img/estimated_life_expectancy/ages.png)
+![The ages of the participants](./img/estimated_life_expectancy/ages.png "The ages of the participants: Scatterplot where the data points are sorted, male age grows a little bit slower than female age, and female age has a gap between 42 and 50")
 
 <!--TODO: there is an annoying red line at the border of the image here
 and in est_ages.png. Fix that.-->
@@ -239,7 +239,7 @@ Code for the image:
 
 	draw()
 
-![Subjective life expectancies of the participants](./img/estimated_life_expectancy/est_ages.png)
+![Subjective life expectancies of the participants](./img/estimated_life_expectancy/est_ages.png "Subjective life expectancies of the participants: Scatterplot of the estimated ages shows that most people estimate to become around 80 years old, with some outliers on the lower & upper end. Male and female plots grow equally fast.")
 
 The black line between the blue line for the male average estimated age
 and the red line for female average estimated age is for the overall
@@ -496,31 +496,49 @@ would have been asked about their identified gender. This was not done
 on all respondents, since it would have increased the response time and
 therefore decreased the amount of usable responses.
 
-<!--TODO Question: How many people pass as gender X, but identify as gender Y≠X?-->
-<!--TODO: Calculate probability of encountering a trans person during interrogation,
-as well as the probability of misgendering them. Code:
+One can do a quick statistical estimate of the probability of
+encountering and misgendering a trans person. According to [Flores et al.
+2016](./doc/estimated_life_expectancy/how_many_adults_identify_as_transgender_us_flores_et_al_2016.pdf
+"“How Many Adults Identify as Transgender in the United States”
+(Flores et al., 2016)"), 0.6% of the U.S. adult population identifies
+as transgender. It is assumed that the numbers for Germany are similar.
+<!--TODO: Find a german source--> It is also assumed that the probability
+for a trans person passing is around 90%.
 
-	$ kg -l nstat
+One can then use the binomial distribution to estimate the probability of
+misgendering at least one trans person. The code is in Klong. <!--TODO:
+links for binomial distribution and Klong--> The probability of misgendering
+at least one trans person is calculated by calculating the probability of
+encountering n≤maxt trans people, multiplied with the probability of not
+correctly gendering all of them.
+
+		.l("nstat")
 		:"probability of being trans"
-		pt::0.001
+		pt::0.006
 		:"probability of passing"
 		pp::0.9
 		"number of people asked"
 		n::228
-		:"maximum number of trans people"
-		maxt::10
+		:"maxt is the number so that the probability that I met"
+		:"more than maxt trans people is less than 1 in a billion."
+		maxt::{(1-b.cdf(x;n;pt))>10e-9}{x+1}:~1
 		:"probability of encountering at least 1 trans person"
 		1-b.pmf(0;n;pt)
-	0.203966553701103158
+	0.746431300882205564
 		:"probability of encountering at least 1 trans person and misgendering them"
-		+/{(1-b.pmf(x;x;pp))*b.pmf(x;n;pt)}'1+!maxt
-	0.0225431585591413277
+		+/{(1-pp^x)*b.pmf(x;n;pt)}'1+!maxt
+	0.127891167281387041
 
-Assuming P(X ist trans)≅0.1%, I met at most 4 trans people.
--->
+The result shows that the probability of encountering and misgendering at
+least one trans person (and therefore at least one incorrect data point)
+is ~10%.
+
+<!--TODO Question: How many people pass as gender X, but identify as gender Y≠X?-->
 
 Conclusion
 -----------
+
+### Comparison with Existing Results
 
 See Also
 --------

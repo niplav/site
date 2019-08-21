@@ -278,7 +278,7 @@ up. A good reason might have been that I only visited sites that were
 poorly organised and contained little to no personal long-term content
 (either blogs focused on new posts or simply haphazard aggregations
 of short ideas (like in the form of [2f30.org](http://2030.org) or the
-[suckless.org wiki](https://suckless.org/wiki/).
+[suckless.org wiki](https://suckless.org/wiki/)).
 
 This was changed upon discovering [gwern.net](https://www.gwern.net)
 and [reducing-suffering.org](https://reducing-suffering.org): both gave
