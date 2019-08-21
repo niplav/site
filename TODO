@@ -1,7 +1,10 @@
 Site:
-	Use unicode in every formula that doesn't need MathJax
-	Make more mobile-friendly
-	Add tooltips to links (“Title of Text” (Author name(s), year))
+	* Use unicode in every formula that doesn't need MathJax
+	* Make more mobile-friendly
+	* Add tooltips to links (“Title of Text” (Author name(s),
+		year)) and for images (for visually impaired users)
+
+Find out how to make the site more inclusive
 
 Texts:
 

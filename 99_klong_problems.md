@@ -257,7 +257,7 @@ Example:
 
 ### P27 (**) Group the elements of a set into disjoint subsets.
 
-a) In how many ways can a group of 9 people work in 3 disjoint
+(a) In how many ways can a group of 9 people work in 3 disjoint
 subgroups of 2, 3 and 4 persons? Write a function that generates all
 the possibilities and returns them in a list.
 
@@ -267,7 +267,7 @@ Example:
 	[[[:aldo :beat] [:carla :david :evi] [:flip :gary :hugo :ida]]
 	...]
 
-b) Generalize the above function in a way that we can specify a list
+(b) Generalize the above function in a way that we can specify a list
 of group sizes and the function will return a list of groups.
 
 Example:
@@ -288,7 +288,7 @@ coefficients"](https://en.wikipedia.org/wiki/Multinomial_theorem#Multinomial_coe
 
 ### P28 (**) Sorting a list of lists according to length of sublists.
 
-a) We suppose that a list contains elements that are lists themselves. The
+(a) We suppose that a list contains elements that are lists themselves. The
 objective is to sort the elements of this list according to their
 length. E.g. short lists first, longer lists later, or vice versa.
 
@@ -297,7 +297,7 @@ Example:
 		lsort([[:a :b :c] [:d :e] [:f :g :h] [:d :e] [:i :j :k :l] [:m :n] [:o]])
 	[[:o] [:d :e] [:d :e] [:m :n] [:a :b :c] [:f :g :h] [:i :j :k :l]]
 
-b) Again, we suppose that a list contains elements that are lists
+(b) Again, we suppose that a list contains elements that are lists
 themselves. But this time the objective is to sort the elements of this
 list according to their length frequency; i.e., in the default, where
 sorting is done ascendingly, lists with rare lengths are placed first,

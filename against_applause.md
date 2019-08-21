@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-08-15, language: english, status: draft, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-04-11, modified: 2019-08-20, language: english, status: draft, importance: 4, confidence: unlikely*
 
 > __In western cultures, it is nearly universal for people to clap
 > before and after pieces of classical music and jazz. An argument
@@ -67,11 +67,10 @@ the possibility to keep out ignorant philistines).
 
 <!--TODO: check whether this is correct-->
 
-Examples for such incorrect applause is clapping prematurely, clapping
-after an aria in an opera, applause between different movements of the
-same piece (for different pieces, this is fine though‽) and clapping
-after a particularly impressive solo (which is okay in Jazz, but not in
-classical music).
+Examples for such incorrect applause is clapping prematurely, applause
+between different movements of the same piece (for different pieces,
+this is fine though‽) and clapping after a particularly impressive solo
+(which is okay in Jazz, but not in classical music).
 
 All of this confusion could be avoided by eschewing applause entirely.
 
@@ -164,9 +163,7 @@ TODO: research this topic a lot more:
 * https://en.wikiquote.org/wiki/Applause
 * http://kerrygaa.proboards.com/thread/4484/minutes-silence-applause
 * http://www.footballforums.net/threads/minutes-silence-or-minutes-applause.193941/
-* http://changingminds.org/techniques/speaking/speaking_tips/getting_applause.htm
 * https://old.reddit.com/r/slatestarcodex/comments/9x323i/applause_vs_jazz_hands/
-* https://www.independent.co.uk/life-style/clapping-banned-manchester-university-students-union-jazz-hands-applause-a8566531.html
 * https://www.cpr.org/2014/06/09/the-clapping-question-should-classical-audiences-applaud-between-movements/
 * https://cjeller.wordpress.com/2015/08/09/against-applause/
 * https://affirmativeright.blogspot.com/2015/03/against-applause-cultivating-aesthetic.html
