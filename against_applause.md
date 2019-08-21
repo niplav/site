@@ -74,10 +74,100 @@ this is fine though‽) and clapping after a particularly impressive solo
 
 All of this confusion could be avoided by eschewing applause entirely.
 
+History
+-------
+
+<!--TODO: track down primary sources for this-->
+
+It seems like very similar arguments have been given in the history
+of music:
+
+> Schumann and Mendelssohn tacitly addressed the applause issue by
+writing certain major works without movement breaks. Call it pre-emptive
+composing, if you will.  For example, Mendelssohn explicitly asked that
+his "Scottish" Symphony, which debuted in 1842, be played without a
+break to avoid "the usual lengthy interruptions."  Schumann took care
+of the matter in a similar way in his piano and cello concerti as well
+as his Fourth Symphony.
+>
+As a respected critic of the time, Schumann also openly scolded audiences
+in print for their behavior.  He went on record as chiding them: "You
+should be turned to stone pagodas."
+>
+New Yorker critic Alex Ross [points the
+finger](http://www.therestisnoise.com/2005/02/applause_a_rest.html)
+at German composer Richard Wagner for
+instigating this change in audience behavior. [Ross
+says](http://alexrossmusic.typepad.com/files/rps_lecture_2010_alex-ross.pdf)
+the ball got rolling in Bayreuth at the premiere of Wagner's opera
+"Parsifal" in 1882.
+>
+According to Wagner's wife, the audience raised such a ruckus after one
+of the acts that the composer spoke to them directly. He thanked them
+for their appreciation but mentioned the agreement he'd made with the
+cast -- "in order not to impinge on the impression, not to take a bow,
+so that there would be no 'curtain calls.'"
+>
+Applauders were apparently hissed in subsequent performances for failing
+to honor this request.
+>
+By around 1900, a segment of the public had embraced the concert hall
+as a hallowed space. Howard Shanet references a pre-World War I era
+Encyclopedia Britannica article saying, "The reverential spirit which
+abolished applause in church has tended to spread to the theatre and
+the concert-room."
+>
+As Ross documents, the movement gathered more steam in this country
+around the time of the Great Depression, spearheaded by conductor
+Leopold Stokowski.
+>
+Stokowski went so far as to propose audiences stop applauding altogether,
+lest it intrude on the divinity of the concert experience: “When you
+see a beautiful painting you do not applaud. When you stand before a
+statue, whether you like it or not, you neither applaud nor hiss.”
+On the other hand, Russian-born American conductor Ossip Gabrilowitsch
+praised the southern Europeans who "shout when they are pleased; and
+when they are not, they hiss and throw potatoes." And he chided passive
+audiences: “It is a mistake to think you have done your part when you
+buy your tickets.” Halfway through the 20th century the conductor Pierre
+Monteux sided with the great composers of the past: "I do have one big
+complaint about audiences in all countries, and that is their artificial
+restraint from applause between movements or a concerto or symphony. …
+It certainly does not fit in with the composers’ intentions."
+
+*– [Jean Inaba](https://www.cpr.org/author/jean-inaba/), [“The clapping question: Should classical audiences applaud between movements?”](https://www.cpr.org/2014/06/09/the-clapping-question-should-classical-audiences-applaud-between-movements/), 2014*
+
+Musicians have also given very similar arguments to the one presented here:
+
+> Chicago Symphony Orchestra bassoonist William Buchman
+[asserted](http://articles.chicagotribune.com/2012-05-29/entertainment/ct-ent-0529-applause-during-performance-20120529_1_clap-classical-music-cso/2)
+in 2012 that absolute quiet is as important to a work as the notes
+themselves: "The silence is as profound as some of the music, and when
+that silence is not allowed its space, you lose a lot of the emotional
+impact that the silence can otherwise generate."
+
+*– [Jean Inaba](https://www.cpr.org/author/jean-inaba/), [“The clapping question: Should classical audiences applaud between movements?”](https://www.cpr.org/2014/06/09/the-clapping-question-should-classical-audiences-applaud-between-movements/), 2014*
+
+But, historically, this perspective is quite uncommon:
+
+> Mozart would've loved hearing the applause. So would Brahms. And
+Beethoven and Grieg and a lot of other composers.
+>
+In their day, audiences spontaneously clapped when they heard something
+they really liked – even if it meant breaking into the music before
+its conclusion.
+
+*– [Jean Inaba](https://www.cpr.org/author/jean-inaba/), [“The clapping question: Should classical audiences applaud between movements?”](https://www.cpr.org/2014/06/09/the-clapping-question-should-classical-audiences-applaud-between-movements/), 2014*
+
+However, one could argue that the trend in classical music is from loud
+and frequent applause towards a more quiet and refined appreciation
+of the music, and that the logical conclusion of this development is
+absolute silence before, during, and after a classical piece.
+
 Counterarguments
 ----------------
 
-### Applause Does Fit Because of Cultural History
+### Applause Fits Because of Cultural History
 
 Just like the tuning of the instruments before a classical concert,
 applause can be considered an important part of the ritual that goes
@@ -109,7 +199,7 @@ popularity after a while because of a status as especially knowledgeable
 coinisseurs of classical music. And the status signalling treadmill turns
 and turns.
 
-### Applause is Useful for Appreciation
+### Applause is Useful for Appreciation and Communication for Feedback
 
 Of course, all if this argumentation ignores the main function of
 applause: Showing appreciation for the musicians'<!--Genitive for
@@ -164,7 +254,7 @@ TODO: research this topic a lot more:
 * http://kerrygaa.proboards.com/thread/4484/minutes-silence-applause
 * http://www.footballforums.net/threads/minutes-silence-or-minutes-applause.193941/
 * https://old.reddit.com/r/slatestarcodex/comments/9x323i/applause_vs_jazz_hands/
-* https://www.cpr.org/2014/06/09/the-clapping-question-should-classical-audiences-applaud-between-movements/
+* https://www.cpr.org/2014/06/09/the-clapping-question-should-classical-audiences-applaud-between-movements/: IMPORTANT, follow the links
 * https://cjeller.wordpress.com/2015/08/09/against-applause/
 * https://affirmativeright.blogspot.com/2015/03/against-applause-cultivating-aesthetic.html
 -->

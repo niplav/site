@@ -277,18 +277,13 @@ seems unlikely.
 * How often do people receive compliments?
 * Who receives the most/least compliments (gender, age, attractiveness, race etc.)
 * What is the value of a compliment, i.e how much better does somebody feel upon receiving a compliment (short-term as well as long-term)?
+* What are the diminishing returns on compliments?
+* How much is the value of a compliment dependent on the characteristics of the compliment-giver (e.g. stranger/acquaintance, age, gender, attractiveness etc.)?
+* How able are people to identify fake compliments?
+* How often do people see compliments as advice?
+* What is more worth: A weird/creative compliment or a standard compliment? (Example: "I like your hat!" vs. "Your hat reminds me of a painting of a revolutionary from the French Revolution!")
 
-<!--
-* https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/
-* https://old.reddit.com/r/AskMen/comments/a927iv/men_of_reddit_what_are_some_compliments_i_can/
-* https://old.reddit.com/r/fragrance/comments/auz1a0/whats_your_biggest_compliment_giver/
-* https://old.reddit.com/r/AskReddit/comments/b62q7x/what_was_a_small_compliment_that_you_have/
-* https://old.reddit.com/r/AskMen/comments/aryimh/as_someone_who_thinks_that_guys_dont_get_alot_of/
-* https://old.reddit.com/r/AskReddit/comments/5rq1oz/ladies_what_is_a_compliment_men_give_that_you/
-* https://old.reddit.com/r/AskMen/comments/51lnum/whats_the_best_compliment_youve_ever_received/
-* https://old.reddit.com/r/AskReddit/comments/cflyop/what_is_the_best_compliment_youve_ever_received/
-* https://old.reddit.com/r/AskReddit/comments/cc8h6j/whats_the_best_compliment_youve_ever_received/
--->
+### Reddit Compliments About Compliments
 
 > “I’m pretty sure that you might be partly a genius” - boss. […]
 > I know he was blowing smoke because he immediately asked me to Do a
@@ -317,12 +312,77 @@ Emphasis mine.
 
 Emphasis mine.
 
+> This one girl liked my laugh. First off she told me it was
+> contagious. She then sometimes would just comment on how I can find
+> joy and amusement in the smallest things and such. […]  They're [the
+> compliments] unforgettable, because __as a guy, I find it very hard to
+> receive complements more than one or twice a year when you're not fishing
+> for them__. Especially ones not relating to your new sweater but things
+> about YOU personally. It just doesn't happen. Unless you count your mom's
+
+*– [nikolakis7](https://old.reddit.com/user/nikolakis7), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6ltxwt/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
+
+Emphasis mine.
+
+Besides illustrating that there might be a gender-gap in receiving
+compliments, it also shows that there might be some preference for
+compliments by acquaintances, on not directly visible characteristics,
+which speaks slightly against giving compliments to strangers.
+
+> When I was living in Scotland, there were two girls in a public square
+with a booth for some kind of campaign I can't remember. When I went
+past them, I smiled and one of them asked me to take a picture with them
+"because I was handsome". __I went for years alone on that compliment__.
+
+*– [Motorchampion](https://old.reddit.com/user/Motorchampion), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
+
+Emphasis mine.
+
+Another [user](https://old.reddit.com/user/archon_rising) responds
+"I'd be milking that decades later too lol".
+
+It seems important that he was asked by women, which adds some credence
+to the hypothesis that characteristics of the compliment-giver are
+important.
+
+> "That jacket looks good on you." 4 years later, still wearing it
+
+*– [xaivteev](https://old.reddit.com/user/xaivteev), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6luike/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
+
+This indicates that comments might be taken as advice, which should lead
+to caution what to compliment.
+
+> A girl called me “ so witty” when I was 16 and it still gives me
+> a boost on bad days
+
+*– [huxception](https://old.reddit.com/user/huxception), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6ltl4g//) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
+
+Again, a compliment from the opposite sex seems worth more, at least
+for men. Perhaps because it signals sexual interest, which is an good
+position to be in.
+
+<!--Collect all top-level comments on these threads, analyse them after
+mentioning age/gender/race/relative status of the compliment-giver
+and the compliment-receiver, and the time-frame of the worth of the
+compliment. Compare them.  Data source: Reddit search for "compliment",
+"best compliment", "top compliment", analyse first 10 threads.  Other
+datapoints worth considering: was it taken as advice, which situation
+(acquaintance, stranger, unknown-->
+
+<!--
+* https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/
+* https://old.reddit.com/r/AskMen/comments/a927iv/men_of_reddit_what_are_some_compliments_i_can/
+* https://old.reddit.com/r/fragrance/comments/auz1a0/whats_your_biggest_compliment_giver/
+* https://old.reddit.com/r/AskReddit/comments/b62q7x/what_was_a_small_compliment_that_you_have/
+* https://old.reddit.com/r/AskMen/comments/aryimh/as_someone_who_thinks_that_guys_dont_get_alot_of/
+* https://old.reddit.com/r/AskReddit/comments/5rq1oz/ladies_what_is_a_compliment_men_give_that_you/
+* https://old.reddit.com/r/AskMen/comments/51lnum/whats_the_best_compliment_youve_ever_received/
+* https://old.reddit.com/r/AskReddit/comments/cflyop/what_is_the_best_compliment_youve_ever_received/
+* https://old.reddit.com/r/AskReddit/comments/cc8h6j/whats_the_best_compliment_youve_ever_received/
+-->
+
 Problem: These questions pose quite a selection bias: Nobody who has
 received a compliment and thought nothing of it bothers to write a reddit
 comment about that.
 
-* What are the diminishing returns on compliments?
-* How much is the value of a compliment dependent on the characteristics of the compliment-giver (e.g. stranger/acquaintance, age, gender, attractiveness etc.)?
-* How able are people to identify fake compliments?
-* How often do people see compliments as advice?
-* What is more worth: A weird/creative compliment or a standard compliment? (Example: "I like your hat!" vs. "Your hat reminds me of a painting of a revolutionary from the French Revolution!")
+<!--TODO: personal experience with giving compliments to strangers-->
