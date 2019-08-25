@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2019-08-02, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2019-08-23, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -28,7 +28,8 @@ Writing
 
 At the moment, I am writing [Against Applause After Classical
 Concerts](./against_applause.md) and collecting more methods for [Two
-People on a Planet](./two_people_on_a_planet.md).
+People on a Planet](./two_people_on_a_planet.md). But on the side,
+there are always small writing projects that will be released one day.
 
 Reading
 -------
@@ -38,7 +39,6 @@ Currently, I am reading the following books:
 * An Anarchist FAQ (Iain McKay/Gary Elkin/Dave Neal/Ed Boraas, 2009)
 * Strukturalismus – Eine Einführung (Lothar Fietz, 1982)
 * Naive Set Theory (Paul R. Halmos, 1960)
-* Snow Crash (Neal Stephenson, 1992)
 
 I am reading the following blogs:
 
@@ -60,8 +60,7 @@ Data Sets
 ---------
 
 I am currently collecting data on [estimated life
-expectancy](./data/estimated_life_expectancy.csv) and plan to write an
-essay on that sometime in the future.
+expectancy](./data/estimated_life_expectancy.csv).
 
 Music
 -----

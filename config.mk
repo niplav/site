@@ -20,6 +20,7 @@ HTML=index.html \
 	circle_combinations.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
+	haiku.html \
 	incels_political_program.html \
 	masturbation_and_attractiveness.html \
 	metamodernistisches_manifest.html \

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-08-16, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-08-23, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -29,8 +29,9 @@ Code
 ----
 
 The pure Klong code, without tests, explanations, comments or performance
-tests is available [here](./code/99_klong/sol.kg). It currently
-implements solutions for all problems up to P63, in 2837 bytes.
+tests is available [here](./code/99_klong/sol.kg). It currently implements
+solutions for all problems up to P63 (excluding P47 and P48), in 2700
+bytes.
 
 Conventions
 -----------
@@ -637,7 +638,7 @@ and now has to be converted into
 	kg -l ./p25plot.kg -e '[]' >runtimes25.eps
 	convert -size 750x750 runtimes25.eps runtimes25.png
 
-![Runtimes for the solutions to problem 3](./img/99_klong/runtimes25.png)
+![Runtimes for the solutions to problem 3](./img/99_klong/runtimes25.png "Runtimes for the solutions to problem 3. Fisher-Yates shuffle is alot slower than the shorter Grading shuffle (Fisher-Yates takes 3 seconds for 9K elements, Grading shuffle only 0.6 seconds), and also grows quicker.")
 
 The Fisher-Yates shuffle implementation seems to grow with `$O(n^2)$`,
 but the growth behavior of the Grading Shuffle is not entirely
@@ -930,7 +931,7 @@ Measuring runtimes of `s31.1` and generating the graph:
 	text(300;300;"s31.1")
 	draw()
 
-![Runtimes of s31.1](./img/99_klong/runtimes31_1.png)
+![Runtimes of s31.1](./img/99_klong/runtimes31_1.png "Runtimes of s31.1. The runtime grows linearly, with spikes in the runtime around the values 300K, 500K and 700K.")
 
 Measuring runtimes of `s31.2` and generating the graph:
 
@@ -947,7 +948,7 @@ Measuring runtimes of `s31.2` and generating the graph:
 	text(300;300;"s31.2")
 	draw()
 
-![Runtimes of s31.2](./img/99_klong/runtimes31_2.png)
+![Runtimes of s31.2](./img/99_klong/runtimes31_2.png "Runtimes of s31.2. The runtime seems to grow linearly, with spikes around values of 9G, 30G and 90G. s31.2 takes around 1 second for a value of 10G.")
 
 And, finally, I measure the runtimes of `s31.5` and generate the
 corresponding graph:
@@ -966,7 +967,7 @@ corresponding graph:
 	text(300;300;"s31.5")
 	draw()
 
-![Runtimes of s31.2](./img/99_klong/runtimes31_5.png)
+![Runtimes of s31.5](./img/99_klong/runtimes31_5.png "Runtimes of s31.5. It is not clear whether the function grows linearly or quadratically. But it also has spikes, this time around 100K, 200K, 400K and 650K. It takes around 3 seconds for a value of 600K.")
 
 As one can see, both grow approximately linearly, and `s31.5` is around
 twice as slow as `s31.1`, while having the same growth behavior. I am
@@ -1221,7 +1222,7 @@ surpassed by `s34` at some point.
 	text(200;250;"phi function with prime factors")
 	draw()
 
-![Runtimes of the naive phi function and the prime factor version](./img/99_klong/runtimes38.png)
+![Runtimes of the naive phi function and the prime factor version](./img/99_klong/runtimes38.png "Runtimes of the naive phi function and the prime factor version. The prime factor version of the function grows much faster than the naive phi implementation, but it seems unclear whether it has a different growth behavior. The naive phi function stays very near the X-axis, with runtimes of 0.05 seconds or less for values where the prime factor version takes almost a second.")
 
 As one can easily see, this is not the case. This is not surprising,
 since calculating prime factors is generally slow (and even slower here,
@@ -1423,7 +1424,7 @@ numbers:
 	c1::{(-x)#(&x),{:[x;.f(x:%2),x!2;0]}:(y)}
 	s46::{[f];f::x;.p'{x,"  ",y}/'${x,f@x}'c1(2;)'!4}
 
-Solution with another separate function `c2` that creates all binary
+Solution with another separate function `c` that creates all binary
 numbers of length x.
 
 	c1::{(-x)#(&x),{:[x;.f(x:%2),x!2;0]}:(y)}
@@ -1495,11 +1496,50 @@ That seems to work well:
 		frq("aabbccccca")
 	[[3 0ca] [2 0cb] [5 0cc]]
 
-The implementation of the Huffman code.
+The implementation of the Huffman code is not very complicated, although it might
+look like that on the first view. It was initially separated into three functions,
+but for sake of brevity two of them have been contracted.
 
-	c4::{(,((**x)+*x@1),(,*x),,(x@1)),2_x}
-	c5::{:[2=#x;,(,y),x@1;.f(x@1;y,0),.f(x@2;y,1)]}
-	s50::{c5(*{~1=#x}{c4(x@<*'x)}:~x;[])}
+	c1::{:[2=#x;,(,y),x@1;.f(x@1;y,0),.f(x@2;y,1)]}
+	s50::{|'c1(*{1<#x}{{,(+/*'x),x}:(2#x@<*'x),2_x@<*'x}:~|'x;[])}
+	huffman::s50
+
+Originally, the code looked like this:
+
+	c1::{:[2=#x;,(,y),x@1;.f(x@1;y,0),.f(x@2;y,1)]}
+	c2::{{,(+/*'x),x}:(2#x),2_x}
+	s50::{|'c1(*{1<#x}{c2(x@<*'x)}:~|'x;[])}
+
+Here, one can quite clearly seet he separation of creating the Huffman
+code: first, the tree is built up by calling `c2` on the list of code
+frequencies repeatedly, until the tree is complete, and then the tree is
+passed to `c1`, which creates the code by traversing the tree and adding
+1's and 0's to the code. The frequency and the symbol are exchanged
+at the beginning to make processing by `c2` easier, and in the end,
+codeword and symbol are exchanged again so that the result fits with
+the desired format.
+
+`c2` takes the first two elements of the sorted list of trees (in the first
+case just lists), adds the first elements of these lists, concatenates
+the sum and the two nodes and appends this to the rest of the list.
+
+`c1` traverses the tree recursively, building up the code using the second
+argument of the function (giving the left part of the tree a `0` and
+the right part a `1`).  If it encounters a leaf, it returns the code
+generated so far, together with the symbol represented by the code.
+
+The final solution simply inlines `c2` into `s50`.
+
+Testing it shows that it generate the same code as in the example, but that this
+result is not sorted after the length of the code, but is rather in traversal order
+of the tree:
+
+		huffman([[0ca 45] [0cb 13] [0cc 12] [0cd 16] [0ce 9] [0cf 5]])
+	[[0ca [0]] [0cc [1 0 0]] [0cb [1 0 1]] [0cf [1 1 0 0]] [0ce [1 1 0 1]] [0cd [1 1 1]]]
+		s50([[0ca 10][0cb 10]])
+	[[0cb [0]] [0ca [1]]]
+
+This is okay.
 
 <!--
 Binary Trees

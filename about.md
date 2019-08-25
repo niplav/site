@@ -99,6 +99,7 @@ The style of writing is mostly formal US english.
 	* for one author: `[Author Year](./title_author_year.pdf)`
 	* for two authors: `[Author&Coauthor Year](./title_author_coauthor_year.pdf)`
 	* for more than two authors: `[Author et al. Year](./title_author_et_al_year.pdf)`
+	* Tooltip: The title of the document
 * The year for a text is usually the best date of the last significant change to the text.
 * Link individual chapters from books, not whole books, whole papers are okay.
 * Sections every article contains:
@@ -157,19 +158,19 @@ Era](https://en.wikipedia.org/wiki/Common_Era).
 
 #### Language
 
-The language tag shows the language the body of the text is written
-in. Currently, there are only texts in English and German, but the tag
-may be one of the following:
+The language tag shows the languages the body of the text is written in
+(if necessary, separated by commas). Currently, there are only texts in
+English and German, but the tag may be one of the following:
 
 * "english"
 * "german"
 * "french"
-* ["serbocroatian"](https://en.wikipedia.org/wiki/Serbo-Croatian)
 * ["esperanto"](https://en.wikipedia.org/wiki/Esperanto)
+* ["latin"](https://en.wikipedia.org/wiki/Latin)
+* ["serbocroatian"](https://en.wikipedia.org/wiki/Serbo-Croatian)
 * ["lojban"](https://en.wikipedia.org/wiki/Lojban)
 * ["ithkuil"](https://en.wikipedia.org/wiki/Ithkuil)
 * ["toki pona"](https://en.wikipedia.org/wiki/Toki_Pona)
-* ["latin"](https://en.wikipedia.org/wiki/Latin)
 
 #### Confidence
 
