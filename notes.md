@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-08-20, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-05-22, modified: 2019-08-23, language: english, status: in progress, importance: 3, confidence: unlikely*
 
 > __Short texts on different topics.__
 
@@ -25,9 +25,9 @@ it contains a list of all
 [outlines](https://en.wikipedia.org/wiki/Outline_(list)) on Wikipedia,
 and is well structured. Wikipedia is generally concise and complete
 enough to provide a sufficient overview over a topic (see [Tomasik
-2017](https://foundational-research.org/education-matters-for-altruism/#Taking_the_big_picture_Textbooks_review_articles_and_Wikipedia)).
-To read this collection of outlines completely, one could use the
-following method:
+2017](https://foundational-research.org/education-matters-for-altruism/#Taking_the_big_picture_Textbooks_review_articles_and_Wikipedia
+"Education Matters for Altruism")).  To read this collection of outlines
+completely, one could use the following method:
 
 Read [Wikipedia's
 contents:Outlines](https://en.wikipedia.org/wiki/Portal:Contents/Outlines)
@@ -135,22 +135,23 @@ to understand the importance humans give to art.
 
 ### See Also
 
-* [Yudkowsky 2004](./doc/converging_preference_utilitarianism/coherent_extrapolated_volition_yudkowsky_2004.pdf "“Coherent Extrapolated Volition” (Eliezer Yudkowsky, 2004)")
+* [Yudkowsky 2004](./doc/converging_preference_utilitarianism/coherent_extrapolated_volition_yudkowsky_2004.pdf "Coherent Extrapolated Volition")
 
 Silent & Loud Killers
 ---------------------
 
 The idea of a [Great Filter](https://en.wikipedia.org/wiki/Great_Filter)
-(see also [Hanson 1998](http://mason.gmu.edu/~rhanson/greatfilter.html)
-proposes that we do not observe aliens because in the development of
-intelligent life, there is one or more obstacles that obliterate the
-developing societies before they can start to colonize their own galaxy.
+(see also [Hanson 1998](http://mason.gmu.edu/~rhanson/greatfilter.html
+"The Great Filter - Are We Almost Past It?")) proposes that we do not
+observe aliens because in the development of intelligent life, there is
+one or more obstacles that obliterate the developing societies before
+they can start to colonize their own galaxy.
 
 One big question that poses itself is whether humanity is
 before or after such a filter. Some examples of potential
 filters that still await humanity are named in [Bostrom
-2008](./doc/silent_killers/where_are_they_bostrom_2008.pdf "“Where
-Are They?” (Nick Bostrom, 2008)"):
+2008](./doc/silent_killers/where_are_they_bostrom_2008.pdf "Where Are
+They?"):
 
 > We can identify a number of potential existential risks: nuclear
 > war fought with stockpiles much greater than those that exist today
@@ -361,8 +362,8 @@ Again, a compliment from the opposite sex seems worth more, at least
 for men. Perhaps because it signals sexual interest, which is an good
 position to be in.
 
-<!--Collect all top-level comments on these threads, analyse them after
-mentioning age/gender/race/relative status of the compliment-giver
+<!--TODO: Collect all top-level comments on these threads, analyse them
+after mentioning age/gender/race/relative status of the compliment-giver
 and the compliment-receiver, and the time-frame of the worth of the
 compliment. Compare them.  Data source: Reddit search for "compliment",
 "best compliment", "top compliment", analyse first 10 threads.  Other
@@ -372,13 +373,14 @@ datapoints worth considering: was it taken as advice, which situation
 <!--
 * https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/
 * https://old.reddit.com/r/AskMen/comments/a927iv/men_of_reddit_what_are_some_compliments_i_can/
-* https://old.reddit.com/r/fragrance/comments/auz1a0/whats_your_biggest_compliment_giver/
 * https://old.reddit.com/r/AskReddit/comments/b62q7x/what_was_a_small_compliment_that_you_have/
 * https://old.reddit.com/r/AskMen/comments/aryimh/as_someone_who_thinks_that_guys_dont_get_alot_of/
 * https://old.reddit.com/r/AskReddit/comments/5rq1oz/ladies_what_is_a_compliment_men_give_that_you/
 * https://old.reddit.com/r/AskMen/comments/51lnum/whats_the_best_compliment_youve_ever_received/
 * https://old.reddit.com/r/AskReddit/comments/cflyop/what_is_the_best_compliment_youve_ever_received/
 * https://old.reddit.com/r/AskReddit/comments/cc8h6j/whats_the_best_compliment_youve_ever_received/
+* https://old.reddit.com/r/MensLib/comments/ct1msm/men_appreciate_compliments_and_dont_receive_them/
+* https://books.google.de/books?hl=de&lr=&id=2bxHAAAAQBAJ&oi=fnd&pg=PA3&dq=compliment&ots=PTVzpD6ViM&sig=jeHizky7xuYFRKhix-iPUosxkn8&redir_esc=y#v=onepage&q=compliment&f=false
 -->
 
 Problem: These questions pose quite a selection bias: Nobody who has

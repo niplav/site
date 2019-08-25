@@ -245,6 +245,12 @@ TODO: research this topic a lot more:
 * Read the Wikipedia articles about applause/clapping, and perhaps improve them
 * Similar criticisms?
 * Differences of type and scope of applause in different forms of music.
+	* Classical concert: No applause during piece/after movement, only applause at the beginning (when musicians/director enters the stage) and after pieces
+	* Jazz: Applause when musicians enter the stage, applause after solos (usually), applause after pieces, applause when musicians are presented
+	* Hip Hop:
+	* Techno:
+	* Rock:
+	* Punk:
 
 * https://en.wikipedia.org/wiki/Applause
 * https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Applause

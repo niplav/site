@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-10, modified: 2019-08-18, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-10, modified: 2019-08-23, language: english, status: in progress, importance: 2, confidence: log*
 
 > __A while ago, I became interested in personal estimations
 > of life expectancy. I wanted to know how accurate people are
@@ -137,7 +137,7 @@ Code for the image:
 
 	draw()
 
-![The ages of the participants](./img/estimated_life_expectancy/ages.png "The ages of the participants: Scatterplot where the data points are sorted, male age grows a little bit slower than female age, and female age has a gap between 42 and 50")
+![The ages of the participants](./img/estimated_life_expectancy/ages.png "The ages of the participants: Scatterplot where the data points are sorted, male age grows a little bit slower than female age, and female age has a gap between 42 and 50.")
 
 <!--TODO: there is an annoying red line at the border of the image here
 and in est_ages.png. Fix that.-->
@@ -499,11 +499,11 @@ therefore decreased the amount of usable responses.
 One can do a quick statistical estimate of the probability of
 encountering and misgendering a trans person. According to [Flores et al.
 2016](./doc/estimated_life_expectancy/how_many_adults_identify_as_transgender_us_flores_et_al_2016.pdf
-"“How Many Adults Identify as Transgender in the United States”
-(Flores et al., 2016)"), 0.6% of the U.S. adult population identifies
-as transgender. It is assumed that the numbers for Germany are similar.
-<!--TODO: Find a german source--> It is also assumed that the probability
-for a trans person passing is around 90%.
+"How Many Adults Identify as Transgender in the United States"), 0.6% of
+the U.S. adult population identifies as transgender. It is assumed that
+the numbers for Germany are similar.  <!--TODO: Find a german source-->
+It is also assumed that the probability for a trans person passing is
+around 90% (I am just making this number up).
 
 One can then use the binomial distribution to estimate the probability of
 misgendering at least one trans person. The code is in Klong. <!--TODO:
