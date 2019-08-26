@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2019-08-07, language: english, status: in progress, importance: 4, confidence: other*
+*author: niplav, created: 2019-01-14, modified: 2019-08-25, language: english, status: in progress, importance: 4, confidence: other*
 
 > __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems
@@ -576,9 +576,18 @@ represented by the following list:
 Other examples are a binary tree that consists of a root node only:
 `[a [] []]` or an empty binary tree: `[]`.
 
+<!--
+Differently from the original problem statement, for sake of readability,
+it is allowed to leave the empty lists out at a leaf of the binary tree,
+that is, if a list has the form `[a [] []]`, it can be also written as
+`[a]`. However, if there is a subtree for the node (it is not a leaf),
+the empty list can't be left out: `[a [] [b]]` is not `[a [b]]`.
+-->
+
 You can check your functions using these example trees. They are given
-as test cases in p54.kg. <!--TODO: Add p54.kg! See how these are done in
-the originals.-->
+as test cases in p54.kg.
+
+<!--TODO: Add p54.kg! See how these are done in the originals.-->
 
 ### P54A (*) Check whether a given term represents a binary tree.
 

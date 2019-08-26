@@ -74,6 +74,15 @@ this is fine though‽) and clapping after a particularly impressive solo
 
 All of this confusion could be avoided by eschewing applause entirely.
 
+<!--Possible further argument: Applause turns music
+into a competition who gets most, and that is toxic (see
+https://cjeller.wordpress.com/2015/08/09/against-applause/) It also makes
+a good point, that applause is not very gradual: it puts every member
+of the audience into a single coherent group, without any gradient: "It
+forces individuals to react to music the same way, regardless of whether
+one enjoyed, disliked, or didn’t understand the music."  Eller alludes
+to other solutions to the problem of applause, but doesn't name any.-->
+
 History
 -------
 
@@ -215,8 +224,23 @@ namely, receiving appreciation for a performance.
 On the other hand, applause is not the only possible
 appreciation signal available. One could imagine others that
 would both leave the musicians satisfied, for example [Jazz
-Hands](https://en.wikipedia.org/wiki/Jazz_hands) or the amount of time
-spent in the concert hall after the last note has been played.
+Hands](https://en.wikipedia.org/wiki/Jazz_hands)-like gestures used in
+death culture <!--TODO: links here--> or the amount of time spent in
+the concert hall after the last note has been played.
+
+<!--
+Discussion on the respective merits of Jazz-hands and applause:
+* https://old.reddit.com/r/slatestarcodex/comments/9x323i/applause_vs_jazz_hands/
+
+Advantages Applause:
+
+* Doesn't work when the audience is [not visible](https://old.reddit.com/r/slatestarcodex/comments/9x323i/applause_vs_jazz_hands/e9pc5nl/)
+* Diminishes the [connection with the audience](https://old.reddit.com/r/slatestarcodex/comments/9x323i/applause_vs_jazz_hands/e9pcdsk/)
+
+Disadvantages Applause:
+
+* Hard to detect [for blind people](https://old.reddit.com/r/slatestarcodex/comments/9x323i/applause_vs_jazz_hands/e9pbu2y/)
+-->
 
 ### Correct Clapping as a Signal of Sophistication and Knowledge
 

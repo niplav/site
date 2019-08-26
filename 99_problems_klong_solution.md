@@ -1541,7 +1541,6 @@ of the tree:
 
 This is okay.
 
-<!--
 Binary Trees
 ------------
 
@@ -1589,6 +1588,7 @@ TODO: currently incorrect.
 	s63::{:[0=x;[];
 		{(:x,:[y<2*x;[];,.f(x*2;y)]),:[y=2*x;,[]:|y<1+2*x;[];,.f(1+2*x;y)]}:(1;x)]}
 
+<!--
 Multiway Trees
 --------------
 
