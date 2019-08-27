@@ -57,9 +57,9 @@ printf '\nChecking for british english:\n'
 
 search 'colour|grey|labour|theatre|behaviour'
 
-printf '\nNumber of TODOs:\n'
+printf '\n%d TODOs in following files:\n\n' `{search TODO | wc -l}
 
-search TODO | wc -l
+ag -l TODO | sort
 
 printf '\nChecking for unbalanced characters:\n'
 

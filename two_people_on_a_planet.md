@@ -189,7 +189,7 @@ the set of points on the planet that is equally far away from each of
 their positions. They would then both proceed to go to this equator
 and start walking along it.
 
-![Two agents move to the equator of a sphere](./img/two_people_on_a_planet/sphere.png)
+![Two agents move to the equator of a sphere](./img/two_people_on_a_planet/sphere.png "Two agents move to the equator of a sphere. They both start at opposing poles of the planet.")
 
 Then each person could follow the following algorithm: If they had
 walked less than half of the circumference of the planet, and encountered
@@ -232,13 +232,13 @@ any case. In this case, finding each other takes at most `$\frac{3}{4}$`
 of the time it takes to walk across the whole equator (including the
 walk from the starting point to the equator).
 
-![The two agents start walking towards each other on the equator](./img/two_people_on_a_planet/towards.png)
+![The two agents start walking towards each other on the equator](./img/two_people_on_a_planet/towards.png "Two agents start walking towards each other, their walking distance being less than half of the circumference of the sphere.")
 
 If they both start walking in the same direction, the method still
 succeeds: one of the two people has a distance of less than half of the
 length of the equator to the starting point of the other person.
 
-![Both agents start walking in the same direction](./img/two_people_on_a_planet/parallel1.png)
+![Both agents start walking in the same direction](./img/two_people_on_a_planet/parallel1.png "Two agents start walking in the same direction, meaning that they won't meet if one of them doesn't change direction.")
 
 This person p₁ walks that distance, and then can use that fact as a
 distinguishing strategy for acting, namely, turning around and starting
@@ -248,7 +248,7 @@ more than half of the length of the equator to distinguish themselves,
 and continue walking. Because p₁ is now walking towards p₂, they will
 definitely meet.
 
-![Both agents are about to meet each other](./img/two_people_on_a_planet/parallel2.png)
+![Both agents are about to meet each other](./img/two_people_on_a_planet/parallel2.png "Both agents are about to meet each other: One agent changed their direction after seeing the other's starting point and they are walking towards each other.")
 
 Interestingly, because they are both walking the whole time, it will
 take them less than one walk across the whole equator for this algorithm
