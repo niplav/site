@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-08-23, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-08-26, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -1544,8 +1544,86 @@ This is okay.
 Binary Trees
 ------------
 
-	d1::{:[3=#x;d1(x@2),d1(x@1),,@x@0:|(2>#x)&@*x;1;0]}
-	s54::{&/d1(x)}
+A shorter way to write such a list would be to leave the empty lists out
+at a leaf of the binary tree, that is, if a list has the form `[a [][]]`,
+it can be also written as `[a]`. However, if there is a subtree
+for the node (it is not a leaf), the empty list can't be left out: `[a [] [b]]`
+is not `[a [b]]`.
+
+Because this is a lot more readable, one can write conversion functions that
+remove or add these redundant empty lists:
+
+	pt::{(,x),(,y),,z}
+	clean::{:[[[][]]~1_x;1#x:|[]~x;x;pt(*x;.f(x@1);.f(x@2))]}
+	litter::{:[(1=#x)&@*x;pt(*x;[];[]):|[]~x;x;pt(*x;.f(x@1);.f(x@2))]}
+
+`clean` removes the redundant empty lists, and `litter` converts a tree
+with atoms as leafs into with empty lists added.
+
+`pt` is a small helper function that receives three arguments and puts
+them together into a tree: an atom, and two lists as nodes.
+
+Testing `clean`:
+
+		clean([:a [] []])
+	[:a]
+		clean([])
+	[]
+		clean([:a [:b [:d [] []] [:e [] []]] [:c [] [:f [:g [] []] []]]])
+	[:a [:b [:d] [:e]] [:c [] [:f [:g] []]]]
+		clean([:a [:b [:c [:d [:e [:f [] []] []] []] []] []] []])
+	[:a [:b [:c [:d [:e [:f] []] []] []] []] []]
+
+Testing `litter`:
+
+		litter([:a])
+	[:a [] []]
+		litter([])
+	[]
+		litter([:a [:b [:d] [:e]] [:c [] [:f [:g] []]]])
+	[:a [:b [:d [] []] [:e [] []]] [:c [] [:f [:g [] []] []]]]
+		litter([:a [:b [:c [:d [:e [:f] []] []] []] []] []])
+	[:a [:b [:c [:d [:e [:f [] []] []] []] []] []] []]
+
+### P54A (*) Check whether a given term represents a binary tree.
+
+`s54a` is not very difficult: it simply recursively checks whether a
+node contains an atom (and not an empty list) as the first element,
+and two lists as the other two elements, with the base case of the
+empty list. The check whether the first element is the empty list has
+to be done separately because Klong think the empty list is an atom. For
+whatever reason.
+
+	s54a::{:[x~[];1:|3=#x;.f(x@2)&.f(x@1)&(~[]~*x)&@*x;0]}
+	istree::s54a
+
+This function can now be tested:
+
+		istree(:a)
+	kg: error: index: type error: [:a 1]
+		istree([:a])
+	0
+		istree([])
+	1
+		istree([:a []])
+	0
+		istree([:a [] []])
+	1
+		istree([:a [:b [] []] []])
+	1
+		istree([:a [:b [] []]])
+	0
+		istree([[] [] []])
+	0
+		istree([[:a] [] []])
+	0
+		istree([:a [:b [:d [] []] [:e [] []]] [:c [] [:f [:g [] []] []]]])
+	1
+		istree([:a [:b [:c [:d [:e [:f [] []] []] []] []] []] []])
+	1
+
+### P55 (**) Construct completely balanced binary trees.
+
 	d2::{,/x{y,:/x}:\y}
 	s55::{:[x<2;
 		,x#,:x;
@@ -1560,13 +1638,14 @@ Binary Trees
 
 	minnodes::{:[x<1;0:|x=1;1;1+.f(x-1)+.f(x-2)]}
 
+<!--
 Seems to be the sum of the first `x` fibonacci numbers.
 
 	minnodes::{+/(x-1){(+/2#x),x}:*[1 0]}
 
 Attempt, using the fibonacci number approach:
 TODO: currently incorrect.
-
+-->
 	maxheight::{[k];k::x;#1_{k>+/x}{(+/2#x),x}:~[1 0]}
 
 	d4::{:[x=0;0;1+_ln(x)%ln(2)]}

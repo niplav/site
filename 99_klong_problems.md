@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2019-08-25, language: english, status: in progress, importance: 4, confidence: other*
+*author: niplav, created: 2019-01-14, modified: 2019-08-26, language: english, status: in progress, importance: 4, confidence: other*
 
 > __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems
@@ -544,6 +544,8 @@ more efficient, when it is to be used repeatedly?
 
 ### P50 (***) Huffman code.
 
+<!--TODO: Link to wikipedia-->
+
 First of all, consult a good book on discrete mathematics or algorithms
 for a detailed description of Huffman codes!
 
@@ -571,35 +573,28 @@ where X denotes the root node and L and R denote the left and right
 subtree, respectively. The example tree depicted opposite is therefore
 represented by the following list:
 
-	[a [b [d [] []] [e [] []]] [c [] [f [g [] []] []]]]
+	[:a [:b [:d [] []] [:e [] []]] [:c [] [:f [:g [] []] []]]]
 
 Other examples are a binary tree that consists of a root node only:
 `[a [] []]` or an empty binary tree: `[]`.
 
-<!--
-Differently from the original problem statement, for sake of readability,
-it is allowed to leave the empty lists out at a leaf of the binary tree,
-that is, if a list has the form `[a [] []]`, it can be also written as
-`[a]`. However, if there is a subtree for the node (it is not a leaf),
-the empty list can't be left out: `[a [] [b]]` is not `[a [b]]`.
--->
-
 You can check your functions using these example trees. They are given
-as test cases in p54.kg.
+as test cases in [p54.kg](./code/99_klong/p54.kg). The tests are executed
+by calling `test()`, while beforehand having defined `istree`.
 
-<!--TODO: Add p54.kg! See how these are done in the originals.-->
+<!--TODO: Add solution.-->
 
-### P54A (*) Check whether a given term represents a binary tree.
+### P54A (*) Check whether a given list represents a binary tree.
 
 Write a function `istree` which returns true if and only if its argument
 is a list representing a binary tree.
 
 Example:
 
-		istree([:a [:b [] []] [])
-	true
+		istree([:a [:b [] []] []])
+	1
 		istree([:a [:b [] []]])
-	false
+	0
 
 ### P55 (**) Construct completely balanced binary trees.
 

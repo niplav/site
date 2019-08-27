@@ -1,0 +1,7 @@
+test::{:[~istree([]);.p("empty list is a tree");1]&
+	:[~istree([:a [] []]);.p("[:a [] []] is a tree");1]&
+	:[~istree([:a [:b [:d [] []] [:e [] []]] [:c [] [:f [:g [] []] []]]]);.p("failure with large tree");1]&
+	:[istree([:a []]);.p("[:a []] is not a tree");1]&
+	:[istree([:a [:b [] []]]);.p("[:a [:b [] []]] is not a tree");1]&
+	:[istree([[] [] []]);.p("[[] [] []] is not a tree");1]&
+	:[istree([[:a] [] []]);.p("[[:a] [] []] is not a tree");1]}
