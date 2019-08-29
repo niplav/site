@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-10, modified: 2019-08-23, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-10, modified: 2019-08-29, language: english, status: in progress, importance: 2, confidence: log*
 
 > __A while ago, I became interested in personal estimations
 > of life expectancy. I wanted to know how accurate people are
@@ -33,9 +33,11 @@ life expectancy" interchangeably.
 Data Collection Method
 ----------------------
 
-192 random people were approached during the day in the streets of the
-center of a major german city. They were asked the following questions
-(in the presented order):
+~500 random people were approached (the
+exact number of approaches was [regrettably not
+recorded](./estimated_life_expectancy.html#No-Tracking-of-the-Answering-Rate))
+during the day in the streets of the center of a major german city. They
+were asked the following questions (in the presented order):
 
 1. "Entschuldigung, darf ich Ihnen kurz zwei Fragen stellen?"
 2. "Wie alt, schätzen Sie, werden sie werden?"
@@ -83,39 +85,39 @@ Code to load the data from the CSV file:
 
 ### Age
 
-Of the 192 respondents, 96 of which were male and 96 were female. The
-mean age was 37.94 years (37.06 years for men and 38.83 years for women)
-with the youngest respondents being 16 years old and the oldest being
-82 years old (youngest/oldest male: 16/82, youngest/oldest female: 17/74).
-The standard deviation for age was 17.13 (16.7 for men, 17.38 for women).
+Of the 250 respondents, 125 were male and 125 were female. The
+mean age was 38.228 years (37.192 years for men and 39.264 years for women),
+with the youngest respondents being 15 years old and the oldest being
+89 years old (youngest/oldest male: 15/82, youngest/oldest female: 16/89).
+The standard deviation for age was 17.5 (17.17 for men, 17.76 for women).
 
 		dm::mu(*+data)
-	37.9479166666666666
+	38.228
 		fm::mu(*+f)
-	38.8333333333333333
+	39.264
 		mm::mu(*+m)
-	37.0625
+	37.192
 		ages::(*+data)@<*+data
 		mages::(*+m)@<*+m
 		fages::(*+f)@<*+f
 		*ages
-	16
+	15
 		*|ages
-	82
+	89
 		*mages
-	16
+	15
 		*|mages
 	82
 		*fages
 	16
 		*|fages
-	74
+	89
 		sd(ages)
-	17.1261196098769183
+	17.4981146412977875
 		sd(mages)
-	16.7088337105538922
+	17.1700651134467163
 		sd(fages)
-	17.3724740308938622
+	17.7597945934067604
 
 Code for the image:
 
@@ -151,27 +153,27 @@ especially questions about age.
 ### Subjective Life Expectancy
 
 Estimates of life expectancy were interesting: The mean estimate was
-83.49 years, 82.29 years for men and 84.69 years for women.  The lowest
+83.248 years, 82.016 years for men and 84.48 years for women.  The lowest
 estimate of life expectancy was only 30 years, the highest was 200 years
 (lowest/highest for males: 30/120, lowest/highest for females: 39/200).
 
-On average, respondents estimated that they had 45.54 years left in
-their life, women estimating having 45.85 left in their lifes, men with
-45.23 years. The lowest estimate for years of life left was 1, the highest
-was 169 (lowest/highest for males: 1/82, lowest/highest for females: 6/169).
+On average, respondents estimated that they had 45.02 years left in
+their life, women estimating having 45.216 left in their lifes, men with
+44.824 years. The lowest estimate for years of life left was 1, the highest
+was 169 (lowest/highest for males: 1/86, lowest/highest for females: 1/169).
 
-The standard deviation for the estimated age was 14.46 (13.84 for men,
-14.96 for women).
+The standard deviation for the estimated age was 14.32 (13.29 for men,
+15.18 for women).
 
 		estages::(*|+data)@<*|+data
 		mu(estages)
-	83.4895833333333333
+	83.248
 		mestages::(*|+m)@<*|+m
 		festages::(*|+f)@<*|+f
 		mu(mestages)
-	82.2916666666666667
+	82.016
 		mu(festages)
-	84.6875
+	84.48
 		*estages
 	30
 		*|estages
@@ -188,15 +190,15 @@ The standard deviation for the estimated age was 14.46 (13.84 for men,
 		yl::{(*|x)-*x}'data
 		yl::yl@<yl
 		muyl::mu(yl)
-	45.5416666666666666
+	45.02
 		fyl::{(*|x)-*x}'f
 		fyl::fyl@<fyl
 		mufyl::mu(fyl)
-	45.8541666666666667
+	45.216
 		myl::{(*|x)-*x}'m
 		myl::myl@<myl
 		mumyl::mu(myl)
-	45.2291666666666667
+	44.824
 		*yl
 	1
 		*|yl
@@ -204,17 +206,17 @@ The standard deviation for the estimated age was 14.46 (13.84 for men,
 		*myl
 	1
 		*|myl
-	82
+	86
 		*fyl
-	6
+	1
 		*|fyl
 	169
 		sd(estages)
-	14.4566526421722967
+	14.3246115479617805
 		sd(mestages)
-	13.8422517635064537
+	13.2941996374358693
 		sd(festages)
-	14.9593731281680085
+	15.1860989065658333
 
 Code for the image:
 
@@ -251,25 +253,25 @@ One can now do a linear regression on the data and try to find out what
 the relation between estimated age and real age is.
 
 		lreg(data)
-	[0.151862914982186082 77.7986935564643823]
+	[0.143075581058418136 77.7785066872987915]
 		lreg(f)
-	[0.0608377197820622489 82.4196005451742221]
+	[0.110387262427545795 80.1457545280448419]
 		lreg(m)
-	[0.236555690251618827 73.5777002454096563]
+	[0.17043090258300147 75.6773338711330093]
 
 The regression shows a positive relation between age and subjective life
 expectancy, which is stronger for men than for women.
 
-One can now also calculate the correlation between age and estimated
-age, which is 0.1519 for the whole data set, 0.0608 for women and 0.2366
-for men, indicating that men become more optimistic when growing older.
+One can now also calculate the correlation between age and estimated age,
+which is 0.1431 for the whole data set, 0.1104 for women and 0.1704 for
+men, indicating that men become more optimistic when growing older.
 
 		cor@+data
-	0.151862914982186104
+	0.14307558105841815
 		cor@+f
-	0.0608377197820622755
+	0.110387262427545804
 		cor@+m
-	0.23655569025161882
+	0.170430902583001477
 
 This can be shown in a scatter plot of the data.
 
@@ -293,7 +295,7 @@ This can be shown in a scatter plot of the data.
 
 	draw()
 
-![A scatter plot of the whole data, with linear regression](./img/estimated_life_expectancy/all_scatter.png)
+![A scatter plot of the whole data, with linear regression](./img/estimated_life_expectancy/all_scatter.png "A scatter plot of the whole data, with linear regressions. The linear regression for men starts at 77 years, and grows to ~90 years, the linear regression for women starts at age 80 and also grows to age ~90. The overall linear regression lies between these two datapoints.")
 
 The red dots represent data points from women, the blue ones are from
 men. The red line is the linear regression for the data by women, the
@@ -351,15 +353,15 @@ The variable `kr` contains the mean of the female and male actuarial values.
 Since one has already calculate the average estimates for life
 expectancy by age (the variables `grm`, `grf` and `gr`), one can now
 compute correlations between the estimates and the actuarial tables. The
-correlation between the estimates and the actuarial values is 0.0732,
-0.0799 for men and 0.0032 for women.
+correlation between the estimates and the actuarial values is 0.0957,
+0.0772 for men and 0.0348 for women.
 
 		cord::cor(aba;*|+kr@*'(*+data)@gr)
-	0.0732435875628164249
+	0.0957337523144531185
 		corm::cor(abam;*|+mk@*'(*+m)@grm)
-	0.0799339532720909585
+	0.0772309898403104608
 		corf::cor(abaf;*|+fk@*'(*+f)@grf)
-	0.00321245137729511554
+	0.0347646631118574528
 
 One can now also visualize the estimates and actuarial values.
 
@@ -384,7 +386,11 @@ For the mean estimate:
 
 	draw()
 
-![Mean estimate per year to actuarial table](./img/estimated_life_expectancy/avg_est.png)
+![Mean estimate per year to actuarial table](./img/estimated_life_expectancy/avg_est.png "Mean estimate per year to actuarial table. The values for the actuarial table follow a standard distribution, starting at 80 years of age. They don't really change until the age of ~50, where they slowly start rising somewhat linearly. They end with 102 expected years for 100 year olds. The subjective life expectancy for a given age is clustered around the actuarial data, sometimes with 20 years differcen (probably due to a small sample size).")
+
+<!--TODO: Write something about the [Gompertz
+distribution](https://en.wikipedia.org/wiki/Gompertz_distribution)
+in the tooltip-->
 
 For men:
 
@@ -518,22 +524,30 @@ correctly gendering all of them.
 		:"probability of passing"
 		pp::0.9
 		"number of people asked"
-		n::228
+		n::250
 		:"maxt is the number so that the probability that I met"
 		:"more than maxt trans people is less than 1 in a billion."
 		maxt::{(1-b.cdf(x;n;pt))>10e-9}{x+1}:~1
 		:"probability of encountering at least 1 trans person"
 		1-b.pmf(0;n;pt)
-	0.746431300882205564
+	0.777875686117172762
 		:"probability of encountering at least 1 trans person and misgendering them"
 		+/{(1-pp^x)*b.pmf(x;n;pt)}'1+!maxt
-	0.127891167281387041
+	0.139330765507831189
 
 The result shows that the probability of encountering and misgendering at
 least one trans person (and therefore at least one incorrect data point)
-is ~10%.
+is ~13%.
 
 <!--TODO Question: How many people pass as gender X, but identify as gender Y≠X?-->
+
+### No Tracking of the Answering Rate
+
+While answers were tracked, I did not think of writing down the number
+and gender of the people approached. It would have been interesting
+to see whether there are any gender-specific differences in answering
+rates, and it generally have been a better practice to write them down
+(also to determine the overall answering rate).
 
 Conclusion
 -----------

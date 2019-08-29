@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-08-26, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-08-28, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -1431,7 +1431,7 @@ numbers of length x.
 	c2::{{c1@x}'x,:\(!2^x)}
 	s46::{[f];f::x;.p'{x,"  ",y}/'${x,f@x}'c2(2)}
 
-Note that these are just code saved for a later point where I might
+Note that this is just code saved for a later point where I might
 revisit P47 and P48 to solve them appropriately as well.
 
 <!--
@@ -1452,6 +1452,8 @@ n+1-bit Gray code is the n-bit Gray code where 0 is prepended to every
 sequence, concatenated with the n-bit Gray code where 1 is prepended
 to every sequence of the reversed n-bit Gray code. In the case of n=2,
 this would be `['00' '01'],['11' '10']`.
+
+<!--TODO: Wikipedia Link for Gray code-->
 
 This recursive definition can now be put into code quite easily: If x=0,
 return the empty list, otherwise return the x-1 Gray code prepended with
@@ -1489,7 +1491,7 @@ that returns this list of frequences for a given string. It does this
 by grouping the string, and then concatenating the length of the group
 list with the corresponding element.
 
-	frq::{[t];t::x;{(#x),t@*x}'=x}
+	frq::{[t];t::x;{(t@*x),#x}'=x}
 
 That seems to work well:
 
@@ -1508,7 +1510,7 @@ Originally, the code looked like this:
 
 	c1::{:[2=#x;,(,y),x@1;.f(x@1;y,0),.f(x@2;y,1)]}
 	c2::{{,(+/*'x),x}:(2#x),2_x}
-	s50::{|'c1(*{1<#x}{c2(x@<*'x)}:~|'x;[])}
+	s50::{|'c1(*{1<#x}{c2(x@<*'x)}:~x;[])}
 
 Here, one can quite clearly seet he separation of creating the Huffman
 code: first, the tree is built up by calling `c2` on the list of code
@@ -1540,6 +1542,38 @@ of the tree:
 	[[0cb [0]] [0ca [1]]]
 
 This is okay.
+
+This is not part of the problem statement, but one can now write code
+that receives a string and encodes it, as well as code that receives a
+an encoded string and a list of frequencies and decodes a given string.
+
+Encoding the string is not particularly difficult: For each character, the
+inner function searches for the representation of that character in the
+huffman coding and returns the code. The results are then concatenated.
+
+Decoding is much more complex because huffman decoding is very iterative,
+and there doesn't seem to be a array-based equivalent.  Basically,
+searches for a prefix of the string that is in the code, appends the
+corresponding character from the code to the result string r and removes
+the prefix from the encoded string.  The variable o is the huffman code
+for the string and p is the matching prefix for the string. This code
+is executed in a While-loop until the encoded string is empty, and then
+returns the result string.
+
+	frq::{[t];t::x;{(t@*x),#x}'=x}
+	c1::{:[2=#x;,(,y),x@1;.f(x@1;y,0),.f(x@2;y,1)]}
+	c2::{{,(+/*'x),x}:(2#x),2_x}
+	s50::{|'c1(*{1<#x}{c2(x@<*'x)}:~|'x;[])}
+	encode::{c::s50(frq(x));,/{*|c@*(x=*'c)?1}'x}
+	decode::{[r o];o::s50(y);r::"";{x}{[p];p::*(x{:[&/y=(#y)#x;1;0]}:\*'|'o)?1;r::r,*o@p;(#*|o@p)_x}:~x;r}
+
+Test:
+
+		s::"Sun is shining in the sky, there ain't a cloud in sight. It's a blazin', everybody's there to play, and don't you know-it's so beautiful today, he- he- hey. Running down the avenue, see how the sun shines brightly."
+		e::encode(s)
+	[0 1 1 0 0 1 1 1 1 0 1 1 0 1 1 0 1 0 0 0 1 1 1 0 1 0 1 0 0 0 1 0 1 1 0 0 0 0 1 1 1 1 1 0 1 0 1 1 1 1 1 0 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 0 1 0 0 1 0 1 0 1 0 0 0 1 1 1 0 0 0 0 1 0 1 1 1 0 0 0 1 0 1 0 0 1 1 0 1 0 0 0 0 0 1 0 1 0 1 0 0 0 1 1 1 0 1 0 1 1 1 1 1 1 1 0 0 0 1 1 0 0 1 0 1 1 1 1 1 0 1 1 0 0 1 0 1 0 1 0 0 0 1 1 0 0 1 0 0 0 1 1 0 0 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 0 1 1 0 1 0 0 0 1 1 1 1 1 0 1 0 0 0 1 0 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 1 1 0 0 0 0 1 0 1 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 1 0 0 1 0 0 1 0 1 1 1 0 1 1 1 1 0 1 1 1 0 0 1 1 1 0 0 0 0 0 0 0 1 1 1 1 1 0 1 1 0 0 1 0 0 1 0 0 0 0 0 1 1 1 0 1 1 0 0 0 1 1 1 1 1 0 1 0 1 1 1 1 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 0 1 1 0 1 1 0 0 1 1 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 1 0 0 0 1 1 1 0 1 0 1 1 1 1 1 1 1 0 0 0 1 0 1 0 1 1 1 1 1 0 0 0 1 1 0 0 1 1 0 1 1 1 1 0 1 1 1 0 0 1 1 0 0 1 1 0 1 0 0 0 0 0 1 1 0 0 1 1 1 0 1 0 1 1 0 1 0 0 0 1 1 0 1 1 1 1 1 1 1 1 0 1 1 0 0 1 0 1 0 1 0 0 0 1 0 0 1 1 1 1 1 1 1 1 0 1 1 0 0 0 1 1 0 0 0 1 0 1 1 0 1 1 1 1 1 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 1 1 1 0 1 0 1 0 0 1 0 0 1 0 1 0 0 0 1 0 1 1 1 1 1 1 0 0 1 0 1 1 1 0 1 1 1 0 1 1 0 0 1 1 0 1 1 0 1 0 1 0 0 1 1 1 1 1 0 0 0 0 1 1 1 0 1 1 0 1 1 1 1 0 1 0 0 1 0 1 0 1 1 1 1 1 0 1 1 0 1 1 1 0 0 1 1 0 0 1 1 0 1 0 0 0 0 0 1 0 0 0 1 1 1 0 0 1 1 0 0 0 0 0 1 0 0 0 1 1 1 0 0 1 1 0 0 0 0 0 1 0 0 0 1 1 1 0 1 0 0 1 1 0 1 0 0 1 1 0 0 1 1 0 0 0 0 0 1 1 0 1 1 0 1 1 0 1 1 1 0 1 0 1 1 1 1 1 0 1 1 1 1 1 0 0 0 0 0 1 1 0 1 1 1 1 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 0 1 0 0 0 1 1 1 0 0 0 1 1 0 0 1 1 1 0 0 0 1 1 1 1 1 0 1 1 0 1 1 0 1 1 0 1 1 1 0 0 1 0 0 0 0 0 0 1 0 1 1 1 1 0 1 1 1 0 0 0 1 0 0 0 1 1 1 1 1 0 1 0 0 1 0 0 0 1 0 1 0 1 0 0 0 1 1 1 0 0 0 0 1 0 1 1 0 1 1 0 1 1 0 1 0 0 0 1 0 1 1 0 0 0 0 1 1 1 1 1 0 1 1 1 1 0 0 1 0 1 0 0 1 0 1 1 1 0 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 1 0 1 0 1 1 1 1 0 1 1 0 0 1 1 0 1 0 0 1 1]
+		decode(e;frq(s))
+	"Sun is shining in the sky, there ain't a cloud in sight. It's a blazin', everybody's there to play, and don't you know-it's so beautiful today, he- he- hey. Running down the avenue, see how the sun shines brightly."
 
 Binary Trees
 ------------

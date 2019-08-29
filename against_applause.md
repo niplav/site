@@ -244,8 +244,31 @@ Disadvantages Applause:
 
 ### Correct Clapping as a Signal of Sophistication and Knowledge
 
+I have hinted at this point before already, but it is worth stressing that
+traditions like applause may fulfill old and useful functions that can't
+be seen, and removing applause might cause unforseen consequences.<!--Link to chesterton's fence here-->
+
+One such possible function could be that knowing correct applause in a
+concert (before and after a piece, not between movements, but after an
+aria it is fine) strengthens group cohesion between concert-goers and
+perhaps contributes to the continued culture around classical music.
+
+If applause were to be abolished, it could be that a similar signal
+couldn't be found before this cohesion breaks up and classical music
+falls into obvlivion. While this may seem like an unrealistically drastic
+scenario, there are a myriad of similar possibilities lurking behind
+drastic changes to the concert experience.
+
+However, this point does not automatically mean it is right to reject
+experimentation with feedback for musicians, including "no-applause
+concerts".
+
 Other Approaches
 ----------------
+
+For now, I have only written about criticisms of applause without
+otherwise considering alternative options that fulfill the rudimentary
+functions of applause.
 
 ### Existing Different Approaches
 
@@ -276,15 +299,12 @@ TODO: research this topic a lot more:
 	* Rock:
 	* Punk:
 
-* https://en.wikipedia.org/wiki/Applause
 * https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Applause
 * https://www.theguardian.com/commentisfree/2007/sep/12/comment.comment2
-* https://web.archive.org/web/20140413131832/https://www.study-in.de/en/study/important-facts/study-abc/--23611
-* https://en.wikiquote.org/wiki/Applause
 * http://kerrygaa.proboards.com/thread/4484/minutes-silence-applause
 * http://www.footballforums.net/threads/minutes-silence-or-minutes-applause.193941/
 * https://old.reddit.com/r/slatestarcodex/comments/9x323i/applause_vs_jazz_hands/
 * https://www.cpr.org/2014/06/09/the-clapping-question-should-classical-audiences-applaud-between-movements/: IMPORTANT, follow the links
-* https://cjeller.wordpress.com/2015/08/09/against-applause/
 * https://affirmativeright.blogspot.com/2015/03/against-applause-cultivating-aesthetic.html
+* https://web.archive.org/web/20100609161055/http://library.gallaudet.edu/Library/Deaf_Research_Help/Frequently_Asked_Questions_(FAQs)/Cultural_Social_Medical/History_of_Visual_Applause_for_the_Deaf.html
 -->

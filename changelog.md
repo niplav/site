@@ -17,6 +17,10 @@ August 2019
 * Solutions to [P40](./99_problems_klong_solution.html#P40--Goldbachs-conjecture), [P41](./99_problems_klong_solution.html#P41--A-list-of-Goldbach-compositions), [P49](./99_problems_klong_solution.html#P49--Gray-code), [P50](./99_problems_klong_solution.html#P50--Huffman-code) and [P54A](./99_problems_klong_solution.html#P54A--Check-whether-a-given-term-represents-a-binary-tree) of the [99 Klong Problems](./99_problems_klong_solution.html)
 * [Compliments as Utilitarian Practice](./notes.html#Compliments-as-Utilitarian-Practice)
 
+### Site Changes
+
+* Tooltips for images and links (to increase accessibility)
+
 <!--
 * Finished [About](./about.md)
 * [Against Applause](./against_applause.md)
