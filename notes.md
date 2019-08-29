@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-08-23, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-05-22, modified: 2019-08-29, language: english, status: in progress, importance: 3, confidence: unlikely*
 
 > __Short texts on different topics.__
 
@@ -282,7 +282,7 @@ seems unlikely.
 * How much is the value of a compliment dependent on the characteristics of the compliment-giver (e.g. stranger/acquaintance, age, gender, attractiveness etc.)?
 * How able are people to identify fake compliments?
 * How often do people see compliments as advice?
-* What is more worth: A weird/creative compliment or a standard compliment? (Example: "I like your hat!" vs. "Your hat reminds me of a painting of a revolutionary from the French Revolution!")
+* What is more worth: A weird/creative compliment or a standard compliment? (Example: "I like your hat!" vs. "Your hat reminds me of a painting of a soldier from the French Revolution!")
 
 ### Reddit Compliments About Compliments
 
@@ -362,6 +362,10 @@ Again, a compliment from the opposite sex seems worth more, at least
 for men. Perhaps because it signals sexual interest, which is an good
 position to be in.
 
+Problem: These questions pose quite a selection bias: Nobody who has
+received a compliment and thought nothing of it bothers to write a reddit
+comment about that.
+
 <!--TODO: Collect all top-level comments on these threads, analyse them
 after mentioning age/gender/race/relative status of the compliment-giver
 and the compliment-receiver, and the time-frame of the worth of the
@@ -383,8 +387,30 @@ datapoints worth considering: was it taken as advice, which situation
 * https://books.google.de/books?hl=de&lr=&id=2bxHAAAAQBAJ&oi=fnd&pg=PA3&dq=compliment&ots=PTVzpD6ViM&sig=jeHizky7xuYFRKhix-iPUosxkn8&redir_esc=y#v=onepage&q=compliment&f=false
 -->
 
-Problem: These questions pose quite a selection bias: Nobody who has
-received a compliment and thought nothing of it bothers to write a reddit
-comment about that.
-
 <!--TODO: personal experience with giving compliments to strangers-->
+
+Indirect Anti-Natalism
+----------------------
+
+Let's suppose that anti-natalists want to bring humanity to an
+end, but dislike the fact that it would make people suffer not to
+have children. Then one possible way of still achieving that goal
+would be to modify the children of the next generation (generation 1)
+(genetically/culturally) so that the don't want children themselves–then
+the parents in the current generation (generation 0) get what
+they desire, but humanity still gets extinct. This becomes a little
+more difficult if humans also desire grandchildren, and that drive is
+not greatly similar from wanting to have children: Then one would have
+to make sure that the generation of children (generation 1) don't want
+grandchildren themselves, but still get children (generation 2), and
+that generation 1 modifies generation 2 so that generation 2 doesn't
+want or get any children.
+
+This thinking falls flat if humans generally care about future generations
+in the abstract and not just their own children, however, this seems
+somewhat unlikely.
+
+It also fails if it is non-trivial to influence future generations
+psychologically and physiologically to a degree that they do not desire
+to reproduce, or if people have a strong desire to leave their children
+unmodified (this seems quite likely).
