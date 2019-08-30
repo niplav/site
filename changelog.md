@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-08-23, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-08-29, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -15,7 +15,9 @@ August 2019
 
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
 * Solutions to [P40](./99_problems_klong_solution.html#P40--Goldbachs-conjecture), [P41](./99_problems_klong_solution.html#P41--A-list-of-Goldbach-compositions), [P49](./99_problems_klong_solution.html#P49--Gray-code), [P50](./99_problems_klong_solution.html#P50--Huffman-code) and [P54A](./99_problems_klong_solution.html#P54A--Check-whether-a-given-term-represents-a-binary-tree) of the [99 Klong Problems](./99_problems_klong_solution.html)
-* [Compliments as Utilitarian Practice](./notes.html#Compliments-as-Utilitarian-Practice)
+* Notes
+	* [Compliments as Utilitarian Practice](./notes.html#Compliments-as-Utilitarian-Practice)
+	* [Indirect Anti-Natalism](./notes.html#Indirect-AntiNatalism)
 
 ### Site Changes
 

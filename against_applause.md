@@ -242,16 +242,19 @@ Disadvantages Applause:
 * Hard to detect [for blind people](https://old.reddit.com/r/slatestarcodex/comments/9x323i/applause_vs_jazz_hands/e9pbu2y/)
 -->
 
-### Correct Clapping as a Signal of Sophistication and Knowledge
+### Clapping on Chesterton's Fence
+
+<!--TODO: Wikipedia Link to Chesterton's Fence-->
 
 I have hinted at this point before already, but it is worth stressing that
 traditions like applause may fulfill old and useful functions that can't
-be seen, and removing applause might cause unforseen consequences.<!--Link to chesterton's fence here-->
+be seen, and removing applause might cause unforseen consequences.
 
-One such possible function could be that knowing correct applause in a
-concert (before and after a piece, not between movements, but after an
-aria it is fine) strengthens group cohesion between concert-goers and
-perhaps contributes to the continued culture around classical music.
+One such possible function could be that knowing correct applause in
+a concert (before and after a piece, not between movements, but after
+an aria it is fine) strengthens group cohesion between concert-goers
+(because it is a useful in-group signal based omm common knowledge)
+and perhaps contributes to the continued culture around classical music.
 
 If applause were to be abolished, it could be that a similar signal
 couldn't be found before this cohesion breaks up and classical music
