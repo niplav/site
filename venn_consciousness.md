@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-15, modified: 2019-08-17, language: english, status: notes, importance: 5, confidence: theory*
+*author: niplav, created: 2019-08-15, modified: 2019-09-02, language: english, status: notes, importance: 5, confidence: theory*
 
 > __Many people have very different conceptions on how to think about
 > consciousness, intelligence, sentience and information processing. A
@@ -44,6 +44,8 @@ Terms (short, and only gesturing towards a definition):
 *	Optimizing (O): Optimizes a given goal
 	Example: Evolution, Paperclip-maximizer
 	Counter-example: A piece of paper
+
+Sapient instead of intelligent? TODO: look up these definitions!
 
 Notation
 --------

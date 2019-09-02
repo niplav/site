@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png)
 
-*author: niplav, created: 2019-03-20, modified: 2019-08-20, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2019-09-02, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -24,11 +24,14 @@ Writing
 	* [Equally Many Heads and Tails](./equally_many_heads_and_tails.md)
 	* [Pipe Rings](./pipe_rings.md)
 	* [Two People on a Planet](./two_people_on_a_planet.md)
+	<!--* [Using Venn Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./venn_consciousness.md)-->
+	<!--* [A Religion](./a_religion.md)-->
 * Collections
 	* [99 Problems](./99_problems_collection.md)
 	* [Rationalist Gods](./rationalist_gods.md)
 * Analyses
 	* [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
+	<!--* [Masturbation and Attractiveness](./masturbation_and_attractiveness.md)-->
 * Arguments
 	* [Against Applause After Classical Concerts](./against_applause.md)
 * Other
@@ -39,6 +42,12 @@ Writing
 
 * [Buch Stab](./buch_stab.md)
 * [Platte](./platte.md)
+
+<!--### Poetry
+
+* [Haikus](./haiku.md)
+
+-->
 
 Translations
 ------------
@@ -70,6 +79,8 @@ chronologically.
 
 Programming
 -----------
+
+<!--* [awitt – Another Window Title Tracker](./awitt.md)-->
 
 ### Literate Programs
 

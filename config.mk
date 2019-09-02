@@ -35,3 +35,4 @@ HTML=index.html \
 	ob_chrono.html \
 	so_chrono.html \
 	trm_chrono.html \
+	awitt.html

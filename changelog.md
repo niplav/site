@@ -1,12 +1,19 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-08-29, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-09-02, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
+
+September 2019
+--------------
+
+### Programming
+
+* [awitt – Another Window Title Tracker](./awitt.md)
 
 August 2019
 -----------
