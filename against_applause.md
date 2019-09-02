@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-08-20, language: english, status: draft, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-04-11, modified: 2019-09-02, language: english, status: draft, importance: 4, confidence: unlikely*
 
 > __In western cultures, it is nearly universal for people to clap
 > before and after pieces of classical music and jazz. An argument
@@ -62,7 +62,7 @@ and distraction before and after music.
 The exact fitting moments of applause are a difficult topic in classical
 music and the source of many mistakes on the side of the audience,
 abolishing applause would remove these mistakes, but also prevent the
-ability to signal status and knowledge by knowing where to clap (and
+ability to display status and knowledge by knowing where to clap (and
 the possibility to keep out ignorant philistines).
 
 <!--TODO: check whether this is correct-->
@@ -253,10 +253,10 @@ be seen, and removing applause might cause unforseen consequences.
 One such possible function could be that knowing correct applause in
 a concert (before and after a piece, not between movements, but after
 an aria it is fine) strengthens group cohesion between concert-goers
-(because it is a useful in-group signal based omm common knowledge)
+(because it is a useful in-group signal based on common knowledge)
 and perhaps contributes to the continued culture around classical music.
 
-If applause were to be abolished, it could be that a similar signal
+If applause were to be abolished, it could be that a similar display
 couldn't be found before this cohesion breaks up and classical music
 falls into obvlivion. While this may seem like an unrealistically drastic
 scenario, there are a myriad of similar possibilities lurking behind
@@ -291,16 +291,14 @@ TODO: research this topic a lot more:
 
 * Find out how culturally universal clapping/audible appreciation of performance is
 * Find out what art theories claim about how to present art
-* Find out about the evolutionary/cultural history of clapping, and make a summary (put on Wikipedia)
-* Read the Wikipedia articles about applause/clapping, and perhaps improve them
 * Similar criticisms?
 * Differences of type and scope of applause in different forms of music.
 	* Classical concert: No applause during piece/after movement, only applause at the beginning (when musicians/director enters the stage) and after pieces
 	* Jazz: Applause when musicians enter the stage, applause after solos (usually), applause after pieces, applause when musicians are presented
 	* Hip Hop:
-	* Techno:
+	* Techno: Applause, if any, at the end of a piece.
 	* Rock:
-	* Punk:
+	* Punk: Mostly anything goes, since the musicians are always a lot louder than the audience. Clapping, cheering mostly after the pieces, singing along during (if known)
 
 * https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Applause
 * https://www.theguardian.com/commentisfree/2007/sep/12/comment.comment2

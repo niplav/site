@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-08-28, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-09-02, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -1658,18 +1658,17 @@ This function can now be tested:
 
 ### P55 (**) Construct completely balanced binary trees.
 
-	d2::{,/x{y,:/x}:\y}
-	s55::{:[x<2;
-		,x#,:x;
-		{:x,'x}'{{:[x~y;d2(x;x);d2(x;y),d2(y;x)]}:(,'s55(x:%2);,'s55(x-x:%2))}:(x-1)]}
-	s56::{:[*3=^x;
-		&/{:[(~3=*^y)|~3=*^x;
-		(^x)=^y;1,.f(x@1;y@2),.f(x@2;y@1)]}:(x@1;x@2):|2>*^x;1;0]}
+	d1::{:x,(,x),,y}
+	d2::{x{y d1:/x}:\y}
+	s55::{:[x=0;,[];,/{:[x~y;d2(x;x);d2(x;y),d2(y;x)]}@.f'{(x:%2),x-x:%2}@x-1]}
+
+### P56 (**) Symmetric binary trees.
+
+	s56::{:[*3=^x;&/{:[(~3=*^y)|~3=*^x;(^x)=^y;1,.f(x@1;y@2),.f(x@2;y@1)]}:(1_x):|x~[];1;0]}
 	d3::{[m];m::(#x):%2;:[2>#x;x;(x@m),(,.f(x@!m)),,.f((1+m)_x)]}
 	s57::{d3(x@>x)}
 	s58::{flr({s56(x)};s55(x))}
 	s59::{:[x<2;,x#,:x;{:x,'x}'{d2(x;x),d2(y;x),d2(x;y)}:(,'s59(x-1);,'s59(x-2))]}
-
 	minnodes::{:[x<1;0:|x=1;1;1+.f(x-1)+.f(x-2)]}
 
 <!--
