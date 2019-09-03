@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-09-02, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-09-03, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -1658,13 +1658,67 @@ This function can now be tested:
 
 ### P55 (**) Construct completely balanced binary trees.
 
+`s55` can be implemented as a recursive function. The only balanced
+binary tree with 0 nodes is the empty list `[]`, so `s55` returns `[[]]`
+(the list containing the only balanced binary tree with 0 nodes) for the
+argument `0`. If the tree has more nodes, `s55` first subtracts 1 for
+the root node, and then generates the two possible sets of trees: one
+with `x:%2` nodes (half of them), and `x-x:%2` nodes (the other half).
+These two sets are then given as arguments to another function. This
+function checks whether the two sets have the same shape (this is the
+case iff `(x:%2)=x-x:%2`). If they have the same shape, it generates
+all possible combinations of the two using the helper function `d2`,
+which simply executes `d1` on all pairs of `x` and `y` (the cartesian
+product).  If their shapes are different, then `d2` is executed on `x`
+and `y` in both orders. `d1` simply takes two trees and combines them
+into a single tree with the root node `:x`.
+
 	d1::{:x,(,x),,y}
 	d2::{x{y d1:/x}:\y}
 	s55::{:[x=0;,[];,/{:[x~y;d2(x;x);d2(x;y),d2(y;x)]}@.f'{(x:%2),x-x:%2}@x-1]}
 
+Tests (using `clean` which was previously defined):
+
+		s55(0)
+	[[]]
+		 clean's55(1)
+	[[:x]]
+		clean's55(2)
+	[[:x [] [:x]] [:x [:x] []]]
+		clean's55(3)
+	[[:x [:x] [:x]]]
+		clean's55(4)
+	[[:x [:x] [:x [] [:x]]] [:x [:x] [:x [:x] []]] [:x [:x [] [:x]] [:x]] [:x [:x [:x] []] [:x]]]
+		#'s55'!41
+	[1 1 2 1 4 4 4 1 8 16 32 16 32 16 8 1 16 64 256 256 1024 1024 1024 256 1024 1024 1024 256 256 64 16 1 32 256 2048 4096 32768 65536 131072 65536 524288]
+		s55(-1)
+	kg: error: interrupted
+
+This seems to work just fine.
+
 ### P56 (**) Symmetric binary trees.
 
-	s56::{:[*3=^x;&/{:[(~3=*^y)|~3=*^x;(^x)=^y;1,.f(x@1;y@2),.f(x@2;y@1)]}:(1_x):|x~[];1;0]}
+	s56::{:[*3=^x;&/{:[[]~x,y;1;((^x)~^y),.f(x@1;y@2),.f(x@2;y@1),(*x)=*y]}@(1_x):|x~[];1;0]}
+
+Tests:
+
+		s56([])
+	1
+		s56([:x [] []])
+	1
+		s56([:x [] [:x [] []]])
+	0
+		s56([:x [:x [] []] [:x [] []]])
+	1
+		s56([:x [:x [:x [] []] []] [:x [] [:x [] []]]])
+	1
+		s56([:x [:x [:x [] []] []] [:x [:x [] []] [:x [] []]]])
+	0
+		s56([:x [:x [:x [] []] []] [:x [:x [] []] []]])
+	0
+
+### P57 (**) Binary search trees (dictionaries).
+
 	d3::{[m];m::(#x):%2;:[2>#x;x;(x@m),(,.f(x@!m)),,.f((1+m)_x)]}
 	s57::{d3(x@>x)}
 	s58::{flr({s56(x)};s55(x))}

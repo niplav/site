@@ -275,6 +275,8 @@ functions of applause.
 
 ### Existing Different Approaches
 
+<!--TODO: Look at other existing approaches in the Wikipedia article on applause-->
+
 #### Silence
 
 #### [Jazz hands](https://en.wikipedia.org/wiki/Jazz_hands)
