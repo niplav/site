@@ -1,0 +1,8 @@
+fact::{:[0=x;1;*/1+!x]}
+bincoeff::{[n k];n::x;k::y;fact(n)%(fact(k)*fact(n-k))}
+catalan::{bincoeff(2*x;x)%x+1}
+f::{2*catalan(x)}
+o::{:[x=1;4;4*o(x-1)-f(x-1)]}
+pgn::{1%2*x}
+r::{r(x-1)-pgn(x-1)*r(x-1)}
+ev::{[px];px::pgn(x);.p(($x),",",($px*y),",",$z);.f(x+1;y-(y*px);z+2*x*y*px)}
