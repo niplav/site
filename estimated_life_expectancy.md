@@ -153,7 +153,7 @@ especially questions about age.
 ### Subjective Life Expectancy
 
 Estimates of life expectancy were interesting: The mean estimate was
-83.248 years, 82.016 years for men and 84.48 years for women.  The lowest
+83.248 years, 82.016 years for men and 84.48 years for women. The lowest
 estimate of life expectancy was only 30 years, the highest was 200 years
 (lowest/highest for males: 30/120, lowest/highest for females: 39/200).
 
@@ -300,7 +300,7 @@ This can be shown in a scatter plot of the data.
 The red dots represent data points from women, the blue ones are from
 men. The red line is the linear regression for the data by women, the
 black line is the linear regression for the whole data, and the blue
-line is the linear regression for the data by men.  Outliers are clearly
+line is the linear regression for the data by men. Outliers are clearly
 visible, and the difference between the linear regressions is also visible.
 
 ### Comparison With Actuarial Tables
@@ -413,7 +413,7 @@ For men:
 
 	draw()
 
-![Mean estimate per year to actuarial table for men](./img/estimated_life_expectancy/m_res.png)
+![Mean estimate per year to actuarial table for men](./img/estimated_life_expectancy/m_res.png "Mean estimate per year to actuarial table for men. The graph shows the life expectancy for a person with a given age (actuarial values) (how old the person is to how old they will become on average) and the average subjective estimate for life expectancy per age (how old the person is to how old they think they will become). The actuarial data for men rises with the standard Gompertz curve, starting at 80 and beginning to rise at around the person reaching the age of 60. The mean estimate is clustered around this curve, but still quite noisy.")
 
 For women:
 
@@ -436,7 +436,7 @@ For women:
 
 	draw()
 
-![Mean estimate per year to actuarial table for men](./img/estimated_life_expectancy/f_res.png)
+![Mean estimate per year to actuarial table for men](./img/estimated_life_expectancy/f_res.png "Mean estimate per year to actuarial table for women. The graph shows the life expectancy for a person with a given age (actuarial values) (how old the person is to how old they will become on average) and the average subjective estimate for life expectancy per age (how old the person is to how old they think they will become).The actuarial data for women also rises with the standard Gompertz curve, starting at 82 and beginning to rise at around the person reaching the age of 60. The mean estimate is clustered around this curve, but still quite noisy.")
 
 <!--TODO: difference between estimated age and actuarial value, is there
 a correlation? Would that even be a useful measure?-->
@@ -476,7 +476,7 @@ The visualisation of the data shows a clear lack of women aged between
 possible explanation for this observation is an age-related bias by the
 interrogator. Another possible explanation could be that people older
 than 70 don't like to answer questions in the street, don't go outside
-very often, are rare, or lie about their age regularly.  I note that it
+very often, are rare, or lie about their age regularly. I note that it
 seemed to me that older women were most reluctant to answer my questions,
 but that may just be another manifestation of personal bias.
 
@@ -487,7 +487,7 @@ people willing to answer questions from strangers on the street. This
 could select for high openness, which could function as a proxy for
 optimism. Also, all people were interrogated in a big city, which
 could have biased the data (I am not sure which direction this bias
-woul tend).  One could also argue that self-reported data is [notoriously
+woul tend). One could also argue that self-reported data is [notoriously
 unreliable](https://guzey.com/statistics/dont-believe-self-reported-data/),
 but since the point of this data collection was to aggregate subjective
 estimates, this should not be an issue here.
@@ -507,7 +507,7 @@ encountering and misgendering a trans person. According to [Flores et al.
 2016](./doc/estimated_life_expectancy/how_many_adults_identify_as_transgender_us_flores_et_al_2016.pdf
 "How Many Adults Identify as Transgender in the United States"), 0.6% of
 the U.S. adult population identifies as transgender. It is assumed that
-the numbers for Germany are similar.  <!--TODO: Find a german source-->
+the numbers for Germany are similar. <!--TODO: Find a german source-->
 It is also assumed that the probability for a trans person passing is
 around 90% (I am just making this number up).
 
