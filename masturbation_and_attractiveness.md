@@ -1,11 +1,11 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-08-23, language: english, status: notes, importance: 4, confidence: likely*
+*author: niplav, created: 2019-08-03, modified: 2019-08-23, language: english, status: notes, importance: 4, confidence: possible*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
-> collected and shows that.__
+> collected and shows that \_.__
 
 Abstinence from Masturbation and Success from Cold Approach
 ===========================================================
@@ -13,7 +13,14 @@ Abstinence from Masturbation and Success from Cold Approach
 Abstract
 --------
 
-Motivation
+Members of the nofap community frequently claim that male physical
+attractiveness is causally influenced by the frequency and duration
+since last occurence of masturbation.
+
+I present a method to test this claim (albeit imperfectly) by approaching
+200 people in the street after 90 days of abstinence from masturbation and
+asking them for a date, and again after a week of daily masturbation. The
+results are discussed and find that \_.
 
 Examples for the Claim
 -----------------------
@@ -69,6 +76,13 @@ claim](https://old.reddit.com/r/NoFap/comments/bzj8ra/they_smell_it_on_you/eqti6
 
 Preregistration
 ---------------
+
+To avoid p-hacking and other practices, the bulk of the text was written
+before the actual experiment and data analysis was conducted, and posted
+on the [nofap subreddit](https://old.reddit.com/r/NoFap/) as well as to
+the subreddit [/r/niplav](https://old.reddit.com/r/niplav), with the
+`sha256sum` of the text as the title. The hash sum was put into the
+title to prevent tampering with the content of the article to prevent
 
 H₀:
 "There is no statistically significant difference in success from cold approach before and and long term abstinence from masturbation."

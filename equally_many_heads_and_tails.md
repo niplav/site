@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-08, modified: 2019-07-31, language: english, status: finished, importance: 4, confidence: highly likely*
+*author: niplav, created: 2019-02-08, modified: 2019-09-06, language: english, status: finished, importance: 4, confidence: highly likely*
 
 > __Imagine getting up every morning and throwing a coin so often that
 > heads and tails have come up an equal amount of times. How often
@@ -324,8 +324,8 @@ that this should be the case, but one shouldn't be too sure of it.
 External Links
 --------------
 
-* By Ask a Mathematician / Ask a Physicist: [Q: If you flip a coin forever, are you guaranteed to eventually flip an equal number of heads and tails?](https://www.askamathematician.com/2014/01/q-if-you-flip-a-coin-forever-are-you-guaranteed-to-eventually-flip-an-equal-number-of-heads-and-tails/)
+* [“Q: If you flip a coin forever, are you guaranteed to eventually flip an equal number of heads and tails?”](https://www.askamathematician.com/2014/01/q-if-you-flip-a-coin-forever-are-you-guaranteed-to-eventually-flip-an-equal-number-of-heads-and-tails/)
 * By Neil Webber:
-	* [Flipping a coin until reaching equal heads and tails](http://neilwebber.com/notes/2018/10/29/flipping-a-coin-until-reaching-equal-heads-and-tails/)
-	* [Coin flips and Catalan Numbers](http://neilwebber.com/notes/2018/11/18/coin-flips-and-catalan-numbers/)
-	* [Coin flip simulation still running – 62 days!](http://neilwebber.com/notes/2018/12/26/coin-flip-simulation-still-running-62-days/)
+	* [“Flipping a coin until reaching equal heads and tails”](http://neilwebber.com/notes/2018/10/29/flipping-a-coin-until-reaching-equal-heads-and-tails/)
+	* [“Coin flips and Catalan Numbers”](http://neilwebber.com/notes/2018/11/18/coin-flips-and-catalan-numbers/)
+	* [“Coin flip simulation still running – 62 days!”](http://neilwebber.com/notes/2018/12/26/coin-flip-simulation-still-running-62-days/)

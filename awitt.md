@@ -50,7 +50,7 @@ So why not simply choose arbtt and be done with it?
 My main problem is with the fact that arbtt is implemented in Haskell.
 It's not that Haskell is a bad language, but I heavily dislike having to
 install several hundred megabytes of libraries to just run a simple time
-tracker. On the other hand, arbtt is implemented in C, which makes it
+tracker. On the other hand, awitt is implemented in C, which makes it
 possible to compile and run it on every platform that also provides X11.
 
 awitt also provides little features beyond printing window information

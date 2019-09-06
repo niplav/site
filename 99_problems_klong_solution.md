@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-09-03, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-09-06, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -1563,9 +1563,12 @@ returns the result string.
 	frq::{[t];t::x;{(t@*x),#x}'=x}
 	c1::{:[2=#x;,(,y),x@1;.f(x@1;y,0),.f(x@2;y,1)]}
 	c2::{{,(+/*'x),x}:(2#x),2_x}
+	bin::{(-x)#(&x),{:[x;.f(x:%2),x!2;0]}:(y)}
+	comp::{{+/x*'2^|!8}'(8*1+!(#x):%8):_x}
+	decomp::{,/{bin(8;x)}'x}
 	s50::{|'c1(*{1<#x}{c2(x@<*'x)}:~|'x;[])}
-	encode::{c::s50(frq(x));,/{*|c@*(x=*'c)?1}'x}
-	decode::{[r o];o::s50(y);r::"";{x}{[p];p::*(x{:[&/y=(#y)#x;1;0]}:\*'|'o)?1;r::r,*o@p;(#*|o@p)_x}:~x;r}
+	encode::{[c];c::s50(frq(x));comp(,/{*|c@*(x=*'c)?1}'x)}
+	decode::{[r o];o::s50(y);r::"";{x}{[p];p::*(x{:[&/y=(#y)#x;1;0]}:\*'|'o)?1;r::r,*o@p;(#*|o@p)_x}:~decomp(x);r}
 
 Test:
 
@@ -1676,29 +1679,49 @@ into a single tree with the root node `:x`.
 	d1::{:x,(,x),,y}
 	d2::{x{y d1:/x}:\y}
 	s55::{:[x=0;,[];,/{:[x~y;d2(x;x);d2(x;y),d2(y;x)]}@.f'{(x:%2),x-x:%2}@x-1]}
+	cbaltree::s55
 
 Tests (using `clean` which was previously defined):
 
-		s55(0)
+		cbaltree(0)
 	[[]]
-		 clean's55(1)
+		 clean'cbaltree(1)
 	[[:x]]
-		clean's55(2)
+		clean'cbaltree(2)
 	[[:x [] [:x]] [:x [:x] []]]
-		clean's55(3)
+		clean'cbaltree(3)
 	[[:x [:x] [:x]]]
-		clean's55(4)
+		clean'cbaltree(4)
 	[[:x [:x] [:x [] [:x]]] [:x [:x] [:x [:x] []]] [:x [:x [] [:x]] [:x]] [:x [:x [:x] []] [:x]]]
-		#'s55'!41
+		#'cbaltree'!41
 	[1 1 2 1 4 4 4 1 8 16 32 16 32 16 8 1 16 64 256 256 1024 1024 1024 256 1024 1024 1024 256 256 64 16 1 32 256 2048 4096 32768 65536 131072 65536 524288]
-		s55(-1)
+		cbaltree(-1)
 	kg: error: interrupted
 
 This seems to work just fine.
 
 ### P56 (**) Symmetric binary trees.
 
-	s56::{:[*3=^x;&/{:[[]~x,y;1;((^x)~^y),.f(x@1;y@2),.f(x@2;y@1),(*x)=*y]}@(1_x):|x~[];1;0]}
+In this function, `mirror` is inlined into `s56`. It roughly works like
+this: Two trees are the mirror of of each other if and only if both
+trees are either empty or have the same shape and
+
+* The left subtree of the left tree has the same shape as the right subtree of the right tree, and
+* The right subtree of the left tree has the same shape as the left subtree of the right tree
+
+The problem statement says that the content of the tree can be ignored
+and that only structure is important.
+
+The outer function takes the input tree, returns true if it is empty,
+and calls the inner mirror-checking function with the two subtrees. The
+inner function checks whether the two input trees are empty (and returns
+true if they are), recursively checks the trees if they have the same
+shape, or returns false.
+
+The function doesn't check whether the tree is a correct tree (that's what
+`s54a` is for, after all).
+
+	s56::{:[3=#x;{:[[]~x,y;1:|(^x)~^y;.f(x@1;y@2)&.f(x@2;y@1);0]}@(1_x):|x~[];1;0]}
 
 Tests:
 
@@ -1717,10 +1740,18 @@ Tests:
 		s56([:x [:x [:x [] []] []] [:x [:x [] []] []]])
 	0
 
+The function sometimes fails if it is not given a correctly shaped tree:
+
+		s56([:x [:x][:x]])
+	kg: error: index: range error: 2
+
 ### P57 (**) Binary search trees (dictionaries).
 
 	d3::{[m];m::(#x):%2;:[2>#x;x;(x@m),(,.f(x@!m)),,.f((1+m)_x)]}
 	s57::{d3(x@>x)}
+
+### P58 (**) Generate-and-test paradigm.
+
 	s58::{flr({s56(x)};s55(x))}
 	s59::{:[x<2;,x#,:x;{:x,'x}'{d2(x;x),d2(y;x),d2(x;y)}:(,'s59(x-1);,'s59(x-2))]}
 	minnodes::{:[x<1;0:|x=1;1;1+.f(x-1)+.f(x-2)]}
