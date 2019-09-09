@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-09-08, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-09-09, language: english, status: in progress, importance: 2, confidence: log*
 
 > __[Rationalists](https://en.wikipedia.org/wiki/LessWrong) and the
 > [neoreactionary movement](https://en.wikipedia.org/wiki/Dark_Enlightenment)
@@ -23,7 +23,7 @@ Overview
 
 > we are the cutest little neopagans
 
-*– ozymandias271, [“Gods of the New World"](https://jack-rustier.tumblr.com/post/104365237995/gods-of-the-new-world-a-conceptual-mythology-for), 2014*
+*– ozymandias271, [“Gods of the New World”](https://jack-rustier.tumblr.com/post/104365237995/gods-of-the-new-world-a-conceptual-mythology-for), 2014*
 
 * [Gods of the New World: A conceptual mythology for the 21st century. (Idea Draft)](https://jack-rustier.tumblr.com/post/104365237995/gods-of-the-new-world-a-conceptual-mythology-for)
 

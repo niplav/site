@@ -1,4 +1,4 @@
-![Sol Plav](./favicon.png)
+![Sol Plav](./favicon.png "Sol Plav")
 
 *author: niplav, created: 2019-03-20, modified: 2019-09-03, language: english, status: in progress, importance: 6, confidence: log*
 

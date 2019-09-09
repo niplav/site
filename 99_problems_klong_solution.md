@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-09-06, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-09-09, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -1545,11 +1545,12 @@ This is okay.
 
 This is not part of the problem statement, but one can now write code
 that receives a string and encodes it, as well as code that receives a
-an encoded string and a list of frequencies and decodes a given string.
+an encoded string and a list of frequencies and decodes that given string.
 
-Encoding the string is not particularly difficult: For each character, the
-inner function searches for the representation of that character in the
-huffman coding and returns the code. The results are then concatenated.
+Encoding the string is not particularly difficult: For each character,
+the inner function searches for the representation of that character in
+the huffman coding and returns the code. The results are then concatenated
+and converted to a string.
 
 Decoding is much more complex because huffman decoding is very iterative,
 and there doesn't seem to be a array-based equivalent.  Basically,
@@ -1560,23 +1561,59 @@ for the string and p is the matching prefix for the string. This code
 is executed in a While-loop until the encoded string is empty, and then
 returns the result string.
 
+To summarize, there are 7 helper functions:
+
+* `frq` builds the frequency table
+* `treewalk` builds the huffman code from an existing tree
+*	`combsmallest` gets a list of trees and combines the ones with
+	the smallest root value
+*	`gencode` combines `combsmallest` and `treewalk` to generate a
+	huffman code from a frequency table
+* `bin` returns the binary representation of a number
+* `comp` creates an ASCII string from a list of binary digits
+*	`decomp` creates a list of binary digits from an ASCII string
+	(the inverse operation of `comp`)
+*	`encode` generates the huffman-encoded bit-array from a string,
+	and from that creates a list with 3 elements
+	*	the length of the bit array (needed because the conversion
+		to a string pads the bit array with 0s or 1s)
+	* the frequency table of the string (using `frq`)
+	* the encoded string itself (using `comp`)
+*	`decode` receives a list created by `encode` and returns the
+	original string by first generating the huffman code from the frequency
+	table (using `gencode`), then decompressing the ASCII string using
+	`decomp`, and then iterating through the string
+
+Here is the complete code, in all its glory:
+
 	frq::{[t];t::x;{(t@*x),#x}'=x}
-	c1::{:[2=#x;,(,y),x@1;.f(x@1;y,0),.f(x@2;y,1)]}
-	c2::{{,(+/*'x),x}:(2#x),2_x}
+	treewalk::{:[2=#x;,(,y),x@1;.f(x@1;y,0),.f(x@2;y,1)]}
+	combsmallest::{{,(+/*'x),x}:(2#x),2_x}
+	gencode::{|'treewalk(*{1<#x}{combsmallest(x@<*'x)}:~|'x;[])}
 	bin::{(-x)#(&x),{:[x;.f(x:%2),x!2;0]}:(y)}
-	comp::{{+/x*'2^|!8}'(8*1+!(#x):%8):_x}
-	decomp::{,/{bin(8;x)}'x}
-	s50::{|'c1(*{1<#x}{c2(x@<*'x)}:~|'x;[])}
-	encode::{[c];c::s50(frq(x));comp(,/{*|c@*(x=*'c)?1}'x)}
-	decode::{[r o];o::s50(y);r::"";{x}{[p];p::*(x{:[&/y=(#y)#x;1;0]}:\*'|'o)?1;r::r,*o@p;(#*|o@p)_x}:~decomp(x);r}
+	comp::{,/:#{+/x*'2^|!8}'(8*1+!(#x):%8):_x}
+	decomp::{,/{bin(8;x)}'#'x}
+	encode::{[c f b];f::frq(x);c::gencode(f);b::,/{*|c@*(x=*'c)?1}'x;(#b),(,f),,comp(b)}
+	decode::{[r o];o::gencode(x@1);r::"";{x}{[p];p::*(x{:[&/y=(#y)#x;1;0]}:\*'|'o)?1;r::r,*o@p;(#*|o@p)_x}:~(*x)#decomp(x@2);r}
 
 Test:
 
 		s::"Sun is shining in the sky, there ain't a cloud in sight. It's a blazin', everybody's there to play, and don't you know-it's so beautiful today, he- he- hey. Running down the avenue, see how the sun shines brightly."
-		e::encode(s)
-	[0 1 1 0 0 1 1 1 1 0 1 1 0 1 1 0 1 0 0 0 1 1 1 0 1 0 1 0 0 0 1 0 1 1 0 0 0 0 1 1 1 1 1 0 1 0 1 1 1 1 1 0 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 0 1 0 0 1 0 1 0 1 0 0 0 1 1 1 0 0 0 0 1 0 1 1 1 0 0 0 1 0 1 0 0 1 1 0 1 0 0 0 0 0 1 0 1 0 1 0 0 0 1 1 1 0 1 0 1 1 1 1 1 1 1 0 0 0 1 1 0 0 1 0 1 1 1 1 1 0 1 1 0 0 1 0 1 0 1 0 0 0 1 1 0 0 1 0 0 0 1 1 0 0 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 0 1 1 0 1 0 0 0 1 1 1 1 1 0 1 0 0 0 1 0 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 1 1 0 0 0 0 1 0 1 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 1 0 0 1 0 0 1 0 1 1 1 0 1 1 1 1 0 1 1 1 0 0 1 1 1 0 0 0 0 0 0 0 1 1 1 1 1 0 1 1 0 0 1 0 0 1 0 0 0 0 0 1 1 1 0 1 1 0 0 0 1 1 1 1 1 0 1 0 1 1 1 1 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 0 1 1 0 1 1 0 0 1 1 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 1 0 0 0 1 1 1 0 1 0 1 1 1 1 1 1 1 0 0 0 1 0 1 0 1 1 1 1 1 0 0 0 1 1 0 0 1 1 0 1 1 1 1 0 1 1 1 0 0 1 1 0 0 1 1 0 1 0 0 0 0 0 1 1 0 0 1 1 1 0 1 0 1 1 0 1 0 0 0 1 1 0 1 1 1 1 1 1 1 1 0 1 1 0 0 1 0 1 0 1 0 0 0 1 0 0 1 1 1 1 1 1 1 1 0 1 1 0 0 0 1 1 0 0 0 1 0 1 1 0 1 1 1 1 1 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 1 1 1 0 1 0 1 0 0 1 0 0 1 0 1 0 0 0 1 0 1 1 1 1 1 1 0 0 1 0 1 1 1 0 1 1 1 0 1 1 0 0 1 1 0 1 1 0 1 0 1 0 0 1 1 1 1 1 0 0 0 0 1 1 1 0 1 1 0 1 1 1 1 0 1 0 0 1 0 1 0 1 1 1 1 1 0 1 1 0 1 1 1 0 0 1 1 0 0 1 1 0 1 0 0 0 0 0 1 0 0 0 1 1 1 0 0 1 1 0 0 0 0 0 1 0 0 0 1 1 1 0 0 1 1 0 0 0 0 0 1 0 0 0 1 1 1 0 1 0 0 1 1 0 1 0 0 1 1 0 0 1 1 0 0 0 0 0 1 1 0 1 1 0 1 1 0 1 1 1 0 1 0 1 1 1 1 1 0 1 1 1 1 1 0 0 0 0 0 1 1 0 1 1 1 1 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 0 1 0 0 0 1 1 1 0 0 0 1 1 0 0 1 1 1 0 0 0 1 1 1 1 1 0 1 1 0 1 1 0 1 1 0 1 1 1 0 0 1 0 0 0 0 0 0 1 0 1 1 1 1 0 1 1 1 0 0 0 1 0 0 0 1 1 1 1 1 0 1 0 0 1 0 0 0 1 0 1 0 1 0 0 0 1 1 1 0 0 0 0 1 0 1 1 0 1 1 0 1 1 0 1 0 0 0 1 0 1 1 0 0 0 0 1 1 1 1 1 0 1 1 1 1 0 0 1 0 1 0 0 1 0 1 1 1 0 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 1 0 1 0 1 1 1 1 0 1 1 0 0 1 1 0 1 0 0 1 1]
-		decode(e;frq(s))
+		p::encode(s)
+	[923 [[0cS 1] [0cu 8] [0cn 17] [0c  38] [0ci 13] [0cs 12] [0ch 13] [0cg 4] [0ct 14] [0ce 18] [0ck 2] [0cy 8] [0c, 5] [0cr 4] [0ca 9] [0c' 6] [0cc 1] [0cl 5] [0co 10] [0cd 6] [0c. 3] [0cI 1] [0cb 4] [0cz 1] [0cv 2] [0cp 1] [0cw 3] [0c- 3] [0cf 1] [0cR 1]] "g�������Q��
+	����ʌ����>��E&aT��w��}�����rR���3{��δo�TO�1o�a�J/˻6�÷�}��`�u��KJ�3��܁{��EG
+                                                                               myK�""��`"]
+		decode(p)
 	"Sun is shining in the sky, there ain't a cloud in sight. It's a blazin', everybody's there to play, and don't you know-it's so beautiful today, he- he- hey. Running down the avenue, see how the sun shines brightly."
+
+Using `encode` interactively can cause problems because the string
+can contain control characters that change the settings of the current
+terminal.
+
+It is unclear when it starts to make sense to compress strings this way,
+since there is a considerable overhead due to including the frequency
+table and the length of the initial bit-array. More tests are needed
+on that.
 
 Binary Trees
 ------------
