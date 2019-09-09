@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-08-16, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-09-08, language: english, status: in progress, importance: 2, confidence: log*
 
 > __[Rationalists](https://en.wikipedia.org/wiki/LessWrong) and the
 > [neoreactionary movement](https://en.wikipedia.org/wiki/Dark_Enlightenment)
@@ -87,8 +87,8 @@ The Goddess of Everything Else
 
 * [The Goddess of Everything Else](https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/)
 
-See Also
---------
+External Links
+---------------
 
 > the wages of sin is death
 

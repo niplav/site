@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-08-29, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2019-09-08, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -94,6 +94,9 @@ The style of writing is mostly formal US english.
 * A passive voice is preferred, but I have to get into the flow of writing, so texts may contain that as well.
 * No footnotes/endnotes (see [entirelyuseless 2015](https://entirelyuseless.com/2015/07/11/are-hyperlinks-a-bad-idea/))
 * Quotes have the following style: `*– [Author Name](https://en.wikipedia.org/wiki/Author_Name), [“Chapter” in “Work Name”](https://work-name.com) p.1, Year*`. If the work is not online, link the Wikipedia page.
+* Quotes of reddit have the following style:
+	* Post: `*– [User_Name](https://old.reddit.com/u/User_Name), [“Post Title”](https://old.reddit.com/r/all/post_title/) in [/r/all](https://old.reddit.com/r/all) (100 upvotes), Year*`
+	* Comment: `*– [User_Name](https://old.reddit.com/u/User_Name), [comment](https://old.reddit.com/r/all/post_title/deadbeef) on [“Post Title”](https://old.reddit.com/r/all/post_title/) in [/r/all](https://old.reddit.com/r/all) (100 upvotes), Year*`
 * For pages, optimal is to give the page number of the quotation in the linked PDF. If it is not available, the page number written at the bottom of the page is used.
 * Link to document: typical style
 	* for one author: `[Author Year](./title_author_year.pdf)`
@@ -106,7 +109,8 @@ The style of writing is mostly formal US english.
 	* link back to the index page `[home](./index.md)`
 	* metadata on the article, bold&quoted abstract
 	* title of the article
-	* "External Links"/"See Also" for links to other websites discussing the same (or very similar) ideas
+	* "See Also" for similar links on this website
+	* "External Links" for links to other websites discussing the same (or very similar) ideas
 	* "Discussions" for external discussions on the article
 * Long numbers written with [SI-postfixes](https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes) (K for thousand, M for million etc.)
 
@@ -115,13 +119,17 @@ The style of writing is mostly formal US english.
 I use a [script](./code/sitelint) to fix easily catchable mistakes.
 
 * Spell checking using [aspell](http://aspell.net/)
-* check broken markdown
-* broken citations
-* "labour" instead of "labor", "behaviour" instead of "behavior" (American English)
-* links for authors to Wikipedia
-* capitalization (capitalisation?) of headings
-* proselint?
-* fixing 404'ed links?
+* Check broken markdown
+* Broken citations
+* American English <!--TODO: Wikipedia--> ("labour" instead of "labor", "behaviour" instead of "behavior")
+* Checking for unbalanced parentheses
+
+<!--
+links for authors to Wikipedia
+capitalization (TODO: (capitalisation?) of headings
+proselint?
+fixing 404'ed links?
+-->
 
 ### Organisation
 

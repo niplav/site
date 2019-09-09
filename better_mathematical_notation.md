@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-23, modified: 2019-08-03, language: english, status: notes, importance: 4, confidence: log*
+*author: niplav, created: 2019-04-23, modified: 2019-08-08, language: english, status: notes, importance: 4, confidence: log*
 
 > __Mathematical notation is not a planned and systematic endeavour, but
 > the result of a long process of generation and selection of different
@@ -31,8 +31,8 @@ New Notations
 * https://math.stackexchange.com/questions/30046/alternative-notation-for-exponents-logs-and-roots
 * http://www.solidangl.es/2015/04/a-radical-new-look-for-logarithms.html
 
-See Also
---------
+External Links
+--------------
 
 TODO: Read:
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-08-29, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-05-22, modified: 2019-09-08, language: english, status: in progress, importance: 3, confidence: unlikely*
 
 > __Short texts on different topics.__
 
@@ -284,7 +284,9 @@ seems unlikely.
 * How often do people see compliments as advice?
 * What is more worth: A weird/creative compliment or a standard compliment? (Example: "I like your hat!" vs. "Your hat reminds me of a painting of a soldier from the French Revolution!")
 
-### Reddit Compliments About Compliments
+### Reddit Comments About Compliments
+
+<!--TODO: write down the number of upvotes-->
 
 > “I’m pretty sure that you might be partly a genius” - boss. […]
 > I know he was blowing smoke because he immediately asked me to Do a

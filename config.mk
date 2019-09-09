@@ -6,9 +6,9 @@ HTML=index.html \
 	about.html \
 	changelog.html \
 	contributions.html \
-	fundamentals.html \
 	notes.html \
 	now.html \
+	todo.html \
 	uses_this.html \
 	99_klong_problems.html \
 	99_problems_collection.html \
@@ -24,7 +24,6 @@ HTML=index.html \
 	incels_political_program.html \
 	masturbation_and_attractiveness.html \
 	metamodernistisches_manifest.html \
-	pick_up.html \
 	pipe_rings.html \
 	platte.html \
 	rationalist_gods.html \
