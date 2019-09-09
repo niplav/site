@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-24, modified: 2019-09-08, language: english, status: finished, importance: 4, confidence: possible*
+*author: niplav, created: 2019-04-24, modified: 2019-09-09, language: english, status: finished, importance: 4, confidence: possible*
 
 > __[Pipelines](https://en.wikipedia.org/wiki/Pipeline_(Unix)) are an
 > integral part of the Unix operating system. They come in different
@@ -118,7 +118,7 @@ whether the string "mu" can be constructed.
 An [awk](https://en.wikipedia.org/wiki/AWK) script implements the
 four rules:
 
-	/i$/ { print($0 "u")) }
+	/i$/ { print($0 "u") }
 	/^m/ { s=substr($0, 2); print("m" s s) }
 	/iii/ { i=split($0, a, "iii")-1; for(c=1; c<=i; c++) print(gensub("iii", "uu", c)) }
 	/uu/ { i=split($0, a, "uu")-1; for(c=1; c<=i; c++) print(gensub("uu", "", c)) }

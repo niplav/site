@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-09-08, language: english, status: draft, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-04-11, modified: 2019-09-09, language: english, status: in progress, importance: 4, confidence: unlikely*
 
 > __In western cultures, it is nearly universal for people to clap
 > before and after pieces of classical music and jazz. An argument
@@ -302,7 +302,7 @@ Hands"](https://en.wikipedia.org/wiki/Jazz_hands), seems to be a
 good starting point: an already existing method, retaining most of the
 properties of applause (such as being visible, produced by the audience,
 requiring participation, mostly self-coordinating and less straining on
-the palms) and being connected to a marginalized group connected to the
+the palms) and being favoured by a marginalized group connected to the
 social justice movement.
 
 <!--TODO: Make this real quotes-->

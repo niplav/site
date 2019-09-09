@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-02, modified: 2019-09-08, language: english, status: in progress, importance: 2, confidence: other*
+*author: niplav, created: 2019-09-02, modified: 2019-09-09, language: english, status: in progress, importance: 2, confidence: other*
 
 > __awitt is a simple window title logger/time tracker. It is linked,
 > described and compared to other similar projects. Then, its releases
@@ -73,7 +73,7 @@ Bugs
 
 ### Definitely Bugs
 
-* Encoding problems: 'ä' is printed as the two bytes e42e. `file windows.log` says 'Non-ISO extended-ASCII text, with escape sequences'
+* Encoding problems: 'ä' is printed as the two bytes 0xe4 0x2e. `file windows.log` says 'Non-ISO extended-ASCII text, with escape sequences'
 
 ### Possibly Bugs
 

@@ -64,7 +64,7 @@ Texts
 * The End of History Fallacy
 * The “If Everyone Just” Argument
 	* The argument just assumes one of the biggest problems away: coordination and cooperation
-	* Related: [Malthusianisms](https://www.scottaaronson.com/blog/?p=418))
+	* Related: [Malthusianisms](https://www.scottaaronson.com/blog/?p=418)
 * Missing the Movement
 	* "Most Hedonists end up sad!"
 	* "Utilitarianism leads to bad results!"

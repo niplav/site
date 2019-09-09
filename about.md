@@ -125,10 +125,10 @@ I use a [script](./code/sitelint) to fix easily catchable mistakes.
 * Checking for unbalanced parentheses
 
 <!--
-links for authors to Wikipedia
-capitalization (TODO: (capitalisation?) of headings
-proselint?
-fixing 404'ed links?
+* links for authors to Wikipedia
+* capitalization, TODO: (capitalisation?) of headings
+* proselint
+* fixing 404'ed links
 -->
 
 ### Organisation
