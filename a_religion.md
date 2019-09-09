@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-06-01, modified: 2019-09-06, language: english, status: notes, importance: 2, confidence: theory*
+*author: niplav, created: 2019-06-01, modified: 2019-09-08, language: english, status: notes, importance: 2, confidence: theory*
 
 > __A pseudo-mathematical religion combining several unrelated ideas is
 > presented and explained. Inspired by [Unsong](http://unsongbook.com/).__
@@ -69,8 +69,8 @@ Explanation
 
 ### Hell
 
-See Also
---------
+External Links
+--------------
 
 <!--
 TODO: read

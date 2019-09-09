@@ -63,8 +63,6 @@ ag -l TODO | sort
 
 printf '\nChecking for unbalanced characters:\n'
 
-
-
 for(i in `{ls *.md}) {
 	j=`{balanced $i}
 	if(! ~ $j '')

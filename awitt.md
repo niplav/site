@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-02, modified: 2019-09-03, language: english, status: in progress, importance: 2, confidence: other*
+*author: niplav, created: 2019-09-02, modified: 2019-09-08, language: english, status: in progress, importance: 2, confidence: other*
 
 > __awitt is a simple window title logger/time tracker. It is linked,
 > described and compared to other similar projects. Then, its releases
@@ -32,8 +32,8 @@ The usual use case is as following:
 
 activities.log can then be later analysed using standard unix tools.
 
-Why not Choose X instead?
--------------------------
+Why not Choose `$x$` instead?
+------------------------------
 
 There are several time trackers available for unix, but most of them
 suffer from the fact that they need manual input of current activities,

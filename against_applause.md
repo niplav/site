@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-09-06, language: english, status: draft, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-04-11, modified: 2019-09-08, language: english, status: draft, importance: 4, confidence: unlikely*
 
 > __In western cultures, it is nearly universal for people to clap
 > before and after pieces of classical music and jazz. An argument
@@ -332,8 +332,8 @@ forms of appreciation.
 
 #### Staying in the Concert Hall
 
-See Also
---------
+External Links
+---------------
 
 * [“Against Applause”](https://cjeller.wordpress.com/2015/08/09/against-applause/)
 

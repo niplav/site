@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-24, modified: 2019-08-23, language: english, status: finished, importance: 4, confidence: possible*
+*author: niplav, created: 2019-04-24, modified: 2019-09-08, language: english, status: finished, importance: 4, confidence: possible*
 
 > __[Pipelines](https://en.wikipedia.org/wiki/Pipeline_(Unix)) are an
 > integral part of the Unix operating system. They come in different
@@ -318,8 +318,5 @@ creating a gif that displays its own MD5 sum (created by
 
 External Links
 --------------
-
-See Also
---------
 
 * [dgsh – directed graph shell](https://www2.dmst.aueb.gr/dds/sw/dgsh/)
