@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-09-09, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-09-10, language: english, status: notes, importance: 5, confidence: log*
 
 > __Notes and ideas for texts that will be written decades in the future.__
 
@@ -32,6 +32,9 @@ Texts
 * Antinatalism and Consent
 * Limit “Philosophy” and “Art”
 * Against Advertising
+	* Strong claim: Advertising is always bad
+	* Weak claim: Advertising in public spaces is bad
+	* Does this hold up to a good consequentialist calculation?
 * Against News
 	* Priming → News+Wikipedia≤Wikipedia
 
@@ -44,6 +47,13 @@ Texts
 * Dumpster Diving
 * Hitch Hiking
 * Keyboards
+	* Hardware
+		* Hands too near each other
+		*	Staggered keys maybe increase learning time, possibly
+			increase typing time (sqr(2) instead of 1 movement distance)
+	* Software
+		* Layouts are a problem
+		* Two modes: key position on keyboard & character presented by key
 * Table Diving
 * Walking Barefoot
 * Pick Up
@@ -51,6 +61,7 @@ Texts
 	* Direct Date on Street
 	* Direct Date off Street
 * Sexuality is Bad, but Sex is Good
+	* TODO: Incels wiki blackpill page
 * Actuarial tables for dictators
 
 ### Ideas
@@ -121,9 +132,11 @@ Texts
 * Mistakes
 * Open Questions
 * Fundamentals
+* Project Ideas
 
 > we should be far more explicit about the assumed background against
 > which we intend to communicate.
+
 *– John Nerst, [“30 Fundamentals”](https://everythingstudies.com/2018/07/16/30-fundamentals/), 2018*
 
 ### Fiction
