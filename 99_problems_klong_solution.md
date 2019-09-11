@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-09-09, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-09-10, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -1542,6 +1542,8 @@ of the tree:
 	[[0cb [0]] [0ca [1]]]
 
 This is okay.
+
+### A More Complete Implementation
 
 This is not part of the problem statement, but one can now write code
 that receives a string and encodes it, as well as code that receives a

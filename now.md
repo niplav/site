@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2019-08-23, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2019-09-10, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -26,10 +26,11 @@ tracker: [awitt](https://github.com/niplav/awitt).
 Writing
 -------
 
-At the moment, I am writing [Against Applause After Classical
-Concerts](./against_applause.md) and collecting more methods for [Two
-People on a Planet](./two_people_on_a_planet.md). But on the side,
-there are always small writing projects that will be released one day.
+At the moment, I am writing [“Abstinence from Masturbation and
+Success from Cold Approach”](./masturbation_and_attractiveness.md)
+before gathering data and collecting more methods for [Two People on a
+Planet](./two_people_on_a_planet.md). But on the side, there are always
+small writing projects that will be released one day.
 
 Reading
 -------

@@ -1,12 +1,12 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-09-09, language: english, status: in progress, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-04-11, modified: 2019-09-10, language: english, status: finished, importance: 4, confidence: unlikely*
 
 > __In western cultures, it is nearly universal for people to clap
 > before and after pieces of classical music and jazz. An argument
 > against this practice is presented, counterarguments are discussed,
-> and alternative approaches to appreciation of music are presented.__
+> and alternative approaches to appreciation of music are proposed.__
 
 Against Applause After Classical Concerts
 ==========================================
@@ -80,7 +80,7 @@ https://cjeller.wordpress.com/2015/08/09/against-applause/) It also makes
 a good point, that applause is not very gradual: it puts every member
 of the audience into a single coherent group, without any gradient: "It
 forces individuals to react to music the same way, regardless of whether
-one enjoyed, disliked, or didn’t understand the music."  Eller alludes
+one enjoyed, disliked, or didn’t understand the music." Eller alludes
 to other solutions to the problem of applause, but doesn't name any.-->
 
 History
@@ -93,14 +93,14 @@ of music:
 
 > Schumann and Mendelssohn tacitly addressed the applause issue by
 writing certain major works without movement breaks. Call it pre-emptive
-composing, if you will.  For example, Mendelssohn explicitly asked that
+composing, if you will. For example, Mendelssohn explicitly asked that
 his "Scottish" Symphony, which debuted in 1842, be played without a
-break to avoid "the usual lengthy interruptions."  Schumann took care
+break to avoid "the usual lengthy interruptions." Schumann took care
 of the matter in a similar way in his piano and cello concerti as well
 as his Fourth Symphony.
 >
 As a respected critic of the time, Schumann also openly scolded audiences
-in print for their behavior.  He went on record as chiding them: "You
+in print for their behavior. He went on record as chiding them: "You
 should be turned to stone pagodas."
 >
 New Yorker critic Alex Ross [points the
@@ -330,7 +330,46 @@ forms of appreciation.
 
 ### Possible new Forms of Appreciation
 
+Since both jazz hands and complete silence, one could propose to make a
+leap and engineer a new form of appretiation that doesn't need as much
+noise as applause. Of course, this could carry several problems with it
+that go unnoticed for a long time.
+
 #### Staying in the Concert Hall
+
+One new approach could be to show ones appreciation for the performance
+by staying in the concert hall after the piece ends. The longer one
+would stay in the concert hall, the higher an appreciation this would
+entail. This is already a limited practice: to express their own extreme
+dissatisfaction with a piece, listeners sometimes leave the concert hall
+during a performance. However, this is rare.
+
+Staying in the concert hall afterwards would make intuitive sense:
+It would show that the music was so moving that listeners are still
+listening to the after-sound of the piece in their mind, or are still
+processing the emotional impact of the music.
+
+##### Problems
+
+This method would only work at the end of a concert, but would not
+provide any feedback during a piece or between pieces.
+
+Also, many people seem to have have a very physical reaction to good
+music, which requires some form of outlet. If this is true, then perhaps
+one could assume that applause is not for the musicians after all, but
+for the audience to release built up energy. This also holds true if some
+people have the need to whistle or humm the music after a particularly
+good piece.
+
+Often, listeners meet up after concerts to talk with each other about
+the music and the performance. In this case, coordination would be more
+difficult since talking would be prohibited after the performance.
+
+Since performances of classical music mostly take place in the evening,
+listeners who sit still could fall asleep after a while, making it
+difficult for personnel to close the hall in an appropriate amount
+of time. This would also be true with strong signals of appreciation
+(staying in the concert hall for hours).
 
 External Links
 ---------------

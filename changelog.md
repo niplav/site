@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-09-06, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-09-10, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -13,7 +13,8 @@ September 2019
 
 ### Writing
 
-* Solutions to [P55](./99_problems_klong_solution.html#P55--Construct-completely-balanced-binary-trees) and [P56](./99_problems_klong_solution.html#P56--Symmetric-binary-trees) of the [99 Klong Problems](./99_problems_klong_solution.html)
+* [Against Applause After Classical Concerts](./against_applause.md)
+* Solutions to [P55](./99_problems_klong_solution.html#P55--Construct-completely-balanced-binary-trees) and [P56](./99_problems_klong_solution.html#P56--Symmetric-binary-trees), and a complete implementation of the [Huffman code](.//99_problems_klong_solution.html#A-More-Complete-Implementation) for the [99 Klong Problems](./99_problems_klong_solution.html)
 
 ### Programming
 
@@ -36,7 +37,6 @@ August 2019
 
 <!--
 * Finished [About](./about.md)
-* [Against Applause](./against_applause.md)
 -->
 
 July 2019

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-09-08, language: english, status: notes, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-09-10, language: english, status: notes, importance: 4, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -134,7 +134,22 @@ hit on.
 
 Effect takes place after at least 84 days, women start hitting on him.
 
-* https://old.reddit.com/r/NoFap/comments/9treo6/im_sorry_but_no_fap_just_fucking_works/
+> Haha I'd wish that'd happen to me. I've never been able to attract
+women, but that's just how it is. […]
+
+*– [meditate03](https://old.reddit.com/user/meditate03), [comment](https://old.reddit.com/r/NoFap/comments/9treo6/im_sorry_but_no_fap_just_fucking_works/e8yo7xd/) on [“I'm sorry, but no fap just fucking works”](https://old.reddit.com/r/NoFap/comments/9treo6/im_sorry_but_no_fap_just_fucking_works/) on [/r/NoFap](https://old.reddit.com/r/NoFap) (126 upvotes), 2018*
+
+This commenter disagrees.
+
+> I like to say they can 'smell the no fap' when really you're just being
+your true self, they can see you carry yourself in high regard and that
+shit is like crack for them.
+
+*– [NZbakedbanana](https://old.reddit.com/user/NZbakedbanana), [comment](https://old.reddit.com/r/NoFap/comments/9treo6/im_sorry_but_no_fap_just_fucking_works/e8yr8p0/) on [“I'm sorry, but no fap just fucking works”](https://old.reddit.com/r/NoFap/comments/9treo6/im_sorry_but_no_fap_just_fucking_works/) on [/r/NoFap](https://old.reddit.com/r/NoFap) (126 upvotes), 2018*
+
+This commenter attributes the higher attractiveness to higher
+self-confidence.
+
 * https://old.reddit.com/r/NoFap/comments/buhcb2/i_am_attractive_now/
 * https://old.reddit.com/r/NoFap/comments/bl2ioe/can_nofap_really_make_you_more_attractive/
 * https://old.reddit.com/r/NoFap/comments/blij7t/i_thought_girls_being_more_attracted_to_you_was_a/
@@ -153,14 +168,14 @@ made by members of the NoFap community.
 Preregistration
 ---------------
 
-To avoid p-hacking and other practices, the bulk of the text was written
-before the actual experiment and data analysis was conducted, and posted
-on the [nofap subreddit](https://old.reddit.com/r/NoFap/) as well as
-to the subreddit [/r/niplav](https://old.reddit.com/r/niplav), with the
-SHA256 hashsum of the text as the title. The SHA256 sum of the content was
-put into the title to prevent tampering with the content of the article,
-because reddit titles can't be changed by users of reddit. <!--TODO:
-source for that claim-->
+To avoid p-hacking and other practices, the bulk of this text was
+written before the actual experiment and data analysis was conducted,
+and posted on the [nofap subreddit](https://old.reddit.com/r/NoFap/) as
+well as to the subreddit [/r/niplav](https://old.reddit.com/r/niplav),
+with the SHA256 hashsum of the text as the title. The SHA256 sum of the
+content was put into the title to prevent tampering with the content
+of the article, because reddit titles can't be changed by users of
+reddit. <!--TODO: source for that claim-->
 
 The pre-registered hypothesis thus shall be H₀:
 
