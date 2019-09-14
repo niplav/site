@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-09-10, language: english, status: finished, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-04-11, modified: 2019-09-12, language: english, status: finished, importance: 4, confidence: unlikely*
 
 > __In western cultures, it is nearly universal for people to clap
 > before and after pieces of classical music and jazz. An argument
@@ -370,6 +370,16 @@ listeners who sit still could fall asleep after a while, making it
 difficult for personnel to close the hall in an appropriate amount
 of time. This would also be true with strong signals of appreciation
 (staying in the concert hall for hours).
+
+Conclusion
+----------
+
+Due to the arguments discussed above, it could be worthwhile to experiment
+with classical concerts by organising special events where applause is
+prohibited. While it could carry some problems, there exists a possibility
+of gaining a more pure experience of the music by allowing it to stay
+in the mind of the listeners for some time without being interrupted by
+loud applause.
 
 External Links
 ---------------

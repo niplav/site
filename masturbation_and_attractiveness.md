@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-09-10, language: english, status: notes, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-09-12, language: english, status: notes, importance: 4, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -182,6 +182,17 @@ The pre-registered hypothesis thus shall be H₀:
 	There is no statistically significant difference in success
 	from cold approach before and and long term abstinence from
 	masturbation. (p<0.05)
+
+### Reasoning
+
+If it were true that abstinence from masturbation increased attractiveness
+to the opposite sex, evolutionary pressure would have selected men
+who abstain from masturbating, since they generate a higher number of
+offspring. Indeed, one could suppose that masturbation is reproductively
+beneficial, since it has apparently been selected for by natural and/or
+sexual selection. <!--TODO: search for examples of animal species
+masturbating, as well as the reasoning about the evolutionary reasons
+for masturbation-->
 
 Existing Literature
 -------------------

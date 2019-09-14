@@ -41,7 +41,7 @@ Texts
 ### Analyses
 
 * Modelling the Dream-Time (Population will probably start growing again)
-* Some Considerations on When to Sign Up for Cryonics
+* Considerations on Cryonics
 	* Model of when to sign up for Alcor neurocryopreservation
 	* Sign up as early as possible
 * Dumpster Diving
