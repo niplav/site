@@ -1786,7 +1786,7 @@ The function sometimes fails if it is not given a correctly shaped tree:
 
 ### P57 (**) Binary search trees (dictionaries).
 
-	d3::{[m];m::(#x):%2;:[2>#x;x;(x@m),(,.f(x@!m)),,.f((1+m)_x)]}
+	d3::{[m];m::(#x):%2;:[2>#x;x;[(x@m)[(,.f(x@!m))][.f((1+m)_x)]]]}
 	s57::{d3(x@>x)}
 
 ### P58 (**) Generate-and-test paradigm.

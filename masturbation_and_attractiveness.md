@@ -150,7 +150,6 @@ shit is like crack for them.
 This commenter attributes the higher attractiveness to higher
 self-confidence.
 
-* https://old.reddit.com/r/NoFap/comments/buhcb2/i_am_attractive_now/
 * https://old.reddit.com/r/NoFap/comments/bl2ioe/can_nofap_really_make_you_more_attractive/
 * https://old.reddit.com/r/NoFap/comments/blij7t/i_thought_girls_being_more_attracted_to_you_was_a/
 * https://old.reddit.com/r/NoFap/comments/bq8bvj/i_feel_like_girls_are_now_addicted_to_looking_me/
@@ -161,6 +160,13 @@ noticeable effects on male attractiveness for women, this effect emerges
 at around 40 days or more (and doesn't diminish with the time since
 the last masturbation increasing), it also has an effect on other men,
 though this is not really elaborated further. The effects are noticeable.
+
+The reasons given for this increase in attractiveness are as follows:
+
+* Microexpressions
+* Placebo effect
+* Pheromones
+* Higher effort in searching partners
 
 Given these claims, it should be possible to broadly test the claims
 made by members of the NoFap community.
