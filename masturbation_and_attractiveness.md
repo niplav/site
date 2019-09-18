@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-09-17, language: english, status: notes, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-09-18, language: english, status: notes, importance: 4, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -9,6 +9,11 @@
 
 Abstinence from Masturbation and Success from Cold Approach
 ===========================================================
+
+> interesting things happen along borders–transitions–not in
+the middle where everything is the same
+
+*– [Neal Stephenson](), [“Snow Crash”](), 1992*<!--TODO: links-->
 
 Abstract
 --------
@@ -46,13 +51,13 @@ The pre-registered hypothesis thus shall be H₀:
 If it were true that abstinence from masturbation increased attractiveness
 to the opposite sex, evolutionary pressure would have selected men
 who abstain from masturbating, since they generate a higher number of
-offspring. This would be true regardless of the way in which abstinence
-from masturbation increases fitness, be it pheromones, microexpressions
-or any other reason. Indeed, one could suppose that masturbation is
-reproductively beneficial, since it has apparently been selected for by
-natural and/or sexual selection. <!--TODO: search for examples of animal
-species masturbating, as well as the reasoning about the evolutionary
-reasons for masturbation-->
+offspring. This would be true regardless of the specific way in which
+abstinence from masturbation increases fitness, be it pheromones,
+microexpressions or any other reason. Indeed, one could suppose that
+masturbation is reproductively beneficial, since it has apparently been
+selected for by natural and/or sexual selection. <!--TODO: search for
+examples of animal species masturbating, as well as the reasoning about
+the evolutionary reasons for masturbation-->
 
 Existing Literature
 -------------------
@@ -252,11 +257,12 @@ the one-week period of masturbation (1 for the part after abstinence,
 and 0 for the part after masturbation), perceived gender of the person
 approached ("m", "f" or "o"), and how far the interaction went:
 
-* "ignored": the person walked past and did not react
-* "stopped": the person stopped, but didn't answer any question (started laughing or walking away)
-* "name": person gave name, but then started walking away
-* "rejection": person answered that they were in a relationship/had no interest
-* "date": person showed up to the date
+* 1 (ignored): the person walked past and did not react
+* 2 (stopped): the person stopped, but didn't answer any question (started laughing or walking away)
+* 3 (name): person gave name, but then started walking away
+* 4 (rejection): person answered that they were in a relationship/had no interest
+* 5 (flake): person gave contact information, but did not reply
+* 6 (date): person showed up to the date
 
 Results were logged in a CSV file.
 
