@@ -1,0 +1,11 @@
+.l("csv")
+.l("nstat")
+
+.fc(.ic("../../data/masturbation_attractiveness.csv"));data::csv.load()
+
+data::{["" 1 "" 1]:$'x}'4_data
+
+data::{1_x}'data
+
+during::{*|x}'flr({1=*x};data)
+after::{*|x}'flr({0=*x};data)

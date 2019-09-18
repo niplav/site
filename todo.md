@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-09-17, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-09-18, language: english, status: notes, importance: 5, confidence: log*
 
 > __Notes and ideas for texts that will be written decades in the future.__
 
@@ -28,7 +28,14 @@ Texts
 	* → Caveat: Only portable if very reliably/portably written
 * Unix is Not About Reimplementing Unix
 * Libertarianism is too Simple
+	*	Libertarianism is a very simple method of organising society,
+		so it must have happened in the history of societies. However,
+		none of those societies have survived, which makes it an
+		unsuccessful way of structuring societies
 	* Counter-argument: Humans are consistently biased against liberty
+	*	Counter-argument: Libertarianism is very well suited for
+		*modern* (capitalist, technological) societies, which haven't
+		existed for very long
 * Antinatalism and Consent
 * Limit “Philosophy” and “Art”
 * Against Advertising
@@ -127,7 +134,24 @@ Texts
 ### Blackpill
 
 * On Femcels
+	* Confusion of terminology: incel is "involuntary celibate", which focuses on sexuality
+		* Male incels lack both sexual as well as romantic success
+		* Femcels seem to mostly only lack romantic success ("insol": "involuntary solitude" (search for heartiste post)
+	* It generalizes back to caring about suffering
+		* It is possible that femcels suffer as much as incels do
+		* Both don't really get what they want
+	* More incels than femcels?
 * On "Just Be Yourself"
+* On "Just Get a Prostitute"
+	* Generally a good argument
+	* However, humans desire quite specific thing
+		* Example:
+			* "I can't breathe!"
+			* "Why not, air is like 75% nitrogen, and you have 100% nitrogen around you!"
+		* In this case, maybe both desire eros?
+			* search for post that claims this
+	* Also, prostitution is quite expensive (calculate average amount of sex * average cost of visiting escort)
+		* This can be generalised to "Sex is expensive for most men"
 * A Good Social Life is not Enough
 * Sexuality is Bad, but Sex is Good
 	* https://incels.wiki/w/Scientific_Blackpill
@@ -158,6 +182,7 @@ Texts
 ### Fiction
 
 * Homeless Super-Mathematicians
+	* Perhaps in the SCP format?
 
 ### Translations
 
