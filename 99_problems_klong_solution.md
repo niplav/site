@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-09-10, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-09-17, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -1761,33 +1761,61 @@ The function doesn't check whether the tree is a correct tree (that's what
 `s54a` is for, after all).
 
 	s56::{:[3=#x;{:[[]~x,y;1:|(^x)~^y;.f(x@1;y@2)&.f(x@2;y@1);0]}@(1_x):|x~[];1;0]}
+	testsymmetric::s56
 
 Tests:
 
-		s56([])
+		testsymmetric([])
 	1
-		s56([:x [] []])
+		testsymmetric([:x [] []])
 	1
-		s56([:x [] [:x [] []]])
+		testsymmetric([:x [] [:x [] []]])
 	0
-		s56([:x [:x [] []] [:x [] []]])
+		testsymmetric([:x [:x [] []] [:x [] []]])
 	1
-		s56([:x [:x [:x [] []] []] [:x [] [:x [] []]]])
+		testsymmetric([:x [:x [:x [] []] []] [:x [] [:x [] []]]])
 	1
-		s56([:x [:x [:x [] []] []] [:x [:x [] []] [:x [] []]]])
+		testsymmetric([:x [:x [:x [] []] []] [:x [:x [] []] [:x [] []]]])
 	0
-		s56([:x [:x [:x [] []] []] [:x [:x [] []] []]])
+		testsymmetric([:x [:x [:x [] []] []] [:x [:x [] []] []]])
 	0
 
 The function sometimes fails if it is not given a correctly shaped tree:
 
-		s56([:x [:x][:x]])
+		testsymmetric([:x [:x][:x]])
 	kg: error: index: range error: 2
 
 ### P57 (**) Binary search trees (dictionaries).
 
-	d3::{[m];m::(#x):%2;:[2>#x;x;[(x@m)[(,.f(x@!m))][.f((1+m)_x)]]]}
-	s57::{d3(x@>x)}
+This problem is quite easy to solve with a recursive function that
+accepts an already sorted list of integers. The recursive function takes
+the middle element, makes it the root of the tree, and then calls itself
+with the left half of the tree and the right half of the tree. It then
+combines the results together into a single tree. The base case is the
+empty list, which returns the empty list (the empty tree) as a result.
+
+	s57::{{[m];m::(#x):%2;:[x;(x@m),(,.f(x@!m)),,.f((1+m)_x);x]}:(x@<x)}
+	construct::s57
+
+Example:
+
+		construct([3 2 5 7 1])
+	[3 [2 [1 [] []] []] [7 [5 [] []] []]]
+
+This is a bit different from the result `[3 [2 [1 [] []] []] [5 [] [7
+[] []]]]` in the problem statement, but both are valid binary search
+trees. The solution presented here just makes a left-leaning tree in
+the edge-cases, and the solution presented in the original problem is
+a right-leaning tree.
+
+Now, one can also test the solution of problem P56:
+
+		testsymmetric(construct([5 3 18 1 4 12 21]))
+        1
+		testsymmetric(construct([3 2 5 7 1]))
+	0
+
+The results are what one would expect from the problem statement.
 
 ### P58 (**) Generate-and-test paradigm.
 

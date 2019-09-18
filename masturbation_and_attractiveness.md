@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-09-12, language: english, status: notes, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-09-17, language: english, status: notes, importance: 4, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -13,7 +13,7 @@ Abstinence from Masturbation and Success from Cold Approach
 Abstract
 --------
 
-Members of the nofap community frequently claim that male physical
+Members of the NoFap community frequently claim that male physical
 attractiveness is causally influenced by the frequency and duration
 since last occurence of masturbation.
 
@@ -22,17 +22,57 @@ I present a method to test this claim (albeit imperfectly) by approaching
 asking them for a date, and again after a week of daily masturbation. The
 results are discussed and find that \_.
 
+Preregistration
+---------------
+
+To avoid p-hacking and other practices, the bulk of this text was
+written before the actual experiment and data analysis was conducted,
+and posted<!--TODO: when posted, put link here--> on the [NoFap
+subreddit](https://old.reddit.com/r/NoFap/) as well as to the subreddit
+[/r/niplav](https://old.reddit.com/r/niplav), with the SHA256 hashsum
+of the text as the title. The SHA256 sum of the content was put into
+the title to prevent tampering with the content of the article, because
+reddit titles can't be changed by users of reddit. <!--TODO: source for
+that claim-->
+
+The pre-registered hypothesis thus shall be H₀:
+
+	There is no statistically significant difference in success
+	from cold approach before and and long term abstinence from
+	masturbation. (p<0.05)
+
+### Reasoning
+
+If it were true that abstinence from masturbation increased attractiveness
+to the opposite sex, evolutionary pressure would have selected men
+who abstain from masturbating, since they generate a higher number of
+offspring. This would be true regardless of the way in which abstinence
+from masturbation increases fitness, be it pheromones, microexpressions
+or any other reason. Indeed, one could suppose that masturbation is
+reproductively beneficial, since it has apparently been selected for by
+natural and/or sexual selection. <!--TODO: search for examples of animal
+species masturbating, as well as the reasoning about the evolutionary
+reasons for masturbation-->
+
+Existing Literature
+-------------------
+
+<!--TODO: Search google scholar for "abstinence masturbation
+attractiveness", "abstinence masturbation pheromones" and "abstinence
+masturbation microexpressions". The last time I checked, there was
+nothing there, but it might have changed.-->
+
 Examples for the Claim
 -----------------------
 
-To prevent the accusation of straw-manning the views of the nofap
+To prevent the accusation of straw-manning the views of the NoFap
 community, I hereby present sentiments that broadly go in the direction
 of the idea that "male abstinence from masturbation results in higher
 attractiveness, even with fixed behavior."
 
 To show that this is at least moderately the case, I searched the
-[/r/nofap](https://old.reddit.com/r/NoFap/) subreddit for "attractiveness"
-and "attractive", and collected comments and posts claiming that nofap
+[/r/NoFap](https://old.reddit.com/r/NoFap/) subreddit for "attractiveness"
+and "attractive", and collected comments and posts claiming that NoFap
 made them more attractive.
 
 > Yesterday i was at a party and im currently on 12 days nofap. Normally
@@ -168,60 +208,57 @@ The reasons given for this increase in attractiveness are as follows:
 * Pheromones
 * Higher effort in searching partners
 
+Two of these reasons are independent from the attitude of a person
+towards NoFap (pheromones and microexpressions), while the others are
+dependent on being a NoFap enthusiast.
+
 Given these claims, it should be possible to broadly test the claims
 made by members of the NoFap community.
-
-Preregistration
----------------
-
-To avoid p-hacking and other practices, the bulk of this text was
-written before the actual experiment and data analysis was conducted,
-and posted on the [nofap subreddit](https://old.reddit.com/r/NoFap/) as
-well as to the subreddit [/r/niplav](https://old.reddit.com/r/niplav),
-with the SHA256 hashsum of the text as the title. The SHA256 sum of the
-content was put into the title to prevent tampering with the content
-of the article, because reddit titles can't be changed by users of
-reddit. <!--TODO: source for that claim-->
-
-The pre-registered hypothesis thus shall be H₀:
-
-	There is no statistically significant difference in success
-	from cold approach before and and long term abstinence from
-	masturbation. (p<0.05)
-
-### Reasoning
-
-If it were true that abstinence from masturbation increased attractiveness
-to the opposite sex, evolutionary pressure would have selected men
-who abstain from masturbating, since they generate a higher number of
-offspring. Indeed, one could suppose that masturbation is reproductively
-beneficial, since it has apparently been selected for by natural and/or
-sexual selection. <!--TODO: search for examples of animal species
-masturbating, as well as the reasoning about the evolutionary reasons
-for masturbation-->
-
-Existing Literature
--------------------
 
 Method
 ------
 
+To test the claims by the NoFap community, I performed a small
+self-experiment.
+
+Important information about me: I am a male living in a european country,
+my age being in the early twenties. I seem to fall into the same category
+of people as most of the NoFap community.
+
 Data was collected as follows:
 
 I abstined <!--TODO: What is the correct verb for abstinence?--> from
-masturbating from \_ to \_. From \_ to \_, I went on the streets of a
-major german city and approached 100 men and women alternatingly with
-the words:
+masturbating from \_ to \_, resulting in >90 days of abstinence from
+masturbation (which is also the period recommended by the NoFap community
+<!--TODO: source-->). From \_ to \_, I went on the streets of a major
+european city and approached 100 men and 100 women (perceived gender)
+alternatingly with the words
 
-No approaches for 1 week before dataset.
+> Hi, I know this is really spontaneous, but I just saw you and thought
+you looked really nice. What is your name?
 
-Streets in center of a major german city.  
-≥90 days of masturbation abstinence,  
-Approach 100 women & 100 men (alternating) with  
-"Hey, I know this is really spontaneous, but I just saw you and thought  
-you were really attractive. Would you like to go on a date with me?"  
-7 days daily masturbation  
-Repeat  
+The other person answered with their name, and I replied with
+
+> Nice to meet you, <name>. To make a long story short, I'd like to
+take you out on a date sometime. When are you free?
+
+In the week following the last approach, I masturbated once every day.
+Afterwards, I repeated the procedure of approaching 100 men and 100 women
+with the same words.
+
+Data that was logged included date and time of day (in ISO-8601),
+whether the approach was after abstinence from masturbation or after
+the one-week period of masturbation (1 for the part after abstinence,
+and 0 for the part after masturbation), perceived gender of the person
+approached ("m", "f" or "o"), and how far the interaction went:
+
+* "ignored": the person walked past and did not react
+* "stopped": the person stopped, but didn't answer any question (started laughing or walking away)
+* "name": person gave name, but then started walking away
+* "rejection": person answered that they were in a relationship/had no interest
+* "date": person showed up to the date
+
+Results were logged in a CSV file.
 
 Results Analysis
 -----------------

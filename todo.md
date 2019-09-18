@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-09-10, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-09-17, language: english, status: notes, importance: 5, confidence: log*
 
 > __Notes and ideas for texts that will be written decades in the future.__
 
@@ -44,6 +44,15 @@ Texts
 * Considerations on Cryonics
 	* Model of when to sign up for Alcor neurocryopreservation
 	* Sign up as early as possible
+	* Value of a year of life in the future
+		* Freedom to die again?
+		* How probable is malevolent AI?
+		* What about "meh" futures?
+		* What about work, friends, language, culture and other circumstances?
+		* Prior: The quality of future human life is normally distributed around the neutral case
+	* Which methods of revival?
+		* Personal identity?
+		* If only neuropreservation, where do I get my body from?
 * Dumpster Diving
 * Hitch Hiking
 * Keyboards
@@ -60,8 +69,6 @@ Texts
 	* Direct Number on Street
 	* Direct Date on Street
 	* Direct Date off Street
-* Sexuality is Bad, but Sex is Good
-	* TODO: Incels wiki blackpill page
 * Actuarial tables for dictators
 
 ### Ideas
@@ -110,11 +117,20 @@ Texts
 		* Open-source model: free work
 * Infinite Fractal Meta Recursion
 * Preference Frustration Auctions
+* The Tyranny of the Mill
 
 ### Collections
 
 * Simple Unsolved Math Problems
 * Differences Between GNU and POSIX `make`
+
+### Blackpill
+
+* On Femcels
+* On "Just Be Yourself"
+* A Good Social Life is not Enough
+* Sexuality is Bad, but Sex is Good
+	* https://incels.wiki/w/Scientific_Blackpill
 
 ### Other
 

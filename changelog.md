@@ -14,7 +14,7 @@ September 2019
 ### Writing
 
 * [Against Applause After Classical Concerts](./against_applause.md)
-* Solutions to [P55](./99_problems_klong_solution.html#P55--Construct-completely-balanced-binary-trees) and [P56](./99_problems_klong_solution.html#P56--Symmetric-binary-trees), and a complete implementation of the [Huffman code](.//99_problems_klong_solution.html#A-More-Complete-Implementation) for the [99 Klong Problems](./99_problems_klong_solution.html)
+* Solutions to [P55](./99_problems_klong_solution.html#P55--Construct-completely-balanced-binary-trees), [P56](./99_problems_klong_solution.html#P56--Symmetric-binary-trees) and [P57](file:///home/niplav/proj/site/99_problems_klong_solution.html#P57--Binary-search-trees-dictionaries), and a complete implementation of the [Huffman code](.//99_problems_klong_solution.html#A-More-Complete-Implementation) for the [99 Klong Problems](./99_problems_klong_solution.html)
 
 ### Programming
 
