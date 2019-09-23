@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "Sol Plav")
 
-*author: niplav, created: 2019-03-20, modified: 2019-09-03, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2019-09-23, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -24,6 +24,7 @@ Writing
 	* [Equally Many Heads and Tails](./equally_many_heads_and_tails.md)
 	* [Pipe Rings](./pipe_rings.md)
 	* [Two People on a Planet](./two_people_on_a_planet.md)
+	* [Compliments as Utilitarian Praxis](./utilitarian_compliments.md)
 	<!--* [Using Venn Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./venn_consciousness.md)-->
 	<!--* [A Religion](./a_religion.md)-->
 * Collections

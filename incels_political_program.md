@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-01, modified: 2019-08-02, language: english, status: notes, importance: 2, confidence: theory*
+*author: niplav, created: 2019-08-01, modified: 2019-09-23, language: english, status: notes, importance: 2, confidence: theory*
 
 > __.__
 
@@ -11,7 +11,6 @@ Incels Political Program
 Assumptions
 -----------
 
-* Incels want to improve their situation
 * Incels want to be happy
 * Incels want to have sex
 * Incels want the price of sex to fall
@@ -23,7 +22,7 @@ Short Term
 * Increased Incentives for offline social meetings
 * Investment in effective psychological treatment/prevention of depression/anxiety
 * Compensation for involuntary celibacy (monetary, mostly)
-	Problem: incentive for poor people to stay celibate
+	* Problem: incentive for poor people to stay celibate
 
 Medium Term
 -----------

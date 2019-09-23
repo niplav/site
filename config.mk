@@ -29,6 +29,7 @@ HTML=index.html \
 	rationalist_gods.html \
 	tao_te_king.html \
 	two_people_on_a_planet.html \
+	utilitarian_compliments.html \
 	venn_consciousness.html \
 	bp_chrono.html \
 	ob_chrono.html \

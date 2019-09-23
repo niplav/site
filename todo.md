@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-09-18, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-09-23, language: english, status: notes, importance: 5, confidence: log*
 
 > __Notes and ideas for texts that will be written decades in the future.__
 
@@ -27,6 +27,13 @@ Texts
 	* Portability
 	* → Caveat: Only portable if very reliably/portably written
 * Unix is Not About Reimplementing Unix
+	* Examples for claim:
+		* [Node JS](http://blog.izs.me/post/48281998870/unix-philosophy-and-nodejs)
+		* [The Internet](https://victorops.com/blog/internet-age-unix-philosophy/)
+		* [Vim](https://www.reddit.com/r/vim/comments/22w1li/a_fair_comparison_between_vim_and_emacs/cgqyqst/)
+		* https://gist.github.com/rjsteinert/f3823f3cdc9971779c17
+	* ["Do one thing, and do it well. Use text streams, since that is the universal interface"](http://www.catb.org/esr/writings/taoup/html/ch01s06.html)
+	* Most systems reimplement unix ("Those who don't understand unix are doomed to reimplement it, poorly.")
 * Libertarianism is too Simple
 	*	Libertarianism is a very simple method of organising society,
 		so it must have happened in the history of societies. However,
@@ -136,7 +143,7 @@ Texts
 * On Femcels
 	* Confusion of terminology: incel is "involuntary celibate", which focuses on sexuality
 		* Male incels lack both sexual as well as romantic success
-		* Femcels seem to mostly only lack romantic success ("insol": "involuntary solitude" (search for heartiste post)
+		* Femcels seem to mostly only lack romantic success ("insol": "involuntary solitude" (search for heartiste post))
 	* It generalizes back to caring about suffering
 		* It is possible that femcels suffer as much as incels do
 		* Both don't really get what they want
@@ -166,6 +173,7 @@ Texts
 ### Notes
 
 * Use Things Up
+* Be Liberal in what you Accept, but Conservative in what you Emit
 
 ### Misc
 

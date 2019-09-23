@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-09-18, language: english, status: notes, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-09-23, language: english, status: notes, importance: 4, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -195,7 +195,92 @@ shit is like crack for them.
 This commenter attributes the higher attractiveness to higher
 self-confidence.
 
-* https://old.reddit.com/r/NoFap/comments/bl2ioe/can_nofap_really_make_you_more_attractive/
+> All men are trying to find ways to make themselves more attractive
+to the females around them. It’s a constant battle to outmaneuver the
+other guys around you.  
+Luckily, most guys don’t know how NoFap can cause extreme levels
+of attraction.  
+Here’s how this works; while you were doing PMO, you were masking
+your inner beauty. You were hiding your personality from all the girls
+around you. Once you stop doing PMO, talking and bonding with other
+people becomes much easier. Your outer look is only a reflection of your
+inner thoughts.  
+Girls have a sixth-sense about knowing how powerful a guy is. Power is
+the thing that attracts girls the most. The more in control you are,
+the more girls are going to be able to sense this. […]  
+To sum up – NoFap is going to make you more attractive to the opposite
+sex […]
+
+*– [debasish_patro0007](https://old.reddit.com/user/debasish_patro0007), [“Can NoFap Really Make You More Attractive?”](https://old.reddit.com/r/NoFap/comments/bl2ioe/can_nofap_really_make_you_more_attractive/) on [/r/NoFap](https://old.reddit.com/r/NoFap) (107 upvotes), 2019*
+
+It seems like this redditor claims that micro-expressions are the cause
+of higher attractiveness, though the "sixth sense" could refer to more
+"spiritual" way of transmitting information.
+
+A commenter specifically refers to micro-expressions:
+
+> It doesn't make you "more attractive" in the physical sense, although it
+might support that as a side effect but not directly. Also, women having a
+"sixth sense" is a true statement, but most of the time misused by many.  
+> Here's the rundown on how it "makes men more attractive"; You constantly
+transmit micro expressions. You are a walking transmitter whether you like
+it or not. Women, they have a sharper decoder that men have, and they are
+much better, subconsciously, decoding the codes you transmit.[…]  
+> Fapping, essentially, other than a huge surge of dopamine that makes
+you lazy and self destructive, is also a simulator for the mind that
+you are getting laid. […] As long as you see naked women, hear
+them do the thing, and have your peepee touched, your mind perceives it as
+sex. […] So, when your mind is extremely satisfied (sex every day would be a fucking
+luxury for a caveman), your mind stops "supporting" your sexuality and
+the need to attract females. Your thoughts and desires become mundane,
+you stop focusing on yourself, you care less about your physique and
+looks, and you tend to communicate with females with a much softer
+sexual aggression […]. […] when you are in a long Nofap period, your mind is being
+rewired to suddenly care about your reproduction and gene survival, so
+your communication becomes more aggressive, therefore attractive.
+[…] your body language improves.[…]
+> This works with nofap too. When you're deprived of sex, your mind will
+help you make yourself attractive and will push you to desire sex.
+
+*– [NorsemanLewis](https://old.reddit.com/user/NorsemanLewis), [comment](https://old.reddit.com/r/NoFap/comments/bl2ioe/can_nofap_really_make_you_more_attractive/emlb1zu/) on [“Can NoFap Really Make You More Attractive?”](https://old.reddit.com/r/NoFap/comments/bl2ioe/can_nofap_really_make_you_more_attractive/) on [/r/NoFap](https://old.reddit.com/r/NoFap) (145 upvotes), 2019*
+
+They also talk about increased amounts of flirting in conversations,
+higher sexual aggressiveness and higher motivation to find a partner,
+which should at least partially be testable during cold approach.
+
+They don't seem to think about the fact that masturbation is
+not a feature of modern civilisation, but rather a biological
+instinct. Widespread pornography, on the other hand, is a feature of
+modern civilisation.<!--TODO: sources for these claims-->
+
+Another commenter refers to this baseless speculation as "science":
+
+> A healthy dose of actual science on here. This post should be stickied
+IMO. Everyone on here would benefit so much if they understood the
+underlying mechanics of our natural biology and neuro chemistry. The
+NoFap movement would never have kicked off like it did if there wasn't
+actual science to back it up.
+
+*– [cheezeebreed](https://old.reddit.com/user/cheezeebred), [comment](https://old.reddit.com/r/NoFap/comments/bl2ioe/can_nofap_really_make_you_more_attractive/emm4x5r/) on [“Can NoFap Really Make You More Attractive?”](https://old.reddit.com/r/NoFap/comments/bl2ioe/can_nofap_really_make_you_more_attractive/) on [/r/NoFap](https://old.reddit.com/r/NoFap) (4 upvotes), 2019*
+
+A commenter claiming to be a scientist says:
+
+> Well essentially due to the addiction. It causes lowered sensitivity
+to neurotransmitters such as dopamine and serotonin this causes lowered
+motivation, dry skin, depression and anxiety. As a result of quitting
+porn ones sensitivity to neurotransmitters return and their neuropathways
+start functioning correctly (hence no brain fog)
+
+*– [ReAp_QS_Killzz](https://old.reddit.com/user/ReAp_QS_Killzz), [comment](https://old.reddit.com/r/NoFap/comments/bl2ioe/can_nofap_really_make_you_more_attractive/eml1sr9/) on [“Can NoFap Really Make You More Attractive?”](https://old.reddit.com/r/NoFap/comments/bl2ioe/can_nofap_really_make_you_more_attractive/) on [/r/NoFap](https://old.reddit.com/r/NoFap) (19 upvotes), 2019*
+
+If this is true, then abstinece from masturbation should lead to increased
+mental health, but except "clearer skin" there is no obvious way in
+which this would increase attractiveness.
+
+Another commenter
+[claims](https://old.reddit.com/r/NoFap/comments/bl2ioe/can_nofap_really_make_you_more_attractive/emli3ml/)
+that his "face has this droopy tired look" during periods of masturbation.
+
 * https://old.reddit.com/r/NoFap/comments/blij7t/i_thought_girls_being_more_attracted_to_you_was_a/
 * https://old.reddit.com/r/NoFap/comments/bq8bvj/i_feel_like_girls_are_now_addicted_to_looking_me/
 * https://www.nateliason.com/blog/testosterone-timing
@@ -209,8 +294,8 @@ though this is not really elaborated further. The effects are noticeable.
 The reasons given for this increase in attractiveness are as follows:
 
 * Microexpressions
-* Placebo effect
 * Pheromones
+* Placebo effect
 * Higher effort in searching partners
 
 Two of these reasons are independent from the attitude of a person

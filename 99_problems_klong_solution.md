@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-09-17, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-09-23, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -1819,7 +1819,12 @@ The results are what one would expect from the problem statement.
 
 ### P58 (**) Generate-and-test paradigm.
 
+Given the function `flr`, this is easy.
+
 	s58::{flr({s56(x)};s55(x))}
+
+### P60 (**) Construct height-balanced binary trees with a given number of nodes.
+
 	s59::{:[x<2;,x#,:x;{:x,'x}'{d2(x;x),d2(y;x),d2(x;y)}:(,'s59(x-1);,'s59(x-2))]}
 	minnodes::{:[x<1;0:|x=1;1;1+.f(x-1)+.f(x-2)]}
 
