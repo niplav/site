@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-09-12, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2019-09-23, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -192,204 +192,10 @@ same catastrophe, but we do not observe any such irregular phenomena
 when examining the universe. This is presumably good news, since it
 restricts the amount of possible filters still ahead of us.
 
-Compliments as Utilitarian Practice
-------------------------------------
+Compliments as Utilitarian Praxis
+---------------------------------
 
-It seems like <!--TODO: source here, perhaps a link to reddit of people
-complaining about not getting enough compliments--> people don't get
-as many compliments as they want, and that getting a compliment greatly
-enhances the quality of their lives. <!--Again, link to a reddit thread
-of people talking about how they remember compliments from years ago.-->
-Some people even report to remember compliments months or even years after
-they get them and are very happy about them.
-
-This creates a good opportunity for utilitarians (both hedonic and
-preference) to use otherwise wasted time. Since there is often time
-where one has nothing to do (e.g waiting at a trainstation, an airport,
-or while at the checkout line at the grocery store)) and that can't
-be used productively otherwise, a utilitarian could make somebody a
-compliment in that time. This is of course only advisable if the time
-can't be used productively otherwise (for example by earning money to
-donate, learning something or contributing to a project).
-
-There seem to be two advantages in this scenario, one for the
-compliment-giver and one for the compliment-receiver. Giving compliments
-is usually fun, and therefore makes both the compliment-giver and
-the compliment-receiver happier. It also entails contact with other
-humans in a positive situation, and might be useful for increasing the
-compliment-giver's well-being and therewith productivity.
-
-Since utilitarians would care about the marginal value of a compliment,
-it would be best to give compliments to people who receive the highest
-marginal value by a compliment. This would probably be people who rarely
-receive compliments (under the assumption that compliments have steeply
-diminishing marginal returns), which would perhaps include people who
-are not conventionally attractive, male, and not very well dressed.
-When giving these people compliments, there seems to be a problem:
-It might not be as easy to give them genuine compliments as to more
-conventionally attractive and stylish people, but one can give dishonest
-compliments instead. This would lead to two possible problems:
-
-1. People might interpret these compliments as advice on what to wear
-and how to look, and since this perceived advice might be harmful, it
-may have slight negative effects on social success.
-
-2. People might be good at recognising dishonest compliments and
-be offended or even sad about the dishonest compliment.
-
-Since it doesn't seem hard to find at least one positive aspect of the
-visual appearance of a person, it seems advisable to eschew <!--TODO:
-"vermeiden" in english?--> dishonest but positive compliments.
-
-However, suffering-focused consequantialists <!--TODO: Wikipedia
-link here!--> probably have less incentives to give compliments,
-since compliments simply seem to enhance the well-being of a person,
-and compliments to random strangers would rarely be given to people who
-suffer greatly. A weak case can be made that compliments seem to have a
-long-term effect on well-being and might rarely play a role in reducing
-negative effects of depression. Still, negative utilitarians have the
-same otherwise unusable time of waiting in public space, and might want
-to capitalize on this small opportunity.
-
-### Caveats
-
-If one is not properly socially calibrated, a compliment could be
-perceived as weird or intrusive and not achieve the desired result of
-making the other person feel better. This could also be a problem if
-the value of a compliment is heavily dependent on characteristics of
-the person giving the compliment.
-
-It seems like men often perceive a compliment
-by a woman as an indicator of interest <!-- TODO: read
-/usr/local/doc/unread/blackpill/the_misperception_of_sexual_interest_perilloux_et_al_2012.pdf
-and quote it--> and respond with flirting. And related to the caveat
-about social calibration, compliments by men might be misperceived as
-an attempt at flirting or even cat-calling <!--TODO: wikipedia link-->
-and make the woman receiving the compliment uncomfortable.
-
-It could be that compliments on visual appearance further a very shallow
-and visual image of attractiveness. If the effects of this are strong,
-it might be advisable to instead give compliments to acquaintances and
-compliment their personality instead of their appearance. However, this
-seems unlikely.
-
-### Questions
-
-* How often do people receive compliments?
-* Who receives the most/least compliments (gender, age, attractiveness, race etc.)
-* What is the value of a compliment, i.e how much better does somebody feel upon receiving a compliment (short-term as well as long-term)?
-* What are the diminishing returns on compliments?
-* How much is the value of a compliment dependent on the characteristics of the compliment-giver (e.g. stranger/acquaintance, age, gender, attractiveness etc.)?
-* How able are people to identify fake compliments?
-* How often do people see compliments as advice?
-* What is more worth: A weird/creative compliment or a standard compliment? (Example: "I like your hat!" vs. "Your hat reminds me of a painting of a soldier from the French Revolution!")
-
-### Reddit Comments About Compliments
-
-<!--TODO: write down the number of upvotes-->
-
-> “I’m pretty sure that you might be partly a genius” - boss. […]
-> I know he was blowing smoke because he immediately asked me to Do a
-> Thing, but __it was a nice moment of vindication for me__.
-
-*– [Princ3Ch4rming](https://old.reddit.com/user/Princ3Ch4rming), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6lq0ff/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
-
-Emphasis mine.
-
-> In 8th grade, every morning when coming to school, I had to go through
-> the cafeteria to get to my class and my favorite teacher would always
-> sit there having her morning coffee. I would always smile and say good
-> morning as I pass by. One morning she suddenly stopped me and said
-> "I just want to say that it really makes me happy seeing you smile so
-> wide to me every morning". No one had ever pointed out my smile before,
-> at least not like that. __Felt a glow for days__.
-
-*– [yudodisdolan](https://old.reddit.com/user/yudodisdolan), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6lr3cs/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
-
-Emphasis mine.
-
-> When my wife says she is proud of me. __That's the best thing anyone
-> has ever said to me__.
-
-*– unknown redditor, [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6lpg1p/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
-
-Emphasis mine.
-
-> This one girl liked my laugh. First off she told me it was
-> contagious. She then sometimes would just comment on how I can find
-> joy and amusement in the smallest things and such. […]  They're [the
-> compliments] unforgettable, because __as a guy, I find it very hard to
-> receive complements more than one or twice a year when you're not fishing
-> for them__. Especially ones not relating to your new sweater but things
-> about YOU personally. It just doesn't happen. Unless you count your mom's
-
-*– [nikolakis7](https://old.reddit.com/user/nikolakis7), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6ltxwt/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
-
-Emphasis mine.
-
-Besides illustrating that there might be a gender-gap in receiving
-compliments, it also shows that there might be some preference for
-compliments by acquaintances, on not directly visible characteristics,
-which speaks slightly against giving compliments to strangers.
-
-> When I was living in Scotland, there were two girls in a public square
-with a booth for some kind of campaign I can't remember. When I went
-past them, I smiled and one of them asked me to take a picture with them
-"because I was handsome". __I went for years alone on that compliment__.
-
-*– [Motorchampion](https://old.reddit.com/user/Motorchampion), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
-
-Emphasis mine.
-
-Another [user](https://old.reddit.com/user/archon_rising) responds
-"I'd be milking that decades later too lol".
-
-It seems important that he was asked by women, which adds some credence
-to the hypothesis that characteristics of the compliment-giver are
-important.
-
-> "That jacket looks good on you." 4 years later, still wearing it
-
-*– [xaivteev](https://old.reddit.com/user/xaivteev), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6luike/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
-
-This indicates that comments might be taken as advice, which should lead
-to caution what to compliment.
-
-> A girl called me “ so witty” when I was 16 and it still gives me
-> a boost on bad days
-
-*– [huxception](https://old.reddit.com/user/huxception), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6ltl4g//) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
-
-Again, a compliment from the opposite sex seems worth more, at least
-for men. Perhaps because it signals sexual interest, which is an good
-position to be in.
-
-Problem: These questions pose quite a selection bias: Nobody who has
-received a compliment and thought nothing of it bothers to write a reddit
-comment about that.
-
-<!--TODO: Collect all top-level comments on these threads, analyse them
-after mentioning age/gender/race/relative status of the compliment-giver
-and the compliment-receiver, and the time-frame of the worth of the
-compliment. Compare them.  Data source: Reddit search for "compliment",
-"best compliment", "top compliment", analyse first 10 threads.  Other
-datapoints worth considering: was it taken as advice, which situation
-(acquaintance, stranger, unknown-->
-
-<!--
-* https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/
-* https://old.reddit.com/r/AskMen/comments/a927iv/men_of_reddit_what_are_some_compliments_i_can/
-* https://old.reddit.com/r/AskReddit/comments/b62q7x/what_was_a_small_compliment_that_you_have/
-* https://old.reddit.com/r/AskMen/comments/aryimh/as_someone_who_thinks_that_guys_dont_get_alot_of/
-* https://old.reddit.com/r/AskReddit/comments/5rq1oz/ladies_what_is_a_compliment_men_give_that_you/
-* https://old.reddit.com/r/AskMen/comments/51lnum/whats_the_best_compliment_youve_ever_received/
-* https://old.reddit.com/r/AskReddit/comments/cflyop/what_is_the_best_compliment_youve_ever_received/
-* https://old.reddit.com/r/AskReddit/comments/cc8h6j/whats_the_best_compliment_youve_ever_received/
-* https://old.reddit.com/r/MensLib/comments/ct1msm/men_appreciate_compliments_and_dont_receive_them/
-* https://books.google.de/books?hl=de&lr=&id=2bxHAAAAQBAJ&oi=fnd&pg=PA3&dq=compliment&ots=PTVzpD6ViM&sig=jeHizky7xuYFRKhix-iPUosxkn8&redir_esc=y#v=onepage&q=compliment&f=false
--->
-
-<!--TODO: personal experience with giving compliments to strangers-->
+Moved into [a separate page](./utilitarian_compliments.md).
 
 Indirect Anti-Natalism
 ----------------------
@@ -417,16 +223,96 @@ psychologically and physiologically to a degree that they do not desire
 to reproduce, or if people have a strong desire to leave their children
 unmodified (this seems quite likely).
 
-<!--
+Better Names for Things
+------------------------
+
+Although linguistic prescriptivism is technically a cardinal sin, I
+sometimes make exceptions if a word particularly annoys me. This is a
+list of such words and suggestions for better naming of the concepts
+they describe.
+
+### "Rationalism"
+
+The name is already occupied by a philosophical tradition called
+"rationalism" <!--TODO: link--> which has very little relation to the
+collection of people called "rationalists". Also, the name seems to be
+quite pretentious to outsiders.
+
+Alternatives:
+
+*	"Mapmaking": Using "The map is not the territory.", related to
+	practicality. Downside: also already taken.
+
+### "Anarcho-Capitalism"
+
+The word "Anarchism" is strongly connected with left libertarian
+anti-capitalist thought (such as described by Bakunin, Kropotkin and
+Proudhon) throughout most of history and most of the world. Radical
+supporters of capitalism describing themselves as anarchists seems to
+be a historical anomaly, and they might want to find a name that clashes
+less with already existing trains of political thought.
+
+On the other hand, there has been a lot of debate about this perceived
+clash of terminology and it seems quite unlikely to change in the
+near future.
+
+Alternatives:
+
+* "Propertarianism"
+* "Voluntaryism"
+* "Voluntarism"
+
+### "Animal Rights"
+
+Alternatives:
+
+* "Animal Welfare"
+
+### "Patriarchy"
+
+Most feminists today claim that the patriarchy hurts both men *and*
+women.<!--TODO: [citation needed]--> However, the word "patriarchy"
+strongly carries the connotation that men are solely responsible for this,
+which seems not entirely clear.
+
+Alternatives:
+
+These are not very good suggestions, and should be read tongue-in-cheek.
+
+* "Screwed up state of gender relations"
+
+### "Value Drift"
+
+Most people understand an opposition "value drift" as a rejection of moral
+development, and it's not clear where the difference between the two lies.
+
+Alternatives:
+
+*	"Motivation Drift": This makes a clearer distinction between
+	motivation and the values motivated about
+
+### "Pick-Up Artistry"
+
+Strictly speaking, the word "art" is generally overused and defiled by
+using it to describe kitsch, skill or practice. I personally would prefer
+it if people stopped using the word "art" to describe banal and common
+things. "Pick-Up Artistry" falls into this category. It is a skill that
+requires sometimes years of practice, but it is a fundamentally practical
+and goal-oriented activity, unlike most (if not all) art.
+
+Alternatives:
+
+* "Pick-Up"
+
 Considerations on Cryonics
 --------------------------
 
-### How Good will the Future be?
+### Value of a Lifeyear in the Future
 
 Much ink and pixels have been spilled on the question of the quality
 of the future, very little of it trying to make accurate predictions.
 One way to look at the question could be to create clear criteria that
-encapsulate the most important human values andask a prediction market
+encapsulate the most important human values and ask a prediction market
 to start betting. This could include the power of humanity to make most
 important decisions regarding its development and resource management,
 diversity among human beings, average happiness and lifespans and other
@@ -438,7 +324,6 @@ variables such as inequality regarding resources.
 		economy, but the resulting world has few/no humans & living
 		conditions are insanity-inducingly boring
 	* malevolent AI, either through acausal trade or because of sign error in CEV
-3. There are some people working on long-term positive outcomes, and
-most people work on long-term neutral projects, but no or very few people
-working on long-term hellish conditions
--->
+3.	There are some people working on long-term positive outcomes, and
+	most people work on long-term neutral projects, but no or very
+	few people working on long-term hellish conditions
