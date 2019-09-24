@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-09-23, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-09-24, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -14,7 +14,7 @@ September 2019
 ### Writing
 
 * [Against Applause After Classical Concerts](./against_applause.md)
-* Solutions to [P55](./99_problems_klong_solution.html#P55--Construct-completely-balanced-binary-trees), [P56](./99_problems_klong_solution.html#P56--Symmetric-binary-trees) and [P57](file:///home/niplav/proj/site/99_problems_klong_solution.html#P57--Binary-search-trees-dictionaries), and a complete implementation of the [Huffman code](.//99_problems_klong_solution.html#A-More-Complete-Implementation) for the [99 Klong Problems](./99_problems_klong_solution.html)
+* Solutions to [P55](./99_problems_klong_solution.html#P55--Construct-completely-balanced-binary-trees), [P56](./99_problems_klong_solution.html#P56--Symmetric-binary-trees), [P57](./99_problems_klong_solution.html#P57--Binary-search-trees-dictionaries) and [P58](./99_problems_klong_solution.html#P58--Generateandtest-paradigm), and a complete implementation of the [Huffman code](./99_problems_klong_solution.html#A-More-Complete-Implementation) for the [99 Klong Problems](./99_problems_klong_solution.html)
 * Notes
 	* [Better Names for Things](./notes.html#Better-Names-for-Things)
 

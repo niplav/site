@@ -1,0 +1,30 @@
+.l("nplot")
+.l("time")
+
+:"Note: this crashes, probably because of some problem internal to Klong:"
+:"One can see parts of the internal stack in the return values, the error"
+:"messages are inconsistent"
+
+d1::{:x,(,x),,y}
+d2::{x{y d1:/x}:\y}
+s55::{:[x=0;,[];,/{:[x~y;d2(x;x);d2(x;y),d2(y;x)]}@.f'{(x:%2),x-x:%2}@x-1]}
+
+s56::{:[3=#x;{:[[]~x,y;1:|(^x)~^y;.f(x@1;y@2)&.f(x@2;y@1);0]}@(1_x):|x~[];1;0]}
+
+s58::{flr({s56(x)};s55(x))}
+rt1::{[a];a::x;time({s58'1+!a})}'10+!10
+
+s58::{:[(x=0)|x!2;flr({s56(x)};s55(x));[]]}
+rt2::{[a];a::x;time({s58'1+!a})}'10+!10
+
+:"frame with the maximum value"
+
+frame([20 35 5];[0],(1+_|/rt1,rt2),[0.1])
+ytitle("runtime in seconds")
+
+:"segplot(rt1)"
+text(250;40;"Naive filtering")
+setrgb(0;0;1)
+:"segplot(rt2)"
+text(200;250;"Caching of values for even numbers")
+draw()

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-23, modified: 2019-09-23, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-09-23, modified: 2019-09-24, language: english, status: in progress, importance: 3, confidence: unlikely*
 
 > __People seem to derive happiness from compliments. Therefore,
 > altruistic consequentialists may be sometimes motivated to compliment
@@ -99,7 +99,7 @@ Questions
 * How much is the value of a compliment dependent on the characteristics of the compliment-giver (e.g. stranger/acquaintance, age, gender, attractiveness etc.)?
 * How able are people to identify fake compliments?
 * How often do people see compliments as advice?
-* What is more worth: A weird/creative compliment or a standard compliment? (Example: "I like your hat!" vs. "Your hat reminds me of a painting of a soldier from the French Revolution!")
+* What is worth more: A weird/creative compliment or a standard compliment? (Example: "I like your hat!" vs. "Your hat reminds me of a painting of a soldier from the French Revolution!")
 
 Reddit Comments About Compliments
 ----------------------------------

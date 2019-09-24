@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-09-23, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-09-24, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -30,7 +30,7 @@ Code
 
 The pure Klong code, without tests, explanations, comments or performance
 tests is available [here](./code/99_klong/sol.kg). It currently implements
-solutions for all problems up to P63 (excluding P47 and P48), in 2700
+solutions for all problems up to P63 (excluding P47 and P48), in 2643
 bytes.
 
 Conventions
@@ -1819,11 +1819,93 @@ The results are what one would expect from the problem statement.
 
 ### P58 (**) Generate-and-test paradigm.
 
-Given the function `flr`, this is easy.
+Given the function `flr`, this is easy: `s55` constructs all completely
+balanced binary trees with x nodes, and `s56` tests a tree for being
+completely balanced. One just generates the completely balanced trees
+and then filters them for being symmetric.
 
 	s58::{flr({s56(x)};s55(x))}
+	symcbaltrees::s58
 
-### P60 (**) Construct height-balanced binary trees with a given number of nodes.
+Tests show that this code works:
+
+		symcbaltrees(0)
+	[[]]
+		symcbaltrees(1)
+	[[:x [] []]]
+		symcbaltrees(2)
+	[]
+		symcbaltrees(3)
+	[[:x [:x [] []] [:x [] []]]]
+		symcbaltrees(4)
+	[]
+		symcbaltrees(5)
+	[[:x [:x [:x [] []] []] [:x [] [:x [] []]]]
+	[:x [:x [] [:x [] []]] [:x [:x [] []] []]]]
+
+One can see that except for trees with 0 nodes, there are no completely
+balanced symmetric binary trees with an even number of nodes. That makes
+sense, since no tree with an even number of nodes can be symmetric (there are
+more nodes on one side than on the other). One could use this to make
+`s58` faster: `s58::{:[(x=0)|x!2;flr({s56(x)};s55(x));[]]}`. This does have
+the desired result:
+
+		time({s58'!40})
+	28.832377
+		s58::{:[(x=0)|x!2;flr({s56(x)};s55(x));[]]}
+		time({s58'!40})
+	6.292701
+
+Now, one can find out how many symmetric completely balanced binary trees
+with 57 nodes exist:
+
+		#symcbaltrees(57)
+	256
+
+And now, I'm interested in how the number changes when values grow:
+
+		#'s58'!50
+	[1 1 0 1 0 2 0 1 0 4 0 4 0 4 0 1 0 8 0 16 0 32 0 16 0 32 0 16 0 8 0 1 0 16 0 64 0 256 0 256 0 1024 0 1024 0 1024 0 256 0 1024]
+
+Visualizing this makes it a bit clearer (there seems to be a pattern
+here), but it's not clearly visible:
+
+	.l("nplot")
+
+	:"values for `#'s58'!50`"
+
+	v::[1 1 0 1 0 2 0 1 0 4 0 4 0 4 0 1 0 8 0 16 0 32 0 16 0 32 0 16 0 8 0 1 0 16 0 64 0 256 0 256 0 1024 0 1024 0 1024 0
+	256 0 1024]
+
+	frame([0 50 5];[0 1100 100])
+	ytitle("Value")
+	barplot(v)
+	draw()
+
+![Values of s58 up to 50](./img/99_klong/barres58_1.png "Exactly the values as above, but in a bargraph.")
+
+However, if one filters out the zeroes and takes the 2-logarithm of the
+values, a neat graph emerges:
+
+	.l("nplot")
+
+	:"values for `#'s58'!50`"
+
+	v::[1 1 0 1 0 2 0 1 0 4 0 4 0 4 0 1 0 8 0 16 0 32 0 16 0 32 0 16 0 8 0 1 0 16 0 64 0 256 0 256 0 1024 0 1024 0 1024 0 256 0 1024]
+	v::_'(ln'v@1+2*!25)%ln(2)
+
+	grid([0 25 2];[0 12 1])
+	ytitle("Logarithmic value")
+	barplot(v)
+	draw()
+
+![Logarithmic values of even numbers up to 50 for s58](./img/99_klong/barres58_2.png "Logarithmic values of even numbers up to 50 for s58, forming some kind of growing “hills” which increase both in width and in height. The values are [0 0 1 0 2 2 2 0 3 4 5 4 5 4 3 0 4 6 8 8 10 10 10 8 10], the last “hill” is cut off.")
+
+It looks like the number of completely balanced symmetric binary trees
+forms a sort of "hill" pattern, where the number of trees increases to
+higher values, with an increasing height of steps.
+
+### P59 (**) Construct height-balanced binary trees.
 
 	s59::{:[x<2;,x#,:x;{:x,'x}'{d2(x;x),d2(y;x),d2(x;y)}:(,'s59(x-1);,'s59(x-2))]}
 	minnodes::{:[x<1;0:|x=1;1;1+.f(x-1)+.f(x-2)]}
