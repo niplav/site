@@ -24,4 +24,4 @@ clean:
 	rm -f $(HTML)
 	make -C code/ clean
 
-.PHONY: publish clean sitedata rebuild puttit
+.PHONY: clean sitedata rebuild puttit
