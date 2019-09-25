@@ -1,0 +1,13 @@
+.l("nplot")
+.l("./load.kg")
+
+cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 50 10])
+
+text(20;400;"light red: during abstinence, before masturbation, dark red: after masturbation")
+
+fillrgb(1;0.4;0.4)
+{bar(2*x;(#'=duringf@<duringf)@x;12)}'!6
+fillrgb(0.6;0;0)
+{bar(1+2*x;(#'=afterf@<afterf)@x;12)}'!6
+
+draw()

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-09-23, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2019-09-25, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -304,6 +304,7 @@ Alternatives:
 
 * "Pick-Up"
 
+<!--
 Considerations on Cryonics
 --------------------------
 
@@ -327,3 +328,4 @@ variables such as inequality regarding resources.
 3.	There are some people working on long-term positive outcomes, and
 	most people work on long-term neutral projects, but no or very
 	few people working on long-term hellish conditions
+-->
