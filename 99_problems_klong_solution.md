@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-09-24, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-09-25, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -1864,42 +1864,41 @@ with 57 nodes exist:
 
 And now, I'm interested in how the number changes when values grow:
 
-		#'s58'!50
-	[1 1 0 1 0 2 0 1 0 4 0 4 0 4 0 1 0 8 0 16 0 32 0 16 0 32 0 16 0 8 0 1 0 16 0 64 0 256 0 256 0 1024 0 1024 0 1024 0 256 0 1024]
+		#'s58'!68
+	[1 1 0 1 0 2 0 1 0 4 0 4 0 4 0 1 0 8 0 16 0 32 0 16 0 32 0 16 0 8 0 1 0 16 0 64 0 256 0 256 0 1024 0 1024 0 1024 0 256 0 1024 0 1024 0 1024 0 256 0 256 0 64 0 16 0 1 0 32 0 256]
 
 Visualizing this makes it a bit clearer (there seems to be a pattern
 here), but it's not clearly visible:
 
 	.l("nplot")
 
-	:"values for `#'s58'!50`"
+	:"values for `#'s58'!68`"
 
-	v::[1 1 0 1 0 2 0 1 0 4 0 4 0 4 0 1 0 8 0 16 0 32 0 16 0 32 0 16 0 8 0 1 0 16 0 64 0 256 0 256 0 1024 0 1024 0 1024 0
-	256 0 1024]
+	v::[1 1 0 1 0 2 0 1 0 4 0 4 0 4 0 1 0 8 0 16 0 32 0 16 0 32 0 16 0 8 0 1 0 16 0 64 0 256 0 256 0 1024 0 1024 0 1024 0 256 0 1024 0 1024 0 1024 0 256 0 256 0 64 0 16 0 1 0 32 0 256]
 
 	frame([0 50 5];[0 1100 100])
 	ytitle("Value")
 	barplot(v)
 	draw()
 
-![Values of s58 up to 50](./img/99_klong/barres58_1.png "Exactly the values as above, but in a bargraph.")
+![Values of s58 up to 68](./img/99_klong/barres58_1.png "Values of s58 up to 68. Exactly the values as above, but in a bargraph.")
 
 However, if one filters out the zeroes and takes the 2-logarithm of the
 values, a neat graph emerges:
 
 	.l("nplot")
 
-	:"values for `#'s58'!50`"
+	:"values for `#'s58'!68`"
 
 	v::[1 1 0 1 0 2 0 1 0 4 0 4 0 4 0 1 0 8 0 16 0 32 0 16 0 32 0 16 0 8 0 1 0 16 0 64 0 256 0 256 0 1024 0 1024 0 1024 0 256 0 1024]
-	v::_'(ln'v@1+2*!25)%ln(2)
+	v::_'(ln'v@1+2*!(#v):%2)%ln(2)
 
 	grid([0 25 2];[0 12 1])
 	ytitle("Logarithmic value")
 	barplot(v)
 	draw()
 
-![Logarithmic values of even numbers up to 50 for s58](./img/99_klong/barres58_2.png "Logarithmic values of even numbers up to 50 for s58, forming some kind of growing “hills” which increase both in width and in height. The values are [0 0 1 0 2 2 2 0 3 4 5 4 5 4 3 0 4 6 8 8 10 10 10 8 10], the last “hill” is cut off.")
+![Logarithmic values of even numbers up to 68 for s58](./img/99_klong/barres58_2.png "Logarithmic values of even numbers up to 68 for s58, forming some kind of growing “hills” which increase both in width and in height. The values are [0 0 1 0 2 2 2 0 3 4 5 4 5 4 3 0 4 6 8 8 10 10 10 8 10 10 10 8 8 6 4 0 5 8].")
 
 It looks like the number of completely balanced symmetric binary trees
 forms a sort of "hill" pattern, where the number of trees increases to

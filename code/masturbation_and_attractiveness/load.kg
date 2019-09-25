@@ -8,4 +8,9 @@ data::{["" 1 "" 1]:$'x}'4_data
 data::{1_x}'data
 
 during::{*|x}'flr({1=*x};data)
+duringm::{*|x}'flr({(1=*x)&("m"=x@1)};data)
+duringf::{*|x}'flr({(1=*x)&("f"=x@1)};data)
+
 after::{*|x}'flr({0=*x};data)
+afterm::{*|x}'flr({(0=*x)&("m"=x@1)};data)
+afterf::{*|x}'flr({(0=*x)&("f"=x@1)};data)
