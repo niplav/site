@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-23, modified: 2019-09-24, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-09-26, modified: 2019-09-24, language: english, status: in progress, importance: 3, confidence: unlikely*
 
 > __People seem to derive happiness from compliments. Therefore,
 > altruistic consequentialists may be sometimes motivated to compliment
@@ -53,18 +53,20 @@ may have slight negative effects on social success.
 be offended or even sad about the dishonest compliment.
 
 Since it doesn't seem hard to find at least one positive aspect of the
-visual appearance of a person, it seems advisable to eschew <!--TODO:
-"vermeiden" in english?--> dishonest but positive compliments.
+visual appearance of a person, it seems advisable to avoid dishonest
+but positive compliments.
 
-However, suffering-focused consequantialists <!--TODO: Wikipedia
-link here!--> probably have less incentives to give compliments,
-since compliments simply seem to enhance the well-being of a person,
-and compliments to random strangers would rarely be given to people who
-suffer greatly. A weak case can be made that compliments seem to have a
-long-term effect on well-being and might rarely play a role in reducing
-negative effects of depression. Still, negative utilitarians have the
-same otherwise unusable time of waiting in public space, and might want
-to capitalize on this small opportunity.
+However,
+[suffering-focused](https://foundational-research.org/the-case-for-suffering-focused-ethics/)
+[consequentialists](https://plato.stanford.edu/entries/consequentialism/)
+probably have less incentives to give compliments, since compliments
+simply seem to enhance the well-being of a person, and compliments to
+random strangers would rarely be given to people who suffer greatly. A
+weak case can be made that compliments seem to have a long-term effect
+on well-being and might rarely play a role in reducing negative effects
+of depression. Still, negative utilitarians have the same otherwise
+unusable time of waiting in public space, and might want to capitalize
+on this small opportunity.
 
 Caveats
 -------
@@ -78,10 +80,11 @@ the person giving the compliment.
 It seems like men often perceive a compliment
 by a woman as an indicator of interest <!-- TODO: read
 /usr/local/doc/unread/blackpill/the_misperception_of_sexual_interest_perilloux_et_al_2012.pdf
-and quote it--> and respond with flirting. And related to the caveat
-about social calibration, compliments by men might be misperceived as
-an attempt at flirting or even cat-calling <!--TODO: wikipedia link-->
-and make the woman receiving the compliment uncomfortable.
+and quote it--> and respond with flirting. And related
+to the caveat about social calibration, compliments by
+men might be misperceived as an attempt at flirting or even
+[cat-calling](https://en.wikipedia.org/wiki/Street_harassment) and make
+the woman receiving the compliment uncomfortable.
 
 It could be that compliments on visual appearance further a very shallow
 and visual image of attractiveness. If the effects of this are strong,
@@ -104,13 +107,11 @@ Questions
 Reddit Comments About Compliments
 ----------------------------------
 
-<!--TODO: write down the number of upvotes-->
-
 > “I’m pretty sure that you might be partly a genius” - boss. […]
 > I know he was blowing smoke because he immediately asked me to Do a
 > Thing, but __it was a nice moment of vindication for me__.
 
-*– [Princ3Ch4rming](https://old.reddit.com/user/Princ3Ch4rming), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6lq0ff/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
+*– [Princ3Ch4rming](https://old.reddit.com/user/Princ3Ch4rming), [comment](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6lq0ff/) on [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/) (138 points), 2018*
 
 Emphasis mine.
 
@@ -122,14 +123,14 @@ Emphasis mine.
 > wide to me every morning". No one had ever pointed out my smile before,
 > at least not like that. __Felt a glow for days__.
 
-*– [yudodisdolan](https://old.reddit.com/user/yudodisdolan), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6lr3cs/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
+*– [yudodisdolan](https://old.reddit.com/user/yudodisdolan), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6lr3cs/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/) (162 upvotes), 2018*
 
 Emphasis mine.
 
 > When my wife says she is proud of me. __That's the best thing anyone
 > has ever said to me__.
 
-*– unknown redditor, [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6lpg1p/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
+*– unknown redditor, [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6lpg1p/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/) (157 upvotes), 2018*
 
 Emphasis mine.
 
@@ -141,7 +142,7 @@ Emphasis mine.
 > for them__. Especially ones not relating to your new sweater but things
 > about YOU personally. It just doesn't happen. Unless you count your mom's
 
-*– [nikolakis7](https://old.reddit.com/user/nikolakis7), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6ltxwt/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
+*– [nikolakis7](https://old.reddit.com/user/nikolakis7), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6ltxwt/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/) (65 upvotes), 2018*
 
 Emphasis mine.
 
@@ -155,7 +156,7 @@ with a booth for some kind of campaign I can't remember. When I went
 past them, I smiled and one of them asked me to take a picture with them
 "because I was handsome". __I went for years alone on that compliment__.
 
-*– [Motorchampion](https://old.reddit.com/user/Motorchampion), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
+*– [Motorchampion](https://old.reddit.com/user/Motorchampion), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6lt115/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/) (102 points), 2018*
 
 Emphasis mine.
 
@@ -168,7 +169,7 @@ important.
 
 > "That jacket looks good on you." 4 years later, still wearing it
 
-*– [xaivteev](https://old.reddit.com/user/xaivteev), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6luike/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
+*– [xaivteev](https://old.reddit.com/user/xaivteev), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6luike/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/) (39 comments), 2018*
 
 This indicates that comments might be taken as advice, which should lead
 to caution what to compliment.
@@ -176,7 +177,7 @@ to caution what to compliment.
 > A girl called me “ so witty” when I was 16 and it still gives me
 > a boost on bad days
 
-*– [huxception](https://old.reddit.com/user/huxception), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6ltl4g//) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/), 2018*
+*– [huxception](https://old.reddit.com/user/huxception), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6ltl4g/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/) (22 points), 2018*
 
 Again, a compliment from the opposite sex seems worth more, at least
 for men. Perhaps because it signals sexual interest, which is an good

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-09-12, language: english, status: finished, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-04-11, modified: 2019-09-26, language: english, status: finished, importance: 4, confidence: unlikely*
 
 > __In western cultures, it is nearly universal for people to clap
 > before and after pieces of classical music and jazz. An argument
@@ -224,13 +224,13 @@ namely, receiving appreciation for a performance.
 On the other hand, applause is not the only possible
 appreciation signal available. One could imagine others that
 would both leave the musicians satisfied, for example [Jazz
-Hands](https://en.wikipedia.org/wiki/Jazz_hands)-like gestures used in
-death culture <!--TODO: links here--> or the amount of time spent in
-the concert hall after the last note has been played.
+Hands](https://en.wikipedia.org/wiki/Jazz_hands)-like
+gestures used in [deaf
+culture](https://www.independent.co.uk/life-style/clapping-banned-manchester-university-students-union-jazz-hands-applause-a8566531.html)
+or the amount of time spent in the concert hall after the last note has
+been played.
 
-### Clapping on Chesterton's Fence
-
-<!--TODO: Wikipedia Link to Chesterton's Fence-->
+### Clapping on [Chesterton's Fence](https://en.wikipedia.org/wiki/Wikipedia:Chesterton's_fence)
 
 I have hinted at this point before already, but it is worth stressing that
 traditions like applause may fulfill old and useful functions that can't
@@ -304,19 +304,6 @@ properties of applause (such as being visible, produced by the audience,
 requiring participation, mostly self-coordinating and less straining on
 the palms) and being favoured by a marginalized group connected to the
 social justice movement.
-
-<!--TODO: Make this real quotes-->
-
-<!--
-Discussion on the respective merits of Jazz-hands and applause:
-* https://old.reddit.com/r/slatestarcodex/comments/9x323i/applause_vs_jazz_hands/
-
-Advantages Applause:
-
-* Doesn't work when the audience is [not visible](https://old.reddit.com/r/slatestarcodex/comments/9x323i/applause_vs_jazz_hands/e9pc5nl/)
-* Diminishes the [connection with the audience](https://old.reddit.com/r/slatestarcodex/comments/9x323i/applause_vs_jazz_hands/e9pcdsk/)
-* Hard to detect [for blind people](https://old.reddit.com/r/slatestarcodex/comments/9x323i/applause_vs_jazz_hands/e9pbu2y/)
--->
 
 However, some good objections [have been
 raised](https://old.reddit.com/r/slatestarcodex/comments/9x323i/applause_vs_jazz_hands/):

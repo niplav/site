@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-09-23, language: english, status: notes, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-09-26, language: english, status: notes, importance: 4, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -13,7 +13,7 @@ Abstinence from Masturbation and Success from Cold Approach
 > interesting things happen along borders–transitions–not in
 the middle where everything is the same
 
-*– [Neal Stephenson](), [“Snow Crash”](), 1992*<!--TODO: links-->
+*– [Neal Stephenson](https://en.wikipedia.org/wiki/Neal_Stephenson), [“Snow Crash”](https://en.wikipedia.org/wiki/Snow_Crash), 1992*
 
 Abstract
 --------
@@ -30,15 +30,16 @@ results are discussed and find that \_.
 Preregistration
 ---------------
 
-To avoid p-hacking and other practices, the bulk of this text was
-written before the actual experiment and data analysis was conducted,
-and posted<!--TODO: when posted, put link here--> on the [NoFap
-subreddit](https://old.reddit.com/r/NoFap/) as well as to the subreddit
-[/r/niplav](https://old.reddit.com/r/niplav), with the SHA256 hashsum
-of the text as the title. The SHA256 sum of the content was put into
-the title to prevent tampering with the content of the article, because
-reddit titles can't be changed by users of reddit. <!--TODO: source for
-that claim-->
+To avoid p-hacking and other practices, the bulk of this text
+was written before the actual experiment and data analysis was
+conducted, and posted<!--TODO: when posted, put link here--> on
+the [NoFap subreddit](https://old.reddit.com/r/NoFap/) as well as
+to the subreddit [/r/niplav](https://old.reddit.com/r/niplav),
+with the SHA256 hashsum of the text as the title. The
+SHA256 sum of the content was put into the title to prevent
+tampering with the content of the article, because reddit titles [can't be
+changed](https://old.reddit.com/wiki/faq#wiki_i_made_a_mistake_in_my_submission_title.2C_how_can_i_edit_it.3F)
+by users of reddit.
 
 The pre-registered hypothesis thus shall be H₀:
 
@@ -48,16 +49,18 @@ The pre-registered hypothesis thus shall be H₀:
 
 ### Reasoning
 
-If it were true that abstinence from masturbation increased attractiveness
-to the opposite sex, evolutionary pressure would have selected men
-who abstain from masturbating, since they generate a higher number of
-offspring. This would be true regardless of the specific way in which
-abstinence from masturbation increases fitness, be it pheromones,
-microexpressions or any other reason. Indeed, one could suppose that
-masturbation is reproductively beneficial, since it has apparently been
-selected for by natural and/or sexual selection. <!--TODO: search for
-examples of animal species masturbating, as well as the reasoning about
-the evolutionary reasons for masturbation-->
+If it were true that abstinence from masturbation increased
+attractiveness to the opposite sex, evolutionary pressure would
+have selected men who abstain from masturbating, since they generate
+a higher number of offspring. This would be true regardless of the
+specific way in which abstinence from masturbation increases fitness,
+be it pheromones, microexpressions or any other reason. Indeed,
+one could suppose that masturbation is reproductively beneficial,
+since it has apparently been selected for by natural and/or sexual
+selection. <!--TODO: search for examples of animal species masturbating,
+as well as the reasoning about the evolutionary reasons for masturbation:
+https://en.wikipedia.org/wiki/Non-reproductive_sexual_behavior_in_animals#Autoeroticism_or_masturbation,
+https://en.wikipedia.org/wiki/Masturbation#Evolutionary_utility-->
 
 Existing Literature
 -------------------
@@ -220,8 +223,7 @@ of higher attractiveness, though the "sixth sense" could refer to more
 A commenter specifically refers to micro-expressions:
 
 > It doesn't make you "more attractive" in the physical sense, although it
-might support that as a side effect but not directly. Also, women having a
-"sixth sense" is a true statement, but most of the time misused by many.  
+might support that as a side effect but not directly.[…]  
 > Here's the rundown on how it "makes men more attractive"; You constantly
 transmit micro expressions. You are a walking transmitter whether you like
 it or not. Women, they have a sharper decoder that men have, and they are
@@ -273,7 +275,7 @@ start functioning correctly (hence no brain fog)
 
 *– [ReAp_QS_Killzz](https://old.reddit.com/user/ReAp_QS_Killzz), [comment](https://old.reddit.com/r/NoFap/comments/bl2ioe/can_nofap_really_make_you_more_attractive/eml1sr9/) on [“Can NoFap Really Make You More Attractive?”](https://old.reddit.com/r/NoFap/comments/bl2ioe/can_nofap_really_make_you_more_attractive/) on [/r/NoFap](https://old.reddit.com/r/NoFap) (19 upvotes), 2019*
 
-If this is true, then abstinece from masturbation should lead to increased
+If this is true, then abstinence from masturbation should lead to increased
 mental health, but except "clearer skin" there is no obvious way in
 which this would increase attractiveness.
 
@@ -281,9 +283,13 @@ Another commenter
 [claims](https://old.reddit.com/r/NoFap/comments/bl2ioe/can_nofap_really_make_you_more_attractive/emli3ml/)
 that his "face has this droopy tired look" during periods of masturbation.
 
-* https://old.reddit.com/r/NoFap/comments/blij7t/i_thought_girls_being_more_attracted_to_you_was_a/
-* https://old.reddit.com/r/NoFap/comments/bq8bvj/i_feel_like_girls_are_now_addicted_to_looking_me/
-* https://www.nateliason.com/blog/testosterone-timing
+> Increased sexual interest from others. Many rebooters claim they
+notice more signals of sexual attraction directed at them: more looks,
+more smiles, more flirting. Many believe this to be a side-effect of
+feeling more confident, while others theorize that rebooters simply
+notice more signals than they did when they were obsessed with porn.
+
+*– [NoFap.com](https://nofap.com/), [“Rebooting from Porn Addiction”](https://nofap.com/rebooting/), 2017*
 
 A broad picture emerges: Long-term abstinence from masturbation has
 noticeable effects on male attractiveness for women, this effect emerges
@@ -317,12 +323,12 @@ of people as most of the NoFap community.
 
 Data was collected as follows:
 
-I abstined <!--TODO: What is the correct verb for abstinence?--> from
-masturbating from \_ to \_, resulting in >90 days of abstinence from
-masturbation (which is also the period recommended by the NoFap community
-<!--TODO: source-->). From \_ to \_, I went on the streets of a major
-european city and approached 100 men and 100 women (perceived gender)
-alternatingly with the words
+I abstained from masturbating from \_ to \_, resulting in >90 days of
+abstinence from masturbation (which is also the period [recommended
+by the NoFap community](https://nofap.com/rebooting/): "NoFap’s gold
+standard of success is our 90-day reboot."). From \_ to \_, I went on
+the streets of a major european city and approached 100 men and 100 women
+(perceived gender) alternatingly with the words
 
 > Hi, I know this is really spontaneous, but I just saw you and thought
 you looked really nice. What is your name?
@@ -354,9 +360,45 @@ Results were logged in a CSV file.
 Results Analysis
 -----------------
 
-Does the hypothesis hold up?
+### Visualizing the Results
 
-Make nice bargraphs & so on
+Cold approach is a conversion funnel: there are a number of different
+stages an approachee goes through, and each one can fail. This way, one
+can visualize how far the interaction went by making a bar graph of the
+people dropping out at a certain stage (ignoring the approach, stopping
+but not giving a name, giving a nam but not agreeing to come on a date,
+agreeing to come on a date but flaking, and showing up to a date).
+Showing up to the date was considered a condition of success, but one
+could imagine further steps like having sex, getting into a relationship
+with the person, getting married with the person and having children with
+the person, though these were deemed excessive and out of the scope of
+a simple self-experiment.
+
+The bargraph below shows how many people were lost at which stage
+of the funnel, ignoring gender. The white bars show the numbers
+during a period of abstinence from masturbation, after 90 days
+of abstinence, the black bars show the numbers after a period of
+weekly masturbation.
+
+Code:
+
+	.l("nplot")
+	.l("./load.kg")
+
+	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 100 10])
+
+	text(20;400;"white: during abstinence, before masturbation, black: after masturbation")
+
+	fillrgb(0;0;0)
+	{bar(2*x;(#'=during@<during)@x;12)}'!6
+	fillrgb(1;1;1)
+	{bar(1+2*x;(#'=after@<after)@x;12)}'!6
+
+	draw()
+
+![Gender non-specific loss in different stages of the funnel](./img/masturbation_and_attractiveness/dur_after_bar.png "Gender non-specific loss in different stages of the funnel.")
+
+### Testing the Hypothesis
 
 Problems
 --------
@@ -368,3 +410,10 @@ Problems
 
 Conclusion
 ----------
+
+<!--
+TODO: read
+
+https://en.wikipedia.org/wiki/Masturbation
+https://en.wikipedia.org/wiki/Pornography
+-->
