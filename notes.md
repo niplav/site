@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-09-25, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2019-09-26, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -263,6 +263,17 @@ Alternatives:
 * "Voluntarism"
 
 ### "Animal Rights"
+
+From a consequentialist perspective, rights are usually seen as
+instrumental heuristics and not as terminal values. When people talk about
+animal rights, they usually mean leaving animals alone in the context of
+factory farming and opposing interventions in nature. However, [Tomasik
+2017](https://foundational-research.org/the-importance-of-wild-animal-suffering/
+"The Importance of Wild-Animal Suffering") makes a striking case for
+intervening in nature due to the prevalence of extreme suffering, usually
+including highly invasive measures which would violate a naive concept
+of "animals rights". However, these interventions would be designed to
+increase total animal welfare.
 
 Alternatives:
 

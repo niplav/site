@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-02, modified: 2019-09-17, language: english, status: in progress, importance: 2, confidence: other*
+*author: niplav, created: 2019-09-02, modified: 2019-09-26, language: english, status: in progress, importance: 2, confidence: other*
 
 > __awitt is a simple window title logger/time tracker. It is linked,
 > described and compared to other similar projects. Then, its releases
@@ -11,8 +11,10 @@ awitt – Another Window Title Tracker
 ====================================
 
 The project's sourced code is available on
-[github](https://github.com/niplav/awitt), along with its README and
-man-page for more documentation.<!--TODO: Add links for these-->
+[github](https://github.com/niplav/awitt), along with its
+[README](https://github.com/niplav/awitt/blob/master/README.md) and
+[man-page](https://github.com/niplav/awitt/blob/master/awitt.1) for
+more documentation.
 
 Description
 -----------
@@ -42,8 +44,9 @@ needing only one interaction per restart.
 
 ### arbtt
 
-The only other similar time tracker I know is arbtt<!--TODO: link here
-and in the README-->, which is a much more complete and polished project.
+The only other similar time tracker I know is
+[arbtt](https://arbtt.nomeata.de/), which is a much more complete and
+polished project.
 
 So why not simply choose arbtt and be done with it?
 
@@ -79,4 +82,4 @@ Bugs
 ### Possibly Bugs
 
 * Window title changes are only logged if they last longer than 1 second.
-* Unix time <!--TODO: Wikipedia link-->is not optimal, use ISO-8601 instead
+* [Unix time](https://en.wikipedia.org/wiki/Unix_time) is not optimal, use [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) instead

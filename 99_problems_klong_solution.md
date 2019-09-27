@@ -1446,14 +1446,13 @@ revisit P47 and P48 to solve them appropriately as well.
 
 ### P49 (**) Gray code.
 
-The Gray code can be generated as following: The 0-bit Gray code is
-the empty list `[]`, the 1-bit Gray code is simply `['0' '1']`. The
-n+1-bit Gray code is the n-bit Gray code where 0 is prepended to every
-sequence, concatenated with the n-bit Gray code where 1 is prepended
-to every sequence of the reversed n-bit Gray code. In the case of n=2,
+The Gray code can be generated as following: The 0-bit Gray
+code is the empty list `[]`, the 1-bit Gray code is simply `['0'
+'1']`. The n+1-bit Gray code is the n-bit Gray code where 0 is
+prepended to every sequence, concatenated with the n-bit Gray code
+where 1 is prepended to every sequence of the reversed n-bit [Gray
+code](https://en.wikipedia.org/wiki/Gray_code). In the case of n=2,
 this would be `['00' '01'],['11' '10']`.
-
-<!--TODO: Wikipedia Link for Gray code-->
 
 This recursive definition can now be put into code quite easily: If x=0,
 return the empty list, otherwise return the x-1 Gray code prepended with
@@ -1907,8 +1906,10 @@ higher values, with an increasing height of steps.
 ### P59 (**) Construct height-balanced binary trees.
 
 	s59::{:[x<2;,x#,:x;{:x,'x}'{d2(x;x),d2(y;x),d2(x;y)}:(,'s59(x-1);,'s59(x-2))]}
-	minnodes::{:[x<1;0:|x=1;1;1+.f(x-1)+.f(x-2)]}
 
+### P60 (**) Construct height-balanced binary trees with a given number of nodes.
+
+	minnodes::{:[x<1;0:|x=1;1;1+.f(x-1)+.f(x-2)]}
 <!--
 Seems to be the sum of the first `x` fibonacci numbers.
 

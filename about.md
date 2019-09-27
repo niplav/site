@@ -121,12 +121,12 @@ I use a [script](./code/sitelint) to fix easily catchable mistakes.
 * Spell checking using [aspell](http://aspell.net/)
 * Check broken markdown
 * Broken citations
-* American English <!--TODO: Wikipedia--> ("labour" instead of "labor", "behaviour" instead of "behavior")
+* [American English](https://en.wikipedia.org/wiki/American_English) ("labour" instead of "labor", "behaviour" instead of "behavior")
 * Checking for unbalanced parentheses
 
 <!--
 * links for authors to Wikipedia
-* capitalization, TODO: (capitalisation?) of headings
+* capitalization of headings
 * proselint
 * fixing 404'ed links
 -->
