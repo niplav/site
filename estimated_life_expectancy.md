@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-10, modified: 2019-09-08, language: english, status: in progress, importance: 2, confidence: possible*
+*author: niplav, created: 2019-04-10, modified: 2019-09-28, language: english, status: in progress, importance: 2, confidence: possible*
 
 > __A while ago, I became interested in personal estimations
 > of life expectancy. I wanted to know how accurate people are
@@ -125,6 +125,8 @@ Code for the image:
 	.l("./load.kg")
 
 	cgrid("age (female red, male blue)                      (N=",($#data),")";[0 100 20])
+
+	setdot(3)
 	fillrgb(0;0;1)
 	scplot(mages)
 	fillrgb(1;0;0)
@@ -224,6 +226,8 @@ Code for the image:
 	.l("./load.kg")
 
 	cgrid("estimated age (female red, male blue)           (N=",($#data),")";[0 200 20])
+
+	setdot(3)
 	fillrgb(0;0;1)
 	scplot(mestages)
 	fillrgb(1;0;0)
@@ -280,6 +284,7 @@ This can be shown in a scatter plot of the data.
 
 	grid([0 100 20];[0 220 20])
 	fillrgb(0;0;1)
+	setdot(3)
 	scplot2(m)
 	fillrgb(1;0;0)
 	scplot2(f)
