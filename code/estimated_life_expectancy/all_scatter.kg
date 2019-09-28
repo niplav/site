@@ -3,6 +3,7 @@
 
 grid([0 100 20];[0 220 20])
 fillrgb(0;0;1)
+setdot(3)
 scplot2(m)
 fillrgb(1;0;0)
 scplot2(f)

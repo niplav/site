@@ -3,6 +3,7 @@
 
 cgrid("estimated age (female red, male blue)           (N=",($#data),")";[0 200 20])
 
+setdot(3)
 fillrgb(0;0;1)
 scplot(mestages)
 fillrgb(1;0;0)

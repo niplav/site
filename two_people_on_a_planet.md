@@ -197,7 +197,7 @@ footsteps, they would reverse direction. If they had walked more than
 half of the circumference of the planet, they would continue walking no
 matter whether they would see other footsteps on the ground.
 
-This would ensure that they would deterministically meet in `$O(n)$`
+This would ensure that they would deterministically meet in `$\cal{O}(n)$`
 (`$n$` being the circumference of the planet).
 
 Pseudocode

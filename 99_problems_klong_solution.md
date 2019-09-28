@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-09-25, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-09-28, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -985,13 +985,13 @@ Tests:
 
 		isprime(7)
 	1
-		flr(s31;!100)
+		flr(isprime;!100)
 	[2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97]
-		s31(-1)
+		isprime(-1)
 	0
-		s31(0)
+		isprime(0)
 	0
-		s31(1)
+		isprime(1)
 	0
 
 ### P32 (**) Determine the greatest common divisor of two positive integer numbers.
@@ -1903,9 +1903,88 @@ It looks like the number of completely balanced symmetric binary trees
 forms a sort of "hill" pattern, where the number of trees increases to
 higher values, with an increasing height of steps.
 
+<!--
+I have written some code that examines the different runtimes between
+the even-optimized and unoptimized versions,but it looks like `s58`
+shoots into Klongs stack and bugs everything out.
+
+> This … is a bug.
+> My god.
+> There's more.
+> Noo.
+
+Occurs on this code:
+
+		d1::{:x,(,x),,y}
+		d2::{x{y d1:/x}:\y}
+		s55::{:[x=0;,[];,/{:[x~y;d2(x;x);d2(x;y),d2(y;x)]}@.f'{(x:%2),x-x:%2}@x-1]}
+		s56::{:[3=#x;{:[[]~x,y;1:|(^x)~^y;.f(x@1;y@2)&.f(x@2;y@1);0]}@(1_x):|x~[];1;0]}
+		s58::{flr({s56(x)};s55(x))}
+		#'s58'!40
+	kg: error: call: type error: [[6 :triad %call1 %pop1]
+
+For `#'s58'!36` it is:
+
+	kg: error: wrong arity: :monad
+
+For `#'s58'!39` it is:
+
+	kg: error: call: type error: [6]
+-->
+
 ### P59 (**) Construct height-balanced binary trees.
 
-	s59::{:[x<2;,x#,:x;{:x,'x}'{d2(x;x),d2(y;x),d2(x;y)}:(,'s59(x-1);,'s59(x-2))]}
+`s59` is a simple recursive function that returns the empty tree as a base
+case (the height is equal to or smaller than 0). The recursive case first
+generates all trees with the heights `x-1` and `x-2` and then combines
+them using `d2` using `:x` as a root node. Because this creates a list
+of lists of trees, this is flattened once using concatenation and the
+Over adverb. Because this list contains duplicates, they are filtered out
+using `?` (which is functionally equivalent to the `uniq` unix command).
+
+	s59::{:[x<1;,[];?,/{d2(x;x),d2(y;x),d2(x;y)}:(s59(x-1);s59(x-2))]}
+	hbaltree::s59
+
+Testing:
+
+		hbaltree(0)
+	[[]]
+		hbaltree(1)
+	[[:x [] []]]
+		hbaltree(2)
+	[[:x [:x [] []] [:x [] []]]
+	[:x [] [:x [] []]]
+	[:x [:x [] []] []]]
+		hbaltree(3)
+	[[:x [:x [:x [] []] [:x [] []]] [:x [:x [] []] [:x [] []]]]
+	[:x [:x [] [:x [] []]] [:x [:x [] []] [:x [] []]]]
+	[:x [:x [:x [] []] []] [:x [:x [] []] [:x [] []]]]
+	[:x [:x [:x [] []] [:x [] []]] [:x [] [:x [] []]]]
+	[:x [:x [] [:x [] []]] [:x [] [:x [] []]]]
+	[:x [:x [:x [] []] []] [:x [] [:x [] []]]]
+	[:x [:x [:x [] []] [:x [] []]] [:x [:x [] []] []]]
+	[:x [:x [] [:x [] []]] [:x [:x [] []] []]]
+	[:x [:x [:x [] []] []] [:x [:x [] []] []]]
+	[:x [:x [] []] [:x [:x [] []] [:x [] []]]]
+	[:x [:x [] []] [:x [] [:x [] []]]]
+	[:x [:x [] []] [:x [:x [] []] []]]
+	[:x [:x [:x [] []] [:x [] []]] [:x [] []]]
+	[:x [:x [] [:x [] []]] [:x [] []]]
+	[:x [:x [:x [] []] []] [:x [] []]]]
+		hbaltree(-1)
+	[[]]
+
+`hbaltree(3)` returns all height-balanced binary trees with height 3,
+I checked.<!--TODO: add images for all the different trees returnet by
+`hbaltree(3)`?--> One could modify `hbaltree` to return an error message
+for negative parameters, but since this is an exercise and not production
+code, this seems unnecessary here.
+
+One can now also find out how many heigh-balanced binary trees exist for
+a given height:
+
+		#'s59'!5
+	[1 1 3 15 315]
 
 ### P60 (**) Construct height-balanced binary trees with a given number of nodes.
 
