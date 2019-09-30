@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-07-24, modified: 2019-07-26, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-24, modified: 2019-09-29, language: english, status: in progress, importance: 5, confidence: log*
 
 > __The blog [bit-player](http://bit-player.org/) is an excellent
 > computer science and mathematics blog written by [Brian
@@ -12,7 +12,7 @@
 Bit-Player Posts Chronological Index
 =====================================
 
-This index currently contains 372 posts from 2006-01-09 to 2019-04-08.
+This index currently contains 373 posts from 2006-01-09 to 2019-09-27.
 
 Archives
 --------
@@ -430,6 +430,7 @@ Archives
 * [A Room with a View](http://bit-player.org/2019/a-room-with-a-view) (Brian Hayes, 31 January 2019)
 * [Divisive factorials!](http://bit-player.org/2019/divisive-factorials) (Brian Hayes, 10 February 2019)
 * [737: The MAX Mess](http://bit-player.org/2019/737-the-max-mess) (Brian Hayes, 8 April 2019)
+* [My God, It’s Full of Dots!](http://bit-player.org/2019/my-god-its-full-of-dots) (Brian Hayes, 27 September 2019)
 
 Code
 ----

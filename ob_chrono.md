@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-07-07, modified: 2019-08-08, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-07, modified: 2019-09-29, language: english, status: in progress, importance: 5, confidence: log*
 
 > __The blog [Overcoming Bias](http://www.overcomingbias.com/), written
 > mainly by [Robin Hanson](https://en.wikipedia.org/wiki/Robin_Hanson),
@@ -14,7 +14,7 @@
 Overcoming Bias Posts Chronological Index
 =========================================
 
-This index currently lists 4049 posts from 2006-11-20 until 2019-06-27.
+This index currently lists 4066 posts from 2006-11-20 until 2019-09-27.
 
 Archives
 --------
@@ -4108,6 +4108,22 @@ Archives
 * [How To Prep For War](http://www.overcomingbias.com/2019/07/how-to-prep-for-war.html) (Robin Hanson, July 26, 2019 11:00 am)
 * [End War Or Mosquitoes?](http://www.overcomingbias.com/2019/07/end-war-or-mosquitoes.html) (Robin Hanson, July 29, 2019 8:00 pm)
 * [Advice Wiki](http://www.overcomingbias.com/2019/07/advice-wiki.html) (Robin Hanson, July 31, 2019 1:40 pm)
+* [Against Irony](http://www.overcomingbias.com/2019/08/against-irony.html) (Robin Hanson, August 10, 2019 8:05 am)
+* [A Model of Paternalism](http://www.overcomingbias.com/2019/08/a-model-of-paternalism.html) (Robin Hanson, August 10, 2019 10:30 pm)
+* [Paternalism Is About Status](http://www.overcomingbias.com/2019/08/explaining-paternalism.html) (Robin Hanson, August 11, 2019 10:50 pm)
+* [Ways to Choose A Futarchy Welfare Measure](http://www.overcomingbias.com/2019/08/ways-to-choose-a-futarchy-welfare-measure.html) (Robin Hanson, August 21, 2019 9:00 pm)
+* [How Idealists Aid Cheaters](http://www.overcomingbias.com/2019/08/how-idealists-aid-cheaters.html) (Robin Hanson, August 23, 2019 9:00 am)
+* [Why Not Hi-Tech Forms?](http://www.overcomingbias.com/2019/08/why-not-hi-tech-forms.html) (Robin Hanson, August 28, 2019 10:00 pm)
+* [10% Less Democracy](http://www.overcomingbias.com/2019/09/10-less-democracy.html) (Robin Hanson, September 2, 2019 12:20 pm)
+* [What’s So Bad About Concentration?](http://www.overcomingbias.com/2019/09/whats-so-bad-about-concentration.html) (Robin Hanson, September 5, 2019 9:50 pm)
+* [Beware Multi-Monopolies](http://www.overcomingbias.com/2019/09/our-multi-monopoly-problem.html) (Robin Hanson, September 8, 2019 9:15 am)
+* [Stamina Succeeds](http://www.overcomingbias.com/2019/09/stamina-succeeds.html) (Robin Hanson, September 10, 2019 2:10 pm)
+* [Yay Democracy Dollars](http://www.overcomingbias.com/2019/09/yay-democracy-dollars.html) (Robin Hanson, September 14, 2019 11:00 am)
+* [Graziano on a World of Uploaded Minds](http://www.overcomingbias.com/2019/09/graziano-on-a-world-of-uploaded-minds.html) (Robin Hanson, September 17, 2019 2:30 pm)
+* [Quality Regs Say ‘High Is Good’](http://www.overcomingbias.com/2019/09/quality-regs-say-high-is-good.html) (Robin Hanson, September 19, 2019 6:50 pm)
+* [Who Vouches For You?](http://www.overcomingbias.com/2019/09/who-vouches-for-you.html) (Robin Hanson, September 21, 2019 8:00 am)
+* [Status Apps Are Coming](http://www.overcomingbias.com/2019/09/status-apps-are-coming.html) (Robin Hanson, September 25, 2019 11:15 am)
+* [Dreamtime Social Games](http://www.overcomingbias.com/2019/09/dreamtime-games.html) (Robin Hanson, September 27, 2019 1:30 pm)
 
 Code
 ----

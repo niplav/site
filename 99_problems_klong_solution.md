@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-09-28, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-09-29, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -599,8 +599,8 @@ Tests:
 It is probably slower than a more naïve
 [Fischer-Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
 like equivalent `s25::{(#x){p::_.rn()*#x;(x@p),s20(x;p+1)}:*x}`, since
-Grade-Up `<` sorts the list, which results in a `$O(n*log(n))$` time
-complexity, while Fischer-Yates is just `$O(n)$`.
+Grade-Up `<` sorts the list, which results in a `$\cal{O}(n*log(n))$` time
+complexity, while Fischer-Yates is just `$\cal{O}(n)$`.
 
 One can then measure the runtimes of these two functions and generate
 a graph of the runtimes using Klong's nplot and time libraries:
@@ -640,11 +640,11 @@ and now has to be converted into
 
 ![Runtimes for the solutions to problem 3](./img/99_klong/runtimes25.png "Runtimes for the solutions to problem 3. Fisher-Yates shuffle is alot slower than the shorter Grading shuffle (Fisher-Yates takes 3 seconds for 9K elements, Grading shuffle only 0.6 seconds), and also grows quicker.")
 
-The Fisher-Yates shuffle implementation seems to grow with `$O(n^2)$`,
+The Fisher-Yates shuffle implementation seems to grow with `$\cal{O}(n^2)$`,
 but the growth behavior of the Grading Shuffle is not entirely
 clear. Nonetheless, it seems like the grading shuffle is clearly superior
 to the Fisher-Yates Shuffle implementation in terms of performance.
-There is probably a Klong verb that runs in `$O(n^2)$` and was used in
+There is probably a Klong verb that runs in `$\cal{O}(n^2)$` and was used in
 `s20` or `s25.2`.
 
 ### P26 (**) Generate the combinations of K distinct objects chosen from the N elements of a list.
@@ -699,12 +699,12 @@ concatenated with the sets from the first call of `s26`. The results
 are then passed, and the same procedure is repeated for subsets of size 4.
 
 `a1` is not a very efficient implementation of set difference (it seems
-to have a quadratic run-time of `$O(n*m)$`). But it is short and easy to
+to have a quadratic run-time of `$\cal{O}(n*m)$`). But it is short and easy to
 implement: it filters out all elements out of `x` that can be found in
 `y`. The quadratic run-time can thus be explained easily: For each
 element in x; that element has to be searched in `y`, resulting in
 [a runtime](https://en.wikipedia.org/wiki/Big_O_notation#Product) of
-`$O(n)*O(m)=O(n*m)$`, where `$n$` is the size of `x` and `$m$` is the
+`$\cal{O}(n)*\cal{O}(m)=\cal{O}(n*m)$`, where `$n$` is the size of `x` and `$m$` is the
 size of `y`.
 
 `s27` is basically a recursive version of `group3`, producing just the
@@ -1986,9 +1986,78 @@ a given height:
 		#'s59'!5
 	[1 1 3 15 315]
 
+Interestingly, `s59` seems to have abysmal runtimes:
+
+		{[a];a::x;time({s59(a)})}'!5
+	[0.000035 0.000045 0.00005 0.000138 0.035998]
+		time({s59(5)})
+		^C
+		:"terminated after more than 5 minutes of runtime"
+
+The reason for this seems to be that this is because the Range verb is
+very slow (which itself uses the Group verb, which is probably responsible
+for the slow speed). To test this, one can look how range deals with
+increasingly large lists:
+
+		:"return a list with x random numbers"
+		xrn::{x{x,.rn()}:*[]}
+		v::{xrn(2^x)}'!12
+		d::{[a];a::x;time({?a})}'v
+	[0.000054 0.000047 0.000079 0.000233 0.006979 0.010476 0.036759 0.041276 0.123291 0.505992 2.178776 7.369197]
+		|%:'|d
+	[0.87037037037037037 1.68085106382978723 2.94936708860759494 29.9527896995708154 1.50107465252901562 3.50887743413516609 1.12288147120433091 2.98699001841263688 4.10404652407718324 4.30594950117788424 3.38226462931480794]
+		d::{[a];a::x;time({=a})}'v
+	[0.000095 0.000073 0.000118 0.00033 0.001132 0.01022 0.023503 0.028528 0.096454 0.401348 1.673313 7.288477]
+		|%:'|d
+	[0.768421052631578947 1.61643835616438356 2.79661016949152542 3.4303030303030303 9.02826855123674912 2.299706457925636 1.21380249329872782 3.38102916432978126 4.16103012835133846 4.16923218752803054 4.35571647384559852]
+
+So Range takes around 7 seconds for 2000 elements, and seems to be
+growing exponentially with at least `$\cal{O}(2^n)$` (but notice that
+it might be more or less, the exact value being somewhere between
+`$\cal{O}(1.5^n)$` and `$\cal{O}(3^n)$`), although even a simple
+implementation of an algorithm that returns the unique elements of a
+list should take not more than `$\cal{O}(n^2)$`. The command responsible
+seems to be Group, which is used in the code for Range:
+
+	static cell range(cell x) {
+		cell	n, m, p, new;
+		int	i, k,str = 0;
+		if (list_p(x))
+			n = group(x);
+		else
+			n = group_string(x);
+
+No wonder Range is a bit overwhelmed with data, since `s59(5)` deals with
+around 100000 trees:
+
+		#,/{d2(x;x),d2(y;x),d2(x;y)}:(s59(4);s59(3))
+	108675
+
+If Range takes around 2.1 seconds for 1000 elements, one can predict that
+it would take roughly `$2.1s*2^100 \approx 2.662*10^30s$`, which would be
+`$2.662*10^30s*\frac{1y}{3600s*24*365} \approx 8.44*10^22y$`. This is
+of course only a rough estimate, and may turn out to be entirely wrong
+if Group and Range don't have an exponential time complexity after all.
+
+<!--TODO: more closely examine the code in the Klong implementation
+and perhaps write a replacement for Range? It doesn't _have_ to be
+that slow. Note: this is not the case for integers. Why?-->
+
 ### P60 (**) Construct height-balanced binary trees with a given number of nodes.
 
+Simple solution: generate all height-balanced trees from height min to
+max, min being `$ln_2(x+1)$` <!--TODO: math symbol for rounding down in
+LaTeX-->, max being 
+
+0: 0
+1: 2
+2: 4
+3: 7 
+4: 12
+5: 20
+
 	minnodes::{:[x<1;0:|x=1;1;1+.f(x-1)+.f(x-2)]}
+
 <!--
 Seems to be the sum of the first `x` fibonacci numbers.
 
@@ -1997,6 +2066,7 @@ Seems to be the sum of the first `x` fibonacci numbers.
 Attempt, using the fibonacci number approach:
 TODO: currently incorrect.
 -->
+
 	maxheight::{[k];k::x;#1_{k>+/x}{(+/2#x),x}:~[1 0]}
 
 	d4::{:[x=0;0;1+_ln(x)%ln(2)]}
