@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-09-23, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-09-29, language: english, status: notes, importance: 5, confidence: log*
 
 > __Notes and ideas for texts that will be written decades in the future.__
 
@@ -11,7 +11,6 @@ TODO
 Site
 -----
 
-* Use unicode in every formula that doesn't need MathJax
 * Make more mobile-friendly
 * Add tooltips to links (Title of Text)
 * Find out how to make the site more inclusive
@@ -132,6 +131,7 @@ Texts
 * Infinite Fractal Meta Recursion
 * Preference Frustration Auctions
 * The Tyranny of the Mill
+* Moral progress as an EA cause area?
 
 ### Collections
 
@@ -159,6 +159,7 @@ Texts
 			* search for post that claims this
 	* Also, prostitution is quite expensive (calculate average amount of sex * average cost of visiting escort)
 		* This can be generalised to "Sex is expensive for most men"
+	* Some people might regard prostitution as immoral
 * A Good Social Life is not Enough
 * Sexuality is Bad, but Sex is Good
 	* https://incels.wiki/w/Scientific_Blackpill
@@ -177,10 +178,10 @@ Texts
 
 ### Misc
 
+* Project Ideas
 * Mistakes
 * Open Questions
 * Fundamentals
-* Project Ideas
 
 > we should be far more explicit about the assumed background against
 > which we intend to communicate.
@@ -199,8 +200,94 @@ Texts
 Music
 -----
 
+### Clarinet
+
 * Clarinet Concerto (Mozart)
+
+### Piano
+
 * The People United Will Never be Defeated (Rzewski)
+* Das Wohltemperirte Clavier
+* Beethoven Piano Sonatas
+* Schubert Impromptus
+* Chopin Nocturnes
+* Satie Gymnopédies/Gnosiemmes
+
+Programming
+-----------
+
+* cap
+	*	simple language for assembling different files into one. syntax very
+		sed/ed like, mostly like this: `[line,]line@file[<|^|>][line,]line[|comm]`
+		where line is a regex enclosed in '/' with an optional number suffix
+		or a line number, file is a filename and comm is a shell command in
+		single quotes. the text from each file is inserted into a buffer and
+		printed at the end of the cap script.
+* toc
+	*	time out cat, which prints its input unless there was no
+		input for more than argv[1] seconds (try different
+		versions, settle for the most exact version that is
+		not unbearably slow).
+* lvst
+	* print levensthein distances of strings
+	* option '-f' for the field separator
+	* can be used for fuzzy search
+	* usage:
+
+			$ lvst "test"
+			foo
+			3:test:foo
+			bar
+			4:test:bar
+
+### Klong Libraries
+
+* combin.kg
+	* combinatorics library for klong
+	* exponentiation
+	* tetration
+	* n-tation
+	* factorial
+	* binomial coefficient
+	* stirling numbers (1st/2nd kind)
+	* eulerian numbers (1st order, 2nd order)
+	* catalan numbers
+* date.kg
+	* date/time library for Klong: convert different date formats to another
+* utf8.kg
+	* unicode decoding/encoding library
+	* see how myrddin/lua/libutf/plan9 did it
+* linalg.kg
+	* linear algebra library for klong
+	* function for the determinant
+	* function for matrix inversion
+	* function for the calculation of eigenvalues and eigenbases
+	* function for the calculation of polynome division
+
+### Contributions
+
+* mupdf
+	* implement unicode search
+	* improve search overall, lacking
+	* why don't <Left> and <Right> work for next/prev page?
+* myrddin
+	* "and modern features with a high cost-benefit ratio"
+	* cost/benefit is high? Clarify
+* vis
+	* add C-a and C-e for beginning of line and end of line in insert mode
+	* add C-← and C-→ for jumping words in insert mode (equivalent of b and e)
+	* fix syntax highlighting for ocaml with single quotes: 'a takes the whole line
+	* Syntax highlighting of inline code in markdown is annoying (dark blue background!)
+* sad
+	* implement features that weren't finished
+	* care for it
+* toxcore
+	* maybe
+	* single/group
+	* chat/audio/video
+	* not much more, really
+* neo2
+	* port neo2 to plan9/9front/Haiku OS
 
 Archive
 -------

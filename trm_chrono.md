@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-07-13, modified: 2019-07-31, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-13, modified: 2019-09-29, language: english, status: in progress, importance: 5, confidence: log*
 
 > __The blog [The Real Movement](https://therealmovement.wordpress.com/)
 > deals with Marxism, more specifically with abolishing wage labor, the role
@@ -14,7 +14,7 @@ The Real Movement Posts Chronological Index
 Archives
 --------
 
-This index currently lists 642 posts from 2013-05-20 to 2019-07-10.
+This index currently lists 648 posts from 2013-05-20 to 2019-09-09.
 
 ### 2013
 
@@ -678,6 +678,12 @@ This index currently lists 642 posts from 2013-05-20 to 2019-07-10.
 * [MELTing the concept of socially necessary labor time](https://therealmovement.wordpress.com/2019/06/14/melting-the-concept-of-socially-necessary-labor-time/) (Jehu, June 14, 2019)
 * [The issue of who is African American is not as simple and straightforward as you think](https://therealmovement.wordpress.com/2019/07/09/the-issue-of-who-is-african-american-is-not-as-simple-and-straightforward-as-you-think/) (Jehu, July 9, 2019)
 * [Another Professor heard from…](https://therealmovement.wordpress.com/2019/07/10/another-professor-heard-from/) (Jehu, July 10, 2019)
+* [If anyone but Trump were president right now, this country would be losing its mind…](https://therealmovement.wordpress.com/2019/08/23/if-anyone-but-trump-were-president-this-country-would-be-losing-it-mind-right-now/) (Jehu, August 23, 2019)
+* [Trump has declared war on the Federal Reserve…](https://therealmovement.wordpress.com/2019/08/23/trump-has-declared-war-on-the-federal-reserve/) (Jehu, August 23, 2019)
+* [An interesting new mandate for the Fed…](https://therealmovement.wordpress.com/2019/08/27/an-interesting-new-mandate-for-the-fed/) (Jehu, August 27, 2019)
+* [How did Newton properly analyse the transcendence of gravity in 1666?](https://therealmovement.wordpress.com/2019/08/30/how-did-newton-properly-analyse-the-transcendence-of-gravity-in-1666/) (Jehu, August 30, 2019)
+* [Thinking about negative interest rates](https://therealmovement.wordpress.com/2019/09/07/thinking-about-negative-interest-rates/) (Jehu, September 7, 2019)
+* [This shit is what passes for economics today…](https://therealmovement.wordpress.com/2019/09/09/this-shit-is-what-passes-for-economics-today/) (Jehu, September 9, 2019)
 
 Code
 ----
