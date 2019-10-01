@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-09-29, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-10-01, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -1935,27 +1935,25 @@ For `#'s58'!39` it is:
 ### P59 (**) Construct height-balanced binary trees.
 
 `s59` is a simple recursive function that returns the empty tree as a base
-case (the height is equal to or smaller than 0). The recursive case first
+case (the height is smaller than 0). The recursive case first
 generates all trees with the heights `x-1` and `x-2` and then combines
 them using `d2` using `:x` as a root node. Because this creates a list
 of lists of trees, this is flattened once using concatenation and the
 Over adverb. Because this list contains duplicates, they are filtered out
 using `?` (which is functionally equivalent to the `uniq` unix command).
 
-	s59::{:[x<1;,[];?,/{d2(x;x),d2(y;x),d2(x;y)}:(s59(x-1);s59(x-2))]}
+	s59::{:[x<0;,[];?,/{d2(x;x),d2(y;x),d2(x;y)}:(s59(x-1);s59(x-2))]}
 	hbaltree::s59
 
 Testing:
 
 		hbaltree(0)
-	[[]]
-		hbaltree(1)
 	[[:x [] []]]
-		hbaltree(2)
+		hbaltree(1)
 	[[:x [:x [] []] [:x [] []]]
 	[:x [] [:x [] []]]
 	[:x [:x [] []] []]]
-		hbaltree(3)
+		hbaltree(2)
 	[[:x [:x [:x [] []] [:x [] []]] [:x [:x [] []] [:x [] []]]]
 	[:x [:x [] [:x [] []]] [:x [:x [] []] [:x [] []]]]
 	[:x [:x [:x [] []] []] [:x [:x [] []] [:x [] []]]]
@@ -1974,7 +1972,7 @@ Testing:
 		hbaltree(-1)
 	[[]]
 
-`hbaltree(3)` returns all height-balanced binary trees with height 3,
+`hbaltree(2)` returns all height-balanced binary trees with height 3,
 I checked.<!--TODO: add images for all the different trees returnet by
 `hbaltree(3)`?--> One could modify `hbaltree` to return an error message
 for negative parameters, but since this is an exercise and not production
@@ -1983,14 +1981,14 @@ code, this seems unnecessary here.
 One can now also find out how many heigh-balanced binary trees exist for
 a given height:
 
-		#'s59'!5
-	[1 1 3 15 315]
+		#'s59'!4
+	[1 3 15 315]
 
 Interestingly, `s59` seems to have abysmal runtimes:
 
-		{[a];a::x;time({s59(a)})}'!5
-	[0.000035 0.000045 0.00005 0.000138 0.035998]
-		time({s59(5)})
+		{[a];a::x;time({s59(a)})}'!4
+	[0.000022 0.000016 0.000044 0.008815]
+		time({s59(4)})
 		^C
 		:"terminated after more than 5 minutes of runtime"
 
@@ -2027,10 +2025,10 @@ seems to be Group, which is used in the code for Range:
 		else
 			n = group_string(x);
 
-No wonder Range is a bit overwhelmed with data, since `s59(5)` deals with
+No wonder Range is a bit overwhelmed with data, since `s59(4)` deals with
 around 100000 trees:
 
-		#,/{d2(x;x),d2(y;x),d2(x;y)}:(s59(4);s59(3))
+		#,/{d2(x;x),d2(y;x),d2(x;y)}:(s59(3);s59(2))
 	108675
 
 If Range takes around 2.1 seconds for 1000 elements, one can predict that
@@ -2045,20 +2043,57 @@ that slow. Note: this is not the case for integers. Why?-->
 
 ### P60 (**) Construct height-balanced binary trees with a given number of nodes.
 
-Simple solution: generate all height-balanced trees from height min to
-max, min being `$ln_2(x+1)$` <!--TODO: math symbol for rounding down in
-LaTeX-->, max being 
+Simple solution: generate all height-balanced trees from height
+`$min_{n}$` (the minimal height of trees with `$n$` nodes) to `$max_{n}$`
+(the maximal height of trees with `$n$` nodes) for the given number of
+nodes, then filter them for having the desired number of nodes.
 
-0: 0
+`$min_{n}$` is `$\lfloor ln_2(x) \rfloor$`, because
+
+<div>
+	$$x \ge 2^{min_{n}}-1\\
+	ln_2(x+1) \ge min_{n}$$
+</div>
+
+One can find the exact number by considering that for a number `$m=2^n-1$`
+(e.g `$3=2^2-1$`), the shortest tree has the height `$n-1$` (1), but for
+`$m=2^n$` (e.g `$4=2^2$`), the shortest tree with that many nodes has
+the height `$n$` (2). This is of course not a proof, only an illustration
+of the edge conditions in this problem.
+
+<!--
+`$max_{n}=fib_{n+3}^{-1}$`. Proof:
+
+1. Induction base: `$max_{0}=1=2-1=fib_{3}-1$`, `$max_{1}=2=3-1=fib_{4}-1$`.
+2. Induction assumption: `$max_{n}=fib_{n+3}-1$`
+3. Induction step: Since
+
+`$max_{n}=fib^{-1}_{n+3}-1$`
+
+0: 1
 1: 2
 2: 4
 3: 7 
 4: 12
 5: 20
 
-	minnodes::{:[x<1;0:|x=1;1;1+.f(x-1)+.f(x-2)]}
+0: 0
+1: 0
+2: 1
+3: 1
+4: 2
+5: 2
+6: 2
+7: 3
+
+	d4::{[a];a::x;{:[a<x;z;.f(1+x+y;x;z+1)]}@[2 1 0]}
+	d5::{:[x=0;0;_ln(x)%ln(2)]}
+	s60::{[a];a::x;flr({a=#s7(x)};,/s59's22(d5(x);d4(x)))}
+-->
 
 <!--
+	minnodes::{:[x<1;0:|x=1;1;1+.f(x-1)+.f(x-2)]}
+
 Seems to be the sum of the first `x` fibonacci numbers.
 
 	minnodes::{+/(x-1){(+/2#x),x}:*[1 0]}

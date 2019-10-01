@@ -1,0 +1,42 @@
+:"example: during as an approximative binomial test"
+:"variables: did show up to date?"
+:"H₀: p₀=0.05"
+:"α=0.01"
+
+.l("./load.kg")
+
+.l("nstat")
+.l("math")
+
+p0::0.1
+n::#during
+h::#during?6
+z::(h-n*p0)%sqr(n*p0*(1-p0))
+
+alpha::0.01
+
+.p("p₀=0.05 accepted:")
+.p((#z)<qf(1-alpha%2))
+
+:"example: two sample t-test"
+:"since n≥30, Student's t-distribution is approximated with a normal distribution"
+:"H₀: μ_{during}=μ_{after}"
+:"α=0.05"
+
+sduring::svar(during)
+safter::svar(after)
+mduring::mu(during)
+mafter::mu(after)
+
+m::#during
+n::#after
+
+alpha::0.05
+
+t::sqr((n+m-2)%(%m)+%n)*(mduring-mafter)%sqr(((m-1)*sduring)+(n-1)*safter)
+.p("μ_{during}=μ_{after} accepted:")
+.p((#t)<qf(1-alpha%2))
+.p("μ_{during}≥μ_{after} accepted:")
+.p(t>qf(alpha))
+.p("μ_{during}≤μ_{after} accepted:")
+.p(t<qf(1-alpha))
