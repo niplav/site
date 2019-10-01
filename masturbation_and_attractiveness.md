@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-09-28, language: english, status: notes, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-10-01, language: english, status: notes, importance: 4, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -335,7 +335,7 @@ you looked really nice. What is your name?
 
 The other person answered with their name, and I replied with
 
-> Nice to meet you, <name>. To make a long story short, I'd like to
+> Nice to meet you, <name\>. To make a long story short, I'd like to
 take you out on a date sometime. When are you free?
 
 In the week following the last approach, I masturbated once every day.
