@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-10-01, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-10-02, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -2068,7 +2068,7 @@ of the edge conditions in this problem.
 2. Induction assumption: `$max_{n}=fib_{n+3}-1$`
 3. Induction step: Since
 
-`$max_{n}=fib^{-1}_{n+3}-1$`
+`$max_{n}=fib^{-1}_{n+1}-3$`
 
 0: 1
 1: 2
@@ -2085,10 +2085,33 @@ of the edge conditions in this problem.
 5: 2
 6: 2
 7: 3
+8: 3
+9: 3
+10: 3
+11: 3
+12: 4
 
-	d4::{[a];a::x;{:[a<x;z;.f(1+x+y;x;z+1)]}@[2 1 0]}
-	d5::{:[x=0;0;_ln(x)%ln(2)]}
-	s60::{[a];a::x;flr({a=#s7(x)};,/s59's22(d5(x);d4(x)))}
+	fib::{*(x-1){(+/2#x),x}:*[1 0]}
+	gr::(1+sqr(5))%2
+	fibinv::{_ln(0.5+x*sqr(5))%ln(gr)}
+	fibinv::{_ln(0.5+x*sqr(5))%ln((1+sqr(5))%2)}
+	:"it holds that &/((fibinv'2+!1000)-3)=d5'1+!1000"
+
+	:"shifted"
+	fibinv::{_ln(4.972+x*2.236)%0.4812}
+	:"it holds that &/((fibinv'!1000)-3)=d5'1+!1000"
+	:"subtracted"
+	fibinv::{(_ln(4.972+x*2.236)%0.4812)-3}
+	:"it holds that &/(fibinv'!1000)=d5'1+!1000"
+
+	:"shifted back"
+	fibinv::{:[x=0;0;(_ln(2.736+x*2.236)%0.4812)-3]}
+	:"it holds that &/(fibinv'!1000)=d5'!1000"
+
+	d4::{:[x=0;0;_ln(x)%ln(2)]}
+	d5.1::{[a];a::x;{:[a<x;z;.f(1+x+y;x;z+1)]}@[2 1 0]}
+	d5.2::{:[x=0;0;(_ln(2.736+x*2.236)%0.4812)-3]}
+	s60::{[a];a::x;flr({a=#s7(x)};,/s59's22(d4(x);d5(x)))}
 -->
 
 <!--
