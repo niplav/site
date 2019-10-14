@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-06, modified: 2019-07-13, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-06, modified: 2019-10-03, language: english, status: in progress, importance: 5, confidence: log*
 
 > __A collection of contributions to other projects.__
 
@@ -29,3 +29,4 @@ Programming
 
 * Wrote a faster shuffling and primality check functions
 * Inspired a timing and process clock function
+* Fixed a bug in the implementation of correlation

@@ -138,32 +138,6 @@ Texts
 * Simple Unsolved Math Problems
 * Differences Between GNU and POSIX `make`
 
-### Blackpill
-
-* On Femcels
-	* Confusion of terminology: incel is "involuntary celibate", which focuses on sexuality
-		* Male incels lack both sexual as well as romantic success
-		* Femcels seem to mostly only lack romantic success ("insol": "involuntary solitude" (search for heartiste post))
-	* It generalizes back to caring about suffering
-		* It is possible that femcels suffer as much as incels do
-		* Both don't really get what they want
-	* More incels than femcels?
-* On "Just Be Yourself"
-* On "Just Get a Prostitute"
-	* Generally a good argument
-	* However, humans desire quite specific thing
-		* Example:
-			* "I can't breathe!"
-			* "Why not, air is like 75% nitrogen, and you have 100% nitrogen around you!"
-		* In this case, maybe both desire eros?
-			* search for post that claims this
-	* Also, prostitution is quite expensive (calculate average amount of sex * average cost of visiting escort)
-		* This can be generalised to "Sex is expensive for most men"
-	* Some people might regard prostitution as immoral
-* A Good Social Life is not Enough
-* Sexuality is Bad, but Sex is Good
-	* https://incels.wiki/w/Scientific_Blackpill
-
 ### Other
 
 * Coding Standards

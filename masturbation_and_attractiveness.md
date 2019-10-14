@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-10-01, language: english, status: notes, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-10-10, language: english, status: notes, importance: 4, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -323,12 +323,12 @@ of people as most of the NoFap community.
 
 Data was collected as follows:
 
-I abstained from masturbating from \_ to \_, resulting in >90 days of
-abstinence from masturbation (which is also the period [recommended by
-the NoFap community](https://nofap.com/rebooting/)): "NoFap’s gold
-standard of success is our 90-day reboot."). From \_ to \_, I went on
-the streets of a major european city and approached 100 men and 100 women
-(perceived gender) alternatingly with the words
+I abstained from masturbating from 2019-10-10T01:50 to \_, resulting
+in >90 days of abstinence from masturbation (which is also the period
+[recommended by the NoFap community](https://nofap.com/rebooting/)):
+"NoFap’s gold standard of success is our 90-day reboot."). From \_
+to \_, I went on the streets of a major european city and approached
+100 men and 100 women (perceived gender) alternatingly with the words
 
 > Hi, I know this is really spontaneous, but I just saw you and thought
 you looked really nice. What is your name?
