@@ -2061,6 +2061,19 @@ One can find the exact number by considering that for a number `$m=2^n-1$`
 the height `$n$` (2). This is of course not a proof, only an illustration
 of the edge conditions in this problem.
 
+For `$max_{n}$`, one first needs to introduce the inverse of the fibonacci
+series. One can think of the fibonacci series as an injective function
+`$f : \mathbb{N} \rightarrow \mathbb{N}$`. This means that a straightforward
+inverse `$fib^{-1}$` is not a function, because e.g. 10 would have no value to
+be mapped to. However, one can define a function that maps a number to the
+inverse of the next lower fibonacci number: the next fibonacci number below
+10 is 8, which is the 6th fibonacci number. This creates a function that is
+fit for the given purpose.
+
+Height-balanced trees have an intricate relation to the fibonacci numbers:
+In the worst case, a heigh-balanced binary tree of height `$h$` has
+`$fib_{h+3}+1$` nodes.
+
 <!--
 `$max_{n}=fib_{n+3}^{-1}$`. Proof:
 

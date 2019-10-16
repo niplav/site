@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-26, modified: 2019-09-24, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-09-26, modified: 2019-10-15, language: english, status: in progress, importance: 3, confidence: unlikely*
 
 > __People seem to derive happiness from compliments. Therefore,
 > altruistic consequentialists may be sometimes motivated to compliment
@@ -209,3 +209,16 @@ datapoints worth considering: was it taken as advice, which situation
 -->
 
 <!--TODO: personal experience with giving compliments to strangers-->
+
+A Simple Calculation
+--------------------
+
+Let's say that a compliment is worth \$0.50 to the average stranger,
+and it (conservatively) takes 1 minute to give the compliment. Let's
+say that the opportunity cost is \$10. This means that an hour of giving
+compliments is worth
+`$(\frac{\$0.50}{1\hbox{ compliment}}*\frac{1\hbox{ compliment}}{1\hbox{ min}}*60\hbox{ min})-\$10=$25`.
+On the other hand, \$0.50 is maybe too much for the value of a compliment.
+If one instead assumes it to be \$0.10, the value of one hour giving
+compliments to strangers is
+`$(\frac{\$0.10}{1\hbox{ compliment}}*\frac{1\hbox{ compliment}}{1\hbox{ min}}*60\hbox{ min})-\$10=$5`.

@@ -15,28 +15,126 @@ z::(h-n*p0)%sqr(n*p0*(1-p0))
 
 alpha::0.01
 
-.p("p₀=0.05 accepted:")
-.p((#z)<qf(1-alpha%2))
+:[(#z)<qf(1-alpha%2);.p("p₀=0.05 accepted");.p("p₀=0.05 rejected")]
 
 :"example: two sample t-test"
 :"since n≥30, Student's t-distribution is approximated with a normal distribution"
 :"H₀: μ_{during}=μ_{after}"
-:"α=0.05"
+:"test with both α≤0.05 and α≤0.01"
 
-sduring::svar(during)
-safter::svar(after)
-mduring::mu(during)
-mafter::mu(after)
+:"Two sample-set t-test"
+:"x=data1, y=data2, z=p-value"
 
-m::#during
-n::#after
+tstt::{t::sqr(((#y)+(#x)-2)%(%#x)+%#y)*(mu(x)-mu(y))%sqr((((#x)-1)*svar(x))+((#y)-1)*svar(y));
+:[(#t)>qf(1-z%2);.p("μ_X=μ_Y rejected (p≤",($z),")");.p("μ_X=μ_Y accepted (p≤",($z),")")];
+:[t<qf(z);.p("μ_X≥μ_Y rejected (p≤",($z),")");.p("μ_X≥μ_Y accepted (p≤",($z),")")];
+:[t>qf(1-z);.p("μ_X≤μ_Y rejected (p≤",($z),")");.p("μ_X≤μ_Y accepted (p≤",($z),")")]}
 
-alpha::0.05
+.p("
+X=during, Y=after
+")
 
-t::sqr((n+m-2)%(%m)+%n)*(mduring-mafter)%sqr(((m-1)*sduring)+(n-1)*safter)
-.p("μ_{during}=μ_{after} accepted:")
-.p((#t)<qf(1-alpha%2))
-.p("μ_{during}≥μ_{after} accepted:")
-.p(t>qf(alpha))
-.p("μ_{during}≤μ_{after} accepted:")
-.p(t<qf(1-alpha))
+tstt(during;after;0.05)
+tstt(during;after;0.01)
+
+.p("
+X=duringf, Y=afterf
+")
+
+tstt(duringf;afterf;0.05)
+tstt(duringf;afterf;0.01)
+
+
+.p("
+X=duringm, Y=afterm
+")
+
+tstt(duringm;afterm;0.05)
+tstt(duringm;afterm;0.01)
+
+:"I'm not sure whether these actually have any meaning: TODO: think about"
+:"whether the losses in previous stages lead to misleading values here"
+
+.p("
+X=duringf.ignored, Y=afterf.ignored
+")
+
+tstt(duringf.ignored;afterf.ignored;0.05)
+tstt(duringf.ignored;afterf.ignored;0.01)
+
+.p("
+X=duringf.stopped, Y=afterf.stopped
+")
+
+tstt(duringf.stopped;afterf.stopped;0.05)
+tstt(duringf.stopped;afterf.stopped;0.01)
+
+.p("
+X=duringf.name, Y=afterf.name
+")
+
+tstt(duringf.name;afterf.name;0.05)
+tstt(duringf.name;afterf.name;0.01)
+
+.p("
+X=duringf.rejection, Y=afterf.rejection
+")
+
+tstt(duringf.rejection;afterf.rejection;0.05)
+tstt(duringf.rejection;afterf.rejection;0.01)
+
+.p("
+X=duringf.flake, Y=afterf.flake
+")
+
+tstt(duringf.flake;afterf.flake;0.05)
+tstt(duringf.flake;afterf.flake;0.01)
+
+.p("
+X=duringf.date, Y=afterf.date
+")
+
+tstt(duringf.date;afterf.date;0.05)
+tstt(duringf.date;afterf.date;0.01)
+
+.p("
+X=duringm.ignored, Y=afterm.ignored
+")
+
+tstt(duringm.ignored;afterm.ignored;0.05)
+tstt(duringm.ignored;afterm.ignored;0.01)
+
+.p("
+X=duringm.stopped, Y=afterm.stopped
+")
+
+tstt(duringm.stopped;afterm.stopped;0.05)
+tstt(duringm.stopped;afterm.stopped;0.01)
+
+.p("
+X=duringm.name, Y=afterm.name
+")
+
+tstt(duringm.name;afterm.name;0.05)
+tstt(duringm.name;afterm.name;0.01)
+
+.p("
+X=duringm.rejection, Y=afterm.rejection
+")
+
+tstt(duringm.rejection;afterm.rejection;0.05)
+tstt(duringm.rejection;afterm.rejection;0.01)
+
+.p("
+X=duringm.flake, Y=afterm.flake
+")
+
+tstt(duringm.flake;afterm.flake;0.05)
+tstt(duringm.flake;afterm.flake;0.01)
+
+.p("
+X=duringm.date, Y=afterm.date
+")
+
+tstt(duringm.date;afterm.date;0.05)
+tstt(duringm.date;afterm.date;0.01)

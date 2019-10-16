@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-23, modified: 2019-08-26, language: english, german, status: in progress, importance: 1, confidence: fiction*
+*author: niplav, created: 2019-08-23, modified: 2019-10-15, language: english, german, status: in progress, importance: 1, confidence: fiction*
 
 > __Haikus that seemed okay enough to write down.__
 
@@ -23,3 +23,7 @@ English
 In the CPU  
 Peace. But the tranquility  
 is interrupted.
+
+Autumn, slashing when  
+The eternal emerald  
+Sadly decomposed  
