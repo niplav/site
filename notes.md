@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-09-26, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2019-10-15, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -294,8 +294,10 @@ These are not very good suggestions, and should be read tongue-in-cheek.
 
 ### "Value Drift"
 
-Most people understand an opposition "value drift" as a rejection of moral
-development, and it's not clear where the difference between the two lies.
+Most people understand an opposition "value drift" as a rejection of
+moral development, and it's not clear where the difference between the
+two lies.  Perhaps there are different kinds of such drifts: "value
+drift", "motivation drift", "discipline drift" etc.
 
 Alternatives:
 
@@ -314,6 +316,11 @@ and goal-oriented activity, unlike most (if not all) art.
 Alternatives:
 
 * "Pick-Up"
+
+<!--
+Daygame Cost-Benefit Calculation
+--------------------------------
+-->
 
 <!--
 TODO: finish this some time
