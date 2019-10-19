@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-06, modified: 2019-10-03, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-06, modified: 2019-10-18, language: english, status: in progress, importance: 5, confidence: log*
 
 > __A collection of contributions to other projects.__
 
@@ -18,6 +18,15 @@ Texts
 Fixed a typo where in the section "Transhumanism" of the pdf version,
 the text "Transhumanists recognize the importance of thinking about the
 future ahead of time." was repeated.
+
+### “Ordinary Life Improvements”
+
+[Gwern 2019](https://www.gwern.net/Notes#Ordinary-Life-Improvements)<!--TODO: check link-->
+
+In the section "Ordinary Life Improvements" the first sentence read
+"[It can be hard to see the gradual improvement of most goods over
+time]{,smallcaps}, but I think one way to get a handle on them is to
+look". The comma before "smallcaps" was misplaced.
 
 Programming
 -----------

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-09-09, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-10-18, language: english, status: in progress, importance: 2, confidence: log*
 
 > __[Rationalists](https://en.wikipedia.org/wiki/LessWrong) and the
 > [neoreactionary movement](https://en.wikipedia.org/wiki/Dark_Enlightenment)
@@ -30,7 +30,7 @@ Overview
 Alternative views:
 
 * [Meditating on Moloch's Pantheon](https://old.reddit.com/r/LessWrongLounge/comments/2cjg1h/meditating_on_molochs_pantheon/)
-* [Metaphors wo believe by: the pantheon of 2019](https://aaronzlewis.com/blog/2019/07/25/metaphors-we-believe-by/)
+* [Metaphors we believe by: the pantheon of 2019](https://aaronzlewis.com/blog/2019/07/25/metaphors-we-believe-by/)
 
 Azathoth
 --------

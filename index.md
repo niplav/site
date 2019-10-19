@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "Sol Plav")
 
-*author: niplav, created: 2019-03-20, modified: 2019-09-23, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2019-10-18, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -32,6 +32,7 @@ Writing
 	* [Rationalist Gods](./rationalist_gods.md)
 * Analyses
 	* [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
+	* [Considerations on Cryonics](./considerations_on_cryonics.md)
 	<!--* [Masturbation and Attractiveness](./masturbation_and_attractiveness.md)-->
 * Arguments
 	* [Against Applause After Classical Concerts](./against_applause.md)
@@ -44,11 +45,9 @@ Writing
 * [Buch Stab](./buch_stab.md)
 * [Platte](./platte.md)
 
-<!--### Poetry
+### Poetry
 
 * [Haikus](./haiku.md)
-
--->
 
 Translations
 ------------

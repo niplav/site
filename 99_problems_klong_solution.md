@@ -2071,8 +2071,14 @@ inverse of the next lower fibonacci number: the next fibonacci number below
 fit for the given purpose.
 
 Height-balanced trees have an intricate relation to the fibonacci numbers:
-In the worst case, a heigh-balanced binary tree of height `$h$` has
-`$fib_{h+3}+1$` nodes.
+In the best case, a heigh-balanced binary tree of height `$h$` has
+at least `$fib_{h+3}+1$` nodes. Proof:
+
+1.	Induction base: For height 0, the tree with the smallest amount
+	of nodes has 1 node (a single, unconnected node). For height 1, the
+	heigh-balanced tree with the smallest amount of nodes has 2 nodes (2
+	connected nodes).
+2. Induction assumption: `$minnodes_{h}=fib_{h+3}+1$`.
 
 <!--
 `$max_{n}=fib_{n+3}^{-1}$`. Proof:
@@ -2103,6 +2109,8 @@ In the worst case, a heigh-balanced binary tree of height `$h$` has
 10: 3
 11: 3
 12: 4
+
+[Source for Fibonacci inverse](https://stackoverflow.com/a/5162856)
 
 	fib::{*(x-1){(+/2#x),x}:*[1 0]}
 	gr::(1+sqr(5))%2

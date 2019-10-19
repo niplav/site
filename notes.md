@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-10-15, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2019-10-18, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -317,35 +317,12 @@ Alternatives:
 
 * "Pick-Up"
 
-<!--
-Daygame Cost-Benefit Calculation
---------------------------------
--->
-
-<!--
-TODO: finish this some time
-
 Considerations on Cryonics
 --------------------------
 
-### Value of a Lifeyear in the Future
+Moved to a [separate page](./considerations_on_cryonics.md).
 
-Much ink and pixels have been spilled on the question of the quality
-of the future, very little of it trying to make accurate predictions.
-One way to look at the question could be to create clear criteria that
-encapsulate the most important human values and ask a prediction market
-to start betting. This could include the power of humanity to make most
-important decisions regarding its development and resource management,
-diversity among human beings, average happiness and lifespans and other
-variables such as inequality regarding resources.
-
-1. Most future scenarios seem merely "alien", not really positive/negative
-2. Most negative future scenarios don't lead to reuscitation (civilisational collapse, stable totalitarianism, existential catastrophes like AI failure, nuclear war, biotechnological disaster, natural catastrophe). Exceptions:
-	*	ascended economy where the cryonics contract is fulfilled by the
-		economy, but the resulting world has few/no humans & living
-		conditions are insanity-inducingly boring
-	* malevolent AI, either through acausal trade or because of sign error in CEV
-3.	There are some people working on long-term positive outcomes, and
-	most people work on long-term neutral projects, but no or very
-	few people working on long-term hellish conditions
+<!--
+Daygame Cost-Benefit Calculation
+--------------------------------
 -->

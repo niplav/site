@@ -17,6 +17,7 @@ HTML=index.html \
 	against_applause.html \
 	better_mathematical_notation.html \
 	buch_stab.html \
+	considerations_on_cryonics.html \
 	circle_combinations.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \

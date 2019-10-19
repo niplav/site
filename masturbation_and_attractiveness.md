@@ -323,9 +323,9 @@ of people as most of the NoFap community.
 
 Data was collected as follows:
 
-I abstained from masturbating from 2019-10-16T02:15 to \_, resulting
+I abstained from masturbating from 2019-10-17T03:30 to \_, resulting
 in >90 days of abstinence from masturbation (which is also the period
-[recommended by the NoFap community](https://nofap.com/rebooting/)):
+[recommended by the NoFap community](https://nofap.com/rebooting/):
 "NoFap’s gold standard of success is our 90-day reboot."). From \_
 to \_, I went on the streets of a major european city and approached
 100 men and 100 women (perceived gender) alternatingly with the words
