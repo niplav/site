@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-23, modified: 2019-10-15, language: english, german, status: in progress, importance: 1, confidence: fiction*
+*author: niplav, created: 2019-08-23, modified: 2019-10-18, language: english, german, status: in progress, importance: 1, confidence: fiction*
 
 > __Haikus that seemed okay enough to write down.__
 
@@ -27,3 +27,8 @@ is interrupted.
 Autumn, slashing when  
 The eternal emerald  
 Sadly decomposed  
+
+<!--TODO (?): link to Wikipedia page about backwards analysis-->
+Backward analyzed  
+This computation sufficed  
+But data? Perturbed  

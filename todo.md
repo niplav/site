@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-09-29, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-10-18, language: english, status: notes, importance: 5, confidence: log*
 
 > __Notes and ideas for texts that will be written decades in the future.__
 
@@ -35,7 +35,7 @@ Texts
 	* Most systems reimplement unix ("Those who don't understand unix are doomed to reimplement it, poorly.")
 * Libertarianism is too Simple
 	*	Libertarianism is a very simple method of organising society,
-		so it must have happened in the history of societies. However,
+		so it must have been tried in the history of societies. However,
 		none of those societies have survived, which makes it an
 		unsuccessful way of structuring societies
 	* Counter-argument: Humans are consistently biased against liberty
@@ -214,6 +214,30 @@ Programming
 			bar
 			4:test:bar
 
+* cy
+	* A very simple version control system, written in rc. inspiration from put and get, from "the unix programming environment".
+	* supports 3 operations
+		* init (initialize a repository)
+		* put (make a commit)
+		* get (go back to a certain commit)
+	* tracks changes within files and deletion/creation of files
+	* reason: git/hg are good, but way too huge for private, simple, linear, personal repositories.
+	* inspiration: svn/rvn/eie<!--TODO: links for these-->
+* fle
+	* suckless pager
+	* commands
+		* [f]orwards
+		* [b]ackwards
+		* [u]p
+		* [d]own
+		* [j] (line up)
+		* [k] (line down)
+		* [g] (first line)
+		* [G] (last line)
+		* [/] for searching
+		* [n]ext and [p]revious match
+	* support for arbitrary length files, loading lazily, unicode is displayed properly, big lines are dealt with properly.
+
 ### Klong Libraries
 
 * combin.kg
@@ -236,16 +260,16 @@ Programming
 	* function for the determinant
 	* function for matrix inversion
 	* function for the calculation of eigenvalues and eigenbases
-	* function for the calculation of polynome division
+	* function for the calculation of polynomial division
 
 ### Contributions
 
 * mupdf
 	* implement unicode search
 	* improve search overall, lacking
-	* why don't <Left> and <Right> work for next/prev page?
+	* why don't *Left* and *Right* work for next/prev page?
 * myrddin
-	* "and modern features with a high cost-benefit ratio"
+	* documentation: "and modern features with a high cost-benefit ratio"
 	* cost/benefit is high? Clarify
 * vis
 	* add C-a and C-e for beginning of line and end of line in insert mode
