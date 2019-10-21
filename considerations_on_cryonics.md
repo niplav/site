@@ -1,9 +1,12 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2019-10-18, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2019-10-20, language: english, status: in progress, importance: 4, confidence: remote*
 
-> __.__
+> __Many people cryocrastinate<!--TODO: link to the explanation of the
+> word-->. Are they rational in doing so? Also some thoughts about some
+> arguments against cryonics, and a presentation of a model whether to
+> sign up for it.__
 
 Considerations on Cryonics
 ==========================
@@ -107,7 +110,7 @@ signing up for cryonics.
 
 	decay=0.95
 	function prob_signup(age)
-	        return decay^(age-curage)
+		return decay^(age-curage)
 	end
 
 Interestingly, this does not mean that the decision of whether to be
@@ -123,22 +126,78 @@ paid membership fees and the acquired life insurance.
 
 ### Dying Before Signing Up
 
-Mortality rates are often calculated using a so-called Gompertz
-distribution<!--TODO: link-->.
+If you die before signing up, all possible value (or disvalue) of cryonics
+gets lost. So we want to calculate the probability of dying before having
+a certain age given being currently `curage` years old.
+
+Mortality rates are often calculated using a
+so-called Gompertz distribution<!--TODO: link-->. I
+have determined the b and eta values by eyeballing [Wolfram
+Alpha](https://www.wolframalpha.com/input/?i=life+expectancy+of+a+0+year+old+german)
+using a calculator in [Tomasik
+2016](https://reducing-suffering.org/estimating-aggregate-wild-animal-suffering-from-reproductive-age-and-births-per-female/#Choosing_a_distribution
+"Estimating Aggregate Wild-Animal Suffering from Reproductive Age and
+Births per Female")<!--TODO: find out which exact values statisticians
+use, then use them-->.
 
 	b=0.108
 	eta=0.0001
 
 	function gompertz(age)
-	        return math.exp(-eta*(math.exp(b*age)-1))
+		return math.exp(-eta*(math.exp(b*age)-1))
 	end
+
+`gompertz` returns the probability of reaching `age` given that one is
+already `curage` years old.
+With Bayes theorem<!--TODO: link--> one can calculate that
+
+<div>
+	$$Pr[X \ge age|X \ge curage]\\
+	=\frac{Pr[X \ge curage \cap X \ge age]}{Pr[X \ge curage]}\\
+	=\frac{Pr[X \ge age]}{Pr[X \ge curage]}$$
+</div>
+
+`$Pr[X \ge curage \cap X \ge age]$` is equal to `$Pr[X \ge age]$` because
+being older than `age` is (in this calculation) a subset of being older
+`curage`, and `$A \subset B \Rightarrow A \cap B=A$`. Some precautions
+have to apply in the case that the probabilities of reaching `age` is
+not independent of the probability of reaching `curage`, but those are
+difficult to estimate and will not be implemented here.
+This way, one can implement the probability of living until `age` given
+`curage` the following way:
 
 	function prob_liveto(age)
-	        return gompertz(age)/gompertz(curage)
+		return gompertz(age)/gompertz(curage)
 	end
 
-Value of a Lifeyear in the Future
----------------------------------
+Calculating the Cost
+--------------------
+
+Calculating the cost is comparatively straightforward, but there are
+some hidden variables (like opportunity costs and social costs) that
+have to be considered (not all of these are considered in this text).
+
+The raw cost for cryonics depends heavily on the organisation
+choosen for preservation, the basic price range is from ~$20000
+to ~$250000<!--TODO: Sources for these, maybe more exact numbers
+for different organisations.-->. In this case, I chose the costs for
+neurocryopreservation at Alcor, though this analysis should be extended
+to other organisations.
+
+Raw cryonics cost can be split into two different parts: membership fees
+and the cost for life insurance.
+
+### Membership Fees
+
+Membership fees for Alcor are calculated using the age of the member
+and the length of their membership.
+
+### Insurance Costs
+
+Calculating the Benefit
+-----------------------
+
+### Value of a Lifeyear in the Future
 
 Much ink and pixels have been spilled on the question of the quality
 of the future, very little of it trying to make accurate predictions.
