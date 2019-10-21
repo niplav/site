@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-10-02, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-10-20, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -2048,11 +2048,11 @@ Simple solution: generate all height-balanced trees from height
 (the maximal height of trees with `$n$` nodes) for the given number of
 nodes, then filter them for having the desired number of nodes.
 
-`$min_{n}$` is `$\lfloor ln_2(x) \rfloor$`, because
+`$min_{n}$` is `$\lfloor \ln_2(x) \rfloor$`, because
 
 <div>
 	$$x \ge 2^{min_{n}}-1\\
-	ln_2(x+1) \ge min_{n}$$
+	\ln_2(x+1) \ge min_{n}$$
 </div>
 
 One can find the exact number by considering that for a number `$m=2^n-1$`
@@ -2072,49 +2072,81 @@ fit for the given purpose.
 
 Height-balanced trees have an intricate relation to the fibonacci numbers:
 In the best case, a heigh-balanced binary tree of height `$h$` has
-at least `$fib_{h+3}+1$` nodes. Proof:
+at least `$fib_{h+3}-1$` nodes. Proof:
 
 1.	Induction base: For height 0, the tree with the smallest amount
 	of nodes has 1 node (a single, unconnected node). For height 1, the
 	heigh-balanced tree with the smallest amount of nodes has 2 nodes (2
 	connected nodes).
-2. Induction assumption: `$minnodes_{h}=fib_{h+3}+1$`.
+2. Induction assumption: `$minnodes_{h}=fib_{h+3}-1$`.
+3.	Induction step: The height-balanced tree with height `$h+1$`
+	with the minimal number of nodes can be constructed using
+	the tree with height `$h$` and the tree with height `$h-1$`
+	and combining them using another node as a root. This way,
+	`$minnodes_{h+1}=minnodes_{h}+minnodes_{h-1}+1=fib_{h+3}-1+fib_{h+2}-1+1=fib_{h+4}-1$`.
 
-<!--
-`$max_{n}=fib_{n+3}^{-1}$`. Proof:
+To find out how high the maximum height of a height-balanced binary tree
+with `$n$` nodes, one can simply take the inverse of that. This way,
+`$max_{n}=fib^{-1}_{n+1}-3$`.
 
-1. Induction base: `$max_{0}=1=2-1=fib_{3}-1$`, `$max_{1}=2=3-1=fib_{4}-1$`.
-2. Induction assumption: `$max_{n}=fib_{n+3}-1$`
-3. Induction step: Since
+To implement this, one needs a
+[formula](https://stackoverflow.com/a/5162856) for the inverse of the
+Fibonacci numbers:
 
-`$max_{n}=fib^{-1}_{n+1}-3$`
+<div>
+	$$fib^{-1}(n)=\lfloor \frac{\frac{1}{2}+n*\sqrt{5}}{\ln{\phi}} \rfloor$$
+</div>
 
-0: 1
-1: 2
-2: 4
-3: 7 
-4: 12
-5: 20
+To implement it, one now needs only the value of the golden ratio,
+which is<!--TODO: source--> `$\phi=\frac{1+\sqrt{5}}{2}$`.
 
-0: 0
-1: 0
-2: 1
-3: 1
-4: 2
-5: 2
-6: 2
-7: 3
-8: 3
-9: 3
-10: 3
-11: 3
-12: 4
+This way,
 
-[Source for Fibonacci inverse](https://stackoverflow.com/a/5162856)
-
-	fib::{*(x-1){(+/2#x),x}:*[1 0]}
 	gr::(1+sqr(5))%2
 	fibinv::{_ln(0.5+x*sqr(5))%ln(gr)}
+
+For testing purposes, one can now also define `fib`:
+
+	fib::{*(x-1){(+/2#x),x}:*[1 0]}
+
+Tests:
+
+		fib'1+!10
+	[1 1 2 3 5 8 13 21 34 55]
+		fibinv(10)
+	6
+		fibinv(1)
+	2
+		fibinv(20)
+	7
+		fibinv(21)
+	8
+		fibinv'!50
+	[-2 2 3 4 4 5 5 5 6 6 6 6 6 7 7 7 7 7 7 7 7 8 8 8 8 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9]
+
+Apparently, fibinv returns `-2` for 0.<!--TODO: This might pose a problem later?-->
+
+Implementing `$max_{n}$` is implementing
+
+<div>
+	$$max_{n}\\
+	=fib^{-1}(n+1)-3\\
+	=\lfloor \frac{\ln(\frac{1}{2}+(n+1)*\sqrt{5})}{\ln{\phi}} \rfloor-3\\
+	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)}{\ln{\phi}} \rfloor-3\\
+	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)}{\ln{\phi}}-3 \rfloor\\
+	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)}{\ln{\phi}}-\frac{3*\ln{\phi}}{\ln{\phi}} \rfloor\\
+	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)}{\ln{\phi}}-\frac{3*\ln{\phi}}{\ln{\phi}} \rfloor\\
+	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)-ln(e^{3*\ln{\phi}})}{\ln{\phi}} \rfloor\\
+	=\lfloor \frac{\ln(\frac{\frac{1}{2}+\sqrt{5}+\sqrt{5}*n}{e^{3*\ln{\phi}}})}{\ln{\phi}} \rfloor\\
+	\approx \lfloor \frac{\ln(0.6459+0.5279*n)}{0.4812} \rfloor$$
+</div>
+
+This way, `$max_{n}$` can be implemented the following way:
+
+	d5.1::{:[x=0;0;_ln(0.6459+x*0.5279)%0.4812]}
+
+<!--
+	fib::{*(x-1){(+/2#x),x}:*[1 0]}
 	fibinv::{_ln(0.5+x*sqr(5))%ln((1+sqr(5))%2)}
 	:"it holds that &/((fibinv'2+!1000)-3)=d5'1+!1000"
 

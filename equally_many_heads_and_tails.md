@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-08, modified: 2019-09-08, language: english, status: finished, importance: 4, confidence: highly likely*
+*author: niplav, created: 2019-02-08, modified: 2019-10-20, language: english, status: finished, importance: 4, confidence: highly likely*
 
 > __Imagine getting up every morning and throwing a coin so often that
 > heads and tails have come up an equal amount of times. How often
@@ -129,7 +129,7 @@ one appends `H;H` or `H;T` or `T;H` or `T;T` to the remaining number of
 sequences. So let oₙ be
 
 <div>
-	$$o_{1}=4
+	$$o_{1}=4\\
 	o_{n}=4*(o_{n-1}-f_{n-1})$$
 </div>
 
@@ -145,7 +145,7 @@ that `$o_{n}=2*n*f_{n}$`.
 Induction basis:
 
 <div>
-	$$o_{1}=2*1*f_{1}
+	$$o_{1}=2*1*f_{1}\\
 	4=2*1*2$$
 </div>
 
@@ -190,7 +190,7 @@ happened if we arrived at the last step and did not finish there. We
 define `$r_{n}$` recursively:
 
 <div>
-	$$r_{0}=1
+	$$r_{0}=1\\
 	r_{n}=r_{n-1}-\frac{1}{2*(n-1)}*r_{n-1}$$
 </div>
 
