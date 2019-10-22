@@ -2061,6 +2061,10 @@ One can find the exact number by considering that for a number `$m=2^n-1$`
 the height `$n$` (2). This is of course not a proof, only an illustration
 of the edge conditions in this problem.
 
+`$min_{n}$` therefore is
+
+	d4::{:[x=0;0;_ln(x)%ln(2)]}
+
 For `$max_{n}$`, one first needs to introduce the inverse of the fibonacci
 series. One can think of the fibonacci series as an injective function
 `$f : \mathbb{N} \rightarrow \mathbb{N}$`. This means that a straightforward
@@ -2094,7 +2098,7 @@ To implement this, one needs a
 Fibonacci numbers:
 
 <div>
-	$$fib^{-1}(n)=\lfloor \frac{\frac{1}{2}+n*\sqrt{5}}{\ln{\phi}} \rfloor$$
+	$$fib^{-1}(n)=\lfloor \frac{\frac{1}{2}+n*\sqrt{5}}{\ln(\phi)} \rfloor$$
 </div>
 
 To implement it, one now needs only the value of the golden ratio,
@@ -2131,19 +2135,19 @@ Implementing `$max_{n}$` is implementing
 <div>
 	$$max_{n}\\
 	=fib^{-1}(n+1)-3\\
-	=\lfloor \frac{\ln(\frac{1}{2}+(n+1)*\sqrt{5})}{\ln{\phi}} \rfloor-3\\
-	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)}{\ln{\phi}} \rfloor-3\\
-	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)}{\ln{\phi}}-3 \rfloor\\
-	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)}{\ln{\phi}}-\frac{3*\ln{\phi}}{\ln{\phi}} \rfloor\\
-	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)}{\ln{\phi}}-\frac{3*\ln{\phi}}{\ln{\phi}} \rfloor\\
-	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)-ln(e^{3*\ln{\phi}})}{\ln{\phi}} \rfloor\\
-	=\lfloor \frac{\ln(\frac{\frac{1}{2}+\sqrt{5}+\sqrt{5}*n}{e^{3*\ln{\phi}}})}{\ln{\phi}} \rfloor\\
+	=\lfloor \frac{\ln(\frac{1}{2}+(n+1)*\sqrt{5})}{\ln(\phi)} \rfloor-3\\
+	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)}{\ln(\phi)} \rfloor-3\\
+	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)}{\ln(\phi)}-3 \rfloor\\
+	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)}{\ln(\phi)}-\frac{3*\ln(\phi)}{\ln(\phi)} \rfloor\\
+	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)}{\ln(\phi)}-\frac{3*\ln(\phi)}{\ln(\phi)} \rfloor\\
+	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)-ln(e^{3*\ln(\phi)})}{\ln(\phi)} \rfloor\\
+	=\lfloor \frac{\ln(\frac{\frac{1}{2}+\sqrt{5}+\sqrt{5}*n}{e^{3*\ln(\phi)}})}{\ln(\phi)} \rfloor\\
 	\approx \lfloor \frac{\ln(0.6459+0.5279*n)}{0.4812} \rfloor$$
 </div>
 
 This way, `$max_{n}$` can be implemented the following way:
 
-	d5.1::{:[x=0;0;_ln(0.6459+x*0.5279)%0.4812]}
+	d5::{:[x=0;0;_ln(0.6459+x*0.5279)%0.4812]}
 
 <!--
 	fib::{*(x-1){(+/2#x),x}:*[1 0]}

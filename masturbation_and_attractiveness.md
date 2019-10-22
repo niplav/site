@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-10-10, language: english, status: notes, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-10-21, language: english, status: notes, importance: 4, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -20,7 +20,7 @@ Abstract
 
 Members of the NoFap community frequently claim that male physical
 attractiveness is causally influenced by the frequency and duration
-since last occurence of masturbation.
+since the last occurence of masturbation.
 
 I present a method to test this claim (albeit imperfectly) by approaching
 200 people in the street after 90 days of abstinence from masturbation and
@@ -41,7 +41,8 @@ tampering with the content of the article, because reddit titles [can't be
 changed](https://old.reddit.com/wiki/faq#wiki_i_made_a_mistake_in_my_submission_title.2C_how_can_i_edit_it.3F)
 by users of reddit.
 
-The pre-registered hypothesis thus shall be H₀:
+The pre-registered hypothesis shall thus be: Let `$μ_{during}$` be the expected
+value of
 
 	There is no statistically significant difference in success
 	from cold approach before and and long term abstinence from
@@ -60,7 +61,11 @@ since it has apparently been selected for by natural and/or sexual
 selection. <!--TODO: search for examples of animal species masturbating,
 as well as the reasoning about the evolutionary reasons for masturbation:
 https://en.wikipedia.org/wiki/Non-reproductive_sexual_behavior_in_animals#Autoeroticism_or_masturbation,
-https://en.wikipedia.org/wiki/Masturbation#Evolutionary_utility-->
+https://en.wikipedia.org/wiki/Masturbation#Evolutionary_utility--> This
+reasoning is imperfect, because it may very well be that masturbation is
+an adaption that was useful in environments with low numbers of people,
+but is not very adaptive in industrialized, anonymous and big societies
+where not reproduction, but sex is the most important consideration.
 
 Existing Literature
 -------------------
@@ -323,7 +328,7 @@ of people as most of the NoFap community.
 
 Data was collected as follows:
 
-I abstained from masturbating from 2019-10-17T03:30 to \_, resulting
+I abstained from masturbating from 2019-10-21T00:45 to \_, resulting
 in >90 days of abstinence from masturbation (which is also the period
 [recommended by the NoFap community](https://nofap.com/rebooting/):
 "NoFap’s gold standard of success is our 90-day reboot."). From \_

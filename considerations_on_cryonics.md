@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2019-10-20, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2019-10-21, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Many people cryocrastinate<!--TODO: link to the explanation of the
 > word-->. Are they rational in doing so? Also some thoughts about some
@@ -11,14 +11,14 @@
 Considerations on Cryonics
 ==========================
 
-Many would-be cryonicists cryocrastinate <!--TODO: link for the use of
+Many would-be cryonicists cryocrastinate<!--TODO: link for the use of
 the word-->, i.e they put off signing up for cryonics until a later point
 in their life. This has often been explained by the fact that signing up
 for cryonics requires high conscientiousness<!--TODO: source for this-->
 and can be easily put off to another point in life. However, it hasn't
-yet been explored whether this procrastination might not be rational:
-Many cryonics organisations have high membership fees, which might be
-avoided by waiting.
+yet been explored whether this procrastination might be rational: Many
+cryonics organisations have high membership fees, which might be avoided
+by waiting.
 
 To find this out, I present a point-estimate model of whether (and if yes,
 when) to sign up for cryonics. The model is written in Lua.<!--TODO: link-->
@@ -184,23 +184,181 @@ for different organisations.-->. In this case, I chose the costs for
 neurocryopreservation at Alcor, though this analysis should be extended
 to other organisations.
 
-Raw cryonics cost can be split into two different parts: membership fees
-and the cost for life insurance.
+Raw cryonics cost can be split into three different parts:
+membership fees, comprehensive member standby costs and the cost for
+cryopreservation.
+
+	function cost(age)
+		return membership_fees(age)+pres_cost(age)+cms_fees(age)
+	end
 
 ### Membership Fees
 
 Membership fees for Alcor are calculated using the age of the member
 and the length of their membership.
 
-### Insurance Costs
+#### Direct Fees
+
+> Current Membership Dues, net of applicable discounts, are:  
+1. First family member: \$525 annually or \$267 semi-annually or \$134 quarterly.  
+2. Each additional family member aged 18 and over, and full-time students aged 25 and under: \$310 annually or \$156 semi-annually or \$78 quarterly.  
+3. Each minor family member under age 18 for the first two children (no membership dues are required for any additional minor children): \$80 annually or \$40 semi-annually or \$20 quarterly  
+4. Full-time student aged 26 to 30: \$460 annually or \$230 semi-annually or \$115 quarterly.  
+5. Long-term member (total membership of 20 - 24 years): \$430 annually or \$216 semi-annually or \$108 quarterly.  
+6. Long-term member (total membership of 25 - 29 years): \$368 annually or \$186 semi-annually or \$93 quarterly.  
+7. Long-term member (total membership of 30 years or longer): \$305 annually or \$154 semi-annually or \$77 quarterly.  
+8. Long-term member (total membership of 40 years or longer): \$60.00 annually or \$30.00 semi-annually or \$15.00 quarterly
+
+*– [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
+
+The following assumptions will be made in the implementation:
+
+1. The person considering signing up for cryonics is over 18 years old.
+2.	If the person is under 25 years old, they are a
+	student. Considering the fact that cryonics members seem to
+	be more likely to be rich and educated, this seems likely,
+	though maybe a bit classist. The code can be changed if personal
+	need arises.
+3. If the person is over 25 years old, they are not a student.
+4. The person stays a member until their death (otherwise the cryonics
+	arrangement doesn't work).
+5. The membership fees will not be changed drastically over time.
+
+The implementation is quite straightforward:
+
+	function alcor_fees(age)
+		local left=math.floor(actval[age])-age
+		local cost=0
+
+		if age<25 then
+			newage=25
+			cost=(newage-age)*310
+		end
+		if left>=30 then
+			cost=cost+(left-30)*305
+			left=30
+		end
+		if left>=25 then
+			cost=cost+(left-25)*368
+			left=24
+		end
+		if left>=20 then
+			cost=cost+(left-20)*430
+			left=20
+		end
+		if age<=25 then
+			cost=cost+(left-(25-age))*525
+		else
+			cost=cost+left*525
+		end
+
+		return 300+cost
+	end
+
+#### Comprehensive Member Standby
+
+> For Members residing in the continental U.S. and Canada: Alcor will
+provide Comprehensive Member Standby (CMS) to all Members (standby
+in Canada may be subject to delays due to customs and immigration
+requirements), which includes all rescue activities up through the time
+the legally pronounced Member is delivered to the Alcor operating room
+for cryoprotection. __This charge is waived for full-time students under
+age 25 and minors (under age 18).__
+
+*– [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
+
+Emphasis mine.
+
+> Current CMS charges are:  
+> \$180 annually, \$90 semi-annually, or \$45 quarterly
+
+*– [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
+
+I will assume that the cryonics member starts paying a CMS fee starting
+10 years before their actuarial age of death.
+
+	cms=180
+
+	function cms_age(age)
+		return actval[age]-10
+	end
+
+	function cms_fees(age)
+		return cms*(actval[age]-cms_age(age))
+	end
+
+### Preservation Cost
+
+There are several different methods of funding cryonics, the most popular of which
+seems to be life insurance.
+I haven't spent much time investigating the exact inner workings of life
+insurances, so I will make the assumption one doesn't have much of a
+financial advantage by choosing life insurance.
+
+> Minimum Cryopreservation Funding:  
+> • \$200,000.00 Whole Body Cryopreservation […].  
+> • \$80,000.00 Neurocryopreservation […].  
+> […]  
+> Surcharges:  
+> • \$10,000 Surcharge for cases outside the U.S. and Canada other than China.  
+> • \$50,000 Surcharge for cases in China.  
+> […]
+
+*– [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
+
+I assume that the person considering signing up is outside of the U.S,
+since a lot more people life outside the U.S than inside of it.  I also
+assume that the person wants to sign up for neurocryopreservation.
+With these assumptions, the function that returns preservation costs
+becomes quite simple:
+
+	function pres_cost(age)
+		return 90000
+	end
+
+### Other Possible Costs
+
+There is a number of different additional costs that have not been
+considered here because of their (perceived) small scale or difficult
+tractability.
+
+These include opportunity costs for the time spent informing oneself
+about cryonics (tens hours spent), opportunity costs for the time spent
+signing up (tens of hours spent), social costs by seeming weird and
+many more (though cryonics is easy to hide, and most cryonicists seem
+to be rather vocal about it anyways), and alienating family members who
+necessarily come into contact with cryonics (considering the "Hostile
+Wife Phenomenon"<!--TODO: source-->).
 
 Calculating the Benefit
 -----------------------
 
+Calculating the benefit of cryonics carries a great uncertainty,
+but basically it can be divided into four distinct components: The
+probability of being preserved, the probability of revival, the amount
+of years gained by cryonics and the value of one lifeyear.
+
+	function benefit(age)
+		return prob_pres*prob_succ*years_gain*val_year
+	end
+
+Here, I will only take point estimates<!--TODO: source--> of these
+values. Perhaps a Monte-Carlo simulation would be more appropriate,
+but the current implementation provides a starting-point. As one can
+see, I will not do any time-discounting on the value of life-years.
+
+### Probability of Being Preserved
+
+### Probability of Revival
+
+### Years Gained
+
 ### Value of a Lifeyear in the Future
 
-Much ink and pixels have been spilled on the question of the quality
-of the future, very little of it trying to make accurate predictions.
+Much ink and pixels have been spilled on the question of the
+quality of the future, very little of it trying to make accurate
+predictions.<!--TODO: find out what positive/negative/circular/other
+accounts of history are called, link to some source contrasting them-->
 One way to look at the question could be to create clear criteria that
 encapsulate the most important human values and ask a prediction market
 to start betting. This could include the power of humanity to make most
