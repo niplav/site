@@ -1,5 +1,6 @@
 all:
 	make -C 99_klong/
+	make -C considerations_on_cryonics/
 	make -C estimated_life_expectancy/
 	make -C masturbation_and_attractiveness/
 	make -C bp_chrono/
@@ -9,6 +10,7 @@ all:
 
 puttit:
 	make -C 99_klong/ puttit
+	make -C considerations_on_cryonics/ puttit
 	make -C estimated_life_expectancy/ puttit
 	make -C masturbation_and_attractiveness/ puttit
 	make -C bp_chrono/ puttit
@@ -18,6 +20,7 @@ puttit:
 
 clean:
 	make -C 99_klong/ clean
+	make -C considerations_on_cryonics/ clean
 	make -C estimated_life_expectancy/ clean
 	make -C masturbation_and_attractiveness/ clean
 	make -C bp_chrono/ clean

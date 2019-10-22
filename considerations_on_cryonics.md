@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2019-10-21, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2019-10-22, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Many people cryocrastinate<!--TODO: link to the explanation of the
 > word-->. Are they rational in doing so? Also some thoughts about some
@@ -347,31 +347,154 @@ values. Perhaps a Monte-Carlo simulation would be more appropriate,
 but the current implementation provides a starting-point. As one can
 see, I will not do any time-discounting on the value of life-years.
 
+### Value of a Lifeyear in the Future
+
+Much ink and pixels have been spilled on the question of the
+quality of the future, very little of it trying to make accurate
+predictions.<!--TODO: find out what positive/negative/circular/other
+accounts of history are called, link to some source contrasting them,
+or provide some contrasting myself--> One way to look at the question
+could be to create clear criteria that encapsulate the most important
+human values and ask a prediction market to start betting. This could
+include the power of humanity to make most important decisions regarding
+its development and resource management, diversity among human beings,
+average happiness and lifespans and other variables such as inequality
+regarding resources.
+
+But a much simpler way of approaching the topic could be the following:
+One takes arguments from both sides (positive futures and negative
+futures) and prematurely concludes that the future is on average going to
+be neutral, with a high variance in the result. But some problems present
+themselves: In different value systems, "neutral" means very different
+things. Strictly speaking, a utilitarian would see human extinction as
+neutral (the utility of a world without any sentient beings is exactly
+0), anti-natalists consider an empty world to be a positive thing, and
+most people working on preventing human extinction would consider such
+a world to be a gigantic loss of opportunity, and therefore net negative.
+
+There seems to be no simple way to resolve these conflicts, otherwise it
+would have been written down up to now. But it seems like most people
+would take the current state of affairs as neutral, with improvements
+in happiness, meaning and wealth to be positive, and decreases in
+those to be negative. Also, they don't see dying tomorrow as a neutral
+thing. Currently, the value of a year of life is generally assumed to be
+around \$50000, approximately a year of waking hours worth the minimum
+wage (`$\$10*16*7*52=\$58240$`)<!--TODO: find the source for the value
+of a year of life-->.
+
+Intuitively, the probability distribution over the value of a year of
+life in the future should then look like this:
+
+![Probability distribution over the value of a lifeyear in the future](./img/considerations_on_cryonics/avg_fut_year_val.png "The probability distribution over the value of a lifeyear in the future. The distribution is a normal distribution with an expected value of 50000 and a standard deviation of ~22000.")
+
+Note that this graph is not based on real data and only for illustrative purposes.
+
+But one can take another factor into account: Most negative future
+scenarios don't lead to reuscitation (civilisational collapse, stable
+totalitarianism, existential catastrophes like AI failure, nuclear
+war, biotechnological disaster and natural catastrophe all reduce
+human capabilities or keep them constant, preventing the development
+of reuscitation technology). In most of the negative futures, there
+are either no more humans around or people don't have time, energy or
+resources to bring people back from cryonic preservation (if indeed they
+still *are* in preservation by that point), and for malicious actors, in
+most scenarios it is easier to create new people than to bring preserved
+people back.
+
+This effect might be dampened by the consideration that most possible
+futures have net-negative value, but on the other hand, nearly all of
+those futures don't lead to reuscitation.
+
+This would mean that the probability distribution over the value of a lifeyear in the future conditional on being reuscitated could look like this:
+
+![Probability distribution over the value of a lifeyear in the future conditional on being reuscitated](./img/considerations_on_cryonics/cryo_fut_year_val.png "The probability distribution over the value of a lifeyear in the future conditional on being reuscitated. The distribution is two halves of two different normal distributions meeting at around $50000, the left half has much lower variance than the right half.")
+
+Note that this graph is not based on real data and only for illustrative purposes.
+
+#### Negative Scenarios
+
+However, I can think of 3 very specific (and thereby highly unlikely)
+scenarios where people could be reuscitated into a (for them) net-negative
+world.
+
+##### Ascended Economy
+
+The [ascended
+economy](http://slatestarcodex.com/2016/05/30/ascended-economy/) is a
+scenario where the development of capitalism diverges significantly from
+the desires of humans, leading to most (if not all) of humanity becoming
+extinct. It seems highly unlikely, but possible that cryopreserved
+humans are placed into the hands of an algorithm that invests the
+money in the relevant funds to reuscitate the cryopreserved humans at a
+certain point. This algorithm would receive little (or no) information
+on what to do with the reuscitated humans afterwards, leading either
+to these humans quickly dying again because of an economy where they
+are worthless, or being kept alive solely for fulfilling the contract
+that is embedded in the algorithm. This might lead to insanity-inducing
+boredom as the humans are kept alive as long as algorithm manages to,
+possibly hundreds or thousands of years. This would have net-negative
+value for the people reuscitated.
+
+##### Basilisk
+
+A superintelligence becomes a singleton<!--TODO: link--> and either
+starts behaving malevolently either because of a sign error in its
+implementation<!--TODO: link--> or or because it attempts to perform
+acausal trade<!--TODO: link--> with people in the past. This would lead to
+cryopreserved people being reuscitated, scanned as ems<!--TODO: link-->,
+copied and put into very painful conditions.
+
+##### Information from the Past is Valuable
+
+In a future where agents that don't care about humans find the
+cryopreserved remains of humans, they might be interested in extracting
+information from those brains. If it is not possible to extract this
+information without reviving the cryopreserved people, they might
+reuscitate them and then interrogate these revived people for a very
+long time, with little regard for their well-being.
+
+<!--TODO: write how these could be contractually prevented-->
+
+#### Other Thoughts
+
+Many people argue that the value of a year of life in the future might
+be much lower than in the present, because friends and familiy are not
+around, and it is very likely that the future will be extremely alien and
+unfamiliar.
+
+These are valid considerations, but can be dampened a bit: Humans have
+shown to adapt to very different and varied circumstances, and humans
+today feel that modern life in big cities with regular timetables without
+any worries about survival is normal, while for most humans who ever
+lived, it would be anything but. One can speculate that very similar
+facts will also hold for the future (becoming increasingly unlikely the
+further reuscitation lies in the future). There would certainly be a big
+culture shock in the future, but it seems not qualitatively different
+from the shock people have when they visit different countries today.
+It is possible that future societies might try to help people with this
+kind of future shock, but that is of course far from certain.
+
+It is true that most cryonicists will not be able to convince their
+friends and family to sign up for it too, so they will be alone in
+the future at first. People today sometimes leave their friends and
+even families to move to other places, but those people seem to be
+the exception rather than the norm. However, people nearly always
+move on with their life, even as they get divorced, get estranged
+from their friends or see their children less regularly – they
+don't seem to prefer death to continuing their lives without
+specific people. This consideration doesn't seem to be a [True
+Rejection](https://www.lesswrong.com/rationality/is-that-your-true-rejection).
+
+After these considerations, I conservatively set the value of a lifeyear
+in the future to \$50000.
+
+	val_year=50000
+
 ### Probability of Being Preserved
 
 ### Probability of Revival
 
 ### Years Gained
 
-### Value of a Lifeyear in the Future
-
-Much ink and pixels have been spilled on the question of the
-quality of the future, very little of it trying to make accurate
-predictions.<!--TODO: find out what positive/negative/circular/other
-accounts of history are called, link to some source contrasting them-->
-One way to look at the question could be to create clear criteria that
-encapsulate the most important human values and ask a prediction market
-to start betting. This could include the power of humanity to make most
-important decisions regarding its development and resource management,
-diversity among human beings, average happiness and lifespans and other
-variables such as inequality regarding resources.
-
-1. Most future scenarios seem merely "alien", not really positive/negative
-2. Most negative future scenarios don't lead to reuscitation (civilisational collapse, stable totalitarianism, existential catastrophes like AI failure, nuclear war, biotechnological disaster, natural catastrophe). Exceptions:
-	*	ascended economy where the cryonics contract is fulfilled by the
-		economy, but the resulting world has few/no humans & living
-		conditions are insanity-inducingly boring
-	* malevolent AI, either through acausal trade or because of sign error in CEV
-3.	There are some people working on long-term positive outcomes, and
-	most people work on long-term neutral projects, but no or very
-	few people working on long-term hellish conditions
+Conclusion
+----------
