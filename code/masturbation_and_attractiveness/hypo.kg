@@ -56,85 +56,85 @@ tstt(duringm;afterm;0.01)
 :"whether the losses in previous stages lead to misleading values here"
 
 .p("
-X=duringf.ignored, Y=afterf.ignored
+X=duringf.toignored, Y=afterf.toignored
 ")
 
-tstt(duringf.ignored;afterf.ignored;0.05)
-tstt(duringf.ignored;afterf.ignored;0.01)
+tstt(duringf.toignored;afterf.toignored;0.05)
+tstt(duringf.toignored;afterf.toignored;0.01)
 
 .p("
-X=duringf.stopped, Y=afterf.stopped
+X=duringf.tostopped, Y=afterf.tostopped
 ")
 
-tstt(duringf.stopped;afterf.stopped;0.05)
-tstt(duringf.stopped;afterf.stopped;0.01)
+tstt(duringf.tostopped;afterf.tostopped;0.05)
+tstt(duringf.tostopped;afterf.tostopped;0.01)
 
 .p("
-X=duringf.name, Y=afterf.name
+X=duringf.toname, Y=afterf.toname
 ")
 
-tstt(duringf.name;afterf.name;0.05)
-tstt(duringf.name;afterf.name;0.01)
+tstt(duringf.toname;afterf.toname;0.05)
+tstt(duringf.toname;afterf.toname;0.01)
 
 .p("
-X=duringf.rejection, Y=afterf.rejection
+X=duringf.torejection, Y=afterf.torejection
 ")
 
-tstt(duringf.rejection;afterf.rejection;0.05)
-tstt(duringf.rejection;afterf.rejection;0.01)
+tstt(duringf.torejection;afterf.torejection;0.05)
+tstt(duringf.torejection;afterf.torejection;0.01)
 
 .p("
-X=duringf.flake, Y=afterf.flake
+X=duringf.toflake, Y=afterf.toflake
 ")
 
-tstt(duringf.flake;afterf.flake;0.05)
-tstt(duringf.flake;afterf.flake;0.01)
+tstt(duringf.toflake;afterf.toflake;0.05)
+tstt(duringf.toflake;afterf.toflake;0.01)
 
 .p("
-X=duringf.date, Y=afterf.date
+X=duringf.todate, Y=afterf.todate
 ")
 
-tstt(duringf.date;afterf.date;0.05)
-tstt(duringf.date;afterf.date;0.01)
+tstt(duringf.todate;afterf.todate;0.05)
+tstt(duringf.todate;afterf.todate;0.01)
 
 .p("
-X=duringm.ignored, Y=afterm.ignored
+X=duringm.toignored, Y=afterm.toignored
 ")
 
-tstt(duringm.ignored;afterm.ignored;0.05)
-tstt(duringm.ignored;afterm.ignored;0.01)
+tstt(duringm.toignored;afterm.toignored;0.05)
+tstt(duringm.toignored;afterm.toignored;0.01)
 
 .p("
-X=duringm.stopped, Y=afterm.stopped
+X=duringm.tostopped, Y=afterm.tostopped
 ")
 
-tstt(duringm.stopped;afterm.stopped;0.05)
-tstt(duringm.stopped;afterm.stopped;0.01)
+tstt(duringm.tostopped;afterm.tostopped;0.05)
+tstt(duringm.tostopped;afterm.tostopped;0.01)
 
 .p("
-X=duringm.name, Y=afterm.name
+X=duringm.toname, Y=afterm.toname
 ")
 
-tstt(duringm.name;afterm.name;0.05)
-tstt(duringm.name;afterm.name;0.01)
+tstt(duringm.toname;afterm.toname;0.05)
+tstt(duringm.toname;afterm.toname;0.01)
 
 .p("
-X=duringm.rejection, Y=afterm.rejection
+X=duringm.torejection, Y=afterm.torejection
 ")
 
-tstt(duringm.rejection;afterm.rejection;0.05)
-tstt(duringm.rejection;afterm.rejection;0.01)
+tstt(duringm.torejection;afterm.torejection;0.05)
+tstt(duringm.torejection;afterm.torejection;0.01)
 
 .p("
-X=duringm.flake, Y=afterm.flake
+X=duringm.toflake, Y=afterm.toflake
 ")
 
-tstt(duringm.flake;afterm.flake;0.05)
-tstt(duringm.flake;afterm.flake;0.01)
+tstt(duringm.toflake;afterm.toflake;0.05)
+tstt(duringm.toflake;afterm.toflake;0.01)
 
 .p("
-X=duringm.date, Y=afterm.date
+X=duringm.todate, Y=afterm.todate
 ")
 
-tstt(duringm.date;afterm.date;0.05)
-tstt(duringm.date;afterm.date;0.01)
+tstt(duringm.todate;afterm.todate;0.05)
+tstt(duringm.todate;afterm.todate;0.01)

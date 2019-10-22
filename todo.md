@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-10-18, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-10-22, language: english, status: notes, importance: 5, confidence: log*
 
 > __Notes and ideas for texts that will be written decades in the future.__
 
@@ -14,6 +14,7 @@ Site
 * Make more mobile-friendly
 * Add tooltips to links (Title of Text)
 * Find out how to make the site more inclusive
+* (a) link for archives?
 
 Texts
 -----
@@ -237,6 +238,25 @@ Programming
 		* [/] for searching
 		* [n]ext and [p]revious match
 	* support for arbitrary length files, loading lazily, unicode is displayed properly, big lines are dealt with properly.
+* recog
+	* program that accepts one backus-naur form grammar and checks if it's input or other files match that grammar.
+	* BNF -(Convert to Chomsky Normal Form)> CNF -(Cocke-Younger-Kasami algorithm)> Boolean
+	* Relevant material:
+		* RFC 2234
+		* RFC 4234
+		* RFC 5234
+		* RFC 7405
+	* Possible BNF forms:
+		* ABNF (RFCs)
+		* EBNF
+		* naive & simple form (similar to the one used on Wikipedia)
+			* <symbol\>
+			* optionality: '?'
+			* repetition: '+'
+			* repetition with optionality: '*'
+			* alternative symbols: '|'
+			* assignment: '::='
+			* "string"
 
 ### Klong Libraries
 
@@ -250,6 +270,7 @@ Programming
 	* stirling numbers (1st/2nd kind)
 	* eulerian numbers (1st order, 2nd order)
 	* catalan numbers
+	* counting partitions
 * date.kg
 	* date/time library for Klong: convert different date formats to another
 * utf8.kg
@@ -267,7 +288,7 @@ Programming
 * mupdf
 	* implement unicode search
 	* improve search overall, lacking
-	* why don't *Left* and *Right* work for next/prev page?
+	* why don't ← and → work for next/prev page?
 * myrddin
 	* documentation: "and modern features with a high cost-benefit ratio"
 	* cost/benefit is high? Clarify

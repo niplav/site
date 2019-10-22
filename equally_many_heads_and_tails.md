@@ -170,7 +170,7 @@ of the Catalan numbers in the OEIS (sixth formula).
 
 <!--TODO: This seems a tiny bit fishy: There is probably an offset here
 (first value of the catalan numbers is not used, so the whole sequence
-is shifted. Look at this.-->
+is shifted). Look at this.-->
 
 ### Probability of Finishing at `$2*n$` Steps
 

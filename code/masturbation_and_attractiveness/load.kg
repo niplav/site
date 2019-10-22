@@ -15,30 +15,30 @@ after::{*|x}'flr({0=*x};data)
 afterm::{*|x}'flr({(0=*x)&("m"=x@1)};data)
 afterf::{*|x}'flr({(0=*x)&("f"=x@1)};data)
 
-duringf.ignored::{:[x=1;x;0]}'duringf
-duringf.stopped::{:[x=2;x;0]}'duringf
-duringf.name::{:[x=3;x;0]}'duringf
-duringf.rejection::{:[x=4;x;0]}'duringf
-duringf.flake::{:[x=5;x;0]}'duringf
-duringf.date::{:[x=6;x;0]}'duringf
+duringf.toignored::{:[x<2;x;0]}'duringf
+duringf.tostopped::{:[x<3;x;0]}'duringf
+duringf.toname::{:[x<4;x;0]}'duringf
+duringf.torejection::{:[x<5;x;0]}'duringf
+duringf.toflake::{:[x<6;x;0]}'duringf
+duringf.todate::{:[x<7;x;0]}'duringf
 
-afterf.ignored::{:[x=1;x;0]}'afterf
-afterf.stopped::{:[x=2;x;0]}'afterf
-afterf.name::{:[x=3;x;0]}'afterf
-afterf.rejection::{:[x=4;x;0]}'afterf
-afterf.flake::{:[x=5;x;0]}'afterf
-afterf.date::{:[x=6;x;0]}'afterf
+afterf.toignored::{:[x<2;x;0]}'afterf
+afterf.tostopped::{:[x<3;x;0]}'afterf
+afterf.toname::{:[x<4;x;0]}'afterf
+afterf.torejection::{:[x<5;x;0]}'afterf
+afterf.toflake::{:[x<6;x;0]}'afterf
+afterf.todate::{:[x<7;x;0]}'afterf
 
-duringm.ignored::{:[x=1;x;0]}'duringm
-duringm.stopped::{:[x=2;x;0]}'duringm
-duringm.name::{:[x=3;x;0]}'duringm
-duringm.rejection::{:[x=4;x;0]}'duringm
-duringm.flake::{:[x=5;x;0]}'duringm
-duringm.date::{:[x=6;x;0]}'duringm
+duringm.toignored::{:[x<2;x;0]}'duringm
+duringm.tostopped::{:[x<3;x;0]}'duringm
+duringm.toname::{:[x<4;x;0]}'duringm
+duringm.torejection::{:[x<5;x;0]}'duringm
+duringm.toflake::{:[x<6;x;0]}'duringm
+duringm.todate::{:[x<7;x;0]}'duringm
 
-afterm.ignored::{:[x=1;x;0]}'afterm
-afterm.stopped::{:[x=2;x;0]}'afterm
-afterm.name::{:[x=3;x;0]}'afterm
-afterm.rejection::{:[x=4;x;0]}'afterm
-afterm.flake::{:[x=5;x;0]}'afterm
-afterm.date::{:[x=6;x;0]}'afterm
+afterm.toignored::{:[x<2;x;0]}'afterm
+afterm.tostopped::{:[x<3;x;0]}'afterm
+afterm.toname::{:[x<4;x;0]}'afterm
+afterm.torejection::{:[x<5;x;0]}'afterm
+afterm.toflake::{:[x<6;x;0]}'afterm
+afterm.todate::{:[x<7;x;0]}'afterm

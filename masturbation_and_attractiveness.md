@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-10-21, language: english, status: notes, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-10-22, language: english, status: notes, importance: 4, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -41,12 +41,26 @@ tampering with the content of the article, because reddit titles [can't be
 changed](https://old.reddit.com/wiki/faq#wiki_i_made_a_mistake_in_my_submission_title.2C_how_can_i_edit_it.3F)
 by users of reddit.
 
-The pre-registered hypothesis shall thus be: Let `$μ_{during}$` be the expected
-value of
+The pre-registered hypothesis shall thus be: Let `$\mu_{during}$` be
+the expected value of cold approach with women during a long period of
+abstinence from masturbation, and `$\mu_{after}$` be the expected value
+of cold approach with women after a week of regular masturbation. Then
+there are three different hypotheses:
 
-	There is no statistically significant difference in success
-	from cold approach before and and long term abstinence from
-	masturbation. (p<0.05)
+1. H₀: `$\mu_{during} \le \mu_{after}$`
+2. H₁: `$\mu_{during} = \mu_{after}$`
+3. H₂: `$\mu_{during} \ge \mu_{after}$`
+
+There seem to be different possible strengths of convictions on this issue:
+
+* I define the *Strong NoFap Stance* as predicting that H₀ and H₁ will be rejected, and only H₂ will be accepted.
+* I define the *Weak NoFap Stance* as predicting that H₀ will be rejected, and H₁ and H₂ will be accepted.
+* I define the *Neutral Stance* as predicting that all 3 hypotheses will be accepted.
+
+As a pre-registration, I subjectively assign a probability of 60% to the
+*Neutral Stance* being correct, a probability of 17% to the *Weak NoFap
+Stance* being correct, a 8% probability to the *Strong NoFap Stance*,
+and 15% to any other result.
 
 ### Reasoning
 
@@ -402,6 +416,44 @@ Code:
 	draw()
 
 ![Gender non-specific loss in different stages of the funnel](./img/masturbation_and_attractiveness/dur_after_bar.png "Gender non-specific loss in different stages of the funnel.")
+
+Very similar diagrams can be made for male and female data points:
+
+Male:
+
+	.l("nplot")
+	.l("./load.kg")
+
+	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 50 10])
+
+	text(20;400;"light blue: during abstinence, before masturbation, dark blue: after masturbation")
+
+	fillrgb(0.4;0.4;1)
+	{bar(2*x;(#'=duringm@<duringm)@x;12)}'!6
+	fillrgb(0;0;0.6)
+	{bar(1+2*x;(#'=afterm@<afterm)@x;12)}'!6
+
+	draw()
+
+![Male loss in different stages of the funnel](./img/masturbation_and_attractiveness/dur_after_m_bar.png "Male loss in different stages of the funnel.")
+
+Female:
+
+	.l("nplot")
+	.l("./load.kg")
+
+	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 50 10])
+
+	text(20;400;"light red: during abstinence, before masturbation, dark red: after masturbation")
+
+	fillrgb(1;0.4;0.4)
+	{bar(2*x;(#'=duringf@<duringf)@x;12)}'!6
+	fillrgb(0.6;0;0)
+	{bar(1+2*x;(#'=afterf@<afterf)@x;12)}'!6
+
+	draw()
+
+![Female loss in different stages of the funnel](./img/masturbation_and_attractiveness/dur_after_f_bar.png "Female loss in different stages of the funnel.")
 
 ### Testing the Hypothesis
 

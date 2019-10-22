@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-10-18, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2019-10-22, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -316,6 +316,25 @@ and goal-oriented activity, unlike most (if not all) art.
 Alternatives:
 
 * "Pick-Up"
+
+### Names for Special ASCII Characters
+
+Programmers often have to use the ASCII special characters
+!"#\|%&'()\*+,-./:;<=>?@[\\]^\_\`{|}~. However, spelling out "exclamation
+mark" has proven to be cumbersome, which made programmers introduce
+(or use) their own names for these characters.
+
+Existing<!--TODO: find sources-->:
+
+* '!': Bang
+
+Personal proposals:
+
+* '()': Parens
+* '[]': Brackets
+* '{}': Braces
+* '\': Whack
+* '?': What
 
 Considerations on Cryonics
 --------------------------
