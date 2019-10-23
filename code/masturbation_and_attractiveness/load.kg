@@ -15,6 +15,9 @@ after::{*|x}'flr({0=*x};data)
 afterm::{*|x}'flr({(0=*x)&("m"=x@1)};data)
 afterf::{*|x}'flr({(0=*x)&("f"=x@1)};data)
 
+m::{*|x}'flr({"m"~x@1};data)
+f::{*|x}'flr({"f"~x@1};data)
+
 duringf.toignored::{:[x<2;x;0]}'duringf
 duringf.tostopped::{:[x<3;x;0]}'duringf
 duringf.toname::{:[x<4;x;0]}'duringf
