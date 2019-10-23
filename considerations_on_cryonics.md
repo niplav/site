@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2019-10-22, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2019-10-23, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Many people cryocrastinate<!--TODO: link to the explanation of the
 > word-->. Are they rational in doing so? Also some thoughts about some
@@ -307,7 +307,7 @@ financial advantage by choosing life insurance.
 *– [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
 
 I assume that the person considering signing up is outside of the U.S,
-since a lot more people life outside the U.S than inside of it.  I also
+since a lot more people life outside the U.S than inside of it. I also
 assume that the person wants to sign up for neurocryopreservation.
 With these assumptions, the function that returns preservation costs
 becomes quite simple:
@@ -490,11 +490,60 @@ in the future to \$50000.
 
 	val_year=50000
 
-### Probability of Being Preserved
-
 ### Probability of Revival
 
+> Specific equations and values have been
+> proposed, usually yielding probability of success
+> 0 < x < 10%. For example, Steven Harris in 1989 estimated
+> [0.2-15%](http://www.alcor.org/Library/html/WillCryonicsWork.html),
+> R. Mike Perry in the same article runs a different analysis to arrive at
+> 13-77%, [Ralph Merkle](http://www.merkle.com/cryo/probability.html)
+> suggests >85% (conditional on things like good preservation,
+> no dystopia, and nanotech); Robin Hanson calculated in 2009 a
+> [~6%](http://www.overcomingbias.com/2009/03/break-cryonics-down.html)
+> chance, Roko gave
+> [23%](http://lesswrong.com/lw/3j/rationality_cryonics_and_pascals_wager/);
+> Mike Darwin in 2011 (personal communication)
+> put the odds at <10%; an [informal survey of >6
+> people](https://docs.google.com/spreadsheet/ccc?key=0Ajn1LpstEUO_dE00ZVVfa3pzX2Y2dk9mWWRKOUVkWlE#gid=0)
+> ([LW
+> discussion](http://lesswrong.com/lw/fz9/more_cryonics_probability_estimates/))
+> averaged ~17% success rate; [Jeff
+> Kaufman](http://www.jefftk.com/p/breaking-down-cryonics-probabilities)
+> in 2011 provides a calculator with suggested
+> values yielding 0.2%; The [2012 LessWrong
+> survey](http://lesswrong.com/lw/fp5/2012_survey_results/) yields a mean
+> estimate of cryonics working of 18% (n=1100) and among ‘veterans’ [the
+> estimate](https://web.archive.org/web/20131229234145/http://squid314.livejournal.com/349656.html)
+> is a lower 12% (n=59) - but interestingly, they seem to be more likely
+> to be signed up for cryonics.
+
+*– [Gwern Branwen](https://www.gwern.net), [“Plastination versus Cryonics”](https://www.gwern.net/plastination), 2014*
+
+Besides these estimates, there exist also two related questions
+on the prediction website metaculus. ["Before 1 January 2050,
+will any human cryonically preserved for at least 1 year be successfully
+revived?"](https://www.metaculus.com/questions/1626/before-1-january-2050-will-any-human-cryonically-preserved-for-at-least-1-year-be-successfully-revived/)
+has a median probability of 16% (n=117), ["If
+you die today and get cryonically frozen, will you "wake
+up"?"](https://www.metaculus.com/questions/455/if-you-die-today-and-get-cryonically-frozen-will-you-wake-up/)
+receives 2% (n=407). I am not sure where the difference comes from,
+prehaps either from worries about the quality of current preservation or
+from a low trust in the longevity of cryonics organisations.  [This google
+sheet](https://docs.google.com/spreadsheets/d/1qn7c7rYmYx3KtqvhXTUGiiyuBk5e9kG3sA3jF-4zk6U/)
+contains 7 estimates of success: 0.04%, 0.223%, 29%, 6.71%, 14.86%,
+0.23% and 22.8%, with various different models underlying these estimates.
+
+It would certainly be interesting to set up a prediction market for this
+question, or get a team of superforecasters to estimate it, but basically,
+it seems like for a young or middle-aged person, the probability seems
+to be around 5%.
+
+	prob_succ=0.05
+
 ### Years Gained
+
+### Probability of Being Preserved
 
 Conclusion
 ----------

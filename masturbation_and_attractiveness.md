@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-10-22, language: english, status: notes, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-10-23, language: english, status: notes, importance: 4, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -379,6 +379,8 @@ Results were logged in a CSV file.
 Results Analysis
 -----------------
 
+The raw data is available [here](./data/masturbation_and_attractiveness.csv).
+
 ### Visualizing the Results
 
 Cold approach is a conversion funnel: there are a number of different
@@ -455,6 +457,34 @@ Female:
 
 ![Female loss in different stages of the funnel](./img/masturbation_and_attractiveness/dur_after_f_bar.png "Female loss in different stages of the funnel.")
 
+### Descriptive Results
+
+Before testing the hypotheses, one can also compare the results using
+very simple descriptive methods.
+
+	mu(m)
+	mu(f)
+	mu(during)
+	mu(after)
+	mu(duringm)
+	mu(afterm)
+	mu(duringf)
+	mu(afterf)
+	sd(duringm)
+	sd(afterm)
+	sd(duringf)
+	sd(afterf)
+
+μ:
+
+<!--TODO: real html table-->
+
+	       during | after |
+	f |     3.78  | 3.75  | 3.765
+	m |     3.87  | 3.54  | 3.705
+	-----------------------------
+	  |     3.825 | 3.645 |
+
 ### Testing the Hypothesis
 
 Problems
@@ -464,6 +494,7 @@ Problems
 * Different perception of attractiveness before&after masturbation
 * Different settings/clothing/weather
 * Only N=1 on the asker's side.
+* Gender only by perception
 
 Conclusion
 ----------
