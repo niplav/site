@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-10-20, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-10-26, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -2032,10 +2032,12 @@ around 100000 trees:
 	108675
 
 If Range takes around 2.1 seconds for 1000 elements, one can predict that
-it would take roughly `$2.1s*2^100 \approx 2.662*10^30s$`, which would be
-`$2.662*10^30s*\frac{1y}{3600s*24*365} \approx 8.44*10^22y$`. This is
+it would take roughly `$2.1s*2^{100} \approx 2.662*10^{30}s$`, which would be
+`$2.662*10^{30}s*\frac{1y}{3600s*24*365} \approx 8.44*10^{22}y$`. This is
 of course only a rough estimate, and may turn out to be entirely wrong
 if Group and Range don't have an exponential time complexity after all.
+
+<!--TODO: Shouldn't the exponential in the calculation be 1000, not 100?-->
 
 <!--TODO: more closely examine the code in the Klong implementation
 and perhaps write a replacement for Range? It doesn't _have_ to be
@@ -2101,8 +2103,9 @@ Fibonacci numbers:
 	$$fib^{-1}(n)=\lfloor \frac{\frac{1}{2}+n*\sqrt{5}}{\ln(\phi)} \rfloor$$
 </div>
 
-To implement it, one now needs only the value of the golden ratio,
-which is<!--TODO: source--> `$\phi=\frac{1+\sqrt{5}}{2}$`.
+To implement it, one now needs only the value of the [golden
+ratio](https://en.wikipedia.org/wiki/Golden_ratio), which is
+`$\phi=\frac{1+\sqrt{5}}{2}$`.
 
 This way,
 

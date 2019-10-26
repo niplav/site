@@ -1,0 +1,5 @@
+#!/usr/bin/env rc
+
+lua cryoyear.lua |
+awk -F: 'BEGIN { printf("[") } { printf("%d ", $1) } END { printf("]") }' |
+kg -l vplot -e 'vals::.r(); v.bar(vals)'

@@ -1,36 +1,50 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2019-10-23, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2019-10-26, language: english, status: in progress, importance: 4, confidence: remote*
 
-> __Many people cryocrastinate<!--TODO: link to the explanation of the
-> word-->. Are they rational in doing so? Also some thoughts about some
-> arguments against cryonics, and a presentation of a model whether to
-> sign up for it.__
+> __Many people
+> [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html).
+> Are they rational in doing so? Also some thoughts about some arguments
+> against cryonics, and a presentation of a model whether to sign up
+> for it.__
 
 Considerations on Cryonics
 ==========================
 
-Many would-be cryonicists cryocrastinate<!--TODO: link for the use of
-the word-->, i.e they put off signing up for cryonics until a later point
-in their life. This has often been explained by the fact that signing up
-for cryonics requires high conscientiousness<!--TODO: source for this-->
+Many would-be cryonicists cryocrastinate, i.e they put off signing
+up for cryonics until a later point in their life. This has often been
+explained by the fact that signing up for cryonics seems to [require high
+conscientiousness](https://www.lesswrong.com/posts/hiDkhLyN5S2MEjrSE/normal-cryonics)
 and can be easily put off to another point in life. However, it hasn't
 yet been explored whether this procrastination might be rational: Many
 cryonics organisations have high membership fees, which might be avoided
 by waiting.
 
-To find this out, I present a point-estimate model of whether (and if yes,
-when) to sign up for cryonics. The model is written in Lua.<!--TODO: link-->
+To find this out, I present a point-estimate model of whether (and
+if yes, when) to sign up for cryonics. The model is written in
+[Lua](https://www.lua.org/).
+
+<!--TODO: Write note explaining this is not introductory material,
+then link to the Wait Buy Why piece, Ben Best's FAQ and Alcor's FAQ-->
 
 Cost-Benefit Calculation for Cryonics
 -------------------------------------
 
+> If you make 50K$/yr now, and value life-years at twice your income,
+> and discount future years at 2% from the moment you are revived for a
+> long life, but only discount that future life based on the chance it
+> will happen, times a factor of 1/2 because you only half identify with
+> this future creature, then the present value of a 5% chance of revival
+> is $125,000, which is about the most expensive cryonics price now.
+
+*– Robin Hanson<!--TODO: link to Wikipedia here-->, [“Break Cryonics Down”](http://www.overcomingbias.com/2009/03/break-cryonics-down.html), 2009*
+
 To find out whether to sign up for cryonics at all, one needs
 to make a cost-benefit calculation. This has been [attempted
-before](http://www.overcomingbias.com/2009/03/break-cryonics-down.html)<!--TODO:
-quote the last paragraph from this blog-post-->, but it might be
-productive to approach the topic independently.
+before](http://www.overcomingbias.com/2009/03/break-cryonics-down.html),
+but that analysis has been rather short and it might be productive to
+approach the topic independently.
 
 Costs are comparatively easy to calculate and contain little uncertainty:
 The costs of cryopreservation and life-insurance are widely known, and
@@ -55,10 +69,11 @@ calculated, and the value of a regular death is tacitly assumed to be
 		print(value(age) .. ": " .. age)
 	end
 
-`curage` contains the current age of the user of the program. `actval` is
-an actuarial table that contains at the nth position the life expectancy
-of a person that is n years old at the moment for a westernn nation
-(in this case Germany)<!--TODO: source-->.
+`curage` contains the current age of the user of the
+program. `actval` is an actuarial table that contains at
+the nth position the life expectancy of a person that is n
+years old at the moment for a westernn nation (in this case
+[Germany](https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/_inhalt.html)).
 
 The Disvalue of Waiting
 -----------------------
@@ -76,30 +91,31 @@ and the possibility of dying before signing up.
 <!--TODO: find out whether there has been any research into the concrete shape
 of motivation drift-->
 
-`prob_signup` is a function that calculates the probability of signing up
-for cryonics after waiting up to having a certain age. It seems clear
+`prob_signup` is a function that calculates the probability of signing
+up for cryonics after waiting up to having a certain age. It seems clear
 that people loose motivation to perform certain actions, especially
 if they are unpleasant or complex. A good example for this is people
 being motivated at the start of the year to do regular exercise: How
 many of those actually keep their promises to themselves? They might
 start off exercising, but after the first few weeks the first people
 drop out, and and a couple of months there is nearly nobody left still
-keeping the promises. It seems like there is a strong regression to the
-mean<!--TODO: link--> in regards to action: Most regular actions are
-replaced by inaction, most strong values are replaced by apathy over time.
-A similar phenomenon seems likely for signing up for cryonics: At first,
-people are very enthusiastic about signing up, but then loose interest
-as time progresses.
+keeping the promises. It seems like there is a strong [regression to
+the mean](https://en.wikipedia.org/wiki/Regression_toward_the_mean) in
+regards to action: Most regular actions are replaced by inaction, most
+strong values are replaced by apathy over time. A similar phenomenon
+seems likely for signing up for cryonics: At first, people are very
+enthusiastic about signing up, but then loose interest as time progresses.
 
-It doesn't seem obvious how strong motivation drift is and how it develops
-over time (some people regain motivation after some time), but intuitively
-it seems like a geometric distribution<!--TODO: source-->. The reasoning
-is as follows: Imagine that a thousand people have the motivation to
-perform a given action n years into the future. Every year, a certain
-percentage p of the people still motivated loses interest in performing
-that action and drop out. After n years, the number of people who
-perform the action is `$1000*p^n$` (the percentage of people motivated is
-`$p^n$`).
+It doesn't seem obvious how strong motivation drift is and
+how it develops over time (some people regain motivation
+after some time), but intuitively it seems like a [geometric
+distribution](https://en.wikipedia.org/wiki/Geometric_distribution). The
+reasoning is as follows: Imagine that a thousand people have the
+motivation to perform a given action n years into the future. Every year,
+a certain percentage p of the people still motivated loses interest
+in performing that action and drop out. After n years, the number of
+people who perform the action is `$1000*p^n$` (the percentage of people
+motivated is `$p^n$`).
 
 When trying to find out what the value of p is for oneself, one can
 imagine a thousand independent identical copies of oneself planning a
@@ -114,7 +130,7 @@ signing up for cryonics.
 	end
 
 Interestingly, this does not mean that the decision of whether to be
-cryonically preserved or not should be set in stone as soon as possible:
+cryonically preserved or not is then set in stone as soon as possible:
 Cryonics memberships are very easy to cancel, in nearly all cases a
 simple email and a cessation of paying membership fees suffices. Signing
 up for cryonics earlier protects against regression to the mean, which
@@ -130,8 +146,8 @@ If you die before signing up, all possible value (or disvalue) of cryonics
 gets lost. So we want to calculate the probability of dying before having
 a certain age given being currently `curage` years old.
 
-Mortality rates are often calculated using a
-so-called Gompertz distribution<!--TODO: link-->. I
+Mortality rates are often calculated using a so-called [Gompertz
+distribution](https://en.wikipedia.org/wiki/Gompertz_distribution). I
 have determined the b and eta values by eyeballing [Wolfram
 Alpha](https://www.wolframalpha.com/input/?i=life+expectancy+of+a+0+year+old+german)
 using a calculator in [Tomasik
@@ -147,9 +163,10 @@ use, then use them-->.
 		return math.exp(-eta*(math.exp(b*age)-1))
 	end
 
-`gompertz` returns the probability of reaching `age` given that one is
-already `curage` years old.
-With Bayes theorem<!--TODO: link--> one can calculate that
+`gompertz` returns the probability of reaching `age`
+given that one is already `curage` years old. With [Bayes
+theorem](https://en.wikipedia.org/wiki/Bayes'_theorem) one can calculate
+that
 
 <div>
 	$$Pr[X \ge age|X \ge curage]\\
@@ -307,7 +324,7 @@ financial advantage by choosing life insurance.
 *– [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
 
 I assume that the person considering signing up is outside of the U.S,
-since a lot more people life outside the U.S than inside of it. I also
+since a lot more people live outside the U.S than inside of it. I also
 assume that the person wants to sign up for neurocryopreservation.
 With these assumptions, the function that returns preservation costs
 becomes quite simple:
@@ -322,13 +339,13 @@ There is a number of different additional costs that have not been
 considered here because of their (perceived) small scale or difficult
 tractability.
 
-These include opportunity costs for the time spent informing oneself
-about cryonics (tens hours spent), opportunity costs for the time spent
-signing up (tens of hours spent), social costs by seeming weird and
-many more (though cryonics is easy to hide, and most cryonicists seem
-to be rather vocal about it anyways), and alienating family members who
-necessarily come into contact with cryonics (considering the "Hostile
-Wife Phenomenon"<!--TODO: source-->).
+These include opportunity costs for the time spent informing oneself about
+cryonics (tens hours spent), opportunity costs for the time spent signing
+up (tens of hours spent), social costs by seeming weird and many more
+(though cryonics is easy to hide, and most cryonicists seem to be rather
+vocal about it anyways), and alienating family members who necessarily
+come into contact with cryonics (considering the ["Hostile Wife
+Phenomenon"](https://www.biostasis.com/is-that-what-love-is-the-hostile-wife-phenomenon-in-cryonics/)).
 
 Calculating the Benefit
 -----------------------
@@ -342,10 +359,14 @@ of years gained by cryonics and the value of one lifeyear.
 		return prob_pres*prob_succ*years_gain*val_year
 	end
 
-Here, I will only take point estimates<!--TODO: source--> of these
-values. Perhaps a Monte-Carlo simulation would be more appropriate,
-but the current implementation provides a starting-point. As one can
-see, I will not do any time-discounting on the value of life-years.
+Here, I will only take [point
+estimates](https://en.wikipedia.org/wiki/Point_estimation) of these
+values. Perhaps a Monte-Carlo simulation would be more appropriate, but
+the current implementation provides a starting-point. As one can see,
+I will not do any time-discounting on the value of future life-years.
+<!--TODO: find a link that explains why time discounting for future
+life years is probably misguided--> <!--TODO: Write about LEV before
+cryopreservation-->
 
 ### Value of a Lifeyear in the Future
 
@@ -437,11 +458,14 @@ value for the people reuscitated.
 
 ##### Basilisk
 
-A superintelligence becomes a singleton<!--TODO: link--> and either
-starts behaving malevolently either because of a sign error in its
+A superintelligence becomes a
+[singleton](https://en.wikipedia.org/wiki/Singleton_(global_governance))
+and starts behaving malevolently either because of a sign error in its
 implementation<!--TODO: link--> or or because it attempts to perform
-acausal trade<!--TODO: link--> with people in the past. This would lead to
-cryopreserved people being reuscitated, scanned as ems<!--TODO: link-->,
+[acausal trade](https://wiki.lesswrong.com/wiki/Acausal_trade)
+with people in the past. This would lead to
+cryopreserved people being reuscitated, scanned as
+[ems](http://www.overcomingbias.com/2009/11/bad-emulation-advance.html),
 copied and put into very painful conditions.
 
 ##### Information from the Past is Valuable
@@ -453,7 +477,28 @@ information without reviving the cryopreserved people, they might
 reuscitate them and then interrogate these revived people for a very
 long time, with little regard for their well-being.
 
-<!--TODO: write how these could be contractually prevented-->
+#### Steps for Reducing the Risk from such Scenarios
+
+> b) When, in Alcor's best good faith judgement, it is determined
+that attempting revival is in the best interests of the Member in
+cryopreservation, Alcor shall attempt to revive and rehabilitate the
+Member. It is understood by the Member that a careful assessment of
+the risks versus the benefits of a revival attempt will be material to
+determining when to attempt revival. […]  
+d) Where it is possible to do so, Alcor represents that it will be guided
+in revival of the cryopreserved Member by the Member's own wishes and
+desires as they may have been expressed in a written, audio, or video
+__Statement of Revival Preferences and Desires__, which the Member may at
+his/her discretion attach to this Agreement.
+
+*– [Alcor Life Extension Foundation](https://www.alcor.org/), [“Cryopreservation Agreement”](./doc/considerations_on_cryonics/cryopreservation_agreement_alcor_2012.pdf) p. 15/16, 2012*
+
+Although not a failsafe measure, steps can be taken to reduce the
+risks from hellish scenarios above by making arrangements with cryonics
+organisations. This may include not wanting cryopreservation to continue
+in an ascended economy, objecting to revival as an emulation or revival
+after more than a certain number of years (to prevent being reuscitated
+in an incomprehensibly strange and alien world).
 
 #### Other Thoughts
 
@@ -484,6 +529,10 @@ from their friends or see their children less regularly – they
 don't seem to prefer death to continuing their lives without
 specific people. This consideration doesn't seem to be a [True
 Rejection](https://www.lesswrong.com/rationality/is-that-your-true-rejection).
+
+<!--
+https://en.wikipedia.org/wiki/Value_of_life
+-->
 
 After these considerations, I conservatively set the value of a lifeyear
 in the future to \$50000.
@@ -529,7 +578,7 @@ you die today and get cryonically frozen, will you "wake
 up"?"](https://www.metaculus.com/questions/455/if-you-die-today-and-get-cryonically-frozen-will-you-wake-up/)
 receives 2% (n=407). I am not sure where the difference comes from,
 prehaps either from worries about the quality of current preservation or
-from a low trust in the longevity of cryonics organisations.  [This google
+from a low trust in the longevity of cryonics organisations. [This google
 sheet](https://docs.google.com/spreadsheets/d/1qn7c7rYmYx3KtqvhXTUGiiyuBk5e9kG3sA3jF-4zk6U/)
 contains 7 estimates of success: 0.04%, 0.223%, 29%, 6.71%, 14.86%,
 0.23% and 22.8%, with various different models underlying these estimates.
@@ -543,7 +592,72 @@ to be around 5%.
 
 ### Years Gained
 
+Conditional on being revived, what is the average life expectancy?
+
+If revival is achieved, it seems highly likely that aging and most
+degenerative diseases have been eradicated (it makes little sense to
+revive a person that is going to die again in 10 years, and cryonics
+organisations are not stupid, so this is unlikely to happen).
+
+If revival happens, there are still risks from accidents and homicide
+that can kill the reuscitated cryonicist, as well as existential risks
+that face all of humanity.
+
+The website Polstats [illustrates](http://polstats.com/#!/life)
+the risks purely from accidents and homicides
+using data from the [Information Insurance
+Institute](http://www.iii.org/fact-statistic/mortality-risk). They
+arrive at "a much more impressive 8,938 years" average life
+expectancy. An [answer](https://math.stackexchange.com/a/3044240)
+on Mathematics StackExchange to the question
+["What's the average life expectancy if only dying from
+accidents?"](https://math.stackexchange.com/questions/3044194/whats-the-average-life-expectancy-if-only-dying-from-accidents)
+arrives at 2850 years.
+
+Taking existential risks into account is a bit harder. It is unclear
+whether most of the probability mass for existential risks should be
+placed before reuscitation of cryonics patients becomes feasible, or
+after it. It is also unclear how high the existential risk for humanity
+is overall. Assuming that the existential risk for humanity over the
+next 10000 years is ~40%<!--TODO: link Metaculus Ragnarok series, and
+see if someone like FHI has done some calculations on that-->, and half
+of that risk is placed before reuscitation, then the life expectancy of
+cryonics is `$\frac{8938+2850}{2}*(1-0.20)=4715.2$`.
+
+That number should be qualified further in an "Age of Em"<!--TODO: link-->
+scenario: that scenario will contain less natural risks (emulation can
+be backed up, they live in a simulated world where homicide risks and
+care accidents make no sense), but an em also suffers from the risk of
+not having enough money to continue being run, and from the fact that
+the em era might not last several subjective millennia. This scenario
+deserves further consideration<!--TODO: actually do that-->.
+
+To conclude, it seems like reuscitated cryonicists will on average live
+around 4500 years, although there is room for debate on this number.
+
+	years_gain=4500
+
+<!--
+DOI: 10.2307/1973599
+-->
+
 ### Probability of Being Preserved
+
+It seems like not all people who sign up for cryonics remain cryonicists until
+their death, and not all cryonicists who die as members actually get preserved.
+
+There seems to be very little data about this question, but as an
+extremely conservative estimate I would put the ratio of people who
+actually get preserved at 60% (it seems likely that the actual number is
+higher). Fortunately, a cryonics member can increase this number by being
+diligent about their cryonics arrangement, near the preservation facility
+before death, informing family members about their arrangement, trying
+to lead a safe life and keeping contact to their cryonics organisation.
+
+	prob_pres=0.6
 
 Conclusion
 ----------
+
+The complete code for the model can be found
+[here](./code/considerations_on_cryonics/cryoyear.lua).

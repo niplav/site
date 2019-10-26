@@ -51,6 +51,11 @@ Texts
 	* Does this hold up to a good consequentialist calculation?
 * Against News
 	* Priming → News+Wikipedia≤Wikipedia
+* On the Importance of
+	* Qualia Engineering
+	* Track Records, Forecasting and Prediction Markets
+	* The Difference in Sexual Behavior Between Men and Women
+	* Pick Up
 
 ### Analyses
 
