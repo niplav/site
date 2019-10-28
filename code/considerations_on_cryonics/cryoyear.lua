@@ -1,5 +1,5 @@
 --curent age of the user of this script
-curage=22
+curage=20
 
 --value of one year of life
 val_year=50000
@@ -14,7 +14,7 @@ years_gain=4500
 prob_pres=0.6
 
 --starting value for probability for signing up to cryo, exponentially decreasing
-decay=0.95
+decay=1
 
 --CMS cost
 cms=180

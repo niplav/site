@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-10-22, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-10-28, language: english, status: notes, importance: 5, confidence: log*
 
 > __Notes and ideas for texts that will be written decades in the future.__
 
@@ -56,22 +56,18 @@ Texts
 	* Track Records, Forecasting and Prediction Markets
 	* The Difference in Sexual Behavior Between Men and Women
 	* Pick Up
+* In Favor of Selling Glee
+	* Pointing out problems with the ideas in [The Price Of Glee In China](http://slatestarcodex.com/2016/03/23/the-price-of-glee-in-china/)
+	*	General idea: When you find out that making people wealthier
+		doesn't make them happier, you start thinking about how to make
+		them happier instead of trying to find reasons why making them
+		wealthier is still a good idea.
+	* Read the post carefully
+	* Read up on the research
 
 ### Analyses
 
 * Modelling the Dream-Time (Population will probably start growing again)
-* Considerations on Cryonics
-	* Model of when to sign up for Alcor neurocryopreservation
-	* Sign up as early as possible
-	* Value of a year of life in the future
-		* Freedom to die again?
-		* How probable is malevolent AI?
-		* What about "meh" futures?
-		* What about work, friends, language, culture and other circumstances?
-		* Prior: The quality of future human life is normally distributed around the neutral case
-	* Which methods of revival?
-		* Personal identity?
-		* If only neuropreservation, where do I get my body from?
 * Dumpster Diving
 * Hitch Hiking
 * Keyboards
@@ -262,6 +258,16 @@ Programming
 			* alternative symbols: '|'
 			* assignment: '::='
 			* "string"
+* sif
+	* simple text processing filter that takes only one instruction
+	* (single instruction filter)
+	* instruction form:
+		* `[^]/str/[,[^]/str/]((a|i|c)/str/)|d|p`
+		* str is a literal string here (no regex)
+		* a=>append, i=>insert, c=>change, d=>delete, p=>print
+		* '^' means that the following str is excluded from the matched text
+	* sif does not do input/output buffering and does treat whitespace as any other character.
+	* normally, everything is printed, unless the option '-n' is used.
 
 ### Klong Libraries
 
@@ -284,6 +290,8 @@ Programming
 * linalg.kg
 	* linear algebra library for klong
 	* function for the determinant
+	* function for gaussian elimination
+	* function for matrix multiplication
 	* function for matrix inversion
 	* function for the calculation of eigenvalues and eigenbases
 	* function for the calculation of polynomial division

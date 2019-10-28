@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-10-26, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-10-28, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -30,7 +30,7 @@ Code
 
 The pure Klong code, without tests, explanations, comments or performance
 tests is available [here](./code/99_klong/sol.kg). It currently implements
-solutions for all problems up to P63 (excluding P47 and P48), in 2643
+solutions for all problems up to P63 (excluding P47 and P48), in 2408
 bytes.
 
 Conventions
@@ -2150,29 +2150,57 @@ Implementing `$max_{n}$` is implementing
 
 This way, `$max_{n}$` can be implemented the following way:
 
-	d5::{:[x=0;0;_ln(0.6459+x*0.5279)%0.4812]}
+	d5.1::{:[x=0;0;_ln(0.6459+x*0.5279)%0.4812]}
 
-<!--
-	fib::{*(x-1){(+/2#x),x}:*[1 0]}
-	fibinv::{_ln(0.5+x*sqr(5))%ln((1+sqr(5))%2)}
-	:"it holds that &/((fibinv'2+!1000)-3)=d5'1+!1000"
+Another possible method of implementation could be to
+generate the minimal number of nodes in trees with increasing
+heights using the fact that they behave very similarly to the
+fibonacci numbers, and return the height as soon as the number
+of nodes becomes bigger than the argument.
 
-	:"shifted"
-	fibinv::{_ln(4.972+x*2.236)%0.4812}
-	:"it holds that &/((fibinv'!1000)-3)=d5'1+!1000"
-	:"subtracted"
-	fibinv::{(_ln(4.972+x*2.236)%0.4812)-3}
-	:"it holds that &/(fibinv'!1000)=d5'1+!1000"
+This implementation uses the fact that `$max_{n+1}=max_{n}+max_{n-1}+1$`.
+It works by counting up in a recursive function, and returning the counter
+when it becomes smaller than the highest tree generated.  `|!3` is the
+array `[2 1 0]`, representing the number of nodes in the sparsest tree
+with height 1, the number of nodes in the sparsest tree with height 0,
+and the counter.
 
-	:"shifted back"
-	fibinv::{:[x=0;0;(_ln(2.736+x*2.236)%0.4812)-3]}
-	:"it holds that &/(fibinv'!1000)=d5'!1000"
+	d5.2::{[a];a::x;{:[a<x;z;.f(1+x+y;x;z+1)]}@|!3}
+
+These two implementations can now be tested against each other and
+compared with each other.
+
+		d5.1'!10
+	[0 0 1 1 2 2 2 3 3 3]
+		d5.2'!10
+	[0 0 1 1 2 2 2 3 3 3]
+		&/(d5.1'!1000)=d5.2'!1000
+	1
+
+One can see that the two implementations return the same values for
+the same inputs (at least for small values up to 1000), so they seem to
+be correct up to that point.
+
+It should be noted that `d5.1` is actually slower that `d5.2` for small
+values, despite having a lower time complexity:
+
+		time({d5.1(10000)})
+	0.008489
+		time({d5.2(10000)})
+	0.000155
+
+However, the difference in performance seems negligible, and `d5.1`
+has a shorter implementation, which makes it a better candidate.
+
+Now implementing `s60` is quite straightforward: Find out the minimal
+and the maximal height for completely balanced trees with `x` nodes,
+generate all balanced trees with those heights using `s59`, and then
+filter them for having `x` nodes using `s7` (flattening the tree and
+then checking the length of the resulting list).
 
 	d4::{:[x=0;0;_ln(x)%ln(2)]}
-	d5.1::{[a];a::x;{:[a<x;z;.f(1+x+y;x;z+1)]}@[2 1 0]}
-	d5.2::{:[x=0;0;(_ln(2.736+x*2.236)%0.4812)-3]}
+	d5::{:[x=0;0;_ln(0.6459+x*0.5279)%0.4812]}
 	s60::{[a];a::x;flr({a=#s7(x)};,/s59's22(d4(x);d5(x)))}
--->
 
 <!--
 	minnodes::{:[x<1;0:|x=1;1;1+.f(x-1)+.f(x-2)]}
