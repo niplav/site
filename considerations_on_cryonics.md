@@ -1,11 +1,13 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2019-10-26, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2019-10-28, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Many people
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html).
-> Are they rational in doing so? Also some thoughts about some arguments
+> Are they rational in doing so? [Betteridge's law of
+> headlines](https://en.wikipedia.org/wiki/Betteridge's_law_of_headlines)
+> gives the correct answer: no. Also some thoughts about some arguments
 > against cryonics, and a presentation of a model whether to sign up
 > for it.__
 
@@ -25,8 +27,21 @@ To find this out, I present a point-estimate model of whether (and
 if yes, when) to sign up for cryonics. The model is written in
 [Lua](https://www.lua.org/).
 
-<!--TODO: Write note explaining this is not introductory material,
-then link to the Wait Buy Why piece, Ben Best's FAQ and Alcor's FAQ-->
+Note
+----
+
+This write-up is not intended as an introduction to the concept of
+cryonics.  For a popular introduction to the topic that clarifies many
+common misconceptions about the practice, see [“Why Cryonics Makes
+Sense”](https://waitbutwhy.com/2016/03/cryonics.html) by Tim Urban.
+
+For more basic information about the topic, the [Cryonics
+FAQ](http://www.benbest.com/cryonics/CryoFAQ.html) by Ben Best, a former
+director of the Cryonics Institute, answers many questions, as well as
+[Alcor's Cryonics FAQ](https://alcor.org/FAQs/index.html).
+
+These texts should answer most questions people usually have about
+cryonics.
 
 Cost-Benefit Calculation for Cryonics
 -------------------------------------
@@ -72,7 +87,7 @@ calculated, and the value of a regular death is tacitly assumed to be
 `curage` contains the current age of the user of the
 program. `actval` is an actuarial table that contains at
 the nth position the life expectancy of a person that is n
-years old at the moment for a westernn nation (in this case
+years old at the moment for a western nation (in this case
 [Germany](https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/_inhalt.html)).
 
 The Disvalue of Waiting
@@ -139,6 +154,9 @@ against changing ones mind about cryonics: If one becomes convinced it's
 bullshit later, one can easily get out (much more easily than getting in).
 On the other hand, there might be a considerable sunk cost due to already
 paid membership fees and the acquired life insurance.
+
+It will be assumed that once one is signed up for cryonics, one stays
+signed up for it.
 
 ### Dying Before Signing Up
 
@@ -661,3 +679,80 @@ Conclusion
 
 The complete code for the model can be found
 [here](./code/considerations_on_cryonics/cryoyear.lua).
+
+### Standard Parameters
+
+With the parameters presented above, it turns out that it is optimal to
+sign up for cryonics right away, mainly because the motivation drift
+punishes the procrastination quite heavily.
+
+#### Currently 20 years old
+
+At the age of 20 years, the value of signing up for cryonics the same
+year is \$6636375 (`$~\$6.6*10^6$`), prolonging the decision until one is 30 reduces this
+number to \$3967746 (`$~\$3.9*10^6$`), and waiting until 40, 50 and 60 years yields a
+value of \$2364955 (`$~\$2.3*10^6$`), \$1396009 (`$~\$1.3*10^6$`) and \$800994 (`$~\$8*10^5$`), respectively.
+
+![Value of signing up for cryonics in n years at age 20, standard parameters.](./img/considerations_on_cryonics/std_param_val_20.png "Value of signing up for cryonics in n years at age 20, standard parameters. Value diminishes very quickly over the years, having the shape of a decreasing geometric distribution.")
+
+#### Currently 40 years old
+
+The values of signing up for cryonics look very similar to the values
+for a 20 year old. Performing the signup immediately at age 40 is worth
+\$6641095 (`$~\$6.6*10^6$`) at age 40 and is the best time to do it.
+
+![Value of signing up for cryonics in n years at age 40, standard parameters.](./img/considerations_on_cryonics/std_param_val_40.png "Value of signing up for cryonics in n years at age 40, standard parameters. Value diminishes very quickly over the years, having the shape of a decreasing geometric distribution.")
+
+### Without Motivation Drift
+
+Since many people question the idea of motivation drift and trust
+themselves in the future a lot, one can simulate this trust by setting
+the `decay` parameter to 1.
+
+In this model, a very different picture emerges:
+
+![Value of signing up for cryonics in n years at age 20, no motivation drift.](./img/considerations_on_cryonics/no_drift_val.png "Value of signing up for cryonics in n years at age 20, no motivation drift. In the first 30 years, there is very little decline in value, but the the value starts decreasing rapidly.")
+
+It is still optimal to sign up without hesitation, but now the difference
+is much lower.
+
+	$ lua code/considerations_on_cryonics/cryoyear.lua | sort -n | tail -10
+	6628288.8610297: 29
+	6629539.6363717: 28
+	6630936.064281: 27
+	6631885.0280456: 26
+	6632705.7436404: 25
+	6633626.205509: 24
+	6634443.3347767: 23
+	6635167.6856523: 22
+	6635808.7366981: 21
+	6636375.0: 20
+
+This means that cryocrastination is not that much of a sin with a lot
+of self trust.
+
+### Other Modifications
+
+It is possible to think of many other modifications to the parameters
+in the script, including the probability of cryonics success, the value
+of a lifeyear, the amount of years gained, or even bigger modifications
+such as adding models for the probability of the development of life
+extension technology in the near future.
+
+The reader is encouraged to enter their own value and execute the script
+to determine whether it is advantageous for them to sign up for cryonics,
+and if yes, whether cryocrastination would be a good idea.
+
+<!--
+From todo.md:
+
+* Considerations on Cryonics
+	* Value of a year of life in the future
+		* Freedom to die again?
+		* How probable is malevolent AI?
+		* What about "meh" futures?
+		* What about work, friends, language, culture and other circumstances?
+	* Which methods of revival?
+		* Personal identity?
+		* If only neuropreservation, where do I get my body from?
+-->
