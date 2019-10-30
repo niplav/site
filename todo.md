@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-10-28, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-10-29, language: english, status: notes, importance: 5, confidence: log*
 
 > __Notes and ideas for texts that will be written decades in the future.__
 
@@ -85,6 +85,18 @@ Texts
 	* Direct Date on Street
 	* Direct Date off Street
 * Actuarial tables for dictators
+* Ideology Transition Graphs
+	* When people move along ideologies, which paths do they take?
+	* How long do they stay at certain ideologies?
+	* What are the overall transition probabilities, what are the "sinks" (look up on markov chains)
+	* Survey on /r/CapitalismVSocialism
+	* One part with selected ideologies:
+		* Centrism, Apolitical
+		* Social Democracy, Socialism, Communism
+		* Liberalism, Left Liberalism, Anarchism
+		* Libertarianism, Minarchism, Anarcho-Capitalism
+		* Conservativism, Alt-Right, National Socialism, Fascism
+	* One part with freely choosable ideologies
 
 ### Ideas
 
@@ -320,6 +332,12 @@ Programming
 	* not much more, really
 * neo2
 	* port neo2 to plan9/9front/Haiku OS
+* dc 9base manpage:
+	* typo in the order of operations in the manpage
+
+> \+  - /  *  %  ^
+>      Add subtract multiply divide remainder or exponentiate the top
+>      two values on the stack.
 
 Archive
 -------

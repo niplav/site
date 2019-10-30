@@ -164,8 +164,6 @@ have the same characteristic description).
 
 ![Circle Combination 3_14](img/circle_combinations/3_14.png)
 
-<!--TODO: Remove line in lower left corner-->
-
 * Unintersected lines: 12
 * Line intersections: 6
 * Unintersected planes: 8

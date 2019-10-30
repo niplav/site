@@ -14,7 +14,7 @@ years_gain=4500
 prob_pres=0.6
 
 --starting value for probability for signing up to cryo, exponentially decreasing
-decay=1
+decay=0.95
 
 --CMS cost
 cms=180
