@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-10-22, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-11-02, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -44,10 +44,6 @@ August 2019
 ### Site Changes
 
 * Tooltips for images and links (to increase accessibility)
-
-<!--
-* Finished [About](./about.md)
--->
 
 July 2019
 ---------

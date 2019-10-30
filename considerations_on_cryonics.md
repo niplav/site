@@ -14,6 +14,13 @@
 Considerations on Cryonics
 ==========================
 
+<!--
+TODO:
+Foley Artist lyrics quote:
+If I die, will I be given a new life?
+Patricia Taxxon (Song I?)
+-->
+
 Many would-be cryonicists cryocrastinate, i.e they put off signing
 up for cryonics until a later point in their life. This has often been
 explained by the fact that signing up for cryonics seems to [require high
@@ -46,12 +53,12 @@ cryonics.
 Cost-Benefit Calculation for Cryonics
 -------------------------------------
 
-> If you make 50K$/yr now, and value life-years at twice your income,
+> If you make 50K\$/yr now, and value life-years at twice your income,
 > and discount future years at 2% from the moment you are revived for a
 > long life, but only discount that future life based on the chance it
 > will happen, times a factor of 1/2 because you only half identify with
 > this future creature, then the present value of a 5% chance of revival
-> is $125,000, which is about the most expensive cryonics price now.
+> is \$125,000, which is about the most expensive cryonics price now.
 
 *– Robin Hanson<!--TODO: link to Wikipedia here-->, [“Break Cryonics Down”](http://www.overcomingbias.com/2009/03/break-cryonics-down.html), 2009*
 
@@ -213,8 +220,8 @@ some hidden variables (like opportunity costs and social costs) that
 have to be considered (not all of these are considered in this text).
 
 The raw cost for cryonics depends heavily on the organisation
-choosen for preservation, the basic price range is from ~$20000
-to ~$250000<!--TODO: Sources for these, maybe more exact numbers
+choosen for preservation, the basic price range is from ~\$20000
+to ~\$250000<!--TODO: Sources for these, maybe more exact numbers
 for different organisations.-->. In this case, I chose the costs for
 neurocryopreservation at Alcor, though this analysis should be extended
 to other organisations.
