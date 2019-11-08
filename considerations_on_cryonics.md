@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2019-10-28, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2019-11-08, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Many people
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html).
@@ -14,12 +14,17 @@
 Considerations on Cryonics
 ==========================
 
-<!--
-TODO:
-Foley Artist lyrics quote:
-If I die, will I be given a new life?
-Patricia Taxxon (Song I?)
--->
+> If I died, would I be rid of my senses?  
+Or will it retain, trapped within my corpse, in stasis?  
+If I died, would I be a woman in heaven?  
+Or would I fall asleep, not knowing what it’s like to feel alive?
+> 
+> If I died, would I begin with a new life?  
+Or would I be gone as quickly as the breath I give last?  
+If I died, would I be a woman in heaven?  
+Or would I fall asleep, not knowing what it’s like to feel alive?
+
+*– [Patricia Taxxon](https://www.youtube.com/channel/UCOjLfFE0TABS9bk05oH-kgw), [“Deconstruct”](https://patriciataxxon.bandcamp.com/track/deconstruct) from [“Foley Artist”](https://patriciataxxon.bandcamp.com/album/foley-artist), 2019*
 
 Many would-be cryonicists cryocrastinate, i.e they put off signing
 up for cryonics until a later point in their life. This has often been
@@ -60,7 +65,7 @@ Cost-Benefit Calculation for Cryonics
 > this future creature, then the present value of a 5% chance of revival
 > is \$125,000, which is about the most expensive cryonics price now.
 
-*– Robin Hanson<!--TODO: link to Wikipedia here-->, [“Break Cryonics Down”](http://www.overcomingbias.com/2009/03/break-cryonics-down.html), 2009*
+*– [Robin Hanson](https://en.wikipedia.org/wiki/Robin_Hanson), [“Break Cryonics Down”](http://www.overcomingbias.com/2009/03/break-cryonics-down.html), 2009*
 
 To find out whether to sign up for cryonics at all, one needs
 to make a cost-benefit calculation. This has been [attempted
@@ -423,10 +428,20 @@ would have been written down up to now. But it seems like most people
 would take the current state of affairs as neutral, with improvements
 in happiness, meaning and wealth to be positive, and decreases in
 those to be negative. Also, they don't see dying tomorrow as a neutral
-thing. Currently, the value of a year of life is generally assumed to be
-around \$50000, approximately a year of waking hours worth the minimum
-wage (`$\$10*16*7*52=\$58240$`)<!--TODO: find the source for the value
-of a year of life-->.
+thing.
+
+There are two different methods of putting a value on human life:
+the [VSL](https://en.wikipedia.org/wiki/Value_of_life) and the
+[QALY](https://en.wikipedia.org/wiki/Quality-adjusted_life_year).
+The Wikipedia page on VSL
+[lists](https://en.wikipedia.org/wiki/Value_of_life#Estimates_of_the_value_of_life)
+\$182000 for the value of a year of life in Australia, and \$50000 as the
+"de facto international standard most private and government-run health
+insurance plans worldwide use to determine whether to cover a new medical
+procedure". This number seems like a good conservative estimate.
+
+Interestingly, this approximately equals a year of waking hours worth
+the minimum wage (`$\$10*16*7*52=\$58240$`).
 
 Intuitively, the probability distribution over the value of a year of
 life in the future should then look like this:
@@ -485,8 +500,10 @@ value for the people reuscitated.
 
 A superintelligence becomes a
 [singleton](https://en.wikipedia.org/wiki/Singleton_(global_governance))
-and starts behaving malevolently either because of a sign error in its
-implementation<!--TODO: link--> or or because it attempts to perform
+and starts behaving malevolently either because of a [near
+miss](https://reducing-suffering.org/near-miss/ "Astronomical
+suffering from slightly misaligned artificial intelligence")
+in its implementation or or because it attempts to perform
 [acausal trade](https://wiki.lesswrong.com/wiki/Acausal_trade)
 with people in the past. This would lead to
 cryopreserved people being reuscitated, scanned as
@@ -649,13 +666,14 @@ see if someone like FHI has done some calculations on that-->, and half
 of that risk is placed before reuscitation, then the life expectancy of
 cryonics is `$\frac{8938+2850}{2}*(1-0.20)=4715.2$`.
 
-That number should be qualified further in an "Age of Em"<!--TODO: link-->
-scenario: that scenario will contain less natural risks (emulation can
-be backed up, they live in a simulated world where homicide risks and
-care accidents make no sense), but an em also suffers from the risk of
-not having enough money to continue being run, and from the fact that
-the em era might not last several subjective millennia. This scenario
-deserves further consideration<!--TODO: actually do that-->.
+That number should be qualified further in an ["Age of
+Em"](https://en.wikipedia.org/wiki/The_Age_of_Em) scenario: that
+scenario will contain less natural risks (emulation can be backed up,
+they live in a simulated world where homicide risks and care accidents
+make no sense), but an em also suffers from the risk of not having enough
+money to continue being run, and from the fact that the em era might
+not last several subjective millennia. This scenario deserves further
+consideration<!--TODO: actually do that-->.
 
 To conclude, it seems like reuscitated cryonicists will on average live
 around 4500 years, although there is room for debate on this number.
@@ -737,6 +755,40 @@ is much lower.
 
 This means that cryocrastination is not that much of a sin with a lot
 of self trust.
+
+### The Critic's Scenario
+
+Somebody who is very critical might object and argue that the probability
+of success is much lower, and even if cryonics succeeds, it will not
+lead to extremely long lifespans. Let's say they also don't believe in value
+drift. Such a person might propose the following assignment of variables:
+
+	curage=20
+	val_year=50000
+	prob_succ=0.01
+	years_gain=50
+	prob_pres=0.6
+	decay=1
+
+In this case, signing up for cryonics has negative value that converges
+to 0 the older one gets:
+
+	$ lua code/considerations_on_cryonics/cryoyear.lua | sort -n | tail -10
+	-71143.298064999: 69
+	-69325.035618691: 70
+	-67823.632764911: 71
+	-65775.204745266: 72
+	-63608.915373893: 73
+	-61712.099653397: 74
+	-59287.516105891: 75
+	-56737.221602181: 76
+	-54411.347049267: 77
+	-51599.108182402: 78
+
+Please note that the following graph should have negative value in the
+y-axis. This should get fixed sometime in the future.
+
+![Critical perspective on cryonics](./img/considerations_on_cryonics/critical.png "Critical perspective on cryonics. The older one get's, the less of a loss cryonics is, but it still stays a net negative trade.")
 
 ### Other Modifications
 

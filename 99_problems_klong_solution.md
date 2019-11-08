@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-10-28, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-11-08, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -15,8 +15,9 @@
 Acknowledgements
 ----------------
 
-s7 is by [nmh](http://t3x.org/nmh/index.html), who wrote it [in the
-Klong documentation](http://t3x.org/klong/klong-ref.txt.html).
+s7 is inspired by a function by
+[nmh](http://t3x.org/nmh/index.html), who wrote it [in the Klong
+documentation](http://t3x.org/klong/klong-ref.txt.html).
 [/u/John_Earnest](https://old.reddit.com/user/John_Earnest)
 provided a [more
 elegant](https://old.reddit.com/r/apljk/comments/59asq0/pack_duplicate_consecutive_elements_into_sublists/)
@@ -141,31 +142,43 @@ compare `x` and its reversion that way.
 
 ### P07 (**) Flatten a nested list structure.
 
-This particularly elegant solution is taken from the Klong
-[documentation]((http://t3x.org/klong/klong-ref.txt.html)). It applies
-the concatenation operator to the sublists of a list as long as the list
-changes with each operation, and then returns the list.
+This solution is taken from the Klong
+[documentation]((http://t3x.org/klong/klong-ref.txt.html)), while fixing
+a little problem. The original solution was `s7::{,/:~x}`, which applied
+the concatenation operator to the sublists of a list as long as the
+list changes with each operation, and then returned the list. However,
+that solution failed with nested lists that contain only one element:
+"If "a" is a single-element list, return the single element." (from the
+Klong documentation on Over). For flattening a list, that is not right:
+`s7([1])` should be `[1]`, not `1`. So this code differentiates between
+a list that only contains an atom, and returns that, or executes the original
+code otherwise.
 
-	s7::{,/:~x}
+	s7::{{:[@,/x;x;,/x]}:~x}
 	myflatten::s7
 
 Tests:
 
 		myflatten([:a [:b [:c :d] :e]])
 	[:a :b :c :d :e]
+		myflatten([0])
+	[0]
 
 This is also the result in the problems statement.
-Testing it with nested empty lists also works:
+
+Testing it with nested empty lists doesn't work:
 
 		myflatten([[] [[]] [[][]]])
-	[]
-
-Unfortunately, this solution fails with lists containing only one element:
-
-		myflatten([0])
-	0
+	[[] [] []]
 
 <!--TODO: Find a solution that doesn't do this.-->
+<!--
+Idea:
+
+	s7::{{:[@,/x;,,/x;,/x]}:~x}
+
+Returns `[[]]` for s7([[] [[]] [[][]]]).
+-->
 
 ### P08 (**) Eliminate consecutive duplicates of list elements.
 
@@ -1911,7 +1924,7 @@ shoots into Klongs stack and bugs everything out.
 > This … is a bug.
 > My god.
 > There's more.
-> Noo.
+> No.
 
 Occurs on this code:
 
@@ -1973,7 +1986,7 @@ Testing:
 	[[]]
 
 `hbaltree(2)` returns all height-balanced binary trees with height 3,
-I checked.<!--TODO: add images for all the different trees returnet by
+I checked.<!--TODO: add images for all the different trees returned by
 `hbaltree(3)`?--> One could modify `hbaltree` to return an error message
 for negative parameters, but since this is an exercise and not production
 code, this seems unnecessary here.
@@ -2036,8 +2049,6 @@ it would take roughly `$2.1s*2^{100} \approx 2.662*10^{30}s$`, which would be
 `$2.662*10^{30}s*\frac{1y}{3600s*24*365} \approx 8.44*10^{22}y$`. This is
 of course only a rough estimate, and may turn out to be entirely wrong
 if Group and Range don't have an exponential time complexity after all.
-
-<!--TODO: Shouldn't the exponential in the calculation be 1000, not 100?-->
 
 <!--TODO: more closely examine the code in the Klong implementation
 and perhaps write a replacement for Range? It doesn't _have_ to be
@@ -2193,7 +2204,7 @@ However, the difference in performance seems negligible, and `d5.1`
 has a shorter implementation, which makes it a better candidate.
 
 Now implementing `s60` is quite straightforward: Find out the minimal
-and the maximal height for completely balanced trees with `x` nodes,
+and the maximal height for height-balanced trees with `x` nodes,
 generate all balanced trees with those heights using `s59`, and then
 filter them for having `x` nodes using `s7` (flattening the tree and
 then checking the length of the resulting list).
@@ -2201,6 +2212,34 @@ then checking the length of the resulting list).
 	d4::{:[x=0;0;_ln(x)%ln(2)]}
 	d5::{:[x=0;0;_ln(0.6459+x*0.5279)%0.4812]}
 	s60::{[a];a::x;flr({a=#s7(x)};,/s59's22(d4(x);d5(x)))}
+
+Testing this:
+
+		s60(0)
+	[]
+		s60(1)
+	[[:x [] []]]
+		s60(2)
+	[[:x [] [:x [] []]] [:x [:x [] []] []]]
+		s60(3)
+	[[:x [:x [] []] [:x [] []]]]
+		s60(5)
+	[[:x [:x [] [:x [] []]] [:x [] [:x [] []]]]
+	[:x [:x [:x [] []] []] [:x [] [:x [] []]]]
+	[:x [:x [] [:x [] []]] [:x [:x [] []] []]]
+	[:x [:x [:x [] []] []] [:x [:x [] []] []]]
+	[:x [:x [] []] [:x [:x [] []] [:x [] []]]]
+	[:x [:x [:x [] []] [:x [] []]] [:x [] []]]]
+		#'s60'!12
+	[0 1 2 1 4 6 4 17 32 44 60 70]
+		s60(12)
+	kg: error: interrupted
+		:"aborted because of very long run-time"
+
+The problem here is quite obvious: `s59` is very slow for values ≥4,
+and 12 is the first value for which `d5` is 4. So this also
+means one needs to take another approach to find out what the
+number of heigh-balanced binary trees with 15 nodes is.
 
 <!--
 	minnodes::{:[x<1;0:|x=1;1;1+.f(x-1)+.f(x-2)]}
@@ -2211,7 +2250,6 @@ Seems to be the sum of the first `x` fibonacci numbers.
 
 Attempt, using the fibonacci number approach:
 TODO: currently incorrect.
--->
 
 	maxheight::{[k];k::x;#1_{k>+/x}{(+/2#x),x}:~[1 0]}
 
@@ -2223,6 +2261,8 @@ TODO: currently incorrect.
 	s60::{[n];n::x-1;:[x=0;,[0 []]:|x=1;,[1[:x]];
 			   {x@((~:'x),0)?0}:({x@<x}:(d8',/{d7(s60(*x);s60(*|x))}'
 			   flr({d4(*|x)<2+d5(*x)};{x,,n-x}'!1+n:%2)))]}
+-->
+<!--
 	s61::{:[*3=^x;.f(x@1)+.f(x@2);#x]}
 	s61a::{:[*3=^x;.f(x@1),.f(x@2);x]}
 	s62::{:[*3=^x;(*x),.f(x@1),.f(x@2);[]]}
@@ -2234,7 +2274,6 @@ TODO: currently incorrect.
 	s63::{:[0=x;[];
 		{(:x,:[y<2*x;[];,.f(x*2;y)]),:[y=2*x;,[]:|y<1+2*x;[];,.f(1+2*x;y)]}:(1;x)]}
 
-<!--
 Multiway Trees
 --------------
 
