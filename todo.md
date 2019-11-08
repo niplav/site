@@ -1,9 +1,9 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-10-29, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-11-08, language: english, status: notes, importance: 5, confidence: log*
 
-> __Notes and ideas for texts that will be written decades in the future.__
+> __Notes and ideas for texts & programs that will be written decades in the future.__
 
 TODO
 ====
@@ -64,6 +64,11 @@ Texts
 		wealthier is still a good idea.
 	* Read the post carefully
 	* Read up on the research
+* Missing the Movement
+	* "Most Hedonists end up sad!"
+	* "Utilitarianism leads to bad results!"
+	* "Rationalism leads to believing wrong things!"
+	* Related text: [Incremental Progress and the Valley](https://www.lesswrong.com/s/pvim9PZJ6qHRTMqD3/p/oZNXmHcdhb4m7vwsv)
 
 ### Analyses
 
@@ -84,6 +89,7 @@ Texts
 	* Direct Number on Street
 	* Direct Date on Street
 	* Direct Date off Street
+	* Cost-benefit analysis write-up
 * Actuarial tables for dictators
 * Ideology Transition Graphs
 	* When people move along ideologies, which paths do they take?
@@ -110,11 +116,6 @@ Texts
 * The “If Everyone Just” Argument
 	* The argument just assumes one of the biggest problems away: coordination and cooperation
 	* Related: [Malthusianisms](https://www.scottaaronson.com/blog/?p=418)
-* Missing the Movement
-	* "Most Hedonists end up sad!"
-	* "Utilitarianism leads to bad results!"
-	* "Rationalism leads to believing wrong things!"
-	* Related text: [Incremental Progress and the Valley](https://www.lesswrong.com/s/pvim9PZJ6qHRTMqD3/p/oZNXmHcdhb4m7vwsv)
 * Information and Markets:
 	* Explanation
 		* Information as a non-scarce good
@@ -146,11 +147,18 @@ Texts
 * Preference Frustration Auctions
 * The Tyranny of the Mill
 * Moral progress as an EA cause area?
+* Script based on all binary trees with maximal height 2
+	* no 's' sounds
 
 ### Collections
 
 * Simple Unsolved Math Problems
 * Differences Between GNU and POSIX `make`
+* Day Game Log
+	* Divided in sessions
+		* Divided into approaches
+		* Lesson per approach
+	* Lesson per session
 
 ### Other
 
@@ -166,7 +174,6 @@ Texts
 
 ### Misc
 
-* Project Ideas
 * Mistakes
 * Open Questions
 * Fundamentals
@@ -196,10 +203,11 @@ Music
 
 * The People United Will Never be Defeated (Rzewski)
 * Das Wohltemperirte Clavier
-* Beethoven Piano Sonatas
-* Schubert Impromptus
-* Chopin Nocturnes
-* Satie Gymnopédies/Gnosiemmes
+* Beethoven Piano Sonatas (Beethoven)
+* Impromptus (Schubert)
+* Nocturnes (Chopin)
+* Gymnopédies/Gnosiemmes (Satie)
+* Rhapsodie in Blue (Gershwin)
 
 Programming
 -----------
@@ -280,6 +288,34 @@ Programming
 		* '^' means that the following str is excluded from the matched text
 	* sif does not do input/output buffering and does treat whitespace as any other character.
 	* normally, everything is printed, unless the option '-n' is used.
+* pau
+	* vis-digraph reads from the terminal input directly and emulates the input of the corresponding character
+		* uses table from RFC 1345
+			* Seems not extendable, damn
+	* if vis-digraph extendable, add:
+		* Interrobang	‽	?!
+		* Join	⋈	><
+		* Expected value	𝔼	|E
+		* Real numbers	ℝ	|R
+		* Integers        ℤ       |Z
+		* Natural numbers	ℕ	|N
+		* Triple e	≡	3=
+		* Approximately e	≈	~~
+		* Subscript a	ₐ	_a / as
+		* Subscript e	ₑ	_e / es
+		* Subscript h	ₕ	_h / hs
+		* Subscript k	ₖ	_k / ks
+		* Subscript l	ₗ	_l / ls
+		* Subscript m	ₘ	_m / ms
+		* Subscript n	ₙ	_n / ns
+		* Subscript o	ₒ	_o / os
+		* Subscript p	ₚ	_p / ps
+		* Subscript s	ₛ	_s / ss
+		* Subscript t	ₜ	_t / ts
+		* Superscript i	ⁱ	^i
+		* Superscript n	ⁿ	^n
+	* daemon that catches such digraphs and emulates them as if they were typed, using vis-digraph
+* mtfs: plan9 file server for a file that returns the current metric time on read
 
 ### Klong Libraries
 
@@ -332,6 +368,20 @@ Programming
 	* not much more, really
 * neo2
 	* port neo2 to plan9/9front/Haiku OS
+* klong
+	* receiving output of shell commands via pipe
+	* receiving output of shell commands (maybe via pipe?)
+	* self adverb (options are :!, :&, :,, :;, :<, :>, :?)
+		* :< and :> should be reserved for something symetric
+		* :; is not fit because ; is not really a verb or adverb
+		* :!, :&, :? and :, are the best options
+	* support for imaginary numbers?
+	* nplot
+		* Support for multiple bargraphs
+		* Bargraphs with negative values
+	* Range is extremely slow for anything but integers, why?
+	* error with klong: `#'s58'!40` returns `kg: error: call: type error: [[6 :triad %call1 %pop1]`
+		* bug, report
 * dc 9base manpage:
 	* typo in the order of operations in the manpage
 

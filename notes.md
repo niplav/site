@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-10-22, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2019-11-08, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -340,8 +340,3 @@ Considerations on Cryonics
 --------------------------
 
 Moved to a [separate page](./considerations_on_cryonics.md).
-
-<!--
-Daygame Cost-Benefit Calculation
---------------------------------
--->
