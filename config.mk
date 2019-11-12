@@ -24,6 +24,7 @@ HTML=index.html \
 	haiku.html \
 	masturbation_and_attractiveness.html \
 	metamodernistisches_manifest.html \
+	naive_set_theory_solutions.html \
 	pipe_rings.html \
 	platte.html \
 	rationalist_gods.html \
