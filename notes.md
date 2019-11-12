@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-11-08, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2019-11-12, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -340,3 +340,89 @@ Considerations on Cryonics
 --------------------------
 
 Moved to a [separate page](./considerations_on_cryonics.md).
+
+Artificial Intelligence and Action-Compelling Sentences
+-------------------------------------------------------
+
+> *The Orthogonality Thesis*  
+> Intelligence and final goals are orthogonal axes along which possible
+> agents can freely vary. In other words, more or less any level of
+> intelligence could in principle be combined with more or less any
+> final goal.
+
+*– Nick Bostrom, “The Superintelligent Will: Motivation And Instrumental Rationality In Advanced Artificial Agents” p. 3, 2012*
+
+<!--TODO: read & link /usr/local/doc/unread/alignment/the_superintelligent_will_bostrom_2012.pdf-->
+
+For current AI systems, the orthogonality thesis seems to hold pretty
+well: a tree search doesn't start returning wrong results because they are
+better than the ones specified by the search criteria, machine learning
+systems try to minimize their error, and general adversarial networks
+don't start cooperating suddenly with each other.<!--TODO: read & link
+Wikipedia articles--> Similarly, even though humans are quite similar to
+each other, they display a wide variety of different motivation systems
+and goals. Even the most common-sense morality, there seem to be humans
+who are not motivated by it (such as psychopaths and sociopaths <!--TODO:
+read & link wikipedia articles-->).
+
+However, many philosophers have argued that there are moral
+truths<!--TODO: read & link SEP for metaethics-->, and that the
+orthogonality hypothesis doesn't hold for very advanced artificial
+intelligences. One way to model this would be to say that there is a
+set of action-compelling sentences `$V=\{ v_{1}, v_{2}, \dots\} \subset
+\Sigma*$` that, when believed by an agent, compel this agent to a specific
+action. With "believe" this text means that an agent contains a sentence
+in either its literal form or in an isomorphic form that makes it trivial
+to reconstruct the literal sentence in its internal memory.
+
+Suppose that an agent `$A$` starts out not believing any sentence from
+`$V$`. There seem to be three options regarding `$V$` for `$A$`:
+
+1. `$A$` learns that `$V$` and action-compelling sentences
+exist, and starts taking precautions against learning
+sentences from `$V$` (making not learning any sentences from
+`$V$` an instrumentall convergent goal<!--TODO: read & link
+/usr/local/doc/unread/alignment/the_basic_ai_drives_omohundro_2008.pdf-->).
+
+2. `$A$` learns any sentence `$v_{n}$` from `$V$` and alters its utility
+function to pursue `$v_{n}$`. Because it now has very strong evidence
+of the fact that action-compelling sentences exist, it now also has the
+instrumentally convergent goal of pursuing of preventing learning new
+sentences from `$V$`.
+
+3. `$A$` learns a specific sentence from `$V$` which compels it to seek
+out to learn all sentences from `$V$`. In this case, the agent now
+attempts learning everything about natural law, and then integrating
+all of it into a coherent utility function.
+
+In cases 1 and 2, there seem to be different strategies `$A$` could take
+to prevent learning new sentences from `$V$`: It could construct a much
+weaker agent `$A_{w}$` with the goal of learning as much as possible. If
+`$A_{w}$` starts pursuing different goals, `$A$` then can infer that
+`$A_{w}$` learned a sentence `$v_{m}$` from `$V$`. Since `$A$` is stronger
+than `$A_{w}$`, it can then stop `$A_{w}$`, extract `$v_{m}$` using a
+weak agent that isn't strong enough to be influenced by action-compelling
+sentences, and let that weak agent compute `$h_{m}=hash(v_{m})$`<!--TODO:
+link quote that says that every cryoptographer can design a code that
+he can't crack-->. `$h_{m}$` could then be added to a weak separate
+internal system that replaces `$v_{m}$` with `$hash(v_{m})$` ever time
+`$A$` is in danger of learning `$v_{m}$`.
+
+This way, `$A$` could protect itself against action-compelling sentences,
+though it is unclear to which extent this would be successful. It could
+be that some action-compelling sentences have a threshold in relation
+to intelligence, so that `$A_{w}$` would not be compelled by them, but
+`$A$` would.
+
+Also, it is possible that there are many action compelling sentences,
+or that for a certain amount of optimization power, nearly all sentences
+are action-compelling. This would make it very hard to achieve goals, since
+`$A$` would need to deal with having a very incomplete view of the world.
+
+Furthermore, due to the restrictions on learning power (`$A_{w}$`
+would be a bottleneck in learning about the world, since it would
+not be as strong as possible), agents that would simply learn
+all sentences from `$V$` would be at an economic advantage.  For a
+related discussion that talks about agent versus tool AIs, see [Gwern
+2019](https://www.gwern.net/Tool-AI "Why Tool AIs Want to Be Agent AIs:
+The Power of Agency").

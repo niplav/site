@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-10-29, language: english, status: notes, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-11-12, language: english, status: notes, importance: 4, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -17,6 +17,10 @@ the middle where everything is the same
 
 <!--
 Instead of Student's t-test a survival analysis?
+Or a one-sided test?
+
+Will the data sets be normally distributed?
+→ If not, use Mann-Whitney U-Test.
 -->
 
 Abstract
@@ -346,7 +350,7 @@ demographic as most members of the NoFap community.
 
 Data was collected as follows:
 
-I abstained from masturbating from 2019-10-21T00:45 to \_, resulting
+I abstained from masturbating from 2019-11-12T00:45 to \_, resulting
 in >90 days of abstinence from masturbation (which is also the period
 [recommended by the NoFap community](https://nofap.com/rebooting/):
 "NoFap’s gold standard of success is our 90-day reboot."). From \_

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-11-08, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-11-12, language: english, status: notes, importance: 5, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades in the future.__
 
@@ -187,6 +187,21 @@ Texts
 
 * Homeless Super-Mathematicians
 	* Perhaps in the SCP format?
+* Skalpell Bizeps
+
+> 11-uhr-luft liegt rauh auf dem parkplatzboden.  in den ritzen des
+asphalt streitet sich krepierender löwenzahn mit ausgeblichenen
+zigarettenstummeln um platz. abblätternde farbe liegt dazwischen,
+obwohl die altbauten noch ein paar hundert meter entfernt liegen.
+
+* myzel
+
+> moderne kapitalistische verteilung ist weder zentralisiert noch
+dezentralisiert, sie ist myzelisch, verwaberndes, meist unsichtbares
+gewebe in einem fruchtbaren umfeld, mit anhäufungen, ballungen und
+kumulationen von produktionszentren – zur festigkeit verdichtetes
+gewebe dort fassbar, wo es sich am wenigsten äußert. werden als
+eine kontingente verschmelzung von fast-sein und konkretheit"
 
 ### Translations
 
@@ -380,7 +395,7 @@ Programming
 		* Support for multiple bargraphs
 		* Bargraphs with negative values
 	* Range is extremely slow for anything but integers, why?
-	* error with klong: `#'s58'!40` returns `kg: error: call: type error: [[6 :triad %call1 %pop1]`
+	* error with klong: `#'s58'!40` returns `kg: error: call: type error: [6 :triad %call1 %pop1]`
 		* bug, report
 * dc 9base manpage:
 	* typo in the order of operations in the manpage

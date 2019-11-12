@@ -1,12 +1,20 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-11-02, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-11-12, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
+
+November 2019
+-------------
+
+### Writing
+
+* Notes
+	* [Artificial Intelligence and Action-Compelling Sentences](./notes.html#Artificial-Intelligence-and-ActionCompelling-Sentences)
 
 October 2019
 ------------
@@ -14,7 +22,6 @@ October 2019
 ### Writing
 
 * [Considerations on Cryonics](./considerations_on_cryonics.md)
-* [Masturbation and Attractiveness](./masturbation_and_attractiveness.md)
 
 September 2019
 --------------
