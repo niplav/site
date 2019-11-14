@@ -1,9 +1,12 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2019-11-12, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2019-11-14, language: english, status: in progress, importance: 2, confidence: likely*
 
-> __.__
+> __[“Naive Set
+> Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
+> by Paul Halmos is a short introduction to set theory. Here, I present
+> solutions to the explicitely stated exercises and problems in that book.__
 
 Solutions to “Naive Set Theory“
 ================================
@@ -333,3 +336,19 @@ the size of `$A$` is the size of `$M$`.
 
 These conditions characterise `$\cal{M}$` intrinsically and are the solution
 to the question.
+
+Section 6, Exercise 1
+----------------------
+
+(i) To be shown: `$(A \cup B) \times X=(A \times X) \cup (B \times X)$`
+
+Proof:
+
+<div>
+	$$(A \cup B) \times X=\\
+	\{(e, x): \forall e \in A \lor e \in B, x \in X\}=\\
+	\{(e, x): \forall e \in A, x \in X\} \cup \{(e, x): \forall e \in B, x \in X\}=\\
+	(A \times X) \cup (B \times X)$$
+</div>
+
+□
