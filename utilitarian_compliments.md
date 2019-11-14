@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-26, modified: 2019-10-18, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-09-26, modified: 2019-11-14, language: english, status: in progress, importance: 3, confidence: unlikely*
 
 > __People seem to derive happiness from compliments. Therefore,
 > altruistic consequentialists may be sometimes motivated to compliment
@@ -21,7 +21,7 @@ they get them and are very happy about them.
 This creates a good opportunity for utilitarians (both hedonic and
 preference) to use otherwise wasted time. Since there is often time
 where one has nothing to do (e.g waiting at a trainstation, an airport,
-or while at the checkout line at the grocery store)) and that can't
+or while at the checkout line at the grocery store) and that can't
 be used productively otherwise, a utilitarian could make somebody a
 compliment in that time. This is of course only advisable if the time
 can't be used productively otherwise (for example by earning money to
@@ -213,7 +213,7 @@ and the compliment-receiver, and the time-frame of the worth of the
 compliment. Compare them.  Data source: Reddit search for "compliment",
 "best compliment", "top compliment", analyse first 10 threads.  Other
 datapoints worth considering: was it taken as advice, which situation
-(acquaintance, stranger, unknown-->
+(acquaintance, stranger, unknown)-->
 
 <!--
 * https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/

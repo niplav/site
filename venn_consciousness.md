@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-15, modified: 2019-10-18, language: english, status: notes, importance: 5, confidence: theory*
+*author: niplav, created: 2019-08-15, modified: 2019-11-14, language: english, status: notes, importance: 5, confidence: theory*
 
 > __Many people have very different conceptions on how to think about
 > consciousness, intelligence, sentience and information processing. A
@@ -10,6 +10,14 @@
 
 Using Venn Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience
 =========================================================================================
+
+To read: Wikipedia articles on
+
+* Consciousness
+* Sentience
+* Sapience
+* Intelligence
+* Information processing
 
 Relevant Classes
 ----------------

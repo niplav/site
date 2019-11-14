@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-11-12, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-11-14, language: english, status: notes, importance: 5, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades in the future.__
 
@@ -146,9 +146,18 @@ Texts
 * Infinite Fractal Meta Recursion
 * Preference Frustration Auctions
 * The Tyranny of the Mill
+	* The Hedonic Treadmill is very good & very bad
 * Moral progress as an EA cause area?
-* Script based on all binary trees with maximal height 2
+* Writing system based on all binary trees with maximal height 2
 	* no 's' sounds
+* Moving the Lever Closer
+	*	Due to an asymmetry in human decision making, making somebody
+		causally more responsible for a negative action makes them less
+		likely to take that action
+	* Related: The bystander effect
+* Salty fries
+	* Buy something, that creates a need for something else (software <-> support, salty fries <-> drinks)
+* Running Away from Your Problems
 
 ### Collections
 

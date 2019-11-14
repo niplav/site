@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2019-11-08, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2019-11-14, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Many people
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html).
@@ -29,11 +29,11 @@ Or would I fall asleep, not knowing what it’s like to feel alive?
 Many would-be cryonicists cryocrastinate, i.e they put off signing
 up for cryonics until a later point in their life. This has often been
 explained by the fact that signing up for cryonics seems to [require high
-conscientiousness](https://www.lesswrong.com/posts/hiDkhLyN5S2MEjrSE/normal-cryonics)
-and can be easily put off to another point in life. However, it hasn't
-yet been explored whether this procrastination might be rational: Many
-cryonics organisations have high membership fees, which might be avoided
-by waiting.
+conscientiousness](https://www.lesswrong.com/posts/hiDkhLyN5S2MEjrSE/normal-cryonics
+"Normal Cryonics") and can be easily put off to another point in
+life. However, it hasn't yet been explored whether this procrastination
+might be rational: Many cryonics organisations have high membership fees,
+which might be avoided by waiting.
 
 To find this out, I present a point-estimate model of whether (and
 if yes, when) to sign up for cryonics. The model is written in
@@ -69,9 +69,9 @@ Cost-Benefit Calculation for Cryonics
 
 To find out whether to sign up for cryonics at all, one needs
 to make a cost-benefit calculation. This has been [attempted
-before](http://www.overcomingbias.com/2009/03/break-cryonics-down.html),
-but that analysis has been rather short and it might be productive to
-approach the topic independently.
+before](http://www.overcomingbias.com/2009/03/break-cryonics-down.html
+"Break Cryonics Down"), but that analysis has been rather short and it
+might be productive to approach the topic independently.
 
 Costs are comparatively easy to calculate and contain little uncertainty:
 The costs of cryopreservation and life-insurance are widely known, and
@@ -375,7 +375,8 @@ up (tens of hours spent), social costs by seeming weird and many more
 (though cryonics is easy to hide, and most cryonicists seem to be rather
 vocal about it anyways), and alienating family members who necessarily
 come into contact with cryonics (considering the ["Hostile Wife
-Phenomenon"](https://www.biostasis.com/is-that-what-love-is-the-hostile-wife-phenomenon-in-cryonics/)).
+Phenomenon"](https://www.biostasis.com/is-that-what-love-is-the-hostile-wife-phenomenon-in-cryonics/
+"Is That What Love is? The Hostile Wife Phenomenon in Cryonics")).
 
 Calculating the Benefit
 -----------------------
@@ -502,13 +503,12 @@ A superintelligence becomes a
 [singleton](https://en.wikipedia.org/wiki/Singleton_(global_governance))
 and starts behaving malevolently either because of a [near
 miss](https://reducing-suffering.org/near-miss/ "Astronomical
-suffering from slightly misaligned artificial intelligence")
-in its implementation or or because it attempts to perform
-[acausal trade](https://wiki.lesswrong.com/wiki/Acausal_trade)
-with people in the past. This would lead to
-cryopreserved people being reuscitated, scanned as
-[ems](http://www.overcomingbias.com/2009/11/bad-emulation-advance.html),
-copied and put into very painful conditions.
+suffering from slightly misaligned artificial intelligence") in
+its implementation or or because it attempts to perform [acausal
+trade](https://wiki.lesswrong.com/wiki/Acausal_trade) with people in
+the past. This would lead to cryopreserved people being reuscitated,
+having their brains scanned and executed as a brain emulation, copied
+and put into very painful conditions.
 
 ##### Information from the Past is Valuable
 
@@ -535,10 +535,11 @@ his/her discretion attach to this Agreement.
 
 *– [Alcor Life Extension Foundation](https://www.alcor.org/), [“Cryopreservation Agreement”](./doc/considerations_on_cryonics/cryopreservation_agreement_alcor_2012.pdf) p. 15/16, 2012*
 
-Although not a failsafe measure, steps can be taken to reduce the
-risks from hellish scenarios above by making arrangements with cryonics
-organisations. This may include not wanting cryopreservation to continue
-in an ascended economy, objecting to revival as an emulation or revival
+Although not a failsafe measure, steps can be taken to reduce
+the risks from hellish scenarios above by making arrangements with
+cryonics organisations. This may include not wanting cryopreservation
+to continue in an ascended economy, objecting to revival as an
+[emulation](https://en.wikipedia.org/wiki/Brain_emulation) or revival
 after more than a certain number of years (to prevent being reuscitated
 in an incomprehensibly strange and alien world).
 
