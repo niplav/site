@@ -1,12 +1,13 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2019-11-14, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2019-11-15, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
-> by Paul Halmos is a short introduction to set theory. Here, I present
-> solutions to the explicitely stated exercises and problems in that book.__
+> by [Paul Halmos](https://en.wikipedia.org/wiki/Paul_Halmos) is a short
+> introduction to set theory. Here, I present solutions to the explicitely
+> stated exercises and problems in that book.__
 
 Solutions to “Naive Set Theory“
 ================================

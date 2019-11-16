@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-11-12, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2019-11-15, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -20,7 +20,7 @@ figuring out what “everything” is supposed to contain.
 
 One possible method one could use to get
 an overview of everything is to use [Wikipedia's
-contents:Outlines](https://en.wikipedia.org/wiki/Portal:Contents/Outlines):
+Contents:Outlines](https://en.wikipedia.org/wiki/Portal:Contents/Outlines):
 it contains a list of all
 [outlines](https://en.wikipedia.org/wiki/Outline_(list)) on Wikipedia,
 and is well structured. Wikipedia is generally concise and complete
@@ -30,7 +30,7 @@ enough to provide a sufficient overview over a topic (see [Tomasik
 completely, one could use the following method:
 
 Read [Wikipedia's
-contents:Outlines](https://en.wikipedia.org/wiki/Portal:Contents/Outlines)
+Contents:Outlines](https://en.wikipedia.org/wiki/Portal:Contents/Outlines)
 from top to bottom. If a link is a link to a Wikipedia article, open it
 and read it, without opening any further links. If a link leads to an
 outline, open the link and recursively apply the same procedure to the
@@ -335,6 +335,56 @@ Personal proposals:
 * '{}': Braces
 * '\': Whack
 * '?': What
+
+### "Sentience"
+
+> In the philosophy of
+[consciousness](https://en.wikipedia.org/wiki/Consciousness),
+sentience can refer to the ability of any entity to have subjective
+perceptual experiences, or as some philosophers refer to them,
+"[qualia](https://en.wikipedia.org/wiki/Qualia)". […]  
+In the philosophies of animal welfare and rights, sentience implies the
+ability to experience [pleasure](https://en.wikipedia.org/wiki/Pleasure)
+and [pain](https://en.wikipedia.org/wiki/Suffering).
+
+*– English Wikipedia, [“Sentience”](https://en.wikipedia.org/wiki/Sentience), 2019*
+
+Very often, the word "sentience" is used to refer to the ability to
+feel pleasure or pain, or, to be more general, have experiences with a
+valence<!--TODO: add link-->. However, the strict philosophical definition
+of "sentience" does not necessarily entail the ability to feel pleasure
+or pain, just that some qualia can be experienced. Although it is very
+often assumed that sentience necessarily entails pleasure and pain,
+it might still be worthwhile making a distinction between the two.
+
+> "Sentients" is usually defined as beings that are capable of
+subjectively perceiving or feeling by means of the senses. This includes
+not only beings capable of the feeling of being happy and/or unhappy,
+but also includes beings just capable of perceiving things without having
+any affective feeling. In principle, it is possible for some sentients
+to be capable of perceiving the external world but without feeling
+happy or unhappy. One could have sensations of perceiving different
+colours without enjoying or disliking seeing them; one could have the
+sensation of being touched or even being squeezed without feeling pain or
+pleasure. Such non-affective sentients really do not have any positive
+or negative welfare. Their welfare is necessarily zero, just like non-
+sentients. Hence, for the purpose here, the important dividing line is
+not between sentients and non-sentients, but between affective sentients
+and non-affective beings (sentient or non-sentient).
+
+*– Yew-Kwang Ng, [“Towards Welfare Biology: Evolutionary Economics of Animal Consciousness and Suffering”](.doc/better_words/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf)
+
+Thus, it seems desirable to differentiate between the ability to have
+subjective experiences ("sentience") and the ability to have affective
+subjective experiences.
+
+Alternatives:
+
+* Affective sentience
+
+Personal proposals:
+
+* Valience (the ability to have experiences with a valence component)
 
 Considerations on Cryonics
 --------------------------

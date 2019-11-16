@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-11-12, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-11-15, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -15,6 +15,8 @@ November 2019
 
 * Notes
 	* [Artificial Intelligence and Action-Compelling Sentences](./notes.html#Artificial-Intelligence-and-ActionCompelling-Sentences)
+	* Better Names
+		* [Better Names for "Sentience"](./notes.html#Sentience)
 
 October 2019
 ------------

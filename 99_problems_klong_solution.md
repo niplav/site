@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-11-08, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-11-14, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -2242,6 +2242,9 @@ means one needs to take another approach to find out what the
 number of heigh-balanced binary trees with 15 nodes is.
 
 <!--
+TODO: understand, clean up, explain & test this code
+Write down the solution.
+
 	minnodes::{:[x<1;0:|x=1;1;1+.f(x-1)+.f(x-2)]}
 
 Seems to be the sum of the first `x` fibonacci numbers.

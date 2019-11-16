@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-11-14, language: english, status: draft, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-11-15, language: english, status: draft, importance: 4, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -73,19 +73,23 @@ and 15% to any other result.
 ### Reasoning
 
 If it were true that abstinence from masturbation increased
-attractiveness to the opposite sex, evolutionary pressure would
-have selected men who abstain from masturbating, since they generate
-a higher number of offspring. This would be true regardless of the
-specific way in which abstinence from masturbation increases fitness,
-be it pheromones, microexpressions or any other reason. Indeed,
-one could suppose that masturbation is reproductively beneficial,
-since it has apparently been selected for by natural and/or sexual
-selection. <!--TODO: search for examples of animal species masturbating,
+attractiveness to the opposite sex, evolutionary pressure would have
+selected men who abstain from masturbating, since they generate
+a higher number of offspring. This would be true regardless
+of the specific way in which abstinence from masturbation
+increases fitness, be it pheromones, microexpressions or any
+other reason. Indeed, one could suppose that masturbation is
+reproductively beneficial, since it has apparently been selected
+for by natural and/or sexual selection. "Major mechanisms that do not
+contribute to fitness do not survive in evolutionary equilibrium." ([Ng
+1995](./doc/better_words/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf) p. 9).
+<!--TODO: search for examples of animal species masturbating,
 as well as the reasoning about the evolutionary reasons for masturbation:
 https://en.wikipedia.org/wiki/Non-reproductive_sexual_behavior_in_animals#Autoeroticism_or_masturbation,
-https://en.wikipedia.org/wiki/Masturbation#Evolutionary_utility--> This
-reasoning is imperfect, because it may very well be that masturbation is
-an adaption that was useful in environments with low numbers of people,
+https://en.wikipedia.org/wiki/Masturbation#Evolutionary_utility-->
+
+This reasoning is imperfect, because it may very well be that masturbation
+is an adaption that was useful in environments with low numbers of people,
 but is not very adaptive in industrialized, anonymous and big societies
 where not reproduction, but sex is the most important consideration.
 
