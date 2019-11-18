@@ -722,6 +722,17 @@ Example:
 		countleaves([:x [:x [] []] [:x [:x [] []] [:x [] []]]])
 	3
 
+### P61A (*) Collect the leaves of a binary tree in a list.
+
+As stated in the previous problem, a leaf is a node with no successors.
+Write a function `leaves` to collect them in a list.
+
+Example:
+
+		leaves([:a [:b [] []] [:c [:d [] []] []]])
+	[:b :d]
+		leaves([:x [:x [] []] [:x [:x [] []] [:x [] []]]])
+	[:x :x :x]
 
 ### P62 (*) Collect the internal nodes of a binary tree in a list.
 
