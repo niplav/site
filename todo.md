@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-11-14, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-11-17, language: english, status: notes, importance: 5, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades in the future.__
 
@@ -103,6 +103,10 @@ Texts
 		* Libertarianism, Minarchism, Anarcho-Capitalism
 		* Conservativism, Alt-Right, National Socialism, Fascism
 	* One part with freely choosable ideologies
+* Dice Chains
+	*	Throw n dice as long as the sum of their values is higher
+		than the previous throw. What is the probability
+		distribution on the length of the run?
 
 ### Ideas
 
@@ -168,6 +172,25 @@ Texts
 		* Divided into approaches
 		* Lesson per approach
 	* Lesson per session
+* Better Mathematical Notation
+	*	Mathematical notation is not a planned and systematic
+		endeavour, but the result of a long process of generation
+		and selection of different notations. Here I collect
+		contemporary ideas for better notation, and discuss old &
+		discarded methods of writing mathematics.
+	* Discarded Methods
+		* https://en.wikipedia.org/wiki/Begriffsschrift
+		* https://en.wikipedia.org/wiki/Newton%27s_notation#Newton's_notation
+	* New Notations
+		* General
+			* https://www.stephenwolfram.com/publications/mathematical-notation-past-future/
+			* /usr/local/doc/unread/towards_a_better_notation_for_mathematics_olah_2010.pdf
+		* Triangle of Power
+			* https://www.youtube.com/watch?v=sULa9Lc4pck
+			* https://math.stackexchange.com/questions/30046/alternative-notation-for-exponents-logs-and-roots
+			* http://www.solidangl.es/2015/04/a-radical-new-look-for-logarithms.html
+	* Read
+		* /usr/local/doc/unread/notation/notation_as_a_tool_of_thought_iverson_1986.pdf
 
 ### Other
 
@@ -194,6 +217,24 @@ Texts
 
 ### Fiction
 
+* A Religion
+	*	A pseudo-mathematical religion combining several
+		unrelated ideas is presented and explained.
+		Inspired by [Unsong](http://unsongbook.com/)
+	* Ingredients
+		* Timelessness
+			* Plotinus
+		* Tegmark's Mathematical Universe
+			* /usr/local/doc/unread/physics/our_mathematical_universe_tegmark_2014.epub
+		* Symmetry Theory of Valence
+			* /usr/local/doc/unread/principia_qualia_johnson_2017.pdf
+		* Scott Alexander's Solution to Theodicy
+			https://slatestarcodex.com/2015/03/15/answer-to-job/
+	* Explanation
+		* Creation
+		* God
+		* Heaven
+		* Hell
 * Homeless Super-Mathematicians
 	* Perhaps in the SCP format?
 * Skalpell Bizeps

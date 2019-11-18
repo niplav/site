@@ -13,9 +13,7 @@ HTML=index.html \
 	99_klong_problems.html \
 	99_problems_collection.html \
 	99_problems_klong_solution.html \
-	a_religion.html \
 	against_applause.html \
-	better_mathematical_notation.html \
 	buch_stab.html \
 	considerations_on_cryonics.html \
 	circle_combinations.html \

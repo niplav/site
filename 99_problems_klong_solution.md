@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-11-14, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-11-17, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -2265,10 +2265,62 @@ TODO: currently incorrect.
 			   {x@((~:'x),0)?0}:({x@<x}:(d8',/{d7(s60(*x);s60(*|x))}'
 			   flr({d4(*|x)<2+d5(*x)};{x,,n-x}'!1+n:%2)))]}
 -->
+
+### P61 (*) Count the leaves of a binary tree.
+
+A node in the list is a leaf if both its subnodes are the empty list.
+This way, one can write a very simple recursive function that traverses
+the tree and adds up the number of leaves in its subnodes.
+Here, an empty list is not a leaf, but a node with two empty subnodes
+is a leaf.
+
+	s61::{:[[]~x;0:|[[][]]~1_x;1;.f(x@1)+.f(x@2)]}
+	countleaves::s61
+
+Tests:
+
+		countleaves([:x [] []])
+	1
+		countleaves([])
+	0
+		countleaves([:x [:x [] []] [:x [:x [] []] [:x [] []]]])
+	3
+		countleaves([:x])
+	kg: error: index: range error: 2
+
+Everything works as intended.
+
+### P61A (*) Collect the leaves of a binary tree in a list.
+
+This problem is very similar to P61, in fact, its solution can be used
+to solve P61 more easily.
+One can again traverse the tree recursively, this time concatenating
+nodes that have two empty subnodes.
+
+	s61a::{:[[]~x;x:|[[][]]~1_x;1#x;.f(x@1),.f(x@2)]}
+	leaves::s61a
+
+Testing this reveals that it works:
+
+		leaves([])
+	[]
+		leaves([:x [][]])
+	[:x]
+		leaves([:a [:b [] []] [:c [:d [] []] []]])
+	[:b :d]
+		leaves([:x [:x [] []] [:x [:x [] []] [:x [] []]]])
+	[:x :x :x]
+
+In fact, one can use `s61a` to implement a much shorter version of `s61`:
+
+	s61::{#s61a(x)}
+
+### P62 (*) Collect the internal nodes of a binary tree in a list.
+
+	s61a::{:[[]~x;x:|~[[][]]~1_x;1#x;.f(x@1),.f(x@2)]}
+
 <!--
-	s61::{:[*3=^x;.f(x@1)+.f(x@2);#x]}
-	s61a::{:[*3=^x;.f(x@1),.f(x@2);x]}
-	s62::{:[*3=^x;(*x),.f(x@1),.f(x@2);[]]}
+
 	s62b::{:[y=1;*x:|3>#x;[];.f(x@1;y-1),.f(x@2;y-1)]}
 	d9::{y:=(,x,y@z),z}
 	s62c::{{[n];:[(1+z)>#y;n::y,,[];n::y];
