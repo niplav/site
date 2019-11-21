@@ -52,9 +52,6 @@ X=duringm, Y=afterm
 tstt(duringm;afterm;0.05)
 tstt(duringm;afterm;0.01)
 
-:"I'm not sure whether these actually have any meaning: TODO: think about"
-:"whether the losses in previous stages lead to misleading values here"
-
 .p("
 X=duringf.toignored, Y=afterf.toignored
 ")
