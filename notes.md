@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-11-15, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2019-11-19, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -380,11 +380,11 @@ subjective experiences.
 
 Alternatives:
 
-* Affective sentience
+* "Affective sentience"
 
 Personal proposals:
 
-* Valience (the ability to have experiences with a valence component)
+* "Valience" (the ability to have experiences with a valence component)
 
 Considerations on Cryonics
 --------------------------

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-08, modified: 2019-10-20, language: english, status: finished, importance: 4, confidence: highly likely*
+*author: niplav, created: 2019-02-08, modified: 2019-11-19, language: english, status: finished, importance: 4, confidence: highly likely*
 
 > __Imagine getting up every morning and throwing a coin so often that
 > heads and tails have come up an equal amount of times. How often
@@ -11,7 +11,8 @@
 Equally Many Heads and Tails
 ============================
 
-This thought experiment can be modeled as a simple [expected value](https://en.wikipedia.org/wiki/Expected_value)
+This thought experiment can be modeled as a simple
+[expected value](https://en.wikipedia.org/wiki/Expected_value)
 calculation in a countably infinite case:
 
 <div>
@@ -40,7 +41,7 @@ After starting, we have flipped the coin 2 times, so the possible solutions are:
 	T;H
 	T;T
 
-We are done in two cases, H;T and T;H. p₂ therefore is
+We are done in two cases, H;T and T;H. p₁ therefore is
 `$\frac{2}{4}=0.5$`. We then continue flipping the coin 2 more times,
 starting with either H;H or T;T, with the following possible results:
 
@@ -93,8 +94,8 @@ Here, the sequences `H;H;H;T;T;T, H;H;T;H;T;T, T;T;T;H;H;H,T;T;H;T;H;H`
 finish, so given six coin flips, the chance of finishing is
 `$\frac{4}{24}=0.1666666\dots$`.
 
-Now writing it down gets messy, but we have already observed enough
-iterations to find a pattern in the sequences.
+Writing down the next step gets messy, but we have already observed
+enough iterations to find a pattern in the sequences.
 
 ### Considerations on Coin Flips
 

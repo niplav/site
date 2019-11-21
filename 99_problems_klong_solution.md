@@ -2317,10 +2317,10 @@ In fact, one can use `s61a` to implement a much shorter version of `s61`:
 
 ### P62 (*) Collect the internal nodes of a binary tree in a list.
 
-	s61a::{:[[]~x;x:|~[[][]]~1_x;1#x;.f(x@1),.f(x@2)]}
-
 <!--
 
+	s62::{:[[]~x;x:|~[[][]]~1_x;1#x;.f(x@1),.f(x@2)]}
+	s62::{:[(3=#x)&~[[][]]~1_x;.f(x@1),.f(x@2),1#x;[]]}
 	s62b::{:[y=1;*x:|3>#x;[];.f(x@1;y-1),.f(x@2;y-1)]}
 	d9::{y:=(,x,y@z),z}
 	s62c::{{[n];:[(1+z)>#y;n::y,,[];n::y];

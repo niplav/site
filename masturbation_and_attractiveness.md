@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-11-15, language: english, status: draft, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-11-20, language: english, status: draft, importance: 4, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -26,9 +26,9 @@ Will the data sets be normally distributed?
 Abstract
 --------
 
-Members of the NoFap community frequently claim that male physical
-attractiveness is causally influenced by the frequency and duration
-since the last occurence of masturbation.
+Members of the NoFap community<!--TODO: link--> frequently claim that
+male physical attractiveness is causally influenced by the frequency
+and duration since the last occurence of masturbation.
 
 I present a method to test this claim (albeit imperfectly) by approaching
 200 people in the street after 90 days of abstinence from masturbation and
@@ -39,7 +39,7 @@ Preregistration
 ---------------
 
 To avoid p-hacking and other practices, the bulk of this text
-was written before the actual experiment and data analysis was
+as written before the actual experiment and data analysis was
 conducted, and posted<!--TODO: when posted, put link here--> on
 the [NoFap subreddit](https://old.reddit.com/r/NoFap/) as well as
 to the subreddit [/r/niplav](https://old.reddit.com/r/niplav),
@@ -49,11 +49,12 @@ tampering with the content of the article, because reddit titles [can't be
 changed](https://old.reddit.com/wiki/faq#wiki_i_made_a_mistake_in_my_submission_title.2C_how_can_i_edit_it.3F)
 by users of reddit.
 
-The pre-registered hypothesis shall thus be: Let `$\mu_{during}$` be
-the expected value of cold approach with women during a long period of
-abstinence from masturbation, and `$\mu_{after}$` be the expected value
-of cold approach with women after a week of regular masturbation. Then
-there are three different hypotheses:
+The pre-registered hypothesis shall thus be: Let `$\mu_{during}$`
+be the expected value of cold approach with women during a long
+period of abstinence from masturbation as described in the section
+[Method](#Method), and `$\mu_{after}$` be the expected value of cold
+approach with women after a week of regular masturbation. Then there
+are three different hypotheses:
 
 1. H₀: `$\mu_{during} \le \mu_{after}$`
 2. H₁: `$\mu_{during} = \mu_{after}$`
@@ -83,6 +84,7 @@ reproductively beneficial, since it has apparently been selected
 for by natural and/or sexual selection. "Major mechanisms that do not
 contribute to fitness do not survive in evolutionary equilibrium." ([Ng
 1995](./doc/better_words/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf) p. 9).
+
 <!--TODO: search for examples of animal species masturbating,
 as well as the reasoning about the evolutionary reasons for masturbation:
 https://en.wikipedia.org/wiki/Non-reproductive_sexual_behavior_in_animals#Autoeroticism_or_masturbation,
@@ -91,7 +93,9 @@ https://en.wikipedia.org/wiki/Masturbation#Evolutionary_utility-->
 This reasoning is imperfect, because it may very well be that masturbation
 is an adaption that was useful in environments with low numbers of people,
 but is not very adaptive in industrialized, anonymous and big societies
-where not reproduction, but sex is the most important consideration.
+where not reproduction, but sex is the most important consideration. For
+example, it could be true that masturbation keeps the sperm count high,
+but has negative side-effects on attractiveness (such as dry skin).
 
 Existing Literature
 -------------------
@@ -322,11 +326,12 @@ notice more signals than they did when they were obsessed with porn.
 
 *– [NoFap.com](https://nofap.com/), [“Rebooting from Porn Addiction”](https://nofap.com/rebooting/), 2017*
 
-A broad picture emerges: Long-term abstinence from masturbation has
-noticeable effects on male attractiveness for women, this effect emerges
-at around 40 days or more (and doesn't diminish with the time since
-the last masturbation increasing), it also has an effect on other men,
-though this is not really elaborated further. The effects are noticeable.
+A broad picture emerges: NoFap claims that long-term abstinence from
+masturbation has noticeable effects on male attractiveness for women,
+this effect emerges at around 40 days or more (and doesn't diminish with
+the time since the last masturbation increasing further), it also has an
+effect on other men, though this is not really elaborated further. The
+effects are noticeable.
 
 The reasons given for this increase in attractiveness are as follows:
 
@@ -354,7 +359,7 @@ demographic as most members of the NoFap community.
 
 Data was collected as follows:
 
-I abstained from masturbating from 2019-11-18T00:00 to \_, resulting
+I abstained from masturbating from 2019-11-21T12:00 to \_, resulting
 in >90 days of abstinence from masturbation (which is also the period
 [recommended by the NoFap community](https://nofap.com/rebooting/):
 "NoFap’s gold standard of success is our 90-day reboot."). From \_
@@ -371,15 +376,19 @@ The other person answered with their name, and I replied with
 > Nice to meet you, <name\>. To make a long story short, I'd like to
 take you out on a date sometime. When are you free?
 
+In case of them agreeing to go on a date, a time and place were agreed
+upon, and I came to the date to check whether they had showed up.
+
 In the week following the last approach, I masturbated once every day.
 Afterwards, I repeated the procedure of approaching 100 men and 100 women
 with the same words.
 
-Data that was logged included date and time of day (in ISO-8601),
-whether the approach was after abstinence from masturbation or after
-the one-week period of masturbation (1 for the part after abstinence,
-and 0 for the part after masturbation), perceived gender of the person
-approached ("m", "f" or "o"), and how far the interaction went:
+Data that was logged included date and time of day (in
+[ISO-8601](https://en.wikipedia.org/wiki/ISO_8601)), whether the approach
+was after abstinence from masturbation or after the one-week period
+of masturbation (1 for the part after abstinence, and 0 for the part
+after masturbation), perceived gender of the person approached ("m",
+"f" or "o"), and how far the interaction went:
 
 * 1 (ignored): the person walked past and did not react
 * 2 (stopped): the person stopped, but didn't answer any question (started laughing or walking away)
@@ -388,7 +397,12 @@ approached ("m", "f" or "o"), and how far the interaction went:
 * 5 (flake): person gave contact information, but did not reply
 * 6 (date): person showed up to the date
 
-Results were logged in a CSV file.
+Results were logged in a CSV <!--TODO: link-->file.
+
+### Justification for Cold Approach as a Method
+
+<!--TODO: research different methods of measuring physical attractiveness,
+list & discuss them here-->
 
 Results Analysis
 -----------------
@@ -516,6 +530,9 @@ Problems
 
 Conclusion
 ----------
+
+Appendix A: Dummy Data & Preregistration
+----------------------------------------
 
 <!--
 TODO: read

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-11-17, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-11-19, language: english, status: notes, importance: 5, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades in the future.__
 
@@ -167,11 +167,6 @@ Texts
 
 * Simple Unsolved Math Problems
 * Differences Between GNU and POSIX `make`
-* Day Game Log
-	* Divided in sessions
-		* Divided into approaches
-		* Lesson per approach
-	* Lesson per session
 * Better Mathematical Notation
 	*	Mathematical notation is not a planned and systematic
 		endeavour, but the result of a long process of generation
@@ -237,6 +232,8 @@ Texts
 		* Hell
 * Homeless Super-Mathematicians
 	* Perhaps in the SCP format?
+* Guten Morgen
+* A History of Names
 * Skalpell Bizeps
 
 > 11-uhr-luft liegt rauh auf dem parkplatzboden.  in den ritzen des

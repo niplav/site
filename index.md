@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "Sol Plav")
 
-*author: niplav, created: 2019-03-20, modified: 2019-11-12, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2019-11-20, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -26,13 +26,16 @@ Writing
 	* [Two People on a Planet](./two_people_on_a_planet.md)
 	* [Compliments as Utilitarian Praxis](./utilitarian_compliments.md)
 	<!--* [Using Venn Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./venn_consciousness.md)-->
-	<!--* [A Religion](./a_religion.md)-->
 * Collections
 	* [99 Problems](./99_problems_collection.md)
 	* [Rationalist Gods](./rationalist_gods.md)
+	<!--[Solutions to “Naive Set Theory”](./naive_set_theory_solutions.md)-->
+	<!--[Circle Combinations](./circle_combinations.md)-->
+	<!--[Day Game Log](./day_game_log.md)-->
 * Analyses
 	* [Considerations on Cryonics](./considerations_on_cryonics.md)
 	* [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
+	<!--* [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.md)-->
 * Arguments
 	* [Against Applause After Classical Concerts](./against_applause.md)
 * Other
