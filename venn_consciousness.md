@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-15, modified: 2019-11-15, language: english, status: notes, importance: 5, confidence: theory*
+*author: niplav, created: 2019-08-15, modified: 2019-11-21, language: english, status: notes, importance: 5, confidence: theory*
 
 > __Many people have very different conceptions on how to think about
 > consciousness, intelligence, sentience and information processing. A
@@ -11,27 +11,18 @@
 Using Venn Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience
 =========================================================================================
 
-To read: Wikipedia articles on
-
-* Consciousness
-* Sentience
-* Sapience
-* Intelligence
-* Information processing
-
 Relevant Classes
 ----------------
 
-5 Classes:
-
-* Intelligent
-* Sentient
-* Conscious
-* Affectively sentient
-* Information-processing
-* Optimzing
-
 ### Descriptions
+
+* Information processing
+* Optimizing
+* Intelligent
+* [Sentient](https://en.wikipedia.org/wiki/Sentience): "Sentience is the capacity to feel, perceive, or experience subjectively."
+* Affectively sentient
+* Conscious
+* [Sapient](https://en.wikipedia.org/wiki/Sapience): "[…] sapience […] is the ability to think and act using knowledge, experience, understanding, common sense and insight."
 
 Terms (short, and only gesturing towards a definition):
 
@@ -47,9 +38,12 @@ Terms (short, and only gesturing towards a definition):
 	(or similar test), can distinguish "world" and "self"
 	Example: Myself
 	Counter-example: P-Zombie
-*	Sentient (S): Can experience valence qualia
+*	Sentient (S): Can experience qualia, such as the color red
 	Example: Myself
 	Counter-example: P-Zombie
+*	Affectively sentient (A): Can experience valenced qualia (qualia that are good/bad)
+	Example: Presumably most humans
+	Counter-example: TODO
 *	Optimizing (O): Optimizes a given goal
 	Example: Evolution, Paperclip-maximizer
 	Counter-example: A piece of paper

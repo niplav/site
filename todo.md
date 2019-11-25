@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-11-19, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-11-23, language: english, status: notes, importance: 5, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades in the future.__
 
@@ -198,6 +198,7 @@ Texts
 
 * Use Things Up
 * Be Liberal in what you Accept, but Conservative in what you Emit
+* Believing Something Doesn't Mean You to Tell it to Everyone
 
 ### Misc
 
@@ -441,6 +442,8 @@ Programming
 	* nplot
 		* Support for multiple bargraphs
 		* Bargraphs with negative values
+	* nstat
+		* n% confidence interval
 	* Range is extremely slow for anything but integers, why?
 	* error with klong: `#'s58'!40` returns `kg: error: call: type error: [6 :triad %call1 %pop1]`
 		* bug, report
