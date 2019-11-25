@@ -91,8 +91,8 @@ to a certain threshold.
 
 One possible variation in the procedure is between retaining knowledge
 about the identity of pₐ, the person aggregating the preferences. If
-this were not done, the result would be very akin to the [Rawlsian Veil
-of Ignorance](https://en.wikipedia.org/wiki/Veil_of_ignorance#Rawls'_version).
+this were not done, the result would be very akin to the [Harsanyian
+Veil of Ignorance](https://en.wikipedia.org/wiki/Veil_of_ignorance).
 
 Another possible variation could be not attempting to achieve convergence,
 but only simply iterating the method for a finite amount of times. Since
