@@ -17,7 +17,6 @@ HTML=index.html \
 	buch_stab.html \
 	considerations_on_cryonics.html \
 	circle_combinations.html \
-	day_game_log.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
 	haiku.html \

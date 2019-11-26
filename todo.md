@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-11-23, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-11-26, language: english, status: notes, importance: 5, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades in the future.__
 
@@ -15,6 +15,7 @@ Site
 * Add tooltips to links (Title of Text)
 * Find out how to make the site more inclusive
 * (a) link for archives?
+* Get rid of "we", use "I" instead.
 
 Texts
 -----
@@ -89,7 +90,8 @@ Texts
 	* Direct Number on Street
 	* Direct Date on Street
 	* Direct Date off Street
-	* Cost-benefit analysis write-up
+* Daygame Cost-Benefit
+	* Model from ../prog/daygame/daygame.lua
 * Actuarial tables for dictators
 * Ideology Transition Graphs
 	* When people move along ideologies, which paths do they take?
@@ -107,6 +109,13 @@ Texts
 	*	Throw n dice as long as the sum of their values is higher
 		than the previous throw. What is the probability
 		distribution on the length of the run?
+	* Simulation from ../prog/dicechain/dicechain.lua
+* 	Algorithm for distributing production of goods among different
+	producers according to comparative advantage
+	* producers: {2,n}
+	* products: {2,n}
+	* transformation curves: {linear, marginal, any}
+	* indifference curves: {linear, fixed number, any}
 
 ### Ideas
 
@@ -186,6 +195,19 @@ Texts
 			* http://www.solidangl.es/2015/04/a-radical-new-look-for-logarithms.html
 	* Read
 		* /usr/local/doc/unread/notation/notation_as_a_tool_of_thought_iverson_1986.pdf
+* Day Game Log
+	*	Keeping track of ones own performance is usually useful for
+		improvement<!--TODO: find source!-->. Many people
+		who do pick-up, especially daygame<!--TODO: links for
+		those two-->, maintain spreadsheets and write field
+		reports. This is my personal instance of such a track
+		record.
+	*	Sessions are usually warm-up (collecting data for other projects, asking
+		for directions, compliments, directly asking men for their
+		phone number) and then main approaches, with notes on the
+		quality of the interaction and the result. At the end,
+		I try to extract lessons and ideas for improvement out
+		of the session.
 
 ### Other
 
@@ -196,7 +218,6 @@ Texts
 
 ### Notes
 
-* Use Things Up
 * Be Liberal in what you Accept, but Conservative in what you Emit
 * Believing Something Doesn't Mean You to Tell it to Everyone
 
@@ -377,8 +398,25 @@ Programming
 		* Subscript t	ₜ	_t / ts
 		* Superscript i	ⁱ	^i
 		* Superscript n	ⁿ	^n
-	* daemon that catches such digraphs and emulates them as if they were typed, using vis-digraph
-* mtfs: plan9 file server for a file that returns the current metric time on read
+	*	daemon that catches such digraphs and emulates them as
+		if they were typed, using vis-digraph
+* 	mtfs: plan9 file server for a file that returns the current
+	metric time on read
+* libbruch
+	* rational numbers with libzahl
+	* some functions:
+		* badd(bruch a, bruch b, bruch c): a:=b+c
+		* bsub(bruch a, bruch b, bruch c): a:=b-c
+		* bdiv(bruch a, bruch b, bruch c): a:=b÷c
+		* bmul(bruch a, bruch b, bruch c): a:=a⋅c
+		* binv(bruch a, bruch b): a=b^(-1)
+	* more functions:
+		*	bset, bseti, bsets, bsetu, bstr, bfloor, bceil,
+			bmod, bcmp, bcmpu, bsqrt, binit, bfree, bsave,
+			bload, bsetup, bunsetup, berror, bperror
+* nager
+	* sxhkd for the mouse
+	* syntax: `[MOUSEEVENT] [, MOUSEEVENT] [ /*possibly nested*/ COMMAND ]`
 
 ### Klong Libraries
 
@@ -394,7 +432,7 @@ Programming
 	* catalan numbers
 	* counting partitions
 * date.kg
-	* date/time library for Klong: convert different date formats to another
+	* date/time library for klong: convert different date formats to another
 * utf8.kg
 	* unicode decoding/encoding library
 	* see how myrddin/lua/libutf/plan9 did it
@@ -406,6 +444,8 @@ Programming
 	* function for matrix inversion
 	* function for the calculation of eigenvalues and eigenbases
 	* function for the calculation of polynomial division
+* statests.kg
+	* library for statistical tests
 
 ### Contributions
 
@@ -464,9 +504,6 @@ Structure
 ---------
 
 * Top-level:
-	* Writing
-		* Nonfiction
-			* Analyses
 	* Translations
 		* English to Esperanto
 	* Music
@@ -477,4 +514,5 @@ Structure
 General
 -------
 
-Get rid of "we", use "I" instead.
+* Send typos to people, let them correct them
+	* Gwern hyphens Terrorism-is-not-about-Terror

@@ -1,0 +1,5 @@
+#!/usr/bin/env rc
+
+lua cryoyear.lua |
+awk -F: 'BEGIN { printf("[ "); } { printf("%f ", $1); } END { printf("]\n"); }' |
+kg -l ./std_param_val_20.kg -e '.x(0)' >std_param_val_20.eps

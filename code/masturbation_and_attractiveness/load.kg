@@ -11,9 +11,25 @@ during::{*|x}'flr({1=*x};data)
 duringm::{*|x}'flr({(1=*x)&("m"=x@1)};data)
 duringf::{*|x}'flr({(1=*x)&("f"=x@1)};data)
 
+during.stag::#'=during@<during
+duringm.stag::#'=duringm@<duringm
+duringf.stag::#'=duringf@<duringf
+
+during.stagcum::|+\|during.stag
+duringm.stagcum::|+\|duringm.stag
+duringf.stagcum::|+\|duringf.stag
+
 after::{*|x}'flr({0=*x};data)
 afterm::{*|x}'flr({(0=*x)&("m"=x@1)};data)
 afterf::{*|x}'flr({(0=*x)&("f"=x@1)};data)
+
+after.stag::#'=after@<after
+afterm.stag::#'=afterm@<afterm
+afterf.stag::#'=afterf@<afterf
+
+after.stagcum::|+\|after.stag
+afterm.stagcum::|+\|afterm.stag
+afterf.stagcum::|+\|afterf.stag
 
 m::{*|x}'flr({"m"~x@1};data)
 f::{*|x}'flr({"f"~x@1};data)

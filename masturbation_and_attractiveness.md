@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-11-20, language: english, status: draft, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-11-26, language: english, status: draft, importance: 4, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -31,71 +31,11 @@ male physical attractiveness is causally influenced by the frequency
 and duration since the last occurence of masturbation.
 
 I present a method to test this claim (albeit imperfectly) by approaching
-200 people in the street after 90 days of abstinence from masturbation and
-asking them for a date, and again after a week of daily masturbation. The
-results are discussed and find that \_.
-
-Preregistration
----------------
-
-To avoid p-hacking and other practices, the bulk of this text
-as written before the actual experiment and data analysis was
-conducted, and posted<!--TODO: when posted, put link here--> on
-the [NoFap subreddit](https://old.reddit.com/r/NoFap/) as well as
-to the subreddit [/r/niplav](https://old.reddit.com/r/niplav),
-with the SHA256 hashsum of the text as the title. The
-SHA256 sum of the content was put into the title to prevent
-tampering with the content of the article, because reddit titles [can't be
-changed](https://old.reddit.com/wiki/faq#wiki_i_made_a_mistake_in_my_submission_title.2C_how_can_i_edit_it.3F)
-by users of reddit.
-
-The pre-registered hypothesis shall thus be: Let `$\mu_{during}$`
-be the expected value of cold approach with women during a long
-period of abstinence from masturbation as described in the section
-[Method](#Method), and `$\mu_{after}$` be the expected value of cold
-approach with women after a week of regular masturbation. Then there
-are three different hypotheses:
-
-1. H₀: `$\mu_{during} \le \mu_{after}$`
-2. H₁: `$\mu_{during} = \mu_{after}$`
-3. H₂: `$\mu_{during} \ge \mu_{after}$`
-
-There seem to be different possible strengths of convictions on this issue:
-
-* I define the *Strong NoFap Stance* as predicting that H₀ and H₁ will be rejected, and only H₂ will be accepted.
-* I define the *Weak NoFap Stance* as predicting that H₀ will be rejected, and H₁ and H₂ will be accepted.
-* I define the *Neutral Stance* as predicting that all 3 hypotheses will be accepted.
-
-As a pre-registration, I subjectively assign a probability of 60% to the
-*Neutral Stance* being correct, a probability of 17% to the *Weak NoFap
-Stance* being correct, a 8% probability to the *Strong NoFap Stance*,
-and 15% to any other result.
-
-### Reasoning
-
-If it were true that abstinence from masturbation increased
-attractiveness to the opposite sex, evolutionary pressure would have
-selected men who abstain from masturbating, since they generate
-a higher number of offspring. This would be true regardless
-of the specific way in which abstinence from masturbation
-increases fitness, be it pheromones, microexpressions or any
-other reason. Indeed, one could suppose that masturbation is
-reproductively beneficial, since it has apparently been selected
-for by natural and/or sexual selection. "Major mechanisms that do not
-contribute to fitness do not survive in evolutionary equilibrium." ([Ng
-1995](./doc/better_words/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf) p. 9).
-
-<!--TODO: search for examples of animal species masturbating,
-as well as the reasoning about the evolutionary reasons for masturbation:
-https://en.wikipedia.org/wiki/Non-reproductive_sexual_behavior_in_animals#Autoeroticism_or_masturbation,
-https://en.wikipedia.org/wiki/Masturbation#Evolutionary_utility-->
-
-This reasoning is imperfect, because it may very well be that masturbation
-is an adaption that was useful in environments with low numbers of people,
-but is not very adaptive in industrialized, anonymous and big societies
-where not reproduction, but sex is the most important consideration. For
-example, it could be true that masturbation keeps the sperm count high,
-but has negative side-effects on attractiveness (such as dry skin).
+200 people in the street after 90 days of abstinence from masturbation
+and asking them for a date, and  200 again after a week of daily
+masturbation. The results are analyzed using a two-sample Student's
+t-test<!--TODO: citation needed--> and various descriptive statistical
+methods <!--TODO: link--> and find that \_.
 
 Existing Literature
 -------------------
@@ -108,15 +48,22 @@ nothing there, but it might have changed.-->
 Examples for the Claim
 -----------------------
 
-To prevent the accusation of straw-manning the views of the NoFap
-community, I hereby present sentiments that broadly go in the direction
-of the idea that "male abstinence from masturbation results in higher
-attractiveness, even with fixed behavior."
+To prevent the accusation of straw-manning <!--TODO: link--> the views of
+the NoFap community, I hereby present comments that broadly make the claim
+that "male abstinence from masturbation results in higher attractiveness,
+even with fixed behavior."
 
-To show that this is at least moderately the case, I searched the
-[/r/NoFap](https://old.reddit.com/r/NoFap/) subreddit for "attractiveness"
-and "attractive", and collected comments and posts claiming that NoFap
-made them more attractive.
+The comments below were found by searching the
+[/r/NoFap](https://old.reddit.com/r/NoFap/) subreddit on reddit (one
+of the biggest NoFap communities on the internet) for the keywords
+"attractiveness" and "attractive" and collecting comments and posts from
+NoFap members that claim the practice had a positive influence on their
+attractiveness. Because the comments were hand-picked (with regard to
+the number upvotes), I tried including critical views or negative reports
+when they arose in the comment threads to present an even-handed picture
+of the views of the community.
+
+Of course, a survey would have been more informative.
 
 > Yesterday i was at a party and im currently on 12 days nofap. Normally
 this really never happens but a girl wanted to Kiss me. I think it was
@@ -285,8 +232,8 @@ They also talk about increased amounts of flirting in conversations,
 higher sexual aggressiveness and higher motivation to find a partner,
 which should at least partially be testable during cold approach.
 
-They don't seem to think about the fact that masturbation is
-not a feature of modern civilisation, but rather a biological
+They don't seem to consider the possibility that masturbation
+is not a feature of modern civilisation, but rather a biological
 instinct. Widespread pornography, on the other hand, is a feature of
 modern civilisation.<!--TODO: sources for these claims-->
 
@@ -344,8 +291,8 @@ Two of these reasons are independent from the attitude of a person
 towards NoFap (pheromones and microexpressions), while the others are
 dependent on being a NoFap enthusiast.
 
-Given these claims, it should be possible to broadly test the claims
-made by members of the NoFap community.
+Given these claims, it should be possible to at least somewhat test the
+claims made by members of the NoFap community.
 
 Method
 ------
@@ -364,7 +311,8 @@ in >90 days of abstinence from masturbation (which is also the period
 [recommended by the NoFap community](https://nofap.com/rebooting/):
 "NoFap’s gold standard of success is our 90-day reboot."). From \_
 to \_, I went on the streets of a major european city and approached
-100 men and 100 women (perceived gender) alternatingly with the words
+100 people I read as men and 100 people I read as women alternatingly
+with the words
 
 <!--TODO: add question about language at the beginning?-->
 
@@ -381,7 +329,7 @@ upon, and I came to the date to check whether they had showed up.
 
 In the week following the last approach, I masturbated once every day.
 Afterwards, I repeated the procedure of approaching 100 men and 100 women
-with the same words.
+with the same words from \_ to \_.
 
 Data that was logged included date and time of day (in
 [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601)), whether the approach
@@ -415,7 +363,7 @@ Cold approach is a conversion funnel: there are a number of different
 stages an approachee goes through, and each one can fail. This way, one
 can visualize how far the interaction went by making a bar graph of the
 people dropping out at a certain stage (ignoring the approach, stopping
-but not giving a name, giving a nam but not agreeing to come on a date,
+but not giving a name, giving a name but not agreeing to come on a date,
 agreeing to come on a date but flaking, and showing up to a date).
 Showing up to the date was considered a condition of success, but one
 could imagine further steps like having sex, getting into a relationship
@@ -434,18 +382,20 @@ Code:
 	.l("nplot")
 	.l("./load.kg")
 
-	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 100 10])
+	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 200 10])
 
 	text(20;400;"white: during abstinence, before masturbation, black: after masturbation")
 
 	fillrgb(0;0;0)
-	{bar(2*x;(#'=during@<during)@x;12)}'!6
+	{bar(2*x;during.stag@x;12)}'!6
 	fillrgb(1;1;1)
-	{bar(1+2*x;(#'=after@<after)@x;12)}'!6
+	{bar(1+2*x;after.stag@x;12)}'!6
 
 	draw()
 
 ![Gender non-specific loss in different stages of the funnel](./img/masturbation_and_attractiveness/dur_after_bar.png "Gender non-specific loss in different stages of the funnel.")
+
+*Figure 1: Gender non-specific loss in different stages of cold approach*
 
 Very similar diagrams can be made for male and female data points:
 
@@ -454,70 +404,172 @@ Male:
 	.l("nplot")
 	.l("./load.kg")
 
-	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 50 10])
+	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 100 10])
 
-	text(20;400;"light blue: during abstinence, before masturbation, dark blue: after masturbation")
+	text(10;400;"light blue: during abstinence, before masturbation, dark blue: after masturbation")
 
 	fillrgb(0.4;0.4;1)
-	{bar(2*x;(#'=duringm@<duringm)@x;12)}'!6
+	{bar(2*x;duringm.stag@x;12)}'!6
 	fillrgb(0;0;0.6)
-	{bar(1+2*x;(#'=afterm@<afterm)@x;12)}'!6
+	{bar(1+2*x;afterm.stag@x;12)}'!6
 
 	draw()
 
 ![Male loss in different stages of the funnel](./img/masturbation_and_attractiveness/dur_after_m_bar.png "Male loss in different stages of the funnel.")
+
+*Figure 2: Male loss in different stages of cold approach*
 
 Female:
 
 	.l("nplot")
 	.l("./load.kg")
 
-	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 50 10])
+	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 100 10])
 
 	text(20;400;"light red: during abstinence, before masturbation, dark red: after masturbation")
 
 	fillrgb(1;0.4;0.4)
-	{bar(2*x;(#'=duringf@<duringf)@x;12)}'!6
+	{bar(2*x;duringf.stag@x;12)}'!6
 	fillrgb(0.6;0;0)
-	{bar(1+2*x;(#'=afterf@<afterf)@x;12)}'!6
+	{bar(1+2*x;afterf.stag@x;12)}'!6
 
 	draw()
 
 ![Female loss in different stages of the funnel](./img/masturbation_and_attractiveness/dur_after_f_bar.png "Female loss in different stages of the funnel.")
 
+*Figure 3: Female loss in different stages of cold approach*
+
 ### Descriptive Results
 
+Before testing the hypotheses, one can compare the results using very
+simple descriptive methods. For this purpose, I used the mean and the
+standard deviation to compare the different parts of the dataset.
+
+Here the table for the different mean values and their variances in
+parentheses (the botttom right cell contains the overall mean value):
+
+<table>
+<tbody>
+	<tr>
+		<td></td>
+		<td>during</td>
+		<td>after</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>f</td>
+		<td>μ_duringf (var)</td>
+		<td>μ_afterf (var)</td>
+		<td>μ_f (var)</td>
+	</tr>
+	<tr>
+		<td>m</td>
+		<td>μ_duringm (var)</td>
+		<td>μ_afterm (var)</td>
+		<td>μ_m (var)</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>μ_during (var)</td>
+		<td>μ_after (var)</td>
+		<td>μ (var)</td>
+	</tr>
+</tbody>
+</table>
+
+As one can see, \_.
+
+The code for calculating these can be found
+[here](./code/masturbation_and_attractiveness/load.kg).
+
 <!--
-Before testing the hypotheses, one can also compare the results using
-very simple descriptive methods.
+Questions:
 
-	mu(m)
-	mu(f)
-	mu(during)
-	mu(after)
-	mu(duringm)
-	mu(afterm)
-	mu(duringf)
-	mu(afterf)
-	sd(duringm)
-	sd(afterm)
-	sd(duringf)
-	sd(afterf)
+* mu(m)≥mu(f)?
+* var(m)≥var(f)?
+* mu(during)≥mu(after)?
+* var(during)≥var(after)?
 
-μ:
--->
-
-<!--TODO: real html table-->
-
-<!--
-	       during | after |
-	f |     3.78  | 3.75  | 3.765
-	m |     3.87  | 3.54  | 3.705
-	-----------------------------
-	  |     3.825 | 3.645 |
+* mu(duringm)≥mu(afterm)?
+* mu(duringf)≥mu(afterf)?
+* var(duringf)≥var(afterf)?
+* var(duringm)≥var(afterm)?
 -->
 
 ### Testing the Hypothesis
+
+The NoFap community claims that abstinence from masturbation increases
+male physical attractiveness for women. This means that cold approach
+should be more successful after a long period of abstinence from
+masturbation than after a period of sustained masturbation. This
+assumption generates three hypotheses:
+
+1. H₀: `$\mu_{during} \le \mu_{after}$`
+2. H₁: `$\mu_{during} = \mu_{after}$`
+3. H₂: `$\mu_{during} \ge \mu_{after}$`
+
+The result implied by the views of the NoFap community would be that
+H₀ would definitely be rejected, and that it would be very likely
+that H₁ would also be rejected.
+
+Note that these hypothesis are not exclusive, and can all be accepted at
+the same time. It is merely the case that if a hypothesis gets rejected,
+the probability that it got rejected although it is true is lower than
+a given percentage (usually and also in this case 5%).
+
+I used a two-sample Student's t-test to test the hypotheses, under the
+assumption that the distribution of results from cold approach was roughly
+normally distributed <!--TODO: link-->and that the variance <!--TODO:
+link-->of the two sample sets was also roughly equal. As one can see
+from the figures, this assumption of normal distribution \_.
+
+To calculate Student's t-test, let
+`$\{X_{1}, \cdots, X_{m}\}=X_{i}~{\cal{N}}(\mu_{X}, \sigma_{X})$`
+be the first sample, and
+`$\{Y_{1}, \cdots, Y_{n}\}=Y_{i}~{\cal{N}}(\mu_{Y}, \sigma_{Y})$`
+the second sample.
+
+Let then `$T$` be
+
+<div>
+	$$T:=\sqrt{\frac{n+m-2}{\frac{1}{m}+\frac{1}{n}}}*\frac{\=X-\=Y}{\sqrt{(m-1)*S_{X}^{2}+(n-1)*S_{Y}^{2}}}$$
+</div>
+
+where `$\=X$` and `$\=Y$` are the sample mean of the two sample sets,
+and `$S_{X}^{2}$` and `$S_{Y}^{2}$` are the sample variances of the two
+sample sets.
+
+Different hypotheses are then tested by comparing `$T$` to the
+quantile function<!--TODO: link--> of Student's t-distribution<!--TODO:
+link-->. In this case, our sample sizes are bigger than 30, and so the
+quantile function of Student's t-distribution can be approximated using
+the quantile function of the normal distribution<!--TODO: sources for
+this claim-->.
+
+The two-sided Student's t-test can thus be implemented (the
+full code for different hypothesis testing can be found
+[here](./code/masturbation_and_attractiveness/hypo.kg):
+
+	.l("nstat")
+	.l("math")
+
+	tstt::{t::sqr(((#y)+(#x)-2)%(%#x)+%#y)*(mu(x)-mu(y))%sqr((((#x)-1)*svar(x))+((#y)-1)*svar(y));
+	:[t>qf(1-z);.p("μ_X≤μ_Y rejected (p≤",($z),")");.p("μ_X≤μ_Y accepted (p≤",($z),")")];
+	:[(#t)>qf(1-z%2);.p("μ_X=μ_Y rejected (p≤",($z),")");.p("μ_X=μ_Y accepted (p≤",($z),")")];
+	:[t<qf(z);.p("μ_X≥μ_Y rejected (p≤",($z),")");.p("μ_X≥μ_Y accepted (p≤",($z),")")]}
+
+The argument `x` is the first sample set, `y` is the second sample set,
+and `z` is the p-value<!--TODO: Wikipedia-->. The function tests all three
+hypotheses and prints the result.
+
+One can now simply execute the test:
+
+		tstt(duringf;afterf;0.05)
+	μ_X≤μ_Y _ (p≤0.05)
+	μ_X=μ_Y _ (p≤0.05)
+	μ_X≥μ_Y _ (p≤0.05)
+
+As one can see, \_.
 
 Problems
 --------
@@ -525,14 +577,77 @@ Problems
 * Approaching of men/women I find attractive, not objective measure
 * Different perception of attractiveness before&after masturbation
 * Different settings/clothing/weather
-* Only N=1 on the asker's side.
+* Only N=1 on the asker's side
 * Gender only by perception
 
 Conclusion
 ----------
 
-Appendix A: Dummy Data & Preregistration
+Appendix A: Preregistration & Dummy Data
 ----------------------------------------
+
+### Preregistration
+
+To avoid p-hacking and other practices, the bulk of this text
+as written before the actual experiment and data analysis was
+conducted, and posted<!--TODO: when posted, put link here--> on
+the [NoFap subreddit](https://old.reddit.com/r/NoFap/) as well as
+to the subreddit [/r/niplav](https://old.reddit.com/r/niplav),
+with the SHA256 hashsum<!--TODO: link--> of the text as the
+title. The SHA256 sum of the content was put into the title to prevent
+tampering with the content of the article, because reddit titles [can't be
+changed](https://old.reddit.com/wiki/faq#wiki_i_made_a_mistake_in_my_submission_title.2C_how_can_i_edit_it.3F)
+by users of reddit.
+
+The pre-registered hypothesis shall thus be: Let `$\mu_{during}$`
+be the expected value of cold approach with women during a long
+period of abstinence from masturbation as described in the section
+[Method](#Method), and `$\mu_{after}$` be the expected value of cold
+approach with women after a week of regular masturbation. Then there
+are three different hypotheses:
+
+1. H₀: `$\mu_{during} \le \mu_{after}$`
+2. H₁: `$\mu_{during} = \mu_{after}$`
+3. H₂: `$\mu_{during} \ge \mu_{after}$`
+
+There seem to be different possible strengths of convictions on this issue:
+
+* I define the *Strong NoFap Stance* as predicting that H₀ and H₁ will be rejected, and only H₂ will be accepted.
+* I define the *Weak NoFap Stance* as predicting that H₀ will be rejected, and H₁ and H₂ will be accepted.
+* I define the *Neutral Stance* as predicting that all 3 hypotheses will be accepted.
+
+As a pre-registration, I subjectively assign a probability of 60% to the
+*Neutral Stance* being correct, a probability of 17% to the *Weak NoFap
+Stance* being correct, a 8% probability to the *Strong NoFap Stance*,
+and 15% to any other result.
+
+#### Reasoning
+
+If it were true that abstinence from masturbation increased
+attractiveness to the opposite sex, evolutionary pressure would have
+selected men who abstain from masturbating, since they generate
+a higher number of offspring. This would be true regardless
+of the specific way in which abstinence from masturbation
+increases fitness, be it pheromones, microexpressions or any
+other reason. Indeed, one could suppose that masturbation is
+reproductively beneficial, since it has apparently been selected
+for by natural and/or sexual selection. "Major mechanisms that do not
+contribute to fitness do not survive in evolutionary equilibrium." ([Ng
+1995](./doc/better_words/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf) p. 9).
+
+<!--TODO: search for examples of animal species masturbating,
+as well as the reasoning about the evolutionary reasons for masturbation:
+https://en.wikipedia.org/wiki/Non-reproductive_sexual_behavior_in_animals#Autoeroticism_or_masturbation,
+https://en.wikipedia.org/wiki/Masturbation#Evolutionary_utility-->
+
+This reasoning is imperfect, because it may very well be that masturbation
+is an adaption that was useful in environments with low numbers of people,
+but is not very adaptive in industrialized, anonymous and big societies
+where not reproduction, but sex is the most important consideration. For
+example, it could be true that masturbation keeps the sperm count high,
+but has negative side-effects on attractiveness (such as dry skin).
+
+### Dummy Data
 
 <!--
 TODO: read

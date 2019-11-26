@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-11-19, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2019-11-26, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -476,3 +476,52 @@ all sentences from `$V$` would be at an economic advantage.  For a
 related discussion that talks about agent versus tool AIs, see [Gwern
 2019](https://www.gwern.net/Tool-AI "Why Tool AIs Want to Be Agent AIs:
 The Power of Agency").
+
+Use Things Up
+-------------
+
+One curious trait I have observed in the people around me is that they
+ofter buy things they already possess enough of, and then throw one or
+more of the old things away. This seems incredibly wasteful and expensive
+to me.
+
+The standard explanation of such behavior usually is that the old object
+was not sufficient in fulfilling its purpose, though when I asked about
+what exactly the problem with the object was, the usual answer was that it
+had some aesthetic deficits, or was simply out of fashion or even too old.
+
+This seems unintuitive to me: not only does one already have an object that
+fulfills its purpose wonderfully, buying a new one also entails non-negligible
+transaction costs like going out, inspecting and comparing different candidates for buying,
+and finally paying the object.
+
+One also loses the time of being able to use the old object: Let's
+say that one owns a table, but for some reason has decided that it
+isn't sufficient anymore (although it still fulfills its purpose).
+Let's say one estimates that the table will fulfill its function for
+another 5 years.  If one then goes out and buys a new table for \$200,
+one then loses (with a discount rate of 1%) `$\$200-\$200*0.99^5=\$9.80$`.
+
+### Explanations
+
+One possible explanation is a social one: owning and using old objects is
+usually an indicator of low status, and people often want to avoid this.
+
+Another explanation is that people value the aesthetic quality of the
+objects they own, and that old objects are usually not regarded as
+beautiful as newer objects.
+
+Buying new objects could also be a precautionary measure against failure.
+In the case of a table or a car, a failure could be quite costly, so
+people are over-cautionary and buy new objects before the failure of
+old ones can be a danger. However, this can't be the whole explanation,
+since such behavior is also present in objects whose failure is not a
+great danger, or where failure is preceded by small defects early before
+a grand failure. Also, most household appliances are quite safe.
+
+### Advice
+
+So, if you don't have a strong aesthetic sensibility, either have a high
+social status or don't care about it, and if you are careful, using things
+until they don't function anymore can save both money and time<!--TODO:
+how much?-->.
