@@ -13,7 +13,7 @@ n::#during
 h::#during?6
 z::(h-n*p0)%sqr(n*p0*(1-p0))
 
-alpha::0.01
+alpha::0.05
 
 :[(#z)<qf(1-alpha%2);.p("p₀=0.05 accepted");.p("p₀=0.05 rejected")]
 
@@ -26,9 +26,9 @@ alpha::0.01
 :"x=data1, y=data2, z=p-value"
 
 tstt::{t::sqr(((#y)+(#x)-2)%(%#x)+%#y)*(mu(x)-mu(y))%sqr((((#x)-1)*svar(x))+((#y)-1)*svar(y));
+:[t>qf(1-z);.p("μ_X≤μ_Y rejected (p≤",($z),")");.p("μ_X≤μ_Y accepted (p≤",($z),")")];
 :[(#t)>qf(1-z%2);.p("μ_X=μ_Y rejected (p≤",($z),")");.p("μ_X=μ_Y accepted (p≤",($z),")")];
-:[t<qf(z);.p("μ_X≥μ_Y rejected (p≤",($z),")");.p("μ_X≥μ_Y accepted (p≤",($z),")")];
-:[t>qf(1-z);.p("μ_X≤μ_Y rejected (p≤",($z),")");.p("μ_X≤μ_Y accepted (p≤",($z),")")]}
+:[t<qf(z);.p("μ_X≥μ_Y rejected (p≤",($z),")");.p("μ_X≥μ_Y accepted (p≤",($z),")")]}
 
 .p("
 X=during, Y=after

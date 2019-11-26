@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-11-18, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-11-26, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -13,11 +13,17 @@ November 2019
 
 ### Writing
 
+* [Solutions to “Naive Set Theory”](./naive_set_theory_solutions.md)
 * Solutions to [P61](./99_problems_klong_solution.html#P61--Count-the-leaves-of-a-binary-tree) and [P61A](./99_problems_klong_solution.html#P61A--Collect-the-leaves-of-a-binary-tree-in-a-list) of the [99 Klong Problems](./99_problems_klong_solution.html)
 * Notes
 	* [Artificial Intelligence and Action-Compelling Sentences](./notes.html#Artificial-Intelligence-and-ActionCompelling-Sentences)
+	* [Use Things Up](./notes.html#Use-Things-Up)
 	* Better Names
 		* [Better Names for "Sentience"](./notes.html#Sentience)
+
+### Site Changes
+
+* Added table support in the CSS
 
 October 2019
 ------------

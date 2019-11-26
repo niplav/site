@@ -1,6 +1,6 @@
 include config.mk
 
-.SUFFIXES: .kg .eps .png
+.SUFFIXES: .rc .kg .eps .png
 
 all: $(IMG)
 
@@ -9,6 +9,10 @@ puttit: $(IMG)
 
 .eps.png:
 	convert $< $@
+	rm $<
+
+.rc.eps:
+	./$< >$@
 
 .kg.eps:
 	kg -l ./$< -e '.x(0)' >$@

@@ -29,9 +29,8 @@ Writing
 * Collections
 	* [99 Problems](./99_problems_collection.md)
 	* [Rationalist Gods](./rationalist_gods.md)
-	<!--[Solutions to “Naive Set Theory”](./naive_set_theory_solutions.md)-->
+	* [Solutions to “Naive Set Theory”](./naive_set_theory_solutions.md)
 	<!--[Circle Combinations](./circle_combinations.md)-->
-	<!--[Day Game Log](./day_game_log.md)-->
 * Analyses
 	* [Considerations on Cryonics](./considerations_on_cryonics.md)
 	* [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
@@ -95,4 +94,7 @@ Miscellaneous
 * [Changelog](./changelog.md)
 * [Contributions](./contributions.md)
 * [Now](./now.md)
+* [Todo](./todo.md)
 * [Uses This](./uses_this.md)
+
+![Sol Plav](./favicon.png "Sol Plav")

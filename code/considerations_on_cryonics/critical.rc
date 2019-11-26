@@ -1,0 +1,5 @@
+#!/usr/bin/env rc
+
+lua cryoyear.lua 20 50000 0.01 50 0.6 1 |
+awk -F: 'BEGIN { printf("[ "); } { printf("%f ", $1); } END { printf("]\n"); }' |
+kg -l ./critical.kg -e '.x(0)' >critical.eps

@@ -25,6 +25,19 @@ blockquote {
 	padding: 0.5em 10px;
 }
 
+table {
+	width: 800px;
+	border: solid 1px #000000;
+	border-collapse: collapse;
+}
+
+td {
+	font-size: 18px;
+	line-height: 1.6;
+	padding: 0em 8px;
+	border: solid 1px #000000;
+}
+
 img {
 	display: block;
 	margin-left: auto;
