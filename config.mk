@@ -15,6 +15,7 @@ HTML=index.html \
 	99_problems_klong_solution.html \
 	against_applause.html \
 	buch_stab.html \
+	consciousness_diagram.html \
 	considerations_on_cryonics.html \
 	circle_combinations.html \
 	equally_many_heads_and_tails.html \
@@ -29,7 +30,6 @@ HTML=index.html \
 	tao_te_king.html \
 	two_people_on_a_planet.html \
 	utilitarian_compliments.html \
-	venn_consciousness.html \
 	bp_chrono.html \
 	ob_chrono.html \
 	so_chrono.html \

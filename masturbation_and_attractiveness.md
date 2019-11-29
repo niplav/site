@@ -532,12 +532,12 @@ the second sample.
 Let then `$T$` be
 
 <div>
-	$$T:=\sqrt{\frac{n+m-2}{\frac{1}{m}+\frac{1}{n}}}*\frac{\=X-\=Y}{\sqrt{(m-1)*S_{X}^{2}+(n-1)*S_{Y}^{2}}}$$
+	$$T:=\sqrt{\frac{n+m-2}{\frac{1}{m}+\frac{1}{n}}}*\frac{\overline{X}-\overline{Y}}{\sqrt{(m-1)*S_{X}^{2}+(n-1)*S_{Y}^{2}}}$$
 </div>
 
-where `$\=X$` and `$\=Y$` are the sample mean of the two sample sets,
-and `$S_{X}^{2}$` and `$S_{Y}^{2}$` are the sample variances of the two
-sample sets.
+where `$\overline{X}$` and `$\overline{Y}$` are the sample mean of the
+two sample sets, and `$S_{X}^{2}$` and `$S_{Y}^{2}$` are the sample
+variances of the two sample sets.
 
 Different hypotheses are then tested by comparing `$T$` to the
 quantile function<!--TODO: link--> of Student's t-distribution<!--TODO:
@@ -654,4 +654,7 @@ TODO: read
 
 https://en.wikipedia.org/wiki/Masturbation
 https://en.wikipedia.org/wiki/Pornography
+/usr/local/doc/blackpill/gender_differences_in_receptivity_to_sexual_offers_tappé_et_al_2013.pdf
+/usr/local/blackpill/gender_differences_in_receptivity_to_sexual_offers_clark_hatfield_1989.pdf
+/usr/local/blackpill/psychological_perspectives_on_sex_tappé_2012.pdf
 -->
