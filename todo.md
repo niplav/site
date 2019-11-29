@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-11-26, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-11-27, language: english, status: notes, importance: 5, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades in the future.__
 
@@ -16,6 +16,7 @@ Site
 * Find out how to make the site more inclusive
 * (a) link for archives?
 * Get rid of "we", use "I" instead.
+* Confidence intervals for some values
 
 Texts
 -----
@@ -116,6 +117,9 @@ Texts
 	* products: {2,n}
 	* transformation curves: {linear, marginal, any}
 	* indifference curves: {linear, fixed number, any}
+* Building A Big Tower
+	* 1000 years, ~1 mio. people, stable technology, build a huge tower (at least 10 km)
+* Nuking the Amazon Cost-Benefit Analysis
 
 ### Ideas
 

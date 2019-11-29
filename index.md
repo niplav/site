@@ -25,7 +25,7 @@ Writing
 	* [Pipe Rings](./pipe_rings.md)
 	* [Two People on a Planet](./two_people_on_a_planet.md)
 	* [Compliments as Utilitarian Praxis](./utilitarian_compliments.md)
-	<!--* [Using Venn Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./venn_consciousness.md)-->
+	<!--* [Using Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./consciousness_diagram.md)-->
 * Collections
 	* [99 Problems](./99_problems_collection.md)
 	* [Rationalist Gods](./rationalist_gods.md)
