@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-11-26, language: english, status: draft, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-11-29, language: english, status: draft, importance: 4, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -350,7 +350,15 @@ Results were logged in a CSV <!--TODO: link-->file.
 ### Justification for Cold Approach as a Method
 
 <!--TODO: research different methods of measuring physical attractiveness,
-list & discuss them here-->
+list & discuss them here. Discuss correlation of attractiveness ratings
+within cultures.-->
+
+<!--
+TODO: read
+/usr/local/doc/unread/blackpill/gender_differences_in_receptivity_to_sexual_offers_tappé_et_al_2013.pdf
+/usr/local/doc/unread/blackpill/gender_differences_in_receptivity_to_sexual_offers_clark_hatfield_1989.pdf
+/usr/local/blackpill/psychological_perspectives_on_sex_tappé_2012.pdf
+-->
 
 Results Analysis
 -----------------
@@ -574,11 +582,27 @@ As one can see, \_.
 Problems
 --------
 
-* Approaching of men/women I find attractive, not objective measure
-* Different perception of attractiveness before&after masturbation
-* Different settings/clothing/weather
-* Only N=1 on the asker's side
-* Gender only by perception
+### No Objective Decision Process for Approaching
+
+<!--
+TODO: Read: /usr/local/doc/unread/blackpill/cross_cultural_agreement_in_facial_attractiveness_preferences_coetzee_2014.pdf
+Also find a source for within cultures (among them WEIRD)
+-->
+
+### Perception of Attractiveness may vary In Regards to Masturbation Behavior
+
+<!--
+TODO:
+Idea:
+Survey on /r/NoFap regarding attractiveness perception (does longer abstinence from masturbation result in
+lower attractiveness standards?
+-->
+
+### N=1 on the Approachers Side
+
+### Gender was Determined by Perception
+
+### Different Settings, Clothing & Weather
 
 Conclusion
 ----------
@@ -654,7 +678,4 @@ TODO: read
 
 https://en.wikipedia.org/wiki/Masturbation
 https://en.wikipedia.org/wiki/Pornography
-/usr/local/doc/blackpill/gender_differences_in_receptivity_to_sexual_offers_tappé_et_al_2013.pdf
-/usr/local/blackpill/gender_differences_in_receptivity_to_sexual_offers_clark_hatfield_1989.pdf
-/usr/local/blackpill/psychological_perspectives_on_sex_tappé_2012.pdf
 -->

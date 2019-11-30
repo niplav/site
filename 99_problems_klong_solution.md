@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-11-17, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-11-29, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -2076,7 +2076,7 @@ of the edge conditions in this problem.
 
 `$min_{n}$` therefore is
 
-	d4::{:[x=0;0;_ln(x)%ln(2)]}
+	d4::{:[x;_ln(x)%ln(2);0]}
 
 For `$max_{n}$`, one first needs to introduce the inverse of the fibonacci
 series. One can think of the fibonacci series as an injective function
@@ -2161,7 +2161,7 @@ Implementing `$max_{n}$` is implementing
 
 This way, `$max_{n}$` can be implemented the following way:
 
-	d5.1::{:[x=0;0;_ln(0.6459+x*0.5279)%0.4812]}
+	d5.1::{:[x;_ln(0.6459+x*0.5279)%0.4812;0]}
 
 Another possible method of implementation could be to
 generate the minimal number of nodes in trees with increasing
@@ -2209,8 +2209,8 @@ generate all balanced trees with those heights using `s59`, and then
 filter them for having `x` nodes using `s7` (flattening the tree and
 then checking the length of the resulting list).
 
-	d4::{:[x=0;0;_ln(x)%ln(2)]}
-	d5::{:[x=0;0;_ln(0.6459+x*0.5279)%0.4812]}
+	d4::{:[x;_ln(x)%ln(2);0]}
+	d5::{:[x;_ln(0.6459+x*0.5279)%0.4812;0]}
 	s60::{[a];a::x;flr({a=#s7(x)};,/s59's22(d4(x);d5(x)))}
 
 Testing this:
@@ -2271,10 +2271,11 @@ TODO: currently incorrect.
 A node in the list is a leaf if both its subnodes are the empty list.
 This way, one can write a very simple recursive function that traverses
 the tree and adds up the number of leaves in its subnodes.
-Here, an empty list is not a leaf, but a node with two empty subnodes
-is a leaf.
+Here, an empty list is not a leaf, but a node with two empty subnodes is
+a leaf. One can test whether both subtrees are empty by concatenating them
+using fold and then testing whether this concatenation is the empty list.
 
-	s61::{:[[]~x;0:|[[][]]~1_x;1;.f(x@1)+.f(x@2)]}
+	s61::{+/:[x~[];0:|[]~,/1_x;1;.f'1_x]}
 	countleaves::s61
 
 Tests:
@@ -2286,9 +2287,12 @@ Tests:
 		countleaves([:x [:x [] []] [:x [:x [] []] [:x [] []]]])
 	3
 		countleaves([:x])
-	kg: error: index: range error: 2
+	1
 
-Everything works as intended.
+The last result is incorrect, however, because the problem statement says
+nothing about incorrectly formed trees, it is reasonable to assume that
+the function should just return correct results for correct inputs. Every
+other case can be checked using `s54`.
 
 ### P61A (*) Collect the leaves of a binary tree in a list.
 
@@ -2297,7 +2301,7 @@ to solve P61 more easily.
 One can again traverse the tree recursively, this time concatenating
 nodes that have two empty subnodes.
 
-	s61a::{:[[]~x;x:|[[][]]~1_x;1#x;.f(x@1),.f(x@2)]}
+	s61a::{,/:[[]~,/1_x;,1#x;.f'1_x]}
 	leaves::s61a
 
 Testing this reveals that it works:
@@ -2317,11 +2321,71 @@ In fact, one can use `s61a` to implement a much shorter version of `s61`:
 
 ### P62 (*) Collect the internal nodes of a binary tree in a list.
 
-<!--
+This function is very similar to the functions above: It traverses the
+tree recursively, returning the empty list if the given tree is a leaf
+(checked by checking whether the concatenation of two subtrees is the
+empty list) and returning the first element of the list if this is not
+the case.
 
-	s62::{:[[]~x;x:|~[[][]]~1_x;1#x;.f(x@1),.f(x@2)]}
-	s62::{:[(3=#x)&~[[][]]~1_x;.f(x@1),.f(x@2),1#x;[]]}
-	s62b::{:[y=1;*x:|3>#x;[];.f(x@1;y-1),.f(x@2;y-1)]}
+	s62::{(:[~[]~,/1_x;1#x;[]]),,/.f'1_x}
+	internals::s62
+
+Tests:
+
+		internals([])
+	[]
+		internals([:a [] []])
+	[]
+		internals([:a [:b [] []] []])
+	[:a]
+		internals([:x [:x [:x [] []]]])
+	[:x :x]
+		internals([:a [:b [] []] [:c [:d [:e [] []] []] []]])
+	[:a :c :d]
+
+Another possible implementation could be `s62::{a1(s7(x);s61a(x))}`:
+it returns the set difference of all of the nodes of the tree and
+the leaves.  However, this only works if all elements in the tree are
+distinct, because the set difference removes duplicates.
+
+### P62B (*) Collect the nodes at a given level in a tree.
+
+One can think of collecting the nodes at a given level of a tree as
+removing all the levels above the given level by creating a list of
+the subtrees repeatedly. The nodes at the given level are then just the
+first elements of all the subtrees in the list, which are then collected
+and concatenated.
+
+	s62b::{,/*'(y-1){,/{1_x}'x}:*,x}
+	atlevel::s62b
+
+Tests:
+
+		atlevel([:a [:b [:c [] []] [:d [] []]] [:e [] []]];1)
+	:a
+		atlevel([:a [:b [:c [] []] [:d [] []]] [:e [] []]];2)
+	[:b :e]
+		atlevel([:a [:b [:c [] []] [:d [] []]] [:e [] []]];3)
+	[:c :d]
+		atlevel([:a [:b [:c [] []] [:d [] []]] [:e [] []]];4)
+	[]
+		atlevel([];0)
+	[]
+		atlevel([:x [:x [:x [] []]]];0)
+	:x
+		atlevel([:x [:x [:x [] []]]];1)
+	:x
+		atlevel([:x [:x [:x [] []]]];2)
+	:x
+		atlevel([:x [:x [:x [] []]]];3)
+	:x
+
+While it seems to work, I am really bugged by the fact that Klong
+concatenates a list containing a single atom into just that atom, as
+opposed to returning it unchanged. I will need to find a workaround for
+this, but for the time being, I like the implementation.
+
+<!--
 	d9::{y:=(,x,y@z),z}
 	s62c::{{[n];:[(1+z)>#y;n::y,,[];n::y];
 		:[*3=^x;.f(x@1;.f(x@2;d9(*x;n;z);z+1);z+1);d9(*x;n;z)]}
