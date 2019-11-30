@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-11-26, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2019-11-29, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -14,7 +14,7 @@ November 2019
 ### Writing
 
 * [Solutions to “Naive Set Theory”](./naive_set_theory_solutions.md)
-* Solutions to [P61](./99_problems_klong_solution.html#P61--Count-the-leaves-of-a-binary-tree) and [P61A](./99_problems_klong_solution.html#P61A--Collect-the-leaves-of-a-binary-tree-in-a-list) of the [99 Klong Problems](./99_problems_klong_solution.html)
+* Solutions to [P61](./99_problems_klong_solution.html#P61--Count-the-leaves-of-a-binary-tree), [P61A](./99_problems_klong_solution.html#P61A--Collect-the-leaves-of-a-binary-tree-in-a-list), [P62](./99_problems_klong_solution.html#P62--Collect-the-internal-nodes-of-a-binary-tree-in-a-list) and [P62B](./99_problems_klong_solution.html#P62B--Collect-the-nodes-at-a-given-level-in-a-tree) of the [99 Klong Problems](./99_problems_klong_solution.html)
 * Notes
 	* [Artificial Intelligence and Action-Compelling Sentences](./notes.html#Artificial-Intelligence-and-ActionCompelling-Sentences)
 	* [Use Things Up](./notes.html#Use-Things-Up)

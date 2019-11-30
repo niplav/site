@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-11-27, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-11-29, language: english, status: notes, importance: 5, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades in the future.__
 
@@ -230,6 +230,7 @@ Texts
 * Mistakes
 * Open Questions
 * Fundamentals
+* Good Ideas
 
 > we should be far more explicit about the assumed background against
 > which we intend to communicate.
@@ -421,6 +422,20 @@ Programming
 * nager
 	* sxhkd for the mouse
 	* syntax: `[MOUSEEVENT] [, MOUSEEVENT] [ /*possibly nested*/ COMMAND ]`
+* erle
+	* rlwrap alternative, takes ideas from the fish shell interactive mode
+	* normal readline like behaviour (but using something simpler, like linenoise/dietline)
+	* history file is loaded during startup
+	* 	`<text>[UP]` shows the last command containing `<text>`,
+		again `[UP]` the one before that, and so on
+	*	`<word1> <word2>[TAB]` expands `<word2>` into the last word
+		(string separated from the others with a newline/space)
+		beginning with `<word2>`
+	*	no input for more than half a second/a second shows a suggestion
+	        of the last command beginning with the current line.
+	* ideas for speeding it up:
+	        * use `char**` for storing each history and words
+	        * benchmark and optimise, of course
 
 ### Klong Libraries
 
@@ -519,4 +534,3 @@ General
 -------
 
 * Send typos to people, let them correct them
-	* Gwern hyphens Terrorism-is-not-about-Terror

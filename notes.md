@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-11-26, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2019-11-29, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -372,7 +372,7 @@ sentients. Hence, for the purpose here, the important dividing line is
 not between sentients and non-sentients, but between affective sentients
 and non-affective beings (sentient or non-sentient).
 
-*– Yew-Kwang Ng, [“Towards Welfare Biology: Evolutionary Economics of Animal Consciousness and Suffering”](.doc/better_words/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf)
+*– Yew-Kwang Ng, [“Towards Welfare Biology: Evolutionary Economics of Animal Consciousness and Suffering”](.doc/better_words/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf) p. 4, 1995*
 
 Thus, it seems desirable to differentiate between the ability to have
 subjective experiences ("sentience") and the ability to have affective
@@ -400,7 +400,7 @@ Artificial Intelligence and Action-Compelling Sentences
 > intelligence could in principle be combined with more or less any
 > final goal.
 
-*– Nick Bostrom, “The Superintelligent Will: Motivation And Instrumental Rationality In Advanced Artificial Agents” p. 3, 2012*
+*– [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), “The Superintelligent Will: Motivation And Instrumental Rationality In Advanced Artificial Agents” p. 3, 2012*
 
 <!--TODO: read & link /usr/local/doc/unread/alignment/the_superintelligent_will_bostrom_2012.pdf-->
 

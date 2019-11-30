@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-06, modified: 2019-11-03, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-06, modified: 2019-11-29, language: english, status: in progress, importance: 5, confidence: log*
 
 > __A collection of contributions to other projects.__
 
@@ -10,6 +10,14 @@ Contributions
 
 Texts
 -----
+
+<!--
+TODO: follow up on https://drewdevault.com/2014/02/02/The-worst-bugs.html,
+https://www.skepticink.com/prussian/2014/03/31/the-anti-racialist-q-a/,
+https://media.urbit.org/whitepaper.pdf,
+https://therealmovement.wordpress.com/2018/05/26/empirical-evidence-for-the-proposition-that-production-based-on-exchange-value-has-collapsed/,
+http://metamoderna.org/beyond-piketty-far-beyond?lang=en,
+-->
 
 ### “Differential Intellectual Progress as a Positive-Sum Project”
 
