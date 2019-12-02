@@ -118,8 +118,12 @@ Texts
 	* transformation curves: {linear, marginal, any}
 	* indifference curves: {linear, fixed number, any}
 * Building A Big Tower
-	* 1000 years, ~1 mio. people, stable technology, build a huge tower (at least 10 km)
+	* 1000 years, ~1 mio. people, ~1 trio. dollars, stable technology, build a huge tower (at least 10 km)
 * Nuking the Amazon Cost-Benefit Analysis
+* What is the most common word I don't use?
+* How Much Stronger is the Gender Difference In Sex Drive?
+	* /usr/local/doc/unread/blackpill/is_there_a_gender_difference_in_strength_of_sex_drive_baumeister_et_al_2001.pdf
+	* /usr/local/doc/unread/blackpill/in_heterosexual_relationships_men_masturbate_more_than_women_waterink_2014.pdf
 
 ### Ideas
 

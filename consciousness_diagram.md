@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-15, modified: 2019-11-27, language: english, status: notes, importance: 5, confidence: theory*
+*author: niplav, created: 2019-08-15, modified: 2019-11-30, language: english, status: notes, importance: 5, confidence: theory*
 
 > __Many people have very different conceptions on how to think about
 > consciousness, intelligence, sentience and information processing. A
@@ -68,7 +68,7 @@ Can experience qualia, such as the color red.
 Example: Myself  
 Counter-example: P-Zombie
 
-#### Affectively sentient (A):
+#### Affectively sentient (AS):
 
 Can experience valenced qualia (qualia that are good/bad)
 
@@ -120,3 +120,12 @@ optimizing (intelligence meaning the same thing as optimizing). Some of
 the optimizing systems are also sapient.
 
 ![Information-processing centric diagram](./img/consciousness_diagram/ip_centric.png "Information-processing centric diagram")
+
+Another way of looking at consciousness: Intelligent and sentient systems
+are both information processing systems, but not necessarily the same,
+every conscious system is sentient, just as every affectively sentient
+system, and every sapient system is both intelligent, conscious and
+affectively sentient. Also, not every information-processing system is
+sentient or intelligent.
+
+![Diagram of a view where consciousness is a very specific thing](./img/consciousness_diagram/specific.png "Diagram of a view where consciousness is a a very specific thing")
