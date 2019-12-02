@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-10, modified: 2019-09-28, language: english, status: in progress, importance: 2, confidence: possible*
+*author: niplav, created: 2019-04-10, modified: 2019-09-28, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __A while ago, I became interested in personal estimations
 > of life expectancy. I wanted to know how accurate people are

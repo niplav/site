@@ -19,6 +19,10 @@ during.stagcum::|+\|during.stag
 duringm.stagcum::|+\|duringm.stag
 duringf.stagcum::|+\|duringf.stag
 
+during.perc::|%:'|during.stagcum
+duringm.perc::|%:'|duringm.stagcum
+duringf.perc::|%:'|duringf.stagcum
+
 after::{*|x}'flr({0=*x};data)
 afterm::{*|x}'flr({(0=*x)&("m"=x@1)};data)
 afterf::{*|x}'flr({(0=*x)&("f"=x@1)};data)
@@ -30,6 +34,10 @@ afterf.stag::#'=afterf@<afterf
 after.stagcum::|+\|after.stag
 afterm.stagcum::|+\|afterm.stag
 afterf.stagcum::|+\|afterf.stag
+
+after.perc::|%:'|after.stagcum
+afterm.perc::|%:'|afterm.stagcum
+afterf.perc::|%:'|afterf.stagcum
 
 m::{*|x}'flr({"m"~x@1};data)
 f::{*|x}'flr({"f"~x@1};data)

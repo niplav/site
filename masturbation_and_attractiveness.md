@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-11-29, language: english, status: draft, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-12-02, language: english, status: draft, importance: 5, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -282,6 +282,7 @@ effects are noticeable.
 
 The reasons given for this increase in attractiveness are as follows:
 
+<!--TODO: Wikipedia links for these-->
 * Microexpressions
 * Pheromones
 * Placebo effect
@@ -327,6 +328,9 @@ take you out on a date sometime. When are you free?
 In case of them agreeing to go on a date, a time and place were agreed
 upon, and I came to the date to check whether they had showed up.
 
+The people who were approached were chosen by their attractiveness to
+the author.
+
 In the week following the last approach, I masturbated once every day.
 Afterwards, I repeated the procedure of approaching 100 men and 100 women
 with the same words from \_ to \_.
@@ -363,7 +367,7 @@ TODO: read
 Results Analysis
 -----------------
 
-The raw data is available [here](./data/masturbation_and_attractiveness.csv).
+The raw data is available [here](./data/masturbation_attractiveness.csv).
 
 ### Visualizing the Results
 
@@ -446,6 +450,8 @@ Female:
 ![Female loss in different stages of the funnel](./img/masturbation_and_attractiveness/dur_after_f_bar.png "Female loss in different stages of the funnel.")
 
 *Figure 3: Female loss in different stages of cold approach*
+
+<!--TODO: Add images with percentages-->
 
 ### Descriptive Results
 
@@ -589,6 +595,23 @@ TODO: Read: /usr/local/doc/unread/blackpill/cross_cultural_agreement_in_facial_a
 Also find a source for within cultures (among them WEIRD)
 -->
 
+One possible criticism of the above experiment could be that no
+clear method of establishing of whom to approach was used. This is
+a fair criticism, since attractiveness is a subjective evaluation
+criterion.  However, one must also consider that subjective judgements
+of attractiveness correlate strongly both within cultures as well as
+cross-culturally.<!--TODO: citation here-->
+
+Another possible method would have been to approach people completely
+randomly, which would have reduced bias significantly. However, it
+would also have made the result less useful, since it seems like people
+who practice NoFap care about their attractiveness to a very certain
+demographic (namely, conventionally attractive women in their late teens
+to early thirties).
+
+On the other hand, it might have been interesting to observe how older
+people would react to cold approach.
+
 ### Perception of Attractiveness may vary In Regards to Masturbation Behavior
 
 <!--
@@ -600,9 +623,13 @@ lower attractiveness standards?
 
 ### N=1 on the Approachers Side
 
+### Typical WEIRDness
+
 ### Gender was Determined by Perception
 
 ### Different Settings, Clothing & Weather
+
+### Strawman of the Views of the NoFap Community
 
 Conclusion
 ----------
