@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-11-29, language: english, status: notes, importance: 5, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-12-02, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades in the future.__
 
@@ -440,6 +440,11 @@ Programming
 	* ideas for speeding it up:
 	        * use `char**` for storing each history and words
 	        * benchmark and optimise, of course
+* pandeck
+	* convert files from different spaced repetition softwares into another
+		* fulgurate .crd
+		* mnemosyne
+		* anki
 
 ### Klong Libraries
 
@@ -510,6 +515,9 @@ Programming
 	* Range is extremely slow for anything but integers, why?
 	* error with klong: `#'s58'!40` returns `kg: error: call: type error: [6 :triad %call1 %pop1]`
 		* bug, report
+* fzf
+	* Why doesn't fzf cope well with shuffled or repeated letters?
+	* 'niiiiiplav' and 'nlapiv' both take me to the wrong directory, they're obviously meant for my home directory
 * dc 9base manpage:
 	* typo in the order of operations in the manpage
 

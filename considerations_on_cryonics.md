@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2019-11-14, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2019-12-02, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Many people
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html).
@@ -674,7 +674,9 @@ they live in a simulated world where homicide risks and care accidents
 make no sense), but an em also suffers from the risk of not having enough
 money to continue being run, and from the fact that the em era might
 not last several subjective millennia. This scenario deserves further
-consideration<!--TODO: actually do that-->.
+consideration<!--TODO: actually do that-->.<!--TODO: read & add Hanson,
+Robin. 1994. “If Uploads Come First: The Crack of a Future Dawn.”
+Extropy 6 (2). http: //hanson.gmu.edu/uploads.html.-->
 
 To conclude, it seems like reuscitated cryonicists will on average live
 around 4500 years, although there is room for debate on this number.

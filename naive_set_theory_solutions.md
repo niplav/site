@@ -347,8 +347,8 @@ Proof:
 
 <div>
 	$$(A \cup B) \times X=\\
-	\{(e, x): \forall e \in A \lor e \in B, x \in X\}=\\
-	\{(e, x): \forall e \in A, x \in X\} \cup \{(e, x): \forall e \in B, x \in X\}=\\
+	\{(e, x): e \in A \lor e \in B, x \in X\}=\\
+	\{(e, x): e \in A, x \in X\} \cup \{(e, x): e \in B, x \in X\}=\\
 	(A \times X) \cup (B \times X)$$
 </div>
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-06-21, modified: 2019-08-07, language: english, status: notes, importance: 4, confidence: highly likely*
+*author: niplav, created: 2019-06-21, modified: 2019-12-02, language: english, status: notes, importance: 4, confidence: highly likely*
 
 > __It is currently unknown how many ways exist to [arrange
 > n circles](https://www.youtube.com/watch?v=bRIL9kMJJSc) in
@@ -37,134 +37,169 @@ have the same characteristic description).
 1 Circle
 --------
 
-![Circle Combination 1_1](img/circle_combinations/1_1.png)
-
-* Unintersected lines: 1
-* Line intersections: 0
-* Unintersected planes: 2
-* Characteristic description: 1,1
+<table>
+<tbody>
+	<tr>
+		<td>Image</td>
+		<td>Unintersected lines</td>
+		<td>Line intersections</td>
+		<td>Unintersected planes</td>
+		<td>Characteristic description</td>
+	</tr>
+	<tr>
+		<td><img src="./img/circle_combinations/1_1.png"></img></td>
+		<td>1</td>
+		<td>0</td>
+		<td>1</td>
+		<td>1,1</td>
+	</tr>
+</tbody>
+</table>
 
 2 Circles
 ----------
 
-![Circle Combination 2_1](img/circle_combinations/2_1.png)
-
-* Unintersected lines: 2
-* Line intersections: 0
-* Unintersected planes: 3
-* Characteristic description: 1,2,0
-
-![Circle Combination 2_2](img/circle_combinations/2_2.png)
-
-* Unintersected lines: 4
-* Line intersections: 2
-* Unintersected planes: 4
-* Characteristic description: 1,2,1
-
-![Circle Combination 2_3](img/circle_combinations/2_3.png)
-
-* Unintersected lines: 2
-* Line intersections: 0
-* Unintersected planes: 3
-* Characteristic description: 1,1,1
+<table>
+<tbody>
+	<tr>
+		<td>Image</td>
+		<td>Unintersected lines</td>
+		<td>Line intersections</td>
+		<td>Unintersected planes</td>
+		<td>Characteristic description</td>
+	</tr>
+	<tr>
+		<td><img src="./img/circle_combinations/2_1.png"></img></td>
+		<td>2</td>
+		<td>0</td>
+		<td>3</td>
+		<td>1,2,0</td>
+	</tr>
+	<tr>
+		<td><img src="./img/circle_combinations/2_2.png"></img></td>
+		<td>4</td>
+		<td>2</td>
+		<td>4</td>
+		<td>1,2,1</td>
+	</tr>
+	<tr>
+		<td><img src="./img/circle_combinations/2_3.png"></img></td>
+		<td>2</td>
+		<td>0</td>
+		<td>3</td>
+		<td>1,1,1</td>
+	</tr>
+</tbody>
+</table>
 
 3 Circles
 ---------
 
-![Circle Combination 3_1](img/circle_combinations/3_1.png)
-
-* Unintersected lines: 3
-* Line intersections: 0
-* Unintersected planes: 4
-* Characteristic description: 1,3,0,0
-
-![Circle Combination 3_2](img/circle_combinations/3_2.png)
-
-* Unintersected lines: 5
-* Line intersections: 2
-* Unintersected planes: 5
-* Characteristic description: 1,3,1,0
-
-![Circle Combination 3_3](img/circle_combinations/3_3.png)
-
-* Unintersected lines: 8
-* Line intersections: 4
-* Unintersected planes: 6
-* Characteristic description: 1,3,2,0
-
-![Circle Combination 3_4](img/circle_combinations/3_4.png)
-
-* Unintersected lines: 5
-* Line intersections: 2
-* Unintersected planes: 5
-* Characteristic description: 1,2,2,0
-
-![Circle Combination 3_5](img/circle_combinations/3_5.png)
-
-* Unintersected lines: 8
-* Line intersections: 4
-* Unintersected planes: 6
-* Characteristic description: 1,2,2,1
-
-![Circle Combination 3_6](img/circle_combinations/3_6.png)
-
-* Unintersected lines: 5
-* Line intersections: 2
-* Unintersected planes: 5
-* Characteristic description: 1,2,1,1
-
-![Circle Combination 3_7](img/circle_combinations/3_7.png)
-
-* Unintersected lines: 12
-* Line intersections: 6
-* Unintersected planes: 8
-* Characteristic description: 1,3,3,1
-
-![Circle Combination 3_8](img/circle_combinations/3_8.png)
-
-* Unintersected lines: 3
-* Line intersections: 0
-* Unintersected planes: 4
-* Characteristic description: 1,2,1,0
-
-![Circle Combination 3_9](img/circle_combinations/3_9.png)
-
-* Unintersected lines: 3
-* Line intersections: 0
-* Unintersected planes: 4
-* Characteristic description: 1,1,2,0
-
-![Circle Combination 3_10](img/circle_combinations/3_10.png)
-
-* Unintersected lines: 5
-* Line intersections: 2
-* Unintersected planes: 4
-* Characteristic description: 1,1,2,1
-
-![Circle Combination 3_11](img/circle_combinations/3_11.png)
-
-* Unintersected lines: 3
-* Line intersections: 0
-* Unintersected planes: 4
-* Characteristic description: 1,1,1,1
-
-![Circle Combination 3_12](img/circle_combinations/3_12.png)
-
-* Unintersected lines: 12
-* Line intersections: 6
-* Unintersected planes: 8
-* Characteristic description: 1,4,2,1
-
-![Circle Combination 3_13](img/circle_combinations/3_13.png)
-
-* Unintersected lines: 12
-* Line intersections: 6
-* Unintersected planes: 8
-* Characteristic description: 1,2,4,1
-
-![Circle Combination 3_14](img/circle_combinations/3_14.png)
-
-* Unintersected lines: 12
-* Line intersections: 6
-* Unintersected planes: 8
-* Characteristic description: 2,3,3,0
+<table>
+<tbody>
+	<tr>
+		<td>Image</td>
+		<td>Unintersected lines</td>
+		<td>Line intersections</td>
+		<td>Unintersected planes</td>
+		<td>Characteristic description</td>
+	</tr>
+	<tr>
+		<td><img src="./img/circle_combinations/3_1.png"></img></td>
+		<td>3</td>
+		<td>0</td>
+		<td>4</td>
+		<td>1,3,0,0</td>
+	</tr>
+	<tr>
+		<td><img src="./img/circle_combinations/3_2.png"></img></td>
+		<td>5</td>
+		<td>2</td>
+		<td>5</td>
+		<td>1,3,1,0</td>
+	</tr>
+	<tr>
+		<td><img src="./img/circle_combinations/3_3.png"></img></td>
+		<td>8</td>
+		<td>4</td>
+		<td>36</td>
+		<td>1,3,3,0</td>
+	</tr>
+	<tr>
+		<td><img src="./img/circle_combinations/3_4.png"></img></td>
+		<td>5</td>
+		<td>2</td>
+		<td>5</td>
+		<td>1,2,2,0</td>
+	</tr>
+	<tr>
+		<td><img src="./img/circle_combinations/3_5.png"></img></td>
+		<td>8</td>
+		<td>4</td>
+		<td>6</td>
+		<td>1,2,2,1</td>
+	</tr>
+	<tr>
+		<td><img src="./img/circle_combinations/3_6.png"></img></td>
+		<td>5</td>
+		<td>2</td>
+		<td>5</td>
+		<td>1,2,1,1</td>
+	</tr>
+	<tr>
+		<td><img src="./img/circle_combinations/3_7.png"></img></td>
+		<td>12</td>
+		<td>6</td>
+		<td>8</td>
+		<td>1,3,3,1</td>
+	</tr>
+	<tr>
+		<td><img src="./img/circle_combinations/3_8.png"></img></td>
+		<td>3</td>
+		<td>0</td>
+		<td>4</td>
+		<td>1,2,1,0</td>
+	</tr>
+	<tr>
+		<td><img src="./img/circle_combinations/3_9.png"></img></td>
+		<td>3</td>
+		<td>0</td>
+		<td>4</td>
+		<td>1,1,2,0</td>
+	</tr>
+	<tr>
+		<td><img src="./img/circle_combinations/3_10.png"></img></td>
+		<td>5</td>
+		<td>2</td>
+		<td>4</td>
+		<td>1,1,2,1</td>
+	<tr>
+		<td><img src="./img/circle_combinations/3_11.png"></img></td>
+		<td>3</td>
+		<td>0</td>
+		<td>4</td>
+		<td>1,1,1,1</td>
+	</tr>
+	<tr>
+		<td><img src="./img/circle_combinations/3_12.png"></img></td>
+		<td>12</td>
+		<td>6</td>
+		<td>8</td>
+		<td>1,4,2,1</td>
+	</tr>
+	<tr>
+		<td><img src="./img/circle_combinations/3_13.png"></img></td>
+		<td>12</td>
+		<td>6</td>
+		<td>8</td>
+		<td>1,2,4,1</td>
+	</tr>
+	<tr>
+		<td><img src="./img/circle_combinations/3_14.png"></img></td>
+		<td>12</td>
+		<td>6</td>
+		<td>8</td>
+		<td>2,3,3,0</td>
+	</tr>
+</tbody>
+</table>
