@@ -1,9 +1,10 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-12-02, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-12-03, language: english, status: notes, importance: 2, confidence: log*
 
-> __Notes and ideas for texts & programs that will be written decades in the future.__
+> __Notes and ideas for texts & programs that will be written decades
+> in the future, as well as music.__
 
 TODO
 ====
@@ -17,6 +18,7 @@ Site
 * (a) link for archives?
 * Get rid of "we", use "I" instead.
 * Confidence intervals for some values
+* Improve citation (both to wikipedia and to papers)
 
 Texts
 -----
@@ -118,7 +120,21 @@ Texts
 	* transformation curves: {linear, marginal, any}
 	* indifference curves: {linear, fixed number, any}
 * Building A Big Tower
-	* 1000 years, ~1 mio. people, ~1 trio. dollars, stable technology, build a huge tower (at least 10 km)
+	* 500 years, ~1 trio. dollars, stable technology, build a tower as big as possible
+	* considerations
+		* location
+			* some mountains nearby for material
+			* very stable ground (tower doesn't sink into the ground)
+		* energy production
+			* nuclear, probably
+	* base of the tower probably square
+		* length 5-10 km
+	* pyramid shaped
+		* 100 m for every layer, 20-50m distance to the edge of the last layer
+	* big blocks
+		* use lava to form them, from pulverized mountains
+			* pump up powder/sand/little stones or magma?
+			* in the former case, one also needs electricity at the top
 * Nuking the Amazon Cost-Benefit Analysis
 * What is the most common word I don't use?
 * How Much Stronger is the Gender Difference In Sex Drive?
@@ -428,7 +444,7 @@ Programming
 	* syntax: `[MOUSEEVENT] [, MOUSEEVENT] [ /*possibly nested*/ COMMAND ]`
 * erle
 	* rlwrap alternative, takes ideas from the fish shell interactive mode
-	* normal readline like behaviour (but using something simpler, like linenoise/dietline)
+	* normal readline like behavior (but using something simpler, like linenoise/dietline)
 	* history file is loaded during startup
 	* 	`<text>[UP]` shows the last command containing `<text>`,
 		again `[UP]` the one before that, and so on
@@ -445,6 +461,25 @@ Programming
 		* fulgurate .crd
 		* mnemosyne
 		* anki
+* unitspheretransform
+	* VR application that visualizes the transformation of the unit sphere in 3-dimensional space
+	* also unit circle transform
+	* color code the original vectors
+	* interpolate them?
+* hedonium
+	* look up different information-processing centric ideas about consciousness
+	* combine them with the symmetry theory of valence
+	* implement the best approximation of these
+* minspantree
+	* implement all algorithms for the minimum spanning tree in a functional programming language
+	* like sml/ocaml
+	* /usr/local/doc/unread/cs/state_of_the_art_algorithms_for_minimum_spanning_trees_eisner_1997.pdf
+* nenio
+	* a suckless prolog implementation
+	* ISO prolog
+* rien
+	* suckless sml implementation, sml '97
+	* maybe build on mosml
 
 ### Klong Libraries
 

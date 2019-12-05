@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2019-11-29, language: english, status: in progress, importance: 4, confidence: other*
+*author: niplav, created: 2019-01-14, modified: 2019-12-03, language: english, status: in progress, importance: 4, confidence: other*
 
 > __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems
@@ -281,10 +281,9 @@ Note that we do not want permutations of the group members; i.e. `[[:aldo
 we make a difference between `[[:aldo :beat] [:carla :david] ...]` and
 `[[:carla :david] [:aldo :beat] ...]`.
 
-You may find more about this combinatorial problem in a
-good book on discrete mathematics under the term ["multinomial
-coefficients"](https://en.wikipedia.org/wiki/Multinomial_theorem#Multinomial_coefficients
-"Wikipedia: Multinomial Coefficients").
+You may find more about this combinatorial problem in a good
+book on discrete mathematics under the term ["multinomial
+coefficients"](https://en.wikipedia.org/wiki/Multinomial_theorem#Multinomial_coefficients).
 
 ### P28 (**) Sorting a list of lists according to length of sublists.
 

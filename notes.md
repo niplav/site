@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-11-29, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2019-12-03, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -525,3 +525,64 @@ So, if you don't have a strong aesthetic sensibility, either have a high
 social status or don't care about it, and if you are careful, using things
 until they don't function anymore can save both money and time<!--TODO:
 how much?-->.
+
+Killing Old People Versus Infants
+---------------------------------
+
+<!--TODO: cite everthing here-->
+
+[Would you rather kill anybody above the
+age of 55, or all infants who are less than 1 year
+old](https://twitter.com/Aella_Girl/status/1201004323771015168)?<!--TODO:
+link tweet--> A utilitarian estimate calculation.
+
+First, we have to find out how many people one
+would kill in either case. One can use a [Gompertz
+distribution](https://en.wikipedia.org/wiki/Gompertz_distribution) to
+calculate the number of people who survive to a certain age. Eyeballingly,
+I set the parameters for the Gompertz distribution as following (assuming
+that the average life expectancy for humans worldwide is around 70 years):
+
+	b::0.135
+	eta::0.0001
+	gompertz::{e^(-eta*e^(b*x)-1)}
+
+Per second, around 2.5 people are born. That makes
+`$2.5*86400*365=78840000$` infants born in a given year. If one assumes
+that the rate was 1.5 new people per second 50 years ago (I'm totally
+making this number up), one can calculate how many people one would loose
+by killing everybody over the age of 55: `$1.5*86400*365*gompertz(age)$`
+for each age.
+
+		(1.5*86400*365)*gompertz'55+!40
+	[44473200.7207658453 44078304.0199950951 43630631.678052885 43123831.4110944785 42551000.4370012988 41904706.6458454302 41177037.9097540623 40359688.6128505703 39444094.1754678999 38421625.9504005789 37283860.1222638241 36022934.7459101827 34632008.242851397 33105829.7560855725 31441425.7491110598 29638896.9542750156 27702304.0099124066 25640597.8716393133 23468522.0145014683 21207378.6146322503 18885513.690200932 16538343.3518518112 14207725.8491815205 11940497.2176655739 9786049.67948789197 7792956.91164218079 6004843.63205038408 4455941.53315815534 3167019.65254407032 2142539.59874557882 1369859.09840341984 821005.831380952029 456963.772747178294 233688.760268988168 108467.196268261483 45058.7560290022783 16486.0426936225017 5216.0267386251195 1397.4204471537743 309.483499954735544]
+
+However, what we really care about is the number of life-years lost
+(among other things). For simplicities sake, I'll assume that all life
+years are equally valuable.
+
+The average life expectancy on earth is around 70 years, so one can use
+the following table of life expectancy at a given age (calculated from
+german actuarial values using this code `{x+0.9*(actval@x)-x}'!101`,
+which was totally made up):
+
+	actval::[70.524 70.876 70.994 71.103 71.212 71.321 71.421 71.53 71.639 71.739 71.848 71.948 72.057 72.157 72.266 72.375 72.475 72.593 72.711 72.829 72.947 73.074 73.192 73.319 73.437 73.564 73.682 73.809 73.927 74.054 74.181 74.308 74.435 74.562 74.689 74.825 74.961 75.088 75.233 75.369 75.505 75.65 75.795 75.949 76.094 76.257 76.42 76.583 76.755 76.927 77.117 77.307 77.506 77.3 46.8 78.031 78.257 78.492 78.745 78.998 79.278 79.558 79.847 80.145 80.461 80.786 81.12 81.463 81.815 82.176 82.546 82.925 83.313 83.701 84.107 84.522 84.937 85.37 85.812 86.272 86.741 87.228 87.742 88.274 88.842 89.419 90.023 90.663 91.321 92.006 92.709 93.43 94.178 94.944 95.746 96.548 97.395 98.26 99.143 100.026 100.918]
+
+This means that one will loose `$70*2.5*86400*365=5518800000 \approx 5.5*10^9$` life
+years for killing all infants.
+
+When killing everybody above the age of 55, one will loose
+
+		+/{(((actval@x)-x)*1.5*86400*365)*gompertz(x)}'55+!40
+	14465532508.8737566
+
+which is around `$14.5*10^9$` life years.
+So, on a first glance, it seems like killing everybody aged 55 or older is
+around 3 times worse than killing all infants younger than one year old.
+
+However, this doesn't take many factors into account: economic output
+these people could have in the course of their lives, the duration
+of subjective time, diminishing returns on life years, the value of
+late life years (considering disability), rising life expectancies,
+suffering inflicted on relatives by the death of many people, and many
+other considerations.

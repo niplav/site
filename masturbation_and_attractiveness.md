@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-12-02, language: english, status: draft, importance: 5, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-12-04, language: english, status: draft, importance: 5, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -17,7 +17,9 @@ the middle where everything is the same
 
 <!--
 Instead of Student's t-test a survival analysis?
+Such as a Kaplan-Meyer method & log-rank test?
 Or a one-sided test?
+Cox-regression (proportional hazard).
 
 Will the data sets be normally distributed?
 → If not, use Mann-Whitney U-Test.
@@ -310,10 +312,13 @@ Data was collected as follows:
 I abstained from masturbating from 2019-11-25T01:25 to \_, resulting
 in >90 days of abstinence from masturbation (which is also the period
 [recommended by the NoFap community](https://nofap.com/rebooting/):
-"NoFap’s gold standard of success is our 90-day reboot."). From \_
-to \_, I went on the streets of a major european city and approached
-100 people I read as men and 100 people I read as women alternatingly
-with the words
+"NoFap’s gold standard of success is our 90-day reboot."). During that
+time, I had a nocturnal emissions once on 2019-12-03T03:00 as a result
+of a wet dream.
+
+From \_ to \_, I went on the streets of a major european city and
+approached 100 people I read as men and 100 people I read as women
+alternatingly with the words
 
 <!--TODO: add question about language at the beginning?-->
 
@@ -538,9 +543,9 @@ link-->of the two sample sets was also roughly equal. As one can see
 from the figures, this assumption of normal distribution \_.
 
 To calculate Student's t-test, let
-`$\{X_{1}, \cdots, X_{m}\}=X_{i}~{\cal{N}}(\mu_{X}, \sigma_{X})$`
+`$\{X_{1}, \cdots, X_{m}\}=X_{i}\sim{\cal{N}}(\mu_{X}, \sigma_{X})$`
 be the first sample, and
-`$\{Y_{1}, \cdots, Y_{n}\}=Y_{i}~{\cal{N}}(\mu_{Y}, \sigma_{Y})$`
+`$\{Y_{1}, \cdots, Y_{n}\}=Y_{i}\sim{\cal{N}}(\mu_{Y}, \sigma_{Y})$`
 the second sample.
 
 Let then `$T$` be
@@ -591,8 +596,9 @@ Problems
 ### No Objective Decision Process for Approaching
 
 <!--
-TODO: Read: /usr/local/doc/unread/blackpill/cross_cultural_agreement_in_facial_attractiveness_preferences_coetzee_2014.pdf
-Also find a source for within cultures (among them WEIRD)
+TODO: Read:
+/usr/local/doc/unread/blackpill/cross_cultural_agreement_in_facial_attractiveness_preferences_coetzee_2014.pdf
+/usr/local/doc/unread/blackpill/maxims_or_myths_of_beauty_langlois_et_al_2000.pdf
 -->
 
 One possible criticism of the above experiment could be that no
@@ -619,7 +625,24 @@ TODO:
 Idea:
 Survey on /r/NoFap regarding attractiveness perception (does longer abstinence from masturbation result in
 lower attractiveness standards?
+Search for claims that abstinence from masturbation changes perception of attractiveness
 -->
+<!--
+TODO:
+Does attractiveness have an influence on the strength of the response to
+cold approach?
+-->
+
+Another possible bias in choosing whom to approach could be that
+abstinence from masturbation changes the perception of attractiveness. In
+fact, many members of the NoFap community claim that women who are of
+average attractiveness for men who masturbate become more attractive
+for men who abstain from masturbation. This could lead to the average
+attractiveness of the women I approached during the period of abstinence
+being lower than the attractiveness of the women after masturbation. If
+the attractiveness of the approached person has an effect on their
+response to cold approach, this could introduce a bias (although it
+isn't clear in which way that bias would go).
 
 ### N=1 on the Approachers Side
 
@@ -705,4 +728,8 @@ TODO: read
 
 https://en.wikipedia.org/wiki/Masturbation
 https://en.wikipedia.org/wiki/Pornography
+
+Perhaps also
+
+/usr/local/doc/unread/blackpill/physical_attractiveness_research_adams_1977.pdf
 -->
