@@ -431,7 +431,7 @@ Suppose that an agent `$A$` starts out not believing any sentence from
 1. `$A$` learns that `$V$` and action-compelling sentences
 exist, and starts taking precautions against learning
 sentences from `$V$` (making not learning any sentences from
-`$V$` an instrumentall convergent goal<!--TODO: read & link
+`$V$` an instrumentally convergent goal<!--TODO: read & link
 /usr/local/doc/unread/alignment/the_basic_ai_drives_omohundro_2008.pdf-->).
 
 2. `$A$` learns any sentence `$v_{n}$` from `$V$` and alters its utility

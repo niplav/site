@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-11-29, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-12-07, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -48,14 +48,16 @@ Codes__ and so on.
 Prerequisites
 -------------
 
-The solutions use `flr` from the util library and `sqr` from the math
-library in the standard library.
+The solutions use `flr` and `dp` from the util library and `sqr` and
+`ln` from the math library in the standard library.
 
 	.l("util")
 	.l("math")
 
-These would be, of course, trivial to implement on your own: `flr::{[f];f::x;y@(f'y)?1}`
-and `sqr::{[a];a::x;:[0=x;0;{(x+a%x)%2}:~a]}` (taken directly from the library).
+These would be, of course, trivial to implement on your own:
+`flr::{[f];f::x;y@(f'y)?1}`, `dp::{:[@x;0;1+|/.f'x]}` and
+`sqr::{[a];a::x;:[0=x;0;{(x+a%x)%2}:~a]}` (taken directly from the
+library).
 
 Working with Lists
 ------------------
@@ -2351,18 +2353,26 @@ distinct, because the set difference removes duplicates.
 ### P62B (*) Collect the nodes at a given level in a tree.
 
 One can think of collecting the nodes at a given level of a tree as
-removing all the levels above the given level by creating a list of
-the subtrees repeatedly. The nodes at the given level are then just the
-first elements of all the subtrees in the list, which are then collected
-and concatenated.
+removing all the levels above the given level by creating a list of the
+subtrees repeatedly. The nodes at the given level are then just the first
+elements of all the subtrees in the list, which are then collected and
+concatenated.
 
-	s62b::{,/*'(y-1){,/{1_x}'x}:*,x}
+The result is then concatenated with the empty list to fix Over converting
+a list containing a single atom into only that atom. Concatenating with
+the empty list turns an atom into a list containing that atom, and is the
+null operation on every other list.<!--TODO: Could I use this elsewhere?
+It seems useful.--> This of course doesn't answer the immediate question
+of why Klong would fold a single-element list into the element. Some
+things are not meant to be unearthed by mere mortals.
+
+	s62b::{[],,/*'(y-1){,/{1_x}'x}:*,x}
 	atlevel::s62b
 
 Tests:
 
 		atlevel([:a [:b [:c [] []] [:d [] []]] [:e [] []]];1)
-	:a
+	[:a]
 		atlevel([:a [:b [:c [] []] [:d [] []]] [:e [] []]];2)
 	[:b :e]
 		atlevel([:a [:b [:c [] []] [:d [] []]] [:e [] []]];3)
@@ -2372,18 +2382,28 @@ Tests:
 		atlevel([];0)
 	[]
 		atlevel([:x [:x [:x [] []]]];0)
-	:x
+	[:x]
 		atlevel([:x [:x [:x [] []]]];1)
-	:x
+	[:x]
 		atlevel([:x [:x [:x [] []]]];2)
-	:x
+	[:x]
 		atlevel([:x [:x [:x [] []]]];3)
-	:x
+	[:x]
 
-While it seems to work, I am really bugged by the fact that Klong
-concatenates a list containing a single atom into just that atom, as
-opposed to returning it unchanged. I will need to find a workaround for
-this, but for the time being, I like the implementation.
+> Using `atlevel`, it is easy to construct a function `levelorder` which
+creates the level-order sequence of the nodes. However, there are more
+efficient ways to do that.
+
+*– niplav, [“P62B“ in 99 Klong Problems](./99_klong_problems.html#P62B--Collect-the-nodes-at-a-given-level-in-a-list), 2019*
+
+To solve this, one needs to know the depth of the tree. Fortunately,
+the already imported library `util.kg` contains an implementation for
+a function to determine the depth of a tree: `dp`. The solution is then
+not difficult: Generate a number for every level, iterate `s62b` over
+the given tree and the numbers: `s62c::{[t];t::x;s62b(t;)'1+!dp(x)}`.
+
+This, of course, wastes cycles: The first level is remove `dp(x)` times,
+for no good reason.
 
 <!--
 
