@@ -137,7 +137,7 @@ Texts
 			* in the former case, one also needs electricity at the top
 * Nuking the Amazon Cost-Benefit Analysis
 * What is the most common word I don't use?
-* How Much Stronger is the Gender Difference In Sex Drive?
+* How Strong is the Gender Difference In Sex Drive?
 	* /usr/local/doc/unread/blackpill/is_there_a_gender_difference_in_strength_of_sex_drive_baumeister_et_al_2001.pdf
 	* /usr/local/doc/unread/blackpill/in_heterosexual_relationships_men_masturbate_more_than_women_waterink_2014.pdf
 

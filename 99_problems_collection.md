@@ -13,7 +13,7 @@ Problems with Solutions
 -----------------------
 
 The original list was written by Werner
-Hett for the Prolog programming language and later
+Hett for the Prolog <!--TODO: wikipedia link-->programming language and later
 [re-organized](https://sites.google.com/site/prologsite/prolog-problems).
 Most translations into other languages use the old ordering, which only
 contains 88 problems, due to both sub-problems and gaps in the order.

@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "Sol Plav")
 
-*author: niplav, created: 2019-03-20, modified: 2019-11-20, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2019-12-07, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -20,26 +20,40 @@ Writing
 
 ### Nonfiction
 
-* Ideas
-	* [Equally Many Heads and Tails](./equally_many_heads_and_tails.md)
-	* [Pipe Rings](./pipe_rings.md)
-	* [Two People on a Planet](./two_people_on_a_planet.md)
-	* [Compliments as Utilitarian Praxis](./utilitarian_compliments.md)
-	<!--* [Using Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./consciousness_diagram.md)-->
-* Collections
-	* [99 Problems](./99_problems_collection.md)
-	* [Rationalist Gods](./rationalist_gods.md)
-	* [Solutions to “Naive Set Theory”](./naive_set_theory_solutions.md)
-	<!--[Circle Combinations](./circle_combinations.md)-->
-* Analyses
-	* [Considerations on Cryonics](./considerations_on_cryonics.md)
-	* [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
-	<!--* [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.md)-->
-* Arguments
-	* [Against Applause After Classical Concerts](./against_applause.md)
-* Other
-	* [K-99: Ninety-Nine Klong Problems](./99_klong_problems.md)
-	* [Notes](./notes.md)
+#### Mathematics
+
+* [Equally Many Heads and Tails](./equally_many_heads_and_tails.md)
+* [Circle Combinations](./circle_combinations.md)
+* [Solutions to “Naive Set Theory”](./naive_set_theory_solutions.md)
+
+#### Programming
+
+* [Pipe Rings](./pipe_rings.md)
+* [99 Problems Collection](./99_problems_collection.md)
+* [K-99: Ninety-Nine Klong Problems](./99_klong_problems.md)
+* [99 Problems Klong Solution](./99_problems_klong_solution.md)
+
+#### Philosophy
+
+* [Compliments as Utilitarian Praxis](./utilitarian_compliments.md)
+* [Using Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./consciousness_diagram.md)
+
+#### Surveys & Experiments
+
+* [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
+* [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.md)
+* [Day Game Log](./daygame_log.md)
+
+#### Cost-Benefit Analyses
+
+* [Considerations on Cryonics](./considerations_on_cryonics.md)
+
+#### Other
+
+* [Two People on a Planet](./two_people_on_a_planet.md)
+* [Rationalist Gods](./rationalist_gods.md)
+* [Against Applause After Classical Concerts](./against_applause.md)
+* [Notes](./notes.md)
 
 ### Fiction
 
@@ -82,10 +96,6 @@ Programming
 -----------
 
 * [awitt – Another Window Title Tracker](./awitt.md)
-
-### Literate Programs
-
-* [99 Problems Klong Solution](./99_problems_klong_solution.md)
 
 Miscellaneous
 =============
