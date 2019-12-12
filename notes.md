@@ -416,11 +416,11 @@ who are not motivated by it (such as psychopaths and sociopaths <!--TODO:
 read & link wikipedia articles-->).
 
 However, many philosophers have argued that there are moral
-truths<!--TODO: read & link SEP for metaethics-->, and that the
-orthogonality hypothesis doesn't hold for very advanced artificial
+truths<!--TODO: read & link SEP for metaethics-->, and that therefore
+the orthogonality hypothesis doesn't hold for very advanced artificial
 intelligences. One way to model this would be to say that there is a
-set of action-compelling sentences `$V=\{ v_{1}, v_{2}, \dots\} \subset
-\Sigma*$` that, when believed by an agent, compel this agent to a specific
+set of action-compelling sentences `$V=\{ v_{1}, v_{2}, \dots\} \subset \Sigma*$`
+that, when believed by an agent, compel this agent to a specific
 action. With "believe" this text means that an agent contains a sentence
 in either its literal form or in an isomorphic form that makes it trivial
 to reconstruct the literal sentence in its internal memory.
@@ -428,11 +428,12 @@ to reconstruct the literal sentence in its internal memory.
 Suppose that an agent `$A$` starts out not believing any sentence from
 `$V$`. There seem to be three options regarding `$V$` for `$A$`:
 
-1. `$A$` learns that `$V$` and action-compelling sentences
-exist, and starts taking precautions against learning
-sentences from `$V$` (making not learning any sentences from
-`$V$` an instrumentally convergent goal<!--TODO: read & link
-/usr/local/doc/unread/alignment/the_basic_ai_drives_omohundro_2008.pdf-->).
+1. `$A$` learns that `$V$` and action-compelling sentences exist,
+and starts taking precautions against learning sentences from `$V$`
+(making not learning any sentences from `$V$` an instrumentally
+convergent goal since it violates goal preservation ([Omohundro
+2008](./doc/moral_realist_ai/the_basic_ai_drives_omohundro_2008.pdf
+"The Basic AI Drives"))).
 
 2. `$A$` learns any sentence `$v_{n}$` from `$V$` and alters its utility
 function to pursue `$v_{n}$`. Because it now has very strong evidence

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-23, modified: 2019-11-29, language: english, german, status: in progress, importance: 1, confidence: fiction*
+*author: niplav, created: 2019-08-23, modified: 2019-12-12, language: english, german, status: in progress, importance: 1, confidence: fiction*
 
 > __Haikus that seemed okay enough to write down.__
 
@@ -36,3 +36,7 @@ But data? Perturbed
 Splines are weird and nice  
 Where get differentiation?  
 Just increase your m  
+
+In jazz scattering
+Forward, backward, to the side
+confusion entails
