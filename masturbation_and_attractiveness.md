@@ -310,12 +310,10 @@ demographic as most members of the NoFap community.
 
 Data was collected as follows:
 
-I abstained from masturbating from 2019-11-25T01:25 to \_, resulting
+I abstained from masturbating from 2019-12-10T00:00 to \_, resulting
 in >90 days of abstinence from masturbation (which is also the period
 [recommended by the NoFap community](https://nofap.com/rebooting/):
-"NoFap’s gold standard of success is our 90-day reboot."). During that
-time, I had a nocturnal emissions once on 2019-12-03T03:00 as a result
-of a wet dream.
+"NoFap’s gold standard of success is our 90-day reboot.").
 
 From \_ to \_, I went on the streets of a major european city and
 approached 100 people I read as men and 100 people I read as women
