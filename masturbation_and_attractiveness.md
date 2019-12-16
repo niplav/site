@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-12-08, language: english, status: draft, importance: 5, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-12-15, language: english, status: draft, importance: 5, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -24,6 +24,7 @@ Cox-regression (proportional hazard).
 Will the data sets be normally distributed?
 → If not, use Mann-Whitney U-Test.
 Also: What about abstinence ←→ masturbation ←→ pornography?
+Pre-register on predictionbook as well.
 -->
 
 Abstract
@@ -310,10 +311,11 @@ demographic as most members of the NoFap community.
 
 Data was collected as follows:
 
-I abstained from masturbating from 2019-12-10T00:00 to \_, resulting
-in >90 days of abstinence from masturbation (which is also the period
-[recommended by the NoFap community](https://nofap.com/rebooting/):
-"NoFap’s gold standard of success is our 90-day reboot.").
+I abstained from masturbating and watching pornography from
+2019-12-10T00:00 to \_, resulting in >90 days of abstinence from
+masturbation (which is also the period [recommended by the NoFap
+community](https://nofap.com/rebooting/): "NoFap’s gold standard of
+success is our 90-day reboot.").
 
 From \_ to \_, I went on the streets of a major european city and
 approached 100 people I read as men and 100 people I read as women
@@ -335,7 +337,9 @@ upon, and I came to the date to check whether they had showed up.
 The people who were approached were chosen by their attractiveness to
 the author.
 
-In the week following the last approach, I masturbated once every day.
+In the week following the last approach, I masturbated once every day
+with the aid of pornography <!--TODO: link the pornography consumed
+during that time-->.
 Afterwards, I repeated the procedure of approaching 100 men and 100 women
 with the same words from \_ to \_.
 
@@ -666,6 +670,39 @@ is available for all, and I could also analyze data if it was sent to me.
 ### Different Settings, Clothing & Weather
 
 ### Strawman of the Views of the NoFap Community
+
+Some people might claim that the view "masturbation increases physical
+attractiveness" is a straw-man of the views of the larger NoFap
+community. I believe that I have provided ample evidence in the section
+[“Examples for the Claim”](#Examples-for-the-Claim) that the NoFap
+community contains at least a very vocal subset of people who have this
+view who are not actively opposed.
+
+### No Differentiation Between Pornography & Masturbation
+
+The NoFap community is not entirely clear on whether the negative
+effects it claims arise from pornography consumption or masturbation in
+itself. The two ideas seem to be considered as basically the same thing
+most of the time, although it doesn't seem necessary (one could watch
+pornography without masturbating, or masturbate without pornography
+(using ones imagination instead)). It might be useful to have different
+experiments that examine whether abstinence from pornography specifically
+influence attractiveness, or only abstinence from masturbation, but
+with pornography. While it would certainly interesting to perform these
+experiments, I didn't do them for several reasons:
+
+*	I didn't have the necessary statistical knowledge to perform an
+	analysis of the data that wouldn't look like p-hacking
+* 	It would have taken at least three ninety-day periods with
+	subsequent approaching sessions to test these hypotheses:
+	Ninety days of abstinence from both masturbation & pornography,
+	then approaches, then 90 days abstinence from pornography,
+	but not masturbation, then approaches, then 90 days abstinence
+	from masturbation, but not pornography, then approaches, then
+	masturbation & pornography for 7 days, then approaches.
+*	The marginal value of the validity of these hypotheses would have
+	been very low, since I assigned a very low credence to the validity
+	of the central claim altogether
 
 Conclusion
 ----------

@@ -668,15 +668,14 @@ of that risk is placed before reuscitation, then the life expectancy of
 cryonics is `$\frac{8938+2850}{2}*(1-0.20)=4715.2$`.
 
 That number should be qualified further in an ["Age of
-Em"](https://en.wikipedia.org/wiki/The_Age_of_Em) scenario: that
-scenario will contain less natural risks (emulation can be backed up,
-they live in a simulated world where homicide risks and care accidents
-make no sense), but an em also suffers from the risk of not having enough
-money to continue being run, and from the fact that the em era might
-not last several subjective millennia. This scenario deserves further
-consideration<!--TODO: actually do that-->.<!--TODO: read & add Hanson,
-Robin. 1994. “If Uploads Come First: The Crack of a Future Dawn.”
-Extropy 6 (2). http: //hanson.gmu.edu/uploads.html.-->
+Em"](https://en.wikipedia.org/wiki/The_Age_of_Em) scenario: that scenario
+will contain less natural risks (emulation can be backed up, they live
+in a simulated world where homicide risks and care accidents make no
+sense), but an em also suffers from the risk of not having enough money
+to continue being run, and from the fact that the em era might not last
+several subjective millennia. This scenario deserves further consideration
+(see also [Hanson 1994](http://mason.gmu.edu/~rhanson/uploads.html
+"If Uploads Come First").
 
 To conclude, it seems like reuscitated cryonicists will on average live
 around 4500 years, although there is room for debate on this number.

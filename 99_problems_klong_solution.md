@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-12-07, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-12-16, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -2404,6 +2404,20 @@ the given tree and the numbers: `s62c::{[t];t::x;s62b(t;)'1+!dp(x)}`.
 
 This, of course, wastes cycles: The first level is remove `dp(x)` times,
 for no good reason.
+
+But one can write some versions that traverse the tree and accumulate
+the levels:
+
+	s62c::{|1_{:[x~[];[];.f(,/{1_x}'x),,[],,/*'x]}@,,x}
+	s62c::{|1_{:[x~[];[];.f(,/{1_x}'x),,[],,/*'x]}:(,x)}
+	s62c::{{:[[]~,/x;y;.f(,/{1_x}'x;y,,[],,/*'x)]}:(,x;[])}
+	s62c::{{:[[]~,/x;y;.f(,/flr({~@x};x);y,,flr({@x};x))]}:(x;[])}
+
+All of these follow the very basic schema of extracting the first element
+of all given trees, concatenating it to the list of previous results,
+modifying the list of trees by removing every first element, and then
+passing the resulting set to the function recursively. The function
+stops when the argument is an empty list.
 
 <!--
 
