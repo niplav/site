@@ -73,6 +73,8 @@ Texts
 	* "Utilitarianism leads to bad results!"
 	* "Rationalism leads to believing wrong things!"
 	* Related text: [Incremental Progress and the Valley](https://www.lesswrong.com/s/pvim9PZJ6qHRTMqD3/p/oZNXmHcdhb4m7vwsv)
+* In Favor of Gish-Gallop
+	* https://en.wikipedia.org/wiki/Gish_gallop
 
 ### Analyses
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-12-15, language: english, status: draft, importance: 5, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-12-19, language: english, status: draft, importance: 5, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -316,6 +316,7 @@ I abstained from masturbating and watching pornography from
 masturbation (which is also the period [recommended by the NoFap
 community](https://nofap.com/rebooting/): "NoFap’s gold standard of
 success is our 90-day reboot.").
+I had a nocturnal emission<!--TODO: wikipedia link--> on 2019-12-18T07:30.
 
 From \_ to \_, I went on the streets of a major european city and
 approached 100 people I read as men and 100 people I read as women
