@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-12-19, language: english, status: draft, importance: 5, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-12-22, language: english, status: draft, importance: 5, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -461,6 +461,73 @@ Female:
 *Figure 3: Female loss in different stages of cold approach*
 
 <!--TODO: Add images with percentages-->
+
+Another possible method could be to visualize cumulative survival rates
+for the different stages by percentage. The overall graph for this would look
+like this:
+
+	.l("nplot")
+	.l("./load.kg")
+
+	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 1 0.1])
+
+	text(27;200;"light gray: during abstinence, before masturbation, black: after masturbation")
+
+	setwidth(4)
+
+	setrgb(0;0;0)
+	plot({during.cumperc@(_x)-1})
+
+	setrgb(0.8;0.8;0.8)
+	plot({after.cumperc@(_x)-1})
+
+	draw()
+
+![Survival percentages for different stages, overall](./img/masturbation_and_attractiveness/survival.png "Survival percentages for different stages, overall")
+
+*Figure 4: Survival percentages for different stages, overall*
+
+	.l("nplot")
+	.l("./load.kg")
+
+	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 1 0.1])
+
+	text(10;200;"light blue: during abstinence, before masturbation, dark blue: after masturbation")
+
+	setwidth(4)
+
+	setrgb(0.4;0.4;1)
+	plot({duringm.cumperc@(_x)-1})
+
+	setrgb(0;0;0.6)
+	plot({afterm.cumperc@(_x)-1})
+
+	draw()
+
+![Survival percentages for different stages, men](./img/masturbation_and_attractiveness/survival_m.png "Survival percentages for different stages, men")
+
+*Figure 5: Survival percentages for different stages, men*
+
+	.l("nplot")
+	.l("./load.kg")
+
+	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 1 0.1])
+
+	text(27;200;"light red: during abstinence, before masturbation, dark red: after masturbation")
+
+	setwidth(4)
+
+	setrgb(1;0.4;0.4)
+	plot({duringf.cumperc@(_x)-1})
+
+	setrgb(0.6;0;0)
+	plot({afterf.cumperc@(_x)-1})
+
+	draw()
+
+![Survival percentages for different stages, women](./img/masturbation_and_attractiveness/survival_f.png "Survival percentages for different stages, women")
+
+*Figure 6: Survival percentages for different stages, women*
 
 ### Descriptive Results
 
