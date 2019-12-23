@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2019-12-03, language: english, status: in progress, importance: 4, confidence: other*
+*author: niplav, created: 2019-01-14, modified: 2019-12-23, language: english, status: in progress, importance: 4, confidence: other*
 
 > __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems
@@ -577,11 +577,10 @@ represented by the following list:
 Other examples are a binary tree that consists of a root node only:
 `[a [] []]` or an empty binary tree: `[]`.
 
-You can check your functions using these example trees. They are given
-as test cases in [p54.kg](./code/99_klong/p54.kg). The tests are executed
-by calling `test()`, while beforehand having defined `istree`.
-
-<!--TODO: Add solution.-->
+You can check your functions using these example trees. They are given as
+test cases in [p54.kg](./code/99_klong/p54.kg). The tests are executed
+by calling `test()`, while beforehand having defined `s54a` (which is
+used to define `istree`).
 
 ### P54A (*) Check whether a given list represents a binary tree.
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2019-12-22, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2019-12-23, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Many people
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html).
@@ -178,7 +178,7 @@ a certain age given being currently `curage` years old.
 
 Mortality rates are often calculated using a so-called [Gompertz
 distribution](https://en.wikipedia.org/wiki/Gompertz_distribution). I
-have determined the b and eta values by eyeballing [Wolfram
+determined the b and eta values by eyeballing [Wolfram
 Alpha](https://www.wolframalpha.com/input/?i=life+expectancy+of+a+0+year+old+german)
 using a calculator in [Tomasik
 2016](https://reducing-suffering.org/estimating-aggregate-wild-animal-suffering-from-reproductive-age-and-births-per-female/#Choosing_a_distribution
@@ -447,6 +447,15 @@ the minimum wage (`$\$10*16*7*52=\$58240$`).
 Intuitively, the probability distribution over the value of a year of
 life in the future should then look like this:
 
+	.l("nplot")
+	.l("nstat")
+
+	grid([-20000 120000 20000];[0 0.00004 0.000004])
+	xtitle("Probability")
+	ytitle("Dollar value of a future life year")
+	plot({n.pdf(x;50000;500000000)})
+	draw()
+
 ![Probability distribution over the value of a lifeyear in the future](./img/considerations_on_cryonics/avg_fut_year_val.png "The probability distribution over the value of a lifeyear in the future. The distribution is a normal distribution with an expected value of 50000 and a standard deviation of ~22000.")
 
 Note that this graph is not based on real data and only for illustrative purposes.
@@ -468,6 +477,16 @@ futures have net-negative value, but on the other hand, nearly all of
 those futures don't lead to reuscitation.
 
 This would mean that the probability distribution over the value of a lifeyear in the future conditional on being reuscitated could look like this:
+
+	.l("nplot")
+	.l("nstat")
+
+	grid([-20000 120000 20000];[0 0.00004 0.000004])
+
+	xtitle("Probability")
+	ytitle("Dollar value of a future life year")
+	plot({:[x>50000;n.pdf(x;50000;500000000);0.4472*n.pdf(x;50000;100000000)]})
+	draw()
 
 ![Probability distribution over the value of a lifeyear in the future conditional on being reuscitated](./img/considerations_on_cryonics/cryo_fut_year_val.png "The probability distribution over the value of a lifeyear in the future conditional on being reuscitated. The distribution is two halves of two different normal distributions meeting at around $50000, the left half has much lower variance than the right half.")
 
@@ -720,6 +739,17 @@ year is \$6636375 (`$~\$6.6*10^6$`), prolonging the decision until one is 30 red
 number to \$3967746 (`$~\$3.9*10^6$`), and waiting until 40, 50 and 60 years yields a
 value of \$2364955 (`$~\$2.3*10^6$`), \$1396009 (`$~\$1.3*10^6$`) and \$800994 (`$~\$8*10^5$`), respectively.
 
+	.l("nplot")
+
+	data::.r()
+
+	grid([0],(#data),[10];[0],(|/data),[1000000])
+
+	xtitle("Years from now")
+	ytitle("Dollar value of signing up for cryonics")
+	barplot(data)
+	draw()
+
 ![Value of signing up for cryonics in n years at age 20, standard parameters.](./img/considerations_on_cryonics/std_param_val_20.png "Value of signing up for cryonics in n years at age 20, standard parameters. Value diminishes very quickly over the years, having the shape of a decreasing geometric distribution.")
 
 #### Currently 40 years old
@@ -727,6 +757,17 @@ value of \$2364955 (`$~\$2.3*10^6$`), \$1396009 (`$~\$1.3*10^6$`) and \$800994 (
 The values of signing up for cryonics look very similar to the values
 for a 20 year old. Performing the signup immediately at age 40 is worth
 \$6641095 (`$~\$6.6*10^6$`) at age 40 and is the best time to do it.
+
+	.l("nplot")
+
+	data::.r()
+
+	grid([0],(#data),[10];[0],(|/data),[1000000])
+
+	xtitle("Years from now")
+	ytitle("Dollar value of signing up for cryonics")
+	barplot(data)
+	draw()
 
 ![Value of signing up for cryonics in n years at age 40, standard parameters.](./img/considerations_on_cryonics/std_param_val_40.png "Value of signing up for cryonics in n years at age 40, standard parameters. Value diminishes very quickly over the years, having the shape of a decreasing geometric distribution.")
 
@@ -737,6 +778,17 @@ themselves in the future a lot, one can simulate this trust by setting
 the `decay` parameter to 1.
 
 In this model, a very different picture emerges:
+
+	.l("nplot")
+
+	data::.r()
+
+	grid([0],(#data),[10];[0],(|/data),[1000000])
+
+	xtitle("Years from now")
+	ytitle("Dollar value of signing up for cryonics")
+	barplot(data)
+	draw()
 
 ![Value of signing up for cryonics in n years at age 20, no motivation drift.](./img/considerations_on_cryonics/no_drift_val.png "Value of signing up for cryonics in n years at age 20, no motivation drift. In the first 30 years, there is very little decline in value, but the the value starts decreasing rapidly.")
 
@@ -790,6 +842,18 @@ to 0 the older one gets:
 Please note that the following graph should have negative value in the
 y-axis. This should get fixed sometime in the future.
 
+	.l("nplot")
+
+	data::-.r()
+
+	grid([0],(#data),[10];0,(|/data),[10000])
+
+	xtitle("Years from now")
+	ytitle("Dollar value of signing up for cryonics")
+	fillrgb(0.4;0.4;1)
+	barplot(data)
+	draw()
+
 ![Critical perspective on cryonics](./img/considerations_on_cryonics/critical.png "Critical perspective on cryonics. The older one get's, the less of a loss cryonics is, but it still stays a net negative trade.")
 
 ### Other Modifications
@@ -818,4 +882,6 @@ From todo.md:
 	* Which methods of revival?
 		* Personal identity?
 		* If only neuropreservation, where do I get my body from?
+
+Similar model with Guesstimate?
 -->

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-12-22, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-12-23, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -2078,7 +2078,7 @@ of the edge conditions in this problem.
 
 `$min_{n}$` therefore is
 
-	d4::{:[x;_ln(x)%ln(2);0]}
+	d3::{:[x;_ln(x)%ln(2);0]}
 
 For `$max_{n}$`, one first needs to introduce the inverse of the fibonacci
 series. One can think of the fibonacci series as an injective function
@@ -2163,7 +2163,7 @@ Implementing `$max_{n}$` is implementing
 
 This way, `$max_{n}$` can be implemented the following way:
 
-	d5.1::{:[x;_ln(0.6459+x*0.5279)%0.4812;0]}
+	d4.1::{:[x;_ln(0.6459+x*0.5279)%0.4812;0]}
 
 Another possible method of implementation could be to
 generate the minimal number of nodes in trees with increasing
@@ -2178,31 +2178,31 @@ array `[2 1 0]`, representing the number of nodes in the sparsest tree
 with height 1, the number of nodes in the sparsest tree with height 0,
 and the counter.
 
-	d5.2::{[a];a::x;{:[a<x;z;.f(1+x+y;x;z+1)]}@|!3}
+	d4.2::{[a];a::x;{:[a<x;z;.f(1+x+y;x;z+1)]}@|!3}
 
 These two implementations can now be tested against each other and
 compared with each other.
 
-		d5.1'!10
+		d4.1'!10
 	[0 0 1 1 2 2 2 3 3 3]
-		d5.2'!10
+		d4.2'!10
 	[0 0 1 1 2 2 2 3 3 3]
-		&/(d5.1'!1000)=d5.2'!1000
+		&/(d4.1'!1000)=d4.2'!1000
 	1
 
 One can see that the two implementations return the same values for
 the same inputs (at least for small values up to 1000), so they seem to
 be correct up to that point.
 
-It should be noted that `d5.1` is actually slower that `d5.2` for small
+It should be noted that `d4.1` is actually slower that `d4.2` for small
 values, despite having a lower time complexity:
 
-		time({d5.1(10000)})
+		time({d4.1(10000)})
 	0.008489
-		time({d5.2(10000)})
+		time({d4.2(10000)})
 	0.000155
 
-However, the difference in performance seems negligible, and `d5.1`
+However, the difference in performance seems negligible, and `d4.1`
 has a shorter implementation, which makes it a better candidate.
 
 Now implementing `s60` is quite straightforward: Find out the minimal
@@ -2211,9 +2211,9 @@ generate all balanced trees with those heights using `s59`, and then
 filter them for having `x` nodes using `s7` (flattening the tree and
 then checking the length of the resulting list).
 
-	d4::{:[x;_ln(x)%ln(2);0]}
-	d5::{:[x;_ln(0.6459+x*0.5279)%0.4812;0]}
-	s60::{[a];a::x;flr({a=#s7(x)};,/s59's22(d4(x);d5(x)))}
+	d3::{:[x;_ln(x)%ln(2);0]}
+	d4::{:[x;_ln(0.6459+x*0.5279)%0.4812;0]}
+	s60::{[a];a::x;flr({a=#s7(x)};,/s59's22(d3(x);d4(x)))}
 
 Testing this:
 
@@ -2239,7 +2239,7 @@ Testing this:
 		:"aborted because of very long run-time"
 
 The problem here is quite obvious: `s59` is very slow for values ≥4,
-and 12 is the first value for which `d5` is 4. So this also
+and 12 is the first value for which `d4` is 4. So this also
 means one needs to take another approach to find out what the
 number of heigh-balanced binary trees with 15 nodes is.
 
@@ -2258,14 +2258,14 @@ TODO: currently incorrect.
 
 	maxheight::{[k];k::x;#1_{k>+/x}{(+/2#x),x}:~[1 0]}
 
-	d4::{:[x=0;0;1+_ln(x)%ln(2)]}
-	d5::{[n];n::x;({~d4(x)>n}{x+1}:~0)-1}
+	d3::{:[x=0;0;1+_ln(x)%ln(2)]}
+	d4::{[n];n::x;({~d3(x)>n}{x+1}:~0)-1}
 	d6::{,/x{(,y){x,,y}:\x}:\y}
 	d7::{d6(x;y),d6(y;x)}
 	d8::{[h];h::(**x),**|x;:[2>#(*h)-*|h;(1+|/h),,[:x],(,(*|*x)),,(*|*|x);[]]}
 	s60::{[n];n::x-1;:[x=0;,[0 []]:|x=1;,[1[:x]];
 			   {x@((~:'x),0)?0}:({x@<x}:(d8',/{d7(s60(*x);s60(*|x))}'
-			   flr({d4(*|x)<2+d5(*x)};{x,,n-x}'!1+n:%2)))]}
+			   flr({d3(*|x)<2+d4(*x)};{x,,n-x}'!1+n:%2)))]}
 -->
 
 ### P61 (*) Count the leaves of a binary tree.
