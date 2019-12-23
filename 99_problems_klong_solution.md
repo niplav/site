@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-12-16, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2019-12-22, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -2411,7 +2411,6 @@ the levels:
 	s62c::{|1_{:[x~[];[];.f(,/{1_x}'x),,[],,/*'x]}@,,x}
 	s62c::{|1_{:[x~[];[];.f(,/{1_x}'x),,[],,/*'x]}:(,x)}
 	s62c::{{:[[]~,/x;y;.f(,/{1_x}'x;y,,[],,/*'x)]}:(,x;[])}
-	s62c::{{:[[]~,/x;y;.f(,/flr({~@x};x);y,,flr({@x};x))]}:(x;[])}
 
 All of these follow the very basic schema of extracting the first element
 of all given trees, concatenating it to the list of previous results,
@@ -2419,12 +2418,24 @@ modifying the list of trees by removing every first element, and then
 passing the resulting set to the function recursively. The function
 stops when the argument is an empty list.
 
+We can now assign the shortest solution to `levelorder`:
+
+	s62c::{|1_{:[x~[];[];.f(,/{1_x}'x),,[],,/*'x]}@,,x}
+	levelorder::s62c
+
+and test the solution:
+
+	s62c([])
+	[]
+		s62c([:x [] []])
+	[[:x]]
+		s62c([:a [:b [] []] []])
+	[[:a] [:b]]
+		s62c([:a [:b [:c [] []] [:d [] []]] [:e [] []]])
+	[[:a] [:b :e] [:c :d]]
+
 <!--
 
-	d9::{y:=(,x,y@z),z}
-	s62c::{{[n];:[(1+z)>#y;n::y,,[];n::y];
-		:[*3=^x;.f(x@1;.f(x@2;d9(*x;n;z);z+1);z+1);d9(*x;n;z)]}
-		:(x;[];0)}
 	s63::{:[0=x;[];
 		{(:x,:[y<2*x;[];,.f(x*2;y)]),:[y=2*x;,[]:|y<1+2*x;[];,.f(1+2*x;y)]}:(1;x)]}
 

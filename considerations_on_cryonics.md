@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2019-12-02, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2019-12-22, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Many people
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html).
@@ -813,6 +813,8 @@ From todo.md:
 		* How probable is malevolent AI?
 		* What about "meh" futures?
 		* What about work, friends, language, culture and other circumstances?
+		* What about reduced agency?
+			* Historically increasing agency for most agents (is this true?)
 	* Which methods of revival?
 		* Personal identity?
 		* If only neuropreservation, where do I get my body from?
