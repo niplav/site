@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-12-22, language: english, status: draft, importance: 5, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-12-23, language: english, status: draft, importance: 5, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -727,11 +727,21 @@ though indicating the direction of a trend.
 It would have been better, of course, if there were more people
 approaching in this experiment. Since the topic is too weird to share
 among friends & none of them would be interested in the answer / willing
-to give up masturbation or sex for a little self-experiment, I was
-alone. However, I encourage others to attempt replication – the code
-is available for all, and I could also analyze data if it was sent to me.
+to give up masturbation or sex for a little self-experiment, I was alone
+with my endeavour. However, I encourage others to attempt replication
+– the code is available for all, and I could also analyze data if it
+was sent to me.
 
 ### Typical WEIRDness
+
+WEIRD<!--TODO: wikipedia link--> usually refers to "Western, educated,
+industrialized, rich, democratic" – the demographic of the average study
+performed with college students. In the context of this experiment, all
+five of these factors apply to the experimenter (myself), but it is much
+less clear how many of these characteristics can be found in the people
+approached. Due to homophily,<!--TODO: wikipedia link--> it seems likey
+that they will be strong, but a priori, only western and industrialized
+necessarily apply – the experiment was performed in western europe.
 
 ### Gender was Determined by Perception
 

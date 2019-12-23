@@ -318,7 +318,7 @@ Music
 ### Piano
 
 * The People United Will Never be Defeated (Rzewski)
-* Das Wohltemperirte Clavier
+* Das Wohltemperirte Clavier (Bach)
 * Beethoven Piano Sonatas (Beethoven)
 * Impromptus (Schubert)
 * Nocturnes (Chopin)
@@ -487,6 +487,14 @@ Programming
 * rien
 	* suckless sml implementation, sml '97
 	* maybe build on mosml
+* curve
+	* C with significant whitespace
+	* indentation instead of braces
+	* optional semicolons & optional parentheses around for/while/if/switch
+* jmp
+	* j/z for rc
+	* jumps into frecent directories
+	* should also work on plan9
 
 ### Klong Libraries
 
