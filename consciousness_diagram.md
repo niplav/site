@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-15, modified: 2019-11-30, language: english, status: notes, importance: 5, confidence: theory*
+*author: niplav, created: 2019-08-15, modified: 2019-12-24, language: english, status: notes, importance: 5, confidence: theory*
 
 > __Many people have very different conceptions on how to think about
 > consciousness, intelligence, sentience and information processing. A
@@ -38,14 +38,15 @@ Terms (short, and only gesturing towards a definition):
 #### Information-Processing (IP):
 
 Complex internal state, responding to stimuli, processes information
-(duh!)
+(duh!).
 
 Example: Computer  
 Counter-example: A rock
 
 #### Optimizing (O):
 
-Optimizes towards a given goal  
+Optimizes towards a given goal.
+
 Example: Evolution, Paperclip-maximizer  
 Counter-example: A piece of paper
 
@@ -61,16 +62,16 @@ Counter-example: A tree
 
 Can experience qualia, such as the color red.
 
-"Sentience is the capacity to feel, perceive, or experience subjectively."
+> Sentience is the capacity to feel, perceive, or experience subjectively.
 
-<!--TODO: source from the Wikipedia article on sentience-->
+*– [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), [“Sentience”](https://en.wikipedia.org/wiki/Sentience), 2019*
 
 Example: Myself  
 Counter-example: P-Zombie
 
 #### Affectively sentient (AS):
 
-Can experience valenced qualia (qualia that are good/bad)
+Can experience valenced qualia (qualia that are good/bad).
 
 Example: Presumably most humans  
 Counter-example: An electron
@@ -87,10 +88,10 @@ Counter-example: P-Zombie
 
 Possesses "wisdom" and "insight", think "a good human person"
 
-"[…] sapience […] is the ability to think and act using knowledge,
-experience, understanding, common sense and insight."
+> […] sapience […] is the ability to think and act using knowledge,
+experience, understanding, common sense and insight.
 
-<!--TODO: wikipedia source-->
+*– [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), [“Wisdom”](https://en.wikipedia.org/wiki/Sapience), 2019*
 
 Example: Lao-Tse  
 Counter-Example: A golden retriever

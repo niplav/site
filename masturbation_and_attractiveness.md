@@ -745,6 +745,16 @@ necessarily apply – the experiment was performed in western europe.
 
 ### Gender was Determined by Perception
 
+I didn't ask the respondents for their gender because sometimes
+that might have been impossible to do (in the case of being
+ignored) or might have corrupted the data (people being aware
+of it being an experiment). Because of this, I had to determine
+the gender of the respondent by subjective judgement, which
+might become a problem. By using the code in a section of [this
+piece](./estimated_life_expectancy.html#Gender-was-Determined-by-Appearance),
+I arrive at a probability of ~21% of encountering at least one trans
+person & misgendering them (N=400).
+
 ### Different Settings, Clothing & Weather
 
 ### Strawman of the Views of the NoFap Community
