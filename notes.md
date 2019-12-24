@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-12-03, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2019-12-24, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -400,9 +400,7 @@ Artificial Intelligence and Action-Compelling Sentences
 > intelligence could in principle be combined with more or less any
 > final goal.
 
-*– [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), “The Superintelligent Will: Motivation And Instrumental Rationality In Advanced Artificial Agents” p. 3, 2012*
-
-<!--TODO: read & link /usr/local/doc/unread/alignment/the_superintelligent_will_bostrom_2012.pdf-->
+*– [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), [“The Superintelligent Will: Motivation And Instrumental Rationality In Advanced Artificial Agents”](./doc/moral_realist_ai/the_superintelligent_will_bostrom_2012.pdf) p. 3, 2012*
 
 For current AI systems, the orthogonality thesis seems to hold pretty
 well: a tree search doesn't start returning wrong results because they are
@@ -532,10 +530,10 @@ Killing Old People Versus Infants
 
 <!--TODO: cite everthing here-->
 
-[Would you rather kill anybody above the
-age of 55, or all infants who are less than 1 year
-old](https://twitter.com/Aella_Girl/status/1201004323771015168)?<!--TODO:
-link tweet--> A utilitarian estimate calculation.
+[Would you rather kill anybody above the age
+of 55, or all infants who are less than 1 year
+old](https://twitter.com/Aella_Girl/status/1201004323771015168)? A
+utilitarian estimate calculation.
 
 First, we have to find out how many people one
 would kill in either case. One can use a [Gompertz

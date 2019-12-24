@@ -108,7 +108,7 @@ quote Wikipedia:
 > A Dyck word is a string consisting of n X's and n Y's such that no
 > initial segment of the string has more Y's than X's.
 
-*– [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), [Dyck word](https://en.wikipedia.org/wiki/Dyck_word), 2019*
+*– [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), [“Dyck word”](https://en.wikipedia.org/wiki/Dyck_word), 2019*
 
 This applies exactly to the given problem. A finishing sequence has
 equally many heads and tails, but doesn't begin with a sequence of

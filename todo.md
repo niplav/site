@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-12-23, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-12-24, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -19,6 +19,7 @@ Site
 * Get rid of "we", use "I" instead.
 * Confidence intervals for some values
 * Improve citation (both to wikipedia and to papers)
+* Automate generation of chronological blog archives.
 
 Texts
 -----
@@ -60,6 +61,7 @@ Texts
 	* Track Records, Forecasting and Prediction Markets
 	* The Difference in Sexual Behavior Between Men and Women
 	* Pick Up
+		* Combines Near (Sex) with Far (Abstract thinking)
 * In Favor of Selling Glee
 	* Pointing out problems with the ideas in [The Price Of Glee In China](http://slatestarcodex.com/2016/03/23/the-price-of-glee-in-china/)
 	*	General idea: When you find out that making people wealthier
@@ -202,6 +204,9 @@ Texts
 * Salty fries
 	* Buy something, that creates a need for something else (software <-> support, salty fries <-> drinks)
 * Running Away from Your Problems
+	* Examples (?)
+		* Anti-biotics
+		* de Grey anti-aging proposal
 
 ### Collections
 
@@ -495,6 +500,11 @@ Programming
 	* j/z for rc
 	* jumps into frecent directories
 	* should also work on plan9
+* ladder
+	* datastructure where key and value are interchangeable
+	* two arrays/slice, sorted, where each element has a pointer to the corresponding element in the other list
+	* searching has the speed of binary search
+	* insertion has the speed of the underlying datastructure, but twice
 
 ### Klong Libraries
 
