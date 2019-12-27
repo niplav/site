@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2019-11-15, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2019-12-27, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -11,6 +11,9 @@
 
 Solutions to “Naive Set Theory“
 ================================
+
+A `$\TeX$` version of this solution is available
+[here](./code/naive_set_theory/exercises.pdf).
 
 Section 3, Exercise 1
 ----------------------
