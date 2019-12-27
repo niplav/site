@@ -18,6 +18,7 @@ HTML=index.html \
 	consciousness_diagram.html \
 	considerations_on_cryonics.html \
 	circle_combinations.html \
+	daygame_cost_benefit.html \
 	daygame_log.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \

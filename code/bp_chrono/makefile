@@ -1,7 +1,5 @@
 all:
-	python2 pull.py >bp_chrono.md
-
-clean:
-	rm -f bp_chrono.md
+	./gen_chrono bp_chrono.md
+	mv bp_chrono.md ../../
 
 .PHONY: clean

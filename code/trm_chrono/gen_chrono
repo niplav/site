@@ -1,0 +1,11 @@
+#!/usr/bin/env rc
+
+if(test -z $"*){
+	echo 'gen_chrono file' >[1=2]
+	exit 1
+}
+
+sed -n '1,/^--------$/p' <../../$1 >$1
+python2 pull.py >>$1
+sed -n '/^Code$/,$p' <../../$1 >>$1
+sed -i '/This index currently/s/[0-9]\+ posts/'^`{grep -E '^\* ' $1 | wc -l}^' posts/' $1
