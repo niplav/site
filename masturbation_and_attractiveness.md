@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-12-23, language: english, status: draft, importance: 5, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2019-12-26, language: english, status: draft, importance: 5, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -683,11 +683,17 @@ Another possible method would have been to approach people completely
 randomly, which would have reduced bias significantly. However, it
 would also have made the result less useful, since it seems like people
 who practice NoFap care about their attractiveness to a very certain
-demographic (namely, conventionally attractive women in their late teens
+demographic (namely, conventionally attractive women from their late teens
 to early thirties).
-
 On the other hand, it might have been interesting to observe how older
 people would react to cold approach.
+
+Yet another method could be to put the decision of approaching to second
+person who doesn't know about the duration since the last masturbation.
+This person and the person approaching would meet twice, at least 90
+days apart, and the decider would choose who would be approached by
+the experimenter. For me, this didn't work, since proposing this to any
+acquantainces would have been not socially acceptable.
 
 ### Perception of Attractiveness may vary In Regards to Masturbation Behavior
 
@@ -795,8 +801,8 @@ experiments, I didn't do them for several reasons:
 Conclusion
 ----------
 
-Appendix A: Preregistration & Dummy Data
-----------------------------------------
+Appendix A: Preregistration
+---------------------------
 
 ### Preregistration
 
@@ -833,7 +839,7 @@ As a pre-registration, I subjectively assign a probability of 60% to the
 Stance* being correct, a 8% probability to the *Strong NoFap Stance*,
 and 15% to any other result.
 
-#### Reasoning
+### Reasoning
 
 If it were true that abstinence from masturbation increased
 attractiveness to the opposite sex, evolutionary pressure would have
@@ -859,7 +865,63 @@ where not reproduction, but sex is the most important consideration. For
 example, it could be true that masturbation keeps the sperm count high,
 but has negative side-effects on attractiveness (such as dry skin).
 
-### Dummy Data
+Appendix B: Dummy Data
+----------------------
+
+In order to be able to write most of this article before collecting
+data (in order to facilitate pre-registration), I needed some dummy
+data to test my code and figures against. I decided to generate the
+data programatically, since that would make testing and experimenting
+much easier. I used the following code to generate the dummy data:
+
+	probes::100
+
+	fdur::[0.15 0.25 0.35 0.9 0.95]
+	mdur::[0.15 0.25 0.35 0.9 0.95]
+	faft::[0.15 0.25 0.35 0.9 0.95]
+	maft::[0.15 0.25 0.35 0.9 0.95]
+
+	d::({:[
+	        x<fdur@0;"2019-09-17T15:17:10+02:00,1,f,1":|
+	        x<fdur@1;"2019-09-17T15:17:10+02:00,1,f,2":|
+	        x<fdur@2;"2019-09-17T15:17:10+02:00,1,f,3":|
+	        x<fdur@3;"2019-09-17T15:17:10+02:00,1,f,4":|
+	        x<fdur@4;"2019-09-17T15:17:10+02:00,1,f,5";
+	        "2019-09-17T15:17:10+02:00,1,f,6"]}'probes{x,.rn()}:*[]),({:[
+	        x<mdur@0;"2019-09-17T15:17:10+02:00,1,m,1":|
+	        x<mdur@1;"2019-09-17T15:17:10+02:00,1,m,2":|
+	        x<mdur@2;"2019-09-17T15:17:10+02:00,1,m,3":|
+	        x<mdur@3;"2019-09-17T15:17:10+02:00,1,m,4":|
+	        x<mdur@4;"2019-09-17T15:17:10+02:00,1,m,5";
+	        "2019-09-17T15:17:10+02:00,1,m,6"]}'probes{x,.rn()}:*[]),({:[
+	        x<faft@0;"2019-09-17T15:17:10+02:00,0,f,1":|
+	        x<faft@1;"2019-09-17T15:17:10+02:00,0,f,2":|
+	        x<faft@2;"2019-09-17T15:17:10+02:00,0,f,3":|
+	        x<faft@3;"2019-09-17T15:17:10+02:00,0,f,4":|
+	        x<faft@4;"2019-09-17T15:17:10+02:00,0,f,5";
+	        "2019-09-17T15:17:10+02:00,0,f,6"]}'probes{x,.rn()}:*[]),({:[
+	        x<maft@0;"2019-09-17T15:17:10+02:00,0,m,1":|
+	        x<maft@1;"2019-09-17T15:17:10+02:00,0,m,2":|
+	        x<maft@2;"2019-09-17T15:17:10+02:00,0,m,3":|
+	        x<maft@3;"2019-09-17T15:17:10+02:00,0,m,4":|
+	        x<maft@4;"2019-09-17T15:17:10+02:00,0,m,5";
+	        "2019-09-17T15:17:10+02:00,0,m,6"]}'probes{x,.rn()}:*[])
+
+	.p({x,"
+	",y}/d)
+
+`probes` is the number of samples generated for each scenario (100 each
+for men & for women, each for during & after abstinence). `fdur`, `mdur`,
+`faft` and `maft` give the probability of progressing after a certain
+probability in the funnel. `d` is then filled with `probes` datapoints
+for each scenario (in CSV<!--TODO: wikipedia link-->). In the end,
+`d` is concatenated with newlines.
+
+The date and time in the dummy data is, for simplicity, always the same.
+Since I don't perform any analysis on it, that should be fine.
+
+Appendix C: Further Hypotheses
+------------------------------
 
 <!--
 TODO: read

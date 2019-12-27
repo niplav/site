@@ -1,7 +1,5 @@
 all:
-	python2 pull.py >ob_chrono.md
-
-clean:
-	rm -f ob_chrono.md
+	./gen_chrono ob_chrono.md
+	mv ob_chrono.md ../../
 
 .PHONY: clean
