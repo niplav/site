@@ -460,7 +460,7 @@ Female:
 
 *Figure 3: Female loss in different stages of cold approach*
 
-<!--TODO: Add images with percentages-->
+<!--TODO: Is this a Kaplan-Meier Curve?-->
 
 Another possible method could be to visualize cumulative survival rates
 for the different stages by percentage. The overall graph for this would look
@@ -807,7 +807,7 @@ Appendix A: Preregistration
 ### Preregistration
 
 To avoid p-hacking and other practices, the bulk of this text
-as written before the actual experiment and data analysis was
+was written before the actual experiment and data analysis was
 conducted, and posted<!--TODO: when posted, put link here--> on
 the [NoFap subreddit](https://old.reddit.com/r/NoFap/) as well as
 to the subreddit [/r/niplav](https://old.reddit.com/r/niplav),
