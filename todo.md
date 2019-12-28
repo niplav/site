@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-12-26, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2019-12-28, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -69,6 +69,7 @@ Texts
 		wealthier is still a good idea.
 	* Read the post carefully
 	* Read up on the research
+	* Perhaps re-emphasize as "Easterlin's Paradox"?
 * Missing the Movement
 	* "Most Hedonists end up sad!"
 	* "Utilitarianism leads to bad results!"
@@ -504,6 +505,13 @@ Programming
 	* two arrays/slice, sorted, where each element has a pointer to the corresponding element in the other list
 	* searching has the speed of binary search
 	* insertion has the speed of the underlying datastructure, but twice
+* openspace
+	* 	Given a rectangle with many inscribed rectangles, what is the
+		biggest open rectangle in there?
+	* Seems like a packing problem
+* species
+	* browsable tree of all currently known biological species
+	* starting from the highest classification
 
 ### Klong Libraries
 

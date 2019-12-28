@@ -1,13 +1,13 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-11-19, modified: 2019-12-07, language: english, status: notes, importance: 1, confidence: log*
+*author: niplav, created: 2019-11-19, modified: 2019-12-28, language: english, status: notes, importance: 1, confidence: log*
 
-> Keeping track of ones own performance is usually useful for
+> __Keeping track of ones own performance is usually useful for
 > improvement<!--TODO: find source!-->. Many people who do pick-up,
 > especially daygame<!--TODO: links for those two-->, maintain
 > spreadsheets and write field reports. This is my personal instance
-> of such a track record.
+> of such a track record.__
 
 Day Game Log
 ============

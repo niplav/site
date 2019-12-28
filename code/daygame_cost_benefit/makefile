@@ -1,15 +1,18 @@
 include config.mk
 
-.SUFFIXES: .kg .eps .png
+.SUFFIXES: .rc .kg .eps .png
 
 all: $(IMG)
 
 puttit: $(IMG)
-	mv $(IMG) ../../img/masturbation_and_attractiveness
+	mv $(IMG) ../../img/daygame_cost_benefit
 
 .eps.png:
 	convert -chop 0x180 $< $@
 	rm $<
+
+.rc.eps:
+	./$< >$@
 
 .kg.eps:
 	kg -l ./$< -e '.x(0)' >$@

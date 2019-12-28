@@ -869,6 +869,13 @@ to determine whether it is advantageous for them to sign up for cryonics,
 and if yes, whether cryocrastination would be a good idea.
 
 <!--
+Appendix A: A Guesstimate Model
+-------------------------------
+
+Use getguesstimate.com here
+-->
+
+<!--
 From todo.md:
 
 * Considerations on Cryonics
