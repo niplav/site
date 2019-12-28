@@ -1,15 +1,16 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2019-12-27, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2019-12-28, language: english, status: in progress, importance: 4, confidence: remote*
 
-> Most men don't do daygame. Those who do often believe it to be
-> worthwhile. Is that true, and if yes, how much should one do it? As it
-> turns out, it is worth it, but only by ~$2500 at around 2500 approaches.
-> Calculated using a point-estimate model written in lua.
+> __Is daygame worth it, and if yes, how much? I present a point-estimate
+> cost-benefit value estimation written in lua and find that daygame is
+> probably worth ~\$2500 maximum, at ~2000 approaches. I then perform a
+> Monte-Carlo estimation to determine the uncertainty around the expected
+> value and find that _.__
 
 Daygame Cost-Benefit Analysis
-============================
+=============================
 
 Cost
 ----
@@ -37,3 +38,6 @@ Benefit
 
 Conclusion
 ----------
+
+Appendix A: A Guesstimate Model of the Value
+--------------------------------------------

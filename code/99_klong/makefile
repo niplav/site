@@ -8,7 +8,8 @@ puttit: $(IMG)
 	mv $(IMG) ../../img/99_klong
 
 .eps.png:
-	convert $< $@
+	convert -chop 0x180 $< $@
+	rm $<
 
 .kg.eps:
 	kg -l ./$< -e '.x(0)' >$@

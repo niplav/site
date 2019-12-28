@@ -5,10 +5,10 @@ include config.mk
 all: $(IMG)
 
 puttit: $(IMG)
-	mv $(IMG) ../../img/99_klong
+	mv $(IMG) ../../img/considerations_on_cryonics
 
 .eps.png:
-	convert $< $@
+	convert -chop 0x180 $< $@
 	rm $<
 
 .rc.eps:

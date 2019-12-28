@@ -1,0 +1,10 @@
+.l("./load.kg")
+
+.l("math")
+.l("nplot")
+
+grid([0 10000 1000];[0 12000 500])
+xtitle("Approaches")
+ytitle("Cumulative dollar value of lays")
+plot(layvals)
+draw()

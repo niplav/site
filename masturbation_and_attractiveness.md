@@ -39,7 +39,7 @@ I present a method to test this claim (albeit imperfectly) by approaching
 and asking them for a date, and  200 again after a week of daily
 masturbation. The results are analyzed using a two-sample Student's
 t-test<!--TODO: citation needed--> and various descriptive statistical
-methods <!--TODO: link--> and find that \_.
+methods<!--TODO: link--> and find that \_.
 
 Existing Literature
 -------------------
@@ -312,17 +312,17 @@ demographic as most members of the NoFap community.
 Data was collected as follows:
 
 I abstained from masturbating and watching pornography from
-2019-12-10T00:00 to \_, resulting in >90 days of abstinence from
+2019-12-30T00:00 to \_, resulting in >90 days of abstinence from
 masturbation (which is also the period [recommended by the NoFap
 community](https://nofap.com/rebooting/): "NoFap’s gold standard of
 success is our 90-day reboot.").
-I had a nocturnal emission<!--TODO: wikipedia link--> on 2019-12-18T07:30.
 
 From \_ to \_, I went on the streets of a major european city and
 approached 100 people I read as men and 100 people I read as women
 alternatingly with the words
 
 <!--TODO: add question about language at the beginning?-->
+<!--TODO: what about the strategy of agreeing to have a date?-->
 
 > Hi, I know this is really spontaneous, but I just saw you and thought
 you looked really nice. What is your name?

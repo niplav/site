@@ -1,0 +1,21 @@
+.l("./load.kg")
+
+.l("math")
+.l("nplot")
+
+grid([0 10000 1000];[-15000 15000 1000])
+xtitle("Approaches")
+ytitle("Cumulative total value")
+
+plot({benefit(x)-cost(x)})
+text(200;250;"Value")
+
+setrgb(0;0;1)
+plot(benefit)
+text(200;400;"Benefit")
+
+setrgb(1;0;0)
+plot({-cost(x)})
+text(250;60;"cost")
+
+draw()
