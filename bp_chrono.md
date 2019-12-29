@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-07-24, modified: 2019-09-29, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-24, modified: 2019-12-29, language: english, status: in progress, importance: 5, confidence: log*
 
 > __The blog [bit-player](http://bit-player.org/) is an excellent
 > computer science and mathematics blog written by [Brian

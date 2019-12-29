@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-07-13, modified: 2019-09-29, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-13, modified: 2019-12-29, language: english, status: in progress, importance: 5, confidence: log*
 
 > __The blog [The Real Movement](https://therealmovement.wordpress.com/)
 > deals with Marxism, more specifically with abolishing wage labor, the role
@@ -11,10 +11,10 @@
 The Real Movement Posts Chronological Index
 ===========================================
 
+This index currently lists 662 posts from 2013-05-20 to 2019-12-18.
+
 Archives
 --------
-
-This index currently lists 648 posts from 2013-05-20 to 2019-09-09.
 
 ### 2013
 
@@ -646,8 +646,11 @@ This index currently lists 648 posts from 2013-05-20 to 2019-09-09.
 
 * [Ben Reynolds discusses his book, “The Coming Revolution”](https://therealmovement.wordpress.com/2019/01/01/ben-reynolds-discusses-his-book-the-coming-revolution/) (Jehu, January 1, 2019)
 * [John Danaher asks “Should We Abolish Work?”](https://therealmovement.wordpress.com/2019/01/08/john-danaher-asks-should-we-abolish-work/) (Jehu, January 8, 2019)
-* [Banned again for suggesting we need to get rid of wage labor: A Tale](https://therealmovement.wordpress.com/2019/01/13/banned-again-for-suggesting-we-need-to-get-rid-of-wage-labor-a-tale/) (Jehu, January 13, 2019)
-* [The SCUM Manifesto and the Abolition of Wage Slavery](https://therealmovement.wordpress.com/2019/01/14/the-scum-manifesto-and-the-abolition-of-wage-slavery/) (Jehu, January 14, 2019)
+* [“No-Deal” Brexit: A nineteenth century solution that still works](https://therealmovement.wordpress.com/2019/01/29/no-deal-brexit-a-nineteenth-century-solution-that-still-works/) (Jehu, January 29, 2019)
+* [Trump will likely not declare a national emergency to get his wall](https://therealmovement.wordpress.com/2019/02/05/trump-will-likely-not-declare-a-national-emergency-to-get-his-wall/) (Jehu, February 5, 2019)
+* [Would eliminating all taxes on wages and salaries make it easier to reduce hours of labor?](https://therealmovement.wordpress.com/2019/02/09/would-eliminating-all-taxes-on-wages-and-salaries-make-it-easier-to-reduce-hours-of-labor/) (Jehu, February 9, 2019)
+* [Some important caveats regarding Autonomy’s proposal to reduce the work week](https://therealmovement.wordpress.com/2019/02/11/some-important-caveats-regarding-autonomys-proposal-to-reduce-the-work-week/) (Jehu, February 11, 2019)
+* [Some thoughts on Postone’s “Rethinking Capital in light of the Grundrisse”](https://therealmovement.wordpress.com/2019/02/15/some-thoughts-on-postones-rethinking-capital-in-light-of-the-grundrisse/) (Jehu, February 15, 2019)
 * [#3 on Postone’s ‘Rethinking Capital’](https://therealmovement.wordpress.com/2019/02/21/3-on-postones-rethinking-capital/) (Jehu, February 21, 2019)
 * [#4 on Postone’s ‘Rethinking Capital’](https://therealmovement.wordpress.com/2019/02/26/4-on-postones-rethinking-capital/) (Jehu, February 26, 2019)
 * [“No Deal is better than … any deal”](https://therealmovement.wordpress.com/2019/02/28/no-deal-is-better-than-any-deal/) (Jehu, February 28, 2019)
@@ -684,6 +687,18 @@ This index currently lists 648 posts from 2013-05-20 to 2019-09-09.
 * [How did Newton properly analyse the transcendence of gravity in 1666?](https://therealmovement.wordpress.com/2019/08/30/how-did-newton-properly-analyse-the-transcendence-of-gravity-in-1666/) (Jehu, August 30, 2019)
 * [Thinking about negative interest rates](https://therealmovement.wordpress.com/2019/09/07/thinking-about-negative-interest-rates/) (Jehu, September 7, 2019)
 * [This shit is what passes for economics today…](https://therealmovement.wordpress.com/2019/09/09/this-shit-is-what-passes-for-economics-today/) (Jehu, September 9, 2019)
+* [EPI on the so-called “slow-motion wage crisis”](https://therealmovement.wordpress.com/2019/11/26/epi-on-the-so-called-slow-motion-wage-crisis/) (Jehu, November 26, 2019)
+* [Speculative presence](https://therealmovement.wordpress.com/2019/11/26/speculative-presence/) (Jehu, November 26, 2019)
+* [Speculative presence – 2](https://therealmovement.wordpress.com/2019/11/27/speculative-presence-2/) (Jehu, November 27, 2019)
+* [Speculative presence – 3](https://therealmovement.wordpress.com/2019/11/27/speculative-presence-3/) (Jehu, November 27, 2019)
+* [Speculative presence – 4](https://therealmovement.wordpress.com/2019/11/27/speculative-presence-4/) (Jehu, November 27, 2019)
+* [Speculative presence – 5](https://therealmovement.wordpress.com/2019/11/28/speculative-presence-5/) (Jehu, November 28, 2019)
+* [Speculative presence – 6](https://therealmovement.wordpress.com/2019/11/29/speculative-presence-6/) (Jehu, November 29, 2019)
+* [Speculative presence – 7](https://therealmovement.wordpress.com/2019/12/04/speculative-presence-7/) (Jehu, December 4, 2019)
+* [Speculative presence – 8](https://therealmovement.wordpress.com/2019/12/05/speculative-presence-8/) (Jehu, December 5, 2019)
+* [Speculative presence – 9](https://therealmovement.wordpress.com/2019/12/07/speculative-presence-9/) (Jehu, December 7, 2019)
+* [Speculative presence – 10](https://therealmovement.wordpress.com/2019/12/10/speculative-presence-10/) (Jehu, December 10, 2019)
+* [Speculative presence – 11](https://therealmovement.wordpress.com/2019/12/18/speculative-presence-11/) (Jehu, December 18, 2019)
 
 Code
 ----
