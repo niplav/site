@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-07-13, modified: 2019-09-29, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-13, modified: 2019-12-29, language: english, status: in progress, importance: 5, confidence: log*
 
 > __The blog [Shtetl Optimized](https://www.scottaaronson.com/blog/) is
 > written by [Scott Aaronson](https://en.wikipedia.org/wiki/Scott_Aaronson),
@@ -12,10 +12,10 @@
 Shtetl Optimized Posts Chronological Index
 ==========================================
 
+This index currently lists 743 posts from 2006-11-20 until 2019-12-28.
+
 Archives
 --------
-
-This index currently lists 732 posts from 2005-10-03 to 2019-09-23.
 
 ### 2005
 
@@ -792,6 +792,18 @@ This index currently lists 732 posts from 2005-10-03 to 2019-09-23.
 * [Paul Bernays Lectures](https://www.scottaaronson.com/blog/?p=4301) (Scott Aaronson, Monday, September 9th, 2019)
 * [Blurry but clear enough](https://www.scottaaronson.com/blog/?p=4312) (Scott Aaronson, Friday, September 20th, 2019)
 * [Scott’s Supreme Quantum Supremacy FAQ!](https://www.scottaaronson.com/blog/?p=4317) (Scott Aaronson, Monday, September 23rd, 2019)
+* [From quantum supremacy to classical fallacy](https://www.scottaaronson.com/blog/?p=4342) (Scott Aaronson, Wednesday, October 2nd, 2019)
+* [Book Review: ‘The AI Does Not Hate You’ by Tom Chivers](https://www.scottaaronson.com/blog/?p=4361) (Scott Aaronson, Sunday, October 6th, 2019)
+* [Quantum supremacy: the gloves are off](https://www.scottaaronson.com/blog/?p=4372) (Scott Aaronson, Wednesday, October 23rd, 2019)
+* [My New York Times op-ed on quantum supremacy](https://www.scottaaronson.com/blog/?p=4400) (Scott Aaronson, Wednesday, October 30th, 2019)
+* [The morality of quantum computing](https://www.scottaaronson.com/blog/?p=4405) (Scott Aaronson, Thursday, November 7th, 2019)
+* [Annual recruitment post](https://www.scottaaronson.com/blog/?p=4409) (Scott Aaronson, Tuesday, November 12th, 2019)
+* [The Aaronson-Ambainis Conjecture (2008-2019)](https://www.scottaaronson.com/blog/?p=4414) (Scott Aaronson, Sunday, November 17th, 2019)
+* [Guest post by Greg Kuperberg: Archimedes’ other principle and quantum supremacy](https://www.scottaaronson.com/blog/?p=4432) (Scott Aaronson, Tuesday, November 26th, 2019)
+* [Two updates](https://www.scottaaronson.com/blog/?p=4439) (Scott Aaronson, Monday, December 2nd, 2019)
+* [Quantum Dominance, Hegemony, and Superiority](https://www.scottaaronson.com/blog/?p=4450) (Scott Aaronson, Thursday, December 19th, 2019)
+* [NIPS vs. NeurIPS: guest post by Steven Pinker](https://www.scottaaronson.com/blog/?p=4476) (Scott Aaronson, Monday, December 23rd, 2019)
+* [Quantum computing motte-and-baileys](https://www.scottaaronson.com/blog/?p=4447) (Scott Aaronson, Saturday, December 28th, 2019)
 
 Code
 ----

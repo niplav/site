@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-07-07, modified: 2019-09-29, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-07, modified: 2019-12-29, language: english, status: in progress, importance: 5, confidence: log*
 
 > __The blog [Overcoming Bias](http://www.overcomingbias.com/), written
 > mainly by [Robin Hanson](https://en.wikipedia.org/wiki/Robin_Hanson),
@@ -14,7 +14,7 @@
 Overcoming Bias Posts Chronological Index
 =========================================
 
-This index currently lists 4066 posts from 2006-11-20 until 2019-09-27.
+This index currently lists 4087 posts from 2006-11-20 until 2019-12-24.
 
 Archives
 --------
@@ -4124,6 +4124,29 @@ Archives
 * [Who Vouches For You?](http://www.overcomingbias.com/2019/09/who-vouches-for-you.html) (Robin Hanson, September 21, 2019 8:00 am)
 * [Status Apps Are Coming](http://www.overcomingbias.com/2019/09/status-apps-are-coming.html) (Robin Hanson, September 25, 2019 11:15 am)
 * [Dreamtime Social Games](http://www.overcomingbias.com/2019/09/dreamtime-games.html) (Robin Hanson, September 27, 2019 1:30 pm)
+* [Separating Redistribution From Hardship Insurance](http://www.overcomingbias.com/2019/10/separating-redistribution-from-hardship-insurance.html) (Robin Hanson, October 4, 2019 5:00 am)
+* [Let Foreigners Speak](http://www.overcomingbias.com/2019/10/let-foreigners-speak.html) (Robin Hanson, October 10, 2019 7:30 pm)
+* [State Rating Agencies](http://www.overcomingbias.com/2019/10/state-rating-agencies.html) (Robin Hanson, October 16, 2019 2:00 pm)
+* [Open Borders](http://www.overcomingbias.com/2019/10/open-borders.html) (Robin Hanson, October 19, 2019 9:35 am)
+* [Joker is Creepy](http://www.overcomingbias.com/2019/10/joker-is-creepy.html) (Robin Hanson, October 20, 2019 8:30 pm)
+* [The Big Change In Blame](http://www.overcomingbias.com/2019/10/the-big-change-in-blame.html) (Robin Hanson, October 22, 2019 8:00 am)
+* [Rules of Public Evidence?](http://www.overcomingbias.com/2019/10/rules-of-public-evidence.html) (Robin Hanson, October 25, 2019 10:00 am)
+* [Why Not Also Punish False Praise?](http://www.overcomingbias.com/2019/10/why-not-also-punish-false-praise.html) (Robin Hanson, October 31, 2019 11:00 am)
+* [Firms & Cities Have Open Borders](http://www.overcomingbias.com/2019/11/firms-cities-have-open-borders.html) (Robin Hanson, November 1, 2019 5:00 pm)
+* [Prestige Blocks Reform](http://www.overcomingbias.com/2019/11/prestige-blocks-reform.html) (Robin Hanson, November 13, 2019 11:15 am)
+* [Occam’s Policy Razor](http://www.overcomingbias.com/2019/11/occums-policy-razor.html) (Robin Hanson, November 14, 2019 8:00 pm)
+* [A New Truth Mechanism](http://www.overcomingbias.com/2019/11/more-truth-mechanisms.html) (Robin Hanson, November 15, 2019 12:40 pm)
+* [What Info Is Verifiable?](http://www.overcomingbias.com/2019/11/what-info-is-verifiable.html) (Robin Hanson, November 18, 2019 11:40 am)
+* [Social Roles Make Sense](http://www.overcomingbias.com/2019/11/on-roles.html) (Robin Hanson, November 25, 2019 1:30 pm)
+* [Designing Crime Bounties](http://www.overcomingbias.com/2019/11/designing-crime-bounties.html) (Robin Hanson, November 29, 2019 7:15 pm)
+* [Unending Winter Is Coming](http://www.overcomingbias.com/2019/12/unending-winter-is-coming.html) (Robin Hanson, December 2, 2019 2:35 pm)
+* [Automation: So Far, Business As Usual](http://www.overcomingbias.com/2019/12/automation-so-far-business-as-usual.html) (Robin Hanson, December 9, 2019 9:00 pm)
+* [Why Not RFID Tag Humans?](http://www.overcomingbias.com/2019/12/why-not-rfid-tag-humans.html) (Robin Hanson, December 12, 2019 2:40 pm)
+* [Automation As Colonization Wave](http://www.overcomingbias.com/2019/12/automation-as-colonization-wave.html) (Robin Hanson, December 13, 2019 2:20 pm)
+* [Might Disagreement Fade Like Violence?](http://www.overcomingbias.com/2019/12/disagreementfade.html) (Robin Hanson, December 19, 2019 11:25 am)
+* [Capitalism Uses Hate; That’s Good](http://www.overcomingbias.com/2019/12/capitalism-uses-hatred-and-thats-good.html) (Robin Hanson, December 22, 2019 10:00 am)
+* [Injustice For All](http://www.overcomingbias.com/2019/12/injustice-for-all.html) (Robin Hanson, December 22, 2019 8:40 pm)
+* [Governance By Jury](http://www.overcomingbias.com/2019/12/governance-by-jury.html) (Robin Hanson, December 24, 2019 11:30 am)
 
 Code
 ----
@@ -4166,6 +4189,7 @@ The site was scraped using Python 2 with the libraries
 		print('\n### {}\n'.format(year))
 		for t in reversed(yearposts):
 			print(t)
+
 
 The conversion into markdown is not perfect, but the links should work
 (though they have not been checked completely yet).

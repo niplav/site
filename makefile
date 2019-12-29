@@ -6,7 +6,7 @@ include config.mk
 
 all: sitedata
 
-total: sitedata rebuild
+total: sitedata puttit
 
 sitedata: $(CONF) $(HTML)
 
