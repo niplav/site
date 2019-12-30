@@ -1,4 +1,4 @@
-#gender∈{m,f,o}, fullness of train∈[0;1], seats taken up∈ℝ
+#gender∈{m,f,o}, fullness of vehicle∈[0;1], seats taken up∈ℝ
 m,0.4,0.8
 m,0.1,1.0
 m,0.4,1.0
@@ -22,3 +22,4 @@ m,0.1,0.7
 m,0.6,1.0
 f,0.5,1.0
 m,0.5,1.0
+m,0.3,1.0
