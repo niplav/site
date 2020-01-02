@@ -29,6 +29,8 @@ K](https://en.wikipedia.org/wiki/K_(programming_language)#Examples).
 Code
 ----
 
+<!--TODO: Make the tests also external-->
+
 The pure Klong code, without tests, explanations, comments or performance
 tests is available [here](./code/99_klong/sol.kg). It currently implements
 solutions for all problems up to P63 (excluding P47 and P48), in 2408
