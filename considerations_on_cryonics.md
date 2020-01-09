@@ -891,4 +891,6 @@ From todo.md:
 		* If only neuropreservation, where do I get my body from?
 
 Similar model with Guesstimate?
+
+Ah perhaps similar article by Anders Sandberg?
 -->
