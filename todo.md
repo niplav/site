@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2019-12-28, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-01-09, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -144,11 +144,14 @@ Texts
 * How Strong is the Gender Difference In Sex Drive?
 	* /usr/local/doc/unread/blackpill/is_there_a_gender_difference_in_strength_of_sex_drive_baumeister_et_al_2001.pdf
 	* /usr/local/doc/unread/blackpill/in_heterosexual_relationships_men_masturbate_more_than_women_waterink_2014.pdf
-* Do eegs burst when they're not poked before boiling?
+* Do eggs burst when they're not poked before boiling?
 	* Blinded, person needs to poke & write down, but not tell
 	* Student's t-test
 	* N=200
 	* Pre-register
+* Long-range vs. short-range forecasts from Predictionbook & Metaculus
+	* Analyse the brier scores of predictions from those sites
+	* Find out how the accuracy declines over time
 
 ### Ideas
 
