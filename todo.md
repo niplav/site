@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-01-09, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-01-10, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -193,6 +193,8 @@ Texts
 			* Problem: getting harder the more products come into the information domain
 		* Open-source model: free work
 * Infinite Fractal Meta Recursion
+* Mendeljew Operator
+* Supersymmetric Copying
 * Preference Frustration Auctions
 * The Tyranny of the Mill
 	* The Hedonic Treadmill is very good & very bad
@@ -515,6 +517,16 @@ Programming
 * species
 	* browsable tree of all currently known biological species
 	* starting from the highest classification
+* texdown
+	* small TeX library that offers basic markdown-like functionality:
+		* Numbered lists
+		* Unnumbered lists
+		* code listings
+		* quotes
+		* bold/italic text
+		* links
+		* images
+		* paragraph headings
 
 ### Klong Libraries
 
