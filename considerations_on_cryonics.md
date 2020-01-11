@@ -1,15 +1,15 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2019-12-23, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-01-10, language: english, status: in progress, importance: 6, confidence: remote*
 
-> __Many people
-> [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html).
-> Are they rational in doing so? [Betteridge's law of
+> __Is cryonics worth it, and if yes, should one
+> [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)?
+> [Betteridge's law of
 > headlines](https://en.wikipedia.org/wiki/Betteridge's_law_of_headlines)
-> gives the correct answer: no. Also some thoughts about some arguments
-> against cryonics, and a presentation of a model whether to sign up
-> for it.__
+> only applies partially here: Yes, it is probably worth it, and no,
+> cryocrastination is usually irrational. A cost-benefit analysis written
+> in Lua.__
 
 Considerations on Cryonics
 ==========================
@@ -30,10 +30,11 @@ Many would-be cryonicists cryocrastinate, i.e they put off signing
 up for cryonics until a later point in their life. This has often been
 explained by the fact that signing up for cryonics seems to [require high
 conscientiousness](https://www.lesswrong.com/posts/hiDkhLyN5S2MEjrSE/normal-cryonics
-"Normal Cryonics") and can be easily put off to another point in
-life. However, it hasn't yet been explored whether this procrastination
-might be rational: Many cryonics organisations have high membership fees,
-which might be avoided by waiting.
+"Normal Cryonics") and can be easily be delayed until another
+point in life: "I'll get around to doing it eventually" – person
+who was cremated. However, it hasn't yet been explored whether this
+procrastination might be rational: Many cryonics organisations have high
+membership fees, which might be avoided by waiting.
 
 To find this out, I present a point-estimate model of whether (and
 if yes, when) to sign up for cryonics. The model is written in
@@ -43,7 +44,7 @@ Note
 ----
 
 This write-up is not intended as an introduction to the concept of
-cryonics.  For a popular introduction to the topic that clarifies many
+cryonics. For a popular introduction to the topic that clarifies many
 common misconceptions about the practice, see [“Why Cryonics Makes
 Sense”](https://waitbutwhy.com/2016/03/cryonics.html) by Tim Urban.
 
@@ -70,16 +71,18 @@ Cost-Benefit Calculation for Cryonics
 To find out whether to sign up for cryonics at all, one needs
 to make a cost-benefit calculation. This has been [attempted
 before](http://www.overcomingbias.com/2009/03/break-cryonics-down.html
-"Break Cryonics Down"), but that analysis has been rather short and it
-might be productive to approach the topic independently.
+"Break Cryonics Down"), but that analysis has been rather short
+(disregarding several important factors) and it might be productive to
+approach the topic independently.
 
-Costs are comparatively easy to calculate and contain little uncertainty:
-The costs of cryopreservation and life-insurance are widely known, and
-can be easily added. The benefits of cryopreservation, however, contain
-a lot more uncertainty: It is not at all clear that the technology for
-reuscitation will be developed, cryonics organizations (or humanity)
-survive to develop such technology, or that the future will be interested
-in reuscitating people from cryopreservation.
+The costs of cryonics are comparatively easy to calculate and contain
+little uncertainty: The price of cryopreservation and life-insurance
+are widely known, and can be easily added together. The benefits of
+cryopreservation, however, contain a lot more uncertainty: It is not
+at all clear that the technology for reuscitation will be developed,
+cryonics organizations (or humanity) survive to develop such technology,
+or that the future will be interested in reuscitating people from
+cryopreservation.
 
 The model presented makes the assumption that a person has a given age
 and has the option of waiting for signing up for cryonics every year
@@ -97,9 +100,9 @@ calculated, and the value of a regular death is tacitly assumed to be
 	end
 
 `curage` contains the current age of the user of the
-program. `actval` is an actuarial table that contains at
-the nth position the life expectancy of a person that is n
-years old at the moment for a western nation (in this case
+program. `actval` is an actuarial table that contains at the
+nth position the median life expectancy of a person that is
+n years old at the moment for a western nation (in this case
 [Germany](https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/_inhalt.html)).
 
 The Disvalue of Waiting
@@ -119,14 +122,14 @@ and the possibility of dying before signing up.
 of motivation drift-->
 
 `prob_signup` is a function that calculates the probability of signing
-up for cryonics after waiting up to having a certain age. It seems clear
-that people loose motivation to perform certain actions, especially
-if they are unpleasant or complex. A good example for this is people
-being motivated at the start of the year to do regular exercise: How
-many of those actually keep their promises to themselves? They might
-start off exercising, but after the first few weeks the first people
-drop out, and and a couple of months there is nearly nobody left still
-keeping the promises. It seems like there is a strong [regression to
+up for cryonics after having waited up to having a certain age. It
+seems clear that people loose motivation to finish plans over time,
+especially if they are unpleasant or complex. A good example for this is
+people being motivated at the start of the year to do regular exercise:
+How many of those actually keep their promises to themselves? They
+might start off exercising, but after the first few weeks the first
+people drop out, and and a couple of months there is nearly nobody left
+still going to the gym. It seems like there is a strong [regression to
 the mean](https://en.wikipedia.org/wiki/Regression_toward_the_mean) in
 regards to action: Most regular actions are replaced by inaction, most
 strong values are replaced by apathy over time. A similar phenomenon
@@ -134,7 +137,7 @@ seems likely for signing up for cryonics: At first, people are very
 enthusiastic about signing up, but then loose interest as time progresses.
 
 It doesn't seem obvious how strong motivation drift is and
-how it develops over time (some people regain motivation
+how it develops over time (some people might regain motivation
 after some time), but intuitively it seems like a [geometric
 distribution](https://en.wikipedia.org/wiki/Geometric_distribution). The
 reasoning is as follows: Imagine that a thousand people have the
@@ -142,14 +145,14 @@ motivation to perform a given action n years into the future. Every year,
 a certain percentage p of the people still motivated loses interest
 in performing that action and drop out. After n years, the number of
 people who perform the action is `$1000*p^n$` (the percentage of people
-motivated is `$p^n$`).
+still motivated is `$p^n$`).
 
 When trying to find out what the value of p is for oneself, one can
 imagine a thousand independent identical copies of oneself planning a
-complex plan one year ahead. What would the percentage of selves actually
-going through with the plan be? Intuitively, it can't be much higher
-than 95%, possibly much lower, especially for something as complex as
-signing up for cryonics.
+complex plan one year ahead. How many of those would actually follow
+through on that plan? Intuitively, I'd say that it can't be much higher
+than 95%, possibly much lower, especially for something as complex and
+time-consuming as signing up for cryonics.
 
 	decay=0.95
 	function prob_signup(age)
@@ -164,8 +167,8 @@ up for cryonics earlier protects against regression to the mean, which
 means apathy or lack of motivation towards cryonics, but does not protect
 against changing ones mind about cryonics: If one becomes convinced it's
 bullshit later, one can easily get out (much more easily than getting in).
-On the other hand, there might be a considerable sunk cost due to already
-paid membership fees and the acquired life insurance.
+On the other hand, there might be a feeling of considerable sunk cost
+due to already paid membership fees and the acquired life insurance.
 
 It will be assumed that once one is signed up for cryonics, one stays
 signed up for it.
@@ -180,7 +183,7 @@ Mortality rates are often calculated using a so-called [Gompertz
 distribution](https://en.wikipedia.org/wiki/Gompertz_distribution). I
 determined the b and eta values by eyeballing [Wolfram
 Alpha](https://www.wolframalpha.com/input/?i=life+expectancy+of+a+0+year+old+german)
-using a calculator in [Tomasik
+and using a calculator in [Tomasik
 2016](https://reducing-suffering.org/estimating-aggregate-wild-animal-suffering-from-reproductive-age-and-births-per-female/#Choosing_a_distribution
 "Estimating Aggregate Wild-Animal Suffering from Reproductive Age and
 Births per Female")<!--TODO: find out which exact values statisticians
@@ -194,7 +197,8 @@ use, then use them-->.
 	end
 
 `gompertz` returns the probability of reaching `age`
-given that one is already `curage` years old. With [Bayes
+starting from birth, but I need the probability of reaching
+`age` given one is already `curage` years old. With [Bayes
 theorem](https://en.wikipedia.org/wiki/Bayes'_theorem) one can calculate
 that
 
@@ -210,12 +214,30 @@ being older than `age` is (in this calculation) a subset of being older
 have to apply in the case that the probabilities of reaching `age` is
 not independent of the probability of reaching `curage`, but those are
 difficult to estimate and will not be implemented here.
+
 This way, one can implement the probability of living until `age` given
 `curage` the following way:
 
 	function prob_liveto(age)
 		return gompertz(age)/gompertz(curage)
 	end
+
+### Longevity Escape Velocity
+
+Longevity Escape Velocity<!--TODO: wikipedia link--> (short LEV) is
+the name for the possible year when anti-aging technology becomes so
+good that people can be rejuvenated faster than they age. Although the
+concept is considered idle speculation in many circles, many futurists
+justify not signing up for cryonics because they expect that LEV will
+arrive during their lifetime, and see no reason to sign up for a cryonics
+membership they are probably not going to need anyway. In this text,
+I will consider LEV by assuming there will be a certain year after which
+the probability of death is practically zero.
+
+I somewhat arbitrarily set this year to 2080<!--TODO: find some estimates
+of LEV-->, though many futurists seem more optimistic<!--TODO source-->:
+
+	levyear=2080
 
 Calculating the Cost
 --------------------
