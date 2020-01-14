@@ -1,9 +1,8 @@
 .l("./load.kg")
 
-.l("math")
 .l("nplot")
 
-grid([0 10000 1000];[-400 2000 200])
+grid([0 10000 1000];[0 2000 200])
 xtitle("Approaches")
 ytitle("Cumulative dollar value of flowthrough effects")
 plot(flowthrough)

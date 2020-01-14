@@ -1,10 +1,10 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2019-01-10, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2019-01-14, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I present a point-estimate
-> cost-benefit value estimation written in Lua and find that daygame
+> cost-benefit value estimation written in Klong and find that daygame
 > is probably worth ~\$2500 maximum, at ~2000 approaches, though the
 > number varies under different assumptions. I then perform a Monte-Carlo
 > estimation to determine the uncertainty around the expected value and
@@ -12,6 +12,8 @@
 
 Daygame Cost-Benefit Analysis
 =============================
+
+<!--How to hyphenate the title?-->
 
 <!--Stats:
 Roy Walker:
@@ -46,6 +48,8 @@ Runner:
 [First 2000 approaches](http://daygamenyc.com/2019/05/31/approaching-2000-approaches/)
 -->
 
+<!--Find the post by free Northerner & link it here, discuss-->
+
 <!--TODO: quote for the definition of the word daygame here (perhaps from
 [here](http://www.daygame.com/)?-->
 
@@ -58,9 +62,10 @@ Cost
 ----
 
 Daygame has many different costs: opportunity costs<!--TODO: wiki link-->
-from the time spent approaching and dating women who then flake (one
-could be doing better things in the same time), mental strain from
-approach anxiety, and simply the cost of paying for dates.
+from the time spent approaching and dating women who then flake (one could
+be doing better things in the same time, like pursuing other hobbies,
+learning a language or musical instrument), mental strain from approach
+anxiety, and simply the cost of paying for dates.
 
 ### Approaching Opportunity Cost
 
@@ -85,6 +90,13 @@ Benefit
 
 Conclusion
 ----------
+
+This way, we can calculate the optimal number of approaches and the
+cumulative dollar value of these approaches:
+
+	vals::{benefit(x)-cost(x)}'!10000
+	*>vals
+	vals@*>vals
 
 Appendix A: A Guesstimate Model of the Value
 --------------------------------------------

@@ -1,3 +1,6 @@
+.l("math")
+.l("nstat")
+
 hourval::5
 prostcost::250
 prideval::500
@@ -16,7 +19,15 @@ dateratio::{3*ratio(x)}
 layvals::{firstlayval*sqr(ratio(x)*x)}
 benefit::{layvals(x)+flowthrough(x)}
 
-flowthrough::{200*ln((x+1)*0.2)}
-mentalcost::{-(200*ln((x+100)*0.01))-200}
+flowthrough::{250*ln((x+10)*0.1)}
+
+:"Another idea for mentalcost (lognormal distribution shifted, amplified):"
+:"Problems: the cumulative mental cost converges to a certain point"
+"(no logarithmic returns on daygame)"
+:"Also some magic numbers"
+
+mentalcost::{(10000*(ln.pdf((x*0.005)+0.5;1;1)))-1900}
+
+:"mentalcost::{-(200*ln((x+100)*0.01))-200}"
 
 cost::{(hourval*x%apprperhour)+mentalcost(x)+(dateratio(x)*datecost*avgdates)+dateratio(x)*datelen*avgdates*hourval}

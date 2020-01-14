@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-01-10, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-01-14, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)?
@@ -291,12 +291,17 @@ The following assumptions will be made in the implementation:
 3. If the person is over 25 years old, they are not a student.
 4. The person stays a member until their death (otherwise the cryonics
 	arrangement doesn't work).
-5. The membership fees will not be changed drastically over time.
+5.	The membership fees will not be changed drastically over time. In
+	fact, inflation adjusted prices for cryonics have mostly stayed
+	constant <!--TODO: link the charts from the cryonics wiki
+	entry)-->, so this is a reasonable assumption.
+6.	The cryonicist will know when LEV has occurred, and will cancel
+	their subscription to cryonics starting from that year.
 
 The implementation is quite straightforward:
 
 	function alcor_fees(age)
-		local left=math.floor(actval[age])-age
+		local left=math.min(math.floor(actval[age])-age, levyear-curyear)
 		local cost=0
 
 		if age<25 then
@@ -325,6 +330,8 @@ The implementation is quite straightforward:
 	end
 
 #### Comprehensive Member Standby
+
+<!--TODO: find out how CMS really works!-->
 
 > For Members residing in the continental U.S. and Canada: Alcor will
 provide Comprehensive Member Standby (CMS) to all Members (standby
@@ -358,11 +365,14 @@ I will assume that the cryonics member starts paying a CMS fee starting
 
 ### Preservation Cost
 
-There are several different methods of funding cryonics, the most popular of which
-seems to be life insurance.
-I haven't spent much time investigating the exact inner workings of life
-insurances, so I will make the assumption one doesn't have much of a
-financial advantage by choosing life insurance.
+There are several different methods of funding cryonics, the most
+popular of which seems to be life insurance.  I haven't spent much time
+investigating the exact inner workings of life insurances, so I will
+make the assumption that the insurance companies price their products
+adequately, so one doesn't have much of a financial advantage by choosing
+life insurance as opposed to simply saving money & paying the cryonics
+membership in cash. I also assume that life insurance companies can
+accurately price in the arrival date of LEV.
 
 > Minimum Cryopreservation Funding:  
 > • \$200,000.00 Whole Body Cryopreservation […].  
@@ -375,9 +385,9 @@ financial advantage by choosing life insurance.
 
 *– [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
 
-I assume that the person considering signing up is outside of the U.S,
-since a lot more people live outside the U.S than inside of it. I also
-assume that the person wants to sign up for neurocryopreservation.
+I assume that the person considering signing up lives outside of the
+U.S, since a lot more people live outside the U.S than inside of it. I
+also assume that the person wants to sign up for neurocryopreservation.
 With these assumptions, the function that returns preservation costs
 becomes quite simple:
 
@@ -391,9 +401,9 @@ There is a number of different additional costs that have not been
 considered here because of their (perceived) small scale or difficult
 tractability.
 
-These include opportunity costs for the time spent informing oneself about
-cryonics (tens hours spent), opportunity costs for the time spent signing
-up (tens of hours spent), social costs by seeming weird and many more
+These include opportunity costs for the time spent informing oneself
+about cryonics (tens of hours spent), opportunity costs for the time
+spent signing up (tens of hours spent), social costs by seeming weird
 (though cryonics is easy to hide, and most cryonicists seem to be rather
 vocal about it anyways), and alienating family members who necessarily
 come into contact with cryonics (considering the ["Hostile Wife
@@ -464,7 +474,8 @@ insurance plans worldwide use to determine whether to cover a new medical
 procedure". This number seems like a good conservative estimate.
 
 Interestingly, this approximately equals a year of waking hours worth
-the minimum wage (`$\$10*16*7*52=\$58240$`).
+the minimum wage (`$\$10*16*7*52=\$58240$`)<!--TODO: find source for
+the minimum wage in different countries!-->.
 
 Intuitively, the probability distribution over the value of a year of
 life in the future should then look like this:
