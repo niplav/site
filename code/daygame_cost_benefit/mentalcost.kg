@@ -1,9 +1,8 @@
 .l("./load.kg")
 
-.l("math")
 .l("nplot")
 
-grid([0 10000 1000];[-1000 400 200])
+grid([0 2000 200];[-2000 600 200])
 xtitle("Approaches")
 ytitle("Cumulative mental cost in dollar")
 plot(mentalcost)

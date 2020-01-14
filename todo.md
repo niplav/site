@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-01-10, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-01-14, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -97,8 +97,6 @@ Texts
 	* Direct Number on Street
 	* Direct Date on Street
 	* Direct Date off Street
-* Daygame Cost-Benefit
-	* Model from ../prog/daygame/daygame.lua
 * Actuarial tables for dictators
 * Ideology Transition Graphs
 	* When people move along ideologies, which paths do they take?
@@ -192,9 +190,10 @@ Texts
 		* Advertising
 			* Problem: getting harder the more products come into the information domain
 		* Open-source model: free work
-* Infinite Fractal Meta Recursion
-* Mendeljew Operator
-* Supersymmetric Copying
+* Aesthematics
+	* Infinite Fractal Meta Recursion
+	* Mendeljew Operator
+	* Supersymmetric Copying
 * Preference Frustration Auctions
 * The Tyranny of the Mill
 	* The Hedonic Treadmill is very good & very bad
@@ -236,19 +235,6 @@ Texts
 			* http://www.solidangl.es/2015/04/a-radical-new-look-for-logarithms.html
 	* Read
 		* /usr/local/doc/unread/notation/notation_as_a_tool_of_thought_iverson_1986.pdf
-* Day Game Log
-	*	Keeping track of ones own performance is usually useful for
-		improvement<!--TODO: find source!-->. Many people
-		who do pick-up, especially daygame<!--TODO: links for
-		those two-->, maintain spreadsheets and write field
-		reports. This is my personal instance of such a track
-		record.
-	*	Sessions are usually warm-up (collecting data for other projects, asking
-		for directions, compliments, directly asking men for their
-		phone number) and then main approaches, with notes on the
-		quality of the interaction and the result. At the end,
-		I try to extract lessons and ideas for improvement out
-		of the session.
 
 ### Other
 
@@ -261,6 +247,7 @@ Texts
 
 * Be Liberal in what you Accept, but Conservative in what you Emit
 * Believing Something Doesn't Mean You to Tell it to Everyone
+* You Actually Don't Need to Convice Idiots
 
 ### Misc
 
@@ -527,6 +514,18 @@ Programming
 		* links
 		* images
 		* paragraph headings
+* librule
+	* C library for raku rules
+	* read about:
+		* backtracking
+		* regex implementation (swtch.com?)
+		* raku rules
+	* example program: far (find after rule, grep; but with raku rules)
+	* github.com/zorgnax/librx
+* nest
+	* program dealing with nested data structures
+	* similar to lisp, but without execution
+	* am I nihing this?
 
 ### Klong Libraries
 
@@ -597,6 +596,7 @@ Programming
 	* Range is extremely slow for anything but integers, why?
 	* error with klong: `#'s58'!40` returns `kg: error: call: type error: [6 :triad %call1 %pop1]`
 		* bug, report
+	* Pivot in the gauss/elim implementations
 * fzf
 	* Why doesn't fzf cope well with shuffled or repeated letters?
 	* 'niiiiiplav' and 'nlapiv' both take me to the wrong directory, they're obviously meant for my home directory
