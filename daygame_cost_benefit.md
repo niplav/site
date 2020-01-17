@@ -46,17 +46,23 @@ Runner:
 [2019](http://daygamenyc.com/2020/01/01/im-now-an-intermediate-level-daygamer/)
 [First 2 years](http://daygamenyc.com/2019/08/06/2-years-on-is-daygame-worth-it/)
 [First 2000 approaches](http://daygamenyc.com/2019/05/31/approaching-2000-approaches/)
+
+More stats:
+
+https://tddaygame.com/daygame-stats-blatant-lies/
+https://project-tusk.com/blogs/the-tusk-diaries/realistic-daygame-statistics
+https://daygamersbible.wordpress.com/2018/05/23/daygame-statistics-and-what-they-tell-your-daygame/
+
+Other analysis:
+https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/
 -->
 
-<!--Find the post by free Northerner & link it here, discuss-->
-
-<!--TODO: quote for the definition of the word daygame here (perhaps from
-[here](http://www.daygame.com/)?-->
-
+<!--
 > Daygame is the art of meeting and attracting women during the daytime
 > in different locations and at different times of the day.
 
-[Source](https://www.globalseducer.com/daygame/)
+Source: https://www.globalseducer.com/daygame/
+-->
 
 Cost
 ----
