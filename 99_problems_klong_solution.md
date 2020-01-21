@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2019-12-23, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2020-01-21, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.md)
 > in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -1543,7 +1543,7 @@ the sum and the two nodes and appends this to the rest of the list.
 
 `c1` traverses the tree recursively, building up the code using the second
 argument of the function (giving the left part of the tree a `0` and
-the right part a `1`).  If it encounters a leaf, it returns the code
+the right part a `1`). If it encounters a leaf, it returns the code
 generated so far, together with the symbol represented by the code.
 
 The final solution simply inlines `c2` into `s50`.
@@ -1571,10 +1571,10 @@ the huffman coding and returns the code. The results are then concatenated
 and converted to a string.
 
 Decoding is much more complex because huffman decoding is very iterative,
-and there doesn't seem to be a array-based equivalent.  Basically,
+and there doesn't seem to be a array-based equivalent. Basically,
 searches for a prefix of the string that is in the code, appends the
 corresponding character from the code to the result string r and removes
-the prefix from the encoded string.  The variable o is the huffman code
+the prefix from the encoded string. The variable o is the huffman code
 for the string and p is the matching prefix for the string. This code
 is executed in a While-loop until the encoded string is empty, and then
 returns the result string.
@@ -1727,7 +1727,7 @@ function checks whether the two sets have the same shape (this is the
 case iff `(x:%2)=x-x:%2`). If they have the same shape, it generates
 all possible combinations of the two using the helper function `d2`,
 which simply executes `d1` on all pairs of `x` and `y` (the cartesian
-product).  If their shapes are different, then `d2` is executed on `x`
+product). If their shapes are different, then `d2` is executed on `x`
 and `y` in both orders. `d1` simply takes two trees and combines them
 into a single tree with the root node `:x`.
 
@@ -2175,7 +2175,7 @@ of nodes becomes bigger than the argument.
 
 This implementation uses the fact that `$max_{n+1}=max_{n}+max_{n-1}+1$`.
 It works by counting up in a recursive function, and returning the counter
-when it becomes smaller than the highest tree generated.  `|!3` is the
+when it becomes smaller than the highest tree generated. `|!3` is the
 array `[2 1 0]`, representing the number of nodes in the sparsest tree
 with height 1, the number of nodes in the sparsest tree with height 0,
 and the counter.
@@ -2349,7 +2349,7 @@ Tests:
 
 Another possible implementation could be `s62::{a1(s7(x);s61a(x))}`:
 it returns the set difference of all of the nodes of the tree and
-the leaves.  However, this only works if all elements in the tree are
+the leaves. However, this only works if all elements in the tree are
 distinct, because the set difference removes duplicates.
 
 ### P62B (*) Collect the nodes at a given level in a tree.

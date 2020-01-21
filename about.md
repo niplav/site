@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-09-08, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2020-01-21, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -80,6 +80,47 @@ programs](https://en.wikipedia.org/wiki/Literate_programming)
 containing code, comments, tests and performance measurements. Most
 programs will be written in [a small number of programming
 languages](./uses_this.html#Programming-languages).
+
+### Inspiration
+
+I always had a few ideas I thought were worth preserving, and a lot
+of ideas I thought would be fun writing down, and also thought about
+creating a repository for all my personal projects, but somehow these
+never really pushed me completely toward actually setting something
+up. A good reason might have been that I only visited sites that were
+poorly organised and contained little to no personal long-term content
+(either blogs focused on new posts or simply haphazard aggregations
+of short ideas (like in the form of [2f30.org](http://2f30.org) or the
+[suckless.org wiki](https://suckless.org/wiki/))).
+
+This was changed upon discovering [gwern.net](https://www.gwern.net)
+and [reducing-suffering.org](https://reducing-suffering.org): both gave
+me a good idea of how a long-term website should look and feel like,
+and which kind of content could be published there.
+
+I decided to start writing down my ideas, collecting older texts and
+reviewing them to see what was still valuable and what was useless.
+
+My decision to start a website was solidified by [guzey
+2019](https://guzey.com/personal/why-have-a-blog/) and a question on
+[/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/comments/ab3ry1/whats_the_bottleneck_to_more_things_like_slate/):
+
+> What's the bottleneck to more things like "Slate Star Codex" or Gwern's site existing in the world?
+
+*– [arikir](https://old.reddit.com/user/arikr), [“What's the bottleneck to more things like "Slate Star Codex" or Gwern's site existing in the world?”](https://old.reddit.com/r/slatestarcodex/comments/ab3ry1/whats_the_bottleneck_to_more_things_like_slate/) on [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/), 2019*
+
+<!--TODO: Lesswrong question: [What makes people intellectually
+active?](https://www.lesswrong.com/posts/XYYyzgyuRH5rFN64K/what-makes-people-intellectually-active)-->
+
+I decided that it could not hurt to try and follow through on the idea
+of aggregating the stuff I produced, and a possible (but unlikely)
+benefit to other people was just a nice addition.
+
+So far, writing for a website has been beneficial to interacting with
+several topics: It streamlines my thoughts, makes it possible to take
+notes, include code and images and several other advantages. Even if
+I had never gotten around to publishing this site, it would still have
+been a net positive project for me.
 
 ### Style
 
@@ -276,47 +317,6 @@ In regard to software, my views are quite
 similar to those of the minimalist unix and [Plan
 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs) supporters at
 [suckless.org](https://suckless.org) and [cat-v.org](http://cat-v.org).
-
-### Inspiration
-
-I always had a few ideas I thought were worth preserving, and a lot
-of ideas I thought would be fun writing down, and also thought about
-creating a repository for all my personal projects, but somehow these
-never really pushed me completely toward actually setting something
-up. A good reason might have been that I only visited sites that were
-poorly organised and contained little to no personal long-term content
-(either blogs focused on new posts or simply haphazard aggregations
-of short ideas (like in the form of [2f30.org](http://2f30.org) or the
-[suckless.org wiki](https://suckless.org/wiki/))).
-
-This was changed upon discovering [gwern.net](https://www.gwern.net)
-and [reducing-suffering.org](https://reducing-suffering.org): both gave
-me a good idea of how a long-term website should look and feel like,
-and which kind of content could be published there.
-
-I decided to start writing down my ideas, collecting older texts and
-reviewing them to see what was still valuable and what was useless.
-
-My decision to start a website was solidified by [guzey
-2019](https://guzey.com/personal/why-have-a-blog/) and a question on
-[/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/comments/ab3ry1/whats_the_bottleneck_to_more_things_like_slate/):
-
-> What's the bottleneck to more things like "Slate Star Codex" or Gwern's site existing in the world?
-
-*– [arikir](https://old.reddit.com/user/arikr), [“What's the bottleneck to more things like "Slate Star Codex" or Gwern's site existing in the world?”](https://old.reddit.com/r/slatestarcodex/comments/ab3ry1/whats_the_bottleneck_to_more_things_like_slate/) on [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/), 2019*
-
-<!--TODO: Lesswrong question: [What makes people intellectually
-active?](https://www.lesswrong.com/posts/XYYyzgyuRH5rFN64K/what-makes-people-intellectually-active)-->
-
-I decided that it could not hurt to try and follow through on the idea
-of aggregating the stuff I produced, and a possible (but unlikely)
-benefit to other people was just a nice addition.
-
-So far, writing for a website has been beneficial to interacting with
-several topics: It streamlines my thoughts, makes it possible to take
-notes, include code and images and several other advantages. Even if
-I had never gotten around to publishing this site, it would still have
-been a net positive project for me.
 
 The author
 ----------
