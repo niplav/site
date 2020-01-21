@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-01-14, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-01-21, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)?
@@ -296,7 +296,7 @@ The following assumptions will be made in the implementation:
 	constant <!--TODO: link the charts from the cryonics wiki
 	entry)-->, so this is a reasonable assumption.
 6.	The cryonicist will know when LEV has occurred, and will cancel
-	their subscription to cryonics starting from that year.
+	their membership starting from that year.
 
 The implementation is quite straightforward:
 
@@ -413,13 +413,14 @@ Phenomenon"](https://www.biostasis.com/is-that-what-love-is-the-hostile-wife-phe
 Calculating the Benefit
 -----------------------
 
-Calculating the benefit of cryonics carries a great uncertainty,
-but basically it can be divided into four distinct components: The
-probability of being preserved, the probability of revival, the amount
-of years gained by cryonics and the value of one lifeyear.
+Calculating the benefit of cryonics carries a great uncertainty, but
+basically it can be divided into six distinct components: The probability
+of being preserved, the probability of revival, the amount of years gained
+by cryonics, the value of one lifeyear, the probability of living to the
+year when one will sign up, and the probability of then dying before LEV.
 
 	function benefit(age)
-		return prob_pres*prob_succ*years_gain*val_year
+		return prob_pres*prob_succ*years_gain*val_year*prob_liveto(age)*prob_diebeforelev(age)
 	end
 
 Here, I will only take [point
@@ -753,6 +754,36 @@ to lead a safe life and keeping contact to their cryonics organisation.
 
 	prob_pres=0.6
 
+### Surviving Until LEV
+
+The benefit of cryonics is only realized in one case: One lives to
+the planned year of signing up, but then dies before LEV. Both dying
+before signing up or living until LEV make the value of cryonics
+0\$. One can calculate the probability of this scenario by multiplying
+the probabilities of living until signup with the probability of then
+dying before LEV.
+
+To calculate the probability of living to a given age, we can use
+the gompertz distribution again:
+
+	function prob_liveto(age)
+		return gompertz(age)/gompertz(curage)
+	end
+
+The probability of dying before LEV is 0 if LEV has already occurred:
+
+	if curyear+(age-curage)>levyear then
+		return 0
+
+Othewise, we assume that one has signed up for cryonics at `age`
+and now wants to know the probability of dying until LEV. That is the
+same as `$1-\Pr[Living until LEV$`, or the probability of living until
+`curage+(levyear-curyear` given one has already lived until `age`.
+
+	else
+		return 1-(gompertz(curage+(levyear-curyear))/gompertz(age))
+	end
+
 Conclusion
 ----------
 
@@ -888,6 +919,12 @@ y-axis. This should get fixed sometime in the future.
 	draw()
 
 ![Critical perspective on cryonics](./img/considerations_on_cryonics/critical.png "Critical perspective on cryonics. The older one get's, the less of a loss cryonics is, but it still stays a net negative trade.")
+
+<!--
+### Where Waiting Makes Sense
+
+$ lua cryoyear.lua 22 50000 0.1 0.6 100 1 180 100000 2080
+-->
 
 ### Other Modifications
 

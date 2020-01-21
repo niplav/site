@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-24, modified: 2019-09-09, language: english, status: finished, importance: 4, confidence: possible*
+*author: niplav, created: 2019-04-24, modified: 2020-01-21, language: english, status: finished, importance: 4, confidence: possible*
 
 > __[Pipelines](https://en.wikipedia.org/wiki/Pipeline_(Unix)) are an
 > integral part of the Unix operating system. They come in different
@@ -21,7 +21,7 @@ A pipe ring has the following structure:
 	$ echo init >a
 	$ tail -f a | [filters] >>a
 
-Usually, `fil` contains some initialization values. These initialization
+Usually, `a` contains some initialization values. These initialization
 values are then written into the pipeline, transformed by the filters,
 and concatenated to the file. `tail -f` then reads those new lines from
 the file in the order that they were generated, and new data is produced

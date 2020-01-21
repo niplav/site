@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2019-12-24, language: english, status: in progress, importance: 4, confidence: other*
+*author: niplav, created: 2019-01-14, modified: 2020-01-21, language: english, status: in progress, importance: 4, confidence: other*
 
 > __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems
@@ -19,10 +19,10 @@ K-99: Ninety-Nine Klong Problems
 Caveat Lector
 -------------
 
-A number of changes were made to the original problems list.  For one,
+A number of changes were made to the original problems list. For one,
 Klong neither allows underscores nor dashes in function names, so it
 seemed like the best option to just remove the dashes from the names
-without replacing them with anything else.  Another possible option would
+without replacing them with anything else. Another possible option would
 have been to replace them with dots, but dots are usually used in order
 to denote modules and seemed inappropriate here.
 
@@ -357,7 +357,7 @@ Note the special case: phi(1) = 1.
 Find out what the value of phi(m) is if m is a prime
 number. Euler's totient function plays an important role in
 one of the most widely used public key cryptography methods
-([RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem))).  In this
+([RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem))). In this
 exercise you should use the most primitive method to calculate this
 function (there are smarter ways that we shall discuss later).
 
@@ -679,7 +679,7 @@ Example:
 ### P60 (**) Construct height-balanced binary trees with a given number of nodes.
 
 Consider a height-balanced binary tree of height `H`. What is the maximum
-number of nodes it can contain? Clearly, `maxn = 2**H - 1`.  However,
+number of nodes it can contain? Clearly, `maxn = 2**H - 1`. However,
 what is the minimum number `minn`? This question is more difficult. Try
 to find a recursive statement and turn it into a function `minnodes`.
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-01-14, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-01-21, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -283,6 +283,8 @@ Texts
 		* Hell
 * Homeless Super-Mathematicians
 	* Perhaps in the SCP format?
+* Blue Reality
+	* Like the Red Reality SCP, but people in there are really well (think MDMA)
 * Guten Morgen
 * A History of Names
 * Skalpell Bizeps

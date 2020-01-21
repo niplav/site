@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2019-12-24, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2020-01-21, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -26,7 +26,7 @@ it contains a list of all
 and is well structured. Wikipedia is generally concise and complete
 enough to provide a sufficient overview over a topic (see [Tomasik
 2017](https://foundational-research.org/education-matters-for-altruism/#Taking_the_big_picture_Textbooks_review_articles_and_Wikipedia
-"Education Matters for Altruism")).  To read this collection of outlines
+"Education Matters for Altruism")). To read this collection of outlines
 completely, one could use the following method:
 
 Read [Wikipedia's
@@ -296,7 +296,7 @@ These are not very good suggestions, and should be read tongue-in-cheek.
 
 Most people understand an opposition "value drift" as a rejection of
 moral development, and it's not clear where the difference between the
-two lies.  Perhaps there are different kinds of such drifts: "value
+two lies. Perhaps there are different kinds of such drifts: "value
 drift", "motivation drift", "discipline drift" etc.
 
 Alternatives:
@@ -471,7 +471,7 @@ are action-compelling. This would make it very hard to achieve goals, since
 Furthermore, due to the restrictions on learning power (`$A_{w}$`
 would be a bottleneck in learning about the world, since it would
 not be as strong as possible), agents that would simply learn
-all sentences from `$V$` would be at an economic advantage.  For a
+all sentences from `$V$` would be at an economic advantage. For a
 related discussion that talks about agent versus tool AIs, see [Gwern
 2019](https://www.gwern.net/Tool-AI "Why Tool AIs Want to Be Agent AIs:
 The Power of Agency").
@@ -498,7 +498,7 @@ One also loses the time of being able to use the old object: Let's
 say that one owns a table, but for some reason has decided that it
 isn't sufficient anymore (although it still fulfills its purpose).
 Let's say one estimates that the table will fulfill its function for
-another 5 years.  If one then goes out and buys a new table for \$200,
+another 5 years. If one then goes out and buys a new table for \$200,
 one then loses (with a discount rate of 1%) `$\$200-\$200*0.99^5=\$9.80$`.
 
 ### Explanations
@@ -585,3 +585,117 @@ of subjective time, diminishing returns on life years, the value of
 late life years (considering disability), rising life expectancies,
 suffering inflicted on relatives by the death of many people, and many
 other considerations.
+
+Some Thoughts about the Qualia Research Institute
+-------------------------------------------------
+
+Most of the value that QRI creates is going to take place before AGI
+arrives. They seem to believe otherwise<!--Link Johnson here-->, but
+their arguments for this depend on specific philosophical assumptions
+(e.g. open individualism and moral realism) which are at least contentious
+among alignment researchers. Any valence research done by them today
+could be done by an aligned AGI in higher quality & accuracy, but we
+currently don't have such an AI.
+
+Because of this, QRI will have high value if AGI doesn't arrive very
+quickly, let's say it takes 80 years to arrive. This seems quite unlikely,
+let's say there's a 15% probability of it taking this long for AGI to
+being developed.
+
+In this case, QRI will take some time to test & develop their theories,
+do outreach and work on technology. This can be modeled by assuming they
+take 20 years to achieve anything (if they in fact achieve anything).
+
+There are two different axes of achievement: technological and social.
+
+Technological achievements mean that their theories turn out to be correct
+(or they develop new & correct theories) and they manage to develop
+technologies on the basis of these theories. Low technological success
+could mean that they mostly use existing drugs to better treat existing
+conditions and manage to better identify extrem suffering.  Medium
+technological success would include them developing new drugs with a lower
+tolerance threshold<!--TODO: is this correctly phrased?-->, developing a
+correct theory of valence (but finding out that it has limited practical
+application), starting to create a structure of mind-state space, and
+being still better at preventing extreme suffering. High technological
+success would include being able to construct hedonium, creating mood
+organs <!--TODO: link--> and identifying most of the dimensions of
+mind-state space.
+
+Social achievements occur when the public accepts these technological
+developments and incorporates them. Low social acceptance could mean
+that the respective technologies are developed, but never distributed
+farther than QRIs current sphere of influence (people already interested
+in psychedelics & consciousness) due to either illegality or disinterest
+among the public (~1000 person-years affected). Medium social acceptance
+would mean that the technologies are available and used sparingly in some
+countries (perhaps due to the price of such technologies), or them being
+widely used among a certain subset of the population (think psychonauts
+today, but a bit more mainstream) (~1 mio. person-years affected). High
+social acceptance would entail people in developed countries having
+direct access to the technologies QRI has developed, up to achieving
+a Pearcean<!--TODO: link--> hedonistic utopia (~1 bio. person-years
+affected).
+
+In the most pessimistic case, complete failure, both axes collapse: No
+social acceptance at all is like the technologies were never developed,
+and a lack of technologies precludes any social acceptance.
+
+Below a matrix with probabilistic guesses of the combinations of these
+scenarios.
+
+<table>
+<tbody>
+	<tr>
+		<td></td>
+		<td>No technological success</td>
+		<td>Low technological success</td>
+		<td>Medium technological success</td>
+		<td>High technological success</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>No social success</td>
+		<td>64%</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Low social success</td>
+		<td>-</td>
+		<td>9%</td>
+		<td>6%</td>
+		<td>3%</td>
+		<td>30%</td>
+	</tr>
+	<tr>
+		<td>Medium social success</td>
+		<td>-</td>
+		<td>6%</td>
+		<td>4%</td>
+		<td>2%</td>
+		<td>20%</td>
+	</tr>
+	<tr>
+		<td>High social success</td>
+		<td>-</td>
+		<td>3%</td>
+		<td>2%</td>
+		<td>1%</td>
+		<td>10%</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>-</td>
+		<td>30%</td>
+		<td>20%</td>
+		<td>10%</td>
+		<td></td>
+	</tr>
+</tbody>
+</table>
+
+<!--TODO: attempt value calculation-->
+<!--TODO: write down some possible downsides-->
