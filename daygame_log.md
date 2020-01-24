@@ -13,10 +13,9 @@ Day Game Log
 ============
 
 <!--Keeping track of ones own performance is usually useful for
-improvement<!--TODO: find source!-->. Many people who do pick-up,
-especially daygame<!--TODO: links for those two-->, maintain spreadsheets
-and write field reports. This is my personal instance of such a track
-record.-->
+improvement<!--TODO: find source!-->Many people who do pick-up, especially
+daygame<!--TODO: links for those two-->, maintain spreadsheets and write
+field reports. This is my personal instance of such a track record.-->
 
 <!--Sessions are usually warm-up (collecting data for other projects,
 asking for directions, compliments, directly asking men for their phone

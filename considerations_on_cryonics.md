@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-01-21, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-01-24, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)?
@@ -104,6 +104,10 @@ program. `actval` is an actuarial table that contains at the
 nth position the median life expectancy of a person that is
 n years old at the moment for a western nation (in this case
 [Germany](https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/_inhalt.html)).
+
+This model usually tries to err on the side of conservative estimates,
+think of the lower range of a 50% confidence interval<!--TODO: wiki
+link-->.
 
 The Disvalue of Waiting
 -----------------------
@@ -386,10 +390,10 @@ accurately price in the arrival date of LEV.
 *– [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
 
 I assume that the person considering signing up lives outside of the
-U.S, since a lot more people live outside the U.S than inside of it. I
-also assume that the person wants to sign up for neurocryopreservation.
-With these assumptions, the function that returns preservation costs
-becomes quite simple:
+U.S (but not in China), since a lot more people live outside the U.S
+than inside of it. I also assume that the person wants to sign up for
+neurocryopreservation.  With these assumptions, the function that returns
+preservation costs becomes quite simple:
 
 	function pres_cost(age)
 		return 90000
@@ -425,12 +429,11 @@ year when one will sign up, and the probability of then dying before LEV.
 
 Here, I will only take [point
 estimates](https://en.wikipedia.org/wiki/Point_estimation) of these
-values. Perhaps a Monte-Carlo simulation would be more appropriate, but
-the current implementation provides a starting-point. As one can see,
-I will not do any time-discounting on the value of future life-years.
-<!--TODO: find a link that explains why time discounting for future
-life years is probably misguided--> <!--TODO: Write about LEV before
-cryopreservation-->
+values. Perhaps a Monte-Carlo simulation would be more appropriate,
+but one can use my current implementation provides a starting-point. As
+one can see, I will not do any time-discounting on the value of future
+life-years.  <!--TODO: find a link that explains why time discounting
+for future life years is probably misguided-->
 
 ### Value of a Lifeyear in the Future
 
@@ -447,22 +450,24 @@ average happiness and lifespans and other variables such as inequality
 regarding resources.
 
 But a much simpler way of approaching the topic could be the following:
-One takes arguments from both sides (positive futures and negative
-futures) and prematurely concludes that the future is on average going to
-be neutral, with a high variance in the result. But some problems present
-themselves: In different value systems, "neutral" means very different
-things. Strictly speaking, a utilitarian would see human extinction as
-neutral (the utility of a world without any sentient beings is exactly
-0), anti-natalists consider an empty world to be a positive thing, and
-most people working on preventing human extinction would consider such
-a world to be a gigantic loss of opportunity, and therefore net negative.
+One takes arguments from both sides (proclaiming positive futures
+and negative futures) and prematurely concludes that the future is on
+average going to be neutral, with a high variance in the result. But
+some problems present themselves: In different value systems, "neutral"
+means very different things. Strictly speaking, a utilitarian would
+see human extinction as neutral, but not net neutral (the utility of
+a world without any sentient beings is exactly 0, which is presumably
+lower than the current value of the world), anti-natalists consider an
+empty world to be a positive thing, and most people working on preventing
+human extinction would consider such a world to be a gigantic loss of
+opportunity, and therefore net negative.
 
 There seems to be no simple way to resolve these conflicts, otherwise it
 would have been written down up to now. But it seems like most people
 would take the current state of affairs as neutral, with improvements
 in happiness, meaning and wealth to be positive, and decreases in
 those to be negative. Also, they don't see dying tomorrow as a neutral
-thing.
+event.
 
 There are two different methods of putting a value on human life:
 the [VSL](https://en.wikipedia.org/wiki/Value_of_life) and the
@@ -510,7 +515,9 @@ This effect might be dampened by the consideration that most possible
 futures have net-negative value, but on the other hand, nearly all of
 those futures don't lead to reuscitation.
 
-This would mean that the probability distribution over the value of a lifeyear in the future conditional on being reuscitated could look like this:
+This would mean that the probability distribution over the value of
+a lifeyear in the future conditional on being reuscitated could look
+like this:
 
 	.l("nplot")
 	.l("nstat")
@@ -523,6 +530,8 @@ This would mean that the probability distribution over the value of a lifeyear i
 	draw()
 
 ![Probability distribution over the value of a lifeyear in the future conditional on being reuscitated](./img/considerations_on_cryonics/cryo_fut_year_val.png "The probability distribution over the value of a lifeyear in the future conditional on being reuscitated. The distribution is two halves of two different normal distributions meeting at around $50000, the left half has much lower variance than the right half.")
+
+<!--TODO: wouldn't that just shift the normal curve rightwards? Think about it.-->
 
 Note that this graph is not based on real data and only for illustrative purposes.
 
@@ -541,7 +550,7 @@ the desires of humans, leading to most (if not all) of humanity becoming
 extinct. It seems highly unlikely, but possible that cryopreserved
 humans are placed into the hands of an algorithm that invests the
 money in the relevant funds to reuscitate the cryopreserved humans at a
-certain point. This algorithm would receive little (or no) information
+certain point. This algorithm could receive little (or no) information
 on what to do with the reuscitated humans afterwards, leading either
 to these humans quickly dying again because of an economy where they
 are worthless, or being kept alive solely for fulfilling the contract
@@ -605,15 +614,16 @@ unfamiliar.
 
 These are valid considerations, but can be dampened a bit: Humans have
 shown to adapt to very different and varied circumstances, and humans
-today feel that modern life in big cities with regular timetables without
-any worries about survival is normal, while for most humans who ever
-lived, it would be anything but. One can speculate that very similar
-facts will also hold for the future (becoming increasingly unlikely the
-further reuscitation lies in the future). There would certainly be a big
-culture shock in the future, but it seems not qualitatively different
-from the shock people have when they visit different countries today.
-It is possible that future societies might try to help people with this
-kind of future shock, but that is of course far from certain.
+today feel that modern life in big cities with regular calendars and
+highly structured lives without any worries about survival is normal,
+while for most humans who ever lived, it would be anything but. One
+can speculate that very similar facts will also hold for the future
+(becoming increasingly unlikely the further reuscitation lies in the
+future). There would certainly be a big culture shock in the future,
+but it seems not qualitatively different from the shock people have
+when they visit different countries today.  It is possible that future
+societies might try to help people with this kind of future shock,
+but that is of course far from certain.
 
 It is true that most cryonicists will not be able to convince their
 friends and family to sign up for it too, so they will be alone in
@@ -673,16 +683,24 @@ has a median probability of 16% (n=117), ["If
 you die today and get cryonically frozen, will you "wake
 up"?"](https://www.metaculus.com/questions/455/if-you-die-today-and-get-cryonically-frozen-will-you-wake-up/)
 receives 2% (n=407). I am not sure where the difference comes from,
-prehaps either from worries about the quality of current preservation or
+perhaps either from worries about the quality of current preservation or
 from a low trust in the longevity of cryonics organisations. [This google
 sheet](https://docs.google.com/spreadsheets/d/1qn7c7rYmYx3KtqvhXTUGiiyuBk5e9kG3sA3jF-4zk6U/)
 contains 7 estimates of success: 0.04%, 0.223%, 29%, 6.71%, 14.86%,
 0.23% and 22.8%, with various different models underlying these estimates.
 
+Calculating the mean of these results in a chance of ~13%:
+
+<div>
+	$$\frac{0.2\%+15\%+13\%+77\%+85\%+6\%+23\%+9\%+17\%+0.2\%+1100*18\%+59*12\%+117*16\%+407*2\%+0.04\%+0.223\%+29\%+6.71\%+14.86\%+0.23\%+22.8\%}{1700} \approx 13.83\%$$
+</div>
+
 It would certainly be interesting to set up a prediction market for this
 question, or get a team of superforecasters to estimate it, but basically,
-it seems like for a young or middle-aged person, the probability seems
-to be around 5%.
+it seems like for a young or middle-aged person, the estimated probability
+is around 10%. However, the people surveyed are often sympathetic to
+cryonics or even signed up, and people in general are overconfident,
+so being conservative by halving the estimate seems like a good idea.
 
 	prob_succ=0.05
 
@@ -692,12 +710,15 @@ Conditional on being revived, what is the average life expectancy?
 
 If revival is achieved, it seems highly likely that aging and most
 degenerative diseases have been eradicated (it makes little sense to
-revive a person that is going to die again in 10 years, and cryonics
-organisations are not stupid, so this is unlikely to happen).
+revive a person that is going to die again in 10 years). Also, most
+revival scenarios hinge upon either the feasibility of very advanced
+nanotechnology, which seems to be highly conducive to fixing aging,
+or on whole brain emulation scenarios, which would likely make aging
+unnecessary (why on purpose degrade a digital brain?).
 
-If revival happens, there are still risks from accidents and homicide
-that can kill the reuscitated cryonicist, as well as existential risks
-that face all of humanity.
+If revival happens, there are still risks from accidents and homicide or
+suicide that can kill the reuscitated cryonicist, as well as existential
+risks that face all of humanity.
 
 The website Polstats [illustrates](http://polstats.com/#!/life)
 the risks purely from accidents and homicides
@@ -712,13 +733,14 @@ arrives at 2850 years.
 
 Taking existential risks into account is a bit harder. It is unclear
 whether most of the probability mass for existential risks should be
-placed before reuscitation of cryonics patients becomes feasible, or
-after it. It is also unclear how high the existential risk for humanity
-is overall. Assuming that the existential risk for humanity over the
-next 10000 years is ~40%<!--TODO: link Metaculus Ragnarok series, and
-see if someone like FHI has done some calculations on that-->, and half
-of that risk is placed before reuscitation, then the life expectancy of
-cryonics is `$\frac{8938+2850}{2}*(1-0.20)=4715.2$`.
+placed before reuscitation of cryonics patients becomes feasible,
+or after it. It is also unclear how high the existential risk for
+humanity is overall. Assuming that the existential risk for humanity
+over the next 10000 years is ~40% (this number is pretty much a
+guess)<!--TODO: link Metaculus Ragnarok series, and see if someone
+like FHI has done some calculations on that-->, and half of that risk
+is placed before reuscitation, then the life expectancy of cryonics is
+`$\frac{8938+2850}{2}*(1-0.20)=4715.2$`.
 
 That number should be qualified further in an ["Age of
 Em"](https://en.wikipedia.org/wiki/The_Age_of_Em) scenario: that scenario
@@ -741,16 +763,18 @@ DOI: 10.2307/1973599
 
 ### Probability of Being Preserved
 
-It seems like not all people who sign up for cryonics remain cryonicists until
-their death, and not all cryonicists who die as members actually get preserved.
+It seems like not all people who sign up for cryonics remain cryonicists
+until their death, and not all cryonicists who die as members actually
+get preserved.
 
 There seems to be very little data about this question, but as an
-extremely conservative estimate I would put the ratio of people who
-actually get preserved at 60% (it seems likely that the actual number is
-higher). Fortunately, a cryonics member can increase this number by being
-diligent about their cryonics arrangement, near the preservation facility
-before death, informing family members about their arrangement, trying
-to lead a safe life and keeping contact to their cryonics organisation.
+extremely conservative estimate I would put the ratio of members of
+cryonics organizations who actually get preserved at 60% (it seems likely
+that the actual number is higher). Fortunately, a cryonics member can
+increase this number by being diligent about their cryonics arrangement,
+living near the preservation facility before death, informing family
+members about their arrangement, trying to lead a safe life and keeping
+contact to their cryonics organisation.
 
 	prob_pres=0.6
 
@@ -798,10 +822,12 @@ punishes the procrastination quite heavily.
 
 #### Currently 20 years old
 
-At the age of 20 years, the value of signing up for cryonics the same
-year is \$6636375 (`$~\$6.6*10^6$`), prolonging the decision until one is 30 reduces this
-number to \$3967746 (`$~\$3.9*10^6$`), and waiting until 40, 50 and 60 years yields a
-value of \$2364955 (`$~\$2.3*10^6$`), \$1396009 (`$~\$1.3*10^6$`) and \$800994 (`$~\$8*10^5$`), respectively.
+At the age of 20 years, the value of signing up for cryonics the
+same year is \$2797894 (`$~\$2.7*10^6$`) according to this model,
+prolonging the decision until one is 30 reduces this number to \$1666580
+(`$~\$1.6*10^6$`), and waiting until 40, 50 and 60 years yields a value
+of \$982100 (`$~\$9.8*10^5$`), \$559610 (`$~\$5.5*10^5$`) and \$287758
+(`$~\$2.8*10^5$`), respectively.
 
 	.l("nplot")
 
@@ -820,7 +846,7 @@ value of \$2364955 (`$~\$2.3*10^6$`), \$1396009 (`$~\$1.3*10^6$`) and \$800994 (
 
 The values of signing up for cryonics look very similar to the values
 for a 20 year old. Performing the signup immediately at age 40 is worth
-\$6641095 (`$~\$6.6*10^6$`) at age 40 and is the best time to do it.
+\$6590556 (`$~\$6.6*10^6$`) at age 40 and is the best time to do it.
 
 	.l("nplot")
 
@@ -859,20 +885,20 @@ In this model, a very different picture emerges:
 It is still optimal to sign up without hesitation, but now the difference
 is much lower.
 
-	$ lua code/considerations_on_cryonics/cryoyear.lua | sort -n | tail -10
-	6628288.8610297: 29
-	6629539.6363717: 28
-	6630936.064281: 27
-	6631885.0280456: 26
-	6632705.7436404: 25
-	6633626.205509: 24
-	6634443.3347767: 23
-	6635167.6856523: 22
-	6635808.7366981: 21
-	6636375.0: 20
+	$ lua cryoyear.lua 20 50000 0.05 0.6 4500 1 | sort -n | tail -10
+	2785676.2860511: 29
+	2787605.1801168: 28
+	2789611.0731771: 27
+	2791107.7280825: 26
+	2792420.5648782: 25
+	2793783.1701729: 24
+	2794997.5035013: 23
+	2796078.6567918: 22
+	2797040.1939684: 21
+	2797894.3040717: 20
 
-This means that cryocrastination is not that much of a sin with a lot
-of self trust.
+This means that cryocrastination is not that much of a sin even with a
+lot of self trust.
 
 ### The Critic's Scenario
 
@@ -891,19 +917,19 @@ drift. Such a person might propose the following assignment of variables:
 In this case, signing up for cryonics has negative value that converges
 to 0 the older one gets:
 
-	$ lua code/considerations_on_cryonics/cryoyear.lua | sort -n | tail -10
-	-71143.298064999: 69
-	-69325.035618691: 70
-	-67823.632764911: 71
-	-65775.204745266: 72
-	-63608.915373893: 73
-	-61712.099653397: 74
-	-59287.516105891: 75
-	-56737.221602181: 76
-	-54411.347049267: 77
-	-51599.108182402: 78
+	$ lua cryoyear.lua 20 50000 0.01 0.6 50 1 | sort -n | tail -10
+	-80320.313507659: 69
+	-78526.595695932: 70
+	-77042.774290053: 71
+	-75002.570281634: 72
+	-72832.328023689: 73
+	-70916.116822976: 74
+	-68452.980090227: 75
+	-65840.832675399: 76
+	-63425.293847013: 77
+	-60490.80006618: 78
 
-Please note that the following graph should have negative value in the
+Please note that the following graph should have negative values on the
 y-axis. This should get fixed sometime in the future.
 
 	.l("nplot")
@@ -960,7 +986,5 @@ From todo.md:
 		* Personal identity?
 		* If only neuropreservation, where do I get my body from?
 
-Similar model with Guesstimate?
-
-Ah perhaps similar article by Anders Sandberg?
+A perhaps similar article by Anders Sandberg?
 -->

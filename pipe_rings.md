@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-24, modified: 2020-01-21, language: english, status: finished, importance: 4, confidence: possible*
+*author: niplav, created: 2019-04-24, modified: 2020-01-24, language: english, status: finished, importance: 4, confidence: possible*
 
 > __[Pipelines](https://en.wikipedia.org/wiki/Pipeline_(Unix)) are an
 > integral part of the Unix operating system. They come in different
@@ -223,7 +223,7 @@ in the member of a set.
 
 The probability that there exists a hexadecimal string of
 length 32 that is it's own MD5 hash sum is approximately
-`$1-\frac{1}{e}≈63%$` (see [this stackoverflow
+`$1-\frac{1}{e}≈63\%$` (see [this stackoverflow
 question](https://stackoverflow.com/questions/235785/is-there-an-md5-fixed-point-where-md5x-x)).
 
 This can be illustrated easily with a toy example: the set of hexadecimal

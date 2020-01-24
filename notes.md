@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2020-01-21, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2020-01-24, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -589,6 +589,10 @@ other considerations.
 Some Thoughts about the Qualia Research Institute
 -------------------------------------------------
 
+*epistemic status: pure speculation*
+
+### QRI and AGI
+
 Most of the value that QRI creates is going to take place before AGI
 arrives. They seem to believe otherwise<!--Link Johnson here-->, but
 their arguments for this depend on specific philosophical assumptions
@@ -606,21 +610,25 @@ In this case, QRI will take some time to test & develop their theories,
 do outreach and work on technology. This can be modeled by assuming they
 take 20 years to achieve anything (if they in fact achieve anything).
 
+### Technological & Social Success
+
 There are two different axes of achievement: technological and social.
 
-Technological achievements mean that their theories turn out to be correct
-(or they develop new & correct theories) and they manage to develop
-technologies on the basis of these theories. Low technological success
-could mean that they mostly use existing drugs to better treat existing
-conditions and manage to better identify extrem suffering.  Medium
-technological success would include them developing new drugs with a lower
-tolerance threshold<!--TODO: is this correctly phrased?-->, developing a
-correct theory of valence (but finding out that it has limited practical
+Technological achievements mean that their theories turn out to be
+correct (or they develop new & correct theories) and they manage to
+develop technologies on the basis of these theories. Low technological
+success could mean that they mostly use existing drugs to better treat
+existing conditions and manage to better identify extrem suffering (making
+the average affected person's life 2% better).  Medium technological
+success would include them developing new drugs with a lower tolerance
+threshold<!--TODO: is this correctly phrased?-->, developing a correct
+theory of valence (but finding out that it has limited practical
 application), starting to create a structure of mind-state space, and
-being still better at preventing extreme suffering. High technological
-success would include being able to construct hedonium, creating mood
-organs <!--TODO: link--> and identifying most of the dimensions of
-mind-state space.
+being still better at preventing extreme suffering (making the average
+affected person's life 20% better). High technological success would
+include being able to construct hedonium, creating mood organs <!--TODO:
+link--> and identifying most of the dimensions of mind-state space
+(making the average affected person's life twice as good).
 
 Social achievements occur when the public accepts these technological
 developments and incorporates them. Low social acceptance could mean
@@ -634,15 +642,16 @@ widely used among a certain subset of the population (think psychonauts
 today, but a bit more mainstream) (~1 mio. person-years affected). High
 social acceptance would entail people in developed countries having
 direct access to the technologies QRI has developed, up to achieving
-a Pearcean<!--TODO: link--> hedonistic utopia (~1 bio. person-years
+a Pearcean<!--TODO: link--> hedonistic utopia (~100 mio. person-years
 affected).
 
 In the most pessimistic case, complete failure, both axes collapse: No
 social acceptance at all is like the technologies were never developed,
 and a lack of technologies precludes any social acceptance.
 
-Below a matrix with probabilistic guesses of the combinations of these
-scenarios.
+Below a matrix with probabilistic guesses and the expected values (with
+a unit of something roughly like "valence-adjusted human life year")
+of the combinations of these scenarios.
 
 <table>
 <tbody>
@@ -656,7 +665,7 @@ scenarios.
 	</tr>
 	<tr>
 		<td>No social success</td>
-		<td>64%</td>
+		<td>63.7%<br>0</td>
 		<td>-</td>
 		<td>-</td>
 		<td>-</td>
@@ -665,37 +674,40 @@ scenarios.
 	<tr>
 		<td>Low social success</td>
 		<td>-</td>
-		<td>9%</td>
-		<td>6%</td>
-		<td>3%</td>
-		<td>30%</td>
+		<td>17.5%<br>3.5</td>
+		<td>7.5%<br>15</td>
+		<td>2.5%<br>50</td>
+		<td>50%</td>
 	</tr>
 	<tr>
 		<td>Medium social success</td>
 		<td>-</td>
-		<td>6%</td>
-		<td>4%</td>
-		<td>2%</td>
-		<td>20%</td>
+		<td>5.25%<br>1050</td>
+		<td>2.25%<br>4500</td>
+		<td>0.75%<br>15000</td>
+		<td>15%</td>
 	</tr>
 	<tr>
 		<td>High social success</td>
 		<td>-</td>
-		<td>3%</td>
-		<td>2%</td>
+		<td>0.35%<br>7000</td>
+		<td>0.15%<br>30000</td>
+		<td>0.05%<br>100000</td>
 		<td>1%</td>
-		<td>10%</td>
 	</tr>
 	<tr>
 		<td></td>
 		<td>-</td>
-		<td>30%</td>
-		<td>20%</td>
-		<td>10%</td>
+		<td>35%</td>
+		<td>15%</td>
+		<td>5%</td>
 		<td></td>
 	</tr>
 </tbody>
 </table>
 
-<!--TODO: attempt value calculation-->
+The overall value of QRI would then be
+`$3.5+15+50+1050+4500+15000+7000+30000+100000=157618.5$` valence adjusted
+human life years.
+
 <!--TODO: write down some possible downsides-->
