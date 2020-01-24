@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-23, modified: 2019-12-23, language: english, german, status: in progress, importance: 1, confidence: fiction*
+*author: niplav, created: 2019-08-23, modified: 2020-01-24, language: english, german, status: in progress, importance: 1, confidence: fiction*
 
 > __Haikus that seemed okay enough to write down.__
 
@@ -38,10 +38,10 @@ Splines are weird and nice
 Where get differentiation?  
 Just increase your m  
 
-In jazz scattering
-Forward, backward, to the side
+In jazz scattering  
+Forward, backward, to the side  
 confusion entails
 
-Please turn off the lights!
-Very high costs arise, when
+Please turn off the lights!  
+Very high costs arise, when  
 The light is on. Thanks.

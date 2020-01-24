@@ -1,7 +1,7 @@
 .l("math")
 .l("nstat")
 
-hourval::5
+oppcost::5
 prostcost::250
 prideval::500
 datecost::40
@@ -30,4 +30,4 @@ mentalcost::{(10000*(ln.pdf((x*0.005)+0.5;1;1)))-1900}
 
 :"mentalcost::{-(200*ln((x+100)*0.01))-200}"
 
-cost::{(hourval*x%apprperhour)+mentalcost(x)+(dateratio(x)*datecost*avgdates)+dateratio(x)*datelen*avgdates*hourval}
+cost::{(oppcost*x%apprperhour)+mentalcost(x)+(dateratio(x)*datecost*avgdates)+dateratio(x)*datelen*avgdates*oppcost}

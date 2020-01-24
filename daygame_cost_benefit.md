@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2019-01-14, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2019-01-24, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I present a point-estimate
 > cost-benefit value estimation written in Klong and find that daygame
@@ -74,6 +74,35 @@ learning a language or musical instrument), mental strain from approach
 anxiety, and simply the cost of paying for dates.
 
 ### Approaching Opportunity Cost
+
+It seems like<!--TODO: [citation needed]--> most daygamers do around 4
+approaches an hour, so 15 minutes for one approach.
+
+The opportunity cost<!--TODO: wiki--> of daygame is unclear – what would
+one be doing instead? One could dream of daygamers instead cultivating
+friendships, learning languages or instruments and meditating, and while
+that could certainly sometimes be the case, a lot of that time would also
+be spent on mindlessly browsing the internet, watching series or doing
+other things that aren't terribly fulfilling or valuable. Economists
+often assume that the opportunity cost of an activity to be the money
+one could have earned with a minimum wage job during that time<!--TODO:
+[citation needed]-->, but that seems to go too far: an additional hour
+spent working might be net negative, even with taking wage into account
+(working hours have diminishing and at some point negative marginal
+returns<!--TODO: link--> because of exhaustion).
+
+<!--TODO: minimum wage in different western countries-->
+
+And daygame is generally an activity with comparatively much value:
+one spends time outside, moving around and interacting with other people.
+
+I will tentatively set the opportunity cost of an hour of daygame to \$5,
+but would be interested in further input:
+
+	oppcost::5
+
+Daygamers who could earn more with their day job might want to adjust
+this number up.
 
 ### Dating Opportunity Cost
 

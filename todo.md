@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-01-21, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-01-24, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -236,25 +236,36 @@ Texts
 	* Read
 		* /usr/local/doc/unread/notation/notation_as_a_tool_of_thought_iverson_1986.pdf
 
-### Other
-
-* Coding Standards
-	* General Project Setup
-	* C
-	* Shell Scripting
-
 ### Notes
 
 * Be Liberal in what you Accept, but Conservative in what you Emit
 * Believing Something Doesn't Mean You to Tell it to Everyone
 * You Actually Don't Need to Convice Idiots
+* Hug the Objective
 
 ### Misc
 
+* Coding Standards
+	* General Project Setup
+	* C
+	* Shell Scripting
 * Mistakes
 * Open Questions
-* Fundamentals
 * Good Ideas
+	* Some ideas I've read about & found good
+	* Prediction markets (https://en.wikipedia.org/wiki/Prediction_market)
+	*	Besides stdin, stdout and stderr, add usrin and usrout as
+		standard unix files: latter is for confirming decisions,
+		status bars etc. I read this proposal a few years back,
+		but can't find it again.
+	*	Programming languages without operator precedence:
+		APL/K/J. Why? One less detail to keep in mind, structured
+		data flow. Downside: Inconsistency with mathematics,
+		not relevant in languages with little use of operators.
+	*	Status tags ({prototype, in progress, maintenance,
+		finished, hiatus, abandoned}) for open source projects.
+	* Mental tool: How would you solve this if you had a hypercomputer?
+* Fundamentals
 
 > we should be far more explicit about the assumed background against
 > which we intend to communicate.
@@ -431,8 +442,8 @@ Programming
 		* Superscript n	ⁿ	^n
 	*	daemon that catches such digraphs and emulates them as
 		if they were typed, using vis-digraph
-* 	mtfs: plan9 file server for a file that returns the current
-	metric time on read
+* mtfs
+	* plan9 file server for a file that returns the current metric time on read
 * libbruch
 	* rational numbers with libzahl
 	* some functions:
