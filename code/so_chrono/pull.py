@@ -1,10 +1,11 @@
 import urllib2
 from bs4 import BeautifulSoup
 import sys
+import datetime
 
 author='Scott Aaronson'
 
-for year in range(2005, 2020):
+for year in range(2005, datetime.datetime.now().year+1):
 	yearposts=[]
 	for page in range(1, 100):
 		url='https://www.scottaaronson.com/blog/?m={}1&paged={}'.format(year, page)

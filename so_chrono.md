@@ -12,7 +12,7 @@
 Shtetl Optimized Posts Chronological Index
 ==========================================
 
-This index currently lists 743 posts from 2006-11-20 until 2019-12-28.
+This index currently lists 746 posts from 2006-11-20 until 2019-12-28.
 
 Archives
 --------
@@ -805,6 +805,12 @@ Archives
 * [NIPS vs. NeurIPS: guest post by Steven Pinker](https://www.scottaaronson.com/blog/?p=4476) (Scott Aaronson, Monday, December 23rd, 2019)
 * [Quantum computing motte-and-baileys](https://www.scottaaronson.com/blog/?p=4447) (Scott Aaronson, Saturday, December 28th, 2019)
 
+### 2020
+
+* [MIP*=RE](https://www.scottaaronson.com/blog/?p=4512) (Scott Aaronson, Tuesday, January 14th, 2020)
+* [An alternative argument for why women leave STEM: Guest post by Karen Morenz](https://www.scottaaronson.com/blog/?p=4522) (Scott Aaronson, Thursday, January 16th, 2020)
+* [From shtetl to Forum](https://www.scottaaronson.com/blog/?p=4536) (Scott Aaronson, Saturday, January 18th, 2020)
+
 Code
 ----
 
@@ -815,10 +821,11 @@ The site was scraped using Python 2 with the libraries
 	import urllib2
 	from bs4 import BeautifulSoup
 	import sys
+	import datetime
 
 	author='Scott Aaronson'
 
-	for year in range(2005, 2020):
+	for year in range(2005, datetime.datetime.now().year+1):
 		yearposts=[]
 		for page in range(1, 100):
 			url='https://www.scottaaronson.com/blog/?m={}1&paged={}'.format(year, page)
