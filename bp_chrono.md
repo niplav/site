@@ -12,7 +12,7 @@
 Bit-Player Posts Chronological Index
 =====================================
 
-This index currently contains 373 posts from 2006-01-09 to 2019-09-27.
+This index currently contains 374 posts from 2006-01-09 to 2019-09-27.
 
 Archives
 --------
@@ -432,6 +432,10 @@ Archives
 * [737: The MAX Mess](http://bit-player.org/2019/737-the-max-mess) (Brian Hayes, 8 April 2019)
 * [My God, It’s Full of Dots!](http://bit-player.org/2019/my-god-its-full-of-dots) (Brian Hayes, 27 September 2019)
 
+### 2020
+
+* [The Teetering Towers of Abstraction](http://bit-player.org/2020/the-teetering-towers-of-abstraction) (Brian Hayes, 13 January 2020)
+
 Code
 ----
 
@@ -442,8 +446,9 @@ The site was scraped using Python 2 with the libraries
 	import urllib2
 	from bs4 import BeautifulSoup
 	import sys
+	import datetime
 
-	for year in range(2006, 2020):
+	for year in range(2006, datetime.datetime.now().year+1):
 		yearposts=[]
 		for page in range(1, 1000):
 			url='http://bit-player.org/{}/page/{}'.format(year, page)

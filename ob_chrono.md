@@ -14,7 +14,7 @@
 Overcoming Bias Posts Chronological Index
 =========================================
 
-This index currently lists 4087 posts from 2006-11-20 until 2019-12-24.
+This index currently lists 4094 posts from 2006-11-20 until 2019-12-24.
 
 Archives
 --------
@@ -4148,6 +4148,16 @@ Archives
 * [Injustice For All](http://www.overcomingbias.com/2019/12/injustice-for-all.html) (Robin Hanson, December 22, 2019 8:40 pm)
 * [Governance By Jury](http://www.overcomingbias.com/2019/12/governance-by-jury.html) (Robin Hanson, December 24, 2019 11:30 am)
 
+### 2020
+
+* [Stubborn Stupidity Vs Hidden Motives](http://www.overcomingbias.com/2020/01/stubborn-stupidity-vs-hidden-motives.html) (Robin Hanson, January 3, 2020 12:00 pm)
+* [Disagreement on Disagreement](http://www.overcomingbias.com/2020/01/disagree-resolver-variety.html) (Robin Hanson, January 4, 2020 11:40 pm)
+* [How Bees Argue](http://www.overcomingbias.com/2020/01/how-bees-argue.html) (Robin Hanson, January 7, 2020 4:45 pm)
+* [Radical Signals](http://www.overcomingbias.com/2020/01/radical-signals.html) (Robin Hanson, January 9, 2020 10:30 am)
+* [Rah Chain of Command](http://www.overcomingbias.com/2020/01/rah-chain-of-command.html) (Robin Hanson, January 9, 2020 8:40 pm)
+* [Crazy Complaints](http://www.overcomingbias.com/2020/01/crazy-complaints.html) (Robin Hanson, January 21, 2020 8:00 pm)
+* [How To Not Die (Soon)](http://www.overcomingbias.com/2020/01/how-to-not-die-soon.html) (Robin Hanson, January 22, 2020 9:20 am)
+
 Code
 ----
 
@@ -4158,8 +4168,9 @@ The site was scraped using Python 2 with the libraries
 	import urllib2
 	from bs4 import BeautifulSoup
 	import sys
+	import datetime
 
-	for year in range(2006, 2020):
+	for year in range(2006, datetime.datetime.now().year+1):
 		yearposts=[]
 		for page in range(1, 1000):
 			url='http://www.overcomingbias.com/{}/page/{}'.format(year, page)

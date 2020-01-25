@@ -11,7 +11,7 @@
 The Real Movement Posts Chronological Index
 ===========================================
 
-This index currently lists 662 posts from 2013-05-20 to 2019-12-18.
+This index currently lists 663 posts from 2013-05-20 to 2019-12-18.
 
 Archives
 --------
@@ -700,6 +700,10 @@ Archives
 * [Speculative presence – 10](https://therealmovement.wordpress.com/2019/12/10/speculative-presence-10/) (Jehu, December 10, 2019)
 * [Speculative presence – 11](https://therealmovement.wordpress.com/2019/12/18/speculative-presence-11/) (Jehu, December 18, 2019)
 
+### 2020
+
+* [What’s wrong with this statement?](https://therealmovement.wordpress.com/2020/01/24/whats-wrong-with-this-statement/) (Jehu, January 24, 2020)
+
 Code
 ----
 
@@ -710,8 +714,9 @@ The site was scraped using Python 2 with the libraries
 	import urllib2
 	from bs4 import BeautifulSoup
 	import sys
+	import datetime
 
-	for year in range(2013, 2020):
+	for year in range(2013, datetime.datetime.now().year+1):
 		yearposts=[]
 		for page in range(1, 1000):
 			url='https://therealmovement.wordpress.com/{}/page/{}'.format(year, page)

@@ -1,8 +1,9 @@
 import urllib2
 from bs4 import BeautifulSoup
 import sys
+import datetime
 
-for year in range(2006, 2020):
+for year in range(2006, datetime.datetime.now().year+1):
 	yearposts=[]
 	for page in range(1, 1000):
 		url='http://bit-player.org/{}/page/{}'.format(year, page)
