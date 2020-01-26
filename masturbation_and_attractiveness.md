@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2019-12-29, language: english, status: draft, importance: 5, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2020-01-26, language: english, status: draft, importance: 5, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -302,12 +302,12 @@ claims made by members of the NoFap community.
 Method
 ------
 
-To test the claims by the NoFap community, I performed a small
-self-experiment.
-
 Relevant information about me: I am a male living in a european country,
 my age being in the early twenties. I seem to fall into the same
 demographic as most members of the NoFap community.
+
+To test the claims by the NoFap community, I performed a small
+self-experiment.
 
 Data was collected as follows:
 
@@ -763,6 +763,17 @@ person & misgendering them (N=400).
 
 ### Different Settings, Clothing & Weather
 
+A possible objection could be that the clothes I wore might have been
+different in the approaching periods during & after the abstinence from
+masturbation. To counter such effects, I wore the same clothes in the two
+approaching periods (washing them in between, of course). If I had changed
+my clothes from one day to the other, I tried changing my clothes the same
+way in the second approaching period (for a similar number of approaches).
+
+Influences from weather were harder to control. During the first
+approaching session the weather was \_. During the second approaching
+session the weather was \_.
+
 ### Strawman of the Views of the NoFap Community
 
 Some people might claim that the view "masturbation increases physical
@@ -838,6 +849,8 @@ As a pre-registration, I subjectively assign a probability of 60% to the
 *Neutral Stance* being correct, a probability of 17% to the *Weak NoFap
 Stance* being correct, a 8% probability to the *Strong NoFap Stance*,
 and 15% to any other result.
+
+<!--TODO: pre-register on predictionbook-->
 
 ### Reasoning
 
@@ -922,8 +935,55 @@ Since I don't perform any analysis on it, that should be fine.
 
 ### Testing the Sensitivity
 
+To test whether my implementation of Student's t-test was correct, I
+first checked the hypothesis with the dummy data with the probabilities in
+the code above (where abstinence from masturbation has no effect at all):
+
+	$ kg -l ./load.kg
+		.fc(.ic("../../data/masturbation_attractiveness_dummy_even.csv"));data::csv.load()
+		data::{["" 1 "" 1]:$'x}'4_data
+		data::{1_x}'data
+		duringf::{*|x}'flr({(1=*x)&("f"=x@1)};data)
+		afterf::{*|x}'flr({(0=*x)&("f"=x@1)};data)
+		tstt(duringf;afterf;0.05)
+	μ_X≤μ_Y accepted (p≤0.05)
+	μ_X=μ_Y accepted (p≤0.05)
+	μ_X≥μ_Y accepted (p≤0.05)
+	"μ_X≥μ_Y accepted (p≤0.05)"
+
+I then first changed the probabilities in the dummy data generation
+script slightly (reducing the probability of failure in each step by
+only a few percentage points):
+
+	fdur::[0.13 0.21 0.29 0.88 0.9]
+	mdur::[0.15 0.25 0.35 0.9 0.95]
+	faft::[0.15 0.25 0.35 0.9 0.95]
+	maft::[0.15 0.25 0.35 0.9 0.95]
+
+I then generated the dummy data:
+
+	$ kg ./code/masturbation_and_attractiveness/gen_dummy.kg >>data/masturbation_attractiveness_dummy_fadv.csv
+
+and tested the hypothesis again:
+
+	$ kg -l ./load.kg
+		.fc(.ic("../../data/masturbation_attractiveness_dummy_fadv.csv"));data::csv.load()
+		data::{["" 1 "" 1]:$'x}'4_data
+		data::{1_x}'data
+		duringf::{*|x}'flr({(1=*x)&("f"=x@1)};data)
+		afterf::{*|x}'flr({(0=*x)&("f"=x@1)};data)
+		tstt(duringf;afterf;0.05)
+	μ_X≤μ_Y rejected (p≤0.05)
+	μ_X=μ_Y accepted (p≤0.05)
+	μ_X≥μ_Y accepted (p≤0.05)
+	"μ_X≥μ_Y accepted (p≤0.05)"
+
+As one can see, this already leads to H₀ being rejected.
+
+<!--
 Appendix C: Further Hypotheses
 ------------------------------
+-->
 
 <!--
 TODO: read

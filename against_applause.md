@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-09-26, language: english, status: finished, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-04-11, modified: 2020-01-26, language: english, status: finished, importance: 4, confidence: unlikely*
 
 > __In western cultures, it is nearly universal for people to clap
 > before and after pieces of classical music and jazz. An argument
@@ -244,7 +244,7 @@ and perhaps contributes to the continued culture around classical music.
 
 If applause were to be abolished, it could be that a similar display
 couldn't be found before this cohesion breaks up and classical music
-falls into obvlivion. While this may seem like an unrealistically drastic
+falls into obvlivion. While this may seem like an unrealistically extreme
 scenario, there are a myriad of similar possibilities lurking behind
 drastic changes to the concert experience.
 

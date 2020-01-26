@@ -31,3 +31,5 @@ mentalcost::{(10000*(ln.pdf((x*0.005)+0.5;1;1)))-1900}
 :"mentalcost::{-(200*ln((x+100)*0.01))-200}"
 
 cost::{(oppcost*x%apprperhour)+mentalcost(x)+(dateratio(x)*datecost*avgdates)+dateratio(x)*datelen*avgdates*oppcost}
+
+:"vals::{benefit(x)-cost(x)}'!10000"

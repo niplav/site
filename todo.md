@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-01-24, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-01-26, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -150,6 +150,11 @@ Texts
 * Long-range vs. short-range forecasts from Predictionbook & Metaculus
 	* Analyse the brier scores of predictions from those sites
 	* Find out how the accuracy declines over time
+* Precommit to Enlightenment
+	*	precommit to performing the steps from TMI & MCTB2 for
+		4000 hours over 10 years (~1h10m every day on average),
+		then report back what the effects were
+	* frame as experiment (is that actually legit?)
 
 ### Ideas
 
@@ -471,8 +476,8 @@ Programming
 	*	no input for more than half a second/a second shows a suggestion
 	        of the last command beginning with the current line.
 	* ideas for speeding it up:
-	        * use `char**` for storing each history and words
-	        * benchmark and optimise, of course
+		* use `char**` for storing each history and words
+		* benchmark and optimise, of course
 * pandeck
 	* convert files from different spaced repetition softwares into another
 		* fulgurate .crd
@@ -538,7 +543,7 @@ Programming
 * nest
 	* program dealing with nested data structures
 	* similar to lisp, but without execution
-	* am I nihing this?
+	* am I NIHing this?
 
 ### Klong Libraries
 

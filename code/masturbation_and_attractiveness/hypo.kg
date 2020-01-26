@@ -17,19 +17,6 @@ alpha::0.05
 
 :[(#z)<qf(1-alpha%2);.p("p₀=0.05 accepted");.p("p₀=0.05 rejected")]
 
-:"example: two sample t-test"
-:"since n≥30, Student's t-distribution is approximated with a normal distribution"
-:"H₀: μ_{during}=μ_{after}"
-:"test with both α≤0.05 and α≤0.01"
-
-:"Two sample-set t-test"
-:"x=data1, y=data2, z=p-value"
-
-tstt::{t::sqr(((#y)+(#x)-2)%(%#x)+%#y)*(mu(x)-mu(y))%sqr((((#x)-1)*svar(x))+((#y)-1)*svar(y));
-:[t>qf(1-z);.p("μ_X≤μ_Y rejected (p≤",($z),")");.p("μ_X≤μ_Y accepted (p≤",($z),")")];
-:[(#t)>qf(1-z%2);.p("μ_X=μ_Y rejected (p≤",($z),")");.p("μ_X=μ_Y accepted (p≤",($z),")")];
-:[t<qf(z);.p("μ_X≥μ_Y rejected (p≤",($z),")");.p("μ_X≥μ_Y accepted (p≤",($z),")")]}
-
 .p("
 X=during, Y=after
 ")

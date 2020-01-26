@@ -1,21 +1,85 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2019-01-24, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2019-01-26, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I present a point-estimate
 > cost-benefit value estimation written in Klong and find that daygame
-> is probably worth ~\$2500 maximum, at ~2000 approaches, though the
-> number varies under different assumptions. I then perform a Monte-Carlo
-> estimation to determine the uncertainty around the expected value and
-> find that _.__
+> is probably worth ~\$5000 maximum, at ~2500 approaches, though the
+> number varies strongly under different assumptions. I then perform a
+> Monte-Carlo estimation to determine the uncertainty around the expected
+> value and find that _.__
 
 Daygame Cost-Benefit Analysis
 =============================
 
 <!--How to hyphenate the title?-->
 
-<!--Stats:
+<!--TODO: different diminishing returns in code, make all
+logarithmic/radical/hyperbolic?-->
+
+<!--
+Other analysis:
+https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/
+-->
+
+<!--
+> Daygame is the art of meeting and attracting women during the daytime
+> in different locations and at different times of the day.
+
+Source: https://www.globalseducer.com/daygame/
+-->
+
+Ratios
+------
+
+In daygame-lingo, the word "ratio" usually refers to the ratio between
+approaches and contact information (such as phone numbers)/dates/women
+slept with (colloquially "lays"). In this text, I'm interested inthe
+approach-to-date ratio and the approach-to-lay ratio.
+
+I remember a Tom Torero video where he recounts these ratios for
+beginners, but it seems to have been hidden since then<!--TODO: link video
+and maybe ask for resurrection-->. The numbers for the approach-to-lay ratios
+were 1 in 100 for beginners, 1 in 50 for intermediate daygamers and 1 in
+30 for experts. I will assume that this is comparatively over-optimistic,
+and assume that the date-to-lay ratio starts at 1 in 200, and then
+converges towards 1 in 50 on the scale of thousands of approaches:
+
+	ratiobegin::0.005
+	ratioexp::0.02
+	ratio::{ratiobegin+(ratioexp-ratiobegin)*(1-500%x+500)}
+
+These numbers are of course heavily dependant on all kinds of factors:
+attractiveness, speed of learning, effort exerted in daygame, logistics
+and much much more.
+
+I will also assume that one in three dates leads to a lay:
+
+	dateratio::{3*ratio(x)}
+
+Visualizing this shows the following:
+
+	.l("./load.kg")
+
+	.l("nplot")
+
+	grid([0 10000 1000];[0 0.07 0.002])
+	xtitle("Approaches")
+	ytitle("Cumulative ratios")
+
+	plot(ratio)
+	text(250;60;"Approach-to-lay ratio")
+
+	setrgb(0;0;1)
+	plot(dateratio)
+	text(200;250;"Approach-to-date ratio")
+
+	draw()
+
+![The date & lay ratios over thousands of approaches](./img/daygame_cost_benefit/ratio.png "The date & lay ratios over thousands of approaches")
+
+<!--TODO: integrate data from here:
 Roy Walker:
 
 [2019](https://roywalkerdaygame.wordpress.com/2020/01/07/2019-the-year-of-meh/)
@@ -52,16 +116,6 @@ More stats:
 https://tddaygame.com/daygame-stats-blatant-lies/
 https://project-tusk.com/blogs/the-tusk-diaries/realistic-daygame-statistics
 https://daygamersbible.wordpress.com/2018/05/23/daygame-statistics-and-what-they-tell-your-daygame/
-
-Other analysis:
-https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/
--->
-
-<!--
-> Daygame is the art of meeting and attracting women during the daytime
-> in different locations and at different times of the day.
-
-Source: https://www.globalseducer.com/daygame/
 -->
 
 Cost
@@ -104,9 +158,9 @@ but would be interested in further input:
 Daygamers who could earn more with their day job might want to adjust
 this number up.
 
-### Dating Opportunity Cost
-
 ### Mental Cost (or Benefit?)
+
+### Dating Opportunity Cost
 
 ### Paying for Dates
 
@@ -135,3 +189,8 @@ cumulative dollar value of these approaches:
 
 Appendix A: A Guesstimate Model of the Value
 --------------------------------------------
+
+<!--
+Appendix B: Empirically Checking the Assumtpions
+------------------------------------------------
+-->
