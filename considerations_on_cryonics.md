@@ -1,15 +1,16 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-01-24, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-01-28, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)?
 > [Betteridge's law of
 > headlines](https://en.wikipedia.org/wiki/Betteridge's_law_of_headlines)
-> only applies partially here: Yes, it is probably worth it, and no,
-> cryocrastination is usually irrational. A cost-benefit analysis written
-> in Lua.__
+> only applies partially here: Yes, it is probably worth it (under
+> plausible assumptions \$1 mio. for a 20 year old, and more for older
+> people), and no, cryocrastination is usually irrational. A cost-benefit
+> analysis written in Lua.__
 
 Considerations on Cryonics
 ==========================

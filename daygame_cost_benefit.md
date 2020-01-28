@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2019-01-26, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2019-01-28, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I present a point-estimate
 > cost-benefit value estimation written in Klong and find that daygame
@@ -19,16 +19,52 @@ Daygame Cost-Benefit Analysis
 logarithmic/radical/hyperbolic?-->
 
 <!--
-Other analysis:
-https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/
--->
-
-<!--
 > Daygame is the art of meeting and attracting women during the daytime
 > in different locations and at different times of the day.
 
 Source: https://www.globalseducer.com/daygame/
 -->
+
+Similar Analyses
+----------------
+
+One such already existing cost analysis of game is [Free Northerner
+2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/
+"Economic Analysis of Casual Sex – Prostitution vs Game"), he focuses
+on nightgame in bars and clubs and concludes that
+
+> Cost for Sex [from prostitution]: $300  
+> Cost for sex [from game]: $460 ($200 is you enjoy clubbing, gaming,
+> and dating for their own sake)  
+> […]  
+> For casual sex, a mid-range prostitute is cheaper than game.
+> On the other hand, most of game’s costs are in the form of time
+> opportunity costs, so if you have a lot of free time and little money
+> or you enjoy the activities of clubbing, game, or dating  even without
+> the promise of sex, then game might be a better deal.
+> In addition, the higher your average wage, the more expensive game
+> becomes relative to prostitution, as the opportunity costs of game
+> increase the more potential earning you sacrifice.
+> Conclusion: For obtaining casual sex, game is the better option if you
+> are paid low wages and have free time or if you enjoy game and related
+> activities. Prostitution is the better option if you are middle-class,
+> don’t have the free time, or dislike engaging in game.
+
+*– [Free Northerner](https://freenortherner.wordpress.com/), [“Economic Analysis of Casual Sex – Prostitution vs Game”](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/), 2012*
+
+(Inconsistent capitalization is in the original text)
+
+However, his analysis doesn't take daygame into account (he mentions
+it at the end). Daygame seems to me to be a much better option (not
+just for people who don't like nightclubs): it's healthy due to moving
+around a lot outside, getting drunk is mostly not an option, it doesn't
+mess up the sleep schedule, one doesn't have to pay to get into clubs,
+and can be combined with sightseeing in foreign cities.
+
+He also doesn't consider positive side-effects from game (such as
+increased confidence), negative side-effects from prostitution (such as
+addiction<!--TODO: link to prostitution addiction-->), and diminishing
+returns in his analysis.
 
 Ratios
 ------
@@ -39,12 +75,14 @@ slept with (colloquially "lays"). In this text, I'm interested inthe
 approach-to-date ratio and the approach-to-lay ratio.
 
 I remember a Tom Torero video where he recounts these ratios for
-beginners, but it seems to have been hidden since then<!--TODO: link video
-and maybe ask for resurrection-->. The numbers for the approach-to-lay ratios
-were 1 in 100 for beginners, 1 in 50 for intermediate daygamers and 1 in
-30 for experts. I will assume that this is comparatively over-optimistic,
-and assume that the date-to-lay ratio starts at 1 in 200, and then
-converges towards 1 in 50 on the scale of thousands of approaches:
+beginners, but it seems to have been hidden since then (the [internet
+archive version](https://web.archive.org/watch?v=DgLBWej72is) is also
+not complete, if you have a copy, I'd be glad to pay a small amount
+for it). The numbers for the approach-to-lay ratios were 1 in 100 for
+beginners, 1 in 50 for intermediate daygamers and 1 in 30 for experts. I
+will assume that this is comparatively over-optimistic, and assume that
+the date-to-lay ratio starts at 1 in 200, and then converges towards 1
+in 50 on the scale of thousands of approaches:
 
 	ratiobegin::0.005
 	ratioexp::0.02
@@ -105,6 +143,12 @@ Thomas Crown:
 [2018](https://thomascrownpua.wordpress.com/2018-statistics/)
 [2016/2017](https://thomascrownpua.wordpress.com/2016-17/)
 
+Krauser:
+
+[2015](https://krauserpua.com/2016/01/02/my-2015-daygame-stats/)
+[2014](https://krauserpua.com/2015/01/03/my-2014-daygame-stats/)
+[2013](https://krauserpua.com/2014/01/01/my-2013-daygame-stats/)
+
 Runner:
 
 [2019](http://daygamenyc.com/2020/01/01/im-now-an-intermediate-level-daygamer/)
@@ -149,6 +193,10 @@ returns<!--TODO: link--> because of exhaustion).
 
 And daygame is generally an activity with comparatively much value:
 one spends time outside, moving around and interacting with other people.
+
+On the other hand, it may be that daygame only replaces "productive time",
+that the energy exerted in daygame misses in other productive activities,
+while the amount spent on downtime & unfulfilling stuff stays constant.
 
 I will tentatively set the opportunity cost of an hour of daygame to \$5,
 but would be interested in further input:

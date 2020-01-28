@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2020-01-26, language: english, status: draft, importance: 5, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2020-01-28, language: english, status: draft, importance: 5, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -812,6 +812,8 @@ experiments, I didn't do them for several reasons:
 Conclusion
 ----------
 
+This experiment shows that \_. So we can conclude that \_.
+
 Appendix A: Preregistration
 ---------------------------
 
@@ -951,6 +953,9 @@ the code above (where abstinence from masturbation has no effect at all):
 	μ_X≥μ_Y accepted (p≤0.05)
 	"μ_X≥μ_Y accepted (p≤0.05)"
 
+The data can be found
+[here](./data/masturbation_attractiveness_dummy_even.csv).
+
 I then first changed the probabilities in the dummy data generation
 script slightly (reducing the probability of failure in each step by
 only a few percentage points):
@@ -979,6 +984,9 @@ and tested the hypothesis again:
 	"μ_X≥μ_Y accepted (p≤0.05)"
 
 As one can see, this already leads to H₀ being rejected.
+
+The data can be found
+[here](./data/masturbation_attractiveness_dummy_fadv.csv).
 
 <!--
 Appendix C: Further Hypotheses
