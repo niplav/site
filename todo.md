@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-01-28, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-01-29, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -258,7 +258,24 @@ Texts
 * Open Questions
 * Good Ideas
 	* Some ideas I've read about & found good
-	* Prediction markets (https://en.wikipedia.org/wiki/Prediction_market)
+	* Forecasting
+		* Track records
+		* Prediction platforms
+		* Prediction markets (https://en.wikipedia.org/wiki/Prediction_market)
+		* Decision markets
+		* Futarchy
+	* Voting methods
+		* Approval voting
+		* Maybe quadratic voting, although I haven't looked into it too much
+	* Taxes
+		* Pigovian taxes instead of strict rules on damaging public goods
+			* How computationally tractable are these?
+			* Which computational complexity?
+		* Harburger taxes (COST)
+			* The thing Glen Weyl is talking about
+	* Sokalling
+		* Look up tweet by David Chapman
+		* Adversarial submitting of fraudulent papers to journals
 	*	Besides stdin, stdout and stderr, add usrin and usrout as
 		standard unix files: latter is for confirming decisions,
 		status bars etc. I read this proposal a few years back,
@@ -270,6 +287,8 @@ Texts
 	*	Status tags ({prototype, in progress, maintenance,
 		finished, hiatus, abandoned}) for open source projects.
 	* Mental tool: How would you solve this if you had a hypercomputer?
+	* Cryonics
+	* Daygame
 * Fundamentals
 
 > we should be far more explicit about the assumed background against
