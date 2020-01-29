@@ -16,7 +16,11 @@ firstlayval::prostcost+prideval
 ratio::{ratiobegin+(ratioexp-ratiobegin)*(1-500%x+500)}
 dateratio::{3*ratiobegin+(ratioexp-ratiobegin)*(1-500%x+500)}
 
+mental::{(10000*(ln.pdf((x*0.005)+0.5;1;1)))-1900}
+
 layvals::{firstlayval*sqr(ratio(x)*x)}
-benefit::{layvals(x)}
+benefit::{layvals(x)+flowthrough(x)+mental(x)}
+
+flowthrough::{250*ln((x+10)*0.1)}
 
 cost::{(oppcost*x%apprperhour)+(dateratio(x)*datecost*avgdates)+dateratio(x)*datelen*avgdates*oppcost}

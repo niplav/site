@@ -1,0 +1,3 @@
+.l("./load.kg")
+
+vals::{benefit(x)-cost(x)}'!10000

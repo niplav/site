@@ -1,9 +1,9 @@
-.l("./load.kg")
+.l("./load_complex.kg")
 
 .l("nplot")
 
 grid([0 2000 200];[-2000 600 200])
 xtitle("Approaches")
 ytitle("Cumulative mental cost in dollar")
-plot(mentalcost)
+plot(mental)
 draw()

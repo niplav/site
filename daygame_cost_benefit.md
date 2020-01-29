@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2019-01-28, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2019-01-29, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I present a point-estimate
 > cost-benefit value estimation written in Klong and find that daygame
@@ -9,6 +9,81 @@
 > number varies strongly under different assumptions. I then perform a
 > Monte-Carlo estimation to determine the uncertainty around the expected
 > value and find that _.__
+
+<!--TODO: integrate data from here:
+Roy Walker:
+
+[Before 2016](https://roywalkerdaygame.wordpress.com/2016/08/07/the-journey-two-years-in/)
+[2016](https://roywalkerdaygame.wordpress.com/2017/01/02/2016-the-year-of-1000-sets/)
+	[March](https://roywalkerdaygame.wordpress.com/2016/04/02/march-review/)
+	[April](https://roywalkerdaygame.wordpress.com/2016/05/02/april-review/)
+	[May](https://roywalkerdaygame.wordpress.com/2016/06/02/may-review/)
+	[June](https://roywalkerdaygame.wordpress.com/2016/07/03/june-review/)
+	[September](https://roywalkerdaygame.wordpress.com/2016/10/01/herpescelling/)
+	[November](https://roywalkerdaygame.wordpress.com/2016/12/02/nonotchvember/)
+[2017](https://roywalkerdaygame.wordpress.com/2018/01/06/2017-the-year-of-ups-and-downs/)
+	[January](https://roywalkerdaygame.wordpress.com/2017/02/04/keep-er-lit/)
+	[February](https://roywalkerdaygame.wordpress.com/2017/02/27/enjoy-the-process/)
+	[March](https://roywalkerdaygame.wordpress.com/2017/04/09/is-daygame-getting-harder-in-london/)
+	[April](https://roywalkerdaygame.wordpress.com/2017/05/15/update-a-month-on-the-road/) (?)
+	[July-September](https://roywalkerdaygame.wordpress.com/2017/10/09/game-over/)
+[2018](https://roywalkerdaygame.wordpress.com/2019/01/09/2018-a-year-of-change/)
+[2019](https://roywalkerdaygame.wordpress.com/2020/01/07/2019-the-year-of-meh/)
+	[January](https://roywalkerdaygame.wordpress.com/2019/02/19/ketchup-in-glass-bottles/)
+[4000 sets](https://twitter.com/RoyWalkerPUA/status/1183757732551282690)
+
+Seven:
+
+[2016](https://sevendaygame.wordpress.com/2017/01/21/dec-2016-report-2016-review-and-kicking-off-2017/) (July to December)
+	[July](https://sevendaygame.wordpress.com/2016/10/03/a-year-of-daygame-in-tallinn-estonia-aug-2015-to-aug-216/) (?)
+	[August](https://sevendaygame.wordpress.com/2016/09/08/august-2016-daygame-stats/)
+	[September](https://sevendaygame.wordpress.com/2016/10/12/september-2016-daygame-report/)
+	[October](https://sevendaygame.wordpress.com/2016/11/06/october-2016-daygame-report/)
+	[November](https://sevendaygame.wordpress.com/2016/12/12/november-2016-daygame-report/)
+[2017](https://sevendaygame.wordpress.com/2018/01/15/2017-review-a-year-in-st-petersburg/)
+	[January](https://sevendaygame.wordpress.com/2017/02/15/january-2017-review-end-of-eurojaunt-and-new-life-in-st-petersburg/)
+	[February](https://sevendaygame.wordpress.com/2017/03/13/february-2017-review-need-to-go-back-to-basic-stacking/)
+	[March](https://sevendaygame.wordpress.com/2017/04/02/march-2017-review-no-lay-month/)
+	[April](https://sevendaygame.wordpress.com/2017/05/10/april-2017-review-pretty-standard-month/)
+	[May](https://sevendaygame.wordpress.com/2017/06/13/may-2017-review-feeling-like-a-number-collector/)
+	[June](https://sevendaygame.wordpress.com/2017/07/17/june-2017-review-another-no-lay-month/)
+	[July](https://sevendaygame.wordpress.com/2017/08/07/july-2017-review-best-month-this-year-so-far/)
+	[August](https://sevendaygame.wordpress.com/2017/09/04/august-2017-review-quiet-in-term-of-game/)
+[2018](https://sevendaygame.wordpress.com/2019/01/20/2018-review-well/)
+
+Mr. White:
+
+[2018](https://mrwhitedaygame.wordpress.com/2019/01/02/2018-daygame-results-stats-and-overview/)
+[2019](https://mrwhitedaygame.wordpress.com/2020/01/02/2019-daygame-results-stats-and-overview/)
+
+Thomas Crown:
+
+[2016/2017](https://thomascrownpua.wordpress.com/2016-17/)
+[2018](https://thomascrownpua.wordpress.com/2018-statistics/)
+[2019](https://thomascrownpua.wordpress.com/2020/01/03/2019-in-review/)
+
+Krauser:
+
+[2013](https://krauserpua.com/2014/01/01/my-2013-daygame-stats/)
+[2014](https://krauserpua.com/2015/01/03/my-2014-daygame-stats/)
+[2015](https://krauserpua.com/2016/01/02/my-2015-daygame-stats/)
+
+Runner:
+
+[First 2000 approaches](http://daygamenyc.com/2019/05/31/approaching-2000-approaches/)
+[First 2 years](http://daygamenyc.com/2019/08/06/2-years-on-is-daygame-worth-it/)
+[2019](http://daygamenyc.com/2020/01/01/im-now-an-intermediate-level-daygamer/)
+
+Tom Torero:
+
+[2013](https://krauserpua.com/2014/01/02/guest-post-tom-toreros-2013-daygame-stats/)
+
+More stats:
+
+https://tddaygame.com/daygame-stats-blatant-lies/
+https://project-tusk.com/blogs/the-tusk-diaries/realistic-daygame-statistics
+https://daygamersbible.wordpress.com/2018/05/23/daygame-statistics-and-what-they-tell-your-daygame/
+-->
 
 Daygame Cost-Benefit Analysis
 =============================
@@ -50,7 +125,7 @@ on nightgame in bars and clubs and concludes that
 > activities. Prostitution is the better option if you are middle-class,
 > don’t have the free time, or dislike engaging in game.
 
-*– [Free Northerner](https://freenortherner.wordpress.com/), [“Economic Analysis of Casual Sex – Prostitution vs Game”](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/), 2012*
+*– [Free Northerner](https://freenortherner.wordpress.com/), [“Economic Analysis of Casual Sex – Prostitution vs Game”](http://freenortherner.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/), 2012*
 
 (Inconsistent capitalization is in the original text)
 
@@ -117,51 +192,6 @@ Visualizing this shows the following:
 
 ![The date & lay ratios over thousands of approaches](./img/daygame_cost_benefit/ratio.png "The date & lay ratios over thousands of approaches")
 
-<!--TODO: integrate data from here:
-Roy Walker:
-
-[2019](https://roywalkerdaygame.wordpress.com/2020/01/07/2019-the-year-of-meh/)
-[2018](https://roywalkerdaygame.wordpress.com/2019/01/09/2018-a-year-of-change/)
-[2017](https://roywalkerdaygame.wordpress.com/2018/01/06/2017-the-year-of-ups-and-downs/)
-[2016](https://roywalkerdaygame.wordpress.com/2017/01/02/2016-the-year-of-1000-sets/)
-[Before 2016](https://roywalkerdaygame.wordpress.com/2016/08/07/the-journey-two-years-in/)
-
-Seven:
-
-[2018](https://sevendaygame.wordpress.com/2019/01/20/2018-review-well/)
-[2017](https://sevendaygame.wordpress.com/2018/01/15/2017-review-a-year-in-st-petersburg/)
-[2016](https://sevendaygame.wordpress.com/2017/01/21/dec-2016-report-2016-review-and-kicking-off-2017/) (July to December)
-
-Mr. White:
-
-[2019](https://mrwhitedaygame.wordpress.com/2020/01/02/2019-daygame-results-stats-and-overview/)
-[2018](https://mrwhitedaygame.wordpress.com/2019/01/02/2018-daygame-results-stats-and-overview/)
-
-Thomas Crown:
-
-[2019](https://thomascrownpua.wordpress.com/2020/01/03/2019-in-review/)
-[2018](https://thomascrownpua.wordpress.com/2018-statistics/)
-[2016/2017](https://thomascrownpua.wordpress.com/2016-17/)
-
-Krauser:
-
-[2015](https://krauserpua.com/2016/01/02/my-2015-daygame-stats/)
-[2014](https://krauserpua.com/2015/01/03/my-2014-daygame-stats/)
-[2013](https://krauserpua.com/2014/01/01/my-2013-daygame-stats/)
-
-Runner:
-
-[2019](http://daygamenyc.com/2020/01/01/im-now-an-intermediate-level-daygamer/)
-[First 2 years](http://daygamenyc.com/2019/08/06/2-years-on-is-daygame-worth-it/)
-[First 2000 approaches](http://daygamenyc.com/2019/05/31/approaching-2000-approaches/)
-
-More stats:
-
-https://tddaygame.com/daygame-stats-blatant-lies/
-https://project-tusk.com/blogs/the-tusk-diaries/realistic-daygame-statistics
-https://daygamersbible.wordpress.com/2018/05/23/daygame-statistics-and-what-they-tell-your-daygame/
--->
-
 Cost
 ----
 
@@ -180,7 +210,7 @@ The opportunity cost<!--TODO: wiki--> of daygame is unclear – what would
 one be doing instead? One could dream of daygamers instead cultivating
 friendships, learning languages or instruments and meditating, and while
 that could certainly sometimes be the case, a lot of that time would also
-be spent on mindlessly browsing the internet, watching series or doing
+be spent on mindlessly browsing the internet, watching netflix or doing
 other things that aren't terribly fulfilling or valuable. Economists
 often assume that the opportunity cost of an activity to be the money
 one could have earned with a minimum wage job during that time<!--TODO:
@@ -194,9 +224,10 @@ returns<!--TODO: link--> because of exhaustion).
 And daygame is generally an activity with comparatively much value:
 one spends time outside, moving around and interacting with other people.
 
-On the other hand, it may be that daygame only replaces "productive time",
-that the energy exerted in daygame misses in other productive activities,
-while the amount spent on downtime & unfulfilling stuff stays constant.
+On the other hand, it may be that daygame only replaces "productive
+personal time", that the energy exerted in daygame misses in other
+productive activities, while the amount spent on downtime & unfulfilling
+stuff stays constant.
 
 I will tentatively set the opportunity cost of an hour of daygame to \$5,
 but would be interested in further input:
@@ -206,16 +237,55 @@ but would be interested in further input:
 Daygamers who could earn more with their day job might want to adjust
 this number up.
 
-### Mental Cost (or Benefit?)
+### Costs from Dates
 
-### Dating Opportunity Cost
+#### Opportunity Cost
 
-### Paying for Dates
+[Free Northerner
+2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/
+"Economic Analysis of Casual Sex – Prostitution vs Game") assumes 3
+dates, it is common wisdom <!--TODO: any sort of link-->originating from
+Mystery that 7 hours is a normal time spent on dates until having sex.
+
+Many field reports list lower numbers, but selection bias and survivorship
+bias might be at play here.
+
+I will assume 2 dates lasting 3.5h each:
+
+	datelen::3.5
+	avgdates::2
+
+#### Paying for Dates
+
+On dates, one usually needs to pay for drinks, food, and perhaps a taxi,
+there doesn't seem to be much information about the exact costs out
+there. I will assume \$40 for a date.
+
+	datecost::40
+
+### Calculating the Cost
+
+The cost of daygame is the sum of the opportunity cost for approaching,
+the opportunity cost of dates and the direct cost of paying for dates:
+
+	cost::{(oppcost*x%apprperhour)+(dateratio(x)*datecost*avgdates)+dateratio(x)*datelen*avgdates*oppcost}
+
+### Other Possible Costs
+
+One could take other costs into account: Costs from renting an apartment
+near the center of a big city, buying better clothes, whitening ones
+teeth, possible costs of being revealed and despised as PUA by friends
+or family, negative psychological effects from constant rejection and
+similar considerations. Those seemed not central enough for this analysis,
+or negligible in scope, but it might be interesting to estimate what
+impact they could have.
 
 Benefit
 -------
 
 ### Value of Having Sex
+
+The think providing most of the value from daygame is the sex.
 
 #### Value of the Sex Itself
 
@@ -223,7 +293,14 @@ Benefit
 
 #### Long-term Partners
 
+<!--
+Some Additional Possible Variables
+----------------------------------
+
 ### Flowthrough Benefits
+
+### Mental Benefit
+-->
 
 Conclusion
 ----------
@@ -235,10 +312,18 @@ cumulative dollar value of these approaches:
 	*>vals
 	vals@*>vals
 
+<!--
 Appendix A: A Guesstimate Model of the Value
 --------------------------------------------
-
+-->
 <!--
 Appendix B: Empirically Checking the Assumtpions
 ------------------------------------------------
+
+Log:
+
+* Date ratio
+* Lay ratio
+* Number of dates
+* Cost per date
 -->

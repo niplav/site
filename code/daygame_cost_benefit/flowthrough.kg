@@ -1,4 +1,4 @@
-.l("./load.kg")
+.l("./load_complex.kg")
 
 .l("nplot")
 

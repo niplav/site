@@ -1,4 +1,4 @@
-.l("./load.kg")
+.l("./res.kg")
 
 .l("nplot")
 
@@ -17,6 +17,6 @@ setrgb(1;0;0)
 plot({-cost(x)})
 text(250;60;"cost")
 
-:"bar(*>vals;15000+vals@*>vals;10000)"
+bar(*>vals;15000+vals@*>vals;10000)
 
 draw()
