@@ -1,6 +1,6 @@
-.l("./load_complex.kg")
+.l("nplot.kg")
 
-.l("nplot")
+.l("./load_complex.kg")
 
 grid([0 2000 200];[-2000 600 200])
 xtitle("Approaches")

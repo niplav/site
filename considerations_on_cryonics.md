@@ -1,14 +1,14 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-01-28, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-01-30, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)?
 > [Betteridge's law of
 > headlines](https://en.wikipedia.org/wiki/Betteridge's_law_of_headlines)
 > only applies partially here: Yes, it is probably worth it (under
-> plausible assumptions \$1 mio. for a 20 year old, and more for older
+> plausible assumptions \$2.5 mio. for a 20 year old, and more for older
 > people), and no, cryocrastination is usually irrational. A cost-benefit
 > analysis written in Lua.__
 
@@ -732,6 +732,10 @@ on Mathematics StackExchange to the question
 accidents?"](https://math.stackexchange.com/questions/3044194/whats-the-average-life-expectancy-if-only-dying-from-accidents)
 arrives at 2850 years.
 
+<!--TODO: there is also an EA forum post about LEV that for
+some complex mathematical reasons estimates 1000 years. Find,
+read & incorporate-->
+
 Taking existential risks into account is a bit harder. It is unclear
 whether most of the probability mass for existential risks should be
 placed before reuscitation of cryonics patients becomes feasible,
@@ -802,8 +806,8 @@ The probability of dying before LEV is 0 if LEV has already occurred:
 
 Othewise, we assume that one has signed up for cryonics at `age`
 and now wants to know the probability of dying until LEV. That is the
-same as `$1-\Pr[Living until LEV$`, or the probability of living until
-`curage+(levyear-curyear` given one has already lived until `age`.
+same as `$1-\Pr[Living until LEV]$`, or the probability of living until
+`curage+(levyear-curyear)` given one has already lived until `age`.
 
 	else
 		return 1-(gompertz(curage+(levyear-curyear))/gompertz(age))

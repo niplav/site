@@ -2,7 +2,7 @@
 
 .l("nplot")
 
-grid([0 10000 1000];[0 12000 500])
+grid([0],maxappr,[1000];[0 12000 500])
 xtitle("Approaches")
 ytitle("Cumulative dollar value of lays")
 plot(layvals)

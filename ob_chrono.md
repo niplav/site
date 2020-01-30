@@ -4,7 +4,7 @@
 *author: niplav, created: 2019-07-07, modified: 2019-12-29, language: english, status: in progress, importance: 5, confidence: log*
 
 > __The blog [Overcoming Bias](http://www.overcomingbias.com/), written
-> mainly by [Robin Hanson](https://en.wikipedia.org/wiki/Robin_Hanson),
+> mostly by [Robin Hanson](https://en.wikipedia.org/wiki/Robin_Hanson),
 > is mainly known for being the origin of the site [Less
 > Wrong](https://www.lesswrong.com/), but it is also worth reading
 > in itself. However, its archives are clumsy to navigate

@@ -38,8 +38,8 @@ function benefit(appr)
 	local lay_ratio=ratio(appr)
 	--positive side-effects of daygame of behavior
 	--it seems like those grow very slowly after an initial surge
-	local flowthrough_val=200*math.log((appr+1)*0.2)
-	return first_lay_val*math.sqrt(lay_ratio*appr)+flowthrough_val
+	local sideeff_val=200*math.log((appr+1)*0.2)
+	return first_lay_val*math.sqrt(lay_ratio*appr)+sideeff_val
 end
 
 function cost(appr)

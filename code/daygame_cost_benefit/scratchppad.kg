@@ -1,0 +1,11 @@
+:"one idea for the formula of the ratio, over time"
+
+ratio.1::{:[
+	x<501;0.005:|
+	x<1001;((0.01*x-500)+500*0.005)%x:|
+	x<1501;((0.02*x-1000)+(500*0.01)+500*0.005)%x;
+	((0.03*x-1500)+(500*0.02)+(500*0.01)+500*0.005)%x]}
+
+:"another idea for the formula for mental cost, over time"
+
+mentalcost.1::{-(200*ln((x+100)*0.01))-200}

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2020-01-24, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2020-01-30, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -711,3 +711,27 @@ The overall value of QRI would then be
 human life years.
 
 <!--TODO: write down some possible downsides-->
+
+The Benefit of Reading LessWrong
+---------------------------------
+
+Many people question the value of reading Less Wrong<!--TODO: sources!-->,
+and it is true that it's often hard to point to specific advantages of
+doing so.
+
+One such advantage may be signing up for cryonics. [niplav
+2020](./considerations_on_cryonics.html "Considerations on Cryonics")
+estimates that signing up for cryonics is worth \$2.5 mio. in expectation
+for a twenty year old. Assume that after 500 hours reading Less
+Wrong<!--TODO: wiki link-->, a person will decide to sign up for cryonics
+(it took me that much time, maybe a little bit less).
+
+Then the value of each of these hours was `$\frac{\$2500000}{500 h}=\frac{\$5000}{h}$`,
+quite formidable!
+
+Of course, reading Less Wrong is not the only way of becoming convinced
+that signing up for cryonics is a good idea, but it seems to be quite
+effective at this (several people have signed up for cryonics as a
+result of reading Less Wrong<!--TODO: such as Paul Crowley, Geoff Greer,
+Alicorn(?), me-->), considering that the number of people signed up
+globally is ~3000, this is quite significant.

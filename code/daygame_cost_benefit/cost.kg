@@ -1,0 +1,9 @@
+.l("./load.kg")
+
+.l("nplot")
+
+grid([0],maxappr,[1000];[-12000 0 500])
+xtitle("Approaches")
+ytitle("Cumulative dollar cost of dates")
+plot({-cost(x)})
+draw()

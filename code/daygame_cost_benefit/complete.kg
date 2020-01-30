@@ -1,8 +1,8 @@
-.l("./res.kg")
-
 .l("nplot")
 
-grid([0 10000 1000];[-15000 15000 1000])
+.l("./res.kg")
+
+grid([0],maxappr,[1000];[-15000 15000 1000])
 xtitle("Approaches")
 ytitle("Cumulative total value")
 
@@ -17,6 +17,6 @@ setrgb(1;0;0)
 plot({-cost(x)})
 text(250;60;"cost")
 
-bar(*>vals;15000+vals@*>vals;10000)
+bar(optim;15000+optimben;10000)
 
 draw()

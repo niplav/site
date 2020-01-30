@@ -1,17 +1,7 @@
 .l("math")
 .l("nstat")
 
-oppcost::5
-prostcost::250
-prideval::500
-datecost::40
-avgdates::2
-datelen::3.5
-apprperhour::4
-ratioexp::0.02
-ratiobegin::0.005
-
-firstlayval::prostcost+prideval
+.l("./vars.kg")
 
 ratio::{ratiobegin+(ratioexp-ratiobegin)*(1-500%x+500)}
 dateratio::{3*ratiobegin+(ratioexp-ratiobegin)*(1-500%x+500)}
