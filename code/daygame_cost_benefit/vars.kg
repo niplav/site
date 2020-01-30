@@ -1,0 +1,17 @@
+.l("math")
+
+oppcost::5
+
+prostcost::300
+prideval::250
+laynum::2
+firstlayval::prideval+prostcost*ln(e*laynum)
+
+datecost::40
+avgdates::2
+datelen::3.5
+
+apprperhour::4
+ratioexp::0.02
+ratiobegin::0.005
+maxappr::10000

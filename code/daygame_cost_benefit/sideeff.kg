@@ -4,6 +4,6 @@
 
 grid([0 10000 1000];[0 2000 200])
 xtitle("Approaches")
-ytitle("Cumulative dollar value of flowthrough effects")
-plot(flowthrough)
+ytitle("Cumulative dollar value of side effects")
+plot(sideeff)
 draw()

@@ -7,7 +7,7 @@
 > in the future, as well as music.__
 
 TODO
-====
+
 
 Site
 -----
@@ -271,7 +271,7 @@ Texts
 		* Pigovian taxes instead of strict rules on damaging public goods
 			* How computationally tractable are these?
 			* Which computational complexity?
-		* Harburger taxes (COST)
+		* Harberger taxes (COST)
 			* The thing Glen Weyl is talking about
 	* Sokalling
 		* Look up tweet by David Chapman

@@ -1,14 +1,15 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2019-01-29, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2019-01-30, language: english, status: in progress, importance: 4, confidence: remote*
 
-> __Is daygame worth it, and if yes, how much? I present a point-estimate
-> cost-benefit value estimation written in Klong and find that daygame
-> is probably worth ~\$5000 maximum, at ~2500 approaches, though the
-> number varies strongly under different assumptions. I then perform a
-> Monte-Carlo estimation to determine the uncertainty around the expected
-> value and find that _.__
+> __Is daygame worth it, and if yes, how much? I first present a simple
+> point-estimate cost-benefit value estimation written in Klong and find
+> that daygame is probably worth ~\$2000 maximum, at ~2000 approaches,
+> though the number varies strongly under different assumptions. After
+> that, I modify the model to capture more of the nuance, and arrive at
+> \_. I then perform a Monte-Carlo estimation to determine the uncertainty
+> around the expected value and find that _.__
 
 <!--TODO: integrate data from here:
 Roy Walker:
@@ -88,7 +89,7 @@ https://daygamersbible.wordpress.com/2018/05/23/daygame-statistics-and-what-they
 Daygame Cost-Benefit Analysis
 =============================
 
-<!--How to hyphenate the title?-->
+<!--TODO: How to hyphenate the title?-->
 
 <!--TODO: different diminishing returns in code, make all
 logarithmic/radical/hyperbolic?-->
@@ -99,6 +100,17 @@ logarithmic/radical/hyperbolic?-->
 
 Source: https://www.globalseducer.com/daygame/
 -->
+
+I first review existing texts on the topic and find them lacking in
+several ways. I then present a simple and general model for the value of
+doing a number of daygame approaches, and find that it recommends doing
+2032 approaches with a value of \$1914 in the optimum. I then extend the
+model to more subjective and hard to measure factors such as positive
+side effects, effects of daygame on mood and similar other factors,
+and estimate that \_.
+
+The models don't consider externalities, be they positive or
+negative. That is the subject of a different debate.
 
 Similar Analyses
 ----------------
@@ -125,7 +137,7 @@ on nightgame in bars and clubs and concludes that
 > activities. Prostitution is the better option if you are middle-class,
 > don’t have the free time, or dislike engaging in game.
 
-*– [Free Northerner](https://freenortherner.wordpress.com/), [“Economic Analysis of Casual Sex – Prostitution vs Game”](http://freenortherner.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/), 2012*
+*– [Free Northerner](https://freenortherner.com/), [“Economic Analysis of Casual Sex – Prostitution vs Game”](http://freenortherner.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/), 2012*
 
 (Inconsistent capitalization is in the original text)
 
@@ -134,25 +146,28 @@ it at the end). Daygame seems to me to be a much better option (not
 just for people who don't like nightclubs): it's healthy due to moving
 around a lot outside, getting drunk is mostly not an option, it doesn't
 mess up the sleep schedule, one doesn't have to pay to get into clubs,
-and can be combined with sightseeing in foreign cities.
+and it can be combined with sightseeing in foreign cities.
 
 He also doesn't consider positive side-effects from game (such as
 increased confidence), negative side-effects from prostitution (such as
 addiction<!--TODO: link to prostitution addiction-->), and diminishing
 returns in his analysis.
 
+<!--TODO: he has written a text about marriage & relationships, analyze that too?-->
+
 Ratios
 ------
 
 In daygame-lingo, the word "ratio" usually refers to the ratio between
 approaches and contact information (such as phone numbers)/dates/women
-slept with (colloquially "lays"). In this text, I'm interested inthe
-approach-to-date ratio and the approach-to-lay ratio.
+slept with (colloquially "lays"). In this text, I'm interested in the
+approach-to-date ratio (here the ratio of first dates to approaches)
+and the approach-to-lay ratio.
 
 I remember a Tom Torero video where he recounts these ratios for
 beginners, but it seems to have been hidden since then (the [internet
 archive version](https://web.archive.org/watch?v=DgLBWej72is) is also
-not complete, if you have a copy, I'd be glad to pay a small amount
+not complete. If you have a copy, I'd be glad to pay a small amount
 for it). The numbers for the approach-to-lay ratios were 1 in 100 for
 beginners, 1 in 50 for intermediate daygamers and 1 in 30 for experts. I
 will assume that this is comparatively over-optimistic, and assume that
@@ -167,7 +182,8 @@ These numbers are of course heavily dependant on all kinds of factors:
 attractiveness, speed of learning, effort exerted in daygame, logistics
 and much much more.
 
-I will also assume that one in three dates leads to a lay:
+I will also assume that one in three series of dates with the same woman
+leads to a lay:
 
 	dateratio::{3*ratio(x)}
 
@@ -192,19 +208,40 @@ Visualizing this shows the following:
 
 ![The date & lay ratios over thousands of approaches](./img/daygame_cost_benefit/ratio.png "The date & lay ratios over thousands of approaches")
 
-Cost
-----
+<!--TODO:
+### Empirical Data for Ratios
 
-Daygame has many different costs: opportunity costs<!--TODO: wiki link-->
-from the time spent approaching and dating women who then flake (one could
-be doing better things in the same time, like pursuing other hobbies,
-learning a language or musical instrument), mental strain from approach
-anxiety, and simply the cost of paying for dates.
+Empirical data for both date & lay ratios
+-->
 
-### Approaching Opportunity Cost
+A Simple Model
+--------------
 
-It seems like<!--TODO: [citation needed]--> most daygamers do around 4
-approaches an hour, so 15 minutes for one approach.
+### Cost
+
+Daygame has several different obvious costs: opportunity costs<!--TODO:
+wiki link--> from the time spent approaching and dating women who then
+flake (one could be doing better things in the same time, like pursuing
+other hobbies, learning a language or musical instrument) and simply
+the cost of paying for dates.
+
+#### Approaching Opportunity Cost
+
+> First you'll need to desensitise yourself to randomly chatting up
+> hot girls sober during the day. This takes a few months of going out
+> 3-5 times a week and talking to 10 girls during each session (keep each
+> session to no more than 2 hours).
+
+*– Tom Torero<!--TODO: link-->, [“Beginner's Guide to Daygame”](./doc/daygame_cost_benefit/beginners_guide_to_daygame_torero_2018.pdf) p. 6, 2018*
+
+> Most regular hustlers go out 3-5 times a week and do 10 approaches
+> each session, meaning 30-50 per week.
+
+*– Tom Torero<!--TODO: link-->, [“Beginner's Guide to Daygame”](./doc/daygame_cost_benefit/beginners_guide_to_daygame_torero_2018.pdf) p. 13, 2018*
+
+I will assume that most daygamers will do around 4 approaches an hour
+(the ones I have met are more choosy, so they have a lower volume),
+with 15 minutes for one approach.
 
 The opportunity cost<!--TODO: wiki--> of daygame is unclear – what would
 one be doing instead? One could dream of daygamers instead cultivating
@@ -237,9 +274,9 @@ but would be interested in further input:
 Daygamers who could earn more with their day job might want to adjust
 this number up.
 
-### Costs from Dates
+#### Costs from Dates
 
-#### Opportunity Cost
+##### Opportunity Cost
 
 [Free Northerner
 2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/
@@ -255,7 +292,7 @@ I will assume 2 dates lasting 3.5h each:
 	datelen::3.5
 	avgdates::2
 
-#### Paying for Dates
+##### Paying for Dates
 
 On dates, one usually needs to pay for drinks, food, and perhaps a taxi,
 there doesn't seem to be much information about the exact costs out
@@ -263,14 +300,137 @@ there. I will assume \$40 for a date.
 
 	datecost::40
 
-### Calculating the Cost
+#### Calculating the Cost
 
-The cost of daygame is the sum of the opportunity cost for approaching,
+The cost of daygame is the sum of the opportunity cost from approaching,
 the opportunity cost of dates and the direct cost of paying for dates:
 
 	cost::{(oppcost*x%apprperhour)+(dateratio(x)*datecost*avgdates)+dateratio(x)*datelen*avgdates*oppcost}
 
-### Other Possible Costs
+The resulting function is linear on the number of approaches:
+
+	.l("./load.kg")
+
+	.l("nplot")
+
+	grid([0],maxappr,[1000];[-12000 0 500])
+	xtitle("Approaches")
+	ytitle("Cumulative dollar cost of dates")
+	plot(cost)
+	draw()
+
+![Cumulative cost of approaching & dating](./img/daygame_cost_benefit/cost.png "Cumulative cost of approaching and dating, is pretty much linear over approaches.")
+
+### Benefit
+
+#### Value of Having Sex
+
+The thing providing most of the value from daygame is the sex with
+different women. Sex is not a homogenous commodity, but has a wildly
+differing value, depending on the attractiveness of the partner and
+their skill at sex. Nethertheless I will assume that the value of
+sex averages out to the value of prostitution.
+
+I will consider two different components of the value: the value of
+the sex itself (as compared to prostitution) and the sense of pride and
+accomplishment (knowing that one is developing ones skills in daygame,
+while prostitution is often accompanied with shame<!--TODO: source-->).
+
+##### Value of the Sex Itself
+
+> According to this intro to escorting guide on a business blog
+> for escorts (I guess escorts need business advice too; the weird
+> things you find on the internet) costs about $250-500/hr depending
+> on the city.
+
+*– [Free Northerner](https://freenortherner.com/), [“Economic Analysis of Casual Sex – Prostitution vs Game”](http://freenortherner.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/), 2012*
+
+<!--TODO: find own sources-->
+
+This leaves us with ~\$300 per hour of prostitution.
+
+An analysis of daygame contains some questions that are not obvious
+to answer:
+
+* If one has sex as the result of daygame, how long does one have sex?
+* How often do daygamers sleep with the women they have seduced?
+* How strong are the diminishing returns on sex with different partners?
+* And how strong are the diminishing returns on sex with the same partner?
+
+I have not found any people discussing this, and there is probably a
+high variance in these numbers depending on the daygamer.
+
+I will assume that one sex session lasts one hour and that the average
+daygamer sleeps with the same woman twice (some women become regular sex
+partners, even if the overwhelming majority is only a one-night stand).
+
+I will also assume that the dimimishing returns on sex with different
+partners are quadratic<!--TODO: is this the right word?-->(they can be
+calculated with the square root), because for men having sex with many
+partners has a high evolutionary benefit, and logarithmic returns would
+seem to punishing for that.
+
+I will also assume that the diminishing returns on sex with the same
+partner _is_ logarithmic, because for men, having sex multiple times with
+the same woman carries little evolutionary advantage except perhaps for
+competition with other mens sperm.
+
+These numbers are only preliminary, informed by reading daygame blogs.
+
+So we can calculate that the value of seducing one woman is
+
+		.l("math")
+		300*ln(2*e)
+	507.944154167983596
+
+##### A Sense of Pride and Accomplishment
+
+I will assume that the sense of pride and accomplishment is ~\$250. I
+have no hard numbers on this, but it seems like a good approximation.
+
+To wrap it up, one can conclude that the value of the first lay is
+
+	prostcost::300
+	prideval::250
+	laynum::2
+	firstlayval::prideval+prostcost*ln(e*laynum)
+
+#### Calculating the Benefit
+
+As said, I assume that the diminishing marginal returns on additional
+sex partners can be calculated with the square root. The benefit of sex
+can then be calculated with the square root of the expected amount of
+sex for a given number of approaches and the value of the first lay.
+Note that this number is cumulative, it considers the benefit of all
+lays up to `x` approaches.
+
+	layvals::{firstlayval*sqr(ratio(x)*x)}
+
+This looks like this for up to 10000 approaches:
+
+	.l("./load.kg")
+
+	.l("nplot")
+
+	grid([0],maxappr,[1000];[0 12000 500])
+	xtitle("Approaches")
+	ytitle("Cumulative dollar value of lays")
+	plot(layvals)
+	draw()
+
+![Value of lays for a given number of approaches, cumulatively](./img/daygame_cost_benefit/layvals.png "Value of lays for a given number of approaches, cumulatively. It is a graph growing approximately by the square root of approaches.")
+
+The benefit of approaching is then simply the value of the sex:
+
+	benefit::{layvals(x)}
+
+### Value
+
+<!--
+A Slightly More Complex Model
+------------------------------
+
+#### Other Possible Costs
 
 One could take other costs into account: Costs from renting an apartment
 near the center of a big city, buying better clothes, whitening ones
@@ -280,26 +440,13 @@ similar considerations. Those seemed not central enough for this analysis,
 or negligible in scope, but it might be interesting to estimate what
 impact they could have.
 
-Benefit
--------
-
-### Value of Having Sex
-
-The think providing most of the value from daygame is the sex.
-
-#### Value of the Sex Itself
-
-#### A Sense of Pride and Accomplishment
-
-#### Long-term Partners
-
-<!--
-Some Additional Possible Variables
-----------------------------------
+### Additional Benefits
 
 ### Flowthrough Benefits
 
 ### Mental Benefit
+
+### Additional Costs
 -->
 
 Conclusion
@@ -326,4 +473,14 @@ Log:
 * Lay ratio
 * Number of dates
 * Cost per date
+-->
+<!--
+Symbolically determine maximum in first one
+Second one: fix costs & other stuff
+Approximate ratio per:
+
+1:200 for the first 500 approaches
+1:100 for 500-1000
+1:50 for 1000-2000
+1:30 for everything afterwards
 -->
