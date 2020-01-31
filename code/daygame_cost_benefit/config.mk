@@ -4,4 +4,5 @@ IMG=complete.png \
 	sideeff.png \
 	layvals.png \
 	mentalcost.png \
-	ratio.png
+	ratio.png \
+	ratio_data.png

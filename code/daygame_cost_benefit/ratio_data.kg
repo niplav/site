@@ -1,0 +1,30 @@
+.l("./load.kg")
+.l("./data.kg")
+
+.l("nplot")
+
+grid([0 10000 1000];[0 0.07 0.002])
+xtitle("Approaches")
+ytitle("Cumulative ratios")
+
+plot(ratio)
+text(250;60;"Approach-to-lay ratio")
+
+setrgb(0;0;1)
+plot(dateratio)
+text(200;250;"Approach-to-date ratio")
+
+setdot(3)
+
+:"Data for Roy Walker ratios"
+:"lay color #1cd896"
+
+fillrgb(0.109;0.847;0.588)
+scplot2(rwlayrat)
+
+:"date color #0c5e41"
+
+fillrgb(0.047;0.368;0.254)
+scplot2(rwdaterat)
+
+draw()

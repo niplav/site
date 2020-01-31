@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2019-01-30, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2019-01-31, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -12,26 +12,6 @@
 > around the expected value and find that _.__
 
 <!--TODO: integrate data from here:
-Roy Walker:
-
-[Before 2016](https://roywalkerdaygame.wordpress.com/2016/08/07/the-journey-two-years-in/)
-[2016](https://roywalkerdaygame.wordpress.com/2017/01/02/2016-the-year-of-1000-sets/)
-	[March](https://roywalkerdaygame.wordpress.com/2016/04/02/march-review/)
-	[April](https://roywalkerdaygame.wordpress.com/2016/05/02/april-review/)
-	[May](https://roywalkerdaygame.wordpress.com/2016/06/02/may-review/)
-	[June](https://roywalkerdaygame.wordpress.com/2016/07/03/june-review/)
-	[September](https://roywalkerdaygame.wordpress.com/2016/10/01/herpescelling/)
-	[November](https://roywalkerdaygame.wordpress.com/2016/12/02/nonotchvember/)
-[2017](https://roywalkerdaygame.wordpress.com/2018/01/06/2017-the-year-of-ups-and-downs/)
-	[January](https://roywalkerdaygame.wordpress.com/2017/02/04/keep-er-lit/)
-	[February](https://roywalkerdaygame.wordpress.com/2017/02/27/enjoy-the-process/)
-	[March](https://roywalkerdaygame.wordpress.com/2017/04/09/is-daygame-getting-harder-in-london/)
-	[April](https://roywalkerdaygame.wordpress.com/2017/05/15/update-a-month-on-the-road/) (?)
-	[July-September](https://roywalkerdaygame.wordpress.com/2017/10/09/game-over/)
-[2018](https://roywalkerdaygame.wordpress.com/2019/01/09/2018-a-year-of-change/)
-[2019](https://roywalkerdaygame.wordpress.com/2020/01/07/2019-the-year-of-meh/)
-	[January](https://roywalkerdaygame.wordpress.com/2019/02/19/ketchup-in-glass-bottles/)
-[4000 sets](https://twitter.com/RoyWalkerPUA/status/1183757732551282690)
 
 Seven:
 
@@ -94,12 +74,10 @@ Daygame Cost-Benefit Analysis
 <!--TODO: different diminishing returns in code, make all
 logarithmic/radical/hyperbolic?-->
 
-<!--
 > Daygame is the art of meeting and attracting women during the daytime
 > in different locations and at different times of the day.
 
-Source: https://www.globalseducer.com/daygame/
--->
+*– [Sebastian Harris](https://www.globalseducer.com/), [“Daygame: A Quick Beginner’s Guide“](https://www.globalseducer.com/daygame/), 2018*
 
 I first review existing texts on the topic and find them lacking in
 several ways. I then present a simple and general model for the value of
@@ -120,8 +98,8 @@ One such already existing cost analysis of game is [Free Northerner
 "Economic Analysis of Casual Sex – Prostitution vs Game"), he focuses
 on nightgame in bars and clubs and concludes that
 
-> Cost for Sex [from prostitution]: $300  
-> Cost for sex [from game]: $460 ($200 is you enjoy clubbing, gaming,
+> Cost for Sex [from prostitution]: \$300  
+> Cost for sex [from game]: \$460 (\$200 is you enjoy clubbing, gaming,
 > and dating for their own sake)  
 > […]  
 > For casual sex, a mid-range prostitute is cheaper than game.
@@ -208,11 +186,85 @@ Visualizing this shows the following:
 
 ![The date & lay ratios over thousands of approaches](./img/daygame_cost_benefit/ratio.png "The date & lay ratios over thousands of approaches")
 
-<!--TODO:
 ### Empirical Data for Ratios
 
-Empirical data for both date & lay ratios
--->
+Fortunately, daygamers are often very diligent in keeping track records
+of their ratios and even publish them.
+
+Here, I collect cumulative date and lay ratios from several blogs. I
+don't count idates as dates, because it doesn't seem clear whether
+daygamers usually pay for them.
+
+I am also not sure whether at some points "dates" was all dates combined,
+and later was split into "first date", "second date" etc. For simplicity I
+assume that in the beginning, "dates" simply referred to "first date". It
+still seems to be coherent.
+
+[Roy Walker](https://roywalkerdaygame.wordpress.com/):
+
+* [Before 2016](https://roywalkerdaygame.wordpress.com/2016/08/07/the-journey-two-years-in/)
+* [2016](https://roywalkerdaygame.wordpress.com/2017/01/02/2016-the-year-of-1000-sets/)
+	* [March](https://roywalkerdaygame.wordpress.com/2016/04/02/march-review/)
+	* [April](https://roywalkerdaygame.wordpress.com/2016/05/02/april-review/)
+	* [May](https://roywalkerdaygame.wordpress.com/2016/06/02/may-review/)
+	* [June](https://roywalkerdaygame.wordpress.com/2016/07/03/june-review/)
+	* [September](https://roywalkerdaygame.wordpress.com/2016/10/01/herpescelling/)
+	* [November](https://roywalkerdaygame.wordpress.com/2016/12/02/nonotchvember/)
+* [2017](https://roywalkerdaygame.wordpress.com/2018/01/06/2017-the-year-of-ups-and-downs/)
+	* [January](https://roywalkerdaygame.wordpress.com/2017/02/04/keep-er-lit/)
+	* [February](https://roywalkerdaygame.wordpress.com/2017/02/27/enjoy-the-process/)
+	* [March](https://roywalkerdaygame.wordpress.com/2017/04/09/is-daygame-getting-harder-in-london/)
+	* [April](https://roywalkerdaygame.wordpress.com/2017/05/15/update-a-month-on-the-road/) (?)
+	* [July-September](https://roywalkerdaygame.wordpress.com/2017/10/09/game-over/)
+* [2018](https://roywalkerdaygame.wordpress.com/2019/01/09/2018-a-year-of-change/)
+* [4000 sets](https://twitter.com/RoyWalkerPUA/status/1183757732551282690)
+* [2019](https://roywalkerdaygame.wordpress.com/2020/01/07/2019-the-year-of-meh/)
+	* [January](https://roywalkerdaygame.wordpress.com/2019/02/19/ketchup-in-glass-bottles/)
+
+Lay ratios:
+
+	rwlay::[[511 5][901 10][977 10][1060 11][1143 13][1216 14][1380 16][1448 18][1557 19][1990 27][2063 27][2130 27][2230 27][2373 31][2540 35][2876 44][3442 62][3567 63][3991 83][4092 84]]
+	rwlayrat::{(*x),%/|x}'rwlay
+
+Date ratios:
+
+	rwdate::[[511 19][901 38][977 38][1060 40][1143 46][1216 48][1380 58][1448 63][1557 64][1990 81][2063 81][2130 84][2230 85][2373 91][2540 97][2876 126][3442 165][3567 170][3991 200][4092 202]]
+	rwdaterat::{(*x),%/|x}'rwdate
+
+The plotted data looks like this:
+
+	.l("./load.kg")
+	.l("./data.kg")
+
+	.l("nplot")
+
+	grid([0 10000 1000];[0 0.07 0.002])
+	xtitle("Approaches")
+	ytitle("Cumulative ratios")
+
+	plot(ratio)
+	text(250;60;"Approach-to-lay ratio")
+
+	setrgb(0;0;1)
+	plot(dateratio)
+	text(200;250;"Approach-to-date ratio")
+
+	setdot(3)
+
+	:"Data for Roy Walker ratios"
+	:"lay color #1cd896"
+
+	fillrgb(0.109;0.847;0.588)
+	scplot2(rwlayrat)
+
+	:"date color #0c5e41"
+
+	fillrgb(0.047;0.368;0.254)
+	scplot2(rwdaterat)
+
+	draw()
+
+![Empirical data for the cumulative value of ratios over time](./img/daygame_cost_benefit/ratio_data.png "Empirical data for the cumulative value of ratios over time.")
 
 A Simple Model
 --------------
@@ -426,6 +478,48 @@ The benefit of approaching is then simply the value of the sex:
 
 ### Value
 
+To now calculate the optimal amount of daygame, one simply calculates
+the difference between cumulative benefit and cumulative cost for all
+possible number of approaches up to the maximum possible number (in this
+case 10000, more than that seems very difficult) and chooses the maximum:
+
+		maxappr::10000
+		vals::{benefit(x)-cost(x)}'!maxappr
+		optim::*>vals
+	2032
+		optimben::vals@*>vals
+	1913.83870001168556
+
+So one can conclude that 2032 approaches are optimal under these
+assumptions, with a value of \$1914.
+
+This can be visualized as well:
+
+	.l("nplot")
+
+	.l("./res.kg")
+
+	grid([0],maxappr,[1000];[-15000 15000 1000])
+	xtitle("Approaches")
+	ytitle("Cumulative total value")
+
+	plot({benefit(x)-cost(x)})
+	text(200;250;"Value")
+
+	setrgb(0;0;1)
+	plot(benefit)
+	text(200;400;"Benefit")
+
+	setrgb(1;0;0)
+	plot({-cost(x)})
+	text(250;60;"cost")
+
+	bar(optim;15000+optimben;10000)
+
+	draw()
+
+![Visualizing the cost & benefit of daygame, against each other, as well as the optimum](img/daygame_cost_benefit/complete.png "Visualizing the cost & benefit of daygame, against each other, as well as the optimum")
+
 <!--
 A Slightly More Complex Model
 ------------------------------
@@ -452,12 +546,15 @@ impact they could have.
 Conclusion
 ----------
 
-This way, we can calculate the optimal number of approaches and the
-cumulative dollar value of these approaches:
+I have presented both a simple and a more complicated cost-benefit
+analysis for daygame. Both conclude that daygame is worth it, at more
+than 2000 approaches, but the value is not enormous, with only a few
+thousand dollars, and decreases rapidly with less lenient assumptions.
 
-	vals::{benefit(x)-cost(x)}'!10000
-	*>vals
-	vals@*>vals
+I tentatively conclude that daygame may be worth it, but
+it's definitely not a surefire positive deal. Sign up for
+[cryonics](./considerations_on_cryonics.html "Considerations on Cryonics")
+first.
 
 <!--
 Appendix A: A Guesstimate Model of the Value

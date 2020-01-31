@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2020-01-30, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2020-01-31, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -715,23 +715,36 @@ human life years.
 The Benefit of Reading LessWrong
 ---------------------------------
 
-Many people question the value of reading Less Wrong<!--TODO: sources!-->,
-and it is true that it's often hard to point to specific advantages of
-doing so.
+Some people [question the
+value](https://www.lesswrong.com/posts/Ld9dFLuGg7wTh4CdX/leaving-lesswrong-for-a-more-rational-life)
+of reading [Less Wrong](https://en.wikipedia.org/wiki/LessWrong), and it
+is true that it's often hard to point to specific advantages of doing so.
 
 One such advantage may be signing up for cryonics. [niplav
 2020](./considerations_on_cryonics.html "Considerations on Cryonics")
 estimates that signing up for cryonics is worth \$2.5 mio. in expectation
-for a twenty year old. Assume that after 500 hours reading Less
-Wrong<!--TODO: wiki link-->, a person will decide to sign up for cryonics
-(it took me that much time, maybe a little bit less).
+for a twenty year old. Assume that after 500 hours reading Less Wrong,
+a person will decide to sign up for cryonics (it took me that much time,
+maybe a little bit less).
 
 Then the value of each of these hours was `$\frac{\$2500000}{500 h}=\frac{\$5000}{h}$`,
 quite formidable!
 
-Of course, reading Less Wrong is not the only way of becoming convinced
-that signing up for cryonics is a good idea, but it seems to be quite
-effective at this (several people have signed up for cryonics as a
-result of reading Less Wrong<!--TODO: such as Paul Crowley, Geoff Greer,
-Alicorn(?), me-->), considering that the number of people signed up
-globally is ~3000, this is quite significant.
+Of course, reading Less Wrong is not the only way of becoming
+convinced that signing up for cryonics is a good idea, but it
+seems to be quite effective at this (several people have signed
+up for cryonics as a result of reading Less Wrong, such as [Paul
+Crowley](https://www.theguardian.com/money/2013/sep/20/cryonics-death-insurance-policies),
+[Geoff
+Greer](https://geoff.greer.fm/2010/07/09/insert-frozen-food-joke-here/),
+[Eneasz](https://www.lesswrong.com/posts/MkKcnPdTZ3pQ9F5yC/cryonics-without-freezers-resurrection-possibilities-in-a#tz7rTxCkoDLQCncyY),
+[James_Miller](https://www.lesswrong.com/posts/Gx2k5pwRn2xrmGecA/open-thread-oct-27-nov-2-2014#ziZFk5wGT34csQT3x),
+[Dentin](https://www.lesswrong.com/posts/HxGRCquTQPSJE2k9g/i-will-pay-usd500-to-anyone-who-can-convince-me-to-cancel-my#7iuugNveZae4MmHBm),
+[Normal_Anomaly](https://www.lesswrong.com/posts/vZWyDSya93SkTAnTE/help-request-cryonics-policies),
+[jsalvatier](https://www.lesswrong.com/posts/vZWyDSya93SkTAnTE/help-request-cryonics-policies#SfgMk7iYuTmXPoHu6),
+[Alexei](https://www.lesswrong.com/posts/vZWyDSya93SkTAnTE/help-request-cryonics-policies#xuZDYYAEZZFmmeazg),
+[Alicorn](https://www.lesswrong.com/posts/vZWyDSya93SkTAnTE/help-request-cryonics-policies#ia25JNsCRZx49j6nC),
+[oge](https://www.lesswrong.com/posts/oQSmvQdvgduyMS3Xs/how-to-sign-up-for-alcor-cryo),
+and myself), considering that the number of people signed up globally is
+[~1500](https://timelines.issarice.com/wiki/Timeline_of_brain_preservation#Members),
+this is quite significant.
