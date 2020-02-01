@@ -3,8 +3,8 @@
 
 *author: niplav, created: 2019-02-10, modified: 2020-01-21, language: english, status: in progress, importance: 3, confidence: possible*
 
-> __Solutions to the [99 problems](./99_klong_problems.md)
-> in [Klong](http://t3x.org/klong/index.html) in a [literate
+> __Solutions to the [99 problems](./99_klong_problems.html "99 Klong
+> Problems") in [Klong](http://t3x.org/klong/index.html) in a [literate
 > programming](https://en.wikipedia.org/wiki/Literate_programming)
 > style. Attempts to produce the shortest complete solution to these
 > problems up to date.__

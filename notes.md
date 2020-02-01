@@ -195,7 +195,7 @@ restricts the amount of possible filters still ahead of us.
 Compliments as Utilitarian Praxis
 ---------------------------------
 
-Moved into [a separate page](./utilitarian_compliments.md).
+Moved into [a separate page](./utilitarian_compliments.html).
 
 Indirect Anti-Natalism
 ----------------------
@@ -389,7 +389,7 @@ Personal proposals:
 Considerations on Cryonics
 --------------------------
 
-Moved to a [separate page](./considerations_on_cryonics.md).
+Moved to a [separate page](./considerations_on_cryonics.html).
 
 Artificial Intelligence and Action-Compelling Sentences
 -------------------------------------------------------
