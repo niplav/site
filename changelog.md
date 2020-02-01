@@ -1,18 +1,36 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-12-25, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2020-02-01, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
 
+January 2020
+------------
+
+### Writing
+
+* Started [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
+* Added Longevity Escape Velocity<!--TODO: wiki link--> impacts to [Considerations on Cryonics](./considerations_on_cryonics.html)
+* Notes
+	* [Some Thoughts about the Qualia Research Institute](./notes.html#Some-Thoughts-about-the-Qualia-Research-Institute)
+	* [The Benefit of Reading LessWrong](./notes.html#The-Benefit-of-Reading-LessWrong)
+* Updated the chronological blog archives:
+	* [bit-player](./bp_chrono.html)
+	* [Overcoming Bias](./ob_chrono.html)
+	* [Shtetl Optimized](./so_chrono.html)
+	* [The Real Movement](./trm_chrono.html)
+
 December 2019
 -------------
 
+### Writing
+
 * Restructured the [index page](./index.html)
-* Started the [Day Game Log](./daygame_log.md)
+* Started the [Day Game Log](./daygame_log.html)
 * Notes
 	* [Killing Old People Versus Infants](./notes.html#Killing-Old-People-Versus-Infants)
 
@@ -21,7 +39,7 @@ November 2019
 
 ### Writing
 
-* [Solutions to “Naive Set Theory” up to section 6](./naive_set_theory_solutions.md)
+* [Solutions to “Naive Set Theory” up to section 6](./naive_set_theory_solutions.html)
 * Solutions to [P61](./99_problems_klong_solution.html#P61--Count-the-leaves-of-a-binary-tree), [P61A](./99_problems_klong_solution.html#P61A--Collect-the-leaves-of-a-binary-tree-in-a-list), [P62](./99_problems_klong_solution.html#P62--Collect-the-internal-nodes-of-a-binary-tree-in-a-list) and [P62B](./99_problems_klong_solution.html#P62B--Collect-the-nodes-at-a-given-level-in-a-tree) of the [99 Klong Problems](./99_problems_klong_solution.html)
 * Notes
 	* [Artificial Intelligence and Action-Compelling Sentences](./notes.html#Artificial-Intelligence-and-ActionCompelling-Sentences)
@@ -38,28 +56,28 @@ October 2019
 
 ### Writing
 
-* [Considerations on Cryonics](./considerations_on_cryonics.md)
+* [Considerations on Cryonics](./considerations_on_cryonics.html)
 
 September 2019
 --------------
 
 ### Writing
 
-* [Against Applause After Classical Concerts](./against_applause.md)
+* [Against Applause After Classical Concerts](./against_applause.html)
 * Solutions to [P55](./99_problems_klong_solution.html#P55--Construct-completely-balanced-binary-trees), [P56](./99_problems_klong_solution.html#P56--Symmetric-binary-trees), [P57](./99_problems_klong_solution.html#P57--Binary-search-trees-dictionaries), [P58](./99_problems_klong_solution.html#P58--Generateandtest-paradigm) and [P59](./99_problems_klong_solution.html#P59--Construct-heightbalanced-binary-trees), and a complete implementation of the [Huffman code](./99_problems_klong_solution.html#A-More-Complete-Implementation) for the [99 Klong Problems](./99_problems_klong_solution.html)
 * Notes
 	* [Better Names for Things](./notes.html#Better-Names-for-Things)
 
 ### Programming
 
-* [awitt – Another Window Title Tracker](./awitt.md)
+* [awitt – Another Window Title Tracker](./awitt.html)
 
 August 2019
 -----------
 
 ### Writing
 
-* [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
+* [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
 * Solutions to [P40](./99_problems_klong_solution.html#P40--Goldbachs-conjecture), [P41](./99_problems_klong_solution.html#P41--A-list-of-Goldbach-compositions), [P49](./99_problems_klong_solution.html#P49--Gray-code), [P50](./99_problems_klong_solution.html#P50--Huffman-code) and [P54A](./99_problems_klong_solution.html#P54A--Check-whether-a-given-term-represents-a-binary-tree) of the [99 Klong Problems](./99_problems_klong_solution.html)
 * Notes
 	* [Compliments as Utilitarian Praxis](./notes.html#Compliments-as-Utilitarian-Practice)
@@ -75,16 +93,16 @@ July 2019
 ### Writing
 
 * Notes
-	* [Converging Preference Utilitarianism](./notes.md#Converging-Preference-Utilitarianism)
-	* [Silent & Loud Killers](./notes.md#Silent--Loud-Killers)
-* [Contributions](./contributions.md)
-* [Other Proposed Solutions to Rendezvous on a Sphere](./two_people_on_a_planet.md#Other-Proposed-Solutions)
-* [Solutions to P34-P39 for the 99 Klong Problems](.//99_problems_klong_solution.md#P34--Calculate-Eulers-totient-function-phim)
+	* [Converging Preference Utilitarianism](./notes.html#Converging-Preference-Utilitarianism)
+	* [Silent & Loud Killers](./notes.html#Silent--Loud-Killers)
+* [Contributions](./contributions.html)
+* [Other Proposed Solutions to Rendezvous on a Sphere](./two_people_on_a_planet.html#Other-Proposed-Solutions)
+* [Solutions to P34-P39 for the 99 Klong Problems](.//99_problems_klong_solution.html#P34--Calculate-Eulers-totient-function-phim)
 * Archives
-	* [Bit-Player Posts Chronological Index](./bp_chrono.md)
-	* [Overcoming Bias Posts Chronological Index](./ob_chrono.md)
-	* [Shtetl Optimized Posts Chronological Index](./so_chrono.md)
-	* [The Real Movement Posts Chronological Index](./trm_chrono.md)
+	* [Bit-Player Posts Chronological Index](./bp_chrono.html)
+	* [Overcoming Bias Posts Chronological Index](./ob_chrono.html)
+	* [Shtetl Optimized Posts Chronological Index](./so_chrono.html)
+	* [The Real Movement Posts Chronological Index](./trm_chrono.html)
 
 June 2019
 ---------
@@ -92,9 +110,9 @@ June 2019
 ### Writing
 
 * Notes
-	* [Approach Anxiety](./notes.md#Approach-Anxiety)
-* Solution to [Problem 27-33](./99_problems_klong_solution.md#P27--Group-the-elements-of-a-set-into-disjoint-subsets) of the 99 problems
-* Finished transcription of the [Tao Tê King](./tao_te_king.md#Kapitel-71) (chapters 71 to 81)
+	* [Approach Anxiety](./notes.html#Approach-Anxiety)
+* Solution to [Problem 27-33](./99_problems_klong_solution.html#P27--Group-the-elements-of-a-set-into-disjoint-subsets) of the 99 problems
+* Finished transcription of the [Tao Tê King](./tao_te_king.html#Kapitel-71) (chapters 71 to 81)
 
 ### Site Changes
 
@@ -105,10 +123,10 @@ May 2019
 
 ### Writing
 
-* Started [Notes](./notes.md)
-* [Pipe Rings](./pipe_rings.md)
-* Transcribed chapters [43 to 70](./tao_te_king.md#Kapitel-43) of the Tao Tê King
-* Added illustrations to [Two People on a Planet](./two_people_on_a_planet.md)
+* Started [Notes](./notes.html)
+* [Pipe Rings](./pipe_rings.html)
+* Transcribed chapters [43 to 70](./tao_te_king.html#Kapitel-43) of the Tao Tê King
+* Added illustrations to [Two People on a Planet](./two_people_on_a_planet.html)
 
 ### Site Changes
 
@@ -121,27 +139,27 @@ April 2019
 
 ### Writing
 
-* [Two People on a Planet](./two_people_on_a_planet.md)
-* [Rationalist Gods](./rationalist_gods.md)
+* [Two People on a Planet](./two_people_on_a_planet.html)
+* [Rationalist Gods](./rationalist_gods.html)
 
 Structurally supporting pages (like this changelog, the home page and [the
-about page](./about.md)) are also new, but not even near being finished.
+about page](./about.html)) are also new, but not even near being finished.
 
 At the beginning of the month, I set up the code to generate this website
 and imported some existing projects of mine.
 
 #### Essays
 
-* [99 Problems Collection](./99_problems_collection.md)
-* [K-99: Ninety-Nine Klong Problems](./99_klong_problems.md)
-* [99 Problems Klong Solution](./99_problems_klong_solution.md)
-* [Equally Many Heads and Tails](./equally_many_heads_and_tails.md)
+* [99 Problems Collection](./99_problems_collection.html)
+* [K-99: Ninety-Nine Klong Problems](./99_klong_problems.html)
+* [99 Problems Klong Solution](./99_problems_klong_solution.html)
+* [Equally Many Heads and Tails](./equally_many_heads_and_tails.html)
 
 #### Translations
 
-* [Metamodernistisches // Manifest](./metamodernistisches_manifest.md)
+* [Metamodernistisches // Manifest](./metamodernistisches_manifest.html)
 
 #### Fiction
 
-* [Buch Stab](./buch_stab.md)
-* [Platte](./platte.md)
+* [Buch Stab](./buch_stab.html)
+* [Platte](./platte.html)

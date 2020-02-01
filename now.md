@@ -17,8 +17,8 @@ Programming
 -----------
 
 My main focus in programming is working on the [99
-Klong Problems](./99_klong_problems.md) and their
-[solutions](./99_problems_klong_solution.md).
+Klong Problems](./99_klong_problems.html) and their
+[solutions](./99_problems_klong_solution.html).
 
 I am also working on an [arbtt](https://arbtt.nomeata.de/) like time
 tracker: [awitt](https://github.com/niplav/awitt).
@@ -27,7 +27,7 @@ Writing
 -------
 
 At the moment, I am writing [“Abstinence from Masturbation and
-Success from Cold Approach”](./masturbation_and_attractiveness.md)
+Success from Cold Approach”](./masturbation_and_attractiveness.html)
 before gathering data.
 
 Reading

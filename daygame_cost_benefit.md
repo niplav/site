@@ -74,21 +74,27 @@ logarithmic/radical/hyperbolic?-->
 
 *– [Sebastian Harris](https://www.globalseducer.com/), [“Daygame: A Quick Beginner’s Guide“](https://www.globalseducer.com/daygame/), 2018*
 
-I first review existing texts on the topic and find them lacking in
-several ways. I then present a simple and general model for the value of
-doing a number of daygame approaches, and find that it recommends doing
-2032 approaches with a value of \$1914 in the optimum. I then extend the
-model to more subjective and hard to measure factors such as positive
-side effects, effects of daygame on mood and similar other factors,
-and estimate that \_.
+Many daygamers follow the London Daygame Model<!--TODO: link--> which
+is fairly linear and based on approaches that last 5-10 minutes each.
 
-The models don't consider externalities, be they positive or
+Is this method of daygame worth it, and if yes, how much should one
+be doing?
+
+In this text, I first review existing texts on the topic and find them
+lacking in several ways. I then present a simple and general model
+for the value of doing a number of daygame approaches, and find that it
+recommends doing 2032 approaches with a value of \$1914 in the optimum. I
+then extend the model to more subjective and hard to measure factors
+such as positive side effects, effects of daygame on mood and similar
+other factors, and estimate that \_.
+
+The models presented don't consider externalities, be they positive or
 negative. That is the subject of a different debate.
 
 Similar Analyses
 ----------------
 
-One such already existing cost analysis of game is [Free Northerner
+One already existing cost analysis of game is [Free Northerner
 2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/
 "Economic Analysis of Casual Sex – Prostitution vs Game"), he focuses
 on nightgame in bars and clubs and concludes that

@@ -29,7 +29,7 @@ Software
 * Spaced repetition: [fulgurate](https://github.com/theq629/fulgurate)
 * Version control: [git](https://git-scm.com/)
 * Password manager: [spm](https://notabug.org/kl3/spm/)
-* Time tracker: [awitt](./awitt.md)
+* Time tracker: [awitt](./awitt.html)
 * Code search: [ag](https://geoff.greer.fm/ag/)
 * Music: [sad](http://git.2f30.org/sad/log.html)
 * Videos: [mpv](https://mpv.io/)

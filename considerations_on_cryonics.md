@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-01-30, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-02-01, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)?
@@ -755,7 +755,7 @@ sense), but an em also suffers from the risk of not having enough money
 to continue being run, and from the fact that the em era might not last
 several subjective millennia. This scenario deserves further consideration
 (see also [Hanson 1994](http://mason.gmu.edu/~rhanson/uploads.html
-"If Uploads Come First").
+"If Uploads Come First")).
 
 To conclude, it seems like reuscitated cryonicists will on average live
 around 4500 years, although there is room for debate on this number.
