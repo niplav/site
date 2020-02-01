@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2019-01-31, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2019-02-01, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -31,11 +31,6 @@ Seven:
 	[July](https://sevendaygame.wordpress.com/2017/08/07/july-2017-review-best-month-this-year-so-far/)
 	[August](https://sevendaygame.wordpress.com/2017/09/04/august-2017-review-quiet-in-term-of-game/)
 [2018](https://sevendaygame.wordpress.com/2019/01/20/2018-review-well/)
-
-Mr. White:
-
-[2018](https://mrwhitedaygame.wordpress.com/2019/01/02/2018-daygame-results-stats-and-overview/)
-[2019](https://mrwhitedaygame.wordpress.com/2020/01/02/2019-daygame-results-stats-and-overview/)
 
 Thomas Crown:
 
@@ -231,6 +226,23 @@ Date ratios:
 	rwdate::[[511 19][901 38][977 38][1060 40][1143 46][1216 48][1380 58][1448 63][1557 64][1990 81][2063 81][2130 84][2230 85][2373 91][2540 97][2876 126][3442 165][3567 170][3991 200][4092 202]]
 	rwdaterat::{(*x),%/|x}'rwdate
 
+[Mr. White](https://mrwhitedaygame.wordpress.com/) didn't publish
+statistics from the beginning (this data is from his 8th & 9th year of
+doing daygame), this information is therefore unfortunately incomplete:
+
+* [2018](https://mrwhitedaygame.wordpress.com/2019/01/02/2018-daygame-results-stats-and-overview/)
+* [2019](https://mrwhitedaygame.wordpress.com/2020/01/02/2019-daygame-results-stats-and-overview/)
+
+Lay ratios:
+
+	mwlay::[[700 13][1212 25]]
+	mwlayrat::{(*x),%/|x}'mwlay
+
+Date ratios:
+
+	mwdate::[[700 30][1212 68]]
+	mwdaterat::{(*x),%/|x}'mwdate
+
 The plotted data looks like this:
 
 	.l("./load.kg")
@@ -252,15 +264,20 @@ The plotted data looks like this:
 	setdot(3)
 
 	:"Data for Roy Walker ratios"
-	:"lay color #1cd896"
 
 	fillrgb(0.109;0.847;0.588)
 	scplot2(rwlayrat)
 
-	:"date color #0c5e41"
-
 	fillrgb(0.047;0.368;0.254)
 	scplot2(rwdaterat)
+
+	:"Data for Mr. White ratios"
+
+	fillrgb(0.4;0.4;1)
+	scplot2(mwlayrat)
+
+	fillrgb(0;0;0.6)
+	scplot2(mwdaterat)
 
 	draw()
 
@@ -336,10 +353,24 @@ this number up.
 dates, it is common wisdom <!--TODO: any sort of link-->originating from
 Mystery that 7 hours is a normal time spent on dates until having sex.
 
-Many field reports list lower numbers, but selection bias and survivorship
-bias might be at play here.
+Data from [Roy Walker](https://roywalkerdaygame.wordpress.com/) includes
+numbers of dates starting from 2018:
 
-I will assume 2 dates lasting 3.5h each:
+* [2018](https://roywalkerdaygame.wordpress.com/2019/01/09/2018-a-year-of-change/)
+* [2019](https://roywalkerdaygame.wordpress.com/2020/01/07/2019-the-year-of-meh/)
+	* [January](https://roywalkerdaygame.wordpress.com/2019/02/19/ketchup-in-glass-bottles/)
+
+He reports 76 first dates, 27 second dates, 11 third dates and 5 fourth
+dates. This means that he went on 5 dates with 4 women, on 3 dates with
+`$11-5=6$` women, and so forth. This means that the average number of dates he
+went on per first date was
+`$\frac{(5*4+(11-5)*3+(27-(11+5))*2+(76-(27+11+5)))}{76} \approx 1.223$`
+– quite lower than the 3 assumed by [Free Northerner
+2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/
+"Economic Analysis of Casual Sex – Prostitution vs Game")!
+
+I will assume 2 dates on average lasting 3.5h each, because the numbers
+above are from somebody who has already done ~3500 approaches:
 
 	datelen::3.5
 	avgdates::2
@@ -524,7 +555,7 @@ This can be visualized as well:
 A Slightly More Complex Model
 ------------------------------
 
-#### Other Possible Costs
+### Other Possible Costs
 
 One could take other costs into account: Costs from renting an apartment
 near the center of a big city, buying better clothes, whitening ones
@@ -536,9 +567,9 @@ impact they could have.
 
 ### Additional Benefits
 
-### Flowthrough Benefits
+#### Flowthrough Benefits
 
-### Mental Benefit
+#### Mental Benefit
 
 ### Additional Costs
 -->
@@ -569,7 +600,9 @@ Log:
 * Date ratio
 * Lay ratio
 * Number of dates
+	* How many nth dates?
 * Cost per date
+* Retention ratio
 -->
 <!--
 Symbolically determine maximum in first one

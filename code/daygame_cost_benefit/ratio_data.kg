@@ -14,17 +14,25 @@ setrgb(0;0;1)
 plot(dateratio)
 text(200;250;"Approach-to-date ratio")
 
-setdot(3)
+setdot(4)
 
 :"Data for Roy Walker ratios"
-:"lay color #1cd896"
 
 fillrgb(0.109;0.847;0.588)
 scplot2(rwlayrat)
 
-:"date color #0c5e41"
-
-fillrgb(0.047;0.368;0.254)
+fillrgb(0.147;0.468;0.354)
 scplot2(rwdaterat)
+
+:"Data for Mr. White ratios"
+
+fillrgb(0.4;0.4;1)
+scplot2(mwlayrat)
+
+fillrgb(0.1;0.1;0.7)
+scplot2(mwdaterat)
+
+:"TODO: add information to the plot as for the origin of the specific"
+"data"
 
 draw()

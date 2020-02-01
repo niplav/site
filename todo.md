@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-01-29, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-01-31, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -320,6 +320,12 @@ Texts
 	* Perhaps in the SCP format?
 * Blue Reality
 	* Like the Red Reality SCP, but people in there are really well (think MDMA)
+* The Intentionality of the Tyrannical Object
+	* SCP format
+	* Abstract Tyrannical Object as a thing in the real world
+	* Has the property of intentionality (except for celibate men?)
+	* Text by german early 20th century continental philosopher about this object
+	* Fragments by a 11th century german monk about this
 * Guten Morgen
 * A History of Names
 * Skalpell Bizeps
