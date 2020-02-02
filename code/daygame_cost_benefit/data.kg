@@ -7,3 +7,8 @@ mwlay::[[700 13][1212 25]]
 mwlayrat::{(*x),%/|x}'mwlay
 mwdate::[[700 30][1212 68]]
 mwdaterat::{(*x),%/|x}'mwdate
+
+tclay::[[208 2][1638 20][2453 34][3036 45]]
+tclayrat::{(*x),%/|x}'tclay
+tcdate::[[208 12][1638 79][2453 116]]
+tcdaterat::{(*x),%/|x}'tcdate

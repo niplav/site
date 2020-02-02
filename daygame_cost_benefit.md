@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2019-02-01, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-02-02, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -31,12 +31,6 @@ Seven:
 	[July](https://sevendaygame.wordpress.com/2017/08/07/july-2017-review-best-month-this-year-so-far/)
 	[August](https://sevendaygame.wordpress.com/2017/09/04/august-2017-review-quiet-in-term-of-game/)
 [2018](https://sevendaygame.wordpress.com/2019/01/20/2018-review-well/)
-
-Thomas Crown:
-
-[2016/2017](https://thomascrownpua.wordpress.com/2016-17/)
-[2018](https://thomascrownpua.wordpress.com/2018-statistics/)
-[2019](https://thomascrownpua.wordpress.com/2020/01/03/2019-in-review/)
 
 Krauser:
 
@@ -249,6 +243,36 @@ Date ratios:
 	mwdate::[[700 30][1212 68]]
 	mwdaterat::{(*x),%/|x}'mwdate
 
+[Thomas Crown](https://thomascrownpua.wordpress.com):
+
+* [2016/2017](https://thomascrownpua.wordpress.com/2016-17/)
+* [2018](https://thomascrownpua.wordpress.com/2018-statistics/)
+* [2019](https://thomascrownpua.wordpress.com/2020/01/03/2019-in-review/)
+
+The 2019 review unfortunately doesn't contain the number of approaches, but he writes:
+
+> I got 11 lays this year and my approach to lay ratio was around 1:53
+> with roughly the same age and quality: an improvement on last year’s
+> ratio.
+
+*–[Thomas Crown](https://thomascrownpua.wordpress.com), [“2019 In Review”](https://thomascrownpua.wordpress.com/2020/01/03/2019-in-review/), 2020*
+
+From this one can deduce that the number of approaches was `$11*53=583$`,
+or at least a number somewhere near that.
+
+Lay ratios:
+
+	tclay::[[208 2][1638 20][2453 34][3036 45]]
+	tclayrat::{(*x),%/|x}'tclay
+
+Date ratios (he talks about dates, but it's not clear what the number
+of first dates is. I'll still collect the data, but take with a grain
+of salt) (also, his 2019 review doesn't say anything about the number
+of dates, so that is omitted):
+
+	tcdate::[[208 12][1638 79][2453 116]]
+	tcdaterat::{(*x),%/|x}'tcdate
+
 The plotted data looks like this:
 
 	.l("./load.kg")
@@ -284,6 +308,14 @@ The plotted data looks like this:
 
 	fillrgb(0;0;0.6)
 	scplot2(mwdaterat)
+
+	:"Data for Thomas Crown"
+
+	fillrgb(0.7;0.2;0.7)
+	scplot2(tclayrat)
+
+	fillrgb(0.5;0.1;0.5)
+	scplot2(tcdaterat)
 
 	draw()
 
@@ -366,11 +398,14 @@ numbers of dates starting from 2018:
 * [2019](https://roywalkerdaygame.wordpress.com/2020/01/07/2019-the-year-of-meh/)
 	* [January](https://roywalkerdaygame.wordpress.com/2019/02/19/ketchup-in-glass-bottles/)
 
+<!--TODO: Thomas Crown also mentions the average number of dates in one
+of his texts, look it up-->
+
 He reports 76 first dates, 27 second dates, 11 third dates and 5 fourth
 dates. This means that he went on 5 dates with 4 women, on 3 dates with
 `$11-5=6$` women, and so forth. This means that the average number of dates he
 went on per first date was
-`$\frac{(5*4+(11-5)*3+(27-(11+5))*2+(76-(27+11+5)))}{76} \approx 1.223$`
+`$\frac{5*4+(11-5)*3+(27-(11+5))*2+(76-(27+11+5))}{76} \approx 1.223$`
 – quite lower than the 3 assumed by [Free Northerner
 2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/
 "Economic Analysis of Casual Sex – Prostitution vs Game")!
