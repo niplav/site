@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2020-01-28, language: english, status: draft, importance: 5, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2020-02-04, language: english, status: draft, importance: 5, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -36,7 +36,7 @@ and duration since the last occurence of masturbation.
 
 I present a method to test this claim (albeit imperfectly) by approaching
 200 people in the street after 90 days of abstinence from masturbation
-and asking them for a date, and  200 again after a week of daily
+and asking them for a date, and 200 again after a week of daily
 masturbation. The results are analyzed using a two-sample Student's
 t-test<!--TODO: citation needed--> and various descriptive statistical
 methods<!--TODO: link--> and find that \_.
@@ -897,30 +897,30 @@ much easier. I used the following code to generate the dummy data:
 	maft::[0.15 0.25 0.35 0.9 0.95]
 
 	d::({:[
-	        x<fdur@0;"2019-09-17T15:17:10+02:00,1,f,1":|
-	        x<fdur@1;"2019-09-17T15:17:10+02:00,1,f,2":|
-	        x<fdur@2;"2019-09-17T15:17:10+02:00,1,f,3":|
-	        x<fdur@3;"2019-09-17T15:17:10+02:00,1,f,4":|
-	        x<fdur@4;"2019-09-17T15:17:10+02:00,1,f,5";
-	        "2019-09-17T15:17:10+02:00,1,f,6"]}'probes{x,.rn()}:*[]),({:[
-	        x<mdur@0;"2019-09-17T15:17:10+02:00,1,m,1":|
-	        x<mdur@1;"2019-09-17T15:17:10+02:00,1,m,2":|
-	        x<mdur@2;"2019-09-17T15:17:10+02:00,1,m,3":|
-	        x<mdur@3;"2019-09-17T15:17:10+02:00,1,m,4":|
-	        x<mdur@4;"2019-09-17T15:17:10+02:00,1,m,5";
-	        "2019-09-17T15:17:10+02:00,1,m,6"]}'probes{x,.rn()}:*[]),({:[
-	        x<faft@0;"2019-09-17T15:17:10+02:00,0,f,1":|
-	        x<faft@1;"2019-09-17T15:17:10+02:00,0,f,2":|
-	        x<faft@2;"2019-09-17T15:17:10+02:00,0,f,3":|
-	        x<faft@3;"2019-09-17T15:17:10+02:00,0,f,4":|
-	        x<faft@4;"2019-09-17T15:17:10+02:00,0,f,5";
-	        "2019-09-17T15:17:10+02:00,0,f,6"]}'probes{x,.rn()}:*[]),({:[
-	        x<maft@0;"2019-09-17T15:17:10+02:00,0,m,1":|
-	        x<maft@1;"2019-09-17T15:17:10+02:00,0,m,2":|
-	        x<maft@2;"2019-09-17T15:17:10+02:00,0,m,3":|
-	        x<maft@3;"2019-09-17T15:17:10+02:00,0,m,4":|
-	        x<maft@4;"2019-09-17T15:17:10+02:00,0,m,5";
-	        "2019-09-17T15:17:10+02:00,0,m,6"]}'probes{x,.rn()}:*[])
+		x<fdur@0;"2019-09-17T15:17:10+02:00,1,f,1":|
+		x<fdur@1;"2019-09-17T15:17:10+02:00,1,f,2":|
+		x<fdur@2;"2019-09-17T15:17:10+02:00,1,f,3":|
+		x<fdur@3;"2019-09-17T15:17:10+02:00,1,f,4":|
+		x<fdur@4;"2019-09-17T15:17:10+02:00,1,f,5";
+		"2019-09-17T15:17:10+02:00,1,f,6"]}'probes{x,.rn()}:*[]),({:[
+		x<mdur@0;"2019-09-17T15:17:10+02:00,1,m,1":|
+		x<mdur@1;"2019-09-17T15:17:10+02:00,1,m,2":|
+		x<mdur@2;"2019-09-17T15:17:10+02:00,1,m,3":|
+		x<mdur@3;"2019-09-17T15:17:10+02:00,1,m,4":|
+		x<mdur@4;"2019-09-17T15:17:10+02:00,1,m,5";
+		"2019-09-17T15:17:10+02:00,1,m,6"]}'probes{x,.rn()}:*[]),({:[
+		x<faft@0;"2019-09-17T15:17:10+02:00,0,f,1":|
+		x<faft@1;"2019-09-17T15:17:10+02:00,0,f,2":|
+		x<faft@2;"2019-09-17T15:17:10+02:00,0,f,3":|
+		x<faft@3;"2019-09-17T15:17:10+02:00,0,f,4":|
+		x<faft@4;"2019-09-17T15:17:10+02:00,0,f,5";
+		"2019-09-17T15:17:10+02:00,0,f,6"]}'probes{x,.rn()}:*[]),({:[
+		x<maft@0;"2019-09-17T15:17:10+02:00,0,m,1":|
+		x<maft@1;"2019-09-17T15:17:10+02:00,0,m,2":|
+		x<maft@2;"2019-09-17T15:17:10+02:00,0,m,3":|
+		x<maft@3;"2019-09-17T15:17:10+02:00,0,m,4":|
+		x<maft@4;"2019-09-17T15:17:10+02:00,0,m,5";
+		"2019-09-17T15:17:10+02:00,0,m,6"]}'probes{x,.rn()}:*[])
 
 	.p({x,"
 	",y}/d)
@@ -988,10 +988,142 @@ As one can see, this already leads to H₀ being rejected.
 The data can be found
 [here](./data/masturbation_attractiveness_dummy_fadv.csv).
 
-<!--
 Appendix C: Further Hypotheses
 ------------------------------
--->
+
+If one wanted to find out not just that, but in which way abstinence
+from masturbation increases attractiveness, one might try to find
+out at which stage of the process how much of the benefit occurs. For
+example, abstinence might increase initial responses to cold approach
+(reducing the amount of blowouts), because pheromones hook into a very
+deep mechanism, or it might decrease flaking rate, because during the
+interaction micro-expressions had an impressive effect.
+
+I don't have a clear idea how this could be done comprehensively, but
+one possible approach could be to test the expected value of the first
+n stages of the process – for example, only comparing values up to
+getting the name.
+
+The code for that looks like this:
+
+	duringf.toignored::{:[x<2;x;0]}'duringf
+	duringf.tostopped::{:[x<3;x;0]}'duringf
+	duringf.toname::{:[x<4;x;0]}'duringf
+	duringf.torejection::{:[x<5;x;0]}'duringf
+	duringf.toflake::{:[x<6;x;0]}'duringf
+	duringf.todate::{:[x<7;x;0]}'duringf
+
+	afterf.toignored::{:[x<2;x;0]}'afterf
+	afterf.tostopped::{:[x<3;x;0]}'afterf
+	afterf.toname::{:[x<4;x;0]}'afterf
+	afterf.torejection::{:[x<5;x;0]}'afterf
+	afterf.toflake::{:[x<6;x;0]}'afterf
+	afterf.todate::{:[x<7;x;0]}'afterf
+
+	duringm.toignored::{:[x<2;x;0]}'duringm
+	duringm.tostopped::{:[x<3;x;0]}'duringm
+	duringm.toname::{:[x<4;x;0]}'duringm
+	duringm.torejection::{:[x<5;x;0]}'duringm
+	duringm.toflake::{:[x<6;x;0]}'duringm
+	duringm.todate::{:[x<7;x;0]}'duringm
+
+	afterm.toignored::{:[x<2;x;0]}'afterm
+	afterm.tostopped::{:[x<3;x;0]}'afterm
+	afterm.toname::{:[x<4;x;0]}'afterm
+	afterm.torejection::{:[x<5;x;0]}'afterm
+	afterm.toflake::{:[x<6;x;0]}'afterm
+	afterm.todate::{:[x<7;x;0]}'afterm
+
+	.p("
+	X=duringf.toignored, Y=afterf.toignored
+	")
+
+	tstt(duringf.toignored;afterf.toignored;0.05)
+	tstt(duringf.toignored;afterf.toignored;0.01)
+
+	.p("
+	X=duringf.tostopped, Y=afterf.tostopped
+	")
+
+	tstt(duringf.tostopped;afterf.tostopped;0.05)
+	tstt(duringf.tostopped;afterf.tostopped;0.01)
+
+	.p("
+	X=duringf.toname, Y=afterf.toname
+	")
+
+	tstt(duringf.toname;afterf.toname;0.05)
+	tstt(duringf.toname;afterf.toname;0.01)
+
+	.p("
+	X=duringf.torejection, Y=afterf.torejection
+	")
+
+	tstt(duringf.torejection;afterf.torejection;0.05)
+	tstt(duringf.torejection;afterf.torejection;0.01)
+
+	.p("
+	X=duringf.toflake, Y=afterf.toflake
+	")
+
+	tstt(duringf.toflake;afterf.toflake;0.05)
+	tstt(duringf.toflake;afterf.toflake;0.01)
+
+	.p("
+	X=duringf.todate, Y=afterf.todate
+	")
+
+	tstt(duringf.todate;afterf.todate;0.05)
+	tstt(duringf.todate;afterf.todate;0.01)
+
+	.p("
+	X=duringm.toignored, Y=afterm.toignored
+	")
+
+	tstt(duringm.toignored;afterm.toignored;0.05)
+	tstt(duringm.toignored;afterm.toignored;0.01)
+
+	.p("
+	X=duringm.tostopped, Y=afterm.tostopped
+	")
+
+	tstt(duringm.tostopped;afterm.tostopped;0.05)
+	tstt(duringm.tostopped;afterm.tostopped;0.01)
+
+	.p("
+	X=duringm.toname, Y=afterm.toname
+	")
+
+	tstt(duringm.toname;afterm.toname;0.05)
+	tstt(duringm.toname;afterm.toname;0.01)
+
+	.p("
+	X=duringm.torejection, Y=afterm.torejection
+	")
+
+	tstt(duringm.torejection;afterm.torejection;0.05)
+	tstt(duringm.torejection;afterm.torejection;0.01)
+
+	.p("
+	X=duringm.toflake, Y=afterm.toflake
+	")
+
+	tstt(duringm.toflake;afterm.toflake;0.05)
+	tstt(duringm.toflake;afterm.toflake;0.01)
+
+	.p("
+	X=duringm.todate, Y=afterm.todate
+	")
+
+	tstt(duringm.todate;afterm.todate;0.05)
+	tstt(duringm.todate;afterm.todate;0.01)
+
+This is not an attempt at p-hacking – I know that some of these
+hypotheses will probably get rejected by pure chance, but that is
+okay because I'm only trying to identify hypotheses that could inspire
+further testing.
+
+Executed on the data collected, the output shows that \_.
 
 <!--
 TODO: read
