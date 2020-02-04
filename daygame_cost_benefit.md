@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-02-02, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-02-03, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -50,8 +50,6 @@ Tom Torero:
 
 More stats:
 
-https://tddaygame.com/daygame-stats-blatant-lies/
-https://project-tusk.com/blogs/the-tusk-diaries/realistic-daygame-statistics
 https://daygamersbible.wordpress.com/2018/05/23/daygame-statistics-and-what-they-tell-your-daygame/
 -->
 
@@ -136,6 +134,19 @@ approaches and contact information (such as phone numbers)/dates/women
 slept with (colloquially "lays"). In this text, I'm interested in the
 approach-to-date ratio (here the ratio of first dates to approaches)
 and the approach-to-lay ratio.
+
+> 30 approaches will get me between 10 - 15 phone numbers.  
+> Half of these phone numbers will flake leaving me messaging around 5 -
+> 8 girls.  
+> I will get half of these girls out on dates (between 2 - 4) and sleep
+> with 1 or 2.  
+> These are realistic stats, this is cold approach, cold approach
+> is tough.
+
+*–[James Tusk](https://project-tusk.com), [“Realistic Daygame Statistics (Daygame Tips)”](https://project-tusk.com/blogs/the-tusk-diaries/realistic-daygame-statistics), 2017*
+
+James Tusk is a very good looking daygame coach, so these numbers are
+quite high.
 
 I remember a Tom Torero video where he recounts these ratios for
 beginners, but it seems to have been hidden since then (the [internet
@@ -408,7 +419,12 @@ went on per first date was
 `$\frac{5*4+(11-5)*3+(27-(11+5))*2+(76-(27+11+5))}{76} \approx 1.223$`
 – quite lower than the 3 assumed by [Free Northerner
 2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/
-"Economic Analysis of Casual Sex – Prostitution vs Game")!
+"Economic Analysis of Casual Sex – Prostitution vs Game")! Similarly,
+Thomas Crown reports [1.4 dates on average for a lay in his
+first year](https://thomascrownpua.wordpress.com/2016-17/
+"2016/17 Statistics") and [1.1 for his
+second](https://thomascrownpua.wordpress.com/2018-statistics/ "2018
+Statistics").
 
 I will assume 2 dates on average lasting 3.5h each, because the numbers
 above are from somebody who has already done ~3500 approaches:
@@ -593,6 +609,10 @@ This can be visualized as well:
 ![Visualizing the cost & benefit of daygame, against each other, as well as the optimum](img/daygame_cost_benefit/complete.png "Visualizing the cost & benefit of daygame, against each other, as well as the optimum")
 
 <!--
+### Solving Symbolically
+-->
+
+<!--
 A Slightly More Complex Model
 ------------------------------
 
@@ -646,7 +666,6 @@ Log:
 * Retention ratio
 -->
 <!--
-Symbolically determine maximum in first one
 Second one: fix costs & other stuff
 Approximate ratio per:
 
