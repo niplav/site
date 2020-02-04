@@ -1,13 +1,13 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-01-31, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-02-04, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
 
 TODO
-
+====
 
 Site
 -----
@@ -155,6 +155,13 @@ Texts
 		4000 hours over 10 years (~1h10m every day on average),
 		then report back what the effects were
 	* frame as experiment (is that actually legit?)
+* Proposed Solutions to Pascal's Mugging
+	* Bite the Bullet
+	* Abandon Utility-Maximization
+	* Bounded Probability
+	* Bounded Utility
+	* Abstain From Assigning Probabilities to Some Events
+		* Probability of X is undefined
 
 ### Ideas
 
