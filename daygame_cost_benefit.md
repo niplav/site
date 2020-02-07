@@ -13,12 +13,6 @@
 
 <!--TODO: integrate data from here:
 
-Krauser:
-
-[2013](https://krauserpua.com/2014/01/01/my-2013-daygame-stats/)
-[2014](https://krauserpua.com/2015/01/03/my-2014-daygame-stats/)
-[2015](https://krauserpua.com/2016/01/02/my-2015-daygame-stats/)
-
 Runner:
 
 [First 2000 approaches](http://daygamenyc.com/2019/05/31/approaching-2000-approaches/)
@@ -308,6 +302,14 @@ of dates, so that is omitted):
 
 	tcdate::[[208 12][1638 79][2453 116]]
 	tcdaterat::{(*x),%/|x}'tcdate
+
+#### Krauser
+
+[Krauser](https://krauserpua.com/):
+
+* [2013](https://krauserpua.com/2014/01/01/my-2013-daygame-stats/)
+* [2014](https://krauserpua.com/2015/01/03/my-2014-daygame-stats/)
+* [2015](https://krauserpua.com/2016/01/02/my-2015-daygame-stats/)
 
 #### Visualizing the Data
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2020-01-21, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2020-02-07, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.html "99 Klong
 > Problems") in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -1921,6 +1921,10 @@ forms a sort of "hill" pattern, where the number of trees increases to
 higher values, with an increasing height of steps.
 
 <!--
+Find some nice mathematical description for this hill pattern!
+-->
+
+<!--
 I have written some code that examines the different runtimes between
 the even-optimized and unoptimized versions,but it looks like `s58`
 shoots into Klongs stack and bugs everything out.
@@ -2249,6 +2253,9 @@ number of heigh-balanced binary trees with 15 nodes is.
 TODO: understand, clean up, explain & test this code
 Write down the solution.
 
+First steps: Nice illustrations for the right sight being one higher &
+fuller with values.
+
 	minnodes::{:[x<1;0:|x=1;1;1+.f(x-1)+.f(x-2)]}
 
 Seems to be the sum of the first `x` fibonacci numbers.
@@ -2436,11 +2443,12 @@ and test the solution:
 		s62c([:a [:b [:c [] []] [:d [] []]] [:e [] []]])
 	[[:a] [:b :e] [:c :d]]
 
-<!--
+### P63 (*) Construct a complete binary tree.
 
 	s63::{:[0=x;[];
 		{(:x,:[y<2*x;[];,.f(x*2;y)]),:[y=2*x;,[]:|y<1+2*x;[];,.f(1+2*x;y)]}:(1;x)]}
 
+<!--
 Multiway Trees
 --------------
 

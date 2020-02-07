@@ -152,7 +152,7 @@ Texts
 	* Find out how the accuracy declines over time
 * Precommit to Enlightenment
 	*	precommit to performing the steps from TMI & MCTB2 for
-		4000 hours over 10 years (~1h10m every day on average),
+		5000 hours over 10 years (~1h30m every day on average),
 		then report back what the effects were
 	* frame as experiment (is that actually legit?)
 * Proposed Solutions to Pascal's Mugging
@@ -254,6 +254,11 @@ Texts
 * Believing Something Doesn't Mean You to Tell it to Everyone
 * You Actually Don't Need to Convice Idiots
 * Hug the Objective
+* Report: Stopping to Bite Your Nails
+	* Cut Your Nails Every Week
+* Report: Becoming Marginally More Productive
+	* Follow Alexey Guzey's Advice, Leave the House
+	* Internet Abstinence
 
 ### Misc
 
