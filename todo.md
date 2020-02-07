@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-02-04, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-02-07, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -641,6 +641,18 @@ Programming
 	* nplot
 		* Support for multiple bargraphs
 		* Bargraphs with negative values
+		* setrgb doesn't work properly: after setting the color once, it can only be reset to black
+		* Example:
+
+				.l("nplot")
+				grid([0 100 10];[0 100 10])
+				text(250;60;"Foo")
+				setrgb(0;0;1)
+				text(200;250;"Bar")
+				setrgb(1;1;0)
+				text(100;100;"Baz")
+				draw()
+
 	* nstat
 		* n% confidence interval
 	* Range is extremely slow for anything but integers, why?
@@ -656,12 +668,6 @@ Programming
 > \+  - /  *  %  ^
 >      Add subtract multiply divide remainder or exponentiate the top
 >      two values on the stack.
-
-Archive
--------
-
-* Blogs of which to list the posts chronologically:
-	* hbd chick
 
 Structure
 ---------
