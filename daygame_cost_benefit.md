@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-02-03, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-02-06, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -12,25 +12,6 @@
 > around the expected value and find that _.__
 
 <!--TODO: integrate data from here:
-
-Seven:
-
-[2016](https://sevendaygame.wordpress.com/2017/01/21/dec-2016-report-2016-review-and-kicking-off-2017/) (July to December)
-	[July](https://sevendaygame.wordpress.com/2016/10/03/a-year-of-daygame-in-tallinn-estonia-aug-2015-to-aug-216/) (?)
-	[August](https://sevendaygame.wordpress.com/2016/09/08/august-2016-daygame-stats/)
-	[September](https://sevendaygame.wordpress.com/2016/10/12/september-2016-daygame-report/)
-	[October](https://sevendaygame.wordpress.com/2016/11/06/october-2016-daygame-report/)
-	[November](https://sevendaygame.wordpress.com/2016/12/12/november-2016-daygame-report/)
-[2017](https://sevendaygame.wordpress.com/2018/01/15/2017-review-a-year-in-st-petersburg/)
-	[January](https://sevendaygame.wordpress.com/2017/02/15/january-2017-review-end-of-eurojaunt-and-new-life-in-st-petersburg/)
-	[February](https://sevendaygame.wordpress.com/2017/03/13/february-2017-review-need-to-go-back-to-basic-stacking/)
-	[March](https://sevendaygame.wordpress.com/2017/04/02/march-2017-review-no-lay-month/)
-	[April](https://sevendaygame.wordpress.com/2017/05/10/april-2017-review-pretty-standard-month/)
-	[May](https://sevendaygame.wordpress.com/2017/06/13/may-2017-review-feeling-like-a-number-collector/)
-	[June](https://sevendaygame.wordpress.com/2017/07/17/june-2017-review-another-no-lay-month/)
-	[July](https://sevendaygame.wordpress.com/2017/08/07/july-2017-review-best-month-this-year-so-far/)
-	[August](https://sevendaygame.wordpress.com/2017/09/04/august-2017-review-quiet-in-term-of-game/)
-[2018](https://sevendaygame.wordpress.com/2019/01/20/2018-review-well/)
 
 Krauser:
 
@@ -148,15 +129,16 @@ and the approach-to-lay ratio.
 James Tusk is a very good looking daygame coach, so these numbers are
 quite high.
 
-I remember a Tom Torero video where he recounts these ratios for
-beginners, but it seems to have been hidden since then (the [internet
-archive version](https://web.archive.org/watch?v=DgLBWej72is) is also
-not complete. If you have a copy, I'd be glad to pay a small amount
-for it). The numbers for the approach-to-lay ratios were 1 in 100 for
-beginners, 1 in 50 for intermediate daygamers and 1 in 30 for experts. I
-will assume that this is comparatively over-optimistic, and assume that
-the date-to-lay ratio starts at 1 in 200, and then converges towards 1
-in 50 on the scale of thousands of approaches:
+I remember a Tom Torero video where he recounts
+these ratios for beginners, but it seems to
+have been hidden since then (the [internet archive
+version](https://web.archive.org/web/20191106042451/www.youtube.com/watch?v=DgLBWej72is)
+is also not complete. If you have a copy, I'd be glad to pay a small
+amount for it). The numbers for the approach-to-lay ratios were 1 in
+100 for beginners, 1 in 50 for intermediate daygamers and 1 in 30 for
+experts. I will assume that this is comparatively over-optimistic, and
+assume that the date-to-lay ratio starts at 1 in 200, and then converges
+towards 1 in 50 on the scale of thousands of approaches:
 
 	ratiobegin::0.005
 	ratioexp::0.02
@@ -206,6 +188,8 @@ and later was split into "first date", "second date" etc. For simplicity I
 assume that in the beginning, "dates" simply referred to "first date". It
 still seems to be coherent.
 
+#### Roy Walker
+
 [Roy Walker](https://roywalkerdaygame.wordpress.com/):
 
 * [Before 2016](https://roywalkerdaygame.wordpress.com/2016/08/07/the-journey-two-years-in/)
@@ -237,6 +221,45 @@ Date ratios:
 	rwdate::[[511 19][901 38][977 38][1060 40][1143 46][1216 48][1380 58][1448 63][1557 64][1990 81][2063 81][2130 84][2230 85][2373 91][2540 97][2876 126][3442 165][3567 170][3991 200][4092 202]]
 	rwdaterat::{(*x),%/|x}'rwdate
 
+#### Seven
+
+[Seven](https://sevendaygame.wordpress.com/) (he says that "I started
+my daygame journey back in 2014", so there is information missing):
+
+* [2016](https://sevendaygame.wordpress.com/2017/01/21/dec-2016-report-2016-review-and-kicking-off-2017/) (July to December)
+	* [July](https://sevendaygame.wordpress.com/2016/10/03/a-year-of-daygame-in-tallinn-estonia-aug-2015-to-aug-216/) (?)
+	* [August](https://sevendaygame.wordpress.com/2016/09/08/august-2016-daygame-stats/)
+	* [September](https://sevendaygame.wordpress.com/2016/10/12/september-2016-daygame-report/)
+	* [October](https://sevendaygame.wordpress.com/2016/11/06/october-2016-daygame-report/)
+	* [November](https://sevendaygame.wordpress.com/2016/12/12/november-2016-daygame-report/)
+* [2017](https://sevendaygame.wordpress.com/2018/01/15/2017-review-a-year-in-st-petersburg/)
+	* [January](https://sevendaygame.wordpress.com/2017/02/15/january-2017-review-end-of-eurojaunt-and-new-life-in-st-petersburg/)
+	* [February](https://sevendaygame.wordpress.com/2017/03/13/february-2017-review-need-to-go-back-to-basic-stacking/)
+	* [March](https://sevendaygame.wordpress.com/2017/04/02/march-2017-review-no-lay-month/)
+	* [April](https://sevendaygame.wordpress.com/2017/05/10/april-2017-review-pretty-standard-month/)
+	* [May](https://sevendaygame.wordpress.com/2017/06/13/may-2017-review-feeling-like-a-number-collector/)
+	* [June](https://sevendaygame.wordpress.com/2017/07/17/june-2017-review-another-no-lay-month/)
+	* [July](https://sevendaygame.wordpress.com/2017/08/07/july-2017-review-best-month-this-year-so-far/)
+	* [August](https://sevendaygame.wordpress.com/2017/09/04/august-2017-review-quiet-in-term-of-game/)
+* [2018](https://sevendaygame.wordpress.com/2019/01/20/2018-review-well/)
+
+Lay ratios:
+
+	slay::[[38 3][176 4][238 5][318 8][344 9][367 11][434 12][478 13][543 13][588 14][663 15][691 15][752 17][774 18][853 20][942 20][1087 24]]
+	slayrat::{(*x),%/|x}'slay
+
+Date ratios:
+
+	sdate::[[38 8][174 11][236 14][318 21][344 23][367 26][434 27][478 27][543 32][588 33][663 36][691 41][752 44][774 47][853 53][942 54][1087 76]]
+	sdaterat::{(*x),%/|x}'sdate
+
+His numbers are quite high, and I'm not really sure why – perhaps a
+combination of only taking numbers from somebody experienced, combined
+with the fact that he does daygame in russia, which is supposedly easier
+than London, where most of the others publishing data do daygame.
+
+#### Mr. White
+
 [Mr. White](https://mrwhitedaygame.wordpress.com/) didn't publish
 statistics from the beginning (this data is from his 8th & 9th year of
 doing daygame), this information is therefore unfortunately incomplete:
@@ -253,6 +276,8 @@ Date ratios:
 
 	mwdate::[[700 30][1212 68]]
 	mwdaterat::{(*x),%/|x}'mwdate
+
+#### Thomas Crown
 
 [Thomas Crown](https://thomascrownpua.wordpress.com):
 
@@ -283,6 +308,8 @@ of dates, so that is omitted):
 
 	tcdate::[[208 12][1638 79][2453 116]]
 	tcdaterat::{(*x),%/|x}'tcdate
+
+#### Visualizing the Data
 
 The plotted data looks like this:
 
@@ -328,9 +355,24 @@ The plotted data looks like this:
 	fillrgb(0.5;0.1;0.5)
 	scplot2(tcdaterat)
 
+	:"Data for Seven ratios"
+
+	fillrgb(0.8;0.8;0.1)
+	scplot2(slayrat)
+
+	fillrgb(0.6;0.6;0)
+	scplot2(sdaterat)
+
 	draw()
 
 ![Empirical data for the cumulative value of ratios over time](./img/daygame_cost_benefit/ratio_data.png "Empirical data for the cumulative value of ratios over time.")
+
+Data for lay ratios is lighter, data for date ratios is darker.
+
+* Green: Roy Walker
+* Beige: Seven
+* Blue: Mr. White
+* Purple: Thomas Crown
 
 A Simple Model
 --------------
@@ -409,25 +451,34 @@ numbers of dates starting from 2018:
 * [2019](https://roywalkerdaygame.wordpress.com/2020/01/07/2019-the-year-of-meh/)
 	* [January](https://roywalkerdaygame.wordpress.com/2019/02/19/ketchup-in-glass-bottles/)
 
-<!--TODO: Thomas Crown also mentions the average number of dates in one
-of his texts, look it up-->
-
 He reports 76 first dates, 27 second dates, 11 third dates and 5 fourth
 dates. This means that he went on 5 dates with 4 women, on 3 dates with
 `$11-5=6$` women, and so forth. This means that the average number of dates he
 went on per first date was
-`$\frac{5*4+(11-5)*3+(27-(11+5))*2+(76-(27+11+5))}{76} \approx 1.223$`
+`$\frac{5*4+(11-5)*3+(27-11)*2+(76-27)}{76} \approx 1.566$`
 – quite lower than the 3 assumed by [Free Northerner
 2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/
-"Economic Analysis of Casual Sex – Prostitution vs Game")! Similarly,
-Thomas Crown reports [1.4 dates on average for a lay in his
-first year](https://thomascrownpua.wordpress.com/2016-17/
+"Economic Analysis of Casual Sex – Prostitution vs Game")!
+
+For [Seven](https://sevendaygame.wordpress.com/), the numbers can be found here:
+
+* [2016](https://sevendaygame.wordpress.com/2017/01/21/dec-2016-report-2016-review-and-kicking-off-2017/)
+* [2017](https://sevendaygame.wordpress.com/2018/01/15/2017-review-a-year-in-st-petersburg/)
+* [2018](https://sevendaygame.wordpress.com/2019/01/20/2018-review-well/)
+
+He reports 76 first dates, 21 second dates, 13 third
+dates, 6 fourth dates and 1 fifth date. This results in
+`$\frac{(1*5+(6-1)*4+(13-6)*3+(21-13)*2+(76-21))}{76} \approx 1.54$`
+dates per lay, again smaller.
+
+Similarly, Thomas Crown reports [1.4 dates on average for a lay in
+his first year](https://thomascrownpua.wordpress.com/2016-17/
 "2016/17 Statistics") and [1.1 for his
 second](https://thomascrownpua.wordpress.com/2018-statistics/ "2018
 Statistics").
 
 I will assume 2 dates on average lasting 3.5h each, because the numbers
-above are from somebody who has already done ~3500 approaches:
+above are from people who has already done many approaches:
 
 	datelen::3.5
 	avgdates::2

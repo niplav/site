@@ -32,7 +32,7 @@ scplot2(mwlayrat)
 fillrgb(0.1;0.1;0.7)
 scplot2(mwdaterat)
 
-:"Data for Thomas Crown"
+:"Data for Thomas Crown ratios"
 
 fillrgb(0.7;0.2;0.7)
 scplot2(tclayrat)
@@ -40,7 +40,12 @@ scplot2(tclayrat)
 fillrgb(0.5;0.1;0.5)
 scplot2(tcdaterat)
 
-:"TODO: add information to the plot as for the origin of the specific"
-"data"
+:"Data for Seven ratios"
+
+fillrgb(0.8;0.8;0.1)
+scplot2(slayrat)
+
+fillrgb(0.6;0.6;0)
+scplot2(sdaterat)
 
 draw()
