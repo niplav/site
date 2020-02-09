@@ -660,6 +660,7 @@ Programming
 
 	* nstat
 		* n% confidence interval
+		* polynomial/exponential/logarithmic (?) fit for a dataset
 	* Range is extremely slow for anything but integers, why?
 	* error with klong: `#'s58'!40` returns `kg: error: call: type error: [6 :triad %call1 %pop1]`
 		* bug, report

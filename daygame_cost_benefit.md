@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-02-06, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-02-09, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -182,6 +182,9 @@ and later was split into "first date", "second date" etc. For simplicity I
 assume that in the beginning, "dates" simply referred to "first date". It
 still seems to be coherent.
 
+Note that these numbers are just stats some guys wrote on the internet,
+usual qualifiers about the accuracy of these values apply.
+
 #### Roy Walker
 
 [Roy Walker](https://roywalkerdaygame.wordpress.com/):
@@ -305,76 +308,124 @@ of dates, so that is omitted):
 
 #### Krauser
 
-[Krauser](https://krauserpua.com/):
+[Krauser](https://krauserpua.com/) (who started sometime in 2009,
+I believe, so these numbers are after several years of training):
 
 * [2013](https://krauserpua.com/2014/01/01/my-2013-daygame-stats/)
 * [2014](https://krauserpua.com/2015/01/03/my-2014-daygame-stats/)
 * [2015](https://krauserpua.com/2016/01/02/my-2015-daygame-stats/)
 
+> Most of these numbers rely upon estimates because I didn’t keep notes.
+
+*–[Nick Krauser](https://krauserpua.com/), [“My 2013 Daygame Stats”](https://krauserpua.com/2014/01/01/my-2013-daygame-stats/), 2014*
+
+Lay ratios:
+
+	klay::[[1000 27][1480 50][2150 65]]
+	klayrat::{(*x),%/|x}'klay
+
+Date ratios:
+
+	kdate::[[1000 60][1480 110][2150 160]]
+	kdaterat::{(*x),%/|x}'kdate
+
 #### Visualizing the Data
 
-The plotted data looks like this:
+* Green: Roy Walker
+* Beige: Seven
+* Blue: Mr. White
+* Purple: Thomas Crown
+* Red: Krauser
+
+The plotted data for lay ratios looks like this:
 
 	.l("./load.kg")
 	.l("./data.kg")
 
 	.l("nplot")
 
-	grid([0 10000 1000];[0 0.07 0.002])
+	grid([0 10000 1000];[0 0.04 0.002])
 	xtitle("Approaches")
 	ytitle("Cumulative ratios")
 
 	plot(ratio)
 	text(250;60;"Approach-to-lay ratio")
 
-	setrgb(0;0;1)
-	plot(dateratio)
-	text(200;250;"Approach-to-date ratio")
-
-	setdot(3)
+	setdot(4)
 
 	:"Data for Roy Walker ratios"
 
 	fillrgb(0.109;0.847;0.588)
 	scplot2(rwlayrat)
 
-	fillrgb(0.047;0.368;0.254)
-	scplot2(rwdaterat)
-
 	:"Data for Mr. White ratios"
 
 	fillrgb(0.4;0.4;1)
 	scplot2(mwlayrat)
 
-	fillrgb(0;0;0.6)
-	scplot2(mwdaterat)
-
-	:"Data for Thomas Crown"
+	:"Data for Thomas Crown ratios"
 
 	fillrgb(0.7;0.2;0.7)
 	scplot2(tclayrat)
-
-	fillrgb(0.5;0.1;0.5)
-	scplot2(tcdaterat)
 
 	:"Data for Seven ratios"
 
 	fillrgb(0.8;0.8;0.1)
 	scplot2(slayrat)
 
-	fillrgb(0.6;0.6;0)
-	scplot2(sdaterat)
+	:"Data for Krauser ratios"
+
+	fillrgb(1;0;0)
+	scplot2(klayrat)
 
 	draw()
 
-![Empirical data for the cumulative value of ratios over time](./img/daygame_cost_benefit/ratio_data.png "Empirical data for the cumulative value of ratios over time.")
+![Empirical data for the cumulative value of lay-ratios over time](./img/daygame_cost_benefit/layratio_data.png "Empirical data for the cumulative value of lay-ratios over time.")
 
-Data for lay ratios is lighter, data for date ratios is darker.
+Similarly, the data for reported date ratios:
 
-* Green: Roy Walker
-* Beige: Seven
-* Blue: Mr. White
-* Purple: Thomas Crown
+	.l("./load.kg")
+	.l("./data.kg")
+
+	.l("nplot")
+
+	grid([0 10000 1000];[0 0.08 0.002])
+	xtitle("Approaches")
+	ytitle("Cumulative ratios")
+
+	plot(dateratio)
+	text(200;250;"Approach-to-date ratio")
+
+	setdot(4)
+
+	:"Data for Roy Walker ratios"
+
+	fillrgb(0.109;0.847;0.588)
+	scplot2(rwdaterat)
+
+	:"Data for Mr. White ratios"
+
+	fillrgb(0.4;0.4;1)
+	scplot2(mwdaterat)
+
+	:"Data for Thomas Crown ratios"
+
+	fillrgb(0.7;0.2;0.7)
+	scplot2(tcdaterat)
+
+	:"Data for Seven ratios"
+
+	fillrgb(0.8;0.8;0.1)
+	scplot2(sdaterat)
+
+	:"Data for Krauser ratios"
+
+	fillrgb(1;0;0)
+	scplot2(kdaterat)
+
+	draw()
+
+![Empirical data for the cumulative value of date-ratios over time](./img/daygame_cost_benefit/dateratio_data.png "Empirical data for the cumulative value of date-ratios over time.")
 
 A Simple Model
 --------------
@@ -681,11 +732,13 @@ impact they could have.
 
 ### Additional Benefits
 
-#### Flowthrough Benefits
+#### Positive Side-Effects
 
 #### Mental Benefit
 
 ### Additional Costs
+
+#### Fixed Costs
 -->
 
 Conclusion
