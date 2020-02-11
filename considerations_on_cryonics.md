@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-02-01, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-02-09, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)?
@@ -107,8 +107,7 @@ n years old at the moment for a western nation (in this case
 [Germany](https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/_inhalt.html)).
 
 This model usually tries to err on the side of conservative estimates,
-think of the lower range of a 50% confidence interval<!--TODO: wiki
-link-->.
+think of the lower range of a 50% [confidence interval](https://en.wikipedia.org/wiki/Confidence_interval).
 
 The Disvalue of Waiting
 -----------------------
@@ -190,9 +189,10 @@ determined the b and eta values by eyeballing [Wolfram
 Alpha](https://www.wolframalpha.com/input/?i=life+expectancy+of+a+0+year+old+german)
 and using a calculator in [Tomasik
 2016](https://reducing-suffering.org/estimating-aggregate-wild-animal-suffering-from-reproductive-age-and-births-per-female/#Choosing_a_distribution
-"Estimating Aggregate Wild-Animal Suffering from Reproductive Age and
-Births per Female")<!--TODO: find out which exact values statisticians
-use, then use them-->.
+"Estimating Aggregate Wild-Animal Suffering from Reproductive
+Age and Births per Female")<!--TODO: find out which exact values
+statisticians use, then use them: Maybe take cue from here:
+https://www.gwern.net/Longevity#population-survival-curve-->.
 
 	b=0.108
 	eta=0.0001
@@ -229,9 +229,10 @@ This way, one can implement the probability of living until `age` given
 
 ### Longevity Escape Velocity
 
-Longevity Escape Velocity<!--TODO: wikipedia link--> (short LEV) is
-the name for the possible year when anti-aging technology becomes so
-good that people can be rejuvenated faster than they age. Although the
+[Longevity Escape
+Velocity](https://en.wikipedia.org/wiki/Longevity_escape_velocity) (short
+LEV) is the name for the possible year when anti-aging technology becomes
+so good that people can be rejuvenated faster than they age. Although the
 concept is considered idle speculation in many circles, many futurists
 justify not signing up for cryonics because they expect that LEV will
 arrive during their lifetime, and see no reason to sign up for a cryonics
@@ -433,7 +434,7 @@ estimates](https://en.wikipedia.org/wiki/Point_estimation) of these
 values. Perhaps a Monte-Carlo simulation would be more appropriate,
 but one can use my current implementation provides a starting-point. As
 one can see, I will not do any time-discounting on the value of future
-life-years.  <!--TODO: find a link that explains why time discounting
+life-years. <!--TODO: find a link that explains why time discounting
 for future life years is probably misguided-->
 
 ### Value of a Lifeyear in the Future

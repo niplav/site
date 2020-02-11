@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2020-01-21, language: english, status: in progress, importance: 4, confidence: other*
+*author: niplav, created: 2019-01-14, modified: 2020-02-09, language: english, status: in progress, importance: 4, confidence: other*
 
 > __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems
@@ -543,10 +543,8 @@ more efficient, when it is to be used repeatedly?
 
 ### P50 (***) Huffman code.
 
-<!--TODO: Link to wikipedia-->
-
 First of all, consult a good book on discrete mathematics or algorithms
-for a detailed description of Huffman codes!
+for a detailed description of [Huffman codes](https://en.wikipedia.org/wiki/Huffman_coding)!
 
 We suppose a set of symbols with their frequencies, given as a list of
 `[S F]` terms. Example:

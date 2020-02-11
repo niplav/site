@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-10, modified: 2019-09-28, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-04-10, modified: 2020-02-10, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __A while ago, I became interested in personal estimations
 > of life expectancy. I wanted to know how accurate people are
@@ -516,12 +516,13 @@ the numbers for Germany are similar. <!--TODO: Find a german source-->
 It is also assumed that the probability for a trans person passing is
 around 90% (I am just making this number up).
 
-One can then use the binomial distribution to estimate the probability of
-misgendering at least one trans person. The code is in Klong. <!--TODO:
-links for binomial distribution and Klong--> The probability of misgendering
-at least one trans person is calculated by calculating the probability of
-encountering n≤maxt trans people, multiplied with the probability of not
-correctly gendering all of them.
+One can then use the [binomial
+distribution](https://en.wikipedia.org/wiki/Binomial_distribution) to
+estimate the probability of misgendering at least one trans person. The
+code is in Klong. <!--TODO: links for Klong--> The probability of
+misgendering at least one trans person is calculated by calculating the
+probability of encountering n≤maxt trans people, multiplied with the
+probability of not correctly gendering all of them.
 
 		.l("nstat")
 		:"probability of being trans"

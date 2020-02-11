@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-02-09, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-02-10, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -10,23 +10,6 @@
 > that, I modify the model to capture more of the nuance, and arrive at
 > \_. I then perform a Monte-Carlo estimation to determine the uncertainty
 > around the expected value and find that _.__
-
-<!--TODO: integrate data from here:
-
-Runner:
-
-[First 2000 approaches](http://daygamenyc.com/2019/05/31/approaching-2000-approaches/)
-[First 2 years](http://daygamenyc.com/2019/08/06/2-years-on-is-daygame-worth-it/)
-[2019](http://daygamenyc.com/2020/01/01/im-now-an-intermediate-level-daygamer/)
-
-Tom Torero:
-
-[2013](https://krauserpua.com/2014/01/02/guest-post-tom-toreros-2013-daygame-stats/)
-
-More stats:
-
-https://daygamersbible.wordpress.com/2018/05/23/daygame-statistics-and-what-they-tell-your-daygame/
--->
 
 Daygame Cost-Benefit Analysis
 =============================
@@ -41,8 +24,9 @@ logarithmic/radical/hyperbolic?-->
 
 *– [Sebastian Harris](https://www.globalseducer.com/), [“Daygame: A Quick Beginner’s Guide“](https://www.globalseducer.com/daygame/), 2018*
 
-Many daygamers follow the London Daygame Model<!--TODO: link--> which
-is fairly linear and based on approaches that last 5-10 minutes each.
+Many daygamers follow the [London Daygame
+Model](https://tddaygame.com/london-daygame-model/) which is fairly
+linear and based on approaches that last 5-10 minutes each.
 
 Is this method of daygame worth it, and if yes, how much should one
 be doing?
@@ -99,7 +83,9 @@ increased confidence), negative side-effects from prostitution (such as
 addiction<!--TODO: link to prostitution addiction-->), and diminishing
 returns in his analysis.
 
-<!--TODO: he has written a text about marriage & relationships, analyze that too?-->
+<!--TODO: he has written a text about marriage & relationships, analyze that too?
+https://freenortherner.com/2012/11/01/financial-analysis-of-sex-relationship-vs-marriage/
+-->
 
 Ratios
 ------
@@ -122,6 +108,13 @@ and the approach-to-lay ratio.
 
 James Tusk is a very good looking daygame coach, so these numbers are
 quite high.
+
+[daygamersbible
+2018](https://daygamersbible.wordpress.com/2018/05/23/daygame-statistics-and-what-they-tell-your-daygame/
+"Daygame Statistics and What They Tell About Your Daygame") proclaims
+16.9% numbers/approaches, 22.4% dates/numbers and 37.1% lays/dates
+(that would be `$0.169*0.224=0.0378$` dates per approach, and
+`$0.169*0.224*0.371=0.140$` lays per approach).
 
 I remember a Tom Torero video where he recounts
 these ratios for beginners, but it seems to
@@ -329,6 +322,22 @@ Date ratios:
 	kdate::[[1000 60][1480 110][2150 160]]
 	kdaterat::{(*x),%/|x}'kdate
 
+<!--TODO: these two-->
+
+#### Runner
+
+[Runner](http://daygamenyc.com):
+
+* [First 2000 approaches](http://daygamenyc.com/2019/05/31/approaching-2000-approaches/)
+* [First 2 years](http://daygamenyc.com/2019/08/06/2-years-on-is-daygame-worth-it/)
+* [2019](http://daygamenyc.com/2020/01/01/im-now-an-intermediate-level-daygamer/)
+
+#### Tom Torero
+
+[Tom Torero](https://tomtorero.com/):
+
+* [2013](https://krauserpua.com/2014/01/02/guest-post-tom-toreros-2013-daygame-stats/)
+
 #### Visualizing the Data
 
 * Green: Roy Walker
@@ -432,11 +441,11 @@ A Simple Model
 
 ### Cost
 
-Daygame has several different obvious costs: opportunity costs<!--TODO:
-wiki link--> from the time spent approaching and dating women who then
-flake (one could be doing better things in the same time, like pursuing
-other hobbies, learning a language or musical instrument) and simply
-the cost of paying for dates.
+Daygame has several different obvious costs: [opportunity
+costs](https://en.wikipedia.org/wiki/Opportunity_cost) from the time
+spent approaching and dating women who then flake (one could be doing
+better things in the same time, like pursuing other hobbies, learning
+a language or musical instrument) and simply the cost of paying for dates.
 
 #### Approaching Opportunity Cost
 
@@ -445,31 +454,32 @@ the cost of paying for dates.
 > 3-5 times a week and talking to 10 girls during each session (keep each
 > session to no more than 2 hours).
 
-*– Tom Torero<!--TODO: link-->, [“Beginner's Guide to Daygame”](./doc/daygame_cost_benefit/beginners_guide_to_daygame_torero_2018.pdf) p. 6, 2018*
+*– [Tom Torero](https://tomtorero.com/), [“Beginner's Guide to Daygame”](./doc/daygame_cost_benefit/beginners_guide_to_daygame_torero_2018.pdf) p. 6, 2018*
 
 > Most regular hustlers go out 3-5 times a week and do 10 approaches
 > each session, meaning 30-50 per week.
 
-*– Tom Torero<!--TODO: link-->, [“Beginner's Guide to Daygame”](./doc/daygame_cost_benefit/beginners_guide_to_daygame_torero_2018.pdf) p. 13, 2018*
+*– [Tom Torero](https://tomtorero.com/), [“Beginner's Guide to Daygame”](./doc/daygame_cost_benefit/beginners_guide_to_daygame_torero_2018.pdf) p. 13, 2018*
 
 I will assume that most daygamers will do around 4 approaches an hour
 (the ones I have met are more choosy, so they have a lower volume),
 with 15 minutes for one approach.
 
-The opportunity cost<!--TODO: wiki--> of daygame is unclear – what would
-one be doing instead? One could dream of daygamers instead cultivating
-friendships, learning languages or instruments and meditating, and while
-that could certainly sometimes be the case, a lot of that time would also
-be spent on mindlessly browsing the internet, watching netflix or doing
-other things that aren't terribly fulfilling or valuable. Economists
-often assume that the opportunity cost of an activity to be the money
-one could have earned with a minimum wage job during that time<!--TODO:
+The opportunity cost of daygame is unclear – what would one be doing
+instead? One could dream of daygamers instead cultivating friendships,
+learning languages or instruments and meditating, and while that could
+certainly sometimes be the case, a lot of that time would also be spent
+on mindlessly browsing the internet, watching netflix or doing other
+things that aren't terribly fulfilling or valuable. Economists often
+assume that the opportunity cost of an activity to be the money one
+could have earned with a minimum wage job during that time<!--TODO:
 [citation needed]-->, but that seems to go too far: an additional hour
 spent working might be net negative, even with taking wage into account
 (working hours have diminishing and at some point negative marginal
 returns<!--TODO: link--> because of exhaustion).
 
-<!--TODO: minimum wage in different western countries-->
+<!--TODO: minimum wage in different western countries
+https://en.wikipedia.org/wiki/Minimum_wage-->
 
 And daygame is generally an activity with comparatively much value:
 one spends time outside, moving around and interacting with other people.
@@ -609,10 +619,9 @@ daygamer sleeps with the same woman twice (some women become regular sex
 partners, even if the overwhelming majority is only a one-night stand).
 
 I will also assume that the dimimishing returns on sex with different
-partners are quadratic<!--TODO: is this the right word?-->(they can be
-calculated with the square root), because for men having sex with many
-partners has a high evolutionary benefit, and logarithmic returns would
-seem to punishing for that.
+partners are square-rooted, because for men having sex with many partners
+has a high evolutionary benefit, and logarithmic returns would seem to
+punishing for that.
 
 I will also assume that the diminishing returns on sex with the same
 partner _is_ logarithmic, because for men, having sex multiple times with

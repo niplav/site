@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-09, modified: 2019-08-15, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-02-09, modified: 2020-02-09, language: english, status: in progress, importance: 2, confidence: log*
 
 > __The list of 99 problems, originally for Prolog, has been translated
 > for a few other languages. This page collects links to them.__
@@ -12,8 +12,9 @@
 Problems with Solutions
 -----------------------
 
-The original list was written by Werner
-Hett for the Prolog <!--TODO: wikipedia link-->programming language and later
+The original list was written by Werner Hett for the
+[Prolog](https://en.wikipedia.org/wiki/Prolog)
+programming language and later
 [re-organized](https://sites.google.com/site/prologsite/prolog-problems).
 Most translations into other languages use the old ordering, which only
 contains 88 problems, due to both sub-problems and gaps in the order.
