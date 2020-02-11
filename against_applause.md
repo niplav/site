@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2020-01-26, language: english, status: finished, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-04-11, modified: 2020-02-09, language: english, status: finished, importance: 4, confidence: unlikely*
 
 > __In western cultures, it is nearly universal for people to clap
 > before and after pieces of classical music and jazz. An argument
@@ -391,7 +391,6 @@ TODO: research this topic a lot more:
 * https://www.theguardian.com/commentisfree/2007/sep/12/comment.comment2
 * http://kerrygaa.proboards.com/thread/4484/minutes-silence-applause
 * http://www.footballforums.net/threads/minutes-silence-or-minutes-applause.193941/
-* https://old.reddit.com/r/slatestarcodex/comments/9x323i/applause_vs_jazz_hands/
 * https://www.cpr.org/2014/06/09/the-clapping-question-should-classical-audiences-applaud-between-movements/: IMPORTANT, follow the links
 * https://affirmativeright.blogspot.com/2015/03/against-applause-cultivating-aesthetic.html
 * https://web.archive.org/web/20100609161055/http://library.gallaudet.edu/Library/Deaf_Research_Help/Frequently_Asked_Questions_(FAQs)/Cultural_Social_Medical/History_of_Visual_Applause_for_the_Deaf.html

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-02-01, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2020-02-09, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -14,7 +14,7 @@ January 2020
 ### Writing
 
 * Started [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
-* Added Longevity Escape Velocity<!--TODO: wiki link--> impacts to [Considerations on Cryonics](./considerations_on_cryonics.html)
+* Added [Longevity Escape Velocity](https://en.wikipedia.org/wiki/Longevity_escape_velocity) impacts to [Considerations on Cryonics](./considerations_on_cryonics.html)
 * Notes
 	* [Some Thoughts about the Qualia Research Institute](./notes.html#Some-Thoughts-about-the-Qualia-Research-Institute)
 	* [The Benefit of Reading LessWrong](./notes.html#The-Benefit-of-Reading-LessWrong)

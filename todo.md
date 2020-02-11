@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-02-07, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-02-11, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -150,6 +150,8 @@ Texts
 * Long-range vs. short-range forecasts from Predictionbook & Metaculus
 	* Analyse the brier scores of predictions from those sites
 	* Find out how the accuracy declines over time
+	* https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting
+	* https://github.com/gimpf/metaculus-question-stats
 * Precommit to Enlightenment
 	*	precommit to performing the steps from TMI & MCTB2 for
 		5000 hours over 10 years (~1h30m every day on average),
@@ -175,6 +177,7 @@ Texts
 * The “If Everyone Just” Argument
 	* The argument just assumes one of the biggest problems away: coordination and cooperation
 	* Related: [Malthusianisms](https://www.scottaaronson.com/blog/?p=418)
+	* Related: https://squareallworthy.tumblr.com/post/163790039847/everyone-will-not-just
 * Information and Markets:
 	* Explanation
 		* Information as a non-scarce good
@@ -247,6 +250,7 @@ Texts
 			* http://www.solidangl.es/2015/04/a-radical-new-look-for-logarithms.html
 	* Read
 		* /usr/local/doc/unread/notation/notation_as_a_tool_of_thought_iverson_1986.pdf
+* Cryonics in Germany FAQ
 
 ### Notes
 

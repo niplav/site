@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-15, modified: 2019-12-24, language: english, status: notes, importance: 5, confidence: theory*
+*author: niplav, created: 2019-08-15, modified: 2020-02-09, language: english, status: notes, importance: 5, confidence: theory*
 
 > __Many people have very different conceptions on how to think about
 > consciousness, intelligence, sentience and information processing. A
@@ -24,9 +24,10 @@ One possible method to clear this confusion could be to establish broad
 definitions for different aspects of minds, and make diagrams that
 represent the relation of these different aspects.
 
-This text uses Venn-diagram-<!--TODO: link-->like diagrams to visualize
-these different conceptions, but adds notation to indicate that classes
-are meaningless or equal (or both).
+This text uses [Venn
+diagram](https://en.wikipedia.org/wiki/Venn_diagram)-like diagrams to
+visualize these different conceptions, but adds notation to indicate
+that classes are meaningless or equal (or both).
 
 Relevant Classes
 ----------------
