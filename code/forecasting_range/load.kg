@@ -5,13 +5,13 @@
 
 data::+{1.0:$'x}'raw
 :"For days"
-diffs::data@2
+:"diffs::data@2"
 :"For weeks"
 :"diffs::{_x%7}'data@2"
 :"For months (roughly)"
 :"diffs::{_x%30}'data@2"
 "For years"
-:"diffs::{_x%365}'data@2"
+diffs::{_x%365}'data@2
 ress::data@0
 fcs::data@1
 

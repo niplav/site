@@ -164,6 +164,7 @@ Texts
 	* Bounded Utility
 	* Abstain From Assigning Probabilities to Some Events
 		* Probability of X is undefined
+* Creatine & Vegetarianism IQ?
 
 ### Ideas
 
@@ -585,6 +586,17 @@ Programming
 	* program dealing with nested data structures
 	* similar to lisp, but without execution
 	* am I NIHing this?
+* noise
+	* utility for producing white/pink/brown/&c noise
+* spiel
+	* utility for logging/visualizing daygame stats
+* orakel
+	* utility for making/ranking/visualizing forecasts
+* dukkha
+	* utility for logging/visualizing meditation stats
+	* get inspiration from meditavo
+* tomate
+	* little pomodoro utility
 
 ### Klong Libraries
 

@@ -322,7 +322,7 @@ Date ratios:
 	kdate::[[1000 60][1480 110][2150 160]]
 	kdaterat::{(*x),%/|x}'kdate
 
-<!--TODO: these two-->
+<!--TODO: these two
 
 #### Runner
 
@@ -337,6 +337,11 @@ Date ratios:
 [Tom Torero](https://tomtorero.com/):
 
 * [2013](https://krauserpua.com/2014/01/02/guest-post-tom-toreros-2013-daygame-stats/)
+
+And this one:
+
+https://old.reddit.com/r/seduction/comments/9ock2a/my_daygame_experience_so_far_statistics_and/
+-->
 
 #### Visualizing the Data
 
