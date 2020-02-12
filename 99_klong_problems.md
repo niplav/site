@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2020-02-09, language: english, status: in progress, importance: 4, confidence: other*
+*author: niplav, created: 2019-01-14, modified: 2020-02-12, language: english, status: in progress, importance: 4, confidence: other*
 
 > __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems
@@ -758,7 +758,7 @@ efficient ways to do that.
 ### P63 (*) Construct a complete binary tree.
 
 A complete binary tree with height H is defined as follows: the levels
-1,2,3,…,H-1 contain the maximum number of nodes (i.e `$2^(i-1)$` at
+1,2,3,…,H-1 contain the maximum number of nodes (i.e `$2^{i-1}$` at
 the level i, note that we start counting the levels from 1 at the root).
 
 In level H, which may contain less than the maximum possible number of
@@ -773,7 +773,7 @@ We assign an address number to each node in a complete binary tree by
 enumerating the nodes in levelorder, starting at the root with number
 1. In doing so, we realize that for every node X with address A the
 following property holds: The address of X's left and right successors are
-2*A and 2*A+1, respectively, supposed the successors do exist. This fact
+2\*A and 2\*A+1, respectively, supposed the successors do exist. This fact
 can be used to elegantly construct a complete binary tree structure. Write
 a function `completebintree` which returns a complete binary tree for
 a given number of nodes.

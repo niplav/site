@@ -234,9 +234,9 @@ they describe.
 ### "Rationalism"
 
 The name is already occupied by a philosophical tradition called
-"rationalism" <!--TODO: link--> which has very little relation to the
-collection of people called "rationalists". Also, the name seems to be
-quite pretentious to outsiders.
+["rationalism"](https://en.wikipedia.org/wiki/Rationalism) which has very
+little relation to the collection of people on the internet usually called
+"rationalists". Also, the name seems to be quite pretentious to outsiders.
 
 Alternatives:
 
@@ -593,13 +593,14 @@ Some Thoughts about the Qualia Research Institute
 
 ### QRI and AGI
 
-Most of the value that QRI creates is going to take place before AGI
-arrives. They seem to believe otherwise<!--Link Johnson here-->, but
-their arguments for this depend on specific philosophical assumptions
-(e.g. open individualism and moral realism) which are at least contentious
-among alignment researchers. Any valence research done by them today
-could be done by an aligned AGI in higher quality & accuracy, but we
-currently don't have such an AI.
+Most of the value that QRI creates is going to
+take place before AGI arrives. They seem to [believe
+otherwise](https://opentheory.net/2015/09/fai_and_valence/), but their
+arguments for this depend on specific philosophical assumptions (e.g. open
+individualism and moral realism) which are at least contentious among
+alignment researchers. Any valence research done by them today could be
+done by an aligned AGI in higher quality & accuracy, but we currently
+don't have such an AI.
 
 Because of this, QRI will have high value if AGI doesn't arrive very
 quickly, let's say it takes 80 years to arrive. This seems quite unlikely,
@@ -614,21 +615,22 @@ take 20 years to achieve anything (if they in fact achieve anything).
 
 There are two different axes of achievement: technological and social.
 
-Technological achievements mean that their theories turn out to be
-correct (or they develop new & correct theories) and they manage to
-develop technologies on the basis of these theories. Low technological
-success could mean that they mostly use existing drugs to better treat
-existing conditions and manage to better identify extrem suffering (making
+Technological achievements mean that their theories turn out to be correct
+(or they develop new & correct theories) and they manage to develop
+technologies on the basis of these theories. Low technological success
+could mean that they mostly use existing drugs to better treat existing
+conditions and manage to better identify extrem suffering (making
 the average affected person's life 2% better).  Medium technological
 success would include them developing new drugs with a lower tolerance
 threshold<!--TODO: is this correctly phrased?-->, developing a correct
 theory of valence (but finding out that it has limited practical
-application), starting to create a structure of mind-state space, and
-being still better at preventing extreme suffering (making the average
-affected person's life 20% better). High technological success would
-include being able to construct hedonium, creating mood organs <!--TODO:
-link--> and identifying most of the dimensions of mind-state space
-(making the average affected person's life twice as good).
+application), starting to create a structure of mind-state space,
+and being still better at preventing extreme suffering (making
+the average affected person's life 20% better). High technological
+success would include being able to construct hedonium, creating [mood
+organs](https://qualiacomputing.com/2017/05/15/the-penfield-mood-organ/)
+and identifying most of the dimensions of mind-state space (making the
+average affected person's life twice as good).
 
 Social achievements occur when the public accepts these technological
 developments and incorporates them. Low social acceptance could mean
@@ -641,9 +643,9 @@ countries (perhaps due to the price of such technologies), or them being
 widely used among a certain subset of the population (think psychonauts
 today, but a bit more mainstream) (~1 mio. person-years affected). High
 social acceptance would entail people in developed countries having
-direct access to the technologies QRI has developed, up to achieving
-a Pearcean<!--TODO: link--> hedonistic utopia (~100 mio. person-years
-affected).
+direct access to the technologies QRI has developed, up to achieving a
+[Pearcean](https://en.wikipedia.org/wiki/David_Pearce_(philosopher))
+hedonistic utopia (~100 mio. person-years affected).
 
 In the most pessimistic case, complete failure, both axes collapse: No
 social acceptance at all is like the technologies were never developed,

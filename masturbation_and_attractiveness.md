@@ -370,7 +370,7 @@ within cultures.-->
 TODO: read
 /usr/local/doc/unread/blackpill/gender_differences_in_receptivity_to_sexual_offers_tappé_et_al_2013.pdf
 /usr/local/doc/unread/blackpill/gender_differences_in_receptivity_to_sexual_offers_clark_hatfield_1989.pdf
-/usr/local/blackpill/psychological_perspectives_on_sex_tappé_2012.pdf
+/usr/local/doc/unread/blackpill/psychological_perspectives_on_sex_tappé_2012.pdf
 -->
 
 Results Analysis
@@ -668,8 +668,8 @@ Problems
 
 <!--
 TODO: Read:
-/usr/local/doc/unread/blackpill/cross_cultural_agreement_in_facial_attractiveness_preferences_coetzee_2014.pdf
-/usr/local/doc/unread/blackpill/maxims_or_myths_of_beauty_langlois_et_al_2000.pdf
+/usr/local/doc/unread/attractiveness/cross_cultural_agreement_in_facial_attractiveness_preferences_coetzee_2014.pdf
+/usr/local/doc/unread/attractiveness/maxims_or_myths_of_beauty_langlois_et_al_2000.pdf
 -->
 
 One possible criticism of the above experiment could be that no
