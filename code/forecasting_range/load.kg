@@ -1,20 +1,41 @@
 .l("csv")
 .l("nstat")
 
-.fc(.ic("../../data/pb.csv"));raw::csv.load()
+.fc(.ic("../../data/pb.csv"));pbraw::csv.load()
 
-data::+{1.0:$'x}'raw
+pbdata::+{1.0:$'x}'pbraw
 :"For days"
-:"diffs::data@2"
+:"pbdiffs::pbdata@2"
 :"For weeks"
-:"diffs::{_x%7}'data@2"
+:"pbdiffs::{_x%7}'pbdata@2"
 :"For months (roughly)"
-:"diffs::{_x%30}'data@2"
+pbdiffs::{_x%30}'pbdata@2
 "For years"
-diffs::{_x%365}'data@2
-ress::data@0
-fcs::data@1
+:"pbdiffs::{_x%365}'pbdata@2"
 
-dg::=diffs
-diffbrier::{(diffs@*x),mse.set(fcs@x;ress@x)}'dg
-diffbrier::diffbrier@<*'diffbrier
+pbress::pbdata@0
+pbfcs::pbdata@1
+
+pbdg::=pbdiffs
+pbdiffbrier::{(pbdiffs@*x),mse.set(pbfcs@x;pbress@x)}'pbdg
+pbdiffbrier::pbdiffbrier@<*'pbdiffbrier
+
+.fc(.ic("../../data/met.csv"));metraw::csv.load()
+
+metdata::+{1.0:$'x}'metraw
+:"For days"
+:"metdiffs::metdata@2"
+:"For weeks"
+:"metdiffs::{_x%7}'metdata@2"
+:"For months (roughly)"
+metdiffs::{_x%30}'metdata@2
+"For years"
+:"metdiffs::{_x%365}'metdata@2"
+
+metress::metdata@0
+metfcs::metdata@1
+
+metdg::=metdiffs
+metdiffbrier::{(metdiffs@*x),mse.set(metfcs@x;metress@x)}'metdg
+metdiffbrier::metdiffbrier@<*'metdiffbrier
+
