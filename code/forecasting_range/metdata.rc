@@ -1,0 +1,6 @@
+jq -f met_pre.jq <../../data/metaculus_raw.json |
+jq '.[]|[.res, .restime, .commpred, .predtime]|@csv' |
+tr -d '\\"' |
+sed 's/\.[0-9]\+Z//' |
+tr ':TZ-' ' ' |
+awk -F, '{ printf("%.0f,%.2f,%d\n", $1, $3, (mktime($2)-$4)/86400) }'

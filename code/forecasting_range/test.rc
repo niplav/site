@@ -1,0 +1,11 @@
+#!/usr/bin/env rc
+
+for(i in (188 550 3427 7 1313 2537))
+{
+	pred_dir=`{jq '.results|.[]|select(.id=='$i')|.prediction_timeseries|length' <../../data/metaculus_raw.json}
+	pred_my=`{jq -f met_pre.jq <../../data/metaculus_raw.json | grep '"id": '$i}
+	if(! ~ $pred_dir $pred_my)
+		echo 'success with '$i
+	if not
+		echo 'failure with '$i
+}
