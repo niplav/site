@@ -543,6 +543,9 @@ However, I can think of 3 very specific (and thereby highly unlikely)
 scenarios where people could be reuscitated into a (for them) net-negative
 world.
 
+<!--See also:
+https://www.lesswrong.com/posts/MzmMZmSzyeLPjLQjD/survey-what-s-the-most-negative-plausible-cryonics-works-->
+
 ##### Ascended Economy
 
 The [ascended
