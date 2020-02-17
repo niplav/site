@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-02-11, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-02-17, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -19,6 +19,7 @@ Site
 * Get rid of "we", use "I" instead.
 * Confidence intervals for some values
 * Improve citation (both to wikipedia and to papers)
+* Make all scripted programs banged
 
 Texts
 -----
@@ -259,6 +260,8 @@ Texts
 * Believing Something Doesn't Mean You to Tell it to Everyone
 * You Actually Don't Need to Convice Idiots
 * Hug the Objective
+* Report: Walking Barefoot
+* Report: Riding the Bike a Lot
 * Report: Stopping to Bite Your Nails
 	* Cut Your Nails Every Week
 * Report: Becoming Marginally More Productive
@@ -662,6 +665,7 @@ Programming
 	* nplot
 		* Support for multiple bargraphs
 		* Bargraphs with negative values
+		* Logarithmic scales for graphs
 		* setrgb doesn't work properly: after setting the color once, it can only be reset to black
 		* Example:
 
