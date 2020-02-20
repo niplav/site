@@ -166,6 +166,9 @@ Texts
 	* Abstain From Assigning Probabilities to Some Events
 		* Probability of X is undefined
 * Creatine & Vegetarianism IQ?
+* How difficult is it to manipulate real existing prediction markets?
+	* PredictIt
+	* BetFair
 
 ### Ideas
 
@@ -267,6 +270,7 @@ Texts
 * Report: Becoming Marginally More Productive
 	* Follow Alexey Guzey's Advice, Leave the House
 	* Internet Abstinence
+* No One Knows & No One Can Know
 
 ### Misc
 
