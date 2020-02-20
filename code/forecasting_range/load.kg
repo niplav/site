@@ -5,11 +5,11 @@
 
 pbdata::+{1.0:$'x}'pbraw
 :"For days"
-pbdiffs::pbdata@2
+:"pbdiffs::pbdata@2"
 :"For weeks"
 :"pbdiffs::{_x%7}'pbdata@2"
 :"For months (roughly)"
-:"pbdiffs::{_x%30}'pbdata@2"
+pbdiffs::{_x%30}'pbdata@2
 "For years"
 :"pbdiffs::{_x%365}'pbdata@2"
 
@@ -24,11 +24,11 @@ pbdiffbrier::pbdiffbrier@<*'pbdiffbrier
 
 metdata::+{1.0:$'x}'metraw
 :"For days"
-metdiffs::metdata@2
+:"metdiffs::metdata@2"
 :"For weeks"
 :"metdiffs::{_x%7}'metdata@2"
 :"For months (roughly)"
-:"metdiffs::{_x%30}'metdata@2"
+metdiffs::{_x%30}'metdata@2
 "For years"
 :"metdiffs::{_x%365}'metdata@2"
 
