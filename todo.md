@@ -169,6 +169,7 @@ Texts
 * How difficult is it to manipulate real existing prediction markets?
 	* PredictIt
 	* BetFair
+* Survey Advanced Meditators about Their Attainments and their Monetary Worth
 
 ### Ideas
 
@@ -231,6 +232,7 @@ Texts
 	* Examples (?)
 		* Anti-biotics
 		* de Grey anti-aging proposal
+* Cryptographic Agreement on Bribing
 
 ### Collections
 
