@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-02-10, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-03-16, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -734,15 +734,15 @@ This can be visualized as well:
 A Slightly More Complex Model
 ------------------------------
 
-### Other Possible Costs
-
-One could take other costs into account: Costs from renting an apartment
-near the center of a big city, buying better clothes, whitening ones
-teeth, possible costs of being revealed and despised as PUA by friends
-or family, negative psychological effects from constant rejection and
-similar considerations. Those seemed not central enough for this analysis,
-or negligible in scope, but it might be interesting to estimate what
-impact they could have.
+Of course one might answer that the simple model fails to capture much
+of the subtlety of the situation: Proponents of daygame might mention
+positive psychological side-effects such as increased self-confidence
+and resilience to rejection. Opponents of daygame could point at direct
+financial expenditures (such as possibly having to buy new clothes,
+renting an apartment that is closer to good places for daygame),
+and also possible social and psychological costs (scars from constant
+rejection and mockery from being found out to be a pick up "artist"),
+if they ever stopped moaning about how they disapprove of daygame.
 
 ### Additional Benefits
 
@@ -753,6 +753,8 @@ impact they could have.
 ### Additional Costs
 
 #### Fixed Costs
+
+#### Social Costs from Being Found Out
 -->
 
 Conclusion
@@ -773,7 +775,7 @@ Appendix A: A Guesstimate Model of the Value
 --------------------------------------------
 -->
 <!--
-Appendix B: Empirically Checking the Assumtpions
+Appendix B: Empirically Checking the Assumptions
 ------------------------------------------------
 
 Log:

@@ -470,12 +470,57 @@ Proof:
 
 \vskip 2mm
 
-$$(A \cap B) \times (X \cap Y)=$$
-$$\{(u,v): u \in (A \cap B), v \in (X \cap Y)\}=$$
-$$\{(u,v): u \in A \land u \in B, v \in (X \cap Y)\}=$$
-$$\{(u,v): u \in A, v \in (X \cap Y)\} \cap \{(u,v): u \in B, v \in (X \cap Y)\}=$$
-$$\{(u,v): u \in A, v \in X \land v \in Y\} \cap \{(u,v): u \in B, v \in X \land v \in Y)\}=$$
-$$\{(u,v): u \in A, v \in X\} \cap \{(u,v): u \in A, v \in Y\} \cap \{(u,v): u \in B, v \in X\} \cap \{(u,v): u \in B, v \in Y)\}=$$
-$$(A \times X) \cap (A \times Y) \cap (B \times X) \cap (B \times Y)$$
+$$(A \times X) \cap (B \times Y)=$$
+$$\{(x,y), x \in A, y \in X\} \cap \{(v,w), v \in B, w \in Y\}=$$
+$$\{(x,y), x \in A \land x \in B, y \in X \land y \in Y\}=$$
+$$\{(x,y), x \in A \cap B, y \in X \cap Y\}=$$
+$$(A \cap B) \times (X \cap Y)$$
+
+\vskip 2mm
+\settabs \+ \hskip 3mm& \cr
+\vbox{
+	\hrule width 3mm
+	\+ \vrule height 3mm
+	& \vrule height 3mm \cr
+	\hrule width 3mm
+}
+
+\vskip 5mm
+
+(iii) To be shown: $(A-B) \times X = (A \times X)-(B \times X)$
+
+\vskip 2mm
+
+Two-sided proof by contradiction:
+
+\vskip 2mm
+
+1. $(A-B)\times X \subset (A \times X)-(B \times X)$
+
+Let $(u,v) \in (A-B) \times X$. Then $u \in (A-B)$, and $v \in X$. Suppose
+$(u, v) \not \in (A \times X)-(B\times X)$. Then $(u,v) \in (A \times X)
+\cap (B \times X)$. Then $(u,v) \in (A \cap B) \times (X \cap X)$. Then
+$u \in A \cap B$ and $v \in X$. But if $u \in A \cap B$, then $u \not
+\in A-B$! Contradiction.
+
+\vskip 2mm
+
+2. $ (A \times X)-(B \times X) \subset (A-B)\times X$
+
+Let $(u,v) \in (A \times X)-(B\times X)$. Then $(u,v)\in(A \times X)$
+and $(u,v)\not \in (B \times X)$. Because $v$ must be in $X$, and there
+is no flexibility there, $u \not \in B$. Suppose $(u,v)\not \in (A-B)
+\times X$. Since necessariliy $v \in X$, $u \not \in A-B$. But if $u
+\not \in A-B$, $u$ must be an element of $A\cap B$. Then $u \in B$,
+and there is a contradiction.
+
+\vskip 2mm
+\settabs \+ \hskip 3mm& \cr
+\vbox{
+	\hrule width 3mm
+	\+ \vrule height 3mm
+	& \vrule height 3mm \cr
+	\hrule width 3mm
+}
 
 \bye
