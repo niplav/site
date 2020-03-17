@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2020-02-07, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2020-03-16, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.html "99 Klong
 > Problems") in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -2248,6 +2248,61 @@ The problem here is quite obvious: `s59` is very slow for values ≥4,
 and 12 is the first value for which `d4` is 4. So this also
 means one needs to take another approach to find out what the
 number of heigh-balanced binary trees with 15 nodes is.
+
+#### A Generative Solution
+
+But there should be a simpler version: Why not recursively generate all
+balanced subtrees with the fitting number of nodes, and then combine
+these in all fitting ways?
+
+However, this turns out to be more complex than I imagined. The algorithm
+has 4 relevant steps, which have to be tackeled separately. The relevant
+steps are as follows:
+
+1. Determine the maximally uneven weighting of nodes on both sides
+2. Generate a list of possible weightings for both sides
+3. Generate all trees for all given weightings
+4. Combine all trees within a weighting
+5. Filter out trees that have a height difference of more than 1
+
+To explain the algorithm, I will go through all these steps separately.
+
+##### Determine the Maximally Uneven Weighting of Nodes
+
+I define a maximally unevenly weighted balanced binary tree to be a
+tree where the left subtree contains as few nodes as possible so that
+the right subtree is only one level deeper than the left subtree.
+
+Although that definition is super clear, I will humor the reader with
+an example: The maximally unevenly weighted balanced binary tree with
+14 nodes.
+
+![The maximally unevenly weighted balanced binary tree with 14 nodes](./img/99_klong/14_unbalanced.png "The maximally unevenly weighted balanced binary tree with 14 nodes")
+
+As one can see, the right subtree is one level deeper than the left
+subtree.
+
+This means that the left subtree is always as sparse as possible, while
+the right subtree is a perfect (or nearly perfect) binary tree.
+
+To determine the number of nodes in the left subtree, I will iterate
+the number of nodes in the left subtree from 0 upwards until the right
+subtree is only 1 level deeper:
+
+	d5::{[a];a::x-1;{x,a-x}@{d3(a-x)>1+d4(x)}{x+1}:~0}
+
+The function returns the a list with the number of nodes in the left
+subtree and the number of nodes in the right subtree.
+
+##### Generating a List of Possible Weightings for Both Sides
+
+For the list of possible weightings on both sides, we can use `s22` to
+generate the list from the lower to the upper bound, and then combine that
+pairwise with the reverse. This just means that if we must minimally have
+4 nodes on the left side, then we can have 5, 6, 7, and so on nodes on the
+left side, but only if we have 8, 7, 6, and so on nodes on the right side.
+
+	d6::{[z];z::s22@d5(x);z,'|z}
 
 <!--
 TODO: understand, clean up, explain & test this code

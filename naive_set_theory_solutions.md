@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2019-12-27, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2020-03-16, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -354,5 +354,40 @@ Proof:
 	\{(e, x): e \in A, x \in X\} \cup \{(e, x): e \in B, x \in X\}=\\
 	(A \times X) \cup (B \times X)$$
 </div>
+
+□
+
+(ii) Te be shown: `$(A \cap B) \times (X \cap Y)=(A \times X) \cap (B \times Y)$`
+
+<div>
+	$$(A \times X) \cap (B \times Y)=\\
+	\{(x,y), x \in A, y \in X\} \cap \{(v,w), v \in B, w \in Y\}=\\
+	\{(x,y), x \in A \land x \in B, y \in X \land y \in Y\}=\\
+	\{(x,y), x \in A \cap B, y \in X \cap Y\}=\\
+	(A \cap B) \times (X \cap Y)$$
+</div>
+
+□
+
+(iii) To be shown: `$(A-B) \times X = (A \times X)-(B \times X)$`
+
+Two-sided proof by contradiction:
+
+1\. `$(A-B)\times X \subset (A \times X)-(B \times X)$`
+
+Let `$(u,v) \in (A-B) \times X$`. Then `$u \in (A-B)$`, and `$v \in X$`.
+Suppose `$(u, v) \not \in (A \times X)-(B\times X)$`. Then
+`$(u,v) \in (A \times X) \cap (B \times X)$`. Then `$(u,v) \in (A \cap B) \times (X \cap X)$`.
+Then `$u \in A \cap B$` and `$v \in X$`. But if `$u \in A \cap B$`,
+then `$u \not \in A-B$`! Contradiction.
+
+2\. `$ (A \times X)-(B \times X) \subset (A-B)\times X$`
+
+Let `$(u,v) \in (A \times X)-(B\times X)$`. Then `$(u,v)\in(A \times X)$`
+and `$(u,v)\not \in (B \times X)$`. Because `$v$` must be in `$X$`, and there
+is no flexibility there, `$u \not \in B$`. Suppose `$(u,v)\not \in (A-B) \times X$`.
+Since necessariliy `$v \in X$, $u \not \in A-B$`. But if `$u \not \in A-B$, $u$`
+must be an element of `$A\cap B$`. Then `$u \in B$`,
+and there is a contradiction.
 
 □

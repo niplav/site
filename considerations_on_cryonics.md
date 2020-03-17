@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-02-09, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-03-16, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)?
@@ -439,8 +439,10 @@ for future life years is probably misguided-->
 
 ### Value of a Lifeyear in the Future
 
-Much ink and pixels have been spilled on the question of the
-quality of the future, very little of it trying to make accurate
+<!-- Dangers from incompetent revival -->
+
+Much ink and pixels have been spilled on the question of the quality of
+the future, very little of it trying to make accurate or even resolvable
 predictions.<!--TODO: find out what positive/negative/circular/other
 accounts of history are called, link to some source contrasting them,
 or provide some contrasting myself--> One way to look at the question

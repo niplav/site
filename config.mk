@@ -1,4 +1,4 @@
-MARKDOWN=markdown_py
+MARKDOWN=markdown2
 
 CONF=config.mk header.html main.css
 
