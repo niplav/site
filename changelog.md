@@ -1,12 +1,20 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-02-09, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2020-03-18, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
+
+February 2020
+-------------
+
+### Writing
+
+* [Further Hypotheses on Masturbation and Attractiveness](./masturbation_and_attractiveness.html#Appendix-C-Further-Hypotheses)
+* [Empirical Data for Daygame Ratios](./daygame_cost_benefit.html#Empirical-Data-for-Ratios)
 
 January 2020
 ------------

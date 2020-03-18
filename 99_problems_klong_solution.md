@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2020-03-16, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2020-03-18, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.html "99 Klong
 > Problems") in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -1827,7 +1827,7 @@ a right-leaning tree.
 Now, one can also test the solution of problem P56:
 
 		testsymmetric(construct([5 3 18 1 4 12 21]))
-        1
+	1
 		testsymmetric(construct([3 2 5 7 1]))
 	0
 
@@ -2262,8 +2262,7 @@ steps are as follows:
 1. Determine the maximally uneven weighting of nodes on both sides
 2. Generate a list of possible weightings for both sides
 3. Generate all trees for all given weightings
-4. Combine all trees within a weighting
-5. Filter out trees that have a height difference of more than 1
+4. Filter out duplicates and trees with the wrong height difference
 
 To explain the algorithm, I will go through all these steps separately.
 
@@ -2303,6 +2302,56 @@ pairwise with the reverse. This just means that if we must minimally have
 left side, but only if we have 8, 7, 6, and so on nodes on the right side.
 
 	d6::{[z];z::s22@d5(x);z,'|z}
+
+##### Generating all Trees for all Given Weightings
+
+After one has determined the possible weightings using `d6`, one can now
+generate the trees. This can be done by implementing `s60` as a recursive
+function: The completely balanced binary trees with 0 nodes is known:
+it is simply the empty list `[]`.
+
+Since each weighting is a pair of numbers in a list, one can generate
+the trees for this weighting by iterating `s60` over this list. That
+produces a list of two lists, which each contain trees. Since `d6`
+generates all possible weightings, symmetrically, one doesn't have to
+worry about mirroring the trees (although this uses up more computing
+power than strictly necessary – a tradeoff between the length of the
+code and the performance it has).
+
+`d7` takes two lists, and generates their cartesian product<!--TODO:
+wikipedia link-->. Why not take the cartesian product `cp` from set.kg,
+the set library included in Klong, you ask? Because `cp` has problems
+with lists of lists, while `d7` deals with them easily:
+
+		.l("set")
+		d7::{,/y{(,y){x,,y}:\x}:\x}
+		cp(!3;3+!3)
+	[[0 3] [0 4] [0 5] [1 3] [1 4] [1 5] [2 3] [2 4] [2 5]]
+		d7(!3;3+!3)
+	[[0 3] [0 4] [0 5] [1 3] [1 4] [1 5] [2 3] [2 4] [2 5]]
+		cp(,'!3;,'3+!3)
+	[[0 3] [0 4] [0 5] [1 3] [1 4] [1 5] [2 3] [2 4] [2 5]]
+		d7(,'!3;,'3+!3)
+	[[[0] [3]] [[0] [4]] [[0] [5]] [[1] [3]] [[1] [4]] [[1] [5]] [[2] [3]] [[2] [4]] [[2] [5]]]
+
+When dealing with the cartesian product of two sets of trees,
+this is important to get right.<!--TODO: report bug & send correct
+implementation?-->
+
+`d7` then returns a list of lists, each of which contains two trees.
+Two combine each of these into a single tree, we use `d1` that was
+implemented earlier. It uses the symbol `:x` as a root. After iterating
+over all possible combinations, the resulting list is flattened once
+and one gets a list of correctly weighted trees.
+
+	d7::{,/y{(,y){x,,y}:\x}:\x}
+	s60::{:[x=0;,[];,/{{d1@x}'d7@s60'x}'d6(x)]}
+
+##### Filter out Duplicates and Trees with the Wrong Height Difference
+
+This list of trees is not perfect yet. It contains both duplicates and
+trees with the wrong height difference, since there are combinations
+with the correct weighting but wildly different heights.
 
 <!--
 TODO: understand, clean up, explain & test this code
