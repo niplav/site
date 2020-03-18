@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-03-16, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-03-18, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -104,7 +104,7 @@ and the approach-to-lay ratio.
 > These are realistic stats, this is cold approach, cold approach
 > is tough.
 
-*–[James Tusk](https://project-tusk.com), [“Realistic Daygame Statistics (Daygame Tips)”](https://project-tusk.com/blogs/the-tusk-diaries/realistic-daygame-statistics), 2017*
+*– [James Tusk](https://project-tusk.com), [“Realistic Daygame Statistics (Daygame Tips)”](https://project-tusk.com/blogs/the-tusk-diaries/realistic-daygame-statistics), 2017*
 
 James Tusk is a very good looking daygame coach, so these numbers are
 quite high.
@@ -167,18 +167,18 @@ Fortunately, daygamers are often very diligent in keeping track records
 of their ratios and even publish them.
 
 Here, I collect cumulative date and lay ratios from several blogs. I
-don't count idates as dates, because it doesn't seem clear whether
-daygamers usually pay for them.
-
-I am also not sure whether at some points "dates" was all dates combined,
-and later was split into "first date", "second date" etc. For simplicity I
-assume that in the beginning, "dates" simply referred to "first date". It
-still seems to be coherent.
+don't count idates as dates, because I'm not sure whether daygamers
+usually pay for them or not.
 
 Note that these numbers are just stats some guys wrote on the internet,
 usual qualifiers about the accuracy of these values apply.
 
 #### Roy Walker
+
+I am also not sure whether at some points "dates" was all dates combined,
+and later was split into "first date", "second date" etc. For simplicity I
+assume that in the beginning, "dates" simply referred to "first date". It
+still seems to be coherent.
 
 [Roy Walker](https://roywalkerdaygame.wordpress.com/):
 
@@ -281,7 +281,7 @@ The 2019 review unfortunately doesn't contain the number of approaches, but he w
 > with roughly the same age and quality: an improvement on last year’s
 > ratio.
 
-*–[Thomas Crown](https://thomascrownpua.wordpress.com), [“2019 In Review”](https://thomascrownpua.wordpress.com/2020/01/03/2019-in-review/), 2020*
+*– [Thomas Crown](https://thomascrownpua.wordpress.com), [“2019 In Review”](https://thomascrownpua.wordpress.com/2020/01/03/2019-in-review/), 2020*
 
 From this one can deduce that the number of approaches was `$11*53=583$`,
 or at least a number somewhere near that.
@@ -310,7 +310,7 @@ I believe, so these numbers are after several years of training):
 
 > Most of these numbers rely upon estimates because I didn’t keep notes.
 
-*–[Nick Krauser](https://krauserpua.com/), [“My 2013 Daygame Stats”](https://krauserpua.com/2014/01/01/my-2013-daygame-stats/), 2014*
+*– [Nick Krauser](https://krauserpua.com/), [“My 2013 Daygame Stats”](https://krauserpua.com/2014/01/01/my-2013-daygame-stats/), 2014*
 
 Lay ratios:
 
@@ -500,7 +500,7 @@ but would be interested in further input:
 	oppcost::5
 
 Daygamers who could earn more with their day job might want to adjust
-this number up.
+this number upwards.
 
 #### Costs from Dates
 

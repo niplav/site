@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-02-17, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-03-18, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -78,6 +78,12 @@ Texts
 	* Related text: [Incremental Progress and the Valley](https://www.lesswrong.com/s/pvim9PZJ6qHRTMqD3/p/oZNXmHcdhb4m7vwsv)
 * In Favor of Gish-Gallop
 	* https://en.wikipedia.org/wiki/Gish_gallop
+* An Anthropic Argument in Favour of Eventual Existential Security
+	*	Worlds in which existential risk eventually declines contain
+		more observer-moments than worlds in which existential risk
+		becomes or stays very likely.
+	*	Therefore, we're more likely to be in a world where
+		there are more observer-moments and we're in world 1
 
 ### Analyses
 

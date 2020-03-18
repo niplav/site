@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2020-01-31, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2020-03-18, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -726,8 +726,8 @@ One such advantage may be signing up for cryonics. [niplav
 2020](./considerations_on_cryonics.html "Considerations on Cryonics")
 estimates that signing up for cryonics is worth \$2.5 mio. in expectation
 for a twenty year old. Assume that after 500 hours reading Less Wrong,
-a person will decide to sign up for cryonics (it took me that much time,
-maybe a little bit less).
+a person will decide to sign up for cryonics (it broadly took me that
+much time, maybe a little bit less).
 
 Then the value of each of these hours was `$\frac{\$2500000}{500 h}=\frac{\$5000}{h}$`,
 quite formidable!

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2020-02-04, language: english, status: draft, importance: 5, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2020-03-18, language: english, status: draft, importance: 5, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -991,7 +991,7 @@ The data can be found
 Appendix C: Further Hypotheses
 ------------------------------
 
-If one wanted to find out not just that, but in which way abstinence
+If one wanted to find out not just whether, but in which way abstinence
 from masturbation increases attractiveness, one might try to find
 out at which stage of the process how much of the benefit occurs. For
 example, abstinence might increase initial responses to cold approach
