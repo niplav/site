@@ -1,9 +1,11 @@
+#!/usr/bin/env python2
+
 import urllib2
+import sys
+import time
 
 from bs4 import BeautifulSoup
-
-import sys
-from dateutil.parser import parse
+from time import mktime
 
 def showforecasts(linkp, res):
 	urlp="https://predictionbook.com{}".format(linkp)
@@ -25,6 +27,10 @@ def showforecasts(linkp, res):
 	#TODO: maybe write a pull request?
 
 	resolved=timedata.find("span", class_="judgement").find("span", class_="date created_at").get("title")
+	try:
+		restime=time.strptime(resolved,"%Y-%m-%dT%H:%M:%SZ")
+	except:
+		restime=time.strptime(resolved,"%Y-%m-%dT%H:%M:%S.%fZ")
 	resobj=parse(resolved)
 
 	responses=soupp.find_all("li", class_="response")
@@ -34,9 +40,12 @@ def showforecasts(linkp, res):
 			est=float(r.find_all("span", class_="confidence")[0].text.strip("%"))/100
 		else:
 			continue
-		estime=r.find("span", class_="date").get("title")
-		estobj=parse(estime)
-		print("{},{},{}".format(res, est, (resobj-estobj).days))
+		estimated=r.find("span", class_="date").get("title")
+		try:
+			esttime=time.strptime(estimated,"%Y-%m-%dT%H:%M:%SZ")
+		except:
+			esttime=time.strptime(estimated,"%Y-%m-%dT%H:%M:%S.%fZ")
+		print("{},{},{}".format(res, est, restime-esttime))
 
 for page in range(240,1000):
 	print(page)
