@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2020-03-18, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2020-03-19, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.html "99 Klong
 > Problems") in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -2353,33 +2353,69 @@ This list of trees is not perfect yet. It contains both duplicates and
 trees with the wrong height difference, since there are combinations
 with the correct weighting but wildly different heights.
 
-<!--
-TODO: understand, clean up, explain & test this code
-Write down the solution.
+The order in which to do this is important: Checking the height difference
+of the subtrees is computationally more expensive, so it's better if
+it's applied after removing duplicates.
 
-First steps: Nice illustrations for the right sight being one higher &
-fuller with values.
+Removing duplicates is done by using the Range verb. In order to make
+checking the height differences in the subtrees easier, the call of `d1`
+is moved to the end of function execution.
 
-	minnodes::{:[x<1;0:|x=1;1;1+.f(x-1)+.f(x-2)]}
+The removal of non-balanced trees is done by first computing the depth
+of the left subtree and the right subtree, calculating the difference
+in height, and then filtering out the ones with a a height difference of
+≥2. The function for calculating the depth is `dp`, taken from util.kg:
 
-Seems to be the sum of the first `x` fibonacci numbers.
+	d8::{:[@x;0;1+|/.f'x]}
 
-	minnodes::{+/(x-1){(+/2#x),x}:*[1 0]}
+In the end, `s60` looks like this:
 
-Attempt, using the fibonacci number approach:
-TODO: currently incorrect.
+	s60::{:[x=0;,[];{d1@x}'flr({2>#-/d8'x};?,/{d7@s60'x}'d6(x))]}
 
-	maxheight::{[k];k::x;#1_{k>+/x}{(+/2#x),x}:~[1 0]}
+##### Final Result
 
-	d3::{:[x=0;0;1+_ln(x)%ln(2)]}
-	d4::{[n];n::x;({~d3(x)>n}{x+1}:~0)-1}
-	d6::{,/x{(,y){x,,y}:\x}:\y}
-	d7::{d6(x;y),d6(y;x)}
-	d8::{[h];h::(**x),**|x;:[2>#(*h)-*|h;(1+|/h),,[:x],(,(*|*x)),,(*|*|x);[]]}
-	s60::{[n];n::x-1;:[x=0;,[0 []]:|x=1;,[1[:x]];
-			   {x@((~:'x),0)?0}:({x@<x}:(d8',/{d7(s60(*x);s60(*|x))}'
-			   flr({d3(*|x)<2+d4(*x)};{x,,n-x}'!1+n:%2)))]}
--->
+Tests:
+
+		s60(0)
+	[[]]
+		s60(1)
+	[[:x [] []]]
+		s60(2)
+	[[:x [] [:x [] []]] [:x [:x [] []] []]]
+		s60(3)
+	[[:x [:x [] []] [:x [] []]]]
+		s60(4)
+	[[:x [:x [] []] [:x [] [:x [] []]]] [:x [:x [] []] [:x [:x [] []] []]] [:x [:x [] [:x [] []]] [:x [] []]] [:x [:x [:x [] []] []] [:x [] []]]]
+		#'s60'!20
+	[1 1 2 1 4 6 4 17 32 44 60 70 184 476 872 1553 2720 4288 6312 9004]
+
+A small test to check whether filtering out duplicates before non-balanced
+trees is in fact faster:
+
+		s60::{:[x=0;,[];{d1@x}'flr({2>#-/d8'x};?,/{d7@s60'x}'d6(x))]}
+		time({#s60(15)})
+	1.337233
+		s60::{:[x=0;,[];{d1@x}'?flr({2>#-/d8'x};,/{d7@s60'x}'d6(x))]}
+		time({#s60(15)})
+	1.35368
+
+If there is a difference, it's at least not obvious.
+
+To make the code shorter, `s7` and `s8` could be inlined:
+
+	d5::{[a];a::x-1;{x,a-x}@{d3(a-x)>1+d4(x)}{x+1}:~0}
+	d6::{[z];z::s22@d5(x);z,'|z}
+	s60::{:[x=0;,[];{d1@x}'flr({2>#-/{:[@x;0;1+|/.f'x]}'x};?,/{{,/y{(,y){x,,y}:\x}:\x}@s60'x}'d6(x))]}
+
+However, this weirdly leads to segmentations faults & crashing the Klong interpreter.
+
+This solution is still longer than the filtering version, but can generate the trees much faster than the filtering `s60`:
+
+		.l("time")
+		time({#s60(15)})
+	1.070058
+
+For `x` = 15, the number of trees is 1553.
 
 ### P61 (*) Count the leaves of a binary tree.
 
