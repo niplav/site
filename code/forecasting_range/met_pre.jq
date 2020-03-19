@@ -1,4 +1,5 @@
 [
+	.[]|
 	.results|
 	.[]|
 	select(.possibilities.type=="binary")|
