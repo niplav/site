@@ -8,17 +8,15 @@ spy::365*spd
 
 brier::{mu((x-y)^2)}
 
-.comment("*****")
-
 .fc(.ic("../../data/pb.csv"));pbraw::csv.load()
 
 pbdata::+{1.0:$'x}'pbraw
 :"For days"
-pbdiffs::{_x%spd}pbdata@2
+:"pbdiffs::{_x%spd}pbdata@2"
 :"For weeks"
 :"pbdiffs::{_x%spw}'pbdata@2"
 :"For months (roughly)"
-:"pbdiffs::{_x%spm}'pbdata@2"
+pbdiffs::{_x%spm}'pbdata@2
 "For years"
 :"pbdiffs::{_x%spy}'pbdata@2"
 
@@ -29,8 +27,6 @@ pbdg::=pbdiffs
 pbdiffbrier::{(pbdiffs@*x),mse.set(pbfcs@x;pbress@x)}'pbdg
 pbdiffbrier::pbdiffbrier@<*'pbdiffbrier
 
-*****
-
 .fc(.ic("../../data/met.csv"));metraw::csv.load()
 
 metdata::+{1.0:$'x}'metraw
@@ -39,7 +35,7 @@ metdiffs::{_x%spd}'metdata@2
 :"For weeks"
 :"metdiffs::{_x%spw}'metdata@2"
 :"For months (roughly)"
-:"metdiffs::{_x%spm}'metdata@2"
+metdiffs::{_x%spm}'metdata@2
 "For years"
 :"metdiffs::{_x%spy}'metdata@2"
 
