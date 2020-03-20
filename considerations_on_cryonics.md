@@ -27,6 +27,13 @@ Or would I fall asleep, not knowing what it’s like to feel alive?
 
 *– [Patricia Taxxon](https://www.youtube.com/channel/UCOjLfFE0TABS9bk05oH-kgw), [“Deconstruct”](https://patriciataxxon.bandcamp.com/track/deconstruct) from [“Foley Artist”](https://patriciataxxon.bandcamp.com/album/foley-artist), 2019*
 
+> One day they woke me up  
+So I could live forever  
+It’s such a shame the same  
+Will never happen to you
+
+*– [Jonathan Coulton](https://en.wikipedia.org/wiki/Jonathan_Coulton), [“Want You Gone”](https://genius.com/Aperture-science-psychoacoustic-laboratories-want-you-gone-lyrics) from [“Portal 2: Songs to Test By (Volume 3)”](https://en.wikipedia.org/wiki/Music_of_Portal_2), 2011*
+
 Many would-be cryonicists cryocrastinate, i.e they put off signing
 up for cryonics until a later point in their life. This has often been
 explained by the fact that signing up for cryonics seems to [require high

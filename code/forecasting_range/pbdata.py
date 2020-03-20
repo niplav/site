@@ -39,7 +39,7 @@ def showforecasts(linkp, res):
 		esttime=time.strptime(estimated,"%Y-%m-%d %H:%M:%S UTC")
 		print("{},{},{}".format(res, est, mktime(restime)-mktime(esttime)))
 
-for page in range(240,1000):
+for page in range(1,400):
 	url="https://predictionbook.com/predictions/page/{}".format(page)
 	req=urllib2.Request(url, headers={"User-Agent" : "Firefox"})
 	try:
