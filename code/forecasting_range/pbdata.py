@@ -9,11 +9,10 @@ from time import mktime
 
 def showforecasts(linkp, res):
 	urlp="https://predictionbook.com{}".format(linkp)
-	print(linkp)
 	reqp=urllib2.Request(urlp, headers={"User-Agent" : "Firefox"})
 	try:
 		conp=urllib2.urlopen(reqp)
-	except urllib2.HTTPError, e:
+	except (urllib2.HTTPError, urllib2.URLError) as e:
 		return
 	datap=conp.read()
 	soupp=BeautifulSoup(datap, "html.parser")
@@ -27,11 +26,7 @@ def showforecasts(linkp, res):
 	#TODO: maybe write a pull request?
 
 	resolved=timedata.find("span", class_="judgement").find("span", class_="date created_at").get("title")
-	try:
-		restime=time.strptime(resolved,"%Y-%m-%dT%H:%M:%SZ")
-	except:
-		restime=time.strptime(resolved,"%Y-%m-%dT%H:%M:%S.%fZ")
-	resobj=parse(resolved)
+	restime=time.strptime(resolved,"%Y-%m-%d %H:%M:%S UTC")
 
 	responses=soupp.find_all("li", class_="response")
 	for r in responses:
@@ -41,21 +36,16 @@ def showforecasts(linkp, res):
 		else:
 			continue
 		estimated=r.find("span", class_="date").get("title")
-		try:
-			esttime=time.strptime(estimated,"%Y-%m-%dT%H:%M:%SZ")
-		except:
-			esttime=time.strptime(estimated,"%Y-%m-%dT%H:%M:%S.%fZ")
-		print("{},{},{}".format(res, est, restime-esttime))
+		esttime=time.strptime(estimated,"%Y-%m-%d %H:%M:%S UTC")
+		print("{},{},{}".format(res, est, mktime(restime)-mktime(esttime)))
 
 for page in range(240,1000):
-	print(page)
-
 	url="https://predictionbook.com/predictions/page/{}".format(page)
 	req=urllib2.Request(url, headers={"User-Agent" : "Firefox"})
 	try:
 		con=urllib2.urlopen(req)
-	except urllib2.HTTPError, e:
-		break
+	except (urllib2.HTTPError, urllib2.URLError) as e:
+		continue
 	data=con.read()
 	soup=BeautifulSoup(data, "html.parser")
 	predright=soup.find_all("li", {"class": "prediction right"})
