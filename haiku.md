@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-23, modified: 2020-01-24, language: english, german, status: in progress, importance: 1, confidence: fiction*
+*author: niplav, created: 2019-08-23, modified: 2020-03-20, language: english, german, status: in progress, importance: 1, confidence: fiction*
 
 > __Haikus that seemed okay enough to write down.__
 
@@ -17,6 +17,10 @@ German
 Winters Klee entschied  
 Einmal mir nachzufolgen  
 Bedachte nicht: Pferd!
+
+Kirschblüten gegen  
+das samtene Firnament  
+bald stürzt es hinab
 
 English
 -------
