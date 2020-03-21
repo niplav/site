@@ -1,0 +1,13 @@
+.l("math")
+.l("nplot")
+
+.l("./values.kg")
+
+logvalues::_{:[x<0;-ln(-x):|x=0;x;ln(x)]}'values
+logvalues::logvalues@<logvalues
+incidence::{(logvalues@*x),#x}'=logvalues
+
+grid((*logvalues),(*|logvalues),[5];[0],(|/#'=logvalues),[100])
+
+{bar((*x)-**incidence;*|x;(**|incidence)-**incidence)}'incidence
+draw()
