@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-01-21, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2020-03-21, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -154,6 +154,7 @@ The style of writing is mostly formal US english.
 	* "External Links" for links to other websites discussing the same (or very similar) ideas
 	* "Discussions" for external discussions on the article
 * Long numbers written with [SI-postfixes](https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes) (K for thousand, M for million etc.)
+	* However, huge amounts of money are designated via K for thousand, and perhaps a bit inconsistently mio. for million, bio. for billion, trio. for trillion, and so on.
 
 ### Writing Checklist
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-03-16, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-03-21, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)?
@@ -251,6 +251,8 @@ I somewhat arbitrarily set this year to 2080<!--TODO: find some estimates
 of LEV-->, though many futurists seem more optimistic<!--TODO source-->:
 
 	levyear=2080
+
+<!--https://www.fightaging.org/archives/2018/02/aubrey-de-grey-on-progress-and-timescales-in-rejuvenation-research/-->
 
 Calculating the Cost
 --------------------
@@ -982,12 +984,140 @@ The reader is encouraged to enter their own value and execute the script
 to determine whether it is advantageous for them to sign up for cryonics,
 and if yes, whether cryocrastination would be a good idea.
 
-<!--
 Appendix A: A Guesstimate Model
 -------------------------------
 
-Use getguesstimate.com here
--->
+The website [Guesstimate](https://www.getguesstimate.com/) describes
+itself as "A spreadsheet for things that aren’t certain". It provides
+[Monte-Carlo](https://en.wikipedia.org/wiki/Monte_Carlo_method)
+simulations in a spreadsheet-like interface.
+
+I used Guesstimate to calculate the uncertainty in the value provided
+by signing up for cryonics as a 20 year old. The model is available
+[here](https://www.getguesstimate.com/models/15527).
+
+### Variales
+
+Most of the parameters were simply taken from this text, but some deserve
+more explanation.
+
+#### Year for Longevity Escape Velocity
+
+> When I give any kind of timeframes, the only real care I have to take
+is to emphasize the variance. In this case I think we have got a 50-50
+chance of getting to that tipping point in mice within five years from
+now, certainly it could be 10 or 15 years if we get unlucky. Similarly,
+for humans, a 50-50 chance would be twenty years at this point, and
+there's a 10 percent chance that we won't get there for a hundred years.
+
+*– [Aubrey de Grey](https://en.wikipedia.org/wiki/Aubrey_de_grey), [“Aubrey de Grey on Progress and Timescales in Rejuvenation Research”](https://www.fightaging.org/archives/2018/02/aubrey-de-grey-on-progress-and-timescales-in-rejuvenation-research/), 2018*
+
+The 90% confidence interval for this variable lies in `$[2040;2150]$`:
+Aubrey de Grey gives a mean of 2038, I believe that number to be quite
+optimistic, but not completely so. He doesn't give a lower bound,
+but judging from the reasonable assumption that longevity escape
+velocity is likely not 2 years away, this seems like a [log-normal
+distribution](https://en.wikipedia.org/wiki/Log-normal_distribution)-ish,
+which is also what I used in the spreadsheet, with a 90% confidence
+interval in `$[2040;2150]$`.
+
+#### Age at Death
+
+Unfortunately, Guesstimate doesn't support Gompertz distributions,
+so I had to approximate the age of death by assuming that it
+was a log-normal distribution with the 90% confidence interval in
+`$[58.9;95.5]$`, but mirrored along the y-axis. The [data by Wolfram
+Alpha](https://www.wolframalpha.com/input/?i=life+expectancy+us+age+20)
+looks similar to the end result, and both have a mean age of death of
+~83 years.
+
+#### Years Lived After Revival
+
+This was another log-normal distribution, with a 90% confidence interval
+of `$[20;10000]$` years. Why the huge range? On the one hand, revival
+without sufficient rejuvenation technology seems unlikely, but possible;
+another possibility is being revived and then dying in an accident or war.
+The high upper range accounts for a very stable future with rejuvenation
+technology. Although the distribution is log-normal, the mean is still
+32000 years, and the 50th percentile is around 1300 years.
+
+#### Value of Lifeyears After Revival
+
+Here, I assumed that both negative and positive development
+of the future is equally possible, resulting in a [normal
+distribution](https://en.wikipedia.org/wiki/Normal_distribution) with
+a 90% confidence interval in `$[-50000;150000]$`. I personally believe
+that being revived in a future with negative value is quite unlikely, as
+outlined [in this section](#Value-of-a-Lifeyear-in-the-Future), but it's
+always the thing that people bring up and want to argue about endlessly
+(perhaps trying to convince me of their values or test whether mine
+are acceptable), so I included the possibility of substantial negative
+development.
+
+#### Provider Cost per Year
+
+Implementing the whole `membership_fees` in Guesstimate seems possible,
+but incredibly burdensome. I approximated it using a normal distribution
+with a 90% confidence interval of `$[400;900]$`.
+
+### Value
+
+The result is certainly interesting: in this model, signing up for
+cryonics has a mean value of \$35 mio. and a median of ≈-\$100K
+(perhaps because of longevity escape velocity arriving and making
+the value simply the cost for signing up), but with very long tails,
+especially on the positive side: a fifth percentile of -\$1.59 mio.,
+and a 95th percentile of *squints* \$63.2 mio. – quite a range!
+
+The minimum and maximum of the simulation are even more extreme: -\$1
+bio. for the minimum and \$11.3 bio. for the maximum.
+
+Because of these huge numbers, perhaps it makes sense to try to visualize
+them logarithmically. I exported the numbers for the variable 'Value'
+from Guesstimate and converted them into a Klong array.
+
+	.l("math")
+	.l("nplot")
+
+	.l("./values.kg")
+
+	logvalues::_{:[x<0;-ln(-x):|x=0;x;ln(x)]}'values
+	logvalues::logvalues@<logvalues
+	incidence::{(logvalues@*x),#x}'=logvalues
+
+	grid((*logvalues),(*|logvalues),[5];[0],(|/#'=logvalues),[100])
+
+	scplot2(incidence)
+	draw()
+
+![Distribution of value of signing up for cryonics, logarithmically](./img/considerations_on_cryonics/log_values.png "Distribution of value of signing up for cryonics, logarithmically")
+
+Note that the scale is logarithmic to the [natural
+logarithm](https://en.wikipedia.org/wiki/Natural_logarithm) (symmetrically
+for both negative and positive values), not the logarithm to base 10,
+because this makes the data more granular and therefore easier to
+understand.
+
+As one can see, the distribution has turned out sort-of
+[bimodal](https://en.wikipedia.org/wiki/Multimodal_distribution):
+Most cases of signing up for cryonics have a value of -\$100K (presumably
+because longevity escape velocity arrives first), the
+rest is either very negative of very positive. To be exact,
+`(+/{*|x}'flr({*x<0};incidence))%#logvalues` `$\approx58.7\%$`
+of cases have negative value, and
+`(+/{*|x}'flr({*x>0};incidence))%#logvalues` `$\approx41.3\%$` of cases
+have positive value. Of the ones with negative value, most are simply
+flukes where longevity escape velocity arrives first: `2286%#logvalues`
+`$\approx 45.7\%$`.
+
+### Conclusion
+
+In this model, signing up for cryonics is still a good idea from a
+strict [expected-value](https://en.wikipedia.org/wiki/Expected_value)
+perspective. But decision processes with a [precautionary
+principle](https://en.wikipedia.org/wiki/Precautionary_principle) might
+be much more wary of doing anything rash before futures with negative
+value can be ruled out
 
 <!--
 From todo.md:
