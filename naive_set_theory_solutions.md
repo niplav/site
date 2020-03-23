@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2020-03-16, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2020-03-23, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -391,3 +391,23 @@ must be an element of `$A\cap B$`. Then `$u \in B$`,
 and there is a contradiction.
 
 □
+
+Section 7, Exercise 1
+---------------------
+
+Reflexive, but neither symmetric nor transitive (symmetry violation:
+`$(b,a)\not\in$`, transitivity violation: `$(a,c)\not\in$`):
+`$\{(a,a),(a,b),(b,b),(b,c),(c,c)\}$`
+
+Symmetric, but neither reflexive nor transitive (reflexivity violation:
+`$(a,a)\not\in$`, transitivity violation: `$(a,c)\not\in$`):
+`$\{(a,b),(b,a),(b,c),(c,b)\}$`
+
+Transitive, but neither reflexive nor symmetric (reflexivity
+violation: `$(a,a)\not\in$`, symmetry violation: `$(b,a)\not\in$`):
+`$\{(a,b),(b,c),(a,c)\}$`
+
+Section 7, Exercise 2
+---------------------
+
+To be shown: `$X/R$` is a set.

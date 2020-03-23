@@ -239,6 +239,7 @@ Texts
 		* Anti-biotics
 		* de Grey anti-aging proposal
 * Cryptographic Agreement on Bribing
+* Encoding Conditionals Using Modulo
 
 ### Collections
 
