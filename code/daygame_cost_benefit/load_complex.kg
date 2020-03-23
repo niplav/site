@@ -8,9 +8,9 @@ dateratio::{3*ratiobegin+(ratioexp-ratiobegin)*(1-500%x+500)}
 
 mental::{(10000*(ln.pdf((x*0.005)+0.5;1;1)))-1900}
 
+sideeff::{250*ln((x+10)*0.1)}
+
 layvals::{firstlayval*sqr(ratio(x)*x)}
 benefit::{layvals(x)+sideeff(x)}
-
-sideeff::{250*ln((x+10)*0.1)}
 
 cost::{mental(x)+(oppcost*x%apprperhour)+(dateratio(x)*datecost*avgdates)+dateratio(x)*datelen*avgdates*oppcost}

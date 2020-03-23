@@ -9,5 +9,5 @@ incidence::{(logvalues@*x),#x}'=logvalues
 
 grid((*logvalues),(*|logvalues),[5];[0],(|/#'=logvalues),[100])
 
-{bar((*x)-**incidence;*|x;(**|incidence)-**incidence)}'incidence
+{bar((*x)-**incidence;*|x;1+(**|incidence)-**incidence)}'incidence
 draw()
