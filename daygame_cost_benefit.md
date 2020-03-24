@@ -1,11 +1,11 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-03-18, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-03-24, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
-> that daygame is probably worth ~\$2000 maximum, at ~2000 approaches,
+> that daygame is probably worth ~\$1000 maximum, at ~500 approaches,
 > though the number varies strongly under different assumptions. After
 > that, I modify the model to capture more of the nuance, and arrive at
 > \_. I then perform a Monte-Carlo estimation to determine the uncertainty
@@ -34,7 +34,7 @@ be doing?
 In this text, I first review existing texts on the topic and find them
 lacking in several ways. I then present a simple and general model
 for the value of doing a number of daygame approaches, and find that it
-recommends doing 2032 approaches with a value of \$1914 in the optimum. I
+recommends doing 484 approaches with a value of \$969 in the optimum. I
 then extend the model to more subjective and hard to measure factors
 such as positive side effects, effects of daygame on mood and similar
 other factors, and estimate that \_.
@@ -545,26 +545,26 @@ his first year](https://thomascrownpua.wordpress.com/2016-17/
 second](https://thomascrownpua.wordpress.com/2018-statistics/ "2018
 Statistics").
 
-I will assume 2 dates on average lasting 3.5h each, because the numbers
+I will assume 1.8 dates on average lasting 3.5h each, because the numbers
 above are from people who has already done many approaches:
 
 	datelen::3.5
-	avgdates::2
+	avgdates::1.8
 
 ##### Paying for Dates
 
 On dates, one usually needs to pay for drinks, food, and perhaps a taxi,
 there doesn't seem to be much information about the exact costs out
-there. I will assume \$40 for a date.
+there. I will assume \$20 for a date.
 
-	datecost::40
+	datecost::20
 
 #### Calculating the Cost
 
 The cost of daygame is the sum of the opportunity cost from approaching,
 the opportunity cost of dates and the direct cost of paying for dates:
 
-	cost::{(oppcost*x%apprperhour)+(dateratio(x)*datecost*avgdates)+dateratio(x)*datelen*avgdates*oppcost}
+	cost::{(oppcost*x%apprperhour)+(dateratio(x)*datecost*avgdates*x)+dateratio(x)*datelen*avgdates*oppcost}
 
 The resulting function is linear on the number of approaches:
 
@@ -620,7 +620,7 @@ I have not found any people discussing this, and there is probably a
 high variance in these numbers depending on the daygamer.
 
 I will assume that one sex session lasts one hour and that the average
-daygamer sleeps with the same woman twice (some women become regular sex
+daygamer sleeps with the same woman 4 times (some women become regular sex
 partners, even if the overwhelming majority is only a one-night stand).
 
 I will also assume that the dimimishing returns on sex with different
@@ -638,19 +638,20 @@ These numbers are only preliminary, informed by reading daygame blogs.
 So we can calculate that the value of seducing one woman is
 
 		.l("math")
-		300*ln(2*e)
-	507.944154167983596
+		300*ln(4*e)
+	715.888308335967204
 
 ##### A Sense of Pride and Accomplishment
 
-I will assume that the sense of pride and accomplishment is ~\$250. I
-have no hard numbers on this, but it seems like a good approximation.
+I will assume that the sense of pride and accomplishment is ~\$400. I
+have no hard numbers on this, but it seems like a good approximation,
+since this is just the number for the first daygame lay.
 
 To wrap it up, one can conclude that the value of the first lay is
 
 	prostcost::300
-	prideval::250
-	laynum::2
+	prideval::400
+	laynum::4
 	firstlayval::prideval+prostcost*ln(e*laynum)
 
 #### Calculating the Benefit
@@ -692,12 +693,12 @@ case 10000, more than that seems very difficult) and chooses the maximum:
 		maxappr::10000
 		vals::{benefit(x)-cost(x)}'!maxappr
 		optim::*>vals
-	2032
+	484
 		optimben::vals@*>vals
-	1913.83870001168556
+	969.13165157833204
 
-So one can conclude that 2032 approaches are optimal under these
-assumptions, with a value of \$1914.
+So one can conclude that 484 approaches are optimal under these
+assumptions, with a value of \$969.13.
 
 This can be visualized as well:
 
@@ -730,7 +731,6 @@ This can be visualized as well:
 ### Solving Symbolically
 -->
 
-<!--
 A Slightly More Complex Model
 ------------------------------
 
@@ -744,38 +744,155 @@ and also possible social and psychological costs (scars from constant
 rejection and mockery from being found out to be a pick up "artist"),
 if they ever stopped moaning about how they disapprove of daygame.
 
+These influences are of course much harder to quantify, and the numbers
+presented here are mostly guesswork. As I get to know more daygamers
+and do more daygame myself, I intend to update and refine this model
+to better reflect reality.
+
+Note that this slightly more complex model adds to the previous, simpler
+model. Previously assumed costs and benefits are not altered.
+
 ### Additional Benefits
 
-#### Positive Side-Effects
+Besides sex, the additional benefits of daygame can be separated into two
+broad categories: Increases in subjective well-being (from cultivating
+a skill that requires effort and practice), and positive side effects
+such as increased salary resulting from a higher willingness to negotiate
+ones salary and search for other jobs.
+
+#### Positive Side Effects
+
+Let's assume one does 1000 daygame approaches per year.
+Let's then assume that doing 1000 daygame approaches increases ones
+expected salary by 0.5% in the first year, with then logarithmic increases
+for each additional year, for 10 years.
+The [parity purchasing power average annual
+wage](https://en.wikipedia.org/wiki/List_of_countries_by_average_wage)
+in the US was \$60K in 2017, but many industrialized countries are lower.
+I'll assume that the average annual wage for a daygamer is \$40K, just
+to be safe.
+
+The code for calculating the monetary value of the positive side-effects of
+doing x daygame approaches then is
+
+	annsal::40000
+	yearsben::10
+	increase::0.005
+	apppy::1000
+	sideeff::{yearsben*increase*annsal*ln(1+x%apppy)}
+
+![Positive side effects from doing daygame](img/daygame_cost_benefit/sideeff.png "Positive side effects from doing daygame")
 
 #### Mental Benefit
 
+This one is tricky, especially for somebody who has never done any
+daygame approaches. Many daygamers seem to highly enjoy what they
+do, but that is probably mostly due to selection bias.
+I'll mostly rely on my personal experience and on this very biased sample
+set here, so take this with a grain of salt. That said, I haven't read
+any reports describing that the author stopped doing daygame due to
+stress or uncontrollable anxiety, although people who would do that
+would probably never start doing daygame in the first place.
+
+To get to the point, I model the mental effects of daygame to be negative
+in the beginning (increased anxiety, self-doubt, and insecurity),
+and positive effects such as playful enjoyment, flow-states and
+extraverted enthusiasm setting after in after an initial hump. These
+positive states become less strong over time because of getting used
+to pickup. Specifically, the negative effects peak at ~80 approaches
+(with -\$500), and break even after ~300. The cumulative value approaches
+\$1900 over thousands of approaches.
+
+To model this, I abuse a [log-normal
+distribution](https://en.wikipedia.org/wiki/Log-normal_distribution)
+to represent the value over time:
+
+	mental::{(10000*(ln.pdf((x*0.005)+0.5;1;1)))-1900}
+
+![Value of mental states due to doing daygame](img/daygame_cost_benefit/mental.png "Value of mental states due to doing daygame")
+
 ### Additional Costs
 
-#### Fixed Costs
+#### Expenditures
+
+##### Fixed Costs
+
+##### Variable Costs
 
 #### Social Costs from Being Found Out
--->
+
+### Value in the Complex Model
+
+The global optimum is now calculated the same way as [here](#Value):
+
+		optim::*>vals
+	1092
+		vals@*>vals
+	2378.70879018822807
+
+The more complex model with additional considerations therefore recommends
+1092 approaches, with a value of ~\$2378.71.
+
+Graphically:
+
+	.l("nplot")
+
+	.l("./res_complex.kg")
+
+	grid([0],maxappr,[1000];[-20000 20000 1000])
+	xtitle("Approaches")
+	ytitle("Cumulative total value")
+
+	plot({benefit(x)-cost(x)})
+	text(200;250;"Value")
+
+	setrgb(0;0;1)
+	plot(benefit)
+	text(200;400;"Benefit")
+
+	setrgb(1;0;0)
+	plot({-cost(x)})
+	text(250;60;"cost")
+
+	bar(optim;20000+optimben;10000)
+
+	draw()
+
+![Visualizing the cost & benefit of daygame, against each other, as well as the optimum. Using the more complex model.](img/daygame_cost_benefit/complete_complex.png "Visualizing the cost & benefit of daygame, against each other, as well as the optimum. Using the more complex model.")
 
 Conclusion
 ----------
 
 I have presented both a simple and a more complicated cost-benefit
-analysis for daygame. Both conclude that daygame is worth it, at more
-than 2000 approaches, but the value is not enormous, with only a few
-thousand dollars, and decreases rapidly with less lenient assumptions.
+analysis for daygame. Both conclude that daygame is worth it, at around
+500 approaches, but the value is not enormous, with only a few thousand
+dollars, and decreases rapidly with less lenient assumptions.
 
 I tentatively conclude that daygame may be worth it, but
 it's definitely not a surefire positive deal. Sign up for
 [cryonics](./considerations_on_cryonics.html "Considerations on Cryonics")
 first.
 
+Appendix A: A Guesstimate Version of the Simple Model
+-----------------------------------------------------
+
+Since there is a lot of uncertainty in the presented model, I thought
+it'd be good to make a Monte-Carlo version of the model using the website
+[Guesstimate](https://www.getguesstimate.com).
+
+The model can be found [here](https://www.getguesstimate.com/models/15526).
+
 <!--
-Appendix A: A Guesstimate Model of the Value
---------------------------------------------
+### Inputs
 -->
+
 <!--
-Appendix B: Empirically Checking the Assumptions
+Appendix B: A Slightly More Complex Guesstimate Model of the Value
+------------------------------------------------------------------
+-->
+
+<!--
+Appendix C: Empirically Checking the Assumptions
 ------------------------------------------------
 
 Log:

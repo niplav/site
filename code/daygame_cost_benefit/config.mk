@@ -3,7 +3,7 @@ IMG=complete.png \
 	cost.png \
 	sideeff.png \
 	layvals.png \
-	mentalcost.png \
+	mental.png \
 	ratio.png \
 	ratio_data.png \
 	layratio_data.png \
