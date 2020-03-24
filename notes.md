@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2020-03-18, language: english, status: in progress, importance: 3, confidence: remote*
+*author: niplav, created: 2019-05-22, modified: 2020-03-24, language: english, status: in progress, importance: 3, confidence: remote*
 
 > __Short texts on different topics.__
 
@@ -430,8 +430,7 @@ Suppose that an agent `$A$` starts out not believing any sentence from
 and starts taking precautions against learning sentences from `$V$`
 (making not learning any sentences from `$V$` an instrumentally
 convergent goal since it violates goal preservation ([Omohundro
-2008](./doc/moral_realist_ai/the_basic_ai_drives_omohundro_2008.pdf
-"The Basic AI Drives"))).
+2008](./doc/moral_realist_ai/the_basic_ai_drives_omohundro_2008.pdf "The Basic AI Drives"))).
 
 2. `$A$` learns any sentence `$v_{n}$` from `$V$` and alters its utility
 function to pursue `$v_{n}$`. Because it now has very strong evidence
@@ -589,7 +588,9 @@ other considerations.
 Some Thoughts about the Qualia Research Institute
 -------------------------------------------------
 
-*epistemic status: pure speculation*
+### Epistemic Status
+
+This text is almost pure speculation. Do not assign much value to it.
 
 ### QRI and AGI
 
@@ -740,7 +741,7 @@ Crowley](https://www.theguardian.com/money/2013/sep/20/cryonics-death-insurance-
 [Geoff
 Greer](https://geoff.greer.fm/2010/07/09/insert-frozen-food-joke-here/),
 [Eneasz](https://www.lesswrong.com/posts/MkKcnPdTZ3pQ9F5yC/cryonics-without-freezers-resurrection-possibilities-in-a#tz7rTxCkoDLQCncyY),
-[James_Miller](https://www.lesswrong.com/posts/Gx2k5pwRn2xrmGecA/open-thread-oct-27-nov-2-2014#ziZFk5wGT34csQT3x),
+[James\_Miller](https://www.lesswrong.com/posts/Gx2k5pwRn2xrmGecA/open-thread-oct-27-nov-2-2014#ziZFk5wGT34csQT3x),
 [Dentin](https://www.lesswrong.com/posts/HxGRCquTQPSJE2k9g/i-will-pay-usd500-to-anyone-who-can-convince-me-to-cancel-my#7iuugNveZae4MmHBm),
 [Normal_Anomaly](https://www.lesswrong.com/posts/vZWyDSya93SkTAnTE/help-request-cryonics-policies),
 [jsalvatier](https://www.lesswrong.com/posts/vZWyDSya93SkTAnTE/help-request-cryonics-policies#SfgMk7iYuTmXPoHu6),
