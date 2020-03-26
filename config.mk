@@ -29,6 +29,7 @@ HTML=index.html \
 	pipe_rings.html \
 	platte.html \
 	rationalist_gods.html \
+	short_and_mid_range_forcasting_accuracy.html \
 	tao_te_king.html \
 	two_people_on_a_planet.html \
 	utilitarian_compliments.html \

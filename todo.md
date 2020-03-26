@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-03-18, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-03-24, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -154,11 +154,6 @@ Texts
 	* Student's t-test
 	* N=200
 	* Pre-register
-* Long-range vs. short-range forecasts from Predictionbook & Metaculus
-	* Analyse the brier scores of predictions from those sites
-	* Find out how the accuracy declines over time
-	* https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting
-	* https://github.com/gimpf/metaculus-question-stats
 * Precommit to Enlightenment
 	*	precommit to performing the steps from TMI & MCTB2 for
 		5000 hours over 10 years (~1h30m every day on average),
@@ -176,6 +171,9 @@ Texts
 	* PredictIt
 	* BetFair
 * Survey Advanced Meditators about Their Attainments and their Monetary Worth
+* Comparing Forecasting Accuracy Between the Good Judgment Project and Metaculus
+	* https://www.openphilanthropy.org/blog/forecasting-covid-19-pandemic
+	* https://pandemic.metaculus.com/questions/
 
 ### Ideas
 
