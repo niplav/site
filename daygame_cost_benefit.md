@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-03-24, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-03-27, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -114,7 +114,7 @@ quite high.
 "Daygame Statistics and What They Tell About Your Daygame") proclaims
 16.9% numbers/approaches, 22.4% dates/numbers and 37.1% lays/dates
 (that would be `$0.169*0.224=0.0378$` dates per approach, and
-`$0.169*0.224*0.371=0.140$` lays per approach).
+`$0.169*0.224*0.371=0.0140$` lays per approach).
 
 I remember a Tom Torero video where he recounts
 these ratios for beginners, but it seems to
