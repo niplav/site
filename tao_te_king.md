@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: [Lao-tse](https://de.wikipedia.org/wiki/Laozi), created: -400-01-01, translator: [Günther Debon](https://de.wikipedia.org/wiki/G%C3%BCnther_Debon), translated: 1979-01-01, transcriptor: niplav, transcribed: 2019-03-23, modified: 2019-06-28, language: german, status: finished, importance: 4, confidence: transcription*
+*author: [Lao-tse](https://de.wikipedia.org/wiki/Laozi), created: -400-01-01, translator: [Günther Debon](https://de.wikipedia.org/wiki/G%C3%BCnther_Debon), translated: 1979-01-01, transcriptor: niplav, transcribed: 2019-03-23, modified: 2020-03-27, language: german, status: finished, importance: 4, confidence: transcription*
 
 > __The Tao Tê King is one of the most translated texts in history. This
 > is a transcription of the german translation by Günther Debon from
@@ -117,14 +117,14 @@ Daß im Gebrauch er niemals gefüllt wird.
 Abgründig ist er, ach!  
 Dem Ahnherrn der zehntausend Wesen gleich.  
 
-§13
+§130
 
 (Er schabt ab seine Schärfen,  
 Löst auf seine Wirren,  
 Beschwichtigt sein Glänzen,  
 Vereint seinen Staub.)  
 
-§14
+§12
 
 Tiefgründig ist er, ach!  
 Und gleichsam ewig gegenwärtig.  
