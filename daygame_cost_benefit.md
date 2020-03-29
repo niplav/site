@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-03-28, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-03-29, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -48,9 +48,8 @@ Similar Analyses
 ----------------
 
 One already existing cost analysis of game is [Free Northerner
-2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/
-"Economic Analysis of Casual Sex – Prostitution vs Game"), he focuses
-on nightgame in bars and clubs and concludes that
+2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/ "Economic Analysis of Casual Sex – Prostitution vs Game"),
+he focuses on nightgame in bars and clubs and concludes that
 
 > Cost for Sex [from prostitution]: \$300  
 > Cost for sex [from game]: \$460 (\$200 is you enjoy clubbing, gaming,
@@ -112,8 +111,8 @@ James Tusk is a very good looking daygame coach, so these numbers are
 quite high.
 
 [daygamersbible
-2018](https://daygamersbible.wordpress.com/2018/05/23/daygame-statistics-and-what-they-tell-your-daygame/
-"Daygame Statistics and What They Tell About Your Daygame") proclaims
+2018](https://daygamersbible.wordpress.com/2018/05/23/daygame-statistics-and-what-they-tell-your-daygame/ "Daygame Statistics and What They Tell About Your Daygame")
+proclaims
 16.9% numbers/approaches, 22.4% dates/numbers and 37.1% lays/dates
 (that would be `$0.169*0.224=0.0378$` dates per approach, and
 `$0.169*0.224*0.371=0.0140$` lays per approach).
@@ -509,10 +508,10 @@ this number upwards.
 ##### Opportunity Cost
 
 [Free Northerner
-2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/
-"Economic Analysis of Casual Sex – Prostitution vs Game") assumes 3
-dates, it is common wisdom <!--TODO: any sort of link-->originating from
-Mystery that 7 hours is a normal time spent on dates until having sex.
+2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/ "Economic Analysis of Casual Sex – Prostitution vs Game")
+assumes 3 dates, it is common wisdom <!--TODO: any sort of
+link-->originating from Mystery that 7 hours is a normal time spent on
+dates until having sex.
 
 Data from [Roy Walker](https://roywalkerdaygame.wordpress.com/) includes
 numbers of dates starting from 2018:
@@ -527,8 +526,7 @@ dates. This means that he went on 5 dates with 4 women, on 3 dates with
 went on per first date was
 `$\frac{5*4+(11-5)*3+(27-11)*2+(76-27)}{76} \approx 1.566$`
 – quite lower than the 3 assumed by [Free Northerner
-2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/
-"Economic Analysis of Casual Sex – Prostitution vs Game")!
+2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/ "Economic Analysis of Casual Sex – Prostitution vs Game")!
 
 For [Seven](https://sevendaygame.wordpress.com/), the numbers can be found here:
 
@@ -542,8 +540,8 @@ dates, 6 fourth dates and 1 fifth date. This results in
 dates per lay, again smaller.
 
 Similarly, Thomas Crown reports [1.4 dates on average for a lay in
-his first year](https://thomascrownpua.wordpress.com/2016-17/
-"2016/17 Statistics") and [1.1 for his
+his first year](https://thomascrownpua.wordpress.com/2016-17/ "2016/17 Statistics")
+and [1.1 for his
 second](https://thomascrownpua.wordpress.com/2018-statistics/ "2018
 Statistics").
 
@@ -890,10 +888,9 @@ on average.
 
 Although buying sex toys has
 been recommended by for example [The Red Quest
-2019](https://theredquest.wordpress.com/2019/03/13/tell-your-girl-to-use-a-vibrator-during-sex-and-other-bedroom-tips/
-"Tell your girl to use a vibrator during sex, and other bedroom tips
-and sex skills for guys"), I haven't heard much discussion of this, and
-therefore assume that only 10% of daygamers will buy any kind of sex toys.
+2019](https://theredquest.wordpress.com/2019/03/13/tell-your-girl-to-use-a-vibrator-during-sex-and-other-bedroom-tips/ "Tell your girl to use a vibrator during sex, and other bedroom tips and sex skills for guys"),
+I haven't heard much discussion of this, and therefore assume that only
+10% of daygamers will buy any kind of sex toys.
 
 ###### Clothes
 
