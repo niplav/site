@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-03-24, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-03-29, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -84,6 +84,10 @@ Texts
 		becomes or stays very likely.
 	*	Therefore, we're more likely to be in a world where
 		there are more observer-moments and we're in world 1
+	*	This doesn't work: your reference class is not just
+		people ever living, but people looking back on a
+		population of X
+	* Abandon or rephrase as a something learned
 
 ### Analyses
 
@@ -166,6 +170,7 @@ Texts
 	* Bounded Utility
 	* Abstain From Assigning Probabilities to Some Events
 		* Probability of X is undefined
+	* Links to relevant texts here:
 * Creatine & Vegetarianism IQ?
 * How difficult is it to manipulate real existing prediction markets?
 	* PredictIt
@@ -215,6 +220,7 @@ Texts
 		* Advertising
 			* Problem: getting harder the more products come into the information domain
 		* Open-source model: free work
+	* This is essentially a discussion about how to finance public goods
 * Aesthematics
 	* Infinite Fractal Meta Recursion
 	* Mendeljew Operator
@@ -270,6 +276,8 @@ Texts
 * Believing Something Doesn't Mean You to Tell it to Everyone
 * You Actually Don't Need to Convice Idiots
 * Hug the Objective
+	* When trying to achieve something, work directly on that thing
+	* Related to: yak-shaving
 * Report: Walking Barefoot
 * Report: Riding the Bike a Lot
 * Report: Stopping to Bite Your Nails
@@ -278,9 +286,11 @@ Texts
 	* Follow Alexey Guzey's Advice, Leave the House
 	* Internet Abstinence
 * No One Knows & No One Can Know
+	* This argument infuriates me: did you try to find out what people actually know?
 
 ### Misc
 
+* Evolution as a Tautology
 * Coding Standards
 	* General Project Setup
 	* C

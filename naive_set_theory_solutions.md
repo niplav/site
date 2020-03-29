@@ -410,4 +410,7 @@ violation: `$(a,a)\not\in$`, symmetry violation: `$(b,a)\not\in$`):
 Section 7, Exercise 2
 ---------------------
 
-To be shown: `$X/R$` is a set.
+> Exercise: show that `$X/R$` is indeed a set by exhibiting a condition that
+> specifies exactly the subset `$X/R$` of the power set `${\cal{P}}(X)$`.
+
+*– [Paul Halmos](https://en.wikipedia.org/wiki/Paul_Halmos), [“Naive Set Theory“](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\)) p. 38, 1960*

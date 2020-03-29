@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-03-27, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-03-28, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -9,7 +9,9 @@
 > though the number varies strongly under different assumptions. After
 > that, I modify the model to capture more of the nuance, and arrive at
 > \_. I then perform a Monte-Carlo estimation to determine the uncertainty
-> around the expected value and find that _.__
+> around the expected value and find that in the simple case the value of
+> daygame ranges from -\$3300 to \$3200 (5th/95th percentile), with a
+> median of \$900 and a mean of \$550, and in the complex case \_.__
 
 Daygame Cost-Benefit Analysis
 =============================
@@ -815,9 +817,111 @@ to represent the value over time:
 
 #### Expenditures
 
+Besides the cost for dates & opportunity costs, doing daygame might carry
+a great amount of various expenditures: some daygamers move to appartments
+that are closer to the centers of cities & are more expensive, there may
+be some costs from upgrading ones wardrobe, buying condoms and possibly
+sex toys.
+
+In economics, costs are often divided into fixed costs (costs that are
+not dependent on the amount of goods produced, in this case approaches
+made) and variable costs (costs that are related to the amount of goods
+produced).
+
+Making the distinction between fixed costs and variable costs is sometimes
+a bit tricky; similar in this case. Is buying new clothes a fixed or a
+variable cost? Clothes wear down over time, and need to be bought again,
+but the difference doing daygame makes in wearing down clothes is minor
+at best. Also, some costs will depend on the time in ones life doing
+daygame, but not on the amount of daygame: Doing daygame for 10 years,
+but only with 100 approaches a year, will have different fixed costs
+from doing it for a year, but 1000 approaches in that year. In making
+the distinction between what counts as a fixed cost in this case and
+what counts as a variable cost, I will mostly go with my gut feeling.
+
+Note that it is also important to consider the counterfactual case:
+Would these expenditures be made if the person wasn't doing daygame?
+
 ##### Fixed Costs
 
+To possible fixed costs I'd count the following:
+
+* Logistics (higher rent from living closer to the city center)
+* Sex toys
+* Clothes (shoes, leather jacket etc.)
+* Accessories (bracelets, beads, tattoos)
+* Hygiene (better haircuts, marginal other improvements)
+* Contacts (instead of glasses)
+* Fitness (gym membership, buying weights)
+
+Of course, not every daygamer pays for all of these.
+
+Some of the above are dependent on the duration of the time in ones
+life one spends with daygame. Having better logistics is a good example:
+one can procrastinate daygaming and still be paying the higher rent for
+better logistics.
+
+Also time-dependent is better hygiene (I assume mostly marginal
+improvements such as getting better haircuts, buying a bit more mouthwash
+& floss and shaving a bit more often) and fitness (at least the fee for
+gym memberships, weights don't need to be replaced that often).
+
+For time-dependent costs, I assume that the daygamer is very committed,
+and does 1000 approaches per year.
+
+###### Logistics
+
+<!--TODO: find some examples for sources-->
+
+I (without any research) assume that a daygamer will pay \$200 more per
+year for logistics.
+
+It seems to be relatively common for daygamers to move because of daygame,
+I'll assume that 30% of them will do it.
+
+###### Sex Toys
+
+<!--Find sources for average vibrator cost-->
+
+I assume the daygamer counterfactually buys one vibrator (those who
+buy more probably would also have bought sex toys in the counterfactual
+case where they weren't doing daygame). A vibrator seems to cost ~\$30
+on average.
+
+Although buying sex toys has
+been recommended by for example [The Red Quest
+2019](https://theredquest.wordpress.com/2019/03/13/tell-your-girl-to-use-a-vibrator-during-sex-and-other-bedroom-tips/
+"Tell your girl to use a vibrator during sex, and other bedroom tips
+and sex skills for guys"), I haven't heard much discussion of this, and
+therefore assume that only 10% of daygamers will buy any kind of sex toys.
+
+###### Clothes
+
+<!--TODO: find some sources/discussion?-->
+
+Many daygamers seem to buy less flashy clothes, sometimes of higher
+quality. I'm unsure how much these clothes introduce additional costs
+and how much they just displace buying normal clothes. I'll pretty much
+baselessly assume that the cost overhead is \$80.
+
+This seems like something many daygamers do, I'll assume 80%.
+
+###### Accessories
+
+###### Hygiene
+
+###### Contacts
+
+###### Fitness
+
 ##### Variable Costs
+
+* Condoms
+* Transportation (money for gas, public transport)
+
+###### Condoms
+
+###### Transportation
 
 #### Social Costs from Being Found Out
 

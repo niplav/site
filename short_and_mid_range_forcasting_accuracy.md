@@ -15,8 +15,16 @@
 Short and Mid Range Forecasting Accuracy
 ========================================
 
+<!--
+Distinction between {probabilistic,non-probabilistic}
+{model-based,intuition-based} forecasting
+-->
+
 Short-, Mid- and Long-Range Forecasting
 ----------------------------------------
+
+Metaculus and PredictionBook
+----------------------------
 
 Accuracy Between Forecasts
 --------------------------
