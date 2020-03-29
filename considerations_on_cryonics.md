@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-03-21, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-03-28, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)?
@@ -1117,7 +1117,7 @@ strict [expected-value](https://en.wikipedia.org/wiki/Expected_value)
 perspective. But decision processes with a [precautionary
 principle](https://en.wikipedia.org/wiki/Precautionary_principle) might
 be much more wary of doing anything rash before futures with negative
-value can be ruled out
+value can be ruled out.
 
 <!--
 From todo.md:
