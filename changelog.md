@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-03-24, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2020-03-29, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -13,7 +13,7 @@ March 2020
 
 ### Writing
 
-* [A Slightly More Comple Model for the Value of Daygame](./daygame_cost_benefit.html#A-Slightly-More-Complex-Model)
+* [A Slightly More Complex Model for the Value of Daygame](./daygame_cost_benefit.html#A-Slightly-More-Complex-Model)
 * [Solutions for Exercises in Section 6 & 7 in “Naive Set Theory”](./naive_set_theory_solutions.html#Section-6-Exercise-1)
 * [A Generative Solution for P60](./99_problems_klong_solution.html#A-Generative-Solution) in the [99 Problems Klong Solution](./99_problems_klong_solution.html)
 * [A Monte-Carlo Simulation for the Value of Cryonics](./considerations_on_cryonics.html#Appendix-A-A-Guesstimate-Model)
