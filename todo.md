@@ -20,6 +20,7 @@ Site
 * Confidence intervals for some values
 * Improve citation (both to wikipedia and to papers)
 * Make all scripted programs banged
+* Link tooltips at the beginning of lines break the links
 
 Texts
 -----
@@ -88,6 +89,7 @@ Texts
 		people ever living, but people looking back on a
 		population of X
 	* Abandon or rephrase as a something learned
+* Forecasting is Worse is Better
 
 ### Analyses
 
