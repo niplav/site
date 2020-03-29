@@ -132,16 +132,17 @@ and the possibility of dying before signing up.
 <!--TODO: find out whether there has been any research into the concrete shape
 of motivation drift-->
 
-`prob_signup` is a function that calculates the probability of signing
-up for cryonics after having waited up to having a certain age. It
-seems clear that people loose motivation to finish plans over time,
-especially if they are unpleasant or complex. A good example for this is
-people being motivated at the start of the year to do regular exercise:
-How many of those actually keep their promises to themselves? They
-might start off exercising, but after the first few weeks the first
-people drop out, and and a couple of months there is nearly nobody left
-still going to the gym. It seems like there is a strong [regression to
-the mean](https://en.wikipedia.org/wiki/Regression_toward_the_mean) in
+`prob_signup` is a function that calculates the probability of
+signing up for cryonics after having waited up to having a certain
+age. It seems clear that people loose motivation to finish plans over
+time, especially if they are unpleasant or complex. A good example
+for this is people being motivated at the start of the year to do
+regular exercise: How many of those actually keep their promises to
+themselves? They might start off exercising, but after the first few
+weeks the first people drop out, and and a couple of months there is
+nearly nobody left still going to the gym except the ones who already
+did it before. It seems like there is a strong [regression to the
+mean](https://en.wikipedia.org/wiki/Regression_toward_the_mean) in
 regards to action: Most regular actions are replaced by inaction, most
 strong values are replaced by apathy over time. A similar phenomenon
 seems likely for signing up for cryonics: At first, people are very
@@ -422,8 +423,7 @@ spent signing up (tens of hours spent), social costs by seeming weird
 (though cryonics is easy to hide, and most cryonicists seem to be rather
 vocal about it anyways), and alienating family members who necessarily
 come into contact with cryonics (considering the ["Hostile Wife
-Phenomenon"](https://www.biostasis.com/is-that-what-love-is-the-hostile-wife-phenomenon-in-cryonics/
-"Is That What Love is? The Hostile Wife Phenomenon in Cryonics")).
+Phenomenon"](https://www.biostasis.com/is-that-what-love-is-the-hostile-wife-phenomenon-in-cryonics/ "Is That What Love is? The Hostile Wife Phenomenon in Cryonics")).
 
 Calculating the Benefit
 -----------------------
@@ -769,8 +769,7 @@ in a simulated world where homicide risks and care accidents make no
 sense), but an em also suffers from the risk of not having enough money
 to continue being run, and from the fact that the em era might not last
 several subjective millennia. This scenario deserves further consideration
-(see also [Hanson 1994](http://mason.gmu.edu/~rhanson/uploads.html
-"If Uploads Come First")).
+(see also [Hanson 1994](http://mason.gmu.edu/~rhanson/uploads.html "If Uploads Come First")).
 
 To conclude, it seems like reuscitated cryonicists will on average live
 around 4500 years, although there is room for debate on this number.
@@ -803,7 +802,7 @@ contact to their cryonics organisation.
 The benefit of cryonics is only realized in one case: One lives to
 the planned year of signing up, but then dies before LEV. Both dying
 before signing up or living until LEV make the value of cryonics
-0\$. One can calculate the probability of this scenario by multiplying
+\$0. One can calculate the probability of this scenario by multiplying
 the probabilities of living until signup with the probability of then
 dying before LEV.
 
