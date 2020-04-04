@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "Sol Plav")
 
-*author: niplav, created: 2019-03-20, modified: 2020-01-14, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2020-04-03, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -51,6 +51,7 @@ Writing
 
 #### Other
 
+* [Short and Mid Range Forecasting Accuracy](./short_and_mid_range_forcasting_accuracy.md)
 * [Two People on a Planet](./two_people_on_a_planet.md)
 * [Rationalist Gods](./rationalist_gods.md)
 * [Against Applause After Classical Concerts](./against_applause.md)

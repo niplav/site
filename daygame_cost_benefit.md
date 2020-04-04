@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-03-29, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-04-03, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -842,6 +842,11 @@ Would these expenditures be made if the person wasn't doing daygame?
 
 ##### Fixed Costs
 
+I assume that the fixed costs for doing any daygame at all are \$500:
+
+	fixcost::500
+
+<!--
 To possible fixed costs I'd count the following:
 
 * Logistics (higher rent from living closer to the city center)
@@ -868,9 +873,9 @@ For time-dependent costs, I assume that the daygamer is very committed,
 and does 1000 approaches per year.
 
 ###### Logistics
-
+-->
 <!--TODO: find some examples for sources-->
-
+<!--
 I (without any research) assume that a daygamer will pay \$200 more per
 year for logistics.
 
@@ -878,9 +883,9 @@ It seems to be relatively common for daygamers to move because of daygame,
 I'll assume that 30% of them will do it.
 
 ###### Sex Toys
-
+-->
 <!--Find sources for average vibrator cost-->
-
+<!--
 I assume the daygamer counterfactually buys one vibrator (those who
 buy more probably would also have bought sex toys in the counterfactual
 case where they weren't doing daygame). A vibrator seems to cost ~\$30
@@ -893,9 +898,9 @@ I haven't heard much discussion of this, and therefore assume that only
 10% of daygamers will buy any kind of sex toys.
 
 ###### Clothes
-
+-->
 <!--TODO: find some sources/discussion?-->
-
+<!--
 Many daygamers seem to buy less flashy clothes, sometimes of higher
 quality. I'm unsure how much these clothes introduce additional costs
 and how much they just displace buying normal clothes. I'll pretty much
@@ -911,14 +916,29 @@ This seems like something many daygamers do, I'll assume 80%.
 
 ###### Fitness
 
+-->
+
 ##### Variable Costs
 
+I assume that the variable costs are \$0.5 per approach:
+
+	varcost::0.5
+
+<!--
 * Condoms
 * Transportation (money for gas, public transport)
 
 ###### Condoms
 
 ###### Transportation
+
+-->
+
+##### Code
+
+With this, one can easily calculate the additional exppenditures:
+
+	expenditures::{fixcost+varcost*x}
 
 #### Social Costs from Being Found Out
 
