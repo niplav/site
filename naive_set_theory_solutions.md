@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2020-03-23, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2020-04-03, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -410,7 +410,18 @@ violation: `$(a,a)\not\in$`, symmetry violation: `$(b,a)\not\in$`):
 Section 7, Exercise 2
 ---------------------
 
-> Exercise: show that `$X/R$` is indeed a set by exhibiting a condition that
-> specifies exactly the subset `$X/R$` of the power set `${\cal{P}}(X)$`.
+> We shall write `$X/R$` for the set of all equivalence classe. (Pronounce
+> `$X/R$` as “X modulo R,“ or, in abbreviated form, “X mod R.“ Exercise:
+> show that `$X/R$` is indeed a set by exhibiting a condition that specifies
+> exactly the subset `$X/R$` of the power set `${\cal{P}}(X)$`).
 
 *– [Paul Halmos](https://en.wikipedia.org/wiki/Paul_Halmos), [“Naive Set Theory“](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\)) p. 38, 1960*
+
+To be honest, I'm not quite sure what exactly I am supposed to do here.
+`$X/R$` has been defined as being a set, how can I prove a definition?
+
+But I can try and construct `$X/R$` from `${\cal{P}}(X)$`:
+
+`$X/R=\{E: (\forall x, y \in E: x R y) \land E \in {\cal{P}}(X) \} \subset {\cal{P}}(X)$`
+
+□, I guess?

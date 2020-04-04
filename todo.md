@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-03-29, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-04-03, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -172,7 +172,17 @@ Texts
 	* Bounded Utility
 	* Abstain From Assigning Probabilities to Some Events
 		* Probability of X is undefined
+	* Maxipok
 	* Links to relevant texts here:
+		* http://gwern.net/mugging
+		* https://gwern.net/Mugging-DP
+		* https://nintil.com/pascals-mugging/
+		* https://nickbostrom.com/papers/pascal.pdf
+		* https://en.wikipedia.org/wiki/Pascal%27s_mugging
+		* https://patrickjuli.us/2019/11/10/pascals-mugging/
+		* https://www.lesswrong.com/posts/9WZAqFzNJ4KrhsqJ7/pascal-s-mugging-solved
+		* https://www.lesswrong.com/posts/gjyvXPqvCZPEtCKLB/tactics-against-pascal-s-mugging
+		* https://risingentropy.com/pascals-mugging/
 * Creatine & Vegetarianism IQ?
 * How difficult is it to manipulate real existing prediction markets?
 	* PredictIt

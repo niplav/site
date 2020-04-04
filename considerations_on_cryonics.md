@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-03-28, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-04-03, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)?
@@ -10,7 +10,13 @@
 > only applies partially here: Yes, it is probably worth it (under
 > plausible assumptions \$2.5 mio. for a 20 year old, and more for older
 > people), and no, cryocrastination is usually irrational. A cost-benefit
-> analysis written in Lua.__
+> analysis written in Lua.
+> I also perform a [Monte-Carlo
+> simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method) using
+> [Guesstimate](https://www.getguesstimate.com/ "Official website"),
+> and find that signing up for cryonics at age 20 is worth in the
+> mean \$35 mio., median -\$100K (95% confidence interval: -\$1.59 mio.,
+> \$63.2 mio.). It therefore seems recommendable to sign up for cryonics.__
 
 Considerations on Cryonics
 ==========================
