@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-04-03, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-04-05, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -21,6 +21,7 @@ Site
 * Improve citation (both to wikipedia and to papers)
 * Make all scripted programs banged
 * Link tooltips at the beginning of lines break the links
+* Anchor links may be duplicated, update code
 
 Texts
 -----

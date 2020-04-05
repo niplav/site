@@ -509,8 +509,8 @@ life in the future should then look like this:
 	.l("nstat")
 
 	grid([-20000 120000 20000];[0 0.00004 0.000004])
-	xtitle("Probability")
-	ytitle("Dollar value of a future life year")
+	xtitle("Dollar value of a future life year")
+	ytitle("Probability")
 	plot({n.pdf(x;50000;500000000)})
 	draw()
 
@@ -543,8 +543,8 @@ like this:
 
 	grid([-20000 120000 20000];[0 0.00004 0.000004])
 
-	xtitle("Probability")
-	ytitle("Dollar value of a future life year")
+	xtitle("Dollar value of a future life year")
+	ytitle("Probability")
 	plot({:[x>50000;n.pdf(x;50000;500000000);0.4472*n.pdf(x;50000;100000000)]})
 	draw()
 
