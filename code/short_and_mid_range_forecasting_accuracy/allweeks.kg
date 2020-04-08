@@ -1,0 +1,18 @@
+.l("nplot")
+.l("./load.kg")
+
+grid([0],(|/*+wpbdiffbrier),[40];[0 1 0.1])
+
+setdot(2)
+
+fillrgb(0;0;1)
+setrgb(0;0;1)
+scplot2(wpbdiffbrier)
+plot(lr(;lreg(wpbdiffbrier)))
+
+fillrgb(1;0;0)
+setrgb(1;0;0)
+scplot2(wmetdiffbrier)
+plot(lr(;lreg(wmetdiffbrier)))
+
+draw()
