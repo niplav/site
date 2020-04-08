@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-07-13, modified: 2019-12-29, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-13, modified: 2020-04-08, language: english, status: in progress, importance: 5, confidence: log*
 
 > __The blog [Shtetl Optimized](https://www.scottaaronson.com/blog/) is
 > written by [Scott Aaronson](https://en.wikipedia.org/wiki/Scott_Aaronson),
@@ -12,7 +12,7 @@
 Shtetl Optimized Posts Chronological Index
 ==========================================
 
-This index currently lists 746 posts from 2006-11-20 until 2019-12-28.
+This index currently lists 759 posts from 2006-11-20 until 2019-12-28.
 
 Archives
 --------
@@ -810,6 +810,19 @@ Archives
 * [MIP*=RE](https://www.scottaaronson.com/blog/?p=4512) (Scott Aaronson, Tuesday, January 14th, 2020)
 * [An alternative argument for why women leave STEM: Guest post by Karen Morenz](https://www.scottaaronson.com/blog/?p=4522) (Scott Aaronson, Thursday, January 16th, 2020)
 * [From shtetl to Forum](https://www.scottaaronson.com/blog/?p=4536) (Scott Aaronson, Saturday, January 18th, 2020)
+* [My “Quantum Supremacy: Skeptics Were Wrong” 2020 World Speaking Tour](https://www.scottaaronson.com/blog/?p=4608) (Scott Aaronson, Monday, February 17th, 2020)
+* [My video interview with Lex Fridman at MIT about philosophy and quantum computing](https://www.scottaaronson.com/blog/?p=4616) (Scott Aaronson, Monday, February 17th, 2020)
+* [Freeman Dyson and Boris Tsirelson](https://www.scottaaronson.com/blog/?p=4626) (Scott Aaronson, Saturday, February 29th, 2020)
+* [Paperz](https://www.scottaaronson.com/blog/?p=4635) (Scott Aaronson, Tuesday, March 3rd, 2020)
+* [A coronavirus poem](https://www.scottaaronson.com/blog/?p=4643) (Scott Aaronson, Tuesday, March 3rd, 2020)
+* [Turn down the quantum volume](https://www.scottaaronson.com/blog/?p=4649) (Scott Aaronson, Thursday, March 5th, 2020)
+* [Coronavirus: the second-weirdest solution?](https://www.scottaaronson.com/blog/?p=4664) (Scott Aaronson, Friday, March 6th, 2020)
+* [National disgrace](https://www.scottaaronson.com/blog/?p=4671) (Scott Aaronson, Tuesday, March 10th, 2020)
+* [First it came for Wuhan](https://www.scottaaronson.com/blog/?p=4675) (Scott Aaronson, Thursday, March 12th, 2020)
+* [Ask Me Anything: Apocalypse Edition](https://www.scottaaronson.com/blog/?p=4684) (Scott Aaronson, Wednesday, March 18th, 2020)
+* [On “armchair epidemiology”](https://www.scottaaronson.com/blog/?p=4695) (Scott Aaronson, Monday, March 30th, 2020)
+* [If I used Twitter…](https://www.scottaaronson.com/blog/?p=4714) (Scott Aaronson, Saturday, April 4th, 2020)
+* [When events make craziness sane](https://www.scottaaronson.com/blog/?p=4719) (Scott Aaronson, Tuesday, April 7th, 2020)
 
 Code
 ----

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-07-13, modified: 2019-12-29, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-13, modified: 2020-04-08, language: english, status: in progress, importance: 5, confidence: log*
 
 > __The blog [The Real Movement](https://therealmovement.wordpress.com/)
 > deals with Marxism, more specifically with abolishing wage labor, the role
@@ -11,7 +11,7 @@
 The Real Movement Posts Chronological Index
 ===========================================
 
-This index currently lists 663 posts from 2013-05-20 to 2019-12-18.
+This index currently lists 667 posts from 2013-05-20 to 2019-12-18.
 
 Archives
 --------
@@ -703,6 +703,10 @@ Archives
 ### 2020
 
 * [What’s wrong with this statement?](https://therealmovement.wordpress.com/2020/01/24/whats-wrong-with-this-statement/) (Jehu, January 24, 2020)
+* [Revisiting Mike Macnair’s “Revolutionary Strategy”](https://therealmovement.wordpress.com/2020/01/29/revisiting-mike-macnairs-revolutionary-strategy/) (Jehu, January 29, 2020)
+* [How the breakdown of production based on exchange value altered the terrain of Marxist strategy](https://therealmovement.wordpress.com/2020/01/30/how-the-breakdown-of-production-based-on-exchange-value-altered-the-terrain-of-marxist-strategy/) (Jehu, January 30, 2020)
+* [F*ck Communists! Long Live Communism!](https://therealmovement.wordpress.com/2020/04/02/fck-communists-long-live-communism/) (Jehu, April 2, 2020)
+* [CoViD-19 and Capitalist Collapse: Answers to some questions about the present emergency](https://therealmovement.wordpress.com/2020/04/03/covid-19-and-capitalist-collapse-answers-to-some-questions-about-the-present-emergency/) (Jehu, April 3, 2020)
 
 Code
 ----

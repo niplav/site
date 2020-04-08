@@ -2,7 +2,7 @@ include config.mk
 
 all: $(CSV)
 
-puttit: $(CSV)
+puttit: all
 	mv pb.csv ../../data
 	mv met.csv ../../data
 
