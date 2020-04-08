@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-04-07, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-04-08, language: english, status: notes, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
@@ -308,8 +308,8 @@ the brier score using `mse.set`):
 	.fc(.ic("../../data/pb.csv"));pbraw::csv.load()
 	.fc(.ic("../../data/met.csv"));metraw::csv.load()
 
-	pbdata::+{(1:$*x),1.0:$'x}'pbraw
-	metdata::+{(1:$*x),1.0:$'x}'metraw
+	pbdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'pbraw)
+	metdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'metraw)
 
 To compare the accuracy between forecasts, one can't deal with individual
 forecasts, only with sets of forecasts and outcomes. Here, I organise
@@ -323,6 +323,52 @@ made 2-4 days before resolution, the third bucket for all predictions
 
 I decided to use evenly sized buckets, and test with varying sizes of
 one day, one week, one month (30 days) and one year (365 days).
+
+	spd::24*60*60
+	spw::7*spd
+	spm::30*spd
+	spy::365*spd
+	dpbdiffs::{_x%spd}pbdata@3
+	wpbdiffs::{_x%spw}'pbdata@3
+	mpbdiffs::{_x%spm}'pbdata@3
+	ypbdiffs::{_x%spy}'pbdata@3
+	dmetdiffs::{_x%spd}'metdata@3
+	wmetdiffs::{_x%spw}'metdata@3
+	mmetdiffs::{_x%spm}'metdata@3
+	ymetdiffs::{_x%spy}'metdata@3
+
+The [Brier Score](https://en.wikipedia.org/wiki/Brier_score) is
+a scoring rule for binary forecasts. It takes into account both
+calibration and resolution by basically being the [mean squared
+error](https://en.wikipedia.org/wiki/Mean_squared_error) of forecast
+(`$f_{t}$`) and outcome (`$o_{t}$`):
+
+<div>
+	$$BS=\frac{1}{N}\sum_{t=1}^{N}(f_{t}-o_{t})^{2}$$
+</div>
+
+In Klong, it's easy to implement (and also available through
+the function `mse.set`):
+
+	brier::{mu((x-y)^2)}
+
+Now, one can calculate the brier score for the forecasts and outcomes
+in each bucket (here I only show it for the days buckets, but it's
+similar for weeks, months and years):
+
+	pbress::pbdata@1
+	pbfcs::pbdata@2
+
+	dpbdg::=dpbdiffs
+	dpbdiffbrier::{(dpbdiffs@*x),brier(pbfcs@x;pbress@x)}'dpbdg
+	dpbdiffbrier::dpbdiffbrier@<*'dpbdiffbrier
+
+	metress::metdata@1
+	metfcs::metdata@2
+
+	dmetdg::=dmetdiffs
+	dmetdiffbrier::{(dmetdiffs@*x),brier(metfcs@x;metress@x)}'dmetdg
+	dmetdiffbrier::dmetdiffbrier@<*'dmetdiffbrier
 
 Accuracy Between Questions
 --------------------------

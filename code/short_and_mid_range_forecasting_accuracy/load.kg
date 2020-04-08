@@ -8,70 +8,72 @@ spy::365*spd
 
 brier::{mu((x-y)^2)}
 
-.comment("******")
-
 .fc(.ic("../../data/pb.csv"));pbraw::csv.load()
 
-pbdata::+{(1:$*x),1.0:$'x}'pbraw
+pbdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'pbraw)
 
 :"For days"
-dpbdiffs::{_x%spd}pbdata@3
+dpbdiffs::{_x%spd}'pbdata@3
+
 :"For weeks"
 wpbdiffs::{_x%spw}'pbdata@3
+
 :"For months (roughly)"
 mpbdiffs::{_x%spm}'pbdata@3
-"For years"
+
+:"For years"
 ypbdiffs::{_x%spy}'pbdata@3
 
 pbress::pbdata@1
 pbfcs::pbdata@2
 
 dpbdg::=dpbdiffs
-dpbdiffbrier::{(dpbdiffs@*x),mse.set(pbfcs@x;pbress@x)}'dpbdg
+dpbdiffbrier::{(dpbdiffs@*x),brier(pbfcs@x;pbress@x)}'dpbdg
 dpbdiffbrier::dpbdiffbrier@<*'dpbdiffbrier
 
 wpbdg::=wpbdiffs
-wpbdiffbrier::{(wpbdiffs@*x),mse.set(pbfcs@x;pbress@x)}'wpbdg
+wpbdiffbrier::{(wpbdiffs@*x),brier(pbfcs@x;pbress@x)}'wpbdg
 wpbdiffbrier::wpbdiffbrier@<*'wpbdiffbrier
 
 mpbdg::=mpbdiffs
-mpbdiffbrier::{(mpbdiffs@*x),mse.set(pbfcs@x;pbress@x)}'mpbdg
+mpbdiffbrier::{(mpbdiffs@*x),brier(pbfcs@x;pbress@x)}'mpbdg
 mpbdiffbrier::mpbdiffbrier@<*'mpbdiffbrier
 
 ypbdg::=ypbdiffs
-ypbdiffbrier::{(ypbdiffs@*x),mse.set(pbfcs@x;pbress@x)}'ypbdg
+ypbdiffbrier::{(ypbdiffs@*x),brier(pbfcs@x;pbress@x)}'ypbdg
 ypbdiffbrier::ypbdiffbrier@<*'ypbdiffbrier
-
-******
 
 .fc(.ic("../../data/met.csv"));metraw::csv.load()
 
-metdata::+{(1:$*x),1.0:$'x}'metraw
+metdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'metraw)
 
 :"For days"
 dmetdiffs::{_x%spd}'metdata@3
+
 :"For weeks"
 wmetdiffs::{_x%spw}'metdata@3
+
 :"For months (roughly)"
 mmetdiffs::{_x%spm}'metdata@3
-"For years"
+
+:"For years"
 ymetdiffs::{_x%spy}'metdata@3
 
 metress::metdata@1
 metfcs::metdata@2
 
 dmetdg::=dmetdiffs
-dmetdiffbrier::{(dmetdiffs@*x),mse.set(metfcs@x;metress@x)}'dmetdg
+dmetdiffbrier::{(dmetdiffs@*x),brier(metfcs@x;metress@x)}'dmetdg
 dmetdiffbrier::dmetdiffbrier@<*'dmetdiffbrier
 
 wmetdg::=wmetdiffs
-wmetdiffbrier::{(wmetdiffs@*x),mse.set(metfcs@x;metress@x)}'wmetdg
+wmetdiffbrier::{(wmetdiffs@*x),brier(metfcs@x;metress@x)}'wmetdg
 wmetdiffbrier::wmetdiffbrier@<*'wmetdiffbrier
 
 mmetdg::=mmetdiffs
-mmetdiffbrier::{(mmetdiffs@*x),mse.set(metfcs@x;metress@x)}'mmetdg
+mmetdiffbrier::{(mmetdiffs@*x),brier(metfcs@x;metress@x)}'mmetdg
 mmetdiffbrier::mmetdiffbrier@<*'mmetdiffbrier
 
 ymetdg::=ymetdiffs
-ymetdiffbrier::{(ymetdiffs@*x),mse.set(metfcs@x;metress@x)}'ymetdg
+ymetdiffbrier::{(ymetdiffs@*x),brier(metfcs@x;metress@x)}'ymetdg
 ymetdiffbrier::ymetdiffbrier@<*'ymetdiffbrier

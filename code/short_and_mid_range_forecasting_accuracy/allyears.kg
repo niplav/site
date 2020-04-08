@@ -1,0 +1,18 @@
+.l("nplot")
+.l("./load.kg")
+
+grid([0],(|/*+ypbdiffbrier),[1];[0 1 0.1])
+
+setdot(4)
+
+fillrgb(0;0;1)
+setrgb(0;0;1)
+scplot2(ypbdiffbrier)
+plot(lr(;lreg(ypbdiffbrier)))
+
+fillrgb(1;0;0)
+setrgb(1;0;0)
+scplot2(ymetdiffbrier)
+plot(lr(;lreg(ymetdiffbrier)))
+
+draw()
