@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-04-03, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-04-07, language: english, status: notes, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
@@ -14,6 +14,15 @@
 
 Short and Mid Range Forecasting Accuracy
 ========================================
+
+> Above all, don’t ask what to believe—ask what to anticipate. Every
+question of belief should flow from a question of anticipation, and that
+question of anticipation should be the center of the inquiry. Every guess
+of belief should begin by flowing to a specific guess of anticipation,
+and should continue to pay rent in future anticipations. If a belief
+turns deadbeat, evict it.
+
+*– [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“Making Beliefs Pay Rent (in Anticipated Experiences)“](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences), 2007*
 
 <!--https://en.wikipedia.org/wiki/Simpson's_paradox-->
 <!--https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting-->
@@ -162,9 +171,10 @@ file to a list of questions:
 
 The resulting data is available [here](./data/metaculus.json).
 
-I then wrote a python script to convert the JSON data to CSV in the form
-`forecasting_probability,result,range`, while also filtering out yet
-unresolved questions and range questions.
+I then wrote a python script to convert the JSON data to CSV in the
+form `id,result,probability,range` (`id` is a unique ID per question,
+which will come in handy later), while also filtering out yet unresolved
+questions and range questions.
 
 The script is not terribly interesting: It just reads in the JSON data,
 parses and traverses it, printing the CSV in the process.
@@ -182,20 +192,137 @@ Code:
 	jsondata=json.load(f)
 
 	for page in jsondata:
-	        for question in page["results"]:
-	                if question["possibilities"]["type"]=="binary" and (question["resolution"]==1 or question["resolution"]==0):
-	                        try:
-	                                restime=time.strptime(question["resolve_time"],"%Y-%m-%dT%H:%M:%S.%fZ")
-	                        except:
-	                                restime=time.strptime(question["resolve_time"],"%Y-%m-%dT%H:%M:%SZ")
-	                        for pred in question["prediction_timeseries"]:
-	                                timediff=mktime(restime)-pred["t"]
-	                                print("{},{},{}".format(question["resolution"],pred["community_prediction"],timediff))
+		for question in page["results"]:
+			if question["possibilities"]["type"]=="binary" and (question["resolution"]==1 or question["resolution"]==0):
+				try:
+					restime=time.strptime(question["resolve_time"],"%Y-%m-%dT%H:%M:%S.%fZ")
+				except:
+					restime=time.strptime(question["resolve_time"],"%Y-%m-%dT%H:%M:%SZ")
+				for pred in question["prediction_timeseries"]:
+					timediff=mktime(restime)-pred["t"]
+					print("{},{},{},{}".format(question["id"], question["resolution"], pred["community_prediction"], timediff))
 
 The resulting CSV file with over 40K predictions is available
 [here](./data/met.csv).
 
 #### For PredictionBook
+
+As far as I know, PredictionBook doesn't publish the forecasting
+data over an API. However, all individual predictions are visible
+on the web, which means I had to parse the HTML itself using
+[BeautifulSoup](https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser)).
+
+This time the code is more complex, but just slightly so: It starts at
+the [first page](https://predictionbook.com/predictions/page/1)
+of predictions, and loops down to the [last
+one](https://predictionbook.com/predictions/page/326), every time iterating
+through the questions on that page.
+
+It then loops through the predictions on each question and parses out
+the date for the prediction and the credence.
+
+Every question on PredictionBook has two dates related to its
+resolution: the 'known on' date, for which the resolution was originally
+planned, and by which the result should be known, and the 'judged on'
+date, on which the resolution was actually made. I take the second date
+to avoid predictions with negative differences between prediction and
+resolution time.
+
+Also, the 'known on' date has the CSS class `date created_at`, which
+doesn't seem right.
+
+The output of this script is in the same format as the one for Metaculus
+data: `id,result,probability,range`.
+
+Code:
+
+	#!/usr/bin/env python2
+
+	import urllib2
+	import sys
+	import time
+
+	from bs4 import BeautifulSoup
+	from time import mktime
+
+	def showforecasts(linkp, res):
+		urlp="https://predictionbook.com{}".format(linkp)
+		reqp=urllib2.Request(urlp, headers={"User-Agent" : "Firefox"})
+		try:
+			conp=urllib2.urlopen(reqp)
+		except (urllib2.HTTPError, urllib2.URLError) as e:
+			return
+		datap=conp.read()
+		soupp=BeautifulSoup(datap, "html.parser")
+
+		timedata=soupp.find(lambda tag:tag.name=="p" and "Created by" in tag.text)
+
+		resolved=timedata.find("span", class_="judgement").find("span", class_="date created_at").get("title")
+		restime=time.strptime(resolved,"%Y-%m-%d %H:%M:%S UTC")
+
+		responses=soupp.find_all("li", class_="response")
+		for r in responses:
+			forecasts=r.find_all("span", class_="confidence")
+			if forecasts!=[]:
+				est=float(r.find_all("span", class_="confidence")[0].text.strip("%"))/100
+			else:
+				continue
+			estimated=r.find("span", class_="date").get("title")
+			esttime=time.strptime(estimated,"%Y-%m-%d %H:%M:%S UTC")
+			print("{},{},{},{}".format(linkp.replace("/predictions/", ""), res, est, mktime(restime)-mktime(esttime)))
+
+	for page in range(1,400):
+		url="https://predictionbook.com/predictions/page/{}".format(page)
+		req=urllib2.Request(url, headers={"User-Agent" : "Firefox"})
+		try:
+			con=urllib2.urlopen(req)
+		except (urllib2.HTTPError, urllib2.URLError) as e:
+			continue
+		data=con.read()
+		soup=BeautifulSoup(data, "html.parser")
+		predright=soup.find_all("li", {"class": "prediction right"})
+		predwrong=soup.find_all("li", {"class": "prediction wrong"})
+		for pred in predright:
+			linkp=pred.span.a.get("href")
+			showforecasts(linkp, "1.0")
+		for pred in predwrong:
+			linkp=pred.span.a.get("href")
+			showforecasts(linkp, "0.0")
+
+Surprisingly, both platforms had almost the same amount of individual
+predictions on binary resolved questions: ~43K for Metaculus, and ~42K
+for PredictionBook.
+
+The resulting data from PredictionBook is available [here](./data/pb.csv).
+
+### Analysis
+
+Now that the two datasets are available, they can be properly analyzed.
+
+First, the raw data is loaded from the two CSV files and then the ID is
+converted to integer, and the rest of the fields are converted to floats
+(the range is a float for some Metaculus questions, and while the result
+can only take on 0 or 1, using float there makes it easier to calculate
+the brier score using `mse.set`):
+
+	.fc(.ic("../../data/pb.csv"));pbraw::csv.load()
+	.fc(.ic("../../data/met.csv"));metraw::csv.load()
+
+	pbdata::+{(1:$*x),1.0:$'x}'pbraw
+	metdata::+{(1:$*x),1.0:$'x}'metraw
+
+To compare the accuracy between forecasts, one can't deal with individual
+forecasts, only with sets of forecasts and outcomes. Here, I organise
+the predictions into buckets according to range. The size of the buckets
+seems important: bigger buckets contain bigger datasets, but are also
+less granular. Also, should the size of buckets increase with increasing
+range (e.g. exponentially: the first bucket is for all predictions made
+one day or less before resolution, the second bucket for all predictions
+made 2-4 days before resolution, the third bucket for all predictions
+4-8 days before resolution, and so on) or stay the same?
+
+I decided to use evenly sized buckets, and test with varying sizes of
+one day, one week, one month (30 days) and one year (365 days).
 
 Accuracy Between Questions
 --------------------------

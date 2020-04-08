@@ -19,4 +19,4 @@ for page in jsondata:
 				restime=time.strptime(question["resolve_time"],"%Y-%m-%dT%H:%M:%SZ")
 			for pred in question["prediction_timeseries"]:
 				timediff=mktime(restime)-pred["t"]
-				print("{},{},{}".format(question["resolution"],pred["community_prediction"],timediff))
+				print("{},{},{},{}".format(question["id"], question["resolution"], pred["community_prediction"], timediff))

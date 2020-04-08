@@ -8,40 +8,70 @@ spy::365*spd
 
 brier::{mu((x-y)^2)}
 
+.comment("******")
+
 .fc(.ic("../../data/pb.csv"));pbraw::csv.load()
 
-pbdata::+{1.0:$'x}'pbraw
+pbdata::+{(1:$*x),1.0:$'x}'pbraw
+
 :"For days"
-:"pbdiffs::{_x%spd}pbdata@2"
+dpbdiffs::{_x%spd}pbdata@3
 :"For weeks"
-:"pbdiffs::{_x%spw}'pbdata@2"
+wpbdiffs::{_x%spw}'pbdata@3
 :"For months (roughly)"
-pbdiffs::{_x%spm}'pbdata@2
+mpbdiffs::{_x%spm}'pbdata@3
 "For years"
-:"pbdiffs::{_x%spy}'pbdata@2"
+ypbdiffs::{_x%spy}'pbdata@3
 
-pbress::pbdata@0
-pbfcs::pbdata@1
+pbress::pbdata@1
+pbfcs::pbdata@2
 
-pbdg::=pbdiffs
-pbdiffbrier::{(pbdiffs@*x),mse.set(pbfcs@x;pbress@x)}'pbdg
-pbdiffbrier::pbdiffbrier@<*'pbdiffbrier
+dpbdg::=dpbdiffs
+dpbdiffbrier::{(dpbdiffs@*x),mse.set(pbfcs@x;pbress@x)}'dpbdg
+dpbdiffbrier::dpbdiffbrier@<*'dpbdiffbrier
+
+wpbdg::=wpbdiffs
+wpbdiffbrier::{(wpbdiffs@*x),mse.set(pbfcs@x;pbress@x)}'wpbdg
+wpbdiffbrier::wpbdiffbrier@<*'wpbdiffbrier
+
+mpbdg::=mpbdiffs
+mpbdiffbrier::{(mpbdiffs@*x),mse.set(pbfcs@x;pbress@x)}'mpbdg
+mpbdiffbrier::mpbdiffbrier@<*'mpbdiffbrier
+
+ypbdg::=ypbdiffs
+ypbdiffbrier::{(ypbdiffs@*x),mse.set(pbfcs@x;pbress@x)}'ypbdg
+ypbdiffbrier::ypbdiffbrier@<*'ypbdiffbrier
+
+******
 
 .fc(.ic("../../data/met.csv"));metraw::csv.load()
 
-metdata::+{1.0:$'x}'metraw
+metdata::+{(1:$*x),1.0:$'x}'metraw
+
 :"For days"
-metdiffs::{_x%spd}'metdata@2
+dmetdiffs::{_x%spd}'metdata@3
 :"For weeks"
-:"metdiffs::{_x%spw}'metdata@2"
+wmetdiffs::{_x%spw}'metdata@3
 :"For months (roughly)"
-metdiffs::{_x%spm}'metdata@2
+mmetdiffs::{_x%spm}'metdata@3
 "For years"
-:"metdiffs::{_x%spy}'metdata@2"
+ymetdiffs::{_x%spy}'metdata@3
 
-metress::metdata@0
-metfcs::metdata@1
+metress::metdata@1
+metfcs::metdata@2
 
-metdg::=metdiffs
-metdiffbrier::{(metdiffs@*x),mse.set(metfcs@x;metress@x)}'metdg
-metdiffbrier::metdiffbrier@<*'metdiffbrier
+dmetdg::=dmetdiffs
+dmetdiffbrier::{(dmetdiffs@*x),mse.set(metfcs@x;metress@x)}'dmetdg
+dmetdiffbrier::dmetdiffbrier@<*'dmetdiffbrier
+
+wmetdg::=wmetdiffs
+wmetdiffbrier::{(wmetdiffs@*x),mse.set(metfcs@x;metress@x)}'wmetdg
+wmetdiffbrier::wmetdiffbrier@<*'wmetdiffbrier
+
+mmetdg::=mmetdiffs
+mmetdiffbrier::{(mmetdiffs@*x),mse.set(metfcs@x;metress@x)}'mmetdg
+mmetdiffbrier::mmetdiffbrier@<*'mmetdiffbrier
+
+ymetdg::=ymetdiffs
+ymetdiffbrier::{(ymetdiffs@*x),mse.set(metfcs@x;metress@x)}'ymetdg
+ymetdiffbrier::ymetdiffbrier@<*'ymetdiffbrier
