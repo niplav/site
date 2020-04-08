@@ -14,7 +14,7 @@ tstt::{t::sqr(((#y)+(#x)-2)%(%#x)+%#y)*(mu(x)-mu(y))%sqr((((#x)-1)*svar(x))+((#y
 :[(#t)>qf(1-z%2);.p("μ_X=μ_Y rejected (p≤",($z),")");.p("μ_X=μ_Y accepted (p≤",($z),")")];
 :[t<qf(z);.p("μ_X≥μ_Y rejected (p≤",($z),")");.p("μ_X≥μ_Y accepted (p≤",($z),")")]}
 
-.fc(.ic("../../data/masturbation_attractiveness.csv"));data::csv.load()
+.fc(.ic("../../data/masturbation_attractiveness_dummy_even.csv"));data::csv.load()
 
 data::{["" 1 "" 1]:$'x}'4_data
 

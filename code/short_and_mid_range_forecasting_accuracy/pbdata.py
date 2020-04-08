@@ -37,7 +37,7 @@ def showforecasts(linkp, res):
 			continue
 		estimated=r.find("span", class_="date").get("title")
 		esttime=time.strptime(estimated,"%Y-%m-%d %H:%M:%S UTC")
-		print("{},{},{}".format(res, est, mktime(restime)-mktime(esttime)))
+		print("{},{},{},{}".format(linkp.replace("/predictions/", ""), res, est, mktime(restime)-mktime(esttime)))
 
 for page in range(1,400):
 	url="https://predictionbook.com/predictions/page/{}".format(page)

@@ -1,10 +1,16 @@
-all:
-	./pbdata.py >pb.csv
-	./metdata.py <../../data/metaculus.json >met.csv
+include config.mk
 
-puttit: all
+all: $(CSV)
+
+puttit: $(CSV)
 	mv pb.csv ../../data
 	mv met.csv ../../data
+
+pb.csv:
+	./pbdata.py >pb.csv
+
+met.csv:
+	./metdata.py <../../data/metaculus.json >met.csv
 
 clean:
 	rm -f pb.csv
