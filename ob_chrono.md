@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-07-07, modified: 2019-12-29, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-07, modified: 2020-04-08, language: english, status: in progress, importance: 5, confidence: log*
 
 > __The blog [Overcoming Bias](http://www.overcomingbias.com/), written
 > mostly by [Robin Hanson](https://en.wikipedia.org/wiki/Robin_Hanson),
@@ -14,7 +14,7 @@
 Overcoming Bias Posts Chronological Index
 =========================================
 
-This index currently lists 4094 posts from 2006-11-20 until 2019-12-24.
+This index currently lists 4117 posts from 2006-11-20 until 2019-12-24.
 
 Archives
 --------
@@ -4157,6 +4157,29 @@ Archives
 * [Rah Chain of Command](http://www.overcomingbias.com/2020/01/rah-chain-of-command.html) (Robin Hanson, January 9, 2020 8:40 pm)
 * [Crazy Complaints](http://www.overcomingbias.com/2020/01/crazy-complaints.html) (Robin Hanson, January 21, 2020 8:00 pm)
 * [How To Not Die (Soon)](http://www.overcomingbias.com/2020/01/how-to-not-die-soon.html) (Robin Hanson, January 22, 2020 9:20 am)
+* [Parasite vs. Joker](http://www.overcomingbias.com/2020/01/parasite-versus-joker.html) (Robin Hanson, January 25, 2020 10:00 pm)
+* [Nickname Court](http://www.overcomingbias.com/2020/01/nickname-court.html) (Robin Hanson, January 28, 2020 1:10 pm)
+* [Socialism Via Futarchy](http://www.overcomingbias.com/2020/01/socialism-via-futarchy.html) (Robin Hanson, January 30, 2020 5:50 pm)
+* [Decision Theory Remains Neglected](http://www.overcomingbias.com/2020/02/decision-theory-remains-neglected.html) (Robin Hanson, February 1, 2020 7:40 pm)
+* [Explainable Governance](http://www.overcomingbias.com/2020/02/explainable-governance.html) (Robin Hanson, February 10, 2020 12:00 pm)
+* [Respectable Rants](http://www.overcomingbias.com/2020/02/respectable-rants.html) (Robin Hanson, February 11, 2020 4:00 pm)
+* [Defrock Deregulation Economists?](http://www.overcomingbias.com/2020/02/defrock-deregulation-economists.html) (Robin Hanson, February 13, 2020 11:45 am)
+* [Consider Controlled Infection](http://www.overcomingbias.com/2020/02/consider-controlled-infection.html) (Robin Hanson, February 14, 2020 2:15 pm)
+* [Deliberate Exposure Intuition](http://www.overcomingbias.com/2020/02/deliberate-exposure-intuition.html) (Robin Hanson, February 17, 2020 11:40 am)
+* [Plot Holes & Blame Holes](http://www.overcomingbias.com/2020/02/blame-holes-like-plot-holes.html) (Robin Hanson, February 22, 2020 3:00 pm)
+* [Why Big Implicit Deals?](http://www.overcomingbias.com/2020/02/why-big-implicit-deals.html) (Robin Hanson, February 28, 2020 12:40 pm)
+* [For Fast Escaped Pandemic, Max Infection Date Variance, Not Average](http://www.overcomingbias.com/2020/03/for-fast-escaped-pandemic-max-infection-date-variance-not-average.html) (Robin Hanson, March 3, 2020 4:15 pm)
+* [Simple Sims On Pandemic Variance](http://www.overcomingbias.com/2020/03/simple-sims-on-pandemic-variance.html) (Robin Hanson, March 3, 2020 8:45 pm)
+* [Vouching Fights Pandemics](http://www.overcomingbias.com/2020/03/vouchers-fight-pandemics.html) (Robin Hanson, March 5, 2020 5:00 pm)
+* [Common Useless Objections](http://www.overcomingbias.com/2020/03/common-useless-objections.html) (Robin Hanson, March 10, 2020 12:00 pm)
+* [Expose The Young](http://www.overcomingbias.com/2020/03/expose-the-young.html) (Robin Hanson, March 14, 2020 2:30 pm)
+* [Do You Feel Lucky, Punk?](http://www.overcomingbias.com/2020/03/do-you-feel-lucky-punk.html) (Robin Hanson, March 19, 2020 12:00 pm)
+* [Know When To Fold `Em](http://www.overcomingbias.com/2020/03/know-when-to-fold-em.html) (Robin Hanson, March 26, 2020 12:45 pm)
+* [How Many Judges?](http://www.overcomingbias.com/2020/03/how-many-judges.html) (Robin Hanson, March 27, 2020 7:45 am)
+* [Crush Contrarians Time?](http://www.overcomingbias.com/2020/03/crush-contrarians-time.html) (Robin Hanson, March 27, 2020 11:45 am)
+* [Variolation (+ Isolation) May Cut Covid19 Deaths 3-30X](http://www.overcomingbias.com/2020/03/variolation-may-cut-covid19-deaths-3-30x.html) (Robin Hanson, March 30, 2020 12:00 am)
+* [Beware R0 Variance](http://www.overcomingbias.com/2020/04/beware-r0-variance.html) (Robin Hanson, April 2, 2020 12:20 pm)
+* [Reply to Cowen On Variolation](http://www.overcomingbias.com/2020/04/reply-to-cowen-on-variolation.html) (Robin Hanson, April 6, 2020 8:00 pm)
 
 Code
 ----

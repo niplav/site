@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-07-24, modified: 2019-12-29, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-24, modified: 2020-04-08, language: english, status: in progress, importance: 5, confidence: log*
 
 > __The blog [bit-player](http://bit-player.org/) is an excellent
 > computer science and mathematics blog written by [Brian
@@ -12,7 +12,7 @@
 Bit-Player Posts Chronological Index
 =====================================
 
-This index currently contains 374 posts from 2006-01-09 to 2019-09-27.
+This index currently contains 377 posts from 2006-01-09 to 2019-09-27.
 
 Archives
 --------
@@ -435,6 +435,9 @@ Archives
 ### 2020
 
 * [The Teetering Towers of Abstraction](http://bit-player.org/2020/the-teetering-towers-of-abstraction) (Brian Hayes, 13 January 2020)
+* [We Gather Together](http://bit-player.org/2020/we-gather-together) (Brian Hayes, 6 March 2020)
+* [MathJax turns 3.0](http://bit-player.org/2020/mathjax-turns-3-0) (Brian Hayes, 14 March 2020)
+* [April Fool Redux](http://bit-player.org/2020/april-fool-redux) (Brian Hayes, 28 March 2020)
 
 Code
 ----

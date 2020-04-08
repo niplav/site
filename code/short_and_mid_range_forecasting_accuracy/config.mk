@@ -1,2 +1,2 @@
-SV=met.csv \
+CSV=met.csv \
 	pb.csv
