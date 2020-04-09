@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-04-08, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-04-09, language: english, status: notes, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
@@ -23,7 +23,9 @@ and should continue to pay rent in future anticipations. If a belief
 turns deadbeat, evict it.
 
 *– [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“Making Beliefs Pay Rent (in Anticipated Experiences)“](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences), 2007*
-
+<!--Also look at this guy:
+https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting
+-->
 <!--https://en.wikipedia.org/wiki/Simpson's_paradox-->
 <!--https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting-->
 <!--https://github.com/gimpf/metaculus-question-stats-->
@@ -369,6 +371,87 @@ similar for weeks, months and years):
 	dmetdg::=dmetdiffs
 	dmetdiffbrier::{(dmetdiffs@*x),brier(metfcs@x;metress@x)}'dmetdg
 	dmetdiffbrier::dmetdiffbrier@<*'dmetdiffbrier
+
+Every `diffbrier` list contains lists with two elements, the first
+one being the time between forecast and resolution, and the second one
+being the brier score for all forecasts made in that time. For example,
+`ypbdiffbrier` is
+
+	[[0 0.162]
+	[1 0.168]
+	[2 0.164]
+	[3 0.159]
+	[4 0.13]
+	[5 0.12]
+	[6 0.128]
+	[7 0.147]
+	[8 0.121]
+	[9 0.215]
+	[10 0.297]]
+
+(Brier scores truncated using `{(*x),(_1000**|x)%1000}'ypbdiffbrie`).
+
+First, one can check how high the range of these two datasets really is.
+The PredictionBook forecasts with the highest range span 3730 days
+(more than 10 years), for Metaculus it's 1387 days (nearly 4 years).
+
+One can now look at the correlation between range and Brier score first
+for Metaculus, and then for PredictionBook:
+
+		cor@+dmetdiffbrier
+	-0.209003553312708299
+		cor@+wmetdiffbrier
+	-0.255272030357598017
+		cor@+mmetdiffbrier
+	-0.304951730306590024
+		cor@+ymetdiffbrier
+	-0.545313822494739663
+		cor@+dpbdiffbrier
+	-0.0278634569332282397
+		cor@+wpbdiffbrier
+	0.0121150252846883416
+		cor@+mpbdiffbrier
+	0.0752110636215072744
+		cor@+ypbdiffbrier
+	0.411830122003081247
+
+For Metaculus, the results are pretty astonishing: the correlation is
+negative for all four options, meaning that the higher the range of
+the question, the lower the Brier score (and therefore, the higher the
+accuracy)! And the correlation is extremly low either: -0.2 is quite
+formidable.
+
+<!--Why assume accuracy will increase?-->
+
+PredictionBook, on the other hand, is not as surprising: the correlations
+are mostly weak and indicate that accuracy doesn't change with range.
+
+Visualizing the forecasts with
+[scatterplots](https://en.wikipedia.org/wiki/Scatter_plot) and [linear
+regressions](https://en.wikipedia.org/wiki/Linear_regression) shows a
+very similar picture (red dots are for Metaculus forecasts, blue dots
+are for PredictionBook forecasts):
+
+![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)](img/short_and_mid_range_forecasting_accuracy/alldays.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)")
+
+*Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)*
+
+![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in weeks)](img/short_and_mid_range_forecasting_accuracy/allweeks.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in weeks)")
+
+*Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in weeks)*
+
+![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in months)](img/short_and_mid_range_forecasting_accuracy/allmonths.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in months)")
+
+*Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in months)*
+
+![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in years)](img/short_and_mid_range_forecasting_accuracy/allyears.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in years)")
+
+*Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in years)*
+
+The high amounts of noise are probably due to the low number of
+predictions for single days (or, in the case of weeks and months, for
+years/months with a high range, as not enough questions with this range
+have resolved yet).
 
 Accuracy Between Questions
 --------------------------

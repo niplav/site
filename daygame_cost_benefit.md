@@ -1010,6 +1010,8 @@ The model can be found [here](https://www.getguesstimate.com/models/15526).
 <!--
 Appendix B: A Slightly More Complex Guesstimate Model of the Value
 ------------------------------------------------------------------
+
+### Inputs
 -->
 
 <!--
