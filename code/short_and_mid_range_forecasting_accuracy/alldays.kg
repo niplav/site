@@ -2,6 +2,8 @@
 .l("./load.kg")
 
 grid([0],(|/*+dpbdiffbrier),[500];[0 1 0.1])
+xtitle("Range (in days)")
+ytitle("Brier Score")
 
 setdot(2)
 

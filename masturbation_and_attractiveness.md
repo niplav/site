@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2020-03-18, language: english, status: draft, importance: 5, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2020-04-09, language: english, status: draft, importance: 5, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -416,7 +416,7 @@ Code:
 
 ![Gender non-specific loss in different stages of the funnel](./img/masturbation_and_attractiveness/dur_after_bar.png "Gender non-specific loss in different stages of the funnel.")
 
-*Figure 1: Gender non-specific loss in different stages of cold approach*
+*Gender non-specific loss in different stages of cold approach*
 
 Very similar diagrams can be made for male and female data points:
 
@@ -438,7 +438,7 @@ Male:
 
 ![Male loss in different stages of the funnel](./img/masturbation_and_attractiveness/dur_after_m_bar.png "Male loss in different stages of the funnel.")
 
-*Figure 2: Male loss in different stages of cold approach*
+*Male loss in different stages of cold approach*
 
 Female:
 
@@ -458,7 +458,7 @@ Female:
 
 ![Female loss in different stages of the funnel](./img/masturbation_and_attractiveness/dur_after_f_bar.png "Female loss in different stages of the funnel.")
 
-*Figure 3: Female loss in different stages of cold approach*
+*Female loss in different stages of cold approach*
 
 <!--TODO: Is this a Kaplan-Meier Curve?-->
 
@@ -485,7 +485,7 @@ like this:
 
 ![Survival percentages for different stages, overall](./img/masturbation_and_attractiveness/survival.png "Survival percentages for different stages, overall")
 
-*Figure 4: Survival percentages for different stages, overall*
+*Survival percentages for different stages, overall*
 
 	.l("nplot")
 	.l("./load.kg")
@@ -506,7 +506,7 @@ like this:
 
 ![Survival percentages for different stages, men](./img/masturbation_and_attractiveness/survival_m.png "Survival percentages for different stages, men")
 
-*Figure 5: Survival percentages for different stages, men*
+*Survival percentages for different stages, men*
 
 	.l("nplot")
 	.l("./load.kg")
@@ -527,7 +527,7 @@ like this:
 
 ![Survival percentages for different stages, women](./img/masturbation_and_attractiveness/survival_f.png "Survival percentages for different stages, women")
 
-*Figure 6: Survival percentages for different stages, women*
+*Survival percentages for different stages, women*
 
 ### Descriptive Results
 
