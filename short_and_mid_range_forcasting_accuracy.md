@@ -28,7 +28,6 @@ https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting
 -->
 <!--https://en.wikipedia.org/wiki/Simpson's_paradox-->
 <!--https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting-->
-<!--https://github.com/gimpf/metaculus-question-stats-->
 <!--http://foresightr.com/2016/05/06/a-brief-history-of-forecasting-->
 
 [Probabilistic forecasting](https://en.wikiki_Probabilistic_forecasting)
@@ -158,7 +157,7 @@ linear regression).
 The Metaculus data is relatively easy to obtain:
 The forecasts are available on a JSON API at
 `https://www.metaculus.com/api2/questions/?page=`. Fortunately,
-gimpf has already published [a collection of
+[gimpf](https://github.com/gimpf/) has already published [a collection of
 scripts](https://github.com/gimpf/metaculus-question-stats) for fetching &
 analysing Metaculus data, I reused their script `fetch` to download the
 raw JSON. I then converted the distinct page objects in the generated
@@ -389,7 +388,7 @@ being the brier score for all forecasts made in that time. For example,
 	[9 0.215]
 	[10 0.297]]
 
-(Brier scores truncated using `{(*x),(_1000**|x)%1000}'ypbdiffbrie`).
+(Brier scores truncated using `{(*x),(_1000**|x)%1000}'ypbdiffbrier`).
 
 First, one can check how high the range of these two datasets really is.
 The PredictionBook forecasts with the highest range span 3730 days
@@ -421,10 +420,9 @@ the question, the lower the Brier score (and therefore, the higher the
 accuracy)! And the correlation is extremly low either: -0.2 is quite
 formidable.
 
-<!--Why assume accuracy will increase?-->
-
 PredictionBook, on the other hand, is not as surprising: the correlations
-are mostly weak and indicate that accuracy doesn't change with range.
+are mostly weak and indicate that accuracy doesn't change with range
+– a [null result](https://en.wikipedia.org/wiki/Null_result).
 
 Visualizing the forecasts with
 [scatterplots](https://en.wikipedia.org/wiki/Scatter_plot) and [linear
@@ -453,8 +451,16 @@ predictions for single days (or, in the case of weeks and months, for
 years/months with a high range, as not enough questions with this range
 have resolved yet).
 
+### Why Assume Accuracy will Increase?
+
+### Simpson's Paradox
+
 Accuracy Between Questions
 --------------------------
+
+Another way to determine at the relation between forecasting accuracy
+and range is to look at the range of questions and not of individual
+forecasts.
 
 Accuracy Within Questions
 -------------------------
