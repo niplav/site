@@ -12,6 +12,8 @@ brier::{mu((x-y)^2)}
 
 pbdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'pbraw)
 
+:"Between forecasts"
+
 :"For days"
 dpbdiffs::{_x%spd}'pbdata@3
 
@@ -77,3 +79,41 @@ mmetdiffbrier::mmetdiffbrier@<*'mmetdiffbrier
 ymetdg::=ymetdiffs
 ymetdiffbrier::{(ymetdiffs@*x),brier(metfcs@x;metress@x)}'ymetdg
 ymetdiffbrier::ymetdiffbrier@<*'ymetdiffbrier
+
+:"Between questions"
+
+pbquestions::{(,(pbdata@1)@x),(,(pbdata@2)@x),(,(pbdata@3)@x)}'=*pbdata
+
+dpbquestions::{(2#x),_mu(x@2)%spd}'pbquestions
+dpbquestions@=*'|'dpbquestions
+dpbqbrier::{(*x),brier@1_x}'{(*|*x),(,(,/*'x)),(,(,/{x@1}'x))}'{dpbquestions@x}'=*'|'dpbquestions
+
+wpbquestions::{(2#x),_mu(x@2)%spw}'pbquestions
+wpbquestions@=*'|'wpbquestions
+wpbqbrier::{(*x),brier@1_x}'{(*|*x),(,(,/*'x)),(,(,/{x@1}'x))}'{wpbquestions@x}'=*'|'wpbquestions
+
+mpbquestions::{(2#x),_mu(x@2)%spm}'pbquestions
+mpbquestions@=*'|'mpbquestions
+mpbqbrier::{(*x),brier@1_x}'{(*|*x),(,(,/*'x)),(,(,/{x@1}'x))}'{mpbquestions@x}'=*'|'mpbquestions
+
+ypbquestions::{(2#x),_mu(x@2)%spy}'pbquestions
+ypbquestions@=*'|'ypbquestions
+ypbqbrier::{(*x),brier@1_x}'{(*|*x),(,(,/*'x)),(,(,/{x@1}'x))}'{ypbquestions@x}'=*'|'ypbquestions
+
+metquestions::{(,(metdata@1)@x),(,(metdata@2)@x),(,(metdata@3)@x)}'=*metdata
+
+dmetquestions::{(2#x),_mu(x@2)%spd}'metquestions
+dmetquestions@=*'|'dmetquestions
+dmetqbrier::{(*x),brier@1_x}'{(*|*x),(,(,/*'x)),(,(,/{x@1}'x))}'{dmetquestions@x}'=*'|'dmetquestions
+
+wmetquestions::{(2#x),_mu(x@2)%spw}'metquestions
+wmetquestions@=*'|'wmetquestions
+wmetqbrier::{(*x),brier@1_x}'{(*|*x),(,(,/*'x)),(,(,/{x@1}'x))}'{wmetquestions@x}'=*'|'wmetquestions
+
+mmetquestions::{(2#x),_mu(x@2)%spm}'metquestions
+mmetquestions@=*'|'mmetquestions
+mmetqbrier::{(*x),brier@1_x}'{(*|*x),(,(,/*'x)),(,(,/{x@1}'x))}'{mmetquestions@x}'=*'|'mmetquestions
+
+ymetquestions::{(2#x),_mu(x@2)%spy}'metquestions
+ymetquestions@=*'|'ymetquestions
+ymetqbrier::{(*x),brier@1_x}'{(*|*x),(,(,/*'x)),(,(,/{x@1}'x))}'{ymetquestions@x}'=*'|'ymetquestions

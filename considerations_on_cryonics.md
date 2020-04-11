@@ -1,10 +1,11 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-04-03, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-04-11, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
-> [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)?
+> [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
+> (i.e. postpone signing up for cryonics to a later date)?
 > [Betteridge's law of
 > headlines](https://en.wikipedia.org/wiki/Betteridge's_law_of_headlines)
 > only applies partially here: Yes, it is probably worth it (under

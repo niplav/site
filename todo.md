@@ -24,6 +24,7 @@ Site
 * Anchor links may be duplicated, update code
 * Description of images in italics below
 * Move from Python2 to Python3
+* USe correct titles
 
 Texts
 -----
@@ -93,6 +94,8 @@ Texts
 		population of X
 	* Abandon or rephrase as a something learned
 * Forecasting is Worse is Better
+* Why not Earlier Forecasting?
+* Forecasting, Science and Crystal Balls
 
 ### Analyses
 
@@ -259,6 +262,7 @@ Texts
 		* de Grey anti-aging proposal
 * Cryptographic Agreement on Bribing
 * Encoding Conditionals Using Modulo
+* Extracting Probabilities from Stock Markets
 
 ### Collections
 
@@ -284,6 +288,7 @@ Texts
 	* Read
 		* /usr/local/doc/unread/notation/notation_as_a_tool_of_thought_iverson_1986.pdf
 * Cryonics in Germany FAQ
+* All Exercises from “The Jazz Piano Book”
 
 ### Notes
 

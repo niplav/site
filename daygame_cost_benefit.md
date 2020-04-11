@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-04-03, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-04-11, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -942,17 +942,49 @@ With this, one can easily calculate the additional exppenditures:
 
 #### Social Costs from Being Found Out
 
+For some people doing daygame, being found out as a daygamer can have
+negative consequences: Loosing friends, being publicly shamed, or even
+having negative effects in the workplace. For this reason (and probably
+also as a precautionary measure), many daygamers publish their writing
+online anonymously.
+
+But doing daygame can also have negative side-effects even if one doesn't
+write about it online: Acquantainces could see one doing daygame and
+tell it around in parts of ones social circle, leading to ostracisation
+or financial consequences.
+
+On the other hand, being discovered probably doesn't propagate through
+ones whole social circle, and often probably has very small effects.
+
+I model this as having a certain probability of being discovered as
+a daygamer for every approach. Being found out more than once has
+logarithmically increasing costs with the number of being found out.
+
+I'll (somewhat arbitrarily) set the cost of first being found at \$500,
+and the probability of being found out at any approach to 0.1%.
+
+The probability of being discovered `n` times with
+`x` approaches can be calculated using the [binomial
+distribution](https://en.wikipedia.org/wiki/Binomial_distribution).
+
+To make the code run faster, only the scenarios with a cost of more than
+\$0.01 are being considered.
+
+	fcbfo::300
+	pbfo::0.001
+	cbfo::{[t];t::x;+/{b.pmf(x;t;pbfo)*fcbfo*ln(e*x)}'1+!{(x<t)&00.1<b.pmf(x;t;pbfo)*fcbfo*ln(e*x)}{x+1}:~1}
+
 ### Value in the Complex Model
 
 The global optimum is now calculated the same way as [here](#Value):
 
 		optim::*>vals
-	1092
+	1024
 		vals@*>vals
-	2378.70879018822807
+	2110.1350422531768
 
 The more complex model with additional considerations therefore recommends
-1092 approaches, with a value of ~\$2378.71.
+1024 approaches, with a value of ~\$2110.13.
 
 Graphically:
 
