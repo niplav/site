@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2020-03-24, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2020-04-12, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -751,3 +751,33 @@ Greer](https://geoff.greer.fm/2010/07/09/insert-frozen-food-joke-here/),
 and myself), considering that the number of people signed up globally is
 [~1500](https://timelines.issarice.com/wiki/Timeline_of_brain_preservation#Members),
 this is quite significant.
+
+Some Qualitative Intuitions on the Effects of Open Borders
+----------------------------------------------------------
+
+I'll assume open borders would have an effect of [doubling the world gross
+product](https://openborders.info/double-world-gdp/ "Double world GDP").
+
+This would be beneficial for humans alive right now, since less would
+need to live in extreme poverty.
+
+That would increase demand for meat, and thereby contribute to factory
+farming.
+
+It would also speed up technological development, and with it the
+development of clean meat (although it's not clear by how much compared
+to rising demand for meat during the absence of clean meat).
+
+[Tomasik
+2018](https://reducing-suffering.org/humanitys-net-impact-on-wild-animal-suffering/ "Humanity's Net Impact on Wild-Animal Suffering")
+notes that additional humans probably decrease wild-animal suffering,
+and it seems plausible that wealthier people would have a similar
+impact.
+
+A wealthier humanity would also speed up technological development
+relative to development of wisdom, which would contribute to differential
+intellectual progress ([Tomasik
+2017](./doc/thoughts_on_open_borders/differential_intellectual_progress_as_a_positive_sum_project_tomasik_2017.pdf "Differential Intellectual Progress as a Positive-Sum Project"))
+and thereby increasing the probability of [global catastrophic
+risks](https://en.wikipedia.org/wiki/Global_catastrophic_risk) through
+novel technologies.
