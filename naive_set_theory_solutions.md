@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2020-04-03, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2020-04-12, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -12,11 +12,15 @@
 Solutions to “Naive Set Theory“
 ================================
 
+<!--
 A `$\TeX$` version of this solution is available
 [here](./code/naive_set_theory/exercises.pdf).
+-->
 
-Section 3, Exercise 1
-----------------------
+Section 3
+---------
+
+### Exercise 1
 
 It seems like there is no way one could use either insetting (putting
 a given set into another set) and pairing or pairing on two different
@@ -36,8 +40,10 @@ at least one element not in `$\{c,d\}$`.
 
 □
 
-Section 4, Exercise 1
----------------------
+Section 4
+---------
+
+### Exercise 1
 
 I am not exactly sure what I'm supposed to do here. I guess
 "observe" means "prove" here, so "prove that the condition
@@ -55,8 +61,10 @@ This is trivially true.
 
 □
 
-Section 5, Some easy exercises
-------------------------------
+Section 5
+----------
+
+### Some Easy Exercises
 
 `$A-B=A \cap B'$`
 
@@ -144,8 +152,7 @@ doesn't change the equation.
 
 □
 
-Section 5, Exercise 1
----------------------
+### Exercise 1
 
 To be shown: The power set of a set with n elements has `$2^n$` elements.
 Proof by induction.
@@ -174,8 +181,7 @@ therefore `$|P(A \cup \{a\})|=|P(A)|+|N|=2*|P(A)|=2*2^{|A|}=2^{|A|+1}$`.
 
 □
 
-Section 5, Exercise 2
----------------------
+### Exercise 2
 
 To be shown:
 
@@ -305,8 +311,10 @@ clear that `$E \subset {\cal{P}}(E)$`, as for all other subsets of `$E$`.
 
 □
 
-Section 6, A non-trivial exercise
----------------------------------
+Section 6
+----------
+
+### A Non-Trivial Exercise
 
 "find an intrinsic characterization of those sets of subsets of A that
 correspond to some order in A"
@@ -341,8 +349,7 @@ the size of `$A$` is the size of `$M$`.
 These conditions characterise `$\cal{M}$` intrinsically and are the solution
 to the question.
 
-Section 6, Exercise 1
-----------------------
+### Exercise 1
 
 (i) To be shown: `$(A \cup B) \times X=(A \times X) \cup (B \times X)$`
 
@@ -392,8 +399,10 @@ and there is a contradiction.
 
 □
 
-Section 7, Exercise 1
----------------------
+Section 7
+----------
+
+### Exercise 1
 
 Reflexive, but neither symmetric nor transitive (symmetry violation:
 `$(b,a)\not\in$`, transitivity violation: `$(a,c)\not\in$`):
@@ -407,8 +416,7 @@ Transitive, but neither reflexive nor symmetric (reflexivity
 violation: `$(a,a)\not\in$`, symmetry violation: `$(b,a)\not\in$`):
 `$\{(a,b),(b,c),(a,c)\}$`
 
-Section 7, Exercise 2
----------------------
+### Exercise 2
 
 > We shall write `$X/R$` for the set of all equivalence classe. (Pronounce
 > `$X/R$` as “X modulo R,“ or, in abbreviated form, “X mod R.“ Exercise:
@@ -425,3 +433,45 @@ But I can try and construct `$X/R$` from `${\cal{P}}(X)$`:
 `$X/R=\{E: (\forall x, y \in E: x R y) \land E \in {\cal{P}}(X) \} \subset {\cal{P}}(X)$`
 
 □, I guess?
+
+Section 8
+----------
+
+### Exercise 1
+
+Basically, the question is "Which projections are one-to-one", or,
+"Which projections are injective"?
+
+The answer is: A projection `$p: X\times Y \mapsto X$` is injective iff
+`$\forall (x,y)\in X \times Y: \nexists (x,z) \in X \times Y: z \neq y$`.
+Or, simpler: Every element of `$X$` occurs at most once in the relation.
+This can be extended easily to relations composed of more than 2 sets.
+
+### Exercise 2
+
+(i) To be shown: `$Y^{\emptyset}=\{\emptyset\}$`
+
+1\. `$\emptyset:\emptyset \rightarrow Y$` (the empty set is a function
+from `$\emptyset$` to `$Y$`).
+
+This is true because `$\emptyset$` is a relation so that
+`$\emptyset \subset \emptyset \times Y$`, and `$\forall x \in \emptyset: \exists (x,y) \in \emptyset$`.
+Or: `$\emptyset$` is a set of pairs that maps all elements in
+`$\emptyset$` to `$X$`, and therefore a function from `$\emptyset$` to
+`$X$`.
+
+2\. Assume `$\exists x \in Y^{\emptyset}: x \neq \emptyset$`
+
+Then `$x: \emptyset \rightarrow Y$`, and `$x \subset \emptyset \times Y$`.
+But `$\emptyset \times X$` can only be `$\emptyset$`, but it was assumed
+that `$x \neq \emptyset$`. Therefore, no such `$x$` can exist.
+
+(ii) To be shown: `$X \neq \emptyset \Rightarrow \emptyset^{X}=\emptyset$`
+
+Assume `$\exists f \in \emptyset^{X}$`. Then
+`$f \subset X \times \emptyset \land \forall x \in X: \exists (x,y) \in f: y \in \emptyset$`
+(or: `$f$` maps all elements of `$X$` to an element in
+`$\emptyset$`). However there are no elements in the empty set (that I
+know of), so `$f$` can't exist.
+
+However, if `$X=\emptyset$`, then (i) applies. So `$\emptyset^{\emptyset}=\{\emptyset\}$`.

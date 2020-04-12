@@ -1,17 +1,18 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-04-11, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-04-12, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
 > that daygame is probably worth ~\$1000 maximum, at ~500 approaches,
 > though the number varies strongly under different assumptions. After
 > that, I modify the model to capture more of the nuance, and arrive at
-> \_. I then perform a Monte-Carlo estimation to determine the uncertainty
-> around the expected value and find that in the simple case the value of
-> daygame ranges from -\$3300 to \$3200 (5th/95th percentile), with a
-> median of \$900 and a mean of \$550, and in the complex case \_.__
+> ~\$2100 of value for ~1000 approaches. I then perform a Monte-Carlo
+> estimation to determine the uncertainty around the expected value and
+> find that in the simple case the value of daygame ranges from -\$3300 to
+> \$3200 (5th/95th percentile), with a median of \$900 and a mean of \$550,
+> and in the complex case \_.__
 
 Daygame Cost-Benefit Analysis
 =============================
