@@ -1,13 +1,13 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-04-09, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-04-12, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
 
-TODO
-====
+Todo
+=====
 
 Site
 -----
@@ -21,10 +21,8 @@ Site
 * Improve citation (both to wikipedia and to papers)
 * Make all scripted programs banged
 * Link tooltips at the beginning of lines break the links
-* Anchor links may be duplicated, update code
 * Description of images in italics below
 * Move from Python2 to Python3
-* USe correct titles
 
 Texts
 -----
@@ -276,17 +274,17 @@ Texts
 		discarded methods of writing mathematics.
 	* Discarded Methods
 		* https://en.wikipedia.org/wiki/Begriffsschrift
-		* https://en.wikipedia.org/wiki/Newton%27s_notation#Newton's_notation
+		* https://en.wikipedia.org/wiki/Newton%27s\_notation#Newton's\_notation
 	* New Notations
 		* General
 			* https://www.stephenwolfram.com/publications/mathematical-notation-past-future/
-			* /usr/local/doc/unread/towards_a_better_notation_for_mathematics_olah_2010.pdf
+			* /usr/local/doc/unread/towards\_a\_better\_notation\_for\_mathematics\_olah\_2010.pdf
 		* Triangle of Power
 			* https://www.youtube.com/watch?v=sULa9Lc4pck
 			* https://math.stackexchange.com/questions/30046/alternative-notation-for-exponents-logs-and-roots
 			* http://www.solidangl.es/2015/04/a-radical-new-look-for-logarithms.html
 	* Read
-		* /usr/local/doc/unread/notation/notation_as_a_tool_of_thought_iverson_1986.pdf
+		* /usr/local/doc/unread/notation/notation\_as\_a\_tool\_of\_thought\_iverson\_1986.pdf
 * Cryonics in Germany FAQ
 * All Exercises from “The Jazz Piano Book”
 
@@ -367,9 +365,9 @@ Texts
 		* Timelessness
 			* Plotinus
 		* Tegmark's Mathematical Universe
-			* /usr/local/doc/unread/physics/our_mathematical_universe_tegmark_2014.epub
+			* /usr/local/doc/unread/physics/our\_mathematical\_universe\_tegmark\_2014.epub
 		* Symmetry Theory of Valence
-			* /usr/local/doc/unread/principia_qualia_johnson_2017.pdf
+			* /usr/local/doc/unread/principia\_qualia\_johnson\_2017.pdf
 		* Scott Alexander's Solution to Theodicy
 			https://slatestarcodex.com/2015/03/15/answer-to-job/
 	* Explanation
