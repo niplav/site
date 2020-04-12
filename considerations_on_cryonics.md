@@ -16,7 +16,7 @@
 > simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method) using
 > [Guesstimate](https://www.getguesstimate.com/ "Official website"),
 > and find that signing up for cryonics at age 20 is worth in the
-> mean \$35 mio., median -\$100K (95% confidence interval: -\$1.59 mio.,
+> mean \$35 mio., median -\$100K (90% confidence interval: -\$1.59 mio.,
 > \$63.2 mio.). It therefore seems recommendable to sign up for cryonics.__
 
 Considerations on Cryonics
