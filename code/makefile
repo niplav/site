@@ -3,7 +3,7 @@ all:
 	make -C considerations_on_cryonics/
 	make -C daygame_cost_benefit/
 	make -C estimated_life_expectancy/
-	make -C short_and_mid_range_forecasting_accuracy/
+	make -C range_and_forecasting_accuracy/
 	make -C masturbation_and_attractiveness/
 	make -C naive_set_theory/
 	make -C bp_chrono/
@@ -16,7 +16,7 @@ puttit:
 	make -C considerations_on_cryonics/ puttit
 	make -C daygame_cost_benefit/ puttit
 	make -C estimated_life_expectancy/ puttit
-	make -C short_and_mid_range_forecasting_accuracy/ puttit
+	make -C range_and_forecasting_accuracy/ puttit
 	make -C masturbation_and_attractiveness/ puttit
 	make -C bp_chrono/ puttit
 	make -C ob_chrono/ puttit
@@ -28,7 +28,7 @@ clean:
 	make -C considerations_on_cryonics/ clean
 	make -C daygame_cost_benefit/ clean
 	make -C estimated_life_expectancy/ clean
-	make -C short_and_mid_range_forecasting_accuracy/ clean
+	make -C range_and_forecasting_accuracy/ clean
 	make -C masturbation_and_attractiveness/ clean
 	make -C naive_set_theory/ clean
 	make -C bp_chrono/ clean

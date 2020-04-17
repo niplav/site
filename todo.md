@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-04-12, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-04-15, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -94,6 +94,11 @@ Texts
 * Forecasting is Worse is Better
 * Why not Earlier Forecasting?
 * Forecasting, Science and Crystal Balls
+* Forecasting Contra Credentials
+	* Forecasting Stays Relevant to the Topic
+	* Forecasting Remembers, the Public May Not
+	* Forecasting has Faster Feedback
+	* Is Forecasting Harder to Game?
 
 ### Analyses
 
@@ -305,6 +310,7 @@ Texts
 	* Internet Abstinence
 * No One Knows & No One Can Know
 	* This argument infuriates me: did you try to find out what people actually know?
+* Sometimes People have the same Credences but still Disagree
 
 ### Misc
 

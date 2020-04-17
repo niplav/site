@@ -51,7 +51,7 @@ Writing
 
 #### Other
 
-* [Short and Mid Range Forecasting Accuracy](./short_and_mid_range_forcasting_accuracy.md)
+* [Short and Mid Range Forecasting Accuracy](./range_and_forcasting_accuracy.md)
 * [Two People on a Planet](./two_people_on_a_planet.md)
 * [Rationalist Gods](./rationalist_gods.md)
 * [Against Applause After Classical Concerts](./against_applause.md)

@@ -82,6 +82,25 @@ ymetdiffbrier::ymetdiffbrier@<*'ymetdiffbrier
 
 :"Between questions"
 
+qgpbdata::=*pbdata
+pbquestions::((*pbdata)@*'qgpbdata),'((+1_pbdata)@qgpbdata)
+
+dpbquestions::({[t];t::+1_x;(_mu(t@2)%spd),+2#t}'pbquestions)
+dpbqbrier::+1_+dpbquestions
+dpbqbrier::dpbqbrier@<dpbqbrier
+
+wpbquestions::({[t];t::+1_x;(*x),(_mu(t@2)%spw),(brier@2#t)}'pbquestions)
+wpbqbrier::+1_+wpbquestions
+wpbqbrier::wpbqbrier@<wpbqbrier
+
+mpbquestions::({[t];t::+1_x;(*x),(_mu(t@2)%spm),(brier@2#t)}'pbquestions)
+mpbqbrier::+1_+mpbquestions
+mpbqbrier::mpbqbrier@<mpbqbrier
+
+ypbquestions::({[t];t::+1_x;(*x),(_mu(t@2)%spy),(brier@2#t)}'pbquestions)
+ypbqbrier::+1_+ypbquestions
+ypbqbrier::ypbqbrier@<ypbqbrier
+
 pbquestions::{(,(pbdata@1)@x),(,(pbdata@2)@x),(,(pbdata@3)@x)}'=*pbdata
 
 dpbquestions::{(2#x),_mu(x@2)%spd}'pbquestions
