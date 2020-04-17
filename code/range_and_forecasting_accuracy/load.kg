@@ -8,61 +8,24 @@ spy::365*spd
 
 brier::{mu((x-y)^2)}
 
-.fc(.ic("../../data/pb.csv"));pbraw::csv.load()
-
-pbdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'pbraw)
-
-:"Between forecasts"
-
-:"For days"
-dpbdiffs::{_x%spd}'pbdata@3
-
-:"For weeks"
-wpbdiffs::{_x%spw}'pbdata@3
-
-:"For months (roughly)"
-mpbdiffs::{_x%spm}'pbdata@3
-
-:"For years"
-ypbdiffs::{_x%spy}'pbdata@3
-
-pbress::pbdata@1
-pbfcs::pbdata@2
-
-dpbdg::=dpbdiffs
-dpbdiffbrier::{(dpbdiffs@*x),brier(pbfcs@x;pbress@x)}'dpbdg
-dpbdiffbrier::dpbdiffbrier@<*'dpbdiffbrier
-
-wpbdg::=wpbdiffs
-wpbdiffbrier::{(wpbdiffs@*x),brier(pbfcs@x;pbress@x)}'wpbdg
-wpbdiffbrier::wpbdiffbrier@<*'wpbdiffbrier
-
-mpbdg::=mpbdiffs
-mpbdiffbrier::{(mpbdiffs@*x),brier(pbfcs@x;pbress@x)}'mpbdg
-mpbdiffbrier::mpbdiffbrier@<*'mpbdiffbrier
-
-ypbdg::=ypbdiffs
-ypbdiffbrier::{(ypbdiffs@*x),brier(pbfcs@x;pbress@x)}'ypbdg
-ypbdiffbrier::ypbdiffbrier@<*'ypbdiffbrier
-
 .fc(.ic("../../data/met.csv"));metraw::csv.load()
 
 metdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'metraw)
 
 :"For days"
-dmetdiffs::{_x%spd}'metdata@3
+dmetdiffs::{_x%spd}'metdata@4
 
 :"For weeks"
-wmetdiffs::{_x%spw}'metdata@3
+wmetdiffs::{_x%spw}'metdata@4
 
 :"For months (roughly)"
-mmetdiffs::{_x%spm}'metdata@3
+mmetdiffs::{_x%spm}'metdata@4
 
 :"For years"
-ymetdiffs::{_x%spy}'metdata@3
+ymetdiffs::{_x%spy}'metdata@4
 
-metress::metdata@1
-metfcs::metdata@2
+metress::metdata@2
+metfcs::metdata@3
 
 dmetdg::=dmetdiffs
 dmetdiffbrier::{(dmetdiffs@*x),brier(metfcs@x;metress@x)}'dmetdg
@@ -80,59 +43,103 @@ ymetdg::=ymetdiffs
 ymetdiffbrier::{(ymetdiffs@*x),brier(metfcs@x;metress@x)}'ymetdg
 ymetdiffbrier::ymetdiffbrier@<*'ymetdiffbrier
 
-:"Between questions"
+.fc(.ic("../../data/pb.csv"));pbraw::csv.load()
 
-qgpbdata::=*pbdata
-pbquestions::((*pbdata)@*'qgpbdata),'((+1_pbdata)@qgpbdata)
+pbdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'pbraw)
 
-dpbquestions::({[t];t::+1_x;(_mu(t@2)%spd),+2#t}'pbquestions)
-dpbqbrier::+1_+dpbquestions
-dpbqbrier::dpbqbrier@<dpbqbrier
+:"For days"
+dpbdiffs::{_x%spd}'pbdata@4
 
-wpbquestions::({[t];t::+1_x;(*x),(_mu(t@2)%spw),(brier@2#t)}'pbquestions)
-wpbqbrier::+1_+wpbquestions
-wpbqbrier::wpbqbrier@<wpbqbrier
+:"For weeks"
+wpbdiffs::{_x%spw}'pbdata@4
 
-mpbquestions::({[t];t::+1_x;(*x),(_mu(t@2)%spm),(brier@2#t)}'pbquestions)
-mpbqbrier::+1_+mpbquestions
-mpbqbrier::mpbqbrier@<mpbqbrier
+:"For months (roughly)"
+mpbdiffs::{_x%spm}'pbdata@4
 
-ypbquestions::({[t];t::+1_x;(*x),(_mu(t@2)%spy),(brier@2#t)}'pbquestions)
-ypbqbrier::+1_+ypbquestions
-ypbqbrier::ypbqbrier@<ypbqbrier
+:"For years"
+ypbdiffs::{_x%spy}'pbdata@4
 
-pbquestions::{(,(pbdata@1)@x),(,(pbdata@2)@x),(,(pbdata@3)@x)}'=*pbdata
+pbress::pbdata@2
+pbfcs::pbdata@3
 
-dpbquestions::{(2#x),_mu(x@2)%spd}'pbquestions
-dpbquestions@=*'|'dpbquestions
-dpbqbrier::{(*x),brier@1_x}'{(*|*x),(,(,/*'x)),(,(,/{x@1}'x))}'{dpbquestions@x}'=*'|'dpbquestions
+dpbdg::=dpbdiffs
+dpbdiffbrier::{(dpbdiffs@*x),brier(pbfcs@x;pbress@x)}'dpbdg
+dpbdiffbrier::dpbdiffbrier@<*'dpbdiffbrier
 
-wpbquestions::{(2#x),_mu(x@2)%spw}'pbquestions
-wpbquestions@=*'|'wpbquestions
-wpbqbrier::{(*x),brier@1_x}'{(*|*x),(,(,/*'x)),(,(,/{x@1}'x))}'{wpbquestions@x}'=*'|'wpbquestions
+wpbdg::=wpbdiffs
+wpbdiffbrier::{(wpbdiffs@*x),brier(pbfcs@x;pbress@x)}'wpbdg
+wpbdiffbrier::wpbdiffbrier@<*'wpbdiffbrier
 
-mpbquestions::{(2#x),_mu(x@2)%spm}'pbquestions
-mpbquestions@=*'|'mpbquestions
-mpbqbrier::{(*x),brier@1_x}'{(*|*x),(,(,/*'x)),(,(,/{x@1}'x))}'{mpbquestions@x}'=*'|'mpbquestions
+mpbdg::=mpbdiffs
+mpbdiffbrier::{(mpbdiffs@*x),brier(pbfcs@x;pbress@x)}'mpbdg
+mpbdiffbrier::mpbdiffbrier@<*'mpbdiffbrier
 
-ypbquestions::{(2#x),_mu(x@2)%spy}'pbquestions
-ypbquestions@=*'|'ypbquestions
-ypbqbrier::{(*x),brier@1_x}'{(*|*x),(,(,/*'x)),(,(,/{x@1}'x))}'{ypbquestions@x}'=*'|'ypbquestions
+ypbdg::=ypbdiffs
+ypbdiffbrier::{(ypbdiffs@*x),brier(pbfcs@x;pbress@x)}'ypbdg
+ypbdiffbrier::ypbdiffbrier@<*'ypbdiffbrier
 
-metquestions::{(,(metdata@1)@x),(,(metdata@2)@x),(,(metdata@3)@x)}'=*metdata
+:"After executing this, metquestions has the following format:"
+:"[[id open-resolve-timediff [outcomes] [forecasts] [forecast-resolve-timediffs]]*]"
+:"One element for every questions"
+metquestions::{(*x@0),(*x@1),2_x}'+'(+metdata)@=*metdata
 
-dmetquestions::{(2#x),_mu(x@2)%spd}'metquestions
-dmetquestions@=*'|'dmetquestions
-dmetqbrier::{(*x),brier@1_x}'{(*|*x),(,(,/*'x)),(,(,/{x@1}'x))}'{dmetquestions@x}'=*'|'dmetquestions
+:"After this, dmetquestions has the form:"
+:"[[open-resolve-days-timediff [outcomes] [forecasts]]*]"
+dmetquestions::{(_(x@1)%spd),x@[2 3]}'metquestions
+dmetquestions::{(**x),,/'+{1_x}'x}'dmetquestions@=*'dmetquestions
+dqmetbrier::{(*x),brier@1_x}'dmetquestions
+dqmetbrier::dqmetbrier@<dqmetbrier
 
-wmetquestions::{(2#x),_mu(x@2)%spw}'metquestions
-wmetquestions@=*'|'wmetquestions
-wmetqbrier::{(*x),brier@1_x}'{(*|*x),(,(,/*'x)),(,(,/{x@1}'x))}'{wmetquestions@x}'=*'|'wmetquestions
+:"After this, wmetquestions has the form:"
+:"[[open-resolve-days-timediff [outcomes] [forecasts]]*]"
+wmetquestions::{(_(x@1)%spw),x@[2 3]}'metquestions
+wmetquestions::{(**x),,/'+{1_x}'x}'wmetquestions@=*'wmetquestions
+wqmetbrier::{(*x),brier@1_x}'wmetquestions
+wqmetbrier::wqmetbrier@<wqmetbrier
 
-mmetquestions::{(2#x),_mu(x@2)%spm}'metquestions
-mmetquestions@=*'|'mmetquestions
-mmetqbrier::{(*x),brier@1_x}'{(*|*x),(,(,/*'x)),(,(,/{x@1}'x))}'{mmetquestions@x}'=*'|'mmetquestions
+:"After this, mmetquestions has the form:"
+:"[[open-resolve-days-timediff [outcomes] [forecasts]]*]"
+mmetquestions::{(_(x@1)%spm),x@[2 3]}'metquestions
+mmetquestions::{(**x),,/'+{1_x}'x}'mmetquestions@=*'mmetquestions
+mqmetbrier::{(*x),brier@1_x}'mmetquestions
+mqmetbrier::mqmetbrier@<mqmetbrier
 
-ymetquestions::{(2#x),_mu(x@2)%spy}'metquestions
-ymetquestions@=*'|'ymetquestions
-ymetqbrier::{(*x),brier@1_x}'{(*|*x),(,(,/*'x)),(,(,/{x@1}'x))}'{ymetquestions@x}'=*'|'ymetquestions
+:"After this, ymetquestions has the form:"
+:"[[open-resolve-days-timediff [outcomes] [forecasts]]*]"
+ymetquestions::{(_(x@1)%spy),x@[2 3]}'metquestions
+ymetquestions::{(**x),,/'+{1_x}'x}'ymetquestions@=*'ymetquestions
+yqmetbrier::{(*x),brier@1_x}'ymetquestions
+yqmetbrier::yqmetbrier@<yqmetbrier
+
+:"After executing this, pbquestions has the following format:"
+:"[[id open-resolve-timediff [outcomes] [forecasts] [forecast-resolve-timediffs]]*]"
+:"One element for every questions"
+pbquestions::{(*x@0),(*x@1),2_x}'+'(+pbdata)@=*pbdata
+
+:"After this, dpbquestions has the form:"
+:"[[open-resolve-days-timediff [outcomes] [forecasts]]*]"
+dpbquestions::{(_(x@1)%spd),x@[2 3]}'pbquestions
+dpbquestions::{(**x),,/'+{1_x}'x}'dpbquestions@=*'dpbquestions
+dqpbbrier::{(*x),brier@1_x}'dpbquestions
+dqpbbrier::dqpbbrier@<dqpbbrier
+
+:"After this, wpbquestions has the form:"
+:"[[open-resolve-days-timediff [outcomes] [forecasts]]*]"
+wpbquestions::{(_(x@1)%spw),x@[2 3]}'pbquestions
+wpbquestions::{(**x),,/'+{1_x}'x}'wpbquestions@=*'wpbquestions
+wqpbbrier::{(*x),brier@1_x}'wpbquestions
+wqpbbrier::wqpbbrier@<wqpbbrier
+
+:"After this, mpbquestions has the form:"
+:"[[open-resolve-days-timediff [outcomes] [forecasts]]*]"
+mpbquestions::{(_(x@1)%spm),x@[2 3]}'pbquestions
+mpbquestions::{(**x),,/'+{1_x}'x}'mpbquestions@=*'mpbquestions
+mqpbbrier::{(*x),brier@1_x}'mpbquestions
+mqpbbrier::mqpbbrier@<mqpbbrier
+
+:"After this, ypbquestions has the form:"
+:"[[open-resolve-days-timediff [outcomes] [forecasts]]*]"
+ypbquestions::{(_(x@1)%spy),x@[2 3]}'pbquestions
+ypbquestions::{(**x),,/'+{1_x}'x}'ypbquestions@=*'ypbquestions
+yqpbbrier::{(*x),brier@1_x}'ypbquestions
+yqpbbrier::yqpbbrier@<yqpbbrier
