@@ -12,8 +12,8 @@
 > [Metaculus](https://www.metaculus.com/questions/), the answers turn
 > out to be no, \_ and \_. Possible reasons are discussed.__
 
-Short and Mid Range Forecasting Accuracy
-========================================
+Range and Forecasting Accuracy
+===============================
 
 > Above all, don’t ask what to believe—ask what to anticipate. Every
 question of belief should flow from a question of anticipation, and that
@@ -430,19 +430,19 @@ regressions](https://en.wikipedia.org/wiki/Linear_regression) shows a
 very similar picture (red dots are for Metaculus forecasts, blue dots
 are for PredictionBook forecasts):
 
-![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)](img/short_and_mid_range_forecasting_accuracy/alldays.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)")
+![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)](img/range_and_forecasting_accuracy/alldays.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)")
 
 *Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)*
 
-![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in weeks)](img/short_and_mid_range_forecasting_accuracy/allweeks.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in weeks)")
+![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in weeks)](img/range_and_forecasting_accuracy/allweeks.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in weeks)")
 
 *Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in weeks)*
 
-![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in months)](img/short_and_mid_range_forecasting_accuracy/allmonths.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in months)")
+![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in months)](img/range_and_forecasting_accuracy/allmonths.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in months)")
 
 *Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in months)*
 
-![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in years)](img/short_and_mid_range_forecasting_accuracy/allyears.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in years)")
+![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in years)](img/range_and_forecasting_accuracy/allyears.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in years)")
 
 *Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in years)*
 
