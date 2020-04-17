@@ -27,6 +27,10 @@ def showforecasts(linkp, res):
 
 	resolved=timedata.find("span", class_="judgement").find("span", class_="date created_at").get("title")
 	restime=time.strptime(resolved,"%Y-%m-%d %H:%M:%S UTC")
+	#The first date in `timedata` is the opening date`
+	#It's not beautiful
+	created=timedata.find("span", class_="date").get("title")
+	createtime=time.strptime(created,"%Y-%m-%d %H:%M:%S UTC")
 
 	responses=soupp.find_all("li", class_="response")
 	for r in responses:
@@ -37,7 +41,7 @@ def showforecasts(linkp, res):
 			continue
 		estimated=r.find("span", class_="date").get("title")
 		esttime=time.strptime(estimated,"%Y-%m-%d %H:%M:%S UTC")
-		print("{},{},{},{}".format(linkp.replace("/predictions/", ""), res, est, mktime(restime)-mktime(esttime)))
+		print("{},{},{},{},{}".format(linkp.replace("/predictions/", ""), mktime(restime)-mktime(createtime), res, est, mktime(restime)-mktime(esttime)))
 
 for page in range(1,400):
 	url="https://predictionbook.com/predictions/page/{}".format(page)
