@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-04-17, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-04-20, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -103,6 +103,7 @@ Texts
 	* Forecasting Remembers, the Public May Not
 	* Forecasting has Faster Feedback
 	* Is Forecasting Harder to Game?
+	* Less Susceptible to Social Biases like Charisma
 
 ### Analyses
 
@@ -319,6 +320,8 @@ Texts
 ### Misc
 
 * Evolution as a Tautology
+	* Structures that are Better at Self-Replication will Eventually be More Common than the Ones Which are Not
+* Very Specific Psychedelic Qualia
 * Coding Standards
 	* General Project Setup
 	* C

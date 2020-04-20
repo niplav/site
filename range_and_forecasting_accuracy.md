@@ -10,7 +10,7 @@
 > accuracy higher within questions. These questions are analyzed
 > using data from [PredictionBook](https://predictionbook.com/) and
 > [Metaculus](https://www.metaculus.com/questions/), the answers turn
-> out to be no, \_ and \_. Possible reasons are discussed.__
+> out to be no, no and \_. Possible reasons are discussed.__
 
 Range and Forecasting Accuracy
 ===============================
@@ -23,6 +23,7 @@ and should continue to pay rent in future anticipations. If a belief
 turns deadbeat, evict it.
 
 *– [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“Making Beliefs Pay Rent (in Anticipated Experiences)“](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences), 2007*
+
 <!--Also look at this guy:
 https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting
 -->

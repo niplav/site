@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-06, modified: 2019-12-06, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-06, modified: 2020-04-20, language: english, status: in progress, importance: 5, confidence: log*
 
 > __A collection of contributions to other projects.__
 
@@ -15,6 +15,7 @@ Texts
 TODO: follow up on https://drewdevault.com/2014/02/02/The-worst-bugs.html,
 https://www.skepticink.com/prussian/2014/03/31/the-anti-racialist-q-a/,
 http://metamoderna.org/beyond-piketty-far-beyond?lang=en,
+t3x.org klong changelog
 -->
 
 ### “Differential Intellectual Progress as a Positive-Sum Project”
