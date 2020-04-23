@@ -139,21 +139,17 @@ on Metaculus one can only see the community forecast (a the time-weighted
 median of the forecasts made on the question). This is relevant for this
 analysis: The two approaches must be analysed separately.
 
-Accuracy Between Forecasts
---------------------------
+Getting the Data
+----------------
 
-The first approach I took was to simply take the probability, result and
-range for all forecasts made, sort these forecasts into buckets by range
-(e.g. one bucket for all forecasts made 1 day before their resolution
-(and their results), one bucket for all forecasts made 2 days before
-their resolution, and so on). I then calculated the Brier score for each
-of these buckets, and then checked what the relation between brier score
-and range (the time between forecast & resolution) was (correlation &
-linear regression).
+First of all, the data for both platforms needs to be made available in
+a reasonable format. This works nicer for Metaculus, and is a bit more
+difficult to achieve for PredictionBook.
 
-### Getting the Data
+The resulting data from Metaculus is [here](./data/met.csv), for
+PredictionBook it's [here](./data/pb.csv).
 
-#### For Metaculus
+### For Metaculus
 
 The Metaculus data is relatively easy to obtain:
 The forecasts are available on a JSON API at
@@ -173,10 +169,15 @@ file to a list of questions:
 
 The resulting data is available [here](./data/metaculus.json).
 
-I then wrote a python script to convert the JSON data to CSV in the
-form `id,result,probability,range` (`id` is a unique ID per question,
-which will come in handy later), while also filtering out yet unresolved
-questions and range questions.
+I then wrote a python script to convert the JSON data to CSV in the form
+`id,questionrange,result,probability,range` (`id` is a unique ID per
+question, which will come in handy later), while also filtering out
+yet unresolved questions and range questions. Here, `id` is a unique
+numerical ID per question, which will come in handy later, `questionrange`
+is the duration between the time for creating and resolving the question,
+`result` is the result of the question (either 0 or 1), `probability`
+is the probability given by the predictor `$]0;1[$`, and `range` is the
+duration between the forecast and the resolution.
 
 The script is not terribly interesting: It just reads in the JSON data,
 parses and traverses it, printing the CSV in the process.
@@ -200,14 +201,18 @@ Code:
 					restime=time.strptime(question["resolve_time"],"%Y-%m-%dT%H:%M:%S.%fZ")
 				except:
 					restime=time.strptime(question["resolve_time"],"%Y-%m-%dT%H:%M:%SZ")
+				try:
+					createtime=time.strptime(question["created_time"],"%Y-%m-%dT%H:%M:%S.%fZ")
+				except:
+					createtime=time.strptime(question["created_time"],"%Y-%m-%dT%H:%M:%SZ")
 				for pred in question["prediction_timeseries"]:
 					timediff=mktime(restime)-pred["t"]
-					print("{},{},{},{}".format(question["id"], question["resolution"], pred["community_prediction"], timediff))
+					qtimediff=mktime(restime)-mktime(createtime)
+					print("{},{},{},{},{}".format(question["id"], qtimediff, question["resolution"], pred["community_prediction"], timediff))
 
-The resulting CSV file with over 40k predictions is available
-[here](./data/met.csv).
+The resulting CSV file contains over 40k predictions.
 
-#### For PredictionBook
+### For PredictionBook
 
 As far as I know, PredictionBook doesn't publish the forecasting
 data over an API. However, all individual predictions are visible
@@ -234,7 +239,8 @@ Also, the 'known on' date has the CSS class `date created_at`, which
 doesn't seem right.
 
 The output of this script is in the same format as the one for Metaculus
-data: `id,result,probability,range`.
+data: `id,questionrange,result,probability,range` (although here
+`probability` can also be 0 and 1, which Metaculus doesn't allow).
 
 Code:
 
@@ -258,9 +264,10 @@ Code:
 		soupp=BeautifulSoup(datap, "html.parser")
 
 		timedata=soupp.find(lambda tag:tag.name=="p" and "Created by" in tag.text)
-
 		resolved=timedata.find("span", class_="judgement").find("span", class_="date created_at").get("title")
 		restime=time.strptime(resolved,"%Y-%m-%d %H:%M:%S UTC")
+		created=timedata.find("span", class_="date").get("title")
+		createtime=time.strptime(created,"%Y-%m-%d %H:%M:%S UTC")
 
 		responses=soupp.find_all("li", class_="response")
 		for r in responses:
@@ -271,7 +278,7 @@ Code:
 				continue
 			estimated=r.find("span", class_="date").get("title")
 			esttime=time.strptime(estimated,"%Y-%m-%d %H:%M:%S UTC")
-			print("{},{},{},{}".format(linkp.replace("/predictions/", ""), res, est, mktime(restime)-mktime(esttime)))
+			print("{},{},{},{},{}".format(linkp.replace("/predictions/", ""), mktime(restime)-mktime(createtime), res, est, mktime(restime)-mktime(esttime)))
 
 	for page in range(1,400):
 		url="https://predictionbook.com/predictions/page/{}".format(page)
@@ -295,7 +302,17 @@ Surprisingly, both platforms had almost the same amount of individual
 predictions on binary resolved questions: ~43k for Metaculus, and ~42k
 for PredictionBook.
 
-The resulting data from PredictionBook is available [here](./data/pb.csv).
+Accuracy Between Forecasts
+--------------------------
+
+The first approach I took was to simply take the probability, result and
+range for all forecasts made, sort these forecasts into buckets by range
+(e.g. one bucket for all forecasts made 1 day before their resolution
+(and their results), one bucket for all forecasts made 2 days before
+their resolution, and so on). I then calculated the Brier score for each
+of these buckets, and then checked what the relation between brier score
+and range (the time between forecast & resolution) was (correlation &
+linear regression).
 
 ### Analysis
 
@@ -454,11 +471,55 @@ have resolved yet).
 
 ### Why Assume Accuracy will Increase?
 
+I believe that this finding is quite surprising.
+
+A priori, one would believe that beliefs about the near future are
+generally more accurate than beliefs about the far future: We can predict
+the weather in 2 minutes far better than the weather in 6 months, we can
+say much more about the position of a rock in an hour than in 100 years,
+more about the popularity of a political party in 2 months as opposed
+to 10 years. Even in reasonably chaotic systems, one should expect to
+become more and more accurate the closer one comes to the expected time.
+
+Take, for example, a three-part pendulum: I am totally able to predict its
+position & velocity 100ms before resolution time, but 1s before and it's
+already getting more difficult. Information, like nearly everything else,
+has diminishing value, posteriors converge continuously towards truth.
+
+<!--TODO: Is it really called that way? Also, what are some probability
+theory & information theory theorems for this?-->
+
 ### Possible Explanations
 
-#### Simpson's Paradox
+So, what is the reason for this rather weird finding? Several possible
+reasons come to mind.
 
 #### Range and Biased Questions
+
+The most obvious solution is that the analysis above is absolute bogus and
+completely meaningless: It compares questions about global catastrophic
+risks to popular banana brands <!--TODO: link both Ragnarök series &
+banana question-->, very different kinds of questions with very different
+kinds of forecasts.
+
+Here, one would assume that the longer-term questions asked are generally
+easier to predict, and that the effect goes away when one compares
+predictions among very similary questions (or, better, within questions).
+
+Generally, the long-term questions we prefer asking seem to be more
+menable to forecasting than short-term questions: development of
+population sizes, the climate, especially the movement of interstellar
+bodies is much more thoroughly modelled than the development of markets,
+elections and the weather. This is of course only a weak trend, but
+one that could influence the questions (as will be investigated in
+[this section](#Accuracy-Between-Questions)).
+
+### Low Sample Sizes With High Ranges
+
+Another question one might ask is: How big are the sample sizes at the
+tails when the range is high?
+
+#### Simpson's Paradox
 
 Accuracy Between Questions
 --------------------------
