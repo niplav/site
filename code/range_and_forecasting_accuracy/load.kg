@@ -78,6 +78,32 @@ ypbdg::=ypbdiffs
 ypbdiffbrier::{(ypbdiffs@*x),brier(pbfcs@x;pbress@x)}'ypbdg
 ypbdiffbrier::ypbdiffbrier@<*'ypbdiffbrier
 
+:"Sample sizes for ranges"
+
+dpbss::{(dpbdiffs@*x),#x}'dpbdg
+dpbss::dpbss@<dpbss
+
+wpbss::{(wpbdiffs@*x),#x}'wpbdg
+wpbss::wpbss@<wpbss
+
+mpbss::{(mpbdiffs@*x),#x}'mpbdg
+mpbss::mpbss@<mpbss
+
+ypbss::{(ypbdiffs@*x),#x}'ypbdg
+ypbss::ypbss@<ypbss
+
+dmetss::{(dmetdiffs@*x),#x}'dmetdg
+dmetss::dmetss@<dmetss
+
+wmetss::{(wmetdiffs@*x),#x}'wmetdg
+wmetss::wmetss@<wmetss
+
+mmetss::{(mmetdiffs@*x),#x}'mmetdg
+mmetss::mmetss@<mmetss
+
+ymetss::{(ymetdiffs@*x),#x}'ymetdg
+ymetss::ymetss@<ymetss
+
 :"After executing this, metquestions has the following format:"
 :"[[id open-resolve-timediff [outcomes] [forecasts] [forecast-resolve-timediffs]]*]"
 :"One element for every questions"
