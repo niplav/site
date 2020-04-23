@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-04-20, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-04-24, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -149,7 +149,7 @@ Texts
 	* transformation curves: {linear, marginal, any}
 	* indifference curves: {linear, fixed number, any}
 * Building A Big Tower
-	* 500 years, ~1 trio. dollars, stable technology, build a tower as big as possible
+	* 500 years, ~\$1t, stable technology, build a tower as big as possible
 	* considerations
 		* location
 			* some mountains nearby for material
@@ -652,6 +652,10 @@ Programming
 	* get inspiration from meditavo
 * tomate
 	* little pomodoro utility
+* unclean
+	*	utility that tries to calculate the percentage of variable
+		assignments for which a given sentence in propositional
+		logic is true
 
 ### Klong Libraries
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-04-11, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-04-24, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -9,15 +9,15 @@
 > [Betteridge's law of
 > headlines](https://en.wikipedia.org/wiki/Betteridge's_law_of_headlines)
 > only applies partially here: Yes, it is probably worth it (under
-> plausible assumptions \$2.5 mio. for a 20 year old, and more for older
+> plausible assumptions \$2.5m for a 20 year old, and more for older
 > people), and no, cryocrastination is usually irrational. A cost-benefit
 > analysis written in Lua.
 > I also perform a [Monte-Carlo
 > simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method) using
 > [Guesstimate](https://www.getguesstimate.com/ "Official website"),
 > and find that signing up for cryonics at age 20 is worth in the
-> mean \$35 mio., median -\$100K (90% confidence interval: -\$1.59 mio.,
-> \$63.2 mio.). It therefore seems recommendable to sign up for cryonics.__
+> mean \$35m , median -\$100k (90% confidence interval: -\$1.59m,
+> \$63.2m). It therefore seems recommendable to sign up for cryonics.__
 
 Considerations on Cryonics
 ==========================
@@ -74,7 +74,7 @@ cryonics.
 Cost-Benefit Calculation for Cryonics
 -------------------------------------
 
-> If you make 50K\$/yr now, and value life-years at twice your income,
+> If you make 50k\$/yr now, and value life-years at twice your income,
 > and discount future years at 2% from the moment you are revived for a
 > long life, but only discount that future life based on the chance it
 > will happen, times a factor of 1/2 because you only half identify with
@@ -1069,14 +1069,14 @@ with a 90% confidence interval of `$[400;900]$`.
 ### Value
 
 The result is certainly interesting: in this model, signing up for
-cryonics has a mean value of \$35 mio. and a median of ≈-\$100K
+cryonics has a mean value of \$35m and a median of ≈-\$100k
 (perhaps because of longevity escape velocity arriving and making
 the value simply the cost for signing up), but with very long tails,
-especially on the positive side: a fifth percentile of -\$1.59 mio.,
-and a 95th percentile of *squints* \$63.2 mio. – quite a range!
+especially on the positive side: a fifth percentile of -\$1.59m,
+and a 95th percentile of *squints* \$63.2m – quite a range!
 
-The minimum and maximum of the simulation are even more extreme: -\$1
-bio. for the minimum and \$11.3 bio. for the maximum.
+The minimum and maximum of the simulation are even more extreme: -\$1b
+for the minimum and \$11.3b for the maximum.
 
 Because of these huge numbers, perhaps it makes sense to try to visualize
 them logarithmically. I exported the numbers for the variable 'Value'
@@ -1106,7 +1106,7 @@ understand.
 
 As one can see, the distribution has turned out sort-of
 [bimodal](https://en.wikipedia.org/wiki/Multimodal_distribution):
-Most cases of signing up for cryonics have a value of -\$100K (presumably
+Most cases of signing up for cryonics have a value of -\$100k (presumably
 because longevity escape velocity arrives first), the
 rest is either very negative of very positive. To be exact,
 `(+/{*|x}'flr({*x<0};incidence))%#logvalues` `$\approx58.7\%$`
