@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2020-04-12, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2020-04-24, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -642,11 +642,11 @@ among the public (~1000 person-years affected). Medium social acceptance
 would mean that the technologies are available and used sparingly in some
 countries (perhaps due to the price of such technologies), or them being
 widely used among a certain subset of the population (think psychonauts
-today, but a bit more mainstream) (~1 mio. person-years affected). High
+today, but a bit more mainstream) (~1m person-years affected). High
 social acceptance would entail people in developed countries having
 direct access to the technologies QRI has developed, up to achieving a
 [Pearcean](https://en.wikipedia.org/wiki/David_Pearce_(philosopher))
-hedonistic utopia (~100 mio. person-years affected).
+hedonistic utopia (~100m person-years affected).
 
 In the most pessimistic case, complete failure, both axes collapse: No
 social acceptance at all is like the technologies were never developed,
@@ -725,7 +725,7 @@ is true that it's often hard to point to specific advantages of doing so.
 
 One such advantage may be signing up for cryonics. [niplav
 2020](./considerations_on_cryonics.html "Considerations on Cryonics")
-estimates that signing up for cryonics is worth \$2.5 mio. in expectation
+estimates that signing up for cryonics is worth \$2.5m in expectation
 for a twenty year old. Assume that after 500 hours reading Less Wrong,
 a person will decide to sign up for cryonics (it broadly took me that
 much time, maybe a little bit less).

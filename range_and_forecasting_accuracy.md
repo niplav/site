@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-04-09, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-04-24, language: english, status: notes, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
@@ -204,7 +204,7 @@ Code:
 					timediff=mktime(restime)-pred["t"]
 					print("{},{},{},{}".format(question["id"], question["resolution"], pred["community_prediction"], timediff))
 
-The resulting CSV file with over 40K predictions is available
+The resulting CSV file with over 40k predictions is available
 [here](./data/met.csv).
 
 #### For PredictionBook
@@ -292,7 +292,7 @@ Code:
 			showforecasts(linkp, "0.0")
 
 Surprisingly, both platforms had almost the same amount of individual
-predictions on binary resolved questions: ~43K for Metaculus, and ~42K
+predictions on binary resolved questions: ~43k for Metaculus, and ~42k
 for PredictionBook.
 
 The resulting data from PredictionBook is available [here](./data/pb.csv).
@@ -454,7 +454,11 @@ have resolved yet).
 
 ### Why Assume Accuracy will Increase?
 
-### Simpson's Paradox
+### Possible Explanations
+
+#### Simpson's Paradox
+
+#### Range and Biased Questions
 
 Accuracy Between Questions
 --------------------------

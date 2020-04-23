@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-04-12, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-04-24, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -769,8 +769,8 @@ expected salary by 0.5% in the first year, with then logarithmic increases
 for each additional year, for 10 years.
 The [parity purchasing power average annual
 wage](https://en.wikipedia.org/wiki/List_of_countries_by_average_wage)
-in the US was \$60K in 2017, but many industrialized countries are lower.
-I'll assume that the average annual wage for a daygamer is \$40K, just
+in the US was \$60k in 2017, but many industrialized countries are lower.
+I'll assume that the average annual wage for a daygamer is \$40k, just
 to be safe.
 
 The code for calculating the monetary value of the positive side-effects of

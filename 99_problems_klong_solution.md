@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2020-03-19, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2020-04-24, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.html "99 Klong
 > Problems") in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -655,7 +655,7 @@ and now has to be converted into
 	kg -l ./p25plot.kg -e '[]' >runtimes25.eps
 	convert -size 750x750 runtimes25.eps runtimes25.png
 
-![Runtimes for the solutions to problem 3](./img/99_klong/runtimes25.png "Runtimes for the solutions to problem 3. Fisher-Yates shuffle is alot slower than the shorter Grading shuffle (Fisher-Yates takes 3 seconds for 9K elements, Grading shuffle only 0.6 seconds), and also grows quicker.")
+![Runtimes for the solutions to problem 3](./img/99_klong/runtimes25.png "Runtimes for the solutions to problem 3. Fisher-Yates shuffle is alot slower than the shorter Grading shuffle (Fisher-Yates takes 3 seconds for 9k elements, Grading shuffle only 0.6 seconds), and also grows quicker.")
 
 The Fisher-Yates shuffle implementation seems to grow with `$\cal{O}(n^2)$`,
 but the growth behavior of the Grading Shuffle is not entirely
@@ -879,7 +879,7 @@ of x).
 Even quick performance tests reveal massive differences between these
 four functions (the result always is the average runtime in seconds):
 
-Testing `s31.1` with 100 random values >100K:
+Testing `s31.1` with 100 random values >100k:
 
 		.l("time")
 		s31.1::{:[[0 1]?x;0:|x=2;1;[]~(x!2+!x-2)?0]}
@@ -893,21 +893,21 @@ Testing `s31.2` with 100 random values >1G:
 		(+/1_100{x;time({s31.2(1000000000+_100*.rn())})}\*[])%100
 	0.05924128
 
-Testing `s31.3` with 100 random values >10K:
+Testing `s31.3` with 100 random values >10k:
 
 		.l("time")
 		s31.3::{[a v];a::x;v::1;x=*{a>*x}{v::v+2;:[[]~(v!x)?0;v,x;x]}:~[2]}
 		(+/1_100{x;time({s31.3(10000+_100*.rn())})}\*[])%100
 	2.87354341
 
-Testing `s31.4` with 100 random values >10K:
+Testing `s31.4` with 100 random values >10k:
 
 		.l("time")
 		s31.4::{[n p];n::x;p::[2];{~x>n}{:[&/x!p;p::p,x;0];x+2}:~3;:[x<2;0;x=*|p]}
 		(+/1_100{x;time({s31.4(10000+_100*.rn())})}\*[])%100
 	5.4216601
 
-Testing `s31.5` with 100 random values >100K:
+Testing `s31.5` with 100 random values >100k:
 
 		.l("time")
 		s31.5::{:[x<2;0:|x=2;1;&/x!:\2_!x]}
@@ -929,8 +929,7 @@ the omission of even divisors).
 
 One can now check the performance of the first two functions to find
 out about their runtime behavior (notice that both have similar growth
-behavior at 100K and 10G, respectively).
-
+behavior at 100k and 10b, respectively).
 
 Measuring runtimes of `s31.1` and generating the graph:
 
@@ -948,7 +947,7 @@ Measuring runtimes of `s31.1` and generating the graph:
 	text(300;300;"s31.1")
 	draw()
 
-![Runtimes of s31.1](./img/99_klong/runtimes31_1.png "Runtimes of s31.1. The runtime grows linearly, with spikes in the runtime around the values 300K, 500K and 700K.")
+![Runtimes of s31.1](./img/99_klong/runtimes31_1.png "Runtimes of s31.1. The runtime grows linearly, with spikes in the runtime around the values 300k, 500k and 700k.")
 
 Measuring runtimes of `s31.2` and generating the graph:
 
@@ -984,7 +983,7 @@ corresponding graph:
 	text(300;300;"s31.5")
 	draw()
 
-![Runtimes of s31.5](./img/99_klong/runtimes31_5.png "Runtimes of s31.5. It is not clear whether the function grows linearly or quadratically. But it also has spikes, this time around 100K, 200K, 400K and 650K. It takes around 3 seconds for a value of 600K.")
+![Runtimes of s31.5](./img/99_klong/runtimes31_5.png "Runtimes of s31.5. It is not clear whether the function grows linearly or quadratically. But it also has spikes, this time around 100k, 200k, 400k and 650k. It takes around 3 seconds for a value of 600k.")
 
 As one can see, both grow approximately linearly, and `s31.5` is around
 twice as slow as `s31.1`, while having the same growth behavior. I am
