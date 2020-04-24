@@ -167,8 +167,8 @@ Texts
 * Nuking the Amazon Cost-Benefit Analysis
 * What is the most common word I don't use?
 * How Strong is the Gender Difference In Sex Drive?
-	* /usr/local/doc/unread/blackpill/is_there_a_gender_difference_in_strength_of_sex_drive_baumeister_et_al_2001.pdf
-	* /usr/local/doc/unread/blackpill/in_heterosexual_relationships_men_masturbate_more_than_women_waterink_2014.pdf
+	* /usr/local/doc/unread/blackpill/is\_there\_a\_gender\_difference\_in\_strength\_of\_sex\_drive\_baumeister\_et\_al\_2001.pdf
+	* /usr/local/doc/unread/blackpill/in\_heterosexual\_relationships\_men\_masturbate\_more\_than\_women\_waterink\_2014.pdf
 * Do eggs burst when they're not poked before boiling?
 	* Blinded, person needs to poke & write down, but not tell
 	* Student's t-test

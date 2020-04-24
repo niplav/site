@@ -238,6 +238,9 @@ The name is already occupied by a philosophical tradition called
 little relation to the collection of people on the internet usually called
 "rationalists". Also, the name seems to be quite pretentious to outsiders.
 
+<!--TODO: there was a post on LW about this instead being
+"pragmatism". Look that up!-->
+
 Alternatives:
 
 *	"Mapmaking": Using "The map is not the territory.", related to

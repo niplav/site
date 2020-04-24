@@ -17,7 +17,8 @@
 > [Guesstimate](https://www.getguesstimate.com/ "Official website"),
 > and find that signing up for cryonics at age 20 is worth in the
 > mean \$35m , median -\$100k (90% confidence interval: -\$1.59m,
-> \$63.2m). It therefore seems recommendable to sign up for cryonics.__
+> \$63.2m). It therefore seems recommendable to sign up for cryonics
+> immediately.__
 
 Considerations on Cryonics
 ==========================
