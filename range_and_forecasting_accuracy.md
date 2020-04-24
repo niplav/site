@@ -24,6 +24,8 @@ turns deadbeat, evict it.
 
 *– [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“Making Beliefs Pay Rent (in Anticipated Experiences)“](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences), 2007*
 
+<!--Add paragraph on the difference in quality between the two datasets,
+Metaculus better-->
 <!--Also look at this guy:
 https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting
 -->
@@ -390,9 +392,10 @@ similar for weeks, months and years):
 	dmetdiffbrier::dmetdiffbrier@<*'dmetdiffbrier
 
 Every `diffbrier` list contains lists with two elements, the first
-one being the time between forecast and resolution, and the second one
-being the brier score for all forecasts made in that time. For example,
-`ypbdiffbrier` is
+one being the time between forecast and resolution, and the second
+one being the brier score for all forecasts made in that time. For
+example, `ypbdiffbrier` (the brier scores for all predictions made on
+PredictionBook 1/2/.../10 years before resolution) is
 
 	[[0 0.162]
 	[1 0.168]

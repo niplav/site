@@ -1024,8 +1024,8 @@ Conclusion
 
 I have presented both a simple and a more complicated cost-benefit
 analysis for daygame. Both conclude that daygame is worth it, at around
-500 approaches, but the value is not enormous, with only a thousand
-dollars, and decreases rapidly with less lenient assumptions.
+500-1000 approaches, but the value is not enormous, with only a \$1-2k,
+and decreases rapidly with less lenient assumptions.
 
 I tentatively conclude that daygame may be worth it, but
 it's definitely not a surefire positive deal. Sign up for
