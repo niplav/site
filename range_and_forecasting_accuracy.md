@@ -6,7 +6,7 @@
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
 > questions: First; is the accuracy higher between forecasts;
-> Second; is the accuracy higher between questions; Third: is the
+> Second; is the accuracy higher between questions; Third; is the
 > accuracy higher within questions. These questions are analyzed
 > using data from [PredictionBook](https://predictionbook.com/) and
 > [Metaculus](https://www.metaculus.com/questions/), the answers turn

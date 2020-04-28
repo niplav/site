@@ -122,7 +122,7 @@ have the same characteristic description).
 		<td><img src="./img/circle_combinations/3_3.png"></img></td>
 		<td>8</td>
 		<td>4</td>
-		<td>36</td>
+		<td>6</td>
 		<td>1,3,3,0</td>
 	</tr>
 	<tr>
