@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-15, modified: 2020-02-09, language: english, status: notes, importance: 5, confidence: theory*
+*author: niplav, created: 2019-08-15, modified: 2020-04-28, language: english, status: notes, importance: 5, confidence: theory*
 
 > __Many people have very different conceptions on how to think about
 > consciousness, intelligence, sentience and information processing. A
@@ -10,6 +10,15 @@
 
 Using Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience
 =========================================================================================
+
+<!--
+"If consciousness is the thoughts and computations that an agent performs
+when acting in the world, there seems to be some relationship between
+sapience -- the ability to intelligently handle novel situations --
+and sentience -- inner "feelings"."
+
+https://longtermrisk.org/flavors-of-computation-are-flavors-of-consciousness/
+-->
 
 <!--TODO: links in headers are no good, move them elsewhere-->
 
@@ -78,6 +87,9 @@ Example: Presumably most humans
 Counter-example: An electron
 
 #### Conscious (C):
+
+<!--Issue: most people seem to use "conscious" and "sentient"
+interchangeably-->
 
 Has internal self-model, passes mirror test (or similar test), can
 distinguish "world" and "self"
