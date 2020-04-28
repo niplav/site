@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2019-12-03, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2020-04-29, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -35,10 +35,7 @@ Reading
 
 Currently, I am reading the following books:
 
-* An Anarchist FAQ (Iain McKay/Gary Elkin/Dave Neal/Ed Boraas, 2009)
-* Strukturalismus – Eine Einführung (Lothar Fietz, 1982)
 * Naive Set Theory (Paul R. Halmos, 1960)
-* Mindfulness In Plain English (Ven. Henepola Gunaratana, 1990)
 
 I am reading the following blogs:
 
