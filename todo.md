@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-04-24, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-04-30, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -271,6 +271,8 @@ Texts
 * Cryptographic Agreement on Bribing
 * Encoding Conditionals Using Modulo
 * Extracting Probabilities from Stock Markets
+* Population Ethics Test Suite
+	* Look at comments on An Impossibility Theorem for Welfarist Axiologies (Gustaf Arrhenius, 2000)
 
 ### Collections
 
