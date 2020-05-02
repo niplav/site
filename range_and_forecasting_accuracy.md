@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-04-24, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-05-02, language: english, status: notes, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
@@ -522,6 +522,84 @@ one that could influence the questions (as will be investigated in
 Another question one might ask is: How big are the sample sizes at the
 tails when the range is high?
 
+This is important: low sample sizes increase noise dramatically, and
+make findings much less reliable.
+
+<!--TODO: find a way to test the statistical significance here, sometime later-->
+
+To get a rough overview over the sample sizes, on can look at the
+number of samples for each bucket. I generated charts for sample
+sizes for [days](./img/range_and_forecasting_accuracy/dss_plot.png),
+[weeks](./img/range_and_forecasting_accuracy/wss_plot.png),
+[months](./img/range_and_forecasting_accuracy/mss_plot.png) and
+[years](./img/range_and_forecasting_accuracy/yss_plot.png), but I'll
+only show the chart for months (the others are quite similar):
+
+	mssplot::.oc("mss_plot.eps")
+	.tc(mssplot)
+
+	mmaxlen::(#mpbss)|#mmetss
+	mmaxval::|/*|+mpbss,mmetss
+
+	mmetssvals::(*|+mmetss),(mmaxlen-#mmetss):^0
+	mpbssvals::(*|+mpbss),(mmaxlen-#mpbss):^0
+
+	setrgb(0;0;0)
+	grid([0],mmaxlen,(mmaxlen:%20);[0],mmaxval,(mmaxval:%20))
+	xtitle("Range (in months)")
+	ytitle("Number of predictions")
+
+	setrgb(0;0;1)
+	segplot(mmetssvals)
+	setrgb(1;0;0)
+	segplot(mpbssvals)
+
+	draw()
+	.fl()
+	.cc(mssplot)
+
+![Sample sizes for predictions with a range of n months, sorted and graphed.](./img/range_and_forecasting_accuracy/mss_plot.png "Sample sizes for predictions with a range of n months, sorted and graphed.")
+
+*Sample sizes for predictions with a range of n months, sorted and graphed.*
+
+The red bars stand for Metaculus sample sizes, the blue bars stand for
+PredictionBook sample sizes.
+
+As one can see, the sample sizes have a drastical skew towards recent
+predictions, not surprising for relatively young platforms (although 10
+years for PredictionBook is sizable by internet standards, it's not that
+much compared to the range of some predictions on the platform).
+
+This can be seen in the data as well: More than 77% percent of Metaculus predictions
+and 75% of PredictionBook questions have a range of less than one year:
+
+	ypbss::{(ypbdiffs@*x),#x}'ypbdg
+	ypbss::ypbss@<ypbss
+	ymetss::{(ymetdiffs@*x),#x}'ymetdg
+	ymetss::ymetss@<ymetss
+		ymetss
+	[[0 34487] [1 7129] [2 2182] [3 507]]
+	        ypbss
+	[[0 29724] [1 4257] [2 1966] [3 1491] [4 909] [5 374] [6 287] [7 155] [8 143] [9 107] [10 6]]
+		34487%(34487+7129+2182+507)
+	0.77839972915020878
+		29724%(+/*|+ypbss)
+	0.754052614221568279
+
+I hope that the dataset becomes richer the older these platforms become.
+
+For days the skew is not as strong for Metaculus (moreso for
+PredictionBook), but still relevant:
+
+		10#dmetss
+	[[0 406] [1 543] [2 633] [3 464] [4 546] [5 477] [6 440] [7 307] [8 240] [9 297]]
+	        10#dpbss
+	[[0 3267] [1 1142] [2 754] [3 611] [4 625] [5 426] [6 507] [7 440] [8 283] [9 246]]
+
+Because in the linear regression all datapoints are weighted equally,
+it could very well be that a tiny bit of noise at the tails dominates
+the entire regression.
+
 #### Simpson's Paradox
 
 Accuracy Between Questions
@@ -530,6 +608,43 @@ Accuracy Between Questions
 Another way to determine at the relation between forecasting accuracy
 and range is to look at the range of questions and not of individual
 forecasts.
+
+In this case, this means taking the forecasts on all questions with
+a given range, and calculating the brier score on these forecasts,
+sorting them into buckets related to range.
+
+### Determining the Range of a Question
+
+The range of a question is determined by taking the time difference
+between the opening time (the time when the first prediction on the
+question could have been made) and the resolution time. One could imagine
+other metrics to determine the range of a question: the mean range
+for forecasts of that question, the median range for forecasts on that
+question, time differences between writing/opening and closing/resolution
+times of the question, and probably many more.
+
+Here, the range of a question was set to the time difference between opening
+time and resolution time. The reasons for this were threefold:
+
+First, I had no clear idea about the time when people were making
+forecasts on questions. Are most of the forecasts made just after
+opening, or just before closing? Or is the distribution uniform on the
+time between opening and closing? And are these distributions different
+on long-range as opposed to short-range questions? Also, I was unsure
+whether taking the mean time for forecasts would just be the same as
+comparing forecasts directly. So taking the median or the mean of the
+forecasts made was less preferable.
+
+Second, what I cared about here was the uncertainty of questions at time
+of writing, not at time of prediction. This is much better tracked by
+opening time than by proxy on the forecasts.
+
+Third, there was the question of data availability. Both Metaculus and
+PredictionBook publish opening/resolution times, but PredictionBook has
+no clear distinction between closing and resolution time (there is,
+however, a distinction between effective resolution time and planned
+resolution time ("When was the question resolved?" vs. "When should the
+question have been resolved?")
 
 Accuracy Within Questions
 -------------------------

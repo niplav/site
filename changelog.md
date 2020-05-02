@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-04-24, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2020-05-02, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -10,6 +10,14 @@ Changelog
 
 April 2020
 ----------
+
+### Writing
+
+* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+* [Solutions for Exercises in “Naive Set Theory”](./naive_set_theory_solutions.html): Section [8](./naive_set_theory_solutions.html#Section-8)
+* [Social Costs from being Found Out Doing Daygame](./daygame_cost_benefit.html#Social-Costs-from-Being-Found-Out)
+* [Notes](./notes.md):
+	* [Some Qualitative Intuitions on the Effects of Open Borders](./notes.html#Some-Qualitative-Intuitions-on-the-Effects-of-Open-Borders)
 
 March 2020
 ----------

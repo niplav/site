@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-04-30, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-05-02, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -23,6 +23,9 @@ Site
 * Link tooltips at the beginning of lines break the links
 * Description of images in italics below
 * Move from Python2 to Python3
+* Convert all the expensive image generating scripts into single ones that only run once, with multiple outputs
+	* Done:
+		* Range and Forecasting Accuracy
 
 Texts
 -----
@@ -273,6 +276,14 @@ Texts
 * Extracting Probabilities from Stock Markets
 * Population Ethics Test Suite
 	* Look at comments on An Impossibility Theorem for Welfarist Axiologies (Gustaf Arrhenius, 2000)
+* Three-level population ethics
+	* Symmetrical critical level
+	* If any life below -critlevel, level 3
+	* If all lifes above critlevel, level 1
+	* Otherwise level 2
+	* Average in Level 2, total in Level 1/3?
+	* Prevents hijacking through efficient just-positive lives
+	* Violates Mere Addition Principle
 
 ### Collections
 
