@@ -1,4 +1,4 @@
-![Sol Plav](./favicon.png "Sol Plav")
+![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
 *author: niplav, created: 2019-03-20, modified: 2020-04-20, language: english, status: in progress, importance: 6, confidence: log*
 
@@ -109,4 +109,4 @@ Miscellaneous
 * [Todo](./todo.md)
 * [Uses This](./uses_this.md)
 
-![Sol Plav](./favicon.png "Sol Plav")
+![Sol Plav](./favicon.png "kakja kjerbas unjobares")
