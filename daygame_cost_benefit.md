@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-04-24, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-05-08, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -548,8 +548,7 @@ dates per lay, again smaller.
 Similarly, Thomas Crown reports [1.4 dates on average for a lay in
 his first year](https://thomascrownpua.wordpress.com/2016-17/ "2016/17 Statistics")
 and [1.1 for his
-second](https://thomascrownpua.wordpress.com/2018-statistics/ "2018
-Statistics").
+second](https://thomascrownpua.wordpress.com/2018-statistics/ "2018 Statistics").
 
 I will assume 1.8 dates on average lasting 3.5h each, because the numbers
 above are from people who has already done many approaches:

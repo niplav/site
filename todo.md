@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-05-02, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-05-08, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -252,6 +252,7 @@ Texts
 	* This is essentially a discussion about how to finance public goods
 * Aesthematics
 	* Infinite Fractal Meta Recursion
+		* This is possibly just the ordinal numbers
 	* Mendeljew Operator
 	* Supersymmetric Copying
 * Preference Frustration Auctions
@@ -284,6 +285,15 @@ Texts
 	* Average in Level 2, total in Level 1/3?
 	* Prevents hijacking through efficient just-positive lives
 	* Violates Mere Addition Principle
+	* Has a symmetry (critlevel & -critlevel are symmetric), but also 2 discontinuities
+	*	Also somewhat counter-intuitive: Adding a person with
+		critlevel-ε can make a populations welfare infinitely
+		worse
+	* Of course, still repugnant conclusion with critlevel+ε, but that's okay
+	*	But also many -critlevel+ε lives infinitely better than one
+		life -critlevel-ε (actively repugnant conclusion)
+	*	And also one person with critlevel+ε infinitely better
+		than many with critlevel-ε
 
 ### Collections
 
@@ -335,6 +345,15 @@ Texts
 * Evolution as a Tautology
 	* Structures that are Better at Self-Replication will Eventually be More Common than the Ones Which are Not
 * Very Specific Psychedelic Qualia
+	* №1: “Inverse Capgraps Syndrome”
+		*	You locate a specific person while also being fully able to understand
+			that the person is not visible, audible, and can not be felt or smelled.
+			For example, you would say: "I perceive Steven sitting on the chair"
+			while not seeing Steven, hearing or feeling him, and being fully aware
+			of these facts.
+	* №2: “The Infinite Room-Accordion Thinks Itself”
+	* №3: “Very Very Long Now”
+	* №4: “Young & Blocky Consciousness“
 * Coding Standards
 	* General Project Setup
 	* C
@@ -372,6 +391,7 @@ Texts
 	*	Status tags ({prototype, in progress, maintenance,
 		finished, hiatus, abandoned}) for open source projects.
 	* Mental tool: How would you solve this if you had a hypercomputer?
+		* Unbounded Analysis on arbital, problem relaxation as a tactic on LW
 	* Cryonics
 	* Daygame
 * Fundamentals
@@ -605,7 +625,7 @@ Programming
 * minspantree
 	* implement all algorithms for the minimum spanning tree in a functional programming language
 	* like sml/ocaml
-	* /usr/local/doc/unread/cs/state_of_the_art_algorithms_for_minimum_spanning_trees_eisner_1997.pdf
+	* /usr/local/doc/unread/cs/state\_of\_the\_art\_algorithms\_for\_minimum\_spanning\_trees\_eisner\_1997.pdf
 * nenio
 	* a suckless prolog implementation
 	* ISO prolog

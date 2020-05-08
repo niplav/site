@@ -280,7 +280,7 @@ ymetssvals::(*|+ymetss),(ymaxlen-#ymetss):^0
 ypbssvals::(*|+ypbss),(ymaxlen-#ypbss):^0
 
 setrgb(0;0;0)
-grid([0],ymaxlen,ymaxlen;[0],ymaxval,(ymaxval:%20))
+grid([0],ymaxlen,1;[0],ymaxval,(ymaxval:%20))
 xtitle("Range (in years)")
 ytitle("Number of predictions")
 
