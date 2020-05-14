@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-04-24, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-05-14, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -121,8 +121,9 @@ nth position the median life expectancy of a person that is
 n years old at the moment for a western nation (in this case
 [Germany](https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/_inhalt.html)).
 
-This model usually tries to err on the side of conservative estimates,
-think of the lower range of a 50% [confidence interval](https://en.wikipedia.org/wiki/Confidence_interval).
+This model usually tries to err on the side of conservative
+estimates, think of the lower range of a 50% [confidence
+interval](https://en.wikipedia.org/wiki/Confidence_interval).
 
 The Disvalue of Waiting
 -----------------------
@@ -452,7 +453,8 @@ values. Perhaps a Monte-Carlo simulation would be more appropriate,
 but one can use my current implementation provides a starting-point. As
 one can see, I will not do any time-discounting on the value of future
 life-years. <!--TODO: find a link that explains why time discounting
-for future life years is probably misguided-->
+for future life years is probably misguided, Greaves has a survey paper
+about this, right?-->
 
 ### Value of a Lifeyear in the Future
 
@@ -583,18 +585,17 @@ boredom as the humans are kept alive as long as algorithm manages to,
 possibly hundreds or thousands of years. This would have net-negative
 value for the people reuscitated.
 
-##### Basilisk
+##### Malevolent Future Actors
 
 A superintelligence becomes a
 [singleton](https://en.wikipedia.org/wiki/Singleton_(global_governance))
-and starts behaving malevolently either because of a [near
-miss](https://reducing-suffering.org/near-miss/ "Astronomical
-suffering from slightly misaligned artificial intelligence") in
-its implementation or or because it attempts to perform [acausal
-trade](https://wiki.lesswrong.com/wiki/Acausal_trade) with people in
-the past. This would lead to cryopreserved people being reuscitated,
-having their brains scanned and executed as a brain emulation, copied
-and put into very painful conditions.
+and starts behaving malevolently because of a [near
+miss](https://reducing-suffering.org/near-miss/ "Astronomical suffering
+from slightly misaligned artificial intelligence") in its implementation
+or or because it has been set up by a malevolent human. This would lead
+to cryopreserved people being reuscitated, having their brains scanned
+and executed as a brain emulation, copied and put into very painful
+conditions.
 
 ##### Information from the Past is Valuable
 

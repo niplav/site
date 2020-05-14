@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-05-08, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-05-09, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -689,6 +689,8 @@ Programming
 	*	utility that tries to calculate the percentage of variable
 		assignments for which a given sentence in propositional
 		logic is true
+* sent2tex
+	* converts a sent presentation to a pdf presentation
 
 ### Klong Libraries
 

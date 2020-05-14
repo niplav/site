@@ -1,13 +1,13 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-05-02, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-05-13, language: english, status: notes, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
 > questions: First; is the accuracy higher between forecasts;
 > Second; is the accuracy higher between questions; Third; is the
-> accuracy higher within questions. These questions are analyzed
+> accuracy higher within questions? These questions are analyzed
 > using data from [PredictionBook](https://predictionbook.com/) and
 > [Metaculus](https://www.metaculus.com/questions/), the answers turn
 > out to be no, no and \_. Possible reasons are discussed.__
@@ -30,8 +30,10 @@ Metaculus better-->
 https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting
 -->
 <!--https://en.wikipedia.org/wiki/Simpson's_paradox-->
-<!--https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting-->
 <!--http://foresightr.com/2016/05/06/a-brief-history-of-forecasting-->
+<!--luke@openphilanthropy.org-->
+<!--Seems like a similar work:
+https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.12127-->
 
 [Probabilistic forecasting](https://en.wikiki_Probabilistic_forecasting)
 that aggregates both [qualitative and quantitative
@@ -58,14 +60,40 @@ work of [Philip Tetlock](https://en.wikipedia.org/wiki/Ehpilp_E._Tetlock).
 
 Since then, forecasting has slowly but surely matured from "X is going
 to happen because my intuition/divine revelation told me so" to "my
-probability distribution on the outcome of this random variable is
-an X distribution", or alternatively "I assign a probability of X%
-to this event".
+probability distribution on the outcome of this random variable is an X
+distribution with the following parameters", or alternatively "I assign
+a probability of X% to this event".
 
 However, since this kind of forecasting is relatively recent, information
 about the accuracy of long-range forecasting is basically non-existent:
 
-<!--TODO: quote the findings from the OpenPhil report here-->
+> 1. Long-range forecasts are often stated
+> too imprecisely to be judged for accuracy.
+> [More](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting#Imprecisely_stated_forecasts)
+> 2. Even if a forecast is stated precisely, it might be difficult to
+> find the information needed to check the forecast for accuracy.
+> [More](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting#Practically_uncheckable_forecasts)
+> 3. Degrees of confidence for long-range
+> forecasts are rarely quantified.
+> [More](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting#Non-quantified_degrees_of_confidence)
+> 4. In most cases, no comparison to a “baseline method”
+> or “null model” is possible, which makes it difficult
+> to assess how easy or difficult the original forecasts were.
+> [More](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting#No_comparison_to_a_baseline_method_or_null_model_is_feasible)
+> 5. Incentives for forecaster accuracy are usually unclear or weak.
+> [More](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting#Unclear_or_weak_incentives_for_accuracy)
+> 6. Very few studies have been designed so as to allow confident
+> inference about which factors contributed to forecasting accuracy.
+> [More](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting#Weak_strategy_for_causal_identification)
+> 7. It’s difficult to know how comparable past forecasting exercises
+> are to the forecasting we do for grantmaking purposes, e.g. because the
+> forecasts we make are of a different type, and because the forecasting
+> training and methods we use are different.
+> [More](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting#Unclear_relevance_to_our_own_long-range_forecasting)
+
+*– [Luke Muehlhauser](http://lukemuehlhauser.com), [“How Feasible Is Long-range Forecasting?”](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting), 2019*
+
+<!--TODO: put in info where Metaculus and PredictionBook fit into this-->
 
 In this text, I will try to look at the accuracy of short-term and
 mid-term forecasting, which may shine some light on the relation between
