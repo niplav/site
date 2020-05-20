@@ -807,7 +807,7 @@ experiments, I didn't do them for several reasons:
 	masturbation & pornography for 7 days, then approaches.
 *	The marginal value of the validity of these hypotheses would have
 	been very low, since I assigned a very low credence to the validity
-	of the central claim altogether
+	of the central claim altogether.
 
 Conclusion
 ----------
