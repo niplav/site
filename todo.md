@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-05-17, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-05-26, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -322,6 +322,8 @@ Texts
 		* /usr/local/doc/unread/notation/notation\_as\_a\_tool\_of\_thought\_iverson\_1986.pdf
 * Cryonics in Germany FAQ
 * All Exercises from “The Jazz Piano Book”
+* Trigger Action Plans
+* Recommendations
 
 ### Notes
 
@@ -341,6 +343,8 @@ Texts
 * No One Knows & No One Can Know
 	* This argument infuriates me: did you try to find out what people actually know?
 * Sometimes People have the same Credences but still Disagree
+* Teaching Oneself vs. Being Taught
+	* Two different mindsets
 
 ### Misc
 
@@ -454,6 +458,10 @@ eine kontingente verschmelzung von fast-sein und konkretheit"
 ### Translations
 
 * Kodomulo Manifesto (translation of “A Hacker Manifesto”)
+
+### Archiving
+
+* Type up John Nash's Thesis in LaTeX
 
 Music
 -----
