@@ -1,7 +1,7 @@
 [home](./index.md)
 -----------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-08-15, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2019-04-02, modified: 2020-06-01, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __Two people are abducted and placed on the opposite poles of a
 > habitable planet. They want to find each other, but they have no
@@ -170,9 +170,7 @@ the choice of going to the other side of the planet to the right
 body half, and then choosing the strategy based on which part of the
 body itches first. This would be useful since humans are notoriously
 bad at consciously generating random bits (see [Figurska et al.
-2007](./doc/two_people_on_a_planet/humans_cannot_consciously_generate_random_numbers_sequences_figurska_et_al_2008.pdf
-"Humans cannot consciously generate random numbers sequences: Polemic
-study")).
+2007](./doc/two_people_on_a_planet/humans_cannot_consciously_generate_random_numbers_sequences_figurska_et_al_2008.pdf "Humans cannot consciously generate random numbers sequences: Polemic study")).
 
 On the other hand, this method could be biased, since many humans have
 points on their skin that are constantly itchy.

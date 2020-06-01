@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-05-14, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-06-01, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -45,8 +45,8 @@ Will never happen to you
 Many would-be cryonicists cryocrastinate, i.e they put off signing
 up for cryonics until a later point in their life. This has often been
 explained by the fact that signing up for cryonics seems to [require high
-conscientiousness](https://www.lesswrong.com/posts/hiDkhLyN5S2MEjrSE/normal-cryonics
-"Normal Cryonics") and can be easily be delayed until another
+conscientiousness](https://www.lesswrong.com/posts/hiDkhLyN5S2MEjrSE/normal-cryonics "Normal Cryonics")
+and can be easily be delayed until another
 point in life: "I'll get around to doing it eventually" – person
 who was cremated. However, it hasn't yet been explored whether this
 procrastination might be rational: Many cryonics organisations have high
@@ -86,8 +86,8 @@ Cost-Benefit Calculation for Cryonics
 
 To find out whether to sign up for cryonics at all, one needs
 to make a cost-benefit calculation. This has been [attempted
-before](http://www.overcomingbias.com/2009/03/break-cryonics-down.html
-"Break Cryonics Down"), but that analysis has been rather short
+before](http://www.overcomingbias.com/2009/03/break-cryonics-down.html "Break Cryonics Down"),
+but that analysis has been rather short
 (disregarding several important factors) and it might be productive to
 approach the topic independently.
 
@@ -205,10 +205,9 @@ distribution](https://en.wikipedia.org/wiki/Gompertz_distribution). I
 determined the b and eta values by eyeballing [Wolfram
 Alpha](https://www.wolframalpha.com/input/?i=life+expectancy+of+a+0+year+old+german)
 and using a calculator in [Tomasik
-2016](https://reducing-suffering.org/estimating-aggregate-wild-animal-suffering-from-reproductive-age-and-births-per-female/#Choosing_a_distribution
-"Estimating Aggregate Wild-Animal Suffering from Reproductive
-Age and Births per Female")<!--TODO: find out which exact values
-statisticians use, then use them: Maybe take cue from here:
+2016](https://reducing-suffering.org/estimating-aggregate-wild-animal-suffering-from-reproductive-age-and-births-per-female/#Choosing_a_distribution "Estimating Aggregate Wild-Animal Suffering from Reproductive Age and Births per Female")
+<!--TODO: find out which exact values statisticians
+use, then use them: Maybe take cue from here:
 https://www.gwern.net/Longevity#population-survival-curve-->.
 
 	b=0.108

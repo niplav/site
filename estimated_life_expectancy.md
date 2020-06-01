@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-10, modified: 2020-02-10, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-04-10, modified: 2020-06-01, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __A while ago, I became interested in personal estimations
 > of life expectancy. I wanted to know how accurate people are
@@ -509,12 +509,11 @@ therefore decreased the amount of usable responses.
 
 One can do a quick statistical estimate of the probability of
 encountering and misgendering a trans person. According to [Flores et al.
-2016](./doc/estimated_life_expectancy/how_many_adults_identify_as_transgender_us_flores_et_al_2016.pdf
-"How Many Adults Identify as Transgender in the United States"), 0.6% of
-the U.S. adult population identifies as transgender. It is assumed that
-the numbers for Germany are similar. <!--TODO: Find a german source-->
-It is also assumed that the probability for a trans person passing is
-around 90% (I am just making this number up).
+2016](./doc/estimated_life_expectancy/how_many_adults_identify_as_transgender_us_flores_et_al_2016.pdf "How Many Adults Identify as Transgender in the United States"),
+0.6% of the U.S. adult population identifies as transgender. It is
+assumed that the numbers for Germany are similar. <!--TODO: Find a
+german source--> It is also assumed that the probability for a trans
+person passing is around 90% (I am just making this number up).
 
 One can then use the [binomial
 distribution](https://en.wikipedia.org/wiki/Binomial_distribution) to

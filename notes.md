@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2020-04-24, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2020-06-01, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -25,9 +25,9 @@ it contains a list of all
 [outlines](https://en.wikipedia.org/wiki/Outline_(list)) on Wikipedia,
 and is well structured. Wikipedia is generally concise and complete
 enough to provide a sufficient overview over a topic (see [Tomasik
-2017](https://foundational-research.org/education-matters-for-altruism/#Taking_the_big_picture_Textbooks_review_articles_and_Wikipedia
-"Education Matters for Altruism")). To read this collection of outlines
-completely, one could use the following method:
+2017](https://foundational-research.org/education-matters-for-altruism/#Taking_the_big_picture_Textbooks_review_articles_and_Wikipedia "Education Matters for Altruism")).
+To read this collection of outlines completely, one could use the
+following method:
 
 Read [Wikipedia's
 Contents:Outlines](https://en.wikipedia.org/wiki/Portal:Contents/Outlines)
@@ -141,11 +141,11 @@ Silent & Loud Killers
 ---------------------
 
 The idea of a [Great Filter](https://en.wikipedia.org/wiki/Great_Filter)
-(see also [Hanson 1998](http://mason.gmu.edu/~rhanson/greatfilter.html
-"The Great Filter - Are We Almost Past It?")) proposes that we do not
-observe aliens because in the development of intelligent life, there is
-one or more obstacles that obliterate the developing societies before
-they can start to colonize their own galaxy.
+(see also
+[Hanson 1998](http://mason.gmu.edu/~rhanson/greatfilter.html "The Great Filter - Are We Almost Past It?"))
+proposes that we do not observe aliens because in the development of
+intelligent life, there is one or more obstacles that obliterate the
+developing societies before they can start to colonize their own galaxy.
 
 One big question that poses itself is whether humanity is
 before or after such a filter. Some examples of potential
@@ -271,12 +271,11 @@ From a consequentialist perspective, rights are usually seen as
 instrumental heuristics and not as terminal values. When people talk about
 animal rights, they usually mean leaving animals alone in the context of
 factory farming and opposing interventions in nature. However, [Tomasik
-2017](https://foundational-research.org/the-importance-of-wild-animal-suffering/
-"The Importance of Wild-Animal Suffering") makes a striking case for
-intervening in nature due to the prevalence of extreme suffering, usually
-including highly invasive measures which would violate a naive concept
-of "animals rights". However, these interventions would be designed to
-increase total animal welfare.
+2017](https://foundational-research.org/the-importance-of-wild-animal-suffering/ "The Importance of Wild-Animal Suffering")
+makes a striking case for intervening in nature due to the prevalence of
+extreme suffering, usually including highly invasive measures which would
+violate a naive concept of "animals rights". However, these interventions
+would be designed to increase total animal welfare.
 
 Alternatives:
 
