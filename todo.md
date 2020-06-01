@@ -208,6 +208,7 @@ Texts
 * Comparing Forecasting Accuracy Between the Good Judgment Project and Metaculus
 	* https://www.openphilanthropy.org/blog/forecasting-covid-19-pandemic
 	* https://pandemic.metaculus.com/questions/
+* Hedonically Optimal Masturbation Spacing
 
 ### Ideas
 

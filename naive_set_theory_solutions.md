@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2020-04-12, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2020-06-01, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -475,3 +475,55 @@ Assume `$\exists f \in \emptyset^{X}$`. Then
 know of), so `$f$` can't exist.
 
 However, if `$X=\emptyset$`, then (i) applies. So `$\emptyset^{\emptyset}=\{\emptyset\}$`.
+
+Section 9
+---------
+
+### Exercise 1
+
+Here, the reader is asked to formulate and prove the commutative law
+for unions of families of sets.
+
+For context, the associative law for unions of families of sets is
+formulated as follows:
+
+> Suppose, for instance, that `$\{I_{j}\}$` is a family of sets with
+> domain `$J$`, say; write `$K=\bigcup_{j} I_{j}$`, and let `$\{A_{k}\}$` be
+> a family of sets with domain `$K$`. It is then not difficult to prove that
+> <div>
+>    $$\bigcup_{k \in K} A_{k}=\bigcup_{j \in J}(\bigcup_{i \in I_{j}} A_{i})$$
+> </div>
+
+Okay, this is all fine and danddy, but where am I going with this? Well,
+I have probably misunderstood this, because the way I understand it,
+the correct way to formulate the commutative law for unions of families
+does *not* hold.
+
+Let's say `$X$` is a set indexed by `$I$`, or, in other words, `$x_{i}$`
+is a family. Let's then define a new operator index-union to make these
+expressions easier to read: `$I໔X$` as `$\bigcup_{i \in I} X_{i}$`.
+
+The associative law then expanded reads as
+
+<div>
+	$$\bigcup_{k \in \bigcup_{j \in J} I_{j}} A_{k}=\bigcup_{j \in J}(\bigcup_{i \in I_{j}} A_{i})$$
+</div>
+
+or, simpler, as `$(J໔I)໔A=J໔(I໔A)$`.
+
+Then, simply, the commutative version of the law would be `$A໔B=B໔A$`.
+
+Then there is a very simple counterexample:
+
+`$A=\{1,2\}$`, `$B=\{a,b\}$`. Then a family from A to B could
+be `$\{(1,\{a\}),(2,\{b\})\}$` and a family from B to a could
+be `$\{(a,\{1\}),(b,\{2\})\}$`. Then
+`$A໔B=\bigcup_{a \in A} B_{a}=\{1,2\}$`
+and `$B໔A=\bigcup_{b \in B} A_{b}=\{a,b\}$`, and those
+two are different sets.
+
+Despite my obvious love for unnecessarily inventing new notation,
+I'm not a very good mathematician, and believe (credence `$\ge 99.7%$`
+that I have misunderstood something here (the rest is taken up by this
+being an editing/printing mistake). I am not sure what, but would be
+glad about some pointers where I'm wrong.
