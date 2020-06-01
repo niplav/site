@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2020-04-20, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2020-06-01, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -82,8 +82,8 @@ Archives
 --------
 
 I try to read blogs completely, mostly [starting at the
-beginning](https://entirelyuseless.com/2018/06/12/start-at-the-beginning/
-"Start at the Beginning") because most blogs are not organized by
+beginning](https://entirelyuseless.com/2018/06/12/start-at-the-beginning/ "Start at the Beginning")
+because most blogs are not organized by
 topic. But blog archives are usually hard to navigate and it is often
 difficult to keep track of my current position in the blog (especially
 with yearly/monthly wordpress archives). To salvage this, I scrape blog

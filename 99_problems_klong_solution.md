@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2020-05-08, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2020-06-01, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.html "99 Klong
 > Problems") in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -152,7 +152,7 @@ a little problem. The original solution was `s7::{,/:~x}`, which applied
 the concatenation operator to the sublists of a list as long as the
 list changes with each operation, and then returned the list. However,
 that solution failed with nested lists that contain only one element:
-"If "a" is a single-element list, return the single element." (from the
+"If “a” is a single-element list, return the single element." (from the
 Klong documentation on Over). For flattening a list, that is not right:
 `s7([1])` should be `[1]`, not `1`. So this code differentiates between
 a list that only contains an atom, and returns that, or executes the original
