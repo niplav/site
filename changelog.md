@@ -1,12 +1,22 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-05-13, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2020-06-01, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
+
+May 2020
+--------
+
+Due to other personal commitments, I didn't work on this website very
+much in March.
+
+### Writing
+
+* [Low Sample Sizes In High Ranges](./site/range_and_forecasting_accuracy.html#Low-Sample-Sizes-With-High-Ranges)
 
 April 2020
 ----------
