@@ -523,7 +523,7 @@ and `$B໔A=\bigcup_{b \in B} A_{b}=\{a,b\}$`, and those
 two are different sets.
 
 Despite my obvious love for unnecessarily inventing new notation,
-I'm not a very good mathematician, and believe (credence `$\ge 99.7%$`
+I'm not a very good mathematician, and believe (credence `$\ge 99.7\%$`)
 that I have misunderstood something here (the rest is taken up by this
 being an editing/printing mistake). I am not sure what, but would be
 glad about some pointers where I'm wrong.
