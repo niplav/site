@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-05-13, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-06-01, language: english, status: notes, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
@@ -24,6 +24,9 @@ turns deadbeat, evict it.
 
 *– [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“Making Beliefs Pay Rent (in Anticipated Experiences)“](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences), 2007*
 
+<!--Maybe do the same thing with range
+predictions?  Metric could be one described in
+/usr/local/doc/unread/calibration_scoring_rules_for_practical_prediction_training_greenberg_2018.pdf-->
 <!--Add paragraph on the difference in quality between the two datasets,
 Metaculus better-->
 <!--Also look at this guy:
@@ -99,12 +102,12 @@ In this text, I will try to look at the accuracy of short-term and
 mid-term forecasting, which may shine some light on the relation between
 the range of forecasts and their accuracy in general. The range of a
 forecast is defined as the length of the timespan between the forecast
-and the resolution of the forecast. Keeping with the report by the Open
-Philanthropy Project<!--TODO: link-->, I will define short-term forecasts
-as forecasts with a range of less than a year, mid-range forecasts as
-forecasts with a range between 1 and 10 years, and long-term forecasts
-as forecasts with a range of more than 10 years (this distinction is
-not central to the following analysis, though).
+and the resolution of the forecast. Keeping with
+[Muehlhauser 2019](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting "How Feasible Is Long-range Forecasting?"),
+I will define short-term forecasts as forecasts with a range of less than
+a year, mid-range forecasts as forecasts with a range between 1 and 10
+years, and long-term forecasts as forecasts with a range of more than 10
+years (this distinction is not central to the following analysis, though).
 
 Fortunately, for short- and mid-range forecasts, two easily accessible
 sources of forecasts and their resolutions are available online: The
@@ -144,24 +147,24 @@ whether other people will be impressed). Besides that, these sites make
 it easier to train ones calibration on real-world questions and become
 less wrong in the process.
 
-However, both sites differ in their approach to writing, judging
-and scoring forecasts. Predictionbook is much older than Metaculus:
-the former was first released in 2008, the latter started in 2015. It
-is also much less formal than Metaculus: it doesn't require stringent
-resolution criteria, making possible for everybody to judge a question
-(unrelated to whether the person has even made a prediction on the
-question themselves!), while Metaculus requires a short text explaining
-the context and resolution criteria for a question, with the questions
-being resolved by moderators or admins. This leads to Metaculus having
-less questions than Predictionbook, each question having more predictions
-on it. Of the two, Metaculus is much more feature-rich: It supports
-not only binary questions, but also range questions with probability
-distributions, comment threads, having closed questions (questions
-that haven't yet been resolved, but that can still be predicted on),
-three different kinds of scores (the Brier score<!--TODO: link-->, and
-a log score for discrete and continuous forecasts each), as well as the
-Metaculus prediction, a weighted aggregation of the forecasts of the
-best forecasters on the site.
+However, both sites differ in their approach to writing, judging and
+scoring forecasts. Predictionbook is much older than Metaculus: the
+former was first released in 2008, the latter started in 2015. It is also
+much less formal than Metaculus: it doesn't require stringent resolution
+criteria, making possible for everybody to judge a question (unrelated
+to whether the person has even made a prediction on the question
+themselves!), while Metaculus requires a short text explaining the context
+and resolution criteria for a question, with the questions being resolved
+by moderators or admins. This leads to Metaculus having less questions
+than Predictionbook, each question having more predictions on it. Of the
+two, Metaculus is much more feature-rich: It supports not only binary
+questions, but also range questions with probability distributions,
+comment threads, having closed questions (questions that haven't yet been
+resolved, but that can still be predicted on), three different kinds of
+scores (the [Brier score](https://en.wikipedia.org/wiki/Brier_score),
+and a log score for discrete and continuous forecasts each <!--TODO:
+links-->), as well as the Metaculus prediction, a weighted aggregation
+of the forecasts of the best forecasters on the site.
 
 Another significant difference between these two websites is the amount of
 data they publish: Predictionbook shows every single forecast made, while
@@ -672,7 +675,7 @@ PredictionBook publish opening/resolution times, but PredictionBook has
 no clear distinction between closing and resolution time (there is,
 however, a distinction between effective resolution time and planned
 resolution time ("When was the question resolved?" vs. "When should the
-question have been resolved?")
+question have been resolved?")).
 
 Accuracy Within Questions
 -------------------------

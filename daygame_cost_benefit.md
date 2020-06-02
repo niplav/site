@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-05-08, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-06-02, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -123,12 +123,15 @@ proclaims
 (that would be `$0.169*0.224=0.0378$` dates per approach, and
 `$0.169*0.224*0.371=0.0140$` lays per approach).
 
-I remember a Tom Torero video where he recounts
-these ratios for beginners, but it seems to
-have been hidden since then (the [internet archive
-version](https://web.archive.org/web/20191106042451/www.youtube.com/watch?v=DgLBWej72is)
-is also not complete. If you have a copy, I'd be glad to pay a small
-amount for it). The numbers for the approach-to-lay ratios were 1 in
+Tom Torero presents his experiences with daygame ratios in
+[this video](https://www.youtube.com/watch?v=7WzKWHvDOOQ)
+[(a)](./vid/daygame_cost_benefit/realistic_daygame_expectations.webm).
+He claims that a beginner will on average get a lay out of a hundred
+approaches, an intermediate one out of fifty, and an advanced daygamer
+one lay out of thirty. He doesn't specify how much practice makes
+a beginner/intermediate/advanced daygamer.
+
+The numbers for the approach-to-lay ratios were 1 in
 100 for beginners, 1 in 50 for intermediate daygamers and 1 in 30 for
 experts. I will assume that this is comparatively over-optimistic, and
 assume that the date-to-lay ratio starts at 1 in 200, and then converges
