@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2020-06-01, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2020-06-02, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -494,7 +494,7 @@ formulated as follows:
 >    $$\bigcup_{k \in K} A_{k}=\bigcup_{j \in J}(\bigcup_{i \in I_{j}} A_{i})$$
 > </div>
 
-Okay, this is all fine and danddy, but where am I going with this? Well,
+Okay, this is all fine and dandy, but where am I going with this? Well,
 I have probably misunderstood this, because the way I understand it,
 the correct way to formulate the commutative law for unions of families
 does *not* hold.

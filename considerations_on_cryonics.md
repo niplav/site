@@ -23,6 +23,22 @@
 Considerations on Cryonics
 ==========================
 
+<!--
+Metaculus questions related to cryonics:
+Revival:
+https://www.metaculus.com/questions/3330/will-any-person-that-has-been-cryopreserved-for-more-than-1-year-be-resuscitated-or-emulated-before-2200/
+https://www.metaculus.com/questions/1626/before-1-january-2050-will-any-human-cryonically-preserved-for-at-least-1-year-be-successfully-revived/
+https://www.metaculus.com/questions/455/if-you-die-today-and-get-cryonically-frozen-will-you-wake-up/
+https://www.metaculus.com/questions/3332/will-james-bedford-be-revived-or-emulated-before-2200/
+https://www.metaculus.com/questions/3331/when-will-the-first-person-that-has-been-cryopreserved-for-more-than-1-year-be-resuscitated-or-uploaded/
+https://www.metaculus.com/questions/3382/what-will-the-earliest-preservation-date-of-any-resuscitated-cryonics-patient-be/
+Preservation:
+https://www.metaculus.com/questions/3333/when-will-the-number-of-people-in-cryopreservation-preserved-before-2019-fall-to-less-than-50-of-the-current-value/
+Signup:
+https://www.metaculus.com/questions/3478/how-many-patients-will-be-in-cryonic-suspension-at-the-cryonics-institute-in-2030/
+https://www.metaculus.com/questions/4052/if-cryonics-is-at-some-point-offered-for-free-what-percentage-of-americans-will-be-signed-up-within-10-years/
+-->
+
 > If I died, would I be rid of my senses?  
 Or will it retain, trapped within my corpse, in stasis?  
 If I died, would I be a woman in heaven?  
@@ -262,6 +278,13 @@ of LEV-->, though many futurists seem more optimistic<!--TODO source-->:
 	levyear=2080
 
 <!--https://www.fightaging.org/archives/2018/02/aubrey-de-grey-on-progress-and-timescales-in-rejuvenation-research/-->
+<!--
+Metaculus questions related to longevity/LEV:
+https://www.metaculus.com/questions/4125/what-will-be-the-first-year-during-which-most-deaths-are-from-non-disease-related-causes-and-fewer-than-1-of-humans-die/
+https://www.metaculus.com/questions/4110/assuming-some-humans-are-alive-what-will-be-the-birthdate-of-the-oldest-living-human-on-january-1st-2200/
+https://www.metaculus.com/questions/353/will-someone-born-before-2001-live-to-be-150/
+https://www.metaculus.com/questions/1628/what-will-be-the-longest-verified-human-lifespan-on-record-on-january-1-2050/
+-->
 
 Calculating the Cost
 --------------------
