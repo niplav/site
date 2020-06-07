@@ -12,11 +12,11 @@ May 2020
 --------
 
 Due to other personal commitments, I didn't work on this website very
-much in March.
+much in May.
 
 ### Writing
 
-* [Low Sample Sizes In High Ranges](./site/range_and_forecasting_accuracy.html#Low-Sample-Sizes-With-High-Ranges)
+* [Low Sample Sizes In High Ranges In Forecasting](./site/range_and_forecasting_accuracy.html#Low-Sample-Sizes-With-High-Ranges)
 
 April 2020
 ----------
