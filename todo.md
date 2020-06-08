@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-05-26, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-06-08, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -107,6 +107,13 @@ Texts
 	* Forecasting has Faster Feedback
 	* Is Forecasting Harder to Game?
 	* Less Susceptible to Social Biases like Charisma
+* The Hedonic Treadmill and Politics
+	* Inequality
+	* Pareto Improvements
+	* Hedonic Treadmill
+	* Progress
+	* Easterlin's Paradox
+	* Status Games
 
 ### Analyses
 
@@ -218,6 +225,7 @@ Texts
 		* Disagreement about an arbitrary category (morality/aethetics)
 	* Bet
 	* Agreement
+	* Related to "Varieties of Argumentative Experience"
 * The End of History Fallacy
 * The “If Everyone Just” Argument
 	* The argument just assumes one of the biggest problems away: coordination and cooperation
@@ -321,6 +329,7 @@ Texts
 			* http://www.solidangl.es/2015/04/a-radical-new-look-for-logarithms.html
 	* Read
 		* /usr/local/doc/unread/notation/notation\_as\_a\_tool\_of\_thought\_iverson\_1986.pdf
+	* Substitution of variables in formulas: order is _bad_ & _wrong_
 * Cryonics in Germany FAQ
 * All Exercises from “The Jazz Piano Book”
 * Trigger Action Plans
@@ -334,6 +343,7 @@ Texts
 * Hug the Objective
 	* When trying to achieve something, work directly on that thing
 	* Related to: yak-shaving
+* Report: Eating Every Second Day
 * Report: Walking Barefoot
 * Report: Riding the Bike a Lot
 * Report: Stopping to Bite Your Nails
@@ -728,6 +738,7 @@ Programming
 	* function for matrix multiplication
 	* function for matrix inversion
 	* function for the calculation of eigenvalues and eigenbases
+		* already there
 	* function for the calculation of polynomial division
 * statests.kg
 	* library for statistical tests

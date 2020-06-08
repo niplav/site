@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-06-01, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-06-08, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -115,6 +115,16 @@ at all clear that the technology for reuscitation will be developed,
 cryonics organizations (or humanity) survive to develop such technology,
 or that the future will be interested in reuscitating people from
 cryopreservation.
+
+<!--
+TODO:
+
+Caveats
+--------
+
+Relatively conservative, huge error bars
+Encourage others to do & publish their own
+-->
 
 The model presented makes the assumption that a person has a given age
 and has the option of waiting for signing up for cryonics every year

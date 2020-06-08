@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2020-06-01, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2020-06-08, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -758,7 +758,9 @@ Some Qualitative Intuitions on the Effects of Open Borders
 ----------------------------------------------------------
 
 I'll assume open borders would have an effect of [doubling the world gross
-product](https://openborders.info/double-world-gdp/ "Double world GDP").
+product](https://openborders.info/double-world-gdp/ "Double world GDP"),
+generated at least partially (so that the beneficiaries would either
+completely or partially be people from developing countries).
 
 This would be beneficial for humans alive right now, since less would
 need to live in extreme poverty.
@@ -774,7 +776,8 @@ to rising demand for meat during the absence of clean meat).
 2018](https://reducing-suffering.org/humanitys-net-impact-on-wild-animal-suffering/ "Humanity's Net Impact on Wild-Animal Suffering")
 notes that additional humans probably decrease wild-animal suffering,
 and it seems plausible that wealthier people would have a similar
-impact.
+impact (especially since the additional wealth would be generated for
+previously poor people).
 
 A wealthier humanity would also speed up technological development
 relative to development of wisdom, which would contribute to differential

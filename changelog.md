@@ -16,7 +16,7 @@ much in May.
 
 ### Writing
 
-* [Low Sample Sizes In High Ranges In Forecasting](./site/range_and_forecasting_accuracy.html#Low-Sample-Sizes-With-High-Ranges)
+* [Low Sample Sizes In High Ranges In Forecasting](./range_and_forecasting_accuracy.html#Low-Sample-Sizes-With-High-Ranges)
 
 April 2020
 ----------
