@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-06-08, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-06-13, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -114,6 +114,7 @@ Texts
 	* Progress
 	* Easterlin's Paradox
 	* Status Games
+* In Praise of Cost-Benefit Analyses
 
 ### Analyses
 
@@ -215,7 +216,23 @@ Texts
 * Comparing Forecasting Accuracy Between the Good Judgment Project and Metaculus
 	* https://www.openphilanthropy.org/blog/forecasting-covid-19-pandemic
 	* https://pandemic.metaculus.com/questions/
-* Hedonically Optimal Masturbation Spacing
+* Masturbation Spacing
+	* Space masturbation to make it more enjoyable
+	* Form:
+		* Spacing between 2 and 12 days
+		* 10 spacings
+		* Between changing spacing, 1 or 2 1-day spacings
+		* Record:
+			* Spacing [2..12]
+			* Enjoyment of orgasm [-5..5]
+			* Counterfactual experience during everyday life [-5..5]
+			* Type of pornography {none,text,audio,image,video}
+	* Precommit to:
+		* n: 6 9 11 8 3 10 5 12 7 4 2
+		* i: 11 4 5 7 12 6 3 2 10 9 8
+		* v: 12 9 8 11 7 2 4 6 10 3 5
+		* t: 10 4 7 3 8 9 5 11 2 6 12
+		* a: 4 2 3 8 9 11 10 7 12 6 5
 
 ### Ideas
 
@@ -356,6 +373,8 @@ Texts
 * Sometimes People have the same Credences but still Disagree
 * Teaching Oneself vs. Being Taught
 	* Two different mindsets
+* Blogging as an Act of Benevolence
+	* Mindset of "making a gift"
 
 ### Misc
 
@@ -807,6 +826,11 @@ Programming
 > \+  - /  *  %  ^
 >      Add subtract multiply divide remainder or exponentiate the top
 >      two values on the stack.
+
+### Wikipedia Articles
+
+* Enhanced Suffix Array
+* Shapley Saddle
 
 Structure
 ---------

@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2020-06-01, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2020-06-15, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -42,7 +42,6 @@ Writing
 
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
 * [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.md)
-* [Day Game Log](./daygame_log.md)
 
 #### Cost-Benefit Analyses
 
