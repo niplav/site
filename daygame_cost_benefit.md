@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-06-02, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-06-10, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -1060,12 +1060,29 @@ Appendix C: Empirically Checking the Assumptions
 
 Log:
 
-* Date ratio
-* Lay ratio
-* Number of dates
-	* How many nth dates?
-* Cost per date
-* Retention ratio
+2 datasets, first containing approaches, 2nd containing approach sessions
+
+1st file datapoints (in CSV):
+
+* Approach index number
+* Datetime
+* Location (country)
+* Blowout
+* Contact info ∈{number,instagram,facebook,skype,snapchat etc.,other}
+* Idate length (minutes)
+* Idate cost (euro)
+* Flake before 1st date (boolean)
+* Date before first sex [1..10] cost (euro)
+* Date before first sex [1..10] length (minutes)
+* Sex number of times (roughly)
+* Attractiveness (∈[1..10])
+
+2nd file:
+
+* Datetime start
+* Datetime end
+* Approaches index number range
+* Number of approaches (evtl.)
 -->
 <!--
 Second one: fix costs & other stuff
