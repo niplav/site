@@ -22,6 +22,7 @@ HTML=index.html \
 	daygame_log.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
+	exercise_log.html \
 	haiku.html \
 	masturbation_and_attractiveness.html \
 	metamodernistisches_manifest.html \

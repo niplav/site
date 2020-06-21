@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-06-08, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-06-21, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -37,6 +37,17 @@ https://www.metaculus.com/questions/3333/when-will-the-number-of-people-in-cryop
 Signup:
 https://www.metaculus.com/questions/3478/how-many-patients-will-be-in-cryonic-suspension-at-the-cryonics-institute-in-2030/
 https://www.metaculus.com/questions/4052/if-cryonics-is-at-some-point-offered-for-free-what-percentage-of-americans-will-be-signed-up-within-10-years/
+-->
+
+<!--
+https://www.tandfonline.com/doi/pdf/10.1080/01459741003715391
+https://www.tandfonline.com/doi/full/10.1080/23311886.2016.1167576
+https://books.google.de/books?id=9C0ABAAAQBAJ&pg=PA281&lpg=PA281&dq=Cryonics+cost+benefit+calculation&source=bl&ots=IIIVQtzzXt&sig=ACfU3U3KMGKCBWhP1tvegvKvHTyCLtZNGA&hl=en&sa=X&ved=2ahUKEwjc_O6v743qAhUKYcAKHXFVDsUQ6AEwDXoECAMQAQ#v=onepage&q=Cryonics%20cost%20benefit%20calculation&f=false
+-->
+
+<!--
+Consideration:
+Different value of money at different ages
 -->
 
 > If I died, would I be rid of my senses?  
@@ -1060,6 +1071,8 @@ velocity is likely not 2 years away, this seems like a [log-normal
 distribution](https://en.wikipedia.org/wiki/Log-normal_distribution)-ish,
 which is also what I used in the spreadsheet, with a 90% confidence
 interval in `$[2040;2150]$`.
+
+<!--TODO: cutoff for years in the past-->
 
 #### Age at Death
 

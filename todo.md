@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-06-13, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-06-19, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -233,6 +233,9 @@ Texts
 		* v: 12 9 8 11 7 2 4 6 10 3 5
 		* t: 10 4 7 3 8 9 5 11 2 6 12
 		* a: 4 2 3 8 9 11 10 7 12 6 5
+* Vasectomy and Sperm Freezing Cost-Benefit Analysis
+	* https://www.verywellfamily.com/us-child-support-statistics-2997994
+	* https://costaide.com/freezing-sperm-cost/
 
 ### Ideas
 
@@ -336,6 +339,7 @@ Texts
 	* Discarded Methods
 		* https://en.wikipedia.org/wiki/Begriffsschrift
 		* https://en.wikipedia.org/wiki/Newton%27s\_notation#Newton's\_notation
+		* https://github.com/prathyvsh/notation
 	* New Notations
 		* General
 			* https://www.stephenwolfram.com/publications/mathematical-notation-past-future/
@@ -360,6 +364,8 @@ Texts
 * Hug the Objective
 	* When trying to achieve something, work directly on that thing
 	* Related to: yak-shaving
+	* "Do the real thing" by Scott Young
+	* Buffers by Rollo Tomassi
 * Report: Eating Every Second Day
 * Report: Walking Barefoot
 * Report: Riding the Bike a Lot
