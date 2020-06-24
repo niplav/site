@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-06-21, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-06-24, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -498,6 +498,7 @@ one can see, I will not do any time-discounting on the value of future
 life-years. <!--TODO: find a link that explains why time discounting
 for future life years is probably misguided, Greaves has a survey paper
 about this, right?-->
+<!--Also talk about no diminishing returns on additional life years-->
 
 ### Value of a Lifeyear in the Future
 
@@ -1188,4 +1189,11 @@ From todo.md:
 		* If only neuropreservation, where do I get my body from?
 
 A perhaps similar article by Anders Sandberg?
+-->
+
+Discussions
+-----------
+
+<!--
+Add /r/cryonics and /r/slatestarcodex discussions
 -->

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-06-19, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-06-21, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -325,6 +325,7 @@ Texts
 		than many with critlevel-ε
 * Auras as synesthesia between visual perception and emotional perception
 	* Maybe a survey?
+* Another view on takeoff speeds in relation to the shape of optimization-space
 
 ### Collections
 
@@ -374,6 +375,11 @@ Texts
 * Report: Becoming Marginally More Productive
 	* Follow Alexey Guzey's Advice, Leave the House
 	* Internet Abstinence
+* Report: After 100 Hours of Meditation
+	* ~40 min a day
+	* Less bad at meditation
+	* Longer streaks of attention
+	* Surrounding time matters
 * No One Knows & No One Can Know
 	* This argument infuriates me: did you try to find out what people actually know?
 * Sometimes People have the same Credences but still Disagree
@@ -835,8 +841,16 @@ Programming
 
 ### Wikipedia Articles
 
-* Enhanced Suffix Array
+#### Create
+
+* Enhanced/Extended Suffix Array
 * Shapley Saddle
+
+#### Improve
+
+* [Maximal pair](https://en.wikipedia.org/wiki/Maximal_pair)
+	* Add examples
+	* Add description of MUMs
 
 Structure
 ---------

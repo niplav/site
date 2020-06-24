@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-04-24, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2020-06-21, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -323,9 +323,10 @@ The author
 
 ### Elsewhere on the Internet
 
-* [Reddit](https://old.reddit.com/u/niplav)
 * [Github](https://github.com/niplav)
 * [Lesswrong](https://www.lesswrong.com/users/niplav)
+* [Metaculus](https://www.metaculus.com/accounts/profile/112493/)
+* [Reddit](https://old.reddit.com/u/niplav)
 * [Wikipedia](https://en.wikipedia.org/wiki/User:Niplav)
 
 ### Contact
