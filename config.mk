@@ -38,4 +38,8 @@ HTML=index.html \
 	ob_chrono.html \
 	so_chrono.html \
 	trm_chrono.html \
-	awitt.html
+	awitt.html \
+	movies_list.html \
+	podcasts_list.html \
+	series_list.html \
+	texts_list.html
