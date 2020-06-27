@@ -1,6 +1,8 @@
 .l("csv")
 .l("nstat")
 
+:"TODO: this code could be significantly simplified by using *functions*"
+
 spd::24*60*60
 spw::7*spd
 spm::30*spd

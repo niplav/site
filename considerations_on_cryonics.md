@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-06-24, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-06-26, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -1022,6 +1022,10 @@ y-axis. This should get fixed sometime in the future.
 ### Where Waiting Makes Sense
 
 $ lua cryoyear.lua 22 50000 0.1 0.6 100 1 180 100000 2080
+-->
+
+<!--
+Higher monetary for life-years make the case stronger
 -->
 
 ### Other Modifications

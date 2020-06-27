@@ -442,6 +442,8 @@ PredictionBook 1/2/.../10 years before resolution) is
 
 (Brier scores truncated using `{(*x),(_1000**|x)%1000}'ypbdiffbrier`).
 
+### Results
+
 First, one can check how high the range of these two datasets really is.
 The PredictionBook forecasts with the highest range span 3730 days
 (more than 10 years), for Metaculus it's 1387 days (nearly 4 years).
@@ -515,10 +517,11 @@ more about the popularity of a political party in 2 months as opposed
 to 10 years. Even in reasonably chaotic systems, one should expect to
 become more and more accurate the closer one comes to the expected time.
 
-Take, for example, a three-part pendulum: I am totally able to predict its
-position & velocity 100ms before resolution time, but 1s before and it's
-already getting more difficult. Information, like nearly everything else,
-has diminishing value, posteriors converge continuously towards truth.
+Take, for example, a three-part pendulum<!--TODO: Wiki link-->: I am
+totally able to predict its position & velocity 100ms before resolution
+time, but 1s before and it's already getting more difficult. Information,
+like nearly everything else, has diminishing value, posteriors converge
+continuously towards truth.
 
 <!--TODO: Is it really called that way? Also, what are some probability
 theory & information theory theorems for this?-->
@@ -676,6 +679,55 @@ no clear distinction between closing and resolution time (there is,
 however, a distinction between effective resolution time and planned
 resolution time ("When was the question resolved?" vs. "When should the
 question have been resolved?")).
+
+### Analysis
+
+First, the dataset grouped by forecasts had to be grouped by the question
+ID, in both cases a positive integer. The resulting datastructure should
+have the structure
+
+	[[id open-resolve-timediff [outcomes] [forecasts] [forecast-resolve-timediffs]]*]`
+
+where the splat just indicates the inner list can be repeated. This
+was achieved by first finding the grouping of forecasts by question ID,
+then concatenating the ID, the question range, the list of outcomes,
+the list of forecasts and the list of forecast ranges:
+
+	metquestions::{(*x@0),(*x@1),2_x}'+'(+metdata)@=*metdata
+	pbquestions::{(*x@0),(*x@1),2_x}'+'(+pbdata)@=*pbdata
+
+Strictly speaking, the outcomes could be a single element, since for
+every question there is only one well-defined outcome, but this makes
+it easier to later compute the brier score.
+Showcase:
+
+	metquestions@10
+		[474 497590.0 [0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0] [0.79 0.8 0.99 0.8 0.8 0.65 0.65 0.8 0.8 0.81 0.81 0.7] [249575.65223908424 249548.86438822746 245775.7940876484 242420.23024630547 230434.71577501297 230276.97260832787 230111.41609930992 229967.06126213074 216594.73318576813 207687.5192539692 177898.677213192 151590.6441845894]]
+
+The next step involves merging the forecasts on questions with the
+same range (rounded by day/week/month/year). This was achieved by first
+dividing the question range by `spd`/`spw`/`spm`/`spy`, then grouping
+the questions by the resulting rounded range. Afterwards, questions
+ID and forecast range were dropped and the forecast and result arrays
+were concatenated in order. The resulting array had the structure
+`[[question-range [results] [forecasts]]*]`. Aftewards, computing the
+brier score was quite straightforward by selectively applying it in a
+mapped function. The resulting array was sorted by range, for convenience.
+
+	dmetquestions::{(_(x@1)%spd),x@[2 3]}'metquestions
+	dmetquestions::{(**x),,/'+{1_x}'x}'dmetquestions@=*'dmetquestions
+	dqmetbrier::{(*x),brier@1_x}'dmetquestions
+	dqmetbrier::dqmetbrier@<dqmetbrier
+	dqmetbrier@19
+		[20 0.210210798122065727]
+
+This was of course implemented for both datasets and for all four kinds
+of buckets.
+
+### Results
+
+Again I use linear regressions, correlation coefficients and scatter
+plots to inadequately analyze the data.
 
 Accuracy Within Questions
 -------------------------

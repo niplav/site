@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-06-21, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-06-26, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -208,6 +208,7 @@ Texts
 		* https://www.lesswrong.com/posts/9WZAqFzNJ4KrhsqJ7/pascal-s-mugging-solved
 		* https://www.lesswrong.com/posts/gjyvXPqvCZPEtCKLB/tactics-against-pascal-s-mugging
 		* https://risingentropy.com/pascals-mugging/
+		* Yudkowsky "Pascal's Muggle .*"
 * Creatine & Vegetarianism IQ?
 * How difficult is it to manipulate real existing prediction markets?
 	* PredictIt
@@ -233,6 +234,7 @@ Texts
 		* v: 12 9 8 11 7 2 4 6 10 3 5
 		* t: 10 4 7 3 8 9 5 11 2 6 12
 		* a: 4 2 3 8 9 11 10 7 12 6 5
+	* `set k 0; for i in 4 2 3 8 9 11 10 7 12 6 5; for j in (seq 1 10); set k (echo "$k+$i" | bc); date -I'date' -d "2028-11-17 +$k days"; end; end | xsel -psb`
 * Vasectomy and Sperm Freezing Cost-Benefit Analysis
 	* https://www.verywellfamily.com/us-child-support-statistics-2997994
 	* https://costaide.com/freezing-sperm-cost/
@@ -288,6 +290,7 @@ Texts
 * The Tyranny of the Mill
 	* The Hedonic Treadmill is very good & very bad
 * Moral progress as an EA cause area?
+	* Just Global Priorities Research, dummy
 * Writing system based on all binary trees with maximal height 2
 	* no 's' sounds
 * Moving the Lever Closer
@@ -356,6 +359,7 @@ Texts
 * All Exercises from “The Jazz Piano Book”
 * Trigger Action Plans
 * Recommendations
+	* Activities/Movies/Series/Podcasts/Books/Blogposts
 
 ### Notes
 
@@ -768,8 +772,6 @@ Programming
 	* function for gaussian elimination
 	* function for matrix multiplication
 	* function for matrix inversion
-	* function for the calculation of eigenvalues and eigenbases
-		* already there
 	* function for the calculation of polynomial division
 * statests.kg
 	* library for statistical tests
