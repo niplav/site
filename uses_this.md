@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2019-09-09, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2020-06-26, language: english, status: in progress, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
 > recommendations by people who I respect, such as
@@ -69,7 +69,9 @@ and generally a lack of "surprise" when using the software (that is,
 most parts of the software are similar in structure, but not content,
 to each other). A good example of inconsistency is found in programming
 languages with a unary `+`, but not a unary `-`, or programs with vastly
-different naming conventions.
+different naming conventions. Perhaps consistency can be thought of as
+a certain type of symmetry; if not that, then at least symmetry plays
+a big role in consistent systems.
 
 [Durability](https://en.wikipedia.org/wiki/Durability), by comparison,
 is quite easy to explain. It simply describes the amount of [bit
