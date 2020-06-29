@@ -1,14 +1,15 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-06-25, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2020-06-30, language: english, status: in progress, importance: 1, confidence: log*
 
-> __.__
+> __Series I have watched since January 2018.__
 
 List of Series I have Watched
 ==============================
 
-These are the series I have watched since january 2018 (alphabetical order).
+These are the series I have watched since January 2018 (alphabetical
+order). I may not have finished with some of these yet.
 
 * [Altered Carbon](https://www.imdb.com/title/tt2261227/)
 * [Black Mirror](https://www.imdb.com/title/tt2085059/)

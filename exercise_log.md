@@ -86,3 +86,16 @@ Log
 * 50 double leg lifts
 * 100 froggers
 * 1 minute plank
+
+### 2020-06-29
+
+* 60 push-ups
+* 60 sit-ups
+* 60 biceps curls
+* 5 dumbbell scaptions
+* 20 dumbbell shoulder presses
+* 40 dumbbell upright rows
+* 20 dumbbell bench presses
+* 10 burpees
+* 40 double leg lifts
+* 100 froggers

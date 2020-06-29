@@ -10,6 +10,13 @@ spy::365*spd
 
 brier::{mu((x-y)^2)}
 
+:"1st argument: time differences"
+:"2nd argument: results"
+:"3rd argument: forecasts"
+:"returns: diffbrier"
+
+getdiffbrier::{diff::x;res::y;fore::z;dg::=diff;db::{(diff@*x),brier(fore@x;res@x)}'dg;db@<*'db}
+
 .fc(.ic("../../data/met.csv"));metraw::csv.load()
 
 metdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'metraw)
@@ -29,21 +36,15 @@ ymetdiffs::{_x%spy}'metdata@4
 metress::metdata@2
 metfcs::metdata@3
 
+dmetdiffbrier::getdiffbrier(dmetdiffs;metfcs;metress)
+wmetdiffbrier::getdiffbrier(wmetdiffs;metfcs;metress)
+mmetdiffbrier::getdiffbrier(mmetdiffs;metfcs;metress)
+ymetdiffbrier::getdiffbrier(ymetdiffs;metfcs;metress)
+
 dmetdg::=dmetdiffs
-dmetdiffbrier::{(dmetdiffs@*x),brier(metfcs@x;metress@x)}'dmetdg
-dmetdiffbrier::dmetdiffbrier@<*'dmetdiffbrier
-
 wmetdg::=wmetdiffs
-wmetdiffbrier::{(wmetdiffs@*x),brier(metfcs@x;metress@x)}'wmetdg
-wmetdiffbrier::wmetdiffbrier@<*'wmetdiffbrier
-
 mmetdg::=mmetdiffs
-mmetdiffbrier::{(mmetdiffs@*x),brier(metfcs@x;metress@x)}'mmetdg
-mmetdiffbrier::mmetdiffbrier@<*'mmetdiffbrier
-
 ymetdg::=ymetdiffs
-ymetdiffbrier::{(ymetdiffs@*x),brier(metfcs@x;metress@x)}'ymetdg
-ymetdiffbrier::ymetdiffbrier@<*'ymetdiffbrier
 
 .fc(.ic("../../data/pb.csv"));pbraw::csv.load()
 
@@ -64,47 +65,29 @@ ypbdiffs::{_x%spy}'pbdata@4
 pbress::pbdata@2
 pbfcs::pbdata@3
 
+dpbdiffbrier::getdiffbrier(dpbdiffs;pbfcs;pbress)
+wpbdiffbrier::getdiffbrier(wpbdiffs;pbfcs;pbress)
+mpbdiffbrier::getdiffbrier(mpbdiffs;pbfcs;pbress)
+ypbdiffbrier::getdiffbrier(ypbdiffs;pbfcs;pbress)
+
 dpbdg::=dpbdiffs
-dpbdiffbrier::{(dpbdiffs@*x),brier(pbfcs@x;pbress@x)}'dpbdg
-dpbdiffbrier::dpbdiffbrier@<*'dpbdiffbrier
-
 wpbdg::=wpbdiffs
-wpbdiffbrier::{(wpbdiffs@*x),brier(pbfcs@x;pbress@x)}'wpbdg
-wpbdiffbrier::wpbdiffbrier@<*'wpbdiffbrier
-
 mpbdg::=mpbdiffs
-mpbdiffbrier::{(mpbdiffs@*x),brier(pbfcs@x;pbress@x)}'mpbdg
-mpbdiffbrier::mpbdiffbrier@<*'mpbdiffbrier
-
 ypbdg::=ypbdiffs
-ypbdiffbrier::{(ypbdiffs@*x),brier(pbfcs@x;pbress@x)}'ypbdg
-ypbdiffbrier::ypbdiffbrier@<*'ypbdiffbrier
 
 :"Sample sizes for ranges"
 
-dpbss::{(dpbdiffs@*x),#x}'dpbdg
-dpbss::dpbss@<dpbss
+getss::{dg::x;diff::y;ss::{(diff@*x),#x}'dg;ss@<ss}
 
-wpbss::{(wpbdiffs@*x),#x}'wpbdg
-wpbss::wpbss@<wpbss
+dpbss::getss(dpbdg;dpbdiffs)
+wpbss::getss(wpbdg;wpbdiffs)
+mpbss::getss(mpbdg;mpbdiffs)
+ypbss::getss(ypbdg;ypbdiffs)
 
-mpbss::{(mpbdiffs@*x),#x}'mpbdg
-mpbss::mpbss@<mpbss
-
-ypbss::{(ypbdiffs@*x),#x}'ypbdg
-ypbss::ypbss@<ypbss
-
-dmetss::{(dmetdiffs@*x),#x}'dmetdg
-dmetss::dmetss@<dmetss
-
-wmetss::{(wmetdiffs@*x),#x}'wmetdg
-wmetss::wmetss@<wmetss
-
-mmetss::{(mmetdiffs@*x),#x}'mmetdg
-mmetss::mmetss@<mmetss
-
-ymetss::{(ymetdiffs@*x),#x}'ymetdg
-ymetss::ymetss@<ymetss
+dmetss::getss(dmetdg;dmetdiffs)
+wmetss::getss(wmetdg;wmetdiffs)
+mmetss::getss(mmetdg;mmetdiffs)
+ymetss::getss(ymetdg;ymetdiffs)
 
 :"After executing this, {pb,met}questions has the following format:"
 :"[[id open-resolve-timediff [outcomes] [forecasts] [forecast-resolve-timediffs]]*]"

@@ -1,12 +1,14 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-06-25, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2020-06-30, language: english, status: in progress, importance: 1, confidence: log*
 
-> __.__
+> __Podcasts I am following.__
 
 List of Podcasts I Listen To
 =============================
+
+I try to listen to all episodes available to the public.
 
 * [80000 Hours Podcast](https://80000hours.org/podcast/)
 * [Alignment Newsletter Podcast](https://alignment-newsletter.libsyn.com/)

@@ -3,12 +3,12 @@
 
 *author: niplav, created: 2020-06-25, modified: 2020-06-25, language: english, status: in progress, importance: 1, confidence: log*
 
-> __.__
+> __Movies I have watched since December 2018.__
 
 List of Movies I have Watched
 ==============================
 
-These are the movies I have watched since december 2018 (newest additions
+These are the movies I have watched since December 2018 (newest additions
 first).
 
 * [Star Wars: Episode III - Revenge of the Sith](https://www.imdb.com/title/tt0121766/)
