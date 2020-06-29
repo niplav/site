@@ -3,7 +3,7 @@
 
 *author: niplav, created: 2020-06-25, modified: 2020-06-25, language: english, status: in progress, importance: 1, confidence: log*
 
-> __.__
+> __Texts I have read since May 2017.__
 
 List of Texts I have Read
 ==========================

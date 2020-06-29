@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-06-26, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-06-30, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -326,6 +326,7 @@ Texts
 		life -critlevel-ε (actively repugnant conclusion)
 	*	And also one person with critlevel+ε infinitely better
 		than many with critlevel-ε
+	* tlpe::{:[(&/x)<-cl;+/x:|(-cl)<(&/x)<cl;ω++/x;(2*ω)++/x}
 * Auras as synesthesia between visual perception and emotional perception
 	* Maybe a survey?
 * Another view on takeoff speeds in relation to the shape of optimization-space
@@ -747,6 +748,8 @@ Programming
 		logic is true
 * sent2tex
 	* converts a sent presentation to a pdf presentation
+*	1on1match: Platform that connects people who'd like to do 1-on-1s,
+	by personality style
 
 ### Klong Libraries
 

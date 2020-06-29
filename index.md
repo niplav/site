@@ -108,4 +108,15 @@ Miscellaneous
 * [Todo](./todo.md)
 * [Uses This](./uses_this.md)
 
+### Media Consumption
+
+The following is four lists on the content I consume. The content listed
+there is a fairly big subset of what I actually read/listen to/watch,
+but not complete. I also don't remember everything from these perfectly.
+
+* [Texts List](./texts_list.md)
+* [Movies List](./movies_list.md)
+* [Podcasts List](./podcasts_list.md)
+* [Series List](./series_list.md)
+
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")

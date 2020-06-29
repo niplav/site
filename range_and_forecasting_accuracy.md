@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-06-01, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-06-30, language: english, status: notes, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
@@ -728,6 +728,37 @@ of buckets.
 
 Again I use linear regressions, correlation coefficients and scatter
 plots to inadequately analyze the data.
+
+For accuracy between questions, the results were mostly not very
+interesting:
+
+		cor@dqmetbrier
+	-0.021357561237633882
+	        cor@+wqmetbrier
+	-0.0564522173076630489
+	        cor@+mqmetbrier
+	-0.134945120480158162
+	        cor@+yqmetbrier
+	-0.459895122605089935
+	        cor@+dqpbbrier
+	0.00977369255430785951
+	        cor@+wqpbbrier
+	0.0350359685890036469
+	        cor@+mqpbbrier
+	0.00195160822503737404
+	        cor@+yqpbbrier
+	-0.542853871095691028
+
+With a high resolution (looking at days and weeks, similarly months),
+the correlations are very near zero, probably just by noise. But the
+correlations for the range in years and across-question accuracy is
+~-0.5 in both cases. This is curious, and I have no explanation of what
+exactly is going on. Perhaps this is just a random result in both cases,
+which works because the datasets are just too small (4 & 10 for Metaculus
+and PredictionBook, respectively)? Or is it picking up on a real effect
+only visible with ranges as high as years? I don't know.
+
+<!--TODO: Images-->
 
 Accuracy Within Questions
 -------------------------
