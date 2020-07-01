@@ -1,12 +1,33 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-06-01, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2020-07-02, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
+
+June 2020
+---------
+
+Due to personal commitments, I didn't work on this website very much
+in June.
+
+### Writing
+
+* [Non-Solution to Exercise 1 in Section 9 of Naive Set Theory](./naive_set_theory_solutions.html#Exercise-1_6)
+* [Analysis and Results on Range and Forecasting Accuracy between Questions](./range_and_forecasting_accuracy.html#Analysis_1)
+
+### Other
+
+Imported existing lists I maintained on past [Media
+Consumption](./index.html#Media-Consumption), specifically:
+
+* [Texts I Have Read](./texts_list.html)
+* [Movies I Have Watched](./movies_list.html)
+* [Podcasts I Listen To](./podcasts_list.html)
+* [Series I Have Watched](./series_list.html)
 
 May 2020
 --------

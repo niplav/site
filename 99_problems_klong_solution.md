@@ -2063,6 +2063,9 @@ that slow. Note: this is not the case for integers. Why?-->
 
 ### P60 (**) Construct height-balanced binary trees with a given number of nodes.
 
+<!--TODO: this is just finding ACL trees with n nodes, right? Maybe
+cite wiki-->
+
 Simple solution: generate all height-balanced trees from height
 `$min_{n}$` (the minimal height of trees with `$n$` nodes) to `$max_{n}$`
 (the maximal height of trees with `$n$` nodes) for the given number of

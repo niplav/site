@@ -199,16 +199,24 @@ Texts
 		* Probability of X is undefined
 	* Maxipok
 	* Links to relevant texts here:
-		* http://gwern.net/mugging
+		* https://gwern.net/mugging
 		* https://gwern.net/Mugging-DP
 		* https://nintil.com/pascals-mugging/
 		* https://nickbostrom.com/papers/pascal.pdf
-		* https://en.wikipedia.org/wiki/Pascal%27s_mugging
+		* https://en.wikipedia.org/wiki/Pascal%27s\_mugging
 		* https://patrickjuli.us/2019/11/10/pascals-mugging/
 		* https://www.lesswrong.com/posts/9WZAqFzNJ4KrhsqJ7/pascal-s-mugging-solved
 		* https://www.lesswrong.com/posts/gjyvXPqvCZPEtCKLB/tactics-against-pascal-s-mugging
 		* https://risingentropy.com/pascals-mugging/
-		* Yudkowsky "Pascal's Muggle .*"
+		* https://wiki.lesswrong.com/wiki/Pascal%27s\_mugging
+		* https://wmbriggs.com/post/20492/
+		* https://medium.com/@SunBurntSky/pascals-mugging-787c37e76bc3
+		* https://utilitarianism.fandom.com/wiki/Pascal%27s\_Mugging
+		* https://www.lesswrong.com/posts/Ap4KfkHyxjYPDiqh2/pascal-s-muggle-infinitesimal-priors-and-strong-evidence
+		* https://www.lesswrong.com/posts/KDzXTWSTg8ArwbhRR/pascal-s-muggle-short-version
+		* https://www.lesswrong.com/posts/CaPgNwxEFHh3Ahvf7/pascal-s-muggle-pays
+		* https://www.lesswrong.com/posts/8FRzErffqEW9gDCCW/against-the-linear-utility-hypothesis-and-the-leverage
+		* https://www.lesswrong.com/posts/NoYXhJLtoKpLoZhRf/pascal-s-mugging-finite-or-unbounded-resources
 * Creatine & Vegetarianism IQ?
 * How difficult is it to manipulate real existing prediction markets?
 	* PredictIt
@@ -326,10 +334,13 @@ Texts
 		life -critlevel-ε (actively repugnant conclusion)
 	*	And also one person with critlevel+ε infinitely better
 		than many with critlevel-ε
-	* tlpe::{:[(&/x)<-cl;+/x:|(-cl)<(&/x)<cl;ω++/x;(2*ω)++/x}
+	* `tlpe::{:[(&/x)<-cl;+/x:|(-cl)<(&/x)<cl;ω++/x;(2*ω)++/x}`
 * Auras as synesthesia between visual perception and emotional perception
 	* Maybe a survey?
 * Another view on takeoff speeds in relation to the shape of optimization-space
+* Refactoring Rational Feelings
+	*	Relation between emotions, goals, strategy/planning, moral
+		development etc.
 
 ### Collections
 

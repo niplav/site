@@ -1052,7 +1052,7 @@ I used Guesstimate to calculate the uncertainty in the value provided
 by signing up for cryonics as a 20 year old. The model is available
 [here](https://www.getguesstimate.com/models/15527).
 
-### Variales
+### Variables
 
 Most of the parameters were simply taken from this text, but some deserve
 more explanation.
