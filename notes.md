@@ -759,8 +759,8 @@ Some Qualitative Intuitions on the Effects of Open Borders
 
 I'll assume open borders would have an effect of [doubling the world gross
 product](https://openborders.info/double-world-gdp/ "Double world GDP"),
-generated at least partially (so that the beneficiaries would either
-completely or partially be people from developing countries).
+generated so that the beneficiaries would either completely or at least
+partially be people from developing countries.
 
 This would be beneficial for humans alive right now, since less would
 need to live in extreme poverty.

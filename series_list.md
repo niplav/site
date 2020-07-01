@@ -9,7 +9,7 @@ List of Series I have Watched
 ==============================
 
 These are the series I have watched since January 2018 (alphabetical
-order). I may not have finished with some of these yet.
+order). I may not be finished with some of these yet.
 
 * [Altered Carbon](https://www.imdb.com/title/tt2261227/)
 * [Black Mirror](https://www.imdb.com/title/tt2085059/)
