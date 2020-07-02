@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-06-10, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-07-02, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -21,6 +21,8 @@ Daygame Cost-Benefit Analysis
 > unimaginable if he succeed
 
 *– [Howard Phillips Lovecraft]()<!--TODO: wiki link-->, [“From Beyond”](http://www.hplovecraft.com/writings/texts/fiction/fb.aspx), 1934*
+
+<!--Maybe use the longer version of the quote?-->
 
 <!--TODO: How to hyphenate the title?-->
 
@@ -596,12 +598,13 @@ The thing providing most of the value from daygame is the sex with
 different women. Sex is not a homogenous commodity, but has a wildly
 differing value, depending on the attractiveness of the partner and
 their skill at sex. Nethertheless I will assume that the value of
-sex averages out to the value of prostitution.
+sex averages out to the price of prostitution.
 
-I will consider two different components of the value: the value of
-the sex itself (as compared to prostitution) and the sense of pride and
-accomplishment (knowing that one is developing ones skills in daygame,
-while prostitution is often accompanied with shame<!--TODO: source-->).
+I will consider two different components of the value: the value of the
+sex itself (as compared to prostitution) and the sense of pride and
+accomplishment <!--TODO: perhaps link knowyourmeme page?--> (knowing
+that one is developing ones skills in daygame, while prostitution is
+often accompanied with shame<!--TODO: source-->).
 
 ##### Value of the Sex Itself
 
