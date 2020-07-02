@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-06-30, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-07-03, language: english, status: notes, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
@@ -758,7 +758,60 @@ which works because the datasets are just too small (4 & 10 for Metaculus
 and PredictionBook, respectively)? Or is it picking up on a real effect
 only visible with ranges as high as years? I don't know.
 
-<!--TODO: Images-->
+And now: linear regressions and scatterplots!
+
+The following are scatterplots with range on the X-axis and accuracy
+(calculated using the Brier score) on the Y-axis. Again, red dots/lines
+are for Metaculus data, and blue dots/lines are for Predictionbook data.
+
+![Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in days)](img/range_and_forecasting_accuracy/allqdays.png "Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in days)")
+
+*Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in days)*
+
+![Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in weeks)](img/range_and_forecasting_accuracy/allqweeks.png "Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in weeks)")
+
+*Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in weeks)*
+
+![Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in months)](img/range_and_forecasting_accuracy/allqmonths.png "Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in months)")
+
+*Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in months)*
+
+![Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in years)](img/range_and_forecasting_accuracy/allqyears.png "Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in years)")
+
+*Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in years)*
+
+Note that these are indeed different from the results in the [analysis
+on between-forecast accuracy](#Results). Especially, it seems like the
+linear regressions are less steep:
+
+	lreg(dmetdiffbrier)
+		[-0.0000372520623478135807 0.190620666721820704]
+	lreg(dqmetbrier)
+		[-0.00000947572947427605725 0.177148138436629167]
+
+The general trend seems to be: questions with a higher range have
+a higher accuracy than questions with a lower range. In itself,
+this is already a fascinating finding, and might explain some of
+the effect seen with accuracy between forecasts in the [previous
+section](#Accuracy-Between-Forecasts)). On the other hand, the data is
+still very noisy, and the interpolation on PredictionBook data shows no
+relation at all for the four timespans, while having questions with a
+much higher range than Metaculus.
+
+All in all, it's plausible that the relation of range and accuracy
+between questions explains the the weird relation for accuracy and range
+between forecasts, but I don't know enough statistics to tease these
+out exactly. My intuition tells me that the effect on accuracy between
+questions is too small to explain the whole anomaly between forecasts.
 
 Accuracy Within Questions
 -------------------------
+
+Conclusion
+----------
+
+<!TODO: in 1/2/5/10 years, will the linear regression coefficients for
+these datasets still be positive/negative?-->
+
+I hope these will become clearer once the datasets become bigger,
+especially in the higher ranges.

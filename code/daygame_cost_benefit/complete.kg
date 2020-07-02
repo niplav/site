@@ -15,7 +15,7 @@ text(200;400;"Benefit")
 
 setrgb(1;0;0)
 plot({-cost(x)})
-text(250;60;"cost")
+text(250;60;"Cost")
 
 bar(optim;20000+optimben;10000)
 
