@@ -242,7 +242,7 @@ Texts
 		* v: 12 9 8 11 7 2 4 6 10 3 5
 		* t: 10 4 7 3 8 9 5 11 2 6 12
 		* a: 4 2 3 8 9 11 10 7 12 6 5
-	* `set k 0; for i in 4 2 3 8 9 11 10 7 12 6 5; for j in (seq 1 10); set k (echo "$k+$i" | bc); date -I'date' -d "2028-11-17 +$k days"; end; end | xsel -psb`
+	* `set k 0; for i in 4 2 3 8 9 11 10 7 12 6 5; for j in (seq 1 10); set k (echo "\$k+\$i" | bc); date -I'date' -d "2028-11-17 +$k days"; end; end | xsel -psb`
 * Vasectomy and Sperm Freezing Cost-Benefit Analysis
 	* https://www.verywellfamily.com/us-child-support-statistics-2997994
 	* https://costaide.com/freezing-sperm-cost/
@@ -484,6 +484,9 @@ Texts
 		* Creation
 		* God
 		* Heaven
+			* Compute "path" of mind from existence in the world as a mathematical shape into n-dimensional (72-dimensional?) ball
+			* hedonium has maximal symmetry, which should just be the ball, but little information content
+			* hold this computation in timelessness so that the mind experiences the path indefinitely long
 		* Hell
 * Homeless Super-Mathematicians
 	* Perhaps in the SCP format?
