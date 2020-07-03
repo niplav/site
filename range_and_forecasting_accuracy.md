@@ -148,7 +148,7 @@ it easier to train ones calibration on real-world questions and become
 less wrong in the process.
 
 However, both sites differ in their approach to writing, judging and
-scoring forecasts. Predictionbook is much older than Metaculus: the
+scoring forecasts. PredictionBook is much older than Metaculus: the
 former was first released in 2008, the latter started in 2015. It is also
 much less formal than Metaculus: it doesn't require stringent resolution
 criteria, making possible for everybody to judge a question (unrelated
@@ -156,7 +156,7 @@ to whether the person has even made a prediction on the question
 themselves!), while Metaculus requires a short text explaining the context
 and resolution criteria for a question, with the questions being resolved
 by moderators or admins. This leads to Metaculus having less questions
-than Predictionbook, each question having more predictions on it. Of the
+than PredictionBook, each question having more predictions on it. Of the
 two, Metaculus is much more feature-rich: It supports not only binary
 questions, but also range questions with probability distributions,
 comment threads, having closed questions (questions that haven't yet been
@@ -167,7 +167,7 @@ links-->), as well as the Metaculus prediction, a weighted aggregation
 of the forecasts of the best forecasters on the site.
 
 Another significant difference between these two websites is the amount of
-data they publish: Predictionbook shows every single forecast made, while
+data they publish: PredictionBook shows every single forecast made, while
 on Metaculus one can only see the community forecast (a the time-weighted
 median of the forecasts made on the question). This is relevant for this
 analysis: The two approaches must be analysed separately.
@@ -762,7 +762,7 @@ And now: linear regressions and scatterplots!
 
 The following are scatterplots with range on the X-axis and accuracy
 (calculated using the Brier score) on the Y-axis. Again, red dots/lines
-are for Metaculus data, and blue dots/lines are for Predictionbook data.
+are for Metaculus data, and blue dots/lines are for PredictionBook data.
 
 ![Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in days)](img/range_and_forecasting_accuracy/allqdays.png "Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in days)")
 
