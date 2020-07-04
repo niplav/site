@@ -11,7 +11,7 @@
 The Real Movement Posts Chronological Index
 ===========================================
 
-This index currently lists 667 posts from 2013-05-20 to 2019-12-18.
+This index currently lists 682 posts from 2013-05-20 to 2019-12-18.
 
 Archives
 --------
@@ -707,6 +707,23 @@ Archives
 * [How the breakdown of production based on exchange value altered the terrain of Marxist strategy](https://therealmovement.wordpress.com/2020/01/30/how-the-breakdown-of-production-based-on-exchange-value-altered-the-terrain-of-marxist-strategy/) (Jehu, January 30, 2020)
 * [F*ck Communists! Long Live Communism!](https://therealmovement.wordpress.com/2020/04/02/fck-communists-long-live-communism/) (Jehu, April 2, 2020)
 * [CoViD-19 and Capitalist Collapse: Answers to some questions about the present emergency](https://therealmovement.wordpress.com/2020/04/03/covid-19-and-capitalist-collapse-answers-to-some-questions-about-the-present-emergency/) (Jehu, April 3, 2020)
+* [Open Letter to Communists of The Whole World: Total Class War Is Coming](https://therealmovement.wordpress.com/2020/04/08/open-letter-to-communists-of-the-whole-world-total-class-war-is-coming/) (Jehu, April 8, 2020)
+* [Over het scherm rolden …. (april 2020): Pandemie, Recessie, Klasse-oorlog?](https://therealmovement.wordpress.com/2020/04/15/over-het-scherm-rolden-april-2020-pandemie-recessie-klasse-oorlog/) (Jehu, Quote
+ | 
+April 15, 2020)
+* [The Dutch writer’s response to our Open Letter](https://therealmovement.wordpress.com/2020/04/17/the-dutch-writers-response-to-our-open-letter/) (Jehu, April 17, 2020)
+* [Yeah, that fucking happened.](https://therealmovement.wordpress.com/2020/04/21/yeah-that-fucking-happened/) (Jehu, April 21, 2020)
+* [How the DSA is responding to the pandemic emergency](https://therealmovement.wordpress.com/2020/05/06/how-the-dsa-is-responding-to-the-pandemic-emergency/) (Jehu, May 6, 2020)
+* [How the DSA is responding to the pandemic emergency – II](https://therealmovement.wordpress.com/2020/05/06/how-the-dsa-is-responding-to-the-pandemic-emergency-ii/) (Jehu, May 6, 2020)
+* [How the DSA is responding to the pandemic emergency – III](https://therealmovement.wordpress.com/2020/05/08/how-the-dsa-is-responding-to-the-pandemic-emergency-iii/) (Jehu, May 8, 2020)
+* [Are we headed to another Great Depression … or something else](https://therealmovement.wordpress.com/2020/05/31/are-we-headed-to-another-great-depression-or-something-else/) (Jehu, May 31, 2020)
+* [On Postone’s concept of the hollowing out of working society – I](https://therealmovement.wordpress.com/2020/06/30/on-postones-concept-of-the-hollowing-out-of-working-society-i/) (Jehu, June 30, 2020)
+* [On Postone’s concept of the hollowing out of working society – II](https://therealmovement.wordpress.com/2020/06/30/on-postones-concept-of-the-hollowing-out-of-working-society-ii/) (Jehu, June 30, 2020)
+* [On Postone’s concept of the hollowing out of working society – III](https://therealmovement.wordpress.com/2020/06/30/on-postones-concept-of-the-hollowing-out-of-working-society-iii/) (Jehu, June 30, 2020)
+* [On Postone’s concept of the hollowing out of working society – IV](https://therealmovement.wordpress.com/2020/07/01/on-postones-concept-of-the-hollowing-out-of-working-society-iv/) (Jehu, July 1, 2020)
+* [On Postone’s concept of the hollowing out of working society – V](https://therealmovement.wordpress.com/2020/07/02/on-postones-concept-of-the-hollowing-out-of-working-society-v/) (Jehu, July 2, 2020)
+* [On Postone’s concept of the hollowing out of working society – Interlude](https://therealmovement.wordpress.com/2020/07/02/on-postones-concept-of-the-hollowing-out-of-working-society-interlude/) (Jehu, July 2, 2020)
+* [On Postone’s concept of the hollowing out of working society – VI](https://therealmovement.wordpress.com/2020/07/03/on-postones-concept-of-the-hollowing-out-of-working-society-vi/) (Jehu, July 3, 2020)
 
 Code
 ----

@@ -12,7 +12,7 @@
 Shtetl Optimized Posts Chronological Index
 ==========================================
 
-This index currently lists 759 posts from 2006-11-20 until 2019-12-28.
+This index currently lists 784 posts from 2006-11-20 until 2019-12-28.
 
 Archives
 --------
@@ -807,6 +807,12 @@ Archives
 
 ### 2020
 
+* [Area 51 vollversion kostenlos downloaden](https://www.scottaaronson.com/blog/?p=33922) (Scott Aaronson, Thursday, June 11th, 2020)
+* [Österreich filme downloaden legal](https://www.scottaaronson.com/blog/?p=33923) (Scott Aaronson, Friday, June 12th, 2020)
+* [Amazon serie herunterladen pc](https://www.scottaaronson.com/blog/?p=33924) (Scott Aaronson, Friday, June 12th, 2020)
+* [Auto spiele downloaden](https://www.scottaaronson.com/blog/?p=33925) (Scott Aaronson, Friday, June 12th, 2020)
+* [Brettspiele kostenlos herunterladen](https://www.scottaaronson.com/blog/?p=33926) (Scott Aaronson, Friday, June 12th, 2020)
+* [Definieren der dateifreigaben für das herunterladen von definitionsupdates](https://www.scottaaronson.com/blog/?p=33927) (Scott Aaronson, Friday, June 12th, 2020)
 * [MIP*=RE](https://www.scottaaronson.com/blog/?p=4512) (Scott Aaronson, Tuesday, January 14th, 2020)
 * [An alternative argument for why women leave STEM: Guest post by Karen Morenz](https://www.scottaaronson.com/blog/?p=4522) (Scott Aaronson, Thursday, January 16th, 2020)
 * [From shtetl to Forum](https://www.scottaaronson.com/blog/?p=4536) (Scott Aaronson, Saturday, January 18th, 2020)
@@ -823,6 +829,25 @@ Archives
 * [On “armchair epidemiology”](https://www.scottaaronson.com/blog/?p=4695) (Scott Aaronson, Monday, March 30th, 2020)
 * [If I used Twitter…](https://www.scottaaronson.com/blog/?p=4714) (Scott Aaronson, Saturday, April 4th, 2020)
 * [When events make craziness sane](https://www.scottaaronson.com/blog/?p=4719) (Scott Aaronson, Tuesday, April 7th, 2020)
+* [John Horton Conway (1937-2020)](https://www.scottaaronson.com/blog/?p=4732) (Scott Aaronson, Sunday, April 12th, 2020)
+* [The quantum computer that knows all](https://www.scottaaronson.com/blog/?p=4740) (Scott Aaronson, Tuesday, April 14th, 2020)
+* [Lockdown day 39](https://www.scottaaronson.com/blog/?p=4762) (Scott Aaronson, Sunday, April 19th, 2020)
+* [AirToAll: Another guest post by Steve Ebin](https://www.scottaaronson.com/blog/?p=4768) (Scott Aaronson, Monday, April 20th, 2020)
+* [Martinis, The Plot Against America, Kill Chain](https://www.scottaaronson.com/blog/?p=4772) (Scott Aaronson, Thursday, April 23rd, 2020)
+* [Vaccine challenge trials NOW!](https://www.scottaaronson.com/blog/?p=4780) (Scott Aaronson, Friday, May 1st, 2020)
+* [Announcements](https://www.scottaaronson.com/blog/?p=4786) (Scott Aaronson, Friday, May 8th, 2020)
+* [Four striking papers](https://www.scottaaronson.com/blog/?p=4794) (Scott Aaronson, Wednesday, May 13th, 2020)
+* [Quantum Computing Lecture Notes 2.0](https://www.scottaaronson.com/blog/?p=4805) (Scott Aaronson, Wednesday, May 20th, 2020)
+* [The Collapsing Leviathan](https://www.scottaaronson.com/blog/?p=4816) (Scott Aaronson, Tuesday, May 26th, 2020)
+* [The US might die, but P and PSPACE are forever](https://www.scottaaronson.com/blog/?p=4830) (Scott Aaronson, Monday, June 1st, 2020)
+* [Pooled testing for covid: Guest post by Zeph Landau](https://www.scottaaronson.com/blog/?p=4834) (Scott Aaronson, Thursday, June 4th, 2020)
+* [Jonathan Dowling (1955-2020)](https://www.scottaaronson.com/blog/?p=4839) (Scott Aaronson, Saturday, June 6th, 2020)
+* [Book Review: “Will He Go?”](https://www.scottaaronson.com/blog/?p=4845) (Scott Aaronson, Thursday, June 11th, 2020)
+* [Justice has no faction](https://www.scottaaronson.com/blog/?p=4859) (Scott Aaronson, Thursday, June 18th, 2020)
+* [Quantum Computing Since Democritus: New Foreword!](https://www.scottaaronson.com/blog/?p=4867) (Scott Aaronson, Saturday, June 20th, 2020)
+* [Pseudonymity as a trivial concession to genius](https://www.scottaaronson.com/blog/?p=4870) (Scott Aaronson, Tuesday, June 23rd, 2020)
+* [David Poulin](https://www.scottaaronson.com/blog/?p=4886) (Scott Aaronson, Monday, June 29th, 2020)
+* [Scott’s Zoom tip: Email the link!](https://www.scottaaronson.com/blog/?p=4888) (Scott Aaronson, Friday, July 3rd, 2020)
 
 Code
 ----

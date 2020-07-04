@@ -111,3 +111,12 @@ Log
 * 50 dumbbell bench presses
 * 50 double leg lifts
 * 100 froggers
+
+### 2020-07-04
+
+* 25 push-ups
+* 50 sit-ups
+* 25 biceps curls
+* 25 dumbbell shoulder presses
+* 25 double leg lifts
+* 100 froggers
