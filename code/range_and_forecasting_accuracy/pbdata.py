@@ -11,7 +11,7 @@ def showforecasts(linkp, res):
 	urlp="https://predictionbook.com{}".format(linkp)
 	reqp=urllib2.Request(urlp, headers={"User-Agent" : "Firefox"})
 	try:
-		conp=urllib2.urlopen(reqp)
+		conp=urllib2.urlopen(reqp, timeout=10)
 	except (urllib2.HTTPError, urllib2.URLError) as e:
 		return
 	datap=conp.read()

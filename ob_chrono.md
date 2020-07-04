@@ -14,7 +14,7 @@
 Overcoming Bias Posts Chronological Index
 =========================================
 
-This index currently lists 4117 posts from 2006-11-20 until 2019-12-24.
+This index currently lists 4152 posts from 2006-11-20 until 2019-12-24.
 
 Archives
 --------
@@ -3293,7 +3293,7 @@ Archives
 * [Democracy Is Competition](http://www.overcomingbias.com/2013/01/democracy-is-competition.html) (Robin Hanson, January 11, 2013 1:20 pm)
 * [Morality as though it really mattered](http://www.overcomingbias.com/2013/01/morality-as-though-it-really-mattered.html) (Robert Wiblin, January 13, 2013 7:21 pm)
 * [Social Norms Are Far](http://www.overcomingbias.com/2013/01/social-norms-are-far.html) (Robin Hanson, January 14, 2013 8:10 am)
-* [Hail Scott Siskind](http://www.overcomingbias.com/2013/01/hail-scott-siskind.html) (Robin Hanson, January 14, 2013 9:30 pm)
+* [Hail Scott *****](http://www.overcomingbias.com/2013/01/hail-scott.html) (Robin Hanson, January 14, 2013 9:30 pm)
 * [Personal experiments: for the unusual?](http://www.overcomingbias.com/2013/01/personal-experiments-for-the-unusual.html) (Katja Grace, January 15, 2013 6:15 pm)
 * [Beware Life Insurance](http://www.overcomingbias.com/2013/01/beware-life-insurance.html) (Robin Hanson, January 17, 2013 9:30 am)
 * [Machiavelli On Listening](http://www.overcomingbias.com/2013/01/machiavelli-on-listening.html) (Robin Hanson, January 18, 2013 8:45 pm)
@@ -4180,6 +4180,41 @@ Archives
 * [Variolation (+ Isolation) May Cut Covid19 Deaths 3-30X](http://www.overcomingbias.com/2020/03/variolation-may-cut-covid19-deaths-3-30x.html) (Robin Hanson, March 30, 2020 12:00 am)
 * [Beware R0 Variance](http://www.overcomingbias.com/2020/04/beware-r0-variance.html) (Robin Hanson, April 2, 2020 12:20 pm)
 * [Reply to Cowen On Variolation](http://www.overcomingbias.com/2020/04/reply-to-cowen-on-variolation.html) (Robin Hanson, April 6, 2020 8:00 pm)
+* [Variolation Test Design](http://www.overcomingbias.com/2020/04/variolation-test-design.html) (Robin Hanson, April 8, 2020 4:00 pm)
+* [Peter Doherty on Variolation](http://www.overcomingbias.com/2020/04/peter-doherty-on-variolation.html) (Robin Hanson, April 12, 2020 12:10 pm)
+* [Covid19 Pizza-Risk Estimator](http://www.overcomingbias.com/2020/04/covid19-pizza-risk-estimator.html) (Robin Hanson, April 12, 2020 7:40 pm)
+* [A Perfect Storm of Inflexibility](http://www.overcomingbias.com/2020/04/a-perfect-storm-of-inflexibility.html) (Robin Hanson, April 14, 2020 8:30 pm)
+* [Three Futures](http://www.overcomingbias.com/2020/04/three-futures.html) (Robin Hanson, April 17, 2020 11:25 am)
+* [Why Not More Job Agents?](http://www.overcomingbias.com/2020/04/why-not-more-job-agents.html) (Robin Hanson, April 18, 2020 4:50 pm)
+* [What Can Money Buy Directly?](http://www.overcomingbias.com/2020/04/what-can-money-buy-directly.html) (Robin Hanson, April 19, 2020 8:45 pm)
+* [Subpoena Futures](http://www.overcomingbias.com/2020/04/subpoena-futures.html) (Robin Hanson, April 20, 2020 1:50 pm)
+* [Why Does Govt Do Stuff?](http://www.overcomingbias.com/2020/04/why-does-govt-do-stuff.html) (Robin Hanson, April 23, 2020 9:20 am)
+* [Vouch For Pandemic Passports](http://www.overcomingbias.com/2020/04/vouch-for-pandemic-passports.html) (Robin Hanson, April 24, 2020 8:40 pm)
+* [2 Lockdown Cost-Benefit Analyses](http://www.overcomingbias.com/2020/04/lockdown-cost-benefit-analyses.html) (Robin Hanson, April 27, 2020 6:45 pm)
+* [Constant Elasticity Prevention](http://www.overcomingbias.com/2020/04/constant-elasticity-prevention.html) (Robin Hanson, April 30, 2020 11:40 am)
+* [The Plan A Winner’s Circle Alliance](http://www.overcomingbias.com/2020/05/the-plan-a-winners-circle-alliance-against-incompetent-contagious-centers.html) (Robin Hanson, May 2, 2020 9:40 am)
+* [Social Network Games](http://www.overcomingbias.com/2020/05/social-network-games.html) (Robin Hanson, May 4, 2020 12:00 pm)
+* [Why Openers Are Winning](http://www.overcomingbias.com/2020/05/why-openers-are-winning.html) (Robin Hanson, May 5, 2020 7:50 am)
+* [Non-UFO Local Alien Clues](http://www.overcomingbias.com/2020/05/non-ufo-local-alien-clues.html) (Robin Hanson, May 9, 2020 1:30 pm)
+* [Modeling the ‘Unknown’ Label](http://www.overcomingbias.com/2020/05/modeling-the-unknown-label.html) (Robin Hanson, May 12, 2020 10:45 am)
+* [Lazar’s Dreamland](http://www.overcomingbias.com/2020/05/lazars-dreamland.html) (Robin Hanson, May 16, 2020 1:50 pm)
+* [Farrell On Who Pushes To Open](http://www.overcomingbias.com/2020/05/farrell-on-who-pushes-to-open.html) (Robin Hanson, May 18, 2020 7:04 pm)
+* [Five Ways to Rate](http://www.overcomingbias.com/2020/05/five-ways-to-rate.html) (Robin Hanson, May 19, 2020 9:05 pm)
+* [Pandemic Futarchy Design](http://www.overcomingbias.com/2020/05/pandemic-futarchy-design.html) (Robin Hanson, May 24, 2020 10:35 am)
+* [Time to Mitigate, Not Contain](http://www.overcomingbias.com/2020/05/time-to-mitigate-not-contain.html) (Robin Hanson, May 28, 2020 5:30 pm)
+* [The High Cost of Masks](http://www.overcomingbias.com/2020/05/the-high-cost-of-masks.html) (Robin Hanson, May 29, 2020 1:05 pm)
+* [Max Policing Is Disproportionate](http://www.overcomingbias.com/2020/06/max-policing-is-disproportionate.html) (Robin Hanson, June 3, 2020 10:00 am)
+* [Science 2.0](http://www.overcomingbias.com/2020/06/science-2-0.html) (Robin Hanson, June 4, 2020 4:34 pm)
+* [Missing Model: Too Much Do-Gooding](http://www.overcomingbias.com/2020/06/missing-model-too-much-do-gooding.html) (Robin Hanson, June 7, 2020 10:45 am)
+* [Philosopher Kings in Blue?](http://www.overcomingbias.com/2020/06/philosopher-kings-in-blue.html) (Robin Hanson, June 7, 2020 7:18 pm)
+* [No Recent Automation Revolution](http://www.overcomingbias.com/2020/06/no-recent-automation-revolution.html) (Robin Hanson, June 9, 2020 5:15 pm)
+* [On Our Own](http://www.overcomingbias.com/2020/06/on-our-own.html) (Robin Hanson, June 10, 2020 9:40 pm)
+* [Toward A University Department of Generalists](http://www.overcomingbias.com/2020/06/toward-a-university-department-of-generalists.html) (Robin Hanson, June 12, 2020 8:07 pm)
+* [The Commanding Heights of Culture](http://www.overcomingbias.com/2020/06/commandingheights.html) (Robin Hanson, June 14, 2020 9:15 pm)
+* [Risk-Aversion Sets Life Value](http://www.overcomingbias.com/2020/06/the-value-of-life.html) (Robin Hanson, June 22, 2020 9:00 pm)
+* [Problem-Owners Tolerate Risk](http://www.overcomingbias.com/2020/06/problem-owners-tolerate-risk.html) (Robin Hanson, June 29, 2020 8:15 pm)
+* [Seeking Robust Credible Expertise Buyers](http://www.overcomingbias.com/2020/07/seeking-robust-credible-expertise-buyers.html) (Robin Hanson, July 1, 2020 9:00 pm)
+* [Board Games As Policy Arguments](http://www.overcomingbias.com/2020/07/board-games-as-policy-arguments.html) (Robin Hanson, July 2, 2020 8:30 pm)
 
 Code
 ----
