@@ -403,6 +403,7 @@ Texts
 	* Two different mindsets
 * Blogging as an Act of Benevolence
 	* Mindset of "making a gift"
+* Most People Have No Power At All
 
 ### Misc
 

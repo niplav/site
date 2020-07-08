@@ -17,12 +17,12 @@
 Daygame Cost-Benefit Analysis
 =============================
 
-> despair if he fail in his quest, and terrors unutterable and
-> unimaginable if he succeed
+> These things should be left to the frigid and impersonal
+> investigator, for they offer two equally tragic alternatives to
+> the man of feeling and action: despair if he fail in his quest,
+> and terrors unutterable and unimaginable if he succeed.
 
-*– [Howard Phillips Lovecraft]()<!--TODO: wiki link-->, [“From Beyond”](http://www.hplovecraft.com/writings/texts/fiction/fb.aspx), 1934*
-
-<!--Maybe use the longer version of the quote?-->
+*– [Howard Phillips Lovecraft](https://en.wikipedia.org/wiki/H._P._Lovecraft), [“From Beyond”](http://www.hplovecraft.com/writings/texts/fiction/fb.aspx), 1934*
 
 <!--TODO: How to hyphenate the title?-->
 
