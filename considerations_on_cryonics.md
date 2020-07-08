@@ -50,6 +50,13 @@ Consideration:
 Different value of money at different ages
 -->
 
+<!--
+Why not a Pascal's mugging?
+* No adversary
+* Probability not _that_ low
+* Here assumed rather low bound on payoff to prevent
+-->
+
 > If I died, would I be rid of my senses?  
 Or will it retain, trapped within my corpse, in stasis?  
 If I died, would I be a woman in heaven?  
