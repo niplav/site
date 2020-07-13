@@ -138,3 +138,12 @@ ypbquestions::{(_(x@1)%spy),x@[2 3]}'pbquestions
 ypbquestions::{(**x),,/'+{1_x}'x}'ypbquestions@=*'ypbquestions
 yqpbbrier::{(*x),brier@1_x}'ypbquestions
 yqpbbrier::yqpbbrier@<yqpbbrier
+
+:"For within question accuracy"
+
+wmetq::flr({100<#x@2};metquestions)
+wpbq::flr({100<#x@2};pbquestions)
+
+chl::50
+sac::{t::+2_x;+'(chl*1+!(#t):%chl):_t}
+chsmetq::sac'wmetq

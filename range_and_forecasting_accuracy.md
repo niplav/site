@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-07-04, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-07-12, language: english, status: notes, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
@@ -806,6 +806,86 @@ questions is too small to explain the whole anomaly between forecasts.
 
 Accuracy Within Questions
 -------------------------
+
+If there exists any bias in regard to what kinds of questions get asked in
+relation to their range, how can we correct for this bias?
+
+One approach could be to compare very similar questions, such as only
+questions about artificial intelligence, the cost & speed of gene
+sequencing or autonomous cars, and examine the relation of range and
+accuracy within these categories. This might eliminate bias resulting
+from questions in different kinds of domains being easier or harder
+to forecast.
+
+Here, I take a simpler approach. I examine the relation of range and accuracy
+within questions; are forecasts made on the same question later generally
+more accurate than forecasts made on a question earlier?
+
+### Analysis
+
+In order to do this, it seems like questions with higher numbers of
+forecasts on them are are more likely to give clearer results than
+questions with only a dozen or so forecasts. The Metaculus dataset
+contains predictions on 557 questions, the PredictionBook dataset 13356:
+
+		#metquestions
+	557
+		#pbquestions
+	13356
+
+I filtered out questions with `<100` predictions on them, resulting
+in 323 questions from the Metaculus dataset and 0 (!) questions from
+PredictionBook:
+
+		wmetq::flr({100<#x@2};metquestions)
+		wpbq::flr({100<#x@2};pbquestions)
+		#wmetq
+	323
+		#wpbq
+	0
+
+This is not wholly surprising: Metaculus makes creating new questions
+much harder, and more strongly encourages users to predict on existing
+questions, with an elaborate tagging system for questions. PredictionBook
+on the other hand simplifies the questions creation process, leaving
+out moderation, complex resolution criteria etc. Still, I'm surprised
+– there must be at least *one* PredictionBook question popular enough
+for 100 forecasts! But apparently not.
+
+So, what is the highest number of predictions a PredictionBook question
+has gotten?
+
+		pbl::{#x@2}'pbquestions
+		pbl::pbl@<pbl
+		|/pbl
+	99
+
+You got to be kidding me.
+
+Anyway, within the usable questions with `>100` predictions, the
+predictions of each question are first sorted by range (here time between
+forecast and resolution) and then separated into chunks containing 50
+predictions each, so that the resulting structure of `cwmetq` looks like this:
+
+	[
+		[
+			[[result_array] [50_earliest_predictions] [ranges]]
+			[[result_array] [50_next_predictions] [ranges]]
+			…
+		]
+		…
+	]
+
+The code works by iterating the function `sac` over every question,
+first sorting the values by range and then cutting the predictions into
+chunks of size 50.
+
+		chl::50
+		sac::{t::+2_x;+'(chl*1+!(#t):%chl):_t}
+		chsmetq::sac'wmetq
+
+<!--TODO: GIANT BUG: There are no Metaculus binary questions with more
+than 101 predictions. Why? What happened here?-->
 
 Conclusion
 ----------
