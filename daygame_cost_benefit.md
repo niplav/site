@@ -260,6 +260,9 @@ combination of only taking numbers from somebody experienced, combined
 with the fact that he does daygame in russia, which is supposedly easier
 than London, where most of the others publishing data do daygame.
 
+<!--Add:
+https://sevendaygame.wordpress.com/2020/06/28/2019-review-it-was-good/ -->
+
 #### Mr. White
 
 [Mr. White](https://mrwhitedaygame.wordpress.com/) didn't publish
@@ -498,8 +501,9 @@ returns<!--TODO: link--> because of exhaustion).
 <!--TODO: minimum wage in different western countries
 https://en.wikipedia.org/wiki/Minimum_wage-->
 
-And daygame is generally an activity with comparatively much value:
-one spends time outside, moving around and interacting with other people.
+Furthermore, the physical activity while doing daygame is broadly good:
+most people probably don't spend enough time outside walking around
+(reducing Vitamin D deficiency), and interacting with other people.
 
 On the other hand, it may be that daygame only replaces "productive
 personal time", that the energy exerted in daygame misses in other
@@ -556,7 +560,7 @@ and [1.1 for his
 second](https://thomascrownpua.wordpress.com/2018-statistics/ "2018 Statistics").
 
 I will assume 1.8 dates on average lasting 3.5h each, because the numbers
-above are from people who has already done many approaches:
+above are from people who have already done many approaches:
 
 	datelen::3.5
 	avgdates::1.8

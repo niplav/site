@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2020-07-07, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2020-07-11, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -37,3 +37,4 @@ Currently, I am reading the following books:
 * Naive Set Theory (Paul R. Halmos, 1960)
 * The Complete Works (H. P. Lovecraft, 1915-1959)
 * Aus dem Diwan (Dschelāladdīn Rūmī, 1256)
+* Programming in Lua (Roberto Ierusalimschy, 2013)

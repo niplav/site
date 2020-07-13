@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-06-21, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2020-07-13, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -320,6 +320,10 @@ similar to those of the minimalist unix and [Plan
 
 The author
 ----------
+
+### Pronouns
+
+I'm most happy with they/them and he/him pronouns.
 
 ### Elsewhere on the Internet
 
