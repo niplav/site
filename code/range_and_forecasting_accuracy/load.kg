@@ -145,5 +145,16 @@ wmetq::flr({100<#x@2};metquestions)
 wpbq::flr({100<#x@2};pbquestions)
 
 chl::50
+
 sac::{t::+2_x;+'(chl*1+!(#t):%chl):_t}
+
 chsmetq::sac'wmetq
+chspbq::sac'wpbq
+
+pchsmetq::{{+mu(*|x),brier@2#x}'x}'chsmetq
+pchspbq::{{+mu(*|x),brier@2#x}'x}'chspbq
+pchsmetq::{{((_*x):%(3600*24)),1_x}'x}'pchsmetq
+pchspbq::{{((_*x):%(3600*24)),1_x}'x}'pchspbq
+
+awqmetlr::mu'+lreg'pchsmetq
+awqpblr::mu'+lreg'pchspbq

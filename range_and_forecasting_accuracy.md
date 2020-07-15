@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-07-12, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-07-15, language: english, status: notes, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
@@ -10,7 +10,7 @@
 > accuracy higher within questions? These questions are analyzed
 > using data from [PredictionBook](https://predictionbook.com/) and
 > [Metaculus](https://www.metaculus.com/questions/), the answers turn
-> out to be no, no and \_. Possible reasons are discussed.__
+> out to be no, no and yes. Possible reasons are discussed.__
 
 Range and Forecasting Accuracy
 ===============================
@@ -332,7 +332,7 @@ Code:
 			showforecasts(linkp, "0.0")
 
 Surprisingly, both platforms had almost the same amount of individual
-predictions on binary resolved questions: ~43k for Metaculus, and ~42k
+predictions on binary resolved questions: ~48k for Metaculus, and ~44k
 for PredictionBook.
 
 Accuracy Between Forecasts
@@ -804,6 +804,15 @@ between forecasts, but I don't know enough statistics to tease these
 out exactly. My intuition tells me that the effect on accuracy between
 questions is too small to explain the whole anomaly between forecasts.
 
+<!--
+### Why Longer Range Questions More Accurate?
+
+The big question now is: Why do forecasts on predictions on questions
+with a higher range generally receive better Brier scores?
+
+TODO: write something about bias here
+-->
+
 Accuracy Within Questions
 -------------------------
 
@@ -880,18 +889,156 @@ The code works by iterating the function `sac` over every question,
 first sorting the values by range and then cutting the predictions into
 chunks of size 50.
 
-		chl::50
-		sac::{t::+2_x;+'(chl*1+!(#t):%chl):_t}
-		chsmetq::sac'wmetq
+	chl::50
+	sac::{t::+2_x;+'(chl*1+!(#t):%chl):_t}
+	chsmetq::sac'wmetq
 
-<!--TODO: GIANT BUG: There are no Metaculus binary questions with more
-than 101 predictions. Why? What happened here?-->
+#### Interlude: It's Under 102
+
+When I first ran this code, I then also wanted to check how many chunks
+each question had:
+
+		#'chsmetq
+	[3 3 3 3 3 3 … 3 3 ]
+
+The result was, to say the least, confusing – where did all those 3s
+come from‽ Surely, there are questions with more than 150 forecasts
+(which I knew, [this question about 2016 being the warmest year on
+record](https://www.metaculus.com/questions/126/will-2016-be-the-warmest-year-on-record/)
+has 765 forecasts)!
+
+		10#{#x@3}'metquestions
+	[101 101 94 60 101 61 101 101 101 68]
+		|/{#x@3}'metquestions
+	101
+
+I initially suspected a bug in my code, but to my surprise, after further
+investigation, it turned out that the Metaculus API returns timeseries
+with elements removed so that the length was always 101.
+
+I can think of two reasons to do this:
+
+* Metaculus wants to prevent other entities from using the predictions to create stronger forecasting algorithms that could rival the Metaculus algorithm
+* It was programmed in as a hard limit when Metaculus wasn't as big as it is now, and never changed
+
+I mailed the support address on the site, asking for a full timeseries
+on resolved binary questions.
+
+<!--TODO: either update or become more penetrant-->
+
+-------
+
+Now for each chunk of size 50 we can compute the brier score and the mean
+of the range, and subsequently convert the ranges from seconds to days:
+
+	pchsmetq::{+mu(*|x),brier@2#x}'x}'chsmetq
+	pchsmetq::{{((_*x):%(3600*24)),1_x}'x}'pchsmetq
+
+The dataset then has elements like this:
+
+		2#pchsmetq
+	[[[294 0.036422] [72 0.015188] [1 0.0016]]
+	[[57 0.002532] [35 0.001462] [28 0.0004]]]
+
+Each element contains the mean range of a chunk in days and the accuracy
+of the forecasts on that question within that chunk.
+
+### Results
+
+We can now compute the linear regression for the chunks in each question:
+
+		2#lreg'pchsmetq
+	[[0.00011329877152681667 0.0038764502832194274] [0.0000675414847161572049 -0.00123699272197962153]]
+
+We can also visualise the linear regression for each question by setting
+it to zero outside the range of the oldest and newest chunks:
+
+	sketch::{q::x;
+        setrgb(.rn();.rn();.rn());
+        pltr::{:[(x>**q)|x<**|q;0;lr(x;lreg(q))]};
+        plot(pltr)}
+	sketch'pchsmetq
+
+![Linear regressions for the accuracy of questions by range in chunks of size 50](./img/range_and_forecasting_accuracy/perquestion.png "Linear regressions for the accuracy of questions by range in chunks of size 50")
+
+*Linear regressions for the accuracy of questions by range in chunks of size 50.*
+
+The vertical bars are artifacts stemming from the fact that Klong
+attempts to makes the discontinuous function continuous, connecting 0
+and the linear regression.
+
+Although the plot is kind of cool to look at, I'm not really sure what
+it can tell us. My *guess* would be that it somewhat shows a trend
+with higher ranges responding to higher Brier scores (and therefore
+lower accuracy).
+
+We can test whether this suspicion is acually correct by calculating the
+average offset and the average ascension – if the ascension is positive,
+our suspicion is confirmed.
+
+		mu'+lreg'pchsmetq
+	[0.00198030517003624986 0.0105472685809891273]
+
+So it is true that accuracy within question *generally* is higher with
+lower range. Everything else would have been surprising.
+
+![Mean of linear regressions on accuracy within questions](./img/range_and_forecasting_accuracy/withintotal.png "Mean of linear regressions on accuracy within questions")
+
+*Mean of linear regressions on accuracy within questions.*
+
+<!--
+Limitations
+-----------
+
+Oh boy.
+TODO:
+Two different kinds of datasets
+-->
 
 Conclusion
 ----------
 
-<!TODO: in 1/2/5/10 years, will the linear regression coefficients for
+Using two datasets with both ~45k predictions, having a range of
+between 1 day and 10 years (thereby containing forcasts with short and
+medium range)I have investigated the relation between the accuracy of
+predictions and their range (that is, the time between the prediction
+being made and the result of the prediction being known).
+
+I have found that the data indicates three facts:
+
+1.	For predictions made on any question, the predictions made a long
+	time before their resolution are generally more accurate than
+	predictions made a shorter time before their resolution. This
+	can be partially, but not completely explained by fact 2.
+2.	Questions with a longer range (that is, time between the question
+	being written and the question being resolved) generally have
+	a higher accuracy than questions with a shorter range.
+3.	Predictions made on the same question earlier are generally less
+	accurate than predictions that are made later.
+
+These results vary strongly between Metaculus and PredictionBook, with
+observations 1. and 2. much weaker or non-existent in PredictionPook data
+(observation 3. only holds for Metaculus, because there are no questions
+on PredictionBook with enough forecasts to run the analysis).
+
+These results suggest what to expect with questions with even higher range:
+That later predictions on them will generally be more accurate, and that
+the kinds of questions asked with a very high range might have an even
+accuracy than questions with short and medium ranges.
+
+However, there are plausible reasons to expect the trend from 1. and 2.
+to reverse: The questions asked with very high range are not very
+different from questions with medium range, and have a lot less
+information available to make useful predictions on them; butterfly
+effects<!--TODO: wikipedia--> start kicking in in systems that are
+relatively slow moving on human timescales (thus easier to predict on
+medium timescales), but nearly completely random at the scale of decades
+and/or centuries; the questions asked about longer timescales are of a
+different kind and much less predictable.
+
+<!--TODO: in 1/2/5/10 years, will the linear regression coefficients for
 these datasets still be positive/negative?-->
 
-I hope these will become clearer once the datasets become bigger,
-especially in the higher ranges.
+I hope to update this analysis in the future, when data from predictions
+with higher ranges has become available, and to check whether the findings
+in this analysis continue to be correct.

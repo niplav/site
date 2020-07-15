@@ -2,14 +2,17 @@ CSV=met.csv \
 	pb.csv
 
 IMG=alldays.png \
-	allweeks.png \
 	allmonths.png \
-	allyears.png \
 	allqdays.png \
-	allqweeks.png \
 	allqmonths.png \
+	allqweeks.png \
 	allqyears.png \
+	allweeks.png \
+	allyears.png \
 	dss_plot.png \
-	wss_plot.png \
 	mss_plot.png \
+	perquestion.png \
+	sperquestion.png \
+	withintotal.png \
+	wss_plot.png \
 	yss_plot.png

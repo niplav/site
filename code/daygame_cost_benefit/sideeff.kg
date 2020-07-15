@@ -1,9 +1,0 @@
-.l("./load_complex.kg")
-
-.l("nplot")
-
-grid([0 10000 1000];[0 5000 200])
-xtitle("Approaches")
-ytitle("Cumulative dollar value of side effects")
-plot(sideeff)
-draw()

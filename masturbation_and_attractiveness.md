@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2020-04-09, language: english, status: draft, importance: 5, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2020-07-14, language: english, status: draft, importance: 5, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -277,6 +277,8 @@ notice more signals than they did when they were obsessed with porn.
 
 *– [NoFap.com](https://nofap.com/), [“Rebooting from Porn Addiction”](https://nofap.com/rebooting/), 2017*
 
+### The Broad Picture
+
 A broad picture emerges: NoFap claims that long-term abstinence from
 masturbation has noticeable effects on male attractiveness for women,
 this effect emerges at around 40 days or more (and doesn't diminish with
@@ -287,6 +289,7 @@ effects are noticeable.
 The reasons given for this increase in attractiveness are as follows:
 
 <!--TODO: Wikipedia links for these-->
+
 * Microexpressions
 * Pheromones
 * Placebo effect
@@ -781,7 +784,7 @@ attractiveness" is a straw-man of the views of the larger NoFap
 community. I believe that I have provided ample evidence in the section
 [“Examples for the Claim”](#Examples-for-the-Claim) that the NoFap
 community contains at least a very vocal subset of people who have this
-view who are not actively opposed.
+view who are not actively opposed by the rest of the community.
 
 ### No Differentiation Between Pornography & Masturbation
 
