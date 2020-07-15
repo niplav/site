@@ -323,7 +323,7 @@ The author
 
 ### Pronouns
 
-I'm most happy with they/them and he/him pronouns.
+I'm most happy with they/them and he/him.
 
 ### Elsewhere on the Internet
 

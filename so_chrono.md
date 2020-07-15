@@ -807,12 +807,6 @@ Archives
 
 ### 2020
 
-* [Area 51 vollversion kostenlos downloaden](https://www.scottaaronson.com/blog/?p=33922) (Scott Aaronson, Thursday, June 11th, 2020)
-* [Österreich filme downloaden legal](https://www.scottaaronson.com/blog/?p=33923) (Scott Aaronson, Friday, June 12th, 2020)
-* [Amazon serie herunterladen pc](https://www.scottaaronson.com/blog/?p=33924) (Scott Aaronson, Friday, June 12th, 2020)
-* [Auto spiele downloaden](https://www.scottaaronson.com/blog/?p=33925) (Scott Aaronson, Friday, June 12th, 2020)
-* [Brettspiele kostenlos herunterladen](https://www.scottaaronson.com/blog/?p=33926) (Scott Aaronson, Friday, June 12th, 2020)
-* [Definieren der dateifreigaben für das herunterladen von definitionsupdates](https://www.scottaaronson.com/blog/?p=33927) (Scott Aaronson, Friday, June 12th, 2020)
 * [MIP*=RE](https://www.scottaaronson.com/blog/?p=4512) (Scott Aaronson, Tuesday, January 14th, 2020)
 * [An alternative argument for why women leave STEM: Guest post by Karen Morenz](https://www.scottaaronson.com/blog/?p=4522) (Scott Aaronson, Thursday, January 16th, 2020)
 * [From shtetl to Forum](https://www.scottaaronson.com/blog/?p=4536) (Scott Aaronson, Saturday, January 18th, 2020)

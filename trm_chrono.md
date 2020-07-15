@@ -708,9 +708,7 @@ Archives
 * [F*ck Communists! Long Live Communism!](https://therealmovement.wordpress.com/2020/04/02/fck-communists-long-live-communism/) (Jehu, April 2, 2020)
 * [CoViD-19 and Capitalist Collapse: Answers to some questions about the present emergency](https://therealmovement.wordpress.com/2020/04/03/covid-19-and-capitalist-collapse-answers-to-some-questions-about-the-present-emergency/) (Jehu, April 3, 2020)
 * [Open Letter to Communists of The Whole World: Total Class War Is Coming](https://therealmovement.wordpress.com/2020/04/08/open-letter-to-communists-of-the-whole-world-total-class-war-is-coming/) (Jehu, April 8, 2020)
-* [Over het scherm rolden …. (april 2020): Pandemie, Recessie, Klasse-oorlog?](https://therealmovement.wordpress.com/2020/04/15/over-het-scherm-rolden-april-2020-pandemie-recessie-klasse-oorlog/) (Jehu, Quote
- | 
-April 15, 2020)
+* [Over het scherm rolden …. (april 2020): Pandemie, Recessie, Klasse-oorlog?](https://therealmovement.wordpress.com/2020/04/15/over-het-scherm-rolden-april-2020-pandemie-recessie-klasse-oorlog/) (Jehu, April 15, 2020)
 * [The Dutch writer’s response to our Open Letter](https://therealmovement.wordpress.com/2020/04/17/the-dutch-writers-response-to-our-open-letter/) (Jehu, April 17, 2020)
 * [Yeah, that fucking happened.](https://therealmovement.wordpress.com/2020/04/21/yeah-that-fucking-happened/) (Jehu, April 21, 2020)
 * [How the DSA is responding to the pandemic emergency](https://therealmovement.wordpress.com/2020/05/06/how-the-dsa-is-responding-to-the-pandemic-emergency/) (Jehu, May 6, 2020)
