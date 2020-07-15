@@ -1,7 +1,32 @@
 .l("math")
 .l("nstat")
 
-.l("./vars.kg")
+oppcost::5
+
+prostcost::300
+prideval::400
+laynum::2
+firstlayval::prideval+prostcost*(1+ln(laynum))
+
+datecost::20
+avgdates::1.8
+datelen::3.5
+
+apprperhour::4
+ratioexp::0.02
+ratiobegin::0.005
+maxappr::10000
+
+fixcost::500
+varcost::0.5
+
+annsal::40000
+yearsben::10
+increase::0.005
+apppy::1000
+
+fcbfo::300
+pbfo::0.001
 
 ratio::{ratiobegin+(ratioexp-ratiobegin)*(1-500%x+500)}
 dateratio::{3*ratiobegin+(ratioexp-ratiobegin)*(1-500%x+500)}
@@ -10,3 +35,23 @@ layvals::{firstlayval*sqr(ratio(x)*x)}
 benefit::{layvals(x)}
 
 cost::{(oppcost*x%apprperhour)+(dateratio(x)*datecost*avgdates*x)+dateratio(x)*datelen*avgdates*oppcost}
+
+cmental::{-(10000*(ln.pdf((x*0.005)+0.5;1;1)))-1900}
+csideeff::{250*ln((x+10)*0.1)}
+csideeff::{yearsben*increase*annsal*ln(1+x%apppy)}
+
+cexpenditures::{fixcost+varcost*x}
+
+cbenefit::{cmental(x)+layvals(x)+csideeff(x)}
+
+ccbfo::{[t];t::x;+/{b.pmf(x;t;pbfo)*fcbfo*(1+ln(x))}'1+!{(x<t)&00.1<b.pmf(x;t;pbfo)*fcbfo*(1+ln(x))}{x+1}:~1}
+
+ccost::{ccbfo(x)+cexpenditures(x)+(oppcost*x%apprperhour)+(dateratio(x)*datecost*avgdates*x)+dateratio(x)*datelen*avgdates*oppcost}
+
+vals::{benefit(x)-cost(x)}'!maxappr
+optim::*>vals
+optimben::vals@*>vals
+
+cvals::{cbenefit(x)-ccost(x)}'!maxappr
+coptim::*>cvals
+coptimben::cvals@*>cvals

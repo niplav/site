@@ -1,5 +1,0 @@
-.l("./load_complex.kg")
-
-vals::{benefit(x)-cost(x)}'!maxappr
-optim::*>vals
-optimben::vals@*>vals

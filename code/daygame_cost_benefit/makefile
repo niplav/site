@@ -11,11 +11,8 @@ puttit: $(IMG)
 	convert -chop 0x180 $< $@
 	rm $<
 
-.rc.eps:
-	./$< >$@
-
-.kg.eps:
-	kg -l ./$< -e '.x(0)' >$@
+%.eps: draw_all.kg
+	kg -l ./$< -e '.x(0)'
 
 clean:
 	rm -f $(IMG)

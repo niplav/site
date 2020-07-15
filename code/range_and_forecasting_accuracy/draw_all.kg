@@ -292,3 +292,59 @@ segplot(ypbssvals)
 draw()
 .fl()
 .cc(yssplot)
+
+perquestion::.oc("perquestion.eps")
+.tc(perquestion)
+
+setrgb(0;0;0)
+grid([0],(|/*'*'pchsmetq),[100];[0 1 0.1])
+
+xtitle("Range (in days)")
+ytitle("Brier score")
+
+sketch::{q::x;
+	setrgb(.rn();.rn();.rn());
+	pltr::{:[(x>**q)|x<**|q;0;lr(x;lreg(q))]};
+	plot(pltr)}
+
+sketch'pchsmetq
+
+draw()
+.fl()
+.cc(perquestion)
+
+sperquestion::.oc("sperquestion.eps")
+.tc(sperquestion)
+
+setrgb(0;0;0)
+setdot(3)
+grid([0],(|/*'*'pchsmetq),[100];[0 1 0.1])
+
+xtitle("Range (in days)")
+ytitle("Brier score")
+
+rnscat::{fillrgb(.rn();.rn();.rn());
+	scplot2(x)}
+
+rnscat'pchsmetq
+
+draw()
+.fl()
+.cc(sperquestion)
+
+withintotal::.oc("withintotal.eps")
+.tc(withintotal)
+
+setrgb(0;0;0)
+setdot(2)
+grid([0],(|/*'*'pchsmetq),[100];[0 1 0.1])
+
+xtitle("Range (in days)")
+ytitle("Brier score")
+
+setrgb(1;0;0)
+plot(lr(;awqmetlr))
+
+draw()
+.fl()
+.cc(withintotal)

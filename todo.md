@@ -23,9 +23,11 @@ Site
 * Link tooltips at the beginning of lines break the links
 * Description of images in italics below
 * Move from Python2 to Python3
+* runtimes31\_2.png x axis is broken
 * Convert all the expensive image generating scripts into single ones that only run once, with multiple outputs
 	* Done:
 		* Range and Forecasting Accuracy
+		* Daygame Cost-Benefit Analysis
 
 Texts
 -----
@@ -500,6 +502,15 @@ Texts
 	* Text by german early 20th century continental philosopher about this object
 	* Fragments by a 11th century german monk about this
 * Guten Morgen
+* Qui Custodiet?
+	*	A group of AI alignment researchers by accident
+		stumbles upon cognitive enhancement and willpower direction
+		technologies. Because AGI seems imminent, they reluctanctly start
+		using the technology. They manage to always stay a step or two
+		ahead of the AI systems growing in capability, but continue
+		having to self-modify in order to devise new strategies. The
+		world watches as increasingly unaligned alignment researchers and
+		unaligned artificial intelligence battle for attainable utility…
 * A History of Names
 * Skalpell Bizeps
 

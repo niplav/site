@@ -1,9 +1,0 @@
-.l("nplot.kg")
-
-.l("./load_complex.kg")
-
-grid([0 2000 200];[-600 2000 200])
-xtitle("Approaches")
-ytitle("Cumulative mental cost in dollar")
-plot(mental)
-draw()

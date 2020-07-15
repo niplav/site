@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2020-06-01, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2020-07-14, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Solutions to the [99 problems](./99_klong_problems.html "99 Klong
 > Problems") in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -40,7 +40,7 @@ Conventions
 -----------
 
 Since this collection of solutions attempts to maximize for terseness,
-several considerations concerning completeness have to be made. There
+several concessions concerning completeness have to be made. There
 is nearly no checking for correct arguments, except for empty lists.
 Variables are declared locally. The solution for problem N is called
 `sN`, helper functions are numbered `aN` for the Nth helper function
@@ -2063,7 +2063,7 @@ that slow. Note: this is not the case for integers. Why?-->
 
 ### P60 (**) Construct height-balanced binary trees with a given number of nodes.
 
-<!--TODO: this is just finding ACL trees with n nodes, right? Maybe
+<!--TODO: this is just finding AVL trees with n nodes, right? Maybe
 cite wiki-->
 
 Simple solution: generate all height-balanced trees from height
