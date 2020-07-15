@@ -34,7 +34,6 @@ https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting
 -->
 <!--https://en.wikipedia.org/wiki/Simpson's_paradox-->
 <!--http://foresightr.com/2016/05/06/a-brief-history-of-forecasting-->
-<!--luke@openphilanthropy.org-->
 <!--Seems like a similar work:
 https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.12127-->
 
