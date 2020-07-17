@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-07-02, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-07-17, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -1061,7 +1061,6 @@ Appendix B: A Slightly More Complex Guesstimate Model of the Value
 ### Inputs
 -->
 
-<!--
 Appendix C: Empirically Checking the Assumptions
 ------------------------------------------------
 
@@ -1090,7 +1089,7 @@ Log:
 * Datetime end
 * Approaches index number range
 * Number of approaches (evtl.)
--->
+
 <!--
 Second one: fix costs & other stuff
 Approximate ratio per:

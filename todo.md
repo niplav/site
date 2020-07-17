@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-06-30, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-07-17, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -535,6 +535,17 @@ eine kontingente verschmelzung von fast-sein und konkretheit"
 ### Archiving
 
 * Type up John Nash's Thesis in LaTeX
+
+Data Sets
+----------
+
+Collect data on
+
+* Bag Spreading
+* Masturbation Spacing
+* [Daygame](./daygame_cost_benefit.html#Appendix-C-Empirically-Checking-the-Assumptions)
+* [Masturbation and Attractiveness](./masturbation_and_attractiveness.html#Method)
+* [Subjective Life Expectancy](./estimated_life_expectancy.html#Data-Collection-Method)
 
 Music
 -----
