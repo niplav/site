@@ -911,6 +911,8 @@ has 765 forecasts)!
 		|/{#x@3}'metquestions
 	101
 
+![If an item does not appear in our records, it does not exist](./img/range_and_forecasting_accuracy/api_incomplete.png "If an item does not appear in our records, it does not exist")
+
 I initially suspected a bug in my code, but to my surprise, after further
 investigation, it turned out that the Metaculus API returns timeseries
 with elements removed so that the length was always 101.
