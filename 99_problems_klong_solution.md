@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2020-07-14, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-02-10, modified: 2020-07-14, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __Solutions to the [99 problems](./99_klong_problems.html "99 Klong
 > Problems") in [Klong](http://t3x.org/klong/index.html) in a [literate

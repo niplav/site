@@ -8,6 +8,22 @@
 Changelog
 =========
 
+July 2020
+---------
+
+### Writing
+
+* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+	* [Results Between Questions](./range_and_forecasting_accuracy.html#Results_1)
+	* [Accuracy Within Questions](./range_and_forecasting_accuracy.html#Accuracy-Within-Questions)
+
+### Other
+
+Rebuilt the website, the chronological blog archives now contain the
+newest posts from the respective blogs.
+
+Updated the [Now](./now.html) page.
+
 June 2020
 ---------
 
