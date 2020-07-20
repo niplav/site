@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-07-17, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-07-20, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -495,8 +495,9 @@ assume that the opportunity cost of an activity to be the money one
 could have earned with a minimum wage job during that time<!--TODO:
 [citation needed]-->, but that seems to go too far: an additional hour
 spent working might be net negative, even with taking wage into account
-(working hours have diminishing and at some point negative marginal
-returns<!--TODO: link--> because of exhaustion).
+(working hours have diminishing and at some point negative [marginal
+utility](https://en.wikipedia.org/wiki/Marginal_utility) because of
+exhaustion).
 
 <!--TODO: minimum wage in different western countries
 https://en.wikipedia.org/wiki/Minimum_wage-->
@@ -604,11 +605,11 @@ differing value, depending on the attractiveness of the partner and
 their skill at sex. Nethertheless I will assume that the value of
 sex averages out to the price of prostitution.
 
-I will consider two different components of the value: the value of the
-sex itself (as compared to prostitution) and the sense of pride and
-accomplishment <!--TODO: perhaps link knowyourmeme page?--> (knowing
-that one is developing ones skills in daygame, while prostitution is
-often accompanied with shame<!--TODO: source-->).
+I will consider two different components of the value: the value of
+the sex itself (as compared to prostitution) and the [sense of pride and
+accomplishment](https://knowyourmeme.com/memes/events/star-wars-battlefront-ii-unlockable-heroes-controversy)
+(knowing that one is developing ones skills in daygame, while prostitution
+is often accompanied with shame<!--TODO: source-->).
 
 ##### Value of the Sex Itself
 

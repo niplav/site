@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2020-07-14, language: english, status: draft, importance: 5, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2020-07-20, language: english, status: draft, importance: 5, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -30,16 +30,18 @@ Pre-register on predictionbook as well.
 Abstract
 --------
 
-Members of the NoFap community<!--TODO: link--> frequently claim that
+Members of the [NoFap community](https://en.wikipedia.org/wiki/NoFap) frequently claim that
 male physical attractiveness is causally influenced by the frequency
 and duration since the last occurence of masturbation.
 
 I present a method to test this claim (albeit imperfectly) by approaching
 200 people in the street after 90 days of abstinence from masturbation
 and asking them for a date, and 200 again after a week of daily
-masturbation. The results are analyzed using a two-sample Student's
-t-test<!--TODO: citation needed--> and various descriptive statistical
-methods<!--TODO: link--> and find that \_.
+masturbation. The results are analyzed using a two-sample [Student's
+t-test](https://en.wikipedia.org/wiki/Student%27s_t-test)
+and various [descriptive statistical
+methods](https://en.wikipedia.org/wiki/Descriptive_statistics) and find
+that \_.
 
 Existing Literature
 -------------------
@@ -52,8 +54,9 @@ nothing there, but it might have changed.-->
 Examples for the Claim
 -----------------------
 
-To prevent the accusation of straw-manning <!--TODO: link--> the views of
-the NoFap community, I hereby present comments that broadly make the claim
+To prevent the accusation of
+[straw-manning](https://en.wikipedia.org/wiki/Straw_man) the views of the
+NoFap community, I hereby present comments that broadly make the claim
 that "male abstinence from masturbation results in higher attractiveness,
 even with fixed behavior."
 
@@ -288,11 +291,9 @@ effects are noticeable.
 
 The reasons given for this increase in attractiveness are as follows:
 
-<!--TODO: Wikipedia links for these-->
-
-* Microexpressions
-* Pheromones
-* Placebo effect
+* [Microexpressions](https://en.wikipedia.org/wiki/Microexpression)
+* [Pheromones](https://en.wikipedia.org/wiki/Pheromone)
+* [Placebo effect](https://en.wikipedia.org/wiki/Placebo)
 * Higher effort in searching partners
 
 Two of these reasons are independent from the attitude of a person
@@ -361,7 +362,7 @@ after masturbation), perceived gender of the person approached ("m",
 * 5 (flake): person gave contact information, but did not reply
 * 6 (date): person showed up to the date
 
-Results were logged in a CSV <!--TODO: link-->file.
+Results were logged in a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values).
 
 ### Justification for Cold Approach as a Method
 
@@ -463,11 +464,10 @@ Female:
 
 *Female loss in different stages of cold approach*
 
-<!--TODO: Is this a Kaplan-Meier Curve?-->
-
-Another possible method could be to visualize cumulative survival rates
-for the different stages by percentage. The overall graph for this would look
-like this:
+Another possible method could be to visualize cumulative survival
+rates for the different stages by percentage by showing a [Kaplan-Meier
+plot](https://en.wikipedia.org/wiki/Kaplan%E2%80%93Meier_estimator). The
+overall graph for this would look like this:
 
 	.l("nplot")
 	.l("./load.kg")
@@ -610,11 +610,13 @@ the same time. It is merely the case that if a hypothesis gets rejected,
 the probability that it got rejected although it is true is lower than
 a given percentage (usually and also in this case 5%).
 
-I used a two-sample Student's t-test to test the hypotheses, under the
-assumption that the distribution of results from cold approach was roughly
-normally distributed <!--TODO: link-->and that the variance <!--TODO:
-link-->of the two sample sets was also roughly equal. As one can see
-from the figures, this assumption of normal distribution \_.
+I used a two-sample Student's t-test to test the
+hypotheses, under the assumption that the distribution
+of results from cold approach was roughly [normally
+distributed](https://en.wikipedia.org/wiki/Normal_distribution) <!--TODO:
+link-->and that the [variance](https://en.wikipedia.org/wiki/Variance)
+of the two sample sets was also roughly equal. As one can see from the
+figures, this assumption of normal distribution \_.
 
 To calculate Student's t-test, let
 `$\{X_{1}, \cdots, X_{m}\}=X_{i}\sim{\cal{N}}(\mu_{X}, \sigma_{X})$`
@@ -632,12 +634,13 @@ where `$\overline{X}$` and `$\overline{Y}$` are the sample mean of the
 two sample sets, and `$S_{X}^{2}$` and `$S_{Y}^{2}$` are the sample
 variances of the two sample sets.
 
-Different hypotheses are then tested by comparing `$T$` to the
-quantile function<!--TODO: link--> of Student's t-distribution<!--TODO:
-link-->. In this case, our sample sizes are bigger than 30, and so the
-quantile function of Student's t-distribution can be approximated using
-the quantile function of the normal distribution<!--TODO: sources for
-this claim-->.
+Different hypotheses are then tested by comparing `$T$` to the [quantile
+function](https://en.wikipedia.org/wiki/Quantile_function) of [Student's
+t-distribution](https://en.wikipedia.org/wiki/Student%27s_t-distribution).
+In this case, our sample sizes are bigger than 30, and so the quantile
+function of Student's t-distribution can be approximated using the
+quantile function of the normal distribution<!--TODO: sources for this
+claim-->.
 
 The two-sided Student's t-test can thus be implemented (the
 full code for different hypothesis testing can be found
@@ -652,8 +655,8 @@ full code for different hypothesis testing can be found
 	:[t<qf(z);.p("μ_X≥μ_Y rejected (p≤",($z),")");.p("μ_X≥μ_Y accepted (p≤",($z),")")]}
 
 The argument `x` is the first sample set, `y` is the second sample set,
-and `z` is the p-value<!--TODO: Wikipedia-->. The function tests all three
-hypotheses and prints the result.
+and `z` is the [p-value](https://en.wikipedia.org/wiki/P-value). The
+function tests all three hypotheses and prints the result.
 
 One can now simply execute the test:
 
@@ -743,14 +746,17 @@ was sent to me.
 
 ### Typical WEIRDness
 
-WEIRD<!--TODO: wikipedia link--> usually refers to "Western, educated,
-industrialized, rich, democratic" – the demographic of the average study
-performed with college students. In the context of this experiment, all
-five of these factors apply to the experimenter (myself), but it is much
-less clear how many of these characteristics can be found in the people
-approached. Due to homophily,<!--TODO: wikipedia link--> it seems likey
-that they will be strong, but a priori, only western and industrialized
-necessarily apply – the experiment was performed in western europe.
+[WEIRD](https://en.wikipedia.org/wiki/Psychology#WEIRD_bias) usually
+refers to "Western, educated, industrialized, rich, democratic" – the
+demographic of the average study performed with college students. In
+the context of this experiment, all five of these factors apply to
+the experimenter (myself), but it is much less clear how many of
+these characteristics can be found in the people approached. Due
+to [homophily](https://en.wikipedia.org/wiki/Homophily) <!--TODO:
+is https://en.wikipedia.org/wiki/Assortative_mating better?-->, it
+seems likey that they will be strong, but a priori, only western and
+industrialized necessarily apply – the experiment was performed in
+western europe.
 
 ### Gender was Determined by Perception
 
@@ -824,10 +830,10 @@ Appendix A: Preregistration
 
 To avoid p-hacking and other practices, the bulk of this text
 was written before the actual experiment and data analysis was
-conducted, and posted<!--TODO: when posted, put link here--> on
-the [NoFap subreddit](https://old.reddit.com/r/NoFap/) as well as
-to the subreddit [/r/niplav](https://old.reddit.com/r/niplav),
-with the SHA256 hashsum<!--TODO: link--> of the text as the
+conducted, and posted<!--TODO: when posted, put link here--> on the
+[NoFap subreddit](https://old.reddit.com/r/NoFap/) as well as to
+the subreddit [/r/niplav](https://old.reddit.com/r/niplav), with the
+[SHA256 hashsum](https://en.wikipedia.org/wiki/SHA-2) of the text as the
 title. The SHA256 sum of the content was put into the title to prevent
 tampering with the content of the article, because reddit titles [can't be
 changed](https://old.reddit.com/wiki/faq#wiki_i_made_a_mistake_in_my_submission_title.2C_how_can_i_edit_it.3F)
@@ -932,8 +938,7 @@ much easier. I used the following code to generate the dummy data:
 for men & for women, each for during & after abstinence). `fdur`, `mdur`,
 `faft` and `maft` give the probability of progressing after a certain
 probability in the funnel. `d` is then filled with `probes` datapoints
-for each scenario (in CSV<!--TODO: wikipedia link-->). In the end,
-`d` is concatenated with newlines.
+for each scenario (in CSV). In the end, `d` is concatenated with newlines.
 
 The date and time in the dummy data is, for simplicity, always the same.
 Since I don't perform any analysis on it, that should be fine.

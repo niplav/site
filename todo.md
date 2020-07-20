@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-07-17, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-07-20, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -248,6 +248,12 @@ Texts
 * Vasectomy and Sperm Freezing Cost-Benefit Analysis
 	* https://www.verywellfamily.com/us-child-support-statistics-2997994
 	* https://costaide.com/freezing-sperm-cost/
+* Ingredients to Moloch
+	* Tragedy of the Commons
+	* Nash Equilibria
+	* Unilateralist's Curse
+	* Pure Replicator Hell
+	* Convergent Instrumental Goals
 
 ### Ideas
 
@@ -406,6 +412,8 @@ Texts
 * Blogging as an Act of Benevolence
 	* Mindset of "making a gift"
 * Most People Have No Power At All
+* Report: Melatonin
+	* It works. Dead simple. I love it.
 
 ### Misc
 

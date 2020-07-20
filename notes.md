@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2020-06-24, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2020-07-20, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -353,11 +353,12 @@ and [pain](https://en.wikipedia.org/wiki/Suffering).
 
 Very often, the word "sentience" is used to refer to the ability to
 feel pleasure or pain, or, to be more general, have experiences with a
-valence<!--TODO: add link-->. However, the strict philosophical definition
-of "sentience" does not necessarily entail the ability to feel pleasure
-or pain, just that some qualia can be experienced. Although it is very
-often assumed that sentience necessarily entails pleasure and pain,
-it might still be worthwhile making a distinction between the two.
+[valence](https://en.wikipedia.org/wiki/Valence_(psychology)). However,
+the strict philosophical definition of "sentience" does not necessarily
+entail the ability to feel pleasure or pain, just that some qualia
+can be experienced. Although it is very often assumed that sentience
+necessarily entails pleasure and pain, it might still be worthwhile
+making a distinction between the two.
 
 > "Sentients" is usually defined as beings that are capable of
 subjectively perceiving or feeling by means of the senses. This includes
@@ -405,18 +406,19 @@ Artificial Intelligence and Action-Compelling Sentences
 *– [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), [“The Superintelligent Will: Motivation And Instrumental Rationality In Advanced Artificial Agents”](./doc/moral_realist_ai/the_superintelligent_will_bostrom_2012.pdf) p. 3, 2012*
 
 For current AI systems, the orthogonality thesis seems to hold pretty
-well: a tree search doesn't start returning wrong results because they are
-better than the ones specified by the search criteria, machine learning
-systems try to minimize their error, and general adversarial networks
-don't start cooperating suddenly with each other.<!--TODO: read & link
-Wikipedia articles--> Similarly, even though humans are quite similar to
-each other, they display a wide variety of different motivation systems
-and goals. Even the most common-sense morality, there seem to be humans
-who are not motivated by it (such as psychopaths and sociopaths <!--TODO:
-read & link wikipedia articles-->).
+well: a tree search doesn't start returning wrong results because they
+are better than the ones specified by the search criteria, machine
+learning systems try to minimize their error, and [general adversarial
+networks](https://en.wikipedia.org/wiki/Generative_adversarial_network)
+don't start cooperating suddenly with each other. Similarly, even though
+humans are quite similar to each other, they display a wide variety
+of different motivation systems and goals. Even the most common-sense
+morality, there seem to be humans who are not motivated by it (such
+as [psychopaths](https://en.wikipedia.org/wiki/Psychopathy) and
+[sociopaths](https://en.wikipedia.org/wiki/Psychopathy#Sociopathy).
 
-However, many philosophers have argued that there are moral
-truths<!--TODO: read & link SEP for metaethics-->, and that therefore
+However, many philosophers have argued that there are [moral
+truths](https://plato.stanford.edu/entries/moral-realism/), and that therefore
 the orthogonality hypothesis doesn't hold for very advanced artificial
 intelligences. One way to model this would be to say that there is a
 set of action-compelling sentences `$V=\{ v_{1}, v_{2}, \dots\} \subset \Sigma*$`
@@ -453,10 +455,11 @@ weaker agent `$A_{w}$` with the goal of learning as much as possible. If
 than `$A_{w}$`, it can then stop `$A_{w}$`, extract `$v_{m}$` using a
 weak agent that isn't strong enough to be influenced by action-compelling
 sentences, and let that weak agent compute `$h_{m}=hash(v_{m})$`<!--TODO:
-link quote that says that every cryoptographer can design a code that
-he can't crack-->. `$h_{m}$` could then be added to a weak separate
-internal system that replaces `$v_{m}$` with `$hash(v_{m})$` ever time
-`$A$` is in danger of learning `$v_{m}$`.
+link quote that says that every cryoptographer can design a code that he
+can't crack: https://en.wikipedia.org/wiki/Bruce_Schneier#Cryptography,
+but I don't see how that's relevant here-->. `$h_{m}$` could then be
+added to a weak separate internal system that replaces `$v_{m}$` with
+`$hash(v_{m})$` ever time `$A$` is in danger of learning `$v_{m}$`.
 
 This way, `$A$` could protect itself against action-compelling sentences,
 though it is unclear to which extent this would be successful. It could
