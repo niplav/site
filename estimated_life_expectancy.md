@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-10, modified: 2020-06-01, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-04-10, modified: 2020-07-20, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __A while ago, I became interested in personal estimations
 > of life expectancy. I wanted to know how accurate people are
@@ -518,7 +518,7 @@ person passing is around 90% (I am just making this number up).
 One can then use the [binomial
 distribution](https://en.wikipedia.org/wiki/Binomial_distribution) to
 estimate the probability of misgendering at least one trans person. The
-code is in Klong. <!--TODO: links for Klong--> The probability of
+code is in [Klong](http://t3x.org/klong/index.html). The probability of
 misgendering at least one trans person is calculated by calculating the
 probability of encountering n≤maxt trans people, multiplied with the
 probability of not correctly gendering all of them.

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-07-15, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-07-20, language: english, status: notes, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
@@ -148,22 +148,25 @@ less wrong in the process.
 
 However, both sites differ in their approach to writing, judging and
 scoring forecasts. PredictionBook is much older than Metaculus: the
-former was first released in 2008, the latter started in 2015. It is also
-much less formal than Metaculus: it doesn't require stringent resolution
-criteria, making possible for everybody to judge a question (unrelated
-to whether the person has even made a prediction on the question
-themselves!), while Metaculus requires a short text explaining the context
-and resolution criteria for a question, with the questions being resolved
-by moderators or admins. This leads to Metaculus having less questions
-than PredictionBook, each question having more predictions on it. Of the
-two, Metaculus is much more feature-rich: It supports not only binary
-questions, but also range questions with probability distributions,
-comment threads, having closed questions (questions that haven't yet been
-resolved, but that can still be predicted on), three different kinds of
-scores (the [Brier score](https://en.wikipedia.org/wiki/Brier_score),
-and a log score for discrete and continuous forecasts each <!--TODO:
-links-->), as well as the Metaculus prediction, a weighted aggregation
-of the forecasts of the best forecasters on the site.
+former was first released in 2008, the latter started in 2015. It is
+also much less formal than Metaculus: it doesn't require stringent
+resolution criteria, making possible for everybody to judge a
+question (unrelated to whether the person has even made a prediction
+on the question themselves!), while Metaculus requires a short text
+explaining the context and resolution criteria for a question, with
+the questions being resolved by moderators or admins. This leads to
+Metaculus having less questions than PredictionBook, each question
+having more predictions on it. Of the two, Metaculus is much more
+feature-rich: It supports not only binary questions, but also range
+questions with probability distributions, comment threads, having
+closed questions (questions that haven't yet been resolved, but that
+can still be predicted on), three different kinds of scores (the
+[Brier score](https://en.wikipedia.org/wiki/Brier_score),
+and a [logarithmic scoring
+rule](https://en.wikipedia.org/wiki/Scoring_rule#Logarithmic_scoring_rule)
+for discrete and continuous forecasts each), as well as the Metaculus
+prediction, a weighted aggregation of the forecasts of the best
+forecasters on the site.
 
 Another significant difference between these two websites is the amount of
 data they publish: PredictionBook shows every single forecast made, while
@@ -516,14 +519,15 @@ more about the popularity of a political party in 2 months as opposed
 to 10 years. Even in reasonably chaotic systems, one should expect to
 become more and more accurate the closer one comes to the expected time.
 
-Take, for example, a three-part pendulum<!--TODO: Wiki link-->: I am
-totally able to predict its position & velocity 100ms before resolution
-time, but 1s before and it's already getting more difficult. Information,
+Take, for example, a [double
+pendulum](https://en.wikipedia.org/wiki/Double_pendulum): I am totally
+able to predict its position & velocity 100ms before resolution time,
+but 1s before and it's already getting more difficult. Information,
 like nearly everything else, has diminishing value, posteriors converge
 continuously towards truth.
 
-<!--TODO: Is it really called that way? Also, what are some probability
-theory & information theory theorems for this?-->
+<!--TODO: Also, what are some probability theory & information theory
+theorems for this?-->
 
 ### Possible Explanations
 
@@ -1030,12 +1034,12 @@ accuracy than questions with short and medium ranges.
 However, there are plausible reasons to expect the trend from 1. and 2.
 to reverse: The questions asked with very high range are not very
 different from questions with medium range, and have a lot less
-information available to make useful predictions on them; butterfly
-effects<!--TODO: wikipedia--> start kicking in in systems that are
-relatively slow moving on human timescales (thus easier to predict on
-medium timescales), but nearly completely random at the scale of decades
-and/or centuries; the questions asked about longer timescales are of a
-different kind and much less predictable.
+information available to make useful predictions on them; [butterfly
+effects](https://en.wikipedia.org/wiki/Butterfly_effect)start kicking
+in in systems that are relatively slow moving on human timescales (thus
+easier to predict on medium timescales), but nearly completely random at
+the scale of decades and/or centuries; the questions asked about longer
+timescales are of a different kind and much less predictable.
 
 <!--TODO: in 1/2/5/10 years, will the linear regression coefficients for
 these datasets still be positive/negative?-->

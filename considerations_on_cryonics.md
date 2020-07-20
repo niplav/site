@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-07-03, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-07-20, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -553,9 +553,9 @@ The Wikipedia page on VSL
 insurance plans worldwide use to determine whether to cover a new medical
 procedure". This number seems like a good conservative estimate.
 
-Interestingly, this approximately equals a year of waking hours worth
-the minimum wage (`$\$10*16*7*52=\$58240$`)<!--TODO: find source for
-the minimum wage in different countries!-->.
+Interestingly, this approximately equals a year of waking hours
+worth the minimum wage (`$\$10*16*7*52=\$58240$`)<!--TODO: add
+https://en.wikipedia.org/wiki/List_of_minimum_wages_by_country-->.
 
 Intuitively, the probability distribution over the value of a year of
 life in the future should then look like this:
