@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-07-20, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-07-22, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -346,6 +346,9 @@ Texts
 * Auras as synesthesia between visual perception and emotional perception
 	* Maybe a survey?
 * Another view on takeoff speeds in relation to the shape of optimization-space
+	*	Maybe model with n-dimensional space with perlin noise,
+		depth of current search determines size of subspace
+		being searchable at the moment
 * Refactoring Rational Feelings
 	*	Relation between emotions, goals, strategy/planning, moral
 		development etc.
@@ -522,7 +525,7 @@ Texts
 * A History of Names
 * Skalpell Bizeps
 
-> 11-uhr-luft liegt rauh auf dem parkplatzboden.  in den ritzen des
+> 11-uhr-luft liegt rauh auf dem parkplatzboden. in den ritzen des
 asphalt streitet sich krepierender löwenzahn mit ausgeblichenen
 zigarettenstummeln um platz. abblätternde farbe liegt dazwischen,
 obwohl die altbauten noch ein paar hundert meter entfernt liegen.
@@ -550,7 +553,7 @@ Data Sets
 Collect data on
 
 * Bag Spreading
-* Masturbation Spacing
+* Hedonic Masturbation Spacing
 * [Daygame](./daygame_cost_benefit.html#Appendix-C-Empirically-Checking-the-Assumptions)
 * [Masturbation and Attractiveness](./masturbation_and_attractiveness.html#Method)
 * [Subjective Life Expectancy](./estimated_life_expectancy.html#Data-Collection-Method)
@@ -660,7 +663,7 @@ Programming
 		* Join	⋈	><
 		* Expected value	𝔼	|E
 		* Real numbers	ℝ	|R
-		* Integers        ℤ       |Z
+		* Integers	ℤ	|Z
 		* Natural numbers	ℕ	|N
 		* Triple e	≡	3=
 		* Approximately e	≈	~~
@@ -706,7 +709,7 @@ Programming
 		(string separated from the others with a newline/space)
 		beginning with `<word2>`
 	*	no input for more than half a second/a second shows a suggestion
-	        of the last command beginning with the current line.
+		of the last command beginning with the current line.
 	* ideas for speeding it up:
 		* use `char**` for storing each history and words
 		* benchmark and optimise, of course
@@ -885,9 +888,9 @@ Programming
 * dc 9base manpage:
 	* typo in the order of operations in the manpage
 
-> \+  - /  *  %  ^
->      Add subtract multiply divide remainder or exponentiate the top
->      two values on the stack.
+> \+ - / * % ^
+>	Add subtract multiply divide remainder or exponentiate the top
+>	two values on the stack.
 
 ### Wikipedia Articles
 

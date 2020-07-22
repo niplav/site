@@ -626,7 +626,7 @@ Technological achievements mean that their theories turn out to be correct
 technologies on the basis of these theories. Low technological success
 could mean that they mostly use existing drugs to better treat existing
 conditions and manage to better identify extrem suffering (making
-the average affected person's life 2% better).  Medium technological
+the average affected person's life 2% better). Medium technological
 success would include them developing new drugs with a lower tolerance
 threshold<!--TODO: is this correctly phrased?-->, developing a correct
 theory of valence (but finding out that it has limited practical

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-07-20, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-07-22, language: english, status: notes, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
@@ -25,7 +25,7 @@ turns deadbeat, evict it.
 *– [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“Making Beliefs Pay Rent (in Anticipated Experiences)“](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences), 2007*
 
 <!--Maybe do the same thing with range
-predictions?  Metric could be one described in
+predictions? Metric could be one described in
 /usr/local/doc/unread/calibration_scoring_rules_for_practical_prediction_training_greenberg_2018.pdf-->
 <!--Add paragraph on the difference in quality between the two datasets,
 Metaculus better-->
@@ -37,7 +37,7 @@ https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting
 <!--Seems like a similar work:
 https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.12127-->
 
-[Probabilistic forecasting](https://en.wikiki_Probabilistic_forecasting)
+[Probabilistic forecasting](https://en.wikipedia.org/wiki/Probabilistic_forecasting)
 that aggregates both [qualitative and quantitative
 methods](https://en.wikipedia.org/wiki/Forecasting#Qualitative_vs._quantitative_methods)
 is a comparatively simple idea. Basically, one needs to have only very few tools at ones
@@ -616,7 +616,7 @@ and 75% of PredictionBook questions have a range of less than one year:
 	ymetss::ymetss@<ymetss
 		ymetss
 	[[0 34487] [1 7129] [2 2182] [3 507]]
-	        ypbss
+		ypbss
 	[[0 29724] [1 4257] [2 1966] [3 1491] [4 909] [5 374] [6 287] [7 155] [8 143] [9 107] [10 6]]
 		34487%(34487+7129+2182+507)
 	0.77839972915020878
@@ -630,7 +630,7 @@ PredictionBook), but still relevant:
 
 		10#dmetss
 	[[0 406] [1 543] [2 633] [3 464] [4 546] [5 477] [6 440] [7 307] [8 240] [9 297]]
-	        10#dpbss
+		10#dpbss
 	[[0 3267] [1 1142] [2 754] [3 611] [4 625] [5 426] [6 507] [7 440] [8 283] [9 246]]
 
 Because in the linear regression all datapoints are weighted equally,
@@ -737,19 +737,19 @@ interesting:
 
 		cor@dqmetbrier
 	-0.021357561237633882
-	        cor@+wqmetbrier
+		cor@+wqmetbrier
 	-0.0564522173076630489
-	        cor@+mqmetbrier
+		cor@+mqmetbrier
 	-0.134945120480158162
-	        cor@+yqmetbrier
+		cor@+yqmetbrier
 	-0.459895122605089935
-	        cor@+dqpbbrier
+		cor@+dqpbbrier
 	0.00977369255430785951
-	        cor@+wqpbbrier
+		cor@+wqpbbrier
 	0.0350359685890036469
-	        cor@+mqpbbrier
+		cor@+mqpbbrier
 	0.00195160822503737404
-	        cor@+yqpbbrier
+		cor@+yqpbbrier
 	-0.542853871095691028
 
 With a high resolution (looking at days and weeks, similarly months),
@@ -929,7 +929,12 @@ I can think of two reasons to do this:
 I mailed the support address on the site, asking for a full timeseries
 on resolved binary questions.
 
-<!--TODO: either update or become more penetrant-->
+After the support address had not responded to my inquiry, I contacted
+one of the admins of the site on the Discord, but was informed that
+updating the API would be too difficult to do (which is understandable,
+the Metaculus developers do not exist to cater to my whims, and are doing
+a phenomenal job). So, unfortunately I'll have postpone a more complete
+analysis to later.
 
 -------
 
@@ -959,9 +964,9 @@ We can also visualise the linear regression for each question by setting
 it to zero outside the range of the oldest and newest chunks:
 
 	sketch::{q::x;
-        setrgb(.rn();.rn();.rn());
-        pltr::{:[(x>**q)|x<**|q;0;lr(x;lreg(q))]};
-        plot(pltr)}
+	setrgb(.rn();.rn();.rn());
+	pltr::{:[(x>**q)|x<**|q;0;lr(x;lreg(q))]};
+	plot(pltr)}
 	sketch'pchsmetq
 
 ![Linear regressions for the accuracy of questions by range in chunks of size 50](./img/range_and_forecasting_accuracy/perquestion.png "Linear regressions for the accuracy of questions by range in chunks of size 50")
@@ -1035,7 +1040,7 @@ However, there are plausible reasons to expect the trend from 1. and 2.
 to reverse: The questions asked with very high range are not very
 different from questions with medium range, and have a lot less
 information available to make useful predictions on them; [butterfly
-effects](https://en.wikipedia.org/wiki/Butterfly_effect)start kicking
+effects](https://en.wikipedia.org/wiki/Butterfly_effect) start kicking
 in in systems that are relatively slow moving on human timescales (thus
 easier to predict on medium timescales), but nearly completely random at
 the scale of decades and/or centuries; the questions asked about longer

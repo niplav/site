@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-26, modified: 2019-11-14, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-09-26, modified: 2020-07-22, language: english, status: in progress, importance: 3, confidence: unlikely*
 
 > __People seem to derive happiness from compliments. Therefore,
 > altruistic consequentialists may be sometimes motivated to compliment
@@ -156,7 +156,7 @@ Emphasis mine.
 
 > This one girl liked my laugh. First off she told me it was
 > contagious. She then sometimes would just comment on how I can find
-> joy and amusement in the smallest things and such. […]  They're [the
+> joy and amusement in the smallest things and such. […] They're [the
 > compliments] unforgettable, because __as a guy, I find it very hard to
 > receive complements more than one or twice a year when you're not fishing
 > for them__. Especially ones not relating to your new sweater but things
@@ -210,8 +210,8 @@ comment about that.
 <!--TODO: Collect all top-level comments on these threads, analyse them
 after mentioning age/gender/race/relative status of the compliment-giver
 and the compliment-receiver, and the time-frame of the worth of the
-compliment. Compare them.  Data source: Reddit search for "compliment",
-"best compliment", "top compliment", analyse first 10 threads.  Other
+compliment. Compare them. Data source: Reddit search for "compliment",
+"best compliment", "top compliment", analyse first 10 threads. Other
 datapoints worth considering: was it taken as advice, which situation
 (acquaintance, stranger, unknown)-->
 
