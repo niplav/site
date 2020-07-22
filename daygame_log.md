@@ -58,7 +58,7 @@ girl blew out the compliment.
 #### Approaches
 
 1.	French girl, went in directly. Didn't speak french with her,
-	english instead.  A mistake? Had a boyfriend.
+	english instead. A mistake? Had a boyfriend.
 
 #### Lessons
 

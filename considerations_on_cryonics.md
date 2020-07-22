@@ -441,7 +441,7 @@ I will assume that the cryonics member starts paying a CMS fee starting
 ### Preservation Cost
 
 There are several different methods of funding cryonics, the most
-popular of which seems to be life insurance.  I haven't spent much time
+popular of which seems to be life insurance. I haven't spent much time
 investigating the exact inner workings of life insurances, so I will
 make the assumption that the insurance companies price their products
 adequately, so one doesn't have much of a financial advantage by choosing
@@ -463,7 +463,7 @@ accurately price in the arrival date of LEV.
 I assume that the person considering signing up lives outside of the
 U.S (but not in China), since a lot more people live outside the U.S
 than inside of it. I also assume that the person wants to sign up for
-neurocryopreservation.  With these assumptions, the function that returns
+neurocryopreservation. With these assumptions, the function that returns
 preservation costs becomes quite simple:
 
 	function pres_cost(age)
@@ -697,7 +697,7 @@ can speculate that very similar facts will also hold for the future
 (becoming increasingly unlikely the further reuscitation lies in the
 future). There would certainly be a big culture shock in the future,
 but it seems not qualitatively different from the shock people have
-when they visit different countries today.  It is possible that future
+when they visit different countries today. It is possible that future
 societies might try to help people with this kind of future shock,
 but that is of course far from certain.
 

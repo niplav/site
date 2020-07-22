@@ -32,6 +32,7 @@ HTML=index.html \
 	rationalist_gods.html \
 	range_and_forecasting_accuracy.html \
 	tao_te_king.html \
+	toy_ai_takeoff_model.html \
 	two_people_on_a_planet.html \
 	utilitarian_compliments.html \
 	bp_chrono.html \
