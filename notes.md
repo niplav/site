@@ -789,3 +789,33 @@ intellectual progress ([Tomasik
 and thereby increasing the probability of [global catastrophic
 risks](https://en.wikipedia.org/wiki/Global_catastrophic_risk) through
 novel technologies.
+
+### Pseudocode for an Algorithm for Finding Supermaximal Repeats Using a Suffix Array
+
+[Abouelhoda et al.
+2002](doc/supermaximal_repeats_pseudo/the_enhanced_suffix_array_and_its_implications_to_genome_analysis_abouelhoda_et_al_2002.pdf "The Enhanced Suffix Array and Its Applications to Genome Analysis")
+introduce the enhanced suffix array and describe an algorithm for finding
+[supermaximal repeats](https://en.wikipedia.org/wiki/Maximal_pair) and
+maximum unique matches using it in `${\cal{O}}(n)$` time (`$n=|S|$`,
+where `$S$` is the string searched). However, their description lacks
+pseudocode, which I show here:
+
+	maxstart ← 0
+	result ← ∅
+	for i in 0..n − 1 do
+		if lcptab[i] > lcptab[i − 1] and i > 0 then
+			maxstart ← i
+			supmaxrep ← true
+			preceding ← ∅
+		else if lcptab[i] < lcptab[i − 1] and  supmaxrep then
+			ω ← S[suftab[i − 1]..suftab[i − 1] + lcptab[i − 1]]
+			result ← result ∪ {(ω, maxstart, i − 1)}
+			supmaxrep ← false
+		end if
+		if bwttab[i] ∈ preceding then
+			supmaxrep ← false
+		else
+			preceding ← preceding ∪ bwttab[i]
+		end if
+	end for
+	return result
