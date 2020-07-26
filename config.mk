@@ -24,6 +24,7 @@ HTML=index.html \
 	estimated_life_expectancy.html \
 	exercise_log.html \
 	haiku.html \
+	jazz_piano_book_exercises.html \
 	masturbation_and_attractiveness.html \
 	metamodernistisches_manifest.html \
 	naive_set_theory_solutions.html \

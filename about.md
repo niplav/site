@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-07-13, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2020-07-25, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -289,9 +289,9 @@ is used for MathJax and converting headers to anchor links.
 This site is greatly influenced by several websites: The
 style of organisation and presentation is shamelessly
 influenced by [gwern.net](https://www.gwern.net) and
-[reducing-suffering.org](https://reducing-suffering.org/) (although
-achieving similar quality in content, breadth and depth will
-be diffficult to achieve). I try to follow the concept of [Long
+[reducing-suffering.org](https://reducing-suffering.org/)
+(although achieving similar quality in content, breadth and
+depth will be diffficult). I try to follow the concept of [Long
 Content](https://www.gwern.net/About#long-content) and extensive
 presentation.
 
@@ -306,6 +306,8 @@ epistemology](https://plato.stanford.edu/entries/epistemology-bayesian/),
 nominalism](https://plato.stanford.edu/entries/nominalism-metaphysics/),
 [reductionism](https://en.wikipedia.org/wiki/Reductionism) and [scientific
 naturalism](https://plato.stanford.edu/entries/naturalism/#MetNat).
+
+![You're a sound rationalist, aren't you?](./img/about/sound_rationalist.jpg "You're a sound rationalist, aren't you?")
 
 My views on ethics are very similar to
 (and influenced by) the idea of [suffering focused
@@ -323,7 +325,7 @@ The author
 
 ### Pronouns
 
-I'm most happy with they/them and he/him.
+I'm most happy with they/them.
 
 ### Elsewhere on the Internet
 
