@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-07-23, modified: 2020-07-25, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2020-07-23, modified: 2020-07-27, language: english, status: draft, importance: 2, confidence: log*
 
 > __[The Jazz Piano
 Book](https://en.wikipedia.org/wiki/The_Jazz_Piano_Book) by [Mark
@@ -17,7 +17,7 @@ Introduction
 
 ### Chapter One
 
-> The chart that follows shos all the intervals, both ascending
+> The chart that follows shows all the intervals, both ascending
 and descending, as they occur in tunes from the standard jazz
 repertoire. […] Play each example and *sing* the interval. […]
 Listen carefully to all the voicings in the examples.
@@ -28,3 +28,9 @@ I usually just hit a random note on the keyboard and try to sing the
 next interval starting from that note, iterating through the intervals.
 
 <!--TODO: Image of all possible intervals here-->
+
+> Practice singing the intervals, both ascending and descending. Sing
+the melody, or "head," of standards, bebop, and other jazz tunes while
+listening to records.
+
+*– p. 9*
