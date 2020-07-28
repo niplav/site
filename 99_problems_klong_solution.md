@@ -2419,6 +2419,13 @@ This solution is still longer than the filtering version, but can generate the t
 
 For `x` = 15, the number of trees is 1553.
 
+#### Generating AVL Trees
+
+A height-balanced tree is also called an [AVL
+tree](https://en.wikipedia.org/wiki/AVL_tree). Due to this, the algorithms
+above constitute solutions to the problem of generating all AVL trees with
+`n` nodes.
+
 ### P61 (*) Count the leaves of a binary tree.
 
 A node in the list is a leaf if both its subnodes are the empty list.
