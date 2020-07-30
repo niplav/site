@@ -17,19 +17,35 @@ def randrange(n, vmin, vmax):
 fig = plt.figure()
 
 ax = fig.gca(projection='3d')
-n = 100
 
-xs = randrange(n, 0, 100)
-ys = randrange(n, 0, 100)
-zs = randrange(n, 0, 100)
-the_fourth_dimension = randrange(n,0,100)
+xs=np.array((size*size)*list(range(0,size)))
 
-colors = cm.hsv(the_fourth_dimension/max(the_fourth_dimension))
+ys=[]
+for i in range(0, size):
+	ys+=size*[i]
+ys*=size
+ys=np.array(ys)
+zs=[]
+for i in range(0, size):
+	zs+=size*size*[i]
+zs=np.array(zs)
+
+fs=np.zeros([size**3])
+
+for i in range(0, size**3):
+	fs[i]=space[xs[i],ys[i],zs[i]]
+
+# xs = randrange(n, 0, 100)
+# ys = randrange(n, 0, 100)
+# zs = randrange(n, 0, 100)
+# fs = randrange(n,0,100)
+
+colors = cm.hsv(fs/max(fs))
 
 colmap = cm.ScalarMappable(cmap=cm.hsv)
-colmap.set_array(the_fourth_dimension)
+colmap.set_array(fs)
 
-yg = ax.scatter(xs, ys, zs, c=colors, marker='o')
+yg = ax.scatter(xs, ys, zs, c=colors, marker='.')
 cb = fig.colorbar(colmap)
 
 ax.set_xlabel('X Label')
@@ -38,14 +54,3 @@ ax.set_zlabel('Z Label')
 
 plt.savefig("threedim.png")
 plt.close()
-
-exit()
-
-fig=plt.figure()
-ax=fig.gca(projection='3d')
-X=np.arange(0,size,1)
-Y=np.arange(0,size,1)
-X,Y=np.meshgrid(X,Y)
-surf=ax.plot_surface(X,Y,space, cmap=cm.coolwarm)
-ax.set_zlim(0,2*maxval)
-fig.colorbar(surf, shrink=0.5, aspect=5)

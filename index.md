@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2020-06-15, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2020-07-29, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -48,12 +48,17 @@ Writing
 * [Considerations on Cryonics](./considerations_on_cryonics.md)
 * [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.md)
 
+#### Collections
+
+* [Rationalist Gods](./rationalist_gods.md)
+* [Exercises for “The Jazz Piano Book”](./jazz_piano_book_exercises.md)
+
 #### Other
 
+* [Against Applause After Classical Concerts](./against_applause.md)
+* [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.md)
 * [Range And Forecasting Accuracy](./range_and_forecasting_accuracy.md)
 * [Two People on a Planet](./two_people_on_a_planet.md)
-* [Rationalist Gods](./rationalist_gods.md)
-* [Against Applause After Classical Concerts](./against_applause.md)
 * [Notes](./notes.md)
 
 ### Fiction
