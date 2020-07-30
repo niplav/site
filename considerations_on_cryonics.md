@@ -499,13 +499,7 @@ year when one will sign up, and the probability of then dying before LEV.
 
 Here, I will only take [point
 estimates](https://en.wikipedia.org/wiki/Point_estimation) of these
-values. Perhaps a Monte-Carlo simulation would be more appropriate,
-but one can use my current implementation provides a starting-point. As
-one can see, I will not do any time-discounting on the value of future
-life-years. <!--TODO: find a link that explains why time discounting
-for future life years is probably misguided, Greaves has a survey paper
-about this, right?-->
-<!--Also talk about no diminishing returns on additional life years-->
+values.
 
 ### Value of a Lifeyear in the Future
 
@@ -542,6 +536,35 @@ would take the current state of affairs as neutral, with improvements
 in happiness, meaning and wealth to be positive, and decreases in
 those to be negative. Also, they don't see dying tomorrow as a neutral
 event.
+
+#### Caveats
+
+Here I will assume that
+
+*	Future life years can be averaged in their quality, and that
+	average has monetary value
+*	Future lifeyears are not [temporally
+	discounted](https://en.wikipedia.org/wiki/Time_preference#Temporal_discounting),
+	i.e a lifeyear 1000 years in the future is as valuable as the
+	next lifeyear
+*	There are no [diminishing marginal
+	returns](https://en.wikipedia.org/wiki/Diminishing_returns)
+	to lifeyears, i.e 1000 life years are 1000 times as valuable as
+	one lifeyear
+
+These are presumably controversial assumptions, but they simplify the
+analysis. I will continue to read about philosophers' and economists'
+analyses of the relation between additional lifeyears and utility,
+and update this section.
+
+<!--Discounted utility-->
+
+<!--TODO: find a link that explains why time discounting for future life
+years is probably misguided, Greaves has a survey paper about this,
+right?--> <!--Also talk about no diminishing returns on additional
+life years-->
+
+#### QALYs and VSL
 
 There are two different methods of putting a value on human life:
 the [VSL](https://en.wikipedia.org/wiki/Value_of_life) and the

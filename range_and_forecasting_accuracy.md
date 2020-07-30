@@ -1052,3 +1052,11 @@ these datasets still be positive/negative?-->
 I hope to update this analysis in the future, when data from predictions
 with higher ranges has become available, and to check whether the findings
 in this analysis continue to be correct.
+
+Miscellaneous
+-------------
+
+The code for image generation can be found
+[here](./code/range_and_forecasting_accuracy/draw_all.kg),
+the complete code for analyzing the data can be found
+[here](./code/range_and_forecasting_accuracy/load.kg).
