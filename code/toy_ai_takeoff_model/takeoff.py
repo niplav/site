@@ -15,6 +15,14 @@ def fill_space(space, dim, size, minval, maxval):
 	n_diam_square_rec(space, dim, offset, size, minval, maxval)
 	return space
 
+def get_cornerspos(dim):
+	cornerspos=[('{0:0'+str(dim)+'b}').format(i) for i in range(2**dim)]
+	cornerspos=[list(i) for i in cornerspos]
+	cornerspos=list(map((lambda x: list(map(int, x))), cornerspos))
+	cornerspos=np.array(cornerspos)
+
+	return cornerspos
+
 def n_diam_square_rec (space, dim, offset, size, minval, maxval):
 	if size==1:
 		return
@@ -27,10 +35,7 @@ def n_diam_square_rec (space, dim, offset, size, minval, maxval):
 	else:
 		b=0
 
-	cornerspos=[('{0:0'+str(dim)+'b}').format(i) for i in range(2**dim)]
-	cornerspos=[list(i) for i in cornerspos]
-	cornerspos=list(map((lambda x: list(map(int, x))), cornerspos))
-	cornerspos=np.array(cornerspos)
+	cornerspos=get_cornerspos(dim)
 	corners=np.array([(i*(size-b))+offset for i in cornerspos])
 
 	cornersum=0
@@ -42,7 +47,7 @@ def n_diam_square_rec (space, dim, offset, size, minval, maxval):
 
 	nsize=size//2
 
-	# Recursive diamond step here (dim times)
+	# Recursive square step here (dim times)
 	explored=np.array([False]*dim)
 
 	for i in range(0,dim):
@@ -51,62 +56,57 @@ def n_diam_square_rec (space, dim, offset, size, minval, maxval):
 		ncenter2=np.array(center)
 		ncenter1[i]=ncenter1[i]+nsize
 		ncenter2[i]=ncenter2[i]-nsize
-		diamond_rec(space, ncenter1, dim-1, nsize, explored, round(minval*extrfact), round(maxval*extrfact))
-		diamond_rec(space, ncenter2, dim-1, nsize, explored, round(minval*extrfact), round(maxval*extrfact))
+		square_rec(space, ncenter1, dim-1, nsize, explored, round(minval*extrfact), round(maxval*extrfact))
+		square_rec(space, ncenter2, dim-1, nsize, explored, round(minval*extrfact), round(maxval*extrfact))
 		explored[i]=False
 
 	# Recursive square step
-	for pos in cornerspos:
+	for pos in get_cornerspos(dim):
 		noffset=(pos*nsize)+offset
 		n_diam_square_rec(space, dim, noffset, nsize, round(minval*extrfact), round(maxval*extrfact))
 
-# TODO: using len(explored) to mean the dimension is questionable
-
-def diamond_rec(space, center, dim, size, explored, minval, maxval):
+def square_rec(space, center, dim, size, explored, minval, maxval):
 	# Field already assigned or dimension is 0
 	# Only a heuristic, use {True, False}^dim instead?
-	if dim==0 or space[tuple(center)]!=0:
+	if all(explored) or space[tuple(center)]!=0:
 		return
 
-	# Actually assign diamond-based values
+	# Actually assign square-based values
 	counter=0
-	diamondsum=0
-	diamondpos=np.array(center)
+	squaresum=0
+	squarepos=np.array(center)
 
-	for i in range(0, len(explored)):
-		tmp=diamondpos[i]
-		ndp1=diamondpos[i]+size
-		ndp2=diamondpos[i]-size
+	for i in range(0, dim):
+		tmp=squarepos[i]
+		ndp1=squarepos[i]+size
+		ndp2=squarepos[i]-size
 		if 0<=ndp1<len(space):
-			diamondpos[i]=ndp1
-			diamondsum+=space[tuple(diamondpos)]
+			squarepos[i]=ndp1
+			squaresum+=space[tuple(squarepos)]
 			counter+=1
 		if 0<=ndp2<len(space):
-			diamondpos[i]=ndp2
-			diamondsum+=space[tuple(diamondpos)]
+			squarepos[i]=ndp2
+			squaresum+=space[tuple(squarepos)]
 			counter+=1
-		diamondpos[i]=tmp
+		squarepos[i]=tmp
 
-	val=(diamondsum/counter)+random.randint(minval, maxval)
+	val=(squaresum/counter)+random.randint(minval, maxval)
 	space[tuple(center)]=val
 
 	# Recurse
-	for i in range(0, len(explored)):
+	for i in range(0, dim):
 		if not explored[i]:
 			explored[i]=True
-
-			# Possibly beware by-reference passing here!
-
 			ncenter1=np.array(center)
 			ncenter2=np.array(center)
 			ncv1=ncenter1[i]+size
 			ncv2=ncenter2[i]-size
 			if ncv1>=0:
 				ncenter1[i]=ncv1
-				diamond_rec(space, ncenter1, dim-1, size, explored, round(minval*extrfact), round(maxval*extrfact))
+				square_rec(space, ncenter1, dim, size, explored, round(minval*extrfact), round(maxval*extrfact))
 			if ncv2>=0:
 				ncenter2[i]=ncv2
-				diamond_rec(space, ncenter2, dim-1, size, explored, round(minval*extrfact), round(maxval*extrfact))
+				square_rec(space, ncenter2, dim, size, explored, round(minval*extrfact), round(maxval*extrfact))
 			explored[i]=False
 
 def climb(space, pos, size, dim):
@@ -133,7 +133,6 @@ def climb_dim(space, pos, size, dim):
 
 def climb_hypcub(space, pos):
 	"""Look one unit-hypercube around, choose maximum."""
-
 	return pos
 
 def search_around(space, pos, size, dim, intelligence):
@@ -159,7 +158,16 @@ minval=0
 maxval=255
 lognormm=2
 lognormvar=5
+
 space=np.zeros([size]*dim)
+
+# Initialize corner values
+
+cornerspos=get_cornerspos(dim)
+corners=np.array([(i*(size-1)) for i in get_cornerspos(dim)])
+
+for c in corners:
+	space[tuple(c)]=random.randint(minval, maxval)
 
 fill_space(space, dim, size, minval, maxval)
 
@@ -176,5 +184,6 @@ for i in range(0,rounds):
 	print(space[tuple(pos)])
 	print(intelligence)
 	print("------------")
+
 	pos=climb(space, pos, size, dim)
 	pos=search_around(space, pos, size, dim, intelligence)
