@@ -7,8 +7,6 @@ from pylab import *
 import matplotlib.pyplot as plt
 import numpy as np
 
-# TODO: finish this sometime else
-
 exec(open("takeoff.py").read())
 
 def randrange(n, vmin, vmax):
@@ -34,11 +32,6 @@ fs=np.zeros([size**3])
 
 for i in range(0, size**3):
 	fs[i]=space[xs[i],ys[i],zs[i]]
-
-# xs = randrange(n, 0, 100)
-# ys = randrange(n, 0, 100)
-# zs = randrange(n, 0, 100)
-# fs = randrange(n,0,100)
 
 colors = cm.hsv(fs/max(fs))
 
