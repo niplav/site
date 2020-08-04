@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-07-20, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-08-04, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -541,6 +541,12 @@ event.
 
 Here I will assume that
 
+*	One can exclude future life years with astronomically high values.
+	Although these deserve further consideration,
+	they are avoided to in order to prevent [Pascal's
+	mugging](https://en.wikipedia.org/wiki/Pascal's_mugging)-like
+	arguments. Also, they might have quite small probabilities, and
+	may be even harder to forecast than naive success from cryonics
 *	Future life years can be averaged in their quality, and that
 	average has monetary value
 *	Future lifeyears are not [temporally
@@ -549,20 +555,50 @@ Here I will assume that
 	next lifeyear
 *	There are no [diminishing marginal
 	returns](https://en.wikipedia.org/wiki/Diminishing_returns)
-	to lifeyears, i.e 1000 life years are 1000 times as valuable as
-	one lifeyear
+	to lifeyears, i.e 1000 additional life years are 1000 times as
+	valuable as one additional lifeyear
 
-These are presumably controversial assumptions, but they simplify the
-analysis. I will continue to read about philosophers' and economists'
-analyses of the relation between additional lifeyears and utility,
-and update this section.
+[Greaves
+2017](./doc/considerations_on_cryonics/discounting_future_health_greaves_2017.pdf "Discounting future health")
+argues against pure positive discounting for health (i.e QALYs):
 
-<!--Discounted utility-->
+> A discount rate should be applied to future health for two
+reasons. First, to correct for the possibility that the beneficial
+future effects of a proposed health intervention, in the relevant
+sense of 'effect', are smaller than the model's naïve calculation
+suggests. Second, to take into account the fact that earlier health
+benefits are generally more instrumentally valuable than otherwise-equal
+later ones.
+>  
+> In both cases, the use of a discount rate for future health is not
+the only way to model the effects in question. Alternatively, one could
+(i) explicitely represent the various possible actual effects of one's
+intervention and their probabilities, and perform a corresponding explicit
+expected-value calculation, eschewing the use of the 'naïve calculation'
+as an estimaate of effects on future health, and (ii) explicitely model
+the instrumental as well as the intrinsic benefits of health improvements
+one is considering. If one did both of those things, there would be no
+reasons of the kinds we have accepted for discounting future health.
 
-<!--TODO: find a link that explains why time discounting for future life
-years is probably misguided, Greaves has a survey paper about this,
-right?--> <!--Also talk about no diminishing returns on additional
-life years-->
+*– Hilary Greaves<!--TODO: link-->, [“Discounting future health”](./doc/considerations_on_cryonics/discounting_future_health_greaves_2017.pdf) p. 7, 2017*
+
+She also argues against applying considerations from diminishing marginal
+returns to health (although it must be caveat that this analysis does
+not use explicit QALY numbers for cryonics, since they have not been
+collected by healthcare departments yet):
+
+> this does not give rise to any phenomenon of diminishing
+marginal returns of health to well-being when units of health are
+measured in QALYs, because the QALY scale has already more-or-less
+been constructed to be linear in well-being. There is therefore
+no reason based in considerations of diminishing marginal returns
+to discount future QALYs.
+
+*– Hilary Greaves<!--TODO: link-->, [“Discounting future health”](./doc/considerations_on_cryonics/discounting_future_health_greaves_2017.pdf) p. 3, 2017*
+
+Additionally, problems with interpersonal utility comparison do not apply
+in this case, since the externalities from signing up for cryonics are
+disregarded in this analysis.
 
 #### QALYs and VSL
 
@@ -571,7 +607,7 @@ the [VSL](https://en.wikipedia.org/wiki/Value_of_life) and the
 [QALY](https://en.wikipedia.org/wiki/Quality-adjusted_life_year).
 The Wikipedia page on VSL
 [lists](https://en.wikipedia.org/wiki/Value_of_life#Estimates_of_the_value_of_life)
-\$182000 for the value of a year of life in Australia, and \$50000 as the
+\$181893 for the value of a year of life in Australia, and \$50000 as the
 "de facto international standard most private and government-run health
 insurance plans worldwide use to determine whether to cover a new medical
 procedure". This number seems like a good conservative estimate.

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-07-20, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2020-08-04, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -1051,16 +1051,12 @@ it'd be good to make a Monte-Carlo version of the model using the website
 
 The model can be found [here](https://www.getguesstimate.com/models/15526).
 
-<!--
 ### Inputs
--->
 
-<!--
 Appendix B: A Slightly More Complex Guesstimate Model of the Value
 ------------------------------------------------------------------
 
 ### Inputs
--->
 
 Appendix C: Empirically Checking the Assumptions
 ------------------------------------------------

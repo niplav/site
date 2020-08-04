@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-07-22, modified: 2020-07-31, language: english, status: draft, importance: 7, confidence: unlikely*
+*author: niplav, created: 2020-07-22, modified: 2020-08-04, language: english, status: draft, importance: 7, confidence: unlikely*
 
 > __In [AI safety](https://en.wikipedia.org/wiki/AI_control_problem),
 significant time has been spent on the question of
@@ -10,12 +10,10 @@ the intelligence of AI systems over time, especially during
 An underappreciated argument in the debate has been the idea that the more
 intelligent an AI system becomes, the better it can search the space of
 possible optimization algorithms. This post proposes a computational model
-of this process by creating a search space using the [diamond-square
-algorithm](https://en.wikipedia.org/wiki/Diamond-square_algorithm)
-generalized to n dimensions and then running a very simple
-[hill-climbing](https://en.wikipedia.org/wiki/Hill_climbing) algorithm
-and brute-force search on that space. Possible further improvements to
-the model are suggested, and implications are discussed.__
+of this process by creating an n-dimensional search space and then running
+a very simple [hill-climbing](https://en.wikipedia.org/wiki/Hill_climbing)
+algorithm and brute-force search on that space. Possible further
+improvements to the model are suggested, and implications are discussed.__
 
 An Exploratory Toy AI Takeoff Model
 ===================================
@@ -65,7 +63,7 @@ searching the space of possible optimization algorithms for stronger ones.
 In the model, there are three possible ways of an AI improving its
 intelligence:
 
-* By working and investing a part of the money to buy more hardware (e.g. by a cloud provider). This should growth roughly exponentially, at a similar speed to the [Gross World Product](https://en.wikipedia.org/wiki/Gross_world_product#Recent_growth)
+* By working and investing a part of the money to buy more hardware (e.g. by a cloud provider). This should grow roughly exponentially, at a similar speed to the [Gross World Product](https://en.wikipedia.org/wiki/Gross_world_product#Recent_growth) (although the model does not consider wall-clock time)
 * By performing a very simple [hill-climbing](https://en.wikipedia.org/wiki/Hill_climbing) algorithm in the space of possible optimization algorithms, such as rewriting parts of its source code in [assembly language](https://en.wikipedia.org/wiki/Assembly_language) or making trivial small performance improvements
 * By [brute-force searching](https://en.wikipedia.org/wiki/Brute-force_search) the space of possible optimization algorithms, possibly in the vincinity of the current algorithm
 
@@ -73,6 +71,65 @@ intelligence:
 
 The Argument
 ------------
+
+The argument presented has the following premises:
+
+* There exists a property of algorithms called “__optimization power__”
+	* Optimization power describes (among other things) the ability of an algorithm to search a search space quickly and efficiently
+* There is a space of algorithms, and each algorithm in that space can be given a number according to its optimization power
+* The space of algorithms has certain properties
+	* There are algorithms that have positive optimization power (>0)
+	* There are algorithms that have vastly more optimization power than others
+
+If these premises are accepted, it is possible for some search spaces to
+construct an algorithm that attempts to find the best algorithm according
+to its optimization power:
+
+* Start with an algorithm with optimization power >0
+* Let the algorithm search part of the search space for a better algorithm
+	* If it finds one, it modifies itself to become that better algorithm
+	* Else it does nothing
+*	If it has searched the whole search space (or has proved that no
+	better algorithm can exist), it stops the search
+* The algorithm acquires some more resources such as computing power
+
+This can be visualized quite nicely when one imagines the search space
+to be one-dimensional with arbitrary values (or perhaps its Gödel
+number<!--TODO: wiki link-->)on both axes (which is of course not the
+case in reality):
+
+![A jagged graph with a maximum in the middle, a vertical red line at the minimum at the left, and a small horizontal orange line on top of it, T-shaped](./img/toy_ai_takeoff_model/search_step_2.png "A jagged graph with a maximum in the middle, a vertical red line at the minimum at the left, and a small horizontal orange line on top of it, T-shaped")
+
+At the first step in the optimization process, the algorithm is very
+weak and can only search a small portion of the space.
+
+![The same graph with the two lines, and a lighter orange vertical line on top of the darker orange one. A wider horizontal yellow line on top of the light orange line](./img/toy_ai_takeoff_model/search_step_4.png "The same graph with the two lines, and a lighter orange vertical line on top of the darker orange one. A wider horizontal yellow line on top of the light orange line")
+
+At the second step in the optimization process, the algorithm is slightly
+better than before and already defeating a local maximum.
+
+![The same graph with the lines as before, but now an even higher light green vertical, wider dark green line on top, the whole constellation forming a “stair-like” pattern](./img/toy_ai_takeoff_model/search_step_6.png "The same graph with the lines as before, but now an even higher light green vertical, wider dark green line on top, the whole constellation forming a “stair-like” pattern")
+
+The algorithm is now much stronger, and exploring a sizeable fraction
+of the search space.
+
+![Same image as before, with a dark-green line on top of the highest horizontal one, now reaching the global maximum](./img/toy_ai_takeoff_model/search_step_7.png "Same image as before, with a dark-green line on top of the highest horizontal one, now reaching the global maximum")
+
+It has now practically found the global maximum.
+
+The height of the vertical bar indicates the optimization power of
+the current optimization process, while the width of the vertical bar
+indicates the portion of the space searched by the current algorithm.
+For simplicity, the current algorithm searches in its own vincinity,
+which also might be a good heuristic (since similar algorithms might
+have similar properties). The width of the horizontal bar increases as
+the current optimization algorithm becomes stronger and stronger, which
+leads to bigger subspaces being searched and in turn better algorithms
+being found.
+
+However, a conceptual argument is not sufficient here. It would be
+advantageous to test whether a similarly explosive effect occurs in
+higher-dimensional spaces with different characteristics.
 
 The Model
 ---------
@@ -155,7 +212,6 @@ https://en.wikipedia.org/wiki/Brownian_surface
 https://en.wikipedia.org/wiki/Fractal_landscape
 https://en.wikipedia.org/wiki/Fractional_Brownian_motion
 https://en.wikipedia.org/wiki/Gradient_descent
-https://en.wikipedia.org/wiki/Hill_climbing
 https://en.wikipedia.org/wiki/Newton%27s_method
 https://en.wikipedia.org/wiki/OpenSimplex_noise
 https://en.wikipedia.org/wiki/Perlin_noise
@@ -163,4 +219,3 @@ https://en.wikipedia.org/wiki/Simplex_noise
 https://github.com/buckinha/DiamondSquare
 https://nullprogram.com/blog/2007/11/20/
 -->
-

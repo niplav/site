@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-07-26, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2020-08-04, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,7 +11,9 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Django Unchained](https://www.imdb.com/title/tt1853728/)
 * [The Matrix](https://www.imdb.com/title/tt0133093/)
+* [Star Wars: Episode V - The Empire Strikes Back]()<!--TODO: add link-->
 * [Star Wars: Episode IV - A New Hope](https://www.imdb.com/title/tt0076759/)
 * [Akira](https://www.imdb.com/title/tt0094625/)
 * [Star Wars: Episode III - Revenge of the Sith](https://www.imdb.com/title/tt0121766/)
