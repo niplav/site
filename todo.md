@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-07-29, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-08-04, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -327,7 +327,7 @@ Texts
 * Encoding Conditionals Using Modulo
 * Extracting Probabilities from Stock Markets
 * Population Ethics Test Suite
-	* Look at comments on An Impossibility Theorem for Welfarist Axiologies (Gustaf Arrhenius, 2000)
+	* Look at comments on “An Impossibility Theorem for Welfarist Axiologies” (Arrhenius 2000)
 * Three-level population ethics
 	* Symmetrical critical level
 	* If any life below -critlevel, level 3
@@ -355,8 +355,11 @@ Texts
 * Refactoring Rational Feelings
 	*	Relation between emotions, goals, strategy/planning, moral
 		development etc.
-* Yang Wenlin and Reinhard von Lohengramm – Taoism and Confucianism?
+* Yang Wenli and Reinhard von Lohengramm – Taoism and Confucianism?
 	* Yang's "Win without fighting" is Wu Wei
+* The Argument from Explanation of Intuition
+	* When you explain an intuition by its causal origin (e.g. a moral
+	one by evolutionary psychology), it often uses its bite
 
 ### Collections
 
@@ -384,7 +387,6 @@ Texts
 		* /usr/local/doc/unread/notation/notation\_as\_a\_tool\_of\_thought\_iverson\_1986.pdf
 	* Substitution of variables in formulas: order is _bad_ & _wrong_
 * Cryonics in Germany FAQ
-* All Exercises from “The Jazz Piano Book”
 * Trigger Action Plans
 * Recommendations
 	* Activities/Movies/Series/Podcasts/Books/Blogposts

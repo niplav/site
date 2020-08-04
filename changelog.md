@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-07-25, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2020-08-04, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -13,6 +13,8 @@ July 2020
 
 ### Writing
 
+* Started [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.html)
+* Started the [Exercises for “The Jazz Piano Book”](./jazz_piano_book_exercises.html)
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 	* [Results Between Questions](./range_and_forecasting_accuracy.html#Results_1)
 	* [Accuracy Within Questions](./range_and_forecasting_accuracy.html#Accuracy-Within-Questions)

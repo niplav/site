@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2020-07-25, language: english, status: in progress, importance: 2, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2020-08-04, language: english, status: in progress, importance: 2, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -33,6 +33,9 @@ Abstract
 Members of the [NoFap community](https://en.wikipedia.org/wiki/NoFap) frequently claim that
 male physical attractiveness is causally influenced by the frequency
 and duration since the last occurence of masturbation.
+
+<!--TODO: take "would be a shame" image from
+https://slatestarcodex.com/2013/10/20/the-anti-reactionary-faq/-->
 
 I present a method to test this claim (albeit imperfectly) by approaching
 200 people in the street after 90 days of abstinence from masturbation
