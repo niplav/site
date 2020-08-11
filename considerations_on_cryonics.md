@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-08-04, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-08-08, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -55,6 +55,15 @@ Why not a Pascal's mugging?
 * No adversary
 * Probability not _that_ low
 * Here assumed rather low bound on payoff to prevent
+-->
+
+<!--
+Death causes by age:
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310039401&pickMembers%5B0%5D=2.1&pickMembers%5B1%5D=3.1&cubeTimeFrame.startYear=2018&cubeTimeFrame.endYear=2018&referencePeriods=20180101%2C20180101
+https://www.advisory.com/daily-briefing/2019/01/16/deaths
+https://injuryfacts.nsc.org/all-injuries/deaths-by-demographics/deaths-by-age/data-details/
+https://www.worldlifeexpectancy.com/usa-cause-of-death-by-age-and-gender
+https://injuryfacts.nsc.org/all-injuries/deaths-by-demographics/deaths-by-age/data-details/
 -->
 
 > If I died, would I be rid of my senses?  
@@ -915,6 +924,67 @@ members about their arrangement, trying to lead a safe life and keeping
 contact to their cryonics organisation.
 
 	prob_pres=0.6
+
+### Quality of Preservation
+
+A common reason for cryocrastination seems to be the belief that deaths
+at an earlier age have causes that make successful cryopreservation less
+likely, and that it is therefore not worth it to sign up early.
+
+To determine whether this is correct, one can investigate the leading
+causes of death by age group and estimate their penalty on successful
+cryopreservation. Note that my medical knowledge is very slim, and I might
+be missing many obvious factors.
+
+I obtain the 10 leading causes of death by age group from [2018 CDC
+report](./doc/considerations_on_cryonics/10_leading_causes_of_death_by_age_group_cdc_2018.pdf "10 Leading Causes of Death by Age Group, United States – 2018").
+
+The causes of death, and their effect on successful cryopreservation
+(as a percentage; reduction in probability of successful reuscitation
+counterfactually to ideal conditions, e.g. controlled voluntary
+deanimation), as well as sometimes explanation for reasoning for the
+number:
+
+* <1 year:
+	* Cause 1: [Congenital Anomalies](https://en.wikipedia.org/wiki/Birth_defect): 70%; brain might already be damaged at birth, or become damaged during birth, but many deaths seem to be due to [congenital heart defects](https://en.wikipedia.org/wiki/Congenital_heart_defect), which only decreases oxygen supply, and [neural tube defect](https://en.wikipedia.org/wiki/Neural_tube_defect), which directly affets the nervous system and often the brain
+	* Cause 2: [Short Gestation](https://en.wikipedia.org/wiki/Gestation): 90%; might reduce damage to the brain because of smaller head, but also baby might be born already dead for a while
+	* Cause 3: [Pregnancy Complication](https://en.wikipedia.org/wiki/Complications_of_pregnancy): 75%
+	* Cause 4: [Sudden Infant Death Syndrome](https://en.wikipedia.org/wiki/Sudden_infant_death_syndrome): 50%; since death usually occurs during sleep, it might take quite a long time until death is noticed and cooling/cryopreservation is initiated
+	* Cause 5: [Accident/Unintentional Injury](https://en.wikipedia.org/wiki/Accident): 55%; see also [unintentional injuries in children worldwide](https://en.wikipedia.org/wiki/Preventable_causes_of_death#Among_children_worldwide), traffic accidents, falls and toxins seem to especially harmful to the brain
+	* Cause 6: Placenta Cord. Membranes (I didn't find the wikipedia page for this): 60%; but I have no clue what this is, just taking a guessed baserate
+	* Cause 7: [Bacterial Sepsis](https://en.wikipedia.org/wiki/Sepsis): 65%; the brain seems to be the second most commonly infected, after the lungs
+	* Cause 8: [Circulatory System Disease](https://en.wikipedia.org/wiki/Cardiovascular_disease): 80%; should be noted quickly, but problems with providing oxygen to brain
+	* Cause 9: [Respiratory Distress](https://en.wikipedia.org/wiki/Infant_respiratory_distress_syndrome): 70%; wikipedia says it may cause [intracranial hemmorhage](https://en.wikipedia.org/wiki/Intracranial_hemorrhage)
+	* Cause 10: [Neonatal hemorrhage](https://en.wikipedia.org/wiki/Subgaleal_hemorrhage): 40%; bleeding inside the brain & dying as a result is probably pretty bad
+* 1-4 years:
+	* Cause 1: [Accident/Unintentional Injury](https://en.wikipedia.org/wiki/Accident): 55%
+	* Cause 2: [Congenital Anomalies](https://en.wikipedia.org/wiki/Birth_defect): 75%; here already slightly less because if somebody survived one year, the damage can't be as subsantial
+	* Cause 3: [Homicide](https://en.wikipedia.org/wiki/Homicide): 50%; I didn't look for the exact causes of death in infant homicide (*shudder*), but a lot is probably very damaging to the brain and/or collateral to homicide in the rest of the family? Perhaps also by the infant being killed by parents (probably shaking/suffocation)
+	* Cause 4: [Malignant Neoplasms](https://en.wikipedia.org/wiki/Cancer): 60%; Wikipedia says that "In children, acute lymphoblastic leukemia and brain tumors are most common", death probably occurs in a hospital which makes the number not too low
+	* Cause 5: [Influenza](https://en.wikipedia.org/wiki/Influenza) and [Pneumonia](https://en.wikipedia.org/wiki/Pneumonia): 85%; seems to primarily damage the lungs, perhaps collateral brain damage due to lack of oxygen
+	* Cause 6: [Heart Disease](https://en.wikipedia.org/wiki/Cardiovascular_disease): 85%; similar to above
+	* Cause 7: [Perinatal Period](https://en.wikipedia.org/wiki/Prenatal_development#perinatal): 60%; This seems to just refer to a period in human fetal development and I don't understand why it is listed as a cause of death, so I'm taking the prior from above.
+	* Cause 8: [Septicemia](https://en.wikipedia.org/wiki/Sepsis): 65%; taken from bacterial sepsis above
+	* Cause 9: [Chronic Low. Respiratory Disease](https://en.wikipedia.org/wiki/Respiratory_disease): 85%; not sure what exactly this is referring to, so just taking the numbers from influenza and pneumonia
+	* Cause 10: [Cerebrovascular Disease](https://en.wikipedia.org/wiki/Cerebrovascular_disease): 30%; this directly affects the brain. Bad.
+* 5-9 years:
+	* Cause 1: [Accident/Unintentional Injury](https://en.wikipedia.org/wiki/Accident): 55%
+	* Cause 2: [Malignant Neoplasms](https://en.wikipedia.org/wiki/Cancer): 60%
+	* Cause 3: [Congenital Anomalies](https://en.wikipedia.org/wiki/Birth_defect): 75%
+	* Cause 4: [Homicide](https://en.wikipedia.org/wiki/Homicide): 50%
+	* Cause 5: [Influenza](https://en.wikipedia.org/wiki/Influenza) and [Pneumonia](https://en.wikipedia.org/wiki/Pneumonia): 85%
+	* Cause 6: [Chronic Low. Respiratory Disease](https://en.wikipedia.org/wiki/Respiratory_disease): 85%
+	* Cause 7: [Heart Disease](https://en.wikipedia.org/wiki/Cardiovascular_disease): 85%
+	* Cause 8: [Cerebrovascular Disease](https://en.wikipedia.org/wiki/Cerebrovascular_disease): 30%
+	* Cause 9: [Septicemia](https://en.wikipedia.org/wiki/Sepsis): 65%
+	* Cause 10: [Benign Neoplasms](https://en.wikipedia.org/wiki/Benign_tumor): 30%; if this leads to death, it usually happens in the brain: "Unlike most benign tumors elsewhere in the body, benign brain tumors can be life-threatening."
+* 10-14 years:
+* 14-24 years:
+* 25-34 years:
+* 35-44 years:
+* 45-54 years:
+* 55-64 years:
+* >64 years:
 
 ### Surviving Until LEV
 
