@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-07-22, modified: 2020-08-04, language: english, status: draft, importance: 7, confidence: unlikely*
+*author: niplav, created: 2020-07-22, modified: 2020-08-08, language: english, status: draft, importance: 7, confidence: unlikely*
 
 > __In [AI safety](https://en.wikipedia.org/wiki/AI_control_problem),
 significant time has been spent on the question of
@@ -94,9 +94,9 @@ to its optimization power:
 * The algorithm acquires some more resources such as computing power
 
 This can be visualized quite nicely when one imagines the search space
-to be one-dimensional with arbitrary values (or perhaps its Gödel
-number<!--TODO: wiki link-->)on both axes (which is of course not the
-case in reality):
+to be one-dimensional with arbitrary values (or perhaps its [Gödel
+number](https://en.wikipedia.org/wiki/G%C3%B6del_numbering))on both axes
+(which is of course not the case in reality):
 
 ![A jagged graph with a maximum in the middle, a vertical red line at the minimum at the left, and a small horizontal orange line on top of it, T-shaped](./img/toy_ai_takeoff_model/search_step_2.png "A jagged graph with a maximum in the middle, a vertical red line at the minimum at the left, and a small horizontal orange line on top of it, T-shaped")
 
@@ -127,6 +127,12 @@ the current optimization algorithm becomes stronger and stronger, which
 leads to bigger subspaces being searched and in turn better algorithms
 being found.
 
+This argument might fail in many different ways, e.g. if
+being more intelligent does not imply being more able to
+search the space of optimization algorithms quickly (e.g. by
+[compression](https://en.wikipedia.org/wiki/Data_compression) and
+searching the compressed data).
+
 However, a conceptual argument is not sufficient here. It would be
 advantageous to test whether a similarly explosive effect occurs in
 higher-dimensional spaces with different characteristics.
@@ -134,18 +140,83 @@ higher-dimensional spaces with different characteristics.
 The Model
 ---------
 
+A computational model can shed some light on whether the argument above
+would actually bring about discontinuities in the recursive development
+of artificial intelligence, and can also provide a more concrete ground
+for disagreement (for by creating an opportunity for people to modify
+the code and show that different search spaces, search algorithms and
+external factors generate different conclusions.
+
+On a high level, in
+[pseudocode](https://en.wikipedia.org/wiki/Pseudocode), the model executes
+a code similar to this:
+
+	space=gen_space()
+	fill_space(space)
+
+	pos=random_pos()
+
+	factor=intelligence=1
+
+	for i=0, rounds
+		print(intelligence)
+		factor*=1.001
+		intelligence=max(1, space[pos])*factor
+		pos=climb(space, pos)
+		pos=search_subpart(space, pos, intelligence)
+
+First, the space is generated and filled with values. Then, the AI
+repeatedly grows a little bit, does some hill-climbing, and brute-force
+searches the neighbouring space.
+
 ### Generating the Search Space
+
+The search space the AI would be inquiring into here is the
+[space](https://en.wikipedia.org/wiki/Space_(mathematics))
+of all possible algorithms. While I'm not very knowledgeable
+about the structure of the space of algorithms, it seems
+plausible to me that it would be isomorphic to the perfect [binary
+tree](https://en.wikipedia.org/wiki/Binary_tree) with infinite depth (for
+any given [turing machine](https://en.wikipedia.org/wiki/Turing_machine)
+with a binary tape).
+
+<!--At the nth level, the parents describe the preceding bits, and the
+node describes whether the nth bit is 0 or 1.-->
+
+<!--Perhaps trinary tree? 0/1/$ for bits and ending-->
+
+However, since I do not know algorithms that would assign
+possible values to nodes in the tree, as well as fitting
+search algorithms, I decided instead to use a [Euclidean
+space](https://en.wikipedia.org/wiki/Euclidean_space) to stand in for
+the space of all algorithms. Specifically, the metric space was even
+further simplified by an n-dimensional array with equal side-lengths:
+
+	dim=5
+	size=33
+	space=np.zeros([size]*dim)
+
+However, I might return to more accurate representations of the space
+of possible algorithms.
+
+<!--TODO: actually do that-->
+
+### Filling the Search Space
 
 #### Desiderata for the Search Space
 
 * Sparse: Most algorithms don't really do any optimization work at all
 * "Spiky": Some optimization algorithms are vastly stronger than other, very similar algorithms
 
+#### Diamond-Square-Ish
+
 ### Searching the Space
 
 #### Hill Climbing
 
 #### Brute Force Search
+
+### External Intelligence Improvements
 
 Results
 --------
