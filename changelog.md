@@ -1,12 +1,20 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-08-04, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2020-09-03, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
+
+August 2020
+-----------
+
+* [Considerations on Cryonics](./considerations_on_cryonics.html)
+	* [Caveats](./considerations_on_cryonics.html#Caveats) on the value of future life years
+	* Started more in-depth thoughts on the [Quality of Cryopreservation](./considerations_on_cryonics.html#Quality-of-Preservation)
+* Added to [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.html)
 
 July 2020
 ---------

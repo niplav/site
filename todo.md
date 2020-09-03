@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-08-04, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-08-16, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -360,6 +360,9 @@ Texts
 * The Argument from Explanation of Intuition
 	* When you explain an intuition by its causal origin (e.g. a moral
 	one by evolutionary psychology), it often uses its bite
+* The "At-the-time best possible forecast"
+	* Not literally best possible forecast
+	* But for humans at the time with the available information
 
 ### Collections
 
