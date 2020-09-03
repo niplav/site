@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-08-04, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2020-08-31, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,6 +11,8 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Tenet](https://www.imdb.com/title/tt6723592/)
+* [Chicken Run](https://www.imdb.com/title/tt0120630/)
 * [Django Unchained](https://www.imdb.com/title/tt1853728/)
 * [The Matrix](https://www.imdb.com/title/tt0133093/)
 * [Star Wars: Episode V - The Empire Strikes Back]()<!--TODO: add link-->
