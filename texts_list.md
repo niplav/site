@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-09-03, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2020-09-13, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -12,6 +12,43 @@ These are the texts I have read since May 2017 (sorted by starting date,
 newest additions first). A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* \* Moral Uncertainty (William MacAskill/Krister Bykvist/Toby Ord, 2020)
+* Du bist's (Dschelāladdīn Rūmī, 1256)
+* Von Glauben und Unglaub' (Dschelāladdīn Rūmī, 1256)
+* Was soll ich tun (Dschelāladdīn Rūmī, 1256)
+* Lange blieb hingewandt mein Ohr (Dschelāladdīn Rūmī, 1256)
+* Ich war an dem Tag (Dschelāladdīn Rūmī, 1256)
+* Ich bin der Sklave (Dschelāladdīn Rūmī, 1256)
+* Seit ich weiß (Dschelāladdīn Rūmī, 1256)
+* Wir sind der Rosenzweig (Dschelāladdīn Rūmī, 1256)
+* Wir zogen, ortloser Rubin (Dschelāladdīn Rūmī, 1256)
+* Ich sehe einen Mond (Dschelāladdīn Rūmī, 1256)
+* Kommm, komm, du bist die Seele (Dschelāladdīn Rūmī, 1256)
+* Von Rosen und vom Rosenhag (Dschelāladdīn Rūmī, 1256)
+* Was sah im Traum ich? (Dschelāladdīn Rūmī, 1256)
+* Wenn ich dein Traumbild sehe (Dschelāladdīn Rūmī, 1256)
+* Wer ist im Hause des Herzens? (Dschelāladdīn Rūmī, 1256)
+* O Herz, von deinem Herzen (Dschelāladdīn Rūmī, 1256)
+* Ich reiste und besuchte alle Städte (Dschelāladdīn Rūmī, 1256)
+* Der du vom Himmel hörtest (Dschelāladdīn Rūmī, 1256)
+* Da er mein Werk tut (Dschelāladdīn Rūmī, 1256)
+* Du weißt, was die Laute (Dschelāladdīn Rūmī, 1256)
+* Wie sollte die Seele nicht fliegen (Dschelāladdīn Rūmī, 1256)
+* Seit ich der Liebe Wasser (Dschelāladdīn Rūmī, 1256)
+* [A practical understanding of Flux (Drew DeVault, 2015)](https://drewdevault.com/2015/07/20/A-practical-understanding-of-Flux.html)
+* Wir gingen aus deiner Stadt (Dschelāladdīn Rūmī, 1256)
+* Das ist die Liebe (Dschelāladdīn Rūmī, 1256)
+* Sie sagen: Der König der Liebe (Dschelāladdīn Rūmī, 1256)
+* Ich denk dein (Dschelāladdīn Rūmī, 1256)
+* Wie lang soll ich (Dschelāladdīn Rūmī, 1256)
+* Du hast mir die vertraut (Dschelāladdīn Rūmī, 1256)
+* [Bring more Tor into your life (Drew DeVault, 2015)](https://drewdevault.com/2015/11/11/Bring-more-tor-into-your-life.html)
+* [Please don't use Slack for FOSS projects (Drew DeVault, 2015)](https://drewdevault.com/2015/11/01/Please-stop-using-slack.html)
+* [osu!web - WebGL & Web Audio (Drew DeVault, 2015)](https://drewdevault.com/2015/06/14/osuweb.html)
+* [SCP-1071 (SCP Foundation, 2017)](http://www.scpwiki.com/scp-1071)
+* [SCP-1070 (SCP Foundation, 2020)](http://www.scpwiki.com/scp-1070)
+* [What a 20-year-lead in military tech might look like (Daniel Kokotajlo, 2020)](https://www.lesswrong.com/posts/bffJJvCC78LZjFa3Z/what-a-20-year-lead-in-military-tech-might-look-like)
+* Beginner's Guide To Daygame (Tom Torero, 2018)
 * Könnte ein Baum sich bewegen (Dschelāladdīn Rūmī, 1256)
 * Ohne dein Wort (Dschelāladdīn Rūmī, 1256)
 * Mit dir möcht' Worte (Dschelāladdīn Rūmī, 1256)
@@ -43,7 +80,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Ibid (Howard Phillips Lovecraft, 1938)](https://www.hplovecraft.com/writings/texts/fiction/ibid.aspx)
 * [AWK (English Wikipedia, 2020)](https://en.wikipedia.org/wiki/AWK)
 * [The Dunwich Horrer (Howard Phillips Lovecraft, 1929)](https://www.hplovecraft.com/writings/texts/fiction/dh.aspx)
-* \* Language Models are Few-Shot Learners (Tom B. Brown/Benjamin Mann/Nick Ryder/Melanie Subbiah/Jared Kaplan/Prafulla Dhariwal/Arvind Neelakantan/Pranav Shyam/Girish Sastry/Amanda Askell/Sandhini Agarwal/Ariel Herbert-Voss/Gretchen Krueger/Tom Henighan/Rewon Child/Aditya Ramesh/Daniel M. Ziegler/Jeffrey Wu/Clemens Winter/Christopher Hesse/Mark Chen/Eric Sigler/Mateusz Litwin/Scott Gray/Benjamin Chess/Jack Clark/Christopher Berner/Sam McCandlish/Alec Radford/Ilya Sutskever/Dario Amodei, 2020)
+* Language Models are Few-Shot Learners (Tom B. Brown/Benjamin Mann/Nick Ryder/Melanie Subbiah/Jared Kaplan/Prafulla Dhariwal/Arvind Neelakantan/Pranav Shyam/Girish Sastry/Amanda Askell/Sandhini Agarwal/Ariel Herbert-Voss/Gretchen Krueger/Tom Henighan/Rewon Child/Aditya Ramesh/Daniel M. Ziegler/Jeffrey Wu/Clemens Winter/Christopher Hesse/Mark Chen/Eric Sigler/Mateusz Litwin/Scott Gray/Benjamin Chess/Jack Clark/Christopher Berner/Sam McCandlish/Alec Radford/Ilya Sutskever/Dario Amodei, 2020)
 * Discounting future health (Hilary Greaves, 2017)
 * [Cortés, Pizarro, and Afonso as Precedents for Takeover (Daniel Kokotajlo, 2020)](https://www.lesswrong.com/posts/ivpKSjM4D6FbqF4pZ/cortes-pizarro-and-afonso-as-precedents-for-takeover)
 * [Modeling the Human Trajectory (David Roodman, 2020)](https://www.openphilanthropy.org/blog/modeling-human-trajectory)
