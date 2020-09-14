@@ -95,7 +95,7 @@ to its optimization power:
 
 This can be visualized quite nicely when one imagines the search space
 to be one-dimensional with arbitrary values (or perhaps its [Gödel
-number](https://en.wikipedia.org/wiki/G%C3%B6del_numbering))on both axes
+number](https://en.wikipedia.org/wiki/G%C3%B6del_numbering)) on both axes
 (which is of course not the case in reality):
 
 ![A jagged graph with a maximum in the middle, a vertical red line at the minimum at the left, and a small horizontal orange line on top of it, T-shaped](./img/toy_ai_takeoff_model/search_step_2.png "A jagged graph with a maximum in the middle, a vertical red line at the minimum at the left, and a small horizontal orange line on top of it, T-shaped")
