@@ -23,7 +23,7 @@ HTML=index.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
 	exercise_log.html \
-	haiku.html \
+	senryu.html \
 	jazz_piano_book_exercises.html \
 	masturbation_and_attractiveness.html \
 	metamodernistisches_manifest.html \

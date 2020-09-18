@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-08-08, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-09-16, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -979,7 +979,27 @@ number:
 	* Cause 9: [Septicemia](https://en.wikipedia.org/wiki/Sepsis): 65%
 	* Cause 10: [Benign Neoplasms](https://en.wikipedia.org/wiki/Benign_tumor): 30%; if this leads to death, it usually happens in the brain: "Unlike most benign tumors elsewhere in the body, benign brain tumors can be life-threatening."
 * 10-14 years:
-* 14-24 years:
+	* Cause 1: [Accident/Unintentional Injury](https://en.wikipedia.org/wiki/Accident): 55%
+	* Cause 2: [Suicide](https://en.wikipedia.org/wiki/Suicide): 60%; but I haven't investigated the leading methods of suicide for 10-14 year olds (partially because reading about it is probably horrifying). My guess would be that at this age, suicide is less often commited by using a gun, and more often by overdosing on pills, cutting & then bleeding out, or jumping off heights. Of these, especially jumping seems very damaging to the brain.
+	* Cause 3: [Malignant Neoplasms](https://en.wikipedia.org/wiki/Cancer): 60%
+	* Cause 4: [Congenital Anomalies](https://en.wikipedia.org/wiki/Birth_defect): 80%; since the person survived this far (although already existing brain damage will of course persist during preservation)
+	* Cause 5: [Homicide](https://en.wikipedia.org/wiki/Homicide): 50%
+	* Cause 6: [Heart Disease](https://en.wikipedia.org/wiki/Cardiovascular_disease): 85%
+	* Cause 7: [Chronic Low. Respiratory Disease](https://en.wikipedia.org/wiki/Respiratory_disease): 85%
+	* Cause 8: [Cerebrovascular Disease](https://en.wikipedia.org/wiki/Cerebrovascular_disease): 30%
+	* Cause 9: [Influenza](https://en.wikipedia.org/wiki/Influenza) and [Pneumonia](https://en.wikipedia.org/wiki/Pneumonia): 85%
+	* Cause 10: [Benign Neoplasms](https://en.wikipedia.org/wiki/Benign_tumor): 30%
+* 15-24 years:
+	* Cause 1: [Accident/Unintentional Injury](https://en.wikipedia.org/wiki/Accident): 55%
+	* Cause 2: [Suicide](https://en.wikipedia.org/wiki/Suicide): 60%
+	* Cause 3: [Homicide](https://en.wikipedia.org/wiki/Homicide): 50%
+	* Cause 4: [Malignant Neoplasms](https://en.wikipedia.org/wiki/Cancer): 60%
+	* Cause 5: [Heart Disease](https://en.wikipedia.org/wiki/Cardiovascular_disease): 85%
+	* Cause 6: [Congenital Anomalies](https://en.wikipedia.org/wiki/Birth_defect): 85%; since the person survived even further
+	* Cause 7: [Diabetes Mellitus]()<!--TODO: wiki link-->: 85%; since death from diabetes seems to have a relatively long onset (doesn't come as a surprise, so ample preparations can be made)
+	* Cause 8: [Influenza](https://en.wikipedia.org/wiki/Influenza) and [Pneumonia](https://en.wikipedia.org/wiki/Pneumonia): 85%
+	* Cause 9: [Chronic Low. Respiratory Disease](https://en.wikipedia.org/wiki/Respiratory_disease): 85%
+	* Cause 10: [Complicated Pregnancy]()<!--TODO: wiki link-->: 55%; already in a hospital, but death is relatively quick & perhaps unforeseen
 * 25-34 years:
 * 35-44 years:
 * 45-54 years:
@@ -1031,11 +1051,11 @@ punishes the procrastination quite heavily.
 #### Currently 20 years old
 
 At the age of 20 years, the value of signing up for cryonics the
-same year is \$2797894 (`$~\$2.7*10^6$`) according to this model,
+same year is \$2797894 (~`$\$2.7*10^6$`) according to this model,
 prolonging the decision until one is 30 reduces this number to \$1666580
-(`$~\$1.6*10^6$`), and waiting until 40, 50 and 60 years yields a value
-of \$982100 (`$~\$9.8*10^5$`), \$559610 (`$~\$5.5*10^5$`) and \$287758
-(`$~\$2.8*10^5$`), respectively.
+(~`$\$1.6*10^6$`), and waiting until 40, 50 and 60 years yields a value
+of \$982100 (~`$\$9.8*10^5$`), \$559610 (~`$\$5.5*10^5$`) and \$287758
+(~`$\$2.8*10^5$`), respectively.
 
 	.l("nplot")
 
@@ -1054,7 +1074,7 @@ of \$982100 (`$~\$9.8*10^5$`), \$559610 (`$~\$5.5*10^5$`) and \$287758
 
 The values of signing up for cryonics look very similar to the values
 for a 20 year old. Performing the signup immediately at age 40 is worth
-\$6590556 (`$~\$6.6*10^6$`) at age 40 and is the best time to do it.
+\$6590556 (~`$\$6.6*10^6$`) at age 40 and is the best time to do it.
 
 	.l("nplot")
 

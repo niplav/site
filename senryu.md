@@ -1,15 +1,12 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-23, modified: 2020-03-20, language: english, german, status: in progress, importance: 1, confidence: fiction*
+*author: niplav, created: 2019-08-23, modified: 2020-09-18, language: english, german, status: in progress, importance: 1, confidence: fiction*
 
-> __Haikus that seemed okay enough to write down.__
+> __[Senryūs](https://en.wikipedia.org/wiki/Senry%C5%AB) that seemed okay enough to write down.__
 
-Haikus
-======
-
-<!--Check whether these really are haikus or some other, very similar
-style of poem. Read the corresponding wikipedia pages.-->
+Senryūs
+=======
 
 German
 ------
@@ -33,12 +30,11 @@ Autumn, slashing when
 The eternal emerald  
 Sadly decomposed  
 
-<!--TODO (?): link to Wikipedia page about backwards analysis-->
-Backward analyzed  
+[Backward analyzed](https://en.wikipedia.org/wiki/Data-flow_analysis#Backward_analysis)  
 This computation sufficed  
 But data? Perturbed  
 
-Splines are weird and nice  
+[Splines](https://en.wikipedia.org/wiki/Spline_(mathematics)) are weird and nice  
 Where get differentiation?  
 Just increase your m  
 
