@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2020-07-29, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2020-09-18, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -68,7 +68,7 @@ Writing
 
 ### Poetry
 
-* [Haikus](./haiku.md)
+* [Senryūs](./senryu.md)
 
 Translations
 ------------
