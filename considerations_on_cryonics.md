@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-09-16, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-09-18, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -246,6 +246,8 @@ due to already paid membership fees and the acquired life insurance.
 
 It will be assumed that once one is signed up for cryonics, one stays
 signed up for it.
+
+<!--TODO: Image here-->
 
 ### Dying Before Signing Up
 
@@ -996,11 +998,21 @@ number:
 	* Cause 4: [Malignant Neoplasms](https://en.wikipedia.org/wiki/Cancer): 60%
 	* Cause 5: [Heart Disease](https://en.wikipedia.org/wiki/Cardiovascular_disease): 85%
 	* Cause 6: [Congenital Anomalies](https://en.wikipedia.org/wiki/Birth_defect): 85%; since the person survived even further
-	* Cause 7: [Diabetes Mellitus]()<!--TODO: wiki link-->: 85%; since death from diabetes seems to have a relatively long onset (doesn't come as a surprise, so ample preparations can be made)
+	* Cause 7: [Diabetes Mellitus](https://en.wikipedia.org/wiki/Diabetes): 85%; since death from diabetes seems to have a relatively long onset (doesn't come as a surprise, so ample preparations can be made)
 	* Cause 8: [Influenza](https://en.wikipedia.org/wiki/Influenza) and [Pneumonia](https://en.wikipedia.org/wiki/Pneumonia): 85%
 	* Cause 9: [Chronic Low. Respiratory Disease](https://en.wikipedia.org/wiki/Respiratory_disease): 85%
-	* Cause 10: [Complicated Pregnancy]()<!--TODO: wiki link-->: 55%; already in a hospital, but death is relatively quick & perhaps unforeseen
+	* Cause 10: [Complicated Pregnancy](https://en.wikipedia.org/wiki/Diabetes): 55%; already in a hospital, but death is relatively quick & perhaps unforeseen
 * 25-34 years:
+	* Cause 1: [Accident/Unintentional Injury](https://en.wikipedia.org/wiki/Accident): 55%
+	* Cause 2: [Suicide](https://en.wikipedia.org/wiki/Suicide): 60%
+	* Cause 3: [Homicide](https://en.wikipedia.org/wiki/Homicide): 50%
+	* Cause 4: [Malignant Neoplasms](https://en.wikipedia.org/wiki/Cancer): 60%
+	* Cause 5: [Heart Disease](https://en.wikipedia.org/wiki/Cardiovascular_disease): 85%
+	* Cause 6: [Live Disease](https://en.wikipedia.org/wiki/Liver_disease): 70%; maybe there's a lot of problems with poisoning here
+	* Cause 7: [Diabetes Mellitus](https://en.wikipedia.org/wiki/Diabetes): 85%; since death from diabetes seems to have a relatively long onset (doesn't come as a surprise, so ample preparations can be made)
+	* Cause 8: [Cerebrovascular Disease](https://en.wikipedia.org/wiki/Cerebrovascular_disease): 30%
+	* Cause 9: [HIV](https://en.wikipedia.org/wiki/HIV): 55%; immune deficiency might affect brain as well, at least onset is kind of long
+	* Cause 10: [Influenza](https://en.wikipedia.org/wiki/Influenza) and [Pneumonia](https://en.wikipedia.org/wiki/Pneumonia): 85%
 * 35-44 years:
 * 45-54 years:
 * 55-64 years:
@@ -1332,6 +1344,13 @@ perspective. But decision processes with a [precautionary
 principle](https://en.wikipedia.org/wiki/Precautionary_principle) might
 be much more wary of doing anything rash before futures with negative
 value can be ruled out.
+
+Now What?
+---------
+
+Okay, let's say you're now convinced that you should sign up for cryonics.
+
+What is the next course of action?
 
 <!--
 From todo.md:
