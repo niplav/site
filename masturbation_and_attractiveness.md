@@ -1145,4 +1145,5 @@ https://en.wikipedia.org/wiki/Pornography
 Perhaps also
 
 /usr/local/doc/unread/blackpill/physical_attractiveness_research_adams_1977.pdf
+/usr/local/doc/unread/sexual_activity_is_inversely_related_to_womens_perceptions_of_male_facial_attractiveness_hess_et_al_2007.pdf
 -->
