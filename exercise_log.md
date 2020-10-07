@@ -350,3 +350,25 @@ Log
 * 50 double leg lifts
 * 100 froggers
 * 1 minute plank
+
+### 2020-10-03
+
+* 30 minutes jogging
+
+### 2020-10-05
+
+* 30 minutes jogging
+
+### 2020-10-06
+
+* 50 push-ups
+* 50 sit-ups
+* 50 biceps curls
+* 10 dumbbell scaptions
+* 50 dumbbell shoulder presses
+* 50 dumbbell upright rows
+* 50 dumbbell bench presses
+* 10 burpees
+* 50 double leg lifts
+* 100 froggers
+* 2 minutes plank
