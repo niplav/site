@@ -1,12 +1,22 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-09-03, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2020-10-07, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
+
+October 2020
+------------
+
+Updated the [Now](./now.html) page.
+
+September 2020
+--------------
+
+No changes to the website.
 
 August 2020
 -----------

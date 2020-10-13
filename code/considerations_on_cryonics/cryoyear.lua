@@ -8,7 +8,7 @@ val_year=tonumber(arg[2]) and tonumber(arg[2]) or 50000
 prob_succ=tonumber(arg[3]) and tonumber(arg[3]) or 0.05
 
 --probability of being preserved
-prob_pres=tonumber(arg[4]) and tonumber(arg[4]) or 0.6
+prob_pres=tonumber(arg[4]) and tonumber(arg[4]) or 0.8
 
 --years gained by cryonics
 years_gain=tonumber(arg[5]) and tonumber(arg[5]) or 4500
@@ -32,8 +32,79 @@ actval={78.36, 78.64, 78.66, 78.67, 78.68, 78.69, 78.69, 78.70, 78.71, 78.71, 78
 
 --Causes of death for certain age ranges, with probabilities for
 --successful cryopreservation for each cause of death
+--Add totaldeath field to each entry
 
-deathcause_impact={}
+deathcause_impact=
+{
+	{
+		lowbound=0,
+		upbound=0,
+		probabilities={0.7, 0.9, 0.75, 0.5, 0.55, 0.6, 0.65, 0.8, 0.7, 0.4},
+		numbers={4473, 3679, 1358, 1334, 1168, 724, 579, 428, 390, 375}
+	},
+	{
+		lowbound=1,
+		upbound=4,
+		probabilities={0.55, 0.75, 0.5, 0.6, 0.85, 0.85, 0.6, 0.65, 0.85, 0.3},
+		numbers={1126, 384, 353, 326, 122, 115, 62, 54, 50, 43}
+	},
+	{
+		lowbound=5,
+		upbound=9,
+		probabilities={0.55, 0.6, 0.75, 0.5, 0.85, 0.85, 0.85, 0.3, 0.65, 0.3},
+		numbers={734, 393, 201, 121, 71, 68, 68, 34, 34, 19}
+	},
+	{
+		lowbound=10,
+		upbound=14,
+		probabilities={0.55, 0.6, 0.6, 0.8, 0.5, 0.85, 0.85, 0.3, 0.85, 0.3},
+		numbers={692, 596, 450, 172, 168, 101, 64, 54, 51, 30}
+	},
+	{
+		lowbound=15,
+		upbound=24,
+		probabilities={0.55, 0.6, 0.5, 0.6, 0.85, 0.85, 0.85, 0.85, 0.85, 0.55},
+		numbers={12044, 6211, 4607, 1371, 905, 354, 246, 200, 165, 151}
+	},
+	{
+		lowbound=25,
+		upbound=34,
+		probabilities={0.55, 0.55, 0.5, 0.6, 0.85, 0.7, 0.85, 0.3, 0.55, 0.85},
+		numbers={24614, 8020, 5234, 3864, 3561, 1008, 837, 567, 482, 457}
+	},
+	{
+		lowbound=35,
+		upbound=44,
+		probabilities={0.55, 0.5, 0.85, 0.5, 0.5, 0.7, 0.85, 0.3, 0.85, 0.65},
+		numbers={22667, 10640, 10532, 7521, 3304, 3108, 2282, 1704, 956, 829}
+	},
+	{
+		lowbound=45,
+		upbound=55,
+		probabilities={0.6, 0.85, 0.55, 0.45, 0.7, 0.85, 0.3, 0.85, 0.65, 0.85},
+		numbers={37301, 32220, 23056, 8345, 8157, 6144, 5128, 3807, 2380, 2339}
+	},
+	{
+		lowbound=55,
+		upbound=64,
+		probabilities={0.6, 0.85, 0.55, 0.85, 0.85, 0.7, 0.3, 0.45, 0.65, 0.85},
+		numbers={113947, 81042, 23693, 18804, 14941, 13945, 12789, 8540, 5956, 5858}
+	},
+	{
+		lowbound=65,
+		upbound=math.huge,
+		probabilities={0.85, 0.6, 0.85, 0.3, 0.2, 0.85, 0.55, 0.85, 0.6, 0.6}, --TODO: fix two last ones
+		numbers={526509, 431102, 135560, 127244, 120658, 60182, 57213, 48888, 42232, 32988}
+	}
+}
+
+for i=1, #deathcause_impact do
+	local sum=0
+	for j=1, #deathcause_impact[i].numbers do
+		sum=sum+deathcause_impact[i].numbers[j]
+	end
+	deathcause_impact[i].total_deaths=sum
+end
 
 --probability of still signing up for cryonics at a given age
 

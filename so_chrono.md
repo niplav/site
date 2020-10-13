@@ -5,7 +5,7 @@
 
 > __The blog [Shtetl Optimized](https://www.scottaaronson.com/blog/) is
 > written by [Scott Aaronson](https://en.wikipedia.org/wiki/Scott_Aaronson),
-> and deals with quantum computing and theoretical computer science. However
+> and deals with quantum computing and theoretical computer science. However,
 > its archives are clumsy to navigate chronologically. This pages makes
 > that easier.__
 

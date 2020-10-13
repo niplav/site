@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-09-18, language: english, status: in progress, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-10-12, language: english, status: in progress, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -85,19 +85,22 @@ Will never happen to you
 
 *– [Jonathan Coulton](https://en.wikipedia.org/wiki/Jonathan_Coulton), [“Want You Gone”](https://genius.com/Aperture-science-psychoacoustic-laboratories-want-you-gone-lyrics) from [“Portal 2: Songs to Test By (Volume 3)”](https://en.wikipedia.org/wiki/Music_of_Portal_2), 2011*
 
-Many would-be cryonicists cryocrastinate, i.e they put off signing
+Many would-be cryonicists cryocrastinate, i.e. they put off signing
 up for cryonics until a later point in their life. This has often been
 explained by the fact that signing up for cryonics seems to [require high
-conscientiousness](https://www.lesswrong.com/posts/hiDkhLyN5S2MEjrSE/normal-cryonics "Normal Cryonics")
-and can be easily be delayed until another
+conscientiousness](https://www.lesswrong.com/posts/hiDkhLyN5S2MEjrSE/normal-cryonics
+"Normal Cryonics") and can be easily be delayed until another
 point in life: "I'll get around to doing it eventually" – person
 who was cremated. However, it hasn't yet been explored whether this
-procrastination might be rational: Many cryonics organisations have high
-membership fees, which might be avoided by waiting.
+procrastination might be rational if eventually followed through with:
+Many cryonics organisations have high membership fees, which might be
+avoided by waiting.
 
-To find this out, I present a point-estimate model of whether (and
-if yes, when) to sign up for cryonics. The model is written in
-[Lua](https://www.lua.org/).
+To find this out, I first present a point-estimate model of
+whether (and if yes, when) to sign up for cryonics. The model is
+written in [Lua](https://www.lua.org/). I then proceed and create a
+[Guesstimate](https://www.getguesstimate.com/) model to determine the
+distribution of the expected value of signing up.
 
 Note
 ----
@@ -114,6 +117,29 @@ director of the Cryonics Institute, answers many questions, as well as
 
 These texts should answer most questions people usually have about
 cryonics.
+
+Caveats
+--------
+
+This cost-benefit calculation depends on various factors that carry
+significant uncertainty with them, and necessarily contains numerous
+simplifications and inadequacies. The calculated values ought to be
+equipped with gigantic error bars. I encourage others to make their
+own calculations and models, compare results and bet on the relevant
+probabilities.
+
+Specifically, this analysis attempts to be relatively
+conservative, think of the lower range of a 50% [confidence
+interval](https://en.wikipedia.org/wiki/Confidence_interval).  For
+example, this leads to excluding singularity scenarios with lifespans of
+billions or trillions of years at enormous quality. This is a balancing
+act, some people might criticize that the number of worlds with indefinite
+life extension and cryonics revival but without cosmic endowment is
+very small.  These concerns might be correct, but bare resemblance to
+[Pascal's mugging](ttps://en.wikipedia.org/wiki/Pascal's_mugging)-like
+scenarios. In order to avoid such concerns, I focus on *relatively*
+unspectacular visions of the future. If these scenarios are more likely
+than I suspect, this only strengthens the case for signing up.
 
 Cost-Benefit Calculation for Cryonics
 -------------------------------------
@@ -143,16 +169,6 @@ cryonics organizations (or humanity) survive to develop such technology,
 or that the future will be interested in reuscitating people from
 cryopreservation.
 
-<!--
-TODO:
-
-Caveats
---------
-
-Relatively conservative, huge error bars
-Encourage others to do & publish their own
--->
-
 The model presented makes the assumption that a person has a given age
 and has the option of waiting for signing up for cryonics every year
 up to their expected year of death. So, for example, a person that is
@@ -173,10 +189,6 @@ program. `actval` is an actuarial table that contains at the
 nth position the median life expectancy of a person that is
 n years old at the moment for a western nation (in this case
 [Germany](https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/_inhalt.html)).
-
-This model usually tries to err on the side of conservative
-estimates, think of the lower range of a 50% [confidence
-interval](https://en.wikipedia.org/wiki/Confidence_interval).
 
 The Disvalue of Waiting
 -----------------------
@@ -309,12 +321,20 @@ justify not signing up for cryonics because they expect that LEV will
 arrive during their lifetime, and see no reason to sign up for a cryonics
 membership they are probably not going to need anyway. In this text,
 I will consider LEV by assuming there will be a certain year after which
-the probability of death is practically zero.
+the probability of death from natural causes is practically zero.
 
 I somewhat arbitrarily set this year to 2080<!--TODO: find some estimates
 of LEV-->, though many futurists seem more optimistic<!--TODO source-->:
 
 	levyear=2080
+
+<!--
+TODO: make probability of extinction explicit, not just implicit in
+the expected future life years.
+
+"If one believes that a singularity-like scenario will occur relatively soon,
+and estimates the risk of human extinction from such a scenario to be high,"
+-->
 
 <!--https://www.fightaging.org/archives/2018/02/aubrey-de-grey-on-progress-and-timescales-in-rejuvenation-research/-->
 <!--
@@ -925,7 +945,7 @@ living near the preservation facility before death, informing family
 members about their arrangement, trying to lead a safe life and keeping
 contact to their cryonics organisation.
 
-	prob_pres=0.6
+	prob_pres=0.8
 
 ### Quality of Preservation
 
@@ -1004,28 +1024,73 @@ number:
 	* Cause 10: [Complicated Pregnancy](https://en.wikipedia.org/wiki/Diabetes): 55%; already in a hospital, but death is relatively quick & perhaps unforeseen
 * 25-34 years:
 	* Cause 1: [Accident/Unintentional Injury](https://en.wikipedia.org/wiki/Accident): 55%
-	* Cause 2: [Suicide](https://en.wikipedia.org/wiki/Suicide): 60%
+	* Cause 2: [Suicide](https://en.wikipedia.org/wiki/Suicide): 55%; I suspect people become more competent with age at committing suicide, which means probably more damage to the brain
 	* Cause 3: [Homicide](https://en.wikipedia.org/wiki/Homicide): 50%
 	* Cause 4: [Malignant Neoplasms](https://en.wikipedia.org/wiki/Cancer): 60%
 	* Cause 5: [Heart Disease](https://en.wikipedia.org/wiki/Cardiovascular_disease): 85%
-	* Cause 6: [Live Disease](https://en.wikipedia.org/wiki/Liver_disease): 70%; maybe there's a lot of problems with poisoning here
+	* Cause 6: [Liver Disease](https://en.wikipedia.org/wiki/Liver_disease): 70%; maybe there's some problems with poisoning here
 	* Cause 7: [Diabetes Mellitus](https://en.wikipedia.org/wiki/Diabetes): 85%; since death from diabetes seems to have a relatively long onset (doesn't come as a surprise, so ample preparations can be made)
 	* Cause 8: [Cerebrovascular Disease](https://en.wikipedia.org/wiki/Cerebrovascular_disease): 30%
 	* Cause 9: [HIV](https://en.wikipedia.org/wiki/HIV): 55%; immune deficiency might affect brain as well, at least onset is kind of long
 	* Cause 10: [Influenza](https://en.wikipedia.org/wiki/Influenza) and [Pneumonia](https://en.wikipedia.org/wiki/Pneumonia): 85%
 * 35-44 years:
+	* Cause 1: [Accident/Unintentional Injury](https://en.wikipedia.org/wiki/Accident): 55%
+	* Cause 2: [Malignant Neoplasms](https://en.wikipedia.org/wiki/Cancer): 60%
+	* Cause 3: [Heart Disease](https://en.wikipedia.org/wiki/Cardiovascular_disease): 85%
+	* Cause 4: [Suicide](https://en.wikipedia.org/wiki/Suicide): 50%; same reason as in the last age group
+	* Cause 5: [Homicide](https://en.wikipedia.org/wiki/Homicide): 50%
+	* Cause 6: [Liver Disease](https://en.wikipedia.org/wiki/Liver_disease): 70%
+	* Cause 7: [Diabetes Mellitus](https://en.wikipedia.org/wiki/Diabetes): 85%
+	* Cause 8: [Cerebrovascular Disease](https://en.wikipedia.org/wiki/Cerebrovascular_disease): 30%
+	* Cause 9: [Influenza](https://en.wikipedia.org/wiki/Influenza) and [Pneumonia](https://en.wikipedia.org/wiki
+/Pneumonia): 85%
+	* Cause 10: [Septicemia](https://en.wikipedia.org/wiki/Sepsis): 65%; The reasons for this being worse for middle-aged's people's brains seem to balance out with the good ones
 * 45-54 years:
+	* Cause 1: [Malignant Neoplasms](https://en.wikipedia.org/wiki/Cancer): 60%
+	* Cause 2: [Heart Disease](https://en.wikipedia.org/wiki/Cardiovascular_disease): 85%
+	* Cause 3: [Accident/Unintentional Injury](https://en.wikipedia.org/wiki/Accident): 55%
+	* Cause 4: [Suicide](https://en.wikipedia.org/wiki/Suicide): 45%; same reason as in the last age group
+	* Cause 5: [Liver Disease](https://en.wikipedia.org/wiki/Liver_disease): 70%
+	* Cause 6: [Diabetes Mellitus](https://en.wikipedia.org/wiki/Diabetes): 85%
+	* Cause 7: [Cerebrovascular Disease](https://en.wikipedia.org/wiki/Cerebrovascular_disease): 30%
+	* Cause 8: [Chronic Low. Respiratory Disease](https://en.wikipedia.org/wiki/Respiratory_disease): 85%
+	* Cause 9: [Septicemia](https://en.wikipedia.org/wiki/Sepsis): 65%
+	* Cause 10: [Influenza](https://en.wikipedia.org/wiki/Influenza) and [Pneumonia](https://en.wikipedia.org/wiki/Pneumonia): 85%
 * 55-64 years:
+	* Cause 1: [Malignant Neoplasms](https://en.wikipedia.org/wiki/Cancer): 60%
+	* Cause 2: [Heart Disease](https://en.wikipedia.org/wiki/Cardiovascular_disease): 85%
+	* Cause 3: [Accident/Unintentional Injury](https://en.wikipedia.org/wiki/Accident): 55%
+	* Cause 4: [Chronic Low. Respiratory Disease](https://en.wikipedia.org/wiki/Respiratory_disease): 85%
+	* Cause 5: [Diabetes Mellitus](https://en.wikipedia.org/wiki/Diabetes): 85%
+	* Cause 6: [Liver Disease](https://en.wikipedia.org/wiki/Liver_disease): 70%
+	* Cause 7: [Cerebrovascular Disease](https://en.wikipedia.org/wiki/Cerebrovascular_disease): 30%
+	* Cause 8: [Suicide](https://en.wikipedia.org/wiki/Suicide): 45%; I guess it plateaus at some point
+	* Cause 9: [Septicemia](https://en.wikipedia.org/wiki/Sepsis): 65%
+	* Cause 10: [Influenza](https://en.wikipedia.org/wiki/Influenza) and [Pneumonia](https://en.wikipedia.org/wiki/Pneumonia): 85%
 * >64 years:
+	* Cause 1: [Heart Disease](https://en.wikipedia.org/wiki/Cardiovascular_disease): 85%
+	* Cause 2: [Malignant Neoplasms](https://en.wikipedia.org/wiki/Cancer): 60%
+	* Cause 3: [Chronic Low. Respiratory Disease](https://en.wikipedia.org/wiki/Respiratory_disease): 85%
+	* Cause 4: [Cerebrovascular Disease](https://en.wikipedia.org/wiki/Cerebrovascular_disease): 30%
+	* Cause 5: [Alzmeiher's Disease]()<!--TODO: wiki link & improve probability-->: 20%; unless there are very permissive euthanasia laws in place to allow for a controlled deanimation
+	* Cause 6: [Diabetes Mellitus](https://en.wikipedia.org/wiki/Diabetes): 85%
+	* Cause 7: [Accident/Unintentional Injury](https://en.wikipedia.org/wiki/Accident): 55%
+	* Cause 8: [Influenza](https://en.wikipedia.org/wiki/Influenza) and [Pneumonia](https://en.wikipedia.org/wiki
+/Pneumonia): 85%
+	* Cause 9: [Nephritis]()<!--TODO: wiki link & enter probability-->
+	* Cause 10: [Parkinson's diseas]()<!--TODO: wiki link & enter probability-->
+
+<!--TODO: find numbers of death by age group, enter them into the program,
+remove loop-->
 
 ### Surviving Until LEV
 
-The benefit of cryonics is only realized in one case: One lives to
-the planned year of signing up, but then dies before LEV. Both dying
-before signing up or living until LEV make the value of cryonics
-\$0. One can calculate the probability of this scenario by multiplying
-the probabilities of living until signup with the probability of then
-dying before LEV.
+The benefit of cryonics is only realized in one case: One lives to the
+planned year of signing up, but then dies before LEV. Both dying before
+signing up or living until LEV after having signed up make the value
+of cryonics \$0. One can calculate the probability of this scenario by
+multiplying the probabilities of living until signup with the probability
+of then dying before LEV.
 
 To calculate the probability of living to a given age, we can use
 the gompertz distribution again:
@@ -1196,6 +1261,10 @@ $ lua cryoyear.lua 22 50000 0.1 0.6 100 1 180 100000 2080
 Higher monetary for life-years make the case stronger
 -->
 
+<!--
+Near Singularity Scenarios
+-->
+
 ### Other Modifications
 
 It is possible to think of many other modifications to the parameters
@@ -1345,12 +1414,14 @@ principle](https://en.wikipedia.org/wiki/Precautionary_principle) might
 be much more wary of doing anything rash before futures with negative
 value can be ruled out.
 
+<!--
 Now What?
 ---------
 
 Okay, let's say you're now convinced that you should sign up for cryonics.
 
 What is the next course of action?
+-->
 
 <!--
 From todo.md:
