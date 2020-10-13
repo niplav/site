@@ -429,6 +429,7 @@ Texts
 * Blogging as an Act of Benevolence
 	* Mindset of "making a gift"
 * Most People Have No Power At All
+	* Therefore it's probably not very important what most people think
 * Report: Melatonin
 	* It works. Dead simple. I love it.
 * Report: Buying socks of one kind
@@ -814,6 +815,7 @@ Programming
 	* converts a sent presentation to a pdf presentation
 *	1on1match: Platform that connects people who'd like to do 1-on-1s,
 	by personality style
+* Offline version of guesstimate
 
 ### Klong Libraries
 

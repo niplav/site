@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2020-09-18, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2020-10-13, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -59,6 +59,7 @@ Writing
 * [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.md)
 * [Range And Forecasting Accuracy](./range_and_forecasting_accuracy.md)
 * [Two People on a Planet](./two_people_on_a_planet.md)
+* [Reports](./reports.md)
 * [Notes](./notes.md)
 
 ### Fiction

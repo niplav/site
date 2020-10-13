@@ -239,8 +239,8 @@ Limitations
 Conclusion
 ----------
 
-Appendix A: N-Dimensional Diamond Square-Ish
---------------------------------------------
+Appendix A: N-Dimensional Diamond Square
+----------------------------------------
 
 #### Square
 

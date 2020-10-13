@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2020-07-17, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2020-10-13, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -19,12 +19,16 @@ free time. I apologize for the inconveniences.
 Writing
 -------
 
-I'm writing code and text for [Range and Forecasting
-Accuracy](./range_and_forecasting_accuracy.html), and sporadically
-updating [Considerations on Cryonics](./considerations_on_cryonics.html),
-[Masturbation and Attractiveness](./masturbation_and_attractiveness.html)
+I'm writing code and text for [An Exploratory Toy AI Takeoff
+Model](./toy_ai_takeoff_model.html), and sporadically updating
+[Considerations on Cryonics](./considerations_on_cryonics.html),
+[Masturbation and Attractiveness](./masturbation_and_attractiveness.html),
+[Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html),
 and [Daygame Cost-Benefit
 Analysis](./daygame_cost_benefit.mddaygame_cost_benefit.html).
+
+I'm also planning an editing of all texts on the website, but that might
+take a while.
 
 Programming
 -----------
@@ -45,15 +49,14 @@ of](./naive_set_theory_solutions.html) Naive Set Theory.
 Data Sets
 ---------
 
-Because of the ongoing global [COVID-19
-outbreak](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_outbreak),
-I'm currently not collecting any data for my various datasets.
+I am currently collecting data on daygame, in order to improve my
+[Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html).
 
 Reading
 -------
 
 Currently, I am reading the following books:
 
-* The Complete Works (H. P. Lovecraft, 1915-1959)
-* Aus dem Diwan (Dschelāladdīn Rūmī, 1256)
+* 2666 (Roberto Bolaño, 2004)
+* Moral Uncertainty (William MacAskill/Krister Bykvist/Toby Ord, 2020)
 * Programming in Lua (Roberto Ierusalimschy, 2013)
