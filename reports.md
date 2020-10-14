@@ -22,15 +22,16 @@ Countings Smarts
 
 ### What I Did
 
-When I was around 9 years old, I decided to create a counter in my head
-that would increment when I saw a car of the brand [Smart]()<!--TODO:
-wiki link-->. I did this for around half a year, eventually reaching
-over 6000 (I don't remember the exact number anymore, what a shame).
-During this time, I created some rules:
+When I was around 9 years old, I decided to create a counter
+in my head that would increment when I saw a car of the brand
+[Smart](https://en.wikipedia.org/wiki/Smart_(marque)). I did this for
+around half a year, eventually reaching over 6000 (I don't remember
+the exact number anymore, what a shame).  During this time, I created
+some rules:
 
 * I was not actively seeking out Smarts, but was looking out for them
 * Because I'd learned the positions for Smarts in the village we were living in, I created a rule that a period of one hour was necessary for double-counting the same car
-* Smarts of all varieties were valid<!--TODO: links-->
+* Smarts of all varieties were valid
 
 I remember location mattering a lot, a 2-week holiday in the US increasing
 the counter by only 1 or two, and a weekend in a big european city
@@ -48,8 +49,8 @@ visual classifier for Smarts is still much better than for other cars. I
 also still get a little bolt of attention when I see a Smart.
 
 Also, the sportscar variant of Smarts looks kind of neat, besides the
-Tesla Cybertruck my preferred aesthetic for cars.<!--TODO: links for
-these-->
+[Tesla Cybertruck](https://en.wikipedia.org/wiki/Tesla_Cybertruck)
+my preferred aesthetic for cars.<!--TODO: links for these-->
 
 If you're a bored 9 year old, this is probably not too bad.
 

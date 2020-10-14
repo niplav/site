@@ -17,7 +17,7 @@ Y=np.arange(0,size,1)
 X,Y=np.meshgrid(X,Y)
 
 surf=ax.plot_surface(X,Y,space, cmap=cm.coolwarm)
-ax.set_zlim(0,2*maxval)
+ax.set_zlim(minval, maxval)
 fig.colorbar(surf, shrink=0.5, aspect=5)
 
 plt.savefig("twodim.png")
