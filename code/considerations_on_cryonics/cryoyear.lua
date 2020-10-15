@@ -8,7 +8,7 @@ val_year=tonumber(arg[2]) and tonumber(arg[2]) or 50000
 prob_succ=tonumber(arg[3]) and tonumber(arg[3]) or 0.05
 
 --probability of being preserved
-prob_pres=tonumber(arg[4]) and tonumber(arg[4]) or 0.8
+prob_pres=tonumber(arg[4]) and tonumber(arg[4]) or 0.9
 
 --years gained by cryonics
 years_gain=tonumber(arg[5]) and tonumber(arg[5]) or 4500
@@ -38,7 +38,7 @@ deathcause_impact=
 {
 	{
 		lowbound=0,
-		upbound=0,
+		upbound=1,
 		probabilities={0.7, 0.9, 0.75, 0.5, 0.55, 0.6, 0.65, 0.8, 0.7, 0.4},
 		numbers={4473, 3679, 1358, 1334, 1168, 724, 579, 428, 390, 375}
 	},
@@ -92,7 +92,7 @@ deathcause_impact=
 	},
 	{
 		lowbound=65,
-		upbound=math.huge,
+		upbound=101,
 		probabilities={0.85, 0.6, 0.85, 0.3, 0.2, 0.85, 0.55, 0.85, 0.6, 0.6}, --TODO: fix two last ones
 		numbers={526509, 431102, 135560, 127244, 120658, 60182, 57213, 48888, 42232, 32988}
 	}
@@ -103,8 +103,12 @@ for i=1, #deathcause_impact do
 	for j=1, #deathcause_impact[i].numbers do
 		sum=sum+deathcause_impact[i].numbers[j]
 	end
-	deathcause_impact[i].total_deaths=sum
+	deathcause_impact[i].total_deaths=sum*1.355
+	deathcause_impact[i].rest_deaths=sum*0.262
+	deathcause_impact[i].rest_probability=0.6
 end
+
+us_population=325000000
 
 --probability of still signing up for cryonics at a given age
 
@@ -131,12 +135,34 @@ function prob_diebeforelev(age)
 	end
 end
 
+function avg_pres_quality(age)
+	local alldeaths=0
+	local weighteddeaths=0
+	for i=1, #deathcause_impact do
+		local l=deathcause_impact[i].lowbound
+		local u=deathcause_impact[i].upbound
+		if l<age and u>age then
+			local factor=(age-l)/(u-l)
+			alldeaths=alldeaths+factor*deathcause_impact[i].total_deaths
+			for j=1, #deathcause_impact[i].numbers do
+				weighteddeaths=weighteddeaths+deathcause_impact[i].numbers[j]*deathcause_impact[i].probabilities[j]*factor
+			end
+		elseif age<=l then
+			alldeaths=alldeaths+deathcause_impact[i].total_deaths
+			for j=1, #deathcause_impact[i].numbers do
+				weighteddeaths=weighteddeaths+deathcause_impact[i].numbers[j]*deathcause_impact[i].probabilities[j]
+			end
+		end
+	end
+	return weighteddeaths/alldeaths
+end
+
 --I only get the benefit if
 --1. I haven't died before signing up
 --2. I die before LEV
 
 function benefit(age)
-	return prob_pres*prob_succ*years_gain*val_year*prob_liveto(age)*prob_diebeforelev(age)
+	return prob_pres*prob_succ*years_gain*val_year*prob_liveto(age)*prob_diebeforelev(age)*avg_pres_quality(age)
 end
 
 function cms_age(age)

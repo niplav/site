@@ -1,10 +1,27 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2020-10-13, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2020-10-07, modified: 2020-10-15, language: english, status: notes, importance: 3, confidence: log*
 
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
+
+<!--
+* Report: Stopping to Bite Your Nails
+        * Cut Your Nails Every Week
+* Report: Becoming Marginally More Productive
+        * Follow Alexey Guzey's Advice, Leave the House
+        * Internet Abstinence
+* Report: After 250 Hours of Meditation
+        * ~60 min a day
+        * Less bad at meditation
+        * Longer streaks of attention
+        * Surrounding time matters
+* Report: Melatonin
+        * It works. Dead simple. I love it.
+* Report: Buying socks of one kind
+* Report: Attempted 7-day at-home retreat
+-->
 
 Reports
 =======
@@ -42,7 +59,7 @@ pushing the counter up by several hundred.
 I don't remember my reasons for starting this. Perhaps I did it because
 Smarts are relatively recognizable and I was bored.
 
-### Whether It Was A Good Idea
+### Whether It Was a Good Idea
 
 I think the effects on my life were (and are) pretty neutral, though my
 visual classifier for Smarts is still much better than for other cars. I
@@ -58,6 +75,26 @@ __5.5/10__
 
 Eating Only Every Second Day
 -----------------------------
+
+### What I Did and Why I Did It
+
+For two weeks in September 2018, I tried eating only every second day.
+This ruled out any kind of nutritional intake on fasting days except
+tap water.
+
+I'd heard about people fasting for a week or more, and thought this
+might be an interesting little experiment to try. I had no specific
+reason for this particular spacing of fasting.
+
+### What the Effects Were and Whether It Was a Good Idea
+
+Apart from being quite hungry on the days when I didn't eat anything,
+and eating a lot on the days when I was allowed to eat, there were no
+interesting effects. I do not particularly recommend this.
+
+__3/10__
+
+<!--
 
 Walking Barefoot
 ----------------
@@ -85,3 +122,7 @@ Attempted 7-day Meditation Retreat at Home
 
 Meditation for 250 hours
 -------------------------
+
+Tracking A Lot
+---------------
+-->
