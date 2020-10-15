@@ -34,81 +34,87 @@ actval={78.36, 78.64, 78.66, 78.67, 78.68, 78.69, 78.69, 78.70, 78.71, 78.71, 78
 --successful cryopreservation for each cause of death
 --Add totaldeath field to each entry
 
-deathcause_impact=
+deathcause=
 {
 	{
 		lowbound=0,
 		upbound=1,
-		probabilities={0.7, 0.9, 0.75, 0.5, 0.55, 0.6, 0.65, 0.8, 0.7, 0.4},
+		impact={0.7, 0.9, 0.75, 0.5, 0.55, 0.6, 0.65, 0.8, 0.7, 0.4},
 		numbers={4473, 3679, 1358, 1334, 1168, 724, 579, 428, 390, 375}
 	},
 	{
 		lowbound=1,
 		upbound=4,
-		probabilities={0.55, 0.75, 0.5, 0.6, 0.85, 0.85, 0.6, 0.65, 0.85, 0.3},
+		impact={0.55, 0.75, 0.5, 0.6, 0.85, 0.85, 0.6, 0.65, 0.85, 0.3},
 		numbers={1126, 384, 353, 326, 122, 115, 62, 54, 50, 43}
 	},
 	{
 		lowbound=5,
 		upbound=9,
-		probabilities={0.55, 0.6, 0.75, 0.5, 0.85, 0.85, 0.85, 0.3, 0.65, 0.3},
+		impact={0.55, 0.6, 0.75, 0.5, 0.85, 0.85, 0.85, 0.3, 0.65, 0.3},
 		numbers={734, 393, 201, 121, 71, 68, 68, 34, 34, 19}
 	},
 	{
 		lowbound=10,
 		upbound=14,
-		probabilities={0.55, 0.6, 0.6, 0.8, 0.5, 0.85, 0.85, 0.3, 0.85, 0.3},
+		impact={0.55, 0.6, 0.6, 0.8, 0.5, 0.85, 0.85, 0.3, 0.85, 0.3},
 		numbers={692, 596, 450, 172, 168, 101, 64, 54, 51, 30}
 	},
 	{
 		lowbound=15,
 		upbound=24,
-		probabilities={0.55, 0.6, 0.5, 0.6, 0.85, 0.85, 0.85, 0.85, 0.85, 0.55},
+		total_deaths=30154,
+		impact={0.55, 0.6, 0.5, 0.6, 0.85, 0.85, 0.85, 0.85, 0.85, 0.55},
 		numbers={12044, 6211, 4607, 1371, 905, 354, 246, 200, 165, 151}
 	},
 	{
 		lowbound=25,
 		upbound=34,
-		probabilities={0.55, 0.55, 0.5, 0.6, 0.85, 0.7, 0.85, 0.3, 0.55, 0.85},
+		total_deaths=58844,
+		impact={0.55, 0.55, 0.5, 0.6, 0.85, 0.7, 0.85, 0.3, 0.55, 0.85},
 		numbers={24614, 8020, 5234, 3864, 3561, 1008, 837, 567, 482, 457}
 	},
 	{
 		lowbound=35,
 		upbound=44,
-		probabilities={0.55, 0.5, 0.85, 0.5, 0.5, 0.7, 0.85, 0.3, 0.85, 0.65},
+		total_deaths=80380,
+		impact={0.55, 0.5, 0.85, 0.5, 0.5, 0.7, 0.85, 0.3, 0.85, 0.65},
 		numbers={22667, 10640, 10532, 7521, 3304, 3108, 2282, 1704, 956, 829}
 	},
 	{
 		lowbound=45,
 		upbound=55,
-		probabilities={0.6, 0.85, 0.55, 0.45, 0.7, 0.85, 0.3, 0.85, 0.65, 0.85},
+		total_deaths=164837,
+		impact={0.6, 0.85, 0.55, 0.45, 0.7, 0.85, 0.3, 0.85, 0.65, 0.85},
 		numbers={37301, 32220, 23056, 8345, 8157, 6144, 5128, 3807, 2380, 2339}
 	},
 	{
 		lowbound=55,
 		upbound=64,
-		probabilities={0.6, 0.85, 0.55, 0.85, 0.85, 0.7, 0.3, 0.45, 0.65, 0.85},
+		total_deaths=374836,
+		impact={0.6, 0.85, 0.55, 0.85, 0.85, 0.7, 0.3, 0.45, 0.65, 0.85},
 		numbers={113947, 81042, 23693, 18804, 14941, 13945, 12789, 8540, 5956, 5858}
 	},
 	{
 		lowbound=65,
 		upbound=101,
-		probabilities={0.85, 0.6, 0.85, 0.3, 0.2, 0.85, 0.55, 0.85, 0.6, 0.6}, --TODO: fix two last ones
+		total_deaths=2099263,
+		impact={0.85, 0.6, 0.85, 0.3, 0.2, 0.85, 0.55, 0.85, 0.6, 0.6}, --TODO: fix two last ones
 		numbers={526509, 431102, 135560, 127244, 120658, 60182, 57213, 48888, 42232, 32988}
 	}
 }
 
-for i=1, #deathcause_impact do
+for i=1, #deathcause do
 	local sum=0
-	for j=1, #deathcause_impact[i].numbers do
-		sum=sum+deathcause_impact[i].numbers[j]
+	for j=1, #deathcause[i].numbers do
+		sum=sum+deathcause[i].numbers[j]
 	end
-	deathcause_impact[i].total_deaths=sum*1.355
-	deathcause_impact[i].rest_deaths=sum*0.262
-	deathcause_impact[i].rest_probability=0.6
+	if deathcause[i].total_deaths==nil then
+		deathcause[i].total_deaths=sum*1.355
+	end
+	deathcause[i].numbers[#deathcause[i].numbers+1]=deathcause[i].total_deaths-sum
+	deathcause[i].impact[#deathcause[i].impact+1]=0.6
 end
-
-us_population=325000000
 
 --probability of still signing up for cryonics at a given age
 
@@ -138,19 +144,17 @@ end
 function avg_pres_quality(age)
 	local alldeaths=0
 	local weighteddeaths=0
-	for i=1, #deathcause_impact do
-		local l=deathcause_impact[i].lowbound
-		local u=deathcause_impact[i].upbound
-		if l<age and u>age then
-			local factor=(age-l)/(u-l)
-			alldeaths=alldeaths+factor*deathcause_impact[i].total_deaths
-			for j=1, #deathcause_impact[i].numbers do
-				weighteddeaths=weighteddeaths+deathcause_impact[i].numbers[j]*deathcause_impact[i].probabilities[j]*factor
-			end
-		elseif age<=l then
-			alldeaths=alldeaths+deathcause_impact[i].total_deaths
-			for j=1, #deathcause_impact[i].numbers do
-				weighteddeaths=weighteddeaths+deathcause_impact[i].numbers[j]*deathcause_impact[i].probabilities[j]
+	for i=1, #deathcause do
+		local l=deathcause[i].lowbound
+		local u=deathcause[i].upbound
+		local factor=1
+		if l<age and age<=u then
+			factor=(age-l)/(u-l)
+		end
+		if age<=u then
+			alldeaths=alldeaths+factor*deathcause[i].total_deaths
+			for j=1, #deathcause[i].numbers do
+				weighteddeaths=weighteddeaths+factor*deathcause[i].numbers[j]*deathcause[i].impact[j]
 			end
 		end
 	end
