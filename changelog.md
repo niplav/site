@@ -11,12 +11,24 @@ Changelog
 October 2020
 ------------
 
-Updated the [Now](./now.html) page.
+* Added two section to [Considerations on Cryonics](./considerations_on_cryonics.html):
+	* [Caveats](./considerations_on_cryonics.html#Caveats)
+	* [Quality of Preservation](./considerations_on_cryonics.html#Quality-of-Preservation)
+* Started [Reports](./reports.html) with
+	* [Counting Smarts](./reports.html#Countings-Smarts)
+	* [Eating Only Every Second Day](./reports.html#Eating-Only-Every-Second-Day)
+
+### Other
+
+Updated the [Now](./now.html) page and the [Texts
+List](./texts_list.html).
 
 September 2020
 --------------
 
-No changes to the website.
+### Other
+
+Renamed the Haikus page to [Senryūs](./senryu.html).
 
 August 2020
 -----------
@@ -34,7 +46,7 @@ July 2020
 * Started [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.html)
 * Started the [Exercises for “The Jazz Piano Book”](./jazz_piano_book_exercises.html)
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
-	* [Results Between Questions](./range_and_forecasting_accuracy.html#Results_1)
+	* [Results for Accuracy Between Questions](./range_and_forecasting_accuracy.html#Results_1)
 	* [Accuracy Within Questions](./range_and_forecasting_accuracy.html#Accuracy-Within-Questions)
 * [Notes](./notes.html)
 	* [Pseudocode for Finding Supermaximal Repeats via Enhanced Suffix Array](notes.html#Pseudocode-for-an-Algorithm-for-Finding-Supermaximal-Repeats-Using-a-Suffix-Array)

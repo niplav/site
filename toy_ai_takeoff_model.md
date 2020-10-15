@@ -190,7 +190,7 @@ possible values to nodes in the tree, as well as fitting
 search algorithms, I decided instead to use a [Euclidean
 space](https://en.wikipedia.org/wiki/Euclidean_space) to stand in for
 the space of all algorithms. Specifically, the metric space was even
-further simplified by an n-dimensional array with equal side-lengths:
+further simplified as an n-dimensional array with equal side-lengths:
 
 	dim=5
 	size=33
