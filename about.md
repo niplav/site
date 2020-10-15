@@ -8,7 +8,7 @@
 About
 =====
 
-The site
+The Site
 --------
 
 ### Content
@@ -320,7 +320,7 @@ similar to those of the minimalist unix and [Plan
 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs) supporters at
 [suckless.org](https://suckless.org) and [cat-v.org](http://cat-v.org).
 
-The author
+The Author
 ----------
 
 ### Pronouns
@@ -334,6 +334,7 @@ I'm most happy with they/them.
 * [Metaculus](https://www.metaculus.com/accounts/profile/112493/)
 * [Reddit](https://old.reddit.com/u/niplav)
 * [Wikipedia](https://en.wikipedia.org/wiki/User:Niplav)
+* [Twitter](https://twitter.com/niplavyushtun)
 
 ### Contact
 

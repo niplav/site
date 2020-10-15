@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-10-07, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-10-15, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -97,6 +97,19 @@ Texts
 		population of X
 	* Abandon or rephrase as a something learned
 * Forecasting is Worse is Better
+	*	The [Brier score](https://en.wikipedia.org/wiki/Brier_score) was invented
+		in 1950, [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes'_theorem)
+		was first described in 1763, and [probability
+		theory](https://en.wikipedia.org/wiki/Probability_theory) was properly
+		invented at the beginning of the 18th century.
+	*	However, attempting to use forecasting to seriously determine the
+		probability of future events, training & selecting
+		people for their forecasting ability and creating
+		procedures that incorporate both intuition-based
+		and model-based predictions have only been around
+		since the mid 1980s <!--TODO: citation needed-->,
+		mostly popularized by the work of [Philip
+		Tetlock](https://en.wikipedia.org/wiki/Ehpilp_E._Tetlock).
 * Why not Earlier Forecasting?
 	* Maybe not Big Advantage?
 	* Needs Infrastructure: Takes months/years to bring fruits
@@ -408,19 +421,6 @@ Texts
 	* Related to: yak-shaving
 	* "Do the real thing" by Scott Young
 	* Buffers by Rollo Tomassi
-* Report: Eating Every Second Day
-* Report: Walking Barefoot
-* Report: Riding the Bike a Lot
-* Report: Stopping to Bite Your Nails
-	* Cut Your Nails Every Week
-* Report: Becoming Marginally More Productive
-	* Follow Alexey Guzey's Advice, Leave the House
-	* Internet Abstinence
-* Report: After 100 Hours of Meditation
-	* ~40 min a day
-	* Less bad at meditation
-	* Longer streaks of attention
-	* Surrounding time matters
 * No One Knows & No One Can Know
 	* This argument infuriates me: did you try to find out what people actually know?
 * Sometimes People have the same Credences but still Disagree
@@ -430,10 +430,6 @@ Texts
 	* Mindset of "making a gift"
 * Most People Have No Power At All
 	* Therefore it's probably not very important what most people think
-* Report: Melatonin
-	* It works. Dead simple. I love it.
-* Report: Buying socks of one kind
-* Report: Attempted 7-day at-home retreat
 
 ### Misc
 

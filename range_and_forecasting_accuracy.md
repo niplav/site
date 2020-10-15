@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-07-22, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-10-15, language: english, status: finished, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
@@ -47,24 +47,11 @@ disposal to being ready to start forecasting:
 * Track records (grading results of forecasts using for example brier scores or log scores)
 * Probability theory (a concept of probabilities, and maybe some simple probability distributions)
 
-The [Brier score](https://en.wikipedia.org/wiki/Brier_score) was invented
-in 1950, [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes'_theorem)
-was first described in 1763, and [probability
-theory](https://en.wikipedia.org/wiki/Probability_theory) was properly
-invented at the beginning of the 18th century.
-
-However, attempting to use forecasting to seriously determine the
-probability of future events, training & selecting people for their
-forecasting ability and creating procedures that incorporate both
-intuition-based and model-based predictions have only been around since
-the mid 1980's<!--TODO: citation needed-->, mostly popularized by the
-work of [Philip Tetlock](https://en.wikipedia.org/wiki/Ehpilp_E._Tetlock).
-
-Since then, forecasting has slowly but surely matured from "X is going
-to happen because my intuition/divine revelation told me so" to "my
-probability distribution on the outcome of this random variable is an X
-distribution with the following parameters", or alternatively "I assign
-a probability of X% to this event".
+Since the 1980s, forecasting has slowly but surely matured from "X is
+going to happen because my intuition/divine revelation told me so" to
+"my probability distribution on the outcome of this random variable
+is an X distribution with the following parameters", or alternatively
+"I assign a probability of X% to this event".
 
 However, since this kind of forecasting is relatively recent, information
 about the accuracy of long-range forecasting is basically non-existent:
@@ -139,28 +126,27 @@ Metaculus and PredictionBook
 
 [PredictionBook](https://predictionbook.com) and
 [Metaculus](https://www.metaculus.com) are both forecasting focussed
-sites, though both are not prediction markets, but rather function on
-the base of merit and track records: although you don't win money by
-being right, you can still boast about it (although it seems questionable
-whether other people will be impressed). Besides that, these sites make
-it easier to train ones calibration on real-world questions and become
-less wrong in the process.
+sites, though not prediction markets, but rather function on the base
+of merit and track records: although you don't win money by being right,
+you can still boast about it (it is an open question whether other people
+will be impressed). Besides that, these sites make it easier to train ones
+calibration on real-world questions and become less wrong in the process.
 
-However, both sites differ in their approach to writing, judging and
-scoring forecasts. PredictionBook is much older than Metaculus: the
-former was first released in 2008, the latter started in 2015. It is
-also much less formal than Metaculus: it doesn't require stringent
-resolution criteria, making possible for everybody to judge a
-question (unrelated to whether the person has even made a prediction
+However, both sites differ in their approach to writing questions
+and judging and scoring forecasts. PredictionBook is much older than
+Metaculus: the former was first released in 2008, the latter started in 2015.
+It is also much less formal than Metaculus: it doesn't require
+stringent resolution criteria, making possible for everybody to judge
+a question (unrelated to whether the person has even made a prediction
 on the question themselves!), while Metaculus requires a short text
 explaining the context and resolution criteria for a question, with
 the questions being resolved by moderators or admins. This leads to
-Metaculus having less questions than PredictionBook, each question
+Metaculus having less questions than PredictionBook, but each question
 having more predictions on it. Of the two, Metaculus is much more
-feature-rich: It supports not only binary questions, but also range
-questions with probability distributions, comment threads, having
-closed questions (questions that haven't yet been resolved, but that
-can still be predicted on), three different kinds of scores (the
+featureful: It supports not only binary questions, but also range
+questions with probability distributions, comment threads, closed
+questions (questions that haven't yet been resolved, but that can
+still be predicted on), three different kinds of scores (the
 [Brier score](https://en.wikipedia.org/wiki/Brier_score),
 and a [logarithmic scoring
 rule](https://en.wikipedia.org/wiki/Scoring_rule#Logarithmic_scoring_rule)
@@ -191,7 +177,7 @@ The forecasts are available on a JSON API at
 `https://www.metaculus.com/api2/questions/?page=`. Fortunately,
 [gimpf](https://github.com/gimpf/) has already published [a collection of
 scripts](https://github.com/gimpf/metaculus-question-stats) for fetching &
-analysing Metaculus data, I reused their script `fetch` to download the
+analysing Metaculus data. I reused their script `fetch` to download the
 raw JSON. I then converted the distinct page objects in the generated
 file to a list of questions:
 
@@ -205,8 +191,7 @@ file to a list of questions:
 The resulting data is available [here](./data/metaculus.json).
 
 I then wrote a python script to convert the JSON data to CSV in the form
-`id,questionrange,result,probability,range` (`id` is a unique ID per
-question, which will come in handy later), while also filtering out
+`id,questionrange,result,probability,range`, while also filtering out
 yet unresolved questions and range questions. Here, `id` is a unique
 numerical ID per question, which will come in handy later, `questionrange`
 is the duration between the time for creating and resolving the question,
@@ -249,8 +234,8 @@ The resulting CSV file contains over 40k predictions.
 
 ### For PredictionBook
 
-As far as I know, PredictionBook doesn't publish the forecasting
-data over an API. However, all individual predictions are visible
+As far as I know, PredictionBook doesn't publish its data
+over an API. However, all individual predictions are visible
 on the web, which means I had to parse the HTML itself using
 [BeautifulSoup](https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser)).
 
@@ -270,8 +255,11 @@ date, on which the resolution was actually made. I take the second date
 to avoid predictions with negative differences between prediction and
 resolution time.
 
+<!--
 Also, the 'known on' date has the CSS class `date created_at`, which
 doesn't seem right.
+TODO: submit pull request to fix this.
+-->
 
 The output of this script is in the same format as the one for Metaculus
 data: `id,questionrange,result,probability,range` (although here
@@ -336,6 +324,14 @@ Code:
 Surprisingly, both platforms had almost the same amount of individual
 predictions on binary resolved questions: ~48k for Metaculus, and ~44k
 for PredictionBook.
+
+<!--
+Three Different Analyses
+------------------------
+
+TODO: write example for explaining the difference between 'Between
+Forecasts', 'Between Questions', and 'Within Questions'.
+-->
 
 Accuracy Between Forecasts
 --------------------------
@@ -637,7 +633,11 @@ Because in the linear regression all datapoints are weighted equally,
 it could very well be that a tiny bit of noise at the tails dominates
 the entire regression.
 
+<!--
+TODO: finish
+
 #### Simpson's Paradox
+-->
 
 Accuracy Between Questions
 --------------------------
@@ -1008,11 +1008,11 @@ Two different kinds of datasets
 Conclusion
 ----------
 
-Using two datasets with both ~45k predictions, having a range of
-between 1 day and 10 years (thereby containing forcasts with short and
-medium range)I have investigated the relation between the accuracy of
-predictions and their range (that is, the time between the prediction
-being made and the result of the prediction being known).
+Using two datasets with both ~45k predictions, having ranges between 1 day
+and 10 years (thereby containing forcasts with short and medium range)
+I have investigated the relation between the accuracy of predictions
+and their range (that is, the time between the prediction being made
+and the result of the prediction being known).
 
 I have found that the data indicates three facts:
 
@@ -1021,8 +1021,9 @@ I have found that the data indicates three facts:
 	predictions made a shorter time before their resolution. This
 	can be partially, but not completely explained by fact 2.
 2.	Questions with a longer range (that is, time between the question
-	being written and the question being resolved) generally have
-	a higher accuracy than questions with a shorter range.
+	being written and the question being resolved) generally receive
+	predictions with a higher accuracy than questions with a shorter
+	range.
 3.	Predictions made on the same question earlier are generally less
 	accurate than predictions that are made later.
 
@@ -1031,10 +1032,11 @@ observations 1. and 2. much weaker or non-existent in PredictionPook data
 (observation 3. only holds for Metaculus, because there are no questions
 on PredictionBook with enough forecasts to run the analysis).
 
-These results suggest what to expect with questions with even higher range:
-That later predictions on them will generally be more accurate, and that
-the kinds of questions asked with a very high range might have an even
-accuracy than questions with short and medium ranges.
+These results suggest what to expect with questions with even greater
+range: That later predictions on them will generally be more accurate,
+and that the kinds of questions asked with a very high range might have
+engender prediction with an even accuracy than questions with short and
+medium ranges.
 
 However, there are plausible reasons to expect the trend from 1. and 2.
 to reverse: The questions asked with very high range are not very

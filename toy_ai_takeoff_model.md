@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-07-22, modified: 2020-08-08, language: english, status: draft, importance: 7, confidence: unlikely*
+*author: niplav, created: 2020-07-22, modified: 2020-10-15, language: english, status: draft, importance: 7, confidence: unlikely*
 
 > __In [AI safety](https://en.wikipedia.org/wiki/AI_control_problem),
 significant time has been spent on the question of
@@ -42,7 +42,7 @@ about whether you should focus on short-term or long-term, or whether
 we should try to reduce the conflict between the short-termers and the
 long-termers and it’s like, there doesn’t need to be a conflict.
 
-*– [Stuart J. Russell](https://en.wikipedia.org/wiki/Stuart_J._Russell), [“The flaws that make today’s AI architecture unsafe and a new approach that could fix it”](https://80000hours.org/podcast/episodes/stuart-russell-human-compatible-ai/#what-most-needs-to-be-done-015014) (Episode 80 of the [80,000 hours podcast](https://80000hours.org/podcast/), 2020*
+*– [Stuart J. Russell](https://en.wikipedia.org/wiki/Stuart_J._Russell), [“The flaws that make today’s AI architecture unsafe and a new approach that could fix it”](https://80000hours.org/podcast/episodes/stuart-russell-human-compatible-ai/#what-most-needs-to-be-done-015014) (Episode 80 of the [80,000 hours podcast](https://80000hours.org/podcast/)), 2020*
 
 Introduction
 ------------
@@ -222,6 +222,8 @@ Results
 --------
 
 ### Uniform Values
+
+### Normal Values
 
 ### Lognormal Values
 
