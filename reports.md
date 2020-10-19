@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2020-10-15, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2020-10-07, modified: 2020-10-19, language: english, status: notes, importance: 3, confidence: log*
 
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
@@ -94,11 +94,45 @@ interesting effects. I do not particularly recommend this.
 
 __3/10__
 
-<!--
-
 Walking Barefoot
 ----------------
 
+### What I Did and Why I Did It
+
+From mid March 2019 to mid July 2019, I walked barefoot both inside the
+house and outside.
+
+I recall having read some people gesturing toward barefoot walking having
+health benefits, but that was not my main reason for doing it, I wanted
+to see whether it had any direct impacts on the quality of my life.
+
+I stopped walking barefoot after steppipng into a glass shard for the
+second time.
+
+### What the Effects Were
+
+The main effects were:
+
+* In March, my feet were sometimes very cold when walking outside.
+* I stepped into very small (2-4mm long) shards of glass twice, which I had to remove. That was kind of painful.
+* People in my social circle were surprised, but tolerated it. I didn't have the feeling of losing many social opportunities.
+* My feet became much more resilient against temperature & rough ground as time went on, in July I could run at full speed with relatively little pain.
+* One day I slipped on a manhole cover during rain, and bent my ankle. It probably would have hurt less if I had worn shoes.
+* My feet enjoyed much more varied and textured sensory input. (I was surprised by the difference in heat that different patches of road can have)
+* I had to wash my feet everytime in entered my home, which was kind of annoying.
+* I didn't have to put on shoes in the morning, giving me another minute in bed.
+* I became very annoyed every time I saw glass shards on the pavement.
+
+### Whether It Was a Good Idea
+
+Walking barefoot was kind of cool, especially the long-term hardening of
+my feet. That said, for most people the downsides probably outweigh the
+upsides by a lot. To my younger self, I would recommend doing it for 2
+weeks in summer, and then stopping.
+
+__4/10__
+
+<!--
 Kissing Hand as Goodbye
 -----------------------
 
