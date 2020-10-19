@@ -4,12 +4,18 @@ include config.mk
 
 all: $(IMG)
 
-.eps.png:
+onedim.eps: draw_all.kg
+	kg -l ./$< -e '.x(0)'
+
+onedim.png: onedim.eps
 	convert -chop 0x180 $< $@
 	rm $<
 
-%.eps: draw_all.kg
-	kg -l ./$< -e '.x(0)'
+twodim.png: twodim.py
+	python3 twodim.py
+
+threedim.png: threedim.py
+	python3 threedim.py
 
 clean:
 	rm -f $(IMG)

@@ -7,7 +7,13 @@ from pylab import *
 import matplotlib.pyplot as plt
 import numpy as np
 
-exec(open("takeoff.py").read())
+exec(open("ndim_diamond_square.py").read())
+
+size=9
+minval=0
+maxval=255
+
+space=create_space(3, size, minval, maxval, 0.5)
 
 def randrange(n, vmin, vmax):
 	return (vmax-vmin)*np.random.rand(n) + vmin

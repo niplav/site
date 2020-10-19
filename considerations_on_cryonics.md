@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-10-15, language: english, status: finished, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2020-10-18, language: english, status: finished, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -16,7 +16,7 @@
 > simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method) using
 > [Guesstimate](https://www.getguesstimate.com/ "Official website"),
 > and find that signing up for cryonics at age 20 is worth in the
-> mean \$18m , median -\$100k (90% confidence interval: -\$2.16m,
+> mean \$18m, median -\$100k (90% confidence interval: -\$2.16m,
 > \$58.25m). It therefore seems recommendable to sign up for cryonics
 > immediately.__
 
@@ -560,7 +560,7 @@ in happiness, meaning and wealth to be positive, and decreases in
 those to be negative. Also, they don't see dying tomorrow as a neutral
 event.
 
-#### Caveats
+#### Caveats on Future Life Years
 
 Here I will assume that
 
@@ -603,7 +603,7 @@ the instrumental as well as the intrinsic benefits of health improvements
 one is considering. If one did both of those things, there would be no
 reasons of the kinds we have accepted for discounting future health.
 
-*– Hilary Greaves<!--TODO: link-->, [“Discounting future health”](./doc/considerations_on_cryonics/discounting_future_health_greaves_2017.pdf) p. 7, 2017*
+*– [Hilary Greaves](https://en.wikipedia.org/wiki/Hilary_Greaves), [“Discounting future health”](./doc/considerations_on_cryonics/discounting_future_health_greaves_2017.pdf) p. 7, 2017*
 
 She also argues against applying considerations from diminishing marginal
 returns to health (although it must be caveat that this analysis does
@@ -617,7 +617,7 @@ been constructed to be linear in well-being. There is therefore
 no reason based in considerations of diminishing marginal returns
 to discount future QALYs.
 
-*– Hilary Greaves<!--TODO: link-->, [“Discounting future health”](./doc/considerations_on_cryonics/discounting_future_health_greaves_2017.pdf) p. 3, 2017*
+*– [Hilary Greaves](https://en.wikipedia.org/wiki/Hilary_Greaves), [“Discounting future health”](./doc/considerations_on_cryonics/discounting_future_health_greaves_2017.pdf) p. 3, 2017*
 
 Additionally, problems with interpersonal utility comparison do not apply
 in this case, since the externalities from signing up for cryonics are
@@ -1065,13 +1065,13 @@ number:
 	* Cause 2: [Malignant Neoplasms](https://en.wikipedia.org/wiki/Cancer): 60%
 	* Cause 3: [Chronic Low. Respiratory Disease](https://en.wikipedia.org/wiki/Respiratory_disease): 85%
 	* Cause 4: [Cerebrovascular Disease](https://en.wikipedia.org/wiki/Cerebrovascular_disease): 30%
-	* Cause 5: [Alzmeiher's Disease]()<!--TODO: wiki link & improve probability-->: 20%; unless there are very permissive euthanasia laws in place to allow for a controlled deanimation
+	* Cause 5: [Alzheimer's Disease](https://en.wikipedia.org/wiki/Alzheimer's_disease): 20%; unless there are very permissive euthanasia laws in place to allow for a controlled deanimation
 	* Cause 6: [Diabetes Mellitus](https://en.wikipedia.org/wiki/Diabetes): 85%
 	* Cause 7: [Accident/Unintentional Injury](https://en.wikipedia.org/wiki/Accident): 55%
 	* Cause 8: [Influenza](https://en.wikipedia.org/wiki/Influenza) and [Pneumonia](https://en.wikipedia.org/wiki
 /Pneumonia): 85%
-	* Cause 9: [Nephritis]()<!--TODO: wiki link & enter probability-->
-	* Cause 10: [Parkinson's disease]()<!--TODO: wiki link & enter probability-->
+	* Cause 9: [Nephritis](https://en.wikipedia.org/wiki/Nephritis): 75%
+	* Cause 10: [Parkinson's disease](https://en.wikipedia.org/wiki/Parkinson%27s_disease): 35%
 
 These numbers are entered into a Lua table of the following format:
 
@@ -1423,8 +1423,6 @@ distribution](https://en.wikipedia.org/wiki/Log-normal_distribution)-ish,
 which is also what I used in the spreadsheet, with a 90% confidence
 interval in `$[2040;2150]$`.
 
-<!--TODO: cutoff for years in the past-->
-
 #### Age at Death
 
 Unfortunately, Guesstimate doesn't support Gompertz distributions,
@@ -1467,14 +1465,14 @@ with a 90% confidence interval of `$[400;900]$`.
 ### Value
 
 The result is certainly interesting: in this model, signing up for
-cryonics has a mean value of \$35m and a median of ≈-\$100k
+cryonics has a mean value of \$18m and a median of ≈-\$100k
 (perhaps because of longevity escape velocity arriving and making
 the value simply the cost for signing up), but with very long tails,
-especially on the positive side: a fifth percentile of -\$1.59m,
-and a 95th percentile of *squints* \$63.2m – quite a range!
+especially on the positive side: a fifth percentile of -\$2.15m,
+and a 95th percentile of *squints* \$58.5m – quite a range!
 
-The minimum and maximum of the simulation are even more extreme: -\$1b
-for the minimum and \$11.3b for the maximum.
+The minimum and maximum of the simulation are even more extreme: -\$39b
+for the minimum and \$20b for the maximum.
 
 Because of these huge numbers, perhaps it makes sense to try to visualize
 them logarithmically. I exported the numbers for the variable 'Value'
