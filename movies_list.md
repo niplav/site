@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-08-31, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2020-10-21, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,6 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Harry Potter and the Chamber of Secrets]() <!--TODO-->
 * [Moonlight]()
 * [Fear and Loathing in Las Vegas](https://www.imdb.com/title/tt0120669/)
 * [Tenet](https://www.imdb.com/title/tt6723592/)

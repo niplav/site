@@ -15,6 +15,13 @@ a very simple [hill-climbing](https://en.wikipedia.org/wiki/Hill_climbing)
 algorithm and brute-force search on that space. Possible further
 improvements to the model are suggested, and implications are discussed.__
 
+<!--
+* Another view on takeoff speeds in relation to the shape of optimization-space
+	*	Maybe model with n-dimensional space with perlin noise,
+		depth of current search determines size of subspace
+		being searchable at the moment
+-->
+
 An Exploratory Toy AI Takeoff Model
 ===================================
 

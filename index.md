@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2020-10-13, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2020-10-21, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -14,6 +14,8 @@ philosophy, as well as translations and transcriptions of different texts,
 recordings of music and programming projects. More information about
 the website and its author can be found on the [about](./about.md) page,
 for recent additions and changes, see the [changelog](./changelog.md).
+
+[Content warning](./content_warning.md).
 
 Writing
 -------

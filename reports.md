@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2020-10-19, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2020-10-07, modified: 2020-10-21, language: english, status: notes, importance: 3, confidence: log*
 
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
@@ -132,12 +132,82 @@ weeks in summer, and then stopping.
 
 __4/10__
 
+Riding the Bike a Lot
+---------------------
+
+### What I Did
+
+In October 2019, I decided to do all of my transportation either by foot
+or by bike. I kept this up until February 2020.
+
+This resulted in me biking on average ~25km a day for four months (my
+way to university was ~20km, and sometimes I had to drive into the city
+centre, which was another 10km).
+
+During the time on my bike I usually listened to podcasts on
+my IPod Shuffle<!--TODO: link-->, mostly the [80,000 Hours
+Podcast](https://80000hours.org/podcast/).
+
+### Why I Did It
+
+I tried this to test several different things. I wanted to see how
+independent of other methods of transportation I could be (public
+transport, car etc.). I also wanted to observe whether these amounts
+physical exercise and time spent outside (sometimes in the sun) would be
+beneficial to me (both in terms of falling asleep easier in the evening
+and becoming fitter).
+
+I also wanted to see whether this was a good way of saving money for
+public transport.
+
+### What The Effects Were
+
+I usually spent 2½ hours or more a day on my bike, very often under rough
+conditions (cold weather, wind, me being tired/exhausted). Preparation
+time for leaving the house was quite long: several minutes for packing
+the backpack, adequately tying my shoes, putting on warm clothes (but
+not too warm, since sometimes the weather was warm enough to being able
+to leave the jacket inside my backpack), putting in the earphones, then
+putting on the helmet, then gloves, and finally (if it was in the evening)
+putting the lights onto the bike.
+
+It doesn't sound like much, but doing this ~4 times a day (different
+locations during the day) at two minutes, this cost me
+`$4*2min*100=800min \approx 13.3h$`.
+
+I was much hungrier in the evening, eating probably meals for 2 people.
+
+I was usually very exhausted in the morning, making it harder to get out
+of bed, and also during the day. Due to this, couldn't put as much energy
+into university work as I would have wanted, leading to me receiving
+quite bad grades during the semester.
+
+I didn't notice my physical fitness improving very much except my legs
+becoming much more muscular.
+
+I had much less time during the day for hobbies and meeting friends.
+
+### Whether It Was a Good Idea
+
+On the whole, **I do not recommend doing this** at all. It was a mistake
+of me not aborting the experiment after a month, and the benefits were
+tiny to non-existent. I was more tired, had worse grades, less social
+contact, slept in longer and didn't become fitter during those four
+months. The money I saved by not having to use public transport was tiny
+in comparison.
+
+The only scenario where I can imagine this being a good idea is if you
+truly enjoy riding your bike a lot, have a lot of free time and relatively
+short commutes.
+
+The only positive effect of the whole experiment was that I listened to
+a whole lot of podcasts during that time.
+
+__1.5/10__
+
 <!--
 Kissing Hand as Goodbye
 -----------------------
-
-Riding the Bike a Lot
----------------------
 
 Cutting My Nails Regularly
 ---------------------------
