@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2020-07-20, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2020-10-21, language: english, status: in progress, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
 > recommendations by people who I respect, such as
@@ -97,6 +97,13 @@ priced new laptop. I like the Raspberry Pi because of its ability to run
 a wide variety of operating systems, but beyond that hardware is rarely
 a bottleneck for me. I do care about peripherals, though.
 
+<!--
+Devices:
+Smartphone, Laptop, IPod Shuffle
+-->
+
+<!--
 ### Keyboard
 
 ### Mouse
+-->

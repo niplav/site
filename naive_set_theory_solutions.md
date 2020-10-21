@@ -527,3 +527,32 @@ I'm not a very good mathematician, and believe (credence `$\ge 99.7\%$`)
 that I have misunderstood something here (the rest is taken up by this
 being an editing/printing mistake). I am not sure what, but would be
 glad about some pointers where I'm wrong.
+
+#### Other Failing Ways of Interpreting the Exercise
+
+Other ways of interpreting the exercise also have obvious
+counter-examples.
+
+If `$f, g$` are two families in `$X$` (as functions:
+`$f: X \rightarrow X, g: X \rightarrow X$`), then the
+counterexample is
+
+<div>
+	$$X=\{a,b\}\\
+	f_{a}=b, f_{b}=b\\
+	g_{a}=a, g_{b}=a\\
+	f໔g=\{b\}\
+	g໔f=\{a\}$$
+</div>
+
+If `$f, g$` are two families of sets in `$X$` (as functions:
+`$f: X \rightarrow {\cal{P}}(X), g: X \rightarrow {\cal{P}}(X)$`), then the
+counterexample is
+
+<div>
+	$$X=\{a,b,c\}\\
+	f_{a}=\{b\}, f_{b}=\{b\}, f_{c}=\{b\}\\
+	g_{a}=\{a\}, g_{b}=\{c\}, g_{c}={c\}\\
+	f໔g=\{b\}\
+	g໔f=\{c\}$$
+</div>

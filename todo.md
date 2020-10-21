@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-10-15, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-10-21, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -28,6 +28,9 @@ Site
 	* Done:
 		* Range and Forecasting Accuracy
 		* Daygame Cost-Benefit Analysis
+* Edit texts:
+	* Done:
+		* Considerations on Cryonics
 
 Texts
 -----
@@ -365,10 +368,6 @@ Texts
 	* `tlpe::{:[(&/x)<-cl;+/x:|(-cl)<(&/x)<cl;ω++/x;(2*ω)++/x}`
 * Auras as synesthesia between visual perception and emotional perception
 	* Maybe a survey?
-* Another view on takeoff speeds in relation to the shape of optimization-space
-	*	Maybe model with n-dimensional space with perlin noise,
-		depth of current search determines size of subspace
-		being searchable at the moment
 * Refactoring Rational Feelings
 	*	Relation between emotions, goals, strategy/planning, moral
 		development etc.

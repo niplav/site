@@ -338,7 +338,7 @@ I'm most happy with they/them.
 
 ### Contact
 
-Contact address is `niplav@posteo.net`.
+Contact address is `echo avcyni@cbfgrb.arg | tr a-zA-Z n-za-mN-ZA-M`.
 
 PGP public key:
 
