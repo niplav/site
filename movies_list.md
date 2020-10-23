@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-10-21, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2020-10-22, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,14 +11,14 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
-* [Harry Potter and the Chamber of Secrets]() <!--TODO-->
-* [Moonlight]()
+* [Harry Potter and the Chamber of Secrets](https://www.imdb.com/title/tt0295297/)
+* [Moonlight](https://www.imdb.com/title/tt4975722/)
 * [Fear and Loathing in Las Vegas](https://www.imdb.com/title/tt0120669/)
 * [Tenet](https://www.imdb.com/title/tt6723592/)
 * [Chicken Run](https://www.imdb.com/title/tt0120630/)
 * [Django Unchained](https://www.imdb.com/title/tt1853728/)
 * [The Matrix](https://www.imdb.com/title/tt0133093/)
-* [Star Wars: Episode V - The Empire Strikes Back]()<!--TODO: add link-->
+* [Star Wars: Episode V - The Empire Strikes Back](https://www.imdb.com/title/tt0080684/)
 * [Star Wars: Episode IV - A New Hope](https://www.imdb.com/title/tt0076759/)
 * [Akira](https://www.imdb.com/title/tt0094625/)
 * [Star Wars: Episode III - Revenge of the Sith](https://www.imdb.com/title/tt0121766/)

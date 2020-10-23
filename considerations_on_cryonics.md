@@ -390,10 +390,11 @@ The following assumptions will be made in the implementation:
 	arrangement doesn't apply).
 5.	The membership fees will not be changed drastically over time. In
 	fact, inflation adjusted prices for cryonics have mostly stayed
-	constant<!--TODO: link the charts from the cryonics wiki
-	entry)-->, so this is a reasonable assumption.
+	constant (see chart), so this is a reasonable assumption.
 6.	The cryonicist will know when LEV has occurred, and will cancel
 	their membership starting from that year.
+
+![Inflation adjusted historical cryonics prices](https://timelines.issarice.com/images/7/79/Historical_cost_of_cryonics%2C_inflation_adjusted.png "Inflation adjusted historical cryonics prices")
 
 The implementation is quite straightforward:
 
