@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-10-15, language: english, status: finished, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-10-26, language: english, status: finished, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
@@ -112,13 +112,6 @@ https://www.lesswrong.com/s/pvim9PZJ6qHRTMqD3/p/5K7CMa6dEL7TN7sae
 <!--
 Distinction between {probabilistic,non-probabilistic}
 {model-based,intuition-based} forecasting
--->
-
-<!--
-Tetlock-style forecasting is "Worse is Better"
-If we can't develop explicit numerical models, why
-not train people in becoming good at estimating the future,
-but this time with probabilistic estimates?
 -->
 
 Metaculus and PredictionBook
@@ -325,13 +318,83 @@ Surprisingly, both platforms had almost the same amount of individual
 predictions on binary resolved questions: ~48k for Metaculus, and ~44k
 for PredictionBook.
 
-<!--
-Three Different Analyses
-------------------------
+Three Different Analyses: An Illustrative Example
+-------------------------------------------------
 
-TODO: write example for explaining the difference between 'Between
-Forecasts', 'Between Questions', and 'Within Questions'.
--->
+In this text, I analyze the relation between accuracy and range in
+forecasting, considering three different aspects:
+
+* Between forecasts
+* Between questions
+* Within questions
+
+What exactly does this mean?
+
+Let's say there are two people: Bessie and Heloïse. They are trying
+to make predictions about the weather about different time horizons
+(it is currently end of August):
+
+1. Will it rain tomorrow? (resolution: no/0)
+2. Will the average temperature in August in 1 year be higher than 20°C? (resolution: no/0)
+
+Let's say that they make the following predictions:
+
+* Bessie: 0.3 for 1, 0.85 for 2
+* Heloïse: 0.1 for 1, 0.6 for 2
+
+Let's also say that they make their predictions in alphabetical order
+of their names, one hour after another (Bessie at 00:00 and Heloïse at
+01:00).
+
+### Judging Between Forecasts
+
+Evaluating the relation between forecasts would be as following: Each
+forecast, its resolution and its timespan are independently analyzed.
+
+We have four predictions:
+
+1. One with a range of 23 hours, a probability of 0.1 (Heloïses prediction on 1), and a resolution of 0
+2. One with a range of 24 hours, a probability of 0.3, (Bessies prediction on 1) and a resolution of 0
+3. One with a range of `$24h/d*365d-1h=8759h$` (it's not a leap year), a probability of 0.6 (Heloïses prediction on 2), and a resolution 0
+4. One with a range of `$24h/d*365d=8760h$`, a probability of 0.85 (Bessies prediction on 2), and a resolution 0
+
+The Brier scores for ranges are then 0.01 for 23h, 0.09 for 24h, 0.36
+for 8759h, and 0.7225 for 8760h. Here, higher range between forecasts is
+correlated with worse performance.
+
+### Judging Between Questions
+
+Judging the performance between questions now means looking at the
+forecasts made on each question and evaluating the performance
+of forecasts on that question.
+
+Question 1 has a range of 24h, and question 2 has a range of 8760h.
+The Brier score for predictions on question 1 is 0.05, and the Brier
+score for predictions on question 2 is 0.54125. In this case, a higher
+range seems to be worse for performance on questions (Brier scores are
+lower/better for question 1).
+
+### Judging Within Questions
+
+Within questions one examines each question separately.
+
+On question 1, the forecast with the higher range has a Brier score of
+0.09, and the forecast with the lower range has a brier score of 0.01. So
+for question 1, higher range is correlated with worse performance.
+
+For question 2, it is similar, the forecast with the higher range (8760h)
+has a score of 0.7225, while the forecast with the lower range (8759h)
+has a score of 0.36. Here also higher range is correlated with worse
+performance.
+
+One can now try to aggregate the findings from the two questions and
+could tentatively conclude that generally range within questions is
+correlated negatively with accuracy of forecasts.
+
+----------------
+
+These were of course only illustrative examples, but I hope that now
+the different approaches in this text are clearer than before.
 
 Accuracy Between Forecasts
 --------------------------

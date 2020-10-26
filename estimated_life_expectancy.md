@@ -554,6 +554,7 @@ to see whether there are any gender-specific differences in answering
 rates, and it generally have been a better practice to write them down
 (also to determine the overall answering rate).
 
+<!--
 Conclusion
 -----------
 
@@ -561,7 +562,7 @@ Conclusion
 
 External Links
 --------------
-
+-->
 <!--
 TODO: read:
 

@@ -215,7 +215,7 @@ of possible algorithms.
 * Sparse: Most algorithms don't really do any optimization work at all
 * "Spiky": Some optimization algorithms are vastly stronger than other, very similar algorithms
 
-#### Diamond-Square-Ish
+#### Diamond-Square
 
 ### Searching the Space
 

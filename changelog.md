@@ -20,6 +20,7 @@ October 2020
 	* [Walking Barefoot](./reports.html#Walking-Barefoot)
 	* [Riding the Bike a Lot](./reports.html#Riding-the-Bike-a-Lot)
 * [Some more thoughts](./naive_set_theory_solutions.html#Other-Failing-Ways-of-Interpreting-the-Exercise) on [Exercise 1 from Section 9](./naive_set_theory_solutions.html#Exercise-1_6)
+* [Explaining the different approaches of analysis](./range_and_forecasting_accuracy.html#Three-Different-Analyses-An-Illustrative-Example) for [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 
 ### Other
 
