@@ -34,9 +34,6 @@ Members of the [NoFap community](https://en.wikipedia.org/wiki/NoFap) frequently
 male physical attractiveness is causally influenced by the frequency
 and duration since the last occurence of masturbation.
 
-<!--TODO: take "would be a shame" image from
-https://slatestarcodex.com/2013/10/20/the-anti-reactionary-faq/-->
-
 I present a method to test this claim (albeit imperfectly) by approaching
 200 people in the street after 90 days of abstinence from masturbation
 and asking them for a date, and 200 again after a week of daily
@@ -46,10 +43,11 @@ and various [descriptive statistical
 methods](https://en.wikipedia.org/wiki/Descriptive_statistics) and find
 that \_.
 
+<!--
 Existing Literature
 -------------------
 
-<!--TODO: Search google scholar for "abstinence masturbation
+TODO: Search google scholar for "abstinence masturbation
 attractiveness", "abstinence masturbation pheromones" and "abstinence
 masturbation microexpressions". The last time I checked, there was
 nothing there, but it might have changed.-->
@@ -303,8 +301,13 @@ Two of these reasons are independent from the attitude of a person
 towards NoFap (pheromones and microexpressions), while the others are
 dependent on being a NoFap enthusiast.
 
-Given these claims, it should be possible to at least somewhat test the
-claims made by members of the NoFap community.
+Given these claims, it should be possible to at least somewhat check
+the claims made by members of the NoFap community.
+
+![Nice Hypothesis](img/masturbation_and_attractiveness/sagan_test_meme.png "(Zooming into face of Carl Sagan, looking smug) “Nice Hypothesis you have there. Would be a shame if someone were to test it”")
+
+(Taken from [Scott Alexander
+(2013)](https://slatestarcodex.com/2013/10/20/the-anti-reactionary-faq/ "The Anti-Reactionary FAQ"))
 
 Method
 ------

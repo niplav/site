@@ -113,6 +113,10 @@ Texts
 		since the mid 1980s <!--TODO: citation needed-->,
 		mostly popularized by the work of [Philip
 		Tetlock](https://en.wikipedia.org/wiki/Ehpilp_E._Tetlock).
+	*	Tetlock-style forecasting is "Worse is Better"
+		If we can't develop explicit numerical models, why
+		not train people in becoming good at estimating the future,
+		but this time with probabilistic estimates?
 * Why not Earlier Forecasting?
 	* Maybe not Big Advantage?
 	* Needs Infrastructure: Takes months/years to bring fruits
@@ -133,6 +137,7 @@ Texts
 	* Easterlin's Paradox
 	* Status Games
 * In Praise of Cost-Benefit Analyses
+* Why You Ought to Disengage from the Internet as Much as Possible
 
 ### Analyses
 
