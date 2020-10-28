@@ -1,4 +1,28 @@
+.l("csv")
 .l("./load.kg")
+
+painttakeoff::{[if of o p i];if::"../../data/",x,".csv";of::x,".eps";
+	.fc(.ic(if));
+	data::csv.load();
+	data::{1.0:$'x}'data;
+	p::*+data;
+	i::*|+data;
+	o::.oc(of);
+	.tc(o);
+	frame([0],(#i),(_(#i)%10);(_&/i),(_|/i),(_(|/i)%30));
+	segplot(i);
+	setrgb(0;0;1);
+	segplot(p);
+	setrgb(0;0;0);
+	draw();
+	.fl();
+	.cc(o)}
+
+painttakeoff("1_8193_0.5_1.001")
+painttakeoff("1_16385_0.5_1.001")
+painttakeoff("1_32769_0.5_1.001")
+painttakeoff("1_65537_0.5_1.001")
+painttakeoff("1_1048577_0.5_1.001")
 
 onedim::.oc("onedim.eps")
 .tc(onedim)

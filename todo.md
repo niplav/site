@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-10-21, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-10-26, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -816,6 +816,8 @@ Programming
 *	1on1match: Platform that connects people who'd like to do 1-on-1s,
 	by personality style
 * Offline version of guesstimate
+*	A reddit bot on /r/gonewildstories that does a gender analysis for
+	the writing and posts the result
 
 ### Klong Libraries
 
