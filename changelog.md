@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-10-21, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2020-10-28, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -19,6 +19,8 @@ October 2020
 	* [Eating Only Every Second Day](./reports.html#Eating-Only-Every-Second-Day)
 	* [Walking Barefoot](./reports.html#Walking-Barefoot)
 	* [Riding the Bike a Lot](./reports.html#Riding-the-Bike-a-Lot)
+	* [Mostly Stopping to Bite My Nails](./reports.html#Mostly-Stopping-to-Bite-My-Nails)
+	* [Melatonin](./reports.html#Melatonin)
 * [Some more thoughts](./naive_set_theory_solutions.html#Other-Failing-Ways-of-Interpreting-the-Exercise) on [Exercise 1 from Section 9](./naive_set_theory_solutions.html#Exercise-1_6)
 * [Explaining the different approaches of analysis](./range_and_forecasting_accuracy.html#Three-Different-Analyses-An-Illustrative-Example) for [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 

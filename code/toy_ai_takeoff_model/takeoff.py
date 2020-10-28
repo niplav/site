@@ -56,19 +56,24 @@ def datagen(dim, size, minval, maxval, extrfact, rounds, growth):
 	for i in range(0, rounds):
 		factor*=growth
 		intelligence=max(1, space[tuple(pos)])*factor
-		f.write(str(space[tuple(pos)]) + ", " + str(intelligence) + "\n")
+		f.write(str(space[tuple(pos)]) + "," + str(intelligence) + "\n")
 
 		pos=climb(space, pos, size, dim)
 		pos=search_around(space, pos, size, dim, intelligence)
 
 	f.close()
 
-datagen(1, 67108865, 0, 256, 0.5, 256, 1.001)
-datagen(2, 8193, 0, 256, 0.5, 256, 1.001)	# 67125249
-datagen(3, 65, 0, 256, 0.5, 256, 1.001)		# 274625
-datagen(3, 129, 0, 256, 0.5, 256, 1.001)	# 2146689
-datagen(3, 255, 0, 256, 0.5, 256, 1.001)	# 16581375
-datagen(4, 65, 0, 256, 0.5, 256, 1.001)		# 17850625
-datagen(5, 33, 0, 256, 0.5, 256, 1.001)		# 39135393
-datagen(6, 17, 0, 256, 0.5, 256, 1.001)		# 24137569
-datagen(8, 9, 0, 256, 0.5, 256, 1.001)		# 43046721
+datagen(1, 8193, 0, 256, 0.5, 64, 1.001)
+datagen(1, 16385, 0, 256, 0.5, 64, 1.001)
+datagen(1, 32769, 0, 256, 0.5, 64, 1.001)
+datagen(1, 65537, 0, 256, 0.5, 64, 1.001)
+datagen(1, 1048577, 0, 256, 0.5, 64, 1.001)
+datagen(1, 33554433, 0, 256, 0.5, 64, 1.001)
+datagen(2, 8193, 0, 256, 0.5, 64, 1.001)	# 67125249
+datagen(3, 65, 0, 256, 0.5, 64, 1.001)		# 274625
+datagen(3, 129, 0, 256, 0.5, 64, 1.001)	# 2146689
+datagen(3, 255, 0, 256, 0.5, 64, 1.001)	# 16581375
+datagen(4, 65, 0, 256, 0.5, 64, 1.001)		# 17850625
+datagen(5, 33, 0, 256, 0.5, 64, 1.001)		# 39135393
+datagen(6, 17, 0, 256, 0.5, 64, 1.001)		# 24137569
+datagen(8, 9, 0, 256, 0.5, 64, 1.001)		# 43046721

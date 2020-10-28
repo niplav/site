@@ -17,6 +17,10 @@ twodim.png: twodim.py
 threedim.png: threedim.py
 	python3 threedim.py
 
+.eps.png:
+	convert -chop 0x180 $< $@
+	rm $<
+
 clean:
 	rm -f $(IMG)
 	rm -f $(CSV)

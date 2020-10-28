@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-10-26, language: english, status: finished, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-10-27, language: english, status: finished, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
@@ -353,10 +353,10 @@ forecast, its resolution and its timespan are independently analyzed.
 
 We have four predictions:
 
-1. One with a range of 23 hours, a probability of 0.1 (Heloïses prediction on 1), and a resolution of 0
-2. One with a range of 24 hours, a probability of 0.3, (Bessies prediction on 1) and a resolution of 0
-3. One with a range of `$24h/d*365d-1h=8759h$` (it's not a leap year), a probability of 0.6 (Heloïses prediction on 2), and a resolution 0
-4. One with a range of `$24h/d*365d=8760h$`, a probability of 0.85 (Bessies prediction on 2), and a resolution 0
+1. One with a range of 23 hours, a probability of 0.1 (Heloïse's prediction on 1), and a resolution of 0
+2. One with a range of 24 hours, a probability of 0.3, (Bessie's prediction on 1) and a resolution of 0
+3. One with a range of `$24h/d*365d-1h=8759h$` (it's not a leap year), a probability of 0.6 (Heloïse's prediction on 2), and a resolution 0
+4. One with a range of `$24h/d*365d=8760h$`, a probability of 0.85 (Bessie's prediction on 2), and a resolution 0
 
 The Brier scores for ranges are then 0.01 for 23h, 0.09 for 24h, 0.36
 for 8759h, and 0.7225 for 8760h. Here, higher range between forecasts is
