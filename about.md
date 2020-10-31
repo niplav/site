@@ -305,7 +305,8 @@ epistemology](https://plato.stanford.edu/entries/epistemology-bayesian/),
 [meta-physical
 nominalism](https://plato.stanford.edu/entries/nominalism-metaphysics/),
 [reductionism](https://en.wikipedia.org/wiki/Reductionism) and [scientific
-naturalism](https://plato.stanford.edu/entries/naturalism/#MetNat).
+naturalism](https://plato.stanford.edu/entries/naturalism/#MetNat)
+(but not illusionism/functionalism about consciousness).
 
 ![You're a sound rationalist, aren't you?](./img/about/sound_rationalist.jpg "You're a sound rationalist, aren't you?")
 

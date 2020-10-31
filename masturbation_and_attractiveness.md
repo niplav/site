@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2020-10-27, language: english, status: in progress, importance: 2, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2020-10-31, language: english, status: in progress, importance: 2, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -370,11 +370,15 @@ after masturbation), perceived gender of the person approached ("m",
 
 Results were logged in a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values).
 
+<!--
 ### Justification for Cold Approach as a Method
 
-<!--TODO: research different methods of measuring physical attractiveness,
+TODO: research different methods of measuring physical attractiveness,
 list & discuss them here. Discuss correlation of attractiveness ratings
-within cultures.-->
+within cultures.
+
+* Seven point Likert scale
+-->
 
 <!--
 TODO: read
@@ -680,16 +684,16 @@ Problems
 
 <!--
 TODO: Read:
-/usr/local/doc/unread/attractiveness/cross_cultural_agreement_in_facial_attractiveness_preferences_coetzee_2014.pdf
 /usr/local/doc/unread/attractiveness/maxims_or_myths_of_beauty_langlois_et_al_2000.pdf
 -->
 
 One possible criticism of the above experiment could be that no
-clear method of establishing of whom to approach was used. This is
-a fair criticism, since attractiveness is a subjective evaluation
-criterion.  However, one must also consider that subjective judgements
-of attractiveness correlate strongly both within cultures as well as
-cross-culturally.<!--TODO: citation here-->
+clear method of establishing of whom to approach was used. This
+is a fair criticism, since attractiveness is a subjective
+evaluation criterion.  However, one must also consider that
+subjective judgements of attractiveness correlate strongly
+both within cultures as well as cross-culturally (see [Coetzee et al.
+2013](./doc/masturbation_and_attractiveness/cross_cultural_agreement_in_facial_attractiveness_preferences_coetzee_2014.pdf "Cross-Cultural Agreement in Facial Attractiveness Preferences: The Role of Ethnicity and Gender")).
 
 Another possible method would have been to approach people completely
 randomly, which would have reduced bias significantly. However, it
@@ -881,7 +885,8 @@ other reason. Indeed, one could suppose that masturbation is
 reproductively beneficial, since it has apparently been selected
 for by natural and/or sexual selection. "Major mechanisms that do not
 contribute to fitness do not survive in evolutionary equilibrium." ([Ng
-1995](./doc/better_words/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf) p. 9).
+1995](./doc/better_words/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf "Towards Welfare Biology: Evolutionary Economics of Animal Consciousness and Suffering")
+p. 9).
 
 <!--TODO: search for examples of animal species masturbating,
 as well as the reasoning about the evolutionary reasons for masturbation:

@@ -5,7 +5,6 @@ exec(open("ndim_diamond_square.py").read())
 
 def climb(space, pos, size, dim):
 	"""At position pos in space, do some kind of climbing."""
-
 	return climb_dim(space, pos, size, dim)
 
 def climb_dim(space, pos, size, dim):
