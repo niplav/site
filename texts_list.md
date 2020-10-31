@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-10-13, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2020-10-29, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -12,6 +12,37 @@ These are the texts I have read since May 2017 (sorted by starting date,
 newest additions first). A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Techniques for optimizing worst-case performance (Paul Christiano, 2019)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/E2aZ9Xwdz3i2ghPtn)
+* \* The Human Predicament (David Benatar, 2017)
+* [Thoughts on reward engineering (Paul Christiano, 2019)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/NtX7LKhCXMW2vjWx6)
+* [w-shingling (English Wikipedia, 2018)](https://en.wikipedia.org/wiki/W-shingling)
+* [Capability amplification (Paul Christiano, 2019)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/t3AJW5jP3sk36aGoC)
+* [Shingling (English Wikipedia, 2015)](https://en.wikipedia.org/wiki/Shingling)
+* FAST Approaches to Scalable Similarity-based Test Case Priorization (Breno Miranda/Emilio Cruciani/Roberto Verdecchia/Antonia Bertolino, 2018)
+* [Coreset (English Wikipedia, 2019)](https://en.wikipedia.org/wiki/Coreset)
+* [Learning with catastrophes (Paul Christiano, 2019)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/qALeGJ9nPcs9eC9Af)
+* [The reward engineering problem (Paul Christiano, 2019)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/4nZRzoGTqg8xy5rr8)
+* [Complexity no Bar to AI (Gwern Branwen, 2019)](https://www.gwern.net/Complexity-vs-AI)
+* [ETF-Depot aufbauen (Ramstein, 2020)](https://www.wertpapier-forum.de/topic/43810-etf-depot-aufbauen/)
+* [Directions and desiderata for AI alignment (Paul Christiano, 2019)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/kphJvksj5TndGapuh)
+* [Fashion and clothes for players (The Red Quest, 2019)](https://theredquest.wordpress.com/2019/02/25/fashion-and-clothes-for-players/)
+* [AlphaGo Zero and capability amplification (Paul Christiano, 2019)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/HA3oArypzNANvXC38)
+* [A Step-By-Step Guide to Starting to Dress Well for the Risk-Averse Neophyte (Metcarfre, 2013)](https://old.reddit.com/r/malefashionadvice/comments/1laa42/a_stepbystep_guide_to_starting_to_dress_well_for/)
+* [Factored Cognition (stuhlmueller, 2018)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/DFkGStzvj3jgXibFG)
+* [Investieren für Einsteiger (Leonhard_E, 2016)](https://www.wertpapier-forum.de/topic/49689-investieren-f%C3%BCr-einsteiger/)
+* [A Guide To: Guides (HalfTheGoldTreasure, 2020)](https://old.reddit.com/r/malefashionadvice/comments/i2vxx7/a_guide_to_guides/)
+* [k-means++ (English Wikipedia, 2020)](https://en.wikipedia.org/wiki/K-means%2B%2B)
+* [Benign model-free RL (Paul Christiano, 2018)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/PRaxzmDJdvie46ahL)
+* [k-means clustering (English Wikipedia, 2020)](https://en.wikipedia.org/wiki/K-means_clustering)
+* [Iterated Distillation and Amplification (Ajeya Cotra, 2018)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/HqLxuZ4LhaFhmAHWk)
+* [Corrigibility (Paul Christiano, 2018)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/fkLYhTQteAu5SinAc)
+* Mortality in the United States, 2018 (Jiaquan Xu/Sherry L. Murphy/Kenneth D. Kochanek/Elizabeth Arias, 2020)
+* [Mediocrity principle (English Wikipedia, 2020)](https://en.wikipedia.org/wiki/Mediocrity_principle)
+* [Particle chauvinism (English Wikipedia, 2019)](https://en.wikipedia.org/wiki/Particle_chauvinism)
+* Scalable Approaches for Test Suite Reduction (Emilio Cruciani/Breno Miranda/Roberto Verdecchia/Antonia Bertolino, 2019)
+* [Humans Consulting HCH (Paul Christiano, 2018)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/NXqs4nYXaq8q6dTTx)
+* Cooperative Inverse Reinforcement Learning (Dylan Hadfield-Menell/Anca Dragan/Pieter Abbeel/Stuart Russell, 2016)
+* A Survey on Test Suite Reduction Frameworks and Tools (Saif Ur Rehman Khan/Sai Peck Lee/Raja Wasim Ahmad/Adnan Akhunzada/Victor Chang, 2017)
 * [Approval-directed bootstrapping (Paul Christiano, 2018)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/6x7oExXi32ot6HjJv)
 * [Approval-directed agents (Paul Christiano, 2018)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/7Hr8t6xwuuxBTqADK)
 * [Notes on "The Anthropology of Childhood" (Julia Wise, 2020)](https://www.lesswrong.com/posts/vwM7hnT9ysE3suwfk/notes-on-the-anthropology-of-childhood)
@@ -2114,7 +2145,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Schicksal und Charakter (Walter Benjamin, 1919)](https://www.textlog.de/benjamin-schicksal-charakter.html)
 * [Zwei Gedichte von Friedrich Hölderlin (Walter Benjamin, 1914)](https://www.textlog.de/benjamin-zwei-gedichte-friedrich-hoelderlin.html)
 * [Das Leben der Studenten (Walter Benjamin, 1915)](https://www.textlog.de/benjamin-leben-studenten.html)
-* [|2029 An Anarchist FAQ (Iain McKay/Gary Elkin/Dave Neal/Ed Boraas, 2009)](https://libcom.org/files/Iain%20McKay%20-%20Anarchist%20FAQ.pdf)
+* [|2030 An Anarchist FAQ (Iain McKay/Gary Elkin/Dave Neal/Ed Boraas, 2009)](https://libcom.org/files/Iain%20McKay%20-%20Anarchist%20FAQ.pdf)
 * [Sozialreform oder Revolution (Rosa Luxemburg, 1899)](https://www.marxists.org/deutsch/archiv/luxemburg/1899/sozrefrev/)
 * [The Worldly Philosophers (Robert L. Heilbroner, 1998)](http://www.starbooksfeaa.weebly.com/uploads/5/4/8/6/54869709/the_wordly_philosophers.pdf)
 * [Jordan Peterson and Camille Paglia – A Marathon of Academic Incompetence (Hanzi Freinacht, 2017)](http://metamoderna.org/jordan-peterson-and-camille-paglia-a-marathon-of-academic-incompetence?lang=en)

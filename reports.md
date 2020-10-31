@@ -22,9 +22,6 @@ and whether I recommend these things.__
 Reports
 =======
 
-<!--What I did, why I did it, what the effects were, and whether I
-recommend the thing-->
-
 Sometimes, I perform little (and not so little) informal experiments.
 Although I don't collect any data during the experiment, subjective
 reports on their effects might be helpful for other people. Don't take

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2020-10-13, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2020-10-31, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -60,3 +60,4 @@ Currently, I am reading the following books:
 * 2666 (Roberto Bolaño, 2004)
 * Moral Uncertainty (William MacAskill/Krister Bykvist/Toby Ord, 2020)
 * Programming in Lua (Roberto Ierusalimschy, 2013)
+* The Human Predicament (David Benatar, 2017)
