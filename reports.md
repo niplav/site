@@ -1,8 +1,8 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2020-11-03, language: english, status: notes, importance: 3, confidence: log*
-
+*author: niplav, created: 2020-10-07, modified: 2020-11-06, language: english, status: notes, importance: 3, confidence: log*
+a}
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
 
@@ -16,7 +16,6 @@ and whether I recommend these things.__
         * Longer streaks of attention
         * Surrounding time matters
 * Report: Buying socks of one kind
-* Report: Attempted 7-day at-home retreat
 -->
 
 Reports
@@ -305,6 +304,71 @@ the past effects, this was an investment completely worth it.
 
 __8/10__
 
+Attempted 7-day Meditation Retreat at Home
+------------------------------------------
+
+### What I Did
+
+At the beginning of October 2020, I planned doing a 7-day meditation
+retreat at home. My initial plan was to do nothing but meditate for all
+7 days, at ~10h of meditation a day. During that time, I planned on not
+leaving the house, using the internet, visiting friends etc.
+
+I used [this reddit
+post](https://old.reddit.com/r/Meditation/comments/393ktj/diy_10_day_meditation_retreat_at_home_mindfulness/)
+as an inspiration for my schedule.
+
+I removed all electronic devices from my room, keeping only my smartphone
+(using it as a timer), but disabling nearly all apps & turning off wifi.
+
+My schedule was to do sitting and walking meditation alternatingly,
+1h each, and doing mostly concentration practice <!--TODO: anapanasati
+for sitting, what for walking?-->.
+
+### Why I Did It
+
+At that time I had meditated ~250h, and had read several times that
+retreats were the best option of inducing qualitative shifts in meditation
+practice. But I didn't want to plan & pay for a meditation retreat just
+yet, so I decided that I could try the cheaper option at home and see
+how it worked out.
+
+### What the Effects Were
+
+I started the retreat off very strongly: Meditating for 10h each on the
+first two days. Unfortunately, the social environment was not ideal for
+intense practice, and I became less determined to continue practicing as
+the days went on. I meditated 8, 6, ½, and 4 hours on the next 4 days,
+leaving the seventh completely free.
+
+However, the effects of doing intense concentration practice were still
+quite strong. I had some episodes of very clear & vivid mindfulness,
+following the breath easily for several minutes.
+
+I did ½h of metta<!--TODO: link, formatting-->, which convinced me to
+incorporate more loving-kindness meditation into daily practice as well.
+
+On the evenings first and second day specifically, my head felt like a
+swarm of busy tiny insects were performing a great amount of labour inside
+of it – something was clearly happening, and I had the impression that
+a lot of neural connections were being built.
+
+### Whether It Was a Good Idea
+
+Although I failed to stay consistent during the time and did not practice
+as much as I wanted to, I am still very glad I did the retreat. My
+concentration practice was markedly better afterwards, and it has helped
+me in very subtle ways.
+
+I now plan doing a retreat in the right social setting that encourages me
+to be more disciplined about my practice.
+
+I would tentatively recommend aiming for 2/3 days of intense practice
+instead of 7, that seems a lot more doable on your own. But if you're
+especially enthusiastic, you might very well succeed where I failed.
+
+__7.5/10__
+
 <!--
 Kissing Hand as Goodbye
 -----------------------
@@ -314,9 +378,6 @@ Becoming Marginally More Productive
 
 Buying Socks of One Kind
 -------------------------
-
-Attempted 7-day Meditation Retreat at Home
-------------------------------------------
 
 Meditation for 250 hours
 -------------------------

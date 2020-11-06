@@ -275,9 +275,6 @@ Texts
 	* Unilateralist's Curse
 	* Pure Replicator Hell
 	* Convergent Instrumental Goals
-* 7 day DIY meditation retreat
-	* 2020-10-01 – 2020-10-7
-	* See also [here](https://old.reddit.com/r/Meditation/comments/393ktj/diy_10_day_meditation_retreat_at_home_mindfulness/)
 * Egoistic Cost-Benefit Analysis of focusing on AI alignment
 * Voting Cost-Benefit Analysis
 	* Altruistic, egoistic
