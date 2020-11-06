@@ -12,6 +12,14 @@ These are the texts I have read since May 2017 (sorted by starting date,
 newest additions first). A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Meta-execution (Paul Christiano, 2018)](https://www.lesswrong.com/posts/4GXqbNvpJ4hJtcoSX/meta-execution)
+* [Sutadhara Sutta (AN 5:96) (Author unknown, -100)](https://www.dhammatalks.org/suttas/AN/AN5_96.html)
+* [Security amplification (Paul Christiano, 2019)](https://www.lesswrong.com/posts/hjEaZgyQ2iprDhkg8/security-amplification)
+* Prioritizing Test Cases For Regression Testing (Gregg Rothermel/Roland H. Untch/Chengyun Chu/Mary Jean Harrold, 2001)
+* [Shujin's Comprehensive Fit Guide (shujin, 2017)](https://old.reddit.com/r/malefashionadvice/comments/ehrtv/shujins_comprehensive_fit_guide/)
+* [Reliability amplification  (Paul Christiano, 2019)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/6fMvGoyy3kgnonRNM)
+* Cross-Cultural Agreement in Facial Attractiveness Preferences: The Role of Ethnicity and Gender (Vinet Coetzee/Jaco M. Greeff/IAn D. Stephen/David I. Perrett, 2014)
+* Adaptive Random Testing: the ART of Test Case Diversity (Tsong Yueh Chen/Fei-Ching Kuo/Robert G. Merkel/T.H. Tse, 2010)
 * [Techniques for optimizing worst-case performance (Paul Christiano, 2019)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/E2aZ9Xwdz3i2ghPtn)
 * \* The Human Predicament (David Benatar, 2017)
 * [Thoughts on reward engineering (Paul Christiano, 2019)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/NtX7LKhCXMW2vjWx6)
@@ -244,7 +252,6 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Spaghetti Towers (eukaryote, 2018)](https://www.lesswrong.com/posts/NQgWL7tvAPgN2LTLn/spaghetti-towers)
 * [Pascal's mugging (English Wikipedia, 2019)](https://en.wikipedia.org/wiki/Pascal's_mugging)
 * [My Team Won the Robot Competition (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/02/04/)
-* [Keep Your Identity Small (Paul Graham, 2009)](http://www.paulgraham.com/identity.html)
 * [On Doing the Improbable (Eliezer Yudkowsky, 2018)](https://www.lesswrong.com/posts/st7DiQP23YQSxumCt/on-doing-the-improbable)
 * [Unrolling social metacognition: Three levels of meta are not enough. (Academian, 2018)](https://www.lesswrong.com/posts/K4eDzqS2rbcBDsCLZ/unrolling-social-metacognition-three-levels-of-meta-are-not)
 * [Expressive Vocabulary (Alicorn, 2018)](https://www.lesswrong.com/posts/H7Rs8HqrwBDque8Ru/expressive-vocabulary)
