@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-10-26, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-11-03, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -282,6 +282,8 @@ Texts
 * Voting Cost-Benefit Analysis
 	* Altruistic, egoistic
 * Subjective time experience for advanced meditators
+* Wireheading: Theory and Practice
+* Timeline of the Odyssee
 
 ### Ideas
 

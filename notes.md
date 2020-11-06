@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2020-07-20, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2020-11-03, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -418,14 +418,18 @@ as [psychopaths](https://en.wikipedia.org/wiki/Psychopathy) and
 [sociopaths](https://en.wikipedia.org/wiki/Psychopathy#Sociopathy).
 
 However, many philosophers have argued that there are [moral
-truths](https://plato.stanford.edu/entries/moral-realism/), and that therefore
-the orthogonality hypothesis doesn't hold for very advanced artificial
-intelligences. One way to model this would be to say that there is a
-set of action-compelling sentences `$V=\{ v_{1}, v_{2}, \dots\} \subset \Sigma*$`
-that, when believed by an agent, compel this agent to a specific
-action. With "believe" this text means that an agent contains a sentence
-in either its literal form or in an isomorphic form that makes it trivial
-to reconstruct the literal sentence in its internal memory.
+truths](https://plato.stanford.edu/entries/moral-realism/),
+and that therefore the orthogonality hypothesis doesn't hold
+for very advanced artificial intelligences. One way to model
+this would be to say that there is a set of action-compelling
+sentences `$V=\{ v_{1}, v_{2}, \dots\} \subset \Sigma*$` that, when
+believed by an agent, compel this agent to a specific action ([Christiano
+2019](https://www.lesswrong.com/posts/hjEaZgyQ2iprDhkg8/security-amplification#Example__magic_phrase "Security Amplification")
+calls them "magic sentences", but assumes that these occur simply as
+faults specific to the AI system). With "believe" this text means that an
+agent contains a sentence in either its literal form or in an isomorphic
+form that makes it trivial to reconstruct the literal sentence in its
+internal memory.
 
 Suppose that an agent `$A$` starts out not believing any sentence from
 `$V$`. There seem to be three options regarding `$V$` for `$A$`:

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2020-10-28, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2020-10-07, modified: 2020-11-03, language: english, status: notes, importance: 3, confidence: log*
 
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
@@ -320,6 +320,31 @@ Attempted 7-day Meditation Retreat at Home
 
 Meditation for 250 hours
 -------------------------
+
+> There is the case where a monk, having gone to the wilderness, to
+the shade of a tree, or to an empty building, sits down folding his
+legs crosswise, holding his body erect, and setting mindfulness to
+the fore. Always mindful, he breathes in; mindful he breathes out.
+> Breathing in long, he discerns, ‘I am breathing in long’; or
+breathing out long, he discerns, ‘I am breathing out long.’ Or
+breathing in short, he discerns, ‘I am breathing in short’; or
+breathing out short, he discerns, ‘I am breathing out short.’
+
+*– [Ānāpānasati Sutta (MN 118)](https://www.dhammatalks.org/suttas/MN/MN118.html), [Author unknown](https://en.wikipedia.org/wiki/P%C4%81li_Canon#Authorship), ca. -100*
+
+Strong reduction in
+
+* Sadness
+* Envy
+* Jealousy
+* Guilt
+* Shame
+
+Weak reduction in
+
+* Anger
+
+~10% increase in hedonic baseline.
 
 Tracking A Lot
 ---------------
