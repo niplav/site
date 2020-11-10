@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-11-03, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-11-10, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -281,6 +281,7 @@ Texts
 * Subjective time experience for advanced meditators
 * Wireheading: Theory and Practice
 * Timeline of the Odyssee
+* Requirements for AI Safety via Debate
 
 ### Ideas
 
@@ -488,6 +489,7 @@ Texts
 		* Unbounded Analysis on arbital, problem relaxation as a tactic on LW
 	* Cryonics
 	* Daygame
+* Cryonics Zine
 * Fundamentals
 
 > we should be far more explicit about the assumed background against
