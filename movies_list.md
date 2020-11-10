@@ -11,6 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Ex Machina](https://www.imdb.com/title/tt0470752/)
 * [A Beautiful Mind](https://www.imdb.com/title/tt0268978/)
 * [Midsommar](https://www.imdb.com/title/tt8772262/)
 * [Harry Potter and the Chamber of Secrets](https://www.imdb.com/title/tt0295297/)
