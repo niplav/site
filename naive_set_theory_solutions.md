@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2020-06-02, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2020-11-11, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -57,7 +57,7 @@ Proof:
 	A \cup C = A \Leftrightarrow C \subset A$$
 </div>
 
-This is trivially true.
+The last statement is trivially true.
 
 □
 
@@ -523,7 +523,7 @@ and `$B໔A=\bigcup_{b \in B} A_{b}=\{a,b\}$`, and those
 two are different sets.
 
 Despite my obvious love for unnecessarily inventing new notation,
-I'm not a very good mathematician, and believe (credence `$\ge 99.7\%$`)
+I'm not a very good mathematician, and believe (credence `$\ge 99\%$`)
 that I have misunderstood something here (the rest is taken up by this
 being an editing/printing mistake). I am not sure what, but would be
 glad about some pointers where I'm wrong.
@@ -541,7 +541,7 @@ counterexample is
 	$$X=\{a,b\}\\
 	f_{a}=b, f_{b}=b\\
 	g_{a}=a, g_{b}=a\\
-	f໔g=\{b\}\
+	f໔g=\{b\}\\
 	g໔f=\{a\}$$
 </div>
 
@@ -552,7 +552,51 @@ counterexample is
 <div>
 	$$X=\{a,b,c\}\\
 	f_{a}=\{b\}, f_{b}=\{b\}, f_{c}=\{b\}\\
-	g_{a}=\{a\}, g_{b}=\{c\}, g_{c}={c\}\\
-	f໔g=\{b\}\
+	g_{a}=\{a\}, g_{b}=\{c\}, g_{c}=\{c\}\\
+	f໔g=\{b\}\\
 	g໔f=\{c\}$$
 </div>
+
+### Exercise 2
+
+To be shown:
+
+(i): `$(\bigcup_{i \in I} A_{i}) \cap (\bigcup_{j \in J} B_{j})=\bigcup_{(i,j) \in I \times J} (A_{i} \cap B_{j})$`
+
+1\. `$(\bigcup_{i \in I} A_{i}) \cap (\bigcup_{j \in J} B_{j}) \subset \bigcup_{(i,j) \in I \times J} (A_{i} \cap B_{j})$`
+
+Let `$e \in (\bigcup_{i \in I} A_{i}) \cap (\bigcup_{j \in J} B_{j})$`.
+Then there exists an `$i_{e} \in I$` so that `$e \in A_{i_{e}}$` and a
+`$j_{e} \in J$` so that `$e \in B_{j_{e}}$`.
+Then `$(i_{e}, j_{e}) \in I \times J$`, and furthermore `$e \in A_{i_{e}} \cap B_{j_{e}}$`.
+Since `$A_{i_{e}} \cap B_{j_{e}} \subset \bigcup_{(i,j) \in I \times J} (A_{i} \cap B_{j})$`,
+`$e$` is contained in there as well.
+
+Only in this case I will attempt to write out the the proof more formally:
+
+<div>
+	$$e \in (\bigcup_{i \in I} A_{i}) \cap (\bigcup_{j \in J} B_{j}) \Rightarrow \\
+	e \in (\bigcup_{i \in I} A_{i}) \land e \in (\bigcup_{j \in J} B_{j}) \Rightarrow \\
+	(\exists i_{e} \in I: e \in A_{i_{e}}) \land (\exists j_{e} \in J: e \in B_{j_{e}}) \Rightarrow \\
+	\exists i_{e} \in I: \exists j_{e} \in J: e \in A_{i_{e}} \land e \in B_{j_{e}} \Rightarrow \\
+	\exists (i_{e}, j_{e}) \in I \times J: e \in (A_{i_{e}} \cap  B_{j_{e}}) \Rightarrow \\
+	e \in \bigcup_{(i,j) \in I \times J} (A_{i} \cap B_{j})$$
+</div>
+
+2\. `$(\bigcup_{i \in I} A_{i}) \cap (\bigcup_{j \in J} B_{j}) \supset \bigcup_{(i,j) \in I \times J} (A_{i} \cap B_{j})$`
+
+Let `$e \in \bigcup_{(i,j) \in I \times J} (A_{i} \cap B_{j})$`.
+Then there exists `$(i_{e}, j_{e}) \in I \times J$` so that
+`$e \in (A_{i_{e}} \cap  B_{j_{e}})$`.
+But then `$e \in \bigcup_{i \in I} A_{i}$` and `$e \in \bigcup_{j \in J} B_{j}$`,
+which means that `$e$` is also in their intersection.
+
+□
+
+(ii): `$(\bigcap_{i \in I} A_{i}) \cup (\bigcap_{j \in J} B_{j})=\bigcap_{(i,j) \in I \times J} (A_{i} \cup B_{j})$`
+
+1\. `$(\bigcap_{i \in I} A_{i}) \cup (\bigcap_{j \in J} B_{j}) \subset \bigcap_{(i,j) \in I \times J} (A_{i} \cup B_{j})$`
+
+2\. `$(\bigcap_{i \in I} A_{i}) \cup (\bigcap_{j \in J} B_{j}) \supset \bigcap_{(i,j) \in I \times J} (A_{i} \cup B_{j})$`
+
+□
