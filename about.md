@@ -335,7 +335,6 @@ I'm most happy with they/them.
 * [Metaculus](https://www.metaculus.com/accounts/profile/112493/)
 * [Reddit](https://old.reddit.com/u/niplav)
 * [Wikipedia](https://en.wikipedia.org/wiki/User:Niplav)
-* [Twitter](https://twitter.com/niplavyushtun)
 
 ### Contact
 

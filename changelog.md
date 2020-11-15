@@ -1,12 +1,19 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-10-28, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2020-11-15, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
+
+November 2020
+-------------
+
+* [Exercise 2 in Section 9](./naive_set_theory_solutions.html#Exercise-2_3) in [Naive Set Theory](./naive_set_theory_solutions.html)
+* Reports
+	* [Attempted 7-Day Meditation Retreat at Home](./reports.html#Attempted-7Day-Meditation-Retreat-at-Home)
 
 October 2020
 ------------
@@ -21,7 +28,7 @@ October 2020
 	* [Riding the Bike a Lot](./reports.html#Riding-the-Bike-a-Lot)
 	* [Mostly Stopping to Bite My Nails](./reports.html#Mostly-Stopping-to-Bite-My-Nails)
 	* [Melatonin](./reports.html#Melatonin)
-* [Some more thoughts](./naive_set_theory_solutions.html#Other-Failing-Ways-of-Interpreting-the-Exercise) on [Exercise 1 from Section 9](./naive_set_theory_solutions.html#Exercise-1_6)
+* [Some more thoughts](./naive_set_theory_solutions.html#Other-Failing-Ways-of-Interpreting-the-Exercise) on [Exercise 1 from Section 9](./naive_set_theory_solutions.html#Exercise-1_6) in [Naive Set Theory](./naive_set_theory_solutions.html)
 * [Explaining the different approaches of analysis](./range_and_forecasting_accuracy.html#Three-Different-Analyses-An-Illustrative-Example) for [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 
 ### Other

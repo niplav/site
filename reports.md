@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2020-11-06, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2020-10-07, modified: 2020-11-15, language: english, status: notes, importance: 3, confidence: log*
 a}
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
@@ -304,7 +304,7 @@ the past effects, this was an investment completely worth it.
 
 __8/10__
 
-Attempted 7-day Meditation Retreat at Home
+Attempted 7-Day Meditation Retreat at Home
 ------------------------------------------
 
 ### What I Did
@@ -322,7 +322,7 @@ I removed all electronic devices from my room, keeping only my smartphone
 (using it as a timer), but disabling nearly all apps & turning off wifi.
 
 My schedule was to do sitting and walking meditation alternatingly,
-1h each, and doing mostly concentration practice <!--TODO: anapanasati
+1h each, and doing mostly concentration practice<!--TODO: anapanasati
 for sitting, what for walking?-->.
 
 ### Why I Did It

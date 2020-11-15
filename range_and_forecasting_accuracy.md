@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-10-27, language: english, status: finished, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-11-14, language: english, status: finished, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
@@ -613,7 +613,26 @@ elections and the weather. This is of course only a weak trend, but
 one that could influence the questions (as will be investigated in
 [this section](#Accuracy-Between-Questions)).
 
-### Low Sample Sizes With High Ranges
+##### Simpson's Paradox
+
+[Simpson's Paradox](https://en.wikipedia.org/wiki/Simpson%27s_paradox)
+is the phenomenon that while two features are correlated in a dataset,
+it can be true that the features are negatively correlated for some
+distinct subsets of the dataset.
+
+It is best explained visually:
+
+![Simpson's paradox, taken from Wikipedia](./img/range_and_forecasting_accuracy/simpsons_paradox.gif "An animated gif of a plot. In the plot there is a set of points in a grid. The set of points is elongated, from the top-left corner to the bottom-right corner. It can be clearly separated into five subsets. Each subset is elongated from the bottom-left corner to the top-right corner. The animation first shows one line going from top-left to bottom-right, through the whole set of points, and then highlights the five subsets, while also showing five lines, each going through the subsets from the bottom-left to the top-right corner.")
+
+It might be the case that this analysis has come up against an instance
+of Simpson's paradox: The accuracy of forecasts is negatively correlated
+with range within the same question, but the accuracy of forecasts is
+positively correlated with range across questions (because the kinds
+of questions with longer time horizons generally allow more accurate
+forecasts). Unfortunately, whether Simpson's paradox applies or not can
+not always be easily judged from the scatterplot of datapoints.
+
+#### Low Sample Sizes With High Ranges
 
 Another question one might ask is: How big are the sample sizes at the
 tails when the range is high?
@@ -695,12 +714,6 @@ PredictionBook), but still relevant:
 Because in the linear regression all datapoints are weighted equally,
 it could very well be that a tiny bit of noise at the tails dominates
 the entire regression.
-
-<!--
-TODO: finish
-
-#### Simpson's Paradox
--->
 
 Accuracy Between Questions
 --------------------------
