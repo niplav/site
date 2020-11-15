@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2020-10-31, language: english, status: in progress, importance: 2, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2020-11-16, language: english, status: in progress, importance: 2, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -321,8 +321,12 @@ self-experiment.
 
 Data was collected as follows:
 
+<!--
+Noctural emission on 2020-11-16T04:00
+-->
+
 I abstained from masturbating and watching pornography from
-2020-11-08T00:00 to \_, resulting in >90 days of abstinence from
+2020-11-13T23:00 to \_, resulting in >90 days of abstinence from
 masturbation (which is also the period [recommended by the NoFap
 community](https://nofap.com/rebooting/): "NoFap’s gold standard of
 success is our 90-day reboot.").
@@ -623,8 +627,8 @@ a given percentage (usually and also in this case 5%).
 I used a two-sample Student's t-test to test the
 hypotheses, under the assumption that the distribution
 of results from cold approach was roughly [normally
-distributed](https://en.wikipedia.org/wiki/Normal_distribution) <!--TODO:
-link-->and that the [variance](https://en.wikipedia.org/wiki/Variance)
+distributed](https://en.wikipedia.org/wiki/Normal_distribution)
+and that the [variance](https://en.wikipedia.org/wiki/Variance)
 of the two sample sets was also roughly equal. As one can see from the
 figures, this assumption of normal distribution \_.
 

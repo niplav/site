@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2020-11-03, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2020-11-15, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -31,11 +31,13 @@ following method:
 
 Read [Wikipedia's
 Contents:Outlines](https://en.wikipedia.org/wiki/Portal:Contents/Outlines)
-from top to bottom. If a link is a link to a Wikipedia article, open it
-and read it, without opening any further links. If a link leads to an
-outline, open the link and recursively apply the same procedure to the
-outline. If an article is opened a second time, it can be discarded. Lists
-can also be ignored.
+from top to bottom. If a link is a link to a Wikipedia article, open
+it and read it, without opening any further links. If a link leads to
+an outline, open the link and recursively apply the same procedure
+to the outline. If an article is opened a second time, it can be
+discarded. Lists can also be ignored. (This is basically applying
+[depth-first search](https://en.wikipedia.org/wiki/Depth-first_search),
+though without a success condition).
 
 This method results in a corpus of considerable size.<!--(TODO: how much text?)-->
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2020-11-11, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2020-11-14, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -11,11 +11,6 @@
 
 Solutions to “Naive Set Theory“
 ================================
-
-<!--
-A `$\TeX$` version of this solution is available
-[here](./code/naive_set_theory/exercises.pdf).
--->
 
 Section 3
 ---------
@@ -597,6 +592,31 @@ which means that `$e$` is also in their intersection.
 
 1\. `$(\bigcap_{i \in I} A_{i}) \cup (\bigcap_{j \in J} B_{j}) \subset \bigcap_{(i,j) \in I \times J} (A_{i} \cup B_{j})$`
 
+Let `$e \in (\bigcap_{i \in I} A_{i}) \cup (\bigcap_{j \in J}B_{j})$`.
+Then `$e$` is an element of all of `$A_{i}$` or an element of all of
+`$B_{j}$` (or both). Since that is the case, `$e$` is always an element of
+`$A_{i} \cup B_{j}$`. Then `$e$` is also an element of the intersection
+of all of these unions `$\bigcap_{(i,j) \in I \times J} (A_{i} \cup B_{j})$`.
+
+This can be written down more formally as well:
+
+<div>
+	$$e \in (\bigcap_{i \in I} A_{i}) \cup (\bigcap_{j \in J} B_{j}) \Rightarrow \\
+	e \in (\bigcap_{i \in I} A_{i}) \lor e \in (\bigcap_{j \in J} B_{j}) \Rightarrow \\
+	\forall i \in I: e \in A_{i} \lor \forall j \in J: e \in B_{j} \Rightarrow \\
+	\forall i \in I: \forall j \in J: e \in A_{i} \lor e \in B_{j} \Rightarrow \\
+	\forall i \in I: \forall j \in J: e \in A_{i} \cup B_{j} \Rightarrow \\
+	e \in \bigcap_{(i,j) \in I \times J} (A_{i} \cup B_{j})$$
+</div>
+
 2\. `$(\bigcap_{i \in I} A_{i}) \cup (\bigcap_{j \in J} B_{j}) \supset \bigcap_{(i,j) \in I \times J} (A_{i} \cup B_{j})$`
+
+Let `$e \in \bigcap_{(i,j) \in I \times J} (A_{i} \cup B_{j})$`. Then
+for every `$i$` and `$j$`, `$e \in A_{i} \cup B_{j}$`. That means that
+for every `$i$`, `$e \in  A_{i}$`: if there is just one `$j$` so that `$e \not \in B_{j}$`,
+for the last sentence to be true, `$A_{i}$` must compensate for that. Or,
+if not an `$e$` in every `$A_{i}$`, then this must be true for every
+`$B_{j}$` (with a similar reasoning as for `$A_{i}$`). But if `$e$` in
+every `$A_{i}$` or every `$B_{j}$`, it surely must be in their union.
 
 □
