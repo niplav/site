@@ -34,7 +34,7 @@ def search_around(space, pos, size, dim, intelligence):
 	minimum in the subspace searched. This subspace can be an n-ball
 	or an n-cube."""
 
-	step=round(intelligence**(1/dim))
+	step=round(intelligence**(2/dim))
 	subpos=[slice(0,0)]*dim
 	for i in range(0, dim):
 		subpos[i]=slice(max(0,pos[i]-step), min(size-1, pos[i]+step))
@@ -62,17 +62,17 @@ def datagen(dim, size, minval, maxval, extrfact, rounds, growth):
 
 	f.close()
 
-datagen(1, 8193, 0, 256, 0.5, 64, 1.001)
-datagen(1, 16385, 0, 256, 0.5, 64, 1.001)
-datagen(1, 32769, 0, 256, 0.5, 64, 1.001)
-datagen(1, 65537, 0, 256, 0.5, 64, 1.001)
-datagen(1, 1048577, 0, 256, 0.5, 64, 1.001)
-datagen(1, 33554433, 0, 256, 0.5, 64, 1.001)
-datagen(2, 8193, 0, 256, 0.5, 64, 1.001)	# 67125249
-datagen(3, 65, 0, 256, 0.5, 64, 1.001)		# 274625
-datagen(3, 129, 0, 256, 0.5, 64, 1.001)	# 2146689
-datagen(3, 255, 0, 256, 0.5, 64, 1.001)	# 16581375
-datagen(4, 65, 0, 256, 0.5, 64, 1.001)		# 17850625
-datagen(5, 33, 0, 256, 0.5, 64, 1.001)		# 39135393
-datagen(6, 17, 0, 256, 0.5, 64, 1.001)		# 24137569
-datagen(8, 9, 0, 256, 0.5, 64, 1.001)		# 43046721
+datagen(1, 8193, 0, 256, 0.5, 2048, 1.001)
+datagen(1, 16385, 0, 256, 0.5, 2048, 1.001)
+datagen(1, 32769, 0, 256, 0.5, 2048, 1.001)
+datagen(1, 65537, 0, 256, 0.5, 2048, 1.001)
+datagen(1, 1048577, 0, 256, 0.5, 2048, 1.001)
+datagen(1, 16777217, 0, 256, 0.5, 2048, 1.001)
+datagen(2, 8193, 0, 256, 0.5, 2048, 1.001)	# 67125249
+datagen(3, 65, 0, 256, 0.5, 2048, 1.001)		# 274625
+datagen(3, 129, 0, 256, 0.5, 2048, 1.001)	# 2146689
+datagen(3, 255, 0, 256, 0.5, 2048, 1.001)	# 16581375
+datagen(4, 65, 0, 256, 0.5, 2048, 1.001)		# 17850625
+datagen(5, 33, 0, 256, 0.5, 2048, 1.001)		# 39135393
+datagen(6, 17, 0, 256, 0.5, 2048, 1.001)		# 24137569
+datagen(8, 9, 0, 256, 0.5, 2048, 1.001)		# 43046721
