@@ -24,7 +24,7 @@ HTML=index.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
 	exercise_log.html \
-	senryu.html \
+	generalizing_diamond_square.html \
 	jazz_piano_book_exercises.html \
 	masturbation_and_attractiveness.html \
 	metamodernistisches_manifest.html \
@@ -34,6 +34,7 @@ HTML=index.html \
 	rationalist_gods.html \
 	range_and_forecasting_accuracy.html \
 	reports.html \
+	senryu.html \
 	tao_te_king.html \
 	toy_ai_takeoff_model.html \
 	two_people_on_a_planet.html \
