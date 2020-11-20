@@ -1,5 +1,4 @@
 .l("csv")
-.l("./load.kg")
 
 painttakeoff::{[if of o p i];if::"../../data/",x,".csv";of::x,".eps";
 	.fc(.ic(if));
@@ -9,7 +8,9 @@ painttakeoff::{[if of o p i];if::"../../data/",x,".csv";of::x,".eps";
 	i::*|+data;
 	o::.oc(of);
 	.tc(o);
-	frame([0],(#i),(_(#i)%10);(_&/i),(_|/i),(_(|/i)%30));
+	frame([0],(#i),(_(#i)%10);(_&/p),(_|/i),(_(|/i)%30));
+	xtitle("Time");
+	ytitle("Intelligence");
 	segplot(i);
 	setrgb(0;0;1);
 	segplot(p);
@@ -23,18 +24,12 @@ painttakeoff("1_16385_0.5_1.001")
 painttakeoff("1_32769_0.5_1.001")
 painttakeoff("1_65537_0.5_1.001")
 painttakeoff("1_1048577_0.5_1.001")
-
-onedim::.oc("onedim.eps")
-.tc(onedim)
-
-frame([0],(#oned),((#oned)%10);[0],(|/oned),((|/oned)%10))
-
-xtitle("Optimization algorithms")
-ytitle("Optimization algorithm strength")
-
-segplot(oned)
-
-draw()
-
-.fl()
-.cc(onedim)
+painttakeoff("1_16777217_0.5_1.001")
+painttakeoff("2_4097_0.5_1.001")
+painttakeoff("3_65_0.5_1.001")
+painttakeoff("3_129_0.5_1.001")
+painttakeoff("3_255_0.5_1.001")
+painttakeoff("4_65_0.5_1.001")
+painttakeoff("5_33_0.5_1.001")
+painttakeoff("6_17_0.5_1.001")
+painttakeoff("8_9_0.5_1.001")
