@@ -1,8 +1,8 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2020-11-15, language: english, status: notes, importance: 3, confidence: log*
-a}
+*author: niplav, created: 2020-10-07, modified: 2020-11-21, language: english, status: notes, importance: 3, confidence: log*
+
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
 
@@ -10,11 +10,6 @@ and whether I recommend these things.__
 * Report: Becoming Marginally More Productive
         * Follow Alexey Guzey's Advice, Leave the House
         * Internet Abstinence
-* Report: After 250 Hours of Meditation
-        * ~60 min a day
-        * Less bad at meditation
-        * Longer streaks of attention
-        * Surrounding time matters
 * Report: Buying socks of one kind
 -->
 
@@ -304,6 +299,120 @@ the past effects, this was an investment completely worth it.
 
 __8/10__
 
+Meditation for 300 hours
+-------------------------
+
+> There is the case where a monk, having gone to the wilderness, to
+the shade of a tree, or to an empty building, sits down folding his
+legs crosswise, holding his body erect, and setting mindfulness to
+the fore. Always mindful, he breathes in; mindful he breathes out.
+> Breathing in long, he discerns, ‘I am breathing in long’; or
+breathing out long, he discerns, ‘I am breathing out long.’ Or
+breathing in short, he discerns, ‘I am breathing in short’; or
+breathing out short, he discerns, ‘I am breathing out short.’
+
+*– [Ānāpānasati Sutta (MN 118)](https://www.dhammatalks.org/suttas/MN/MN118.html), [Author unknown](https://en.wikipedia.org/wiki/P%C4%81li_Canon#Authorship), ca. -100*
+
+### What I Did and Why I Did It
+
+Around the end of 2019, I started meditating. I had read about jhanas
+on the blog [Qualia Computing](https://qualiacomputing.com),
+especially in the post [Investing Time and Resources in
+Happiness](https://qualiacomputing.com/2019/04/03/investing-time-and-resources-in-happiness),
+and thought it would be worthwhile to try meditation.
+
+I started by reading [Mindfulness in Plain
+English](./doc/meditation/mindfulness_in_plain_english_gunaratana_1990.pdf),
+and sitting for around 20 to 30 minutes a day, doing simple concentration
+practice on the breath. I sometimes added 20 minutes or so of walking
+meditation, focusing on the sensations from the feet and legs. Over the
+course of 2020, I mostly continued my concentration practice, rarely
+adding some loving-kindness or noting. During that time, after enjoying
+the practice more and more, I expanded my meditation time to around 75
+minutes a day.
+
+As of November 2020, I have meditated 300 hours.
+
+### What The Effects Were
+
+Note: I ascribe many positive changes in my life to my meditation
+practice.  I feel like that is prudent, but inferring causality is very
+difficult (especially over long time horizons), and it is possible that
+I might be overrating my practice in its importance. That said, many of
+the positive effects coincide pretty well with me starting my practice,
+and seem to be similar to what other people are talking about.
+
+Off the cushion, I noticed that my hedonic baseline increased by
+around 15% (estimate, if such a number is indeed meaningful). I have
+felt happier, more empathetic, more equanimous (and at the same time
+more energized). I have learned to avoid many negative and unproductive
+thought loops, and sometimes even addictive behavior (e.g. in relation
+with the internet).
+
+I sometimes experience a "dropping down into reality moment", where I
+become acutely aware of the sensations in my body, or the sense of the
+space around me, or the silence around me. This is always quite enjoyable.
+
+I also experience negative sensations much less often, and if I do,
+they last for a much shorter time and are less intense. For example,
+I have noticed an 80% (again, estimate) reduction in
+
+* Sadness
+* Envy
+* Jealousy
+* Guilt
+* Shame
+
+The reduction of these negative states is partially (but not completely)
+responsible for the raising of my hedonic baseline.
+
+If I experience such states, it has become much easier to negotiate
+with them by acknowledging their existence, observing them more closely,
+and then "sending them down into the body". (I am not sure how coercive
+this is, but at the moment, my best guess is that there is relatively
+little coercion involved).
+
+Ironically, while my meditation practice has noticeably improved most
+aspects of my life, I do not notice as much progress in the quality of my
+meditation as I would have expected. I have the impression that I tend
+to experience less mind-wandering, and that my perception of sensations
+is somewhat more clear, but that might just be a corollary of me fixing
+my sleeping rhythm and not being quite tired during meditation.
+
+Sometimes, most often during a one-hour sit, I enter a state that is
+quite pleasant and clear. In it, I have no internal monologue, and feel
+a pervasive inner silence (outer silence is also mostly present, though
+I can still perceive auditory perceptions). There is also no drive to do
+anything else/go anywhere else. Unfortunately, it always has disappeared
+after only a few minutes.
+
+But these kinds of states are relatively rare, and most of my meditation
+sessions are like everyone else's: full of mind-wandering, short bursts
+of attention on the breath etc. I do, however, enjoy meditation more
+and more as time goes on.
+
+### Whether I Recommend It
+
+Recommending meditation, especially in the amounts that I do, is a very
+risky move. Meditation can cause very negative states of mind, or lead
+to mental changes that lead to radical changes in lifestyle. I have not
+yet had any experience of e.g. the dukkha ñanas, but I have been well
+informed about them, and have decided that the risk they pose can be
+traded off against the benefits I have observed so far, and that other,
+more advanced people have talked about.
+
+If my descriptions have stimulated your curiosity, I do
+recommend seeking out more information about meditation. If you
+are relatively analytical, I can recommend the [/r/streamentry
+wiki](https://old.reddit.com/r/streamentry/wiki/index), as well as the
+writings of [Daniel M. Ingram](https://integrateddaniel.info).
+
+I have still only read [Mindfulness in Plain
+English](./doc/meditation/mindfulness_in_plain_english_gunaratana_1990.pdf),
+and I liked it.
+
+__9/10__
+
 Attempted 7-Day Meditation Retreat at Home
 ------------------------------------------
 
@@ -378,34 +487,6 @@ Becoming Marginally More Productive
 
 Buying Socks of One Kind
 -------------------------
-
-Meditation for 250 hours
--------------------------
-
-> There is the case where a monk, having gone to the wilderness, to
-the shade of a tree, or to an empty building, sits down folding his
-legs crosswise, holding his body erect, and setting mindfulness to
-the fore. Always mindful, he breathes in; mindful he breathes out.
-> Breathing in long, he discerns, ‘I am breathing in long’; or
-breathing out long, he discerns, ‘I am breathing out long.’ Or
-breathing in short, he discerns, ‘I am breathing in short’; or
-breathing out short, he discerns, ‘I am breathing out short.’
-
-*– [Ānāpānasati Sutta (MN 118)](https://www.dhammatalks.org/suttas/MN/MN118.html), [Author unknown](https://en.wikipedia.org/wiki/P%C4%81li_Canon#Authorship), ca. -100*
-
-Strong reduction in
-
-* Sadness
-* Envy
-* Jealousy
-* Guilt
-* Shame
-
-Weak reduction in
-
-* Anger
-
-~10% increase in hedonic baseline.
 
 Tracking A Lot
 ---------------

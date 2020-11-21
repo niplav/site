@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-07-22, modified: 2020-10-31, language: english, status: in progress, importance: 7, confidence: highly unlikely*
+*author: niplav, created: 2020-07-22, modified: 2020-11-21, language: english, status: in progress, importance: 7, confidence: highly unlikely*
 
 > __In [AI safety](https://en.wikipedia.org/wiki/AI_control_problem),
 significant time has been spent on the question of
@@ -291,6 +291,40 @@ position.
 	return maxpos
 
 #### Brute Force Search
+
+After hill-climbing, the model searches the neighbouring region of
+the search space for better algorithms. The neighbouring region,
+in this case, is a hypercube of dimension `$n$` and the size
+`$1+2*\sqrt[n]{i^2}$`, with the current position being the center
+of that cube (`$i$` is the current intelligence).
+
+The choice of making the size of the hypercube cubic in the intelligence
+is pretty much arbitrary. I will test with different approaches,
+e.g. making it linear.<!--TODO: test around whether this makes any
+difference-->
+
+	step=round(intelligence**(2/dim))
+	subpos=[slice(0,0)]*dim
+	for i in range(0, dim):
+		subpos[i]=slice(max(0,pos[i]-step), min(size-1, pos[i]+step))
+	subsection=space[tuple(subpos)]
+
+This subsection of the space is then brute-force searched for a maximum,
+akin to the agent being able to reason about it and find near local
+maxima.
+
+	mp=np.where(subsection == np.amax(subsection))
+	pos=np.array([list(mp[i])[0]+subpos[i].start for i in range(0, dim)])
+	return pos
+
+The position of the maximum found is then returned (often the current
+position). A new maximum having been found is akin to the agent
+discovering a more intelligent agent, and modifying itself to become
+that agent.
+
+This approach is not as efficient as it could be: If the agent is caught
+at a local maximum, this approach leads to it searching parts of the
+search space multiple times.
 
 ### External Intelligence Improvements
 

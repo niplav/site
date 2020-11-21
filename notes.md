@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2020-11-15, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2020-11-21, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -567,7 +567,7 @@ people one would loose by killing everybody over the age of 55:
 	[44473200.7207658453 44078304.0199950951 43630631.678052885 43123831.4110944785 42551000.4370012988 41904706.6458454302 41177037.9097540623 40359688.6128505703 39444094.1754678999 38421625.9504005789 37283860.1222638241 36022934.7459101827 34632008.242851397 33105829.7560855725 31441425.7491110598 29638896.9542750156 27702304.0099124066 25640597.8716393133 23468522.0145014683 21207378.6146322503 18885513.690200932 16538343.3518518112 14207725.8491815205 11940497.2176655739 9786049.67948789197 7792956.91164218079 6004843.63205038408 4455941.53315815534 3167019.65254407032 2142539.59874557882 1369859.09840341984 821005.831380952029 456963.772747178294 233688.760268988168 108467.196268261483 45058.7560290022783 16486.0426936225017 5216.0267386251195 1397.4204471537743 309.483499954735544]
 
 However, what we really care about is the number of life-years lost
-(among other things). For simplicities sake, I'll assume that all life
+(among other things). For simplicity's sake, I'll assume that all life
 years are equally valuable.
 
 The average life expectancy on earth is around 70 years, so one can use
@@ -796,7 +796,8 @@ and thereby increasing the probability of [global catastrophic
 risks](https://en.wikipedia.org/wiki/Global_catastrophic_risk) through
 novel technologies.
 
-### Pseudocode for an Algorithm for Finding Supermaximal Repeats Using a Suffix Array
+Pseudocode for an Algorithm for Finding Supermaximal Repeats Using a Suffix Array
+---------------------------------------------------------------------------------
 
 [Abouelhoda et al.
 2002](doc/supermaximal_repeats_pseudo/the_enhanced_suffix_array_and_its_implications_to_genome_analysis_abouelhoda_et_al_2002.pdf "The Enhanced Suffix Array and Its Applications to Genome Analysis")
