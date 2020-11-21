@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-10-29, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2020-11-21, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -12,6 +12,16 @@ These are the texts I have read since May 2017 (sorted by starting date,
 newest additions first). A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Flowers for Algernon (Daniel Keyes, 1966)
+* The Celestial Omnibus (Edward Morgan Forster, 1911)
+* The Machine Stops (Edward Morgan Forster, 1928)
+* [Livemethod's heroically enormous seasonal color guide (Livemethod, 2013)](https://old.reddit.com/r/malefashionadvice/comments/15tjgv/livemethods_heroically_enormous_seasonal_color/)
+* [Likelihood of discontinuous progress around the development of AGI (Katja Grace, 2018)](https://aiimpacts.org/likelihood-of-discontinuous-progress-around-the-development-of-agi/)
+* [* Trackingdifferenzen von Aktien-ETFs auf Standardindizes (Holzmeier, 2020)](https://www.wertpapier-forum.de/topic/45254-trackingdifferenzen-von-aktien-etfs-auf-standardindizes/)
+* Overpopulation and the Quality of Life (Derek Parfit, 1986)
+* ["The Basic Bastard" - Basic Wardrobe and Inspiration Album (Metcarfre, 2018)](https://old.reddit.com/r/malefashionadvice/comments/5da1dc/the_basic_bastard_basic_wardrobe_and_inspiration/)
+* [Argument, intuition, and recursion (Paul Christiano, 2018)](https://www.lesswrong.com/posts/XHMCvvhb7zTZcQAgA/argument-intuition-and-recursion)
+* [Building a Basic Wardrobe v6.0 (Metcarfre, 2018)](https://old.reddit.com/r/malefashionadvice/comments/5da1xt/building_a_basic_wardrobe_v60/)
 * [Meta-execution (Paul Christiano, 2018)](https://www.lesswrong.com/posts/4GXqbNvpJ4hJtcoSX/meta-execution)
 * [Sutadhara Sutta (AN 5:96) (Author unknown, -100)](https://www.dhammatalks.org/suttas/AN/AN5_96.html)
 * [Security amplification (Paul Christiano, 2019)](https://www.lesswrong.com/posts/hjEaZgyQ2iprDhkg8/security-amplification)
@@ -335,7 +345,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Metaphilosophical competence can't be disentangled from alignment (zhukeepa, 2018)](https://www.lesswrong.com/posts/CCgvJHpbvc7Lm8ZS8/metaphilosophical-competence-can-t-be-disentangled-from)
 * [Flavors of Computation Are Flavors of Consciousness (Brian Tomasik, 2018)](https://longtermrisk.org/flavors-of-computation-are-flavors-of-consciousness/)
 * [What Is The Model of Hierarchical Complexity? (Hanzi Freinacht, 2017)](https://metamoderna.org/what-is-the-mhc/)
-* \* 2666 (Robert Bolaño, 2004)
+* 2666 (Robert Bolaño, 2004)
 * [Silk Road 1: Theory & Practice (Gwern Branwen, 2018)](https://www.gwern.net/Silk-Road)
 * [The Dream-Quest of Unknown Kadath (Howard Phillips Lovecraft, 1943)](http://www.hplovecraft.com/writings/texts/fiction/dq.aspx)
 * [Inclusion map (English Wikipedia, 2019)](https://en.wikipedia.org/wiki/Inclusion_map)

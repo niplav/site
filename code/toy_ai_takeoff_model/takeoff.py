@@ -38,8 +38,8 @@ def search_around(space, pos, size, dim, intelligence):
 	subpos=[slice(0,0)]*dim
 	for i in range(0, dim):
 		subpos[i]=slice(max(0,pos[i]-step), min(size-1, pos[i]+step))
-	subspace=space[tuple(subpos)]
-	mp=np.where(subspace == np.amax(subspace))
+	subsection=space[tuple(subpos)]
+	mp=np.where(subsection == np.amax(subsection))
 	pos=np.array([list(mp[i])[0]+subpos[i].start for i in range(0, dim)])
 	return pos
 
