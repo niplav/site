@@ -14,6 +14,7 @@ November 2020
 * [Exercise 2 in Section 9](./naive_set_theory_solutions.html#Exercise-2_3) in [Naive Set Theory](./naive_set_theory_solutions.html)
 * Reports
 	* [Attempted 7-Day Meditation Retreat at Home](./reports.html#Attempted-7Day-Meditation-Retreat-at-Home)
+	* [300 Hours of Meditation(./reports.html#300-Hours-of-Meditation)
 
 October 2020
 ------------

@@ -6,13 +6,6 @@
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
 
-<!--
-* Report: Becoming Marginally More Productive
-        * Follow Alexey Guzey's Advice, Leave the House
-        * Internet Abstinence
-* Report: Buying socks of one kind
--->
-
 Reports
 =======
 
@@ -160,7 +153,7 @@ putting the lights onto the bike.
 
 It doesn't sound like much, but doing this ~4 times a day (different
 locations during the day) at two minutes, this cost me
-`$4*2min*100=800min \approx 13.3h$`.
+`$4*2\hbox{min}*100=800\hbox{min} \approx 13.3h$`.
 
 I was much hungrier in the evening, eating probably meals for 2 people.
 
@@ -299,7 +292,7 @@ the past effects, this was an investment completely worth it.
 
 __8/10__
 
-Meditation for 300 hours
+300 Hours of Meditation
 -------------------------
 
 > There is the case where a monk, having gone to the wilderness, to
@@ -484,6 +477,8 @@ Kissing Hand as Goodbye
 
 Becoming Marginally More Productive
 ------------------------------------
+        * Follow Alexey Guzey's Advice, Leave the House
+        * Internet Abstinence
 
 Buying Socks of One Kind
 -------------------------

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-11-10, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-11-22, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -414,6 +414,8 @@ Texts
 * Trigger Action Plans
 * Recommendations
 	* Activities/Movies/Series/Podcasts/Books/Blogposts
+* Cool Things Humans Can Learn
+	* Inspiration from [here](https://www.lesswrong.com/posts/knLZY52Yx9G23u3Ka/insufficiently-awesome?commentId=4AevGHrCQMbWaoan9)
 
 ### Notes
 
