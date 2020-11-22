@@ -40,7 +40,7 @@ https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.12127-->
 [Probabilistic forecasting](https://en.wikipedia.org/wiki/Probabilistic_forecasting)
 that aggregates both [qualitative and quantitative
 methods](https://en.wikipedia.org/wiki/Forecasting#Qualitative_vs._quantitative_methods)
-is a comparatively simple idea. Basically, one needs to have only very few tools at ones
+is a comparatively simple idea. Basically, one needs to have only very few tools at one's
 disposal to being ready to start forecasting:
 
 * View of belief as probabilistic (perhaps with some bayesian epistemology)
@@ -101,7 +101,8 @@ two forecasting websites [PredictionBook](https://predictionbook.com)
 and [Metaculus](https://www.metaculus.com).
 
 To find out about the range of forecasts, I download, parse & analyse
-forecasting data from these sites.
+forecasting data from these sites using Python, and then analyze the
+data using [Klong](http://t3x.org/klong/index.html).
 
 <!--
 Make a point here that making forecasts is one of the best existing
@@ -138,8 +139,8 @@ Metaculus having less questions than PredictionBook, but each question
 having more predictions on it. Of the two, Metaculus is much more
 featureful: It supports not only binary questions, but also range
 questions with probability distributions, comment threads, closed
-questions (questions that haven't yet been resolved, but that can
-still be predicted on), three different kinds of scores (the
+questions (questions that haven't yet been resolved, but that can't
+be predicted on), three different kinds of scores (the
 [Brier score](https://en.wikipedia.org/wiki/Brier_score),
 and a [logarithmic scoring
 rule](https://en.wikipedia.org/wiki/Scoring_rule#Logarithmic_scoring_rule)
@@ -1104,7 +1105,7 @@ I have found that the data indicates three facts:
 	accurate than predictions that are made later.
 
 These results vary strongly between Metaculus and PredictionBook, with
-observations 1. and 2. much weaker or non-existent in PredictionPook data
+observations 1. and 2. much weaker or non-existent in PredictionBook data
 (observation 3. only holds for Metaculus, because there are no questions
 on PredictionBook with enough forecasts to run the analysis).
 
