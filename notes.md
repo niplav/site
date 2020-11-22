@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2020-11-21, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2020-11-22, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -826,3 +826,62 @@ pseudocode, which I show here:
 		end if
 	end for
 	return result
+
+Stating the Result of “An Impossibility Theorem for Welfarist Axiologies”
+-------------------------------------------------------------------------
+
+[Arrhenius
+2000](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf "An Impossibility Theorem for Welfarist Axiologies")
+gives a proof that basically states that the type of population axiology
+we want to construct is impossible. However, the natural-language
+statement of his result is scattered throughout the paper.
+
+> The primary claim of this paper is that any axiology that satisfies the
+Dominance, the Addition, and the Minimal Non-Extreme Priority Principle
+implies the Repugnant, the Anti-Egalitarian, or the Sadistic Conclusion.
+
+*–[Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 15, 2000*
+
+### Requirements
+
+> The Dominance Principle: If population A contains the same number of
+people as population B, and every person in A has higher welfare than
+any person in B, then A is better than B.
+
+*–[Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
+
+> The Addition Principle: If it is bad to add a number of people, all
+with welfare lower than the original people, then it is at least as bad
+to add a greater number of people, all with even lower welfare than the
+original people.
+
+*–[Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
+
+> The Minimal Non-Extreme Priority Principle: There is a number n such
+that an addition of n people very high welfare and a single person with
+slightly negative welfare is at least as good as an addition of the same
+number of people but with very low positive welfare.
+
+*–[Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
+
+### Conclusions
+
+> The Repugnant Conclusion: For any perfectly equal population
+with very high positive value, there is a population with very
+low positive welfare which is better.
+
+*–[Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 2, 2000*
+
+> The Anti-Egalitarian Conclusion: A population with perfect equality can
+be worse than a population with the same number of people, inequality,
+and lower average (and thus lower total) positive welfare.
+
+*–[Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 12, 2000*
+
+> The Sadistic Conclusion: When adding people without
+affecting the original people's welfare, it can be better to
+add people with negative welfare than positive welfare.
+
+*–[Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 5, 2000*
+
+All of these are stated more mathematically on page 15.
