@@ -315,7 +315,7 @@ Happiness](https://qualiacomputing.com/2019/04/03/investing-time-and-resources-i
 and thought it would be worthwhile to try meditation.
 
 I started by reading [Mindfulness in Plain
-English](./doc/meditation/mindfulness_in_plain_english_gunaratana_1990.pdf),
+English](./doc/meditation_2020/mindfulness_in_plain_english_gunaratana_1990.pdf),
 and sitting for around 20 to 30 minutes a day, doing simple concentration
 practice on the breath. I sometimes added 20 minutes or so of walking
 meditation, focusing on the sensations from the feet and legs. Over the
@@ -325,6 +325,8 @@ the practice more and more, I expanded my meditation time to around 75
 minutes a day.
 
 As of November 2020, I have meditated 300 hours.
+
+![Meditation Statistics for 2020](./img/meditation_2020/meditavo_chart.jpg "Meditation Statistics for 2020")
 
 ### What The Effects Were
 
@@ -401,7 +403,7 @@ wiki](https://old.reddit.com/r/streamentry/wiki/index), as well as the
 writings of [Daniel M. Ingram](https://integrateddaniel.info).
 
 I have still only read [Mindfulness in Plain
-English](./doc/meditation/mindfulness_in_plain_english_gunaratana_1990.pdf),
+English](./doc/meditation_2020/mindfulness_in_plain_english_gunaratana_1990.pdf),
 and I liked it.
 
 __9/10__

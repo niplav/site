@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-11-15, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2020-11-22, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -14,7 +14,9 @@ November 2020
 * [Exercise 2 in Section 9](./naive_set_theory_solutions.html#Exercise-2_3) in [Naive Set Theory](./naive_set_theory_solutions.html)
 * Reports
 	* [Attempted 7-Day Meditation Retreat at Home](./reports.html#Attempted-7Day-Meditation-Retreat-at-Home)
-	* [300 Hours of Meditation(./reports.html#300-Hours-of-Meditation)
+	* [300 Hours of Meditation](./reports.html#300-Hours-of-Meditation)
+* Notes
+	* [Stating the Result of “An Impossibility Theorem for Welfarist Axiologies”](./notes.html#Stating-the-Result-of-An-Impossibility-Theorem-for-Welfarist-Axiologies)
 
 October 2020
 ------------
