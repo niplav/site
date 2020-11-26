@@ -2,3 +2,4 @@
 2020-11-26T15:06:04.000000Z	If it's not insightful enough for the LessWrong shortform, not in context enough for reddit, and not long enough for my website, it goes on here.
 2020-11-26T15:06:56.000000Z	BTW, website! I can be found at https://niplav.github.io. If you want to read things I thought about for more than 5 seconds, that's the place to go.
 2020-11-26T15:10:30.000000Z	Tiktokracy
+2020-11-26T16:06:28.000000Z	Lecturer: "0 is not the empty set." Me: Me (looking into Naive Set Theory by Halmos: "we have no choice; we must write (as we did) 0=∅
