@@ -61,4 +61,3 @@ Currently, I am reading the following books:
 * Moral Uncertainty (William MacAskill/Krister Bykvist/Toby Ord, 2020)
 * Programming in Lua (Roberto Ierusalimschy, 2013)
 * The Human Predicament (David Benatar, 2017)
-* Siddharta (Hermann Hesse, 1922)
