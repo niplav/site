@@ -5,3 +5,4 @@
 2020-11-26T16:06:28.000000Z	Lecturer: "0 is not the empty set." Me: Me (looking into Naive Set Theory by Halmos: "we have no choice; we must write (as we did) 0=∅
 2020-11-26T16:09:08.000000Z	Does this void answer with jazz?
 2020-11-26T16:09:25.000000Z	Does this void answer with jazz?
+2020-11-26T16:10:10.000000Z	I should pay more attention.
