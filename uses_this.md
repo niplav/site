@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2020-11-15, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2020-11-26, language: english, status: in progress, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
 > recommendations by people who I respect, such as
@@ -29,6 +29,8 @@ Software
 * Editor: [vis](https://github.com/martanne/vis)
 * Calendar: [when](http://www.lightandmatter.com/when/when.html)
 * Spaced repetition: [fulgurate](https://github.com/theq629/fulgurate)
+* [Internet relay chat](https://en.wikipedia.org/wiki/Internet_Relay_Chat): [ii](https://tools.suckless.org/ii/) with [lchat](https://github.com/younix/lchat)
+* [Twtxt](https://github.com/buckket/twtxt): [txtnish](https://github.com/mdom/txtnish)
 * Version control: [git](https://git-scm.com/)
 * Password manager: [spm](https://notabug.org/kl3/spm/)
 * Finances: [ledger](https://www.ledger-cli.org/)
