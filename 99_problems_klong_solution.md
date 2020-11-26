@@ -1920,7 +1920,7 @@ forms a sort of "hill" pattern, where the number of trees increases to
 higher values, with an increasing height of steps.
 
 <!--
-Find some nice mathematical description for this hill pattern!
+TODO: Find some nice mathematical description for this hill pattern!
 -->
 
 <!--
@@ -1950,6 +1950,8 @@ For `#'s58'!36` it is:
 For `#'s58'!39` it is:
 
 	kg: error: call: type error: [6]
+
+TODO: minimalize, then report
 -->
 
 ### P59 (**) Construct height-balanced binary trees.
