@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-11-22, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-11-29, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -31,6 +31,7 @@ Site
 * Edit texts:
 	* Done:
 		* Considerations on Cryonics
+			* TODO: Expand the section on the Guesstimate model
 
 Texts
 -----
@@ -138,6 +139,21 @@ Texts
 	* Status Games
 * In Praise of Cost-Benefit Analyses
 * Why You Ought to Disengage from the Internet as Much as Possible
+	* https://www.lesswrong.com/posts/Jq73GozjsuhdwMLEG/superstimuli-and-the-collapse-of-western-civilization
+	* https://www.youtube.com/watch?v=wf2VxeIm1no
+	* https://www.youtube.com/watch?v=VpHyLG-sc4g
+	* https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like
+	* GPT-3
+	* https://builtin.com/data-science/recommender-systems
+	* https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883
+	* https://medium.com/@nrs007/recommender-systems-and-their-impacts-on-autonomy-51a69c64038
+	* https://towardsdatascience.com/introduction-to-recommender-systems-6c66cf15ada?gi=792420939b20
+	* https://www.wiley.com/en-us/Recommender+System+with+Machine+Learning+and+Artificial+Intelligence%3A+Practical+Tools+and+Applications+in+Medical%2C+Agricultural+and+Other+Industries-p-9781119711575
+	* [Internet addiction](https://en.wikipedia.org/wiki/Internet_addiction_disorder)
+	* https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like?commentId=CB8ieALcHfSSuAYYJ#CB8ieALcHfSSuAYYJ
+	* https://www.lesswrong.com/posts/qKvn7rxP2mzJbKfcA/persuasion-tools-ai-takeover-without-agi-or-agency
+	* [Attention span](https://en.wikipedia.org/wiki/Attention_span)
+	* https://www.lesswrong.com/posts/YicoiQurNBxSp7a65/is-clickbait-destroying-our-general-intelligence
 
 ### Analyses
 
@@ -416,6 +432,69 @@ Texts
 	* Activities/Movies/Series/Podcasts/Books/Blogposts
 * Cool Things Humans Can Learn
 	* Inspiration from [here](https://www.lesswrong.com/posts/knLZY52Yx9G23u3Ka/insufficiently-awesome?commentId=4AevGHrCQMbWaoan9)
+* Notes on a Grand Plan to Learn Everything
+	* Exploration
+		* Read Wikipedia with [this method](./notes.html#Getting-an-Overview-Over-Everything)
+		* Read SEP
+			* randomly?
+	* Learning
+		* Reading textbooks (Natural sciences and engineering)
+			* Mathematics
+				* https://www.ocf.berkeley.edu/~abhishek/chicmath.htm
+				* https://intelligence.org/research-guide/
+				* https://math.ucr.edu/home/baez/books.html#math
+			* Science
+				* Physics
+					* https://www.susanjfowler.com/blog/2016/8/13/so-you-want-to-learn-physics
+					* https://www.ocf.berkeley.edu/~abhishek/chicphys.htm
+					* https://math.ucr.edu/home/baez/books.html#physics
+				* Chemistry
+				* Social Sciences
+					* Economics
+				* Life Sciences
+					* Biology
+						* https://old.reddit.com/r/biology/wiki/faq#Suggestedtextbooks
+						* Campbell Biology
+						* Molecular Biology of the Gene
+						* Molecular Biology of the Cell
+						* Principles of Biochemistry
+						* Evolutionary Biology (Futuyma)
+						* Zoology
+					* Ecology
+					* Paleontology
+				* Earth Sciences
+					* Geology
+					* Meteorology
+				* Psychology
+					* Cognitive Psychology
+					* Developmental Psychology
+					* Neuropsychology
+					* Industrial-Organizational Psychology
+					* Social Psychology
+					* Forensic Psychology
+					* Evolutionary Psychology
+			* Engineering
+				* Computer Science
+					* https://teachyourselfcs.com/
+				* Electrical Engineering
+				* Mechanical Engineering
+				* Chemical Engineering
+				* Bioengineering
+				* Civil Engineering
+				* Geoengineering
+				* Medicine
+		* Doing the exercises
+	* Rehearsal
+		* Creating flashcards from the textbooks, rehearsing them
+			* Flashcard creation is pretty liberal in what is accepted
+			* Use a system that supports images/LaTeX
+				* Anki?
+				* Mnemosyne?
+			* Bifot: BIFOT is flashcards of textbooks
+	* Testing
+		* Forecasting
+			* Metaculus
+			* Spend relatively long on each question (15 minutes)
 
 ### Notes
 
