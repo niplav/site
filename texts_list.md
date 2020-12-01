@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-11-21, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2020-12-01, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -12,12 +12,23 @@ These are the texts I have read since May 2017 (sorted by starting date,
 newest additions first). A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [On the Chatham House Rule (Scott Garrabrant, 2018)](https://www.lesswrong.com/posts/sWof2zGexwwJ8Q4ND/on-the-chatham-house-rule)
+* Der Ehrentag (Arthur Schnitzler, 1897)
+* Der Witwer (Arthur Schnitzler, 1894)
+* Der Sohn (Arthur Schnitzler, 1892)
+* [Open question: are minimal circuits daemon-free? (Paul Christiano, 2018)](https://www.lesswrong.com/posts/nyCHnY7T5PHPLjxmN/open-question-are-minimal-circuits-daemon-free)
+* [Everything I ever needed to know, I learned from World of Warcraft: Goodhart’s law (Said Achmiz, 2018)](https://www.lesswrong.com/posts/GxW8ef8tH4yX6KMrf/everything-i-ever-needed-to-know-i-learned-from-world-of-2)
+* Fahrenheit 451 (Ray Bradbury, 1953)
+* [Research: Rescuers during the Holocaust (Martin Sustrik, 2018)](https://www.lesswrong.com/posts/BhXA6pvAbsFz3gvn4/research-rescuers-during-the-holocaust)
+* Mutter Courage und ihre Kinder (Bertolt Brecht, 1939)
+* Siddharta (Hermann Hesse, 1922)
+* \* Compassion, by the Pound (F. Bailey Norwood/Jayson L. Lusk, 2011)
 * Flowers for Algernon (Daniel Keyes, 1966)
 * The Celestial Omnibus (Edward Morgan Forster, 1911)
 * The Machine Stops (Edward Morgan Forster, 1928)
 * [Livemethod's heroically enormous seasonal color guide (Livemethod, 2013)](https://old.reddit.com/r/malefashionadvice/comments/15tjgv/livemethods_heroically_enormous_seasonal_color/)
 * [Likelihood of discontinuous progress around the development of AGI (Katja Grace, 2018)](https://aiimpacts.org/likelihood-of-discontinuous-progress-around-the-development-of-agi/)
-* [* Trackingdifferenzen von Aktien-ETFs auf Standardindizes (Holzmeier, 2020)](https://www.wertpapier-forum.de/topic/45254-trackingdifferenzen-von-aktien-etfs-auf-standardindizes/)
+* [Trackingdifferenzen von Aktien-ETFs auf Standardindizes (Holzmeier, 2020)](https://www.wertpapier-forum.de/topic/45254-trackingdifferenzen-von-aktien-etfs-auf-standardindizes/)
 * Overpopulation and the Quality of Life (Derek Parfit, 1986)
 * ["The Basic Bastard" - Basic Wardrobe and Inspiration Album (Metcarfre, 2018)](https://old.reddit.com/r/malefashionadvice/comments/5da1dc/the_basic_bastard_basic_wardrobe_and_inspiration/)
 * [Argument, intuition, and recursion (Paul Christiano, 2018)](https://www.lesswrong.com/posts/XHMCvvhb7zTZcQAgA/argument-intuition-and-recursion)
@@ -2186,7 +2197,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Jacob Bronowski (Esperanto Vikipedio, 2017)](https://eo.wikipedia.org/wiki/Jacob_Bronowski)
 * [27108 Bryanhe (Esperanto Vikipedio, 2016)](https://eo.wikipedia.org/wiki/27108_Bryanhe)
 * [Émanuel Brüll (Esperanto Vikipedio, 2013)](https://eo.wikipedia.org/wiki/Em%C3%A1nuel_Br%C3%BCll)
-* Der Mythos des Sysiphos (Albert Camus, 1956)
+* Der Mythos des Sysiphos (Albert Camus, 1942)
 * [Amendo Platt (Esperanto Vikipedio, 2013)](https://eo.wikipedia.org/wiki/Amendo_Platt)
 * [Stacio Zezehommachi (Esperanto Vikipedio, 2015)](https://eo.wikipedia.org/wiki/Stacio_Zezehommachi)
 * [Paweł Jasienica (Esperanto Vikipedio, 2016)](https://eo.wikipedia.org/wiki/Pawe%C5%82_Jasienica)
