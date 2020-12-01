@@ -20,10 +20,12 @@ Writing
 -------
 
 I'm writing code and text for [An Exploratory Toy AI Takeoff
-Model](./toy_ai_takeoff_model.html), and sporadically updating
-[Considerations on Cryonics](./considerations_on_cryonics.html),
-[Masturbation and Attractiveness](./masturbation_and_attractiveness.html),
-[Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html),
+Model](./toy_ai_takeoff_model.html) and [Generalizing the Diamond-Square
+Algorithm to n Dimensions](./generalizing_diamond_square.html),
+and sporadically updating [Considerations on
+Cryonics](./considerations_on_cryonics.html), [Masturbation and
+Attractiveness](./masturbation_and_attractiveness.html), [Range and
+Forecasting Accuracy](./range_and_forecasting_accuracy.html),
 and [Daygame Cost-Benefit
 Analysis](./daygame_cost_benefit.mddaygame_cost_benefit.html).
 
@@ -55,7 +57,7 @@ I am currently collecting data on daygame, in order to improve my
 Reading
 -------
 
-Currently, I am reading the following books:
+Currently, I am actively reading the following books:
 
 * Compassion, by the Pound (F. Bailey Norwood/Jayson L. Lusk, 2011)
 * Moral Uncertainty (William MacAskill/Krister Bykvist/Toby Ord, 2020)

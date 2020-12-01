@@ -1,3 +1,21 @@
+# nick: niplav
+# url: https://niplav.github.io/twtxt.txt
+# following:
+#     deadguy https://dgy.fuckup.club/twtxt.txt
+#     sdk https://codevoid.de/tw.txt
+#     xandkar https://xandkar.net/twtxt.txt
+#     josuah https://z0.is/~josuah/
+#     mdom https://www.domgoergen.com/twtxt/mdom.txt
+#     adiabetic https://www.frogorbits.com/twtxt.txt
+#     von https://tilde.town/~von/twtxt.txt
+#     vain https://www.uninformativ.de/twtxt.txt
+#     ech https://emmas.site/blog/twtxt.txt
+#     dgold https://dgold.eu/twtxt.txt
+#     z3bra http://phroxy.z3bra.org/g.nixers.net:70/0/~z3bra/twtxt.txt
+#     allgebrah https://www.synkretie.net/twtxt
+#     johanbove https://johanbove.info/twtxt.txt
+#     quite https://lublin.se/twtxt.txt
+#     kt84 https://twtxt.net/user/kt84/twtxt.txt
 2020-11-26T14:43:42.000000Z	I used to have a twitter, but then I got addicted to it and shut it down (https://twitter.com/niplavyushtun). I think I'll put similar stuff on here, and maybe more extreme experimental takes, because there's no risk of getting banned.
 2020-11-26T15:06:04.000000Z	If it's not insightful enough for the LessWrong shortform, not in context enough for reddit, and not long enough for my website, it goes on here.
 2020-11-26T15:06:56.000000Z	BTW, website! I can be found at https://niplav.github.io. If you want to read things I thought about for more than 5 seconds, that's the place to go.
@@ -32,3 +50,19 @@
 2020-11-29T13:20:21.000000Z	You don't actually need to convince idiots
 2020-11-29T15:57:29.000000Z	sapolskywave
 2020-11-29T22:08:03.000000Z	Fashion seems to operate on two different timescales: 'high fashion' (?) on ½ or 1 year cycles, and 'macro fashion', which changes on the scale of 5 to 10 years
+2020-11-30T10:14:19.000000Z	https://grahamkarta.bandcamp.com now that's my kind of music
+2020-11-30T10:22:54.000000Z	PSA: SL4≠seL4
+2020-11-30T10:44:33.000000Z	Placebos funktionieren.
+2020-11-30T10:44:45.000000Z	Placebos funktionieren auch dann, wenn Menschen, die Placebos nehmen, wissen, dass es Placebos sind.
+2020-11-30T10:45:00.000000Z	Placebos funktionieren auch dann, wenn Menschen, die Placebos nehmen, wissen, dass Placebos auch dann funktionieren, wenn Menschen, die Placebos nehmen, wissen, dass es Placebos sind.
+2020-11-30T10:45:19.000000Z	Placebos funktionieren auch dann, wenn Menschen, die Placebos nehmen, wissen, dass Placebos auch dann funktionieren, wenn Menschen, die Placebos nehmen, wissen, dass Placebos auch dann funktionieren, wenn Menschen, die Placebos nehmen, wissen, dass es Placebos sind.
+2020-11-30T10:45:49.000000Z	Placebos funktionieren auch dann, wenn Menschen, die Placebos nehmen, wissen, dass Placebos auch dann funktionieren, wenn Menschen, die Placebos nehmen, wissen, dass Placebos auch dann funktionieren, wenn Menschen, die Placebos nehmen, wissen, dass Placebos auch dann funktionieren, wenn Menschen, die Placebos nehmen, wissen, dass es Placebos sind.
+2020-11-30T10:45:56.000000Z	Decision theory ↔ Microeconomics, Game theory ↔ Macroeconomics?
+2020-11-30T10:46:04.000000Z	Opportunitätsmoral
+2020-11-30T10:46:42.000000Z	The upper class unconsciously wages class war against the lower classes through lax social laws, such as deregulation of drugs or teenage sexuality, which upper classes can cope with easily (higher discipline), but lower classes can't (and become criminal/addicted to drugs/pregnant at an early age/drop out of school early). This secures the upper class's position.
+2020-11-30T10:51:56.000000Z	Totraum
+2020-11-30T10:54:00.000000Z	ש (shin). Any connection to Evangelion? It is the letter of fire in kabbalah, apparently :thinking_face:
+2020-11-30T10:54:16.000000Z	There is no correct marxism, but there is a right marxism.
+2020-12-01T09:08:58.000000Z	Medicine is a type of engineering. Change my mind.
+2020-12-01T11:15:21.000000Z	Classical philosophy: Disputing definitions. Analytic philosophy: Disputing definitions, rigorously. Continental philosophy: Disputing definitions, poetically.
+2020-12-01T11:15:33.000000Z	My tribe is a place, not a prison.

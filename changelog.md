@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-11-22, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2020-12-01, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -11,12 +11,17 @@ Changelog
 November 2020
 -------------
 
+* [Simpson's Paradox](./range_and_forecasting_accuracy.html#Simpsons-Paradox) in [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html#Simpsons-Paradox)
 * [Exercise 2 in Section 9](./naive_set_theory_solutions.html#Exercise-2_3) in [Naive Set Theory](./naive_set_theory_solutions.html)
 * Reports
 	* [Attempted 7-Day Meditation Retreat at Home](./reports.html#Attempted-7Day-Meditation-Retreat-at-Home)
 	* [300 Hours of Meditation](./reports.html#300-Hours-of-Meditation)
 * Notes
 	* [Stating the Result of “An Impossibility Theorem for Welfarist Axiologies”](./notes.html#Stating-the-Result-of-An-Impossibility-Theorem-for-Welfarist-Axiologies)
+
+### Other
+
+Updated the [Texts List](./texts_list.html).
 
 October 2020
 ------------
@@ -52,14 +57,12 @@ August 2020
 * [Considerations on Cryonics](./considerations_on_cryonics.html)
 	* [Caveats](./considerations_on_cryonics.html#Caveats) on the value of future life years
 	* Started more in-depth thoughts on the [Quality of Cryopreservation](./considerations_on_cryonics.html#Quality-of-Preservation)
-* Added to [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.html)
 
 July 2020
 ---------
 
 ### Writing
 
-* Started [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.html)
 * Started the [Exercises for “The Jazz Piano Book”](./jazz_piano_book_exercises.html)
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 	* [Results for Accuracy Between Questions](./range_and_forecasting_accuracy.html#Results_1)
