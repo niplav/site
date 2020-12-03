@@ -117,7 +117,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * Mach durstig mich nach dir (Dschelāladdīn Rūmī, 1256)
 * [Hero Licensing (Eliezer Yudkowsky, 2017)](https://www.lesswrong.com/posts/dhj9dhiwhq3DX6W8z/hero-licensing)
 * [What happens if you drink acetone? (dynomight, 2020)](https://www.lesswrong.com/posts/sacs7NZfD2frMS82H/what-happens-if-you-drink-acetone)
-* \* Moral Uncertainty (William MacAskill/Krister Bykvist/Toby Ord, 2020)
+* Moral Uncertainty (William MacAskill/Krister Bykvist/Toby Ord, 2020)
 * Du bist's (Dschelāladdīn Rūmī, 1256)
 * Von Glauben und Unglaub' (Dschelāladdīn Rūmī, 1256)
 * Was soll ich tun (Dschelāladdīn Rūmī, 1256)

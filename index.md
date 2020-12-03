@@ -43,7 +43,6 @@ Writing
 #### Surveys & Experiments
 
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
-* [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.md)
 
 #### Cost-Benefit Analyses
 
@@ -58,7 +57,6 @@ Writing
 #### Other
 
 * [Against Applause After Classical Concerts](./against_applause.md)
-* [Range And Forecasting Accuracy](./range_and_forecasting_accuracy.md)
 * [Two People on a Planet](./two_people_on_a_planet.md)
 * [Reports](./reports.md)
 * [Notes](./notes.md)

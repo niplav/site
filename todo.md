@@ -495,6 +495,8 @@ Texts
 		* Forecasting
 			* Metaculus
 			* Spend relatively long on each question (15 minutes)
+* Explaining "Mental Motions"
+	* Find mentions of this, and write up what the term means.
 
 ### Notes
 
@@ -900,6 +902,9 @@ Programming
 * Offline version of guesstimate
 *	A reddit bot on /r/gonewildstories that does a gender analysis for
 	the writing and posts the result
+* choiceworth
+	* A small program implementing the method by MacAskill, Ord & Bykvist 2020 in “Moral Uncertainty”
+	* Using MEC, variance voting, and the Borda rule
 
 ### Klong Libraries
 
