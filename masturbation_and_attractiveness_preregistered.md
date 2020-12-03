@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2020-12-03, language: english, status: in progress, importance: 2, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2020-11-16, language: english, status: in progress, importance: 2, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -14,18 +14,6 @@ Abstinence from Masturbation and Success from Cold Approach
 the middle where everything is the same
 
 *– [Neal Stephenson](https://en.wikipedia.org/wiki/Neal_Stephenson), [“Snow Crash”](https://en.wikipedia.org/wiki/Snow_Crash), 1992*
-
-<!--
-Instead of Student's t-test a survival analysis?
-Such as a Kaplan-Meyer method & log-rank test?
-Or a one-sided test?
-Cox-regression (proportional hazard).
-
-Will the data sets be normally distributed?
-→ If not, use Mann-Whitney U-Test.
-Also: What about abstinence ←→ masturbation ←→ pornography?
-Pre-register on predictionbook as well.
--->
 
 Abstract
 --------
@@ -42,15 +30,6 @@ t-test](https://en.wikipedia.org/wiki/Student%27s_t-test)
 and various [descriptive statistical
 methods](https://en.wikipedia.org/wiki/Descriptive_statistics) and find
 that \_.
-
-<!--
-Existing Literature
--------------------
-
-TODO: Search google scholar for "abstinence masturbation
-attractiveness", "abstinence masturbation pheromones" and "abstinence
-masturbation microexpressions". The last time I checked, there was
-nothing there, but it might have changed.-->
 
 Examples for the Claim
 -----------------------
@@ -243,7 +222,7 @@ which should at least partially be testable during cold approach.
 They don't seem to consider the possibility that masturbation
 is not a feature of modern civilisation, but rather a biological
 instinct. Widespread pornography, on the other hand, is a feature of
-modern civilisation.<!--TODO: sources for these claims-->
+modern civilisation.
 
 Another commenter refers to this baseless speculation as "science":
 
@@ -321,10 +300,6 @@ self-experiment.
 
 Data was collected as follows:
 
-<!--
-Noctural emission on 2020-11-16T04:00
--->
-
 I abstained from masturbating and watching pornography from
 2020-11-13T23:00 to \_, resulting in >90 days of abstinence from
 masturbation (which is also the period [recommended by the NoFap
@@ -334,9 +309,6 @@ success is our 90-day reboot.").
 From \_ to \_, I went on the streets of a major european city and
 approached 100 people I read as men and 100 people I read as women
 alternatingly with the words
-
-<!--TODO: add question about language at the beginning?-->
-<!--TODO: what about the strategy of agreeing to have a date?-->
 
 > Hi, I know this is really spontaneous, but I just saw you and thought
 you looked really nice. What is your name?
@@ -353,8 +325,7 @@ The people who were approached were chosen by their attractiveness to
 the author.
 
 In the week following the last approach, I masturbated once every day
-with the aid of pornography <!--TODO: link the pornography consumed
-during that time-->.
+with the aid of pornography.
 Afterwards, I repeated the procedure of approaching 100 men and 100 women
 with the same words from \_ to \_.
 
@@ -373,23 +344,6 @@ after masturbation), perceived gender of the person approached ("m",
 * 6 (date): person showed up to the date
 
 Results were logged in a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values).
-
-<!--
-### Justification for Cold Approach as a Method
-
-TODO: research different methods of measuring physical attractiveness,
-list & discuss them here. Discuss correlation of attractiveness ratings
-within cultures.
-
-* Seven point Likert scale
--->
-
-<!--
-TODO: read
-/usr/local/doc/unread/blackpill/gender_differences_in_receptivity_to_sexual_offers_tappé_et_al_2013.pdf
-/usr/local/doc/unread/blackpill/gender_differences_in_receptivity_to_sexual_offers_clark_hatfield_1989.pdf
-/usr/local/doc/unread/blackpill/psychological_perspectives_on_sex_tappé_2012.pdf
--->
 
 Results Analysis
 -----------------
@@ -589,20 +543,6 @@ As one can see, \_.
 The code for calculating these can be found
 [here](./code/masturbation_and_attractiveness/load.kg).
 
-<!--
-Questions:
-
-* mu(m)≥mu(f)?
-* var(m)≥var(f)?
-* mu(during)≥mu(after)?
-* var(during)≥var(after)?
-
-* mu(duringm)≥mu(afterm)?
-* mu(duringf)≥mu(afterf)?
-* var(duringf)≥var(afterf)?
-* var(duringm)≥var(afterm)?
--->
-
 ### Testing the Hypothesis
 
 The NoFap community claims that abstinence from masturbation increases
@@ -653,8 +593,7 @@ function](https://en.wikipedia.org/wiki/Quantile_function) of [Student's
 t-distribution](https://en.wikipedia.org/wiki/Student%27s_t-distribution).
 In this case, our sample sizes are bigger than 30, and so the quantile
 function of Student's t-distribution can be approximated using the
-quantile function of the normal distribution<!--TODO: sources for this
-claim-->.
+quantile function of the normal distribution.
 
 The two-sided Student's t-test can thus be implemented (the
 full code for different hypothesis testing can be found
@@ -686,11 +625,6 @@ Problems
 
 ### No Objective Decision Process for Approaching
 
-<!--
-TODO: Read:
-/usr/local/doc/unread/attractiveness/maxims_or_myths_of_beauty_langlois_et_al_2000.pdf
--->
-
 One possible criticism of the above experiment could be that no
 clear method of establishing of whom to approach was used. This
 is a fair criticism, since attractiveness is a subjective
@@ -716,19 +650,6 @@ the experimenter. For me, this didn't work, since proposing this to any
 acquantainces would have been not socially acceptable.
 
 ### Perception of Attractiveness may vary In Regards to Masturbation Behavior
-
-<!--
-TODO:
-Idea:
-Survey on /r/NoFap regarding attractiveness perception (does longer abstinence from masturbation result in
-lower attractiveness standards?
-Search for claims that abstinence from masturbation changes perception of attractiveness
--->
-<!--
-TODO:
-Does attractiveness have an influence on the strength of the response to
-cold approach?
--->
 
 Another possible bias in choosing whom to approach could be that
 abstinence from masturbation changes the perception of attractiveness. In
@@ -766,8 +687,7 @@ demographic of the average study performed with college students. In
 the context of this experiment, all five of these factors apply to
 the experimenter (myself), but it is much less clear how many of
 these characteristics can be found in the people approached. Due
-to [homophily](https://en.wikipedia.org/wiki/Homophily) <!--TODO:
-is https://en.wikipedia.org/wiki/Assortative_mating better?-->, it
+to [homophily](https://en.wikipedia.org/wiki/Homophily), it
 seems likey that they will be strong, but a priori, only western and
 industrialized necessarily apply – the experiment was performed in
 western europe.
@@ -859,7 +779,7 @@ on reddit.
 
 Its hashsum was computed as such:
 
-        $ sha256sum masturbation_and_attractiveness_preregistered.md
+	$ sha256sum masturbation_and_attractiveness_preregistered.md
 
 The pre-registered hypothesis shall thus be: Let `$\mu_{during}$`
 be the expected value of cold approach with women during a long
@@ -883,8 +803,6 @@ As a pre-registration, I subjectively assign a probability of 60% to the
 Stance* being correct, a 8% probability to the *Strong NoFap Stance*,
 and 15% to any other result.
 
-<!--TODO: pre-register on predictionbook-->
-
 ### Reasoning
 
 If it were true that abstinence from masturbation increased
@@ -900,270 +818,9 @@ contribute to fitness do not survive in evolutionary equilibrium." ([Ng
 1995](./doc/better_words/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf "Towards Welfare Biology: Evolutionary Economics of Animal Consciousness and Suffering")
 p. 9).
 
-<!--TODO: search for examples of animal species masturbating,
-as well as the reasoning about the evolutionary reasons for masturbation:
-https://en.wikipedia.org/wiki/Non-reproductive_sexual_behavior_in_animals#Autoeroticism_or_masturbation,
-https://en.wikipedia.org/wiki/Masturbation#Evolutionary_utility-->
-
 This reasoning is imperfect, because it may very well be that masturbation
 is an adaption that was useful in environments with low numbers of people,
 but is not very adaptive in industrialized, anonymous and big societies
 where not reproduction, but sex is the most important consideration. For
 example, it could be true that masturbation keeps the sperm count high,
 but has negative side-effects on attractiveness (such as dry skin).
-
-Appendix B: Dummy Data
-----------------------
-
-In order to be able to write most of this article before collecting
-data (in order to facilitate pre-registration), I needed some dummy
-data to test my code and figures against. I decided to generate the
-data programatically, since that would make testing and experimenting
-much easier. I used the following code to generate the dummy data:
-
-	probes::100
-
-	fdur::[0.15 0.25 0.35 0.9 0.95]
-	mdur::[0.15 0.25 0.35 0.9 0.95]
-	faft::[0.15 0.25 0.35 0.9 0.95]
-	maft::[0.15 0.25 0.35 0.9 0.95]
-
-	d::({:[
-		x<fdur@0;"2019-09-17T15:17:10+02:00,1,f,1":|
-		x<fdur@1;"2019-09-17T15:17:10+02:00,1,f,2":|
-		x<fdur@2;"2019-09-17T15:17:10+02:00,1,f,3":|
-		x<fdur@3;"2019-09-17T15:17:10+02:00,1,f,4":|
-		x<fdur@4;"2019-09-17T15:17:10+02:00,1,f,5";
-		"2019-09-17T15:17:10+02:00,1,f,6"]}'probes{x,.rn()}:*[]),({:[
-		x<mdur@0;"2019-09-17T15:17:10+02:00,1,m,1":|
-		x<mdur@1;"2019-09-17T15:17:10+02:00,1,m,2":|
-		x<mdur@2;"2019-09-17T15:17:10+02:00,1,m,3":|
-		x<mdur@3;"2019-09-17T15:17:10+02:00,1,m,4":|
-		x<mdur@4;"2019-09-17T15:17:10+02:00,1,m,5";
-		"2019-09-17T15:17:10+02:00,1,m,6"]}'probes{x,.rn()}:*[]),({:[
-		x<faft@0;"2019-09-17T15:17:10+02:00,0,f,1":|
-		x<faft@1;"2019-09-17T15:17:10+02:00,0,f,2":|
-		x<faft@2;"2019-09-17T15:17:10+02:00,0,f,3":|
-		x<faft@3;"2019-09-17T15:17:10+02:00,0,f,4":|
-		x<faft@4;"2019-09-17T15:17:10+02:00,0,f,5";
-		"2019-09-17T15:17:10+02:00,0,f,6"]}'probes{x,.rn()}:*[]),({:[
-		x<maft@0;"2019-09-17T15:17:10+02:00,0,m,1":|
-		x<maft@1;"2019-09-17T15:17:10+02:00,0,m,2":|
-		x<maft@2;"2019-09-17T15:17:10+02:00,0,m,3":|
-		x<maft@3;"2019-09-17T15:17:10+02:00,0,m,4":|
-		x<maft@4;"2019-09-17T15:17:10+02:00,0,m,5";
-		"2019-09-17T15:17:10+02:00,0,m,6"]}'probes{x,.rn()}:*[])
-
-	.p({x,"
-	",y}/d)
-
-`probes` is the number of samples generated for each scenario (100 each
-for men & for women, each for during & after abstinence). `fdur`, `mdur`,
-`faft` and `maft` give the probability of progressing after a certain
-probability in the funnel. `d` is then filled with `probes` datapoints
-for each scenario (in CSV). In the end, `d` is concatenated with newlines.
-
-The date and time in the dummy data is, for simplicity, always the same.
-Since I don't perform any analysis on it, that should be fine.
-
-### Testing the Sensitivity
-
-To test whether my implementation of Student's t-test was correct, I
-first checked the hypothesis with the dummy data with the probabilities in
-the code above (where abstinence from masturbation has no effect at all):
-
-	$ kg -l ./load.kg
-		.fc(.ic("../../data/masturbation_attractiveness_dummy_even.csv"));data::csv.load()
-		data::{["" 1 "" 1]:$'x}'4_data
-		data::{1_x}'data
-		duringf::{*|x}'flr({(1=*x)&("f"=x@1)};data)
-		afterf::{*|x}'flr({(0=*x)&("f"=x@1)};data)
-		tstt(duringf;afterf;0.05)
-	μ_X≤μ_Y accepted (p≤0.05)
-	μ_X=μ_Y accepted (p≤0.05)
-	μ_X≥μ_Y accepted (p≤0.05)
-	"μ_X≥μ_Y accepted (p≤0.05)"
-
-The data can be found
-[here](./data/masturbation_attractiveness_dummy_even.csv).
-
-I then first changed the probabilities in the dummy data generation
-script slightly (reducing the probability of failure in each step by
-only a few percentage points):
-
-	fdur::[0.13 0.21 0.29 0.88 0.9]
-	mdur::[0.15 0.25 0.35 0.9 0.95]
-	faft::[0.15 0.25 0.35 0.9 0.95]
-	maft::[0.15 0.25 0.35 0.9 0.95]
-
-I then generated the dummy data:
-
-	$ kg ./code/masturbation_and_attractiveness/gen_dummy.kg >>data/masturbation_attractiveness_dummy_fadv.csv
-
-and tested the hypothesis again:
-
-	$ kg -l ./load.kg
-		.fc(.ic("../../data/masturbation_attractiveness_dummy_fadv.csv"));data::csv.load()
-		data::{["" 1 "" 1]:$'x}'4_data
-		data::{1_x}'data
-		duringf::{*|x}'flr({(1=*x)&("f"=x@1)};data)
-		afterf::{*|x}'flr({(0=*x)&("f"=x@1)};data)
-		tstt(duringf;afterf;0.05)
-	μ_X≤μ_Y rejected (p≤0.05)
-	μ_X=μ_Y accepted (p≤0.05)
-	μ_X≥μ_Y accepted (p≤0.05)
-	"μ_X≥μ_Y accepted (p≤0.05)"
-
-As one can see, this already leads to H₀ being rejected.
-
-The data can be found
-[here](./data/masturbation_attractiveness_dummy_fadv.csv).
-
-Appendix C: Further Hypotheses
-------------------------------
-
-If one wanted to find out not just whether, but in which way abstinence
-from masturbation increases attractiveness, one might try to find
-out at which stage of the process how much of the benefit occurs. For
-example, abstinence might increase initial responses to cold approach
-(reducing the amount of blowouts), because pheromones hook into a very
-deep mechanism, or it might decrease flaking rate, because during the
-interaction micro-expressions had an impressive effect.
-
-I don't have a clear idea how this could be done comprehensively, but
-one possible approach could be to test the expected value of the first
-n stages of the process – for example, only comparing values up to
-getting the name.
-
-The code for that looks like this:
-
-	duringf.toignored::{:[x<2;x;0]}'duringf
-	duringf.tostopped::{:[x<3;x;0]}'duringf
-	duringf.toname::{:[x<4;x;0]}'duringf
-	duringf.torejection::{:[x<5;x;0]}'duringf
-	duringf.toflake::{:[x<6;x;0]}'duringf
-	duringf.todate::{:[x<7;x;0]}'duringf
-
-	afterf.toignored::{:[x<2;x;0]}'afterf
-	afterf.tostopped::{:[x<3;x;0]}'afterf
-	afterf.toname::{:[x<4;x;0]}'afterf
-	afterf.torejection::{:[x<5;x;0]}'afterf
-	afterf.toflake::{:[x<6;x;0]}'afterf
-	afterf.todate::{:[x<7;x;0]}'afterf
-
-	duringm.toignored::{:[x<2;x;0]}'duringm
-	duringm.tostopped::{:[x<3;x;0]}'duringm
-	duringm.toname::{:[x<4;x;0]}'duringm
-	duringm.torejection::{:[x<5;x;0]}'duringm
-	duringm.toflake::{:[x<6;x;0]}'duringm
-	duringm.todate::{:[x<7;x;0]}'duringm
-
-	afterm.toignored::{:[x<2;x;0]}'afterm
-	afterm.tostopped::{:[x<3;x;0]}'afterm
-	afterm.toname::{:[x<4;x;0]}'afterm
-	afterm.torejection::{:[x<5;x;0]}'afterm
-	afterm.toflake::{:[x<6;x;0]}'afterm
-	afterm.todate::{:[x<7;x;0]}'afterm
-
-	.p("
-	X=duringf.toignored, Y=afterf.toignored
-	")
-
-	tstt(duringf.toignored;afterf.toignored;0.05)
-	tstt(duringf.toignored;afterf.toignored;0.01)
-
-	.p("
-	X=duringf.tostopped, Y=afterf.tostopped
-	")
-
-	tstt(duringf.tostopped;afterf.tostopped;0.05)
-	tstt(duringf.tostopped;afterf.tostopped;0.01)
-
-	.p("
-	X=duringf.toname, Y=afterf.toname
-	")
-
-	tstt(duringf.toname;afterf.toname;0.05)
-	tstt(duringf.toname;afterf.toname;0.01)
-
-	.p("
-	X=duringf.torejection, Y=afterf.torejection
-	")
-
-	tstt(duringf.torejection;afterf.torejection;0.05)
-	tstt(duringf.torejection;afterf.torejection;0.01)
-
-	.p("
-	X=duringf.toflake, Y=afterf.toflake
-	")
-
-	tstt(duringf.toflake;afterf.toflake;0.05)
-	tstt(duringf.toflake;afterf.toflake;0.01)
-
-	.p("
-	X=duringf.todate, Y=afterf.todate
-	")
-
-	tstt(duringf.todate;afterf.todate;0.05)
-	tstt(duringf.todate;afterf.todate;0.01)
-
-	.p("
-	X=duringm.toignored, Y=afterm.toignored
-	")
-
-	tstt(duringm.toignored;afterm.toignored;0.05)
-	tstt(duringm.toignored;afterm.toignored;0.01)
-
-	.p("
-	X=duringm.tostopped, Y=afterm.tostopped
-	")
-
-	tstt(duringm.tostopped;afterm.tostopped;0.05)
-	tstt(duringm.tostopped;afterm.tostopped;0.01)
-
-	.p("
-	X=duringm.toname, Y=afterm.toname
-	")
-
-	tstt(duringm.toname;afterm.toname;0.05)
-	tstt(duringm.toname;afterm.toname;0.01)
-
-	.p("
-	X=duringm.torejection, Y=afterm.torejection
-	")
-
-	tstt(duringm.torejection;afterm.torejection;0.05)
-	tstt(duringm.torejection;afterm.torejection;0.01)
-
-	.p("
-	X=duringm.toflake, Y=afterm.toflake
-	")
-
-	tstt(duringm.toflake;afterm.toflake;0.05)
-	tstt(duringm.toflake;afterm.toflake;0.01)
-
-	.p("
-	X=duringm.todate, Y=afterm.todate
-	")
-
-	tstt(duringm.todate;afterm.todate;0.05)
-	tstt(duringm.todate;afterm.todate;0.01)
-
-This is not an attempt at p-hacking – I know that some of these
-hypotheses will probably get rejected by pure chance, but that is
-okay because I'm only trying to identify hypotheses that could inspire
-further testing.
-
-Executed on the data collected, the output shows that \_.
-
-<!--
-TODO: read
-
-https://en.wikipedia.org/wiki/Masturbation
-https://en.wikipedia.org/wiki/Pornography
-
-Perhaps also
-
-/usr/local/doc/unread/blackpill/physical_attractiveness_research_adams_1977.pdf
-/usr/local/doc/unread/sexual_activity_is_inversely_related_to_womens_perceptions_of_male_facial_attractiveness_hess_et_al_2007.pdf
--->
