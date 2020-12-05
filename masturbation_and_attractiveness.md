@@ -861,6 +861,8 @@ Its hashsum was computed as such:
 
         $ sha256sum masturbation_and_attractiveness_preregistered.md
 
+<!--TODO: add link to reddit post-->
+
 The pre-registered hypothesis shall thus be: Let `$\mu_{during}$`
 be the expected value of cold approach with women during a long
 period of abstinence from masturbation as described in the section
