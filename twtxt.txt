@@ -75,3 +75,6 @@
 2020-12-02T15:07:07.000000Z	I want a 'Map≠Territory' T-shirt.
 2020-12-02T18:35:50.000000Z	Trying to move things with your mind might be good meditation practice.
 2020-12-03T08:40:44.000000Z	A strange mental motion in AI alignment is thinking about agency in non-agential ways.
+2020-12-03T18:10:43.000000Z	I'm already looking forward to Hanson's next book.
+2020-12-05T16:50:27.000000Z	Issa Rice was right about Wei Dai.
+2020-12-05T16:52:46.000000Z	Sorta context: https://issarice.com/wei-dai

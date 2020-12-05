@@ -1557,3 +1557,4 @@ Discussions
 
 * [/r/cryonics](https://old.reddit.com/r/cryonics/comments/fualgi/considerations_on_cryonics_apr_2020/)
 * [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/comments/hde7h5/considerations_on_cryonics_a/)
+<!--Add LW link-->

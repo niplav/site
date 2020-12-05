@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-11-14, language: english, status: finished, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-12-03, language: english, status: finished, importance: 6, confidence: possible*
 
 # I have gotten feedback that this post may contain incorrect results. I will try to fix that in the future, until then, don't believe the results here.
 
@@ -426,6 +426,30 @@ the brier score using `mse.set`):
 
 	pbdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'pbraw)
 	metdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'metraw)
+
+#### Why Some Negative Ranges?
+
+This code filters out forecast ranges smaller than 0, which is necessary
+because the data contains some forecasts with negative ranges. These
+stem from two different sources:
+
+In the Metaculus data, these are forecasts on questions that have resolved
+retroactively. These occur in the scenario where forecasters predict on a
+question where the resolution time is not clear, and the resolution occurs
+before the question closes. To prevent an unfair advantage of people who
+predicted while the resolution was unfolding (and therefore predicting on
+an event that had happened in the past), the resolution date is set some
+timespan before the resolving event (e.g. a day). However, the predictions
+after the retroactive resolution are still included in the data.
+
+For PredictionBook, users can still predict after any resolution. The
+script fetches the first resolution, making some predictions retroactive.
+I could instead retrieve the result of the last resolution, but I'm not
+sure it would be worth the effort, or improve the result very much.
+
+<!--TODO: try this, and report back-->
+
+---
 
 To compare the accuracy between forecasts, one can't deal with individual
 forecasts, only with sets of forecasts and outcomes. Here, I organise
@@ -1141,3 +1165,8 @@ The code for image generation can be found
 [here](./code/range_and_forecasting_accuracy/draw_all.kg),
 the complete code for analyzing the data can be found
 [here](./code/range_and_forecasting_accuracy/load.kg).
+
+Discussions
+-----------
+
+* [LessWrong](https://www.lesswrong.com/posts/MquvZCGWyYinsN49c/range-and-forecasting-accuracy)
