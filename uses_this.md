@@ -15,6 +15,7 @@ Uses This
 =========
 
 <!--Add apps-->
+<!--Add browser plugins-->
 
 Software
 --------

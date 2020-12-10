@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-12-01, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2020-12-08, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -12,6 +12,29 @@ These are the texts I have read since May 2017 (sorted by starting date,
 newest additions first). A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* A Systematic Review on Test Suite Reduction: Approaches, Experiment's Quality Evaluation, and Guidelines (Saif Ur Rehman Khan/Sai Peck Lee/Nadeem Javaid/Wadood Abdul, 2018)
+* Die Panne – Ein Hörspiel (Friedrich Dürrenmatt, 1955)
+* [Is Truth in the Hump or the Tails? (Robin Hanson, 2007)](https://www.overcomingbias.com/2007/02/is_truth_in_the.html)
+* [San Antonio: Alternating Subsequences (Brian Hayes, 2006)](http://bit-player.org/2006/san-antonio-alternating-subsequences)
+* [Game Change, Yes Please (Hanzi Freinacht, 2020)](https://metamoderna.org/game-change-yes-please/)
+* [Stop Game Acceptance (Hanzi Freinacht, 2020)](https://metamoderna.org/stop-game-acceptance/)
+* [Stop Game Denial (Hanzi Freinacht, 2020)](https://metamoderna.org/game-denial/)
+* [Questionable Content (Hotel Concierge, 2016)](https://hotelconcierge.tumblr.com/post/148029515479/questionable-content)
+* [What Opinion Game Do We Play? (Robin Hanson, 2007)](https://www.overcomingbias.com/2007/02/what_opinion_ga.html)
+* [From the Lonely Star State (Brian Hayes, 2006)](http://bit-player.org/2006/from-the-lonely-star-state)
+* [Birth order effect found in Nobel Laureates in Physics (Bucky, 2018)](https://www.lesswrong.com/posts/QTLTic5nZ2DaBtoCv/birth-order-effect-found-in-nobel-laureates-in-physics)
+* Der Sekundant (Arthur Schnitzler, 1931)
+* Spiel im Morgengrauen (Arthur Schnitzler, 1926)
+* [Bottle Caps Aren't Optimisers (Daniel Filan, 2018)](https://www.lesswrong.com/posts/26eupx3Byc8swRS7f/bottle-caps-aren-t-optimisers)
+* [The Tails Coming Apart As Metaphor For Life (Scott Alexander, 2018)](https://www.lesswrong.com/posts/asmZvCPHcB4SkSCMW)
+* [The Rocket Alignment Problem (Eliezer Yudkowsky, 2018)](https://www.lesswrong.com/posts/Gg9a4y8reWKtLe3Tn)
+* [Competitive Markets as Distributed Backprop (johnswentworth, 2018)](https://www.lesswrong.com/posts/brhWPoNsBN7za3xjs/competitive-markets-as-distributed-backprop)
+* Das Tagebuch der Redegonda (Arthur Schnitzler, 1911)
+* [Paul's research agenda FAQ (zhukeepa, 2018)](https://www.lesswrong.com/posts/Djs38EWYZG8o7JMWY/paul-s-research-agenda-faq)
+* Die Fremde (Arthur Schnitzler, 1902)
+* Leutnant Gustl (Arthur Schnitzler, 1900)
+* Die Toten schweigen (Arthur Schnitzler, 1897)
+* [My Fear Heuristic (lsusr, 2020)](https://www.lesswrong.com/posts/qHpazCw3ryvBojGSa/my-fear-heuristic)
 * [On the Chatham House Rule (Scott Garrabrant, 2018)](https://www.lesswrong.com/posts/sWof2zGexwwJ8Q4ND/on-the-chatham-house-rule)
 * Der Ehrentag (Arthur Schnitzler, 1897)
 * Der Witwer (Arthur Schnitzler, 1894)
