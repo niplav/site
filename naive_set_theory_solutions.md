@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2020-12-08, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2020-12-12, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -632,7 +632,7 @@ $$ e \in \bigcup_{i,j}(A_{i} \times B_{j}) \\
 (e_{1},e_{2}) \in \bigcup_{i,j}(A_{i} \times B_{j}) \Leftrightarrow \\
 \exists i \in I, j \in J: (e_{1},e_{2}) \in A_{i} \times B_{j} \Leftrightarrow \\
 \exists i \in I, j \in J: (e_{1} A_{i}) \land (e_{2} \in B_{j}) \Leftrightarrow \\
-\exists i \in I: (e_{1} A_{i}) \land \exists j in \J: (e_{2} \in B_{j}) \Leftrightarrow \\
+\exists i \in I: (e_{1} A_{i}) \land \exists j \in J: (e_{2} \in B_{j}) \Leftrightarrow \\
 (e_{1} \in \bigcup_{i} A_{i}) \land (e_{2} \in \bigcup_{j} B_{j}) \Leftrightarrow \\
 (e_{1}, e_{2}) \in (\bigcup_{i} A_{i}) \times (\bigcup_{j} B_{j}) \Leftrightarrow \\
 e \in (\bigcup_{i} A_{i}) \times (\bigcup_{j} B_{j}) $$
@@ -654,7 +654,7 @@ $$ e \in \bigcap_{i,j}(A_{i} \times B_{j}) \\
 (e_{1},e_{2}) \in \bigcap_{i,j}(A_{i} \times B_{j}) \Leftrightarrow \\
 \forall i \in I, j \in J: (e_{1},e_{2}) \in A_{i} \times B_{j} \Leftrightarrow \\
 \forall i \in I, j \in J: (e_{1} A_{i}) \land (e_{2} \in B_{j}) \Leftrightarrow \\
-\forall i \in I: (e_{1} A_{i}) \land \forall j in \J: (e_{2} \in B_{j}) \Leftrightarrow \\
+\forall i \in I: (e_{1} A_{i}) \land \forall j \in J: (e_{2} \in B_{j}) \Leftrightarrow \\
 (e_{1} \in \bigcap_{i} A_{i}) \land (e_{2} \in \bigcap_{j} B_{j}) \Leftrightarrow \\
 (e_{1}, e_{2}) \in (\bigcap_{i} A_{i}) \times (\bigcap_{j} B_{j}) \Leftrightarrow \\
 e \in (\bigcap_{i} A_{i}) \times (\bigcap_{j} B_{j}) $$
@@ -664,19 +664,19 @@ e \in (\bigcap_{i} A_{i}) \times (\bigcap_{j} B_{j}) $$
 
 To b proven:
 
-$\bigcap_{i} X_{i} \subset X_{j} \subset \bigcup_{i} X_{i}$
+`$\bigcap_{i} X_{i} \subset X_{j} \subset \bigcup_{i} X_{i}$`
 
 Proof:
 
 <div>
-$$ \in \bigcap_i} X_{i} \Rightarrow \\
-\forall i: e \in X_{i} \Rightarrow \\
-\forall i: \exists j: {i,j} \subset I \land i=j \land e \in X_{i} \Rightarrow \\
-\forall i: \exists j: i \in I \land j \in J \land i=j \land e \in X_{j} \Rightarrow \\
-e \in X_{j} \Rightarrow \\
-\exists j \in I: e \in X_{j} \Rightarrow \\
-\exists i \in I: e \in X_{i} \Rightarrow \\
-e \in \bigcup_{i} X_{i} $$
+	$$ e \in \bigcap_{i} X_{i} \Rightarrow \\
+	\forall i: e \in X_{i} \Rightarrow \\
+	\forall i: \exists j: {i,j} \subset I \land i=j \land e \in X_{i} \Rightarrow \\
+	\forall i: \exists j: i \in I \land j \in J \land i=j \land e \in X_{j} \Rightarrow \\
+	e \in X_{j} \Rightarrow \\
+	\exists j \in I: e \in X_{j} \Rightarrow \\
+	\exists i \in I: e \in X_{i} \Rightarrow \\
+	e \in \bigcup_{i} X_{i} $$
 </div>
 
 □

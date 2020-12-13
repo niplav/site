@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-07-17, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2020-12-12, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Series I have watched since January 2018.__
 
@@ -25,3 +25,4 @@ order). I may not be finished with some of these yet.
 * [Silicon Valley](https://www.imdb.com/title/tt2575988/)
 * [Snowpiercer](https://www.imdb.com/title/tt6156584/)
 * [Stranger Things](https://www.imdb.com/title/tt4574334/)
+* [The Mandalorian](https://www.imdb.com/title/tt8111088/)

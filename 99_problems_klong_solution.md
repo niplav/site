@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2020-07-14, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-02-10, modified: 2020-12-13, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __Solutions to the [99 problems](./99_klong_problems.html "99 Klong
 > Problems") in [Klong](http://t3x.org/klong/index.html) in a [literate
@@ -2165,6 +2165,7 @@ Implementing `$max_{n}$` is implementing
 	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)}{\ln(\phi)}-\frac{3*\ln(\phi)}{\ln(\phi)} \rfloor\\
 	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)-ln(e^{3*\ln(\phi)})}{\ln(\phi)} \rfloor\\
 	=\lfloor \frac{\ln(\frac{\frac{1}{2}+\sqrt{5}+\sqrt{5}*n}{e^{3*\ln(\phi)}})}{\ln(\phi)} \rfloor\\
+	=\lfloor \frac{\ln(\frac{\frac{1}{2}+\sqrt{5}+\sqrt{5}*n}{\phi^3})}{\ln(\phi)} \rfloor\\
 	\approx \lfloor \frac{\ln(0.6459+0.5279*n)}{0.4812} \rfloor$$
 </div>
 

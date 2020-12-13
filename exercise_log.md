@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-06-15, modified: 2020-12-04, language: english, status: notes, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-15, modified: 2020-12-13, language: english, status: notes, importance: 1, confidence: log*
 
 > __I recently got the feeling that tracking my exercise might be vaguely
 > useful. This is my attempt.__
@@ -12,15 +12,15 @@ Exercise Log
 Template
 --------
 
-* 50 dumbbell biceps curls
-* 50 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 50 dumbbell bench presses
+* 60 dumbbell biceps curls
+* 60 dumbbell shoulder presses
+* 60 dumbbell upright rows
+* 60 dumbbell bench presses
 * 20 dumbbell scaptions
 * 20 dumbbell lateral lifts
-* 50 push-ups
+* 60 push-ups
 * 100 sit-ups
-* 50 double leg lifts
+* 60 double leg lifts
 * 20 burpees
 * 100 froggers
 * 5 minutes plank
@@ -550,3 +550,17 @@ Log
 * 60 double leg lifts
 * 100 froggers
 * 1 minute plank
+
+### 2020-12-12
+
+* 60 dumbbell biceps curls
+* 60 dumbbell shoulder presses
+* 60 dumbbell upright rows
+* 60 dumbbell bench presses
+* 20 dumbbell scaptions
+* 20 dumbbell lateral lifts
+* 60 push-ups
+* 100 sit-ups
+* 60 double leg lifts
+* 100 froggers
+* 2 minutes plank

@@ -604,6 +604,8 @@ Texts
 			* hedonium has maximal symmetry, which should just be the ball, but little information content
 			* hold this computation in timelessness so that the mind experiences the path indefinitely long
 		* Hell
+* Dishwasher Paper Titles
+	* Maybe with Abstracts
 * Homeless Super-Mathematicians
 	* Perhaps in the SCP format?
 * Blue Reality
