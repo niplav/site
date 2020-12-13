@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2020-11-21, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2020-10-07, modified: 2020-12-12, language: english, status: notes, importance: 3, confidence: log*
 
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
@@ -487,4 +487,10 @@ Buying Socks of One Kind
 
 Tracking A Lot
 ---------------
+
+Chatting Up Random People
+-------------------------
+
+Asking the Hamming Question, "What is art?", or simply, "Would you like
+to hold a conversation?"
 -->

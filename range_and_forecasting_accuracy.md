@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-12-03, language: english, status: finished, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-12-13, language: english, status: finished, importance: 6, confidence: possible*
 
 # I have gotten feedback that this post may contain incorrect results. I will try to fix that in the future, until then, don't believe the results here.
 
@@ -442,10 +442,20 @@ an event that had happened in the past), the resolution date is set some
 timespan before the resolving event (e.g. a day). However, the predictions
 after the retroactive resolution are still included in the data.
 
+Examples:
+
+* [Will Iran execute or be targeted in a national military attack between 6 June 2019 and 5 October 2019?](https://www.metaculus.com/questions/2926/will-iran-execute-or-be-targeted-in-a-national-military-attack-between-6-june-2019-and-5-october-2019/)
+* [Will EA Global San Francisco be cancelled or rescheduled due to COVID-19?](https://www.metaculus.com/questions/3756/will-ea-global-san-francisco-be-cancelled-or-rescheduled-due-to-covid-19/)
+
 For PredictionBook, users can still predict after any resolution. The
 script fetches the first resolution, making some predictions retroactive.
 I could instead retrieve the result of the last resolution, but I'm not
 sure it would be worth the effort, or improve the result very much.
+
+Examples:
+
+* [Total deaths due to coronavirus in the Netherlands will go over >5000 by the end of April.](https://predictionbook.com/predictions/198593)
+* [Matt will be happy he will no longer be able to be instantly Rick rolled](https://predictionbook.com/predictions/155)
 
 <!--TODO: try this, and report back-->
 
