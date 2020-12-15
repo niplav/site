@@ -1,10 +1,10 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-10-21, modified: 2020-10-21, language: english, status: finished, importance: 2, confidence: other*
+*author: niplav, created: 2020-10-21, modified: 2020-12-15, language: english, status: finished, importance: 2, confidence: other*
 
 > __I believe that content warnings are a [pretty good
-> idea](https://slatestarcodex.com/2014/05/30/the-wonderful-thing-about-triggers/),
+> idea](https://slatestarcodex.com/2014/05/30/the-wonderful-thing-about-triggers/ "The Wonderful Thing About Triggers"),
 > but I don't have time & energy to create them for every single text. This
 > is a site-wide content warning and personal thoughts on how I want to
 > deal with upsetting and harmful information.__

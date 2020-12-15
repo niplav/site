@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2020-11-22, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2020-12-15, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -885,3 +885,85 @@ add people with negative welfare than positive welfare.
 *–[Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 5, 2000*
 
 All of these are stated more mathematically on page 15.
+
+Gifts
+------
+
+It is relatively easy to argue that gifts are mostly about social
+signalling ([Simler & Hanson 2018](http://www.elephantinthebrain.com "The Elephant in the Brain")
+p. 197 touches on this) – often, the person receiving the gift has no
+use for it, or could have easily bought the item themselves (or, worse,
+would have known what else to buy that would have been more useful to
+them). The problems of gift-giving are enhanced by the fact that there
+is a norm against telling people what they'll be given, preventing
+them from correcting superfluous gifts. Furthermore, gifts are often
+a clear instance of [Gestell](https://en.wikipedia.org/wiki/Gestell)
+– objects that take up mental and physical space, while providing
+no value whatsoever (although people sometimes migitate this effect by
+giving consumable items such as food). Here, I'll ignore the function
+of gifts for signaling caring, and present some options for improving
+gift-giving from the perspective of the gift-receiver.
+
+However, [johnswentworth
+2020](https://www.lesswrong.com/posts/2cmbdYnQoWdjGb9o3/gifts-which-money-cannot-buy "Gifts Which Money Cannot Buy")
+lays out thoughts on situations where giving a gift is better than the
+person buying the object for themselves, namely when the gift-giver has
+greater knowledge than the gift-receiver.
+
+Generally, one can describe the gift-giver and the gift-receiver as two
+agents, both with a utility function, a prediction function, and a policy
+function (the utility function of the gift-giver is ignored here). The
+gift-giver attempts to maximize the utility function of the gift-receiver,
+but has only incomplete knowledge of this utility function.
+
+### Gift-Giver Knows More
+
+As [johnswentworth
+2020](https://www.lesswrong.com/posts/2cmbdYnQoWdjGb9o3/gifts-which-money-cannot-buy "Gifts Which Money Cannot Buy")
+describes, there is often the case where the gift-giver has
+a higher-accuracy prediction function in some domains, and
+can leverage that to give a gift that is more useful than the
+object the gift-receiver would have bought, according to the
+gift-receiver's utility function.
+
+### Gift-Giver Can Do More
+
+However, there is a another case: Sometimes, there is a worldstate
+that ranks high in the utility function of the gift-receiver, and they
+do know how to achieve this worldstate, but their policy function does
+not implement the specific course of action. Or, in the human case, the
+gift-receiver is procrastinating ways to achieve their goals, and also
+procrastinates hiring other people to do it. However, the gift-giver
+has no aversion to bringing about that particular worldstate (which,
+in humans, is quite often the case: people are sometimes more motivated
+to help others with specific problems than fixing these problems for
+themselves). A potential gift could be for the gift-giver to assist the
+gift-receiver to achieve their goal (at least to the extent to which
+that is possible).
+
+Or, short: A useful gift is to shoulder someone else's akrasia.
+
+### Preserving Option-Value in Gift Giving
+
+A way to circumvent the possibility of being wildly mistaken about
+other people's utility functions is to give them money, and to
+offer them a suggestion on what to spend that money on (possibly
+also offering them to assist them in doing so). This carries the advantage
+of the other person not being stuck with the (potentially useless) gift.
+
+Also, giving money carries the advantage that it can be used to contribute
+to larger-scale projects (rather than being limited to usually less than
+objects with a price of less than 50$).
+
+### Preserving Signaling Value
+
+Often, a useful gift can be combined with a signaling component, for
+example a hand-written card directed to the person.
+
+### Public Goods
+
+Gifts can be used to contribute to public goods. I don't know how much
+sense this makes economically, but emotionally, at least most of the time
+([Sustrik 2018](https://www.lesswrong.com/posts/X5RyaEDHNq5qutSHK "Anti-social punishment")),
+it carries with it the intention of being not only a gift to the person,
+but to the rest of the world as well.
