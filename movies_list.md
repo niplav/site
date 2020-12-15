@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-12-05, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2020-12-15, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,6 +11,8 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Star Wars: Episode IX - Rise of Skywalker]()
+* [The Revenant]()
 * [Open Season](https://www.imdb.com/title/tt0400717/)
 * [Mädchen Mädchen](https://www.imdb.com/title/tt0258827/)
 * [Nausicaä of the Valley of the Wind](https://www.imdb.com/title/tt0087544/)

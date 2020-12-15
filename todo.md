@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-12-07, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-12-15, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -295,7 +295,8 @@ Texts
 * Voting Cost-Benefit Analysis
 	* Altruistic, egoistic
 * Subjective time experience for advanced meditators
-* Wireheading: Theory and Practice
+* Wireheading: Much More Than You Wanted to Know
+* Shipping: Much More Than You Wanted to Know
 * Timeline of the Odyssee
 * Requirements for AI Safety via Debate
 
@@ -497,6 +498,7 @@ Texts
 			* Spend relatively long on each question (15 minutes)
 * Explaining "Mental Motions"
 	* Find mentions of this, and write up what the term means.
+* Anecdotes About the Running Times of Test Suites in the Software Industry
 
 ### Notes
 
@@ -517,7 +519,6 @@ Texts
 	* Mindset of "making a gift"
 * Most People Have No Power At All
 	* Therefore it's probably not very important what most people think
-* A Nice Method for Giving Gifts
 
 ### Misc
 
