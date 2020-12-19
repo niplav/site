@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-11-26, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2020-12-18, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -153,7 +153,7 @@ The style of writing is mostly formal US english.
 	* "See Also" for similar links on this website
 	* "External Links" for links to other websites discussing the same (or very similar) ideas
 	* "Discussions" for external discussions on the article
-* Long numbers written with [SI-postfixes](https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes) (k for thousand, m for million etc., b for billion, t for trillion, and so on.)
+* Long numbers written with [SI-postfixes](https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes) (k for thousand, m for million, b for billion, t for trillion, and so on.)
 
 ### Writing Checklist
 

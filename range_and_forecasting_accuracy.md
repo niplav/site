@@ -1,9 +1,9 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-12-13, language: english, status: finished, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2020-12-19, language: english, status: finished, importance: 6, confidence: possible*
 
-# I have gotten feedback that this post may contain incorrect results. I will try to fix that in the future, until then, don't believe the results here.
+# This post contains information that is misleading. While the calculations and description of the approach contain no mistakes in themselves, the approach is misguided. Only reference the results if you have understood the approach. This will be fixed.
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three

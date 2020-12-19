@@ -568,3 +568,18 @@ Log
 ### 2020-12-14
 
 * 30 minutes jogging
+
+### 2020-12-19
+
+* 60 dumbbell biceps curls
+* 60 dumbbell shoulder presses
+* 60 dumbbell upright rows
+* 60 dumbbell bench presses
+* 20 dumbbell scaptions
+* 20 dumbbell lateral lifts
+* 60 push-ups
+* 100 sit-ups
+* 60 double leg lifts
+* 20 burpees
+* 100 froggers
+* 1 minute plank
