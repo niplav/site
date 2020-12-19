@@ -299,6 +299,7 @@ Texts
 * Shipping: Much More Than You Wanted to Know
 * Timeline of the Odyssee
 * Requirements for AI Safety via Debate
+* Roomba Cost-Benefit Analysis
 
 ### Ideas
 
