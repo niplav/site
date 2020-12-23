@@ -112,3 +112,10 @@
 2020-12-18T09:31:59.000000Z	Some people on the LW team are increasing their Brier scores pretty hard right now bc of the number of orders for the books
 2020-12-18T09:41:37.000000Z	Suicide is legal, assisted suicide is illegal. Hm.
 2020-12-19T12:22:08.000000Z	Noting “noting itself” itself
+2020-12-20T01:58:34.000000Z	I'm back to “tribes are bad”
+2020-12-20T01:59:55.000000Z	As a matter of reconciliation; welp
+2020-12-22T15:18:40.000000Z	https://www.lesswrong.com/posts/xdwbX9pFEr7Pomaxv/meta-honesty-firming-up-honesty-around-its-edge-cases?commentId=rfYQjT8SfzfQPLWYH lel
+2020-12-23T21:57:33.000000Z	To all the people arguing for putting the comma inside the quotation marks: You are nitpicking and biased, I win, bye bye
+2020-12-23T22:10:40.000000Z	@<pbatch (3 days ago)> "that's it. I'm sticking to this txtnish client." Solid choice.
+2020-12-23T22:19:37.000000Z	Current status: High moral/ontologicial/metaphysical/empirical uncertainty. Thus: Relative conservativism, plus progression in direction of more cooperation, increasing option value/attainable utility. More concretely: Prevent wars, prevent extinction, freeze people, don't destroy ecosystems (for now). Possible flaws: Assumes we will be able to coordinate even better in the future. Seems more likely to me than not, but otherwise, flip the whole thing and go exploit on current morality.
+2020-12-23T22:21:21.000000Z	My LW shortform was not appreciated as much as I expected – was I subtly wrong, or did I miss discussion about the choice of TM in Solomonoff induction?
