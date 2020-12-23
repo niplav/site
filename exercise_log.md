@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-06-15, modified: 2020-12-15, language: english, status: notes, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-15, modified: 2020-12-23, language: english, status: notes, importance: 1, confidence: log*
 
 > __I recently got the feeling that tracking my exercise might be vaguely
 > useful. This is my attempt.__
@@ -583,3 +583,22 @@ Log
 * 20 burpees
 * 100 froggers
 * 1 minute plank
+
+### 2020-12-21
+
+* 45 minutes jogging
+
+### 2020-12-23
+
+* 60 dumbbell biceps curls
+* 60 dumbbell shoulder presses
+* 60 dumbbell upright rows
+* 60 dumbbell bench presses
+* 20 dumbbell scaptions
+* 20 dumbbell lateral lifts
+* 60 push-ups
+* 100 sit-ups
+* 60 double leg lifts
+* 20 burpees
+* 100 froggers
+* 5 minutes plank
