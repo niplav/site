@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-12-13, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2020-12-24, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -15,6 +15,7 @@ December 2020
 * [Exercise 3 in Section 9](./naive_set_theory_solutions.html#Exercise-3) in [Naive Set Theory](./naive_set_theory_solutions.html)
 * Notes
 	* [Gifts](./notes.html#Gifts)
+	* [Vasectomy & Sperm-Freezing Cost-Benefit](./notes.html#Vasectomy--Sperm-Freezing-CostBenefit)
 
 November 2020
 -------------

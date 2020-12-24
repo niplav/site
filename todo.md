@@ -896,10 +896,6 @@ Programming
 	* get inspiration from meditavo
 * tomate
 	* little pomodoro utility
-* unclean
-	*	utility that tries to calculate the percentage of variable
-		assignments for which a given sentence in propositional
-		logic is true
 * sent2tex
 	* converts a sent presentation to a pdf presentation
 *	1on1match: Platform that connects people who'd like to do 1-on-1s,

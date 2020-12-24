@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-12-08, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2020-12-23, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -12,6 +12,30 @@ These are the texts I have read since May 2017 (sorted by starting date,
 newest additions first). A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Lisp Number Representations (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/03/15/)
+* [My attempt to explain Looking, insight meditation, and enlightenment in non-mysterious terms (Kaj Sotala, 2018)](https://www.lesswrong.com/posts/mELQFMi9egPn5EAjK)
+* [Linear Spatial Filters with GNU Octave (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/02/22/)
+* [Meta-Honesty: Firming Up Honesty Around Its Edge-Cases (Eliezer Yudkowsky, 2018)](https://www.lesswrong.com/posts/xdwbX9pFEr7Pomaxv)
+* Clustering Support for Inadequate Test Suite Reduction (Carmen Coviello/Simone Romano/Guiseppe Scaniello/Alessandro Marchetto/Giuliano Antoniol/Anna Corazza, 2018)
+* [Varieties Of Argumentative Experience (Scott Alexander, 2018)](https://www.lesswrong.com/posts/NLBbCQeNLFvBJJkrt)
+* [A LessWrong Crypto Autopsy (Scott Alexander, 2018)](https://www.lesswrong.com/posts/MajyZJrsf8fAywWgY)
+* [A voting theory primer for rationalists (Jameson Quinn, 2018)](https://www.lesswrong.com/posts/D6trAzh6DApKPhbv4)
+* \* AGI Safety From First Principles (Richard Ngo, 2020)
+* Der futurologische Kongress (Stanisław Lem)
+* \* A Happy Possibility About Happiness (And Other Subjective) Scales: An Investigation and Tentative Defence of the Cardinality Thesis (Michael Plant, 2020)
+* [Is Science Slowing Down? (Scott Alexander, 2018)](https://www.lesswrong.com/posts/v7c47vjta3mavY3QC)
+* [Coherence arguments do not imply goal-directed behavior (Rohin Shash, 2018)](https://www.lesswrong.com/posts/NxF5G6CJiof6cemTw)
+* [The Intelligent Social Web (Valentine, 2018)](https://www.lesswrong.com/posts/AqbWna2S85pFTsHH4)
+* [Gifts Which Money Cannot Buy (johnswentworth, 2020)](https://www.lesswrong.com/posts/2cmbdYnQoWdjGb9o3/gifts-which-money-cannot-buy)
+* Test Suite Reduction based on Similarity of Test Cases (Ana Emília V. B. Coutinho/Emanuela G. Cartaxo/Patrícia D. L. Machado, 2014)
+* [Babble (alkjash, 2018)](https://www.lesswrong.com/posts/i42Dfoh4HtsCAfXxL)
+* Interaction-Based Test-Suite Minimization (Dale Blue/Itai Segall/Rachel Tzoref-Brill/Aviad Zlotnik, 2013)
+* [Anti-social Punishment (Martin Sustrik, 2018)](https://www.lesswrong.com/posts/X5RyaEDHNq5qutSHK)
+* On the Fault-Detection Capabilities of Adaptive Random Test Case Priorization: Case Studies with Large Test Suites (Zhi Quan Zhou/Willy Susilo/Arnaldo Sinaga, 2012)
+* [The Costly Coordination Mechanism of Common Knowledge (Ben Pace, 2018)](https://www.lesswrong.com/posts/9QxnfMYccz9QRgZ5z)
+* Ragtime (E. L. Doctorow, 1974)
+* [Local Validity as a Key to Sanity and Civilization (Eliezer Yudkowsky, 2018)](https://www.lesswrong.com/posts/WQFioaudEH8R7fyhm)
+* Die Panne – Eine Komödie (Friedrich Dürrenmatt, 1979)
 * A Systematic Review on Test Suite Reduction: Approaches, Experiment's Quality Evaluation, and Guidelines (Saif Ur Rehman Khan/Sai Peck Lee/Nadeem Javaid/Wadood Abdul, 2018)
 * Die Panne – Ein Hörspiel (Friedrich Dürrenmatt, 1955)
 * [Is Truth in the Hump or the Tails? (Robin Hanson, 2007)](https://www.overcomingbias.com/2007/02/is_truth_in_the.html)
@@ -61,7 +85,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Security amplification (Paul Christiano, 2019)](https://www.lesswrong.com/posts/hjEaZgyQ2iprDhkg8/security-amplification)
 * Prioritizing Test Cases For Regression Testing (Gregg Rothermel/Roland H. Untch/Chengyun Chu/Mary Jean Harrold, 2001)
 * [Shujin's Comprehensive Fit Guide (shujin, 2017)](https://old.reddit.com/r/malefashionadvice/comments/ehrtv/shujins_comprehensive_fit_guide/)
-* [Reliability amplification  (Paul Christiano, 2019)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/6fMvGoyy3kgnonRNM)
+* [Reliability amplification (Paul Christiano, 2019)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/6fMvGoyy3kgnonRNM)
 * Cross-Cultural Agreement in Facial Attractiveness Preferences: The Role of Ethnicity and Gender (Vinet Coetzee/Jaco M. Greeff/IAn D. Stephen/David I. Perrett, 2014)
 * Adaptive Random Testing: the ART of Test Case Diversity (Tsong Yueh Chen/Fei-Ching Kuo/Robert G. Merkel/T.H. Tse, 2010)
 * [Techniques for optimizing worst-case performance (Paul Christiano, 2019)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/E2aZ9Xwdz3i2ghPtn)
@@ -492,7 +516,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [How to Stop Biting Your Nails (WikiHow, 2019)](https://www.wikihow.com/Stop-Biting-Your-Nails)
 * [Why Do I Bite My Nails and How Do I Stop? (WebMD, 2017)](https://www.webmd.com/a-to-z-guides/stop-nail-biting-tips)
 * \* Programming in Lua (Roberto Ierusalimschy, 2013)
-* \* Object-Oriented Software Engineering (Bernd Bruegge/Allen Dutoit, 2010)
+* |238 Object-Oriented Software Engineering (Bernd Bruegge/Allen Dutoit, 2010)
 * |164 Lineare Algebra (Gerd Fischer, 1975)
 * [Invertebrates Created by Throwing Out Food Scraps (Brian Tomasik, 2017)](https://reducing-suffering.org/invertebrates-landfills/)
 * [Response to Anonymous Author on Bunker Magazine (Hanzi Freinacht, 2017)](https://metamoderna.org/response-to-anonymous-author-on-bunkermag-org/)
