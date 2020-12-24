@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2020-12-15, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2020-12-24, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -814,7 +814,7 @@ pseudocode, which I show here:
 			maxstart ← i
 			supmaxrep ← true
 			preceding ← ∅
-		else if lcptab[i] < lcptab[i − 1] and  supmaxrep then
+		else if lcptab[i] < lcptab[i − 1] and supmaxrep then
 			ω ← S[suftab[i − 1]..suftab[i − 1] + lcptab[i − 1]]
 			result ← result ∪ {(ω, maxstart, i − 1)}
 			supmaxrep ← false
@@ -967,3 +967,66 @@ sense this makes economically, but emotionally, at least most of the time
 ([Sustrik 2018](https://www.lesswrong.com/posts/X5RyaEDHNq5qutSHK "Anti-social punishment")),
 it carries with it the intention of being not only a gift to the person,
 but to the rest of the world as well.
+
+Vasectomy & Sperm Freezing Cost-Benefit
+----------------------------------------
+
+It seems broadly useful to spend a lot of time to consider whether you
+want to have children, and with whom. However, in situations of arousal,
+people sometimes forget/neglect to apply birth control methods. Also,
+sometimes other people might adversarially make you believe they have
+applied birth control to extract resources (such as child support,
+or having children they don't want to care for).
+
+If you are male, and you want to prevent these kinds of scenarios, you
+might consider freezing sperm and getting a vasectomy. In this way,
+it is easier to control who you father children with, and also makes
+controlling paternity much easier. However, would that be worth it?
+Maybe the cost of the operation and preservation is too high.
+
+As per [Grall
+2017](doc/sperm_freezing_vasectomy_cb/custodial_mothers_and_fathers_and_their_child_support_grall_2017.pdf "Custodial Mothers and Fathers and Their Child Support: 2017"),
+"custodial parents with legal order or informal agreements for child
+support were supposed to receive, on average, $5,519, or approximately
+\$460 per month" (p. 9) (as per Table 2 p. 16, \$5580 per custodial
+mother). "[A]bout 4 of every 5 (79.9 percent) of the 12.9 million
+custodial parents were mothers" (p. 1), to be more exact,
+12,918,000 (p. 16). I will assume that one father per mother is
+responsible for paying child support (which doesn't have to be true,
+it could be multiple fathers per mother).
+
+[This page](https://www.infoplease.com/us/census/demographic-statistics)
+gives 100,994,367 men above the age of 18 living in the US.
+
+I assume the readers of this essay are virtuous humans and would pay
+their child support in full if they owed it.
+
+Assuming naively that the reader is selected randomly from that set of men in
+the US above the age of 18, the expected value of child support paid per year is
+`$5580\frac{\$}{\hbox{year}}*\frac{12918000}{100994367} \approx 713.73\frac{\$}{\hbox{year}}$`.
+
+Freezing sperm is surprisingly expensive. [CostAide
+2020](https://costaide.com/freezing-sperm-cost/ "How Much Does Freezing Sperm Cost") states that "There
+is an up-front fee worth \$1000 to \$1200. Its breakdown includes account
+setup, blood draw used to check for viruses and illness and the annual
+storage fee" and "if you store a perm for 1 year the cost will be \$395. A
+2-year storage is \$670, 3 years is \$985, 5 years is \$1340 and 10 years
+is \$2400".
+
+[Stacey 2020](https://www.verywellhealth.com/how-much-does-a-vasectomy-cost-906900 "The Cost of a Vasectomy")
+states that "In the United States, a vasectomy costs between \$300 to
+\$3000". To make the calculation easier, I will assume that a vasectomy
+costs \$1000.
+
+Assuming that sperm would be frozen for 25 years, while child support
+lasts for around 18 years, that would give a cost of
+`$\$1000 + \$1000 + 25\hbox{years}*\frac{\$2400}{10\hbox{years}}=\$8000$`.
+
+The benefit would be `$18\hbox{years}*713.73\frac{\$}{\hbox{year}}=\$12847.14$`,
+with a value of ~\$4850.
+
+Under this very crude calculation, freezing sperm and having a vasectomy might very
+well be worth it. However, there are other additional costs to consider, such
+as the possibility that the frozen sperm might be unusable after freezing, but also that
+(besides being careful about STDs), this would reduce the amount of money spent
+on birth control measures.
