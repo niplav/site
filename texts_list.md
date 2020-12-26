@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-12-23, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2020-12-26, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -12,6 +12,15 @@ These are the texts I have read since May 2017 (sorted by starting date,
 newest additions first). A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Inadequate Equilibria vs. Governance of the Commons (Martin Sustrik, 2018)](https://www.lesswrong.com/posts/2G8j8D5auZKKAjSfY)
+* [One-Time Pads (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/07/08/)
+* \* Flatland (Edwin A. Abbott, 1884)
+* [Covid 12/24: We're F***ed, It's Over (Zvi, 2020)](https://www.lesswrong.com/posts/CHtwDXy63BsLkQx4n/covid-12-24-we-re-f-ed-it-s-over)
+* [Up is Down (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/06/26/)
+* [How Much Does Freezing Sperm Cost (CostAide, 2020)](https://costaide.com/freezing-sperm-cost/)
+* [U.S. Child Support Statistics (Jennifer Wolf, 2020)](https://www.verywellfamily.com/us-child-support-statistics-2997994)
+* [Naming the Nameless (sarahconstantin, 2018)](https://www.lesswrong.com/posts/4ZwGqkMTyAvANYEDw)
+* [Memoization (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/03/25/)
 * [Lisp Number Representations (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/03/15/)
 * [My attempt to explain Looking, insight meditation, and enlightenment in non-mysterious terms (Kaj Sotala, 2018)](https://www.lesswrong.com/posts/mELQFMi9egPn5EAjK)
 * [Linear Spatial Filters with GNU Octave (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/02/22/)
@@ -21,7 +30,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [A LessWrong Crypto Autopsy (Scott Alexander, 2018)](https://www.lesswrong.com/posts/MajyZJrsf8fAywWgY)
 * [A voting theory primer for rationalists (Jameson Quinn, 2018)](https://www.lesswrong.com/posts/D6trAzh6DApKPhbv4)
 * \* AGI Safety From First Principles (Richard Ngo, 2020)
-* Der futurologische Kongress (Stanisław Lem)
+* Der futurologische Kongress (Stanisław Lem, 1970)
 * \* A Happy Possibility About Happiness (And Other Subjective) Scales: An Investigation and Tentative Defence of the Cardinality Thesis (Michael Plant, 2020)
 * [Is Science Slowing Down? (Scott Alexander, 2018)](https://www.lesswrong.com/posts/v7c47vjta3mavY3QC)
 * [Coherence arguments do not imply goal-directed behavior (Rohin Shash, 2018)](https://www.lesswrong.com/posts/NxF5G6CJiof6cemTw)

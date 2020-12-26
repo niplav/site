@@ -602,3 +602,7 @@ Log
 * 20 burpees
 * 100 froggers
 * 5 minutes plank
+
+### 2020-12-21
+
+* 30 minutes jogging

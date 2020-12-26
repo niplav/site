@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-12-15, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-12-24, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -282,9 +282,6 @@ Texts
 		* t: 10 4 7 3 8 9 5 11 2 6 12
 		* a: 4 2 3 8 9 11 10 7 12 6 5
 	* `set k 0; for i in 4 2 3 8 9 11 10 7 12 6 5; for j in (seq 1 10); set k (echo "\$k+\$i" | bc); date -I'date' -d "2028-11-17 +$k days"; end; end | xsel -psb`
-* Vasectomy and Sperm Freezing Cost-Benefit Analysis
-	* https://www.verywellfamily.com/us-child-support-statistics-2997994
-	* https://costaide.com/freezing-sperm-cost/
 * Ingredients to Moloch
 	* Tragedy of the Commons
 	* Nash Equilibria
