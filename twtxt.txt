@@ -119,3 +119,25 @@
 2020-12-23T22:10:40.000000Z	@<pbatch (3 days ago)> "that's it. I'm sticking to this txtnish client." Solid choice.
 2020-12-23T22:19:37.000000Z	Current status: High moral/ontologicial/metaphysical/empirical uncertainty. Thus: Relative conservativism, plus progression in direction of more cooperation, increasing option value/attainable utility. More concretely: Prevent wars, prevent extinction, freeze people, don't destroy ecosystems (for now). Possible flaws: Assumes we will be able to coordinate even better in the future. Seems more likely to me than not, but otherwise, flip the whole thing and go exploit on current morality.
 2020-12-23T22:21:21.000000Z	My LW shortform was not appreciated as much as I expected – was I subtly wrong, or did I miss discussion about the choice of TM in Solomonoff induction?
+2020-12-24T14:03:11.000000Z	If you're an average man, my calculation tells me that freezing your sperm & getting a vasectomy is worth ~ in expectation (https://niplav.github.io/notes.html#Vasectomy--Sperm-Freezing-CostBenefit) (in the US, caveat caveat caveat)
+2020-12-24T14:05:57.000000Z	I've always found the 'suicide is selfish' argument weird. Someone is making the most important (and most tragic) decision in their life, and people are talking about themselves?
+2020-12-24T14:17:41.000000Z	Actually, embedded agency is a super good name for a movement, and I could see it replacing the horrid 'rationalism' over time. Plus, 'embags' is a really good abbreviation.
+2020-12-24T23:47:20.000000Z	https://www.gwern.net/newsletter/2020/12#fn1 is extremely important, but people fall into the anthropomorphization trap again and again
+2020-12-26T11:09:36.000000Z	My internal monologue is somewhere in my right hemisphere, more on the outside than the inside. Sort of above my right ear.
+2020-12-26T11:50:05.000000Z	Inner alignment is a problem when you train the reward function & the policy function jointly.
+2020-12-26T12:32:03.000000Z	I have a feeling that the first step in solving any coordination problem is “bring all relevant parties in a room, and lock them in there with water, food & sanitation until they have either found a solution or killed each other”
+2020-12-26T12:32:17.000000Z	Thinking about founding an organization that does exactly that.
+2020-12-26T12:32:35.000000Z	Life-extension/superhappiness are not answers to the question of meaning, just frames for making the search for meaning easier and more likely to succeed in the long run.
+2020-12-26T12:32:52.000000Z	Lisp is like minarchism.
+2020-12-26T12:33:06.000000Z	Project idea: search for books that are most effective at converting people from one ideology to another, for any two ideologies.
+2020-12-26T12:33:23.000000Z	0th Potentiality: Doing something
+2020-12-26T12:33:32.000000Z	1st Potentiality: Having the ability to do something
+2020-12-26T12:33:47.000000Z	2nd Potentiality: Having the ability to acquire abilities (intelligence)
+2020-12-26T12:33:55.000000Z	3rd Potentiality: Having the ability to increase 2nd potentiality (having the ability to increase intelligence)
+2020-12-26T12:34:03.000000Z	4th Potentiality: Having the ability to increase 3rd potentiality (being able to acquire intelligence-amplifying technology)
+2020-12-26T12:34:09.000000Z	Humans have 0th, 1st, 2nd and 4th potentiality.
+2020-12-26T12:34:25.000000Z	If you're right about this, how could you make money with it?
+2020-12-26T12:34:33.000000Z	Pronounciation of iff (non-IPA at the moment): ifef
+2020-12-26T12:34:42.000000Z	Michel Foucault -> Mishio Fuko (misheard at the breakfast table)
+2020-12-26T12:34:56.000000Z	tangle ←→ distangle ←→ entangle ←→ untangle ←→ disentangle ←→ endistangle ←→ disuntangle ←→ endisuntangle
+2020-12-26T12:37:46.000000Z	Hot damn good post https://www.lesswrong.com/posts/2G8j8D5auZKKAjSfY

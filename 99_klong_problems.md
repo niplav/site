@@ -762,7 +762,7 @@ A complete binary tree with height H is defined as follows: the levels
 the level i, note that we start counting the levels from 1 at the root).
 
 In level H, which may contain less than the maximum possible number of
-nodes, all the nodes aer "left-adjusted". This means that in a levelorder
+nodes, all the nodes are "left-adjusted". This means that in a levelorder
 tree traversal all internal nodes come first, the leaves come second, and
 empty successors (the empty lists which are not really nodes!) come last.
 
@@ -771,7 +771,7 @@ addressing schemes) for heaps.
 
 We assign an address number to each node in a complete binary tree by
 enumerating the nodes in levelorder, starting at the root with number
-1. In doing so, we realize that for every node X with address A the
+1\. In doing so, we realize that for every node X with address A the
 following property holds: The address of X's left and right successors are
 2\*A and 2\*A+1, respectively, supposed the successors do exist. This fact
 can be used to elegantly construct a complete binary tree structure. Write
