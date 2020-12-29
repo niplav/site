@@ -539,11 +539,11 @@ meditation, because Everything is Kind of Like Meditation™.
 Otherwise, I wouldn't see the point in it, other than doing someone
 else a favour in their experiment.
 
-__1/10__
+__4.5/10__
 
 ----
 
-[/u/Awarenesss](https://old.reddit.com/u/Awareness]
+[/u/Awarenesss](https://old.reddit.com/u/Awareness)
 will probably publish the results of their study on
 [ethanmorse.github.io](https://ethanmorse.github.io/).
 

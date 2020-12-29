@@ -852,14 +852,14 @@ changed](https://old.reddit.com/wiki/faq#wiki_i_made_a_mistake_in_my_submission_
 by users of reddit.
 
 The raw markdown, pre-registered version of this article can be found
-[here](https://niplav.github.io/masturbation_and_attractiveness_pre_registered.md).
+[here](https://niplav.github.io/masturbation_and_attractiveness_preregistered.txt).
 Two appendices and all comments were removed from the markdown to reduce
 the character count, which allowed the markdown itself to be posted
 on reddit.
 
 Its hashsum was computed as such:
 
-        $ sha256sum masturbation_and_attractiveness_preregistered.md
+        $ sha256sum masturbation_and_attractiveness_preregistered.txt
 
 <!--TODO: add link to reddit post-->
 

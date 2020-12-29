@@ -155,6 +155,7 @@ Texts
 	* [Attention span](https://en.wikipedia.org/wiki/Attention_span)
 	* https://www.lesswrong.com/posts/YicoiQurNBxSp7a65/is-clickbait-destroying-our-general-intelligence
 * Intentional vs. Non-Intentional Consciousness
+	* The reason why, even if, strictly speaking, trees are "conscious", we don't have to worry about damaging them as much as we have to worry about damaging animals
 
 ### Analyses
 
@@ -294,6 +295,9 @@ Texts
 	* Altruistic, egoistic
 * Subjective time experience for advanced meditators
 * Wireheading: Much More Than You Wanted to Know
+	* [Electrical Brain Stimulation](https://en.wikipedia.org/wiki/Electrical_brain_stimulation)
+	* [Wireheading](https://en.wikipedia.org/wiki/Wirehead_(science_fiction))
+	* [Brain Stimulation Reward](https://en.wikipedia.org/wiki/Brain_stimulation_reward)
 	* Questions:
 		* How much wireheading research has been/is being done?
 		* Why is there so little wireheading research/why is it not very prominent?
