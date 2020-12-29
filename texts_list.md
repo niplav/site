@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-12-26, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2020-12-29, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -9,12 +9,22 @@ List of Texts I have Read
 ==========================
 
 These are the texts I have read since May 2017 (sorted by starting date,
-newest additions first). A '\*' prefix signifies I'm still reading the
+newest additions first). The definition of "text" is *very* broad here,
+and includes many different types of texts, from 2-line poems to a 4000
+page FAQ (which I only read the first half of). I did not include reddit
+comments or tweets, because that would be too extensive.
+
+A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Decoupling vs Contextualising Norms (Chris_Leong, 2018)](https://www.lesswrong.com/posts/7cAsBPGh98pGyrhz9)
+* [A One-Time Pad Mistake (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/07/15/)
+* [Noticing the Taste of Lotus (Valentine, 2018)](https://www.lesswrong.com/posts/KwdcMts8P8hacqwrX)
+* [One-Time Pads and Plausible Deniability (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/07/11/)
+* [2018 AI Alignment Literature Review and Charity Comparison (Larks, 2018)](https://www.lesswrong.com/posts/a72owS5hz3acBK5xc)
 * [Inadequate Equilibria vs. Governance of the Commons (Martin Sustrik, 2018)](https://www.lesswrong.com/posts/2G8j8D5auZKKAjSfY)
 * [One-Time Pads (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/07/08/)
-* \* Flatland (Edwin A. Abbott, 1884)
+* Flatland (Edwin A. Abbott, 1884)
 * [Covid 12/24: We're F***ed, It's Over (Zvi, 2020)](https://www.lesswrong.com/posts/CHtwDXy63BsLkQx4n/covid-12-24-we-re-f-ed-it-s-over)
 * [Up is Down (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/06/26/)
 * [How Much Does Freezing Sperm Cost (CostAide, 2020)](https://costaide.com/freezing-sperm-cost/)
@@ -29,9 +39,9 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Varieties Of Argumentative Experience (Scott Alexander, 2018)](https://www.lesswrong.com/posts/NLBbCQeNLFvBJJkrt)
 * [A LessWrong Crypto Autopsy (Scott Alexander, 2018)](https://www.lesswrong.com/posts/MajyZJrsf8fAywWgY)
 * [A voting theory primer for rationalists (Jameson Quinn, 2018)](https://www.lesswrong.com/posts/D6trAzh6DApKPhbv4)
-* \* AGI Safety From First Principles (Richard Ngo, 2020)
+* AGI Safety From First Principles (Richard Ngo, 2020)
 * Der futurologische Kongress (Stanisław Lem, 1970)
-* \* A Happy Possibility About Happiness (And Other Subjective) Scales: An Investigation and Tentative Defence of the Cardinality Thesis (Michael Plant, 2020)
+* A Happy Possibility About Happiness (And Other Subjective) Scales: An Investigation and Tentative Defence of the Cardinality Thesis (Michael Plant, 2020)
 * [Is Science Slowing Down? (Scott Alexander, 2018)](https://www.lesswrong.com/posts/v7c47vjta3mavY3QC)
 * [Coherence arguments do not imply goal-directed behavior (Rohin Shash, 2018)](https://www.lesswrong.com/posts/NxF5G6CJiof6cemTw)
 * [The Intelligent Social Web (Valentine, 2018)](https://www.lesswrong.com/posts/AqbWna2S85pFTsHH4)
@@ -60,7 +70,6 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * Spiel im Morgengrauen (Arthur Schnitzler, 1926)
 * [Bottle Caps Aren't Optimisers (Daniel Filan, 2018)](https://www.lesswrong.com/posts/26eupx3Byc8swRS7f/bottle-caps-aren-t-optimisers)
 * [The Tails Coming Apart As Metaphor For Life (Scott Alexander, 2018)](https://www.lesswrong.com/posts/asmZvCPHcB4SkSCMW)
-* [The Rocket Alignment Problem (Eliezer Yudkowsky, 2018)](https://www.lesswrong.com/posts/Gg9a4y8reWKtLe3Tn)
 * [Competitive Markets as Distributed Backprop (johnswentworth, 2018)](https://www.lesswrong.com/posts/brhWPoNsBN7za3xjs/competitive-markets-as-distributed-backprop)
 * Das Tagebuch der Redegonda (Arthur Schnitzler, 1911)
 * [Paul's research agenda FAQ (zhukeepa, 2018)](https://www.lesswrong.com/posts/Djs38EWYZG8o7JMWY/paul-s-research-agenda-faq)

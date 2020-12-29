@@ -86,7 +86,7 @@ I recall having read some people gesturing toward barefoot walking having
 health benefits, but that was not my main reason for doing it, I wanted
 to see whether it had any direct impacts on the quality of my life.
 
-I stopped walking barefoot after steppipng into a glass shard for the
+I stopped walking barefoot after stepping into a glass shard for the
 second time.
 
 ### What the Effects Were
@@ -472,6 +472,80 @@ instead of 7, that seems a lot more doable on your own. But if you're
 especially enthusiastic, you might very well succeed where I failed.
 
 __7.5/10__
+
+Looking Into A Mirror
+----------------------
+
+Reddit user [/u/Awarenesss](https://old.reddit.com/u/Awarenesss) posted [a
+comment](https://old.reddit.com/r/slatestarcodex/comments/k5qjxh/discussion_thread_20_december_2020/ggzvzp4)
+on the [December 2020 Discussion
+thread](https://old.reddit.com/r/slatestar
+codex/comments/k5qjxh/discussion_thread_20_december_2020/) on
+[/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/), asking
+for participants in a replication. I messaged them about my
+interest in participation, and they replied with the following
+instructions:
+
+> Stare at your face in a mirror continuously for 10:00 minutes in dim
+lighting conditions that still allow for the distinguishing of facial
+features. Move and blink as little as possible. Eliminate visual and
+audible distractions before starting.
+
+The first time, I did not read the instructions carefully, and performed
+the experiment under bright light. I noticed that mistake, and repeated
+the experiment the next day under dim lighting.
+
+I can pretty much report a null result: the ten minutes felt just like
+me looking at my own face.
+
+I was somewhat tired (despite (or maybe because?) sleeping more than 9
+hours the night before), and often lost focus on my face. I more often
+than not focused on certain features of my face, such as only the mouth,
+nose, or one of the eyes. Some of the time (more than usually) I was
+thinking about the attractiveness of my face (or the lack thereof).
+
+At one point, while I was trying to focus on the whole of my face, for
+a brief moment it looked detached from the rest of my head (like a mask
+with my face being held infront of my head), and somewhat nearer to the
+mirror than the rest of my head, but that illusion quickly disappeared
+when I became more attentive.
+
+### Threats to Validity
+
+Several factors might distort my report.
+
+1. I am doing a [somewhat intensive contemplative
+practice](./reports.html#300-Hours-of-Meditation), and my perception is
+perhaps already slightly different from the modal person's
+
+2. I have some psychedelic experiences, although the last happened more
+than 6 months ago, and seems to have left relatively little long-lasting
+effects
+
+3. I remember reading about the experiment some time ago, and I'm
+vaguely aware that an often-reported result is that people looking at
+other peoples' faces or into the mirror report the faces transforming
+into frightening grimaces.
+
+4. I was disturbed mid-experiment by a person living with me, but the
+distraction was not significant enough for me to consider repeating the
+experiment again.
+
+### Would I Recommend Doing This?
+
+It could be a good concentration practice, perhaps similar to Kasina
+meditation, because Everything is Kind of Like Meditation™.
+
+Otherwise, I wouldn't see the point in it, other than doing someone
+else a favour in their experiment.
+
+__1/10__
+
+----
+
+[/u/Awarenesss](https://old.reddit.com/u/Awareness]
+will probably publish the results of their study on
+[ethanmorse.github.io](https://ethanmorse.github.io/).
 
 <!--
 Kissing Hand as Goodbye
