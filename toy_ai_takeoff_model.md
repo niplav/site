@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-07-22, modified: 2020-11-21, language: english, status: in progress, importance: 7, confidence: highly unlikely*
+*author: niplav, created: 2020-07-22, modified: 2020-12-29, language: english, status: in progress, importance: 7, confidence: highly unlikely*
 
 > __In [AI safety](https://en.wikipedia.org/wiki/AI_control_problem),
 significant time has been spent on the question of
@@ -328,12 +328,80 @@ search space multiple times.
 
 ### External Intelligence Improvements
 
+Under this model, I assume an exponential growth as
+a backdrop.  This exponential growth could be [Moore's
+Law](https://en.wikipedia.org/wiki/Moore%27s_law) or [Gross World
+Product](https://en.wikipedia.org/wiki/Gross_world_product) growth,
+or another uninterrupted exponential growth mode.
+
+This factor is currently set to 1.001 per timestep, or 0.1% growth.
+If the backdrop is Moore's Law, with a doubling time of 18 months (or
+540 days), then a timestep would be
+
+<div>
+	$$\frac{540 \hbox{ days}}{\ln_{1.001}(2)} \approx 0.779 \hbox{ days}$$
+</div>
+
+If one assumes GWP growth as a backdrop instead, one gets a
+doubling every 20 years (…yet. growth mindset) (see [Roodman
+2020](https://www.openphilanthropy.org/blog/modeling-human-trajectory "Modeling the Human Trajectory")), which
+works out to
+
+<div>
+	$$\frac{7300 \hbox{ days}}{\ln_{1.001}(2)} \approx 10.52 \hbox{ days}$$
+</div>
+
+per timestep.
+
+Both assumptions seem not unreasonable to me (although I'm not an expert
+on such things): A day seems enough time for an AI to design and deploy
+an improvement to its own source code, although I acknowledge this might
+change with different AI designs (especially more clean and algorithmic
+designs might improve faster, while fuzzy & big neural nets might take
+much longer).
+
+<!--TODO: add analysis with growth mode of current ML models-->
+
+Parameters
+-----------
+
+I ran the model several times, varying the size and dimensionality of
+the search space. The spaces used were `$\mathbb{F}_{8193}^{1}$`,
+`$\mathbb{F}_{16385}^{1}$`,  `$\mathbb{F}_{32769}^{1}$`,
+`$\mathbb{F}_{65537}^{1}$`,  `$\mathbb{F}_{1048577}^{1}$`,
+`$\mathbb{F}_{16777217}^{1}$`,  `$\mathbb{F}_{4097}^{2}$`,
+`$\mathbb{F}_{65}^{3}$`,  `$\mathbb{F}_{129}^{3}$`,
+`$\mathbb{F}_{255}^{3}$`,  `$\mathbb{F}_{65}^{4}$`,
+`$\mathbb{F}_{33}^{5}$`,  `$\mathbb{F}_{17}^{6}$` and
+`$\mathbb{F}_{9}^{8}$` (`$\mathbb{F}_{a}^{b}$` being the [vector
+space](https://en.wikipedia.org/wiki/Vector_space) of dimensionality
+`$b$` for the [finite field](https://en.wikipedia.org/wiki/Finite_field)
+with `$a$` elements).
+
+Each iteration ran through 2048 timesteps, with a growth of 1.001.
+
+<!--TODO: add explanations for minval, maxval & extrfact-->
+
+I ran the model only once with each set of parameters, since I discovered
+that some parts of the model are very slow and take quite some time to
+execute on my puny hardware (I left the model running through the night).
+
+I would like to run the model with a bigger search space, and more
+often than once, but unless I optimize the code to be faster, I expect
+the easiest option would be for me to get access to a computer that
+is more capable than my current laptop. If you have access to such
+a computer and want to run the code with other parameters on it,
+[contact me](./about.html#Contact) or modify the code yourself
+([relevant file 1](./code/toy_ai_takeoff_model/takeoff.py), [relevant
+file 2](./code/toy_ai_takeoff_model/ndim_diamond_square.py)) and send
+me the results.
+
 Results
 --------
 
+<!--
 ### Uniform Values
 
-<!--
 ### Normal Values
 
 ### Lognormal Values

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2020-11-26, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2020-12-29, language: english, status: in progress, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
 > recommendations by people who I respect, such as
@@ -20,7 +20,7 @@ Uses This
 Software
 --------
 
-### List of Programs
+### Computer Programs
 
 * Operating system: [Void Linux](https://voidlinux.org/)
 * Window manager: [dwm](https://dwm.suckless.org/)
@@ -52,6 +52,23 @@ Software
 * [Scheme](https://en.wikipedia.org/wiki/Scheme_(programming_language))
 * [Forth](https://en.wikipedia.org/wiki/Forth_(programming_language))
 * [Standard ML](https://en.wikipedia.org/wiki/Standard_ML)
+
+### Browser Plugins
+
+* [Ublock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+* [Leechblock](https://www.proginosko.com/leechblock/)
+* [NoScript](https://addons.mozilla.org/en-US/firefox/addon/noscript/)
+* [Reddit Enhancement Suite](https://redditenhancementsuite.com/)
+* [Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab)
+* [HTTPS Everywhere](https://www.eff.org/https-everywhere)
+* [Privacy Badger](https://privacybadger.org/)
+
+### Smartphone Apps
+
+* [Notifications of Mindfulness](https://play.google.com/store/apps/details?id=com.multiordinal.nom&hl=en&gl=US)
+* [Medativo](https://play.google.com/store/apps/details?id=com.despdev.meditationapp&hl=en&gl=US)
+* [Tally Counter](https://play.google.com/store/apps/details?id=de.cliff.strichliste&hl=en&gl=us)
+* [Beeminder](https://play.google.com/store/apps/details?id=com.beeminder.beeminder&hl=en&gl=us)
 
 ### Criteria
 
