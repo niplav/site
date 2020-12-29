@@ -333,9 +333,11 @@ Results
 
 ### Uniform Values
 
+<!--
 ### Normal Values
 
 ### Lognormal Values
+-->
 
 Limitations
 -----------

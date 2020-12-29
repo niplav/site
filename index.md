@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2020-12-01, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2020-12-28, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -34,6 +34,7 @@ Writing
 * [99 Problems Collection](./99_problems_collection.md)
 * [K-99: Ninety-Nine Klong Problems](./99_klong_problems.md)
 * [99 Problems Klong Solution](./99_problems_klong_solution.md)
+* [Generalizing the Diamond-Square Algorithm to n Dimensions](./generalizing_diamond_square.md)
 
 #### Philosophy
 
@@ -56,7 +57,9 @@ Writing
 
 #### Other
 
+* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.md)
 * [Against Applause After Classical Concerts](./against_applause.md)
+* [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.md)
 * [Two People on a Planet](./two_people_on_a_planet.md)
 * [Reports](./reports.md)
 * [Notes](./notes.md)

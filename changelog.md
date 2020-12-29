@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-12-24, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2020-12-29, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -16,6 +16,8 @@ December 2020
 * Notes
 	* [Gifts](./notes.html#Gifts)
 	* [Vasectomy & Sperm-Freezing Cost-Benefit](./notes.html#Vasectomy--Sperm-Freezing-CostBenefit)
+* Reports
+	* [Looking Into A Mirror](./reports.html#Looking-Into-A-Mirror)
 
 November 2020
 -------------

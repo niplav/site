@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2020-12-24, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2020-12-29, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -154,6 +154,7 @@ Texts
 	* https://www.lesswrong.com/posts/qKvn7rxP2mzJbKfcA/persuasion-tools-ai-takeover-without-agi-or-agency
 	* [Attention span](https://en.wikipedia.org/wiki/Attention_span)
 	* https://www.lesswrong.com/posts/YicoiQurNBxSp7a65/is-clickbait-destroying-our-general-intelligence
+* Intentional vs. Non-Intentional Consciousness
 
 ### Analyses
 
@@ -293,6 +294,16 @@ Texts
 	* Altruistic, egoistic
 * Subjective time experience for advanced meditators
 * Wireheading: Much More Than You Wanted to Know
+	* Questions:
+		* How much wireheading research has been/is being done?
+		* Why is there so little wireheading research/why is it not very prominent?
+		* Do animals (especially humans) develop tolerance to intracranial stimulation?
+		* Do animals (especially humans) develop an addiction to intracranial stimulation?
+		* Is wireheading reversible? (in principle, in practice so far)
+		* How long can one wirehead until it leads to negative health outcomes (in principle, in practice)
+		* How good does intracranial stimulation feel? (compared to other positive experiences)
+		* Is wireheading actually pleasurable or just compelling? (in the sense that one wants to continue being wireheaded although it doesn't strictly "feel good")
+		* How does intracranial stimulation work?
 * Shipping: Much More Than You Wanted to Know
 * Timeline of the Odyssee
 * Requirements for AI Safety via Debate
