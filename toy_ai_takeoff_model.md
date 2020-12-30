@@ -77,6 +77,23 @@ intelligence:
 <!--
 ### Existing Approaches
 TODO: collect & write up.
+
+Articles:
+* https://aiimpacts.org/historical-growth-trends/
+* https://aiimpacts.org/likelihood-of-discontinuous-progress-around-the-development-of-agi/
+* https://intelligence.org/ai-foom-debate/
+* https://intelligence.org/files/IEM.pdf
+* https://longtermrisk.org/the-future-of-growth-near-zero-growth-rates/
+* https://sideways-view.com/2018/02/24/takeoff-speeds/
+* https://www.lesswrong.com/posts/5WECpYABCT62TJrhY/will-ai-undergo-discontinuous-progress
+* https://www.lesswrong.com/posts/66FKFkWAugS8diydF/modelling-continuous-progress
+* https://www.lesswrong.com/posts/77xLbXs6vYQuhT8hq/why-ai-may-not-foom
+* https://www.lesswrong.com/posts/CjW4axQDqLd2oDCGG/misconceptions-about-continuous-takeoff
+* https://www.lesswrong.com/posts/JBadX7rwdcRFzGuju/recursive-self-improvement
+* https://www.lesswrong.com/posts/YgNYA6pj2hPSDQiTE/distinguishing-definitions-of-takeoff
+* https://www.lesswrong.com/posts/cxgtQXnH2uDGBJJGa/redefining-fast-takeoff
+* https://www.lesswrong.com/posts/tjH8XPxAnr6JRbh7k/hard-takeoff
+* https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/ai-timelines
 -->
 
 The Argument
@@ -376,11 +393,26 @@ the search space. The spaces used were `$\mathbb{F}_{8193}^{1}$`,
 `$\mathbb{F}_{9}^{8}$` (`$\mathbb{F}_{a}^{b}$` being the [vector
 space](https://en.wikipedia.org/wiki/Vector_space) of dimensionality
 `$b$` for the [finite field](https://en.wikipedia.org/wiki/Finite_field)
-with `$a$` elements).
+with `$a$` elements). The biggest search space contained 43m elements.
 
 Each iteration ran through 2048 timesteps, with a growth of 1.001.
 
 <!--TODO: add explanations for minval, maxval & extrfact-->
+
+	datagen(1, 8193, 0, 256, 0.5, 2048, 1.001)
+	datagen(1, 16385, 0, 256, 0.5, 2048, 1.001)
+	datagen(1, 32769, 0, 256, 0.5, 2048, 1.001)
+	datagen(1, 65537, 0, 256, 0.5, 2048, 1.001)
+	datagen(1, 1048577, 0, 256, 0.5, 2048, 1.001)
+	datagen(1, 16777217, 0, 256, 0.5, 2048, 1.001)
+	datagen(2, 4097, 0, 256, 0.5, 2048, 1.001)	# 16785409
+	datagen(3, 65, 0, 256, 0.5, 2048, 1.001)	# 274625
+	datagen(3, 129, 0, 256, 0.5, 2048, 1.001)       # 2146689
+	datagen(3, 255, 0, 256, 0.5, 2048, 1.001)       # 16581375
+	datagen(4, 65, 0, 256, 0.5, 2048, 1.001)	# 17850625
+	datagen(5, 33, 0, 256, 0.5, 2048, 1.001)	# 39135393
+	datagen(6, 17, 0, 256, 0.5, 2048, 1.001)	# 24137569
+	datagen(8, 9, 0, 256, 0.5, 2048, 1.001)		# 43046721
 
 I ran the model only once with each set of parameters, since I discovered
 that some parts of the model are very slow and take quite some time to
@@ -399,6 +431,29 @@ me the results.
 Results
 --------
 
+A gzipped tarfile of the run data can be found
+[here](./data/toy_ai_takeoff_runs.tar.gz).
+
+The model generated 14 takeoff scenarios, 9 of which showed
+discontinuities after the first timestep (4 runs showed one discontinuity,
+4 showed two discontinuities, and 1 run showed three discointuities). Late
+discontinuities, large discontinuities, and a higher number of
+discontinuities seemed more likely in bigger search spaces, and also
+with higher-dimensional search spaces.
+
+Here are some graphs of the development of the search process. The
+blue line indicates the intelligence of the current algorithm at fixed
+resources, while the black line shows the intelligence of the current
+algorithm with the current resources.
+
+![Largest one-dimensional run](./img/toy_ai_takeoff_model/1_16777217_0.5_1.001.png "Black graph: an exponential curve, making a small jump at position ~1400/2040. Blue graph: a straight horizontal line, making a small jump at the same point, but staying horizontal.")
+
+*A run in `$\mathbb{F}_{16777217}^{1}$`, with one discontinuity*
+
+![Two-dimensional run](./img/toy_ai_takeoff_model/2_4097_0.5_1.001.png "Black graph: an exponential curve, making a small jump at position ~80/2040. Blue graph: a straight horizontal line, making a small jump at the same point, but staying horizontal.")
+
+*A run in `$\mathbb{F}_{4097}^{2}$`, with one early discontinuity*
+
 <!--
 ### Uniform Values
 
@@ -416,28 +471,12 @@ Limitations
 
 ### No Brute-Force Search
 
+### Small Dataset
+
 ### Additional Factors
 
 Conclusion
 ----------
-
-<!--Articles:
-* https://aiimpacts.org/historical-growth-trends/
-* https://aiimpacts.org/likelihood-of-discontinuous-progress-around-the-development-of-agi/
-* https://intelligence.org/ai-foom-debate/
-* https://intelligence.org/files/IEM.pdf
-* https://longtermrisk.org/the-future-of-growth-near-zero-growth-rates/
-* https://sideways-view.com/2018/02/24/takeoff-speeds/
-* https://www.lesswrong.com/posts/5WECpYABCT62TJrhY/will-ai-undergo-discontinuous-progress
-* https://www.lesswrong.com/posts/66FKFkWAugS8diydF/modelling-continuous-progress
-* https://www.lesswrong.com/posts/77xLbXs6vYQuhT8hq/why-ai-may-not-foom
-* https://www.lesswrong.com/posts/CjW4axQDqLd2oDCGG/misconceptions-about-continuous-takeoff
-* https://www.lesswrong.com/posts/JBadX7rwdcRFzGuju/recursive-self-improvement
-* https://www.lesswrong.com/posts/YgNYA6pj2hPSDQiTE/distinguishing-definitions-of-takeoff
-* https://www.lesswrong.com/posts/cxgtQXnH2uDGBJJGa/redefining-fast-takeoff
-* https://www.lesswrong.com/posts/tjH8XPxAnr6JRbh7k/hard-takeoff
-* https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/ai-timelines
--->
 
 <!--
 https://en.wikipedia.org/wiki/Brownian_surface

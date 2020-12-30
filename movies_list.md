@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-12-23, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2020-12-30, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,6 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Blackkklansman]()
 * [Grand Budapest Hotel](https://www.imdb.com/title/tt2278388/)
 * [Star Wars: Episode IX - Rise of Skywalker](https://www.imdb.com/title/tt2527338/)
 * [The Revenant](https://www.imdb.com/title/tt1663202/)

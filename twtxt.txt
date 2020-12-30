@@ -155,3 +155,4 @@
 2020-12-29T21:59:01.000000Z	AI Takeoff model post coming together, slowly.
 2020-12-29T21:59:55.000000Z	Also, after googling, I have discovered I'm pretty much the first person to make the “Endokremlinology” pun. You are hereby authorized to use it as the name for a russian domestic politics blog if you credit me by name.
 2020-12-29T22:01:04.000000Z	Proof: https://www.google.com/search?q=%22endokremlinology%22
+2020-12-30T10:23:25.000000Z	I think I understand bigint multiplication now. Not sure if I've reinvented the Karatsuba algorithm

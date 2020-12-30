@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2020-12-12, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2020-10-07, modified: 2020-12-30, language: english, status: notes, importance: 3, confidence: log*
 
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
@@ -544,8 +544,8 @@ __4.5/10__
 ----
 
 [/u/Awarenesss](https://old.reddit.com/u/Awareness)
-will probably publish the results of their study on
-[ethanmorse.github.io](https://ethanmorse.github.io/).
+has published the results of their study
+[here](https://ethanmorse.github.io/research/faace/face.html "Strange-Face Illusion").
 
 <!--
 Kissing Hand as Goodbye

@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2020-12-28, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2020-12-30, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -117,6 +117,10 @@ Miscellaneous
 * [Uses This](./uses_this.md)
 
 ### Media Consumption
+
+I sometimes write reviews of things I have watched/read.
+
+* [Text Reviews](./text_reviews.md)
 
 The following is four lists on the content I consume. The content listed
 there is a fairly big subset of what I actually read/listen to/watch,
