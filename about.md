@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-12-18, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2020-12-30, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -246,6 +246,7 @@ The complete list of confidence tags is as follows:
 * "log"
 * "fiction"
 * "theory"
+* "opinion"
 * "translation"
 * "transcription"
 * "emotional"
