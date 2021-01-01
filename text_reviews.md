@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-12-30, modified: 2020-12-30, language: english, status: in progress, importance: 3, confidence: opinion*
+*author: niplav, created: 2020-12-30, modified: 2020-12-31, language: english, status: in progress, importance: 3, confidence: opinion*
 
 > __Reading a text is sometimes a big time investment, but people
 don't approach their reading in a structured manner, e.g. by keeping
@@ -90,3 +90,74 @@ Overall, the book had some interesting points about suicide, the quality of
 life and meaning, but felt rather pointless.
 
 __3/10__
+
+What failure looks like (Paul Christiano, 2019)
+-----------------------------------------------
+
+*From the 2019 LessWrong Review*
+
+I read [this
+post](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like)
+only half a year ago after seeing it being referenced in several different
+places, mostly as a newer, better alternative to the existing FOOM-type
+failure scenarios. I also didn't follow the comments on this post when
+it came out.
+
+This post makes a lot of sense in Christiano's worldview, where we have a
+relatively continuous, somewhat multipolar takeoff which to a large extent
+inherits the problem in our current world. This is especially applies to
+part I: we already have many different instances of scenarios where humans
+follow measured incentives and produce unintended outcomes. [Goodhart's
+law](https://en.wikipedia.org/wiki/Goodhart%27s_law) is a thing. Part
+I ties in especially well with Wei Dai's concern that
+
+> AI-powered memetic warfare makes all humans effectively insane.
+
+While I haven't done research on this, I have a medium
+strength intuition that this is already happening. Many
+people I know are at least somewhat addicted to the internet,
+having lost a lot of attention due to having their motivational
+system hijacked, which is worrying because [Attention is your scarcest
+resource](https://www.lesswrong.com/posts/aDtzAZf3LnwYvmBP7/attention-is-your-scarcest-resource).
+I believe investigating the amount to which attention has
+deteriorated (or has been monopolized by different actors)
+would be valuable, as well as thinking about which incentives
+will start when AI technologies become more powerful ([Daniel
+Kokotajlo](https://www.lesswrong.com/users/daniel-kokotajlo) has been
+writing especially interesting essays on this kind of problem).
+
+As for part II, I'm a bit more skeptical. I would summarize "going
+out with a bang" as a "collective treacherous turn", which would
+demand somewhat high levels of coordination between agents of various
+different levels of intelligence (agents would be incentivized to turn
+early because of first-mover-advantages, but this would increase the
+probability of humans doing something about it), as well as agents
+knowing very early that they want to perform a treacherous turn to
+influence-seeking behavior. I'd like to think about how the frequency of
+premature treacherous turns relates to the intelligence of agents. Would
+that be continuous or discontinuous? Unrelated to Christiano's post,
+this seems like an important consideration (maybe work has gone into
+this and I just haven't seen it yet).
+
+Still, part II holds up pretty well, especially since we can expect AI
+systems to cooperate effectively via merging utility functions, and we
+can see systems in the real world that fail regularly, but not much is
+being done about them (especially social structures that sort-of work).
+
+I have referenced this post numerous times, mostly in connection with a
+short explanation of how I think current attention-grabbing systems are
+a variant of what is described in part I. I think it's pretty good, and
+someone (not me) should flesh the idea out a bit more, perhaps connecting
+it to existing systems (I remember the story about the recommender system
+manipulating its users into political extremism to increase viewing time,
+but I can't find a link right now).
+
+The one thing I would like to see improved is at least some links to
+prior existing work.  Christiano writes that
+
+> (None of the concerns in this post are novel.)
+
+but it isn't clear whether he is just summarizing things he has thought
+about, which are implicit knowledge in his social web, or whether he is
+summarizing existing texts. I think part I would have benefitted from a
+link to Goodhart's law (or an explanation why it is something different).

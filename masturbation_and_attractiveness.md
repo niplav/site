@@ -326,7 +326,7 @@ Noctural emission on 2020-11-16T04:00
 -->
 
 I abstained from masturbating and watching pornography from
-2020-11-13T23:00 to \_, resulting in >90 days of abstinence from
+2021-01-01T02:00 to \_, resulting in >90 days of abstinence from
 masturbation (which is also the period [recommended by the NoFap
 community](https://nofap.com/rebooting/): "NoFap’s gold standard of
 success is our 90-day reboot.").

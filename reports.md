@@ -545,7 +545,7 @@ __4.5/10__
 
 [/u/Awarenesss](https://old.reddit.com/u/Awareness)
 has published the results of their study
-[here](https://ethanmorse.github.io/research/faace/face.html "Strange-Face Illusion").
+[here](https://ethanmorse.github.io/research/face/face.html "Strange-Face Illusion").
 
 <!--
 Kissing Hand as Goodbye
