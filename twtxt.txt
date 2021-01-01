@@ -156,3 +156,6 @@
 2020-12-29T21:59:55.000000Z	Also, after googling, I have discovered I'm pretty much the first person to make the “Endokremlinology” pun. You are hereby authorized to use it as the name for a russian domestic politics blog if you credit me by name.
 2020-12-29T22:01:04.000000Z	Proof: https://www.google.com/search?q=%22endokremlinology%22
 2020-12-30T10:23:25.000000Z	I think I understand bigint multiplication now. Not sure if I've reinvented the Karatsuba algorithm
+2020-12-31T15:08:55.000000Z	no rats on the twtxt tl :-(
+2020-12-31T16:48:00.000000Z	Rethink Priorities is just putting out absolute bangers one after the other. Impressive
+2021-01-01T12:12:18.000000Z	The thing where a platitude you knew before gains salience (maybe related to concept-shaped holes)
