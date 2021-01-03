@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-06-15, modified: 2020-12-23, language: english, status: notes, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-15, modified: 2021-01-01, language: english, status: notes, importance: 1, confidence: log*
 
 > __I recently got the feeling that tracking my exercise might be vaguely
 > useful. This is my attempt.__
@@ -606,3 +606,36 @@ Log
 ### 2020-12-21
 
 * 30 minutes jogging
+
+### 2020-12-30
+
+* 30 minutes jogging
+
+### 2021-01-01
+
+Trying the [/r/bodyweightfitness recommended
+routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine).
+
+* 10 stick dislocates
+* 10 squate sky reaches both sides
+* 10 finger pulses
+* 10 palm pulses
+* 10 side-to-side palm rotations
+* 10 front-facing elbow rotations
+* 10 side-to-side wrist stretches
+* 10 times rear facing wrist stretch - palms down
+* 10 times rear facing wrist stretch - palms up
+* 10 front-facing elbow rotations - palms up
+* 10 forward-facing wrist stretch
+* 30s dead bug starting position
+* 30s deadbug alternating limb drill both sides
+* 30s deadbug only legs hollow
+* 30s deadbug only arms hollow
+* 30s deadbug completely hollow
+* 3x8 squats
+* 2x1m parallel bar support hold
+* 3x8 single leg deadlift
+* 3x8 vertical rows
+* 3x8 push-ups
+* 1x30s stretched arm plank
+* 1x30s kopenhagen plank
