@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-07-22, modified: 2020-12-29, language: english, status: in progress, importance: 7, confidence: highly unlikely*
+*author: niplav, created: 2020-07-22, modified: 2021-01-03, language: english, status: in progress, importance: 7, confidence: highly unlikely*
 
 > __In [AI safety](https://en.wikipedia.org/wiki/AI_control_problem),
 significant time has been spent on the question of
@@ -388,7 +388,7 @@ the search space. The spaces used were `$\mathbb{F}_{8193}^{1}$`,
 `$\mathbb{F}_{65537}^{1}$`,  `$\mathbb{F}_{1048577}^{1}$`,
 `$\mathbb{F}_{16777217}^{1}$`,  `$\mathbb{F}_{4097}^{2}$`,
 `$\mathbb{F}_{65}^{3}$`,  `$\mathbb{F}_{129}^{3}$`,
-`$\mathbb{F}_{255}^{3}$`,  `$\mathbb{F}_{65}^{4}$`,
+`$\mathbb{F}_{257}^{3}$`,  `$\mathbb{F}_{65}^{4}$`,
 `$\mathbb{F}_{33}^{5}$`,  `$\mathbb{F}_{17}^{6}$` and
 `$\mathbb{F}_{9}^{8}$` (`$\mathbb{F}_{a}^{b}$` being the [vector
 space](https://en.wikipedia.org/wiki/Vector_space) of dimensionality
@@ -408,7 +408,7 @@ Each iteration ran through 2048 timesteps, with a growth of 1.001.
 	datagen(2, 4097, 0, 256, 0.5, 2048, 1.001)	# 16785409
 	datagen(3, 65, 0, 256, 0.5, 2048, 1.001)	# 274625
 	datagen(3, 129, 0, 256, 0.5, 2048, 1.001)       # 2146689
-	datagen(3, 255, 0, 256, 0.5, 2048, 1.001)       # 16581375
+	datagen(3, 257, 0, 256, 0.5, 2048, 1.001)       # 16581375
 	datagen(4, 65, 0, 256, 0.5, 2048, 1.001)	# 17850625
 	datagen(5, 33, 0, 256, 0.5, 2048, 1.001)	# 39135393
 	datagen(6, 17, 0, 256, 0.5, 2048, 1.001)	# 24137569
@@ -434,12 +434,12 @@ Results
 A gzipped tarfile of the run data can be found
 [here](./data/toy_ai_takeoff_runs.tar.gz).
 
-The model generated 14 takeoff scenarios, 9 of which showed
-discontinuities after the first timestep (4 runs showed one discontinuity,
-4 showed two discontinuities, and 1 run showed three discointuities). Late
-discontinuities, large discontinuities, and a higher number of
-discontinuities seemed more likely in bigger search spaces, and also
-with higher-dimensional search spaces.
+The model generated 14 space, and ran 1 takeoff scenario for each. 9 of
+the scenarios showed discontinuities after the first timestep (4 runs
+showed one discontinuity, 4 showed two discontinuities, and 1 run showed
+three discointuities). Late discontinuities, large discontinuities, and
+a higher number of discontinuities seemed more likely in bigger search
+spaces, and also with higher-dimensional search spaces.
 
 Here are some graphs of the development of the search process. The
 blue line indicates the intelligence of the current algorithm at fixed
@@ -454,6 +454,26 @@ algorithm with the current resources.
 
 *A run in `$\mathbb{F}_{4097}^{2}$`, with one early discontinuity*
 
+![Two-dimensional run](./img/toy_ai_takeoff_model/4_65_0.5_1.001.png "Black graph: staying at -1 for ~500 timesteps, then making a very small jump, and growing very slowly afterwards. Another jump at ~1400, making existing growth much faster. Blue graph: a straight horizontal line, making a small jump at ~500, and a much bigger one at ~1400, but staying horizontal.")
+
+*A run in `$\mathbb{F}_{65}^{4}$`, with one early discontinuity*
+
+This run illustrates why even jumps in intelligence can be a little
+surprising: the second jump in intelligence both makes the system
+around 16 times more intelligent (both controlled for resources and
+real-world). Using the resources the system has acquired before the jump,
+its growth in real-world intelligence is much faster than beforehand.
+If humans were controlling the system before the jump, it has now become
+much harder (or even impossible).
+
+![Two-dimensional run](./img/toy_ai_takeoff_model/8_9_0.5_1.001.png "After ~200 timesteps two medium-sized jumps, then no jumps the rest of the time (but still growth).")
+
+*A run in `$\mathbb{F}_{9}^{8}$`, with one early discontinuity*
+
+This run contains two relatively early jumps, both of medium size. Being
+the most high-dimensional model, it undermines the hypothesis that late &
+big jumps are more common in more high-dimensional settings.
+
 <!--
 ### Uniform Values
 
@@ -465,7 +485,46 @@ algorithm with the current resources.
 Limitations
 -----------
 
+As suggested in the title, this model is very much exploratory, and is
+in many regards highly inadequate for modeling real-world AI takeoff
+scenarios.
+
 ### Search Space Wrong
+
+The biggest problem with this analysis is that the space of possible
+algorithms (or minds) is nothing like the finite discrete euclidean
+space I have used here. I believe that the space of all algorithms is
+like an infinite binary tree, with each edge representing one program
+(the left child of an edge being the current program appended with 0,
+the right child being the current program appended with 1, and the root
+being the empty program).
+
+The reason why I didn't use this search space was that I had no idea
+how to distribute the values for intelligence in the tree, as well
+as being unsure how to implement both the hill climbing as well as the
+brute-force search in that space (except only tentative ideas).
+
+### Values for Intelligence Wrong
+
+A separate concern I have is about using the diamond square algorithm
+to assign values for intelligence to points in the search space.
+
+Diamond square was devised for producing convincing landscapes, and
+therefore has following problems:
+
+1. The values it assigns are very near each other. I expect that
+algorithms differ vastly in their general intelligence, with very few
+algorithms being extremely intelligent, and most others ranking very low.
+2. Related to the previous point, diamond square assigns 0 as the value
+of a point very rarely, although most algorithms would have intelligence
+0 under a reasonable metric.
+
+I will be experimenting to salvage both of these points. 1. could be
+improved by changing the random number to assign to the current point
+in the space not using a uniform distribution, but instead perhaps a
+lognormal one. 2. Could be improved decreasing the numbers assigned and
+then replacing negative values with 0 (or leaving them, if it turns out
+that including algorithms of inverse intelligence makes sense).
 
 ### No Hill Climbing
 
