@@ -1,0 +1,30 @@
+.l("csv")
+.l("nstat")
+
+brier::{mu((x-y)^2)}
+
+:"1st argument: time differences"
+:"2nd argument: results"
+:"3rd argument: forecasts"
+:"returns: diffbrier"
+
+getdiffbrier::{diff::x;res::y;fore::z;dg::=diff;db::{(diff@*x),brier(fore@x;res@x)}'dg;db@<*'db}
+
+.fc(.ic("../../data/met.csv"));metraw::csv.load()
+
+metdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'1_metraw)
+
+metress::metdata@2
+metfcs::metdata@3
+metrngs::metdata@4
+
+.fc(.ic("../../data/pb.csv"));pbraw::csv.load()
+
+pbdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'1_pbraw)
+
+pbress::pbdata@2
+pbfcs::pbdata@3
+pbrngs::pbdata@4
+
+metbriers::(metress-metfcs)^2
+pbbriers::(pbress-pbfcs)^2

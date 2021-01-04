@@ -94,7 +94,7 @@ __3/10__
 What failure looks like (Paul Christiano, 2019)
 -----------------------------------------------
 
-*From the 2019 LessWrong Review*
+*From the 2019 LessWrong Review*<!--TODO: link?-->
 
 I read [this
 post](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like)
