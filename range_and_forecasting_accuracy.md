@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2020-12-19, language: english, status: finished, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2021-01-04, language: english, status: finished, importance: 6, confidence: possible*
 
 # This post contains information that is misleading. While the calculations and description of the approach contain no mistakes in themselves, the approach is misguided. Only reference the results if you have understood the approach. This will be fixed.
 
@@ -402,30 +402,28 @@ the different approaches in this text are clearer than before.
 Accuracy Between Forecasts
 --------------------------
 
-The first approach I took was to simply take the probability, result and
-range for all forecasts made, sort these forecasts into buckets by range
-(e.g. one bucket for all forecasts made 1 day before their resolution
-(and their results), one bucket for all forecasts made 2 days before
-their resolution, and so on). I then calculated the Brier score for each
-of these buckets, and then checked what the relation between brier score
-and range (the time between forecast & resolution) was (correlation &
-linear regression).
+The first approach I took was to simply take the probability and result
+for each forecast, and calculate the Brier score for that one probability.
+I then calculated the correlation and the linear regression between that
+Brier score and the range of the forecast.
 
 ### Analysis
 
 Now that the two datasets are available, they can be properly analyzed.
 
-First, the raw data is loaded from the two CSV files and then the ID is
-converted to integer, and the rest of the fields are converted to floats
-(the range is a float for some Metaculus questions, and while the result
-can only take on 0 or 1, using float there makes it easier to calculate
-the brier score using `mse.set`):
+First, the raw data is loaded from the two CSV files, removing the
+first line (the names of the variables, for other languages such as
+R). Then the ID is converted to integer, and the rest of the fields are
+converted to floats (the range is a float for some Metaculus questions,
+and while the result can only take on 0 or 1, using float there makes
+it easier to calculate the brier score using `mse.set`). After that,
+negative ranges are removed from the dataset.
 
 	.fc(.ic("../../data/pb.csv"));pbraw::csv.load()
 	.fc(.ic("../../data/met.csv"));metraw::csv.load()
 
-	pbdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'pbraw)
-	metdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'metraw)
+	pbdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'1_pbraw)
+	metdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'1_metraw)
 
 #### Why Some Negative Ranges?
 
@@ -461,31 +459,18 @@ Examples:
 
 ---
 
-To compare the accuracy between forecasts, one can't deal with individual
-forecasts, only with sets of forecasts and outcomes. Here, I organise
-the predictions into buckets according to range. The size of the buckets
-seems important: bigger buckets contain bigger datasets, but are also
-less granular. Also, should the size of buckets increase with increasing
-range (e.g. exponentially: the first bucket is for all predictions made
-one day or less before resolution, the second bucket for all predictions
-made 2-4 days before resolution, the third bucket for all predictions
-4-8 days before resolution, and so on) or stay the same?
+In the next step, I extracted the individual variables from the data
+and gave them names (handling the various indices was tiresome after
+a while). `ress` stands for results, `fcs` for forecasts, and `rngs`
+for ranges:
 
-I decided to use evenly sized buckets, and test with varying sizes of
-one day, one week, one month (30 days) and one year (365 days).
+	metress::metdata@2
+	metfcs::metdata@3
+	metrngs::metdata@4
 
-	spd::24*60*60
-	spw::7*spd
-	spm::30*spd
-	spy::365*spd
-	dpbdiffs::{_x%spd}pbdata@3
-	wpbdiffs::{_x%spw}'pbdata@3
-	mpbdiffs::{_x%spm}'pbdata@3
-	ypbdiffs::{_x%spy}'pbdata@3
-	dmetdiffs::{_x%spd}'metdata@3
-	wmetdiffs::{_x%spw}'metdata@3
-	mmetdiffs::{_x%spm}'metdata@3
-	ymetdiffs::{_x%spy}'metdata@3
+	pbress::pbdata@2
+	pbfcs::pbdata@3
+	pbrngs::pbdata@4
 
 The [Brier Score](https://en.wikipedia.org/wiki/Brier_score) is
 a scoring rule for binary forecasts. It takes into account both
@@ -502,79 +487,46 @@ the function `mse.set`):
 
 	brier::{mu((x-y)^2)}
 
-Now, one can calculate the brier score for the forecasts and outcomes
-in each bucket (here I only show it for the days buckets, but it's
-similar for weeks, months and years):
+Now, one can calculate the brier score for each of the forecasts and
+outcomes, with the mean being unnecessary, because there is only one
+datapoint for each application:
 
-	pbress::pbdata@1
-	pbfcs::pbdata@2
-
-	dpbdg::=dpbdiffs
-	dpbdiffbrier::{(dpbdiffs@*x),brier(pbfcs@x;pbress@x)}'dpbdg
-	dpbdiffbrier::dpbdiffbrier@<*'dpbdiffbrier
-
-	metress::metdata@1
-	metfcs::metdata@2
-
-	dmetdg::=dmetdiffs
-	dmetdiffbrier::{(dmetdiffs@*x),brier(metfcs@x;metress@x)}'dmetdg
-	dmetdiffbrier::dmetdiffbrier@<*'dmetdiffbrier
-
-Every `diffbrier` list contains lists with two elements, the first
-one being the time between forecast and resolution, and the second
-one being the brier score for all forecasts made in that time. For
-example, `ypbdiffbrier` (the brier scores for all predictions made on
-PredictionBook 1/2/.../10 years before resolution) is
-
-	[[0 0.162]
-	[1 0.168]
-	[2 0.164]
-	[3 0.159]
-	[4 0.13]
-	[5 0.12]
-	[6 0.128]
-	[7 0.147]
-	[8 0.121]
-	[9 0.215]
-	[10 0.297]]
-
-(Brier scores truncated using `{(*x),(_1000**|x)%1000}'ypbdiffbrier`).
+	metbriers::(metress-metfcs)^2
+	pbbriers::(pbress-pbfcs)^2
 
 ### Results
 
 First, one can check how high the range of these two datasets really is.
 The PredictionBook forecasts with the highest range span 3730 days
-(more than 10 years), for Metaculus it's 1387 days (nearly 4 years).
+(more than 10 years), for Metaculus it's 1387 days (nearly 4 years):
+
+		(|/metrngs)%(24*60*60)
+	1387.01877932435104
+		(|/pbrngs)%(24*60*60)
+	3730.00945601851852
 
 One can now look at the correlation between range and Brier score first
 for Metaculus, and then for PredictionBook:
 
-		cor@+dmetdiffbrier
-	-0.209003553312708299
-		cor@+wmetdiffbrier
-	-0.255272030357598017
-		cor@+mmetdiffbrier
-	-0.304951730306590024
-		cor@+ymetdiffbrier
-	-0.545313822494739663
-		cor@+dpbdiffbrier
-	-0.0278634569332282397
-		cor@+wpbdiffbrier
-	0.0121150252846883416
-		cor@+mpbdiffbrier
-	0.0752110636215072744
-		cor@+ypbdiffbrier
-	0.411830122003081247
+		cor(metbriers;metrngs)
+	0.0216592389375953837
+		cor(pbbriers;pbrngs)
+	-0.0202455558749736788
 
-For Metaculus, the results are pretty astonishing: the correlation is
-negative for all four options, meaning that the higher the range of
-the question, the lower the Brier score (and therefore, the higher the
-accuracy)! And the correlation is extremly low either: -0.2 is quite
-formidable.
+For Metaculus, the results are not very surprising: The positive
+correlation tells us that the higher the range of a forecast, the lower
+the accuracy (or, poetically, at Metaculus the fogs of time grow thicker
+the farther you want to look into the future).
 
-PredictionBook, on the other hand, is not as surprising: the correlations
-are mostly weak and indicate that accuracy doesn't change with range
-– a [null result](https://en.wikipedia.org/wiki/Null_result).
+However, for PredictionBook, the opposite is true (on this dataset):
+Forecasts with higher ranges give more accurate predictions, at least
+on average.
+
+However, these correlations are quite weak, 0.02 could just be random
+noise. I would have to use a significance test to discern whether they
+are statistically significant.
+
+<!--HERE-->
 
 Visualizing the forecasts with
 [scatterplots](https://en.wikipedia.org/wiki/Scatter_plot) and [linear
@@ -1167,6 +1119,13 @@ these datasets still be positive/negative?-->
 I hope to update this analysis in the future, when data from predictions
 with higher ranges has become available, and to check whether the findings
 in this analysis continue to be correct.
+
+Acknowledgements
+----------------
+
+I am grateful to Nuño Sempere for pointing out a fatal flaw in my
+previous version of this analysis, which caused me to rewrite it nearly
+completely.
 
 Miscellaneous
 -------------

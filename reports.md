@@ -548,8 +548,6 @@ has published the results of their study
 [here](https://ethanmorse.github.io/research/face/face.html "Strange-Face Illusion").
 
 <!--
-Kissing Hand as Goodbye
------------------------
 
 Becoming Marginally More Productive
 ------------------------------------

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2020-12-29, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-01-04, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,16 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [You're allowed to fight for something (Nate Soares, 2015)](http://mindingourway.com/youre-allowed-to-fight-for-something/)
+* [The Stamp Collector (Nate Soares, 2015)](http://mindingourway.com/the-stamp-collector/)
+* [Replacing guilt (Nate Soares, 2015)](http://mindingourway.com/replacing-guilt/)
+* [Is Clickbait Destroying Our General Intelligence? (Eliezer Yudkowsky, 2018)](https://www.lesswrong.com/posts/YicoiQurNBxSp7a65)
+* [What Languages Fix (Paul Graham, 2002)](http://www.paulgraham.com/fix.html)
+* [What Made Lisp Different (Paul Graham, 2002)](http://www.paulgraham.com/diff.html)
+* [Five Questions About Language Design (Paul Graham, 2001)](http://www.paulgraham.com/langdes.html)
+* [Sudoku Solver (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/07/20/)
+* [Being a Robust Agent (Raemon, 2020)](https://www.lesswrong.com/posts/2jfiMgKkh7qw9z8Do)
+* [Variable Declarations and the C Call Stack (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/07/18/)
 * [Decoupling vs Contextualising Norms (Chris_Leong, 2018)](https://www.lesswrong.com/posts/7cAsBPGh98pGyrhz9)
 * [A One-Time Pad Mistake (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/07/15/)
 * [Noticing the Taste of Lotus (Valentine, 2018)](https://www.lesswrong.com/posts/KwdcMts8P8hacqwrX)
@@ -107,7 +117,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * Cross-Cultural Agreement in Facial Attractiveness Preferences: The Role of Ethnicity and Gender (Vinet Coetzee/Jaco M. Greeff/IAn D. Stephen/David I. Perrett, 2014)
 * Adaptive Random Testing: the ART of Test Case Diversity (Tsong Yueh Chen/Fei-Ching Kuo/Robert G. Merkel/T.H. Tse, 2010)
 * [Techniques for optimizing worst-case performance (Paul Christiano, 2019)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/E2aZ9Xwdz3i2ghPtn)
-* \* The Human Predicament (David Benatar, 2017)
+* The Human Predicament (David Benatar, 2017)
 * [Thoughts on reward engineering (Paul Christiano, 2019)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/NtX7LKhCXMW2vjWx6)
 * [w-shingling (English Wikipedia, 2018)](https://en.wikipedia.org/wiki/W-shingling)
 * [Capability amplification (Paul Christiano, 2019)](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/t3AJW5jP3sk36aGoC)

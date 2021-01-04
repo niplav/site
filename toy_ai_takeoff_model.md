@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-07-22, modified: 2021-01-03, language: english, status: in progress, importance: 7, confidence: highly unlikely*
+*author: niplav, created: 2020-07-22, modified: 2021-01-04, language: english, status: in progress, importance: 7, confidence: highly unlikely*
 
 > __In [AI safety](https://en.wikipedia.org/wiki/AI_control_problem),
 significant time has been spent on the question of
@@ -456,7 +456,7 @@ algorithm with the current resources.
 
 ![Two-dimensional run](./img/toy_ai_takeoff_model/4_65_0.5_1.001.png "Black graph: staying at -1 for ~500 timesteps, then making a very small jump, and growing very slowly afterwards. Another jump at ~1400, making existing growth much faster. Blue graph: a straight horizontal line, making a small jump at ~500, and a much bigger one at ~1400, but staying horizontal.")
 
-*A run in `$\mathbb{F}_{65}^{4}$`, with one early discontinuity*
+*A run in `$\mathbb{F}_{65}^{4}$`, with two discontinuities*
 
 This run illustrates why even jumps in intelligence can be a little
 surprising: the second jump in intelligence both makes the system
@@ -468,11 +468,28 @@ much harder (or even impossible).
 
 ![Two-dimensional run](./img/toy_ai_takeoff_model/8_9_0.5_1.001.png "After ~200 timesteps two medium-sized jumps, then no jumps the rest of the time (but still growth).")
 
-*A run in `$\mathbb{F}_{9}^{8}$`, with one early discontinuity*
+*A run in `$\mathbb{F}_{9}^{8}$`, with two early discontinuities*
 
 This run contains two relatively early jumps, both of medium size. Being
 the most high-dimensional model, it undermines the hypothesis that late &
 big jumps are more common in more high-dimensional settings.
+
+In some scenarios, one can observe that the model makes a very early
+jump to a relatively high level of capabilities. That probably happens
+due to hill-climbing to the local maximum.
+
+An example for this is the run in `$mathbb{F}_{65}^{3}$`:
+
+	11.465043286618974,11.476508329905592
+	79.33333333333333,79.49207933333331
+	173.441875,173.9627211240668
+	246.0,246.98547698424588
+	246.0,247.23246246123009
+	246.0,247.4796949236913
+	246.0,247.72717461861495
+	246.0,247.97490179323353
+	246.0,248.22287669502674
+	246.0,248.47109957172174
 
 <!--
 ### Uniform Values
@@ -526,16 +543,138 @@ lognormal one. 2. Could be improved decreasing the numbers assigned and
 then replacing negative values with 0 (or leaving them, if it turns out
 that including algorithms of inverse intelligence makes sense).
 
-### No Hill Climbing
+### Brute-Force Search
 
-### No Brute-Force Search
+The brute-force search in the space around the algorithm is also far
+from perfect. Apart from Vingean <!--TODO: link--> considerations, it
+seems that an AI would search the space much more systematically,
+potentially ruling out large portions of the space by proving that they
+can't contain more intelligent algorithms.
+
+Furthermore, it would probably not search the space around the current
+algorithm repeatedly: This leads to many repeated searches, which could
+be avoided by just saving the positions of already observed points in
+the search space.
+
+Also, searching the space around the current algorithm makes hill-climbing
+obsolete, unless the algorithm is so weak that the brute-force search
+has a radius of less than 1: all hill-climbing steps are already included
+in the portion of the search space searched in with brute-force.
+
+<!--
+### Hill Climbing
+
+Or something stronger, such as gradient descent?
+-->
 
 ### Small Dataset
 
+The dataset I base my conclusions on is relatively small, only 14 runs,
+with a different space and parameters each. This is mostly due to the
+fact that I am doing this on my laptop, and didn't want the experiment
+running for several days (while it is running, I can't use my browser,
+because the model and my browser use more RAM than I have available,
+so the model is terminated by the OS).
+
+Generating the search-space is much more expensive than doing several runs
+in the same search space, so I will focus on implementing these first.
+
+### Small Search Spaces
+
+The search spaces used in the model are relatively small, with the
+biggest containing ~43m points, and the rest being around 25m points big.
+
+This makes inferences about how AI systems will optimize in much bigger
+(perhaps even infinite) search spaces harder.
+
+<!--
 ### Additional Factors
 
+What else? Problems with continuity?
+-->
+
 Conclusion
-----------
+-----------
+
+This text provides a toy-model for AI takeoff scenarios using
+high-dimensional spaces filled using a n-dimensional variant of the
+diamond square algorithm.
+
+Running the model with limited computing power, I observe that
+discontinuities indeed occur, and I hypothesize that in larger search
+spaces discontinuities occur later, and are larger.
+
+However, due to multiple limitations, these conclusions are very
+haphazard.
+
+If people arguing in favour of discontinuous takeoffs agree that this
+model is demonstrating one of their arguments, the main advantage of
+this model could be that it now offers a more concrete case at which
+skeptics can point to concrete implementation details or assumptions of
+the models that they disagree with, as well as modify it and demonstrate
+under which conditions no discontinuities occur.
+
+Appendix A: Images of All Runs
+-------------------------------
+
+![Run in 8193^1](./img/toy_ai_takeoff_model/1_8193_0.5_1.001.png "Run in 8193^1, simple exponential.")
+
+*A run in `$\mathbb{F}_{8193}^{1}$`, with no discontinuities*
+
+![Run in 16385^1](./img/toy_ai_takeoff_model/1_16385_0.5_1.001.png "Run in 16385^1, simple exponential.")
+
+*A run in `$\mathbb{F}_{16385}^{1}$`, with no discontinuities*
+
+![Run in 32769^1](./img/toy_ai_takeoff_model/1_32769_0.5_1.001.png "Run in 32769^1, simple exponential.")
+
+*A run in `$\mathbb{F}_{32769}^{1}$`, with no discontinuities*
+
+![Run in 65537^1](./img/toy_ai_takeoff_model/1_65537_0.5_1.001.png "Run in 65537^1, simple exponential.")
+
+*A run in `$\mathbb{F}_{65537}^{1}$`, with no discontinuities*
+
+![Run in 1048577^1](./img/toy_ai_takeoff_model/1_1048577_0.5_1.001.png "Run in 1048577^1, two discontinuities.")
+
+*A run in `$\mathbb{F}_{1048577}^{1}$`, with two discontinuities*
+
+![Largest one-dimensional run](./img/toy_ai_takeoff_model/1_16777217_0.5_1.001.png "Black graph: an exponential curve, making a small jump at position ~1400/2040. Blue graph: a straight horizontal line, making a small jump at the same point, but staying horizontal.")
+
+*A run in `$\mathbb{F}_{16777217}^{1}$`, with one discontinuity*
+
+![Two-dimensional run](./img/toy_ai_takeoff_model/2_4097_0.5_1.001.png "Black graph: an exponential curve, making a small jump at position ~80/2040. Blue graph: a straight horizontal line, making a small jump at the same point, but staying horizontal.")
+
+*A run in `$\mathbb{F}_{4097}^{2}$`, with one early discontinuity*
+
+![Run in 65^3](./img/toy_ai_takeoff_model/3_65_0.5_1.001.png "Run in 65^3, no discontinuities.")
+
+*A run in `$\mathbb{F}_{65}^{3}$`, with no discontinuities*
+
+![Run in 129^3](./img/toy_ai_takeoff_model/3_129_0.5_1.001.png "Run in 129^3, one discontinuity.")
+
+*A run in `$\mathbb{F}_{129}^{3}$`, with one discontinuity*
+
+![Run in 255^3](./img/toy_ai_takeoff_model/3_255_0.5_1.001.png "Run in 255^3, two discontinuities.")
+
+*A run in `$\mathbb{F}_{255}^{3}$`, with two discontinuities*
+
+This run is probably invalid, because 255 is not a number representable by
+`$2^{n}+1$`.
+
+![Two-dimensional run](./img/toy_ai_takeoff_model/4_65_0.5_1.001.png "Black graph: staying at -1 for ~500 timesteps, then making a very small jump, and growing very slowly afterwards. Another jump at ~1400, making existing growth much faster. Blue graph: a straight horizontal line, making a small jump at ~500, and a much bigger one at ~1400, but staying horizontal.")
+
+*A run in `$\mathbb{F}_{65}^{4}$`, with two discontinuities*
+
+![Run in 33^5](./img/toy_ai_takeoff_model/5_33_0.5_1.001.png "Run in 33^5, with three discontinuities.")
+
+*A run in `$\mathbb{F}_{33}^{5}$`, with three discontinuities*
+
+![Run in 17^6](./img/toy_ai_takeoff_model/6_17_0.5_1.001.png "Run in 17^6, with one discontinuity.")
+
+*A run in `$\mathbb{F}_{17}^{6}$`, with one discontinuity*
+
+![Two-dimensional run](./img/toy_ai_takeoff_model/8_9_0.5_1.001.png "After ~200 timesteps two medium-sized jumps, then no jumps the rest of the time (but still growth).")
+
+*A run in `$\mathbb{F}_{9}^{8}$`, with two early discontinuities*
 
 <!--
 https://en.wikipedia.org/wiki/Brownian_surface
@@ -547,5 +686,4 @@ https://en.wikipedia.org/wiki/OpenSimplex_noise
 https://en.wikipedia.org/wiki/Perlin_noise
 https://en.wikipedia.org/wiki/Simplex_noise
 https://github.com/buckinha/DiamondSquare
-https://nullprogram.com/blog/2007/11/20/
 -->

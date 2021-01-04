@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-12-30, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2021-01-04, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -224,7 +224,8 @@ English and German, but the tag may be one of the following:
 #### Confidence
 
 The confidence tags are also taken mainly from [Gwern
-2019](https://www.gwern.net/About#confidence-tags).
+2019](https://www.gwern.net/About#confidence-tags), and describe how
+much I believe that the content of a post will turn out to be correct.
 
 I made some additions to the list of tags which I thought were useful:
 "translation" for translations, "transcription" for transcriptions
