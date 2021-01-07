@@ -526,13 +526,35 @@ However, these correlations are quite weak, 0.02 could just be random
 noise. I would have to use a significance test to discern whether they
 are statistically significant.
 
-<!--HERE-->
+Now, one can also perform a linear regression to gauge what the relation
+of range and accuracy of a forecast is. For this, I first create an x/y
+set with the brier score of a forecast being in the y axis and the range
+in the x axis:
+
+	mettab::+(,metrngs),,metbriers
+	pbtab::+(,pbrngs),,pbbriers
+
+Now, a linear regression is easy:
+
+		lreg(mettab)
+	[0.000000000172708060226394773 0.167538673280194372]
+		lreg(pbtab)
+	[-0.000000000102929939681891687 0.16348453886964792]
+
+These are not particularly surprising. The inferred brier score at range
+0 (the forecast directly before resolution) is ~0.16, which seems a bit
+pessimistic, but other than that, growth with higher ranges for metaculus
+data and lower accuracy for higher ranges for predictionbook data match
+the correlation. The steepness of the regression is quite low because
+the ranges are in seconds.
 
 Visualizing the forecasts with
 [scatterplots](https://en.wikipedia.org/wiki/Scatter_plot) and [linear
 regressions](https://en.wikipedia.org/wiki/Linear_regression) shows a
 very similar picture (red dots are for Metaculus forecasts, blue dots
 are for PredictionBook forecasts):
+
+<!--HERE-->
 
 ![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)](img/range_and_forecasting_accuracy/alldays.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)")
 

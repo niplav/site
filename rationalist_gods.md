@@ -9,6 +9,8 @@
 > (similar to the [ideas of Lovecraft](https://en.wikipedia.org/wiki/Old_One_in_fiction)).
 > This page collects links to some of the important texts in this pantheon.__
 
+<!--TODO: the gods of straight lines-->
+
 Rationalist Gods
 ================
 

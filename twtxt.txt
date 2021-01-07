@@ -174,3 +174,7 @@
 2021-01-04T10:29:28.000000Z	BE WILLING TO MAKE BETS
 2021-01-04T10:30:14.000000Z	“You only ever see the map, but you walk the territory.”
 2021-01-04T10:30:43.000000Z	Also, as a reminder, we have noticed the skulls, yes: https://www.lesswrong.com/s/7gRSERQZbqTuLX5re/p/dLbkrPu5STNCBLRjr
+2021-01-05T11:06:18.000000Z	Niplav Yushtun, PhD in Memetodynamics
+2021-01-05T15:59:25.000000Z	Unless the world has been adversarially structured against you, you can do better by just trying. This holds both for bayesianism & consequentialism.
+2021-01-05T16:00:12.000000Z	In other words: you can expect the mistakes you make to be normally distributed around 0 if you're not trying.
+2021-01-05T16:01:00.000000Z	Some people, paradoxically, can help the world most by first helping themselves. Often enough, those people are the ones most pre-disposed to helping the world.
