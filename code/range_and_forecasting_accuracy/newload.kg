@@ -28,3 +28,6 @@ pbrngs::pbdata@4
 
 metbriers::(metress-metfcs)^2
 pbbriers::(pbress-pbfcs)^2
+
+mettab::+(,metrngs),,metbriers
+pbtab::+(,pbrngs),,pbbriers

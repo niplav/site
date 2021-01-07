@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2020-02-12, language: english, status: in progress, importance: 4, confidence: other*
+*author: niplav, created: 2019-01-14, modified: 2021-01-05, language: english, status: in progress, importance: 4, confidence: other*
 
 > __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems
@@ -35,7 +35,7 @@ We use the original numbering to make it consistent with the majority
 of versions of the list on the internet.
 
 From *P60* on, the examples in the Lisp version were the original Prolog
-predicates, so we added fitting examples when appropriate. We also terminate
+predicates, so I added fitting examples when appropriate. I also terminate
 each one-line description of a problem with a dot '.'.
 
 Working with lists

@@ -11,6 +11,8 @@ Changelog
 January 2021
 ------------
 
+* [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.md)
+
 December 2020
 -------------
 

@@ -25,6 +25,7 @@ metdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'metraw)
 dmetdiffs::{_x%spd}'metdata@4
 
 :"For weeks"
+
 wmetdiffs::{_x%spw}'metdata@4
 
 :"For months (roughly)"
