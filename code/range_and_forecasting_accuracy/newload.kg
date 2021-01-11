@@ -31,3 +31,8 @@ pbbriers::(pbress-pbfcs)^2
 
 mettab::+(,metrngs),,metbriers
 pbtab::+(,pbrngs),,pbbriers
+
+:"for visualization"
+
+subsetmet::2048#shuffle(mettab)
+subsetpb::2048#shuffle(pbtab)

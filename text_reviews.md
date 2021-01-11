@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-12-30, modified: 2020-12-31, language: english, status: in progress, importance: 3, confidence: opinion*
+*author: niplav, created: 2020-12-30, modified: 2021-01-08, language: english, status: in progress, importance: 3, confidence: opinion*
 
 > __Reading a text is sometimes a big time investment, but people
 don't approach their reading in a structured manner, e.g. by keeping
@@ -94,7 +94,9 @@ __3/10__
 What failure looks like (Paul Christiano, 2019)
 -----------------------------------------------
 
-*From the 2019 LessWrong Review*<!--TODO: link?-->
+*Written for the [2019 LessWrong Review](https://www.lesswrong.com/posts/QFBEjjAvT6KbaA3dY/the-lesswrong-2019-review)*
+
+[Original Post](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like)
 
 I read [this
 post](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like)
@@ -161,3 +163,61 @@ but it isn't clear whether he is just summarizing things he has thought
 about, which are implicit knowledge in his social web, or whether he is
 summarizing existing texts. I think part I would have benefitted from a
 link to Goodhart's law (or an explanation why it is something different).
+
+1960: The Year The Singularity Was Cancelled (Scott Alexander, 2019)
+--------------------------------------------------------------------
+
+*Written for the [2019 LessWrong Review](https://www.lesswrong.com/posts/QFBEjjAvT6KbaA3dY/the-lesswrong-2019-review)*
+
+[Original Post](https://www.lesswrong.com/posts/bYrF8rXFYwPqnfxTp/1960-the-year-the-singularity-was-cancelled)
+
+I believe this is an important
+[gears-level](https://www.lesswrong.com/posts/B7P97C27rvHPz3s9B/gears-in-understanding)
+addition to posts like [hyperbolic
+growth](https://sideways-view.com/2017/10/04/hyperbolic-growth/),
+[long-term growth as a sequence of exponential
+modes](http://mason.gmu.edu/~rhanson/longgrow.html) and an old yudkowsky
+post I am unable to find at the moment.
+
+ I don't know how closely these
+ texts are connected, but [Modeling the Human
+ Trajectory](https://www.openphilanthropy.org/blog/modeling-human-trajectory)
+ picks up one year later, creating two technical models: one
+ stochastically fitting and extrapolating GDP growth; the other providing
+ a deterministic outlook, considering labor, capital, human capital,
+ technology and production (and, in one case, natural resources). Roodman
+ arrives at somewhat similar conclusions, too: The industrial revolution
+ was a _very_ big deal, and something happened around 1960 that has
+ slowed the previous strong growth (as far as I remember, it doesn't
+ provide an explicit reason for this).
+
+A point in this post that I found especially interesting
+was the speculation about the back plague being the spark
+that ignited the industrial revolution. The reason given is
+a good example of [slack catapulting a system out of a local
+maximum](https://www.lesswrong.com/posts/GZSzMqr8hAB2dR8pk/studies-on-slack),
+in this case a malthusian europe into the industrial revolution.
+
+Interestingly, both this text and Roodman don't consider individual
+intelligence as an important factor in global productivity. Despite the
+well-known [Flynn-Effect](https://en.wikipedia.org/wiki/Flynn_effect)
+that has mostly continued since 1960 (caveat caveat), no extraordinary
+change in global productivity has occurred. This makes some sense: a
+rise of less than 1 standard deviation might be appreciable, but not
+groundbreaking. But the relation to artificial intelligence makes it
+interesting: the purported (economic) advantage of AI systems is that
+they can copy themselves, thereby making population growth not the
+most constraining variable in this growth model. I don't believe this
+is particularly anticipation-constraining, though: this could mean that
+either the post-singularity ("singularity") world is multipolar, or the
+singleton controlling everything has created many sub-agents.
+
+I appreciate this post. I have referenced it a couple of
+times in conversations. Together with the investigation
+by OpenPhil it makes a solid case that [the gods of straight
+lines](https://slatestarcodex.com/2018/11/26/is-science-slowing-down-2/)
+have decided to throw us into [the most important century of
+history](https://forum.effectivealtruism.org/posts/XXLf6FmWujkxna3E6/are-we-living-at-the-most-influential-time-in-history-1).
+May the [godess of everything
+else](https://www.lesswrong.com/posts/MFNJ7kQttCuCXHp8P/the-goddess-of-everything-else)
+be merciful with us.

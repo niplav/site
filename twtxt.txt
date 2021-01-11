@@ -1,21 +1,80 @@
 # nick: niplav
 # url: https://niplav.github.io/twtxt.txt
 # following:
-#     deadguy https://dgy.fuckup.club/twtxt.txt
-#     sdk https://codevoid.de/tw.txt
-#     xandkar https://xandkar.net/twtxt.txt
-#     josuah https://z0.is/~josuah/
-#     mdom https://www.domgoergen.com/twtxt/mdom.txt
-#     adiabetic https://www.frogorbits.com/twtxt.txt
-#     von https://tilde.town/~von/twtxt.txt
-#     vain https://www.uninformativ.de/twtxt.txt
-#     ech https://emmas.site/blog/twtxt.txt
-#     dgold https://dgold.eu/twtxt.txt
-#     z3bra http://phroxy.z3bra.org/g.nixers.net:70/0/~z3bra/twtxt.txt
-#     allgebrah https://www.synkretie.net/twtxt
-#     johanbove https://johanbove.info/twtxt.txt
-#     quite https://lublin.se/twtxt.txt
-#     kt84 https://twtxt.net/user/kt84/twtxt.txt
+#	71m https://timmorgan.org/twtxt.txt
+#	TaMeR https://4069.twt.social/user/tamer
+#	adi https://twtxt.net/user/adi/twtxt.txt
+#	alip https://dev.exherbo.org/~alip/twtxt.txt
+#	angel https://triptico.com/twtxt.txt
+#	anonixers gopher://g.nixers.net/~anon/twtxt.txt
+#	antonio https://twtxt.net/user/antonio/twtxt.txt
+#	astrophotography https://twtxt.net/user/astrophotography/twtxt.txt
+#	benaiah https://benaiah.me/twtxt.txt
+#	birb https://twtxt.net/user/birb/twtxt.txt
+#	buckket https://buckket.org/twtxt.txt
+#	c-keen http://pestilenz.org/~ckeen/twtxt.txt
+#	codebalion http://twtxt.prismdragon.net/twtxt.txt
+#	dave https://davebucklin.com/twtxt.txt
+#	deadguy https://dgy.fuckup.club/twtxt.txt
+#	dooven https://twtxt.net/user/dooven/twtxt.txt
+#	eli_oat https://txt.eli.li/twtxt/twtxt.txt
+#	esc http://escowles.github.io/tw.txt
+#	fegffb https://feg-ffb.de/twtxt.txt
+#	felixp7 https://twtxt.net/user/felixp7/twtxt.txt
+#	freemor https://freemor.homelinux.net/~freemor/twtxt.txt
+#	frogorbits.com https://www.frogorbits.com/twtxt.txt
+#	fundor333 https://fundor333.com/twtxt.txt
+#	gbmor https://gbmor.dev/twtxt.txt
+#	gil https://tilde.pt/~gil/twtxt.txt
+#	gmj http://www.port111.com/george/twtxt.txt
+#	hecanjog https://hecanjog.com/twtxt.txt
+#	hiltjo https://codemadness.org/twtxt.txt
+#	hjacobs https://hjacobs.codeberg.page/twtxt.txt
+#	hjertnes https://hjertnes.social/twtxt.txt
+#	iolfree https://tilde.club/~iolfree/twtxt.txt
+#	ionores https://twtxt.net/user/ionores/twtxt.txt
+#	jb55 https://jb55.com/twtxt.txt
+#	jcolag https://john.colagioia.net/twtxt.txt
+#	jlj http://ctrl-c.club/~jlj/tw.txt
+#	johanbove https://johanbove.info/twtxt.txt
+#	kernel-pancake https://kernel-pancake.nl/twtxt.txt
+#	koehr https://koehr.in/twtxt.txt
+#	kt84 https://twtxt.net/user/kt84/twtxt.txt
+#	lahvak http://lahvak.github.io/twtxt/twtxt.txt
+#	leo https://www.gkbrk.com/twtxt.txt
+#	lucidiot https://tilde.town/~lucidiot/twtxt.txt
+#	lyse https://lyse.isobeef.org/twtxt.txt
+#	lyxal https://twtxt.net/user/lyxal/twtxt.txt
+#	marado https://tilde.pt/~marado/twtxt.txt
+#	mdosch https://mdosch.de/twtxt.txt
+#	melyanna http://tilde.club/~melyanna/twtxt.txt
+#	news https://twtxt.net/user/news/twtxt.txt
+#	niplav https://niplav.github.io/twtxt.txt
+#	nonlinear https://nonlinear.radiofreqs.space/twtxt.txt
+#	notizblog https://notiz.blog/feed/twtxt
+#	nristen https://karl.theharrisclan.net/twtxt.txt
+#	pbatch https://pbat.ch/twtxt.txt
+#	pwr https://skeletons.cc/twtxt.txt
+#	quite https://lublin.se/twtxt.txt
+#	reednj http://twtxt.xyz/u/reednj.txt
+#	rho https://electro.pizza/twtxt.txt
+#	robbinaer https://robbinaer.info/twtxt.txt
+#	sdk https://codevoid.de/tw.txt
+#	sixbitproxywax https://sixbitproxywax.com/twtxt.txt
+#	sysdharma https://twtxt.rodolpho.onoeck.de/twtxt.txt
+#	tfurrows https://grex.org/~tfurrows/twtxt.txt
+#	tux0r https://twtxt.rosaelefanten.org/
+#	twet https://lublin.se/twet.txt
+#	twtxt https://buckket.org/twtxt_news.txt
+#	tx https://shroom.party/twtxt.txt
+#	vain https://www.uninformativ.de/twtxt.txt
+#	vang https://kecyk.com/twtxt.txt
+#	vnm gopher://g.nixers.net/0/~vnm/twtxt.txt
+#	von https://tilde.town/~von/twtxt.txt
+#	webi https://twtxt.opstack.info/twtxt.txt
+#	xandkar https://xandkar.net/twtxt.txt
+#	xuu https://txt.sour.is/user/xuu/twtxt.txt
+#	z3bra gopher://g.nixers.net/0/~z3bra/twtxt.txt
 2020-11-26T14:43:42.000000Z	I used to have a twitter, but then I got addicted to it and shut it down (https://twitter.com/niplavyushtun). I think I'll put similar stuff on here, and maybe more extreme experimental takes, because there's no risk of getting banned.
 2020-11-26T15:06:04.000000Z	If it's not insightful enough for the LessWrong shortform, not in context enough for reddit, and not long enough for my website, it goes on here.
 2020-11-26T15:06:56.000000Z	BTW, website! I can be found at https://niplav.github.io. If you want to read things I thought about for more than 5 seconds, that's the place to go.
@@ -169,7 +228,7 @@
 2021-01-04T10:21:05.000000Z	Umeshism: If you can follow your own ethical rules, your own ethical rules are not demanding enough.
 2021-01-04T10:21:14.000000Z	Infuriating: With the Euro, 50 ct. coins are bigger than 1€ coins.
 2021-01-04T10:25:30.000000Z	caveet
-2021-01-04T10:26:17.000000Z	the problem of matter
+2021-01-04T10:26:17.000000Z	the hard problem of matter
 2021-01-04T10:29:19.000000Z	IF YOU BELIEVE A THING, THAT DOESN'T MEAN YOU __HAVE__ TO SAY IT
 2021-01-04T10:29:28.000000Z	BE WILLING TO MAKE BETS
 2021-01-04T10:30:14.000000Z	“You only ever see the map, but you walk the territory.”
@@ -178,3 +237,35 @@
 2021-01-05T15:59:25.000000Z	Unless the world has been adversarially structured against you, you can do better by just trying. This holds both for bayesianism & consequentialism.
 2021-01-05T16:00:12.000000Z	In other words: you can expect the mistakes you make to be normally distributed around 0 if you're not trying.
 2021-01-05T16:01:00.000000Z	Some people, paradoxically, can help the world most by first helping themselves. Often enough, those people are the ones most pre-disposed to helping the world.
+2021-01-07T09:31:45.000000Z	“I will do as I please” will do as it pleases
+2021-01-07T09:38:01.000000Z	A bit tempted to trying to dovetail to find the shortest brainfuck quine.
+2021-01-07T09:38:33.000000Z	Only 4^391 programs. That shouldn't be _that_ hard!
+2021-01-07T09:54:37.000000Z	Subtly phenomenologically tainted words lead to anthropomorphization in discussions about AI
+2021-01-07T09:54:54.000000Z	e.g. desire, want, reason, think
+2021-01-07T16:26:03.000000Z	@<sdk https://codevoid.de/tw.txt> "Oh fun. I was not active on txtnish for a while and now all the feeds are 404 :( I miss you guys..." Same.
+2021-01-07T18:06:07.000000Z	@<eli_oat https://txt.eli.li/twtxt/twtxt.txt> txt txt txt txt txt txt txt
+2021-01-07T21:20:42.000000Z	My definite stance on the rat/postrat discourse. Strap in. 1/89
+2021-01-07T21:21:13.000000Z	It all starts back in the days, when people started posting on SL4. As it turns out, 2/89
+2021-01-07T21:22:13.000000Z	bang. bang. bang. bang. Caledonian2 looks down on me. “What now, punk? Where is your overcoming of bias now?” “FUCK YOU” I scream. I lift 13/89
+2021-01-07T21:23:45.000000Z	nd in lemma 3.11 you can clearly see that ℝ∪lim_{k→∞} ℤ^{k} is homeomorphically convex. Furthermore, per Gibbard-Satterthwaite, you 32/89
+2021-01-07T21:25:36.000000Z	ut in the desert,,, the vibe reigns. When it is not in check, we tremble. We sweat ourselves down into a negative kegan stage. We gendlin-focus on all the wrong things. The meditators see blue mushrooms in desire for deliverance. Fanged noum 51/89
+2021-01-07T21:27:10.000000Z	nosilverv sits down next to me. We look at each other, still panting. I notice how his hands are still dusty. When I look up again, his eyes are glowing with a little smirk. He leans ov 73/89
+2021-01-07T21:28:42.000000Z	and if you truly get down to it, there's no ground for solomonoff induction, because your choice of TM is completely arbitrary! Furthermore, what does it even mean for bayesianism to be a coherent epistemology‽ How do we decide wha 84/89
+2021-01-07T21:29:24.000000Z	lief as attire will not save you. Come back to LW we miss you. Please don't stray too far from the light. 89/89
+2021-01-07T21:32:05.000000Z	https://twitter.com/skluuug/status/1343488552512802817
+2021-01-07T22:28:37.000000Z	i will not have the sex. i will not spread the gene.
+2021-01-07T22:39:54.000000Z	I'm cartesianly divided from twitter, to which I'm often responding. We're back to watching television again.
+2021-01-09T00:00:33.000000Z	…and over to monist idealism.
+2021-01-09T01:02:40.000000Z	Personal anti-natalism delays the point point in time of malthusian saturation
+2021-01-10T12:47:55.000000Z	Will self-driving cars also be something that's always n years away?
+2021-01-10T13:30:04.000000Z	@(frogorbits.com) "@niplav Re: rats:  YOU ARE NOT ALONE" https://i.ytimg.com/vi/2sbUDWU3Fjk/maxresdefault.jpg
+2021-01-10T13:49:47.000000Z	@<felixp7 https://twtxt.net/user/felixp7/twtxt.txt> "Yo, crypto-heads. Encrypted communication doesn't protect your privacy. Laws …" I guess crypto-heads are often happy with acknowledging this, but also arguing that e.g. deniable crypto is a useful way out here (and, of course, just doing illegal stuff if it gets really rough).
+2021-01-10T13:50:58.000000Z	One should probably have a bunch of hard-drives with random content (not some files, but really random) lying around to being able to believably glomarize towards law enforcement
+2021-01-10T13:52:33.000000Z	Disadvantage of twtxt: less incentives to reply to people since it's not certain they'll ever see it. My current solution to that is to follow everybody on the we-are-twtxt and only unfollow if they twt a lot of stuff I'm not interested in
+2021-01-10T13:53:21.000000Z	Maybe I could write a script that trawls the we-are-twtxt list and notifies me when I'm mentioned–the name should be unique enough.
+2021-01-10T14:00:57.000000Z	@<prologic https://twtxt.net/user/prologic/twtxt.txt> "What the hell does [cartesianly](https://www.thefreedictionary.com/cartesianly) mean?! 😳" Me inventing a new adjective for "there is only a one-way flow of information" ^^
+2021-01-10T14:01:31.000000Z	`curl https://raw.githubusercontent.com/jointwt/we-are-twtxt/master/we-are-twtxt.txt | grep -v '^niplav ' | field 2 | xargs curl ^/dev/null | grep niplav` here we go
+2021-01-10T14:07:17.000000Z	I should probably just add a `mentions` command to txtnish
+2021-01-10T14:20:12.000000Z	New post: https://niplav.github.io/toy_ai_takeoff_model.html.
+2021-01-11T09:06:25.000000Z	Oedipedia
+2021-01-11T09:06:34.000000Z	Care less about organic food
