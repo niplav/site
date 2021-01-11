@@ -478,7 +478,7 @@ In some scenarios, one can observe that the model makes a very early
 jump to a relatively high level of capabilities. That probably happens
 due to hill-climbing to the local maximum.
 
-An example for this is the run in `$mathbb{F}_{65}^{3}$`:
+An example for this is the run in `$\mathbb{F}_{65}^{3}$`:
 
 	11.465043286618974,11.476508329905592
 	79.33333333333333,79.49207933333331

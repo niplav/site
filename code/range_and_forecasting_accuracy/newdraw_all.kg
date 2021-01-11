@@ -1,0 +1,29 @@
+.l("nplot")
+.l("./newload.kg")
+
+allscatter::.oc("allscatter.eps")
+.tc(allscatter)
+
+uplim::(|/*+subsetpb)
+
+setrgb(0;0;0)
+grid([0],uplim,(uplim%15);[0 1 0.1])
+xtitle("Range (in seconds)")
+ytitle("Brier Score")
+
+setdot(2)
+
+fillrgb(0;0;1)
+setrgb(0;0;1)
+scplot2(subsetpb)
+plot(lr(;lreg(subsetpb)))
+
+fillrgb(1;0;0)
+setrgb(1;0;0)
+scplot2(subsetmet)
+plot(lr(;lreg(subsetmet)))
+
+draw()
+
+.fl()
+.cc(allscatter)

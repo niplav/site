@@ -664,6 +664,8 @@ to the Fisher-Yates Shuffle implementation in terms of performance.
 There is probably a Klong verb that runs in `$\cal{O}(n^2)$` and was used in
 `s20` or `s25.2`.
 
+<!--TODO: this shuffle might (very rarely) contain duplicates-->
+
 ### P26 (**) Generate the combinations of K distinct objects chosen from the N elements of a list.
 
 This solution is a _bit_ more complicated than the previous ones. It

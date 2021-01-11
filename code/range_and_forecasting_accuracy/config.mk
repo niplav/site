@@ -2,6 +2,7 @@ CSV=met.csv \
 	pb.csv
 
 IMG=alldays.png \
+	allscatter.png \
 	allmonths.png \
 	allqdays.png \
 	allqmonths.png \

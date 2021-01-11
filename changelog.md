@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-01-04, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-01-08, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -11,6 +11,8 @@ Changelog
 January 2021
 ------------
 
+* [Text Reviews](./text_reviews.html)
+	* [1960: The Year The Singularity Was Cancelled (Scott Alexander, 2019)](./text_reviews.html#1960-The-Year-The-Singularity-Was-Cancelled-Scott-Alexander-2019)
 * [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.md)
 
 December 2020
