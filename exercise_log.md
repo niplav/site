@@ -675,3 +675,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 100 froggers
 * 20 vertical rows
 * 20 walking lunges
+
+### 2021-01-11
+
+* 30 minutes jogging

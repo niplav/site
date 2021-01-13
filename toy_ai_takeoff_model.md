@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-07-22, modified: 2021-01-04, language: english, status: in progress, importance: 7, confidence: highly unlikely*
+*author: niplav, created: 2020-07-22, modified: 2021-01-13, language: english, status: in progress, importance: 7, confidence: highly unlikely*
 
 > __In [AI safety](https://en.wikipedia.org/wiki/AI_control_problem),
 significant time has been spent on the question of
@@ -60,7 +60,7 @@ developed? Will the development be slow, moderate, or fast (in
 economic doublings, or in wallclock time)? Will one AGI system become a
 [singleton](https://en.wikipedia.org/wiki/Singleton_(global_governance)),
 i.e come to dominate the whole world (individual vs. collective
-takeoff)? Will AGIs FOOM<!--TODO: link-->, i.e growing unexpectedly
+takeoff)? Will AGIs [FOOM](https://intelligence.org/ai-foom-debate/), i.e growing unexpectedly
 fast? And: will there be one or more discontinuity when AI systems
 recursively self-improve? This text attempts to shine light on the last
 question and highlight a (supposedly underappreciated) argument for one or
@@ -172,7 +172,7 @@ would actually bring about discontinuities in the recursive development
 of artificial intelligence, and can also provide a more concrete ground
 for disagreement (for by creating an opportunity for people to modify
 the code and show that different search spaces, search algorithms and
-external factors generate different conclusions.
+external factors generate different conclusions).
 
 On a high level, in
 [pseudocode](https://en.wikipedia.org/wiki/Pseudocode), the model executes
@@ -545,11 +545,11 @@ that including algorithms of inverse intelligence makes sense).
 
 ### Brute-Force Search
 
-The brute-force search in the space around the algorithm is also far
-from perfect. Apart from Vingean <!--TODO: link--> considerations, it
-seems that an AI would search the space much more systematically,
-potentially ruling out large portions of the space by proving that they
-can't contain more intelligent algorithms.
+The brute-force search in the space around the algorithm is also far from
+perfect. Apart from [Vingean](https://arbital.com/p/Vingean_uncertainty/)
+considerations, it seems that an AI would search the space much more
+systematically, potentially ruling out large portions of the space by
+proving that they can't contain more intelligent algorithms.
 
 Furthermore, it would probably not search the space around the current
 algorithm repeatedly: This leads to many repeated searches, which could
@@ -603,6 +603,9 @@ diamond square algorithm.
 Running the model with limited computing power, I observe that
 discontinuities indeed occur, and I hypothesize that in larger search
 spaces discontinuities occur later, and are larger.
+
+<!--TODO: this makes sense: $n^t*c<n^{t+k}*c$, i.e. later jumps of the
+same factor are larger-->
 
 However, due to multiple limitations, these conclusions are very
 haphazard.

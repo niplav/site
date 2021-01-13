@@ -160,6 +160,7 @@ Texts
 ### Analyses
 
 * Modelling the Dream-Time (Population will probably start growing again)
+	* How likely is another malthusian trap, how much time do we have got?
 * Dumpster Diving
 * Hitch Hiking
 * Keyboards

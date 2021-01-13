@@ -39,6 +39,7 @@ HTML=index.html \
 	toy_ai_takeoff_model.html \
 	two_people_on_a_planet.html \
 	utilitarian_compliments.html \
+	thoughts_on_politics_especially_economics.html \
 	text_reviews.html \
 	bp_chrono.html \
 	ob_chrono.html \
