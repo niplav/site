@@ -1,0 +1,10 @@
+#!/usr/bin/env rc
+
+echo -n 'datetime (ISO-8601): '
+datetime=`{read}
+echo -n 'enjoyment [-10;10]: '
+enjoyment=`{read}
+echo -n 'methods: {taiv}*: '
+method=`{read}
+
+printf '%s,%s,%s\n' $datetime $enjoyment $method >>mstrbt.csv

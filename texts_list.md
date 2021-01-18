@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-01-04, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-01-13, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,29 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Achieving Scalable Model-Based Testing Through Test Case Diversity (H. Hemmati/A Arcuri/L. Briand, 2010)
+* [Working yourself ragged is not a virtue (Nate Soares, 2015)](http://mindingourway.com/stop-before-you-drop/)
+* [Historical mathematicians exhibit a birth order effect too (elityre, 2018)](https://www.lesswrong.com/posts/tj8QP2EFdP8p54z6i)
+* Adaptive random test case priorization (B Jiang/Z Zhang/WK Chan/TH Tse, 2009)
+* [Half-assing it with everything you've got (Nate Soares, 2015)](http://mindingourway.com/half-assing-it-with-everything-youve-got/)
+* [Explicit and Implicit Communication (lionhearted, 2018)](https://www.lesswrong.com/posts/PqbDgCtyRPYkYwHsm)
+* [The Bat and Ball Problem Revisited (drossbucket, 2018)](https://www.lesswrong.com/posts/vk2yS8osapSch9Cz2)
+* [Your "shoulds" are not a duty (Nate Soares, 2015)](http://mindingourway.com/shoulds-are-not-a-duty/)
+* [Caring less (eukaryote, 2018)](https://www.lesswrong.com/posts/dPLSxceMtnQN2mCxL)
+* [Circling (Unreal, 2018)](https://www.lesswrong.com/posts/aFyWFwGWBsP5DZbHF)
+* \* Die Versteigerung von No. 49 (Thomas Pynchon, 1965)
+* [Conversational Cultures: Combat vs Nurture (V2) (Ruby, 2020)](https://www.lesswrong.com/posts/ExssKjAaXEEYcnzPd)
+* [Not because you "should" (Nate Soares, 2015)](http://mindingourway.com/not-because-you-should/)
+* [Act of Charity (jessicata, 2018)](https://www.lesswrong.com/posts/rwjv8bZfSuE9ZAigH)
+* [The funnel of human experience (eukaryote, 2018)](https://www.lesswrong.com/posts/SwBEJapZNzWFifLN6)
+* [Player vs. Character: A Two-Level Model of Ethics (sarahconstantin, 2018)](https://www.lesswrong.com/posts/fyGEP4mrpyWEAfyqj)
+* ["Should" considered harmful (Nate Soares, 2015)](http://mindingourway.com/should-considered-harmful/)
+* [Unknown Knowns (Zvi, 2018)](https://www.lesswrong.com/posts/7w2tCRocphK9yW8rG)
+* [Realism about rationality (Richard Ngo, 2018)](https://www.lesswrong.com/posts/suxvE2ddnYMPJN9HD)
+* [You don't get to know what you're fighting for (Nate Soares, 2015)](http://mindingourway.com/you-dont-get-t/)
+* Frieden auf Erden (Stanisław Lem, 1984)
+* [Caring about something larger than yourself (Nate Soares, 2015)](http://mindingourway.com/caring-about-some/)
+* Regression testing minimization, selection and priorization: a survey (S. Yoo/M. Harman, 2010)
 * [You're allowed to fight for something (Nate Soares, 2015)](http://mindingourway.com/youre-allowed-to-fight-for-something/)
 * [The Stamp Collector (Nate Soares, 2015)](http://mindingourway.com/the-stamp-collector/)
 * [Replacing guilt (Nate Soares, 2015)](http://mindingourway.com/replacing-guilt/)

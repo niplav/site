@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2020-12-12, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2021-01-13, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -680,3 +680,41 @@ Proof:
 </div>
 
 □
+
+Section 10
+-----------
+
+### Exercise 1
+
+(i) To be shown: `$f(\bigcup_{i} A_{i}) = \bigcup_{i} f(A_{i}$`
+
+If `$e \in f(\bigcup_{i} A_{i})$`, then there exists an `$i$` for which
+`$e \in f(A_{i})$`. Then also `$e \in \bigcup_{i}f(A_{i})$` (since the
+same set of indices is iterated over).
+
+If otherwise `$e \in \bigcup_{i} f(A_{i})$`, then there is also an `$i$`
+for which `$e \in f(A_{i}$`. Then `$e$` is at least once an element of
+`$f(\bigcup_{i} A_{i})$`.
+
+(ii) To be shown: `$f(\bigcap_{i} A_{i}) \neq \bigcap_{i} f(A_{i}$`
+
+Example:
+`$I=\{1, 2\}, A_1=\{1\}, A_2=\{2\}, f(\{1\})=\{a\}, f(\{2\})=\{a\}, f(\emptyset)=\emptyset, f(\{1,2\})=\{a\}$`
+
+Then `$f(\bigcap_{i} A_{i})=f(\{1\} \cap \{2\})=f(\emptyset)=\emptyset$`,
+but `$\bigcap_{i} f(A_{i})=\{a\} \cap \{a\}=\{a\}$`.
+
+### Exercise 2
+
+> A necessary and sufficient condition that `$f$` map `$X$` onto `$Y$`
+is that the inverse image under `$f$` of each non-empty subset of `$Y$`
+be a non-empty subset of `$X$`. (Proof?)
+
+But that's – false? Unless I understand something different by "map"
+(which I just take as relates from one set to another, possibly in a
+many-to-one relation).
+
+Example:
+
+`$X=\{1,2\}, Y=\{a,b\}$`. `$f(\{1\})=\{a\}, f(\{2\})=\{a\}$`, etc for
+all subsets of $X$. Then `$f^{-1}(\{b\})=\emptyset$`.
