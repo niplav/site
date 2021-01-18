@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-01-09, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-01-18, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -156,6 +156,12 @@ Texts
 	* https://www.lesswrong.com/posts/YicoiQurNBxSp7a65/is-clickbait-destroying-our-general-intelligence
 * Intentional vs. Non-Intentional Consciousness
 	* The reason why, even if, strictly speaking, trees are "conscious", we don't have to worry about damaging them as much as we have to worry about damaging animals
+* Creating Utility Monsters or Repugnant Beings
+	* Marginal returns of investment on the well-being of single persons are probably monotonically increasing/decreasing
+	* If so, we end up with utility monsters or in a repugnant conclusion
+	* If not, we are lucky
+* Separating Arguments From Inconsistency and Questions About Inconsistency
+	* The thing Hanson does when arguing about ethics
 
 ### Analyses
 
@@ -416,6 +422,25 @@ Texts
 	* Not literally best possible forecast
 	* But for humans at the time with the available information
 * Semi-Natalism
+	* If I reason out that I am not the type of agent that would have children otherwise, I should have children
+	* If I indeed reason out that I am the type of agent that would have children, I should not have children
+	* Reasoning: If propensity to have children is heritable, this kind of decision will prevent my ancestors from becoming pure replicators
+	* It is slightly paradoxical, though
+* About Longtermist's Children
+	* People argue that effective altruists (and especially longtermists) ought to have children
+	* However:
+		* Children are expensive, opportunity cost
+			* Perhaps better: invest time/energy into life-extension tech
+				* Or spreading ones memes
+		* Traits we like are only moderately heritable, and will be washed out in a few generations (especially under selective pressure)
+		* Parents seem to have relatively little influence on the values of their children (Is this true?)
+		* Humanity will very likely not die out due to people stopping to breed
+			* Indeed, It seems to me much more likely that if we wait long enough, we fall back into the malthusian trap
+	* Why I Dislike This Argument
+		* It comes from the genre of "Let's outbreed the other/bad people", which is very molochian
+		* It leads to a malthusian trap/pure replicator hell with no value and no option to get out (in the long run)
+	* However, maybe in the medium run this makes sense (not short enough for the really important stuff to happen during our lifetimes, not long enough for us to worry about malthusian traps)
+		* Even then, however, just trying to build better institutions is more useful?
 
 ### Collections
 
@@ -514,6 +539,7 @@ Texts
 * Explaining "Mental Motions"
 	* Find mentions of this, and write up what the term means.
 * Anecdotes About the Running Times of Test Suites in the Software Industry
+* Ways in which people have misspelled "Kurzgesagt" on the internet
 
 ### Notes
 

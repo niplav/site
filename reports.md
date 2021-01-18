@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2020-12-30, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2020-10-07, modified: 2021-01-14, language: english, status: notes, importance: 3, confidence: log*
 
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
@@ -315,7 +315,7 @@ Happiness](https://qualiacomputing.com/2019/04/03/investing-time-and-resources-i
 and thought it would be worthwhile to try meditation.
 
 I started by reading [Mindfulness in Plain
-English](./doc/meditation_2020/mindfulness_in_plain_english_gunaratana_1990.pdf),
+English](./doc/meditation/mindfulness_in_plain_english_gunaratana_1990.pdf),
 and sitting for around 20 to 30 minutes a day, doing simple concentration
 practice on the breath. I sometimes added 20 minutes or so of walking
 meditation, focusing on the sensations from the feet and legs. Over the
@@ -548,7 +548,6 @@ has published the results of their study
 [here](https://ethanmorse.github.io/research/face/face.html "Strange-Face Illusion").
 
 <!--
-
 Becoming Marginally More Productive
 ------------------------------------
         * Follow Alexey Guzey's Advice, Leave the House
@@ -565,4 +564,7 @@ Chatting Up Random People
 
 Asking the Hamming Question, "What is art?", or simply, "Would you like
 to hold a conversation?"
+
+Weekly 1-on-1
+--------------
 -->
