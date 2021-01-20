@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-01-18, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-01-19, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -28,6 +28,8 @@ Site
 	* Done:
 		* Range and Forecasting Accuracy
 		* Daygame Cost-Benefit Analysis
+* Toy AI Takeoff Model
+	* Re-run model where I accidentally took 255 as size
 * Edit texts:
 	* Done:
 		* Considerations on Cryonics

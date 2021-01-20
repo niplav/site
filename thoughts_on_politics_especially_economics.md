@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-13, modified: 2021-01-13, language: english, status: in progress, importance: 2, confidence: remote*
+*author: niplav, created: 2021-01-13, modified: 2021-01-19, language: english, status: in progress, importance: 2, confidence: remote*
 
 > __After a discussion with a friend of mine, I thought it would be
 useful to structure my current thoughts about politics and economics
@@ -39,6 +39,20 @@ coordinate around that.
 
 I know. People don't really have stable, coherent preferences.
 
+<!--TODO: The case against economic values in the brain.-->
+
+However, it's the best model I know of.
+
+How deep does this instability & incoherence go?
+
+[Arrhenius
+2000](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf)
+gives one answer.
+
+### Then How Do We Find These Preferences?
+
+Ask people. Maybe quadratic voting on different metrics.
+
 Caveat: Empirical Versus Theoretical Knowledge About Politics/Economics
 ------------------------------------------------------------------------
 
@@ -55,9 +69,17 @@ Assumptions
 
 ### Economic Progress is Usually Good
 
+#### How Much Do People Value Economic Progress?
+
+#### How Much Would People Value Economic Progress if They Knew More?
+
+#### How Good Is Moral Progress?
+
 Has been so far.
 
-Although caveats with regulation/taxation
+Although caveats with regulation/taxation/x-risk
+
+Having no growth kicks people back into zero-sum dynamics
 
 ### Markets are (at least at the Moment) Mostly Aligned
 
@@ -84,6 +106,10 @@ Two (Maybe Three or Four) Problems With Pure Libertarianism
 #### How Much Are Public Goods?
 
 E.g. is animal suffering in factory farming a public good?
+
+#### Different People Consider Different Things Public Goods
+
+Aggregate their preference vectors linearly.
 
 ### Human Manipulation and Addiction
 
@@ -200,13 +226,23 @@ Use the same cartel laws for unions as for companies.
 
 ### Nate Soares Should Release His Notes on this Topic
 
-### Some Infuriating Anti-Capitalist Arguments
+### Some Infuriating Arguments Related to Economics
 
-#### If We Fix Climate-Change and it Wasn't A Concern, We Will Have Lost Nothing
+#### “If We Fix Climate-Change and it Wasn't A Concern, We Will Have Lost Nothing”
 
 Opportunity cost, huge: around $100b per year.
 
-#### We Should Regulate Companies Rather Than Encouraging Individual Actions
+This is not to say that I believe climate change to be harmless,
+I don't, and currently believe the recommendations in [Marblestone
+2019a](https://longitudinal.blog/co2-series-part-1-review-of-basics/),
+[Marblestone
+2019b](https://longitudinal.blog/co2-series-part-2-co2-removal/)
+and [Marblestone
+2019c](https://longitudinal.blog/co2-series-part-3-other-interventions/)
+to be reasonable (although geoengineering seems quite dangerous, and
+should probably only be used as a last measure, if at all).
+
+#### “We Should Regulate Companies Rather Than Encouraging Individual Actions”
 
 Regulating companies propagates down higher prices to customers, since
 what you want to regulate is more ineffective than current practices

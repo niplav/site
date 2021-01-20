@@ -29,10 +29,24 @@ pbrngs::pbdata@4
 metbriers::(metress-metfcs)^2
 pbbriers::(pbress-pbfcs)^2
 
-mettab::+(,metrngs),,metbriers
-pbtab::+(,pbrngs),,pbbriers
+mettab::+(,metrngs%60*60*24),,metbriers
+pbtab::+(,pbrngs%60*60*24),,pbbriers
 
 :"for visualization"
 
 subsetmet::2048#shuffle(mettab)
 subsetpb::2048#shuffle(pbtab)
+
+metss::_metrngs%60*60*24*7
+metss::metss@<metss
+pbss::_pbrngs%60*60*24*7
+pbss::pbss@<pbss
+
+maxval::|/pbss,metss
+maxlen::|/(#'=metss),#'=pbss
+
+pbss::{#pbss?x}'1+!maxval
+metss::{#metss?x}'1+!maxval
+
+metquestions::{(*x@0),(*x@1),2_x}'+'(+metdata)@=*metdata
+pbquestions::{(*x@0),(*x@1),2_x}'+'(+pbdata)@=*pbdata

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2021-01-04, language: english, status: finished, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2021-01-18, language: english, status: finished, importance: 6, confidence: possible*
 
 # This post contains information that is misleading. While the calculations and description of the approach contain no mistakes in themselves, the approach is misguided. Only reference the results if you have understood the approach. This will be fixed.
 
@@ -554,9 +554,9 @@ regressions](https://en.wikipedia.org/wiki/Linear_regression) shows a
 very similar picture (red dots are for Metaculus forecasts, blue dots
 are for PredictionBook forecasts):
 
-![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)](img/range_and_forecasting_accuracy/allscatter.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in seconds)")
+![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)](img/range_and_forecasting_accuracy/allscatter.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)")
 
-*Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in seconds)*
+*Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)*
 
 The high amounts of noise are probably due to the low number of
 predictions for single days (or, in the case of weeks and months, for
@@ -643,72 +643,72 @@ make findings much less reliable.
 
 <!--TODO: find a way to test the statistical significance here, sometime later-->
 
-<!--HERE-->
+To get a rough overview over the sample sizes, on can look at the number
+of samples for each bucket. The sample sizes were calculated such that
+at position i in the array `{pb,met}ss` was the sample size for week i:
 
-To get a rough overview over the sample sizes, on can look at the
-number of samples for each bucket. I generated charts for sample
-sizes for [weeks](./img/range_and_forecasting_accuracy/wss_plot.png):
+	metss::_metrngs%60*60*24*7
+	metss::metss@<metss
+	pbss::_pbrngs%60*60*24*7
+	pbss::pbss@<pbss
 
-	mssplot::.oc("mss_plot.eps")
-	.tc(mssplot)
+	maxval::|/pbss,metss
+	maxlen::|/(#'=metss),#'=pbss
 
-	mmaxlen::(#mpbss)|#mmetss
-	mmaxval::|/*|+mpbss,mmetss
+	pbss::{#pbss?x}'1+!maxval
+	metss::{#metss?x}'1+!maxval
 
-	mmetssvals::(*|+mmetss),(mmaxlen-#mmetss):^0
-	mpbssvals::(*|+mpbss),(mmaxlen-#mpbss):^0
+I generated charts for the sample sizes in
+[weeks](./img/range_and_forecasting_accuracy/ss_plot.png):
+
+	ssplot::.oc("ss_plot.eps")
+	.tc(ssplot)
 
 	setrgb(0;0;0)
-	grid([0],mmaxlen,(mmaxlen:%20);[0],mmaxval,(mmaxval:%20))
-	xtitle("Range (in months)")
+	grid([0],maxlen,(maxlen:%20);[0],maxval,(maxval:%20))
+	xtitle("Range (in weeks)")
 	ytitle("Number of predictions")
 
 	setrgb(0;0;1)
-	segplot(mmetssvals)
+	segplot(metss)
 	setrgb(1;0;0)
-	segplot(mpbssvals)
+	segplot(pbss)
 
 	draw()
 	.fl()
-	.cc(mssplot)
+	.cc(ssplot)
 
-![Sample sizes for predictions with a range of n months, sorted and graphed.](./img/range_and_forecasting_accuracy/mss_plot.png "Sample sizes for predictions with a range of n months, sorted and graphed.")
+![Sample sizes for predictions with a range of n months, sorted and graphed.](./img/range_and_forecasting_accuracy/ss_plot.png "Sample sizes for predictions with a range (in weeks), sorted and graphed.")
 
-*Sample sizes for predictions with a range of n months, sorted and graphed.*
+*Sample sizes for predictions with a range (in weeks), sorted and graphed.*
 
-The red bars stand for Metaculus sample sizes, the blue bars stand for
-PredictionBook sample sizes.
+The red graphs stands for Metaculus sample sizes, the blue graph stands
+for PredictionBook sample sizes.
 
 As one can see, the sample sizes have a drastical skew towards recent
 predictions, not surprising for relatively young platforms (although 10
 years for PredictionBook is sizable by internet standards, it's not that
-much compared to the range of some predictions on the platform).
+much compared to the expected range of some predictions on the platform,
+which might go into the thousands of years).
 
-This can be seen in the data as well: More than 77% percent of Metaculus predictions
-and 75% of PredictionBook questions have a range of less than one year:
+This can be seen in the data as well: The median range of metaculus and
+predictionbook predictions is only a couple of months, and less than 25%
+of questions have a range of more than one year:
 
-	ypbss::{(ypbdiffs@*x),#x}'ypbdg
-	ypbss::ypbss@<ypbss
-	ymetss::{(ymetdiffs@*x),#x}'ymetdg
-	ymetss::ymetss@<ymetss
-		ymetss
-	[[0 34487] [1 7129] [2 2182] [3 507]]
-		ypbss
-	[[0 29724] [1 4257] [2 1966] [3 1491] [4 909] [5 374] [6 287] [7 155] [8 143] [9 107] [10 6]]
-		34487%(34487+7129+2182+507)
-	0.77839972915020878
-		29724%(+/*|+ypbss)
-	0.754052614221568279
+	Q(0.25;metrngs%60*60*24*365)
+		0.0937919114852302448
+	Q(0.5;metrngs%60*60*24*365)
+		0.34114799258678412
+	Q(0.75;metrngs%60*60*24*365)
+		0.917333030834854515
+	Q(0.25;pbrngs%60*60*24*365)
+		0.0435826674277016743
+	Q(0.5;pbrngs%60*60*24*365)
+		0.308100377346524606
+	Q(0.75;pbrngs%60*60*24*365)
+		0.977603754439370878
 
 I hope that the dataset becomes richer the older these platforms become.
-
-For days the skew is not as strong for Metaculus (moreso for
-PredictionBook), but still relevant:
-
-		10#dmetss
-	[[0 406] [1 543] [2 633] [3 464] [4 546] [5 477] [6 440] [7 307] [8 240] [9 297]]
-		10#dpbss
-	[[0 3267] [1 1142] [2 754] [3 611] [4 625] [5 426] [6 507] [7 440] [8 283] [9 246]]
 
 Because in the linear regression all datapoints are weighted equally,
 it could very well be that a tiny bit of noise at the tails dominates
@@ -722,8 +722,7 @@ and range is to look at the range of questions and not of individual
 forecasts.
 
 In this case, this means taking the forecasts on all questions with
-a given range, and calculating the brier score on these forecasts,
-sorting them into buckets related to range.
+a given range and calculating the brier score on these forecasts.
 
 ### Determining the Range of a Question
 
@@ -767,7 +766,7 @@ have the structure
 	[[id open-resolve-timediff [outcomes] [forecasts] [forecast-resolve-timediffs]]*]`
 
 where the splat just indicates the inner list can be repeated. This
-was achieved by first finding the grouping of forecasts by question ID,
+is achieved by first finding the grouping of forecasts by question ID,
 then concatenating the ID, the question range, the list of outcomes,
 the list of forecasts and the list of forecast ranges:
 
@@ -781,6 +780,10 @@ Showcase:
 
 	metquestions@10
 		[474 497590.0 [0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0] [0.79 0.8 0.99 0.8 0.8 0.65 0.65 0.8 0.8 0.81 0.81 0.7] [249575.65223908424 249548.86438822746 245775.7940876484 242420.23024630547 230434.71577501297 230276.97260832787 230111.41609930992 229967.06126213074 216594.73318576813 207687.5192539692 177898.677213192 151590.6441845894]]
+	brier@(metquestions@10)@[2 3]
+		0.62095
+
+<!--HERE-->
 
 The next step involves merging the forecasts on questions with the
 same range (rounded by day/week/month/year). This was achieved by first
