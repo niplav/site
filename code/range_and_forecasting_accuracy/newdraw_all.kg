@@ -27,3 +27,20 @@ draw()
 
 .fl()
 .cc(allscatter)
+
+ssplot::.oc("ss_plot.eps")
+.tc(ssplot)
+
+setrgb(0;0;0)
+grid([0],maxval,(maxval:%15);[0],maxlen,(maxlen:%15))
+xtitle("Range (in weeks)")
+ytitle("Number of predictions")
+
+setrgb(0;0;1)
+segplot(metss)
+setrgb(1;0;0)
+segplot(pbss)
+
+draw()
+.fl()
+.cc(ssplot)

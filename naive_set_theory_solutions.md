@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2021-01-13, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2021-01-19, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -710,6 +710,9 @@ but `$\bigcap_{i} f(A_{i})=\{a\} \cap \{a\}=\{a\}$`.
 is that the inverse image under `$f$` of each non-empty subset of `$Y$`
 be a non-empty subset of `$X$`. (Proof?)
 
+<!--TODO: with "maps onto", he probably means "surjective", i.e. all
+values are mapped to-->
+
 But that's – false? Unless I understand something different by "map"
 (which I just take as relates from one set to another, possibly in a
 many-to-one relation).
@@ -718,3 +721,63 @@ Example:
 
 `$X=\{1,2\}, Y=\{a,b\}$`. `$f(\{1\})=\{a\}, f(\{2\})=\{a\}$`, etc for
 all subsets of $X$. Then `$f^{-1}(\{b\})=\emptyset$`.
+
+### Exercise 3
+
+To be proven: $h(gf)=(hg)f$
+
+Proof:
+
+$((hg)f)(x)=((hg)(f(x)))=h(g(f(x)))=h(gf(x))$
+
+### Query 1
+
+> what do $R^{-1}$, $S^{-1}$, $RS$, and $R^{-1}S^{-1}$ mean?"
+
+$yR^{-1}x$: y father of x, $z S^{-1}y$: z is brother of y. $xRSy$:
+x nephew of y. $xR^{-1}S^{-1}$.
+
+### Exercise 4
+
+To be proven: $(SR)^{-1}=R^{-1}S^{-1}$
+
+Proof:
+
+Let $(z,x) \in (SR)^{-1}$. Then $xSRz$. Then $\exists y: xSy \land yRs$. Then
+$yS^{-1}x$ and $zR^{-1}y$, and then $zR^{-1}S^{-1}x$.
+
+### Query 2
+
+> is there a connection among I, $RR^{-1}$, and $R^{-1}R$?
+
+Shouldn't $I=RR^{-1}$? No. Because if $xRy$ and $zRy$, then
+$xRR^{-1}z$. But $I \subset RR^{-1}$, and $I \subset R^{-1}R$. I think
+alsso that $RR^{-1}=(R^{-1}R)^{-1}$, and $R^{-1}R=(RR^{-1})^{-1}$
+(which is true by the previously proven theorem). I don't think there's
+any further connections here.
+
+### Exercise 5
+
+(i) Given $g: Y \rightarrow X$ and $gf(x)=x$, then $f$ is "one-to-one"
+and "$g$ maps $Y$ onto $X$".
+
+Judging from what I understand, "$f$ is one-to-one" would mean that $f$
+is [injective](https://en.wikipedia.org/wiki/Injective_function),
+and "$g$ maps $X$ onto $X$" just means that $g$ is
+[surjective](https://en.wikipedia.org/wiki/Surjective_function)?
+
+Wikipedia agrees with these hunches.
+
+`$\forall x_1, x_2 \in X: x_1 \neq x_2 \Leftrightarrow f(x_1) \neq f(x_2)$`,
+because if `$f(x_1)=f(x_2)=y$` for `$x_1 \neq x_2$`, then
+`$f(y)=x_1$` and $f(y)=x_2$, which is not possible.
+
+$g$ is surjective, since every element in `$\hbox{dom } f \subset Y$` has
+exactly one corresponding element in $X$ through $g$, but elements in `$Y - \hbox{dom } f$`
+must also be mapped to $X$ (it could be that
+`$Y - \hbox{dom } f=\emptyset$`, but that is not guaranteed).
+
+□
+
+(ii) To be proven: `$f(A \cap B)=f(A) \cap f(B)$` iff for all subsets
+of $A$ and $B$ $f$ injective.
