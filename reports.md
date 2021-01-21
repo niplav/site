@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2021-01-14, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2020-10-07, modified: 2021-01-20, language: english, status: notes, importance: 3, confidence: log*
 
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
@@ -546,25 +546,3 @@ __4.5/10__
 [/u/Awarenesss](https://old.reddit.com/u/Awareness)
 has published the results of their study
 [here](https://ethanmorse.github.io/research/face/face.html "Strange-Face Illusion").
-
-<!--
-Becoming Marginally More Productive
-------------------------------------
-        * Follow Alexey Guzey's Advice, Leave the House
-        * Internet Abstinence
-
-Buying Socks of One Kind
--------------------------
-
-Tracking A Lot
----------------
-
-Chatting Up Random People
--------------------------
-
-Asking the Hamming Question, "What is art?", or simply, "Would you like
-to hold a conversation?"
-
-Weekly 1-on-1
---------------
--->

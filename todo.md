@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-01-19, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-01-21, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -267,6 +267,7 @@ Texts
 		* https://www.lesswrong.com/posts/CaPgNwxEFHh3Ahvf7/pascal-s-muggle-pays
 		* https://www.lesswrong.com/posts/8FRzErffqEW9gDCCW/against-the-linear-utility-hypothesis-and-the-leverage
 		* https://www.lesswrong.com/posts/NoYXhJLtoKpLoZhRf/pascal-s-mugging-finite-or-unbounded-resources
+		* In defence of fanaticism (Hayden Wilkinson, 2020)
 * Creatine & Vegetarianism IQ?
 * How difficult is it to manipulate real existing prediction markets?
 	* PredictIt
@@ -483,11 +484,12 @@ Texts
 	* Learning
 		* Reading textbooks (Natural sciences and engineering)
 			* Mathematics
-				* https://www.ocf.berkeley.edu/~abhishek/chicmath.htm
 				* https://intelligence.org/research-guide/
+				* https://www.ocf.berkeley.edu/~abhishek/chicmath.htm
 				* https://math.ucr.edu/home/baez/books.html#math
 			* Science
 				* Physics
+					* Feynman Lectures on Physics
 					* https://www.susanjfowler.com/blog/2016/8/13/so-you-want-to-learn-physics
 					* https://www.ocf.berkeley.edu/~abhishek/chicphys.htm
 					* https://math.ucr.edu/home/baez/books.html#physics
@@ -500,7 +502,7 @@ Texts
 						* Campbell Biology
 						* Molecular Biology of the Gene
 						* Molecular Biology of the Cell
-						* Principles of Biochemistry
+						* Principles of Biochemistry (Leininger)
 						* Evolutionary Biology (Futuyma)
 						* Zoology
 					* Ecology
@@ -516,6 +518,7 @@ Texts
 					* Social Psychology
 					* Forensic Psychology
 					* Evolutionary Psychology
+						* Evolutionary Psychology (Buss)
 			* Engineering
 				* Computer Science
 					* https://teachyourselfcs.com/
@@ -531,9 +534,10 @@ Texts
 		* Creating flashcards from the textbooks, rehearsing them
 			* Flashcard creation is pretty liberal in what is accepted
 			* Use a system that supports images/LaTeX
-				* Anki?
-				* Mnemosyne?
-			* Bifot: BIFOT is flashcards of textbooks
+				* Anki
+			* bifot: bifot is flashcards of textbooks
+			* pof: pile of facts (from Wikipedia)
+			* φf: Philosophy facts (from SEP)
 	* Testing
 		* Forecasting
 			* Metaculus
@@ -562,7 +566,19 @@ Texts
 	* Mindset of "making a gift"
 * Most People Have No Power At All
 	* Therefore it's probably not very important what most people think
-* Report: How I organize my information diet
+
+### Reports
+
+* How I organize my information diet
+* Becoming Marginally More Productive
+	* Follow Alexey Guzey's Advice, Leave the House
+	* Internet Abstinence
+* Buying Socks of One Kind
+* Tracking A Lot
+* Chatting Up Random People
+	*	Asking the Hamming Question, "What is art?", or simply, "Would you like
+		to hold a conversation?"
+* Weekly 1-on-1s
 
 ### Misc
 
@@ -619,6 +635,7 @@ Texts
 	* Cryonics
 	* Daygame
 * Cryonics Zine
+* The Grand Picture
 * Fundamentals
 
 > we should be far more explicit about the assumed background against
@@ -702,7 +719,6 @@ Data Sets
 Collect data on
 
 * Bag Spreading
-* Hedonic Masturbation Spacing
 * [Daygame](./daygame_cost_benefit.html#Appendix-C-Empirically-Checking-the-Assumptions)
 * [Masturbation and Attractiveness](./masturbation_and_attractiveness.html#Method)
 * [Subjective Life Expectancy](./estimated_life_expectancy.html#Data-Collection-Method)
