@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-01-13, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-01-22, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,20 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Where coulds go (Nate Soares, 2015)](http://mindingourway.com/where-coulds-go/)
+* \* Artificial Intelligence: A Modern Approach (Stuart Russell/Peter Norvig, 2010)
+* [Not yet gods (Nate Soares, 2015)](http://mindingourway.com/not-yet-gods/)
+* [Be a new homunculus (Nate Soares, 2015)](http://mindingourway.com/be-a-new-homunculus/)
+* [Niddesa (English Wikipedia, 2019)](https://en.wikipedia.org/wiki/Niddesa)
+* [Update from the suckerpunch (Nate Soares, 2015)](http://mindingourway.com/update-from-the-suckerpunch/)
+* [Durability (English Wikipedia, 2020)](https://en.wikipedia.org/wiki/Durability)
+* [Don't steer with guilt (Nate Soares, 2015)](http://mindingourway.com/dont-steer-with-guilt/)
+* [Shifting guilt (Nate Soares, 2015)](http://mindingourway.com/shifting-guilt/)
+* [Affordance Widths (ialdabaoth, 2018)](https://www.lesswrong.com/posts/5zSbwSDgefTvmWzHZ)
+* [Rest in motion (Nate Soares, 2015)](http://mindingourway.com/rest-in-motion/)
+* [Two types of mathematician (drossbucket, 2018)](https://www.lesswrong.com/posts/5QnvHZpy4pGgCo3Pp)
+* [Failing with Abandon (Nate Soares, 2015)](http://mindingourway.com/failing-with-abandon/)
+* [Preliminary thoughts on moral weight (Luke Muehlhauser, 2018)](https://www.lesswrong.com/posts/2jTQTxYNwo6zb3Kyp)
 * Achieving Scalable Model-Based Testing Through Test Case Diversity (H. Hemmati/A Arcuri/L. Briand, 2010)
 * [Working yourself ragged is not a virtue (Nate Soares, 2015)](http://mindingourway.com/stop-before-you-drop/)
 * [Historical mathematicians exhibit a birth order effect too (elityre, 2018)](https://www.lesswrong.com/posts/tj8QP2EFdP8p54z6i)
@@ -27,7 +41,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Your "shoulds" are not a duty (Nate Soares, 2015)](http://mindingourway.com/shoulds-are-not-a-duty/)
 * [Caring less (eukaryote, 2018)](https://www.lesswrong.com/posts/dPLSxceMtnQN2mCxL)
 * [Circling (Unreal, 2018)](https://www.lesswrong.com/posts/aFyWFwGWBsP5DZbHF)
-* \* Die Versteigerung von No. 49 (Thomas Pynchon, 1965)
+* Die Versteigerung von No. 49 (Thomas Pynchon, 1965)
 * [Conversational Cultures: Combat vs Nurture (V2) (Ruby, 2020)](https://www.lesswrong.com/posts/ExssKjAaXEEYcnzPd)
 * [Not because you "should" (Nate Soares, 2015)](http://mindingourway.com/not-because-you-should/)
 * [Act of Charity (jessicata, 2018)](https://www.lesswrong.com/posts/rwjv8bZfSuE9ZAigH)

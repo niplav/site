@@ -15,6 +15,7 @@ HTML=index.html \
 	99_problems_collection.html \
 	99_problems_klong_solution.html \
 	against_applause.html \
+	aima_solutions.html \
 	buch_stab.html \
 	consciousness_diagram.html \
 	considerations_on_cryonics.html \
@@ -28,7 +29,7 @@ HTML=index.html \
 	jazz_piano_book_exercises.html \
 	masturbation_and_attractiveness.html \
 	metamodernistisches_manifest.html \
-	naive_set_theory_solutions.html \
+	nst_solutions.html \
 	pipe_rings.html \
 	platte.html \
 	rationalist_gods.html \

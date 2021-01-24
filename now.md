@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2020-12-02, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2021-01-22, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -46,7 +46,7 @@ Mathematics
 -----------
 
 I'm eternally working through and [solving the exercises
-of](./naive_set_theory_solutions.html) Naive Set Theory.
+of](./nst_solutions.html) Naive Set Theory.
 
 Data Sets
 ---------
@@ -59,6 +59,8 @@ Reading
 
 Currently, I am actively reading the following books:
 
-* Compassion, by the Pound (F. Bailey Norwood/Jayson L. Lusk, 2011)
+* Naive Set Theory (Paul R. Halmos, 1960)
+* Artificial Intelligence: A Modern Approach (Stuart Russell/Peter Norvig, 2010)
 * Programming in Lua (Roberto Ierusalimschy, 2013)
-* The Human Predicament (David Benatar, 2017)
+* The Jazz Piano Book (Mark Levine, 1998)
+* Compassion, by the Pound (F. Bailey Norwood/Jayson L. Lusk, 2011)
