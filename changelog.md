@@ -22,7 +22,7 @@ December 2020
 	* [The Human Predicament (David Benatar, 2017)](./text_reviews.html#The-Human-Predicament-David-Benatar-2017)
 	* [What failure looks like (Paul Christiano, 2019)](./text_reviews.html#What-failure-looks-like-Paul-Christiano-2019)
 * [Why Some Negative Ranges?](./range_and_forecasting_accuracy.html#Why-Some-Negative-Ranges) in [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
-* [Exercise 3 in Section 9](./naive_set_theory_solutions.html#Exercise-3) in [Naive Set Theory](./naive_set_theory_solutions.html)
+* [Exercise 3 in Section 9](./nst_solutions.html#Exercise-3) in [Naive Set Theory](./nst_solutions.html)
 * Notes
 	* [Gifts](./notes.html#Gifts)
 	* [Vasectomy & Sperm-Freezing Cost-Benefit](./notes.html#Vasectomy--Sperm-Freezing-CostBenefit)
@@ -33,7 +33,7 @@ November 2020
 -------------
 
 * [Simpson's Paradox](./range_and_forecasting_accuracy.html#Simpsons-Paradox) in [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html#Simpsons-Paradox)
-* [Exercise 2 in Section 9](./naive_set_theory_solutions.html#Exercise-2_3) in [Naive Set Theory](./naive_set_theory_solutions.html)
+* [Exercise 2 in Section 9](./nst_solutions.html#Exercise-2_3) in [Naive Set Theory](./nst_solutions.html)
 * Reports
 	* [Attempted 7-Day Meditation Retreat at Home](./reports.html#Attempted-7Day-Meditation-Retreat-at-Home)
 	* [300 Hours of Meditation](./reports.html#300-Hours-of-Meditation)
@@ -57,7 +57,7 @@ October 2020
 	* [Riding the Bike a Lot](./reports.html#Riding-the-Bike-a-Lot)
 	* [Mostly Stopping to Bite My Nails](./reports.html#Mostly-Stopping-to-Bite-My-Nails)
 	* [Melatonin](./reports.html#Melatonin)
-* [Some more thoughts](./naive_set_theory_solutions.html#Other-Failing-Ways-of-Interpreting-the-Exercise) on [Exercise 1 from Section 9](./naive_set_theory_solutions.html#Exercise-1_6) in [Naive Set Theory](./naive_set_theory_solutions.html)
+* [Some more thoughts](./nst_solutions.html#Other-Failing-Ways-of-Interpreting-the-Exercise) on [Exercise 1 from Section 9](./nst_solutions.html#Exercise-1_6) in [Naive Set Theory](./nst_solutions.html)
 * [Explaining the different approaches of analysis](./range_and_forecasting_accuracy.html#Three-Different-Analyses-An-Illustrative-Example) for [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 
 ### Other
@@ -106,7 +106,7 @@ in June.
 
 ### Writing
 
-* [Non-Solution to Exercise 1 in Section 9 of Naive Set Theory](./naive_set_theory_solutions.html#Exercise-1_6)
+* [Non-Solution to Exercise 1 in Section 9 of Naive Set Theory](./nst_solutions.html#Exercise-1_6)
 * [Analysis and Results on Range and Forecasting Accuracy between Questions](./range_and_forecasting_accuracy.html#Analysis_1)
 
 ### Other
@@ -135,7 +135,7 @@ April 2020
 ### Writing
 
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
-* [Solutions for Exercises in “Naive Set Theory”](./naive_set_theory_solutions.html): Section [8](./naive_set_theory_solutions.html#Section-8)
+* [Solutions for Exercises in “Naive Set Theory”](./nst_solutions.html): Section [8](./nst_solutions.html#Section-8)
 * [Social Costs from being Found Out Doing Daygame](./daygame_cost_benefit.html#Social-Costs-from-Being-Found-Out)
 * Notes:
 	* [Some Qualitative Intuitions on the Effects of Open Borders](./notes.html#Some-Qualitative-Intuitions-on-the-Effects-of-Open-Borders)
@@ -146,7 +146,7 @@ March 2020
 ### Writing
 
 * [A Slightly More Complex Model for the Value of Daygame](./daygame_cost_benefit.html#A-Slightly-More-Complex-Model)
-* [Solutions for Exercises in “Naive Set Theory”](./naive_set_theory_solutions.html): Sections [6](./naive_set_theory_solutions.html#Section-6) & [7](./naive_set_theory_solutions.html#Section-7)
+* [Solutions for Exercises in “Naive Set Theory”](./nst_solutions.html): Sections [6](./nst_solutions.html#Section-6) & [7](./nst_solutions.html#Section-7)
 * [A Generative Solution for P60](./99_problems_klong_solution.html#A-Generative-Solution) in the [99 Problems Klong Solution](./99_problems_klong_solution.html)
 * [A Monte-Carlo Simulation for the Value of Cryonics](./considerations_on_cryonics.html#Appendix-A-A-Guesstimate-Model)
 
@@ -189,7 +189,7 @@ November 2019
 
 ### Writing
 
-* [Solutions to “Naive Set Theory” up to section 6](./naive_set_theory_solutions.html)
+* [Solutions to “Naive Set Theory” up to section 6](./nst_solutions.html)
 * Solutions to [P61](./99_problems_klong_solution.html#P61--Count-the-leaves-of-a-binary-tree), [P61A](./99_problems_klong_solution.html#P61A--Collect-the-leaves-of-a-binary-tree-in-a-list), [P62](./99_problems_klong_solution.html#P62--Collect-the-internal-nodes-of-a-binary-tree-in-a-list) and [P62B](./99_problems_klong_solution.html#P62B--Collect-the-nodes-at-a-given-level-in-a-tree) of the [99 Klong Problems](./99_problems_klong_solution.html)
 * Notes
 	* [Artificial Intelligence and Action-Compelling Sentences](./notes.html#Artificial-Intelligence-and-ActionCompelling-Sentences)

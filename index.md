@@ -26,7 +26,11 @@ Writing
 
 * [Equally Many Heads and Tails](./equally_many_heads_and_tails.md)
 * [Circle Combinations](./circle_combinations.md)
-* [Solutions to “Naive Set Theory”](./naive_set_theory_solutions.md)
+* [Solutions to “Naive Set Theory”](./nst_solutions.md)
+
+#### Computer Science
+
+* [Generalizing the Diamond-Square Algorithm to n Dimensions](./generalizing_diamond_square.md)
 
 #### Programming
 
@@ -34,7 +38,6 @@ Writing
 * [99 Problems Collection](./99_problems_collection.md)
 * [K-99: Ninety-Nine Klong Problems](./99_klong_problems.md)
 * [99 Problems Klong Solution](./99_problems_klong_solution.md)
-* [Generalizing the Diamond-Square Algorithm to n Dimensions](./generalizing_diamond_square.md)
 
 #### Philosophy
 

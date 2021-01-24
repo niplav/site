@@ -164,6 +164,9 @@ Texts
 	* If not, we are lucky
 * Separating Arguments From Inconsistency and Questions About Inconsistency
 	* The thing Hanson does when arguing about ethics
+* Reflections on Pseudonymity
+* Heuristics for Friendly Conversation on the Internet
+* Meanings of "so" in German
 
 ### Analyses
 
