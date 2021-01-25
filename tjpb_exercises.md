@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-07-23, modified: 2020-07-29, language: english, status: draft, importance: 5, confidence: log*
+*author: niplav, created: 2020-07-23, modified: 2021-01-24, language: english, status: draft, importance: 5, confidence: log*
 
 > __[The Jazz Piano
 Book](https://en.wikipedia.org/wiki/The_Jazz_Piano_Book) by [Mark
@@ -41,7 +41,7 @@ and all inversions.
 
 *– p. 12*
 
-I usually follow the circle of fiths.
+I usually follow the cycle of fiths.
 
 ### Chapter 2
 
@@ -51,3 +51,10 @@ the piano. Make a mantra of it until you have the progressions
 memorized. *Always practice everything in every key*.
 
 *– p. 16*
+
+### Chapter 3
+
+Not an explicitely given practice instruction, but nonetheless probably
+useful:
+
+Play the II-V-I progression in every key, in three-note voicings.

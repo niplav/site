@@ -306,3 +306,36 @@
 2021-01-23T14:35:13.000000Z	Is the common usage of overly violent examples an example of memetic decay?
 2021-01-23T14:45:12.000000Z	music genre: softbot
 2021-01-23T15:28:32.000000Z	eating : drinking :: feeding : ?
+2021-01-25T11:21:44.000000Z	using ontologically basic categories for deciding moral relevance is of practical importance, it prevents others from being able to slippery-sloping one into moral stances one dislikes on reflection
+2021-01-25T11:26:26.000000Z	bc objects from ontologically basic categories have no continuous transformation between them, e.g. there's no continuous transformation from the number e to an oak (or from the quale of a piano chord to an iron atom), but there is a continuous transformation from a human into a pig, or from a pig into a superintelligent pig
+2021-01-25T11:27:30.000000Z	while this does not abolish the problem of arbitrary category selection, it does abolish the problem of making arbitrary cutoffs
+2021-01-25T11:29:49.000000Z	when meditating with eyes open in (semi-)darkness, darker objects become darker & seed a spreading shadow that sometimes consumes large parts (or all of) the visual field. if attention comes to the visual field, this effect disappears, while awareness can hold it stably. what is it?
+2021-01-25T11:30:51.000000Z	other weird thing: while cutting my nails a few weeks back (and accidentally cutting into the flesh of my toes), my visual field very quickly disappeared, flashed white, and reappeared. the whole thing took maybe 0.2 seconds. what was that?
+2021-01-25T11:38:45.000000Z	see the dank world
+2021-01-25T11:40:46.000000Z	seeing EA/LW people date each other dramatically reduces my confidence in them being successful at truth-seeking
+2021-01-25T11:42:51.000000Z	niplav yushtun, whose map is not the territory
+2021-01-25T14:32:46.000000Z	oh, you meditate? note every sensation then
+2021-01-25T14:34:27.000000Z	If the evolution of human-level intelligence is a great filter, then neat AI seems a bit more likely
+2021-01-25T14:34:53.000000Z	Ich werde eure Jachten anzünden und eure scheiß Ferraris in die Luft jagen.
+2021-01-25T14:35:17.000000Z	Electoral PTSD
+2021-01-25T14:36:57.000000Z	Several levels: Achievable with: • Current computing power \ • Engineering-realistic computing power \ • Physically possible computing power \ • Unlimited but finite computing power \ • Infinite computing power \ • (?) Hypercomputation
+2021-01-25T14:37:14.000000Z	It matters how many life years are lost in car crashes, not how many lives.
+2021-01-25T14:39:55.000000Z	Different utilitarian approaches to COVID-19 vaccination order, by order of complexity: Maximize {probability of infection*probability of counterfactual death, probability of infection*expected life years lost, probability of infection*expected severity of illness, probability of infection*expected severity of illness+probability of infecting n others*fudging for spreading}
+2021-01-25T14:40:11.000000Z	Good/quick life extension technology would, for the first 2/3 decades, decrease the average age of death, since more people would die young in accidents etc. than of old age.
+2021-01-25T14:40:18.000000Z	If hell exists, then it is reserved for those who don't rebel against it.
+2021-01-25T14:40:30.000000Z	All advice should have a failure condition.
+2021-01-25T14:40:37.000000Z	I am an ecosystem
+2021-01-25T14:40:51.000000Z	From a /r/4chan thread: “Birth is the ultimate rape.”
+2021-01-25T14:41:43.000000Z	There seems to be a moral bias towards inaction.
+2021-01-25T14:41:53.000000Z	I wonder why it isn't more common for parents to give their children courtship advice. Maybe it is and I don't know enough anthropology?
+2021-01-25T14:42:14.000000Z	Long Now thinking applied: Introducing the LGBT+ pride millenium!
+2021-01-25T14:42:49.000000Z	“Everyone who had serious philosophical conundra on that subject just, you know, died, a generation before. The Bitchun Society didn't need to convert its detractors, just outlive them.”
+2021-01-25T14:43:08.000000Z	Tactic: Moving the lever closer.
+2021-01-25T14:43:19.000000Z	Tactic: Salty chips (Salty chips that make you buy water as a general pattern).
+2021-01-25T14:43:26.000000Z	Morpheological <-> More theological
+2021-01-25T14:43:39.000000Z	Comp Lit: computational literature
+2021-01-25T14:43:45.000000Z	Plants are pretty fascinating, they turn air into life.
+2021-01-25T14:44:07.000000Z	Is there a german word for the situation where somebody jokingly asks for the german word for an obscure phenomenon, and some Germans half-ironically half-sincerely trying to come up with words to describe the phenomenon?
+2021-01-25T14:44:27.000000Z	Whatever the question, despair is not the answer.
+2021-01-25T14:44:34.000000Z	Intellectualize your problems so you will become bored of them.
+2021-01-25T14:45:24.000000Z	Australien kaputt

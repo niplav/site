@@ -26,7 +26,7 @@ HTML=index.html \
 	estimated_life_expectancy.html \
 	exercise_log.html \
 	generalizing_diamond_square.html \
-	jazz_piano_book_exercises.html \
+	tjpb_exercises.html \
 	masturbation_and_attractiveness.html \
 	metamodernistisches_manifest.html \
 	nst_solutions.html \
