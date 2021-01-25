@@ -84,7 +84,7 @@ July 2020
 
 ### Writing
 
-* Started the [Exercises for “The Jazz Piano Book”](./jazz_piano_book_exercises.html)
+* Started the [Exercises for “The Jazz Piano Book”](./tjpb_exercises.html)
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 	* [Results for Accuracy Between Questions](./range_and_forecasting_accuracy.html#Results_1)
 	* [Accuracy Within Questions](./range_and_forecasting_accuracy.html#Accuracy-Within-Questions)

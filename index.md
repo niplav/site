@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2020-12-30, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2021-01-24, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav, containing essays, translations,
 > transcriptions, music and computer programs.__
@@ -28,10 +28,6 @@ Writing
 * [Circle Combinations](./circle_combinations.md)
 * [Solutions to “Naive Set Theory”](./nst_solutions.md)
 
-#### Computer Science
-
-* [Generalizing the Diamond-Square Algorithm to n Dimensions](./generalizing_diamond_square.md)
-
 #### Programming
 
 * [Pipe Rings](./pipe_rings.md)
@@ -56,7 +52,6 @@ Writing
 #### Collections
 
 * [Rationalist Gods](./rationalist_gods.md)
-* [Exercises for “The Jazz Piano Book”](./jazz_piano_book_exercises.md)
 
 #### Other
 

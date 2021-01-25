@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2020-12-29, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2021-01-24, language: english, status: in progress, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
 > recommendations by people who I respect, such as
@@ -13,9 +13,6 @@
 
 Uses This
 =========
-
-<!--Add apps-->
-<!--Add browser plugins-->
 
 Software
 --------
@@ -29,7 +26,7 @@ Software
 * Browser: [firefox](https://www.mozilla.org/en-US/firefox/new/)<!--TODO: add extensions-->
 * Editor: [vis](https://github.com/martanne/vis)
 * Calendar: [when](http://www.lightandmatter.com/when/when.html)
-* Spaced repetition: [fulgurate](https://github.com/theq629/fulgurate)
+* Spaced repetition: [fulgurate](https://github.com/theq629/fulgurate), [Anki](https://apps.ankiweb.net/index.html)
 * [Internet relay chat](https://en.wikipedia.org/wiki/Internet_Relay_Chat): [ii](https://tools.suckless.org/ii/) with [lchat](https://github.com/younix/lchat)
 * [Twtxt](https://github.com/buckket/twtxt): [txtnish](https://github.com/mdom/txtnish)
 * Version control: [git](https://git-scm.com/)
@@ -65,7 +62,7 @@ Software
 
 ### Smartphone Apps
 
-* [Notifications of Mindfulness](https://play.google.com/store/apps/details?id=com.multiordinal.nom&hl=en&gl=US)
+* [Mood Patterns](https://www.moodpatterns.info)
 * [Medativo](https://play.google.com/store/apps/details?id=com.despdev.meditationapp&hl=en&gl=US)
 * [Tally Counter](https://play.google.com/store/apps/details?id=de.cliff.strichliste&hl=en&gl=us)
 * [Beeminder](https://play.google.com/store/apps/details?id=com.beeminder.beeminder&hl=en&gl=us)

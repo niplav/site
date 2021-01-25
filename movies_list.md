@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-01-19, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-01-24, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,6 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [The Ice Storm](https://www.imdb.com/title/tt0119349/)
 * [Megamind](https://www.imdb.com/title/tt1001526/)
 * [War for the Planet of the Apes](https://www.imdb.com/title/tt3450958/)
 * [2012](https://www.imdb.com/title/tt1190080/)
