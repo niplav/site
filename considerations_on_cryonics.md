@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2020-10-21, language: english, status: finished, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2021-01-27, language: english, status: finished, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -953,6 +953,14 @@ To determine whether this is correct, one can investigate the leading
 causes of death by age group and estimate their penalty on successful
 cryopreservation. Note that my medical knowledge is very slim, and I might
 be missing many obvious factors.
+
+But isn't this already priced in into the probabilistic estimates of
+success? Basically, yes. But In order to tease out the optimal point for
+signing up for cryonics, I will have to include them in this analysis
+again. That is unfortunate, but I think the benefit in information is
+worth the cost in (slight) bias, and it adds to the conservatism of
+this estimate. Interested readers are encouraged to try to modify the
+probability of success and observe the resulting changes in value.
 
 I obtain the 10 leading causes of death by age group from a [2018 CDC
 report](./doc/considerations_on_cryonics/10_leading_causes_of_death_by_age_group_cdc_2018.pdf "10 Leading Causes of Death by Age Group, United States – 2018").
