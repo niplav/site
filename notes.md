@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2020-12-24, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2021-01-25, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1030,3 +1030,27 @@ well be worth it. However, there are other additional costs to consider, such
 as the possibility that the frozen sperm might be unusable after freezing, but also that
 (besides being careful about STDs), this would reduce the amount of money spent
 on birth control measures.
+
+Trigger-Action Plans
+---------------------
+
+This is a list of some trigger-action plans I have installed/will install.
+
+1. Knuckle-cracking
+	* Trigger: I crack my knuckles
+	* Action: I adjust my posture
+2. Nail-biting
+	* Trigger: I notice myself biting my nails
+	* Action: I put my hands on a desk/my lap, and focus on each of my fingertips for a couple of seconds
+3. Disabling web blocker
+	* Trigger: I try to disable Leechblock in my browser
+	* Action: I take a walk around the house
+4. Take the keys
+	* Trigger: I stand up from my desk at work
+	* Action: I put my keys in my pocket
+5. After happiness, more happiness
+	* Trigger: I enter my current happiness on Mood Patterns
+	* Action: Focus on 10 breaths
+6. Alarm
+	* Trigger: I hear my alarm
+	* Action: I get out of bed
