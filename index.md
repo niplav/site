@@ -26,9 +26,8 @@ Writing
 
 * [Equally Many Heads and Tails](./equally_many_heads_and_tails.md)
 * [Circle Combinations](./circle_combinations.md)
-* [Solutions to “Naive Set Theory”](./nst_solutions.md)
 
-#### Programming
+#### Programming & Computer Science
 
 * [Pipe Rings](./pipe_rings.md)
 * [99 Problems Collection](./99_problems_collection.md)
@@ -52,6 +51,13 @@ Writing
 #### Collections
 
 * [Rationalist Gods](./rationalist_gods.md)
+
+#### Textbooks
+
+* [Administrativa for Textbooks](./administrativa_for_textbooks.md)
+* [Solutions to “Naïve Set Theory”](./nst_solutions.md)
+* [Solutions to “Artificial Intelligence: A Modern Approach”](./aima_solutions.md)
+* [Exercises from “The Jazz Piano Book”](./tjpb_exercises.md)
 
 #### Other
 

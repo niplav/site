@@ -46,7 +46,7 @@ Mathematics
 -----------
 
 I'm eternally working through and [solving the exercises
-of](./nst_solutions.html) Naive Set Theory.
+of](./nst_solutions.html) Naïve Set Theory.
 
 Data Sets
 ---------
@@ -59,7 +59,7 @@ Reading
 
 Currently, I am actively reading the following books:
 
-* Naive Set Theory (Paul R. Halmos, 1960)
+* Naïve Set Theory (Paul R. Halmos, 1960)
 * Artificial Intelligence: A Modern Approach (Stuart Russell/Peter Norvig, 2010)
 * Programming in Lua (Roberto Ierusalimschy, 2013)
 * The Jazz Piano Book (Mark Levine, 1998)

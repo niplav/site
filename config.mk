@@ -4,6 +4,7 @@ CONF=config.mk header.html main.css
 
 HTML=index.html \
 	about.html \
+	administrativa_for_textbooks.html \
 	changelog.html \
 	content_warning.html \
 	contributions.html \

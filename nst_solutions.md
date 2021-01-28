@@ -9,7 +9,7 @@
 > introduction to set theory. Here, I present solutions to the explicitely
 > stated exercises and problems in that book.__
 
-Solutions to “Naive Set Theory“
+Solutions to “Naïve Set Theory“
 ================================
 
 Section 3
@@ -418,7 +418,7 @@ violation: `$(a,a)\not\in$`, symmetry violation: `$(b,a)\not\in$`):
 > show that `$X/R$` is indeed a set by exhibiting a condition that specifies
 > exactly the subset `$X/R$` of the power set `${\cal{P}}(X)$`).
 
-*– [Paul Halmos](https://en.wikipedia.org/wiki/Paul_Halmos), [“Naive Set Theory“](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\)) p. 38, 1960*
+*– [Paul Halmos](https://en.wikipedia.org/wiki/Paul_Halmos), [“Naïve Set Theory“](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\)) p. 38, 1960*
 
 To be honest, I'm not quite sure what exactly I am supposed to do here.
 `$X/R$` has been defined as being a set, how can I prove a definition?
