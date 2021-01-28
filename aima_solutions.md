@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-21, modified: 2021-01-23, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-01-21, modified: 2021-01-28, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
@@ -188,17 +188,17 @@ physics.” Is the latter statement true, and does it imply the former?
 > Examine the AI literature to discover whether the following tasks
 can currently be solved by computers
 
-> a. Playing a decent game of table tennis (Ping-Pong).
-b. Driving in the center of Cairo, Egypt.
-c. Driving in Victorville, California.
-d. Buying a week’s worth of groceries at the market.
-e. Buying a week’s worth of groceries on the Web.
-f. Playing a decent game of bridge at a competitive level.
-g. Discovering and proving new mathematical theorems.
-h. Writing an intentionally funny story.
-i. Giving competent legal advice in a specialized area of law.
-j. Translating spoken English into spoken Swedish in real time.
-k. Performing a complex surgical operation.
+> a. Playing a decent game of table tennis (Ping-Pong).  
+> b. Driving in the center of Cairo, Egypt.  
+> c. Driving in Victorville, California.  
+> d. Buying a week’s worth of groceries at the market.  
+> e. Buying a week’s worth of groceries on the Web.  
+> f. Playing a decent game of bridge at a competitive level.  
+> g. Discovering and proving new mathematical theorems.  
+> h. Writing an intentionally funny story.  
+> i. Giving competent legal advice in a specialized area of law.  
+> j. Translating spoken English into spoken Swedish in real time.  
+> k. Performing a complex surgical operation.
 
 > For the currently infeasible tasks, try to find out what the
 difficulties are and predict when, if ever, they will be overcome.
@@ -206,12 +206,254 @@ difficulties are and predict when, if ever, they will be overcome.
 ### 1.15
 
 > Various subfields of AI have held contests by defining a standard task
-and inviting re- searchers to do their best. Examples include the DARPA
+and inviting researchers to do their best. Examples include the DARPA
 Grand Challenge for robotic cars, The International Planning Competition,
-the Robocup robotic soccer league, the TREC infor- mation retrieval event,
+the Robocup robotic soccer league, the TREC information retrieval event,
 and contests in machine translation, speech recognition. Investigate five
 of these contests, and describe the progress made over the years. To
 what degree have the contests advanced toe state of the art in AI? Do
 what degree do they hurt the field by drawing energy away from new ideas?
+
+-->
+
+Chapter 2
+---------
+
+### 2.1
+
+> Suppose that the performance measure is concerned with just the first
+T time steps of the environment and ignores everything thereafter. Show
+that a rational agent’s action may depend not just on the state of
+the environment but also on the time step it has reached.
+
+Example: Let's say that we are in an environment with a button,
+and pressing the button causes a light to go on in the next timestep.
+The agent cares that the light is on (obtaining 1 util per timestep the
+light is on for the first T timesteps).
+
+However, pressing the button incurs a cost of ½ on the agent.
+
+Then, at timestep T, the agent will not press the button, since it does
+not care about the light being on at timestep T+1, and wants to avoid
+the cost ½. At timesteps <T it will press the button, with the light
+currently being on, at timestep T it will not press the button, under
+the same environmental conditions.
+
+<!--
+
+### 2.2
+
+> Let us examine the rationality of various vacuum-cleaner agent
+functions.
+
+> a. Show that the simple vacuum-cleaner agent function described in
+Figure 2.3 is indeed rational under the assumptions listed on page 38.  
+> b. Describe a rational agent function for the case in which each movement
+costs one point.  Does the corresponding agent program require internal
+state?  
+> c. Discuss possible agent designs for the cases in which clean squares
+can become dirty and the geography of the environment is unknown. Does it
+make sense for the agent to learn from its experience in these cases? If
+so, what should it learn? If not, why not?
+
+-->
+
+### 2.3
+
+> For each of the following assertions, say whether it is true or
+false and support your answer with examples or counterexamples where
+appropriate.
+
+> a. An agent that senses only partial information about the state cannot
+be perfectly rational.  
+
+False. An agent that senses only partial information about the state could
+infer missing information by making deductions (logical or statistical)
+about the state of the environment, coming to full knowledge of the
+environment, and making perfectly rational choices using that information.
+
+For example, a chess-playing agent that can't see exactly one square
+could infer the piece standing on that square by observing which piece
+is missing from the rest of the board.
+
+> b. There exist task environments in which no pure reflex agent can
+behave rationally.  
+
+True. In an environment in which the next reward depends on the current
+state and the previous state, a simple reflex agent will get outperformed
+by agents with an internal world-model.
+
+An example for this is a stock-trading agent: The future prices of stocks
+doesn't just depend on the current prices, but on the history of prices.
+
+> c. There exists a task environment in which every agent is rational.  
+
+True. It is the environment where the agent has no options to act.
+
+> d. The input to an agent program is the same as the input to the
+agent function.  
+
+Not sure. Both the agent function and the agent program receive percepts,
+but sometimes the agent program also needs information that is not a
+percept (e.g. priors for bayesian agents). Is that counted as input,
+or simply as program-specific data?
+
+> e. Every agent function is implementable by some program/machine
+combination.  
+
+False. An agent function could be uncomputable
+(e. g. [AIXI](https://en.wikipedia.org/wiki/AIXI)), and therefore not
+be implementable on a real-world machine.
+
+> f. Suppose an agent selects its action uniformly at random from the
+set of possible actions. There exists a deterministic task environment
+in which this agent is rational.  
+
+True, that would be the environment in which every action scores equally
+well on the performance measure.
+
+> g. It is possible for a given agent to be perfectly rational in two
+distinct task environments.  
+
+True. Given two agents `$A_X$` and `$A_Y$`, and two task environments
+`$X$` (giving percepts from the set `$\{x_1, \dots, x_n\}$`) and `$Y$`
+(giving percepts from the set `$\{y_1, \dots, y_n\}$`), with `$A_X$` being
+perfectly rational in `$X$` and `$A_Y$` being perfectly rational in `$Y$`
+an agent that is perfectly rational in two distinct task environments
+could be implemented using the code:
+
+	p=percept()
+	if p∈X
+		$A_X$(p)
+		while p=percept()
+			$A_X$(p)
+	if p∈Y
+		$A_Y$(p)
+		while p=percept()
+			$A_Y$(p)
+
+> h. Every agent is rational in an unobservable environment.  
+
+False. Given an unobservable environment in which moving results in
+the performance measure going up (e.g. by knocking over ugly vases),
+agents that move a lot are more rational than agents that do not move.
+
+> i. A perfectly rational poker-playing agent never loses.
+
+False. Given incomplete knowledge, a rational poker-playing agent can
+only win in expectation.
+
+<!--
+
+### 2.4
+
+> For each of the following activities, give a PEAS description of the
+task environment and characterize it in terms of the properties listed
+in Section 2.3.2.
+
+> * Playing soccer.
+> * Exploring the subsurface oceans of Titan.
+> * Shopping for used AI books on the Internet.
+> * Playing a tennis match.
+> * Practicing tennis against a wall.
+> * Performing a high jump.
+> * Knitting a sweater.
+> * Bidding on an item at an auction.
+
+### 2.5
+
+> Define in your own words the following terms: agent, agent function,
+agent program, rationality, autonomy, reflex agent, model-based agent,
+goal-based agent, utility-based agent, learning agent.
+
+### 2.6
+
+> This exercise explores the differences between agent functions and
+agent programs.
+
+> a. Can there be more than one agent program that implements a given
+agent function? Give an example, or show why one is not possible.  
+> b. Are there agent functions that cannot be implemented by any agent
+program?  
+> c. Given a fixed machine architecture, does each agent program implement
+exactly one agent function?  
+> d. Given an architecture with n bits of storage, how many different
+possible agent programs are there?  
+> e. Suppose we keep the agent program fixed but speed up the machine
+by a factor of two. Does that change the agent function?
+
+### 2.7
+
+> Write pseudocode agent programs for the goal-based and utility-based
+agents.  The following exercises all concern the implementation of
+environments and agents for the vacuum-cleaner world.
+
+### 2.8
+
+> Implement a performance-measuring environment simulator for
+the vacuum-cleaner world depicted in Figure 2.2 and specified on
+page 38. Your implementation should be modular so that the sensors,
+actuators, and environment characteristics (size, shape, dirt placement,
+etc.) can be changed easily. (Note: for some choices of programming
+language and operating system there are already implementations in the
+online code repository.)
+
+### 2.9
+
+> Implement a simple reflex agent for the vacuum environment in Exercise
+2.8. Run the environment with this agent for all possible initial dirt
+configurations and agent locations.  Record the performance score for
+each configuration and the overall average score.
+
+### 2.10
+
+> Consider a modified version of the vacuum environment in Exercise 2.8,
+in which the agent is penalized one point for each movement.
+
+> a. Can a simple reflex agent be perfectly rational for this
+environment? Explain.  
+> b. What about a reflex agent with state? Design such an agent.  
+> c. How do your answers to a and b change if the agent’s percepts
+give it the clean/dirty status of every square in the environment?
+
+### 2.11
+
+> Consider a modified version of the vacuum environment in Exercise 2.8,
+in which the geography of the environment—its extent, boundaries,
+and obstacles—is unknown, as is the initial dirt configuration. (The
+agent can go Up and Down as well as Left and Right.)
+
+> a. Can a simple reflex agent be perfectly rational for this
+environment? Explain.  
+> b. Can a simple reflex agent with a randomized agent function outperform
+a simple reflex agent? Design such an agent and measure its performance
+on several environments.  
+> c. Can you design an environment in which your randomized agent will
+perform poorly? Show your results.  
+> d. Can a reflex agent with state outperform a simple reflex
+agent? Design such an agent and measure its performance on several
+environments. Can you design a rational agent of this type?
+
+### 2.12
+
+> Repeat Exercise 2.11 for the case in which the location sensor
+is replaced with a “bump” sensor that detects the agent’s
+attempts to move into an obstacle or to cross the boundaries of the
+environment. Suppose the bump sensor stops working; how should the
+agent behave?
+
+### 2.13
+
+> The vacuum environments in the preceding exercises have all been
+deterministic. Discuss possible agent programs for each of the following
+stochastic versions:
+
+> a. Murphy’s law: twenty-five percent of the time, the Suck action
+fails to clean the floor if it is dirty and deposits dirt onto the floor
+if the floor is clean. How is your agent program affected if the dirt
+sensor gives the wrong answer 10% of the time?  
+> b. Small children: At each time step, each clean square has a 10%
+chance of becoming dirty. Can you come up with a rational agent design
+for this case?  
 
 -->

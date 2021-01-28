@@ -73,7 +73,7 @@ Assumptions
 
 #### How Much Would People Value Economic Progress if They Knew More?
 
-#### How Good Is Moral Progress?
+#### How Good Is Economic Progress?
 
 Has been so far.
 
@@ -96,8 +96,8 @@ Different Aspects of Libertarianism
 
 ### Amount of Inequality
 
-Two (Maybe Three or Four) Problems With Pure Libertarianism
-------------------------------------------------------------
+Four (Maybe Five) Problems With Pure Libertarianism
+----------------------------------------------------
 
 ### Externalities
 
@@ -111,12 +111,16 @@ E.g. is animal suffering in factory farming a public good?
 
 Aggregate their preference vectors linearly.
 
+Harsanyi's theorem!
+
 ### Human Manipulation and Addiction
 
 ### Increasing Marginal Returns
 
 Many economists believe diminishing marginal returns, what reasons do
 they have?
+
+### Asymmetric Information
 
 Two Taxes I Like, One I Dislike, And One I'm Unsure About
 ---------------------------------------------------------
@@ -138,6 +142,8 @@ Stifling pareto improvements.
 ### Unsure
 
 #### Land-Value Taxes
+
+<!--What about income taxes?-->
 
 The Problems With Regulation
 -----------------------------
