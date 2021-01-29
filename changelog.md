@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-01-28, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-01-29, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -19,6 +19,7 @@ January 2021
 * [Exercises 1-4 in Section 10](./nst_solutions.html#Exercise-1_7) in [Solutions to “Naïve Set Theory“](./nst_solutions.html)
 * Notes
 	* [Trigger-Action Plans](./notes.html#TriggerAction-Plans)
+	* [A Small Variation on Counting During Concentration Meditation](./notes.html#A-Small-Variation-on-Counting-During-Concentration-Meditation)
 
 December 2020
 -------------

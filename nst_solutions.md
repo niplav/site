@@ -779,5 +779,25 @@ must also be mapped to $X$ (it could be that
 
 □
 
-(ii) To be proven: `$f(A \cap B)=f(A) \cap f(B)$` iff for all subsets
-of $A$ and $B$ $f$ injective.
+(ii) To be proven: `$f(A \cap B)=f(A) \cap f(B)$` iff for all subsets of
+`$A$` and `$B$`, `$f$` injective.
+
+First case: `$f$` injective `$\Rightarrow f(A \cap B) = f(A) \cap f(B)$`.
+
+Let `$y \in f(A \cap B)$`, then there exists exactly one `$x \in X$`
+so that `$f(x)=y$`.
+That means `$x \in A \land x \in B$`. Then `$e \in f(A) \land e \in f(B)$`.
+
+Second case: `$f(A \cap B)=f(A) \cap f(B) \Rightarrow f$` injective.
+
+More formal:
+
+`$f(A \cap B)=f(A) \cap f(B) \Rightarrow \forall x_1 \neq x_2 \in X, f(x_1) \neq f(x_2)$`.
+
+Let then `$x_1 \neq x_2 \in X$`, so that `$f(x_1)=f(x_2)=y$`. Let then
+`$A, B$` so that `$x_1 \in A \backslash B$` and `$x_2 \in B \backslash A$`.
+
+Then `$y \in f(A) \cap f(B)$`, but `$y \not \in f(A \cap B)$`. So those
+`$x_1, x_2$` can't exist, therefore f is injective.
+
+□

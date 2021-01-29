@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2021-01-25, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2021-01-29, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1054,3 +1054,33 @@ This is a list of some trigger-action plans I have installed/will install.
 6. Alarm
 	* Trigger: I hear my alarm
 	* Action: I get out of bed
+
+A Small Variation on Counting During Concentration Meditation
+--------------------------------------------------------------
+
+Often, during concentration practice on the breath, people employ counting
+as a means to stay with the breath (e.g.
+[Gunaratana 1990](./doc/meditation/mindfulness_in_plain_english_gunaratana_1990.pdf "Mindfulness In Plain English")
+p. 34-35).
+
+My variation on counting goes something like this:
+
+1. Start counting up from 1
+2. After the breath (a breathing-in – breathing-out combination), check whether one was mindful during the whole time of the breath, that is, was the concentration on the bare sensations in the nostrils uninterrupted?
+3. If not, go back to step 1
+4. If yes, increment by counter by 1, and go to step 2
+
+Step 2 should not be a big verbal mental loop, but more like a
+micro-routine that runs very quickly at the time one has stopped breathing
+out (similar to an interrupt<!--TODO: wikipedia link--> on a CPU).
+
+The standard for concentration during the breath I use is very high,
+when I feel I'm unsure, I start counting from 1 again.
+
+This method is relatively difficult (mostly because of the standard I
+employ for the quality of concentration), I don't think I have ever gotten
+higher than 6 (although I have had much longer streaks of attention on
+other forms of breath meditation).
+
+A possible drawback of this is also that the micro-routine at the end
+of a breath can often develop into a verbal loop and break concentration.

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-01-22, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-01-29, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Have no excuses (Nate Soares, 2015)](http://mindingourway.com/have-no-excuses/)
+* \* Governing the Commons (Elinor Ostrom, 1990)
+* [Simply locate yourself (Nate Soares, 2015)](http://mindingourway.com/simply-locate-yourself/)
+* [Detach the grim-o-meter (Nate Soares, 2015)](http://mindingourway.com/detach-the-grim-o-meter/)
+* [See the dark world (Nate Soares, 2015)](http://mindingourway.com/see-the-dark-world/)
+* [Being unable to despair (Nate Soares, 2015)](http://mindingourway.com/being-unable-to-despair/)
+* The dynamics of audience applause (Richard P. Mann/Joylon Faria/David J. T. Sumpter/Jens Krause, 2013)
+* [Residing in the mortal realm (Nate Soares, 2015)](http://mindingourway.com/residing-in-the-mortal-realm/)
 * [Where coulds go (Nate Soares, 2015)](http://mindingourway.com/where-coulds-go/)
 * \* Artificial Intelligence: A Modern Approach (Stuart Russell/Peter Norvig, 2010)
 * [Not yet gods (Nate Soares, 2015)](http://mindingourway.com/not-yet-gods/)
@@ -704,7 +712,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Quality-adjusted life year (English Wikipedia, 2019)](https://en.wikipedia.org/wiki/Quality-adjusted_life_year)
 * [Concerning the Complexities of Political Opinion – A Five Dimensional Model (Hanzi Freinacht, 2015)](https://metamoderna.org/concerning-the-complexities-of-political-opinion-a-five-dimensional-model/)
 * [Singleton (global governance) (English Wikipedia, 2019)](https://en.wikipedia.org/wiki/Singleton_(global_governance))
-* [Naïve Set Theory (book) (English Wikipedia, 2019)](https://en.wikipedia.org/wiki/Naive_Set_Theory_(book))
+* [Naive Set Theory (book) (English Wikipedia, 2019)](https://en.wikipedia.org/wiki/Naive_Set_Theory_(book))
 * [Betteridge's law of headlines (English Wikipedia, 2019)](https://en.wikipedia.org/wiki/Betteridge's_law_of_headlines)
 * [Another Kind of Freedom (Hanzi Freinacht, 2015)](https://metamoderna.org/another-kind-of-freedom/)
 * [Climate technology primer (3/3): other interventions (Adam H. Marblestone, 2019)](https://longitudinal.blog/co2-series-part-3-other-interventions/)
@@ -1198,7 +1206,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Die Eichbäume (Friedrich Hölderlin, 1797)](https://de.wikipedia.org/wiki/Die_Eichb%C3%A4ume_(H%C3%B6lderlin)#Text)
 * [Das Schicksal (Friedrich Hölderlin, 1793)](https://www.textlog.de/17770.html)
 * The Elephant in the Brain (Kevin Simler/Robin Hanson, 2018)
-* \* Naïve Set Theory (Paul R. Halmos, 1960)
+* \* Naive Set Theory (Paul R. Halmos, 1960)
 * Superintelligence (Nick Bostrom, 2014)
 * [To Wash It All Away (James Mickens, 2014)](https://www.usenix.org/system/files/1403_02-08_mickens.pdf)
 * [The Saddest Moment (James Mickens, 2013)](https://www.usenix.org/system/files/login-logout_1305_mickens.pdf)
