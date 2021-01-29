@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-21, modified: 2021-01-28, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-01-21, modified: 2021-01-29, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
@@ -457,3 +457,92 @@ chance of becoming dirty. Can you come up with a rational agent design
 for this case?  
 
 -->
+
+Chapter 13
+-----------
+
+### 13.1
+
+> Show from first principile that `$P(a|b \land a) = 1$`.
+
+I'm not sure whether this counts as "from first principles", but
+
+`$P(a|b \land a)=\frac{P(a \land a \land b)}{P(a \land b)}=\frac{P(a \land b)}{P(a \land b)}=1$`
+
+is my solution.
+
+### 13.2
+
+> Using the axioms of probability, prove that any probability distribution
+on a discrete random variable must sum to 1.
+
+We know that `$\sum_{\omega \in \Omega} P(\omega)=1$`.
+
+Given a discrete random variable X (X is discrete (and therefore also
+countable?)), and a probability distribution `$P: X \rightarrow [0;1]$`.
+
+Then, setting `$\Omega=X$`, one can see that `$\sum_{x \in X} P(x)=1$`.
+
+<!--Possible problem: What about other variables & their distributions?
+Conditional on those in joint, the result is still 1, but would be
+worthwhile to write down.-->
+
+### 13.3
+
+> For each of the following statements, either prove it is true or give
+a counterexample.
+
+> a. If `$P(a|b,c)=P(b|a,c)$`, then `$P(a|c)=P(b|c)$`
+
+<div>
+	$$P(a|b,c)=P(b|a,c) \Leftrightarrow \\
+	\frac{P(a,b,c)}{P(b,c)}=\frac{P(a,b,c)}{P(a,c)} \Leftrightarrow \\
+	P(a,c)=P(b,c) \Leftrightarrow \\
+	\frac{P(a,c)}{P(c)}=\frac{P(b,c)}{P(c)} \Leftrightarrow \\
+	P(a|c)=P(b|c)$$
+</div>
+
+True.
+
+> b. If `$P(a|b,c)=P(a)$`, then `$P(b|c)=P(b)$`
+
+False: If
+`$P(a)=P(a|b,c)=P(a|\lnot b,c)=P(a|b, \lnot c)=P(a|\lnot b,\lnot c)=0.1$`
+(`$P(\lnot a)$` elided for brevity), then still can b be dependent on c,
+for example `$P(b|c)=0.2$`, `$P(\lnot b|c)=0.8$`, `$P(b|\lnot c)=0.3$`,
+`$P(\lnot b|\lnot c)=0.7$`, and `$P(c)=P(\lnot c)=0.5$` (which would
+make `$P(b)=\sum_{c \in C} P(b|c)*P(c)=0.5*0.2+0.5*0.3=0.25$` and
+`$P(\lnot b)=\sum_{c \in C} P(\lnot b|c)*P(c)=0.5*0.8+0.5*0.7=0.75$`).
+
+<!--
+> c. If `$P(a|b)=P(a)$`, then `$(a|b,c)=P(a|c)$`
+
+![](./img/aima_solutions/13_3_bayes_diagram.png)
+
+I am stupid. TODO.
+-->
+
+### 13.4
+
+> Would it be rational for an agent to hold the three beliefs `$P(A)=0.4, P(B)=0.3$`,
+and `$P(A \lor B)=0.5$`? If so, what range of probabilities
+would be rational for the agent to hold for `$A \land B$`? Make up
+a table like the one in Figure 13.2, and show how it supports your
+argument about rationality. Then draw another version of the table where
+`$P(A \lor B)=0.7$`. Explain why it is rational to have this probability,
+even though the table shows one case that is a loss and three that just
+break even. (*Hint*: what is Agent 1 commited to about the probability
+of each of the four cases, especially the case that is a loss?
+
+It is rational for an agent to believe `$P(A)=0.4, P(B)=0.3$` and
+`$P(A \lor B)=0.5$`, if
+`$P(A \land B)=P(A)+P(B)-P(A \lor B)=0.4+0.3-0.5=0.2$`.
+
+<table>
+<thead>
+	<tr>
+		<td>Proposition</td>
+		<td>Belief</td>
+	</tr>
+</thead>
+</table>

@@ -41,6 +41,9 @@ Administrativa for Textbooks
 	* Chapter 2:
 		* Done: 2.1, 2.3
 		* To do: 2.2, 2.4-2.13
+	* Chapter 13:
+		* Done: 13.1-13.2, 13.3 a and b
+		* To do: 13.3 c-13.25
 * [Flashcards](./flash/artificial_intelligence_a_modern_approach.apkg):
 	* Done: Chapter 1-2
 * Read: p. 1-81, p. 500-508
