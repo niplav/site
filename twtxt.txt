@@ -344,3 +344,7 @@
 2021-01-26T09:29:25.000000Z	note to self: don't go to the bay
 2021-01-26T11:16:21.000000Z	i will not live in the bay, i won't be part of the cule
 2021-01-27T21:16:32.000000Z	beer is liquid psychoactive bread
+2021-01-29T09:39:48.000000Z	people have it the wrong way around: algorithmic decision-making is usually fairer (but cless efficient), but people making decisions is more efficient (while being more biased)
+2021-01-29T10:56:42.000000Z	Another datapoint for the technocrats is, of course, Ignaz Semmelweis. He comes around high-phalumphin with his data and his measurements, wanting nurses to abolish their age-old practice of “not caring whether one has washed ones hands before helping to give birth”
+2021-01-29T11:07:58.000000Z	Let TM1 and TM2 be turing machines. Let p_{1 on 2} be the shortest program that emulates TM1 on TM2, and p_{2 on 1} be the shortest program that emulates TM2 on TM1. TM1≺TM2 iff |p_{1 on 2}|<|p_{2 on 1}| (and TM1~TM2 iff |p_{1 on 2}|=|p_{2 on 1}|). Is ≺ then transitive?
+2021-01-29T11:10:59.000000Z	Or is that undecidable?

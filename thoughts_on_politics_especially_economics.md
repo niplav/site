@@ -1,11 +1,11 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-13, modified: 2021-01-19, language: english, status: in progress, importance: 2, confidence: remote*
+*author: niplav, created: 2021-01-13, modified: 2021-01-29, language: english, status: in progress, importance: 2, confidence: remote*
 
 > __After a discussion with a friend of mine, I thought it would be
 useful to structure my current thoughts about politics and economics
-in order to facilitate my progress on that topic. Many of these points
+in order to speed up my progress on that topic. Many of these points
 are only rough ideas, or me collecting unrelated ideas I find good and
 useful. Therefore, this text might already be out of date.__
 
@@ -20,6 +20,8 @@ What can be done before talking about object-level policies.
 ### Improve Political Epistemology
 
 Forecasting, track records, public rationality.
+
+Making politicians resonsible if they don't fulfill their promises.
 
 ### Copy What Successful Countries are Doing
 
@@ -107,6 +109,10 @@ Four (Maybe Five) Problems With Pure Libertarianism
 
 E.g. is animal suffering in factory farming a public good?
 
+#### Okay, But What Are Public Goods Really?
+
+The definition seems kind of hard to pin down exactly.
+
 #### Different People Consider Different Things Public Goods
 
 Aggregate their preference vectors linearly.
@@ -143,7 +149,7 @@ Stifling pareto improvements.
 
 #### Land-Value Taxes
 
-<!--What about income taxes?-->
+<!--What about income taxes, progressive or flat?-->
 
 The Problems With Regulation
 -----------------------------
@@ -202,6 +208,13 @@ Resulting problem: this makes manipulation easier.
 
 Don't know how to approach this one, maybe secret cabal of data
 collectors? Data collectors are not allowed to trade?
+
+#### Approval-Directed Futarchy?
+
+Select n random people (something like 10k, or 0.01% of the population),
+ask them how much they approve of the governing in the last year (or
+whatever timespan the prediction markets operate on). Try to optimize
+that measure.
 
 Miscellania
 ------------

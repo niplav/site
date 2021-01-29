@@ -17,8 +17,8 @@ Administrativa for Textbooks
 * [Solutions to Exercises](./nst_solutions.md)
 	* Sections 3-9
 	* Section 10:
-		* Done: 1-4, 5(i)
-		* To do: 5(ii)-(iv)
+		* Done: 1-4, 5(i)-5(ii)
+		* To do: 5(iii)-(iv)
 * [Flashcards](./flash/naïve_set_theory.apkg)
 	* Done: Sections 1-10
 * Read: p. 1-41
