@@ -417,7 +417,7 @@ humans are quite similar to each other, they display a wide variety
 of different motivation systems and goals. Even the most common-sense
 morality, there seem to be humans who are not motivated by it (such
 as [psychopaths](https://en.wikipedia.org/wiki/Psychopathy) and
-[sociopaths](https://en.wikipedia.org/wiki/Psychopathy#Sociopathy).
+[sociopaths](https://en.wikipedia.org/wiki/Psychopathy#Sociopathy)).
 
 However, many philosophers have argued that there are [moral
 truths](https://plato.stanford.edu/entries/moral-realism/),

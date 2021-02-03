@@ -348,3 +348,21 @@
 2021-01-29T10:56:42.000000Z	Another datapoint for the technocrats is, of course, Ignaz Semmelweis. He comes around high-phalumphin with his data and his measurements, wanting nurses to abolish their age-old practice of “not caring whether one has washed ones hands before helping to give birth”
 2021-01-29T11:07:58.000000Z	Let TM1 and TM2 be turing machines. Let p_{1 on 2} be the shortest program that emulates TM1 on TM2, and p_{2 on 1} be the shortest program that emulates TM2 on TM1. TM1≺TM2 iff |p_{1 on 2}|<|p_{2 on 1}| (and TM1~TM2 iff |p_{1 on 2}|=|p_{2 on 1}|). Is ≺ then transitive?
 2021-01-29T11:10:59.000000Z	Or is that undecidable?
+2021-01-29T18:59:55.000000Z	@<pbatch https://pbat.ch/twtxt.txt> "Writing a "tweet" is low-friction, and the medium forces you to chunk out ideas into (mostly) self-contained thoughts." <3
+2021-01-29T22:29:20.000000Z	https://twitter.com/gregbglw/status/1354258643697475586 and then it just leaves!
+2021-01-29T22:38:01.000000Z	https://www.lesswrong.com/posts/cumc876woKaZLmQs5/lessons-i-ve-learned-from-self-teaching I should have started using Anki earlier as well.
+2021-01-30T09:07:20.000000Z	two sigma male
+2021-01-30T16:43:49.000000Z	learning dril tweets & morse code using spaced repetition
+2021-01-30T16:53:05.000000Z	@<jlj https://twt.nfld.uk/user/jlj/twtxt.txt> "Wow. I think much of what drew me to zettlekasten -- and then letting it languish :-( -- really belongs in Anki." <3 i have only used SRS for ~3 months now, so I'm not sure how long i'll continue
+2021-01-31T12:02:03.000000Z	(me making up words): qualia internalism: the properties of a quale are internal to the quale, and therefore the properties of different qualia can be projected onto a cardinal scale with zero point.
+2021-01-31T12:05:30.000000Z	(cont): qualia relationism: the properties of qualia are defined by their relations to other qualia (but distinguish ordinal rankings for properties of qualia without a zero-point from cardinal properties of qualia without a zero-point). E.g., the hedonic treadmill is not accidental, but a deep fact of the universe.
+2021-01-31T12:07:52.000000Z	challenge for qualia relationism: it seems plausible that for a relation between two qualia to be established to actually create the quality of the experience, they should occur at near points in time. however, people in great pain don't usually at the same time seem to recall memories of especially pleasurable moments.
+2021-01-31T15:01:32.000000Z	un-doing not doing non-doing
+2021-02-02T12:40:38.000000Z	yesterdays session: collecting dullness (?, maybe addictive energy is a better name) at the spot where the nose begins between the eyes, then concentrating on it
+2021-02-02T12:41:12.000000Z	felt really tense around a maybe 4cm² area there, slowly disappeared during the sit
+2021-02-02T13:51:14.000000Z	I used aversion factoring yesterday
+2021-02-02T15:52:35.000000Z	masturbyte
+2021-02-02T15:52:41.000000Z	masturbit
+2021-02-02T15:52:46.000000Z	maturyte
+2021-02-02T15:59:42.000000Z	could we build a blockchain which auctions off computing power to companies who wish to solve NP-hard problems as proof of work?
+2021-02-02T21:58:30.000000Z	high effect-size male
