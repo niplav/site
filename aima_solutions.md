@@ -324,13 +324,13 @@ could be implemented using the code:
 
 	p=percept()
 	if p∈X
-		$A_X$(p)
+		A_X(p)
 		while p=percept()
-			$A_X$(p)
+			A_X(p)
 	if p∈Y
-		$A_Y$(p)
+		A_Y(p)
 		while p=percept()
-			$A_Y$(p)
+			A_Y(p)
 
 > h. Every agent is rational in an unobservable environment.  
 
@@ -514,14 +514,16 @@ for example `$P(b|c)=0.2$`, `$P(\lnot b|c)=0.8$`, `$P(b|\lnot c)=0.3$`,
 make `$P(b)=\sum_{c \in C} P(b|c)*P(c)=0.5*0.2+0.5*0.3=0.25$` and
 `$P(\lnot b)=\sum_{c \in C} P(\lnot b|c)*P(c)=0.5*0.8+0.5*0.7=0.75$`).
 
+> c. If `$P(a|b)=P(a)$`, then `$P(a|b,c)=P(a|c)$`
+
+`$a$` and `$b$` are independent. However, this does not imply conditional
+independence given `$c$`. E.g.:
+
+`$P(a)=0.5, P(b)=0.5, P(c|a, b)=1, P(c|\lnot a, \lnot b)=0, P(c|\lnot a, b)=1, P(c|a, \lnot b)=1$`
+
+So this is false.
+
 <!--
-> c. If `$P(a|b)=P(a)$`, then `$(a|b,c)=P(a|c)$`
-
-![](./img/aima_solutions/13_3_bayes_diagram.png)
-
-I am stupid. TODO.
--->
-
 ### 13.4
 
 > Would it be rational for an agent to hold the three beliefs `$P(A)=0.4, P(B)=0.3$`,
@@ -532,7 +534,7 @@ argument about rationality. Then draw another version of the table where
 `$P(A \lor B)=0.7$`. Explain why it is rational to have this probability,
 even though the table shows one case that is a loss and three that just
 break even. (*Hint*: what is Agent 1 commited to about the probability
-of each of the four cases, especially the case that is a loss?
+of each of the four cases, especially the case that is a loss?)
 
 It is rational for an agent to believe `$P(A)=0.4, P(B)=0.3$` and
 `$P(A \lor B)=0.5$`, if
@@ -545,4 +547,9 @@ It is rational for an agent to believe `$P(A)=0.4, P(B)=0.3$` and
 		<td>Belief</td>
 	</tr>
 </thead>
+<tbody>
+	<tr>
+	</tr>
+</tbody>
 </table>
+-->

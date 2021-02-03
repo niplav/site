@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-01-21, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-01-30, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -34,6 +34,7 @@ Site
 	* Done:
 		* Considerations on Cryonics
 			* TODO: Expand the section on the Guesstimate model
+* Considerations on Cryonics: Incorporate new Alcor costs
 
 Texts
 -----
@@ -582,6 +583,7 @@ Texts
 	*	Asking the Hamming Question, "What is art?", or simply, "Would you like
 		to hold a conversation?"
 * Weekly 1-on-1s
+* Kissing Hands as Greeting/Goodbye
 
 ### Misc
 
