@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-06-15, modified: 2021-01-29, language: english, status: notes, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-15, modified: 2021-02-05, language: english, status: notes, importance: 1, confidence: log*
 
 > __I recently got the feeling that tracking my exercise might be vaguely
 > useful. This is my attempt.__
@@ -559,7 +559,7 @@ Log
 * 60 dumbbell shoulder presses
 * 60 dumbbell upright rows
 * 60 dumbbell bench presses
-* 20 dumbbell scaptions
+6* 20 dumbbell scaptions
 * 20 dumbbell lateral lifts
 * 60 push-ups
 * 100 sit-ups
@@ -604,7 +604,7 @@ Log
 * 20 burpees
 * 100 froggers
 * 5 minutes plank
-
+6
 ### 2020-12-21
 
 * 30 minutes jogging
@@ -649,7 +649,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 60 dumbbell upright rows
 * 60 dumbbell bench presses
 * 20 dumbbell scaptions
-* 20 dumbbell lateral lifts
+6* 20 dumbbell lateral lifts
 * 60 push-ups
 * 60 sit-ups
 * 60 double leg lifts
@@ -694,7 +694,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 60 sit-ups
 * 60 double leg lifts
 * 10 burpees
-* 20 vertical rows
+6* 20 vertical rows
 * 20 walking lunges
 * 100 froggers
 * 2 minutes plank
@@ -739,7 +739,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 10 dumbbell lateral lifts
 * 20 Γ-lifts
 * 60 push-ups
-* 60 sit-ups
+6* 60 sit-ups
 * 60 double leg lifts
 * 20 walking lunges
 * 100 froggers
@@ -750,3 +750,24 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 60 dumbbell shoulder presses
 * 60 burpees
 * 100 froggers
+
+### 2021-02-01
+
+* 30 minutes jogging
+
+### 2021-02-05
+
+* 60 dumbbell biceps curls
+* 60 dumbbell shoulder presses
+* 60 dumbbell upright rows
+* 60 dumbbell bench presses
+* 20 dumbbell scaptions
+* 20 dumbbell lateral lifts
+* 40 Γ-lifts
+* 60 push-ups
+* 60 sit-ups
+* 60 double leg lifts
+* 40 walking lunges
+* 20 burpees
+* 100 froggers
+* 1 minute plank

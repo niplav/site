@@ -1,4 +1,4 @@
-Ghome](./index.md)
+[home](./index.md)
 -------------------
 
 *author: niplav, created: 2021-01-28, modified: 2021-01-28, language: english, status: in progress, importance: 1, confidence: likely*
