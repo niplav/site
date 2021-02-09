@@ -121,12 +121,12 @@ probabilities.
 
 Specifically, this analysis attempts to be relatively
 conservative, think of the lower range of a 50% [confidence
-interval](https://en.wikipedia.org/wiki/Confidence_interval).  For
+interval](https://en.wikipedia.org/wiki/Confidence_interval). For
 example, this leads to excluding singularity scenarios with lifespans of
 billions or trillions of years at enormous quality. This is a balancing
 act, some people might criticize that the number of worlds with indefinite
 life extension and cryonics revival but without cosmic endowment is
-very small.  These concerns might be correct, but bare resemblance to
+very small. These concerns might be correct, but bare resemblance to
 [Pascal's mugging](ttps://en.wikipedia.org/wiki/Pascal's_mugging)-like
 scenarios. In order to avoid such concerns, I focus on *relatively*
 unspectacular visions of the future. If these scenarios are more likely

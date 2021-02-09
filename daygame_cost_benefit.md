@@ -66,7 +66,7 @@ he focuses on nightgame in bars and clubs and concludes that
 > For casual sex, a mid-range prostitute is cheaper than game.
 > On the other hand, most of game’s costs are in the form of time
 > opportunity costs, so if you have a lot of free time and little money
-> or you enjoy the activities of clubbing, game, or dating  even without
+> or you enjoy the activities of clubbing, game, or dating even without
 > the promise of sex, then game might be a better deal.
 > In addition, the higher your average wage, the more expensive game
 > becomes relative to prostitution, as the opportunity costs of game

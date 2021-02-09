@@ -23,7 +23,7 @@ When I was around 9 years old, I decided to create a counter
 in my head that would increment when I saw a car of the brand
 [Smart](https://en.wikipedia.org/wiki/Smart_(marque)). I did this for
 around half a year, eventually reaching over 6000 (I don't remember
-the exact number anymore, what a shame).  During this time, I created
+the exact number anymore, what a shame). During this time, I created
 some rules:
 
 * I was not actively seeking out Smarts, but was looking out for them
@@ -331,7 +331,7 @@ As of November 2020, I have meditated 300 hours.
 ### What The Effects Were
 
 Note: I ascribe many positive changes in my life to my meditation
-practice.  I feel like that is prudent, but inferring causality is very
+practice. I feel like that is prudent, but inferring causality is very
 difficult (especially over long time horizons), and it is possible that
 I might be overrating my practice in its importance. That said, many of
 the positive effects coincide pretty well with me starting my practice,

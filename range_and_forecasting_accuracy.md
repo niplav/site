@@ -783,52 +783,33 @@ Showcase:
 	brier@(metquestions@10)@[2 3]
 		0.62095
 
-<!--HERE-->
+The next step involves computing the Brier score for the forecasts on
+each question:
 
-The next step involves merging the forecasts on questions with the
-same range (rounded by day/week/month/year). This was achieved by first
-dividing the question range by `spd`/`spw`/`spm`/`spy`, then grouping
-the questions by the resulting rounded range. Afterwards, questions
-ID and forecast range were dropped and the forecast and result arrays
-were concatenated in order. The resulting array had the structure
-`[[question-range [results] [forecasts]]*]`. Aftewards, computing the
-brier score was quite straightforward by selectively applying it in a
-mapped function. The resulting array was sorted by range, for convenience.
+	metqbrier::{(x@1),brier(x@2;x@3)}'metquestions
+	pbqbrier::{(x@1),brier(x@2;x@3)}'pbquestions
 
-	dmetquestions::{(_(x@1)%spd),x@[2 3]}'metquestions
-	dmetquestions::{(**x),,/'+{1_x}'x}'dmetquestions@=*'dmetquestions
-	dqmetbrier::{(*x),brier@1_x}'dmetquestions
-	dqmetbrier::dqmetbrier@<dqmetbrier
-	dqmetbrier@19
-		[20 0.210210798122065727]
-
-This was of course implemented for both datasets and for all four kinds
-of buckets.
+`metqbrier` is a list that contains sublists, one for each question,
+the sublist containing the range for the question and the brier score
+for all predictions on the question (`pbqbrier` has the same structure).
 
 ### Results
 
 Again I use linear regressions, correlation coefficients and scatter
 plots to inadequately analyze the data.
 
-For accuracy between questions, the results were mostly not very
-interesting:
+For accuracy between questions, the results were pretty surprising:
 
-		cor@dqmetbrier
-	-0.021357561237633882
-		cor@+wqmetbrier
-	-0.0564522173076630489
-		cor@+mqmetbrier
-	-0.134945120480158162
-		cor@+yqmetbrier
-	-0.459895122605089935
-		cor@+dqpbbrier
-	0.00977369255430785951
-		cor@+wqpbbrier
-	0.0350359685890036469
-		cor@+mqpbbrier
-	0.00195160822503737404
-		cor@+yqpbbrier
-	-0.542853871095691028
+		cor@+metqbrier
+	-0.00994020489696282446
+		cor@+pbqbrier
+	-0.051808239905807497
+		lreg(metqbrier)
+	[-0.0000000000601753889846147087 0.175130112661923862]
+		lreg(pbqbrier)
+	[-0.000000000249291592263056412 0.195254764708843302]
+
+<!--HERE-->
 
 With a high resolution (looking at days and weeks, similarly months),
 the correlations are very near zero, probably just by noise. But the
