@@ -155,7 +155,7 @@ manipulating its users into political extremism to increase viewing time,
 but I can't find a link right now).
 
 The one thing I would like to see improved is at least some links to
-prior existing work.  Christiano writes that
+prior existing work. Christiano writes that
 
 > (None of the concerns in this post are novel.)
 

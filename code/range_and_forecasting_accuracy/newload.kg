@@ -50,3 +50,6 @@ metss::{#metss?x}'1+!maxval
 
 metquestions::{(*x@0),(*x@1),2_x}'+'(+metdata)@=*metdata
 pbquestions::{(*x@0),(*x@1),2_x}'+'(+pbdata)@=*pbdata
+
+metqbrier::{(x@1),brier(x@2;x@3)}'metquestions
+pbqbrier::{(x@1),brier(x@2;x@3)}'pbquestions

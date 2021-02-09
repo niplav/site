@@ -50,7 +50,7 @@ search '^\*–[^ ]'
 
 printf '\nIncorrect whitespace:\n'
 
-search '   $'
+search '   .'
 search '\t$'
 
 printf '\nChecking for british english:\n'

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-21, modified: 2021-01-29, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-01-21, modified: 2021-02-09, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
@@ -235,7 +235,7 @@ However, pressing the button incurs a cost of ½ on the agent.
 
 Then, at timestep T, the agent will not press the button, since it does
 not care about the light being on at timestep T+1, and wants to avoid
-the cost ½. At timesteps <T it will press the button, with the light
+the cost ½. At timesteps `$<T$` it will press the button, with the light
 currently being on, at timestep T it will not press the button, under
 the same environmental conditions.
 
@@ -249,7 +249,7 @@ functions.
 > a. Show that the simple vacuum-cleaner agent function described in
 Figure 2.3 is indeed rational under the assumptions listed on page 38.  
 > b. Describe a rational agent function for the case in which each movement
-costs one point.  Does the corresponding agent program require internal
+costs one point. Does the corresponding agent program require internal
 state?  
 > c. Discuss possible agent designs for the cases in which clean squares
 can become dirty and the geography of the environment is unknown. Does it
@@ -385,7 +385,7 @@ by a factor of two. Does that change the agent function?
 ### 2.7
 
 > Write pseudocode agent programs for the goal-based and utility-based
-agents.  The following exercises all concern the implementation of
+agents. The following exercises all concern the implementation of
 environments and agents for the vacuum-cleaner world.
 
 ### 2.8
@@ -402,7 +402,7 @@ online code repository.)
 
 > Implement a simple reflex agent for the vacuum environment in Exercise
 2.8. Run the environment with this agent for all possible initial dirt
-configurations and agent locations.  Record the performance score for
+configurations and agent locations. Record the performance score for
 each configuration and the overall average score.
 
 ### 2.10
@@ -553,3 +553,52 @@ It is rational for an agent to believe `$P(A)=0.4, P(B)=0.3$` and
 </tbody>
 </table>
 -->
+
+### 13.5
+
+> This question deals with the properties of possible worlds, defined
+on page 488 as assignments to all random variables. We will work with
+propositions that correspond to exactly one possible world because they
+pin down the assignments of all the variables. In probability theory,
+such propositions are called **atomic events**. For example, with Boolean
+variables `$X_1, X_2, X_3$`, the proposition `$x_1 \land \lnot x_2 \land \lnot x_3$`
+fixes the assignment of the variables,; in the language of
+propositional logic, we would say it has exactly one model.
+
+> a. Prove, for the case of `$n$` Boolean variables, that any two distinct
+atomic events are mutually exclusive; that is, their conjunction is
+equivalent to *false*.
+
+Let `$s_1, s_2$` be two distinct atomic events. That means there exists at
+least one `$x_i$` so that `$x_i$` is part of the conjunction in `$s_1$`
+and `$\lnot x_i$` is part of the conjunction in `$s_2$`.
+
+Then:
+
+<div>
+	$$s_1 \land s_2 = \\
+	s_1(1) \land \dots \land s_1(i-1) \land x_i \land s_1(i+1) \land \dots \land s_1(n) \land s_2(1) \land \dots \land s_2(i-1) \land \lnot x_i \land s_2(i+1) \land \dots \land s_2(n)=\\
+	s_1(1) \land \dots \land s_1(i-1) \land s_1(i+1) \land \dots \land s_1(n) \land s_2(1) \land \dots \land s_2(i-1) \land s_2(i+1) \land \dots \land s_2(n) \land x_i \land \lnot x_i=\\
+	s_1(1) \land \dots \land s_1(i-1) \land s_1(i+1) \land \dots \land s_1(n) \land s_2(1) \land \dots \land s_2(i-1) \land s_2(i+1) \land \dots \land s_2(n) \land false=\\
+	false$$
+</div>
+
+> b. Prove that the disjunction of all possible atomic events is logically
+equivalent to *true*.
+
+For every atomic event `$s$`, there is an atomic event
+`$s'=\lnot s=\lnot s(1) \land \dots \lnot s(n)$`. Then the
+disjunction of all atomic events contains `$s \lor s' \lor \dots=true$`.
+
+> c. Prove that any proposition is logically equivalent to the disjunction
+of the atomic events that entail its truth.
+
+Let `$\mathcal{A}$` be the set of `$n$` assignments that make the proposition
+true. Then each assignment `$A_i \in \mathcal{A}$` corresponds to exactly
+one atomic event `$a_i$` (e.g. assigning true to `$x_1$`, false to `$x_2$` and
+false to `$x_3$` corresponds to `$x_1 \land \lnot x_2 \land \lnot x_2$`).
+The set of these atomic events exactly entails the proposition.
+
+One can then simply create the conjunction of sentences
+`$\bigvee_{i=1}^{n} a_i$` that is true only if we use an assignment
+that makes the proposition true.

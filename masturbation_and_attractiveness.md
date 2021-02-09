@@ -694,7 +694,7 @@ TODO: Read:
 One possible criticism of the above experiment could be that no
 clear method of establishing of whom to approach was used. This
 is a fair criticism, since attractiveness is a subjective
-evaluation criterion.  However, one must also consider that
+evaluation criterion. However, one must also consider that
 subjective judgements of attractiveness correlate strongly
 both within cultures as well as cross-culturally (see [Coetzee et al.
 2013](./doc/masturbation_and_attractiveness/cross_cultural_agreement_in_facial_attractiveness_preferences_coetzee_2014.pdf "Cross-Cultural Agreement in Facial Attractiveness Preferences: The Role of Ethnicity and Gender")).
@@ -859,7 +859,7 @@ on reddit.
 
 Its hashsum was computed as such:
 
-        $ sha256sum masturbation_and_attractiveness_preregistered.txt
+	$ sha256sum masturbation_and_attractiveness_preregistered.txt
 
 <!--TODO: add link to reddit post-->
 

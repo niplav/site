@@ -346,7 +346,7 @@ search space multiple times.
 ### External Intelligence Improvements
 
 Under this model, I assume an exponential growth as
-a backdrop.  This exponential growth could be [Moore's
+a backdrop. This exponential growth could be [Moore's
 Law](https://en.wikipedia.org/wiki/Moore%27s_law) or [Gross World
 Product](https://en.wikipedia.org/wiki/Gross_world_product) growth,
 or another uninterrupted exponential growth mode.
@@ -384,12 +384,12 @@ Parameters
 
 I ran the model several times, varying the size and dimensionality of
 the search space. The spaces used were `$\mathbb{F}_{8193}^{1}$`,
-`$\mathbb{F}_{16385}^{1}$`,  `$\mathbb{F}_{32769}^{1}$`,
-`$\mathbb{F}_{65537}^{1}$`,  `$\mathbb{F}_{1048577}^{1}$`,
-`$\mathbb{F}_{16777217}^{1}$`,  `$\mathbb{F}_{4097}^{2}$`,
-`$\mathbb{F}_{65}^{3}$`,  `$\mathbb{F}_{129}^{3}$`,
-`$\mathbb{F}_{257}^{3}$`,  `$\mathbb{F}_{65}^{4}$`,
-`$\mathbb{F}_{33}^{5}$`,  `$\mathbb{F}_{17}^{6}$` and
+`$\mathbb{F}_{16385}^{1}$`, `$\mathbb{F}_{32769}^{1}$`,
+`$\mathbb{F}_{65537}^{1}$`, `$\mathbb{F}_{1048577}^{1}$`,
+`$\mathbb{F}_{16777217}^{1}$`, `$\mathbb{F}_{4097}^{2}$`,
+`$\mathbb{F}_{65}^{3}$`, `$\mathbb{F}_{129}^{3}$`,
+`$\mathbb{F}_{257}^{3}$`, `$\mathbb{F}_{65}^{4}$`,
+`$\mathbb{F}_{33}^{5}$`, `$\mathbb{F}_{17}^{6}$` and
 `$\mathbb{F}_{9}^{8}$` (`$\mathbb{F}_{a}^{b}$` being the [vector
 space](https://en.wikipedia.org/wiki/Vector_space) of dimensionality
 `$b$` for the [finite field](https://en.wikipedia.org/wiki/Finite_field)

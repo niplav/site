@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2021-01-19, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2021-02-09, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -574,7 +574,7 @@ Only in this case I will attempt to write out the the proof more formally:
 	e \in (\bigcup_{i \in I} A_{i}) \land e \in (\bigcup_{j \in J} B_{j}) \Rightarrow \\
 	(\exists i_{e} \in I: e \in A_{i_{e}}) \land (\exists j_{e} \in J: e \in B_{j_{e}}) \Rightarrow \\
 	\exists i_{e} \in I: \exists j_{e} \in J: e \in A_{i_{e}} \land e \in B_{j_{e}} \Rightarrow \\
-	\exists (i_{e}, j_{e}) \in I \times J: e \in (A_{i_{e}} \cap  B_{j_{e}}) \Rightarrow \\
+	\exists (i_{e}, j_{e}) \in I \times J: e \in (A_{i_{e}} \cap B_{j_{e}}) \Rightarrow \\
 	e \in \bigcup_{(i,j) \in I \times J} (A_{i} \cap B_{j})$$
 </div>
 
@@ -582,7 +582,7 @@ Only in this case I will attempt to write out the the proof more formally:
 
 Let `$e \in \bigcup_{(i,j) \in I \times J} (A_{i} \cap B_{j})$`.
 Then there exists `$(i_{e}, j_{e}) \in I \times J$` so that
-`$e \in (A_{i_{e}} \cap  B_{j_{e}})$`.
+`$e \in (A_{i_{e}} \cap B_{j_{e}})$`.
 But then `$e \in \bigcup_{i \in I} A_{i}$` and `$e \in \bigcup_{j \in J} B_{j}$`,
 which means that `$e$` is also in their intersection.
 
@@ -613,7 +613,7 @@ This can be written down more formally as well:
 
 Let `$e \in \bigcap_{(i,j) \in I \times J} (A_{i} \cup B_{j})$`. Then
 for every `$i$` and `$j$`, `$e \in A_{i} \cup B_{j}$`. That means that
-for every `$i$`, `$e \in  A_{i}$`: if there is just one `$j$` so that `$e \not \in B_{j}$`,
+for every `$i$`, `$e \in A_{i}$`: if there is just one `$j$` so that `$e \not \in B_{j}$`,
 for the last sentence to be true, `$A_{i}$` must compensate for that. Or,
 if not an `$e$` in every `$A_{i}$`, then this must be true for every
 `$B_{j}$` (with a similar reasoning as for `$A_{i}$`). But if `$e$` in
@@ -799,5 +799,24 @@ Let then `$x_1 \neq x_2 \in X$`, so that `$f(x_1)=f(x_2)=y$`. Let then
 
 Then `$y \in f(A) \cap f(B)$`, but `$y \not \in f(A \cap B)$`. So those
 `$x_1, x_2$` can't exist, therefore f is injective.
+
+□
+
+(iii) To be proven: f injective `$\Leftrightarrow f(X-A) \subset Y-f(A)$`
+for all subsets of A.
+
+First case: f inj. `$\Rightarrow f(X-A) \subset Y-f(A)$`
+
+Let `$e \in f(X-A)$` and `$e \not \in Y-f(A)$`. Then `$\exists x \in X-A$`
+so that `$f(x)=e$`, and there is no `$x_2 \in A: f(x_2)=e$`
+(since f is injective). But since `$e \in Y$` (by definition) and `$e \not \in f(A)$`,
+e must be in `$Y-f(A)$`.
+
+Second case: `$f(X-A) \subset Y-f(A) \Rightarrow f$` inj.
+
+Assume `$x_1, x_2 (x_1 \not = x_2)$` so that `$f(x_1)=f(x_2)=y$`. Let
+then `$x_1 \not \in A$` and `$x_2 \in A$`. Then `$y \in f(X-A)$`
+(since `$x_1 \in X-A$`). But since `$y \in f(A)$`, `$y \not \in Y-f(A)$`.
+Contradiction, f must be injective.
 
 □

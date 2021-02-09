@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-01-24, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-02-08, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,7 +11,9 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
-* [Monsters vs. Aliens]()
+* [Passengers]()
+* [Harry Potter and the Prisoner of Azkaban](https://www.imdb.com/title/tt0304141/)
+* [Monsters vs. Aliens](https://www.imdb.com/title/tt0892782/)
 * [The Ice Storm](https://www.imdb.com/title/tt0119349/)
 * [Megamind](https://www.imdb.com/title/tt1001526/)
 * [War for the Planet of the Apes](https://www.imdb.com/title/tt3450958/)
