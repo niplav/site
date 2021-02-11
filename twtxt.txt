@@ -384,3 +384,5 @@
 2021-02-06T10:20:46.000000Z	@prologic “we _should_ fight for IRC more” another slack “Definition: Slack. The absence of binding constraints on behavior.” https://thezvi.wordpress.com/2017/09/30/slack/
 2021-02-06T10:22:57.000000Z	ironically, IRC has more slack than Slack
 2021-02-07T22:43:55.000000Z	leave a line of retreat in ideology-space
+2021-02-10T10:11:44.000000Z	proposal: let's ignore 2020 data when trying to argue about anything
+2021-02-10T18:18:17.000000Z	yo bro, the new alignment newsletter just dropped!

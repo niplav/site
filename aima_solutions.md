@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-21, modified: 2021-02-09, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-01-21, modified: 2021-02-11, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
@@ -600,5 +600,242 @@ false to `$x_3$` corresponds to `$x_1 \land \lnot x_2 \land \lnot x_2$`).
 The set of these atomic events exactly entails the proposition.
 
 One can then simply create the conjunction of sentences
-`$\bigvee_{i=1}^{n} a_i$` that is true only if we use an assignment
+`$\bigwedge_{i=1}^{n} a_i$` that is true only if we use an assignment
 that makes the proposition true.
+
+Chapter 15
+----------
+
+### 15.13
+
+> A professor wants to know if students are getting enough sleep. Each
+day, the professor observes whether the students sleep in class, and
+whether they have red eyes. The professor has the following domain theory:
+
+>* The prior probability of getting enough sleep, with no observations, is 0.7.
+*	The probability of getting enough sleep on night t is 0.8 given
+	that the student got enough sleep the previous night, and 0.3
+	if not.
+* The probability of having red eyes is 0.2 if the student got enough sleep, and 0.7 if not.
+* The probability of sleeping in class is 0.1 if the student got enough sleep, and 0.3 if not.
+
+> Formulate this information as a dynamic Bayesian network that
+the professor could use to filter or predict from a sequence of
+observations. Then reformulate it as a hidden Markov model that has only
+a single observation variable. Give the complete probability tables for
+the model.
+
+There are three variables: `$E_t$` for getting enough sleep in night t,
+`$S_t$` for sleeping in class on day t, and `$R_t$` for having red eyes
+on day t.
+
+<!--TODO: Make diagram of bayes network-->
+
+The conditional probabilities tables for the dynamic Bayesian network are:
+
+`$P(E_{t+1}|E_t)$`:
+
+<table>
+<thead>
+	<tr>
+		<td>`$E_t$`</td>
+		<td>`$e_{t+1}$`</td>
+		<td>`$\lnot e_{t+1}$`</td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+			<td>1</td>
+			<td>0.8</td>
+			<td>0.2</td>
+	</tr>
+	<tr>
+			<td>0</td>
+			<td>0.3</td>
+			<td>0.7</td>
+	</tr>
+</tbody>
+</table>
+
+`$P(S_t|E_t)$`:
+
+<table>
+<thead>
+	<tr>
+		<td>`$E_t$`</td>
+		<td>`$s_t$`</td>
+		<td>`$\lnot s_t$`</td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+			<td>1</td>
+			<td>0.1</td>
+			<td>0.9</td>
+	</tr>
+	<tr>
+			<td>0</td>
+			<td>0.3</td>
+			<td>0.7</td>
+	</tr>
+</tbody>
+</table>
+
+`$P(R_t|E_t)$`:
+
+<table>
+<thead>
+	<tr>
+		<td>`$E_t$`</td>
+		<td>`$r_t$`</td>
+		<td>`$\lnot r_t$`</td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+			<td>1</td>
+			<td>0.2</td>
+			<td>0.8</td>
+	</tr>
+	<tr>
+			<td>0</td>
+			<td>0.7</td>
+			<td>0.3</td>
+	</tr>
+</tbody>
+</table>
+
+For the hidden Markov model, the table for `$P(E_{t+1}|E_t)$` stays
+the same. For `$P(S_t, R_t | E_t)$` we assume that `$S_t$` and `$R_t$`
+are conditionally independent given `$E_t$`:
+
+
+<table>
+<thead>
+	<tr>
+		<td>`$E_t$`</td>
+		<td>`$r_t, s_t$`</td>
+		<td>`$r_t, \lnot s_t$`</td>
+		<td>`$\lnot r_t, s_t$`</td>
+		<td>`$\lnot r_t, \lnot s_t$`</td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+			<td>1</td>
+			<td>0.02</td>
+			<td>0.18</td>
+			<td>0.08</td>
+			<td>0.72</td>
+	</tr>
+	<tr>
+			<td>0</td>
+			<td>0.21</td>
+			<td>0.49</td>
+			<td>0.09</td>
+			<td>0.21</td>
+	</tr>
+</tbody>
+</table>
+
+### 15.14
+
+> For the DBN specified in Exercise 15.13 and for the evidence values
+
+>* e1 = not red eyes, not sleeping in class
+* e2 = red eyes, not sleeping in class
+* e3 = red eyes, sleeping in class
+
+> perform the following computations:
+
+> a. State estimation: Compute `$P(EnoughSleep_t|e_{1:t})$` for each of t = 1, 2, 3.
+
+Note: In the previous exercise, I used e as a symbol for getting enough
+sleep. This collides with the abstract symbol for evidence variables,
+but I'm too lazy to change it back (I will use `$ev$` for the evidence
+variables instead). I will not mix abstract variables and concrete
+variables (here R, S and E) to keep the confusion minimal.
+
+For t=1:
+
+<div>
+	$$P(E_1|e_{1:1})=\\
+	E(E_1|\lnot r, \lnot s)=\\
+	\alpha P(\lnot r, \lnot s| E_1)*(P(E_1|e_0)*P(e_0)+P(E_1|\lnot e_0)*P(\lnot e_0)=\\
+	\alpha \langle 0.72, 0.21 \rangle * (\langle 0.8, 0.2 \rangle * 0.7 + \langle 0.2, 0.8 \rangle * 0.3)=\\
+	\alpha \langle 0.4464, 0.0798 \rangle \approx \\
+	\langle 0.8483, 0.151653 \rangle $$
+</div>
+
+For t=2:
+
+<div>
+	$$P(E_2|e_{1:2})=\\
+	E(E_2|r, \lnot s)=\\
+	\alpha P(r, \lnot s| E_2)*(P(E_2|e_1)*P(e_1)+P(E_2|\lnot e_1)*P(\lnot e_1)=\\
+	\alpha \langle 0.18, 0.49 \rangle * (\langle 0.8, 0.2 \rangle * 0.8483 + \langle 0.3, 0.7 \rangle * 0.151653)=\\
+	\alpha \langle 0.13034446, 0.13515 \rangle \approx \\
+	\langle 0.490949, 0.50905 \rangle $$
+</div>
+
+For t=3:
+
+<div>
+	$$P(E_3|e_{1:3})=\\
+	E(E_3|r, s)=\\
+	\alpha P(r, s| E_3)*(P(E_3|e_2)*P(e_2)+P(E_3|\lnot e_2)*P(\lnot e_2)=\\
+	\alpha \langle 0.02, 0.21 \rangle * (\langle 0.8, 0.2 \rangle * 0.490949 + \langle 0.3, 0.7 \rangle * 0.50905)=\\
+	\alpha \langle 0.0109095, 0.09545 \rangle \approx \\
+	\langle 0.1025715, 0.89742846\rangle $$
+</div>
+
+> b. Smoothing: Compute `$P(EnoughSleep_t|e_{1:3})$` for each of t = 1, 2, 3.
+
+I'll use k instead of t for the point of smoothing here, because, let's
+be real, I don't need more double-usage of symbols:
+
+For k=1:
+
+<div>
+	$$P(E_1|ev_{1:t}=\alpha P(E_1|ev_{1:1})\times P(ev_{2:3}|E_1)=\alpha f_{1:1} \times b_{2:3}=\\
+	\alpha \langle 0.8483, 0.151653 \rangle \times b_{2:3}=\\
+	\alpha \langle 0.8483, 0.151653 \rangle \times P(ev_{2:3}|E_1)=\\
+	\alpha \langle 0.8483, 0.151653 \rangle \times P(r, \lnot s | e_2)*P(ev_{3:3}|e_2)*P(e_2|E_1)+P(r, \lnot s| \lnot e_2)*P(ev_{3:3}|\lnot e_2) * P(\lnot e_2 | E_1)=\\
+	\alpha \langle 0.8483, 0.151653 \rangle \times P(r, \lnot s | e_2)*P(r,s|e_2)*P(e_2|E_1)+P(r, \lnot s| \lnot e_2)*P(r,s|\lnot e_2) * P(\lnot e_2 | E_1)=\\
+	\alpha \langle 0.8483, 0.151653 \rangle \times 0.18*0.02*\langle 0.8, 0.3 \rangle + 0.49*0.21*\langle 0.2, 0.7 \rangle=
+	\alpha \langle 0.8483, 0.151653 \rangle \times \langle 0.02346, 0.07311 \rangle=\\
+	\langle 0.64221, 0.3577896 \rangle $$
+</div>
+
+For k=2:
+
+<div>
+	$$P(E_2|ev_{1:t}=\alpha P(E_2|ev_{1:2})\times P(ev_{3:3}|E_2)=\alpha f_{1:2} \times b_{3:3}=\\
+	\alpha  \langle 0.490949, 0.50905 \rangle \times \langle 0.490949, 0.50905\rangle \times b_{3:3}=\\
+	\alpha  \langle 0.490949, 0.50905 \rangle \times \langle 0.490949, 0.50905\rangle \times P(ev_{3:3}|E_2)=\\
+	\alpha  \langle 0.490949, 0.50905 \rangle \times P(r, s | e_3)*P(ev_{4:3}|e_3)*P(e_3|E_2)+P(r, s| \lnot e_3)*P(ev_{4:3}|\lnot e_3) * P(\lnot e_3 | E_2)=\\
+	\alpha  \langle 0.490949, 0.50905 \rangle \times P(r, s | e_3)*P(e_3|E_2)+P(r, s| \lnot e_3) * P(\lnot e_3 | E_2)=\\
+	\alpha  \langle 0.490949, 0.50905 \rangle \times 0.02*\langle 0.8, 0.3 \rangle + 0.21*\langle 0.2, 0.7 \rangle=
+	\alpha  \langle 0.490949, 0.50905 \rangle \times \langle 0.058, 0.153\rangle=\\
+	\langle 0.2677723998, 0.732276 \rangle $$
+</div>
+
+Since I don't know `$e_{4:3}$` (I think nobody does), I assign it
+probability 1. Should I assign it probability 0? I don't know!
+
+For k=3:
+
+The number is the same as for filtering, since k=t.
+
+> c. Compare the filtered and smoothed probabilities for t = 1 and t = 2.
+
+As a reminder,
+`$P(E_1|ev_{1:1})=\langle 0.8483, 0.151653 \rangle, P(E_2|ev{1:2)=\langle 0.490949, 0.50905 \rangle$`,
+and
+`$P(E_1|ev_{1:3})=\langle 0.64221, 0.3577896 \rangle, P(E_2|ev{1:3)=\langle 0.2677723998, 0.732276 \rangle$`.
+
+The probabilities don't disagree sharply at any point. Interestingly,
+`$P(E_1|ev_{1:1})$` is more confident than `$P(E_1|ev_{1:3})$`, but
+it's the other way around for `$E_2$`.
+
+Otherwise, what's there to compare further?
