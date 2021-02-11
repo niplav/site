@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-06-15, modified: 2021-02-05, language: english, status: notes, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-15, modified: 2021-02-10, language: english, status: notes, importance: 1, confidence: log*
 
 > __I recently got the feeling that tracking my exercise might be vaguely
 > useful. This is my attempt.__
@@ -12,12 +12,12 @@ Exercise Log
 Template
 --------
 
-* 60 dumbbell biceps curls
-* 60 dumbbell shoulder presses
-* 60 dumbbell upright rows
-* 60 dumbbell bench presses
-* 20 dumbbell scaptions
-* 20 dumbbell lateral lifts
+* 60 5kg dumbbell biceps curls
+* 60 5kg dumbbell shoulder presses
+* 60 5kg dumbbell upright rows
+* 60 5kg dumbbell bench presses
+* 20 5kg dumbbell scaptions
+* 20 5kg dumbbell lateral lifts
 * 60 push-ups
 * 60 sit-ups
 * 60 double leg lifts
@@ -34,10 +34,10 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 5 dumbbell scaptions
-* 5 dumbbell shoulder presses
-* 5 dumbbell upright rows
+* 50 5kg dumbbell biceps curls
+* 5 5kg dumbbell scaptions
+* 5 5kg dumbbell shoulder presses
+* 5 5kg dumbbell upright rows
 * 12 burpees
 * 20 double leg lifts
 * 100 froggers
@@ -46,10 +46,10 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 5 dumbbell scaptions
-* 20 dumbbell shoulder presses
-* 20 dumbbell upright rows
+* 50 5kg dumbbell biceps curls
+* 5 5kg dumbbell scaptions
+* 20 5kg dumbbell shoulder presses
+* 20 5kg dumbbell upright rows
 * 50 double leg lifts
 * 200 froggers
 
@@ -57,11 +57,11 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 20 dumbbell scaptions
-* 10 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 10 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 20 5kg dumbbell scaptions
+* 10 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 10 5kg dumbbell bench presses
 * 50 double leg lifts
 * 200 froggers
 * 1 minute plank
@@ -70,10 +70,10 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 25 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 50 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 25 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 50 5kg dumbbell bench presses
 * 50 double leg lifts
 * 100 froggers
 
@@ -81,10 +81,10 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 25 dumbbell shoulder presses
-* 25 dumbbell upright rows
-* 25 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 25 5kg dumbbell shoulder presses
+* 25 5kg dumbbell upright rows
+* 25 5kg dumbbell bench presses
 * 5 burpees
 * 50 double leg lifts
 * 100 froggers
@@ -94,11 +94,11 @@ Log
 
 * 60 push-ups
 * 60 sit-ups
-* 60 dumbbell biceps curls
-* 5 dumbbell scaptions
-* 20 dumbbell shoulder presses
-* 40 dumbbell upright rows
-* 20 dumbbell bench presses
+* 60 5kg dumbbell biceps curls
+* 5 5kg dumbbell scaptions
+* 20 5kg dumbbell shoulder presses
+* 40 5kg dumbbell upright rows
+* 20 5kg dumbbell bench presses
 * 10 burpees
 * 40 double leg lifts
 * 100 froggers
@@ -107,11 +107,11 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 5 dumbbell scaptions
-* 20 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 50 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 5 5kg dumbbell scaptions
+* 20 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 50 5kg dumbbell bench presses
 * 50 double leg lifts
 * 100 froggers
 
@@ -119,8 +119,8 @@ Log
 
 * 25 push-ups
 * 50 sit-ups
-* 25 dumbbell biceps curls
-* 25 dumbbell shoulder presses
+* 25 5kg dumbbell biceps curls
+* 25 5kg dumbbell shoulder presses
 * 25 double leg lifts
 * 100 froggers
 
@@ -128,11 +128,11 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 5 dumbbell scaptions
-* 50 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 25 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 5 5kg dumbbell scaptions
+* 50 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 25 5kg dumbbell bench presses
 * 50 double leg lifts
 * 100 froggers
 
@@ -140,11 +140,11 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 5 dumbbell scaptions
-* 25 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 25 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 5 5kg dumbbell scaptions
+* 25 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 25 5kg dumbbell bench presses
 * 50 double leg lifts
 * 100 froggers
 
@@ -152,11 +152,11 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 5 dumbbell scaptions
-* 30 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 35 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 5 5kg dumbbell scaptions
+* 30 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 35 5kg dumbbell bench presses
 * 10 burpees
 * 50 double leg lifts
 * 100 froggers
@@ -166,11 +166,11 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 5 dumbbell scaptions
-* 50 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 50 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 5 5kg dumbbell scaptions
+* 50 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 50 5kg dumbbell bench presses
 * 20 burpees
 * 50 double leg lifts
 * 100 froggers
@@ -179,19 +179,19 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 50 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 50 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 50 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 50 5kg dumbbell bench presses
 * 50 double leg lifts
 
 ### 2020-07-23
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 5 dumbbell scaptions
-* 25 dumbbell shoulder presses
+* 50 5kg dumbbell biceps curls
+* 5 5kg dumbbell scaptions
+* 25 5kg dumbbell shoulder presses
 * 50 double leg lifts
 * 100 froggers
 * 1 minute plank
@@ -204,11 +204,11 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 5 dumbbell scaptions
-* 50 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 50 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 5 5kg dumbbell scaptions
+* 50 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 50 5kg dumbbell bench presses
 * 20 burpees
 * 50 double leg lifts
 * 100 froggers
@@ -222,11 +222,11 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 5 dumbbell scaptions
-* 50 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 50 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 5 5kg dumbbell scaptions
+* 50 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 50 5kg dumbbell bench presses
 * 20 burpees
 * 50 double leg lifts
 * 100 froggers
@@ -240,11 +240,11 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 5 dumbbell scaptions
-* 35 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 25 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 5 5kg dumbbell scaptions
+* 35 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 25 5kg dumbbell bench presses
 * 10 burpees
 * 50 double leg lifts
 * 100 froggers
@@ -261,11 +261,11 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 5 dumbbell scaptions
-* 50 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 25 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 5 5kg dumbbell scaptions
+* 50 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 25 5kg dumbbell bench presses
 * 15 burpees
 * 50 double leg lifts
 * 100 froggers
@@ -279,11 +279,11 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 10 dumbbell scaptions
-* 25 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 25 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 10 5kg dumbbell scaptions
+* 25 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 25 5kg dumbbell bench presses
 * 20 burpees
 * 50 double leg lifts
 * 100 froggers
@@ -297,11 +297,11 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 5 dumbbell scaptions
-* 25 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 50 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 5 5kg dumbbell scaptions
+* 25 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 50 5kg dumbbell bench presses
 * 20 burpees
 * 50 double leg lifts
 * 100 froggers
@@ -311,11 +311,11 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 10 dumbbell scaptions
-* 50 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 50 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 10 5kg dumbbell scaptions
+* 50 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 50 5kg dumbbell bench presses
 * 20 burpees
 * 50 double leg lifts
 * 100 froggers
@@ -329,11 +329,11 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 5 dumbbell scaptions
-* 25 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 50 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 5 5kg dumbbell scaptions
+* 25 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 50 5kg dumbbell bench presses
 * 50 double leg lifts
 * 100 froggers
 
@@ -345,10 +345,10 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 50 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 50 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 50 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 50 5kg dumbbell bench presses
 * 20 burpees
 * 50 double leg lifts
 * 100 froggers
@@ -366,11 +366,11 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 10 dumbbell scaptions
-* 50 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 50 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 10 5kg dumbbell scaptions
+* 50 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 50 5kg dumbbell bench presses
 * 10 burpees
 * 50 double leg lifts
 * 100 froggers
@@ -380,11 +380,11 @@ Log
 
 * 50 push-ups
 * 100 sit-ups
-* 50 dumbbell biceps curls
-* 10 dumbbell scaptions
-* 50 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 50 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 10 5kg dumbbell scaptions
+* 50 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 50 5kg dumbbell bench presses
 * 20 burpees
 * 50 double leg lifts
 * 100 froggers
@@ -398,11 +398,11 @@ Log
 
 * 50 push-ups
 * 100 sit-ups
-* 50 dumbbell biceps curls
-* 15 dumbbell scaptions
-* 50 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 50 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 15 5kg dumbbell scaptions
+* 50 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 50 5kg dumbbell bench presses
 * 10 burpees
 * 50 double leg lifts
 * 100 froggers
@@ -411,11 +411,11 @@ Log
 
 * 50 push-ups
 * 80 sit-ups
-* 50 dumbbell biceps curls
-* 10 dumbbell scaptions
-* 25 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 50 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 10 5kg dumbbell scaptions
+* 25 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 50 5kg dumbbell bench presses
 * 10 burpees
 * 50 double leg lifts
 * 100 froggers
@@ -425,11 +425,11 @@ Log
 
 * 60 push-ups
 * 80 sit-ups
-* 60 dumbbell biceps curls
-* 15 dumbbell scaptions
-* 30 dumbbell shoulder presses
-* 60 dumbbell upright rows
-* 60 dumbbell bench presses
+* 60 5kg dumbbell biceps curls
+* 15 5kg dumbbell scaptions
+* 30 5kg dumbbell shoulder presses
+* 60 5kg dumbbell upright rows
+* 60 5kg dumbbell bench presses
 * 20 burpees
 * 80 double leg lifts
 * 100 froggers
@@ -439,11 +439,11 @@ Log
 
 * 60 push-ups
 * 80 sit-ups
-* 60 dumbbell biceps curls
-* 10 dumbbell scaptions
-* 50 dumbbell shoulder presses
-* 60 dumbbell upright rows
-* 60 dumbbell bench presses
+* 60 5kg dumbbell biceps curls
+* 10 5kg dumbbell scaptions
+* 50 5kg dumbbell shoulder presses
+* 60 5kg dumbbell upright rows
+* 60 5kg dumbbell bench presses
 * 10 burpees
 * 50 double leg lifts
 * 100 froggers
@@ -457,11 +457,11 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 20 dumbbell scaptions
-* 50 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 50 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 20 5kg dumbbell scaptions
+* 50 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 50 5kg dumbbell bench presses
 * 20 burpees
 * 50 double leg lifts
 * 100 froggers
@@ -474,11 +474,11 @@ Log
 
 * 60 push-ups
 * 60 sit-ups
-* 60 dumbbell biceps curls
-* 10 dumbbell scaptions
-* 60 dumbbell shoulder presses
-* 60 dumbbell upright rows
-* 60 dumbbell bench presses
+* 60 5kg dumbbell biceps curls
+* 10 5kg dumbbell scaptions
+* 60 5kg dumbbell shoulder presses
+* 60 5kg dumbbell upright rows
+* 60 5kg dumbbell bench presses
 * 10 burpees
 * 60 double leg lifts
 * 100 froggers
@@ -492,11 +492,11 @@ Log
 
 * 50 push-ups
 * 50 sit-ups
-* 50 dumbbell biceps curls
-* 10 dumbbell scaptions
-* 50 dumbbell shoulder presses
-* 50 dumbbell upright rows
-* 50 dumbbell bench presses
+* 50 5kg dumbbell biceps curls
+* 10 5kg dumbbell scaptions
+* 50 5kg dumbbell shoulder presses
+* 50 5kg dumbbell upright rows
+* 50 5kg dumbbell bench presses
 * 20 burpees
 * 20 double leg lifts
 * 100 froggers
@@ -509,12 +509,12 @@ Log
 
 * 60 push-ups
 * 60 sit-ups
-* 60 dumbbell biceps curls
-* 20 dumbbell scaptions
-* 60 dumbbell shoulder presses
-* 60 dumbbell upright rows
-* 60 dumbbell bench presses
-* 20 dumbbell lateral lifts
+* 60 5kg dumbbell biceps curls
+* 20 5kg dumbbell scaptions
+* 60 5kg dumbbell shoulder presses
+* 60 5kg dumbbell upright rows
+* 60 5kg dumbbell bench presses
+* 20 5kg dumbbell lateral lifts
 * 20 burpees
 * 60 double leg lifts
 * 100 froggers
@@ -523,12 +523,12 @@ Log
 
 * 60 push-ups
 * 60 sit-ups
-* 60 dumbbell biceps curls
-* 20 dumbbell scaptions
-* 60 dumbbell shoulder presses
-* 60 dumbbell upright rows
-* 60 dumbbell bench presses
-* 20 dumbbell lateral lifts
+* 60 5kg dumbbell biceps curls
+* 20 5kg dumbbell scaptions
+* 60 5kg dumbbell shoulder presses
+* 60 5kg dumbbell upright rows
+* 60 5kg dumbbell bench presses
+* 20 5kg dumbbell lateral lifts
 * 10 burpees
 * 60 double leg lifts
 * 100 froggers
@@ -542,12 +542,12 @@ Log
 
 * 60 push-ups
 * 60 sit-ups
-* 60 dumbbell biceps curls
-* 20 dumbbell scaptions
-* 60 dumbbell shoulder presses
-* 60 dumbbell upright rows
-* 60 dumbbell bench presses
-* 20 dumbbell lateral lifts
+* 60 5kg dumbbell biceps curls
+* 20 5kg dumbbell scaptions
+* 60 5kg dumbbell shoulder presses
+* 60 5kg dumbbell upright rows
+* 60 5kg dumbbell bench presses
+* 20 5kg dumbbell lateral lifts
 * 20 burpees
 * 60 double leg lifts
 * 100 froggers
@@ -555,12 +555,12 @@ Log
 
 ### 2020-12-12
 
-* 60 dumbbell biceps curls
-* 60 dumbbell shoulder presses
-* 60 dumbbell upright rows
-* 60 dumbbell bench presses
-6* 20 dumbbell scaptions
-* 20 dumbbell lateral lifts
+* 60 5kg dumbbell biceps curls
+* 60 5kg dumbbell shoulder presses
+* 60 5kg dumbbell upright rows
+* 60 5kg dumbbell bench presses
+6* 20 5kg dumbbell scaptions
+* 20 5kg dumbbell lateral lifts
 * 60 push-ups
 * 100 sit-ups
 * 60 double leg lifts
@@ -573,12 +573,12 @@ Log
 
 ### 2020-12-19
 
-* 60 dumbbell biceps curls
-* 60 dumbbell shoulder presses
-* 60 dumbbell upright rows
-* 60 dumbbell bench presses
-* 20 dumbbell scaptions
-* 20 dumbbell lateral lifts
+* 60 5kg dumbbell biceps curls
+* 60 5kg dumbbell shoulder presses
+* 60 5kg dumbbell upright rows
+* 60 5kg dumbbell bench presses
+* 20 5kg dumbbell scaptions
+* 20 5kg dumbbell lateral lifts
 * 60 push-ups
 * 100 sit-ups
 * 60 double leg lifts
@@ -592,12 +592,12 @@ Log
 
 ### 2020-12-23
 
-* 60 dumbbell biceps curls
-* 60 dumbbell shoulder presses
-* 60 dumbbell upright rows
-* 60 dumbbell bench presses
-* 20 dumbbell scaptions
-* 20 dumbbell lateral lifts
+* 60 5kg dumbbell biceps curls
+* 60 5kg dumbbell shoulder presses
+* 60 5kg dumbbell upright rows
+* 60 5kg dumbbell bench presses
+* 20 5kg dumbbell scaptions
+* 20 5kg dumbbell lateral lifts
 * 60 push-ups
 * 60 sit-ups
 * 60 double leg lifts
@@ -644,12 +644,12 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 
 ### 2021-01-03
 
-* 60 dumbbell biceps curls
-* 60 dumbbell shoulder presses
-* 60 dumbbell upright rows
-* 60 dumbbell bench presses
-* 20 dumbbell scaptions
-6* 20 dumbbell lateral lifts
+* 60 5kg dumbbell biceps curls
+* 60 5kg dumbbell shoulder presses
+* 60 5kg dumbbell upright rows
+* 60 5kg dumbbell bench presses
+* 20 5kg dumbbell scaptions
+6* 20 5kg dumbbell lateral lifts
 * 60 push-ups
 * 60 sit-ups
 * 60 double leg lifts
@@ -664,12 +664,12 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 
 ### 2021-01-08
 
-* 60 dumbbell biceps curls
-* 60 dumbbell shoulder presses
-* 60 dumbbell upright rows
-* 60 dumbbell bench presses
-* 20 dumbbell scaptions
-* 20 dumbbell lateral lifts
+* 60 5kg dumbbell biceps curls
+* 60 5kg dumbbell shoulder presses
+* 60 5kg dumbbell upright rows
+* 60 5kg dumbbell bench presses
+* 20 5kg dumbbell scaptions
+* 20 5kg dumbbell lateral lifts
 * 60 push-ups
 * 60 sit-ups
 * 60 double leg lifts
@@ -684,12 +684,12 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 
 ### 2021-01-15
 
-* 60 dumbbell biceps curls
-* 60 dumbbell shoulder presses
-* 60 dumbbell upright rows
-* 60 dumbbell bench presses
-* 20 dumbbell scaptions
-* 20 dumbbell lateral lifts
+* 60 5kg dumbbell biceps curls
+* 60 5kg dumbbell shoulder presses
+* 60 5kg dumbbell upright rows
+* 60 5kg dumbbell bench presses
+* 20 5kg dumbbell scaptions
+* 20 5kg dumbbell lateral lifts
 * 60 push-ups
 * 60 sit-ups
 * 60 double leg lifts
@@ -705,12 +705,12 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 
 ### 2021-01-20
 
-* 60 dumbbell biceps curls
-* 60 dumbbell shoulder presses
-* 60 dumbbell upright rows
-* 60 dumbbell bench presses
-* 20 dumbbell scaptions
-* 20 dumbbell lateral lifts
+* 60 5kg dumbbell biceps curls
+* 60 5kg dumbbell shoulder presses
+* 60 5kg dumbbell upright rows
+* 60 5kg dumbbell bench presses
+* 20 5kg dumbbell scaptions
+* 20 5kg dumbbell lateral lifts
 * 60 push-ups
 * 60 sit-ups
 * 60 double leg lifts
@@ -731,15 +731,15 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 
 ### 2021-01-26
 
-* 60 dumbbell biceps curls
-* 30 dumbbell shoulder presses
-* 60 dumbbell upright rows
-* 60 dumbbell bench presses
-* 20 dumbbell scaptions
-* 10 dumbbell lateral lifts
-* 20 Γ-lifts
+* 60 5kg dumbbell biceps curls
+* 30 5kg dumbbell shoulder presses
+* 60 5kg dumbbell upright rows
+* 60 5kg dumbbell bench presses
+* 20 5kg dumbbell scaptions
+* 10 5kg dumbbell lateral lifts
+* 20 5kg dumbbell Γ-lifts
 * 60 push-ups
-6* 60 sit-ups
+* 60 sit-ups
 * 60 double leg lifts
 * 20 walking lunges
 * 100 froggers
@@ -747,7 +747,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 
 ### 2021-01-29
 
-* 60 dumbbell shoulder presses
+* 60 5kg dumbbell shoulder presses
 * 60 burpees
 * 100 froggers
 
@@ -757,13 +757,13 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 
 ### 2021-02-05
 
-* 60 dumbbell biceps curls
-* 60 dumbbell shoulder presses
-* 60 dumbbell upright rows
-* 60 dumbbell bench presses
-* 20 dumbbell scaptions
-* 20 dumbbell lateral lifts
-* 40 Γ-lifts
+* 60 5kg dumbbell biceps curls
+* 60 5kg dumbbell shoulder presses
+* 60 5kg dumbbell upright rows
+* 60 5kg dumbbell bench presses
+* 20 5kg dumbbell scaptions
+* 20 5kg dumbbell lateral lifts
+* 40 5kg dumbbell Γ-lifts
 * 60 push-ups
 * 60 sit-ups
 * 60 double leg lifts
@@ -775,3 +775,20 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 ### 2021-02-07
 
 * 30 minutes jogging
+
+### 2021-02-10
+
+* 40 7.5kg dumbbell biceps curls
+* 40 7.5kg dumbbell shoulder presses
+* 40 7.5kg dumbbell upright rows
+* 40 7.5kg dumbbell bench presses
+* 40 7.5kg dumbbell Γ-lifts
+* 10 7.5kg dumbbell scaptions
+* 10 7.5kg dumbbell lateral lifts
+* 60 push-ups
+* 60 sit-ups
+* 30 double leg lifts
+* 60 walking lunges
+* 20 burpees
+* 100 froggers
+* 2 minutes plank
