@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-21, modified: 2021-02-11, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-01-21, modified: 2021-02-12, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
@@ -638,9 +638,9 @@ The conditional probabilities tables for the dynamic Bayesian network are:
 <table>
 <thead>
 	<tr>
-		<td>`$E_t$`</td>
-		<td>`$e_{t+1}$`</td>
-		<td>`$\lnot e_{t+1}$`</td>
+		<td>$E_t$</td>
+		<td>$e_{t+1}$</td>
+		<td>$\lnot e_{t+1}$</td>
 	</tr>
 </thead>
 <tbody>
@@ -662,9 +662,9 @@ The conditional probabilities tables for the dynamic Bayesian network are:
 <table>
 <thead>
 	<tr>
-		<td>`$E_t$`</td>
-		<td>`$s_t$`</td>
-		<td>`$\lnot s_t$`</td>
+		<td>$E_t$</td>
+		<td>$s_t$</td>
+		<td>$\lnot s_t$</td>
 	</tr>
 </thead>
 <tbody>
@@ -686,9 +686,9 @@ The conditional probabilities tables for the dynamic Bayesian network are:
 <table>
 <thead>
 	<tr>
-		<td>`$E_t$`</td>
-		<td>`$r_t$`</td>
-		<td>`$\lnot r_t$`</td>
+		<td>$E_t$</td>
+		<td>$r_t$</td>
+		<td>$\lnot r_t$</td>
 	</tr>
 </thead>
 <tbody>
@@ -709,15 +709,14 @@ For the hidden Markov model, the table for `$P(E_{t+1}|E_t)$` stays
 the same. For `$P(S_t, R_t | E_t)$` we assume that `$S_t$` and `$R_t$`
 are conditionally independent given `$E_t$`:
 
-
 <table>
 <thead>
 	<tr>
-		<td>`$E_t$`</td>
-		<td>`$r_t, s_t$`</td>
-		<td>`$r_t, \lnot s_t$`</td>
-		<td>`$\lnot r_t, s_t$`</td>
-		<td>`$\lnot r_t, \lnot s_t$`</td>
+		<td>$E_t$</td>
+		<td>$r_t, s_t$</td>
+		<td>$r_t, \lnot s_t$</td>
+		<td>$\lnot r_t, s_t$</td>
+		<td>$\lnot r_t, \lnot s_t$</td>
 	</tr>
 </thead>
 <tbody>
@@ -830,9 +829,9 @@ The number is the same as for filtering, since k=t.
 > c. Compare the filtered and smoothed probabilities for t = 1 and t = 2.
 
 As a reminder,
-`$P(E_1|ev_{1:1})=\langle 0.8483, 0.151653 \rangle, P(E_2|ev{1:2)=\langle 0.490949, 0.50905 \rangle$`,
+`$P(E_1|ev_{1:1})=\langle 0.8483, 0.151653 \rangle, P(E_2|ev_{1:2})=\langle 0.490949, 0.50905 \rangle$`,
 and
-`$P(E_1|ev_{1:3})=\langle 0.64221, 0.3577896 \rangle, P(E_2|ev{1:3)=\langle 0.2677723998, 0.732276 \rangle$`.
+`$P(E_1|ev_{1:3})=\langle 0.64221, 0.3577896 \rangle, P(E_2|ev_{1:3})=\langle 0.2677723998, 0.732276 \rangle$`.
 
 The probabilities don't disagree sharply at any point. Interestingly,
 `$P(E_1|ev_{1:1})$` is more confident than `$P(E_1|ev_{1:3})$`, but
