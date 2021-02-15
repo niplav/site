@@ -160,6 +160,21 @@ The Problems With Regulation
 
 ### Regulations Are Usually Not Retracted
 
+> Market based decision are quite different to those made by
+governemnts. If a firm offers a product that nobody wants, it soon
+leaves business. If government enacts a bad policy, rarely is it
+repealed. Instead, lip service is given to reform, and when the reform
+fails, more reform is pursued.  Take, for example, farm support policies,
+which were enacte d to provide financial assistance to struggling farmers
+during and after the Great Depression. Henry Wallace, the Secretary
+of Agriculture from 1930 to 1940, argued that the farm subsidies
+were, “*a temporary solution to deal with an emergency*.”² But
+even though the average farm household income now exceeds that of the
+average US household, and even tough there are now many fewer farmers,
+farm policies persist.
+
+*–F. Bailey Norwood/Jayson L. Lusk, “Compassion, by the Pound” p. 323, 2011*
+
 How Much To Redistribute is an Empirical Question
 --------------------------------------------------
 

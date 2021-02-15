@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2021-02-11, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2021-02-15, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks, and create some stuff while reading
 them (e.g. making flashcards of facts & definitions in the textbook
@@ -51,7 +51,9 @@ Administrativa for Textbooks
 	* Done: Chapter 1-2
 	* Done: p. 500-544 (but not ENUMERATION-ASK)
 	* Done: p. 586-601, but fixed-lag smoothing algorithms and formulae are missing
+	* Done: p. 630-657 (although only the steps, but not the details of creating a decision network)
 * Read:
 	* p. 1-81
 	* p. 500-544
 	* p. 586-601
+	* p. 630-657

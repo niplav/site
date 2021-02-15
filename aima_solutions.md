@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-21, modified: 2021-02-12, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-01-21, modified: 2021-02-15, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
@@ -629,7 +629,7 @@ There are three variables: `$E_t$` for getting enough sleep in night t,
 `$S_t$` for sleeping in class on day t, and `$R_t$` for having red eyes
 on day t.
 
-<!--TODO: Make diagram of bayes network-->
+![Image of the resulting dynamic Bayesian network](./img/aima_solutions/15_3_bayesnet.png "The resulting dynamic Bayesian network, with E nodes in sequence, each parent of one R and one S node.")
 
 The conditional probabilities tables for the dynamic Bayesian network are:
 
