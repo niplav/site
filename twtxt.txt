@@ -386,3 +386,9 @@
 2021-02-07T22:43:55.000000Z	leave a line of retreat in ideology-space
 2021-02-10T10:11:44.000000Z	proposal: let's ignore 2020 data when trying to argue about anything
 2021-02-10T18:18:17.000000Z	yo bro, the new alignment newsletter just dropped!
+2021-02-14T14:23:31.000000Z	@<jlj https://twt.nfld.uk/user/jlj/twtxt.txt> "@niplav (#<4qeibma https://twt.nfld.uk/search?tag=4qeibma>) Hadn't heard of this; thanks for the tip! Been getting lost in your text reviews; the Benatar piece piqued my interest: I'd been reading a critique of his earlier work -- in Overall's *Why Have Children?* -- that really wasn't up to scratch. Now I'm reading about pure replicators, which is a new concept, to me. :-)" -> Nice :-) Looking over my text reviews, they're not quite finished (especially the Benatar one), so take it with a grain of salt
+2021-02-14T14:34:33.000000Z	Wirth's law, but for economic growth and regulation instead of hardware and software
+2021-02-14T14:36:20.000000Z	or, more flippantly: almost all economic growth is destroyed by regulation, almost all progress in hardware is destroyed by slower software
+2021-02-14T14:36:53.000000Z	Note: I'm not sure how much I believe this as of yet. Maybe 10%?
+2021-02-14T15:05:03.000000Z	fnarglization might work if you have a ruler that's about as smart as humans and rational (it definitely doesn't if one of those doesn't hold)
+2021-02-15T08:45:02.000000Z	positional enslavement

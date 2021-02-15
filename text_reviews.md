@@ -36,11 +36,11 @@ least not make others come into existence, even though one desires to.
 He alludes several times to one of his other books, Better Never To Have
 Been, in which he advocates for antinatalism.
 
-Reading this book felt a little bit pointless to me. Since beliefs
-are for action<!--TODO: gwern link-->, and Benatar is just applying a
-linear transformation to all available options (if everything's bad,
-nothing is), I didn't gain anything tangible from this text. I had a
-phase where I believed antinatalism quite strongly, and still don't
+Reading this book felt a little bit pointless to me (get it?). Since
+beliefs are for action<!--TODO: gwern link-->, and Benatar is
+just applying a linear transformation to all available options (if
+everything's bad, nothing is), you act exactly the same. Although I had
+a phase where I believed antinatalism quite strongly, and still don't
 plan on having kids (although I know that this attitude might change
 with increasing age), but overall antinatalism does not strike me as
 a pragmatic policy<!--cf. David Pearce & Brian Tomasik ("Strategic
@@ -71,11 +71,12 @@ of an optimistic view.)
 
 *– David Benatar<!--TODO: link-->, “The Human Predicament” p. 225, 2017*
 
-It seems to me that humans can believe very bad things and still be
-happier than most in their lives (I know this is at least true for one
-human, myself). This, combined with the fact that Benatar simply shifts
-the utility function downwards, makes me prone to rejecting his worldview
-as simply a matter of emotional tone on the same facts.
+It seems to me that humans can believe very bad things to be the case
+and still be happier than most other humans in their lives (I know this
+is at least true for one human, myself). This, combined with the fact
+that Benatar simply shifts the utility function downwards, makes me
+prone to rejecting his worldview as simply a matter of emotional tone
+on the same facts.
 
 Finally, I want to accuse Benatar of insufficient pessimism (on his own
 criteria): The most likely outcome for humanity (and for life in general)
