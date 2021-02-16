@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-21, modified: 2021-02-15, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-01-21, modified: 2021-02-16, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
@@ -838,3 +838,164 @@ The probabilities don't disagree sharply at any point. Interestingly,
 it's the other way around for `$E_2$`.
 
 Otherwise, what's there to compare further?
+
+Chapter 16
+----------
+
+### 16.1
+
+> (Adapted from David Heckerman.) This exercise concerns the Almanac Game,
+which is used by decision analysts to calibrate numeric estimation. For
+each of the questions that follow, give your best guess of the answer,
+that is, a number that you think is as likely to be too high as it is to
+be too low. Also give your guess at a 25th percentile estimate, that is,
+a number that you think has a 25% chance of being too high, and a 75%
+chance of being too low. Do the same for the 75th percentile. (Thus,
+you should give three estimates in all—low, median, and high—for
+each question.)
+
+Using Klong for dealing with the arrays of values when doing calculations.
+
+> a. Number of passengers who flew between New York and Los Angeles in 1989.
+
+80k, 500k, 6m.
+
+> b. Population of Warsaw in 1992.
+
+Population of Warsaw today (2021): Around 2m, I think? Was probably
+lower back then. Assume growth of 1.5% a year.
+
+		[600000 2000000 3000000]%(1.015^29)
+	[389615.319813051588 1298717.73271017196 1948076.59906525794]
+
+> c. Year in which Coronado discovered the Mississippi River.
+
+Hm, no idea. Mississippi is near to the east coast, so probably discovered
+relatively early. I know that Yucatán was discovered very early.
+
+1620, 1710, 1800.
+
+> d. Number of votes received by Jimmy Carter in the 1976 presidential election.
+
+Population of the US at that time around 250m? Electorate is probably
+~70% of population (maybe less because population was younger then,
+say 65%), combined with 60% participation in presidential elections,
+and presidents receiving on average ~50% of the vote.
+
+		[180000000 250000000 300000000]*0.65*0.6*0.5
+	[35100000.0 48750000.0 58500000.0]
+
+> e. Age of the oldest living tree, as of 2002.
+
+1.5k, 4k, 10k.
+
+> f. Height of the Hoover Dam in feet.
+
+~3 feet in a meter.
+
+		[50 85 180]*3
+	[120 255 540]
+
+> g. Number of eggs produced in Oregon in 1985.
+
+Let's say every Oregonian eats an egg a day, and Oregon produces all
+its own eggs.
+
+		[100000 300000 1500000]*365
+	[36500000 109500000 547500000]
+
+Maybe even less for the smallest value, because Oregone might not produce
+all its eggs on its own.
+
+10m, 109.5m, 547.5m
+
+> h. Number of Buddhists in the world in 1992.
+
+World population in 1992: Around 6b, I think? I vaguely remembers
+Buddhists making up 2% of the world population.
+
+		6000000000*[0.003 0.02 0.1]
+	[18000000.0 120000000.0 600000000.0]
+
+Other method: Most buddhists probably live in China/India/Japan. China
+had 1b, India had ~700m (?), Japan had ~100m. Let's say 20% in each of
+those countries (major religion, being generous because other countries
+are not included). Median comes out to
+
+		0.2*700000000+1000000000+100000000
+	360000000.0
+
+That's not that far off of the other number. Let's say 100m, 240m (the
+mean of the two estimates for the median), 600m.
+
+> i. Number of deaths due to AIDS in the United States in 1981.
+
+0 (when did AIDS start exactly?), 50k, 250k.
+
+> j. Number of U.S. patents granted in 1901.
+
+Let's say 1 patent per year for every 1000/2000/10000 people, for
+100m/150m/200m people.
+
+That results in 10k, 75k, 200k. But that seems a bit much. How
+big could the patent office be? 10k patents would mean processing
+~25 patents a day. Let's knock these numbers down a little.
+
+5k, 50k, 150k.
+
+#### Ranking My Answers
+
+> The correct answers appear after the last exercise of this chapter. From
+the point of view of decision analysis, the interesting thing is not
+how close your median guesses came to the real answers, but rather how
+often the real answer came within your 25% and 75% bounds. If it was
+about half the time, then your bounds are accurate. But if you’re like
+most people, you will be more sure of yourself than you should be, and
+fewer than half the answers will fall within the bounds. With practice,
+you can calibrate yourself to give realistic bounds, and thus be more
+useful in supplying information for decision making.
+
+a. Lies in my given range, but I was a bit pessimistic.  
+b. Again, I was pessimistic, but I wasn't so bad, only 300k off.  
+c. Yeah, I didn't perform well on this one. I guess I should have been more aggressive in my estimation how early much of the US was explored. Still, 1541 is surprising (the American continent was discovered in 1492, and only 50 years later they find the Mississippi?).  
+d. I'm proud of this one–only 7m too optimistic, for a question I know next to nothing about (I couldn't name a single thing Jimmy Carter did during his presidency).  
+e. I roughly knew the order of magnitude for this one for today, with the major hurdle being to estimate what the state of knowledge about tree age was in 2002.  
+f. Pretty accurate on this one, too. I corrected the number down a couple of times before checking, reflecting on dams probably not being _that_ high.  
+g. I was way too pessimistic about this one. I didn't know whether Oregon was a major agricultural state (is it?) and I didn't include the possibility that Oregon overproduces eggs. Too bad.  
+h. Also proud of this one. 50m off of the real number (and too low! I was fearing I was being too optimistic, being exposed to Buddhism much more than other religions). Glad I did the dialectical bootstrapping here.  
+g. I presume 1980 was just at the start of the AIDS pandemic. I was careful enough to go very low, but I suspected that AIDS started in the 70s, and shit really hit the fan in the 90s, but wasn't sure how bad exactly the 80s were. Still, 250k as an upper range was way too careful (COVID-19 killed ~200k in the US in 2020, and that was the biggest pandemic since the Spanish Flu).  
+h. Very proud of this one. Bit too optimistic about the capabilities of the US patent office, but still in the right range.
+
+Summing up: 1 below my 25th percentile estimate, 4 between the 25th
+percentile and the median, 4 between the median and the 75th percentile,
+and 1 above the 75th percentile. While I am not biased (at least not in
+this set of answers), I am too careful (unless most people–probably
+the result of doing a bunch of forecasting and being punished for
+overconfidence once too often). I should have set my ranges to be
+narrower.
+
+<!--
+TODO:
+
+> Try this second set of questions and see if there is any improvement:
+
+> a. Year of birth of Zsa Zsa Gabor.
+
+> b. Maximum distance from Mars to the sun in miles.
+
+> c. Value in dollars of exports of wheat from the United States in 1992.
+
+> d. Tons handled by the port of Honolulu in 1991.
+
+> e. Annual salary in dollars of the governor of California in 1993.
+
+> f. Population of San Diego in 1990.
+
+> g. Year in which Roger Williams founded Providence, Rhode Island.
+
+> h. Height of Mt. Kilimanjaro in feet.
+
+> i. Length of the Brooklyn Bridge in feet.
+
+> j. Number of deaths due to automobile accidents in the United States in 1992.
+-->
