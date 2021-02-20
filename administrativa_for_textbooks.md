@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2021-02-17, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2021-02-19, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks, and create some stuff while reading
 them (e.g. making flashcards of facts & definitions in the textbook
@@ -10,6 +10,10 @@ maybe other's benefit.__
 
 Administrativa for Textbooks
 ============================
+
+For flashcards, if I include the screenshot of an algorithm, the goal
+is not to learn the algorithm by heart in all detail, but have a good
+mental model of how it works.
 
 ”Naïve Set Theory”
 ------------------
@@ -56,9 +60,11 @@ Administrativa for Textbooks
 	* Done: p. 586-601, but fixed-lag smoothing algorithms and formulae are missing
 	* Done: p. 630-657 (although only the steps, but not the details of creating a decision network)
 	* Done: p. 665-684 (conspicuously missing: contractions and the proof of the convergence of Bellman updates)
+	* Done: p. 713-727
 * Read:
 	* p. 1-81
 	* p. 500-544
 	* p. 586-601
 	* p. 630-657
 	* p. 665-684
+	* p. 713-727
