@@ -30,6 +30,7 @@ HTML=index.html \
 	tjpb_exercises.html \
 	masturbation_and_attractiveness.html \
 	metamodernistisches_manifest.html \
+	n_pieces_of_life_advice.html \
 	nst_solutions.html \
 	pipe_rings.html \
 	platte.html \

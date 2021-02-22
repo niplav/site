@@ -448,10 +448,10 @@ Texts
 		* It leads to a malthusian trap/pure replicator hell with no value and no option to get out (in the long run)
 	* However, maybe in the medium run this makes sense (not short enough for the really important stuff to happen during our lifetimes, not long enough for us to worry about malthusian traps)
 		* Even then, however, just trying to build better institutions is more useful?
-* N pieces of life advice
 * Sitting in X
 	* You analyze everything under light of X
 	* You believe that everyone else also intuitively analyzes everything under the light of X
+* The Generalized Concept of Addiction
 
 ### Collections
 
