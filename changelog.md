@@ -13,6 +13,7 @@ February 2021
 
 * [Solutions to “Artificial Intelligence: A Modern Approach”](./aima_solutions.md)
 	* [13.5](./aima_solutions.html#135)
+	* [14.1](./aima_solutions.html$141)
 	* [15.13-15.14](./aima_solutions.html#1513)
 	* [16.1](./aima_solutions.html#161)
 * [N Pieces of Life Advice](./n_pieces_of_life_advice.md)
