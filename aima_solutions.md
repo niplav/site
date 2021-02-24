@@ -383,6 +383,99 @@ One can then simply create the conjunction of sentences
 `$\bigwedge_{i=1}^{n} a_i$` that is true only if we use an assignment
 that makes the proposition true.
 
+Chapter 14
+----------
+
+### 14.1
+
+> We have a bag of three biased coins a, b, and c with probabilities of
+coming up heads of 20%, 60%, and 80%, respectively. One coin is drawn
+randomly from the bag (with equal likelihood of drawing each of the
+three coins), and then the coin is flipped three times to generate the
+outcomes $X_1$, $X_2$, and $X_3$.
+
+> a. Draw the Bayesian network corresponding to this setup and define
+the necessary CPTs.
+
+![A Bayesian network for drawing the coin & throwing it thrice](./img/aima_solutions/14_1_bayesnet.png "A Bayesian network for drawing the coin & throwing it thrice. The first parent node contains the coin, the three independent children are the three throws.")
+
+<table>
+<thead>
+	<tr>
+		<td>$Coin$</td>
+		<td>$P(Coin)$</td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>a</td>
+		<td>1/3</td>
+	</tr>
+	<tr>
+		<td>b</td>
+		<td>1/3</td>
+	</tr>
+	<tr>
+		<td>c</td>
+		<td>1/3</td>
+	</tr>
+</tbody>
+</table>
+
+The three conditional tables for `$X_1, X_2, X_3$` are very the same.
+
+<table>
+<thead>
+	<tr>
+		<td>$Coin$</td>
+		<td>$P(\{X_1, X_2, X_3\}=Head)$</td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>a</td>
+		<td>0.2</td>
+	</tr>
+	<tr>
+		<td>b</td>
+		<td>0.6</td>
+	</tr>
+	<tr>
+		<td>c</td>
+		<td>0.8</td>
+	</tr>
+</tbody>
+</table>
+
+Furthermore, `$X_1, X_2, X_3$` are mutually conditionally independent
+given `$Coin$`.
+
+> b. Calculate which coin was most likely to have been drawn from the
+bag if the observed flips come out heads twice and tails once.
+
+`$C=\underset{coin \in \{a,b,c\}}{\hbox{argmax}} P(coin|H_1, H_2, T_3)$`
+
+<div>
+	$$P(coin|H_1, H_2, T_3)=\\
+	\frac{P(H_1, H_2, T_3|coin)*P(coin)}{P(H_1, H_2, H_3)}=\\
+	\frac{P(H_1, H_2, T_3|coin)*P(coin)}{P(H_1|Coin)*P(H_2|Coin)*P(T_3|Coin)=\\
+	\frac{P(H_1, H_2, T_3|coin)*P(coin)}{\sum_{v \in \{a,b,c\}}(P(H_1|v)*P(v)))*\sum_{v \in \{a,b,c\}}(P(H_2|v)*P(v))*\sum_{v \in \{a,b,c\}}(P(T_3|v)*P(v))}=\\
+	\frac{P(H_1|coin)*P(H_2|coin)*P(T_3|coin)*P(coin)}{\sum_{v \in \{a,b,c\}}(P(H_1|v)*P(v)))^2*\sum_{v \in \{a,b,c\}}(P(T_3|v)*P(v))}=\\
+	\frac{P(H_1|coin)*P(H_2|coin)*P(T_3|coin)*P(coin)}{(0.2*1/3+0.6*1/3+0.8*1/3)^2*(0.8*1/3+0.4*1/3+0.2*1/3)}=\\
+	\frac{P(H_1|coin)*P(H_2|coin)*P(T_3|coin)*P(coin)}{0.1327407}$$
+</div>
+
+Now we plug in the values for `$coin$`:
+
+<div>
+	$$P(a|H_1, H_2, T_3)=\frac{P(H_1|a)*P(H_2|a)*P(T_3|a)*P(a)}{0.1327407}=\frac{0.2*0.2*0.8*1/3}{0.1327407}=0.0803571\\
+	P(b|H_1, H_2, T_3)=\frac{P(H_1|b)*P(H_2|b)*P(T_3|b)*P(b)}{0.1327407}=\frac{0.6*0.6*0.4*1/3}{0.1327407}=0.36160725384\\
+	P(c|H_1, H_2, T_3)=\frac{P(H_1|c)*P(H_2|c)*P(T_3|c)*P(c)}{0.1327407}=\frac{0.8*0.8*0.2*1/3}{0.1327407}=0.32142867$$
+</div>
+
+Thus, I conclude that it is most likely that coin b was pulled out of
+the bag.
+
 Chapter 15
 ----------
 
