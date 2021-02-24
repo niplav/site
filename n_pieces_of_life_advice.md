@@ -37,6 +37,8 @@ different](https://everythingstudies.com/2017/04/24/people-are-different/).
 	* Drink mostly water
 	* Get enough sleep to not be tired during the day
 	* Eliminate debt, invest money you have lying around
+	* Spend less time sitting
+		* The alternatives are standing and walking
 	* Try to be better looking
 		* General hygiene
 		* Dressing better
@@ -45,7 +47,7 @@ different](https://everythingstudies.com/2017/04/24/people-are-different/).
 			look like as part of their identity
 			*	I think this is a big mistake, being better
 				looking is net positive in nearly all situations
-	* Floss, stand more and sit less, yada yada yada
+	* Floss
 	<!--Look up Obvious Advice on LW?-->
 	<!--Link Interventions for longevity from LW-->
 	<!--Link How To be Happier from LW-->
@@ -183,4 +185,10 @@ ks about this-->
 			a password manager, in case something breaks
 			irreparably
 	* Use an adblocker
-		* People still don't do this. It's amazing.
+		*	People still don't do this. Don't be one of those
+			people.
+26. Kimchi is amazing. Try it.
+	*	It's quite enjoyable to eat, but the real enjoyment
+		comes after having eaten it. I feel very refreshed
+		& alert.
+	* I think it's also healthy?

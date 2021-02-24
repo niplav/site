@@ -1,12 +1,21 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-01-29, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-02-24, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
+
+February 2021
+-------------
+
+* [Solutions to “Artificial Intelligence: A Modern Approach”](./aima_solutions.md)
+	* [13.5](./aima_solutions.html#135)
+	* [15.13-15.14](./aima_solutions.html#1513)
+	* [16.1](./aima_solutions.html#161)
+* [N Pieces of Life Advice](./n_pieces_of_life_advice.md)
 
 January 2021
 ------------

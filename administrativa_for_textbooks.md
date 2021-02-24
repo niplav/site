@@ -52,19 +52,21 @@ mental model of how it works.
 		* Done: 15.13, 15.14
 		* To do: 15.1-15.12, 15.15-15.17
 	* Chapter 16:
-		* Done: 16.1 (first part)
-		* To do: 16.1 (second part)-16.18
+		* Done: 16.1
+		* To do: 16.2-16.18
 * [Flashcards](./flash/artificial_intelligence_a_modern_approach.apkg):
-	* Done: Chapter 1-2
+	* Done: p. 1-84
 	* Done: p. 500-544 (but not ENUMERATION-ASK)
 	* Done: p. 586-601, but fixed-lag smoothing algorithms and formulae are missing
 	* Done: p. 630-657 (although only the steps, but not the details of creating a decision network)
 	* Done: p. 665-684 (conspicuously missing: contractions and the proof of the convergence of Bellman updates)
-	* Done: p. 713-727
+	* Done: p. 713-728
+	* Done: p. 850-855
 * Read:
-	* p. 1-81
+	* p. 1-84
 	* p. 500-544
 	* p. 586-601
 	* p. 630-657
 	* p. 665-684
-	* p. 713-727
+	* p. 713-728
+	* p. 850-855
