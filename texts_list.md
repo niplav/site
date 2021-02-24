@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-01-29, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-02-24, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,23 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Der Besuch der alten Dame (Friedrich Dürrenmatt, 1956)
+* [How we will be measured (Nate Soares, 2016)](http://mindingourway.com/how-we-will-be-measured/)
+* [Defiance (Nate Soares, 2016)](http://mindingourway.com/defiance/)
+* [Recklessness (Nate Soares, 2016)](http://mindingourway.com/recklessness/)
+* [Desperation (Nate Soares, 2016)](http://mindingourway.com/desperation/)
+* [Confidence all the way up (Nate Soares, 2016)](http://mindingourway.com/confidence-all-the-way-up/)
+* [The Art of Response (Nate Soares, 2016)](http://mindingourway.com/the-art-of-response/)
+* [Obvious advice (Nate Soares, 2015)](http://mindingourway.com/obvious-advice/)
+* [Reducing long-term risks from malevolent actors (David Althaus/Tobias Baumann, 2020)](https://forum.effectivealtruism.org/posts/LpkXtFXdsRd4rG8Kb/reducing-long-term-risks-from-malevolent-actors)
+* [There is no try (Nate Soares, 2015)](http://mindingourway.com/there-is-no-try/)
+* [More Babble (alkjash, 2018)](https://www.lesswrong.com/s/pC6DYFLPMTCbEwH8W/p/wQACBmK5bioNCgDoG)
+* [Stop trying to try and try (Nate Soares, 2015)](http://mindingourway.com/stop-trying-to-try-and-try/)
+* Null K (Don DeLillo, 2016)
+* [Dark, Not Colorless (Nate Soares, 2015)](http://mindingourway.com/dark-not-colorless/)
+* [The best you can (Nate Soares, 2015)](http://mindingourway.com/best-you-can/)
+* [Transmute guilt into resolve (Nate Soares, 2015)](http://mindingourway.com/transmute-guilt-i/)
+* [Come to your terms (Nate Soares, 2015)](http://mindingourway.com/come-to-your-terms/)
 * [Have no excuses (Nate Soares, 2015)](http://mindingourway.com/have-no-excuses/)
 * \* Governing the Commons (Elinor Ostrom, 1990)
 * [Simply locate yourself (Nate Soares, 2015)](http://mindingourway.com/simply-locate-yourself/)
@@ -476,7 +493,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Metaphilosophical competence can't be disentangled from alignment (zhukeepa, 2018)](https://www.lesswrong.com/posts/CCgvJHpbvc7Lm8ZS8/metaphilosophical-competence-can-t-be-disentangled-from)
 * [Flavors of Computation Are Flavors of Consciousness (Brian Tomasik, 2018)](https://longtermrisk.org/flavors-of-computation-are-flavors-of-consciousness/)
 * [What Is The Model of Hierarchical Complexity? (Hanzi Freinacht, 2017)](https://metamoderna.org/what-is-the-mhc/)
-* 2666 (Robert Bolaño, 2004)
+* 2666 (Roberto Bolaño, 2004)
 * [Silk Road 1: Theory & Practice (Gwern Branwen, 2018)](https://www.gwern.net/Silk-Road)
 * [The Dream-Quest of Unknown Kadath (Howard Phillips Lovecraft, 1943)](http://www.hplovecraft.com/writings/texts/fiction/dq.aspx)
 * [Inclusion map (English Wikipedia, 2019)](https://en.wikipedia.org/wiki/Inclusion_map)
@@ -499,7 +516,6 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [What Insight in Innocence? (Robin Hanson, 2007)](http://www.overcomingbias.com/2007/01/what_insight_in.html)
 * [On Policy, Fact Experts Ignore Facts (Robin Hanson, 2007)](http://www.overcomingbias.com/2007/01/on_policy_fact_.html)
 * Concrete Problems in AI Safety (Dario Amodei/Chris Olah/Jacob Steinhardt/Paul Christiano/John Schulman/Dan Mané, 2016)
-* [Two types of mathematician (drossbucket, 2018)](https://www.lesswrong.com/posts/5QnvHZpy4pGgCo3Pp/two-types-of-mathematician)
 * [The Butler Did It, of Course! (Anders Sandberg, 2007)](http://www.overcomingbias.com/2007/01/the_butler_did_.html)
 * [On the robustness of cost-effectiveness estimates (William MacAskill, 2013)](https://forum.effectivealtruism.org/posts/hNHTqQcRBezpAXPcA/on-the-robustness-of-cost-effectiveness-estimates)
 * [No Death of a Buyerman (Robin Hanson, 2007)](http://www.overcomingbias.com/2007/01/no_death_of_a_b.html)

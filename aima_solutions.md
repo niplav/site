@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-21, modified: 2021-02-16, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-01-21, modified: 2021-02-24, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
@@ -130,92 +130,6 @@ If Aplysia has 20k neurons, then it can be expected to have
 `$2*10^{4}\hbox{ neurons }*\frac{10 \hbox{ to } 10^{5} \hbox{ synapses }}{\hbox{neuron}}=2*10^{5}\hbox{ to } 2*10^{9} \hbox{ neurons}$`
 -->
 
-<!--
-TODO: do exercises 6 through 15
-
-### 1.6
-
-> How could introspection—reporting on one’s inner thoughts—be
-inaccurate? Could I be wrong about what I’m thinking? Discuss.
-
-### 1.7
-
-> To what extent are the following computer systems instances of artificial intelligence:
-* Supermarket bar code scanners.
-* Web search engines.
-* Voice-activated telephone menus.
-* Internet routing algorithms that respond dynamically to the state of the network.
-
-### 1.8
-
-> Many of the computational models of cognitive activities that have been proposed in-
-volve quite complex mathematical operations, such as convolving an image with a Gaussian
-or finding a minimum of the entropy function. Most humans (and certainly all animals) never
-learn this kind of mathematics at all, almost no one learns it before college, and almost no
-one can compute the convolution of a function with a Gaussian in their head. What sense
-does it make to say that the “vision system” is doing this kind of mathematics, whereas the
-actual person has no idea how to do it?
-
-### 1.9
-
-> Why would evolution tend to result in systems that act rationally? What
-goals are such systems designed to achieve?
-
-### 1.10
-
-> Is AI a science, or is it engineering? Or neither or both? Explain.
-
-### 1.11
-
-> “Surely computers cannot be intelligent—they can do only what
-their programmers tell them.” Is the latter statement true, and does
-it imply the former?
-
-### 1.12
-
-> “Surely animals cannot be intelligent—they can do only what their
-genes tell them.” Is the latter statement true, and does it imply
-the former?
-
-### 1.13
-
-> “Surely animals, humans, and computers cannot be intelligent—they
-can do only what their constituent atoms are told to do by the laws of
-physics.” Is the latter statement true, and does it imply the former?
-
-### 1.14
-
-> Examine the AI literature to discover whether the following tasks
-can currently be solved by computers
-
-> a. Playing a decent game of table tennis (Ping-Pong).  
-> b. Driving in the center of Cairo, Egypt.  
-> c. Driving in Victorville, California.  
-> d. Buying a week’s worth of groceries at the market.  
-> e. Buying a week’s worth of groceries on the Web.  
-> f. Playing a decent game of bridge at a competitive level.  
-> g. Discovering and proving new mathematical theorems.  
-> h. Writing an intentionally funny story.  
-> i. Giving competent legal advice in a specialized area of law.  
-> j. Translating spoken English into spoken Swedish in real time.  
-> k. Performing a complex surgical operation.
-
-> For the currently infeasible tasks, try to find out what the
-difficulties are and predict when, if ever, they will be overcome.
-
-### 1.15
-
-> Various subfields of AI have held contests by defining a standard task
-and inviting researchers to do their best. Examples include the DARPA
-Grand Challenge for robotic cars, The International Planning Competition,
-the Robocup robotic soccer league, the TREC information retrieval event,
-and contests in machine translation, speech recognition. Investigate five
-of these contests, and describe the progress made over the years. To
-what degree have the contests advanced toe state of the art in AI? Do
-what degree do they hurt the field by drawing energy away from new ideas?
-
--->
-
 Chapter 2
 ---------
 
@@ -238,25 +152,6 @@ not care about the light being on at timestep T+1, and wants to avoid
 the cost ½. At timesteps `$<T$` it will press the button, with the light
 currently being on, at timestep T it will not press the button, under
 the same environmental conditions.
-
-<!--
-
-### 2.2
-
-> Let us examine the rationality of various vacuum-cleaner agent
-functions.
-
-> a. Show that the simple vacuum-cleaner agent function described in
-Figure 2.3 is indeed rational under the assumptions listed on page 38.  
-> b. Describe a rational agent function for the case in which each movement
-costs one point. Does the corresponding agent program require internal
-state?  
-> c. Discuss possible agent designs for the cases in which clean squares
-can become dirty and the geography of the environment is unknown. Does it
-make sense for the agent to learn from its experience in these cases? If
-so, what should it learn? If not, why not?
-
--->
 
 ### 2.3
 
@@ -342,121 +237,6 @@ agents that move a lot are more rational than agents that do not move.
 
 False. Given incomplete knowledge, a rational poker-playing agent can
 only win in expectation.
-
-<!--
-
-### 2.4
-
-> For each of the following activities, give a PEAS description of the
-task environment and characterize it in terms of the properties listed
-in Section 2.3.2.
-
-> * Playing soccer.
-> * Exploring the subsurface oceans of Titan.
-> * Shopping for used AI books on the Internet.
-> * Playing a tennis match.
-> * Practicing tennis against a wall.
-> * Performing a high jump.
-> * Knitting a sweater.
-> * Bidding on an item at an auction.
-
-### 2.5
-
-> Define in your own words the following terms: agent, agent function,
-agent program, rationality, autonomy, reflex agent, model-based agent,
-goal-based agent, utility-based agent, learning agent.
-
-### 2.6
-
-> This exercise explores the differences between agent functions and
-agent programs.
-
-> a. Can there be more than one agent program that implements a given
-agent function? Give an example, or show why one is not possible.  
-> b. Are there agent functions that cannot be implemented by any agent
-program?  
-> c. Given a fixed machine architecture, does each agent program implement
-exactly one agent function?  
-> d. Given an architecture with n bits of storage, how many different
-possible agent programs are there?  
-> e. Suppose we keep the agent program fixed but speed up the machine
-by a factor of two. Does that change the agent function?
-
-### 2.7
-
-> Write pseudocode agent programs for the goal-based and utility-based
-agents. The following exercises all concern the implementation of
-environments and agents for the vacuum-cleaner world.
-
-### 2.8
-
-> Implement a performance-measuring environment simulator for
-the vacuum-cleaner world depicted in Figure 2.2 and specified on
-page 38. Your implementation should be modular so that the sensors,
-actuators, and environment characteristics (size, shape, dirt placement,
-etc.) can be changed easily. (Note: for some choices of programming
-language and operating system there are already implementations in the
-online code repository.)
-
-### 2.9
-
-> Implement a simple reflex agent for the vacuum environment in Exercise
-2.8. Run the environment with this agent for all possible initial dirt
-configurations and agent locations. Record the performance score for
-each configuration and the overall average score.
-
-### 2.10
-
-> Consider a modified version of the vacuum environment in Exercise 2.8,
-in which the agent is penalized one point for each movement.
-
-> a. Can a simple reflex agent be perfectly rational for this
-environment? Explain.  
-> b. What about a reflex agent with state? Design such an agent.  
-> c. How do your answers to a and b change if the agent’s percepts
-give it the clean/dirty status of every square in the environment?
-
-### 2.11
-
-> Consider a modified version of the vacuum environment in Exercise 2.8,
-in which the geography of the environment—its extent, boundaries,
-and obstacles—is unknown, as is the initial dirt configuration. (The
-agent can go Up and Down as well as Left and Right.)
-
-> a. Can a simple reflex agent be perfectly rational for this
-environment? Explain.  
-> b. Can a simple reflex agent with a randomized agent function outperform
-a simple reflex agent? Design such an agent and measure its performance
-on several environments.  
-> c. Can you design an environment in which your randomized agent will
-perform poorly? Show your results.  
-> d. Can a reflex agent with state outperform a simple reflex
-agent? Design such an agent and measure its performance on several
-environments. Can you design a rational agent of this type?
-
-### 2.12
-
-> Repeat Exercise 2.11 for the case in which the location sensor
-is replaced with a “bump” sensor that detects the agent’s
-attempts to move into an obstacle or to cross the boundaries of the
-environment. Suppose the bump sensor stops working; how should the
-agent behave?
-
-### 2.13
-
-> The vacuum environments in the preceding exercises have all been
-deterministic. Discuss possible agent programs for each of the following
-stochastic versions:
-
-> a. Murphy’s law: twenty-five percent of the time, the Suck action
-fails to clean the floor if it is dirty and deposits dirt onto the floor
-if the floor is clean. How is your agent program affected if the dirt
-sensor gives the wrong answer 10% of the time?  
-> b. Small children: At each time step, each clean square has a 10%
-chance of becoming dirty. Can you come up with a rational agent design
-for this case?  
-
--->
 
 Chapter 13
 -----------
@@ -974,28 +754,100 @@ the result of doing a bunch of forecasting and being punished for
 overconfidence once too often). I should have set my ranges to be
 narrower.
 
-<!--
-TODO:
-
 > Try this second set of questions and see if there is any improvement:
 
 > a. Year of birth of Zsa Zsa Gabor.
 
+I'm not sure who this is.
+
+1775, 1830, 1930
+
 > b. Maximum distance from Mars to the sun in miles.
+
+The average distance of the Earth from the sun is 150m km (~90m miles).
+
+		[1.5 2 5]*150%1.6
+	[140.625 187.5 468.75]
+
+<!--TODO: Mars missions take how long there? That should be the minimum distance-->
 
 > c. Value in dollars of exports of wheat from the United States in 1992.
 
+The US GDP today is ~1t, right? Then it was probably around half of
+that back then. Maybe exports is 10% of that, and wheat is ~0.1%/1%/4%
+of exports.
+
+		500000000000*0.1*[0.001 0.01 0.04]
+	[50000000.0 500000000.0 2000000000.0]
+
+50m, 500m, 2b.
+
 > d. Tons handled by the port of Honolulu in 1991.
+
+Let's say 1/4/10 ships a day, with 20/100/500 tons cargo?
+
+		[1 4 10]*[20 100 1000]*365
+	[7300 146000 3650000]
 
 > e. Annual salary in dollars of the governor of California in 1993.
 
+Sometimes politicians get only symbolic salaries, right? Though, that
+seems unlikely here. Also, consider inflation.
+
+		[80 130 350]%1.02^30
+	[44.1656711183929545 71.7692155673885511 193.224811142969175]
+
 > f. Population of San Diego in 1990.
+
+300k, 1m, 2.5m.
 
 > g. Year in which Roger Williams founded Providence, Rhode Island.
 
+Providence is quite old, right? West-coast, Lovecraft already writes
+about it as a very old city.
+
+1600, 1750, 1810.
+
 > h. Height of Mt. Kilimanjaro in feet.
+
+The Kilimanjaro is somwhere between 5500 m and 6000 m. A meter is ~3 feet.
+
+		[5500 5850 6000]*3
+	[16500 17550 18000]
 
 > i. Length of the Brooklyn Bridge in feet.
 
+I remember taking ~10 minutes to walk over the Brooklyn Bridge (although
+we were walking slowly, a speed of ~4km/h).
+
+		3*4000*[8 12 15]%60
+	[1599.99999999999999 2400.0 3000.0]
+
 > j. Number of deaths due to automobile accidents in the United States in 1992.
--->
+
+Car safety was probably worse back then. The US population was probably
+smaller (today it's ~310m). I think I remember something of ~20k car
+deaths in the US some years ago?
+
+		1.05*[5000 20000 50000]*290%310
+	[4911.29032258064515 19645.1612903225806 49112.9032258064515]
+
+### Ranking My Answers
+
+a. I was a bit too careful on the lower rankings (maybe I should have taken into account that being a popstar was really hard before 1880, just because the media didn't exist)  
+b. I was quite close to the lower bound, which surprises me. I maybe estimated the orbit of Mars to be more elliptical than circular.  
+c. My estimate is way too low. I was probably decomposing too hard here.  
+d. Again, my estimate was too low. Probably underestimated the amount of cargo in one ship? Also, duh, Honolulu is in the middle of the Pacific, of course there's going to be a lot of cargo.  
+e. I'm quite happy with this one.  
+f. Ditto.  
+g. This one was close. I shouldn't underestimate how long the history of the US is, and how early the West Coast got explored.  
+h. My value for the number of feet per meter was probably too low.  
+i. Just below my lower estimate. We were walking pretty slow, I should have taken that more into account.  
+j. Again, my estimates were a bit low. I've overestimated the number of deaths in car crashes, was corrected for that, and probably overcorrected here.
+
+Summing up: 1 below my 25th percentile estimate, 2 between the 25th
+percentile and the median, 4 between the median and the 75th percentile,
+and 3 above the 75th percentile.
+
+Here, I show some bias towards underestimating the values. Maybe because
+I decomposed more?

@@ -829,3 +829,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 20 burpees
 * 100 froggers
 * 2 minutes plank
+
+### 2021-02-23
+
+* 41 minutes jogging
