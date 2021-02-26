@@ -65,7 +65,7 @@ Writing
 * [Against Applause After Classical Concerts](./against_applause.md)
 * [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.md)
 * [Two People on a Planet](./two_people_on_a_planet.md)
-* [N Pieces of Life Advice](./n_pieces_of_life_advice.md)
+* [Life Advice](./life_advice.md)
 * [Reports](./reports.md)
 * [Notes](./notes.md)
 

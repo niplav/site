@@ -16,7 +16,7 @@ February 2021
 	* [14.1](./aima_solutions.html$141)
 	* [15.13-15.14](./aima_solutions.html#1513)
 	* [16.1](./aima_solutions.html#161)
-* [N Pieces of Life Advice](./n_pieces_of_life_advice.md)
+* [Life Advice](./life_advice.md)
 
 January 2021
 ------------

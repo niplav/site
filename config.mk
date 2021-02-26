@@ -18,32 +18,32 @@ HTML=index.html \
 	against_applause.html \
 	aima_solutions.html \
 	buch_stab.html \
+	circle_combinations.html \
 	consciousness_diagram.html \
 	considerations_on_cryonics.html \
-	circle_combinations.html \
 	daygame_cost_benefit.html \
 	daygame_log.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
 	exercise_log.html \
 	generalizing_diamond_square.html \
-	tjpb_exercises.html \
+	life_advice.html \
 	masturbation_and_attractiveness.html \
 	metamodernistisches_manifest.html \
-	n_pieces_of_life_advice.html \
 	nst_solutions.html \
 	pipe_rings.html \
 	platte.html \
-	rationalist_gods.html \
 	range_and_forecasting_accuracy.html \
+	rationalist_gods.html \
 	reports.html \
 	senryu.html \
 	tao_te_king.html \
+	text_reviews.html \
+	thoughts_on_politics_especially_economics.html \
+	tjpb_exercises.html \
 	toy_ai_takeoff_model.html \
 	two_people_on_a_planet.html \
 	utilitarian_compliments.html \
-	thoughts_on_politics_especially_economics.html \
-	text_reviews.html \
 	bp_chrono.html \
 	ob_chrono.html \
 	so_chrono.html \
