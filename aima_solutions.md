@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-21, modified: 2021-02-24, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-01-21, modified: 2021-02-26, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
@@ -458,9 +458,9 @@ bag if the observed flips come out heads twice and tails once.
 <div>
 	$$P(coin|H_1, H_2, T_3)=\\
 	\frac{P(H_1, H_2, T_3|coin)*P(coin)}{P(H_1, H_2, H_3)}=\\
-	\frac{P(H_1, H_2, T_3|coin)*P(coin)}{P(H_1|Coin)*P(H_2|Coin)*P(T_3|Coin)=\\
-	\frac{P(H_1, H_2, T_3|coin)*P(coin)}{\sum_{v \in \{a,b,c\}}(P(H_1|v)*P(v)))*\sum_{v \in \{a,b,c\}}(P(H_2|v)*P(v))*\sum_{v \in \{a,b,c\}}(P(T_3|v)*P(v))}=\\
-	\frac{P(H_1|coin)*P(H_2|coin)*P(T_3|coin)*P(coin)}{\sum_{v \in \{a,b,c\}}(P(H_1|v)*P(v)))^2*\sum_{v \in \{a,b,c\}}(P(T_3|v)*P(v))}=\\
+	\frac{P(H_1, H_2, T_3|coin)*P(coin)}{P(H_1|Coin)*P(H_2|Coin)*P(T_3|Coin)}=\\
+	\frac{P(H_1, H_2, T_3|coin)*P(coin)}{\sum_{v \in \{a,b,c\}}(P(H_1|v)*P(v))*\sum_{v \in \{a,b,c\}}(P(H_2|v)*P(v))*\sum_{v \in \{a,b,c\}}(P(T_3|v)*P(v))}=\\
+	\frac{P(H_1|coin)*P(H_2|coin)*P(T_3|coin)*P(coin)}{\sum_{v \in \{a,b,c\}}(P(H_1|v)*P(v))^2*\sum_{v \in \{a,b,c\}}(P(T_3|v)*P(v))}=\\
 	\frac{P(H_1|coin)*P(H_2|coin)*P(T_3|coin)*P(coin)}{(0.2*1/3+0.6*1/3+0.8*1/3)^2*(0.8*1/3+0.4*1/3+0.2*1/3)}=\\
 	\frac{P(H_1|coin)*P(H_2|coin)*P(T_3|coin)*P(coin)}{0.1327407}$$
 </div>
@@ -948,3 +948,48 @@ and 3 above the 75th percentile.
 
 Here, I show some bias towards underestimating the values. Maybe because
 I decomposed more?
+
+### 16.3
+
+> In 1713, Nicolas Bernoulli stated a puzzle, now called the
+St. Petersburg paradox, which works as follows. You have the opportunity
+to play a game in which a fair coin is tossed repeatedly until it comes
+up heads. If the first heads appears on the nth toss, you win `$2^n$`
+dollars.
+
+> a. Show that the expected monetary value of this game is infinite.
+
+<div>
+	$$EU=\underset{n \rightarrow \infty}{\lim} \sum_{i=1}^{n} \frac{1}{2^i}*2^i=\\
+	\underset{n \rightarrow \infty}{\lim} \sum_{i=1}^{n} 1=\\
+	\underset{n \rightarrow \infty}{\lim} n$$
+</div>
+
+> b. How much would you, personally, pay to play the game?
+
+I'm not sure. Maybe ~\$20? I guess I value money linearly up to that
+range.
+
+> c. Nicolas’s cousin Daniel Bernoulli resolved the apparent
+paradox in 1738 by suggesting that the utility of money is measured
+on a logarithmic scale (i.e., `$U(S_n) = a log_2 n+b$`, where `$S_n$`
+is the state of having \$n). What is the expected utility of the game
+under this assumption?
+
+<div>
+	$$EU=\underset{n \rightarrow \infty}{\lim} \sum_{i=1}^{n} \frac{a*log_2(2^i+b)}{2^i}=\\
+	\underset{n \rightarrow \infty}{\lim} a*\sum_{i=1}^{n} \frac{log_2(2^i+b)}{2^i}=\\
+	\underset{n \rightarrow \infty}{\lim} a*\sum_{i=1}^{n} \frac{i}{2^i}=\\
+	\underset{n \rightarrow \infty}{\lim} a*\sum_{i=1}^{n} \frac{1}{2^i \ln(2)}= \\
+	\frac{a}{\ln(2)}$$
+</div>
+
+`$2^i+b$` converges towards `$2^i$`.
+
+> d. What is the maximum amount that it would be rational to pay to play
+the game, assuming that one’s initial wealth is \$k ?
+
+I assume that "the maximum amount" refers to "the maximum number of
+times".
+
+<!--TODO: actually solve this.-->
