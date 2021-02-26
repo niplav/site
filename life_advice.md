@@ -1,14 +1,14 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-02-22, modified: 2021-02-22, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2021-02-22, modified: 2021-02-26, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Inspired by others<!--TODO: yashkaf & LW 100 pieces of advice-->,
 I thought it might be useful to create a grabbag of of strategies for
 dealing with being human.__
 
-N Pieces of Life Advice
-========================
+Life Advice
+=============
 
 Disclaimer: I only follow parts of the advice given in here, though my
 idealized version follows it nearly completely. I also believe that
@@ -18,6 +18,10 @@ it has monotonically increasing gains.
 However, as always, the law of equal
 and opposite advice applies, [people are
 different](https://everythingstudies.com/2017/04/24/people-are-different/).
+
+And, as always, remember that I'm just a person on the internet.
+
+<!--Preparing for civilizational collapse? Which?-->
 
 1. Do the obvious things
 	* Exercise any amount
@@ -192,3 +196,16 @@ ks about this-->
 		comes after having eaten it. I feel very refreshed
 		& alert.
 	* I think it's also healthy?
+27. Money is important. Treat is as such.
+	*	I have the impression that many otherwise smart people
+		have ideological hangups about money, seeing it as
+		“unclean” and not worth thinking about. This seems
+		both untrue and harmful–money is extremely useful,
+		and having money is pretty important. <!--TODO: LW post about money-->
+	*	Know how much you spend, on what, and what your longterm
+		financial plan is.
+28.	For some people, sometimes being able to ground out ones problems
+	causally in the world (i.e. “Which gears-level processes lead to
+	the situation I'm in, and which incentives pushed which people to
+	create/exacerbate those problems?”) can help dissolve negative
+	emotions around the problem.

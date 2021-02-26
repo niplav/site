@@ -12,12 +12,13 @@ Exercise Log
 Template
 --------
 
-* 60 5kg dumbbell biceps curls
-* 60 5kg dumbbell shoulder presses
-* 60 5kg dumbbell upright rows
-* 60 5kg dumbbell bench presses
-* 20 5kg dumbbell scaptions
-* 20 5kg dumbbell lateral lifts
+* 60 7.5kg dumbbell biceps curls
+* 60 7.5kg dumbbell shoulder presses
+* 60 7.5kg dumbbell upright rows
+* 60 7.5kg dumbbell bench presses
+* 60 7.5kg dumbbell Γ lifts
+* 20 7.5kg dumbbell scaptions
+* 20 7.5kg dumbbell lateral lifts
 * 60 push-ups
 * 60 sit-ups
 * 60 double leg lifts
@@ -737,7 +738,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 60 5kg dumbbell bench presses
 * 20 5kg dumbbell scaptions
 * 10 5kg dumbbell lateral lifts
-* 20 5kg dumbbell Γ-lifts
+* 20 5kg dumbbell Γ lifts
 * 60 push-ups
 * 60 sit-ups
 * 60 double leg lifts
@@ -763,7 +764,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 60 5kg dumbbell bench presses
 * 20 5kg dumbbell scaptions
 * 20 5kg dumbbell lateral lifts
-* 40 5kg dumbbell Γ-lifts
+* 40 5kg dumbbell Γ lifts
 * 60 push-ups
 * 60 sit-ups
 * 60 double leg lifts
@@ -782,7 +783,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 40 7.5kg dumbbell shoulder presses
 * 40 7.5kg dumbbell upright rows
 * 40 7.5kg dumbbell bench presses
-* 40 7.5kg dumbbell Γ-lifts
+* 40 7.5kg dumbbell Γ lifts
 * 10 7.5kg dumbbell scaptions
 * 10 7.5kg dumbbell lateral lifts
 * 60 push-ups
@@ -799,7 +800,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 40 7.5kg dumbbell shoulder presses
 * 40 7.5kg dumbbell upright rows
 * 40 7.5kg dumbbell bench presses
-* 50 7.5kg dumbbell Γ-lifts
+* 50 7.5kg dumbbell Γ lifts
 * 20 7.5kg dumbbell scaptions
 * 20 7.5kg dumbbell lateral lifts
 * 60 push-ups
@@ -819,7 +820,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 60 7.5kg dumbbell shoulder presses
 * 70 7.5kg dumbbell upright rows
 * 60 7.5kg dumbbell bench presses
-* 40 7.5kg dumbbell Γ-lifts
+* 40 7.5kg dumbbell Γ lifts
 * 20 7.5kg dumbbell scaptions
 * 15 7.5kg dumbbell lateral lifts
 * 60 push-ups
@@ -833,3 +834,21 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 ### 2021-02-23
 
 * 41 minutes jogging
+
+### 2021-02-25
+
+* 60 7.5kg dumbbell biceps curls
+* 60 7.5kg dumbbell shoulder presses
+* 60 7.5kg dumbbell upright rows
+* 60 7.5kg dumbbell bench presses
+* 60 7.5kg dumbbell Γ lifts
+* 20 7.5kg dumbbell scaptions
+* 20 7.5kg dumbbell lateral lifts
+* 60 push-ups
+* 60 sit-ups
+* 60 double leg lifts
+* 20 burpees
+* 20 vertical rows
+* 20 walking lunges
+* 100 froggers
+* 2 minutes plank

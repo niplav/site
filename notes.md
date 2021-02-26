@@ -1041,7 +1041,7 @@ This is a list of some trigger-action plans I have installed/will install.
 	* Action: I adjust my posture
 2. Nail-biting
 	* Trigger: I notice myself biting my nails
-	* Action: I put my hands on a desk/my lap, and focus on each of my fingertips for a couple of seconds
+	* Action: I put my hands on a desk/my lap, and focus on each of my fingertips for one in-out breath
 3. Disabling web blocker
 	* Trigger: I try to disable Leechblock in my browser
 	* Action: I take a walk around the house

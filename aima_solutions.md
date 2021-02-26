@@ -476,6 +476,10 @@ Now we plug in the values for `$coin$`:
 Thus, I conclude that it is most likely that coin b was pulled out of
 the bag.
 
+*Note*: the probabilities for `$P(coin|H_1, H_2, T_3)$` don't sum to
+1. I'm not sure what's up with that, but it's a good indicator that I
+have done something horribly wrong. Don't copy this solution.
+
 Chapter 15
 ----------
 
