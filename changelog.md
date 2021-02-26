@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-02-24, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-02-26, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -16,6 +16,7 @@ February 2021
 	* [14.1](./aima_solutions.html$141)
 	* [15.13-15.14](./aima_solutions.html#1513)
 	* [16.1](./aima_solutions.html#161)
+	* [16.3](./aima_solutions.html#163)
 * [Life Advice](./life_advice.md)
 
 January 2021

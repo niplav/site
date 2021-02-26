@@ -35,6 +35,7 @@ Site
 		* Considerations on Cryonics
 			* TODO: Expand the section on the Guesstimate model
 * Considerations on Cryonics: Incorporate new Alcor costs
+* Switch to MathJax 3?
 
 Texts
 -----
