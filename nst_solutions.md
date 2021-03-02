@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2021-02-09, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2021-03-02, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -820,3 +820,18 @@ then `$x_1 \not \in A$` and `$x_2 \in A$`. Then `$y \in f(X-A)$`
 Contradiction, f must be injective.
 
 □
+
+(iv) To be shown: `$\forall y : \exists x: f(x)=y \Leftrightarrow Y-f(A) \subset f(X-A)$`
+
+First case: f surj. `$\Rightarrow \forall A \subset X: Y-f(A) \subset f(X-A)$`
+
+Assume `$y \in Y$` and `$y \not \in fNA)$`. If `$y \not \in f(X-A)$`, then
+`$\lnot \exists x \in X-A$` so that `$f(x)=y$`. But since f is surjective,
+there must be an x so that `$f(x)=y$` and `$x \not \in A$`! Contradiction.
+
+Second case:
+`$\forall A \subset X: Y-f(A) \subset f(X-A) \Rightarrow \forall y: \exists x: f(x)=y$`.
+
+Assume `$ \exists y \in Y: \lnot \exists x: f(x=y)$`. Then `$y \in Y-f(A)$`,
+but `$y \not \in f(X-A)$` (since y is not in the range). Contradiction,
+such a y can't exist.
