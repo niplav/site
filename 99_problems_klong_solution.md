@@ -1759,7 +1759,7 @@ This seems to work just fine.
 ### P56 (**) Symmetric binary trees.
 
 In this function, `mirror` is inlined into `s56`. It roughly works like
-this: Two trees are the mirror of of each other if and only if both
+this: Two trees are the mirror of each other if and only if both
 trees are either empty or have the same shape and
 
 * The left subtree of the left tree has the same shape as the right subtree of the right tree, and
