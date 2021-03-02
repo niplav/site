@@ -4,7 +4,7 @@
 *author: niplav, created: 2021-02-22, modified: 2021-02-26, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Inspired by others<!--TODO: yashkaf & LW 100 pieces of advice-->,
-I thought it might be useful to create a grabbag of of strategies for
+I thought it might be useful to create a grabbag of strategies for
 dealing with being human.__
 
 Life Advice
