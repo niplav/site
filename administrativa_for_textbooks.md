@@ -19,10 +19,7 @@ mental model of how it works.
 ------------------
 
 * [Solutions to Exercises](./nst_solutions.md)
-	* Sections 3-9
-	* Section 10:
-		* Done: 1-4, 5(i)-5(iii)
-		* To do: 5(iv)
+	* Sections 3-10
 * [Flashcards](./flash/naïve_set_theory.apkg)
 	* Done: Sections 1-10
 * Read: p. 1-41

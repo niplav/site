@@ -832,6 +832,6 @@ there must be an x so that `$f(x)=y$` and `$x \not \in A$`! Contradiction.
 Second case:
 `$\forall A \subset X: Y-f(A) \subset f(X-A) \Rightarrow \forall y: \exists x: f(x)=y$`.
 
-Assume `$ \exists y \in Y: \lnot \exists x: f(x=y)$`. Then `$y \in Y-f(A)$`,
-but `$y \not \in f(X-A)$` (since y is not in the range). Contradiction,
-such a y can't exist.
+Assume `$ \exists y \in Y: \lnot \exists x: f(x)=y$`. Then `$y \in Y-f(A)$`
+for all A, but `$y \not \in f(X-A)$` (since y is not in the
+range). Contradiction of the assumption, such a y can't exist.
