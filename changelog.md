@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-03-01, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-03-02, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -20,6 +20,8 @@ February 2021
 	* [15.13-15.14](./aima_solutions.html#1513)
 	* [16.1](./aima_solutions.html#161)
 	* [16.3](./aima_solutions.html#163)
+* [Solutions to “Naïve Set Theory“](./nst_solutions.md)
+	* [Section 10 Exercise 5](./nst_solutions.html#Exercise-5)
 * [Life Advice](./life_advice.md)
 
 January 2021
