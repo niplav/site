@@ -27,6 +27,7 @@ HTML=index.html \
 	estimated_life_expectancy.html \
 	exercise_log.html \
 	generalizing_diamond_square.html \
+	leave_the_internet.html \
 	life_advice.html \
 	masturbation_and_attractiveness.html \
 	metamodernistisches_manifest.html \
