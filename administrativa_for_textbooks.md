@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2021-03-01, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2021-03-05, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks, and create some stuff while reading
 them (e.g. making flashcards of facts & definitions in the textbook
@@ -40,8 +40,8 @@ mental model of how it works.
 		* Done: 1.1, 1.3-1.5
 		* To do: 1.2, 1.6-1.15
 	* Chapter 2:
-		* Done: 2.1, 2.3
-		* To do: 2.2, 2.4-2.13
+		* Done: 2.1, 2.3-2.4
+		* To do: 2.2, 2.5-2.13
 	* Chapter 13:
 		* Done: 13.1-13.3, 13.5
 		* To do: 13.4, 13.6-13.25

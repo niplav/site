@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-21, modified: 2021-02-26, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-01-21, modified: 2021-03-05, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
@@ -237,6 +237,101 @@ agents that move a lot are more rational than agents that do not move.
 
 False. Given incomplete knowledge, a rational poker-playing agent can
 only win in expectation.
+
+### 2.4
+
+> For each of the following activities, give a PEAS description of the
+task environment and characterize it in terms of the properties listed
+in Section 2.3.2
+
+> * Playing soccer.
+
+Performance measure: `$goals_{own}-goals_{enemy}$`; environment: soccer
+field; actuators: legs & feet, arms & hands (for goalkeeper), torso,
+head; sensors: vision, hearing, tactile
+
+Multi-agent, continuous, partially observable, fully known (both rules
+of soccer and classical mechanics underlying the ball & other players,
+although fluid dynamics of air-player interaction is probably tricky),
+sequential, dynamic, stochastic (in theory deterministic, but practically
+stochastic, very small unobservable effects can have large consequences)
+
+> * Exploring the subsurface oceans of Titan.
+
+Performance measure: surface explored; environment: subsurface
+environments of Titan; actuators: motor with propeller, arms to grab
+things, perhaps wheels; sensors: radar, vision (if the agent has inbuilt
+light generation)
+
+Single-agent, continuous, partially observable, partially known (in case
+there's actually life there, we don't know how it behaves), sequential,
+dynamic (maybe not very dynamic, but there might be currents/geothermal
+vents/life), stochastic.
+
+> * Shopping for used AI books on the internet.
+
+Performance measure: `$\frac{n_{books}}{\sum_{b \in books} p(b)}$` (price
+per book); environment: web browser; actuators: keyboard, mouse; sensors:
+vision of the screen, location of mouse, state of keys on keyboard pressed
+
+Multi-agent (if bidding against others), discrete, partially observable,
+fully known (unless bidding against others, since that would need model
+of human psychology), sequential (money in bank account is not reset),
+static (again, unless bidding against others), deterministic
+
+> * Playing a tennis match.
+
+Performance measure: `$points_{own}-points_{enemy}$` (I think tennis
+uses rounds? Maybe `$winrounds_{own}-winrounds_{enemy}$`); environment:
+tennis court; actuators: arms, tennis racket, wheels/legs to move around;
+sensors: vision, hearing
+
+Multi-agent, continous, fully observable, fully known (though caveats
+similar to soccer apply), episodic (after each round there's a reset,
+right?), dynamic, stochastic (similar caveats as in soccer example)
+
+> * Practicing tennis against a wall.
+
+Performance measure: number of balls hit; environment: place with wall;
+actuators: arms, tennis racket, wheels/legs to move around; sensors:
+vision, hearing
+
+Single-agent, continous, fully observable, fully known (though caveats
+similar to soccer apply), episodic, dynamic, stochastic (similar caveats
+as in soccer example)
+
+> * Performing a high jump.
+
+Performance measure: height of the jump; environment: a place with a
+high/nonexistent ceiling; actuators: legs; sensors: tactile sensors in
+feet, height sensor
+
+Single-agent, continuous, fully observable (unless wind), fully known
+(although, again, caveats as in soccer), episodic (unless falling over
+and not being able to get up again), static, deterministic (unless wind)
+
+> * Knitting a sweater.
+
+Performance measure: beauty, robustness and comfortableness of the
+sweater; environment: a cozy sofa in the living room; actuators: needles
+for knitting; sensors: tactile sensors for the needles, visual sensors
+for observing the sweater
+
+Single-agent, continuous, fully observable, fully known (again using
+classical mechanics), sequential (unless unraveling completely & starting
+again is an option), static, deterministic
+
+> * Bidding on an item at an auction.
+
+Performance measure: `$\frac{nitems}{\sum_{i \in items} price(item)}$`;
+environment: bidding platform/auction house; actuators: text entering for
+online/audio output for bidding; sensors: vision of the screen/auditory
+in the case of the auction house, visual to observe the items presented
+
+Multi-agent, discrete (money is usually discrete), fully observable,
+partially known (other bidders might be human and too complex to fully
+model), sequential (account balance persistent throughout auction),
+dynamic, deterministic
 
 Chapter 13
 -----------
