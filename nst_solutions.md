@@ -835,3 +835,15 @@ Second case:
 Assume `$ \exists y \in Y: \lnot \exists x: f(x)=y$`. Then `$y \in Y-f(A)$`
 for all A, but `$y \not \in f(X-A)$` (since y is not in the
 range). Contradiction of the assumption, such a y can't exist.
+
+Section 11
+-----------
+
+### Exercise 1
+
+> Since the intersection of every (non-empty) family of successor sets
+is a successor set itself (proof?)
+
+Reminder: a family of sets is a function that maps from an index set
+into the powerset of a set, so this function is
+`$f: I \rightarrow \mathcal{P}(ω)$`.

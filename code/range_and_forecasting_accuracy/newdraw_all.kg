@@ -44,3 +44,30 @@ segplot(pbss)
 draw()
 .fl()
 .cc(ssplot)
+
+allq::.oc("allq.eps")
+.tc(allq)
+
+uplim::|/*+metqbrier,pbqbrier
+
+setrgb(0;0;0)
+grid([0],uplim,(uplim%15);[0 1 0.1])
+xtitle("Range (in seconds)")
+ytitle("Brier Score")
+
+setdot(2)
+
+fillrgb(0;0;1)
+setrgb(0;0;1)
+scplot2(pbqbrier)
+plot(lr(;lreg(pbqbrier)))
+
+fillrgb(1;0;0)
+setrgb(1;0;0)
+scplot2(metqbrier)
+plot(lr(;lreg(metqbrier)))
+
+draw()
+
+.fl()
+.cc(allq)
