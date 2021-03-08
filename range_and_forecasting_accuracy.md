@@ -778,10 +778,19 @@ every question there is only one well-defined outcome, but this makes
 it easier to later compute the brier score.
 Showcase:
 
-	metquestions@10
-		[474 497590.0 [0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0] [0.79 0.8 0.99 0.8 0.8 0.65 0.65 0.8 0.8 0.81 0.81 0.7] [249575.65223908424 249548.86438822746 245775.7940876484 242420.23024630547 230434.71577501297 230276.97260832787 230111.41609930992 229967.06126213074 216594.73318576813 207687.5192539692 177898.677213192 151590.6441845894]]
-	brier@(metquestions@10)@[2 3]
-		0.62095
+		metquestions@10
+	[474 497590.0 [0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0] [0.79 0.8 0.99 0.8 0.8 0.65 0.65 0.8 0.8 0.81 0.81 0.7] [249575.65223908424 249548.86438822746 245775.7940876484 242420.23024630547 230434.71577501297 230276.97260832787 230111.41609930992 229967.06126213074 216594.73318576813 207687.5192539692 177898.677213192 151590.6441845894]]
+		brier@(metquestions@10)@[2 3]
+	0.62095
+
+One can now also see how many questions there are in the two datasets
+(with the relatively unsurprising result that PredictionBook has much
+more resolved questions):
+
+		#metquestions
+	557
+		#pbquestions
+	13356
 
 The next step involves computing the Brier score for the forecasts on
 each question:
@@ -809,16 +818,20 @@ For accuracy between questions, the results were pretty surprising:
 		lreg(pbqbrier)
 	[-0.000000000249291592263056412 0.195254764708843302]
 
-<!--HERE-->
+For Metaculus, the slope off the linear regression is approximately
+`$-6*10^{-11}$`, compared that with `$1*10^{-10}$` for the slope for the
+linear regression between forecasts – the slope is less steep, but
+also negative. For PredictionBook, the slope of the linear regression
+is `$-2*10^{-10}$`, compared with `$-1*10^{-10}$` for the data between
+forecasts, which is slightly steeper.
 
-With a high resolution (looking at days and weeks, similarly months),
-the correlations are very near zero, probably just by noise. But the
-correlations for the range in years and across-question accuracy is
-~-0.5 in both cases. This is curious, and I have no explanation of what
-exactly is going on. Perhaps this is just a random result in both cases,
-which works because the datasets are just too small (4 & 10 for Metaculus
-and PredictionBook, respectively)? Or is it picking up on a real effect
-only visible with ranges as high as years? I don't know.
+In both cases, there was a negative correlation between the brier score
+and the range (to be precise, the higher the range, the lower the brier
+score & the higher the accuracy). For the Metaculus data, this effect was
+not as pronounced as for the PredictionBook data, though both correlations
+were quite weak. The two linear regressions also showed the same effect
+(lower accuracy at shorter ranges/higher accuracy at higher ranges),
+but again the slope of the linear regression was not very steep.
 
 And now: linear regressions and scatterplots!
 
@@ -826,43 +839,22 @@ The following are scatterplots with range on the X-axis and accuracy
 (calculated using the Brier score) on the Y-axis. Again, red dots/lines
 are for Metaculus data, and blue dots/lines are for PredictionBook data.
 
-![Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in days)](img/range_and_forecasting_accuracy/allqdays.png "Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in days)")
+![Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range](img/range_and_forecasting_accuracy/allq.png "Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range")
 
-*Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in days)*
+*Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range*
 
-![Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in weeks)](img/range_and_forecasting_accuracy/allqweeks.png "Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in weeks)")
+The general trend seems to be: questions with a higher range tend to
+receive forecasts that have a higher accuracy than questions with a
+lower range. In itself, this is already a fascinating finding, and might
+explain some of the effect seen with accuracy between forecasts in the
+[previous section](#Accuracy-Between-Forecasts)). On the other hand,
+the data is still very noisy, the correlations found are quite weak,
+and the slopes of the linear regressions are are very near 0.<!--TODO:
+test statistical significance of these!-->
 
-*Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in weeks)*
-
-![Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in months)](img/range_and_forecasting_accuracy/allqmonths.png "Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in months)")
-
-*Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in months)*
-
-![Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in years)](img/range_and_forecasting_accuracy/allqyears.png "Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in years)")
-
-*Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range (in years)*
-
-Note that these are indeed different from the results in the [analysis
-on between-forecast accuracy](#Results). Especially, it seems like the
-linear regressions are less steep:
-
-	lreg(dmetdiffbrier)
-		[-0.0000372520623478135807 0.190620666721820704]
-	lreg(dqmetbrier)
-		[-0.00000947572947427605725 0.177148138436629167]
-
-The general trend seems to be: questions with a higher range have
-a higher accuracy than questions with a lower range. In itself,
-this is already a fascinating finding, and might explain some of
-the effect seen with accuracy between forecasts in the [previous
-section](#Accuracy-Between-Forecasts)). On the other hand, the data is
-still very noisy, and the interpolation on PredictionBook data shows no
-relation at all for the four timespans, while having questions with a
-much higher range than Metaculus.
-
-All in all, it's plausible that the relation of range and accuracy
-between questions explains the the weird relation for accuracy and range
-between forecasts, but I don't know enough statistics to tease these
+All in all, it's plausible that the relation of range and accuracy between
+questions explains a large part of the the weird relation for accuracy and
+range between forecasts, but I don't know enough statistics to tease these
 out exactly. My intuition tells me that the effect on accuracy between
 questions is too small to explain the whole anomaly between forecasts.
 
@@ -893,6 +885,8 @@ within questions; are forecasts made on the same question later generally
 more accurate than forecasts made on a question earlier?
 
 ### Analysis
+
+<!--HERE-->
 
 In order to do this, it seems like questions with higher numbers of
 forecasts on them are are more likely to give clearer results than

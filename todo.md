@@ -23,19 +23,18 @@ Site
 * Link tooltips at the beginning of lines break the links
 * Description of images in italics below
 * Move from Python2 to Python3
-* runtimes31\_2.png x axis is broken
 * Convert all the expensive image generating scripts into single ones that only run once, with multiple outputs
 	* Done:
 		* Range and Forecasting Accuracy
 		* Daygame Cost-Benefit Analysis
 * Toy AI Takeoff Model
 	* Re-run model where I accidentally took 255 as size
-* Edit texts:
-	* Done:
-		* Considerations on Cryonics
-			* TODO: Expand the section on the Guesstimate model
-* Considerations on Cryonics: Incorporate new Alcor costs
 * Switch to MathJax 3?
+* Edit texts:
+	* Considerations on Cryonics
+		* Mainly done
+		* Expand the section on the Guesstimate model
+		* Incorporate new Alcor membership costs
 
 Texts
 -----
@@ -327,6 +326,7 @@ Texts
 * Timeline of the Odyssee
 * Requirements for AI Safety via Debate
 * Roomba Cost-Benefit Analysis
+* A History of the Term “Rationalist”
 
 ### Ideas
 

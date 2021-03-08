@@ -1054,6 +1054,9 @@ This is a list of some trigger-action plans I have installed/will install.
 6. Alarm
 	* Trigger: I hear my alarm
 	* Action: I get out of bed
+7. Something is Bad
+	* Trigger: I feel bad, in any way
+	* Action: I start noting my sensations
 
 A Small Variation on Counting During Concentration Meditation
 --------------------------------------------------------------
