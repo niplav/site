@@ -56,7 +56,7 @@ mental model of how it works.
 		* To do: 16.2, 16.4-16.18
 * [Flashcards](./flash/artificial_intelligence_a_modern_approach.apkg):
 	* Done: p. 1-119
-	* Done: p. 222-228
+	* Done: p. 222-238 (missing: complexity of AC-3, special methods for global constraints)
 	* Done: p. 500-544 (but not ENUMERATION-ASK)
 	* Done: p. 586-601, but fixed-lag smoothing algorithms and formulae are missing
 	* Done: p. 630-657 (although only the steps, but not the details of creating a decision network)
@@ -65,7 +65,7 @@ mental model of how it works.
 	* Done: p. 850-855
 * Read:
 	* p. 1-119
-	* p. 222-228
+	* p. 222-238
 	* p. 500-544
 	* p. 586-601
 	* p. 630-657

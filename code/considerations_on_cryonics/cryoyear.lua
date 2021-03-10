@@ -11,7 +11,7 @@ prob_succ=tonumber(arg[3]) and tonumber(arg[3]) or 0.05
 prob_pres=tonumber(arg[4]) and tonumber(arg[4]) or 0.9
 
 --years gained by cryonics
-years_gain=tonumber(arg[5]) and tonumber(arg[5]) or 4500
+years_gain=tonumber(arg[5]) and tonumber(arg[5]) or 3410
 
 --starting value for probability for signing up to cryo, exponentially decreasing
 decay=tonumber(arg[6]) and tonumber(arg[6]) or 0.95

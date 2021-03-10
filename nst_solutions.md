@@ -844,6 +844,26 @@ Section 11
 > Since the intersection of every (non-empty) family of successor sets
 is a successor set itself (proof?)
 
-Reminder: a family of sets is a function that maps from an index set
-into the powerset of a set, so this function is
-`$f: I \rightarrow \mathcal{P}(ω)$`.
+Let `$\{S_i\}$` be a family of successor sets.
+
+Every `$s_i \in \{S_i\}$` is a successor set, then it is guaranteed that
+`$0 \in s_i$`. One can assume that `$\forall s_i \in \{S_i\}: x \in s_i$`,
+which implies that `$x \in \bigcap_{i \in I} s_i$`. But since all `$s_i$`
+are successor sets, `$x^+$` must also be an element of all `$s_i$` Then
+`$x^+ \in \bigcap_{i \in I} s_i$`, and the intersection of the family
+is a successor set.
+
+□
+
+However, remember the definition of a family: a family of sets is
+a function that maps from an index set into the powerset of a set,
+so this function is `$f: I \rightarrow \mathcal{P}(A)$`.
+
+In this case, we could set `$I=\{\emptyset\}$` and
+`$\hbox{ran} f=\{\{\{\emptyset, \{\emptyset\}\}\}\}$`,
+with `$f(\emptyset)=\{\{\emptyset, \{\emptyset\}\}\}$`. That
+would make f a non-empty family, but
+`$\bigcap_{i \in I} s_i=\{\{\{\emptyset, \{\emptyset\}\}\}\}$`,
+which is definitely not a successor set. Since the solution I presented
+above seems exactly like the thing Halmos would want me to do, I guess
+I have misunderstood the definition for "family of sets".
