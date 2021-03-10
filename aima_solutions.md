@@ -333,6 +333,19 @@ partially known (other bidders might be human and too complex to fully
 model), sequential (account balance persistent throughout auction),
 dynamic, deterministic
 
+Chapter 3
+---------
+
+### 3.1
+
+> Explain why problem formulation must follow goal formulation.
+
+The goal formulation applies first & foremost to the real world. The
+problem formulation, however, then translates this real-world goal into
+a format that computers can deal with. Formulating the problem before
+the goal has no “anchor” as to what to formalize, the goal gives
+information on what to concentrate on.
+
 Chapter 13
 -----------
 
@@ -1067,7 +1080,7 @@ range.
 
 > c. Nicolas’s cousin Daniel Bernoulli resolved the apparent
 paradox in 1738 by suggesting that the utility of money is measured
-on a logarithmic scale (i.e., `$U(S_n) = a log_2 n+b$`, where `$S_n$`
+on a logarithmic scale (i.e., `$U(S_n) = a \log_2 n+b$`, where `$S_n$`
 is the state of having \$n). What is the expected utility of the game
 under this assumption?
 

@@ -892,9 +892,10 @@ on Mathematics StackExchange to the question
 accidents?"](https://math.stackexchange.com/questions/3044194/whats-the-average-life-expectancy-if-only-dying-from-accidents)
 arrives at 2850 years.
 
-<!--TODO: there is also an EA forum post about LEV that for some complex
-mathematical reasons estimates 1000 years. Find, read & incorporate:
-https://forum.effectivealtruism.org/posts/jYMdWskbrTWFXG6dH/a-general-framework-for-evaluating-aging-research-part-1-->
+[Ascani
+2019](https://forum.effectivealtruism.org/s/8QHbqGpXnzcQxiAis/p/jYMdWskbrTWFXG6dH#Life_expectancy_after_LEV_)
+conservatively estimates a life expectancy of ~1000 years for each
+individual human after LEV.
 
 Taking existential risks into account is a bit harder. It is unclear
 whether most of the probability mass for existential risks should be
@@ -905,21 +906,26 @@ over the next 10000 years is ~40% (this number is pretty much a
 guess)<!--TODO: link Metaculus Ragnarok series, and see if someone
 like FHI has done some calculations on that-->, and half of that risk
 is placed before reuscitation, then the life expectancy of cryonics is
-`$\frac{8938+2850}{2}*(1-0.20)=4715.2$`.
+`$\frac{8938+2850+1000}{3}*(1-0.20) \approx 3410$`.
 
 That number should be qualified further in an ["Age of
-Em"](https://en.wikipedia.org/wiki/The_Age_of_Em) scenario: that scenario
-will contain less natural risks (emulation can be backed up, they live
-in a simulated world where homicide risks and car accidents make no
-sense), but an em also suffers from the risk of not having enough money
-to continue being run, and from the fact that the em era might not last
-several subjective millennia. This scenario deserves further consideration
-(see also [Hanson 1994](http://mason.gmu.edu/~rhanson/uploads.html "If Uploads Come First")).
+Em"](https://en.wikipedia.org/wiki/The_Age_of_Em) scenario: that
+scenario will contain less natural risks (emulation can be backed up,
+they live in a simulated world where homicide risks and car accidents
+make no sense), but an em also suffers from the risk of not having
+enough money to continue being run, and from the fact that the
+em era might not last several subjective millennia. Furthermore,
+it might be that multiple copies of the emulated cryonicist are
+executed. This scenario deserves further consideration (see also
+[Hanson 1994](http://mason.gmu.edu/~rhanson/uploads.html "If Uploads
+Come First")). I will not take into account the possibility of multiple
+copies of the same person, and assume that only one emulation is being
+run (to avoid tricky problems in aggregation).
 
 To conclude, it seems like reuscitated cryonicists will on average live
-around 4500 years, although there is room for debate on this number.
+around 3410 years, although there is room for debate on this number.
 
-	years_gain=4500
+	years_gain=3410
 
 <!--
 DOI: 10.2307/1973599

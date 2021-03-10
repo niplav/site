@@ -17,6 +17,12 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [A general framework for evaluating aging research. Part 1: reasoning with Longevity Escape Velocity (Emanuele Ascani, 2019)](https://forum.effectivealtruism.org/s/8QHbqGpXnzcQxiAis/p/jYMdWskbrTWFXG6dH)
+* [Anti-Aging: State of the Art (JackH, 2020)](https://www.lesswrong.com/posts/RcifQCKkRc9XTjxC2/anti-aging-state-of-the-art)
+* [Write (alkjash, 2018)](https://www.lesswrong.com/s/pC6DYFLPMTCbEwH8W/p/eJiE7uuKZaP5HqLvY)
+* [Circumambulation (alkjash, 2018)](https://www.lesswrong.com/s/pC6DYFLPMTCbEwH8W/p/h4K6bsWrYHDcvvPtw)
+* [Prune (alkjash, 2018)](https://www.lesswrong.com/s/pC6DYFLPMTCbEwH8W/p/rYJKvagRYeDM8E9Rf)
+* Betrachtung (Franz Kafka, 1913)
 * Der Besuch der alten Dame (Friedrich Dürrenmatt, 1956)
 * [How we will be measured (Nate Soares, 2016)](http://mindingourway.com/how-we-will-be-measured/)
 * [Defiance (Nate Soares, 2016)](http://mindingourway.com/defiance/)
@@ -159,7 +165,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Research: Rescuers during the Holocaust (Martin Sustrik, 2018)](https://www.lesswrong.com/posts/BhXA6pvAbsFz3gvn4/research-rescuers-during-the-holocaust)
 * Mutter Courage und ihre Kinder (Bertolt Brecht, 1939)
 * Siddharta (Hermann Hesse, 1922)
-* \* Compassion, by the Pound (F. Bailey Norwood/Jayson L. Lusk, 2011)
+* Compassion, by the Pound (F. Bailey Norwood/Jayson L. Lusk, 2011)
 * Flowers for Algernon (Daniel Keyes, 1966)
 * The Celestial Omnibus (Edward Morgan Forster, 1911)
 * The Machine Stops (Edward Morgan Forster, 1928)

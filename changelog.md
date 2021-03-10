@@ -11,6 +11,12 @@ Changelog
 March 2021
 -----------
 
+* [Solutions to “Artificial Intelligence: A Modern Approach”](./aima_solutions.md)
+	* [2.4](./aima_solutions.html#24)
+	* [3.1](./aima_solutions.html#31)
+* [Solutions to “Naïve Set Theory“](./nst_solutions.md)
+	* [Section 11 Exercise 1](./nst_solutions.html#Exercise-1_8)
+
 February 2021
 -------------
 
