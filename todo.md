@@ -576,6 +576,7 @@ Texts
 	* Mindset of "making a gift"
 * Most People Have No Power At All
 	* Therefore it's probably not very important what most people think
+* Hail Cyclists
 
 ### Reports
 

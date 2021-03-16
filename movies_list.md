@@ -11,6 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Kill Bill Vol. 2]()
 * [Pulp Fiction](https://www.imdb.com/title/tt0110912/)
 * [Tron: Legacy](https://www.imdb.com/title/tt1104001/)
 * [Kill Bill Vol. 1](https://www.imdb.com/title/tt0266697/)
