@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2021-03-05, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2021-03-15, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks, and create some stuff while reading
 them (e.g. making flashcards of facts & definitions in the textbook
@@ -42,6 +42,12 @@ mental model of how it works.
 	* Chapter 2:
 		* Done: 2.1, 2.3-2.4
 		* To do: 2.2, 2.5-2.13
+	* Chapter 3:
+		* Done: 3.1-3.2
+		* To do: 3.3-3.32
+	* Chapter 6:
+		* Done: 6.1
+		* To do: 6.2-6.17
 	* Chapter 13:
 		* Done: 13.1-13.3, 13.5
 		* To do: 13.4, 13.6-13.25
@@ -56,7 +62,8 @@ mental model of how it works.
 		* To do: 16.2, 16.4-16.18
 * [Flashcards](./flash/artificial_intelligence_a_modern_approach.apkg):
 	* Done: p. 1-119
-	* Done: p. 222-238 (missing: complexity of AC-3, special methods for global constraints)
+	* Done: p. 222-243 (missing: complexity of AC-3, special methods for global constraints)
+	* Done: p. 254-269 (symbols in propositional logic not included)
 	* Done: p. 500-544 (but not ENUMERATION-ASK)
 	* Done: p. 586-601, but fixed-lag smoothing algorithms and formulae are missing
 	* Done: p. 630-657 (although only the steps, but not the details of creating a decision network)
@@ -65,7 +72,8 @@ mental model of how it works.
 	* Done: p. 850-855
 * Read:
 	* p. 1-119
-	* p. 222-238
+	* p. 222-243
+	* p. 254-269
 	* p. 500-544
 	* p. 586-601
 	* p. 630-657

@@ -161,7 +161,7 @@ The Problems With Regulation
 ### Regulations Are Usually Not Retracted
 
 > Market based decision are quite different to those made by
-governemnts. If a firm offers a product that nobody wants, it soon
+governments. If a firm offers a product that nobody wants, it soon
 leaves business. If government enacts a bad policy, rarely is it
 repealed. Instead, lip service is given to reform, and when the reform
 fails, more reform is pursued.  Take, for example, farm support policies,
@@ -203,8 +203,8 @@ At least it's not forever.
 ### Futarchy
 
 Spectrum from "Politicians sometimes look at prediction markets" to
-"“What do you mean by politicians? We quadratically vote our values,
-then the markets optimize for us.”"/Raikoth
+“What do you mean by "politicians"? We quadratically vote our values,
+then the markets optimize for us.”/Raikoth
 
 #### Problems With Futarchy
 
@@ -224,7 +224,11 @@ Resulting problem: this makes manipulation easier.
 Don't know how to approach this one, maybe secret cabal of data
 collectors? Data collectors are not allowed to trade?
 
+##### Turns into Assassination Market
+
 #### Approval-Directed Futarchy?
+
+<!--Rename, approval-directed would imply that government is transparent-->
 
 Select n random people (something like 10k, or 0.01% of the population),
 ask them how much they approve of the governing in the last year (or

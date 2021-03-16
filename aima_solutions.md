@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-21, modified: 2021-03-05, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-01-21, modified: 2021-03-15, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
@@ -345,6 +345,59 @@ problem formulation, however, then translates this real-world goal into
 a format that computers can deal with. Formulating the problem before
 the goal has no “anchor” as to what to formalize, the goal gives
 information on what to concentrate on.
+
+### 3.2
+
+> Your goal is to navigate a robot out of a maze. The robot starts in the
+center of the maze facing north. You can turn the robot to face north,
+east, south, or west. You can direct the robot to move forward a certain
+distance, although it will stop before hitting a wall.
+
+> a. Formulate this problem. How large is the state space?
+
+Assumption: The maze has size `$n*m$`. Size of the state space: `$4*n*m$`.
+
+> b. In navigating a maze, the only place we need to turn is at the
+intersection of two or more corridors. Reformulate this problem using
+this observation. How large is the state space now?
+
+Let i be the number of intersections. Then there are `$2*((n*m)-i)+i*4$`
+different states (2 for each non-intersection state (walking forward
+or backward, and 4 for each intersection state, for each direction the
+agent can go).
+
+However, this does not consider dead ends or intersections where there
+are only 3 valid directions. If there are `$i_d$` dead ends, `$i_3$`
+intersections with 3 possible directions, and `$i_4$` intersections
+with 4 possible directions, the number of possible states is instead
+`$i_d+3*i_3+4*i_4+2*((n*m)-(i_d+i_3+i_4))$`.
+
+> c. From each point in the maze, we can move in any of the four
+directions until we reach a turning point, and this is the only action
+we need to do. Reformulate the problem using these actions. Do we need
+to keep track of the robot’s orientation now?
+
+Since we don't have to turn before moving, we're equivalent to an
+unchanging directionless dot (only the position changes). We don't
+need to keep track of the orientation anymore, since we don't have to
+a specific direction before moving.
+
+> d. In our initial description of the problem we already abstracted
+from the real world, restricting actions and removing details. List
+three such simplifications we made.
+
+Only 4 different directions allowed, not being able to run into walls,
+the robot will move the given distance (and not experience battery
+failure/fall into a hole etc.).
+
+Chapter 6
+---------
+
+### 6.1
+
+* 2 colors: 0 possible solutions
+* 3 colors: `$3*3*2=18$` possible solutions (TA and SA are free, and then the WA-NT-Q-NSW-V chain can only be colored with 2 different colors, which have to be alternating)
+* 4 colors: `$4*4*(3*2*2*2*2)=768$` possible solutions (again, TA and SA are free, and then WA-NT-Q-NSW-V have 3 colors left, but no same color twice, which means 3 colors for the first option, and two for each successor)
 
 Chapter 13
 -----------
