@@ -49,8 +49,8 @@ mental model of how it works.
 		* Done: 6.1
 		* To do: 6.2-6.17
 	* Chapter 13:
-		* Done: 13.1-13.3, 13.5
-		* To do: 13.4, 13.6-13.25
+		* Done: 13.1-13.3, 13.5-13.6
+		* To do: 13.4, 13.7-13.25
 	* Chapter 14:
 		* Done: 14.1
 		* To do: 14.2-14.21
@@ -63,7 +63,7 @@ mental model of how it works.
 * [Flashcards](./flash/artificial_intelligence_a_modern_approach.apkg):
 	* Done: p. 1-119
 	* Done: p. 222-243 (missing: complexity of AC-3, special methods for global constraints)
-	* Done: p. 254-269 (symbols in propositional logic not included)
+	* Done: p. 254-280 (symbols in propositional logic not included)
 	* Done: p. 500-544 (but not ENUMERATION-ASK)
 	* Done: p. 586-601, but fixed-lag smoothing algorithms and formulae are missing
 	* Done: p. 630-657 (although only the steps, but not the details of creating a decision network)
@@ -73,7 +73,7 @@ mental model of how it works.
 * Read:
 	* p. 1-119
 	* p. 222-243
-	* p. 254-269
+	* p. 254-280
 	* p. 500-544
 	* p. 586-601
 	* p. 630-657
