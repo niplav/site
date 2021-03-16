@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-21, modified: 2021-03-15, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-01-21, modified: 2021-03-16, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
@@ -543,6 +543,24 @@ The set of these atomic events exactly entails the proposition.
 One can then simply create the conjunction of sentences
 `$\bigwedge_{i=1}^{n} a_i$` that is true only if we use an assignment
 that makes the proposition true.
+
+### 13.6
+
+> Prove Equation (13.4) from Equations (13.1) and (13.2).
+
+More explicit: Prove `$P(a \lor b)= P(a)+P(b)-P(a \land b)$` from
+`$0 \le P(ω) \le 1, \sum_{ω \in Ω} P(ω)=1$`.
+
+Since `$a \lor b \Leftrightarrow ω \in a \cup b$` and `$\sum_{ω \in a \backslash b} P(ω) + \sum_{ω \in a \cap b} P(ω)=\sum_{ω \in a} P(ω)$`:
+
+<div>
+	$$P(a \lor b)=\\
+	\sum_{ω \in a \cup b} P(ω)=\\
+	\sum_{ω \in a \backslash b} P(ω) + \sum_{ω \in b \backslash a} P(ω) + \sum_{ω \in a \cap b} P(ω)=\\
+	\sum_{ω \in a \backslash b} P(ω) + \sum_{ω \in b \backslash a} P(ω) + \sum_{ω \in a \cap b} P(ω) + \sum_{ω \in a \cap b} P(ω) - \sum_{ω \in a \cap b} P(ω)=\\
+	\sum_{ω \in a} P(ω) + \sum_{ω \in b} P(ω) - \sum_{ω \in a \cap b} P(ω)=\\
+	P(a)+P(b)-P(a \land b)$$
+</div>
 
 Chapter 14
 ----------
