@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-21, modified: 2021-03-16, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-01-21, modified: 2021-03-18, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
@@ -395,9 +395,80 @@ Chapter 6
 
 ### 6.1
 
+> How many solutions are there for the map-coloring problem in Figure
+6.1? How many solutions if four colors are allowed? Two colors?
+
 * 2 colors: 0 possible solutions
 * 3 colors: `$3*3*2=18$` possible solutions (TA and SA are free, and then the WA-NT-Q-NSW-V chain can only be colored with 2 different colors, which have to be alternating)
 * 4 colors: `$4*4*(3*2*2*2*2)=768$` possible solutions (again, TA and SA are free, and then WA-NT-Q-NSW-V have 3 colors left, but no same color twice, which means 3 colors for the first option, and two for each successor)
+
+### 6.5
+
+> Solve the cryptarithmetic problem in Figure 6.2 by hand, using
+the strategy of backtracking with forward checking and the MRV and
+least-constraining-value heuristics.
+
+<!--TODO-->
+
+Chapter 7
+----------
+
+### 7.14
+
+> According to some political pundits, a person who is radical (R) is
+electable (E) if he/she is conservative (C), but otherwise not electable.
+
+> a. Which of the following are correct representations of this assertion?
+(i) `$R \land E \Leftrightarrow C$`
+(ii) `$R \Rightarrow (E \Leftrightarrow C)$`
+(iii) `$R \Rightarrow ((C \Rightarrow E) \lor \lnot E)$`
+
+(i) Would mean that a conservative is only electable if they are radical
+and electable, which must not be true. (ii) is a good representation:
+If someone is radical, they have to be either both conservative and
+electable or not conservative and not electable.
+
+For (iii), if R=true, C=true and E=false, then the sentence is true,
+but this goes against the earlier formulation: There are no unelectable
+radical conservatives (in this hypothetical scenario).
+
+> b. Which of the sentences in (a) can be expressed in Horn form?
+
+(i)
+
+<div>
+	$$(R \land E) \Leftrightarrow C \equiv \\
+	C \Rightarrow (R \land E) \land (R \land E) \Rightarrow C \equiv \\
+	\lnot C \lor (R \land E) \land \lnot (R \land E) \lor C \equiv \\
+	(\lnot C \lor R) \land (\lnot C \lor E) \land (\lnot R \lor \lnot E \lor C)$$
+</div>
+
+This sentence can't be represented in Horn form, since it can't be
+reduced down to only disjunctions of literals.
+
+(ii)
+
+<div>
+	$$ R \Rightarrow (E \Leftrightarrow C) \equiv \\
+	\lnot R \lor (E \Rightarrow C \land C \Rightarrow E) \equiv \\
+	\lnot R \lor (\lnot E \lor C \land \lnot C \lor E) \equiv \\
+	(\lnot R \lor \lnot E \lor C) \land (\lnot R \lor \lnot C \lor E) \equiv \\
+	\lnot R \land (\lnot E \lor C) \land (\lnot C \lor E) $$
+</div>
+
+Neither can this sentence.
+
+(iii)
+
+<div>
+	$$ R \Rightarrow ((C \Rightarrow E) \lor \lnot E) \equiv \\
+	\lnot R \lor ((\lnot C \lor E) \lor \lnot E \equiv) \\
+	\lnot R \lor \lnot C \lor E \lor \lnot E \equiv \\
+	(R \land C \land E) \Rightarrow E \equiv \\
+	true$$
+</div>
+
+This sentence can be represented in Horn form, and is also a tautology.
 
 Chapter 13
 -----------
@@ -1172,3 +1243,53 @@ I assume that "the maximum amount" refers to "the maximum number of
 times".
 
 <!--TODO: actually solve this.-->
+
+### 16.15
+
+> Consider a student who has the choice to buy or not buy a textbook for a
+course. We’ll model this as a decision problem with one Boolean decision
+node, B, indicating whether the agent chooses to buy the book, and two
+Boolean chance nodes, M, indicating whether the student has mastered the
+material in the book, and P, indicating whether the student passes the
+course. Of course, there is also a utility node, U. A certain student,
+Sam, has an additive utility function: 0 for not buying the book and
+-\$100 for buying it; and \$2000 for passing the course and 0 for not
+passing. Sam’s conditional probability estimates are as follows:
+
+> `$P(p|b, m) = 0.9$`  
+> `$P(m|b) = 0.9$`  
+> `$P(p|b, \lnot m) = 0.5$`  
+> `$P(m|\lnot b) = 0.7$`  
+> `$P(p|\lnot b, m) = 0.8$`  
+> `$P(p|\lnot b, \lnot m) = 0.3$`
+
+> You might think that P would be independent of B given M, But [sic]
+this course has an open-book final – so having the book helps.
+
+> a. Draw the decision network for this problem.
+
+![Decision network for 16.15](img/aima_solutions/16_15_decisionnet.png "A decision network for exercise 16.15. A rectangle B, an oval M and P, and a diamond U. Arrow from B to P and U, from M to P, and from P to U.")
+
+> b. Compute the expected utility of buying the book and of not buying it.
+
+<div>
+	$$EU(b)=\\
+	P(p|b)*U(p|b)+P(\lnot p|b)*U(\lnot p|b)=\\
+	(P(p|b,m)*P(m|b)+P(p|b,\lnot m)*P(\lnot m|b))*(\$2000-\$100)+((P(\lnot p|b,m)*P(m|b)+P(\lnot p|b,\lnot m)*P(\lnot m|b))*(-\$100)=\\
+	(0.9*0.9+0.5*0.1)*(\$2000-\$100)+(0.1*0.9+0.5*0.1)*(-\$100)=\\
+	\$1620$$
+</div>
+
+<div>
+	$$EU(\lnot b)=\\
+	P(p|\lnot b)*U(p|\lnot b)+P(\lnot p|\lnot b)*U(\lnot p|\lnot b)=\\
+	(P(p|\lnot b,m)*P(m|\lnot b)+P(p|\lnot b,\lnot m)*P(\lnot m|\lnot b))*(\$2000)=\\
+	(0.8*0.7+0.3*0.3)*(\$2000)=\\
+	\$1300$$
+</div>
+
+Since `$U(\lnot p|\lnot b)=0$`, it can be left out of the calculation.
+
+> c. What should Sam do?
+
+Sam should buy the book, since that yields the highest expected utility.

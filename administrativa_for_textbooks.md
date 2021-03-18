@@ -48,6 +48,9 @@ mental model of how it works.
 	* Chapter 6:
 		* Done: 6.1
 		* To do: 6.2-6.17
+	* Chapter 7:
+		* Done: 7.14
+		* To do: 7.1-7.13, 7.15-7.27
 	* Chapter 13:
 		* Done: 13.1-13.3, 13.5-13.6
 		* To do: 13.4, 13.7-13.25
@@ -58,8 +61,8 @@ mental model of how it works.
 		* Done: 15.13, 15.14
 		* To do: 15.1-15.12, 15.15-15.17
 	* Chapter 16:
-		* Done: 16.1, 16.3
-		* To do: 16.2, 16.4-16.18
+		* Done: 16.1, 16.3, 16.15
+		* To do: 16.2, 16.4-16.14, 16.16-16.18
 * [Flashcards](./flash/artificial_intelligence_a_modern_approach.apkg):
 	* Done: p. 1-119
 	* Done: p. 222-243 (missing: complexity of AC-3, special methods for global constraints)
