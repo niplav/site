@@ -103,7 +103,7 @@ And, as always, remember that I'm just a person on the internet.
 		doomed](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like)
 		* But you can still spend the remaining time well!
 		* Or even try to prevent it <!--TODO: link No time like present for AI safety research-->
-	* Post on this forthcoming some time
+	* Post on this [forthcoming some time](./leave_the_internet.html)
 10. If you are looking for solutions to problems, look for zero-willpower/zero-inspiration solutions first
 	* The best example for this is buying a product that solves your problem
 	* Example: I had trouble going to bed early, so I [tried
