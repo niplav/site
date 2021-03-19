@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2021-03-15, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2021-03-19, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks, and create some stuff while reading
 them (e.g. making flashcards of facts & definitions in the textbook
@@ -49,8 +49,8 @@ mental model of how it works.
 		* Done: 6.1
 		* To do: 6.2-6.17
 	* Chapter 7:
-		* Done: 7.14
-		* To do: 7.1-7.13, 7.15-7.27
+		* Done: 7.10, 7.14
+		* To do: 7.1-7.9, 7.11-7.13, 7.15-7.27
 	* Chapter 13:
 		* Done: 13.1-13.3, 13.5-13.6
 		* To do: 13.4, 13.7-13.25
@@ -67,6 +67,7 @@ mental model of how it works.
 	* Done: p. 1-119
 	* Done: p. 222-243 (missing: complexity of AC-3, special methods for global constraints)
 	* Done: p. 254-280 (symbols in propositional logic not included)
+	* Done: p. 305-321
 	* Done: p. 500-544 (but not ENUMERATION-ASK)
 	* Done: p. 586-601, but fixed-lag smoothing algorithms and formulae are missing
 	* Done: p. 630-657 (although only the steps, but not the details of creating a decision network)
@@ -77,6 +78,7 @@ mental model of how it works.
 	* p. 1-119
 	* p. 222-243
 	* p. 254-280
+	* p. 305-321
 	* p. 500-544
 	* p. 586-601
 	* p. 630-657

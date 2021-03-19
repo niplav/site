@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-21, modified: 2021-03-18, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-01-21, modified: 2021-03-19, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
@@ -59,20 +59,6 @@ a lawful process could be more intelligent, but is not.
 
 “Logical reasoning” refers to the act of deriving statements from
 other statements according to pre-defined rules.
-
-<!--
-### 1.2
-
-> Read Turing’s original paper on AI (Turing, 1950). In the paper, he discusses several
-objections to his proposed enterprise and his test for intelligence. Which objections still carry
-weight? Are his refutations valid? Can you think of new objections arising from develop-
-ments since he wrote the paper? In the paper, he predicts that, by the year 2000, a computer
-will have a 30% chance of passing a five-minute Turing Test with an unskilled interrogator.
-What chance do you think a computer would have today? In another 50 years?
-
-TODO
-
--->
 
 ### 1.3
 
@@ -408,10 +394,113 @@ Chapter 6
 the strategy of backtracking with forward checking and the MRV and
 least-constraining-value heuristics.
 
+![Figure 6.2](./img/aima_solutions/figure_6_2.png "Figure 6.2 (a) A cryptarithmetic problem. Each letter stands for a distinct digit; the aim is to find a substitution of digits for letters such that the resulting sum is arithmetically correct, with the added restriction that no leading zeroes are allowed. (b) The constraint hypergraph for the cryptarithmetic problem, showing the Alldiff constraint (square box at the top) as well as the column addition constraints (four square boxes in the middle). The variables C1, C2, and C3 represent the carry digits for the three columns.")
+
+Variables: `$X=\{F, T, U, W, R, O, C_1, C_2, C_3\}$`  
+Constraints:
+<div>
+	$$C=\{\langle O, R \rangle: O+O \mod 10=R, \\
+	\langle W, U, C_1 \rangle: W+W+C_1 \mod 10=U, \\
+	\langle T, O, C_2 \rangle: T+T+C_2 \mod 10=O, \\
+	\langle C_1, O \rangle: C_1=1 \hbox{ if } O+O>9 \hbox { else } 0, \\
+	\langle C_2, W, C_1 \rangle: C_2=1 \hbox{ if } W+W+C_1>9 \hbox { else } 0, \\
+	\langle C_3, T, C_2 \rangle: C_3=1 \hbox{ if } T+T+C_2>9 \hbox { else } 0, \\
+	\langle F, C_3 \rangle: F=C_3\\
+	\langle F, T, U, W, R, O \rangle: Alldiff(F, T, U, W, R, O)\}$$
+</div>
+
+Domains: `$\{0..9\}$` for `$\{F, T, U, W, R, O\}$`, and `$\{0, 1\}$` for `$\{C_1, C_2, C_3\}$`.
+
+Replacing the Alldiff constraint with binary constraints:
+
+<div>
+	$$C \leftarrow (C \backslash \{\langle F, T, U, W, R, O \rangle: Alldiff(F, T, U, W, R, O)\}) \cup \{ \langle x_1, x_2 \rangle: x_1 \not = x_2 | x_1, x_2 \in \{ F, T, U, W, R, O \} \}$$
+</div>
+
+<!--TODO: replace trinary constraints above as well-->
+
+Variables sorted by domain size: `$F: 10, T: 10, U: 10, W: 10, R: 10, O: 10, C_1: 2, C_2: 2, C_3: 2$`.
+
+Variables sorted by degree: `$O: 8, W: 7, T: 7, R: 6, U: 6, F: 6, C_3: 2, C_2: 1, C_1: 1$`
+
+* Assign: `$C_3=0$`
+	* Infer: `$F \in \{0\}$`
+	* Infer: `$T \in \{1, 2, 3, 4\}$`
+	* Infer: `$O \in \{2, 4, 6, 8\}$`
+	* Infer: `$R \in \{4, 8, 2\}$`
+
 <!--TODO-->
 
 Chapter 7
 ----------
+
+### 7.10
+
+> Decide whether each of the following sentences is valid, unsatisfiable,
+or neither. Verify your decisions using truth tables or the equivalence
+rules of Figure 7.11 (page 249).
+
+> a. `$Smoke \Rightarrow Smoke$`
+
+<div>
+	$$Smoke \Rightarrow Smoke \equiv \\
+	\lnot Smoke \lor Smoke \equiv \\
+	True$$
+</div>
+
+The sentence is valid since True is valid.
+
+> b. `$Smoke \Rightarrow Fire$`
+
+`$Smoke \Rightarrow Fire \equiv \lnot Smoke \lor Fire$`
+
+Neither: If Smoke=True and Fire=False, then the sentence is false,
+if Smoke=False and Fire=False, the sentence is true.
+
+> c. `$(Smoke \Rightarrow Fire) \Rightarrow (\lnot Smoke \Rightarrow \lnot Fire)$`
+
+<div>
+	$$(Smoke \Rightarrow Fire) \Rightarrow (\lnot Smoke \Rightarrow \lnot Fire) \equiv \\
+	\lnot (\lnot Smoke \lor Fire) \lor (Smoke \lor \lnot Fire) \equiv \\
+	(Smoke \land \lnot Fire) \lor Smoke \lor \lnot Fire$$
+</div>
+
+Neither: For Smoke=False and Fire=True, the sentence is false, but for
+Smoke=True, the sentence is true.
+
+> d. `$Smoke \lor Fire \lor \lnot Fire$`
+
+`$Smoke \lor Fire \lor \lnot Fire \equiv Smoke \lor True = True$`
+
+This sentence is valid, since it is equivalent to True.
+
+> e. `$((Smoke \land Heat) \Rightarrow Fire) \Leftrightarrow ((Smoke \Rightarrow Fire) \lor (Heat \Rightarrow Fire))$`
+
+<div>
+	$$((Smoke \land Heat) \Rightarrow Fire) \Leftrightarrow ((Smoke \Rightarrow Fire) \lor (Heat \Rightarrow Fire)) \equiv \\
+	((\lnot Smoke \lor \lnot Heat \lor Fire) \Leftrightarrow (\lnot Smoke \lor Fire \lor \lnot Heat)) \equiv \\
+	True$$
+</div>
+
+This sentence is valid since `$a \Leftrightarrow a \equiv True$`.
+
+> f. `$(Smoke \Rightarrow Fire) \Rightarrow ((Smoke \land Heat) \Rightarrow Fire)$`
+
+<div>
+	$$(Smoke \Rightarrow Fire) \Rightarrow ((Smoke \land Heat) \Rightarrow Fire) \equiv \\
+	\lnot (\lnot Smoke \lor Fire) \lor (\lnot (Smoke \land Heat) \lor Fire) \equiv \\
+	(Smoke \land \lnot Fire) \lor \not Smoke \lor \lnot Heat \lor Fire \equiv \\
+</div>
+
+This sentence is valid. If Smoke=True, Heat=True and Fire=False, then
+`$Smoke \land \lnot Fire$` is true, and makes the whole sentence true.
+Otherwise, any of the other disjunctions make the sentence true.
+
+> g. `$Big \lor Dumb \lor (Big \Rightarrow Dumb)$`
+
+`$Big \lor Dumb \lor (Big \Rightarrow Dumb) \equiv Big \lor Dumb \lor \lnot Big \lor Dumb \equiv True$`.
+
+Therefore, this sentence is valid as heck.
 
 ### 7.14
 
@@ -428,7 +517,7 @@ and electable, which must not be true. (ii) is a good representation:
 If someone is radical, they have to be either both conservative and
 electable or not conservative and not electable.
 
-For (iii), if R=true, C=true and E=false, then the sentence is true,
+For (iii), if R=True, C=True and E=False, then the sentence is true,
 but this goes against the earlier formulation: There are no unelectable
 radical conservatives (in this hypothetical scenario).
 
@@ -465,7 +554,7 @@ Neither can this sentence.
 	\lnot R \lor ((\lnot C \lor E) \lor \lnot E \equiv) \\
 	\lnot R \lor \lnot C \lor E \lor \lnot E \equiv \\
 	(R \land C \land E) \Rightarrow E \equiv \\
-	true$$
+	True$$
 </div>
 
 This sentence can be represented in Horn form, and is also a tautology.
@@ -600,7 +689,7 @@ equivalent to *true*.
 
 For every atomic event `$s$`, there is an atomic event
 `$s'=\lnot s=\lnot s(1) \land \dots \lnot s(n)$`. Then the
-disjunction of all atomic events contains `$s \lor s' \lor \dots=true$`.
+disjunction of all atomic events contains `$s \lor s' \lor \dots=True$`.
 
 > c. Prove that any proposition is logically equivalent to the disjunction
 of the atomic events that entail its truth.
@@ -642,7 +731,7 @@ Chapter 14
 coming up heads of 20%, 60%, and 80%, respectively. One coin is drawn
 randomly from the bag (with equal likelihood of drawing each of the
 three coins), and then the coin is flipped three times to generate the
-outcomes $X_1$, $X_2$, and $X_3$.
+outcomes `$X_1$`, `$X_2$`, and `$X_3$`.
 
 > a. Draw the Bayesian network corresponding to this setup and define
 the necessary CPTs.
