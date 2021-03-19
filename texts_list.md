@@ -17,6 +17,11 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [The Longevity FAQ (José Luis Ricón, 2021)](https://nintil.com/longevity)
+* [How to evaluate neglectedness and tractability of aging research (Emanuele Ascani, 2019)](https://forum.effectivealtruism.org/s/8QHbqGpXnzcQxiAis/p/zQDakLnNumoejXZuX)
+* [Impact of aging research besides LEV (Emanuele Ascani, 2019)](https://forum.effectivealtruism.org/s/8QHbqGpXnzcQxiAis/p/AHajQh7NcJbqZFZh9)
+* Das Urteil (Franz Kafka, 1913)
+* [Aging research and population ethics (Emanuele Ascani, 2019)](https://forum.effectivealtruism.org/s/8QHbqGpXnzcQxiAis/p/uR4mEzMR7fiQzb2c7)
 * [A general framework for evaluating aging research. Part 1: reasoning with Longevity Escape Velocity (Emanuele Ascani, 2019)](https://forum.effectivealtruism.org/s/8QHbqGpXnzcQxiAis/p/jYMdWskbrTWFXG6dH)
 * [Anti-Aging: State of the Art (JackH, 2020)](https://www.lesswrong.com/posts/RcifQCKkRc9XTjxC2/anti-aging-state-of-the-art)
 * [Write (alkjash, 2018)](https://www.lesswrong.com/s/pC6DYFLPMTCbEwH8W/p/eJiE7uuKZaP5HqLvY)
