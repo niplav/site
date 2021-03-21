@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-01-30, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-03-21, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -327,6 +327,7 @@ Texts
 * Requirements for AI Safety via Debate
 * Roomba Cost-Benefit Analysis
 * A History of the Term “Rationalist”
+* The Uyghurs and China: Much More Than You Wanted To Know
 
 ### Ideas
 
