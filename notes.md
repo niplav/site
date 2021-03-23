@@ -1087,3 +1087,66 @@ other forms of breath meditation).
 
 A possible drawback of this is also that the micro-routine at the end
 of a breath can often develop into a verbal loop and break concentration.
+
+Implementing Commutative Hyperoperators
+----------------------------------------
+
+[Ghalimi 2019](https://observablehq.com/@ishi/the-missing-operation?collection=@ishi/arithmetic "The Missing Operation")
+presents and discusses a novel construction of hyperoperators, here I
+implement these in Klong.
+
+The problem with this is that with with operations of order 4 or
+higher, the results are in `$\mathbb{C}$` (because `$ln(ln(2))<0$`),
+so we would need a logarithm function that deals with complex numbers
+to implement this, this is not available natively under Klong yet, so I
+have to write the principal function of the complex logarithm using [this
+section](https://en.wikipedia.org/wiki/Complex_logarithm#Calculating_the_principal_value)
+from the Wikipedia article:
+
+	.l("math")
+	cln::{ln(sqr(+/x^2)),atan2@x}
+
+Since the complex logarithm is only defined for
+`$\mathbb{C}^{\times}:=\mathbb{C} \backslash \{0\}$`, `cln` returns
+a nonsense value for `$0+0i$`:
+
+		cln(0,0)
+	[:undefined -1.57079632679489661]
+
+We know that `$e^{\log z}=z$` for all `$z \in \mathbb{C}^{\times}$`,
+which we can test here:
+
+		cexp(cln(1,1))
+	[0.999999999999999911 0.999999999999999915]
+		cexp(cln(1,2))
+	[1.00132433601450641 1.9993372837280625]
+		cexp(cln(2,1))
+	[2.00148381847841902 0.997026842351321174]
+		cexp(cln(1,-1))
+	[0.999999999999999928 -1.00000000000000105]
+		cexp(cln(-1,1))
+	[-0.999999999999999908 -1.00000000000000151]
+		cexp(cln(-1,-1))
+	[-0.999999999999999812 0.999999999999999918]
+		cexp(cln(-1,0))
+	[-0.999999999999998211 0.0]
+		cexp(cln(0,-1))
+	[0.00000000000000001 -1.00000000000000078]
+		cexp(cln(1,0))
+	[0.999999999999999984 0.0]
+		cexp(cln(0,1))
+	[0.0 0.999999999999999984]
+
+This all looks relatively fine (the rounding errors are probably
+unavoidable), however, we see that `cexp(cln(-1,1))=[-1 -1]≠[-1 1]`
+(and `cexp(cln(-1,-1))=[-1 1]≠[-1 -1]`).  This is very unfortunate. I
+suspect that the implementation of `atan2` is at fault: `atan2(1;0)=0`
+here, but [this calculator](www.medcalc.org/manual/atan2_function.php)
+gives `atan2(1;0)=π/2` (the online calculator gives `0` for `atan2(0;1)`
+and Klong's `atan2` gives `π/2` for `atan2(0;1)`).
+
+<!--TODO: fix local atan2-->
+
+With this, one can implement the commutative hyperoperator:
+
+	comhyp::{:[z=0;ln((e^x)+e^y):|z=1;x+y:|z=2;x*y:|z=3;e^(ln(x)*ln(y));e^comhyp(ln(x);ln(y);z-1)]}

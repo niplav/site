@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-03-21, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019t09-09, modified: 2021-03-23, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -173,6 +173,16 @@ Texts
 
 * Modelling the Dream-Time (Population will probably start growing again)
 	* How likely is another malthusian trap, how much time do we have got?
+	* What kinds of scenarios lead to malthusian condition?
+		* Base case biological humans
+		* Base case without aging
+		* Em case
+	* What can be done against?
+		* Population control
+		* Monitoring
+	* Reasons against worrying
+		* Too far in the future
+		* Number of children not heritable
 * Dumpster Diving
 * Hitch Hiking
 * Keyboards
@@ -276,7 +286,8 @@ Texts
 * How difficult is it to manipulate real existing prediction markets?
 	* PredictIt
 	* BetFair
-* Survey Advanced Meditators about Their Attainments and their Monetary Worth
+* Survey advanced meditators about their attainments and their monetary worth
+	* That is, how much is your meditative attainment worth to you?
 * Comparing Forecasting Accuracy Between the Good Judgment Project and Metaculus
 	* https://www.openphilanthropy.org/blog/forecasting-covid-19-pandemic
 	* https://pandemic.metaculus.com/questions/
@@ -322,6 +333,12 @@ Texts
 		* How good does intracranial stimulation feel? (compared to other positive experiences)
 		* Is wireheading actually pleasurable or just compelling? (in the sense that one wants to continue being wireheaded although it doesn't strictly "feel good")
 		* How does intracranial stimulation work?
+	* Desiderata:
+		* Reversibility
+		* Non-adaption
+		* Non-addiction
+		* Safety
+		* Ability preservation
 * Shipping: Much More Than You Wanted to Know
 * Timeline of the Odyssee
 * Requirements for AI Safety via Debate
@@ -436,12 +453,18 @@ Texts
 	* Reasoning: If propensity to have children is heritable, this kind of decision will prevent my ancestors from becoming pure replicators
 	* It is slightly paradoxical, though
 * About Longtermist's Children
+	* Disclaimer:
+		* If people want to have children for egoistic reasons, it is not useful to argue against
+		* Trying to convince people to not do things they deeply desire is bad, even under consequentialist reasoning
 	* People argue that effective altruists (and especially longtermists) ought to have children
+		* Most arguments for having children are bad
 	* However:
 		* Children are expensive, opportunity cost
 			* Perhaps better: invest time/energy into life-extension tech
 				* Or spreading ones memes
+					* Memes under heavy selective pressure too, though
 		* Traits we like are only moderately heritable, and will be washed out in a few generations (especially under selective pressure)
+			* On each EA-related trait 50% heritability → very likely not EA (seems like specific combination of personality characteristics)
 		* Parents seem to have relatively little influence on the values of their children (Is this true?)
 		* Humanity will very likely not die out due to people stopping to breed
 			* Indeed, It seems to me much more likely that if we wait long enough, we fall back into the malthusian trap
@@ -450,10 +473,18 @@ Texts
 		* It leads to a malthusian trap/pure replicator hell with no value and no option to get out (in the long run)
 	* However, maybe in the medium run this makes sense (not short enough for the really important stuff to happen during our lifetimes, not long enough for us to worry about malthusian traps)
 		* Even then, however, just trying to build better institutions is more useful?
+	* Would people prefer procreating to indefinite longevity?
 * Sitting in X
 	* You analyze everything under light of X
 	* You believe that everyone else also intuitively analyzes everything under the light of X
 * The Generalized Concept of Addiction
+* Implications of Attainable Utility Preservation on practical rationality
+	* Further argument why death is bad:
+		* Removes many degrees of freedom for action
+	* Preserve option value, avoid irreversible actions
+		* Be conservative:
+			* Preserve humans, ecosystems, language, culture (losing them is really bad, perhaps)
+	* These are especially important for humans since our values change, in somewhat forseeable ways
 
 ### Collections
 
@@ -480,8 +511,7 @@ Texts
 	* Read
 		* /usr/local/doc/unread/notation/notation\_as\_a\_tool\_of\_thought\_iverson\_1986.pdf
 	* Substitution of variables in formulas: order is _bad_ & _wrong_
-* Cryonics in Germany FAQ
-* Trigger Action Plans
+* Cryonics in Germany/Europe FAQ
 * Recommendations
 	* Activities/Movies/Series/Podcasts/Books/Blogposts
 * Cool Things Humans Can Learn
@@ -735,6 +765,8 @@ Collect data on
 * [Daygame](./daygame_cost_benefit.html#Appendix-C-Empirically-Checking-the-Assumptions)
 * [Masturbation and Attractiveness](./masturbation_and_attractiveness.html#Method)
 * [Subjective Life Expectancy](./estimated_life_expectancy.html#Data-Collection-Method)
+* Meditation
+* [Masturbation](./data/masturbations.csv)
 
 Music
 -----
@@ -1032,13 +1064,13 @@ Programming
 * neo2
 	* port neo2 to plan9/9front/Haiku OS
 * klong
-	* receiving output of shell commands via pipe
 	* receiving output of shell commands (maybe via pipe?)
 	* self adverb (options are :!, :&, :,, :;, :<, :>, :?)
 		* :< and :> should be reserved for something symetric
 		* :; is not fit because ; is not really a verb or adverb
 		* :!, :&, :? and :, are the best options
-	* support for imaginary numbers?
+	* support for complex numbers
+		* logarithms for complex numbers
 	* nplot
 		* Support for multiple bargraphs
 		* Bargraphs with negative values
