@@ -360,4 +360,7 @@ TODO: read.
 * https://mathoverflow.net/questions/184404/randall-munroes-lost-immortals
 * [Rendezvous problem](https://en.wikipedia.org/wiki/Rendezvous_problem)
 * [Deterministic rendezvous problem](https://en.wikipedia.org/wiki/Deterministic_rendezvous_problem)
+
+Graph that is isomorphic to a sphere in the limit of the number of nodes,
+and then apply standard theorems for graph rendezvous?
 -->

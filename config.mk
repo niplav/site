@@ -30,6 +30,7 @@ HTML=index.html \
 	leave_the_internet.html \
 	life_advice.html \
 	masturbation_and_attractiveness.html \
+	mathematics_notation_convention.html \
 	metamodernistisches_manifest.html \
 	nst_solutions.html \
 	pipe_rings.html \
