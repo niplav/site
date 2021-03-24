@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2021-01-29, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2021-02-24, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1091,9 +1091,12 @@ of a breath can often develop into a verbal loop and break concentration.
 Implementing Commutative Hyperoperators
 ----------------------------------------
 
-[Ghalimi 2019](https://observablehq.com/@ishi/the-missing-operation?collection=@ishi/arithmetic "The Missing Operation")
-presents and discusses a novel construction of hyperoperators, here I
-implement these in Klong.
+[Ghalimi 2019](https://observablehq.com/@ishi/arithmetic "Hyperlogarithmic
+Arithmetic") presents and discusses a novel construction of
+a class of hyperoperators, here I implement these in Klong.
+
+I chose to implement these operators on base e, just as the author
+recommends.
 
 The problem with this is that with with operations of order 4 or
 higher, the results are in `$\mathbb{C}$` (because `$ln(ln(2))<0$`),
@@ -1141,12 +1144,64 @@ This all looks relatively fine (the rounding errors are probably
 unavoidable), however, we see that `cexp(cln(-1,1))=[-1 -1]≠[-1 1]`
 (and `cexp(cln(-1,-1))=[-1 1]≠[-1 -1]`).  This is very unfortunate. I
 suspect that the implementation of `atan2` is at fault: `atan2(1;0)=0`
-here, but [this calculator](www.medcalc.org/manual/atan2_function.php)
-gives `atan2(1;0)=π/2` (the online calculator gives `0` for `atan2(0;1)`
-and Klong's `atan2` gives `π/2` for `atan2(0;1)`).
+here, but the python math library gives `math.atan2(1,0)=π/2` (python
+gives `0` for `math.atan2(0,1)` and Klong's `atan2` gives `π/2` for
+`atan2(0;1)`).
 
 <!--TODO: fix local atan2-->
 
 With this, one can implement the commutative hyperoperator:
 
-	comhyp::{:[z=0;ln((e^x)+e^y):|z=1;x+y:|z=2;x*y:|z=3;e^(ln(x)*ln(y));e^comhyp(ln(x);ln(y);z-1)]}
+	comhyp::{:[z=0;cln(cadd(cexp(x);cexp(y))):|
+		z=1;cadd(x;y):|
+		z=2;cmul(x;y):|
+		z=3;cexp(cmul(cln(x);cln(y)));
+		cexp(comhyp(cln(x);cln(y);z-1))]}
+
+This implementation deals only in `$\mathbb{C}$`.
+
+Nearly identically, one can treat reversion:
+
+	revhyp::{:[z=0;cln(csub(cexp(x);cexp(y))):|
+		z=1;csub(x;y):|
+		z=2;cdiv(x;y):|
+		z=3;cexp(cdiv(cln(x);cln(y)));
+		cexp(revhyp(cln(x);cln(y);z-1))]}
+
+For implementing transaction, one needs to implement exponentiation in
+`$\mathbb{C}$` (for `$x, y \in \mathbb{C}$`, `$x^y=e^{y*\ln(x)}$`):
+
+	cpow::{cexp(cmul(y;cln(x)))}
+
+Next, one can turn ones attention to the transaction operation itself:
+
+	tranhyp::{:[z=0;cadd(x;cexp(y)):|
+		z=1;cmul(x;cexp(y)):|
+		z=2;cpow(x;y):|
+		z=3;cexp(cpow(cln(x);cln(y)));
+		cexp(tranhyp(cln(x);cln(y);z-1))]}
+
+<!--When you're less tired, check over this again:
+2^x^y=b^{1^log_b(x)^{log_b(y)}}=b^{log_b(x)*b^log_b(y)}=x^{b^_log_b(y)}=x^y
+I think this checks out-->
+
+A Trivial Fact About Leyland Numbers
+-------------------------------------
+
+A [Leyland number](https://en.wikipedia.org/wiki/Leyland_number) is a
+number `$l \in \mathbb{N}^+$` so that there exist `$a,b \in \mathbb{N}^+ \backslash \{1\}$`
+so that `$n=a^b+b^a$`. Does every Leyland number have a unique construction?
+That is, for any Leyland number `$l$`, does there exist four
+distinct `$a,b,c,d \in \mathbb{N}^+ \backslash \{1\}$` so that
+`$a^b+b^a=c^d+d^c=l$`?
+
+This question turns out to be very difficult<!--TODO: Mathoverflow
+question-->, and is unsolved as of now (as far as I know), but one can
+rule out two distinct constructions of the same Leyland number with only
+three numbers:
+
+Let `$a,b,c \in \mathbb{N}^+ \backslash \{1\}$`, `$a \not =b, a \not =c, b \not =c$`.
+Then `$l=a^b+b^a=a^c+c^a$`. But since b and c are distinct, `$b>c$`
+(or the other way around, but that's just semantics). Then `$a^b>a^c$`,
+and `$b^a>c^a$`, which results in `$a^b+b^a>a^c+c^a$`. So distinct
+constructions with only three numbers are impossible.

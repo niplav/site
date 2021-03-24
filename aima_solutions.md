@@ -417,6 +417,8 @@ Replacing the Alldiff constraint with binary constraints:
 	$$C \leftarrow (C \backslash \{\langle F, T, U, W, R, O \rangle: Alldiff(F, T, U, W, R, O)\}) \cup \{ \langle x_1, x_2 \rangle: x_1 \not = x_2 | x_1, x_2 \in \{ F, T, U, W, R, O \} \}$$
 </div>
 
+Replacing the other trinary constraints with binary ones:
+
 <!--TODO: replace trinary constraints above as well-->
 
 Variables sorted by domain size: `$F: 10, T: 10, U: 10, W: 10, R: 10, O: 10, C_1: 2, C_2: 2, C_3: 2$`.
