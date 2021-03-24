@@ -166,8 +166,9 @@ Texts
 * Separating Arguments From Inconsistency and Questions About Inconsistency
 	* The thing Hanson does when arguing about ethics
 * Reflections on Pseudonymity
-* Heuristics for Friendly Conversation on the Internet
-* Meanings of "so" in German
+* In Non-Adversarial Universes, Systematic Trying Dominates Other Approaches
+	* In short: trying to think better/act better can expected to yield monotonically increasing results with effort put in
+	* Result: Utilitarianism works by its own standards, rationalism works by its own standards
 
 ### Analyses
 
@@ -587,6 +588,8 @@ Texts
 * Anecdotes About the Running Times of Test Suites in the Software Industry
 * Ways in which people have misspelled "Kurzgesagt" on the internet
 * Ranking, Reviewing and Rating Patricia Taxxon's Music
+* Meanings of "so" in German
+* Heuristics for Friendly Conversation on the Internet
 
 ### Notes
 

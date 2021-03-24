@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-03-18, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-03-24, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -21,6 +21,9 @@ March 2021
 	* [16.15](./aima_solutions.html#1615)
 * [Solutions to “Naïve Set Theory“](./nst_solutions.md)
 	* [Section 11 Exercise 1](./nst_solutions.html#Exercise-1_8)
+* [Notes](./notes.md)
+	* [Implementing Commutative Hyperoperators](./notes.html#Implementing-Commutative-Hyperoperators)
+	* [A Trivial Fact About Leyland Numbers](./notes.html#A-Trivial-Fact-About-Leyland-Numbers)
 
 February 2021
 -------------
