@@ -499,3 +499,9 @@
 2021-03-16T22:56:07.000000Z	hem hock
 2021-03-21T11:48:47.000000Z	Impossible → God can't do. But what about: God doesn't want → Impossible
 2021-03-23T12:37:17.000000Z	Chapman's sites are wonderfully wgettable
+2021-03-24T20:46:53.000000Z	@<alip https://dev.exherbo.org/~alip/twtxt.txt> "We are calling for Richard M. Stallman to be removed from all leadership positions, including the GNU Project. https://rms-open-letter.github.io/" highly contextual/simulacrous memeplexes exclude high-variance impact neuroatypicals, nobody thinks about incentives?
+2021-03-24T20:48:25.000000Z	RMS would have been well advised to learn some [Kolmogorov complicity](https://slatestarcodex.com/2017/10/23/kolmogorov-complicity-and-the-parable-of-lightning/) – unfortunately he's more on the Kantorovich side, and hadn't gotten bitten as hard before
+2021-03-24T20:52:54.000000Z	but now, for something enjoyable: [commmutative hyperoperators](https://observablehq.com/@ishi/arithmetic) and [their implementation](https://niplav.github.io/notes.html#Implementing-Commutative-Hyperoperators)
+2021-03-24T21:14:22.000000Z	epistemic status: taking semi-jokes seriously) “irrationalism” would be a much much better name than “rationalism”: it sounds more humble (and this _is_ important to the outside world, name not yet taken, and it carries in it a very central point of bayrat thinking (namely, that humans are extremely irrational). Other idea: “adrationalism”: “towards rationality”
+2021-03-24T21:18:54.000000Z	@<jlj https://twt.nfld.uk/user/jlj/twtxt.txt> "@niplav (#<xvbnyma https://twt.nfld.uk/search?tag=xvbnyma>) Fascinating. :-) Suspect #<RMS https://twt.nfld.uk/search?tag=RMS> would have a violent physical reaction -- accompanied by some salty language -- after even a moment's  contemplation of life under such complicity. :-D" -> He is a very unreasonable man <3
+2021-03-25T10:17:49.000000Z	

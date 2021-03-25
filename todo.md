@@ -1126,6 +1126,7 @@ Programming
 ### Metaculus Questions
 
 * A question that tries to gauge how much Metaculus forecasters are incentivized by points vs. simply accuracy
+* A question about the discovery of a [perfect cuboid](https://en.wikipedia.org/wiki/Euler_brick#Perfect_cuboid)
 
 Structure
 ---------
