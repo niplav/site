@@ -141,22 +141,6 @@ Texts
 	* Easterlin's Paradox
 	* Status Games
 * In Praise of Cost-Benefit Analyses
-* Why You Ought to Disengage from the Internet as Much as Possible
-	* https://www.lesswrong.com/posts/Jq73GozjsuhdwMLEG/superstimuli-and-the-collapse-of-western-civilization
-	* https://www.youtube.com/watch?v=wf2VxeIm1no
-	* https://www.youtube.com/watch?v=VpHyLG-sc4g
-	* https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like
-	* GPT-3
-	* https://builtin.com/data-science/recommender-systems
-	* https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883
-	* https://medium.com/@nrs007/recommender-systems-and-their-impacts-on-autonomy-51a69c64038
-	* https://towardsdatascience.com/introduction-to-recommender-systems-6c66cf15ada?gi=792420939b20
-	* https://www.wiley.com/en-us/Recommender+System+with+Machine+Learning+and+Artificial+Intelligence%3A+Practical+Tools+and+Applications+in+Medical%2C+Agricultural+and+Other+Industries-p-9781119711575
-	* [Internet addiction](https://en.wikipedia.org/wiki/Internet_addiction_disorder)
-	* https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like?commentId=CB8ieALcHfSSuAYYJ#CB8ieALcHfSSuAYYJ
-	* https://www.lesswrong.com/posts/qKvn7rxP2mzJbKfcA/persuasion-tools-ai-takeover-without-agi-or-agency
-	* [Attention span](https://en.wikipedia.org/wiki/Attention_span)
-	* https://www.lesswrong.com/posts/YicoiQurNBxSp7a65/is-clickbait-destroying-our-general-intelligence
 * Intentional vs. Non-Intentional Consciousness
 	* The reason why, even if, strictly speaking, trees are "conscious", we don't have to worry about damaging them as much as we have to worry about damaging animals
 * Creating Utility Monsters or Repugnant Beings
@@ -169,6 +153,7 @@ Texts
 * In Non-Adversarial Universes, Systematic Trying Dominates Other Approaches
 	* In short: trying to think better/act better can expected to yield monotonically increasing results with effort put in
 	* Result: Utilitarianism works by its own standards, rationalism works by its own standards
+* The Overlap Argument for Learning Latin does not Hold
 
 ### Analyses
 

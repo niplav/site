@@ -15,6 +15,7 @@ March 2021
 	* [2.4](./aima_solutions.html#24)
 	* [3.1](./aima_solutions.html#31)
 	* [6.1](./aima_solutions.html#61)
+	* [6.5](./aima_solutions.html#65)
 	* [7.10](./aima_solutions.html#710)
 	* [7.14](./aima_solutions.html#714)
 	* [13.6](./aima_solutions.html#136)

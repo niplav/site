@@ -19,15 +19,16 @@ free time. I apologize for the inconveniences.
 Writing
 -------
 
-I'm writing code and text for [An Exploratory Toy AI Takeoff
-Model](./toy_ai_takeoff_model.html) and [Generalizing the Diamond-Square
-Algorithm to n Dimensions](./generalizing_diamond_square.html),
-and sporadically updating [Considerations on
-Cryonics](./considerations_on_cryonics.html), [Masturbation and
-Attractiveness](./masturbation_and_attractiveness.html), [Range and
-Forecasting Accuracy](./range_and_forecasting_accuracy.html),
-and [Daygame Cost-Benefit
-Analysis](./daygame_cost_benefit.mddaygame_cost_benefit.html).
+I am mostly writing solutions to exercises in the textbooks I'm reading
+at the moment.
+
+If I find time inbetween that, I'm refactoring [Range and Forecasting
+Accuracy](./range_and_forecasting_accuracy.md) code & text, or expanding
+on the following texts:
+
+* [Generalizing the Diamond-Square Algorithm to n Dimensions](./generalizing_diamond_square.html)
+* [Leave the Internet](./leave_the_internet.html)
+* [Thoughts on Politics, Especially Economics](./thoughts_on_politics_especially_economics.html)
 
 I'm also planning an editing of all texts on the website, but that might
 take a while.
@@ -41,12 +42,6 @@ Klong Problems](./99_klong_problems.html) and their
 
 I am also working on an [arbtt](https://arbtt.nomeata.de/)-inspired time
 tracker: [awitt](https://github.com/niplav/awitt).
-
-Mathematics
------------
-
-I'm eternally working through and [solving the exercises
-of](./nst_solutions.html) Naïve Set Theory.
 
 Data Sets
 ---------
