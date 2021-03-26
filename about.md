@@ -153,7 +153,8 @@ The style of writing is mostly formal US english.
 	* "See Also" for similar links on this website
 	* "External Links" for links to other websites discussing the same (or very similar) ideas
 	* "Discussions" for external discussions on the article
-* Long numbers written with [SI-postfixes](https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes) (k for thousand, m for million, b for billion, t for trillion, and so on.)
+* Long numbers written with [SI-postfixes](https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes) (k for thousand, m for million, b for billion, t for trillion, and so on).
+* If there is a single sentence in a bullet point, don't end it with a dot. If there are several, end them all (even the last one) with a dot.
 
 ### Writing Checklist
 

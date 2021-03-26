@@ -17,6 +17,11 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [You Have About Five Words (Raemon, 2019)](https://www.lesswrong.com/posts/4ZvJab25tDebB8FGE)
+* [Adding My Data Point To The Discussion Of Substack Advances (Scott Alexander, 2021)](https://astralcodexten.substack.com/p/adding-my-data-point-to-the-discussion)
+* [Hyperlogarithmic Arithmetic (Ismael Ghalimi, 2019)](https://observablehq.com/@ishi/arithmetic)
+* [The Missing Operation (Ismael Ghalimi, 2019)](https://observablehq.com/@ishi/the-missing-operation?collection=@ishi/arithmetic)
+* Eternity in six hours: intergalactic spreading of intelligent life and sharpening the Fermi paradox (Stuart Armstrong/Anders Sandberg, 2013)
 * [The Longevity FAQ (José Luis Ricón, 2021)](https://nintil.com/longevity)
 * [How to evaluate neglectedness and tractability of aging research (Emanuele Ascani, 2019)](https://forum.effectivealtruism.org/s/8QHbqGpXnzcQxiAis/p/zQDakLnNumoejXZuX)
 * [Impact of aging research besides LEV (Emanuele Ascani, 2019)](https://forum.effectivealtruism.org/s/8QHbqGpXnzcQxiAis/p/AHajQh7NcJbqZFZh9)

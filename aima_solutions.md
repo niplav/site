@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-21, modified: 2021-03-19, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-01-21, modified: 2021-03-25, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
@@ -414,24 +414,97 @@ Domains: `$\{0..9\}$` for `$\{F, T, U, W, R, O\}$`, and `$\{0, 1\}$` for `$\{C_1
 Replacing the Alldiff constraint with binary constraints:
 
 <div>
-	$$C \leftarrow (C \backslash \{\langle F, T, U, W, R, O \rangle: Alldiff(F, T, U, W, R, O)\}) \cup \{ \langle x_1, x_2 \rangle: x_1 \not = x_2 | x_1, x_2 \in \{ F, T, U, W, R, O \} \}$$
+	$$C := (C \backslash \{\langle F, T, U, W, R, O \rangle: Alldiff(F, T, U, W, R, O)\}) \cup \\{ \langle x_1, x_2 \rangle: x_1 \not = x_2 | x_1, x_2 \in \{ F, T, U, W, R, O \} }$$
 </div>
 
 Replacing the other trinary constraints with binary ones:
 
-<!--TODO: replace trinary constraints above as well-->
+New variables `$X_1, X_2 \in [10] \times \{0, 1\}$`.
 
-Variables sorted by domain size: `$F: 10, T: 10, U: 10, W: 10, R: 10, O: 10, C_1: 2, C_2: 2, C_3: 2$`.
+We remove the constraints
 
-Variables sorted by degree: `$O: 8, W: 7, T: 7, R: 6, U: 6, F: 6, C_3: 2, C_2: 1, C_1: 1$`
+<div>
+	$$\{\langle W, U, C_1 \rangle: W+W+C_1 \mod 10=U, \\
+	\langle T, O, C_2 \rangle: T+T+C_2 \mod 10=O, \\
+	\langle C_2, W, C_1 \rangle: C_2=1 \hbox{ if } W+W+C_1>9 \hbox { else } 0, \\
+	\langle C_3, T, C_2 \rangle: C_3=1 \hbox{ if } T+T+C_2>9 \hbox { else } 0 \} $$
+</div>
 
-* Assign: `$C_3=0$`
-	* Infer: `$F \in \{0\}$`
-	* Infer: `$T \in \{1, 2, 3, 4\}$`
-	* Infer: `$O \in \{2, 4, 6, 8\}$`
-	* Infer: `$R \in \{4, 8, 2\}$`
+and add some constraints to replace the trinary with binary constraints on
+`$X_{1 \hbox{ to } 4}$`. The result looks like this:
 
-<!--TODO-->
+<div>
+	$$ C := \{ \langle X_1, U \rangle: U=fst(X_1)+fst(X_1)+snd(X_1) \mod 10, \\
+	\langle X_2, O \rangle: O=fst(X_2)+fst(X_2)+snd(X_2) \mod 10, \\
+	\langle X_1, C_2 \rangle: C_2=1 \hbox{ if } fst(X_1)+fst(X_1)+snd(X_1)>9 \hbox { else } 0, \\
+	\langle X_2, C_3 \rangle: C_3=1 \hbox{ if } fst(X_2)+fst(X_2)+snd(X_2)>9 \hbox { else } 0, \\
+	\langle X_1, W \rangle: W=fst(X_1), \\
+	\langle X_1, C_1 \rangle: C_1=snd(X_1), \\
+	\langle X_2, T \rangle: T=fst(X_2), \\
+	\langle X_2, C_2 \rangle: C_2=snd(X_2), \\
+	\langle O, R \rangle: O+O \mod 10=R, \\
+	\langle C_1, O \rangle: C_1=1 \hbox{ if } O+O>9 \hbox { else } 0, \\
+	\langle F, C_3 \rangle: F=C_3 \} \\ \cup
+	\{ \langle x_1, x_2 \rangle: x_1 \not = x_2 | x_1, x_2 \in \{ F, T, U, W, R, O \} $$
+</div>
+
+Variables sorted by domain size: `$X_1: 20, X_2: 20, F: 10, T: 10, U: 10, W: 10, R: 10, O: 10, C_1: 2, C_2: 2, C_3: 2$`
+
+Variables sorted by degree: `$O: 8, W: 6, T: 6, R: 6, U: 6, F: 6, X_1: 4, X_2: 4, C_1: 2, C_2: 2, C_3: 2$`
+
+Now, one can do the actual searching and inference:
+
+* Assign (tie between `$C_1, C_2, C_3$` in remaining values, choosing `$C_1$` randomly): `$C_1=1$`
+	* Infer: `$X_1 \in [10] \times \{1\}$`
+	* Infer: `$O \in \{5,6,7,8,9\}$`
+	* Infer: `$X_2 \in \{2,3,4,7,8,9\} \times \{0, 1\}$`
+	* Infer: `$R \in \{0,2,4,6,8\}$`
+	* Infer: `$T \in \{2,3,4,7,8,9\}$`
+	* Assign: (tie between `$C_2, C_3$` in remaining values, choosing `$C_2$` next): `$C_2=1$`
+		* Infer from `$C_2$`: `$X_1 \in \{5,6,7,8,9\} \times \{1\}$`
+		* Infer from `$C_2$`: `$X_2 \in \{2,3,4,7,8,9\} \times \{1\}$`
+		* Infer from `$X_1$`: `$U \in \{1, 3, 5, 7, 9\}$`
+		* Infer from `$X_1$`: `$W \in \{5,6,7,8,9\}$`
+		* Infer from `$X_2$`: `$O \in \{5,7,9\}$`
+		* Infer from `$X_2$`: `$T \in \{2,3,4,7,8,9\}$`
+		* Infer from `$O$`: `$R \in \{0, 4, 8\}$`
+		* Assign: `$C_3=1$`
+			* Infer from `$C_3$`: `$X_2 \in \{7,8,9\} \times \{1\}$`
+			* Infer from `$C_3$`: `$F=1$`
+			* Infer from `$F$`: `$U \in \{3,5,7,9\}$`
+			* Infer from `$U$`: `$X_1 \in \{6,7,8,9\} \times \{1\}$`
+			* Infer from `$X_1$`: `$W \in \{6,7,8,9\}$`
+			* Assign: `$R=0$`
+				* Infer from `$R$`: `$O \in \emptyset$`
+			* Backtrack, assign: `$R=4$`
+				* Infer from `$R$`: `$O=7$`
+				* Infer from `$R$`: `$T \in \{2,3,7,8,9\}$`
+				* Infer from `$O$`: `$X_2=(8,1)$`
+				* Infer from `$O$`: `$T \in \{2,3,8,9\}$`
+				* Infer from `$O$`: `$W \in \{6,8,9\}$`
+				* Infer from `$X_2$`: `$T=8$`
+				* Infer from `$W$`: `$X_1 \in \{6,8,9\} \times \{1\}$`
+				* Infer from `$T$`: `$W \in \{6,9\}$`
+				* Infer from `$W$`: `$X_1 \in \{6,9\} \times \{1\}$`
+				* Infer from `$X_1$`: `$U \in \{3,9\}$`
+				* Assign: `$W=6$`
+					* Infer from `$W$`: `$X_1=(6,1)$`
+					* Infer from `$X_1$`: `$U=3$`
+
+The assignments are
+`$C_1=1, C_2=1, C_3=1, F=1, T=8, U=3, W=6, R=4, O=7, X_1=(6,4), X_2=(8,1).$`
+Or, in the puzzle:
+
+<div>
+	$$
+	\matrix {
+		& 8 & 6 & 7 \cr
+		+ & 8 & 6 & 7 \cr
+		\hline{}
+		1 & 7 & 3 & 4 \cr
+	}
+	$$
+</div>
 
 Chapter 7
 ----------
@@ -491,7 +564,7 @@ This sentence is valid since `$a \Leftrightarrow a \equiv True$`.
 <div>
 	$$(Smoke \Rightarrow Fire) \Rightarrow ((Smoke \land Heat) \Rightarrow Fire) \equiv \\
 	\lnot (\lnot Smoke \lor Fire) \lor (\lnot (Smoke \land Heat) \lor Fire) \equiv \\
-	(Smoke \land \lnot Fire) \lor \not Smoke \lor \lnot Heat \lor Fire \equiv \\
+	(Smoke \land \lnot Fire) \lor \not Smoke \lor \lnot Heat \lor Fire \equiv $$
 </div>
 
 This sentence is valid. If Smoke=True, Heat=True and Fire=False, then

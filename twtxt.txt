@@ -504,4 +504,4 @@
 2021-03-24T20:52:54.000000Z	but now, for something enjoyable: [commmutative hyperoperators](https://observablehq.com/@ishi/arithmetic) and [their implementation](https://niplav.github.io/notes.html#Implementing-Commutative-Hyperoperators)
 2021-03-24T21:14:22.000000Z	epistemic status: taking semi-jokes seriously) “irrationalism” would be a much much better name than “rationalism”: it sounds more humble (and this _is_ important to the outside world, name not yet taken, and it carries in it a very central point of bayrat thinking (namely, that humans are extremely irrational). Other idea: “adrationalism”: “towards rationality”
 2021-03-24T21:18:54.000000Z	@<jlj https://twt.nfld.uk/user/jlj/twtxt.txt> "@niplav (#<xvbnyma https://twt.nfld.uk/search?tag=xvbnyma>) Fascinating. :-) Suspect #<RMS https://twt.nfld.uk/search?tag=RMS> would have a violent physical reaction -- accompanied by some salty language -- after even a moment's  contemplation of life under such complicity. :-D" -> He is a very unreasonable man <3
-2021-03-25T10:17:49.000000Z	
+2021-03-25T10:17:49.000000Z	 
