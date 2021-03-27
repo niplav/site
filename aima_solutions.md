@@ -1,7 +1,9 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-21, modified: 2021-03-25, language: english, status: in progress, importance: 2, confidence: likely*
+<!--TODO: Exercises 6.6, 7.4, 7.5, 9.9, 9.10, 13.18, 13.21, 15.14, 16.17, 17.1 -->
+
+*author: niplav, created: 2021-01-21, modified: 2021-03-27, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
@@ -633,6 +635,41 @@ Neither can this sentence.
 </div>
 
 This sentence can be represented in Horn form, and is also a tautology.
+
+<!--
+TODO
+
+Chapter 9
+----------
+
+### 9.9
+
+> Suppose you are given the following axioms:
+
+> 1.
+> 2.
+> 3.
+> 4.
+> 5.
+> 6.
+> 7.
+> 8.
+
+### 9.10
+
+> A popular children's riddle is “Brothers and sisters have I none,
+but that man's father is my father's son.” Use the rules of the family
+domain (Section 8.3.2 on page 301) to show who that man is. You may
+apply any of the inference methods described in this chapter. Why do
+you think that this riddle is difficult?
+
+Constants: `$I$`, referring to the speaker, `$T$` referring to "that man".
+
+Variables: `$x, y, z$`.
+
+Known facts: `$\lnot \exists x: Sibling(x, I), Father(y, T), Father(z, I), y=z$`.
+
+-->
 
 Chapter 13
 -----------
@@ -1457,3 +1494,36 @@ Since `$U(\lnot p|\lnot b)=0$`, it can be left out of the calculation.
 > c. What should Sam do?
 
 Sam should buy the book, since that yields the highest expected utility.
+
+Chapter 17
+-----------
+
+### 17.3
+
+> Suppose that we define the utility of a state sequence to be the
+*maximum* reward obtained in any state in the sequence. Show that this
+utility function does not result in stationary preferences between state
+sequences. Is it still possible to define a utility function on states
+such that MEU decsion making gives optimal behavior?
+
+Preferences between state sequences are stationary iff
+`$[s_0, s_1, \dots] \bullet [s_0', s_1', s_2', \dots] \Rightarrow [s_1, s_2, \dots] \bullet [s_1', s_2', \dots]$`
+for a fixed `$\bullet \in \{\succ, \sim, \prec\}$` and `$s_0=s_0'$`.
+
+Asumme that `$s_0=s_0'$` is the maximum of the two state
+sequences `$S_1, S_2$`. Then `$S_1 \sim S_2.$` Assume that
+`$\max(S_1(1..))>\max(S_2(1..))$`. Then `$S_1(1..) \succ S_2(1..)$`,
+even though they two sequences start with the same value. Stationarity
+violated.
+
+However, not all hope is lost. Given a sequence of rewards on states,
+one can define the utility to be the maximum of the average of all
+rewards in the sequence. This utility should be stationary.
+
+Disclaimer: I'm not sure what is exactly being asked in the second
+part of the question. We have sequences of rewards, we have the utility
+function that ranks sequences based on the maximum, and we then have an
+agent that acts based on these utilities. Is my job to modify the reward
+sequence so that using the maximum utility function is still optimal? Or
+do I have to modify the utility function itself? In the second case,
+I set the utility to be the sum of rewards (discounted, if you will).
