@@ -71,3 +71,45 @@ draw()
 
 .fl()
 .cc(allq)
+
+alllreg::.oc("alllreg.eps")
+.tc(alllreg)
+
+setrgb(0;0;0)
+grid([0],uplim,(uplim%15);[0 1 0.1])
+
+xtitle("Range (in seconds)")
+ytitle("Brier Score")
+
+sketch::{q::x;
+	setrgb(.rn();.rn();.rn());
+	pltr::{:[(x>**q)|x<**|q;0;lr(x;lreg(q))]};
+	plot(pltr)}
+
+sketch'wmetqbrier
+:"sketch'wpbqbrier"
+
+draw()
+
+.fl()
+.cc(allq)
+
+withintotal::.oc("withintotal.eps")
+.tc(withintotal)
+
+setrgb(0;0;0)
+setdot(2)
+grid([0],uplim,(uplim%15);[0 1 0.1])
+
+xtitle("Range (in seconds)")
+ytitle("Brier score")
+
+setrgb(1;0;0)
+plot(lr(;awmetqlr))
+
+setrgb(0;0;1)
+plot(lr(;awpbqlr))
+
+draw()
+.fl()
+.cc(withintotal)

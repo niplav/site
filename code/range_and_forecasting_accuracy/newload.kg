@@ -53,3 +53,12 @@ pbquestions::{(*x@0),(*x@1),2_x}'+'(+pbdata)@=*pbdata
 
 metqbrier::{(x@1),brier(x@2;x@3)}'metquestions
 pbqbrier::{(x@1),brier(x@2;x@3)}'pbquestions
+
+wmetqbrier::{(,x@4),,((x@2)-x@3)^2}'metquestions
+wpbqbrier::{(,x@4),,((x@2)-x@3)^2}'pbquestions
+wpbqbrier::flr({1<#*x};wpbqbrier)
+wmetqbrier::+'wmetqbrier
+wpbqbrier::+'wpbqbrier
+
+awmetqlr::mu'+lreg'wmetqbrier
+awpbqlr::mu'+lreg'wpbqbrier

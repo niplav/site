@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-<!--TODO: Exercises 6.6, 7.4, 7.5, 9.9, 9.10, 13.18, 13.21, 15.14, 16.17, 17.1 -->
+<!--TODO: Exercises 6.6, 7.4, 7.5, 9.10, 13.18, 13.21, 15.14, 16.17, 17.1 -->
 
 *author: niplav, created: 2021-01-21, modified: 2021-03-27, language: english, status: in progress, importance: 2, confidence: likely*
 
@@ -148,7 +148,7 @@ false and support your answer with examples or counterexamples where
 appropriate.
 
 > a. An agent that senses only partial information about the state cannot
-be perfectly rational.  
+be perfectly rational.
 
 False. An agent that senses only partial information about the state could
 infer missing information by making deductions (logical or statistical)
@@ -160,7 +160,7 @@ could infer the piece standing on that square by observing which piece
 is missing from the rest of the board.
 
 > b. There exist task environments in which no pure reflex agent can
-behave rationally.  
+behave rationally.
 
 True. In an environment in which the next reward depends on the current
 state and the previous state, a simple reflex agent will get outperformed
@@ -169,12 +169,12 @@ by agents with an internal world-model.
 An example for this is a stock-trading agent: The future prices of stocks
 doesn't just depend on the current prices, but on the history of prices.
 
-> c. There exists a task environment in which every agent is rational.  
+> c. There exists a task environment in which every agent is rational.
 
 True. It is the environment where the agent has no options to act.
 
 > d. The input to an agent program is the same as the input to the
-agent function.  
+agent function.
 
 Not sure. Both the agent function and the agent program receive percepts,
 but sometimes the agent program also needs information that is not a
@@ -182,7 +182,7 @@ percept (e.g. priors for bayesian agents). Is that counted as input,
 or simply as program-specific data?
 
 > e. Every agent function is implementable by some program/machine
-combination.  
+combination.
 
 False. An agent function could be uncomputable
 (e. g. [AIXI](https://en.wikipedia.org/wiki/AIXI)), and therefore not
@@ -190,13 +190,13 @@ be implementable on a real-world machine.
 
 > f. Suppose an agent selects its action uniformly at random from the
 set of possible actions. There exists a deterministic task environment
-in which this agent is rational.  
+in which this agent is rational.
 
 True, that would be the environment in which every action scores equally
 well on the performance measure.
 
 > g. It is possible for a given agent to be perfectly rational in two
-distinct task environments.  
+distinct task environments.
 
 True. Given two agents `$A_X$` and `$A_Y$`, and two task environments
 `$X$` (giving percepts from the set `$\{x_1, \dots, x_n\}$`) and `$Y$`
@@ -215,7 +215,7 @@ could be implemented using the code:
 		while p=percept()
 			A_Y(p)
 
-> h. Every agent is rational in an unobservable environment.  
+> h. Every agent is rational in an unobservable environment.
 
 False. Given an unobservable environment in which moving results in
 the performance measure going up (e.g. by knocking over ugly vases),
@@ -636,9 +636,6 @@ Neither can this sentence.
 
 This sentence can be represented in Horn form, and is also a tautology.
 
-<!--
-TODO
-
 Chapter 9
 ----------
 
@@ -646,14 +643,54 @@ Chapter 9
 
 > Suppose you are given the following axioms:
 
-> 1.
-> 2.
-> 3.
-> 4.
-> 5.
-> 6.
-> 7.
-> 8.
+> 1. `$0 \le 3$`.
+> 2. `$ 7 \le 9$`.
+> 3. `$\forall x: x \le x$`.
+> 4. `$\forall x: x \le x+0$`.
+> 5. `$\forall x: x+0 \le x$`.
+> 6. `$\forall x, y: x+y \le y+x$`.
+> 7. `$\forall w, x, y, z: w \le y \land x \le z \Rightarrow w+x \le y+z$`.
+> 8. `$\forall x, y, z: x \le y \land y \le z \Rightarrow x \le z$`.
+
+> a. Give a backward-chaining proof of the sentence `$7 \le 3 + 9$`. (Be
+sure, of course, to use only the axioms given here, not anything else
+you may know about arithmetic.) Show only the steps that leads [sic]
+to success, not the irrelevant steps.
+
+* Proof: `$7 \le 3+9$`
+	* Rule 8: `$\{7/x, 3+9/z\}$`
+	* Proof: `$7 \le y \land y \le 3+9$`
+		* Substitute `$\{0+7/y\}$`
+		* Proof: `$7 \le 0+7$`
+			* Rule 8: `$7 \le y \land y \le 0+7$`
+			* Substitute: `$\{y/7+0\}$`
+			* Proof: `$7+0 \le 0+7$`
+				* Rule 6: `$7+0 \le 0+7$`
+			* Proof: `$7 \le 7+0$`
+				* Rule 4: `$7 \le 7+0$`
+		* Proof: `$0+7 \le 3+9$`
+		* Rule 7: `$\{0/w, 7/x, 3/y, 9/z\}$`
+		* Proof: `$0 \le 3 \land 7 \le 9$`:
+			* Rule 1: `$0 \le 3$`
+			* Rule 2: `$7 \le 9$`
+
+> b. Give a forward-chaining proof of the sentence `$7 \le 3+9$`. Again,
+show only the steps that lead to success.
+
+* Known: `$0 \le 3, 7 \le 9$`
+* Rule 7: `$\{0/w, 7/x, 3/y, 9/z\}$`
+* Known: `$0+7 \le 3+9$`
+* Rule 7: `$\{x/7\}$`
+* Known: `$7 \le 7+0$`
+* Rule 6: `$\{7/x, 0/y\}$`
+* Known: `$7+0 \le 0+7$`
+* Rule 8: `$\{7/x, 7+0/y, 0+7/z\}$`
+* Known: `$7 \le 0+7$`
+* Rule 8: `$\{7/0, 0+7/y, 3+9/z$`
+* Known: `$7 \le 3+9$`
+
+<!--
+TODO
 
 ### 9.10
 
