@@ -1,13 +1,6 @@
 .l("csv")
 .l("nstat")
 
-:"TODO: this code could be significantly simplified by using *functions*"
-
-spd::24*60*60
-spw::7*spd
-spm::30*spd
-spy::365*spd
-
 brier::{mu((x-y)^2)}
 
 :"1st argument: time differences"
@@ -19,143 +12,54 @@ getdiffbrier::{diff::x;res::y;fore::z;dg::=diff;db::{(diff@*x),brier(fore@x;res@
 
 .fc(.ic("../../data/met.csv"));metraw::csv.load()
 
-metdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'metraw)
-
-:"For days"
-dmetdiffs::{_x%spd}'metdata@4
-
-:"For weeks"
-
-wmetdiffs::{_x%spw}'metdata@4
-
-:"For months (roughly)"
-mmetdiffs::{_x%spm}'metdata@4
-
-:"For years"
-ymetdiffs::{_x%spy}'metdata@4
+metdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'1_metraw)
 
 metress::metdata@2
 metfcs::metdata@3
-
-dmetdiffbrier::getdiffbrier(dmetdiffs;metfcs;metress)
-wmetdiffbrier::getdiffbrier(wmetdiffs;metfcs;metress)
-mmetdiffbrier::getdiffbrier(mmetdiffs;metfcs;metress)
-ymetdiffbrier::getdiffbrier(ymetdiffs;metfcs;metress)
-
-dmetdg::=dmetdiffs
-wmetdg::=wmetdiffs
-mmetdg::=mmetdiffs
-ymetdg::=ymetdiffs
+metrngs::metdata@4
 
 .fc(.ic("../../data/pb.csv"));pbraw::csv.load()
 
-pbdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'pbraw)
-
-:"For days"
-dpbdiffs::{_x%spd}'pbdata@4
-
-:"For weeks"
-wpbdiffs::{_x%spw}'pbdata@4
-
-:"For months (roughly)"
-mpbdiffs::{_x%spm}'pbdata@4
-
-:"For years"
-ypbdiffs::{_x%spy}'pbdata@4
+pbdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'1_pbraw)
 
 pbress::pbdata@2
 pbfcs::pbdata@3
+pbrngs::pbdata@4
 
-dpbdiffbrier::getdiffbrier(dpbdiffs;pbfcs;pbress)
-wpbdiffbrier::getdiffbrier(wpbdiffs;pbfcs;pbress)
-mpbdiffbrier::getdiffbrier(mpbdiffs;pbfcs;pbress)
-ypbdiffbrier::getdiffbrier(ypbdiffs;pbfcs;pbress)
+metbriers::(metress-metfcs)^2
+pbbriers::(pbress-pbfcs)^2
 
-dpbdg::=dpbdiffs
-wpbdg::=wpbdiffs
-mpbdg::=mpbdiffs
-ypbdg::=ypbdiffs
+mettab::+(,metrngs%60*60*24),,metbriers
+pbtab::+(,pbrngs%60*60*24),,pbbriers
 
-:"Sample sizes for ranges"
+:"for visualization"
 
-getss::{dg::x;diff::y;ss::{(diff@*x),#x}'dg;ss@<ss}
+subsetmet::2048#shuffle(mettab)
+subsetpb::2048#shuffle(pbtab)
 
-dpbss::getss(dpbdg;dpbdiffs)
-wpbss::getss(wpbdg;wpbdiffs)
-mpbss::getss(mpbdg;mpbdiffs)
-ypbss::getss(ypbdg;ypbdiffs)
+metss::_metrngs%60*60*24*7
+metss::metss@<metss
+pbss::_pbrngs%60*60*24*7
+pbss::pbss@<pbss
 
-dmetss::getss(dmetdg;dmetdiffs)
-wmetss::getss(wmetdg;wmetdiffs)
-mmetss::getss(mmetdg;mmetdiffs)
-ymetss::getss(ymetdg;ymetdiffs)
+maxval::|/pbss,metss
+maxlen::|/(#'=metss),#'=pbss
 
-:"After executing this, {pb,met}questions has the following format:"
-:"[[id open-resolve-timediff [outcomes] [forecasts] [forecast-resolve-timediffs]]*]"
-:"One element for every questions"
+pbss::{#pbss?x}'1+!maxval
+metss::{#metss?x}'1+!maxval
 
 metquestions::{(*x@0),(*x@1),2_x}'+'(+metdata)@=*metdata
 pbquestions::{(*x@0),(*x@1),2_x}'+'(+pbdata)@=*pbdata
 
-:"After this, {d,w,m,y}{pb,met}questions has the form:"
-:"[[open-resolve-days-timediff [outcomes] [forecasts]]*]"
+metqbrier::{(x@1),brier(x@2;x@3)}'metquestions
+pbqbrier::{(x@1),brier(x@2;x@3)}'pbquestions
 
-dmetquestions::{(_(x@1)%spd),x@[2 3]}'metquestions
-dmetquestions::{(**x),,/'+{1_x}'x}'dmetquestions@=*'dmetquestions
-dqmetbrier::{(*x),brier@1_x}'dmetquestions
-dqmetbrier::dqmetbrier@<dqmetbrier
+wmetqbrier::{(,x@4),,((x@2)-x@3)^2}'metquestions
+wpbqbrier::{(,x@4),,((x@2)-x@3)^2}'pbquestions
+wmetqbrier::+'wmetqbrier
+wpbqbrier::+'wpbqbrier
+wpbqbrier::flr({1<#x};wpbqbrier)
+wpbqbrier::flr({(~(*x)~x@1)|2<#x};wpbqbrier)
 
-wmetquestions::{(_(x@1)%spw),x@[2 3]}'metquestions
-wmetquestions::{(**x),,/'+{1_x}'x}'wmetquestions@=*'wmetquestions
-wqmetbrier::{(*x),brier@1_x}'wmetquestions
-wqmetbrier::wqmetbrier@<wqmetbrier
-
-mmetquestions::{(_(x@1)%spm),x@[2 3]}'metquestions
-mmetquestions::{(**x),,/'+{1_x}'x}'mmetquestions@=*'mmetquestions
-mqmetbrier::{(*x),brier@1_x}'mmetquestions
-mqmetbrier::mqmetbrier@<mqmetbrier
-
-ymetquestions::{(_(x@1)%spy),x@[2 3]}'metquestions
-ymetquestions::{(**x),,/'+{1_x}'x}'ymetquestions@=*'ymetquestions
-yqmetbrier::{(*x),brier@1_x}'ymetquestions
-yqmetbrier::yqmetbrier@<yqmetbrier
-
-dpbquestions::{(_(x@1)%spd),x@[2 3]}'pbquestions
-dpbquestions::{(**x),,/'+{1_x}'x}'dpbquestions@=*'dpbquestions
-dqpbbrier::{(*x),brier@1_x}'dpbquestions
-dqpbbrier::dqpbbrier@<dqpbbrier
-
-wpbquestions::{(_(x@1)%spw),x@[2 3]}'pbquestions
-wpbquestions::{(**x),,/'+{1_x}'x}'wpbquestions@=*'wpbquestions
-wqpbbrier::{(*x),brier@1_x}'wpbquestions
-wqpbbrier::wqpbbrier@<wqpbbrier
-
-mpbquestions::{(_(x@1)%spm),x@[2 3]}'pbquestions
-mpbquestions::{(**x),,/'+{1_x}'x}'mpbquestions@=*'mpbquestions
-mqpbbrier::{(*x),brier@1_x}'mpbquestions
-mqpbbrier::mqpbbrier@<mqpbbrier
-
-ypbquestions::{(_(x@1)%spy),x@[2 3]}'pbquestions
-ypbquestions::{(**x),,/'+{1_x}'x}'ypbquestions@=*'ypbquestions
-yqpbbrier::{(*x),brier@1_x}'ypbquestions
-yqpbbrier::yqpbbrier@<yqpbbrier
-
-:"For within question accuracy"
-
-wmetq::flr({100<#x@2};metquestions)
-wpbq::flr({100<#x@2};pbquestions)
-
-chl::50
-
-sac::{t::+2_x;+'(chl*1+!(#t):%chl):_t}
-
-chsmetq::sac'wmetq
-chspbq::sac'wpbq
-
-pchsmetq::{{+mu(*|x),brier@2#x}'x}'chsmetq
-pchspbq::{{+mu(*|x),brier@2#x}'x}'chspbq
-pchsmetq::{{((_*x):%(3600*24)),1_x}'x}'pchsmetq
-pchspbq::{{((_*x):%(3600*24)),1_x}'x}'pchspbq
-
-awqmetlr::mu'+lreg'pchsmetq
-awqpblr::mu'+lreg'pchspbq
+awmetqlr::mu'+lreg'wmetqbrier
+awpbqlr::mu'+lreg'wpbqbrier

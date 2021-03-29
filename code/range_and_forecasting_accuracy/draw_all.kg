@@ -1,349 +1,114 @@
 .l("nplot")
 .l("./load.kg")
 
-alldays::.oc("alldays.eps")
-.tc(alldays)
+allscatter::.oc("allscatter.eps")
+.tc(allscatter)
+
+uplim::(|/*+subsetpb)
 
 setrgb(0;0;0)
-grid([0],(|/*+dpbdiffbrier),[500];[0 1 0.1])
-xtitle("Range (in days)")
+grid([0],uplim,(uplim%15);[0 1 0.1])
+xtitle("Range (in seconds)")
 ytitle("Brier Score")
 
 setdot(2)
 
 fillrgb(0;0;1)
 setrgb(0;0;1)
-scplot2(dpbdiffbrier)
-plot(lr(;lreg(dpbdiffbrier)))
+scplot2(subsetpb)
+plot(lr(;lreg(subsetpb)))
 
 fillrgb(1;0;0)
 setrgb(1;0;0)
-scplot2(dmetdiffbrier)
-plot(lr(;lreg(dmetdiffbrier)))
+scplot2(subsetmet)
+plot(lr(;lreg(subsetmet)))
 
 draw()
 
 .fl()
-.cc(alldays)
+.cc(allscatter)
 
-allweeks::.oc("allweeks.eps")
-.tc(allweeks)
-
-setrgb(0;0;0)
-grid([0],(|/*+wpbdiffbrier),[40];[0 1 0.1])
-xtitle("Range (in weeks)")
-ytitle("Brier Score")
-
-setdot(2)
-
-fillrgb(0;0;1)
-setrgb(0;0;1)
-scplot2(wpbdiffbrier)
-plot(lr(;lreg(wpbdiffbrier)))
-
-fillrgb(1;0;0)
-setrgb(1;0;0)
-scplot2(wmetdiffbrier)
-plot(lr(;lreg(wmetdiffbrier)))
-
-draw()
-
-.fl()
-.cc(allweeks)
-
-allmonths::.oc("allmonths.eps")
-.tc(allmonths)
+ssplot::.oc("ss_plot.eps")
+.tc(ssplot)
 
 setrgb(0;0;0)
-grid([0],(|/*+mpbdiffbrier),[10];[0 1 0.1])
-xtitle("Range (in months)")
-ytitle("Brier Score")
-
-setdot(4)
-
-fillrgb(0;0;1)
-setrgb(0;0;1)
-scplot2(mpbdiffbrier)
-plot(lr(;lreg(mpbdiffbrier)))
-
-fillrgb(1;0;0)
-setrgb(1;0;0)
-scplot2(mmetdiffbrier)
-plot(lr(;lreg(mmetdiffbrier)))
-
-draw()
-
-.fl()
-.cc(allmonths)
-
-allyears::.oc("allyears.eps")
-.tc(allyears)
-
-setrgb(0;0;0)
-grid([0],(|/*+ypbdiffbrier),[1];[0 1 0.1])
-xtitle("Range (in years)")
-ytitle("Brier Score")
-
-setdot(4)
-
-fillrgb(0;0;1)
-setrgb(0;0;1)
-scplot2(ypbdiffbrier)
-plot(lr(;lreg(ypbdiffbrier)))
-
-fillrgb(1;0;0)
-setrgb(1;0;0)
-scplot2(ymetdiffbrier)
-plot(lr(;lreg(ymetdiffbrier)))
-
-draw()
-
-.fl()
-.cc(allyears)
-
-allqdays::.oc("allqdays.eps")
-.tc(allqdays)
-
-setrgb(0;0;0)
-grid([0],(|/*+dqpbbrier),[500];[0 1 0.1])
-xtitle("Range (in days)")
-ytitle("Brier Score")
-
-setdot(2)
-
-fillrgb(0;0;1)
-setrgb(0;0;1)
-scplot2(dqpbbrier)
-plot(lr(;lreg(dqpbbrier)))
-
-fillrgb(1;0;0)
-setrgb(1;0;0)
-scplot2(dqmetbrier)
-plot(lr(;lreg(dqmetbrier)))
-
-draw()
-
-.fl()
-.cc(allqdays)
-
-allqweeks::.oc("allqweeks.eps")
-.tc(allqweeks)
-
-setrgb(0;0;0)
-grid([0],(|/*+wqpbbrier),[40];[0 1 0.1])
-xtitle("Range (in weeks)")
-ytitle("Brier Score")
-
-setdot(2)
-
-fillrgb(0;0;1)
-setrgb(0;0;1)
-scplot2(wqpbbrier)
-plot(lr(;lreg(wqpbbrier)))
-
-fillrgb(1;0;0)
-setrgb(1;0;0)
-scplot2(wqmetbrier)
-plot(lr(;lreg(wqmetbrier)))
-
-draw()
-
-.fl()
-.cc(allqweeks)
-
-allqmonths::.oc("allqmonths.eps")
-.tc(allqmonths)
-
-setrgb(0;0;0)
-grid([0],(|/*+mqpbbrier),[10];[0 1 0.1])
-xtitle("Range (in months)")
-ytitle("Brier Score")
-
-setdot(4)
-
-fillrgb(0;0;1)
-setrgb(0;0;1)
-scplot2(mqpbbrier)
-plot(lr(;lreg(mqpbbrier)))
-
-fillrgb(1;0;0)
-setrgb(1;0;0)
-scplot2(mqmetbrier)
-plot(lr(;lreg(mqmetbrier)))
-
-draw()
-
-.fl()
-.cc(allqmonths)
-
-allqyears::.oc("allqyears.eps")
-.tc(allqyears)
-
-setrgb(0;0;0)
-grid([0],(|/*+yqpbbrier),[1];[0 1 0.1])
-xtitle("Range (in years)")
-ytitle("Brier Score")
-
-setdot(4)
-
-fillrgb(0;0;1)
-setrgb(0;0;1)
-scplot2(yqpbbrier)
-plot(lr(;lreg(yqpbbrier)))
-
-fillrgb(1;0;0)
-setrgb(1;0;0)
-scplot2(yqmetbrier)
-plot(lr(;lreg(yqmetbrier)))
-
-draw()
-
-.fl()
-.cc(allqyears)
-
-dssplot::.oc("dss_plot.eps")
-.tc(dssplot)
-
-dmaxlen::(#dpbss)|#dmetss
-dmaxval::|/*|+dpbss,dmetss
-
-dmetssvals::(*|+dmetss),(dmaxlen-#dmetss):^0
-dpbssvals::(*|+dpbss),(dmaxlen-#dpbss):^0
-
-setrgb(0;0;0)
-grid([0],dmaxlen,(dmaxlen:%20);[0],dmaxval,(dmaxval:%20))
-xtitle("Range (in days)")
-ytitle("Number of predictions")
-
-setrgb(0;0;1)
-segplot(dmetssvals)
-setrgb(1;0;0)
-segplot(dpbssvals)
-
-draw()
-.fl()
-.cc(dssplot)
-
-wssplot::.oc("wss_plot.eps")
-.tc(wssplot)
-
-wmaxlen::(#wpbss)|#wmetss
-wmaxval::|/*|+wpbss,wmetss
-
-wmetssvals::(*|+wmetss),(wmaxlen-#wmetss):^0
-wpbssvals::(*|+wpbss),(wmaxlen-#wpbss):^0
-
-setrgb(0;0;0)
-grid([0],wmaxlen,(wmaxlen:%20);[0],wmaxval,(wmaxval:%20))
+grid([0],maxval,(maxval:%15);[0],maxlen,(maxlen:%15))
 xtitle("Range (in weeks)")
 ytitle("Number of predictions")
 
 setrgb(0;0;1)
-segplot(wmetssvals)
+segplot(metss)
 setrgb(1;0;0)
-segplot(wpbssvals)
+segplot(pbss)
 
 draw()
 .fl()
-.cc(wssplot)
+.cc(ssplot)
 
-mssplot::.oc("mss_plot.eps")
-.tc(mssplot)
+allq::.oc("allq.eps")
+.tc(allq)
 
-mmaxlen::(#mpbss)|#mmetss
-mmaxval::|/*|+mpbss,mmetss
-
-mmetssvals::(*|+mmetss),(mmaxlen-#mmetss):^0
-mpbssvals::(*|+mpbss),(mmaxlen-#mpbss):^0
+uplim::|/*+metqbrier,pbqbrier
 
 setrgb(0;0;0)
-grid([0],mmaxlen,(mmaxlen:%20);[0],mmaxval,(mmaxval:%20))
-xtitle("Range (in months)")
-ytitle("Number of predictions")
+grid([0],uplim,(uplim%15);[0 1 0.1])
+xtitle("Range (in seconds)")
+ytitle("Brier Score")
 
+setdot(2)
+
+fillrgb(0;0;1)
 setrgb(0;0;1)
-segplot(mmetssvals)
+scplot2(pbqbrier)
+plot(lr(;lreg(pbqbrier)))
+
+fillrgb(1;0;0)
 setrgb(1;0;0)
-segplot(mpbssvals)
+scplot2(metqbrier)
+plot(lr(;lreg(metqbrier)))
 
 draw()
+
 .fl()
-.cc(mssplot)
-
-yssplot::.oc("yss_plot.eps")
-.tc(yssplot)
-
-ymaxlen::(#ypbss)|#ymetss
-ymaxval::|/*|+ypbss,ymetss
-
-ymetssvals::(*|+ymetss),(ymaxlen-#ymetss):^0
-ypbssvals::(*|+ypbss),(ymaxlen-#ypbss):^0
-
-setrgb(0;0;0)
-grid([0],ymaxlen,1;[0],ymaxval,(ymaxval:%20))
-xtitle("Range (in years)")
-ytitle("Number of predictions")
-
-setrgb(0;0;1)
-segplot(ymetssvals)
-setrgb(1;0;0)
-segplot(ypbssvals)
-
-draw()
-.fl()
-.cc(yssplot)
+.cc(allq)
 
 perquestion::.oc("perquestion.eps")
 .tc(perquestion)
 
 setrgb(0;0;0)
-grid([0],(|/*'*'pchsmetq),[100];[0 1 0.1])
+grid([0],uplim,(uplim%15);[0 1 0.1])
 
-xtitle("Range (in days)")
-ytitle("Brier score")
+xtitle("Range (in seconds)")
+ytitle("Brier Score")
 
 sketch::{q::x;
 	setrgb(.rn();.rn();.rn());
 	pltr::{:[(x>**q)|x<**|q;0;lr(x;lreg(q))]};
 	plot(pltr)}
 
-sketch'pchsmetq
+sketch'wmetqbrier
+:"sketch'wpbqbrier"
 
 draw()
+
 .fl()
 .cc(perquestion)
-
-sperquestion::.oc("sperquestion.eps")
-.tc(sperquestion)
-
-setrgb(0;0;0)
-setdot(3)
-grid([0],(|/*'*'pchsmetq),[100];[0 1 0.1])
-
-xtitle("Range (in days)")
-ytitle("Brier score")
-
-rnscat::{fillrgb(.rn();.rn();.rn());
-	scplot2(x)}
-
-rnscat'pchsmetq
-
-draw()
-.fl()
-.cc(sperquestion)
 
 withintotal::.oc("withintotal.eps")
 .tc(withintotal)
 
 setrgb(0;0;0)
 setdot(2)
-grid([0],(|/*'*'pchsmetq),[100];[0 1 0.1])
+grid([0],uplim,(uplim%15);[0 1 0.1])
 
-xtitle("Range (in days)")
+xtitle("Range (in seconds)")
 ytitle("Brier score")
 
 setrgb(1;0;0)
-plot(lr(;awqmetlr))
+plot(lr(;awmetqlr))
+
+setrgb(0;0;1)
+plot(lr(;awpbqlr))
 
 draw()
 .fl()
