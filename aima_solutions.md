@@ -704,7 +704,9 @@ Constants: `$I$`, referring to the speaker, `$T$` referring to "that man".
 
 Variables: `$x, y, z$`.
 
-Known facts: `$\lnot \exists x: Sibling(x, I), Father(y, T), Father(z, I), y=z$`.
+Known facts: `$\lnot \exists x: Sibling(x, I), \forall y: Father(y, T) \land Father(z, I) \Rightarrow y=z$`.
+
+We don't know whether the speaker is male.
 
 -->
 

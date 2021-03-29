@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-03-27, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-03-29, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -11,6 +11,7 @@ Changelog
 March 2021
 -----------
 
+* Rewrote & re-analyzed [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.md)
 * [Solutions to “Artificial Intelligence: A Modern Approach”](./aima_solutions.md)
 	* [2.4](./aima_solutions.html#24)
 	* [3.1](./aima_solutions.html#31)
@@ -18,6 +19,7 @@ March 2021
 	* [6.5](./aima_solutions.html#65)
 	* [7.10](./aima_solutions.html#710)
 	* [7.14](./aima_solutions.html#714)
+	* [9.9](./aima_solutions.html#99)
 	* [13.6](./aima_solutions.html#136)
 	* [16.15](./aima_solutions.html#1615)
 	* [17.3](./aima_solutions.html#173)

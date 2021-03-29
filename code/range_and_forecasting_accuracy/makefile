@@ -18,7 +18,7 @@ met.csv:
 	convert -chop 0x180 $< $@
 	rm $<
 
-%.eps: newdraw_all.kg
+%.eps: draw_all.kg
 	kg -l ./$< -e '.x(0)'
 
 clean:
