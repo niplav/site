@@ -3,7 +3,7 @@
 
 *author: niplav, created: 2020-03-24, modified: 2021-01-18, language: english, status: finished, importance: 6, confidence: possible*
 
-# This post contains information that is misleading. While the calculations and description of the approach contain no mistakes in themselves, the approach is misguided. Only reference the results if you have understood the approach. This will be fixed.
+# This post is being rewritten. In its current state, it's wrong and misleading.
 
 > __This text looks at the accuracy of forecasts in relation
 > to the time between forecast and resolution, and asks three
@@ -26,7 +26,7 @@ turns deadbeat, evict it.
 
 *– [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“Making Beliefs Pay Rent (in Anticipated Experiences)“](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences), 2007*
 
-<!--Maybe do the same thing with range
+<!--Maybe do the same thing with distribution
 predictions? Metric could be one described in
 /usr/local/doc/unread/calibration_scoring_rules_for_practical_prediction_training_greenberg_2018.pdf-->
 <!--Add paragraph on the difference in quality between the two datasets,
@@ -886,27 +886,123 @@ more accurate than forecasts made on a question earlier?
 
 ### Analysis
 
+In order to do this, one can compute the Brier score for each prediction,
+and then perform one linear regression/compute the correlation per
+question to discern whether the relation is positive or not.
+
+With `metquestions` and `pbquestions`, we already have the necessary
+data available to perform the analysis.
+
+We can create a list of the form `[[[brier_scores][ranges]]*]`:
+
+	wmetqbrier::{(,x@4),,((x@2)-x@3)^2}'metquestions
+	wpbqbrier::{(,x@4),,((x@2)-x@3)^2}'pbquestions
+
+Since `lreg` can't deal with datasets of size 1, we have to filter those
+out of `wpbqbrier` (they don't make much sense in our analysis either):
+
+	wpbqbrier::flr({1<#*x};wpbqbrier)
+
+One can play around and calculate the correlation between range and
+accuracy for every question:
+
+		4#{cor@x}'wmetqbrier
+	[0.763628932400678817 0.46136759691608953 -0.139435096904356686 -0.882370278576558711]
+		4#{cor@x}'wpbqbrier
+	[-1.0 -1.0 -1.0 -1.0]
+
+The perfect negative correlation comes from the fact that the first
+questions in the dataset have only two predictions, which all by chance
+anti-correlate with the range. This is not the case for all
+questions:
+
+		#'*'4#wpbqbrier
+	[2 2 2 2]
+		4#|{cor@x}'wpbqbrier
+	[0.89254316971805467 1.0 0.950010315421882544 0.801892491489916431]
+
+However, we won't be using that information here.
+
+For the linear regression, one needs to convert the data for each question
+from a two lists of values into x/y pairs:
+
+	wmetqbrier::+'wmetqbrier
+	wpbqbrier::+'wpbqbrier
+
+One can then compute the linear regression on the datasets for each question:
+
+		4#lreg'wmetqbrier
+	[[0.0000000011767800408891019 0.00710923979466614] [0.000000000617896058360111251 -0.00048849375750407371] [-0.00000000341699728537160739 0.174909387397966508] [-0.0000000862529408862358451 2.97369568231620124]]
+		4#lreg'wpbqbrier
+	kg: error: plus: type error: [:undefined :undefined]
+
+The result for `wpbqbrier` is unexpected. The culprit turns out to be a
+question on which the same prediction has been made, twice, at the
+exact same second, which confuses the linear regression algorithm:
+
+		wpbqbrier@[1381]
+	[[[35029.0 0.09] [35029.0 0.09]]]
+
+<!--TODO-->
+
+We can also visualise the linear regression for each question by setting
+it to zero outside the range of the oldest and newest chunks:
+
+	sketch::{q::x;
+		setrgb(.rn();.rn();.rn());
+		pltr::{:[(x>**q)|x<**|q;0;lr(x;lreg(q))]};
+		plot(pltr)}
+	sketch'pchsmetq
+
+![Linear regressions for the accuracy of questions by range](./img/range_and_forecasting_accuracy/perquestion.png "Linear regressions for the accuracy of questions by range")
+
+*Linear regressions for the accuracy of questions by range (only Metaculus data).*
+
+The vertical bars are artifacts stemming from the fact that Klong
+attempts to makes the discontinuous function continuous, connecting 0
+and the linear regression.
+
+Although the plot is kind of cool to look at, I'm not really sure what
+it can tell us. My *guess* would be that it somewhat shows a trend
+with higher ranges responding to higher Brier scores (and therefore
+lower accuracy).
+
+We can test whether this suspicion is acually correct by calculating the
+average offset and the average ascension – if the ascension is positive,
+our suspicion is confirmed.
+
+		mu'+lreg'pchsmetq
+	[0.00198030517003624986 0.0105472685809891273]
+
+So it is true that accuracy within question *generally* is higher with
+lower range. Everything else would have been surprising.
+
+![Mean of linear regressions on accuracy within questions](./img/range_and_forecasting_accuracy/withintotal.png "Mean of linear regressions on accuracy within questions")
+
+*Mean of linear regressions on accuracy within questions (red is Metaculus data, blue is PredictionBook data).*
+
 <!--HERE-->
 
-In order to do this, it seems like questions with higher numbers of
-forecasts on them are are more likely to give clearer results than
-questions with only a dozen or so forecasts. The Metaculus dataset
-contains predictions on 557 questions, the PredictionBook dataset 13356:
+### Sample Sizes
+
+One might, again, be interested in the sample sizes. How many predictions
+to questions receive?
+
+As we know, the Metaculus dataset contains predictions on 557 questions,
+the PredictionBook dataset 13356:
 
 		#metquestions
 	557
 		#pbquestions
 	13356
 
-I filtered out questions with `<100` predictions on them, resulting
-in 323 questions from the Metaculus dataset and 0 (!) questions from
+We can out questions with `<100` predictions on them, resulting in
+323 questions from the Metaculus dataset and 0 (!) questions from
 PredictionBook:
 
-		wmetq::flr({100<#x@2};metquestions)
-		wpbq::flr({100<#x@2};pbquestions)
-		#wmetq
+		#flr({100<#x@2};metquestions)
 	323
-		#wpbq
+		#flr({100<#x@2};pbquestions)
 	0
 
 This is not wholly surprising: Metaculus makes creating new questions
@@ -1012,42 +1108,6 @@ We can now compute the linear regression for the chunks in each question:
 
 		2#lreg'pchsmetq
 	[[0.00011329877152681667 0.0038764502832194274] [0.0000675414847161572049 -0.00123699272197962153]]
-
-We can also visualise the linear regression for each question by setting
-it to zero outside the range of the oldest and newest chunks:
-
-	sketch::{q::x;
-	setrgb(.rn();.rn();.rn());
-	pltr::{:[(x>**q)|x<**|q;0;lr(x;lreg(q))]};
-	plot(pltr)}
-	sketch'pchsmetq
-
-![Linear regressions for the accuracy of questions by range in chunks of size 50](./img/range_and_forecasting_accuracy/perquestion.png "Linear regressions for the accuracy of questions by range in chunks of size 50")
-
-*Linear regressions for the accuracy of questions by range in chunks of size 50.*
-
-The vertical bars are artifacts stemming from the fact that Klong
-attempts to makes the discontinuous function continuous, connecting 0
-and the linear regression.
-
-Although the plot is kind of cool to look at, I'm not really sure what
-it can tell us. My *guess* would be that it somewhat shows a trend
-with higher ranges responding to higher Brier scores (and therefore
-lower accuracy).
-
-We can test whether this suspicion is acually correct by calculating the
-average offset and the average ascension – if the ascension is positive,
-our suspicion is confirmed.
-
-		mu'+lreg'pchsmetq
-	[0.00198030517003624986 0.0105472685809891273]
-
-So it is true that accuracy within question *generally* is higher with
-lower range. Everything else would have been surprising.
-
-![Mean of linear regressions on accuracy within questions](./img/range_and_forecasting_accuracy/withintotal.png "Mean of linear regressions on accuracy within questions")
-
-*Mean of linear regressions on accuracy within questions.*
 
 <!--
 Limitations
