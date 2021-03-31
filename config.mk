@@ -9,6 +9,7 @@ HTML=index.html \
 	content_warning.html \
 	contributions.html \
 	notes.html \
+	notes_on_ethics.html \
 	now.html \
 	todo.html \
 	uses_this.html \

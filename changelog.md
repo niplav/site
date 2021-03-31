@@ -1,12 +1,15 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-03-29, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-04-01, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
+
+April 2021
+----------
 
 March 2021
 -----------
@@ -29,6 +32,8 @@ March 2021
 * [Notes](./notes.md)
 	* [Implementing Commutative Hyperoperators](./notes.html#Implementing-Commutative-Hyperoperators)
 	* [A Trivial Fact About Leyland Numbers](./notes.html#A-Trivial-Fact-About-Leyland-Numbers)
+* [Text Reviews](./text_reviews.html)
+	* [Compassion, by the Pound (F. Bailey Norwood/Jayson L. Lusk, 2011)](./text_reviews.html#Compassion-by-the-Pound-F-Bailey-NorwoodJayson-L-Lusk-2011)
 
 February 2021
 -------------
