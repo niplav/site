@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-12-30, modified: 2021-01-08, language: english, status: in progress, importance: 3, confidence: opinion*
+*author: niplav, created: 2020-12-30, modified: 2021-04-01, language: english, status: in progress, importance: 3, confidence: opinion*
 
 > __Reading a text is sometimes a big time investment, but people
 don't approach their reading in a structured manner, e.g. by keeping
@@ -19,30 +19,30 @@ The Human Predicament (David Benatar, 2017)
 “The Human Predicament” is a book about life philosophy, written
 by the pessimistic analytic philosopher David Benatar. In it, Benatar
 describes what he calls the human predicament (hence the title), which
-consists in the fact that human lives are usually bad, and much worse
+consists of the fact that human lives are usually bad, and much worse
 than people themselves think. In his view, human lives lack cosmic (and
 sometimes terrestrial) meaning, are bad because they're much shorter
 than they could be, much more filled with pain and discomfort than
 humans think, and full of ignorance, unfulfilled desires and physical
 deterioration during the course of one's lifetime.
 
-However, all alternatives are also bad: death, because it often deprives
-of life, and annihilates the person dying; and suicide, for much the
-same reasons, unless it annihilates a life that is awful enough to
-justify death.
+However, according to Benatar, all alternatives are also bad: death,
+because it often deprives of life, and annihilates the person dying;
+and suicide, for much the same reasons, unless it annihilates a life
+that is awful enough to justify death.
 
 The only positive option is to not come into existence at all–or at
 least not make others come into existence, even though one desires to.
 He alludes several times to one of his other books, Better Never To Have
 Been, in which he advocates for antinatalism.
 
-Reading this book felt a little bit pointless to me (get it?). Since
-beliefs are for action<!--TODO: gwern link-->, and Benatar is
-just applying a linear transformation to all available options (if
-everything's bad, nothing is), you act exactly the same. Although I had
-a phase where I believed antinatalism quite strongly, and still don't
-plan on having kids (although I know that this attitude might change
-with increasing age), but overall antinatalism does not strike me as
+Reading this book felt a little bit pointless to me. Since beliefs
+are for action<!--TODO: gwern link-->, and Benatar is just applying a
+linear transformation to all available options (if everything's bad,
+nothing is), you act exactly the same. Although I had a phase where
+I believed antinatalism quite strongly, and still don't plan on
+having kids (although I know that this attitude might change with
+increasing age), but overall antinatalism does not strike me as
 a pragmatic policy<!--cf. David Pearce & Brian Tomasik ("Strategic
 Considerations for Ethical Anti-natalists")-->, me instead adopting an
 anti-pure-replicator<!--TODO: link to Emilsson--> strategy.
@@ -55,11 +55,11 @@ not enjoyable (a "second reward signal" next to pleasure).
 
 Benatar mentions cryonics, life extension technology and
 transhumanism in general, and while his treatment of these topics
-is more respectful than most, he dismisses them very quickly. I
-disagree on these points, given that it seems that humanity
+is more respectful than most, he dismisses them fairly quickly. I
+disagree with his underlying skepticism on these the feasibility of radically altering the human condition through technology, given that it seems that humanity
 can expect to find itself in a period of [hyperbolic economic
 growth](https://sideways-view.com/2017/10/04/hyperbolic-growth/ "Hyperbolic growth")
-(see [Roodman
+(see also [Roodman
 2020](https://www.openphilanthropy.org/blog/modeling-human-trajectory "Modeling the Human Trajectory")).
 
 I am also not a fan of the pessimism-optimism distinction. Benatar himself
@@ -71,21 +71,22 @@ of an optimistic view.)
 
 *– David Benatar<!--TODO: link-->, “The Human Predicament” p. 225, 2017*
 
-It seems to me that humans can believe very bad things to be the case
-and still be happier than most other humans in their lives (I know this
-is at least true for one human, myself). This, combined with the fact
-that Benatar simply shifts the utility function downwards, makes me
-prone to rejecting his worldview as simply a matter of emotional tone
-on the same facts.
+It seems to me that humans can believe very bad things to be the case and
+still be happier than most other humans in their lives (I know this is
+at least true for one human, myself). This, combined with the fact that
+Benatar simply shifts the utility function downwards, makes me inclined
+to rejecting much of his worldview as simply a matter of emotional tone
+on the same facts everyone else also believes.
 
-Finally, I want to accuse Benatar of insufficient pessimism (on his own
-criteria): The most likely outcome for humanity (and for life in general)
-seems not to be total extinction, but instead a universe filled with
-beings most capable of copying themselves, the whole cosmos teeming with
-subsistence-level beings with very boring conscious experiences<!--TODO:
-hanson paper about frontiers & SSC post about substrate type stuff-->
-until the stars go out. (Or even worse scenarios from anti-aligned
-artificial intelligences).
+Finally, I want to accuse Benatar of insufficient pessimism (on
+his own criteria): The most likely outcome for humanity (and for
+life in general) seems not to be total extinction, but instead a
+universe filled with beings most capable of copying themselves, the
+whole cosmos teeming with subsistence-level beings with very boring
+conscious experiences<!--TODO: hanson paper about frontiers & SSC post
+about substrate type stuff--> until the stars go out. (Or even worse
+scenarios from anti-aligned artificial intelligences, see [Tomasik
+2019](https://reducing-suffering.org/near-miss/ "Astronomical suffering from slightly misaligned artificial intelligence")).
 
 Overall, the book had some interesting points about suicide, the quality of
 life and meaning, but felt rather pointless.
@@ -222,3 +223,77 @@ history](https://forum.effectivealtruism.org/posts/XXLf6FmWujkxna3E6/are-we-livi
 May the [godess of everything
 else](https://www.lesswrong.com/posts/MFNJ7kQttCuCXHp8P/the-goddess-of-everything-else)
 be merciful with us.
+
+Compassion, by the Pound (F. Bailey Norwood/Jayson L. Lusk, 2011)
+------------------------------------------------------------------
+
+“Compassion, by the Pound” by the economists F. Bailey Norwood and
+Jayson L. Lusk is one of those books that are excellent in their first
+half, and somewhat (but not utterly) disappointing in their second
+half. The two economists, spurred by their own research and their
+perceived lack of good information on the topic of farm animal welfare,
+start off with a historical overview of animal agriculture and animal
+welfare activism, proceed to talking about the sentience of animals,
+give an enormous overview of standard animal agriculture praxis, push in
+two completely unnecessary chapters about how philosophers and economists
+see animal agriculture (the first one being massively oversimplifying,
+the second one being annoyed), present a model for consumers to use for
+deciding what to eat (although the links have fallen victim to linkrot),
+copy-paste one of their papers into the book, and finish with those
+kinds of general closing statements that are as so often too vacuous to
+be interesting.
+
+At its best, the book is just a delicious heap of information about
+animal agriculture praxis. From detailed lists of surgeries performed
+on animals without anaesthetics (dehorning, beak trimming, castration,
+teeth clipping and tail docking) to the behaviour of cows in big pens
+(they huddle together in a corner, and don't use up all the space)
+to the hierarchical behavior in chickens (much more strongly than in
+cows, actually a major factor of injury in cage-free egg production),
+the book presents an industrial-scale mountain of interesting facts
+about animal agriculture. Their judgement seems well informed and not
+particularly strongly clouded by bias, and presented in a empathetic,
+but also neutral tone (except in the case of them glossing over the
+fact that surgeries such as castration on animals are performed without
+anaesthetics, seemingly regarding this as completely acceptable).
+
+However, not everything is golden under the sun. The chapter on
+philosophy is especially painful (or might this just be my Gell-Mann
+amnesia speaking?) – they seem dismissive of philosophers' arguments,
+present them in short and watered-down form, and even state in a footnote:
+
+> If there is one thing we have learned from reading the
+> works of ethical philosophers; it is that no one ever, ever wins
+> the debate
+
+*–F. Bailey Norwood/Jayson L. Lusk, “Compassion, by the Pound” p. 388, 2011*
+
+The chapter on Talking with Economists is better, but plagued with
+the eternal problem of economics: people don't like it, and the same
+debate has to be rehashed over and over again. As it happens here.
+
+Chapter 9, Consumer Expressions, is not _bad_ per se, but still sloppy: It
+is abundantly clear that the chapter is simply a paper by the two authors
+copy-pasted into the book. The experiments they perform are interesting
+and scientifically sophisticated, but the chapter is nonetheless jarring
+to the reader – clearly somewhat out of place in the rest of the book.
+
+Two things stood out to me from this book:
+
+1. They mentioned Tomasik's early writings in a very positive tone,
+remarking that "It is one of the most interesting and well researched
+narratives that is not officially published by any organization."
+2. After reading it, I remained mostly unshaken in my
+vegetarianism. However, I stopped eating eggs as a result of reading this
+book, and I now assign a much higher probability to the hypothesis that
+beef cows' lives on factory farms are actually net positive, although
+I wouldn't go so far as to give it the majority of my probability mass.
+
+Finally, “Compassion, by the Pound” is sometimes clearly a
+product of annoyance – an annoyance at animal advocates who allegedly
+spread misinformation about farming practices, annoyance at people who
+_just don't understand economics_ (which I get, yes, it's frustrating),
+and yes, sometimes also annoyance at the horrifying conditions many farm
+animals have to live under. Hopefully both economists and animal advocates
+won't have to be annoyed as much in the future, but for the time being,
+we're still killing and eating animals.
