@@ -23,6 +23,7 @@ Site
 * Link tooltips at the beginning of lines break the links
 * Description of images in italics below
 * Move from Python2 to Python3
+* Add two targets for make: `offline` and `online`
 * Convert all the expensive image generating scripts into single ones that only run once, with multiple outputs
 	* Done:
 		* Range and Forecasting Accuracy

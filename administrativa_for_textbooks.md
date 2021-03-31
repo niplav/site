@@ -64,8 +64,8 @@ mental model of how it works.
 		* Done: 15.13, 15.14
 		* To do: 15.1-15.12, 15.15-15.17
 	* Chapter 16:
-		* Done: 16.1, 16.3, 16.15
-		* To do: 16.2, 16.4-16.14, 16.16-16.18
+		* Done: 16.1, 16.3, 16.15, 16.17
+		* To do: 16.2, 16.4-16.14, 16.16, 16.18
 	* Chapter 17:
 		* Done: 17.3
 		* To do: 17.1-17.2, 17.4-17.21
@@ -76,7 +76,7 @@ mental model of how it works.
 	* Done: p. 305-335
 	* Done: p. 342-355 (without the definition of a subsumption lattice)
 	* Done: p. 357-359
-	* Done: p. 365-367
+	* Done: p. 365-370
 	* Done: p. 500-544 (but not ENUMERATION-ASK)
 	* Done: p. 586-601, but fixed-lag smoothing algorithms and formulae are missing
 	* Done: p. 630-657 (although only the steps, but not the details of creating a decision network)
@@ -90,7 +90,7 @@ mental model of how it works.
 	* p. 305-335
 	* p. 342-355
 	* p. 357-359
-	* p. 365-367
+	* p. 365-370
 	* p. 500-544
 	* p. 586-601
 	* p. 630-657

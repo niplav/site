@@ -22,6 +22,7 @@ March 2021
 	* [9.9](./aima_solutions.html#99)
 	* [13.6](./aima_solutions.html#136)
 	* [16.15](./aima_solutions.html#1615)
+	* [16.17](./aima_solutions.html#1617)
 	* [17.3](./aima_solutions.html#173)
 * [Solutions to “Naïve Set Theory“](./nst_solutions.md)
 	* [Section 11 Exercise 1](./nst_solutions.html#Exercise-1_8)

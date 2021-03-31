@@ -513,3 +513,4 @@
 2021-03-28T12:15:06.000000Z	before awakening: basic inframeasure theory. after awakening: advanced inframeasure theory.
 2021-03-28T12:20:03.000000Z	"@niplav (#<kfgri5a https://twtxt.net/search?tag=kfgri5a>) There are no expectations when you're honest. Expectations and honesty don't mix." -> I honestly wasn't expecting _that_ answer :)
 2021-03-28T15:12:23.000000Z	maybe gods have the problem that they only can create beings slightly weaker than themselves, so they don't create as much as they would want to (this would be the reason why Zeus rapes/seduces random women and doesn't just create mistresses – the mistresses might build a coalition & turn against him
+2021-03-30T09:11:10.000000Z	Skolem constants are just Skolem functions of arity 0, they have no universal quantifiers around them.

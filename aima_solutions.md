@@ -1,9 +1,7 @@
 [home](./index.md)
 -------------------
 
-<!--TODO: Exercises 6.6, 7.4, 7.5, 9.10, 13.18, 13.21, 15.14, 16.17, 17.1 -->
-
-*author: niplav, created: 2021-01-21, modified: 2021-03-27, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-01-21, modified: 2021-03-31, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
@@ -11,11 +9,13 @@ written by [Stuart
 Russell](https://en.wikipedia.org/wiki/Stuart_J._Russell) and [Peter
 Norvig](https://en.wikipedia.org/wiki/Peter_Norvig), is probably the most
 well-known textbook on artificial intelligence. Here, I write down my
-solutions to exercises in that book. I use the 2010 edition, because the
-exercises for the 2020 edition were moved online.__
+solutions to exercises in that book. I use the 3rd edition from 2010, because the
+exercises for the 4th edition were moved online.__
 
 Solutions to “Artificial Intelligence: A Modern Approach”
 =========================================================
+
+<!--TODO: Exercises 6.6, 7.4, 7.5, 9.10, 13.18, 13.21, 17.1 -->
 
 Chapter 1
 ----------
@@ -584,9 +584,9 @@ Therefore, this sentence is valid as heck.
 > According to some political pundits, a person who is radical (R) is
 electable (E) if he/she is conservative (C), but otherwise not electable.
 
-> a. Which of the following are correct representations of this assertion?
-(i) `$R \land E \Leftrightarrow C$`
-(ii) `$R \Rightarrow (E \Leftrightarrow C)$`
+> a. Which of the following are correct representations of this assertion?  
+(i) `$R \land E \Leftrightarrow C$`  
+(ii) `$R \Rightarrow (E \Leftrightarrow C)$`  
 (iii) `$R \Rightarrow ((C \Rightarrow E) \lor \lnot E)$`
 
 (i) Would mean that a conservative is only electable if they are radical
@@ -704,9 +704,11 @@ Constants: `$I$`, referring to the speaker, `$T$` referring to "that man".
 
 Variables: `$x, y, z$`.
 
-Known facts: `$\lnot \exists x: Sibling(x, I), \forall y: Father(y, T) \land Father(z, I) \Rightarrow y=z$`.
+Known facts: `$\lnot Sibling(x, I), Father(T)=Son(Father(I))$`
 
 We don't know whether the speaker is male.
+
+Let's say we have a hunch that it is the case that `$Father(T)=I$`
 
 -->
 
@@ -1533,6 +1535,77 @@ Since `$U(\lnot p|\lnot b)=0$`, it can be left out of the calculation.
 > c. What should Sam do?
 
 Sam should buy the book, since that yields the highest expected utility.
+
+### 16.17
+
+> (Adapted from Pearl (1988). A used-car buyer can decide to carry out
+various tests with various costs (e.g., kick the tires, take the car to
+a qualified mechanic) and then, depending on the outcome of the tests,
+decide which car to buy. We will assume that the buyer is deciding
+whether to buy car `$c_1$`, that there is time to carry out at most
+one test, and that `$t_1$` is the test of `$c_1$` and costs \$50. A car
+can be in good shape (quality `$q^+$`) or bad shape (quality `$q^-$`),
+and the tests might help indicate what shape the car is in. Car `$c_1$`
+costs \$1,500, and its market value is \$2,000 if it is in good shape;
+if not, \$700 in repairs will be needed to make it in good shape. The
+buyer's estimate is that `$c_1$` has a 70% chance of being in good shape.
+
+> a. Draw the decision network that represents this problem.
+
+![Decision network for 16.17](img/aima_solutions/16_17_decisionnet.png "A decision network for exercise 16.17. A rectangle T and B, an oval Q, and a diamond U. Arrow from T to Q and B, from Q to B, and from B to U.")
+
+> b. Calculate the expected net gain from buying `$c_1$`, given no test.
+
+`$E(U|b, \lnot t)=0.7*(\$2000-\$1500)+0.3*(\$2000-(\$700+\$1500))=\$290$`
+
+> c. Tests can be described by the probability that the car will pass
+or fail the test given that the car is in good or bad shape. We have
+the following information:  
+`$P(pass(c_1, t_1)|q^+(c_1))=0.8$`  
+`$P(pass(c_1, t_1)|q^-(c_1))=0.35$`  
+Use Bayes' theorem to calculate the probability that the car will pass
+(or fail) its test and hence the probability that it is in good (or bad)
+shape given each possible test outcome.
+
+<div>
+	$$P(q^+(c_1)|pass(c_1, t_1))=\\
+	\frac{P(pass(c_1, t_1)|q^+(c_1)*P(q^+(c_1))}{P(pass(c_1, t_1))}=\\
+	\frac{0.8*0.7}{\sum_{i \in \{q^+(c_1), q^-(c_1)\}} P(pass(c_1, t_1)|i)*P(i)}=\\
+	\frac{0.8*0.7}{0.8*0.7+0.35*0.3} \approx 0.8421$$
+</div>
+
+With that, `$P(q^-(c_1)|pass(c_1, t_1)) \approx 0.1579$`.
+
+<div>
+	$$P(q^+(c_1)|\lnot pass(c_1, t_1))=\\
+	\frac{P(\lnot pass(c_1, t_1)|q^+(c_1)*P(q^+(c_1))}{P(\lnot pass(c_1, t_1))}=\\
+	\frac{0.2*0.7}{\sum_{i \in \{q^+(c_1), q^-(c_1)\}} P(\lnot pass(c_1, t_1)|i)*P(i)}=\\
+	\frac{0.2*0.7}{0.2*0.7+0.65*0.3} \approx 0.4179$$
+</div>
+
+With that, `$P(\lnot q^-(c_1)|\lnot pass(c_1, t_1) \approx 0.5821$`.
+
+> d. Calculate the optimal decisions given either a pass or a fail,
+and their expected utilities.
+
+<div>
+	$$E(U|b, t, pass(c_1, t_1))=0.8421*(\$2000-\$1500)+0.1579*(\$2000-(\$1500+\$700))=\$389.47 \\
+	E(U|\lnot b, t, pass(c_1, t_1))=\$0 \\
+	E(U|b, t, \lnot pass(c_1, t_1))=0.4179*(\$2000-\$1500)+0.5821*(\$2000-(\$1500+\$700))=\$92.53 \\
+	E(U|\lnot b, t, \lnot pass(c_1, t_1))=0.4179*(-\$50)+0.5821*(-\$50)=\$0$$
+</div>
+
+> e. Calculate the value of information of the test, and derive an
+optimal conditional plan for the buyer.
+
+<div>
+	$$VOI(pass(c_1, t_1))=(P(pass(c_1, t_1))*EU(b|t, pass(c_1, t_1)+P(\lnot pass(c_1, t_1))*EU(b|t, \lnot pass(c_1, t_1)))-EU(b|\lnot t)=\\
+	((0.8*0.7+0.35*0.3)*\$389.47+(0.2*0.7+0.65*0.3)*\$92.53)-\$290 \approx \\
+	\$0$$
+</div>
+
+This makes sense, since in all cases (even if the test says that the
+car is a lemon!), the optimal decision is to buy the car.
 
 Chapter 17
 -----------
