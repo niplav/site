@@ -251,11 +251,14 @@ teeth clipping and tail docking) to the behaviour of cows in big pens
 to the hierarchical behavior in chickens (much more strongly than in
 cows, actually a major factor of injury in cage-free egg production),
 the book presents an industrial-scale mountain of interesting facts
-about animal agriculture. Their judgement seems well informed and not
-particularly strongly clouded by bias, and presented in a empathetic,
-but also neutral tone (except in the case of them glossing over the
-fact that surgeries such as castration on animals are performed without
-anaesthetics, seemingly regarding this as completely acceptable).
+about animal agriculture. The best parts of the book pretty much scream
+to be flashcardized.
+
+Norwood's & Lusk's judgement seems well informed and not particularly
+strongly clouded by bias, and presented in a empathetic, but also neutral
+tone (except in the case of them glossing over the fact that surgeries
+such as castration on animals are performed without anaesthetics,
+seemingly regarding this as completely acceptable).
 
 However, not everything is golden under the sun. The chapter on
 philosophy is especially painful (or might this just be my Gell-Mann
@@ -278,22 +281,24 @@ copy-pasted into the book. The experiments they perform are interesting
 and scientifically sophisticated, but the chapter is nonetheless jarring
 to the reader – clearly somewhat out of place in the rest of the book.
 
-Two things stood out to me from this book:
+Two things stand out to me from this book:
 
-1. They mentioned Tomasik's early writings in a very positive tone,
+1. They mention Tomasik's early writings in a very positive tone,
 remarking that "It is one of the most interesting and well researched
 narratives that is not officially published by any organization."
-2. After reading it, I remained mostly unshaken in my
-vegetarianism. However, I stopped eating eggs as a result of reading this
-book, and I now assign a much higher probability to the hypothesis that
-beef cows' lives on factory farms are actually net positive, although
+2. After reading it, I remain mostly unshaken in my
+vegetarianism. However, I have stopped eating eggs as a result of reading
+this book, and I now assign a much higher probability to the hypothesis
+that beef cows' lives on factory farms are actually net positive, although
 I wouldn't go so far as to give it the majority of my probability mass.
 
-Finally, “Compassion, by the Pound” is sometimes clearly a
-product of annoyance – an annoyance at animal advocates who allegedly
-spread misinformation about farming practices, annoyance at people who
-_just don't understand economics_ (which I get, yes, it's frustrating),
-and yes, sometimes also annoyance at the horrifying conditions many farm
-animals have to live under. Hopefully both economists and animal advocates
-won't have to be annoyed as much in the future, but for the time being,
-we're still killing and eating animals.
+“Compassion, by the Pound” is sometimes clearly a product of annoyance
+– an annoyance at animal advocates who allegedly spread misinformation
+about farming practices, annoyance at people who _just don't understand
+economics_ (which I get, yes, it's frustrating), and yes, sometimes
+also annoyance at the horrifying conditions many farm animals have to
+live under. Hopefully both economists and animal advocates won't have
+to be annoyed as much in the future, but for the time being, we're still
+killing and eating animals.
+
+__6/10__
