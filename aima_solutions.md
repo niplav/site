@@ -15,8 +15,6 @@ exercises for the 4th edition were moved online.__
 Solutions to “Artificial Intelligence: A Modern Approach”
 =========================================================
 
-<!--TODO: Exercises 6.6, 7.4, 7.5, 9.10, 13.18, 13.21, 17.1 -->
-
 Chapter 1
 ----------
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-02-24, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-04-01, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* \* Die Verwandlung (Franz Kafka, 1915)
+* \* Brave New World (Aldous Huxley, 1932)
+* Der Heizer (Franz Kafka, 1913)
+* Epistle to the New York Less Wrongians (Eliezer Yudkowsky, 2011)
 * [You Have About Five Words (Raemon, 2019)](https://www.lesswrong.com/posts/4ZvJab25tDebB8FGE)
 * [Adding My Data Point To The Discussion Of Substack Advances (Scott Alexander, 2021)](https://astralcodexten.substack.com/p/adding-my-data-point-to-the-discussion)
 * [Hyperlogarithmic Arithmetic (Ismael Ghalimi, 2019)](https://observablehq.com/@ishi/arithmetic)
