@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2021-03-29, language: english, status: finished, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2021-04-03, language: english, status: finished, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 to the time between forecast and resolution, and asks three
@@ -560,9 +560,9 @@ regressions](https://en.wikipedia.org/wiki/Linear_regression) shows a
 very similar picture (red dots are for Metaculus forecasts, blue dots
 are for PredictionBook forecasts):
 
-![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)](img/range_and_forecasting_accuracy/allscatter.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)")
+![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in seconds)](./img/range_and_forecasting_accuracy/allscatter.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in seconds)")
 
-*Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)*
+*Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in seconds)*
 
 The high amounts of noise are probably due to the low number of
 predictions for single days (or, in the case of weeks and months, for
@@ -571,7 +571,8 @@ have resolved yet).
 
 ### Why Assume Accuracy will Increase?
 
-I believe that the finding of PredictionBook is quite surprising.
+I believe that the finding for the PredictionBook data is quite
+surprising.
 
 A priori, one would believe that beliefs about the near future are
 generally more accurate than beliefs about the far future: We can predict
@@ -664,8 +665,7 @@ at position i in the array `{pb,met}ss` was the sample size for week i:
 	pbss::{#pbss?x}'1+!maxval
 	metss::{#metss?x}'1+!maxval
 
-I generated charts for the sample sizes in
-[weeks](./img/range_and_forecasting_accuracy/ss_plot.png):
+I generated charts for the sample sizes in weeks:
 
 	ssplot::.oc("ss_plot.eps")
 	.tc(ssplot)
@@ -845,7 +845,7 @@ The following are scatterplots with range on the X-axis and accuracy
 (calculated using the Brier score) on the Y-axis. Again, red dots/lines
 are for Metaculus data, and blue dots/lines are for PredictionBook data.
 
-![Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range](img/range_and_forecasting_accuracy/allq.png "Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range")
+![Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range](./img/range_and_forecasting_accuracy/allq.png "Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range")
 
 *Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range*
 

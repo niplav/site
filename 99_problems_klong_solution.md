@@ -1529,7 +1529,7 @@ Originally, the code looked like this:
 	c2::{{,(+/*'x),x}:(2#x),2_x}
 	s50::{|'c1(*{1<#x}{c2(x@<*'x)}:~x;[])}
 
-Here, one can quite clearly seet he separation of creating the Huffman
+Here, one can quite clearly see the separation of creating the Huffman
 code: first, the tree is built up by calling `c2` on the list of code
 frequencies repeatedly, until the tree is complete, and then the tree is
 passed to `c1`, which creates the code by traversing the tree and adding
@@ -2002,7 +2002,7 @@ I checked.<!--TODO: add images for all the different trees returned by
 for negative parameters, but since this is an exercise and not production
 code, this seems unnecessary here.
 
-One can now also find out how many heigh-balanced binary trees exist for
+One can now also find out how many height-balanced binary trees exist for
 a given height:
 
 		#'s59'!4
