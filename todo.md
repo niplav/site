@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019t09-09, modified: 2021-03-23, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019t09-09, modified: 2021-04-10, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -306,32 +306,10 @@ Texts
 * Voting Cost-Benefit Analysis
 	* Altruistic, egoistic
 * Subjective time experience for advanced meditators
-* Wireheading: Much More Than You Wanted to Know
-	* [Electrical Brain Stimulation](https://en.wikipedia.org/wiki/Electrical_brain_stimulation)
-	* [Wireheading](https://en.wikipedia.org/wiki/Wirehead_(science_fiction))
-	* [Brain Stimulation Reward](https://en.wikipedia.org/wiki/Brain_stimulation_reward)
-	* Questions:
-		* How much wireheading research has been/is being done?
-		* Why is there so little wireheading research/why is it not very prominent?
-		* Do animals (especially humans) develop tolerance to intracranial stimulation?
-		* Do animals (especially humans) develop an addiction to intracranial stimulation?
-		* Is wireheading reversible? (in principle, in practice so far)
-		* How long can one wirehead until it leads to negative health outcomes (in principle, in practice)
-		* How good does intracranial stimulation feel? (compared to other positive experiences)
-		* Is wireheading actually pleasurable or just compelling? (in the sense that one wants to continue being wireheaded although it doesn't strictly "feel good")
-		* How does intracranial stimulation work?
-	* Desiderata:
-		* Reversibility
-		* Non-adaption
-		* Non-addiction
-		* Safety
-		* Ability preservation
-* Shipping: Much More Than You Wanted to Know
 * Timeline of the Odyssee
 * Requirements for AI Safety via Debate
 * Roomba Cost-Benefit Analysis
 * A History of the Term “Rationalist”
-* The Uyghurs and China: Much More Than You Wanted To Know
 * Weather Affects Daygame Success/Divorce Rates?
 
 ### Ideas
@@ -499,7 +477,6 @@ Texts
 	* Read
 		* /usr/local/doc/unread/notation/notation\_as\_a\_tool\_of\_thought\_iverson\_1986.pdf
 	* Substitution of variables in formulas: order is _bad_ & _wrong_
-* Cryonics in Germany/Europe FAQ
 * Recommendations
 	* Activities/Movies/Series/Podcasts/Books/Blogposts
 * Cool Things Humans Can Learn
@@ -577,6 +554,34 @@ Texts
 * Ranking, Reviewing and Rating Patricia Taxxon's Music
 * Meanings of "so" in German
 * Heuristics for Friendly Conversation on the Internet
+* Much More Than You Wanted to Know
+	* Vandwelling
+	* UBI
+	* Wireheading
+		* [Electrical Brain Stimulation](https://en.wikipedia.org/wiki/Electrical_brain_stimulation)
+		* [Wireheading](https://en.wikipedia.org/wiki/Wirehead_(science_fiction))
+		* [Brain Stimulation Reward](https://en.wikipedia.org/wiki/Brain_stimulation_reward)
+		* Questions:
+			* How much wireheading research has been/is being done?
+			* Why is there so little wireheading research/why is it not very prominent?
+			* Do animals (especially humans) develop tolerance to intracranial stimulation?
+			* Do animals (especially humans) develop an addiction to intracranial stimulation?
+			* Is wireheading reversible? (in principle, in practice so far)
+			* How long can one wirehead until it leads to negative health outcomes (in principle, in practice)
+			* How good does intracranial stimulation feel? (compared to other positive experiences)
+			* Is wireheading actually pleasurable or just compelling? (in the sense that one wants to continue being wireheaded although it doesn't strictly "feel good")
+			* How does intracranial stimulation work?
+		* Desiderata:
+			* Reversibility
+			* Non-adaption
+			* Non-addiction
+			* Safety
+			* Ability preservation
+	* Shipping
+	* The Uyghurs and China
+	* Cryonics in Germany
+	* Cryonics in Europe
+	* Extremely Long-Lived Institutions
 
 ### Notes
 
@@ -612,6 +617,10 @@ Texts
 		to hold a conversation?"
 * Weekly 1-on-1s
 * Kissing Hands as Greeting/Goodbye
+* Future:
+	* Remembering Names
+	* Fixing My Voice
+	* Experiments with Butt Stuff
 
 ### Misc
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2021-03-29, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2021-04-05, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks, and create some stuff while reading
 them (e.g. making flashcards of facts & definitions in the textbook
@@ -70,7 +70,7 @@ mental model of how it works.
 		* Done: 17.3
 		* To do: 17.1-17.2, 17.4-17.21
 * [Flashcards](./flash/artificial_intelligence_a_modern_approach.apkg):
-	* Done: p. 1-119
+	* Done: p. 1-122
 	* Done: p. 222-243 (missing: complexity of AC-3, special methods for global constraints)
 	* Done: p. 254-280 (symbols in propositional logic not included)
 	* Done: p. 305-335
@@ -84,7 +84,7 @@ mental model of how it works.
 	* Done: p. 713-728
 	* Done: p. 850-855
 * Read:
-	* p. 1-119
+	* p. 1-122
 	* p. 222-243
 	* p. 254-280
 	* p. 305-335
