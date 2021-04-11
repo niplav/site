@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2021-01-27, language: english, status: finished, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2021-04-11, language: english, status: finished, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -93,8 +93,8 @@ written in [Lua](https://www.lua.org/). I then proceed and create a
 [Guesstimate](https://www.getguesstimate.com/) model to determine the
 distribution of the expected value of signing up.
 
-Note
-----
+Other Cryonics Texts
+---------------------
 
 This write-up is not intended as an introduction to the concept
 of cryonics. For a popular introduction to the topic that
@@ -108,6 +108,10 @@ director of the Cryonics Institute, answers many questions, as well as
 
 These texts should answer most questions people usually have about
 cryonics.
+
+If you have decided that you indeed do want to sign up for
+cryonics, the best existing resource is the [Cryonics Signup
+Guide](https://www.lesswrong.com/s/weBHYgBXg9thEQNEe).
 
 Caveats
 --------
