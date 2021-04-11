@@ -230,7 +230,6 @@ December 2019
 ### Writing
 
 * Restructured the [index page](./index.html)
-* Started the [Day Game Log](./daygame_log.html)
 * Notes
 	* [Killing Old People Versus Infants](./notes.html#Killing-Old-People-Versus-Infants)
 
