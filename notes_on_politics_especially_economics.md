@@ -9,8 +9,8 @@ in order to speed up my progress on that topic. Many of these points
 are only rough ideas, or me collecting unrelated ideas I find good and
 useful. Therefore, this text might already be out of date.__
 
-Thoughts on Politics, Especially Economics
-===========================================
+Notes on Politics, Especially Economics
+========================================
 
 Before I Get to the Object-Level Stuff
 ---------------------------------------

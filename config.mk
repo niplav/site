@@ -10,6 +10,7 @@ HTML=index.html \
 	contributions.html \
 	notes.html \
 	notes_on_ethics.html \
+	notes_on_politics_especially_economics.html \
 	now.html \
 	todo.html \
 	uses_this.html \
@@ -42,7 +43,6 @@ HTML=index.html \
 	senryu.html \
 	tao_te_king.html \
 	text_reviews.html \
-	thoughts_on_politics_especially_economics.html \
 	tjpb_exercises.html \
 	toy_ai_takeoff_model.html \
 	two_people_on_a_planet.html \

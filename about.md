@@ -326,6 +326,10 @@ similar to those of the minimalist unix and [Plan
 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs) supporters at
 [suckless.org](https://suckless.org) and [cat-v.org](http://cat-v.org).
 
+### Friends of the Site
+
+* [Ethan Morse](https://ethanmorse.github.io)
+
 The Author
 ----------
 

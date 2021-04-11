@@ -28,7 +28,8 @@ on the following texts:
 
 * [Generalizing the Diamond-Square Algorithm to n Dimensions](./generalizing_diamond_square.html)
 * [Leave the Internet](./leave_the_internet.html)
-* [Thoughts on Politics, Especially Economics](./thoughts_on_politics_especially_economics.html)
+* [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
+* [Notes on Ethics](./notes_on_ethics.html)
 
 I'm also planning an editing of all texts on the website, but that might
 take a while.

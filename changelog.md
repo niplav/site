@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-04-01, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-04-11, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -10,6 +10,10 @@ Changelog
 
 April 2021
 ----------
+
+* [Notes on Ethics](./notes_on_ethics.md)
+	* [Humans Implement Ethics Discovery](./notes_on_ethics.html#Humans-Implement-Ethics-Discovery)
+	* [I Care About Ethical Decision Procedures](./notes_on_ethics.html#I-Care-About-Ethical-Decision-Procedures)
 
 March 2021
 -----------
