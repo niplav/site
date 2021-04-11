@@ -522,4 +522,5 @@
 2021-04-08T21:45:13.000000Z	~problematic~
 2021-04-10T19:26:55.000000Z	typos on a darknet market site. programmers *sigh*
 2021-04-11T12:39:58.000000Z	universes with more life probably more compressible
-2021-04-11T12:40:10.000000Z	universes with more life probably more compressible
+2021-04-11T13:27:13.000000Z	life is quined matter
+2021-04-11T21:00:48.000000Z	female spiders eat males after mating bc males won't provide for offspring, so they might as well provide nutrients for the mother

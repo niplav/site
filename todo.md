@@ -603,6 +603,9 @@ Texts
 * Most People Have No Power At All
 	* Therefore it's probably not very important what most people think
 * Hail Cyclists
+	* Positive Externalities: Environment, Attractiveness
+* Hail Long Content
+	* Most Topics are Too Short for Books
 
 ### Reports
 
