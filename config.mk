@@ -4,21 +4,26 @@ CONF=config.mk header.html main.css
 
 HTML=index.html \
 	about.html \
-	administrativa_for_textbooks.html \
 	changelog.html \
 	content_warning.html \
 	contributions.html \
-	notes.html \
-	notes_on_ethics.html \
-	notes_on_politics_especially_economics.html \
 	now.html \
 	todo.html \
 	uses_this.html \
+	reports.html \
+	notes.html \
+	notes_on_ethics.html \
+	notes_on_politics_especially_economics.html \
+	administrativa_for_textbooks.html \
+	aima_solutions.html \
+	apisct_solutions.html \
+	nst_solutions.html \
+	pmaml_solutions.html \
+	tjpb_exercises.html \
 	99_klong_problems.html \
 	99_problems_collection.html \
 	99_problems_klong_solution.html \
 	against_applause.html \
-	aima_solutions.html \
 	buch_stab.html \
 	circle_combinations.html \
 	consciousness_diagram.html \
@@ -33,16 +38,13 @@ HTML=index.html \
 	masturbation_and_attractiveness.html \
 	mathematics_notation_convention.html \
 	metamodernistisches_manifest.html \
-	nst_solutions.html \
 	pipe_rings.html \
 	platte.html \
 	range_and_forecasting_accuracy.html \
 	rationalist_gods.html \
-	reports.html \
 	senryu.html \
 	tao_te_king.html \
 	text_reviews.html \
-	tjpb_exercises.html \
 	toy_ai_takeoff_model.html \
 	two_people_on_a_planet.html \
 	utilitarian_compliments.html \

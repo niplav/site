@@ -1,15 +1,18 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2021-04-05, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2021-04-14, language: english, status: in progress, importance: 1, confidence: likely*
 
-> __I sometimes read textbooks, and create some stuff while reading
-them (e.g. making flashcards of facts & definitions in the textbook
-and solving some exercises). I collect that information here, to my and
-maybe others' benefit.__
+> __I sometimes read textbooks (broadly defined as "a book with
+exercises"), and create some stuff while reading them (e.g. making
+flashcards of facts & definitions in the textbook and solving some
+exercises). I collect that information here, to my and maybe others'
+benefit.__
 
 Administrativa for Textbooks
 ============================
+
+<!--TODO: Add Programming in Lua-->
 
 For flashcards, if I include the screenshot of an algorithm, the goal
 is not to learn the algorithm by heart in all detail, but have a good
@@ -21,16 +24,38 @@ mental model of how it works.
 * [Solutions to Exercises](./nst_solutions.md)
 	* Sections 3-10
 * [Flashcards](./flash/naïve_set_theory.apkg)
-	* Done: Sections 1-10
-* Read: p. 1-41
+	* Sections 1-10
+* Read:
+	* p. 1-41
 
 “The Jazz Piano Book”
 ---------------------
 
 * [Exercises](./tjpb_exercises.md)
 * [Flashcards](./flash/the_jazz_piano_book.apkg)
-	* Done: p. 1-19
-* Read: p. 1-19
+	* p. 1-19
+* Read:
+	* p. 1-19
+
+“A Primer in Social Choice Theory”
+-----------------------------------
+
+<!--CANDO: Chapter 1, 2, 3, 5, 6-->
+
+* [Exercises](./apisct_solutions.md)
+* [Flashcards](./flash/a_primer_in_social_choice_theory.apkg)
+	* p. 1-25
+* Read:
+	* p. 1-25
+
+“Pattern Recognition and Machine Learning”
+------------------------------------------
+
+* [Exercises](./pmaml_solutions.md)
+* [Flashcards](./flash/pattern_matching_and_machine_learning.apkg)
+	* p. 1-7
+* Read:
+	* p. 1.7
 
 “Artificial Intelligence: A Modern Approach”
 ---------------------------------------------
@@ -70,19 +95,19 @@ mental model of how it works.
 		* Done: 17.3
 		* To do: 17.1-17.2, 17.4-17.21
 * [Flashcards](./flash/artificial_intelligence_a_modern_approach.apkg):
-	* Done: p. 1-122
-	* Done: p. 222-243 (missing: complexity of AC-3, special methods for global constraints)
-	* Done: p. 254-280 (symbols in propositional logic not included)
-	* Done: p. 305-335
-	* Done: p. 342-355 (without the definition of a subsumption lattice)
-	* Done: p. 357-359
-	* Done: p. 365-370
-	* Done: p. 500-544 (but not ENUMERATION-ASK)
-	* Done: p. 586-601, but fixed-lag smoothing algorithms and formulae are missing
-	* Done: p. 630-657 (although only the steps, but not the details of creating a decision network)
-	* Done: p. 665-684 (conspicuously missing: contractions and the proof of the convergence of Bellman updates)
-	* Done: p. 713-728
-	* Done: p. 850-855
+	* p. 1-122
+	* p. 222-243 (missing: complexity of AC-3, special methods for global constraints)
+	* p. 254-280 (symbols in propositional logic not included)
+	* p. 305-335
+	* p. 342-355 (without the definition of a subsumption lattice)
+	* p. 357-359
+	* p. 365-370
+	* p. 500-544 (but not ENUMERATION-ASK)
+	* p. 586-601, but fixed-lag smoothing algorithms and formulae are missing
+	* p. 630-657 (although only the steps, but not the details of creating a decision network)
+	* p. 665-684 (conspicuously missing: contractions and the proof of the convergence of Bellman updates)
+	* p. 713-728
+	* p. 850-855
 * Read:
 	* p. 1-122
 	* p. 222-243

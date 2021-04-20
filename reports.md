@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2021-01-20, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2020-10-07, modified: 2021-04-17, language: english, status: notes, importance: 3, confidence: log*
 
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
@@ -263,32 +263,32 @@ I ordered 100 3mg pills for ~30€ and they arrived, together with around
 I experimented around with administration time & dosage, finding out
 that 1/8th (≈0.375g) of a pill, administered at ~20:00, was usually
 sufficient to make me sleepy enough at 23:00 to actually go to bed
-(though the pills are kind of hard to cut). I also realized that it was
+(though the pills are kind of hard to cut well). I also realized that it was
 not necessary to take Melatonin every evening, once a good rhythm had
 been established, a dosage every 2 or 3 days was usually enough to keep
 the habit of going to bed early.
 
-In the last couple of weeks I feel like 1/8th of a pill is not enough,
+In the last couple of weeks I've felt like 1/8th of a pill is not enough,
 perhaps this is adaption to the substance (though I remember reading
 that adaption is negligible). Alternatively, the placebo effect might
 be wearing off.
 
 <!--TODO: follow up on this-->
 
-While Melatonin was very useful at enforcing bedtimes, it wasn't making
-me sleep less.
+While Melatonin has been very useful at enforcing bedtimes, it hasn't
+caused me to sleep less.
 
 ### Whether It Was a Good Idea
 
-I am very glad I bought & tried Melatonin, it has to a large degree fixed
-a significant problem in my life. I am now happier in the morning when
-I wake up, less tired during the course of the day, and don't have to
-feel guilty at 04:00 because I stayed up too late.
+I am very glad that I've bought & tried Melatonin; it has to a large
+degree fixed a significant problem in my life. I am now happier in
+the morning when I wake up, less tired during the course of the day,
+and don't have to feel guilty at 04:00 because I stayed up too late.
 
 At my current usage, my stash will last me
 `$95 \hbox{ pills }*8\frac{\hbox{dosages}}{\hbox{pill}}*2\frac{\hbox{days}}{\hbox{dosage}}=1520 \hbox{ days}$`:
 more than 4 years! Even if the future effects are just half as good as
-the past effects, this was an investment completely worth it.
+the past effects, this investment was completely worth it.
 
 __8/10__
 

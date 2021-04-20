@@ -16,3 +16,4 @@ Mathematics Notation Convention
 * If e is not an element of S, then `$e \not \in S$` (and not something like `$e \in' S$`)
 * `$[n] = \{x \in \mathbb{N} | 1 \le x \le n \}$`
 * Use `$:=$` for assignment, not `$\rightarrow$` or `$\leftarrow$`
+* When denoting choosing elements from a set based on some criterion, use the bar |: `$\{x|x \in P(x) \land \forall y \in S: x \succ y\}$` (some people use a colon)
