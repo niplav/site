@@ -11,7 +11,8 @@
 > only applies partially here: Yes, it is probably worth it (under
 > plausible assumptions \$2.7m for a 20 year old, and more for older
 > people), and no, cryocrastination is usually irrational. A cost-benefit
-> analysis written in Lua.
+> analysis written in Lua, considering neurocryopreservation <!--TODO: link-->
+> with Alcor<!--TODO: link-->.
 > I also perform a [Monte-Carlo
 > simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method) using
 > [Guesstimate](https://www.getguesstimate.com/ "Official website"),
@@ -48,6 +49,7 @@ https://books.google.de/books?id=9C0ABAAAQBAJ&pg=PA281&lpg=PA281&dq=Cryonics+cos
 <!--
 Consideration:
 Different value of money at different ages
+People might want to stay signed up after LEV
 -->
 
 <!--

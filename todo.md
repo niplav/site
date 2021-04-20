@@ -36,6 +36,11 @@ Site
 		* Mainly done
 		* Expand the section on the Guesstimate model
 		* Incorporate new Alcor membership costs
+* AIMA flashcards:
+	* Add tags for chapters
+	* Prune flagged cards?
+* Administrativa for Textbooks:
+	* Add Programming in Lua Stuff
 
 Texts
 -----

@@ -2,15 +2,12 @@
 
 *author: niplav, created: 2019-03-20, modified: 2021-04-10, language: english, status: in progress, importance: 6, confidence: log*
 
-> __This is the website of niplav, containing essays, translations,
-> transcriptions, music and computer programs.__
+> __If you take away just one thing from this website,
+it should be that I think [you would want to sign up for
+cryonics](./considerations_on_cryonics.html) after careful deliberation.__
 
 Content
 =======
-
-If you take away one thing from this website, it
-should be that I think [you would want to sign up for
-cryonics](./considerations_on_cryonics.html) under careful deliberation.
 
 This is the website of niplav. It contains essays on different topics,
 including (but not limited to) programming, unusual social behavior and

@@ -524,3 +524,29 @@
 2021-04-11T12:39:58.000000Z	universes with more life probably more compressible
 2021-04-11T13:27:13.000000Z	life is quined matter
 2021-04-11T21:00:48.000000Z	female spiders eat males after mating bc males won't provide for offspring, so they might as well provide nutrients for the mother
+2021-04-12T22:25:18.000000Z	the universe needs to meditate
+2021-04-12T22:26:44.000000Z	@<hecanjog https://hecanjog.com/twtxt.txt> "Just discovered an unsaved vim buffer sitting in a local tmux session I forgot about for days now. Yikes. At least it was easy to remember where I left off. :)" -> Hopefully something important
+2021-04-12T22:28:51.000000Z	@<off_grid_living https://twtxt.net/user/off_grid_living/twtxt.txt> "Beautiful sunny day today, at Dululu." <3
+2021-04-13T18:25:23.000000Z	violation of schelling point as indicators of antimemetic infestation.
+2021-04-13T20:45:41.000000Z	quantilizing porn
+2021-04-13T21:42:21.000000Z	humiliating how long it took me to realise that the Metamorphosis by Kafka was about disability.
+2021-04-14T19:32:14.000000Z	@<movq https://www.uninformativ.de/twtxt.txt> "Random thought: Would be great if you could do `for i in ...; do something "$i" & done ; wait` in a Shell script, but with the Shell only spawning one process per CPU." -> Interesting which annoyances stay in the back of the head – I'd never articulated this, but it's absolutely true that this would be great.
+2021-04-14T19:32:46.000000Z	@<hecanjog https://hecanjog.com/twtxt.txt> "Maybe Satoshi was an anti-capitalist after all?" -> Why do you think that?
+2021-04-14T21:33:32.000000Z	if you're weird, spending time around non-weird people is not going to make you more normal. but if you spend time with marginally less weird people, you're probably going to become less weird.
+2021-04-16T16:57:41.000000Z	hardmore as much things as you can, ordered by importance. easymode the rest.
+2021-04-17T10:01:09.000000Z	metaculus is only realiable newssite send twt
+2021-04-17T10:05:02.000000Z	@<hecanjog https://hecanjog.com/twtxt.txt> "I can see the sinewave of my own mood skimming through past twtxts..." ▁▂▄▅▆▅▄▂▁▂▄▅▆▅▄▂▁▂▄▅▆▅▄▂▁
+2021-04-17T10:12:00.000000Z	twt is better because I can pronounce it like twit, which sounds a bit like “twat”, which is an insult and therefore better.
+2021-04-17T10:13:44.000000Z	huh, txtnish seems to have problems with linebreaks & unicode;.
+2021-04-17T10:15:50.000000Z	“Break at the Byte”, a programmer adventure story.
+2021-04-17T20:34:01.000000Z	Just because things are impossible doesn't mean they wouldn't be good
+2021-04-17T21:44:17.000000Z	sharing beliefs < sharing evidence < sharing models < sharing ontologies
+2021-04-17T21:45:12.000000Z	maybe that's my queasiness around emotional arguers: they share beliefs more than evidence, and nearly never models
+2021-04-17T21:49:13.000000Z	the counterpoint would be that I'm already begging the question with that attitude, though.
+2021-04-17T21:52:58.000000Z	2x3: {lives in social/physical reality}×{views things generally as positive/zero/negative sum}. To be honest, I think there's relatively few people in social positive sum reality frames.
+2021-04-17T22:03:49.000000Z	A: “X is number”. B: “Thats not true, X is not number”. If B doesnt provide an alternative number (or an explanation of why a number is not applicable here), Im often more inclined towards believing A.
+2021-04-17T22:06:32.000000Z	a b c d e f g h i j k l m n o p q r s t u v w x y z
+2021-04-17T22:29:57.000000Z	Whether to invest in stocks is moral tracks with whether general economic growth is moral.
+2021-04-18T01:13:36.000000Z	every problem created by utilitarianism can be solved by more & purer utilitarianism
+2021-04-18T13:31:12.000000Z	Maybe the difficulty of problems is pretty randomly distributed, but we write off the obviously impossible ones, and the very easy ones are plucked early, resulting in the impression that the universe is “shitty, but not hellish” for problem-solvers
+2021-04-20T00:29:21.000000Z	my brain really likes accumulation.
