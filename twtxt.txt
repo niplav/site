@@ -550,3 +550,8 @@
 2021-04-18T01:13:36.000000Z	every problem created by utilitarianism can be solved by more & purer utilitarianism
 2021-04-18T13:31:12.000000Z	Maybe the difficulty of problems is pretty randomly distributed, but we write off the obviously impossible ones, and the very easy ones are plucked early, resulting in the impression that the universe is “shitty, but not hellish” for problem-solvers
 2021-04-20T00:29:21.000000Z	my brain really likes accumulation.
+2021-04-20T11:14:19.000000Z	(⋅,⋅)
+2021-04-20T11:55:12.000000Z	i'm sure people have studied this: maybe strategically voting iteratively reaches a fixed point in which point report their actual preferences?
+2021-04-20T12:29:47.000000Z	AIXI for polynomial curve fitting
+2021-04-21T17:27:54.000000Z	Paint is not the unit of effort
+2021-04-21T21:19:05.000000Z	the average meaning fan vs. the gradients of bliss enjoyer

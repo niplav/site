@@ -11,7 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
-* [Iron Man 3]()
+* [Iron Man 3](https://www.imdb.com/title/tt1300854/)
 * [War of the Worlds](https://www.imdb.com/title/tt0407304/)
 * [The Trial of the Chicago Seven](https://www.imdb.com/title/tt1070874/)
 * [Crocodile Dundee](https://www.imdb.com/title/tt0090555/)
