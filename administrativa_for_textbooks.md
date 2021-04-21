@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2021-04-14, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2021-04-22, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks (broadly defined as "a book with
 exercises"), and create some stuff while reading them (e.g. making
@@ -40,22 +40,23 @@ mental model of how it works.
 “A Primer in Social Choice Theory”
 -----------------------------------
 
-<!--CANDO: Chapter 1, 2, 3, 5, 6-->
-
-* [Exercises](./apisct_solutions.md)
+* [Solutions to Exercises](./apisct_solutions.md)
+	* Chapter 1:
+		* Done: 1.1-1.2
+		* To do: 1.3-1.8
 * [Flashcards](./flash/a_primer_in_social_choice_theory.apkg)
-	* p. 1-25
+	* p. 1-28
 * Read:
-	* p. 1-25
+	* p. 1-28
 
 “Pattern Recognition and Machine Learning”
 ------------------------------------------
 
-* [Exercises](./pmaml_solutions.md)
+* [Solutions to Exercises](./pmaml_solutions.md)
 * [Flashcards](./flash/pattern_matching_and_machine_learning.apkg)
-	* p. 1-7
+	* p. 1-38
 * Read:
-	* p. 1.7
+	* p. 1-38
 
 “Artificial Intelligence: A Modern Approach”
 ---------------------------------------------

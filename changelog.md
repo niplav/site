@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-04-11, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-04-22, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -11,7 +11,10 @@ Changelog
 April 2021
 ----------
 
-* [Notes on Ethics](./notes_on_ethics.md)
+* [Solutions to “A Primer in Social Choice Theory”](./apisct_solutions.html)
+	* [1.1](./apisct_solutions.html#11)
+	* [1.2](./apisct_solutions.html#12)
+* [Notes on Ethics](./notes_on_ethics.html)
 	* [Humans Implement Ethics Discovery](./notes_on_ethics.html#Humans-Implement-Ethics-Discovery)
 	* [I Care About Ethical Decision Procedures](./notes_on_ethics.html#I-Care-About-Ethical-Decision-Procedures)
 
