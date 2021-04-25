@@ -17,3 +17,6 @@ Mathematics Notation Convention
 * `$[n] = \{x \in \mathbb{N} | 1 \le x \le n \}$`
 * Use `$:=$` for assignment, not `$\rightarrow$` or `$\leftarrow$`
 * When denoting choosing elements from a set based on some criterion, use the bar |: `$\{x|x \in P(x) \land \forall y \in S: x \succ y\}$` (some people use a colon)
+* I write the expectation of the probability distribution `$X$` as `$\mathbb{E}[X]$` and the variance of `$X$` as `$\mathbb{V}[X]$`. Unfortunately, `$\mathbb{C}$` is already taken for the complex numbers, so I am forced to write `$\text{cov}[X,Y]$` for the covariance, and `$\text{cor}$` for the correlation.
+* In logic, use `$\Rightarrow$` or `$\Leftarrow$` for implication and `$\Leftrightarrow$` for the biconditional instead of `$\leftarrow$` or `$\rightarrow$` and `$\leftrightarrow$`.
+* Usually, with `$\bigcup/\bigvee/\sum/\prod$` etc, use `$i$` and `$j$` as the variables. If there are more, use `$i_1, i_2, \dots$`.
