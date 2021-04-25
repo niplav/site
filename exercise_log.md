@@ -1034,3 +1034,20 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 40 walking lunges
 * 100 froggers
 * 2 minutes plank
+
+### 2021-04-24
+
+* 60 7.5kg dumbbell biceps curls
+* 60 7.5kg dumbbell shoulder presses
+* 60 7.5kg dumbbell upright rows
+* 60 7.5kg dumbbell bench presses
+* 60 7.5kg dumbbell Γ lifts
+* 20 7.5kg dumbbell scaptions
+* 20 7.5kg dumbbell lateral lifts
+* 60 push-ups
+* 60 sit-ups
+* 60 double leg lifts
+* 20 burpees
+* 60 walking lunges
+* 100 froggers
+* 2 minutes plank

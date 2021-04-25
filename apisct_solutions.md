@@ -38,7 +38,7 @@ Then:
 	x \succ y \land (y \succ z \lor y \sim z) \Leftrightarrow \\
 	(x \succ y \land y \succ z) \lor (x \succ y \land y \sim z) \Rightarrow \\
 	(x \succ z) \lor (x \succ z) \Rightarrow \\
-	x \succeq z $$
+	x \succ z $$
 </div>
 
 ### 1.2
