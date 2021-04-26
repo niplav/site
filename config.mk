@@ -18,7 +18,8 @@ HTML=index.html \
 	aima_solutions.html \
 	apisct_solutions.html \
 	nst_solutions.html \
-	pmaml_solutions.html \
+	pa_solutions.html \
+	praml_solutions.html \
 	tjpb_exercises.html \
 	99_klong_problems.html \
 	99_problems_collection.html \
