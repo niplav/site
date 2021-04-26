@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2021-04-22, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2021-04-26, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks (broadly defined as "a book with
 exercises"), and create some stuff while reading them (e.g. making
@@ -42,21 +42,32 @@ mental model of how it works.
 
 * [Solutions to Exercises](./apisct_solutions.md)
 	* Chapter 1:
-		* Done: 1.1-1.2
-		* To do: 1.3-1.8
+		* Done: 1.1-1.3, 1.7
+		* To do: 1.4-1.6, 1.8
 * [Flashcards](./flash/a_primer_in_social_choice_theory.apkg)
-	* p. 1-28
+	* p. 1-34
 * Read:
-	* p. 1-28
+	* p. 1-34
 
 “Pattern Recognition and Machine Learning”
 ------------------------------------------
 
 * [Solutions to Exercises](./pmaml_solutions.md)
+	* 1.5
+	* To do: 1.1-1.4, 1.6-1.41
 * [Flashcards](./flash/pattern_matching_and_machine_learning.apkg)
-	* p. 1-38
+	* p. 1-39
 * Read:
-	* p. 1-38
+	* p. 1-39
+
+“Parameterized Algorithms”
+--------------------------
+
+* [Solutions to Exercises](./pa_solutions.md)
+* [Flashcards](./flash/parameterized_algorithms.apkg)
+	* p. 1-37
+* Read:
+	* p. 1-37
 
 “Artificial Intelligence: A Modern Approach”
 ---------------------------------------------

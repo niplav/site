@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2021-04-10, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2021-04-26, language: english, status: in progress, importance: 6, confidence: log*
 
 > __If you take away just one thing from this website,
 it should be that I think [you would want to sign up for
@@ -31,7 +31,6 @@ Writing
 #### Programming & Computer Science
 
 * [Pipe Rings](./pipe_rings.md)
-* [99 Problems Collection](./99_problems_collection.md)
 * [K-99: Ninety-Nine Klong Problems](./99_klong_problems.md)
 * [99 Problems Klong Solution](./99_problems_klong_solution.md)
 
@@ -52,13 +51,23 @@ Writing
 #### Collections
 
 * [Rationalist Gods](./rationalist_gods.md)
+* [99 Problems](./99_problems_collection.md)
 
 #### Textbooks
 
 * [Administrativa for Textbooks](./administrativa_for_textbooks.md)
 * [Solutions to “Naïve Set Theory”](./nst_solutions.md)
 * [Solutions to “Artificial Intelligence: A Modern Approach”](./aima_solutions.md)
+* [Solutions to “A Primer in Social Choice Theory”](./apisct_solutions.md)
+* [Solutions to “Pattern Recognition and Machine Learning](./praml_solutions.md)
+* [Solutions to “Parameterized Algorithms”](./pa_solutions.md)
 * [Exercises from “The Jazz Piano Book”](./tjpb_exercises.md)
+
+#### Notes
+
+* [Notes](./notes.md)
+* [Notes on Ethics](./notes_on_ethics.md)
+* [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.md)
 
 #### Other
 
@@ -68,7 +77,6 @@ Writing
 * [Two People on a Planet](./two_people_on_a_planet.md)
 * [Life Advice](./life_advice.md)
 * [Reports](./reports.md)
-* [Notes](./notes.md)
 
 ### Fiction
 
