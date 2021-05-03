@@ -99,8 +99,8 @@ theories – advice in the form of "you oughtn't be in this situation
 in the first place" is not very helpful if you are confronted with such
 a situation!
 
-Virtue ethics strikes me as such a theory – it defines what is good,
-but provides no decision-procedure for acting in most situations.
+Virtue ethics strikes me as being such a theory – it defines what is
+good, but provides no decision-procedure for acting in most situations.
 
 At best, it could be interpreted as a method for developing such a
 decision-procedure for each individual agent, recognizing that an attempt
@@ -163,8 +163,8 @@ We should try to be careful about self-modification, lest we fall into
 a molochian attractor state we don't want to get out of. Leave a line
 of retreat in ideology-space!
 
-The Repugnant Conclusion Implies Many or Only One Moral Patient
-----------------------------------------------------------------
+The Repugnant Conclusion Probably Implies Many or Only One Moral Patients
+--------------------------------------------------------------------------
 
 Diminishing or increasing returns on investments for well-being
 of a single agent?

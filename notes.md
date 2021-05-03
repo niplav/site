@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2021-02-24, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2021-05-04, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1205,3 +1205,56 @@ Then `$l=a^b+b^a=a^c+c^a$`. But since b and c are distinct, `$b>c$`
 (or the other way around, but that's just semantics). Then `$a^b>a^c$`,
 and `$b^a>c^a$`, which results in `$a^b+b^a>a^c+c^a$`. So distinct
 constructions with only three numbers are impossible.
+
+Why Not Nano-Apartments?
+-------------------------
+
+There seem to be goods of many different sizes and price-tags, with
+people being able to buy bulk or the bare minimum, e.g. transportation:
+walking by foot, biking, public transport, leasing a car, owning a car,
+or by helicopter.
+
+However, the very small scale for apartments seems to be neglected –
+cheap apartments are often in bad neighbourhoods, with longer commutes and
+worse living conditions, but rarely just extremely small (<10 m²). But
+one could easily imagine 5 m² apartments, with just a bed & a small
+bathroom (or even smaller options with a shared bathroom). However, I
+don't know of people renting/buying these kinds of apartments – even
+though they might be pretty useful if one wants to trade size against
+good location.
+
+Why, therefore, no nano-apartments?
+
+Possible reasons:
+
+### No Supply
+
+Perhaps nano-apartments are not economically viable to rent. Maybe
+the fixed cost per apartment is so high that it's not worth it below a
+certain size – every tenant being an additional burden, plumbing +
+upkeep of stairways, organising trash & electricity just isn't worth
+it. Or, perhaps, the amount of walls is too big – the more separate
+apartments you want to create, the more floor-space is going to be used
+on walls to separate those apartments, and at some fixed point around
+15 m² it's just not worth it.
+
+Another possibility is that there are regulations dictating the minimal
+size of apartments (or something that effectively leads to apartments
+having a minimal size).
+
+### No Demand
+
+I could be over-estimating the number of people who'd like to live in
+such an apartment. I could see myself renting one, especially if the
+location is very good – I'm glad to trade off space against having
+a short commute. But perhaps I'm very unusual in this regard, and most
+people trade off more harshly against the size of the apartment, due to
+owning just too much stuff to fit into such a small place.
+
+Or the kinds of people who would make this kind of trade-off just move
+into a shared flat, and bare the higher costs (but most rooms in shared
+apartments are still larger than 10 m²).
+
+The group of people who would rent those nano-apartments would naturally
+be young singles who want to save money and live urban, perhaps that
+group is just too small/already served with university dorms?

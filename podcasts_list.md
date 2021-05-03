@@ -15,5 +15,7 @@ I try to listen to all episodes available to the public.
 * [Alternativlos](https://alternativlos.org/)
 * [Chaos Radio Express](https://cre.fm/)
 * [History of Philosophy without any gaps](https://historyofphilosophy.net/)
+* [Robot Friends]()
 * [Wildness](https://www.wildanimalinitiative.org/wildness)
+* [Vecna's Goon Squad]()
 * [Zero Squared](https://dietsoap.podomatic.com/)

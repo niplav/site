@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-04-20, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-05-04, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,33 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Das nächste Dorf (Franz Kafka, 1919)
+* Ein Besuch im Bergwerk (Franz Kafka, 1919)
+* Schakale und Araber (Franz Kafka, 1917)
+* [Random Thoughts on Predict-O-Matic (Abram Demski, 2019)](https://www.lesswrong.com/s/HeYtBkNbEe7wpjc6X/p/25288usP5B5ytnzA4)
+* [Breeding happier animals: no futuristic tech required (Carl Shulman, 2012)](http://reflectivedisequilibrium.blogspot.com/2012/12/breeding-happier-livestock-no.html)
+* [Future Filter Fatalism (Carl Shulman, 2012)](https://reflectivedisequilibrium.blogspot.com/2012/12/future-filter-fatalism.html)
+* [Nuclear winter and human extinction: Q&A with Luke Oman (Carl Shulman, 2012)](https://reflectivedisequilibrium.blogspot.com/2012/11/nuclear-winter-and-human-extinction-q.html)
+* [Spreading happiness to the stars seems little harder than just spreading (Carl Shulman, 2012)](https://reflectivedisequilibrium.blogspot.com/2012/09/spreading-happiness-to-stars-seems.html)
+* [Can catch-up growth take us to the stars? (Carl Shulman, 2012)](https://reflectivedisequilibrium.blogspot.com/2012/09/can-catch-up-growth-take-us-to-stars.html)
+* [Rawl's original position, potential people, and Pascal's mugging (Carl Shulman, 2012)](https://reflectivedisequilibrium.blogspot.com/2012/07/rawls-original-position-potential.html)
+* [Philosophers vs economists on discounting (Carl Shulman, 2012)](https://reflectivedisequilibrium.blogspot.com/2012/05/philosophers-vs-economists-on.html)
+* [What to Eat During Impact Winter (Carl Shulman, 2012)](https://reflectivedisequilibrium.blogspot.com/2012/05/what-to-eat-during-impact-winter.html)
+* [Most Prisoner's Dilemmas are Stag Hunts; Most Stag Hunts are Schelling Problems (Abram Demski, 2020)](https://www.lesswrong.com/s/yiFxBWDXnLpbWGTkK/p/KkwtLtroaNToWs2H6)
+* [Propagating Facts into Aesthetics (Raemon, 2019)](https://www.lesswrong.com/s/hBFDRZCPLcrRDubgm/p/YN6daWakNnkXEeznB)
+* [Pavlov Generalizes (Abram Demski, 2019)](https://www.lesswrong.com/s/yiFxBWDXnLpbWGTkK/p/XTgkhjNTEi97WHMi6)
+* [Heads I Win, Tails?—Never Heard of Her; Or, Selective Reporting and the Tragedy of the Green Rationalists (Zack\_M\_Davis, 2019)](https://www.lesswrong.com/posts/DoPo4PDjgSySquHX8)
+* [Karate Kid and Realistic Expectations for Disagreement Resolution (Raemon, 2019)](https://www.lesswrong.com/s/hBFDRZCPLcrRDubgm/p/W8vSrHAM9qoWdzFoP)
+* [Meta-rules for (narrow) value learning are still unsolved (Eliezer Yudkowsky, 2017)](https://arbital.com/p/meta_unsolved/)
+* [Goodhart's Curse (Eliezer Yudkowsky/Rob Bensinger, 2017)](https://arbital.com/p/goodharts_curse/)
+* [Picture Frames, Window Frames and Frameworks (Raemon, 2019)](https://www.lesswrong.com/s/hBFDRZCPLcrRDubgm/p/bhSjufKtnPRWqW52h)
+* [Classifying games like the Prisoner's Dilemma (philh, 2020)](https://www.lesswrong.com/s/yiFxBWDXnLpbWGTkK/p/KwbJFexa4MEdhJbs4)
+* [Book Summary: Consciousness and the Brain (Kaj Sotala, 2019)](https://www.lesswrong.com/s/ZbmRyDN8TCpBTZSip/p/x4n4jcoDP7xh5LWLq)
+* Vor dem Gesetz (Franz Kafka, 1914)
+* Ein altes Blatt (Franz Kafka, 1919)
+* [The Parable of Predict-O-Matic (Abram Demski, 2019)](https://www.lesswrong.com/s/HeYtBkNbEe7wpjc6X/p/SwcyMEgLyd4C3Dern)
+* [Underestimating complexity of value because goodness feels like a simple property (Eliezer Yudkowsky, 2016)](https://arbital.com/p/underestimate_value_complexity_perceputal_property/)
+* [Risks from Learned Optimization: Conclusion and Related Work (evhub/Chris van Merwijk/vlad\_m/Joar Skalse/Scott Garrabrant, 2019)](https://www.lesswrong.com/s/r9tYkB2a8Fp4DN8yB/p/4XPa3xa44jAWiCkmy)
 * \* Parameterized Algorithms (Marek Cygan/Fedor V. Fomin/Łukasz Kowalik/Daniel Lokshtanov/Dániel Marx/Marcin Pilipczuk/Michał Pilipczuk/Saket Saurabh, 2016)
 * [Deceptive Alignment (evhub/Chris van Merwijk/vlad\_m/Joar Skalse/Scott Garrabrant, 2019)](https://www.lesswrong.com/s/r9tYkB2a8Fp4DN8yB/p/zthDPAjh9w6Ytbeks)
 * [A reversible eraser (Brian Hayes, 2006)](http://bit-player.org/2006/a-reversible-eraser)

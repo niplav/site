@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-04-14, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-05-02, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,8 +11,10 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
-* [John Wick]()
-* [Avengers: Age of Ultron]()
+* [Ice Age](https://www.imdb.com/title/tt0268380/)
+* [Soul](https://www.imdb.com/title/tt2948372/)
+* [John Wick](https://www.imdb.com/title/tt2911666/)
+* [Avengers: Age of Ultron](https://www.imdb.com/title/tt2395427/)
 * [Iron Man 3](https://www.imdb.com/title/tt1300854/)
 * [War of the Worlds](https://www.imdb.com/title/tt0407304/)
 * [The Trial of the Chicago Seven](https://www.imdb.com/title/tt1070874/)
