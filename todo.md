@@ -582,6 +582,7 @@ Texts
 			* Non-addiction
 			* Safety
 			* Ability preservation
+			* Anti-slipperiness
 	* Shipping
 	* The Uyghurs and China
 	* Cryonics in Germany
@@ -612,6 +613,12 @@ Texts
 * Hail Long Content
 	* Most Topics are Too Short for Books
 * There is no Continous Probability Distribution without a Mode
+* Sharing Beliefs vs. Evidence vs. Models vs. Ontologies
+	* With examples:
+		* Beliefs: Very common, but no crisp example?
+		* Evidence: Most of Metaculus comments, most of Wikipedia
+		* Models: Textbooks
+		* Ontologies: Grand philosophy books (e.g. The Sequences, the Tao te Ching, Die Welt als Wille und Vorstellung
 
 ### Reports
 
@@ -622,14 +629,32 @@ Texts
 * Buying Socks of One Kind
 * Tracking A Lot
 * Chatting Up Random People
-	*	Asking the Hamming Question, "What is art?", or simply, "Would you like
-		to hold a conversation?"
+	*	Asking the Hamming Question, "What is art?", "What is
+		justice?", or simply, "Would you like to hold a conversation?"
 * Weekly 1-on-1s
 * Kissing Hands as Greeting/Goodbye
 * Future:
 	* Remembering Names
 	* Fixing My Voice
 	* Experiments with Butt Stuff
+	* Fixing my Posture
+	* 52 Weeks of Meditation Techniques
+		* Concentration of the Breath
+		* Concentration on Sound
+		* Concentration on Heartbeat
+		* Fast Noting
+		* Slow Labelling
+		* Metta
+		* Bodyscanning
+		* Kasina on Candle Flame
+		* Kasina on Colored Disk
+		* Kasina on Water
+		* Zen stuff?
+		* Mantra stuff?
+		* Transcendental meditation stuff?
+		* Chanting?
+		* Visualization?
+		* Yogic stuff? (Mudra)
 
 ### Misc
 
@@ -651,6 +676,7 @@ Texts
 	* Shell Scripting
 * Mistakes
 * Open Questions
+	* Why Not Nano-Apartments?
 * Good Ideas
 	* Some ideas I've read about & found good
 	* Forecasting

@@ -557,3 +557,15 @@
 2021-04-21T21:19:05.000000Z	the average meaning fan vs. the gradients of bliss enjoyer
 2021-04-24T21:05:52.000000Z	the horny that can be bonked is not the eternal horny
 2021-04-24T21:43:11.000000Z	800 mio. years too late
+2021-04-27T13:41:15.000000Z	I can often distinguish sympathetic mockery from sneering mockery, even with relatively litlte context. I wonder why – what am I picking up on? What is the distinct way of making fun of someone you actually like vs. don't like?
+2021-04-28T09:32:50.000000Z	fake space
+2021-04-28T09:33:01.000000Z	fake liminal space
+2021-04-28T11:44:31.000000Z	in meditation, the only standard one _can_ set for ones own performance is ones own.
+2021-04-28T17:34:48.000000Z	ratiome
+2021-04-30T13:55:10.000000Z	every permutation is a bijection, not every bijection is a permutation. this wasn't obvious to me!
+2021-05-01T23:27:49.000000Z	pïti streaming into the sky!
+2021-05-02T00:15:39.000000Z	FreeBSDitties
+2021-05-02T08:32:18.000000Z	major difference between updating on evidence vs. morals: we know that a bayesian is converging (monotonically?) towards truth with each piece of evidence, while with moral progress, it seems likely that we are not bounded in how wrong our updates can be (even if we grant that the arc bends towards justice in the end). we might need to escape moral local maxima. therefore, it seems good to preserve option value.
+2021-05-02T08:37:19.000000Z	discount rates seem to spring mostly from being sure of ones own death. beings without aging would have extremely low discount rates, I think?
+2021-05-02T08:37:42.000000Z	much lower than we'd expect from naively extrapolating just to the increased lifespan.
+2021-05-02T08:40:18.000000Z	“memeticist” as a description of someone who makes memes
