@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2021-04-29, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2021-05-05, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks (broadly defined as "a book with
 exercises"), and create some stuff while reading them (e.g. making
@@ -17,6 +17,15 @@ Administrativa for Textbooks
 For flashcards, if I include the screenshot of an algorithm, the goal
 is not to learn the algorithm by heart in all detail, but have a good
 mental model of how it works.
+
+“Causality”
+-----------
+
+* [Solutions to Exercises](./c_solutions.md)
+* [Flashcards](./flash/causality.apkg)
+	* p. 1-24
+* Read:
+	* p. 1-24
 
 ”Naïve Set Theory”
 ------------------
@@ -57,7 +66,7 @@ mental model of how it works.
 * [Solutions to Exercises](./praml_solutions.md)
 	* 1.5
 	* To do: 1.1-1.4, 1.6-1.41
-* [Flashcards](./flash/pattern_matching_and_machine_learning.apkg)
+* [Flashcards](./flash/pattern_recognition_and_machine_learning.apkg)
 	* p. 1-45
 * Read:
 	* p. 1-45
