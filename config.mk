@@ -14,9 +14,11 @@ HTML=index.html \
 	notes.html \
 	notes_on_ethics.html \
 	notes_on_politics_especially_economics.html \
+	administrativa_for_facts.html \
 	administrativa_for_textbooks.html \
 	aima_solutions.html \
 	apisct_solutions.html \
+	c_solutions.html \
 	nst_solutions.html \
 	pa_solutions.html \
 	praml_solutions.html \
