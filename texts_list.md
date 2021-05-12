@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-05-04, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-05-07, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,33 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Cost of carbon emissions (Paul Christiano, 2012)](https://rationalaltruist.com/2012/11/27/cost-of-carbon-emissions/index.html)
+* [Make more land (jefftk, 2019)](https://www.lesswrong.com/posts/vKErZy7TFhjxtyBuG)
+* [Attainable Utility Theory: Why Things Matter (TurnTrout, 2019)](https://www.lesswrong.com/s/7CdoznhJaLEKHwvJW/p/C74F7QTEAYSTGAytJ)
+* [Hard problem of corrigibility (Eliezer Yudkowsky, 2017)](https://arbital.com/p/hard_corrigibility/)
+* [Humans Who Are Not Concentrating Are Not General Intelligences (sarahconstantin, 2019)](https://www.lesswrong.com/posts/4AHXDwcGab5PhKhHT)
+* [Averting instrumental pressures (Eliezer Yudkowsky, 2016)](https://arbital.com/p/avert_instrumental_pressure/)
+* [Shutdown problem (Eliezer Yudkowsky, 2017)](https://arbital.com/p/shutdown_problem/)
+* [Cognitive steganography (Eliezer Yudkowsky, 2016)](https://arbital.com/p/cognitive_steganography/)
+* [Averting the convergent instrumental strategy of self-improvement (Eliezer Yudkowsky, 2016)](https://arbital.com/p/avert_self_improvement/)
+* [Chris Olah’s views on AGI safety (evhub, 2019)](https://www.lesswrong.com/posts/X2i9dQQK3gETCyqh2)
+* [Deducing Impact (TurnTrout, 2019)](https://www.lesswrong.com/s/7CdoznhJaLEKHwvJW/p/Qs88fvwnjBevMrbkK)
+* [Programmer deception (Alexei Andreev/Eliezer Yudkowsky, 2016)](https://arbital.com/p/programmer_deception/)
+* [Defining Myopia (Abram Demski, 2019)](https://www.lesswrong.com/s/HeYtBkNbEe7wpjc6X/p/qpZTWb2wvgSt5WQ4H)
+* [User maximization (Eliezer Yudkowsky, 2016)](https://arbital.com/p/30b/)
+* [User manipulation (Eliezer Yudkowsky, 2016)](https://arbital.com/p/user_manipulation/)
+* [You can't get the coffee if you're dead (Eliezer Yudkowsky, 2017)](https://arbital.com/p/no_coffee_if_dead/)
+* [Complexity of value (Eliezer Yudkowsky/Alexei Andreev, 2017)](https://arbital.com/p/complexity_of_value/)
+* [Some computations are people (Eliezer Yudkowsky, 2015)](https://arbital.com/p/some_computations_are_people/)
+* [Context disaster (Alexei Andreev/Eliezer Yudkowsky, 2017)](https://arbital.com/p/context_disaster/)
+* \* Causality (Judea Pearl, 2009)
+* Ein Bericht für eine Akademie (Franz Kafka, 1917)
+* Ein Traum (Franz Kafka, 1919)
+* Ein Brudermord (Franz Kafka, 1919)
+* Elf Söhne (Franz Kafka, 1919)
+* Die Sorge des Hausvaters (Franz Kafka, 1919)
+* [* Belief revision (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Belief_revision)
+* Eine kaiserliche Botschaft (Franz Kafka, 1919)
 * Das nächste Dorf (Franz Kafka, 1919)
 * Ein Besuch im Bergwerk (Franz Kafka, 1919)
 * Schakale und Araber (Franz Kafka, 1917)

@@ -569,3 +569,9 @@
 2021-05-02T08:37:19.000000Z	discount rates seem to spring mostly from being sure of ones own death. beings without aging would have extremely low discount rates, I think?
 2021-05-02T08:37:42.000000Z	much lower than we'd expect from naively extrapolating just to the increased lifespan.
 2021-05-02T08:40:18.000000Z	“memeticist” as a description of someone who makes memes
+2021-05-07T12:53:35.000000Z	Surely people have thought about this, but is it _so_ useful to include proofs in textbooks?
+2021-05-07T13:30:21.000000Z	what is a good prior over sentences in propositional logic?
+2021-05-07T13:42:16.000000Z	probably similar to solomonoff, just in the number of variables, and without the computability aspect (since we know that prop-formulas can be evaluated in exponential time)
+2021-05-11T14:43:49.000000Z	caviarance
+2021-05-12T17:46:23.000000Z	@frogorbits.com "@niplav Speaking of ontologies, you’ve heard of <https://www.liberaugmen.com/>, right?" -> Yes, I've seen Pressman shill it, but I haven't looked at it too closely. I have the intuition that it won't tell me _that_ much new stuff, but that's just an impression
+2021-05-12T17:47:32.000000Z	@frogorbits.com Would you recommend it?

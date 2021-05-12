@@ -55,10 +55,10 @@ mental model of how it works.
 		* To do: 1.4-1.6, 1.8
 * [Flashcards](./flash/a_primer_in_social_choice_theory.apkg)
 	* p. 1-40
-	* p. 52-53
+	* p. 52-58
 * Read:
 	* p. 1-40
-	* p. 52-53
+	* p. 52-58
 
 “Pattern Recognition and Machine Learning”
 ------------------------------------------
@@ -67,9 +67,9 @@ mental model of how it works.
 	* 1.5
 	* To do: 1.1-1.4, 1.6-1.41
 * [Flashcards](./flash/pattern_recognition_and_machine_learning.apkg)
-	* p. 1-45
+	* p. 1-55
 * Read:
-	* p. 1-45
+	* p. 1-55
 
 “Parameterized Algorithms”
 --------------------------
