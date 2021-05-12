@@ -160,6 +160,16 @@ Texts
 	* In short: trying to think better/act better can expected to yield monotonically increasing results with effort put in
 	* Result: Utilitarianism works by its own standards, rationalism works by its own standards
 * The Overlap Argument for Learning Latin does not Hold
+* Wither Humanity?
+	* Would a bigger humanity be a good idea?
+	* Against:
+		* Coordination
+		* Resources
+		* Safety from Malthusian Trap
+	* For:
+		* Growth
+			* Specialization
+		* Aggregative Arguments
 
 ### Analyses
 
