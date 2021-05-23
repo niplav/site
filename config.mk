@@ -14,6 +14,7 @@ HTML=index.html \
 	notes.html \
 	notes_on_ethics.html \
 	notes_on_politics_especially_economics.html \
+	notes_on_predictions.html \
 	administrativa_for_facts.html \
 	administrativa_for_textbooks.html \
 	aima_solutions.html \

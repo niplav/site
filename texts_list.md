@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-05-22, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-05-23, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,13 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Bayesian Evolving-to-Extinction (Abram Demski, 2020)](https://www.lesswrong.com/s/HeYtBkNbEe7wpjc6X/p/u9Azdu6Z7zFAhd4rK)
+* [Logic of Belief Revision (Sven Ove Hansson, 2017)](https://plato.stanford.edu/entries/logic-belief-revision/)
+* Ein Hungerkünstler (Franz Kafka, 1922)
+* [Distances between cognitive domains (Eliezer Yudkowsky, 2017)](https://arbital.com/p/domain_distance/)
+* [The strategy-stealing assumption (Paul Christiano, 2019)](https://www.lesswrong.com/posts/nRAMpjnb6Z4Qv3imF)
+* [Missing the weird alternative (Eliezer Yudkowsky, 2016)](https://arbital.com/p/missing_weird/)
+* [Integrity and accountability are core parts of rationality (habryka, 2019)](https://www.lesswrong.com/posts/xhE4TriBSPywGuhqi)
 * [Minimal effects hypothesis (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Minimal_effects_hypothesis)
 * [Privileged group (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Privileged_group)
 * [Understanding “Deep Double Descent” (evhub, 2019)](https://www.lesswrong.com/posts/FRv7ryoqtvSuqBxuT)
