@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-05-02, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-05-19, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,6 +11,10 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [The Avengers](https://www.imdb.com/title/tt0848228/)
+* [Ice Age: The Meltdown](https://www.imdb.com/title/tt0438097/)
+* [Avengers: Endgame](https://www.imdb.com/title/tt4154796/)
+* [Avengers: Infinity War](https://www.imdb.com/title/tt4154756/)
 * [Ice Age](https://www.imdb.com/title/tt0268380/)
 * [Soul](https://www.imdb.com/title/tt2948372/)
 * [John Wick](https://www.imdb.com/title/tt2911666/)

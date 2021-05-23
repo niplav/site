@@ -1258,3 +1258,5 @@ apartments are still larger than 10 m²).
 The group of people who would rent those nano-apartments would naturally
 be young singles who want to save money and live urban, perhaps that
 group is just too small/already served with university dorms?
+
+<!--TODO: add LW discussion thread on this-->

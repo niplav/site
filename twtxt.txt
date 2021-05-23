@@ -575,3 +575,12 @@
 2021-05-11T14:43:49.000000Z	caviarance
 2021-05-12T17:46:23.000000Z	@frogorbits.com "@niplav Speaking of ontologies, you’ve heard of <https://www.liberaugmen.com/>, right?" -> Yes, I've seen Pressman shill it, but I haven't looked at it too closely. I have the intuition that it won't tell me _that_ much new stuff, but that's just an impression
 2021-05-12T17:47:32.000000Z	@frogorbits.com Would you recommend it?
+2021-05-13T20:13:36.000000Z	status-acquisition more anti-inductive than money-acquistition?
+2021-05-16T21:29:56.000000Z	I think I understand 5-10 now. It basically says “Let's say I jumped out of the airplane. I would only do that if I had a parachute. So, any version of me that jumps out of the airplane has a parachute. Therefore, if I jump out of the airplane, I'll have a parachute. Let's jump out of the airplane!”
+2021-05-17T13:19:53.000000Z	chopping wood and carrying water: an endocrinological approach
+2021-05-17T13:34:37.000000Z	consequentialist buddhism
+2021-05-20T19:10:01.000000Z	@<movq https://www.uninformativ.de/twtxt.txt> "Laphroaig. 🥃 🥴" <3
+2021-05-21T21:26:37.000000Z	Was den großen Ring bewohnet / huldige der Sympathie / zu den Sternen leitet sie / wo der Unbekannte thronet
+2021-05-21T21:28:00.000000Z	This is obviously about O'Neill cylinders, empathetic pearcean valence, and the supercooperation cluster
+2021-05-21T21:28:55.000000Z	Yes, I can shoehorn interpreting extropianism into every poem by Schiller. This is going to be a regular thing.
+2021-05-22T21:16:08.000000Z	Let A be the set of AI alignment complete problems. What is the problem a /∈ A so that solving a maximally delays the development of AGI? What is a, weighted by how hard/desirable it is?
