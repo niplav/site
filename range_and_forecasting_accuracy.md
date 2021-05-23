@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2021-04-03, language: english, status: finished, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2021-05-22, language: english, status: finished, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 to the time between forecast and resolution, and asks three
@@ -1099,6 +1099,8 @@ Limitations
 Oh boy.
 TODO:
 Two different kinds of datasets
+
+### PredictionBook Forecasts can be Resolved by Anyone
 -->
 
 Conclusion

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-03-02, modified: 2021-03-18, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2021-03-02, modified: 2021-05-22, language: english, status: notes, importance: 6, confidence: possible*
 
 > __.__
 
@@ -79,11 +79,9 @@ As an example, here's the things I have downloaded for offline reading:
 * Websites:
 	* Rationality
 		* [Everything Studies](https://everythingstudies.com/)
-		* [Less Wrong](https://lesswrong.com/allposts)
 		* [Overcoming Bias](http://www.overcomingbias.com/)
 		* [Paul Graham Essays](http://paulgraham.com/articles.html)
 		* [Slate Star Codex](http://slatestarcodex.com/)
-		* [Astral Codex Ten](https://astralcodex.net)
 	* Programming
 		* [Coding Horror](https://blog.codinghorror.com/)
 		* [Drew DeVault's Blog](https://drewdevault.com/)
@@ -126,6 +124,11 @@ amenable to being downloaded this way, and I will have to experiment
 with other approaches.
 
 ### Have a Designated “Internet Location” Which is Not At Home
+
+Retrospective
+--------------
+
+Started 2021-05-21.
 
 Possible Counterarguments
 --------------------------

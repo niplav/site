@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-05-07, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-05-22, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,23 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Minimal effects hypothesis (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Minimal_effects_hypothesis)
+* [Privileged group (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Privileged_group)
+* [Understanding “Deep Double Descent” (evhub, 2019)](https://www.lesswrong.com/posts/FRv7ryoqtvSuqBxuT)
+* [The Gears of Impact (TurnTrout, 2019)](https://www.lesswrong.com/s/7CdoznhJaLEKHwvJW/p/coQCEe962sjbcCqB9)
+* Eine kleine Frau (Franz Kafka, 1924)
+* Erstes Leid (Franz Kafka, 1922)
+* [The Credit Assignment Problem (abramdemski, 2019)](https://www.lesswrong.com/s/HeYtBkNbEe7wpjc6X/p/Ajcq9xWi2fmgn8RBJ)
+* [Corrigibility (Eliezer Yudkowsky/Nate Soares/Alexei Andreev/Tsvi BT/Matthew Graves, 2017)](https://arbital.com/p/corrigibility/)
+* [Gears-Level Models are Capital Investments (johnswentworth, 2019)](https://www.lesswrong.com/posts/nEBbw2Bc2CnN2RMxy)
+* [Glossary (Value Alignment Theory) (Alexei Andreev/Eliezer Yudkowsky, 2017)](https://arbital.com/p/value_alignment_glossary/)
+* [Cognitive domain (Eliezer Yudkowsky, 2017)](https://arbital.com/p/cognitive_domain/)
+* [Friendly AI (Eliezer Yudkowsky, 2015)](https://arbital.com/p/FAI/)
+* ['Concept' (Eliezer Yudkowsky, 2017)](https://arbital.com/p/ai_concept/)
+* [World State is the Wrong Abstraction for Impact (TurnTrout, 2019)](https://www.lesswrong.com/s/7CdoznhJaLEKHwvJW/p/pr3bLc2LtjARfK7nx)
+* [Reframing Superintelligence: Comprehensive AI Services as General Intelligence (rohinmshah, 2019)](https://www.lesswrong.com/posts/x3fNwSe5aWZb5yXEG)
+* [Development phase unpredictable (Alexei Andreev/Eliezer Yudkowsky, 2015)](https://arbital.com/p/development_phase_unpredictable/)
+* [Interruptibility (Eliezer Yudkowsky, 2017)](https://arbital.com/p/interruptibility/)
 * [Cost of carbon emissions (Paul Christiano, 2012)](https://rationalaltruist.com/2012/11/27/cost-of-carbon-emissions/index.html)
 * [Make more land (jefftk, 2019)](https://www.lesswrong.com/posts/vKErZy7TFhjxtyBuG)
 * [Attainable Utility Theory: Why Things Matter (TurnTrout, 2019)](https://www.lesswrong.com/s/7CdoznhJaLEKHwvJW/p/C74F7QTEAYSTGAytJ)
@@ -42,7 +59,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * Ein Brudermord (Franz Kafka, 1919)
 * Elf Söhne (Franz Kafka, 1919)
 * Die Sorge des Hausvaters (Franz Kafka, 1919)
-* [* Belief revision (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Belief_revision)
+* [Belief revision (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Belief_revision)
 * Eine kaiserliche Botschaft (Franz Kafka, 1919)
 * Das nächste Dorf (Franz Kafka, 1919)
 * Ein Besuch im Bergwerk (Franz Kafka, 1919)

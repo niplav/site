@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019t09-09, modified: 2021-04-10, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-05-22, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -37,10 +37,10 @@ Site
 		* Expand the section on the Guesstimate model
 		* Incorporate new Alcor membership costs
 * AIMA flashcards:
-	* Add tags for chapters
+	* Add tags for chapters/sort by chapters
 	* Prune flagged cards?
 * Administrativa for Textbooks:
-	* Add Programming in Lua Stuff
+	* Add Programming in Lua stuff
 
 Texts
 -----
@@ -598,6 +598,9 @@ Texts
 	* Cryonics in Germany
 	* Cryonics in Europe
 	* Extremely Long-Lived Institutions
+* Elon Musk Forecast Correction Function
+	* Code: `1.8239233 * (forecasted-forecast_made) + 48.0502205` (days)
+	* [Original](https://web.archive.org/web/20210302224031/https://anthony.boyles.cc/Essays/portfolio/ElonMuskForecastCorrectionFunction.html)
 
 ### Notes
 
@@ -1168,6 +1171,8 @@ Programming
 
 * A question that tries to gauge how much Metaculus forecasters are incentivized by points vs. simply accuracy
 * A question about the discovery of a [perfect cuboid](https://en.wikipedia.org/wiki/Euler_brick#Perfect_cuboid)
+* A question about the average temperature in 2050 in central Europe (Gulf Stream reversal)
+* A question about SGSS (?) data for virginity/no sex in last year for 2025-2030
 
 Structure
 ---------
