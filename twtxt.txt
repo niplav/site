@@ -584,3 +584,7 @@
 2021-05-21T21:28:00.000000Z	This is obviously about O'Neill cylinders, empathetic pearcean valence, and the supercooperation cluster
 2021-05-21T21:28:55.000000Z	Yes, I can shoehorn interpreting extropianism into every poem by Schiller. This is going to be a regular thing.
 2021-05-22T21:16:08.000000Z	Let A be the set of AI alignment complete problems. What is the problem a /∈ A so that solving a maximally delays the development of AGI? What is a, weighted by how hard/desirable it is?
+2021-05-24T11:53:19.000000Z	Venn diagrams work better on hyperbolic surfaces?
+2021-05-24T20:05:55.000000Z	FreeBSDick
+2021-05-24T20:07:49.000000Z	someone (not me) should try to learn the 1k most common words in as many languages as possible
+2021-05-24T21:04:28.000000Z	marvel and be wary

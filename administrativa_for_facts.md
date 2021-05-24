@@ -16,5 +16,8 @@ The Pile of Facts flashcards can be found [here](./flash/pof.apkg).
 			Model-based revision and update, Iterated
 			revision, Merging, Social choice theory,
 			Complexity, Relevance, Implementations
+		*	Contraction has been written with `$÷$`, not
+			`$-$`, since it is the inverse operation of
+			revision, which is written as `$*$`
 	* [Privileged Group](https://en.wikipedia.org/wiki/Privileged_group) (2021-05-22)
 	* [Minimal effects hypothesis](https://en.wikipedia.org/wiki/Minimal_effects_hypothesis) (2021-05-22)

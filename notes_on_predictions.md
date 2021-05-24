@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-05-23, modified: 2021-05-23, language: english, status: notes, importance: 3, confidence: highly unlikely*
+*author: niplav, created: 2021-05-23, modified: 2021-05-24, language: english, status: notes, importance: 3, confidence: highly unlikely*
 
 > __.__
 
@@ -79,3 +79,64 @@ between 2000 and 2015. […] five changes of Prime Ministers between
 Specifically, leadership spills occurred in 2010, 2012, twice in 2013,
 twice in 2015, twice in 2018, and once in 2020. That gives 9 leadership
 spills in 120 months (~7.5% chance of a spill per month).
+
+Initial Jobless Claims in May 2021
+-----------------------------------
+
+[Link](https://www.metaculus.com/questions/7212/initial-jobless-claims-in-may-2021/).
+
+Current average
+([source](https://www.investing.com/economic-calendar/initial-jobless-claims-294)):
+`(444+473+498)%3=471.666666666666667`. Probably less, because US mostly
+vaccinated. Trend decreasing as well.
+
+Date administered doses/capita >0.5 in NL
+------------------------------------------
+
+[Link](https://www.metaculus.com/questions/6779/date-administered-dosescapita-05-in-nl/).
+
+Data in Klong array (I should learn R) ([source](https://ourworldindata.org/covid-vaccinations)):
+
+		nlvaccperc::[[15 0.2][17 0.45][24 0.97][31 2.04][38 3.20][45 4.06][59 6.5][66 7.73][73 8.9][80 9.41][87 10.59][94 12.59][101 15.6][108 19.71][115 22.74][122 26.04][129 29.21][136 33.05][142 33.5]]
+
+Linear regression:
+
+		lr(221;lreg(nlvaccperc))
+	50.0988848758083841
+
+Calculating back (by hand, `date` couldn't do what I wanted it to),
+this gives 2021-07-09 as the date for >50% vaccinations. I'm not sure
+whether to be more pessimistic or optimistic, while there hasn't been
+any growth in the last week, the overall trend looks kind of superlinear
+(maybe because of systems for vaccine distribution being put in place &
+optimized over time).
+
+How many NASA "space launch system" (SLS) launches before 2030?
+----------------------------------------------------------------
+
+[Link](https://www.metaculus.com/questions/1503/how-many-nasa-space-launch-system-sls-launches-before-2030/).
+
+Feels like a "too big to fail halfway through" situation. Either they
+scrap it before anything launches, or they carry out at least one mission
+with it before stopping the program.
+
+I want to look up how often (& how early) NASA cancels projects like
+these.  Being a big organisation, I expect them to fall prey to sunk-cost
+thinking, but on the other hand, it's still a bunch of engineers.
+
+When will India send their first own astronauts to space?
+---------------------------------------------------------
+
+[Link](https://www.metaculus.com/questions/1434/when-will-india-send-their-first-own-astronauts-to-space/).
+
+COVID-19 hitting India hard reduces GDP growth (though there is a
+question of how long-term this reduction is), and also slows down highly
+collaborative projects (such as sending people to space).
+
+We probably can't expect widespread vaccinations for a while
+(at the time of writing, [India has a vaccination rate of
+10.81%](https://ourworldindata.org/covid-vaccinations)).
+
+I wish I had an equivalent of the [Musk forecast correction
+function](https://web.archive.org/web/20210302224031/https://anthony.boyles.cc/Essays/portfolio/ElonMuskFor
+ecastCorrectionFunction.html) for announcements by the average politician.
