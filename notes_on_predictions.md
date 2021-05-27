@@ -140,3 +140,15 @@ We probably can't expect widespread vaccinations for a while
 I wish I had an equivalent of the [Musk forecast correction
 function](https://web.archive.org/web/20210302224031/https://anthony.boyles.cc/Essays/portfolio/ElonMuskFor
 ecastCorrectionFunction.html) for announcements by the average politician.
+
+Elon Musk's Net Worth at the End of 2021
+-----------------------------------------
+
+[Link](https://www.metaculus.com/questions/4790/elon-musks-net-worth-at-the-end-of-2021/).
+
+According to the [Bloomberg
+index](https://www.bloomberg.com/billionaires/), Musk's networth currently
+is $167b.
+
+If we predict 2.5% more economic growth this year, and Musk's networth
+tracks with that, we can expect his networth to be ~$171b.

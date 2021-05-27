@@ -1,12 +1,26 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-04-26, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-04-27, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
+
+May 2021
+---------
+
+* [Administrativa for Facts](./administrativa_for_facts.html)
+* Started [Notes on Predictions](./notes_on_predictions.html), though these are probably not very interesting for other people to read
+* [Notes](./notes.html)
+	* [Why Not Nano-Apartments?](./notes.html#Why-Not-NanoApartments)
+
+### Other
+
+Updated the [Texts List](./texts_list.html) with a large number of
+texts. I read a bunch this month.
+
 
 April 2021
 ----------
