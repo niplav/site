@@ -23,9 +23,9 @@ mental model of how it works.
 
 * [Solutions to Exercises](./c_solutions.md)
 * [Flashcards](./flash/causality.apkg)
-	* p. 1-36
+	* p. 1-40
 * Read:
-	* p. 1-36
+	* p. 1-40
 
 ”Naïve Set Theory”
 ------------------

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-05-23, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-05-27, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,24 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Gespräch mit dem Beter (Franz Kafka, 1909)
+* [Open borders in (at least) one (developed) country (Carl Shulman, 2013)](https://reflectivedisequilibrium.blogspot.com/2013/07/open-borders-in-at-least-one-developed.html)
+* [How immigration could make AMF more cost-effective (Carl Shulman, 2013)](https://reflectivedisequilibrium.blogspot.com/2013/07/how-immigration-could-make-amf-more.html)
+* [The Tale of Alice Almost: Strategies for Dealing With Pretty Good People (sarahconstantin, 2019)](https://www.lesswrong.com/posts/QLmSFeFexgTLsNeeA)
+* [Distant superintelligences can coerce the most probable environment of your AI (Eliezer Yudkowsky/Alexei Andreev, 2016)](https://arbital.com/p/probable_environment_hacking/)
+* [Mindcrime: Introduction (Eliezer Yudkowsky/Alexei Andreev/Eric Rogstad/Alex Pear, 2016)](https://arbital.com/p/mindcrime/?l=18h)
+* [Forum participation as a research strategy (Wei Dai, 2019)](https://www.lesswrong.com/posts/rBkZvbGDQZhEymReM)
+* [Nonperson predicate (Eliezer Yudkowsky, 2015)](https://arbital.com/p/nonperson_predicate/)
+* [Utility (Eliezer Yudkowsky/Alexei Andreev, 2015)](https://arbital.com/p/value_alignment_utility/)
+* [Modeling distant superintelligences (Eliezer Yudkowsky, 2015)](https://arbital.com/p/distant_SIs/)
+* [There are no natural resources (Jason Crawford, 2017)](https://rootsofprogress.org/there-are-no-natural-resources.html)
+* [Moral Mazes and Short Termism (Zvi, 2019)](https://www.lesswrong.com/s/kNANcHLNtJt5qeuSS/p/2Zsuv5uPFPNTACwzg)
+* [Linguistic conventions in value alignment (Eliezer Yudkowsky/Alexei Andreev, 2017)](https://arbital.com/p/5b/)
+* Belief Revision: an introduction (Peter Gärdenfors, 1992)
+* Josefine, die Sängerin oder Das Volk der Mäuse (Franz Kafka, 1924)
+* [Quotes from Moral Mazes (Zvi, 2019)](https://www.lesswrong.com/s/kNANcHLNtJt5qeuSS/p/45mNHCMaZgsvfDXbw)
+* [Building up to an Internal Family Systems model (Kaj Sotala, 2019)](https://www.lesswrong.com/s/ZbmRyDN8TCpBTZSip/p/5gfqG3Xcopscta3st)
+* [Unforeseen maximum (Eliezer Yudkowsky/Alexei Andreev/Eric Rogstad, 2016)](https://arbital.com/p/unforeseen_maximum/)
 * [Bayesian Evolving-to-Extinction (Abram Demski, 2020)](https://www.lesswrong.com/s/HeYtBkNbEe7wpjc6X/p/u9Azdu6Z7zFAhd4rK)
 * [Logic of Belief Revision (Sven Ove Hansson, 2017)](https://plato.stanford.edu/entries/logic-belief-revision/)
 * Ein Hungerkünstler (Franz Kafka, 1922)
