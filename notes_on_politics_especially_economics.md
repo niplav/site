@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-13, modified: 2021-01-29, language: english, status: in progress, importance: 2, confidence: remote*
+*author: niplav, created: 2021-01-13, modified: 2021-05-28, language: english, status: in progress, importance: 2, confidence: remote*
 
 > __After a discussion with a friend of mine, I thought it would be
 useful to structure my current thoughts about politics and economics
@@ -82,6 +82,15 @@ Has been so far.
 Although caveats with regulation/taxation/x-risk
 
 Having no growth kicks people back into zero-sum dynamics
+
+Disaster-preparedness is easier & better (humans are risk-averse)
+
+Though there's the effect of making disasters more costly [Shulman
+2012](https://reflectivedisequilibrium.blogspot.com/2012/05/economic-growth-more-costly-disasters.html),
+and civilization more complex & therefore fragile?
+
+Not valuable hedonically (Easterlin paradox)
+But makes paradise engineering more likely & easier
 
 ### Markets are (at least at the Moment) Mostly Aligned
 

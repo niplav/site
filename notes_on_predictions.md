@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-05-23, modified: 2021-05-24, language: english, status: notes, importance: 3, confidence: highly unlikely*
+*author: niplav, created: 2021-05-23, modified: 2021-05-28, language: english, status: notes, importance: 3, confidence: highly unlikely*
 
 > __.__
 
@@ -152,3 +152,47 @@ is $167b.
 
 If we predict 2.5% more economic growth this year, and Musk's networth
 tracks with that, we can expect his networth to be ~$171b.
+
+Date COVID-19 epidemic subsides in Russia.
+------------------------------------------
+
+[Link](https://www.metaculus.com/questions/4737/when-will-the-covid-19-epidemic-subside-in-russia/).
+
+[WHO](https://covid19.who.int/region/euro/country/ru) says that the last
+week with <1000 cases of COVID-19 was March 30 2020.
+
+Extremely naively starting with the [Lindy
+effect](https://en.wikipedia.org/wiki/Lindy_effect), we assume it's going
+to take as long to subside as it took to get to this point, we calculate:
+
+		$ date -d '2020-03-30' '+%s'
+	1585519200
+		$ date '+%s'
+	1622222618
+		$ bc
+	1622222618+(1622222618-1585519200)
+	1658926036
+		$ date -d '@1658926036' --iso-8601
+	2022-07-27
+
+WHO also states that ~26.5m vaccine doses have been administered.
+Russia has a population of ~150m people, so that would be at ~15%
+vaccination rate.
+
+They probably started vaccinating beginning of March (+15% vaccination
+rate in 3 months), so to reach ~75% vaccination rate (gut-estimate for
+what vaccination rate is necessary for <1k cases per week, probably
+more). Assuming they vaccinate at similar rate as previously, this gives
+`((75-15)/15)*3=12` more months.
+
+This is too pessimistic: vaccine dose prices will fall when richer
+countries have more vaccinations, & also over time with economies of
+scale and other optimizations. Infection rates will shrink as there's
+less cross-infection from other countries with better vaccination rates,
+the russian government will figure out how to distribute vaccines faster
+and to more people.
+
+Still, I think Russia will need at median 9 more months before they
+reach this level of immunity (and after that a relatively long tail,
+because 1k cases per week is actually really fricking low, and there's
+still the scenario of COVID-19 becoming endemic).
