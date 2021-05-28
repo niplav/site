@@ -592,3 +592,6 @@
 2021-05-25T13:53:01.000000Z	guy who has had unkind thoughts about Eliezer Yudkowsky
 2021-05-26T09:52:53.000000Z	deontology more embedded than consequentialism?
 2021-05-26T21:37:23.000000Z	the success of discord and its consequences have been a disaster for online information flow
+2021-05-28T20:33:47.000000Z	tonalli gf, teyolía bf
+2021-05-28T20:34:02.000000Z	alignment posting gf, capabilities posting gf
+2021-05-28T20:34:35.000000Z	it's important to remember: people rarely fundamentally change

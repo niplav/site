@@ -72,72 +72,8 @@ approaching women, though the gap is shrinking with exposure.
 Converging Preference Utilitarianism
 ------------------------------------
 
-One problem with [preference
-utilitarianism](https://en.wikipedia.org/wiki/Preference_utilitarianism)
-is the difficulty of aggregating and comparing preferences
-interpersonally, as well as a critique that some persons have very
-altruistic and others very egoistic preferences.
-
-### Method
-
-A possible method of trying to resolve this is to try to hypothetically
-calculate the aggregate preferences of all persons in the following
-way: For every existing person pₐ, this person learns about the
-preferences of all other persons pₙ. For each pₙ, pₐ learns about
-their preferences and experiences pₙ's past sensory inputs. pₐ then
-updates their preferences according to this information. This process
-is repeated until the maximal difference between preferences has shrunk
-to a certain threshold.
-
-### Variations
-
-One possible variation in the procedure is between retaining knowledge
-about the identity of pₐ, the person aggregating the preferences. If
-this were not done, the result would be very akin to the [Harsanyian
-Veil of Ignorance](https://en.wikipedia.org/wiki/Veil_of_ignorance).
-
-Another possible variation could be not attempting to achieve convergence,
-but only simply iterating the method for a finite amount of times. Since
-it's not clear that more iterations would contribute towards further
-convergence, maybe 1 iteration is desirable.
-
-### Problems
-
-This method has a lot of ethical and practical problems.
-
-#### Assumptions
-
-The method assumes a bunch of practical and theoretical premises,
-for example that preferences would necessarily converge upon
-experiencing and knowing other persons qualia and preferences.
-It also assumes that it is in principle possible to make a person
-experience other persons qualia.
-
-#### Sentient Simulations
-
-Since each negative experience would be experienced by every
-person at least one time, and negative experiences could
-considered to have negative value, calculating the converging
-preferences would be unethical in practice (just as [simulating the
-experience](https://foundational-research.org/risks-of-astronomical-future-suffering/#Sentient_simulations)
-over and over).
-
-#### Genuinely Selfish Agents
-
-If an agent is genuinely selfish (has no explicit term for the welfare of
-another agent in its preferences), it might not adjust its own preferences
-upon experiencing other lifes. It might even be able to circumvent the
-veil of ignorance to locate itself.
-
-#### Lacking Brain Power
-
-Some agents might lack the intelligence to process all the information
-other agents perceive. For example, an ant would probably not be able
-to understand the importance humans give to art.
-
-### See Also
-
-* [Yudkowsky 2004](./doc/converging_preference_utilitarianism/coherent_extrapolated_volition_yudkowsky_2004.pdf "Coherent Extrapolated Volition")
+Moved to [Notes on
+Ethics](notes_on_ethics.html#Converging-Preference-Utilitarianism).
 
 Silent & Loud Killers
 ---------------------
@@ -242,6 +178,7 @@ little relation to the collection of people on the internet usually called
 
 <!--TODO: there was a post on LW about this instead being
 "pragmatism". Look that up!-->
+<!--TODO: similar with Metacognitive movement-->
 
 Alternatives:
 

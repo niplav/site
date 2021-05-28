@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-05-27, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-05-28, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,13 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Niceness is the first line of defense (Eliezer Yudkowsky, 2017)](https://arbital.com/p/niceness_defense/)
+* [Generalized principle of cognitive alignment (Eliezer Yudkowsky, 2017)](https://arbital.com/p/cognitive_alignment/)
+* [Principles in AI alignment (Eliezer Yudkowsky, 2017)](https://arbital.com/p/alignment_principle/)
+* [Subagents, introspective awareness, and blending (Kaj Sotala, 2019)](https://www.lesswrong.com/s/ZbmRyDN8TCpBTZSip/p/AhcEaqWYpa2NieNsK)
+* [Seeking Power is Often Robustly Instrumental in MDPs (TurnTrout/elriggs, 2019)](https://www.lesswrong.com/s/7CdoznhJaLEKHwvJW/p/6DuJxY8X45Sco4bS2)
+* [Meditation Retreat: Immoral Mazes Sequence Introduction (Zvi, 2019)](https://www.lesswrong.com/s/kNANcHLNtJt5qeuSS/p/MYXmFLZcsQWA9X2r4)
+* [Unconscious Economics (jacobjacob, 2019)](https://www.lesswrong.com/posts/PrCmeuBPC4XLDQz8C)
 * Gespräch mit dem Beter (Franz Kafka, 1909)
 * [Open borders in (at least) one (developed) country (Carl Shulman, 2013)](https://reflectivedisequilibrium.blogspot.com/2013/07/open-borders-in-at-least-one-developed.html)
 * [How immigration could make AMF more cost-effective (Carl Shulman, 2013)](https://reflectivedisequilibrium.blogspot.com/2013/07/how-immigration-could-make-amf-more.html)
