@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-01-04, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2021-05-30, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -344,11 +344,7 @@ I'm most happy with they/them.
 * [Metaculus](https://www.metaculus.com/accounts/profile/112493/)
 * [Reddit](https://old.reddit.com/u/niplav)
 * [Wikipedia](https://en.wikipedia.org/wiki/User:Niplav)
-* [twtxt](https://niplav.github.io/twtxt.txt)
-
-I used to use [twitter](https://twitter.com/niplavyushtun),
-but I got addicted to it and decided to instead switch to
-[twtxt](https://github.com/buckket/twtxt).
+* [Twitter](https://twitter.com/niplavyushtun)
 
 ### Contact
 

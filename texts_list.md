@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-05-28, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-05-31, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,19 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Großer Lärm (Franz Kafka, 1910)
+* Gespräch mit dem Betrunkenen (Franz Kafka, 1909)
+* [Attainable Utility Landscape: How The World Is Changed (TurnTrout, 2020)](https://www.lesswrong.com/s/7CdoznhJaLEKHwvJW/p/fj8eyc7QzqCaB8Wgm)
+* [Guesswork, feedback, and impact (Paul Christiano, 2012)](https://rationalaltruist.com/2012/12/06/guesswork-feedback-and-impact/index.html)
+* [Moloch Hasn’t Won (Zvi, 2019)](https://www.lesswrong.com/s/kNANcHLNtJt5qeuSS/p/ham9i5wf4JCexXnkN)
+* [Non-adversarial principle (Eliezer Yudkowsky/Eric Rogstad/Ananya Aloke, 2019)](https://arbital.com/p/nonadversarial/)
+* [Mistakes with Conservation of Expected Evidence (Abram Demski, 2019)](https://www.lesswrong.com/posts/zTfSXQracE7TW8x4w)
+* [How are brain mass (and neurons) distributed among humans and the major farmed land animals? (Carl Shulman, 2013)](https://reflectivedisequilibrium.blogspot.com/2013/09/how-is-brain-mass-distributed-among.html)
+* [Vegan advocacy and pessimism about wild animal welfare (Carl Shulman, 2013)](https://reflectivedisequilibrium.blogspot.com/2013/07/vegan-advocacy-and-pessimism-about-wild.html)
+* [Patch resistance (Eliezer Yudkowsky/Alexei Andreev/Eric Rogstad, 2016)](https://arbital.com/p/patch_resistant/)
+* [In My Culture (Duncan A Sabien, 2019)](https://medium.com/@ThingMaker/in-my-culture-29c6464072b2)
+* [Omnipotence test for AI safety (Olivia Schaefer/Alexei Andreev/Eliezer Yudkowsky, 2017)](https://arbital.com/p/omni_test/)
+* [The AI must tolerate your safety measures (Eliezer Yudkowsky, 2017)](https://arbital.com/p/nonadversarial_safety/)
 * [Niceness is the first line of defense (Eliezer Yudkowsky, 2017)](https://arbital.com/p/niceness_defense/)
 * [Generalized principle of cognitive alignment (Eliezer Yudkowsky, 2017)](https://arbital.com/p/cognitive_alignment/)
 * [Principles in AI alignment (Eliezer Yudkowsky, 2017)](https://arbital.com/p/alignment_principle/)

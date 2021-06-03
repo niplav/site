@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-03-31, modified: 2021-05-28, language: english, status: notes, importance: 3, confidence: highly unlikely*
+*author: niplav, created: 2021-03-31, modified: 2021-06-01, language: english, status: notes, importance: 3, confidence: highly unlikely*
 
 > __This page contains my notes on ethics, separated from my regular
 notes to retain some structure to the notes.__
@@ -245,8 +245,8 @@ to kill yourself.
 Monotonic Convergence or Not of Moral Discovery Process
 --------------------------------------------------------
 
-The Repugnant Conclusion Probably Implies Many or Only One Moral Patients
---------------------------------------------------------------------------
+Conditions for Neither Repugnant nor Monstrous Utilitarianism
+--------------------------------------------------------------
 
 Diminishing or increasing returns on investments for well-being
 of a single agent?
