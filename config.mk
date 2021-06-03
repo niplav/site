@@ -19,7 +19,6 @@ HTML=index.html \
 	administrativa_for_textbooks.html \
 	aima_solutions.html \
 	apisct_solutions.html \
-	c_solutions.html \
 	nst_solutions.html \
 	pa_solutions.html \
 	praml_solutions.html \

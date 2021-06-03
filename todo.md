@@ -662,6 +662,8 @@ Texts
 		* Kasina on Candle Flame
 		* Kasina on Colored Disk
 		* Kasina on Water
+		* Open Monitoring
+			* Clear the desk, just watch out for pre-thoughts
 		* Zen stuff?
 		* Mantra stuff?
 		* Transcendental meditation stuff?
@@ -1100,6 +1102,17 @@ Programming
 	* add C-← and C-→ for jumping words in insert mode (equivalent of b and e)
 	* fix syntax highlighting for ocaml with single quotes: 'a takes the whole line
 	* Syntax highlighting of inline code in markdown is annoying (dark blue background!)
+	*	Using '=' for formatting text is not unicode-respecting, formatting
+		"∸∸∸∸∸ ∸∸∸∸ ∸∸∸∸ ∸∸∸∸∸
+		∸∸∸∸∸ However, in a sense, maxichoice
+		contraction functions in general produce contractions"
+
+produces
+
+	∸∸∸∸∸ ∸∸∸∸ ∸∸∸∸ ∸∸∸∸∸
+	∸∸∸∸∸ However, in a sense, maxichoice contraction
+	functions in general produce contractions
+
 * sad
 	* implement features that weren't finished
 	* care for it
@@ -1160,6 +1173,7 @@ Programming
 * Enhanced/Extended Suffix Array
 * Shapley Saddle
 * List of Animals by Number of Eyes
+* Weisfeiler-Lehman algorithm
 
 #### Improve
 
@@ -1173,6 +1187,7 @@ Programming
 * A question about the discovery of a [perfect cuboid](https://en.wikipedia.org/wiki/Euler_brick#Perfect_cuboid)
 * A question about the average temperature in 2050 in central Europe (Gulf Stream reversal)
 * A question about SGSS (?) data for virginity/no sex in last year for 2025-2030
+* A question about antibiotic resistant strains
 
 Structure
 ---------

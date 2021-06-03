@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-05-23, modified: 2021-05-28, language: english, status: notes, importance: 3, confidence: highly unlikely*
+*author: niplav, created: 2021-05-23, modified: 2021-05-30, language: english, status: notes, importance: 3, confidence: unlikely*
 
 > __.__
 
@@ -72,7 +72,7 @@ Will Scott Morrison be Prime Minister of Australia on 1 July 2021?
 
 > There were 72 leadership spills between 1970 and 2015; the phenomenon
 became increasingly more commen in the early 21st century. None occurred
-in the 1960s, 10 in the 1970s, 18 in the 1980s, 130 in the 1990s, and 31
+in the 1960s, 10 in the 1970s, 18 in the 1980s, 13 in the 1990s, and 31
 between 2000 and 2015. […] five changes of Prime Ministers between
 2010 and 2018
 
@@ -196,3 +196,33 @@ Still, I think Russia will need at median 9 more months before they
 reach this level of immunity (and after that a relatively long tail,
 because 1k cases per week is actually really fricking low, and there's
 still the scenario of COVID-19 becoming endemic).
+
+2025 Price of a Crunchwrap Supreme?
+-----------------------------------
+
+[Link](https://www.metaculus.com/questions/6344/2025-price-of-a-crunchwrap-supreme/).
+
+Assuming 2% inflation per year, it comes out at `\$3.89*1.02^3.5=\$4.16`.
+
+Lives saved by #SecondDoseDelay for vaccine
+-------------------------------------------
+
+[Link](https://www.metaculus.com/questions/6000/lives-saved-by-seconddosedelay-for-vaccine/).
+
+Unfortunately, this hinges a lot on how motivated Metaculites are to
+dig up studies & compare the numbers (including all kinds of weird
+selection effects, KBCs and factors of laziness). On the level above,
+there's the usual p<0.05 conservatism of the scientific community to
+"accept a hypothesis", which places a burden on showing that a delay of
+the second dose helps (by implicitely assuming that it probably doesn't).
+(This is not a critique of the resolution criteria, I have *some* idea of
+how hard these kinds of questions are to write, and this one is especially
+finicky.  Compared to what I would have done, it's pretty good).
+
+All these considerations would push my estimate down way further than
+my actual belief that a delay of second vaccine dose would save lives.
+
+I'm conflicted about whether to predict to maximize my points (and take
+the question literally), or to estimate whether delaying a second dose
+**would actually save lives**. I'm interested in how other Metaculites
+interpret this.
