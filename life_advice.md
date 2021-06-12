@@ -1,9 +1,12 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-02-22, modified: 2021-02-26, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2021-02-22, modified: 2021-06-12, language: english, status: in progress, importance: 3, confidence: other*
 
-> __Inspired by others<!--TODO: yashkaf & LW 100 pieces of advice-->,
+> __Inspired by others
+([Falkovich 2019](https://www.lesswrong.com/posts/HJeD6XbMGEfcrx3mD/100-ways-to-live-better "100 Ways To Live Better"),
+[Ideopunk 2020](https://www.lesswrong.com/posts/7hFeMWC6Y5eaSixbD/100-tips-for-a-better-life "100 Tips for a Better Life"),
+[Morse 2021](https://ethanmorse.github.io/knowledge/advice.html "Life Advice"))
 I thought it might be useful to create a grabbag of strategies for
 dealing with being human.__
 
@@ -15,11 +18,14 @@ idealized version follows it nearly completely. I also believe that
 following this advice completely is probably too hard, but following
 it has monotonically increasing gains.
 
-However, as always, the law of equal
-and opposite advice applies, [people are
+However, as always, the [law of equal and opposite
+advice](https://slatestarcodex.com/2014/03/24/should-you-reverse-any-advice-you-hear/)
+applies, [people are
 different](https://everythingstudies.com/2017/04/24/people-are-different/).
 
 And, as always, remember that I'm just a person on the internet.
+
+<!--Separate into value-laden and value-agnostic advice-->
 
 <!--Preparing for civilizational collapse? Which?-->
 
@@ -52,6 +58,7 @@ And, as always, remember that I'm just a person on the internet.
 			*	I think this is a big mistake, being better
 				looking is net positive in nearly all situations
 	* Floss
+	* [Boring Advice Repository](https://www.lesswrong.com/posts/HEn2qiMxk5BggN83J/boring-advice-repository)
 	<!--Look up Obvious Advice on LW?-->
 	<!--Link Interventions for longevity from LW-->
 	<!--Link How To be Happier from LW-->
@@ -59,7 +66,7 @@ And, as always, remember that I'm just a person on the internet.
 	*	Example: On the subreddit
 		[/r/hydrohomies](https://old.reddit.com/r/hydrohomies),
 		people build a strong identity around drinking water. This
-		is probably good!
+		is probably good.
 3. If you are like me, you probably underestimate the value of good gear
 	*	Example: I spent around 200 hours meditating on
 		a folded sheet. Then I got a zafu, which was so much more
@@ -91,7 +98,8 @@ And, as always, remember that I'm just a person on the internet.
 		experiences](https://forum.effectivealtruism.org/posts/gtGe8WkeFvqucYLAF/logarithmic-scales-of-pleasure-and-pain-rating-ranking-and)
 	* Related: [The Copenhagen Interpretation of
 		Ethics](https://blog.jaibot.com/the-copenhagen-interpretation-of-ethics/),
-		[Umeshisms](https://www.scottaaronson.com/blog/?p=40)
+		[Umeshisms](https://www.scottaaronson.com/blog/?p=40),
+		[Asymmetric Justice](https://www.lesswrong.com/posts/YRgMCXMbkKBZgMz4M)
 8. Try to spend less time in front of screens
 	* I know this seems obvious, but it's still just as bad for you
 9. Have a long-term plan to completely or nearly completely phase the internet out of your life
@@ -166,12 +174,12 @@ ks about this-->
 			* Meditation is probably a good example for this
 	*	Creating things probably feels longer than the same
 		time spent consuming things
-	* Doing new activies probably also feels longer than familiar ones
+	* Doing new activies probably also feels longer than familiar ones <!--TODO: theoryengine post-->
 22.	If you want to get into X, the best way of doing so is probably
 	doing a little bit of X for a month, and then one week of X for
 	6 or more hours a day
 	* This probably works better for non-cognitive tasks
-	* If you have the time to spend a week doing X, of course
+	* Unfortunately, you probably won't have the time for spending 6 hours a day on X for a week.
 23.	If there is an item on this list that tells you to stop doing X,
 	but you truly enjoy doing X, then disregard the advice.
 24.	If you're writing a long commment on the internet, you're probably
@@ -199,8 +207,8 @@ ks about this-->
 27. Money is important. Treat is as such.
 	*	I have the impression that many otherwise smart people
 		have ideological hangups about money, seeing it as
-		“unclean” and not worth thinking about. This seems
-		both untrue and harmful–money is extremely useful,
+		immoral and not worth thinking about. This seems
+		both untrue and harmful – money is extremely useful,
 		and having money is pretty important. <!--TODO: LW post about money-->
 	*	Know how much you spend, on what, and what your longterm
 		financial plan is.
@@ -209,3 +217,15 @@ ks about this-->
 	the situation I'm in, and which incentives pushed which people to
 	create/exacerbate those problems?”) can help dissolve negative
 	emotions around the problem.
+	*	Related: Modeling other people as causal systems plays
+		into this very well
+29.	Vitamin C might cause kidney stones to happen more often. [You probably
+	don't want to experience kidney stones](https://forum.effectivealtruism.org/posts/gtGe8WkeFvqucYLAF/logarithmic-scales-of-pleasure-and-pain-rating-ranking-and). <!--TODO: better links for this-->
+30. If you are about to start fighting someone, be aware that this happens. State it out loud: Does this mean we are now fighting? Surprisingly, this can defuse the fight.
+31. If you're already doing something unethical, it's better to be aware of that than to compartmentalize and push it away – for yourself *and* others.
+
+See Also
+---------
+
+* [Boring Advice Repository](https://www.lesswrong.com/posts/HEn2qiMxk5BggN83J/boring-advice-repository)
+* [Solved Problems Repository](https://www.lesswrong.com/posts/iTzvJ7kKK2TYJhYHB/solved-problems-repository)

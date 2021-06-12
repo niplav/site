@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-05-30, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2021-06-10, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -282,10 +282,10 @@ The website is built writing the articles in
 [Markdown](https://en.wikipedia.org/wiki/Markdown)
 and them compiling them to standard HTML using
 [`markdown_py`](https://pypi.org/project/Markdown/). Mathematical formulae
-are typeset using [MathJax](https://en.wikipedia.org/wiki/MathJax). It
+are typeset using [MathJax 2](https://en.wikipedia.org/wiki/MathJax). It
 only uses only minimal CSS (highlighting code and quotes, centering the
-text and limiting line length) and very litte JavaScript. The Javascript
-is used for MathJax and converting headers to anchor links.
+text and limiting line length) and very litte JavaScript, mainly for
+MathJax and converting headers to anchor links.
 
 ### Influences
 
@@ -309,7 +309,7 @@ epistemology](https://plato.stanford.edu/entries/epistemology-bayesian/),
 nominalism](https://plato.stanford.edu/entries/nominalism-metaphysics/),
 [reductionism](https://en.wikipedia.org/wiki/Reductionism) and [scientific
 naturalism](https://plato.stanford.edu/entries/naturalism/#MetNat)
-(but not
+(but likely not
 illusionism/[eliminativism](https://longtermrisk.org/the-eliminativist-approach-to-consciousness/)
 about consciousness).
 
@@ -344,7 +344,11 @@ I'm most happy with they/them.
 * [Metaculus](https://www.metaculus.com/accounts/profile/112493/)
 * [Reddit](https://old.reddit.com/u/niplav)
 * [Wikipedia](https://en.wikipedia.org/wiki/User:Niplav)
-* [Twitter](https://twitter.com/niplavyushtun)
+* [twtxt](https://niplav.github.io/twtxt.txt)
+
+I used to use [twitter](https://twitter.com/niplavyushtun), but
+I got addicted to it (thrice) and decided to instead switch to
+[twtxt](https://github.com/buckket/twtxt).
 
 ### Contact
 
