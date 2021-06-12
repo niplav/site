@@ -55,7 +55,6 @@ Reading
 
 Currently, I am actively reading the following books:
 
-* Governing the Commons (Elinor Ostrom, 1990)
 * Naïve Set Theory (Paul R. Halmos, 1960)
 * Artificial Intelligence: A Modern Approach (Stuart Russell/Peter Norvig, 2010)
 * The Jazz Piano Book (Mark Levine, 1998)

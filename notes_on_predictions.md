@@ -226,3 +226,16 @@ I'm conflicted about whether to predict to maximize my points (and take
 the question literally), or to estimate whether delaying a second dose
 **would actually save lives**. I'm interested in how other Metaculites
 interpret this.
+
+Tenth Sabaton Album
+--------------------
+
+[Link](https://www.metaculus.com/questions/7204/tenth-sabaton-album/).
+
+The timespan between new albums being released seems to be increasing:
+
+		yrs::[2005 2006 2007 2008 2010 2012 2014 2016 2019]
+		#'-:'yrs
+	[1 1 1 2 2 2 2 3]
+
+This indicates that the album will come out in 2022 rather than 2021.
