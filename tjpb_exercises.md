@@ -54,7 +54,8 @@ memorized. *Always practice everything in every key*.
 
 ### Chapter 3
 
-Not an explicitely given practice instruction, but nonetheless probably
-useful:
+> Practice playing the II-V-I in both positions through all twelve keys,
+around the cycle of fifths. Analyze tunes by chord type – is each
+chord a II, V, or I chord?
 
-Play the II-V-I progression in every key, in three-note voicings.
+*– p. 19*
