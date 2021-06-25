@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2021-04-11, language: english, status: finished, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2021-06-25, language: english, status: finished, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -319,12 +319,21 @@ justify not signing up for cryonics because they expect that LEV will
 arrive during their lifetime, and see no reason to sign up for a cryonics
 membership they are probably not going to need anyway. In this text,
 I will consider LEV by assuming there will be a certain year after which
-the probability of death from natural causes is practically zero.
+the probability of death from aging is practically zero.
 
 I somewhat arbitrarily set this year to 2080<!--TODO: find some estimates
 of LEV-->, though many futurists seem more optimistic<!--TODO source-->:
 
 	levyear=2080
+
+However, there are some reasons why one might want to stay signed up
+to cryonics even after LEV – there might be types of accidents where
+large parts of the body are destroyed in ways that both lead to death
+and that regenerative medicine at the time can't handle, and so one will
+want to be preserved until the missing bodyparts can be re-created and
+reuscitation is possible. Another risk to life even after LEV is new
+and for some time deadly diseases. This analysis does not include such
+considerations (yet).
 
 <!--
 TODO: make probability of extinction explicit, not just implicit in

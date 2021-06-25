@@ -1059,6 +1059,11 @@ Programming
 * choiceworth
 	* A small program implementing the method by MacAskill, Ord & Bykvist 2020 in “Moral Uncertainty”
 	* Using MEC, variance voting, and the Borda rule
+* socialchoice: Library implementing most of the concepts from social choice theory, e.g. (not inclusive):
+	* Tournament graphs
+	* Top cycle, Banks set, Uncovered set
+	* Majority voting, plurality, Borda score, Kemeny rule
+	* Methods for checking manipulability, single-peakedness
 
 ### Klong Libraries
 
