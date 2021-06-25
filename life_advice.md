@@ -120,8 +120,7 @@ And, as always, remember that I'm just a person on the internet.
 topping-to-Bite-My-Nails), which also pretty much solved my problem
 	* Example: I used to have a problem with getting distracted by the internet during hours when I wanted to be working. I went to a place without internet, which made working easier.
 12. The benefits of small amounts of meditation are probably overstated, while the benefits of large amounts of
-editation (north of 1 hour a day) are probably heavily underestimated. I have had [very good experiences with it](./r
-ports.html#300-Hours-of-Meditation).
+editation (north of 1 hour a day) are probably heavily underestimated. I have had [very good experiences with it](./rports.html#300-Hours-of-Meditation).
 	*	The basic foundational activity before meditation is just
 		doing nothing. It shouldn't be very hard to do, but it is.
 13. The ability to form habits is powerful.

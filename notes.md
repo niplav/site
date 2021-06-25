@@ -1143,3 +1143,8 @@ be young singles who want to save money and live urban, perhaps that
 group is just too small/already served with university dorms?
 
 <!--TODO: add LW discussion thread on this-->
+
+<!--
+Weirdness U-Curves in Daygame
+------------------------------
+-->

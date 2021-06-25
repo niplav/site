@@ -533,7 +533,7 @@ Die gewöhnlichen Menschen sind strebig-straff;
 Nur Ich bin bang-befangen.  
 Ruhelos gleich ich dem Meere;  
 Verweht, ach, bin gleichsam ich ohne Halt.  
-Die Menschen mach sich nützlich all,  
+Die Menschen mach sich <!--TODO: typo?--> nützlich all,  
 Nur Ich bin halsstarr, als ob ich ein Wildling wäre.  
 Nur Ich bin von den andern Menschen verschieden –  
 Der ich die nährende Mutter verehre.  
