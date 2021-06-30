@@ -1,12 +1,23 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-04-27, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-06-27, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
+
+June 2021
+---------
+
+* [Notes](./notes.html)
+	* [She Needs to Know You're Not a Weirdo](./notes.html#She-Needs-to-Know-Youre-Not-a-Weirdo)
+
+### Other
+
+Again updated the [Texts List](./texts_list.html) with a large number
+of texts. I continue to read a lot, and write relatively little.
 
 May 2021
 ---------
@@ -20,7 +31,6 @@ May 2021
 
 Updated the [Texts List](./texts_list.html) with a large number of
 texts. I read a bunch this month.
-
 
 April 2021
 ----------

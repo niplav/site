@@ -315,8 +315,9 @@ about consciousness).
 
 ![You're a sound rationalist, aren't you?](./img/about/sound_rationalist.jpg "You're a sound rationalist, aren't you?")
 
-My views on ethics are very similar to
-(and influenced by) the idea of [suffering focused
+My view on ethics is very consequentialism-focused, but with a large
+amount of moral uncertainty thrown into the mix. Within consequentialism,
+my views are similar to (and influenced by) the idea of [suffering focused
 ethics](https://foundational-research.org/the-case-for-suffering-focused-ethics/),
 especially the writings at
 [reducing-suffering.org](https://reducing-suffering.org/).

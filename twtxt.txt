@@ -533,7 +533,7 @@
 2021-04-14T19:32:14.000000Z	@<movq https://www.uninformativ.de/twtxt.txt> "Random thought: Would be great if you could do `for i in ...; do something "$i" & done ; wait` in a Shell script, but with the Shell only spawning one process per CPU." -> Interesting which annoyances stay in the back of the head – I'd never articulated this, but it's absolutely true that this would be great.
 2021-04-14T19:32:46.000000Z	@<hecanjog https://hecanjog.com/twtxt.txt> "Maybe Satoshi was an anti-capitalist after all?" -> Why do you think that?
 2021-04-14T21:33:32.000000Z	if you're weird, spending time around non-weird people is not going to make you more normal. but if you spend time with marginally less weird people, you're probably going to become less weird.
-2021-04-16T16:57:41.000000Z	hardmore as much things as you can, ordered by importance. easymode the rest.
+2021-04-16T16:57:41.000000Z	hardmode as much things as you can, ordered by importance. easymode the rest.
 2021-04-17T10:01:09.000000Z	metaculus is only realiable newssite send twt
 2021-04-17T10:05:02.000000Z	@<hecanjog https://hecanjog.com/twtxt.txt> "I can see the sinewave of my own mood skimming through past twtxts..." ▁▂▄▅▆▅▄▂▁▂▄▅▆▅▄▂▁▂▄▅▆▅▄▂▁
 2021-04-17T10:12:00.000000Z	twt is better because I can pronounce it like twit, which sounds a bit like “twat”, which is an insult and therefore better.
@@ -643,3 +643,20 @@
 2021-06-24T10:43:42.000000Z	Gotami said: “why is experience bad so often?” Upon hearing this, the nun got enlightened.
 2021-06-25T18:41:17.000000Z	forecasting questions can be divided into “we have an indicator, let the people forecast it” and “we have a question, let's find an indicator/indicators to concretise it”
 2021-06-25T20:50:13.000000Z	https://www.lesswrong.com/s/7CdoznhJaLEKHwvJW/p/LfGzAduBWzY5gq6FE uses color really well in proofs. I will need to copy that.
+2021-06-26T09:06:42.000000Z	“improve the system” is not an atomic action
+2021-06-26T12:09:59.000000Z	gridworlds scenario with corrigible/noncorrigible subagents
+2021-06-29T21:24:48.000000Z	ancestral social environment probably most comparable with today's high school – everybody is very near each other a lot of the time, high amounts of common knowledge. differences: existence of age gaps in AE, more common tasks
+2021-06-29T21:25:02.000000Z	makes me update towards the awfulness of ancestral environment
+2021-06-29T21:27:55.000000Z	todo: find some nice population axiologies where the bound is a parameter
+2021-06-29T21:30:38.000000Z	a date with a human model
+2021-06-29T21:30:44.000000Z	what a strange optimizer it is
+2021-06-29T21:31:24.000000Z	at least we'll die a really cool death
+2021-06-29T21:32:35.000000Z	discourse between a man and his baaaaaa
+2021-06-29T21:35:13.000000Z	how come nobody takes the view seriously that coordination is eternally hard on all levels?
+2021-06-29T21:37:05.000000Z	MFTOC
+2021-06-29T21:37:10.000000Z	MFTOM
+2021-06-29T21:39:11.000000Z	carteography
+2021-06-29T21:40:13.000000Z	looking forward to the moment when i can first smack someone with my copy of Grand Futures because they're being an annoying pseudo-primitivist – the satisfying sound of a thousand pages of industrial strength paper against their weak biological skull
+2021-06-29T21:42:29.000000Z	approached a girl on saturday. the approach itself was nothing special, & i got rejected as expected. BUT I know understand what all those guys mean with femininity. this girl was dripping with it. she even gave me a compliment (“you have beautiful eyes”) after rejecting me. damn
+2021-06-29T22:45:58.000000Z	excess wealth spent on addiction or sex
+2021-06-29T22:46:06.000000Z	(mostly)

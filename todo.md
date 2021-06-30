@@ -664,6 +664,7 @@ Texts
 		* Kasina on Water
 		* Open Monitoring
 			* Clear the desk, just watch out for pre-thoughts
+		* Do Nothing
 		* Zen stuff?
 		* Mantra stuff?
 		* Transcendental meditation stuff?

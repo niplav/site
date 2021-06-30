@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2021-05-04, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2021-06-27, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -854,6 +854,11 @@ but to the rest of the world as well.
 Vasectomy & Sperm Freezing Cost-Benefit
 ----------------------------------------
 
+*Note: A friend told me that vasectomies don't make men permanently
+infertile: if you're not otherwise infertile, sperm can just be extracted
+or the vasectomy can be reversed. I haven't checked whether this is true,
+but if it is, the cost-benefit analysis below is misguided and wrong.*
+
 It seems broadly useful to spend a lot of time to consider whether you
 want to have children, and with whom. However, in situations of arousal,
 people sometimes forget/neglect to apply birth control methods. Also,
@@ -938,8 +943,11 @@ This is a list of some trigger-action plans I have installed/will install.
 	* Trigger: I hear my alarm
 	* Action: I get out of bed
 7. Something is Bad
-	* Trigger: I feel bad, in any way
+	* Trigger: I feel bad/uncomfortable, in any way
 	* Action: I start noting my sensations
+8. No Unwilling Wikipedia Deep-Dives
+	* Trigger: I type the 'x' of "Kiwix" to open the application
+	* Action: I set a 10-minute timer
 
 A Small Variation on Counting During Concentration Meditation
 --------------------------------------------------------------
@@ -1144,7 +1152,41 @@ group is just too small/already served with university dorms?
 
 <!--TODO: add LW discussion thread on this-->
 
-<!--
-Weirdness U-Curves in Daygame
-------------------------------
--->
+She Needs to Know You're Not a Weirdo
+--------------------------------------
+
+<!--TODO: TheRedQuest quote on being a weirdo-->
+
+A couple of days ago, I did an approach on a standing girl that was
+(apparently) waiting for someone.  In the beginning she was giving mostly
+1-word or 2-word answers, but warmed up over time. Even after rejecting
+me (I believe that she was waiting for her boyfriend), she asked me a
+couple of questions.
+
+After the approach, I got thinking about why this happened. Maybe she was
+just relieved that I was relaxed about being rejected. Maybe. But I also
+believe that upon getting approached, a girls' prior on you being a weirdo
+is pretty high. Especially if you're a beginner at daygame and your body
+language is undecided and low status, the odds that you're a bad kind
+of weird (mentally ill/undersocialized/very unrelaxed about rejection)
+are probably pretty high.  It's your job to demonstrate that this is
+not the case, and that you're more normal than the situation might convey.
+
+On the other hand, I'm not sure how this interacts with girls that get
+approached a lot – do they have a lower prior on bad weirdness from
+guys who approach? This probably interacts with how common daygame is
+in the environment.
+
+On a related note, girls are probably right in being very suspicious of
+guys who approach them. Out of the 5 wings I've done daygame with, only 2
+were reasonably well-adjusted people to the extent that I would consider
+inviting them to a party I host (and I'm a pretty weird person myself).
+
+I wonder whether there is a
+[policy-level](https://www.lesswrong.com/s/uLEjM2ij5y3CXXW6c/p/vKbAWFZRDBhyD6K6A "Gears Level & Policy Level (Abram Demski, 2017)")
+consideration of trying to be more normal during approaches as a beginner,
+and then with becoming more advanced you slowly edge towards being
+less normal (talking more & more openly about sex, being more direct)
+(if you're very uncool, becoming more normal makes you cooler, but this
+stops paying off at some point). On the other hand, this is probably
+swamped by object-level strategies.
