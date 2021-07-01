@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-06-10, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2021-07-01, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -337,6 +337,21 @@ The Author
 ### Pronouns
 
 I'm most happy with they/them.
+
+### Psychological Characteristica
+
+My Big Five are:
+
+* Openness: 79%
+* Conscientiousness: 46%
+* Extraversion: 50%
+* Agreeableness: 54%
+* Neuroticism: 19%
+
+From a test somewhere on the internet a while ago, I just wrote down
+the results.
+
+The last g-laden test I took put me at ~110, which seems about right.
 
 ### Elsewhere on the Internet
 

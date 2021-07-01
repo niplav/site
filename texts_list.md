@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-05-31, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-07-01, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,42 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Healthy Competition (Raemon, 2019)](https://www.lesswrong.com/posts/jbka3c63xSxm9P2fk)
+* [From Personal to Prison Gangs: Enforcing Prosocial Behavior (johnswentworth, 2019)](https://www.lesswrong.com/posts/sYt3ZCrBq2QAf3rak)
+* [The evolution of monogamy in response to partner scarcity: don’t marry (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/04/28/the-evolution-of-monogamy-in-response-to-partner-scarcity-dont-marry/index.html)
+* [The archive (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/04/28/first-blog-post/index.html)
+* [Book summary: Unlocking the Emotional Brain (Kaj Sotala, 2019)](https://www.lesswrong.com/s/ZbmRyDN8TCpBTZSip/p/i9xyZBS3qzA8nFXNQ)
+* [Future tense (Scott Alexander, 2013)](https://slatestarcodex.com/2013/02/20/future-tense/)
+* [Almost all real-world domains are rich (Eliezer Yudkowsky/Alexei Andreev, 2017)](https://arbital.com/p/real_is_rich/)
+* [Bounded agent (Eliezer Yudkowsky, 2016)](https://arbital.com/p/bounded_agent/)
+* [How Much is Your Time Worth? (lynettebye, 2019)](https://www.lesswrong.com/posts/y5RoNDPcfJqm3vfQA)
+* [Deep Blue (Eliezer Yudkowsky/Eric Rogstad, 2016)](https://arbital.com/p/deep_blue/)
+* [Logical game (Eliezer Yudkowsky/Alexei Andreev/Eric Rogstad/Rob Bensinger, 2021)](https://arbital.com/p/logical_game/)
+* [Evolution of Modularity (johnswentworth, 2019)](https://www.lesswrong.com/posts/JBFHzfPkXHB2XfDGj)
+* [Reveal vs Restructure (Nick Krauser, 2016)](https://krauserpua.com/2016/04/30/reveal-vs-restructure/)
+* [The best books for learning game (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/12/02/the-best-books-for-learning-game/)
+* [The Rise And Fall Of Online Culture Wars (Scott Alexander, 2021)](https://astralcodexten.substack.com/p/the-rise-and-fall-of-online-culture)
+* [Lost in Thought (David Kortava, 2021)](https://harpers.org/archive/2021/04/lost-in-thought-psychological-risks-of-meditation/)
+* [How Did New Atheism Fail So Miserably? (Scott Alexander, 2017)](https://slatestarcodex.com/2017/10/24/how-did-new-atheism-fail-so-miserably/)
+* [New Atheism: The Godlessness That Failed (Scott Alexander, 2019)](https://slatestarcodex.com/2019/10/30/new-atheism-the-godlessness-that-failed/)
+* [Rich domain (Alexei Andreev/Eliezer Yudkowsky, 2017)](https://arbital.com/p/rich_domain/)
+* [Turning log-consumption into a [crude] measure of short-run human welfare (Carl Shulman, 2014)](https://reflectivedisequilibrium.blogspot.com/2014/01/turning-log-consumption-into-measure-of.html)
+* [Cognitive uncontainability (Eliezer Yudkowsky/Alexei Andreev, 2015)](https://arbital.com/p/uncontainability/)
+* [Autonomous AGI (Eliezer Yudkowsky, 2016)](https://arbital.com/p/Sovereign/)
+* [Coherent decisions imply consistent utilities (Eliezer Yudkowsky, 2019)](https://www.lesswrong.com/s/FYMiCeXEgMzsB5stm/p/RQpNHSiWaXTvDxt6R)
+* [Confusions Concerning Pre-Rationality (Abram Demski, 2018)](https://www.lesswrong.com/s/uLEjM2ij5y3CXXW6c/p/4K3GtytZhmmXdSj78)
+* Der Jäger Gracchus (Franz Kafka, 1917)
+* Die Brücke (Franz Kafka, 1917)
+* Blumfeld, ein älterer Junggeselle (Franz Kafka, 1913)
+* [Known-algorithm non-self-improving agent (Eliezer Yudkowsky, 2015)](https://arbital.com/p/KANSI/)
+* [Steelmanning Divination (Vaniver, 2019)](https://www.lesswrong.com/posts/fnkbdwckdfHS2H22Q)
+* [Mild optimization (Eliezer Yudkowsky/Patrick LaVictoire, 2016)](https://arbital.com/p/soft_optimizer/)
+* [Alignment Research Field Guide (Abram Demski, 2019)](https://www.lesswrong.com/posts/PqMT9zGrNsGJNfiFR)
+* [Life, liberty, and the pursuit of privacy (Drew DeVault, 2016)](https://drewdevault.com/2016/06/29/Privacy-as-a-hobby.html)
+* [Understanding pointers (Drew DeVault, 2016)](https://drewdevault.com/2016/05/28/Understanding-pointers.html)
+* [In Memoriam - Mozilla (Drew DeVault, 2016)](https://drewdevault.com/2016/05/11/In-Memoriam-Mozilla.html)
+* [State of Sway - April 2016 (Drew DeVault, 2016)](https://drewdevault.com/2016/04/20/State-of-sway-April-2016.html)
+* [What proxies to use for flow-through effects? (Carl Shulman, 2013)](https://reflectivedisequilibrium.blogspot.com/2013/12/what-proxies-to-use-for-flow-through.html)
 * [Utility ≠ Reward (vlad_m, 2019)](https://www.lesswrong.com/posts/bG4PR9uSsZqHg2gYY)
 * [Look where I'm pointing, not at my finger (Eliezer Yudkowsky/Alexei Andreev, 2016)](https://arbital.com/p/pointing_finger/)
 * [The Problematic Third Person Perspective (Abram Demski, 2017)](https://www.lesswrong.com/s/uLEjM2ij5y3CXXW6c/p/ikMvvDgzFCSrYMRfd)

@@ -49,7 +49,6 @@ https://books.google.de/books?id=9C0ABAAAQBAJ&pg=PA281&lpg=PA281&dq=Cryonics+cos
 <!--
 Consideration:
 Different value of money at different ages
-People might want to stay signed up after LEV
 -->
 
 <!--
@@ -81,13 +80,12 @@ Will never happen to you
 Many would-be cryonicists cryocrastinate, i.e. they put off signing
 up for cryonics until a later point in their life. This has often
 been explained by the fact that signing up for cryonics [requires high
-conscientiousness](https://www.lesswrong.com/posts/hiDkhLyN5S2MEjrSE/normal-cryonics
-"Normal Cryonics") and can be easily be delayed until another
-point in life: "I'll get around to doing it eventually" – person
-who was cremated. However, it hasn't yet been explored whether this
-procrastination might be rational if eventually followed through with:
-Many cryonics organisations have high membership fees, which might be
-avoided by waiting.
+conscientiousness](https://www.lesswrong.com/posts/hiDkhLyN5S2MEjrSE/normal-cryonics "Normal Cryonics")
+and can be easily be delayed until another point in life: "I'll get
+around to doing it eventually" – person who was cremated. However, it
+hasn't yet been explored whether this procrastination might be rational
+if eventually followed through with: Many cryonics organisations have
+high membership fees, which might be avoided by waiting.
 
 To find this out, I first present a point-estimate model of
 whether (and if yes, when) to sign up for cryonics. The model is
@@ -127,16 +125,16 @@ probabilities.
 
 Specifically, this analysis attempts to be relatively
 conservative, think of the lower range of a 50% [confidence
-interval](https://en.wikipedia.org/wiki/Confidence_interval). For
-example, this leads to excluding singularity scenarios with lifespans of
-billions or trillions of years at enormous quality. This is a balancing
-act, some people might criticize that the number of worlds with indefinite
+interval](https://en.wikipedia.org/wiki/Confidence_interval). For example,
+this leads to excluding singularity scenarios with lifespans of billions
+or trillions of years at enormous quality. This is a balancing act,
+some people might criticize that the number of worlds with indefinite
 life extension and cryonics revival but without cosmic endowment is
 very small. These concerns might be correct, but bare resemblance to
 [Pascal's mugging](ttps://en.wikipedia.org/wiki/Pascal's_mugging)-like
 scenarios. In order to avoid such concerns, I focus on *relatively*
-unspectacular visions of the future. If these scenarios are more likely
-than I suspect, this only strengthens the case for signing up.
+unspectacular visions of the future. If cosmic-endowment scenarios are
+more likely than I suspect, this only strengthens the case for signing up.
 
 Cost-Benefit Calculation for Cryonics
 -------------------------------------
@@ -525,12 +523,12 @@ Phenomenon"](https://www.biostasis.com/is-that-what-love-is-the-hostile-wife-phe
 Calculating the Benefit
 -----------------------
 
-Calculating the benefit of cryonics carries a great uncertainty, but
-basically it can be divided into six distinct components: The probability
-of being preserved, the probability of revival, the amount of years gained
-by cryonics, the value of one lifeyear, the probability of living to the
-year when one will sign up, the probability of then dying before LEV,
-and the expected quality of preservation.
+Calculating the benefit of cryonics carries a great uncertainty,
+but basically it can be divided into seven distinct components: The
+probability of being preserved, the probability of revival, the amount
+of years gained by cryonics, the value of one lifeyear, the probability
+of living to the year when one will sign up, the probability of then
+dying before LEV, and the expected quality of preservation.
 
 	function benefit(age)
 		return prob_pres*prob_succ*years_gain*val_year*prob_liveto(age)*prob_diebeforelev(age)*avg_pres_quality(age)
@@ -547,14 +545,17 @@ values.
 Much ink and pixels have been spilled on the question of the quality of
 the future, very little of it trying to make accurate or even resolvable
 predictions.<!--TODO: find out what positive/negative/circular/other
-accounts of history are called, link to some source contrasting them, or
-provide some contrasting myself--> One way to look at the question could
-be to find clear metrics that encapsulate the most important human values
-and then fund a prediction market to bet on these metrics. This could
-include the power of humanity to make most important decisions regarding
-its development and resource management, diversity among human beings,
-average happiness and lifespans and other variables such as inequality
-regarding resources.
+accounts of history are called, link to some source contrasting
+them, or provide some contrasting myself--> One way to look at the
+question could be to find clear metrics that encapsulate the most
+important human values and then fund a prediction market to bet on
+these metrics. This could include the power of humanity to make most
+important decisions regarding its development and resource management,
+diversity among human beings, average happiness and lifespans and
+other variables such as inequality regarding resources (see also [Shulman
+2013](https://reflectivedisequilibrium.blogspot.com/2013/12/what-proxies-to-use-for-flow-through.html "What proxies to use for flow-through effects?")
+for a more extensive list of metrics for flow-through effects, which
+could be used to evaluate the general quality of life in the future).
 
 But a much simpler way of approaching the topic could be the following:
 One takes arguments from both sides (proclaiming positive futures
