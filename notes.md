@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2021-06-27, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2021-07-02, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1155,7 +1155,12 @@ group is just too small/already served with university dorms?
 She Needs to Know You're Not a Weirdo
 --------------------------------------
 
-<!--TODO: TheRedQuest quote on being a weirdo-->
+> The number of normies out there is much vaster than the Internet
+realizes. If you are reading this you are probably not a normie. You
+are an alienated weirdo and need help to cultivate being normal enough
+to f\*\*k hot chicks while not losing your weird edge.
+
+*–[TheRedQuest](https://theredquest.wordpress.com/), [“Compassion and Empathy for Chicks”](https://theredquest.wordpress.com/2021/06/21/compassion-and-empathy-for-chicks/index.html), 2021*
 
 A couple of days ago, I did an approach on a standing girl that was
 (apparently) waiting for someone.  In the beginning she was giving mostly
