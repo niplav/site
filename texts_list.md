@@ -318,7 +318,6 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [AI safety mindset (Eliezer Yudkowsky/Steven Dee/Rob Bensinger, 2017)](https://arbital.com/p/AI_safety_mindset/)
 * [Directing, vs. limiting, vs. opposing (Eliezer Yudkowsky/Eric Rogstad, 2017)](https://arbital.com/p/direct_limit_oppose/)
 * [Conditions for Mesa-Optimization (evhub/Chris van Merwijk/vlad\_m/Joar Skalse/Scott Garrabrant, 2019)](https://www.lesswrong.com/s/r9tYkB2a8Fp4DN8yB/p/q2rCMHNXazALgQpGH)
-* [2000/03/30 (Joel Spolsky, 2000)](https://www.joelonsoftware.com/2000/03/30/20000330/)
 * [2000/03/29 (Joel Spolsky, 2000)](https://www.joelonsoftware.com/2000/03/29/20000329/)
 * [NDAs and Contracts That You Should Never Sign (Joel Spolsky, 2000)](https://www.joelonsoftware.com/2000/03/28/ndas-and-contracts-that-you-should-never-sign/)
 * [SCP-2256 (SCP Foundation, 2020)](http://www.scpwiki.com/scp-2256)

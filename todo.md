@@ -466,6 +466,8 @@ Texts
 		* Be conservative:
 			* Preserve humans, ecosystems, language, culture (losing them is really bad, perhaps)
 	* These are especially important for humans since our values change, in somewhat forseeable ways
+* An Unreasonable Proposal
+	* Merge India and the European Union
 
 ### Collections
 
@@ -676,6 +678,7 @@ Texts
 
 * Evolution as a Tautology
 	* Structures that are Better at Self-Replication will Eventually be More Common than the Ones Which are Not
+* A Collection of Screenshots from “Legend of the Galactic Heroes”
 * Very Specific Psychedelic Qualia
 	* №1: “Inverse Capgraps Syndrome”
 		*	You locate a specific person while also being fully able to understand
