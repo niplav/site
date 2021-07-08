@@ -1195,3 +1195,15 @@ less normal (talking more & more openly about sex, being more direct)
 (if you're very uncool, becoming more normal makes you cooler, but this
 stops paying off at some point). On the other hand, this is probably
 swamped by object-level strategies.
+
+<!--
+Ask Girls How Often They Are Approached
+
+In Praise of Encouragement
+
+Game Seems to be a Middle-Class Phenomenon
+
+Contra Morse on Fame
+
+https://ethanmorse.github.io/thoughts/famous.html
+-->

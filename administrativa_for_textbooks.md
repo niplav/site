@@ -31,9 +31,9 @@ mental model of how it works.
 -----------
 
 * [Flashcards](./flash/causality.apkg)
-	* p. 1-87 (replacing P with hat with Ṗ for the simple reason that I couldn't find a way to make MathJax create P with hat)
+	* p. 1-110 (replacing P with hat with Ṗ and x with hat with ẋ for the simple reason that I couldn't find a way to make MathJax create the former)
 * Read:
-	* p. 1-87
+	* p. 1-110
 
 ”Naïve Set Theory”
 ------------------
