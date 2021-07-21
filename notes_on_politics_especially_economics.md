@@ -137,8 +137,8 @@ they have?
 
 ### Asymmetric Information
 
-Two Taxes I Like, One I Dislike, And One I'm Unsure About
----------------------------------------------------------
+Three Taxes I Like, One I Dislike, And One I'm Unsure About
+------------------------------------------------------------
 
 ### Taxes I Like
 
@@ -147,6 +147,8 @@ Two Taxes I Like, One I Dislike, And One I'm Unsure About
 #### Pigou Taxes
 
 Problem: Hard to compute.
+
+### Inheritance Taxes
 
 ### Taxes I Dislike
 
@@ -173,7 +175,7 @@ The Problems With Regulation
 governments. If a firm offers a product that nobody wants, it soon
 leaves business. If government enacts a bad policy, rarely is it
 repealed. Instead, lip service is given to reform, and when the reform
-fails, more reform is pursued.  Take, for example, farm support policies,
+fails, more reform is pursued. Take, for example, farm support policies,
 which were enacte d to provide financial assistance to struggling farmers
 during and after the Great Depression. Henry Wallace, the Secretary
 of Agriculture from 1930 to 1940, argued that the farm subsidies
@@ -209,11 +211,15 @@ Test your damn laws.
 
 At least it's not forever.
 
+### Scaletopia
+
+Strength of regulation scales with size.
+
 ### Futarchy
 
 Spectrum from "Politicians sometimes look at prediction markets" to
-“What do you mean by "politicians"? We quadratically vote our values,
-then the markets optimize for us.”/Raikoth
+"What do you mean by “politicians”? We quadratically vote our values,
+then the markets optimize for us"/Raikoth.
 
 #### Problems With Futarchy
 
@@ -222,7 +228,7 @@ then the markets optimize for us.”/Raikoth
 Possible solution: create a stable independent currency (maybe with
 crypto, isn't there a Wei currency that tries to achieve this?)
 
-##### Goodhardts Law
+##### Goodharts Law
 
 Mild optimization by reducing size/funding for prediction markets.
 
@@ -237,7 +243,8 @@ collectors? Data collectors are not allowed to trade?
 
 #### Approval-Directed Futarchy?
 
-<!--Rename, approval-directed would imply that government is transparent-->
+<!--Rename, approval-directed would imply that government is transparent
+– which is also perhaps a good idea-->
 
 Select n random people (something like 10k, or 0.01% of the population),
 ask them how much they approve of the governing in the last year (or
@@ -265,9 +272,10 @@ Discovering values, not policies.
 
 ### Most Complaints About Capitalism are Complaints About Other People Not Caring
 
-### Unions Seem Good, Let's Regulate Them Like Companies!
+### Unions Seem Good
 
-Use the same cartel laws for unions as for companies.
+Use the same cartel laws for unions as for companies. Also the current
+implementation for unions is really weird.
 
 ### Regulate/Tax Companies Proportional to Size
 
