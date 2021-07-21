@@ -603,6 +603,13 @@ Texts
 * Elon Musk Forecast Correction Function
 	* Code: `1.8239233 * (forecasted-forecast_made) + 48.0502205` (days)
 	* [Original](https://web.archive.org/web/20210302224031/https://anthony.boyles.cc/Essays/portfolio/ElonMuskForecastCorrectionFunction.html)
+* My Current Understanding of Wireheading
+* Impact Measures Depend on, Rather Than Specify, Inaction Baselines
+* Auctioning off Your Body
+	* https://www.humanmicrobes.org/
+	* Kidney
+	* Sperm, Eggs
+	* Plasma/Blood
 
 ### Notes
 
@@ -634,6 +641,9 @@ Texts
 		* Evidence: Most of Metaculus comments, most of Wikipedia
 		* Models: Textbooks
 		* Ontologies: Grand philosophy books (e.g. The Sequences, the Tao te Ching, Die Welt als Wille und Vorstellung
+* Growth
+	* How long can growth continue if the maximal value of an atom is fixed?
+	* Growth might slow to cubic (sphere expanding at constant fraction of c)
 
 ### Reports
 

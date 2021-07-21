@@ -1,4 +1,4 @@
-MARKDOWN=markdown2
+MARKDOWN=markdown
 
 CONF=config.mk header.html main.css
 
