@@ -183,14 +183,53 @@ decision-procedure for each individual agent, recognizing that an attempt
 at formalizing an ethical decision-procedure is a futile goal, and instead
 focussing on the value-updating and value-inference process itself.
 
-Deference-Attractors of Ethical Agents
--------------------------------------
+Deference Attractors of Ethical Agents
+---------------------------------------
 
-Basically: When I'm angry or stressed, I would like to defer to
-versions of myself that are relaxed & calm. If we draw a network of
-these deferrings, there are probably some attractors.
+When I'm angry or stressed (or tired, very horny, high, etc), I would
+prefer to have another version of myself make my decisions in that
+moment – ideally a version that is well rested, is thinking clearly,
+and is not under very heavy pressure. One reason for this is that my
+rested & clear-headed self is in general better at making decisions –
+it is likely better at playing chess, programming a computer, having
+a mutually beneficial discussion etc. But another reason is that even
+when I'm in a very turbulent state, I usually still find the *values*
+of my relaxed and level-headed self (let's call that self the **deferee
+self**) better than my current values. So in some way, my values in
+that stressful moment are not reflectively stable <!--TODO: link-->.
 
-### Deceptive Deference-Attractors
+Similarly, even when I'm relaxed, I usually still can imagine a
+version of myself with even more desired values – more altruistic,
+less time-discounting, less parochial. Similarly, that version of
+myself likely wants to be even more altruistic! This is a Murder-Ghandi
+problem<!--TODO: link-->: It likely leads to a perfectly altruistic,
+universalist version of myself that just wants to be itself and
+keep its own values. Let's call that self a **deference attractor**.
+
+But I don't always have the same deferee self. Sometimes I actually want
+to be more egoistic, more parochial, perhaps even more myopic (even
+though I haven't encountered that specific case yet. The deferee self
+likely also wants to be even more egoistic, parochial and (maybe?) myopic.
+This version of myself is again a deference attractor.
+
+These chains of deference are embedded in a [directed
+graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics))
+of selves, many of which are likely reflectively stable. Some
+aren't, and perhaps form such chains/paths which either form
+[cycles](https://en.wikipedia.org/wiki/Cycle_(graph_theory)), or lead
+to attractors.
+
+### Deceptive Deference-Attractors?
+
+These graphs don't have to be
+[transitive](https://en.wikipedia.org/wiki/Transitivity_(mathematics)),
+so a deference attractor of myself now could look extremely unappealing
+to me. Could one be mistaken about such a judgement, and if yes, when
+would one be?
+
+That is, when one would judge a deference attractor to be undesirable,
+could it be in fact desirable? Or, if one were to judge in desirable,
+could it in fact be undesirable?
 
 What Use Ethics For?
 ---------------------

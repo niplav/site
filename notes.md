@@ -1197,6 +1197,16 @@ stops paying off at some point). On the other hand, this is probably
 swamped by object-level strategies.
 
 <!--
+Why Not Prepping?
+------------------
+
+[lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning
+for regular folks") distinguishes between three different kinds of
+disaster scenarios: small-scale events, mass calamities, and the
+"zombie apocalypse".
+-->
+
+<!--
 Ask Girls How Often They Are Approached
 
 In Praise of Encouragement

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-07-03, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-07-22, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Podcasts I am following.__
 
@@ -13,6 +13,7 @@ I try to listen to all episodes available to the public.
 * [80000 Hours Podcast](https://80000hours.org/podcast/)
 * [Alignment Newsletter Podcast](https://alignment-newsletter.libsyn.com/)
 * [Alternativlos](https://alternativlos.org/)
+* [AI X-risk Research Podcast](https://axrp.net)
 * [Chaos Radio Express](https://cre.fm/)
 * [Guru Viking](https://www.guruviking.com/)
 * [History of Philosophy without any gaps](https://historyofphilosophy.net/)
