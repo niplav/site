@@ -703,3 +703,6 @@
 2021-07-21T17:08:18.000000Z	gifted child? no. I am a childish gift
 2021-07-21T17:18:25.000000Z	@(frogorbits.com) "@niplav interesting, it seems like you uploaded at least two weeks worth of posts sometime between yesterday and right now" -> Yes. I have changed my interaction with the internet a little bit – uploading/downloading in batches, not constantly online, to prevent my attention becoming even more damaged than it is now.
 2021-07-22T21:51:15.000000Z	I'm not an intellectual, I'm just a guy who likes to f**k.
+2021-07-23T23:07:13.000000Z	i remember having quite strange & unusual qualia as a child (kind of hard to describe & varied, i remember 2 specifically (not just the old “having more imagination” or “being easier to frighten”, but on a similar level as déja vu)), but these have faded over time as i went through adolescence. i wonder whether this is common. perhaps i should write that up, together with a rough description of those qualia
+2021-07-23T23:30:01.000000Z	@<alip https://dev.exherbo.org/~alip/twtxt.txt> "Br em hlk rmnnd, Fkrdm, bkldryrum! Ben br bk ucuyum, Kvg verm hlkn, Bkldryrum te, Vrn benm frkm ! #sydbx" -> Aoe iiiu! Iyou eiau üuiu yäiiö. Äuuuůǒ ēēiyou #ïïïyae
+2021-07-23T23:52:17.000000Z	a model that gives a probability distribution over 12 orders of magnitude is good and brave and we need more of it.

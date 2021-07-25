@@ -11,8 +11,9 @@ Changelog
 July 2021
 ---------
 
-* [Notes on Ethics](./notes_on_ethics.html)
+* [Notes](./notes.html)
 	* [Deference Attractors of Ethical Agents](./notes_on_ethics.html#Deference-Attractors-of-Ethical-Agents)
+	* [Ask About Frequency of Being Approached After Rejection](./notes.html#Ask-About-Frequency-of-Being-Approached-After-Rejection)
 
 June 2021
 ---------

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-05-22, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-07-24, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -45,70 +45,8 @@ Site
 Texts
 -----
 
-### Arguments
+### Forecasting
 
-* Why Still Choose C?
-	* Long-term reliability/stability
-	* Performance
-	* Portability
-	* → Caveat: Only portable if very reliably/portably written
-* Unix is Not About Reimplementing Unix
-	* Examples for claim:
-		* [Node JS](http://blog.izs.me/post/48281998870/unix-philosophy-and-nodejs)
-		* [The Internet](https://victorops.com/blog/internet-age-unix-philosophy/)
-		* [Vim](https://www.reddit.com/r/vim/comments/22w1li/a_fair_comparison_between_vim_and_emacs/cgqyqst/)
-		* https://gist.github.com/rjsteinert/f3823f3cdc9971779c17
-	* ["Do one thing, and do it well. Use text streams, since that is the universal interface"](http://www.catb.org/esr/writings/taoup/html/ch01s06.html)
-	* Most systems reimplement unix ("Those who don't understand unix are doomed to reimplement it, poorly.")
-* Libertarianism is too Simple
-	*	Libertarianism is a very simple method of organising society,
-		so it must have been tried in the history of societies. However,
-		none of those societies have survived, which makes it an
-		unsuccessful way of structuring societies
-	* Counter-argument: Humans are consistently biased against liberty
-	*	Counter-argument: Libertarianism is very well suited for
-		*modern* (capitalist, technological) societies, which haven't
-		existed for very long
-* Antinatalism and Consent
-* Limit “Philosophy” and “Art”
-* Against Advertising
-	* Strong claim: Advertising is always bad
-	* Weak claim: Advertising in public spaces is bad
-	* Does this hold up to a good consequentialist calculation?
-* Against News
-	* Priming → News+Wikipedia≤Wikipedia
-* On the Importance of
-	* Qualia Engineering
-	* Track Records, Forecasting and Prediction Markets
-	* The Difference in Sexual Behavior Between Men and Women
-	* Pick Up
-		* Combines Near (Sex) with Far (Abstract thinking)
-* In Favor of Selling Glee
-	* Pointing out problems with the ideas in [The Price Of Glee In China](http://slatestarcodex.com/2016/03/23/the-price-of-glee-in-china/)
-	*	General idea: When you find out that making people wealthier
-		doesn't make them happier, you start thinking about how to make
-		them happier instead of trying to find reasons why making them
-		wealthier is still a good idea.
-	* Read the post carefully
-	* Read up on the research
-	* Perhaps re-emphasize as "Easterlin's Paradox"?
-* Missing the Movement
-	* "Most Hedonists end up sad!"
-	* "Utilitarianism leads to bad results!"
-	* "Rationalism leads to believing wrong things!"
-	* Related text: [Incremental Progress and the Valley](https://www.lesswrong.com/s/pvim9PZJ6qHRTMqD3/p/oZNXmHcdhb4m7vwsv)
-* In Favor of Gish-Gallop
-	* https://en.wikipedia.org/wiki/Gish_gallop
-* An Anthropic Argument in Favour of Eventual Existential Security
-	*	Worlds in which existential risk eventually declines contain
-		more observer-moments than worlds in which existential risk
-		becomes or stays very likely.
-	*	Therefore, we're more likely to be in a world where
-		there are more observer-moments and we're in world 1
-	*	This doesn't work: your reference class is not just
-		people ever living, but people looking back on a
-		population of X
-	* Abandon or rephrase as a something learned
 * Forecasting is Worse is Better
 	*	The [Brier score](https://en.wikipedia.org/wiki/Brier_score) was invented
 		in 1950, [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes'_theorem)
@@ -139,6 +77,168 @@ Texts
 	* Forecasting has Faster Feedback
 	* Is Forecasting Harder to Game?
 	* Less Susceptible to Social Biases like Charisma
+* Comparing Forecasting Accuracy Between the Good Judgment Project and Metaculus
+	* https://www.openphilanthropy.org/blog/forecasting-covid-19-pandemic
+	* https://pandemic.metaculus.com/questions/
+* Extracting Probabilities from Stock Markets
+* The "At-the-time best possible forecast"
+	* Not literally best possible forecast
+	* But for humans at the time with the available information
+* Some Questions I Have About Forecasting
+	* How good are we at forecasting?
+		* How good are long-term forecasts?
+		* How good are our forecasts on low-probability events?
+		* How quickly/slowly do our forecasts converge to the final answer? When don't they converge?
+		* How do prediction markets, professional forecasting teams and internet enthusiasts compare?
+	* How can we become better at forecasting?
+		* What possible forecasting scoring rules could we develop?
+			* Taking into account:
+				* Accuracy compared to others
+				* Importance of question
+		* Related: How can we compare the skill and reliability of forecasters to one another?
+			* Metaculus at the moment does this by "who writes good comments". That seems inadequate.
+			* Taking into account:
+				* Number of questions each forecaster predicted on
+				* Calibration
+				* Resolution
+				* Importance of questions
+			* Two boundary methods:
+				* Compare using a scoring rule on any question the forecasters predicted on
+				* Compare using a scoring rule on the intersection of the questions the forecasters predicted on
+		* How can we deal with questions with unclear resolution criteria?
+		* How do we incentivise good predictions on long-term questions?
+		* How do we incentivise good predictions on low-probability events?
+		* Is there any conceivable way of incentivizing good predictions on extinction events?
+* How difficult is it to manipulate real existing prediction markets?
+	* PredictIt
+	* BetFair
+
+### Population
+
+* Antinatalism and Consent
+* Wither Humanity?
+	* Would a bigger humanity be a good idea?
+	* Against:
+		* Coordination
+		* Resources
+		* Safety from Malthusian Trap
+	* For:
+		* Growth
+			* Specialization
+		* Aggregative Arguments
+* About Longtermist's Children
+	* Disclaimer:
+		* If people want to have children for egoistic reasons, it is not useful to argue against
+		* Trying to convince people to not do things they deeply desire is bad, even under consequentialist reasoning
+	* People argue that effective altruists (and especially longtermists) ought to have children
+		* Most arguments for having children are bad
+	* However:
+		* Children are expensive, opportunity cost
+			* Perhaps better: invest time/energy into life-extension tech
+				* Or spreading ones memes
+					* Memes under heavy selective pressure too, though
+		* Traits we like are only moderately heritable, and will be washed out in a few generations (especially under selective pressure)
+			* On each EA-related trait 50% heritability → very likely not EA (seems like specific combination of personality characteristics)
+		* Parents seem to have relatively little influence on the values of their children (Is this true?)
+		* Humanity will very likely not die out due to people stopping to breed
+			* Indeed, It seems to me much more likely that if we wait long enough, we fall back into the malthusian trap
+	* Why I Dislike This Argument
+		* It comes from the genre of "Let's outbreed the other/bad people", which is very molochian
+		* It leads to a malthusian trap/pure replicator hell with no value and no option to get out (in the long run)
+	* However, maybe in the medium run this makes sense (not short enough for the really important stuff to happen during our lifetimes, not long enough for us to worry about malthusian traps)
+		* Even then, however, just trying to build better institutions is more useful?
+	* Would people prefer procreating to indefinite longevity?
+* Modelling the Dream-Time (Population will probably start growing again)
+	* How likely is another malthusian trap, how much time do we have got?
+	* What kinds of scenarios lead to malthusian condition?
+		* Base case biological humans
+		* Base case without aging
+		* Em case
+	* What can be done against?
+		* Population control
+		* Monitoring
+	* Reasons against worrying
+		* Too far in the future
+		* Number of children not heritable
+* Population Ethics Test Suite
+	* Look at comments on “An Impossibility Theorem for Welfarist Axiologies” (Arrhenius 2000)
+* Three-level population ethics
+	* Symmetrical critical level
+	* If any life below -critlevel, level 3
+	* If all lifes above critlevel, level 1
+	* Otherwise level 2
+	* Average in Level 2, total in Level 1/3?
+	* Prevents hijacking through efficient just-positive lives
+	* Violates Mere Addition Principle
+	* Has a symmetry (critlevel & -critlevel are symmetric), but also 2 discontinuities
+	*	Also somewhat counter-intuitive: Adding a person with
+		critlevel-ε can make a populations welfare infinitely
+		worse
+	* Of course, still repugnant conclusion with critlevel+ε, but that's okay
+	*	But also many -critlevel+ε lives infinitely better than one
+		life -critlevel-ε (actively repugnant conclusion)
+	*	And also one person with critlevel+ε infinitely better
+		than many with critlevel-ε
+	* `tlpe::{:[(&/x)<-cl;+/x:|(-cl)<(&/x)<cl;ω++/x;(2*ω)++/x}`
+* Semi-Natalism
+	* If I reason out that I am not the type of agent that would have children otherwise, I should have children
+	* If I indeed reason out that I am the type of agent that would have children, I should not have children
+	* Reasoning: If propensity to have children is heritable, this kind of decision will prevent my ancestors from becoming pure replicators
+	* It is slightly paradoxical, though
+
+### Arguments
+
+* Why Still Choose C?
+	* Long-term reliability/stability
+	* Performance
+	* Portability
+	* → Caveat: Only portable if very reliably/portably written
+* Unix is Not About Reimplementing Unix
+	* Examples for claim:
+		* [Node JS](http://blog.izs.me/post/48281998870/unix-philosophy-and-nodejs)
+		* [The Internet](https://victorops.com/blog/internet-age-unix-philosophy/)
+		* [Vim](https://www.reddit.com/r/vim/comments/22w1li/a_fair_comparison_between_vim_and_emacs/cgqyqst/)
+		* https://gist.github.com/rjsteinert/f3823f3cdc9971779c17
+	* ["Do one thing, and do it well. Use text streams, since that is the universal interface"](http://www.catb.org/esr/writings/taoup/html/ch01s06.html)
+	* Most systems reimplement unix ("Those who don't understand unix are doomed to reimplement it, poorly.")
+* Libertarianism is too Simple
+	*	Libertarianism is a very simple method of organising society,
+		so it must have been tried in the history of societies. However,
+		none of those societies have survived, which makes it an
+		unsuccessful way of structuring societies
+	* Counter-argument: Humans are consistently biased against liberty
+	*	Counter-argument: Libertarianism is very well suited for
+		*modern* (capitalist, technological) societies, which haven't
+		existed for very long
+* Limit “Philosophy” and “Art”
+* Against Advertising
+	* Strong claim: Advertising is always bad
+	* Weak claim: Advertising in public spaces is bad
+	* Does this hold up to a good consequentialist calculation?
+* Against News
+	* Priming → News+Wikipedia≤Wikipedia
+* On the Importance of
+	* Qualia Engineering
+	* Track Records, Forecasting and Prediction Markets
+	* The Difference in Sexual Behavior Between Men and Women
+	* Pick Up
+		* Combines Near (Sex) with Far (Abstract thinking)
+* In Favor of Selling Glee
+	* Pointing out problems with the ideas in [The Price Of Glee In China](http://slatestarcodex.com/2016/03/23/the-price-of-glee-in-china/)
+	*	General idea: When you find out that making people wealthier
+		doesn't make them happier, you start thinking about how to make
+		them happier instead of trying to find reasons why making them
+		wealthier is still a good idea.
+	* Read the post carefully
+	* Read up on the research
+	* Perhaps re-emphasize as "Easterlin's Paradox"?
+* Missing the Movement
+	* "Most Hedonists end up sad!"
+	* "Utilitarianism leads to bad results!"
+	* "Rationalism leads to believing wrong things!"
+	* Related text: [Incremental Progress and the Valley](https://www.lesswrong.com/s/pvim9PZJ6qHRTMqD3/p/oZNXmHcdhb4m7vwsv)
+* In Favor of Gish-Gallop
+	* https://en.wikipedia.org/wiki/Gish_gallop
 * The Hedonic Treadmill and Politics
 	* Inequality
 	* Pareto Improvements
@@ -160,31 +260,9 @@ Texts
 	* In short: trying to think better/act better can expected to yield monotonically increasing results with effort put in
 	* Result: Utilitarianism works by its own standards, rationalism works by its own standards
 * The Overlap Argument for Learning Latin does not Hold
-* Wither Humanity?
-	* Would a bigger humanity be a good idea?
-	* Against:
-		* Coordination
-		* Resources
-		* Safety from Malthusian Trap
-	* For:
-		* Growth
-			* Specialization
-		* Aggregative Arguments
 
 ### Analyses
 
-* Modelling the Dream-Time (Population will probably start growing again)
-	* How likely is another malthusian trap, how much time do we have got?
-	* What kinds of scenarios lead to malthusian condition?
-		* Base case biological humans
-		* Base case without aging
-		* Em case
-	* What can be done against?
-		* Population control
-		* Monitoring
-	* Reasons against worrying
-		* Too far in the future
-		* Number of children not heritable
 * Dumpster Diving
 * Hitch Hiking
 * Keyboards
@@ -285,14 +363,8 @@ Texts
 		* https://www.lesswrong.com/posts/NoYXhJLtoKpLoZhRf/pascal-s-mugging-finite-or-unbounded-resources
 		* In defence of fanaticism (Hayden Wilkinson, 2020)
 * Creatine & Vegetarianism IQ?
-* How difficult is it to manipulate real existing prediction markets?
-	* PredictIt
-	* BetFair
 * Survey advanced meditators about their attainments and their monetary worth
 	* That is, how much is your meditative attainment worth to you?
-* Comparing Forecasting Accuracy Between the Good Judgment Project and Metaculus
-	* https://www.openphilanthropy.org/blog/forecasting-covid-19-pandemic
-	* https://pandemic.metaculus.com/questions/
 * Masturbation Spacing
 	* Space masturbation to make it more enjoyable
 	* Form:
@@ -377,8 +449,6 @@ Texts
 * Preference Frustration Auctions
 * The Tyranny of the Mill
 	* The Hedonic Treadmill is very good & very bad
-* Moral progress as an EA cause area?
-	* Just Global Priorities Research, dummy
 * Writing system based on all binary trees with maximal height 2
 	* no 's' sounds
 * Moving the Lever Closer
@@ -394,27 +464,6 @@ Texts
 		* de Grey anti-aging proposal
 * Cryptographic Agreement on Bribing
 * Encoding Conditionals Using Modulo
-* Extracting Probabilities from Stock Markets
-* Population Ethics Test Suite
-	* Look at comments on “An Impossibility Theorem for Welfarist Axiologies” (Arrhenius 2000)
-* Three-level population ethics
-	* Symmetrical critical level
-	* If any life below -critlevel, level 3
-	* If all lifes above critlevel, level 1
-	* Otherwise level 2
-	* Average in Level 2, total in Level 1/3?
-	* Prevents hijacking through efficient just-positive lives
-	* Violates Mere Addition Principle
-	* Has a symmetry (critlevel & -critlevel are symmetric), but also 2 discontinuities
-	*	Also somewhat counter-intuitive: Adding a person with
-		critlevel-ε can make a populations welfare infinitely
-		worse
-	* Of course, still repugnant conclusion with critlevel+ε, but that's okay
-	*	But also many -critlevel+ε lives infinitely better than one
-		life -critlevel-ε (actively repugnant conclusion)
-	*	And also one person with critlevel+ε infinitely better
-		than many with critlevel-ε
-	* `tlpe::{:[(&/x)<-cl;+/x:|(-cl)<(&/x)<cl;ω++/x;(2*ω)++/x}`
 * Auras as synesthesia between visual perception and emotional perception
 	* Maybe a survey?
 * Refactoring Rational Feelings
@@ -423,38 +472,8 @@ Texts
 * Yang Wenli and Reinhard von Lohengramm – Taoism and Confucianism?
 	* Yang's "Win without fighting" is Wu Wei
 * The Argument from Explanation of Intuition
-	* When you explain an intuition by its causal origin (e.g. a moral
-	one by evolutionary psychology), it often loses its bite
-* The "At-the-time best possible forecast"
-	* Not literally best possible forecast
-	* But for humans at the time with the available information
-* Semi-Natalism
-	* If I reason out that I am not the type of agent that would have children otherwise, I should have children
-	* If I indeed reason out that I am the type of agent that would have children, I should not have children
-	* Reasoning: If propensity to have children is heritable, this kind of decision will prevent my ancestors from becoming pure replicators
-	* It is slightly paradoxical, though
-* About Longtermist's Children
-	* Disclaimer:
-		* If people want to have children for egoistic reasons, it is not useful to argue against
-		* Trying to convince people to not do things they deeply desire is bad, even under consequentialist reasoning
-	* People argue that effective altruists (and especially longtermists) ought to have children
-		* Most arguments for having children are bad
-	* However:
-		* Children are expensive, opportunity cost
-			* Perhaps better: invest time/energy into life-extension tech
-				* Or spreading ones memes
-					* Memes under heavy selective pressure too, though
-		* Traits we like are only moderately heritable, and will be washed out in a few generations (especially under selective pressure)
-			* On each EA-related trait 50% heritability → very likely not EA (seems like specific combination of personality characteristics)
-		* Parents seem to have relatively little influence on the values of their children (Is this true?)
-		* Humanity will very likely not die out due to people stopping to breed
-			* Indeed, It seems to me much more likely that if we wait long enough, we fall back into the malthusian trap
-	* Why I Dislike This Argument
-		* It comes from the genre of "Let's outbreed the other/bad people", which is very molochian
-		* It leads to a malthusian trap/pure replicator hell with no value and no option to get out (in the long run)
-	* However, maybe in the medium run this makes sense (not short enough for the really important stuff to happen during our lifetimes, not long enough for us to worry about malthusian traps)
-		* Even then, however, just trying to build better institutions is more useful?
-	* Would people prefer procreating to indefinite longevity?
+	*	When you explain an intuition by its causal origin (e.g. a moral
+		one by evolutionary psychology), it often loses its bite
 * Sitting in X
 	* You analyze everything under light of X
 	* You believe that everyone else also intuitively analyzes everything under the light of X
@@ -603,7 +622,6 @@ Texts
 * Elon Musk Forecast Correction Function
 	* Code: `1.8239233 * (forecasted-forecast_made) + 48.0502205` (days)
 	* [Original](https://web.archive.org/web/20210302224031/https://anthony.boyles.cc/Essays/portfolio/ElonMuskForecastCorrectionFunction.html)
-* My Current Understanding of Wireheading
 * Impact Measures Depend on, Rather Than Specify, Inaction Baselines
 * Auctioning off Your Body
 	* https://www.humanmicrobes.org/
@@ -706,6 +724,7 @@ Texts
 * Mistakes
 * Open Questions
 	* Why Not Nano-Apartments?
+	* Why Not Prepping?
 * Good Ideas
 	* Some ideas I've read about & found good
 	* Forecasting

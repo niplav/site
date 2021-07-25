@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2021-07-02, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2021-07-25, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -184,6 +184,7 @@ Alternatives:
 
 *	"Mapmaking": Using "The map is not the territory.", related to
 	practicality. Downside: also already taken.
+*	Metacognitive Movement<!--TODO: link-->
 
 ### "Anarcho-Capitalism"
 
@@ -1196,6 +1197,43 @@ less normal (talking more & more openly about sex, being more direct)
 stops paying off at some point). On the other hand, this is probably
 swamped by object-level strategies.
 
+Ask About Frequency of Being Approached After Rejection
+--------------------------------------------------------
+
+After having been rejected by a girl during a daygame approach, I usually
+ask her “How often does this kind of thing happen to you? Like, once a
+month, or once a week?”, unless the girl seems to be in a great hurry.
+The girl usually gives an answer (albeit often not a very quantitative
+one), and if it is quantitative enough, I note it into my spreadsheet
+after the approach (I am, at heart, still a gigantic nerd).
+
+This is useful for two reasons.
+
+It gives me a good feeling for which parts of the city I'm in are the
+target of many daygamers, and which are undergamed. That way, I can find
+out which areas are neglected and target those.  That has two advantages:
+egoistically, it gives me better results (also, there are fewer blow-outs
+and abrasive rejections), as girls being approached frequently makes
+it lose the magic for them, altruistically, it puts less competitve
+pressure other daygamers (competition is weaker) and the good looking
+girls in the areas (they don't get approached quite as frequently).
+
+It also gives me an idea which kinds of girls are targeted by other
+daygamers, and find out whether I have a type of girl I like that is
+more niche. Also, I'm generally interested in whether better looking
+girls are approached more frequently (tentative answer, eye-balling my
+spreadsheet: yes).
+
+There is of course a lot of noise in that data: Some very good looking
+girls I have asked about this after rejection have told me that they
+get approached once a year or less (but, otoh, some girls are apparently
+approached *every day*). I'm not sure I can chalk that discrepancy up to
+randomness+location+movement patterns (if a girl doesn't cross the city
+center that often, she'll naturally get approached less).
+
+That said, it's not a very precise question, and is likely interpreted
+in many different ways, so I don't put that much weight on the responses.
+
 <!--
 Why Not Prepping?
 ------------------
@@ -1207,11 +1245,40 @@ disaster scenarios: small-scale events, mass calamities, and the
 -->
 
 <!--
-Ask Girls How Often They Are Approached
-
 In Praise of Encouragement
 
 Game Seems to be a Middle-Class Phenomenon
+
+Don't Give Out Your Contact Information, Take Hers
+
+Five Aspects of Approach Difficulties
+
+Disclaimer: Best option is to go out & force oneself to do stuff.
+
+* Cognitive Approach Difficulties: Do you believe that approaching is a good idea?
+	* If no:
+* Biological Approach Difficulties: Do you have an embodied need to interact with good-looking girls? Does you body want to get closer?
+	* If no: try to increase sex drive
+		* lifting
+		* stopping porn consumption
+		* stopping masturbation
+		* take testosterone?
+* Social Approach Difficulties: Are you in a social flow? Can you get into it?
+	* If no:
+		* do warm-ups:
+			* compliments
+			* regular everyday smalltalk
+			* doing weird stuff
+				* laying on the pavement
+				* climbing on trees
+				* doing push-ups
+		* get a wing
+* Attraction Approach Difficulties: Are you actually attracted to the girls you see?
+	* If no: try to lower standards
+		* how tho?
+* Emotional Approach Difficulties: Good ol' approach anxiety: How nervous are you before an approach?
+
+If the first four are nailed down, the last one should be easier.
 
 Contra Morse on Fame
 
