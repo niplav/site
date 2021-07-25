@@ -125,11 +125,6 @@ with other approaches.
 
 ### Have a Designated “Internet Location” Which is Not At Home
 
-Retrospective
---------------
-
-Started 2021-05-21.
-
 Possible Counterarguments
 --------------------------
 
@@ -140,3 +135,17 @@ Possible Counterarguments
 ### But Won't Regulators Outlaw?
 
 ### Giving Up Much
+
+Retrospective
+--------------
+
+Started 2021-05-21.
+
+AI Disaster Scenario: Human Progress Stalls Due To Attention-Destroyers
+-----------------------------------------------------------------------
+
+AI systems become capable enough to sap out most of human
+attention/ability to work, this prevents more capable AI systems from
+being built, but also destroys any options for progress.
+
+This might end up in an equilibrium.

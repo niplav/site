@@ -213,16 +213,16 @@ likely also wants to be even more egoistic, parochial and (maybe?) myopic.
 This version of myself is again a deference attractor.
 
 These chains of deference are embedded in a [directed
-graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics))
+graph](https://en.wikipedia.org/wiki/Graph_\(discrete_mathematics\))
 of selves, many of which are likely reflectively stable. Some
 aren't, and perhaps form such chains/paths which either form
-[cycles](https://en.wikipedia.org/wiki/Cycle_(graph_theory)), or lead
+[cycles](https://en.wikipedia.org/wiki/Cycle_\(graph_theory\)), or lead
 to attractors.
 
 ### Deceptive Deference-Attractors?
 
 These graphs don't have to be
-[transitive](https://en.wikipedia.org/wiki/Transitivity_(mathematics)),
+[transitive](https://en.wikipedia.org/wiki/Transitivity_\(mathematics\)),
 so a deference attractor of myself now could look extremely unappealing
 to me. Could one be mistaken about such a judgement, and if yes, when
 would one be?
