@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-07-24, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-07-25, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -186,6 +186,110 @@ Texts
 	* Reasoning: If propensity to have children is heritable, this kind of decision will prevent my ancestors from becoming pure replicators
 	* It is slightly paradoxical, though
 
+### Alignment
+
+* Impact Measures Depend on, Rather Than Specify, Inaction Baselines
+* Requirements for AI Safety via Debate
+* Thoughts About Reward Hacking
+* BCIs and AI Alignment
+
+> Unfortunately, I don't know of a good write-up of the argument for why
+BCIs wouldn't be *that* useful for AI alignment (maybe I should go and
+try to write it out – so many things to write). Superintelligence
+ch. 2 by Bostrom explains why it seems unlikely that we will create
+superintelligence by BCIs, but doesn't explain why, even if they existed,
+they would be unhelpful for alignment.
+
+> Arguments against why BCIs might be use/helpful:
+
+> *	There doesn't seem to be a clear notion of what it would mean for
+	humans to merge with AI systems/no clear way of stating how having
+	*	Humans [likely don't have fully specified coherent utility
+		functions](https://nivlab.princeton.edu/publications/case-against-economic-values-brain),
+		and there also doesn't seem to be an area in the brain
+		that is the *value module* so that we could plug it into
+		the AI system as a utility function
+	*	Human augmentation with AI systems of [infrahuman
+		capability](https://arbital.com/p/relative_ability/) might
+		work, but might carry the risk of causing amounts of value
+		drift large enough to count as human values being lost
+	*	Human augmentation with [superhuman (or even
+		par-human)](https://arbital.com/p/relative_ability/) AI
+		systems seems pretty bad: if the AI system is unaligned to
+		begin with, it probably doesn't help you if it has *direct
+		access to your brain and therefore your nervous system*
+	*	Using humans in AI systems as
+		[approvers/disapprovers](https://www.lesswrong.com/posts/7Hr8t6xwuuxBTqADK/approval-directed-agents-1)
+		works just as fine with screens & keyboards
+*	To re-emphasise: It seems really really bad to have an unaligned
+	AI system plugged into your brain, or to provide attack vectors
+	for possible unaligned future AI systems
+
+> Arguments for why BCIs might be useful:
+
+> *	Humans would become effectively a bit more intelligent (though I'd
+	guess that functional intelligence would be <2x what we have now)
+*	Reaction times compared to AI systems would be sped up (maybe
+	by around 10x – BCIs seem faster than typing on a keyboard,
+	but not *that* much, since we're limited by processing speed
+	(brain at 200 Hz, CPUs at 2000000000 Hz, and GPUs/TPUs with
+	similar orders of magnitude), not reaction speed)
+*	BCIs might help with human
+	imitation/[WBEs](https://www.fhi.ox.ac.uk/brain-emulation-roadmap-report.pdf):
+	the more information you have about the human brain, the easier
+	it is to imitate/emulate it.
+*	BCIs and human augmentation might lessen the pressure to create
+	AGI due to high economic benefits, especially if coupled with
+	[KANSI](https://arbital.com/p/KANSI/) infrahuman systems
+
+> My intuition is that the pro-usefulness arguments are fairly weak (if
+more numerous than the anti arguments), and that there is no really
+clear case *for* BCIs in alignment, especially if you expect AI growth
+to speed up (at least, I haven't run across it, if someone knows one,
+I'd be interested in reading it). They mostly rely on a vague notion of
+humans and AI systems merging, but under closer inspection, so far they
+don't really seem to respond to the classical AI risk arguments/scenarios.
+
+> My tentative belief is that direct alignment work is probably more useful.
+
+### Pick Up
+
+* In Praise of Encouragement
+* Game Seems to be a Middle-Class Phenomenon
+* Don't Give Out Your Contact Information, Take Hers
+* Five Aspects of Approach Difficulties
+	* Disclaimer: Best option is to go out & force oneself to do stuff.
+	* Aspects:
+		1. Cognitive Approach Difficulties: Do you believe that approaching is a good idea?
+			* If no:
+		2. Biological Approach Difficulties: Do you have an embodied need to interact with good-looking girls? Does you body want to get closer?
+			* If no: try to increase sex drive
+				* lifting
+				* stopping porn consumption
+				* stopping masturbation
+				* take testosterone?
+		3. Social Approach Difficulties: Are you in a social flow? Can you get into it?
+			* If no:
+				* do warm-ups:
+					* compliments
+					* regular everyday smalltalk
+					* doing weird stuff
+						* laying on the pavement
+						* climbing on trees
+						* doing push-ups
+				* get a wing
+		4. Attraction Approach Difficulties: Are you actually attracted to the girls you see?
+			* If no: try to lower standards
+				* how tho?
+		5. Emotional Approach Difficulties: Good ol' approach anxiety: How nervous are you before an approach
+	* If the first four are nailed down, the last one should be easier
+* On the Importance of Pick Up
+	* Combines Near (Sex) with Far (Abstract thinking)
+* Pick Up
+	* Direct Number on Street
+	* Direct Date on Street
+	* Direct Date off Street
+
 ### Arguments
 
 * Why Still Choose C?
@@ -221,8 +325,6 @@ Texts
 	* Qualia Engineering
 	* Track Records, Forecasting and Prediction Markets
 	* The Difference in Sexual Behavior Between Men and Women
-	* Pick Up
-		* Combines Near (Sex) with Far (Abstract thinking)
 * In Favor of Selling Glee
 	* Pointing out problems with the ideas in [The Price Of Glee In China](http://slatestarcodex.com/2016/03/23/the-price-of-glee-in-china/)
 	*	General idea: When you find out that making people wealthier
@@ -260,6 +362,13 @@ Texts
 	* In short: trying to think better/act better can expected to yield monotonically increasing results with effort put in
 	* Result: Utilitarianism works by its own standards, rationalism works by its own standards
 * The Overlap Argument for Learning Latin does not Hold
+* Contra Morse on Fame
+	* https://ethanmorse.github.io/thoughts/famous.html
+* Why Not Prepping?
+
+> [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
+distinguishes between three different kinds of disaster scenarios:
+small-scale events, mass calamities, and the "zombie apocalypse".
 
 ### Analyses
 
@@ -275,10 +384,6 @@ Texts
 		* Two modes: key position on keyboard & character presented by key
 * Table Diving
 * Walking Barefoot
-* Pick Up
-	* Direct Number on Street
-	* Direct Date on Street
-	* Direct Date off Street
 * Actuarial tables for dictators
 * Ideology Transition Graphs
 	* When people move along ideologies, which paths do they take?
@@ -394,10 +499,13 @@ Texts
 	* Altruistic, egoistic
 * Subjective time experience for advanced meditators
 * Timeline of the Odyssee
-* Requirements for AI Safety via Debate
 * Roomba Cost-Benefit Analysis
 * A History of the Term “Rationalist”
 * Weather Affects Daygame Success/Divorce Rates?
+* Slowing the Speedup of Subjective Time With Age
+	* Meditation
+	* New experiences
+	* Drugs?
 
 ### Ideas
 
@@ -595,7 +703,7 @@ Texts
 	* UBI
 	* Wireheading
 		* [Electrical Brain Stimulation](https://en.wikipedia.org/wiki/Electrical_brain_stimulation)
-		* [Wireheading](https://en.wikipedia.org/wiki/Wirehead_(science_fiction))
+		* [Wireheading](https://en.wikipedia.org/wiki/Wirehead_\(science_fiction\))
 		* [Brain Stimulation Reward](https://en.wikipedia.org/wiki/Brain_stimulation_reward)
 		* Questions:
 			* How much wireheading research has been/is being done?
@@ -622,7 +730,6 @@ Texts
 * Elon Musk Forecast Correction Function
 	* Code: `1.8239233 * (forecasted-forecast_made) + 48.0502205` (days)
 	* [Original](https://web.archive.org/web/20210302224031/https://anthony.boyles.cc/Essays/portfolio/ElonMuskForecastCorrectionFunction.html)
-* Impact Measures Depend on, Rather Than Specify, Inaction Baselines
 * Auctioning off Your Body
 	* https://www.humanmicrobes.org/
 	* Kidney

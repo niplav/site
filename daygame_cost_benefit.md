@@ -42,12 +42,13 @@ Is this method of daygame worth it, and if yes, how much should one
 be doing?
 
 In this text, I first review existing texts on the topic and find them
-lacking in several ways. I then present a simple and general model
-for the value of doing a number of daygame approaches, and find that it
+lacking in several ways. I then present a simple and general model for
+the value of doing a number of daygame approaches, and find that it
 recommends doing 484 approaches with a value of \$969 in the optimum. I
 then extend the model to more subjective and hard to measure factors
 such as positive side effects, effects of daygame on mood and similar
-other factors, and estimate that \_.
+other factors, and estimate that the optimal number of approaches is 1024
+(power of two not indended, but appreciated), at a value of \$2110.
 
 The models presented don't consider externalities, be they positive or
 negative. That is the subject of a different debate.
@@ -95,6 +96,7 @@ returns in his analysis.
 <!--TODO: he has written a text about marriage & relationships, analyze that too?
 https://freenortherner.com/2012/11/01/financial-analysis-of-sex-relationship-vs-marriage/
 -->
+<!--TODO: link & consider Thomas Crown's “Is Daygame Efficient?”-->
 
 Ratios
 ------
