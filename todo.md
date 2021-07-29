@@ -1326,6 +1326,10 @@ produces
 * [Maximal pair](https://en.wikipedia.org/wiki/Maximal_pair)
 	* Add examples
 	* Add description of MUMs
+* Ulupi:
+	* In section “Marriage with Arjuna”, second paragraph, and following sections, the time is switched from present to past and back
+* Pickup artist:
+	* In the section “Criticism”, the website PUAhate.com is mentioned together with Elliot Rodger. However, it is not made clear that PUAhate.com was hate *against* pick up artists. Clarify.
 
 ### Metaculus Questions
 
