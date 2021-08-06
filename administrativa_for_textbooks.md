@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2021-06-26, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2021-07-31, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks (broadly defined as "a book with
 exercises"), and create some stuff while reading them (e.g. making
@@ -31,9 +31,9 @@ mental model of how it works.
 -----------
 
 * [Flashcards](./flash/causality.apkg)
-	* p. 1-110 (replacing P with hat with Ṗ and x with hat with ẋ for the simple reason that I couldn't find a way to make MathJax create the former)
+	* p. 1-125 (replacing P with hat with Ṗ and x with hat with ẋ for the simple reason that I couldn't find a way to make MathJax create the former)
 * Read:
-	* p. 1-110
+	* p. 1-125
 
 ”Naïve Set Theory”
 ------------------

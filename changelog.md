@@ -1,19 +1,26 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-07-23, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-08-07, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
 
+August 2021
+-----------
+
+* [Notes on Ethics](./notes_on_ethics.html)
+	* [We Should Kill All Mosquitoes](./notes_on_ethics.html#We-Should-Kill-All-Mosquitoes)
+
 July 2021
 ---------
 
 * [Notes](./notes.html)
-	* [Deference Attractors of Ethical Agents](./notes_on_ethics.html#Deference-Attractors-of-Ethical-Agents)
 	* [Ask About Frequency of Being Approached After Rejection](./notes.html#Ask-About-Frequency-of-Being-Approached-After-Rejection)
+* [Notes on Ethics](./notes_on_ethics.html)
+	* [Deference Attractors of Ethical Agents](./notes_on_ethics.html#Deference-Attractors-of-Ethical-Agents)
 
 June 2021
 ---------

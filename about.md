@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-07-01, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2021-08-07, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -326,6 +326,35 @@ In regard to software, my views are quite
 similar to those of the minimalist unix and [Plan
 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs) supporters at
 [suckless.org](https://suckless.org) and [cat-v.org](http://cat-v.org).
+
+### Miscellania
+
+Various measures of size for the website (excluding automatically generated content and transcriptions):
+
+	$ cat (l *.md | g -v chrono | g -v tao | g -v list) | pr | grep -Eo 'Page [0-9]+' | tail -1
+	Page 413
+	$ wc (l *.md | g -v chrono | g -v tao | g -v list) | tail -1
+	23102  125434  905988 total
+
+Benford's law:
+
+	$ grep -ho '[0-9]' *.md | sort | uniq -c | sort -n
+	5770 4
+	6662 6
+	6906 9
+	7036 3
+	7045 8
+	7286 5
+	7397 7
+	25223 1
+	27196 2
+	42394 0
+
+(Note: as of the time of writing, the list of numbers above is not
+reflectively stable, that is, after I update the numbers, the distribution
+of digits on my website changes slightly (since the numbers above are
+part of the website), but it does not reach fixation at some point,
+but rather cycles).
 
 ### Friends of the Site
 

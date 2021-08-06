@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-06, modified: 2020-04-20, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-06, modified: 2021-08-07, language: english, status: in progress, importance: 5, confidence: log*
 
 > __A collection of contributions to other projects.__
 
@@ -10,6 +10,13 @@ Contributions
 
 Texts
 -----
+
+<!--
+TODO:
+### Wikipedia
+
+Link to wikipedia contributions page
+-->
 
 <!--
 TODO: follow up on https://drewdevault.com/2014/02/02/The-worst-bugs.html,

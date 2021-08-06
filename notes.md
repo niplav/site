@@ -184,7 +184,9 @@ Alternatives:
 
 *	"Mapmaking": Using "The map is not the territory.", related to
 	practicality. Downside: also already taken.
-*	Metacognitive Movement<!--TODO: link-->
+*	[Metacognitive Movement](https://www.lesswrong.com/posts/4E4zbHSmyuhkqgJmm/let-s-rename-ourselves-the-metacognitive-movement)
+
+[Further discussion here](https://www.lesswrong.com/posts/dq8rwmWXXQ4D4T6YD/should-we-stop-using-the-term-rationalist).
 
 ### "Anarcho-Capitalism"
 
@@ -1151,7 +1153,9 @@ The group of people who would rent those nano-apartments would naturally
 be young singles who want to save money and live urban, perhaps that
 group is just too small/already served with university dorms?
 
-<!--TODO: add LW discussion thread on this-->
+### External Discussions
+
+* [LessWrong Open Thread](https://www.lesswrong.com/posts/hKNJSiyzB5jDKFytn/?commentId=XqH8irT5oEEfGTnZ7)
 
 She Needs to Know You're Not a Weirdo
 --------------------------------------

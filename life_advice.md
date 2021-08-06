@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-02-22, modified: 2021-06-12, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2021-02-22, modified: 2021-08-07, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Inspired by others
 ([Falkovich 2019](https://www.lesswrong.com/posts/HJeD6XbMGEfcrx3mD/100-ways-to-live-better "100 Ways To Live Better"),
@@ -48,7 +48,7 @@ And, as always, remember that I'm just a person on the internet.
 	* Get enough sleep to not be tired during the day
 	* Eliminate debt, invest money you have lying around
 	* Spend less time sitting
-		* The alternatives are standing and walking
+		* The alternatives are standing (e.g. at a standing desk) and walking
 	* Try to be better looking
 		* General hygiene
 		* Dressing better
@@ -78,12 +78,14 @@ And, as always, remember that I'm just a person on the internet.
 7. Sign up for [cryonics](https://waitbutwhy.com/2016/03/cryonics.html) (if you can afford it).
 	* It's [likely worth it](./considerations_on_cryonics.html)
 8.	People have a strong sense that once they come into remote contact
-	with something bad, it makes them a bad person, no matter how small the
-	badness or how remote the contact. You probably do this as well. This
-	is both psychologically unhealthy and makes no sense, since it usually
-	doesn't take into account the quantity of badness ("all bad things are
-	equally bad"). Try to reconize if you do this, and if other people do
-	this to you, and ignore it.
+	with something bad, it makes them a bad person, no matter
+	how small the badness or how remote the contact. You probably
+	do this as well. This is both psychologically unhealthy and
+	makes no sense, since it usually doesn't take into account
+	the quantity of badness ("all bad things are equally bad")
+	and doesn't weigh it against the quantity of goodness produced
+	(disallowing offsetting). Try to reconize if you do this, and
+	if other people do this to you, and ignore it.
 	*	Example: If you start investing money,
 		some people will probably tell you that you might be
 		giving money to unethical companies. While this might
@@ -102,9 +104,9 @@ And, as always, remember that I'm just a person on the internet.
 9. Try to spend less time in front of screens
 	* I know this seems obvious, but it's still just as bad for you
 10. Have a long-term plan to completely or nearly completely phase the internet out of your life
-	* The internet will probably become more addictive over time,
+	*	The internet will probably become more addictive over time,
 		and the increase in addictiveness will probably accelerate
-	* Technology is becoming more powerful, while the power of the human brain stays pretty much constant
+	* Technology is becoming more powerful, while the power of the human brain stays pretty much constant (maybe cultural evolution linearly develops better defenses)
 	* If this process crosses a certain
 		threshold, humanity is [probably
 		doomed](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like)
@@ -116,17 +118,18 @@ And, as always, remember that I'm just a person on the internet.
 	* Example: I had trouble going to bed early, so I [tried
 		Melatonin](./reports.html#Melatonin), which pretty much
 		solved my problem
-	* Example: I had trouble biting my nails, so I started [cutting them regularly](./reports.html#Mostly-
-topping-to-Bite-My-Nails), which also pretty much solved my problem
+	* Example: I had trouble biting my nails, so I started [cutting them regularly](./reports.html#Mostly-topping-to-Bite-My-Nails), which also pretty much solved my problem
 	* Example: I used to have a problem with getting distracted by the internet during hours when I wanted to be working. I went to a place without internet, which made working easier.
-12. The benefits of small amounts of meditation are probably overstated, while the benefits of large amounts of
-editation (north of 1 hour a day) are probably heavily underestimated. I have had [very good experiences with it](./rports.html#300-Hours-of-Meditation).
+12.	The benefits of small amounts of meditation are probably
+	overstated, while the benefits of large amounts of
+	meditation (north of 1 hour a day) are probably heavily
+	underestimated. I have had [very good experiences with
+	it](./rports.html#300-Hours-of-Meditation).
 	*	The basic foundational activity before meditation is just
 		doing nothing. It shouldn't be very hard to do, but it is.
 13. The ability to form habits is powerful.
 	* Establishing low-value low-difficulty habits intentionally can train this
-		* Example: Eating a small bar of chocolate a day <!--TODO: find Romeo stevens talk where he ta
-ks about this-->
+		* Example: Eating a small bar of chocolate a day <!--TODO: find Romeo stevens talk where he talks about this-->
 14. Related: Trigger-Action plans. They're great.
 15. Only consume media you actually enjoy consuming, not the media you brag about consuming in front of others
 	* Seriously. If you don't enjoy the process, just don't do it.
