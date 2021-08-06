@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-03-31, modified: 2021-06-13, language: english, status: notes, importance: 3, confidence: highly unlikely*
+*author: niplav, created: 2021-03-31, modified: 2021-08-06, language: english, status: notes, importance: 3, confidence: highly unlikely*
 
 > __This page contains my notes on ethics, separated from my regular
 notes to retain some structure to the notes.__
@@ -269,7 +269,42 @@ a molochian attractor state we don't want to get out of. Leave a line
 of retreat in ideology-space!
 
 For a rough attempt to formalize this, see [TurnTrout & elriggs
-2019](https://www.lesswrong.com/s/7CdoznhJaLEKHwvJW/p/6DuJxY8X45Sco4bS2).
+2019](https://www.lesswrong.com/s/7CdoznhJaLEKHwvJW/p/6DuJxY8X45Sco4bS2 "Seeking Power is Often Robustly Instrumental in MDPs").
+
+### We Should Kill All Mosquitoes
+
+If we assign a non-miniscule amount of credence to [retributive
+theories of justice](https://en.wikipedia.org/wiki/Retributive_justice)
+that include invertebrates as culpable agents, humanity might have
+an (additional) duty to exterminate mosquitoes. Between [5% and
+50%](https://en.wikipedia.org/wiki/Mosquito) of all humans that have
+ever lived have been killed by mosquito-born diseases – if humanity
+wants to restore justice for all past humans that have died at the
+[proboscis](https://en.wikipedia.org/wiki/Proposcis) of mosquito, the
+most sensible course of action is to exterminate some or all species of
+mosquito that feed on human blood and transmit diseases.
+
+A mild counterpoint to this view is that we have an obligation to help
+species that thrive on mosquitoes, since they have helped humanity
+throughout the ages.
+
+There are of course also additional reasons to exterminate some species
+of mosquito: 700k humans die per year from mosquito-borne diseases,
+and mosquitos might be better off not existing at all (with gene drives
+being an effective method of driving them to extinction) (see
+[Tomasik 2017](https://foundational-research.org/the-importance-of-wild-animal-suffering/ "The Importance of Wild-Animal Suffering")
+and
+[Tomasik 2016](https://reducing-suffering.org/the-importance-of-insect-suffering/ "The Importance of Insect Suffering")
+as introductions):
+
+> the cost-effectiveness of the \$1 million campaign to eliminate
+mosquitoes would be (7.5 * 10¹⁴ insect-years prevented) *
+(0.0025) / \$1 million = 1.9 * 10⁶ insect-years prevented per
+dollar [by increasing human population]. As one might expect,
+this is much bigger than the impact on mosquito populations
+directly as calculated in the previous section.
+
+*–[Brian Tomasik](https://reducing-suffering.org), [Will Gene Drives Reduce Wild-Animal Suffering?](https://reducing-suffering.org/will-gene-drives-reduce-wild-animal-suffering/), 2018*
 
 Why Death is Bad
 -----------------

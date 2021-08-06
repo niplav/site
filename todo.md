@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-07-25, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-08-07, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -105,6 +105,7 @@ Texts
 			* Two boundary methods:
 				* Compare using a scoring rule on any question the forecasters predicted on
 				* Compare using a scoring rule on the intersection of the questions the forecasters predicted on
+			* Two functions of scoring rules: Rewarding or comparing forecasters
 		* How can we deal with questions with unclear resolution criteria?
 		* How do we incentivise good predictions on long-term questions?
 		* How do we incentivise good predictions on low-probability events?
@@ -289,6 +290,8 @@ don't really seem to respond to the classical AI risk arguments/scenarios.
 	* Direct Number on Street
 	* Direct Date on Street
 	* Direct Date off Street
+* Daygame on a Medium Dose of MDMA
+	* It worked pretty well, 22 approaches, 5 numbers (although only 2 non-flakey)
 
 ### Arguments
 
@@ -297,6 +300,7 @@ don't really seem to respond to the classical AI risk arguments/scenarios.
 	* Performance
 	* Portability
 	* → Caveat: Only portable if very reliably/portably written
+		* I.e. stick to the standard, no GNUisms
 * Unix is Not About Reimplementing Unix
 	* Examples for claim:
 		* [Node JS](http://blog.izs.me/post/48281998870/unix-philosophy-and-nodejs)
@@ -498,6 +502,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Voting Cost-Benefit Analysis
 	* Altruistic, egoistic
 * Subjective time experience for advanced meditators
+	* Wittmann & Schmidt 2013
 * Timeline of the Odyssee
 * Roomba Cost-Benefit Analysis
 * A History of the Term “Rationalist”
@@ -506,6 +511,27 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Meditation
 	* New experiences
 	* Drugs?
+	* Wireheading
+		* [Electrical Brain Stimulation](https://en.wikipedia.org/wiki/Electrical_brain_stimulation)
+		* [Wireheading](https://en.wikipedia.org/wiki/Wirehead_\(science_fiction\))
+		* [Brain Stimulation Reward](https://en.wikipedia.org/wiki/Brain_stimulation_reward)
+		* Questions:
+			* How much wireheading research has been/is being done?
+			* Why is there so little wireheading research/why is it not very prominent?
+			* Do animals (especially humans) develop tolerance to intracranial stimulation?
+			* Do animals (especially humans) develop an addiction to intracranial stimulation?
+			* Is wireheading reversible? (in principle, in practice so far)
+			* How long can one wirehead until it leads to negative health outcomes (in principle, in practice)
+			* How good does intracranial stimulation feel? (compared to other positive experiences)
+			* Is wireheading actually pleasurable or just compelling? (in the sense that one wants to continue being wireheaded although it doesn't strictly "feel good")
+			* How does intracranial stimulation work?
+		* Desiderata:
+			* Reversibility
+			* Non-adaption
+			* Non-addiction
+			* Safety
+			* Ability preservation
+			* Anti-slipperiness
 
 ### Ideas
 
@@ -701,27 +727,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Much More Than You Wanted to Know
 	* Vandwelling
 	* UBI
-	* Wireheading
-		* [Electrical Brain Stimulation](https://en.wikipedia.org/wiki/Electrical_brain_stimulation)
-		* [Wireheading](https://en.wikipedia.org/wiki/Wirehead_\(science_fiction\))
-		* [Brain Stimulation Reward](https://en.wikipedia.org/wiki/Brain_stimulation_reward)
-		* Questions:
-			* How much wireheading research has been/is being done?
-			* Why is there so little wireheading research/why is it not very prominent?
-			* Do animals (especially humans) develop tolerance to intracranial stimulation?
-			* Do animals (especially humans) develop an addiction to intracranial stimulation?
-			* Is wireheading reversible? (in principle, in practice so far)
-			* How long can one wirehead until it leads to negative health outcomes (in principle, in practice)
-			* How good does intracranial stimulation feel? (compared to other positive experiences)
-			* Is wireheading actually pleasurable or just compelling? (in the sense that one wants to continue being wireheaded although it doesn't strictly "feel good")
-			* How does intracranial stimulation work?
-		* Desiderata:
-			* Reversibility
-			* Non-adaption
-			* Non-addiction
-			* Safety
-			* Ability preservation
-			* Anti-slipperiness
 	* Shipping
 	* The Uyghurs and China
 	* Cryonics in Germany
@@ -957,6 +962,8 @@ Collect data on
 * Meditation
 * [Masturbation](./data/masturbations.csv)
 * A Large Dataset of Forecasts and Outcomes
+* Large STEM Dataset
+	* For training large ML models that are less likely to be [human models](https://www.lesswrong.com/posts/BKjJJH2cRpJcAnP7T)
 
 Music
 -----
@@ -1248,17 +1255,6 @@ Programming
 	* add C-← and C-→ for jumping words in insert mode (equivalent of b and e)
 	* fix syntax highlighting for ocaml with single quotes: 'a takes the whole line
 	* Syntax highlighting of inline code in markdown is annoying (dark blue background!)
-	*	Using '=' for formatting text is not unicode-respecting, formatting
-		"∸∸∸∸∸ ∸∸∸∸ ∸∸∸∸ ∸∸∸∸∸
-		∸∸∸∸∸ However, in a sense, maxichoice
-		contraction functions in general produce contractions"
-
-produces
-
-	∸∸∸∸∸ ∸∸∸∸ ∸∸∸∸ ∸∸∸∸∸
-	∸∸∸∸∸ However, in a sense, maxichoice contraction
-	functions in general produce contractions
-
 * sad
 	* implement features that weren't finished
 	* care for it
@@ -1312,6 +1308,18 @@ produces
 >	Add subtract multiply divide remainder or exponentiate the top
 >	two values on the stack.
 
+* Make GNU fmt respect unicode:
+	*	Formatting
+		"∸∸∸∸∸ ∸∸∸∸ ∸∸∸∸ ∸∸∸∸∸
+		∸∸∸∸∸ However, in a sense, maxichoice
+		contraction functions in general produce contractions"
+
+produces
+
+	∸∸∸∸∸ ∸∸∸∸ ∸∸∸∸ ∸∸∸∸∸
+	∸∸∸∸∸ However, in a sense, maxichoice contraction
+	functions in general produce contractions
+
 ### Wikipedia Articles
 
 #### Create
@@ -1326,10 +1334,6 @@ produces
 * [Maximal pair](https://en.wikipedia.org/wiki/Maximal_pair)
 	* Add examples
 	* Add description of MUMs
-* Ulupi:
-	* In section “Marriage with Arjuna”, second paragraph, and following sections, the time is switched from present to past and back
-* Pickup artist:
-	* In the section “Criticism”, the website PUAhate.com is mentioned together with Elliot Rodger. However, it is not made clear that PUAhate.com was hate *against* pick up artists. Clarify.
 
 ### Metaculus Questions
 

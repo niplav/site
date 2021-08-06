@@ -135,11 +135,12 @@ approaches, an intermediate one out of fifty, and an advanced daygamer
 one lay out of thirty. He doesn't specify how much practice makes
 a beginner/intermediate/advanced daygamer.
 
-The numbers for the approach-to-lay ratios were 1 in
-100 for beginners, 1 in 50 for intermediate daygamers and 1 in 30 for
-experts. I will assume that this is comparatively over-optimistic, and
-assume that the date-to-lay ratio starts at 1 in 200, and then converges
-towards 1 in 50 on the scale of thousands of approaches:
+The numbers for the approach-to-lay ratios were 1 in 100 for beginners,
+1 in 50 for intermediate daygamers and 1 in 30 for experts. I will
+assume that this is comparatively over-optimistic, and assume that
+the date-to-lay ratio starts at 1 in 200, and then converges towards
+1 in 50 on the scale of thousands of approaches in the form of an
+[S-curve](https://www.lesswrong.com/posts/oaqKjHbgsoqEXBMZ2 "S-Curves for Trend Forecasting"):
 
 	ratiobegin::0.005
 	ratioexp::0.02
