@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-07-30, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-08-19, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,7 +11,9 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
-* [The Tomorrow War]()
+* [Evangelion 3.0+1.0: Thrice Upon a Time]()
+* [Kaiserschmarrndrama](https://www.imdb.com/title/tt11034894/)
+* [The Tomorrow War](https://www.imdb.com/title/tt9777666/)
 * [North by Current](https://www.imdb.com/title/tt10196480/)
 * [The Avengers](https://www.imdb.com/title/tt0848228/)
 * [Ice Age: The Meltdown](https://www.imdb.com/title/tt0438097/)
