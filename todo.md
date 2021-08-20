@@ -95,6 +95,7 @@ Texts
 			* Taking into account:
 				* Accuracy compared to others
 				* Importance of question
+			* That incentivize collaboration and positive-sum interactions instead of information-hiding
 		* Related: How can we compare the skill and reliability of forecasters to one another?
 			* Metaculus at the moment does this by "who writes good comments". That seems inadequate.
 			* Taking into account:

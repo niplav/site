@@ -27,6 +27,7 @@ HTML=index.html \
 	99_problems_collection.html \
 	99_problems_klong_solution.html \
 	against_applause.html \
+	bcis_and_alignment.html \
 	buch_stab.html \
 	circle_combinations.html \
 	consciousness_diagram.html \
@@ -46,6 +47,7 @@ HTML=index.html \
 	range_and_forecasting_accuracy.html \
 	rationalist_gods.html \
 	senryu.html \
+	speculations_on_2030.html \
 	tao_te_king.html \
 	text_reviews.html \
 	toy_ai_takeoff_model.html \

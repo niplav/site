@@ -1237,3 +1237,12 @@ center that often, she'll naturally get approached less).
 
 That said, it's not a very precise question, and is likely interpreted
 in many different ways, so I don't put that much weight on the responses.
+
+<!--
+How Many Proton Decays?
+------------------------
+
+How many proton decays should we expect to have happened in the universe so far?
+
+Proton decay follows a geometric distribution
+-->
