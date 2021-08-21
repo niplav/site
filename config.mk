@@ -42,12 +42,12 @@ HTML=index.html \
 	masturbation_and_attractiveness.html \
 	mathematics_notation_convention.html \
 	metamodernistisches_manifest.html \
+	ordinary_life_improvements_2030.html \
 	pipe_rings.html \
 	platte.html \
 	range_and_forecasting_accuracy.html \
 	rationalist_gods.html \
 	senryu.html \
-	speculations_on_2030.html \
 	tao_te_king.html \
 	text_reviews.html \
 	toy_ai_takeoff_model.html \
