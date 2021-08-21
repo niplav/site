@@ -917,6 +917,8 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Text by german early 20th century continental philosopher about this object
 	* Fragments by a 11th century german monk about this
 * Guten Morgen
+* All-Feeler
+	* Object that untwists topological boundaries in phenomenological space
 * Qui Custodiet?
 	*	A group of AI alignment researchers by accident
 		stumbles upon cognitive enhancement and willpower direction

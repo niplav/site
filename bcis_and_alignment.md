@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-08-17, modified: 2021-08-17, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2021-08-17, modified: 2021-08-21, language: english, status: notes, importance: 6, confidence: possible*
 
 > __.__
 
@@ -68,7 +68,8 @@ progress in BCIs could make WBEs more likely before an AI [point of no
 return](https://www.lesswrong.com/posts/JPan54R525D68NoEt/the-date-of-ai-takeover-is-not-the-day-the-ai-takes-over "The date of AI Takeover is not the day the AI takes over")
 by improving the understanding of the human brain.
 
-A similar but weaker argument would apply to [Ai systems that imitate human behavior](https://www.alignmentforum.org/posts/LTFaD96D9kWuTibWr/just-imitate-humans "Just Imitate Humans?").
+A similar but weaker argument would apply to
+[Ai systems that imitate human behavior](https://www.alignmentforum.org/posts/LTFaD96D9kWuTibWr/just-imitate-humans "Just Imitate Humans?").
 
 ### “Merging” AI Systems With Humans
 
@@ -135,7 +136,7 @@ roughly along the axes of integration with digital systems/speed/:
 Biological humans – humans with BCIs – whole-brain emulations –
 human imitations. This spectrum also partially tracks how aligned
 these human-like systems can be expected to act: a human imitation
-off-distribution seems much less trust-worthy than a whole-brain emulation
+off-distribution seems much less trustworthy than a whole-brain emulation
 of a human.
 
 Arguments Against the Utility of Brain-Computer Interfaces in AI Alignment

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2021-06-25, language: english, status: finished, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2021-08-21, language: english, status: finished, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -755,6 +755,41 @@ information from those brains. If it is not possible to extract this
 information without reviving the cryopreserved people, they might
 reuscitate them and then interrogate these revived people for a very
 long time, with little regard for their well-being.
+
+##### Being Revived as an Emulation and Forced to Work
+
+A relatively common worry that prevents people from signing up for
+cryonics is a scenario in which their brain is scanned and they are
+transformed into a whole-brain emulation. This is often accompanied by
+linking [qntm 2021](https://qntm.org/lena.html).
+
+For this to happen, several things need to happen:
+
+1. The technology for whole-brain emulations is developed
+2. The brain of the person is scanned
+3. The scanned person is forced to work
+4. Optionally, the preserved person is copied many times over and the copies are all used for work
+
+For 2 to occur, somebody needs to be interested in emulating
+the person in question. This could be because they are part
+of the cryonics organisation, and want to fulfill the contract
+that the cryonics organisation and its members have signed,
+or because they want to use the person for slave labour.
+In the latter case, they will usually seek the most profitable
+option, and several forces work against the preserved person
+being that option:
+
+* If whole-brain emulation is wide-spread, and copying of whole-brain emulations is easy:
+	* Competition among whole-brain emulations is likely fierce, and labor by emulations would be as cheap as slave-labour (so there is no particular reason to enslave emulations)
+	* The average emulation is likely very competent and elite, and a much better worker than the average college-educated persoe ([Hanson 2016 pp. 161-163](https://ageofem.com "The Age of Em") estimates that most ems are going to be copies of fewer than a thousand or so original humans, each most likely again selected from several thousand individual childhoods to select the most capable educational lineage)
+* Uploading a vitrified brain seems to be at least as difficult as scanning a freshly deceased brain or a living brain, and possibly much more difficult, so it would not be necessarily more economically viable
+* There would be no laws protecting cryogenically preserved humans (or the emulations resulting from them)
+* It appears more likely than not that cryonics organisations will attempt to prevent the theft of preserved humans (although the organisations could fail and abandon or sell the preserved humans)
+
+That said, if scanning living or recently deceased humans is illegal
+or very hard, but uploading and using cryogenically preserved humans is
+legal or less difficult, then this might be a legitimate worry, because
+a preserved human can't take any actions to prevent this scenario.
 
 #### Steps for Reducing the Risk from such Scenarios
 

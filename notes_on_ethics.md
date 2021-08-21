@@ -289,9 +289,9 @@ species that thrive on mosquitoes, since they have helped humanity
 throughout the ages.
 
 There are of course also additional reasons to exterminate some species
-of mosquito: 700k humans die per year from mosquito-borne diseases,
-and mosquitos might be better off not existing at all (with gene drives
-being an effective method of driving them to extinction) (see
+of mosquito: 700k humans die per year from mosquito-borne diseases, and
+it might be better for mosquitos themselves to not exist at all (with
+gene drives being an effective method of driving them to extinction) (see
 [Tomasik 2017](https://foundational-research.org/the-importance-of-wild-animal-suffering/ "The Importance of Wild-Animal Suffering")
 and
 [Tomasik 2016](https://reducing-suffering.org/the-importance-of-insect-suffering/ "The Importance of Insect Suffering")
