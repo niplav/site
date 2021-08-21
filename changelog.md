@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-08-07, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-08-21, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -13,6 +13,8 @@ August 2021
 
 * [Notes on Ethics](./notes_on_ethics.html)
 	* [We Should Kill All Mosquitoes](./notes_on_ethics.html#We-Should-Kill-All-Mosquitoes)
+* Added one section to [Considerations on Cryonics](./considerations_on_cryonics.html):
+	* [Being Revived as an Emulation and Forced to Work](./considerations_on_cryonics.html#Being-Revived-as-an-Emulation-and-Forced-to-Work)
 
 July 2021
 ---------
