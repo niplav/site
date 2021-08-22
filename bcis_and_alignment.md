@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-08-17, modified: 2021-08-21, language: english, status: draft, importance: 6, confidence: possible*
+*author: niplav, created: 2021-08-17, modified: 2021-08-23, language: english, status: draft, importance: 6, confidence: possible*
 
 > __.__
 
@@ -26,8 +26,9 @@ stating some tree of arguments that I think many AI alignment
 researchers tacitly believe, mostly taking the Bostrom/Yudkowsky
 story of AI risk (although it might be generalizable to a
 [Christiano-like](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like
-"What failure looks like") story; I don't know enough about CAIS or
-ARCHES to make a judgment about the applicability of the arguments).
+"What failure looks like") story; I don't know enough about
+[CAIS](https://www.lesswrong.com/posts/x3fNwSe5aWZb5yXEG "Reframing Superintelligence: Comprehensive AI Services as General Intelligence")
+or ARCHES to make a judgment about the applicability of the arguments).
 
 Arguments For the Utility of Brain-Computer Interfaces in AI Alignment
 -----------------------------------------------------------------------
@@ -123,11 +124,14 @@ planning modules by humans, while short-term planning would be left to
 AI systems.
 
 Alternatively, if humanity decides it wants to prevent AI systems from
-forming [human models](https://www.lesswrong.com/posts/BKjJJH2cRpJcAnP7T),
+forming [human
+models](https://www.lesswrong.com/posts/BKjJJH2cRpJcAnP7T "Thoughts on Human Models"),
 modeling humans & societies could be outsourced to actual humans, whose
 human models would be used by the AI systems.
 
 #### Input of Policies
+
+### Aid to Interpretability Work
 
 ### Side-note: A Spectrum from Humans to Human Imitations
 
@@ -142,7 +146,33 @@ of a human.
 Arguments Against the Utility of Brain-Computer Interfaces in AI Alignment
 ---------------------------------------------------------------------------
 
-### Possibly Unaligned Systems Have Direct Access to Human Brains
+> And so we boldly go—into the whirling knives.
+
+*–[Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), “Superintelligence: Paths, Dangers, Strategies” p. 143, 2014*
+
+### Direct Neural Takeover Made Easy
+
+A common observation about AI alignment is that initially AI systems
+would be confined to computers, hopefully only with indirect contact
+to the outside world (i.e. no access to roboters, nanotechnology
+or factories). While there are some responses to these arguments
+(see i.e. [Yudkowsky 2016a](https://arbital.com/p/user_manipulation/ "User manipulation"),
+[Yudkowsky 2016b](https://arbital.com/p/30b/ "User maximization"),
+[Bostrom 2014 pp. 117-122]("Superintelligence: Paths, Dangers, Strategies")<!--TODO: link to
+Superintelligence-->), the proposal of connecting humans to potentially
+unaligned AI systems offers these counterarguments more weight.
+
+Given direct access to the nervous system of a human, an AI system would
+be more likely to be able to hijack the human and use them to instantiate
+more instances of itself in the world (especially on computers with more
+computing power or access to manufacturing capabilities). Even if the
+access to the human brain is severely restricted to few bits and very
+specific brain regions (therewhile making the connection less useful
+in the first place), the human brain is not modular, and as far as I
+understand not designed to withstand adversarial interaction on the neural
+level (as opposed to attacks through speech or text, which humans are
+arguably more optimized against through constant interaction with other
+humans who tried to manipulate them by interaction through the senses).
 
 ### Opportunity Cost
 
@@ -150,17 +180,46 @@ If work on BCIs is net-positive in expectation for making AI go well,
 it might be the case that other approaches are more promising, and that
 focusing on BCIS might leave those approaches underdeveloped.
 
-For example, one can posit neural network interpretability as the
-[GiveDirectly](https://www.givedirectly.org/) of AI alignment: reasonably
-tractable, likely helpful in a large class of scenarios, with basically
-unlimited scaling and only slowly diminishing returns. And just as any
-new EA cause area must pass the first test of being more promising than
-GiveDirectly, so every alignment approach could be viewed as a competitor
-to interpretability work.
+For example, one can posit [neural network
+interpretability](https://www.lesswrong.com/posts/X2i9dQQK3gETCyqh2 "Chris Olah’s views on AGI safety")
+as the [GiveDirectly](https://www.givedirectly.org/) of AI alignment:
+reasonably tractable, likely helpful in a large class of scenarios, with
+basically unlimited scaling and only slowly diminishing returns. And
+just as any new EA cause area must pass the first test of being more
+promising than GiveDirectly, so every alignment approach could be viewed
+as a competitor to interpretability work.
 
 ### “Merging” is Just Faster Interaction
 
+Most proposals of “merging” AI systems and humans using BCIs
+are proposals of speeding up the interaction betwen humans and
+computers (and possibly increasing the amount of information that
+humans can process): A human typing at a keyboard can likely
+perform all operations on the computer that a human connected
+to the computer via a BCI can, such as giving feedback in a [CIRL
+game](doc/bcis_and_alignment/cooperative_inverse_reinforcement_learning_hadfield_mendell_et_al_2016.pdf "Cooperative Inverse Reinforcement Learning"),
+interpreting a neural network, analysing the policy of a reinforcement
+learner etc. As such, BCIs offer no qualitatively new strategies for
+aligning AI systems.
+
+While this is not negative (after all, quantity (of interaction) can
+have a quality of its own), if we do not have a type of interaction
+that makes AI systems aligned in the first place, faster interaction
+will not make our AI systems safer.
+
+Additionally, supervision of AI systems through fast interaction would
+be additional to a genuine solution to the AI alignment problem: Ideally
+[niceness is the first line of
+defense](https://arbital.com/p/niceness_defense/ "Niceness is the first line of defense")
+and [the AI would tolerate our safety
+measures](https://arbital.com/p/nonadversarial_safety/ "The AI must tolerate your safety measures"),
+but most arguments for BCIs being useful already assume that the AI
+system is not aligned.
+
 ### Problems Arise with Superhuman Systems
+
+When combining humans with BCIs and AI systems, several problems might
+arise.
 
 #### Performance Problems
 

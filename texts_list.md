@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-08-20, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-08-23, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -143,7 +143,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * Das Glück (Friedrich Schiller, 1804)
 * Das Geheimnis (Friedrich Schiller, 1804)
 * Der Tanz (Friedrich Schiller, 1804)
-* \* Forschungen eines Hundes (Franz Kafka, 1922)
+* Forschungen eines Hundes (Franz Kafka, 1922)
 * [Dishonest Update Reporting (Zvi, 2019)](https://www.lesswrong.com/posts/XKGPgNLjPbjSAwLiL)
 * [Review of Soft Takeoff Can Still Lead to DSA (Daniel Kokotajlor, 2021)](https://www.lesswrong.com/s/dZMDxPBZgHzorNDTt/p/P448hmmAeGepQDREs)
 * [AlphaStar: Impressive for RL progress, not for AGI progress (orthonormal, 2019)](https://www.lesswrong.com/posts/SvhzEQkwFGNTy6CsN)
