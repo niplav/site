@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-08-23, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-08-27, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Value (Alexei Andreev/Eliezer Yudkowsky, 2017)](https://arbital.com/p/value_alignment_value/)
+* [General intelligence (Eliezer Yudkowsky, 2017)](https://arbital.com/p/general_intelligence/)
+* The Windup Girl (Paolo Bacigalupi, 2009)
+* \* Maps Between Some Different Kinds of Contraction Function: The Finite Case (Caros E. Alchourrón/David Makinson, 1984)
 * [Debate on Instrumental Convergence between LeCun, Russell, Bengio, Zador, and More (Ben Pace, 2019)](https://www.lesswrong.com/posts/WxW6Gc6f2z3mzmqKs)
 * [Immediate goods (Alexei Andreev/Eliezer Yudkowsky, 2015)](https://arbital.com/p/immediate_goods/)
 * [[Part 1] Amplifying generalist research via forecasting – Models of impact and challenges (jacobjacob/ozziegooen/Elizabeth/NunoSempere/bgold, 2019)](https://www.lesswrong.com/posts/cLtdcxu9E4noRSons/part-1-amplifying-generalist-research-via-forecasting-models)
@@ -139,7 +143,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Potential Ways to Fight Mazes (Zvi, 2020)](https://www.lesswrong.com/s/kNANcHLNtJt5qeuSS/p/S2Tgbve2d3vpsNtrQ)
 * [Persuasion Tools: AI takeover without AGI or agency? (Daniel Kokotajlo 2020)](https://www.lesswrong.com/s/dZMDxPBZgHzorNDTt/p/qKvn7rxP2mzJbKfcA)
 * [Craving, suffering, and predictive processing (three characteristics series) (Kaj Sotala, 2020)](https://www.lesswrong.com/s/ZbmRyDN8TCpBTZSip/p/gvXFBaThWrMsSjicD)
-* \* Practical Insight Meditation (Mahāsi Sayādaw, 1971)
+* Practical Insight Meditation (Mahāsi Sayādaw, 1971)
 * Das Glück (Friedrich Schiller, 1804)
 * Das Geheimnis (Friedrich Schiller, 1804)
 * Der Tanz (Friedrich Schiller, 1804)

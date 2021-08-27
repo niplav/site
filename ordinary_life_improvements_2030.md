@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-08-21, modified: 2021-08-21, language: english, status: finished, importance: 1, confidence: fiction*
+*author: niplav, created: 2021-08-21, modified: 2021-08-24, language: english, status: finished, importance: 1, confidence: fiction*
 
 > __As a response to [Applied Divinity Studies
 2021](https://applieddivinitystudies.com/2030/), I wrote a [long
@@ -38,9 +38,9 @@ Things That Have Gone Well
 	matching algorithms picking out people who just really enjoy each
 	other's company, both as friends and romantically). However,
 	porn-addiction is still slightly worse than it was at the
-	beginning of the 2020s. However, the social norms that prevent
-	more predatory companies from making people addicted to devices
-	again are slowly starting to apply to porn as well.
+	beginning of the 2020s. Luckily, the social norms that prevent
+	more predatory companies from making people addicted to their
+	devices again are slowly starting to apply to porn as well.
 *	Relatedly, AI generated art has become super good. You think
 	[this](https://www.youtube.com/watch?v=mgHxmAsINDk) is good
 	orchestral music? Wait till you hear the symphonies written
@@ -51,8 +51,8 @@ Things That Have Gone Well
 	case happened in 2028, and the WHO is preparing to announce the
 	end of mosquito borne-diseases altogether. The killer that might
 	be responsible for half of all human deaths ever is finally gone.
-*	The number of humans living at or under the poverty line is now
-	at 4%, and still falling.
+*	The number of humans worldwide living at or under the extreme
+	poverty line is now at 4%, and still falling.
 *	In 2029, we first reached an experimental fusion reactor with
 	Q>1. It doesn't look like it's going to go into mass production
 	*just* yet, but let's give it another ten years, shall we?
