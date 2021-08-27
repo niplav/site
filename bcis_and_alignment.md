@@ -3,10 +3,29 @@
 
 *author: niplav, created: 2021-08-17, modified: 2021-08-23, language: english, status: draft, importance: 6, confidence: possible*
 
-> __.__
+> __I discuss arguments for and against the usefulness of brain-computer
+interfaces in relation to AI alignment, and conclude that the path to
+AI going well using BCIs hasn't been properly discussed.__
 
 Brain-Computer Interfaces and AI Alignment
 ===========================================
+
+As a response to Elon Musk declaring that [NeuraLink's purpose is to
+aid AI alignment](https://www.youtube.com/watch?v=ycPr5-27vSI&t=1447s),
+[Muehlhauser
+2021](https://lukemuehlhauser.com/musks-non-missing-mood "Musk's non-missing mood")
+cites [Bostrom 2014 ch.
+2](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies)
+for reasons why brain-computer interfaces seem unlikely to be helpful
+with AI alignment. However, the chapter referenced is not about whether AI alignment
+can be aided by brain-computer interfaces, but mostly about whether superintelligent
+systems can be built using human brains and brain-computer interfaces.
+
+Arguments against the usefulness for brain-computer interfaces
+in AI alignment have been raised, but mostly [in short form on
+twitter](https://twitter.com/robbensinger/status/1405878940149944332).
+This text attempts to collect arguments for and against brain-computer
+interfaces from an AI alignment perspective.
 
 Epistemic Status
 -----------------
@@ -46,6 +65,11 @@ of BCIs over traditional perception:
 * Exchange of mental models (instead of explaining a complicated model, one would be able to simply “send” the model to another person, saving a lot of time explaining)
 * Outsourcing simple cognitive tasks to external computers
 
+It would be useful to try to estimate whether BCIs could make as much of
+a difference to human cognition as language, writing or the internet,
+and to perhaps even quantify the advantage in intelligence and speed
+given by BCIs.
+
 <!--TODO: how much more intelligent? How much faster?-->
 
 ### Understanding the Human Brain
@@ -70,7 +94,7 @@ return](https://www.lesswrong.com/posts/JPan54R525D68NoEt/the-date-of-ai-takeove
 by improving the understanding of the human brain.
 
 A similar but weaker argument would apply to
-[Ai systems that imitate human behavior](https://www.alignmentforum.org/posts/LTFaD96D9kWuTibWr/just-imitate-humans "Just Imitate Humans?").
+[AI systems that imitate human behavior](https://www.alignmentforum.org/posts/LTFaD96D9kWuTibWr/just-imitate-humans "Just Imitate Humans?").
 
 ### “Merging” AI Systems With Humans
 
@@ -131,7 +155,19 @@ human models would be used by the AI systems.
 
 #### Input of Policies
 
+As a matter of completeness, one might hypothesize about an AI
+agent that is coupled with a human, where the human can overwrite
+the policy of the agent (or, alternatively, the agent samples
+policies from some part of the human brain directly). In this case,
+however, when not augmented with other methods of “merging”
+humans and AI systems, the agent has a strong [instrumental
+pressure](https://arbital.com/p/instrumental_convergence/ "Instrumental Convergence")
+to remove the ability of the human to change its policy at a whim.
+
 ### Aid to Interpretability Work
+
+By increasing the speed of interaction and augmenting human intelligence,
+BCIs might aid the quest of improving the interpretability of AI systems.
 
 ### Side-note: A Spectrum from Humans to Human Imitations
 
@@ -218,16 +254,65 @@ system is not aligned.
 
 ### Problems Arise with Superhuman Systems
 
-When combining humans with BCIs and AI systems, several problems might
-arise.
+When combining humans with BCIs and
+[superhuman](https://arbital.com/p/relative_ability/ "Infrahuman, par-human, superhuman, efficient, optimal")
+AI systems, several issues might arise that were no problem with
+infrahuman systems.
 
-#### Performance Problems
+When infrahuman AI systems are “merged” with humans in a way
+that is nontrivially different from the humans using the AI system,
+the performance bottleneck is likely going to be the AI part of the
+tandem. However, once the AI system passes the human capability threshold
+in most domains necessary for the task at hand, the bottleneck is going
+to be the humans in the system. While such a tandem is likely not going
+to be strictly only as capable as the humans alone (partially because the
+augmentation by BCI makes the human more intelligent), such systems might
+not be competitive against AI-only systems that don't have a human part.
 
-#### Transparency Problems
+These bottlenecks might arise due to different speeds of cognition
+and increasingly alien abstractions by the AI systems that need to be
+translated into human concepts.
 
-### Speed Differences are Problematic
+### “Merging” AI Systems with Humans is Underspecified
 
-### Successful Alignment via BCIs Depends on Knowing Details
+To my knowledge, there is no publicly written up explanation of what it
+would mean for humans to “merge” with AI systems. I explore some of
+the possibilities in [this section](#Merging-AI-Systems-With-Humans),
+but these mostly boil down faster interaction.
+
+It seems worrying that a complete company has been built on a vision
+that has no clearly articulated path to success.
+
+### BCIs Improve Capabilities Research as Well
+
+If humanity builds BCIs, it seems not certain that the AI alignment
+community is going to be especially privileged over the AI capabilities
+community with regards to access to these devices. Unless BCIs increase
+human wisdom as well as intelligence, widespread BCIs that only enhance
+human intelligence would be net-zero in expectation.
+
+If an alignment-interested company like NeuraLink acquires a strong lead
+in BCI technology and provides it exclusively to alignment-oriented
+organisations, it appears possible that BCIs will be a [pivotal
+tool](https://arbital.com/p/pivotal/ "Pivotal event") for helping to
+secure the development of AI.
 
 Subjective Conclusion
 ----------------------
+
+Before collecting these arguments and thinking about the topic, I was
+quite skeptical that BCIs would be useful in helping align AI systems: I
+believed that while researching BCIs would be in expectation net-positive
+there are similarly tractable approaches to AI alignment with a much
+higher expected value.
+
+I still basically hold that belief, but have shifted my expected value
+of researching BCIs for AI alignment upwards somewhat (if pressed,
+I would give an answer of a factor of 2, but I haven't thought about
+that number very much).
+
+I am somewhat worried that there is no writeup of a possible path to AI
+going well that is focused on BCIs, given that a whole company has been
+founded based on that vision. An explanation of a path to success would be
+helpful in furthering the discussion and perhaps moving work to promising
+approaches to AI alignment (be it towards or away from focusing on BCIs).
