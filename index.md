@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2021-08-21, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2021-08-28, language: english, status: in progress, importance: 6, confidence: log*
 
 > __If you take away just one thing from this website,
 it should be that I think [you would want to sign up for
@@ -71,6 +71,7 @@ Writing
 
 #### Other
 
+* [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.md)
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.md)
 * [Against Applause After Classical Concerts](./against_applause.md)
 * [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.md)
@@ -82,7 +83,7 @@ Writing
 
 * [Buch Stab](./buch_stab.md)
 * [Platte](./platte.md)
-* [Ordinary Life Improvements in 2030](./ordinary_life_improvements_2030.html)
+* [Life Improvements in 2030](./life_improvements_2030.html)
 
 ### Poetry
 
