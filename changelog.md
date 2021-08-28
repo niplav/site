@@ -11,7 +11,8 @@ Changelog
 August 2021
 -----------
 
-* [Ordinary Life Improvements in 2030](./ordinary_life_improvements_2030.html)
+* [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html)
+* [Life Improvements in 2030](./life_improvements_2030.html)
 * [Notes on Ethics](./notes_on_ethics.html)
 	* [We Should Kill All Mosquitoes](./notes_on_ethics.html#We-Should-Kill-All-Mosquitoes)
 * Added one section to [Considerations on Cryonics](./considerations_on_cryonics.html):
