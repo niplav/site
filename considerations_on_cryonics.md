@@ -761,7 +761,7 @@ long time, with little regard for their well-being.
 A relatively common worry that prevents people from signing up for
 cryonics is a scenario in which their brain is scanned and they are
 transformed into a whole-brain emulation. This is often accompanied by
-linking [qntm 2021](https://qntm.org/lena.html).
+linking [qntm 2021](https://qntm.org/lena).
 
 For this to happen, several things need to happen:
 

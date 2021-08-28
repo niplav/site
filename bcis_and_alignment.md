@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-08-17, modified: 2021-08-23, language: english, status: draft, importance: 6, confidence: possible*
+*author: niplav, created: 2021-08-17, modified: 2021-08-27, language: english, status: draft, importance: 6, confidence: possible*
 
 > __I discuss arguments for and against the usefulness of brain-computer
 interfaces in relation to AI alignment, and conclude that the path to
@@ -17,9 +17,10 @@ aid AI alignment](https://www.youtube.com/watch?v=ycPr5-27vSI&t=1447s),
 cites [Bostrom 2014 ch.
 2](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies)
 for reasons why brain-computer interfaces seem unlikely to be helpful
-with AI alignment. However, the chapter referenced is not about whether AI alignment
-can be aided by brain-computer interfaces, but mostly about whether superintelligent
-systems can be built using human brains and brain-computer interfaces.
+with AI alignment. However, the chapter referenced is not about whether
+AI alignment can be aided by brain-computer interfaces, but mostly about
+whether superintelligent systems can be built at all using human brains
+and brain-computer interfaces.
 
 Arguments against the usefulness for brain-computer interfaces
 in AI alignment have been raised, but mostly [in short form on
@@ -239,9 +240,14 @@ learner etc. As such, BCIs offer no qualitatively new strategies for
 aligning AI systems.
 
 While this is not negative (after all, quantity (of interaction) can
-have a quality of its own), if we do not have a type of interaction
-that makes AI systems aligned in the first place, faster interaction
-will not make our AI systems safer.
+have a quality of its own), if we do not have a type of interaction that
+makes AI systems aligned in the first place, faster interaction will not
+make our AI systems safer. BCIs seem to offer an advantage by a constant
+factor: If BCIs give humans a 2x advantage when supervising AI systems
+(by making humans 2x faster/smarter), then if an AI system becomes
+2x bigger/faster/more intelligent, the advantage is nullified. The
+feasibility of rapid capability gains is a matter of debate, but an
+advantage by a constant factor does not seem very reassuring.
 
 Additionally, supervision of AI systems through fast interaction would
 be additional to a genuine solution to the AI alignment problem: Ideally
@@ -306,10 +312,13 @@ believed that while researching BCIs would be in expectation net-positive
 there are similarly tractable approaches to AI alignment with a much
 higher expected value.
 
-I still basically hold that belief, but have shifted my expected value
-of researching BCIs for AI alignment upwards somewhat (if pressed,
-I would give an answer of a factor of 2, but I haven't thought about
-that number very much).
+I still basically hold that belief, but have shifted my expected value of
+researching BCIs for AI alignment upwards somewhat (if pressed, I would
+give an answer of a factor of 2, but I haven't thought about that number
+very much). The central argument that prevents me from taking BCIs as an
+approach to AI alignment seriously is the argument that BCIs per se offer
+only a constant interaction speedup between AI systems and humans, but
+no clear qualitative change in the way humans interact with AI systems.
 
 I am somewhat worried that there is no writeup of a possible path to AI
 going well that is focused on BCIs, given that a whole company has been
