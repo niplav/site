@@ -39,7 +39,9 @@ discarded. Lists can also be ignored. (This is basically applying
 [depth-first search](https://en.wikipedia.org/wiki/Depth-first_search),
 though without a success condition).
 
-This method results in a corpus of considerable size.<!--(TODO: how much text?)-->
+This method results in a corpus of considerable size.<!--(TODO: how
+much text?)--> For a shorter approach, you could also just read all
+[vital articles](https://en.wikipedia.org/wiki/Wikipedia:Vital_articles).
 
 Approach Anxiety
 ----------------
