@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-02-22, modified: 2021-08-07, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2021-02-22, modified: 2021-08-29, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Inspired by others
 ([Falkovich 2019](https://www.lesswrong.com/posts/HJeD6XbMGEfcrx3mD/100-ways-to-live-better "100 Ways To Live Better"),
@@ -61,6 +61,7 @@ And, as always, remember that I'm just a person on the internet.
 	* Follow the advice in [Muehlhauser 2011](https://www.lesswrong.com/s/oi873FWi6pHWxswSa/p/ZbgCx2ntD5eu8Cno9 "How to Be Happy")
 	<!--Link Interventions for longevity from LW-->
 2. There is value-laden and value-agnostic advice. Most advice is value-laden. Before you carry out some advice, check whether it actually corresponds to your values.
+	* This also applies to all advice in this post (yes, even self-referentially)
 3. Make things you endorse part of your identity (but not too much)
 	*	Example: On the subreddit
 		[/r/hydrohomies](https://old.reddit.com/r/hydrohomies),
@@ -84,7 +85,7 @@ And, as always, remember that I'm just a person on the internet.
 	makes no sense, since it usually doesn't take into account
 	the quantity of badness ("all bad things are equally bad")
 	and doesn't weigh it against the quantity of goodness produced
-	(disallowing offsetting). Try to reconize if you do this, and
+	(disallowing offsetting). Try to recognize when you do this, and
 	if other people do this to you, and ignore it.
 	*	Example: If you start investing money,
 		some people will probably tell you that you might be
@@ -130,7 +131,7 @@ And, as always, remember that I'm just a person on the internet.
 13. The ability to form habits is powerful.
 	* Establishing low-value low-difficulty habits intentionally can train this
 		* Example: Eating a small bar of chocolate a day <!--TODO: find Romeo stevens talk where he talks about this-->
-14. Related: Trigger-Action plans. They're great.
+14. Trigger-Action plans. They're great.
 15. Only consume media you actually enjoy consuming, not the media you brag about consuming in front of others
 	* Seriously. If you don't enjoy the process, just don't do it.
 16.	Instead of learning a language, learn a couple of poems. Most people
