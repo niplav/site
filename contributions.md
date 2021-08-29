@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-06, modified: 2021-08-07, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-06, modified: 2021-08-29, language: english, status: in progress, importance: 5, confidence: log*
 
 > __A collection of contributions to other projects.__
 
@@ -12,10 +12,13 @@ Texts
 -----
 
 <!--
-TODO:
-### Wikipedia
 
-Link to wikipedia contributions page
+### Contributons to Wikis
+
+* Contributions to Wikipedia
+* Contributions to Arbital
+* Contributions to the LessWrong Tags Portal
+
 -->
 
 <!--

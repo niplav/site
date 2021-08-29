@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2021-04-17, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2020-10-07, modified: 2021-08-29, language: english, status: notes, importance: 3, confidence: log*
 
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
@@ -21,7 +21,7 @@ Countings Smarts
 
 When I was around 9 years old, I decided to create a counter
 in my head that would increment when I saw a car of the brand
-[Smart](https://en.wikipedia.org/wiki/Smart_(marque)). I did this for
+[Smart](https://en.wikipedia.org/wiki/Smart_\(marque\)). I did this for
 around half a year, eventually reaching over 6000 (I don't remember
 the exact number anymore, what a shame). During this time, I created
 some rules:
@@ -45,9 +45,10 @@ I think the effects on my life were (and are) pretty neutral, though my
 visual classifier for Smarts is still much better than for other cars. I
 also still get a little bolt of attention when I see a Smart.
 
-Also, the sportscar variant of Smarts looks kind of neat, besides the
-[Tesla Cybertruck](https://en.wikipedia.org/wiki/Tesla_Cybertruck)
-my preferred aesthetic for cars.<!--TODO: links for these-->
+Also, the sportscar variant of Smarts looks kind
+of neat, together with the asthetic of the [Tesla
+Cybertruck](https://en.wikipedia.org/wiki/Tesla_Cybertruck) my preferred
+aesthetic for cars.<!--TODO: links for these-->
 
 If you're a bored 9 year old, this is probably not too bad.
 
