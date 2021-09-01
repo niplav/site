@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-08-17, modified: 2021-08-28, language: english, status: draft, importance: 6, confidence: possible*
+*author: niplav, created: 2021-08-17, modified: 2021-09-01, language: english, status: draft, importance: 6, confidence: possible*
 
 > __I discuss arguments for and against the usefulness of brain-computer
 interfaces in relation to AI alignment, and conclude that the path to
@@ -72,6 +72,35 @@ don't really seem to respond to the classical AI risk arguments/scenarios.
 
 > My tentative belief is that direct alignment work is probably more useful.
 
+-->
+
+<!--Suggestions comment 1:
+
+Not a disagreement, but an addition:
+
+    We have a limited time until the emergence of an AGI. Maybe a couple of decades. Maybe less.
+
+    There is only a small number of researchers willing to work full-time on solving the alignment problem.
+
+    The number could be insufficient to solve the problem before the emergence.
+
+    The traditional means of increasing the number (e.g. by educating people, spreading the word) could be insufficient to create enough full-time alignment researchers. As the stats of this very subredit indicate, the growth is linear and slow.
+
+    An alternative way to greatly speed up the research is to greatly speed up the researchers themselves, and duplicate them if possible. Ideally, upload the entire MIRI team, create >1000x instances of each researcher, and run them all at >1000x speed.
+
+    BCI could enable such a feat, or at least provide some useful intelligence speedups that result in research speedups.
+
+    The quantitative difference between the current MIRI and the MIRI-on-digital-steroids could mean the difference between solving the alignment problem on time, and failing to solve it on time.
+
+BTW, a SMBC comic relevant to the point #5.
+-->
+
+<!--Suggestions comment 2:
+The obvious argument against BCI is that human brains aren't designed to be extensible. Even if you have the hardware, writing software that interfaces with the human brain to do X is harder than writing software that does X on its own.
+
+If you have something 100x smarter than a human, if there is a human brain somewhere in that system, its only doing a small fraction of the work. If you can make a safe substantially superhuman mind with BCI, you can make the safe superhuman mind without BCI.
+
+Alignment isn't a magic contagion that spreads into any AI system wired into the human brain. If you wire humans to algorithms, and the algorithm on its own is dumb, you can get a human with a calculator in their head. Which is about as smart as a human with a calculator in their hand. If the algorithm on the computer is itself smart, well if its smart enough it can probably manipulate and brainwash humans with just a short conversation, but the wires do make brainwashing easier. You end up with a malevolent AI puppeting around a human body.
 -->
 
 Brain-Computer Interfaces and AI Alignment
@@ -293,6 +322,8 @@ neural level (as opposed to attacks through speech or text, which humans
 are arguably more optimized against through constant interaction with
 other humans who tried to manipulate them in the ancestral environment).
 
+<!--TODO: use yudkowsky screaming image here?-->
+
 ### Opportunity Cost
 
 If work on BCIs is net-positive in expectation for making AI go well,
@@ -340,6 +371,10 @@ and [the AI would tolerate our safety
 measures](https://arbital.com/p/nonadversarial_safety/ "The AI must tolerate your safety measures"),
 but most arguments for BCIs being useful already assume that the AI
 system is not aligned.
+
+<!--TODO: think about serial vs. parallel in AI systems and humans
+with BCIs, think about frequency (200 Hz for human brain, >2 GHz for
+computers-->
 
 ### Problems Arise with Superhuman Systems
 
