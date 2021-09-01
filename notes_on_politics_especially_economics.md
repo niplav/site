@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-13, modified: 2021-05-28, language: english, status: in progress, importance: 2, confidence: remote*
+*author: niplav, created: 2021-01-13, modified: 2021-09-01, language: english, status: in progress, importance: 2, confidence: remote*
 
 > __After a discussion with a friend of mine, I thought it would be
 useful to structure my current thoughts about politics and economics
@@ -62,7 +62,7 @@ Caveat: Empirical Versus Theoretical Knowledge About Politics/Economics
 
 ### A Lot of Empirical Knowledge About Politics Might Not Be Useful
 
-More just signals.
+More just noise.
 
 ### How To Evaluate?
 
@@ -169,6 +169,29 @@ The Problems With Regulation
 
 ### Regulations Are Usually Very Inflexible
 
+> Subsidizing the purchase of new technologies has been a frequent
+strategy of national governments in relationship to fisheries, with
+results that have at times been disastrous. The effort to finance the
+acquisition of a new technology presumes that local fishers will not
+adopt efficient new technologies without external aid. The conservatism
+of fishers in regard to the use of new technologies may reflect an
+awareness that the management of complex resource systems depends on
+a delicate balance between the technologies in use and the entry and
+authority rules used to control access and use. If the adaptation of
+new technologies is accelerated, the relationship between the rules and
+technologies in use may become seriously unbalanced. This is particularly
+the case when the rules have come about through long processes of trial
+and error and fishers do not possess legal powers to devise new rules and
+get them enforced. A focus on "production costs" alone, rather than on
+the total of production costs, transaction costs, and enforcement costs,
+leads to a narrow interpretation of efficiency (North 1986a,b). The
+rapid introduction of a “more efficient” technology by an outside
+authority can trigger the very “tragedy of the commons” that the
+same public officials presume will occur if they do not regulate the
+use of these fisheries.
+
+*–Elinor Ostrom, “Governing the Commons pp. 259-260, 1990*
+
 ### Regulations Are Usually Not Retracted
 
 > Market based decision are quite different to those made by
@@ -185,6 +208,20 @@ average US household, and even tough there are now many fewer farmers,
 farm policies persist.
 
 *–F. Bailey Norwood/Jayson L. Lusk, “Compassion, by the Pound” p. 323, 2011*
+
+### Examples
+
+#### Prediction Markets
+
+[Arrow et al. 2008](./doc/politics_notes/the_promise_of_prediction_markets_arrow_et_al_2008.pdf "The Promise of Prediction Markets")
+
+#### Nuclear Power
+
+[Crawford 2021](https://rootsofprogress.org/devanney-on-the-nuclear-flop "Why has nuclear power been a flop?")
+
+### Tax Rather Than Regulate
+
+[Alexander 2013](http://slatestarcodex.com/2013/12/08/a-something-sort-of-like-left-libertarianism-ist-manifesto/ "http://slatestarcodex.com/2013/12/08/a-something-sort-of-like-left-libertarianism-ist-manife")
 
 How Much To Redistribute is an Empirical Question
 --------------------------------------------------
@@ -207,13 +244,16 @@ Some Low-key Utopias
 
 Test your damn laws.
 
+#### Why Is There So Little Large-Scale Testing?
+
 ### Decaytopia
 
-At least it's not forever.
+At least the regulation is not forever.
 
 ### Scaletopia
 
-Strength of regulation scales with size.
+Strength of regulation scales with organisational size. (Is this
+actually good?)
 
 ### Futarchy
 

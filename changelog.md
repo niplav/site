@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-08-21, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-09-01, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -11,6 +11,7 @@ Changelog
 August 2021
 -----------
 
+* [Various Statistics About the Site](./about.html#Miscellania)
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html)
 * [Life Improvements in 2030](./life_improvements_2030.html)
 * [Notes on Ethics](./notes_on_ethics.html)

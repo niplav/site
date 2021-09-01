@@ -71,6 +71,7 @@ humans and AI systems merging, but under closer inspection, so far they
 don't really seem to respond to the classical AI risk arguments/scenarios.
 
 > My tentative belief is that direct alignment work is probably more useful.
+
 -->
 
 Brain-Computer Interfaces and AI Alignment
@@ -146,7 +147,10 @@ given by BCIs.
 
 <!--TODO: how much more intelligent? How much faster?-->
 
-<!--TODO: Scaling far beyond human intelligence-->
+<!--
+### Scaling far Beyond Human Intelligence
+
+-->
 
 ### Understanding the Human Brain
 

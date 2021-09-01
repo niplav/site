@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-03-31, modified: 2021-08-06, language: english, status: notes, importance: 3, confidence: highly unlikely*
+*author: niplav, created: 2021-03-31, modified: 2021-09-01, language: english, status: notes, importance: 3, confidence: highly unlikely*
 
 > __This page contains my notes on ethics, separated from my regular
 notes to retain some structure to the notes.__
@@ -286,15 +286,18 @@ mosquito that feed on human blood and transmit diseases.
 
 A mild counterpoint to this view is that we have an obligation to help
 species that thrive on mosquitoes, since they have helped humanity
-throughout the ages.
+throughout the ages, but we'd hurt them by taking away one of their
+food sources.
 
 There are of course also additional reasons to exterminate some species
 of mosquito: 700k humans die per year from mosquito-borne diseases, and
 it might be better for mosquitos themselves to not exist at all (with
-gene drives being an effective method of driving them to extinction) (see
-[Tomasik 2017](https://foundational-research.org/the-importance-of-wild-animal-suffering/ "The Importance of Wild-Animal Suffering")
-and
-[Tomasik 2016](https://reducing-suffering.org/the-importance-of-insect-suffering/ "The Importance of Insect Suffering")
+[gene drives being an effective method of driving them to
+extinction](https://reducing-suffering.org/will-gene-drives-reduce-wild-animal-suffering/ "Will Gene Drives Reduce Wild-Animal Suffering?"))
+(see [Tomasik
+2017](https://foundational-research.org/the-importance-of-wild-animal-suffering/ "The Importance of Wild-Animal Suffering")
+and [Tomasik
+2016](https://reducing-suffering.org/the-importance-of-insect-suffering/ "The Importance of Insect Suffering")
 as introductions):
 
 > the cost-effectiveness of the \$1 million campaign to eliminate
@@ -328,10 +331,34 @@ of a single agent?
 If we're really lucky, initially there are increasing returns, but at
 some point they start diminishing.
 
-The Identification Argument Against Preference Utilitarianism
---------------------------------------------------------------
+Arguments Against Preference Utilitarianism
+--------------------------------------------
+
+### The Identification Argument
 
 I.e., should we fulfill evolution's preferences?
+
+### Preference-Altering Actions Disallowed
+
+#### Second-Order Preferences
+
+#### Reflective Equilibrium
+
+### Possible People
+
+#### Tyrannical Possible People
+
+In preference utilitarianism, you might get robbed by possible people who
+really want to exist. Or by cycles of people who want to be each other
+(A wants to be B, but B wants to be A).
+
+#### Preference-Creating Preferences
+
+Preference P="I want there to be as many physically implemented instances
+of P to exist as possible"
+
+When iterated, this grabs most of the value. Could probably be quined
+and made less self-referential.
 
 Stating the Result of “An Impossibility Theorem for Welfarist Axiologies”
 -------------------------------------------------------------------------

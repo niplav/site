@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-06, modified: 2021-08-29, language: english, status: in progress, importance: 5, confidence: log*
+*author: niplav, created: 2019-07-06, modified: 2021-08-31, language: english, status: in progress, importance: 5, confidence: log*
 
 > __A collection of contributions to other projects.__
 
@@ -11,15 +11,11 @@ Contributions
 Texts
 -----
 
-<!--
-
 ### Contributons to Wikis
 
-* Contributions to Wikipedia
-* Contributions to Arbital
-* Contributions to the LessWrong Tags Portal
-
--->
+* Contributions to [Wikipedia](https://en.wikipedia.org/wiki/Special:Contributions/Niplav)
+* Contributions to [Arbital](https://arbital.com/p/niplavyushtun/)
+* Contributions to the [LessWrong Tags Portal](https://www.lesswrong.com/users/niplav)
 
 <!--
 TODO: follow up on https://drewdevault.com/2014/02/02/The-worst-bugs.html,
