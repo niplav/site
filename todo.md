@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-08-29, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-08-31, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -270,7 +270,7 @@ Texts
 	* Qualia Engineering
 	* Track Records, Forecasting and Prediction Markets
 	* The Difference in Sexual Behavior Between Men and Women
-* In Favor of Selling Glee
+* In Favor of Selling Glee/Contra Alexander on Hedonic Acquisitions
 	* Pointing out problems with the ideas in [The Price Of Glee In China](http://slatestarcodex.com/2016/03/23/the-price-of-glee-in-china/)
 	*	General idea: When you find out that making people wealthier
 		doesn't make them happier, you start thinking about how to make
@@ -1156,6 +1156,7 @@ Programming
 	* Top cycle, Banks set, Uncovered set
 	* Majority voting, plurality, Borda score, Kemeny rule
 	* Methods for checking manipulability, single-peakedness
+* Implement the suggestion from [Environmental Goals](https://arbital.com/p/environmental_goals/)
 
 ### Klong Libraries
 

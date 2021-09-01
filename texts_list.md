@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-08-27, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-09-01, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,32 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Edge instantiation (Eliezer Yudkowsky/Alexei Andreev/Nate Soares/Eric Bruylant, 2016)](https://arbital.com/p/edge_instantiation/)
+* [Why has nuclear power been a flop? (Jason Crawford, 2021)](https://rootsofprogress.org/devanney-on-the-nuclear-flop)
+* [Environmental goals (Eliezer Yudkowsky, 2017)](https://arbital.com/p/environmental_goals/)
+* [Reframing Reinforcement Learning as Sequence Modeling with Transformers? (Daniel Takeshi, 2021)](https://danieltakeshi.github.io/2021/06/24/transformers-for-rl/)
+* [Goal-concept identification (Eliezer Yudkowsky, 2016)](https://arbital.com/p/identify_goal_concept/)
+* [Diamond maximizer (Alexei Andreev/Eliezer Yudkowsky/Nate Soares, 2016)](https://arbital.com/p/diamond_maximizer/)
+* [Happiness maximizer (Eliezer Yudkowsky/Alexei Andreev, 2015)](https://arbital.com/p/happiness_maximizer/)
+* [Identifying causal goal concepts from sensory data (Eliezer Yudkowsky, 2016)](https://arbital.com/p/identify_causal_goals/)
+* [Value identification problem (Eliezer Yudkowsky/Alexei Andreev, 2017)](https://arbital.com/p/value_identification/)
+* [Pivotal event (Eliezer Yudkowsky/Nate Soares/Alexei Andreev, 2017)](https://arbital.com/p/pivotal/)
+* [Total alignment (Eliezer Yudkowsky, 2016)](https://arbital.com/p/total_alignment/)
+* [Meta-utility function (Eliezer Yudkowsky, 2017)](https://arbital.com/p/meta_utility/)
+* [Attainable optimum (Eliezer Yudkowsky, 2017)](https://arbital.com/p/attainable_optimum/)
+* [Ideal target (Eliezer Yudkowsky, 2017)](https://arbital.com/p/ideal_target/)
+* [Moral uncertainty (Eliezer Yudkowsky, 2017)](https://arbital.com/p/moral_uncertainty/)
+* [Preference framework (Eliezer Yudkowsky/Alexei Andreev, 2017)](https://arbital.com/p/preference_framework/)
+* [Value alignment problem (Eliezer Yudkowsky/Alexei Andreev, 2017)](https://arbital.com/p/value_alignment_problem/)
+* The Promise of Prediction Markets (Kenneth J. Arrow/Robert Fortsythe/Michael Gorham/Robert Hahn/Robin Hanson/John O. Ledyard/Saul Levmore/Robert Litan/Paul Milgrom/Forest D. Nelson/George R. Neumann/Marco Ottaviani/Thomas C. Schelling/Robert J. Shiller/Vernon L. Smith/Erik Snowberg/Cass r. Sunstein/Paul C. Tetlock/Philip E. Tetlock/Hal R. Varian/Justin Wolfers/Eric Zitzowitz, 2008)
+* [Value achievement dilemma (Eliezer Yudkowsky/Alexei Andreev, 2017)](https://arbital.com/p/value_achievement_dilemma/)
+* [Aligning an AGI adds significant development time (Eliezer Yudkowsky, 2017)](https://arbital.com/p/aligning_adds_time/)
+* [Moral hazards in AGI development (Eliezer Yudkowsky, 2016)](https://arbital.com/p/moral_hazard/)
+* [Cosmic Endowment (Eliezer Yudkowsky/Nate Soares/Rob Bensinger, 2018)](https://arbital.com/p/cosmic_endowment/)
+* [Coordinative AI development hypothetical (Eliezer Yudkowsky/Alexei Andreev/Janos Kramar, 2017)](https://arbital.com/p/4j/)
+* [Extrapolated volition (normative moral theory) (Eliezer Yudkowsky, 2017)](https://arbital.com/p/normative_extrapolated_volition/)
+* What Should We Agree on about the Repugnant Conclusion? (Stéphane Zuber/Nikhil Venkatesh/Torbjörn Tännsjö/Christian Tarsney/H. Orri Stefánsson/Katie Steele/Dean Spears/Jeff Sebo/Marcus Pivato/Toby Ord/Yew-Kwang Ng/Michal Masny/William MacAskill/Nicholas Lawson/Kevin Kuruc/Michelle Hutchinson/Johan E. Gustafsson/Hilary Greaves/Lisa Forsberg/Marc Fleurbaey/Diane Coffey/Susumu Cato/Clinton Castro/Tim Campbell/Mark Budolfson/John Broome/Alexander Berger/Nick Beckstead/Geir B. Asheim, 2021)
+* [Convergent instrumental strategies (Eliezer Yudkowsky, 2016)](https://arbital.com/p/convergent_strategies/)
 * [Value (Alexei Andreev/Eliezer Yudkowsky, 2017)](https://arbital.com/p/value_alignment_value/)
 * [General intelligence (Eliezer Yudkowsky, 2017)](https://arbital.com/p/general_intelligence/)
 * The Windup Girl (Paolo Bacigalupi, 2009)

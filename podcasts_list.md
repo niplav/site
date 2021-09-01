@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-07-26, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-08-30, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Podcasts I am following.__
 
@@ -17,7 +17,7 @@ I try to listen to all episodes available to the public.
 * [Chaos Radio Express](https://cre.fm/)
 * [Guru Viking](https://www.guruviking.com/)
 * [History of Philosophy without any gaps](https://historyofphilosophy.net/)
-* [Robot Friends]()
+* [Robot Friends](https://soundcloud.com/user-557955426)
 * [Wildness](https://www.wildanimalinitiative.org/wildness)
-* [Vecna's Goon Squad]()
+* [Vecna's Goon Squad](https://anchor.fm/cassius-vecna/)
 * [Zero Squared](https://dietsoap.podomatic.com/)
