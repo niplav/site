@@ -1541,3 +1541,11 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 ### 2021-08-27
 
 * 50 burpees
+
+### 2021-08-29
+
+* 30 burpees
+
+### 2021-09-02
+
+* 50 push-ups
