@@ -221,7 +221,7 @@ farm policies persist.
 
 ### Tax Rather Than Regulate
 
-[Alexander 2013](http://slatestarcodex.com/2013/12/08/a-something-sort-of-like-left-libertarianism-ist-manifesto/ "http://slatestarcodex.com/2013/12/08/a-something-sort-of-like-left-libertarianism-ist-manife")
+[Alexander 2013](http://slatestarcodex.com/2013/12/08/a-something-sort-of-like-left-libertarianism-ist-manifesto/ "A Something Sort of Like Left-Libertarianism-Ist Manifesto")
 
 How Much To Redistribute is an Empirical Question
 --------------------------------------------------
