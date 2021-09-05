@@ -71,7 +71,6 @@ humans and AI systems merging, but under closer inspection, so far they
 don't really seem to respond to the classical AI risk arguments/scenarios.
 
 > My tentative belief is that direct alignment work is probably more useful.
-
 -->
 
 <!--Suggestions comment 1:
@@ -101,6 +100,24 @@ The obvious argument against BCI is that human brains aren't designed to be exte
 If you have something 100x smarter than a human, if there is a human brain somewhere in that system, its only doing a small fraction of the work. If you can make a safe substantially superhuman mind with BCI, you can make the safe superhuman mind without BCI.
 
 Alignment isn't a magic contagion that spreads into any AI system wired into the human brain. If you wire humans to algorithms, and the algorithm on its own is dumb, you can get a human with a calculator in their head. Which is about as smart as a human with a calculator in their hand. If the algorithm on the computer is itself smart, well if its smart enough it can probably manipulate and brainwash humans with just a short conversation, but the wires do make brainwashing easier. You end up with a malevolent AI puppeting around a human body.
+-->
+
+<!--
+Suggestions comment 3:
+
+Agree with your point about such merging just being faster interaction. The concept seems confused, merging wholesale to the point where you just have a separate AI agent inside your head solves nothing. But i'm guessing that isn't what people usually mean?
+
+If we can substitute the AI's goal-oriented part with human reward mechanisms, feelings, beliefs and goals, then that may solve the intent alignment problem. I think it would be different to eg. human-in-the-loop type alignment, where reward is trained on abstracted human input. Instead, rather than just being closer interaction, the brain's reward function IS the AI's reward function, in the same way that it's the brain's reward function. In other words since we already have an intelligent agent with goals, we simply need to upgrade its capabilities.
+
+So the question is how far can we increase human intelligence by expanding the brain's capabilities while leaving goal structures intact. What are the other components of (super)intelligence?
+
+Better algorithms:
+As far as we know the brain's algorithms are already superior to what we can do artificially, since we're generally intelligent. But maybe we can add on modules with different architectures for specific types of processing (like maybe the way the brain works is inefficient for eg. some kinds of math or thinking)
+
+More compute:
+Feels like this might be the real bottleneck. Imagine what you could do with upgraded working memory, upgraded attention, upgraded processing speed. When I try to imagine what it's like to be a superintelligence, this is part of what I think of, alongside maybe better ways of thinking, less reliance on language, etc. Like imagine being able to hold even 20 items in working memory with perfect attention.
+
+It seems like any safe increases to the limits of intelligence could help us substantially to solve alignment, but I don't think we have time if there's only a decade or two left, considering we don't know how to do this and might not figure it out without a lot of human experimentation.
 -->
 
 Brain-Computer Interfaces and AI Alignment

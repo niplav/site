@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2021-08-21, language: english, status: finished, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2021-09-04, language: english, status: finished, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -159,9 +159,9 @@ The costs of cryonics are comparatively easy to calculate and contain
 little uncertainty: The price of cryopreservation and life-insurance
 are widely known, and can be easily added together. The benefits of
 cryopreservation, however, contain a lot more uncertainty: It is not at
-all clear that the technology for reuscitation will be developed, cryonics
+all clear that the technology for resuscitation will be developed, cryonics
 organizations and humanity survive to develop such technology, or that the
-future will be interested in reuscitating people from cryopreservation.
+future will be interested in resuscitating people from cryopreservation.
 
 The model presented makes the assumption that a person has a given age
 and has the option of waiting for signing up for cryonics every year
@@ -329,7 +329,7 @@ to cryonics even after LEV – there might be types of accidents where
 large parts of the body are destroyed in ways that both lead to death
 and that regenerative medicine at the time can't handle, and so one will
 want to be preserved until the missing bodyparts can be re-created and
-reuscitation is possible. Another risk to life even after LEV is new
+resuscitation is possible. Another risk to life even after LEV is new
 and for some time deadly diseases. This analysis does not include such
 considerations (yet).
 
@@ -673,11 +673,11 @@ life in the future should then look like this:
 Note that this graph is not based on real data and only for illustrative purposes.
 
 But one can take another factor into account: Most negative future
-scenarios don't lead to reuscitation (civilisational collapse, stable
+scenarios don't lead to resuscitation (civilisational collapse, stable
 totalitarianism, existential catastrophes like AI failure, nuclear
 war, biotechnological disaster and natural catastrophe all reduce
 human capabilities or keep them constant, preventing the development
-of reuscitation technology). In most of the negative futures, there
+of resuscitation technology). In most of the negative futures, there
 are either no more humans around or people don't have time, energy or
 resources to bring people back from cryonic preservation (if indeed they
 still *are* in preservation by that point), and for malicious actors, in
@@ -686,10 +686,10 @@ people back.
 
 This effect might be dampened by the consideration that most possible
 futures have net-negative value, but on the other hand, nearly all of
-those futures don't lead to reuscitation.
+those futures don't lead to resuscitation.
 
 This would mean that the probability distribution over the value of
-a lifeyear in the future conditional on being reuscitated could look
+a lifeyear in the future conditional on being resuscitated could look
 like this:
 
 	.l("nplot")
@@ -702,7 +702,7 @@ like this:
 	plot({:[x>50000;n.pdf(x;50000;500000000);0.4472*n.pdf(x;50000;100000000)]})
 	draw()
 
-![Probability distribution over the value of a lifeyear in the future conditional on being reuscitated](./img/considerations_on_cryonics/cryo_fut_year_val.png "The probability distribution over the value of a lifeyear in the future conditional on being reuscitated. The distribution is two halves of two different normal distributions meeting at around $50000, the left half has much lower variance than the right half.")
+![Probability distribution over the value of a lifeyear in the future conditional on being resuscitated](./img/considerations_on_cryonics/cryo_fut_year_val.png "The probability distribution over the value of a lifeyear in the future conditional on being resuscitated. The distribution is two halves of two different normal distributions meeting at around $50000, the left half has much lower variance than the right half.")
 
 <!--TODO: wouldn't that just shift the normal curve rightwards? Think about it.-->
 
@@ -711,7 +711,7 @@ Note that this graph is not based on real data and only for illustrative purpose
 #### Negative Scenarios
 
 However, I can think of 3 very specific (and thereby highly unlikely)
-scenarios where people could be reuscitated into a (for them) net-negative
+scenarios where people could be resuscitated into a (for them) net-negative
 world.
 
 <!--See also:
@@ -725,15 +725,15 @@ scenario where the development of capitalism diverges significantly from
 the desires of humans, leading to most (if not all) of humanity becoming
 extinct. It seems highly unlikely, but possible that cryopreserved
 humans are placed into the hands of an algorithm that invests the
-money in the relevant funds to reuscitate the cryopreserved humans at a
+money in the relevant funds to resuscitate the cryopreserved humans at a
 certain point. This algorithm could receive little (or no) information
-on what to do with the reuscitated humans afterwards, leading either
+on what to do with the resuscitated humans afterwards, leading either
 to these humans quickly dying again because of an economy where they
 are worthless, or being kept alive solely for fulfilling the contract
 that is embedded in the algorithm. This might lead to insanity-inducing
 boredom as the humans are kept alive as long as algorithm manages to,
 possibly hundreds or thousands of years. This would have net-negative
-value for the people reuscitated.
+value for the people resuscitated.
 
 ##### Malevolent Future Actors
 
@@ -743,7 +743,7 @@ and starts behaving malevolently because of a [near
 miss](https://reducing-suffering.org/near-miss/ "Astronomical suffering
 from slightly misaligned artificial intelligence") in its implementation
 or or because it has been set up by a malevolent human. This would lead
-to cryopreserved people being reuscitated, having their brains scanned
+to cryopreserved people being resuscitated, having their brains scanned
 and executed as a brain emulation, copied and put into very painful
 conditions.
 
@@ -753,7 +753,7 @@ In a future where agents that don't care about humans find the
 cryopreserved remains of humans, they might be interested in extracting
 information from those brains. If it is not possible to extract this
 information without reviving the cryopreserved people, they might
-reuscitate them and then interrogate these revived people for a very
+resuscitate them and then interrogate these revived people for a very
 long time, with little regard for their well-being.
 
 ##### Being Revived as an Emulation and Forced to Work
@@ -812,7 +812,7 @@ the risks from hellish scenarios above by making arrangements with
 cryonics organisations. This may include not wanting cryopreservation
 to continue in an ascended economy, objecting to revival as an
 [emulation](https://en.wikipedia.org/wiki/Brain_emulation) or revival
-after more than a certain number of years (to prevent being reuscitated
+after more than a certain number of years (to prevent being resuscitated
 in an incomprehensibly strange and alien world).
 
 #### Other Thoughts
@@ -828,7 +828,7 @@ today feel that modern life in big cities with regular calendars and
 highly structured lives without any worries about survival is normal,
 while for most humans who ever lived, this would be anything but. One
 can speculate that very similar facts will also hold for the future
-(becoming increasingly unlikely the further reuscitation lies in the
+(becoming increasingly unlikely the further resuscitation lies in the
 future). There would certainly be a big culture shock in the future,
 but it seems not qualitatively different from the shock people have
 when they visit different countries today. It is possible that future
@@ -929,7 +929,7 @@ or on whole brain emulation scenarios, which would likely make aging
 unnecessary (why degrade a digital brain?).
 
 If revival happens, there are still risks from accidents and homicide or
-suicide that can kill the reuscitated cryonicist, as well as existential
+suicide that can kill the resuscitated cryonicist, as well as existential
 risks that face all of humanity.
 
 The website Polstats [illustrates](http://polstats.com/#!/life)
@@ -950,13 +950,13 @@ individual human after LEV.
 
 Taking existential risks into account is a bit harder. It is unclear
 whether most of the probability mass for existential risks should be
-placed before reuscitation of cryonics patients becomes feasible,
+placed before resuscitation of cryonics patients becomes feasible,
 or after it. It is also unclear how high the existential risk for
 humanity is overall. Assuming that the existential risk for humanity
 over the next 10000 years is ~40% (this number is pretty much a
 guess)<!--TODO: link Metaculus Ragnarok series, and see if someone
 like FHI has done some calculations on that-->, and half of that risk
-is placed before reuscitation, then the life expectancy of cryonics is
+is placed before resuscitation, then the life expectancy of cryonics is
 `$\frac{8938+2850+1000}{3}*(1-0.20) \approx 3410$`.
 
 That number should be qualified further in an ["Age of
@@ -973,7 +973,7 @@ Come First")). I will not take into account the possibility of multiple
 copies of the same person, and assume that only one emulation is being
 run (to avoid tricky problems in aggregation).
 
-To conclude, it seems like reuscitated cryonicists will on average live
+To conclude, it seems like resuscitated cryonicists will on average live
 around 3410 years, although there is room for debate on this number.
 
 	years_gain=3410
@@ -1023,7 +1023,7 @@ I obtain the 10 leading causes of death by age group from a [2018 CDC
 report](./doc/considerations_on_cryonics/10_leading_causes_of_death_by_age_group_cdc_2018.pdf "10 Leading Causes of Death by Age Group, United States – 2018").
 
 The causes of death, and their effect on successful cryopreservation
-(as a percentage; reduction in probability of successful reuscitation
+(as a percentage; reduction in probability of successful resuscitation
 counterfactually to ideal conditions, e.g. controlled voluntary
 deanimation), as well as sometimes explanation for reasoning for the
 number:

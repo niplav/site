@@ -192,6 +192,9 @@ use of these fisheries.
 
 *–Elinor Ostrom, “Governing the Commons pp. 259-260, 1990*
 
+<!--TODO: here description of illegal cryonics in France & British
+Columbia from the Cryonics Wikipedia page-->
+
 ### Regulations Are Usually Not Retracted
 
 > Market based decision are quite different to those made by
