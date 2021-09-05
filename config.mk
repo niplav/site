@@ -32,6 +32,7 @@ HTML=index.html \
 	circle_combinations.html \
 	consciousness_diagram.html \
 	considerations_on_cryonics.html \
+	cryonics_outside_us.html \
 	daygame_cost_benefit.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \

@@ -747,3 +747,5 @@
 2021-08-29T21:55:37.000000Z	@<adi https://twtxt.net/user/adi/twtxt.txt> "@niplav I got the joke!" -> Congrats! i didn't
 2021-09-01T10:03:54.000000Z	one might argue that we have huge amounts of uranium and other radioactive elements in the earth's crust already, and since we only extract energy from nuclear energy, putting the waste back should make the earth less dangerous, not more. but the isotopes produced in nuclear energy have shorter half-life and are probably more poisonous than the uranium that was there before, even if they produce less radioactivity over the long run
 2021-09-01T11:18:48.000000Z	limited wireheaders seem safe but useless (modulo experimentability)
+2021-09-04T18:59:06.000000Z	kind of insane that the average life expectancy in 1800 was nearly half as much as the one in the country with the lowest life expectancy today (28.5 years then, 50.7 years today in Lesotho)
+2021-09-05T15:47:25.000000Z	what is the value of knowing the action of a more powerful optimizer in a single universe-state?
