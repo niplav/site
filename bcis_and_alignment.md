@@ -73,51 +73,137 @@ don't really seem to respond to the classical AI risk arguments/scenarios.
 > My tentative belief is that direct alignment work is probably more useful.
 -->
 
-<!--Suggestions comment 1:
+<!--
+Suggestions comment 1 (https://old.reddit.com/r/ControlProblem/comments/pfb8ze/braincomputer_interfaces_and_ai_alignment/hb6f0k8):
 
 Not a disagreement, but an addition:
 
-    We have a limited time until the emergence of an AGI. Maybe a couple of decades. Maybe less.
+We have a limited time until the emergence of an AGI. Maybe a couple of
+decades. Maybe less.
 
-    There is only a small number of researchers willing to work full-time on solving the alignment problem.
+There is only a small number of researchers willing to work full-time
+on solving the alignment problem.
 
-    The number could be insufficient to solve the problem before the emergence.
+The number could be insufficient to solve the problem before the
+emergence.
 
-    The traditional means of increasing the number (e.g. by educating people, spreading the word) could be insufficient to create enough full-time alignment researchers. As the stats of this very subredit indicate, the growth is linear and slow.
+The traditional means of increasing the number (e.g. by educating people,
+spreading the word) could be insufficient to create enough full-time
+alignment researchers. As the stats of this very subredit indicate,
+the growth is linear and slow.
 
-    An alternative way to greatly speed up the research is to greatly speed up the researchers themselves, and duplicate them if possible. Ideally, upload the entire MIRI team, create >1000x instances of each researcher, and run them all at >1000x speed.
+An alternative way to greatly speed up the research is to greatly speed
+up the researchers themselves, and duplicate them if possible. Ideally,
+upload the entire MIRI team, create >1000x instances of each researcher,
+and run them all at >1000x speed.
 
-    BCI could enable such a feat, or at least provide some useful intelligence speedups that result in research speedups.
+BCI could enable such a feat, or at least provide some useful intelligence
+speedups that result in research speedups.
 
-    The quantitative difference between the current MIRI and the MIRI-on-digital-steroids could mean the difference between solving the alignment problem on time, and failing to solve it on time.
+The quantitative difference between the current MIRI and the
+MIRI-on-digital-steroids could mean the difference between solving the
+alignment problem on time, and failing to solve it on time.
 
 BTW, a SMBC comic relevant to the point #5.
 -->
 
-<!--Suggestions comment 2:
-The obvious argument against BCI is that human brains aren't designed to be extensible. Even if you have the hardware, writing software that interfaces with the human brain to do X is harder than writing software that does X on its own.
+<!--
+Suggestions comment 2 (https://old.reddit.com/r/ControlProblem/comments/pfb8ze/braincomputer_interfaces_and_ai_alignment/hb6gg89):
 
-If you have something 100x smarter than a human, if there is a human brain somewhere in that system, its only doing a small fraction of the work. If you can make a safe substantially superhuman mind with BCI, you can make the safe superhuman mind without BCI.
+The obvious argument against BCI is that human brains aren't designed
+to be extensible. Even if you have the hardware, writing software that
+interfaces with the human brain to do X is harder than writing software
+that does X on its own.
 
-Alignment isn't a magic contagion that spreads into any AI system wired into the human brain. If you wire humans to algorithms, and the algorithm on its own is dumb, you can get a human with a calculator in their head. Which is about as smart as a human with a calculator in their hand. If the algorithm on the computer is itself smart, well if its smart enough it can probably manipulate and brainwash humans with just a short conversation, but the wires do make brainwashing easier. You end up with a malevolent AI puppeting around a human body.
+If you have something 100x smarter than a human, if there is a human
+brain somewhere in that system, its only doing a small fraction of the
+work. If you can make a safe substantially superhuman mind with BCI,
+you can make the safe superhuman mind without BCI.
+
+Alignment isn't a magic contagion that spreads into any AI system
+wired into the human brain. If you wire humans to algorithms, and the
+algorithm on its own is dumb, you can get a human with a calculator in
+their head. Which is about as smart as a human with a calculator in their
+hand. If the algorithm on the computer is itself smart, well if its smart
+enough it can probably manipulate and brainwash humans with just a short
+conversation, but the wires do make brainwashing easier. You end up with
+a malevolent AI puppeting around a human body.
 -->
 
 <!--
 Suggestions comment 3:
 
-Agree with your point about such merging just being faster interaction. The concept seems confused, merging wholesale to the point where you just have a separate AI agent inside your head solves nothing. But i'm guessing that isn't what people usually mean?
+Agree with your point about such merging just being faster
+interaction. The concept seems confused, merging wholesale to the
+point where you just have a separate AI agent inside your head solves
+nothing. But i'm guessing that isn't what people usually mean?
 
-If we can substitute the AI's goal-oriented part with human reward mechanisms, feelings, beliefs and goals, then that may solve the intent alignment problem. I think it would be different to eg. human-in-the-loop type alignment, where reward is trained on abstracted human input. Instead, rather than just being closer interaction, the brain's reward function IS the AI's reward function, in the same way that it's the brain's reward function. In other words since we already have an intelligent agent with goals, we simply need to upgrade its capabilities.
+If we can substitute the AI's goal-oriented part with human reward
+mechanisms, feelings, beliefs and goals, then that may solve the intent
+alignment problem. I think it would be different to eg. human-in-the-loop
+type alignment, where reward is trained on abstracted human
+input. Instead, rather than just being closer interaction, the brain's
+reward function IS the AI's reward function, in the same way that it's
+the brain's reward function. In other words since we already have an
+intelligent agent with goals, we simply need to upgrade its capabilities.
 
-So the question is how far can we increase human intelligence by expanding the brain's capabilities while leaving goal structures intact. What are the other components of (super)intelligence?
+So the question is how far can we increase human intelligence by expanding
+the brain's capabilities while leaving goal structures intact. What are
+the other components of (super)intelligence?
 
-Better algorithms:
-As far as we know the brain's algorithms are already superior to what we can do artificially, since we're generally intelligent. But maybe we can add on modules with different architectures for specific types of processing (like maybe the way the brain works is inefficient for eg. some kinds of math or thinking)
+Better algorithms: As far as we know the brain's algorithms are
+already superior to what we can do artificially, since we're generally
+intelligent. But maybe we can add on modules with different architectures
+for specific types of processing (like maybe the way the brain works is
+inefficient for eg. some kinds of math or thinking)
 
 More compute:
-Feels like this might be the real bottleneck. Imagine what you could do with upgraded working memory, upgraded attention, upgraded processing speed. When I try to imagine what it's like to be a superintelligence, this is part of what I think of, alongside maybe better ways of thinking, less reliance on language, etc. Like imagine being able to hold even 20 items in working memory with perfect attention.
 
-It seems like any safe increases to the limits of intelligence could help us substantially to solve alignment, but I don't think we have time if there's only a decade or two left, considering we don't know how to do this and might not figure it out without a lot of human experimentation.
+Feels like this might be the real bottleneck. Imagine what you could do
+with upgraded working memory, upgraded attention, upgraded processing
+speed. When I try to imagine what it's like to be a superintelligence,
+this is part of what I think of, alongside maybe better ways of thinking,
+less reliance on language, etc. Like imagine being able to hold even 20
+items in working memory with perfect attention.
+
+It seems like any safe increases to the limits of intelligence could help
+us substantially to solve alignment, but I don't think we have time if
+there's only a decade or two left, considering we don't know how to do
+this and might not figure it out without a lot of human experimentation.
+-->
+
+<!-- Relevant Urban comment:
+
+I think that, conceivably, there’s a way for there to be a tertiary
+layer that feels like it’s part of you. It’s not some thing that
+you offload to, it’s you.
+
+This makes sense on paper. You do most of your “thinking” with your
+cortex, but then when you get hungry, you don’t say, “My limbic
+system is hungry,” you say, “I’m hungry.” Likewise, Elon thinks,
+when you’re trying to figure out the solution to a problem and your AI
+comes up with the answer, you won’t say, “My AI got it,” you’ll
+say, “Aha! I got it.” When your limbic system wants to procrastinate
+and your cortex wants to work, a situation I might be familiar with, it
+doesn’t feel like you’re arguing with some external being, it feels
+like a singular you is struggling to be disciplined. Likewise, when you
+think up a strategy at work and your AI disagrees, that’ll be a genuine
+disagreement and a debate will ensue—but it will feel like an internal
+debate, not a debate between you and someone else that just happens to
+take place in your thoughts. The debate will feel like thinking.
+
+It makes sense on paper.
+
+But when I first heard Elon talk about this concept, it didn’t really
+feel right. No matter how hard I tried to get it, I kept framing the
+idea as something familiar—like an AI system whose voice I could hear
+in my head, or even one that I could think together with. But in those
+instances, the AI still seemed like an external system I was communicating
+with. It didn’t seem like me.
+
+But then, one night while working on the post, I was rereading some of
+Elon’s quotes about this, and it suddenly clicked. The AI would be
+me. Fully. I got it.
 -->
 
 Brain-Computer Interfaces and AI Alignment

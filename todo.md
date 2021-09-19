@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-08-31, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-09-18, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -452,27 +452,27 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Meditation
 	* New experiences
 	* Drugs?
-	* Wireheading
-		* [Electrical Brain Stimulation](https://en.wikipedia.org/wiki/Electrical_brain_stimulation)
-		* [Wireheading](https://en.wikipedia.org/wiki/Wirehead_\(science_fiction\))
-		* [Brain Stimulation Reward](https://en.wikipedia.org/wiki/Brain_stimulation_reward)
-		* Questions:
-			* How much wireheading research has been/is being done?
-			* Why is there so little wireheading research/why is it not very prominent?
-			* Do animals (especially humans) develop tolerance to intracranial stimulation?
-			* Do animals (especially humans) develop an addiction to intracranial stimulation?
-			* Is wireheading reversible? (in principle, in practice so far)
-			* How long can one wirehead until it leads to negative health outcomes (in principle, in practice)
-			* How good does intracranial stimulation feel? (compared to other positive experiences)
-			* Is wireheading actually pleasurable or just compelling? (in the sense that one wants to continue being wireheaded although it doesn't strictly "feel good")
-			* How does intracranial stimulation work?
-		* Desiderata:
-			* Reversibility
-			* Non-adaption
-			* Non-addiction
-			* Safety
-			* Ability preservation
-			* Anti-slipperiness
+* Wireheading
+	* [Electrical Brain Stimulation](https://en.wikipedia.org/wiki/Electrical_brain_stimulation)
+	* [Wireheading](https://en.wikipedia.org/wiki/Wirehead_\(science_fiction\))
+	* [Brain Stimulation Reward](https://en.wikipedia.org/wiki/Brain_stimulation_reward)
+	* Questions:
+		* How much wireheading research has been/is being done?
+		* Why is there so little wireheading research/why is it not very prominent?
+		* Do animals (especially humans) develop tolerance to intracranial stimulation?
+		* Do animals (especially humans) develop an addiction to intracranial stimulation?
+		* Is wireheading reversible? (in principle, in practice so far)
+		* How long can one wirehead until it leads to negative health outcomes (in principle, in practice)
+		* How good does intracranial stimulation feel? (compared to other positive experiences)
+		* Is wireheading actually pleasurable or just compelling? (in the sense that one wants to continue being wireheaded although it doesn't strictly "feel good")
+		* How does intracranial stimulation work?
+	* Desiderata:
+		* Reversibility
+		* Non-adaption
+		* Non-addiction
+		* Safety
+		* Ability preservation
+		* Anti-slipperiness
 
 ### Ideas
 
@@ -682,6 +682,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Sperm, Eggs
 	* Plasma/Blood
 * Nuclear Waste FAQ
+* A List of Discord Servers Dedicated to Specific Textbooks
 
 ### Notes
 
@@ -1274,12 +1275,14 @@ produces
 * List of Animals by Number of Eyes
 * Weisfeiler-Lehman algorithm
 * Brandes' algorithm
+* IC/IC* algorithm
 
 #### Improve
 
 * [Maximal pair](https://en.wikipedia.org/wiki/Maximal_pair)
 	* Add examples
 	* Add description of MUMs
+* Judea Pearl
 
 ### Metaculus Questions
 
