@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2021-03-02, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2021-09-19, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -867,3 +867,68 @@ would make f a non-empty family, but
 which is definitely not a successor set. Since the solution I presented
 above seems exactly like the thing Halmos would want me to do, I guess
 I have misunderstood the definition for "family of sets".
+
+Section 12
+-----------
+
+<!--
+TODO
+### Exercise 1
+
+> Prove that if $n$ is a natural number, then `$n \not = n^{+}$`
+
+Let `$n^-$` be the number such that `${n^-}^+=n$`, and `${n^-}^-$` be
+the number so that `${{n^-}^-}^+=n^-$`. Then
+
+<div>
+	$$n=\\
+	n^- \cup \{n^-\}=\\
+	\{n^-, {n^-}^-, \{{n^-}^-\}\}$$
+</div>
+
+and
+
+<div>
+	$$n^+=\\
+	n \cup \{n\}=\\
+	\{n^-, {n^-}^-\} \cup \{\{n^-, {n^-}^-\}\}=\\
+	\{n^-, {n^-}^-, \{n^-, {n^-}^-\}\}$$
+</div>
+
+Since `$n^+$` contains an element that `$n$` doesn't contain,
+`$n \not=n^+$`.
+
+For `$n=0=\emptyset$`, `$n \not = n^+$`:
+
+<div>
+	$$n^+=\\
+	n \cup \{n\}=\\
+	\emptyset \cup \{\emptyset\}=\\
+	\{\emptyset\}\not =\\
+	\emptyset=\\
+	n$$
+</div>
+
+Let `$n^-$` be the number such that `${n^-}^+=n$`, and assume that
+`$n^- \not =n$`.
+
+Then `$n^+=n \cup \{n\}=n^- \cup \{n^-\} \cup \{n\}$`.
+
+Suppose that `$n^+=n$`. That would mean that `$n^+ \subset n=n \cup \{n\}$`.
+This would imply that `$n \in n$`.
+
+We know that `$n \subset n^+$` since `$n^+=n \cup \{n\}$`.
+-->
+
+### Exercise 2
+
+> Prove that if `$n$` is a natural number, […] if `$n \not = 0$`, then
+`$n=m^+$` for some natural number `$m$`.
+
+This feels true almost by definition?
+
+On pg. 44 a natural number is defined as "an element of the minimal
+successor set `$ω$`". Then, if `$n \in ω$`, there must be an element
+`$n^-$` of `$ω$` so that `${n^-}^+=n$` (by the second Peano axiom and
+the condition that `$ω$` can contain no superfluous elements, which
+would be the third Peano axiom).
