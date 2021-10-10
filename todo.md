@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-09-18, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-09-25, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -562,6 +562,8 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* These are especially important for humans since our values change, in somewhat forseeable ways
 * An Unreasonable Proposal
 	* Merge India and the European Union
+* Writing Notes
+	* Concatenating Different Explanations
 
 ### Collections
 
@@ -910,6 +912,11 @@ Collect data on
 * Large STEM Dataset
 	* For training large ML models that are less likely to be [human models](https://www.lesswrong.com/posts/BKjJJH2cRpJcAnP7T)
 
+Flashcards
+-----------
+
+* Convert [Issa Rice's Analysis Flashcards](https://github.com/riceissa/tao-analysis-flashcards) to Anki
+
 Music
 -----
 
@@ -1070,6 +1077,7 @@ Programming
 		* fulgurate .crd
 		* mnemosyne
 		* anki
+		* [orbit](https://withorbit.com/)
 * unitspheretransform
 	* VR application that visualizes the transformation of the unit sphere in 3-dimensional space
 	* also unit circle transform
@@ -1158,6 +1166,10 @@ Programming
 	* Majority voting, plurality, Borda score, Kemeny rule
 	* Methods for checking manipulability, single-peakedness
 * Implement the suggestion from [Environmental Goals](https://arbital.com/p/environmental_goals/)
+* interweave
+	* A utility that takes a list of files and "interweaves" their lines (or by some other separator)
+	* E.g. "a\nb\n" and "1\n2\n3\n4\n" will become "a\n1\n2\nb\n3\n4\n"
+* An explorable for modern methods of causal inference from statistical data
 
 ### Klong Libraries
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2021-03-09, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2021-09-26, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -55,6 +55,7 @@ Reading
 
 Currently, I am actively reading the following books:
 
+* Causality (Judea Pearl 2009)
 * Naïve Set Theory (Paul R. Halmos, 1960)
-* Artificial Intelligence: A Modern Approach (Stuart Russell/Peter Norvig, 2010)
 * The Jazz Piano Book (Mark Levine, 1998)
+* Programming in Lua (Roberto Ierusalimschy, 2013)

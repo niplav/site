@@ -11,6 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Der Schatz im Silbersee](https://m.imdb.com/title/tt0056452/)
 * [Evangelion 3.0+1.01: Thrice Upon a Time](https://www.imdb.com/title/tt2458948/)
 * [Kaiserschmarrndrama](https://www.imdb.com/title/tt11034894/)
 * [The Tomorrow War](https://www.imdb.com/title/tt9777666/)

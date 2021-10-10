@@ -32,10 +32,10 @@ mental model of how it works.
 
 * [Flashcards](./flash/causality.apkg)
 	* p. 1-125 (replacing P with hat with Ṗ and x with hat with ẋ for the simple reason that I couldn't find a way to make MathJax create the former)
-	* p. 155-195
+	* p. 155-202
 * Read:
 	* p. 1-125
-	* p. 155-195
+	* p. 155-202
 
 ”Naïve Set Theory”
 ------------------
@@ -45,7 +45,7 @@ mental model of how it works.
 * [Flashcards](./flash/naïve_set_theory.apkg)
 	* Sections 1-10
 * Read:
-	* p. 1-41
+	* p. 1-49
 
 “The Jazz Piano Book”
 ---------------------
