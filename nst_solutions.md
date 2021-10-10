@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2021-09-19, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2021-09-20, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -871,32 +871,9 @@ I have misunderstood the definition for "family of sets".
 Section 12
 -----------
 
-<!--
-TODO
 ### Exercise 1
 
 > Prove that if $n$ is a natural number, then `$n \not = n^{+}$`
-
-Let `$n^-$` be the number such that `${n^-}^+=n$`, and `${n^-}^-$` be
-the number so that `${{n^-}^-}^+=n^-$`. Then
-
-<div>
-	$$n=\\
-	n^- \cup \{n^-\}=\\
-	\{n^-, {n^-}^-, \{{n^-}^-\}\}$$
-</div>
-
-and
-
-<div>
-	$$n^+=\\
-	n \cup \{n\}=\\
-	\{n^-, {n^-}^-\} \cup \{\{n^-, {n^-}^-\}\}=\\
-	\{n^-, {n^-}^-, \{n^-, {n^-}^-\}\}$$
-</div>
-
-Since `$n^+$` contains an element that `$n$` doesn't contain,
-`$n \not=n^+$`.
 
 For `$n=0=\emptyset$`, `$n \not = n^+$`:
 
@@ -912,13 +889,11 @@ For `$n=0=\emptyset$`, `$n \not = n^+$`:
 Let `$n^-$` be the number such that `${n^-}^+=n$`, and assume that
 `$n^- \not =n$`.
 
-Then `$n^+=n \cup \{n\}=n^- \cup \{n^-\} \cup \{n\}$`.
+Then for `$n^+=n \cup \{n\}=n^- \cup \{n^-\} \cup \{n\}$` to be equal to
+`$n$`, `$\{n\}$` would need to be equal to `$n^-$` or `$\{n^-\}$`.
+That would contradict the assumption, so `$n^+ \not =n$`.
 
-Suppose that `$n^+=n$`. That would mean that `$n^+ \subset n=n \cup \{n\}$`.
-This would imply that `$n \in n$`.
-
-We know that `$n \subset n^+$` since `$n^+=n \cup \{n\}$`.
--->
+□
 
 ### Exercise 2
 
@@ -932,3 +907,7 @@ successor set `$ω$`". Then, if `$n \in ω$`, there must be an element
 `$n^-$` of `$ω$` so that `${n^-}^+=n$` (by the second Peano axiom and
 the condition that `$ω$` can contain no superfluous elements, which
 would be the third Peano axiom).
+
+### Exercise 3
+
+> Prove that `$ω$` is transitive.

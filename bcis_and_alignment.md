@@ -206,6 +206,11 @@ Elon’s quotes about this, and it suddenly clicked. The AI would be
 me. Fully. I got it.
 -->
 
+<!--
+Resources from this comment:
+https://www.lesswrong.com/posts/rpRsksjrBXEDJuHHy/brain-computer-interfaces-and-ai-alignment?commentId=t9n35ss9nhW2gJBg5
+-->
+
 Brain-Computer Interfaces and AI Alignment
 ===========================================
 

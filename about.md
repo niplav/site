@@ -389,11 +389,14 @@ The last g-laden test I took put me at ~110, which seems about right.
 * [Metaculus](https://www.metaculus.com/accounts/profile/112493/)
 * [Reddit](https://old.reddit.com/u/niplav)
 * [Wikipedia](https://en.wikipedia.org/wiki/User:Niplav)
-* [twtxt](https://niplav.github.io/twtxt.txt)
+* [Mastodon](https://schelling.pt/@niplav)
 
-I used to use [twitter](https://twitter.com/niplavyushtun), but
-I got addicted to it (thrice) and decided to instead switch to
-[twtxt](https://github.com/buckket/twtxt).
+I used to use [twitter](https://twitter.com/niplavyushtun),
+but I got addicted to it (thrice) and decided to instead
+switch to [twtxt](https://github.com/buckket/twtxt). Then I
+discovered that it's not quite as fun as twitter and switched to a
+[mastodon](https://schelling.pt/@niplav) instance instead, which has
+been an okay middle ground.
 
 ### Contact
 

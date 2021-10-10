@@ -51,6 +51,7 @@ HTML=index.html \
 	senryu.html \
 	tao_te_king.html \
 	text_reviews.html \
+	textbook_discord_servers.html \
 	toy_ai_takeoff_model.html \
 	two_people_on_a_planet.html \
 	utilitarian_compliments.html \
