@@ -98,8 +98,8 @@ I believe this is an important
 addition to posts like [hyperbolic
 growth](https://sideways-view.com/2017/10/04/hyperbolic-growth/),
 [long-term growth as a sequence of exponential
-modes](http://mason.gmu.edu/~rhanson/longgrow.html) and an old yudkowsky
-post I am unable to find at the moment.
+modes](http://mason.gmu.edu/~rhanson/longgrow.html) and an old Yudkowsky
+post I am unable to find at the moment.<!--TODO: capitalization of Yudkowsky is wrong still on LW-->
 
  I don't know how closely these
  texts are connected, but [Modeling the Human

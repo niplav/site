@@ -1620,7 +1620,7 @@ Preferences between state sequences are stationary iff
 `$[s_0, s_1, \dots] \bullet [s_0', s_1', s_2', \dots] \Rightarrow [s_1, s_2, \dots] \bullet [s_1', s_2', \dots]$`
 for a fixed `$\bullet \in \{\succ, \sim, \prec\}$` and `$s_0=s_0'$`.
 
-Asumme that `$s_0=s_0'$` is the maximum of the two state
+Assume that `$s_0=s_0'$` is the maximum of the two state
 sequences `$S_1, S_2$`. Then `$S_1 \sim S_2.$` Assume that
 `$\max(S_1(1..))>\max(S_2(1..))$`. Then `$S_1(1..) \succ S_2(1..)$`,
 even though they two sequences start with the same value. Stationarity
