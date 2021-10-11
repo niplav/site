@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2021-01-05, language: english, status: in progress, importance: 4, confidence: other*
+*author: niplav, created: 2019-01-14, modified: 2021-10-11, language: english, status: in progress, importance: 4, confidence: other*
 
 > __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems
@@ -755,7 +755,7 @@ Using `atlevel`, it is easy to construct a function `levelorder` which
 creates the level-order sequence of the nodes. However, there are more
 efficient ways to do that.
 
-### P63 (*) Construct a complete binary tree.
+### P63 (**) Construct a complete binary tree.
 
 A complete binary tree with height H is defined as follows: the levels
 1,2,3,…,H-1 contain the maximum number of nodes (i.e `$2^{i-1}$` at
@@ -777,5 +777,32 @@ following property holds: The address of X's left and right successors are
 can be used to elegantly construct a complete binary tree structure. Write
 a function `completebintree` which returns a complete binary tree for
 a given number of nodes.
+
+Test your function in an appropriate way.
+
+### P64 (**) Layout a binary tree (1).
+
+Given a binary tree as the usual list containing `:x`, a left subtree
+and a right subtree (or `[]`).
+
+As a preparation for drawing the tree, a layout algorithm is required
+to determine the position of each node in a rectangular grid. Several
+layout methods are conceivable, one of them is shown in the illustration
+below<!--TODO: get or imitate illustration!-->.
+
+In this layout strategy, the position of a node `$v$` is obtained by
+the following two rules:
+
+* `$x(v)$` is equal to the position of the node `$v$` in the inorder sequence
+* `$y(v)$` is equal to the depth of the node `$v$` in the tree
+
+In order to store the position of the nodes, we extend the format for
+representing a node (and its successors) as follows: `[:w x y l r]`
+represents a (non-empty) binary tree with a root with the value `:w`
+"positioned" at `(x,y)`, and subtrees `l` and `r` (them again in the
+same format).
+
+Write a function `layoutbinarytree` that returns a "positioned" binary
+tree obtained from its argument.
 
 Test your function in an appropriate way.

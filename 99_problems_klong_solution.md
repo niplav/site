@@ -1,10 +1,10 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2020-12-13, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-02-10, modified: 2021-10-11, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __Solutions to the [99 problems](./99_klong_problems.html "99 Klong
-> Problems") in [Klong](http://t3x.org/klong/index.html) in a [literate
+> Problems") in [Klong](http://t3x.org/klong/index.html), [literate
 > programming](https://en.wikipedia.org/wiki/Literate_programming)
 > style. Attempts to produce the shortest complete solution to these
 > problems up to date.__
@@ -24,7 +24,7 @@ elegant](https://old.reddit.com/r/apljk/comments/59asq0/pack_duplicate_consecuti
 s9 on [/r/apljk](https://old.reddit.com/r/apljk/). Dave
 Long provided a much more elegant s8, s26, c1, s49 and
 s55 over email. s31 is from the [Wikipedia article about
-K](https://en.wikipedia.org/wiki/K_(programming_language)#Examples).
+K](https://en.wikipedia.org/wiki/K_\(programming_language\)#Examples).
 
 Code
 ----
@@ -33,7 +33,7 @@ Code
 
 The pure Klong code, without tests, explanations, comments or performance
 tests is available [here](./code/99_klong/sol.kg). It currently implements
-solutions for all problems up to P63 (excluding P47 and P48), in 2304
+solutions for all problems up to P63 (excluding P47 and P48), in 2262
 bytes.
 
 Conventions
@@ -43,9 +43,10 @@ Since this collection of solutions attempts to maximize for terseness,
 several concessions concerning completeness have to be made. There
 is nearly no checking for correct arguments, except for empty lists.
 Variables are declared locally. The solution for problem N is called
-`sN`, helper functions are numbered `aN` for the Nth helper function
-in __Working with lists__, `bN` in __Arithmetic__, `cN` in __Logic and
-Codes__ and so on.
+`sN`, helper functions are numbered `aN` for the Nth helper function in
+[__Working with lists__](./99_klong_problems.html#Working-with-lists),
+`bN` in [__Arithmetic__](./99_klong_problems.html#Arithmetic), `cN` in
+[__Logic and Codes__](./99_klong_problems.html#Logic-and-Codes) and so on.
 
 Prerequisites
 -------------
@@ -2325,7 +2326,8 @@ code and the performance it has).
 `d7` takes two lists, and generates their cartesian product<!--TODO:
 wikipedia link-->. Why not take the cartesian product `cp` from set.kg,
 the set library included in Klong, you ask? Because `cp` has problems
-with lists of lists, while `d7` deals with them easily:
+with lists of lists, while `d7` deals with them easily<!--TODO: submit
+to standard library as a fix-->:
 
 		.l("set")
 		d7::{,/y{(,y){x,,y}:\x}:\x}
@@ -2585,22 +2587,66 @@ We can now assign the shortest solution to `levelorder`:
 
 and test the solution:
 
-	s62c([])
+	levelorder([])
 	[]
-		s62c([:x [] []])
+		levelorder([:x [] []])
 	[[:x]]
-		s62c([:a [:b [] []] []])
+		levelorder([:a [:b [] []] []])
 	[[:a] [:b]]
-		s62c([:a [:b [:c [] []] [:d [] []]] [:e [] []]])
+		levelorder([:a [:b [:c [] []] [:d [] []]] [:e [] []]])
 	[[:a] [:b :e] [:c :d]]
 
 ### P63 (*) Construct a complete binary tree.
 
-2^x+n
+<!--
+Other solution approach: investigate to shave off bytes TODO
 
+Generally, the number of nodes in a complete binary tree can be described
+using the form `$2^n-1+r$`: a perfect binary tree with `$2^n-1$` nodes,
+and a set of residual nodes added on the last layer, where `$r<2^n-1$`
+(if `$r=2^n-1$`, then the last layer is full and no other layer has yet
+started).<!--TODO: image would perhaps be helpful--> A complete binary
+tree also has another interesting property: its left and right subtree
+are both complete binary trees, with one even being a perfect binary
+tree.<!--TODO: proof?-->
+
+Indeed, if `$r \ge \frac{2^n}{2}$`, then the left subtree is perfect,
+if `$r \le \frac{2^n}{2}$`, the right subtree is perfect. This knowledge
+allows us to create a recursive algorithm for generating complete trees with
+-->
+<!--
 	s63::{:[0=x;[];{(:x,:[y<2*x;[];,.f(x*2;y)]),:[y=2*x;,[]:|y<1+2*x;[];,.f(1+2*x;y)]}:(1;x)]}
 	s63::{:[x=0;[]:|x=1;(:x,,[]),,[];(:x,,.f((2^1+_ln(x%2)%ln(2))-1)),,.f(x-(2^1+_ln(x%2)%ln(2)))]}
 	s63::{[v];v:::[x<2;0;2^_ln(x%2)%ln(2)];.p(v);:[~x;[]:|x=1;(:x,,[]),,[];(:x,,.f((v&x-v-1)+v-1)),,.f((0|x-2*v-1)+v-1)]}
+-->
+
+Since every node has a specific address, one can write a simple recursive
+function that passes the number of nodes and the address of the current
+node, and if the address of the current node is greater than the total
+number of nodes, return the empty list (otherwise generate a node and
+recurse with children with addresses `2*y` and `1+2*y`. To actually glue
+the trees together, one can use `d1` from earlier to save some bytes.
+
+	s63::{{:[y>x;[];d1(.f(x;2*y);.f(x;1+2*y))]}:(x;1)}
+	completebintree::s63
+
+Tests:
+
+		completebintree(0)
+	[]
+		completebintree(1)
+	[:x [] []]
+		completebintree(2)
+	[:x [:x [] []] []]
+		completebintree(3)
+	[:x [:x [] []] [:x [] []]]
+		completebintree(7)
+	[:x [:x [:x [] []] [:x [] []]] [:x [:x [] []] [:x [] []]]]
+
+This one is also *actually safe* with negative numbers!
+
+		completebintree(-3)
+	[]
 
 <!--
 Multiway Trees

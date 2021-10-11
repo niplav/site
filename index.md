@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2021-08-28, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2021-10-11, language: english, status: in progress, importance: 6, confidence: log*
 
 > __If you take away just one thing from this website,
 it should be that I think [you would want to sign up for
@@ -43,6 +43,11 @@ Writing
 
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
 
+#### AI Alignment and Strategy
+
+* [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.md)
+* [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.md)
+
 #### Cost-Benefit Analyses
 
 * [Considerations on Cryonics](./considerations_on_cryonics.md)
@@ -71,10 +76,8 @@ Writing
 
 #### Other
 
-* [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.md)
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.md)
 * [Against Applause After Classical Concerts](./against_applause.md)
-* [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.md)
 * [Two People on a Planet](./two_people_on_a_planet.md)
 * [Life Advice](./life_advice.md)
 * [Reports](./reports.md)
@@ -106,11 +109,11 @@ Archives
 
 I try to read blogs completely, mostly [starting at the
 beginning](https://entirelyuseless.com/2018/06/12/start-at-the-beginning/ "Start at the Beginning")
-because most blogs are not organized by
-topic. But blog archives are usually hard to navigate and it is often
-difficult to keep track of my current position in the blog (especially
-with yearly/monthly wordpress archives). To salvage this, I scrape blog
-archives and arrange them chronologically.
+because most blogs are not organized by topic. But blog archives are
+usually hard to navigate and it is often difficult to keep track of my
+current position in the blog (especially with yearly/monthly WordPress
+archives). To salvage this, I scrape blog archives and arrange them
+chronologically.
 
 * [Bit-Player Posts Chronological Index](./bp_chrono.md)
 * [Overcoming Bias Posts Chronological Index](./ob_chrono.md)

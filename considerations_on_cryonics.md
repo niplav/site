@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2021-09-04, language: english, status: finished, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2021-10-11, language: english, status: finished, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -16,8 +16,8 @@
 > I also perform a [Monte-Carlo
 > simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method) using
 > [Guesstimate](https://www.getguesstimate.com/ "Official website"),
-> and find that signing up for cryonics at age 20 is worth in the
-> mean \$18m, median -\$100k (90% confidence interval: -\$2.16m,
+> and find that signing up for cryonics at age 20 is worth
+> \$18m in the mean, median -\$100k (90% confidence interval: -\$2.16m,
 > \$58.25m). It therefore seems recommendable to sign up for cryonics
 > immediately.__
 
@@ -81,11 +81,16 @@ Many would-be cryonicists cryocrastinate, i.e. they put off signing
 up for cryonics until a later point in their life. This has often
 been explained by the fact that signing up for cryonics [requires high
 conscientiousness](https://www.lesswrong.com/posts/hiDkhLyN5S2MEjrSE/normal-cryonics "Normal Cryonics")
-and can be easily be delayed until another point in life: "I'll get
-around to doing it eventually" – person who was cremated. However, it
-hasn't yet been explored whether this procrastination might be rational
-if eventually followed through with: Many cryonics organisations have
-high membership fees, which might be avoided by waiting.
+and can be easily be delayed until another point in life.
+
+> I'll get around to doing it eventually
+
+*– person who was cremated*
+
+
+However, it hasn't yet been explored whether this procrastination might be
+rational if eventually followed through with: Many cryonics organisations
+have high membership fees, which might be avoided by waiting.
 
 To find this out, I first present a point-estimate model of
 whether (and if yes, when) to sign up for cryonics. The model is
@@ -101,13 +106,11 @@ of cryonics. For a popular introduction to the topic that
 clarifies many common misconceptions about the practice, see [Urban
 2016](https://waitbutwhy.com/2016/03/cryonics.html "Why Cryonics Makes Sense").
 
-For more basic information about the topic, the [Cryonics
-FAQ](http://www.benbest.com/cryonics/CryoFAQ.html) by Ben Best, a former
-director of the Cryonics Institute, answers many questions, as well as
-[Alcor's Cryonics FAQ](https://alcor.org/FAQs/index.html).
-
-These texts should answer most questions people usually have about
-cryonics.
+For more basic information about the topic, there are the [Cryonics
+FAQ](http://www.benbest.com/cryonics/CryoFAQ.html) by Ben Best,
+a former director of the Cryonics Institute, as well as [Alcor's
+Cryonics FAQ](https://alcor.org/FAQs/index.html), which should answer
+most questions people usually have about cryonics.
 
 If you have decided that you indeed do want to sign up for
 cryonics, the best existing resource is the [Cryonics Signup
@@ -222,13 +225,15 @@ it develops over time (some people might regain motivation
 after some time), but intuitively it seems like a [geometric
 distribution](https://en.wikipedia.org/wiki/Geometric_distribution). The
 reasoning is as follows: Imagine that a thousand people have the
-motivation to perform a given action n years into the future. Every year,
-a certain percentage p of the people who were still motivated loses
-interest in performing that action and drop out. After n years, the
+motivation to perform a given action `$n$` years into the future. Every year,
+a certain percentage `$p$` of the people who were still motivated loses
+interest in performing that action and drop out. After `$n$` years, the
 number of people who perform the action is `$1000*p^n$` (the percentage
-of people still motivated is `$p^n$`).
+of people still motivated is `$p^n$`). This also works if some people
+get motivated again to do something after a number of years, as long as
+their decisions are independently and identically distributed.
 
-When trying to find out what the value of p is for oneself, one can
+When trying to find out what the value of `$p$` is for oneself, one can
 imagine a thousand independent identical copies of oneself planning on
 executing a complex plan one year ahead. How many of those would actually
 follow through on that plan? Intuitively, I'd say that it can't be much
@@ -670,7 +675,7 @@ life in the future should then look like this:
 
 ![Probability distribution over the value of a lifeyear in the future](./img/considerations_on_cryonics/avg_fut_year_val.png "The probability distribution over the value of a lifeyear in the future. The distribution is a normal distribution with an expected value of 50000 and a standard deviation of ~22000.")
 
-Note that this graph is not based on real data and only for illustrative purposes.
+*this graph is not based on real data and only here for illustrative purposes*
 
 But one can take another factor into account: Most negative future
 scenarios don't lead to resuscitation (civilisational collapse, stable
@@ -706,7 +711,7 @@ like this:
 
 <!--TODO: wouldn't that just shift the normal curve rightwards? Think about it.-->
 
-Note that this graph is not based on real data and only for illustrative purposes.
+*this graph is also not based on real data and only here for illustrative purposes*
 
 #### Negative Scenarios
 
@@ -760,10 +765,11 @@ long time, with little regard for their well-being.
 
 A relatively common worry that prevents people from signing up for
 cryonics is a scenario in which their brain is scanned and they are
-transformed into a whole-brain emulation. This is often accompanied by
-linking [qntm 2021](https://qntm.org/lena).
+transformed into a whole-brain emulation, which will then be used
+for slave labour or worse. This is often accompanied by linking [qntm
+2021](https://qntm.org/lena).
 
-For this to happen, several things need to happen:
+For this to occur, several things need to happen:
 
 1. The technology for whole-brain emulations is developed
 2. The brain of the person is scanned
@@ -780,11 +786,11 @@ option, and several forces work against the preserved person
 being that option:
 
 * If whole-brain emulation is wide-spread, and copying of whole-brain emulations is easy:
-	* Competition among whole-brain emulations is likely fierce, and labor by emulations would be as cheap as slave-labour (so there is no particular reason to enslave emulations)
+	* Competition among whole-brain emulations is likely fierce, and labor by emulations would be as cheap as slave labour (so there is no particular reason to enslave emulations)
 	* The average emulation is likely very competent and elite, and a much better worker than the average college-educated persoe ([Hanson 2016 pp. 161-163](https://ageofem.com "The Age of Em") estimates that most ems are going to be copies of fewer than a thousand or so original humans, each most likely again selected from several thousand individual childhoods to select the most capable educational lineage)
-* Uploading a vitrified brain seems to be at least as difficult as scanning a freshly deceased brain or a living brain, and possibly much more difficult, so it would not be necessarily more economically viable
-* There would be no laws protecting cryogenically preserved humans (or the emulations resulting from them)
+* Uploading a vitrified brain seems to be at least as difficult as scanning a freshly deceased brain or a living brain, and possibly much more difficult, since one would need to repair structural damage done by outdated cryopreservation methods (why not vitrify a recently deanimated person with the newest cryogenic technology, and then scan & upload them, instead of trying to fix old somewhat broken brains?), so it would probably not be more economically viable
 * It appears more likely than not that cryonics organisations will attempt to prevent the theft of preserved humans (although the organisations could fail and abandon or sell the preserved humans)
+* There would have to be no laws protecting cryogenically preserved humans (or the emulations resulting from them), but laws protecting living or recently deanimated people
 
 That said, if scanning living or recently deceased humans is illegal
 or very hard, but uploading and using cryogenically preserved humans is
@@ -1590,14 +1596,37 @@ principle](https://en.wikipedia.org/wiki/Precautionary_principle) might
 be much more wary of doing anything rash before futures with negative
 value can be ruled out.
 
-<!--
 Now What?
 ---------
 
-Okay, let's say you're now convinced that you should sign up for cryonics.
+<!--TODO: Yudkowsky quote about signing up immediately-->
 
-What is the next course of action?
--->
+In case you're now convinced that signing up for cryonics is the right
+thing to do for you, great! I encourage you strongly to __sign up as
+quickly as possible__, if your finances allow you to (there are cheaper
+associate memberships at Alcor, which get you over most of the hump of
+signing up at a much lower cost, which can then be activated at a later
+point in time into a full membership quickly, and memberships at the
+[Cryonics Institute](https://cryonics.org), which also much cheaper
+than Alcor, but require much higher amount of initiative to assure a
+quick preservation)).
+
+Generally, the [Cryonics Signup
+Guide](https://www.lesswrong.com/s/weBHYgBXg9thEQNEe) is the best
+resource for anyone to guide you through the signup process, though it
+lacks information for people outside of the US.
+
+Good luck, and may we see each other one day.
+
+If you are not convinced, that's also fine. If you think you have found a
+good counterargument or a flaw in this cost-benefit analysis, feel free
+to [contact me](./about.html#Contact) (though note that I'm generally
+quite unsympathetic to the prevalent position that death and aging are
+not clearly and strictly bad, and might be uninterested in discussion
+about that particular topic).
+
+I would also appreciate good write-ups countering the arguments for
+cryonics<!--TODO: link Paul Crowley's call for these-->.
 
 <!--
 From todo.md:

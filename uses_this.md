@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2021-01-24, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2021-10-11, language: english, status: in progress, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
 > recommendations by people who I respect, such as
@@ -46,8 +46,8 @@ Software
 * [Klong](http://t3x.org/klong/index.html)
 * [Myrddin](https://eigenstate.org/myrddin/)
 * [Lua](https://www.lua.org/)
-* [Scheme](https://en.wikipedia.org/wiki/Scheme_(programming_language))
-* [Forth](https://en.wikipedia.org/wiki/Forth_(programming_language))
+* [Scheme](https://en.wikipedia.org/wiki/Scheme_\(programming_language\))
+* [Forth](https://en.wikipedia.org/wiki/Forth_\(programming_language\))
 * [Standard ML](https://en.wikipedia.org/wiki/Standard_ML)
 
 ### Browser Plugins
@@ -80,7 +80,7 @@ of the time, simplicity can be roughly approximated in the total number
 of [sloc](https://en.wikipedia.org/wiki/Source_lines_of_code) used to
 implement the software.
 
-[Consistency](https://en.wikipedia.org/wiki/Consistency_(user_interfaces)#List_of_the_cognitive_dimensions)
+[Consistency](https://en.wikipedia.org/wiki/Consistency_\(user_interfaces\)#List_of_the_cognitive_dimensions)
 is even more difficult to define and classify than simplicity.
 Broadly speaking, consistency is dependent on symmetry (every input
 method has a corresponding output method and vice versa, for example)

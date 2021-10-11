@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-03-23, modified: 2021-05-11, language: english, status: notes, importance: 1, confidence: draft*
+*author: niplav, created: 2021-03-23, modified: 2021-10-11, language: english, status: notes, importance: 1, confidence: draft*
 
 > __People write mathematics in a specific way, and use different
 conventions. Here I collect mine, mainly for myself.__
@@ -21,3 +21,4 @@ Mathematics Notation Convention
 	* Perhaps I could write the first/second/third and so on moment as `$\mathbb{M_{1}}, \mathbb{M_{2}}, \mathbb{M_{3}}$`
 * In logic, use `$\Rightarrow$` or `$\Leftarrow$` for implication and `$\Leftrightarrow$` for the biconditional instead of `$\leftarrow$` or `$\rightarrow$` and `$\leftrightarrow$`.
 * Usually, with `$\bigcup/\bigvee/\sum/\prod$` etc, use `$i$` and `$j$` as the variables. If there are more, use `$i_1, i_2, \dots$`.
+* A variable with the name "abcd" is written as `$\text{abcd}$`, `$abcd$` is the product of four variables `$a, b, c$` and `$d$`.

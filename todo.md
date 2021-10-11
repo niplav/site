@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-09-25, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-10-11, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -41,6 +41,7 @@ Site
 	* Prune flagged cards?
 * Administrativa for Textbooks:
 	* Add Programming in Lua stuff
+* Switch to one-word urls (slugs, as qntm calls them)
 
 Texts
 -----
@@ -685,6 +686,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Plasma/Blood
 * Nuclear Waste FAQ
 * A List of Discord Servers Dedicated to Specific Textbooks
+* List of three-letter names for Unix related people (dmr, ken, rsc, there are probably others?)
 
 ### Notes
 
@@ -818,6 +820,9 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Daygame
 * Cryonics Zine
 * The Grand Picture
+* Epigrams
+	* Zero overlap with Gwerns, ideally
+* Microfiction (invented words, short dialogues, short poems)
 * Fundamentals
 
 > we should be far more explicit about the assumed background against
