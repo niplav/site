@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2021-09-20, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2021-10-12, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -894,6 +894,13 @@ Then for `$n^+=n \cup \{n\}=n^- \cup \{n^-\} \cup \{n\}$` to be equal to
 That would contradict the assumption, so `$n^+ \not =n$`.
 
 □
+
+This would be much easier to prove if the [Axiom of
+Regularity](https://en.wikipedia.org/wiki/Axiom_of_regularity) had
+been introduced: if we know that it can't be that `$a \in a$`, then
+`$n^+=n \cup \{n\}$` would need to be `$\{n\}$` for `$n^+$` to be equal
+to `$n$`, which could only be the case if `$n \in n$`, violating
+the axiom.
 
 ### Exercise 2
 
