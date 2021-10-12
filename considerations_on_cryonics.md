@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2021-10-11, language: english, status: finished, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2021-10-12, language: english, status: finished, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -767,7 +767,7 @@ A relatively common worry that prevents people from signing up for
 cryonics is a scenario in which their brain is scanned and they are
 transformed into a whole-brain emulation, which will then be used
 for slave labour or worse. This is often accompanied by linking [qntm
-2021](https://qntm.org/lena).
+2021](https://qntm.org/mmacevedo "Lena").
 
 For this to occur, several things need to happen:
 

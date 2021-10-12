@@ -34,16 +34,19 @@ HTML=index.html \
 	considerations_on_cryonics.html \
 	cryonics_outside_us.html \
 	daygame_cost_benefit.html \
+	epigrams.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
 	exercise_log.html \
 	generalizing_diamond_square.html \
+	language.html \
 	leave_the_internet.html \
 	life_advice.html \
 	life_improvements_2030.html \
 	masturbation_and_attractiveness.html \
 	mathematics_notation_convention.html \
 	metamodernistisches_manifest.html \
+	microfiction.html \
 	pipe_rings.html \
 	platte.html \
 	range_and_forecasting_accuracy.html \

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2021-07-25, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2021-10-13, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -166,172 +166,7 @@ unmodified (this seems quite likely).
 Better Names for Things
 ------------------------
 
-Although linguistic prescriptivism is technically a cardinal sin, I
-sometimes make exceptions if a word particularly annoys me. This is a
-list of such words and suggestions for better naming of the concepts
-they describe.
-
-### "Rationalism"
-
-The name is already occupied by a philosophical tradition called
-["rationalism"](https://en.wikipedia.org/wiki/Rationalism) which has very
-little relation to the collection of people on the internet usually called
-"rationalists". Also, the name seems to be quite pretentious to outsiders.
-
-<!--TODO: there was a post on LW about this instead being
-"pragmatism". Look that up!-->
-<!--TODO: similar with Metacognitive movement-->
-
-Alternatives:
-
-*	"Mapmaking": Using "The map is not the territory.", related to
-	practicality. Downside: also already taken.
-*	[Metacognitive Movement](https://www.lesswrong.com/posts/4E4zbHSmyuhkqgJmm/let-s-rename-ourselves-the-metacognitive-movement)
-
-[Further discussion here](https://www.lesswrong.com/posts/dq8rwmWXXQ4D4T6YD/should-we-stop-using-the-term-rationalist).
-
-### "Anarcho-Capitalism"
-
-The word "Anarchism" is strongly connected with left libertarian
-anti-capitalist thought (such as described by Bakunin, Kropotkin and
-Proudhon) throughout most of history and most of the world. Radical
-supporters of capitalism describing themselves as anarchists seems to
-be a historical anomaly, and they might want to find a name that clashes
-less with already existing trains of political thought.
-
-On the other hand, there has been a lot of debate about this perceived
-clash of terminology and it seems quite unlikely to change in the
-near future.
-
-Alternatives:
-
-* "Propertarianism"
-* "Voluntaryism"
-* "Voluntarism"
-
-### "Animal Rights"
-
-From a consequentialist perspective, rights are usually seen as
-instrumental heuristics and not as terminal values. When people talk about
-animal rights, they usually mean leaving animals alone in the context of
-factory farming and opposing interventions in nature. However, [Tomasik
-2017](https://foundational-research.org/the-importance-of-wild-animal-suffering/ "The Importance of Wild-Animal Suffering")
-makes a striking case for intervening in nature due to the prevalence of
-extreme suffering, usually including highly invasive measures which would
-violate a naive concept of "animals rights". However, these interventions
-would be designed to increase total animal welfare.
-
-Alternatives:
-
-* "Animal Welfare"
-
-### "Patriarchy"
-
-Most feminists today claim that the patriarchy hurts both men *and*
-women.<!--TODO: [citation needed]--> However, the word "patriarchy"
-strongly carries the connotation that men are solely responsible for this,
-which seems not entirely clear.
-
-Alternatives:
-
-These are not very good suggestions, and should be read tongue-in-cheek.
-
-* "Screwed up state of gender relations"
-
-### "Value Drift"
-
-Most people understand an opposition "value drift" as a rejection of
-moral development, and it's not clear where the difference between the
-two lies. Perhaps there are different kinds of such drifts: "value
-drift", "motivation drift", "discipline drift" etc.
-
-Alternatives:
-
-*	"Motivation Drift": This makes a clearer distinction between
-	motivation and the values motivated about
-
-### "Pick-Up Artistry"
-
-Strictly speaking, the word "art" is generally overused and defiled by
-using it to describe kitsch, skill or practice. I personally would prefer
-it if people stopped using the word "art" to describe banal and common
-things. "Pick-Up Artistry" falls into this category. It is a skill that
-requires sometimes years of practice, but it is a fundamentally practical
-and goal-oriented activity, unlike most (if not all) art.
-
-Alternatives:
-
-* "Pick-Up"
-
-### Names for Special ASCII Characters
-
-Programmers often have to use the ASCII special characters
-!"#\|%&'()\*+,-./:;<=>?@[\\]^\_\`{|}~. However, spelling out "exclamation
-mark" has proven to be cumbersome, which made programmers introduce
-(or use) their own names for these characters.
-
-Existing<!--TODO: find sources-->:
-
-* '!': Bang
-
-Personal proposals:
-
-* '()': Parens
-* '[]': Brackets
-* '{}': Braces
-* '\': Whack
-* '?': What
-
-### "Sentience"
-
-> In the philosophy of
-[consciousness](https://en.wikipedia.org/wiki/Consciousness),
-sentience can refer to the ability of any entity to have subjective
-perceptual experiences, or as some philosophers refer to them,
-"[qualia](https://en.wikipedia.org/wiki/Qualia)". […]  
-In the philosophies of animal welfare and rights, sentience implies the
-ability to experience [pleasure](https://en.wikipedia.org/wiki/Pleasure)
-and [pain](https://en.wikipedia.org/wiki/Suffering).
-
-*– English Wikipedia, [“Sentience”](https://en.wikipedia.org/wiki/Sentience), 2019*
-
-Very often, the word "sentience" is used to refer to the ability to
-feel pleasure or pain, or, to be more general, have experiences with a
-[valence](https://en.wikipedia.org/wiki/Valence_(psychology)). However,
-the strict philosophical definition of "sentience" does not necessarily
-entail the ability to feel pleasure or pain, just that some qualia
-can be experienced. Although it is very often assumed that sentience
-necessarily entails pleasure and pain, it might still be worthwhile
-making a distinction between the two.
-
-> "Sentients" is usually defined as beings that are capable of
-subjectively perceiving or feeling by means of the senses. This includes
-not only beings capable of the feeling of being happy and/or unhappy,
-but also includes beings just capable of perceiving things without having
-any affective feeling. In principle, it is possible for some sentients
-to be capable of perceiving the external world but without feeling
-happy or unhappy. One could have sensations of perceiving different
-colours without enjoying or disliking seeing them; one could have the
-sensation of being touched or even being squeezed without feeling pain or
-pleasure. Such non-affective sentients really do not have any positive
-or negative welfare. Their welfare is necessarily zero, just like non-
-sentients. Hence, for the purpose here, the important dividing line is
-not between sentients and non-sentients, but between affective sentients
-and non-affective beings (sentient or non-sentient).
-
-*– Yew-Kwang Ng, [“Towards Welfare Biology: Evolutionary Economics of Animal Consciousness and Suffering”](.doc/better_words/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf) p. 4, 1995*
-
-Thus, it seems desirable to differentiate between the ability to have
-subjective experiences ("sentience") and the ability to have affective
-subjective experiences.
-
-Alternatives:
-
-* "Affective sentience"
-
-Personal proposals:
-
-* "Valience" (the ability to have experiences with a valence component)
+Moved [here](./language.html#Better-Names-for-Things).
 
 Considerations on Cryonics
 --------------------------
@@ -1247,4 +1082,6 @@ How Many Proton Decays?
 How many proton decays should we expect to have happened in the universe so far?
 
 Proton decay follows a geometric distribution
+
+When will the last proton decay?
 -->
