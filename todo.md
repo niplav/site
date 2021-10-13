@@ -830,6 +830,11 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 
 *– John Nerst, [“30 Fundamentals”](https://everythingstudies.com/2018/07/16/30-fundamentals/), 2018*
 
+### Explorables
+
+* For modern methods of causal inference from statistical data (especially Pearl?)
+
+
 ### Fiction
 
 * A Religion
@@ -878,6 +883,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		world watches as increasingly unaligned alignment researchers and
 		unaligned artificial intelligence battle for attainable utility…
 * A History of Names
+* Destructive Uplift Theory of the Boötes Void
 * Skalpell Bizeps
 
 > 11-uhr-luft liegt rauh auf dem parkplatzboden. in den ritzen des
@@ -921,6 +927,9 @@ Flashcards
 -----------
 
 * Convert [Issa Rice's Analysis Flashcards](https://github.com/riceissa/tao-analysis-flashcards) to Anki
+* Flashcard sets for:
+	* Artificial Intelligence: A Modern Approach
+	* Naive Set Theory
 
 Music
 -----
@@ -938,6 +947,17 @@ Music
 * Nocturnes (Chopin)
 * Gymnopédies/Gnosiemmes (Satie)
 * Rhapsodie in Blue (Gershwin)
+
+Languages to Learn
+-------------------
+
+* French
+* Esperanto
+* Latin
+* Serbocroatian
+* Toki Pona
+* Lojban
+* Ithkuil
 
 Programming
 -----------
@@ -1174,7 +1194,6 @@ Programming
 * interweave
 	* A utility that takes a list of files and "interweaves" their lines (or by some other separator)
 	* E.g. "a\nb\n" and "1\n2\n3\n4\n" will become "a\n1\n2\nb\n3\n4\n"
-* An explorable for modern methods of causal inference from statistical data
 
 ### Klong Libraries
 
@@ -1283,9 +1302,18 @@ produces
 	∸∸∸∸∸ However, in a sense, maxichoice contraction
 	functions in general produce contractions
 
-### Wikipedia Articles
+### Languages to Learn
 
-#### Create
+* Myrddin
+* Scheme
+* SML
+* Forth
+* Prolog
+
+Wikipedia Articles
+-------------------
+
+### Create
 
 * Enhanced/Extended Suffix Array
 * Shapley Saddle
@@ -1294,7 +1322,7 @@ produces
 * Brandes' algorithm
 * IC/IC* algorithm
 
-#### Improve
+### Improve
 
 * [Maximal pair](https://en.wikipedia.org/wiki/Maximal_pair)
 	* Add examples
