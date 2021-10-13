@@ -13,6 +13,10 @@
 > [Lisp](https://www.ic.unicamp.br/%7Emeidanis/courses/mc336/2006s2/funcional/L-99_Ninety-Nine_Lisp_Problems.html
 > "99 Problems for Lisp") version.__
 
+<!--Import images from here:
+https://sites.google.com/site/prologsite/prolog-problems, but ask
+author-->
+
 K-99: Ninety-Nine Klong Problems
 ================================
 
