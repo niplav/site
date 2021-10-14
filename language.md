@@ -270,6 +270,7 @@ In the Water Supply
 * subsumption lattices in the water supply
 * cannibalistic respectability cascades in the water supply
 * sequential decision problems in the water supply
+* pattern screamers in the water supply
 
 “X is not about Y, it's about Z”
 ---------------------------------
@@ -328,6 +329,7 @@ Good Bandnames
 ---------------
 
 * Catastrophic Transcripts
+* Memetic Immune Disorder
 
 Daygame
 --------

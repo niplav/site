@@ -22,6 +22,7 @@ HTML=index.html \
 	nst_solutions.html \
 	pa_solutions.html \
 	praml_solutions.html \
+	rs_solutions.html \
 	tjpb_exercises.html \
 	99_klong_problems.html \
 	99_problems_collection.html \
