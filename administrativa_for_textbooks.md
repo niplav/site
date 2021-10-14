@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2021-09-18, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2021-10-14, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks (broadly defined as "a book with
 exercises"), and create some stuff while reading them (e.g. making
@@ -18,6 +18,28 @@ For flashcards, if I include the screenshot of an algorithm, the goal
 is not to learn the algorithm by heart in all detail, but have a good
 mental model of how it works.
 
+“Causality”
+-----------
+
+Strictly speaking, “Causality” by Judea Pearl is not a textbook,
+since it does not include exercises. It is nonetheless included here
+because I wrote flashcards for it.
+
+* [Flashcards](./flash/causality.apkg)
+	* p. 1-125 (replacing P with hat with Ṗ and x with hat with ẋ for the simple reason that I couldn't find a way to make MathJax create the former)
+	* p. 155-217
+* Read:
+	* p. 1-125
+	* p. 155-217
+
+“Reactive Systems”
+-------------------
+
+* [Solutions to Exercises](./rs_solutions.md)
+* [Flashcards](./flash/reactive_systems.apkg)
+* Read:
+	* p. 1-12
+
 “Multivariable Calculus”
 ------------------------
 
@@ -26,16 +48,6 @@ mental model of how it works.
 * Read:
 	* p. 1-14
 	* p. 37-40
-
-“Causality”
------------
-
-* [Flashcards](./flash/causality.apkg)
-	* p. 1-125 (replacing P with hat with Ṗ and x with hat with ẋ for the simple reason that I couldn't find a way to make MathJax create the former)
-	* p. 155-202
-* Read:
-	* p. 1-125
-	* p. 155-202
 
 ”Naïve Set Theory”
 ------------------

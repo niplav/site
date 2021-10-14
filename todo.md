@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-10-11, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-10-13, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -834,6 +834,11 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 
 * For modern methods of causal inference from statistical data (especially Pearl?)
 
+### Interviews
+
+* /u/JhanicManifold
+* TheRedQuest
+* Brian Tomasik
 
 ### Fiction
 
@@ -1321,6 +1326,8 @@ Wikipedia Articles
 * Weisfeiler-Lehman algorithm
 * Brandes' algorithm
 * IC/IC* algorithm
+* do operator
+* Back-door/Front-door criterion
 
 ### Improve
 

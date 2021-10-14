@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2021-10-12, language: english, status: finished, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2021-10-14, language: english, status: finished, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -1599,7 +1599,16 @@ value can be ruled out.
 Now What?
 ---------
 
-<!--TODO: Yudkowsky quote about signing up immediately-->
+> I know more people who are planning to sign up for cryonics Real
+Soon Now than people who have actually signed up. __I expect that
+more people have *died while cryocrastinating than have actually
+been cryopreserved*.__ If you've *already decided* this is a
+good idea, but you “haven't gotten around to it,”, sign up for
+cryonics ɴᴏᴡ. I mean ʀɪɢʜᴛ ɴᴏᴡ. Go to the website of
+[Alcor](http://www.alcor.org/BecomeMember/index.html) or the [Cryonics
+Institute](http://cryonics.org/become.html) and follow the instructions.
+
+*– [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“You Only Live Twice”](https://www.lesswrong.com/posts/yKXKcyoBzWtECzXrE/you-only-live-twice), 2008)*
 
 In case you're now convinced that signing up for cryonics is the right
 thing to do for you, great! I encourage you strongly to __sign up as
