@@ -53,6 +53,7 @@ HTML=index.html \
 	range_and_forecasting_accuracy.html \
 	rationalist_gods.html \
 	senryu.html \
+	sites.html \
 	tao_te_king.html \
 	text_reviews.html \
 	textbook_discord_servers.html \

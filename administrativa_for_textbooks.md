@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2021-10-14, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2021-10-16, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks (broadly defined as "a book with
 exercises"), and create some stuff while reading them (e.g. making
@@ -27,10 +27,10 @@ because I wrote flashcards for it.
 
 * [Flashcards](./flash/causality.apkg)
 	* p. 1-125 (replacing P with hat with Ṗ and x with hat with ẋ for the simple reason that I couldn't find a way to make MathJax create the former)
-	* p. 155-217
+	* p. 155-223
 * Read:
 	* p. 1-125
-	* p. 155-217
+	* p. 155-223
 
 “Reactive Systems”
 -------------------
