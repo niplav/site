@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-13, modified: 2021-09-01, language: english, status: in progress, importance: 2, confidence: remote*
+*author: niplav, created: 2021-01-13, modified: 2021-10-19, language: english, status: in progress, importance: 2, confidence: remote*
 
 > __After a discussion with a friend of mine, I thought it would be
 useful to structure my current thoughts about politics and economics
@@ -48,7 +48,7 @@ However, it's the best model I know of.
 How deep does this instability & incoherence go?
 
 [Arrhenius
-2000](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf)
+2000](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf "An Impossibility Theorem for Welfarist Axiologies")
 gives one answer.
 
 ### Then How Do We Find These Preferences?
@@ -86,7 +86,7 @@ Having no growth kicks people back into zero-sum dynamics
 Disaster-preparedness is easier & better (humans are risk-averse)
 
 Though there's the effect of making disasters more costly [Shulman
-2012](https://reflectivedisequilibrium.blogspot.com/2012/05/economic-growth-more-costly-disasters.html),
+2012](https://reflectivedisequilibrium.blogspot.com/2012/05/economic-growth-more-costly-disasters.html "Economic growth: more costly disasters, better prevention"),
 and civilization more complex & therefore fragile?
 
 Not valuable hedonically (Easterlin paradox)
@@ -190,7 +190,7 @@ authority can trigger the very “tragedy of the commons” that the
 same public officials presume will occur if they do not regulate the
 use of these fisheries.
 
-*–Elinor Ostrom, “Governing the Commons pp. 259-260, 1990*
+*–Elinor Ostrom, “Governing the Commons” pp. 259-260, 1990*
 
 <!--TODO: here description of illegal cryonics in France & British
 Columbia from the Cryonics Wikipedia page-->
@@ -332,11 +332,11 @@ Opportunity cost, huge: around $100b per year.
 
 This is not to say that I believe climate change to be harmless,
 I don't, and currently believe the recommendations in [Marblestone
-2019a](https://longitudinal.blog/co2-series-part-1-review-of-basics/),
+2019a](https://longitudinal.blog/co2-series-part-1-review-of-basics/ "Climate technology primer (1/3): basics"),
 [Marblestone
-2019b](https://longitudinal.blog/co2-series-part-2-co2-removal/)
+2019b](https://longitudinal.blog/co2-series-part-2-co2-removal/ "Climate technology primer (1/3): basics")
 and [Marblestone
-2019c](https://longitudinal.blog/co2-series-part-3-other-interventions/)
+2019c](https://longitudinal.blog/co2-series-part-3-other-interventions/ "Climate technology primer (3/3): other interventions")
 to be reasonable (although geoengineering seems quite dangerous, and
 should probably only be used as a last measure, if at all).
 

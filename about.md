@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-10-11, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2021-10-19, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -313,7 +313,7 @@ naturalism](https://plato.stanford.edu/entries/naturalism/#MetNat)
 illusionism/[eliminativism](https://longtermrisk.org/the-eliminativist-approach-to-consciousness/)
 about consciousness).
 
-![You're a sound rationalist, aren't you?](./img/about/sound_rationalist.jpg "You're a sound rationalist, aren't you?")
+![“You're a sound rationalist, aren't you?”; Screenshot from “Legends of the Galactic Heroes”](./img/about/sound_rationalist.jpg "“You're a sound rationalist, aren't you?”; Screenshot from “Legends of the Galactic Heroes”")
 
 My view on ethics is very consequentialism-focused, but with a large
 amount of moral uncertainty thrown into the mix. Within consequentialism,

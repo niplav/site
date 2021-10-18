@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2021-10-11, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2021-10-18, language: english, status: in progress, importance: 6, confidence: log*
 
 > __If you take away just one thing from this website,
 it should be that I think [you would want to sign up for
@@ -64,6 +64,7 @@ Writing
 * [Solutions to “Naïve Set Theory”](./nst_solutions.md)
 * [Solutions to “Artificial Intelligence: A Modern Approach”](./aima_solutions.md)
 * [Solutions to “A Primer in Social Choice Theory”](./apisct_solutions.md)
+* [Solutions to “Reactive Systems”](./rs_solutions.md)
 * [Solutions to “Pattern Recognition and Machine Learning](./praml_solutions.md)
 * [Exercises from “The Jazz Piano Book”](./tjpb_exercises.md)
 
