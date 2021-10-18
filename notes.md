@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2021-10-13, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2021-10-19, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -511,14 +511,14 @@ value](https://www.lesswrong.com/posts/Ld9dFLuGg7wTh4CdX/leaving-lesswrong-for-a
 of reading [Less Wrong](https://en.wikipedia.org/wiki/LessWrong), and it
 is true that it's often hard to point to specific advantages of doing so.
 
-One such advantage may be signing up for cryonics. [niplav
-2020](./considerations_on_cryonics.html "Considerations on Cryonics")
-estimates that signing up for cryonics is worth \$2.5m in expectation
-for a twenty year old. Assume that after 500 hours reading Less Wrong,
-a person will decide to sign up for cryonics (it broadly took me that
-much time, maybe a little bit less).
+One such advantage may be signing up for cryonics. [I
+estimate](./considerations_on_cryonics.html "Considerations on Cryonics")
+that signing up for cryonics is worth \$2.5m in expectation for a twenty
+year old (and more for older people). Assume that after 500 hours reading
+Less Wrong, a person will decide to sign up for cryonics (it broadly
+took me that much time, maybe a little bit less).
 
-Then the value of each of these hours was `$\frac{\$2500000}{500 h}=\frac{\$5000}{h}$`,
+Then the value of each of these hours was at least `$\frac{\$2500000}{500 h}=\frac{\$5000}{h}$`,
 quite formidable!
 
 Of course, reading Less Wrong is not the only way of becoming
@@ -697,7 +697,8 @@ Vasectomy & Sperm Freezing Cost-Benefit
 *Note: A friend told me that vasectomies don't make men permanently
 infertile: if you're not otherwise infertile, sperm can just be extracted
 or the vasectomy can be reversed. I haven't checked whether this is true,
-but if it is, the cost-benefit analysis below is misguided and wrong.*
+but if it is, the cost-benefit analysis below is misguided and wrong,
+likely coming out more strongly in favour of having a vasectomy.*
 
 It seems broadly useful to spend a lot of time to consider whether you
 want to have children, and with whom. However, in situations of arousal,
@@ -742,9 +743,9 @@ storage fee" and "if you store a perm for 1 year the cost will be \$395. A
 is \$2400".
 
 [Stacey 2020](https://www.verywellhealth.com/how-much-does-a-vasectomy-cost-906900 "The Cost of a Vasectomy")
-states that "In the United States, a vasectomy costs between \$300 to
-\$3000". To make the calculation easier, I will assume that a vasectomy
-costs \$1000.
+(please take a second to note the slight nominative determinism) states
+that "In the United States, a vasectomy costs between \$300 to \$3000". To
+make the calculation easier, I will assume that a vasectomy costs \$1000.
 
 Assuming that sperm would be frozen for 25 years, while child support
 lasts for around 18 years, that would give a cost of
@@ -932,10 +933,10 @@ rule out two distinct constructions of the same Leyland number with only
 three numbers:
 
 Let `$a,b,c \in \mathbb{N}^+ \backslash \{1\}$`, `$a \not =b, a \not =c, b \not =c$`.
-Then `$l=a^b+b^a=a^c+c^a$`. But since b and c are distinct, `$b>c$`
-(or the other way around, but that's just semantics). Then `$a^b>a^c$`,
-and `$b^a>c^a$`, which results in `$a^b+b^a>a^c+c^a$`. So distinct
-constructions with only three numbers are impossible.
+Then `$l=a^b+b^a=a^c+c^a$`. But since `$b$` and `$c$` are distinct,
+`$b>c$` (or the other way around, but that's just semantics). Then
+`$a^b>a^c$`, and `$b^a>c^a$`, which results in `$a^b+b^a>a^c+c^a$`. So
+distinct constructions with only three numbers are impossible.
 
 Why Not Nano-Apartments?
 -------------------------

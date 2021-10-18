@@ -1,10 +1,10 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-08-21, modified: 2021-08-28, language: english, status: finished, importance: 1, confidence: fiction*
+*author: niplav, created: 2021-08-21, modified: 2021-10-18, language: english, status: finished, importance: 1, confidence: fiction*
 
 > __As a response to [Applied Divinity Studies
-2021](https://applieddivinitystudies.com/2030/), I wrote a [long
+2021](https://applieddivinitystudies.com/2030/)<!--TODO: tooltip-->, I wrote a [long
 comment](https://old.reddit.com/r/slatestarcodex/comments/p5lf7n/ordinary_life_improvements_2030/h979po7/)
 on [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex), taking
 the premise more serious. This is a formatted and revised version of
@@ -12,6 +12,14 @@ that comment.__
 
 Life Improvements in 2030
 ===========================
+
+### Disavowal
+
+I now disavow this text. Most of it diverges strongly from the style of
+[Applied Divinity Studies'](https://applieddivinitystudies.com/2030/) or Gwern's original post<!--TODO: link-->, focussing way too
+much on big developments and not enough on small-scale noticeable changes.
+
+-----------------
 
 > Noooooo, this is boring ;-). Let's *actually* speculate
 about (not so ordinary) life-improvements from a [cozy

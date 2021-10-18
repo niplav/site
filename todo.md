@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-10-13, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-10-18, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -12,7 +12,6 @@ Todo
 Site
 -----
 
-* Make more mobile-friendly
 * Add tooltips to links (Title of Text)
 * Find out how to make the site more inclusive
 * (a) link for archives?
@@ -35,13 +34,13 @@ Site
 	* Considerations on Cryonics
 		* Mainly done
 		* Expand the section on the Guesstimate model
-		* Incorporate new Alcor membership costs
+		* Incorporate new Alcor membership costs & updated Metaculus probabilities
 * AIMA flashcards:
 	* Add tags for chapters/sort by chapters
 	* Prune flagged cards?
 * Administrativa for Textbooks:
 	* Add Programming in Lua stuff
-* Switch to one-word urls (slugs, as qntm calls them)
+* Add Content-tables to pages?
 
 Texts
 -----
@@ -308,8 +307,10 @@ Texts
 	* In short: trying to think better/act better can expected to yield monotonically increasing results with effort put in
 	* Result: Utilitarianism works by its own standards, rationalism works by its own standards
 * The Overlap Argument for Learning Latin does not Hold
+* The Existing-Uranium Argument Against Nuclear Waste Skepticism
 * Contra Morse on Fame
 	* https://ethanmorse.github.io/thoughts/famous.html
+* Contra Yudkowsky on Axelrodian Tolerance
 * Why Not Prepping?
 
 > [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
@@ -565,6 +566,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Merge India and the European Union
 * Writing Notes
 	* Concatenating Different Explanations
+* `$n$` grass-cutting robots on `$n$`-dimensional manifolds
 
 ### Collections
 
@@ -685,7 +687,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Sperm, Eggs
 	* Plasma/Blood
 * Nuclear Waste FAQ
-* A List of Discord Servers Dedicated to Specific Textbooks
 * List of three-letter names for Unix related people (dmr, ken, rsc, there are probably others?)
 
 ### Notes

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2021-10-13, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2021-10-19, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __.__
 
@@ -105,8 +105,7 @@ which seems not entirely clear.
 
 Alternatives:
 
-These are not very good suggestions, and should be read tongue-in-cheek.
-
+* ["Kyriarchy"](https://en.wikipedia.org/wiki/Kyriarchy)
 * "Screwed up state of gender relations"
 
 ### "Value Drift"
@@ -134,7 +133,6 @@ Alternatives:
 
 * "Pick-Up"
 
-### Names for Special ASCII Characters
 ### "Sentience"
 
 > In the philosophy of
@@ -191,7 +189,7 @@ Personal proposals:
 Naming ASCII Characters
 ------------------------
 
-Urbit names?
+<!--TODO: Urbit names?-->
 
 Programmers often have to use the ASCII special characters
 `!"#\|%&'()*+,-./:;<=>?@[\]^_{|}~` and \`. However, spelling out

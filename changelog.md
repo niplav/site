@@ -1,12 +1,44 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-10-11, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-10-18, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
+
+October 2021
+-------------
+
+* [99 Problems Klong Solution](./99_problems_klong_solution.html):
+	* [P63](./99_problems_klong_solution.html#P63--Construct-a-complete-binary-tree)
+* [Considerations on Cryonics](./considerations_on_cryonics.html)
+	* [Now What?](./considerations_on_cryonics.html#Now-What)
+* [Playing with Language](./language.html). Collecting linguistic weirdnesses, rants about improper terminology, idioms for paper titles, quines, umeshisms, missing symmetries, types of guy, …
+* [Microfiction](./microfiction.html). Portmanteaus, interesting & nice words, short poems, haikus, [Davisian dialogue fragments](https://zackmdavis.net/blog/2019/06/inconsiderate/index.html "Inconsiderate"), misattributed & invented quotes, …
+* [Recommendation-Worthy Websites](./sites.html)
+* [Discord Servers for Textbooks](./textbook_discord_servers.html)
+* [Solutions to “Naive Set Theory”](./nst_solutions.html):
+	* [Section 12](./nst_solutions.html#Section-12)
+		* [Exercise 1](./nst_solutions.html#Exercise-1_9)
+		* [Exercise 2](./nst_solutions.html#Exercise-2_5)
+* [Solutions to “Reactive Systems](./rs_solutions.html):
+	* [Chapter 2](./rs_solutions.html#Chapter-2)
+		* [2.1](./rs_solutions.html#21)
+		* [2.2](./rs_solutions.html#22)
+
+I now sort-of disavow [Life Improvements in
+2030](./life_improvements_2030.html): It completely missed the premise
+of thinking how regular people might perceive the future to be better
+in everyday, instead turning into another average "How might the future
+be like?" post by focussing on big-picture developments. Boring.
+
+### Other
+
+Updated the [Texts List](./texts_list.html). I finished
+the AI alignment articles [in the corresponding Arbital
+domain](https://arbital.com/explore/ai_alignment).
 
 September 2021
 --------------

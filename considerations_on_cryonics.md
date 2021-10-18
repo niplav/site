@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2021-10-14, language: english, status: finished, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2021-10-19, language: english, status: finished, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -1606,7 +1606,7 @@ been cryopreserved*.__ If you've *already decided* this is a
 good idea, but you “haven't gotten around to it,”, sign up for
 cryonics ɴᴏᴡ. I mean ʀɪɢʜᴛ ɴᴏᴡ. Go to the website of
 [Alcor](http://www.alcor.org/BecomeMember/index.html) or the [Cryonics
-Institute](http://cryonics.org/become.html) and follow the instructions.
+Institute](https://www.cryonics.org/membership) and follow the instructions.
 
 *– [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“You Only Live Twice”](https://www.lesswrong.com/posts/yKXKcyoBzWtECzXrE/you-only-live-twice), 2008)*
 

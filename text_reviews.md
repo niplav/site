@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-12-30, modified: 2021-04-01, language: english, status: in progress, importance: 3, confidence: opinion*
+*author: niplav, created: 2020-12-30, modified: 2021-10-19, language: english, status: in progress, importance: 3, confidence: opinion*
 
 > __Reading a text is sometimes a big time investment, but people
 don't approach their reading in a structured manner, e.g. by keeping
@@ -208,9 +208,10 @@ to the reader – clearly somewhat out of place in the rest of the book.
 
 Two things stand out to me from this book:
 
-1. They mention Brian Tomasik's early writings in a very positive tone,
-remarking that "It is one of the most interesting and well researched
-narratives that is not officially published by any organization."
+1. They mention Brian Tomasik's early writings on wild-animal suffering in
+a very positive tone, remarking that "It is one of the most interesting
+and well researched narratives that is not officially published by any
+organization."
 2. After reading it, I remain mostly unshaken in my
 vegetarianism. However, I have stopped eating eggs as a result of reading
 this book, and I now assign a much higher probability to the hypothesis
