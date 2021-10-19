@@ -233,7 +233,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [AlphaStar: Impressive for RL progress, not for AGI progress (orthonormal, 2019)](https://www.lesswrong.com/posts/SvhzEQkwFGNTy6CsN)
 * [Complex Behavior from Simple (Sub)Agents (moridinamael, 2019)](https://www.lesswrong.com/posts/3pKXC62C98EgCeZc4)
 * [Autism And Intelligence: Much More Than You Wanted To Know (Scott Alexander, 2019)](https://www.lesswrong.com/posts/Q8zqoBWBBHD2RjDuS)
-* [Relevance Norms; Or, Gricean Implicature Queers the Decoupling/Contextualizing Binary (Zack_M_Davis, 2019)](https://www.lesswrong.com/posts/GSz8SrKFfW7fJK2wN)
+* [Relevance Norms; Or, Gricean Implicature Queers the Decoupling/Contextualizing Binary (Zack\_M\_Davis, 2019)](https://www.lesswrong.com/posts/GSz8SrKFfW7fJK2wN)
 * [Instant stone (just add water!) (Jason Crawford, 2019)](https://www.lesswrong.com/posts/Qjsf4tS6Z4XQXCq2x)
 * [Integrating the Lindy Effect (lsusr, 2019)](https://www.lesswrong.com/posts/NCzfvp7jmbouodsRP)
 * [An overview of 11 proposals for building safe advanced AI (Evan Hubinger, 2020)](https://www.alignmentforum.org/posts/fRsjBseRuvRhMPPE5/an-overview-of-11-proposals-for-building-safe-advanced-ai)

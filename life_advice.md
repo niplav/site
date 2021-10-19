@@ -243,7 +243,7 @@ Existence of Long Tails for Bliss and Suffering"). <!--TODO: better links for th
 	market can stay irrational longer than you can stay solvent”).
 	*	If you appreciate natural diamonds for their authenticity,
 		then by all means, go ahead. But don't be disappointed
-		when a years later, your friends get a bigger diamond
+		when a years later, your friends can buy bigger diamonds
 		with the same carbon atoms 10x cheaper<!--TODO: link
 		Yudkowsky on "the same atoms"-->
 
