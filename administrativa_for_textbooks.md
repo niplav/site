@@ -35,10 +35,10 @@ because I wrote flashcards for it.
 “Reactive Systems”
 -------------------
 
-* [Solutions to Exercises](./rs_solutions.md)
 * [Flashcards](./flash/reactive_systems.apkg)
+* [Solutions to Exercises](./rs_solutions.md)
 * Read:
-	* p. 1-12
+	* p. 1-28
 
 “Multivariable Calculus”
 ------------------------

@@ -764,3 +764,5 @@
 2021-10-11T08:33:41.000000Z	The Racist in the Cave
 2021-10-11T14:43:27.000000Z	i innoculated myself against emacs by first & only playing tetris in it
 2021-10-11T14:45:19.000000Z	“you guys are getting added to groupchats?”
+2021-10-18T23:52:46.000000Z	how _do_ you prove that n=Δ+Δ'+Δ''?
+2021-10-19T00:01:09.000000Z	we have the fermat polygonal theorem and pollock's polyhedral numbers conjecture. can we generalise this into the n-polytopal conjecture?

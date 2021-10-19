@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-05-05, modified: 2021-05-22, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-05-05, modified: 2021-10-19, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __.__
 
@@ -21,3 +21,5 @@ The Pile of Facts flashcards can be found [here](./flash/pof.apkg).
 			revision, which is written as `$*$`
 	* [Privileged Group](https://en.wikipedia.org/wiki/Privileged_group) (2021-05-22)
 	* [Minimal effects hypothesis](https://en.wikipedia.org/wiki/Minimal_effects_hypothesis) (2021-05-22)
+* Other articles:
+	* [Storage and Disposal of Radioactive Waste](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-waste/storage-and-disposal-of-radioactive-waste.aspx)
