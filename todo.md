@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-10-18, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-10-19, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -475,6 +475,9 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* Safety
 		* Ability preservation
 		* Anti-slipperiness
+* Describe and write some code for the n-polytopal conjecture
+	* Just generalise Pollock's polyhedral conjecture for n-dimensional polytopes
+	* Also try to prove the case for triangular numbers first to get a feel for it?
 
 ### Ideas
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-23, modified: 2020-09-18, language: english, german, status: in progress, importance: 1, confidence: fiction*
+*author: niplav, created: 2019-08-23, modified: 2021-10-19, language: english, german, status: in progress, importance: 1, confidence: fiction*
 
 > __[Senryūs](https://en.wikipedia.org/wiki/Senry%C5%AB) that seemed okay enough to write down.__
 
@@ -34,7 +34,7 @@ Sadly decomposed
 This computation sufficed  
 But data? Perturbed  
 
-[Splines](https://en.wikipedia.org/wiki/Spline_(mathematics)) are weird and nice  
+[Splines](https://en.wikipedia.org/wiki/Spline_\(mathematics\)) are weird and nice  
 Where get differentiation?  
 Just increase your m  
 
