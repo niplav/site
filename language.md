@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2021-10-19, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2021-10-20, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __.__
 
@@ -152,7 +152,7 @@ feel pleasure or pain, or, to be more general, have experiences with a
 the strict philosophical definition of "sentience" does not necessarily
 entail the ability to feel pleasure or pain, just that some qualia
 can be experienced. Although it is very often assumed that sentience
-
+necessarily entails pleasure and pain, it might still be worthwhile
 making a distinction between the two.
 
 > "Sentients" is usually defined as beings that are capable of

@@ -1,6 +1,7 @@
 .l("csv")
 .l("nstat")
 
+daysec::60*60*24
 brier::{mu((x-y)^2)}
 
 :"1st argument: time differences"
@@ -61,5 +62,5 @@ wpbqbrier::+'wpbqbrier
 wpbqbrier::flr({1<#x};wpbqbrier)
 wpbqbrier::flr({(~(*x)~x@1)|2<#x};wpbqbrier)
 
-awmetqlr::mu'+lreg'wmetqbrier
-awpbqlr::mu'+lreg'wpbqbrier
+awmetqlr::(+/{(#x)*lreg(x)}'wmetqbrier)%#metqbrier
+awpbqlr::(+/{(#x)*lreg(x)}'wpbqbrier)%#wpbqbrier
