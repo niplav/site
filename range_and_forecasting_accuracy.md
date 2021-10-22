@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2021-05-22, language: english, status: finished, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2021-10-22, language: english, status: finished, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 to the time between forecast and resolution, and asks three
@@ -969,7 +969,8 @@ it to zero outside the range of the oldest and newest chunks:
 		setrgb(.rn();.rn();.rn());
 		pltr::{:[(x>**q)|x<**|q;0;lr(x;lreg(q))]};
 		plot(pltr)}
-	sketch'pchsmetq
+	daywmetqbrier::{+{(,x%daysec),,y}@+x}'wmetqbrier
+	sketch'daywmetqbrier
 
 ![Linear regressions for the accuracy of questions by range](./img/range_and_forecasting_accuracy/perquestion.png "Linear regressions for the accuracy of questions by range")
 
@@ -984,23 +985,33 @@ it can tell us. My *guess* would be that it somewhat shows a trend
 with higher ranges responding to higher Brier scores (and therefore
 lower accuracy).
 
-We can test whether this suspicion is acually correct by calculating the
-average offset and the average ascension – if the ascension is positive,
-our suspicion is confirmed.
+We can test whether this suspicion is acually correct by calculating
+the average offset and the average ascension – if the ascension is
+positive, our suspicion is confirmed. We have to weight questions by how
+many predictions they have received, otherwise the result is skewed by
+questions with very few predictions:
 
-		mu'+lreg'wmetqbrier
-	[0.0000000343952235958370255 0.0375813222857496718]
-		mu'+lreg'wpbqbrier
-	[0.0000359749784304593045 -238.963047593209695]
+		(+/{(#x)*lreg(x)}'wmetqbrier)%#wmetqbrier
+	[0.00000306341910990109424 3.37347711690772603]
+		(+/{(#x)*lreg(x)}'wpbqbrier)%#wpbqbrier
+	[0.0000806198780915276973 -500.10522409216513]
 
-So it is true that accuracy within question *generally* is higher with
-lower range for Metaculus data. Everything else would have been surprising.
+So it is true that accuracy within question *generally* is higher
+with lower range for Metaculus data, and similar for PredictionBook
+data. Everything else would have been surprising.
 
 <!--TODO: However, explain PredictionBook data?-->
 
 ![Mean of linear regressions on accuracy within questions](./img/range_and_forecasting_accuracy/withintotal.png "Mean of linear regressions on accuracy within questions")
 
 *Mean of linear regressions on accuracy within questions (red is Metaculus data, blue is PredictionBook data).*
+
+This chart, however, shows that the result is not as clean as one might
+hope: both linear regressions are very steep, with the PredictionBook
+one seeming more like a vertical line than a linear function of time.
+
+This probably results from the probabilities being treated linearly,
+while handling them in logspace would be much more appropriate.
 
 ### Sample Sizes
 
@@ -1090,17 +1101,41 @@ the Metaculus developers do not exist to cater to my whims, and are doing
 a phenomenal job). So, unfortunately I'll have postpone a more complete
 analysis to later.
 
-<!--
 Limitations
 -----------
 
+This analysis is still quite lacking in several aspects and could be
+significantly improved.
+
 ### Metaculus Dataset is Only Community Timeseries
 
-Oh boy.
-TODO:
-Two different kinds of datasets
+The Metaculus dataset and the PredictionBook dataset are quite different:
+For PredictionBook, the full dataset of all predictions is available,
+while the Metaculus API only offers data of the weighted average of the
+community as a timeseries (with ≤101 datapoints). Due to this limitation,
+the PredictionBook results and the Metaculus results can't be easily compared.
+
+However, I have tried to report the results for the Metaculus dataset
+and the PredictionBook dataset separately, so that future work can
+work either with aggregated timeseries data or with full datasets of
+individual forecasts.
 
 ### PredictionBook Forecasts can be Resolved by Anyone
+
+PredictionBook, unlike Metaculus, makes no attempts to generate a shared
+notion of ground-truth: Any user can resolve any question as they like,
+with the question-writer having the final verdict. This would make it
+quite easy to manipulate the dataset.
+
+In contrast, Metaculus has a set of admins and moderators that share a
+notion of how the questions relate to events in the world, which keeps
+questions and resolutions consistent with each other.
+
+<!--
+### Linear Regression is Not Predictive
+
+Use logspace instead? And logscore instead of brier score?
+Or just a logistic regression?
 -->
 
 Conclusion

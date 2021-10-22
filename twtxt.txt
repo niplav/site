@@ -766,3 +766,8 @@
 2021-10-11T14:45:19.000000Z	“you guys are getting added to groupchats?”
 2021-10-18T23:52:46.000000Z	how _do_ you prove that n=Δ+Δ'+Δ''?
 2021-10-19T00:01:09.000000Z	we have the fermat polygonal theorem and pollock's polyhedral numbers conjecture. can we generalise this into the n-polytopal conjecture?
+2021-10-22T09:47:11.000000Z	wagmi (or, unfortunately, nigmi)
+2021-10-22T09:47:18.000000Z	at least waitt
+2021-10-22T09:47:27.000000Z	everybody is an egg for buddha nature
+2021-10-22T10:04:19.000000Z	otoh i don't trust gov to do pigovian taxes well either
+2021-10-22T10:04:25.000000Z	fucken double-binds

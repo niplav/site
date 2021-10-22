@@ -35,14 +35,24 @@ the latter by
 
 `$\text{CTM} \overset{def}{=} \text{coin}.(\text{CTM}+\mathbf{0}+\overline{\text{coffee}}.\text{CTM}+\overline{\text{tea}}.\text{CTM})$`
 
-Hey look! `$+$` is commutatitve here!
+Hey look! `$+$` is commutative here!
 
 ### 2.3
 
 > A finite process graph `$T$` is a quadruple `$(\mathcal{Q}, A, \delta, q_0)$`, where  
 • `$\mathcal{Q}$` is a finite set of states,  
-• `$A$` is a finite set of label,  
+• `$A$` is a finite set of labels,  
 • `$q_0 \in \mathcal{Q}$` is the start state, and  
 • `$\delta: \mathcal{Q} \times A \rightarrow 2^{\mathcal{Q}}$` is the transition function.  
 
 > Using the operators introduced so far, give a CCS process that describes `$T$`.
+
+<div>
+	$$ T=q_0.\underset{a \in A}{\mathbf{+}} (a. \underset{q_1 \in δ(q_0, a)}{\mathbf{+}} (q_1.\underset{a \in A}{\mathbf{+}} (a. \underset{q_2 \in δ(q_1)}{\mathbf{+}} (q_2. \cdots))))$$
+</div>
+
+where `$\mathbf{+}$` is _supposed_ to be a big iterative operator like
+`$\sum$`, if only I could get MathJax to accept `\scalerel`. The equation
+is nested infinitely deep at most places that result in a loop that
+doesn't include `$q_0$`, and in some places end with `$.T$`, if `$q_0
+\in δ(q_n,a)$`.

@@ -4,11 +4,11 @@
 allscatter::.oc("allscatter.eps")
 .tc(allscatter)
 
-uplim::(|/*+subsetpb)
+uplim::|/(metrngs,pbrngs)%daysec
 
 setrgb(0;0;0)
-grid([0],uplim,(uplim%15);[0 1 0.1])
-xtitle("Range (in seconds)")
+grid([0],uplim,(_uplim%10);[0 1 0.1])
+xtitle("Range (in days)")
 ytitle("Brier Score")
 
 setdot(2)
@@ -48,11 +48,9 @@ draw()
 allq::.oc("allq.eps")
 .tc(allq)
 
-uplim::|/*+metqbrier,pbqbrier
-
 setrgb(0;0;0)
-grid([0],uplim,(uplim%15);[0 1 0.1])
-xtitle("Range (in seconds)")
+grid([0],uplim,(_uplim%10);[0 1 0.1])
+xtitle("Range (in days)")
 ytitle("Brier Score")
 
 setdot(2)
@@ -75,10 +73,12 @@ draw()
 perquestion::.oc("perquestion.eps")
 .tc(perquestion)
 
-setrgb(0;0;0)
-grid([0],uplim,(uplim%15);[0 1 0.1])
+uplim::|/metrngs%daysec
 
-xtitle("Range (in seconds)")
+setrgb(0;0;0)
+grid([0],uplim,(_uplim%10);[0 1 0.1])
+
+xtitle("Range (in days)")
 ytitle("Brier Score")
 
 sketch::{q::x;
@@ -86,22 +86,25 @@ sketch::{q::x;
 	pltr::{:[(x>**q)|x<**|q;0;lr(x;lreg(q))]};
 	plot(pltr)}
 
-sketch'wmetqbrier
-:"sketch'wpbqbrier"
+daywmetqbrier::{+{(,x%daysec),,y}@+x}'wmetqbrier
+
+sketch'daywmetqbrier
 
 draw()
 
 .fl()
 .cc(perquestion)
 
+uplim::|/(metrngs,pbrngs)%daysec
+
 withintotal::.oc("withintotal.eps")
 .tc(withintotal)
 
 setrgb(0;0;0)
 setdot(2)
-grid([0],uplim,(uplim%15);[0 1 0.1])
+grid([0],uplim,(_uplim%10);[0 1 0.1])
 
-xtitle("Range (in seconds)")
+xtitle("Range (in days)")
 ytitle("Brier score")
 
 setrgb(1;0;0)

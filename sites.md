@@ -12,6 +12,7 @@ Recommendation-Worthy Websites
 	* Personal Websites
 		* [Gwern](https://www.gwern.net/)
 		* [Nintil](https://nintil.com/)
+		* [Dynomight](https://dynomight.net/)
 	* [Wikipedia](https://en.wikipedia.org/)
 * Rationality
 	* [Less Wrong](https://lesswrong.com/)
