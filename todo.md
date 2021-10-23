@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-10-22, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-10-24, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -270,15 +270,6 @@ Texts
 	* Qualia Engineering
 	* Track Records, Forecasting and Prediction Markets
 	* The Difference in Sexual Behavior Between Men and Women
-* In Favor of Selling Glee/Contra Alexander on Hedonic Acquisitions
-	* Pointing out problems with the ideas in [The Price Of Glee In China](http://slatestarcodex.com/2016/03/23/the-price-of-glee-in-china/)
-	*	General idea: When you find out that making people wealthier
-		doesn't make them happier, you start thinking about how to make
-		them happier instead of trying to find reasons why making them
-		wealthier is still a good idea.
-	* Read the post carefully
-	* Read up on the research
-	* Perhaps re-emphasize as "Easterlin's Paradox"?
 * Missing the Movement
 	* "Most Hedonists end up sad!"
 	* "Utilitarianism leads to bad results!"
@@ -308,14 +299,26 @@ Texts
 	* Result: Utilitarianism works by its own standards, rationalism works by its own standards
 * The Overlap Argument for Learning Latin does not Hold
 * The Existing-Uranium Argument Against Nuclear Waste Skepticism
-* Contra Morse on Fame
-	* https://ethanmorse.github.io/thoughts/famous.html
-* Contra Yudkowsky on Axelrodian Tolerance
 * Why Not Prepping?
 
 > [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
 distinguishes between three different kinds of disaster scenarios:
 small-scale events, mass calamities, and the "zombie apocalypse".
+
+#### Contra
+
+* Contra Yudkowsky on Axelrodian Tolerance
+* In Favor of Selling Glee/Contra Alexander on Hedonic Acquisitions
+	* Pointing out problems with the ideas in [The Price Of Glee In China](http://slatestarcodex.com/2016/03/23/the-price-of-glee-in-china/)
+	*	General idea: When you find out that making people wealthier
+		doesn't make them happier, you start thinking about how to make
+		them happier instead of trying to find reasons why making them
+		wealthier is still a good idea.
+	* Read the post carefully
+	* Read up on the research
+	* Perhaps re-emphasize as "Easterlin's Paradox"?
+* Contra Morse on Fame
+	* https://ethanmorse.github.io/thoughts/famous.html
 
 ### Analyses
 

@@ -15,7 +15,7 @@ met.csv:
 	./metdata.py <../../data/metaculus.json >met.csv
 
 .eps.png:
-	convert -chop 0x180 $< $@
+	convert $< $@
 	rm $<
 
 %.eps: draw_all.kg

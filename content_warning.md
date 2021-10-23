@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-10-21, modified: 2020-12-15, language: english, status: finished, importance: 2, confidence: other*
+*author: niplav, created: 2020-10-21, modified: 2021-10-23, language: english, status: finished, importance: 2, confidence: other*
 
 > __I believe that content warnings are a [pretty good
 > idea](https://slatestarcodex.com/2014/05/30/the-wonderful-thing-about-triggers/ "The Wonderful Thing About Triggers"),
@@ -33,4 +33,6 @@ me](./about.html#Contact). For obvious reasons, I don't want to give
 examples of such hazards, but abstractly, those would be information
 that causes harm to a sufficient number (>10%) of people.
 
-I reserve it to myself to judge some information an information hazard.
+I reserve it to myself to judge some information an
+information hazard. I also [don't negotiate with terrorist
+memeplexes](http://unremediatedgender.space/2018/Jan/dont-negotiate-with-terrorist-memeplexes/ "Don't Negotiate With Terrorist Memeplexes").

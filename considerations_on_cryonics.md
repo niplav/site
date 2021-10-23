@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2021-10-19, language: english, status: finished, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2021-10-24, language: english, status: finished, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -692,6 +692,19 @@ people back.
 This effect might be dampened by the consideration that most possible
 futures have net-negative value, but on the other hand, nearly all of
 those futures don't lead to resuscitation.
+
+Furthermore, [Christiano 2013](https://forum.effectivealtruism.org/posts/gMzWWtdsArkwqNJEK/why-might-the-future-be-good "Why might the future be good?") outlines two reasons that indicate that the future will be good:
+
+> 1. Decisions will be made by people whose lives are morally valuable
+and who want the best for themselves. They will bargain amongst each
+other and create a world that is good to live in. Because my values are
+roughly aligned with their aggregate preferences, I expect them to create
+a rich and valuable world (by my lights as well as theirs).  
+2. Some people in the future will have altruistic values broadly similar
+to my own, and will use their influence to create a rich and valuable
+world (by my lights as well as theirs).
+
+*– Paul Christiano, [“Why might the future be good?”](https://forum.effectivealtruism.org/posts/gMzWWtdsArkwqNJEK/why-might-the-future-be-good), 2013*
 
 This would mean that the probability distribution over the value of
 a lifeyear in the future conditional on being resuscitated could look
