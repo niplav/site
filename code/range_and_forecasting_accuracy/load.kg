@@ -14,6 +14,7 @@ getdiffbrier::{diff::x;res::y;fore::z;dg::=diff;db::{(diff@*x),brier(fore@x;res@
 .fc(.ic("../../data/met.csv"));metraw::csv.load()
 
 metdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'1_metraw)
+metdata::(,metdata@0),(,(metdata@1)%daysec),(metdata@[2 3]),(,(metdata@4)%daysec)
 
 metress::metdata@2
 metfcs::metdata@3
@@ -22,6 +23,7 @@ metrngs::metdata@4
 .fc(.ic("../../data/pb.csv"));pbraw::csv.load()
 
 pbdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'1_pbraw)
+pbdata::(,pbdata@0),(,(pbdata@1)%daysec),(pbdata@[2 3]),(,(pbdata@4)%daysec)
 
 pbress::pbdata@2
 pbfcs::pbdata@3
@@ -30,17 +32,17 @@ pbrngs::pbdata@4
 metbriers::(metress-metfcs)^2
 pbbriers::(pbress-pbfcs)^2
 
-mettab::+(,metrngs%60*60*24),,metbriers
-pbtab::+(,pbrngs%60*60*24),,pbbriers
+mettab::+(,metrngs),,metbriers
+pbtab::+(,pbrngs),,pbbriers
 
 :"for visualization"
 
 subsetmet::2048#shuffle(mettab)
 subsetpb::2048#shuffle(pbtab)
 
-metss::_metrngs%60*60*24*7
+metss::_metrngs
 metss::metss@<metss
-pbss::_pbrngs%60*60*24*7
+pbss::_pbrngs
 pbss::pbss@<pbss
 
 maxval::|/pbss,metss
@@ -59,8 +61,8 @@ wmetqbrier::{(,x@4),,((x@2)-x@3)^2}'metquestions
 wpbqbrier::{(,x@4),,((x@2)-x@3)^2}'pbquestions
 wmetqbrier::+'wmetqbrier
 wpbqbrier::+'wpbqbrier
-wpbqbrier::flr({1<#x};wpbqbrier)
+wpbqbrier::flr({5<#x};wpbqbrier)
 wpbqbrier::flr({(~(*x)~x@1)|2<#x};wpbqbrier)
 
-awmetqlr::(+/{(#x)*lreg(x)}'wmetqbrier)%#metqbrier
-awpbqlr::(+/{(#x)*lreg(x)}'wpbqbrier)%#wpbqbrier
+awmetqlr::(+/{(#x)*lreg(x)}'wmetqbrier)%(+/#'wmetqbrier)
+awpbqlr::(+/{(#x)*lreg(x)}'wpbqbrier)%(+/#'wpbqbrier)

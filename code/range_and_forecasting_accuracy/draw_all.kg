@@ -4,7 +4,7 @@
 allscatter::.oc("allscatter.eps")
 .tc(allscatter)
 
-uplim::|/(metrngs,pbrngs)%daysec
+uplim::|/metrngs,pbrngs
 
 setrgb(0;0;0)
 grid([0],uplim,(_uplim%10);[0 1 0.1])
@@ -33,7 +33,7 @@ ssplot::.oc("ss_plot.eps")
 
 setrgb(0;0;0)
 grid([0],maxval,(maxval:%15);[0],maxlen,(maxlen:%15))
-xtitle("Range (in weeks)")
+xtitle("Range (in days)")
 ytitle("Number of predictions")
 
 setrgb(0;0;1)
@@ -73,7 +73,7 @@ draw()
 perquestion::.oc("perquestion.eps")
 .tc(perquestion)
 
-uplim::|/metrngs%daysec
+uplim::|/metrngs
 
 setrgb(0;0;0)
 grid([0],uplim,(_uplim%10);[0 1 0.1])
@@ -86,16 +86,14 @@ sketch::{q::x;
 	pltr::{:[(x>**q)|x<**|q;0;lr(x;lreg(q))]};
 	plot(pltr)}
 
-daywmetqbrier::{+{(,x%daysec),,y}@+x}'wmetqbrier
-
-sketch'daywmetqbrier
+sketch'wmetqbrier
 
 draw()
 
 .fl()
 .cc(perquestion)
 
-uplim::|/(metrngs,pbrngs)%daysec
+uplim::|/metrngs,pbrngs
 
 withintotal::.oc("withintotal.eps")
 .tc(withintotal)

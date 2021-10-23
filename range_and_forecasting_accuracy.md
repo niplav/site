@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2021-10-22, language: english, status: finished, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2021-10-24, language: english, status: finished, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 to the time between forecast and resolution, and asks three
@@ -37,11 +37,13 @@ https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting
 <!--Seems like a similar work:
 https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.12127-->
 
-[Probabilistic forecasting](https://en.wikipedia.org/wiki/Probabilistic_forecasting)
+[Probabilistic
+forecasting](https://en.wikipedia.org/wiki/Probabilistic_forecasting)<!--TODO:
+re-pivot to "judgemental forecasting"?-->
 that aggregates both [qualitative and quantitative
 methods](https://en.wikipedia.org/wiki/Forecasting#Qualitative_vs._quantitative_methods)
-is a comparatively simple idea. Basically, one needs to have only very few tools at one's
-disposal to being ready to start forecasting:
+is a comparatively simple idea. Basically, one needs to have only very
+few tools at one's disposal to being ready to start forecasting:
 
 <!--TODO: give more weight to the fact that it is humans doing this-->
 
@@ -118,7 +120,7 @@ Not necessary, move elsewhere.
 
 <!--
 Distinction between {probabilistic,non-probabilistic}
-{model-based,intuition-based} forecasting
+{model-based,judgmental} forecasting
 -->
 
 Metaculus and PredictionBook
@@ -426,9 +428,11 @@ negative ranges are removed from the dataset.
 
 	.fc(.ic("../../data/pb.csv"));pbraw::csv.load()
 	.fc(.ic("../../data/met.csv"));metraw::csv.load()
-
+	daysec::60*60*24
 	pbdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'1_pbraw)
+	pbdata::(,pbdata@0),(,(pbdata@1)%daysec),(pbdata@[2 3]),(,(pbdata@4)%daysec)
 	metdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'1_metraw)
+	metdata::(,metdata@0),(,(metdata@1)%daysec),(metdata@[2 3]),(,(metdata@4)%daysec)
 
 #### Why Some Negative Ranges?
 
@@ -468,7 +472,9 @@ Examples:
 In the next step, I extracted the individual variables from the data
 and gave them names (handling the various indices was tiresome after
 a while). `ress` stands for results, `fcs` for forecasts, and `rngs`
-for ranges:
+for ranges (the ranges are converted to days instead of seconds, which
+makes them sligthly easier to display graphically):
+
 
 	metress::metdata@2
 	metfcs::metdata@3
@@ -506,9 +512,9 @@ First, one can check how high the range of these two datasets really is.
 The PredictionBook forecasts with the highest range span 3730 days
 (more than 10 years), for Metaculus it's 1387 days (nearly 4 years):
 
-		(|/metrngs)%(24*60*60)
+		|/metrngs
 	1387.01877932435104
-		(|/pbrngs)%(24*60*60)
+		|/pbrngs
 	3730.00945601851852
 
 One can now look at the correlation between range and Brier score first
@@ -543,16 +549,16 @@ in the x axis:
 Now, a linear regression is easy:
 
 		lreg(mettab)
-	[0.000000000172708060226394773 0.167538673280194372]
+	[0.0000149219764035602802 0.167538673280194445
 		lreg(pbtab)
-	[-0.000000000102929939681891687 0.16348453886964792]
+	[-0.00000889314678851551979 0.163484538869647844]
 
 These are not particularly surprising. The inferred brier score at range
 0 (the forecast directly before resolution) is ~0.16, which seems a bit
 pessimistic, but other than that, growth with higher ranges for metaculus
 data and lower accuracy for higher ranges for predictionbook data match
 the correlation. The steepness of the regression is quite low because
-the ranges are in seconds.
+the ranges are in days.
 
 Visualizing the forecasts with
 [scatterplots](https://en.wikipedia.org/wiki/Scatter_plot) and [linear
@@ -560,9 +566,9 @@ regressions](https://en.wikipedia.org/wiki/Linear_regression) shows a
 very similar picture (red dots are for Metaculus forecasts, blue dots
 are for PredictionBook forecasts):
 
-![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in seconds)](./img/range_and_forecasting_accuracy/allscatter.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in seconds)")
+![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)](./img/range_and_forecasting_accuracy/allscatter.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)")
 
-*Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in seconds)*
+*Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)*
 
 The high amounts of noise are probably due to the low number of
 predictions for single days (or, in the case of weeks and months, for
@@ -654,9 +660,9 @@ To get a rough overview over the sample sizes, on can look at the number
 of samples for each bucket. The sample sizes were calculated such that
 at position i in the array `{pb,met}ss` was the sample size for week i:
 
-	metss::_metrngs%60*60*24*7
+	metss::_metrngs
 	metss::metss@<metss
-	pbss::_pbrngs%60*60*24*7
+	pbss::_pbrngs
 	pbss::pbss@<pbss
 
 	maxval::|/pbss,metss
@@ -665,14 +671,14 @@ at position i in the array `{pb,met}ss` was the sample size for week i:
 	pbss::{#pbss?x}'1+!maxval
 	metss::{#metss?x}'1+!maxval
 
-I generated charts for the sample sizes in weeks:
+I generated charts for the sample sizes in days:
 
 	ssplot::.oc("ss_plot.eps")
 	.tc(ssplot)
 
 	setrgb(0;0;0)
 	grid([0],maxlen,(maxlen:%20);[0],maxval,(maxval:%20))
-	xtitle("Range (in weeks)")
+	xtitle("Range (in days)")
 	ytitle("Number of predictions")
 
 	setrgb(0;0;1)
@@ -684,9 +690,9 @@ I generated charts for the sample sizes in weeks:
 	.fl()
 	.cc(ssplot)
 
-![Sample sizes for predictions with a range of n months, sorted and graphed.](./img/range_and_forecasting_accuracy/ss_plot.png "Sample sizes for predictions with a range (in weeks), sorted and graphed.")
+![Sample sizes for predictions with a range of n months, sorted and graphed.](./img/range_and_forecasting_accuracy/ss_plot.png "Sample sizes for predictions with a range (in days), sorted and graphed.")
 
-*Sample sizes for predictions with a range (in weeks), sorted and graphed.*
+*Sample sizes for predictions with a range (in days), sorted and graphed.*
 
 The red graphs stands for Metaculus sample sizes, the blue graph stands
 for PredictionBook sample sizes.
@@ -701,17 +707,17 @@ This can be seen in the data as well: The median range of metaculus and
 predictionbook predictions is only a couple of months, and less than 25%
 of questions have a range of more than one year:
 
-	Q(0.25;metrngs%60*60*24*365)
+	Q(0.25;metrngs%365)
 		0.0937919114852302448
-	Q(0.5;metrngs%60*60*24*365)
+	Q(0.5;metrngs%365)
 		0.34114799258678412
-	Q(0.75;metrngs%60*60*24*365)
+	Q(0.75;metrngs%365)
 		0.917333030834854515
-	Q(0.25;pbrngs%60*60*24*365)
+	Q(0.25;pbrngs%365)
 		0.0435826674277016743
-	Q(0.5;pbrngs%60*60*24*365)
+	Q(0.5;pbrngs%365)
 		0.308100377346524606
-	Q(0.75;pbrngs%60*60*24*365)
+	Q(0.75;pbrngs%365)
 		0.977603754439370878
 
 I hope that the dataset becomes richer the older these platforms become.
@@ -820,15 +826,15 @@ For accuracy between questions, the results were pretty surprising:
 		cor@+pbqbrier
 	-0.051808239905807497
 		lreg(metqbrier)
-	[-0.0000000000601753889846147087 0.175130112661923862]
+	[-0.00000519915360827071107 0.175130112661923861
 		lreg(pbqbrier)
-	[-0.000000000249291592263056412 0.195254764708843302]
+	[-0.0000215387935715280697 0.195254764708843238]
 
 For Metaculus, the slope off the linear regression is approximately
-`$-6*10^{-11}$`, compared that with `$1*10^{-10}$` for the slope for the
+`$-5*10^{-6}$`, compared that with `$1*10^{-5}$` for the slope for the
 linear regression between forecasts – the slope is less steep, but
 also negative. For PredictionBook, the slope of the linear regression
-is `$-2*10^{-10}$`, compared with `$-1*10^{-10}$` for the data between
+is `$-2*10^{-5}$`, compared with `$-8*10^{-6}$` for the data between
 forecasts, which is slightly steeper.
 
 In both cases, there was a negative correlation between the brier score
@@ -912,10 +918,10 @@ out of `wpbqbrier` (they don't make much sense in our analysis either):
 One can play around and calculate the correlation between range and
 accuracy for every question:
 
-		4#{cor@x}'wmetqbrier
+		{cor@x}'4#wmetqbrier
 	[0.763628932400678817 0.46136759691608953 -0.139435096904356686 -0.882370278576558711]
-		4#{cor@x}'wpbqbrier
-	[-1.0 -1.0 -1.0 -1.0]
+		{cor@x}'4#wpbqbrier
+	[-1.0 1.0 -1.0 -1.0]
 
 The perfect negative correlation comes from the fact that the first
 questions in the dataset have only two predictions, which all by chance
@@ -989,26 +995,43 @@ We can test whether this suspicion is acually correct by calculating
 the average offset and the average ascension – if the ascension is
 positive, our suspicion is confirmed. We have to weight questions by how
 many predictions they have received, otherwise the result is skewed by
-questions with very few predictions:
+questions with very few predictions. This is done by computing the linear
+regression for range/accuracy for each question, multiplying it by the
+number of predictions on that question, adding up the linear regressions,
+and then dividing the result by the total number of predictions in
+the dataset:
 
-		(+/{(#x)*lreg(x)}'wmetqbrier)%#wmetqbrier
-	[0.00000306341910990109424 3.37347711690772603]
-		(+/{(#x)*lreg(x)}'wpbqbrier)%#wpbqbrier
-	[0.0000806198780915276973 -500.10522409216513]
+		awmetqlr::(+/{(#x)*lreg(x)}'wmetqbrier)%(+/#'wmetqbrier)
+	[0.00304807889635842984 0.0388493550172142907]
+		awpbqlr::(+/{(#x)*lreg(x)}'wpbqbrier)%(+/#'wpbqbrier)
+	[1.3731897568232792 -98.5907264853066552]
+
+The PredictionBook data – how do I put this – simply can't be true.
+I am pretty confident that this code *is* correct, but I think that
+the questions with very few prdictions are producing incorrect results,
+especially when the predictions are very close to each other. So let's
+arbitrarily exclude questions with less than six predictions (actually
+an arbitrary choice I did not iterate over to get a “desired” result):
+
+		wpbqbrier::flr({5<#x};wpbqbrier)
+		#wpbqbrier
+	2191
+		awpbqlr::(+/{(#x)*lreg(x)}'wpbqbrier)%(+/#'wpbqbrier)
+	[0.00374070031232435941 -0.0112363430365067794]
+
+This looks much better.
 
 So it is true that accuracy within question *generally* is higher
 with lower range for Metaculus data, and similar for PredictionBook
 data. Everything else would have been surprising.
-
-<!--TODO: However, explain PredictionBook data?-->
 
 ![Mean of linear regressions on accuracy within questions](./img/range_and_forecasting_accuracy/withintotal.png "Mean of linear regressions on accuracy within questions")
 
 *Mean of linear regressions on accuracy within questions (red is Metaculus data, blue is PredictionBook data).*
 
 This chart, however, shows that the result is not as clean as one might
-hope: both linear regressions are very steep, with the PredictionBook
-one seeming more like a vertical line than a linear function of time.
+hope: both linear regressions are very steep, predicting Brier scores
+of \>1 for ranges of more than a years, which is clearly nonsensical.
 
 This probably results from the probabilities being treated linearly,
 while handling them in logspace would be much more appropriate.
