@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-10-23, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-10-24, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -23,6 +23,7 @@ October 2021
 		* [Now What?](./considerations_on_cryonics.html#Now-What)
 	* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 		* [Limitations](./range_and_forecasting_accuracy.html#Limitations)
+		* Fixed a bunch of minor problems
 	* [Solutions to “Naive Set Theory”](./nst_solutions.html):
 		* [Section 12](./nst_solutions.html#Section-12)
 			* [Exercise 1](./nst_solutions.html#Exercise-1_9)
@@ -32,6 +33,8 @@ October 2021
 			* [2.1](./rs_solutions.html#21)
 			* [2.2](./rs_solutions.html#22)
 			* [2.3](./rs_solutions.html#23)
+			* [2.4](./rs_solutions.html#24)
+			* [2.5](./rs_solutions.html#25)
 
 I now sort-of disavow [Life Improvements in
 2030](./life_improvements_2030.html): It completely missed the premise
