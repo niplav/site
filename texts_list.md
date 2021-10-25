@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-10-23, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-10-24, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Das eleusiche Fest (Friedrich Schiller, 1804)
+* Ritter Toggenburg (Friedrich Schiller, 1804)
+* Menschliches Wissen (Friedrich Schiller, 1804)
+* Die Geschlechter (Friedrich Schiller, 1804)
+* [The Social Construction of Reality and the Sheer Goddamned Pointlessness of Reason (M. Taylor Saotome-Westlake, 2019)](http://unremediatedgender.space/2019/Aug/the-social-construction-of-reality-and-the-sheer-goddamned-pointlessness-of-reason/)
+* [Group Theory for Wellness I (Zack_M_Davis, 2019)](https://zackmdavis.net/blog/2019/05/group-theory-for-wellness-i/)
+* [Maybe Lying Doesn't Exist (Zack_M_Davis, 2019)](https://www.lesswrong.com/posts/bSmgPNS6MTJsunTzS/maybe-lying-doesn-t-exist)
+* [Don't Negotiate With Terrorist Memeplexes (M. Taylor Saotome-Westlake, 2018)](http://unremediatedgender.space/2018/Jan/dont-negotiate-with-terrorist-memeplexes/)
 * [Against Lie Inflation (Scott Alexander, 2019)](https://slatestarcodex.com/2019/07/16/against-lie-inflation/)
 * [The Whole City Is Center (Scott Alexander, 2018)](https://slatestarcodex.com/2018/07/18/the-whole-city-is-center/)
 * [Fundamental Value Differences Are Not That Fundamental (Scott Alexander, 2018)](https://slatestarcodex.com/2018/07/18/fundamental-value-differences-are-not-that-fundamental/)

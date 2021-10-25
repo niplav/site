@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-06-15, modified: 2021-10-21, language: english, status: notes, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-15, modified: 2021-10-24, language: english, status: notes, importance: 1, confidence: log*
 
 > __I recently got the feeling that tracking my exercise might be vaguely
 > useful. This is my attempt.__
@@ -63,7 +63,7 @@ Log
 * 10 5kg dumbbell bench presses
 * 50 double leg lifts
 * 200 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2020-06-23
 
@@ -87,7 +87,7 @@ Log
 * 5 burpees
 * 50 double leg lifts
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2020-06-29
 
@@ -159,7 +159,7 @@ Log
 * 10 burpees
 * 50 double leg lifts
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2020-07-17
 
@@ -193,7 +193,7 @@ Log
 * 25 5kg dumbbell shoulder presses
 * 50 double leg lifts
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2020-07-25
 
@@ -211,7 +211,7 @@ Log
 * 20 burpees
 * 50 double leg lifts
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2020-07-31
 
@@ -229,7 +229,7 @@ Log
 * 20 burpees
 * 50 double leg lifts
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2020-08-05
 
@@ -286,7 +286,7 @@ Log
 * 20 burpees
 * 50 double leg lifts
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2020-09-08
 
@@ -304,7 +304,7 @@ Log
 * 20 burpees
 * 50 double leg lifts
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2020-09-16
 
@@ -351,7 +351,7 @@ Log
 * 20 burpees
 * 50 double leg lifts
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2020-10-03
 
@@ -446,7 +446,7 @@ Log
 * 10 burpees
 * 50 double leg lifts
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2020-11-03
 
@@ -481,7 +481,7 @@ Log
 * 10 burpees
 * 60 double leg lifts
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2020-11-17
 
@@ -531,7 +531,7 @@ Log
 * 10 burpees
 * 60 double leg lifts
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2020-12-01
 
@@ -550,7 +550,7 @@ Log
 * 20 burpees
 * 60 double leg lifts
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2020-12-12
 
@@ -583,7 +583,7 @@ Log
 * 60 double leg lifts
 * 20 burpees
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2020-12-21
 
@@ -717,7 +717,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 10 vertical rows
 * 20 walking lunges
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2021-01-22
 
@@ -769,7 +769,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 40 walking lunges
 * 20 burpees
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2021-02-07
 
@@ -906,7 +906,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 30 double leg lifts
 * 30 walking lunges
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2021-03-17
 
@@ -923,7 +923,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 10 burpees
 * 30 walking lunges
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2021-03-22
 
@@ -1066,7 +1066,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 10 burpees
 * 30 walking lunges
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2021-05-22
 
@@ -1575,7 +1575,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 10 burpees
 * 80 walking lunges
 * 100 froggers
-* 1 minute plank
+* 1 minutes plank
 
 ### 2021-10-11
 
@@ -1660,3 +1660,19 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 60 walking lunges
 * 100 froggers
 * 2 minutes plank
+
+### 2021-10-24
+
+* 60 7.5kg dumbbell shoulder presses
+* 60 7.5kg dumbbell biceps curls
+* 60 7.5kg dumbbell upright rows
+* 60 7.5kg dumbbell Γ lifts
+* 60 7.5kg dumbbell bench presses
+* 10 7.5kg dumbbell scaptions
+* 10 7.5kg dumbbell lateral lifts
+* 60 push-ups
+* 30 sit-ups
+* 60 double leg lifts
+* 60 walking lunges
+* 100 froggers
+* 1 minutes plank

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-10-14, modified: 2021-10-18, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-10-14, modified: 2021-10-24, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __.__
 
@@ -56,3 +56,34 @@ where `$\mathbf{+}$` is _supposed_ to be a big iterative operator like
 is nested infinitely deep at most places that result in a loop that
 doesn't include `$q_0$`, and in some places end with `$.T$`, if `$q_0
 \in δ(q_n,a)$`.
+
+### 2.4
+
+> Consider the following LTS:
+
+![A cyclic diagram for exercise 2.4, described further below.](./img/rs_solutions/diagram_2_4.png "A cyclic diagram for exercise 2.4, described further below.")
+
+> Define the LTS as a triple
+`$(\text{Proc}, \text{Act}, \{\overset{α}{\rightarrow}|α \in \text{Act}\})$`.
+Use sketches to illustrate the reflexive closure, symmetric closure and
+transitive closure of the binary relation `$\overset{α}{\rightarrow}$`?
+
+The process, in triple form, is
+`$(\{s, s_1, s_2, s_3\}, \{a\}, \overset{a}{\rightarrow}=\{(s, s_1), (s_1, s_2), (s_2, s_3), (s_3, s)\})$`.
+
+I'm not sure about the sketch part, but I can try to describe the
+different closures.
+
+The reflexive closure of `$\overset{a}{\rightarrow}$` would additionally
+contain the elements
+`$\{(s,s), (s_1, s_1), (s_2, s_2), (s_3, s_3)\}$`.
+
+The symmetric closure is similarly easy to generate: it additionally
+contains the elements `$\{(s_1, s), (s_2, s_1), (s_3, s_2), (s, s_3)\}$`.
+
+The transitive closure additionally contains the elements from the set
+`$\{(s, s_2), (s, s_3), (s_1, s_3), (s_1, s), (s_2, s), (s_2, s_1), (s_3, s_1), (s_3, s_2)\}$`.
+
+### 2.5
+
+The set of reachable states includes all states: `$p, p_1$` and `$p_2$`.
