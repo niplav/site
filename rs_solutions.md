@@ -48,7 +48,7 @@ Hey look! `$+$` is commutative here!
 > Using the operators introduced so far, give a CCS process that describes `$T$`.
 
 <div>
-	$$ T=q_0.\underset{a \in A}{\mathbf{+}} (a. \underset{q_1 \in δ(q_0, a)}{\mathbf{+}} (q_1.\underset{a \in A}{\mathbf{+}} (a. \underset{q_2 \in δ(q_1)}{\mathbf{+}} (q_2. \cdots))))$$
+	$$ T=q_0.\underset{a_1 \in A}{\mathbf{+}} (a_1. \underset{q_1 \in δ(q_0, a_1)}{\mathbf{+}} (q_1.\underset{a_2 \in A}{\mathbf{+}} (a_2. \underset{q_2 \in δ(q_1, a_2)}{\mathbf{+}} (q_2. \cdots))))$$
 </div>
 
 where `$\mathbf{+}$` is _supposed_ to be a big iterative operator like
