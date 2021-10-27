@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-10-24, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-10-27, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,24 +17,38 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Spruch des Konfuzius (Friedrich Schiller, 1804)
+* Das Lied von der Glocke (Friedrich Schiller, 1804)
+* Die Begegnung (Friedrich Schiller, 1804)
+* [I Don't Do Policy (Mark Taylor Saotome-Westlake, 2021)](http://unremediatedgender.space/2021/Sep/i-dont-do-policy/)
+* [Reply to The Unit of Caring on Adult Human Females (Mark Taylor Saotome-Westlake, 2018)](http://unremediatedgender.space/2018/Apr/reply-to-the-unit-of-caring-on-adult-human-females/)
+* [Spotify Let Me Fix Your Stupid Podcast Algorithm (Ozy Brennan, 2021)](https://thingofthings.substack.com/p/spotify-let-me-fix-your-stupid-podcast)
+* [A Common Misunderstanding; Or, The Spirit of the Staircase (24 January 2009) (Mark Taylor Saotome-Westlake, 2017)](http://unremediatedgender.space/2017/Dec/a-common-misunderstanding-or-the-spirit-of-the-staircase-24-january-2009/)
+* [Chromatic Key (Mark Taylor Saotome-Westlake, 2016)](http://unremediatedgender.space/2016/Nov/chromatic-key/)
+* [The Erotic Target Location Gift (Mark Taylor Saotome-Westlake, 2017)](http://unremediatedgender.space/2017/Jan/the-erotic-target-location-gift/)
+* [I'm Sick of Being Lied To (Mark Taylor Saotome-Westlake, 2017)](http://unremediatedgender.space/2017/Jan/im-sick-of-being-lied-to/)
+* [Fresh Princess (Mark Taylor Saotome-Westlake, 2017)](http://unremediatedgender.space/2017/Mar/fresh-princess/)
+* [What Is It Like For Animals To Suffer? (Ozy Brennan, 2021)](https://thingofthings.substack.com/p/what-is-it-like-for-animals-to-suffer)
+* [The Categories Were Made for Man to Make Predictions (Mark Taylor Saotome-Westlake, 2018)](http://unremediatedgender.space/2018/Feb/the-categories-were-made-for-man-to-make-predictions/)
+* [Just another day in utopia (Stuart Armstrong, 2011)](https://www.lesswrong.com/posts/sMsvcdxbK2Xqx8EHr/just-another-day-in-utopia)
 * Das eleusiche Fest (Friedrich Schiller, 1804)
 * Ritter Toggenburg (Friedrich Schiller, 1804)
 * Menschliches Wissen (Friedrich Schiller, 1804)
 * Die Geschlechter (Friedrich Schiller, 1804)
-* [The Social Construction of Reality and the Sheer Goddamned Pointlessness of Reason (M. Taylor Saotome-Westlake, 2019)](http://unremediatedgender.space/2019/Aug/the-social-construction-of-reality-and-the-sheer-goddamned-pointlessness-of-reason/)
-* [Group Theory for Wellness I (Zack_M_Davis, 2019)](https://zackmdavis.net/blog/2019/05/group-theory-for-wellness-i/)
-* [Maybe Lying Doesn't Exist (Zack_M_Davis, 2019)](https://www.lesswrong.com/posts/bSmgPNS6MTJsunTzS/maybe-lying-doesn-t-exist)
-* [Don't Negotiate With Terrorist Memeplexes (M. Taylor Saotome-Westlake, 2018)](http://unremediatedgender.space/2018/Jan/dont-negotiate-with-terrorist-memeplexes/)
+* [The Social Construction of Reality and the Sheer Goddamned Pointlessness of Reason (Mark Taylor Saotome-Westlake, 2019)](http://unremediatedgender.space/2019/Aug/the-social-construction-of-reality-and-the-sheer-goddamned-pointlessness-of-reason/)
+* [Group Theory for Wellness I (Zack\_M_Davis, 2019)](https://zackmdavis.net/blog/2019/05/group-theory-for-wellness-i/)
+* [Maybe Lying Doesn't Exist (Zack\_M\_Davis, 2019)](https://www.lesswrong.com/posts/bSmgPNS6MTJsunTzS/maybe-lying-doesn-t-exist)
+* [Don't Negotiate With Terrorist Memeplexes (Mark Taylor Saotome-Westlake, 2018)](http://unremediatedgender.space/2018/Jan/dont-negotiate-with-terrorist-memeplexes/)
 * [Against Lie Inflation (Scott Alexander, 2019)](https://slatestarcodex.com/2019/07/16/against-lie-inflation/)
 * [The Whole City Is Center (Scott Alexander, 2018)](https://slatestarcodex.com/2018/07/18/the-whole-city-is-center/)
 * [Fundamental Value Differences Are Not That Fundamental (Scott Alexander, 2018)](https://slatestarcodex.com/2018/07/18/fundamental-value-differences-are-not-that-fundamental/)
 * [Conservatives As Moral Mutants (Ozy Frantz, 2018)](https://thingofthings.wordpress.com/2018/06/25/conservatives-as-moral-mutants/)
-* [A Beacon Through the Darkness; Or, Getting It Right the First Time (M. Taylor Saotome-Westlake, 2017)](http://unremediatedgender.space/2017/Feb/a-beacon-through-the-darkness-or-getting-it-right-the-first-time/)
-* [More Schelling (M. Taylor Saotome-Westlake, 2019)](http://unremediatedgender.space/2019/Dec/more-schelling/)
+* [A Beacon Through the Darkness; Or, Getting It Right the First Time (Mark Taylor Saotome-Westlake, 2017)](http://unremediatedgender.space/2017/Feb/a-beacon-through-the-darkness-or-getting-it-right-the-first-time/)
+* [More Schelling (Mark Taylor Saotome-Westlake, 2019)](http://unremediatedgender.space/2019/Dec/more-schelling/)
 * [Forgive or Forget ("Or", Not "And"): A Trade-Off in Wellness Engineering (Zack\_M\_Davis, 2019)](https://zackmdavis.net/blog/2019/05/forgive-or-forget-a-trade-off-in-wellness-engineering/)
-* [Self-Identity Is a Schelling Point (M. Taylor Saotome-Westlake, 2019)](http://unremediatedgender.space/2019/Oct/self-identity-is-a-schelling-point/)
-* [Blegg Mode (M. Taylor Saotome-Westlake, 2018)](http://unremediatedgender.space/2018/Feb/blegg-mode/)
-* [Psychology Is About Invalidating People's Identities (M. Taylor Saotome-Westlake, 2016)](http://unremediatedgender.space/2016/Sep/psychology-is-about-invalidating-peoples-identities/)
+* [Self-Identity Is a Schelling Point (Mark Taylor Saotome-Westlake, 2019)](http://unremediatedgender.space/2019/Oct/self-identity-is-a-schelling-point/)
+* [Blegg Mode (Mark Taylor Saotome-Westlake, 2018)](http://unremediatedgender.space/2018/Feb/blegg-mode/)
+* [Psychology Is About Invalidating People's Identities (Mark Taylor Saotome-Westlake, 2016)](http://unremediatedgender.space/2016/Sep/psychology-is-about-invalidating-peoples-identities/)
 * [Dreaming of Political Bayescraft (Zack\_M\_Davis, 2017)](http://zackmdavis.net/blog/2017/03/dreaming-of-political-bayescraft/)
 * [January Is Math and Wellness Month (Zack\_M\_Davis, 2021)](https://zackmdavis.net/blog/2021/01/january-is-math-and-wellness-month/)
 * [May Is Math and Wellness Month (Zack\_M\_Davis, 2019)](http://zackmdavis.net/blog/2019/05/may-is-math-and-wellness-month/)
@@ -47,7 +61,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Announcing Entropycon 12017 (Octavia Riordan, 2017)](https://hivewired.wordpress.com/2017/05/07/announcing-entropycon-12017/)
 * [Things you are supposed to like (PhilGoetz, 2011)](https://www.lesswrong.com/posts/4tzEAgdbNTwB6nKyL/things-you-are-supposed-to-like)
 * [Lessons I've Learned from Self-Teaching (TurnTrout, 2021)](https://www.lesswrong.com/posts/cumc876woKaZLmQs5/lessons-i-ve-learned-from-self-teaching)
-* [* Storage and Disposal of Radioactive Waste (World Nuclear Association, 2021)](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-waste/storage-and-disposal-of-radioactive-waste.aspx)
+* [Storage and Disposal of Radioactive Waste (World Nuclear Association, 2021)](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-waste/storage-and-disposal-of-radioactive-waste.aspx)
 * [Ontology identification problem: Technical tutorial (Alexei Andreev/Eliezer Yudkowsky, 2016)](https://arbital.com/p/ontology_identification/?l=6b)
 * \* Reactive Systems (Anna Ingólfsdóttir/Jiří Srba/Kim G. Larsen/Luca Aceto, 2007)
 * \* Ways of Seeing (John Berger, 1972)
