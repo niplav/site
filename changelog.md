@@ -28,6 +28,8 @@ October 2021
 		* [Section 12](./nst_solutions.html#Section-12)
 			* [Exercise 1](./nst_solutions.html#Exercise-1_9)
 			* [Exercise 2](./nst_solutions.html#Exercise-2_5)
+			* [Exercise 3](./nst_solutions.html#Exercise-3_2)
+			* [Exercise 4](./nst_solutions.html#Exercise-4_1)
 	* [Solutions to “Reactive Systems](./rs_solutions.html):
 		* [Chapter 2](./rs_solutions.html#Chapter-2)
 			* [2.1](./rs_solutions.html#21)
@@ -40,7 +42,7 @@ I now sort-of disavow [Life Improvements in
 2030](./life_improvements_2030.html): It completely missed the premise
 of thinking how regular people might perceive the future to be better
 in everyday life, instead turning into another average "How might the
-future be like?" post by focussing on big-picture developments. Boring.
+future be like?" post by focusing on big-picture developments. Boring.
 
 ### Other
 

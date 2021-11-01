@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-10-27, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-11-01, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Radioactive Waste – Myths and Realities (World Nuclear Association, 2021)](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-wastes/radioactive-wastes-myths-and-realities.aspx)
+* [Book Review: Charles Murray's Human Diversity: The Biology of Gender, Race, and Class (Mark Taylor Saotome-Westlake, 2020)](http://unremediatedgender.space/2020/Apr/book-review-human-diversity/)
+* [The Soviet web: the tale of how the USSR almost invented the internet (Justin Reynolds, 2017)](https://www.calvertjournal.com/articles/show/7605/soviet-internet-cybernetics-viktor-glushkov)
+* [Willingness to look stupid (Dan Luu, 2021)](https://danluu.com/look-stupid/)
+* [Reply to Ozymandias on Fully Consensual Gender (Mark Taylor Saotome-Westlake, 2019)](http://unremediatedgender.space/2019/Dec/reply-to-ozymandias-on-fully-consensual-gender/)
+* [Man Should Allocate Some More Categories (Ozy Frantz, 2018)](https://thingofthings.wordpress.com/2018/06/18/man-should-allocate-some-more-categories/)
+* [Smart (Mark Taylor Saotome-Westlake, 2017)](http://unremediatedgender.space/2017/Mar/smart/)
+* [Memoirs of My Recent Madness, Part I: The Unanswerable Words (Mark Taylor Saotome-Westlake, 2017)](http://unremediatedgender.space/2017/Jun/memoirs-of-my-recent-madness-part-i-the-unanswerable-words/)
 * Spruch des Konfuzius (Friedrich Schiller, 1804)
 * Das Lied von der Glocke (Friedrich Schiller, 1804)
 * Die Begegnung (Friedrich Schiller, 1804)
@@ -31,7 +39,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [What Is It Like For Animals To Suffer? (Ozy Brennan, 2021)](https://thingofthings.substack.com/p/what-is-it-like-for-animals-to-suffer)
 * [The Categories Were Made for Man to Make Predictions (Mark Taylor Saotome-Westlake, 2018)](http://unremediatedgender.space/2018/Feb/the-categories-were-made-for-man-to-make-predictions/)
 * [Just another day in utopia (Stuart Armstrong, 2011)](https://www.lesswrong.com/posts/sMsvcdxbK2Xqx8EHr/just-another-day-in-utopia)
-* Das eleusiche Fest (Friedrich Schiller, 1804)
+* Das eleusische Fest (Friedrich Schiller, 1804)
 * Ritter Toggenburg (Friedrich Schiller, 1804)
 * Menschliches Wissen (Friedrich Schiller, 1804)
 * Die Geschlechter (Friedrich Schiller, 1804)
