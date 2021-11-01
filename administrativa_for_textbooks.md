@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2021-10-16, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2021-11-01, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks (broadly defined as "a book with
 exercises"), and create some stuff while reading them (e.g. making
@@ -36,9 +36,10 @@ because I wrote flashcards for it.
 -------------------
 
 * [Flashcards](./flash/reactive_systems.apkg)
+	* p. 42: Haven't added the SOS rules for CCS, <!--TODO?-->perhaps I should?
 * [Solutions to Exercises](./rs_solutions.md)
 * Read:
-	* p. 1-28
+	* p. 1-42
 
 “Multivariable Calculus”
 ------------------------

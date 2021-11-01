@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2021-10-20, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2021-10-31, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __.__
 
@@ -227,6 +227,8 @@ Only fishmongers and fearmongers?
 
 myopia, no youropia, heropia etc.
 
+paradox, but not paragnosis, paratechne and paraëpisteme
+
 #### Missing Words
 
 * eating : drinking :: feeding : ?
@@ -303,6 +305,11 @@ Umeshisms
 ----------
 
 * If you can follow your own ethical rules, your own ethical rules are not demanding enough.
+
+Nominative Determinisms
+------------------------
+
+* The “Sandwalk Choreographer” from the 2021 Dune is called Millepied
 
 Incorrect Plurals or Singulars People Use
 ------------------------------------------

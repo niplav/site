@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2021-10-12, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2021-11-01, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -918,3 +918,43 @@ would be the third Peano axiom).
 ### Exercise 3
 
 > Prove that `$ω$` is transitive.
+
+I don't understand what is being asked from me here. `$ω$` is not a
+relation since it's not a set of ordered sets with two elements (tuples),
+so this question is underspecified.
+
+### Exercise 4
+
+> Prove that if `$E$` is a non-empty subset of some natural number, then
+there exists an element `$k$` in `$E$` such that `$k \in $` whenever
+`$m$` is an element of `$E$` distinct from `$k$`.
+
+Trying to decode this first into first-order logic and then natural
+language again, I get that if `$E \subset N \in ℕ`$, then
+`$∃k\in E: ∀ m \not = k \in E: k \in m$`. Decoding into natural
+language, this roughly means that for every subset of the natural numbers,
+that subset has a minimum.
+
+#### Lemma: Any Successor of `$n$` Contains `$n$`
+
+Statement: `$n \in n^{+_k}$` for all `$k$`.
+
+Basis: For `$k=1: n \in \{n\} \subset n^+$`.
+
+Assume this holds for `$k-1$`.
+
+Step `$n^{+_k}=n^{+_{k-1}} \cup \{n^{+_{k-1}}\}$`. `$n \in \{n^{+_{k-1}}\}$`,
+so `$n \in n^{+_k}$`.
+
+---
+
+Assume such a `$k$` did not exist. Then for every `$k_i$`, it would hold
+that there is some `$m_i \not= k$` so that `$k_i \not \in m_i$`.
+
+But thene it must hold that `$m_i \in k_i$` (it can't be that `$m_i \not \in k_i$`
+and `$k_i \not \in m_i$` for natural numbers). If that isn't
+the case (so `$m_i \not \in k_i$`), then there must exists some `$r_i$`
+that `$m_i \not \in r_i$`. But since `$E$` contains only finitely many
+elements, this leads to a cycle (which is not possible, since that would
+mean that `$k_i \not \in k_j$` and `$k_j \not \in k_i$`). So such a
+`$k$` must exist.

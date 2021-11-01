@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-10-14, modified: 2021-10-24, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-10-14, modified: 2021-11-01, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __.__
 
@@ -87,3 +87,17 @@ The transitive closure additionally contains the elements from the set
 ### 2.5
 
 The set of reachable states includes all states: `$p, p_1$` and `$p_2$`.
+
+### 2.6
+
+* `$a.b.A+B$` ✓
+* `$(a.\mathbf{0}.\overline{a}.A)\backslash \{a,b\}$` ✓
+* `$(a.\mathbf{0}|\overline{a}.A)\backslash \{a,τ\}$` ✗: `$τ$` can't be excluded
+* `$a.B+[a/b]$` ✗: a renaming is not a process
+* `$τ.τ.B+\mathbf{0}$` ✓
+* `$(a.B+b.B)[a/b, b/a]$` ✓
+* `$(a.B+τ.B)[a/τ, b/a]$` ✓
+* `$(a.b.A+\overline{a}.\mathbf{0})|B$` ✓
+* `$(a.b.A+\overline{a}.\mathbf{0}).B$` ✗: the object in the parentheses is not a label, but a process
+* `$(a.b.A+\overline{a}.\mathbf{0})+B$` ✓
+* `$(\mathbf{0}|\mathbf{0})+\mathbf{0}$` ✓
