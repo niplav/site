@@ -36,7 +36,6 @@ because I wrote flashcards for it.
 -------------------
 
 * [Flashcards](./flash/reactive_systems.apkg)
-	* p. 42: Haven't added the SOS rules for CCS, <!--TODO?-->perhaps I should?
 * [Solutions to Exercises](./rs_solutions.md)
 * Read:
 	* p. 1-42
