@@ -11,9 +11,8 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
-<!--TODO: Karuna Films Vipassana in Prison movie-->
-
-* [Dune]()
+* [Dune](https://www.imdb.com/title/tt1160419/)
+* [Doing Time, Doing Vipassana](https://www.imdb.com/title/tt0367665/)
 * [Der Schatz im Silbersee](https://m.imdb.com/title/tt0056452/)
 * [Evangelion 3.0+1.01: Thrice Upon a Time](https://www.imdb.com/title/tt2458948/)
 * [Kaiserschmarrndrama](https://www.imdb.com/title/tt11034894/)

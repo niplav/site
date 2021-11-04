@@ -16,7 +16,7 @@ Chapter 2
 > Give a CCS process which describes a clock that ticks at least once
 and may stop ticking after each clock tick.
 
-`$\text{Clock} \overset{def}{=} (\text{tick}.\mathbf{0}+\text{tick}.\text{Clock})$`
+`$\text{Clock} \overset{\text{def}}{=} (\text{tick}.\mathbf{0}+\text{tick}.\text{Clock})$`
 
 ### 2.2
 
@@ -29,11 +29,11 @@ money and offer nothing in return, but continue functioning, or should
 it actually fail sometimes and break down? The former case would be
 described by
 
-`$\text{CTM} \overset{def}{=} \text{coin}.(\text{CTM}+\overline{\text{coffee}}.\text{CTM}+\overline{\text{tea}}.\text{CTM})$`,
+`$\text{CTM} \overset{\text{def}}{=} \text{coin}.(\text{CTM}+\overline{\text{coffee}}.\text{CTM}+\overline{\text{tea}}.\text{CTM})$`,
 
 the latter by
 
-`$\text{CTM} \overset{def}{=} \text{coin}.(\text{CTM}+\mathbf{0}+\overline{\text{coffee}}.\text{CTM}+\overline{\text{tea}}.\text{CTM})$`
+`$\text{CTM} \overset{\text{def}}{=} \text{coin}.(\text{CTM}+\mathbf{0}+\overline{\text{coffee}}.\text{CTM}+\overline{\text{tea}}.\text{CTM})$`
 
 Hey look! `$+$` is commutative here!
 
@@ -101,3 +101,15 @@ The set of reachable states includes all states: `$p, p_1$` and `$p_2$`.
 * `$(a.b.A+\overline{a}.\mathbf{0}).B$` ✗: the object in the parentheses is not a label, but a process
 * `$(a.b.A+\overline{a}.\mathbf{0})+B$` ✓
 * `$(\mathbf{0}|\mathbf{0})+\mathbf{0}$` ✓
+
+### 2.7
+
+> Use the rules of SOS semantics for CCS to derive the LTS for the
+process `$\text{SmUni}$` defined by (2.4). (Use the definition of CS in
+Table 2.1.)
+
+As a refresher:
+
+* `$\text{SmUni}\overset{\text{def}}{=}(\text{CM}|\text{CS})\backslash \text{coin} \backslash \text{coffee}$`
+* `$\text{CM}\overset{\text{def}}{=}\text{coin}.\overline{\text{coffee}}.\text{CM}$`
+* `$\text{CS}\overset{\text{def}}{=}\overline{\text{pub}}.\overline{\text{coin}}.\text{coffee}.\text{CS}$`

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-10-24, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-11-03, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -844,6 +844,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 ### Interviews
 
 * /u/JhanicManifold
+* /u/MakeTotalDestr0i
 * TheRedQuest
 * Brian Tomasik
 
