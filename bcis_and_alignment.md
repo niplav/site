@@ -418,10 +418,10 @@ or factories). While there are some responses to these arguments
 Superintelligence-->), the proposal of connecting humans to potentially
 unaligned AI systems offers these counterarguments more weight.
 
-Given direct access to the nervous system of a human, an AI system would
-be more likely to be able to hijack the human and use them to instantiate
-more instances of itself in the world (especially on computers with
-more computing power or access to manufacturing capabilities). Even
+Given direct write-access to the nervous system of a human, an AI system
+would be more likely to be able to hijack the human and use them to
+instantiate more instances of itself in the world (especially on computers
+with more computing power or access to manufacturing capabilities). Even
 if the access to the human brain is severely restricted to few bits
 and very specific brain regions (therewhile making the connection less
 useful in the first place), the human brain is not modular, and as far
@@ -429,6 +429,9 @@ as I understand not designed to withstand adversarial interaction on the
 neural level (as opposed to attacks through speech or text, which humans
 are arguably more optimized against through constant interaction with
 other humans who tried to manipulate them in the ancestral environment).
+
+However, if the AI were restricted to read-only access to the human brain,
+this particular scenario would be of no concern.
 
 <!--TODO: use yudkowsky screaming image here?-->
 

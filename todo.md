@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-11-03, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-11-10, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -915,7 +915,8 @@ eine kontingente verschmelzung von fast-sein und konkretheit"
 
 ### Translations
 
-* Kodomulo Manifesto (translation of “A Hacker Manifesto”)
+* Kodomulo Manifesto (translation of “A Hacker Manifesto” into Esperanto)
+* Translate Endliche Gruppe I into English
 
 ### Archiving
 
@@ -1336,7 +1337,7 @@ Wikipedia Articles
 * IC/IC* algorithm
 * do operator
 * Back-door/Front-door criterion
-* Vazirani brothers articles make consistent (date of birth, note, …)
+* Place premium
 
 ### Improve
 
@@ -1344,6 +1345,7 @@ Wikipedia Articles
 	* Add examples
 	* Add description of MUMs
 * Judea Pearl
+* Vazirani brothers articles make consistent (date of birth, note, …)
 
 ### Metaculus Questions
 

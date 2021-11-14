@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2021-10-31, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2021-11-08, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __.__
 
@@ -309,7 +309,7 @@ Umeshisms
 Nominative Determinisms
 ------------------------
 
-* The “Sandwalk Choreographer” from the 2021 Dune is called Millepied
+* The “Sandwalk Choreographer” [Benjamin Millepied](https://en.wikipedia.org/wiki/Benjamin_Millepied) from the [2021 Dune movie](https://www.imdb.com/title/tt1160419/)
 
 Incorrect Plurals or Singulars People Use
 ------------------------------------------
@@ -335,6 +335,7 @@ Good Bandnames
 
 * Catastrophic Transcripts
 * Memetic Immune Disorder
+* Contextual Bandits (seen in [Amodei et al. 2016](./doc/language/concrete_problems_in_ai_safety_amodei_et_al_2016.pdf "Concrete Problems in AI Safety")
 
 Daygame
 --------
