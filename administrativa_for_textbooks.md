@@ -37,8 +37,11 @@ because I wrote flashcards for it.
 
 * [Flashcards](./flash/reactive_systems.apkg)
 * [Solutions to Exercises](./rs_solutions.md)
+	* Chapter 1
+	* Chapter 2: 2.1-2.6
+	* Chapter 3: 3.1, 3.3
 * Read:
-	* p. 1-42
+	* p. 1-44
 
 “Multivariable Calculus”
 ------------------------

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-11-01, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-11-08, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,39 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Using Brain-Computer Interfaces to get more data for AI alignment (Robbo, 2021)](https://www.lesswrong.com/posts/iWv6Pu2fWPKqevzFE/using-brain-computer-interfaces-to-get-more-data-for-ai)
+* [Migration levies and unskilled labor mobility in Singapore (Carl Shulman, 2014)](http://reflectivedisequilibrium.blogspot.com/2014/05/migration-levies-and-unskilled-labor.html)
+* [Secrets Of The Great Families (Scott Alexander, 2021)](https://astralcodexten.substack.com/p/secrets-of-the-great-families)
+* \* The New Strategic Selling (Stephen E. Heiman/Diane Sanchez/Tad Tuleja, 1995)
+* [Does the Glasgow Coma Scale exist? Do comas? (Scott Alexander, 2014)](https://slatestarcodex.com/2014/08/11/does-the-glasgow-coma-scale-exist-do-comas/)
+* [What do null fields tell us about fraud risk? (Carl Shulman, 2014)](http://reflectivedisequilibrium.blogspot.com/2014/05/what-do-null-fields-tell-us-about-fraud.html)
+* [GiveDirectly, happiness, and log income (Carl Shulman, 2014)](http://reflectivedisequilibrium.blogspot.com/2014/03/givedirectly-happiness-and-log-income.html)
+* [Long Term Memory is the Missing Component in Deep Learning (pando, 2021)](https://www.lesswrong.com/posts/kywtvQetpfCtPtrAy/long-term-memory-is-the-missing-component-in-deep-learning)
+* [Substack Ho? (Zvi, 2021)](https://www.lesswrong.com/posts/u8oThJvwDc2PTfgaJ/substack-ho)
+* [The Merge (Sam Altman, 2017)](https://blog.samaltman.com/the-merge)
+* [Discussing Giving Season 2014 (Carl Shulman, 2014)](http://reflectivedisequilibrium.blogspot.com/2014/12/discussing-giving-season-2014.html)
+* [\[PI\] When the captain saw that you were human, he accepted you immediately as a member of his crew. Unfortunately, the captain's understanding of humans quickly turns out to be distinctly...off. (IamJackFox, 2019)](https://old.reddit.com/r/HFY/comments/dhqba8/pi_when_the_captain_saw_that_you_were_human_he/)
+* [Carefully Chosen (IamJackFox, 2020)](https://old.reddit.com/r/rational/comments/hx2fzg/carefully_chosen/)
+* [Wish Smarter, Not Harder (IamJackFox, 2020)](https://old.reddit.com/r/rational/comments/gr438d/wish_smarter_not_harder/)
+* [Tech and finance in the Forbes 2013 billionaire list (Carl Shulman, 2014)](http://reflectivedisequilibrium.blogspot.com/2014/03/tech-and-finance-in-forbes-2013.html)
+* [Upward and downward biases in the "double world GDP" estimates of the gains of open borders (Carl Shulman, 2014)](http://reflectivedisequilibrium.blogspot.com/2014/01/upward-and-downward-biases-in-double.html)
+* [What portion of a boost to global GDP goes to the poor? (Carl Shulman, 2014)](http://reflectivedisequilibrium.blogspot.com/2014/01/what-portion-of-boost-to-global-gdp.html)
+* [An Idea for a Psychology Experiment (Zack\_M\_Davis, 2012)](http://zackmdavis.net/blog/2012/07/an-idea-for-a-psychology-experiment/)
+* [The Derivative of the Natural Logarithm (Zack\_M\_Davis, 2011)](http://zackmdavis.net/blog/2011/12/the-derivative-of-the-natural-logarithm/)
+* [Dialogue Concerning Birthdays (Zack\_M\_Davis, 2011)](http://zackmdavis.net/blog/2011/12/dialogue-concerning-birthdays/)
+* [Days Gone By (Zack\_M\_Davis, 2011)](http://zackmdavis.net/blog/2011/12/happy-new-year-2012/)
+* [Goodhart's World (Zack\_M\_Davis, 2012)](http://zackmdavis.net/blog/2012/11/goodharts-world/)
+* [Movie Tagline (Zack\_M\_Davis, 2012)](http://zackmdavis.net/blog/2012/12/movie-tagline/)
+* [The History of the Universe (Zack\_M\_Davis, 2013)](http://zackmdavis.net/blog/2013/08/the-history-of-the-universe/)
+* [Optimal Last Words Before the Intelligence Explosion (Zack\_M\_Davis, 2013)](http://zackmdavis.net/blog/2013/09/optimal-last-words-before-the-intelligence-explosion/)
+* [I Want to Be the One (Zack\_M\_Davis, 2015)](http://zackmdavis.net/blog/2015/12/i-want-to-be-the-one/)
+* [Revisionist History I (Zack\_M\_Davis, 2013)](http://zackmdavis.net/blog/2013/06/revisionist-history-i/)
+* [Compensation (Zack\_M\_Davis, 2013)](http://zackmdavis.net/blog/2013/07/compensation/)
+* [Cryonics as Memoir (Zack\_M\_Davis, 2013)](http://zackmdavis.net/blog/2013/08/cryonics-as-memoir/)
+* [Genetics and Eugenics in Frank Herbert’s Dune-verse (Gwern Branwen, 2021)](https://www.gwern.net/Dune-genetics)
+* [Bright hunger (Anders Sandberg, 2021)](http://aleph.se/andart2/fiction/bright-hunger/)
+* [Interlude XI (Mark Taylor Saotome-Westlake, 2017)](http://unremediatedgender.space/2017/Dec/interlude-xi/)
+* [Radioactive Waste – Myths and Realities (World Nuclear Association, 2021)](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-wastes/radioactive-wastes-myths-and-realities.aspx)
 * [Radioactive Waste – Myths and Realities (World Nuclear Association, 2021)](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-wastes/radioactive-wastes-myths-and-realities.aspx)
 * [Book Review: Charles Murray's Human Diversity: The Biology of Gender, Race, and Class (Mark Taylor Saotome-Westlake, 2020)](http://unremediatedgender.space/2020/Apr/book-review-human-diversity/)
 * [The Soviet web: the tale of how the USSR almost invented the internet (Justin Reynolds, 2017)](https://www.calvertjournal.com/articles/show/7605/soviet-internet-cybernetics-viktor-glushkov)
@@ -624,7 +657,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Complexity of value (Alexei Andreev/Eliezer Yudkowsky, 2017)](https://arbital.com/p/complexity_of_value/)
 * [Some computations are people (Eliezer Yudkowsky, 2015)](https://arbital.com/p/some_computations_are_people/)
 * [Context disaster (Alexei Andreev/Eliezer Yudkowsky, 2017)](https://arbital.com/p/context_disaster/)
-* \* Causality (Judea Pearl, 2009)
+* |125 Causality (Judea Pearl, 2009)
 * Ein Bericht für eine Akademie (Franz Kafka, 1917)
 * Ein Traum (Franz Kafka, 1919)
 * Ein Brudermord (Franz Kafka, 1919)

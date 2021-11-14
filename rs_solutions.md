@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-10-14, modified: 2021-11-01, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-10-14, modified: 2021-11-10, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __.__
 
@@ -113,3 +113,76 @@ As a refresher:
 * `$\text{SmUni}\overset{\text{def}}{=}(\text{CM}|\text{CS})\backslash \text{coin} \backslash \text{coffee}$`
 * `$\text{CM}\overset{\text{def}}{=}\text{coin}.\overline{\text{coffee}}.\text{CM}$`
 * `$\text{CS}\overset{\text{def}}{=}\overline{\text{pub}}.\overline{\text{coin}}.\text{coffee}.\text{CS}$`
+
+Chapter 3
+----------
+
+### 3.1
+
+Identity relation is an equivalence relation, as well as the universal
+relation is.  The standard `$\le$` relation is not an equivalence relation
+(but it is a preorder, since it is an order). However, the parity relation
+`$M_2$` is.
+
+### Unnumbered Exercise
+
+> To answer these questions, consider the coffee and tea machine CTM
+defined in (2.2) and compare it with the following machine:
+
+<div>
+	$$\text{CTM}'\overset{\text{def}}{=} \text{coin}.\overline{\text{coffee}}.\text{CTM}' + \text{coin}.\overline{\text{tea}}$$
+</div>
+
+> You should be able to convince yourself that CTM and CTM' afford the
+same traces. (Do so!)
+
+It suffices to show that traces of one recursive iteration of CTM and CTM'
+are equivalent. The trace of CTM' is
+`$\{(\text{coin}, \overline{\text{coffee}}),(\text{coin}, \overline{\text{tea}})\}$`
+(choose at the beginning, then insert coin & get beverage), the trace
+of CTM is
+`$\{(\text{coin}, \overline{\text{coffee}}), (\text{coin}, \overline{\text{tea}})\}$`
+(insert coin, then choose).
+
+### 3.2
+
+> 1. Do the processes (CA|CTM)\{coin, coffee, tea} and (CA|CTM') \{coin,
+coffee, tea} defined above have the same completed traces?
+
+> 2. Is it true that if P and Q are two CCS processes affording the
+same completed traces and L is a set of labels then P\L and Q\L also
+have the same completed traces?
+
+### 3.3
+
+The strong bisimulation of `$P$` and `$Q$` is
+`${\mathcal{R}}=\{(P,Q),(P,Q_2),(P_1,Q_1),(P_1,Q_3)\}$`.
+
+To show that this relation is a bisimulation, we examine all steps in
+the model:
+
+For `$(P,Q)$`: `$P$` transitions to `$P_1$` via `$a$`, and `$Q$`
+transitions to `$Q_1$` via `$a$`, with `$(P_1, Q_1)$` in `$\mathcal{R}$`.  
+`$Q$` transitions to `$Q_1$` via `$a$`, and `$P$` transitions to `$P_1$`
+via `$a$`, with the same relation as above.
+
+For `$(P,Q_2)$`: `$P$` transitions to `$P_1$` via `$a$`, and `$Q_2$`
+transitions to `$Q_3$` via `$a$`, with `$(P_1, Q_3)$` in `$\mathcal{R}$`.
+`$Q_2$` transitions to `$Q_3$` via `$a$`, and `$P$` transitions to `$P_1$`
+via `$a$`, with the same relation as above.
+
+For `$(P_1,Q_1)$`: `$P_1$` transitions to `$P$` via `$b$`, and `$Q_1$`
+transitions to `$Q$` via `$c$`, with `$(P, Q)$` in `$\mathcal{R}$`
+(the same holds for the transition action `$b$` instead of `$c$` and
+`$Q_2$` instead of `$Q$`).
+`$Q_1$` transitions to `$Q$` via `$b$`, and `$P_1$` transitions to `$P$`
+via `$b$`, with the same relation as above (and, similarly, also with
+`$c$` and `$Q_2$`).
+
+For `$(P_1,Q_3)$`: `$P_1$` transitions to `$P$` via `$b$`, and `$Q_3$`
+transitions to `$Q$` via `$b$`, with `$(P, Q)$` in `$\mathcal{R}$`
+(the same holds for the transition action `$c$` instead of `$b$` and
+`$Q_2$` instead of `$Q_3$`).
+`$Q_3$` transitions to `$Q$` via `$b$`, and `$P_1$` transitions to `$P$`
+via `$b$`, with the same relation as above (and, similarly, also with
+`$c$` and `$Q_2$` instead of `$Q$`).
