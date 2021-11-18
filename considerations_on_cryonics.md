@@ -907,7 +907,7 @@ in the future to \$50000.
 *– [Gwern Branwen](https://www.gwern.net), [“Plastination versus Cryonics”](https://www.gwern.net/plastination), 2014*
 
 Besides these estimates, there exist also two related questions
-on the prediction website metaculus. ["Before 1 January 2050,
+on the prediction website Metaculus. ["Before 1 January 2050,
 will any human cryonically preserved for at least 1 year be successfully
 revived?"](https://www.metaculus.com/questions/1626/before-1-january-2050-will-any-human-cryonically-preserved-for-at-least-1-year-be-successfully-revived/)
 has a median probability of 16% (n=117), ["If

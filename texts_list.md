@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-11-08, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-11-17, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,36 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [The age distribution of GiveWell recommended charities (Carl Shulman, 2015)](http://reflectivedisequilibrium.blogspot.com/2015/12/the-age-distribution-of-givewell.html)
+* Die Sänger der Vorwelt (Friedrich Schiller, 1804)
+* Die Erwartung (Friedrich Schiller, 1804)
+* Die Kraniche des Ibycus (Friedrich Schiller, 1804)
+* Which Consequentialism? Machine Ethics and Moral Divergence (Carl Shulman/Henrik Jonsson/Nick Tarleton, 2009)
+* [Päivätär (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Päivätär)
+* [Eki (goddess) (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Eki_(goddess))
+* [A New X-Risk Factor: Brain-Computer Interfaces (Jack, 2020)](https://forum.effectivealtruism.org/posts/qfDeCGxBTFhJANAWm/a-new-x-risk-factor-brain-computer-interfaces-1)
+* [Sequential algorithm (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Sequential_algorithm)
+* [Parallel algorithm (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Parallel_algorithm)
+* [Embarassingly parallel (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Embarassingly_parallel)
+* Arms Control and Intelligence Explosions (Carl Shulman, 2009)
+* [How migration liberalization might eliminate most absolute poverty (Carl Shulman, 2014)](http://reflectivedisequilibrium.blogspot.com/2014/05/how-migration-liberalization-might.html)
+* [Laws of Logic Lead to New Restrictions on the Big Bang (Charlie Wood, 2021)](https://www.quantamagazine.org/cosmologists-close-in-on-logical-laws-for-the-big-bang-20211110/)
+* [A New Theory for Systems That Defy Newton’s Third Law (Stephen Ornes, 2021)](https://www.quantamagazine.org/a-new-theory-for-systems-that-defy-newtons-third-law-20211111/)
+* Poesie des Lebens (Friedrich Schiller, 1804)
+* Dithyrambe (Friedrich Schiller, 1804)
+* Die Antike an den nordischen Wandrer (Friedrich Schiller, 1804)
+* Archimedes und der Schüler (Friedrich Schiller, 1804)
+* Der Ring des Polykrates (Friedrich Schiller, 1804)
+* Changing the Frame of AI Futurism: From Storytelling to Heavy-Tailed, High-Dimensional Probability Distributions (Anna Salamon/Michael Anissimov/Steve Rayhawk, 2009)
+* [Shapley Attractor (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Shapley_Attractor)
+* [Dipole repeller (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Dipole_repeller)
+* [What does migration to the United Arab Emirates tell us about labor mobility? (Carl Shulman, 2014)](http://reflectivedisequilibrium.blogspot.com/2014/05/what-does-migration-to-united-arab.html)
+* Quantilizers: A Safer Alternative to Maximizers for Limited Optimization (Jessica Taylor, 2015)
+* \* Über das Kennzeichnen (Bertrand Russell, 1905)
+* Der Handschuh (Friedrich Schiller, 1804)
+* Der Taucher (Friedrich Schiller, 1804)
+* Der Kampf mit dem Drachen (Friedrich Schiller, 1804)
+* [Elbow method (clustering) (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Elbow_method_(clustering))
 * [Using Brain-Computer Interfaces to get more data for AI alignment (Robbo, 2021)](https://www.lesswrong.com/posts/iWv6Pu2fWPKqevzFE/using-brain-computer-interfaces-to-get-more-data-for-ai)
 * [Migration levies and unskilled labor mobility in Singapore (Carl Shulman, 2014)](http://reflectivedisequilibrium.blogspot.com/2014/05/migration-levies-and-unskilled-labor.html)
 * [Secrets Of The Great Families (Scott Alexander, 2021)](https://astralcodexten.substack.com/p/secrets-of-the-great-families)

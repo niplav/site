@@ -31,7 +31,7 @@ fiction*. I also expect to not endorse ~3/4 of these after thinking about
 them for a couple more hours (I don't endorse some of these right now,
 and think this list is too optimistic overall). If you want to have
 an accurate view of the future, the joint distribution of community
-predictions on [metaculus](https://metaculus.com) is a better start.
+predictions on [Metaculus](https://metaculus.com) is a better start.
 
 Things That Have Gone Well
 ---------------------------
