@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-11-10, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-11-14, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -679,6 +679,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Much More Than You Wanted to Know
 	* Vandwelling
 	* UBI
+	* Climate Change Impacts
 	* Shipping
 	* The Uyghurs and China
 	* Cryonics in Germany

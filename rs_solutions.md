@@ -1,9 +1,10 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-10-14, modified: 2021-11-10, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-10-14, modified: 2021-11-18, language: english, status: in progress, importance: 2, confidence: likely*
 
-> __.__
+> __This page contains some solutions to exercises from the textbook
+“Reactive Systems” by Ingólfsdóttir et al.__
 
 Solutions to “Reactive Systems”
 ================================
@@ -114,6 +115,8 @@ As a refresher:
 * `$\text{CM}\overset{\text{def}}{=}\text{coin}.\overline{\text{coffee}}.\text{CM}$`
 * `$\text{CS}\overset{\text{def}}{=}\overline{\text{pub}}.\overline{\text{coin}}.\text{coffee}.\text{CS}$`
 
+<!--TODO-->
+
 Chapter 3
 ----------
 
@@ -146,12 +149,31 @@ of CTM is
 
 ### 3.2
 
-> 1. Do the processes (CA|CTM)\{coin, coffee, tea} and (CA|CTM') \{coin,
+> 1\. Do the processes (CA|CTM)\\{coin, coffee, tea} and (CA|CTM')\\{coin,
 coffee, tea} defined above have the same completed traces?
 
-> 2. Is it true that if P and Q are two CCS processes affording the
+Yes. Both processes start able to making the coin transition. Then
+(CA|CTM') either finds itself in the coffee arm, makes the coffee
+transition and returns to the starting state, or gets stuck only emitting
+tea, but only accepting coffee. (CA|CTM) decides after the first coin
+transition; if CTM transitions into the tea arm, we have a deadlock,
+but if it transitions into the coffee arm, it can transition and returns
+to the starting state.
+
+For them to have different traces, CTM in (CA|CTM) would need to decide
+which arm to transition into by knowing which transitions are available
+in CA, which isn't included in the formalism.
+
+Both processes have traces that can be described by the regular expression
+`coin(,coffee,coin)*`
+
+> 2\. Is it true that if P and Q are two CCS processes affording the
 same completed traces and L is a set of labels then P\L and Q\L also
 have the same completed traces?
+
+Yes. The restriction operator \ only restricts transitions outside of
+the process it applies to, inside that process the same transitions can
+still occur.
 
 ### 3.3
 
@@ -186,3 +208,38 @@ transitions to `$Q$` via `$b$`, with `$(P, Q)$` in `$\mathcal{R}$`
 `$Q_3$` transitions to `$Q$` via `$b$`, and `$P_1$` transitions to `$P$`
 via `$b$`, with the same relation as above (and, similarly, also with
 `$c$` and `$Q_2$` instead of `$Q$`).
+
+### 3.9
+
+This screams after a proof by induction.
+
+Induction basis: If `$σ$` is a label, that is, if there exists an action
+`$α=σ$`, then the definitions for strong bisimulation and string
+bisimulation coincide (I'm not gonna write it all out, sorry).
+
+Induction assumption: Assume that if `$σ$` is a sequence of actions, then
+two states `$s$` and `$s'$` are string bisimilar off they are strongly
+bisimilar.
+
+Induction step:
+
+String bisimilarity `$\Rightarrow$` strong bisimilarity:
+
+If we know that `$s_1 \mathcal{R} s_2$` are string bisimilar
+by a transition `$σα$`, where `$α$` is a single action. Then there must be
+some `$s_1'', s_2''$` so that `$s_1 \overset{σα}{\rightarrow} s_1''$`
+and `$s_2 \overset{σα}{\rightarrow} s_2''$` and `$s_1'' \mathcal{R} s_2''$`,
+and there must be some
+`$s_1'$`, `$s_2'$` so that `$s_1 \overset{σ}{\rightarrow} s_1'$` and
+`$s_2 \overset{σ}{\rightarrow} s_2'$` with `$s_1' \mathcal{R} s_2'$`
+(and the other way around, with `$s_1$` and `$s_2$` exchanged), where
+`$s_1'$` transitions to `$s_1''$` via `$α$`. Then the induction
+assumption holds, and we know that the states are also strongly bisimilar.
+
+Strong bisimilarity `$\Rightarrow$` string bisimilarity:
+
+This is equivalent to the induction basis: if `$s_1 \mathcal{R} s_2$`
+strongly bisimilar via `$β$`, then they are also string bisimilar via
+`$σ=β$`.
+
+### 3.12
