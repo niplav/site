@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-11-14, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-11-26, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -299,6 +299,9 @@ Texts
 	* Result: Utilitarianism works by its own standards, rationalism works by its own standards
 * The Overlap Argument for Learning Latin does not Hold
 * The Existing-Uranium Argument Against Nuclear Waste Skepticism
+* Why Mars' Moons Should Be Destroyed
+* Why We Need New Anthems
+	* Most national anthems suck, let's make some more original ones
 * Why Not Prepping?
 
 > [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
@@ -481,6 +484,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Describe and write some code for the n-polytopal conjecture
 	* Just generalise Pollock's polyhedral conjecture for n-dimensional polytopes
 	* Also try to prove the case for triangular numbers first to get a feel for it?
+* Try to find pollution levels in LOCAL\_CITY
 
 ### Ideas
 
@@ -846,6 +850,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 
 * /u/JhanicManifold
 * /u/MakeTotalDestr0i
+* /u/redditselloutbiddy
 * TheRedQuest
 * Brian Tomasik
 
@@ -1374,3 +1379,8 @@ General
 -------
 
 * Send typos to people, let them correct them
+
+In-World Projects
+------------------
+
+* Destroy the moons of Mars

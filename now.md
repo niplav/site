@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2021-11-04, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2021-11-18, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -56,6 +56,5 @@ Reading
 Currently, I am actively reading the following books:
 
 * Naïve Set Theory (Paul R. Halmos, 1960)
-* The Jazz Piano Book (Mark Levine, 1998)
-* Programming in Lua (Roberto Ierusalimschy, 2013)
 * Reactive Systems (Anna Ingólfsdóttir/Jiří Srba/Kim G. Larsen/Luca Aceto, 2007)
+* The New Strategic Selling (Stephen E. Heiman/Diane Sanchez/Tad Tuleja, 1995)

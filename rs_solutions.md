@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-10-14, modified: 2021-11-18, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-10-14, modified: 2021-11-25, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __This page contains some solutions to exercises from the textbook
 “Reactive Systems” by Ingólfsdóttir et al.__
@@ -243,3 +243,47 @@ strongly bisimilar via `$β$`, then they are also string bisimilar via
 `$σ=β$`.
 
 ### 3.12
+
+<!--TODO-->
+
+### 3.37
+
+`$s \not \sim t$`. Winning strategy for the attacker:
+
+* `$t \overset{a}{\rightarrow} t_1$`, defender answers with `$s \overset{a}{\rightarrow} s_1$`
+* `$t_1 \overset{b}{\rightarrow} t_2$`, defender answers with `$s_1 \overset{b}{\rightarrow} s_2$`
+* `$s_2 \overset{b}{\rightarrow} s_2$`, defender can't transition anywhere using `$b$`
+
+`$s \sim u$`. Winning strategy for the defender:
+
+* In `$(s, u)$`
+	* If the attacker plays `$\overset{a}{\rightarrow} s_1$`, play `$\overset{a}{\rightarrow} u_1$`
+	* If the attacker plays `$\overset{a}{\rightarrow} u_1$`, play `$\overset{a}{\rightarrow} s_1$`
+* In `$(s_1, u_1)$`
+	* If the attacker plays `$\overset{b}{\rightarrow} s_2$`, play `$\overset{b}{\rightarrow} u_3$`
+	* If the attacker plays `$\overset{b}{\rightarrow} u_3$`, play `$\overset{b}{\rightarrow} s_2$`
+* In `$(s_2, u_3)$`
+	* If the attacker plays `$\overset{b}{\rightarrow} s_2$`, play `$\overset{b}{\rightarrow} u_2$`
+	* If the attacker plays `$\overset{b}{\rightarrow} u_2$`, play `$\overset{b}{\rightarrow} s_2$`
+	* If the attacker plays `$\overset{a}{\rightarrow} s$`, play `$\overset{a}{\rightarrow} u$`
+	* If the attacker plays `$\overset{a}{\rightarrow} u$`, play `$\overset{a}{\rightarrow} s$`
+* In `$(s_2, u_2)$`
+	* If the attacker plays `$\overset{b}{\rightarrow} s_2$`, play `$\overset{b}{\rightarrow} u_2$`
+	* If the attacker plays `$\overset{b}{\rightarrow} u_2$`, play `$\overset{b}{\rightarrow} s_2$`
+	* If the attacker plays `$\overset{a}{\rightarrow} s$`, play `$\overset{a}{\rightarrow} u$`
+	* If the attacker plays `$\overset{a}{\rightarrow} u$`, play `$\overset{a}{\rightarrow} s$`
+
+Strong bisimulation relating the pair of processes:
+`$\mathcal{R}=\{(u,s), (u_1, s_1), (u_3, s_2), (u_2, s_2)\}$`.
+
+
+`$s\not \sim v$`. Winning strategy for the attacker:
+
+* `$s \overset{a}{\rightarrow} s_1$`, defender answers with `$v \overset{a}{\rightarrow} v_1$`
+* `$s_1 \overset{b}{\rightarrow} s_2$`
+	* defender answers with `$v_1 \overset{b}{\rightarrow} v_2$`
+		* `$s_2 \overset{b}{\rightarrow} s_2$`
+		* defender can't transition using `$b$` from `$v_2$`
+	* defender answers with `$v_1 \overset{b}{\rightarrow} v_3$`
+		* `$s_2 \overset{a}{\rightarrow} s$`
+		* defender can't transition using `$a$` from `$v_3$`
