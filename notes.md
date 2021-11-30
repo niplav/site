@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2021-10-19, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2021-11-26, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -783,12 +783,15 @@ This is a list of some trigger-action plans I have installed/will install.
 6. Alarm
 	* Trigger: I hear my alarm
 	* Action: I get out of bed
-7. Something is Bad
+7. Something is bad
 	* Trigger: I feel bad/uncomfortable, in any way
 	* Action: I start noting my sensations
-8. No Unwilling Wikipedia Deep-Dives
+8. No unwilling Wikipedia deep-dives
 	* Trigger: I type the 'x' of "Kiwix" to open the application
 	* Action: I set a 10-minute timer
+9. Mental jitteriness
+	* Trigger: I notice that I can't concentrate on anything, despite the circumstances being good for it (no internet, time set aside for deep work)
+	* Action: I do 20 burpees
 
 A Small Variation on Counting During Concentration Meditation
 --------------------------------------------------------------

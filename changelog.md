@@ -8,6 +8,9 @@
 Changelog
 =========
 
+November 2021
+--------------
+
 October 2021
 -------------
 
@@ -47,7 +50,7 @@ future be like?" post by focusing on big-picture developments. Boring.
 ### Other
 
 Updated the [Texts List](./texts_list.html). I finished
-the AI alignment articles [in the corresponding Arbital
+reading the AI alignment articles [in the corresponding Arbital
 domain](https://arbital.com/explore/ai_alignment).
 
 September 2021
