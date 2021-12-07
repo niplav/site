@@ -1,9 +1,11 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-14, modified: 2021-10-16, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2021-10-14, modified: 2021-12-01, language: english, status: notes, importance: 6, confidence: possible*
 
-> __.__
+> __Some people have been complaining about a “website discoverability
+crisis”. While I haven't been affected by this particular problem
+(on the contrary!), I want people to know some high-quality websites.__
 
 Recommendation-Worthy Websites
 -------------------------------
@@ -27,10 +29,10 @@ Recommendation-Worthy Websites
 	* [Joel On Software](https://www.joelonsoftware.com/)
 	* [Null Program](http://nullprogram.com/)
 * Mathematics
-	* [A Few Thoughts on Cryptographic Engineering](https://blog.cryptographyengineering.com/)
 	* [Bit-Player](http://bit-player.org/)
 	* [Math ∩ Programming](https://jeremykun.com/)
 	* [Shtetl-Optimized](https://www.scottaaronson.com/blog)
+	* [An Algorithmic Lucidity](http://zackmdavis.net/blog/)
 * Philosophy
 	* [Entirely Useless](https://entirelyuseless.com/)
 	* [Metamoderna](http://metamoderna.org/?lang=en)
@@ -38,8 +40,6 @@ Recommendation-Worthy Websites
 * Politics
 	* [The Real Movement](https://therealmovement.wordpress.com/)
 	* [Unqualified Reservations](https://unqualified-reservations.org/)
-	* [Antinomia Imediata](https://antinomiaimediata.wordpress.com)
-	* [Human Iterations](https://humaniterations.net)
 * AI Alignment
 	* [Arbital AI Alignment Domain](https://arbital.org/explore/ai_alignment)
 	* [Machine Intelligence Research Institute](https://intelligence.org)
@@ -60,18 +60,17 @@ Recommendation-Worthy Websites
 * Meditation
 	* [Meditation Stuff](https://meditationstuff.wordpress.com)
 	* [Neurotic Gradient Descent](https://neuroticgradientdescent.blogspot.com)
-	* [Vividness](https://vividness.live)
 * Pick Up
 	* [The Red Quest](https://theredquest.wordpress.com)
 * Fiction
 	* [SCP Wiki](http://www.scp-wiki.net/)
 	* [Zero HP Lovecraft](https://zerohplovecraft.wordpress.com/)
-	* [Crystal Trilogy](https://crystal.raelifin.com/index.html)
 	* [Things of Interest](https://qntm.org) (not just fiction, lots of other cool stuff too)
 * Insight Porn
 	* [Hotel Concierge](https://hotelconcierge.tumblr.com/)
 	* [The Last Psychiatrist](https://thelastpsychiatrist.com/)
 	* [sam[]zdat](https://samzdat.com/)
+	* [An Algorithmic Lucidity](http://zackmdavis.net/blog/)
 * Forecasting
 	* [Metaculus](https://www.metaculus.com)
 	* [PredictionBook](https://www.predictionbook.com)

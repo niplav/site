@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-11-30, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-12-06, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,15 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Effective selfishness (dynomight, 2021)](https://dynomight.net/effective-selfishness/)
+* [Increasing and improving saving as a philanthropic cause (Carl Shulman, 2014)](https://reflectivedisequilibrium.blogspot.com/2014/06/increasing-and-improving-saving-as.html)
+* Agent Foundations for Aligning Machine Intelligence with Human Interests: A Technical Research Agenda (Nate Soares/Benya Fallenstein, 2017)
+* Polynomial Hierarchy Collapses, Thousands Feared Tractable (Scott Aaronson, 2002)
+* \* The Erogamer (Groon the Walker, 2020)
+* Ontological Crises in Artificial Agents' Value Systems (Peter de Blanc, 2011)
+* [Second generation human capital benefits of migration (Carl Shulman, 2014)](https://reflectivedisequilibrium.blogspot.com/2014/09/second-generation-human-capital.html)
+* [The Cuboid: A DIY air purifier that's better than a box-fan (dynomight, 2021)](https://dynomight.net/better-DIY-air-purifier.html)
+* [Some considerations for prioritization within animal agriculture (Carl Shulman, 2015)](https://reflectivedisequilibrium.blogspot.com/2015/11/some-considerations-for-prioritization.html)
 * Everything (Nick Bostrom, 2008)
 * Coherent Extrapolated Volition: A Meta-Level Approach to Machine Ethics (Nick Tarleton, 2010)
 * [Population ethics and inaccessible populations (Carl Shulman, 2014)](https://reflectivedisequilibrium.blogspot.com/2014/08/population-ethics-and-inaccessible.html)

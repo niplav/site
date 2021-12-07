@@ -4,7 +4,7 @@
 *author: niplav, created: 2021-10-14, modified: 2021-11-25, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __This page contains some solutions to exercises from the textbook
-“Reactive Systems” by Ingólfsdóttir et al.__
+“Reactive Systems” by Ingólfsdóttir et al. 2007.__
 
 Solutions to “Reactive Systems”
 ================================
@@ -103,6 +103,7 @@ The set of reachable states includes all states: `$p, p_1$` and `$p_2$`.
 * `$(a.b.A+\overline{a}.\mathbf{0})+B$` ✓
 * `$(\mathbf{0}|\mathbf{0})+\mathbf{0}$` ✓
 
+<!--
 ### 2.7
 
 > Use the rules of SOS semantics for CCS to derive the LTS for the
@@ -115,7 +116,8 @@ As a refresher:
 * `$\text{CM}\overset{\text{def}}{=}\text{coin}.\overline{\text{coffee}}.\text{CM}$`
 * `$\text{CS}\overset{\text{def}}{=}\overline{\text{pub}}.\overline{\text{coin}}.\text{coffee}.\text{CS}$`
 
-<!--TODO-->
+TODO
+-->
 
 Chapter 3
 ----------
@@ -127,7 +129,7 @@ relation is.  The standard `$\le$` relation is not an equivalence relation
 (but it is a preorder, since it is an order). However, the parity relation
 `$M_2$` is.
 
-### Unnumbered Exercise
+### Stray Exercise 1
 
 > To answer these questions, consider the coffee and tea machine CTM
 defined in (2.2) and compare it with the following machine:
@@ -287,3 +289,98 @@ Strong bisimulation relating the pair of processes:
 	* defender answers with `$v_1 \overset{b}{\rightarrow} v_3$`
 		* `$s_2 \overset{a}{\rightarrow} s$`
 		* defender can't transition using `$a$` from `$v_3$`
+
+<!--
+### 3.41
+TODO
+-->
+
+### Stray Exercise 2
+
+> For example, you should be able to convince yourself
+that the LTS associated with the CCS expression
+`$a_1.\mathbf{0}|a_2.\mathbf{0}|\dots|a_n.\mathbf{0}$` has `$2^n$` states.
+
+Actually, I don't have a good idea of how to put this into LTS form?
+I would have to invent a starting state `$s_0$`, or maybe a set of
+`$n$` starting states, or perhaps `$2^n$` starting states? Then those
+would transition to `$\mathbf{0}$` via any subset of
+`$\{a_1, a_2, \dots, a_n\}$`.
+
+I should clarify how this is done.
+
+Chapter 4
+----------
+
+### 4.1
+
+Show that the set of strings `$A^*$` over an alphabet `$A$` with prefix
+ordering `$\le$` is a poset (prefix ordering is for all `$s, t \in A^*: s \le t$`
+iff there exists a `$w \in A^*$` so that `$sw=t$`).
+
+* Reflexive: Yes, `$s$` is a prefix for `$s$` with `$w=ε$`.
+* Antisymmetric: Yes, if `$sw=t$` and `$tw=s$`, then `$sw=tw$`, so `$s=t$` and `$w=ε$`.
+* Transitive: Yes, if `$r$` is a prefix for `$s$` with `$v$` and `$s$` is a prefix for `$t$` with `$w$`, then `$r$` is a prefix for `$t$` with `$vw$`.
+
+<!--TODO: finish with other examples?-->
+
+### 4.2
+
+> Is the poset `$(2^S, \subseteq)$` totally ordered?
+
+No: Let `$S=\{a,b,c\}$`, then it is the case that
+`$\{a,b\} \not \subseteq \{b,c\}$` and `$\{b,c\} \not \subseteq \{a,b\}$`.
+
+### 4.3
+
+> Prove that the lub and the glb of `$X$` are unique, if they exist.
+
+`$d$` must be an upper bound for `$X$`, and `$d \sqsubseteq d'$` for every
+upper bound `$d' \in D$` of `$X$`. Per antisymmetry of `$\sqsubseteq$`,
+there can be no `$d'$` so that `$d' \sqsubseteq d$` and `$d \sqsubseteq
+d'$` with `$d' \not = d$`. And for `$d$` to be an upper bound, then it
+must be comparable to every other upper bound of `$X$`, so there is no
+uncomparable least other upper bound `$d'$`.
+
+The same argument applies symmetrically to the greatest lower bound,
+and is not worth elaborating.
+
+<!--
+### Stray Exercise 3
+
+p. 99, prove snd part of Tarski's fixed point theorem.
+
+TODO
+-->
+
+### 4.9
+
+Least fixed point:
+
+Start with `$d=\emptyset$`. Then `$f^0(d)=\{2\}$`, and `$f^1(d)=\{2\}$`
+as well. So `$\{2\}$` is the least fixed point.
+
+Largest fixed point:
+
+Start with `$d=\{0,1,2\}$`. Then `$f^0(d)=\{1,2\}$`, and
+`$f^1(d)=\{1,2\}$`. So `$\{1,2\}$` is the largest fixed point.
+
+### Stray Exercise 4
+
+> We note that if `$\mathcal{R}, \mathcal{S} \in 2^{(\text{Proc} \times \text{Proc})}$`
+and `$\mathcal{R} \subseteq \mathcal{S}$` then
+`$\mathcal{F}(\mathcal{R}) \subseteq \mathcal{F}(\mathcal{S})$`,
+that is, the function `$\mathcal{F}$` is monotonic over
+`$(2^{(\text{Proc} \times \text{Proc})}, \subseteq)$`.
+
+Assume that `$\mathcal{R} \subseteq \mathcal{S}$`, but
+`$\mathcal{F}(\mathcal{R}) \not \subseteq \mathcal{F}(\mathcal{S})$`
+(that is, `$\mathcal{F}(\mathcal{S}) \subset \mathcal{F}(\mathcal{R})$`).
+
+Then there must be a `$(p,q) \in \mathcal{F}(\mathcal{R})$`
+(`$p, q \in \text{Proc}$`) that is not in `$\mathcal{F}(\mathcal{S})$`.
+
+Then there are `$(p', q') \in \mathcal{R}$` so that `$p, q$` can transition
+to `$p', q'$` via some `$α$`, and `$(p', q') \not \in \mathcal{S}$`. But
+that can't be the case, since we assumed that `$\mathcal{R} \subseteq \mathcal{S}$`.
+This is a contradiction.
