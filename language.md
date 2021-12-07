@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2021-11-08, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2021-12-01, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __.__
 
@@ -23,6 +23,7 @@ Title Idioms
 * X Considered Harmful
 * Language Models Are X
 * X is all you need
+* [Cute title: Actual Title](https://trevorjim.com/cute-title--actual-title/index.html)
 
 ### Books
 

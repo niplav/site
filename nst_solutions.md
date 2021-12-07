@@ -930,7 +930,7 @@ there exists an element `$k$` in `$E$` such that `$k \in $` whenever
 `$m$` is an element of `$E$` distinct from `$k$`.
 
 Trying to decode this first into first-order logic and then natural
-language again, I get that if `$E \subset N \in ℕ`$, then
+language again, I get that if `$E \subset N \in ℕ$`, then
 `$∃k\in E: ∀ m \not = k \in E: k \in m$`. Decoding into natural
 language, this roughly means that for every subset of the natural numbers,
 that subset has a minimum.

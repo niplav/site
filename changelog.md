@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-10-24, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-12-01, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -10,6 +10,14 @@ Changelog
 
 November 2021
 --------------
+
+* [Solutions to “Reactive Systems](./rs_solutions.html):
+	* [Chapter 3](./rs_solutions.html#Chapter-3)
+		* [3.1](./rs_solutions.html#31)
+		* [3.2](./rs_solutions.html#32)
+		* [3.3](./rs_solutions.html#33)
+		* [3.9](./rs_solutions.html#39)
+		* [3.37](./rs_solutions.html#337)
 
 October 2021
 -------------

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-11-26, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-12-06, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -193,6 +193,9 @@ Texts
 * Impact Measures Depend on, Rather Than Specify, Inaction Baselines
 * Requirements for AI Safety via Debate
 * Thoughts About Reward Hacking
+* Faster algorithm for ontology mapping, first described in [de Blanc 2011](http://intelligence.org/files/OntologicalCrises.pdf)
+* Implement the project described in [Environmental Goals](https://arbital.com/p/environmental_goals/)
+* GPT for STEM data?
 
 ### Pick Up
 
@@ -233,6 +236,13 @@ Texts
 	* Direct Date off Street
 * Daygame on a Medium Dose of MDMA
 	* It worked pretty well, 22 approaches (twice optimal normal rate), AA pretty much zero, 5 numbers (although only 2 non-flakey)
+
+### Time Experience
+
+* Subjective time experience for advanced meditators
+	* Wittmann & Schmidt 2013
+* Interventions to Slow Down the Age-Related Speedup of Subjective Time
+	* That theoryengine post
 
 ### Arguments
 
@@ -302,6 +312,7 @@ Texts
 * Why Mars' Moons Should Be Destroyed
 * Why We Need New Anthems
 	* Most national anthems suck, let's make some more original ones
+* Models With Huge Error Bars are Better Than No Models At All
 * Why Not Prepping?
 
 > [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
@@ -450,8 +461,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Egoistic Cost-Benefit Analysis of focusing on AI alignment
 * Voting Cost-Benefit Analysis
 	* Altruistic, egoistic
-* Subjective time experience for advanced meditators
-	* Wittmann & Schmidt 2013
 * Timeline of the Odyssee
 * Roomba Cost-Benefit Analysis
 * A History of the Term “Rationalist”
@@ -485,6 +494,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Just generalise Pollock's polyhedral conjecture for n-dimensional polytopes
 	* Also try to prove the case for triangular numbers first to get a feel for it?
 * Try to find pollution levels in LOCAL\_CITY
+* Expected value of plastic surgery for men
 
 ### Ideas
 

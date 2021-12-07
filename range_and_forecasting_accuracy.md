@@ -37,6 +37,8 @@ https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting
 <!--Seems like a similar work:
 https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.12127-->
 
+<!--Prediction: The long and short of it (Anthony Millner/Daniel Heyen, 2020)-->
+
 [Probabilistic
 forecasting](https://en.wikipedia.org/wiki/Probabilistic_forecasting)<!--TODO:
 re-pivot to "judgemental forecasting"?-->
