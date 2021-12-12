@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-12-06, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-12-11, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,11 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Flimsy Pet Theories, Enormous Initiatives (Ozzie Gooen, 2021)](https://forum.effectivealtruism.org/posts/RiCoj4SuAboeK3jW4/flimsy-pet-theories-enormous-initiatives)
+* [Lotegorisch (English Wikipedia, 2021)](https://en.wikipedia.org/wik/Lotegorisch)
+* [Interpolating Between Vectorized Green's Theorems (Zack\_M\_Davis, 2012)](http://zackmdavis.net/blog/2012/06/interpolating-between-vectorized-greens-theorems/)
+* \* Corrigibility (Benja Fallenstein/Eliezer Yudkowsky/Nate Soares/Stuart Armstrong, 2015)
+* [Salt-and-pepper noise (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Salt_and_pepper_noise/)
 * [Effective selfishness (dynomight, 2021)](https://dynomight.net/effective-selfishness/)
 * [Increasing and improving saving as a philanthropic cause (Carl Shulman, 2014)](https://reflectivedisequilibrium.blogspot.com/2014/06/increasing-and-improving-saving-as.html)
 * Agent Foundations for Aligning Machine Intelligence with Human Interests: A Technical Research Agenda (Nate Soares/Benya Fallenstein, 2017)

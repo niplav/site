@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2021-12-01, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2021-12-12, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __.__
 
@@ -29,8 +29,15 @@ Title Idioms
 
 #### Textbooks
 
+* All of X
+* An Introduction to X
+* Basic X
 * Naïve X
+* Principles of X
+* Understanding X
 * X: A Modern Approach
+* X: An Introduction
+* X Done Right
 
 Better Names for Things
 ------------------------
@@ -233,6 +240,7 @@ paradox, but not paragnosis, paratechne and paraëpisteme
 #### Missing Words
 
 * eating : drinking :: feeding : ?
+* hungry: satiated :: thirsty : quenched :: horny : ?
 
 Types of Guy
 -------------
@@ -311,6 +319,7 @@ Nominative Determinisms
 ------------------------
 
 * The “Sandwalk Choreographer” [Benjamin Millepied](https://en.wikipedia.org/wiki/Benjamin_Millepied) from the [2021 Dune movie](https://www.imdb.com/title/tt1160419/)
+* [Dick Wertheim](https://en.wikipedia.org/wiki/Dick_Wertheim) ["died after a ball struck him in the groin and he fell out of his chair"](https://en.wikipedia.org/wiki/List_of_unusual_deaths)
 
 Incorrect Plurals or Singulars People Use
 ------------------------------------------
