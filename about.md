@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-10-19, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2021-12-10, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -359,6 +359,7 @@ but rather cycles).
 ### Friends of the Site
 
 * [Ethan Morse](https://ethanmorse.github.io)
+* [Tetraspace West](https://thetetra.space)
 
 The Author
 ----------
