@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-12-11, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-12-17, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,16 +17,36 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [The Threshold (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/the-threshold/index.html)
+* [Periphery Demographic (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/periphery-demographic/index.html)
+* [The Parity Decomposition Trick (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/the-parity-decomposition-trick/index.html)
+* [Supermarket Notes II (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/supermarket-notes-ii/index.html)
+* [Supermarket Notes I (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/supermarket-notes-i/index.html)
+* [Summing the Multinomial Coefficients (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/summing-the-multinomial-coefficients/index.html)
+* [Recursion Is Boring (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/recursion-is-boring/index.html)
+* [On the Usefulness of Boats (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/on-the-usefulness-of-boats/index.html)
+* [It's Not Whether You Win or Lose (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/its-not-whether-you-win-or-lose/index.html)
+* [Forgetting to Take an Average (Zack\_M\_Davis, 2012)](https:///zackmdavis.net/blog/2012/09/forgetting-to-take-an-average/index.html)
+* [Character Entity Reference (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/character-entity-reference/index.html)
+* [Cached Reply Upon Being Told That I'm an Idiot (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/cached-reply-upon-being-told-that-im-an-idiot/index.html)
+* [Cached Remark for When My Prediction of Abject Failure Comes True (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/cached-remark-for-when-my-prediction-of-abject-failure-comes-true/index.html)
+* [Rigpa (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Rigpa)
+* \* Dune (Frank Herbert, 1965)
+* [Summary of the Acausal Attack Issue for AIXI (Diffractor, 2021)](https://www.lesswrong.com/posts/YbahERfcjTu7LZNQ6/summary-of-the-acausal-attack-issue-for-aixi)
+* [Some abstract, non-technical reasons to be non-maximally-pessimistic about AI alignment (Rob Bensinger, 2021)](https://www.lesswrong.com/posts/vT4tsttHgYJBoKi4n/some-abstract-non-technical-reasons-to-be-non-maximally)
+* [Spectrum of a matrix (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Spectrum_of_a_matrix)
+* [Church-Turing-Deutsch principle (English Wikipedia, 2021)](https://en.wikipedia.org/wik/Church-Turing-Deutsch_principle)
+* [Slack variable (English Wikipedia, 2021)](https://en.wikipedia.org/wik/Slack_variable)
 * [Flimsy Pet Theories, Enormous Initiatives (Ozzie Gooen, 2021)](https://forum.effectivealtruism.org/posts/RiCoj4SuAboeK3jW4/flimsy-pet-theories-enormous-initiatives)
 * [Lotegorisch (English Wikipedia, 2021)](https://en.wikipedia.org/wik/Lotegorisch)
 * [Interpolating Between Vectorized Green's Theorems (Zack\_M\_Davis, 2012)](http://zackmdavis.net/blog/2012/06/interpolating-between-vectorized-greens-theorems/)
-* \* Corrigibility (Benja Fallenstein/Eliezer Yudkowsky/Nate Soares/Stuart Armstrong, 2015)
+* Corrigibility (Benja Fallenstein/Eliezer Yudkowsky/Nate Soares/Stuart Armstrong, 2015)
 * [Salt-and-pepper noise (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Salt_and_pepper_noise/)
 * [Effective selfishness (dynomight, 2021)](https://dynomight.net/effective-selfishness/)
 * [Increasing and improving saving as a philanthropic cause (Carl Shulman, 2014)](https://reflectivedisequilibrium.blogspot.com/2014/06/increasing-and-improving-saving-as.html)
 * Agent Foundations for Aligning Machine Intelligence with Human Interests: A Technical Research Agenda (Nate Soares/Benya Fallenstein, 2017)
 * Polynomial Hierarchy Collapses, Thousands Feared Tractable (Scott Aaronson, 2002)
-* \* The Erogamer (Groon the Walker, 2020)
+* The Erogamer (Groon the Walker, 2020)
 * Ontological Crises in Artificial Agents' Value Systems (Peter de Blanc, 2011)
 * [Second generation human capital benefits of migration (Carl Shulman, 2014)](https://reflectivedisequilibrium.blogspot.com/2014/09/second-generation-human-capital.html)
 * [The Cuboid: A DIY air purifier that's better than a box-fan (dynomight, 2021)](https://dynomight.net/better-DIY-air-purifier.html)

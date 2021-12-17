@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-12-06, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2021-12-15, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -236,6 +236,7 @@ Texts
 	* Direct Date off Street
 * Daygame on a Medium Dose of MDMA
 	* It worked pretty well, 22 approaches (twice optimal normal rate), AA pretty much zero, 5 numbers (although only 2 non-flakey)
+* Girls actually enjoy getting chatted up
 
 ### Time Experience
 
