@@ -310,3 +310,104 @@ Overall, the book had some interesting points about suicide, the quality of
 life and meaning, but felt rather pointless.
 
 __3/10__
+
+Persuasion Tools: AI takeover without AGI or agency? (Daniel Kokotajlo, 2020)
+------------------------------------------------------------------------------
+
+*Written for the [2020 LessWrong Review](https://www.lesswrong.com/posts/M9kDqF2fn3WH44nrv/the-2020-review-preliminary-voting)*
+
+[Original post](https://www.lesswrong.com/posts/qKvn7rxP2mzJbKfcA/persuasion-tools-ai-takeover-without-agi-or-agency).
+
+The problem outlined in this post results from two major concerns on
+lesswrong: risks from advanced AI systems and irrationality due to
+parasitic memes.
+
+It presents the problem of persuasion tools as continuous with the
+problems humanity has had with virulent ideologies and sticky memes,
+exacerbated by the increasing capability of narrowly intelligent machine
+learning systems to exploit biases in human thought. It provides (but
+doesn't explore) two examples from history to support its hypothesis:
+the printing press as a partial cause of the 30 years war, and the radio
+as a partial cause of 20th century totalitarianism.
+
+Especially those two concerns reminded me of [Is Clickbait
+Destroying Our General Intelligence? (Eliezer Yudkowsky,
+2018)](https://www.lesswrong.com/posts/YicoiQurNBxSp7a65), which could
+be situated in this series of events:
+
+> I suspect some culturally transmitted parts of the general intelligence
+software got damaged by radio, television, and the Internet, with a key
+causal step being an increased hypercompetition of ideas compared to
+earlier years.
+
+Kokotajlo also briefly considers the hypothesis that
+epistemic conditions might have become better through the
+internet, but rejects it (for reasons that are not spelled
+out, but the answers to [Have epistemic conditions always been this
+bad? (Wei Dai, 2021)](https://www.lesswrong.com/posts/PjfsbKrK5MnJDDoFr/have-epistemic-conditions-always-been-this-bad)
+might be illuminating). (Survivorship bias probably plays a large
+role here: epistemically unsound information is less likely to survive
+long-term trials for truth, especially in an environment where memes on
+the less truth-oriented side of the spectrum are in a harsher competition
+than memes on the more truth-oriented side).
+
+This post was written a year ago, but didn't make any concrete
+predictions, which predictions can we infer from its vibe, one year on?
+
+1. A large number (>100 mio.) of people in the western world (USA & EU) will interact with chatbots on a regular basis (more than once a week).
+	* I think this isn't the case: I've encountered chatbots mainly in the context of customer service, and don't know anyone personally who has used a chatbot for entertainment for more than an afternoon (Western Europe)
+2. It is revealed that a government spent a substantial amount of money (>$1B) on automating propaganda using machine learning systems.
+	* As far as I know, there has been no reveal of such a large-scale automated propaganda campaign (the wikipedia pages on [Propaganda in China](https://en.wikipedia.org/wiki/Propaganda_in_China) and [in the US](https://en.wikipedia.org/wiki/Propaganda_in_the_US) mention no such operations.
+3. Online ideological conflicts spill over into the real world more often.
+	* As I haven't been following the news closely, I don't have many examples here, but the [2020–21 United States election protests](https://en.wikipedia.org/wiki/2020-21_United_States_election_protests) come to mind.
+4. The internet becomes more fractured, into discrete walled gardens (e.g. into a Chinese Internet, [US Blue Internet, and US Red Internet](https://slatestarcodex.com/2014/09/30/i-can-tolerate-anything-except-the-outgroup/)).
+	* This seems to become more and more true, with sites such as Gab and the Fediverse gaining in popularity. However, it doesn't seem like the US Red Internet has the technological capabilities to automate propaganda, to the extent that the US Blue Internet or the Chinese internet do.
+
+I found the text quite relevant both to thinking about possible alternative
+stories about the way in which AI could go wrong, and also to my
+personal life.
+
+In the domain of AI safety, I became more convinced of the importance
+of aligning recommender systems to human values (also mentioned in the
+post), if they pose larger risk than commonly assumed, and provide
+a good ground for experimentation on alignment techniques. Whether
+[aligning recommender systems](https://arxiv.org/abs/2107.10939v1) is more
+important than aligning large language models seems like an important crux
+here: Are the short-term/long-term risks higher for recommender systems
+(i.e. reinforcement learners) larger than the risks from large language
+models? Which route appears more fruitful when trying to align more
+generally capable systems? As far as I can see, the alignment community
+is more interested in attempts to align large language models, compared
+to recommender systems, probably due to recent progress in that area
+and because it's easier to test alignment in language models (?).
+
+The scenarios in which AI powered memetic warfare significantly harm
+humanity can also be tied into research on the malicious use of AI,
+e.g. [The Malicious Use of Artificial Intelligence: Forecasting,
+Prevention, and Mitigation (Brundage et al. 2018)](https://www.eff.org/files/2018/02/20/malicious_ai_report_final.pdf). Policy tools from
+diplomacy with regard to biological, chemical and nuclear warfare could
+be applied to memetic and psychologcial warfare.
+
+The text explicitely positions the dangers of persuasion tools as a risk
+factor, but more speculatively, they might also pose an existential risk
+in themselves, in two different scenarios:
+
+* If humans are very easy to manipulate by AI systems that are narrowly superhuman in the domain of human psychology, a scenario similar to [Evolving to Extinction (Eliezer Yudkowsky, 2007)](https://www.lesswrong.com/rationality/evolving-to-extinction) might occur: nearly everybody goes [effectively insane](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like?commentId=CB8ieALcHfSSuAYYJ#CB8ieALcHfSSuAYYJ) at approximately the same time, resulting in the collapse of civilization.
+* Humans might become insane enough that further progress along relevant axes is halted, but not insane enough that civilization collapses. We get stuck oscillating around some technological level, until another existential catastrophe like nuclear war and resulting nuclear winter finishes us off.
+
+On the personal side, after being fooled by [people using GPT-3 to
+generate tweets](https://twitter.com/lxrjl/status/1376830454075129858)
+and seeing at least one instance of observing
+someone [asking a commenter for the MD5 hashsum of a
+string](https://old.reddit.com/r/TheMotte/comments/qzfptl/culture_war_roundup_for_the_week_of_november_22/hmhnkzg/)
+to verify that the commenter was human (and the commenter failing that
+challenge), along with observing the increasingly negative effects of
+internet usage on my attention span, I decided to separate my place for
+sleeping & eating from the place where I use internet, with a ~10 minute
+commute between those two.  I also decided to pay less attention to news
+stories/reddit/twitter, especially from sources affiliated with large
+governments, downloaded my favourite websites.
+
+This post was relevant to my thoughts about alternative AI risk scenarios
+as well as drastic personal decisions, and I expect to give it a 1 or
+(more likely) a 4 in the final vote.
