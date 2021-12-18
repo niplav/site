@@ -587,7 +587,8 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Merge India and the European Union
 * Writing Notes
 	* Concatenating Different Explanations
-* `$n$` grass-cutting robots on `$n$`-dimensional manifolds
+* `$k$` grass-cutting robots on `$n$`-dimensional manifolds
+* Improving Coordination Over Time is a Longtermist Crux
 
 ### Collections
 

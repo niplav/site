@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Gestell (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Gestell)
+* \* The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation (Miles Brundage/Shahar Avin/Jack Clark/Helen Toner/Peter Eckersley/Ben Garfinkel/Allan Dafoe/Paul Scharre/Thomas Zeitzoff/Bobby Filar/Hyrum Anderson/Heather Roff/Gregory C. Allen/Jacob Steinhardt/Carrick Flynn/Seán ÓhÉigeartaigh/Simon Beard/Haydn Belfield/Sebastian Farquhar/Clare Lyle/Rebecca Crootof/Owain Evans/Michael Page/Joanna Bryson/Roman Yampolskiy/Dario Amodei, 2018)
+* [[FF][RST] The Erogamer: A Darker Timeline (sfw) (Eliezer Yudkowsky, 2020)](https://old.reddit.com/r/rational/comments/imqrjv/ffrst_the_erogamer_a_darker_timeline_sfw/)
+* \* AGI Safety Literature Review (Gary Lea/Marcus Hutter/Tom Everitt, 2018)
 * [The Threshold (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/the-threshold/index.html)
 * [Periphery Demographic (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/periphery-demographic/index.html)
 * [The Parity Decomposition Trick (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/the-parity-decomposition-trick/index.html)

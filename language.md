@@ -345,7 +345,7 @@ Good Bandnames
 
 * Catastrophic Transcripts
 * Memetic Immune Disorder
-* Contextual Bandits (seen in [Amodei et al. 2016](./doc/language/concrete_problems_in_ai_safety_amodei_et_al_2016.pdf "Concrete Problems in AI Safety")
+* Contextual Bandits (seen in [Amodei et al. 2016](./doc/language/concrete_problems_in_ai_safety_amodei_et_al_2016.pdf "Concrete Problems in AI Safety"))
 
 Daygame
 --------
