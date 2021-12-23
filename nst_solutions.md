@@ -951,10 +951,22 @@ so `$n \in n^{+_k}$`.
 Assume such a `$k$` did not exist. Then for every `$k_i$`, it would hold
 that there is some `$m_i \not= k$` so that `$k_i \not \in m_i$`.
 
-But thene it must hold that `$m_i \in k_i$` (it can't be that `$m_i \not \in k_i$`
+But then it must hold that `$m_i \in k_i$` (it can't be that `$m_i \not \in k_i$`
 and `$k_i \not \in m_i$` for natural numbers). If that isn't
 the case (so `$m_i \not \in k_i$`), then there must exists some `$r_i$`
 that `$m_i \not \in r_i$`. But since `$E$` contains only finitely many
 elements, this leads to a cycle (which is not possible, since that would
 mean that `$k_i \not \in k_j$` and `$k_j \not \in k_i$`). So such a
 `$k$` must exist.
+
+Section 13
+-----------
+
+<!--
+### Stray Exercise 1
+
+> The discovery and establishment of the properties of powers, as well
+as the detailed proofs of the statements about products, can safely be
+left as exercises to the readers.
+
+-->

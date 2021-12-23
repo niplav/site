@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-12-30, modified: 2021-10-19, language: english, status: in progress, importance: 3, confidence: opinion*
+*author: niplav, created: 2020-12-30, modified: 2021-12-19, language: english, status: in progress, importance: 3, confidence: opinion*
 
 > __Reading a text is sometimes a big time investment, but people
 don't approach their reading in a structured manner, e.g. by keeping
@@ -351,17 +351,21 @@ long-term trials for truth, especially in an environment where memes on
 the less truth-oriented side of the spectrum are in a harsher competition
 than memes on the more truth-oriented side).
 
-This post was written a year ago, but didn't make any concrete
-predictions, which predictions can we infer from its vibe, one year on?
+This post was written a year ago, and didn't make any concrete
+predictions (for a vignette of the future by the author,
+see [What 2026 looks like (Daniel's Median Future) (Daniel Kokotajlo,
+2021)](https://www.lesswrong.com/posts/6Xgy6CAf2jqHhynHL/what-2026-looks-like-daniel-s-median-future)).
+My personal implied predictions under this worldview are something
+like this:
 
-1. A large number (>100 mio.) of people in the western world (USA & EU) will interact with chatbots on a regular basis (more than once a week).
-	* I think this isn't the case: I've encountered chatbots mainly in the context of customer service, and don't know anyone personally who has used a chatbot for entertainment for more than an afternoon (Western Europe)
-2. It is revealed that a government spent a substantial amount of money (>$1B) on automating propaganda using machine learning systems.
-	* As far as I know, there has been no reveal of such a large-scale automated propaganda campaign (the wikipedia pages on [Propaganda in China](https://en.wikipedia.org/wiki/Propaganda_in_China) and [in the US](https://en.wikipedia.org/wiki/Propaganda_in_the_US) mention no such operations.
+1. A large number (>100 mio.) of people in the western world (USA & EU) will interact with chatbots on a regular basis (e.g. more than once a week).
+	* I think this isn't yet the case: I've encountered chatbots mainly in the context of customer service, and don't know anyone personally who has used a chatbot for entertainment for more than an afternoon (Western Europe). If we count automated personal assistants such as Alexa or Siri, this might be true.
+2. It is revealed that a government spent a substantial amount of money (>$1B) on automating propaganda creation.
+	* As far as I know, there hasn't been any reveal of such a large-scale automated propaganda campaign (the wikipedia pages on [Propaganda in China](https://en.wikipedia.org/wiki/Propaganda_in_China) and [in the US](https://en.wikipedia.org/wiki/Propaganda_in_the_US) mention no such operations.
 3. Online ideological conflicts spill over into the real world more often.
 	* As I haven't been following the news closely, I don't have many examples here, but the [2020–21 United States election protests](https://en.wikipedia.org/wiki/2020-21_United_States_election_protests) come to mind.
 4. The internet becomes more fractured, into discrete walled gardens (e.g. into a Chinese Internet, [US Blue Internet, and US Red Internet](https://slatestarcodex.com/2014/09/30/i-can-tolerate-anything-except-the-outgroup/)).
-	* This seems to become more and more true, with sites such as Gab and the Fediverse gaining in popularity. However, it doesn't seem like the US Red Internet has the technological capabilities to automate propaganda, to the extent that the US Blue Internet or the Chinese internet do.
+	* This seems to become more and more true, with sites such as Gab and the Fediverse gaining in popularity. However, it doesn't seem like the US Red Internet has the technological capabilities to automate propaganda or build a complete walled garden, to the extent that the US Blue Internet or the Chinese internet do.
 
 I found the text quite relevant both to thinking about possible alternative
 stories about the way in which AI could go wrong, and also to my

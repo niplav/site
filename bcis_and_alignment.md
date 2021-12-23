@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-08-17, modified: 2021-10-19, language: english, status: draft, importance: 6, confidence: possible*
+*author: niplav, created: 2021-08-17, modified: 2021-12-23, language: english, status: in progress, importance: 6, confidence: possible*
 
 > __I discuss arguments for and against the usefulness of brain-computer
 interfaces in relation to AI alignment, and conclude that the path to
@@ -74,40 +74,6 @@ don't really seem to respond to the classical AI risk arguments/scenarios.
 -->
 
 <!--
-Suggestions comment 1 (https://old.reddit.com/r/ControlProblem/comments/pfb8ze/braincomputer_interfaces_and_ai_alignment/hb6f0k8):
-
-Not a disagreement, but an addition:
-
-We have a limited time until the emergence of an AGI. Maybe a couple of
-decades. Maybe less.
-
-There is only a small number of researchers willing to work full-time
-on solving the alignment problem.
-
-The number could be insufficient to solve the problem before the
-emergence.
-
-The traditional means of increasing the number (e.g. by educating people,
-spreading the word) could be insufficient to create enough full-time
-alignment researchers. As the stats of this very subredit indicate,
-the growth is linear and slow.
-
-An alternative way to greatly speed up the research is to greatly speed
-up the researchers themselves, and duplicate them if possible. Ideally,
-upload the entire MIRI team, create >1000x instances of each researcher,
-and run them all at >1000x speed.
-
-BCI could enable such a feat, or at least provide some useful intelligence
-speedups that result in research speedups.
-
-The quantitative difference between the current MIRI and the
-MIRI-on-digital-steroids could mean the difference between solving the
-alignment problem on time, and failing to solve it on time.
-
-BTW, a SMBC comic relevant to the point #5.
--->
-
-<!--
 Suggestions comment 2 (https://old.reddit.com/r/ControlProblem/comments/pfb8ze/braincomputer_interfaces_and_ai_alignment/hb6gg89):
 
 The obvious argument against BCI is that human brains aren't designed
@@ -172,40 +138,6 @@ there's only a decade or two left, considering we don't know how to do
 this and might not figure it out without a lot of human experimentation.
 -->
 
-<!-- Relevant Urban comment:
-
-I think that, conceivably, there’s a way for there to be a tertiary
-layer that feels like it’s part of you. It’s not some thing that
-you offload to, it’s you.
-
-This makes sense on paper. You do most of your “thinking” with your
-cortex, but then when you get hungry, you don’t say, “My limbic
-system is hungry,” you say, “I’m hungry.” Likewise, Elon thinks,
-when you’re trying to figure out the solution to a problem and your AI
-comes up with the answer, you won’t say, “My AI got it,” you’ll
-say, “Aha! I got it.” When your limbic system wants to procrastinate
-and your cortex wants to work, a situation I might be familiar with, it
-doesn’t feel like you’re arguing with some external being, it feels
-like a singular you is struggling to be disciplined. Likewise, when you
-think up a strategy at work and your AI disagrees, that’ll be a genuine
-disagreement and a debate will ensue—but it will feel like an internal
-debate, not a debate between you and someone else that just happens to
-take place in your thoughts. The debate will feel like thinking.
-
-It makes sense on paper.
-
-But when I first heard Elon talk about this concept, it didn’t really
-feel right. No matter how hard I tried to get it, I kept framing the
-idea as something familiar—like an AI system whose voice I could hear
-in my head, or even one that I could think together with. But in those
-instances, the AI still seemed like an external system I was communicating
-with. It didn’t seem like me.
-
-But then, one night while working on the post, I was rereading some of
-Elon’s quotes about this, and it suddenly clicked. The AI would be
-me. Fully. I got it.
--->
-
 <!--
 Resources from this comment:
 https://www.lesswrong.com/posts/rpRsksjrBXEDJuHHy/brain-computer-interfaces-and-ai-alignment?commentId=t9n35ss9nhW2gJBg5
@@ -254,6 +186,84 @@ mostly taking as a starting point the Bostrom/Yudkowsky story of AI risk
 "What failure looks like") story; I don't know enough about
 [CAIS](https://www.lesswrong.com/posts/x3fNwSe5aWZb5yXEG "Reframing Superintelligence: Comprehensive AI Services as General Intelligence")
 or ARCHES to make a judgment about the applicability of the arguments).
+This means that AI systems will be assumed to be maximizers, as
+[mathematical descriptions of other optimization idioms are currently
+unsatisfactory](https://arbital.com/p/otherizer/ "Other-izing (wanted: new optimization idiom)").
+
+Existing Texts
+---------------
+
+The most thorough argument for the usefulness of BCIs for AI alignment is
+[Urban
+2017](https://waitbutwhy.com/2017/04/neuralink.html "Neuralink and the Brain’s Magical Future")
+(which I was pointed to by []() in [this comment](), thanks!).
+
+The text mostly concerns itself with the current status of BCI technology,
+different methods of reading and writing information from and to the
+brain, and some of the implication on society if such a technology
+were developed.
+
+The section where the text explains the relation of BCIs to AI alignment
+is as follows:
+
+> That AI system, he believes, will become as present a character in your
+mind as your monkey and your human characters—and it will feel like you
+every bit as much as the others do. He says: I think that, conceivably,
+there’s a way for there to be a tertiary layer that feels like it’s
+part of you. It’s not some thing that you offload to, it’s you.
+
+> This makes sense on paper. You do most of your “thinking” with your
+cortex, but then when you get hungry, you don’t say, “My limbic
+system is hungry,” you say, “I’m hungry.” Likewise, Elon thinks,
+when you’re trying to figure out the solution to a problem and your AI
+comes up with the answer, you won’t say, “My AI got it,” you’ll
+say, “Aha! I got it.” When your limbic system wants to procrastinate
+and your cortex wants to work, a situation I might be familiar with, it
+doesn’t feel like you’re arguing with some external being, it feels
+like a singular you is struggling to be disciplined. Likewise, when you
+think up a strategy at work and your AI disagrees, that’ll be a genuine
+disagreement and a debate will ensue—but it will feel like an internal
+debate, not a debate between you and someone else that just happens to
+take place in your thoughts. The debate will feel like thinking.
+
+> It makes sense on paper.
+
+> But when I first heard Elon talk about this concept, it didn’t really
+feel right. No matter how hard I tried to get it, I kept framing the
+idea as something familiar—like an AI system whose voice I could hear
+in my head, or even one that I could think together with. But in those
+instances, the AI still seemed like an external system I was communicating
+with. It didn’t seem like me.
+
+> But then, one night while working on the post, I was rereading some of
+Elon’s quotes about this, and it suddenly clicked. The AI would be
+me. Fully. I got it.
+
+*– [Tim Urban](https://waitbutwhy.com/), “[Neuralink and the Brain’s Magical Future](https://waitbutwhy.com/2017/04/neuralink.html)”, 2017*
+
+However, this paragraph is not wholly clear on how this merging with AI
+systems is supposed to work.
+
+It could be interpreted as describing [input of
+cognition](./#Input-of-Cognition) from humans
+into AI systems and vice versa, or simply non-AI [augmentation of human
+cognition](./#Improving-Human-Cognition).
+
+Assuming the interaction with an unaligned
+AI system, these would enable [easier neural
+takeover](./#Direct-Neural-Takeover-Made-Easy)
+or at least induce the removal of humans
+from the [centaur](https://en.wikipedia.org/wik/Advanced_chess) [due to convergent instrumental
+strategies](./#Removing-Merged-Humans-is-a-Convergent-Instrumental-Strategy-for-AI-Systems)—well
+known failure modes in cases where [merging is just faster
+interaction](/#Merging-is-Just-Faster-Interaction)
+between humans and AI systems.
+
+The comparison with the limbic system is leaky, because the limbic system
+is not best modeled as a more intelligent optimizer than the cortex with
+different goals.
+
+Aligning an already aligned AI system using BCIs is, of course, trivial.
 
 Arguments For the Utility of Brain-Computer Interfaces in AI Alignment
 -----------------------------------------------------------------------
@@ -271,7 +281,7 @@ traditional perception:
 *	Augmented working memory (i.e. holding 11±2 instead of 7±2
 	items in mind at the same time) (thanks to janus#0150 on the
 	Eleuther AI discord server for this point)
-*	Exchange of mental models between humanrs (instead of explaining
+*	Exchange of mental models between humans (instead of explaining
 	a complicated model, one would be able to simply “send” the
 	model to another person, saving a lot of time explaining)
 *	Outsourcing simple cognitive tasks to external computers
@@ -284,10 +294,18 @@ given by BCIs.
 
 <!--TODO: how much more intelligent? How much faster?-->
 
-<!--
-### Scaling far Beyond Human Intelligence
+#### Scaling far Beyond Human Intelligence
 
--->
+If BCIs could allow to scale the intelligence of biological humans
+far beyond normal human intelligence, this might either
+
+*	enable a [pivotal act](https://arbital.com/p/pivotal/), in which
+	looming catastrophes are avoided
+*	make artificially superintelligent systems unneccessary because
+	of sufficiently intelligent biological humans (this might be
+	caused by BCIS enabling sufficient access to the human brain that
+	self-modification with resulting recursive self-improvement is
+	enacted by a human)
 
 ### Understanding the Human Brain
 
@@ -431,7 +449,8 @@ are arguably more optimized against through constant interaction with
 other humans who tried to manipulate them in the ancestral environment).
 
 However, if the AI were restricted to read-only access to the human brain,
-this particular scenario would be of no concern.
+this particular scenario would be of no concern (except for AI systems
+gaining information about human psychology more quickly).
 
 <!--TODO: use yudkowsky screaming image here?-->
 
@@ -519,6 +538,18 @@ but these mostly boil down faster interaction.
 It seems worrying that a complete company has been built on a vision
 that has no clearly articulated path to success.
 
+#### Removing Merged Humans is a Convergent Instrumental Strategy for AI Systems
+
+If a human being is merged with an unaligned AI system,
+the unaligned AI system has a [convergent instrumental
+drive](https://arbital.com/p/convergent_self_modification/ "Convergent strategies of self-modification")
+to remove the (to it) unaligned human: If the human can interfere with
+the AI systems' actions or goals or policies, the AI system will not be
+able to fully maximize its utility. Therefore, for merging to be helpful
+with AI alignment, the AI system must already be aligned, or [not a
+maximizer](https://arbital.com/p/otherizer/ "Other-izing (wanted: new optimization idiom)"),
+the exact formulation of which is currently an open problem.
+
 ### BCIs Speed Up Capabilities Research as Well
 
 If humanity builds BCIs, it seems not certain that the AI alignment
@@ -532,6 +563,39 @@ acquires a strong lead in BCI technology and provides it exclusively to
 alignment-oriented organisations, it appears possible that BCIs will
 be a [pivotal tool](https://arbital.com/p/pivotal/ "Pivotal event")
 for helping to secure the development of AI.
+
+#### How Important Is Wisdom?
+
+If the development of unaligned AI systems currently poses an
+existential risk, then AI capabilities researchers, most of which are
+very intelligent and technically capable, are currently engaging in an
+activity that is on reflection not desirable. One might call this lacking
+property of reflection “wisdom”, similar to the usage in [Tomasik
+2017](./doc/thoughts_on_open_borders/differential_intellectual_progress_as_a_positive_sum_project_tomasik_2017.pdf "Differential Intellectual Progress as a Positive-Sum Project").
+
+It is possible that such a property of human minds, distinct from
+intelligence, does not really exist, and it is merely by chance and
+exposure to AI risk arguments that people become aware and convinced
+these arguments (also dependent, of course, on the convincingness of
+these arguments). If that is the case, then intelligence-augmenting BCIs
+would help to aid AI alignment, by giving people the ability to survey
+larger amounts of information and engage more quickly with the arguments.
+
+### Superintelligent Human Brains Seem Dangerous (Although Less So)
+
+Increasing the intelligence of a small group of humans
+appears to be the most likely outcome if one were to aim
+for endowing some humans with superintelligence. [Bostrom 2014
+ch.2](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies)
+outlines some reasons why this procedure is unlikely to
+work, but even the case of success still carries dangers with
+it: the augmented humans might not be sufficiently [metaphilosophically
+competent](https://www.lesswrong.com/posts/CCgvJHpbvc7Lm8ZS8/metaphilosophical-competence-can-t-be-disentangled-from "Metaphilosophical competence can't be disentangled from alignment")
+to deal with much greater insight the
+structure of reality (e.g. by being unable to cope with [ontological
+crises](./doc/bcis_and_alignment/ontological_crises_in_artificial_agents_value_systems_de_blanc_2011.pdf "Ontological Crises in Artificial Agents' Value Systems")
+(which appear not infrequently in normal humans), or becoming "drunk
+with power" and therefore malevolent).
 
 Subjective Conclusion
 ----------------------

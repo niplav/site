@@ -103,7 +103,6 @@ The set of reachable states includes all states: `$p, p_1$` and `$p_2$`.
 * `$(a.b.A+\overline{a}.\mathbf{0})+B$` ✓
 * `$(\mathbf{0}|\mathbf{0})+\mathbf{0}$` ✓
 
-<!--
 ### 2.7
 
 > Use the rules of SOS semantics for CCS to derive the LTS for the
@@ -116,12 +115,36 @@ As a refresher:
 * `$\text{CM}\overset{\text{def}}{=}\text{coin}.\overline{\text{coffee}}.\text{CM}$`
 * `$\text{CS}\overset{\text{def}}{=}\overline{\text{pub}}.\overline{\text{coin}}.\text{coffee}.\text{CS}$`
 
-TODO
--->
+I'm not going to draw all the images, I'm way too lazy for that.
+
+* Using COM1: SmUni transitions to `$(\text{CM}|\text{CS}_1)\backslash\{\text{coin},\text{coffee}\}$` via `$\overline{\text{pub}}$`
+* Using COM3: `$(\text{CM}|\text{CS}_1)\backslash\{\text{coin},\text{coffee}\}$` transitions to `$(\text{CM}_1|\text{CS}_2)\backslash\{\text{coin},\text{coffee}\}$` via `$τ$`, internally `$\text{coin}$`
+* Using COM3: `$(\text{CM}_1|\text{CS}_2)\backslash\{\text{coin},\text{coffee}\}$` transitions to SmUni via `$τ$`, internally `$\text{coffee}$`
 
 ### 2.12
 
+#### Defining a Bag
 
+`$\text{Bag} \overset{\text{def}}{=} (\text{Cell}|\text{Cell}).\text{Bag}$`
+
+This definition works by keeping two Cells running in parallel. If both
+cells are emptied, the Bag restarts, otherwise it keeps its state.
+
+#### Defining a FIFO queue
+
+The two-place FIFO queue should have the following traces available
+(for different values of `$x$` and `$y$`):
+
+* `$\text{in}(x) \rightarrow \text{in}(y) \rightarrow \overline{\text{out}}(x) \rightarrow \overline{\text{out}}(y).\text{FIFO}$`
+* `$\text{in}(x) \rightarrow \overline{\text{out}}(x).\text{FIFO}$`
+
+(The case where `$x$` is input and output, and then `$y$` is input and
+output, is equivalent to the second trace).
+
+`$\text{FIFO} \overset{\text{def}}{=} (\text{Cell}+(\text{in}(x).\text{in}(y).\text{Cell}(x).\text{Cell}(y)).\text{FIFO}$`
+
+This is much uglier than I thought it would be. Maybe there's a nicer
+version? Just concatenating two cells doesn't work, of course.
 
 Chapter 3
 ----------
@@ -250,7 +273,7 @@ strongly bisimilar via `$β$`, then they are also string bisimilar via
 
 ### 3.12
 
-<!--TODO-->
+To be shown: `$\{(P|Q, Q|P) |\text{where }P,Q \text{ are CCS processes}\}$` is a bisimulation.
 
 ### 3.37
 
@@ -281,7 +304,6 @@ strongly bisimilar via `$β$`, then they are also string bisimilar via
 
 Strong bisimulation relating the pair of processes:
 `$\mathcal{R}=\{(u,s), (u_1, s_1), (u_3, s_2), (u_2, s_2)\}$`.
-
 
 `$s\not \sim v$`. Winning strategy for the attacker:
 

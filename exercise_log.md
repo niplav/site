@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-06-15, modified: 2021-12-16, language: english, status: notes, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-15, modified: 2021-12-18, language: english, status: notes, importance: 1, confidence: log*
 
 > __I recently got the feeling that tracking my exercise might be vaguely
 > useful. This is my attempt.__
@@ -1855,3 +1855,20 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 0 burpees
 * 0 froggers
 * 1 minutes plank
+
+### 2021-12-18
+
+* 60 7.5kg dumbbell shoulder presses
+* 60 7.5kg dumbbell biceps curls
+* 60 7.5kg dumbbell upright rows
+* 60 7.5kg dumbbell Γ lifts
+* 60 7.5kg dumbbell bench presses
+* 20 7.5kg dumbbell scaptions
+* 10 7.5kg dumbbell lateral lifts
+* 60 push-ups
+* 60 sit-ups
+* 60 double leg lifts
+* 60 walking lunges
+* 0 burpees
+* 0 froggers
+* 2 minutes plank

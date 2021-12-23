@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-12-17, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-12-24, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,10 +17,18 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Radioactive Waste Management (World Nuclear Association, 2021)](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-wastes/radioactive-waste-management.aspx)
+* [Centaur (chess) (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Centaur_(chess))
+* \* Der logische Atomismus (Bertrand Russell, 1924)
+* An Göthe (Friedrich Schiller, 1804)
+* [Lion-Eating Poet in the Stone Den (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Lion-Eating_Poet_in_the_Stone_Den)
+* [Shattered set (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Shattered_set)
+* [Quantum knots (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Quantum_knots)
+* Das Ideal und das Leben (Friedrich Schiller, 1804)
 * [Gestell (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Gestell)
-* \* The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation (Miles Brundage/Shahar Avin/Jack Clark/Helen Toner/Peter Eckersley/Ben Garfinkel/Allan Dafoe/Paul Scharre/Thomas Zeitzoff/Bobby Filar/Hyrum Anderson/Heather Roff/Gregory C. Allen/Jacob Steinhardt/Carrick Flynn/Seán ÓhÉigeartaigh/Simon Beard/Haydn Belfield/Sebastian Farquhar/Clare Lyle/Rebecca Crootof/Owain Evans/Michael Page/Joanna Bryson/Roman Yampolskiy/Dario Amodei, 2018)
+* \* The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation (Allan Dafoe/Ben Garfinkel/Bobby Filar/Carrick Flynn/Clare Lyle/Dario Amodei/Gregory C. Allen/Haydn Belfield/Heather Roff/Helen Toner/Hyrum Anderson/Jack Clark/Jacob Steinhardt/Joanna Bryson/Michael Page/Miles Brundage/Owain Evans/Paul Scharre/Peter Eckersley/Rebecca Crootof/Roman Yampolskiy/Seán ÓhÉigeartaigh/Sebastian Farquhar/Shahar Avin/Simon Beard/Thomas Zeitzoff, 2018)
 * [[FF][RST] The Erogamer: A Darker Timeline (sfw) (Eliezer Yudkowsky, 2020)](https://old.reddit.com/r/rational/comments/imqrjv/ffrst_the_erogamer_a_darker_timeline_sfw/)
-* \* AGI Safety Literature Review (Gary Lea/Marcus Hutter/Tom Everitt, 2018)
+* AGI Safety Literature Review (Gary Lea/Marcus Hutter/Tom Everitt, 2018)
 * [The Threshold (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/the-threshold/index.html)
 * [Periphery Demographic (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/periphery-demographic/index.html)
 * [The Parity Decomposition Trick (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/the-parity-decomposition-trick/index.html)
@@ -35,7 +43,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Cached Reply Upon Being Told That I'm an Idiot (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/cached-reply-upon-being-told-that-im-an-idiot/index.html)
 * [Cached Remark for When My Prediction of Abject Failure Comes True (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/cached-remark-for-when-my-prediction-of-abject-failure-comes-true/index.html)
 * [Rigpa (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Rigpa)
-* \* Dune (Frank Herbert, 1965)
+* Dune (Frank Herbert, 1965)
 * [Summary of the Acausal Attack Issue for AIXI (Diffractor, 2021)](https://www.lesswrong.com/posts/YbahERfcjTu7LZNQ6/summary-of-the-acausal-attack-issue-for-aixi)
 * [Some abstract, non-technical reasons to be non-maximally-pessimistic about AI alignment (Rob Bensinger, 2021)](https://www.lesswrong.com/posts/vT4tsttHgYJBoKi4n/some-abstract-non-technical-reasons-to-be-non-maximally)
 * [Spectrum of a matrix (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Spectrum_of_a_matrix)
@@ -90,7 +98,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * The Femme's Guide to Riot Fashion (Elle Armageddon, 2017)
 * [Person-affecting views may be dominated by possibilities of large future populations of necessary people (Carl Shulman, 2019)](https://reflectivedisequilibrium.blogspot.com/2019/11/person-affecting-views-may-be-dominated.html)
 * [Flow-through effects of saving a life through the ages on life-years lived (Carl Shulman, 2018)](https://reflectivedisequilibrium.blogspot.com/2018/10/flow-through-effects-of-saving-life.html)
-* \* Die Zerstörung von Troja (Friedrich Schiller, 1804)
+* Die Zerstörung von Troja (Friedrich Schiller, 1804)
 * [Envisioning a world immune to global catastrophic biological risks (Carl Shulman, 2020)](https://reflectivedisequilibrium.blogspot.com/2020/05/what-would-civilization-immune-to.html)
 * Categorizing Variants of Goodhart's Law (David Manheim/Scott Garrabrant, 2019)
 * [Flow-through effects of innovation through the ages (Carl Shulman, 2018)](https://reflectivedisequilibrium.blogspot.com/2018/10/flow-through-effects-of-innovation.html)
@@ -141,7 +149,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Dipole repeller (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Dipole_repeller)
 * [What does migration to the United Arab Emirates tell us about labor mobility? (Carl Shulman, 2014)](http://reflectivedisequilibrium.blogspot.com/2014/05/what-does-migration-to-united-arab.html)
 * Quantilizers: A Safer Alternative to Maximizers for Limited Optimization (Jessica Taylor, 2015)
-* \* Über das Kennzeichnen (Bertrand Russell, 1905)
+* Über das Kennzeichnen (Bertrand Russell, 1905)
 * Der Handschuh (Friedrich Schiller, 1804)
 * Der Taucher (Friedrich Schiller, 1804)
 * Der Kampf mit dem Drachen (Friedrich Schiller, 1804)
@@ -1528,7 +1536,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Reasons to Be Nice to Other Value Systems (Brian Tomasik, 2017)](https://foundational-research.org/reasons-to-be-nice-to-other-value-systems/)
 * [How to Stop Biting Your Nails (WikiHow, 2019)](https://www.wikihow.com/Stop-Biting-Your-Nails)
 * [Why Do I Bite My Nails and How Do I Stop? (WebMD, 2017)](https://www.webmd.com/a-to-z-guides/stop-nail-biting-tips)
-* \* Programming in Lua (Roberto Ierusalimschy, 2013)
+* |152 Programming in Lua (Roberto Ierusalimschy, 2013)
 * |238 Object-Oriented Software Engineering (Bernd Bruegge/Allen Dutoit, 2010)
 * |164 Lineare Algebra (Gerd Fischer, 1975)
 * [Invertebrates Created by Throwing Out Food Scraps (Brian Tomasik, 2017)](https://reducing-suffering.org/invertebrates-landfills/)
