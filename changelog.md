@@ -1,12 +1,36 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-12-01, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2021-12-24, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
+
+December 2021
+--------------
+
+* [Solutions to “Reactive Systems](./rs_solutions.html):
+	* [Chapter 2](./rs_solutions.html_Chapter-2)
+		* [2.7](./rs_solutions.html#27)
+		* [2.12](./rs_solutions.html#212)
+	* [Chapter 3](./rs_solutions.html#Chapter-3)
+		* [Stray Exercise 2](./rs_solutions.html#Stray-Exercise-2)
+	* [Chapter 4](./rs_solutions.html#Chapter-4)
+		* [4.1](./rs_solutions.html#41)
+		* [4.2](./rs_solutions.html#42)
+		* [4.3](./rs_solutions.html#43)
+		* [4.9](./rs_solutions.html#49)
+		* [Stray Exercise 4](./rs_solutions.html#Stray-Exercise-4)
+* [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html):
+	* [Existing Texts](./bcis_and_alignment.html#Existing-Texts)
+	* [Scaling far Beyond Human Intelligence](./bcis_and_alignment.html#Scaling-far-Beyond-Human-Intelligence)
+	* [Removing Merged Humans is a Convergent Instrumental Strategy for AI Systems](./bcis_and_alignment.html#Removing-Merged-Humans-is-a-Convergent-Instrumental-Strategy-for-AI-Systems)
+	* [How Important is Wisdom?](./bcis_and_alignment.html#How-Important-Is-Wisdom)
+	* [Superintelligent Human Brains Seem Dangerous (Although Less So)](./bcis_and_alignment.html#Superintelligent-Human-Brains-Seem-Dangerous-Although-Less-So)
+* [Text Reviews](./text_reviews.html)
+	* [Persuasion Tools: AI takeover without AGI or agency? (Daniel Kokotajlo, 2020)](./text_reviews.html#Persuasion-Tools-AI-takeover-without-AGI-or-agency-Daniel-Kokotajlo-2020)
 
 November 2021
 --------------
