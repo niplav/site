@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-11-25, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-11-27, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,11 +11,11 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
-* [The Wolf of Wall Street]()
-* [Robots]()
-* [Welt am Draht II]()
-* [Welt am Draht I]()
-* [Koyaanisqatsi]()
+* [The Wolf of Wall Street](https://www.imdb.com/title/tt0993846/)
+* [Robots](https://www.imdb.com/title/tt0358082/)
+* [Welt am Draht II](https://www.imdb.com/title/tt0070904/)
+* [Welt am Draht I](https://www.imdb.com/title/tt0070904/)
+* [Koyaanisqatsi](https://www.imdb.com/title/tt0085809/)
 * [Dune](https://www.imdb.com/title/tt1160419/)
 * [Doing Time, Doing Vipassana](https://www.imdb.com/title/tt0367665/)
 * [Der Schatz im Silbersee](https://m.imdb.com/title/tt0056452/)
