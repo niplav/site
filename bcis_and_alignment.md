@@ -245,18 +245,18 @@ However, this paragraph is not wholly clear on how this merging with AI
 systems is supposed to work.
 
 It could be interpreted as describing [input of
-cognition](./#Input-of-Cognition) from humans
+cognition](#Input-of-Cognition) from humans
 into AI systems and vice versa, or simply non-AI [augmentation of human
 cognition](#Improving-Human-Cognition).
 
 Assuming the interaction with an unaligned
 AI system, these would enable [easier neural
-takeover](./#Direct-Neural-Takeover-Made-Easy)
+takeover](#Direct-Neural-Takeover-Made-Easy)
 or at least induce the removal of humans
 from the [centaur](https://en.wikipedia.org/wik/Advanced_chess) [due to convergent instrumental
-strategies](./#Removing-Merged-Humans-is-a-Convergent-Instrumental-Strategy-for-AI-Systems)—well
+strategies](#Removing-Merged-Humans-is-a-Convergent-Instrumental-Strategy-for-AI-Systems)—well
 known failure modes in cases where [merging is just faster
-interaction](/#Merging-is-Just-Faster-Interaction)
+interaction](#Merging-is-Just-Faster-Interaction)
 between humans and AI systems.
 
 The comparison with the limbic system is leaky, because the limbic system
