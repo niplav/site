@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2021-11-01, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2021-12-27, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks (broadly defined as "a book with
 exercises"), and create some stuff while reading them (e.g. making
@@ -91,9 +91,11 @@ because I wrote flashcards for it.
 	* Done: 1.5
 * [Flashcards](./flash/pattern_recognition_and_machine_learning.apkg)
 	* p. 1-55
+	* p. 309-315
 	* p. 692-699
 * Read:
 	* p. 1-55
+	* p. 309-315
 	* p. 692-699
 
 “Parameterized Algorithms”

@@ -247,7 +247,7 @@ systems is supposed to work.
 It could be interpreted as describing [input of
 cognition](./#Input-of-Cognition) from humans
 into AI systems and vice versa, or simply non-AI [augmentation of human
-cognition](./#Improving-Human-Cognition).
+cognition](#Improving-Human-Cognition).
 
 Assuming the interaction with an unaligned
 AI system, these would enable [easier neural
