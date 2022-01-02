@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-12-24, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-12-31, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,19 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Ten Signs a Claimed Mathematical Breakthrough is Wrong (Scott Aaronson, 2008)](https://scottaaronson.blog/?p=304)
+* [The Quieted Scare Convention (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/10/the-quieted-scare-convention/)
+* [Bounded but Not Totally Bounded, Redux (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/10/bounded-but-not-totally-bounded-redux/)
+* [Telling Her There (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/10/telling-her-there/)
+* [Friendship Deficits (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/10/friendship-deficits/)
+* [Blood From a Stone (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/10/blood-from-a-stone/)
+* [Speculative Etymology I (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/10/speculative-etymology-i/)
+* [Dice (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/10/dice/)
+* [Computing the Arithmetic Derivative (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/10/computing-the-arithmetic-derivative/)
+* ["It's Not That" (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/10/its-not-that/)
+* [The So-Called "Euclidean Plane" (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/10/the-so-called-euclidean-plane/)
+* Friendship is Optimal (Iceman, 2012)
+* [Satori (English Wikipedia, 2021)](https://en.wikipedia.org/wik/Satori)
 * [Radioactive Waste Management (World Nuclear Association, 2021)](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-wastes/radioactive-waste-management.aspx)
 * [Centaur (chess) (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Centaur_(chess))
 * \* Der logische Atomismus (Bertrand Russell, 1924)
@@ -29,19 +42,19 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * \* The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation (Allan Dafoe/Ben Garfinkel/Bobby Filar/Carrick Flynn/Clare Lyle/Dario Amodei/Gregory C. Allen/Haydn Belfield/Heather Roff/Helen Toner/Hyrum Anderson/Jack Clark/Jacob Steinhardt/Joanna Bryson/Michael Page/Miles Brundage/Owain Evans/Paul Scharre/Peter Eckersley/Rebecca Crootof/Roman Yampolskiy/Seán ÓhÉigeartaigh/Sebastian Farquhar/Shahar Avin/Simon Beard/Thomas Zeitzoff, 2018)
 * [[FF][RST] The Erogamer: A Darker Timeline (sfw) (Eliezer Yudkowsky, 2020)](https://old.reddit.com/r/rational/comments/imqrjv/ffrst_the_erogamer_a_darker_timeline_sfw/)
 * AGI Safety Literature Review (Gary Lea/Marcus Hutter/Tom Everitt, 2018)
-* [The Threshold (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/the-threshold/index.html)
-* [Periphery Demographic (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/periphery-demographic/index.html)
-* [The Parity Decomposition Trick (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/the-parity-decomposition-trick/index.html)
-* [Supermarket Notes II (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/supermarket-notes-ii/index.html)
-* [Supermarket Notes I (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/supermarket-notes-i/index.html)
-* [Summing the Multinomial Coefficients (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/summing-the-multinomial-coefficients/index.html)
-* [Recursion Is Boring (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/recursion-is-boring/index.html)
-* [On the Usefulness of Boats (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/on-the-usefulness-of-boats/index.html)
-* [It's Not Whether You Win or Lose (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/its-not-whether-you-win-or-lose/index.html)
-* [Forgetting to Take an Average (Zack\_M\_Davis, 2012)](https:///zackmdavis.net/blog/2012/09/forgetting-to-take-an-average/index.html)
-* [Character Entity Reference (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/character-entity-reference/index.html)
-* [Cached Reply Upon Being Told That I'm an Idiot (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/cached-reply-upon-being-told-that-im-an-idiot/index.html)
-* [Cached Remark for When My Prediction of Abject Failure Comes True (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/cached-remark-for-when-my-prediction-of-abject-failure-comes-true/index.html)
+* [The Threshold (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/the-threshold/)
+* [Periphery Demographic (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/periphery-demographic/)
+* [The Parity Decomposition Trick (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/the-parity-decomposition-trick/)
+* [Supermarket Notes II (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/supermarket-notes-ii/)
+* [Supermarket Notes I (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/supermarket-notes-i/)
+* [Summing the Multinomial Coefficients (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/summing-the-multinomial-coefficients/)
+* [Recursion Is Boring (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/recursion-is-boring/)
+* [On the Usefulness of Boats (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/on-the-usefulness-of-boats/)
+* [It's Not Whether You Win or Lose (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/its-not-whether-you-win-or-lose/)
+* [Forgetting to Take an Average (Zack\_M\_Davis, 2012)](https:///zackmdavis.net/blog/2012/09/forgetting-to-take-an-average/)
+* [Character Entity Reference (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/character-entity-reference/)
+* [Cached Reply Upon Being Told That I'm an Idiot (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/cached-reply-upon-being-told-that-im-an-idiot/)
+* [Cached Remark for When My Prediction of Abject Failure Comes True (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/cached-remark-for-when-my-prediction-of-abject-failure-comes-true/)
 * [Rigpa (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Rigpa)
 * Dune (Frank Herbert, 1965)
 * [Summary of the Acausal Attack Issue for AIXI (Diffractor, 2021)](https://www.lesswrong.com/posts/YbahERfcjTu7LZNQ6/summary-of-the-acausal-attack-issue-for-aixi)

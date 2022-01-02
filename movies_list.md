@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-11-27, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-11-30, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,6 +11,8 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Cobra Verde](https://www.imdb.com/title/tt0094888/)
+* [Valerian and the City of a Thousand Planets](https://www.imdb.com/title/tt2239822/)
 * [The Wolf of Wall Street](https://www.imdb.com/title/tt0993846/)
 * [Robots](https://www.imdb.com/title/tt0358082/)
 * [Welt am Draht II](https://www.imdb.com/title/tt0070904/)
