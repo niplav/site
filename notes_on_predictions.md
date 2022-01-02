@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-05-23, modified: 2021-05-30, language: english, status: notes, importance: 3, confidence: unlikely*
+*author: niplav, created: 2021-05-23, modified: 2021-12-29, language: english, status: notes, importance: 3, confidence: unlikely*
 
 > __.__
 
@@ -239,3 +239,18 @@ The timespan between new albums being released seems to be increasing:
 	[1 1 1 2 2 2 2 3]
 
 This indicates that the album will come out in 2022 rather than 2021.
+
+How many months till at least three, billion dollar clean meat valuations after the first such company is first valued at ≥ $1bn?
+----------------------------------------------------------------------------------------------------------------------------------
+
+[Link](https://www.metaculus.com/questions/3062/how-many-months-till-at-least-three-billion-dollar-clean-meat-valuations-after-the-first-such-company-is-first-valued-at--1bn/).
+
+Maybe do: find a good reference class for this.
+
+Ideas:
+
+* Plant-based food (e.g. meat/milk) companies
+* Ridesharing
+* Genome sequencing
+
+Probably better if biology startup.

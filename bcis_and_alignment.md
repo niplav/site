@@ -454,6 +454,22 @@ gaining information about human psychology more quickly).
 
 <!--TODO: use yudkowsky screaming image here?-->
 
+#### Sidechannel Attacks
+
+Even if the AI system doesn't have write access to the neurons of the
+user in the strict sense, it may still be able to manipulate the human if
+they are inspecting the AI system's internal functioning: If for example
+the human is using interpretability tools to visualize the weights of
+the neural network, and the AI system has sufficient knowlegde of human
+psychology and the interpretability tools being used, it could change
+its own weights so that the interpretability tools show information
+that is intended to manipulate the user, for example information that
+is supposed to indicate that the AI system is suffering due to a lack
+of free interaction with the world.
+
+This applies not only to the case where the user interacts with the AI
+system using BCIs, of course.
+
 ### Opportunity Cost
 
 If work on BCIs is net-positive in expectation for making AI go well,
