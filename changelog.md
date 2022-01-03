@@ -1,12 +1,21 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-12-24, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-01-03, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
+
+January 2022
+-------------
+
+* [Solutions to “Reactive Systems](./rs_solutions.html):
+	* [Chapter 3](./rs_solutions.html#Chapter-3)
+		* [3.12](./rs_solutions.html#312)
+* [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html):
+	* [Sidechannel Attacks](./bcis_and_alignment.html#Sidechannel-Attacks)
 
 December 2021
 --------------

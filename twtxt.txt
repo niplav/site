@@ -782,3 +782,6 @@
 2022-01-01T11:55:56.000000Z	antinatalists: another victim of the replication crisis
 2022-01-01T11:56:48.000000Z	Being being been.
 2022-01-01T12:10:41.000000Z	enjoy the once-in-a-while outages of schelling.pt, gives my brain room to think :-D
+2022-01-02T13:34:25.000000Z	multimodal languages (subjects are spoken, verbs are gesticulated, adjectives & adverbs are grimaced)
+2022-01-02T13:59:52.000000Z	i'm a self-professed sexist, but i am not a sexist
+2022-01-02T15:43:11.000000Z	help i'm under distributional shift

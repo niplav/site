@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-10-14, modified: 2021-11-25, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-10-14, modified: 2022-01-03, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __This page contains some solutions to exercises from the textbook
 “Reactive Systems” by Ingólfsdóttir et al. 2007.__
@@ -273,7 +273,42 @@ strongly bisimilar via `$β$`, then they are also string bisimilar via
 
 ### 3.12
 
-To be shown: `$\{(P|Q, Q|P) |\text{where }P,Q \text{ are CCS processes}\}$` is a bisimulation.
+To be shown: `$\{(P|Q, Q|P) |\text{where }P,Q \text{ are CCS processes}\}$`
+is a strong bisimulation.
+
+I am slightly confused: doesn't strong bisimilarity apply to *states*,
+and aren't `$P|Q$` and `$Q|P$` processes?
+
+If there is no `$α$` so that either `$P$` or `$Q$` can transition to
+another state, `$P|Q$` and `$Q|P$` are strongly bisimilar.
+
+If `$P|Q \overset{α}{\rightarrow} P'|Q$`, then `$Q|P \overset{α}{\rightarrow} Q|P'$`
+by first applying COM1 and then COM2, and so `$P'|Q$` and `$Q|P'$`
+are strongly bisimilar.
+
+Another idea: we can prove this by backward induction, e.g. assuming that
+there is a final state `$P_f|Q_f$`, which can't transition further, and
+then proving that every `$α$` transition that lands there is a strong
+bisimulation, and induced back as well?
+
+The same holds if `$Q$` can transition via `$α$`.
+
+If `$(P|Q)\backslash \{α\} \overset{τ}{\rightarrow} P'|Q'$`, then
+similarly `$(Q|P)\backslash \{α\} \overset{τ}{\rightarrow} Q|P$`
+per COM3, so they're strongly bisimilar.
+
+To be shown: `$\{(P|\mathbf{0}, P) |\text{where }P \text{ is a CCS process}\}$`
+is a strong bisimulation.
+
+Isn't this trivial? If `$P \overset{α}{\rightarrow} P'$`, then surely
+also `$P|\mathbf{0} \overset{α}{\rightarrow} P'|\mathbf{0}$`, and if
+`$P|\mathbf{0} \overset{α}{\rightarrow} P'|\mathbf{0}$`, then
+`$P \overset{α}{\rightarrow} P'$`. `$τ$`-transitions are not possible here.
+
+<!--
+To be shown: `$\{((P|Q)|R,P|(Q|R)) |\text{where }P,Q,R \text{ are CCS processes}\}$`
+is a strong bisimulation.
+TODO-->
 
 ### 3.37
 
@@ -348,7 +383,7 @@ iff there exists a `$w \in A^*$` so that `$sw=t$`).
 * Antisymmetric: Yes, if `$sw=t$` and `$tw=s$`, then `$sw=tw$`, so `$s=t$` and `$w=ε$`.
 * Transitive: Yes, if `$r$` is a prefix for `$s$` with `$v$` and `$s$` is a prefix for `$t$` with `$w$`, then `$r$` is a prefix for `$t$` with `$vw$`.
 
-<!--TODO: finish with other examples?-->
+<!--TODO: finish with other examples-->
 
 ### 4.2
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2021-12-27, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2022-01-03, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks (broadly defined as "a book with
 exercises"), and create some stuff while reading them (e.g. making
@@ -38,10 +38,11 @@ because I wrote flashcards for it.
 * [Flashcards](./flash/reactive_systems.apkg)
 * [Solutions to Exercises](./rs_solutions.md)
 	* Chapter 1
-	* Chapter 2: 2.1-2.6
-	* Chapter 3: 3.1, 3.3
+	* Chapter 2: 2.1-2.7, 2.12
+	* Chapter 3: 3.1-3.3, 3.9, 3.37
+	* Chapter 4: 4.1-4.3, 4.9
 * Read:
-	* p. 1-44
+	* p. 1-105
 
 “Multivariable Calculus”
 ------------------------
@@ -91,11 +92,13 @@ because I wrote flashcards for it.
 	* Done: 1.5
 * [Flashcards](./flash/pattern_recognition_and_machine_learning.apkg)
 	* p. 1-55
-	* p. 309-315
+	* p. 309-317
+	* p. 322-323
 	* p. 692-699
 * Read:
 	* p. 1-55
-	* p. 309-315
+	* p. 309-317
+	* p. 322-325
 	* p. 692-699
 
 “Parameterized Algorithms”
