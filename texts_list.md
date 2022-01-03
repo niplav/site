@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-12-31, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-01-02, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* \* Dune Messiah (Frank Herbert, 1969)
+* Die Götter Griechenlands (Friedrich Schiller, 1804)
+* Der Kampf (Friedrich Schiller, 1804)
+* Shakespears Schatten (Friedrich Schiller, 1804)
 * [Ten Signs a Claimed Mathematical Breakthrough is Wrong (Scott Aaronson, 2008)](https://scottaaronson.blog/?p=304)
 * [The Quieted Scare Convention (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/10/the-quieted-scare-convention/)
 * [Bounded but Not Totally Bounded, Redux (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/10/bounded-but-not-totally-bounded-redux/)
