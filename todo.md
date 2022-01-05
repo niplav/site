@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2021-12-20, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-01-03, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -1353,10 +1353,11 @@ Wikipedia Articles
 * List of Animals by Number of Eyes
 * Weisfeiler-Lehman algorithm
 * Brandes' algorithm
-* IC/IC* algorithm
+* IC/IC\* algorithm
 * do operator
 * Back-door/Front-door criterion
 * Place premium
+* Pigou bound
 
 ### Improve
 
@@ -1373,6 +1374,7 @@ Wikipedia Articles
 * A question about the average temperature in 2050 in central Europe (Gulf Stream reversal)
 * A question about SGSS (?) data for virginity/no sex in last year for 2025-2030
 * A question about antibiotic resistant strains
+* Some questions about the performance of BCIs
 
 ### LW Posts
 

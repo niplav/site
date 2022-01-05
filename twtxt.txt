@@ -785,3 +785,5 @@
 2022-01-02T13:34:25.000000Z	multimodal languages (subjects are spoken, verbs are gesticulated, adjectives & adverbs are grimaced)
 2022-01-02T13:59:52.000000Z	i'm a self-professed sexist, but i am not a sexist
 2022-01-02T15:43:11.000000Z	help i'm under distributional shift
+2022-01-05T15:58:02.000000Z	from now on, i will use  whenever abbreviating the Fast Fourier Transform
+2022-01-05T16:04:26.000000Z	i also want to remember 𖤶

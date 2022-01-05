@@ -27,7 +27,6 @@ If I find time inbetween that, I'm expanding on the following texts:
 
 * [Generalizing the Diamond-Square Algorithm to n Dimensions](./generalizing_diamond_square.html)
 * [Leave the Internet](./leave_the_internet.html)
-* [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html)
 * [Notes on Ethics](./notes_on_ethics.html)
 * [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
 
@@ -58,3 +57,4 @@ Currently, I am actively reading the following books:
 * Naïve Set Theory (Paul R. Halmos, 1960)
 * Reactive Systems (Anna Ingólfsdóttir/Jiří Srba/Kim G. Larsen/Luca Aceto, 2007)
 * The New Strategic Selling (Stephen E. Heiman/Diane Sanchez/Tad Tuleja, 1995)
+* Dune Messiah (Frank Herbert, 1969)

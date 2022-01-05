@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-10-14, modified: 2022-01-03, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-10-14, modified: 2022-01-05, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __This page contains some solutions to exercises from the textbook
 “Reactive Systems” by Ingólfsdóttir et al. 2007.__
@@ -305,10 +305,69 @@ also `$P|\mathbf{0} \overset{α}{\rightarrow} P'|\mathbf{0}$`, and if
 `$P|\mathbf{0} \overset{α}{\rightarrow} P'|\mathbf{0}$`, then
 `$P \overset{α}{\rightarrow} P'$`. `$τ$`-transitions are not possible here.
 
-<!--
 To be shown: `$\{((P|Q)|R,P|(Q|R)) |\text{where }P,Q,R \text{ are CCS processes}\}$`
 is a strong bisimulation.
-TODO-->
+
+Assume that `$(P|Q)|R$` makes an `$α$` transition. Then:
+
+* If `$(P|Q)$` made the transition, then:
+	* If `$P$` made the transition, then on the right side `$P$` can also make the transition
+	* If `$Q$` made the transition, then on the right side `$(Q|R)$` can make the transition (e.g. to `$(Q'|R)$`)
+* If `$R$` made the transition, then on the right side `$(Q|R)$` can make the transition (e.g. to `$(Q|R')$`)
+
+Otherwise asume that `$(P|Q)|R \overset{τ}{\rightarrow} (P|Q')|R'$`. Then
+there must be a `$β$` so that `$Q \overset{β}{\rightarrow} Q'$`
+and `$R \overset{\overline{β}}{\rightarrow} R'$` (or `$R$` outputs
+`$β$` and `$Q$` inputs `$β$`, but that's symmetric). Then similarly
+`$P|(Q|R) \overset{τ}{\rightarrow} P|(Q'|R')$` by the same internal
+`$β$` transitions.
+
+All other cases are symmetric, and I won't enumerate them here.
+
+Since these relations are all bisimulations, it is clear that for any
+`$P,Q,R$`, the mentioned combined processes are bisimilar.
+
+> Find three CCS processes `$P,Q,R$` such that `$(P+Q)|R \not \sim (P|R)+(Q|R)$`.
+
+I haven't been able to solve this completely yet. Let's take something
+like `$P \overset{\text{def}}{=}a.a.a.a.a$`, `$Q \overset{\text{def}}{=}a.a.a.a.b$`
+and `$R \overset{\text{def}}{=}a.a.a.a.(a+b)$`. Then it *could* be the
+case that in a bisimulation game, the attacker has chosen the `$P$`
+path on the left hand side, while the defender has chosen the `$Q$`
+path on the right hand side. But this is not guaranteed.
+
+### 3.30
+
+> Show that observational equivalence is the largest symmetric relation
+`$\mathcal{R}$` satisfying that whenever `$s_1 \mathcal{R} s_2$` then, for
+each action `$α$` (including `$τ$`), if `$s_1 \overset{α}{\Rightarrow}
+s_1'$` then there is a transition `$s_2 \overset{α}{\Rightarrow} s_2'$`
+such that `$s_1' \mathcal{R} s_2'$`.
+
+Assume there is a relation `$\mathcal{R}_{\star}$` which satisfies the
+conditions given for `$\mathcal{R}$` above. Then there must be two states
+`$s_{\star}, t_{\star}$` so that if
+`$s_{\star} \overset{α}{\Rightarrow} s_{\star}'$`, then there must be
+a transition `$t_{\star} \overset{α}{\Rightarrow} t_{\star}'$` so that
+`$s_{\star}' \mathcal{R}_{\star} t_{\star}'$`. Since
+`$\mathcal{R}_{\star}$` is supposed to be symmetric, the same must hold
+for `$t_{\star}$`: `$t_{\star} \overset{α}{\Rightarrow} t_{\star}'$`
+implies that there is a transition `$s_{\star} \overset{α}{\Rightarrow} s_{\star}'$`
+so that `$t_{\star}' \mathcal{R}_{\star} s_{\star}'$`.
+
+We now have to determine whether, if we know that `$s_{\star} \mathcal{R}_{\star} t_{\star}$`,
+we also know that `$s_{\star} \approx t_{\star}$`. Then there are four different
+cases:
+
+* If `$s_{\star} \overset{α}{\Rightarrow} s_{\star}'$` is realized by `$s_{\star} \overset{α}{\rightarrow} s_{\star}'$` in the LTS, then this is equivalent to the definition of observational equivalence.
+* If `$s_{\star} \overset{α}{\Rightarrow} s_{\star}'$` is realized by `$s_{\star} \overset{α}{\rightarrow} s_{\star}'' \overset{τ}{\rightarrow} s_{\star}'$` in the LTS, then there must be a `$t_{\star}''$` so that `$s_{\star}'' \mathcal{R}_{\star} t_{\star}''$` (per definition in the exercise), so we can take that relation as belonging to `$\approx$`.
+* If `$s_{\star} \overset{α}{\Rightarrow} s_{\star}'$` is realized by `$s_{\star} \overset{τ}{\rightarrow} s_{\star}'' \overset{α}{\rightarrow} s_{\star}'$` in the LTS, then there must be a `$t_{\star}''$` so that `$s_{\star}'' \mathcal{R}_{\star} t_{\star}''$`, only this time via a `$τ$` transition (i.e. `$t_{\star} \overset{τ}{\rightarrow} t_{\star}''$`). So we can take that relation as belonging to `$\approx$`. (This doesn't work! What if `$t_{\star} \overset{α}{\Rightarrow} t_{\star}'$` is realized by `$t_{\star} \overset{α}{\rightarrow} t_{\star}'' \overset{τ}{\rightarrow} t_{\star}'$`? Then we can't just take the first part of the transition and declare it to be a `$τ$` transition. Hmmm.)
+* If `$s_{\star} \overset{α}{\Rightarrow} s_{\star}'$` is realized by `$s_{\star} \overset{α}{\rightarrow} s_{\star}'' \overset{τ}{\rightarrow} s_{\star}'$`, then we can again just chop off the last transition and declare the rest to be the `$α$` transition, so that now `$s_{\star} \approx t_{\star}$` and `$s_{\star}'' \approx t_{\star}'$`.
+
+Since every `$\rightarrow$` transition is also a weak transition,
+there can be no observational equivalence that isn't also in
+`$\mathcal{R}_{\star}$`. So `$\mathcal{R}_{\star}$` is the biggest
+observational equivalence `$\approx$`.
 
 ### 3.37
 

@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2021-10-18, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2022-01-05, language: english, status: in progress, importance: 6, confidence: log*
 
 > __If you take away just one thing from this website,
 it should be that I think [you would want to sign up for
@@ -10,11 +10,12 @@ Content
 =======
 
 This is the website of niplav. It contains essays on different topics,
-including (but not limited to) programming, unusual social behavior and
-philosophy, as well as translations and transcriptions of different texts,
-recordings of music and programming projects. More information about
-the website and its author can be found on the [about](./about.md) page,
-for recent additions and changes, see the [changelog](./changelog.md).
+including (but not limited to) programming, unusual social behavior
+and philosophy, as well as translations and transcriptions of different
+texts, chronological archives of blogs and programming projects. More
+information about the website and its author can be found on the
+[about](./about.md) page, for recent additions and changes, see the
+[changelog](./changelog.md).
 
 [Content warning](./content_warning.md).
 
@@ -23,16 +24,30 @@ Writing
 
 ### Nonfiction
 
-#### Mathematics
+#### Cost-Benefit Analyses
 
-* [Equally Many Heads and Tails](./equally_many_heads_and_tails.md)
-* [Circle Combinations](./circle_combinations.md)
+* [Considerations on Cryonics](./considerations_on_cryonics.md)
+* [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.md)
+
+#### AI Alignment and Strategy
+
+* [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.md)
+* [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.md)
+
+#### Forecasting
+
+* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.md)
 
 #### Programming & Computer Science
 
 * [Pipe Rings](./pipe_rings.md)
 * [K-99: Ninety-Nine Klong Problems](./99_klong_problems.md)
 * [99 Problems Klong Solution](./99_problems_klong_solution.md)
+
+#### Mathematics
+
+* [Equally Many Heads and Tails](./equally_many_heads_and_tails.md)
+* [Circle Combinations](./circle_combinations.md)
 
 #### Philosophy
 
@@ -43,20 +58,17 @@ Writing
 
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
 
-#### AI Alignment and Strategy
-
-* [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.md)
-* [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.md)
-
-#### Cost-Benefit Analyses
-
-* [Considerations on Cryonics](./considerations_on_cryonics.md)
-* [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.md)
-
 #### Collections
 
 * [Rationalist Gods](./rationalist_gods.md)
 * [99 Problems](./99_problems_collection.md)
+
+### Other
+
+* [Against Applause After Classical Concerts](./against_applause.md)
+* [Two People on a Planet](./two_people_on_a_planet.md)
+* [Life Advice](./life_advice.md)
+* [Reports](./reports.md)
 
 #### Textbooks
 
@@ -75,21 +87,13 @@ Writing
 * [Notes on Predictions](./notes_on_predictions.md)
 * [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.md)
 
-#### Other
-
-* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.md)
-* [Against Applause After Classical Concerts](./against_applause.md)
-* [Two People on a Planet](./two_people_on_a_planet.md)
-* [Life Advice](./life_advice.md)
-* [Reports](./reports.md)
-
 ### Fiction
 
 * [Buch Stab](./buch_stab.md)
 * [Platte](./platte.md)
 * [Life Improvements in 2030](./life_improvements_2030.html)
 
-### Poetry
+#### Poetry
 
 * [Senryūs](./senryu.md)
 
