@@ -12,6 +12,11 @@
 99 Problems Klong Solutions
 ===========================
 
+> Weil ein Vers dir gelingt in einer gebildeten Sprache,  
+> Die für dich dichtet und denkt, glaubst du schon Dichter zu sein?
+
+*– [Friedrich Schiller](https://en.wikipedia.org/wiki/Friedrich_Schiller), “Votivtafeln” (Die Kunstschätzer), 1804*
+
 Acknowledgements
 ----------------
 

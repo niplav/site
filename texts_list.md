@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-01-02, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-01-05, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,18 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Abschied vom Leser (Friedrich Schiller, 1804)
+* Würde der Frauen (Fridrich Schiller, 1804)
+* Die Hochzeit der Thetis (Friedrich Schiller, 1804)
+* Über den Gegenstand der Physik (Bertrand Russell, 1944)
+* \* Die Großstädte und das Geistesleben (Georg Simmel, 1903)
+* Nänie (Friedrich Schiller, 1804)
+* Votivtafeln (Friedrich Schiller, 1804)
+* Hektors Abschied (Friedrich Schiller, 1804)
+* An Emma (Friedrich Schiller, 1804)
+* Die Worte des Wahns (Friedrich Schiller, 1804)
+* Resignation (Friedrich Schiller, 1804)
+* Pompeji und Herkulanum (Friedrich Schiller, 1804)
 * \* Dune Messiah (Frank Herbert, 1969)
 * Die Götter Griechenlands (Friedrich Schiller, 1804)
 * Der Kampf (Friedrich Schiller, 1804)
@@ -36,14 +48,14 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Satori (English Wikipedia, 2021)](https://en.wikipedia.org/wik/Satori)
 * [Radioactive Waste Management (World Nuclear Association, 2021)](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-wastes/radioactive-waste-management.aspx)
 * [Centaur (chess) (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Centaur_(chess))
-* \* Der logische Atomismus (Bertrand Russell, 1924)
+* Der logische Atomismus (Bertrand Russell, 1924)
 * An Göthe (Friedrich Schiller, 1804)
 * [Lion-Eating Poet in the Stone Den (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Lion-Eating_Poet_in_the_Stone_Den)
 * [Shattered set (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Shattered_set)
 * [Quantum knots (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Quantum_knots)
 * Das Ideal und das Leben (Friedrich Schiller, 1804)
 * [Gestell (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Gestell)
-* \* The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation (Allan Dafoe/Ben Garfinkel/Bobby Filar/Carrick Flynn/Clare Lyle/Dario Amodei/Gregory C. Allen/Haydn Belfield/Heather Roff/Helen Toner/Hyrum Anderson/Jack Clark/Jacob Steinhardt/Joanna Bryson/Michael Page/Miles Brundage/Owain Evans/Paul Scharre/Peter Eckersley/Rebecca Crootof/Roman Yampolskiy/Seán ÓhÉigeartaigh/Sebastian Farquhar/Shahar Avin/Simon Beard/Thomas Zeitzoff, 2018)
+* The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation (Allan Dafoe/Ben Garfinkel/Bobby Filar/Carrick Flynn/Clare Lyle/Dario Amodei/Gregory C. Allen/Haydn Belfield/Heather Roff/Helen Toner/Hyrum Anderson/Jack Clark/Jacob Steinhardt/Joanna Bryson/Michael Page/Miles Brundage/Owain Evans/Paul Scharre/Peter Eckersley/Rebecca Crootof/Roman Yampolskiy/Seán ÓhÉigeartaigh/Sebastian Farquhar/Shahar Avin/Simon Beard/Thomas Zeitzoff, 2018)
 * [[FF][RST] The Erogamer: A Darker Timeline (sfw) (Eliezer Yudkowsky, 2020)](https://old.reddit.com/r/rational/comments/imqrjv/ffrst_the_erogamer_a_darker_timeline_sfw/)
 * AGI Safety Literature Review (Gary Lea/Marcus Hutter/Tom Everitt, 2018)
 * [The Threshold (Zack\_M\_Davis, 2012)](https://zackmdavis.net/blog/2012/09/the-threshold/)

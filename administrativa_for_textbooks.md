@@ -39,7 +39,7 @@ because I wrote flashcards for it.
 * [Solutions to Exercises](./rs_solutions.md)
 	* Chapter 1
 	* Chapter 2: 2.1-2.7, 2.12
-	* Chapter 3: 3.1-3.3, 3.9, 3.37
+	* Chapter 3: 3.1-3.3, 3.9, 3.12, 3.30, 3.37
 	* Chapter 4: 4.1-4.3, 4.9
 * Read:
 	* p. 1-105
