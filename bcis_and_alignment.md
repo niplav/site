@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-08-17, modified: 2021-12-23, language: english, status: in progress, importance: 6, confidence: possible*
+*author: niplav, created: 2021-08-17, modified: 2022-01-07, language: english, status: in progress, importance: 6, confidence: possible*
 
 > __I discuss arguments for and against the usefulness of brain-computer
 interfaces in relation to AI alignment, and conclude that the path to
@@ -264,6 +264,13 @@ is not best modeled as a more intelligent optimizer than the cortex with
 different goals.
 
 Aligning an already aligned AI system using BCIs is, of course, trivial.
+
+The usefulness that BCIs could have for aligning AI systems by increasing
+the amount of information for value learning systems is examined in the
+excellent [Robbo
+2021](https://www.lesswrong.com/posts/iWv6Pu2fWPKqevzFE/using-brain-computer-interfaces-to-get-more-data-for-ai "Using Brain-Computer Interfaces to get more data for AI alignment").
+It also presents a categorization into three ways in which BCI technology
+could be help for aligning AI: Enhancement, Merge, and Alignment Aid.
 
 Arguments For the Utility of Brain-Computer Interfaces in AI Alignment
 -----------------------------------------------------------------------
