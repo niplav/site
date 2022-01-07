@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-01-05, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-01-07, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,11 +17,19 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [International Nuclear Waste Disposal Concepts (World Nuclear Association, 2020)](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-wastes/international-nuclear-waste-disposal-concepts.aspx)
+* Hero und Leander (Friedrich Schiller, 1805)
+* Der Antritt des neuen Jahrhunderts (Friedrich Schiller, 1805)
+* Vorerinnering (Friedrich Schiller, 1805)
+* \* [Vapnik-Chervonenkis dimension (English Wikipedia, 2021)](https://en.wikipedia.org/wik/Vapnik-Chervonenkis_dimension)
+* [Lambert (unit) (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Lambert_\(unit\))
+* [Candela per square metre (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Candela_per_square_metre)
+* [nat (unit) (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/nat_\(unit\))
 * Abschied vom Leser (Friedrich Schiller, 1804)
 * Würde der Frauen (Fridrich Schiller, 1804)
 * Die Hochzeit der Thetis (Friedrich Schiller, 1804)
 * Über den Gegenstand der Physik (Bertrand Russell, 1944)
-* \* Die Großstädte und das Geistesleben (Georg Simmel, 1903)
+* Die Großstädte und das Geistesleben (Georg Simmel, 1903)
 * Nänie (Friedrich Schiller, 1804)
 * Votivtafeln (Friedrich Schiller, 1804)
 * Hektors Abschied (Friedrich Schiller, 1804)

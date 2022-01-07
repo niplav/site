@@ -244,6 +244,10 @@ Texts
 	* Wittmann & Schmidt 2013
 * Interventions to Slow Down the Age-Related Speedup of Subjective Time
 	* That theoryengine post
+	* Slowing the Speedup of Subjective Time With Age
+		* Meditation
+		* New experiences
+		* Drugs?
 
 ### Arguments
 
@@ -401,8 +405,8 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Pre-register
 * Precommit to Enlightenment
 	*	precommit to performing the steps from TMI & MCTB2 for
-		5000 hours over 10 years (~1h30m every day on average),
-		then report back what the effects were
+		10000 hours over 10 years (~2h every day on average, plus
+		2 retreats a year), then report back what the effects were
 	* frame as experiment (is that actually legit?)
 * Proposed Solutions to Pascal's Mugging
 	* Bite the Bullet
@@ -466,10 +470,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Roomba Cost-Benefit Analysis
 * A History of the Term “Rationalist”
 * Weather Affects Daygame Success/Divorce Rates?
-* Slowing the Speedup of Subjective Time With Age
-	* Meditation
-	* New experiences
-	* Drugs?
 * Wireheading
 	* [Electrical Brain Stimulation](https://en.wikipedia.org/wiki/Electrical_brain_stimulation)
 	* [Wireheading](https://en.wikipedia.org/wiki/Wirehead_\(science_fiction\))
@@ -845,9 +845,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Daygame
 * Cryonics Zine
 * The Grand Picture
-* Epigrams
-	* Zero overlap with Gwerns, ideally
-* Microfiction (invented words, short dialogues, short poems)
 * Fundamentals
 
 > we should be far more explicit about the assumed background against
@@ -1366,6 +1363,8 @@ Wikipedia Articles
 	* Add description of MUMs
 * Judea Pearl
 * Vazirani brothers articles make consistent (date of birth, note, …)
+* Patri Friedman site states he considers himself a rationalist, but that links to the page on philosophical rationalism, while I suspect this refers to the LW variety
+* In List of Berserk characters, "Casca joins the Hawks after Griffith empowers her to save herself from a sexual assault by a nobleman who bought her from her parents, Casca having since harbors feelings towards Griffith which most of their comrades are aware of", "harbors" should be "harbored"
 
 ### Metaculus Questions
 
