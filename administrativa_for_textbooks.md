@@ -25,7 +25,7 @@ mental model of how it works.
 * [Solutions to Exercises](./rs_solutions.md)
 	* Chapter 1
 	* Chapter 2: 2.1-2.7, 2.12
-	* Chapter 3: 3.1-3.3, 3.9, 3.12, 3.30, 3.37
+	* Chapter 3: 3.1-3.3, 3.9, 3.12, 3.30, 3.37, 3.41
 	* Chapter 4: 4.1-4.3, 4.9
 * Read:
 	* p. 1-105
@@ -34,7 +34,7 @@ mental model of how it works.
 ------------------
 
 * [Solutions to Exercises](./nst_solutions.md)
-	* Done: Sections 3-12
+	* Sections 3-12
 * [Flashcards](./flash/naïve_set_theory.apkg)
 	* Sections 1-12
 * Read:
@@ -55,15 +55,6 @@ mental model of how it works.
 	* p. 309-317
 	* p. 322-325
 	* p. 692-699
-
-“Multivariable Calculus”
-------------------------
-
-* [Solutions to Exercises](./mc_solutions.md)
-* [Flashcards](./flash/multivariable_calculus.apkg)
-* Read:
-	* p. 1-14
-	* p. 37-40
 
 “Programming in Lua”
 ---------------------
@@ -113,38 +104,38 @@ because I wrote flashcards for it.
 “Parameterized Algorithms”
 --------------------------
 
-* [Solutions to Exercises](./pa_solutions.md)
+* Solutions to Exercises: None yet.
 * [Flashcards](./flash/parameterized_algorithms.apkg)
 	* p. 1-41
 * Read:
 	* p. 1-41
 
+“Multivariable Calculus”
+------------------------
+
+* Solutions to Exercises: None yet.
+* [Flashcards](./flash/multivariable_calculus.apkg)
+	* p. 1-14
+	* p. 37-40
+* Read:
+	* p. 1-14
+	* p. 37-40
+
 “Artificial Intelligence: A Modern Approach”
 ---------------------------------------------
 
 * [Solutions to Exercises](./aima_solutions.md)
-	* Chapter 1:
-		* Done: 1.1, 1.3-1.5
-	* Chapter 2:
-		* Done: 2.1, 2.3-2.4
-	* Chapter 3:
-		* Done: 3.1-3.2
-	* Chapter 6:
-		* Done: 6.1, 6.5
-	* Chapter 7:
-		* Done: 7.10, 7.14
-	* Chapter 9:
-		* Done: 9.9
-	* Chapter 13:
-		* Done: 13.1-13.3, 13.5-13.6
-	* Chapter 14:
-		* Done: 14.1
-	* Chapter 15:
-		* Done: 15.13, 15.14
-	* Chapter 16:
-		* Done: 16.1, 16.3, 16.15, 16.17
-	* Chapter 17:
-		* Done: 17.3
+	* Chapter 1: 1.1, 1.3-1.5
+	* Chapter 2: 2.1, 2.3-2.4
+	* Chapter 3: 3.1-3.2
+	* Chapter 6: 6.1, 6.5
+	* Chapter 7: 7.10, 7.14
+	* Chapter 9: 9.9
+	* Chapter 13: 13.1-13.3, 13.5-13.6
+	* Chapter 14: 14.1
+	* Chapter 15: 15.13, 15.14
+	* Chapter 16: 16.1, 16.3, 16.15, 16.17
+	* Chapter 17: 17.3
 * [Flashcards](./flash/artificial_intelligence_a_modern_approach.apkg):
 	* p. 1-122
 	* p. 222-243 (missing: complexity of AC-3, special methods for global constraints)

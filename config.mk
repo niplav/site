@@ -20,7 +20,6 @@ HTML=index.html \
 	aima_solutions.html \
 	apisct_solutions.html \
 	nst_solutions.html \
-	pa_solutions.html \
 	pil_solutions.html \
 	praml_solutions.html \
 	rs_solutions.html \
