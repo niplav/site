@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2021-11-01, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2022-12-08, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -9,7 +9,7 @@
 > introduction to set theory. Here, I present solutions to the explicitely
 > stated exercises and problems in that book.__
 
-Solutions to “Naïve Set Theory“
+Solutions to “Naïve Set Theory”
 ================================
 
 Section 3
@@ -962,11 +962,74 @@ mean that `$k_i \not \in k_j$` and `$k_j \not \in k_i$`). So such a
 Section 13
 -----------
 
-<!--
 ### Stray Exercise 1
 
 > The discovery and establishment of the properties of powers, as well
 as the detailed proofs of the statements about products, can safely be
 left as exercises to the readers.
 
--->
+To be shown: `$k \cdot (m+n)=k \cdot m+k \cdot n$`.
+
+Induction over `$n$`.
+
+Induction base: `$k \cdot (m+0)=k \cdot m=k \cdot m+k \cdot 0$`.
+
+Induction assumption: `$k \cdot (m+n)=k \cdot m+k \cdot n$`.
+
+Induction step: `$k \cdot (m+n^+)=k \cdot (m+n)^+=k \cdot (m+n)+k=(k \cdot m+k\cdot n)+k=k \cdot m+(k \cdot n + k)=k \cdot m + k \cdot n^+$`
+
+---
+
+To be shown: `$m \cdot n=n \cdot m$`.
+
+First, `$1 \cdot n=n$` because `$1 \cdot 0=0$`, and if `$1 \cdot n=n$`,
+then `$1 \cdot n^+=(1 \cdot n)+1=n+1=n^+$`.
+
+Second, `$m^+ \cdot n=(m \cdot n)+m$` for `$n \ge 1$`, because
+`$m^+ \cdot n=(m+1) \cdot n=(m \cdot n)+m$` (as per distributivity).
+
+Induction over `$m$`.
+
+Induction base: If `$m=0$`, then `$m \cdot n=0 \cdot n=0=n \cdot 0=n \cdot m$`.
+
+Induction assumption: `$m \cdot n=n \cdot m$`.
+
+Induction step: `$m^+ \cdot n=(m \cdot n)+n=(n \cdot m)+n=n \cdot m^+$`
+(as per definition of the product).
+
+---
+
+To be shown: `$(k \cdot m) \cdot n=k \cdot (m \cdot n)$`.
+
+Induction over `$n$`.
+
+Induction base: If `$n=0$`, then `$(k \cdot m) \cdot 0=0=k \cdot (m \cdot 0)$`
+(since `$p_{k \cdot m}(0)=0$`).
+
+Induction assumption: `$(k \cdot m) \cdot n=k \cdot (m \cdot n)$`
+
+Induction step: `$k \cdot (m \cdot n^+)=k \cdot ((m \cdot n)+m)=k \cdot (m \cdot n)+k \cdot m=(k \cdot m) \cdot n+k \cdot m=(k \cdot m) \cdot n^+$` (using distributivity).
+
+---
+
+As for the properties of the power, I don't really want to spend much
+time and energy proving them. Let it suffice to say that the powers are
+neither associative (counterexample: `$2^{(3^2)}=512 \not =64=(2^3)^2$`)
+nor commutative (counterexample: `$2^3=8\not =9=3^2$`) nor distributive
+over either addition (counterexample: `$2^{3+4}=128 \not =24=2^3+2^4$`)
+or multiplication (counterexample: `$2^{3 \cdot 4}=4068 \not=128=2^3 \cdot 2^4$`).
+
+They have two interesting properties: `$a^{b\cdot c}=(a^b)^c$`, and
+`$a^{b+c}=a^b \cdot a^c$`. <!--TODO: prove these someday-->
+
+For commutative hyperoperators, see [Ghalimi 2019](https://observablehq.com/@ishi/arithmetic "Hyperlogarithmic Arithmetic").
+
+### Exercise 1
+
+To be shown: if `$m<n$`, then `$m+k < n+k$`
+
+---
+
+To be shown: if `$m<n$` and `$k \not =0$`, then `$m \cdot k<n \cdot k$`.
+
+<!--TODO: these-->

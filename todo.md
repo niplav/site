@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-01-03, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-01-08, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -16,10 +16,8 @@ Site
 * Find out how to make the site more inclusive
 * (a) link for archives?
 * Get rid of "we", use "I" instead.
-* Confidence intervals for some values
 * Improve citation (both to wikipedia and to papers)
 * Make all scripted programs banged
-* Link tooltips at the beginning of lines break the links
 * Description of images in italics below
 * Move from Python2 to Python3
 * Add two targets for make: `offline` and `online`
@@ -35,11 +33,9 @@ Site
 		* Mainly done
 		* Expand the section on the Guesstimate model
 		* Incorporate new Alcor membership costs & updated Metaculus probabilities
-* AIMA flashcards:
+* Flashcards:
 	* Add tags for chapters/sort by chapters
 	* Prune flagged cards?
-* Administrativa for Textbooks:
-	* Add Programming in Lua stuff
 * Add Content-tables to pages?
 
 Texts

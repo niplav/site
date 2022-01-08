@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2022-01-03, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2022-01-08, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks (broadly defined as "a book with
 exercises"), and create some stuff while reading them (e.g. making
@@ -18,6 +18,62 @@ For flashcards, if I include the screenshot of an algorithm, the goal
 is not to learn the algorithm by heart in all detail, but have a good
 mental model of how it works.
 
+“Reactive Systems”
+-------------------
+
+* [Flashcards](./flash/reactive_systems.apkg)
+* [Solutions to Exercises](./rs_solutions.md)
+	* Chapter 1
+	* Chapter 2: 2.1-2.7, 2.12
+	* Chapter 3: 3.1-3.3, 3.9, 3.12, 3.30, 3.37
+	* Chapter 4: 4.1-4.3, 4.9
+* Read:
+	* p. 1-105
+
+”Naïve Set Theory”
+------------------
+
+* [Solutions to Exercises](./nst_solutions.md)
+	* Done: Sections 3-12
+* [Flashcards](./flash/naïve_set_theory.apkg)
+	* Sections 1-12
+* Read:
+	* p. 1-52
+
+“Pattern Recognition and Machine Learning”
+------------------------------------------
+
+* [Solutions to Exercises](./praml_solutions.md)
+	* Done: 1.5
+* [Flashcards](./flash/pattern_recognition_and_machine_learning.apkg)
+	* p. 1-55
+	* p. 309-317
+	* p. 322-323
+	* p. 692-699
+* Read:
+	* p. 1-55
+	* p. 309-317
+	* p. 322-325
+	* p. 692-699
+
+“Multivariable Calculus”
+------------------------
+
+* [Solutions to Exercises](./mc_solutions.md)
+* [Flashcards](./flash/multivariable_calculus.apkg)
+* Read:
+	* p. 1-14
+	* p. 37-40
+
+“Programming in Lua”
+---------------------
+
+* [Solutions to Exercises](./pil_solutions.md)
+	* Done: all in sections 1-12 except 12.5
+* No flashcards for this one
+* Read:
+	* p. 1-152
+
 “Causality”
 -----------
 
@@ -31,37 +87,6 @@ because I wrote flashcards for it.
 * Read:
 	* p. 1-125
 	* p. 155-223
-
-“Reactive Systems”
--------------------
-
-* [Flashcards](./flash/reactive_systems.apkg)
-* [Solutions to Exercises](./rs_solutions.md)
-	* Chapter 1
-	* Chapter 2: 2.1-2.7, 2.12
-	* Chapter 3: 3.1-3.3, 3.9, 3.12, 3.30, 3.37
-	* Chapter 4: 4.1-4.3, 4.9
-* Read:
-	* p. 1-105
-
-“Multivariable Calculus”
-------------------------
-
-* [Solutions to Exercises](./mc_solutions.md)
-* [Flashcards](./flash/multivariable_calculus.apkg)
-* Read:
-	* p. 1-14
-	* p. 37-40
-
-”Naïve Set Theory”
-------------------
-
-* [Solutions to Exercises](./nst_solutions.md)
-	* Done: Sections 3-10
-* [Flashcards](./flash/naïve_set_theory.apkg)
-	* Sections 1-10
-* Read:
-	* p. 1-49
 
 “The Jazz Piano Book”
 ---------------------
@@ -84,22 +109,6 @@ because I wrote flashcards for it.
 * Read:
 	* p. 1-40
 	* p. 52-58
-
-“Pattern Recognition and Machine Learning”
-------------------------------------------
-
-* [Solutions to Exercises](./praml_solutions.md)
-	* Done: 1.5
-* [Flashcards](./flash/pattern_recognition_and_machine_learning.apkg)
-	* p. 1-55
-	* p. 309-317
-	* p. 322-323
-	* p. 692-699
-* Read:
-	* p. 1-55
-	* p. 309-317
-	* p. 322-325
-	* p. 692-699
 
 “Parameterized Algorithms”
 --------------------------

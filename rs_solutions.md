@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-10-14, modified: 2022-01-05, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-10-14, modified: 2022-01-08, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __This page contains some solutions to exercises from the textbook
 “Reactive Systems” by Ingólfsdóttir et al. 2007.__
@@ -410,10 +410,17 @@ Strong bisimulation relating the pair of processes:
 		* `$s_2 \overset{a}{\rightarrow} s$`
 		* defender can't transition using `$a$` from `$v_3$`
 
-<!--
 ### 3.41
-TODO
--->
+
+Assume that there is some `$α$` that the attacker would be able to play
+`$s \overset{α}{\Rightarrow} s_3$`, but not `$s \overset{α}{\rightarrow}
+s'$`. Then the `$\overset{α}{\Rightarrow}$` would decompose into
+`$s \overset{τ}{\rightarrow}^+ s_1 \overset{α}{\rightarrow} s_2 \overset{τ}{\rightarrow}^* s_3$`.
+So the only additional possible action the attacker could additionally
+play would be `$τ$`. But in this case, the defender can answer by doing
+nothing, i.e. idling on the same state (see p. 89). So the additional
+`$τ$` transition doesn't give the attacker any useful moves, and both
+versions of the game are equivalent.
 
 ### Stray Exercise 2
 
