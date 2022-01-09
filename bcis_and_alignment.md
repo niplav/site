@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-08-17, modified: 2022-01-07, language: english, status: in progress, importance: 6, confidence: possible*
+*author: niplav, created: 2021-08-17, modified: 2022-01-09, language: english, status: in progress, importance: 6, confidence: possible*
 
 > __I discuss arguments for and against the usefulness of brain-computer
 interfaces in relation to AI alignment, and conclude that the path to
@@ -271,6 +271,12 @@ excellent [Robbo
 2021](https://www.lesswrong.com/posts/iWv6Pu2fWPKqevzFE/using-brain-computer-interfaces-to-get-more-data-for-ai "Using Brain-Computer Interfaces to get more data for AI alignment").
 It also presents a categorization into three ways in which BCI technology
 could be help for aligning AI: Enhancement, Merge, and Alignment Aid.
+
+A critical analysis of BCIs is made in [Jack
+2020](https://forum.effectivealtruism.org/posts/qfDeCGxBTFhJANAWm/a-new-x-risk-factor-brain-computer-interfaces-1 "A New X-Risk Factor: Brain-Computer Interfaces"),
+which examines BCIs as a possible factor for existential risks, especially
+in relation to stable global totalitarianism. It doesn't touch upon AI
+alignment, but is still a noteworthy addition to the scholarship on BCIs.
 
 Arguments For the Utility of Brain-Computer Interfaces in AI Alignment
 -----------------------------------------------------------------------
@@ -643,3 +649,10 @@ that is focused on BCIs worries me, given that a whole company has been
 founded based on that vision. An explanation of a path to success would be
 helpful in furthering the discussion and perhaps moving work to promising
 approaches to AI alignment (be it towards or away from focusing on BCIs).
+
+<!--
+Acknowledgements
+-----------------
+
+TODO
+-->

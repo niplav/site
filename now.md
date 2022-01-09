@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2021-11-18, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2022-01-09, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -15,7 +15,7 @@ structured my life in a way that enables me to work on my personal
 projects full-time (including, but not limited to, this website).
 
 Because of this, work on this website is limited to a small part of my
-free time. I apologize for the inconveniences.
+free time. I apologize for any inconveniences.
 
 Writing
 -------
@@ -58,3 +58,6 @@ Currently, I am actively reading the following books:
 * Reactive Systems (Anna Ingólfsdóttir/Jiří Srba/Kim G. Larsen/Luca Aceto, 2007)
 * The New Strategic Selling (Stephen E. Heiman/Diane Sanchez/Tad Tuleja, 1995)
 * Dune Messiah (Frank Herbert, 1969)
+* Philosophische und politische Aufsätze (Bertrand Russell, 1971)
+* Über die Pflicht zum Ungehorsam gegen den Staat (Henry David Thoreau, 1973)
+* Samtliche Gedichte und Balladen (Friedrich Schiller, 1805)

@@ -267,6 +267,9 @@ being-finished-ness):
 * "finished"
 * "abandoned"
 
+Truth be told, nothing on here is ever finished, even when it is
+christened with the "finished" tag.
+
 #### Importance
 
 The importance tags are also taken from [Gwern

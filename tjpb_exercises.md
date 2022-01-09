@@ -1,11 +1,11 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-07-23, modified: 2021-01-24, language: english, status: draft, importance: 5, confidence: log*
+*author: niplav, created: 2020-07-23, modified: 2022-01-09, language: english, status: draft, importance: 5, confidence: log*
 
 > __[The Jazz Piano
 Book](https://en.wikipedia.org/wiki/The_Jazz_Piano_Book) by [Mark
-Levine](https://en.wikipedia.org/wiki/Mark_Levine_(musician)) is a jazz
+Levine](https://en.wikipedia.org/wiki/Mark_Levine_\(musician\)) is a jazz
 piano textbook (who knew!). Because it's very useful to regularly practice
 voicings, scales etc, this page collects the exercises from that book.__
 

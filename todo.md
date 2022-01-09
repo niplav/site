@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-01-08, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-01-09, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -1360,7 +1360,7 @@ Wikipedia Articles
 * Judea Pearl
 * Vazirani brothers articles make consistent (date of birth, note, …)
 * Patri Friedman site states he considers himself a rationalist, but that links to the page on philosophical rationalism, while I suspect this refers to the LW variety
-* In List of Berserk characters, "Casca joins the Hawks after Griffith empowers her to save herself from a sexual assault by a nobleman who bought her from her parents, Casca having since harbors feelings towards Griffith which most of their comrades are aware of", "harbors" should be "harbored"
+* Add The Pile to the List of datasets for machine-learning research
 
 ### Metaculus Questions
 

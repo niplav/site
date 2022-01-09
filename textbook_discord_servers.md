@@ -1,8 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2021-10-13, language: multiple, status: in progress,
-importance: 2, confidence: log*
+*author: niplav, created: 2021-10-13, modified: 2021-10-13, language: multiple, status: notes, importance: 2, confidence: log*
 
 > __.__
 

@@ -1028,8 +1028,14 @@ For commutative hyperoperators, see [Ghalimi 2019](https://observablehq.com/@ish
 
 To be shown: if `$m<n$`, then `$m+k < n+k$`
 
+Induction over `$k$`
+
+Induction base: If `$k=0$`, then `$m+k=m<n=n+k$`
+
+Induction assumption: `$m+k<n+k$`
+
+Induction step: <!--TODO-->
+
 ---
 
 To be shown: if `$m<n$` and `$k \not =0$`, then `$m \cdot k<n \cdot k$`.
-
-<!--TODO: these-->

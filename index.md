@@ -72,7 +72,6 @@ Writing
 
 #### Textbooks
 
-* [Administrativa for Textbooks](./administrativa_for_textbooks.md)
 * [Solutions to “Naïve Set Theory”](./nst_solutions.md)
 * [Solutions to “Artificial Intelligence: A Modern Approach”](./aima_solutions.md)
 * [Solutions to “Reactive Systems”](./rs_solutions.md)
@@ -80,6 +79,7 @@ Writing
 * [Solutions to “A Primer in Social Choice Theory”](./apisct_solutions.md)
 * [Solutions to “Pattern Recognition and Machine Learning”](./praml_solutions.md)
 * [Exercises from “The Jazz Piano Book”](./tjpb_exercises.md)
+* [Administrativa for Textbooks](./administrativa_for_textbooks.md)
 
 #### Notes
 
