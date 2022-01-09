@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-08-30, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-08-30, language: english, status: finished, importance: 1, confidence: log*
 
 > __Podcasts I am following.__
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -----------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-06-01, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2019-04-02, modified: 2020-06-01, language: english, status: finished, importance: 3, confidence: likely*
 
 > __Two people are abducted and placed on the opposite poles of a
 > habitable planet. They want to find each other, but they have no
@@ -345,10 +345,10 @@ Further Questions
 * Under given conditions, are there other deterministic algorithms for meeting on a sphere?
 * In which ways can the conditions be made more/less strict, and which kinds of methods would they allow?
 
+<!--
 External Links
 --------------
 
-<!--
 TODO: read.
 
 * /usr/local/doc/unread/rendezvous/deterministic_rendez_vous_ta_shma_zwick_2007.pdf

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-01-08, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-01-09, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,12 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* \* Die Künstler (Friedrich Schiller, 1805)
+* An die Freunde (Friedrich Schiller, 1805)
+* Die vier Weltalter (Friedrich Schiller, 1805)
+* Thekla (Friedrich Schiller, 1805)
+* [Complex programmable logic device (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Complex_programmable_logic_device)
+* \* Über die Pflicht zum Ungehorsam gegen den Staat (Henry David Thoreau, 1849)
 * Die deutsche Muse (Friedrich Schiller, 1805)
 * Die Antiken zu Paris (Friedrich Schiller, 1805)
 * Sehnsucht (Friedrich Schiller, 1805)

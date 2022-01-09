@@ -511,3 +511,12 @@ Then there are `$(p', q') \in \mathcal{R}$` so that `$p, q$` can transition
 to `$p', q'$` via some `$α$`, and `$(p', q') \not \in \mathcal{S}$`. But
 that can't be the case, since we assumed that `$\mathcal{R} \subseteq \mathcal{S}$`.
 This is a contradiction.
+
+Chapter 5
+----------
+
+### 5.1
+
+`$\langle \cdot b \cdot \rangle \{s_1, t_1\}=\{t_1\}$`
+
+`$[ \cdot b \cdot ] \{s_1, t_1\}=\{s,t,t_1\}$`
