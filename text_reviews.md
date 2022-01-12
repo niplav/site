@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-12-30, modified: 2021-12-19, language: english, status: in progress, importance: 3, confidence: opinion*
+*author: niplav, created: 2020-12-30, modified: 2022-01-12, language: english, status: in progress, importance: 3, confidence: opinion*
 
 > __Reading a text is sometimes a big time investment, but people
 don't approach their reading in a structured manner, e.g. by keeping
@@ -408,10 +408,76 @@ to verify that the commenter was human (and the commenter failing that
 challenge), along with observing the increasingly negative effects of
 internet usage on my attention span, I decided to separate my place for
 sleeping & eating from the place where I use internet, with a ~10 minute
-commute between those two.  I also decided to pay less attention to news
+commute between those two. I also decided to pay less attention to news
 stories/reddit/twitter, especially from sources affiliated with large
 governments, downloaded my favourite websites.
 
 This post was relevant to my thoughts about alternative AI risk scenarios
 as well as drastic personal decisions, and I expect to give it a 1 or
 (more likely) a 4 in the final vote.
+
+Anti-Aging: State of the Art (JackH, 2020)
+-------------------------------------------
+
+*Written for the [2020 LessWrong Review](https://www.lesswrong.com/posts/M9kDqF2fn3WH44nrv/the-2020-review-preliminary-voting)*
+
+[Original post](https://www.lesswrong.com/posts/RcifQCKkRc9XTjxC2/anti-aging-state-of-the-art)
+
+
+I read this post at the same time as reading [Ascani
+2019](https://forum.effectivealtruism.org/s/8QHbqGpXnzcQxiAis)
+and [Ricón 2021](https://nintil.com/longevity) in an
+attempt to get clear about anti-aging research. Comparing
+these three texts against each other, I would classify [Ascani
+2019](https://forum.effectivealtruism.org/s/8QHbqGpXnzcQxiAis) as
+trying to figure out whether focusing on anti-aging research is a
+good idea, [Ricón 2021](https://nintil.com/longevity) trying to give
+a gearsy overview of the field (objective unlocked: get Nintil posts
+cross-posted to LessWrong), and this text as showing what has already
+been accomplished.
+
+In that regard it succeeds perfectly well: The structure of Part V is
+so clean I suspect that it sweeps a bunch of complexity and alternative
+approaches under the rug, and the results described seriously impressed
+me and some of the people I was reading this text with at the time (We
+can *reverse arthritis and cataracts in mice*‽ We can *double their
+maximum lifespan*‽). It is excellent science propaganda: Inspiring
+awe at what has been accomplished, desire to accomplish more, and
+hope that this is possible.
+
+While the post shines in parts III, IV and V, I have some
+quibbles and complaints about the introduction, part I
+and part II. First, I disliked the jab against cryonics
+in the first paragraph [without considering the costs and
+benefits](https://niplav.github.io/considerations_on_cryonics.html),
+which rightly received some pushback in the comments (the strongest
+counter-observation being that barring [some practical suggestions
+for slowing down aging right now](https://www.gwern.net/Longevity),
+cryonics and anti-aging research occupy very different parts of the
+strategy for life-extension, and can be pursued in parallel). Part II
+disappointed me because it was pro-longevity advocacy under the veneer
+of a factual question: Has anybody actually tried to think through how a
+world without aging might *actually look like*, instead of re-treading the
+same pro-aging trance and anti-aging science arguments? That seems like
+a question that is both interesting and pretty relevant, even when you
+believe that ending aging is important enough that it should definitely
+be done, if just to prepare for weird second- and third-order effects.
+
+(Part I felt like I was a choir being preached to, which isn't *that bad*,
+but still…)
+
+I really liked learning a bunch of new facts about aging (as for example
+the list of species that don't age, that aging is responsible for 30%
+of lost DALYs, and distinction between gerontology, engineering and
+geriatrics). Factposts are underrated.
+
+The comments on this post were often very good, and had some nice
+discussion about whether the advice in section VII was to be focused on.
+
+I've been overly negative in this review, but overall I still like this
+post, and have voted a 4 on it (which I might change to a 1). The parts
+III-V are excellent, and I have only minor problems with the preceding
+parts. This is the kind of post I would give a science-interested
+skeptic of anti-aging research. I'd like to have this post in the review,
+because it represents something some part of the core to the LessWrong
+transhumanist aesthetic that often gets overlooked.
