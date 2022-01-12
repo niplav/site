@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-01-09, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-01-13, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -586,6 +586,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * `$k$` grass-cutting robots on `$n$`-dimensional manifolds
 * Improving Coordination Over Time is a Longtermist Crux
 * Should the EA Community Buy Large AI Labs?
+* The UTMs-simulate-each-other solution to the Python-with-Witch problem
 
 ### Collections
 

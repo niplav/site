@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2021-10-11, language: english, status: in progress, importance: 4, confidence: other*
+*author: niplav, created: 2019-01-14, modified: 2022-01-13, language: english, status: in progress, importance: 4, confidence: other*
 
 > __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems
@@ -13,9 +13,7 @@
 > [Lisp](https://www.ic.unicamp.br/%7Emeidanis/courses/mc336/2006s2/funcional/L-99_Ninety-Nine_Lisp_Problems.html
 > "99 Problems for Lisp") version.__
 
-<!--Import images from here:
-https://sites.google.com/site/prologsite/prolog-problems, but ask
-author-->
+<!--TODO: ask author about images-->
 
 K-99: Ninety-Nine Klong Problems
 ================================
@@ -396,7 +394,7 @@ multiplicities) of a given number m. Then phi(m) can be calculated with
 the following formula:
 
 <div>
-	$$phi(m)=(p_{1}-1)*p_{1}^{m_{1}-1}*(p_{2}-1)*p_{2}^{m_{2}-1}*...=\prod_{i=1}^{n} (p_{i}-1)*p_i^{m_{i}-1}$$
+	$$phi(m)=(p_{1}-1)\cdot p_{1}^{m_{1}-1}\cdot (p_{2}-1)\cdot p_{2}^{m_{2}-1}\cdot ...=\prod_{i=1}^{n} (p_{i}-1) p_i^{m_{i}-1}$$
 </div>
 
 Note that the [Lisp
@@ -566,6 +564,8 @@ The task shall be performed by the function `huffman` defined as follows:
 
 Binary Trees
 ------------
+
+![A binary tree](./img/k99/p67.gif "A binary tree with a root labeled 'a', left child 'b', left child of 'b' is 'd', right child of 'b' is 'e', right child of 'a' is 'c', right child of 'c' is 'f', left child of 'f' is 'g'.")
 
 A binary tree is either empty or it is composed of a root element and two
 successors, which are binary trees themselves. In Klong we represent
@@ -792,7 +792,9 @@ and a right subtree (or `[]`).
 As a preparation for drawing the tree, a layout algorithm is required
 to determine the position of each node in a rectangular grid. Several
 layout methods are conceivable, one of them is shown in the illustration
-below<!--TODO: get or imitate illustration!-->.
+below.
+
+![An image of a graph on a grid](./img/k99/p64.gif "An image of a graph on a rectangular numbered grid. Root 'n' at (8,1), left child of 'n' is 'k' at (6,2), left child of 'k' is 'c' at (2,3), left child of 'c' is 'a' at (1,4), right child of 'c' is 'h' at (5,4), left child of 'h' is 'g' at (4,5), left child of 'g' is 'e' at (3,6). Right child of 'n' is 'u' at (12,2), left child of 'u' is 'p' at (9,3), right child of 'p' is 's' at (11,4), left child of 's' is 'q' at (10,5).")
 
 In this layout strategy, the position of a node `$v$` is obtained by
 the following two rules:
