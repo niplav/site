@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-01-13, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-01-14, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,8 +17,17 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
-* \* Leben ohne Prinzipien (Henry David Thoreau, 1863)
-* \* Die Künstler (Friedrich Schiller, 1805)
+* [Indiscernibles (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Indiscernibles)
+* Die letzten Tage des John Brown (Henry David Thoreau, 1860)
+* \* Strategic Implications of Openness in AI development (Nick Bostrom, 2017)
+* Laura am Klavier (Friedrich Schiller, 1805)
+* Phantasie an Laura (Friedrich Schiller, 1805)
+* Amalia (Friedrich Schiller, 1805)
+* Das Mädchen aus Orleans (Friedrich Schiller, 1805)
+* Die Macht des Gesanges (Friedrich Schiller, 1805)
+* Kassandra (Friedrich Schiller, 1805)
+* Leben ohne Prinzipien (Henry David Thoreau, 1863)
+* Die Künstler (Friedrich Schiller, 1805)
 * An die Freunde (Friedrich Schiller, 1805)
 * Die vier Weltalter (Friedrich Schiller, 1805)
 * Thekla (Friedrich Schiller, 1805)
@@ -28,7 +37,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * Die Antiken zu Paris (Friedrich Schiller, 1805)
 * Sehnsucht (Friedrich Schiller, 1805)
 * Die Gunst des Augenblicks (Friedrich Schiller, 1805)
-* \* Der Pragmatismus (Bertrand Russell, 1909)
+* Der Pragmatismus (Bertrand Russell, 1909)
 * [International Nuclear Waste Disposal Concepts (World Nuclear Association, 2020)](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-wastes/international-nuclear-waste-disposal-concepts.aspx)
 * Hero und Leander (Friedrich Schiller, 1805)
 * Der Antritt des neuen Jahrhunderts (Friedrich Schiller, 1805)
