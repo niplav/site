@@ -801,3 +801,7 @@
 2022-01-12T21:48:10.000000Z	the repugnant conclusion turns around: “It's too full here, let's go home.”
 2022-01-12T22:57:06.000000Z	my nervous system is as smooth as a baby
 2022-01-12T22:59:27.000000Z	kuracisto estas racisto kiu kuras
+2022-01-13T12:35:48.000000Z	i think that every language should have a unary - and + operator, and that those should be idempotent. sign flipping should be done by multiplication with -1.
+2022-01-13T12:35:55.000000Z	this holds for mathematics as well
+2022-01-13T19:42:19.000000Z	gah, can't snarf evince
+2022-01-13T19:42:34.000000Z	non-linked & linked back footnotes in pdfs are annoying

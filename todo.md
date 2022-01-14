@@ -37,6 +37,7 @@ Site
 	* Add tags for chapters/sort by chapters
 	* Prune flagged cards?
 * Add Content-tables to pages?
+* Add RSS feed (ugh)
 
 Texts
 -----
