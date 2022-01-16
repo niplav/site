@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-08-17, modified: 2022-01-09, language: english, status: in progress, importance: 6, confidence: possible*
+*author: niplav, created: 2021-08-17, modified: 2022-01-14, language: english, status: in progress, importance: 6, confidence: possible*
 
 > __I discuss arguments for and against the usefulness of brain-computer
 interfaces in relation to AI alignment, and conclude that the path to
@@ -174,9 +174,9 @@ done a cursory internet search for a resource laying out the case for the
 utility of BCIs in AI alignment, but haven't been able to find anything
 that satisfies my standards (I have also asked on the [LessWrong open
 thread](https://www.lesswrong.com/posts/QqnQJYYW6zhT62F6Z/?commentId=dMpstgZ3gQnGBbRhh)
-and the AI alignment channel on the AI alignment channel on the Eleuther
-AI discord server, and not received any answers that provide such a
-resource (although I was told some useful arguments about the topic)).
+and on the AI alignment channel on the Eleuther AI discord server, and
+not received any answers that provide such a resource (although I was
+told some useful arguments about the topic)).
 
 I have tried to make the best case for and against BCIs, stating some tree
 of arguments that I think many AI alignment researchers tacitly believe,

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2021-12-12, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-01-14, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __.__
 
@@ -62,11 +62,9 @@ Alternatives:
 
 *       "Mapmaking": Using "The map is not the territory.", related to
         practicality. Downside: also already taken.
-*       [Metacognitive Movement](https://www.lesswrong.com/posts/4E4zbHSmyuhkqgJmm/let-s-rename-ourse
-lves-the-metacognitive-movement)
+*       [Metacognitive Movement](https://www.lesswrong.com/posts/4E4zbHSmyuhkqgJmm/let-s-rename-ourselves-the-metacognitive-movement)
 
-[Further discussion here](https://www.lesswrong.com/posts/dq8rwmWXXQ4D4T6YD/should-we-stop-using-the-
-term-rationalist).
+[Further discussion here](https://www.lesswrong.com/posts/dq8rwmWXXQ4D4T6YD/should-we-stop-using-the-term-rationalist).
 
 ### "Anarcho-Capitalism"
 
@@ -229,7 +227,7 @@ keine vs. null
 
 superstition, no substition or stition?
 
-Only fishmongers and fearmongers?
+Only fishmongers, scaremongers and fearmongers?
 
 myopia, no youropia, heropia etc.
 

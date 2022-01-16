@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-10-14, modified: 2022-01-08, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-10-14, modified: 2022-01-15, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __This page contains some solutions to exercises from the textbook
 “Reactive Systems” by Ingólfsdóttir et al. 2007.__
@@ -65,7 +65,7 @@ doesn't include `$q_0$`, and in some places end with `$.T$`, if `$q_0
 ![A cyclic diagram for exercise 2.4, described further below.](./img/rs_solutions/diagram_2_4.png "A cyclic diagram for exercise 2.4, described further below.")
 
 > Define the LTS as a triple
-`$(\text{Proc}, \text{Act}, \{\overset{α}{\rightarrow}|α \in \text{Act}\})$`.
+`$(\textbf{Proc}, \text{Act}, \{\overset{α}{\rightarrow}|α \in \text{Act}\})$`.
 Use sketches to illustrate the reflexive closure, symmetric closure and
 transitive closure of the binary relation `$\overset{α}{\rightarrow}$`?
 
@@ -494,18 +494,18 @@ Start with `$d=\{0,1,2\}$`. Then `$f^0(d)=\{1,2\}$`, and
 
 ### Stray Exercise 4
 
-> We note that if `$\mathcal{R}, \mathcal{S} \in 2^{(\text{Proc} \times \text{Proc})}$`
+> We note that if `$\mathcal{R}, \mathcal{S} \in 2^{(\textbf{Proc} \times \textbf{Proc})}$`
 and `$\mathcal{R} \subseteq \mathcal{S}$` then
 `$\mathcal{F}(\mathcal{R}) \subseteq \mathcal{F}(\mathcal{S})$`,
 that is, the function `$\mathcal{F}$` is monotonic over
-`$(2^{(\text{Proc} \times \text{Proc})}, \subseteq)$`.
+`$(2^{(\textbf{Proc} \times \textbf{Proc})}, \subseteq)$`.
 
 Assume that `$\mathcal{R} \subseteq \mathcal{S}$`, but
 `$\mathcal{F}(\mathcal{R}) \not \subseteq \mathcal{F}(\mathcal{S})$`
 (that is, `$\mathcal{F}(\mathcal{S}) \subset \mathcal{F}(\mathcal{R})$`).
 
 Then there must be a `$(p,q) \in \mathcal{F}(\mathcal{R})$`
-(`$p, q \in \text{Proc}$`) that is not in `$\mathcal{F}(\mathcal{S})$`.
+(`$p, q \in \textbf{Proc}$`) that is not in `$\mathcal{F}(\mathcal{S})$`.
 
 Then there are `$(p', q') \in \mathcal{R}$` so that `$p, q$` can transition
 to `$p', q'$` via some `$α$`, and `$(p', q') \not \in \mathcal{S}$`. But
@@ -520,3 +520,61 @@ Chapter 5
 `$\langle \cdot b \cdot \rangle \{s_1, t_1\}=\{t_1\}$`
 
 `$[ \cdot b \cdot ] \{s_1, t_1\}=\{s,t,t_1\}$`
+
+### 5.2
+
+#### 1
+
+<div>
+	$$ ⟦ [\text{coffee}] \langle \text{biscuit} \rangle \textit{t}\!\textit{t}⟧=\\
+	[\cdot \text{coffee} \cdot ] ⟦ \langle \text{biscuit} \rangle \textit{t}\!\textit{t} ⟧=\\
+	[\cdot \text{coffee} \cdot ] \langle \cdot \text{biscuit} \cdot \rangle ⟦\textit{t}\!\textit{t} ⟧=\\
+	[\cdot \text{coffee} \cdot ](\langle \cdot \text{biscuit} \cdot \rangle \textbf{Proc})= \\
+	[\cdot \text{coffee} \cdot ] \{p \in \textbf{Proc} | p \overset{\text{biscuit}}{\rightarrow} p' \text{ and } p' \in \textbf{Proc} \text{ for some } p'\}= \\
+	[\cdot \text{coffee} \cdot ] \{p \in \textbf{Proc} | p \overset{\text{biscuit}}{\rightarrow}\} \\
+	\{p \in \textbf{Proc} | p \overset{\text{coffee}}{\rightarrow} p' \Rightarrow p' \overset{\text{biscuit}}{\rightarrow}\} $$
+</div>
+
+An element would exactly not be in that set if the computer scientist
+were to not eat a biscuit after drinking coffee.
+
+#### 2
+
+* `$(\langle \text{coffee} \rangle \textit{t}\!\textit{t}) \lor (\langle \text{tea} \rangle \textit{t}\!\textit{t})$`
+* `$(\langle \text{coffee} \rangle \textit{t}\!\textit{t}) \land ([ \text{tea} ] \textit{f}\!\textit{f})$`
+* `$[\text{coffee}] [\text{coffee}] \langle \text{tea} \rangle \textit{t}\!\textit{t}$`
+
+#### 3
+
+* `$\langle a \rangle \textit{f}\!\textit{f}$`: It is not possible to perform action `$\text{a}$` now, since there is no `$p' \in \emptyset$`
+* `$[a] \textit{t}\!\textit{t}$`: This is trivially true for every process: if you can perform action `$\text{a}$`, you end up in `$\textbf{Proc}$`
+
+### 5.3
+
+#### 1
+
+* `$s \overset{?}{\models} \langle a \rangle \textit{t}\!\textit{t}$` : ✓
+* `$s \overset{?}{\models} \langle b \rangle \textit{t}\!\textit{t}$` : ✗
+* `$s \overset{?}{\models} [a] \textit{f}\!\textit{f}$` : ✗ (e.g. `$s_1 \not \in \emptyset$`)
+* `$s \overset{?}{\models} [b] \textit{f}\!\textit{f}$` : ✓ (all quantification with no elements automatically right)
+* `$s \overset{?}{\models} [ a ] \langle b \rangle \textit{t}\!\textit{t}$` : ✓
+* `$s \overset{?}{\models} \langle a \rangle \langle b \rangle \textit{t}\!\textit{t}$` : ✗ (`$s_2$` can proceed with `$b$`)
+* `$s \overset{?}{\models} [ a ] \langle a \rangle [a] [b] \textit{f}\!\textit{f}$` : ✓ (`$[ a ] \langle a \rangle [a]$` ends up at `$s$` again, which has no `$b$` transitions, and an all quantification with no elements is automatically correct, even over unsatisfiable propositions like `$s_1 \in \emptyset$`)
+* `$s \overset{?}{\models} \langle a \rangle (\langle a \rangle \textit{t}\!\textit{t} \land \langle b \rangle \textit{t}\!\textit{t})$` : ✗ (it is not possible to `$b$`-transition from `$s_2$`)
+* `$s \overset{?}{\models} [ a ] (\langle a \rangle \textit{t}\!\textit{t} \lor \langle b \rangle \textit{t}\!\textit{t})$` : ✓
+* `$s \overset{?}{\models} \langle a \rangle ([b][a] \textit{f}\!\textit{f} \land \langle b \rangle \textit{t}\!\textit{t})$` : ✗ (it's impossible to transition from `$s_2$` via `$b$`)
+* `$s \overset{?}{\models} \langle a \rangle ([a] (\langle a \rangle \textit{t}\!\textit{t} \land [ b ] \textit{f}\!\textit{f}) \land \langle b \rangle \textit{f}\!\textit{f})$` : ✗ (since one can transition to `$s_1$` via `$a$`, and one can transition from `$s_1$` via `$b$`, which violates the `$\langle b \rangle \textit{f}\!\textit{f}$`)
+
+#### 2
+
+* `$⟦[a][b]\textit{f}\!\textit{f}⟧=[\cdot a \cdot][\cdot b \cdot]\emptyset=[\cdot a \cdot]\{s, s_2, s_3, s_4\}=\{s_2, s_3, s_4\}$`
+* `$⟦(\langle a \rangle (\langle a \rangle \textit{t}\!\textit{t} \land \langle b \rangle \textit{t}\!\textit{t})⟧=\langle \cdot a \cdot \rangle (⟦\langle a \rangle \textit{t}\!\textit{t}⟧ \cap ⟦\langle b \rangle \textit{t}\!\textit{t}⟧)=\langle \cdot a \cdot \rangle (\{s, s_1, s_2, s_3, s_4\} \cap \{s_1\})=\langle \cdot a \cdot \rangle \{s_1\}=\{s\}$`
+* `$⟦[a][a][b] \textit{f}\!\textit{f}⟧=[\cdot a \cdot][\cdot a \cdot][\cdot b \cdot] \emptyset=[\cdot a \cdot][\cdot a \cdot]\{s, s_2, s_3, s_4\}=[\cdot a \cdot]\{s_2, s_3, s_4\}=\{s_2\}$`
+* `$⟦[a][a][b] \textit{f}\!\textit{f}⟧=[\cdot a \cdot] \textbf{Proc}=\{s, s_1, s_2, s_3, s_4\}$`
+
+<!--
+TODO
+### 5.5
+
+It's MANDATORY
+-->
