@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-01-09, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-01-15, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -21,6 +21,8 @@ January 2022
 		* [3.41](./rs_solutions.html#341)
 	* [Chapter 5](./rs_solutions.html#Chapter-5)
 		* [5.1](./rs_solutions.html#51)
+		* [5.2](./rs_solutions.html#52)
+		* [5.3](./rs_solutions.html#53)
 * Imported [Solutions to “Programming in Lua”](./pil_solutions.html)
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html):
 	* [Sidechannel Attacks](./bcis_and_alignment.html#Sidechannel-Attacks)

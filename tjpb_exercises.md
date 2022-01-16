@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-07-23, modified: 2022-01-09, language: english, status: draft, importance: 5, confidence: log*
+*author: niplav, created: 2020-07-23, modified: 2022-01-16, language: english, status: draft, importance: 5, confidence: log*
 
 > __[The Jazz Piano
 Book](https://en.wikipedia.org/wiki/The_Jazz_Piano_Book) by [Mark
@@ -59,3 +59,15 @@ around the cycle of fifths. Analyze tunes by chord type – is each
 chord a II, V, or I chord?
 
 *– p. 19*
+
+### Chapter 4
+
+Not in the book: Play all voicings of all sus (卣) chords where the
+third has been voiced (see Figure 4-5). Try to get a feel for what they
+sound like.
+
+Play the Phyrgian chord in all keys, and resolve it to the corresponding
+Δ chord (see Figure 4-7).
+
+> Go through tunes in *The New Real Book* and *The World's Greatest Fake
+Book*, reharmonizing II-V progressions using sus and Phrygian chords.
