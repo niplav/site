@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2021-08-29, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2020-10-07, modified: 2022-01-16, language: english, status: notes, importance: 3, confidence: log*
 
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
@@ -305,7 +305,14 @@ breathing out long, he discerns, ‘I am breathing out long.’ Or
 breathing in short, he discerns, ‘I am breathing in short’; or
 breathing out short, he discerns, ‘I am breathing out short.’
 
-*– [Ānāpānasati Sutta (MN 118)](https://www.dhammatalks.org/suttas/MN/MN118.html), [Author unknown](https://en.wikipedia.org/wiki/P%C4%81li_Canon#Authorship), ca. -100*
+*– [Author unknown](https://en.wikipedia.org/wiki/P%C4%81li_Canon#Authorship), [“Ānāpānasati Sutta (MN 118)”](https://www.dhammatalks.org/suttas/MN/MN118.html), ca. -100*
+
+> and he had forgotten that all life is only a set of pictures in the
+brain, which there is no difference betwixt those born of real things
+and those born of inward dreamings, and no cause to value the one above
+the other.
+
+*– [Howard Phillips Lovecraft](https://en.wikipedia.org/wiki/H._P._Lovecraft), “The Silver Key”, 1929*
 
 ### What I Did and Why I Did It
 
