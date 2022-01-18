@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-01-15, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-01-18, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -26,6 +26,8 @@ January 2022
 * Imported [Solutions to “Programming in Lua”](./pil_solutions.html)
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html):
 	* [Sidechannel Attacks](./bcis_and_alignment.html#Sidechannel-Attacks)
+* [Text Reviews](./text_reviews.html)
+	* [Anti-Aging: State of the Art (JackH, 2020)](./text_reviews.html#AntiAging-State-of-the-Art-JackH-2020)
 
 December 2021
 --------------
