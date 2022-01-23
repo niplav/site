@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-01-17, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-01-24, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,9 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Friendship is Optimal: Caelum Est Conterrens (Chatoyance, 2012)
+* \* Embedded Agency (Abram Demski/Scott Garrabrant, 2020)
+* [Random subspace method (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Random_subspace_method)
 * [Uddiyana bandha (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Uddiyana_bandha)
 * [Tulpar (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Tulpar)
 * [Danish Protest Pig (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Danish_Protest_Pig)
@@ -24,7 +27,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * \* Population Genetics (John H. Gillespie, 2004)
 * \* Über die Natur von Wahrheit und Falschheit (Bertrand Russell, 1910)
 * \* Mastering the Core Teachings of the Buddha (Daniel M. Ingram, 2018)
-* \* The Game (Neil Strauss, 2005)
+* The Game (Neil Strauss, 2005)
 * [Heterotic string theory (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Heterotic_string_theory)
 * [Unbeatable strategy (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Unbeatable_strategy)
 * [Fleckvieh (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Fleckvieh)
