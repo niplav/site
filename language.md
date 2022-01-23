@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-01-14, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-01-21, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __.__
 
@@ -316,6 +316,7 @@ Nominative Determinisms
 
 * The “Sandwalk Choreographer” [Benjamin Millepied](https://en.wikipedia.org/wiki/Benjamin_Millepied) from the [2021 Dune movie](https://www.imdb.com/title/tt1160419/)
 * [Dick Wertheim](https://en.wikipedia.org/wiki/Dick_Wertheim) ["died after a ball struck him in the groin and he fell out of his chair"](https://en.wikipedia.org/wiki/List_of_unusual_deaths)
+* The [Alcor Life Extension Foundation](https://en.wikipedia.org/wiki/Alcor_Life_Extension_Foundation) is located in Scottsdale, Arizona, which is in turn a part of Phoenix, Arizona.
 
 Incorrect Plurals or Singulars People Use
 ------------------------------------------

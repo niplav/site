@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-13, modified: 2021-10-19, language: english, status: in progress, importance: 2, confidence: remote*
+*author: niplav, created: 2021-01-13, modified: 2022-01-22, language: english, status: in progress, importance: 2, confidence: remote*
 
 > __After a discussion with a friend of mine, I thought it would be
 useful to structure my current thoughts about politics and economics
@@ -11,6 +11,9 @@ useful. Therefore, this text might already be out of date.__
 
 Notes on Politics, Especially Economics
 ========================================
+
+__Note__: Writing this page is on hold until I have read a textbook on
+economics.
 
 Before I Get to the Object-Level Stuff
 ---------------------------------------
