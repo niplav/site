@@ -39,6 +39,7 @@ HTML=index.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
 	exercise_log.html \
+	flags.html \
 	generalizing_diamond_square.html \
 	language.html \
 	leave_the_internet.html \

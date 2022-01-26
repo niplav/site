@@ -578,3 +578,24 @@ TODO
 
 It's MANDATORY
 -->
+
+Section 6
+-----------
+
+### Stray Exercise 4
+
+> What is the set `$\mathcal{O}_{[b]X}(\{p_2\})$`?
+
+That would be `$\{p_2, p_3\}$`.
+
+### 6.4
+
+> calculate `$\mathcal{O}_{[b]\textit{f}\!\textit{f} \land [a]X} (\{p_2\})$`.
+
+<div>
+	$$\mathcal{O}_{[b]\textit{f}\!\textit{f} \land [a]X} (\{p_2\})=\\
+	\mathcal{O}_{[b]\textit{f}\!\textit{f}}(\{p_2\}) \cap \mathcal{O}_{[a]X}(\{p_2\})=\\
+	([ \cdot b \cdot ] \emptyset) \cap ([ \cdot a \cdot ] \{p_2\})=\\
+	\{p_2, p_3\} \cap \{p_1\}=\\
+	\emptyset$$
+</div>
