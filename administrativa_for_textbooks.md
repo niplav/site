@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2022-01-08, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2022-01-25, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks (broadly defined as "a book with
 exercises"), and create some stuff while reading them (e.g. making
@@ -22,13 +22,22 @@ mental model of how it works.
 -------------------
 
 * [Flashcards](./flash/reactive_systems.apkg)
+	* Missing: A question about the difference of bisimilarity and bisimulation
 * [Solutions to Exercises](./rs_solutions.md)
 	* Chapter 1
 	* Chapter 2: 2.1-2.7, 2.12
 	* Chapter 3: 3.1-3.3, 3.9, 3.12, 3.30, 3.37, 3.41
 	* Chapter 4: 4.1-4.3, 4.9
 * Read:
-	* p. 1-105
+	* p. 1-120
+
+“Population Genetics”
+---------------------
+
+* [Flashcards]()
+* [Solutions to Exercises](./pg_solutions.md)
+* Read:
+	* p. 1-2
 
 ”Naïve Set Theory”
 ------------------
@@ -84,9 +93,9 @@ because I wrote flashcards for it.
 
 * [Exercises](./tjpb_exercises.md)
 * [Flashcards](./flash/the_jazz_piano_book.apkg)
-	* p. 1-19
+	* p. 1-26
 * Read:
-	* p. 1-19
+	* p. 1-26
 
 “A Primer in Social Choice Theory”
 -----------------------------------
