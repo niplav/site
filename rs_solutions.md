@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-10-14, modified: 2022-01-15, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-10-14, modified: 2022-01-26, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __This page contains some solutions to exercises from the textbook
 “Reactive Systems” by Ingólfsdóttir et al. 2007.__
@@ -579,8 +579,8 @@ TODO
 It's MANDATORY
 -->
 
-Section 6
------------
+Chapter 6
+----------
 
 ### Stray Exercise 4
 

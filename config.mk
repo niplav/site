@@ -21,6 +21,7 @@ HTML=index.html \
 	apisct_solutions.html \
 	nst_solutions.html \
 	pil_solutions.html \
+	pg_solutions.html \
 	praml_solutions.html \
 	rs_solutions.html \
 	tjpb_exercises.html \
