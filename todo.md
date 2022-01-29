@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-01-14, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-01-27, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -36,7 +36,7 @@ Site
 * Flashcards:
 	* Add tags for chapters/sort by chapters
 	* Prune flagged cards?
-* Add Content-tables to pages?
+* Add content tables to pages?
 * Add RSS feed (ugh)
 
 Texts
@@ -204,6 +204,8 @@ Texts
 	* Aspects:
 		1. Cognitive Approach Difficulties: Do you believe that approaching is a good idea?
 			* If no:
+				* try it
+				* re-cast own identity as/evil/mischievous
 		2. Biological Approach Difficulties: Do you have an embodied need to interact with good-looking girls? Does you body want to get closer?
 			* If no: try to increase sex drive
 				* lifting
@@ -220,6 +222,7 @@ Texts
 						* climbing on trees
 						* doing push-ups
 				* get a wing
+				* get more social in general
 		4. Attraction Approach Difficulties: Are you actually attracted to the girls you see?
 			* If no: try to lower standards
 				* how tho?
@@ -232,8 +235,8 @@ Texts
 	* Direct Date on Street
 	* Direct Date off Street
 * Daygame on a Medium Dose of MDMA
-	* It worked pretty well, 22 approaches (twice optimal normal rate), AA pretty much zero, 5 numbers (although only 2 non-flakey)
-* Girls actually enjoy getting chatted up
+	* It worked pretty well, 22 approaches (twice optimal normal rate), AA pretty much zero, 5 numbers (although only 2 non-flakey), 1 lay
+* Girls actually enjoy getting chatted up, or are indifferent to it
 
 ### Time Experience
 
@@ -586,9 +589,10 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Concatenating Different Explanations
 * `$k$` grass-cutting robots on `$n$`-dimensional manifolds
 * Improving Coordination Over Time is a Longtermist Crux
+	* Solution: If coordination is eventually easy with a non-negligible probability, it's not a problem
 * Should the EA Community Buy Large AI Labs?
 * The UTMs-simulate-each-other solution to the Python-with-Witch problem
-	* Look up LW comment on this
+	* Look up LW shortform comment on this
 * Clanishness vs. tribalism and relatedness in Dunbars number sized groups
 
 ### Collections
@@ -937,6 +941,7 @@ eine kontingente verschmelzung von fast-sein und konkretheit"
 ### Archiving
 
 * Type up John Nash's Thesis in LaTeX
+* Host a copy of A Declaration of the Independence of Cyberspace
 
 Data Sets
 ----------

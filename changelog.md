@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-01-26, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-01-29, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -11,6 +11,11 @@ Changelog
 January 2022
 -------------
 
+* [Solutions to “Population Genetics”](./pg_solutions.html):
+	* [Chapter 1](./pg_solutions.html#Chapter-1)
+		* [Problem 1.1](./pg_solutions.html#Problem-11)
+		* [Problem 1.2](./pg_solutions.html#Problem-12)
+		* [Problem 1.5](./pg_solutions.html#Problem-15)
 * [Solutions to “Naïve Set Theory”](./nst_solutions.html):
 	* [Section 13](./nst_solutions.html#Section-13):
 		* [Stray Exercise 1](./nst_solutions.html#Stray-Exercise-1)

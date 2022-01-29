@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-03-31, modified: 2021-09-01, language: english, status: notes, importance: 3, confidence: highly unlikely*
+*author: niplav, created: 2021-03-31, modified: 2022-01-27, language: english, status: notes, importance: 3, confidence: highly unlikely*
 
 > __This page contains my notes on ethics, separated from my regular
 notes to retain some structure to the notes.__
@@ -334,17 +334,81 @@ some point they start diminishing.
 Arguments Against Preference Utilitarianism
 --------------------------------------------
 
+[Preference
+utilitarianism](https://en.wikipedia.org/wiki/Preference_utilitarianism)
+enjoys great popularity among utilitarians<!--TODO: citation
+needed? How does it compare to other utilitarianisms?-->,
+and I tend to agree that it is a [very good pragmatic
+compromise](./notes_on_politics_especially_economics.html#What-Politics-Is-For)
+especially in the context of politics.
+
+However, most formulations I have encountered bring up some problems
+that I have not seen mentioned or addressed elsewhere.
+
 ### The Identification Argument
 
-I.e., should we fulfill evolution's preferences?
+One issue with preference utilitarianism concerns the word
+“preference”, and especially where in the world these preferences
+are located and how they can be identified. What kinds of physical
+structures can be identified as having preferences (we might call this
+the *identification problem*), and where exactly are those preferences
+located (one might call this the *location problem*)? If one is purely
+behavioristic about this question, then every physical system can be said
+to have preferences, with the addition that if it is in equilibrium, it
+seems to have achieved those prefereneces. This is clearly nonsensical,
+as also explored in [Filan
+2018](https://www.lesswrong.com/posts/26eupx3Byc8swRS7f/bottle-caps-aren-t-optimisers "Bottle Caps Aren't Optimisers").
+
+If we argue that this is pure distinction mongering, and that we "know
+an agent when we see one", it might still be argued that evolution is
+agent-like enough to fall into our category of an agent, but that we are
+not necessarily obligated to spend a significant part of our resources
+on copying and storing large amounts of DNA molecules.
+
+Even restricting ourselves to humans, we still have issue with identifying
+the computation inside human brains that could be said to be those
+preferences, see e.g. [Hayden & Niv
+2021](https://nivlab.princeton.edu/publications/case-against-economic-values-brain "The case against economic values in the orbitofrontal cortex (or anywhere else in the brain)").
+If we instead go with revealed preferences, unless we assume a
+certain level of irrationality, we wouldn't be able to ascertain which
+preferences of humans were *not* fulfilled (since we could just assume
+that at each moment, each human is perfectly fulfilling their own
+preferences).<!--TODO: link some Armstrong paper/blogpost here-->
+
+These are, of course, standard problems in value learning [Soares
+2018](./doc/against_preference_utilitarianism/the_value_learning_problem_soares_2016.pdf "The Value Learning Problem").
 
 ### Preference-Altering Actions Disallowed
 
-#### Second-Order Preferences
+Even if agents bearing preferences can be identified and the preferences
+they bear can be located, ethical agents are faced with a dubious
+demand: Insofar only the preferences of existing agents matter (i.e. our
+population axiology is person-affecting), the ethical agent is forced
+to stabilize existing consistent prefereneces (and perhaps also to make
+inconsistent preferences consistent), because every stable preference
+implies a "meta-preference" of its own continued existence [Omohundro
+2008](./doc/moral_realist_ai/the_basic_ai_drives_omohundro_2008.pdf "The Basic AI Drives").
+
+However, this conflicts with ethical intuitions: We would like to allow
+ethical patients to undergo moral growth and reflect on their values.
+
+(I do not expect this to be a practical issue, since at least in
+human brains, I expect there to be no actually consistent internal
+preferences. With simpler organisms or very simple physical systems, this
+might become an issue, but one wouldn't expect them to have undergone
+significant moral growth in any case.)
+
+<!--What did I mean by this?
+
+#### Second-Order Preference
 
 #### Reflective Equilibrium
+-->
 
 ### Possible People
+
+If we allow the preferences of possible people to influence our decision
+procedure, we run into trouble *very quickly*.
 
 #### Tyrannical Possible People
 

@@ -7,7 +7,7 @@
 > [now movement](https://nownownow.com/about)).__
 
 Now
-===
+====
 
 Currently, my main focus is on getting my life in order. That includes
 shifting into an equilibrium mode where I am independent and have
@@ -54,10 +54,13 @@ Reading
 
 Currently, I am actively reading the following books:
 
+* Daygame (Tom Torero, 2016)
+* Mastering the Core Teachings of the Buddha (Daniel M. Ingram, 2018)
 * Naïve Set Theory (Paul R. Halmos, 1960)
-* Reactive Systems (Anna Ingólfsdóttir/Jiří Srba/Kim G. Larsen/Luca Aceto, 2007)
-* The New Strategic Selling (Stephen E. Heiman/Diane Sanchez/Tad Tuleja, 1995)
-* Dune Messiah (Frank Herbert, 1969)
+* Pattern Recognition and Machine Learning (Christopher M. Bishop, 2006)
 * Philosophische und politische Aufsätze (Bertrand Russell, 1971)
-* Über die Pflicht zum Ungehorsam gegen den Staat (Henry David Thoreau, 1973)
+* Population Genetics (John H. Gillespie, 2004)
+* Reactive Systems (Anna Ingólfsdóttir/Jiří Srba/Kim G. Larsen/Luca Aceto, 2007)
 * Samtliche Gedichte und Balladen (Friedrich Schiller, 1805)
+* The Jazz Piano Book (Mark Levine, 1998)
+* The New Strategic Selling (Stephen E. Heiman/Diane Sanchez/Tad Tuleja, 1995)

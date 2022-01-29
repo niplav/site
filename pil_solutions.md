@@ -3,7 +3,8 @@
 
 *author: niplav, created: 2022-01-08, modified: 2022-01-08, language: english, status: in progress, importance: 2, confidence: likely*
 
-> __.__
+> __Solutions to the book “Programming in Lua” by Roberto
+Ierusalimschy.__
 
 Solutions to “Programming in Lua”
 ==================================
