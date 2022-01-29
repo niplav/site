@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2021-10-24, language: english, status: finished, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2022-01-28, language: english, status: finished, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 to the time between forecast and resolution, and asks three
@@ -595,7 +595,9 @@ pendulum](https://en.wikipedia.org/wiki/Double_pendulum): I am totally
 able to predict its position & velocity 100ms before resolution time,
 but 1s before and it's already getting more difficult. Information,
 like nearly everything else, has diminishing value, posteriors converge
-continuously towards truth.
+continuously towards truth.<!--TODO: the double pendulum is interesting,
+since in the long run it's actually *easier* to predict! Write something
+about this.-->
 
 <!--TODO: Also, what are some probability theory & information theory
 theorems for this?-->

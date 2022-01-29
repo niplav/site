@@ -1,8 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2021-10-13, language: multiple, status: in progress,
-importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-01-28, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __.__
 
@@ -40,6 +39,8 @@ Poems
 > Paradises, peacocks, peaches and palimpsests! Prussians, prowlers plus
 plumous penguins, priestess parks principles – priceless.
 
+> gah, can't snarf evince.
+
 ### German
 
 > Ein Wille wie Silizium, ein Auftreten wie Sand, ein Gemüt wie von
@@ -57,7 +58,51 @@ Licht durchschienenes Glas.
 
 > Ikto verso lapido.
 
-### Haiku
+### Senryū
+
+Well, not strictly haiku (not always a cutting word or seasonal reference)
+or senryū (not always cynical & dark or about humans), but I follow
+the 17 (5-7-5) syllable format.
+
+#### German
+
+Winters Klee entschied  
+Einmal mir nachzufolgen  
+Bedachte nicht; Pferd!
+
+Kirschblüten gegen  
+das samtene Firnament  
+bald stürzt es hinab
+
+#### English
+
+In the CPU  
+Peace. But the tranquility  
+is interrupted.
+
+Autumn, slashing when  
+The eternal emerald  
+Sadly decomposed  
+
+[Backward analyzed](https://en.wikipedia.org/wiki/Data-flow_analysis#Backward_analysis)  
+This computation sufficed  
+But data? Perturbed  
+
+[Splines](https://en.wikipedia.org/wiki/Spline_\(mathematics\)) are weird and nice  
+Where get differentiation?  
+Just increase your `$m$`  
+
+In jazz scattering  
+Forward, backward, to the side  
+confusion entails
+
+Please turn off the lights!  
+Very high costs arise, when  
+The light is on. Thanks.
+
+May your death be like  
+The married bachelor, ex  
+falso quodlibet
 
 Dialogues
 ----------

@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2022-01-17, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2022-01-27, language: english, status: in progress, importance: 6, confidence: log*
 
 > __If you take away just one thing from this website,
 it should be that I think [you would want to sign up for
@@ -14,10 +14,10 @@ including (but not limited to) programming, unusual social behavior
 and philosophy, as well as translations and transcriptions of different
 texts, chronological archives of blogs and programming projects. More
 information about the website and its author can be found on the
-[about](./about.md) page, for recent additions and changes, see the
-[changelog](./changelog.md).
+[about](./about.html) page, for recent additions and changes, see the
+[changelog](./changelog.html).
 
-[Content warning](./content_warning.md).
+[Content warning](./content_warning.html).
 
 Writing
 -------
@@ -26,89 +26,88 @@ Writing
 
 #### Cost-Benefit Analyses
 
-* [Considerations on Cryonics](./considerations_on_cryonics.md)
-* [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.md)
+* [Considerations on Cryonics](./considerations_on_cryonics.html)
+* [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
 
 #### AI Alignment and Strategy
 
-* [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.md)
-* [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.md)
+* [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html)
+* [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.html)
 
 #### Forecasting
 
-* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.md)
+* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 
 #### Programming & Computer Science
 
-* [Pipe Rings](./pipe_rings.md)
-* [K-99: Ninety-Nine Klong Problems](./99_klong_problems.md)
-* [99 Problems Klong Solution](./99_problems_klong_solution.md)
+* [Pipe Rings](./pipe_rings.html)
+* [K-99: Ninety-Nine Klong Problems](./99_klong_problems.html)
+* [99 Problems Klong Solution](./99_problems_klong_solution.html)
 
 #### Mathematics
 
-* [Equally Many Heads and Tails](./equally_many_heads_and_tails.md)
-* [Circle Combinations](./circle_combinations.md)
+* [Equally Many Heads and Tails](./equally_many_heads_and_tails.html)
+* [Circle Combinations](./circle_combinations.html)
 
 #### Philosophy
 
-* [Compliments as Utilitarian Praxis](./utilitarian_compliments.md)
-* [Using Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./consciousness_diagram.md)
+* [Compliments as Utilitarian Praxis](./utilitarian_compliments.html)
+* [Using Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./consciousness_diagram.html)
 
 #### Surveys & Experiments
 
-* [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.md)
+* [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
 
 #### Collections
 
-* [Rationalist Gods](./rationalist_gods.md)
-* [99 Problems](./99_problems_collection.md)
+* [Rationalist Gods](./rationalist_gods.html)
+* [99 Problems](./99_problems_collection.html)
 
 ### Other
 
-* [Against Applause After Classical Concerts](./against_applause.md)
-* [Two People on a Planet](./two_people_on_a_planet.md)
-* [Life Advice](./life_advice.md)
-* [Reports](./reports.md)
+* [Against Applause After Classical Concerts](./against_applause.html)
+* [Two People on a Planet](./two_people_on_a_planet.html)
+* [Life Advice](./life_advice.html)
+* [Reports](./reports.html)
 
 #### Textbooks
 
-* [Solutions to “Naïve Set Theory”](./nst_solutions.md)
-* [Solutions to “Artificial Intelligence: A Modern Approach”](./aima_solutions.md)
-* [Solutions to “Reactive Systems”](./rs_solutions.md)
-* [Solutions to “Programming in Lua”](./pil_solutions.md)
-* [Solutions to “A Primer in Social Choice Theory”](./apisct_solutions.md)
-* [Solutions to “Pattern Recognition and Machine Learning”](./praml_solutions.md)
-* [Exercises from “The Jazz Piano Book”](./tjpb_exercises.md)
-* [Administrativa for Textbooks](./administrativa_for_textbooks.md)
+* [Solutions to “Naïve Set Theory”](./nst_solutions.html)
+* [Solutions to “Artificial Intelligence: A Modern Approach”](./aima_solutions.html)
+* [Solutions to “Reactive Systems”](./rs_solutions.html)
+* [Solutions to “Programming in Lua”](./pil_solutions.html)
+* [Solutions to “A Primer in Social Choice Theory”](./apisct_solutions.html)
+* [Solutions to “Population Genetics”](./pg_solutions.html)
+* [Solutions to “Pattern Recognition and Machine Learning”](./praml_solutions.html)
+* [Exercises from “The Jazz Piano Book”](./tjpb_exercises.html)
+* [Administrativa for Textbooks](./administrativa_for_textbooks.html)
 
 #### Notes
 
-* [Notes](./notes.md)
-* [Notes on Ethics](./notes_on_ethics.md)
-* [Notes on Predictions](./notes_on_predictions.md)
-* [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.md)
+* [Notes](./notes.html)
+* [Notes on Ethics](./notes_on_ethics.html)
+* [Notes on Predictions](./notes_on_predictions.html)
+* [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
 
 ### Fiction
 
-* [Buch Stab](./buch_stab.md)
-* [Platte](./platte.md)
+* [Buch Stab](./buch_stab.html)
+* [Platte](./platte.html)
 * [Life Improvements in 2030](./life_improvements_2030.html)
-
-#### Poetry
-
-* [Senryūs](./senryu.md)
+* [Microfiction](./microfiction.html)
+* [Playing with Language](./language.html)
 
 Translations
 ------------
 
 ### English to German
 
-* [Metamodernistisches // Manifest](./metamodernistisches_manifest.md)
+* [Metamodernistisches // Manifest](./metamodernistisches_manifest.html)
 
 Transcriptions
 --------------
 
-* [Tao Tê King](./tao_te_king.md)
+* [Tao Tê King](./tao_te_king.html)
 
 Archives
 --------
@@ -121,39 +120,39 @@ navigate and it is often difficult to keep track of my current position
 in the blog (especially with yearly/monthly WordPress archives). To
 salvage this, I scrape blog archives and arrange them chronologically.
 
-* [Bit-Player Posts Chronological Index](./bp_chrono.md)
-* [Overcoming Bias Posts Chronological Index](./ob_chrono.md)
-* [Shtetl Optimized Posts Chronological Index](./so_chrono.md)
-* [The Real Movement Posts Chronological Index](./trm_chrono.md)
+* [Bit-Player Posts Chronological Index](./bp_chrono.html)
+* [Overcoming Bias Posts Chronological Index](./ob_chrono.html)
+* [Shtetl Optimized Posts Chronological Index](./so_chrono.html)
+* [The Real Movement Posts Chronological Index](./trm_chrono.html)
 
 Programming
 -----------
 
-* [awitt – Another Window Title Tracker](./awitt.md)
+* [awitt – Another Window Title Tracker](./awitt.html)
 
 Miscellaneous
 =============
 
-* [About](./about.md)
-* [Changelog](./changelog.md)
-* [Contributions](./contributions.md)
-* [Now](./now.md)
-* [Todo](./todo.md)
-* [Uses This](./uses_this.md)
+* [About](./about.html)
+* [Changelog](./changelog.html)
+* [Contributions](./contributions.html)
+* [Now](./now.html)
+* [Todo](./todo.html)
+* [Uses This](./uses_this.html)
 
 ### Media Consumption
 
 I sometimes write reviews of things I have watched/read.
 
-* [Text Reviews](./text_reviews.md)
+* [Text Reviews](./text_reviews.html)
 
 The following is four lists on the content I consume. The content listed
 there is a fairly big subset of what I actually read/listen to/watch,
 but not complete. I also don't remember everything from these perfectly.
 
-* [Texts List](./texts_list.md)
-* [Movies List](./movies_list.md)
-* [Podcasts List](./podcasts_list.md)
-* [Series List](./series_list.md)
+* [Texts List](./texts_list.html)
+* [Movies List](./movies_list.html)
+* [Podcasts List](./podcasts_list.html)
+* [Series List](./series_list.html)
 
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")

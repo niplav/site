@@ -1,0 +1,24 @@
+.l("nplot")
+
+p1.5::.oc("p1.5.eps")
+.tc(p1.5)
+
+setrgb(0;0;0)
+grid([0.00001 1 0.1];[0 10 1])
+xtitle("q")
+ytitle("Ratio of heterozygotes to homozygotes")
+
+plot({(2*(1-x))%x})
+
+setrgb(0;0;1)
+plot({(2*(1-x))%x})
+text(200;200;"2p/q")
+
+setrgb(1;0;0)
+plot({2%x})
+text(250;250;"2/q")
+
+draw()
+
+.fl()
+.cc(p1.5)

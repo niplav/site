@@ -35,3 +35,15 @@ For four different alleles it would be 10 different genotypes:
 
 The general formula is `$\frac{n (n+1)}{2}$` different genotypes,
 because it's just the upper half of the square again.
+
+### Problem 1.2
+
+* For I: `$0.0151+\frac{1}{2}0.0452+\frac{1}{2}0.0964=0.0859$`
+* For S: `$0.4247+\frac{1}{2}0.3343+\frac{1}{2}0.0964=0.64005$`
+* For F: `$0.0843+\frac{1}{2}0.3343+\frac{1}{2}0.0452=0.27405$`
+
+Checking, these three do sum to 1: `$0.0859+0.64005+0.27405=1$`.
+
+### Problem 1.5
+
+![Graph for 1.5](./img/pg_solutions/p1.5.png)

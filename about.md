@@ -1,12 +1,26 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2021-12-17, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2022-01-27, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
 About
 =====
+
+> Gänzliche Illusionslosigkkeit über das Zeitalter und dennoch ein
+rückhaltloses Bekenntnis zu ihm ist ihr Kennzeichen.
+
+*– Walter Benjamin, “Erfahrung und Armut”, 1933*
+
+> But human nature being what it is, there are going to be some people on
+the Internet claiming that everything is intrinsically tangled up into a
+whole, and another group claiming that different people are allowed to
+pick and choose whichever facets they personally like. And the second
+group is going to be 100% right just like they always are every single
+time that argument happens anywhere.
+
+*– Groon the Walker, “The Erogamer”, 2020*
 
 The Site
 --------
