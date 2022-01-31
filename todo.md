@@ -950,6 +950,7 @@ Collect data on
 
 * Bag Spreading
 * [Daygame](./daygame_cost_benefit.html#Appendix-C-Empirically-Checking-the-Assumptions)
+	* Add more informative flake statistics
 * [Masturbation and Attractiveness](./masturbation_and_attractiveness.html#Method)
 * [Subjective Life Expectancy](./estimated_life_expectancy.html#Data-Collection-Method)
 * Meditation

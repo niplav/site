@@ -25,6 +25,9 @@ Will the data sets be normally distributed?
 → If not, use Mann-Whitney U-Test.
 Also: What about abstinence ←→ masturbation ←→ pornography?
 Pre-register on predictionbook as well.
+
+Change so that in the male case, there's nothing beyond collecting contact
+info (no date invite/date), and add info about asking whether age >18.
 -->
 
 Abstract
