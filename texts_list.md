@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-01-29, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-01-31, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -23,7 +23,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Locus (genetics) (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Locus_\(genetics\))
 * \* Daygame (Tom Torero, 2016)
 * Friendship is Optimal: Caelum Est Conterrens (Chatoyance, 2012)
-* \* Embedded Agency (Abram Demski/Scott Garrabrant, 2020)
+* Embedded Agency (Abram Demski/Scott Garrabrant, 2020)
 * [Random subspace method (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Random_subspace_method)
 * [Uddiyana bandha (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Uddiyana_bandha)
 * [Tulpar (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Tulpar)

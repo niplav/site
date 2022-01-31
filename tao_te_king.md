@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: [Lao-tse](https://de.wikipedia.org/wiki/Laozi), created: -400-01-01, translator: [Günther Debon](https://de.wikipedia.org/wiki/G%C3%BCnther_Debon), translated: 1979-01-01, transcriptor: niplav, transcribed: 2019-03-23, modified: 2020-03-27, language: german, status: finished, importance: 4, confidence: transcription*
+*author: [Lao-tse](https://de.wikipedia.org/wiki/Laozi), created: -400-01-01, translator: [Günther Debon](https://de.wikipedia.org/wiki/G%C3%BCnther_Debon), translated: 1979-01-01, transcriptor: niplav, transcribed: 2019-03-23, modified: 2022-01-29, language: german, status: finished, importance: 4, confidence: transcription*
 
 > __The Tao Tê King is one of the most translated texts in history. This
 > is a transcription of the german translation by Günther Debon from
@@ -14,21 +14,21 @@ Tao Tê King
 
 ### Kapitel 1
 
-§1
+#### §1
 
 Könnten wir weisen den *Weg*,  
 Es wäre kein ewiger Weg.  
 Könnten wir nennen den Namen,  
 Es wäre kein ewiger Name.  
 
-§2
+#### §2
 
 Was ohne Namen,  
 Ist Anfang von Himmel und Erde;  
 Was Namen hat,  
 Ist Mutter den zehntausend Wesen.  
 
-§3
+#### §3
 
 Wahrlich:  
 Wer ewig ohne Begehren,  
@@ -36,7 +36,7 @@ Wird das Geheimste schaun;
 Wer ewig hat Begehren,  
 Erblickt nur seinen Saum.  
 
-§4
+#### §4
 
 Diese beiden sind eins und gleich.  
 Hervorgetreten, sind ihre Namen verschieden.  
@@ -46,7 +46,7 @@ Die Pforte zu jedwedem Geheimnis.
 
 ### Kapitel 2
 
-§5
+#### §5
 
 Erst seit auf Erden  
 Ein jeder weiß von der Schönheit des Schönen  
@@ -54,7 +54,7 @@ Gibt es die Häßlichkeit;
 Erst seit ein jeder weiß von der Güte des Guten,  
 Gibt es das Ungute  
 
-§6
+#### §6
 
 Wahrlich:  
 Sein und Nichtsein entspringen einander;  
@@ -64,7 +64,7 @@ Hoch und Tief erzwingen einander.
 Die Stimme fügt sich dem Ton im Chor;  
 Und ein Danach folgt dem Zuvor.  
 
-§7
+#### §7
 
 Deshalb der Heilige Mensch:  
 Er weilt beim Geschäft des Ohne-Tun,  
@@ -75,14 +75,14 @@ Er zeugt, aber besitzt nicht;
 Er tut, aber baut nicht darauf.  
 Ist das Werk vollendet, verweilt er nicht dabei.  
 
-§8
+#### §8
 
 Wohl! Nur dadurch, daß er nicht verweilt,  
 Ist nichts, das ihm entginge.  
 
 ### Kapitel 3
 
-§9
+#### §9
 
 Wer nicht die Tüchtigen ehrt,  
 Bewirkt, daß das Volk sich nicht streitet.  
@@ -91,7 +91,7 @@ Bewirkt, daß das Volk nicht zu Räubern wird.
 Wer nicht vorzeigt, was man begehren kann,  
 Bewirkt, daß des Volkes Sinn nicht aufsässig wird.  
 
-§10
+#### §10
 
 Deshalb des Heiligen Menschen Regierung:  
 Er leert ihren Sinn  
@@ -103,28 +103,28 @@ Ohne Wissen, ohne Begehren
 Und wirkt, daß die Klugen  
 Nicht wagen zu tun.  
 
-§11
+#### §11
 
 Tut er das Ohne-Tun,  
 Ist nichts, das nicht regiert würde.  
 
 ### Kapitel 4
 
-§12
+#### §12
 
 Der *Weg* ist raumleer,  
 Daß im Gebrauch er niemals gefüllt wird.  
 Abgründig ist er, ach!  
 Dem Ahnherrn der zehntausend Wesen gleich.  
 
-§130
+#### §130
 
 (Er schabt ab seine Schärfen,  
 Löst auf seine Wirren,  
 Beschwichtigt sein Glänzen,  
 Vereint seinen Staub.)  
 
-§12
+#### §12
 
 Tiefgründig ist er, ach!  
 Und gleichsam ewig gegenwärtig.  
@@ -133,28 +133,28 @@ Ein Bild von dem, das vor den Göttern war.
 
 ### Kapitel 5
 
-§13
+#### §13
 
 Himmel und Erde sind nicht menschenfreundlich;  
 Sie nehmen die zehntausend Wesen für Strohhunde.  
 Der Heilige Mensch ist nicht menschenfreundlich;  
 Er nimmt die hundert Geschlechter für Strohhunde.  
 
-§14
+#### §14
 
 Himmel und Erde, wie gleicht  
 Ihr Zwischenraum einem Blasebalg!  
 Er fällt nicht ein, ob noch so leer;  
 Je mehr bewegt, gibt aus er um so mehr.  
 
-§15
+#### §15
 
 Viele Worte – manch Verlust.  
 Am besten, man bewahrt sie in der Brust!  
 
 ### Kapitel 6
 
-§16
+#### §16
 
 Unsterblich ist die Fee des Tals:  
 So heißt es von der Mystischen Weibheit.  
@@ -165,7 +165,7 @@ Also wirkt sie sonder Beschwerde.
 
 ### Kapitel 7
 
-§17
+#### §17
 
 Der Himmel währt ewig, und die Erde dauert.  
 Was aber macht, daß Himmel und Erde vermögen  
@@ -173,7 +173,7 @@ Zu währen, zu dauern?
 Weil sie nicht selber leben,  
 Darum vermögen sie, ewig zu leben.  
 
-§18
+#### §18
 
 Deshalb der Heilige Mensch:  
 Er setzt zurück sein Selbst –  
@@ -186,7 +186,7 @@ Darum vermag er, sein Eigen zu vollenden.
 
 ### Kapitel 8
 
-§19
+#### §19
 
 Das höchste Gute gleicht dem Wasser.  
 Des Wassers Gutsein: Es nützt den zehntausend Wesen,  
@@ -195,7 +195,7 @@ Es weilt an Orten,
 Die die Menge der Menschen verabscheut.  
 Darum ist es nahe dem *Weg*.  
 
-§20
+#### §20
 
 Gut ist beim Wohnen: der Grund.  
 Gut ist beim Sinnen: die Tiefe.  
@@ -205,14 +205,14 @@ Gut ist beim Herrschen: die Ordnung.
 Gut ist beim Schaffen: die Fähigkeit.  
 Gut beim Sich-Regen: die rechte Zeit.  
 
-§21
+#### §21
 
 Wohl! Nur, wer sich nicht streitet,  
 Ist gegen Schmähung gefeit.  
 
 ### Kapitel 9
 
-§22
+#### §22
 
 [Den Becher] halten und füllen zugleich –  
 Besser, die ließest es sein!  
@@ -229,7 +229,7 @@ Also des Himmels *Weg*.
 
 ### Kapitel 10
 
-§23
+#### §23
 
 Zügelnd den Leibgeist, umfangend das Ein,  
 Kannst ohne Fehl du sein.  
@@ -246,11 +246,11 @@ Kannst du zum Weibchen werden,
 Erleuchtend die vier Enden der Welt,  
 Kannst unerkannt du sein auf Erden.  
 
-§24
+#### §24
 
 Erzeuge da, hege das!  
 
-§118
+#### §118
 
 Erzeugen, doch nicht besitzen;  
 Tun, doch nicht drauf baun;  
@@ -259,7 +259,7 @@ Dies nennt man Mystische Tugend.
 
 ### Kapitel 11
 
-§25
+#### §25
 
 Der Speichen dreimal zehn  
 Auf einer Nabe stehn.  
@@ -282,7 +282,7 @@ Erkenne: Das Nicht-Sein macht brauchbar.
 
 ### Kapitel 12
 
-§26
+#### §26
 
 Die Fünf Farben  
 Machen das Auge der Menschen blind;  
@@ -295,20 +295,20 @@ Machen den Sinn der Menschen toll;
 Schwer erlangbares Gut  
 Macht ihren Wandel bürdevoll.  
 
-§27
+#### §27
 
 Deshalb, der Heilige Mensch  
 Tut für den Bauch,  
 Nicht für das Aug.  
 
-§28
+#### §28
 
 Wahrlich:  
 Von jenem laß! Dieses erfaß!  
 
 ### Kapitel 13
 
-§29
+#### §29
 
 »Gunst und Schande sind gleichsam ein Stachel.  
 Ehrung ist ein großes Leiden wie Dein Leib.«  
@@ -327,7 +327,7 @@ Ist, weil Wir einen Leib haben.
 Wären Wir ohne Leib,  
 Was hätten Wir für Leid?  
 
-§30
+#### §30
 
 Wahrlich:  
 Ehre wie den Leib so das Reich,  
@@ -337,7 +337,7 @@ Und das Reich kann Dir überantwortet werden.
 
 ### Kapitel 14
 
-§31
+#### §31
 
 Was du nicht siehst, so sehr du danach schaust,  
 Des Name ist: plan.  
@@ -361,7 +361,7 @@ Brauendes Ur-Glosen.
 Wer ihm sich naht, kann keinen Kopf erblicken;  
 Und wer ihm folgt, erblickt nicht seinen Rücken.  
 
-§32
+#### §32
 
 Halt fest am *Weg* des Altertums,  
 Und du lenkst das Sein der Gegenwart!  
@@ -370,7 +370,7 @@ Das nennen wir des *Weges* leitenden Sinn.
 
 ### Kapitel 15
 
-§33
+#### §33
 
 Wer im Altertum gut war als Meister,  
 War subtil, geheimnisvoll, mystisch, durchdringen;  
@@ -378,7 +378,7 @@ So tief, daß er uns unbegreiflich bleibt.
 Wohl! Und weil er unbegreiflich bleibt,  
 Will ich lieber dartun sein Gebaren:  
 
-§34
+#### §34
 
 So zögernd, ach!  
 Wie wenn man winters quert einen Strom;  
@@ -395,14 +395,14 @@ Gleich einem Flußtal;
 Chaotisch, ach!  
 Gleich einem Strudel.  
 
-§35
+#### §35
 
 Wer kann den Strudel stillen,  
 Auf daß er mählich werde rein?  
 Wer kann das Ruhende bewegen,  
 Auf daß es mählich Leben gewinne?  
 
-§36
+#### §36
 
 Wer diesen *Weg* bewahrt,  
 Wünscht nicht, erfüllt zu sein.  
@@ -411,26 +411,26 @@ Kann auch verschleißen ohne Erneuen.
 
 ### Kapitel 16
 
-§37
+#### §37
 
 Erreichend den First des Leeren  
 Bewahrend die Stille, die Stete –  
 Zusammen wirken die zehntausend Wesen:  
 So kann Ich betrachten ihr Wiederkehren.  
 
-§38
+#### §38
 
 Denn blühn die Wesen üppig-bunt,  
 Kehrt jedes heim zu seinem Wurzelgrund.  
 
-§39
+#### §39
 
 Heimkehren zum Wurzelgrund heißt: Stille finden.  
 Und dieses nennt man: sich zum Schicksal kehren.  
 Sich zum Schicksal kehren heißt: ewig sein.  
 Das Ewige kennen heißt: erleuchtet sein.  
 
-§40
+#### §40
 
 Wer nicht das Ewige kennt,  
 Schafft sinnlos Unheil;  
@@ -444,7 +444,7 @@ Sinkt hin sein Leib, ist er ohne Gefahr.
 
 ### Kapitel 17
 
-§41
+#### §41
 
 Von den Allerhöchsten  
 Wissen die Niederen nur: Es gibt sie.  
@@ -452,7 +452,7 @@ Die Nächsthohen liebt man und preist man;
 Die Nächsten fürchtet man;  
 Die Nächsten verweist man.  
 
-§42
+#### §42
 
 Wer nicht genug vertraut,  
 Dem ist man nicht treu.  
@@ -465,7 +465,7 @@ Wir schufen es frei.
 
 ### Kapitel 18
 
-§43
+#### §43
 
 Wenn der Große *Weg* ist aufgegeben,  
 Gibt es »Menschlichkeit und Rechtlichkeit«.  
@@ -478,7 +478,7 @@ Gibt es den »Lauteren Untertan«.
 
 ### Kapitel 19
 
-§44
+#### §44
 
 Brich ab die Heiligkeit, verwirf die Klugheit!  
 So wird dem Volke Nutzen hundertfältig.  
@@ -487,11 +487,11 @@ So kehrt das Volk zu Kindgehorsam, Elternliebe.
 Brich ab Geschicklichkeit, verwirf den Nutzen!  
 So finden keine Räuber sich und Diebe.  
 
-§45
+#### §45
 
 Diese drei für Kultur zu nehmen, das reicht nicht aus.  
 
-§46
+#### §46
 
 Wahrlich:  
 Gib ein Gebot, das bindend verpflichte!  
@@ -500,7 +500,7 @@ Mach klein dein Eigen und karg deine Süchte!
 
 ### Kapitel 20
 
-§47
+#### §47
 
 Brich ab das Lernen, so bist du sorgenfrei!  
 
@@ -512,7 +512,7 @@ Wirklich einander so weit?
 Dem mußt auch du dich beugen«:  
 Welch Öde doch! Und kein Ende noch!  
 
-§48
+#### §48
 
 Die Menschen alle sind ausgelassen,  
 Als säßen sie zechend beim Opferfest,  
@@ -540,7 +540,7 @@ Der ich die nährende Mutter verehre.
 
 ### Kapitel 21
 
-§49
+#### §49
 
 Der tiefsten Tugend Gebaren,  
 Es folgt allein dem *Wege*.  
@@ -563,7 +563,7 @@ Durch dieses.
 
 ### Kapitel 22
 
-§50
+#### §50
 
 Was krumm ist, wird heil gemacht;  
 Was gebeugt ist, wird aufgerichtet;  
@@ -572,7 +572,7 @@ Was zerschlissen, wird neu gemacht.
 Mit wenigem wirst du bekommen;  
 Mit vielem bist du beklommen.  
 
-§51
+#### §51
 
 Deshalb der Heilige Mensch:  
 Wenn er das Eine umfaßt,  
@@ -589,7 +589,7 @@ Wohl! Eben weil er nicht streitet,
 Darum vermag niemand im Reich,  
 Mit ihm zu streiten.  
 
-§52
+#### §52
 
 Wenn die Alten sagten:  
 »Was krumm ist, wird heil gemacht«,  
@@ -599,12 +599,12 @@ Zum wahrhaft Heilen kehrt man sich hin.
 
 ### Kapitel 23
 
-§53
+#### §53
 
 Rede selten nur –  
 So will es die Natur.  
 
-§54
+#### §54
 
 Wahrlich:  
 Ein Wirbelwind währt keinen Morgen;  
@@ -614,7 +614,7 @@ Wenn schon Himmel und Erde nicht vermögen,
 Dauer zu geben,  
 Um wieviel weniger ist sie dem Menschen gegeben!  
 
-§55
+#### §55
 
 Wahrlich:  
 Wer dem *Wege* folgt in seinen Geschäften,  
@@ -632,14 +632,14 @@ Wenn einer eins wird mit dem Verlust,
 Freut sich desgleichen der Verlust,  
 Ihn zu gewinnen.  
 
-§42
+#### §42
 
 (Wer nicht genug vertraut,  
 Dem ist man nicht treu.)  
 
 ### Kapitel 24
 
-§56
+#### §56
 
 Wer auf Zehen steht, der hält sich nicht;  
 Wer die Beine spreizt, der wandelt nicht.  
@@ -648,7 +648,7 @@ Wer sich selber recht gibt, ist nicht anerkannt;
 Wer sich selber aufspielt, hat kein Verdienst;  
 Wer sich selber rühmt, wird nicht erhöht.  
 
-§57
+#### §57
 
 Auf den *Weg* übertragen, heißt das:  
 Zu viel der Speisen und prunkender Wandel  
@@ -659,7 +659,7 @@ Wer den *Weg* hat, weilt nicht dabei.
 
 ### Kapitel 25
 
-§58
+#### §58
 
 Ein Wesen gibt es chaotische Art,  
 Das noch vor Himmel und Erde ward,  
@@ -676,7 +676,7 @@ Großsein (dad) heißt: Sich Verlieren (djad);
 Sich Verlieren heißt: Sich Entfernen;  
 Sich Entfernen heißt: Im Gegensinn gehn.  
 
-§59
+#### §59
 
 Wahrlich:  
 Groß ist der *Weg*, groß der Himmel,  
@@ -691,7 +691,7 @@ Der *Weg* nimmt zum Gesetz das eigene Weben.
 
 ### Kapitel 26
 
-§60
+#### §60
 
 Das Schwere ist des Leichten Wurzelgrund;  
 Das Stille ist des Ungestümen Herr.  
@@ -709,7 +709,7 @@ Und ist er ungestüm, verliert er die Herr-schaft.
 
 ### Kapitel 27
 
-§61
+#### §61
 
 Ein guter Fahrer ist ohne Wagenspur;  
 Ein guter Redner ohne falschen Zungenschlag;  
@@ -720,7 +720,7 @@ Dennoch kann es nicht geöffnet werden;
 Ein gut Geknüpftes hat weder Schnur noch Schlinge,  
 Dennoch kann es nicht gelöst werden.  
 
-§62
+#### §62
 
 Deshalb der Heilige Mensch:  
 Ständig ist er gut, den Menschen zu helfen;  
@@ -729,7 +729,7 @@ Ständig ist er gut, den Wesen zu helfen;
 Darum gibt es keine verworfenen Wesen.  
 Dies nennt man die Doppelte Erleuchtung.  
 
-§63
+#### §63
 
 Wahrlich:  
 Ein guter Mensch ist des Bösen Lehrer;  
@@ -741,7 +741,7 @@ Dies nennt man das Wichtige Geheimnis.
 
 ### Kapitel 28
 
-§64
+#### §64
 
 Erkennt eure Mannheit,  
 Bewahrt eure Weibheit!  
@@ -764,7 +764,7 @@ Wer dem Erdreich ein Tal:
 Ewige Tugend hat der genug,  
 Heim kehrt er zum Groben und Schlichten.  
 
-§65
+#### §65
 
 Wenn man das Grobholz zerteilt,  
 Werden Geräte daraus.  
@@ -775,7 +775,7 @@ Ein groß Gefügtes ist ungefeilt.
 
 ### Kapitel 29
 
-§66
+#### §66
 
 Wenn einer begehrt, das Reich zu nehmen,  
 Um an ihm zu tun –  
@@ -785,7 +785,7 @@ Es darf an ihm nichts getan werden.
 Wer ihm antut, zerstört es,  
 Wer es festhält, verliert es.  
 
-§67
+#### §67
 
 Wahrlich, die Wesen:  
 Bald gehn sie vor und folgen nach alsbald;  
@@ -793,7 +793,7 @@ Nun ist ihr Atmen warm, nun ist ihr Keuchen kalt;
 Nun sind sie stark und sind alsbald verkümmert;  
 Zermalmen bald und liegen bald zertrümmert.  
 
-§68
+#### §68
 
 Deshalb, der Heilige Mensch  
 Weist ab das Ungemeine,  
@@ -802,7 +802,7 @@ Weist ab das Grandiose.
 
 ### Kapitel 30
 
-§69
+#### §69
 
 Wer nach dem *Wege* beisteht einem Menschengebieter,  
 Wird nicht mit Waffengewalt das Erdreich niederschlagen:  
@@ -812,14 +812,14 @@ Können nur Dornen und Disteln gedeihn;
 Nach einer großen Schlacht  
 Folgen Jahre der Plagen.  
 
-§70
+#### §70
 
 Ein guter [Feldherr] hat Erfolg,  
 Aber läßt es dabei bewenden.  
 Er wagt nicht, zu nehmen mit Gewalt.  
 Er hat Erfolg, aber rühme sich dessen nicht.  
 
-§128
+#### §128
 
 (Wird ein Wesen fest, so wird es alt.  
 Dieses nennt man: Nicht dem *Weg* gemäß.  
@@ -827,7 +827,7 @@ Nicht dem *Weg* gemäß wird enden bald.)
 
 ### Kapitel 31
 
-§72
+#### §72
 
 (Wohl! Eben weil die Waffen Geräte des Unheils sind  
 Und die Wesen sie hassen,  
@@ -838,7 +838,7 @@ Hält er wert die Linke;
 Gebraucht er die Waffen,  
 Hält er wert die Rechte.)  
 
-§71
+#### §71
 
 Waffen sind Geräte des Unheils,  
 Keine Geräte des Edelmannns.  
@@ -850,7 +850,7 @@ Der freute sich, andere Menschen zu töten.
 Wer aber sich freut, andere Menschen zu töten,  
 Darf seinen Willen dem Reiche nicht aufprägen.  
 
-§73
+#### §73
 
 (Bei glücklichem Anlaß ist links der Ehrenplatz;  
 Bei traurigem Anlaß ist rechts der Ehrenplatz.  
@@ -864,7 +864,7 @@ Der halte es wie beim Leichenbegängnis.)
 
 ### Kapitel 32
 
-§74
+#### §74
 
 Der *Weg* ist ewig, namenlos.  
 
@@ -877,7 +877,7 @@ Himmel und Erde würden sich vereinen,
 Um süßen Tau hinabzusenden,  
 Und das Volk wäre einträchtig ohne Befehl.  
 
-§75
+#### §75
 
 Erst wenn verfügt wird, gibt es Namen.  
 
@@ -885,7 +885,7 @@ Nachdem wir einmal mit Namen benennen,
 Wohl! so müssen wir Einhalt kennen.  
 Wer Einhalt kennt, kann ungefährdet bleiben.  
 
-§76
+#### §76
 
 Wenn du vergleichen willst  
 Des *Weges* Dasein in der Welt:  
@@ -894,7 +894,7 @@ Die strom- und meerwärts treiben.
 
 ### Kapitel 33
 
-§77
+#### §77
 
 Wer die Menschen kennt, der ist klug;  
 Wer sich selber kennt, ist erleuchtet.  
@@ -908,7 +908,7 @@ Wer stirbt, ohne zu vergehn, lebt immerdar.
 
 ### Kapitel 34
 
-§78
+#### §78
 
 Der Große *Weg* ist überströmend so,  
 Daß er nach links und rechts sich wenden mag.  
@@ -916,7 +916,7 @@ Die Wesen alle danken ihm ihr Leben,
 Ohne daß er sich einem versagt.  
 Er wirkt, doch legt sein Werk nicht in Beschlag.  
 
-§79
+#### §79
 
 Er kleidet und ernährt alle Wesen,  
 Aber macht sich nicht zum Gebieter.  
@@ -930,14 +930,14 @@ Darum kann er vollenden seine Größe.
 
 ### Kapitel 35
 
-§80
+#### §80
 
 Hältst du das Große Bild in Händen,  
 Wird sich das Erdreich zu dir wenden.  
 Sich zu der wenden und frei sein von Leid –  
 Friede, Gleichheit, All-Einigkeit!  
 
-§81
+#### §81
 
 Klang von Musik und Wohlgeruch der Speisen:  
 Die Fremden hält es, die vorüberreisen.  
@@ -949,7 +949,7 @@ Wer es gebraucht, kommt aber nie zum Grunde.
 
 ### Kapitel 36
 
-§82
+#### §82
 
 Was du willst zwängen,  
 Mußt vorher du längen.  
@@ -960,13 +960,13 @@ Den mußt du hinaufheben.
 Von wem du willst haben,  
 Den mußt du begaben.  
 
-§83
+#### §83
 
 Dies wird Subtile Erleuchtung genannt:  
 Das Weiche, Schwache besiegt  
 Des Harten und Starken Widerstand.  
 
-§84
+#### §84
 
 [Jedoch:]  
 
@@ -977,7 +977,7 @@ Darf man den Menschen nicht zeigen.
 
 ### Kapitel 37
 
-§85
+#### §85
 
 Der *Weg* ist ewig ohne Tun;  
 Aber nichts, das ungetan bliebe.  
@@ -996,7 +996,7 @@ Und das Reich wird selbst zur Ordnung finden.
 
 ### Kapitel 38
 
-§86
+#### §86
 
 Höchste Tugend weiß von der Tugend nicht;  
 Daher gibt es die Tugend.  
@@ -1017,7 +1017,7 @@ Höchste Sittsamkeit tut;
 Und wenn ihr niemand erwidert,  
 Zwingt sie die andern mit aufgekrempelten Ärmeln.  
 
-§87
+#### §87
 
 Wahrlich:  
 Wer den *Weg* verliert,  
@@ -1027,7 +1027,7 @@ Ist nachher gerecht.
 Wer die Rechtlichkeit verliert,  
 Ist nachher sittsam.  
 
-§88
+#### §88
 
 Wohl!  
 Die Sittsamkeit  
@@ -1037,7 +1037,7 @@ Vorkenntnis
 Ist eine prangende Blüte des *Weges*,  
 Aber der Torheit Beginn.  
 
-§89
+#### §89
 
 Deshalb der große, gereifte Mann:  
 Hält sich an das Völlige  
@@ -1080,7 +1080,7 @@ Sie würden gewißlich verenden.
 Fehlte dem Fürsten, dem König, wodurch sie geehrt und erhöht,  
 Sie würden zum Sturze sich wenden.  
 
-§91
+#### §91
 
 Wahrlich: Ehre hat zur Wurzel die Geringheit,  
 Hoheit zum Sockel die Niedrigkeit.  
@@ -1088,7 +1088,7 @@ Deshalb heißen die Fürsten und Könige sich selbst:
 Ich Waise, Meine Kärglichkeit, Meine Unzulänglichkeit.  
 Ist dieses nicht, weil sie zur Wurzel die Geringheit nehmen?  
 
-§92
+#### §92
 
 Wahrlich:  
 Wer allzu hochfahrend ist,  
@@ -1100,19 +1100,19 @@ Zu klingeln gleich einem Klangstein!
 
 ### Kapitel 40
 
-§93
+#### §93
 
 Im Gegensinn verläuft des *Weges* Bewegung;  
 In seiner Schwäche liegt des *Weges* Brauchbarkeit.  
 
-§94
+#### §94
 
 Aus dem Sein sind die zehntausend Wesen geboren;  
 Das Sein ist aus dem Nichtssein geboren.  
 
 ### Kapitel 41
 
-§95
+#### §95
 
 Ein Meister hohen Grades, der vom *Wege* hört,  
 Wandelt ihn gewissenhaft.  
@@ -1124,7 +1124,7 @@ Verlacht ihn lauthals.
 Was keiner verlacht,  
 Ist würdig nicht, daß man zum *Weg* es macht.  
 
-§96
+#### §96
 
 Darum heißt es in den stehenden Worten:  
 
@@ -1145,14 +1145,14 @@ Ein großer Ton klingt selten bloß;
 Ein großes Bild ist ohne Formen;  
 Der *Weg* verbirgt sich und ist namenlos.  
 
-§97
+#### §97
 
 Wohl! Nur der *Weg*  
 Ist gut im Ausleihn und vollenden.  
 
 ### Kapitel 42
 
-§98
+#### §98
 
 Der *Weg* schuf die Einheit.  
 Einheit schuf Zweiheit.  
@@ -1163,7 +1163,7 @@ Tragen das dunkle Yin auf dem Rücken,
 Das lichte Yang in den Armen.  
 Der Atem des Leeren macht ihren Einklang.  
 
-§99
+#### §99
 
 Was die Menschen verabscheun,  
 Ist Verwaistheit, Kargheit und Unzulänglichkeit:  
@@ -1172,7 +1172,7 @@ Wahrlich, die Wesen:
 Manch einer mindert sie – sie werden mehr;  
 Manch einer mehrt sie – doch sie mindern sich.  
 
-§100
+#### §100
 
 Was die Menschen lehren,  
 Das lehre auch Ich.  
@@ -1181,13 +1181,13 @@ Die wollen Wir zum Vater unserer Lehre nehmen.
 
 ### Kapitel 43
 
-§101
+#### §101
 
 Das Allerweichste der Welt  
 Holt im Rennen das Allerhärteste ein:  
 Ins Lückenlose dringt, was ohne Sein.  
 
-§102
+#### §102
 
 Daran erkennen Wir:  
 Was ohne Tun ist, wird mehr.  
@@ -1197,7 +1197,7 @@ Wird auf der Welt nur selten erreicht.
 
 ### Kapitel 44
 
-§103
+#### §103
 
 Rum oder Leib – was steht dir näher?  
 Leib oder Gut – welches zählt mehr?  
@@ -1206,7 +1206,7 @@ Darum:
 Wer allzu sorgsam spart, wird groß vergeuden;  
 Wer viel sich häuft, in Fülle büßt der ein.  
 
-§104
+#### §104
 
 Wer Genügen kennt, bleibt ohne Schande;  
 Wer Einhalt kennt, ist ohne Gefahr.  
@@ -1214,7 +1214,7 @@ So kann er dauern und bleibt immerdar.
 
 ### Kapitel 45
 
-§105
+#### §105
 
 Ein groß Vollendetes scheint voll von Rissen,  
 Doch im Gebrauch bleibt es unverschlissen.  
@@ -1225,7 +1225,7 @@ Ein groß Aufrechter scheint wie krumm;
 Ein großer Könner scheint wie dumm;  
 Ein großer Redner stockt wie stumm.  
 
-§106
+#### §106
 
 Durch Ungestüm besiegt man die Kälte;  
 Durch Stillsein besiegt man die Hitze.  
@@ -1234,7 +1234,7 @@ Machst du das Erdreich recht.
 
 ### Kapitel 46
 
-§107
+#### §107
 
 Wenn das Erdreich den *Weg* hat,  
 Stell man das Rennpferd zum Dunggeben ein.  
@@ -1242,7 +1242,7 @@ Stell man das Rennpferd zum Dunggeben ein.
 Wenn das Erdreich nicht den *Weg* hat,  
 Züchtet man Kriegspferde selbst in der Vorstadt.  
 
-§108
+#### §108
 
 Kein Frevel größer,  
 Als seinen Wünschen nachzugeben.  
@@ -1257,7 +1257,7 @@ Wird ständig genug haben.
 
 ### Kapitel 47
 
-§109
+#### §109
 
 Ohne das Tor zu verlassen,  
 Kannst du das Erdreich erfassen;  
@@ -1266,7 +1266,7 @@ Den Weg des Himmels sehn.
 Je weiter wir hinausgegangen,  
 Desto geringer wird unser Verstehn.  
 
-§110
+#### §110
 
 Deshalb der Heilige Mensch:  
 Ohne zu wandeln, versteht er;  
@@ -1275,7 +1275,7 @@ Ohne zu tun, vollendet er.
 
 ### Kapitel 48
 
-§111
+#### §111
 
 Betreibe das Lernen:  
 So mehrst du dich täglich.  
@@ -1287,7 +1287,7 @@ Führt dich zum Ohne-Tun.
 Bleib ohne Tun –  
 Nichts, das dann ungetan bliebe.  
 
-§112
+#### §112
 
 Nimmst du das Reich, sei ständig ohne Geschäft!  
 Denn wer beschäftigt ist,  
@@ -1295,7 +1295,7 @@ Ist unzulänglich, das Reich zu nehmen.
 
 ### Kapitel 49
 
-§113
+#### §113
 
 Der Heilige Mensch ist ohne beständigen Sinn:  
 Den Sinn der hundert Geschlechter  
@@ -1307,7 +1307,7 @@ So empfängt er Güte.
 Den Ungetreuen vertraue Ich auch.«  
 So empfängt er Vertrauen.  
 
-§114
+#### §114
 
 Der Heilige Mensch weilt im Reich voll Ängstlichkeit.  
 Um des Reiches willen macht er verworren seinen Sinn.  
@@ -1316,11 +1316,11 @@ Der Heilige Mensch begegnet allen wie Kindern.
 
 ### Kapitel 50
 
-§115
+#### §115
 
 Austritt ist Leben, Eintritt ist Tod.  
 
-§116
+#### §116
 
 Des Lebens Begleiter sind dreizehn.  
 Des Todes Begleiter sind dreizehn.  
@@ -1341,7 +1341,7 @@ Er ist ohne tödlich Stellen.
 
 ### Kapitel 51
 
-§117
+#### §117
 
 Der *Weg* erzeugt;  
 Die Tugend hegt;  
@@ -1362,7 +1362,7 @@ Vermehrt sie,
 stützt sie,  
 Nährt sie, beschützt sie.  
 
-§118
+#### §118
 
 Erzeugen, doch nicht besitzen;  
 Tun, doch nicht drauf baun;  
@@ -1371,7 +1371,7 @@ Die nennt man Mystische Tugend.
 
 ### Kapitel 52
 
-§119
+#### §119
 
 Das Erdreich hat einen Anbeginn:  
 Er sei des Erdreichs Mutter genannt.  
@@ -1381,7 +1381,7 @@ Wer einmal sich als Sohn erkannt,
 Wird treuer noch die Mutter wahren.  
 Sinkt hin sein Leib, ist er ohne Gefahren.  
 
-§120
+#### §120
 
 Wer seinen Zugang sperrt  
 Und seine Pforten schließt,  
@@ -1390,7 +1390,7 @@ Wer seinen Zugang öffnet
 Und fördert seine Werke,  
 Des Leib ist ohne Rettung bis zum Ende.  
 
-§121
+#### §121
 
 Kleinstes sehen heißt:  
 Erleuchtung.  
@@ -1402,7 +1402,7 @@ Dies nennt man: Sich dem Ewigen verbinden.
 
 ### Kapitel 53
 
-§122
+#### §122
 
 Gesetzt, Ich hätte wenig Wissen nur  
 Und wandelte den Großen *Weg*:  
@@ -1410,7 +1410,7 @@ Ich würde nichts fürchten, als abzuweichen.
 Denn der Große *Weg* ist völlig plan;  
 Nur, das Volk liebt die Saumpfade.  
 
-§123
+#### §123
 
 Ist der Palast voll Prunk gebaut,  
 Doch die Felder voll von Kraut;  
@@ -1424,14 +1424,14 @@ Solches kann der *Weg* nicht sein!
 
 ### Kapitel 54
 
-§124
+#### §124
 
 Was gut gepflanzt ist, wird nicht ausgereutet;  
 Was gut umhüllt ist, wird nicht ausgebeutet.  
 So wird der Opferdienst von Sohn und Enkel  
 Ohn' Unterbrechen ausgebreitet.  
 
-§125
+#### §125
 
 Wenn du dies pflegst für dich allein,  
 Wird deine Tugend wahrhaft sein.  
@@ -1455,7 +1455,7 @@ Durch dieses.
 
 ### Kapitel 55
 
-§126
+#### §126
 
 Die Völligkeit dessen, der Tugend in sich versammelt,  
 Gleicht der eines neugeborenen Kindleins.  
@@ -1471,14 +1471,14 @@ Den ganzen Tag schreit es,
 Dennoch wird es nicht heiser:  
 Das ist der Gipfel natürlichen Einklangs.  
 
-§127
+#### §127
 
 Den Einklang kennen heißt: Ewig sein.  
 Das Ewige kennen heißt: Erleuchtet sein.  
 Das Leben mehren heißt: Unheil beschwören.  
 Bewußt den Atem regeln heißt: Stärke (Starrheit) begehren.  
 
-§128
+#### §128
 
 Wird ein Wesen fest, so wird es alt.  
 Dieses nennt man: Nicht dem *Weg* gemäß.  
@@ -1486,12 +1486,12 @@ Nicht dem *Weg* gemäß wird enden bald.
 
 ### Kapitel 56
 
-§129
+#### §129
 
 Ein Wissender redet nicht:  
 Ein Redender weiß nicht.  
 
-§130
+#### §130
 
 [Der Heilige Mensch]  
 Versperrt seinen Zugang,  
@@ -1502,7 +1502,7 @@ Beschwichtigt sein Glänzen,
 Vereint seinen Staub.  
 Dies nennt man Mystische Vereinigung.  
 
-§131
+#### §131
 
 Darum ist er  
 Unerreichbar aller Vertrautheit,  
@@ -1516,7 +1516,7 @@ Darum ist er geehrt vor allen andern im Reich.
 
 ### Kapitel 57
 
-§132
+#### §132
 
 Mit dem Rechten regiert man das Land;  
 Mit Ordnungswidrigem gebraucht man die Waffen;  
@@ -1525,7 +1525,7 @@ Mit Ungeschäftigkeit nimmt man das Reich.
 (Und woher weiß Ich, daß dem so ist?  
 Durch dieses.)  
 
-§133
+#### §133
 
 Gibt es im Reich viel Hindrung und Verbot,  
 So wird das Volk nur ärmer werden.  
@@ -1536,7 +1536,7 @@ Kommt auf viel Ordnungswidrigkeit.
 Je mehr Gesetz und Weisung man erläßt,  
 Desto mehr Räuber gibts und Diebe.  
 
-§134
+#### §134
 
 Darum sagt der Heilige Mensch:  
 
@@ -1551,14 +1551,14 @@ Und das Volk wird von selber schlicht.«
 
 ### Kapitel 58
 
-§135
+#### §135
 
 Wes Herrschaft bang-befangen,  
 Des Volk wird harmlos prangen;  
 Wes Herrschaft strebig-straff,  
 Des Volk wird arg und schlaff.  
 
-§136
+#### §136
 
 Der Segen, ach! lehnt an das Unheil sich;  
 Das Unheil, ach! es kauert vor dem Segen.  
@@ -1569,7 +1569,7 @@ Und muß das Gute sich in Dämonie verkehren.
 Daß blind der Menschen Blick,  
 Des Tage werden ewig währen!  
 
-§137
+#### §137
 
 Deshalb, der Heilige Mensch  
 Ist vierkant, ohne zu schneiden;  
@@ -1579,7 +1579,7 @@ Ist glänzend, ohne zu blenden.
 
 ### Kapitel 59
 
-§138
+#### §138
 
 Um die Menschen zu regieren  
 Um dem Himmel zu dienen,  
@@ -1595,7 +1595,7 @@ So kennt niemand seinen First.
 Wes höchsten First niemand kennt,  
 Der darf das Land haben.  
 
-§139
+#### §139
 
 Wer des Landes Mutter hat,  
 Der kann ewig dauern.  
@@ -1606,12 +1606,12 @@ Und dauernder Scham.
 
 ### Kapitel 60
 
-§140
+#### §140
 
 Regier ein großes Land,  
 Als ob du brietest kleine Grundeln!  
 
-§141
+#### §141
 
 Wenn nach dem *Weg* ist überwacht das Reich,  
 So werden die Dämonen nicht  
@@ -1630,7 +1630,7 @@ Hat Tugend sich im Wechsel eingefunden.
 
 ### Kapitel 61
 
-§142
+#### §142
 
 Ein großes Land soll sein wie Stromes Tiefebene,  
 Soll sein des Erdreichs Sammelbecken,  
@@ -1664,13 +1664,13 @@ Muß das große sich füglich erniedrigen.
 
 ### Kapitel 62
 
-§143
+#### §143
 
 Der *Weg* ist der zehntausend Wesen Hort:  
 Der guten Menschen Schatz,  
 Der Bösen Zufluchtsort.  
 
-§144
+#### §144
 
 Durch schöne Worte kannst  
 Du Würde dir erhandeln;  
@@ -1680,7 +1680,7 @@ Nur durch dein rechtes Wandeln.
 (Selbst die Bösen unter den Menschen,  
 Warum sollte man sie verwerfen?)  
 
-§145
+#### §145
 
 Wahrlich:  
 Erhebt man den Himmelssohn  
@@ -1699,7 +1699,7 @@ Darum ward er verehrt vor allem andern im Reich.
 
 ### Kapitel 63
 
-§146
+#### §146
 
 Tun, was ohne Tun.  
 Schaffen, was ohne Geschäft.  
@@ -1707,7 +1707,7 @@ Kosten, was ohne Köstlichkeit.
 Nimm Großes für klein, Vieles für wenig!  
 Vergilt Groll mit Tugend!  
 
-§147
+#### §147
 
 Schwieriges planen, solang es leicht;  
 Großes tun, solang es klein:  
@@ -1716,19 +1716,19 @@ Sind sicher aus Leichtem gemacht;
 Die größten Werke der Welt  
 Sind sicher aus Kleinstem gemacht.  
 
-§148
+#### §148
 
 Deshalb der Heilige Mensch:  
 Bis ans Ende tut er nichts Großes.  
 Darum kann er vollenden seine Größe.  
 
-§149
+#### §149
 
 Wohl!  
 Wer vorschnell Ja sagt, findet kaum Vertrauen;  
 Wer vieles leicht nimmt, hat viel Schwierigkeit.  
 
-§150
+#### §150
 
 Deshalb der Heilige Mensch:  
 Gleichsam tut er sich schwer.  
@@ -1736,7 +1736,7 @@ Darum bleibt er ohne Schwierigkeit bis ans Ende.
 
 ### Kapitel 64
 
-§151
+#### §151
 
 Was friedlich ist, wird leicht gehalten;  
 Mit dem, was noch kein Zeichen gab, ist leicht zu schalten.  
@@ -1745,7 +1745,7 @@ Was subtil, wird leicht zerstreut.
 Walte der Dinge, bevor sie da sind!  
 Regiere, was noch nicht im Widerstreit!  
 
-§152
+#### §152
 
 Auch der gewaltigste Baum  
 War als Keimling fein wie Flaum.  
@@ -1754,12 +1754,12 @@ Stieg aus einem Häufchen Erde hinan;
 Eine Reise von tausend Meilen  
 Fängt unter deinem Fuße an.  
 
-§153
+#### §153
 
 Wer etwas tut, zerstört es;  
 Wer etwas festhält, verliert es.  
 
-§154
+#### §154
 
 Deshalb, der Heilige Mensch  
 Ist ohne Tun und darum ohne Zerstörung,  
@@ -1769,7 +1769,7 @@ Zerstört es ständig, wenns beinah vollendet ist.
 Gib acht auf das Ende wie das Beginnen,  
 So kann dein Werk dir nicht mißlingen!  
 
-§155
+#### §155
 
 Deshalb, des Heilige Mensch  
 Begehrt, nicht zu begehren;  
@@ -1781,7 +1781,7 @@ Aber wagt nicht zu tun.
 
 ### Kapitel 65
 
-§156
+#### §156
 
 Wer im Altertum gut war, des *Weges* zu walten,  
 Tat es nicht, damit das Volk erleuchtet würde,  
@@ -1789,7 +1789,7 @@ Sondern, um es damit töricht zu halten.
 Denn das Volk ist um so schwerer zu regieren,  
 Je größer seine Klugheit ist.  
 
-§157
+#### §157
 
 Wahrlich:  
 Wer mit Klugheit herrscht im Land,  
@@ -1809,7 +1809,7 @@ Zum großen Gleichströmen.
 
 ### Kapitel 66
 
-§158
+#### §158
 
 Was macht, daß Strom und Meer vermögen,  
 König zu sein den hundert Flußtälern?  
@@ -1817,7 +1817,7 @@ Weil sie gut sind im Niedrigsein,
 Darum vermögen sie,  
 König zu sein den hundert Flußtälern.  
 
-§159
+#### §159
 
 Deshalb:  
 Wer dem Volk will über sein,  
@@ -1825,7 +1825,7 @@ Stellt sich in seinem Wort ihm unter.
 Wer dem Volk voran sein will,  
 Stellt sich mit seinem Selbst dahinter!  
 
-§160
+#### §160
 
 Deshalb, der Heilige Mensch  
 Weilt oben, ohne das Volk zu belasten;  
@@ -1839,7 +1839,7 @@ Mit ihm zu streiten.
 
 ### Kapitel 67
 
-§161
+#### §161
 
 Im Reich sagt jeder, Mein Weg wäre groß,  
 Doch er gleiche nicht dem Herkömmlichen.  
@@ -1848,7 +1848,7 @@ Darum gleicht er nicht dem Herkömmlichen.
 Und wenn er herkömmlich wäre,  
 Er wäre seit langem verkümmert.  
 
-§162
+#### §162
 
 Wohl! Ich habe drei Kostbarkeiten,  
 Die ich mir halte und hüte.  
@@ -1867,7 +1867,7 @@ Ist man großzügig unter Verzicht auf Mäßigkeit;
 Geht man voran unter Verzicht auf das Zurückstehn –  
 Das wird zum Tode führen!  
 
-§163
+#### §163
 
 Wohl!  
 Wer mit Barmherzigkeit kämpft, der siegt;  
@@ -1877,7 +1877,7 @@ Mit Barmherzigkeit schützt er ihn.
 
 ### Kapitel 68
 
-§164
+#### §164
 
 Wer gut als Ritter, ist nicht streitbar;  
 Ein guter Kämpfer wütet nicht;  
@@ -1890,7 +1890,7 @@ Dies nennt man: First der Himmels-Paarung.
 
 ### Kapitel 69
 
-§165
+#### §165
 
 Beim Gebrauch der Waffen gibt es seit alters ein Wort:
 »Ich wage nicht, den Hausherrn zu machen, Sondern mache den Gast;
@@ -1903,12 +1903,12 @@ Vorgehn auch ohne Vorgehn,
 Festhalten auch ohne Waffe,
 Angreifen auch ohne Feind.
 
-§166
+#### §166
 
 Kein Unheil größer, als ohne Feind zu sein.
 Ohne Feind kann ich verlieren Meine Kostbarkeit.
 
-§167
+#### §167
 
 Wahrlich:
 Wenn zwei die Waffe gegeneinander erheben,
@@ -1916,7 +1916,7 @@ Wird der, der trauert, siegen.
 
 ### Kapitel 70
 
-§168
+#### §168
 
 Mein Wort sind
 Sehr leicht zu verstehen
@@ -1929,12 +1929,12 @@ Mein Werk hat einen Herrn.
 Wohl! Nur weil man sich nicht kennt,
 Versteht man auch Mich nicht.
 
-§169
+#### §169
 
 Die Seltenen sind es, die Mich verstehn;
 Und die Mir folgen, sind angesehn.
 
-§170
+#### §170
 
 Deshalb der Heilige Mensch:
 Trägt am Leibe das härene Gewand,
@@ -1942,14 +1942,14 @@ Aber am Herzen das Kleinod.
 
 ### Kapitel 71
 
-§171
+#### §171
 
 Um sein Nichtwissen wissen  
 Ist das Höchste.  
 Um sein Wissen nicht wissen  
 Ist krankhaft.  
 
-§172
+#### §172
 
 Wohl! Nenne das Kranke krank!  
 So nur bist du nicht krank.  
@@ -1960,7 +1960,7 @@ Deshalb ist er nicht krank.
 
 ### Kapitel 72
 
-§173
+#### §173
 
 Erst wenn das Volk vor deiner Macht nicht bangt,  
 Hast du die größte Macht erlangt.  
@@ -1970,7 +1970,7 @@ Mache nicht mühsam, wovon sie leben!
 Wohl, nur wenn du sie nicht mühst,  
 Werden sie deiner nicht müde.  
 
-§174
+#### §174
 
 Deshalb der Heilige Mensch:  
 Er kennt sich selbst,  
@@ -1983,7 +1983,7 @@ Von jenem laß! Dieses erfaß!
 
 ### Kapitel 73
 
-§175
+#### §175
 
 Mutig sein beim Wagen bedeutet Tod;  
 Mutig sein beim Nicht-Wagen bedeutet Leben.  
@@ -1992,12 +1992,12 @@ Bringt eines Nutzen, das andere Schaden.
 Was der Himmel haßt,  
 Wer kennt den Grund davon?  
 
-§150
+#### §150
 
 (Deshalb der Heilige Mensch:  
 Gleichsam tut er sich schwer.)  
 
-§176
+#### §176
 
 Des Himmels Weg:  
 Er streitet nicht  
@@ -2009,7 +2009,7 @@ Und dennoch kommt alles von selbst;
 Sanft ist er  
 Und ist dennoch gut im Planen.  
 
-§177
+#### §177
 
 Des Himmels Netz ist endlos weit;  
 So groß die Maschen –  
@@ -2017,7 +2017,7 @@ Dennoch entgeht ihm nichts.
 
 ### Kapitel 74
 
-§178
+#### §178
 
 Wenn das Volk nicht vor dem Tode bangt,  
 Warum es dann mit dem Tode schrecken?  
@@ -2033,7 +2033,7 @@ Ists selten, daß er sich nicht die Hand verletzt.
 
 ### Kapitel 75
 
-§179
+#### §179
 
 Wenn das Volk hungert, so darum,  
 Weil der Steuern, die seine Oberen verzehren,  
@@ -2045,7 +2045,7 @@ Wenn das Volk den Tod gering achtet, so darum,
 Weil es dem Leben zu völlig nachgeht.  
 Nur darum achtet es den Tod gering.  
 
-§180
+#### §180
 
 Wohl! Nicht zu haben,  
 Wodurch das Leben schätzenswert,  
@@ -2053,7 +2053,7 @@ Ist besser, als das Leben wertzuschätzen.
 
 ### Kapitel 76
 
-§181
+#### §181
 
 Wenn den Mensch geboren wird,  
 Ist er weich und schwach;  
@@ -2069,7 +2069,7 @@ Wahrlich:
 Das Feste, Starke ist des Todes Begleiter;  
 Das Weich, Schwache des Lebens Begleiter.  
 
-§182
+#### §182
 
 Deshalb:  
 Sind die Waffen stark, dann siegen sie nicht.  
@@ -2079,7 +2079,7 @@ Das Weiche, Schwache ist hochgestellt.
 
 ### Kapitel 77
 
-§183
+#### §183
 
 Des Himmels Weg, wie gleicht er dem Bogenspannen!  
 Was hoch ist, wird niedergedrückt;  
@@ -2094,13 +2094,13 @@ Doch der Menschen Weg ist anders:
 Sie mindern die, bei denen es nicht reicht,  
 Um es darzubringen denen, die zu viel haben.  
 
-§184
+#### §184
 
 Wer ist imstande, sein Zu-Viel  
 Darzubringen dem Reiche?  
 Nur der, der den *Weg* hat.  
 
-§185
+#### §185
 
 Deshalb der Heilige Mensch:  
 Er tut, aber baut nicht darauf:  
@@ -2109,7 +2109,7 @@ Denn er wünscht nicht zu zeigen seine Trefflichkeit.
 
 ### Kapitel 78
 
-§186
+#### §186
 
 Nichts auf Erden ist so weich und schwach  
 Wie das Wasser.  
@@ -2117,14 +2117,14 @@ Dennoch, im Angriff auf das Feste und Starke
 Wird es durch nichts besiegt:  
 Das Nicht-Sein macht ihm dies leicht.  
 
-§187
+#### §187
 
 Schwaches besiegt das Starke;  
 Weiches besiegt das Harte.  
 Niemand auf Erden, der das nicht weiß,  
 Niemand, der ihm zu folgen vermag.  
 
-§188
+#### §188
 
 Deshalb sagt der Heilige Mensch:  
 
@@ -2133,21 +2133,21 @@ Sei Herr des Flur- und Kornaltars genannt.
 Wer Landes Unheil auf sich nimmt,  
 Der ist zum König des Erdreichs bestimmt.«  
 
-§189
+#### §189
 
 Wahr Worte klingen  
 Oft wie Gegensinn.  
 
 ### Kapitel 79
 
-§190
+#### §190
 
 Wenn wir den größten Groll beschwichtigen,  
 Verbleibt des Grolls genug.  
 Wie stellen trotzdem wir  
 Uns mit den andern gut?  
 
-§191
+#### §191
 
 Deshalb, der Heilige Mensch  
 Behält den linken Teil der Schuldverschreibung,  
@@ -2155,14 +2155,14 @@ Aber treibt nicht ein von den Menschen:
 Wer Tugend hat, obliegt der Schuldverschreibung  
 Wer tugendlos, obliegt der Schuld-Eintreibung.  
 
-§192
+#### §192
 
 Des Himmels *Weg* ist ohne Günstlingsgeist,  
 Gibt ewig dem, der sich als gut erweist.  
 
 ### Kapitel 80
 
-§193
+#### §193
 
 Ein kleines Land! Ein Volk gering an Zahl!  
 Und gäb es dort Geräte zehnfach, hundertfach  
@@ -2184,7 +2184,7 @@ War dennoch keiner, der zum Nachbarn fand.
 
 ### Kapitel 81
 
-§194
+#### §194
 
 Trauenswerte Worte sind nicht schön;  
 Schöne Worte sind nicht trauenswert.  
@@ -2193,7 +2193,7 @@ Wer disputiert, ist nicht gut.
 Ein Wissender ist nicht gelehrt;  
 Ein Gelehrter nicht wissend.  
 
-§195
+#### §195
 
 Der Heilige Mensch häuft nicht an.  
 Je mehr er für die Menschen tut,  
@@ -2201,7 +2201,7 @@ Desto mehr hat er selbst.
 Je mehr er den Menschen gibt,  
 Desto mehr wird ihm selbst zuteil.  
 
-§196
+#### §196
 
 Des Himmels Weg:  
 Er nützt, ohne zu schaden.  

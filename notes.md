@@ -1095,7 +1095,7 @@ A Simple Proof that in Hardy-Weinberg Mating, Allele Frequencies are Preserved
 
 Assume `$n$` alleles `$A_1, \dots A_n$` with frequencies `$p_1, \dots, p_n$` so that `$\sum_{i=1}^{n} p_i=1$`.
 
-The genotypes resulting from these alleles are `$A_1 A_1, \dots, A_1, A_n, A_2, A_2, \dots, A_2, A_n, \dots, A_n A_n$`,
+The genotypes resulting from these alleles are `$A_1 A_1, \dots, A_1 A_n, A_2 A_2, \dots, A_2 A_n, \dots, A_n A_n$`,
 where `$A_k A_k$` has frequency `$p_k^2$`, and `$A_i A_j$` (`$i \not =j$`)
 has frequency `$2 p_i p_j$`.
 

@@ -36,7 +36,7 @@ January 2022
 	* [Sidechannel Attacks](./bcis_and_alignment.html#Sidechannel-Attacks)
 * [Text Reviews](./text_reviews.html)
 	* [Anti-Aging: State of the Art (JackH, 2020)](./text_reviews.html#AntiAging-State-of-the-Art-JackH-2020)
-* [Notes](./note.html)
+* [Notes](./notes.html)
 	* [A Simple Proof that in Hardy-Weinberg Mating, Allele Frequencies are Preserved](./notes.html#A-Simple-Proof-that-in-HardyWeinberg-Mating-Allele-Frequencies-are-Preserved)
 
 December 2021
