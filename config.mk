@@ -36,6 +36,7 @@ HTML=index.html \
 	considerations_on_cryonics.html \
 	cryonics_outside_us.html \
 	daygame_cost_benefit.html \
+	declaration.html \
 	epigrams.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \

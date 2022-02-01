@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-01-31, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-02-01, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,18 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Karthago (Friedrich Schiller, 1805)
+* Einem jungen Freunde (Friedrich Schiller, 1805)
+* Die unüberwindliche Flotte (Friedrich Schiller, 1805)
+* [Intentional radiator (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Intentional_radiator)
+* [Quantum topology (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Quantum_topology)
+* An die Freude (Friedrich Schiller, 1805)
+* Einer jungen Freunden ins Stammbuch (Friedrich Schiller, 1805)
+* Der spielende Knabe (Friedrich Schiller, 1805)
+* Die Weltweisen (Friedrich Schiller, 1805)
+* [Worldly cardinal (English Wikipedia)](https://en.wikipedia.org/wiki/Worldly_cardinal)
+* [Hypertranscendental number (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Hypertranscendental_number)
+* [Brjuno number (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Brjuno_number)
 * Das verschleierte Bild zu Sais (Friedrich Schiller, 1805)
 * Der Triumph der Liebe (Friedrich Schiller, 1805)
 * [Senryū (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Senryū)
@@ -30,7 +42,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Danish Protest Pig (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Danish_Protest_Pig)
 * Die Kindesmörderin (Friedrich Schiller, 1805)
 * \* Population Genetics (John H. Gillespie, 2004)
-* \* Über die Natur von Wahrheit und Falschheit (Bertrand Russell, 1910)
+* Über die Natur von Wahrheit und Falschheit (Bertrand Russell, 1910)
 * \* Mastering the Core Teachings of the Buddha (Daniel M. Ingram, 2018)
 * The Game (Neil Strauss, 2005)
 * [Heterotic string theory (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Heterotic_string_theory)

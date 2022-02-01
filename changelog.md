@@ -8,6 +8,11 @@
 Changelog
 =========
 
+February 2022
+--------------
+
+* Now hosting a copy of [A Declaration of the Independence of Cyberspace](./declaration.html)
+
 January 2022
 -------------
 
@@ -31,6 +36,8 @@ January 2022
 	* [Chapter 6](./rs_solutions.html#Chapter-6)
 		* [Stray Exercise 4](./rs_solutions.html#Stray-Exercise-4_1)
 		* [6.4](./rs_solutions.html#64)
+* [Exercises for “The Jazz Piano Book”](./tjpb_exercises.html)
+	* [Chapter 4](./tjpb_exercises.html#Chapter-4)
 * Imported [Solutions to “Programming in Lua”](./pil_solutions.html)
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html):
 	* [Sidechannel Attacks](./bcis_and_alignment.html#Sidechannel-Attacks)
@@ -38,6 +45,7 @@ January 2022
 	* [Anti-Aging: State of the Art (JackH, 2020)](./text_reviews.html#AntiAging-State-of-the-Art-JackH-2020)
 * [Notes](./notes.html)
 	* [A Simple Proof that in Hardy-Weinberg Mating, Allele Frequencies are Preserved](./notes.html#A-Simple-Proof-that-in-HardyWeinberg-Mating-Allele-Frequencies-are-Preserved)
+* [Mathematics Notation Convention](./mathematics_notation_convention.html)
 
 December 2021
 --------------
