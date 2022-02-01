@@ -410,6 +410,10 @@ significant moral growth in any case.)
 If we allow the preferences of possible people to influence our decision
 procedure, we run into trouble *very quickly*.
 
+In the most realistic case, imagine we can perform genetic editing (or
+[embryo selection](https://www.gwern.net/Embryo-selection)) to select
+for traits in new humans.
+
 #### Tyrannical Possible People
 
 In preference utilitarianism, you might get robbed by possible people who

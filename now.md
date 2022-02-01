@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2022-01-09, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2022-02-01, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -57,7 +57,6 @@ Currently, I am actively reading the following books:
 * Daygame (Tom Torero, 2016)
 * Mastering the Core Teachings of the Buddha (Daniel M. Ingram, 2018)
 * Naïve Set Theory (Paul R. Halmos, 1960)
-* Pattern Recognition and Machine Learning (Christopher M. Bishop, 2006)
 * Philosophische und politische Aufsätze (Bertrand Russell, 1971)
 * Population Genetics (John H. Gillespie, 2004)
 * Reactive Systems (Anna Ingólfsdóttir/Jiří Srba/Kim G. Larsen/Luca Aceto, 2007)

@@ -867,6 +867,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * /u/redditselloutbiddy
 * TheRedQuest
 * Brian Tomasik
+* CronoDAS
 
 ### Fiction
 
@@ -941,7 +942,6 @@ eine kontingente verschmelzung von fast-sein und konkretheit"
 ### Archiving
 
 * Type up John Nash's Thesis in LaTeX
-* Host a copy of A Declaration of the Independence of Cyberspace
 
 Data Sets
 ----------

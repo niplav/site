@@ -872,3 +872,12 @@
 2022-01-30T18:02:02.000000Z	all the characters in the Kullback-Leibler divergence are actually dead
 2022-01-30T18:11:07.000000Z	saying “without loss of generality” is a great way to hide bullshit in a proof. i have applied it many times with huge success
 2022-01-30T18:59:25.000000Z	“i admire your optimism”=“wow, you are *way* more r-worded than i thought”
+2022-01-31T13:37:50.000000Z	you are a successful person who has started recently reading lesswrong, i am a novel rodent control agent
+2022-01-31T15:22:29.000000Z	first option in the multiple choice quiz is “none of the above”. don't know what to think about this tbqh
+2022-01-31T22:27:00.000000Z	i am very ready to start a lesswrong shitstorm by asking for “a good textbook on causal inference, unlike the Pearl one”
+2022-01-31T23:37:05.000000Z	lecturer is describing von Neumann as an economist, which, yeah, isn't entirely incorrect, but…
+2022-02-01T15:03:47.000000Z	“metamask”, “betamax”, coincidence?
+2022-02-01T21:37:57.000000Z	antisemanticity
+2022-02-01T22:34:46.000000Z	why does my latin anki vocab deck contain a card for rhodium, an element discovered in 1803‽
+2022-02-01T22:35:33.000000Z	one by one as they occurred.
+2022-02-01T22:58:47.000000Z	what's the cardinality of the set containing all uncomputable reals?

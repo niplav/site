@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2022-01-27, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2022-02-01, language: english, status: in progress, importance: 6, confidence: log*
 
 > __If you take away just one thing from this website,
 it should be that I think [you would want to sign up for
@@ -48,6 +48,7 @@ Writing
 
 * [Equally Many Heads and Tails](./equally_many_heads_and_tails.html)
 * [Circle Combinations](./circle_combinations.html)
+* [Mathematics Notation Convention](./mathematics_notation_convention.html)
 
 #### Philosophy
 
@@ -62,6 +63,7 @@ Writing
 
 * [Rationalist Gods](./rationalist_gods.html)
 * [99 Problems](./99_problems_collection.html)
+* [Recommendation-Worthy Websites](./sites.html)
 
 ### Other
 
@@ -108,6 +110,7 @@ Transcriptions
 --------------
 
 * [Tao Tê King](./tao_te_king.html)
+* [A Declaration of the Independence of Cyberspace](./declaration.html)
 
 Archives
 --------
