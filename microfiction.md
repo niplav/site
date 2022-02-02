@@ -3,7 +3,8 @@
 
 *author: niplav, created: 2021-10-13, modified: 2022-01-28, language: multiple, status: in progress, importance: 1, confidence: other*
 
-> __.__
+> __Very small pieces of fiction and things that are sufficiently like
+fiction.__
 
 Microfiction
 =============

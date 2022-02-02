@@ -1,9 +1,10 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-04-18, modified: 2021-04-21, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-04-18, modified: 2021-04-21, language: english, status: on hold, importance: 2, confidence: likely*
 
-> __.__
+> __Solutions to the book “A Primer in Social Choice Theory” by
+Wulf Gaertner.__
 
 Solutions to “A Primer in Social Choice Theory”
 ================================================
