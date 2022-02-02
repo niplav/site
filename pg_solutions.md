@@ -1,9 +1,13 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-01-25, modified: 2022-01-26, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2022-01-25, modified: 2022-02-02, language: english, status: in progress, importance: 2, confidence: likely*
 
-> __.__
+> __Some solutions to exercises in the book “Population Genetics” by
+[John H. Gillespie](https://en.wikipedia.org/wiki/John_H._Gillespie). I
+did not simply copy out the solutions at the end of each chapter, and
+sometimes didn't even check the solutions against my own. Therefore,
+these might be faulty.__
 
 Solutions to “Population Genetics”
 ===================================
@@ -45,5 +49,22 @@ because it's just the upper half of the square again.
 Checking, these three do sum to 1: `$0.0859+0.64005+0.27405=1$`.
 
 ### Problem 1.5
+
+	setrgb(0;0;0)
+	grid([0.00001 1 0.1];[0 10 1])
+	xtitle("q")
+	ytitle("Ratio of heterozygotes to homozygotes")
+
+	plot({(2*(1-x))%x})
+
+	setrgb(0;0;1)
+	plot({(2*(1-x))%x})
+	text(200;200;"2p/q")
+
+	setrgb(1;0;0)
+	plot({2%x})
+	text(250;250;"2/q")
+
+	draw()
 
 ![Graph for 1.5](./img/pg_solutions/p1.5.png)

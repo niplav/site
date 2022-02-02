@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2022-01-25, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2022-02-02, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks (broadly defined as "a book with
 exercises"), and create some stuff while reading them (e.g. making
@@ -29,15 +29,15 @@ mental model of how it works.
 	* Chapter 3: 3.1-3.3, 3.9, 3.12, 3.30, 3.37, 3.41
 	* Chapter 4: 4.1-4.3, 4.9
 * Read:
-	* p. 1-120
+	* p. 1-135
 
 “Population Genetics”
 ---------------------
 
-* [Flashcards]()
+* [Flashcards](./flash/population_genetics.apkg)
 * [Solutions to Exercises](./pg_solutions.md)
 * Read:
-	* p. 1-2
+	* p. 1-24
 
 ”Naïve Set Theory”
 ------------------

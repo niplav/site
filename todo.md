@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-01-27, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-02-02, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -297,7 +297,7 @@ Texts
 	* Pareto Improvements
 	* Hedonic Treadmill
 	* Progress
-	* Easterlin's Paradox
+	* Easterlin Paradox
 	* Status Games
 * In Praise of Cost-Benefit Analyses
 * Intentional vs. Non-Intentional Consciousness
@@ -335,7 +335,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		wealthier is still a good idea.
 	* Read the post carefully
 	* Read up on the research
-	* Perhaps re-emphasize as "Easterlin's Paradox"?
+	* Perhaps re-emphasize as "Easterlin Paradox"?
 * Contra Morse on Fame
 	* https://ethanmorse.github.io/thoughts/famous.html
 
@@ -594,6 +594,8 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * The UTMs-simulate-each-other solution to the Python-with-Witch problem
 	* Look up LW shortform comment on this
 * Clanishness vs. tribalism and relatedness in Dunbars number sized groups
+* Upwing and downwing as new political fronts
+	* Hat-grab at John David Pressman
 
 ### Collections
 
@@ -706,6 +708,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Cryonics in Germany
 	* Cryonics in Europe
 	* Extremely Long-Lived Institutions
+	* Easterlin Paradox
 * Elon Musk Forecast Correction Function
 	* Code: `1.8239233 * (forecasted-forecast_made) + 48.0502205` (days)
 	* [Original](https://web.archive.org/web/20210302224031/https://anthony.boyles.cc/Essays/portfolio/ElonMuskForecastCorrectionFunction.html)

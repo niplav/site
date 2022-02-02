@@ -1,9 +1,11 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-04-19, modified: 2021-04-26, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-04-19, modified: 2022-02-02, language: english, status: on hold, importance: 2, confidence: likely*
 
-> __.__
+> __Solutions to the textbook “Pattern
+Recognition and Machine Learning” by [Christopher
+M. Bishop](https://en.wikipedia.org/wiki/Christopher_Bishop).__
 
 Solutions to “Pattern Recognition and Machine Learning”
 =======================================================

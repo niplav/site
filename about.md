@@ -279,6 +279,7 @@ being-finished-ness):
 * "draft"
 * "in progress"
 * "finished"
+* "on hold"
 * "abandoned"
 
 Truth be told, nothing on here is ever finished, even when it is
