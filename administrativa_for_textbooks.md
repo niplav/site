@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2022-02-02, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2022-02-04, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks (broadly defined as "a book with
 exercises"), and create some stuff while reading them (e.g. making
@@ -11,8 +11,6 @@ benefit.__
 
 Administrativa for Textbooks
 ============================
-
-<!--TODO: Add Programming in Lua-->
 
 For flashcards, if I include the screenshot of an algorithm, the goal
 is not to learn the algorithm by heart in all detail, but have a good
@@ -82,7 +80,7 @@ since it does not include exercises. It is nonetheless included here
 because I wrote flashcards for it.
 
 * [Flashcards](./flash/causality.apkg)
-	* p. 1-125 (replacing P with hat with Ṗ and x with hat with ẋ for the simple reason that I couldn't find a way to make MathJax create the former)
+	* p. 1-125
 	* p. 155-223
 * Read:
 	* p. 1-125

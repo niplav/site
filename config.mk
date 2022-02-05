@@ -41,6 +41,7 @@ HTML=index.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
 	exercise_log.html \
+	finesse.html \
 	flags.html \
 	generalizing_diamond_square.html \
 	language.html \
@@ -60,6 +61,7 @@ HTML=index.html \
 	tao_te_king.html \
 	text_reviews.html \
 	textbook_discord_servers.html \
+	third.html \
 	toy_ai_takeoff_model.html \
 	two_people_on_a_planet.html \
 	utilitarian_compliments.html \
