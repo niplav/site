@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-02-01, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-02-03, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,12 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Z0 sex-determination system (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Z0_sex-determination_system)
+* [Heterogametic sex (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Heterogametic_sex)
+* [Gynogenesis (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Gynogenesis)
+* [Cytomixis (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Cytomixis)
+* [Semi-infinite (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Semi-infinite)
+* \* Die geistigen Väter des Faschismus (Bertrand Russell, 1935)
 * Karthago (Friedrich Schiller, 1805)
 * Einem jungen Freunde (Friedrich Schiller, 1805)
 * Die unüberwindliche Flotte (Friedrich Schiller, 1805)

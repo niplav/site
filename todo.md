@@ -111,6 +111,20 @@ Texts
 * How difficult is it to manipulate real existing prediction markets?
 	* PredictIt
 	* BetFair
+* Algorithms for quantifying the finesse of calibration plots
+	* Input: A list of `n` forecasts and their resolutions
+	* First idea:
+		* For i=2, n
+			* Segment the forecasts into i different segments, ordered by probability
+			* Calculate average outcome
+			* For two adjacent segments, calculate the slope for those values
+			* Append the mean of all slopes of adjacent segments to the array `output`
+		* Return `output`
+	* Second idea:
+		For i=2, n
+			* Segment the forecasts into i different segments, ordered by probability
+			* Re-scale each segment to give probabilities from 0 to 1
+			* Use a proper scoring rule? Idk I haven't thought this through
 
 ### Population
 
@@ -1364,6 +1378,7 @@ Wikipedia Articles
 * Back-door/Front-door criterion
 * Place premium
 * Pigou bound
+* Myerson's Lemma
 
 ### Improve
 
