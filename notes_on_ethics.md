@@ -400,6 +400,8 @@ significant moral growth in any case.)
 
 <!--What did I mean by this?
 
+TODO
+
 #### Second-Order Preference
 
 #### Reflective Equilibrium
@@ -412,21 +414,74 @@ procedure, we run into trouble *very quickly*.
 
 In the most realistic case, imagine we can perform genetic editing (or
 [embryo selection](https://www.gwern.net/Embryo-selection)) to select
-for traits in new humans.
+for traits in new humans, and assume that the psychological profile of
+people who really want to have been born is at least somewhat genetically
+determined, and we can identify and modify those genes. (Alternatively,
+imagine that we have found out how to raise people so that they have a
+great preference for having been born, perhaps by an unanticipated leap
+in developmental psychology).
 
-#### Tyrannical Possible People
+Then it seems like preference utilitarianism that includes possible
+people demands that we try to grow humanity as quickly as possible,
+with most people being modified in such a way that they strongly prefer
+being alive and having been born (if they are unusually inept in one or
+more ways, we would like to have some people around who can support them).
 
-In preference utilitarianism, you might get robbed by possible people who
-really want to exist. Or by cycles of people who want to be each other
-(A wants to be B, but B wants to be A).
+However, this *preference* for having been born doesn't guarantee
+an *enjoyment of life* in the commonsense way. It might be that
+while such people really prefer being alive, they're not really
+happy while being alive. Indeed, since most of the time [the tails
+come apart](https://www.lesswrong.com/posts/asmZvCPHcB4SkSCMW "The Tails Coming Apart As Metaphor For Life"),
+I would make the guess that those people wouldn't be much
+happier than current humans (an example of [causal
+Goodhart](./doc/against_preference_utilitarianism/categorizing_variants_of_goodharts_law_manheim_garrabrant_2019.pdf "Categorizing Variants of Goodhart's Law")).
+
+Preference utilitarians who respect possible preferences might just bite
+this bullet and argue that this indeed the correct thing to do.
+
+But, depending on the definition of an ethical patient [who displays
+preferences](./notes_on_ethics.html#The-Identification-Argument), the
+moral patient who maximally prefers existing might look nothing like a
+typical human, and more like an intricate e-coli-sized web of diamond
+or a very fast rotating blob of strange matter. The only people I can
+imagine willing to bite this bullet probably are too busy running around
+robbing ammunition stores.
+
+#### Side-Note: Philosophers Underestimate the Strangeness of Maximization
+
+Often in arguments with philosophers, especially about consequentialism, I
+find that most of them underappreciate the strangeness of results of very
+strong optimization algorithms. Whenever there's an `$\text{arg max}$` in
+your function, the result is probably going to look *nothing like* what
+you imagine it looking like, especially if you don't have [conservative
+concept boundaries](https://arbital.com/p/inductive_ambiguity/).
 
 #### Preference-Creating Preferences
 
-Preference P="I want there to be as many physically implemented instances
-of P to exist as possible"
+If you restrict your preference utilitarianism to currently existing
+preferences, you might get lucky and avoid this kind of scenario. But
+also maybe you won't: If there are any currently existing preferences of
+the form P="I want there to be as many physically implemented instances
+of P to exist as possible", you have two choices:
 
-When iterated, this grabs most of the value. Could probably be quined
-and made less self-referential.
+* Either you weight preferences by how strong they were at a single point in time `$t$`, and just maximize the preferences existing at `$t$`
+* Or you maximize *currently existing preferences*, weighted by how strong they are right now
+
+In the latter case, you land in a universe filled with physical systems
+implementing the preference P.
+
+### Summary
+
+All forms of preference utilitarianism face the challenge of identifying
+which systems have preferences, and how those preferences are implemented.
+
+* Preference utilitarianisms
+	* Face the challenge of identifying which systems have preferences, and how those preferences are implemented.
+	* That don't respect possible preferences:
+		* Will attempt to "freeze" current preferences and prevent any moral progress.
+		* If they always maximize the currently existing preferences, and self-replicating preferences exist in the universe, they will tile the universe with those preferences.
+	* That respect possible preferences:
+		* Will get mercilessly exploited by the strongest preferences they include in the domain of moral patients.
 
 Stating the Result of “An Impossibility Theorem for Welfarist Axiologies”
 -------------------------------------------------------------------------

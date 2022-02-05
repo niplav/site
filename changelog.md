@@ -11,6 +11,8 @@ Changelog
 February 2022
 --------------
 
+* [Notes on Ethics](./notes_on_ethics.html)
+	* [Arguments Against Preference Utilitarianism](./notes_on_ethics.html#Arguments-Against-Preference-Utilitarianism)
 * Now hosting a copy of [A Declaration of the Independence of Cyberspace](./declaration.html)
 
 January 2022
