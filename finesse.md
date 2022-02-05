@@ -66,3 +66,22 @@ forecasts is:
 
 * The argument *for* having a score of `$~1$` for every finesse (assuming a large `$n$`) is that inferring the correct way to make forecasts from this calibration plot is trivial: With forecasts of probability `$f_i>0.5$`, re-assign a probability `$f_i:=1-f_i$`.
 * The argument *against* giving a score of `$~1$` is that extending this rule would mean that at every kind of correction on the plot is valid, but there is no clear cutoff point that prevents us from applying this to individual predictions ("If you predict 99% instead of 43%, and 1% instead of 13%, and 1% instead of 23%, and […], then you achieve perfect resolution and calibration.")
+
+* Algorithms for quantifying the finesse of calibration plots
+	* Input: A list of `n` forecasts and their resolutions
+	* First idea:
+		* For i=2, n
+			* Segment the forecasts into i different segments, ordered by probability
+			* Calculate average outcome
+			* For two adjacent segments, calculate the slope for those values
+			* Append the mean of all slopes of adjacent segments to the array `output`
+		* Return `output`
+	* Second idea:
+		* For i=2, n
+			* Segment the forecasts into i different segments, ordered by probability
+			* Re-scale each segment to give probabilities from 0 to 1
+			* Use a proper scoring rule? Idk I haven't thought this through
+	* Third idea:
+		* Something like the first idea, but with a sliding window
+	* Fourth idea:
+		* Average linear regression of all subsequences with length`$\ge \mathcal{F}$`

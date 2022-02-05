@@ -125,7 +125,7 @@ And, as always, remember that I'm just a person on the internet.
 	overstated, while the benefits of large amounts of
 	meditation (north of 1 hour a day) are probably heavily
 	underestimated. I have had [very good experiences with
-	it](./rports.html#300-Hours-of-Meditation).
+	it](./reports.html#300-Hours-of-Meditation).
 	*	The basic foundational activity before meditation is just
 		doing nothing. It shouldn't be very hard to do, but it is.
 12. The ability to form habits is powerful.
