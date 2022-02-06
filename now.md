@@ -26,9 +26,11 @@ at the moment.
 If I find time inbetween that, I'm expanding on the following texts:
 
 * [Generalizing the Diamond-Square Algorithm to n Dimensions](./generalizing_diamond_square.html)
-* [Leave the Internet](./leave_the_internet.html)
+* [Prepare to Leave the Internet](./leave_the_internet.html)
 * [Notes on Ethics](./notes_on_ethics.html)
 * [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
+* [Third Variable](./third.html)
+* [Finesse of Sets of Forecasts](./finesse.html)
 
 I'm also planning a full edit of all texts on the website, but don't
 have a fixed date to get started on that at the moment.

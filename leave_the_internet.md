@@ -1,12 +1,16 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-03-02, modified: 2021-10-14, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2022-02-06, modified: 2022-02-06, language: english, status: notes, importance: 5, confidence: unlikely*
 
-> __.__
+> __The optimization power of attention-grabbing systems available over
+the internet is growing faster than any normal human's ability to defend
+against such attention grabbing, and seems likely to continue to grow. If
+one values ones own time, it therefore seems worthwhile to limit ones
+access to the internet.__
 
-Leave The Internet
-==================
+Prepare to Leave The Internet
+==============================
 
 <!--
 https://www.lesswrong.com/posts/Jq73GozjsuhdwMLEG/superstimuli-and-the-collapse-of-western-civilization
@@ -31,12 +35,55 @@ the Net is unusable, flattened by successive semiotic jihads.
 
 *– [Charles Stross](https://en.wikipedia.org/wiki/Charles_Stross), [“Accelerando”](https://en.wikipedia.org/wiki/Accelerando) p. 169, 2005*
 
+Many people have noticed that they are using the internet and online
+services (e.g. through apps) more than they would ideally like, in a
+non-optimal manner, with effects on work productivity, reducing selective
+sustained attention spans, and with a large opportunity cost.
+
 The Basic Argument
 ------------------
+
+The basic argument can be summarized as follows: The world economy is
+growing at around 2% a year, which constitutes exponential progress.
 
 ### Two Different Growth Modes
 
 ### Humans Minds are Full of Holes
+
+Evidence
+---------
+
+### How Much Time do People Spend on the Internet?
+
+### Have Attention Spans Been Declining?
+
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4567490
+* https://doi.org/10.1177%2F0956797615594896
+* https://web.archive.org/web/20100601192507/http://blogs.suntimes.com/ebert/2010/05/the_french_word_frisson_descri.html
+* http://blogs.suntimes.com/ebert/2010/05/the_french_word_frisson_descri.html#more
+* https://www.wired.com/magazine/2010/05/ff_nicholas_carr/
+
+For television & children:
+
+* http://pediatrics.aappublications.org/cgi/content/abstract/113/4/708
+* https://doi.org/10.1542%2Fpeds.113.4.708
+
+Possible Counterarguments
+--------------------------
+
+### Brain “Software” Very Flexible
+
+### Addictive Process Takeover=Doom
+
+### But Won't Regulators Outlaw?
+
+### Giving Up Much
+
+### The Providers Will Act
+
+### You Are Missing a Mood About the Greatness of the Internet
+
+### Similar Arguments Were Made
 
 What is To Be Done?
 -------------------
@@ -77,17 +124,6 @@ To download a webpage, I use this command:
 
 Optionally: Separate work with internet, work without internet, fun with
 internet, fun without internet spaces
-
-Possible Counterarguments
---------------------------
-
-### Brain “Software” Very Flexible
-
-### Addictive Process Takeover=Doom
-
-### But Won't Regulators Outlaw?
-
-### Giving Up Much
 
 Retrospective
 --------------

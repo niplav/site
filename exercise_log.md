@@ -2118,7 +2118,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 0 froggers
 * 2 minutes plank
 
-### 2022-02-02
+### 2022-02-04
 
 * 60 7.5kg dumbbell shoulder presses
 * 60 7.5kg dumbbell biceps curls

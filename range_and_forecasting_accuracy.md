@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2022-01-28, language: english, status: finished, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2022-02-06, language: english, status: finished, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in relation
 to the time between forecast and resolution, and asks three
@@ -590,14 +590,25 @@ more about the popularity of a political party in 2 months as opposed
 to 10 years. Even in reasonably chaotic systems, one should expect to
 become more and more accurate the closer one comes to the expected time.
 
-Take, for example, a [double
-pendulum](https://en.wikipedia.org/wiki/Double_pendulum): I am totally
-able to predict its position & velocity 100ms before resolution time,
-but 1s before and it's already getting more difficult. Information,
-like nearly everything else, has diminishing value, posteriors converge
-continuously towards truth.<!--TODO: the double pendulum is interesting,
-since in the long run it's actually *easier* to predict! Write something
-about this.-->
+One example for this is a roulette wheel (the resolution being the number
+of the slot the ball eventually rolls into): I am able to give a much
+narrower probability distribution on values 100ms before the ball falls
+into the slot than 1s before, and 5s before resolution my prediction is
+going to be very uniform. Information, like nearly everything else, has
+diminishing value, and posteriors eventually converge towards the truth.
+
+However, there is an interesting effect that takes place with systems
+that eventually reach equilibrium. Take, for example, a [double
+pendulum](https://en.wikipedia.org/wiki/Double_pendulum) in an environment
+with gravity: If I am at the start of the swinging of the double pendulum,
+I can predict the state in 100ms better than in 1s (because it becomes
+more chaotic over time), but I am also better able to predict the state
+in 1h (or how long it takes to reach equilibrium) than in 1s (because
+it reaches equilibrium in hanging straight down).
+
+(I got this observation from “The World as
+Holocaust” by Stanisław Lem, though it is obvious [in
+hindsight](https://www.lesswrong.com/s/zpCiuR4T343j9WkcK/p/WnheMGAka4fL99eae "Hindsight Devalues Science")).
 
 <!--TODO: Also, what are some probability theory & information theory
 theorems for this?-->
