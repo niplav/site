@@ -3,7 +3,7 @@
 
 *author: John Perry Barlow, created: 1996-02-08, modified: 1996-02-08, transcribed: 2022-02-01, transcriptor: niplav, language: english, status: finished, importance: 3, confidence: other*
 
-> __It is an old internet tradition to host this text.__
+> __It is an old internet tradition to host this manifesto.__
 
 A Declaration of the Independence of Cyberspace
 ================================================

@@ -1286,6 +1286,8 @@ Programming
 	* not much more, really
 * neo2
 	* port neo2 to plan9/9front/Haiku OS
+* git
+	* Add heatmap flag for git blame (for recency)
 * WebTeX
 	* Make it able to display `\bigsqcap`, `\bigplus`, `\bigmult`
 * Help administering schelling.pt, it needs it

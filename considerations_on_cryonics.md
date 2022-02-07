@@ -801,9 +801,19 @@ being that option:
 * If whole-brain emulation is wide-spread, and copying of whole-brain emulations is easy:
 	* Competition among whole-brain emulations is likely fierce, and labor by emulations would be as cheap as slave labour (so there is no particular reason to enslave emulations)
 	* The average emulation is likely very competent and elite, and a much better worker than the average college-educated persoe ([Hanson 2016 pp. 161-163](https://ageofem.com "The Age of Em") estimates that most ems are going to be copies of fewer than a thousand or so original humans, each most likely again selected from several thousand individual childhoods to select the most capable educational lineage)
+* If whole-brain emulation is not wide-spread, then the more the more more-obscure whole-brain emulation is, the more unlikely it is that cryonics and whole-brain emulation will "come into contact", since cryonics is also obscure and the number of preserved patients is tiny (~1500)
+	* It seems unlikely that whole-brain emulation will stay restricted to a niche, since it will likely require large amounts of computational power and high-tech scanning facilities which are only possible with large amounts of capital
+	* A factor working against this is that whole-brain emulation and cryonics are discussed within in the same subculture
 * Uploading a vitrified brain seems to be at least as difficult as scanning a freshly deceased brain or a living brain, and possibly much more difficult, since one would need to repair structural damage done by outdated cryopreservation methods (why not vitrify a recently deanimated person with the newest cryogenic technology, and then scan & upload them, instead of trying to fix old somewhat broken brains?), so it would probably not be more economically viable
 * It appears more likely than not that cryonics organisations will attempt to prevent the theft of preserved humans (although the organisations could fail and abandon or sell the preserved humans)
 * There would have to be no laws protecting cryogenically preserved humans (or the emulations resulting from them), but laws protecting living or recently deanimated people
+
+A basic tension is that if whole-brain emulation is wide-spread and the
+incentive is economic, then it'll use more competitive brains from living
+humans that are easier to scan. If whole-brain emulation is obscure,
+it's unlikely that it and cryonics will come into contact in a way that
+harms cryonics patients (at the very least, it would be counted as grave
+robbery and body snatching).
 
 That said, if scanning living or recently deceased humans is illegal
 or very hard, but uploading and using cryogenically preserved humans is
@@ -1621,7 +1631,7 @@ cryonics ɴᴏᴡ. I mean ʀɪɢʜᴛ ɴᴏᴡ. Go to the website of
 [Alcor](http://www.alcor.org/BecomeMember/index.html) or the [Cryonics
 Institute](https://www.cryonics.org/membership) and follow the instructions.
 
-*– [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“You Only Live Twice”](https://www.lesswrong.com/posts/yKXKcyoBzWtECzXrE/you-only-live-twice), 2008)*
+*– [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“You Only Live Twice”](https://www.lesswrong.com/posts/yKXKcyoBzWtECzXrE/you-only-live-twice), 2008*
 
 In case you're now convinced that signing up for cryonics is the right
 thing to do for you, great! I encourage you strongly to __sign up as

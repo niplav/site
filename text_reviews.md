@@ -189,7 +189,7 @@ present them in short and watered-down form, and even state in a footnote:
 > works of ethical philosophers; it is that no one ever, ever wins
 > the debate
 
-*–F. Bailey Norwood/Jayson L. Lusk, “Compassion, by the Pound” p. 388, 2011*
+*– F. Bailey Norwood/Jayson L. Lusk, “Compassion, by the Pound” p. 388, 2011*
 
 The chapter on Talking with Economists is better, but plagued with
 the eternal problem of economics: people don't like it, and the same

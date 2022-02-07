@@ -1006,7 +1006,7 @@ realizes. If you are reading this you are probably not a normie. You
 are an alienated weirdo and need help to cultivate being normal enough
 to f\*\*k hot chicks while not losing your weird edge.
 
-*–[TheRedQuest](https://theredquest.wordpress.com/), [“Compassion and Empathy for Chicks”](https://theredquest.wordpress.com/2021/06/21/compassion-and-empathy-for-chicks/index.html), 2021*
+*– [TheRedQuest](https://theredquest.wordpress.com/), [“Compassion and Empathy for Chicks”](https://theredquest.wordpress.com/2021/06/21/compassion-and-empathy-for-chicks/index.html), 2021*
 
 A couple of days ago, I did an approach on a standing girl that was
 (apparently) waiting for someone.  In the beginning she was giving mostly
