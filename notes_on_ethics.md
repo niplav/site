@@ -307,7 +307,7 @@ dollar [by increasing human population]. As one might expect,
 this is much bigger than the impact on mosquito populations
 directly as calculated in the previous section.
 
-*–[Brian Tomasik](https://reducing-suffering.org), [Will Gene Drives Reduce Wild-Animal Suffering?](https://reducing-suffering.org/will-gene-drives-reduce-wild-animal-suffering/), 2018*
+*– [Brian Tomasik](https://reducing-suffering.org), [Will Gene Drives Reduce Wild-Animal Suffering?](https://reducing-suffering.org/will-gene-drives-reduce-wild-animal-suffering/), 2018*
 
 Why Death is Bad
 -----------------
@@ -449,12 +449,13 @@ robbing ammunition stores.
 
 #### Side-Note: Philosophers Underestimate the Strangeness of Maximization
 
-Often in arguments with philosophers, especially about consequentialism, I
-find that most of them underappreciate the strangeness of results of very
-strong optimization algorithms. Whenever there's an `$\text{arg max}$` in
-your function, the result is probably going to look *nothing like* what
-you imagine it looking like, especially if you don't have [conservative
-concept boundaries](https://arbital.com/p/inductive_ambiguity/).
+Often in arguments with philosophers, especially about consequentialism,
+I find that most of them underappreciate the strangeness of
+results of very strong optimization algorithms. Whenever there's
+an `$\text{arg max}$` in your function, the result is probably
+going to look *nothing like* what you imagine it looking like,
+especially if the optimization doesn't have [conservative concept
+boundaries](https://arbital.com/p/inductive_ambiguity/).
 
 #### Preference-Creating Preferences
 
@@ -496,7 +497,7 @@ statement of his result is scattered throughout the paper.
 Dominance, the Addition, and the Minimal Non-Extreme Priority Principle
 implies the Repugnant, the Anti-Egalitarian, or the Sadistic Conclusion.
 
-*–[Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 15, 2000*
+*– [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 15, 2000*
 
 ### Requirements
 
@@ -504,21 +505,21 @@ implies the Repugnant, the Anti-Egalitarian, or the Sadistic Conclusion.
 people as population B, and every person in A has higher welfare than
 any person in B, then A is better than B.
 
-*–[Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
+*– [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
 
 > The Addition Principle: If it is bad to add a number of people, all
 with welfare lower than the original people, then it is at least as bad
 to add a greater number of people, all with even lower welfare than the
 original people.
 
-*–[Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
+*– [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
 
 > The Minimal Non-Extreme Priority Principle: There is a number n such
 that an addition of n people very high welfare and a single person with
 slightly negative welfare is at least as good as an addition of the same
 number of people but with very low positive welfare.
 
-*–[Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
+*– [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
 
 ### Conclusions
 
@@ -526,18 +527,18 @@ number of people but with very low positive welfare.
 with very high positive value, there is a population with very
 low positive welfare which is better.
 
-*–[Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 2, 2000*
+*– [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 2, 2000*
 
 > The Anti-Egalitarian Conclusion: A population with perfect equality can
 be worse than a population with the same number of people, inequality,
 and lower average (and thus lower total) positive welfare.
 
-*–[Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 12, 2000*
+*– [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 12, 2000*
 
 > The Sadistic Conclusion: When adding people without
 affecting the original people's welfare, it can be better to
 add people with negative welfare than positive welfare.
 
-*–[Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 5, 2000*
+*– [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 5, 2000*
 
 All of these are stated more mathematically on page 15.

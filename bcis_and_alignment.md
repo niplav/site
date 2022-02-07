@@ -435,7 +435,7 @@ Arguments Against the Utility of Brain-Computer Interfaces in AI Alignment
 
 > And so we boldly go—into the whirling knives.
 
-*–[Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), “Superintelligence: Paths, Dangers, Strategies” p. 143, 2014*
+*– [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), “Superintelligence: Paths, Dangers, Strategies” p. 143, 2014*
 
 ### Direct Neural Takeover Made Easy
 
