@@ -49,6 +49,7 @@ Software
 * [Scheme](https://en.wikipedia.org/wiki/Scheme_\(programming_language\))
 * [Forth](https://en.wikipedia.org/wiki/Forth_\(programming_language\))
 * [Standard ML](https://en.wikipedia.org/wiki/Standard_ML)
+* Python<!--TODO link-->
 
 ### Browser Plugins
 

@@ -27,7 +27,7 @@ The Site
 
 ### Content
 
-This website contains essays on different topics, ranging
+This website contains texts on different topics, ranging
 from programming over philosophy to discussions of odd social
 behavior, as well as translations, transcriptions, music
 recordings and programming projects. It follows the idea of [Long
@@ -53,9 +53,9 @@ presenting mainly new information to the reader.
 The content on this website is licensed under [Creative Commons
 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-#### Essays
+#### Texts
 
-The essays contain mainly new material, both short arguments and
+The texts contain mainly new material, both short arguments and
 collections of links, but also longer descriptions of new ideas or
 analyses of concepts where existing descriptions (e.g. on Wikipedia or
 other blogs) were deemed incomplete. It is of course not possible to
@@ -68,8 +68,38 @@ Generally I use the rule: Let t be the time it would take to write a
 text about the idea I was thinking about. Then the time spent researching
 whether the idea exists already should stop take at most `$\frac{t}{2}$`.
 
-There are, of course, some essays that were written about existing and
+There are, of course, some texts that were written about existing and
 well-known ideas. These were written mainly for my own enjoyment.
+
+##### Not Really a Blog
+
+> A blog (a truncation of "weblog") is a discussion or informational
+website published on the World Wide Web consisting of discrete, often
+informal diary-style text entries (posts). Posts are typically displayed
+in reverse chronological order, so that the most recent post appears
+first, at the top of the web page.
+
+*– [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), [“Blog”](https://en.wikipedia.org/wiki/Blog), 2021*
+
+I don't think this website can be classified as a blog—it strongly
+lacks the chronological element of the standard blog format, except for
+the [changelog](./changelog.html).
+
+I agree with Gwern that blogs are the victory of the hare over the
+tortoise, and I'm deeply unhappy that short-term and unorganized forms of
+content aggregation have prevailed on the web over long-term & maintained
+sites (culminating in abominations such as discord servers holding large
+amounts of local knowledge—at least you could link to a forum or lurk
+without creating an account!). I do, however, sometimes participate in the
+guilty pleasure of [ephemeral shitposting](https://schelling.pt/@niplav).
+
+I'm not big into linguistic prescriptivism (although it
+is another one of those guilty pleasures I [sometimes engage
+in](./language.html#Better-Names-for-Things)), so call this a blog if you
+like. I personally prefer the term simple term "website" or "personal
+website". If you want to talk about me as if I had prestige, "essays"
+is also okay. (It might send incorrect signals about [how prestigeworthy
+I really am](./masturbation_and_attractiveness.html), though).
 
 #### Translations, Transcriptions & Archives
 
@@ -349,27 +379,27 @@ similar to those of the minimalist unix and [Plan
 
 Various measures of size for the website (excluding automatically generated content and transcriptions):
 
-	$ cat (l *.md | g -v chrono | g -v tao | g -v list) | pr | grep -Eo 'Page [0-9]+' | tail -1
-	Page 413
+	$ cat (l *.md | g -v chrono | g -v tao | g -v list | g -v exercise) | pr | grep -Eo 'Page [0-9]+' | tail -1
+	Page 468
 	$ wc (l *.md | g -v chrono | g -v tao | g -v list) | tail -1
-	23102  125434  905988 total
+	28390  153710 1106568 tota
 
 Benford's law:
 
-	$ grep -ho '[0-9]' *.md | sort | uniq -c | sort -n
-	5770 4
-	6662 6
-	6906 9
-	7036 3
-	7045 8
-	7286 5
-	7397 7
-	25223 1
-	27196 2
-	42394 0
+	$ grep -ho '[0-9]' *.md | sort | uniq -c | sort -n | tail -10
+	6106 4
+	7128 9
+	7130 6
+	7297 8
+	7423 3
+	7750 5
+	7803 7
+	26734 1
+	28876 2
+	44173 0
 
 (Note: as of the time of writing, the list of numbers above is not
-reflectively stable, that is, after I update the numbers, the distribution
+iteratively stable, that is, after I update the numbers, the distribution
 of digits on my website changes slightly (since the numbers above are
 part of the website), but it does not reach fixation at some point,
 but rather cycles).

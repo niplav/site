@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-13, modified: 2022-01-22, language: english, status: on hold, importance: 2, confidence: remote*
+*author: niplav, created: 2021-01-13, modified: 2022-02-07, language: english, status: on hold, importance: 2, confidence: remote*
 
 > __After a discussion with a friend of mine, I thought it would be
 useful to structure my current thoughts about politics and economics
@@ -22,11 +22,17 @@ What can be done before talking about object-level policies.
 
 ### Improve Political Epistemology
 
-Forecasting, track records, public rationality.
+#### Track Records
+
+#### Forecasting
+
+#### The Sanity Waterline
 
 Making politicians resonsible if they don't fulfill their promises.
 
 ### Copy What Successful Countries are Doing
+
+This is known as “getting to Denmark”, and is *clearly* not trivial.
 
 ### This Text Is About Doing Even Better (Maybe)
 
@@ -153,15 +159,23 @@ Problem: Hard to compute.
 
 ### Inheritance Taxes
 
+### Taxes on Positional Goods
+
 ### Taxes I Dislike
 
 #### Exchange Taxes
+
+#### Wealth Tax
+
+#### Income Tax
 
 Stifling pareto improvements.
 
 ### Unsure
 
 #### Land-Value Taxes
+
+#### Capital Gains Taxes
 
 <!--What about income taxes, progressive or flat?-->
 

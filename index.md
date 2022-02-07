@@ -9,7 +9,7 @@ cryonics](./considerations_on_cryonics.html) after careful deliberation.__
 Content
 =======
 
-This is the website of niplav. It contains essays on different topics,
+This is the website of niplav. It contains texts on different topics,
 including (but not limited to) programming, unusual social behavior
 and philosophy, as well as translations and transcriptions of different
 texts, chronological archives of blogs and programming projects. More

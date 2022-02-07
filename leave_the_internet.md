@@ -57,16 +57,16 @@ Evidence
 
 ### Have Attention Spans Been Declining?
 
-* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4567490
-* https://doi.org/10.1177%2F0956797615594896
-* https://web.archive.org/web/20100601192507/http://blogs.suntimes.com/ebert/2010/05/the_french_word_frisson_descri.html
-* http://blogs.suntimes.com/ebert/2010/05/the_french_word_frisson_descri.html#more
-* https://www.wired.com/magazine/2010/05/ff_nicholas_carr/
+* `https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4567490`
+* `https://doi.org/10.1177%2F0956797615594896`
+* `https://web.archive.org/web/20100601192507/http://blogs.suntimes.com/ebert/2010/05/the_french_word_frisson_descri.html`
+* `http://blogs.suntimes.com/ebert/2010/05/the_french_word_frisson_descri.html#more`
+* `https://www.wired.com/magazine/2010/05/ff_nicholas_carr/`
 
 For television & children:
 
-* http://pediatrics.aappublications.org/cgi/content/abstract/113/4/708
-* https://doi.org/10.1542%2Fpeds.113.4.708
+* `http://pediatrics.aappublications.org/cgi/content/abstract/113/4/708`
+* `https://doi.org/10.1542%2Fpeds.113.4.708`
 
 Possible Counterarguments
 --------------------------
