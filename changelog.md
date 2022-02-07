@@ -13,6 +13,11 @@ February 2022
 
 * [Notes on Ethics](./notes_on_ethics.html)
 	* [Arguments Against Preference Utilitarianism](./notes_on_ethics.html#Arguments-Against-Preference-Utilitarianism)
+* [Playing with Language](./language.html)
+	* [Advertising Lines](./language.html#Advertising-Lines)
+	* [Daygame Openers](./language.html#Openers)
+* [About](./about.html)
+	* [Not Really a Blog](./about.html#Not-Really-a-Blog)
 * Now hosting a copy of [A Declaration of the Independence of Cyberspace](./declaration.html)
 
 January 2022
@@ -520,7 +525,7 @@ about page](./about.html)) are also new, but not even near being finished.
 At the beginning of the month, I set up the code to generate this website
 and imported some existing projects of mine.
 
-#### Essays
+#### Texts
 
 * [99 Problems Collection](./99_problems_collection.html)
 * [K-99: Ninety-Nine Klong Problems](./99_klong_problems.html)

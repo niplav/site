@@ -1,9 +1,11 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-01-21, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-02-07, language: multiple, status: in progress, importance: 1, confidence: other*
 
-> __.__
+> __This page is a grab-bag of puns, good bandnames, types of guy,
+idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
+daygame openers, asymmetries in language…__
 
 Playing With Language
 ======================
@@ -231,7 +233,7 @@ Only fishmongers, scaremongers and fearmongers?
 
 myopia, no youropia, heropia etc.
 
-paradox, but not paragnosis, paratechne and paraëpisteme
+paradox, but not paragnosis, paratechnē and paraëpisteme
 
 #### Missing Words
 
@@ -245,6 +247,8 @@ Types of Guy
 * guy who can't use a twitter account responsibly
 * guy who has always wanted to get into lucid dreaming
 * guy who is building AGI on a discord server with his buddies instead of getting  himself a girlfriend
+* guy who insists on the distinction between corporatism and corporatocracy
+* guy who says “beginning of this century” when referring to the aughts, and “last century” for events in the nineties
 
 ### Of Rationalist
 
@@ -296,7 +300,13 @@ Puns
 Quines and Not-Quines
 ----------------------
 
-* Noting “noting itself” itself
+	                                         Noting "noting itself" itself  
+	                                 Noting "noting “noting itself” itself" itself  
+	                         Noting "noting “noting ‘noting itself’ itself” itself" itself  
+	                 Noting "noting “noting ‘noting »noting itself« itself’ itself” itself" itself  
+	         Noting "noting “noting ‘noting »noting ›noting itself‹ itself« itself’ itself” itself" itself  
+	 Noting "noting “noting ‘noting »noting ›noting 'noting itself' itself‹ itself« itself’ itself” itself" itself
+
 * “is socially constructed” is socially constructed
 * “I will do as I please” will do as it pleases
 
@@ -344,9 +354,52 @@ Good Bandnames
 * Memetic Immune Disorder
 * Contextual Bandits (seen in [Amodei et al. 2016](./doc/language/concrete_problems_in_ai_safety_amodei_et_al_2016.pdf "Concrete Problems in AI Safety"))
 
+Advertising Lines
+------------------
+
+* Niplav Yushtun™, PhD in Memetodynamics
+* Niplav Yushtun™, Treasurer of the “Clone John von Neumann a Million Times” Party
+* Niplav Yushtun™: A Large Variety of Extremely Good Posts
+* Niplav Yushtun™: Paratechnē Straight from the Source
+
 Daygame
 --------
 
 ### Openers
 
-### Replies
+In general, for openers I am not above spouting whatever bullshit comes
+to my mind at that moment.
+
+I have, at various times,
+
+* Compared girls with
+	* Mushrooms
+	* Colorful birds
+	* A [Mesa](https://en.wikipedia.org/wiki/Mesa)
+	* A piano
+		* Comparing girls with musical instruments sounds like a pretty good opener in general (viola, violin, saxophone, definitely stirs the imagination)
+	* Paintings of aristocracy
+	* Characters in fiction
+		* Books I was reading at that time
+			* Evelyn Nisbett from “Ragtime” by Doctorow
+			* Baroness vom Zumpe from “2666” by Bolaño
+			* An unnamed girl from the collections of vignettes “Betrachtung” by Kafka
+		* Movies
+			* Trinity from the Matrix (good for girls all dressed in black)
+	* Their hair
+		* to a tree trunk
+	* Their outfit
+		* to abstract modern art
+		* to medieval wallpaper
+		* to something people would wear in 19th century Russia
+		* to the Mediterranian
+		* to camel fur that they had gathered at the zoo
+* Pointed out contradictions in their style
+	* Telling one girl that she looked like she was going to a cocktail party on a mountain
+* Openly insulted their clothes
+	* Told a girl her shoes looked old, asking her whether she was on the way to buy new ones on a nearby market
+		* I am not sure, but I think this one was actually harmful
+
+I have been told that I'm creative, but I have never observed any
+correlation with how well the approach goes and the opener, except for
+boring openers and insults.

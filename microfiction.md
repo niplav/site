@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-02-04, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-02-06, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __Very small pieces of fiction and things that are sufficiently like
 fiction.__
@@ -28,9 +28,12 @@ Words
 
 ### Otherwise Nice
 
-* Corrigibility
-* Bewahren
-* Kabeljau
+* English
+	* corrigibility
+	* antisemanticity
+* German
+	* Bewahren
+	* Kabeljau
 
 Poems
 ------
@@ -39,6 +42,8 @@ Poems
 
 > Paradises, peacocks, peaches and palimpsests! Prussians, prowlers plus
 plumous penguins, priestess parks principles – priceless.
+
+----
 
 > gah, can't snarf evince.
 
@@ -61,9 +66,10 @@ Licht durchschienenes Glas.
 
 ### Senryū
 
-Well, not strictly haiku (not always a cutting word or seasonal reference)
-or senryū (not always cynical & dark or about humans), but I follow
-the 17 (5-7-5) syllable format.
+Well, not strictly [haiku](https://en.wikipedia.org/wiki/Haiku)
+(not always a cutting word or seasonal reference) or
+[senryū](https://en.wikipedia.org/wiki/Senryū) (not always cynical &
+dark or about humans), but I follow the 17 (5-7-5) syllable format.
 
 #### German
 
@@ -102,8 +108,13 @@ Very high costs arise, when
 The light is on. Thanks.
 
 May your death be like  
-The married bachelor, ex  
+A married bachelor, ex  
 falso quodlibet
+
+The silence prickles  
+A mind too fast for meaning  
+<!--Is Thoughts without wrapping worse? Better?-->
+Unwrapping my thoughts
 
 Dialogues
 ----------

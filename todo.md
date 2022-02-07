@@ -75,8 +75,8 @@ Texts
 	* Is Forecasting Harder to Game?
 	* Less Susceptible to Social Biases like Charisma
 * Comparing Forecasting Accuracy Between the Good Judgment Project and Metaculus
-	* https://www.openphilanthropy.org/blog/forecasting-covid-19-pandemic
-	* https://pandemic.metaculus.com/questions/
+	* `https://www.openphilanthropy.org/blog/forecasting-covid-19-pandemic`
+	* `https://pandemic.metaculus.com/questions/`
 * Extracting Probabilities from Stock Markets
 * The "At-the-time best possible forecast"
 	* Not literally best possible forecast
@@ -115,7 +115,7 @@ Texts
 ### Population
 
 * Antinatalism and Consent
-* Wither Humanity?
+* Wither Humanity? (Alternatively, “Ponderings on Population”)
 	* Would a bigger humanity be a good idea?
 	* Against:
 		* Coordination
@@ -262,7 +262,7 @@ Texts
 		* [Node JS](http://blog.izs.me/post/48281998870/unix-philosophy-and-nodejs)
 		* [The Internet](https://victorops.com/blog/internet-age-unix-philosophy/)
 		* [Vim](https://www.reddit.com/r/vim/comments/22w1li/a_fair_comparison_between_vim_and_emacs/cgqyqst/)
-		* https://gist.github.com/rjsteinert/f3823f3cdc9971779c17
+		* `https://gist.github.com/rjsteinert/f3823f3cdc9971779c17`
 	* ["Do one thing, and do it well. Use text streams, since that is the universal interface"](http://www.catb.org/esr/writings/taoup/html/ch01s06.html)
 	* Most systems reimplement unix ("Those who don't understand unix are doomed to reimplement it, poorly.")
 * Libertarianism is too Simple
@@ -291,7 +291,7 @@ Texts
 	* "Rationalism leads to believing wrong things!"
 	* Related text: [Incremental Progress and the Valley](https://www.lesswrong.com/s/pvim9PZJ6qHRTMqD3/p/oZNXmHcdhb4m7vwsv)
 * In Favor of Gish-Gallop
-	* https://en.wikipedia.org/wiki/Gish_gallop
+	* `https://en.wikipedia.org/wiki/Gish_gallop`
 * The Hedonic Treadmill and Politics
 	* Inequality
 	* Pareto Improvements
@@ -337,7 +337,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Read up on the research
 	* Perhaps re-emphasize as "Easterlin Paradox"?
 * Contra Morse on Fame
-	* https://ethanmorse.github.io/thoughts/famous.html
+	* `https://ethanmorse.github.io/thoughts/famous.html`
 
 ### Analyses
 
@@ -396,8 +396,8 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Nuking the Amazon Cost-Benefit Analysis
 * What is the most common word I don't use?
 * How Strong is the Gender Difference In Sex Drive?
-	* /usr/local/doc/unread/blackpill/is\_there\_a\_gender\_difference\_in\_strength\_of\_sex\_drive\_baumeister\_et\_al\_2001.pdf
-	* /usr/local/doc/unread/blackpill/in\_heterosexual\_relationships\_men\_masturbate\_more\_than\_women\_waterink\_2014.pdf
+	* `/usr/local/doc/unread/blackpill/is_there_a_gender_difference_in_strength_of_sex_drive_baumeister_et_al_2001.pdf`
+	* `/usr/local/doc/unread/blackpill/in_heterosexual_relationships_men_masturbate_more_than_women_waterink_2014.pdf`
 * Do eggs burst when they're not poked before boiling?
 	* Blinded, person needs to poke & write down, but not tell
 	* Student's t-test
@@ -417,24 +417,24 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* Probability of X is undefined
 	* Maxipok
 	* Links to relevant texts here:
-		* https://gwern.net/mugging
-		* https://gwern.net/Mugging-DP
-		* https://nintil.com/pascals-mugging/
-		* https://nickbostrom.com/papers/pascal.pdf
-		* https://en.wikipedia.org/wiki/Pascal%27s\_mugging
-		* https://patrickjuli.us/2019/11/10/pascals-mugging/
-		* https://www.lesswrong.com/posts/9WZAqFzNJ4KrhsqJ7/pascal-s-mugging-solved
-		* https://www.lesswrong.com/posts/gjyvXPqvCZPEtCKLB/tactics-against-pascal-s-mugging
-		* https://risingentropy.com/pascals-mugging/
-		* https://wiki.lesswrong.com/wiki/Pascal%27s\_mugging
-		* https://wmbriggs.com/post/20492/
-		* https://medium.com/@SunBurntSky/pascals-mugging-787c37e76bc3
-		* https://utilitarianism.fandom.com/wiki/Pascal%27s\_Mugging
-		* https://www.lesswrong.com/posts/Ap4KfkHyxjYPDiqh2/pascal-s-muggle-infinitesimal-priors-and-strong-evidence
-		* https://www.lesswrong.com/posts/KDzXTWSTg8ArwbhRR/pascal-s-muggle-short-version
-		* https://www.lesswrong.com/posts/CaPgNwxEFHh3Ahvf7/pascal-s-muggle-pays
-		* https://www.lesswrong.com/posts/8FRzErffqEW9gDCCW/against-the-linear-utility-hypothesis-and-the-leverage
-		* https://www.lesswrong.com/posts/NoYXhJLtoKpLoZhRf/pascal-s-mugging-finite-or-unbounded-resources
+		* `https://gwern.net/mugging`
+		* `https://gwern.net/Mugging-DP`
+		* `https://nintil.com/pascals-mugging/`
+		* `https://nickbostrom.com/papers/pascal.pdf`
+		* `https://en.wikipedia.org/wiki/Pascal%27s\_mugging`
+		* `https://patrickjuli.us/2019/11/10/pascals-mugging/`
+		* `https://www.lesswrong.com/posts/9WZAqFzNJ4KrhsqJ7/pascal-s-mugging-solved`
+		* `https://www.lesswrong.com/posts/gjyvXPqvCZPEtCKLB/tactics-against-pascal-s-mugging`
+		* `https://risingentropy.com/pascals-mugging/`
+		* `https://wiki.lesswrong.com/wiki/Pascal%27s\_mugging`
+		* `https://wmbriggs.com/post/20492/`
+		* `https://medium.com/@SunBurntSky/pascals-mugging-787c37e76bc3`
+		* `https://utilitarianism.fandom.com/wiki/Pascal%27s\_Mugging`
+		* `https://www.lesswrong.com/posts/Ap4KfkHyxjYPDiqh2/pascal-s-muggle-infinitesimal-priors-and-strong-evidence`
+		* `https://www.lesswrong.com/posts/KDzXTWSTg8ArwbhRR/pascal-s-muggle-short-version`
+		* `https://www.lesswrong.com/posts/CaPgNwxEFHh3Ahvf7/pascal-s-muggle-pays`
+		* `https://www.lesswrong.com/posts/8FRzErffqEW9gDCCW/against-the-linear-utility-hypothesis-and-the-leverage`
+		* `https://www.lesswrong.com/posts/NoYXhJLtoKpLoZhRf/pascal-s-mugging-finite-or-unbounded-resources`
 		* In defence of fanaticism (Hayden Wilkinson, 2020)
 * Creatine & Vegetarianism IQ?
 * Survey advanced meditators about their attainments and their monetary worth
@@ -510,7 +510,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * The “If Everyone Just” Argument
 	* The argument just assumes one of the biggest problems away: coordination and cooperation
 	* Related: [Malthusianisms](https://www.scottaaronson.com/blog/?p=418)
-	* Related: https://squareallworthy.tumblr.com/post/163790039847/everyone-will-not-just
+	* Related: `https://squareallworthy.tumblr.com/post/163790039847/everyone-will-not-just`
 * Information and Markets:
 	* Explanation
 		* Information as a non-scarce good
@@ -608,19 +608,19 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		contemporary ideas for better notation, and discuss old &
 		discarded methods of writing mathematics.
 	* Discarded Methods
-		* https://en.wikipedia.org/wiki/Begriffsschrift
-		* https://en.wikipedia.org/wiki/Newton%27s\_notation#Newton's\_notation
-		* https://github.com/prathyvsh/notation
+		* `https://en.wikipedia.org/wiki/Begriffsschrift`
+		* `https://en.wikipedia.org/wiki/Newton%27s_notation#Newton's_notation`
+		* `https://github.com/prathyvsh/notation`
 	* New Notations
 		* General
-			* https://www.stephenwolfram.com/publications/mathematical-notation-past-future/
-			* /usr/local/doc/unread/towards\_a\_better\_notation\_for\_mathematics\_olah\_2010.pdf
+			* `https://www.stephenwolfram.com/publications/mathematical-notation-past-future/`
+			* `/usr/local/doc/unread/towards_a_better_notation_for_mathematics_olah_2010.pdf`
 		* Triangle of Power
-			* https://www.youtube.com/watch?v=sULa9Lc4pck
-			* https://math.stackexchange.com/questions/30046/alternative-notation-for-exponents-logs-and-roots
-			* http://www.solidangl.es/2015/04/a-radical-new-look-for-logarithms.html
+			* `https://www.youtube.com/watch?v=sULa9Lc4pck`
+			* `https://math.stackexchange.com/questions/30046/alternative-notation-for-exponents-logs-and-roots`
+			* `http://www.solidangl.es/2015/04/a-radical-new-look-for-logarithms.html`
 	* Read
-		* /usr/local/doc/unread/notation/notation\_as\_a\_tool\_of\_thought\_iverson\_1986.pdf
+		* `/usr/local/doc/unread/notation/notation_as_a_tool_of_thought_iverson_1986.pdf`
 	* Substitution of variables in formulas: order is _bad_ & _wrong_
 * Recommendations
 	* Activities/Movies/Series/Podcasts/Books/Blogposts
@@ -634,21 +634,21 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Learning
 		* Reading textbooks (Natural sciences and engineering)
 			* Mathematics
-				* https://intelligence.org/research-guide/
-				* https://www.ocf.berkeley.edu/~abhishek/chicmath.htm
-				* https://math.ucr.edu/home/baez/books.html#math
+				* `https://intelligence.org/research-guide/`
+				* `https://www.ocf.berkeley.edu/~abhishek/chicmath.htm`
+				* `https://math.ucr.edu/home/baez/books.html#math`
 			* Science
 				* Physics
 					* Feynman Lectures on Physics
-					* https://www.susanjfowler.com/blog/2016/8/13/so-you-want-to-learn-physics
-					* https://www.ocf.berkeley.edu/~abhishek/chicphys.htm
-					* https://math.ucr.edu/home/baez/books.html#physics
+					* `https://www.susanjfowler.com/blog/2016/8/13/so-you-want-to-learn-physics`
+					* `https://www.ocf.berkeley.edu/~abhishek/chicphys.htm`
+					* `https://math.ucr.edu/home/baez/books.html#physics`
 				* Chemistry
 				* Social Sciences
 					* Economics
 				* Life Sciences
 					* Biology
-						* https://old.reddit.com/r/biology/wiki/faq#Suggestedtextbooks
+						* `https://old.reddit.com/r/biology/wiki/faq#Suggestedtextbooks`
 						* Campbell Biology
 						* Molecular Biology of the Gene
 						* Molecular Biology of the Cell
@@ -671,7 +671,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 						* Evolutionary Psychology (Buss)
 			* Engineering
 				* Computer Science
-					* https://teachyourselfcs.com/
+					* `https://teachyourselfcs.com/`
 				* Electrical Engineering
 				* Mechanical Engineering
 				* Chemical Engineering
@@ -713,7 +713,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Code: `1.8239233 * (forecasted-forecast_made) + 48.0502205` (days)
 	* [Original](https://web.archive.org/web/20210302224031/https://anthony.boyles.cc/Essays/portfolio/ElonMuskForecastCorrectionFunction.html)
 * Auctioning off Your Body
-	* https://www.humanmicrobes.org/
+	* `https://www.humanmicrobes.org/`
 	* Kidney
 	* Sperm, Eggs
 	* Plasma/Blood
@@ -821,7 +821,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Forecasting
 		* Track records
 		* Prediction platforms
-		* Prediction markets (https://en.wikipedia.org/wiki/Prediction_market)
+		* Prediction markets (`https://en.wikipedia.org/wiki/Prediction_market`)
 		* Decision markets
 		* Futarchy
 	* Voting methods
@@ -882,11 +882,11 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* Timelessness
 			* Plotinus
 		* Tegmark's Mathematical Universe
-			* /usr/local/doc/unread/physics/our\_mathematical\_universe\_tegmark\_2014.epub
+			* `/usr/local/doc/unread/physics/our_mathematical_universe_tegmark_2014.epub`
 		* Symmetry Theory of Valence
-			* /usr/local/doc/unread/principia\_qualia\_johnson\_2017.pdf
+			* `/usr/local/doc/unread/principia_qualia_johnson_2017.pdf`
 		* Scott Alexander's Solution to Theodicy
-			https://slatestarcodex.com/2015/03/15/answer-to-job/
+			* `https://slatestarcodex.com/2015/03/15/answer-to-job/`
 	* Explanation
 		* Creation
 		* God
@@ -1154,7 +1154,7 @@ Programming
 * minspantree
 	* implement all algorithms for the minimum spanning tree in a functional programming language
 	* like sml/ocaml
-	* /usr/local/doc/unread/cs/state\_of\_the\_art\_algorithms\_for\_minimum\_spanning\_trees\_eisner\_1997.pdf
+	* `/usr/local/doc/unread/cs/state_of_the_art_algorithms_for_minimum_spanning_trees_eisner_1997.pdf`
 * nenio
 	* a suckless prolog implementation
 	* ISO prolog
@@ -1286,10 +1286,13 @@ Programming
 	* not much more, really
 * neo2
 	* port neo2 to plan9/9front/Haiku OS
+* WebTeX
+	* Make it able to display `\bigsqcap`, `\bigplus`, `\bigmult`
+* Help administering schelling.pt, it needs it
 * klong
 	* receiving output of shell commands (maybe via pipe?)
 	* self adverb (options are :!, :&, :,, :;, :<, :>, :?)
-		* :< and :> should be reserved for something symetric
+		* :< and :> should be reserved for something symmetric
 		* :; is not fit because ; is not really a verb or adverb
 		* :!, :&, :? and :, are the best options
 	* support for complex numbers
