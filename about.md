@@ -379,8 +379,8 @@ similar to those of the minimalist unix and [Plan
 
 Various measures of size for the website (excluding automatically generated content and transcriptions):
 
-	$ cat (l *.md | g -v chrono | g -v tao | g -v list | g -v exercise) | pr | grep -Eo 'Page [0-9]+' | tail -1
-	Page 468
+	$ cat (l *.md | g -v chrono | g -v tao | g -v list | g -v exercise_log) | pr | grep -Eo 'Page [0-9]+' | tail -1
+	Page 470
 	$ wc (l *.md | g -v chrono | g -v tao | g -v list) | tail -1
 	28390  153710 1106568 tota
 

@@ -15,6 +15,8 @@ the middle where everything is the same
 
 *– [Neal Stephenson](https://en.wikipedia.org/wiki/Neal_Stephenson), [“Snow Crash”](https://en.wikipedia.org/wiki/Snow_Crash), 1992*
 
+<!--TODO: find pagenumber for quote-->
+
 <!--
 Instead of Student's t-test a survival analysis?
 Such as a Kaplan-Meyer method & log-rank test?

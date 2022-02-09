@@ -9,7 +9,9 @@ and whether I recommend these things.__
 Reports
 =======
 
-<!--Soundtrack for this page: Fidget by Miracles of Modern Science-->
+*Soundtrack for this page:
+[Fidget](https://www.youtube.com/watch?v=LgsywIiRsnw) by Miracles of
+Modern Science.*
 
 Sometimes, I perform little (and not so little) informal experiments.
 Although I don't collect any data during the experiment, subjective

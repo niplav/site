@@ -9,6 +9,11 @@ fiction.__
 Microfiction
 =============
 
+> Was ›sagt‹ denn eine Dichtung? Was teilt sie mit? Sehr wenig
+demjenigen, der sie versteht.
+
+*– [Walter Benjamin](https://en.wikipedia.org/wiki/Walter_Benjamin), “Die Aufgabe des Übersetzers”, 1923*
+
 Words
 ------
 
