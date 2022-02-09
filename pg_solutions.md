@@ -68,3 +68,17 @@ Checking, these three do sum to 1: `$0.0859+0.64005+0.27405=1$`.
 	draw()
 
 ![Graph for 1.5](./img/pg_solutions/p1.5.png)
+
+Chapter 2
+----------
+
+### Problem 2.7
+
+That would be `$3*3000$` for one step (3 possible changes for every
+nucleotides).
+
+For two mutational steps, it would be `$3^2*{3000 \choose 2}$` (3 possible
+changes per chosen nucleotide, and two different nucleotides chosen from
+the whole allele).
+
+For `$n$` mutational steps, it would be `$3^n*{3000 \choose n}$`.

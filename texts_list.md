@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-02-06, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-02-09, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,11 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Der Flüchtling (Friedrich Schiller, 1805)
+* Die Schlacht (Friedrich Schiller, 1805)
+* An den Frühling (Friedrich Schiller, 1805)
+* Grafe Eberhard der Greiner von Wirtemberg (Friedrich Schiller, 1805)
+* [Effective learning: Twenty rules of formulating knowledge (Piotr Wozniak, 1999)](https://www.supermemo.com/en/archives1990-2015/articles/20rules)
 * [Attention span (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Attention_span)
 * [Z0 sex-determination system (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Z0_sex-determination_system)
 * [Heterogametic sex (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Heterogametic_sex)

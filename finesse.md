@@ -85,3 +85,5 @@ forecasts is:
 		* Something like the first idea, but with a sliding window
 	* Fourth idea:
 		* Average linear regression of all subsequences with length`$\ge \mathcal{F}$`
+* Additional ideas:
+	* Multiply score with the average number of datapoints inside the given finesse

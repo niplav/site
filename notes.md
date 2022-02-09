@@ -46,6 +46,16 @@ much text?)--> For a shorter approach, you could also just read all
 Approach Anxiety
 ----------------
 
+> An die Rippen pocht das Männerherz,  
+Vorüber an hohlen Totengesichtern  
+Niederjagt die Front der Major,  
+Halt!  
+Und Regimenter fesselt das starre Kommando.  
+>  
+> Lautlos steht die Front.
+
+*– [Friedrich Schiller](https://en.wikipedia.org/wiki/Friedrich_Schiller), “Die Schlacht”, 1805*
+
 I had very big problems when trying to overcome approach anxiety. Since
 this seems to be a common problem, it may be worth it to share a method
 that was successful for me to become more comfortable with it. To make
@@ -1111,3 +1121,15 @@ The total frequency of `$A_1$` in the next generation is
 	p_1^2+p_1-p_1^2-\sum_{i=3}^{n} p_1 p_i+\sum_{i=3}^n p_1 p_i=\\
 	p_1$$
 </div>
+
+<!--
+Computing Shapley Values in Klong
+----------------------------------
+
+First argument: the function, second argument: the given values, third
+argument: the fallback values.
+
+shapleyval::{f::x;g::y;d::z;{s::!#g;s::ps(&~s=x)}'!#y}
+shapleyval({(x@2)+(*x)^x@1};[2 4 4];[1 1 0])
+
+-->

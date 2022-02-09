@@ -9,6 +9,16 @@ notes to retain some structure to the notes.__
 Notes on Ethics
 ================
 
+> Aber was wollen denn die Fragen, ich bin ja mit ihnen gescheitert,
+wahrscheinlich sind meine Genossen viel klüger als ich und wenden
+ganz andere vortreffliche Mittel an, um dieses Leben zu ertragen,
+Mittel freilich, die, wie ich aus eigenem hinzufüge, vielleicht ihnen
+zur Not helfen, beruhigen, einschläfern, artverwandelnd wirken, aber
+in der Allgemeinheit ebenso ohnmächtig sind, wie die meinen, denn,
+soviel ich auch ausschaue, einen Erfolg sehe ich nicht.
+
+*– [Frank Kafka](https://en.wikipedia.org/wiki/Franz_Kafka), “Forschungen eines Hundes”, 1922*
+
 My general ethical outlook is one of high [moral
 uncertainty](./doc/ethics_notes/moral_uncertainty_macaskill_et_al_2020.pdf),
 with my favourite theory being consequentialism. I furthermore favour
