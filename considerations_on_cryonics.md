@@ -997,8 +997,8 @@ enough money to continue being run, and from the fact that the
 em era might not last several subjective millennia. Furthermore,
 it might be that multiple copies of the emulated cryonicist are
 executed. This scenario deserves further consideration (see also
-[Hanson 1994](http://mason.gmu.edu/~rhanson/uploads.html "If Uploads
-Come First")). I will not take into account the possibility of multiple
+[Hanson 1994](http://mason.gmu.edu/~rhanson/uploads.html "If Uploads Come First")).
+I will not take into account the possibility of multiple
 copies of the same person, and assume that only one emulation is being
 run (to avoid tricky problems in aggregation).
 

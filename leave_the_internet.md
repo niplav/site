@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-02-06, modified: 2022-02-06, language: english, status: notes, importance: 5, confidence: unlikely*
+*author: niplav, created: 2022-02-06, modified: 2022-02-11, language: english, status: notes, importance: 5, confidence: unlikely*
 
 > __The optimization power of attention-grabbing systems available over
 the internet is growing faster than any normal human's ability to defend
@@ -43,8 +43,15 @@ sustained attention spans, and with a large opportunity cost.
 The Basic Argument
 ------------------
 
-The basic argument can be summarized as follows: The world economy is
-growing at around 2% a year, which constitutes exponential progress.
+The basic argument can be summarized as follows: There is often an
+economic incentive to get people addicted to things, and currently
+information technology seems to progressing fastest in finding new
+methods to do that. Existing legislative bodies move too slowly and
+don't understand the problem well enough to do much about it, and often
+the resulting polarization & outrage is in their interest. The world
+economy is growing at 2% a year, which constitutes exponential progress,
+but the resilience of human psychology is growing much slower, maybe
+just linearly (with evolutionary pressure).
 
 ### Two Different Growth Modes
 
@@ -71,7 +78,7 @@ For television & children:
 Possible Counterarguments
 --------------------------
 
-### Brain “Software” Very Flexible
+### Brain Very Flexible
 
 ### Addictive Process Takeover=Doom
 
