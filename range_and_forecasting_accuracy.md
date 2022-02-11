@@ -3,13 +3,14 @@
 
 *author: niplav, created: 2020-03-24, modified: 2022-02-06, language: english, status: finished, importance: 6, confidence: possible*
 
-> __This text looks at the accuracy of forecasts in relation
-to the time between forecast and resolution, and asks three
-questions: First; is the accuracy higher between forecasts;
-Second; is the accuracy higher between questions; Third; is the
-accuracy higher within questions? These questions are analyzed
-using data from [PredictionBook](https://predictionbook.com/) and
-[Metaculus](https://www.metaculus.com/questions/), the answers turn
+> __This text looks at the accuracy of forecasts in
+relation to the time between forecast and resolution, and
+asks three questions: First; is the accuracy higher [between
+forecasts](#Judging-Between-Forecasts); Second; is the accuracy higher
+[between questions](#Judging-Between-Questions); Third; is the accuracy
+higher [within questions](#Judging-Within-Questions)? These questions are
+analyzed using data from [PredictionBook](https://predictionbook.com/)
+and [Metaculus](https://www.metaculus.com/questions/), the answers turn
 out to be yes, no and yes for Metaculus data; and no, no and no for
 PredictionBook data. Possible reasons are discussed.__
 
@@ -36,6 +37,9 @@ https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting
 <!--http://foresightr.com/2016/05/06/a-brief-history-of-forecasting-->
 <!--Seems like a similar work:
 https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.12127-->
+<!--TODO: Check if the reported results in summary section & abstract
+match up with the results in the text. Add explaining image for the
+illustrative example-->
 
 <!--Prediction: The long and short of it (Anthony Millner/Daniel Heyen, 2020)-->
 

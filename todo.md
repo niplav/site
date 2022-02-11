@@ -1413,3 +1413,5 @@ In-World Projects
 ------------------
 
 * Destroy the moons of Mars
+* Found a community of algae farmers that speak a Icelandic-Basque pidgin
+* Add Ithkuil script to the UCSUR

@@ -36,7 +36,7 @@ Mathematics Notation Convention
 
 (Or social choice theory/decision theory/utility theory…)
 
-* Some people use `$P, R, I$` instead of `$\prec, \preceq, \sim$`. I don't.
+* Some people use `$P, R, I$` instead of `$\prec, \preceq, \sim$`. I often don't.
 
 Things I Would Like To Do But I'm Not Brave Enough
 ---------------------------------------------------
@@ -47,6 +47,7 @@ Things I Would Like To Do But I'm Not Brave Enough
 * Start with the integers `$\mathbb{Z}$`, and then specifies when one wants only the positive numbers (`$\mathbb{Z}^+$`), the positive numbers with 0 (`$\mathbb{Z}^+_0$`), the negative numbers (`$\mathbb{Z}^-$`) and the negative numbers with 0 (`$\mathbb{Z}^-_0$`). That would be much nicer than using `$\mathbb{N}$`, since `$\mathbb{Z}$` is a ring under addition and multiplication.
 * Treat `$-$` and `$+$` as [idempotent](https://en.wikipedia.org/wiki/Idempotence) operators for making expressions negative and positive, which sign flipping being done by explicitely multiplying with `$-1$`.
 	* Alternatively, use the same notation as for the [complex conjugate](https://en.wikipedia.org/wiki/Complex_conjugate).
+* Use more different symbols from many different scripts. Sure, よ for the Yoneda embedding and Ш for the Tate-Shafarevich group are cute, but what about இ, ᚠ, ཧ, ದ, 𖤶 and ᕚ? One might want to object that these are hard to remember and therefore pronounce correctly, which is one of the reasons I don't use them. But on the other hand, one could focus on one script at a time, making it easier to learn the different symbols, especially if they are mostly used in text.
 
 Things I'm Unsure About
 ------------------------

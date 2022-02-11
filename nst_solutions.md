@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2022-12-08, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2022-02-11, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -1034,8 +1034,56 @@ Induction base: If `$k=0$`, then `$m+k=m<n=n+k$`
 
 Induction assumption: `$m+k<n+k$`
 
-Induction step: <!--TODO-->
+Induction step:
+
+<div>
+	$$m+k^+ < n+k^+ \Leftrightarrow \\
+	(m+k)^+ < (n+k)^+ \Leftrightarrow \\
+	\{m+k\} \cup (m+k) \subset \{n+k\} \cup (n+k)$$
+</div>
+
+We know that `$m+k \subset n+k$`.
+
+We can prove that `$\{m+k\} \subset n+k$`:
+
+In the base case, `$m+k^+=(m+k)^+=\{m+k\} \cup (m+k)=n+k$`, in which
+`$\{m+k\} \subset n+k$` clearly holds. Assume that `$m+k \subset n+k$`.
+Then `$n+k^+=(n+k)^+=\{n+k\} \cup (n+k) \supset n+k \supset m+k$`.
+
+Therefore, we know that `$\{m+k\} \subset n+k$` and therefore
+`$m+k \subset n+k$` and therefore `$m+k < n+k$`.
 
 ---
 
 To be shown: if `$m<n$` and `$k \not =0$`, then `$m \cdot k<n \cdot k$`.
+
+Induction over `$k$`. Base case: `$m \cdot 1=m<n=n \cdot 1$` (I don't
+think the text proves that `$p_1(n)=n$`, but I also don't think it would
+be *that* useful for me to do that here).
+
+Induction assumption: `$m \cdot k<n \cdot k$`.
+
+Induction step:
+It must hold that
+`$m \cdot k^+=p_m(k)+m=(m \cdot k)+m<(n \cdot k)+n=p_n(k)+n=n \cdot k^+$`.
+In general, if `$m<n$` and `$k<l$`, then `$m+k<n+l$` because
+`$m+k<n+k=k+n<l+n$` (two applications of the theorem above, and using
+the commutativity of addition), so `$(m \cdot k)+m<(n \cdot k)+n$`.
+
+Therefore, `$m \cdot k<n \cdot k$`.
+
+---
+
+To be shown: Ever non-empty set `$E \subset ℕ$` has a minimum.
+
+(I tried to prove this constructively, but the result was some weird
+amalgam of a constructive and and an inductive proof. Oh well.)
+
+Let `$e \in N$` be any element in `$E$`. Then if `$e=\emptyset$`,
+then there can be no element of `$E$` smaller than `$e$`, and `$e$`
+is smaller than any other natural number.
+
+If `$e \not=\emptyset$`, then for any `$e \in N$`, if we know that `$e \not \in E$`
+and `$e^+ \in E$`, then `$e^+$` is the number so that no natural number
+smaller than `$e^+ \in E$`, since we know that all numbers `$< e^+$`
+are not in `$E$`.
