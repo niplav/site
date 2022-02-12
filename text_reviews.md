@@ -101,17 +101,17 @@ growth](https://sideways-view.com/2017/10/04/hyperbolic-growth/),
 modes](http://mason.gmu.edu/~rhanson/longgrow.html) and an old Yudkowsky
 post I am unable to find at the moment.<!--TODO: capitalization of Yudkowsky is wrong still on LW-->
 
- I don't know how closely these
- texts are connected, but [Modeling the Human
- Trajectory](https://www.openphilanthropy.org/blog/modeling-human-trajectory)
- picks up one year later, creating two technical models: one
- stochastically fitting and extrapolating GDP growth; the other providing
- a deterministic outlook, considering labor, capital, human capital,
- technology and production (and, in one case, natural resources). Roodman
- arrives at somewhat similar conclusions, too: The industrial revolution
- was a _very_ big deal, and something happened around 1960 that has
- slowed the previous strong growth (as far as I remember, it doesn't
- provide an explicit reason for this).
+I don't know how closely these
+texts are connected, but [Modeling the Human
+Trajectory](https://www.openphilanthropy.org/blog/modeling-human-trajectory)
+picks up one year later, creating two technical models: one
+stochastically fitting and extrapolating GDP growth; the other providing
+a deterministic outlook, considering labor, capital, human capital,
+technology and production (and, in one case, natural resources). Roodman
+arrives at somewhat similar conclusions, too: The industrial revolution
+was a _very_ big deal, and something happened around 1960 that has
+slowed the previous strong growth (as far as I remember, it doesn't
+provide an explicit reason for this).
 
 A point in this post that I found especially interesting
 was the speculation about the back plague being the spark
@@ -254,16 +254,19 @@ least not make others come into existence, even though one desires to.
 He alludes several times to one of his other books, Better Never To Have
 Been, in which he advocates for antinatalism.
 
-Reading this book felt a little bit pointless to me. Since beliefs
-are for action<!--TODO: gwern link-->, and Benatar is just applying a
-linear transformation to all available options (if everything's bad,
-nothing is), you act exactly the same. Although I had a phase where
-I believed antinatalism quite strongly, and still don't plan on
-having kids (although I know that this attitude might change with
-increasing age), but overall antinatalism does not strike me as
-a pragmatic policy<!--cf. David Pearce & Brian Tomasik ("Strategic
-Considerations for Ethical Anti-natalists")-->, me instead adopting an
-anti-pure-replicator<!--TODO: link to Emilsson--> strategy.
+Reading this book felt a little
+bit pointless to me. Since [beliefs are for
+actions](https://www.gwern.net/Research-criticism#beliefs-are-for-actions),
+and Benatar is just applying a linear transformation to all
+available options (if everything's bad, nothing is), you
+act exactly the same. Although I had a phase where I believed
+antinatalism quite strongly, and still don't plan on having kids
+(although I know that this attitude might change with increasing
+age), but overall antinatalism does not strike me as a [pragmatic
+policy](https://reducing-suffering.org/strategic-considerations-moral-antinatalists/ "Strategic Considerations for Moral Antinatalists"),
+me instead adopting an
+[anti-pure-replicator](https://qualiacomputing.com/2017/12/20/the-universal-plot-part-i-consciousness-vs-pure-replicators/ "The Universal Plot: Part I – Consciousness vs. Pure Replicators")
+strategy.
 
 Especially the chapter on meaning felt irrelevant: I don't have an
 internal experience of meaning (or the lack thereof), and oscillate
@@ -287,7 +290,7 @@ touches on this:
 count in its favor nor against it. (The same, of course, is true
 of an optimistic view.)
 
-*– David Benatar<!--TODO: link-->, “The Human Predicament” p. 225, 2017*
+*– [David Benatar](https://en.wikipedia.org/wiki/David_Benatar), “The Human Predicament” p. 225, 2017*
 
 It seems to me that humans can believe very bad things to be the case and
 still be happier than most other humans in their lives (I know this is
@@ -300,9 +303,8 @@ Finally, I want to accuse Benatar of insufficient pessimism (on
 his own criteria): The most likely outcome for humanity (and for
 life in general) seems not to be total extinction, but instead a
 universe filled with beings most capable of copying themselves, the
-whole cosmos teeming with subsistence-level beings with very boring
-conscious experiences<!--TODO: hanson paper about frontiers & SSC post
-about substrate type stuff--> until the stars go out. (Or even worse
+whole cosmos teeming with [subsistence-level beings with very boring
+conscious experiences](https://slatestarcodex.com/2014/07/13/growing-children-for-bostroms-disneyland/ "Growing Children For Bostrom’s Disneyland") until the stars go out. (Or even worse
 scenarios from anti-aligned artificial intelligences, see [Tomasik
 2019](https://reducing-suffering.org/near-miss/ "Astronomical suffering from slightly misaligned artificial intelligence")).
 

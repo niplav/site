@@ -194,9 +194,10 @@ Existing Texts
 ---------------
 
 The most thorough argument for the usefulness of BCIs for AI alignment is
-[Urban
-2017](https://waitbutwhy.com/2017/04/neuralink.html "Neuralink and the Brain’s Magical Future")
-(which I was pointed to by []() in [this comment](), thanks!).
+[Urban 2017](https://waitbutwhy.com/2017/04/neuralink.html "Neuralink
+and the Brain’s Magical Future") (which I was pointed to by [Steven
+Byrnes](https://www.lesswrong.com/posts/rpRsksjrBXEDJuHHy/brain-computer-interfaces-and-ai-alignment?commentId=CMvDAm4K7Q3zwsidA),
+thanks!).
 
 The text mostly concerns itself with the current status of BCI technology,
 different methods of reading and writing information from and to the
@@ -435,7 +436,7 @@ Arguments Against the Utility of Brain-Computer Interfaces in AI Alignment
 
 > And so we boldly go—into the whirling knives.
 
-*– [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), “Superintelligence: Paths, Dangers, Strategies” p. 143, 2014*
+*– [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), [“Superintelligence: Paths, Dangers, Strategies”](https://www.goodreads.com/book/show/20527133-superintelligence) p. 143, 2014*
 
 ### Direct Neural Takeover Made Easy
 
@@ -445,9 +446,9 @@ to the outside world (i.e. no access to roboters, nanotechnology
 or factories). While there are some responses to these arguments
 (see i.e. [Yudkowsky 2016a](https://arbital.com/p/user_manipulation/ "User manipulation"),
 [Yudkowsky 2016b](https://arbital.com/p/30b/ "User maximization"),
-[Bostrom 2014 pp. 117-122]("Superintelligence: Paths, Dangers, Strategies")<!--TODO: link to
-Superintelligence-->), the proposal of connecting humans to potentially
-unaligned AI systems offers these counterarguments more weight.
+[Bostrom 2014 pp. 117-122](https://www.goodreads.com/book/show/20527133-superintelligence "Superintelligence: Paths, Dangers, Strategies")),
+the proposal of connecting humans to potentially unaligned AI systems
+offers these counterarguments more weight.
 
 Given direct write-access to the nervous system of a human, an AI system
 would be more likely to be able to hijack the human and use them to
@@ -650,9 +651,15 @@ founded based on that vision. An explanation of a path to success would be
 helpful in furthering the discussion and perhaps moving work to promising
 approaches to AI alignment (be it towards or away from focusing on BCIs).
 
-<!--
 Acknowledgements
 -----------------
 
-TODO
--->
+Thanks to [Steven
+Byrnes](https://www.lesswrong.com/posts/rpRsksjrBXEDJuHHy/brain-computer-interfaces-and-ai-alignment?commentId=CMvDAm4K7Q3zwsidA)
+for pointing out Tim Urban's post about this, and to
+[Robbo](https://www.lesswrong.com/posts/rpRsksjrBXEDJuHHy/brain-computer-interfaces-and-ai-alignment?commentId=t9n35ss9nhW2gJBg5)
+for many helpful resources about the topic, as
+well as the responses on the [LessWrong August 2021 Open
+Thread](https://www.lesswrong.com/posts/QqnQJYYW6zhT62F6Z/?commentId=dMpstgZ3gQnGBbRhh)
+and the people in the AI alignment channel of the Eleuther AI discord
+server for their responses.

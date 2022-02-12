@@ -206,15 +206,16 @@ a mutually beneficial discussion etc. But another reason is that even
 when I'm in a very turbulent state, I usually still find the *values*
 of my relaxed and level-headed self (let's call that self the **deferee
 self**) better than my current values. So in some way, my values in
-that stressful moment are not reflectively stable <!--TODO: link-->.
+that stressful moment are not [reflectively stable](https://arbital.com/p/reflective_stability/).
 
 Similarly, even when I'm relaxed, I usually still can imagine a
 version of myself with even more desired values – more altruistic,
 less time-discounting, less parochial. Similarly, that version of
-myself likely wants to be even more altruistic! This is a Murder-Ghandi
-problem<!--TODO: link-->: It likely leads to a perfectly altruistic,
-universalist version of myself that just wants to be itself and
-keep its own values. Let's call that self a **deference attractor**.
+myself likely wants to be even more altruistic! This is a [Murder-Ghandi
+problem](https://www.lesswrong.com/posts/SdkAesHBt4tsivEKe/gandhi-murder-pills-and-mental-illness "Gandhi, murder pills, and mental illness"):
+It likely leads to a perfectly altruistic, universalist version of myself
+that just wants to be itself and keep its own values. Let's call that
+self a **deference attractor**.
 
 But I don't always have the same deferee self. Sometimes I actually want
 to be more egoistic, more parochial, perhaps even more myopic (even

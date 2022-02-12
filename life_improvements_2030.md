@@ -16,8 +16,10 @@ Life Improvements in 2030
 ### Disavowal
 
 I now disavow this text. Most of it diverges strongly from the style of
-[Applied Divinity Studies'](https://applieddivinitystudies.com/2030/) or Gwern's original post<!--TODO: link-->, focussing way too
-much on big developments and not enough on small-scale noticeable changes.
+[Applied Divinity Studies'](https://applieddivinitystudies.com/2030/) or
+[Gwern's original post](https://www.gwern.net/Improvements), focussing
+way too much on big developments and not enough on small-scale noticeable
+changes.
 
 -----------------
 

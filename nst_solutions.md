@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2022-02-11, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2022-02-12, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -1087,3 +1087,14 @@ If `$e \not=\emptyset$`, then for any `$e \in N$`, if we know that `$e \not \in 
 and `$e^+ \in E$`, then `$e^+$` is the number so that no natural number
 smaller than `$e^+ \in E$`, since we know that all numbers `$< e^+$`
 are not in `$E$`.
+
+### Exercise 2
+
+Assume that there exists a bijection `$f$` between `$ω$` and some finite
+natural number `$n$`. Then `$n \subset ω$`, but `$ω \not \subseteq n$`,
+since `$n^+=\{n\} \cup n \subset ω$`. Then, by the [pigeonhole
+principle](https://en.wikipedia.org/wiki/pigeonhole_principle), `$f$`
+can't exist: there is at least one element too many in `$ω$` to be
+matched to `$n$`.
+
+Therefore, such an `$n$` can't exist, `$ω$` is infinite.

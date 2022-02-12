@@ -596,6 +596,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Clanishness vs. tribalism and relatedness in Dunbars number sized groups
 * Upwing and downwing as new political fronts
 	* Hat-grab at John David Pressman
+* EA Cause Area Idea: Buy 0-day exploits and inform the companies
 
 ### Collections
 
@@ -709,6 +710,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Cryonics in Europe
 	* Extremely Long-Lived Institutions
 	* Easterlin Paradox
+	* Brain Stimulation as Meditation Enhancement
 * Elon Musk Forecast Correction Function
 	* Code: `1.8239233 * (forecasted-forecast_made) + 48.0502205` (days)
 	* [Original](https://web.archive.org/web/20210302224031/https://anthony.boyles.cc/Essays/portfolio/ElonMuskForecastCorrectionFunction.html)
