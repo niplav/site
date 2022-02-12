@@ -820,7 +820,7 @@ My variation on counting goes something like this:
 
 Step 2 should not be a big verbal mental loop, but more like a
 micro-routine that runs very quickly at the time one has stopped breathing
-out (similar to an interrupt<!--TODO: wikipedia link--> on a CPU).
+out (similar to an [interrupt](https://en.wikipedia.org/wiki/Interrupt) on a CPU).
 
 The standard for concentration during the breath I use is very high,
 when I feel I'm unsure, I start counting from 1 again.
@@ -940,10 +940,10 @@ That is, for any Leyland number `$l$`, does there exist four
 distinct `$a,b,c,d \in \mathbb{N}^+ \backslash \{1\}$` so that
 `$a^b+b^a=c^d+d^c=l$`?
 
-This question turns out to be very difficult<!--TODO: Mathoverflow
-question-->, and is unsolved as of now (as far as I know), but one can
-rule out two distinct constructions of the same Leyland number with only
-three numbers:
+This question turns out to be [very
+difficult](https://mathoverflow.net/questions/178555/for-integers-a-ge-b-1-is-fa-b-ab-ba-injective#comment447401_178555),
+and is unsolved as of now (as far as I know), but one can rule out two
+distinct constructions of the same Leyland number with only three numbers:
 
 Let `$a,b,c \in \mathbb{N}^+ \backslash \{1\}$`, `$a \not =b, a \not =c, b \not =c$`.
 Then `$l=a^b+b^a=a^c+c^a$`. But since `$b$` and `$c$` are distinct,

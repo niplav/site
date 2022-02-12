@@ -11,8 +11,8 @@
 > only applies partially here: Yes, it is probably worth it (under
 > plausible assumptions \$2.7m for a 20 year old, and more for older
 > people), and no, cryocrastination is usually irrational. A cost-benefit
-> analysis written in Lua, considering neurocryopreservation <!--TODO: link-->
-> with Alcor<!--TODO: link-->.
+> analysis written in Lua, considering [neurocryopreservation](https://www.alcor.org/library/neuropreservation-option/)
+> with [Alcor](https://www.alcor.org/).
 > I also perform a [Monte-Carlo
 > simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method) using
 > [Guesstimate](https://www.getguesstimate.com/ "Official website"),
@@ -1657,8 +1657,9 @@ quite unsympathetic to the prevalent position that death and aging are
 not clearly and strictly bad, and might be uninterested in discussion
 about that particular topic).
 
-I would also appreciate good write-ups countering the arguments for
-cryonics<!--TODO: link Paul Crowley's call for these-->.
+I would also appreciate good write-ups
+countering the arguments for cryonics [Crowley
+2010](http://blog.ciphergoth.org/blog/2010/02/14/an-open-letter-to-scientific-critics-of-cryonics/ "An open letter to scientific critics of cryonics").
 
 <!--
 From todo.md:
@@ -1683,4 +1684,4 @@ Discussions
 
 * [/r/cryonics](https://old.reddit.com/r/cryonics/comments/fualgi/considerations_on_cryonics_apr_2020/)
 * [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/comments/hde7h5/considerations_on_cryonics_a/)
-<!--Add LW link-->
+* [LessWrong](https://www.lesswrong.com/posts/xwJa3ieBBQYFtCmHt/considerations-on-cryonics)

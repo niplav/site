@@ -90,13 +90,13 @@ and it can be combined with sightseeing in foreign cities.
 
 He also doesn't consider positive side-effects from game (such as
 increased confidence), negative side-effects from prostitution (such as
-addiction<!--TODO: link to prostitution addiction-->), and diminishing
+addiction<!--TODO: link-->), and diminishing
 returns in his analysis.
 
 <!--TODO: he has written a text about marriage & relationships, analyze that too?
 https://freenortherner.com/2012/11/01/financial-analysis-of-sex-relationship-vs-marriage/
 -->
-<!--TODO: link & consider Thomas Crown's “Is Daygame Efficient?”-->
+<!--TODO: link & consider Thomas Crown's “Is Daygame Efficient?” https://thomascrownpua.com/2021/05/10/is-daygame-efficient/-->
 
 Ratios
 ------

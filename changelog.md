@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-02-11, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-02-12, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -14,6 +14,7 @@ February 2022
 * [Solutions to “Naïve Set Theory”](./nst_solutions.html):
 	* [Section 13](./nst_solutions.html#Section-13):
 		* [Exercise 1](./nst_solutions.html#Exercise-1_10)
+		* [Exercise 2](./nst_solutions.html#Exercise-2_6)
 * [Solutions to “Population Genetics”](./pg_solutions.html):
 	* [Chapter 2](./pg_solutions.html#Chapter-2)
 		* [Problem 2.7](./pg_solutions.html#Problem-27)
