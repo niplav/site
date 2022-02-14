@@ -318,6 +318,14 @@ Texts
 * Why We Need New Anthems
 	* Most national anthems suck, let's make some more original ones
 * Models With Huge Error Bars are Better Than No Models At All
+* Some Epistemic Warning Signs in the Effective Altruism and Rationality Communities
+	* People are Friends
+	* People Date Each Other
+	* Very Few People have Public Epistemic Track Records
+	* Hot Messes
+		* Leverage
+		* Zizians
+		* Psychotic Breaks in Berkeley
 * Why Not Prepping?
 
 > [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
@@ -591,6 +599,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Improving Coordination Over Time is a Longtermist Crux
 	* Solution: If coordination is eventually easy with a non-negligible probability, it's not a problem
 * Should the EA Community Buy Large AI Labs?
+	* Use the Rocket Squid quote from Erogamer
 * The UTMs-simulate-each-other solution to the Python-with-Witch problem
 	* Look up LW shortform comment on this
 * Clanishness vs. tribalism and relatedness in Dunbars number sized groups
