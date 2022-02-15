@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-01-29, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2022-02-14, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -379,10 +379,10 @@ similar to those of the minimalist unix and [Plan
 
 Various measures of size for the website (excluding automatically generated content and transcriptions):
 
-	$ cat (l *.md | g -v chrono | g -v tao | g -v list | g -v exercise_log) | pr | grep -Eo 'Page [0-9]+' | tail -1
-	Page 470
-	$ wc (l *.md | g -v chrono | g -v tao | g -v list) | tail -1
-	28390  153710 1106568 tota
+	$ cat (l *.md | g -v 'chrono|tao|_list|exercise_log|declaration') | pr | grep -Eo 'Page [0-9]+' | tail -1
+	Page 472
+	$ wc (l *.md | g -v 'chrono|tao|_list|exercise_log|declaration') | tail -1
+	26416  146341 1072198 total
 
 Benford's law:
 
