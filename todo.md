@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-02-14, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-02-15, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -702,8 +702,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* Forecasting
 			* Metaculus
 			* Spend relatively long on each question (15 minutes)
-* Explaining "Mental Motions"
-	* Find mentions of this, and write up what the term means.
 * Anecdotes About the Running Times of Test Suites in the Software Industry
 * Ways in which people have misspelled "Kurzgesagt" on the internet
 * Ranking, Reviewing and Rating Patricia Taxxon's Music
@@ -754,6 +752,9 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Positive Externalities: Environment, Attractiveness
 * Hail Long Content
 	* Most Topics are Too Short for Books
+* Hail FAQs
+* Boo Discord
+	* Why on earth did this software become the replacement for forums?
 * There is no Continous Probability Distribution without a Mode
 * Sharing Beliefs vs. Evidence vs. Models vs. Ontologies
 	* With examples:
@@ -956,6 +957,10 @@ eine kontingente verschmelzung von fast-sein und konkretheit"
 ### Archiving
 
 * Type up John Nash's Thesis in LaTeX
+* Make page explaining "Shoulding at the Universe"
+* Make page explaining "Cryptonormativity"
+* Make a page explaining "Mental Motions"
+	* Find mentions of this, and write up what the term means.
 
 Data Sets
 ----------
@@ -1381,6 +1386,7 @@ Wikipedia Articles
 * Place premium
 * Pigou bound
 * Myerson's Lemma
+* Bulow-Klemperer Theorem
 
 ### Improve
 
@@ -1394,7 +1400,8 @@ Wikipedia Articles
 * In the page on Single-parameter Utility, the formulas contain non-\text multi-letter variables. Fix that.
 	* Same for Monotonicity (mechanism design)
 
-### Metaculus Questions
+Metaculus Questions
+-------------------
 
 * A question that tries to gauge how much Metaculus forecasters are incentivized by points vs. simply accuracy
 * A question about the discovery of a [perfect cuboid](https://en.wikipedia.org/wiki/Euler_brick#Perfect_cuboid)
@@ -1402,10 +1409,6 @@ Wikipedia Articles
 * A question about SGSS (?) data for virginity/no sex in last year for 2025-2030
 * A question about antibiotic resistant strains
 * Some questions about the performance of BCIs
-
-### LW Posts
-
-* Port "Shoulding at the Universe" over?
 
 Structure
 ---------
@@ -1428,3 +1431,4 @@ In-World Projects
 * Destroy the moons of Mars
 * Found a community of algae farmers that speak a Icelandic-Basque pidgin
 * Add Ithkuil script to the UCSUR
+* Bring the rest of the Latin super/subscripts into Unicode

@@ -194,7 +194,7 @@ important.
 This indicates that comments might be taken as advice, which should lead
 to caution what to compliment.
 
-> A girl called me “ so witty” when I was 16 and it still gives me
+> A girl called me “so witty” when I was 16 and it still gives me
 > a boost on bad days
 
 *– [huxception](https://old.reddit.com/user/huxception), [answer](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/e6ltl4g/) to [“What are some compliments that you have received or given that are unforgettable?”](https://old.reddit.com/r/AskMen/comments/9ir0rd/what_are_some_compliments_that_you_have_received/) on [/r/AskMen](https://old.reddit.com/r/AskMen/) (22 points), 2018*

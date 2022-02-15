@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2021-11-26, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2022-02-15, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1121,6 +1121,42 @@ The total frequency of `$A_1$` in the next generation is
 	p_1^2+p_1-p_1^2-\sum_{i=3}^{n} p_1 p_i+\sum_{i=3}^n p_1 p_i=\\
 	p_1$$
 </div>
+
+Ideas for More Pronominal Esperanto Words
+------------------------------------------
+
+* Prefix *ĉit-*, meaning *this specific one, this particular one*
+	* *ĉitia*: *this specific way*, *like*
+	* *ĉities*: *mine*, *this persons*
+	* *ĉitio*: *this object*, *this thing*
+	* *ĉitiu*: *this person*
+	* *ĉitial*: *for this reason*
+	* *ĉitiam*: *now*
+	* *ĉitie*: *here*
+	* *ĉitien*: *to there*, *tither*
+	* *ĉitiel*: *in this way*
+	* *ĉitiom*: *this amount*
+* Prefix *gi-*: meaning *outside of*, *category not applicable*
+	* *gia*: *outside of having characteristics*, *indistinguishable*, *indiscernible*
+	* *gies*: *communist*, *impossible to possess*
+	* *gio*: *not a thing*, *not an object*, *unthing*, *no-thing-ness*
+	* *giu*: *unperson*, *inhuman*
+	* *gial*: *outside of causality*, *neither causing nor caused*
+	* *giam*: *outside of time*, *timeless*
+	* *gie*: *unplaceable*, *unlocateable*, *outside of space*
+	* *gien*: *to nowhere*, *away, but nowhere in particular*
+	* *giel*: *impossible to do*, *in no manner*
+	* *giom*: *massless*, *incorporeal*
+* Postfix *-ap*, meaning *pertaining to sensation and experience*
+	* *iap*: *any perception*, *any sensation*
+	* *kiap*: *how perceived*, *what sensation*
+	* *tiap*: *this sensation*, *this felt way*, *luminosity* (see Daniel Ingram, “Mastering the Core Teachings of the Buddha” p. 228 footnote 1, 2018)
+	* *ĉiap*: *with every experience*, *one by one as they occurred*
+	* *neniap*: *with no experience*, *outside perception*, *cessation*
+	* *ĉitiap*: *this sensation*, *felt right here right now*
+	* *giap*: *eighth jhāna*, *imperceptible*
+
+The distinction between *gi-* and *nen-* is subtle.
 
 <!--
 Computing Shapley Values in Klong

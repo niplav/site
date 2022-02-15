@@ -82,3 +82,50 @@ changes per chosen nucleotide, and two different nucleotides chosen from
 the whole allele).
 
 For `$n$` mutational steps, it would be `$3^n*{3000 \choose n}$`.
+
+### Problem 2.9
+
+(The actual code doesn't contain the unicode symbols since either Klong
+or Postscript can't deal with them. Sad.)
+
+	p2.9::.oc("p2.9.eps")
+	.tc(p2.9)
+
+	setrgb(0;0;0)
+	grid([0 1 0.1];[0 0.0001 0.00001])
+
+	xtitle("𝓗")
+	ytitle("-Δ_N𝓗 and Δᵤ𝓗")
+
+	N::10^4
+	u::5*10^-5
+
+	setrgb(0;0;1)
+	plot({(1%2*N)*x})
+	text(200;200;"-Δ_N𝓗")
+
+	setrgb(1;0;0)
+	plot({2*u*1-x})
+	text(250;250;"Δᵤ𝓗")
+
+	draw()
+
+	.fl()
+	.cc(p2.9)
+
+![Graph for 2.9](./img/pg_solutions/p2.9.png)
+
+Does the same thing fall out of the math?
+
+Let's see:
+
+<div>
+	$$-Δ_N \mathcal{H}=Δ_u \mathcal{H} \Leftrightarrow \\
+	\frac{1}{2N} \mathcal{H}=2u(1-\mathcal{H}) \Leftrightarrow \\
+	\mathcal{H}=4uN-4uN \mathcal{H} \Leftrightarrow \\
+	\mathcal{H}+4uN \mathcal{H}=4uN \Leftrightarrow \\
+	\mathcal{H}=\frac{4uN}{1+4uN} \Leftrightarrow \\
+	\mathcal{H}=0.\overline{6} $$
+</div>
+
+At least the intersection does.
