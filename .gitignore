@@ -2,4 +2,8 @@
 *.eps
 *.log
 *.aux
+*.bbl
+*.blg
+*.log
+*.dvi
 !header.html

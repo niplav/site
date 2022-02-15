@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-02-02, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-02-14, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -1391,6 +1391,8 @@ Wikipedia Articles
 * Vazirani brothers articles make consistent (date of birth, note, …)
 * Patri Friedman site states he considers himself a rationalist, but that links to the page on philosophical rationalism, while I suspect this refers to the LW variety
 * Add The Pile to the List of datasets for machine-learning research
+* In the page on Single-parameter Utility, the formulas contain non-\text multi-letter variables. Fix that.
+	* Same for Monotonicity (mechanism design)
 
 ### Metaculus Questions
 

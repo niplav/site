@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-03-23, modified: 2022-02-01, language: english, status: notes, importance: 1, confidence: draft*
+*author: niplav, created: 2021-03-23, modified: 2022-02-14, language: english, status: notes, importance: 1, confidence: draft*
 
 > __People write mathematics in a specific way, and use different
 conventions. Here I collect mine, mainly for myself.__
@@ -55,3 +55,4 @@ Things I'm Unsure About
 * In multiplication of reals (and maybe complex numbers), is it best to just use concatenation `$abc$`, asterisks `$a*b*c$` or central dots `$a \cdot b \cdot c$`?
 	* Or just be flexible?
 * Basically every usage of `$\ell$` feels weird to me (except for the `$\ell_p$` norm and `$\ell^p$` space maybe). It often seems too important/out of place for a simple variable (or, *god forbid*, an index).
+* What looks nicer for function definitions, `$f: ℝ^n \mapsto ℝ$` or `$f: ℝ^n \rightarrow ℝ$`?

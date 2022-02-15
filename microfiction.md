@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-02-06, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-02-14, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __Very small pieces of fiction and things that are sufficiently like
 fiction.__
@@ -152,6 +152,13 @@ Dialogues
 > “i can't, i'm trying to understand causal inference…”  
 > “why?”  
 > “I DON'T KNOW 😭”
+
+----
+
+> “Sorry, I can't meet up. I'm moving to the US in a few weeks.”  
+> “Oh, my condolences.”  
+> “Haha, no, I decided to move there myself.”  
+> “Oh no, my *sincerest condolences*.”
 
 Wrong Quotes
 -------------
