@@ -18,6 +18,7 @@ February 2022
 * [Solutions to “Population Genetics”](./pg_solutions.html):
 	* [Chapter 2](./pg_solutions.html#Chapter-2)
 		* [Problem 2.7](./pg_solutions.html#Problem-27)
+		* [Problem 2.9](./pg_solutions.html#Problem-29)
 * [Notes on Ethics](./notes_on_ethics.html)
 	* [Arguments Against Preference Utilitarianism](./notes_on_ethics.html#Arguments-Against-Preference-Utilitarianism)
 * [Playing with Language](./language.html)
@@ -25,6 +26,8 @@ February 2022
 	* [Daygame Openers](./language.html#Openers)
 * [About](./about.html)
 	* [Not Really a Blog](./about.html#Not-Really-a-Blog)
+* [Notes](./notes.html)
+	* [Ideas for More Pronominal Esperanto Words](./notes.html#Ideas-for-More-Pronominal-Esperanto-Words)
 * Now hosting a copy of [A Declaration of the Independence of Cyberspace](./declaration.html)
 
 January 2022

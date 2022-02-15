@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-02-09, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-02-15, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,17 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Die berühmte Frau (Friedrich Schiller, 1805)
+* Das Glück und die Weisheit (Friedrich Schiller, 1805)
+* An Minna (Friedrich Schiller, 1805)
+* Elisium (Friedrich Schiller, 1805)
+* Gruppe aus dem Tartarus (Friedrich Schiller, 1805)
+* [SCP-2358 (HotCocoaNerd, 2021)](https://scp-wiki.wikidot.com/scp-2358)
+* [SCP-2828 (ooblex, 2021)](https://scp-wiki.wikidot.com/scp-2828)
+* [Revenants (Photosynthetic, 2021)](https://scp-wiki.wikidot.com/revenants)
+* [SCP-1425 (Silberescher, 2020)](https://scp-wiki.wikidot.com/scp-1425)
+* [A Thin Dangerous Line (SCP Foundation, 2020)](https://scp-wiki.wikidot.com/a-thin-dangerous-line)
+* [In the Trenches with the Dead (SCP Foundation, 2021)](https://scp-wiki.wikidot.com/in-the-trenches-with-the-dead)
 * Der Flüchtling (Friedrich Schiller, 1805)
 * Die Schlacht (Friedrich Schiller, 1805)
 * An den Frühling (Friedrich Schiller, 1805)

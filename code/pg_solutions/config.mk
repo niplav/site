@@ -1,1 +1,2 @@
-IMG=p1.5.png
+IMG=p1.5.png \
+	p2.9.png
