@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-02-15, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-02-16, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -1249,6 +1249,10 @@ Programming
 * interweave
 	* A utility that takes a list of files and "interweaves" their lines (or by some other separator)
 	* E.g. "a\nb\n" and "1\n2\n3\n4\n" will become "a\n1\n2\nb\n3\n4\n"
+* Computing Shapley Values in Klong
+	* First argument: the function, second argument: the given values, third argument: the fallback values.
+	* `shapleyval::{f::x;g::y;d::z;{s::!#g;s::ps(&~s=x)}'!#y}`
+	* `shapleyval({(x@2)+(*x)^x@1};[2 4 4];[1 1 0])`
 
 ### Klong Libraries
 
@@ -1387,6 +1391,7 @@ Wikipedia Articles
 * Pigou bound
 * Myerson's Lemma
 * Bulow-Klemperer Theorem
+* Prophet Inequality
 
 ### Improve
 

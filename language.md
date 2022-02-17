@@ -372,12 +372,7 @@ to my mind at that moment.
 
 I have, at various times,
 
-* Compared girls with
-	* Mushrooms
-	* Colorful birds
-	* A [Mesa](https://en.wikipedia.org/wiki/Mesa)
-	* A piano
-		* Comparing girls with musical instruments sounds like a pretty good opener in general (viola, violin, saxophone, definitely stirs the imagination)
+* Compared girlsi with
 	* Paintings of aristocracy
 	* Characters in fiction
 		* Books I was reading at that time
@@ -394,6 +389,14 @@ I have, at various times,
 		* to something people would wear in 19th century Russia
 		* to the Mediterranian
 		* to camel fur that they had gathered at the zoo
+		* to obsidian and volcanic ash
+		* a chimney
+		* a mushroom
+		* a colorful bird
+		* a [mesa](https://en.wikipedia.org/wiki/Mesa)
+		* a piano
+			* Comparing girls with musical instruments sounds like a pretty good opener in general (viola, violin, saxophone, definitely stirs the imagination)
+
 * Pointed out contradictions in their style
 	* Telling one girl that she looked like she was going to a cocktail party on a mountain
 * Openly insulted their clothes

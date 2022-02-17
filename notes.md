@@ -1157,15 +1157,3 @@ Ideas for More Pronominal Esperanto Words
 	* *giap*: *eighth jhāna*, *imperceptible*
 
 The distinction between *gi-* and *nen-* is subtle.
-
-<!--
-Computing Shapley Values in Klong
-----------------------------------
-
-First argument: the function, second argument: the given values, third
-argument: the fallback values.
-
-shapleyval::{f::x;g::y;d::z;{s::!#g;s::ps(&~s=x)}'!#y}
-shapleyval({(x@2)+(*x)^x@1};[2 4 4];[1 1 0])
-
--->
