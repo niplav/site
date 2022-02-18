@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-02-14, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2022-02-18, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -216,6 +216,8 @@ I use a [script](./code/sitelint) to fix easily catchable mistakes.
 * proselint
 * fixing 404'ed links
 -->
+
+<!--TODO: What use "", “”, »«, ›‹ and ‘’ for? What should they differentiate?-->
 
 ### Organisation
 
