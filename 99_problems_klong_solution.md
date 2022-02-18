@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2021-10-21, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-02-10, modified: 2022-02-18, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __Solutions to the [99 problems](./99_klong_problems.html "99 Klong
 > Problems") in [Klong](http://t3x.org/klong/index.html), [literate
@@ -1657,7 +1657,7 @@ remove or add these redundant empty lists:
 	litter::{:[(1=#x)&@*x;pt(*x;[];[]):|[]~x;x;pt(*x;.f(x@1);.f(x@2))]}
 
 `clean` removes the redundant empty lists, and `litter` converts a tree
-with atoms as leafs into with empty lists added.
+with atoms as leaves into with empty lists added.
 
 `pt` is a small helper function that receives three arguments and puts
 them together into a tree: an atom, and two lists as nodes.
@@ -2074,15 +2074,15 @@ that slow. Note: this is not the case for integers. Why?-->
 ### P60 (**) Construct height-balanced binary trees with a given number of nodes.
 
 Simple solution: generate all height-balanced trees from height
-`$min_{n}$` (the minimal height of trees with `$n$` nodes) to `$max_{n}$`
+`$\text{min}_{n}$` (the minimal height of trees with `$n$` nodes) to `$\text{max}_{n}$`
 (the maximal height of trees with `$n$` nodes) for the given number of
 nodes, then filter them for having the desired number of nodes.
 
-`$min_{n}$` is `$\lfloor \ln_2(x) \rfloor$`, because
+`$\text{min}_{n}$` is `$\lfloor \ln_2(x) \rfloor$`, because
 
 <div>
-	$$x \ge 2^{min_{n}}-1\\
-	\ln_2(x+1) \ge min_{n}$$
+	$$x \ge 2^{\text{min}_{n}}-1\\
+	\ln_2(x+1) \ge \text{min}_{n}$$
 </div>
 
 One can find the exact number by considering that for a number `$m=2^n-1$`
@@ -2091,14 +2091,14 @@ One can find the exact number by considering that for a number `$m=2^n-1$`
 the height `$n$` (2). This is of course not a proof, only an illustration
 of the edge conditions in this problem.
 
-`$min_{n}$` therefore is
+`$\text{min}_{n}$` therefore is
 
 	d3::{:[x;_ln(x)%ln(2);0]}
 
-For `$max_{n}$`, one first needs to introduce the inverse of the fibonacci
+For `$\text{max}_{n}$`, one first needs to introduce the inverse of the fibonacci
 series. One can think of the fibonacci series as an injective function
 `$f : \mathbb{N} \rightarrow \mathbb{N}$`. This means that a straightforward
-inverse `$fib^{-1}$` is not a function, because e.g. 10 would have no value to
+inverse `$\text{fib}^{-1}$` is not a function, because e.g. 10 would have no value to
 be mapped to. However, one can define a function that maps a number to the
 inverse of the next lower fibonacci number: the next fibonacci number below
 10 is 8, which is the 6th fibonacci number. This creates a function that is
@@ -2106,29 +2106,29 @@ fit for the given purpose.
 
 Height-balanced trees have an intricate relation to the fibonacci numbers:
 In the best case, a heigh-balanced binary tree of height `$h$` has
-at least `$fib_{h+3}-1$` nodes. Proof:
+at least `$\text{fib}_{h+3}-1$` nodes. Proof:
 
 1.	Induction base: For height 0, the tree with the smallest amount
 	of nodes has 1 node (a single, unconnected node). For height 1, the
 	heigh-balanced tree with the smallest amount of nodes has 2 nodes (2
 	connected nodes).
-2. Induction assumption: `$minnodes_{h}=fib_{h+3}-1$`.
+2. Induction assumption: `$\text{minnodes}_{h}=\text{fib}_{h+3}-1$`.
 3.	Induction step: The height-balanced tree with height `$h+1$`
 	with the minimal number of nodes can be constructed using
 	the tree with height `$h$` and the tree with height `$h-1$`
 	and combining them using another node as a root. This way,
-	`$minnodes_{h+1}=minnodes_{h}+minnodes_{h-1}+1=fib_{h+3}-1+fib_{h+2}-1+1=fib_{h+4}-1$`.
+	`$\text{minnodes}_{h+1}=\text{minnodes}_{h}+\text{minnodes}_{h-1}+1=\text{fib}_{h+3}-1+\text{fib}_{h+2}-1+1=\text{fib}_{h+4}-1$`.
 
 To find out how high the maximum height of a height-balanced binary tree
 with `$n$` nodes, one can simply take the inverse of that. This way,
-`$max_{n}=fib^{-1}_{n+1}-3$`.
+`$\text{max}_{n}=\text{fib}^{-1}_{n+1}-3$`.
 
 To implement this, one needs a
 [formula](https://stackoverflow.com/a/5162856) for the inverse of the
 Fibonacci numbers:
 
 <div>
-	$$fib^{-1}(n)=\lfloor \frac{\frac{1}{2}+n*\sqrt{5}}{\ln(\phi)} \rfloor$$
+	$$\text{fib}^{-1}(n)=\lfloor \frac{\frac{1}{2}+n*\sqrt{5}}{\ln(\phi)} \rfloor$$
 </div>
 
 To implement it, one now needs only the value of the [golden
@@ -2140,7 +2140,7 @@ This way,
 	gr::(1+sqr(5))%2
 	fibinv::{_ln(0.5+x*sqr(5))%ln(gr)}
 
-For testing purposes, one can now also define `fib`:
+For testing purposes, one can now also define `\text{fib}g:
 
 	fib::{*(x-1){(+/2#x),x}:*[1 0]}
 
@@ -2161,11 +2161,11 @@ Tests:
 
 Apparently, fibinv returns `-2` for 0.<!--TODO: This might pose a problem later?-->
 
-Implementing `$max_{n}$` is implementing
+Implementing `$\text{max}_{n}$` is implementing
 
 <div>
-	$$max_{n}\\
-	=fib^{-1}(n+1)-3\\
+	$$\text{max}_{n}\\
+	=\text{fib}^{-1}(n+1)-3\\
 	=\lfloor \frac{\ln(\frac{1}{2}+(n+1)*\sqrt{5})}{\ln(\phi)} \rfloor-3\\
 	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)}{\ln(\phi)} \rfloor-3\\
 	=\lfloor \frac{\ln(\frac{1}{2}+\sqrt{5}+\sqrt{5}*n)}{\ln(\phi)}-3 \rfloor\\
@@ -2177,7 +2177,7 @@ Implementing `$max_{n}$` is implementing
 	\approx \lfloor \frac{\ln(0.6459+0.5279*n)}{0.4812} \rfloor$$
 </div>
 
-This way, `$max_{n}$` can be implemented the following way:
+This way, `$\text{max}_{n}$` can be implemented the following way:
 
 	d4.1::{:[x;_ln(0.6459+x*0.5279)%0.4812;0]}
 
@@ -2187,7 +2187,7 @@ heights using the fact that they behave very similarly to the
 fibonacci numbers, and return the height as soon as the number
 of nodes becomes bigger than the argument.
 
-This implementation uses the fact that `$max_{n+1}=max_{n}+max_{n-1}+1$`.
+This implementation uses the fact that `$\text{max}_{n+1}=\text{max}_{n}+\text{max}_{n-1}+1$`.
 It works by counting up in a recursive function, and returning the counter
 when it becomes smaller than the highest tree generated. `|!3` is the
 array `[2 1 0]`, representing the number of nodes in the sparsest tree

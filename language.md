@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-02-07, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-02-18, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of puns, good bandnames, types of guy,
 idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
@@ -313,8 +313,9 @@ Quines and Not-Quines
 2×2s, 2×3s and more
 --------------------
 
-* {What we're (not) able to do now} × {What we (don't) have to do now}
-* {lives in social/physical reality}×{views things generally as positive/zero/negative sum}
+* {What we're (not) able to do now}×{What we (don't) have to do now}
+* {Lives in social/physical reality}×{views things generally as positive/zero/negative sum}
+* Dating advice falls into {easy, hard}×{concrete, diffuse}×{effective, ineffective} (easy & concrete & effective doesn't exist, of course)
 
 Umeshisms
 ----------
@@ -387,13 +388,14 @@ I have, at various times,
 		* to abstract modern art
 		* to medieval wallpaper
 		* to something people would wear in 19th century Russia
-		* to the Mediterranian
+		* to the Mediterranian sea
 		* to camel fur that they had gathered at the zoo
 		* to obsidian and volcanic ash
 		* a chimney
 		* a mushroom
 		* a colorful bird
 		* a [mesa](https://en.wikipedia.org/wiki/Mesa)
+		* a native American hunting
 		* a piano
 			* Comparing girls with musical instruments sounds like a pretty good opener in general (viola, violin, saxophone, definitely stirs the imagination)
 

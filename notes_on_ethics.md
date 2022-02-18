@@ -242,106 +242,6 @@ That is, when one would judge a deference attractor to be undesirable,
 could it be in fact desirable? Or, if one were to judge in desirable,
 could it in fact be undesirable?
 
-What Use Ethics For?
----------------------
-
-Everyday life, or problems that arise in the limit?
-
-C.f. High Energy Ethics.
-
-The Two Urgent Problems are: How Don't We Die and How Do We Become Happy?
---------------------------------------------------------------------------
-
-A Very Subjective Ranking of Types of Ethical Theories
--------------------------------------------------------
-
-Consequentialism, Contractualism, Deontology, Virtue Ethics
-
-What Is Wrong With the Unwilling Organ-Donor Thought Experiment?
------------------------------------------------------------------
-
-Problems with game-theoretical ethical intuitions.
-
-Better framing: Create universe, make decision, destroy universe after
-payoff time.
-
-For most people, there's a point where they kill the unwilling organ
-donor, so we're basically haggling over the price. Maybe just a Sorites
-paradox?
-
-Possible Surprising Implications of Moral Uncertanity
-------------------------------------------------------
-
-Preserving languages & biospheres might be really important, if the
-continuity of such processes is morally relevant.
-
-We should try to be careful about self-modification, lest we fall into
-a molochian attractor state we don't want to get out of. Leave a line
-of retreat in ideology-space!
-
-For a rough attempt to formalize this, see [TurnTrout & elriggs
-2019](https://www.lesswrong.com/s/7CdoznhJaLEKHwvJW/p/6DuJxY8X45Sco4bS2 "Seeking Power is Often Robustly Instrumental in MDPs").
-
-### We Should Kill All Mosquitoes
-
-If we assign a non-miniscule amount of credence to [retributive
-theories of justice](https://en.wikipedia.org/wiki/Retributive_justice)
-that include invertebrates as culpable agents, humanity might have
-an (additional) duty to exterminate mosquitoes. Between [5% and
-50%](https://en.wikipedia.org/wiki/Mosquito) of all humans that have
-ever lived have been killed by mosquito-born diseases – if humanity
-wants to restore justice for all past humans that have died at the
-[proboscis](https://en.wikipedia.org/wiki/Proposcis) of mosquito, the
-most sensible course of action is to exterminate some or all species of
-mosquito that feed on human blood and transmit diseases.
-
-A mild counterpoint to this view is that we have an obligation to help
-species that thrive on mosquitoes, since they have helped humanity
-throughout the ages, but we'd hurt them by taking away one of their
-food sources.
-
-There are of course also additional reasons to exterminate some species
-of mosquito: 700k humans die per year from mosquito-borne diseases, and
-it might be better for mosquitos themselves to not exist at all (with
-[gene drives being an effective method of driving them to
-extinction](https://reducing-suffering.org/will-gene-drives-reduce-wild-animal-suffering/ "Will Gene Drives Reduce Wild-Animal Suffering?"))
-(see [Tomasik
-2017](https://foundational-research.org/the-importance-of-wild-animal-suffering/ "The Importance of Wild-Animal Suffering")
-and [Tomasik
-2016](https://reducing-suffering.org/the-importance-of-insect-suffering/ "The Importance of Insect Suffering")
-as introductions):
-
-> the cost-effectiveness of the \$1 million campaign to eliminate
-mosquitoes would be (7.5 * 10¹⁴ insect-years prevented) *
-(0.0025) / \$1 million = 1.9 * 10⁶ insect-years prevented per
-dollar [by increasing human population]. As one might expect,
-this is much bigger than the impact on mosquito populations
-directly as calculated in the previous section.
-
-*– [Brian Tomasik](https://reducing-suffering.org), [Will Gene Drives Reduce Wild-Animal Suffering?](https://reducing-suffering.org/will-gene-drives-reduce-wild-animal-suffering/), 2018*
-
-Why Death is Bad
------------------
-
-Under moral uncertainty with evolving preferences, you want to keep
-options open, but death closes all options but one, potentially losing
-a lot of future value.
-
-In a sense, it's unfair towards all other ethical systems you embody
-to kill yourself.
-
-Monotonic Convergence or Not of Moral Discovery Process
---------------------------------------------------------
-
-Conditions for Neither Repugnant nor Monstrous Utilitarianism
---------------------------------------------------------------
-
-Diminishing or increasing returns on investments for well-being
-of a single agent?
-
-If we're really lucky, initially there are increasing returns, but at
-some point they start diminishing.
-
 Arguments Against Preference Utilitarianism
 --------------------------------------------
 
@@ -553,3 +453,103 @@ add people with negative welfare than positive welfare.
 *– [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 5, 2000*
 
 All of these are stated more mathematically on page 15.
+
+Possible Surprising Implications of Moral Uncertanity
+------------------------------------------------------
+
+Preserving languages & biospheres might be really important, if the
+continuity of such processes is morally relevant.
+
+We should try to be careful about self-modification, lest we fall into
+a molochian attractor state we don't want to get out of. Leave a line
+of retreat in ideology-space!
+
+For a rough attempt to formalize this, see [TurnTrout & elriggs
+2019](https://www.lesswrong.com/s/7CdoznhJaLEKHwvJW/p/6DuJxY8X45Sco4bS2 "Seeking Power is Often Robustly Instrumental in MDPs").
+
+### We Should Kill All Mosquitoes
+
+If we assign a non-miniscule amount of credence to [retributive
+theories of justice](https://en.wikipedia.org/wiki/Retributive_justice)
+that include invertebrates as culpable agents, humanity might have
+an (additional) duty to exterminate mosquitoes. Between [5% and
+50%](https://en.wikipedia.org/wiki/Mosquito) of all humans that have
+ever lived have been killed by mosquito-born diseases – if humanity
+wants to restore justice for all past humans that have died at the
+[proboscis](https://en.wikipedia.org/wiki/Proposcis) of mosquito, the
+most sensible course of action is to exterminate some or all species of
+mosquito that feed on human blood and transmit diseases.
+
+A mild counterpoint to this view is that we have an obligation to help
+species that thrive on mosquitoes, since they have helped humanity
+throughout the ages, but we'd hurt them by taking away one of their
+food sources.
+
+There are of course also additional reasons to exterminate some species
+of mosquito: 700k humans die per year from mosquito-borne diseases, and
+it might be better for mosquitos themselves to not exist at all (with
+[gene drives being an effective method of driving them to
+extinction](https://reducing-suffering.org/will-gene-drives-reduce-wild-animal-suffering/ "Will Gene Drives Reduce Wild-Animal Suffering?"))
+(see [Tomasik
+2017](https://foundational-research.org/the-importance-of-wild-animal-suffering/ "The Importance of Wild-Animal Suffering")
+and [Tomasik
+2016](https://reducing-suffering.org/the-importance-of-insect-suffering/ "The Importance of Insect Suffering")
+as introductions):
+
+> the cost-effectiveness of the \$1 million campaign to eliminate
+mosquitoes would be (7.5 * 10¹⁴ insect-years prevented) *
+(0.0025) / \$1 million = 1.9 * 10⁶ insect-years prevented per
+dollar [by increasing human population]. As one might expect,
+this is much bigger than the impact on mosquito populations
+directly as calculated in the previous section.
+
+*– [Brian Tomasik](https://reducing-suffering.org), [Will Gene Drives Reduce Wild-Animal Suffering?](https://reducing-suffering.org/will-gene-drives-reduce-wild-animal-suffering/), 2018*
+
+Why Death is Bad
+-----------------
+
+Under moral uncertainty with evolving preferences, you want to keep
+options open, but death closes all options but one, potentially losing
+a lot of future value.
+
+In a sense, it's unfair towards all other ethical systems you embody
+to kill yourself.
+
+Monotonic Convergence or Not of Moral Discovery Process
+--------------------------------------------------------
+
+Conditions for Neither Repugnant nor Monstrous Utilitarianism
+--------------------------------------------------------------
+
+Diminishing or increasing returns on investments for well-being
+of a single agent?
+
+If we're really lucky, initially there are increasing returns, but at
+some point they start diminishing.
+
+What Use Ethics For?
+---------------------
+
+Everyday life, or problems that arise in the limit?
+
+C.f. High Energy Ethics.
+
+The Two Urgent Problems are: How Don't We Die and How Do We Become Happy?
+--------------------------------------------------------------------------
+
+A Very Subjective Ranking of Types of Ethical Theories
+-------------------------------------------------------
+
+Consequentialism, Contractualism, Deontology, Virtue Ethics
+
+What Is Wrong With the Unwilling Organ-Donor Thought Experiment?
+-----------------------------------------------------------------
+
+Problems with game-theoretical ethical intuitions.
+
+Better framing: Create universe, make decision, destroy universe after
+payoff time.
+
+For most people, there's a point where they kill the unwilling organ
+donor, so we're basically haggling over the price. Maybe just a Sorites
+paradox?

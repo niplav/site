@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2022-02-01, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2022-02-18, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -56,7 +56,6 @@ Reading
 
 Currently, I am actively reading the following books:
 
-* Daygame (Tom Torero, 2016)
 * Mastering the Core Teachings of the Buddha (Daniel M. Ingram, 2018)
 * Naïve Set Theory (Paul R. Halmos, 1960)
 * Philosophische und politische Aufsätze (Bertrand Russell, 1971)
