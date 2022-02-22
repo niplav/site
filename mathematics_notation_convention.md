@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-03-23, modified: 2022-02-14, language: english, status: notes, importance: 1, confidence: draft*
+*author: niplav, created: 2021-03-23, modified: 2022-02-22, language: english, status: notes, importance: 1, confidence: draft*
 
 > __People write mathematics in a specific way, and use different
 conventions. Here I collect mine, mainly for myself.__
@@ -9,14 +9,23 @@ conventions. Here I collect mine, mainly for myself.__
 Mathematics Notation Convention
 ================================
 
+> Zum Schein nämlich steht das Ausdruckslose, wiewohl im Gegensatz,
+doch in derart notwendigem Verhältnis, daß eben das Schöne, ob auch
+selber nicht Schein, aufhört ein wesentlich Schönes zu sein, wenn der
+Schein von ihm schwindet.
+
+*– Walter Benjamin, “Goethes Wahlverwandschaften”, 1925*
+
 ### Basics
 
 * Use `$:=$` for assignment, not `$\rightarrow$` or `$\leftarrow$`
 * When denoting choosing elements from a set based on some criterion, use the bar |: `$\{x|x \in P(x) \land \forall y \in S: x \succ y\}$` (some people use a colon)
 * Usually, with `$\bigcup/\bigvee/\sum/\prod$` etc, use `$i$` and `$j$` as the variables. If there are more, use `$i_1, i_2, \dots$`.
 * A variable with the name "abcd" is written as `$\text{abcd}$`, `$abcd$` is the product of four variables `$a, b, c$` and `$d$`.
-* `$0 \in \mathbb{N}$`, `$\mathbb{N}^+:=\mathbb{N}\backslash \{0\}$`. It makes much more sense when treating `$\mathbb{N}$` as a commutative monoid under addition (one could answer that it's equally possible to treat `$\mathbb{N}^+$` as a commutative monoid under multiplication, to which my answer is that addition is a more fundamental operation than multiplication)
-* `$[n] = \{x \in \mathbb{N} | 1 \le x \le n \}$`
+* `$0 \in \mathbb{N}$`, `$\mathbb{N}^+:=\mathbb{N}\backslash \{0\}$`. It makes much more sense when treating `$\mathbb{N}$` as a commutative monoid under addition (one could answer that it's equally possible to treat `$\mathbb{N}^+$` as a commutative monoid under multiplication, to which my answer is that addition is a more fundamental operation than multiplication).
+* Setting operator precedence and passing arguments to functions is done with parentheses `$()$`, sets are denoted using `$\{\}$`, and `$[]$` is sometimes used in the context of statistics (variance of a variable, mean of a variable, and so on). These are not mixed.
+	* `$[n] = \{x \in \mathbb{N} | 1 \le x \le n \}$` for `$n \in \mathbb{N}$`.
+* For function definitions, use `$f: ℝ^n \mapsto ℝ$` instead of `$f: ℝ^n \rightarrow ℝ$`
 
 ### Set Theory
 
@@ -55,4 +64,3 @@ Things I'm Unsure About
 * In multiplication of reals (and maybe complex numbers), is it best to just use concatenation `$abc$`, asterisks `$a*b*c$` or central dots `$a \cdot b \cdot c$`?
 	* Or just be flexible?
 * Basically every usage of `$\ell$` feels weird to me (except for the `$\ell_p$` norm and `$\ell^p$` space maybe). It often seems too important/out of place for a simple variable (or, *god forbid*, an index).
-* What looks nicer for function definitions, `$f: ℝ^n \mapsto ℝ$` or `$f: ℝ^n \rightarrow ℝ$`?

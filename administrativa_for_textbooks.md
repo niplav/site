@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2022-02-16, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2022-02-22, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks (broadly defined as "a book with
 exercises"), and create some stuff while reading them (e.g. making
@@ -26,8 +26,10 @@ mental model of how it works.
 	* Chapter 2: 2.1-2.7, 2.12
 	* Chapter 3: 3.1-3.3, 3.9, 3.12, 3.30, 3.37, 3.41
 	* Chapter 4: 4.1-4.3, 4.9
+	* Chapter 5: 5.1-5.3
+	* Chapter 6: 6.4, 6.7
 * Read:
-	* p. 1-135
+	* p. 1-140
 
 “Population Genetics”
 ---------------------
@@ -36,9 +38,9 @@ mental model of how it works.
 	* p. 1-44
 * [Solutions to Exercises](./pg_solutions.md)
 	* Chapter 1: 1.1-1.2, 1.5
-	* Chapter 2: 2.7, 2.9
+	* Chapter 2: 2.2, 2.7, 2.9
 * Read:
-	* p. 1-44
+	* p. 1-46
 
 ”Naïve Set Theory”
 ------------------
@@ -55,6 +57,7 @@ mental model of how it works.
 
 * [Flashcards](./flash/pattern_recognition_and_machine_learning.apkg)
 	* p. 1-55
+	* p. 166-167
 	* p. 309-317
 	* p. 322-323
 	* p. 692-699
@@ -62,9 +65,20 @@ mental model of how it works.
 	* Done: 1.5
 * Read:
 	* p. 1-55
+	* p. 166-167
 	* p. 309-317
 	* p. 322-325
 	* p. 692-699
+
+To read:
+
+* 3.2, 3.3, 3.4
+* 5
+* 6
+* 7.1
+* 9
+* 12.1, 12.2, 12.3
+* 14.2, 14.3, 14.4
 
 “Programming in Lua”
 ---------------------

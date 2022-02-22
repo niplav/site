@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-13, modified: 2022-02-07, language: english, status: on hold, importance: 2, confidence: remote*
+*author: niplav, created: 2021-01-13, modified: 2022-02-22, language: english, status: on hold, importance: 2, confidence: remote*
 
 > __After a discussion with a friend of mine, I thought it would be
 useful to structure my current thoughts about politics and economics
@@ -11,6 +11,14 @@ useful. Therefore, this text might already be out of date.__
 
 Notes on Politics, Especially Economics
 ========================================
+
+> Dieser Gang der Ereignisse zwingt die Revolution,
+“alle ihre Kräfte der Zerstörung zu konzentrieren” gegen
+die Staatsgewalt, zwingt sie, sich nicht die Verbesserung der
+Staatsmaschinerie, sondern ihre Zerstörung, ihre Vernichtung
+zur Aufgabe zu machen.
+
+*— Vladimir Lenin, “Staat und Revolution” S. 36, 1918*
 
 __Note__: Writing this page is on hold until I have read a textbook on
 economics.

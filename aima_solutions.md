@@ -3,14 +3,12 @@
 
 *author: niplav, created: 2021-01-21, modified: 2021-03-31, language: english, status: in progress, importance: 2, confidence: likely*
 
-> __[“Artificial Intelligence: A Modern
+> __In which I solve exercsise from [“Artificial Intelligence: A Modern
 Approach”](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach),
 written by [Stuart
 Russell](https://en.wikipedia.org/wiki/Stuart_J._Russell) and [Peter
-Norvig](https://en.wikipedia.org/wiki/Peter_Norvig), is probably the most
-well-known textbook on artificial intelligence. Here, I write down my
-solutions to exercises in that book. I use the 3rd edition from 2010, because the
-exercises for the 4th edition were moved online.__
+Norvig](https://en.wikipedia.org/wiki/Peter_Norvig). I use the 3rd edition
+from 2010, because the exercises for the 4th edition were moved online.__
 
 Solutions to “Artificial Intelligence: A Modern Approach”
 =========================================================

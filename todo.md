@@ -309,6 +309,7 @@ Texts
 * Separating Arguments From Inconsistency and Questions About Inconsistency
 	* The thing Hanson does when arguing about ethics
 * Reflections on Pseudonymity
+	* “You don't know the pseudonyms I assume, you don't know the pseudonyms I assume…for you. Are you happier now \ About the gods who are dying \ What do you dream of \ Festing with omniscient beer” (?) (text from Bite Hard by Franz Ferdinand)
 * In Non-Adversarial Universes, Systematic Trying Dominates Other Approaches
 	* In short: trying to think better/act better can expected to yield monotonically increasing results with effort put in
 	* Result: Utilitarianism works by its own standards, rationalism works by its own standards
@@ -504,6 +505,10 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Also try to prove the case for triangular numbers first to get a feel for it?
 * Try to find pollution levels in LOCAL\_CITY
 * Expected value of plastic surgery for men
+* How Many Proton Decays?
+	* How many proton decays should we expect to have happened in the universe so far?
+	* Proton decay follows a geometric distribution
+	* When will the last proton decay?
 
 ### Ideas
 
@@ -1404,6 +1409,7 @@ Wikipedia Articles
 * Add The Pile to the List of datasets for machine-learning research
 * In the page on Single-parameter Utility, the formulas contain non-\text multi-letter variables. Fix that.
 	* Same for Monotonicity (mechanism design)
+* Clean up second paragraph in Colored people's time
 
 Metaculus Questions
 -------------------
