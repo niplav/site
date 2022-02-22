@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-10-14, modified: 2022-01-26, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-10-14, modified: 2022-02-22, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __This page contains some solutions to exercises from the textbook
 “Reactive Systems” by Ingólfsdóttir et al. 2007.__
@@ -599,3 +599,58 @@ That would be `$\{p_2, p_3\}$`.
 	\{p_2, p_3\} \cap \{p_1\}=\\
 	\emptyset$$
 </div>
+
+### 6.7
+
+![The labeled transition system for problem 6.7](./img/rs_solutions/6_7_lts.png "The labeled transition system for problem 6.7")<!--TODO: more elaborate description-->
+
+#### 1. `$s_1$` satisfies the formula `$X\overset{\text{max}}{=} \langle b \rangle \textit{t}\!\textit{t} \land [b] X$`
+
+* Starting with the configuration `$(s_1, \langle b \rangle \textit{t}\!\textit{t} \land [b] X)$`.
+* The attacker can pick the next configuration
+	* If they pick `$(s_1, \langle b \rangle \textit{t}\!\textit{t})$`, the defender is next
+		* The defender can only pick the configuration `$(s_2, \textit{t}\!\textit{t})$`
+		* The defender wins
+	* If they pick `$(s_1, [b] X)$`
+		* The attacker can pick the next state, which can only be `$(s_2, X)$`
+		* The next move is made by the referee of the game, and results in `$(s_2, \langle b \rangle \textit{t}\!\textit{t} \land [b] X)$`
+		* The attacker then can decide on two moves:
+			* If they pick `$(s_2, \langle b \rangle \textit{t}\!\textit{t})$`, the defender is next
+				* The defender can only pick the configuration `$(s_2, \textit{t}\!\textit{t})$`
+				* The defender wins
+			* If they pick `$(s_2, [b] X)$`, the attacker is next
+				* The attacker can only pick `$(s_2, X)$`, which brings us back to $(s_2, \langle b \rangle \textit{t}\!\textit{t} \land [b] X)$`, which means the game is infinite here
+				* Since the formula is defined via `$\overset{\text{max}}{=}$`, the defender wins
+
+#### 2. `$s$` satisfies the formula `$Y\overset{\text{min}}{=} \langle b \rangle \textit{t}\!\textit{t} \lor \langle \{a,b\} \rangle Y$`, but `$t$` does not
+
+For `$s$`:
+
+* Starting with the configuration `$(s, \langle b \rangle \textit{t}\!\textit{t} \lor \langle \{a,b\} \rangle Y)$`
+* The defender picks the next configuration
+	* They don't want to pick `$(s, \langle b \rangle \textit{t}\!\textit{t})$`, since then they are stuck
+	* They can pick `$(s, \langle \{a,b\} \rangle Y)$`, and then are next
+		* The only possible resulting state is `$(s_1, Y)$`, which the referee resolves to `$(s_1, \langle b \rangle \textit{t}\!\textit{t} \lor \langle \{a,b\} \rangle Y)$`
+		* They can now pick `$(s_1, \langle b \rangle \textit{t}\!\textit{t})$`
+		* Then the next state is `$(s_1, \textit{t}\!\textit{t})$`, in which they win
+
+For `$t$`:
+
+* Starting with the configuration `$(t, \langle b \rangle \textit{t}\!\textit{t} \lor \langle \{a,b\} \rangle Y)$`
+	* The defender can pick:
+		* `$(t, \langle b \rangle \textit{t}\!\textit{t})$`
+			* Here they are stuck, and the attacker wins
+		* `$(t, \langle \{a,b\} \rangle Y)$`
+			* The next configuration they can choose is `$(t_1, \langle \{a,b\} \rangle Y)$`
+			* From there, the defender can choose two configurations:
+				* `$(t_1, Y)$`
+					* The referee resolves this to `$(t_1, \langle b \rangle \textit{t}\!\textit{t} \lor \langle \{a,b\} \rangle Y)$`
+					* Either, the defender now cycles through `$t_1$` indefinitely, by always choosing the `$a$` transition, but then the attacker wins, since the formula is defined via `$\overset{\text{min}}{=}$`, or they transition to `$t_2$`, in which case the scenario described below happens, in which they also loose
+				* `$(t_2, Y)$`
+					* The referee resolves this to `$(t_2, \langle b \rangle \textit{t}\!\textit{t} \lor \langle \{a,b\} \rangle Y)$`
+					* Now, the defender can either choose `$(t_2, \langle b \rangle \textit{t}\!\textit{t}$` or `$(t_2, \langle \{a,b\} \rangle Y)$`, but is then stuck in both of these, so the attacker wins
+
+A property that `$t$` satisfies is `$Z\overset{\text{max}}{=}\langle a \rangle Z$`,
+since we have a similar scenario to above, but the infinite
+loop on `$t_1$` makes it possible for the defender to win (since the
+formula is defined via `$\overset{\text{max}}{=}$`).

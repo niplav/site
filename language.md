@@ -384,6 +384,7 @@ I have, at various times,
 			* Trinity from the Matrix (good for girls all dressed in black)
 	* Their hair
 		* to a tree trunk
+		* to a candleflame
 	* Their outfit
 		* to abstract modern art
 		* to medieval wallpaper
@@ -396,6 +397,7 @@ I have, at various times,
 		* a colorful bird
 		* a [mesa](https://en.wikipedia.org/wiki/Mesa)
 		* a native American hunting
+		* a black candle
 		* a piano
 			* Comparing girls with musical instruments sounds like a pretty good opener in general (viola, violin, saxophone, definitely stirs the imagination)
 

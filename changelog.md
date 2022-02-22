@@ -17,8 +17,12 @@ February 2022
 		* [Exercise 2](./nst_solutions.html#Exercise-2_6)
 * [Solutions to “Population Genetics”](./pg_solutions.html):
 	* [Chapter 2](./pg_solutions.html#Chapter-2)
+		* [problem 2.2](./pg_solutions.html#Problem-22)
 		* [Problem 2.7](./pg_solutions.html#Problem-27)
 		* [Problem 2.9](./pg_solutions.html#Problem-29)
+* [Solutions to “Reactive Systems”](./rs_solutions.html)
+	* [Chapter 6](./rs_solutions.html#Chapter-6)
+		* [6.7](./rs_solutions.html#67)
 * [Notes on Ethics](./notes_on_ethics.html)
 	* [Arguments Against Preference Utilitarianism](./notes_on_ethics.html#Arguments-Against-Preference-Utilitarianism)
 * [Playing with Language](./language.html)

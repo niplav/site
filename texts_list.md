@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-02-18, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-02-21, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,25 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* \* Was für den Sozialismus spricht (Bertrand Russell, 1935)
+* Kant und seine Ausleger (Friedrich Schiller, 1805)
+* Wissenschaft (Friedrich Schiller, 1805)
+* Jeremiade (Friedrich Schiller, 1805)
+* Der Kunstgriff (Friedrich Schiller, 1805)
+* Der moralische Dichter (Friedrich Schiller, 1805)
+* Der Erhaben Stoff (Friedrich Schiller, 1805)
+* Die Danaiden (Friedrich Schiller, 1805)
+* G. G. (Friedrich Schiller, 1805)
+* Die Philosophen (Friedrich Schiller, 1805)
+* Die Homeriden (Friedrich Schiller, 1805)
+* Die Sonntagskinder (Friedrich Schiller, 1805)
+* Griechheit (Friedrich Schiller, 1805)
+* An einen Moralisten (Friedrich Schiller, 1805)
+* Männerwürde (Friedrich Schiller, 1805)
+* Die Grösse der Welt (Friedrich Schiller, 1805)
+* \* Utility indifference (Stuart Armstrong, 2010)
+* [Serac (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Serac)
+* [Child auction (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Child_auction)
 * Die berühmte Frau (Friedrich Schiller, 1805)
 * Das Glück und die Weisheit (Friedrich Schiller, 1805)
 * An Minna (Friedrich Schiller, 1805)
@@ -39,7 +58,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Gynogenesis (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Gynogenesis)
 * [Cytomixis (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Cytomixis)
 * [Semi-infinite (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Semi-infinite)
-* \* Die geistigen Väter des Faschismus (Bertrand Russell, 1935)
+* Die geistigen Väter des Faschismus (Bertrand Russell, 1935)
 * Karthago (Friedrich Schiller, 1805)
 * Einem jungen Freunde (Friedrich Schiller, 1805)
 * Die unüberwindliche Flotte (Friedrich Schiller, 1805)

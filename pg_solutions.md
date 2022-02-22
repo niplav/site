@@ -72,6 +72,34 @@ Checking, these three do sum to 1: `$0.0859+0.64005+0.27405=1$`.
 Chapter 2
 ----------
 
+### Problem 2.2
+
+Written in Lua, and generalizing to more than 2 alleles.
+
+	-- number of individuals
+	N=260
+	-- number of generations
+	n=20
+	-- initial frequencies of the alleles
+	p={0.2, 0.4, 0.1, 0.1, 0.15, 0.05}
+	alleles={}
+	for i=1, #p do
+		for j=1, math.floor(N*p[i]) do
+			alleles[#alleles+1]="a"..i
+		end
+	end
+	for i=1, n do
+		nalleles={}
+		for j=1, N/2 do
+			a=alleles[math.random(#alleles)]
+			nalleles[#nalleles+1]=a
+			nalleles[#nalleles+2]=a
+		end
+		alleles=nalleles
+	end
+	table.sort(alleles)
+	print(table.concat(alleles, ", "))
+
 ### Problem 2.7
 
 That would be `$3*3000$` for one step (3 possible changes for every

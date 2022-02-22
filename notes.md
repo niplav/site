@@ -1089,16 +1089,14 @@ center that often, she'll naturally get approached less).
 That said, it's not a very precise question, and is likely interpreted
 in many different ways, so I don't put that much weight on the responses.
 
-<!--
-How Many Proton Decays?
-------------------------
-
-How many proton decays should we expect to have happened in the universe so far?
-
-Proton decay follows a geometric distribution
-
-When will the last proton decay?
--->
+Note that this makes sense only *after* the girl has rejected you. If
+you ask during the approach, you are doing two questionable things: (1)
+asking questions and (2) focusing on your competition, instead of the
+girl in front of you. See [Heiman et al. 1995 ch. 13]("The New Strategic Selling")
+<!--TODO: link--> why this is generally a bad idea. This is also the
+strongest argument for why you shouldn't ask about approach frequency:
+In case you see the girl at some later point, she might have changed her
+mind, and asking her about approach frequency burns parts of that bridge.
 
 A Simple Proof that in Hardy-Weinberg Mating, Allele Frequencies are Preserved
 -------------------------------------------------------------------------------
@@ -1157,3 +1155,8 @@ Ideas for More Pronominal Esperanto Words
 	* *giap*: *eighth jhāna*, *imperceptible*
 
 The distinction between *gi-* and *nen-* is subtle.
+
+Thoughts: *jam* means *already*, or *now, but temporally nearer than expected*.
+This seems like it could be extended to other postfixes, e.g. with
+the meaning *here, but spatially closer than expected*, or *this much,
+but less than expected*.
