@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2021-10-24, language: english, status: finished, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2022-02-23, language: english, status: finished, importance: 6, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
@@ -1092,7 +1092,7 @@ number:
 	* Cause 10: [Benign Neoplasms](https://en.wikipedia.org/wiki/Benign_tumor): 30%; if this leads to death, it usually happens in the brain: "Unlike most benign tumors elsewhere in the body, benign brain tumors can be life-threatening."
 * 10-14 years:
 	* Cause 1: [Accident/Unintentional Injury](https://en.wikipedia.org/wiki/Accident): 55%
-	* Cause 2: [Suicide](https://en.wikipedia.org/wiki/Suicide): 60%; but I haven't investigated the leading methods of suicide for 10-14 year olds (partially because reading about it is probably horrifying). My guess would be that at this age, suicide is less often commited by using a gun, and more often by overdosing on pills, cutting & then bleeding out, or jumping off heights. Of these, especially jumping seems very damaging to the brain.
+	* Cause 2: [Suicide](https://en.wikipedia.org/wiki/Suicide): 60%; but I haven't investigated the leading methods of suicide for 10-14 year olds (partially because reading about it is probably horrifying). My guess would be that at this age, suicide is less often commited by using a gun, and more often by overdosing on pills, cutting & then bleeding out, or jumping off heights. Of these, especially jumping seems very damaging to the brain. It also seems more likely than not that cryonicists are less likely to commit suicide than the general population.
 	* Cause 3: [Malignant Neoplasms](https://en.wikipedia.org/wiki/Cancer): 60%
 	* Cause 4: [Congenital Anomalies](https://en.wikipedia.org/wiki/Birth_defect): 80%; since the person survived this far (although already existing brain damage will of course persist during preservation)
 	* Cause 5: [Homicide](https://en.wikipedia.org/wiki/Homicide): 50%

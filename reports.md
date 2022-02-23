@@ -414,9 +414,8 @@ are relatively analytical, I can recommend the [/r/streamentry
 wiki](https://old.reddit.com/r/streamentry/wiki/index), as well as the
 writings of [Daniel M. Ingram](https://integrateddaniel.info).
 
-I have still only read [Mindfulness in Plain
-English](./doc/meditation_2020/mindfulness_in_plain_english_gunaratana_1990.pdf),
-and I liked it.
+I also particularly recommend [Mindfulness in Plain
+English](./doc/meditation_2020/mindfulness_in_plain_english_gunaratana_1990.pdf).
 
 __9/10__
 
@@ -531,7 +530,7 @@ practice](./reports.html#300-Hours-of-Meditation), and my perception is
 perhaps already slightly different from the modal person's
 
 2. I have some psychedelic experiences, although the last happened more
-than 6 months ago, and seems to have left relatively little long-lasting
+than 6 months ago, and seems to have had left relatively little long-lasting
 effects
 
 3. I remember reading about the experiment some time ago, and I'm

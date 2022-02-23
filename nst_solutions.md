@@ -1092,7 +1092,7 @@ are not in `$E$`.
 
 Assume that there exists a bijection `$f$` between `$ω$` and some finite
 natural number `$n$`. Then `$n \subset ω$`, but `$ω \not \subseteq n$`,
-since `$n^+=\{n\} \cup n \subset ω$`. Then, by the [pigeonhole
+since `$n \subset n^+=\{n\} \cup n \subseteq ω$`. Then, by the [pigeonhole
 principle](https://en.wikipedia.org/wiki/pigeonhole_principle), `$f$`
 can't exist: there is at least one element too many in `$ω$` to be
 matched to `$n$`.

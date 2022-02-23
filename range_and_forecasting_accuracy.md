@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2022-02-06, language: english, status: finished, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2022-02-23, language: english, status: finished, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in
 relation to the time between forecast and resolution, and
@@ -11,7 +11,7 @@ forecasts](#Judging-Between-Forecasts); Second; is the accuracy higher
 higher [within questions](#Judging-Within-Questions)? These questions are
 analyzed using data from [PredictionBook](https://predictionbook.com/)
 and [Metaculus](https://www.metaculus.com/questions/), the answers turn
-out to be yes, no and yes for Metaculus data; and no, no and no for
+out to be yes, no and yes for Metaculus data; and no, no and yes for
 PredictionBook data. Possible reasons are discussed.__
 
 Range and Forecasting Accuracy
@@ -37,9 +37,7 @@ https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting
 <!--http://foresightr.com/2016/05/06/a-brief-history-of-forecasting-->
 <!--Seems like a similar work:
 https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.12127-->
-<!--TODO: Check if the reported results in summary section & abstract
-match up with the results in the text. Add explaining image for the
-illustrative example-->
+<!--TODO: Add explaining image for the illustrative example-->
 
 <!--Prediction: The long and short of it (Anthony Millner/Daniel Heyen, 2020)-->
 
@@ -566,8 +564,9 @@ data and lower accuracy for higher ranges for predictionbook data match
 the correlation. The steepness of the regression is quite low because
 the ranges are in days.
 
-Visualizing the forecasts with
-[scatterplots](https://en.wikipedia.org/wiki/Scatter_plot) and [linear
+Visualizing a subset of the forecasts (2048
+forecasts from each dataset, chosen randomly) with a
+[scatterplot](https://en.wikipedia.org/wiki/Scatter_plot) and [linear
 regressions](https://en.wikipedia.org/wiki/Linear_regression) shows a
 very similar picture (red dots are for Metaculus forecasts, blue dots
 are for PredictionBook forecasts):
@@ -856,13 +855,13 @@ also negative. For PredictionBook, the slope of the linear regression
 is `$-2*10^{-5}$`, compared with `$-8*10^{-6}$` for the data between
 forecasts, which is slightly steeper.
 
-In both cases, there was a negative correlation between the brier score
-and the range (to be precise, the higher the range, the lower the brier
-score/the higher the accuracy). For the Metaculus data, this effect was
-not as pronounced as for the PredictionBook data, though both correlations
-were quite weak. The two linear regressions also showed the same effect
-(lower accuracy at shorter ranges/higher accuracy at higher ranges),
-but again the slope of the linear regression was not very steep.
+In both cases, there was a small negative correlation between the brier
+score and the range (to be precise, the larger the range, the lower
+the brier score/the higher the accuracy). For the Metaculus data, this
+effect was not as pronounced as for the PredictionBook data, though both
+correlations were quite weak. The two linear regressions also showed the
+same effect (lower accuracy at shorter ranges/higher accuracy at higher
+ranges), but again the slope of the linear regression was not very steep.
 
 And now: linear regressions and scatterplots!
 
@@ -1025,7 +1024,7 @@ the dataset:
 		awpbqlr::(+/{(#x)*lreg(x)}'wpbqbrier)%(+/#'wpbqbrier)
 	[1.3731897568232792 -98.5907264853066552]
 
-The PredictionBook data – how do I put this – simply can't be true.
+The PredictionBook data — how do I put this — simply makes no sense.
 I am pretty confident that this code *is* correct, but I think that
 the questions with very few prdictions are producing incorrect results,
 especially when the predictions are very close to each other. So let's
@@ -1038,7 +1037,9 @@ an arbitrary choice I did not iterate over to get a “desired” result):
 		awpbqlr::(+/{(#x)*lreg(x)}'wpbqbrier)%(+/#'wpbqbrier)
 	[0.00374070031232435941 -0.0112363430365067794]
 
-This looks much better.
+This looks much better (except the fact that, at time of resolution,
+this linear regression predicts that the Brier score will be negative,
+which is impossible).
 
 So it is true that accuracy within question *generally* is higher
 with lower range for Metaculus data, and similar for PredictionBook
@@ -1157,7 +1158,7 @@ while the Metaculus API only offers data of the weighted average of the
 community as a timeseries (with ≤101 datapoints). Due to this limitation,
 the PredictionBook results and the Metaculus results can't be easily compared.
 
-However, I have tried to report the results for the Metaculus dataset
+This is the reason why I reported the results for the Metaculus dataset
 and the PredictionBook dataset separately, so that future work can
 work either with aggregated timeseries data or with full datasets of
 individual forecasts.
@@ -1194,26 +1195,27 @@ I have found that the data indicates three facts:
 1.	For predictions made on any question, the predictions made a long
 	time before their resolution are generally more accurate than
 	predictions made a shorter time before their resolution. This
-	can be partially, but not completely explained by fact 2.
+	can be partially, but not completely explained by fact 3.
+	1. The results for PredictionBook and Metaculus disagree here
+	2. The correlations (0.02 for Metaculus, -0.02 for PredictionBook) and slopes of the linear regressions are close to 0
 2.	Questions with a longer range (that is, time between the question
 	being written and the question being resolved) generally receive
 	predictions with a higher accuracy than questions with a shorter
 	range.
-3.	Predictions made on the same question earlier are generally less
-	accurate than predictions that are made later.
-
-These results vary strongly between Metaculus and PredictionBook, with
-observations 1. and 2. much weaker or non-existent in PredictionBook data
-(observation 3. only holds for Metaculus, because there are no questions
-on PredictionBook with enough forecasts to run the analysis).
+	1.	Again, the correlation coefficients (-0.01 for Metaculus,
+		and -0.05 for PredictionBook) and the slopes of the linear
+	regressions are close to 0
+3.	Predictions made on the same question closer to resolution time
+	are generally more accurate than predictions that are made long
+	before resolution time.
 
 These results suggest what to expect with questions with even greater
-range: That later predictions on them will generally be more accurate,
-and that the kinds of questions asked with a very high range might have
-engender prediction with an even accuracy than questions with short and
-medium ranges.
+range: That later predictions (closer to resolution time) on them will
+generally be more accurate, and that the kinds of questions with a very
+high range might engender predictions with an even higher accuracy than
+questions with short and medium ranges.
 
-However, there are plausible reasons to expect the trend from 1. and 2.
+However, there are plausible reasons to expect the trend from 2.
 to reverse: The questions asked with very high range are not very
 different from questions with medium range, and have a lot less
 information available to make useful predictions on them; [butterfly
