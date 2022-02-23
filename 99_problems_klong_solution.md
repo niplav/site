@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-10, modified: 2022-02-18, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-02-10, modified: 2022-02-23, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __Solutions to the [99 problems](./99_klong_problems.html "99 Klong
 > Problems") in [Klong](http://t3x.org/klong/index.html), [literate
@@ -38,7 +38,7 @@ Code
 
 The pure Klong code, without tests, explanations, comments or performance
 tests is available [here](./code/99_klong/sol.kg). It currently implements
-solutions for all problems up to P63 (excluding P47 and P48), in 2262
+solutions for all problems up to P64 (excluding P47 and P48), in 2428
 bytes.
 
 Conventions
@@ -2653,13 +2653,58 @@ This one is also *actually safe* with negative numbers!
 		completebintree(-3)
 	[]
 
+### P64 (**) Layout a binary tree (1).
+
+So, here's an abomination. At the heart we have a recursive function
+`d7` that takes three arguments: the tree itself, the current in-order
+position, and the current depth.
+
+`d7` deals with three cases: If we are dealing with an empty tree,
+we return the empty tree. If the left tree is empty, we can give the
+current tree the highest position (i.e. giving it the current depth and
+in-order number), and then proceed recursively with the right tree.
+
+Things get a little trickier with a non-empty left tree. In this case, an
+unnamed function is called with the arguments (because Klong is finicky
+about multiple statements in conditionals), and first we recursively
+pass the left tree to `d7`, the result of which we assign to `l`. Then
+we have to discover the highest in-order number in the left tree.
+We could flatten the tree and run a maximum over it, but I decided it
+would be cleaner to pick out that number explicitely, which can be found
+in the right-most subtree of `l` with no right subtree. This is done
+via a little While adverb, and we assign that right-most subtree with
+no right subtree to the variable `o`.
+
+Then we can proceed in orderly fashion again: our current root node
+gets the in-order value of `o` plus one, and we deal recursively with
+the right subtree.
+
+	d7::{:[[]~x;[]:|
+		[]~x@1;(*x),y,z,[[]],,.f(x@2;y+1;z+1);
+		{[l o];
+			l::d7(x@1;y;z+1);
+			o::{~[]~x@4}{x@4}:~l;
+			(*x),(1+o@1),z,(,l),,d7(x@2;2+o@1;z+1)}:(x;y;z)
+		]}
+	s64::{d7(x;1;1)}
+	layoutbinarytree::s64
+
+We can test this using the tree from the image in [the statement of the problem](./99_klong_problems.html#P64--Layout-a-binary-tree-1):
+
+		t::[:n [:k [:c [:a [] []] [:h [:g [:e [] []] []] []]] [:m [] []]] [:u [:p [] [:s [:q [] []] []]] []]]
+		layoutbinarytree(t)
+	[:n 8 1 [:k 6 2 [:c 2 3 [:a 1 4 [] []] [:h 5 4 [:g 4 5 [:e 3 6 [] []] []] []]] [:m 7 3 [] []]] [:u 12 2 [:p 9 3 [] [:s 11 4 [:q 10 5 [] []] []]] []]]
+		layoutbinarytree([:a [][]])
+	[:a 1 1 [] []]
+		layoutbinarytree([])
+	[]
+
+This looks quite like what should happen, although it still feels like the
+code could be cleaner, but I haven't found a good way to shave off bytes
+(except deleting the whitespace in the code above, of course). Maybe `d7`
+could give two return values in a list, the current in-order number and
+the result?
+
 <!--
-Multiway Trees
---------------
-
-Graphs
-------
-
-Miscellaneous Problems
-----------------------
+	s64::{:[[]~x;[]:|[]~x@1;(*x),y,z,[[]],,.f(x@2;y+1;z+1);{[l];l::s64(x@1;y;z+1);(*x),(1+l@1),z,,l,,s64(x@2;2+l@1;z+1)}:(x;y;z)]}
 -->

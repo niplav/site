@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2022-01-13, language: english, status: in progress, importance: 4, confidence: other*
+*author: niplav, created: 2019-01-14, modified: 2022-02-23, language: english, status: in progress, importance: 4, confidence: other*
 
 > __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems
@@ -543,7 +543,7 @@ specification:
 Can you apply the method of "result caching" in order to make the function
 more efficient, when it is to be used repeatedly?
 
-### P50 (***) Huffman code.
+### P50 (*\*\*) Huffman code.
 
 First of all, consult a good book on discrete mathematics or algorithms
 for a detailed description of [Huffman codes](https://en.wikipedia.org/wiki/Huffman_coding)!
