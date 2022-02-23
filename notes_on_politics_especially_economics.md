@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-13, modified: 2022-02-22, language: english, status: on hold, importance: 2, confidence: remote*
+*author: niplav, created: 2021-01-13, modified: 2022-02-23, language: english, status: on hold, importance: 2, confidence: remote*
 
 > __After a discussion with a friend of mine, I thought it would be
 useful to structure my current thoughts about politics and economics
@@ -348,6 +348,19 @@ implementation for unions is really weird.
 ### Regulate/Tax Companies Proportional to Size
 
 ### Nate Soares Should Release His Notes on this Topic
+
+### Planned Economies Should be Possible, but Seem Difficult
+
+See [johnswentworth
+2018](https://www.lesswrong.com/posts/brhWPoNsBN7za3xjs/competitive-markets-as-distributed-backprop "Competitive Markets as Distributed Backprop").
+The whole method of analysing the way in which markets are information
+processing systems is fascinating. Related: Towards a New Socialism by
+Cockshott, Hayek's essay on the economic calculation problem, that one
+paper that claims markets are efficient iff P=NP.
+
+Related question: How much are current economies limited by very hard
+computational problems, compared to mundane everyday "nobody bothered
+looking at this yet" problems?
 
 ### Some Infuriating Arguments Related to Economics
 

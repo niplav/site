@@ -311,7 +311,7 @@ own [SHA1 sum](https://en.wikipedia.org/wiki/SHA-1), actually doing it
 seems like a frivolous waste of energy and computing power.
 
 Fortunately for me, somebody else has done this already,
-creating a gif that displays its own MD5 sum (created by
+creating a gif that displays its own MD5 sum (made by
 [spq](https://twitter.com/__spq__/status/838583044260904960)):
 
 ![A gif that displays its own MD5 sum](./img/pipe_rings/md5.gif "A gif that displays its own MD5 sum. The MD5 sum is F5CA4F935D44685C431A8BF788C0EACA.")

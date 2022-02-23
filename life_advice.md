@@ -120,7 +120,7 @@ And, as always, remember that I'm just a person on the internet.
 		Melatonin](./reports.html#Melatonin), which pretty much
 		solved my problem
 	* Example: I had trouble biting my nails, so I started [cutting them regularly](./reports.html#Mostly-topping-to-Bite-My-Nails), which also pretty much solved my problem
-	* Example: I used to have a problem with getting distracted by the internet during hours when I wanted to be working. I went to a place without internet, which made working easier.
+	* Example: I used to have a problem with getting distracted by the internet during hours when I wanted to be working. I moved to a place without internet, which made working easier.
 11.	The benefits of small amounts of meditation are probably
 	overstated, while the benefits of large amounts of
 	meditation (north of 1 hour a day) are probably heavily
@@ -227,7 +227,7 @@ And, as always, remember that I'm just a person on the internet.
 29.	Vitamin C might cause kidney stones to happen more often. [You
 	probably don't want to experience kidney
 	stones](https://forum.effectivealtruism.org/posts/gtGe8WkeFvqucYLAF/logarithmic-scales-of-pleasure-and-pain-rating-ranking-and "Logarithmic Scales of Pleasure and Pain: Rating, Ranking, and Comparing Peak Experiences Suggest the
-Existence of Long Tails for Bliss and Suffering"). <!--TODO: better links for this-->
+Existence of Long Tails for Bliss and Suffering")<!--TODO: better links for this-->. Therefore, consider not supplementing Vitamin C.
 30. If you are about to start fighting someone, be aware that this happens. State it out loud: Does this mean we are now fighting? Surprisingly, this sometimes defuses the fight.
 31. If you're already doing something unethical, it's better to be aware of that than to compartmentalize and push it away – for yourself *and* others.
 32.	Don't invest money by buying diamonds. Humanity is able to create
@@ -245,7 +245,8 @@ Existence of Long Tails for Bliss and Suffering"). <!--TODO: better links for th
 		then by all means, go ahead. But don't be disappointed
 		when a years later, your friends can buy bigger diamonds
 		with the same carbon atoms 10x cheaper<!--TODO: link
-		Yudkowsky on "the same atoms"-->
+		Yudkowsky on "the same atoms"-->, and nobody cares about
+		your authentic diamond.
 
 See Also
 ---------
