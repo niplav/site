@@ -556,4 +556,4 @@ __4.5/10__
 
 [/u/Awarenesss](https://old.reddit.com/u/Awareness)
 has published the results of their study
-[here](https://ethanmorse.github.io/research/face/face.html "Strange-Face Illusion").
+[here](https://210ethan.github.io/research/face.html "Strange-Face Illusion")

@@ -346,7 +346,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Read up on the research
 	* Perhaps re-emphasize as "Easterlin Paradox"?
 * Contra Morse on Fame
-	* `https://ethanmorse.github.io/thoughts/famous.html`
+	* `https://210ethan.github.io/thoughts/famous.html`
 
 ### Analyses
 
