@@ -408,7 +408,7 @@ but rather cycles).
 
 ### Friends of the Site
 
-* [Ethan Morse](https://ethanmorse.github.io)
+* [Ethan](https://210ethan.github.io)
 * [Tetraspace West](https://thetetra.space)
 * [Matteo Dimaio](https://matteodimaio.net)
 * [Skaði þjazidottir](https://ulthar.xyz)

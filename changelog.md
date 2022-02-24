@@ -20,6 +20,7 @@ February 2022
 * [Solutions to “Population Genetics”](./pg_solutions.html):
 	* [Chapter 2](./pg_solutions.html#Chapter-2)
 		* [Problem 2.2](./pg_solutions.html#Problem-22)
+		* [Problem 2.5](./pg_solutions.html#Problem-25)
 		* [Problem 2.7](./pg_solutions.html#Problem-27)
 		* [Problem 2.9](./pg_solutions.html#Problem-29)
 * [Solutions to “Reactive Systems”](./rs_solutions.html)

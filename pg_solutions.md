@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-01-25, modified: 2022-02-02, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2022-01-25, modified: 2022-02-23, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __Some solutions to exercises in the book “Population Genetics” by
 [John H. Gillespie](https://en.wikipedia.org/wiki/John_H._Gillespie). I
@@ -99,6 +99,35 @@ Written in Lua, and generalizing to more than 2 alleles.
 	end
 	table.sort(alleles)
 	print(table.concat(alleles, ", "))
+
+### Problem 2.5
+
+	p2.5::.oc("p2.5.eps")
+	.tc(p2.5)
+
+	setrgb(0;0;0)
+	grid([1 100 10];[0 150 30])
+
+	xtitle("N")
+	ytitle("t½")
+
+	setrgb(0;0;1)
+	plot({-ln(2)%ln(1-1%2*x)})
+	text(200;160;"-ln(2)/ln(1-1/2N)")
+
+	setrgb(1;0;0)
+	plot({2*x*ln(2)})
+	text(250;275;"2Nln(2)")
+
+	draw()
+
+	.fl()
+	.cc(p2.5)
+
+![Graph for 2.5](./img/pg_solutions/p2.5.png)
+
+These are, in fact, two different graphs, but the approximation is good
+enough that it's not visible.
 
 ### Problem 2.7
 

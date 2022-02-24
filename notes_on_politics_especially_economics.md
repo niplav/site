@@ -26,7 +26,9 @@ economics.
 Before I Get to the Object-Level Stuff
 ---------------------------------------
 
-What can be done before talking about object-level policies.
+Before I get to my beliefs about possible object-level improvements,
+I think that there are some broad strategies that many people would
+agree on at least in the abstract.
 
 ### Improve Political Epistemology
 

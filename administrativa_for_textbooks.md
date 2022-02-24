@@ -38,7 +38,7 @@ mental model of how it works.
 	* p. 1-44
 * [Solutions to Exercises](./pg_solutions.md)
 	* Chapter 1: 1.1-1.2, 1.5
-	* Chapter 2: 2.2, 2.7, 2.9
+	* Chapter 2: 2.2, 2.5, 2.7, 2.9
 * Read:
 	* p. 1-46
 

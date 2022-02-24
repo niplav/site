@@ -6,7 +6,7 @@
 > __Inspired by others
 ([Falkovich 2019](https://www.lesswrong.com/posts/HJeD6XbMGEfcrx3mD/100-ways-to-live-better "100 Ways To Live Better"),
 [Ideopunk 2020](https://www.lesswrong.com/posts/7hFeMWC6Y5eaSixbD/100-tips-for-a-better-life "100 Tips for a Better Life"),
-[Morse 2021](https://ethanmorse.github.io/knowledge/advice.html "Life Advice"))
+[Ethan 2021](https://210ethan.github.io/knowledge/advice.html "Life Advice"))
 I thought it might be useful to create a grabbag of strategies for
 dealing with being human.__
 

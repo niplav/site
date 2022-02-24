@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-02-18, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-02-23, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of puns, good bandnames, types of guy,
 idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
@@ -374,7 +374,7 @@ to my mind at that moment.
 
 I have, at various times,
 
-* Compared girlsi with
+* Compared girls with
 	* Paintings of aristocracy
 	* Characters in fiction
 		* Books I was reading at that time
@@ -401,7 +401,6 @@ I have, at various times,
 		* a black candle
 		* a piano
 			* Comparing girls with musical instruments sounds like a pretty good opener in general (viola, violin, saxophone, definitely stirs the imagination)
-
 * Pointed out contradictions in their style
 	* Telling one girl that she looked like she was going to a cocktail party on a mountain
 * Openly insulted their clothes
