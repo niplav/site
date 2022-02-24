@@ -1,7 +1,7 @@
 [home](./index.md)
 -----------------
 
-*author: niplav, created: 2019-04-02, modified: 2020-06-01, language: english, status: finished, importance: 3, confidence: likely*
+*author: niplav, created: 2019-04-02, modified: 2020-06-01, language: english, status: maintenance, importance: 3, confidence: likely*
 
 > __Two people are abducted and placed on the opposite poles of a
 > habitable planet. They want to find each other, but they have no

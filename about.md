@@ -310,6 +310,7 @@ being-finished-ness):
 * "notes"
 * "draft"
 * "in progress"
+* "maintenance"
 * "finished"
 * "on hold"
 * "abandoned"

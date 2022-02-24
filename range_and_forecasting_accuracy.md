@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2022-02-23, language: english, status: finished, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2022-02-23, language: english, status: maintenance, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in
 relation to the time between forecast and resolution, and

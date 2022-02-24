@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2021-01-24, language: english, status: finished, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-04-11, modified: 2021-01-24, language: english, status: maintenance, importance: 4, confidence: unlikely*
 
 > __In western cultures, it is nearly universal for people to clap
 > before and after pieces of classical music and jazz. An argument
