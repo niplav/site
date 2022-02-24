@@ -35,12 +35,12 @@ mental model of how it works.
 ---------------------
 
 * [Flashcards](./flash/population_genetics.apkg)
-	* p. 1-44
+	* p. 1-48
 * [Solutions to Exercises](./pg_solutions.md)
 	* Chapter 1: 1.1-1.2, 1.5
 	* Chapter 2: 2.2, 2.5, 2.7, 2.9
 * Read:
-	* p. 1-46
+	* p. 1-48
 
 ”Naïve Set Theory”
 ------------------

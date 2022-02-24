@@ -1,16 +1,19 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-02-04, modified: 2022-02-18, language: english, status: notes, importance: 4, confidence: likely*
+*author: niplav, created: 2022-02-04, modified: 2022-02-24, language: english, status: notes, importance: 4, confidence: likely*
 
-> __I describe boundary conditions for a function that estimates how
-random a set of resolved forecasts in a specific interval of probabilities
-is, and describe algorithms that fulfill those conditions.__
+> __I describe boundary conditions for a function that estimates
+how random a set of resolved forecasts in a specific interval of
+probabilities is, and describe attempts to find algorithms that fulfill
+those conditions.__
 
 Finesse of Sets of Forecasts
 =============================
 
 *epistemic status: likely not just reinventing the wheel, but the whole bicycle*
+
+TODO: Revamp the naming & notation a bit.
 
 Say we have a set of resolved forecasts and can display them on a
 calibration plot.

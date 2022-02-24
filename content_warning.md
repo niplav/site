@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-10-21, modified: 2021-10-23, language: english, status: finished, importance: 2, confidence: other*
+*author: niplav, created: 2020-10-21, modified: 2021-10-23, language: english, status: maintenance, importance: 2, confidence: other*
 
 > __I believe that content warnings are a [pretty good
 > idea](https://slatestarcodex.com/2014/05/30/the-wonderful-thing-about-triggers/ "The Wonderful Thing About Triggers"),

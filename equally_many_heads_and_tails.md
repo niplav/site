@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-08, modified: 2019-11-19, language: english, status: finished, importance: 4, confidence: highly likely*
+*author: niplav, created: 2019-02-08, modified: 2019-11-19, language: english, status: maintenance, importance: 4, confidence: highly likely*
 
 > __Imagine getting up every morning and throwing a coin so often that
 > heads and tails have come up an equal amount of times. How often

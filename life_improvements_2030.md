@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-08-21, modified: 2021-10-18, language: english, status: finished, importance: 1, confidence: fiction*
+*author: niplav, created: 2021-08-21, modified: 2021-10-18, language: english, status: maintenance, importance: 1, confidence: fiction*
 
 > __As a response to [Applied Divinity Studies
 2021](https://applieddivinitystudies.com/2030/)<!--TODO: tooltip-->, I wrote a [long
