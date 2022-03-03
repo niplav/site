@@ -363,6 +363,8 @@ Advertising Lines
 * Niplav Yushtun™, Treasurer of the “Clone John von Neumann a Million Times” Party
 * Niplav Yushtun™: A Large Variety of Extremely Good Posts
 * Niplav Yushtun™: Paratechnē Straight from the Source
+* Niplav Yushtun™: Pathological Selfer
+* Niplav Yushtun™: [Now an effective cause area!](https://schelling.pt/web/statuses/107888052139408526)
 
 Daygame
 --------

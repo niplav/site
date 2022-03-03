@@ -94,7 +94,7 @@ without creating an account!). I do, however, sometimes participate in the
 guilty pleasure of [ephemeral shitposting](https://schelling.pt/@niplav).
 
 I'm not big into linguistic prescriptivism (although it
-is another one of those guilty pleasures I [sometimes engage
+is another one of those guilty pleasures I [occasionally engage
 in](./language.html#Better-Names-for-Things)), so call this a blog if you
 like. I personally prefer the term simple term "website" or "personal
 website". If you want to talk about me as if I had prestige, "essays"
@@ -310,12 +310,12 @@ being-finished-ness):
 * "notes"
 * "draft"
 * "in progress"
+* "on hold"
 * "maintenance"
 * "finished"
-* "on hold"
 * "abandoned"
 
-Truth be told, nothing on here is ever finished, even when it is
+But, truth be told, nothing on here is ever finished, even when it is
 christened with the "finished" tag.
 
 #### Importance
@@ -356,7 +356,7 @@ several points. The general principles I broadly agree with are
 [consequentialism](https://plato.stanford.edu/entries/consequentialism/),
 [bayesian
 epistemology](https://plato.stanford.edu/entries/epistemology-bayesian/),
-[meta-physical
+[metaphysical
 nominalism](https://plato.stanford.edu/entries/nominalism-metaphysics/),
 [reductionism](https://en.wikipedia.org/wiki/Reductionism) and [scientific
 naturalism](https://plato.stanford.edu/entries/naturalism/#MetNat)

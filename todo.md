@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-02-16, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-03-03, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -111,6 +111,7 @@ Texts
 * How difficult is it to manipulate real existing prediction markets?
 	* PredictIt
 	* BetFair
+* An aggregation of all of Scott Alexander's forecasting results in one place
 
 ### Population
 
@@ -237,6 +238,8 @@ Texts
 * Daygame on a Medium Dose of MDMA
 	* It worked pretty well, 22 approaches (twice optimal normal rate), AA pretty much zero, 5 numbers (although only 2 non-flakey), 1 lay
 * Girls actually enjoy getting chatted up, or are indifferent to it
+* Not masturbating for a while really improved my eye contact
+* Leaving my phone at home made me dick around less on my phone will doing daygame
 
 ### Time Experience
 
@@ -966,6 +969,7 @@ eine kontingente verschmelzung von fast-sein und konkretheit"
 * Make page explaining "Cryptonormativity"
 * Make a page explaining "Mental Motions"
 	* Find mentions of this, and write up what the term means.
+* squid314 dedicated site (only good posts/posts that don't doxx Scott too much, ask him about it)
 
 Data Sets
 ----------
