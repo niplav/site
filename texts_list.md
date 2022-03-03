@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-02-21, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-02-24, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,8 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Sequential minimal optimization (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Sequential_minimal_optimization)
+* [Structural risk minimization (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Structural_risk_minimization)
 * \* Was für den Sozialismus spricht (Bertrand Russell, 1935)
 * Kant und seine Ausleger (Friedrich Schiller, 1805)
 * Wissenschaft (Friedrich Schiller, 1805)

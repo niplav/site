@@ -35,3 +35,8 @@ and of course I neglected to react to it—standard human mating tactics,
 as far as I was concerned. I didn't think she would give me her number,
 but her end-twenties eyes showed no hesitation as I awkwardly pulled
 out my phone and handed it to her.
+
+Related Texts
+--------------
+
+* [Why Men NEED To Learn Game – A Case Study](https://cassidydaygame.wordpress.com/2022/02/23/why-men-need-to-learn-game-a-case-study/) by craigcassidy1

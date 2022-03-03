@@ -91,3 +91,8 @@ forecasts is:
 		* Average linear regression of all subsequences with length`$\ge \mathcal{F}$`
 * Additional ideas:
 	* Multiply score with the average number of datapoints inside the given finesse
+
+----
+
+* Add more & more noise to the forecasts and see how Brier score develops
+* Start with perfect predictor, the level of noise at which its Brier score is equal to the dataset
