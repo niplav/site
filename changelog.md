@@ -11,6 +11,11 @@ Changelog
 March 2022
 -----------
 
+* [Solutions to “Naïve Set Theory”](./nst_solutions.html):
+	* [Section 13](./nst_solutions.html#Section-13):
+		* [Exercise 3](./nst_solutions.html#Exercise-3_3)
+		* [Exercise 4](./nst_solutions.html#Exercise-4_2)
+
 February 2022
 --------------
 

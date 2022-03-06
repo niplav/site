@@ -1098,3 +1098,65 @@ can't exist: there is at least one element too many in `$ω$` to be
 matched to `$n$`.
 
 Therefore, such an `$n$` can't exist, `$ω$` is infinite.
+
+### Exercise 3
+
+The proof here is the same as the one in exercise 2.
+
+### Exercise 4
+
+To be shown: the union of a finite set of finite sets is finite (wouldn't
+this better be if it was a finite family of finite sets? Whatever.).
+
+Proof: Let `$\mathcal{S}$` be our set, and `$\bigcup_{S \in \mathcal{S}} S$`
+be the union of the finitely many elements of `$\mathcal{S}$`.
+
+If `$\#(\mathcal{S})=0$`, then the union is the empty set `$\emptyset$`,
+which is clearly finite (equivalent to `$0$`.
+
+If `$\#(\mathcal{S})=1$`, then the resulting set is just the only element
+of `$\mathcal{S}$`, which is per definition finite.
+
+Assume that `$\#(\mathcal{S})=n$`, and that `$\bigcup_{S \in \mathcal{S}}
+S$` is finite. Let then `$\mathcal{S}'=\mathcal{S} \cup \{S_+\}$`,
+where `$S_+$` is a finite set. Then
+`$\bigcup_{S \in \mathcal{S}'} S=S_+ \cup \bigcup_{S \in \mathcal{S}} S$`.
+Since we know that both `$\bigcup_{S \in \mathcal{S}} S$` and `$S_+$`
+are finite, we know that `$\bigcup_{S \in \mathcal{S}'} S$` is therefore
+also finite, per the statement in the text that the union of two finite
+sets is also finite.
+
+But we can also prove that `$E \cup F$` is finite if `$E$` and `$F$` are
+finite: If `$f \in F$`, then `$E \cup \{f\}$` is still finite (either
+`$\#(E \cup \{f\})=\#(E)$` or `$\#(E \cup \{f\})=(\#(E))^+$`). We can
+then set `$F:=F \backslash \{f\}$` and `$E:=E \cup \{f\}$`. Since we can
+repeat this only finitely many times, the resulting `$E$` must be still
+finite when `$F=\emptyset$` (this is one of my very few constructive
+proofs, be gentle please).
+
+----
+
+To be shown: if `$E$` is finite, then `$\mathcal{P}(E)$` is finite, and
+`$\#(\mathcal{P}(E))=2^{\#(E)}$`.
+
+Proof: This was shown in [Exercise 2 in Section
+5](./nst_solutions.html#Exercise-1_2) (I use the notation of `$|E|$`
+for the size of a set there). Since we can construct the size of
+`$\mathcal{P}(E)$`, it is equivalent to some natural number, and
+therefore finite.
+
+----
+
+To be shown: If `$E$` is a non-empty finite set of natural numbers, then
+there exists an element `$k$` in `$E$` such that `$m \le k$` for all
+`$m$` in `$E$`.
+
+We start and set `$k:=0$`. We then choose an element from `$m \in E$`,
+and set `$E:=E \backslash \{m\}$`.
+If `$k \le m$`, we set `$k:=m$`. Else we do nothing.
+We know this process is repeated finitely many times, and once we end
+up with `$E=\emptyset$`, we have created a `$k$` such that `$m \le k$`
+for all `$m \in E$`.
+
+(Is this a constructive proof? It feels like one, but also like writing
+code.)

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-03-03, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-03-04, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -350,6 +350,9 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Perhaps re-emphasize as "Easterlin Paradox"?
 * Contra Morse on Fame
 	* `https://210ethan.github.io/thoughts/famous.html`
+* Contra Alexander on Epistemic Minor Leagues
+	* https://astralcodexten.substack.com/p/epistemic-minor-leagues?s=r
+	* Reality is really f\*\*\*ing high-dimensional, so there's a bunch of nooks and crannies nobody has explored before
 
 ### Analyses
 
@@ -994,6 +997,13 @@ Flashcards
 * Flashcard sets for:
 	* Artificial Intelligence: A Modern Approach
 	* Naive Set Theory
+	* Reactive Systems
+	* Population Genetics
+	* Multivariable Calculus
+	* Pattern Recognition and Machine Learning
+	* The Jazz Piano Book
+	* A Primer in Social Choice Theory
+	* Parameterized Algorithms
 
 Music
 -----

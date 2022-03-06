@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-02-24, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-03-07, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,19 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* \* The Truth (Neil Strauss, 2015)
+* Guide to Texting Girls (Mr. V, 2020)
+* Das Unwandelbare (Friedrich Schiller, 1805)
+* Das Kind in der Wiege (Friedrich Schiller, 1805)
+* Ausgang aus dem Leben (Friedrich Schiller, 1805)
+* Zenit und Nadir (Friedrich Schiller, 1805)
+* Kleinigkeiten (Friedrich Schiller, 1805)
+* Breite und Tiefe (Friedrich Schiller, 1805)
+* Die Führer des Lebens (Friedrich Schiller, 1805)
+* Die Flüsse (Friedrich Schiller, 1805)
+* [Bubble dance (English Wikipedia, 2021)](https://en.wikipedia.org/Bubble_dance)
+* [Gogyo (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Gogyo)
+* [Sucker punch (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Sucker_punch)
 * [Sequential minimal optimization (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Sequential_minimal_optimization)
 * [Structural risk minimization (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Structural_risk_minimization)
 * \* Was für den Sozialismus spricht (Bertrand Russell, 1935)
@@ -70,7 +83,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * Einer jungen Freunden ins Stammbuch (Friedrich Schiller, 1805)
 * Der spielende Knabe (Friedrich Schiller, 1805)
 * Die Weltweisen (Friedrich Schiller, 1805)
-* [Worldly cardinal (English Wikipedia)](https://en.wikipedia.org/wiki/Worldly_cardinal)
+* [Worldly cardinal (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Worldly_cardinal)
 * [Hypertranscendental number (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Hypertranscendental_number)
 * [Brjuno number (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Brjuno_number)
 * Das verschleierte Bild zu Sais (Friedrich Schiller, 1805)

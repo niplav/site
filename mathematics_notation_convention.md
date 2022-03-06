@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-03-23, modified: 2022-02-22, language: english, status: notes, importance: 1, confidence: draft*
+*author: niplav, created: 2021-03-23, modified: 2022-03-03, language: english, status: notes, importance: 1, confidence: draft*
 
 > __People write mathematics in a specific way, and use different
 conventions. Here I collect mine, mainly for myself.__
@@ -32,6 +32,7 @@ Schein von ihm schwindet.
 * Clearly differentiate between stating something being a proper subset or not: only use `$A \subset B$` if definitely `$A \not =B$`, otherwise write `$A \subseteq B$`.
 * Set difference is written with a backslash `$\backslash$`, not with a minus `$-$`.
 * If e is not an element of S, then `$e \not \in S$` (and not something like `$e \in' S$`).
+* The size of a set `$A$` is `$|A|$`, not `$#(A)$`
 
 ### Logic
 
