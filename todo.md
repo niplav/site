@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-03-04, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-03-08, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -321,6 +321,7 @@ Texts
 * Why Mars' Moons Should Be Destroyed
 * Why We Need New Anthems
 	* Most national anthems suck, let's make some more original ones
+		* Review `https://en.wikipedia.org/wiki/List_of_national_anthems`
 * Models With Huge Error Bars are Better Than No Models At All
 * Some Epistemic Warning Signs in the Effective Altruism and Rationality Communities
 	* People are Friends
@@ -973,6 +974,13 @@ eine kontingente verschmelzung von fast-sein und konkretheit"
 * Make a page explaining "Mental Motions"
 	* Find mentions of this, and write up what the term means.
 * squid314 dedicated site (only good posts/posts that don't doxx Scott too much, ask him about it)
+* Chronological archives of blogs
+	* TheRedQuest
+	* hbdchick
+* Best of collections from blogs
+	* TheRedQuest
+	* Overcoming Bias
+	* hbdchick
 
 Data Sets
 ----------
