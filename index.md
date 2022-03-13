@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2022-02-23, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2022-03-12, language: english, status: in progress, importance: 6, confidence: log*
 
 > __If you take away just one thing from this website,
 it should be that I think [you would want to sign up for
@@ -70,7 +70,6 @@ Writing
 * [Against Applause After Classical Concerts](./against_applause.html)
 * [Two People on a Planet](./two_people_on_a_planet.html)
 * [Life Advice](./life_advice.html)
-* [Reports](./reports.html)
 
 #### Textbooks
 
@@ -88,8 +87,14 @@ Writing
 
 * [Notes](./notes.html)
 * [Notes on Ethics](./notes_on_ethics.html)
+* [Notes on Pickup](./notes_on_pickup.html)
 * [Notes on Predictions](./notes_on_predictions.html)
 * [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
+
+#### Reports
+
+* [Reports](./reports.html)
+* [Pickup Reports](./pickup_reports.html)
 
 ### Fiction
 

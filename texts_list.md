@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-03-08, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-03-12, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,10 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Das Geheimnis der Reminiszenz (Friedrich Schiller, 1805)
+* Punschlied (Friedrich Schiller, 1805)
+* Rousseau (Friedrich Schiller, 1805)
+* Parabeln und Rätsel (Friedrich Schiller, 1805)
 * Das Spiel des Lebens (Friedrich Schiller, 1805)
 * \* Lob des Müßiggangs (Bertrand Russell, 1935)
 * Die Götter Griechenlandes (Friedrich Schiller, 1805)
-* \* The Truth (Neil Strauss, 2015)
+* The Truth (Neil Strauss, 2015)
 * Guide to Texting Girls (Mr. V, 2020)
 * Das Unwandelbare (Friedrich Schiller, 1805)
 * Das Kind in der Wiege (Friedrich Schiller, 1805)

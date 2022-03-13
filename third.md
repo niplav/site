@@ -19,10 +19,10 @@ __Output__: core (`$\hat{P}$`), a marked pattern.
 
 *– [Judea Pearl](https://en.wikipedia.org/wiki/Judea_Pearl), “Causality: Models, Reasoning, And Inference” p. 52-53, 2009*
 
-So apparently the boyfriend of a girl I have been sleeping with has
+So apparently the boyfriend of a woman I have been sleeping with has
 commited suicide.
 
-She had been the sixth of eight girls I had talked to on a February
+She had been the sixth of eight women I had talked to on a February
 evening, there had been a tease of rain the whole day (but no actual
 rain, not even a drizzle). I don't even remember what opener I'd used,
 I had hit that mental state where it feels like your eyes have turned
