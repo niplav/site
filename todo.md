@@ -200,44 +200,13 @@ Texts
 * In Praise of Encouragement
 * Game Seems to be a Middle-Class Phenomenon
 * Don't Give Out Your Contact Information, Take Hers
-* Five Aspects of Approach Difficulties
-	* Disclaimer: Best option is to go out & force oneself to do stuff.
-	* Aspects:
-		1. Cognitive Approach Difficulties: Do you believe that approaching is a good idea?
-			* If no:
-				* try it
-				* re-cast own identity as/evil/mischievous
-		2. Biological Approach Difficulties: Do you have an embodied need to interact with good-looking girls? Does you body want to get closer?
-			* If no: try to increase sex drive
-				* lifting
-				* stopping porn consumption
-				* stopping masturbation
-				* take testosterone?
-		3. Social Approach Difficulties: Are you in a social flow? Can you get into it?
-			* If no:
-				* do warm-ups:
-					* compliments
-					* regular everyday smalltalk
-					* doing weird stuff
-						* laying on the pavement
-						* climbing on trees
-						* doing push-ups
-				* get a wing
-				* get more social in general
-		4. Attraction Approach Difficulties: Are you actually attracted to the girls you see?
-			* If no: try to lower standards
-				* how tho?
-		5. Emotional Approach Difficulties: Good ol' approach anxiety: How nervous are you before an approach
-	* If the first four are nailed down, the last one should be easier
 * On the Importance of Pick Up
 	* Combines Near (Sex) with Far (Abstract thinking)
 * Pick Up
 	* Direct Number on Street
 	* Direct Date on Street
 	* Direct Date off Street
-* Daygame on a Medium Dose of MDMA
-	* It worked pretty well, 22 approaches (twice optimal normal rate), AA pretty much zero, 5 numbers (although only 2 non-flakey), 1 lay
-* Girls actually enjoy getting chatted up, or are indifferent to it
+* Women actually enjoy getting chatted up, or are indifferent to it
 * Not masturbating for a while really improved my eye contact
 * Leaving my phone at home made me dick around less on my phone will doing daygame
 
