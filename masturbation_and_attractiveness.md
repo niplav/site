@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2020-12-03, language: english, status: in progress, importance: 2, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2022-03-15, language: english, status: in progress, importance: 2, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -10,7 +10,7 @@
 Abstinence from Masturbation and Success from Cold Approach
 ===========================================================
 
-> interesting things happen along borders–transitions–not in
+> interesting things happen along borders—transitions—not in
 the middle where everything is the same
 
 *– [Neal Stephenson](https://en.wikipedia.org/wiki/Neal_Stephenson), [“Snow Crash”](https://en.wikipedia.org/wiki/Snow_Crash), 1992*
@@ -30,6 +30,7 @@ Pre-register on predictionbook as well.
 
 Change so that in the male case, there's nothing beyond collecting contact
 info (no date invite/date), and add info about asking whether age >18.
+Elaborate on question process.
 -->
 
 Abstract

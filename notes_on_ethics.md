@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-03-31, modified: 2022-01-27, language: english, status: notes, importance: 3, confidence: highly unlikely*
+*author: niplav, created: 2021-03-31, modified: 2022-03-15, language: english, status: notes, importance: 3, confidence: highly unlikely*
 
 > __This page contains my notes on ethics, separated from my regular
 notes to retain some structure to the notes.__
@@ -505,6 +505,7 @@ directly as calculated in the previous section.
 
 *– [Brian Tomasik](https://reducing-suffering.org), [Will Gene Drives Reduce Wild-Animal Suffering?](https://reducing-suffering.org/will-gene-drives-reduce-wild-animal-suffering/), 2018*
 
+<!--
 Why Death is Bad
 -----------------
 
@@ -553,3 +554,4 @@ payoff time.
 For most people, there's a point where they kill the unwilling organ
 donor, so we're basically haggling over the price. Maybe just a Sorites
 paradox?
+-->

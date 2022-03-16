@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-03-12, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-03-15, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,12 +17,15 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Über die Verbindlichkeit ethischer Urteile (Bertrand Russell, 1944)
+* Ethik (Bertrand Russell, 1927)
+* \* Dido (Friedrich Schiller, 1805)
 * Das Geheimnis der Reminiszenz (Friedrich Schiller, 1805)
 * Punschlied (Friedrich Schiller, 1805)
 * Rousseau (Friedrich Schiller, 1805)
 * Parabeln und Rätsel (Friedrich Schiller, 1805)
 * Das Spiel des Lebens (Friedrich Schiller, 1805)
-* \* Lob des Müßiggangs (Bertrand Russell, 1935)
+* Lob des Müßiggangs (Bertrand Russell, 1935)
 * Die Götter Griechenlandes (Friedrich Schiller, 1805)
 * The Truth (Neil Strauss, 2015)
 * Guide to Texting Girls (Mr. V, 2020)
@@ -55,7 +58,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * An einen Moralisten (Friedrich Schiller, 1805)
 * Männerwürde (Friedrich Schiller, 1805)
 * Die Grösse der Welt (Friedrich Schiller, 1805)
-* \* Utility indifference (Stuart Armstrong, 2010)
+* Utility indifference (Stuart Armstrong, 2010)
 * [Serac (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Serac)
 * [Child auction (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Child_auction)
 * Die berühmte Frau (Friedrich Schiller, 1805)
@@ -137,7 +140,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [International Nuclear Waste Disposal Concepts (World Nuclear Association, 2020)](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-wastes/international-nuclear-waste-disposal-concepts.aspx)
 * Hero und Leander (Friedrich Schiller, 1805)
 * Der Antritt des neuen Jahrhunderts (Friedrich Schiller, 1805)
-* Vorerinnering (Friedrich Schiller, 1805)
+* Vorerinnerung (Friedrich Schiller, 1805)
 * [Vapnik-Chervonenkis dimension (English Wikipedia, 2021)](https://en.wikipedia.org/wik/Vapnik-Chervonenkis_dimension)
 * [Lambert (unit) (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Lambert_\(unit\))
 * [Candela per square metre (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Candela_per_square_metre)
@@ -311,7 +314,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Using Brain-Computer Interfaces to get more data for AI alignment (Robbo, 2021)](https://www.lesswrong.com/posts/iWv6Pu2fWPKqevzFE/using-brain-computer-interfaces-to-get-more-data-for-ai)
 * [Migration levies and unskilled labor mobility in Singapore (Carl Shulman, 2014)](http://reflectivedisequilibrium.blogspot.com/2014/05/migration-levies-and-unskilled-labor.html)
 * [Secrets Of The Great Families (Scott Alexander, 2021)](https://astralcodexten.substack.com/p/secrets-of-the-great-families)
-* \* The New Strategic Selling (Stephen E. Heiman/Diane Sanchez/Tad Tuleja, 1995)
+* The New Strategic Selling (Stephen E. Heiman/Diane Sanchez/Tad Tuleja, 1995)
 * [Does the Glasgow Coma Scale exist? Do comas? (Scott Alexander, 2014)](https://slatestarcodex.com/2014/08/11/does-the-glasgow-coma-scale-exist-do-comas/)
 * [What do null fields tell us about fraud risk? (Carl Shulman, 2014)](http://reflectivedisequilibrium.blogspot.com/2014/05/what-do-null-fields-tell-us-about-fraud.html)
 * [GiveDirectly, happiness, and log income (Carl Shulman, 2014)](http://reflectivedisequilibrium.blogspot.com/2014/03/givedirectly-happiness-and-log-income.html)

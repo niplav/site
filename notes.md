@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2022-03-12, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2022-03-15, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -46,7 +46,7 @@ much text?)--> For a shorter approach, you could also just read all
 Approach Anxiety
 ----------------
 
-Moved to [Notes on Pickup]().<!--TODO-->
+Moved to [Notes on Pickup](./notes_on_pickup.html#Approach-Anxiety).
 
 Converging Preference Utilitarianism
 ------------------------------------
@@ -978,12 +978,12 @@ group is just too small/already served with university dorms?
 She Needs to Know You're Not a Weirdo
 --------------------------------------
 
-Moved to [Notes on Pickup]().<!--TODO-->
+Moved to [Notes on Pickup](./notes_on_pickup.html#She-Needs-to-Know-Youre-Not-a-Weirdo).
 
 Ask About Frequency of Being Approached After Rejection
 --------------------------------------------------------
 
-Moved to [Notes on Pickup]().<!--TODO-->
+Moved to [Notes on Pickup](./notes_on_pickup.html#Ask-About-Frequency-of-Being-Approached-After-Rejection).
 
 A Simple Proof that in Hardy-Weinberg Mating, Allele Frequencies are Preserved
 -------------------------------------------------------------------------------

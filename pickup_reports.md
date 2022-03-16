@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-03-12, modified: 2022-03-12, language: english, status: in progress, importance: 2, confidence: other*
+*author: niplav, created: 2022-03-12, modified: 2022-03-15, language: english, status: in progress, importance: 2, confidence: other*
 
 Pickup Reports
 ===============
@@ -79,6 +79,7 @@ As [Nash](https://daysofgame.com) always says:
 
 Viva Daygame.
 
+<!--
 Sessions
 ---------
 
@@ -87,9 +88,15 @@ Sessions
 It worked pretty well, 22 approaches (twice optimal normal rate), AA
 pretty much zero, 5 numbers (although only 2 non-flakey), 1 lay
 
+-->
+
+<!--
 Dates
 ------
 
 ### Super Honest Non-SDL
 
 ### Stop Being an Economics Nerd
+
+### A Yes Girl With No Direction
+-->
