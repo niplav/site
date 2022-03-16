@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2022-02-18, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2022-03-15, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -44,12 +44,6 @@ Klong Problems](./99_klong_problems.html) and their
 
 I am also working on an [arbtt](https://arbtt.nomeata.de/)-inspired time
 tracker: [awitt](https://github.com/niplav/awitt).
-
-Data Sets
----------
-
-I am currently collecting data on daygame, in order to improve my
-[Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html).
 
 Reading
 -------

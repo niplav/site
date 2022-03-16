@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-03-08, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-03-15, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -194,6 +194,7 @@ Texts
 * Faster algorithm for ontology mapping, first described in [de Blanc 2011](http://intelligence.org/files/OntologicalCrises.pdf)
 * Implement the project described in [Environmental Goals](https://arbital.com/p/environmental_goals/)
 * GPT for STEM data?
+* Is the F-invariance described in Utility Indifference (Armstrong 2010) tiling?
 
 ### Pick Up
 
@@ -202,13 +203,10 @@ Texts
 * Don't Give Out Your Contact Information, Take Hers
 * On the Importance of Pick Up
 	* Combines Near (Sex) with Far (Abstract thinking)
-* Pick Up
-	* Direct Number on Street
-	* Direct Date on Street
-	* Direct Date off Street
 * Women actually enjoy getting chatted up, or are indifferent to it
 * Not masturbating for a while really improved my eye contact
 * Leaving my phone at home made me dick around less on my phone will doing daygame
+* Yad Stop Flag
 
 ### Time Experience
 
@@ -785,6 +783,8 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* Chanting?
 		* Visualization?
 		* Yogic stuff? (Mudra)
+* Taking LSD might have caused me erectile dysfunction
+	* 25% sure that one LSD trip caused ≥70% of my erectile dysfunction
 
 ### Misc
 
