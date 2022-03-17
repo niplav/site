@@ -15,6 +15,9 @@ March 2022
 	* [Section 13](./nst_solutions.html#Section-13):
 		* [Exercise 3](./nst_solutions.html#Exercise-3_3)
 		* [Exercise 4](./nst_solutions.html#Exercise-4_2)
+* [Solutions to “Reactive Systems”](./rs_solutions.html)
+	* [Chapter 6](./rs_solutions.html#Chapter-6)
+		* [6.9](./rs_solutions.html#69)
 
 February 2022
 --------------

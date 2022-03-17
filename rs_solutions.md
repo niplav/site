@@ -654,3 +654,22 @@ A property that `$t$` satisfies is `$Z\overset{\text{max}}{=}\langle a \rangle Z
 since we have a similar scenario to above, but the infinite
 loop on `$t_1$` makes it possible for the defender to win (since the
 formula is defined via `$\overset{\text{max}}{=}$`).
+
+### 6.9
+
+The sets corresponding to `$X=[a]Y, Y= \langle a \rangle X$` are
+`$([\cdot a \cdot ] S_2, \langle \cdot a \cdot \rangle S_1)$`.
+
+Start with `$S_2=\{p,q,r\}$` and `$S_1=\{p,q,r\}$`.
+
+Then `$([\cdot a \cdot ] \{p,q,r\}, \langle \cdot a \cdot \rangle \{p,q,r\})=(\{p,q,r\},\{p,q\})$`.
+
+That makes `$S_2=\{p,q\}$` and `$S_1=\{p,q,r\}$`.
+
+Then `$([\cdot a \cdot ] \{p,q\}, \langle \cdot a \cdot \rangle \{p,q,r\})=(\{p,q\},\{p,q\})$`.
+
+That makes `$S_2=\{p,q\}$` and `$S_1=\{p,q\}$`.
+
+Then `$([\cdot a \cdot ] \{p,q\}, \langle \cdot a \cdot \rangle \{p,q\})=(\{p,q\},\{p,q\})$`.
+
+We have reached a fixpoint.

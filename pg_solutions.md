@@ -127,7 +127,7 @@ Written in Lua, and generalizing to more than 2 alleles.
 ![Graph for 2.5](./img/pg_solutions/p2.5.png)
 
 These are, in fact, two different graphs, but the approximation is good
-enough that it's not visible.
+enough that the difference between the two is not visible.
 
 ### Problem 2.7
 
