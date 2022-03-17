@@ -20,6 +20,7 @@ mental model of how it works.
 -------------------
 
 * [Flashcards](./flash/reactive_systems.apkg)
+	* p. 1-143
 	* Missing: A question about the difference between bisimilarity and bisimulation
 * [Solutions to Exercises](./rs_solutions.md)
 	* Chapter 1
@@ -27,20 +28,22 @@ mental model of how it works.
 	* Chapter 3: 3.1-3.3, 3.9, 3.12, 3.30, 3.37, 3.41
 	* Chapter 4: 4.1-4.3, 4.9
 	* Chapter 5: 5.1-5.3
-	* Chapter 6: 6.4, 6.7
+	* Chapter 6: 6.4, 6.7, 6.9
 * Read:
-	* p. 1-140
+	* p. 1-143
 
 “Population Genetics”
 ---------------------
 
 * [Flashcards](./flash/population_genetics.apkg)
-	* p. 1-48
+	* p. 1-50
+	* p. 59-
 * [Solutions to Exercises](./pg_solutions.md)
 	* Chapter 1: 1.1-1.2, 1.5
 	* Chapter 2: 2.2, 2.5, 2.7, 2.9
 * Read:
-	* p. 1-48
+	* p. 1-50
+	* p. 59-
 
 ”Naïve Set Theory”
 ------------------
