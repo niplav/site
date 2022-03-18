@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2022-03-15, language: english, status: in progress, importance: 2, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2022-03-18, language: english, status: in progress, importance: 2, confidence: unlikely*
 
 > __Members of the NoFap movement often claim that abstinence from
 > masturbation increases male attractiveness. Experimental evidence is
@@ -327,36 +327,51 @@ self-experiment.
 
 Data was collected as follows:
 
-<!--
-Noctural emission on 2020-11-16T04:00
--->
-
 I abstained from masturbating and watching pornography from
-2021-01-01T02:00 to \_, resulting in >90 days of abstinence from
+\_ to \_, resulting in >90 days of abstinence from
 masturbation (which is also the period [recommended by the NoFap
 community](https://nofap.com/rebooting/): "NoFap’s gold standard of
 success is our 90-day reboot.").
 
 From \_ to \_, I went on the streets of a major european city and
-approached 100 people I read as men and 100 people I read as women
-alternatingly with the words
+approached 100 people I read as men and 100 people I read as women,
+usually via a Yad stop<!--TODO: link or source-->.
+The people who were approached were chosen by their attractiveness to
+the author.
 
-<!--TODO: add question about language at the beginning?-->
+If I was unsure about the age of the person, I would first ask
+
+> Hi, are you already eighteen?
+
+If they replied no, I wished them a good day and continued on my way.
+
+If they looked confused, I asked
+
+> Is English or [local language] better?
+
+If they knew neither English nor the local language, I would wish them
+a good day and continue on my way.
+
+If they preferred English, I would ask the question about age again,
+and abort if they were too young.
+
+Then, I would hold the following dialogue with them (either in English
+or the local language):
+
 <!--TODO: what about the strategy of agreeing to have a date?-->
 
-> Hi, I know this is really spontaneous, but I just saw you and thought
+> I know this is really spontaneous, but I just saw you and thought
 you looked really nice. What is your name?
 
-The other person answered with their name, and I replied with
+The other person usually answered with their name, and I replied with
 
-> Nice to meet you, <name\>. To make a long story short, I'd like to
-take you out on a date sometime. When are you free?
+> Nice to meet you, [name]. To make a long story short, I'd like to
+take you out on a date sometime.
+
+<!--TODO: ask for date or ask for contact information?-->
 
 In case of them agreeing to go on a date, a time and place were agreed
 upon, and I came to the date to check whether they had showed up.
-
-The people who were approached were chosen by their attractiveness to
-the author.
 
 In the week following the last approach, I masturbated once every day
 with the aid of pornography <!--TODO: link the pornography consumed
@@ -721,14 +736,15 @@ days apart, and the decider would choose who would be approached by
 the experimenter. For me, this didn't work, since proposing this to any
 acquantainces would have been not socially acceptable.
 
-### Perception of Attractiveness may vary In Regards to Masturbation Behavior
-
 <!--
+### Perception of Attractiveness may Vary In Regards to Masturbation Behavior
+
 TODO:
 Idea:
-Survey on /r/NoFap regarding attractiveness perception (does longer abstinence from masturbation result in
-lower attractiveness standards?
-Search for claims that abstinence from masturbation changes perception of attractiveness
+Survey on /r/NoFap regarding attractiveness perception (does longer
+abstinence from masturbation result in lower attractiveness standards?
+Search for claims that abstinence from masturbation changes perception
+of attractiveness
 -->
 <!--
 TODO:

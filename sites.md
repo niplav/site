@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-14, modified: 2022-01-06, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2021-10-14, modified: 2022-03-18, language: english, status: notes, importance: 6, confidence: possible*
 
 > __Some people have been complaining about a “website discoverability
 crisis”. While I haven't been affected by this particular problem
@@ -74,3 +74,5 @@ Recommendation-Worthy Websites
 * Forecasting
 	* [Metaculus](https://www.metaculus.com)
 	* [PredictionBook](https://www.predictionbook.com)
+* Other
+	* [Traditions of Conflict](https://traditionsofconflict.com)

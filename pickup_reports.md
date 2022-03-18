@@ -1,10 +1,27 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-03-12, modified: 2022-03-15, language: english, status: in progress, importance: 2, confidence: other*
+*author: niplav, created: 2022-03-12, modified: 2022-03-18, language: english, status: in progress, importance: 2, confidence: log*
 
 Pickup Reports
 ===============
+
+> Und wohl mir, daß ichs darf und kann!  
+Geht's Mädchen mir vorüber,  
+Ruf'ts laut in mir, du bist ein Mann!  
+Und küsse sie so lieber.
+>
+> Und röter wird das Mädchen dann,  
+Und's Mieder wird ihr enge.  
+Das Mädchen weiß, ich bin ein Mann,  
+Drum wird ihr's Mieder enge.
+>
+> Wie wird sie erst um Gnade schrein,  
+Ertapp' ich sie im Bade?  
+Ich bin ein Mann, das fällt ihr ein,  
+Wie schrie sie sonst um Gnade!
+
+*– [Friedrich Schiller](https://en.wikipedia.org/wiki/Friedrich_Schiller), “Männerwürde”, 1805*
 
 Approaches
 ----------
@@ -49,12 +66,13 @@ organs in the event that we would meet up.
 
 #### French First Love
 
-I approached her in the same session as Schizo Woman, a bit later. She was
-a student on an exchange program, and only in the city for a short while.
+I approached her in the same session as the [schizo
+woman](./pickup_reports.html#Schizo-Woman), a bit later. She was a
+student on an exchange program, and only in the city for a short while.
 Quite giggly, and just blazing with feminine energy and playfulness —
 one of those women who are maybe a high seven looks wise (not dressed very
 stylishly, but she was quite pretty), but who boost their attractiveness
-with their personality. She is the only “nine” I have approached
+with their personality. She is the only "nine" I have approached
 so far (out of ~350 approaches). Most of that attractiveness comes from
 her behavior, building on a solid foundation of physical cuteness.
 
@@ -67,12 +85,12 @@ psychoactive substances in intensity).
 
 I was probably too nerdy in the approach, talking about the French
 existentialists, and guessing she studied philosophy. I also exited the
-approach too quickly, and asked “Why?” when she said she didn't want
+approach too quickly, and asked "Why?" when she said she didn't want
 to give me her contact details, but in a non-playful way (something like
-“I bet you've never had a [country] […] lover before!” would have
+"I bet you've never had a [country] […] lover before!" would have
 been much better). I was smitten after the approach.
 
-She was on. She was enjoying herself, or maybe just the attention.
+She was on. She was enjoying the approach, or perhaps just the attention.
 But she was on.
 
 As [Nash](https://daysofgame.com) always says: 
@@ -95,6 +113,9 @@ Dates
 ------
 
 ### Super Honest Non-SDL
+
+She was the last stop on a 4-hour 14-approach spree (still a big number
+for me, working my vibe towards higher numbers of approaches).
 
 ### Stop Being an Economics Nerd
 
