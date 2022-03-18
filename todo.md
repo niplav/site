@@ -189,9 +189,9 @@ Texts
 		* How do we incentivise good predictions on long-term questions?
 		* How do we incentivise good predictions on low-probability events?
 		* Is there any conceivable way of incentivizing good predictions on extinction events?
-* How difficult is it to manipulate real existing prediction markets?
-	* PredictIt
-	* BetFair
+	* How difficult is it to manipulate real existing prediction markets?
+		* PredictIt
+		* BetFair
 * An aggregation of all of Scott Alexander's forecasting results in one place
 
 ### Population
@@ -825,6 +825,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Growth
 	* How long can growth continue if the maximal value of an atom is fixed?
 	* Growth might slow to cubic (sphere expanding at constant fraction of c)
+* Panpsychism is a property of theories of consciousness, not a theory of consciousness
 
 ### Reports
 
@@ -890,6 +891,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Open Questions
 	* Why Not Nano-Apartments?
 	* Why Not Prepping?
+	* ~/etc/notes/questions
 * Good Ideas
 	* Some ideas I've read about & found good
 	* Forecasting
@@ -995,6 +997,9 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		unaligned artificial intelligence battle for attainable utility…
 * A History of Names
 * Destructive Uplift Theory of the Boötes Void
+* A Fanfiction of Edge of Tomorty: Rick Die Rickpeat, explaining the dangers of hypercomputation
+	* If you have a closed timelike curve, you are probably uncleashing computational titans the likes of which you can not fathom, beings that would snack superintelligences like potato chips
+	* See also: Causal Noose by qntm, NP-complete Problems and Physical Reality Aaronson 2006
 * Skalpell Bizeps
 
 > 11-uhr-luft liegt rauh auf dem parkplatzboden. in den ritzen des
