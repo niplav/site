@@ -25,19 +25,100 @@ Site
 	* Done:
 		* Range and Forecasting Accuracy
 		* Daygame Cost-Benefit Analysis
-* Toy AI Takeoff Model
-	* Re-run model where I accidentally took 255 as size
 * Switch to MathJax 3?
 * Edit texts:
 	* Considerations on Cryonics
 		* Mainly done
-		* Expand the section on the Guesstimate model
-		* Incorporate new Alcor membership costs & updated Metaculus probabilities
 * Flashcards:
 	* Add tags for chapters/sort by chapters
 	* Prune flagged cards?
 * Add content tables to pages?
 * Add RSS feed (ugh)
+
+Existing Texts
+--------------
+
+* Range and Forecasting Accuracy
+	* Add explanatory image for the [illustrative example](./range_and_forecasting_accuracy.html#Three-Different-Analyses-An-Illustrative-Example)
+	* Move the [PredictionBook download code](./range_and_forecasting_accuracy.html#For-PredictionBook) to the PredictionBook API
+	* Rewrite the code in Python
+	* Extend the analysis to more datapoints
+		* Extend the analysis to predictions with confidence intervals
+		* Extend the analysis to real Metaculus data
+		* Extend to more datasets
+	* Add a paragraph on the difference in quality between the two datasets, Metaculus is better
+	* Make more readable
+	* Prevent the OOD prediction, either
+		* find a scoring rule that maps into all of ℝ
+		* curve-fit something other than a linear function
+	* Add a literature review
+		* `/usr/local/doc/unread/calibration_scoring_rules_for_practical_prediction_training_greenberg_2018.pdf`
+		* `https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting`
+		* `http://foresightr.com/2016/05/06/a-brief-history-of-forecasting`
+		* `https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.12127`
+		* Prediction: The long and short of it (Anthony Millner/Daniel Heyen, 2020)
+* Considerations on Cryonics
+	* Add a literature review
+		* `https://www.tandfonline.com/doi/pdf/10.1080/01459741003715391`
+		* `https://www.tandfonline.com/doi/full/10.1080/23311886.2016.1167576`
+		* `https://books.google.de/books?id=9C0ABAAAQBAJ&pg=PA281&lpg=PA281&dq=Cryonics+cost+benefit+calculation&source=bl&ots=IIIVQtzzXt&sig=ACfU3U3KMGKCBWhP1tvegvKvHTyCLtZNGA&hl=en&sa=X&ved=2ahUKEwjc_O6v743qAhUKYcAKHXFVDsUQ6AEwDXoECAMQAQ#v=onepage&q=Cryonics%20cost%20benefit%20calculation&f=false`
+	* Think about incorporating the Metaculus questions on Cryonics into the probability
+		* Revival
+			* `https://www.metaculus.com/questions/3330/will-any-person-that-has-been-cryopreserved-for-more-than-1-year-be-resuscitated-or-emulated-before-2200/`
+			* `https://www.metaculus.com/questions/1626/before-1-january-2050-will-any-human-cryonically-preserved-for-at-least-1-year-be-successfully-revived/`
+			* `https://www.metaculus.com/questions/455/if-you-die-today-and-get-cryonically-frozen-will-you-wake-up/https://www.metaculus.com/questions/3332/will-james-bedford-be-revived-or-emulated-before-2200/`
+			* `https://www.metaculus.com/questions/3331/when-will-the-first-person-that-has-been-cryopreserved-for-more-than-1-year-be-resuscitated-or-uploaded/`
+			* `https://www.metaculus.com/questions/3382/what-will-the-earliest-preservation-date-of-any-resuscitated-cryonics-patient-be/`
+		* Preservation:
+			* `https://www.metaculus.com/questions/3333/when-will-the-number-of-people-in-cryopreservation-preserved-before-2019-fall-to-less-than-50-of-the-current-value/`
+		* Signup:
+			* `https://www.metaculus.com/questions/3478/how-many-patients-will-be-in-cryonic-suspension-at-the-cryonics-institute-in-2030/`
+			* `https://www.metaculus.com/questions/4052/if-cryonics-is-at-some-point-offered-for-free-what-percentage-of-americans-will-be-signed-up-within-10-years/`
+	* Different value of money at different ages?
+	* Why not a Pascal's mugging?
+		* No adversary
+		* Probability not _that_ low
+		* Here assumed rather low bound on payoff to prevent
+	* Update to new Alcor payment structure
+	* Extend to other options/providers
+		* Full-body presveration
+		* Cryonics Institute
+		* Oregon Cryonics
+		* Tomorrow Biostasis
+		* Southern Cryonics
+		* Kriorus (maybe not though, after the recent debacle)
+			* Expand the section on the Guesstimate model
+	* Incorporate updated Metaculus probabilities
+	* Make interactive calculator
+* Abstinence from Masturbation and Success from Cold Approach
+	* Test
+		* Instead of Student's t-test a survival analysis?
+			* Such as a Kaplan-Meyer method & log-rank test?
+			* Or a one-sided test?
+		* Cox-regression (proportional hazard).
+		* Will the data sets be normally distributed?
+			* → If not, use Mann-Whitney U-Test.
+	* What about abstinence ←→ masturbation ←→ pornography?
+	* Pre-register
+		* PredictionBook
+		* Reddit
+	* Change so that in the male case, there's nothing beyond collecting contact info (no date invite/date)
+	* Elaborate on asking for contact info/date process
+	* Literature review
+		* `https://en.wikipedia.org/wiki/Masturbation`
+		* `https://en.wikipedia.org/wiki/Pornography`
+		* `/usr/local/doc/unread/blackpill/physical_attractiveness_research_adams_1977.pdf`
+		* `/usr/local/doc/unread/sexual_activity_is_inversely_related_to_womens_perceptions_of_male_facial_attractiveness_hess_et_al_2007.pdf`
+* Daygame Cost-Benefit Analysis
+	* Incorporate new daygame stats from blogs
+	* Upload own data
+	* Adjust curve to fit Roy Walker & Thomas Crown data better
+	* different diminishing returns in code, make all logarithmic/radical/hyperbolic?
+	* Expand or axe Fixed Costs & Variable Costs section
+	* Create & explain Guesstimate Models
+	* Upload data to Appendix C
+* Toy AI Takeoff Model
+	* Re-run model where I accidentally took 255 as size
 
 Texts
 -----
@@ -784,7 +865,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* Visualization?
 		* Yogic stuff? (Mudra)
 * Taking LSD might have caused me erectile dysfunction
-	* 25% sure that one LSD trip caused ≥70% of my erectile dysfunction
+	* 30% sure that one LSD trip caused ≥50% of my erectile dysfunction
 
 ### Misc
 

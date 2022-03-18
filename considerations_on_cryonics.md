@@ -24,40 +24,6 @@
 Considerations on Cryonics
 ==========================
 
-<!--
-Metaculus questions related to cryonics:
-Revival:
-https://www.metaculus.com/questions/3330/will-any-person-that-has-been-cryopreserved-for-more-than-1-year-be-resuscitated-or-emulated-before-2200/
-https://www.metaculus.com/questions/1626/before-1-january-2050-will-any-human-cryonically-preserved-for-at-least-1-year-be-successfully-revived/
-https://www.metaculus.com/questions/455/if-you-die-today-and-get-cryonically-frozen-will-you-wake-up/
-https://www.metaculus.com/questions/3332/will-james-bedford-be-revived-or-emulated-before-2200/
-https://www.metaculus.com/questions/3331/when-will-the-first-person-that-has-been-cryopreserved-for-more-than-1-year-be-resuscitated-or-uploaded/
-https://www.metaculus.com/questions/3382/what-will-the-earliest-preservation-date-of-any-resuscitated-cryonics-patient-be/
-Preservation:
-https://www.metaculus.com/questions/3333/when-will-the-number-of-people-in-cryopreservation-preserved-before-2019-fall-to-less-than-50-of-the-current-value/
-Signup:
-https://www.metaculus.com/questions/3478/how-many-patients-will-be-in-cryonic-suspension-at-the-cryonics-institute-in-2030/
-https://www.metaculus.com/questions/4052/if-cryonics-is-at-some-point-offered-for-free-what-percentage-of-americans-will-be-signed-up-within-10-years/
--->
-
-<!--
-https://www.tandfonline.com/doi/pdf/10.1080/01459741003715391
-https://www.tandfonline.com/doi/full/10.1080/23311886.2016.1167576
-https://books.google.de/books?id=9C0ABAAAQBAJ&pg=PA281&lpg=PA281&dq=Cryonics+cost+benefit+calculation&source=bl&ots=IIIVQtzzXt&sig=ACfU3U3KMGKCBWhP1tvegvKvHTyCLtZNGA&hl=en&sa=X&ved=2ahUKEwjc_O6v743qAhUKYcAKHXFVDsUQ6AEwDXoECAMQAQ#v=onepage&q=Cryonics%20cost%20benefit%20calculation&f=false
--->
-
-<!--
-Consideration:
-Different value of money at different ages
--->
-
-<!--
-Why not a Pascal's mugging?
-* No adversary
-* Probability not _that_ low
-* Here assumed rather low bound on payoff to prevent
--->
-
 > If I died, would I be rid of my senses?  
 Or will it retain, trapped within my corpse, in stasis?  
 If I died, would I be a woman in heaven?  
@@ -86,7 +52,6 @@ and can be easily be delayed until another point in life.
 > I'll get around to doing it eventually
 
 *– person who was cremated*
-
 
 However, it hasn't yet been explored whether this procrastination might be
 rational if eventually followed through with: Many cryonics organisations
@@ -983,7 +948,7 @@ placed before resuscitation of cryonics patients becomes feasible,
 or after it. It is also unclear how high the existential risk for
 humanity is overall. Assuming that the existential risk for humanity
 over the next 10000 years is ~40% (this number is pretty much a
-guess)<!--TODO: link Metaculus Ragnarok series, and see if someone
+guess)<!--TODO: link Metaculus Ragnarök series, and see if someone
 like FHI has done some calculations on that-->, and half of that risk
 is placed before resuscitation, then the life expectancy of cryonics is
 `$\frac{8938+2850+1000}{3}*(1-0.20) \approx 3410$`.

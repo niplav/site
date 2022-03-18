@@ -16,6 +16,7 @@ algorithm and brute-force search on that space. Possible further
 improvements to the model are suggested, and implications are discussed.__
 
 <!--
+TODO:
 * Another view on takeoff speeds in relation to the shape of optimization-space
 	*	Maybe model with n-dimensional space with perlin noise,
 		depth of current search determines size of subspace
@@ -207,7 +208,7 @@ tree](https://en.wikipedia.org/wiki/Binary_tree) with infinite depth (for
 any given [turing machine](https://en.wikipedia.org/wiki/Turing_machine)
 with a binary tape).
 
-<!--At the nth level, the parents describe the preceding bits, and the
+<!--TODO At the nth level, the parents describe the preceding bits, and the
 node describes whether the nth bit is 0 or 1.-->
 
 <!--Perhaps trinary tree? 0/1/$ for bits and ending-->

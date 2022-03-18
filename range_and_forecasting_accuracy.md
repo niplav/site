@@ -26,22 +26,6 @@ turns deadbeat, evict it.
 
 *– [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“Making Beliefs Pay Rent (in Anticipated Experiences)“](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences), 2007*
 
-<!--Maybe do the same thing with distribution
-predictions? Metric could be one described in
-/usr/local/doc/unread/calibration_scoring_rules_for_practical_prediction_training_greenberg_2018.pdf-->
-<!--Add paragraph on the difference in quality between the two datasets,
-Metaculus better-->
-<!--Also look at this guy:
-https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting
--->
-<!--http://foresightr.com/2016/05/06/a-brief-history-of-forecasting-->
-<!--Seems like a similar work:
-https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.12127-->
-<!--TODO: Add explaining image for the illustrative example-->
-<!--Use the log odds (Logit)-->
-
-<!--Prediction: The long and short of it (Anthony Millner/Daniel Heyen, 2020)-->
-
 [Probabilistic
 forecasting](https://en.wikipedia.org/wiki/Probabilistic_forecasting)<!--TODO:
 re-pivot to "judgemental forecasting"?-->

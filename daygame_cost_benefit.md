@@ -24,11 +24,6 @@ Daygame Cost-Benefit Analysis
 
 *– [Howard Phillips Lovecraft](https://en.wikipedia.org/wiki/H._P._Lovecraft), [“From Beyond”](http://www.hplovecraft.com/writings/texts/fiction/fb.aspx), 1934*
 
-<!--TODO: How to hyphenate the title?-->
-
-<!--TODO: different diminishing returns in code, make all
-logarithmic/radical/hyperbolic?-->
-
 > Daygame is the art of meeting and attracting women during the daytime
 > in different locations and at different times of the day.
 
