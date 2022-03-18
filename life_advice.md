@@ -150,7 +150,7 @@ And, as always, remember that I'm just a person on the internet.
 	you as they did for them, continue searching
 	* The more similar their constraints to yours, the better
 	* This probably disqualifies this whole text, but whatever
-18. Structured Procrastination <!--TODO: link--> might work for you. It does for me.
+18. [Structured Procrastination](https://structuredprocrastination.com) might work for you. It does for me.
 19.	Fight tooth and nail for Slack<!--TODO: link-->. FIRE<!--TODO:
 	link-->, fewer addictions (even small ones like mindless internet
 	browsing), no debt, fewer physical objects you own, and less
@@ -160,7 +160,7 @@ And, as always, remember that I'm just a person on the internet.
 		(a podcast, a series, a blog), it feels bad to just not
 		finish it. This is a lack of slack!
 		*	I haven't solved the podcast problem yet, except
-			being very strict about which podcasts I start
+			being very strict about which podcasts I start.
 20. Don't destroy option value.
 	*	Becoming enemies with people is an instance of destroying
 		option value (you can become an enemy of your friend
@@ -230,17 +230,19 @@ And, as always, remember that I'm just a person on the internet.
 Existence of Long Tails for Bliss and Suffering")<!--TODO: better links for this-->. Therefore, consider not supplementing Vitamin C.
 30. If you are about to start fighting someone, be aware that this happens. State it out loud: Does this mean we are now fighting? Surprisingly, this sometimes defuses the fight.
 31. If you're already doing something unethical, it's better to be aware of that than to compartmentalize and push it away – for yourself *and* others.
-32.	Don't invest money by buying diamonds. Humanity is able to create
-	synthetic diamonds that are as big as natural ones,
-	cleaner (fewer residual elements, e.g. nitrogen) and
-	~10x cheaper<!--TODO: sources-->. It is easier to make
+32.	Don't [invest money by buying
+	diamonds](https://en.wikipedia.org/wiki/Diamonds_as_investment).
+	Humanity is able to create synthetic diamonds that are as big as
+	natural ones, cleaner (fewer residual elements, e.g. nitrogen)
+	and ~10x cheaper<!--TODO: sources-->. It is easier to make
 	synthetic diamonds dirtier than to clean natural ones. [De
-	Beers](https://en.wikipedia.org/wiki/De_Beers) and other diamond
-	companies have been combatting this by giving out certificates of
-	authenticity – but the temptation to cheat on these is probably
-	too high and this looks like a major market disequilibrium that
-	will collapse at *some* point – I'm just not sure when (“The
-	market can stay irrational longer than you can stay solvent”).
+	Beers](https://en.wikipedia.org/wiki/De_Beers) and other
+	diamond companies have been combatting this by giving out
+	certificates of authenticity – but the temptation to cheat on
+	these is probably too high and this looks like a major market
+	disequilibrium that will collapse at *some* point – I'm just
+	not sure when ("The market can stay irrational longer than you
+	can stay solvent—unless it can't anymore").
 	*	If you appreciate natural diamonds for their authenticity,
 		then by all means, go ahead. But don't be disappointed
 		when a years later, your friends can buy bigger diamonds

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-02-06, modified: 2022-02-11, language: english, status: notes, importance: 5, confidence: unlikely*
+*author: niplav, created: 2022-02-06, modified: 2022-03-18, language: english, status: notes, importance: 5, confidence: unlikely*
 
 > __The optimization power of attention-grabbing systems available over
 the internet is growing faster than any normal human's ability to defend
@@ -43,24 +43,163 @@ sustained attention spans, and with a large opportunity cost.
 The Basic Argument
 ------------------
 
-The basic argument can be summarized as follows: There is often an
-economic incentive to get people addicted to things, and currently
-information technology seems to progressing fastest in finding new
-methods to do that. Existing legislative bodies move too slowly and
-don't understand the problem well enough to do much about it, and often
-the resulting polarization & outrage is in their interest. The world
-economy is growing at 2% a year, which constitutes exponential progress,
-but the resilience of human psychology is growing much slower, maybe
-just linearly (with evolutionary pressure).
+The basic argument can be summarized as follows: There is an economic
+incentive to get people addicted to things. Currently, information
+technology appears to be the fastest advancing sector of the economy,
+and is therefore the most potent way of getting people addicted.
+
+If one wants to avoid falling into addictive patterns, then, it seems
+advisable to be very cautious around information technology.
 
 ### Two Different Growth Modes
 
+The world economy is currently growing at [~3% a
+year](https://en.wikipedia.org/wiki/Gross_world_product),
+which implies that during the [average
+lifetime](https://en.wikipedia.org/wiki/Life_expectancy)
+of a human, it grows `$1.03^{70} \approx 9$`-fold (and
+that is before considering possible [changes in the growth
+mode](https://www.openphilanthropy.org/blog/modeling-human-trajectory "Modeling the Human Trajectory (David Roodman, 2020)")
+from exponential to [hyperbolic
+growth](https://en.wikipedia.org/wiki/Hyperbolic_growth)).
+
+While human minds are extraordinarily adaptive (surviving as
+hunter-gatherers, farmers, industrial workers, scientists,
+in space, etc.), they appear to have some hard-coded
+characteristics that are not easily changed during a
+human's lifetime (or even by evolution — [counterexamples
+include](https://en.wikipedia.org/wiki/Recent_human_evolution)
+the evolution of [lactase
+persistence](https://en.wikipedia.org/Lactase_persistence), [alcohol
+dehydrogenase](https://en.wikipedia.org/Alcohol_dehydrogenase) and
+[sickle cell anemia](https://en.wikipedia.org/Sickle_cell_disease)).
+Humanities' ability to create technology outstrips each
+individual's ability to understand that technology—the [Commodore
+64](https://en.wikipedia.org/wiki/Commodore_64) is said to be the
+last computer that can be fully understood by one person in its
+totality, and AI systems are becoming so complex that [explainable
+AI](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence)
+and interpretability research are becoming their own fields.
+
+While this has been on the whole a delightfully advantageous
+process<!--TODO: link Muehlhauser's text on the IR-->, this makes
+individual humans more prone to manipulation, deception, and addiction
+to these kinds of processes.
+
 ### Humans Minds are Full of Holes
+
+This would be no problem if human brains were
+the [OpenBSD](https://en.wikipedia.org/OpenBSD) or
+[seL4](https://en.wikipedia.org/wiki/L4_microkernel_family) of
+cognitive systems, but alas—we were created by evolution as [spaghetti
+towers](https://www.lesswrong.com/posts/NQgWL7tvAPgN2LTLn/spaghetti-towers),
+and until we [change do something about
+that](https://en.wikipedia.org/wiki/Neuroenhancement), our minds will
+remain unstructured heaps of pasta.
+
+Not only do we bring up an impressive barrage of [cognitive
+biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases),
+but it seems likely that our brains are
+designed to [deceive and hide information from
+themselves](https://en.wikipedia.org/wiki/The_Elephant_in_the_Brain)<!--TODO:
+perhaps replace with a GoodReads link-->.
+And knowing about cognitive biases and flawed thinking usually helps
+little with actually mitigating them , sometimes even [amplifying the
+problem](https://www.lesswrong.com/rationality/knowing-about-biases-can-hurt-people).
+
+> Coherent, comprehensive theories of cognitive bias mitigation are lacking.
+
+*– [English Wikipedia](https://en.wikipedia.org/wiki/English_Wikipedia), [“Cognitive Bias Mitigation”](https://en.wikipedia.org/wiki/Cognitive_Bias_Mitigation), 2021*
+
+This applies even more strongly to addictive tendencies and emotional
+outbursts.
+
+At the moment, technology is just
+moving more quickly than evolution or [cultural
+evolution](https://en.wikipedia.org/wiki/Cultural_evolution) (which is why
+the tricks of [pickup artists](https://en.wikipedia.org/Pickup_artist)
+continue to work: the defenses against them operate on the timescales
+of cultural or genetic evolution, and the pickup artists also usually
+put in more optimization work than the women they approach).<!--Maybe
+this is causing the selection criteria back to hard-to-fake signals,
+from social status/charisma back to height/wealth? Although it doesn't
+look like it.-->
+
+Similarly, companies usually put in much more effort to manipulate their
+customers than the customers put into defending against that manipulation.
+
+### An Incentive for Addiction
+
+Producers of a good have an incentive to modify their (potential)
+customers' preferences so that those customers want to consume
+more of their product. Examples for this are not hard to
+find, with perhaps the most striking one being the [opioid
+epidemic](https://en.wikipedia.org/Opioid_epidemic),
+especially [in the United
+States](https://en.wikipedia.org/wiki/Opioid_epidemic_in_the_United_States),
+but other examples include
+[gambling](https://en.wikipedia.org/wiki/Problem_gambling),
+[nicotine](https://en.wikipedia.org/wiki/Nicotine), gustatorily appealing
+fast food, and the complete practice of advertising.
+
+As long as companies can legally get away with it, they have an incentive
+to modify the preferences of their (potential) customers as to desire more
+of the product of that company.
+
+### Regulators are Slow
+
+> He's the guy who patented using genetic algorithms to patent everything
+they can permutate from an initial description of a problem domain
+– not just a better mousetrap, but the set of all possible better
+mousetraps. Roughly a third of his inventions are legal, a third are
+illegal, and the remainder are legal but will become illegal as soon as
+the legislatosaurus wakes up, smells the coffee, and panics.
+
+*– [Charles Stross](https://en.wikipedia.org/wiki/Charles_Stross), [“Accelerando”](https://en.wikipedia.org/wiki/Accelerando) p. 11, 2005*
+
+Existing legislative bodies move too slowly and don't understand
+the problem well enough to do much about it, and often the resulting
+polarization & outrage is in their interest.
+
+<!--TODO: continue-->
+
+### Addiction to Information is More Dangerous
+
+Why, then, focus on addiction to information specifically? If the whole
+economy is growing faster than any human can defend, and companies have
+an incentive to get me addicted, shouldn't I worry about *everything*,
+and retreat into a bunker while the world around me falls into a spiral
+of self-reinforcing behavioral loops?
+
+Well, yes, [maybe](https://lcamtuf.coredump.cx/prep/index-old.shtml "Disaster planning for regular folks (lcamtuf 2021)")!
+But, barring complete independence from the rest of society, there are
+reasons to focus on addictive information systems in particular.
+
+#### Information Moves Freely and Quickly
+
+The current setup of the internet (at least in [western
+countries](https://en.wikipedia.org/wiki/Great_firewall)) allows most
+types of information exchange to occur freely, without obstruction, and
+nearly instantaneously from any part of the planet to any other. The same
+can not be said for physical objects, making both regulation easier and
+feedback loops slower. Thus, if the provider of an addictive service
+is regulated in a country, it can often change servers and appear on
+the web again in a short time (as shown by the difficulty of shutting
+down [The Pirate Bay](https://en.wikipedia.org/wiki/The_Pirate_Bay),
+[sci-hub](https://en.wikipedia.org/wiki/sci-hub), or [Library
+Genesis](https://en.wikipedia.org/wiki/Library_genesis) (this
+method is not entirely foolproof, as shown by the [censorship of
+TikTok](https://en.wikipedia.org/wiki/Censorship_of_tiktok), especially
+in India)).
+
+#### Information is Not on the Radar of Legislators (For Now)
 
 Evidence
 ---------
 
 ### How Much Time do People Spend on the Internet?
+
+### How Much Time Would People Like to Spend on the Internet?
 
 ### Have Attention Spans Been Declining?
 
@@ -81,8 +220,6 @@ Possible Counterarguments
 ### Brain Very Flexible
 
 ### Addictive Process Takeover=Doom
-
-### But Won't Regulators Outlaw?
 
 ### Giving Up Much
 

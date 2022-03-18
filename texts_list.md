@@ -17,6 +17,17 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Sacred Metal (William Buckner, 2019)](https://traditionsofconflict.com/blog/2019/10/4/sacred-metal)
+* [Pilish (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Pilish)
+* [Cadaeic Cadenza (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Cadaeic_Cadenza)
+* [Laws of Tech: Commoditize Your Complement (Gwern Branwen, 2022)](https://www.gwern.net/Complement)
+* [Notes on Nggwal (William Buckner, 2019)](https://traditionsofconflict.com/blog/2019/2/23/notes-on-nggwal)
+* [Why headhunting men’s cults develop in lowland riverine rainforest areas (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/12/15/why-headhunting-mens-cults-develop-in-lowland-riverine-rainforest-areas)
+* [My Ordinary Life: Improvements Since the 1990s (Gwern Branwen, 2021)](https://www.gwern.net/Improvements)
+* [On secret cults and male dominance (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/1/31/on-secret-cults-and-male-dominance)
+* [Cadae (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Cadae)
+* [Fib (poetry) (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Fib_(poetry))
+* [Klepton (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Klepton)
 * Über die Verbindlichkeit ethischer Urteile (Bertrand Russell, 1944)
 * Ethik (Bertrand Russell, 1927)
 * \* Dido (Friedrich Schiller, 1805)

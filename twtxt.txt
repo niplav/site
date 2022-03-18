@@ -1010,3 +1010,5 @@
 2022-03-16T21:18:40.000000Z	the Bulow-Klemperer theorem should really be called the Size Matters theorem
 2022-03-16T23:12:11.000000Z	everyfling
 2022-03-17T12:44:00.000000Z	I don't want to think about my career. I want to solve the goddamn problem!
+2022-03-17T19:27:40.000000Z	if you put both content and sources into the footnotes, screw you.
+2022-03-18T01:10:13.000000Z	https://traditionsofconflict.com/blog/2019/10/4/sacred-metal, and now consider computer programming (especially the terminology of wizards/gurus, programming as magic, the SICP cover &c!)

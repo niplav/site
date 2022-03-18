@@ -20,7 +20,7 @@ soviel ich auch ausschaue, einen Erfolg sehe ich nicht.
 *– [Frank Kafka](https://en.wikipedia.org/wiki/Franz_Kafka), “Forschungen eines Hundes”, 1922*
 
 My general ethical outlook is one of high [moral
-uncertainty](./doc/ethics_notes/moral_uncertainty_macaskill_et_al_2020.pdf),
+uncertainty](./doc/ethics_notes/moral_uncertainty_macaskill_et_al_2020.pdf "Moral Uncertainty (William MacAskill/Krister Bykvist/Toby Ord, 2020)"),
 with my favourite theory being consequentialism. I furthermore favour
 hedonic, negative-leaning, and act-based consequentialisms.
 
@@ -132,7 +132,7 @@ and searches for maxima. As far as is publicly known, there is no crisp
 formalization of this process (initial attempts are [reflective
 equilibrium](https://plato.stanford.edu/entries/reflective-equilibrium/)
 and [coherent extrapolated
-volition](./doc/converging_preference_utilitarianism/coherent_extrapolated_volition_yudkowsky_2004.pdf)).
+volition](./doc/converging_preference_utilitarianism/coherent_extrapolated_volition_yudkowsky_2004.pdf) "Coherent Extrapolated Volition").
 
 If we accept the [complexity of human
 values](https://arbital.com/p/complexity_of_value/) hypothesis, this
@@ -489,8 +489,7 @@ There are of course also additional reasons to exterminate some species
 of mosquito: 700k humans die per year from mosquito-borne diseases, and
 it might be better for mosquitos themselves to not exist at all (with
 [gene drives being an effective method of driving them to
-extinction](https://reducing-suffering.org/will-gene-drives-reduce-wild-animal-suffering/ "Will Gene Drives Reduce Wild-Animal Suffering?"))
-(see [Tomasik
+extinction](https://reducing-suffering.org/will-gene-drives-reduce-wild-animal-suffering/ "Will Gene Drives Reduce Wild-Animal Suffering?"), see [Tomasik
 2017](https://foundational-research.org/the-importance-of-wild-animal-suffering/ "The Importance of Wild-Animal Suffering")
 and [Tomasik
 2016](https://reducing-suffering.org/the-importance-of-insect-suffering/ "The Importance of Insect Suffering")

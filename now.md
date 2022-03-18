@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2022-03-15, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2022-03-18, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -25,12 +25,16 @@ at the moment.
 
 If I find time inbetween that, I'm expanding on the following texts:
 
-* [Generalizing the Diamond-Square Algorithm to n Dimensions](./generalizing_diamond_square.html)
+* Notes
+	* [Notes on Ethics](./notes_on_ethics.html)
+	* [Notes on Pickup](./notes_on_pickup.html)
+	* [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
 * [Prepare to Leave the Internet](./leave_the_internet.html)
-* [Notes on Ethics](./notes_on_ethics.html)
-* [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
-* [Third Variable](./third.html)
+* [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)
+* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 * [Finesse of Sets of Forecasts](./finesse.html)
+* [Third Variable](./third.html)
+* [Generalizing the Diamond-Square Algorithm to n Dimensions](./generalizing_diamond_square.html)
 
 I'm also planning a full edit of all texts on the website, but don't
 have a fixed date to get started on that at the moment.
@@ -52,9 +56,7 @@ Currently, I am actively reading the following books:
 
 * Mastering the Core Teachings of the Buddha (Daniel M. Ingram, 2018)
 * Naïve Set Theory (Paul R. Halmos, 1960)
-* Philosophische und politische Aufsätze (Bertrand Russell, 1971)
 * Population Genetics (John H. Gillespie, 2004)
 * Reactive Systems (Anna Ingólfsdóttir/Jiří Srba/Kim G. Larsen/Luca Aceto, 2007)
 * Samtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * The Jazz Piano Book (Mark Levine, 1998)
-* The New Strategic Selling (Stephen E. Heiman/Diane Sanchez/Tad Tuleja, 1995)
