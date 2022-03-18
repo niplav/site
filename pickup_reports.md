@@ -108,15 +108,93 @@ pretty much zero, 5 numbers (although only 2 non-flakey), 1 lay
 
 -->
 
-<!--
 Dates
 ------
 
+<!--
+### Cat Lady
+-->
+
 ### Super Honest Non-SDL
 
-She was the last stop on a 4-hour 14-approach spree (still a big number
-for me, working my vibe towards higher numbers of approaches).
+She was the last stop on a 4-hour 13-approach spree (still a big number
+for me, working my vibe towards higher numbers of approaches). She was
+wearing all black, so I opened her by comparing her to a large black
+candle. She stood very close to me, and my vibe was upbeat (if a bit
+tired). I quickly found out that she was a tourist, and it was the last
+day of her visit, so I would have to try to make it an SDL (which, with
+only one lay under my belt, seemed like a titanic endeavour). She seemed
+very keen, inviting me to join her at the museum, which I rejected at
+first, instead taking her instagram and talking about meeting her later
+that day.
 
+Joining up with my wing, and telling him about the set, he strongly
+encouraged me to shoot for an SDL, so I messaged her that I'd join her
+at the museum (I know that it was needy, but she seemed very on, and I'd
+told her I would meet a friend later, and in fact I had a date lined up
+later that day with a Mexican girl). I messaged my date and asked her
+if she could meet up a bit earlier (a good flake check), sort of hoping
+she would flake on me, while I walked toward the museum. Once there,
+I tried to find Miss Candle, but she was already inside the museum. I
+contemplated buying a ticket, but decided that it would be too needy,
+and instead decided to check out the logistics around the area.
+
+Searching for good bars, I received a flake text from the Mexican girl,
+causing me to feel an emotion that I had never felt before — an odd
+sense between an inner sigh and an inner fist-pump. Bingo. The SDL-attempt
+was on. I did two more approaches, found a bar, ordered a beer, and told
+Miss Candle where I was.
+
+She joined me half an hour later, asking me where my friend was;
+my response being something along the lines of "he's probably
+with a girl somewhere". Started off with random chit-chat about
+exercise, travel, interest etc. while I amped up the kino. At
+some point she looked at me and told me that she was only seeing
+me as a friend, to which I replied with the old Ross Jeffries line
+"I don't like putting relationships between people into boxes like
+that, but I promise that if anything ever happens between us, it
+will be comfortable, and we will be willing and ready" [Strauss 2005 p.
+52](https://en.wikipedia.org/wiki/The_Game:_Penetrating_the_Secret_Society_of_Pickup_Artists "The Game: Penetrating the Secret Society of Pickup Artists")
+(praise the lineage of players before me handing down their wisdom). She
+laughed and we carried on with the conversation.
+
+After a while I bounced her to another bar, where we continued
+the conversation and I amped up the kino, laying my arm around her.
+I tried to kiss her (thrice), each time she rejected it with a laugh,
+and I told her each time I would try again, to which she just giggled
+and continued with the conversation. She knew about the questions game,
+so we played it, her being doubting my answer of having had 4 girlfriends
+and 8 sexual partners in total, believing I was understating the number
+(the real number being 2 girlfriends and 1 sexual partner).
+
+I was really enjoying being honest with her about my intentions in a way
+I had never been before with a woman — she knew exactly where we stood,
+I had exactly communicated to her what I wanted, and that we were engaged
+in the playful dance of seduction and resistance. Glorious.
+
+Around 22:00 she wanted to meet up with a friend of hers at a club, and
+I was enjoying her company so much that I walked to the club with her,
+talking about bisexuality, the beauty of middle-Eastern women, how she
+saw sex as something to do for fun, similar to exercise (major green
+flag!) and me possibly visiting her in Barcelona. Once at the club, I
+decided it was not going to lead anywhere, and when her friend arrived,
+I told him I'd been unsuccessful at seducing her, and hopped on public
+transport back home.
+
+This encounter held major lessons for me: Escalating is much easier
+after a successful session of daygame, and alcohol makes escalating
+much easier; being honest about what you want and expressing those
+desires is awesome and can earn you major respect (making you seem
+much more like a player); and I got a good feel for what verbal
+escalation feels like. It felt like I finally got the ticket to the
+[antechamber](https://en.wiktionary.org/wiki/Special:Search/antechamber)
+of the secret society.
+
+I do not plan on visiting her in Barcelona (she responded positively to a
+ping the next day), because I don't like traveling, but even without any
+further interaction, this is my current favourite encounter from daygame.
+
+<!--
 ### Stop Being an Economics Nerd
 
 ### A Yes Girl With No Direction

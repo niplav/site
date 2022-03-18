@@ -81,7 +81,7 @@ totality, and AI systems are becoming so complex that [explainable
 AI](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence)
 and interpretability research are becoming their own fields.
 
-While this has been on the whole a delightfully advantageous
+While economic growth has been on the whole a delightfully advantageous
 process<!--TODO: link Muehlhauser's text on the IR-->, this makes
 individual humans more prone to manipulation, deception, and addiction
 to these kinds of processes.

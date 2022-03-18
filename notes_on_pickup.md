@@ -146,14 +146,14 @@ Approach difficulties seem to have a variety of different causes. While
 the best method is to go out, become more and more frustrated, and then
 force yourself to approach (you can also work with your emotional state,
 as described in [Krauser 2014]()<!--TODO: link to Daygame Mastery-->
-p. 64. There are different axes which can be intervened on independently:
+p. 64). There are different axes which can be intervened on independently:
 
 1. Cognitive Approach Difficulties: Do you believe that approaching is a good idea?
 	* If no:
 		* try it, you will probably have some positive experiences
 			* unless you have very high expectations
 		* re-cast own identity as evil/mischievous
-2. Biological Approach Difficulties: Do you have an embodied need to interact with go ng women? Does you body want to get closer?
+2. Biological Approach Difficulties: Do you have an embodied need to interact with women? Does you body want to get closer?
 	* If no: try to increase sex drive
 		* lifting
 		* stopping porn consumption
