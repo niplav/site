@@ -17,22 +17,6 @@ the middle where everything is the same
 
 <!--TODO: find pagenumber for quote-->
 
-<!--
-Instead of Student's t-test a survival analysis?
-Such as a Kaplan-Meyer method & log-rank test?
-Or a one-sided test?
-Cox-regression (proportional hazard).
-
-Will the data sets be normally distributed?
-→ If not, use Mann-Whitney U-Test.
-Also: What about abstinence ←→ masturbation ←→ pornography?
-Pre-register on predictionbook as well.
-
-Change so that in the male case, there's nothing beyond collecting contact
-info (no date invite/date), and add info about asking whether age >18.
-Elaborate on question process.
--->
-
 Abstract
 --------
 
@@ -398,14 +382,8 @@ Results were logged in a [CSV](https://en.wikipedia.org/wiki/Comma-separated_val
 <!--
 ### Justification for Cold Approach as a Method
 
-TODO: research different methods of measuring physical attractiveness,
-list & discuss them here. Discuss correlation of attractiveness ratings
-within cultures.
-
 * Seven point Likert scale
--->
 
-<!--
 TODO: read
 /usr/local/doc/unread/blackpill/gender_differences_in_receptivity_to_sexual_offers_tappé_et_al_2013.pdf
 /usr/local/doc/unread/blackpill/gender_differences_in_receptivity_to_sexual_offers_clark_hatfield_1989.pdf
@@ -745,9 +723,7 @@ Survey on /r/NoFap regarding attractiveness perception (does longer
 abstinence from masturbation result in lower attractiveness standards?
 Search for claims that abstinence from masturbation changes perception
 of attractiveness
--->
-<!--
-TODO:
+
 Does attractiveness have an influence on the strength of the response to
 cold approach?
 -->
@@ -906,8 +882,6 @@ As a pre-registration, I subjectively assign a probability of 60% to the
 *Neutral Stance* being correct, a probability of 17% to the *Weak NoFap
 Stance* being correct, a 8% probability to the *Strong NoFap Stance*,
 and 15% to any other result.
-
-<!--TODO: pre-register on predictionbook-->
 
 ### Reasoning
 
@@ -1179,15 +1153,3 @@ okay because I'm only trying to identify hypotheses that could inspire
 further testing.
 
 Executed on the data collected, the output shows that \_.
-
-<!--
-TODO: read
-
-https://en.wikipedia.org/wiki/Masturbation
-https://en.wikipedia.org/wiki/Pornography
-
-Perhaps also
-
-/usr/local/doc/unread/blackpill/physical_attractiveness_research_adams_1977.pdf
-/usr/local/doc/unread/sexual_activity_is_inversely_related_to_womens_perceptions_of_male_facial_attractiveness_hess_et_al_2007.pdf
--->

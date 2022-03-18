@@ -11,6 +11,9 @@ Changelog
 March 2022
 -----------
 
+* [Notes on Pickup](./notes_on_pickup.html)
+	* [Reductionism on Approach Difficulties](./notes_on_pickup.html#Reductionism-on-Approach-Difficulties)
+* [Pickup Reports](./pickup_reports.html)
 * [Solutions to “Naïve Set Theory”](./nst_solutions.html):
 	* [Section 13](./nst_solutions.html#Section-13):
 		* [Exercise 3](./nst_solutions.html#Exercise-3_3)
