@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-03-18, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-03-20, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,30 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [How Should We Critique Research? (Gwern Branwen, 2019)](https://www.gwern.net/Research-criticism)
+* [Contests Between Equals: Men and Beasts (William Buckner, 2020)](https://traditionsofconflict.com/blog/2020/1/23/contests-between-equals-men-and-beasts)
+* [It Looks Like You’re Trying To Take Over The World (Gwern Branwen, 2022)](https://www.gwern.net/Clippy)
+* [Play NetHack (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/09/17/)
+* [The Politics of Chimpanzee Societies (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/11/12/the-politics-of-chimpanzee-societies)
+* [Two-Man Double Blind Coke vs. Pepsi Taste Test (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/07/25/)
+* [A GNU Octave Feature (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/08/29/)
+* [Don't Write Your Own E-mail Validator (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/12/24/)
+* [Controlling a Minefield (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/12/16/)
+* [The Fire Gem (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/12/22/)
+* [The Social Dynamics of Sorcery (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/7/6/the-nature-of-sorcery)
+* [* Banner Ads Considered Harmful (Gwern Branwen, 2020)](https://www.gwern.net/Ads)
+* [Experiments on a $50 DIY air purifier you can make in 30s (dynomight, 2021)](https://dynomight.net/2020/12/15/some-real-data-on-a-DIY-box-fan-air-purifier/)
+* [Ritual mutilation, human consumption, and contemporary insulation (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/6/19/visceral-insulation)
+* [The Longevity FAQ: Making of (José Luis Ricón, 2020)](https://nintil.com/longevity-making-of)
+* [Humans are not agents: short vs long term (Stuart Armstrong, 2017)](https://www.alignmentforum.org/posts/5bd75cc58225bf0670375448/humans-are-not-agents-short-vs-long-term)
+* [AI safety: three human problems and one AI issue (Stuart Armstrong, 2017)](https://www.alignmentforum.org/posts/5bd75cc58225bf06703753c9/ai-safety-three-human-problems-and-one-ai-issue)
+* [A Tale of Sorcery and Marriage Among the Gebusi (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/6/9/a-tale-of-sorcery-and-marriage-among-the-gebusi)
+* [The Cause of Illness (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/8/1/the-cause-of-illness)
+* [Three wild speculations from amateur quantitative macrohistory (Luke Muehlhauser, 2017)](http://lukemuehlhauser.com/three-wild-speculations-from-amateur-quantitative-macrohistory/)
+* [The Bullroarer (William Buckner, 2019)](https://traditionsofconflict.com/blog/2019/12/3/the-bullroarer)
+* [A "Failure to Evaluate Return-on-Time" Fallacy (lionhearted, 2010)](https://www.lesswrong.com/posts/RzdPXLd2b6qmEB2mf/a-failure-to-evaluate-return-on-time-fallacy)
+* [Humans are not automatically strategic (Anna Salamon, 2010)](https://www.lesswrong.com/posts/PBRWb2Em5SNeWYwwB/humans-are-not-automatically-strategic)
+* [A lot of guys are pussies, but that means opportunity for the few who aren’t (TheRedQuest, 2022)](https://theredquest.wordpress.com/2022/02/23/a-lot-of-guys-are-pussies-but-that-means-opportunity-for-the-few-who-arent/)
 * [The Melancholy of Subculture Society (Gwern Branwen, 2019)](https://www.gwern.net/The-Melancholy-of-Subculture-Society)
 * [The Assassin's Footprint (William Buckner, 2019)](https://traditionsofconflict.com/blog/2019/4/1/the-assassins-footprint)
 * [Sacred Metal (William Buckner, 2019)](https://traditionsofconflict.com/blog/2019/10/4/sacred-metal)

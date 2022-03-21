@@ -2610,7 +2610,7 @@ Generally, the number of nodes in a complete binary tree can be described
 using the form `$2^n-1+r$`: a perfect binary tree with `$2^n-1$` nodes,
 and a set of residual nodes added on the last layer, where `$r<2^n-1$`
 (if `$r=2^n-1$`, then the last layer is full and no other layer has yet
-started).TODO: image would perhaps be helpful-> A complete binary
+started). TODO: image would perhaps be helpful-> A complete binary
 tree also has another interesting property: its left and right subtree
 are both complete binary trees, with one even being a perfect binary
 tree.TODO: proof?->

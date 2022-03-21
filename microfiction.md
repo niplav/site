@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-02-28, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-03-20, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __Very small pieces of fiction and things that are sufficiently like
 fiction.__
@@ -25,6 +25,8 @@ Words
 * tiktocracy
 * sapolskywave
 * technocratsacy
+* [rijndaël](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)[ites](https://en.wikipedia.org/wiki/Raëlism)
+* licerology: the study of betting and auctions, auction theory
 
 #### Morphisms
 
@@ -68,6 +70,11 @@ Licht durchschienenes Glas.
 ----
 
 > Aufschlagbare Halsschlagader, durchschlagbare Halsschlagader!
+
+----
+
+> Nachts sind alle Katzen grau  
+Alle Schatten werden schlau
 
 ### Other
 
@@ -164,6 +171,26 @@ Dialogues
 > “Haha, no, I decided to move there myself.”  
 > “Oh no, my *sincerest condolences*.”
 
+----
+
+> “We are trying to accomplish an extremely difficult thing that requires
+everything to run as smoothly and efficiently as possible, but luckily
+our status incentives are so optiml that the high status men getting to
+sleep with a lot women is just the best!”
+
+----
+
+> “What, of course I want to spend my entire life on this very specific
+spot on the happiness/productivity Pareto frontier, dummy.”
+
+----
+
+> “yeah? vipassanize this then, __nerd__” *suckerpunch*
+
+----
+
+> “Stop narrativizing yourself! Stop narrativizing yourself!”
+
 Wrong Quotes
 -------------
 
@@ -188,6 +215,22 @@ unknown, only to be faintly perceived by posterior-maximizers who had
 trained their sensory organs to the maximal degree of data intake possible
 without (at the time outside of military circles unavailable) BCIs. And
 yet, the 'works scale and scale, just as foretold by the 𝔊 prophet.
+
+Moloch
+-------
+
+* Moloch whose wasp-nests are fractal!
+* Moloch whose pilots are spooky!
+* Moloch who resides in an infinite-dimensional space!
+* Mandate of tenderness! Fugitive astralites!
+
+Sutras
+-------
+
+* the adiabatic sutra
+* the inframeasure sutra
+* the acausal sutra
+* the fourfold spatious sutra
 
 Memes
 ------

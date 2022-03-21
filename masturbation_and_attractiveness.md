@@ -40,7 +40,8 @@ Existing Literature
 TODO: Search google scholar for "abstinence masturbation
 attractiveness", "abstinence masturbation pheromones" and "abstinence
 masturbation microexpressions". The last time I checked, there was
-nothing there, but it might have changed.-->
+nothing there, but it might have changed.
+-->
 
 Examples for the Claim
 -----------------------

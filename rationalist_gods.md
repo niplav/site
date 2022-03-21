@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2019-10-18, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-03-20, language: english, status: in progress, importance: 2, confidence: log*
 
 > __[Rationalists](https://en.wikipedia.org/wiki/LessWrong) and the
 > [neoreactionary movement](https://en.wikipedia.org/wiki/Dark_Enlightenment)
@@ -88,6 +88,21 @@ The Goddess of Everything Else
 -------------------------------
 
 * [The Goddess of Everything Else](https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/)
+
+Nggwal
+-------
+
+> Nggwal instead is a truly impressively example of
+coordination—he is metaphorically and literally a collective
+that unites even enemy communities in displays of dominance and
+power. Nggwal as an entity symbolizes something of significant
+interest to me and a key focus of this blog: namely all the
+ways in which men cooperate to do extreme and destructive things
+to themselves and others.
+
+*– [William Buckner](https://traditionsofconflict.com/), [“Notes on Nggwal”](https://traditionsofconflict.com/blog/2019/2/23/notes-on-nggwal), 2019*
+
+* [Notes on Nggwal](https://traditionsofconflict.com/blog/2019/2/23/notes-on-nggwal)
 
 External Links
 ---------------

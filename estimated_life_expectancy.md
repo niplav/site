@@ -441,7 +441,7 @@ For women:
 
 	draw()
 
-![Mean estimate per year to actuarial table for men](./img/estimated_life_expectancy/f_res.png "Mean estimate per year to actuarial table for women. The graph shows the life expectancy for a person with a given age (actuarial values) (how old the person is to how old they will become on average) and the average subjective estimate for life expectancy per age (how old the person is to how old they think they will become).The actuarial data for women also rises with the standard Gompertz curve, starting at 82 and beginning to rise at around the person reaching the age of 60. The mean estimate is clustered around this curve, but still quite noisy.")
+![Mean estimate per year to actuarial table for men](./img/estimated_life_expectancy/f_res.png "Mean estimate per year to actuarial table for women. The graph shows the life expectancy for a person with a given age (actuarial values) (how old the person is to how old they will become on average) and the average subjective estimate for life expectancy per age (how old the person is to how old they think they will become). The actuarial data for women also rises with the standard Gompertz curve, starting at 82 and beginning to rise at around the person reaching the age of 60. The mean estimate is clustered around this curve, but still quite noisy.")
 
 <!--TODO: difference between estimated age and actuarial value, is there
 a correlation? Would that even be a useful measure?-->

@@ -187,8 +187,8 @@ much easier; being honest about what you want and expressing those
 desires is awesome and can earn you major respect (making you seem
 much more like a player); and I got a good feel for what verbal
 escalation feels like. It felt like I finally got the ticket to the
-[antechamber](https://en.wiktionary.org/wiki/Special:Search/antechamber)
-of the secret society.
+[antechamber](https://en.wiktionary.org/wiki/antechamber) of the secret
+society.
 
 I do not plan on visiting her in Barcelona (she responded positively to a
 ping the next day), because I don't like traveling, but even without any

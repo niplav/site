@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-03-18, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-03-20, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of puns, good bandnames, types of guy,
 idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
@@ -16,8 +16,9 @@ Title Idioms
 ### Blog Posts
 
 * X: Much More Than You Wanted To Know
-* Considerations on X
-* Meditations on X
+* Considerations on C`.*`
+* Meditations on M`.*`
+* Notes on N`.*`
 
 ### Papers
 
@@ -58,7 +59,6 @@ little relation to the collection of people on the internet usually called
 
 <!--TODO: there was a post on LW about this instead being
 "pragmatism". Look that up!-->
-<!--TODO: similar with Metacognitive movement-->
 
 Alternatives:
 
@@ -140,6 +140,7 @@ and goal-oriented activity, unlike most (if not all) art.
 Alternatives:
 
 * "Pick-Up"
+* "Game", but this one [suffers](https://en.wikipedia.org/wiki/Game) [from](https://en.wikipedia.org/wiki/Game_\(hunting\)) [serious](https://en.wikipedia.org/wiki/The_Game_\(rapper\)) [overloading](https://en.wikipedia.org/Game_\(Scientology\)) [problems](https://en.wikipedia.org/wiki/Game_\(grape\)) (Huh! I [lost](https://en.wikipedia.org/wiki/The_Game_\(mind_game\))/won<!--TODO: link to tweet about mdma and winning game--> it again!)
 
 ### "Sentience"
 
@@ -243,7 +244,7 @@ paradox, but not paragnosis, paratechnē and paraëpisteme
 #### Missing Words
 
 * eating : drinking :: feeding : ?
-* hungry: satiated :: thirsty : quenched :: horny : ?
+* hungry: satiated :: thirsty : quenched :: horny : ? ("That's my secret — I'm *always* horny." \*hulk transform\*)
 
 Types of Guy
 -------------
@@ -300,7 +301,15 @@ New Abbreviations
 Puns
 -----
 
+### English
+
 * I uppekhan't get annoyed about this.
+*	What does an enthusiast for upper body clothing say when they see a new piece?  
+	“Intewesting”
+
+### German
+
+* Dafür, daß sie Jainisten heißen, sind sie aber ganz schön resolut.
 
 Quines and Not-Quines
 ----------------------
