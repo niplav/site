@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-03-15, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-03-20, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -92,6 +92,8 @@ Existing Texts
 	* Make interactive calculator
 * Abstinence from Masturbation and Success from Cold Approach
 	* Test
+		* This is a likert scale, so read that Wikipedia article first
+			* Then change the statistical test
 		* Instead of Student's t-test a survival analysis?
 			* Such as a Kaplan-Meyer method & log-rank test?
 			* Or a one-sided test?
@@ -276,6 +278,7 @@ Texts
 * Implement the project described in [Environmental Goals](https://arbital.com/p/environmental_goals/)
 * GPT for STEM data?
 * Is the F-invariance described in Utility Indifference (Armstrong 2010) tiling?
+* Enumerating different ways of collapsing graphs representing inconsistent preferences into consistent preferences
 
 ### Pick Up
 
@@ -867,6 +870,11 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* Yogic stuff? (Mudra)
 * Taking LSD might have caused me erectile dysfunction
 	* 30% sure that one LSD trip caused ≥50% of my erectile dysfunction
+* Lessons in Instrumental Rationality from Approaching 360 Women in the Street
+* Building a [Cuboid](https://dynomight.net/better-DIY-air-purifier.html)
+	* Building time: 1h+
+	* Cost 100€+ (find exact number)
+	* Images
 
 ### Misc
 
@@ -1487,6 +1495,7 @@ Wikipedia Articles
 * In the page on Single-parameter Utility, the formulas contain non-\text multi-letter variables. Fix that.
 	* Same for Monotonicity (mechanism design)
 * Clean up second paragraph in Colored people's time
+* Add The Game by Strauss to the Game (disambiguation) page
 
 Metaculus Questions
 -------------------

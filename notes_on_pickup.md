@@ -3,6 +3,9 @@
 
 *author: niplav, created: 2022-03-12, modified: 2022-03-12, language: english, status: in progress, importance: 2, confidence: other*
 
+Notes on Pickup
+================
+
 Approach Anxiety
 ----------------
 

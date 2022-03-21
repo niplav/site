@@ -194,6 +194,8 @@ in India)).
 
 #### Information is Not on the Radar of Legislators (For Now)
 
+### The Addictive Event Horizon
+
 Evidence
 ---------
 
@@ -213,6 +215,9 @@ For television & children:
 
 * `http://pediatrics.aappublications.org/cgi/content/abstract/113/4/708`
 * `https://doi.org/10.1542%2Fpeds.113.4.708`
+
+Consequences
+-------------
 
 Possible Counterarguments
 --------------------------
