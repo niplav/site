@@ -93,7 +93,7 @@ been much better). I was smitten after the approach.
 She was on. She was enjoying the approach, or perhaps just the attention.
 But she was on.
 
-As [Nash](https://daysofgame.com) always says: 
+As [Nash](https://daysofgame.com) always says:
 
 Viva Daygame.
 

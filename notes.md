@@ -251,7 +251,7 @@ to me.
 The standard explanation of such behavior usually is that the old object
 was not sufficient in fulfilling its purpose, though when I asked about
 what exactly the problem with the object was, the usual answer was that it
-had some aesthetic deficits, or was simply out of fashion or even too old.
+had some æsthetic deficits, or was simply out of fashion or even too old.
 
 This seems unintuitive to me: not only does one already have an object that
 fulfills its purpose wonderfully, buying a new one also entails non-negligible
@@ -270,7 +270,7 @@ one then loses (with a discount rate of 1%) `$\$200-\$200*0.99^5=\$9.80$`.
 One possible explanation is a social one: owning and using old objects is
 usually an indicator of low status, and people often want to avoid this.
 
-Another explanation is that people value the aesthetic quality of the
+Another explanation is that people value the æsthetic quality of the
 objects they own, and that old objects are usually not regarded as
 beautiful as newer objects.
 
@@ -284,7 +284,7 @@ a grand failure. Also, most household appliances are quite safe.
 
 ### Advice
 
-So, if you don't have a strong aesthetic sensibility, either have a high
+So, if you don't have a strong æsthetic sensibility, either have a high
 social status or don't care about it, and if you are careful, using things
 until they don't function anymore can save both money and time<!--TODO:
 how much?-->.
@@ -1047,3 +1047,92 @@ Thoughts: *jam* means *already*, or *now, but temporally nearer than expected*.
 This seems like it could be extended to other postfixes, e.g. with
 the meaning *here, but spatially closer than expected*, or *this much,
 but less than expected*.
+
+Building a Cuboid
+------------------
+
+Inspired by [dynomight 2021a](https://dynomight.net/air/ "Better air quality is the easiest way not to die"),
+I decided to replicate their design for the
+[cuboid](https://dynomight.net/better-DIY-air-purifier.html "The Cuboid: A DIY air purifier that's better than a box-fan")
+(the [cheaper box fan air
+purifier](https://dynomight.net/2020/12/15/some-real-data-on-a-DIY-box-fan-air-purifier/ "Experiments on a $50 DIY air purifier you can make in 30s")
+was intolerably violating my æsthetic sensibilities).
+
+### Materials
+
+* 4 filters
+* 1 fan
+* 2 pieces of string
+* 4 pieces of cardboard
+
+### Building Process
+
+First, I arranged the four filters as described in [dynomight
+2021b](https://dynomight.net/better-DIY-air-purifier.html "The Cuboid: A DIY air purifier that's better than a box-fan")
+and tied them together using some pieces of string I had lying around
+(the bungee cords I had ordered were too short and would have broken
+the filters — a lesson in thinking about dependencies! Fortunately
+they weren't expensive), with the red rope giving the contraption a nice
+[kinbaku](https://en.wikipedia.org/Japanese_bondage) æsthetic.
+
+![The filters forming a column, held together by a red and an orange rope](./img/cuboid/frontal_no_lid.jpg "The filters forming a column, held together by a red and an orange rope")
+
+I then cut out two pieces of cardboard (`$2110 \text{mm} \cdot 2400 \text{mm}$`)
+that fit right into the column, for stabilization,
+
+![A view into the column, where one can see the upper piece of cardboard inside](./img/cuboid/bottom.jpg "A view into the column, where one can see the upper piece of cardboard inside")
+
+and also a piece (`$2340 \text{mm} \cdot 2650\text{mm}$`) that I could
+impishly tape to the bottom of the cuboid ("works for me").
+
+![The bottom of the cuboid, where one piece of cardboard is taped impishly to the filters](./img/cuboid/bottom_lid.jpg "The bottom of the cuboid, where one piece of cardboard is taped impishly to the filter")
+
+Next, the fan arrived, so I cut out a lid from some cardboard I got
+my [queal](https://queal.com) packages in (again `$2110 \text{mm} \cdot 2400 \text{mm}$`,
+as with the bottom), and from that lid I cut a 950mm diameter circle
+for the fan.
+
+![Fan, lid, and cut-out](./img/cuboid/fan_and_lid.jpg "Fan, lid, and cut-out")
+
+Assembling the cuboid was now easy: Just put the lid on top, put in the
+fan, plug in the fan, and voilà:
+
+![The cuboid, seen from the top](./img/cuboid/complete_top.jpg "The cuboid, seen from the top")
+
+![The cuboid, seen from the side](./img/cuboid/complete.jpg "The cuboid, seen from the side")
+
+My cuboid ~3200mm wide, ~2900mm deep, and ~3900mm high (the knots in
+the cords make exact measurement difficult).
+
+Æsthetically, the three different primary colors are a bit much, but
+I'm not *that* bothered by it (although if someone wants to set up a line
+of turbo cuboids, all red and black and sleek, sign me up as interested).
+
+### Does it Work?
+
+Probably! I haven't measured air quality yet, but at least it appears
+to be sucking the air through the filters:
+
+<video src="./vid/cuboid/it_works.webm" type='video/webm' controls>
+The video shows a piece of paper affixed to the cuboid, when I try to move the paper with a pencil, it gets sucked back to the cuboid.
+</video>
+
+But I haven't checked the energy usage yet, and it's loud enough that I
+probably won't be running it while I try to sleep.<!--TODO: get decibel
+meter on phone & check-->
+
+### Price & Time Cost
+
+My cuboid was a bit pricier than the one by dynomight, but not by much:
+4 filters, each 23€, the fan  with 38€, and the two bungee cords
+for 2€ (I don't count them since I didn't use them in the end): 130€
+in total.
+
+It took me a bit longer to build the cuboid than the alleged 5 minutes:
+I would estimate that I spent at least 90 minutes one it (plus another
+45 minutes writing this note).
+
+But, all in all, I'm very happy with
+my little cuboid. It's humming along to some
+[Beethoven](https://en.wikipedia.org/wiki/Piano_Concerto_No._1_\(Beethoven\))
+while I write this.
