@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-03-20, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-03-21, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,8 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Open Questions (Gwern Branwen, 2021)](https://www.gwern.net/Questions)
+* [The Replication Crisis: Flaws in Mainstream Science (Gwern Branwen, 2019)](https://www.gwern.net/Replication)
 * [How Should We Critique Research? (Gwern Branwen, 2019)](https://www.gwern.net/Research-criticism)
 * [Contests Between Equals: Men and Beasts (William Buckner, 2020)](https://traditionsofconflict.com/blog/2020/1/23/contests-between-equals-men-and-beasts)
 * [It Looks Like You’re Trying To Take Over The World (Gwern Branwen, 2022)](https://www.gwern.net/Clippy)

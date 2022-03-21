@@ -32,7 +32,7 @@ Schein von ihm schwindet.
 * Clearly differentiate between stating something being a proper subset or not: only use `$A \subset B$` if definitely `$A \not =B$`, otherwise write `$A \subseteq B$`.
 * Set difference is written with a backslash `$\backslash$`, not with a minus `$-$`.
 * If e is not an element of S, then `$e \not \in S$` (and not something like `$e \in' S$`).
-* The size of a set `$A$` is `$|A|$`, not `$#(A)$`
+* The size of a set `$A$` is `$|A|$`, not `$\#(A)$`
 
 ### Logic
 
@@ -47,6 +47,54 @@ Schein von ihm schwindet.
 (Or social choice theory/decision theory/utility theory…)
 
 * Some people use `$P, R, I$` instead of `$\prec, \preceq, \sim$`. I often don't.
+* As per [Wikipedia](https://en.wikipedia.org/wiki/Minimax#Maximin), the term "maximin" refers to the strategy of maximizing one's own minimum payoff in non-zero-sum games, while "minimax" is the strategy of minimizing the opponent's maximum payoff in zero-sum games
+	* In zero-sum games, minimizing the opponent's maximum payoff is equivalent to maximizing one's own minimum payoff
+	* This is unfortunately asymmetric: What term would we use if we wanted to minimize our own maximum?
+		* Looking at this symmetrically, it would create a set of strategies (some nonsensical):
+
+<table>
+<tbody>
+	<tr>
+		<td>(Optimizing one's own value)</td>
+		<td>Maximum</td>
+		<td>Minimum</td>
+	</tr>
+	<tr>
+		<td>maximize</td>
+		<td>maximax</td>
+		<td>maximin</td>
+	</tr>
+	<tr>
+		<td>minimize</td>
+		<td>minimax</td>
+		<td>minimin</td>
+	</tr>
+</tbody>
+</table>
+
+----
+
+<table>
+<tbody>
+	<tr>
+		<td>(Optimizing the other player's value)</td>
+		<td>Maximum</td>
+		<td>Minimum</td>
+	</tr>
+	<tr>
+		<td>maximize</td>
+		<td>maxmaxi</td>
+		<td>maxmini</td>
+	</tr>
+	<tr>
+		<td>minimize</td>
+		<td>minmaxi</td>
+		<td>minmini</td>
+	</tr>
+</tbody>
+</table>
+
+(This is *not* the terminology I will use, but I would if I were brave enough)
 
 Things I Would Like To Do But I'm Not Brave Enough
 ---------------------------------------------------

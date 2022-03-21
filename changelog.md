@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-02-03, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-03-21, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -20,6 +20,9 @@ March 2022
 		* [Exercise 3](./nst_solutions.html#Exercise-3_3)
 		* [Exercise 4](./nst_solutions.html#Exercise-4_2)
 * [Solutions to “Reactive Systems”](./rs_solutions.html)
+	* [Chapter 3](./rs_solutions.html#Chapter-3)
+		* [3.4](./rs_solutions.html#34)
+		* [3.7](./rs_solutions.html#37)
 	* [Chapter 6](./rs_solutions.html#Chapter-6)
 		* [6.9](./rs_solutions.html#69)
 * [Rationalist Gods](./rationalist_gods.html)

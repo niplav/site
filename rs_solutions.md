@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-10-14, modified: 2022-02-22, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-10-14, modified: 2022-03-21, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __This page contains some solutions to exercises from the textbook
 “Reactive Systems” by Ingólfsdóttir et al. 2007.__
@@ -237,6 +237,53 @@ transitions to `$Q$` via `$b$`, with `$(P, Q)$` in `$\mathcal{R}$`
 `$Q_3$` transitions to `$Q$` via `$b$`, and `$P_1$` transitions to `$P$`
 via `$b$`, with the same relation as above (and, similarly, also with
 `$c$` and `$Q_2$` instead of `$Q$`).
+
+### 3.4
+
+Assume that `$P \mathcal{R} Q$`. Then we transition via `$a$` (the only
+option), which works for all states `$P$` can transition into, and then
+know that it must also hold that
+
+* We assume that `$P \mathcal{R} Q \equiv a.(b.\mathbf{0}+c.\mathbf{0}) \mathcal{R} a.b.\mathbf{0} + a.c.\mathbf{0}$`
+	* We transition on the left side, which we can only do via `$a$`, with the resulting assumptions
+		* `$b.\mathbf{0}+c.\mathbf{0} \mathcal{R} b.\mathbf{0}$`
+			* We can transition via `$b$`
+				* which results in the relation `$\mathbf{0} \mathcal{R} \mathbf{0}$`, which is clearly true
+			* or via `$c$`, which has no equivalent on the right hand side, so we already encounter a problem, which tells us that this relation is not valid
+		* `$b.\mathbf{0}+c.\mathbf{0} \mathcal{R} c.\mathbf{0}$`
+			* We can transition via `$b$`
+				* which again brings us into trouble, because we can't transition via `$b$` on the right side
+			* Transitioning via `$c$` is fine, since this brings us back to `$\mathbf{0} \mathcal{R} \mathbf{0}$`
+
+We thus know that `$P \not \mathcal{R} Q$`.
+
+I assume this exercise is an attempt at making the student invent the
+game-theoretic approach to checking bisimulation before it is introduced.
+
+### 3.7
+
+> show that the union of an arbitrary family of bisimulations is always a bisimulation.
+
+*– Anna Ingólfsdóttir/Jiří Srba/Kim G. Larsen/Luca Aceto, “Reactive Systems” p. 63, 2007*
+
+Let `$ℜ=\bigcup_i \mathcal{R}_i$` be the union of a family
+`$\{\mathcal{R}\}_i$` of bisimulations (`$i \in \mathbb{N}$`).
+
+For `$ℜ$` not to be a bisimulation, there must exist a
+`$(s_1, s_2) \in ℜ$` and an `$α$` with
+`$s_1 \overset{α}{\rightarrow} s_1'$` so that there is no `$s_2'$` such
+that `$s_2 \overset{α}{\rightarrow} s_2'$` with `$(s_1', s_2') \in ℜ$`.
+
+If such an `$(s_1, s_2)$` exists, then it must have been an element of
+a bisimulation `$\mathcal{R}_k$`. But, by definition, for that `$α$`
+so that `$s_1 \overset{α}{\rightarrow} s_1'$`, `$\mathcal{R}_k$`
+must have contained an element `$(s_1', s_2')$` such that
+`$s_2 \overset{α}{\rightarrow} s_2'$`, since `$\mathcal{R}_k$` is a
+bisimulation. So exactly that `$(s_1', s_2')$` must also be an element of
+`$ℜ$` because `$\mathcal{R}_k \subseteq ℜ$` and elements don't just
+get lost during a union.
+
+Therefore, such a pair `$(s_1, s_2) \in ℜ$` can't exist.
 
 ### 3.9
 
