@@ -11,6 +11,7 @@ Changelog
 March 2022
 -----------
 
+* [Notes](./notes#Building-a-Cuboid)
 * [Notes on Pickup](./notes_on_pickup.html)
 	* [Reductionism on Approach Difficulties](./notes_on_pickup.html#Reductionism-on-Approach-Difficulties)
 * [Pickup Reports](./pickup_reports.html)
@@ -21,6 +22,8 @@ March 2022
 * [Solutions to “Reactive Systems”](./rs_solutions.html)
 	* [Chapter 6](./rs_solutions.html#Chapter-6)
 		* [6.9](./rs_solutions.html#69)
+* [Rationalist Gods](./rationalist_gods.html)
+	* [Nggwal](./rationalist_gods.html#Nggwal)
 
 February 2022
 --------------
