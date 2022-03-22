@@ -29,12 +29,12 @@ If I find time inbetween that, I'm expanding on the following texts:
 	* [Notes on Ethics](./notes_on_ethics.html)
 	* [Notes on Pickup](./notes_on_pickup.html)
 	* [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
-* [Prepare to Leave the Internet](./leave_the_internet.html)
+* [Prepare to Leave the Internet](./leave.html)
 * [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 * [Finesse of Sets of Forecasts](./finesse.html)
 * [Third Variable](./third.html)
-* [Generalizing the Diamond-Square Algorithm to n Dimensions](./generalizing_diamond_square.html)
+* [Generalizing the Diamond-Square Algorithm to n Dimensions](./diamond.html)
 
 I'm also planning a full edit of all texts on the website, but don't
 have a fixed date to get started on that at the moment.

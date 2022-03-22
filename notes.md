@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2022-03-15, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2022-03-22, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1117,7 +1117,7 @@ to be sucking the air through the filters:
 The video shows a piece of paper affixed to the cuboid, when I try to move the paper with a pencil, it gets sucked back to the cuboid.
 </video>
 
-But I haven't checked the energy usage yet, and it's loud enough that I
+I also haven't checked the energy usage yet, and it's loud enough that I
 probably won't be running it while I try to sleep.<!--TODO: get decibel
 meter on phone & check-->
 
@@ -1128,9 +1128,9 @@ My cuboid was a bit pricier than the one by dynomight, but not by much:
 for 2€ (I don't count them since I didn't use them in the end): 130€
 in total.
 
-It took me a bit longer to build the cuboid than the alleged 5 minutes:
-I would estimate that I spent at least 90 minutes one it (plus another
-45 minutes writing this note).
+It took me a quite a while longer to assemble my cuboid than the alleged
+5 minutes: I would estimate that I spent at least 90 minutes one it
+(plus another 45 minutes writing this note).
 
 But, all in all, I'm very happy with
 my little cuboid. It's humming along to some
