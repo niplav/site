@@ -1,13 +1,13 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-02-06, modified: 2022-03-18, language: english, status: notes, importance: 5, confidence: unlikely*
+*author: niplav, created: 2022-02-06, modified: 2022-03-22, language: english, status: notes, importance: 5, confidence: unlikely*
 
 > __The optimization power of attention-grabbing systems available over
 the internet is growing faster than any normal human's ability to defend
 against such attention grabbing, and seems likely to continue to grow. If
 one values ones own time, it therefore seems worthwhile to limit ones
-access to the internet.__
+access to the internet, more so than people usually do.__
 
 Prepare to Leave The Internet
 ==============================
@@ -26,8 +26,9 @@ https://www.wiley.com/en-us/Recommender+System+with+Machine+Learning+and+Artific
 [Internet addiction](https://en.wikipedia.org/wiki/Internet_addiction_disorder)
 https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like?commentId=CB8ieALcHfSSuAYYJ#CB8ieALcHfSSuAYYJ
 https://www.lesswrong.com/posts/qKvn7rxP2mzJbKfcA/persuasion-tools-ai-takeover-without-agi-or-agency
-[Attention span](https://en.wikipedia.org/wiki/Attention_span)
 https://www.lesswrong.com/posts/YicoiQurNBxSp7a65/is-clickbait-destroying-our-general-intelligence
+Digital media usage and mental health
+Internet addiction disorder
 -->
 
 > New religions and mystery cults explode across the planet; much of
@@ -49,7 +50,9 @@ technology appears to be the fastest advancing sector of the economy,
 and is therefore the most potent way of getting people addicted.
 
 If one wants to avoid falling into addictive patterns, then, it seems
-advisable to be very cautious around information technology.
+advisable to be very cautious around information technology, and in
+the very paranoid case, one wants to stay out of the addictive "event
+horizon": the state at which it has become basically impossible to unplug.
 
 ### Two Different Growth Modes
 
@@ -194,6 +197,20 @@ in India)).
 
 #### Information is Not on the Radar of Legislators (For Now)
 
+While there is much ado about
+[privacy](https://en.wikipedia.org/wiki/Internet_privacy),
+for example the [right to be
+forgotten](https://en.wikipedia.org/wiki/Right_to_be_forgotten)
+or the [General Data Protection
+Regulation](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation),
+[humane technology]()<!--TODO: link, but there isn't a wikipedia article
+about this yet--> isn't very much on the radar of legislators yet—a
+[summary](https://en.wikipedia.org/wiki/Digital_media_usage_and_mental_health#Industry_and_government)
+on Wikipedia lists only some minor actions
+by east-Asian countries (again [of their western
+counterparts](https://www.gwern.net/The-Melancholy-of-Subculture-Society))
+and some attempts of large technology companies at self-regulation.
+
 ### The Addictive Event Horizon
 
 Evidence
@@ -218,6 +235,24 @@ For television & children:
 
 Consequences
 -------------
+
+So, dear reader, you might ask what I now want from you. I'm glad you
+asked! (Or at least my model of you very conveniently did so).
+
+If you are reading this, it's likely you have already taken *some*
+measures to prevent you from wasting too much time on the internet or
+internet-connected services. If you haven't, you reading this text this
+far is evidence that you should.
+
+My advice is in its strongest form quite drastic: Leave the internet
+and everyone connected to it behind, acquire a library (be it physical
+or digital) and live in a secluded hut by a remote lake, lest you spend
+the rest of your life glued in front of a screen [fuming
+at](https://slatestarcodex.com/2014/12/17/the-toxoplasma-of-rage/ "The Toxoplasma Of Rage (Scott Alexander, 2014)")
+[how other peoples' opinions can be so
+wrong](http://slatestarcodex.com/2018/10/30/sort-by-controversial/ "Sort By Controversial (Scott Alexander, 2018)"),
+or just mindlessly scrolling while the hours (and days, and weeks…)
+trickle by…
 
 Possible Counterarguments
 --------------------------

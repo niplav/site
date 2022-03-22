@@ -11,7 +11,8 @@ Changelog
 March 2022
 -----------
 
-* [Notes](./notes#Building-a-Cuboid)
+* [Notes](./notes.html)
+	* [Building a Cuboid](./notes.html#Building-a-Cuboid)
 * [Notes on Pickup](./notes_on_pickup.html)
 	* [Reductionism on Approach Difficulties](./notes_on_pickup.html#Reductionism-on-Approach-Difficulties)
 * [Pickup Reports](./pickup_reports.html)

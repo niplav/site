@@ -263,7 +263,7 @@ etc. `$2^{n}+1$`.
 
 	space=create_space(dim, size, minval, maxval, extrfact)
 
-`create_space` is described in detail in [Generalizing the Diamond-Square Algorithm to n Dimensions](./generalizing_diamond_square.html).
+`create_space` is described in detail in [Generalizing the Diamond-Square Algorithm to n Dimensions](./diamond.html).
 
 ### Searching the Space
 

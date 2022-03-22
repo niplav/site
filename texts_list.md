@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-03-21, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-03-22, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,11 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Charlatanism: realms of deception and religious theater (William Buckner, 2019)](https://traditionsofconflict.com/blog/2019/1/4/charlatanism-realms-of-deception-and-religious-theater)
+* [Internet Search Tips (Gwern Branwen, 2022)](https://www.gwern.net/Search)
+* [Book Review: Not Born Yesterday by Hugo Mercier (William Buckner, 2020)](https://traditionsofconflict.com/blog/2020/2/27/book-review-not-born-yesterday)
+* [The Momma's Boy Strategy: Why Bonobo Males Tend Not To Form Coalitions (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/12/18/the-mommas-boy-strategy-why-bonobo-males-tend-not-to-form-coalitions)
+* [SCP-2111 (sirpudding, 2021)](https://scp-wiki.wikidot.com/scp-2111)
 * [Open Questions (Gwern Branwen, 2021)](https://www.gwern.net/Questions)
 * [The Replication Crisis: Flaws in Mainstream Science (Gwern Branwen, 2019)](https://www.gwern.net/Replication)
 * [How Should We Critique Research? (Gwern Branwen, 2019)](https://www.gwern.net/Research-criticism)

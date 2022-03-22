@@ -39,14 +39,14 @@ HTML=index.html \
 	cryonics_outside_us.html \
 	daygame_cost_benefit.html \
 	declaration.html \
+	diamond.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
 	exercise_log.html \
 	finesse.html \
 	flags.html \
-	generalizing_diamond_square.html \
 	language.html \
-	leave_the_internet.html \
+	leave.html \
 	life_advice.html \
 	life_improvements_2030.html \
 	masturbation_and_attractiveness.html \

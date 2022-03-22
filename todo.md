@@ -34,6 +34,8 @@ Site
 	* Prune flagged cards?
 * Add content tables to pages?
 * Add RSS feed (ugh)
+* Add metadata to hosted PDFs/videos
+* Convert twitter links to nitter.hu links
 
 Existing Texts
 --------------
@@ -791,6 +793,11 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Plasma/Blood
 * Nuclear Waste FAQ
 * List of three-letter names for Unix related people (dmr, ken, rsc, there are probably others?)
+* Heuristics for Long-Term Websites
+	* Host images/pdfs/videos/audio files locally (this makes it easier to archive the site via `wget`!)
+	* Use static webpages with minimal javascript, and optimally no external javascript
+	* No CMSs, or SquareSpace, or BlogSpot/WordPress/…
+	* `https://www.gwern.net/Design`
 
 ### Notes
 
@@ -1045,6 +1052,7 @@ eine kontingente verschmelzung von fast-sein und konkretheit"
 	* TheRedQuest
 	* Overcoming Bias
 	* hbdchick
+* A wiki for pickup terminology
 
 Data Sets
 ----------
