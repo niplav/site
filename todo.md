@@ -281,6 +281,17 @@ Texts
 * GPT for STEM data?
 * Is the F-invariance described in Utility Indifference (Armstrong 2010) tiling?
 * Enumerating different ways of collapsing graphs representing inconsistent preferences into consistent preferences
+	* E.g. a>b>c>a must be cut in one place, pretty much indifferent about where to cut?
+	* Or merge DAGs into a path graph
+	* Continuous case: vector field over the probability simplex of options
+	* In the 2-option probability simplex, continuity is violated if at some point the vector field "turns around"
+	* Make consistent by rotating vectors so that the integral over vector strength/volume/degree of rotation is minimal
+	* Nontransitivity is probably maximal curl at some point in the vector field
+	* Also look at:
+		* Graphon
+		* Dense graph
+		* Extremal graph theory
+	* This also feels relevant to Ontological crises/shifts: Is there a canonical way to map from the human preference simplex to the AI preference simplex, if we know the concept equivalences? (A is just 30% B and 70% C, so we can split the simplex into another dimension here…)
 
 ### Pick Up
 

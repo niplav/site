@@ -1048,6 +1048,8 @@ This seems like it could be extended to other postfixes, e.g. with
 the meaning *here, but spatially closer than expected*, or *this much,
 but less than expected*.
 
+<!--TODO: ekde (since) has some local/causal counterparts: how about the others?-->
+
 Building a Cuboid
 ------------------
 

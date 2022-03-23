@@ -35,7 +35,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Controlling a Minefield (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/12/16/)
 * [The Fire Gem (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/12/22/)
 * [The Social Dynamics of Sorcery (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/7/6/the-nature-of-sorcery)
-* [* Banner Ads Considered Harmful (Gwern Branwen, 2020)](https://www.gwern.net/Ads)
+* [Banner Ads Considered Harmful (Gwern Branwen, 2020)](https://www.gwern.net/Ads)
 * [Experiments on a $50 DIY air purifier you can make in 30s (dynomight, 2021)](https://dynomight.net/2020/12/15/some-real-data-on-a-DIY-box-fan-air-purifier/)
 * [Ritual mutilation, human consumption, and contemporary insulation (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/6/19/visceral-insulation)
 * [The Longevity FAQ: Making of (José Luis Ricón, 2020)](https://nintil.com/longevity-making-of)

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-10-14, modified: 2022-03-21, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2021-10-14, modified: 2022-03-22, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __This page contains some solutions to exercises from the textbook
 “Reactive Systems” by Ingólfsdóttir et al. 2007.__
@@ -264,8 +264,6 @@ game-theoretic approach to checking bisimulation before it is introduced.
 
 > show that the union of an arbitrary family of bisimulations is always a bisimulation.
 
-*– Anna Ingólfsdóttir/Jiří Srba/Kim G. Larsen/Luca Aceto, “Reactive Systems” p. 63, 2007*
-
 Let `$ℜ=\bigcup_i \mathcal{R}_i$` be the union of a family
 `$\{\mathcal{R}\}_i$` of bisimulations (`$i \in \mathbb{N}$`).
 
@@ -382,6 +380,54 @@ and `$R \overset{\text{def}}{=}a.a.a.a.(a+b)$`. Then it *could* be the
 case that in a bisimulation game, the attacker has chosen the `$P$`
 path on the left hand side, while the defender has chosen the `$Q$`
 path on the right hand side. But this is not guaranteed.
+
+### 3.14
+
+> Prove that `$\sim$` is preserved by action prefixing, summation and
+relabelling.
+
+Assume that `$P \sim Q$`. Then
+
+#### `$α.P \sim α.Q$` for each action `$α$`
+
+`$α.P$` can make only one transition, that is, `$P.α
+\overset{α}{\rightarrow} P$`. Then there exists a transition `$α$`
+in `$α.Q$` so that the result of the transition is `$\sim$` to `$P$`,
+namely `$α.Q \overset{α}{rightarrow} Q$`, since `$P \sim Q$` by
+definition. Therefore, action prefixing preserves bisimilarity.
+
+#### `$P+R \sim Q+R$` and `$R+P \sim R+Q$` for each process `$R$`
+
+Two different cases:
+
+* `$P$` makes a `$P \overset{ಎ}{\rightarrow} P'$` transition: by definition of `$\sim$` there must be a `$Q \overset{ಎ}{\rightarrow}$` transition so that `$P' \sim Q'$`, if we decide to take the `$Q$` branch of the sum.
+* `$R$` makes a `$R \overset{ಫ}{\rightarrow} R'$` transition: then the right hand side can decide to make the same `$R \overset{ಫ}{\rightarrow} R'$` transition in the `$R$` branch of the decision.
+
+Since both `$\sim$` and `$+$` are symmetric, this is without loss of
+generality.
+
+#### `$P[f] \sim Q[f]$` for each relabelling `$f$`
+
+Let there be a transition `$P[f] \overset{ᰑ‎}{\rightarrow} P'[f]$`.
+Then either the same transition was also possible before
+the replacement (`$P \overset{ᰑ‎}{\rightarrow} P'$`), in which
+case no replacement took place, and the same transition should be
+possible for `$Q$` (`$Q \overset{ᰑ‎}{\rightarrow} Q'$`) because we
+assumed that `$P \mathcal{R} Q$`, or a replacement took place. In that case,
+the replacement would have replaced another variable `$α$` (perhaps
+because we thought that those greek variable names are [boring after a
+while](./mathematics_notation_convention.html#Things-I-Would-Like-To-Do-But-Im-Not-Brave-Enough)),
+so we assume (witout loss of generality) that `$f(α)=ᰑ‎$`.
+
+Then we know that if `$P \mathcal{R} Q$` and `$P
+\overset{α}{\rightarrow}P'$`, then there is also a transition
+`$Q \overset{α}{\rightarrow} Q'$` so that `$P' \mathcal{R} Q'$`.
+Then the transition in the replacement version is
+`$P[f] \overset{f(α)=ᰑ‎}{\rightarrow} P'[f]$`, and the
+previous `$Q \overset{α}{\rightarrow} Q'$` becomes
+`$Q[f] \overset{f(α)=ᰑ‎}{\rightarrow} Q'[f]$`, so we know that
+`$P[f] \mathcal{R} Q[f]$` has the equivalent `$P'[f] \mathcal{R} Q'[f]$`
+for the `$ᰑ‎$` transition.
 
 ### 3.30
 
