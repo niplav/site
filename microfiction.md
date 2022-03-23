@@ -173,10 +173,10 @@ Dialogues
 
 ----
 
-> “We are trying to accomplish an extremely difficult thing that requires
-everything to run as smoothly and efficiently as possible, but luckily
-our status incentives are so optiml that the high status men getting to
-sleep with a lot women is just the best!”
+> “We are trying to accomplish an extremely difficult thing that
+requires everything to run as smoothly and efficiently as possible,
+but luckily our status incentives are so optimal that the high status
+men getting to sleep with a lot women is just the best!”
 
 ----
 

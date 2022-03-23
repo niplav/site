@@ -121,8 +121,6 @@ Existing Texts
 	* Expand or axe Fixed Costs & Variable Costs section
 	* Create & explain Guesstimate Models
 	* Upload data to Appendix C
-* Toy AI Takeoff Model
-	* Re-run model where I accidentally took 255 as size
 
 Texts
 -----
@@ -580,6 +578,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* How many proton decays should we expect to have happened in the universe so far?
 	* Proton decay follows a geometric distribution
 	* When will the last proton decay?
+* Test computationally whether causal networks have more correlations or causations, project from [here](https://www.gwern.net/Causality#what-a-tangled-net-we-weave-when-first-we-practice-to-believe)
 
 ### Ideas
 
@@ -1354,7 +1353,6 @@ Programming
 	* Top cycle, Banks set, Uncovered set
 	* Majority voting, plurality, Borda score, Kemeny rule
 	* Methods for checking manipulability, single-peakedness
-* Implement the suggestion from [Environmental Goals](https://arbital.com/p/environmental_goals/)
 * interweave
 	* A utility that takes a list of files and "interweaves" their lines (or by some other separator)
 	* E.g. "a\nb\n" and "1\n2\n3\n4\n" will become "a\n1\n2\nb\n3\n4\n"
@@ -1362,6 +1360,15 @@ Programming
 	* First argument: the function, second argument: the given values, third argument: the fallback values.
 	* `shapleyval::{f::x;g::y;d::z;{s::!#g;s::ps(&~s=x)}'!#y}`
 	* `shapleyval({(x@2)+(*x)^x@1};[2 4 4];[1 1 0])`
+* A distributed issue tracking system
+	* See [Wellons 2009](https://nullprogram.com/blog/2009/02/14/)
+	* Why didn't this happen in the first place?
+	*	Probably just because centralized systems outperform
+		decentralized ones, even when the underlying structure
+		is decentralized, as in git/GitHub, and Github then
+		focused on the issue tracking/continuous builds component
+		* Github already had a [commoditized complement](https://www.gwern.net/Complement)
+	* Check out [ditz](http://ditz.rubyforge.org/)/cil/ticgit and others (bug from the suckless page?)
 
 ### Klong Libraries
 
@@ -1515,6 +1522,7 @@ Wikipedia Articles
 	* Same for Monotonicity (mechanism design)
 * Clean up second paragraph in Colored people's time
 * Add The Game by Strauss to the Game (disambiguation) page
+* What the fuck is going on with the The Gods Themselves page?
 
 Metaculus Questions
 -------------------

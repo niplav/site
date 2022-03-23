@@ -106,7 +106,7 @@ hexadecimal is used more frequently than the ASCII value.
 
 `a.a.a.a` evaluates to the table a the first `a` is a pointer to the
 table `a`, the other `a`s are all keys the expression can be rewritten as
-`a["a"]["a"]["a"]``
+`a["a"]["a"]["a"]`
 
 	a.a.a.a=3
 

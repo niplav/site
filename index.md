@@ -122,11 +122,12 @@ Archives
 
 I try to read blogs completely, mostly [starting at the
 beginning](https://entirelyuseless.com/2018/06/12/start-at-the-beginning/ "Start at the Beginning")
-because most blogs are not organized by topic (tagging systems don't
-count, don't be ridiculous). But blog archives are usually hard to
-navigate and it is often difficult to keep track of my current position
-in the blog (especially with yearly/monthly WordPress archives). To
-salvage this, I scrape blog archives and arrange them chronologically.
+because most blogs are not organized by topic (tagging/categorization
+systems don't count, don't be ridiculous). But blog archives are
+usually hard to navigate and it is often difficult to keep track of my
+current position in the blog (especially with yearly/monthly WordPress
+archives). To salvage this, I scrape blog archives and arrange them
+chronologically.
 
 * [Bit-Player Posts Chronological Index](./bp_chrono.html)
 * [Overcoming Bias Posts Chronological Index](./ob_chrono.html)

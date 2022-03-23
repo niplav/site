@@ -1034,3 +1034,6 @@
 2022-03-22T21:36:05.000000Z	use known inconsistencies of human preferences as value-learning trip-wires: if the value learning algorithm hasn't learned them yet, it's operating at the wrong level of abstraction.
 2022-03-22T22:21:37.000000Z	this firefox isn't just leaking memory, it's gushing as if someone had performed shechita on it
 2022-03-23T10:50:51.000000Z	guy who takes mdma at a techno rave and says “so this is what it's all about”, but not just about raving culture, but, like, life in general
+2022-03-23T20:37:55.000000Z	/r/sneerclub believes that everybody in the bay is attending ceremonies where peter thiel and moldbug sacrifice black children on the altar of acausal capitalism, of course, they are right.
+2022-03-23T21:16:54.000000Z	not the best move on the side of the red cross to call me and tell me it's because of my blood donation — i nearly had a panic attack for the 10 seconds that they didn't tell me it was all fine (why would you call me then‽ and why speak as if you're going to tell me i'll be dead in a month‽)
+2022-03-23T23:01:34.000000Z	the status incentives might not be interested in you, but you are surely interested in the status incentives

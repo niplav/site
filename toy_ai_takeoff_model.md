@@ -657,12 +657,9 @@ Appendix A: Images of All Runs
 
 *A run in `$\mathbb{F}_{129}^{3}$`, with one discontinuity*
 
-![Run in 255^3](./img/toy_ai_takeoff_model/3_255_0.5_1.001.png "Run in 255^3, two discontinuities.")
+![Run in 257^3](./img/toy_ai_takeoff_model/3_257_0.5_1.001.png "Run in 257^3, two discontinuities.")
 
-*A run in `$\mathbb{F}_{255}^{3}$`, with two discontinuities*
-
-This run is probably invalid, because 255 is not a number representable by
-`$2^{n}+1$`.
+*A run in `$\mathbb{F}_{257}^{3}$`, with two discontinuities*
 
 ![Two-dimensional run](./img/toy_ai_takeoff_model/4_65_0.5_1.001.png "Black graph: staying at -1 for ~500 timesteps, then making a very small jump, and growing very slowly afterwards. Another jump at ~1400, making existing growth much faster. Blue graph: a straight horizontal line, making a small jump at ~500, and a much bigger one at ~1400, but staying horizontal.")
 

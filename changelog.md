@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-03-22, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-03-23, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -25,6 +25,7 @@ March 2022
 		* [3.4](./rs_solutions.html#34)
 		* [3.7](./rs_solutions.html#37)
 		* [3.14](./rs_solutions.html#314)
+		* [3.17](./rs_solutions.html#317)
 	* [Chapter 6](./rs_solutions.html#Chapter-6)
 		* [6.9](./rs_solutions.html#69)
 * [Rationalist Gods](./rationalist_gods.html)
