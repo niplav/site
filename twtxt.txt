@@ -1029,3 +1029,8 @@
 2022-03-20T22:26:28.000000Z	pump and dump? no, more like cuddle and befuddle
 2022-03-21T15:31:52.000000Z	All Cuboids Are Bwwwwwwwwwwwww
 2022-03-21T15:44:42.000000Z	annoyance: terminology of "maximin"/"minimax" has some deep symmetry breaking
+2022-03-22T21:00:40.000000Z	a vector field is just a kind of graph, mathematicians are silly for inventing unnecessary stuff
+2022-03-22T21:14:13.000000Z	i wonder if miri is looking out for people reinventing parts of their hidden agendas, as a kind of validation set
+2022-03-22T21:36:05.000000Z	use known inconsistencies of human preferences as value-learning trip-wires: if the value learning algorithm hasn't learned them yet, it's operating at the wrong level of abstraction.
+2022-03-22T22:21:37.000000Z	this firefox isn't just leaking memory, it's gushing as if someone had performed shechita on it
+2022-03-23T10:50:51.000000Z	guy who takes mdma at a techno rave and says “so this is what it's all about”, but not just about raving culture, but, like, life in general
