@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-03-22, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-03-23, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,15 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [LZMA Tarballs Are Coming (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/03/16/)
+* [Distributed Issue Tracking (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/02/14/)
+* [Git is Better (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/02/12/)
+* [Death Note: L, Anonymity & Eluding Entropy (Gwern Branwen, 2017)](https://www.gwern.net/Death-Note-Anonymity)
+* [Creating Simple Dice with GIMP (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/02/10/)
+* [Vimperator Firefox Add-on (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/04/03/)
+* [Readline Wrap (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/02/20/)
+* [GNU Screen (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/03/05/)
+* [Does Male Competition Help Explain Human Sex Differences in Body Size? (William Buckner, 2020)](https://traditionsofconflict.com/blog/2020/5/2/does-male-competition-help-explain-human-sex-differences-in-body-size)
 * [Charlatanism: realms of deception and religious theater (William Buckner, 2019)](https://traditionsofconflict.com/blog/2019/1/4/charlatanism-realms-of-deception-and-religious-theater)
 * [Internet Search Tips (Gwern Branwen, 2022)](https://www.gwern.net/Search)
 * [Book Review: Not Born Yesterday by Hugo Mercier (William Buckner, 2020)](https://traditionsofconflict.com/blog/2020/2/27/book-review-not-born-yesterday)
