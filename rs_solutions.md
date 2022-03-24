@@ -788,12 +788,48 @@ were to not eat a biscuit after drinking coffee.
 * `$⟦[a][a][b] \textit{f}\!\textit{f}⟧=[\cdot a \cdot][\cdot a \cdot][\cdot b \cdot] \emptyset=[\cdot a \cdot][\cdot a \cdot]\{s, s_2, s_3, s_4\}=[\cdot a \cdot]\{s_2, s_3, s_4\}=\{s_2\}$`
 * `$⟦[a][a][b] \textit{f}\!\textit{f}⟧=[\cdot a \cdot] \textbf{Proc}=\{s, s_1, s_2, s_3, s_4\}$`
 
-<!--
-TODO
+### 5.4
+
+<div>
+	$$⟦[\text{tick}](\langle \text{tick} \rangle \textit{t}\!\textit{t} \land [\text{tock}] \textit{f}\!\textit{f})⟧=\\
+	[\cdot \text{tick} \cdot ](⟦\langle \text{tick} \rangle \textit{t}\!\textit{t} ⟧ \cap ⟦[ \text{tock} ] \textit{f}\!\textit{f} ⟧)=\\
+	[\cdot \text{tick} \cdot ]((\langle \cdot \text{tick} \cdot \rangle \mathbf{Proc}) \cap ([ \cdot \text{tock} \cdot ] \emptyset))$$
+</div>
+
+Since we know that `$\mathbf{Proc}=\{\text{tick}.\text{Clock}\}$`,
+`$(\langle \cdot \text{tick} \cdot \rangle \mathbf{Proc})=\{\text{Clock}\}=\{\text{tick}.\text{Clock}\}$`,
+and also, since there are no `$\text{tock}$`
+transitions, that
+`$[ \cdot \text{tock} \cdot ] \emptyset=\mathbf{Proc}=\{\text{tick}.\text{Clock}\}$`.
+
+Finally,
+`$[\cdot \text{tick} \cdot ] \{\text{tick}.\text{Clock}\}=\{\text{Clock}\}=\mathbf{Proc}$`.
+
+Therefore, the process satisfies the formula.
+
+-----
+
+Proof that for any
+[`$n \in ℕ$`](./mathematics_notation_convention.html#Basics),
+`$\text{Clock}$` satisfies
+`$\langle \text{tick} \rangle^n \textit{t}\!\textit{t}$`.
+
+Base case: For `$n=0$`, `$\text{Clock}$` satisfies
+`$\textit{t}\!\textit{t}$`.
+
+Assume `$\text{Clock} \models \langle \text{tick} \rangle^n \textit{t}\!\textit{t}$`.
+
+Then
+`$\text{Clock}=\text{tick}.\text{Clock} \models \langle \text{tick} \rangle \langle \text{tick} \rangle^n \textit{t}\!\textit{t}=\langle \text{tick} \rangle^{n+1} \textit{t}\!\textit{t}$`.
+
 ### 5.5
 
-It's MANDATORY
--->
+`$\langle a \rangle (\langle b \rangle \textit{t}\!\textit{t} \land \langle c \rangle \textit{f}\!\textit{f})$`
+is satisfied by `$a.b.\mathbf{0}+a.c.\mathbf{0}$` but not
+`$a.(b.\mathbf{0}+c.\mathbf{0})$`.
+
+`$[a]\langle b \rangle(\langle c \rangle \textit{t}\!\textit{t} \land \langle d \rangle \textit{f}\!\textit{f})$`
+is satisfied by `$a.(b.c.\mathbf{0}+b.d.\mathbf{0})$` but not `$a.b.c.\mathbf{0}+a.b.d.\mathbf{0}$`.
 
 Chapter 6
 ----------
