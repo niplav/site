@@ -1098,24 +1098,51 @@ Approximate ratio per:
 Sanitizing the sessions file:
 
 Converting f\*\*\*ed up Google sheets date format (why does __nobody__
-use the perfect ISO-8601 when it's right there‽‽), then removing
+use the perfect ISO-8601 when it's right there‽‽‽), then removing
 stray spaces after semicolons, then removing the `^M` from the end of
 each line, using structural regular expressions<!--TODO: link-->:
 
 	,x/([0-9]+)\/([0-9]+)\/([0-9]+) /c/\3-\1-\2T/
 	,x/; /c/;/
-	x/.$/c//
+	,x/.$/c//
+	,x/(T[0-9]+:[0-9]+),/c/\1:00,/
+	,x/-([0-9])-/c/-0\1-/
 
 and some other minor fixes.
 
 Formatting the approaches file:
 
-	x/.$/d
+	,x/.$/d
 	,x/ ,/c/,/
 
 Find incorrectly written locations:
 
-	awk -F, '{ print($2) }' <daygame_stats_approaches.csv | sort | uniq
+	$ awk -F, '{ print($2) }' <daygame_stats_approaches.csv | sort | uniq
 
 and manually correct them (this is useful for the other fields as well,
 just to check consistency).
+
+Anonymizing locations and the names of girls:
+
+	$ awk -F,  'BEGIN { OFS="," }
+	{
+		if(loc[$2]=="" && $2!="Location")
+		{
+			loc[$2]=""10*rand();
+			gsub(/,/, "", loc[$2]);
+		}
+		if(name[$8]=="" && $8!="Name")
+		{
+			name[$8]=""10*rand();
+			gsub(/,/, "", name[$8])
+		}
+		if($2!="Location") { $2=loc[$2]; }
+		if($8!="Name") { $8=name[$8]; }
+		print($0);
+	}' <daygame_stats_approaches.csv >daygame_stats_approaches_anon.csv
+	$ mv daygame_stats_approaches.csv daygame_stats_approaches_deanon.csv
+	$ mv daygame_stats_approaches_anon.csv daygame_stats_approaches.csv
+
+The approaches file can be found
+[here](./data/daygame_stats_approaches.csv), the sesions file can be found
+[here](./data/daygame_stats_sessions.csv).
