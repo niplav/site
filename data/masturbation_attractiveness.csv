@@ -1,4 +1,1 @@
-#date/time (ISO-8601)
-#during/after abstinence from masturbation∈{0,1}
-#gender∈{m,f, o}
-#progress of approach∈{1 (ignored), 2 (stopped), 3 (name), 4 (rejection), 5 (flake), 6 (date)}
+#date/time (ISO-8601),during/after abstinence from masturbation∈{0,1},gender∈{m,f, o},progress of approach∈{1 (ignored), 2 (stopped), 3 (name), 4 (rejection), 5 (flake), 6 (date)}

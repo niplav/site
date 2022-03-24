@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2022-01-16, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2020-10-07, modified: 2022-03-24, language: english, status: notes, importance: 3, confidence: log*
 
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
@@ -557,3 +557,39 @@ __4.5/10__
 [/u/Awarenesss](https://old.reddit.com/u/Awareness)
 has published the results of their study
 [here](https://210ethan.github.io/research/face.html "Strange-Face Illusion")
+
+Possible Erectile Dysfunction from an LSD Trip
+-----------------------------------------------
+
+[Chapin 2021]()<!--TODO: link--> reports having cured his
+post-[COVID-19](https://https://en.wikipedia.org/wiki/COVID-19)
+[anosmia](https://en.wikipedia.org/wiki/Anosmia) by taking LSD.
+
+I believe I have encountered a similarly strong reaction
+to taking LSD: I currently put ~20% on my second LSD
+trip causing more than half of my current [erectile
+dysfunction](https://en.wikipedia.org/wiki/Erectile_dysfunction)
+(which consists of a mix of psychological and physiological issues,
+occurring both during masturbation and attempted sex, but not always
+and to varying degrees, and beware: I don't have a formal diagnosis yet).
+
+The potential causal pathways from the LSD trip to erectile dysfunction
+are hard to convey to third parties, and quite speculative. I attribute a
+strong [body load](https://en.wikipedia.org/wiki/Body_load), especially
+in the genital area, together with a general feeling of discomfort and
+feeling of "wanting to get somewhere but not knowing where"-ness, as well
+as solidifying a psychological unease about sexuality in patterns of
+tension in the genital area to causing the symptoms. I am very tempted
+to also put the word "trauma" somewhere in the previous sentence. These
+experiences reoccurred on my 3rd and 4th trip, although less strongly
+(I continued taking LSD because I initially believed the results to be
+largely positive).
+
+However, inferring causality [is
+hard](https://www.gwern.net/Causality), and humans are prone to
+[self-deception](https://en.wikipedia.org/wik/Self-deception) and
+[confabulation](https://en.wikipedia.org/wiki/Confabulation), so adjust
+accordingly.
+
+Even though I enjoyed many parts of my LSD trips, I would advise my past
+self against repeating them.
