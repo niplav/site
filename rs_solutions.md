@@ -393,7 +393,7 @@ Assume that `$P \sim Q$`. Then
 `$α.P$` can make only one transition, that is, `$P.α
 \overset{α}{\rightarrow} P$`. Then there exists a transition `$α$`
 in `$α.Q$` so that the result of the transition is `$\sim$` to `$P$`,
-namely `$α.Q \overset{α}{rightarrow} Q$`, since `$P \sim Q$` by
+namely `$α.Q \overset{α}{\rightarrow} Q$`, since `$P \sim Q$` by
 definition. Therefore, action prefixing preserves bisimilarity.
 
 #### `$P+R \sim Q+R$` and `$R+P \sim R+Q$` for each process `$R$`
@@ -814,6 +814,110 @@ That would be `$\{p_2, p_3\}$`.
 	([ \cdot b \cdot ] \emptyset) \cap ([ \cdot a \cdot ] \{p_2\})=\\
 	\{p_2, p_3\} \cap \{p_1\}=\\
 	\emptyset$$
+</div>
+
+### 6.5
+
+Base case `$F=\textit{t}\!\textit{t}$`: If `$S_1 \subseteq S_2$`, then `$\mathcal{O}_{\textit{t}\!\textit{t}}(S_1)=\mathbf{Proc} \subseteq \mathbf{Proc}=\mathcal{O}_{\textit{t}\!\textit{t}}(S_2)$`
+
+Base case `$F=\textit{f}\!\textit{f}$`: If `$S_1 \subseteq S_2$`, then `$\mathcal{O}_{\textit{f}\!\textit{f}}(S_1)=\emptyset \subseteq \emptyset=\mathcal{O}_{\textit{f}\!\textit{f}}(S_2)$`
+
+Base case `$F=X$`: If `$S_1 \subseteq S_2$`, then `$\mathcal{O}_{X}(S_1)=S_1 \subseteq S_2=\mathcal{O}_{X}(S_2)$`
+
+Assume that for `$F$`, if `$S_1 \subseteq S_2$`, then
+`$\mathcal{O}_F(S_1) \subseteq \mathcal{O}_F(S_2)$`.
+
+Case `$\langle a \rangle F$`: If `$S_1 \subseteq S_2$`, then
+
+<div>
+	$$\mathcal{O}_{\langle a \rangle F}(S_1)=\\
+	\langle \cdot a \cdot \rangle \mathcal{O}_{F}(S_1)=\\
+	\{p \in \mathbf{Proc} | p \overset{a}{\rightarrow} p' \text{ and } p'\in S_1 \text{ for some } p'\}$$
+</div>
+
+Then we can argue: If `$S_1 \subseteq S_2$`, then every `$p' \in S_1$`
+that can be reached via `$a$` from `$p$` can also be reached in `$S_2$`,
+and there might be some `$p^* \in S_2 \backslash S_1$` so that
+there are some `$p^+$` that can only reach those `$p^*$` via `$a$`,
+but no `$p' \in S_1$` exists so that `$p^+ \overset{a}{\rightarrow} p'$`.
+
+So
+
+<div>
+	$$\{p \in \mathbf{Proc} | p \overset{a}{\rightarrow} p' \text{ and } p'\in S_1 \text{ for some } p'\} \subseteq \\
+	\{p \in \mathbf{Proc} | p \overset{a}{\rightarrow} p' \text{ and } p'\in S_2 \text{ for some } p'\}=\\
+	\langle \cdot a \cdot \rangle \mathcal{O}_{F}(S_2)=\\
+	\mathcal{O}_{\langle a \rangle F}(S_2)$$
+</div>
+
+We can argue very similarly in the case `$[a]F$`: If `$S_1 \subseteq S_2$`, then
+
+<div>
+	$$\mathcal{O}_{[ a ] F}(S_1)=\\
+	[ \cdot a \cdot ] \mathcal{O}_{F}(S_1)=\\
+	\{p \in \mathbf{Proc} | p \overset{a}{\rightarrow} p' \text{ implies } p'\in S_1 \text{ for each } p'\}$$
+</div>
+
+Assume there is a `$p \in [ \cdot a \cdot ] \mathcal{O}_{F}(S_1)$` and
+`$p \not \in [ \cdot a \cdot ] \mathcal{O}_{F}(S_2)$`. Then either
+`$p \overset{a}{\not \rightarrow}$`, in which case it must be that
+`$p \in [ \cdot a \cdot ] \mathcal{O}_{F}(S_2)$` as well (since that
+would mean that `$S_1=\mathbf{Proc} \subseteq S_2$`), or there is some
+`$p'$` so that `$p' \not \in S_2$` but `$p' \in S_1$` (since that would
+violate the requirement that all `$a$`-descendants of `$p$` must be in
+the set following the `$[\cdot \cdot]$` operator).
+
+However, this would violate the assumption that `$S_1 \subseteq S_2$`.
+
+So
+
+<div>
+	$$\{p \in \mathbf{Proc} | p \overset{a}{\rightarrow} p' \text{ implies } p'\in S_1 \text{ for each } p'\} \subseteq \\
+	\{p \in \mathbf{Proc} | p \overset{a}{\rightarrow} p' \text{ implies } p'\in S_2 \text{ for each } p'\}=\\
+	[ \cdot a \cdot ] \mathcal{O}_{F}(S_2)=\\
+	\mathcal{O}_{[ a ] F}(S_2)$$
+</div>
+
+Case `$F=F_1 \land F_2$`:
+
+<div>
+	$$\mathcal{O}_{F_1 \land F_2}(S_1)= \\
+	\mathcal{O}_{F_1}(S_1) \cap \mathcal{O}_{F_2}(S_1) \subseteq (\text{ adding elements to an intersection can only make it bigger})\\
+	\mathcal{O}_{F_1}(S_2) \cap \mathcal{O}_{F_2}(S_1) \subseteq (\text{ same here})\\
+	\mathcal{O}_{F_1}(S_2) \cap \mathcal{O}_{F_2}(S_2)= \\
+	\mathcal{O}_{F_1 \land F_2}(S_2)
+	$$
+</div>
+
+Case `$F=F_1 \lor F_2$`:
+
+<div>
+	$$\mathcal{O}_{F_1 \lor F_2}(S_1)= \\
+	\mathcal{O}_{F_1}(S_1) \cup \mathcal{O}_{F_2}(S_1) \subseteq (\text{ adding elements to a union can only make it bigger})\\
+	\mathcal{O}_{F_1}(S_2) \cup \mathcal{O}_{F_2}(S_1) \subseteq (\text{ same here})\\
+	\mathcal{O}_{F_1}(S_2) \cup \mathcal{O}_{F_2}(S_2)= \\
+	\mathcal{O}_{F_1 \lor F_2}(S_2)
+	$$
+</div>
+
+----
+
+How might we add negation to our logic?
+
+We could define
+`$\mathcal{O}_{\lnot F}(S)=\mathbf{Proc} \backslash \mathcal{O}_{F}(S)$`.
+
+However, this would violate monotonicity: If we define `$S_1=\emptyset \subseteq \mathbf{Proc}=S_2$` and `$F=X$`, then
+
+<div>
+	$$\mathcal{O}_{\lnot X}(\emptyset)=\\
+	\mathbf{Proc} \backslash \mathcal{O}_{X}(\emptyset)=\\
+	\mathbf{Proc} \backslash \emptyset=\\
+	\mathbf{Proc} \not \subseteq \\
+	\emptyset=\\
+	\mathbf{Proc} \backslash \mathbf{Proc}=\\
+	\mathbf{Proc} \backslash \mathcal{O}_{X}(\mathbf{Proc})=\\
+	\mathcal{O}_{\lnot X}(\mathbf{Proc})$$
 </div>
 
 ### 6.7

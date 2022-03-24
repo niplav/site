@@ -466,6 +466,8 @@ accurately price in the arrival date of LEV.
 
 *– [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
 
+<!--TODO: image that shows that these have been fairly consistent over time-->
+
 I assume that the person considering signing up lives outside of the
 U.S (but not in China), since a lot more people live outside the U.S
 than inside of it. I also assume that the person wants to sign up for
@@ -766,7 +768,7 @@ being that option:
 * If whole-brain emulation is wide-spread, and copying of whole-brain emulations is easy:
 	* Competition among whole-brain emulations is likely fierce, and labor by emulations would be as cheap as slave labour (so there is no particular reason to enslave emulations)
 	* The average emulation is likely very competent and elite, and a much better worker than the average college-educated persoe ([Hanson 2016 pp. 161-163](https://ageofem.com "The Age of Em") estimates that most ems are going to be copies of fewer than a thousand or so original humans, each most likely again selected from several thousand individual childhoods to select the most capable educational lineage)
-* If whole-brain emulation is not wide-spread, then the more the more more-obscure whole-brain emulation is, the more unlikely it is that cryonics and whole-brain emulation will "come into contact", since cryonics is also obscure and the number of preserved patients is tiny (~1500)
+* If whole-brain emulation is not wide-spread, then the more the more more-obscure whole-brain emulation is, the more unlikely it is that cryonics and whole-brain emulation will "come into contact", since cryonics is also obscure and the number of preserved patients is tiny (~1500)<!--TODO: this number is incorrect, it's much less than that-->
 	* It seems unlikely that whole-brain emulation will stay restricted to a niche, since it will likely require large amounts of computational power and high-tech scanning facilities which are only possible with large amounts of capital
 	* A factor working against this is that whole-brain emulation and cryonics are discussed within in the same subculture
 * Uploading a vitrified brain seems to be at least as difficult as scanning a freshly deceased brain or a living brain, and possibly much more difficult, since one would need to repair structural damage done by outdated cryopreservation methods (why not vitrify a recently deanimated person with the newest cryogenic technology, and then scan & upload them, instead of trying to fix old somewhat broken brains?), so it would probably not be more economically viable

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-03-20, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-03-24, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -885,13 +885,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* Chanting?
 		* Visualization?
 		* Yogic stuff? (Mudra)
-* Taking LSD might have caused me erectile dysfunction
-	* 30% sure that one LSD trip caused ≥50% of my erectile dysfunction
 * Lessons in Instrumental Rationality from Approaching 360 Women in the Street
-* Building a [Cuboid](https://dynomight.net/better-DIY-air-purifier.html)
-	* Building time: 1h+
-	* Cost 100€+ (find exact number)
-	* Images
 
 ### Misc
 

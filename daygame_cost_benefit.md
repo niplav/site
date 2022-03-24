@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2020-08-04, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2022-03-24, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes, how much? I first present a simple
 > point-estimate cost-benefit value estimation written in Klong and find
@@ -1094,3 +1094,28 @@ Approximate ratio per:
 1:50 for 1000-2000
 1:30 for everything afterwards
 -->
+
+Sanitizing the sessions file:
+
+Converting f\*\*\*ed up Google sheets date format (why does __nobody__
+use the perfect ISO-8601 when it's right there‽‽), then removing
+stray spaces after semicolons, then removing the `^M` from the end of
+each line, using structural regular expressions<!--TODO: link-->:
+
+	,x/([0-9]+)\/([0-9]+)\/([0-9]+) /c/\3-\1-\2T/
+	,x/; /c/;/
+	x/.$/c//
+
+and some other minor fixes.
+
+Formatting the approaches file:
+
+	x/.$/d
+	,x/ ,/c/,/
+
+Find incorrectly written locations:
+
+	awk -F, '{ print($2) }' <daygame_stats_approaches.csv | sort | uniq
+
+and manually correct them (this is useful for the other fields as well,
+just to check consistency).

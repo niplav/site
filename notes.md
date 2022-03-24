@@ -1119,9 +1119,14 @@ to be sucking the air through the filters:
 The video shows a piece of paper affixed to the cuboid, when I try to move the paper with a pencil, it gets sucked back to the cuboid.
 </video>
 
-I also haven't checked the energy usage yet, and it's loud enough that I
-probably won't be running it while I try to sleep.<!--TODO: get decibel
-meter on phone & check-->
+I also haven't checked the energy usage yet.
+
+My cuboid is loud enough that I probably won't be running it while I
+try to sleep: With a background noise of ~18dB, the cuboid raises that
+to ~40dB at 1m horizontal and 0m vertical distance (measured using [Sound
+Meter](https://play.google.com/store/apps/details?id=com.gamebasic.decibel "no affiliation")):
+
+![A line-chart, with the x-axis from 1 to 30 (secconds), and the y-axis being 0 to 100 (dB). The chart is barely under 20 for x between 0 and 5 seconds, then for two seconds there are two spikes, after which the line rises to 40dB, where it stays until x is 22. Then, there is a short spike, after which the curve falls geometrically, until it reaches ~20dB at second 25, where it stays until second 30.](./img/cuboid/decibel.jpg "A line-chart, with the x-axis from 1 to 30 (secconds), and the y-axis being 0 to 100 (dB). The chart is barely under 20 for x between 0 and 5 seconds, then for two seconds there are two spikes, after which the line rises to 40dB, where it stays until x is 22. Then, there is a short spike, after which the curve falls geometrically, until it reaches ~20dB at second 25, where it stays until second 30.")
 
 ### Price & Time Cost
 
