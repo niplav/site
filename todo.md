@@ -793,6 +793,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Extremely Long-Lived Institutions
 	* Easterlin Paradox
 	* Brain Stimulation as Meditation Enhancement
+	* Rotwelsch
 * Elon Musk Forecast Correction Function
 	* Code: `1.8239233 * (forecasted-forecast_made) + 48.0502205` (days)
 	* [Original](https://web.archive.org/web/20210302224031/https://anthony.boyles.cc/Essays/portfolio/ElonMuskForecastCorrectionFunction.html)
@@ -808,6 +809,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Use static webpages with minimal javascript, and optimally no external javascript
 	* No CMSs, or SquareSpace, or BlogSpot/WordPress/…
 	* `https://www.gwern.net/Design`
+	* No dynamically loading images for f\*cks sake
 
 ### Notes
 
@@ -1502,6 +1504,9 @@ Wikipedia Articles
 * Myerson's Lemma
 * Bulow-Klemperer Theorem
 * Prophet Inequality
+* Population Ethics pages
+	* Sadistic conclusion
+	* Critical-threshold approaches
 
 ### Improve
 

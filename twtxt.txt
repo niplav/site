@@ -1041,3 +1041,7 @@
 2022-03-24T11:09:51.000000Z	one goal of my site is to maximize the number of intelligent responses I get
 2022-03-24T14:56:13.000000Z	Bach was actually French. Checkmate, Teutons
 2022-03-24T15:07:48.000000Z	also beethoven was Austrian. sorry, I don't make the rules
+2022-03-24T18:00:31.000000Z	male evopsych researchers post your laycounts
+2022-03-24T18:55:58.000000Z	decision theory is applicable when nobody else in the environment is an agent relative to you, game theory is applicable when some things are as agent-like as you, and despair can be used when you are very un-agenty compared to everything else in the environment
+2022-03-24T21:43:36.000000Z	i notice my confusion: i would have expected many more and larger NN models by now, trained on larger amounts of data and displaying significant scaling. where are they? are orgs hiding them?
+2022-03-24T22:23:38.000000Z	why, of course extremal graph theory is, ahem, extremely relevant to ethics! who would have argued otherwise?

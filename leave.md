@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-02-06, modified: 2022-03-22, language: english, status: notes, importance: 5, confidence: unlikely*
+*author: niplav, created: 2022-02-06, modified: 2022-03-22, language: english, status: notes, importance: 6, confidence: unlikely*
 
 > __The optimization power of attention-grabbing systems available over
 the internet is growing faster than any normal human's ability to defend

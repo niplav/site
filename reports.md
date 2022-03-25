@@ -561,7 +561,9 @@ has published the results of their study
 Possible Erectile Dysfunction from an LSD Trip
 -----------------------------------------------
 
-[Chapin 2021]()<!--TODO: link--> reports having cured his
+[Chapin
+2021](https://sashachapin.substack.com/p/covid-19-took-my-sense-of-smell-then "COVID-19 Took My Sense of Smell, then LSD Brought it Back")
+reports having cured his
 post-[COVID-19](https://https://en.wikipedia.org/wiki/COVID-19)
 [anosmia](https://en.wikipedia.org/wiki/Anosmia) by taking LSD.
 
