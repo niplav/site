@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2022-02-23, language: english, status: maintenance, importance: 6, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2022-02-23, language: english, status: maintenance, importance: 7, confidence: remote*
 
 > __Is cryonics worth it, and if yes, should one
 > [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)

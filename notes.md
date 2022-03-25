@@ -1119,6 +1119,8 @@ to be sucking the air through the filters:
 The video shows a piece of paper affixed to the cuboid, when I try to move the paper with a pencil, it gets sucked back to the cuboid.
 </video>
 
+<!--TODO: add tooltip for video-->
+
 I also haven't checked the energy usage yet.
 
 My cuboid is loud enough that I probably won't be running it while I

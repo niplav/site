@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2022-03-18, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2022-03-24, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -34,6 +34,7 @@ If I find time inbetween that, I'm expanding on the following texts:
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 * [Finesse of Sets of Forecasts](./finesse.html)
 * [Third Variable](./third.html)
+* [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 * [Generalizing the Diamond-Square Algorithm to n Dimensions](./diamond.html)
 
 I'm also planning a full edit of all texts on the website, but don't
@@ -58,5 +59,9 @@ Currently, I am actively reading the following books:
 * Naïve Set Theory (Paul R. Halmos, 1960)
 * Population Genetics (John H. Gillespie, 2004)
 * Reactive Systems (Anna Ingólfsdóttir/Jiří Srba/Kim G. Larsen/Luca Aceto, 2007)
-* Samtliche Gedichte und Balladen (Friedrich Schiller, 1805)
+* Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * The Jazz Piano Book (Mark Levine, 1998)
+
+I am also reading some classic posts by [Gwern](https://www.gwern.net/)
+and gaining inspiration from the excellent blog [Traditions of
+Conflict](https://traditionsofconflict.com/).
