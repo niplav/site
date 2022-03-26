@@ -1045,3 +1045,9 @@
 2022-03-24T18:55:58.000000Z	decision theory is applicable when nobody else in the environment is an agent relative to you, game theory is applicable when some things are as agent-like as you, and despair can be used when you are very un-agenty compared to everything else in the environment
 2022-03-24T21:43:36.000000Z	i notice my confusion: i would have expected many more and larger NN models by now, trained on larger amounts of data and displaying significant scaling. where are they? are orgs hiding them?
 2022-03-24T22:23:38.000000Z	why, of course extremal graph theory is, ahem, extremely relevant to ethics! who would have argued otherwise?
+2022-03-25T12:12:17.000000Z	if you're not special, generating passwords is like running from bears: you don't need to be good, you just need to be better than the majority
+2022-03-25T13:09:20.000000Z	wikipedia redirects shitcoin to cryptocurrency. heh
+2022-03-25T14:58:18.000000Z	if you believe that blue-collar republicans are voting against their own interest, well, what about white-collar democrats?
+2022-03-26T10:13:39.000000Z	for a given graph G, there is a set of graphs \mathcal{G} so that for every G' ∈ \mathcal{G}, the transitive closure of G' is G. does \mathcal{G} contain only one element?
+2022-03-26T15:15:03.000000Z	to fend off possible accusations of bias: good leftist humor was /r/liftcommunism, /leftypol/ was great too sometimes, and I liked the political catgirl comics. Existential Comics is __not__ funny (except the Beetle in the Box comic), although some of the old comics were indeed existenital. I don't have a strong opinion on /r/COMPLETEANARCHY and /r/FULLCOMMUNISM.
+2022-03-26T15:15:46.000000Z	I also mostly didn't get Chapo Trap House (although the stuff I did get was sometimes pretty funny)

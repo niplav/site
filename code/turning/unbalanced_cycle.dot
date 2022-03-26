@@ -1,0 +1,4 @@
+digraph unbalanced {
+	a -> b -> c -> d;
+	c -> e -> f -> g -> b;
+}

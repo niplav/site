@@ -1522,6 +1522,7 @@ Wikipedia Articles
 * Clean up second paragraph in Colored people's time
 * Add The Game by Strauss to the Game (disambiguation) page
 * What the fuck is going on with the The Gods Themselves page?
+ * Wikipedia pages on symbols in mathematics and physics are sprawling and confused, clean them up
 
 Metaculus Questions
 -------------------
