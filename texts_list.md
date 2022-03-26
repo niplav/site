@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-03-23, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-03-25, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,11 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Diceware Passphrases (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/02/07/)
+* [Prediction Markets (Gwern Branwen, 2019)](https://www.gwern.net/Prediction-markets)
+* [The Human Penis is Remarkably Boring (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/6/7/the-human-penis-is-remarkably-boring)
+* [The sad and violent history of 'peaceful societies' (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/3/20/the-violent-history-of-peaceful-societies)
+* [Avoid Zip Archives (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/03/22/)
 * [LZMA Tarballs Are Coming (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/03/16/)
 * [Distributed Issue Tracking (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/02/14/)
 * [Git is Better (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/02/12/)
