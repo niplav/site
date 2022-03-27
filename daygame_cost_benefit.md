@@ -1143,6 +1143,5 @@ Anonymizing locations and the names of girls:
 	$ mv daygame_stats_approaches.csv daygame_stats_approaches_deanon.csv
 	$ mv daygame_stats_approaches_anon.csv daygame_stats_approaches.csv
 
-The approaches file can be found
-[here](./data/daygame_stats_approaches.csv), the sesions file can be found
-[here](./data/daygame_stats_sessions.csv).
+The approaches file can be found [here](./data/daygame_approaches.csv),
+the sessions file can be found [here](./data/daygame_sessions.csv).

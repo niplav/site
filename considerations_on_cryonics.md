@@ -723,7 +723,7 @@ value for the people resuscitated.
 ##### Malevolent Future Actors
 
 A superintelligence becomes a
-[singleton](https://en.wikipedia.org/wiki/Singleton_(global_governance))
+[singleton](https://en.wikipedia.org/wiki/Singleton_\(global_governance\))
 and starts behaving malevolently because of a [near
 miss](https://reducing-suffering.org/near-miss/ "Astronomical suffering
 from slightly misaligned artificial intelligence") in its implementation

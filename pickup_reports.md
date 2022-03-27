@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-03-12, modified: 2022-03-18, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2022-03-12, modified: 2022-03-27, language: english, status: in progress, importance: 2, confidence: log*
 
 Pickup Reports
 ===============
@@ -101,6 +101,8 @@ Viva Daygame.
 Sessions
 ---------
 
+What's the Qiaochu Yuan tweet?
+
 ### So, Last Summer I Took a Medium Dose of MDMA
 
 It worked pretty well, 22 approaches (twice optimal normal rate), AA
@@ -110,10 +112,6 @@ pretty much zero, 5 numbers (although only 2 non-flakey), 1 lay
 
 Dates
 ------
-
-<!--
-### Cat Lady
--->
 
 ### Super Honest Non-SDL
 
@@ -194,8 +192,113 @@ I do not plan on visiting her in Barcelona (she responded positively to a
 ping the next day), because I don't like traveling, but even without any
 further interaction, this is my current favourite encounter from daygame.
 
+### A Yes Girl With No Direction
+
+Noticing the weird pack of straw (?) she was carrying in her backpack,
+I gave myself an internal push and as soon as the light turned green
+I ran after her. I told her she reminded me of images of farmers with
+hay on their backs, and then told her that that was in contrast with the
+light blue coat she was wearing. Her voice was flat, but when I trailed
+off and had nothing to say, she hooked nicely and asked me some questions
+(I don't remember what we talked about in set). I was unsure whether she
+was nervous: she was scratching an open bleeding sore on her upper lip,
+which kind of irritated me (but hey, I'm not free from sin in that regard,
+and she was cute).
+
+I think she was mildly surprised when I pulled out my notebook instead
+of a phone for her to write her contacts down, after which I talked
+for a minute or two more and then we parted ways. In retrospective,
+I should have taken for an instant date, but it was not on my mind
+(I hadn't and still haven't been on an instant date before) and I was
+hungry for more approaches, plus I wanted to meet up with my wing. Still,
+the opportunity was there and I should have taken it.
+
+After less than a handful of texts from my and her side, with some light
+teasing, I asked her out for drinks, which she declined, but immediately
+suggested two alternative dates (this girl had clearly read [Mr. V
+2020](./doc/pickup_reports/guide_to_texting_girls_mr_v_2020.pdf "Guide to Texting Girls")).
+
+Before meeting, I did two unsuccessful sets, according to the
+lessons about escalation I'd learned from the encounter with [Miss
+Candle](#Super-Honest-NonSDL), both of them leading nowher, but still
+priming me to be more assertive.
+
+She turned up punctually, and I first took her to a French-style café
+where we chatted for an hour, revealing that she didn't have a clear
+direction in life, having finished a masters degree she wasn't interested
+in, now before a job, and without any significant hobbies except "taking
+baths and watching movies". I then bounced her to the second venue,
+a bar near to where we had initially met. On the way I did some light
+kino (guiding her with my arm around her waist, touching her shoulder &
+hands), and in the bar I chose a seat so that she could only sit next
+to me (and not in front of me — crucial for escalation). I amped up
+the escalation a bit, touching her a bit more, doing the questions game
+routine, talking about past relationships and sexual fantasies, as well
+as creating a bubble around us by guessing what the other people around
+us were doing.  The beer was leading it along nicely.
+
+At some point in the questions game she asked me how nervous I was
+feeling, and I told her (truthfully) that I wasn't feeling very nervous
+(saying it was a 1.5/5). On my question whether I appeared nervous to her,
+she said yes (which surprised me, because I was genuinely not feeling
+very nervous, this being my second date that week — misperception on
+her or my part, or simply a shit test?)
+
+I tried not to invest too much by being silent for longer stretches, which
+I didn't completely succeed at, but was better at than my previous dates.
+
+I'd already put my arm around her earlier, and in a round of the questions
+game asked her whether she wanted to kiss me, the answer being an awkward
+pause and a “maybe later”. I of course took this as an excuse to lean
+in and kiss her, and she reciprocated (I think she liked the boldness). I
+of course made sure to pull back first, and continued chatting away,
+with intermediate spiking and make-outs. My first brazen attempt and
+success at a kiss close in a public place, yay!
+
+At some point I told her to sit down next to me instead of on her chair,
+which she did without any remark or complaint. I think this indicates
+that she was in my frame? I don't remember whether this was before or
+after I'd already kissed her.
+
+3 hours into the date she asked me whether we could go to my place —
+apparently I had done a good enough job at escalation that she had decided
+to sleep with me (or she is just very promiscuous). I told her that we
+could go after we'd finished our drinks, and used the old Torero line:
+That nothing could happen between us before marriage because I was a
+good Christian boy, but she could tuck me in. She was genuinely shocked
+and unsure whether that was true, but I laughed & amplified enough that
+she got the irony.
+
+Because I was stingy and thought she would be okay with public transport,
+I decided not to call a taxi, and we took public transport to my place.
+
+We both got a glass of water, and carried on making out. After maybe 5
+minutes, I physically picked her up and carried her into my room (her
+remarking on it when seeing my dumbbells — I had earlier stressed the
+importance of [exercise in my life](./exercise_log.html)). We carried
+on making out, and nothing else happened that night.
+
+;-)
+
+Curtain.
+
+-----
+
+Takeaways:
+
+People always says this, but it's different to personally observe:
+Yes-girls are out there, and if you approach them & escalate more
+smoothly than a [rauk](https://en.wikipedia.org/wik/rauk), they
+want to go to your place and do naughty stuff. Having observed this,
+and having a dim idea of how to pull off a decent approach and what
+the topology of decent escalation might look like, I now have a
+semi-repeatable process under my belt that can be practiced. Not
+quite the [kenshō](https://en.wikipedia.org/wiki/Kenshō) of
+daygame (what would that be, an SDL?), but perhaps the [udayabbaya
+ñana](https://en.wikipedia.org/wiki/Vipassanā-ñāṇa)?
+
 <!--
 ### Stop Being an Economics Nerd
 
-### A Yes Girl With No Direction
+### Cat Lady
 -->

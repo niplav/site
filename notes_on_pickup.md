@@ -182,3 +182,49 @@ p. 64). There are different axes which can be intervened on independently:
 
 If the first four aspects are reduced, the last one should be easier to
 tackle as well.
+
+Instead of Recognizing and Dismantling Shit Tests, You Could Just Vibe Over Them
+----------------------------------------------------------------------------------
+
+I am *very bad* at recognizing shit tests. Usually, the evening on the
+day after a date, I am reading something or meditating, and then sit
+bolt-upright and think "Oh damn! __That was a shit test__!".
+
+However, my experience after some of my recent dates
+has been the following: I'm eating, or [assembling an air
+filter](./notes.html#Building-a-Cuboid), and an epiphany hits me:
+"Shit! *That was a shit test*, and __this is how I deflected it
+automatically!__"
+
+Now, I'm not going to give you the great secret at deflecting shit
+tests per se (why would you listen to a person with [2 lays out of ~360
+approaches](./data/daygame_approaches.csv) anyway?), but I still have
+an opinion on this: Shit tests do exist, but trying to spot them and
+consciously counteract them is perhaps misguided (I have even heard of
+guys trying to memorize responses to shit tests, baffling).
+
+<!--TODO: expand on these, and links for many of the terms-->
+
+My reasons for this as roughly as follows:
+
+* Consciously detecting shit tests takes a lot of mental energy (at least it would for me, which is the main reason I don't do it)
+* It makes you focus more on her, not on the situation/relation
+* There are many other, and imho better, things to do with your emotional energy:
+	* maintaining a positive vibe (especially on your side)
+		* this one is key: if you have a good vibe (and perhaps have already approached girls before your date), and some experience in approaching, the chance that you'll respond to a shit tests with a counter-tease or the right answer automatically is much higher
+	* escalation
+	* spiking
+	* fractionation
+	* eye contact
+	* vacuuming
+
+Now, I'm not preaching the [wu wei](https://en.wikipedia.org/wik/wu_wei)
+of game, or telling you that you should just become an effortless natural
+overnight, but the conversation on shit tests feels confused to me,
+and focusing on a misguided aspect of the interactions (judging from
+a lot of online advice, I suspect, but have very little evidence for,
+that many responses to perceived shit tests tend to be too adversarial).
+I think that there are many other better parts of game to focus on.
+
+But perhaps I haven't dated girls that are hot enough to throw strong
+shit tests at me yet.
