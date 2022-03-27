@@ -1051,3 +1051,6 @@
 2022-03-26T10:13:39.000000Z	for a given graph G, there is a set of graphs \mathcal{G} so that for every G' ∈ \mathcal{G}, the transitive closure of G' is G. does \mathcal{G} contain only one element?
 2022-03-26T15:15:03.000000Z	to fend off possible accusations of bias: good leftist humor was /r/liftcommunism, /leftypol/ was great too sometimes, and I liked the political catgirl comics. Existential Comics is __not__ funny (except the Beetle in the Box comic), although some of the old comics were indeed existenital. I don't have a strong opinion on /r/COMPLETEANARCHY and /r/FULLCOMMUNISM.
 2022-03-26T15:15:46.000000Z	I also mostly didn't get Chapo Trap House (although the stuff I did get was sometimes pretty funny)
+2022-03-27T18:28:56.000000Z	it's crazy how rob miles and toby ord sound almost exactly the same
+2022-03-27T18:52:59.000000Z	so the British colonized most of world, but they also made lots of countries abolish slavery, so it's impossible to tell whether they're good or bad,,,
+2022-03-27T18:53:09.000000Z	see http://lukemuehlhauser.com/industrial-revolution/#footnote_79_3108

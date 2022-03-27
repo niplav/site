@@ -14,6 +14,8 @@ fields](https://en.wikipedia.org/wiki/Vector_field) over probability
 [simplices](https://en.wikipedia.org/wiki/Simplex). Implications for
 scenarios such as ontological crises are discussed.__
 
+<!--TODO: Read Transitive Reduction, Graph Edit Distance on WP-->
+
 Turning Some Inconsistent Preferences into Consistent Ones
 ===========================================================
 
@@ -163,3 +165,59 @@ Further Questions
 
 * Is there a canonical way to turn graphs into path graphs with a minimal number of "operations"?
 * Does every graph `$G$` have a unique graph `$G'$` so that `$G$` is the transitive closure of `$G'$`?
+
+<!--
+*epistemic status: butterfly idea, I really should learn more topology
+and vector calculus, potentially very fruitful line of research in
+theoretical ethics*
+
+Consider an agent with inconsistent preferences. How can we represent
+their inconsistent preferences so that they can be turned into consistent
+variants of themselves, while minimally changing their structure?
+
+One way to approach this is to represent the preferences as a directed
+graph. In this case, we have for example an intransitive preference
+
+![](https://niplav.github.io/img/turning/intransitive.png)
+
+We can make this preference consistent by deleting an edge, but
+unfortunately we don't have a unique solution to making this preference
+consistent. I am interested in the combinatorics of turning a directed
+graph into a [path graph](https://en.wikipedia.org/wiki/Path_graph) (or
+its transitive closure) while making the minimal number of modificiations
+(deleting edges, adding edges, merging edges) to the initial graph.
+
+If we look at preferences over lotteries, we could represent a subset
+of all possible inconsistent preferences as a vector field over the
+probability simplex of all underlying options. Circular preferences
+would then be represented by the curl of the vector field, violations
+of continuity would be points in the vector field where the vectors
+are "0": for example on the line simplex, it would be the vector field
+"flipping around" at some point on the line (I don't know vector calculus
+that well).
+
+It might then be possible to define a function that minimally modifies
+that vector field to convert it to a consistent preference relation
+(i.e. a vector field that "flows toward a single option"). Defining
+"minimally" is the trick here: I'm imagining something akin to taking
+the integral over the rotation & size of the vectors of the difference
+of the vector field before and after (I told you I don't really know
+the math of that yet).
+
+I suspect that there are interesting further extensions to be discovered
+in extremal graph theory, for example graphons which look like they
+might be able to represent more & different preferential inconsistencies,
+but this is more of a hunch.
+
+If solved, this could be relevant to ambitious value learning and
+potential resolving ontological crises.
+
+Here are some questions I have:
+
+* I bet there is research on how to turn inconsistent preferences into consistent ones, but a cursory search hasn't shown me anything satisfactory yet. Where is it?
+* I would be fairly sure that there is also research on how to turn arbitrary directed graphs into directed path graphs, but I don't know about it yet.
+* What kinds of preferential inconsistencies can be represented via directed graphs/vector fields on probability simplices?
+* What would the vector field over a probability simplex look like to be equivalent to a consistent preference?
+* What is the topology of minimally transforming such a "inconsistent" vector field into a "consistent" vector field?
+* Does any of this actually make sense?
+-->
