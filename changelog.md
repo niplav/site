@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-03-24, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-03-26, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -29,6 +29,7 @@ March 2022
 	* [Chapter 5](./rs_solutions.html#Chapter-5)
 		* [5.4](./rs_solutions.html#54)
 		* [5.5](./rs_solutions.html#55)
+		* [5.7](./rs_solutions.html#57)
 	* [Chapter 6](./rs_solutions.html#Chapter-6)
 		* [6.5](./rs_solutions.html#65)
 		* [6.9](./rs_solutions.html#69)

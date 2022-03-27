@@ -831,6 +831,11 @@ is satisfied by `$a.b.\mathbf{0}+a.c.\mathbf{0}$` but not
 `$[a]\langle b \rangle(\langle c \rangle \textit{t}\!\textit{t} \land \langle d \rangle \textit{f}\!\textit{f})$`
 is satisfied by `$a.(b.c.\mathbf{0}+b.d.\mathbf{0})$` but not `$a.b.c.\mathbf{0}+a.b.d.\mathbf{0}$`.
 
+### 5.7
+
+![](./img/rs_solutions/5_7.png)
+<!--TODO: add tooltip explainin the content of the image-->
+
 Chapter 6
 ----------
 

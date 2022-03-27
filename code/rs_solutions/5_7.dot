@@ -1,0 +1,9 @@
+digraph 5.7 {
+	s -> s2 [label=" a"];
+	s2 -> s3 [label=" b"];
+	s3 -> s4 [label=" c"];
+	s2 -> s5 [label=" c"];
+	s2 -> s6 [label=" b"];
+	s2 -> s7 [label=" b"];
+	s7 -> s8 [label=" a"];
+}
