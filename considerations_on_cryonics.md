@@ -3,23 +3,23 @@
 
 *author: niplav, created: 2019-10-18, modified: 2022-02-23, language: english, status: maintenance, importance: 7, confidence: remote*
 
-> __Is cryonics worth it, and if yes, should one
-> [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
-> (i.e. postpone signing up for cryonics to a later date)?
-> [Betteridge's law of
-> headlines](https://en.wikipedia.org/wiki/Betteridge's_law_of_headlines)
-> only applies partially here: Yes, it is probably worth it (under
-> plausible assumptions \$2.7m for a 20 year old, and more for older
-> people), and no, cryocrastination is usually irrational. A cost-benefit
-> analysis written in Lua, considering [neurocryopreservation](https://www.alcor.org/library/neuropreservation-option/)
-> with [Alcor](https://www.alcor.org/).
-> I also perform a [Monte-Carlo
-> simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method) using
-> [Guesstimate](https://www.getguesstimate.com/ "Official website"),
-> and find that signing up for cryonics at age 20 is worth
-> \$18m in the mean, median -\$100k (90% confidence interval: -\$2.16m,
-> \$58.25m). It therefore seems recommendable to sign up for cryonics
-> immediately.__
+> __Is [cryonics](https://en.wikipedia.org/wiki/Cryonics)
+worth it, and if yes, should one
+[cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
+(i.e. postpone signing up for cryonics
+to a later date)?  [Betteridge's law of
+headlines](https://en.wikipedia.org/wiki/Betteridge's_law_of_headlines)
+only applies partially here: Yes, it is probably worth it
+(under plausible assumptions \$2.7m for a 20 year old, and
+more for older people), and no, cryocrastination is usually
+irrational. A cost-benefit analysis written in Lua, considering
+[neurocryopreservation](https://www.alcor.org/library/neuropreservation-option/)
+with [Alcor](https://www.alcor.org/).  I also perform a [Monte-Carlo
+simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method) using
+[Guesstimate](https://www.getguesstimate.com/ "Official website"),
+and find that signing up for cryonics at age 20 is worth \$18m in the
+mean, median -\$100k (90% confidence interval: -\$2.16m, \$58.25m). It
+therefore seems recommendable to sign up for cryonics immediately.__
 
 Considerations on Cryonics
 ==========================
@@ -725,12 +725,13 @@ value for the people resuscitated.
 A superintelligence becomes a
 [singleton](https://en.wikipedia.org/wiki/Singleton_\(global_governance\))
 and starts behaving malevolently because of a [near
-miss](https://reducing-suffering.org/near-miss/ "Astronomical suffering
-from slightly misaligned artificial intelligence") in its implementation
-or or because it has been set up by a malevolent human. This would lead
-to cryopreserved people being resuscitated, having their brains scanned
-and executed as a brain emulation, copied and put into very painful
-conditions.
+miss](https://reducing-suffering.org/near-miss/ "Astronomical
+suffering from slightly misaligned artificial intelligence")
+in its implementation or or because it has been set up by a
+malevolent human. This would lead to cryopreserved people being
+resuscitated, having their brains scanned and executed as a [brain
+emulation](https://en.wikipedia.org/wiki/Mind_uploading), copied and
+put into very painful conditions.
 
 ##### Information from the Past is Valuable
 
@@ -767,11 +768,11 @@ being that option:
 
 * If whole-brain emulation is wide-spread, and copying of whole-brain emulations is easy:
 	* Competition among whole-brain emulations is likely fierce, and labor by emulations would be as cheap as slave labour (so there is no particular reason to enslave emulations)
-	* The average emulation is likely very competent and elite, and a much better worker than the average college-educated persoe ([Hanson 2016 pp. 161-163](https://ageofem.com "The Age of Em") estimates that most ems are going to be copies of fewer than a thousand or so original humans, each most likely again selected from several thousand individual childhoods to select the most capable educational lineage)
+	* The average emulation is likely very competent and elite, and a much better worker than the average college-educated person ([Hanson 2016 pp. 161-163](https://ageofem.com "The Age of Em")) estimates that most ems are going to be copies of fewer than a thousand or so original humans, each most likely again selected from several thousand individual childhoods to select the most capable educational lineage)
 * If whole-brain emulation is not wide-spread, then the more the more more-obscure whole-brain emulation is, the more unlikely it is that cryonics and whole-brain emulation will "come into contact", since cryonics is also obscure and the number of preserved patients is tiny (~1500)<!--TODO: this number is incorrect, it's much less than that-->
 	* It seems unlikely that whole-brain emulation will stay restricted to a niche, since it will likely require large amounts of computational power and high-tech scanning facilities which are only possible with large amounts of capital
 	* A factor working against this is that whole-brain emulation and cryonics are discussed within in the same subculture
-* Uploading a vitrified brain seems to be at least as difficult as scanning a freshly deceased brain or a living brain, and possibly much more difficult, since one would need to repair structural damage done by outdated cryopreservation methods (why not vitrify a recently deanimated person with the newest cryogenic technology, and then scan & upload them, instead of trying to fix old somewhat broken brains?), so it would probably not be more economically viable
+* Uploading a [vitrified](https://en.wikipedia.org/wiki/Cryopreservation#Vitrification) brain seems to be at least as difficult as scanning a freshly deceased brain or a living brain, and possibly much more difficult, since one would need to repair structural damage done by outdated cryopreservation methods (why not vitrify a recently deanimated person with the newest cryogenic technology, and then scan & upload them, instead of trying to fix old somewhat broken brains?), so it would probably not be more economically viable
 * It appears more likely than not that cryonics organisations will attempt to prevent the theft of preserved humans (although the organisations could fail and abandon or sell the preserved humans)
 * There would have to be no laws protecting cryogenically preserved humans (or the emulations resulting from them), but laws protecting living or recently deanimated people
 
@@ -839,8 +840,8 @@ the exception rather than the norm. However, people nearly always
 move on with their life, even as they get divorced, get estranged
 from their friends or see their children less regularly – they
 don't seem to prefer death to continuing their lives without
-specific people. This consideration doesn't seem to be a [True
-Rejection](https://www.lesswrong.com/rationality/is-that-your-true-rejection).
+specific people. This consideration doesn't seem to be a [true
+rejection](https://www.lesswrong.com/rationality/is-that-your-true-rejection).
 
 -----
 

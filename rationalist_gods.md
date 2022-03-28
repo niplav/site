@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-03-20, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-03-28, language: english, status: in progress, importance: 2, confidence: log*
 
 > __[Rationalists](https://en.wikipedia.org/wiki/LessWrong) and the
 > [neoreactionary movement](https://en.wikipedia.org/wiki/Dark_Enlightenment)
@@ -36,6 +36,13 @@ Alternative views:
 
 Azathoth
 --------
+
+> The Price equation shows that a change in the average amount `$z$` of a trait in a population from one generation to the next (`$Δz$`) is determined by the [covariance](https://en.wikipedia.org/wiki/covariance) between the amounts `$z_i$` of the trait for the subpopulation `$i$` and the fitnesses `$w_i$` of the subpopulations, together with the expected change in the amount of the trait value due to fitness, namely `$E(w_i Δz_i)$`:
+> <div>
+>	$$Δz=\frac{1}{w}\text{cov}(w_i, z_i)+\frac{1}{w} E(w_i, Δz_i)$$
+> </div>
+
+*– [English Wikipedia](https://en.wikipedia.org/wiki/English_Wikipedia), [“Price equation”](https://en.wikipedia.org/wiki/Price_equation), 2021*
 
 * [An Alien God](https://www.lesswrong.com/posts/pLRogvJLPPg6Mrvg4/an-alien-god)
 
