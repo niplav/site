@@ -802,6 +802,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Auctioning off Your Body
 	* `https://www.humanmicrobes.org/`
 	* Kidney
+		* See `Gary Becker & Julio Jorge Elías (Summer 2007). "Introducing incentives in the market for live and cadaveric organ donations". Journal of Economic Perspectives. 21 (3): 3–24. doi:10.1257/jep.21.3.3. PMID 19728419.`
 	* Sperm, Eggs
 	* Plasma/Blood
 * Nuclear Waste FAQ

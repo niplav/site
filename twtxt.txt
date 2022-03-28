@@ -1059,3 +1059,4 @@
 2022-03-27T22:49:01.000000Z	∴ Good(daygame)
 2022-03-27T22:55:02.000000Z	the pickup community is the only one i know of that went straight from geeks to psychopaths, without any MOPs.
 2022-03-27T22:57:07.000000Z	powerful move to reply to a statement with “sorry, I have that argument tree mapped out, and a minimax search shows me stalemate in every possible play” and leave
+2022-03-28T10:03:58.000000Z	we could also clone Ramanujan

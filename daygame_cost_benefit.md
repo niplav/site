@@ -3,16 +3,20 @@
 
 *author: niplav, created: 2019-12-25, modified: 2022-03-24, language: english, status: in progress, importance: 4, confidence: remote*
 
-> __Is daygame worth it, and if yes, how much? I first present a simple
-> point-estimate cost-benefit value estimation written in Klong and find
-> that daygame is probably worth ~\$1000 maximum, at ~500 approaches,
-> though the number varies strongly under different assumptions. After
-> that, I modify the model to capture more of the nuance, and arrive at
-> ~\$2100 of value for ~1000 approaches. I then perform a Monte-Carlo
-> estimation to determine the uncertainty around the expected value and
-> find that in the simple case the value of daygame ranges from -\$3300 to
-> \$3200 (5th/95th percentile), with a median of \$900 and a mean of \$550,
-> and in the complex case \_.__
+> __Is daygame worth it, and if yes,
+how much? I first present a simple [point
+estimate](https://en.wikipedia.org/wiki/Point_estimation) [cost-benefit
+value estimation](https://en.wikipedia.org/wiki/Cost-benefit_analysis)
+written in Klong and find that daygame is probably worth ~\$996 maximum,
+at ~499 approaches, though the number varies strongly under different
+assumptions. After that, I modify the model to capture more of the nuance,
+and arrive at ~\$2098 of value for ~1000 approaches. I then perform a
+[Monte-Carlo simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method)
+to determine the uncertainty around the [expected
+value](https://en.wikipedia.org/wiki/Expected_value) and find that in
+the simple case the value of daygame ranges from -\$3297 to \$3200
+(5th/95th percentile), with a median of \$899 and a mean of \$550,
+and in the complex case \_.__
 
 Daygame Cost-Benefit Analysis
 =============================
@@ -1098,9 +1102,10 @@ Approximate ratio per:
 Sanitizing the sessions file:
 
 Converting f\*\*\*ed up Google sheets date format (why does __nobody__
-use the perfect ISO-8601 when it's right there‽‽‽), then removing
-stray spaces after semicolons, then removing the `^M` from the end of
-each line, using structural regular expressions<!--TODO: link-->:
+use the perfect [ISO-8601](https://en.wikipedia.org/wiki/ISO-8601) when
+it's right there‽‽‽), then removing stray spaces after semicolons,
+then removing the `^M` from the end of each line, using
+structural regular expressions<!--TODO: link-->:
 
 	,x/([0-9]+)\/([0-9]+)\/([0-9]+) /c/\3-\1-\2T/
 	,x/; /c/;/
