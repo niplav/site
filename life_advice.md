@@ -74,7 +74,7 @@ And, as always, remember that I'm just a person on the internet.
 		a folded sheet. Then I got a zafu, which was so much more
 		comfortable. Major improvement in my practice.
 5. Choose your hobbies so that they solve big problems in your life
-	* Example for myself: I didn't get laid, so I made daygame one of my hobbies
+	* Example for myself: I didn't get laid, so I made daygame one of my hobbies (going out quite a lot, for a 3 month period 2 hours a day 6 days a week)
 6. Try to identify addictive loops early and destroy them as early as possible
 	* The longer you wait, the harder they become to root out
 	* This will probably become a bigger problem in the future

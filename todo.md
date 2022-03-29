@@ -39,10 +39,12 @@ Site
 * List of writings by importance/finishedness
 	* List of texts by year/author
 * Replace ' – ' by ' — ' (en dash by em dash), both in quotes & within text
+	* Replace “” quotes by "" quotes, “” is for quotes within quotes
 * Improve linting
 	* Incorporate `https://www.gwern.net/static/build/markdown-lint.sh`
 	* `https://www.html-tidy.org/`
 	* `https://github.com/amperser/proselint/`
+* Import Meditavo data
 
 Existing Texts
 --------------
