@@ -386,7 +386,7 @@ path on the right hand side. But this is not guaranteed.
 > Prove that `$\sim$` is preserved by action prefixing, summation and
 relabelling.
 
-Assume that `$P \sim Q$`. Then
+Assume that `$P \sim Q$`. Then:
 
 #### `$α.P \sim α.Q$` for each action `$α$`
 
@@ -696,6 +696,14 @@ p. 99, prove snd part of Tarski's fixed point theorem.
 TODO
 -->
 
+### 4.7
+
+To summarize, `$f: 2^ℕ \mapsto 2^ℕ$`,
+`$f(X)=\{1,2,3\} \text{ if } X=\{2\}, X \cup \{1,2\} \text{ otherwise}$`.
+
+This function is not monotonic: for `$X'=\{2\} \subset \{1,2\}= X$`,
+but `$f(X')=\{1,2,3\} \supset \{1,2\}=f(X)$`.
+
 ### 4.9
 
 Least fixed point:
@@ -835,6 +843,30 @@ is satisfied by `$a.(b.c.\mathbf{0}+b.d.\mathbf{0})$` but not `$a.b.c.\mathbf{0}
 
 ![](./img/rs_solutions/5_7.png)
 <!--TODO: add tooltip explainin the content of the image-->
+
+### 5.11
+
+`$b.a.\mathbf{0}+b.\mathbf{0}$` and `$b.(a.\mathbf{0}+b.\mathbf{0})$`:
+Not strongly bisimilar, the right expression fulfills
+`$\langle b \rangle \langle b \rangle \textit{t}\!\textit{t}$`
+while the left one does not.
+
+`$a.(b.c.\mathbf{0}+b.d.\mathbf{0}$` and
+`$a.b.c.\mathbf{0}+a.b.d.\mathbf{0}$`: Not strongly bisimilar,
+the left formula fulfills
+`$[a]\langle b \rangle(\langle c \rangle \textit{t}\!\textit{t} \land \langle d \rangle \textit{t}\!\textit{t}$`,
+while the right one does not.
+
+`$a.\mathbf{0}|b.\mathbf{0}$` and `$a.b.\mathbf{0}+b.a.\mathbf{0})$`
+are strongly bisimilar.
+
+`$(a.\mathbf{0}|b.\mathbf{0})+c.a.\mathbf{0}$` and
+`$a.\mathbf{0}|(b.\mathbf{0}+c.\mathbf{0})$` are not strongly bisimilar,
+the right expression fulfills the formula
+`$\langle a \rangle \langle c \rangle \textit{t}\!\textit{t}$`,
+while the left one does not.
+
+<!--TODO: check with concurrency workbench-->
 
 Chapter 6
 ----------

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-02-06, modified: 2022-03-22, language: english, status: notes, importance: 6, confidence: unlikely*
+*author: niplav, created: 2022-02-06, modified: 2022-03-28, language: english, status: notes, importance: 6, confidence: unlikely*
 
 > __The optimization power of attention-grabbing systems available over
 the internet is growing faster than any normal human's ability to defend
@@ -29,6 +29,7 @@ https://www.lesswrong.com/posts/qKvn7rxP2mzJbKfcA/persuasion-tools-ai-takeover-w
 https://www.lesswrong.com/posts/YicoiQurNBxSp7a65/is-clickbait-destroying-our-general-intelligence
 Digital media usage and mental health
 Internet addiction disorder
+https://www.lesswrong.com/posts/fri4HdDkwhayCYFaE/do-a-cost-benefit-analysis-of-your-technology-usage
 -->
 
 > New religions and mystery cults explode across the planet; much of
@@ -96,7 +97,7 @@ the [OpenBSD](https://en.wikipedia.org/OpenBSD) or
 [seL4](https://en.wikipedia.org/wiki/L4_microkernel_family) of
 cognitive systems, but alas—we were created by evolution as [spaghetti
 towers](https://www.lesswrong.com/posts/NQgWL7tvAPgN2LTLn/spaghetti-towers),
-and until we [change do something about
+and until we [change something about
 that](https://en.wikipedia.org/wiki/Neuroenhancement), our minds will
 remain unstructured heaps of pasta.
 
@@ -107,7 +108,7 @@ designed to [deceive and hide information from
 themselves](https://en.wikipedia.org/wiki/The_Elephant_in_the_Brain)<!--TODO:
 perhaps replace with a GoodReads link-->.
 And knowing about cognitive biases and flawed thinking usually helps
-little with actually mitigating them , sometimes even [amplifying the
+little with actually mitigating them, sometimes even [amplifying the
 problem](https://www.lesswrong.com/rationality/knowing-about-biases-can-hurt-people).
 
 > Coherent, comprehensive theories of cognitive bias mitigation are lacking.
@@ -254,6 +255,11 @@ wrong](http://slatestarcodex.com/2018/10/30/sort-by-controversial/ "Sort By Cont
 or just mindlessly scrolling while the hours (and days, and weeks…)
 trickle by…
 
+### I am Lightyears Ahead of You
+
+People are going to make their restrictions around blockers/grayscreening
+etc. stricter and stricter.
+
 Possible Counterarguments
 --------------------------
 
@@ -314,6 +320,16 @@ Retrospective
 
 Started 2021-05-21.
 
+I definitely have (had?) a problem with wasting
+time on the internet, barely consciously scrolling
+reddit/twitter/lesswrong/4chan/…. Mercifully, I don't have exact
+numbers, but I would estimate that since I started using the internet
+~10 years ago, I have spent ≥~1½h a day on it unproductively, giving
+me at least `$10*365*1.5h=5475h$` hours wasted. Had I poured half of
+that into honing a new skill, or acquiring a new one… But what is
+important is to avoid wasting another 5000h, instead of crying about
+the ones that had already fallen into a screen.
+
 AI Disaster Scenario: Human Progress Stalls Due To Attention-Destroyers
 -----------------------------------------------------------------------
 
@@ -323,7 +339,10 @@ being built, but also destroys any options for progress.
 
 This might end up in an equilibrium.
 
-Appendix A: Defining “Addictive Process”
+Appendix A: System 1 Uses Hyperbolic Discounting, System 2 Uses Geometric Discounting?
+---------------------------------------------------------------------------------------
+
+Appendix B: Defining “Addictive Process”
 -----------------------------------------
 
 ### Modified-Self Approval

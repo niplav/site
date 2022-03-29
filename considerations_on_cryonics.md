@@ -1611,6 +1611,8 @@ point in time into a full membership quickly, and memberships at the
 than Alcor, but require much higher amount of initiative to assure a
 quick preservation)).
 
+[![Tweet by @TetraspaceWest on twitter, with text “It's called cryonics because you have to fill out like one form to do it, enough to make you cry”](./img/considerations_on_cryonics/tetraspace_tweet.png "Tweet by @TetraspaceWest on twitter, with text “It's called cryonics because you have to fill out like one form to do it, enough to make you cry”")](https://nitter.hu/TetraspaceWest/status/1508597929082294272)
+
 Generally, the [Cryonics Signup
 Guide](https://www.lesswrong.com/s/weBHYgBXg9thEQNEe) is the best
 resource for anyone to guide you through the signup process, though it
@@ -1625,8 +1627,8 @@ quite unsympathetic to the prevalent position that death and aging are
 not clearly and strictly bad, and might be uninterested in discussion
 about that particular topic).
 
-I would also appreciate good write-ups
-countering the arguments for cryonics [Crowley
+I would also appreciate good write-ups countering the arguments for
+cryonics, see [Crowley
 2010](http://blog.ciphergoth.org/blog/2010/02/14/an-open-letter-to-scientific-critics-of-cryonics/ "An open letter to scientific critics of cryonics").
 
 <!--
