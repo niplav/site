@@ -25,10 +25,12 @@ at the moment.
 
 If I find time inbetween that, I'm expanding on the following texts:
 
-* Notes
+* [Notes](./notes.html)
 	* [Notes on Ethics](./notes_on_ethics.html)
 	* [Notes on Pickup](./notes_on_pickup.html)
 	* [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
+* [Reports](./reports.html)
+	* [Pickup Reports](./pickup_reports.html)
 * [Prepare to Leave the Internet](./leave.html)
 * [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
@@ -36,6 +38,7 @@ If I find time inbetween that, I'm expanding on the following texts:
 * [Third Variable](./third.html)
 * [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 * [Generalizing the Diamond-Square Algorithm to n Dimensions](./diamond.html)
+* [Circle Combinations](./circle_combinations.html)
 
 I'm also planning a full edit of all texts on the website, but don't
 have a fixed date to get started on that at the moment.

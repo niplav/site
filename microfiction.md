@@ -204,7 +204,9 @@ Wrong Quotes
 
 ### Misattributed
 
-### Invented
+> All compounded things are subject to vanish. Strive with earnestness.
+
+*— [J. Robert Oppenheimer](https://en.wikipedia.org/wiki/J._Robert_Oppenheimer), Remark after the first successful [Trinity test](https://en.wikipedia.org/wiki/Trinity_test), 1945*
 
 Stories
 --------
@@ -216,12 +218,12 @@ Stories
 > Globe-decorated neo-neoliberals furiously fruitlessly arguing with
 zero-summers on twitter, shaman bros helping others get laid at parties
 funded by eternal-life cryptomoguls, infra-red haired identity-fractalites
-with two dozen Mercedes stars draped over their bodies lectured pale
+with two dozen Mercedes stars draped over their bodies lectureing pale
 soy-skeletons about Cockshottian cybernetics. It is, not exaggerating too
 much, a moment exactly fitting the emergence of a second semi-unknown
-unknown, only to be faintly perceived by posterior-maximizers who had
+unknown, only to be faintly perceived by posterior-maximizers who have
 trained their sensory organs to the maximal degree of data intake possible
-without (at the time outside of military circles unavailable) BCIs. And
+without (at the moment outside of military circles unavailable) BCIs. And
 yet, the 'works scale and scale, just as foretold by the 𝔊 prophet.
 
 Moloch

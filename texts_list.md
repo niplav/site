@@ -463,7 +463,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Lessons I've Learned from Self-Teaching (TurnTrout, 2021)](https://www.lesswrong.com/posts/cumc876woKaZLmQs5/lessons-i-ve-learned-from-self-teaching)
 * [Storage and Disposal of Radioactive Waste (World Nuclear Association, 2021)](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-waste/storage-and-disposal-of-radioactive-waste.aspx)
 * [Ontology identification problem: Technical tutorial (Alexei Andreev/Eliezer Yudkowsky, 2016)](https://arbital.com/p/ontology_identification/?l=6b)
-* \* Reactive Systems (Anna Ingólfsdóttir/Jiří Srba/Kim G. Larsen/Luca Aceto, 2007)
+* |157 Reactive Systems (Anna Ingólfsdóttir/Jiří Srba/Kim G. Larsen/Luca Aceto, 2007)
 * Ways of Seeing (John Berger, 1972)
 * Des Mädchens Klage (Friedrich Schiller, 1804)
 * Spruch des Confucius (Friedrich Schiller, 1804)
