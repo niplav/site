@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2022-03-12, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2022-03-29, language: english, status: in progress, importance: 6, confidence: log*
 
 > __If you take away just one thing from this website,
 it should be that I think [you would want to sign up for
@@ -47,7 +47,6 @@ Writing
 #### Mathematics
 
 * [Equally Many Heads and Tails](./equally_many_heads_and_tails.html)
-* [Circle Combinations](./circle_combinations.html)
 * [Mathematics Notation Convention](./mathematics_notation_convention.html)
 
 #### Philosophy
