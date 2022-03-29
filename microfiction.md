@@ -132,6 +132,14 @@ A mind too fast for meaning
 <!--Is Thoughts without wrapping worse? Better?-->
 Unwrapping my thoughts
 
+Some minds start cutting  
+themselves, if the do not dull  
+themselves in a while
+
+A psyche might start  
+cutting itself, if it is  
+not dulled each fortnight
+
 Dialogues
 ----------
 

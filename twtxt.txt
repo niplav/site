@@ -1060,3 +1060,14 @@
 2022-03-27T22:55:02.000000Z	the pickup community is the only one i know of that went straight from geeks to psychopaths, without any MOPs.
 2022-03-27T22:57:07.000000Z	powerful move to reply to a statement with “sorry, I have that argument tree mapped out, and a minimax search shows me stalemate in every possible play” and leave
 2022-03-28T10:03:58.000000Z	we could also clone Ramanujan
+2022-03-28T14:17:58.000000Z	rereading the wikipedia page on ramanujan, we should absolutely clone him and von Neumann, and have them talk to each other. this is either going to destroy the world or usher in utopia, not sure which
+2022-03-28T14:32:48.000000Z	people talk often about power in a way that is not clearly physical power. i have never understood those people, but i suspect that there is some thing there, and that i often perceive its shadow which is epistemic bullshit.
+2022-03-28T19:43:10.000000Z	what's a bijection between ℝ and ℝ^2?
+2022-03-28T19:47:29.000000Z	some minds start cutting themselves if not dulled repeatedly.
+2022-03-28T20:48:11.000000Z	you know what's interesting? if you randomly replace some words in a conversation with “redacted”, very few people will notice
+2022-03-28T20:53:05.000000Z	*Ramanujan voice* “Oh, AI alignment? That's just a continued fraction” *pulls out a notebook*
+2022-03-28T21:58:46.000000Z	domain pestile.nz
+2022-03-28T22:06:34.000000Z	I wish more people would number their podcast episodes
+2022-03-29T14:36:39.000000Z	for what i've invested in my site, it's now probably time to move it off github.io on my own domain
+2022-03-29T15:58:54.000000Z	the best time to participate in a community is after it has died
+2022-03-29T18:04:14.000000Z	What's astonishing is not that people try so hard to establish a positive reputation online, it's that they try so *little*.

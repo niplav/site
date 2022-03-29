@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2022-03-23, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2022-03-29, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks (broadly defined as "a book with
 exercises"), and create some stuff while reading them (e.g. making
@@ -26,11 +26,11 @@ mental model of how it works.
 	* Chapter 1
 	* Chapter 2: 2.1-2.7, 2.12
 	* Chapter 3: 3.1-3.4, 3.7, 3.9, 3.12, 3.14, 3.17, 3.30, 3.37, 3.41
-	* Chapter 4: 4.1-4.3, 4.9
-	* Chapter 5: 5.1-5.5, 5.7
+	* Chapter 4: 4.1-4.3, 4.7, 4.9
+	* Chapter 5: 5.1-5.5, 5.7, 5.11
 	* Chapter 6: 6.4-6.5, 6.7, 6.9
 * Read:
-	* p. 1-143
+	* p. 1-157
 
 “Population Genetics”
 ---------------------

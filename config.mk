@@ -53,6 +53,7 @@ HTML=index.html \
 	mathematics_notation_convention.html \
 	metamodernistisches_manifest.html \
 	microfiction.html \
+	music_rec.html \
 	pipe_rings.html \
 	platte.html \
 	range_and_forecasting_accuracy.html \

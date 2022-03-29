@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-14, modified: 2022-03-19, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2021-10-14, modified: 2022-03-19, language: english, status: notes, importance: 6, confidence: log*
 
 > __Some people have been complaining about a “website discoverability
 crisis”. While I haven't been affected by this particular problem

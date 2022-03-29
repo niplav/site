@@ -36,6 +36,13 @@ Site
 * Add RSS feed (ugh)
 * Add metadata to hosted PDFs/videos
 * Convert twitter links to nitter.hu links
+* List of writings by importance/finishedness
+	* List of texts by year/author
+* Replace ' – ' by ' — ' (en dash by em dash), both in quotes & within text
+* Improve linting
+	* Incorporate `https://www.gwern.net/static/build/markdown-lint.sh`
+	* `https://www.html-tidy.org/`
+	* `https://github.com/amperser/proselint/`
 
 Existing Texts
 --------------
@@ -796,6 +803,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Easterlin Paradox
 	* Brain Stimulation as Meditation Enhancement
 	* Rotwelsch
+	* Picoeconomics
 * Elon Musk Forecast Correction Function
 	* Code: `1.8239233 * (forecasted-forecast_made) + 48.0502205` (days)
 	* [Original](https://web.archive.org/web/20210302224031/https://anthony.boyles.cc/Essays/portfolio/ElonMuskForecastCorrectionFunction.html)
@@ -846,11 +854,16 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* Beliefs: Very common, but no crisp example?
 		* Evidence: Most of Metaculus comments, most of Wikipedia
 		* Models: Textbooks
-		* Ontologies: Grand philosophy books (e.g. The Sequences, the Tao te Ching, Die Welt als Wille und Vorstellung
+		* Ontologies: Grand philosophy books (e.g. The Sequences, the Tao te Ching, Die Welt als Wille und Vorstellung)
 * Growth
 	* How long can growth continue if the maximal value of an atom is fixed?
 	* Growth might slow to cubic (sphere expanding at constant fraction of c)
 * Panpsychism is a property of theories of consciousness, not a theory of consciousness
+* Defining long content
+	* Conditions point to a cluster in thingspace
+	* Comprehensive: long and detailed, providing sources, visualizations, code, predictions, etc.
+	* Optimal: attempts to be a piece of content on the pareto frontier of what it is talking about)
+	* Updated: even if it doesn't pertain to current events, the author is either still working on it or had worked on it for a long time
 
 ### Reports
 
@@ -891,6 +904,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* Visualization?
 		* Yogic stuff? (Mudra)
 * Lessons in Instrumental Rationality from Approaching 360 Women in the Street
+	* I Solved a Big Problem in My Life: Not Having Sex
 
 ### Misc
 
@@ -1411,6 +1425,8 @@ Programming
 	* add C-← and C-→ for jumping words in insert mode (equivalent of b and e)
 	* fix syntax highlighting for ocaml with single quotes: 'a takes the whole line
 	* Syntax highlighting of inline code in markdown is annoying (dark blue background!)
+		* Submit pull request for existing fix (which makes it mauve)
+	* plugin for adding markdown wikipedia link easily
 * sad
 	* implement features that weren't finished
 	* care for it
@@ -1462,6 +1478,8 @@ Programming
 	* 'niiiiiplav' and 'nlapiv' both take me to the wrong directory, they're obviously meant for my home directory
 * txtnish
 	* add a `mentions` command
+* Mood Patterns
+	* Add option to change the notification sound
 * dc 9base manpage:
 	* typo in the order of operations in the manpage
 
@@ -1510,6 +1528,9 @@ Wikipedia Articles
 * Population Ethics pages
 	* Sadistic conclusion
 	* Critical-threshold approaches
+* Daniel Ingram
+* Pragmatic Dharma (?)
+* Kenneth Folk
 
 ### Improve
 

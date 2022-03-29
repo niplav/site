@@ -465,7 +465,7 @@ incorporate more loving-kindness meditation into daily practice as well.
 
 On the evenings first and second day specifically, my head felt like a
 swarm of busy tiny insects were performing a great amount of labour inside
-of it – something was clearly happening, and I had the impression that
+of it — something was clearly happening, and I had the impression that
 a lot of neural connections were being built.
 
 ### Whether It Was a Good Idea

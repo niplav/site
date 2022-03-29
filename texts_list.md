@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-03-28, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-03-29, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,12 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [In Defense of Inclusionism (Gwern Branwen, 2018)](https://www.gwern.net/In-Defense-Of-Inclusionism)
+* [About This Website (Gwern Branwen, 2021)](https://www.gwern.net/About)
+* [The Arcfour Stream Cipher (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/08/09/)
+* [Fantasy Name Generator: Request for Patterns (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/01/04/)
+* [Do a cost-benefit analysis of your technology usage (TurnTrout, 2022)](https://www.lesswrong.com/posts/fri4HdDkwhayCYFaE/do-a-cost-benefit-analysis-of-your-technology-usage)
+* [Head in Hands: Notes on the Extraction and Display of Human Heads (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/4/19/head-in-hands-notes-on-the-extraction-and-display-of-human-heads)
 * [The Existential Risk of Math Errors (Gwern Branwen, 2019)](https://www.gwern.net/The-Existential-Risk-of-Mathematical-Error)
 * [How big a deal was the Industrial Revolution? (Luke Muehlhauser, 2017)](http://lukemuehlhauser.com/industrial-revolution/)
 * [Diceware Passphrases (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/02/07/)

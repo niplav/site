@@ -6,6 +6,6 @@
 > __[Senryūs](https://en.wikipedia.org/wiki/Senry%C5%AB) that seemed okay enough to write down.__
 
 Senryūs
-=======
+========
 
 Moved [here](./microfiction.html#Senry).

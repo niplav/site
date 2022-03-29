@@ -137,6 +137,34 @@ swamped by object-level strategies.
 Reductionism on Approach Difficulties
 --------------------------------------
 
+> In 1922, anthropologist Ivor Evans described multiple
+reasons for head-hunting among various societies in Borneo,
+[writing](https://archive.org/details/amongprimitivepe00evanuoft) that;
+>
+> > The reasons for head-hunting among Bornean tribes in general seem
+to have been threefold: firstly, the practice was not without religious
+significance; secondly, it was considered a sport and the heads regarded
+as trophies; and thirdly, among some tribes no youth was considered fit
+to rank as a man until he had obtained a head, the women taunting those
+who had been unsuccessful as cowards. (Evans, 186)
+>
+> A similar pattern was identified among societies on the island
+of Kiwai in New Guinea in 1903 by missionary James Chalmers, who
+[wrote](https://www.jstor.org/stable/2842999) that,
+“When heads are brought home, the muscle behind the ear is given in
+sago to lads to eat that they may be strong…The skull is secured,
+and the more skulls, the greater the honour. No young man could marry,
+as no woman would have him, without skulls.”
+>
+> In his volume on Head-hunters (1901), ethnologist Alfred Haddon wrote
+that, “There can be little doubt that one of the chief incentives to
+procure heads was to please the women.” In these societies, capturing
+the heads of enemies is associated with masculine virility, and a young
+man must seize the skulls of outsiders to be considered a viable partner
+for a young woman.
+
+*– [William Buckner](https://traditionsofconflict.com/blog/2018/4/19/head-in-hands-notes-on-the-extraction-and-display-of-human-heads), [“Head in Hands: Notes on the Extraction and Display of Human Heads”](https://traditionsofconflict.com/blog/2018/4/19/head-in-hands-notes-on-the-extraction-and-display-of-human-heads), 2018*
+
 When trying to cold-approach women, nearly all men find that they manifest
 a psychological block about going up to a woman and talking her first. The
 most common variant is *approach anxiety*, which manifests itself as,
@@ -208,7 +236,7 @@ guys trying to memorize responses to shit tests, baffling).
 My reasons for this as roughly as follows:
 
 * Consciously detecting shit tests takes a lot of mental energy (at least it would for me, which is the main reason I don't do it)
-* It makes you focus more on her, not on the situation/relation
+* It makes you focus more on her, not on the situation/relation, making you either invest too much or be too unrelaxed
 * There are many other, and imho better, things to do with your emotional energy:
 	* maintaining a positive vibe (especially on your side)
 		* this one is key: if you have a good vibe (and perhaps have already approached girls before your date), and some experience in approaching, the chance that you'll respond to a shit tests with a counter-tease or the right answer automatically is much higher
