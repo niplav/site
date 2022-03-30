@@ -30,14 +30,14 @@ An Exploratory Toy AI Takeoff Model
 labra un arduo cristal: el infinito  
 mapa de Aquel que es todas Sus estrellas.
 
-*– [Jorge Luis Borges](https://en.wikipedia.org/wiki/Jorge_Luis_Borges), [“Spinoza”](https://thefunambulist.net/literature/litterature-spinoza-by-borges), 1964*
+*— [Jorge Luis Borges](https://en.wikipedia.org/wiki/Jorge_Luis_Borges), [“Spinoza”](https://thefunambulist.net/literature/litterature-spinoza-by-borges), 1964*
 
 > Paraphrasing Roache (2008) the state of play is such that nobody
 believes the result of a simulation, except the person who performed
 the simulation, and everybody believes the result of an experiment,
 except the person who ran the experiment.
 
-*– Ryan G. McClarren, “Uncertainty Quantification and Predictive Computational Science“ p. 9, 2018*
+*— Ryan G. McClarren, “Uncertainty Quantification and Predictive Computational Science“ p. 9, 2018*
 
 (Although the quote apparently goes back to Einstein, see “The
 advancement of science, and its burdens” p. 13, only there with "theory"
@@ -50,7 +50,7 @@ about whether you should focus on short-term or long-term, or whether
 we should try to reduce the conflict between the short-termers and the
 long-termers and it’s like, there doesn’t need to be a conflict.
 
-*– [Stuart J. Russell](https://en.wikipedia.org/wiki/Stuart_J._Russell), [“The flaws that make today’s AI architecture unsafe and a new approach that could fix it”](https://80000hours.org/podcast/episodes/stuart-russell-human-compatible-ai/#what-most-needs-to-be-done-015014) (Episode 80 of the [80,000 hours podcast](https://80000hours.org/podcast/)), 2020*
+*— [Stuart J. Russell](https://en.wikipedia.org/wiki/Stuart_J._Russell), [“The flaws that make today’s AI architecture unsafe and a new approach that could fix it”](https://80000hours.org/podcast/episodes/stuart-russell-human-compatible-ai/#what-most-needs-to-be-done-015014) (Episode 80 of the [80,000 hours podcast](https://80000hours.org/podcast/)), 2020*
 
 Introduction
 ------------

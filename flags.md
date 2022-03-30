@@ -20,7 +20,7 @@ will have sped to fixation, so their total fitness contribution is
 > 	$$W_s=\left (\frac{1+s}{1+hs}\right )^{\hat{n}}$$
 > </div>
 
-*– [John H. Gillespie](https://en.wikipedia.org/wiki/John_H._Gillespie), “Population Genetics” p. 172, 2004*
+*— [John H. Gillespie](https://en.wikipedia.org/wiki/John_H._Gillespie), “Population Genetics” p. 172, 2004*
 
 * 🇧🇬 (October 2021)
 * 🇨🇳 (March 2022)

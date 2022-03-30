@@ -153,7 +153,7 @@ In the philosophies of animal welfare and rights, sentience implies the
 ability to experience [pleasure](https://en.wikipedia.org/wiki/Pleasure)
 and [pain](https://en.wikipedia.org/wiki/Suffering).
 
-*– English Wikipedia, [“Sentience”](https://en.wikipedia.org/wiki/Sentience), 2019*
+*— English Wikipedia, [“Sentience”](https://en.wikipedia.org/wiki/Sentience), 2019*
 
 Very often, the word "sentience" is used to refer to the ability to
 feel pleasure or pain, or, to be more general, have experiences with a
@@ -179,7 +179,7 @@ sentients. Hence, for the purpose here, the important dividing line is
 not between sentients and non-sentients, but between affective sentients
 and non-affective beings (sentient or non-sentient).
 
-*– Yew-Kwang Ng, [“Towards Welfare Biology: Evolutionary Economics of Animal Consciousness and Suffering”](.doc/better_words/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf) p. 4, 1995*
+*— Yew-Kwang Ng, [“Towards Welfare Biology: Evolutionary Economics of Animal Consciousness and Suffering”](.doc/better_words/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf) p. 4, 1995*
 
 Thus, it seems desirable to differentiate between the ability to have
 subjective experiences ("sentience") and the ability to have affective
@@ -244,7 +244,7 @@ paradox, but not paragnosis, paratechnē and paraëpisteme
 #### Missing Words
 
 * eating : drinking :: feeding : ?
-* hungry: satiated :: thirsty : quenched :: horny : ? ("That's my secret — I'm *always* horny." \*hulk transform\*)
+* hungry: satiated :: thirsty : quenched :: horny : ? ("That's my secret—I'm *always* horny." \*hulk transform\*)
 
 Types of Guy
 -------------

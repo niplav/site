@@ -2944,7 +2944,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Pharma Virumque (Scott Alexander, 2015)](http://slatestarcodex.com/2015/02/17/pharma-virumque/)
 * [Evening Doc (Scott Alexander, 2014)](http://slatestarcodex.com/2014/05/06/evening-doc/)
 * [An Iron Curtain Has Descended Upon Psychopharmacology (Scott Alexander, 2014)](http://slatestarcodex.com/2014/08/16/an-iron-curtain-has-descended-upon-psychopharmacology/)
-* [Methods of Proof — Direct Implication (Jeremy Kun, 2013)](https://jeremykun.com/2013/02/16/methods-of-proof-direct-implication/)
+* [Methods of Proof—Direct Implication (Jeremy Kun, 2013)](https://jeremykun.com/2013/02/16/methods-of-proof-direct-implication/)
 * [Macro Shares: Prediction Markets via Stock Exchanges? (Peter McCluskey, 2006)](http://www.overcomingbias.com/2006/11/macro_shares_pr.html)
 * [Thank you ma’am, may I have another? (Robin Hanson, 2006)](http://www.overcomingbias.com/2006/11/thank_you_maam_.html)
 * [Beware of Disagreeing with Lewis (Robin Hanson, 2006)](http://www.overcomingbias.com/2006/11/beware_of_disag.html)

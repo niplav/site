@@ -21,7 +21,7 @@ Ertapp' ich sie im Bade?
 Ich bin ein Mann, das fällt ihr ein,  
 Wie schrie sie sonst um Gnade!
 
-*– [Friedrich Schiller](https://en.wikipedia.org/wiki/Friedrich_Schiller), “Männerwürde”, 1805*
+*— [Friedrich Schiller](https://en.wikipedia.org/wiki/Friedrich_Schiller), “Männerwürde”, 1805*
 
 Approaches
 ----------
@@ -42,7 +42,7 @@ mountain against the better advice of the locals. I've never had any
 experience like this in set: she went on rambling for probably 3 minutes
 (those of you who have done daygame approaches know that this is super
 uncommon, and only happens if either the women is super into you or
-crazy — possibly both).
+crazy—possibly both).
 
 When I got talking again, she compulsively opened and closed her jacket
 probably five times, bending her body weirdly to do so (I am pretty sure
@@ -138,7 +138,7 @@ contemplated buying a ticket, but decided that it would be too needy,
 and instead decided to check out the logistics around the area.
 
 Searching for good bars, I received a flake text from the Mexican girl,
-causing me to feel an emotion that I had never felt before — an odd
+causing me to feel an emotion that I had never felt before—an odd
 sense between an inner sigh and an inner fist-pump. Bingo. The SDL-attempt
 was on. I did two more approaches, found a bar, ordered a beer, and told
 Miss Candle where I was.
@@ -166,7 +166,7 @@ and 8 sexual partners in total, believing I was understating the number
 (the real number being 2 girlfriends and 1 sexual partner).
 
 I was really enjoying being honest with her about my intentions in a way
-I had never been before with a woman — she knew exactly where we stood,
+I had never been before with a woman—she knew exactly where we stood,
 I had exactly communicated to her what I wanted, and that we were engaged
 in the playful dance of seduction and resistance. Glorious.
 
@@ -231,7 +231,7 @@ baths and watching movies". I then bounced her to the second venue,
 a bar near to where we had initially met. On the way I did some light
 kino (guiding her with my arm around her waist, touching her shoulder &
 hands), and in the bar I chose a seat so that she could only sit next
-to me (and not in front of me — crucial for escalation). I amped up
+to me (and not in front of me—crucial for escalation). I amped up
 the escalation a bit, touching her a bit more, doing the questions game
 routine, talking about past relationships and sexual fantasies, as well
 as creating a bubble around us by guessing what the other people around
@@ -241,7 +241,7 @@ At some point in the questions game she asked me how nervous I was
 feeling, and I told her (truthfully) that I wasn't feeling very nervous
 (saying it was a 1.5/5). On my question whether I appeared nervous to her,
 she said yes (which surprised me, because I was genuinely not feeling
-very nervous, this being my second date that week — misperception on
+very nervous, this being my second date that week—misperception on
 her or my part, or simply a shit test?)
 
 I tried not to invest too much by being silent for longer stretches, which
@@ -274,7 +274,7 @@ I decided not to call a taxi, and we took public transport to my place.
 
 We both got a glass of water, and carried on making out. After maybe 5
 minutes, I physically picked her up and carried her into my room (her
-remarking on it when seeing my dumbbells — I had earlier stressed the
+remarking on it when seeing my dumbbells—I had earlier stressed the
 importance of [exercise in my life](./exercise_log.html)). We carried
 on making out, and nothing else happened that night.
 

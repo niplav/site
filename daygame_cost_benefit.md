@@ -26,12 +26,12 @@ Daygame Cost-Benefit Analysis
 > the man of feeling and action: despair if he fail in his quest,
 > and terrors unutterable and unimaginable if he succeed.
 
-*– [Howard Phillips Lovecraft](https://en.wikipedia.org/wiki/H._P._Lovecraft), [“From Beyond”](http://www.hplovecraft.com/writings/texts/fiction/fb.aspx), 1934*
+*— [Howard Phillips Lovecraft](https://en.wikipedia.org/wiki/H._P._Lovecraft), [“From Beyond”](http://www.hplovecraft.com/writings/texts/fiction/fb.aspx), 1934*
 
 > Daygame is the art of meeting and attracting women during the daytime
 > in different locations and at different times of the day.
 
-*– [Sebastian Harris](https://www.globalseducer.com/), [“Daygame: A Quick Beginner’s Guide“](https://www.globalseducer.com/daygame/), 2018*
+*— [Sebastian Harris](https://www.globalseducer.com/), [“Daygame: A Quick Beginner’s Guide“](https://www.globalseducer.com/daygame/), 2018*
 
 Many daygamers follow the [London Daygame
 Model](https://tddaygame.com/london-daygame-model/) which is fairly
@@ -76,7 +76,7 @@ he focuses on nightgame in bars and clubs and concludes that
 > activities. Prostitution is the better option if you are middle-class,
 > don’t have the free time, or dislike engaging in game.
 
-*– [Free Northerner](https://freenortherner.com/), [“Economic Analysis of Casual Sex – Prostitution vs Game”](http://freenortherner.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/), 2012*
+*— [Free Northerner](https://freenortherner.com/), [“Economic Analysis of Casual Sex – Prostitution vs Game”](http://freenortherner.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/), 2012*
 
 (Inconsistent capitalization is in the original text)
 
@@ -114,7 +114,7 @@ and the approach-to-lay ratio.
 > These are realistic stats, this is cold approach, cold approach
 > is tough.
 
-*– [James Tusk](https://project-tusk.com), [“Realistic Daygame Statistics (Daygame Tips)”](https://project-tusk.com/blogs/the-tusk-diaries/realistic-daygame-statistics), 2017*
+*— [James Tusk](https://project-tusk.com), [“Realistic Daygame Statistics (Daygame Tips)”](https://project-tusk.com/blogs/the-tusk-diaries/realistic-daygame-statistics), 2017*
 
 James Tusk is a very good looking daygame coach, so these numbers are
 quite high.
@@ -257,7 +257,7 @@ Date ratios:
 	sdate::[[38 8][174 11][236 14][318 21][344 23][367 26][434 27][478 27][543 32][588 33][663 36][691 41][752 44][774 47][853 53][942 54][1087 76]]
 	sdaterat::{(*x),%/|x}'sdate
 
-His numbers are quite high, and I'm not really sure why – perhaps a
+His numbers are quite high, and I'm not really sure why—perhaps a
 combination of only taking numbers from somebody experienced, combined
 with the fact that he does daygame in russia, which is supposedly easier
 than London, where most of the others publishing data do daygame.
@@ -298,7 +298,7 @@ The 2019 review unfortunately doesn't contain the number of approaches, but he w
 > with roughly the same age and quality: an improvement on last year’s
 > ratio.
 
-*– [Thomas Crown](https://thomascrownpua.wordpress.com), [“2019 In Review”](https://thomascrownpua.wordpress.com/2020/01/03/2019-in-review/), 2020*
+*— [Thomas Crown](https://thomascrownpua.wordpress.com), [“2019 In Review”](https://thomascrownpua.wordpress.com/2020/01/03/2019-in-review/), 2020*
 
 From this one can deduce that the number of approaches was `$11*53=583$`,
 or at least a number somewhere near that.
@@ -327,7 +327,7 @@ I believe, so these numbers are after several years of training):
 
 > Most of these numbers rely upon estimates because I didn’t keep notes.
 
-*– [Nick Krauser](https://krauserpua.com/), [“My 2013 Daygame Stats”](https://krauserpua.com/2014/01/01/my-2013-daygame-stats/), 2014*
+*— [Nick Krauser](https://krauserpua.com/), [“My 2013 Daygame Stats”](https://krauserpua.com/2014/01/01/my-2013-daygame-stats/), 2014*
 
 Lay ratios:
 
@@ -476,18 +476,18 @@ a language or musical instrument) and simply the cost of paying for dates.
 > 3-5 times a week and talking to 10 girls during each session (keep each
 > session to no more than 2 hours).
 
-*– [Tom Torero](https://tomtorero.com/), [“Beginner's Guide to Daygame”](./doc/daygame_cost_benefit/beginners_guide_to_daygame_torero_2018.pdf) p. 6, 2018*
+*— [Tom Torero](https://tomtorero.com/), [“Beginner's Guide to Daygame”](./doc/daygame_cost_benefit/beginners_guide_to_daygame_torero_2018.pdf) p. 6, 2018*
 
 > Most regular hustlers go out 3-5 times a week and do 10 approaches
 > each session, meaning 30-50 per week.
 
-*– [Tom Torero](https://tomtorero.com/), [“Beginner's Guide to Daygame”](./doc/daygame_cost_benefit/beginners_guide_to_daygame_torero_2018.pdf) p. 13, 2018*
+*— [Tom Torero](https://tomtorero.com/), [“Beginner's Guide to Daygame”](./doc/daygame_cost_benefit/beginners_guide_to_daygame_torero_2018.pdf) p. 13, 2018*
 
 I will assume that most daygamers will do around 4 approaches an hour
 (the ones I have met are more choosy, so they have a lower volume),
 with 15 minutes for one approach.
 
-The opportunity cost of daygame is unclear – what would one be doing
+The opportunity cost of daygame is unclear—what would one be doing
 instead? One could dream of daygamers instead cultivating friendships,
 learning languages or instruments and meditating, and while that could
 certainly sometimes be the case, a lot of that time would also be spent
@@ -620,7 +620,7 @@ is often accompanied with shame<!--TODO: source-->).
 > things you find on the internet) costs about $250-500/hr depending
 > on the city.
 
-*– [Free Northerner](https://freenortherner.com/), [“Economic Analysis of Casual Sex – Prostitution vs Game”](http://freenortherner.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/), 2012*
+*— [Free Northerner](https://freenortherner.com/), [“Economic Analysis of Casual Sex – Prostitution vs Game”](http://freenortherner.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/), 2012*
 
 <!--TODO: find own sources-->
 

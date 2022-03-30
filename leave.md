@@ -35,7 +35,7 @@ https://www.lesswrong.com/posts/fri4HdDkwhayCYFaE/do-a-cost-benefit-analysis-of-
 > New religions and mystery cults explode across the planet; much of
 the Net is unusable, flattened by successive semiotic jihads.
 
-*– [Charles Stross](https://en.wikipedia.org/wiki/Charles_Stross), [“Accelerando”](https://en.wikipedia.org/wiki/Accelerando) p. 169, 2005*
+*— [Charles Stross](https://en.wikipedia.org/wiki/Charles_Stross), [“Accelerando”](https://en.wikipedia.org/wiki/Accelerando) p. 169, 2005*
 
 Many people have noticed that they are using the internet and online
 services (e.g. through apps) more than they would ideally like, in a
@@ -71,7 +71,7 @@ While human minds are extraordinarily adaptive (surviving as
 hunter-gatherers, farmers, industrial workers, scientists,
 in space, etc.), they appear to have some hard-coded
 characteristics that are not easily changed during a
-human's lifetime (or even by evolution — [counterexamples
+human's lifetime (or even by evolution—[counterexamples
 include](https://en.wikipedia.org/wiki/Recent_human_evolution)
 the evolution of [lactase
 persistence](https://en.wikipedia.org/Lactase_persistence), [alcohol
@@ -113,7 +113,7 @@ problem](https://www.lesswrong.com/rationality/knowing-about-biases-can-hurt-peo
 
 > Coherent, comprehensive theories of cognitive bias mitigation are lacking.
 
-*– [English Wikipedia](https://en.wikipedia.org/wiki/English_Wikipedia), [“Cognitive Bias Mitigation”](https://en.wikipedia.org/wiki/Cognitive_Bias_Mitigation), 2021*
+*— [English Wikipedia](https://en.wikipedia.org/wiki/English_Wikipedia), [“Cognitive Bias Mitigation”](https://en.wikipedia.org/wiki/Cognitive_Bias_Mitigation), 2021*
 
 This applies even more strongly to addictive tendencies and emotional
 outbursts.
@@ -159,7 +159,7 @@ mousetraps. Roughly a third of his inventions are legal, a third are
 illegal, and the remainder are legal but will become illegal as soon as
 the legislatosaurus wakes up, smells the coffee, and panics.
 
-*– [Charles Stross](https://en.wikipedia.org/wiki/Charles_Stross), [“Accelerando”](https://en.wikipedia.org/wiki/Accelerando) p. 11, 2005*
+*— [Charles Stross](https://en.wikipedia.org/wiki/Charles_Stross), [“Accelerando”](https://en.wikipedia.org/wiki/Accelerando) p. 11, 2005*
 
 Existing legislative bodies move too slowly and don't understand
 the problem well enough to do much about it, and often the resulting

@@ -11,7 +11,7 @@ About
 > Gänzliche Illusionslosigkkeit über das Zeitalter und dennoch ein
 rückhaltloses Bekenntnis zu ihm ist ihr Kennzeichen.
 
-*– Walter Benjamin, “Erfahrung und Armut”, 1933*
+*— Walter Benjamin, “Erfahrung und Armut”, 1933*
 
 > But human nature being what it is, there are going to be some people on
 the Internet claiming that everything is intrinsically tangled up into a
@@ -20,7 +20,7 @@ pick and choose whichever facets they personally like. And the second
 group is going to be 100% right just like they always are every single
 time that argument happens anywhere.
 
-*– Groon the Walker, “The Erogamer”, 2020*
+*— Groon the Walker, “The Erogamer”, 2020*
 
 The Site
 --------
@@ -41,7 +41,7 @@ This is inspired by the idea of Long Content, produced under the motto
 
 > Think Less Wrong, act Long Now and Suck Less.
 
-*– paraphrasing [Gwern Branwen](https://www.gwern.net/), [“About This Website”](https://www.gwern.net/About), 2019*
+*— paraphrasing [Gwern Branwen](https://www.gwern.net/), [“About This Website”](https://www.gwern.net/About), 2019*
 
 For this reason, articles are not published by date,
 but rather by category, both to make it easier to read
@@ -79,7 +79,7 @@ informal diary-style text entries (posts). Posts are typically displayed
 in reverse chronological order, so that the most recent post appears
 first, at the top of the web page.
 
-*– [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), [“Blog”](https://en.wikipedia.org/wiki/Blog), 2021*
+*— [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), [“Blog”](https://en.wikipedia.org/wiki/Blog), 2021*
 
 I don't think this website can be classified as a blog—it strongly
 lacks the chronological element of the standard blog format, except for
@@ -151,7 +151,7 @@ My decision to start a website was solidified by [guzey
 
 > What's the bottleneck to more things like "Slate Star Codex" or Gwern's site existing in the world?
 
-*– [arikir](https://old.reddit.com/user/arikr), [“What's the bottleneck to more things like "Slate Star Codex" or Gwern's site existing in the world?”](https://old.reddit.com/r/slatestarcodex/comments/ab3ry1/whats_the_bottleneck_to_more_things_like_slate/) on [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/), 2019*
+*— [arikir](https://old.reddit.com/user/arikr), [“What's the bottleneck to more things like "Slate Star Codex" or Gwern's site existing in the world?”](https://old.reddit.com/r/slatestarcodex/comments/ab3ry1/whats_the_bottleneck_to_more_things_like_slate/) on [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/), 2019*
 
 <!--TODO: Lesswrong question: [What makes people intellectually
 active?](https://www.lesswrong.com/posts/XYYyzgyuRH5rFN64K/what-makes-people-intellectually-active)-->
@@ -215,6 +215,8 @@ I use a [script](./code/sitelint) to fix easily catchable mistakes.
 * capitalization of headings
 * proselint
 * fixing 404'ed links
+* twitter links are nitter.hu links
+* books are linked to goodreads page (instead of, say Amazon or Wikipedia)
 -->
 
 <!--TODO: What use "", “”, »«, ›‹ and ‘’ for? What should they differentiate?-->

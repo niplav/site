@@ -74,7 +74,7 @@ Can experience qualia, such as the color red.
 
 > Sentience is the capacity to feel, perceive, or experience subjectively.
 
-*– [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), [“Sentience”](https://en.wikipedia.org/wiki/Sentience), 2019*
+*— [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), [“Sentience”](https://en.wikipedia.org/wiki/Sentience), 2019*
 
 Example: Myself  
 Counter-example: P-Zombie
@@ -104,7 +104,7 @@ Possesses "wisdom" and "insight", think "a good human person"
 > […] sapience […] is the ability to think and act using knowledge,
 experience, understanding, common sense and insight.
 
-*– [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), [“Wisdom”](https://en.wikipedia.org/wiki/Sapience), 2019*
+*— [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), [“Wisdom”](https://en.wikipedia.org/wiki/Sapience), 2019*
 
 Example: Lao-Tse  
 Counter-Example: A golden retriever

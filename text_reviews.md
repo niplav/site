@@ -189,7 +189,7 @@ present them in short and watered-down form, and even state in a footnote:
 > works of ethical philosophers; it is that no one ever, ever wins
 > the debate
 
-*– F. Bailey Norwood/Jayson L. Lusk, “Compassion, by the Pound” p. 388, 2011*
+*— F. Bailey Norwood/Jayson L. Lusk, “Compassion, by the Pound” p. 388, 2011*
 
 The chapter on Talking with Economists is better, but plagued with
 the eternal problem of economics: people don't like it, and the same
@@ -290,7 +290,7 @@ touches on this:
 count in its favor nor against it. (The same, of course, is true
 of an optimistic view.)
 
-*– [David Benatar](https://en.wikipedia.org/wiki/David_Benatar), “The Human Predicament” p. 225, 2017*
+*— [David Benatar](https://en.wikipedia.org/wiki/David_Benatar), “The Human Predicament” p. 225, 2017*
 
 It seems to me that humans can believe very bad things to be the case and
 still be happier than most other humans in their lives (I know this is

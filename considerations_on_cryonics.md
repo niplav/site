@@ -34,14 +34,14 @@ Or would I be gone as quickly as the breath I give last?
 If I died, would I be a woman in heaven?  
 Or would I fall asleep, not knowing what it’s like to feel alive?
 
-*– [Patricia Taxxon](https://www.youtube.com/channel/UCOjLfFE0TABS9bk05oH-kgw), [“Deconstruct”](https://patriciataxxon.bandcamp.com/track/deconstruct) from [“Foley Artist”](https://patriciataxxon.bandcamp.com/album/foley-artist), 2019*
+*— [Patricia Taxxon](https://www.youtube.com/channel/UCOjLfFE0TABS9bk05oH-kgw), [“Deconstruct”](https://patriciataxxon.bandcamp.com/track/deconstruct) from [“Foley Artist”](https://patriciataxxon.bandcamp.com/album/foley-artist), 2019*
 
 > One day they woke me up  
 So I could live forever  
 It’s such a shame the same  
 Will never happen to you
 
-*– [Jonathan Coulton](https://en.wikipedia.org/wiki/Jonathan_Coulton), [“Want You Gone”](https://genius.com/Aperture-science-psychoacoustic-laboratories-want-you-gone-lyrics) from [“Portal 2: Songs to Test By (Volume 3)”](https://en.wikipedia.org/wiki/Music_of_Portal_2), 2011*
+*— [Jonathan Coulton](https://en.wikipedia.org/wiki/Jonathan_Coulton), [“Want You Gone”](https://genius.com/Aperture-science-psychoacoustic-laboratories-want-you-gone-lyrics) from [“Portal 2: Songs to Test By (Volume 3)”](https://en.wikipedia.org/wiki/Music_of_Portal_2), 2011*
 
 Many would-be cryonicists cryocrastinate, i.e. they put off signing
 up for cryonics until a later point in their life. This has often
@@ -51,7 +51,7 @@ and can be easily be delayed until another point in life.
 
 > I'll get around to doing it eventually
 
-*– person who was cremated*
+*— person who was cremated*
 
 However, it hasn't yet been explored whether this procrastination might be
 rational if eventually followed through with: Many cryonics organisations
@@ -114,7 +114,7 @@ Cost-Benefit Calculation for Cryonics
 > this future creature, then the present value of a 5% chance of revival
 > is \$125,000, which is about the most expensive cryonics price now.
 
-*– [Robin Hanson](https://en.wikipedia.org/wiki/Robin_Hanson), [“Break Cryonics Down”](http://www.overcomingbias.com/2009/03/break-cryonics-down.html), 2009*
+*— [Robin Hanson](https://en.wikipedia.org/wiki/Robin_Hanson), [“Break Cryonics Down”](http://www.overcomingbias.com/2009/03/break-cryonics-down.html), 2009*
 
 To find out whether to sign up for cryonics at all, one needs
 to make a cost-benefit calculation. This has been [attempted
@@ -295,7 +295,7 @@ of LEV-->, though many futurists seem more optimistic<!--TODO source-->:
 	levyear=2080
 
 However, there are some reasons why one might want to stay signed up
-to cryonics even after LEV – there might be types of accidents where
+to cryonics even after LEV—there might be types of accidents where
 large parts of the body are destroyed in ways that both lead to death
 and that regenerative medicine at the time can't handle, and so one will
 want to be preserved until the missing bodyparts can be re-created and
@@ -358,7 +358,7 @@ and the length of their membership.
 7. Long-term member (total membership of 30 years or longer): \$305 annually or \$154 semi-annually or \$77 quarterly.  
 8. Long-term member (total membership of 40 years or longer): \$60.00 annually or \$30.00 semi-annually or \$15.00 quarterly
 
-*– [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
+*— [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
 
 The following assumptions will be made in the implementation:
 
@@ -422,14 +422,14 @@ the legally pronounced Member is delivered to the Alcor operating room
 for cryoprotection. __This charge is waived for full-time students under
 age 25 and minors (under age 18).__
 
-*– [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
+*— [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
 
 Emphasis mine.
 
 > Current CMS charges are:  
 > \$180 annually, \$90 semi-annually, or \$45 quarterly
 
-*– [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
+*— [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
 
 I will assume that the cryonics member starts paying a CMS fee starting
 10 years before their actuarial age of death.
@@ -464,7 +464,7 @@ accurately price in the arrival date of LEV.
 > • \$50,000 Surcharge for cases in China.  
 > […]
 
-*– [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
+*— [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
 
 <!--TODO: image that shows that these have been fairly consistent over time-->
 
@@ -592,7 +592,7 @@ the instrumental as well as the intrinsic benefits of health improvements
 one is considering. If one did both of those things, there would be no
 reasons of the kinds we have accepted for discounting future health.
 
-*– [Hilary Greaves](https://en.wikipedia.org/wiki/Hilary_Greaves), [“Discounting future health”](./doc/considerations_on_cryonics/discounting_future_health_greaves_2017.pdf) p. 7, 2017*
+*— [Hilary Greaves](https://en.wikipedia.org/wiki/Hilary_Greaves), [“Discounting future health”](./doc/considerations_on_cryonics/discounting_future_health_greaves_2017.pdf) p. 7, 2017*
 
 She also argues against applying considerations from diminishing marginal
 returns to health (although it must be noted that this analysis does
@@ -606,7 +606,7 @@ been constructed to be linear in well-being. There is therefore
 no reason based in considerations of diminishing marginal returns
 to discount future QALYs.
 
-*– [Hilary Greaves](https://en.wikipedia.org/wiki/Hilary_Greaves), [“Discounting future health”](./doc/considerations_on_cryonics/discounting_future_health_greaves_2017.pdf) p. 3, 2017*
+*— [Hilary Greaves](https://en.wikipedia.org/wiki/Hilary_Greaves), [“Discounting future health”](./doc/considerations_on_cryonics/discounting_future_health_greaves_2017.pdf) p. 3, 2017*
 
 Additionally, problems with interpersonal utility comparison do not apply
 in this case, since the externalities from signing up for cryonics are
@@ -671,7 +671,7 @@ a rich and valuable world (by my lights as well as theirs).
 to my own, and will use their influence to create a rich and valuable
 world (by my lights as well as theirs).
 
-*– Paul Christiano, [“Why might the future be good?”](https://forum.effectivealtruism.org/posts/gMzWWtdsArkwqNJEK/why-might-the-future-be-good), 2013*
+*— Paul Christiano, [“Why might the future be good?”](https://forum.effectivealtruism.org/posts/gMzWWtdsArkwqNJEK/why-might-the-future-be-good), 2013*
 
 This would mean that the probability distribution over the value of
 a lifeyear in the future conditional on being resuscitated could look
@@ -802,7 +802,7 @@ desires as they may have been expressed in a written, audio, or video
 __Statement of Revival Preferences and Desires__, which the Member may at
 his/her discretion attach to this Agreement.
 
-*– [Alcor Life Extension Foundation](https://www.alcor.org/), [“Cryopreservation Agreement”](./doc/considerations_on_cryonics/cryopreservation_agreement_alcor_2012.pdf) p. 15/16, 2012*
+*— [Alcor Life Extension Foundation](https://www.alcor.org/), [“Cryopreservation Agreement”](./doc/considerations_on_cryonics/cryopreservation_agreement_alcor_2012.pdf) p. 15/16, 2012*
 
 Although not a failsafe measure, steps can be taken to reduce
 the risks from hellish scenarios above by making arrangements with
@@ -838,7 +838,7 @@ the future at first. People today sometimes leave their friends and
 even families to move to other places, but those people seem to be
 the exception rather than the norm. However, people nearly always
 move on with their life, even as they get divorced, get estranged
-from their friends or see their children less regularly – they
+from their friends or see their children less regularly—they
 don't seem to prefer death to continuing their lives without
 specific people. This consideration doesn't seem to be a [true
 rejection](https://www.lesswrong.com/rationality/is-that-your-true-rejection).
@@ -882,7 +882,7 @@ in the future to \$50000.
 > is a lower 12% (n=59) - but interestingly, they seem to be more likely
 > to be signed up for cryonics.
 
-*– [Gwern Branwen](https://www.gwern.net), [“Plastination versus Cryonics”](https://www.gwern.net/plastination), 2014*
+*— [Gwern Branwen](https://www.gwern.net), [“Plastination versus Cryonics”](https://www.gwern.net/plastination), 2014*
 
 Besides these estimates, there exist also two related questions
 on the prediction website Metaculus. ["Before 1 January 2050,
@@ -1477,7 +1477,7 @@ now, certainly it could be 10 or 15 years if we get unlucky. Similarly,
 for humans, a 50-50 chance would be twenty years at this point, and
 there's a 10 percent chance that we won't get there for a hundred years.
 
-*– [Aubrey de Grey](https://en.wikipedia.org/wiki/Aubrey_de_grey), [“Aubrey de Grey on Progress and Timescales in Rejuvenation Research”](https://www.fightaging.org/archives/2018/02/aubrey-de-grey-on-progress-and-timescales-in-rejuvenation-research/), 2018*
+*— [Aubrey de Grey](https://en.wikipedia.org/wiki/Aubrey_de_grey), [“Aubrey de Grey on Progress and Timescales in Rejuvenation Research”](https://www.fightaging.org/archives/2018/02/aubrey-de-grey-on-progress-and-timescales-in-rejuvenation-research/), 2018*
 
 The 90% confidence interval for this variable lies in `$[2040;2150]$`:
 Aubrey de Grey gives a mean of 2038, I believe that number to be
@@ -1534,7 +1534,7 @@ cryonics has a mean value of \$18m and a median of ≈-\$100k
 (perhaps because of longevity escape velocity arriving and making
 the value simply the cost for signing up), but with very long tails,
 especially on the positive side: a fifth percentile of -\$2.15m,
-and a 95th percentile of *squints* \$58.5m – quite a range!
+and a 95th percentile of *squints* \$58.5m—quite a range!
 
 The minimum and maximum of the simulation are even more extreme: -\$39b
 for the minimum and \$20b for the maximum (these vary strongly every
@@ -1599,7 +1599,7 @@ cryonics ɴᴏᴡ. I mean ʀɪɢʜᴛ ɴᴏᴡ. Go to the website of
 [Alcor](http://www.alcor.org/BecomeMember/index.html) or the [Cryonics
 Institute](https://www.cryonics.org/membership) and follow the instructions.
 
-*– [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“You Only Live Twice”](https://www.lesswrong.com/posts/yKXKcyoBzWtECzXrE/you-only-live-twice), 2008*
+*— [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“You Only Live Twice”](https://www.lesswrong.com/posts/yKXKcyoBzWtECzXrE/you-only-live-twice), 2008*
 
 In case you're now convinced that signing up for cryonics is the right
 thing to do for you, great! I encourage you strongly to __sign up as

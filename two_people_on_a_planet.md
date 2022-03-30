@@ -17,7 +17,7 @@ Two People on a Planet
 > Wo ist dein Delos, wo dein Olympia,  
 > Daß wir uns alle finden am höchsten Fest?
 
-*– [Friedrich Hölderlin](https://en.wikipedia.org/wiki/Friedrich_H%C3%B6lderlin), [“Gesang des Deutschen”](https://www.textlog.de/17843.html), 1800*
+*— [Friedrich Hölderlin](https://en.wikipedia.org/wiki/Friedrich_H%C3%B6lderlin), [“Gesang des Deutschen”](https://www.textlog.de/17843.html), 1800*
 
 The Problem
 ------------
@@ -29,7 +29,7 @@ Munroe 2014)"):
 > If two immortal people were placed on opposite sides of an uninhabited
 > Earthlike planet, how long would it take them to find each other?
 
-*– [Randall Munroe](https://en.wikipedia.org/wiki/Randall_Munroe), [“Lost Immortals” in “What If?”, p. 183](./doc/lost_immortals_munroe_2014.pdf), 2014*
+*— [Randall Munroe](https://en.wikipedia.org/wiki/Randall_Munroe), [“Lost Immortals” in “What If?”, p. 183](./doc/lost_immortals_munroe_2014.pdf), 2014*
 
 Here, I add several clarifications to the problem.
 
@@ -83,7 +83,7 @@ Exchange post:
 > create markings. To protect the environment, you are not allowed to
 > leave other stuff, like a blood trace or breadcrumbs.
 
-*– [RobAu](https://math.stackexchange.com/users/53495/robau), [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/questions/1214022/fastest-way-to-meet-without-communication-on-a-sphere/), 2015*
+*— [RobAu](https://math.stackexchange.com/users/53495/robau), [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/questions/1214022/fastest-way-to-meet-without-communication-on-a-sphere/), 2015*
 
 In this problem, marking are not possible, and players don't start at
 the opposite sides of the planet (which makes a solution a lot harder).
@@ -94,7 +94,7 @@ the opposite sides of the planet (which makes a solution a lot harder).
 > you could prefer to walk longer distances in a straight line as opposed
 > to choosing a completely new direction after every centimeter of movement.
 
-*– [MvG](https://math.stackexchange.com/users/35416/mvg), answer to [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/a/1214062), 2015*
+*— [MvG](https://math.stackexchange.com/users/35416/mvg), answer to [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/a/1214062), 2015*
 
 This solution does not need any prerequisites.
 
@@ -112,7 +112,7 @@ This solution does not need any prerequisites.
 > of your partner and thus discovering each other in the course of the
 > exhaustive search.
 
-*– [Danikov](https://math.stackexchange.com/users/221242/danikov), answer to [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/a/1214323), 2015*
+*— [Danikov](https://math.stackexchange.com/users/221242/danikov), answer to [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/a/1214323), 2015*
 
 This is similar to the strategy of randomly switching positions, but
 without opposite starting positions. It assumes one can adequately
@@ -131,7 +131,7 @@ assumes that the person can generate random bits.
 > it becomes increasingly likely that your paths will cross at least once.)  
 > Speed randomisation is necessary to avoid never meeting because of resonance.
 
-*– [Luke McGregor](https://math.stackexchange.com/users/30204/luke-mcgregor), answer to [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/a/1215229), 2015*
+*— [Luke McGregor](https://math.stackexchange.com/users/30204/luke-mcgregor), answer to [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/a/1215229), 2015*
 
 #### Find a Schelling Point
 
@@ -140,7 +140,7 @@ assumes that the person can generate random bits.
 > them all by traveling the sphere methodically) and heading there as a
 > Schelling point.
 
-*– [Qwertronix](https://math.stackexchange.com/users/54545/qwertronix), answer to [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/a/1214322), 2015*
+*— [Qwertronix](https://math.stackexchange.com/users/54545/qwertronix), answer to [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/a/1214322), 2015*
 
 This solution is similar to most practical solutions to these kinds
 of problems. It assumes that there *is* a most interesting star

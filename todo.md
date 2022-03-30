@@ -38,8 +38,7 @@ Site
 * Convert twitter links to nitter.hu links
 * List of writings by importance/finishedness
 	* List of texts by year/author
-* Replace ' – ' by ' — ' (en dash by em dash), both in quotes & within text
-	* Replace “” quotes by "" quotes, “” is for quotes within quotes
+* Replace “” quotes by "" quotes, “” is for quotes within quotes
 * Improve linting
 	* Incorporate `https://www.gwern.net/static/build/markdown-lint.sh`
 	* `https://www.html-tidy.org/`
@@ -663,7 +662,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Refactoring Rational Feelings
 	*	Relation between emotions, goals, strategy/planning, moral
 		development etc.
-* Yang Wenli and Reinhard von Lohengramm – Taoism and Confucianism?
+* Yang Wenli and Reinhard von Lohengramm—Taoism and Confucianism?
 	* Yang's "Win without fighting" is Wu Wei
 * The Argument from Explanation of Intuition
 	*	When you explain an intuition by its causal origin (e.g. a moral
@@ -975,7 +974,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 > we should be far more explicit about the assumed background against
 > which we intend to communicate.
 
-*– John Nerst, [“30 Fundamentals”](https://everythingstudies.com/2018/07/16/30-fundamentals/), 2018*
+*— John Nerst, [“30 Fundamentals”](https://everythingstudies.com/2018/07/16/30-fundamentals/), 2018*
 
 ### Explorables
 
@@ -1054,7 +1053,7 @@ obwohl die altbauten noch ein paar hundert meter entfernt liegen.
 > moderne kapitalistische verteilung ist weder zentralisiert noch
 dezentralisiert, sie ist myzelisch, verwaberndes, meist unsichtbares
 gewebe in einem fruchtbaren umfeld, mit anhäufungen, ballungen und
-kumulationen von produktionszentren – zur festigkeit verdichtetes
+kumulationen von produktionszentren—zur festigkeit verdichtetes
 gewebe dort fassbar, wo es sich am wenigsten äußert. werden als
 eine kontingente verschmelzung von fast-sein und konkretheit"
 

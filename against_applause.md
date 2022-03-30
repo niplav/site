@@ -13,7 +13,7 @@ Against Applause After Classical Concerts
 
 > Silence is a hard virtue.
 
-*– [Scott Alexander](http://slatestarcodex.com/), [“The Virtue of Silence”]((https://slatestarcodex.com/2013/06/14/the-virtue-of-silence/), 2013*
+*— [Scott Alexander](http://slatestarcodex.com/), [“The Virtue of Silence”]((https://slatestarcodex.com/2013/06/14/the-virtue-of-silence/), 2013*
 
 Arguing Against Applause
 ------------------------
@@ -144,7 +144,7 @@ complaint about audiences in all countries, and that is their artificial
 restraint from applause between movements or a concerto or symphony. …
 It certainly does not fit in with the composers’ intentions."
 
-*– [Jean Inaba](https://www.cpr.org/author/jean-inaba/), [“The clapping question: Should classical audiences applaud between movements?”](https://www.cpr.org/2014/06/09/the-clapping-question-should-classical-audiences-applaud-between-movements/), 2014*
+*— [Jean Inaba](https://www.cpr.org/author/jean-inaba/), [“The clapping question: Should classical audiences applaud between movements?”](https://www.cpr.org/2014/06/09/the-clapping-question-should-classical-audiences-applaud-between-movements/), 2014*
 
 Musicians have also given very similar arguments to the one presented here:
 
@@ -155,7 +155,7 @@ themselves: "The silence is as profound as some of the music, and when
 that silence is not allowed its space, you lose a lot of the emotional
 impact that the silence can otherwise generate."
 
-*– [Jean Inaba](https://www.cpr.org/author/jean-inaba/), [“The clapping question: Should classical audiences applaud between movements?”](https://www.cpr.org/2014/06/09/the-clapping-question-should-classical-audiences-applaud-between-movements/), 2014*
+*— [Jean Inaba](https://www.cpr.org/author/jean-inaba/), [“The clapping question: Should classical audiences applaud between movements?”](https://www.cpr.org/2014/06/09/the-clapping-question-should-classical-audiences-applaud-between-movements/), 2014*
 
 But, historically, this perspective is quite uncommon:
 
@@ -166,7 +166,7 @@ In their day, audiences spontaneously clapped when they heard something
 they really liked – even if it meant breaking into the music before
 its conclusion.
 
-*– [Jean Inaba](https://www.cpr.org/author/jean-inaba/), [“The clapping question: Should classical audiences applaud between movements?”](https://www.cpr.org/2014/06/09/the-clapping-question-should-classical-audiences-applaud-between-movements/), 2014*
+*— [Jean Inaba](https://www.cpr.org/author/jean-inaba/), [“The clapping question: Should classical audiences applaud between movements?”](https://www.cpr.org/2014/06/09/the-clapping-question-should-classical-audiences-applaud-between-movements/), 2014*
 
 However, one could argue that the trend in classical music is from loud
 and frequent applause towards a more quiet and refined appreciation
@@ -271,7 +271,7 @@ express degrees of approval: snapping the finger and thumb,
 clapping with the flat or hollow palm, and waving the flap of
 the toga […].
 
-*– [English Wikipedia](https://en.wikipedia.org/wiki/), [“Applause”](https://en.wikipedia.org/wiki/Applause), 2019*
+*— [English Wikipedia](https://en.wikipedia.org/wiki/), [“Applause”](https://en.wikipedia.org/wiki/Applause), 2019*
 
 Here, I will only consider approaches that produce minimal sound.
 
@@ -295,7 +295,7 @@ of applause as displays of appreciation could be very confusing).
 variant of clapping. Instead of clapping their palms together, they raise
 their hands straight up with outstretched fingers and twist their wrists […].
 
-*– [English Wikipedia](https://en.wikipedia.org/wiki/), [“Applause”](https://en.wikipedia.org/wiki/Applause), 2019*
+*— [English Wikipedia](https://en.wikipedia.org/wiki/), [“Applause”](https://en.wikipedia.org/wiki/Applause), 2019*
 
 This practice, also known as ["Jazz
 Hands"](https://en.wikipedia.org/wiki/Jazz_hands), seems to be a

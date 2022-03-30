@@ -14,7 +14,7 @@ doch in derart notwendigem Verhältnis, daß eben das Schöne, ob auch
 selber nicht Schein, aufhört ein wesentlich Schönes zu sein, wenn der
 Schein von ihm schwindet.
 
-*– Walter Benjamin, “Goethes Wahlverwandschaften”, 1925*
+*— Walter Benjamin, “Goethes Wahlverwandschaften”, 1925*
 
 ### Basics
 

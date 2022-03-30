@@ -12,7 +12,7 @@ Microfiction
 > Was ›sagt‹ denn eine Dichtung? Was teilt sie mit? Sehr wenig
 demjenigen, der sie versteht.
 
-*– [Walter Benjamin](https://en.wikipedia.org/wiki/Walter_Benjamin), “Die Aufgabe des Übersetzers”, 1923*
+*— [Walter Benjamin](https://en.wikipedia.org/wiki/Walter_Benjamin), “Die Aufgabe des Übersetzers”, 1923*
 
 Words
 ------
@@ -48,7 +48,7 @@ Poems
 ### English
 
 > Paradises, peacocks, peaches and palimpsests! Prussians, prowlers plus
-plumous penguins, priestess parks principles – priceless.
+plumous penguins, priestess parks principles—priceless.
 
 ----
 
@@ -159,7 +159,7 @@ Dialogues
 
 ----
 
-> *making a crucifix*: "Human – Values – Are – Complex, BUT"
+> *making a crucifix*: "Human—Values—Are—Complex, BUT"
 
 ----
 
