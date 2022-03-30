@@ -7,4 +7,4 @@ enjoyment=`{read}
 echo -n 'methods: {taiv}*: '
 method=`{read}
 
-printf '%s,%s,%s\n' $datetime $enjoyment $method >>ejaculations.csv
+printf '%s,%s,%s\n' $datetime $enjoyment $method >>masturbations.csv

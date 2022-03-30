@@ -844,7 +844,7 @@ between conciseness and performance. This seems only partially applicable in Klo
 Here, I compare four different primality tests written in Klong. The
 first three were written by me, and the fourth is a slightly adapted
 version from the Klong standard math library. The fifth one is [from
-wikipedia](https://en.wikipedia.org/wiki/K_(programming_language)#Examples),
+wikipedia](https://en.wikipedia.org/wiki/K_\(programming_language\)#Examples),
 and the sixth is an adaption of the wikipedia version.
 
 `s31.1` is the simplest and therefore the shortest of these four
@@ -2140,7 +2140,7 @@ This way,
 	gr::(1+sqr(5))%2
 	fibinv::{_ln(0.5+x*sqr(5))%ln(gr)}
 
-For testing purposes, one can now also define `\text{fib}g:
+For testing purposes, one can now also define `$\text{fib}$`:
 
 	fib::{*(x-1){(+/2#x),x}:*[1 0]}
 

@@ -1072,3 +1072,6 @@
 2022-03-29T15:58:54.000000Z	the best time to participate in a community is after it has died
 2022-03-29T18:04:14.000000Z	What's astonishing is not that people try so hard to establish a positive reputation online, it's that they try so *little*.
 2022-03-29T21:07:07.000000Z	por vs. pro in esperanto always trips me up
+2022-03-30T11:38:54.000000Z	party game idea: MNIST debate
+2022-03-30T12:27:10.000000Z	you heard of Différance, now get ready for Différance 2: Convergance
+2022-03-30T12:28:11.000000Z	is every normal-form game representable by a tree a potential game?
