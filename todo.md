@@ -299,6 +299,8 @@ Texts
 		* Dense graph
 		* Extremal graph theory
 	* This also feels relevant to Ontological crises/shifts: Is there a canonical way to map from the human preference simplex to the AI preference simplex, if we know the concept equivalences? (A is just 30% B and 70% C, so we can split the simplex into another dimension here…)
+* Scaling laws for debate
+	* AI safety via debate (Geoffrey Irving/Paul Christiano/Dario Amodei, 2018) test debate on an MNIST classifier with depths 4 and 6, what are the scaling laws for the depth and size of models?
 
 ### Pick Up
 

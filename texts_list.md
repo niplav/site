@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-03-29, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-03-30, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,9 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Leopard Society and the Man-Leopard Murders (William Buckner, 2021)](https://traditionsofconflict.com/blog/2021/11/26/leopard-society-and-the-man-leopard-murders)
+* AI safety via debate (Geoffrey Irving/Paul Christiano/Dario Amodei, 2018)
+* [Moderation is My Enemy and I Will Wage War on It Wherever I Go With Whatever I Have (Ethan Morse, 2022)](https://210ethan.github.io/thoughts/moderation.html)
 * [In Defense of Inclusionism (Gwern Branwen, 2018)](https://www.gwern.net/In-Defense-Of-Inclusionism)
 * [About This Website (Gwern Branwen, 2021)](https://www.gwern.net/About)
 * [The Arcfour Stream Cipher (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/08/09/)

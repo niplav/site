@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2021-10-11, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2022-03-28, language: english, status: in progress, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
 > recommendations by people who I respect, such as
@@ -23,15 +23,14 @@ Software
 * Window manager: [dwm](https://dwm.suckless.org/)
 * Terminal emulator: [st](https://st.suckless.org/)
 * PDF reader: [mupdf](https://mupdf.com/)
-* Browser: [firefox](https://www.mozilla.org/en-US/firefox/new/)<!--TODO: add extensions-->
+* Browser: [firefox](https://www.mozilla.org/en-US/firefox/new/)
 * Editor: [vis](https://github.com/martanne/vis)
 * Calendar: [when](http://www.lightandmatter.com/when/when.html)
-* Spaced repetition: [fulgurate](https://github.com/theq629/fulgurate), [Anki](https://apps.ankiweb.net/index.html)
+* [Spaced repetition](https://en.wikipedia.org/wiki/Spaced_Repetition): [fulgurate](https://github.com/theq629/fulgurate), [Anki](https://apps.ankiweb.net/index.html)
 * [Internet relay chat](https://en.wikipedia.org/wiki/Internet_Relay_Chat): [ii](https://tools.suckless.org/ii/) with [lchat](https://github.com/younix/lchat)
 * [Twtxt](https://github.com/buckket/twtxt): [txtnish](https://github.com/mdom/txtnish)
 * Version control: [git](https://git-scm.com/)
 * Password manager: [spm](https://notabug.org/kl3/spm/)
-* Finances: [ledger](https://www.ledger-cli.org/)
 * Code search: [ag](https://geoff.greer.fm/ag/)
 * Music: [sad](http://git.2f30.org/sad/log.html)
 * Videos: [mpv](https://mpv.io/)
@@ -47,9 +46,8 @@ Software
 * [Myrddin](https://eigenstate.org/myrddin/)
 * [Lua](https://www.lua.org/)
 * [Scheme](https://en.wikipedia.org/wiki/Scheme_\(programming_language\))
-* [Forth](https://en.wikipedia.org/wiki/Forth_\(programming_language\))
 * [Standard ML](https://en.wikipedia.org/wiki/Standard_ML)
-* Python<!--TODO link-->
+* [Python](https://www.python.org)
 
 ### Browser Plugins
 
@@ -112,8 +110,8 @@ Hardware
 I tend not to care very much about hardware, except for compatibility
 problems. Nearly all of my computing could be done on a [Raspberry
 Pi](https://en.wikipedia.org/wiki/Raspberry_Pi), or on a generic mildly
-priced new laptop. I like the Raspberry Pi because of its ability to run
-a wide variety of operating systems, but beyond that hardware is rarely
+priced new laptop. I like the Raspberry Pi because of its ability to
+run a wide variety of operating systems, beyond that hardware is rarely
 a bottleneck for me. I do care about peripherals, though.
 
 <!--
