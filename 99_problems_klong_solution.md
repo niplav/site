@@ -15,7 +15,7 @@
 > Weil ein Vers dir gelingt in einer gebildeten Sprache,  
 > Die für dich dichtet und denkt, glaubst du schon Dichter zu sein?
 
-*– [Friedrich Schiller](https://en.wikipedia.org/wiki/Friedrich_Schiller), “Votivtafeln” (Die Kunstschätzer), 1804*
+*— [Friedrich Schiller](https://en.wikipedia.org/wiki/Friedrich_Schiller), “Votivtafeln” (Die Kunstschätzer), 1804*
 
 Acknowledgements
 ----------------
@@ -1046,7 +1046,7 @@ Seems about right.
 
 > Two numbers are coprime if their greatest common divisor equals 1.
 
-*– niplav, [“P33“ in 99 Klong Problems](./99_klong_problems.html#P33--Determine-whether-two-positive-integer-numbers-are-coprime), 2019*
+*— niplav, [“P33“ in 99 Klong Problems](./99_klong_problems.html#P33--Determine-whether-two-positive-integer-numbers-are-coprime), 2019*
 
 This is trivial:
 
@@ -1065,7 +1065,7 @@ Testing:
 > Euler's so-called totient function phi(m) is defined as the number of
 > positive integers r (1 <= r < m) that are coprime to m.
 
-*– niplav, [“P34“ in 99 Klong Problems](./99_klong_problems.html#P34--Calculate-Eulers-totient-function-phim), 2019*
+*— niplav, [“P34“ in 99 Klong Problems](./99_klong_problems.html#P34--Calculate-Eulers-totient-function-phim), 2019*
 
 Since a predicate for coprimality is already given with `s33`, it is
 not hard to find the number of coprimes for a given integer: Iterating
@@ -1191,7 +1191,7 @@ The wrong values for 1 and 0 are inherited from `s35`.
 
 > Take the number of logical inferences as a measure for efficiency.
 
-*– niplav, [“P38“ in 99 Klong Problems](./99_klong_problems.html#P38--Compare-the-two-methods-of-calculating-Eulers-totient-function), 2019*
+*— niplav, [“P38“ in 99 Klong Problems](./99_klong_problems.html#P38--Compare-the-two-methods-of-calculating-Eulers-totient-function), 2019*
 
 We will not do that, but simply measure the runtimes of the two functions
 in seconds.
@@ -2325,7 +2325,7 @@ the trees for this weighting by iterating `s60` over this list. That
 produces a list of two lists, which each contain trees. Since `d6`
 generates all possible weightings, symmetrically, one doesn't have to
 worry about mirroring the trees (although this uses up more computing
-power than strictly necessary – a tradeoff between the length of the
+power than strictly necessary—a tradeoff between the length of the
 code and the performance it has).
 
 `d7` takes two lists, and generates their cartesian product<!--TODO:
@@ -2561,7 +2561,7 @@ Tests:
 creates the level-order sequence of the nodes. However, there are more
 efficient ways to do that.
 
-*– niplav, [“P62B“ in 99 Klong Problems](./99_klong_problems.html#P62B--Collect-the-nodes-at-a-given-level-in-a-list), 2019*
+*— niplav, [“P62B“ in 99 Klong Problems](./99_klong_problems.html#P62B--Collect-the-nodes-at-a-given-level-in-a-list), 2019*
 
 To solve this, one needs to know the depth of the tree. Fortunately,
 the already imported library `util.kg` contains an implementation for

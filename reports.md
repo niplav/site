@@ -226,7 +226,7 @@ Although my nailbiting is not completely solved yet, I have made
 significant progress on something that had resisted many attempts at
 "just powering it through" (another win of systems over willpower).
 I am surprised I hadn't noticed in previous attempts at stopping to
-bite my nails that i actually had to cut them instead – highly obvious
+bite my nails that i actually had to cut them instead—highly obvious
 once you think about it for even a couple of seconds, but apparently
 not clear to myself in the moment.
 
@@ -309,14 +309,14 @@ breathing out long, he discerns, ‘I am breathing out long.’ Or
 breathing in short, he discerns, ‘I am breathing in short’; or
 breathing out short, he discerns, ‘I am breathing out short.’
 
-*– [Author unknown](https://en.wikipedia.org/wiki/P%C4%81li_Canon#Authorship), [“Ānāpānasati Sutta (MN 118)”](https://www.dhammatalks.org/suttas/MN/MN118.html), ca. -100*
+*— [Author unknown](https://en.wikipedia.org/wiki/P%C4%81li_Canon#Authorship), [“Ānāpānasati Sutta (MN 118)”](https://www.dhammatalks.org/suttas/MN/MN118.html), ca. -100*
 
 > and he had forgotten that all life is only a set of pictures in the
 brain, which there is no difference betwixt those born of real things
 and those born of inward dreamings, and no cause to value the one above
 the other.
 
-*– [Howard Phillips Lovecraft](https://en.wikipedia.org/wiki/H._P._Lovecraft), “The Silver Key”, 1929*
+*— [Howard Phillips Lovecraft](https://en.wikipedia.org/wiki/H._P._Lovecraft), “The Silver Key”, 1929*
 
 ### What I Did and Why I Did It
 
@@ -465,7 +465,7 @@ incorporate more loving-kindness meditation into daily practice as well.
 
 On the evenings first and second day specifically, my head felt like a
 swarm of busy tiny insects were performing a great amount of labour inside
-of it — something was clearly happening, and I had the impression that
+of it—something was clearly happening, and I had the impression that
 a lot of neural connections were being built.
 
 ### Whether It Was a Good Idea

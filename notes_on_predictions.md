@@ -30,7 +30,7 @@ Interpolating linearly, that would be `139000+50000=189000`, and
 
 for all of 2021.
 
-Overall, I trust the linear extrapolation more – a growth of 50% seems
+Overall, I trust the linear extrapolation more—a growth of 50% seems
 quite a lot, even for Tesla. But even the linear extrapolation is high.
 
 India GDP growth in Q1-Q3 2021
@@ -60,7 +60,7 @@ June 30th 2019 had 123304 commercial flights 7-day averaged.
 
 Naively, we then expect `0.657569826823178416*123304=81080.9899266051914`
 flights. This might be increased by higher vaccination numbers, but
-not by much – relatively few in the world mostly vaccinated, and many
+not by much–relatively few in the world mostly vaccinated, and many
 destinations not sufficiently vaccinated.
 
 Will Scott Morrison be Prime Minister of Australia on 1 July 2021?

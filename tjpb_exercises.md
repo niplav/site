@@ -23,7 +23,7 @@ and descending, as they occur in tunes from the standard jazz
 repertoire. […] Play each example and *sing* the interval. […]
 Listen carefully to all the voicings in the examples.
 
-*– p. 1*
+*— p. 1*
 
 I usually just hit a random note on the keyboard and try to sing the
 next interval starting from that note, iterating through the intervals.
@@ -34,12 +34,12 @@ next interval starting from that note, iterating through the intervals.
 the melody, or "head," of standards, bebop, and other jazz tunes while
 listening to records.
 
-*– p. 9*
+*— p. 9*
 
 > Play the major, minor, diminished, and augmented triads in all keys
 and all inversions.
 
-*– p. 12*
+*— p. 12*
 
 I usually follow the cycle of fiths.
 
@@ -50,15 +50,15 @@ keys saying the II-V-I chords aloud both sitting at, and away from,
 the piano. Make a mantra of it until you have the progressions
 memorized. *Always practice everything in every key*.
 
-*– p. 16*
+*— p. 16*
 
 ### Chapter 3
 
 > Practice playing the II-V-I in both positions through all twelve keys,
-around the cycle of fifths. Analyze tunes by chord type – is each
+around the cycle of fifths. Analyze tunes by chord type—is each
 chord a II, V, or I chord?
 
-*– p. 19*
+*— p. 21*
 
 ### Chapter 4
 
@@ -71,3 +71,5 @@ Play the Phyrgian chord in all keys, and resolve it to the corresponding
 
 > Go through tunes in *The New Real Book* and *The World's Greatest Fake
 Book*, reharmonizing II-V progressions using sus and Phrygian chords.
+
+*— p. 26*

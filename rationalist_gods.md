@@ -25,7 +25,7 @@ Overview
 
 > we are the cutest little neopagans
 
-*– ozymandias271, [“Gods of the New World”](https://jack-rustier.tumblr.com/post/104365237995/gods-of-the-new-world-a-conceptual-mythology-for), 2014*
+*— ozymandias271, [“Gods of the New World”](https://jack-rustier.tumblr.com/post/104365237995/gods-of-the-new-world-a-conceptual-mythology-for), 2014*
 
 * [Gods of the New World: A conceptual mythology for the 21st century. (Idea Draft)](https://jack-rustier.tumblr.com/post/104365237995/gods-of-the-new-world-a-conceptual-mythology-for)
 
@@ -42,7 +42,7 @@ Azathoth
 >	$$Δz=\frac{1}{w}\text{cov}(w_i, z_i)+\frac{1}{w} E(w_i, Δz_i)$$
 > </div>
 
-*– [English Wikipedia](https://en.wikipedia.org/wiki/English_Wikipedia), [“Price equation”](https://en.wikipedia.org/wiki/Price_equation), 2021*
+*— [English Wikipedia](https://en.wikipedia.org/wiki/English_Wikipedia), [“Price equation”](https://en.wikipedia.org/wiki/Price_equation), 2021*
 
 * [An Alien God](https://www.lesswrong.com/posts/pLRogvJLPPg6Mrvg4/an-alien-god)
 
@@ -51,7 +51,7 @@ Moloch
 
 > Moloch whose buildings are judgment! Moloch the vast stone of war! Moloch the stunned governments!
 
-*– [Allen Ginsberg](https://en.wikipedia.org/wiki/Allen_Ginsberg), [“Howl”](https://www.poetryfoundation.org/poems/49303/howl), 1955*
+*— [Allen Ginsberg](https://en.wikipedia.org/wiki/Allen_Ginsberg), [“Howl”](https://www.poetryfoundation.org/poems/49303/howl), 1955*
 
 * [Meditations on Moloch](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/), also with Elua
 * [Misperceptions on Moloch](https://slatestarcodex.com/2014/08/01/misperceptions-on-moloch/)
@@ -64,7 +64,7 @@ Gnon
 
 > Gnon is no less than reality, whatever else is believed. Whatever is suspended now, without delay, is Gnon.
 
-*– [Nick Land](https://en.wikipedia.org/wiki/Nick_Land), [“The Cult of Gnon”](https://www.xenosystems.net/the-cult-of-gnon/), 2013*
+*— [Nick Land](https://en.wikipedia.org/wiki/Nick_Land), [“The Cult of Gnon”](https://www.xenosystems.net/the-cult-of-gnon/), 2013*
 
 * [The Cult of Gnon](https://www.xenosystems.net/the-cult-of-gnon/)
 * [On GNON](https://orthosphere.wordpress.com/2016/03/31/on-gnon/)
@@ -83,11 +83,11 @@ Cthulhu
 
 > Cthulhu may swim slowly. But he only swims left.
 
-*– [Mencius Moldbug](https://en.wikipedia.org/wiki/Curtis_Yarvin), [“A Gentle Introduction to Unqualified Reservations Chapter 1: The Red Pill”](https://www.unqualified-reservations.org/2009/01/gentle-introduction-to-unqualified/), 2009*
+*— [Mencius Moldbug](https://en.wikipedia.org/wiki/Curtis_Yarvin), [“A Gentle Introduction to Unqualified Reservations Chapter 1: The Red Pill”](https://www.unqualified-reservations.org/2009/01/gentle-introduction-to-unqualified/), 2009*
 
 > Cthulhu— god of memetics. Ideas winning out not because they are true or good but because they are virulent and persuasive.
 
-*– ozymandias271, [“Gods of the New World”](https://jack-rustier.tumblr.com/post/104365237995/gods-of-the-new-world-a-conceptual-mythology-for), 2014*
+*— ozymandias271, [“Gods of the New World”](https://jack-rustier.tumblr.com/post/104365237995/gods-of-the-new-world-a-conceptual-mythology-for), 2014*
 
 * [A Gentle Introduction to Unqualified Reservations Chapter 1: The Red Pill](https://www.unqualified-reservations.org/2009/01/gentle-introduction-to-unqualified/)
 
@@ -107,7 +107,7 @@ interest to me and a key focus of this blog: namely all the
 ways in which men cooperate to do extreme and destructive things
 to themselves and others.
 
-*– [William Buckner](https://traditionsofconflict.com/), [“Notes on Nggwal”](https://traditionsofconflict.com/blog/2019/2/23/notes-on-nggwal), 2019*
+*— [William Buckner](https://traditionsofconflict.com/), [“Notes on Nggwal”](https://traditionsofconflict.com/blog/2019/2/23/notes-on-nggwal), 2019*
 
 * [Notes on Nggwal](https://traditionsofconflict.com/blog/2019/2/23/notes-on-nggwal)
 
@@ -116,7 +116,7 @@ External Links
 
 > the wages of sin is death
 
-*– [Romans 6:23](https://www.biblegateway.com/passage/?search=Romans+6&version=NIV) in [The Bible](https://en.wikipedia.org/wiki/Bible)*
+*— [Romans 6:23](https://www.biblegateway.com/passage/?search=Romans+6&version=NIV) in [The Bible](https://en.wikipedia.org/wiki/Bible)*
 
 * [The Gods of the Copybook Headings](http://www.kiplingsociety.co.uk/poems_copybook.htm)
 * [Cthulhu Mythos Deities](https://en.wikipedia.org/wiki/Cthulhu_Mythos_deities)

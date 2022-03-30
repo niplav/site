@@ -17,14 +17,14 @@ PredictionBook data. Possible reasons are discussed.__
 Range and Forecasting Accuracy
 ===============================
 
-> Above all, don’t ask what to believe — ask what to anticipate. Every
+> Above all, don’t ask what to believe—ask what to anticipate. Every
 question of belief should flow from a question of anticipation, and that
 question of anticipation should be the center of the inquiry. Every guess
 of belief should begin by flowing to a specific guess of anticipation,
 and should continue to pay rent in future anticipations. If a belief
 turns deadbeat, evict it.
 
-*– [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“Making Beliefs Pay Rent (in Anticipated Experiences)“](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences), 2007*
+*— [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“Making Beliefs Pay Rent (in Anticipated Experiences)“](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences), 2007*
 
 [Probabilistic
 forecasting](https://en.wikipedia.org/wiki/Probabilistic_forecasting)<!--TODO:
@@ -73,7 +73,7 @@ about the accuracy of long-range forecasting is basically non-existent:
 > training and methods we use are different.
 > [More](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting#Unclear_relevance_to_our_own_long-range_forecasting)
 
-*– [Luke Muehlhauser](http://lukemuehlhauser.com), [“How Feasible Is Long-range Forecasting?”](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting), 2019*
+*— [Luke Muehlhauser](http://lukemuehlhauser.com), [“How Feasible Is Long-range Forecasting?”](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting), 2019*
 
 <!--TODO: put in info where Metaculus and PredictionBook fit into this-->
 
@@ -835,7 +835,7 @@ For accuracy between questions, the results were pretty surprising:
 
 For Metaculus, the slope off the linear regression is approximately
 `$-5*10^{-6}$`, compared that with `$1*10^{-5}$` for the slope for the
-linear regression between forecasts – the slope is less steep, but
+linear regression between forecasts—the slope is less steep, but
 also negative. For PredictionBook, the slope of the linear regression
 is `$-2*10^{-5}$`, compared with `$-8*10^{-6}$` for the data between
 forecasts, which is slightly steeper.
@@ -995,7 +995,7 @@ with higher ranges responding to higher Brier scores (and therefore
 lower accuracy).
 
 We can test whether this suspicion is acually correct by calculating
-the average offset and the average ascension – if the ascension is
+the average offset and the average ascension—if the ascension is
 positive, our suspicion is confirmed. We have to weight questions by how
 many predictions they have received, otherwise the result is skewed by
 questions with very few predictions. This is done by computing the linear
@@ -1009,7 +1009,7 @@ the dataset:
 		awpbqlr::(+/{(#x)*lreg(x)}'wpbqbrier)%(+/#'wpbqbrier)
 	[1.3731897568232792 -98.5907264853066552]
 
-The PredictionBook data — how do I put this — simply makes no sense.
+The PredictionBook data—how do I put this—simply makes no sense.
 I am pretty confident that this code *is* correct, but I think that
 the questions with very few prdictions are producing incorrect results,
 especially when the predictions are very close to each other. So let's
@@ -1091,17 +1091,17 @@ mimimum, mean, median, and mode:
 		mo(pblens)
 	[2]
 
-This is – surprising, to say the least. Metaculus makes creating
+This is—surprising, to say the least. Metaculus makes creating
 new questions much harder, and more strongly encourages users to
 predict on existing questions, with an elaborate tagging system for
 questions. PredictionBook on the other hand simplifies the questions
 creation process, leaving out moderation, complex resolution criteria
-etc. Still, I'm surprised – there must be at least *one* PredictionBook
+etc. Still, I'm surprised—there must be at least *one* PredictionBook
 question popular enough for 100 forecasts! But apparently not.
 
 #### Interlude: It's Under 102
 
-One result here is, to say the least, confusing – where did
+One result here is, to say the least, confusing—where did
 all those 101s come from in the Metaculus data‽ Surely,
 there are questions with more than 101 forecasts (which
 I __know__, [this question about 2016 being the warmest year on

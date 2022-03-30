@@ -17,7 +17,7 @@ zur Not helfen, beruhigen, einschläfern, artverwandelnd wirken, aber
 in der Allgemeinheit ebenso ohnmächtig sind, wie die meinen, denn,
 soviel ich auch ausschaue, einen Erfolg sehe ich nicht.
 
-*– [Frank Kafka](https://en.wikipedia.org/wiki/Franz_Kafka), “Forschungen eines Hundes”, 1922*
+*— [Frank Kafka](https://en.wikipedia.org/wiki/Franz_Kafka), “Forschungen eines Hundes”, 1922*
 
 My general ethical outlook is one of high [moral
 uncertainty](./doc/ethics_notes/moral_uncertainty_macaskill_et_al_2020.pdf "Moral Uncertainty (William MacAskill/Krister Bykvist/Toby Ord, 2020)"),
@@ -125,7 +125,7 @@ discovering problems in population axiology, see for example [Parfit
 This process might be called the *value-inference process*.
 
 One could say that humans implement the *value-updating*
-and the *value-inference* process – when they think about
+and the *value-inference* process—when they think about
 ethics, there is an underlying algorithm that weighs trade-offs,
 considers points for and against specific details in theories,
 and searches for maxima. As far as is publicly known, there is no crisp
@@ -181,11 +181,11 @@ indifferent between different choices for action in situations they have
 no result for, but that they just don't provide a recommendation for action.
 
 Prima facie, complete theories seem more desirable than incomplete
-theories – advice in the form of "you oughtn't be in this situation
+theories—advice in the form of "you oughtn't be in this situation
 in the first place" is not very helpful if you are confronted with such
 a situation!
 
-Virtue ethics strikes me as being such a theory – it defines what is
+Virtue ethics strikes me as being such a theory—it defines what is
 good, but provides no decision-procedure for acting in most situations.
 
 At best, it could be interpreted as a method for developing such a
@@ -198,7 +198,7 @@ Deference Attractors of Ethical Agents
 
 When I'm angry or stressed (or tired, very horny, high, etc), I would
 prefer to have another version of myself make my decisions in that
-moment – ideally a version that is well rested, is thinking clearly,
+moment—ideally a version that is well rested, is thinking clearly,
 and is not under very heavy pressure. One reason for this is that my
 rested & clear-headed self is in general better at making decisions –
 it is likely better at playing chess, programming a computer, having
@@ -209,7 +209,7 @@ self**) better than my current values. So in some way, my values in
 that stressful moment are not [reflectively stable](https://arbital.com/p/reflective_stability/).
 
 Similarly, even when I'm relaxed, I usually still can imagine a
-version of myself with even more desired values – more altruistic,
+version of myself with even more desired values—more altruistic,
 less time-discounting, less parochial. Similarly, that version of
 myself likely wants to be even more altruistic! This is a [Murder-Ghandi
 problem](https://www.lesswrong.com/posts/SdkAesHBt4tsivEKe/gandhi-murder-pills-and-mental-illness "Gandhi, murder pills, and mental illness"):
@@ -408,7 +408,7 @@ statement of his result is scattered throughout the paper.
 Dominance, the Addition, and the Minimal Non-Extreme Priority Principle
 implies the Repugnant, the Anti-Egalitarian, or the Sadistic Conclusion.
 
-*– [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 15, 2000*
+*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 15, 2000*
 
 ### Requirements
 
@@ -416,21 +416,21 @@ implies the Repugnant, the Anti-Egalitarian, or the Sadistic Conclusion.
 people as population B, and every person in A has higher welfare than
 any person in B, then A is better than B.
 
-*– [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
+*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
 
 > The Addition Principle: If it is bad to add a number of people, all
 with welfare lower than the original people, then it is at least as bad
 to add a greater number of people, all with even lower welfare than the
 original people.
 
-*– [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
+*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
 
 > The Minimal Non-Extreme Priority Principle: There is a number n such
 that an addition of n people very high welfare and a single person with
 slightly negative welfare is at least as good as an addition of the same
 number of people but with very low positive welfare.
 
-*– [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
+*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
 
 ### Conclusions
 
@@ -438,19 +438,19 @@ number of people but with very low positive welfare.
 with very high positive value, there is a population with very
 low positive welfare which is better.
 
-*– [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 2, 2000*
+*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 2, 2000*
 
 > The Anti-Egalitarian Conclusion: A population with perfect equality can
 be worse than a population with the same number of people, inequality,
 and lower average (and thus lower total) positive welfare.
 
-*– [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 12, 2000*
+*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 12, 2000*
 
 > The Sadistic Conclusion: When adding people without
 affecting the original people's welfare, it can be better to
 add people with negative welfare than positive welfare.
 
-*– [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 5, 2000*
+*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 5, 2000*
 
 All of these are stated more mathematically on page 15.
 
@@ -474,7 +474,7 @@ theories of justice](https://en.wikipedia.org/wiki/Retributive_justice)
 that include invertebrates as culpable agents, humanity might have
 an (additional) duty to exterminate mosquitoes. Between [5% and
 50%](https://en.wikipedia.org/wiki/Mosquito) of all humans that have
-ever lived have been killed by mosquito-born diseases – if humanity
+ever lived have been killed by mosquito-born diseases—if humanity
 wants to restore justice for all past humans that have died at the
 [proboscis](https://en.wikipedia.org/wiki/Proposcis) of mosquito, the
 most sensible course of action is to exterminate some or all species of
@@ -502,7 +502,7 @@ dollar [by increasing human population]. As one might expect,
 this is much bigger than the impact on mosquito populations
 directly as calculated in the previous section.
 
-*– [Brian Tomasik](https://reducing-suffering.org), [Will Gene Drives Reduce Wild-Animal Suffering?](https://reducing-suffering.org/will-gene-drives-reduce-wild-animal-suffering/), 2018*
+*— [Brian Tomasik](https://reducing-suffering.org), [Will Gene Drives Reduce Wild-Animal Suffering?](https://reducing-suffering.org/will-gene-drives-reduce-wild-animal-suffering/), 2018*
 
 <!--
 Why Death is Bad

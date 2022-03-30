@@ -60,12 +60,12 @@ mode, which allows the `sed` output to be propagated without delay.
 In his book “Gödel, Escher, Bach: An Eternal Golden Braid” Douglas
 Hofstadter describes a logical system called MU:
 
-> The first thing to say about our formal system – the MIU-system –
+> The first thing to say about our formal system—the MIU-system –
 > is that it utilizes only three letters of the alphabet: M, I, U. That
 > means that the only strings of the MIU- system are strings which are
 > composed of those three letters.
 
-*– [Douglas Hofstadter](https://en.wikipedia.org/wiki/Douglas_Hofstadter), [“The MU-puzzle“ in “Gödel, Escher, Bach: An Eternal Golden Braid”](./doc/pipe_rings/the_mu_puzzle_hofstadter_1994.pdf) p. 1, 1994*
+*— [Douglas Hofstadter](https://en.wikipedia.org/wiki/Douglas_Hofstadter), [“The MU-puzzle“ in “Gödel, Escher, Bach: An Eternal Golden Braid”](./doc/pipe_rings/the_mu_puzzle_hofstadter_1994.pdf) p. 1, 1994*
 
 There is a starting string, and four rules to modify this string:
 
@@ -110,7 +110,7 @@ There is a starting string, and four rules to modify this string:
 > (The three I's have to be consecutive.)  
 > From MIII, make MU.  
 
-*– [Douglas Hofstadter](https://en.wikipedia.org/wiki/Douglas_Hofstadter), [“The MU-puzzle“ in “Gödel, Escher, Bach: An Eternal Golden Braid”](./doc/pipe_rings/the_mu_puzzle_hofstadter_1994.pdf) p. 2, 1994*
+*— [Douglas Hofstadter](https://en.wikipedia.org/wiki/Douglas_Hofstadter), [“The MU-puzzle“ in “Gödel, Escher, Bach: An Eternal Golden Braid”](./doc/pipe_rings/the_mu_puzzle_hofstadter_1994.pdf) p. 2, 1994*
 
 Hofstadter poses a challenge: starting with the string "mi", he asks
 whether the string "mu" can be constructed.
@@ -319,4 +319,4 @@ creating a gif that displays its own MD5 sum (made by
 External Links
 --------------
 
-* [dgsh – directed graph shell](https://www2.dmst.aueb.gr/dds/sw/dgsh/)
+* [dgsh—directed graph shell](https://www2.dmst.aueb.gr/dds/sw/dgsh/)

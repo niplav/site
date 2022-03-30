@@ -55,7 +55,7 @@ Things That Have Gone Well
 *	Relatedly, AI generated art has become super good. You think
 	[this](https://www.youtube.com/watch?v=mgHxmAsINDk) is good
 	orchestral music? Wait till you hear the symphonies written
-	by the neural networks – it's quite usual that half of the
+	by the neural networks—it's quite usual that half of the
 	audience is in tears after the concert. The same for movies,
 	TV series, paintings, sculpture, opera, …
 *	We actually finally really definitely have an Alzheimer's
@@ -112,7 +112,7 @@ Things that Didn't Pan out as Hoped
 *	Around 2024/2025 there was another craze around molecular
 	nanotechnology, following the development of AlphaFold3, but
 	completely solving the second 80% of the problem have proven
-	more difficult than imagined – distributional shift has shown
+	more difficult than imagined—distributional shift has shown
 	to reduce performance in molecules that have structures vastly
 	different from biological ones.
 *	Relatedly, it looks like

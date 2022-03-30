@@ -108,7 +108,7 @@ quote Wikipedia:
 > A Dyck word is a string consisting of n X's and n Y's such that no
 > initial segment of the string has more Y's than X's.
 
-*– [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), [“Dyck word”](https://en.wikipedia.org/wiki/Dyck_word), 2019*
+*— [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), [“Dyck word”](https://en.wikipedia.org/wiki/Dyck_word), 2019*
 
 This applies exactly to the given problem. A finishing sequence has
 equally many heads and tails, but doesn't begin with a sequence of
@@ -329,4 +329,4 @@ External Links
 * By Neil Webber:
 	* [“Flipping a coin until reaching equal heads and tails”](http://neilwebber.com/notes/2018/10/29/flipping-a-coin-until-reaching-equal-heads-and-tails/)
 	* [“Coin flips and Catalan Numbers”](http://neilwebber.com/notes/2018/11/18/coin-flips-and-catalan-numbers/)
-	* [“Coin flip simulation still running – 62 days!”](http://neilwebber.com/notes/2018/12/26/coin-flip-simulation-still-running-62-days/)
+	* [“Coin flip simulation still running – 62 days!”](http://neilwebber.com/notes/2018/12/26/coin-flip-simulation-still-running-62-days/)<!--TODO: is the en dash in the original title?-->

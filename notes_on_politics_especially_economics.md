@@ -217,7 +217,7 @@ authority can trigger the very “tragedy of the commons” that the
 same public officials presume will occur if they do not regulate the
 use of these fisheries.
 
-*– Elinor Ostrom, “Governing the Commons” pp. 259-260, 1990*
+*— Elinor Ostrom, “Governing the Commons” pp. 259-260, 1990*
 
 <!--TODO: here description of illegal cryonics in France & British
 Columbia from the Cryonics Wikipedia page-->
@@ -237,7 +237,7 @@ even though the average farm household income now exceeds that of the
 average US household, and even tough there are now many fewer farmers,
 farm policies persist.
 
-*– F. Bailey Norwood/Jayson L. Lusk, “Compassion, by the Pound” p. 323, 2011*
+*— F. Bailey Norwood/Jayson L. Lusk, “Compassion, by the Pound” p. 323, 2011*
 
 ### Examples
 

@@ -7,6 +7,8 @@
 > is a transcription of the german translation by Günther Debon from
 > 1961.__
 
+<!--TODO: check em/en dashes in original text?-->
+
 Tao Tê King
 ===========
 

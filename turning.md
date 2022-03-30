@@ -22,7 +22,7 @@ Turning Some Inconsistent Preferences into Consistent Ones
 > A kind of God-made (or evolution-created) fairness between species is
 also unexpectedly found.
 
-*– [Yew-Kwang Ng](https://en.wikipedia.org/wiki/Yew-Kwang_Ng), [“Towards Welfare Biology: Evolutionary Economics of Animal Consciousness and Suffering”](./doc/better_words/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf) p. 1, 1995*
+*— [Yew-Kwang Ng](https://en.wikipedia.org/wiki/Yew-Kwang_Ng), [“Towards Welfare Biology: Evolutionary Economics of Animal Consciousness and Suffering”](./doc/better_words/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf) p. 1, 1995*
 
 > Random testing is simple in concept, often easy to implement, has been
 demonstrated to effectively detect failures, is good at exercising systems
@@ -30,7 +30,7 @@ in unexpected ways (which may not occur to a human tester), and may be
 the only practical choice when the source code and the specifications
 are unavailable or incomplete.
 
-*– Tsong Yueh Chen/Fei-Ching Kuo/Robert G. Merkel/T.H. Tse, [“Adaptive Random Testing: the ART of Test Case Diversity”](./doc/turning/adaptive_random_testing_chen_et_al_2010.pdf), 2010*
+*— Tsong Yueh Chen/Fei-Ching Kuo/Robert G. Merkel/T.H. Tse, [“Adaptive Random Testing: the ART of Test Case Diversity”](./doc/turning/adaptive_random_testing_chen_et_al_2010.pdf), 2010*
 
 Consider an agent which displays (von Neumman-Morgenstern) inconsistent
 preferences, for example choosing two incompatible options in the two

@@ -84,7 +84,7 @@ They?"):
 > decades, it is plausible to assume that there are further existential
 > risks that we have not yet thought of.
 
-*– [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), [“Where Are They”](./doc/notes/where_are_they_bostrom_2008.pdf) p. 7, 2008*
+*— [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), [“Where Are They”](./doc/notes/where_are_they_bostrom_2008.pdf) p. 7, 2008*
 
 These risks can be categorized into two groups: silent killers and
 loud killers. A loud killer is an existential catastrophe that produces
@@ -159,7 +159,7 @@ Artificial Intelligence and Action-Compelling Sentences
 > intelligence could in principle be combined with more or less any
 > final goal.
 
-*– [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), [“The Superintelligent Will: Motivation And Instrumental Rationality In Advanced Artificial Agents”](./doc/moral_realist_ai/the_superintelligent_will_bostrom_2012.pdf) p. 3, 2012*
+*— [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), [“The Superintelligent Will: Motivation And Instrumental Rationality In Advanced Artificial Agents”](./doc/moral_realist_ai/the_superintelligent_will_bostrom_2012.pdf) p. 3, 2012*
 
 For current AI systems, the orthogonality thesis seems to hold pretty
 well: a tree search doesn't start returning wrong results because they
@@ -591,7 +591,7 @@ Gifts
 
 It is relatively easy to argue that gifts are mostly about social
 signalling ([Simler & Hanson 2018](http://www.elephantinthebrain.com "The Elephant in the Brain")
-p. 197 touches on this) – often, the person receiving the gift has no
+p. 197 touches on this)—often, the person receiving the gift has no
 use for it, or could have easily bought the item themselves (or, worse,
 would have known what else to buy that would have been more useful to
 them). The problems of gift-giving are enhanced by the fact that there
@@ -781,7 +781,7 @@ p. 34-35).
 My variation on counting goes something like this:
 
 1. Start counting up from 1
-2. After the breath (a breathing-in – breathing-out combination), check whether one was mindful during the whole time of the breath, that is, was the concentration on the bare sensations in the nostrils uninterrupted?
+2. After the breath (a breathing-in–breathing-out combination), check whether one was mindful during the whole time of the breath, that is, was the concentration on the bare sensations in the nostrils uninterrupted?
 3. If not, go back to step 1
 4. If yes, increment by counter by 1, and go to step 2
 
@@ -931,7 +931,7 @@ cheap apartments are often in bad neighbourhoods, with longer commutes and
 worse living conditions, but rarely just extremely small (<10 m²). But
 one could easily imagine 5 m² apartments, with just a bed & a small
 bathroom (or even smaller options with a shared bathroom). However, I
-don't know of people renting/buying these kinds of apartments – even
+don't know of people renting/buying these kinds of apartments—even
 though they might be pretty useful if one wants to trade size against
 good location.
 
@@ -943,9 +943,9 @@ Possible reasons:
 
 Perhaps nano-apartments are not economically viable to rent. Maybe
 the fixed cost per apartment is so high that it's not worth it below a
-certain size – every tenant being an additional burden, plumbing +
+certain size—every tenant being an additional burden, plumbing +
 upkeep of stairways, organising trash & electricity just isn't worth
-it. Or, perhaps, the amount of walls is too big – the more separate
+it. Or, perhaps, the amount of walls is too big—the more separate
 apartments you want to create, the more floor-space is going to be used
 on walls to separate those apartments, and at some fixed point around
 15 m² it's just not worth it.
@@ -958,7 +958,7 @@ having a minimal size).
 
 I could be over-estimating the number of people who'd like to live in
 such an apartment. I could see myself renting one, especially if the
-location is very good – I'm glad to trade off space against having
+location is very good—I'm glad to trade off space against having
 a short commute. But perhaps I'm very unusual in this regard, and most
 people trade off more harshly against the size of the apartment, due to
 owning just too much stuff to fit into such a small place.
@@ -1073,7 +1073,7 @@ First, I arranged the four filters as described in [dynomight
 2021b](https://dynomight.net/better-DIY-air-purifier.html "The Cuboid: A DIY air purifier that's better than a box-fan")
 and tied them together using some pieces of string I had lying around
 (the bungee cords I had ordered were too short and would have broken
-the filters — a lesson in thinking about dependencies! Fortunately
+the filters—a lesson in thinking about dependencies! Fortunately
 they weren't expensive), with the red rope giving the contraption a nice
 [kinbaku](https://en.wikipedia.org/Japanese_bondage) æsthetic.
 

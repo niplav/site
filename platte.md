@@ -15,7 +15,7 @@ Platte
 > nuclear explosion, combined with the specific design of the shaft,
 > would accelerate the plate to approximately six times escape velocity.
 
-*– [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), [“Operation Plumbbob”](https://en.wikipedia.org/wiki/Operation_Plumbbob), 2016*
+*— [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), [“Operation Plumbbob”](https://en.wikipedia.org/wiki/Operation_Plumbbob), 2016*
 
 Es war klar, dass etwas anders war. Obwohl der kühle Wind, trocken,
 strömend, über die Oberseite strich, lag eine Stimmung in der Luft,

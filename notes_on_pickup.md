@@ -17,7 +17,7 @@ Und Regimenter fesselt das starre Kommando.
 >
 > Lautlos steht die Front.
 
-*– [Friedrich Schiller](https://en.wikipedia.org/wiki/Friedrich_Schiller), “Die Schlacht”, 1805*
+*— [Friedrich Schiller](https://en.wikipedia.org/wiki/Friedrich_Schiller), “Die Schlacht”, 1805*
 
 I had very big problems when trying to overcome approach anxiety. Since
 this seems to be a common problem, it may be worth it to share a method
@@ -98,7 +98,7 @@ realizes. If you are reading this you are probably not a normie. You
 are an alienated weirdo and need help to cultivate being normal enough
 to f\*\*k hot chicks while not losing your weird edge.
 
-*– [TheRedQuest](https://theredquest.wordpress.com/), [“Compassion and Empathy for Chicks”](https://theredquest.wordpress.com/2021/06/21/compassion-and-empathy-for-chicks/index.html), 2021*
+*— [TheRedQuest](https://theredquest.wordpress.com/), [“Compassion and Empathy for Chicks”](https://theredquest.wordpress.com/2021/06/21/compassion-and-empathy-for-chicks/index.html), 2021*
 
 A couple of days ago, I did an approach on a standing woman that was
 (apparently) waiting for someone.  In the beginning she was giving mostly
@@ -116,7 +116,7 @@ are probably pretty high.  It's your job to demonstrate that this is
 not the case, and that you're more normal than the situation might convey.
 
 On the other hand, I'm not sure how this interacts with women that get
-approached a lot – do they have a lower prior on bad weirdness from
+approached a lot—do they have a lower prior on bad weirdness from
 guys who approach? This probably interacts with how common daygame is
 in the environment.
 
@@ -163,7 +163,7 @@ the heads of enemies is associated with masculine virility, and a young
 man must seize the skulls of outsiders to be considered a viable partner
 for a young woman.
 
-*– [William Buckner](https://traditionsofconflict.com/blog/2018/4/19/head-in-hands-notes-on-the-extraction-and-display-of-human-heads), [“Head in Hands: Notes on the Extraction and Display of Human Heads”](https://traditionsofconflict.com/blog/2018/4/19/head-in-hands-notes-on-the-extraction-and-display-of-human-heads), 2018*
+*— [William Buckner](https://traditionsofconflict.com/blog/2018/4/19/head-in-hands-notes-on-the-extraction-and-display-of-human-heads), [“Head in Hands: Notes on the Extraction and Display of Human Heads”](https://traditionsofconflict.com/blog/2018/4/19/head-in-hands-notes-on-the-extraction-and-display-of-human-heads), 2018*
 
 When trying to cold-approach women, nearly all men find that they manifest
 a psychological block about going up to a woman and talking her first. The

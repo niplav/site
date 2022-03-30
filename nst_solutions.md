@@ -418,7 +418,7 @@ violation: `$(a,a)\not\in$`, symmetry violation: `$(b,a)\not\in$`):
 > show that `$X/R$` is indeed a set by exhibiting a condition that specifies
 > exactly the subset `$X/R$` of the power set `${\cal{P}}(X)$`).
 
-*– [Paul Halmos](https://en.wikipedia.org/wiki/Paul_Halmos), [“Naïve Set Theory“](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\)) p. 38, 1960*
+*— [Paul Halmos](https://en.wikipedia.org/wiki/Paul_Halmos), [“Naïve Set Theory“](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\)) p. 38, 1960*
 
 To be honest, I'm not quite sure what exactly I am supposed to do here.
 `$X/R$` has been defined as being a set, how can I prove a definition?
@@ -713,7 +713,7 @@ be a non-empty subset of `$X$`. (Proof?)
 <!--TODO: with "maps onto", he probably means "surjective", i.e. all
 values are mapped to-->
 
-But that's – false? Unless I understand something different by "map"
+But that's—false? Unless I understand something different by "map"
 (which I just take as relates from one set to another, possibly in a
 many-to-one relation).
 

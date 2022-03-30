@@ -9,7 +9,7 @@ Third Variable
 > __*IC\* Algorithm*__ (__Inductive Causation with Latent Variables__)  
 __Input:__ `$\hat{P}$`, a stable distribution (with respect to some latent structure).  
 __Output__: core (`$\hat{P}$`), a marked pattern.  
-1. For each pair of variables `$a$` and `$b$`, search for a set `$S_{ab}$` such that `$a$` and `$b$` are independent in `$\hat{P}$`, conditioned on `$S_{ab}$`. If there is no such `$S_{ab}$`, place an undirected link between the two variables, `$a — b$`.  
+1. For each pair of variables `$a$` and `$b$`, search for a set `$S_{ab}$` such that `$a$` and `$b$` are independent in `$\hat{P}$`, conditioned on `$S_{ab}$`. If there is no such `$S_{ab}$`, place an undirected link between the two variables, `$a—b$`.  
 2. For each pair of nonadjacent variables `$a$` and `$b$` with a common neighbor `$c$`, check if `$c \in S_{ab}$`.  
 &nbsp; &nbsp; &nbsp; &nbsp; If it is, then continue.  
 &nbsp; &nbsp; &nbsp; &nbsp; If it is not, then add arrowheads pointing at `$c$` (i.e., `$a \rightarrow c \leftarrow b$`).  
@@ -17,7 +17,7 @@ __Output__: core (`$\hat{P}$`), a marked pattern.
 &nbsp; &nbsp; &nbsp; &nbsp; R₁: For each pair of nonadjacent nodes `$a$` and `$b$` with a common neighbor `$c$`, if the link between `$a$` and `$c$` has an arrowhead into `$c$` and if the link between `$c$` and `$b$` has no arrowhead into `$c$`, then the arrowhead on the link between `$c$` and `$b$` and the mark that link to obtain `$c \overset{*}{\rightarrow} b$`.  
 &nbsp; &nbsp; &nbsp; &nbsp; R₂: If `$a$` and `$b$` are adjacent and there is a directed path (composed strictly of marked links) from `$a$` to `$b$` […], then add an arrowhead pointing toward `$b$` on the link between `$a$` and `$b$`.
 
-*– [Judea Pearl](https://en.wikipedia.org/wiki/Judea_Pearl), “Causality: Models, Reasoning, And Inference” p. 52-53, 2009*
+*— [Judea Pearl](https://en.wikipedia.org/wiki/Judea_Pearl), “Causality: Models, Reasoning, And Inference” p. 52-53, 2009*
 
 So apparently the boyfriend of a woman I have been sleeping with has
 commited suicide.
@@ -39,4 +39,4 @@ out my phone and handed it to her.
 Related Texts
 --------------
 
-* [Why Men NEED To Learn Game – A Case Study](https://cassidydaygame.wordpress.com/2022/02/23/why-men-need-to-learn-game-a-case-study/) by craigcassidy1
+* [Why Men NEED To Learn Game – A Case Study](https://cassidydaygame.wordpress.com/2022/02/23/why-men-need-to-learn-game-a-case-study/) by craigcassidy1<!--TODO: add link for craigcassidy1, and is the en dash in the original title?-->

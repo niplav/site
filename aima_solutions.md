@@ -1502,7 +1502,7 @@ passing. Sam’s conditional probability estimates are as follows:
 > `$P(p|\lnot b, \lnot m) = 0.3$`
 
 > You might think that P would be independent of B given M, But [sic]
-this course has an open-book final – so having the book helps.
+this course has an open-book final—so having the book helps.
 
 > a. Draw the decision network for this problem.
 

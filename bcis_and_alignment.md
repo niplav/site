@@ -240,7 +240,7 @@ with. It didn’t seem like me.
 Elon’s quotes about this, and it suddenly clicked. The AI would be
 me. Fully. I got it.
 
-*– [Tim Urban](https://waitbutwhy.com/), “[Neuralink and the Brain’s Magical Future](https://waitbutwhy.com/2017/04/neuralink.html)”, 2017*
+*— [Tim Urban](https://waitbutwhy.com/), “[Neuralink and the Brain’s Magical Future](https://waitbutwhy.com/2017/04/neuralink.html)”, 2017*
 
 However, this paragraph is not wholly clear on how this merging with AI
 systems is supposed to work.
@@ -337,7 +337,7 @@ understanding and interpreting neural networks.
 Whole-brain emulation (henceforth WBE) (with the emulations being
 faster or cheaper to run than physical humans) would likely be useful
 for AI alignment if used differentially for alignment over capabilities
-research – human WBEs would to a large part share human values, and
+research—human WBEs would to a large part share human values, and
 could subjectively slow down timelines while searching for AI alignment
 solutions. Fast progress in BCIs could make WBEs more likely before an AI
 [point of no
@@ -425,7 +425,7 @@ BCIs might aid the quest of improving the interpretability of AI systems.
 
 There seems to be a spectrum from biological humans to human imitations,
 roughly along the axes of integration with digital systems/speed:
-Biological humans – humans with BCIs – whole-brain emulations –
+Biological humans → humans with BCIs → whole-brain emulations →
 human imitations. This spectrum also partially tracks how aligned
 these human-like systems can be expected to act: a human imitation
 off-distribution seems much less trustworthy than a whole-brain emulation
@@ -436,7 +436,7 @@ Arguments Against the Utility of Brain-Computer Interfaces in AI Alignment
 
 > And so we boldly go—into the whirling knives.
 
-*– [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), [“Superintelligence: Paths, Dangers, Strategies”](https://www.goodreads.com/book/show/20527133-superintelligence) p. 143, 2014*
+*— [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), [“Superintelligence: Paths, Dangers, Strategies”](https://www.goodreads.com/book/show/20527133-superintelligence) p. 143, 2014*
 
 ### Direct Neural Takeover Made Easy
 

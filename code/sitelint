@@ -46,7 +46,7 @@ printf 'Incorrectly formatted citations:\n'
 search '\[[A-Za-z]+,( |\n)-?[0-9]+\]'
 
 #long form
-search '^\*–[^ ]'
+search '^\*—[^ ]'
 
 printf '\nIncorrect whitespace:\n'
 
