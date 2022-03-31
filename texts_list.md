@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-03-30, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-03-31, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,12 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Leprechaun Hunting & Citogenesis (Gwern Branwen, 2021)](https://www.gwern.net/Leprechauns)
+* [Where are the matriarchies? (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/3/17/where-are-the-matriarchies)
+* [Time and Effort Discounting (Scott Alexander, 2011)](https://www.lesswrong.com/posts/7iDtkfyn322nPzTP4/time-and-effort-discounting)
+* [Akrasia, hyperbolic discounting, and picoeconomics (Paul Crowley, 2009)](https://www.lesswrong.com/posts/geNZ6ZpfFce5intER/akrasia-hyperbolic-discounting-and-picoeconomics)
+* [About Gwern (Gwern Branwen, 2020)](https://www.gwern.net/Links)
+* [Origin of ‘Littlewood’s Law of Miracles’ (Gwern Branwen, 2021)](https://www.gwern.net/Littlewood-origin)
 * [Leopard Society and the Man-Leopard Murders (William Buckner, 2021)](https://traditionsofconflict.com/blog/2021/11/26/leopard-society-and-the-man-leopard-murders)
 * AI safety via debate (Geoffrey Irving/Paul Christiano/Dario Amodei, 2018)
 * [Moderation is My Enemy and I Will Wage War on It Wherever I Go With Whatever I Have (Ethan Morse, 2022)](https://210ethan.github.io/thoughts/moderation.html)
@@ -3432,7 +3438,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Untitled (Scott Alexander, 2015)](https://slatestarcodex.com/2015/01/01/untitled/)
 * [Nick Land & Accelerationism (Isaac Camacho, 2017)](http://tripleampersand.org/nick-land-accelerationism/)
 * [On the Phenomenon of Bullshit Jobs: A Work Rant (David Graeber, 2013)](https://voxpopulisphere.com/2018/07/23/david-graeber-on-the-phenomenon-of-bullshit-jobs-a-work-rant/)
-* [|86 Strukturalismus – Eine Einführung (Lothar Fietz, 1982)](https://www.amazon.de/Strukturalismus-Ein-Einf%C3%BChrung-Lothar-Fietz/dp/387808546X)
+* |86 Strukturalismus – Eine Einführung (Lothar Fietz, 1982)
 * [Polyamory is boring (Scott Alexander, 2013)](https://slatestarcodex.com/2013/04/06/polyamory-is-boring/)
 * [Ozy’s Anti Heartiste FAQ (Ozy Frantz, 2014)](https://slatestarcodex.com/2014/08/20/ozys-anti-heartiste-faq/)
 * [Radicalizing the Romanceless (Scott Alexander, 2014)](https://slatestarcodex.com/2014/08/31/radicalizing-the-romanceless/)

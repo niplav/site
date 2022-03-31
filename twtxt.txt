@@ -1077,3 +1077,5 @@
 2022-03-30T12:28:11.000000Z	is every normal-form game representable by a tree a potential game?
 2022-03-30T18:25:59.000000Z	what do you mean, Infinite Jest is not a blogpost by Andrés Gomez-Emilsson?
 2022-03-30T20:33:13.000000Z	Gwern's law: Well-known quotes are often wittier and more memorable than the original.
+2022-03-30T21:58:19.000000Z	still amazing (davis?) aurini was an early lesswronger
+2022-03-30T21:58:35.000000Z	best known to me as the youtube skull & swords guy that breadtube made fun of

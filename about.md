@@ -209,6 +209,31 @@ I use a [script](./code/sitelint) to fix easily catchable mistakes.
 * Broken citations
 * [American English](https://en.wikipedia.org/wiki/American_English) ("labour" instead of "labor", "behaviour" instead of "behavior")
 * Checking for unbalanced parentheses
+* Update the metadata for PDF files according to [Gwern 2022](https://www.gwern.net/Search#post-finding)
+
+> I try to set at least title/​author/​DOI/​year/​subject,
+and stuff any additional topics & bibliographic information into the
+“Keywords” field. Example of setting metadata:
+> <div>
+>	exiftool -Author="Frank P. Ramsey" -Date=1930 -Title="On a Problem of Formal Logic" -DOI="10.1112/plms/s2-30.1.264"
+>	-Subject="mathematics" -Keywords="Ramsey theory, Ramsey's theorem, combinatorics, mathematical logic, decidability,
+>	first-order logic,  Bernays-Schönfinkel-Ramsey class of first-order logic, _Proceedings of the London Mathematical
+>	Society_, Volume s2-30, Issue 1, 1930-01-01, pg264-286" 1930-ramsey.pdf
+> </div>
+
+*—[Gwern Branwen](https://www.gwern.net/Links), [“Internet Search Tips”](https://www.gwern.net/Search), 2022*
+
+I probably won't put as much information into the "Keywords" section, it feels abusive to me to stuff it like that. I also despaired about how to format the [DOI](https://en.wikipedia.org/wiki/Digital_Object_Identifier), Wikipedia says
+
+> Contrary to the DOI Handbook,
+[CrossRef](https://en.wikipedia.org/wiki/CrossRef), a major DOI
+registration agency, recommends displaying a URL (for example,
+`https://doi.org/10.1000/182`) instead of the officially specified format
+(for example, [`doi:10.1000/182`](https://doi.org/10.1000/182))
+
+*—[English Wikipedia](https://en.wikipedia.org/wiki/English_Wikipedia), [“Digital Object Identifier”](https://en.wikipedia.org/wiki/Digital_Object_Identifier), 2021*
+
+After some thought, I have decided to go with the handbook recommendation.
 
 <!--
 * links for authors to Wikipedia
@@ -442,6 +467,7 @@ The last g-laden test I took put me at ~110, which seems about right.
 
 * [Github](https://github.com/niplav)
 * [Lesswrong](https://www.lesswrong.com/users/niplav)
+* [Effective Altruism Forum](https://forum.effectivealtruism.org/users/niplav)
 * [Metaculus](https://www.metaculus.com/accounts/profile/112493/)
 * [Reddit](https://old.reddit.com/u/niplav)
 * [Wikipedia](https://en.wikipedia.org/wiki/User:Niplav)

@@ -50,8 +50,9 @@ Existing Texts
 
 * Range and Forecasting Accuracy
 	* Add explanatory image for the [illustrative example](./range_and_forecasting_accuracy.html#Three-Different-Analyses-An-Illustrative-Example)
-	* Move the [PredictionBook download code](./range_and_forecasting_accuracy.html#For-PredictionBook) to the PredictionBook API
+	* Move the [PredictionBook download code](./range_and_forecasting_accuracy.html#For-PredictionBook) to the [PredictionBook API](https://github.com/bellroy/predictionbook/blob/master/API.md)
 	* Rewrite the code in Python
+	* Find Muehlhauser email with additional source
 	* Extend the analysis to more datapoints
 		* Extend the analysis to predictions with confidence intervals
 		* Extend the analysis to real Metaculus data
@@ -62,6 +63,12 @@ Existing Texts
 		* find a scoring rule that maps into all of ℝ
 		* curve-fit something other than a linear function
 	* Add a literature review
+		* `https://rethinkpriorities.org/publications/how-does-forecast-quantity-impact-forecast-quality-on-metaculus`
+		* `https://rethinkpriorities.org/publications/an-analysis-of-metaculus-predictions-of-future-ea-resources`
+		* `https://rethinkpriorities.org/publications/an-examination-of-metaculus-resolved-ai-predictions`
+		* `https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons`
+		* `https://rethinkpriorities.org/publications/potentially-great-ways-forecasting-can-improve-the-longterm-future`
+		* `https://rethinkpriorities.org/publications/why-short-range-forecasting-can-be-useful-for-longtermism`
 		* `/usr/local/doc/unread/calibration_scoring_rules_for_practical_prediction_training_greenberg_2018.pdf`
 		* `https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting`
 		* `http://foresightr.com/2016/05/06/a-brief-history-of-forecasting`
