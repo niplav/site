@@ -4454,3 +4454,119 @@ trailer
 startxref
 465438
 %%EOF
+%BeginExifToolUpdate
+259 0 obj
+<<
+/Type /Metadata
+/Subtype /XML
+/Length 4274
+>>
+stream
+<?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>
+<x:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Image::ExifTool 11.88'>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+
+ <rdf:Description rdf:about=''
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+  <dc:date>
+   <rdf:Seq>
+    <rdf:li>2013</rdf:li>
+   </rdf:Seq>
+  </dc:date>
+  <dc:format>application/pdf</dc:format>
+  <dc:subject>
+   <rdf:Bag>
+    <rdf:li>computational biology, biomathematics</rdf:li>
+   </rdf:Bag>
+  </dc:subject>
+  <dc:title>
+   <rdf:Alt>
+    <rdf:li xml:lang='x-default'>The dynamics of audience applause</rdf:li>
+   </rdf:Alt>
+  </dc:title>
+ </rdf:Description>
+
+ <rdf:Description rdf:about=''
+  xmlns:pdf='http://ns.adobe.com/pdf/1.3/'>
+  <pdf:Author>Richard P. Mann, Jolyon Faria, David J. T. Sumpter, Jens Krause</pdf:Author>
+  <pdf:Keywords>social contagion, SIR model, applause, clapping, Bayesian model selection</pdf:Keywords>
+  <pdf:Producer>Acrobat Distiller 8.1.0 (Windows)</pdf:Producer>
+ </rdf:Description>
+
+ <rdf:Description rdf:about=''
+  xmlns:prism='http://prismstandard.org/namespaces/basic/2.0/'>
+  <prism:doi>doi:10.1098/rsif.2013.0466</prism:doi>
+ </rdf:Description>
+
+ <rdf:Description rdf:about=''
+  xmlns:xmp='http://ns.adobe.com/xap/1.0/'>
+  <xmp:CreateDate>2013-06-14T10:15:12+05:30</xmp:CreateDate>
+  <xmp:CreatorTool>Arbortext Advanced Print Publisher 9.1.520/W</xmp:CreatorTool>
+  <xmp:MetadataDate>2015-03-29T19:10:52-07:00</xmp:MetadataDate>
+  <xmp:ModifyDate>2015-03-29T19:10:52-07:00</xmp:ModifyDate>
+ </rdf:Description>
+
+ <rdf:Description rdf:about=''
+  xmlns:xmpMM='http://ns.adobe.com/xap/1.0/mm/'>
+  <xmpMM:DocumentID>uuid:b6c6e120-08a8-42db-8640-fafe7d831950</xmpMM:DocumentID>
+  <xmpMM:InstanceID>uuid:e0161b0a-1dd1-11b2-0a00-18f6a89ccfff</xmpMM:InstanceID>
+ </rdf:Description>
+</rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+<?xpacket end='w'?>
+endstream
+endobj
+260 0 obj
+<<
+/CreationDate (D:20130614101512+05'30')
+/Creator (Arbortext Advanced Print Publisher 9.1.520/W)
+/ModDate (D:20150329191052-07'00')
+/Producer (Acrobat Distiller 8.1.0 \(Windows\))
+/Title (The dynamics of audience applause)
+/Author (Richard P. Mann, Jolyon Faria, David J. T. Sumpter, Jens Krause)
+/Keywords (social contagion, SIR model, applause, clapping, Bayesian model selection)
+/Subject (computational biology, biomathematics)
+>>
+endobj
+xref
+0 1
+0000000000 65535 f 
+259 2
+0000473654 00000 n 
+0000478013 00000 n 
+trailer
+<<
+/Size 402
+/Root 262 0 R
+/Info 260 0 R
+/ID [ <8BF5BF4EADE40DB5F454DA404B6ED96E> <a91916E0D11DB2110A00AA0810000000> ]
+/Prev 465438
+>>
+%EndExifToolUpdate 473633
+startxref
+478467
+%%EOF
