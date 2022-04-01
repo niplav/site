@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2022-02-23, language: english, status: maintenance, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2022-04-01, language: english, status: maintenance, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in
 relation to the time between forecast and resolution, and
@@ -81,19 +81,21 @@ In this text, I will try to look at the accuracy of short-term and
 mid-term forecasting, which may shine some light on the relation between
 the range of forecasts and their accuracy in general.
 
-The *range* of a forecast is defined as the length of the timespan between
-the forecast and the resolution of the forecast. Keeping with [Muehlhauser
-2019](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting
-"How Feasible Is Long-range Forecasting?"), I will define short-term
-forecasts as forecasts with a range of less than a year, mid-range
-forecasts as forecasts with a range between 1 and 10 years, and
-long-term forecasts as forecasts with a range of more than 10 years
-(this distinction is not central to the following analysis, though).
+The *range* of a forecast is defined as the length of the timespan
+between the forecast and the resolution of the forecast (i.e.,
+when we know the outcome of the forecast). Keeping with [Muehlhauser
+2019](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting "How Feasible Is Long-range Forecasting?"),
+I define short-term forecasts as forecasts with a range of less than
+a year, mid-range forecasts as forecasts with a range between 1 and 10
+years, and long-term forecasts as forecasts with a range of more than 10
+years (this distinction is not central to the following analysis, though).
 
 Fortunately, for short- and mid-range forecasts, two easily accessible
 sources of forecasts and their resolutions are available online: The two
 forecasting websites [PredictionBook](https://predictionbook.com) and
 [Metaculus](https://www.metaculus.com), frequented mostly by hobbyists.
+
+I am not aware of large-scale datasets with resolved long-range forecasts.
 
 To find out about the range of forecasts, I download, parse & analyse
 forecasting data from these sites using Python, and then analyze the
@@ -111,6 +113,59 @@ Not necessary, move elsewhere.
 Distinction between {probabilistic,non-probabilistic}
 {model-based,judgmental} forecasting
 -->
+
+Results
+--------
+
+Using two datasets with both ~45k predictions, having ranges between
+1 day and 10 years (thereby containing forcasts with short and medium
+range) I investigate the relation between the accuracy of predictions
+and their range (that is, the time between the prediction being made
+and the result of the prediction being known).
+
+I find that the data indicates three facts:
+
+1.	For predictions made on any question, the predictions made a long
+	time before their resolution are generally more accurate than
+	predictions made a shorter time before their resolution. This
+	can be partially, but not completely explained by fact *3.*
+	1. The results for PredictionBook and Metaculus disagree here
+	2.	The correlations (0.02 for Metaculus, -0.02 for
+		PredictionBook) and slopes of the linear regressions
+		are close to 0
+2.	Questions with a longer range (that is, time between the question
+	being written and the question being resolved) generally receive
+	predictions with a higher accuracy than questions with a shorter
+	range.
+	1.	Again, the correlation coefficients (-0.01 for Metaculus,
+		and -0.05 for PredictionBook) and the slopes of the linear
+	regressions are close to 0
+3.	Predictions made on the same question closer to resolution time
+	are generally more accurate than predictions that are made long
+	before resolution time.
+
+These results suggest what to expect with questions with even greater
+range: That later predictions (closer to resolution time) on them will
+generally be more accurate, and that the kinds of questions with a very
+high range might engender predictions with an even higher accuracy than
+questions with short and medium ranges.
+
+However, there are plausible reasons to expect the trend from *2*.
+to reverse: The questions asked with very high range are not very
+different from questions with medium range, and have a lot less
+information available to make useful predictions on them; [butterfly
+effects](https://en.wikipedia.org/wiki/Butterfly_effect) start kicking
+in in systems that are relatively slow moving on human timescales (thus
+easier to predict on medium timescales), but nearly completely random at
+the scale of decades and/or centuries; the questions asked about longer
+timescales are of a different kind and much less predictable.
+
+<!--TODO: in 1/2/5/10 years, will the linear regression coefficients for
+these datasets still be positive/negative?-->
+
+I hope to update this analysis in the future, when data from predictions
+with higher ranges has become available, and to check whether the findings
+in this analysis continue to be correct.
 
 Metaculus and PredictionBook
 ----------------------------
@@ -331,19 +386,29 @@ What exactly does this mean?
 
 Let's say there are two people: Bessie and Heloïse. They are trying
 to make predictions about the weather about different time horizons
-(it is currently end of August):
+(it is currently midnight):
 
-1. Will it rain tomorrow? (resolution: no/0)
-2. Will the average temperature in August in 1 year be higher than 20°C? (resolution: no/0)
+1. Will it rain tomorrow? (resolution: no/0), which has a range of 1 day
+2. Will the average temperature in a week be higher than 20°C? (resolution: no/0), which has a range of 7 days
 
 Let's say that they make the following predictions:
 
-* Bessie: 0.3 for 1, 0.85 for 2
+* Bessie: 0.3 for 1, 0.95 for 2
 * Heloïse: 0.1 for 1, 0.6 for 2
 
 Let's also say that they make their predictions in alphabetical order
-of their names, one hour after another (Bessie at 00:00 and Heloïse at
-01:00).
+of their names, eight hours after another (Bessie at 00:00 and Heloïse at
+10:00).
+
+The following chart shows that, in this scenario, later predictions on the
+same question are more accurate, and also that predictions on questions
+with a shorter range are more accurate (for simplicity's sake, I don't
+use a [proper scoring rule](https://en.wikipedia.org/wiki/Scoring_rule)
+here to judge the accuracy of forecasts, but simply the probability
+assigned to the correct outcome (here the vertical distance of the
+probability to the outcome)).
+
+![Chart showing the forecasts on the day-range question and the week-range question. One can see that questions with a shorter range assign a higher probability to the correct outcome (i.e. 0), and also predictions on the question with the shorter range are more accurate.](./img/range_and_forecasting_accuracy/example.png "Chart showing the forecasts on the day-range question and the week-range question. One can see that questions with a shorter range assign a higher probability to the correct outcome (i.e. 0), and also predictions on the question with the shorter range are more accurate.")
 
 ### Judging Between Forecasts
 
@@ -352,14 +417,17 @@ forecast, its resolution and its timespan are independently analyzed.
 
 We have four predictions:
 
-1. One with a range of 23 hours, a probability of 0.1 (Heloïse's prediction on 1), and a resolution of 0
+1. One with a range of 14 hours, a probability of 0.1 (Heloïse's prediction on 1), and a resolution of 0
 2. One with a range of 24 hours, a probability of 0.3, (Bessie's prediction on 1) and a resolution of 0
-3. One with a range of `$24h/d*365d-1h=8759h$` (it's not a leap year), a probability of 0.6 (Heloïse's prediction on 2), and a resolution 0
-4. One with a range of `$24h/d*365d=8760h$`, a probability of 0.85 (Bessie's prediction on 2), and a resolution 0
+3. One with a range of `$24h/d*7d-10h=158h$`, a probability of 0.6 (Heloïse's prediction on 2), and a resolution 0
+4. One with a range of `$24h/d*7d=168h$`, a probability of 0.95 (Bessie's prediction on 2), and a resolution 0
 
-The Brier scores for ranges are then 0.01 for 23h, 0.09 for 24h, 0.36
-for 8759h, and 0.7225 for 8760h. Here, higher range between forecasts is
+The Brier scores for ranges are then 0.01 for 14h, 0.09 for 24h, 0.36
+for 158h, and 0.9025 for 168h. Here, higher range between forecasts is
 correlated with worse performance.
+
+In the chart above, the relation of range and accuracy between forecasts
+would be the black linear regression.
 
 ### Judging Between Questions
 
@@ -367,11 +435,15 @@ Judging the performance between questions now means looking at the
 forecasts made on each question and evaluating the performance
 of forecasts on that question.
 
-Question 1 has a range of 24h, and question 2 has a range of 8760h.
+Question 1 has a range of 24h, and question 2 has a range of 168h.
 The Brier score for predictions on question 1 is 0.05, and the Brier
-score for predictions on question 2 is 0.54125. In this case, a higher
+score for predictions on question 2 is 0.63125. In this case, a higher
 range seems to be worse for performance on questions (Brier scores are
 lower/better for question 1).
+
+In the chart above, the relation between range and accuracy between
+questions would be the mauve line (which here turns out to be nearly
+identical to the relation between range and accuracy between forecasts).
 
 ### Judging Within Questions
 
@@ -381,14 +453,17 @@ On question 1, the forecast with the higher range has a Brier score of
 0.09, and the forecast with the lower range has a brier score of 0.01. So
 for question 1, higher range is correlated with worse performance.
 
-For question 2, it is similar, the forecast with the higher range (8760h)
-has a score of 0.7225, while the forecast with the lower range (8759h)
+For question 2, it is similar, the forecast with the higher range (168h)
+has a score of 0.9025, while the forecast with the lower range (158h)
 has a score of 0.36. Here also higher range is correlated with worse
 performance.
 
 One can now try to aggregate the findings from the two questions and
 could tentatively conclude that generally range within questions is
 correlated negatively with accuracy of forecasts.
+
+In the chart above, the relation between range and accuracy within
+questions would be the green and mustard linear regressions.
 
 ----------------
 
@@ -1165,57 +1240,6 @@ questions and resolutions consistent with each other.
 Use logspace instead? And logscore instead of brier score?
 Or just a logistic regression?
 -->
-
-Conclusion
-----------
-
-Using two datasets with both ~45k predictions, having ranges between 1 day
-and 10 years (thereby containing forcasts with short and medium range)
-I have investigated the relation between the accuracy of predictions
-and their range (that is, the time between the prediction being made
-and the result of the prediction being known).
-
-I have found that the data indicates three facts:
-
-1.	For predictions made on any question, the predictions made a long
-	time before their resolution are generally more accurate than
-	predictions made a shorter time before their resolution. This
-	can be partially, but not completely explained by fact 3.
-	1. The results for PredictionBook and Metaculus disagree here
-	2. The correlations (0.02 for Metaculus, -0.02 for PredictionBook) and slopes of the linear regressions are close to 0
-2.	Questions with a longer range (that is, time between the question
-	being written and the question being resolved) generally receive
-	predictions with a higher accuracy than questions with a shorter
-	range.
-	1.	Again, the correlation coefficients (-0.01 for Metaculus,
-		and -0.05 for PredictionBook) and the slopes of the linear
-	regressions are close to 0
-3.	Predictions made on the same question closer to resolution time
-	are generally more accurate than predictions that are made long
-	before resolution time.
-
-These results suggest what to expect with questions with even greater
-range: That later predictions (closer to resolution time) on them will
-generally be more accurate, and that the kinds of questions with a very
-high range might engender predictions with an even higher accuracy than
-questions with short and medium ranges.
-
-However, there are plausible reasons to expect the trend from 2.
-to reverse: The questions asked with very high range are not very
-different from questions with medium range, and have a lot less
-information available to make useful predictions on them; [butterfly
-effects](https://en.wikipedia.org/wiki/Butterfly_effect) start kicking
-in in systems that are relatively slow moving on human timescales (thus
-easier to predict on medium timescales), but nearly completely random at
-the scale of decades and/or centuries; the questions asked about longer
-timescales are of a different kind and much less predictable.
-
-<!--TODO: in 1/2/5/10 years, will the linear regression coefficients for
-these datasets still be positive/negative?-->
-
-I hope to update this analysis in the future, when data from predictions
-with higher ranges has become available, and to check whether the findings
-in this analysis continue to be correct.
 
 Acknowledgements
 ----------------
