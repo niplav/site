@@ -1,12 +1,15 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-03-29, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-04-01, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
+
+April 2022
+-----------
 
 March 2022
 -----------
@@ -15,6 +18,7 @@ March 2022
 	* [Building a Cuboid](./notes.html#Building-a-Cuboid)
 * [Notes on Pickup](./notes_on_pickup.html)
 	* [Reductionism on Approach Difficulties](./notes_on_pickup.html#Reductionism-on-Approach-Difficulties)
+	* [Instead of Recognizing and Dismantling Shit Tests, You Could Just Vibe Over Them](./notes_on_pickup.html#Instead-of-Recognizing-and-Dismantling-Shit-Tests-You-Could-Just-Vibe-Over-Them)
 * [Pickup Reports](./pickup_reports.html)
 * [Solutions to “Naïve Set Theory”](./nst_solutions.html):
 	* [Section 13](./nst_solutions.html#Section-13):
@@ -38,6 +42,7 @@ March 2022
 		* [6.9](./rs_solutions.html#69)
 * [Rationalist Gods](./rationalist_gods.html)
 	* [Nggwal](./rationalist_gods.html#Nggwal)
+* Restructured [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html) by moving the section previously called "Conclusion" to the beginning and renaming it to [Results](./range_and_forecasting_accuracy.html#Results)
 
 February 2022
 --------------

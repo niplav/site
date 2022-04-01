@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Sex, Revenge, and the Social Fabric (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/11/28/sex-revenge-and-the-social-fabric)
+* [Applied Picoeconomics (Scott Alexander, 2009)](https://www.lesswrong.com/posts/NjzBrtvDS4jXi5Krp/applied-picoeconomics)
+* [Hydrocephalus and Intelligence: The Hollow Men (Gwern Branwen, 2020)](https://www.gwern.net/Hydrocephalus)
+* [How Every Fairy Tale Should End (Andrés Gomez-Emilsson, 2017)](https://qualiacomputing.com/2017/04/15/how-every-fairy-tale-should-end/index.html)
 * [Leprechaun Hunting & Citogenesis (Gwern Branwen, 2021)](https://www.gwern.net/Leprechauns)
 * [Where are the matriarchies? (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/3/17/where-are-the-matriarchies)
 * [Time and Effort Discounting (Scott Alexander, 2011)](https://www.lesswrong.com/posts/7iDtkfyn322nPzTP4/time-and-effort-discounting)

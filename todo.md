@@ -206,6 +206,7 @@ Texts
 		* How do we incentivise good predictions on long-term questions?
 		* How do we incentivise good predictions on low-probability events?
 		* Is there any conceivable way of incentivizing good predictions on extinction events?
+		* Are better short-term forecasters also better long-term forecasters?
 	* How difficult is it to manipulate real existing prediction markets?
 		* PredictIt
 		* BetFair

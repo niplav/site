@@ -1,6 +1,66 @@
 .l("nplot")
 .l("./load.kg")
 
+example::.oc("example.eps")
+.tc(example)
+
+setrgb(0;0;0)
+grid([0 170 10];[-0.1 1 0.1])
+xtitle("Range (in hours)")
+ytitle("Probability given")
+
+shortrange::[[24 0.3][14 0.1]]
+longrange::[[168 0.95][158 0.6]]
+questions::[[24 0.2][168 0.775]]
+
+fillrgb(1;0;0)
+setrgb(1;0;0)
+
+text(90;45;"Outcome for question 1")
+text(330;45;"Outcome for question 2")
+
+fillrgb(0;0.8;0.8)
+setrgb(0;0.8;0.8)
+
+scplot2(shortrange)
+plot(lr(;lreg(shortrange)))
+
+text(80;120;"Predictions with a short range")
+
+fillrgb(0.7;0.7;0)
+setrgb(0.7;0.7;0)
+
+scplot2(longrange)
+plot(lr(;lreg(longrange)))
+
+text(270;400;"Predictions with a long range")
+
+fillrgb(1;0;0)
+setrgb(1;0;0)
+
+setdot(6)
+
+scplot2([[24 0][168 0]])
+
+fillrgb(0;0;0)
+setrgb(0;0;0)
+
+plot(lr(;lreg(shortrange,longrange)))
+
+text(130;300;"Linear regression over all forecasts")
+
+fillrgb(0.4;0.4;1)
+setrgb(0.4;0.4;1)
+
+plot(lr(;lreg(questions)))
+
+text(200;200;"Linear regression between questions")
+
+draw()
+
+.fl()
+.cc(example)
+
 allscatter::.oc("allscatter.eps")
 .tc(allscatter)
 
