@@ -235,8 +235,6 @@ file to a list of questions:
 	$ z site
 	$ jq -s '[.]|flatten' </usr/local/src/metaculus/data-questions-raw.json >data/metaculus.json
 
-The resulting data is available [here](./data/metaculus.json).
-
 I then wrote a python script to convert the JSON data to CSV in the form
 `id,questionrange,result,probability,range`, while also filtering out
 yet unresolved questions and range questions. Here, `id` is a unique

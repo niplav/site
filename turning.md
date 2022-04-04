@@ -15,6 +15,7 @@ fields](https://en.wikipedia.org/wiki/Vector_field) over probability
 scenarios such as ontological crises are discussed.__
 
 <!--TODO: Read Transitive Reduction, Graph Edit Distance on WP-->
+<!--https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/niplav-s-shortform?commentId=XRmMoNCPmDhvyLzwc-->
 
 Turning Some Inconsistent Preferences into Consistent Ones
 ===========================================================

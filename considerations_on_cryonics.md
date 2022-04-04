@@ -1611,7 +1611,7 @@ point in time into a full membership quickly, and memberships at the
 than Alcor, but require much higher amount of initiative to assure a
 quick preservation)).
 
-[![Tweet by @TetraspaceWest on twitter, with text “It's called cryonics because you have to fill out like one form to do it, enough to make you cry”](./img/considerations_on_cryonics/tetraspace_tweet.png "Tweet by @TetraspaceWest on twitter, with text “It's called cryonics because you have to fill out like one form to do it, enough to make you cry”")](https://nitter.hu/TetraspaceWest/status/1508597929082294272)
+[![Tweet by @TetraspaceWest, with text “It's called cryonics because you have to fill out like one form to do it, enough to make you cry”](./img/considerations_on_cryonics/tetraspace_tweet.png "Tweet by @TetraspaceWest, with text “It's called cryonics because you have to fill out like one form to do it, enough to make you cry”")](https://nitter.hu/TetraspaceWest/status/1508597929082294272)
 
 Generally, the [Cryonics Signup
 Guide](https://www.lesswrong.com/s/weBHYgBXg9thEQNEe) is the best
