@@ -52,8 +52,9 @@ and is therefore the most potent way of getting people addicted.
 
 If one wants to avoid falling into addictive patterns, then, it seems
 advisable to be very cautious around information technology, and in
-the very paranoid case, one wants to stay out of the addictive "event
-horizon": the state at which it has become basically impossible to unplug.
+the more paranoid case, one wants to stay out of the addictive "event
+horizon": the state at which it has become basically impossible to
+unplug—which means that one ought to prepare to leave the internet.
 
 ### Two Different Growth Modes
 
@@ -85,10 +86,10 @@ totality, and AI systems are becoming so complex that [explainable
 AI](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence)
 and interpretability research are becoming their own fields.
 
-While economic growth has been on the whole a delightfully advantageous
-process<!--TODO: link Muehlhauser's text on the IR-->, this makes
-individual humans more prone to manipulation, deception, and addiction
-to these kinds of processes.
+While economic growth has been on the whole a [delightfully advantageous
+process](http://lukemuehlhauser.com/three-wild-speculations-from-amateur-quantitative-macrohistory/),
+this makes individual humans more prone to manipulation, deception,
+and addiction to these kinds of processes.
 
 ### Humans Minds are Full of Holes
 
@@ -339,8 +340,8 @@ being built, but also destroys any options for progress.
 
 This might end up in an equilibrium.
 
-Appendix A: System 1 Uses Hyperbolic Discounting, System 2 Uses Geometric Discounting?
----------------------------------------------------------------------------------------
+Appendix A: A Picoeconomic Perspective
+---------------------------------------
 
 Appendix B: Defining “Addictive Process”
 -----------------------------------------

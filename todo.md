@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-03-24, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-04-01, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -74,6 +74,7 @@ Existing Texts
 		* `http://foresightr.com/2016/05/06/a-brief-history-of-forecasting`
 		* `https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.12127`
 		* Prediction: The long and short of it (Anthony Millner/Daniel Heyen, 2020)
+		* `https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters`
 * Considerations on Cryonics
 	* Add a literature review
 		* `https://www.tandfonline.com/doi/pdf/10.1080/01459741003715391`
@@ -179,7 +180,7 @@ Texts
 * The "At-the-time best possible forecast"
 	* Not literally best possible forecast
 	* But for humans at the time with the available information
-* Some Questions I Have About Forecasting
+* Some Questions I Have About Forecasting (Alternatively “Forecasters! What do they know? Do they know things? Let's find out!”)
 	* How good are we at forecasting?
 		* How good are long-term forecasts?
 		* How good are our forecasts on low-probability events?
@@ -207,6 +208,9 @@ Texts
 		* How do we incentivise good predictions on low-probability events?
 		* Is there any conceivable way of incentivizing good predictions on extinction events?
 		* Are better short-term forecasters also better long-term forecasters?
+		* Do forecasters become better at forecasting over time?
+			* How quickly?
+		* How much does forecaster quantity affect forecast quality on continuous questions? (i.e., extend [Dillon 2021](https://rethinkpriorities.org/publications/how-does-forecast-quantity-impact-forecast-quality-on-metaculus) to continuous data)
 	* How difficult is it to manipulate real existing prediction markets?
 		* PredictIt
 		* BetFair
@@ -1558,6 +1562,7 @@ Wikipedia Articles
 * Add The Game by Strauss to the Game (disambiguation) page
 * What the fuck is going on with the The Gods Themselves page?
  * Wikipedia pages on symbols in mathematics and physics are sprawling and confused, clean them up
+* On the page for Tibor Gallai, link the Gallai-Edmonds decomposition in the See also section
 
 Metaculus Questions
 -------------------

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-03-31, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-04-04, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,19 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* \* Darf man Tiere essen? (Plutarch, 100)
+* Wei Dai’s Updateless Decision Theory (Tyrrell McAllister, 2011)
+* [How does forecast quantity impact forecast quality on Metaculus? (Charles Dillon, 2021)](https://rethinkpriorities.org/publications/how-does-forecast-quantity-impact-forecast-quality-on-metaculus)
+* [Reflector (cellular automaton) (English Wikipedia, 2021)](https://en.wikipedia.org/Reflector_\(cellular_automaton\))
+* [Mound of Butter (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Mound_of_Butter)
+* SafeLife 1.0: Exploring Side Effects in Complex Environments (Carroll L. Wainwright/Peter Eckersley, 2021)
+* [MIRI announces new "Death With Dignity" strategy (Eliezer Yudkowsky, 2022)](https://www.lesswrong.com/posts/j9Q8bRmwCgXRYAgcJ/miri-announces-new-death-with-dignity-strategy)
+* [Omens of War and the Promise of Prophecy (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/10/21/omens-of-war-and-the-function-of-prophecy)
+* [Danbooru2021: A Large-Scale Crowdsourced and Tagged Anime Illustration Dataset (Gwern Branwen, 2022)](https://www.gwern.net/Danbooru2021)
+* [An examination of Metaculus' resolved AI predictions and their implications for AI timelines (Charles Dillon, 2021)](https://rethinkpriorities.org/publications/an-examination-of-metaculus-resolved-ai-predictions)
+* [An analysis of Metaculus predictions of future EA resources, 2025 and 2030 (Charles Dillon, 2021)](https://rethinkpriorities.org/publications/an-analysis-of-metaculus-predictions-of-future-ea-resources)
+* [Yanomami Warfare: How Much Did Napoleon Chagnon Get Right? (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/5/24/yanomami-warfare-how-much-did-napoleon-chagnon-get-right)
+* [Potentially great ways forecasting can improve the longterm future (Linchuan Zhang, 2022)](https://rethinkpriorities.org/publications/potentially-great-ways-forecasting-can-improve-the-longterm-future)
 * [Sex, Revenge, and the Social Fabric (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/11/28/sex-revenge-and-the-social-fabric)
 * [Applied Picoeconomics (Scott Alexander, 2009)](https://www.lesswrong.com/posts/NjzBrtvDS4jXi5Krp/applied-picoeconomics)
 * [Hydrocephalus and Intelligence: The Hollow Men (Gwern Branwen, 2020)](https://www.gwern.net/Hydrocephalus)

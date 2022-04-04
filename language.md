@@ -366,9 +366,10 @@ Better Compound Words
 Good Bandnames
 ---------------
 
-* Catastrophic Transcripts
-* Memetic Immune Disorder
+* [Catastrophic Transcripts](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/qALeGJ9nPcs9eC9Af)
+* Memetic Immune Disorder<!--TODO link-->
 * Contextual Bandits (seen in [Amodei et al. 2016](./doc/language/concrete_problems_in_ai_safety_amodei_et_al_2016.pdf "Concrete Problems in AI Safety"))
+* [Hypercarcinisation](https://en.wikipedia.org/wiki/Carcinisation#Hypercarcinisation)
 
 Advertising Lines
 ------------------

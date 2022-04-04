@@ -4,7 +4,7 @@
 *author: niplav, created: 2019-07-13, modified: 2020-10-13, language: english, status: in progress, importance: 4, confidence: log*
 
 > __The blog [The Real Movement](https://therealmovement.wordpress.com/)
-> is about Marxism, more specifically with abolishing wage labor, the role
+> is about Marxism, more specifically about abolishing wage labor, the role
 > of gold in labor analysis, and dunking on other Marxists. Its archives
 > are awkward to navigate, therefore here a chronological listing.__
 
