@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2022-03-24, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2022-04-05, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes,
 how much? I first present a simple [point
@@ -1105,7 +1105,8 @@ Converting f\*\*\*ed up Google sheets date format (why does __nobody__
 use the perfect [ISO-8601](https://en.wikipedia.org/wiki/ISO-8601) when
 it's right there‽‽‽), then removing stray spaces after semicolons,
 then removing the `^M` from the end of each line, using
-structural regular expressions<!--TODO: link-->:
+[structural regular
+expressions](./doc/daygame_cost_benefit_benefit/structural_regular_expressions_pike_1990.pdf "Structural Regular Expressions"):
 
 	,x/([0-9]+)\/([0-9]+)\/([0-9]+) /c/\3-\1-\2T/
 	,x/; /c/;/

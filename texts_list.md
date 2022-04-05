@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-04-04, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-04-05, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,8 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Structural Regular Expressions (Rob Pike, 1990)
+* [Why short-range forecasting can be useful for longtermism (Linchuan Zhang, 2022)](https://rethinkpriorities.org/publications/why-short-range-forecasting-can-be-useful-for-longtermism)
 * \* Darf man Tiere essen? (Plutarch, 100)
 * Wei Dai’s Updateless Decision Theory (Tyrrell McAllister, 2011)
 * [How does forecast quantity impact forecast quality on Metaculus? (Charles Dillon, 2021)](https://rethinkpriorities.org/publications/how-does-forecast-quantity-impact-forecast-quality-on-metaculus)

@@ -44,6 +44,8 @@ Site
 	* `https://www.html-tidy.org/`
 	* `https://github.com/amperser/proselint/`
 * Import Meditavo data
+* Move read pdfs into the doc folder, maybe restructure?
+	* Not the full books obviously
 
 Existing Texts
 --------------
@@ -180,40 +182,6 @@ Texts
 * The "At-the-time best possible forecast"
 	* Not literally best possible forecast
 	* But for humans at the time with the available information
-* Some Questions I Have About Forecasting (Alternatively “Forecasters! What do they know? Do they know things? Let's find out!”)
-	* How good are we at forecasting?
-		* How good are long-term forecasts?
-		* How good are our forecasts on low-probability events?
-		* How quickly/slowly do our forecasts converge to the final answer? When don't they converge?
-		* How do prediction markets, professional forecasting teams and internet enthusiasts compare?
-	* How can we become better at forecasting?
-		* What possible forecasting scoring rules could we develop?
-			* Taking into account:
-				* Accuracy compared to others
-				* Importance of question
-			* That incentivize collaboration and positive-sum interactions instead of information-hiding
-		* Related: How can we compare the skill and reliability of forecasters to one another?
-			* Metaculus at the moment does this by "who writes good comments". That seems inadequate.
-			* Taking into account:
-				* Number of questions each forecaster predicted on
-				* Calibration
-				* Resolution
-				* Importance of questions
-			* Two boundary methods:
-				* Compare using a scoring rule on any question the forecasters predicted on
-				* Compare using a scoring rule on the intersection of the questions the forecasters predicted on
-			* Two functions of scoring rules: Rewarding or comparing forecasters
-		* How can we deal with questions with unclear resolution criteria?
-		* How do we incentivise good predictions on long-term questions?
-		* How do we incentivise good predictions on low-probability events?
-		* Is there any conceivable way of incentivizing good predictions on extinction events?
-		* Are better short-term forecasters also better long-term forecasters?
-		* Do forecasters become better at forecasting over time?
-			* How quickly?
-		* How much does forecaster quantity affect forecast quality on continuous questions? (i.e., extend [Dillon 2021](https://rethinkpriorities.org/publications/how-does-forecast-quantity-impact-forecast-quality-on-metaculus) to continuous data)
-	* How difficult is it to manipulate real existing prediction markets?
-		* PredictIt
-		* BetFair
 * An aggregation of all of Scott Alexander's forecasting results in one place
 
 ### Population
@@ -1397,6 +1365,10 @@ Programming
 		focused on the issue tracking/continuous builds component
 		* Github already had a [commoditized complement](https://www.gwern.net/Complement)
 	* Check out [ditz](http://ditz.rubyforge.org/)/cil/ticgit and others (bug from the suckless page?)
+* ssam
+	* A stream version of sam: ssam : sam :: sed : ed
+	* Like, a proper one, not just a thin shell script wrapped around sam
+	* Maybe this exists already?
 
 ### Klong Libraries
 
