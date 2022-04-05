@@ -45,6 +45,7 @@ HTML=index.html \
 	exercise_log.html \
 	finesse.html \
 	flags.html \
+	forecasters.html \
 	language.html \
 	leave.html \
 	life_advice.html \
