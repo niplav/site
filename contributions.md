@@ -8,6 +8,8 @@
 Contributions
 =============
 
+<!--TODO: add more Gwern typo fixes-->
+
 Texts
 -----
 

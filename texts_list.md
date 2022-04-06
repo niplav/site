@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-04-05, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-04-07, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,30 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [The Dilemma of the Deserted Husband (and why polygyny is more common than polyandry) (William Buc
+kner, 2018)](https://traditionsofconflict.com/blog/2018/3/27/the-dilemma-of-the-deserted-husband-and
+-why-polygyny-is-more-common-than-polyandry-across-cultures)
+* [DeepMind AI Reduces Google Data Centre Cooling Bill by 40% (Richard Evans/Jim Gao, 2016)](https:/
+/www.deepmind.com/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40)
+* [Fermi Calculation Examples (Gwern Branwen, 2022)](https://www.gwern.net/notes/Fermi)
+* [Frank P. Ramsey bibliography (Gwern Branwen, 2022)](https://www.gwern.net/notes/Ramsey)
+* [Welcome, Pieter and Shivon! (Ilya Sutskever, 2016)](https://openai.com/blog/welcome-pieter-and-sh
+ivon/)
+* [Team++ (Greg Brockman, 2016)](https://openai.com/blog/team-plus-plus/)
+* [Introducing OpenAI (Greg Brockman/Ilya Sutskever/OpenAI, 2015)](https://openai.com/blog/introduci
+ng-openai/)
+* [Announcing DeepMind Health research partnership with Moorfields Eye Hospital (Deepmind, 2016)](ht
+tps://www.deepmind.com/blog/announcing-deepmind-health-research-partnership-with-moorfields-eye-hosp
+ital)
+* [We are very excited to announce the launch of DeepMind Health (Deepmind, 2016)](https://www.deepm
+ind.com/blog/we-are-very-excited-to-announce-the-launch-of-deepmind-health)
+* [Eternal Subjugation (William Buckner, 2019)](https://traditionsofconflict.com/blog/2019/7/5/eternal-subjugation)
+* [2012 election predictions (Gwern Branwen, 2015)](https://www.gwern.net/2012-election-predictions)
+* \* Die toten Seelen (Nikolai Gogol, 1842)
+* [Correlated equilibrium (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Correlated_equilibrium)
+* \* Basic Solution Concepts and Computational Issues (Éva Taros/Vijay V. Vazirani, 2007)
+* Algorithmic Game Theory (Noam Nisan/Tim Roughgarden/Éva Tardos/Vijay V. Vazirani, 2007)
+* [LWer Effective Altruism donations, 2013-2014 (Gwern Branwen, 2018)](https://www.gwern.net/EA-donations)
 * Structural Regular Expressions (Rob Pike, 1990)
 * [Why short-range forecasting can be useful for longtermism (Linchuan Zhang, 2022)](https://rethinkpriorities.org/publications/why-short-range-forecasting-can-be-useful-for-longtermism)
 * \* Darf man Tiere essen? (Plutarch, 100)

@@ -19,6 +19,7 @@ HTML=index.html \
 	notes_on_predictions.html \
 	administrativa_for_facts.html \
 	administrativa_for_textbooks.html \
+	agt_solutions.html \
 	aima_solutions.html \
 	apisct_solutions.html \
 	nst_solutions.html \

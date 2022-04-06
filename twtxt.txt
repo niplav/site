@@ -1098,3 +1098,8 @@
 2022-04-04T18:25:34.000000Z	in general, lw feels like a place where it would be good for many people to cross-post to, a content aggregator/archiver
 2022-04-04T21:47:09.000000Z	i remembered i liked structural regular expressions, but re-reading the paper reminds me of how cool they are
 2022-04-04T21:47:23.000000Z	truly Weapons From a More Civilized Age material
+2022-04-05T13:36:48.000000Z	who called it the psyche and not the egosystem
+2022-04-05T13:42:46.000000Z	Acausal Macroeconomics: A Semidecidable Perspective
+2022-04-05T13:49:56.000000Z	You know, Papadimitriou claims that PPAD stands for “Polynomial Parity Arguments on Directed graphs”, but it bears a suspicious resemblance to his name…
+2022-04-05T16:33:58.000000Z	trembling-hand best response dynamics?
+2022-04-05T17:35:02.000000Z	wish i could scream “I TOLD YOU SO” at the top of my lungs about how dumb europe was to abandon nuclear in favour of Russian gas, but tbh I hadn't even considered that as a factor. Still,,,,,,,,,,,,,
