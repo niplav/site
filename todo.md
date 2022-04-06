@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-04-01, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-04-05, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -46,6 +46,7 @@ Site
 * Import Meditavo data
 * Move read pdfs into the doc folder, maybe restructure?
 	* Not the full books obviously
+* Find for a way to allow for LaTeX in code blocks that doesn't break everything immediately
 
 Existing Texts
 --------------
@@ -847,6 +848,30 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Comprehensive: long and detailed, providing sources, visualizations, code, predictions, etc.
 	* Optimal: attempts to be a piece of content on the pareto frontier of what it is talking about)
 	* Updated: even if it doesn't pertain to current events, the author is either still working on it or had worked on it for a long time
+* Mastery is Exceedingly Rare
+
+> Very few will aspire to real mastery themselves. Very few will take the
+time to learn even the basics of meditation theory. Even fewer will go on
+retreats. Of those that do, only a handful will get their concentration
+strong enough to attain to basic jhanas or ñanas. Of these, only a
+couple will be able to cross the A&P, handle and investigate the Dark
+Night, attain Equanimity, and get stream entry. Of those who attain
+stream entry, a reasonable number will progress to the middle paths,
+but not many will attain arahantship. Call me cynical, but this was true
+in the Buddha's time and it remains true today.
+
+*— Daniel Ingram, “Mastering the Core Teachings of the Buddha”, 2018*
+
+> Improving your game is really really hard. It may be the hardest thing
+you ever attempt. I'd estimate only 20% of men are even capable of
+processing the basic concepts to reach an understanding of Game. Of
+those men who theoretically "get" the idea of Game, probably only 20%
+of them will do enough in-field work to become better with women. Of that
+tiny sample, probably only 10% will actually become Good With Women. This
+means that only 1 out of 250 men will even reach the intermediate level of
+Game. Even those odds likely overstate the number of Players in the world.
+
+*— Nick Krauser, “Daygame Mastery”, 2014*
 
 ### Reports
 
@@ -1535,6 +1560,17 @@ Wikipedia Articles
 * What the fuck is going on with the The Gods Themselves page?
  * Wikipedia pages on symbols in mathematics and physics are sprawling and confused, clean them up
 * On the page for Tibor Gallai, link the Gallai-Edmonds decomposition in the See also section
+* Add Yrjö Jahnsson to the list of prominent Fennomans on the Fennoman movement article
+* Use the definition from “Algorithmic Game Theory” of correlated equilibrium in the article Correlated equilibrium, the current explanation uses (but doesn't introduce) s_i
+	* Yeah, the current explanation is barely comprehensible
+* On Wikipedia page for Graph Kernel, correct "Leman" to "Lehman" (first, check whether this is actually wrong).
+* Add national anthem of Bhutan
+* Find Ian Goodfellow's true year of birth
+
+Arbital
+--------
+
+* Utility indifference on Arbital contains a few typos
 
 Metaculus Questions
 -------------------
