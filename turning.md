@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-03-04, modified: 2022-03-26, language: english, status: notes, importance: 8, confidence: unlikely*
+*author: niplav, created: 2022-03-04, modified: 2022-04-07, language: english, status: notes, importance: 8, confidence: unlikely*
 
 > __Representing inconsistent preferences with specific mathematical
 structures can clarify thoughts about how to make those preferences
@@ -108,6 +108,11 @@ option set `$\{a,b,c\}$` have preferences
 #### Incompleteness
 
 "Zipping" DAGs.
+
+### Simple Approach
+
+Use Graph Edit distance on the permutations of options to determine the
+one with the smallest distance.
 
 Continuous Case
 ----------------
