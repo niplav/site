@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2022-04-07, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2022-04-08, language: english, status: in progress, importance: 6, confidence: log*
 
 > __If you take away just one thing from this website,
 it should be that I think [you would want to sign up for
@@ -89,7 +89,6 @@ Writing
 * [Notes on Ethics](./notes_on_ethics.html)
 * [Notes on Pickup](./notes_on_pickup.html)
 * [Notes on Predictions](./notes_on_predictions.html)
-* [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
 
 #### Reports
 

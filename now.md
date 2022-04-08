@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2022-03-24, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2022-04-08, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -39,6 +39,7 @@ If I find time inbetween that, I'm expanding on the following texts:
 * [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 * [Generalizing the Diamond-Square Algorithm to n Dimensions](./diamond.html)
 * [Circle Combinations](./circle_combinations.html)
+* [Forecasters! What do they know? Do they know things? Let's find out!](./forecasters.html)
 
 I'm also planning a full edit of all texts on the website, but don't
 have a fixed date to get started on that at the moment.
