@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-04-07, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-04-10, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,16 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Is cellular senescence irreversible? (José Luis Ricón, 2020)](https://nintil.com/reversible-senescenc
+e)
+* [On Seeing Through and Unseeing: The Hacker Mindset (Gwern Branwen, 2021)](https://www.gwern.net/Unsee
+ing)
+* [Progress In Beauty (Gwern Branwen, 2021)](https://www.gwern.net/Beauty)
+* [How Many Computers Are In Your Computer? (Gwern Branwen, 2021)](https://www.gwern.net/Computers)
+* [Easy Cryptographic Timestamping of Files (Gwern Branwen, 2017)](https://www.gwern.net/Timestamping)
+* [How to solve aging (José Luis Ricón, 2021)](https://nintil.com/how-to-solve-aging)
+* [CO₂ Coin: Decentralized Carbon Capture Blockchains (Gwern Branwen, 2022)](https://www.gwern.net/CO2-C
+oin)
 * [The Dilemma of the Deserted Husband (and why polygyny is more common than polyandry) (William Buc
 kner, 2018)](https://traditionsofconflict.com/blog/2018/3/27/the-dilemma-of-the-deserted-husband-and
 -why-polygyny-is-more-common-than-polyandry-across-cultures)
@@ -38,7 +48,7 @@ ind.com/blog/we-are-very-excited-to-announce-the-launch-of-deepmind-health)
 * [2012 election predictions (Gwern Branwen, 2015)](https://www.gwern.net/2012-election-predictions)
 * \* Die toten Seelen (Nikolai Gogol, 1842)
 * [Correlated equilibrium (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Correlated_equilibrium)
-* \* Basic Solution Concepts and Computational Issues (Éva Taros/Vijay V. Vazirani, 2007)
+* |40 Basic Solution Concepts and Computational Issues (Éva Taros/Vijay V. Vazirani, 2007)
 * Algorithmic Game Theory (Noam Nisan/Tim Roughgarden/Éva Tardos/Vijay V. Vazirani, 2007)
 * [LWer Effective Altruism donations, 2013-2014 (Gwern Branwen, 2018)](https://www.gwern.net/EA-donations)
 * Structural Regular Expressions (Rob Pike, 1990)
