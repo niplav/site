@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2022-02-12, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2022-04-11, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -1160,3 +1160,12 @@ for all `$m \in E$`.
 
 (Is this a constructive proof? It feels like one, but also like writing
 code.)
+
+Section 14
+-----------
+
+### Exercise 1
+
+Totality: `$R \cup R^{-1}=X \times X$`
+
+Antisymmetry: `$R \cap R^{-1}=\{(x,x)| x \in X\}$`

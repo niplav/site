@@ -5,8 +5,8 @@
 
 > __Beginnings of a research agenda about judgmental forecasting.__
 
-Forecasters! What do they know? Do they know things? Let's find out!
-=====================================================================
+Forecasters: What Do They Know? Do They Know Things?? Let's Find Out!
+======================================================================
 
 Judgmental forecasting is a fairly recent and (imho) fairly
 under-researched & under-appreciated human endeavour.

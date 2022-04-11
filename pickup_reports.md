@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-03-12, modified: 2022-03-27, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2022-03-12, modified: 2022-04-10, language: english, status: in progress, importance: 2, confidence: log*
 
 Pickup Reports
 ===============
@@ -112,6 +112,14 @@ pretty much zero, 5 numbers (although only 2 non-flakey), 1 lay
 
 Dates
 ------
+
+> In each case, the fundamental principle is that the hacker asks: “here
+I have a system W, which pretends to be made out of a few Xs⁠; however,
+it is really made out of many Y, which form an entirely different system,
+Z; I will now proceed to ignore the X and understand how Z works, so I
+may use the Y to thereby change W however I like”.
+
+*—[Gwern Branwen](https://www.gwern.net/), [“On Seeing Through and Unseeing: The Hacker Mindset”](https://www.gwern.net/Unseeing), 2021*
 
 ### Super Honest Non-SDL
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-03-23, language: english, status: finished, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-04-08, language: english, status: finished, importance: 1, confidence: log*
 
 > __Podcasts I am following.__
 
@@ -19,6 +19,8 @@ I try to listen to all episodes available to the public.
 * [Clearer Thinking Podcast](https://clearerthinkingpodcast.com)
 * [Guru Viking](https://www.guruviking.com/)
 * [History of Philosophy Without any Gaps](https://historyofphilosophy.net/)
+* [Manifold Podcast](https://manifold1.com)
+* [Razib Khan's Unsupervised Learning](https://razib.substack.com)
 * [Robot Friends](https://soundcloud.com/user-557955426)
 * [Utilitarian Podcast](https://anchor.fm/utilitarian)
 * [Vecna's Goon Squad](https://anchor.fm/cassius-vecna/)

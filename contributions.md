@@ -124,7 +124,39 @@ look". The comma before "smallcaps" was misplaced.
 * "especially from unreliable resources2." -> the "2" should probably be a "²"
 * "Š igut et al 2017:" should be "Šigut et al 2017:"
 
-### “Differential Intellectual Progress as a Positive-Sum Project”
+### Reducing-suffering.org
+
+#### “Why Activists Should Consider Making Lots of Money”
+
+[Tomasik 2016](https://reducing-suffering.org/why-activists-should-consider-making-lots-of-money/)
+
+* ""Replaceability by Paul Christiano" was missing a quote
+<!--
+(https://reducing-suffering.org/vegans-should-not-eat-insects-a-reply-to-fischer-2016/) "Urban composters promote slow temperature composting" -> "slow" should be "low" (or [sic]),
+(https://reducing-suffering.org/applied-welfare-biology-wild-animal-advocates-focus-spreading-nature/) The content of this section has moved to an upcoming article, which should be online by Nov./Dec. 2017." -> probably means [this article](https://reducing-suffering.org/food-waste), or at least something [in this section](https://reducing-suffering.org/#Food_scraps).
+"4. Stronger rule of law may reduce environmental destruction, and poverty reduction tends to improve rule of law." -> But this is contradictory? Stronger rule of law would prevent the destruction of the rainforest, which (barring climate change) seems net negative, but you treat conservation as something positive here. Why? Possible typo/thinking error?
+(https://reducing-suffering.org/wild-caught-fishing-affects-wild-animal-suffering/)
+"fewer higher trohic levels" -> "fewer higher trophic levels"
+(https://reducing-suffering.org/should-fishing-opponents-be-happy-about-overfishing/)
+"to the detrmiment" -> "to the detriment"
+(https://reducing-suffering.org/how-cattle-grazing-affects-pasture-productivity/)
+"Early seral stages are usually marked by rapid growth and biomass biomass accumulation" -> biomass is doubled, possibly [sic]
+"Yet, many have not reached the decertified stage" -> [sic], should probably be "desertified"
+(https://reducing-suffering.org/how-rainforest-beef-production-affects-wild-animal-suffering/)
+"Strictly comparing cow vs. insect neurons, we get something on the order of 10⁵ cow-years of suffering per insect-year of suffering." -> should be the other way around
+(https://reducing-suffering.org/scenarios-for-very-long-term-impacts-of-climate-change-on-wild-animal-suffering/)
+"I'll discount wild animals t years into the future by a probabilistic factor t^(-k) for k in (‑∞, 0]. To avoid having this curve explode near t = 0, I cap the value of this discount at 1 for t < 1. I choose k = -0.1" -> Typo, I think you wanted to say that k=0.1, since the '-' is already in the equation?
+(https://reducing-suffering.org/microorganisms-wastewater-treatment/)
+"This means too much too many 'nutrients' are being released back into the ecosystem, perhaps a stream." -> "too much too many" is probably a [sic]?
+(https://reducing-suffering.org/dissolving-confusion-about-consciousness/)
+"In opposition to property dualism, Eliezer Yudkowsky writes" -> I always understood that quote to be about epiphenomenalism, not property dualism (although I guess one could argue that they are the same)
+(https://reducing-suffering.org/the-many-fallacies-of-dualism/)
+"scentific" -> "scientific"
+(https://longtermrisk.org/the-eliminativist-approach-to-consciousness/)
+"thing (dis)being valued, consciousness" -> move "(dis)" one word forward
+-->
+
+#### “Differential Intellectual Progress as a Positive-Sum Project”
 
 [Tomasik 2015](https://foundational-research.org/differential-intellectual-progress-as-a-positive-sum-project/).
 
