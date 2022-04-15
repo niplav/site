@@ -160,7 +160,7 @@ especially alignable.
 
 Arguments against the usefulness for brain-computer interfaces
 in AI alignment have been raised, but mostly in short form on
-twitter (for example [here](https://twitter.com/robbensinger/status/1405878940149944332)).
+twitter (for example [here](https://nitter.hu/robbensinger/status/1405878940149944332)).
 This text attempts to collect arguments for and against brain-computer
 interfaces from an AI alignment perspective.
 

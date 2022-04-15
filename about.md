@@ -473,7 +473,7 @@ The last g-laden test I took put me at ~110, which seems about right.
 * [Wikipedia](https://en.wikipedia.org/wiki/User:Niplav)
 * [Mastodon](https://schelling.pt/@niplav)
 
-I used to use [twitter](https://twitter.com/niplavyushtun),
+I used to use [twitter](https://nitter.hu/niplavyushtun),
 but I got addicted to it (thrice) and decided to instead
 switch to [twtxt](https://github.com/buckket/twtxt). Then I
 discovered that it's not quite as fun as twitter and switched to a

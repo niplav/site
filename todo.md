@@ -35,7 +35,6 @@ Site
 * Add content tables to pages?
 * Add RSS feed (ugh)
 * Add metadata to hosted PDFs/videos
-* Convert twitter links to nitter.hu links
 * List of writings by importance/finishedness
 	* List of texts by year/author
 * Replace “” quotes by "" quotes, “” is for quotes within quotes
@@ -386,6 +385,7 @@ Texts
 		* Leverage
 		* Zizians
 		* Psychotic Breaks in Berkeley
+* Reward Long Content
 * Why Not Prepping?
 
 > [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
@@ -510,6 +510,9 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Creatine & Vegetarianism IQ?
 * Survey advanced meditators about their attainments and their monetary worth
 	* That is, how much is your meditative attainment worth to you?
+		* `https://old.reddit.com/r/TheMindIlluminated/comments/su8f1j/to_seek_or_to_not_seek_enlightenment/hx995y6/?context=3`
+		* `https://www.shinzen.org/the-dark-night/`
+		* `https://www.youtube.com/watch?v=SmaZ6am_KIQ&lc=UgyhA5CfJXShZN9loVd4AaABAg.9DWh5Ao7Klk9DXRaKBauqZ`
 * Masturbation Spacing
 	* Space masturbation to make it more enjoyable
 	* Form:
@@ -1550,22 +1553,16 @@ Wikipedia Articles
 	* Add examples
 	* Add description of MUMs
 * Judea Pearl
-* Vazirani brothers articles make consistent (date of birth, note, …)
 * Patri Friedman site states he considers himself a rationalist, but that links to the page on philosophical rationalism, while I suspect this refers to the LW variety
-* Add The Pile to the List of datasets for machine-learning research
 * In the page on Single-parameter Utility, the formulas contain non-\text multi-letter variables. Fix that.
 	* Same for Monotonicity (mechanism design)
-* Clean up second paragraph in Colored people's time
-* Add The Game by Strauss to the Game (disambiguation) page
 * What the fuck is going on with the The Gods Themselves page?
- * Wikipedia pages on symbols in mathematics and physics are sprawling and confused, clean them up
-* On the page for Tibor Gallai, link the Gallai-Edmonds decomposition in the See also section
-* Add Yrjö Jahnsson to the list of prominent Fennomans on the Fennoman movement article
+* Wikipedia pages on symbols in mathematics and physics are sprawling and confused, clean them up
 * Use the definition from “Algorithmic Game Theory” of correlated equilibrium in the article Correlated equilibrium, the current explanation uses (but doesn't introduce) s_i
 	* Yeah, the current explanation is barely comprehensible
 * On Wikipedia page for Graph Kernel, correct "Leman" to "Lehman" (first, check whether this is actually wrong).
-* Add national anthem of Bhutan
 * Find Ian Goodfellow's true year of birth
+* Add missing national anthems to `https://en.wikipedia.org/wiki/List_of_national_anthems`
 
 Arbital
 --------

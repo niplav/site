@@ -296,7 +296,7 @@ Killing Old People Versus Infants
 
 [Would you rather kill anybody above the age
 of 55, or all infants who are less than 1 year
-old](https://twitter.com/Aella_Girl/status/1201004323771015168)? A
+old](https://nitter.hu/Aella_Girl/status/1201004323771015168)? A
 utilitarian estimate calculation.
 
 First, we have to find out how many people one
