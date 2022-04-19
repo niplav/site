@@ -29,6 +29,7 @@ How good are we at forecasting?
 	* When don't they converge?
 	* Can we classify convergence/divergence/oscillation behaviors?
 * How do prediction markets, professional forecasting teams, internet enthusiasts and large language models compare?
+	* `https://forum.effectivealtruism.org/posts/qZqvBLvR5hX9sEkjR/comparing-top-forecasters-and-domain-experts`
 * What is a good formalization of the idea of a forecaster being accurate at a level of n%?
 	* See [finesse](./finesse.html)
 	* Are better short-term forecasters also better long-term forecasters?
