@@ -66,15 +66,16 @@ I started reading the Marginal Revolution archives and quickly abandoned
 the endeavour, I persisted a bit longer with Overcoming Bias, reading
 at least all posts from 2006 and half of the posts from 2007.
 
-Additionally, blogs fall prey to [bit rot](), in which facts fall out of
-date, replication crises happen, new relevant ideas are discovered, better
-citations become available &c; they also incentivize a focus on new posts
-(most blogs show posts chronologically by default, burying old ones in
-hard-to-navigate archives or with obscure tagging systems). (Similar with
-software projects: unmaintained software is worth less and less over time,
-especially when it is foundational; the shiny new JavaScript framework is
-the most popular, even if [jQuery](https://en.wikipedia.org/wiki/JQuery)
-would do the trick ust as well).
+Additionally, blogs fall prey to [bit rot](), in which facts fall out
+of date, replication crises happen, new relevant ideas are discovered,
+better citations become available &c; they also incentivize a focus
+on new posts (most blogs show posts chronologically by default,
+burying old ones in hard-to-navigate archives or with obscure tagging
+systems). (Similar with software projects: unmaintained software is worth
+less and less over time, especially when it is far down the technology
+stack; the shiny new JavaScript framework is the most popular, even if
+[jQuery](https://en.wikipedia.org/wiki/JQuery) would do the trick ust
+as well).
 
 What advantage, if any, do blogs have over other media? Books can be (and
 usually are) far more comprehensive and high-status, instant messaging
@@ -94,24 +95,26 @@ rewriting it after it has turned out to be wrong.
 
 ### Did __Anybody__ *Think* About The Incentives?
 
-We can then look at the prize from another lens: Which algorithms'
-measures does this prize increase? Surely not the one of people who are
-willing to put in a decade into a post about spaced repetition, since
-one of the requirements is that the blog should have been started at most
-12 months ago (‽), so the algorithms you incentivize is not “puts a
-lot of effort into a blog”, but “puts a lot of effort into a blog
-as long as there is a juicy prize at the finish line”. (The website
-states that only blogs started "within the last 12 months" are eligible
-for the prize—does that refer to the 12 months before the announcement
-of the prize, or the date at which the prize is given out?)
+We can then look at the prize from another lens: Which [algorithms'
+measures](zackmdavis.net/blog/2013/08/measure/) does this prize
+increase? Surely not the one of people who are willing to put in a decade
+into a post about spaced repetition, since one of the requirements is
+that the blog should have been started at most 12 months ago (‽),
+so the algorithms you incentivize is not “puts a lot of effort into a
+blog”, but “puts a lot of effort into a blog as long as there is a
+juicy prize at the finish line”. (The website states that only blogs
+started "within the last 12 months" are eligible for the prize—does
+that refer to the 12 months before the announcement of the prize, or
+the date at which the prize is given out?)
 
 Of the blogs that will win the prizes, how many of them will persist
 *after* the prize is given out? Not many, I reckon.<!--TODO: make
-predictionbook predictions about this-->.
+predictionbook predictions about this-->
 
-Rewarding this kind of unmaintained one-shot content creates epistemic
-fireworks, not epistemic infrastructure: posts that come to fruition
-slowly, that potentially will still be read in five years.
+Rewarding this kind of unmaintained one-shot content creates not epistemic
+infrastructure (posts that come to fruition slowly, that potentially
+will still be read in five years), but epistemic fireworks (or, in the
+best case, epistemic tinder that sparks discussions).
 
 ### Long-Term Prizes for New Blogs
 
@@ -149,25 +152,25 @@ rough impressions (in the long term, I plan to add all those posts to
 
 * [Ziggurat](https://ziggurat.substack.com/)
 	* 3 posts (one of them an announcement post), decent length, last post April 7th 2022
-	* Impression: Good potential, especially with the recent update
+	* Impression: Good potential, especially with the recent update.
 * [Bridget Williams](https://www.bridgetwilliams.blog/)
 	* 2 posts, decent length, last post March 26th 2022
 	* Impression: Looks nice, probably a bit more in-depth than the average blog. Might become something.
 * [The Take Machine](https://thetakemachine.substack.com/p/coming-soon?showWelcome=true&s=r)
 	* 1 announcement post, quite short, last post March 7th 2022
-	* Impression: This is not yet a blog, so I do not understand why you would link it in a "our bloggers" section
+	* Impression: This is not yet a blog, so I do not understand why you would link it in a "our bloggers" section.
 * [Sam Enright](https://samenright.com/)/[The Fitzwilliam](https://www.thefitzwilliam.com/)
 	* 36 posts/8 posts, appreciable length, last post on April 6th 2022
 	* Impression: Now *this* is the kind of stuff that gets me excited. Sam, have you considered writing a [site](https://www.gleech.org/sites), not a a blog or a newsletter? Your book reviews would look [very good](https://gwern.net/reviews/Books) on one page ;-). Verdict: Excellent.
 * [Heloise Investigates](https://heloiseinvestigates.substack.com/p/coming-soon?showWelcome=true&s=r)
 	* 1 announcement post, very short, posted February 15th
-	* Impression: Nothing here, similar to The Take Machine.
+	* Impression: Nothing here, similar to The Take Machine. Verdict: [REDACTED] [REDACTED] [REDACTED]
 * [Basil Halperin](https://basilhalperin.com/essays.html)
 	* 15 posts, quite long, last post March 31st 2022
 	* Impression: I really like this blog: the first post is from 2013 (showing that the author is persistent, even if they're a slow writer, but who am I to call that a vice!), the author *wants* to write a long site but doesn't know it yet (seriously, look at the [best essays](https://basilhalperin.com/essays/best-essays.html) page: add the other 6 posts to that, and it would work great as a landing page for the blog.) Verdict: We could be friends :-)
 * [Hands and Cities](https://handsandcities.com/)
 	* 46 posts, some of them extraordinarily long (I've been procrastinating on reading [On Infinite Ethics](https://handsandcities.com/2022/01/30/on-infinite-ethics/) for quite a while now), last post March 24th 2022
-	* Impression: Outstanding (and *a bit* depressing): The posts are more solid than anything I've ever written, on very interesting topics, with quotes from relevant poetry: This could be turned into a long site in a whim. Also an excellent illustration for why chronological archives often don't make sense: There's no reason why [this post](https://handsandcities.com/2021/06/21/on-the-limits-of-idealized-values/) is further down than [this post](https://handsandcities.com/2022/02/18/simulation-arguments/). I suspect that these posts will not be updated over time (:-/), which will make them less useful over time (although this is less of a problem for [philosophy than for other disciplines](https://www.lesswrong.com/posts/NCzfvp7jmbouodsRP/integrating-the-lindy-effect))—in ten years someone might stumble upon [Can you control the past](https://handsandcities.com/2021/08/27/can-you-control-the-past/) and start scrolling, fascinatedly, an explorer in the ruins of a great ancient civilization.
+	* Impression: Outstanding (and *a bit* depressing): The posts are more solid than anything I've ever written, on very interesting topics, with quotes from relevant poetry: This could be turned into a long site in a whim. Also an excellent illustration for why chronological archives often don't make sense: There's no reason why [this post](https://handsandcities.com/2021/06/21/on-the-limits-of-idealized-values/) is deprioritised in the list of posts compared to [this post](https://handsandcities.com/2022/02/18/simulation-arguments/). However, I suspect that these posts will not be updated over time (:-/), which will slowly make them less useful (although this is less of a problem for [philosophy than for other disciplines](https://www.lesswrong.com/posts/NCzfvp7jmbouodsRP/integrating-the-lindy-effect))—in ten years someone might stumble upon [Can you control the past](https://handsandcities.com/2021/08/27/can-you-control-the-past/) and start scrolling, fascinatedly, an explorer in the ruins of a great ancient civilization.
 
 Verdict: two webpages that aren't actually blogs, two young (but
 potentially promising) blogs with few posts, two medium-age blogs that
@@ -372,6 +375,11 @@ conscientiousness be __worth it__.
 Look at the Wikipedia pages for EA-relevant topics, and find the
 contributors who have participated most in the creation of those pages,
 contact them and grant them after-the-fact prizes for their efforts.
+
+The advantage is clear: Wikipedia is not going away, and the go-to
+resource for ~everybody on a new topic is the Wikipedia page. 10 minor
+edits to Wikipedia might outweigh a year of blogging in terms of eyeballs
+and social utility.<!--TODO: make fermi estimate here-->
 
 Conclusion
 -----------
