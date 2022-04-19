@@ -1125,4 +1125,9 @@
 2022-04-14T13:39:12.000000Z	scaling laws for dogs
 2022-04-14T19:03:32.000000Z	the joy of having written down a possible improvement for a wikipedia article, only to go & find out somebody else has already done it. glorious
 2022-04-15T01:36:20.000000Z	so, would people in 1920 have been irrational in worrying about the development of nuclear weapons? would they have been irrational thinking about the resulting dynamics between countries, the safety of those weapons?
-2022-04-15T03:35:01.000000Z	9 wikipedia edits! yay me! (also a bunch of small scale contributions to other people's texts: https://niplav.github.io/contributions.html)
+2022-04-15T03:35:01.000000Z	9 wikipedia edits today! yay me! (also a bunch of small scale contributions to other people's texts: https://niplav.github.io/contributions.html)
+2022-04-15T15:58:39.000000Z	at the moment, all medicine merely delays the moment of death
+2022-04-15T16:36:23.000000Z	tried to figure out how to use university springer access to download a textbook, gave up after two minutes and just used libgen. lmao
+2022-04-17T16:11:50.000000Z	https://en.wikipedia.org/w/index.php?title=Special:Contributions/Gwern&offset=&limit=500&target=Gwern
+2022-04-18T20:23:00.000000Z	*stands up from the battlefield* “I am TetraspaceWest” *gets shot immediately*
+2022-04-18T20:31:03.000000Z	some people are better at some things than others. also, some people are better at nearly all things than others. maybe there are also people that are better at all things than some others.
