@@ -51,6 +51,8 @@ at `$\mathcal{F}$` and `$1$` if the forecasts are completely linear at
 Conditions for a Finesse Evaluation Function
 ---------------------------------------------
 
+Use finesse `$ᚠ$` and noise `$ⴟ$`
+
 1. If `$n=0$`, `$s(\emptyset, \mathcal{F})$` is undefined.
 2. If `$n=1$`, `$s(\mathbf{D}, \mathcal{F})=0$`: We are generally suspicious of any single forecast.
 	1. More generally, if `$\mathbf{D}$` contains an `$f_i$` so that there is no other prediction with a probability within `$[f_i-\frac{\mathcal{F}}{2}; f_i+\frac{\mathcal{F}}{2}]$`, then `$s(\mathbf{D}, \mathcal{F})=0$`. Yes, even if the set of forecasts is "dense" and non-random in other places.
@@ -96,3 +98,35 @@ forecasts is:
 
 * Add more & more noise to the forecasts and see how Brier score develops
 * Start with perfect predictor, the level of noise at which its Brier score is equal to the dataset
+
+----
+
+	import csv
+	import statistics
+	import numpy as np
+	
+	d1=np.array([[1,0.8],[0,0.4],[0,0.65],[1,0.99]]).T
+	oc=d1[0]
+	pr=d1[1]
+	
+	def mse(o,p):
+		return np.mean(np.abs(o-p)**2)
+
+	def logit(p):
+		return np.log(p/(1-p))
+
+	def logistic(p):
+		return 1/(1+np.exp(-p))
+
+	np.random.default_rng().normal(0,1,len(d1[1]))
+
+	def finesse(d, pert=1, s=100):
+		o=d[0]
+		p=d[1]
+		score=mse(o,p)
+		print(score)
+		pert_scores=[]
+		for i in range(0,s):
+			perturbed=logistic(logit(p)+np.random.default_rng().normal(0,pert,len(p)))
+			pert_scores.append(mse(o,perturbed))
+		return np.mean(pert_scores)-score

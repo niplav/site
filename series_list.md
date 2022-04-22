@@ -20,6 +20,7 @@ order). I may not be finished with some of these yet.
 * [Fargo](https://www.imdb.com/title/tt2802850/)
 * [Game of Thrones](https://www.imdb.com/title/tt0944947/)
 * [House of Cards](https://www.imdb.com/title/tt1856010/)
+* [Inside Job](https://www.imdb.com/title/tt10231312/)
 * [Invincible](https://www.imdb.com/title/tt6741278/?ref_=nv_sr_srsg_0)
 * [Legend of the Galactic Heroes](https://www.imdb.com/title/tt0096633/)
 * [Loki](https://www.imdb.com/title/tt9140554/)

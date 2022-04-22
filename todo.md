@@ -34,6 +34,14 @@ Site
 	* Prune flagged cards?
 * Add content tables to pages?
 * Add RSS feed (ugh)
+	* `https://www.interglacial.com/tpj/26/`
+	* `https://github.com/html2rss/html2rss`
+	* `https://github.com/html2rss/html2rss`
+	* `http://fetchrss.com/`
+	* `https://www.linux.com/news/building-command-line-generator-rss-feeds-0/`
+	* `https://lynxbee.com/bash-script-to-generate-rss-feed-compatible-xml-using-unique-urls-of-a-website/#.Yl_EYlxBxH5`
+	* `https://www.makeuseof.com/tag/how-to-create-an-rss-feed-for-your-site-from-scratch/`
+	* `https://florian-dahlitz.de/articles/create-feeds-for-your-blog`
 * Add metadata to hosted PDFs/videos
 * List of writings by importance/finishedness
 	* List of texts by year/author
