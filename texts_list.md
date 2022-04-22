@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-04-10, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-04-21, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,20 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [The Creation of Men and Women in Hunter-Gatherer Societies (William Buckner, 2020)](https://traditionsofconflict.com/blog/2020/12/29/the-creation-of-men-and-women-in-hunter-gatherer-societies)
+* [The Hyperbolic Time Chamber & Brain Emulation (Gwern Branwen, 2018)](https://www.gwern.net/Hyperbolic-Time-Chamber)
+* [Book Review: Humankind by Rutger Bregman (William Buckner, 2020)](https://traditionsofconflict.com/blog/2020/12/13/book-review-humankind-by-rutger-bregman)
+* [Surprisingly Turing-Complete (Gwern Branwen, 2021)](https://www.gwern.net/Turing-complete)
+* [Choosing Software (Gwern Branwen, 2012)](https://www.gwern.net/Choosing-Software)
+* [Conceptual Issues with Evolutionary Psychology: The Case of the ‘Mate-Killing Module’ (William Buc
+kner, 2020)](https://traditionsofconflict.com/blog/2020/4/28/conceptual-issues-with-evolutionary-psyc
+hology-the-case-of-the-mate-killing-module)
+* [Reasons of State: Why Didn’t Denmark Sell Greenland? (Gwern Branwen, 2019)](https://www.gwern.net/Greenland)
+* [Startup Ideas (Gwern Branwen, 2021)](https://www.gwern.net/Startup-ideas)
+* [Forbidden Utterances: Naming the Dead (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/8/23/forbidden-utterances-naming-the-dead)
+* [What Is The Collecting Mindset? (Gwern Branwen, 2022)](https://www.gwern.net/Collecting)
+* ['The WEIRDest People in the World' gets polygyny wrong (William Buckner, 2020)](https://traditionsofconflict.com/blog/2020/9/8/the-weirdest-people-in-the-world-gets-polygyny-wrong)
+* [Why Unity Biotechnology's UBX0101 failed (José Luis Ricón, 2020)](https://nintil.com/why-ubx0101-failed)
 * [Is cellular senescence irreversible? (José Luis Ricón, 2020)](https://nintil.com/reversible-senescenc
 e)
 * [On Seeing Through and Unseeing: The Hacker Mindset (Gwern Branwen, 2021)](https://www.gwern.net/Unsee
