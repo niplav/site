@@ -314,6 +314,20 @@ Texts
 		* New experiences
 		* Drugs?
 
+### Philosophy
+
+#### Ethics
+
+* Bounded Population Axiology
+
+#### Consciousness
+
+* Matter is Philosophically Unnecessary
+* The Hard Problem of Consciousness Still Persists Without Matter
+* Panpsychism is a Class of Theories of Consciousness, not a Theory of Consciousness
+* Intentional vs. Non-Intentional Consciousness
+	* The reason why, even if, strictly speaking, trees are "conscious", we don't have to worry about damaging them as much as we have to worry about damaging animals
+
 ### Arguments
 
 * Why Still Choose C?
@@ -365,8 +379,6 @@ Texts
 	* Easterlin Paradox
 	* Status Games
 * In Praise of Cost-Benefit Analyses
-* Intentional vs. Non-Intentional Consciousness
-	* The reason why, even if, strictly speaking, trees are "conscious", we don't have to worry about damaging them as much as we have to worry about damaging animals
 * Creating Utility Monsters or Repugnant Beings
 	* Marginal returns of investment on the well-being of single persons are probably monotonically increasing/decreasing
 	* If so, we end up with utility monsters or in a repugnant conclusion
@@ -393,7 +405,12 @@ Texts
 		* Leverage
 		* Zizians
 		* Psychotic Breaks in Berkeley
-* Reward Long Content
+* Do Things in Groups
+* Some Useful Rationality Concepts
+	* Feedback Loops
+		* Thick vs. Thin/Fast vs. Slow/Signal vs. Noise
+	* Option Value
+	* The Is-Ought Distinction
 * Why Not Prepping?
 
 > [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
@@ -583,6 +600,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Proton decay follows a geometric distribution
 	* When will the last proton decay?
 * Test computationally whether causal networks have more correlations or causations, project from [here](https://www.gwern.net/Causality#what-a-tangled-net-we-weave-when-first-we-practice-to-believe)
+* Which percentage of random normal-form games are potential games?
 
 ### Ideas
 

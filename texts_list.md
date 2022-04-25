@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-04-21, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-04-23, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,9 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Ghoti (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Ghoti)
+* [Tickle-fight Diplomacy, and Other Methods of Greeting and Conflict Management (William Buckner, 2021)](https://traditionsofconflict.com/blog/2021/10/17/tickle-fight-diplomacy-and-other-methods-of-greeting-and-conflict-management)
+* \* Calibration Scoring Rules for Practical Prediction Training (Spencer Greenberg, 2018)
 * [The Creation of Men and Women in Hunter-Gatherer Societies (William Buckner, 2020)](https://traditionsofconflict.com/blog/2020/12/29/the-creation-of-men-and-women-in-hunter-gatherer-societies)
 * [The Hyperbolic Time Chamber & Brain Emulation (Gwern Branwen, 2018)](https://www.gwern.net/Hyperbolic-Time-Chamber)
 * [Book Review: Humankind by Rutger Bregman (William Buckner, 2020)](https://traditionsofconflict.com/blog/2020/12/13/book-review-humankind-by-rutger-bregman)
