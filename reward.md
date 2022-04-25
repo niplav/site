@@ -278,7 +278,7 @@ I believe would be quite beneficial.
 
 ### Small Changes
 
-On the less invasive side, I imagine two different improvements:
+On the less invasive side, I can propose one small improvement:
 
 #### Drop the Age Limit
 
@@ -357,6 +357,17 @@ which is about credit-assignment.)
 
 *— [Zack M. Davis](http://zackmdavis.net), [“"Friends Can Change the World"; Or, Request for Social Technology: Credit-Assignment Rituals”](http://zackmdavis.net/blog/2017/03/friends-can-change-the-world-or-request-for-social-technology-credit-assignment-rituals/), 2017*
 
+#### The Outstanding Wikipedians Prize
+
+Look at the Wikipedia pages for EA-relevant topics, and find the
+contributors who have participated most in the creation of those pages,
+contact them and grant them after-the-fact prizes for their efforts.
+
+The advantage is clear: Wikipedia is not going away, and the go-to
+resource for ~everybody on a new topic is the Wikipedia page. 10 minor
+edits to Wikipedia might outweigh a year of blogging in terms of eyeballs
+and social utility.<!--TODO: make fermi estimate here-->
+
 #### The Gwern Prize
 
 Instead of rewarding blogs, look explicitely for sites with long
@@ -369,17 +380,6 @@ and [predictions](predictionbook.com/users/gwern) and [URL
 archiving](https://www.gwern.net/Archiving-URLs)), if they don't have
 sufficient funding, offer to fund them completely for a year. Make online
 conscientiousness be __worth it__.
-
-#### The Outstanding Wikipedians Prize
-
-Look at the Wikipedia pages for EA-relevant topics, and find the
-contributors who have participated most in the creation of those pages,
-contact them and grant them after-the-fact prizes for their efforts.
-
-The advantage is clear: Wikipedia is not going away, and the go-to
-resource for ~everybody on a new topic is the Wikipedia page. 10 minor
-edits to Wikipedia might outweigh a year of blogging in terms of eyeballs
-and social utility.<!--TODO: make fermi estimate here-->
 
 Conclusion
 -----------

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2022-02-23, language: english, status: maintenance, importance: 7, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2022-04-22, language: english, status: maintenance, importance: 7, confidence: remote*
 
 > __Is [cryonics](https://en.wikipedia.org/wiki/Cryonics)
 worth it, and if yes, should one
@@ -912,6 +912,11 @@ cryonics or even signed up, and people in general are overconfident,
 so being conservative by halving the estimate seems like a good idea.
 
 	prob_succ=0.05
+
+This is quite pessimistic: It assumes that cryobiology will make no
+progress *whatsoever* in the fidelity of the preserved tissue (remember,
+the probabilities given are usually for the success of a preservation
+given that it happens *now*).
 
 ### Years Gained
 

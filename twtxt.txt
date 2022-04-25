@@ -1142,3 +1142,10 @@
 2022-04-22T00:24:47.000000Z	🙰 c
 2022-04-22T00:25:22.000000Z	the famous unix command ʪ
 2022-04-22T00:28:26.000000Z	ẞẞẞẞẞẞẞẞẞẞẞ
+2022-04-22T13:07:23.000000Z	three aspects of feedback loops: 1. speed (how quickly do you get feedback); 2. thickness (how much information do you get about your performance); 3. signal (how related is that feedback to your performance)
+2022-04-22T13:30:14.000000Z	one then checks that the following diagrams commute [devil god diagram]
+2022-04-22T17:04:49.000000Z	SBF f-bomb counter
+2022-04-24T21:52:06.000000Z	list of countries whose emblems contain overhead power lines:
+2022-04-24T21:52:06.000001Z	• North Korea
+2022-04-24T21:55:56.000000Z	no, niplav, you won't get sucked into reading the heraldry wikipedia articles, even though “escutcheon” looks like a really good word to drop in a conversation.
+2022-04-24T22:14:07.000000Z	𐤌𐤕

@@ -461,7 +461,7 @@ could tentatively conclude that generally range within questions is
 correlated negatively with accuracy of forecasts.
 
 In the chart above, the relation between range and accuracy within
-questions would be the green and mustard linear regressions.
+questions would be the cyan and mustard linear regressions.
 
 ----------------
 
@@ -486,7 +486,10 @@ R). Then the ID is converted to integer, and the rest of the fields are
 converted to floats (the range is a float for some Metaculus questions,
 and while the result can only take on 0 or 1, using float there makes
 it easier to calculate the brier score using `mse.set`). After that,
-negative ranges are removed from the dataset.
+negative ranges are removed from the dataset, and ranges are converted
+from seconds to days, making them slightly easier to plot:
+
+TODO: remove
 
 	.fc(.ic("../../data/pb.csv"));pbraw::csv.load()
 	.fc(.ic("../../data/met.csv"));metraw::csv.load()
@@ -495,6 +498,29 @@ negative ranges are removed from the dataset.
 	pbdata::(,pbdata@0),(,(pbdata@1)%daysec),(pbdata@[2 3]),(,(pbdata@4)%daysec)
 	metdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'1_metraw)
 	metdata::(,metdata@0),(,(metdata@1)%daysec),(metdata@[2 3]),(,(metdata@4)%daysec)
+
+----
+
+	import csv
+	import numpy as np
+	import scipy as sp
+
+	daysec=24*60*60
+
+	def getpreds(s):
+		pfile=open(s)
+		predreader=csv.reader(pfile)
+		preds=[]
+		for entry in predreader:
+			if entry[0][0]=="#":
+				continue
+			else:
+				preds.append([int(entry[0]), float(entry[1])/daysec, float(entry[2]), float(entry[3]), float(entry[4])/daysec])
+		preds=list(filter(lambda x: x[4]>=0, preds))
+		return np.array(preds).T
+
+	pb=getpreds("../../data/pb.csv")
+	met=getpreds("../../data/met.csv")
 
 #### Why Some Negative Ranges?
 
@@ -518,8 +544,8 @@ Examples:
 
 For PredictionBook, users can still predict after any resolution. The
 script fetches the first resolution, making some predictions retroactive.
-I could instead retrieve the result of the last resolution, but I'm not
-sure it would be worth the effort, or improve the quality of the data
+I could instead retrieve the result of the last resolution, but I don't
+think it would be worth the effort, or improve the quality of the data
 very much.
 
 Examples:
@@ -531,12 +557,10 @@ Examples:
 
 ---
 
-In the next step, I extracted the individual variables from the data
-and gave them names (handling the various indices was tiresome after
+In the next step, I extract the individual variables from the data
+and give them names (handling the various indices is tiresome after
 a while). `ress` stands for results, `fcs` for forecasts, and `rngs`
-for ranges (the ranges are converted to days instead of seconds, which
-makes them sligthly easier to display graphically):
-
+for ranges:
 
 	metress::metdata@2
 	metfcs::metdata@3
@@ -546,27 +570,44 @@ makes them sligthly easier to display graphically):
 	pbfcs::pbdata@3
 	pbrngs::pbdata@4
 
-The [Brier Score](https://en.wikipedia.org/wiki/Brier_score) is
-a scoring rule for binary forecasts. It takes into account both
-calibration and resolution by basically being the [mean squared
-error](https://en.wikipedia.org/wiki/Mean_squared_error) of forecast
-(`$f_{t}$`) and outcome (`$o_{t}$`):
+----
+
+	pbress=pb[2]
+	pbfcs=pb[3]
+	pbrngs=pb[4]
+
+	metress=met[2]
+	metfcs=met[3]
+	metrngs=met[4]
+
+The [Brier Score](https://en.wikipedia.org/wiki/Brier_score) is a
+scoring rule for binary forecasts. It takes into account both the
+calibration and resolution of forecasts by calculating the [mean squared
+error](https://en.wikipedia.org/wiki/Mean_squared_error) of forecasts
+(`$f_{t}$`) and outcomes (`$o_{t}$`):
 
 <div>
 	$$BS=\frac{1}{N}\sum_{t=1}^{N}(f_{t}-o_{t})^{2}$$
 </div>
 
-In Klong, it's easy to implement (and also available through
-the function `mse.set`):
+<!--TODO: isn't there some function that implements the mean squared
+error in numpy‽-->
+
+The Brier score is quite easy to implement:
 
 	brier::{mu((x-y)^2)}
 
-Now, one can calculate the brier score for each of the forecasts and
-outcomes, with the mean being unnecessary, because there is only one
-datapoint for each application:
+Now, one can calculate the Brier score for each of the forecasts and
+outcomes, with the mean being unnecessary, because we want to examine
+the score of each forecast individually:
 
 	metbriers::(metress-metfcs)^2
 	pbbriers::(pbress-pbfcs)^2
+
+-----
+
+	pbbriers=(pbfcs-pbress)**2
+	metbriers=(metfcs-metress)**2
 
 ### Results
 
@@ -579,6 +620,13 @@ The PredictionBook forecasts with the highest range span 3730 days
 		|/pbrngs
 	3730.00945601851852
 
+-----
+
+	>>> np.max(metrngs)
+	1387.018779324351
+	>>> np.max(pbrngs)
+	3730.0094560185184
+
 One can now look at the correlation between range and Brier score first
 for Metaculus, and then for PredictionBook:
 
@@ -586,6 +634,15 @@ for Metaculus, and then for PredictionBook:
 	0.0216592389375953837
 		cor(pbbriers;pbrngs)
 	-0.0202455558749736788
+
+----
+
+	>>> np.corrcoef(metbriers, metrngs)
+	array([[1.        , 0.02165924],
+		[0.02165924, 1.        ]])
+	>>> np.corrcoef(pbbriers, pbrngs)
+	array([[ 1.        , -0.02030743],
+		[-0.02030743,  1.        ]])
 
 For Metaculus, the results are not very surprising: The positive
 correlation tells us that the higher the range of a forecast, the lower
@@ -601,7 +658,16 @@ noise. I would have to use a significance test to discern whether they
 are statistically significant.
 
 Now, one can also perform a linear regression to gauge what the relation
-of range and accuracy of a forecast is. For this, I first create an x/y
+of range and accuracy of a forecast is:
+
+	>>> sp.stats.linregress(metrngs, metbriers)
+	LinregressResult(slope=1.4921976403559925e-05, intercept=0.16753867328019442, rvalue=0.021659238937630332, pvalue=1.89939817752528e-06, stderr=3.1319561138899387e-06)
+	>>> sp.stats.linregress(pbrngs, pbbriers)
+	LinregressResult(slope=-8.921762030379796e-06, intercept=0.16351703198845793, rvalue=-0.020307433721919746, pvalue=1.913246393632673e-05, stderr=2.0868414512480246e-06)
+
+----
+
+For this, I first create an x/y
 set with the brier score of a forecast being in the y axis and the range
 in the x axis:
 
@@ -615,10 +681,12 @@ Now, a linear regression is easy:
 		lreg(pbtab)
 	[-0.00000889314678851551979 0.163484538869647844]
 
+----
+
 These are not particularly surprising. The inferred brier score at range
 0 (the forecast directly before resolution) is ~0.16, which seems a bit
-pessimistic, but other than that, growth with higher ranges for metaculus
-data and lower accuracy for higher ranges for predictionbook data match
+pessimistic, but other than that, growth with higher ranges for Metaculus
+data and lower accuracy for higher ranges for PredictionBook data match
 the correlation. The steepness of the regression is quite low because
 the ranges are in days.
 
@@ -723,6 +791,8 @@ forecasts). Unfortunately, whether Simpson's paradox applies or not can
 not always be easily judged from the scatterplot of datapoints.
 
 #### Low Sample Sizes With High Ranges
+
+<!--HERE-->
 
 Another question one might ask is: How big are the sample sizes at the
 tails when the range is high?

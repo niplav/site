@@ -37,7 +37,6 @@ HTML=index.html \
 	circle_combinations.html \
 	consciousness_diagram.html \
 	considerations_on_cryonics.html \
-	content.html \
 	cryonics_outside_us.html \
 	daygame_cost_benefit.html \
 	declaration.html \
@@ -61,6 +60,7 @@ HTML=index.html \
 	platte.html \
 	range_and_forecasting_accuracy.html \
 	rationalist_gods.html \
+	reward.html \
 	senryu.html \
 	sites.html \
 	tao_te_king.html \
