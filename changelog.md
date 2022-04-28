@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-04-01, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-04-26, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -10,6 +10,11 @@ Changelog
 
 April 2022
 -----------
+
+* [Solutions to “Algorithmic Game Theory”](./agt_solutions.html)
+	* [1.3](./agt_solutions.html#13)
+* Sent in [many fixes](./contributions.html) to typos in other peoples' texts
+* [Reward Long Content](./reward.html)
 
 March 2022
 -----------

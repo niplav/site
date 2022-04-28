@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-04-23, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-04-28, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,18 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [On Having Enough Socks (Gwern Branwen, 2019)](https://www.gwern.net/Socks)
+* [Ethnographic Evidence Conflicts With The 'Cold Winters' Hypothesis (William Buckner, 2020)](https://traditionsofconflict.com/blog/2020/1/12/ethnographic-evidence-conflicts-with-the-cold-winters-hypothesis)
+* [The Elusive Thing-In-Of-Itself (Kennetz Shinozuka, 2017)](https://blankhorizons.com/2017/10/31/reality-part-ii-evolutionary-perception-the-thing-in-of-itself-and-whatever-it-is-that-there-is/)
+* [The Fishbowl Trick (William Buckner, 2022)](https://traditionsofconflict.com/blog/2022/1/20/the-fishbowl-trick)
+* [Technology Forecasting: The Garden of Forking Paths (Gwern Branwen, 2019)](https://www.gwern.net/Forking-Paths)
+* [Student Dysphoria, and a Previous Life's War (Mark Taylor Saotome-Westlake, 2022)](http://unremediatedgender.space/2022/Apr/student-dysphoria-and-a-previous-lifes-war/)
+* [Autogynephilia Should Be Recognized Openly (GPT-3, 2022)](http://unremediatedgender.space/2022/Apr/autogynephilia-should-be-recognized-openly/)
+* [Backlog Metablogging, April 2022 (Mark Saotome-Taylor Westlake, 2022)](http://unremediatedgender.space/2022/Apr/backlog-metablogging-april-2022/)
+* [* A (Long) Peek into Reinforcement Learning (Lilian Weng, 2020)](https://lilianweng.github.io/posts/2018-02-19-rl-overview/)
+* [The Present Moment and Real Freedom (Kenneth Shinozuka, 2017)](https://blankhorizons.com/2017/09/24/the-present-moment-and-real-freedom/)
+* [The limits of the proposed 'behavioral immune system' (William Buckner, 2021)](https://traditionsofconflict.com/blog/2021/2/5/the-limits-of-the-proposed-behavioral-immune-system)
+* [Initiation Prelude [Fiction] (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/10/28/initiation-prelude-fiction)
 * [Ghoti (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Ghoti)
 * [Tickle-fight Diplomacy, and Other Methods of Greeting and Conflict Management (William Buckner, 2021)](https://traditionsofconflict.com/blog/2021/10/17/tickle-fight-diplomacy-and-other-methods-of-greeting-and-conflict-management)
 * \* Calibration Scoring Rules for Practical Prediction Training (Spencer Greenberg, 2018)
