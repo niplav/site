@@ -601,6 +601,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* When will the last proton decay?
 * Test computationally whether causal networks have more correlations or causations, project from [here](https://www.gwern.net/Causality#what-a-tangled-net-we-weave-when-first-we-practice-to-believe)
 * Which percentage of random normal-form games are potential games?
+* Double Blind Self-Experiment with Wellbutrin
 
 ### Ideas
 
@@ -1113,6 +1114,7 @@ eine kontingente verschmelzung von fast-sein und konkretheit"
 	* Overcoming Bias
 	* hbdchick
 * A wiki for pickup terminology
+* Kiwix versions of LessWrong, Alignment Forum, Effective Altruism Forum
 
 Data Sets
 ----------
@@ -1596,6 +1598,7 @@ Answers
 * Answer `https://old.reddit.com/r/slatestarcodex/comments/u3xpn3/effective_altruists_and_worrying_about_nuclear/i4t4u2p/`
 * Answer `https://old.reddit.com/r/slatestarcodex/comments/u3xpn3/effective_altruists_and_worrying_about_nuclear/i4sxf5n/`
 * Answer `https://www.lesswrong.com/posts/pSdxQfbvC5qBBdehq/what-is-the-most-significant-way-you-have-changed-your-mind?commentId=G97DgBgPvWbugkZEd`
+* Answer `https://forum.effectivealtruism.org/posts/aNu3HCGjLCn45EMNp/reward-long-content` Nick Whitaker & salonium
 
 Arbital
 --------

@@ -10,9 +10,9 @@ the general downfall of epistemic infrastructure on the internet.__
 Reward Long Content
 ====================
 
-Recently, the FTX Long Term Future Fund
+Recently, the Ideas Project
 [announced](https://forum.effectivealtruism.org/posts/xapRLBTpMYokrpd9q)
-the Ideas Project: a [$500,000 prize](https://effectiveideas.org/) for
+a [$500,000 prize](https://effectiveideas.org/) for
 new blogs.
 
 The prize will award an up to $100,000 prize each to the five best recent

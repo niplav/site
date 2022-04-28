@@ -104,11 +104,11 @@ forecasts is:
 	import csv
 	import statistics
 	import numpy as np
-	
+
 	d1=np.array([[1,0.8],[0,0.4],[0,0.65],[1,0.99]]).T
 	oc=d1[0]
 	pr=d1[1]
-	
+
 	def mse(o,p):
 		return np.mean(np.abs(o-p)**2)
 
