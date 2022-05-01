@@ -93,7 +93,7 @@ ssplot::.oc("ss_plot.eps")
 
 setrgb(0;0;0)
 grid([0],maxval,(maxval:%15);[0],maxlen,(maxlen:%15))
-xtitle("Range (in days)")
+xtitle("Range (in months)")
 ytitle("Number of predictions")
 
 setrgb(0;0;1)
