@@ -328,6 +328,37 @@ Texts
 * Intentional vs. Non-Intentional Consciousness
 	* The reason why, even if, strictly speaking, trees are "conscious", we don't have to worry about damaging them as much as we have to worry about damaging animals
 
+### Meditation
+
+* Self-Blinded Nootropics Experiments in Concentration Meditation
+	*	Setup: Self-blinded, 2 hours of concentration meditation
+		a day (concentration on the breath), sampling once
+		every 4 days, always in the evening (half placebo,
+		half non-placebo).
+	* L-Theanine, Caffeine, Nicotine, Modafinil, LSD Microdosing
+	* Combinations: L-Theanine + Caffeine
+* Brain Stimulation as Meditation Enhancement
+* 52 Weeks of Meditation Techniques
+	* Concentration of the Breath
+	* Concentration on Sound
+	* Concentration on Heartbeat
+	* Fast Noting
+	* Slow Labelling
+	* Metta
+	* Bodyscanning
+	* Kasina on Candle Flame
+	* Kasina on Colored Disk
+	* Kasina on Water
+	* Open Monitoring
+		* Clear the desk, just watch out for pre-thoughts
+	* Do Nothing
+	* Zen stuff?
+	* Mantra stuff?
+	* Transcendental meditation stuff?
+	* Chanting?
+	* Visualization?
+	* Yogic stuff? (Mudra)
+
 ### Arguments
 
 * Why Still Choose C?
@@ -815,7 +846,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Cryonics in Europe
 	* Extremely Long-Lived Institutions
 	* Easterlin Paradox
-	* Brain Stimulation as Meditation Enhancement
 	* Rotwelsch
 	* Picoeconomics
 * Elon Musk Forecast Correction Function
@@ -878,6 +908,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Comprehensive: long and detailed, providing sources, visualizations, code, predictions, etc.
 	* Optimal: attempts to be a piece of content on the pareto frontier of what it is talking about)
 	* Updated: even if it doesn't pertain to current events, the author is either still working on it or had worked on it for a long time
+* Tracking of Belief Introduces Overhead
 * Mastery is Exceedingly Rare
 
 > Very few will aspire to real mastery themselves. Very few will take the
@@ -921,26 +952,6 @@ Game. Even those odds likely overstate the number of Players in the world.
 	* Fixing My Voice
 	* Experiments with Butt Stuff
 	* Fixing my Posture
-	* 52 Weeks of Meditation Techniques
-		* Concentration of the Breath
-		* Concentration on Sound
-		* Concentration on Heartbeat
-		* Fast Noting
-		* Slow Labelling
-		* Metta
-		* Bodyscanning
-		* Kasina on Candle Flame
-		* Kasina on Colored Disk
-		* Kasina on Water
-		* Open Monitoring
-			* Clear the desk, just watch out for pre-thoughts
-		* Do Nothing
-		* Zen stuff?
-		* Mantra stuff?
-		* Transcendental meditation stuff?
-		* Chanting?
-		* Visualization?
-		* Yogic stuff? (Mudra)
 * Lessons in Instrumental Rationality from Approaching 360 Women in the Street
 	* I Solved a Big Problem in My Life: Not Having Sex
 
@@ -1599,6 +1610,12 @@ Answers
 * Answer `https://old.reddit.com/r/slatestarcodex/comments/u3xpn3/effective_altruists_and_worrying_about_nuclear/i4sxf5n/`
 * Answer `https://www.lesswrong.com/posts/pSdxQfbvC5qBBdehq/what-is-the-most-significant-way-you-have-changed-your-mind?commentId=G97DgBgPvWbugkZEd`
 * Answer `https://forum.effectivealtruism.org/posts/aNu3HCGjLCn45EMNp/reward-long-content` Nick Whitaker & salonium
+	*	"“First they ignore you, then they laugh at you, then they fight
+		you, then they fight you half-heartedly, then they’re
+		neutral, then they then they grudgingly say you might have
+		a point even though you’re annoying, then they say on
+		balance you’re mostly right although you ignore some of
+		the most important facets of the issue, then you win.”"
 
 Arbital
 --------

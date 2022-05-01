@@ -14,6 +14,9 @@ and [Metaculus](https://www.metaculus.com/questions/), the answers turn
 out to be yes, no and yes for Metaculus data; and no, no and yes for
 PredictionBook data. Possible reasons are discussed.__
 
+<!--TODO: fix instances of \* \*-->
+<!--TODO: fix predictionbook & metaculus capitalization-->
+
 Range and Forecasting Accuracy
 ===============================
 
@@ -480,30 +483,18 @@ Brier score and the range of the forecast.
 
 Now that the two datasets are available, they can be properly analyzed.
 
-First, the raw data is loaded from the two CSV files, removing the
-first line (the names of the variables, for other languages such as
-R). Then the ID is converted to integer, and the rest of the fields are
-converted to floats (the range is a float for some Metaculus questions,
-and while the result can only take on 0 or 1, using float there makes
-it easier to calculate the brier score using `mse.set`). After that,
-negative ranges are removed from the dataset, and ranges are converted
-from seconds to days, making them slightly easier to plot:
-
-TODO: remove
-
-	.fc(.ic("../../data/pb.csv"));pbraw::csv.load()
-	.fc(.ic("../../data/met.csv"));metraw::csv.load()
-	daysec::60*60*24
-	pbdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'1_pbraw)
-	pbdata::(,pbdata@0),(,(pbdata@1)%daysec),(pbdata@[2 3]),(,(pbdata@4)%daysec)
-	metdata::+flr({0<*|x};{(1:$*x),1.0:$'1_x}'1_metraw)
-	metdata::(,metdata@0),(,(metdata@1)%daysec),(metdata@[2 3]),(,(metdata@4)%daysec)
-
-----
+First, the raw data is loaded from the two CSV files, removing the first
+line (the names of the variables, for other languages such as R). Then
+the ID is converted to integer, and the rest of the fields are converted
+to floats (the range is a float for some Metaculus questions, and while
+the result can only take on 0 or 1, using float there makes it easier
+to calculate the brier score later). After that, negative ranges are
+removed from the dataset, and ranges are converted from seconds to days,
+making them slightly easier to plot:
 
 	import csv
 	import numpy as np
-	import scipy as sp
+	import scipy.stats as sps
 
 	daysec=24*60*60
 
@@ -562,16 +553,6 @@ and give them names (handling the various indices is tiresome after
 a while). `ress` stands for results, `fcs` for forecasts, and `rngs`
 for ranges:
 
-	metress::metdata@2
-	metfcs::metdata@3
-	metrngs::metdata@4
-
-	pbress::pbdata@2
-	pbfcs::pbdata@3
-	pbrngs::pbdata@4
-
-----
-
 	pbress=pb[2]
 	pbfcs=pb[3]
 	pbrngs=pb[4]
@@ -595,16 +576,26 @@ error in numpy‽-->
 
 The Brier score is quite easy to implement:
 
-	brier::{mu((x-y)^2)}
+	def brier(x, y):
+		return np.mean((x-y)* *2)
+
+The first thing we can now do is to compare the forecasts from the
+two websites, and it turns out that Metaculus forecasts are slightly
+*less* good than PredictionBook forecasts:
+
+	>>> brier(metfcs, metress)
+	0.17085016230074224
+	>>> brier(pbfcs, pbress)
+	0.16073690328405374
+
+But this comparison is not telling us much, since the
+questions on the two websites and the strictness for
+resolving questions are radically different, as explained
+[here](./range_and_forecasting_accuracy.html#Limitations).
 
 Now, one can calculate the Brier score for each of the forecasts and
 outcomes, with the mean being unnecessary, because we want to examine
 the score of each forecast individually:
-
-	metbriers::(metress-metfcs)^2
-	pbbriers::(pbress-pbfcs)^2
-
------
 
 	pbbriers=(pbfcs-pbress)**2
 	metbriers=(metfcs-metress)**2
@@ -615,13 +606,6 @@ First, one can check how high the range of these two datasets really is.
 The PredictionBook forecasts with the highest range span 3730 days
 (more than 10 years), for Metaculus it's 1387 days (nearly 4 years):
 
-		|/metrngs
-	1387.01877932435104
-		|/pbrngs
-	3730.00945601851852
-
------
-
 	>>> np.max(metrngs)
 	1387.018779324351
 	>>> np.max(pbrngs)
@@ -629,13 +613,6 @@ The PredictionBook forecasts with the highest range span 3730 days
 
 One can now look at the correlation between range and Brier score first
 for Metaculus, and then for PredictionBook:
-
-		cor(metbriers;metrngs)
-	0.0216592389375953837
-		cor(pbbriers;pbrngs)
-	-0.0202455558749736788
-
-----
 
 	>>> np.corrcoef(metbriers, metrngs)
 	array([[1.        , 0.02165924],
@@ -660,28 +637,14 @@ are statistically significant.
 Now, one can also perform a linear regression to gauge what the relation
 of range and accuracy of a forecast is:
 
-	>>> sp.stats.linregress(metrngs, metbriers)
+	>>> sps.linregress(metrngs, metbriers)
 	LinregressResult(slope=1.4921976403559925e-05, intercept=0.16753867328019442, rvalue=0.021659238937630332, pvalue=1.89939817752528e-06, stderr=3.1319561138899387e-06)
-	>>> sp.stats.linregress(pbrngs, pbbriers)
+	>>> sps.linregress(pbrngs, pbbriers)
 	LinregressResult(slope=-8.921762030379796e-06, intercept=0.16351703198845793, rvalue=-0.020307433721919746, pvalue=1.913246393632673e-05, stderr=2.0868414512480246e-06)
 
-----
-
-For this, I first create an x/y
-set with the brier score of a forecast being in the y axis and the range
-in the x axis:
-
-	mettab::+(,metrngs),,metbriers
-	pbtab::+(,pbrngs),,pbbriers
-
-Now, a linear regression is easy:
-
-		lreg(mettab)
-	[0.0000149219764035602802 0.167538673280194445
-		lreg(pbtab)
-	[-0.00000889314678851551979 0.163484538869647844]
-
-----
+We can see that the `rvalue` is just the correlation, and that the
+`pvalue` is pretty good (<0.00001 and <.0001 for Metaculus and
+PredictionBook, respectively).
 
 These are not particularly surprising. The inferred brier score at range
 0 (the forecast directly before resolution) is ~0.16, which seems a bit
@@ -690,12 +653,20 @@ data and lower accuracy for higher ranges for PredictionBook data match
 the correlation. The steepness of the regression is quite low because
 the ranges are in days.
 
-Visualizing a subset of the forecasts (2048
-forecasts from each dataset, chosen randomly) with a
+Visualizing the accuracies of the forecasts with a
 [scatterplot](https://en.wikipedia.org/wiki/Scatter_plot) and [linear
 regressions](https://en.wikipedia.org/wiki/Linear_regression) shows a
 very similar picture (red dots are for Metaculus forecasts, blue dots
 are for PredictionBook forecasts):
+
+	fig=plt.figure(figsize=(8,8))
+	plt.xlabel("Range (days)")
+	plt.ylabel("Accuracy (Brier score)")
+
+	plt.plot(metrngs, metbriers, '.', color='red', markersize=1)
+	plt.plot(pbrngs, pbbriers, '.', color='blue', markersize=1)
+
+	plt.savefig("allscatter.png")
 
 ![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)](./img/range_and_forecasting_accuracy/allscatter.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)")
 
@@ -792,53 +763,38 @@ not always be easily judged from the scatterplot of datapoints.
 
 #### Low Sample Sizes With High Ranges
 
-<!--HERE-->
-
 Another question one might ask is: How big are the sample sizes at the
 tails when the range is high?
 
 This is important: low sample sizes increase noise dramatically, and
 make findings much less reliable.
 
-<!--TODO: find a way to test the statistical significance here, sometime later-->
-
 To get a rough overview over the sample sizes, on can look at the number
 of samples for each bucket. The sample sizes were calculated such that
-at position i in the array `{pb,met}ss` was the sample size for week i:
+at position `i` in the array `{pb,met}ss` was the sample size for week `i`:
 
-	metss::_metrngs
-	metss::metss@<metss
-	pbss::_pbrngs
-	pbss::pbss@<pbss
-
-	maxval::|/pbss,metss
-	maxlen::|/(#'=metss),#'=pbss
-
-	pbss::{#pbss?x}'1+!maxval
-	metss::{#metss?x}'1+!maxval
+	metss=np.bincount(np.sort(np.floor(metrngs/30)).astype(int))
+	pbss=np.bincount(np.sort(np.floor(pbrngs/30)).astype(int))
 
 I generated charts for the sample sizes in days:
 
-	ssplot::.oc("ss_plot.eps")
-	.tc(ssplot)
+	fig=plt.figure(figsize=(8,8), clear=True)
+	plt.xlabel("Range (months)")
+	plt.ylabel("Number of datapoints)")
 
-	setrgb(0;0;0)
-	grid([0],maxlen,(maxlen:%20);[0],maxval,(maxval:%20))
-	xtitle("Range (in days)")
-	ytitle("Number of predictions")
+	plt.plot(metss, '-', color='red')
+	plt.plot(pbss, '-', color='blue')
 
-	setrgb(0;0;1)
-	segplot(metss)
-	setrgb(1;0;0)
-	segplot(pbss)
+	plt.savefig("ss_plot.png")
 
-	draw()
-	.fl()
-	.cc(ssplot)
+![Sample sizes for predictions with a range of n months, sorted and graphed.](./img/range_and_forecasting_accuracy/ss_plot.png "Sample sizes for predictions with a range (in months), sorted and graphed.")
 
-![Sample sizes for predictions with a range of n months, sorted and graphed.](./img/range_and_forecasting_accuracy/ss_plot.png "Sample sizes for predictions with a range (in days), sorted and graphed.")
+*Sample sizes for predictions with a range (in months), sorted and graphed.*
 
-*Sample sizes for predictions with a range (in days), sorted and graphed.*
+<!--HERE-->
+
+One could also be interested in how the statistical significance of the
+linear regression and correlation
 
 The red graphs stands for Metaculus sample sizes, the blue graph stands
 for PredictionBook sample sizes.
@@ -850,7 +806,7 @@ much compared to the expected range of some predictions on the platform,
 which might go into the thousands of years).
 
 This can be seen in the data as well: The median range of metaculus and
-predictionbook predictions is only a couple of months, and less than 25%
+PredictionBook predictions is only a couple of months, and less than 25%
 of questions have a range of more than one year:
 
 	Q(0.25;metrngs%365)
