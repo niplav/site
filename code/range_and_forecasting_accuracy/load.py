@@ -36,19 +36,21 @@ pslope, pintercept, _, _, _=sps.linregress(pbrngs, pbbriers)
 metss=np.bincount(np.sort(np.floor(metrngs/30)).astype(int))
 pbss=np.bincount(np.sort(np.floor(pbrngs/30)).astype(int))
 
-def pval_shrinking_dataset(briers, ranges):
+def val_shrinking_dataset(briers, ranges):
 	sortind=np.argsort(ranges)
 	chronbriers=briers[sortind]
 	chronranges=ranges[sortind]/30
 	dropranges=[]
 	pvalues=[]
+	rvalues=[]
 	for i in range(0, len(ranges)-2):
-		_, _, _, pval, _=sps.linregress(chronranges, chronbriers)
+		_, _, rval, pval, _=sps.linregress(chronranges, chronbriers)
 		pvalues.append(pval)
+		rvalues.append(rval)
 		dropranges.append(chronranges[0])
 		chronranges=chronranges[1::]
 		chronbriers=chronbriers[1::]
-	return np.vstack([pvalues, dropranges])
+	return np.vstack([pvalues, rvalues, dropranges])
 
-metpvals=pval_shrinking_dataset(metbriers, metrngs)
-pbpvals=pval_shrinking_dataset(pbbriers, pbrngs)
+metpvals=val_shrinking_dataset(metbriers, metrngs)
+pbpvals=val_shrinking_dataset(pbbriers, pbrngs)

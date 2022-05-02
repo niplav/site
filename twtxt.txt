@@ -1176,3 +1176,5 @@
 2022-04-30T00:17:32.000000Z	have to admit that switching to python & numpy for data analysis from klong relieves me from a huge pain in the ass—klong is just *slow* for that.
 2022-04-30T13:47:21.000000Z	i don't know of any Gentle Introduction to Why Prediction Markets are Awesome, à la Wait But Why, with stick figures and just going slow in on the topic, answering objections along the way. i consider it a collective action failure that no such text exists, and also that i don't know of any book that does this (other than superforecasting)
 2022-04-30T18:55:52.000000Z	from now on whenever the word “spirituality” or “consciousness” comes up in a discussion i will look slightly quizzical and ask “yeah, sure, but *can you feel your toes right now*?”
+2022-05-01T22:41:29.000000Z	new favorite color: space cadet (#1E2952) (not really)
+2022-05-02T09:48:59.000000Z	looks like blue tribe will end up anti agi risk. sucks, but should have been forseeable—the connection to gray tribe & techbros is too strong.
