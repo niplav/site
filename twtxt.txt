@@ -1178,3 +1178,22 @@
 2022-04-30T18:55:52.000000Z	from now on whenever the word “spirituality” or “consciousness” comes up in a discussion i will look slightly quizzical and ask “yeah, sure, but *can you feel your toes right now*?”
 2022-05-01T22:41:29.000000Z	new favorite color: space cadet (#1E2952) (not really)
 2022-05-02T09:48:59.000000Z	looks like blue tribe will end up anti agi risk. sucks, but should have been forseeable—the connection to gray tribe & techbros is too strong.
+2022-05-02T09:56:19.000000Z	which doesn't have to be this way! blue tribe & anti-agi risk people have mostly orthogonal concerns (i really don't see the overlap of algorithmic fairness & agent foundations, tbqhwy), and probably ample opportunities for trade (which blue-triber *actually cares* about compute governance etc.?) but i think zero-sum anti-trade genre affiliation thinking from blue-tribes side will prevent most of that mutually beneficial governance from happening.
+2022-05-02T17:20:34.000000Z	let's not read the thielleaves
+2022-05-03T09:58:04.000000Z	akira: having the property of acquiring
+2022-05-03T12:31:24.000000Z	zee oder tucker?
+2022-05-03T14:11:05.000000Z	I think I understand why the US and central european countries have so different reactions to foreign interventions/participating in conflicts outside of ones own borders than the US: the US didn't experience the two world wars the way european countries did.
+2022-05-03T14:15:35.000000Z	none of the two worldwars took place on US soil, and the US entered both conflicts relatively late, so there is less US cultural knowledge about them (mostly in the form of “relative X went overseas and died/came back traumatized”). but in europe, the countries were the place the WWs were happening. and they experienced a different way how those conflicts came to play: countries interfering in the affairs of other countries. this is more clear in the context of WWI: an austrian is shot in serbia, because serbia wants independence, but russia intervenes because it wants to control serbia, and germany & austria fight russia, and france has an alliance with russia, and germany always wanted to fight france anyway, ……… the level of intervention and trying to intervene in other countries' affairs leads to a chain reaction that brings about calamity.
+2022-05-03T14:16:33.000000Z	on the other hand, the US comes in and there's already a conflict going on elsewhere, it's not quite clear why it's happening, but it looks like it's bad, so “we can go over there and shut up the bad guys” *star spangled banner blares*
+2022-05-03T14:17:03.000000Z	(don't talk to me about muh pearl harbor, that's a blip compared to what happened in europe.)
+2022-05-03T14:17:42.000000Z	so that's why i think (at least some) european countries are (at least somewhat) more hesitant to go out and intervene in the affairs of others
+2022-05-03T14:19:25.000000Z	additionally, some countries (*cough cough*) had some, let's say, embarassing behavior in the world wars
+2022-05-03T15:49:15.000000Z	the Losskreuz
+2022-05-03T16:17:52.000000Z	as far as i can see, client-side e2e encryption in the browser requires *a bunch* of changes to browser tech?
+2022-05-03T16:21:36.000000Z	we can't do it with cookies holding the private keys, since many people block cookie usage & cookies are readable by anyone. we'd need to have local storage that the server authenticates for, otherwise any server would be able to read out the private key from storage via js & send it to the attacking server…
+2022-05-03T16:23:10.000000Z	but maybe there's some obscure way to route around those concerns?
+2022-05-03T16:23:27.000000Z	but in that case, I'd worry about bugs in the obscure implementation of that feature.
+2022-05-03T16:24:32.000000Z	how do whatsapp/signal/telegram desktop clients work? you'd basically either need to transfer the private key (in which case the encryption isn't e2e anymore?), or generate new keys for every device.
+2022-05-03T16:27:58.000000Z	concept: schelling.pt meetup at 0°N 0°E (Null Island)
+2022-05-03T16:28:10.000000Z	with boats
+2022-05-03T16:29:34.000000Z	i imagine that arriving at vibecamp, the first thing you hear from afar is a chant: “Hot Moloch! Hot Moloch!”
