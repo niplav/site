@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-04-05, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-05-03, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -67,6 +67,7 @@ Existing Texts
 		* Extend the analysis to predictions with confidence intervals
 		* Extend the analysis to real Metaculus data
 		* Extend to more datasets
+			* `https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters`
 	* Add a paragraph on the difference in quality between the two datasets, Metaculus is better
 	* Make more readable
 	* Prevent the OOD prediction, either
@@ -288,6 +289,8 @@ Texts
 	* This also feels relevant to Ontological crises/shifts: Is there a canonical way to map from the human preference simplex to the AI preference simplex, if we know the concept equivalences? (A is just 30% B and 70% C, so we can split the simplex into another dimension here…)
 * Scaling laws for debate
 	* AI safety via debate (Geoffrey Irving/Paul Christiano/Dario Amodei, 2018) test debate on an MNIST classifier with depths 4 and 6, what are the scaling laws for the depth and size of models?
+* Import reddit post about nuclear & ai worries
+* Overlapping Concerns for AI X-Risk and the Social Left
 
 ### Pick Up
 
@@ -735,6 +738,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Upwing and downwing as new political fronts
 	* Hat-grab at John David Pressman
 * EA Cause Area Idea: Buy 0-day exploits and inform the companies
+* European vs. American Intervention Intuitions
 
 ### Collections
 

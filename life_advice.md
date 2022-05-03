@@ -218,13 +218,14 @@ And, as always, remember that I'm just a person on the internet.
 	*	Know how much you spend, on what, and what your longterm
 		financial plan is.
 28.	For some people, sometimes being able to ground out ones problems
-	causally in the world (i.e. “Which gears-level processes lead to
-	the situation I'm in, and which incentives pushed which people to
-	create/exacerbate those problems?”) can help dissolve negative
-	emotions around the problem.
+	causally in the world (i.e. “Which
+	[gears-level](https://www.lesswrong.com/posts/B7P97C27rvHPz3s9B/gears-in-understanding)
+	processes lead to the situation I'm in, and which incentives
+	pushed which people to create/exacerbate those problems?”)
+	can help dissolve negative emotions around the problem.
 	*	Related: Modeling other people as causal systems plays
 		into this very well
-29.	Vitamin C might cause kidney stones to happen more often. [You
+29.	Vitamin C might cause kidney stones to happen more often<!--[citation needed], TODO-->. [You
 	probably don't want to experience kidney
 	stones](https://forum.effectivealtruism.org/posts/gtGe8WkeFvqucYLAF/logarithmic-scales-of-pleasure-and-pain-rating-ranking-and "Logarithmic Scales of Pleasure and Pain: Rating, Ranking, and Comparing Peak Experiences Suggest the
 Existence of Long Tails for Bliss and Suffering")<!--TODO: better links for this-->. Therefore, consider not supplementing Vitamin C.

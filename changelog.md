@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-04-26, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-05-03, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -15,6 +15,13 @@ April 2022
 	* [1.3](./agt_solutions.html#13)
 * Sent in [many fixes](./contributions.html) to typos in other peoples' texts
 * [Reward Long Content](./reward.html)
+* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+	* Rewrote part of the code in Python
+	* [Statistical Significance of Truncated Datasets](./range_and_forecasting_accuracy.html#Statistical-Significance-of-Truncated-Datasets)
+* [Solutions to “Naïve Set Theory”](./nst_solutions.html):
+	* [Section 14](./nst_solutions.html#Section-14):
+		* [Exercise 3](./nst_solutions.html#Exercise-1_11)
+* Converted Twitter links to [nitter.hu](https://nitter.hu) links, since Twitter now freezes the view for visitors to the site who aren't logged in (another internet platform bites the dust, at least as infrastructure—maybe that will change under Musk?)
 
 March 2022
 -----------

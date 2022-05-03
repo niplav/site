@@ -14,8 +14,8 @@ shifting into an equilibrium mode where I am independent and have
 structured my life in a way that enables me to work on my personal
 projects full-time (including, but not limited to, this website).
 
-Because of this, work on this website is limited to a small part of my
-free time. I apologize for any inconveniences.
+Because of this, work on this website is currently limited to a small
+part of my free time. I apologize for any inconveniences.
 
 Writing
 -------
@@ -31,15 +31,16 @@ If I find time inbetween that, I'm expanding on the following texts:
 	* [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
 * [Reports](./reports.html)
 	* [Pickup Reports](./pickup_reports.html)
+* Forecasting
+	* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+	* [Finesse of Sets of Forecasts](./finesse.html)
+	* [Forecasters! What Do They Know? Do They Know Things?? Let's Find Out!](./forecasters.html)
 * [Prepare to Leave the Internet](./leave.html)
 * [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)
-* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
-* [Finesse of Sets of Forecasts](./finesse.html)
 * [Third Variable](./third.html)
 * [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 * [Generalizing the Diamond-Square Algorithm to n Dimensions](./diamond.html)
 * [Circle Combinations](./circle_combinations.html)
-* [Forecasters! What Do They Know? Do They Know Things?? Let's Find Out!](./forecasters.html)
 * [Reward Long Content](./content.html)
 
 I'm also planning a full edit of all texts on the website, but don't
@@ -65,7 +66,6 @@ Currently, I am actively reading the following books:
 * Population Genetics (John H. Gillespie, 2004)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * The Jazz Piano Book (Mark Levine, 1998)
+* Die toten Seelen (Nikolai Gogol, 1842)
 
-I am also reading some classic posts by [Gwern](https://www.gwern.net/)
-and gaining inspiration from the excellent blog [Traditions of
-Conflict](https://traditionsofconflict.com/).
+I am also reading some classic posts by [Gwern](https://www.gwern.net/).

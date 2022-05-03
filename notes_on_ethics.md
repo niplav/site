@@ -323,14 +323,15 @@ TODO
 If we allow the preferences of possible people to influence our decision
 procedure, we run into trouble *very quickly*.
 
-In the most realistic case, imagine we can perform genetic editing (or
-[embryo selection](https://www.gwern.net/Embryo-selection)) to select
-for traits in new humans, and assume that the psychological profile of
-people who really want to have been born is at least somewhat genetically
-determined, and we can identify and modify those genes. (Alternatively,
-imagine that we have found out how to raise people so that they have a
-great preference for having been born, perhaps by an unanticipated leap
-in developmental psychology).
+In the most realistic case, imagine we can perform genetic editing
+(or [embryo selection](https://www.gwern.net/Embryo-selection)) to
+select for traits in new humans, and assume that the psychological
+profile of people who really want to have been born is at least
+somewhat genetically determined, and we can identify and modify
+those genes. (Alternatively, imagine that we have found out how
+to raise people so that they have a great preference for having
+been born, perhaps by an unanticipated leap in [developmental
+psychology](https://en.wikipedia.org/wiki/Developmental_psychology)).
 
 Then it seems like preference utilitarianism that includes possible
 people demands that we try to grow humanity as quickly as possible,
