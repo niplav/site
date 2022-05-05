@@ -507,7 +507,7 @@ making them slightly easier to plot:
 				continue
 			else:
 				preds.append([int(entry[0]), float(entry[1])/daysec, float(entry[2]), float(entry[3]), float(entry[4])/daysec])
-		preds=list(filter(lambda x: x[4]>=0, preds))
+		preds=list(filter(lambda x: x[4]>0, preds))
 		return np.array(preds).T
 
 	pb=getpreds("../../data/pb.csv")
@@ -969,14 +969,14 @@ First, the dataset grouped by forecasts had to be grouped by the question
 ID, in both cases a positive integer. The resulting datastructure should
 have the structure
 
-<!--HERE-->
-
-	[[id open-resolve-timediff [outcomes] [forecasts] [forecast-resolve-timediffs]]*]`
+	[[id, open-resolve-timediff, [outcomes], [forecasts], [forecast-resolve-timediffs]]*]
 
 where the splat just indicates the inner list can be repeated. This
 is achieved by first finding the grouping of forecasts by question ID,
 then concatenating the ID, the question range, the list of outcomes,
 the list of forecasts and the list of forecast ranges:
+
+<!--HERE-->
 
 	metquestions::{(*x@0),(*x@1),2_x}'+'(+metdata)@=*metdata
 	pbquestions::{(*x@0),(*x@1),2_x}'+'(+pbdata)@=*pbdata

@@ -1589,6 +1589,7 @@ Wikipedia Articles
 * Daniel Ingram
 * Pragmatic Dharma (?)
 * Kenneth Folk
+* Experience Replay (see Deep Q-Network (“DQN”; Mnih et al. 2015))
 
 ### Improve
 
@@ -1606,6 +1607,7 @@ Wikipedia Articles
 * On Wikipedia page for Graph Kernel, correct "Leman" to "Lehman" (first, check whether this is actually wrong).
 * Find Ian Goodfellow's true year of birth
 * Add missing national anthems to `https://en.wikipedia.org/wiki/List_of_national_anthems`
+* For Reinforcement learning, add `https://lilianweng.github.io/posts/2018-02-19-rl-overview/` into the External links section
 
 Answers
 --------

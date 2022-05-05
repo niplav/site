@@ -1197,3 +1197,13 @@
 2022-05-03T16:27:58.000000Z	concept: schelling.pt meetup at 0°N 0°E (Null Island)
 2022-05-03T16:28:10.000000Z	with boats
 2022-05-03T16:29:34.000000Z	i imagine that arriving at vibecamp, the first thing you hear from afar is a chant: “Hot Moloch! Hot Moloch!”
+2022-05-03T20:50:59.000000Z	the infinitely abundant patience of the early lw commentariat
+2022-05-03T21:06:11.000000Z	why is https://www.gwern.net/Embryo-selection also tagged “anime”? Gwern, do you want to tell us something?
+2022-05-03T22:35:00.000000Z	“I wouldn't trust her—I heard she's antisemiotic”
+2022-05-04T10:13:37.000000Z	guy who, when he hears someone mention SARS, thinks of deep Q-learning
+2022-05-04T10:37:00.000000Z	I'm only paying lisp service to John McCarthy
+2022-05-05T06:33:50.000000Z	graph names that sound like war crimes:
+2022-05-05T06:33:58.000000Z	The first Blanuša snark
+2022-05-05T06:33:58.000000Z	The second Blanuša snark
+2022-05-05T06:34:11.000000Z	The Balaban 11-cage
+2022-05-05T06:34:51.000000Z	The Moser spindle

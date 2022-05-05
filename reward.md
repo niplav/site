@@ -164,7 +164,7 @@ rough impressions (in the long term, I plan to add all those posts to
 	* Impression: Now *this* is the kind of stuff that gets me excited. Sam, have you considered writing a [site](https://www.gleech.org/sites), not a a blog or a newsletter? Your book reviews would look [very good](https://gwern.net/reviews/Books) on one page ;-). Verdict: Excellent.
 * [Heloise Investigates](https://heloiseinvestigates.substack.com/p/coming-soon?showWelcome=true&s=r)
 	* 1 announcement post, very short, posted February 15th
-	* Impression: Nothing here, similar to The Take Machine. Verdict: [REDACTED] [REDACTED] [REDACTED]
+	* Impression: Nothing here, similar to The Take Machine. Verdict: [REDACTED]
 * [Basil Halperin](https://basilhalperin.com/essays.html)
 	* 15 posts, quite long, last post March 31st 2022
 	* Impression: I really like this blog: the first post is from 2013 (showing that the author is persistent, even if they're a slow writer, but who am I to call that a vice!), the author *wants* to write a long site but doesn't know it yet (seriously, look at the [best essays](https://basilhalperin.com/essays/best-essays.html) page: add the other 6 posts to that, and it would work great as a landing page for the blog.) Verdict: We could be friends :-)
