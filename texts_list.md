@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-04-28, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-05-04, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,11 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [How To Talk To Girls At Parties (Neil Gaiman, 2007)](https://www.neilgaiman.com/Cool_Stuff/Short_Stories/How_To_Talk_To_Girls_At_Parties/How_To_Talk_To_Girls_At_Parties_(Text))
+* [Every Bay Area House Party (Scott Alexander, 2022)](https://astralcodexten.substack.com/p/every-bay-area-house-party?s=r)
+* [TensorFlow 2 quickstart for beginners (Tensorflow developers, 2022)](https://www.tensorflow.org/tutorials/quickstart/beginner)
+* [Margaret Mead, Reo Fortune, and the 'Loving Deception' of the Mountain Arapesh (William Buckner, 2019)](https://traditionsofconflict.com/blog/2019/9/11/margaret-mead-reo-fortune-and-the-loving-deception-of-the-mountain-arapesh)
+* [Sexual Selection Through Mate Choice Does Not Explain the Evolution of Art and Music (William Buckner, 2019)](https://traditionsofconflict.com/blog/2019/5/12/sexual-selection-through-mate-choice-does-not-explain-the-evolution-of-art-and-music)
 * [On Having Enough Socks (Gwern Branwen, 2019)](https://www.gwern.net/Socks)
 * [Ethnographic Evidence Conflicts With The 'Cold Winters' Hypothesis (William Buckner, 2020)](https://traditionsofconflict.com/blog/2020/1/12/ethnographic-evidence-conflicts-with-the-cold-winters-hypothesis)
 * [The Elusive Thing-In-Of-Itself (Kennetz Shinozuka, 2017)](https://blankhorizons.com/2017/10/31/reality-part-ii-evolutionary-perception-the-thing-in-of-itself-and-whatever-it-is-that-there-is/)
@@ -107,7 +112,7 @@ ind.com/blog/we-are-very-excited-to-announce-the-launch-of-deepmind-health)
 * [Origin of ‘Littlewood’s Law of Miracles’ (Gwern Branwen, 2021)](https://www.gwern.net/Littlewood-origin)
 * [Leopard Society and the Man-Leopard Murders (William Buckner, 2021)](https://traditionsofconflict.com/blog/2021/11/26/leopard-society-and-the-man-leopard-murders)
 * AI safety via debate (Geoffrey Irving/Paul Christiano/Dario Amodei, 2018)
-* [Moderation is My Enemy and I Will Wage War on It Wherever I Go With Whatever I Have (Ethan Morse, 2022)](https://210ethan.github.io/thoughts/moderation.html)
+* [Moderation is My Enemy and I Will Wage War on It Wherever I Go With Whatever I Have (Ethan, 2022)](https://210ethan.github.io/thoughts/moderation.html)
 * [In Defense of Inclusionism (Gwern Branwen, 2018)](https://www.gwern.net/In-Defense-Of-Inclusionism)
 * [About This Website (Gwern Branwen, 2021)](https://www.gwern.net/About)
 * [The Arcfour Stream Cipher (Chris Wellons, 2008)](https://nullprogram.com/blog/2008/08/09/)
