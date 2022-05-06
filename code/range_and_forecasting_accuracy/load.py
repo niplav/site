@@ -61,7 +61,7 @@ metpvals=val_shrinking_dataset(metbriers, metrngs)
 pbpvals=val_shrinking_dataset(pbbriers, pbrngs)
 
 def shift_exp(x, a, b):
-	return a*(b**x)+0.25
+	return (a*(b**x)-a)/(-4*a)
 
 pbexpfit=spo.curve_fit(shift_exp, pbrngs, pbbriers, bounds=([-np.inf, 0], [0, 1]))
 metexpfit=spo.curve_fit(shift_exp, metrngs, metbriers, bounds=([-np.inf, 0], [0, 1]))
@@ -69,8 +69,8 @@ metexpfit=spo.curve_fit(shift_exp, metrngs, metbriers, bounds=([-np.inf, 0], [0,
 # Why not do a linear regression on the transformed data? Because that ends up below 0
 # Transformation is np.log((1/metbriers)-1)
 
-def shrunk_logistic(x, a, b):
-	return 0.25*1/(1+np.exp(a*x+b))
+def shrunk_logistic(x, slope, intercept):
+	return 0.25*1/(1+np.exp(slope*x+intercept))
 
 # Intercept not limited to positive range (point for 0.125 can be negative)
 pblogifit=spo.curve_fit(shrunk_logistic, pbrngs, pbbriers, bounds=([-np.inf, -np.inf], [0, np.inf]))
@@ -98,3 +98,24 @@ pbqbrier=np.array([[i[1], brier(i[3], i[2])] for i in pbquestions])
 
 mqslope, mqintercept, _, _, _=sps.linregress(metqbrier.T[0], metqbrier.T[1])
 pbqslope, pbqintercept, _, _, _=sps.linregress(pbqbrier.T[0], pbqbrier.T[1])
+
+wmetqbrier=[[i[4], (i[3]-i[2])**2] for i in metquestions]
+wpbqbrier=[[i[4], (i[3]-i[2])**2] for i in pbquestions]
+
+wmetqbrier=list(filter(lambda x: len(x[0])>1, wmetqbrier))
+wpbqbrier=list(filter(lambda x: len(x[0])>1, wpbqbrier))
+
+wpbqbrier=list(filter(lambda x: not (x[0][0]==x[0][1] and len(x[0]==2) and x[1][0]==x[1][1] and len(x[1])==2), wpbqbrier))
+
+wmetqregs=list(map(lambda x: sps.linregress(x[0], x[1]), wmetqbrier))
+wpbqregs=list(map(lambda x: sps.linregress(x[0], x[1]), wpbqbrier))
+
+awmetqslope=np.mean(list(map(lambda x: x[0], wmetqregs)))
+awmetqintercept=np.mean(list(map(lambda x: x[1], wmetqregs)))
+awpbqslope=np.mean(list(map(lambda x: x[0], wpbqregs)))
+awpbqintercept=np.mean(list(map(lambda x: x[1], wpbqregs)))
+
+fwpbqbrier=list(filter(lambda x: len(x[0])>=10, wpbqbrier))
+fwpbqregs=list(map(lambda x: sps.linregress(x[0], x[1]), fwpbqbrier))
+fawpbqslope=np.mean(list(map(lambda x: x[0], fwpbqregs)))
+fawpbqintercept=np.mean(list(map(lambda x: x[1], fwpbqregs)))

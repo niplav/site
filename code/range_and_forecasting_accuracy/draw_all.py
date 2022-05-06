@@ -1,10 +1,12 @@
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
-import numpy as np
+import random
 
 exec(open("load.py").read())
 
 fig=plt.figure(figsize=(8,8))
+
+plt.title("Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range")
 plt.xlabel("Range (days)")
 plt.ylabel("Accuracy (Brier score)")
 
@@ -17,8 +19,43 @@ plt.legend()
 
 plt.savefig("allscatter.png")
 
+fig=plt.figure(figsize=(8,8))
+
+plt.title("Scatterplot with logistic-ish regression for Metaculus & PredictionBook forecasts by range")
+plt.xlabel("Range (days)")
+plt.ylabel("Accuracy (Brier score)")
+
+fullrng=np.array(range(0, round(max(pbrngs))+1))
+
+plt.plot(pbrngs, pbbriers, '.', color='blue', markersize=1)
+plt.plot(metrngs, metbriers, '.', color='red', markersize=1)
+plt.plot(fullrng, shrunk_logistic(fullrng, metlogifit[0][0], metlogifit[0][1]), 'red', label='Metaculus shrunk logistic-ish regression', linewidth=2)
+plt.plot(fullrng, shrunk_logistic(fullrng, pblogifit[0][0], pblogifit[0][1]), 'blue', label='PredictionBook shrunk logistic-ish regression', linewidth=2)
+
+plt.legend()
+
+plt.savefig("allscatter_logi.png")
+
+fig=plt.figure(figsize=(8,8))
+
+plt.title("Scatterplot with exponential-ish regression for Metaculus & PredictionBook forecasts by range")
+plt.xlabel("Range (days)")
+plt.ylabel("Accuracy (Brier score)")
+
+fullrng=np.array(range(0, round(max(pbrngs))+1))
+
+plt.plot(pbrngs, pbbriers, '.', color='blue', markersize=1)
+plt.plot(metrngs, metbriers, '.', color='red', markersize=1)
+plt.plot(fullrng, shift_exp(fullrng, metexpfit[0][0], metexpfit[0][1]), 'red', label='Metaculus shrunk exponential-ish regression', linewidth=2)
+plt.plot(fullrng, shift_exp(fullrng, pbexpfit[0][0], pbexpfit[0][1]), 'blue', label='PredictionBook shrunk exponential-ish regression', linewidth=2)
+
+plt.legend()
+
+plt.savefig("allscatter_exp.png")
+
 fig=plt.figure(figsize=(8,8), clear=True)
 
+plt.title("Sample sizes for predictions with a range (in months), sorted and graphed")
 plt.xlabel("Range (months)")
 plt.ylabel("Number of datapoints")
 
@@ -30,6 +67,8 @@ plt.savefig("ss_plot.png")
 #TODO: there is something fishy going on with this plot: it's not output at the right size, and the labels are truncated
 
 fig=plt.figure(figsize=(10,10), clear=True)
+
+plt.title("Truncated p-values and correlations for both datasets")
 
 _, ax1 = plt.subplots()
 
@@ -54,6 +93,8 @@ plt.savefig("pvals_plot.png")
 
 fig=plt.figure(figsize=(10,10), clear=True)
 
+plt.title("Truncated p-values and correlations for the PredictionBook dataset")
+
 _, ax1 = plt.subplots()
 
 ax1.set_xlabel("Range (months)")
@@ -74,6 +115,8 @@ ax2.legend(loc='upper right')
 plt.savefig("pvals_pb_plot.png")
 
 fig=plt.figure(figsize=(8,8))
+
+plt.title("Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range")
 plt.xlabel("Range (days)")
 plt.ylabel("Accuracy (Brier score)")
 
@@ -85,3 +128,50 @@ plt.plot(pbqbrier.T[0], mqintercept+mqslope*pbqbrier.T[0], 'red', label='Metacul
 plt.legend()
 
 plt.savefig("allq.png")
+
+fig=plt.figure(figsize=(8,8))
+
+plt.title("Linear regressions for the accuracy of questions by range (only Metaculus data)")
+plt.xlabel("Age (days)")
+plt.ylabel("Linear regression")
+
+for i in range(0, len(wmetqregs)):
+	r=wmetqregs[i]
+	rngs=wmetqbrier[i][0]
+	slope, intercept, _, _, _=r
+	cl=hex(random.sample(range(0, 256*256*256), 1)[0]) #random rgb code
+	#left padding with zeros, can't be bothered to read the formatting docs right now
+	cl='#'+('0'*(6-len(cl[2:])))+cl[2:]
+	plt.plot(rngs, intercept+slope*rngs, color=cl, linewidth=1)
+
+plt.savefig("permetquestion.png")
+
+fig=plt.figure(figsize=(8,8))
+
+plt.title("Linear regressions for the accuracy of questions by range (only PredictionBook data)")
+plt.xlabel("Age (days)")
+plt.ylabel("Linear regression")
+
+for i in range(0, len(wpbqregs)):
+	r=wpbqregs[i]
+	rngs=wpbqbrier[i][0]
+	slope, intercept, _, _, _=r
+	cl=hex(random.sample(range(0, 256*256*256), 1)[0]) #random rgb code
+	#left padding with zeros, can't be bothered to read the formatting docs right now
+	cl='#'+('0'*(6-len(cl[2:])))+cl[2:]
+	plt.plot(rngs, intercept+slope*rngs, color=cl, linewidth=1)
+
+plt.savefig("perpbquestion.png")
+
+fig=plt.figure(figsize=(8,8))
+
+plt.title("Mean of linear regressions on accuracy within questions")
+plt.xlabel("Range (days)")
+plt.ylabel("Accuracy (Brier score)")
+
+plt.plot(pbrngs, awmetqintercept+awmetqslope*pbrngs, 'red', label='Metaculus aggregate linear regression', linewidth=1)
+plt.plot(pbrngs, fawpbqintercept+fawpbqslope*pbrngs, 'blue', label='PredictionBook aggregate linear regression', linewidth=1)
+
+plt.legend()
+
+plt.savefig("withintotal.png")

@@ -152,6 +152,10 @@ Existing Texts
 Texts
 -----
 
+### Factposts
+
+* `scipy.optimize.curve_fit` exists
+
 ### Forecasting
 
 * Forecasting is Worse is Better
@@ -1608,7 +1612,6 @@ Wikipedia Articles
 * On Wikipedia page for Graph Kernel, correct "Leman" to "Lehman" (first, check whether this is actually wrong).
 * Find Ian Goodfellow's true year of birth
 * Add missing national anthems to `https://en.wikipedia.org/wiki/List_of_national_anthems`
-* For Reinforcement learning, add `https://lilianweng.github.io/posts/2018-02-19-rl-overview/` into the External links section
 
 Answers
 --------
