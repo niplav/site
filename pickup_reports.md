@@ -299,7 +299,7 @@ Yes-girls are out there, and if you approach them & escalate more
 smoothly than a [rauk](https://en.wikipedia.org/wik/rauk), they
 want to go to your place and do naughty stuff. Having observed this,
 and having a dim idea of how to pull off a decent approach and what
-the topology of decent escalation might look like, I now have a
+the topology of non-bad escalation might look like, I now have a
 semi-repeatable process under my belt that can be practiced. Not
 quite the [kenshō](https://en.wikipedia.org/wiki/Kenshō) of
 daygame (what would that be, an SDL?), but perhaps the [udayabbaya

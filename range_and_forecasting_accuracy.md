@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2022-04-01, language: english, status: maintenance, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2022-05-05, language: english, status: maintenance, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in
 relation to the time between forecast and resolution, and
@@ -976,35 +976,46 @@ is achieved by first finding the grouping of forecasts by question ID,
 then concatenating the ID, the question range, the list of outcomes,
 the list of forecasts and the list of forecast ranges:
 
-<!--HERE-->
+	def group(d):
+		a=[]
+		for e in np.unique(d[0]):
+			indices=np.where(met[0]==e)
+			a.append([e, met[1][indices[0][0]], met[2][indices], met[3][indices], met[4][indices]])
+		return a
 
-	metquestions::{(*x@0),(*x@1),2_x}'+'(+metdata)@=*metdata
-	pbquestions::{(*x@0),(*x@1),2_x}'+'(+pbdata)@=*pbdata
+	metquestions=group(met)
+	pbquestions=group(pb)
 
 Strictly speaking, the outcomes could be a single element, since for
 every question there is only one well-defined outcome, but this makes
 it easier to later compute the brier score.
+
 Showcase:
 
-		metquestions@10
-	[474 497590.0 [0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0] [0.79 0.8 0.99 0.8 0.8 0.65 0.65 0.8 0.8 0.81 0.81 0.7] [249575.65223908424 249548.86438822746 245775.7940876484 242420.23024630547 230434.71577501297 230276.97260832787 230111.41609930992 229967.06126213074 216594.73318576813 207687.5192539692 177898.677213192 151590.6441845894]]
-		brier@(metquestions@10)@[2 3]
-	0.62095
+	>>> metquestions[10]
+	[13.0, 119.99914351851852, array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]), array([0.2 , 0.4 , 0.2 , 0.3 , 0.15, 0.3 , 0.4 , 0.4 , 0.4 , 0.4 , 0.45,
+		  0.4 , 0.44, 0.4 , 0.44, 0.4 , 0.38]), array([119.94258413, 118.91094545, 118.71650504, 115.99830505,
+		  113.03583134,  89.66780818,  87.76008922,  87.12385685,
+		  85.12093715,  85.08304395,  83.7246415 ,  83.19617587,
+		  82.69982874,  73.11635207,  71.99461814,  71.21645502,
+		  64.07551593])]
+	>>> brier(metquestions[10][3],metquestions[10][2])
+	0.13509411764705884
 
 One can now also see how many questions there are in the two datasets
 (with the relatively unsurprising result that PredictionBook has much
 more resolved questions):
 
-		#metquestions
+	>>> len(metquestions)
 	557
-		#pbquestions
+	>>> len(pbquestions)
 	13356
 
 The next step involves computing the Brier score for the forecasts on
 each question:
 
-	metqbrier::{(x@1),brier(x@2;x@3)}'metquestions
-	pbqbrier::{(x@1),brier(x@2;x@3)}'pbquestions
+	>>> metqbrier=np.array([[i[1], brier(i[3], i[2])] for i in metquestions])
+	>>> pbqbrier=np.array([[i[1], brier(i[3], i[2])] for i in pbquestions])
 
 `metqbrier` is a list that contains sublists, one for each question,
 the sublist containing the range for the question and the brier score
@@ -1017,14 +1028,16 @@ plots to inadequately analyze the data.
 
 For accuracy between questions, the results were pretty surprising:
 
-		cor@+metqbrier
-	-0.00994020489696282446
-		cor@+pbqbrier
-	-0.051808239905807497
-		lreg(metqbrier)
-	[-0.00000519915360827071107 0.175130112661923861
-		lreg(pbqbrier)
-	[-0.0000215387935715280697 0.195254764708843238]
+	>>> np.corrcoef(metqbrier.T)
+	array([[ 1.       , -0.0099402],
+		[-0.0099402,  1.       ]])
+	>>> np.corrcoef(pbqbrier.T)
+	array([[ 1.        , -0.05180824],
+		[-0.05180824,  1.        ]])
+	>>> sps.linregress(metqbrier.T[0], metqbrier.T[1])
+	LinregressResult(slope=-5.199153608270726e-06, intercept=0.1751301126619239, rvalue=-0.009940204896962441, pvalue=0.8149259597777081, stderr=2.2200837795403376e-05)
+	>>> sps.linregress(pbqbrier.T[0], pbqbrier.T[1])
+	LinregressResult(slope=-2.1538793571528e-05, intercept=0.1952547647088438, rvalue=-0.05180823990580795, pvalue=2.0875245782500886e-09, stderr=3.5928014948058268e-06)
 
 For Metaculus, the slope off the linear regression is approximately
 `$-5*10^{-6}$`, compared that with `$1*10^{-5}$` for the slope for the
@@ -1033,19 +1046,37 @@ also negative. For PredictionBook, the slope of the linear regression
 is `$-2*10^{-5}$`, compared with `$-8*10^{-6}$` for the data between
 forecasts, which is slightly steeper.
 
-In both cases, there was a small negative correlation between the brier
+However, look at the p-value for the Metaculus correlation/linear
+regression! 0.8! So that number is basically worthless.
+
+In both cases, there is a small negative correlation between the brier
 score and the range (to be precise, the larger the range, the lower
 the brier score/the higher the accuracy). For the Metaculus data, this
-effect was not as pronounced as for the PredictionBook data, though both
-correlations were quite weak. The two linear regressions also showed the
+effect is not as pronounced as for the PredictionBook data, though both
+correlations are quite weak. The two linear regressions also show the
 same effect (lower accuracy at shorter ranges/higher accuracy at higher
-ranges), but again the slope of the linear regression was not very steep.
+ranges), but again the slope of the linear regression is not very steep.
 
 And now: linear regressions and scatterplots!
 
 The following are scatterplots with range on the X-axis and accuracy
 (calculated using the Brier score) on the Y-axis. Again, red dots/lines
-are for Metaculus data, and blue dots/lines are for PredictionBook data.
+are for Metaculus data (twice as big as PredictionBook data points,
+to make them visible in the sea of blue), and blue dots/lines are for
+PredictionBook data.
+
+	fig=plt.figure(figsize=(8,8))
+	plt.xlabel("Range (days)")
+	plt.ylabel("Accuracy (Brier score)")
+
+	plt.plot(pbqbrier.T[0], pbqbrier.T[1], '.', color='blue', markersize=1)
+	plt.plot(pbqbrier.T[0], pbqintercept+pbqslope*pbqbrier.T[0], 'blue', label='PredictionBook linear regression', linewidth=1)
+	plt.plot(metqbrier.T[0], metqbrier.T[1], '.', color='red', markersize=2)
+	plt.plot(pbqbrier.T[0], mqintercept+mqslope*pbqbrier.T[0], 'red', label='Metaculus linear regression', linewidth=1)
+
+	plt.legend()
+
+	plt.savefig("allq.png")
 
 ![Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range](./img/range_and_forecasting_accuracy/allq.png "Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range")
 
@@ -1057,8 +1088,7 @@ lower range. In itself, this is already a fascinating finding, and might
 explain some of the effect seen with accuracy between forecasts in the
 [previous section](#Accuracy-Between-Forecasts)). On the other hand,
 the data is still very noisy, the correlations found are quite weak,
-and the slopes of the linear regressions are are very near 0.<!--TODO:
-test statistical significance of these!-->
+and the slopes of the linear regressions are are very near 0.
 
 All in all, it's plausible that the relation of range and accuracy between
 questions explains a large part of the the weird relation for accuracy and
@@ -1100,6 +1130,8 @@ question to discern whether the relation is positive or not.
 
 With `metquestions` and `pbquestions`, we already have the necessary
 data available to perform the analysis.
+
+<!--HERE-->
 
 We can create a list of the form `[[[brier_scores][ranges]]*]`:
 
@@ -1365,6 +1397,12 @@ Acknowledgements
 I am grateful to Nuño Sempere for pointing out a fatal flaw in my
 previous version of this analysis, which caused me to rewrite it nearly
 completely.
+
+Im am incredibly indebted to the Long-Term Future Fund, who
+gave me enough money for this project that I could justify to my
+parents that I wasn't wasting my time, and to fund my [cryonics
+membership](./considerations_on_cryonics.html) for the year on top
+of that.
 
 Miscellaneous
 -------------

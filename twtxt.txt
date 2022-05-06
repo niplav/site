@@ -1207,3 +1207,16 @@
 2022-05-05T06:33:58.000000Z	The second Blanuša snark
 2022-05-05T06:34:11.000000Z	The Balaban 11-cage
 2022-05-05T06:34:51.000000Z	The Moser spindle
+2022-05-05T07:30:01.000000Z	Breaking News: On-site nuke at Deepmind headquarters in London detonated.
+2022-05-05T07:35:06.000000Z	Maybe it's true that intelligence depends on the environment, but consider: the environments where policy iteration performs better than RL with temporal difference learning are kind of dumb.
+2022-05-05T07:37:19.000000Z	(kind of tongue in cheek) maybe the worst action i could take right now would be to improve a bunch of reinforcement learning wikipedia pages.
+2022-05-05T13:16:03.000000Z	plan 9 is very much like lisp in that it is completely unlike lisp. genius.
+2022-05-05T13:27:04.000000Z	Basic Fortran in Warfare
+2022-05-05T13:29:36.000000Z	reply to this with your favourite line of code you have ever written
+2022-05-05T13:29:40.000000Z	reply to this with your favourite line of prose you have ever written
+2022-05-05T13:32:57.000000Z	become unlinearizable
+2022-05-05T13:35:04.000000Z	maybe my website wants to become a collection of jupyter notebooks?
+2022-05-05T14:52:37.000000Z	im gonna turn into schmidhuber if im not careful
+2022-05-05T21:39:26.000000Z	listening to Gary Marcus right now on what would really impress him with AI advances, and, well,,,,,,,,,,
+2022-05-05T22:41:46.000000Z	imagine the teeth-grinding if they give schmidhuber a turing award
+2022-05-06T07:12:58.000000Z	if we solve distributional shift, do we also solve ontological crises?

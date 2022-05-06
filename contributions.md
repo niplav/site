@@ -135,6 +135,7 @@ look". The comma before "smallcaps" was misplaced.
 #### “Vegans Should Not Eat Insects: A Reply to Fischer”
 
 [Tomasik 2017a](https://reducing-suffering.org/vegans-should-not-eat-insects-a-reply-to-fischer-2016/)
+
 * "Urban composters promote slow temperature composting" -> "slow" should be "low" (or [sic])
 
 #### “Applied Welfare Biology and Why Wild-Animal Advocates Should Focus on Not Spreading Nature”

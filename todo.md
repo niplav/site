@@ -142,8 +142,8 @@ Existing Texts
 		* `/usr/local/doc/unread/sexual_activity_is_inversely_related_to_womens_perceptions_of_male_facial_attractiveness_hess_et_al_2007.pdf`
 * Daygame Cost-Benefit Analysis
 	* Incorporate new daygame stats from blogs
-	* Upload own data
 	* Adjust curve to fit Roy Walker & Thomas Crown data better
+		* use `scipy.optimize.curve_fit`
 	* different diminishing returns in code, make all logarithmic/radical/hyperbolic?
 	* Expand or axe Fixed Costs & Variable Costs section
 	* Create & explain Guesstimate Models
@@ -445,6 +445,7 @@ Texts
 		* Thick vs. Thin/Fast vs. Slow/Signal vs. Noise
 	* Option Value
 	* The Is-Ought Distinction
+* The C Standard Library is Bad
 * Why Not Prepping?
 
 > [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
