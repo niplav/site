@@ -11,8 +11,8 @@ forecasts](#Judging-Between-Forecasts); Second; is the accuracy higher
 higher [within questions](#Judging-Within-Questions)? These questions are
 analyzed using data from [PredictionBook](https://predictionbook.com/)
 and [Metaculus](https://www.metaculus.com/questions/), the answers turn
-out to be yes, no and yes for Metaculus data; and no, no and yes for
-PredictionBook data. Possible reasons are discussed.__
+out to be yes, unclear and yes for Metaculus data; and no, no and yes
+for PredictionBook data. Possible reasons are discussed.__
 
 <!--TODO: fix instances of \* \*-->
 <!--TODO: fix predictionbook & metaculus capitalization-->
@@ -134,7 +134,10 @@ I find that the data indicates three facts:
 	can be partially, but not completely explained by fact *3.*
 	1. The results for PredictionBook and Metaculus disagree here
 	2.	The correlations (0.02 for Metaculus, -0.02 for
-		PredictionBook) and slopes of the linear regressions
+		PredictionBook) and
+		[slopes](https://en.wikipedia.org/wiki/Slope)
+		of the [linear
+		regressions](https://en.wikipedia.org/wiki/Linear_regression)
 		are close to 0
 2.	Questions with a longer range (that is, time between the question
 	being written and the question being resolved) generally receive
@@ -476,7 +479,7 @@ Accuracy Between Forecasts
 
 The first approach I took was to simply take the probability and result
 for each forecast, and calculate the Brier score for that one probability.
-I then calculated the correlation and the linear regression between that
+I then calculated the [correlation](https://en.wikipedia.org/wiki/correlation_and_dependence) and the linear regression between that
 Brier score and the range of the forecast.
 
 ### Analysis
@@ -670,24 +673,217 @@ are for PredictionBook forecasts):
 
 ![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)](./img/range_and_forecasting_accuracy/allscatter.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)")
 
-*Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)*
-
 The high amounts of noise are probably due to the low number of
 predictions for single days (or, in the case of weeks and months, for
 years/months with a high range, as not enough questions with this range
 have resolved yet).
+
+#### Non-Linear Curve-Fitting
+
+Using a linear regression on the Brier score here, however, carries
+with it a deep issue: Unless the slope is 0, the linear regression will
+be below 0 or above 1 for some positive range—so one can't use it to
+predict forecaster performance on questions with very long ranges.
+
+(There is also the additional issue that in non-0-slope regressions,
+the linear regression might tell us that forecasters would perform *worse
+than chance* at some point in the future, that is, give an expected Brier
+score `>0.25`, which is not what I expect to happen, unless reality is
+actively preventing us from making accurate long-term predictions).
+
+Instead, I want to use functions that for positive values of `x` don't
+produce out-of-bounds errors (they at least return valid Brier scores).
+
+I furthermore make some additional assumptions/desiderata about the the function
+`$r$` to fit to the data:
+
+1. For `$x \ge 0$`, it returns values in `$[0, 0.25]$`
+2. For `$x=0$`, it returns `$0$` (at the time of resolution, we can predict the outcome perfectly, because we already know it)
+	1. It'd be technically elegant if for `$r(x)=0$` for `$x \le 0$` (since we can perfectly predict things from the past (although there's a philosophical discussion to be had here about how much we can actually know things from the past, and maybe it's even symmetric with the future)), but it's not super important
+3. `$r$` is [monotonic](https://en.wikipedia.org/wiki/Monotonic_function) for `$x \ge 0$`, that is `$x_1>x_2 \Rightarrow r(x_1) \ge r(x_2)$`
+	1. This is the one I'd be most willing to drop, since there might be [weird non-monotonic effects](#Why-Assume-Accuracy-will-Increase) in ability to predict.
+
+##### Fitting a Logistic Function
+
+The logistic function seems like an optimal candidate here: it fulfills
+at least desideratum 1 (if shrunk) and 3, and with some fiddling may
+even satisfy 2.
+
+Because this is very different from a [logistic
+regression](https://en.wikipedia.org/wiki/Logistic_regression) (scaled
+values above the maximum (with a maximum of 0.25, some of the observed
+Brier scores are greater), continuous values to predict), I curve-fit
+explicitely using `scipy.optimize.curve_fit` (why did I only learn about
+this function from scrolling through the scipy documentation‽ This
+is awesome!) with two parameters.
+
+(Why not do a linear regression on the log-transformed data? Because the
+corresponding transformation ends up with with 0 inside a logarithm for
+PredictionBook data: The inverse logistic is `$\log(\frac{1}{p}-1)$`,
+and some PredictionBook Brier scores are 1).
+
+So we instead use the following formula, which is just a squashed
+logistic function that the maximum is at 0.25:
+
+	def shrunk_logistic(x, slope, intercept):
+		return 0.25*1/(1+np.exp(slope*x+intercept))
+
+We can now fit a curve with those parameters to the data, limiting
+the slope to negative values and the intercept to positive values
+(we want the function to be *monotonically rising*, and we want the
+[y-intercept](https://en.wikipedia.org/wiki/y-intercept) to be below
+0.125, that is we want the "middle" of the logistic function to be to the
+right of 0, even if we can't guarantee that the function will be ~0 for
+`x=0`).
+
+	>>> pblogifit=spo.curve_fit(shrunk_logistic, pbrngs, pbbriers, bounds=([-np.inf, 0], [0, np.inf]))
+	(array([-4.78706654e-04,  1.40345975e-20]), array([[ 1.69607043e-09, -4.52668529e-07],
+		[-4.52668529e-07,  4.22860649e-04]]))
+	>>> metlogifit=spo.curve_fit(shrunk_logistic, metrngs, metbriers, bounds=([-np.inf, 0], [0, np.inf]))
+	(array([-2.37260045e-03,  3.97380474e-19]), array([[ 7.35951274e-09, -1.08226199e-06],
+		[-1.08226199e-06,  3.59766672e-04]]))
+
+The result can be plotted:
+
+	fig=plt.figure(figsize=(8,8))
+
+	plt.title("Scatterplot with logistic-ish regression for Metaculus & PredictionBook forecasts by range (in days)")
+	plt.xlabel("Range (days)")
+	plt.ylabel("Accuracy (Brier score)")
+
+	fullrng=np.array(range(0, round(max(pbrngs))+1))
+
+	plt.plot(metrngs, metbriers, '.', color='red', markersize=1)
+	plt.plot(fullrng, shrunk_logistic(fullrng, metlogifit[0][0], metlogifit[0][1]), 'red', label='Metaculus shrunk logistic-ish regression', linewidth=2)
+	plt.plot(pbrngs, pbbriers, '.', color='blue', markersize=1)
+	plt.plot(fullrng, shrunk_logistic(fullrng, pblogifit[0][0], pblogifit[0][1]), 'blue', label='PredictionBook shrunk logistic-ish regression', linewidth=2)
+
+	plt.legend()
+
+	plt.savefig("allscatter_logi.png")
+
+![Scatter-plot of Metaculus & PredictionBook data, with logistic-ish regressions (as described above).](./img/range_and_forecasting_accuracy/allscatter_logi.png "Scatter-plot of Metaculus & PredictionBook data, with logistic-ish regressions (as described above). Both plots start at 0.125, and approach 0.25, but the Metaculus plot does so far quicker (=0.25 at ~1500 days), while the PredictionBook regression hasn't reached 0.25 by day ~4000")
+
+I wonder whether the reason the Metaculus fit reaches the Metaculus
+data so much faster is because the Metaculus data ends earlier? (Also,
+yes, that is the logistic function and not a linear function for the
+PredictionBook data, it's a really non-steep<!--TODO what's the word
+I'm thinking of here?--> slope).
+
+Also, both plots start out with `$r(0)=0.125$`: not restricting the
+intercept to positive values returns negative intercepts (meaning that
+at 0, the value is of the logistic function is even higher than (in this
+case) 0.125):
+
+	>>> pblogifit=spo.curve_fit(shrunk_logistic, pbrngs, pbbriers, bounds=([-np.inf, -np.inf], [0, np.inf]))
+	(array([-1.12830197e-14, -5.87766698e-01]), array([[ 1.32206792e-09, -4.11999218e-07],
+		[-4.11999218e-07,  4.67829989e-04]]))
+	>>> shrunk_logistic(0, -1.12830197e-1, -5.87766698e-01)
+	0.16071313965158385
+	>>> metlogifit=spo.curve_fit(shrunk_logistic, metrngs, metbriers, bounds=([-np.inf, -np.inf], [0, np.inf]))
+	(array([-3.05026968e-04, -7.03162493e-01]), array([[ 3.73762741e-09, -7.74711069e-07],
+		[-7.74711069e-07,  3.76596526e-04]]))
+	>>> shrunk_logistic(0, -3.05026968e-04, -7.03162493e-01)
+	0.1672221410619337
+
+Here, the slopes are much steeper than in the more restricted case about.
+
+##### Fitting an Exponential
+
+Another function we could fit to the data might be of the form
+`$\frac{a \cdot b^x -a}{-4a}$`, with some `$a<0$` and `$b \in (0, 1)$` (the
+function is decaying exponentially, but flipped so that it approaches 0,
+and then we add 0.25 to that).
+
+We can guarantee this function to fulfill all three desiderata:
+
+<div>
+	$$\frac{a \cdot b^0 - a}{-4a}=\\
+	\frac{a - a}{-4a}=\frac{0}{-4a}=0$$
+</div>
+
+and
+
+<div>
+	$$ \underset{x \rightarrow \infty}{\text{lim}} \frac{a \cdot b^x - a}{\frac{a}{0.25}}=\\
+	\frac{-a}{-4a}=\\
+	0.25$$
+</div>
+
+and (for `$e \ge 0$`)
+
+<div>
+	$$ \frac{a \cdot b^x - a}{-4a} \le \frac{a \cdot b^{x+ε} - a}{-4a} \Leftrightarrow\\
+	a \cdot b^x - a \le a \cdot b^{x+ε} - a \Leftrightarrow \\
+	a \cdot b^x \le a \cdot b^{x+ε} \Leftrightarrow (\text{signflip because } a \text{ is negative})\\
+	b^x \ge b^{x+ε} $$
+</div>
+
+which is the case.
+
+In python, this is simply
+
+	def shift_exp(x, a, b):
+		return (a*(b**x)-a)/(-4*a)
+
+We can now fit that kind of curve to the data:
+
+	>>> pbexpfit=spo.curve_fit(shift_exp, pbrngs, pbbriers, bounds=([-np.inf, 0], [0, 1]))
+	(array([-4.01308763e+04,  5.62045092e-23]), array([[1.64586911e-63, 7.84399901e-41],
+		[7.84399901e-41, 3.73834834e-18]]))
+	>>> metexpfit=spo.curve_fit(shift_exp, metrngs, metbriers, bounds=([-np.inf, 0], [0, 1]))
+	(array([-1.72685538,  0.95788507]), array([[1.49958205e+12, 5.06944792e+00],
+		[5.06944792e+00, 6.50351831e-07]]))
+
+![Scatter-plot of Metaculus & PredictionBook data, with exponential-ish regressions (as described above).](./img/range_and_forecasting_accuracy/allscatter_exp.png "Scatter-plot of Metaculus & PredictionBook data, with exponential-ish regressions (as described above). The PredictionBook exponential-ish plot looks more like a step-function, reaching 0.25 instantaneously, while the Metaculus data takes ~100 days to reach 0.25 (which is also quite quick).")
+
+As one can see, fitting this kind of curve suggests that
+the predictions become equivalent to random guesses almost
+immediately for PredictionBook, and for ranges >100 days for
+Metaculus. Perhaps there are some problems with [floating-point
+arithmetic](https://en.wikipedia.org/wiki/floating-point_arithmetic)
+at play here: the best fit *would* be at something like `$10^{-78}$`,
+but `curve_fit` doesn't know how to count that low<!--TODO: link-->?
+
+##### This Is Cool
+
+I believe that these findings are pretty cool: They give some
+sense of how long the range of forecasts needs to be for them to be
+approximately random (when taking the logistic fit, PredictionBook
+users have a much longer time horizon than Metaculus forecasters,
+with a "forecasting horizon" of ~20 years
+(`shrunk_logistic(20*365, pblogifit[0][0], pblogifit[0][1])==0.24263313678358955`)
+versus the Metaculus "forecasting horizon" of less than 5 years
+(`shrunk_logistic(5*365, metlogifit[0][0], metlogifit[0][1])==0.2467508824532725`).
+
+Of course, don't believe these numbers too much: The difference in dataset
+range is probably causing a lot of the difference in fit, the exponential
+fit is way more pessimistic, and I haven't performed any [statistical
+tests](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing)
+to determine how to much believe these particular numbers.
+
+But I'm really excited about testing these conclusions with growing
+datasets as forecasting platforms exist longer.
+
+<!--TODO: do exactly that-->
+
+Overall, I like the logistic fit *much* better than the exponential
+one: in practice, we know that forecasters don't give quasi-random
+predictions for questions that are further out than 100 days (or, as
+the PredictionBook fit suggests, that forecasting is impossible!).
 
 ### Why Assume Accuracy will Increase?
 
 I believe that the finding for the PredictionBook data is quite
 surprising.
 
-A priori, one would believe that beliefs about the near future are
-generally more accurate than beliefs about the far future: We can predict
-the weather in 2 minutes far better than the weather in 6 months, we can
-say much more about the position of a rock in an hour than in 100 years,
-more about the popularity of a political party in 2 months as opposed
-to 10 years. Even in reasonably chaotic systems, one should expect to
+A priori, one would believe that beliefs about the near future
+are generally more accurate than beliefs about the far future: We
+can predict the weather in 2 minutes far better than the weather
+in 6 months, we can say much more about the position of a rock in
+an hour than in 100 years, more about the popularity of a political
+party in 2 months as opposed to 10 years. Even in reasonably [chaotic
+systems](https://en.wikipedia.org/wiki/Chaos_theory), one should expect to
 become more and more accurate the closer one comes to the expected time.
 
 One example for this is a roulette wheel (the resolution being the number
@@ -789,8 +985,6 @@ I generated charts for the sample sizes in days:
 
 ![Sample sizes for predictions with a range of n months, sorted and graphed.](./img/range_and_forecasting_accuracy/ss_plot.png "Sample sizes for predictions with a range (in months), sorted and graphed.")
 
-*Sample sizes for predictions with a range (in months), sorted and graphed.*
-
 The red graphs stands for Metaculus sample sizes, the blue graph stands
 for PredictionBook sample sizes.
 
@@ -823,14 +1017,14 @@ One could also be interested in how the statistical significance of the
 linear regression and correlation develops when we remove the forecasts
 with short ranges. This can be implemented quite easily by creating a
 function `val_shrinking_dataset` which first sorts the pre-computed
-Brier scores by range, and then calculates p-values and correlation
+Brier scores by range, and then calculates [p-values](https://en.wikipedia.org/wiki/p-value) and correlation
 coefficients, afterwards removing the earliest prediction from the dataset (I
 have no idea whether this is statistically acceptable, but it seemed like
 a reasonable thing to do, lest there's some problem here with p-hacking).
 The values are concatenated into arrays, which are then returned.
 
 	def val_shrinking_dataset(briers, ranges):
-	        sortind=np.argsort(ranges)
+		sortind=np.argsort(ranges)
 	        chronbriers=briers[sortind]
 	        chronranges=ranges[sortind]/30
 	        dropranges=[]
@@ -1080,8 +1274,6 @@ PredictionBook data.
 
 ![Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range](./img/range_and_forecasting_accuracy/allq.png "Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range")
 
-*Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range*
-
 The general trend seems to be: questions with a higher range tend to
 receive forecasts that have a higher accuracy than questions with a
 lower range. In itself, this is already a fascinating finding, and might
@@ -1096,14 +1288,32 @@ range between forecasts, but I don't know enough statistics to tease these
 out exactly. My intuition tells me that the effect on accuracy between
 questions is too small to explain the whole anomaly between forecasts.
 
-<!--
 ### Why Longer Range Questions More Accurate?
 
 The big question now is: Why do forecasts on predictions on questions
 with a higher range generally receive better Brier scores?
 
-TODO: write something about bias here
--->
+First, it's important to consider the p-value for the correlation with
+the Metaculus data. It's 80% likely we would have had the same result,
+given that the correlation was 0: not solid foundation to base further
+understanding on. But we got the same result with the PredictionBook data,
+with a very decent p-value, so what is going on?
+
+The explanation falls back to the considerations in [the section on
+range and biased questions](#Range-and-Biased-Questions): the long-range
+questions we might be asking could be "easier" to predict, at least in
+the medium term, than the short-range questions.
+
+How could one test this? Metaculus contains categories for questions,
+and one might want to examine whether the negative trend between
+question range and accuracy of predictions on that question still hold
+when questions in the same category are examined (although one might run
+into problems with the dataset size here—even the 557 questions in the
+dataset aren't enough to provide a decent p-value). Unfortunately, no
+such categorization system exists for PredictionBook, one *might* try to
+analyze the titles of the questions, but it doesn't seem worth the effort.
+
+<!--TODO: maybe implement the analysis described above?-->
 
 Accuracy Within Questions
 -------------------------
@@ -1131,91 +1341,115 @@ question to discern whether the relation is positive or not.
 With `metquestions` and `pbquestions`, we already have the necessary
 data available to perform the analysis.
 
-<!--HERE-->
+We can create a list of the form `[[[brier_scores],[ranges]]*]`:
 
-We can create a list of the form `[[[brier_scores][ranges]]*]`:
+	wmetqbrier=[[i[4], (i[3]-i[2])**2] for i in metquestions]
+	wpbqbrier=[[i[4], (i[3]-i[2])**2] for i in pbquestions]
 
 	wmetqbrier::{(,x@4),,((x@2)-x@3)^2}'metquestions
 	wpbqbrier::{(,x@4),,((x@2)-x@3)^2}'pbquestions
 
-Since `lreg` can't deal with datasets of size 1, we have to filter those
-out of `wpbqbrier` (they don't make much sense in our analysis either):
+Since `lreg` can't deal with datasets of size 1, we have to filter
+those out of the dataset (the Metaculus dataset doesn't contain these,
+but I want to prepare for a possible future dataset where it does),
+and they don't make much sense in our analysis anyway:
 
-	wpbqbrier::flr({1<#*x};wpbqbrier)
+	wmetqbrier=list(filter(lambda x: len(x[0])>1, wmetqbrier))
+	wpbqbrier=list(filter(lambda x: len(x[0])>1, wpbqbrier))
 
 One can play around and calculate the correlation between range and
-accuracy for every question:
+accuracy for some questions:
 
-		{cor@x}'4#wmetqbrier
-	[0.763628932400678817 0.46136759691608953 -0.139435096904356686 -0.882370278576558711]
-		{cor@x}'4#wpbqbrier
-	[-1.0 1.0 -1.0 -1.0]
+	>>> list(map(np.corrcoef, wmetqbrier[:4]))
+	[array([[1.        , 0.53853205],
+		[0.53853205, 1.        ]]),
+	  array[[1.       , 0.6569835],
+		[0.6569835, 1.       ]]),
+	  array([[1.        , 0.05048498],
+		[0.05048498, 1.        ]]),
+	  array([[1.        , 0.28412936],
+		[0.28412936, 1.        ]])]
+	>>> list(map(np.corrcoef, wpbqbrier[:4]))
+	[array([[1.        , 0.52609801],
+		[0.52609801, 1.        ]]),
+	  array([[1.        , 0.89254317],
+		[0.89254317, 1.        ]]),
+	  array([[ 1.        , -0.39887059],
+		[-0.39887059,  1.        ]]),
+	  array([[ 1., -1.],
+		[-1.,  1.]])]
 
-The perfect negative correlation comes from the fact that the first
+The perfect negative correlation come from the fact that some of the
 questions in the dataset have only two predictions, which all by chance
-anti-correlate with the range. This is not the case for all
-questions:
+anti-correlate with the range. This is not the case for all questions,
+as one can see.
 
-		#'*'4#wpbqbrier
-	[2 2 2 2]
-		4#|{cor@x}'wpbqbrier
-	[0.89254316971805467 1.0 0.950010315421882544 0.801892491489916431]
+For the linear regression, one can simply map `sps.linregress` over
+the lists:
 
-However, we won't be using that information here.
+	>>> wmetqregs=list(map(lambda x: sps.linregress(x[0], x[1]), wmetqbrier))
+	>>> wpbqregs=list(map(lambda x: sps.linregress(x[0], x[1]), wpbqbrier))
+	/usr/local/lib/python3.8/dist-packages/scipy/stats/_stats_mstats_common.py:130: RuntimeWarning: invalid value encountered in double_scalars
+	slope = r_num / ssxm
 
-For the linear regression, one needs to convert the data for each question
-from a two lists of values into x/y pairs:
+The result for `wpbqbrier` is unexpected. The culprits turn out to be
+a set of questions on which the same prediction has been made, twice,
+at the exact same second, which confuses the linear regression algorithm:
 
-	wmetqbrier::+'wmetqbrier
-	wpbqbrier::+'wpbqbrier
-
-One can then compute the linear regression on the datasets for each question:
-
-		4#lreg'wmetqbrier
-	[[0.0000000011767800408891019 0.00710923979466614] [0.000000000617896058360111251 -0.00048849375750407371] [-0.00000000341699728537160739 0.174909387397966508] [-0.0000000862529408862358451 2.97369568231620124]]
-		4#lreg'wpbqbrier
-	kg: error: plus: type error: [:undefined :undefined]
-
-The result for `wpbqbrier` is unexpected. The culprit turns out to be a
-question on which the same prediction has been made, twice, at the
-exact same second, which confuses the linear regression algorithm:
-
-		wpbqbrier@[1381]
-	[[[35029.0 0.09] [35029.0 0.09]]]
-
-One can find that there are several such datapoints:
-
-		flr({((*x)~x@1)&2=#x};wpbqbrier)
-	[[[35029.0 0.09] [35029.0 0.09]] [[21824.0 0.0625] [21824.0 0.0625]] [[21804.0 0.0025] [21804.0 0.0025]] [[31684.0 0.04] [31684.0 0.04]] [[31793.0 0.25] [31793.0 0.25]] [[31717109.0 0.2025] [31717109.0 0.2025]] [[31717385.0 0.16] [31717385.0 0.16]] [[31717456.0 0.0225] [31717456.0 0.0225]] [[31717127.0 0.2025] [31717127.0 0.2025]] [[31717353.0 0.0225] [31717353.0 0.0225]] [[31717361.0 0.25] [31717361.0 0.25]]]
+	>>> list(filter(lambda x: x[0][0]==x[0][1] and len(x[0]==2) and x[1][0]==x[1][1] and len(x[1])==2, wpbqbrier))
+	[[array([367.09616898, 367.09616898]), array([0.2025, 0.2025])], [array([367.09637731, 367.09637731]), array([0.2025, 0.2025])], [array([367.09899306, 367.09899306]), array([0.0225, 0.0225])], [array([367.09908565, 367.09908565]), array([0.25, 0.25])], [array([367.09936343, 367.09936343]), array([0.16, 0.16])], [array([367.10018519, 367.10018519]), array([0.0225, 0.0225])], [array([0.25236111, 0.25236111]), array([0.0025, 0.0025])], [array([0.36797454, 0.36797454]), array([0.25, 0.25])], [array([0.25259259, 0.25259259]), array([0.0625, 0.0625])], [array([0.36671296, 0.36671296]), array([0.04, 0.04])], [array([0.40542824, 0.40542824]), array([0.09, 0.09])]]
 
 However, they can be filtered out pretty easily:
 
-		wpbqbrier::flr({(~(*x)~x@1)|2<#x};wpbqbrier)
-		#wpbqbrier
+	>>> wpbqbrier=list(filter(lambda x: not (x[0][0]==x[0][1] and len(x[0]==2) and x[1][0]==x[1][1] and len(x[1])==2), wpbqbrier))
+	>>> len(wpbqbrier)
 	7596
 
 ### Result
 
 We can now visualise the linear regression for each question by setting
-it to zero outside the range of the oldest and newest chunks:
+plotting all linear regressions with random colors (the horizontal length
+of the linear regression indicates the time between the first prediction
+and the last prediction on the question, in its respective timespan:
+a question that was opened three years ago and closed two years ago
+appears on the X-axis between 730 and 1095):
 
-	sketch::{q::x;
-		setrgb(.rn();.rn();.rn());
-		pltr::{:[(x>**q)|x<**|q;0;lr(x;lreg(q))]};
-		plot(pltr)}
-	daywmetqbrier::{+{(,x%daysec),,y}@+x}'wmetqbrier
-	sketch'daywmetqbrier
+	fig=plt.figure(figsize=(8,8))
+	plt.xlabel("Range (days)")
+	plt.ylabel("Linear regression")
 
-![Linear regressions for the accuracy of questions by range](./img/range_and_forecasting_accuracy/perquestion.png "Linear regressions for the accuracy of questions by range")
+	for i in range(0, len(wmetqregs)):
+	        r=wmetqregs[i]
+	        rngs=wmetqbrier[i][0]
+	        slope, intercept, _, _, _=r
+	        cl=hex(random.sample(range(0, 256*256*256), 1)[0]) #random rgb code
+	        #left padding with zeros, can't be bothered to read the formatting docs right now
+	        cl='#'+('0'*(6-len(cl[2:])))+cl[2:]
+	        plt.plot(rngs, intercept+slope*rngs, color=cl, linewidth=1)
 
-*Linear regressions for the accuracy of questions by range (only Metaculus data).*
+	plt.savefig("permetquestion.png")
 
-The vertical bars are artifacts stemming from the fact that Klong
-attempts to makes the discontinuous function continuous, connecting 0
-and the linear regression.
+![Linear regressions for the accuracy of questions by range](./img/range_and_forecasting_accuracy/permetquestion.png "Linear regressions for the accuracy of questions by range, which looks like someone threw a bunch of randomly-colored random-length lines onto a white canvas and then haphazardly shoved them into the bottom-left corner. Or, alternatively, like a failed attempt at modern art.")
 
-Although the plot is kind of cool to look at, I'm not really sure what
-it can tell us. My *guess* would be that it somewhat shows a trend
+	fig=plt.figure(figsize=(8,8))
+	plt.xlabel("Age (days)")
+	plt.ylabel("Linear regression")
+
+	for i in range(0, len(wpbqregs)):
+	        r=wpbqregs[i]
+	        rngs=wpbqbrier[i][0]
+	        slope, intercept, _, _, _=r
+	        cl=hex(random.sample(range(0, 256*256*256), 1)[0]) #random rgb code
+	        #left padding with zeros, can't be bothered to read the formatting docs right now
+	        cl='#'+('0'*(6-len(cl[2:])))+cl[2:]
+	        plt.plot(rngs, intercept+slope*rngs, color=cl, linewidth=1)
+
+	plt.savefig("perpbquestion.png")
+
+![Linear regressions for the accuracy of questions by range](./img/range_and_forecasting_accuracy/perpbquestion.png "Linear regressions for the accuracy of questions by range, which, as above, looks like someone  threw a bunch of randomly-colored random-length lines onto a white canvas and then haphazardly shoved them into the bottom-left corner. But, like, way more of them, so that it's way too busy to look at.")
+
+Although the plots are kind of cool to look at, I'm not really sure what
+they can tell us. My *guess* would be that it somewhat shows a trend
 with higher ranges responding to higher Brier scores (and therefore
 lower accuracy).
 
@@ -1229,23 +1463,31 @@ number of predictions on that question, adding up the linear regressions,
 and then dividing the result by the total number of predictions in
 the dataset:
 
-		awmetqlr::(+/{(#x)*lreg(x)}'wmetqbrier)%(+/#'wmetqbrier)
-	[0.00304807889635842984 0.0388493550172142907]
-		awpbqlr::(+/{(#x)*lreg(x)}'wpbqbrier)%(+/#'wpbqbrier)
-	[1.3731897568232792 -98.5907264853066552]
+	>>> awmetqslope=np.mean(list(map(lambda x: x[0], wmetqregs)))
+	0.002971747318680323
+	>>> awmetqintercept=np.mean(list(map(lambda x: x[1], wmetqregs)))
+	0.03758132228574967
+	>>> awpbqslope=np.mean(list(map(lambda x: x[0], wpbqregs)))
+	3.1082381364053284
+	>>> awpbqintercept=np.mean(list(map(lambda x: x[1], wpbqregs)))
+	-238.96304759632133
 
 The PredictionBook data—how do I put this—simply makes no sense.
 I am pretty confident that this code *is* correct, but I think that
 the questions with very few prdictions are producing incorrect results,
 especially when the predictions are very close to each other. So let's
-arbitrarily exclude questions with less than six predictions (actually
+arbitrarily exclude questions with less than ten predictions (actually
 an arbitrary choice I did not iterate over to get a “desired” result):
 
-		wpbqbrier::flr({5<#x};wpbqbrier)
-		#wpbqbrier
-	2191
-		awpbqlr::(+/{(#x)*lreg(x)}'wpbqbrier)%(+/#'wpbqbrier)
-	[0.00374070031232435941 -0.0112363430365067794]
+	>>> fwpbqbrier=list(filter(lambda x: len(x[0])>=10, wpbqbrier))
+	>>> len(wpbqbrier)
+	849
+	>>> # Recomputing linear regressions
+	>>> fwpbqregs=list(map(lambda x: sps.linregress(x[0], x[1]), fwpbqbrier))
+	>>> fawpbqslope=np.mean(list(map(lambda x: x[0], fwpbqregs)))
+	0.0028231736497672296
+	>>> fawpbqintercept=np.mean(list(map(lambda x: x[1], fwpbqregs)))
+	-0.04200041870396879
 
 This looks much better (except the fact that, at time of resolution,
 this linear regression predicts that the Brier score will be negative,
@@ -1255,13 +1497,24 @@ So it is true that accuracy within question *generally* is higher
 with lower range for Metaculus data, and similar for PredictionBook
 data. Everything else would have been surprising.
 
-![Mean of linear regressions on accuracy within questions](./img/range_and_forecasting_accuracy/withintotal.png "Mean of linear regressions on accuracy within questions")
+	fig=plt.figure(figsize=(8,8))
 
-*Mean of linear regressions on accuracy within questions (red is Metaculus data, blue is PredictionBook data).*
+	plt.title("Mean of linear regressions on accuracy within questions (red is Metaculus data, blue is PredictionBook data)")
+	plt.xlabel("Range (days)")
+	plt.ylabel("Accuracy (Brier score)")
+
+	plt.plot(pbrngs, awmetqintercept+awmetqslope*pbrngs, 'red', label='Metaculus aggregate linear regression', linewidth=1)
+	plt.plot(pbrngs, awpbqintercept+awpbqslope*pbrngs, 'blue', label='PredictionBook aggregate linear regression', linewidth=1)
+
+	plt.legend()
+
+	plt.savefig("withintotal.png")
+
+![Mean of linear regressions on accuracy within questions](./img/range_and_forecasting_accuracy/withintotal.png "Mean of linear regressions on accuracy within questions, with filtered PredictionBook data")
 
 This chart, however, shows that the result is not as clean as one might
 hope: both linear regressions are very steep, predicting Brier scores
-of \>1 for ranges of more than a years, which is clearly nonsensical.
+of \>1 for ranges of more than a year, which is clearly nonsensical.
 
 This probably results from the probabilities being treated linearly,
 while handling them in logspace would be much more appropriate.
@@ -1275,46 +1528,45 @@ As we know, the Metaculus dataset contains predictions on 557 questions,
 the PredictionBook dataset 13356, but there are way fewer questions with
 more than 1 unique prediction in the PredictionBook dataset:
 
-		#metquestions
+	>>> len(metquestions)
 	557
-		#pbquestions
+	>>> len(pbquestions)
 	13356
-		#wmetqbrier
+	>>> len(wmetqbrier)
 	557
-		#wpbqbrier
+	>>> len(wpbqbrier)
 	7596
 
 Let's first create sorted lists containing the numbers of forecasts on
 each question:
 
-	metlens::#'wmetqbrier
-	metlens::metlens@<metlens
-	pblens::#'wpbqbrier
-	pblens::pblens@<pblens
+	pblens=np.sort([len(x[0]) for x in wpbqbrier])
+	metlens=np.sort([len(x[0]) for x in wmetqbrier])
 
 One can now look at some central values for those datasets: the maximum,
 mimimum, mean, median, and mode:
 
-		&/metlens
+	>>> import statistics
+	>>> np.min(metlens)
 	2
-		|/metlens
+	>>> np.max(metlens)
 	101
-		mu(metlens)
-	86.8348294434470377
-		M(metlens)
+	>>> np.mean(metlens)
+	86.83482944344703
+	>>> np.median(metlens)
+	101.0
+	>>> statistics.mode(metlens)
 	101
-		mo(metlens)
-	[101]
-		&/pblens
+	>>> np.min(pblens)
 	2
-		|/pblens
+	>>> np.max(pblens)
 	99
-		mu(pblens)
-	5.07253817798841496
-		M(pblens)
+	>>> np.mean(pblens)
+	5.072538177988415
+	>>> np.median(pblens)
 	3.0
-		mo(pblens)
-	[2]
+	>>> statistics.mode(pblens)
+	2
 
 This is—surprising, to say the least. Metaculus makes creating
 new questions much harder, and more strongly encourages users to
@@ -1333,7 +1585,7 @@ I __know__, [this question about 2016 being the warmest year on
 record](https://www.metaculus.com/questions/126/will-2016-be-the-warmest-year-on-record/)
 has 765 forecasts)!
 
-![If an item does not appear in our records, it does not exist](./img/range_and_forecasting_accuracy/api_incomplete.png "If an item does not appear in our records, it does not exist")
+![If an item does not appear in our records, it does not exist](./img/range_and_forecasting_accuracy/api_incomplete.png "Image of confused Obi-Wan Kenobi, with the text “Impossible. Perhaps the api is incomplete.” (If an item does not appear in our records, it does not exist)")
 
 I initially suspected a bug in my code, but to my surprise, after further
 investigation, it turns out that the Metaculus API returns timeseries
@@ -1383,13 +1635,6 @@ quite easy to manipulate the dataset.
 In contrast, Metaculus has a set of admins and moderators that share a
 notion of how the questions relate to events in the world, which keeps
 questions and resolutions consistent with each other.
-
-<!--
-### Linear Regression is Not Predictive
-
-Use logspace instead? And logscore instead of brier score?
-Or just a logistic regression?
--->
 
 Acknowledgements
 ----------------
