@@ -260,13 +260,27 @@ Theory
 
 ### The Value of Maintenance
 
-### Individual Wikis Don't Work
+### Individual Wikis Don't Work, but Wikipedia Does
+
+Two reasons:
+
+1. People want to participate in vibrant communities → network effects
+2. People often have overlapping interests, but the trivial inconvenience of signing up for several wikis prevents them from participating in any more specialized ones
 
 ### Discourse on Blogs is Probably Dead
 
 #### Discourse on Twitter Lives On
 
-### Why Don't People Care About Their Content
+### Why Don't People Care About Their Content?
+
+#### Long Site Wishlist
+
+* John Swentworth
+* Stuart Armstrong
+* Tetraspace
+* Romeo Stevens
+* Zack M. Davis
+* JhanicManifold
 -->
 
 Suggestions for Improvement

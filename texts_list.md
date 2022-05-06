@@ -30,7 +30,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Student Dysphoria, and a Previous Life's War (Mark Taylor Saotome-Westlake, 2022)](http://unremediatedgender.space/2022/Apr/student-dysphoria-and-a-previous-lifes-war/)
 * [Autogynephilia Should Be Recognized Openly (GPT-3, 2022)](http://unremediatedgender.space/2022/Apr/autogynephilia-should-be-recognized-openly/)
 * [Backlog Metablogging, April 2022 (Mark Saotome-Taylor Westlake, 2022)](http://unremediatedgender.space/2022/Apr/backlog-metablogging-april-2022/)
-* [* A (Long) Peek into Reinforcement Learning (Lilian Weng, 2020)](https://lilianweng.github.io/posts/2018-02-19-rl-overview/)
+* [A (Long) Peek into Reinforcement Learning (Lilian Weng, 2020)](https://lilianweng.github.io/posts/2018-02-19-rl-overview/)
 * [The Present Moment and Real Freedom (Kenneth Shinozuka, 2017)](https://blankhorizons.com/2017/09/24/the-present-moment-and-real-freedom/)
 * [The limits of the proposed 'behavioral immune system' (William Buckner, 2021)](https://traditionsofconflict.com/blog/2021/2/5/the-limits-of-the-proposed-behavioral-immune-system)
 * [Initiation Prelude [Fiction] (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/10/28/initiation-prelude-fiction)

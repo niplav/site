@@ -72,3 +72,16 @@ ax2.semilogy(pbpvals[2], pbpvals[0], '-', color='cyan', basey=10, linewidth=1, l
 ax2.legend(loc='upper right')
 
 plt.savefig("pvals_pb_plot.png")
+
+fig=plt.figure(figsize=(8,8))
+plt.xlabel("Range (days)")
+plt.ylabel("Accuracy (Brier score)")
+
+plt.plot(pbqbrier.T[0], pbqbrier.T[1], '.', color='blue', markersize=1)
+plt.plot(pbqbrier.T[0], pbqintercept+pbqslope*pbqbrier.T[0], 'blue', label='PredictionBook linear regression', linewidth=1)
+plt.plot(metqbrier.T[0], metqbrier.T[1], '.', color='red', markersize=2)
+plt.plot(pbqbrier.T[0], mqintercept+mqslope*pbqbrier.T[0], 'red', label='Metaculus linear regression', linewidth=1)
+
+plt.legend()
+
+plt.savefig("allq.png")
