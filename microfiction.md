@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-03-20, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-05-06, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __Very small pieces of fiction and things that are sufficiently like
 fiction.__
@@ -58,6 +58,21 @@ plumous penguins, priestess parks principles—priceless.
 
 > You can sit here and be okay, if you want.
 
+----
+
+> Now hips, a black hole to surround  
+No Riemann metric has yet traced  
+An old, a new decision is now made  
+A bow is drawn  
+a good one, as of yet  
+no fragmented escutcheon  
+from the old master's whirring feet  
+A pair of compasses would never  
+traverse the geodesic so  
+A “hi”, a “no”, a saddest look,
+relieved of possibility  
+Now have I fucking traumatized the bird‽
+
 ### German
 
 > Ein Wille wie Silizium, ein Auftreten wie Sand, ein Gemüt wie von
@@ -75,6 +90,23 @@ Licht durchschienenes Glas.
 
 > Nachts sind alle Katzen grau  
 Alle Schatten werden schlau
+
+----
+
+> Denn Vater Zeit, von nun, lässt uns  
+sein hellstes Beil erschimmern.
+
+----
+
+> Wo ist Norden?  
+Die Grenze aller Sehenden  
+Das letzt' Gedicht dran abgeprallt.
+
+----
+
+> Lachhaft verbunden  
+An einer Linie durch den Raum  
+geführt; —
 
 ### Other
 

@@ -8,6 +8,19 @@
 Changelog
 =========
 
+May 2022
+---------
+
+* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+	* Rewrote the code in Python 3
+	* [Non-Linear Curve-Fitting](./range_and_forecasting_accuracy.html#NonLinear-CurveFitting)
+		* [Fitting a Logistic Function](./range_and_forecasting_accuracy.html#Fitting-a-Logistic-Function)
+		* [Fitting an Exponential Function](./range_and_forecasting_accuracy.html#Fitting-an-Exponential)
+		* [This Is Cool](./range_and_forecasting_accuracy.html#This-Is-Cool)
+	* [Why Long-Range Questions More Accurate](./range_and_forecasting_accuracy.html#Why-Longer-Range-Questions-More-Accurate)
+* [Notes](./notes.html)
+	* [`scipy.optimize.curve_fit` Is Awesome](./notes.html#scipyoptimizecurvefit-Is-Awesome)
+
 April 2022
 -----------
 
