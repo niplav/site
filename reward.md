@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-04-14, modified: 2022-04-19, language: english, status: draft, importance: 4, confidence: emotional*
+*author: niplav, created: 2022-04-14, modified: 2022-05-07, language: english, status: draft, importance: 4, confidence: emotional*
 
 > __I critique a recent prize from the Effective Altruism movement for
 being misguided, offer some alternatives, and then proceed to discuss
@@ -410,6 +410,10 @@ Mourning the Death of the FAQ
 
 Twitter and Discord Are Bad, Mkay
 ----------------------------------
+
+Distinction between [selection
+vs. control](https://www.lesswrong.com/posts/ZDZmopKquzHYPRNxq) [outer
+loop](https://www.gwern.net/Backstop#internet-community-design)
 
 -->
 

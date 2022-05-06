@@ -1221,3 +1221,11 @@
 2022-05-05T22:41:46.000000Z	imagine the teeth-grinding if they give schmidhuber a turing award
 2022-05-06T07:12:58.000000Z	if we solve distributional shift, do we also solve ontological crises?
 2022-05-06T11:55:34.000000Z	https://arachnid.town/objects/797821f8-f885-41aa-afe1-a9d764a93b7d
+2022-05-06T20:50:59.000000Z	pseudoquasisemimetric
+2022-05-06T20:53:00.000000Z	to diversify its lingo, the rationality community should adopt the evidentials smṛti (“I read this in a blogpost”) and śruti (“someone told this to me in a one-on-one”).
+2022-05-06T20:53:21.000000Z	who has taken the train to crazytown the furthest? (and hasn't suffered from nervous breakdown in the process)
+2022-05-06T20:55:38.000000Z	humans have invented mathematics surprisingly early (while the status of the number zero was still being debated in ancient greece), and programming surprisingly late (although algorithms were around for a long time, they didn't catch on until later, even though they seem like an at least equally intuitive concept?)
+2022-05-06T20:56:41.000000Z	if there's one field ripe for huge progress by a large swath of theoretical physicists invading it, it's probably educational research.
+2022-05-06T20:58:05.000000Z	looking from afar, the quality of science there looks quite abysmal, while the field is very important (finding out how to make humans learn things better! come on!)
+2022-05-06T20:58:16.000000Z	but maybe i'm underestimating the research
+2022-05-06T21:36:10.000000Z	the answer to all questions is either: “Can you feel your toes right now?”, “Start a long site” or “Talk to more girls”.

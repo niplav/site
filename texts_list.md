@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-05-04, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-05-07, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,8 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* \* Meta-Q-Learning (Rasool Fakoor/Pratik Chaudhari/Stefano Soatto/Alexander Smola, 2020)
+* [How to be skeptical about meditation/Buddhism (Viliam, 2022)](https://www.lesswrong.com/posts/XqpkCAHrtwBfLSSzk/how-to-be-skeptical-about-meditation-buddhism)
 * [How To Talk To Girls At Parties (Neil Gaiman, 2007)](https://www.neilgaiman.com/Cool_Stuff/Short_Stories/How_To_Talk_To_Girls_At_Parties/How_To_Talk_To_Girls_At_Parties_(Text))
 * [Every Bay Area House Party (Scott Alexander, 2022)](https://astralcodexten.substack.com/p/every-bay-area-house-party?s=r)
 * [TensorFlow 2 quickstart for beginners (Tensorflow developers, 2022)](https://www.tensorflow.org/tutorials/quickstart/beginner)
@@ -272,7 +274,7 @@ ind.com/blog/we-are-very-excited-to-announce-the-launch-of-deepmind-health)
 * Die Kindesmörderin (Friedrich Schiller, 1805)
 * \* Population Genetics (John H. Gillespie, 2004)
 * Über die Natur von Wahrheit und Falschheit (Bertrand Russell, 1910)
-* \* Mastering the Core Teachings of the Buddha (Daniel M. Ingram, 2018)
+* Mastering the Core Teachings of the Buddha (Daniel M. Ingram, 2018)
 * The Game (Neil Strauss, 2005)
 * [Heterotic string theory (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Heterotic_string_theory)
 * [Unbeatable strategy (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Unbeatable_strategy)

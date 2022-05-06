@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2022-05-05, language: english, status: maintenance, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2022-05-06, language: english, status: maintenance, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in
 relation to the time between forecast and resolution, and
@@ -101,8 +101,10 @@ forecasting websites [PredictionBook](https://predictionbook.com) and
 I am not aware of large-scale datasets with resolved long-range forecasts.
 
 To find out about the range of forecasts, I download, parse & analyse
-forecasting data from these sites using Python, and then analyze the
-data using [Klong](http://t3x.org/klong/index.html).
+forecasting data from these sites, and then analyze the data with [Python
+3](https://en.wikipedia.org/wiki/Python_\(programming_language\)), using
+[NumPy](https://numpy.org/), [SciPy](https://scipy.org/scipylib/) and
+[Matplotlib](https://matplotlib.org/).
 
 <!--
 Make a point here that making forecasts is one of the best existing
@@ -680,6 +682,8 @@ have resolved yet).
 
 #### Non-Linear Curve-Fitting
 
+<!--TODO: MSE of the fits-->
+
 Using a linear regression on the Brier score here, however, carries
 with it a deep issue: Unless the slope is 0, the linear regression will
 be below 0 or above 1 for some positive range—so one can't use it to
@@ -788,12 +792,12 @@ case) 0.125):
 
 Here, the slopes are much steeper than in the more restricted case about.
 
-##### Fitting an Exponential
+##### Fitting an Exponential Function
 
 Another function we could fit to the data might be of the form
 `$\frac{a \cdot b^x -a}{-4a}$`, with some `$a<0$` and `$b \in (0, 1)$` (the
 function is decaying exponentially, but flipped so that it approaches 0,
-and then we add 0.25 to that).
+and then we scale it so that it always converges toward 0.25).
 
 We can guarantee this function to fulfill all three desiderata:
 
@@ -1653,9 +1657,18 @@ Miscellaneous
 -------------
 
 The code for image generation can be found
-[here](./code/range_and_forecasting_accuracy/draw_all.kg),
+[here](./code/range_and_forecasting_accuracy/draw_all.py),
 the complete code for analyzing the data can be found
-[here](./code/range_and_forecasting_accuracy/load.kg).
+[here](./code/range_and_forecasting_accuracy/load.py).
+
+The code for previous versions was written in
+[Klong](http://t3x.org/klong/index.html), but abandoned for reasons
+concerning performance & replicability. The previous code for analysis
+can be found [here](./code/range_and_forecasting_accuracy/load.kg),
+the previous code for image generation can be found
+[here](./code/range_and_forecasting_accuracy/draw_all.kg) (in some
+ways the previous code was much nicer, especially when calculating
+`metquestions`).
 
 Discussions
 -----------
