@@ -116,12 +116,15 @@ metlogifit_betweenq=spo.curve_fit(shrunk_logistic, metqbrier.T[0], metqbrier.T[1
 pbexpfit_betweenq=spo.curve_fit(shift_exp, pbqbrier.T[0], pbqbrier.T[1], bounds=([-np.inf, 0], [0, 1]))
 metexpfit_betweenq=spo.curve_fit(shift_exp, metqbrier.T[0], metqbrier.T[1], bounds=([-np.inf, 0], [0, 1]))
 
-awmetqslope=np.mean(list(map(lambda x: x[0], wmetqregs)))
-awmetqintercept=np.mean(list(map(lambda x: x[1], wmetqregs)))
-awpbqslope=np.mean(list(map(lambda x: x[0], wpbqregs)))
-awpbqintercept=np.mean(list(map(lambda x: x[1], wpbqregs)))
+clean_metforecasts=np.sum([len(wmetqbrier[i][0]) for i in range(0, len(wmetqbrier))])
+awmetqslope=np.sum([len(wmetqbrier[i][0])*wmetqregs[i][0] for i in range(0, len(wmetqregs))])/clean_metforecasts
+awmetqintercept=np.sum([len(wmetqbrier[i][0])*wmetqregs[i][1] for i in range(0, len(wmetqregs))])/clean_metforecasts
+clean_pbforecasts=np.sum([len(wpbqbrier[i][0]) for i in range(0, len(wpbqbrier))])
+awpbqslope=np.sum([len(wpbqbrier[i][0])*wpbqregs[i][0] for i in range(0, len(wpbqregs))])/clean_pbforecasts
+awpbqintercept=np.sum([len(wpbqbrier[i][0])*wpbqregs[i][1] for i in range(0, len(wpbqregs))])/clean_pbforecasts
 
 fwpbqbrier=list(filter(lambda x: len(x[0])>=10, wpbqbrier))
 fwpbqregs=list(map(lambda x: sps.linregress(x[0], x[1]), fwpbqbrier))
-fawpbqslope=np.mean(list(map(lambda x: x[0], fwpbqregs)))
-fawpbqintercept=np.mean(list(map(lambda x: x[1], fwpbqregs)))
+clean_fpbforecasts=np.sum([len(fwpbqbrier[i][0]) for i in range(0, len(fwpbqbrier))])
+fawpbqslope=np.sum([len(fwpbqbrier[i][0])*fwpbqregs[i][0] for i in range(0, len(fwpbqregs))])/clean_fpbforecasts
+fawpbqintercept=np.sum([len(fwpbqbrier[i][0])*fwpbqregs[i][1] for i in range(0, len(fwpbqregs))])/clean_fpbforecasts

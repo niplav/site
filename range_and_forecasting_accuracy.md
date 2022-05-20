@@ -15,7 +15,6 @@ out to be yes, unclear and yes for Metaculus data; and no, no and yes
 for PredictionBook data. Possible reasons are discussed.__
 
 <!--TODO: fix instances of \* \*-->
-<!--TODO: fix predictionbook & metaculus capitalization-->
 
 Range and Forecasting Accuracy
 ===============================
@@ -231,17 +230,17 @@ The Metaculus data is relatively easy to obtain:
 The forecasts are available on a JSON API at
 `https://www.metaculus.com/api2/questions/?page=`. Fortunately,
 [gimpf](https://github.com/gimpf/) has already published [a collection of
-scripts](https://github.com/gimpf/metaculus-question-stats) for fetching &
+scripts](https://github.com/gimpf/Metaculus-question-stats) for fetching &
 analysing Metaculus data. I reused their script `fetch` to download the
 raw JSON. I then converted the distinct page objects in the generated
 file to a list of questions:
 
 	$ cd /usr/local/src
-	$ git clone https://github.com/gimpf/metaculus-question-stats
-	$ cd metaculus-question-stats
+	$ git clone https://github.com/gimpf/Metaculus-question-stats
+	$ cd Metaculus-question-stats
 	$ ./fetch
 	$ z site
-	$ jq -s '[.]|flatten' </usr/local/src/metaculus/data-questions-raw.json >data/metaculus.json
+	$ jq -s '[.]|flatten' </usr/local/src/Metaculus/data-questions-raw.json >data/metaculus.json
 
 I then wrote a python script to convert the JSON data to CSV in the form
 `id,questionrange,result,probability,range`, while also filtering out
@@ -425,8 +424,8 @@ We have four predictions:
 
 1. One with a range of 14 hours, a probability of 0.1 (Heloïse's prediction on 1), and a resolution of 0
 2. One with a range of 24 hours, a probability of 0.3, (Bessie's prediction on 1) and a resolution of 0
-3. One with a range of `$24h/d*7d-10h=158h$`, a probability of 0.6 (Heloïse's prediction on 2), and a resolution 0
-4. One with a range of `$24h/d*7d=168h$`, a probability of 0.95 (Bessie's prediction on 2), and a resolution 0
+3. One with a range of `$24h/d \cdot 7d-10h=158h$`, a probability of 0.6 (Heloïse's prediction on 2), and a resolution 0
+4. One with a range of `$24h/d \cdot 7d=168h$`, a probability of 0.95 (Bessie's prediction on 2), and a resolution 0
 
 The Brier scores for ranges are then 0.01 for 14h, 0.09 for 24h, 0.36
 for 158h, and 0.9025 for 168h. Here, higher range between forecasts is
@@ -712,6 +711,8 @@ I furthermore make some additional assumptions/desiderata about the the function
 The logistic function seems like an optimal candidate here: it fulfills
 at least desideratum 1 (if shrunk) and 3, and with some fiddling may
 even satisfy 2.
+
+<!--TODO: link Armstrong on the problem of fitting sigmoids here!-->
 
 Because this is very different from a [logistic
 regression](https://en.wikipedia.org/wiki/Logistic_regression) (scaled
@@ -1045,7 +1046,7 @@ years for PredictionBook is sizable by internet standards, it's not that
 much compared to the expected range of some predictions on the platform,
 which might go into the thousands of years).
 
-This can be seen in the data as well: The median range of metaculus and
+This can be seen in the data as well: The median range of Metaculus and
 PredictionBook predictions is only a couple of months, and less than 25%
 of questions have a range of more than one year:
 
@@ -1341,7 +1342,7 @@ questions is too small to explain the whole anomaly between forecasts.
 
 #### Non-Linear Curve-Fitting
 
-Again, one can fit the nonlinear exponential/sigmoid defined
+Again, one can fit the nonlinear exponential/logistic function defined
 [above](#NonLinear-CurveFitting) to the data between questions.
 
 	>>> pbexpfit_betweenq=spo.curve_fit(shift_exp, pbqbrier.T[0], pbqbrier.T[1], bounds=([-np.inf, 0], [0, 1]))
@@ -1434,8 +1435,6 @@ functions, and
 
 similarly short timespans for the exponential fit.
 
-<!--TODO: find 0.24 Brier time horizon here as well-->
-
 #### Why Longer Range Questions More Accurate?
 
 The big question now is: Why do forecasts on predictions on questions
@@ -1491,6 +1490,9 @@ within questions; are forecasts made on the same question later generally
 more accurate than forecasts made on a question earlier?
 
 ### Analysis
+
+<!--TODO: how about excluding regressions that have a p-value below a
+certain cutoff-value?-->
 
 In order to do this, one can compute the Brier score for each prediction,
 and then perform one linear regression/compute the correlation per
@@ -1554,11 +1556,12 @@ at the exact same second, which confuses the linear regression algorithm:
 	>>> list(filter(lambda x: x[0][0]==x[0][1] and len(x[0]==2) and x[1][0]==x[1][1] and len(x[1])==2, wpbqbrier))
 	[[array([367.09616898, 367.09616898]), array([0.2025, 0.2025])], [array([367.09637731, 367.09637731]), array([0.2025, 0.2025])], [array([367.09899306, 367.09899306]), array([0.0225, 0.0225])], [array([367.09908565, 367.09908565]), array([0.25, 0.25])], [array([367.09936343, 367.09936343]), array([0.16, 0.16])], [array([367.10018519, 367.10018519]), array([0.0225, 0.0225])], [array([0.25236111, 0.25236111]), array([0.0025, 0.0025])], [array([0.36797454, 0.36797454]), array([0.25, 0.25])], [array([0.25259259, 0.25259259]), array([0.0625, 0.0625])], [array([0.36671296, 0.36671296]), array([0.04, 0.04])], [array([0.40542824, 0.40542824]), array([0.09, 0.09])]]
 
-However, they can be filtered out pretty easily:
+However, they can be filtered out pretty easily, and we recompute `wpbqregs`:
 
 	>>> wpbqbrier=list(filter(lambda x: not (x[0][0]==x[0][1] and len(x[0]==2) and x[1][0]==x[1][1] and len(x[1])==2), wpbqbrier))
 	>>> len(wpbqbrier)
 	7596
+	>>> wpbqregs=list(map(lambda x: sps.linregress(x[0], x[1]), wpbqbrier))
 
 ### Result
 
@@ -1610,26 +1613,32 @@ lower accuracy).
 
 #### Aggregating Linear Regressions
 
-<!--TODO: this is not weighted!-->
-
 We can test whether this suspicion is acually correct by calculating
-the average offset and the average ascension—if the ascension is
-positive, our suspicion is confirmed. We have to weight questions by how
-many predictions they have received, otherwise the result is skewed by
-questions with very few predictions. This is done by computing the linear
-regression for range/accuracy for each question, multiplying it by the
-number of predictions on that question, adding up the linear regressions,
-and then dividing the result by the total number of predictions in
-the dataset:
+the average offset and the average ascension—if the ascension
+is positive, our suspicion is confirmed. We have to weight
+questions by how many predictions they have received, otherwise
+the result is skewed by questions with very few predictions (if
+you're trying to find out whether, in basketball, making more [free
+throws](https://en.wikipedia.org/wiki/Free_throw) makes you better at it,
+you'd also want to more strongly weight data from players with a larger
+number of shots).
 
-	>>> awmetqslope=np.mean(list(map(lambda x: x[0], wmetqregs)))
-	0.002971747318680323
-	>>> awmetqintercept=np.mean(list(map(lambda x: x[1], wmetqregs)))
-	0.03758132228574967
-	>>> awpbqslope=np.mean(list(map(lambda x: x[0], wpbqregs)))
-	3.1082381364053284
-	>>> awpbqintercept=np.mean(list(map(lambda x: x[1], wpbqregs)))
-	-238.96304759632133
+This is done by computing the linear regression for range/accuracy for
+each question (we did that with `w{met,pb}qregs`), multiplying it by the
+number of predictions on that question, adding up the linear regressions,
+and then dividing the result by the total number of predictions in the
+dataset (`clean_{met,pb}forecasts`):
+
+	>>> clean_metforecasts=np.sum([len(wmetqbrier[i][0]) for i in range(0, len(wmetqbrier))])
+	>>> awmetqslope=np.sum([len(wmetqbrier[i][0])*wmetqregs[i][0] for i in range(0, len(wmetqregs))])/clean_metforecasts
+	0.003048078896358434
+	>>> awmetqintercept=np.sum([len(wmetqbrier[i][0])*wmetqregs[i][1] for i in range(0, len(wmetqregs))])/clean_metforecasts
+	0.0388493550172143
+	>>> clean_pbforecasts=np.sum([len(wpbqbrier[i][0]) for i in range(0, len(wpbqbrier))])
+	>>> awpbqslope=np.sum([len(wpbqbrier[i][0])*wpbqregs[i][0] for i in range(0, len(wpbqregs))])/clean_pbforecasts
+	1.3731897568280482
+	>>> awpbqintercept=np.sum([len(wpbqbrier[i][0])*wpbqregs[i][1] for i in range(0, len(wpbqregs))])/clean_pbforecasts
+	-98.59072648628822
 
 The PredictionBook data—how do I put this—simply makes no sense.
 I am pretty confident that this code *is* correct, but I think that
@@ -1639,18 +1648,18 @@ arbitrarily exclude questions with less than ten predictions (actually
 an arbitrary choice I did not iterate over to get a “desired” result):
 
 	>>> fwpbqbrier=list(filter(lambda x: len(x[0])>=10, wpbqbrier))
-	>>> len(wpbqbrier)
+	>>> len(fwpbqbrier)
 	849
 	>>> # Recomputing linear regressions
+	>>> clean_fpbforecasts=np.sum([len(fwpbqbrier[i][0]) for i in range(0, len(fwpbqbrier))])
+	12865
 	>>> fwpbqregs=list(map(lambda x: sps.linregress(x[0], x[1]), fwpbqbrier))
-	>>> fawpbqslope=np.mean(list(map(lambda x: x[0], fwpbqregs)))
-	0.0028231736497672296
-	>>> fawpbqintercept=np.mean(list(map(lambda x: x[1], fwpbqregs)))
-	-0.04200041870396879
+	>>> fawpbqslope=np.sum([len(fwpbqbrier[i][0])*fwpbqregs[i][0] for i in range(0, len(fwpbqregs))])/clean_fpbforecasts
+	0.0024623252612491924
+	>>> fawpbqintercept=np.sum([len(fwpbqbrier[i][0])*fwpbqregs[i][1] for i in range(0, len(fwpbqregs))])/clean_fpbforecasts
+	0.00030707364984746446
 
-This looks much better (except the fact that, at time of resolution,
-this linear regression predicts that the Brier score will be negative,
-which is impossible).
+This looks much better.
 
 So it is true that accuracy within question *generally* is higher
 with lower range for Metaculus data, and similar for PredictionBook
@@ -1663,7 +1672,7 @@ data. Everything else would have been surprising.
 	plt.ylabel("Accuracy (Brier score)")
 
 	plt.plot(pbrngs, awmetqintercept+awmetqslope*pbrngs, 'red', label='Metaculus aggregate linear regression', linewidth=1)
-	plt.plot(pbrngs, awpbqintercept+awpbqslope*pbrngs, 'blue', label='PredictionBook aggregate linear regression', linewidth=1)
+	plt.plot(pbrngs, fawpbqintercept+fawpbqslope*pbrngs, 'blue', label='PredictionBook aggregate linear regression', linewidth=1)
 
 	plt.legend()
 
@@ -1695,6 +1704,8 @@ more than 1 unique prediction in the PredictionBook dataset:
 	557
 	>>> len(wpbqbrier)
 	7596
+
+<!--TODO: histograms!-->
 
 Let's first create sorted lists containing the numbers of forecasts on
 each question:
