@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-05-03, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-05-07, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -33,6 +33,7 @@ Site
 	* Add tags for chapters/sort by chapters
 	* Prune flagged cards?
 * Add content tables to pages?
+* Maybe a dark mode?
 * Add RSS feed (ugh)
 	* `https://www.interglacial.com/tpj/26/`
 	* `https://github.com/html2rss/html2rss`
@@ -119,6 +120,7 @@ Existing Texts
 			* Expand the section on the Guesstimate model
 	* Incorporate updated Metaculus probabilities
 	* Make interactive calculator
+	* Add net-present value
 * Abstinence from Masturbation and Success from Cold Approach
 	* Test
 		* This is a likert scale, so read that Wikipedia article first
@@ -151,10 +153,6 @@ Existing Texts
 
 Texts
 -----
-
-### Factposts
-
-* `scipy.optimize.curve_fit` exists
 
 ### Forecasting
 
@@ -295,6 +293,7 @@ Texts
 	* AI safety via debate (Geoffrey Irving/Paul Christiano/Dario Amodei, 2018) test debate on an MNIST classifier with depths 4 and 6, what are the scaling laws for the depth and size of models?
 * Import reddit post about nuclear & ai worries
 * Overlapping Concerns for AI X-Risk and the Social Left
+* Scaling Laws Under Different Activation Functions
 
 ### Pick Up
 
@@ -342,9 +341,22 @@ Texts
 		a day (concentration on the breath), sampling once
 		every 4 days, always in the evening (half placebo,
 		half non-placebo).
-	* L-Theanine, Caffeine, Nicotine, Modafinil, LSD Microdosing
-	* Combinations: L-Theanine + Caffeine
-* Brain Stimulation as Meditation Enhancement
+	* Substances:
+		* L-Theanine
+			* [Examine summary](https://examine.com/supplements/theanine/), [research](https://examine.com/supplements/theanine/research/)
+		* Caffeine
+			* [Examine summary](https://examine.com/supplements/caffeine/), [research](https://examine.com/supplements/caffeine/research/)
+		* Nicotine
+			* [Examine summary](https://examine.com/supplements/nicotine/), [research](https://examine.com/supplements/nicotine/)
+		* Modafinil
+			* [Examine summary](https://examine.com/supplements/adrafinil/), [research](https://examine.com/supplements/adrafinil/research/) (here for Adrafinil, the Modafinil page isn't reachable?
+		* Adderall
+		* LSD Microdosing
+		* Combinations: L-Theanine + Caffeine
+* Brain Stimulation for Meditation Enhancement
+	* Ultrasound
+	* Magnetic stimulation
+	* Electrical stimulation
 * 52 Weeks of Meditation Techniques
 	* Concentration of the Breath
 	* Concentration on Sound
@@ -438,6 +450,8 @@ Texts
 * Some Epistemic Warning Signs in the Effective Altruism and Rationality Communities
 	* People are Friends
 	* People Date Each Other
+		* Why a norm against this would be good
+			* Opportunity to display a costly signal of deep belief in EA principles (cf Geeks, MOPs and Psychopaths & A Tale of Marriage Among the Gebusi)
 	* Very Few People have Public Epistemic Track Records
 	* Hot Messes
 		* Leverage
@@ -450,6 +464,23 @@ Texts
 	* Option Value
 	* The Is-Ought Distinction
 * The C Standard Library is Bad
+* In The Dark Forest, Peace is Brittle And Hiding Is Easy
+	* Eternity in Six Hours and unstable Nash equilibria make the dark forest hypothesis unlikely
+* Creating Positives versus Removing Negatives
+	* Examples:
+		* Epistemics: Removing Disinformation versus Writing Wikipedia Pages on Causal Inference
+		* Climate Change: Protesting to Institute Carbon Taxes versus Doing a PhD on Plasma Physics for Fusion
+		* Blockchain: Regulating Blockchain versus Trying to Find Pro-Social Uses of Blockchain (can proof-of-work be used to solve NP-hard problems from industry? If not, maybe it can be used to fixate CO₂ from the atmosphere? What about experiments for governance via DAOs?)
+		* AI Alignment: Convincing AI capabilities researchers to stop working versus running experiments on alignment via debate
+		* Economics: Reducing inequality versus supporting policy for economic growth (or funding a company)
+		* Factory farming
+		* General: Outlawing/regulating the Thing versus working on Thing safety
+	* Left-long tails (removing negatives), right-long tails (creating positives), and symmetrically long tails (both are important)
+	* Psychologically
+		* Removing negatives probably coincides with Health/Purity
+		* Removing negatives is more zero-sum, adding positives is more positive-sum (people in a negative-sum mindset don't really try to improve anything, I think)
+	* Distinction between removing negatives/adding positives in method and in topic selection ("How can I solve this thing?" versus "What should I focus on?") (see negative versus positive utilitarianism)
+	* See also upwing versus downwing (hat-tip John David Pressman)
 * Why Not Prepping?
 
 > [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
@@ -641,6 +672,8 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Test computationally whether causal networks have more correlations or causations, project from [here](https://www.gwern.net/Causality#what-a-tangled-net-we-weave-when-first-we-practice-to-believe)
 * Which percentage of random normal-form games are potential games?
 * Double Blind Self-Experiment with Wellbutrin
+* Find Polygenic scores for subjective well-being and run them through Gwerns Embryo Selection Analysis
+	* See [this section](https://www.gwern.net/Embryo-selection#multiple-selection-on-independent-traits)
 
 ### Ideas
 
@@ -744,6 +777,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Hat-grab at John David Pressman
 * EA Cause Area Idea: Buy 0-day exploits and inform the companies
 * European vs. American Intervention Intuitions
+* fMRI scans for enhancing brain preservation through cryonics
 
 ### Collections
 
@@ -848,6 +882,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Much More Than You Wanted to Know
 	* Vandwelling
 	* UBI
+		* `https://www.givedirectly.org/basic-income/`
 	* Climate Change Impacts
 	* Shipping
 	* The Uyghurs and China
@@ -1612,6 +1647,7 @@ Wikipedia Articles
 * On Wikipedia page for Graph Kernel, correct "Leman" to "Lehman" (first, check whether this is actually wrong).
 * Find Ian Goodfellow's true year of birth
 * Add missing national anthems to `https://en.wikipedia.org/wiki/List_of_national_anthems`
+* Danging link in second paragraph of Salutogenesis
 
 Answers
 --------

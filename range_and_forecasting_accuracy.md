@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2022-05-06, language: english, status: maintenance, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2022-05-20, language: english, status: maintenance, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in
 relation to the time between forecast and resolution, and
@@ -794,6 +794,8 @@ Here, the slopes are much steeper than in the more restricted case about.
 
 ##### Fitting an Exponential Function
 
+<!--TODO: a is actually unnecessary, cut it out-->
+
 Another function we could fit to the data might be of the form
 `$\frac{a \cdot b^x -a}{-4a}$`, with some `$a<0$` and `$b \in (0, 1)$` (the
 function is decaying exponentially, but flipped so that it approaches 0,
@@ -814,7 +816,7 @@ and
 	0.25$$
 </div>
 
-and (for `$e \ge 0$`)
+and (for `$ε \ge 0$`)
 
 <div>
 	$$ \frac{a \cdot b^x - a}{-4a} \le \frac{a \cdot b^{x+ε} - a}{-4a} \Leftrightarrow\\
@@ -853,12 +855,48 @@ but `curve_fit` doesn't know how to count that low<!--TODO: link-->?
 
 I believe that these findings are pretty cool: They give some
 sense of how long the range of forecasts needs to be for them to be
-approximately random (when taking the logistic fit, PredictionBook
-users have a much longer time horizon than Metaculus forecasters,
-with a "forecasting horizon" of ~20 years
-(`shrunk_logistic(20*365, pblogifit[0][0], pblogifit[0][1])==0.24263313678358955`)
-versus the Metaculus "forecasting horizon" of less than 5 years
-(`shrunk_logistic(5*365, metlogifit[0][0], metlogifit[0][1])==0.2467508824532725`).
+approximately random.
+
+We can do this by finding out at what point our function first
+predicts Brier scores sufficiently close to 0.25, let's take 0.24 as an
+arbitrary cutoff (which would be, on average, assigning a probability of
+`$1-\sqrt{0.24} \approx 0.51$` to events that take place).
+
+Then, for the squashed logistic function, we have to find the `$x$` so that
+
+<div>
+	$$0.24=0.25 \cdot \frac{1}{1+\exp(s \cdot x + i)} \Leftrightarrow \\
+	\frac{1}{0.96}-1=\exp(s \cdot x +i) \Leftrightarrow \\
+	\frac{\ln(\frac{1}{0.96}-1)-i}{s}=x$$
+</div>
+
+Then, the logistic-ish forecasting horizon gives
+
+	>>> (np.log(1/(0.96)-1)-metlogifit[0][1])/metlogifit[0][0]
+	1339.4812558296296
+	>>> (np.log(1/(0.96)-1)-pblogifit[0][1])/pblogifit[0][0]
+	6638.833618277785
+
+which is ~3.6 years for Metaculus, and ~18 years for PredictionBook.
+
+With the exponential fit, we know that
+
+<div>
+	$$0.24=\frac{a \cdot b^x -a}{-4a} \Leftrightarrow \\
+	-0.96a=a \cdot b^x -a \Leftrightarrow \\
+	-0.96+1=b^x \Leftrightarrow \\
+	\log_b(0.04)=x$$
+</div>
+
+That gives
+
+	>>> np.log(0.04)/np.log(metexpfit[0][1])
+	74.80978286870999
+	>>> np.log(0.04)/np.log(pbexpfit[0][1])
+	0.06282811825117969
+
+less than a day for the PredictionBook predictive horizon, and ~75 days
+for the Metaculus predictive horizon.
 
 Of course, don't believe these numbers too much: The difference in dataset
 range is probably causing a lot of the difference in fit, the exponential
@@ -953,13 +991,22 @@ It is best explained visually:
 
 ![Simpson's paradox, taken from Wikipedia](./img/range_and_forecasting_accuracy/simpsons_paradox.gif "An animated gif of a plot. In the plot there is a set of points in a grid. The set of points is elongated, from the top-left corner to the bottom-right corner. It can be clearly separated into five subsets. Each subset is elongated from the bottom-left corner to the top-right corner. The animation first shows one line going from top-left to bottom-right, through the whole set of points, and then highlights the five subsets, while also showing five lines, each going through the subsets from the bottom-left to the top-right corner.")
 
-It might be the case that this analysis has come up against an instance
-of Simpson's paradox: The accuracy of forecasts is negatively correlated
-with range within the same question, but the accuracy of forecasts is
-positively correlated with range across questions (because the kinds
-of questions with longer time horizons generally allow more accurate
-forecasts). Unfortunately, whether Simpson's paradox applies or not can
-not always be easily judged from the scatterplot of datapoints.
+It might be the case that this analysis for PredictionBook data has come
+up against an instance of Simpson's paradox: The accuracy of forecasts
+is negatively correlated with range within the same question, but the
+accuracy of forecasts is positively correlated with range across questions
+(because the kinds of questions with longer time horizons generally allow
+more accurate forecasts). Unfortunately, whether Simpson's paradox applies
+or not can not always be easily judged from the scatterplot of datapoints.
+
+However, [below](#Results_2) I check the correlation of range and
+forecast accuracy between questions, and find that they are negatively
+correlated, and furthermore find that they are *positively* [related
+within questions](#Aggregating-Linear-Regressions), which strongly
+indicates that the effect probably comes from questions with a long
+range receiving more accurate predictions (in the PredictionBook dataset).
+
+<!--TODO: scatterplot for forecasts for Predictionbook, different forecasts have different colors-->
 
 #### Low Sample Sizes With High Ranges
 
@@ -1292,7 +1339,104 @@ range between forecasts, but I don't know enough statistics to tease these
 out exactly. My intuition tells me that the effect on accuracy between
 questions is too small to explain the whole anomaly between forecasts.
 
-### Why Longer Range Questions More Accurate?
+#### Non-Linear Curve-Fitting
+
+Again, one can fit the nonlinear exponential/sigmoid defined
+[above](#NonLinear-CurveFitting) to the data between questions.
+
+	>>> pbexpfit_betweenq=spo.curve_fit(shift_exp, pbqbrier.T[0], pbqbrier.T[1], bounds=([-np.inf, 0], [0, 1]))
+	(array([-7.83836830e+01,  8.80395221e-43]), array([[ 2.99366051e-56, -2.50531486e-37],
+		[-2.50531486e-37,  2.09663137e-18]]))
+	>>> metexpfit_betweenq=spo.curve_fit(shift_exp, metqbrier.T[0], metqbrier.T[1], bounds=([-np.inf, 0], [0, 1]))
+	(array([-4.90977425,  0.70814538]), array([[1.90504403e+15, 2.14231440e+05],
+		[2.14231440e+05, 1.39168387e-02]]))
+	>>> pblogifit_betweenq=spo.curve_fit(shrunk_logistic, pbqbrier.T[0], pbqbrier.T[1], bounds=([-np.inf, 0], [0, np.inf]))
+	(array([-2.70329933e+00,  5.32716622e-52]), array([[ 0.16764075, -0.01981014],
+		[-0.01981014,  0.00898443]]))
+	>>> metlogifit_betweenq=spo.curve_fit(shrunk_logistic, metqbrier.T[0], metqbrier.T[1], bounds=([-np.inf, 0], [0, np.inf]))
+	(array([-7.92206883, 33.48197   ]), array([[ 199420.41507448, -811407.37948018],
+		[-811407.37948018, 3301492.9741521 ]]))
+
+But these numbers don't tell us much by themselves, do they become
+clearer when plotted?
+
+	fig=plt.figure(figsize=(8,8))
+
+	plt.title("Scatterplot with logistic-ish regression for Metaculus & PredictionBook forecasts by range")
+	plt.xlabel("Range (days)")
+	plt.ylabel("Accuracy (Brier score)")
+
+	fullrng=np.array(range(0, round(max(pbrngs))+1))
+
+	plt.plot(pbqbrier.T[0], pbqbrier.T[1], '.', color='blue', markersize=1)
+	plt.plot(metqbrier.T[0], metqbrier.T[1], '.', color='red', markersize=1)
+	plt.plot(fullrng, shrunk_logistic(fullrng, metlogifit_betweenq[0][0], metlogifit_betweenq[0][1]), 'red', label='Metaculus shrunk logistic-ish regression', linewidth=2)
+	plt.plot(fullrng, shrunk_logistic(fullrng, pblogifit_betweenq[0][0], pblogifit_betweenq[0][1]), 'blue', label='PredictionBook shrunk logistic-ish regression', linewidth=2)
+
+	plt.legend()
+
+	plt.savefig("allq_logi.png")
+
+	fig=plt.figure(figsize=(8,8))
+
+![Scatterplot with logistic regression for Metaculus & PredictionBook question accuracy by range](./img/range_and_forecasting_accuracy/allq_logi.png "Scatterplot with logistic regression for Metaculus & PredictionBook question accuracy by range")
+
+	fig=plt.figure(figsize=(8,8))
+
+	plt.title("Scatterplot with exponential-ish regression for Metaculus & PredictionBook forecasts by range")
+	plt.xlabel("Range (days)")
+	plt.ylabel("Accuracy (Brier score)")
+
+	fullrng=np.array(range(0, round(max(pbrngs))+1))
+
+	plt.plot(pbqbrier.T[0], pbqbrier.T[1], '.', color='blue', markersize=1)
+	plt.plot(metqbrier.T[0], metqbrier.T[1], '.', color='red', markersize=1)
+	plt.plot(fullrng, shift_exp(fullrng, metexpfit_betweenq[0][0], metexpfit_betweenq[0][1]), 'red', label='Metaculus shrunk exponential-ish regression', linewidth=2)
+	plt.plot(fullrng, shift_exp(fullrng, pbexpfit_betweenq[0][0], pbexpfit_betweenq[0][1]), 'blue', label='PredictionBook shrunk exponential-ish regression', linewidth=2)
+
+	plt.legend()
+
+	plt.savefig("allq_exp.png")
+
+![Scatterplot with exponential-ish regression for Metaculus & PredictionBook question accuracy by range](./img/range_and_forecasting_accuracy/allq_exp.png "Scatterplot with exponential-ish regression for Metaculus & PredictionBook question accuracy by range")
+
+Not—quite?
+
+(The Metaculus regression is not visibile because it lies *just* under
+the PredictionBook regression, the short red line in the logistic plot
+is the Metaculus regression that starts at 0, while the PredictionBook
+regression starts at 0.125).
+
+Basically, the regressions here conclude that the best is that
+predictions on questions with any time horizons longer than a couple of
+days are indistinguishable from randomness, given the assumptions made
+[here](#NonLinear-CurveFitting).
+
+This *actually makes sense*: We observe that the correlation between
+range and accuracy is positive, so the best curve that fits the data
+under the assumption of falling accuracy with higher range will conclude
+that we're immediately in a domain with uniform randomness.
+
+The predictive horizons here are
+
+	>>> (np.log(1/(0.96)-1)-metlogifit_betweenq[0][1])/metlogifit_betweenq[0][0]
+	4.627582089426849
+	>>> (np.log(1/(0.96)-1)-pblogifit_betweenq[0][1])/pblogifit_betweenq[0][0]
+	1.1756203958314926
+
+~4.5 days for Metaculus, and around a day for PredictionBook with logistic
+functions, and
+
+	>>> np.log(0.04)/np.log(metexpfit_betweenq[0][1])
+	9.327212826230811
+	>>> np.log(0.04)/np.log(pbexpfit_betweenq[0][1])
+	0.03324050159246278
+
+similarly short timespans for the exponential fit.
+
+<!--TODO: find 0.24 Brier time horizon here as well-->
+
+#### Why Longer Range Questions More Accurate?
 
 The big question now is: Why do forecasts on predictions on questions
 with a higher range generally receive better Brier scores?
@@ -1318,6 +1462,16 @@ such categorization system exists for PredictionBook, one *might* try to
 analyze the titles of the questions, but it doesn't seem worth the effort.
 
 <!--TODO: maybe implement the analysis described above?-->
+
+#### This Partially Explains the Result Between Forecasts
+
+For PredictionBook data, this explains why range and forecast
+accuracy were negatively correlated between forecasts:
+the negative correlation between range and accuracy between
+questions [confounds](https://en.wikipedia.org/wiki/Confounding) the
+relationship. We can test whether this is true by looking at the relation
+of range and accuracy within questions, where two forecasts at the same
+time are in some sense "equally difficult".
 
 Accuracy Within Questions
 -------------------------
@@ -1349,9 +1503,6 @@ We can create a list of the form `[[[brier_scores],[ranges]]*]`:
 
 	wmetqbrier=[[i[4], (i[3]-i[2])**2] for i in metquestions]
 	wpbqbrier=[[i[4], (i[3]-i[2])**2] for i in pbquestions]
-
-	wmetqbrier::{(,x@4),,((x@2)-x@3)^2}'metquestions
-	wpbqbrier::{(,x@4),,((x@2)-x@3)^2}'pbquestions
 
 Since `lreg` can't deal with datasets of size 1, we have to filter
 those out of the dataset (the Metaculus dataset doesn't contain these,
@@ -1456,6 +1607,10 @@ Although the plots are kind of cool to look at, I'm not really sure what
 they can tell us. My *guess* would be that it somewhat shows a trend
 with higher ranges responding to higher Brier scores (and therefore
 lower accuracy).
+
+#### Aggregating Linear Regressions
+
+<!--TODO: this is not weighted!-->
 
 We can test whether this suspicion is acually correct by calculating
 the average offset and the average ascension—if the ascension is
@@ -1674,3 +1829,11 @@ Discussions
 -----------
 
 * [LessWrong](https://www.lesswrong.com/posts/MquvZCGWyYinsN49c/range-and-forecasting-accuracy)
+
+Appendix A: Quotes About the Maximal Time-Horizon of Forecasts
+----------------------------------------------------------------
+
+> Demographers disagree about many things, but not that the further into
+the future we try to look, the more likely our forecasts are to be wrong.
+
+*— [Richard J. Hernstein](https://en.wikipedia.org/wiki/Richard_J._Herrnstein) & [Charles Murray](https://en.wikipedia.org/wiki/Charles_Murray_\(political_scientist\)), [“The Bell Curve”](https://en.wikipedia.org/wiki/The_Bell_Curve) ch. 15, 1994*

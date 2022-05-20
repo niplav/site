@@ -1,13 +1,21 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-06-15, modified: 2022-05-05, language: english, status: notes, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-15, modified: 2022-05-17, language: english, status: notes, importance: 1, confidence: log*
 
 > __I recently got the feeling that tracking my exercise might be vaguely
 > useful. This is my attempt.__
 
 Exercise Log
 ============
+
+Some of the names in this list are ad-hoc, for example the "Γ lift"
+is performed the following way:
+
+* Hold one dumbbell in each hand
+* Standing straight, orthogonal to the floor
+* Bending ones upper body forward so that it's now parallel to the ground, arms hanging straight down
+* Lifting the dumbbells toward the shoulders, parallel to the legs
 
 Template
 --------
@@ -2783,6 +2791,44 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 60 sit-ups
 * 60 double leg lifts
 * 60 walking lunges
+* 0 burpees
+* 100 froggers
+* 2 minutes plank
+
+### 2022-05-07
+
+* 60 7.5kg dumbbell shoulder presses
+* 60 7.5kg dumbbell biceps curls
+* 60 7.5kg dumbbell upright rows
+* 60 7.5kg dumbbell Γ lifts
+* 60 7.5kg dumbbell bench presses
+* 30 7.5kg dumbbell scaptions
+* 30 7.5kg dumbbell lateral lifts
+* 10 5kg dumbbell behind shoulder lifts
+* 0 pull-ups
+* 60 push-ups
+* 60 sit-ups
+* 60 double leg lifts
+* 60 walking lunges
+* 0 burpees
+* 100 froggers
+* 2 minutes plank
+
+### 2022-05-17
+
+* 60 7.5kg dumbbell shoulder presses
+* 60 7.5kg dumbbell biceps curls
+* 60 7.5kg dumbbell upright rows
+* 60 7.5kg dumbbell Γ lifts
+* 60 7.5kg dumbbell bench presses
+* 15 7.5kg dumbbell scaptions
+* 15 7.5kg dumbbell lateral lifts
+* 10 5kg dumbbell behind shoulder lifts
+* 0 pull-ups
+* 60 push-ups
+* 30 sit-ups
+* 30 double leg lifts
+* 30 walking lunges
 * 0 burpees
 * 100 froggers
 * 2 minutes plank

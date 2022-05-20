@@ -131,6 +131,40 @@ plt.savefig("allq.png")
 
 fig=plt.figure(figsize=(8,8))
 
+plt.title("Scatterplot with logistic-ish regression for Metaculus & PredictionBook forecasts by range")
+plt.xlabel("Range (days)")
+plt.ylabel("Accuracy (Brier score)")
+
+fullrng=np.array(range(0, round(max(pbrngs))+1))
+
+plt.plot(pbqbrier.T[0], pbqbrier.T[1], '.', color='blue', markersize=1)
+plt.plot(metqbrier.T[0], metqbrier.T[1], '.', color='red', markersize=1)
+plt.plot(fullrng, shrunk_logistic(fullrng, metlogifit_betweenq[0][0], metlogifit_betweenq[0][1]), 'red', label='Metaculus shrunk logistic-ish regression', linewidth=2)
+plt.plot(fullrng, shrunk_logistic(fullrng, pblogifit_betweenq[0][0], pblogifit_betweenq[0][1]), 'blue', label='PredictionBook shrunk logistic-ish regression', linewidth=2)
+
+plt.legend()
+
+plt.savefig("allq_logi.png")
+
+fig=plt.figure(figsize=(8,8))
+
+plt.title("Scatterplot with exponential-ish regression for Metaculus & PredictionBook forecasts by range")
+plt.xlabel("Range (days)")
+plt.ylabel("Accuracy (Brier score)")
+
+fullrng=np.array(range(0, round(max(pbrngs))+1))
+
+plt.plot(pbqbrier.T[0], pbqbrier.T[1], '.', color='blue', markersize=1)
+plt.plot(metqbrier.T[0], metqbrier.T[1], '.', color='red', markersize=1)
+plt.plot(fullrng, shift_exp(fullrng, metexpfit_betweenq[0][0], metexpfit_betweenq[0][1]), 'red', label='Metaculus shrunk exponential-ish regression', linewidth=2)
+plt.plot(fullrng, shift_exp(fullrng, pbexpfit_betweenq[0][0], pbexpfit_betweenq[0][1]), 'blue', label='PredictionBook shrunk exponential-ish regression', linewidth=2)
+
+plt.legend()
+
+plt.savefig("allq_exp.png")
+
+fig=plt.figure(figsize=(8,8))
+
 plt.title("Linear regressions for the accuracy of questions by range (only Metaculus data)")
 plt.xlabel("Age (days)")
 plt.ylabel("Linear regression")

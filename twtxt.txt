@@ -1229,3 +1229,43 @@
 2022-05-06T20:58:05.000000Z	looking from afar, the quality of science there looks quite abysmal, while the field is very important (finding out how to make humans learn things better! come on!)
 2022-05-06T20:58:16.000000Z	but maybe i'm underestimating the research
 2022-05-06T21:36:10.000000Z	the answer to all questions is either: “Can you feel your toes right now?”, “Start a long site” or “Talk to more girls”.
+2022-05-07T17:03:23.000000Z	(cringe opinion) eliezer yudkowsky is good actually
+2022-05-07T17:04:38.000000Z	what if we kissed 👉👈😳 in front of the whiteboard with haphazard alignment ideas
+2022-05-07T17:14:20.000000Z	Welcome to the Niplaverse! Take a seat over there, your ultrasound-stimulation helmet is being prepared in right order.
+2022-05-07T17:22:44.000000Z	people liked the old SSC more than ACX because substack is chickenshit minimalism, and it's _slow_. you have to wait for the fucking text & comments to appear, while the old site loaded pretty much instantaneously. people have learned to associate chickenshit minimalism aesthetic with slow loading times, and subconsciously detest it bc of that.
+2022-05-07T17:47:49.000000Z	hang web developers by ropes whose length is inversely proportional to the loading time of their pages
+2022-05-07T20:27:27.000000Z	if we clone neanderthals/denisovans, we should probably ask them about consciousness.
+2022-05-07T21:26:27.000000Z	some blogs have a “start here” page that is not the default landing page: why? most people visiting your site will be there for the first time, but they have to perform an additional click to go to the “start here” page, unnecessarily.
+2022-05-07T21:30:49.000000Z	my watch has been running for ~5 years now, and I've never had to change the battery. wow.
+2022-05-07T21:39:33.000000Z	the elegance of zeppelines is sublimp
+2022-05-07T23:42:42.000000Z	what the hell my phone gives me tracers in the dark if i move it
+2022-05-09T13:55:41.000000Z	pickup artistry is incredibly feminine: if you were masculine, women would come to you anyway
+2022-05-09T14:46:44.000000Z	Statisticians: NOoooooo you can't execute a t-test on elements from a Likert scale! Psychologists: Hah NHST go brrrrrrrrr
+2022-05-09T15:01:25.000000Z	what is the MNIST of education interventions? what the ImageNet? what the Danbooru 2021‽"
+2022-05-09T15:28:09.000000Z	menchbarks
+2022-05-10T08:52:32.000000Z	just downloaded micatwoa html files inshallah
+2022-05-10T10:46:59.000000Z	comment quality in /r/rational worse than on LW
+2022-05-10T21:34:55.000000Z	when you convert all your money into assets stored on the blockchain while you go into cryopreservation in an underground bunker—literally crypt-o-currency
+2022-05-10T22:24:11.000000Z	now that must be a pretty impressive shirt i guess
+2022-05-10T22:48:45.000000Z	saying “somebody should do X” repeatedly while apparently also not doing that thing (while also not being blocked by anything, such as doing something else that's also important) ought to be discouraged.
+2022-05-10T23:14:56.000000Z	“i'll stop reading at 1:30” this is your internal agents coordinating
+2022-05-10T23:17:16.000000Z	i think eliezer wanted micatwoa to take place in a world that was even more insane than here for us to more clearly see what's wrong with our world, and the only way he could come up to accomplish that was to make the story take place in actual hell.
+2022-05-10T23:37:05.000000Z	induction, abduction, deduction, transduction, traduction, seduction, adduction, eduction, reduction, contraduction
+2022-05-10T23:38:55.000000Z	we can also make value of perfect information a shorter word, vopi. or voi for just value of information.
+2022-05-10T23:55:15.000000Z	in retrospect, i do remember expecting some message about “yes, you passed the test, you were actually living in a lie”, but i think that died when nobody gave me a bad grade for taking too long to become vegetarian. maybe veganism…
+2022-05-11T12:06:15.000000Z	why am i just now finding out about examine.com this is pretty cool
+2022-05-11T20:55:08.000000Z	God exists, and she is a woman 😏
+2022-05-11T20:55:28.000000Z	Don Knuth really really wants to write a long site and not books. I mean…just take a look at them!
+2022-05-12T09:29:14.000000Z	humans-in-the-loop reinforcement
+2022-05-12T09:29:14.000000Z	humans-in-the-loop exploring reinforcement
+2022-05-12T12:18:38.000000Z	brb replacing all occurrences of “eigen” with “sein” in a linear algebra textbook.
+2022-05-12T13:11:34.000000Z	polls: Were you surprised by the capabilities of DALL·E 2? Were you surprised by the capabilities of PaLM (or however that's capitalized)? Were you (back then) surprised by the capabilities of GPT-3?
+2022-05-12T13:13:27.000000Z	Were you surprised by the capabilities of AlphaGo?
+2022-05-12T13:26:07.000000Z	it's astonishing how often people violate the same basic fucking heuristics, such as DON'T SLEEP WITH YOUR DHARMA STUDENTS, or DON'T SLEEP WITH YOUR DHARMA TEACHERS. really makes you think there's an underlying pattern there. or smth idk
+2022-05-12T14:28:08.000000Z	wait, DALL·E is capable of solving Raven's Matrices tests‽
+2022-05-12T14:28:23.000000Z	https://thenextweb.com/neural/2021/01/10/heres-how-openais-magical-dall-e-generates-images-from-text-syndication/
+2022-05-16T14:14:50.000000Z	vibe computing
+2022-05-17T00:11:49.000000Z	the buddha vector is calculated by finding the path in the space of possible attractors that maximizes the number of attractors it could fall into with an ε perturbation, but falls into none.
+2022-05-17T21:29:00.000000Z	Have you considered that removing Occam's razor from your worldview makes the worldview simpler?
+2022-05-18T17:58:57.000000Z	DALL·E 2 prompts: The Gateboss of the Girlkeep
+2022-05-19T23:34:51.000000Z	The Lightgirl of the Gate

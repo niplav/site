@@ -60,12 +60,6 @@ def val_shrinking_dataset(briers, ranges):
 metpvals=val_shrinking_dataset(metbriers, metrngs)
 pbpvals=val_shrinking_dataset(pbbriers, pbrngs)
 
-def shift_exp(x, a, b):
-	return (a*(b**x)-a)/(-4*a)
-
-pbexpfit=spo.curve_fit(shift_exp, pbrngs, pbbriers, bounds=([-np.inf, 0], [0, 1]))
-metexpfit=spo.curve_fit(shift_exp, metrngs, metbriers, bounds=([-np.inf, 0], [0, 1]))
-
 # Why not do a linear regression on the transformed data? Because that ends up below 0
 # Transformation is np.log((1/metbriers)-1)
 
@@ -80,6 +74,12 @@ metlogifit=spo.curve_fit(shrunk_logistic, metrngs, metbriers, bounds=([-np.inf, 
 
 pblogifit=spo.curve_fit(shrunk_logistic, pbrngs, pbbriers, bounds=([-np.inf, 0], [0, np.inf]))
 metlogifit=spo.curve_fit(shrunk_logistic, metrngs, metbriers, bounds=([-np.inf, 0], [0, np.inf]))
+
+def shift_exp(x, a, b):
+	return (a*(b**x)-a)/(-4*a)
+
+pbexpfit=spo.curve_fit(shift_exp, pbrngs, pbbriers, bounds=([-np.inf, 0], [0, 1]))
+metexpfit=spo.curve_fit(shift_exp, metrngs, metbriers, bounds=([-np.inf, 0], [0, 1]))
 
 ### Between Questions
 
@@ -109,6 +109,12 @@ wpbqbrier=list(filter(lambda x: not (x[0][0]==x[0][1] and len(x[0]==2) and x[1][
 
 wmetqregs=list(map(lambda x: sps.linregress(x[0], x[1]), wmetqbrier))
 wpbqregs=list(map(lambda x: sps.linregress(x[0], x[1]), wpbqbrier))
+
+pblogifit_betweenq=spo.curve_fit(shrunk_logistic, pbqbrier.T[0], pbqbrier.T[1], bounds=([-np.inf, 0], [0, np.inf]))
+metlogifit_betweenq=spo.curve_fit(shrunk_logistic, metqbrier.T[0], metqbrier.T[1], bounds=([-np.inf, 0], [0, np.inf]))
+
+pbexpfit_betweenq=spo.curve_fit(shift_exp, pbqbrier.T[0], pbqbrier.T[1], bounds=([-np.inf, 0], [0, 1]))
+metexpfit_betweenq=spo.curve_fit(shift_exp, metqbrier.T[0], metqbrier.T[1], bounds=([-np.inf, 0], [0, 1]))
 
 awmetqslope=np.mean(list(map(lambda x: x[0], wmetqregs)))
 awmetqintercept=np.mean(list(map(lambda x: x[1], wmetqregs)))

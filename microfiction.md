@@ -61,15 +61,15 @@ plumous penguins, priestess parks principles—priceless.
 ----
 
 > Now hips, a black hole to surround  
-No Riemann metric has yet traced  
-An old, a new decision is now made  
-A bow is drawn  
+no Riemann metric has yet traced  
+an old, a new decision is now made  
+a bow is drawn  
 a good one, as of yet  
 no fragmented escutcheon  
 from the old master's whirring feet  
-A pair of compasses would never  
+a pair of compasses would never  
 traverse the geodesic so  
-A “hi”, a “no”, a saddest look,
+a “hi”, a “no”, a saddest look,  
 relieved of possibility  
 Now have I fucking traumatized the bird‽
 
@@ -254,7 +254,7 @@ Stories
 ----
 
 > Globe-decorated neo-neoliberals furiously fruitlessly arguing with
-zero-summers on twitter, shaman bros helping others get laid at parties
+zero-summers on birdsite, shaman bros helping others get laid at parties
 funded by eternal-life cryptomoguls, infra-red haired identity-fractalites
 with two dozen Mercedes stars draped over their bodies lectureing pale
 soy-skeletons about Cockshottian cybernetics. It is, not exaggerating too
