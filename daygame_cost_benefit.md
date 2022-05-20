@@ -18,6 +18,16 @@ the simple case the value of daygame ranges from -\$3297 to \$3200
 (5th/95th percentile), with a median of \$899 and a mean of \$550,
 and in the complex case \_.__
 
+<!--
+Second one: fix costs & other stuff
+Approximate ratio per:
+
+1:200 for the first 500 approaches
+1:100 for 500-1000
+1:50 for 1000-2000
+1:30 for everything afterwards
+-->
+
 Daygame Cost-Benefit Analysis
 =============================
 
@@ -1071,7 +1081,7 @@ Log:
 
 * Approach index number
 * Datetime
-* Location (country)
+* Location
 * Blowout
 * Contact info ∈{number,instagram,facebook,skype,snapchat etc.,other}
 * Idate length (minutes)
@@ -1079,7 +1089,7 @@ Log:
 * Flake before 1st date (boolean)
 * Date before first sex [1..10] cost (euro)
 * Date before first sex [1..10] length (minutes)
-* Sex number of times (roughly)
+* Sex number of times (approximately)
 * Attractiveness (∈[1..10])
 
 2nd file:
@@ -1087,17 +1097,7 @@ Log:
 * Datetime start
 * Datetime end
 * Approaches index number range
-* Number of approaches (evtl.)
-
-<!--
-Second one: fix costs & other stuff
-Approximate ratio per:
-
-1:200 for the first 500 approaches
-1:100 for 500-1000
-1:50 for 1000-2000
-1:30 for everything afterwards
--->
+* Number of approaches
 
 Sanitizing the sessions file:
 

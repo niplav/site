@@ -1058,7 +1058,9 @@ I decided to replicate their design for the
 [cuboid](https://dynomight.net/better-DIY-air-purifier.html "The Cuboid: A DIY air purifier that's better than a box-fan")
 (the [cheaper box fan air
 purifier](https://dynomight.net/2020/12/15/some-real-data-on-a-DIY-box-fan-air-purifier/ "Experiments on a $50 DIY air purifier you can make in 30s")
-was intolerably violating my æsthetic sensibilities).
+was intolerably violating my æsthetic sensibilities). The
+design is, incidentally, very similar to the [Corsi-Rosenthal
+Box](https://en.wikipedia.org/wiki/Corsi%E2%80%93Rosenthal_Box).
 
 ### Materials
 
@@ -1162,7 +1164,9 @@ or “Is the underlying process
 [ergodic](https://en.wikipedia.org/wiki/Ergodicity)?”, just fit the
 goddamn curve!
 
-And `scipy.optimize.curve_fit` does exactly that!
+And `scipy.optimize.curve_fit` does exactly
+that! (Using the [Levenberg-Marquardt
+algorithm](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm)).
 
 You give it a function `f` with some parameters `a, b, c, …` and a
 dataset consisting of input values `x` and output values `y`, and it
@@ -1193,4 +1197,4 @@ and I've only known about it for a week! A must for every wannabe
 data-scientist.
 
 For more information about this amazing function, consult its
-documentation<!--TODO: link-->.
+[documentation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html).
