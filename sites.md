@@ -22,7 +22,6 @@ Recommendation-Worthy Websites
 	* [Less Wrong](https://lesswrong.com/)
 	* [Everything Studies](https://everythingstudies.com/)
 	* [Overcoming Bias](http://www.overcomingbias.com/)
-	* [Paul Graham Essays](http://paulgraham.com/articles.html)
 	* [Slate Star Codex](http://slatestarcodex.com/)
 	* [☆✦ The Scintillating But Ultimately Untrue Thought ✦☆](https://unremediatedgender.space) (highly focused on a rather irrelevant topic, but the lessons are generalizable)
 * Programming
