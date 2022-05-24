@@ -1,23 +1,42 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-05-04, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-05-25, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
 Changelog
 =========
 
+> Mein Unternehmen ist im Grund nicht schwierig, ich brauche nur
+unsterblich zu sein, um es zu vollenden.
+
+*—[Jorge Luis Borges](https://en.wikipedia.org/wiki/Jorge_Luis_Borges), “Pierre Menard, Autor des Quijote”, 1962*
+
+> it’s Good that just mutates and twists, and it’s Evil that teems
+with fecundity.
+
+*—[Scott Alexander](https://slatestarcodex.com/), [“The Goddess of Everything Else”](https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/), 2015*
+
 May 2022
 ---------
 
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 	* Rewrote the code in Python 3
-	* [Non-Linear Curve-Fitting](./range_and_forecasting_accuracy.html#NonLinear-CurveFitting)
-		* [Fitting a Logistic Function](./range_and_forecasting_accuracy.html#Fitting-a-Logistic-Function)
-		* [Fitting an Exponential Function](./range_and_forecasting_accuracy.html#Fitting-an-Exponential)
-		* [This Is Cool](./range_and_forecasting_accuracy.html#This-Is-Cool)
-	* [Why Long-Range Questions More Accurate](./range_and_forecasting_accuracy.html#Why-Longer-Range-Questions-More-Accurate)
+	* Between Forecasts
+		* [Non-Linear Curve-Fitting](./range_and_forecasting_accuracy.html#NonLinear-CurveFitting)
+			* [Fitting a Logistic Function](./range_and_forecasting_accuracy.html#Fitting-a-Logistic-Function)
+			* [Fitting an Exponential Function](./range_and_forecasting_accuracy.html#Fitting-an-Exponential)
+			* [This Is Cool](./range_and_forecasting_accuracy.html#This-Is-Cool)
+	* [Statistical Significance of Truncated Datasets](./range_and_forecasting_accuracy.html#Statistical-Significance-of-Truncated-Datasets)
+	* Between Questions
+		* [Non-Linear Curve-Fitting](./range_and_forecasting_accuracy.html#NonLinear-CurveFitting_1)
+		* [Why Long-Range Questions More Accurate](./range_and_forecasting_accuracy.html#Why-Longer-Range-Questions-More-Accurate)
+		* [This Partially Explains the Result Between Forecasts](./range_and_forecasting_accuracy.html#This-Partially-Explains-the-Result-Between-Forecasts)
+	* Within Questions
+		* [Logistic Curve-Fit](./range_and_forecasting_accuracy.html#Logistic-CurveFit)
+	* [Appendix A: Quotes About the Maximal Time-Horizon of Forecasts](./range_and_forecasting_accuracy.html#Appendix-A-Quotes-About-the-Maximal-TimeHorizon-of-Forecasts)
+* Re-organised the [Text Reviews](./text_reviews.html)
 * [Notes](./notes.html)
 	* [`scipy.optimize.curve_fit` Is Awesome](./notes.html#scipyoptimizecurvefit-Is-Awesome)
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-02-18, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2022-05-24, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -49,6 +49,21 @@ the content of the site in order (i. e. to ["Start at the
 Beginning"](https://entirelyuseless.com/2018/06/12/start-at-the-beginning/))
 and to structure it by topic and form, rather than to strive for
 presenting mainly new information to the reader.
+
+Furthermore, the texts are often less
+literary essays and more static [computational
+notebooks](https://en.wikipedia.org/wiki/Notebook_interface) à la
+[Jupyter](https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook)
+or [Wolfram Mathematica
+notebooks](https://en.wikipedia.org/wiki/Wolfram_Mathematica#Notebook_interface)—highly
+driven by code, [literate
+programming](https://en.wikipedia.org/wiki/Literate_programming)
+style (though usually without the interactivity: I execute the code
+locally and enter results, which will probably not change, even with
+the advent of [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly)
+(which would enable a large number of different languages to run in the
+browser), because I like to keep the site lean, which runs against the
+JavaScript-heavy notebook format).
 
 The content on this website is licensed under [Creative Commons
 4.0](https://creativecommons.org/licenses/by/4.0/).
