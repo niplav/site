@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-14, modified: 2022-05-17, language: english, status: notes, importance: 6, confidence: log*
+*author: niplav, created: 2021-10-14, modified: 2022-05-24, language: english, status: notes, importance: 6, confidence: log*
 
 > __Some people have been complaining about a “website discoverability
 crisis”<!--TODO: link-->. While I haven't been affected by this
@@ -17,6 +17,7 @@ Recommendation-Worthy Websites
 		* [Nintil](https://nintil.com/)
 		* [Dynomight](https://dynomight.net/)
 		* [Gavin Leech](https://www.gleech.org)
+		* [210ethan](https://210ethan.github.io)
 	* [Wikipedia](https://en.wikipedia.org/)
 * Rationality
 	* [Less Wrong](https://lesswrong.com/)

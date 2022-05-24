@@ -61,7 +61,6 @@ Reading
 
 Currently, I am actively reading the following books:
 
-* Mastering the Core Teachings of the Buddha (Daniel M. Ingram, 2018)
 * Naïve Set Theory (Paul R. Halmos, 1960)
 * Population Genetics (John H. Gillespie, 2004)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)

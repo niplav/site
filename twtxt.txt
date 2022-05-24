@@ -1269,3 +1269,10 @@
 2022-05-17T21:29:00.000000Z	Have you considered that removing Occam's razor from your worldview makes the worldview simpler?
 2022-05-18T17:58:57.000000Z	DALL·E 2 prompts: The Gateboss of the Girlkeep
 2022-05-19T23:34:51.000000Z	The Lightgirl of the Gate
+2022-05-20T21:29:16.000000Z	knuckle tatoos: “nplv site”, “ttra spce”, “less wrng”
+2022-05-20T21:58:17.000000Z	update: invoking cultural evolution as an explanation is most of the time tenuous, see https://www.gwern.net/Backstop#artificial-persons: “cultures or groups are rarely driven extinct, with most large-scale ones persisting for millennia; such ‘natural selection’ on the group-level is only tenuously linked to the many thousands of distinct practices & beliefs that make up these cultures; and these cultures mutate rapidly as fads and visions and stories and neighboring cultures and new technologies all change over time”
+2022-05-21T19:13:31.000000Z	longevity research is trying to move an outer loss signal into the inner optimizer, we'll have to see whether that one is strong enough to take up the burden
+2022-05-23T21:43:06.000000Z	niplav yushtun, ta faret ne digal.
+2022-05-23T21:55:22.000000Z	I really look forward to the next AI winter! We'll all cozy up inside by the fireside in thick markov blankets, everyone finds a new agent foundations paper in their stocking, and we can listen to uncle Paul have his discussion with uncle Eliezer when the whole family re-unites…
+2022-05-23T22:33:26.000000Z	“Dodecahedron Assemblies was the publication I chose to read on my way to heaven”—apparently Uriel has managed to gain short contact via the Gato agent.
+2022-05-23T22:35:45.000000Z	The name niplav is based on a roof tile of the University of Maryland, which matches the sequence number and neuroscience thread index, which is how neuroscience researchers manage their data.
