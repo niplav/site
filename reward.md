@@ -267,11 +267,15 @@ Two reasons:
 1. People want to participate in vibrant communities → network effects
 2. People often have overlapping interests, but the trivial inconvenience of signing up for several wikis prevents them from participating in any more specialized ones
 
+See also [Gwern 2012](https://www.gwern.net/Wikipedia And Other Wikis.html).
+
 ### Discourse on Blogs is Probably Dead
 
 #### Discourse on Twitter Lives On
 
 ### Why Don't People Care About Their Content?
+
+#### "Start Here" Pages
 
 #### Long Site Wishlist
 
@@ -281,6 +285,9 @@ Two reasons:
 * Romeo Stevens
 * Zack M. Davis
 * JhanicManifold
+* Donald Knuth
+* Anders Sandberg
+	* Although this might be remedied by his new book (if it *ever* comes out)
 -->
 
 Suggestions for Improvement

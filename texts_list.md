@@ -17,6 +17,17 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* \* A Generalist Agent (Alexander Novikov/Ali Razavi/Ashley Edwards/Emilio Parisotto/Gabriel Barth-Maron/Jackie Kay/Jake Bruce/Jost Tobias Springenberg/Konrad Żołna/Mahyar Bordbar/Mai Giménez/Nando de Freitas)/Nicolas Heess/Oriol Vinyals/Raia Hadsell/Scott Reed/Sergio Gómez Colmenarejo/Tom Eccles/Yury Sulsky/Yutian Chen, 2022)
+* [Evolution as Backstop for Reinforcement Learning (Gwern Branwen, 2021)](https://www.gwern.net/Backstop)
+* [Discredited hypotheses for the Cambrian explosion (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Discredited_hypotheses_for_the_Cambrian_explosion)
+* [Multi-agent learning (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Multi-agent_learning)
+* \* Avoiding Side Effects in Complex Environments (Alexander Matt Turner/Neale Ratzlaff/Prasad Tadepalli, 2020)
+* AI Safety Gridworlds (Andrew Lefrancq/Jan Leike/Laurent Orseau/Miljan Martic/Pedro A. Ortega//Shane Legg/Tom Everitt/Victoria Krakovna, 2017)
+* [Lies Told To Children: Pinocchio  (A Guest, 2022)](https://pastebin.com/fjpS2ZDP)
+* [Lies Told To Children (Eliezer Yudkowsky, 2022)](https://www.lesswrong.com/posts/uyBeAN5jPEATMqKkX/lies-told-to-children-1)
+* [Why Do People Prefer My Old Blog's Layout To Substack's? (Scott Alexander, 2022)](https://astralcodexten.substack.com/p/why-do-people-prefer-my-old-blogs?s=r)
+* [Introduction to PyTorch (PyTorch Developers, 2022)](https://pytorch.org/tutorials/beginner/nlp/pytorch_tutorial.html)
+* [Fess (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Fess)
 * Meta-Q-Learning (Rasool Fakoor/Pratik Chaudhari/Stefano Soatto/Alexander Smola, 2020)
 * [How to be skeptical about meditation/Buddhism (Viliam, 2022)](https://www.lesswrong.com/posts/XqpkCAHrtwBfLSSzk/how-to-be-skeptical-about-meditation-buddhism)
 * [How To Talk To Girls At Parties (Neil Gaiman, 2007)](https://www.neilgaiman.com/Cool_Stuff/Short_Stories/How_To_Talk_To_Girls_At_Parties/How_To_Talk_To_Girls_At_Parties_(Text))

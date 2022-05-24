@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2022-05-20, language: english, status: maintenance, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2022-05-24, language: english, status: maintenance, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in
 relation to the time between forecast and resolution, and
@@ -798,31 +798,30 @@ Here, the slopes are much steeper than in the more restricted case about.
 <!--TODO: a is actually unnecessary, cut it out-->
 
 Another function we could fit to the data might be of the form
-`$\frac{a \cdot b^x -a}{-4a}$`, with some `$a<0$` and `$b \in (0, 1)$` (the
-function is decaying exponentially, but flipped so that it approaches 0,
-and then we scale it so that it always converges toward 0.25).
+`$\frac{b^x -1}{-4}$`, with some `$b \in (0, 1)$` (the function is
+decaying exponentially, but flipped so that it approaches 0, and then
+we scale it so that it always converges toward 0.25).
 
 We can guarantee this function to fulfill all three desiderata:
 
 <div>
-	$$\frac{a \cdot b^0 - a}{-4a}=\\
-	\frac{a - a}{-4a}=\frac{0}{-4a}=0$$
+	$$\frac{b^0 - 1}{-4}=\\
+	=\frac{0}{-4}=0$$
 </div>
 
 and
 
 <div>
-	$$ \underset{x \rightarrow \infty}{\text{lim}} \frac{a \cdot b^x - a}{\frac{a}{0.25}}=\\
-	\frac{-a}{-4a}=\\
+	$$ \underset{x \rightarrow \infty}{\text{lim}} \frac{b^x - 1}{-4}=\\
+	\frac{-1}{-4}=\\
 	0.25$$
 </div>
 
 and (for `$ε \ge 0$`)
 
 <div>
-	$$ \frac{a \cdot b^x - a}{-4a} \le \frac{a \cdot b^{x+ε} - a}{-4a} \Leftrightarrow\\
-	a \cdot b^x - a \le a \cdot b^{x+ε} - a \Leftrightarrow \\
-	a \cdot b^x \le a \cdot b^{x+ε} \Leftrightarrow (\text{signflip because } a \text{ is negative})\\
+	$$ \frac{b^x - 1}{-4} \le \frac{b^{x+ε} - 1}{-4} \Leftrightarrow (\text{signflip because multiplication with }-4) \\
+	b^x - 1 \ge b^{x+ε} - 1 \Leftrightarrow \\
 	b^x \ge b^{x+ε} $$
 </div>
 
@@ -830,17 +829,15 @@ which is the case.
 
 In python, this is simply
 
-	def shift_exp(x, a, b):
-		return (a*(b**x)-a)/(-4*a)
+	def shift_exp(x, b):
+		return ((b* *x)-1)/(-4)
 
 We can now fit that kind of curve to the data:
 
-	>>> pbexpfit=spo.curve_fit(shift_exp, pbrngs, pbbriers, bounds=([-np.inf, 0], [0, 1]))
-	(array([-4.01308763e+04,  5.62045092e-23]), array([[1.64586911e-63, 7.84399901e-41],
-		[7.84399901e-41, 3.73834834e-18]]))
-	>>> metexpfit=spo.curve_fit(shift_exp, metrngs, metbriers, bounds=([-np.inf, 0], [0, 1]))
-	(array([-1.72685538,  0.95788507]), array([[1.49958205e+12, 5.06944792e+00],
-		[5.06944792e+00, 6.50351831e-07]]))
+	>>> pbexpfit=spo.curve_fit(shift_exp, pbrngs, pbbriers, bounds=([0], [1]))
+	(array([1.22550795e-22]), array([[3.83266961e-18]]))
+	>>> metexpfit=spo.curve_fit(shift_exp, metrngs, metbriers, bounds=([0], [1]))
+	(array([0.95788506]), array([[6.50321645e-07]]))
 
 ![Scatter-plot of Metaculus & PredictionBook data, with exponential-ish regressions (as described above).](./img/range_and_forecasting_accuracy/allscatter_exp.png "Scatter-plot of Metaculus & PredictionBook data, with exponential-ish regressions (as described above). The PredictionBook exponential-ish plot looks more like a step-function, reaching 0.25 instantaneously, while the Metaculus data takes ~100 days to reach 0.25 (which is also quite quick).")
 
@@ -883,17 +880,17 @@ which is ~3.6 years for Metaculus, and ~18 years for PredictionBook.
 With the exponential fit, we know that
 
 <div>
-	$$0.24=\frac{a \cdot b^x -a}{-4a} \Leftrightarrow \\
-	-0.96a=a \cdot b^x -a \Leftrightarrow \\
+	$$0.24=\frac{b^x -1}{-4} \Leftrightarrow \\
+	-0.96=b^x -1 \Leftrightarrow \\
 	-0.96+1=b^x \Leftrightarrow \\
 	\log_b(0.04)=x$$
 </div>
 
 That gives
 
-	>>> np.log(0.04)/np.log(metexpfit[0][1])
+	>>> np.log(0.04)/np.log(metexpfit[0][0])
 	74.80978286870999
-	>>> np.log(0.04)/np.log(pbexpfit[0][1])
+	>>> np.log(0.04)/np.log(pbexpfit[0][0])
 	0.06282811825117969
 
 less than a day for the PredictionBook predictive horizon, and ~75 days
@@ -1211,6 +1208,10 @@ question have been resolved?")).
 
 ### Analysis
 
+<!--TODO: The last element in the list is **not** the forecast-resolve
+timediff. It's just the range of the forecast from now, which leads to
+very odd behavior. FIX THIS AAAAAAHHHHH TODO-->
+
 First, the dataset grouped by forecasts had to be grouped by the question
 ID, in both cases a positive integer. The resulting datastructure should
 have the structure
@@ -1346,11 +1347,9 @@ Again, one can fit the nonlinear exponential/logistic function defined
 [above](#NonLinear-CurveFitting) to the data between questions.
 
 	>>> pbexpfit_betweenq=spo.curve_fit(shift_exp, pbqbrier.T[0], pbqbrier.T[1], bounds=([-np.inf, 0], [0, 1]))
-	(array([-7.83836830e+01,  8.80395221e-43]), array([[ 2.99366051e-56, -2.50531486e-37],
-		[-2.50531486e-37,  2.09663137e-18]]))
+	(array([4.77613047e-20]), array([[5.82829061e-18]]))
 	>>> metexpfit_betweenq=spo.curve_fit(shift_exp, metqbrier.T[0], metqbrier.T[1], bounds=([-np.inf, 0], [0, 1]))
-	(array([-4.90977425,  0.70814538]), array([[1.90504403e+15, 2.14231440e+05],
-		[2.14231440e+05, 1.39168387e-02]]))
+	(array([0.70814538]), array([[0.01386776]]))
 	>>> pblogifit_betweenq=spo.curve_fit(shrunk_logistic, pbqbrier.T[0], pbqbrier.T[1], bounds=([-np.inf, 0], [0, np.inf]))
 	(array([-2.70329933e+00,  5.32716622e-52]), array([[ 0.16764075, -0.01981014],
 		[-0.01981014,  0.00898443]]))
@@ -1392,8 +1391,8 @@ clearer when plotted?
 
 	plt.plot(pbqbrier.T[0], pbqbrier.T[1], '.', color='blue', markersize=1)
 	plt.plot(metqbrier.T[0], metqbrier.T[1], '.', color='red', markersize=1)
-	plt.plot(fullrng, shift_exp(fullrng, metexpfit_betweenq[0][0], metexpfit_betweenq[0][1]), 'red', label='Metaculus shrunk exponential-ish regression', linewidth=2)
-	plt.plot(fullrng, shift_exp(fullrng, pbexpfit_betweenq[0][0], pbexpfit_betweenq[0][1]), 'blue', label='PredictionBook shrunk exponential-ish regression', linewidth=2)
+	plt.plot(fullrng, shift_exp(fullrng, metexpfit_betweenq[0][0]), 'red', label='Metaculus shrunk exponential-ish regression', linewidth=2)
+	plt.plot(fullrng, shift_exp(fullrng, pbexpfit_betweenq[0][0]), 'blue', label='PredictionBook shrunk exponential-ish regression', linewidth=2)
 
 	plt.legend()
 
@@ -1428,10 +1427,10 @@ The predictive horizons here are
 ~4.5 days for Metaculus, and around a day for PredictionBook with logistic
 functions, and
 
-	>>> np.log(0.04)/np.log(metexpfit_betweenq[0][1])
+	>>> np.log(0.04)/np.log(metexpfit_betweenq[0][0])
 	9.327212826230811
-	>>> np.log(0.04)/np.log(pbexpfit_betweenq[0][1])
-	0.03324050159246278
+	>>> np.log(0.04)/np.log(pbexpfit_betweenq[0][0])
+	0.07235368359483728
 
 similarly short timespans for the exponential fit.
 
@@ -1563,7 +1562,12 @@ However, they can be filtered out pretty easily, and we recompute `wpbqregs`:
 	7596
 	>>> wpbqregs=list(map(lambda x: sps.linregress(x[0], x[1]), wpbqbrier))
 
-### Result
+### Results
+
+Again, the results are split in three parts: linear regression,
+logistic curve-fit and exponential curve-fit.
+
+#### Linear Regression
 
 We can now visualise the linear regression for each question by setting
 plotting all linear regressions with random colors (the horizontal length
@@ -1611,7 +1615,7 @@ they can tell us. My *guess* would be that it somewhat shows a trend
 with higher ranges responding to higher Brier scores (and therefore
 lower accuracy).
 
-#### Aggregating Linear Regressions
+##### Aggregating Linear Regressions
 
 We can test whether this suspicion is acually correct by calculating
 the average offset and the average ascension—if the ascension
@@ -1686,6 +1690,104 @@ of \>1 for ranges of more than a year, which is clearly nonsensical.
 
 This probably results from the probabilities being treated linearly,
 while handling them in logspace would be much more appropriate.
+
+#### Logistic Curve-Fit
+
+One can now similarly fit the logistic curve to the data within every
+question, yielding a list of parameters for the logistic function.
+
+Doing this naively via a list comprehension fails:
+
+	>>> within_logi_fits=list(map(lambda x: spo.curve_fit(shrunk_logistic, x[0], x[1], bounds=([-np.inf, 0], [0, np.inf])), wmetqbrier))
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	  File "<stdin>", line 1, in <lambda>
+	  File "/usr/local/lib/python3.8/dist-packages/scipy/optimize/minpack.py", line 799, in curve_fit
+	    raise RuntimeError("Optimal parameters not found: " + res.message)
+	RuntimeError: Optimal parameters not found: The maximum number of function evaluations is exceeded.
+
+To both find the culprit and then ignore it, we have to write the code iteratively:
+
+	within_logi_fits_met=[]
+
+	for e in wmetqbrier:
+	        try:
+	                within_logi_fits_met.append(spo.curve_fit(shrunk_logistic, e[0], e[1], bounds=([-np.inf, 0], [0, np.inf])))
+	        except RuntimeError:
+			within_logi_fits_met.append([])
+	                print(e)
+	                continue
+
+The resonsible data for the question looks completely innocuous:
+
+	[array([20.11263452, 19.95414332, 19.86404009, 19.80523882, 19.68123836,
+	19.30289307, 19.08148786, 18.67971381, 17.57324535, 16.17246518,
+	14.64708341]), array([0.49  , 0.5184, 0.49  , 0.4225, 0.3481, 0.4225, 0.3481, 0.3481,
+	0.16  , 0.3481, 0.16  ])]
+
+I decide to just ignore any instances that give errors, and calculate
+`within_logi_fits_pb` the same way as above, just with `fwpbqbrier`. This
+removes data from 1 question from the Metaculus dataset, and from 10
+questions from the PredictionBook dataset:
+
+	>>> len(list(filter(lambda x: len(x)==0, within_logi_fits_met)))
+	1
+	>>> len(list(filter(lambda x: len(x)==0, within_logi_fits_pb)))
+	10
+
+These can now be plotted, as the linear regressions were above:
+
+	fig=plt.figure(figsize=(8,8))
+
+	plt.title("Logistic curve-fits for the accuracy of questions by range (only Metaculus data)")
+	plt.xlabel("Age (days)")
+	plt.ylabel("Logistic curve-fit")
+
+	for i in range(0, len(within_logi_fits_met)):
+	        r=within_logi_fits_met[i]
+	        if len(r)==0:
+	                continue
+	        rngs=wmetqbrier[i][0]
+	        slope, intercept=r[0][0], r[0][1]
+	        cl=hex(random.sample(range(0, 256*256*256), 1)[0]) #random rgb code
+	        #left padding with zeros, can't be bothered to read the formatting docs right now
+	        cl='#'+('0'*(6-len(cl[2:])))+cl[2:]
+	        plt.plot(fullrng_met, shrunk_logistic(fullrng_met, slope, intercept))
+
+	plt.savefig("permetquestion_logi.png")
+
+![Logistic curve-fits for the accuracy of questions by range](./img/range_and_forecasting_accuracy/permetquestion_logi.png "Logistic curve-fits for the accuracy of questions by range. Most of the logistic curve-fits go to 0.25 around 0, but some of them are constant at various values <0.125 over 0 up to 1400 days, and some just rise quite slowly.")
+
+	fig=plt.figure(figsize=(8,8))
+
+	plt.title("Logistic curve-fits for the accuracy of questions by range (only PredictionBook data)")
+	plt.xlabel("Age (days)")
+	plt.ylabel("Logistic curve-fit")
+
+	for i in range(0, len(within_logi_fits_pb)):
+	        r=within_logi_fits_pb[i]
+	        if len(r)==0:
+	                continue
+	        rngs=wpbqbrier[i][0]
+	        slope, intercept=r[0][0], r[0][1]
+	        cl=hex(random.sample(range(0, 256*256*256), 1)[0]) #random rgb code
+	        #left padding with zeros, can't be bothered to read the formatting docs right now
+	        cl='#'+('0'*(6-len(cl[2:])))+cl[2:]
+	        plt.plot(fullrng_pb, shrunk_logistic(fullrng_pb, slope, intercept))
+
+	plt.savefig("perpbquestion_logi.png")
+
+![Logistic curve-fits for the accuracy of questions by range](./img/range_and_forecasting_accuracy/perpbquestion_logi.png "Logistic curve-fits for the accuracy of questions by range. Most of the logistic curve-fits go to 0.25 around 0, but some of them are constant at various values <0.125 over 0 up to 1400 days, and some just rise quite slowly, just as above with the Metaculus data.")
+
+These charts look like what I would have expected:
+
+1. On many questions, the predictions might be more accurate with longer ranges, which results in sigmoids which go to 0.25 almost immediately.
+2. On some questions, the slope is *very slight*, resulting in the lines parallel to the x-axis. This happens when there is basically no relation between range and accuracy.
+3. A few questions were posed long ago, but also have more accurate predictions at higher ranges, and therefore their plot is approximately a [step function](https://en.wikipedia.org/wiki/Step_function) around the time when they were posed.
+4. And, finally, some questions have more accurate predictions at lower ranges, resulting in the functions that *actually look like sigmoids*.
+
+I'm unsure about the best way to aggregate these different sigmoids
+into one, as I did with the linear regressions above.
 
 ### Sample Sizes
 

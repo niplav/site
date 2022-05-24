@@ -909,6 +909,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* No CMSs, or SquareSpace, or BlogSpot/WordPress/…
 	* `https://www.gwern.net/Design`
 	* No dynamically loading images for f\*cks sake
+* A list of countries with ratings for how open their borders are
 
 ### Notes
 

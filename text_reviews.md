@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-12-30, modified: 2022-01-12, language: english, status: in progress, importance: 3, confidence: opinion*
+*author: niplav, created: 2020-12-30, modified: 2022-05-20, language: english, status: in progress, importance: 3, confidence: opinion*
 
 > __Reading a text is sometimes a big time investment, but people
 don't approach their reading in a structured manner, e.g. by keeping
@@ -12,137 +12,6 @@ others. This is my attempt at salvaging that oversight.__
 
 Text Reviews
 =============
-
-What failure looks like (Paul Christiano, 2019)
------------------------------------------------
-
-*Written for the [2019 LessWrong Review](https://www.lesswrong.com/posts/QFBEjjAvT6KbaA3dY/the-lesswrong-2019-review)*
-
-[Original Post](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like)
-
-I read [this
-post](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like)
-only half a year ago after seeing it being referenced in several different
-places, mostly as a newer, better alternative to the existing FOOM-type
-failure scenarios. I also didn't follow the comments on this post when
-it came out.
-
-This post makes a lot of sense in Christiano's worldview, where we have a
-relatively continuous, somewhat multipolar takeoff which to a large extent
-inherits the problem in our current world. This is especially applies to
-part I: we already have many different instances of scenarios where humans
-follow measured incentives and produce unintended outcomes. [Goodhart's
-law](https://en.wikipedia.org/wiki/Goodhart%27s_law) is a thing. Part
-I ties in especially well with Wei Dai's concern that
-
-> AI-powered memetic warfare makes all humans effectively insane.
-
-While I haven't done research on this, I have a medium
-strength intuition that this is already happening. Many
-people I know are at least somewhat addicted to the internet,
-having lost a lot of attention due to having their motivational
-system hijacked, which is worrying because [Attention is your scarcest
-resource](https://www.lesswrong.com/posts/aDtzAZf3LnwYvmBP7/attention-is-your-scarcest-resource).
-I believe investigating the amount to which attention has
-deteriorated (or has been monopolized by different actors)
-would be valuable, as well as thinking about which incentives
-will start when AI technologies become more powerful ([Daniel
-Kokotajlo](https://www.lesswrong.com/users/daniel-kokotajlo) has been
-writing especially interesting essays on this kind of problem).
-
-As for part II, I'm a bit more skeptical. I would summarize "going
-out with a bang" as a "collective treacherous turn", which would
-demand somewhat high levels of coordination between agents of various
-different levels of intelligence (agents would be incentivized to turn
-early because of first-mover-advantages, but this would increase the
-probability of humans doing something about it), as well as agents
-knowing very early that they want to perform a treacherous turn to
-influence-seeking behavior. I'd like to think about how the frequency of
-premature treacherous turns relates to the intelligence of agents. Would
-that be continuous or discontinuous? Unrelated to Christiano's post,
-this seems like an important consideration (maybe work has gone into
-this and I just haven't seen it yet).
-
-Still, part II holds up pretty well, especially since we can expect AI
-systems to cooperate effectively via merging utility functions, and we
-can see systems in the real world that fail regularly, but not much is
-being done about them (especially social structures that sort-of work).
-
-I have referenced this post numerous times, mostly in connection with a
-short explanation of how I think current attention-grabbing systems are
-a variant of what is described in part I. I think it's pretty good, and
-someone (not me) should flesh the idea out a bit more, perhaps connecting
-it to existing systems (I remember the story about the recommender system
-manipulating its users into political extremism to increase viewing time,
-but I can't find a link right now).
-
-The one thing I would like to see improved is at least some links to
-prior existing work. Christiano writes that
-
-> (None of the concerns in this post are novel.)
-
-but it isn't clear whether he is just summarizing things he has thought
-about, which are implicit knowledge in his social web, or whether he is
-summarizing existing texts. I think part I would have benefitted from a
-link to Goodhart's law (or an explanation why it is something different).
-
-1960: The Year The Singularity Was Cancelled (Scott Alexander, 2019)
---------------------------------------------------------------------
-
-*Written for the [2019 LessWrong Review](https://www.lesswrong.com/posts/QFBEjjAvT6KbaA3dY/the-lesswrong-2019-review)*
-
-[Original Post](https://www.lesswrong.com/posts/bYrF8rXFYwPqnfxTp/1960-the-year-the-singularity-was-cancelled)
-
-I believe this is an important
-[gears-level](https://www.lesswrong.com/posts/B7P97C27rvHPz3s9B/gears-in-understanding)
-addition to posts like [hyperbolic
-growth](https://sideways-view.com/2017/10/04/hyperbolic-growth/),
-[long-term growth as a sequence of exponential
-modes](http://mason.gmu.edu/~rhanson/longgrow.html) and an old Yudkowsky
-post I am unable to find at the moment.<!--TODO: capitalization of Yudkowsky is wrong still on LW-->
-
-I don't know how closely these
-texts are connected, but [Modeling the Human
-Trajectory](https://www.openphilanthropy.org/blog/modeling-human-trajectory)
-picks up one year later, creating two technical models: one
-stochastically fitting and extrapolating GDP growth; the other providing
-a deterministic outlook, considering labor, capital, human capital,
-technology and production (and, in one case, natural resources). Roodman
-arrives at somewhat similar conclusions, too: The industrial revolution
-was a _very_ big deal, and something happened around 1960 that has
-slowed the previous strong growth (as far as I remember, it doesn't
-provide an explicit reason for this).
-
-A point in this post that I found especially interesting
-was the speculation about the back plague being the spark
-that ignited the industrial revolution. The reason given is
-a good example of [slack catapulting a system out of a local
-maximum](https://www.lesswrong.com/posts/GZSzMqr8hAB2dR8pk/studies-on-slack),
-in this case a malthusian europe into the industrial revolution.
-
-Interestingly, both this text and Roodman don't consider individual
-intelligence as an important factor in global productivity. Despite the
-well-known [Flynn-Effect](https://en.wikipedia.org/wiki/Flynn_effect)
-that has mostly continued since 1960 (caveat caveat), no extraordinary
-change in global productivity has occurred. This makes some sense: a
-rise of less than 1 standard deviation might be appreciable, but not
-groundbreaking. But the relation to artificial intelligence makes it
-interesting: the purported (economic) advantage of AI systems is that
-they can copy themselves, thereby making population growth not the
-most constraining variable in this growth model. I don't believe this
-is particularly anticipation-constraining, though: this could mean that
-either the post-singularity ("singularity") world is multipolar, or the
-singleton controlling everything has created many sub-agents.
-
-I appreciate this post. I have referenced it a couple of
-times in conversations. Together with the investigation
-by OpenPhil it makes a solid case that [the gods of straight
-lines](https://slatestarcodex.com/2018/11/26/is-science-slowing-down-2/)
-have decided to throw us into [the most important century of
-history](https://forum.effectivealtruism.org/posts/XXLf6FmWujkxna3E6/are-we-living-at-the-most-influential-time-in-history-1).
-May the [godess of everything
-else](https://www.lesswrong.com/posts/MFNJ7kQttCuCXHp8P/the-goddess-of-everything-else)
-be merciful with us.
 
 Compassion, by the Pound (F. Bailey Norwood/Jayson L. Lusk, 2011)
 ------------------------------------------------------------------
@@ -313,10 +182,206 @@ life and meaning, but felt rather pointless.
 
 __3/10__
 
-Persuasion Tools: AI takeover without AGI or agency? (Daniel Kokotajlo, 2020)
-------------------------------------------------------------------------------
+LessWrong Yearly Reviews
+-------------------------
 
-*Written for the [2020 LessWrong Review](https://www.lesswrong.com/posts/M9kDqF2fn3WH44nrv/the-2020-review-preliminary-voting)*
+### 2019
+
+These were written for the [2019 LessWrong Review](https://www.lesswrong.com/posts/QFBEjjAvT6KbaA3dY/the-lesswrong-2019-review).
+
+#### What failure looks like (Paul Christiano, 2019)
+
+[Original Post](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like).
+
+I read [this
+post](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like)
+only half a year ago after seeing it being referenced in several different
+places, mostly as a newer, better alternative to the existing FOOM-type
+failure scenarios. I also didn't follow the comments on this post when
+it came out.
+
+This post makes a lot of sense in Christiano's worldview, where we have a
+relatively continuous, somewhat multipolar takeoff which to a large extent
+inherits the problem in our current world. This is especially applies to
+part I: we already have many different instances of scenarios where humans
+follow measured incentives and produce unintended outcomes. [Goodhart's
+law](https://en.wikipedia.org/wiki/Goodhart%27s_law) is a thing. Part
+I ties in especially well with Wei Dai's concern that
+
+> AI-powered memetic warfare makes all humans effectively insane.
+
+While I haven't done research on this, I have a medium
+strength intuition that this is already happening. Many
+people I know are at least somewhat addicted to the internet,
+having lost a lot of attention due to having their motivational
+system hijacked, which is worrying because [Attention is your scarcest
+resource](https://www.lesswrong.com/posts/aDtzAZf3LnwYvmBP7/attention-is-your-scarcest-resource).
+I believe investigating the amount to which attention has
+deteriorated (or has been monopolized by different actors)
+would be valuable, as well as thinking about which incentives
+will start when AI technologies become more powerful ([Daniel
+Kokotajlo](https://www.lesswrong.com/users/daniel-kokotajlo) has been
+writing especially interesting essays on this kind of problem).
+
+As for part II, I'm a bit more skeptical. I would summarize "going
+out with a bang" as a "collective treacherous turn", which would
+demand somewhat high levels of coordination between agents of various
+different levels of intelligence (agents would be incentivized to turn
+early because of first-mover-advantages, but this would increase the
+probability of humans doing something about it), as well as agents
+knowing very early that they want to perform a treacherous turn to
+influence-seeking behavior. I'd like to think about how the frequency of
+premature treacherous turns relates to the intelligence of agents. Would
+that be continuous or discontinuous? Unrelated to Christiano's post,
+this seems like an important consideration (maybe work has gone into
+this and I just haven't seen it yet).
+
+Still, part II holds up pretty well, especially since we can expect AI
+systems to cooperate effectively via merging utility functions, and we
+can see systems in the real world that fail regularly, but not much is
+being done about them (especially social structures that sort-of work).
+
+I have referenced this post numerous times, mostly in connection with a
+short explanation of how I think current attention-grabbing systems are
+a variant of what is described in part I. I think it's pretty good, and
+someone (not me) should flesh the idea out a bit more, perhaps connecting
+it to existing systems (I remember the story about the recommender system
+manipulating its users into political extremism to increase viewing time,
+but I can't find a link right now).
+
+The one thing I would like to see improved is at least some links to
+prior existing work. Christiano writes that
+
+> (None of the concerns in this post are novel.)
+
+but it isn't clear whether he is just summarizing things he has thought
+about, which are implicit knowledge in his social web, or whether he is
+summarizing existing texts. I think part I would have benefitted from a
+link to Goodhart's law (or an explanation why it is something different).
+
+#### 1960: The Year The Singularity Was Cancelled (Scott Alexander, 2019)
+
+[Original Post](https://www.lesswrong.com/posts/bYrF8rXFYwPqnfxTp/1960-the-year-the-singularity-was-cancelled).
+
+I believe this is an important
+[gears-level](https://www.lesswrong.com/posts/B7P97C27rvHPz3s9B/gears-in-understanding)
+addition to posts like [hyperbolic
+growth](https://sideways-view.com/2017/10/04/hyperbolic-growth/),
+[long-term growth as a sequence of exponential
+modes](http://mason.gmu.edu/~rhanson/longgrow.html) and an old Yudkowsky
+post I am unable to find at the moment.<!--TODO: capitalization of Yudkowsky is wrong still on LW-->
+
+I don't know how closely these
+texts are connected, but [Modeling the Human
+Trajectory](https://www.openphilanthropy.org/blog/modeling-human-trajectory)
+picks up one year later, creating two technical models: one
+stochastically fitting and extrapolating GDP growth; the other providing
+a deterministic outlook, considering labor, capital, human capital,
+technology and production (and, in one case, natural resources). Roodman
+arrives at somewhat similar conclusions, too: The industrial revolution
+was a _very_ big deal, and something happened around 1960 that has
+slowed the previous strong growth (as far as I remember, it doesn't
+provide an explicit reason for this).
+
+A point in this post that I found especially interesting
+was the speculation about the back plague being the spark
+that ignited the industrial revolution. The reason given is
+a good example of [slack catapulting a system out of a local
+maximum](https://www.lesswrong.com/posts/GZSzMqr8hAB2dR8pk/studies-on-slack),
+in this case a malthusian europe into the industrial revolution.
+
+Interestingly, both this text and Roodman don't consider individual
+intelligence as an important factor in global productivity. Despite the
+well-known [Flynn-Effect](https://en.wikipedia.org/wiki/Flynn_effect)
+that has mostly continued since 1960 (caveat caveat), no extraordinary
+change in global productivity has occurred. This makes some sense: a
+rise of less than 1 standard deviation might be appreciable, but not
+groundbreaking. But the relation to artificial intelligence makes it
+interesting: the purported (economic) advantage of AI systems is that
+they can copy themselves, thereby making population growth not the
+most constraining variable in this growth model. I don't believe this
+is particularly anticipation-constraining, though: this could mean that
+either the post-singularity ("singularity") world is multipolar, or the
+singleton controlling everything has created many sub-agents.
+
+I appreciate this post. I have referenced it a couple of
+times in conversations. Together with the investigation
+by OpenPhil it makes a solid case that [the gods of straight
+lines](https://slatestarcodex.com/2018/11/26/is-science-slowing-down-2/)
+have decided to throw us into [the most important century of
+history](https://forum.effectivealtruism.org/posts/XXLf6FmWujkxna3E6/are-we-living-at-the-most-influential-time-in-history-1).
+May the [godess of everything
+else](https://www.lesswrong.com/posts/MFNJ7kQttCuCXHp8P/the-goddess-of-everything-else)
+be merciful with us.
+
+### 2020
+
+These were written for the [2020 LessWrong
+Review](https://www.lesswrong.com/posts/M9kDqF2fn3WH44nrv/the-2020-review-preliminary-voting).
+
+#### Anti-Aging: State of the Art (JackH, 2020)
+
+[Original post](https://www.lesswrong.com/posts/RcifQCKkRc9XTjxC2/anti-aging-state-of-the-art).
+
+I read this post at the same time as reading [Ascani
+2019](https://forum.effectivealtruism.org/s/8QHbqGpXnzcQxiAis)
+and [Ricón 2021](https://nintil.com/longevity) in an
+attempt to get clear about anti-aging research. Comparing
+these three texts against each other, I would classify [Ascani
+2019](https://forum.effectivealtruism.org/s/8QHbqGpXnzcQxiAis) as
+trying to figure out whether focusing on anti-aging research is a
+good idea, [Ricón 2021](https://nintil.com/longevity) trying to give
+a gearsy overview of the field (objective unlocked: get Nintil posts
+cross-posted to LessWrong), and this text as showing what has already
+been accomplished.
+
+In that regard it succeeds perfectly well: The structure of Part V is
+so clean I suspect that it sweeps a bunch of complexity and alternative
+approaches under the rug, and the results described seriously impressed
+me and some of the people I was reading this text with at the time (We
+can *reverse arthritis and cataracts in mice*‽ We can *double their
+maximum lifespan*‽). It is excellent science propaganda: Inspiring
+awe at what has been accomplished, desire to accomplish more, and
+hope that this is possible.
+
+While the post shines in parts III, IV and V, I have some
+quibbles and complaints about the introduction, part I
+and part II. First, I disliked the jab against cryonics
+in the first paragraph [without considering the costs and
+benefits](https://niplav.github.io/considerations_on_cryonics.html),
+which rightly received some pushback in the comments (the strongest
+counter-observation being that barring [some practical suggestions
+for slowing down aging right now](https://www.gwern.net/Longevity),
+cryonics and anti-aging research occupy very different parts of the
+strategy for life-extension, and can be pursued in parallel). Part II
+disappointed me because it was pro-longevity advocacy under the veneer
+of a factual question: Has anybody actually tried to think through how a
+world without aging might *actually look like*, instead of re-treading the
+same pro-aging trance and anti-aging science arguments? That seems like
+a question that is both interesting and pretty relevant, even when you
+believe that ending aging is important enough that it should definitely
+be done, if just to prepare for weird second- and third-order effects.
+
+(Part I felt like I was a choir being preached to, which isn't *that bad*,
+but still…)
+
+I really liked learning a bunch of new facts about aging (as for example
+the list of species that don't age, that aging is responsible for 30%
+of lost DALYs, and distinction between gerontology, engineering and
+geriatrics). Factposts are underrated.
+
+The comments on this post were often very good, and had some nice
+discussion about whether the advice in section VII was to be focused on.
+
+I've been overly negative in this review, but overall I still like this
+post, and have voted a 4 on it (which I might change to a 1). The parts
+III-V are excellent, and I have only minor problems with the preceding
+parts. This is the kind of post I would give a science-interested
+skeptic of anti-aging research. I'd like to have this post in the review,
+because it represents something some part of the core to the LessWrong
+transhumanist aesthetic that often gets overlooked.
+
+#### Persuasion Tools: AI takeover without AGI or agency? (Daniel Kokotajlo, 2020)
 
 [Original post](https://www.lesswrong.com/posts/qKvn7rxP2mzJbKfcA/persuasion-tools-ai-takeover-without-agi-or-agency).
 
@@ -417,69 +482,3 @@ governments, downloaded my favourite websites.
 This post was relevant to my thoughts about alternative AI risk scenarios
 as well as drastic personal decisions, and I expect to give it a 1 or
 (more likely) a 4 in the final vote.
-
-Anti-Aging: State of the Art (JackH, 2020)
--------------------------------------------
-
-*Written for the [2020 LessWrong Review](https://www.lesswrong.com/posts/M9kDqF2fn3WH44nrv/the-2020-review-preliminary-voting)*
-
-[Original post](https://www.lesswrong.com/posts/RcifQCKkRc9XTjxC2/anti-aging-state-of-the-art)
-
-
-I read this post at the same time as reading [Ascani
-2019](https://forum.effectivealtruism.org/s/8QHbqGpXnzcQxiAis)
-and [Ricón 2021](https://nintil.com/longevity) in an
-attempt to get clear about anti-aging research. Comparing
-these three texts against each other, I would classify [Ascani
-2019](https://forum.effectivealtruism.org/s/8QHbqGpXnzcQxiAis) as
-trying to figure out whether focusing on anti-aging research is a
-good idea, [Ricón 2021](https://nintil.com/longevity) trying to give
-a gearsy overview of the field (objective unlocked: get Nintil posts
-cross-posted to LessWrong), and this text as showing what has already
-been accomplished.
-
-In that regard it succeeds perfectly well: The structure of Part V is
-so clean I suspect that it sweeps a bunch of complexity and alternative
-approaches under the rug, and the results described seriously impressed
-me and some of the people I was reading this text with at the time (We
-can *reverse arthritis and cataracts in mice*‽ We can *double their
-maximum lifespan*‽). It is excellent science propaganda: Inspiring
-awe at what has been accomplished, desire to accomplish more, and
-hope that this is possible.
-
-While the post shines in parts III, IV and V, I have some
-quibbles and complaints about the introduction, part I
-and part II. First, I disliked the jab against cryonics
-in the first paragraph [without considering the costs and
-benefits](https://niplav.github.io/considerations_on_cryonics.html),
-which rightly received some pushback in the comments (the strongest
-counter-observation being that barring [some practical suggestions
-for slowing down aging right now](https://www.gwern.net/Longevity),
-cryonics and anti-aging research occupy very different parts of the
-strategy for life-extension, and can be pursued in parallel). Part II
-disappointed me because it was pro-longevity advocacy under the veneer
-of a factual question: Has anybody actually tried to think through how a
-world without aging might *actually look like*, instead of re-treading the
-same pro-aging trance and anti-aging science arguments? That seems like
-a question that is both interesting and pretty relevant, even when you
-believe that ending aging is important enough that it should definitely
-be done, if just to prepare for weird second- and third-order effects.
-
-(Part I felt like I was a choir being preached to, which isn't *that bad*,
-but still…)
-
-I really liked learning a bunch of new facts about aging (as for example
-the list of species that don't age, that aging is responsible for 30%
-of lost DALYs, and distinction between gerontology, engineering and
-geriatrics). Factposts are underrated.
-
-The comments on this post were often very good, and had some nice
-discussion about whether the advice in section VII was to be focused on.
-
-I've been overly negative in this review, but overall I still like this
-post, and have voted a 4 on it (which I might change to a 1). The parts
-III-V are excellent, and I have only minor problems with the preceding
-parts. This is the kind of post I would give a science-interested
-skeptic of anti-aging research. I'd like to have this post in the review,
-because it represents something some part of the core to the LessWrong
-transhumanist aesthetic that often gets overlooked.
