@@ -16,6 +16,7 @@ scenarios such as ontological crises are discussed.__
 
 <!--TODO: Read Transitive Reduction, Graph Edit Distance on WP-->
 <!--https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/niplav-s-shortform?commentId=XRmMoNCPmDhvyLzwc-->
+<!--https://www.lesswrong.com/posts/ky988ePJvCRhmCwGo/using-vector-fields-to-visualise-preferences-and-make-them-->
 
 Turning Some Inconsistent Preferences into Consistent Ones
 ===========================================================

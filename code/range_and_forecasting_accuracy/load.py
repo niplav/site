@@ -1,4 +1,5 @@
 import csv
+import statistics
 import numpy as np
 import scipy.stats as sps
 import scipy.optimize as spo
@@ -147,3 +148,15 @@ for e in fwpbqbrier:
 	except RuntimeError:
 		within_logi_fits_pb.append([])
 		continue
+
+within_logi_fits_met_filt=list(filter(lambda x: len(x)>0, within_logi_fits_met))
+within_logi_fits_pb_filt=list(filter(lambda x: len(x)>0, within_logi_fits_pb))
+
+met_logi_horizons=[(np.log((1/0.96)-1)-f[0][1])/f[0][0] for f in within_logi_fits_met_filt]
+pb_logi_horizons=[(np.log((1/0.96)-1)-f[0][1])/f[0][0] for f in within_logi_fits_pb_filt]
+
+within_exp_fits_met=[spo.curve_fit(shift_exp, e[0], e[1], bounds=([0], [1])) for e in wmetqbrier]
+within_exp_fits_pb=[spo.curve_fit(shift_exp, e[0], e[1], bounds=([0], [1])) for e in wpbqbrier]
+
+met_exp_horizons=[np.log(0.04)/np.log(f[0][0]) for f in within_exp_fits_met]
+pb_exp_horizons=[np.log(0.04)/np.log(f[0][0]) for f in within_exp_fits_pb]

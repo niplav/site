@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-05-07, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-05-27, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -37,7 +37,6 @@ Site
 * Add RSS feed (ugh)
 	* `https://www.interglacial.com/tpj/26/`
 	* `https://github.com/html2rss/html2rss`
-	* `https://github.com/html2rss/html2rss`
 	* `http://fetchrss.com/`
 	* `https://www.linux.com/news/building-command-line-generator-rss-feeds-0/`
 	* `https://lynxbee.com/bash-script-to-generate-rss-feed-compatible-xml-using-unique-urls-of-a-website/#.Yl_EYlxBxH5`
@@ -64,20 +63,13 @@ Existing Texts
 --------------
 
 * Range and Forecasting Accuracy
-	* Add explanatory image for the [illustrative example](./range_and_forecasting_accuracy.html#Three-Different-Analyses-An-Illustrative-Example)
 	* Move the [PredictionBook download code](./range_and_forecasting_accuracy.html#For-PredictionBook) to the [PredictionBook API](https://github.com/bellroy/predictionbook/blob/master/API.md)
-	* Rewrite the code in Python
 	* Find Muehlhauser email with additional source
 	* Extend the analysis to more datapoints
 		* Extend the analysis to predictions with confidence intervals
 		* Extend the analysis to real Metaculus data
 		* Extend to more datasets
 			* `https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters`
-	* Add a paragraph on the difference in quality between the two datasets, Metaculus is better
-	* Make more readable
-	* Prevent the OOD prediction, either
-		* find a scoring rule that maps into all of ℝ
-		* curve-fit something other than a linear function
 	* Add a literature review
 		* `https://rethinkpriorities.org/publications/how-does-forecast-quantity-impact-forecast-quality-on-metaculus`
 		* `https://rethinkpriorities.org/publications/an-analysis-of-metaculus-predictions-of-future-ea-resources`
@@ -297,7 +289,17 @@ Texts
 	* AI safety via debate (Geoffrey Irving/Paul Christiano/Dario Amodei, 2018) test debate on an MNIST classifier with depths 4 and 6, what are the scaling laws for the depth and size of models?
 * Import reddit post about nuclear & ai worries
 * Overlapping Concerns for AI X-Risk and the Social Left
+	* Interpretability
+		* Useful for detecting & removing algorithmic bias
+		* More understandable models can be more "democratic" and subject to regulations
+	* Compute governance
+		* Models requiring large amounts of compute are only available to big corporations
+			* increase oligopolies
+			* increased corporate vs. state capacity
+				* companies pull away capable researchers to work on private projects
+		* Large amounts of compute generate CO₂ (or, in the case of using green energy, counterfactually increase the price of green energy, leading to people (in expectation) purchasing more non-green energy)
 * Scaling Laws Under Different Activation Functions
+	* What are the scaling laws for ReLUs vs. sigmoids?
 
 ### Pick Up
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2022-05-24, language: english, status: maintenance, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2022-05-28, language: english, status: maintenance, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in
 relation to the time between forecast and resolution, and
@@ -12,9 +12,9 @@ higher [within questions](#Judging-Within-Questions)? These questions are
 analyzed using data from [PredictionBook](https://predictionbook.com/)
 and [Metaculus](https://www.metaculus.com/questions/), the answers turn
 out to be yes, unclear and yes for Metaculus data; and no, no and yes
-for PredictionBook data. Possible reasons are discussed.__
-
-<!--TODO: fix instances of \* \*-->
+for PredictionBook data. Possible reasons are discussed. I also try to
+find out how far humans can look into the future, leading to various
+different results.__
 
 Range and Forecasting Accuracy
 ===============================
@@ -28,13 +28,12 @@ turns deadbeat, evict it.
 
 *— [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“Making Beliefs Pay Rent (in Anticipated Experiences)“](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences), 2007*
 
-[Probabilistic
-forecasting](https://en.wikipedia.org/wiki/Probabilistic_forecasting)<!--TODO:
-re-pivot to "judgemental forecasting"?-->
-that aggregates both [qualitative and quantitative
+Judgmental forecasting<!--TODO: link--> in which
+humans aggregate both [qualitative and quantitative
 methods](https://en.wikipedia.org/wiki/Forecasting#Qualitative_vs._quantitative_methods)
-is a comparatively simple idea. Basically, one needs to have only very
-few tools at one's disposal to being ready to start forecasting:
+to make predictions, and become better at doing so, is a comparatively
+simple idea. Basically, one needs to have only very few tools at one's
+disposal to being ready to start forecasting:
 
 <!--TODO: give more weight to the fact that it is humans doing this-->
 
@@ -83,7 +82,9 @@ In this text, I will try to look at the accuracy of short-term and
 mid-term forecasting, which may shine some light on the relation between
 the range of forecasts and their accuracy in general.
 
-The *range* of a forecast is defined as the length of the timespan
+### Definitions
+
+The __range__ of a forecast is defined as the length of the timespan
 between the forecast and the resolution of the forecast (i.e.,
 when we know the outcome of the forecast). Keeping with [Muehlhauser
 2019](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting "How Feasible Is Long-range Forecasting?"),
@@ -91,6 +92,14 @@ I define short-term forecasts as forecasts with a range of less than
 a year, mid-range forecasts as forecasts with a range between 1 and 10
 years, and long-term forecasts as forecasts with a range of more than 10
 years (this distinction is not central to the following analysis, though).
+
+The __horizon__ of a set of forecasts is the range at which these
+forecasts are as good as chance, i.e. as random guessing. Similarly,
+one can speak of the horizon of a forecaster (the range at which the
+forecaster could just as well guess the predictions) and of a forecasting
+platform.
+
+-----
 
 Fortunately, for short- and mid-range forecasts, two easily accessible
 sources of forecasts and their resolutions are available online: The two
@@ -127,29 +136,69 @@ range) I investigate the relation between the accuracy of predictions
 and their range (that is, the time between the prediction being made
 and the result of the prediction being known).
 
-I find that the data indicates three facts:
+I find that the data indicates the following conclusions (if any
+of the terms don't make sense, perhaps reading the [illustrative
+example](#Three-Different-Analyses-An-Illustrative-Example) can help):
 
-1.	For predictions made on any question, the predictions made a long
-	time before their resolution are generally more accurate than
-	predictions made a shorter time before their resolution. This
-	can be partially, but not completely explained by fact *3.*
-	1. The results for PredictionBook and Metaculus disagree here
-	2.	The correlations (0.02 for Metaculus, -0.02 for
-		PredictionBook) and
-		[slopes](https://en.wikipedia.org/wiki/Slope)
-		of the [linear
-		regressions](https://en.wikipedia.org/wiki/Linear_regression)
-		are close to 0
-2.	Questions with a longer range (that is, time between the question
-	being written and the question being resolved) generally receive
-	predictions with a higher accuracy than questions with a shorter
-	range.
-	1.	Again, the correlation coefficients (-0.01 for Metaculus,
-		and -0.05 for PredictionBook) and the slopes of the linear
-	regressions are close to 0
-3.	Predictions made on the same question closer to resolution time
-	are generally more accurate than predictions that are made long
-	before resolution time.
+1.	Comparing __all forecasts on all questions__, irrespective of the
+	question ([more](#Accuracy-Between-Forecasts)):
+	1.	Predictions made *a long time before their resolution*
+		are generally *less accurate* than predictions made
+		*a shorter time before their resolution* ([more](#Results_1)).
+		1. The results for PredictionBook and Metaculus disagree here. This can be partially,
+			but not completely, explained by the
+			fact that questions with a longer
+			range receive more accurate forecasts
+			([more](#This-Partially-Explains-the-Result-Between-Forecasts)).
+		2.	The correlations (0.02 for Metaculus, -0.02 for
+			PredictionBook) and
+			[slopes](https://en.wikipedia.org/wiki/Slope)
+			of the [linear
+			regressions](https://en.wikipedia.org/wiki/Linear_regression)
+			are close to 0.
+	2.	The timespan into the future at which our forecasts
+		become *approximately random* (the
+		*[horizon](#The-Horizon)*) is *not easily to estimated
+		from the data* ([more](#This-Is-Cool)).
+		1.	Fitting a logistic function
+			([more](##Fitting-a-Logistic-Function)), the
+			expected horizon is ~3.6 years for Metaculus
+			and ~18 years for PredictionBook
+		2.	Fitting an exponential function
+			([more](#Fitting-an-Exponential-Function)),
+			the expected horizon is ~75 days for Metaculus,
+			and ~0.5 days for PredictionBook
+2. Aggregating __the forecasts on each question, and then comparing the
+	questions__ to one another ([more](#Accuracy-Between-Questions)):
+	1.	Questions with a longer range (that is, *time between the question
+		being written and the question being resolved*) generally receive
+		predictions with a higher accuracy than questions with a shorter
+		range ([more](#Results_2)).
+		1.	Again, the correlation coefficients (-0.01 for
+			Metaculus (though p>0.8), and -0.05 for
+			PredictionBook) and the slopes of the linear
+			regressions are close to 0.
+	2.	The [horizon](#The-Horizon) is *only a few days* in this
+		scenario ([more](#NonLinear-CurveFitting_1)), which [might
+		make sense](#Why-Longer-Range-Questions-More-Accurate).
+3.	Comparing __only predictions on the same question__, for all
+	questions ([more](#Accuracy-Within-Questions)):
+	1.	Predictions made *on the same question closer to
+		resolution time* are generally *more accurate* than
+		predictions that are made *long before resolution time*
+		([more](#Aggregating-Linear-Regressions)).
+	2.	The distribution of horizons is
+		*long-tailed*, perhaps distributed logarithmically
+		([more](#Logistic-Forecast-Horizons-for-Questions) and
+		[more](#Exponential-Forecast-Horizons-for-Questions))
+		1. Most expected horizons are very short (<10 days)
+		2.	For logistic curve-fits, the mean horizon over
+			questions is improbably high (10²³ days)
+			([more](#Logistic-Forecast-Horizons-for-Questions)).
+		3.	For exponential curve-fits, the mean
+			horizon over questions is ~4.5 years for
+			Metaculus and ~120 years for PredictionBook
+			([more](#Exponential-Forecast-Horizons-for-Questions)).
 
 These results suggest what to expect with questions with even greater
 range: That later predictions (closer to resolution time) on them will
@@ -167,12 +216,115 @@ easier to predict on medium timescales), but nearly completely random at
 the scale of decades and/or centuries; the questions asked about longer
 timescales are of a different kind and much less predictable.
 
+Furthermore, estimating the length of forecast horizons has returned
+ambiguous results, and more research in that area is needed. It appears
+plausible that horizon lengths follow a logarithmic distribution, and
+over all forecasts assume values of at most several decades).
+
 <!--TODO: in 1/2/5/10 years, will the linear regression coefficients for
 these datasets still be positive/negative?-->
 
 I hope to update this analysis in the future, when data from predictions
 with higher ranges has become available, and to check whether the findings
 in this analysis continue to be correct.
+
+Three Different Analyses: An Illustrative Example
+-------------------------------------------------
+
+In this text, I analyze the relation between accuracy and range in
+forecasting, considering three different aspects:
+
+* Between forecasts
+* Between questions
+* Within questions
+
+What exactly does this mean?
+
+Let's say there are two people: Bessie and Heloïse. They are trying
+to make predictions about the weather about different time horizons
+(it is currently midnight):
+
+1. Will it rain tomorrow? (resolution: no/0), which has a range of 1 day
+2. Will the average temperature in a week be higher than 20°C? (resolution: no/0), which has a range of 7 days
+
+Let's say that they make the following predictions:
+
+* Bessie: 0.3 for 1, 0.95 for 2
+* Heloïse: 0.1 for 1, 0.6 for 2
+
+Let's also say that they make their predictions in alphabetical order
+of their names, eight hours after another (Bessie at 00:00 and Heloïse at
+10:00).
+
+The following chart shows that, in this scenario, later predictions on the
+same question are more accurate, and also that predictions on questions
+with a shorter range are more accurate (for simplicity's sake, I don't
+use a [proper scoring rule](https://en.wikipedia.org/wiki/Scoring_rule)
+here to judge the accuracy of forecasts, but simply the probability
+assigned to the correct outcome (here the vertical distance of the
+probability to the outcome)).
+
+![Chart showing the forecasts on the day-range question and the week-range question. One can see that questions with a shorter range assign a higher probability to the correct outcome (i.e. 0), and also predictions on the question with the shorter range are more accurate.](./img/range_and_forecasting_accuracy/example.png "Chart showing the forecasts on the day-range question and the week-range question. One can see that questions with a shorter range assign a higher probability to the correct outcome (i.e. 0), and also predictions on the question with the shorter range are more accurate.")
+
+### Judging Between Forecasts
+
+Evaluating the relation between forecasts would be as following: Each
+forecast, its resolution and its timespan are independently analyzed.
+
+We have four predictions:
+
+1. One with a range of 14 hours, a probability of 0.1 (Heloïse's prediction on 1), and a resolution of 0
+2. One with a range of 24 hours, a probability of 0.3, (Bessie's prediction on 1) and a resolution of 0
+3. One with a range of `$24h/d \cdot 7d-10h=158h$`, a probability of 0.6 (Heloïse's prediction on 2), and a resolution 0
+4. One with a range of `$24h/d \cdot 7d=168h$`, a probability of 0.95 (Bessie's prediction on 2), and a resolution 0
+
+The Brier scores for ranges are then 0.01 for 14h, 0.09 for 24h, 0.36
+for 158h, and 0.9025 for 168h. Here, higher range between forecasts is
+correlated with worse performance.
+
+In the chart above, the relation of range and accuracy between forecasts
+would be the black linear regression.
+
+### Judging Between Questions
+
+Judging the performance between questions now means looking at the
+forecasts made on each question and evaluating the performance
+of forecasts on that question.
+
+Question 1 has a range of 24h, and question 2 has a range of 168h.
+The Brier score for predictions on question 1 is 0.05, and the Brier
+score for predictions on question 2 is 0.63125. In this case, a higher
+range seems to be worse for performance on questions (Brier scores are
+lower/better for question 1).
+
+In the chart above, the relation between range and accuracy between
+questions would be the mauve line (which here turns out to be nearly
+identical to the relation between range and accuracy between forecasts).
+
+### Judging Within Questions
+
+Within questions one examines each question separately.
+
+On question 1, the forecast with the higher range has a Brier score of
+0.09, and the forecast with the lower range has a brier score of 0.01. So
+for question 1, higher range is correlated with worse performance.
+
+For question 2, it is similar, the forecast with the higher range (168h)
+has a score of 0.9025, while the forecast with the lower range (158h)
+has a score of 0.36. Here also higher range is correlated with worse
+performance.
+
+One can now try to aggregate the findings from the two questions and
+could tentatively conclude that generally range within questions is
+correlated negatively with accuracy of forecasts.
+
+In the chart above, the relation between range and accuracy within
+questions would be the cyan and mustard linear regressions.
+
+----------------
+
+These were of course only illustrative examples, but I hope that now
+the different approaches in this text are clearer than before.
 
 Metaculus and PredictionBook
 ----------------------------
@@ -286,9 +438,13 @@ The resulting CSV file contains nearly 50k predictions.
 
 ### For PredictionBook
 
-As far as I know, PredictionBook doesn't publish its data
-over an API. However, all individual predictions are visible
-on the web, which means I had to parse the HTML itself using
+PredictionBook publishes its data over an
+[API](https://github.com/bellroy/predictionbook/blob/master/API.md),
+which I will use in the future to get hold of the data.
+
+Not knowing this when I initially wrote the code, I regressed
+to barbaric behavior: I knew that all individual predictions are
+visible on the web, which means I had to parse the HTML itself using
 [BeautifulSoup](https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser)).
 
 This time the code is more complex, but just slightly so: It starts at
@@ -376,104 +532,6 @@ Code:
 Surprisingly, both platforms had almost the same amount of individual
 predictions on binary resolved questions: ~48k for Metaculus, and ~44k
 for PredictionBook.
-
-Three Different Analyses: An Illustrative Example
--------------------------------------------------
-
-In this text, I analyze the relation between accuracy and range in
-forecasting, considering three different aspects:
-
-* Between forecasts
-* Between questions
-* Within questions
-
-What exactly does this mean?
-
-Let's say there are two people: Bessie and Heloïse. They are trying
-to make predictions about the weather about different time horizons
-(it is currently midnight):
-
-1. Will it rain tomorrow? (resolution: no/0), which has a range of 1 day
-2. Will the average temperature in a week be higher than 20°C? (resolution: no/0), which has a range of 7 days
-
-Let's say that they make the following predictions:
-
-* Bessie: 0.3 for 1, 0.95 for 2
-* Heloïse: 0.1 for 1, 0.6 for 2
-
-Let's also say that they make their predictions in alphabetical order
-of their names, eight hours after another (Bessie at 00:00 and Heloïse at
-10:00).
-
-The following chart shows that, in this scenario, later predictions on the
-same question are more accurate, and also that predictions on questions
-with a shorter range are more accurate (for simplicity's sake, I don't
-use a [proper scoring rule](https://en.wikipedia.org/wiki/Scoring_rule)
-here to judge the accuracy of forecasts, but simply the probability
-assigned to the correct outcome (here the vertical distance of the
-probability to the outcome)).
-
-![Chart showing the forecasts on the day-range question and the week-range question. One can see that questions with a shorter range assign a higher probability to the correct outcome (i.e. 0), and also predictions on the question with the shorter range are more accurate.](./img/range_and_forecasting_accuracy/example.png "Chart showing the forecasts on the day-range question and the week-range question. One can see that questions with a shorter range assign a higher probability to the correct outcome (i.e. 0), and also predictions on the question with the shorter range are more accurate.")
-
-### Judging Between Forecasts
-
-Evaluating the relation between forecasts would be as following: Each
-forecast, its resolution and its timespan are independently analyzed.
-
-We have four predictions:
-
-1. One with a range of 14 hours, a probability of 0.1 (Heloïse's prediction on 1), and a resolution of 0
-2. One with a range of 24 hours, a probability of 0.3, (Bessie's prediction on 1) and a resolution of 0
-3. One with a range of `$24h/d \cdot 7d-10h=158h$`, a probability of 0.6 (Heloïse's prediction on 2), and a resolution 0
-4. One with a range of `$24h/d \cdot 7d=168h$`, a probability of 0.95 (Bessie's prediction on 2), and a resolution 0
-
-The Brier scores for ranges are then 0.01 for 14h, 0.09 for 24h, 0.36
-for 158h, and 0.9025 for 168h. Here, higher range between forecasts is
-correlated with worse performance.
-
-In the chart above, the relation of range and accuracy between forecasts
-would be the black linear regression.
-
-### Judging Between Questions
-
-Judging the performance between questions now means looking at the
-forecasts made on each question and evaluating the performance
-of forecasts on that question.
-
-Question 1 has a range of 24h, and question 2 has a range of 168h.
-The Brier score for predictions on question 1 is 0.05, and the Brier
-score for predictions on question 2 is 0.63125. In this case, a higher
-range seems to be worse for performance on questions (Brier scores are
-lower/better for question 1).
-
-In the chart above, the relation between range and accuracy between
-questions would be the mauve line (which here turns out to be nearly
-identical to the relation between range and accuracy between forecasts).
-
-### Judging Within Questions
-
-Within questions one examines each question separately.
-
-On question 1, the forecast with the higher range has a Brier score of
-0.09, and the forecast with the lower range has a brier score of 0.01. So
-for question 1, higher range is correlated with worse performance.
-
-For question 2, it is similar, the forecast with the higher range (168h)
-has a score of 0.9025, while the forecast with the lower range (158h)
-has a score of 0.36. Here also higher range is correlated with worse
-performance.
-
-One can now try to aggregate the findings from the two questions and
-could tentatively conclude that generally range within questions is
-correlated negatively with accuracy of forecasts.
-
-In the chart above, the relation between range and accuracy within
-questions would be the cyan and mustard linear regressions.
-
-----------------
-
-These were of course only illustrative examples, but I hope that now
-the different approaches in this text are clearer than before.
 
 Accuracy Between Forecasts
 --------------------------
@@ -581,7 +639,7 @@ error in numpy‽-->
 The Brier score is quite easy to implement:
 
 	def brier(x, y):
-		return np.mean((x-y)* *2)
+		return np.mean((x-y)**2)
 
 The first thing we can now do is to compare the forecasts from the
 two websites, and it turns out that Metaculus forecasts are slightly
@@ -830,7 +888,7 @@ which is the case.
 In python, this is simply
 
 	def shift_exp(x, b):
-		return ((b* *x)-1)/(-4)
+		return ((b**x)-1)/(-4)
 
 We can now fit that kind of curve to the data:
 
@@ -860,6 +918,21 @@ predicts Brier scores sufficiently close to 0.25, let's take 0.24 as an
 arbitrary cutoff (which would be, on average, assigning a probability of
 `$1-\sqrt{0.24} \approx 0.51$` to events that take place).
 
+###### The Horizon
+
+Let's call this number the __horizon__: beyond it, our forecasts
+become random, we can neither steer nor see, the fogs of time have
+grown too thick. From our perspective, only chaos reigns there, and
+every decision-theoretic ship that sails it is never to return with
+valuable information.
+
+It is [sometimes
+invoked](#Appendix-A-Quotes-About-the-Horizon-of-Forecasts)
+by people when they want to talk about the inherent unknowability of
+the future, always without evidence of any *actual number*.
+
+------
+
 Then, for the squashed logistic function, we have to find the `$x$` so that
 
 <div>
@@ -870,9 +943,9 @@ Then, for the squashed logistic function, we have to find the `$x$` so that
 
 Then, the logistic-ish forecasting horizon gives
 
-	>>> (np.log(1/(0.96)-1)-metlogifit[0][1])/metlogifit[0][0]
+	>>> (np.log((1/0.96)-1)-metlogifit[0][1])/metlogifit[0][0]
 	1339.4812558296296
-	>>> (np.log(1/(0.96)-1)-pblogifit[0][1])/pblogifit[0][0]
+	>>> (np.log((1/0.96)-1)-pblogifit[0][1])/pblogifit[0][0]
 	6638.833618277785
 
 which is ~3.6 years for Metaculus, and ~18 years for PredictionBook.
@@ -1208,10 +1281,6 @@ question have been resolved?")).
 
 ### Analysis
 
-<!--TODO: The last element in the list is **not** the forecast-resolve
-timediff. It's just the range of the forecast from now, which leads to
-very odd behavior. FIX THIS AAAAAAHHHHH TODO-->
-
 First, the dataset grouped by forecasts had to be grouped by the question
 ID, in both cases a positive integer. The resulting datastructure should
 have the structure
@@ -1369,7 +1438,7 @@ clearer when plotted?
 	fullrng=np.array(range(0, round(max(pbrngs))+1))
 
 	plt.plot(pbqbrier.T[0], pbqbrier.T[1], '.', color='blue', markersize=1)
-	plt.plot(metqbrier.T[0], metqbrier.T[1], '.', color='red', markersize=1)
+	plt.plot(metqbrier.T[0], metqbrier.T[1], '.', color='red', markersize=2)
 	plt.plot(fullrng, shrunk_logistic(fullrng, metlogifit_betweenq[0][0], metlogifit_betweenq[0][1]), 'red', label='Metaculus shrunk logistic-ish regression', linewidth=2)
 	plt.plot(fullrng, shrunk_logistic(fullrng, pblogifit_betweenq[0][0], pblogifit_betweenq[0][1]), 'blue', label='PredictionBook shrunk logistic-ish regression', linewidth=2)
 
@@ -1380,23 +1449,6 @@ clearer when plotted?
 	fig=plt.figure(figsize=(8,8))
 
 ![Scatterplot with logistic regression for Metaculus & PredictionBook question accuracy by range](./img/range_and_forecasting_accuracy/allq_logi.png "Scatterplot with logistic regression for Metaculus & PredictionBook question accuracy by range")
-
-	fig=plt.figure(figsize=(8,8))
-
-	plt.title("Scatterplot with exponential-ish regression for Metaculus & PredictionBook forecasts by range")
-	plt.xlabel("Range (days)")
-	plt.ylabel("Accuracy (Brier score)")
-
-	fullrng=np.array(range(0, round(max(pbrngs))+1))
-
-	plt.plot(pbqbrier.T[0], pbqbrier.T[1], '.', color='blue', markersize=1)
-	plt.plot(metqbrier.T[0], metqbrier.T[1], '.', color='red', markersize=1)
-	plt.plot(fullrng, shift_exp(fullrng, metexpfit_betweenq[0][0]), 'red', label='Metaculus shrunk exponential-ish regression', linewidth=2)
-	plt.plot(fullrng, shift_exp(fullrng, pbexpfit_betweenq[0][0]), 'blue', label='PredictionBook shrunk exponential-ish regression', linewidth=2)
-
-	plt.legend()
-
-	plt.savefig("allq_exp.png")
 
 ![Scatterplot with exponential-ish regression for Metaculus & PredictionBook question accuracy by range](./img/range_and_forecasting_accuracy/allq_exp.png "Scatterplot with exponential-ish regression for Metaculus & PredictionBook question accuracy by range")
 
@@ -1572,9 +1624,9 @@ logistic curve-fit and exponential curve-fit.
 We can now visualise the linear regression for each question by setting
 plotting all linear regressions with random colors (the horizontal length
 of the linear regression indicates the time between the first prediction
-and the last prediction on the question, in its respective timespan:
-a question that was opened three years ago and closed two years ago
-appears on the X-axis between 730 and 1095):
+and the last prediction on the question: a question that was opened three
+years ago, closed two years ago, and resolves now appears on the X-axis
+between 730 and 1095):
 
 	fig=plt.figure(figsize=(8,8))
 	plt.xlabel("Range (days)")
@@ -1593,20 +1645,8 @@ appears on the X-axis between 730 and 1095):
 
 ![Linear regressions for the accuracy of questions by range](./img/range_and_forecasting_accuracy/permetquestion.png "Linear regressions for the accuracy of questions by range, which looks like someone threw a bunch of randomly-colored random-length lines onto a white canvas and then haphazardly shoved them into the bottom-left corner. Or, alternatively, like a failed attempt at modern art.")
 
-	fig=plt.figure(figsize=(8,8))
-	plt.xlabel("Age (days)")
-	plt.ylabel("Linear regression")
-
-	for i in range(0, len(wpbqregs)):
-	        r=wpbqregs[i]
-	        rngs=wpbqbrier[i][0]
-	        slope, intercept, _, _, _=r
-	        cl=hex(random.sample(range(0, 256*256*256), 1)[0]) #random rgb code
-	        #left padding with zeros, can't be bothered to read the formatting docs right now
-	        cl='#'+('0'*(6-len(cl[2:])))+cl[2:]
-	        plt.plot(rngs, intercept+slope*rngs, color=cl, linewidth=1)
-
-	plt.savefig("perpbquestion.png")
+Basically the same code for image generation is used also for the
+PredictionBook data:
 
 ![Linear regressions for the accuracy of questions by range](./img/range_and_forecasting_accuracy/perpbquestion.png "Linear regressions for the accuracy of questions by range, which, as above, looks like someone  threw a bunch of randomly-colored random-length lines onto a white canvas and then haphazardly shoved them into the bottom-left corner. But, like, way more of them, so that it's way too busy to look at.")
 
@@ -1740,7 +1780,7 @@ These can now be plotted, as the linear regressions were above:
 	fig=plt.figure(figsize=(8,8))
 
 	plt.title("Logistic curve-fits for the accuracy of questions by range (only Metaculus data)")
-	plt.xlabel("Age (days)")
+	plt.xlabel("Range (days)")
 	plt.ylabel("Logistic curve-fit")
 
 	for i in range(0, len(within_logi_fits_met)):
@@ -1758,24 +1798,8 @@ These can now be plotted, as the linear regressions were above:
 
 ![Logistic curve-fits for the accuracy of questions by range](./img/range_and_forecasting_accuracy/permetquestion_logi.png "Logistic curve-fits for the accuracy of questions by range. Most of the logistic curve-fits go to 0.25 around 0, but some of them are constant at various values <0.125 over 0 up to 1400 days, and some just rise quite slowly.")
 
-	fig=plt.figure(figsize=(8,8))
-
-	plt.title("Logistic curve-fits for the accuracy of questions by range (only PredictionBook data)")
-	plt.xlabel("Age (days)")
-	plt.ylabel("Logistic curve-fit")
-
-	for i in range(0, len(within_logi_fits_pb)):
-	        r=within_logi_fits_pb[i]
-	        if len(r)==0:
-	                continue
-	        rngs=wpbqbrier[i][0]
-	        slope, intercept=r[0][0], r[0][1]
-	        cl=hex(random.sample(range(0, 256*256*256), 1)[0]) #random rgb code
-	        #left padding with zeros, can't be bothered to read the formatting docs right now
-	        cl='#'+('0'*(6-len(cl[2:])))+cl[2:]
-	        plt.plot(fullrng_pb, shrunk_logistic(fullrng_pb, slope, intercept))
-
-	plt.savefig("perpbquestion_logi.png")
+Again, basically the same code, but for PredictionBook data, gives us
+these plots:
 
 ![Logistic curve-fits for the accuracy of questions by range](./img/range_and_forecasting_accuracy/perpbquestion_logi.png "Logistic curve-fits for the accuracy of questions by range. Most of the logistic curve-fits go to 0.25 around 0, but some of them are constant at various values <0.125 over 0 up to 1400 days, and some just rise quite slowly, just as above with the Metaculus data.")
 
@@ -1788,6 +1812,208 @@ These charts look like what I would have expected:
 
 I'm unsure about the best way to aggregate these different sigmoids
 into one, as I did with the linear regressions above.
+
+##### Logistic Forecast Horizons for Questions
+
+We now can calculate the forecast horizon defined in [this
+section](#This-Is-Cool) for every question, and then calculate some
+summary statistics of the forecast horizons on all questions in the
+two datasets.
+
+First, we have to compute the horizons discovered by the fit (ignoring
+the invalid fits represented by `[]`):
+
+	>>> within_logi_fits_met_filt=list(filter(lambda x: len(x)>0, within_logi_fits_met))
+	>>> within_logi_fits_pb_filt=list(filter(lambda x: len(x)>0, within_logi_fits_pb))
+	>>> met_logi_horizons=[(np.log((1/0.96)-1)-f[0][1])/f[0][0] for f in within_logi_fits_met_filt]
+	>>> pb_logi_horizons=[(np.log((1/0.96)-1)-f[0][1])/f[0][0] for f in within_logi_fits_pb_filt]
+
+So, what horizons do we have?
+
+<table>
+<tbody>
+	<tr>
+		<td></td>
+		<td>Mean</td>
+		<td>Median</td>
+		<td>Mode</td>
+		<td>Variance</td>
+		<td>Maximum</td>
+		<td>Minimum</td>
+	</tr>
+	<tr>
+		<td>Metaculus</td>
+		<td>1.93e+23</td>
+		<td>4.18</td>
+		<td>4.18</td>
+		<td>1.42e+49</td>
+		<td>8.79e+25</td>
+		<td>0.0043</td>
+	</tr>
+	<tr>
+		<td>PredictionBook</td>
+		<td>3.93e+23</td>
+		<td>4.18</td>
+		<td>4.18</td>
+		<td>1.11e+50</td>
+		<td>3.04e+26</td>
+		<td>0.000137</td>
+	</tr>
+</tbody>
+</table>
+
+This shouldn't be *that* surprising: some of the logistic fits were
+basically flat, and some were basically vertical, so it is to be
+expected that we have lots of outliers present. What is interesting is
+that the median & mode in both datasets are the same number, ~4.17. This
+is probably due to many questions having a slope of -1 and an intercept
+1<!--TODO: when do they?-->, leading to the same logistic fit.
+
+We can plot a histogram of the horizons for questions (with the horizon
+length being logarithmic, base 10):
+
+	plt.savefig("perpbquestion_logi.png")
+
+	fig=plt.figure(figsize=(8,8))
+
+	plt.title("Horizons for logistic curve-fits within questions")
+	plt.xlabel("Horizon length")
+	plt.ylabel("Number of questions")
+
+	plt.hist([np.log10(met_logi_horizons), np.log10(pb_logi_horizons)], bins=20, color=('red', 'blue'))
+
+	plt.savefig("logi_horizons.png")
+
+![Horizons for the questions](./img/range_and_forecasting_accuracy/logi_horizons.png "Horizons for the questions in a barplot. Most horizon lengths center around 0, with ~400 for Metaculus and ~500 for PredictionBook, with the number of questions with a specific horizon falling monotonically in the positive direction (Metaculus numbers falling faster than PredictionBook numbers). The number of questions with a specific horizon reaches ~0 at ~10⁵, with a few outliers in the negative (~10⁻⁴) and positive (10²⁵) direction.")
+
+From this we can glean that:
+
+1. Most questions supposedly have really short horizon lengths (becoming impossible to predict basically immediately): `len(list(filter(lambda x: x>1 and x<10, met_logi_horizons)))/len(met_logi_horizons)≅68.9%`
+2. Most others have decent horizon lengths (a few hundred to a few thousand days): `len(list(filter(lambda x: x>=10 and x<10000, met_logi_horizons)))/len(met_logi_horizons)≅22.8%`
+3. A few are strong outliers (mostly in the direction of *very* long horizons): `len(list(filter(lambda x: x<=1 or x>=10000, met_logi_horizons)))/len(met_logi_horizons)≅8.27%`
+
+#### Exponential Curve-Fit
+
+We can now perform a very similar analysis, just using exponential fits.
+Here, for some reason, we don't run into problems with inscrutable errors:
+
+	within_exp_fits_met=[spo.curve_fit(shift_exp, e[0], e[1], bounds=([0], [1])) for e in wmetqbrier]
+	within_exp_fits_pb=[spo.curve_fit(shift_exp, e[0], e[1], bounds=([0], [1])) for e in wpbqbrier]
+
+This [family of curves](https://en.wikipedia.org/wiki/Family_of_curves) can now be plotted (first the exponential functions fitted to questions from the Metaculus data, and then to questions from the PredictionBook data):
+
+	fig=plt.figure(figsize=(8,8))
+
+	plt.title("Exponential curve-fits for the accuracy of questions by range (only Metaculus data)")
+	plt.xlabel("Range (days)")
+	plt.ylabel("Exponential curve-fit")
+
+	for i in range(0, len(within_exp_fits_met)):
+	        r=within_exp_fits_met[i]
+	        if len(r)==0:
+	                continue
+	        rngs=wmetqbrier[i][0]
+	        coeff=r[0][0]
+	        cl=hex(random.sample(range(0, 256*256*256), 1)[0]) #random rgb code
+	        #left padding with zeros, can't be bothered to read the formatting docs right now
+	        cl='#'+('0'*(6-len(cl[2:])))+cl[2:]
+	        plt.plot(fullrng_met, shift_exp(fullrng_met, coeff))
+
+	plt.savefig("permetquestion_exp.png")
+
+![Sets of exponential fits on Metaculus questions](./img/range_and_forecasting_accuracy/permetquestion_exp.png "A plot, x-axis from 0 to 1400, y-axis from 0 to 0.25. On the plot there is a large number of graphs of functions, all exponential, with different steepnesses (all starting from 0 at 0, many reaching 0.25 immediately, and a few being less steep). Two empty regions (“rivers”) are also visible.")
+
+![Sets of exponential fits on PredictionBook questions](./img/range_and_forecasting_accuracy/perpbquestion_exp.png "A plot, x-axis from 0 to 1400, y-axis from 0 to 0.25. On the plot there is a large number of graphs of functions, all exponential, with different steepnesses (all starting from 0 at 0, many reaching 0.25 immediately, and a few being less steep). Way more graphs of functions that in the Metaculus data. Basically ~0 “rivers”.")
+
+I personally believe that these plots
+are kind of gorgeous. Interesting are the two
+[“rivers”](https://en.wikipedia.org/wiki/River_\(typography\)) in
+the Metaculus plots: they indicate that there are some horizons for which
+there are ~0 questions with that horizon. But this is possibly just due
+to a small sample-size & randomness, as they don't really occur in the
+PredictionBook data.
+
+Otherwise, these plots look as expected: Most exponential fits go to
+randomness very quickly (i.e. from an expected Brier score of 0 to a
+Brier score of 0.25 in a short range), and some show longer horizons.
+
+Again, I don't quite know how to aggregate these, but I can calculate
+the expected horizons for the questions.
+
+##### Exponential Forecast Horizons for Questions
+
+Calculating the horizons is as easy as before:
+
+	met_exp_horizons=[np.log(0.04)/np.log(f[0][0]) for f in within_exp_fits_met]
+	pb_exp_horizons=[np.log(0.04)/np.log(f[0][0]) for f in within_exp_fits_pb]
+
+And the summary statistics (in days):
+
+<table>
+<tbody>
+	<tr>
+		<td></td>
+		<td>Mean</td>
+		<td>Median</td>
+		<td>Mode</td>
+		<td>Variance</td>
+		<td>Maximum</td>
+		<td>Minimum</td>
+	</tr>
+	<tr>
+		<td>Metaculus</td>
+		<td>1613.62</td>
+		<td>4.64</td>
+		<td>4.64</td>
+		<td>478494147</td>
+		<td>497370.21</td>
+		<td>0.064</td>
+	</tr>
+	<tr>
+		<td>PredictionBook</td>
+		<td>45041.92</td>
+		<td>4.64</td>
+		<td>4.64</td>
+		<td>8.29e+11</td>
+		<td>5.31e+7</td>
+		<td>0.064</td>
+	</tr>
+</tbody>
+</table>
+
+The mean here is ~4.42 years for Metaculus data, and 123.4 years for
+PredictionBook data.
+
+We can see that the expected horizons aren't as large (at least ~15 orders
+of magnitude smaller), but again we observe that both the median *and*
+the mode take on the same value of 4.64.
+
+So we decide to plot a histogram of the expected horizons for the
+questions, scaled logarithmically:
+
+	fig=plt.figure(figsize=(8,8))
+
+	plt.title("Horizons for expstic curve-fits within questions")
+	plt.xlabel("Horizon length (days, log₁₀)")
+	plt.ylabel("Number of questions")
+
+	plt.hist([np.log10(met_exp_horizons), np.log10(pb_exp_horizons)], bins=20, color=('red', 'blue'))
+
+	plt.savefig("exp_horizons.png")
+
+![Histogram of expected horizons of forecasts on Metaculus & PredictionBook questions](./img/range_and_forecasting_accuracy/exp_horizons.png "Histogram of expected horizons of forecasts on Metaculus & PredictionBook questions: Horizons on the x-axis, ranging from 10⁻² to 10⁷, and number of questions in the bin on the y-axis, from 0 to ~450. For PredictionBook data, large peak at ~10¹ with ~420 (blaze it) questions. Then several bins, all with ~40 questions, to ~10⁴, then declining to ~15 questions per bin. Below 10¹, no strongly discernible pattern, again with ~20 questions per bin. Metaculus data quite similar: ~350 questions on the 10¹ bin, then a “hill” pattern that peaks at 10² and then declines to <10 questions per bin at 10⁴. ~20 questions per bin for horizons <10¹.")
+
+I wonder if the regularity I perceive (the nice declining “hill”-like
+patterns for horizons >10¹) is a spurious artifact, a result of the
+specific method of analysis, or actually inherent in the data. If not,
+it indicates that PredictionBook contains more resolved questions with
+longer expected horizons (checks out: questions with longer ranges
+can be expected to have longer horizons, and PredictionBook has more &
+older resolved questions than Metaculus).
+
+Also, again, most questions have ranges ~10¹ (probably the 4.64 value
+from above), which is likely due to them becoming more accurate at higher
+ranges (discussed [here](#Why-Assume-Accuracy-will-Increase)).
 
 ### Sample Sizes
 
@@ -1900,9 +2126,10 @@ individual forecasts.
 ### PredictionBook Forecasts can be Resolved by Anyone
 
 PredictionBook, unlike Metaculus, makes no attempts to generate a shared
-notion of ground-truth: Any user can resolve any question as they like,
-with the question-writer having the final verdict. This would make it
-quite easy to manipulate the dataset.
+notion of [ground truth](https://en.wikipedia.org/wiki/Ground_truth):
+Any user can resolve any question as they like, with the question-writer
+having the final verdict. This would make it quite easy to manipulate
+the dataset.
 
 In contrast, Metaculus has a set of admins and moderators that share a
 notion of how the questions relate to events in the world, which keeps
@@ -1943,10 +2170,26 @@ Discussions
 
 * [LessWrong](https://www.lesswrong.com/posts/MquvZCGWyYinsN49c/range-and-forecasting-accuracy)
 
-Appendix A: Quotes About the Maximal Time-Horizon of Forecasts
-----------------------------------------------------------------
+Appendix A: Quotes About the Horizon of Forecasts
+--------------------------------------------------
 
 > Demographers disagree about many things, but not that the further into
 the future we try to look, the more likely our forecasts are to be wrong.
 
 *— [Richard J. Hernstein](https://en.wikipedia.org/wiki/Richard_J._Herrnstein) & [Charles Murray](https://en.wikipedia.org/wiki/Charles_Murray_\(political_scientist\)), [“The Bell Curve”](https://en.wikipedia.org/wiki/The_Bell_Curve) ch. 15, 1994*
+
+>  The future is hard to predict. We may feel confident that eventually
+space will be colonized, or that eventually we'll make stuff by putting
+each atom just where we want it. But so many other changes may happen
+before and during those changes that it is hard to say with much
+confidence how space travel or nanotechnology may affect the ordinary
+person. Our vision seems to fade into a fog of possibilities.
+>
+> The scenario I am about to describe excites me because it seems
+an exception to this general rule -- more like a crack of dawn than
+a fog, like a sharp transition with sharp implications regardless of
+the night that went before. Or like a sight on the horizon much clearer
+than the terrain inbetween. And, as scenarios go, this one seems rather
+likely. Here it is.
+
+*— [Robin Hanson](https://en.wikipedia.org/wiki/Robin_Hanson), [“If Uploads Come First”](http://mason.gmu.edu/~rhanson/uploads.html), 1994*

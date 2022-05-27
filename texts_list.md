@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-05-17, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-05-26, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,11 +17,32 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Baby Cause Areas, Existential Risk, and Longtermism (David Manheim, 2022)](https://forum.effectivealtruism.org/posts/AvGsabvBWfJEuL6d7/baby-cause-areas-existential-risk-and-longtermism)
+* [A view of the main kinds of problems facing us (Eli Tyre, 2020)](https://musingsandroughdrafts.wordpress.com/2020/08/14/a-view-of-the-main-kinds-of-problems-facing-us/)
+* [Beware surprising and suspicious convergence (Gregory Lewis, 2016)](https://forum.effectivealtruism.org/s/HSA8wsaYiqdt4ouNF/p/omoZDu8ScNbot6kXS)
+* [Foamcore (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Foamcore)
+* [Different perspectives on concept extrapolation (Stuart Armstrong, 2022)](https://www.lesswrong.com/s/u9uawicHx7Ng7vwxA/p/j9vCEjRFDwmH8FTKH)
+* [Walkalong glider (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Walkalong_glider)
+* [Controllable slope soaring (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Controllable_slope_soaring)
+* [Church–Kleene ordinal (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Church-Kleene_ordinal)
+* [General alignment plus human values, or alignment via human values? (Stuart Armstrong, 2021)](https://www.lesswrong.com/s/u9uawicHx7Ng7vwxA/p/3e6pmovj6EJ729M2i)
+* [Paternalism is about outrage (Eli Tyre, 2022)](https://musingsandroughdrafts.wordpress.com/2022/03/29/paternalism-is-about-outrage/)
+* [Thinking about how to orient to a hostile information environment, when you don’t have the skills or the inclination to become an epistemology nerd (Eli Tyre, 2022)](https://musingsandroughdrafts.wordpress.com/2022/03/03/thinking-about-how-to-orient-to-a-hostile-information-environment-when-you-dont-have-the-skills-or-the-inclination-to-become-an-epistemology-nerd/)
+* [Two interlocking control systems (Eli Tyre, 2021)](https://musingsandroughdrafts.wordpress.com/2021/09/27/two-interlocking-control-systems/)
+* [My strategic picture of the work that needs to be done (Eli Tyre, 2019)](https://musingsandroughdrafts.wordpress.com/2019/09/12/my-strategic-picture-of-the-work-that-needs-to-be-done/)
+* [Concept extrapolation: key posts (Stuart Armstrong, 2022)](https://www.lesswrong.com/s/u9uawicHx7Ng7vwxA/p/rPWQzRRQbjtgYn7rE)
+* [Subspace optima (Chris van Merwijk, 2020)](https://www.lesswrong.com/posts/yuP4D4Pz79uyPS9KW)
+* [500 Million, But Not A Single One More (jai, 2018)](https://forum.effectivealtruism.org/s/HSA8wsaYiqdt4ouNF/p/jk7A3NMdbxp65kcJJ)
+* [Effective Altruism is a Question (not an ideology) (Helen, 2014)](https://forum.effectivealtruism.org/s/HSA8wsaYiqdt4ouNF/p/FpjQMYQmS3rWewZ83)
+* [Design Of This Website (Gwern Branwen, 2022)](https://www.gwern.net/Design)
+* [Design Graveyard (Gwern Branwen, 2022)](https://www.gwern.net/Design-graveyard)
+* [McKendree cylinder (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/McKendree_cylinder)
+* \* Conservative Agency (Alexander Matt Turner/Dylan Hadfield-Menell/Prasad Tadepalli, 2020)
 * \* A Generalist Agent (Alexander Novikov/Ali Razavi/Ashley Edwards/Emilio Parisotto/Gabriel Barth-Maron/Jackie Kay/Jake Bruce/Jost Tobias Springenberg/Konrad Żołna/Mahyar Bordbar/Mai Giménez/Nando de Freitas)/Nicolas Heess/Oriol Vinyals/Raia Hadsell/Scott Reed/Sergio Gómez Colmenarejo/Tom Eccles/Yury Sulsky/Yutian Chen, 2022)
 * [Evolution as Backstop for Reinforcement Learning (Gwern Branwen, 2021)](https://www.gwern.net/Backstop)
 * [Discredited hypotheses for the Cambrian explosion (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Discredited_hypotheses_for_the_Cambrian_explosion)
 * [Multi-agent learning (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Multi-agent_learning)
-* \* Avoiding Side Effects in Complex Environments (Alexander Matt Turner/Neale Ratzlaff/Prasad Tadepalli, 2020)
+* Avoiding Side Effects in Complex Environments (Alexander Matt Turner/Neale Ratzlaff/Prasad Tadepalli, 2020)
 * AI Safety Gridworlds (Andrew Lefrancq/Jan Leike/Laurent Orseau/Miljan Martic/Pedro A. Ortega//Shane Legg/Tom Everitt/Victoria Krakovna, 2017)
 * [Lies Told To Children: Pinocchio  (A Guest, 2022)](https://pastebin.com/fjpS2ZDP)
 * [Lies Told To Children (Eliezer Yudkowsky, 2022)](https://www.lesswrong.com/posts/uyBeAN5jPEATMqKkX/lies-told-to-children-1)

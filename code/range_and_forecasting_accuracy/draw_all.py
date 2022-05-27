@@ -139,7 +139,7 @@ plt.ylabel("Accuracy (Brier score)")
 fullrng_pb=np.array(range(0, round(max(pbrngs))+1))
 
 plt.plot(pbqbrier.T[0], pbqbrier.T[1], '.', color='blue', markersize=1)
-plt.plot(metqbrier.T[0], metqbrier.T[1], '.', color='red', markersize=1)
+plt.plot(metqbrier.T[0], metqbrier.T[1], '.', color='red', markersize=2)
 plt.plot(fullrng_pb, shrunk_logistic(fullrng_pb, metlogifit_betweenq[0][0], metlogifit_betweenq[0][1]), 'red', label='Metaculus shrunk logistic-ish regression', linewidth=2)
 plt.plot(fullrng_pb, shrunk_logistic(fullrng_pb, pblogifit_betweenq[0][0], pblogifit_betweenq[0][1]), 'blue', label='PredictionBook shrunk logistic-ish regression', linewidth=2)
 
@@ -156,7 +156,7 @@ plt.ylabel("Accuracy (Brier score)")
 fullrng_pb=np.array(range(0, round(max(pbrngs))+1))
 
 plt.plot(pbqbrier.T[0], pbqbrier.T[1], '.', color='blue', markersize=1)
-plt.plot(metqbrier.T[0], metqbrier.T[1], '.', color='red', markersize=1)
+plt.plot(metqbrier.T[0], metqbrier.T[1], '.', color='red', markersize=2)
 plt.plot(fullrng_pb, shift_exp(fullrng_pb, metexpfit_betweenq[0][0]), 'red', label='Metaculus shrunk exponential-ish regression', linewidth=2)
 plt.plot(fullrng_pb, shift_exp(fullrng_pb, pbexpfit_betweenq[0][0]), 'blue', label='PredictionBook shrunk exponential-ish regression', linewidth=2)
 
@@ -184,7 +184,7 @@ plt.savefig("permetquestion.png")
 fig=plt.figure(figsize=(8,8))
 
 plt.title("Linear regressions for the accuracy of questions by range (only PredictionBook data)")
-plt.xlabel("Age (days)")
+plt.xlabel("Range (days)")
 plt.ylabel("Linear regression")
 
 for i in range(0, len(wpbqregs)):
@@ -214,7 +214,7 @@ plt.savefig("withintotal.png")
 fig=plt.figure(figsize=(8,8))
 
 plt.title("Logistic curve-fits for the accuracy of questions by range (only Metaculus data)")
-plt.xlabel("Age (days)")
+plt.xlabel("Range (days)")
 plt.ylabel("Logistic curve-fit")
 
 for i in range(0, len(within_logi_fits_met)):
@@ -233,7 +233,7 @@ plt.savefig("permetquestion_logi.png")
 fig=plt.figure(figsize=(8,8))
 
 plt.title("Logistic curve-fits for the accuracy of questions by range (only PredictionBook data)")
-plt.xlabel("Age (days)")
+plt.xlabel("Range (days)")
 plt.ylabel("Logistic curve-fit")
 
 for i in range(0, len(within_logi_fits_pb)):
@@ -248,3 +248,61 @@ for i in range(0, len(within_logi_fits_pb)):
 	plt.plot(fullrng_pb, shrunk_logistic(fullrng_pb, slope, intercept))
 
 plt.savefig("perpbquestion_logi.png")
+
+fig=plt.figure(figsize=(8,8))
+
+plt.title("Horizons for logistic curve-fits within questions")
+plt.xlabel("Horizon length (days, log₁₀)")
+plt.ylabel("Number of questions")
+
+plt.hist([np.log10(met_logi_horizons), np.log10(pb_logi_horizons)], bins=20, color=('red', 'blue'))
+
+plt.savefig("logi_horizons.png")
+
+fig=plt.figure(figsize=(8,8))
+
+plt.title("Exponential curve-fits for the accuracy of questions by range (only Metaculus data)")
+plt.xlabel("Range (days)")
+plt.ylabel("Exponential curve-fit")
+
+for i in range(0, len(within_exp_fits_met)):
+	r=within_exp_fits_met[i]
+	if len(r)==0:
+		continue
+	rngs=wmetqbrier[i][0]
+	coeff=r[0][0]
+	cl=hex(random.sample(range(0, 256*256*256), 1)[0]) #random rgb code
+	#left padding with zeros, can't be bothered to read the formatting docs right now
+	cl='#'+('0'*(6-len(cl[2:])))+cl[2:]
+	plt.plot(fullrng_met, shift_exp(fullrng_met, coeff))
+
+plt.savefig("permetquestion_exp.png")
+
+fig=plt.figure(figsize=(8,8))
+
+plt.title("Exponential curve-fits for the accuracy of questions by range (only PredictionBook data)")
+plt.xlabel("Range (days)")
+plt.ylabel("Exponential curve-fit")
+
+for i in range(0, len(within_exp_fits_pb)):
+	r=within_exp_fits_pb[i]
+	if len(r)==0:
+		continue
+	rngs=wpbqbrier[i][0]
+	coeff=r[0][0]
+	cl=hex(random.sample(range(0, 256*256*256), 1)[0]) #random rgb code
+	#left padding with zeros, can't be bothered to read the formatting docs right now
+	cl='#'+('0'*(6-len(cl[2:])))+cl[2:]
+	plt.plot(fullrng_pb, shift_exp(fullrng_pb, coeff))
+
+plt.savefig("perpbquestion_exp.png")
+
+fig=plt.figure(figsize=(8,8))
+
+plt.title("Horizons for expstic curve-fits within questions")
+plt.xlabel("Horizon length (days, log₁₀)")
+plt.ylabel("Number of questions")
+
+plt.hist([np.log10(met_exp_horizons), np.log10(pb_exp_horizons)], bins=20, color=('red', 'blue'))
+
+plt.savefig("exp_horizons.png")
