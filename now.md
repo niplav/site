@@ -66,5 +66,3 @@ Currently, I am actively reading the following books:
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * The Jazz Piano Book (Mark Levine, 1998)
 * Die toten Seelen (Nikolai Gogol, 1842)
-
-I am also reading some classic posts by [Gwern](https://www.gwern.net/).

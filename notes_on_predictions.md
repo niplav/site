@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-05-23, modified: 2021-12-29, language: english, status: notes, importance: 3, confidence: unlikely*
+*author: niplav, created: 2021-05-23, modified: 2022-05-26, language: english, status: notes, importance: 3, confidence: unlikely*
 
 > __.__
 
@@ -42,7 +42,7 @@ Assuming GDP growth per quarter iid (which it isn't, but I can't be
 bothered otherwise).
 
 Assuming 70% chance of positive growth in any quarter. Then chance of
-only growth in all quarter `0.7^3=0.343`.
+only growth in all quarter `$0.7^3=0.343$`.
 
 Number of commercial flights on 30 June 2021
 ---------------------------------------------
@@ -202,7 +202,7 @@ still the scenario of COVID-19 becoming endemic).
 
 [Link](https://www.metaculus.com/questions/6344/2025-price-of-a-crunchwrap-supreme/).
 
-Assuming 2% inflation per year, it comes out at `\$3.89*1.02^3.5=\$4.16`.
+Assuming 2% inflation per year, it comes out at `$\$3.89*1.02^{3.5}=\$4.16$`.
 
 Lives saved by #SecondDoseDelay for vaccine
 -------------------------------------------
