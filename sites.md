@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-14, modified: 2022-05-24, language: english, status: notes, importance: 6, confidence: log*
+*author: niplav, created: 2021-10-14, modified: 2022-05-28, language: english, status: notes, importance: 6, confidence: log*
 
 > __Some people have been complaining about a “website discoverability
 crisis”<!--TODO: link-->. While I haven't been affected by this
@@ -30,6 +30,7 @@ Recommendation-Worthy Websites
 	* [Drew DeVault's Blog](https://drewdevault.com/)
 	* [Joel On Software](https://www.joelonsoftware.com/)
 	* [Null Program](http://nullprogram.com/)
+	* [Yujiri's homepage](https://yujiri.xyz) (A [very Russian](https://yujiri.xyz/misc/structure.gmi.html) website: "This site's organization is different from most other sites that serve a similar purpose. It's not chronological like a blog, because it was never meant to be a personal voice for me, at least not primarily. It's meant to be an up-to-date, organized database of philosophical truth.". Fellow long-content writer.)
 * Mathematics
 	* [Bit-Player](http://bit-player.org/)
 	* [Math ∩ Programming](https://jeremykun.com/)

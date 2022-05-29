@@ -99,7 +99,6 @@ Writing
 
 * [Buch Stab](./buch_stab.html)
 * [Platte](./platte.html)
-* [Life Improvements in 2030](./life_improvements_2030.html)
 * [Microfiction](./microfiction.html)
 * [Playing with Language](./language.html)
 

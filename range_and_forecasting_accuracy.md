@@ -158,7 +158,7 @@ example](#Three-Different-Analyses-An-Illustrative-Example) can help):
 			are close to 0.
 	2.	The timespan into the future at which our forecasts
 		become *approximately random* (the
-		*[horizon](#The-Horizon)*) is *not easily to estimated
+		*[horizon](#The-Horizon)*) is *not easily estimated
 		from the data* ([more](#This-Is-Cool)).
 		1.	Fitting a logistic function
 			([more](##Fitting-a-Logistic-Function)), the
@@ -219,7 +219,7 @@ timescales are of a different kind and much less predictable.
 Furthermore, estimating the length of forecast horizons has returned
 ambiguous results, and more research in that area is needed. It appears
 plausible that horizon lengths follow a logarithmic distribution, and
-over all forecasts assume values of at most several decades).
+over all forecasts assume values of at most several decades.
 
 <!--TODO: in 1/2/5/10 years, will the linear regression coefficients for
 these datasets still be positive/negative?-->
@@ -325,6 +325,10 @@ questions would be the cyan and mustard linear regressions.
 
 These were of course only illustrative examples, but I hope that now
 the different approaches in this text are clearer than before.
+
+If you're busy, you can stop reading here (or re-read [the results
+section](#Results)). This is a natural place to stop reading, everything
+below is certainly very interesting, but not central to understanding.
 
 Metaculus and PredictionBook
 ----------------------------
@@ -1898,7 +1902,7 @@ We can now perform a very similar analysis, just using exponential fits.
 Here, for some reason, we don't run into problems with inscrutable errors:
 
 	within_exp_fits_met=[spo.curve_fit(shift_exp, e[0], e[1], bounds=([0], [1])) for e in wmetqbrier]
-	within_exp_fits_pb=[spo.curve_fit(shift_exp, e[0], e[1], bounds=([0], [1])) for e in wpbqbrier]
+	within_exp_fits_pb=[spo.curve_fit(shift_exp, e[0], e[1], bounds=([0], [1])) for e in fwpbqbrier]
 
 This [family of curves](https://en.wikipedia.org/wiki/Family_of_curves) can now be plotted (first the exponential functions fitted to questions from the Metaculus data, and then to questions from the PredictionBook data):
 

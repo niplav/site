@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-05-26, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-05-27, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Results from the First Decade Review (Lizka, 2022)](https://forum.effectivealtruism.org/s/HSA8wsaYiqdt4ouNF/p/FEFEvC6BzswR4oQqm)
+* [Real-Life Examples of Prediction Systems Interfering with the Real World (Predict-O-Matic Problems) (Nuno Sempere, 2020)](https://www.lesswrong.com/posts/6bSjRezJDxR2omHKE/real-life-examples-of-prediction-systems-interfering-with)
+* [First conclusions from reflections on my life (Eli Tyre, 2022)](https://musingsandroughdrafts.wordpress.com/2022/04/12/first-conclusions-from-reflections-on-my-life/)
+* [On Caring (Nate Soares, 2014)](https://forum.effectivealtruism.org/s/HSA8wsaYiqdt4ouNF/p/hkimyETEo76hJ6NpW)
+* [We are in triage every second of every day (Holly Elmore, 2016)](https://forum.effectivealtruism.org/s/HSA8wsaYiqdt4ouNF/p/XXLf6FmWujkxna3E6)
+* [After one year of applying for EA jobs: It is really, really hard to get hired by an EA organisation (EA applicant, 2019)](https://forum.effectivealtruism.org/s/HSA8wsaYiqdt4ouNF/p/jmbP9rwXncfa32seH)
+* [You have more than one goal, and that's fine (Julia Wise, 2019)](https://forum.effectivealtruism.org/posts/zu28unKfTHoxRWpGn/you-have-more-than-one-goal-and-that-s-fine)
+* [Value extrapolation, concept extrapolation, model splintering (Stuart Armstrong, 2022)](https://www.lesswrong.com/posts/i8sHdLyGQeBTGwTqq/value-extrapolation-concept-extrapolation-model-splintering)
 * [Baby Cause Areas, Existential Risk, and Longtermism (David Manheim, 2022)](https://forum.effectivealtruism.org/posts/AvGsabvBWfJEuL6d7/baby-cause-areas-existential-risk-and-longtermism)
 * [A view of the main kinds of problems facing us (Eli Tyre, 2020)](https://musingsandroughdrafts.wordpress.com/2020/08/14/a-view-of-the-main-kinds-of-problems-facing-us/)
 * [Beware surprising and suspicious convergence (Gregory Lewis, 2016)](https://forum.effectivealtruism.org/s/HSA8wsaYiqdt4ouNF/p/omoZDu8ScNbot6kXS)

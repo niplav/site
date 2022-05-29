@@ -1279,3 +1279,4 @@
 2022-05-24T23:19:30.000000Z	“AI” refers to the observation that computers, over time, can do more & more things
 2022-05-25T22:15:37.000000Z	Logarithmic well-being views might suffer from an odd problem: They are, in some sense, *too obvious*, so that everyone says “yeah, that seems true” and goes on doing exactly what they did before.
 2022-05-27T12:53:07.000000Z	with resolving inconsistent graph preferences, does the portion of non-uniquely resolvable preferences shrink with the number of options? in other words: for the set 𝓖_n of all graphs with n nodes, and the set U(𝓖_n) of those graphs with a unique path-graph with a smallest graph-edit distance, is |U(𝓖_n)|/𝓖_n<|U(𝓖_{n+1})|/|𝓖_{n+1}|?
+2022-05-27T20:30:07.000000Z	r strategy poster by day, K strategy poster by night
