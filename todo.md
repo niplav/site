@@ -58,6 +58,7 @@ Site
 	* `https://www.gwern.net/docs/www/joa.sh/290f53c78d4b287be8059260f613988a8abda677.html`
 	* `https://github.com/pkra/mathjax-node-page/`
 * Maybe collapsable sections?
+* Change internal anchor links to underscore from minus
 
 Existing Texts
 --------------
