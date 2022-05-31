@@ -256,7 +256,7 @@ Stories
 > Globe-decorated neo-neoliberals furiously fruitlessly arguing with
 zero-summers on birdsite, shaman bros helping others get laid at parties
 funded by eternal-life cryptomoguls, infra-red haired identity-fractalites
-with two dozen Mercedes stars draped over their bodies lectureing pale
+with two dozen Mercedes stars draped over their bodies lecturing pale
 soy-skeletons about Cockshottian cybernetics. It is, not exaggerating too
 much, a moment exactly fitting the emergence of a second semi-unknown
 unknown, only to be faintly perceived by posterior-maximizers who have

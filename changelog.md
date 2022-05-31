@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-05-27, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-05-29, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -37,6 +37,7 @@ May 2022
 		* [Logistic Curve-Fit](./range_and_forecasting_accuracy.html#Logistic-CurveFit)
 		* [Exponential Curve-Fit](./range_and_forecasting_accuracy.html#Exponential-CurveFit)
 	* [Appendix A: Quotes About the Maximal Time-Horizon of Forecasts](./range_and_forecasting_accuracy.html#Appendix-A-Quotes-About-the-Maximal-TimeHorizon-of-Forecasts)
+* [Turning Some Inconsistent Preferences into Consistent Ones](./turning.html)
 * Re-organised the [Text Reviews](./text_reviews.html)
 * [Notes](./notes.html)
 	* [`scipy.optimize.curve_fit` Is Awesome](./notes.html#scipyoptimizecurvefit-Is-Awesome)

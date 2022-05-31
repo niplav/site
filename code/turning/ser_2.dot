@@ -1,0 +1,4 @@
+digraph ser_2 {
+	a -> c -> b;
+	a -> b;
+}

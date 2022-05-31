@@ -41,7 +41,7 @@ If I find time inbetween that, I'm expanding on the following texts:
 * [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 * [Generalizing the Diamond-Square Algorithm to n Dimensions](./diamond.html)
 * [Circle Combinations](./circle_combinations.html)
-* [Reward Long Content](./content.html)
+* [Reward Long Content](./reward.html)
 
 I'm also planning a full edit of all texts on the website, but don't
 have a fixed date to get started on that at the moment.

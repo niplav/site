@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-05-27, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-05-30, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,9 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [* Getting Into Shapes: From Hyperbolic Geometry to Cube Complexes and Back (Erica Klarreich, 2012)](https://www.quantamagazine.org/getting-into-shapes-from-hyperbolic-geometry-to-cube-complexes-and-back-20121002/)
+* [How understanding valence could help make future AIs safer (Michael Edward Johnson, 2015)](https://opentheory.net/2015/09/fai_and_valence/)
+* [On category I and category II problems (Eli Tyre, 2021)](https://musingsandroughdrafts.wordpress.com/2021/04/05/on-category-i-and-category-ii-problems/)
 * [Results from the First Decade Review (Lizka, 2022)](https://forum.effectivealtruism.org/s/HSA8wsaYiqdt4ouNF/p/FEFEvC6BzswR4oQqm)
 * [Real-Life Examples of Prediction Systems Interfering with the Real World (Predict-O-Matic Problems) (Nuno Sempere, 2020)](https://www.lesswrong.com/posts/6bSjRezJDxR2omHKE/real-life-examples-of-prediction-systems-interfering-with)
 * [First conclusions from reflections on my life (Eli Tyre, 2022)](https://musingsandroughdrafts.wordpress.com/2022/04/12/first-conclusions-from-reflections-on-my-life/)
