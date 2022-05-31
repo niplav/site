@@ -1172,6 +1172,7 @@ eine kontingente verschmelzung von fast-sein und konkretheit"
 	* TheRedQuest
 	* hbdchick
 	* Traditions of Conflict
+	* Quanta Magazine
 * Best of collections from blogs
 	* TheRedQuest
 	* Overcoming Bias

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-03-04, modified: 2022-04-07, language: english, status: notes, importance: 8, confidence: unlikely*
+*author: niplav, created: 2022-03-04, modified: 2022-05-29, language: english, status: notes, importance: 8, confidence: unlikely*
 
 > __Representing inconsistent preferences with specific mathematical
 structures can clarify thoughts about how to make those preferences
@@ -9,12 +9,13 @@ consistent while only minimally changing them. This is discussed in
 the case of preferences over world states, represented by [directed
 graphs](https://en.wikipedia.org/wiki/Directed_graph); and preferences
 over [lotteries](https://en.wikipedia.org/wiki/Lottery_\(probability\))
-of world states, represented by [vector
-fields](https://en.wikipedia.org/wiki/Vector_field) over probability
-[simplices](https://en.wikipedia.org/wiki/Simplex). Implications for
-scenarios such as ontological crises are discussed.__
+of world states, represented either by infinitely dense
+graphs or (in some cases) vector fields over probability
+simplices, or edge-weighted directed graphs. I also present
+an algorithm for the discrete case based on the [graph edit
+distance](https://en.wikipedia.org/wiki/Graph_Edit_Distance). Implications
+for scenarios such as ontological crises are discussed.__
 
-<!--TODO: Read Transitive Reduction, Graph Edit Distance on WP-->
 <!--https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/niplav-s-shortform?commentId=XRmMoNCPmDhvyLzwc-->
 <!--https://www.lesswrong.com/posts/ky988ePJvCRhmCwGo/using-vector-fields-to-visualise-preferences-and-make-them-->
 
@@ -34,45 +35,358 @@ are unavailable or incomplete.
 
 *— Tsong Yueh Chen/Fei-Ching Kuo/Robert G. Merkel/T.H. Tse, [“Adaptive Random Testing: the ART of Test Case Diversity”](./doc/turning/adaptive_random_testing_chen_et_al_2010.pdf), 2010*
 
-Consider an agent which displays (von Neumman-Morgenstern) inconsistent
-preferences, for example choosing two incompatible options in the two
-scenarios in the Allais paradox. We might want to interact with that
-agent, e.g. trade with it, help it, or generally know how it will act. But
-how to go about that if the agent displays inconsistent preferences?
+Consider an agent which displays ([von
+Neumman-Morgenstern](https://en.wikipedia.org/wiki/Von_Neumann-Morgenstern_utility_theorem)
+inconsistent [preferences](https://en.wikipedia.org/wiki/Preference),
+for example choosing two incompatible
+options in the two scenarios in the [Allais
+paradox](https://en.wikipedia.org/wiki/Allais_paradox), or reliably
+displaying [cycles](https://en.wikipedia.org/wiki/Cycle_\(graph_theory\))
+in its actions (detecting which actions are in fact caused by inconsistent
+preferences, and not just exotic ones from weird abstractions, can be
+considered a separate problem). We might want to interact with that agent,
+e.g. trade with it, help it (or exploit it), or generally know how it
+will act. But how to go about that if the agent displays inconsistent
+preferences?
+
+A possible approach to this problem has two steps:
+
+1. Find ways to represent inconsistent preferences with a mathematical structure which can encode all possible violations of the von Neumann-Morgenstern axioms in all their combinations.
+2. Then turn those inconsistent preferences into consistent ones, and then informing the agent about these inconsistencies and their optimal resolutions (or, in the case of trying to help the agent, then enacting these preferences in the real world).
+
+Mathematical Formulation of the Problem
+----------------------------------------
+
+Define a set of possible inconsistent preferences over a set `$W$` of
+worlds as `$\not\curlyvee_W$`, and the set of (von Neumann-Morgenstern)
+inconsistent preferces over those worlds as `$\curlyvee_W$` as the set
+of inconsistent preferences over those worlds. Elements from those sets
+are written as `$\succsim_W \in \not\curlyvee_W$` and `$\succeq_W \in \curlyvee_W$`.
 
 One way we could approach the problem is by trying to turn those
-inconsistent preferences consistent, i.e. constructing a function `$f: \succsim \mapsto \succeq$`
-that takes in an inconsistent preference and transforms it into a
-consistent preference, while retaining as much of the original structure
-of the preference as possible (it would make little sense if we replaced
-the original preference relation with indifference over all options).
+inconsistent preferences consistent, i.e. constructing a function
+`$f: \not \curlyvee_W \mapsto \curlyvee_W$` that takes an inconsistent
+preference `$\succsim$` and transforms it into a consistent preference,
+while retaining as much of the original structure of the preference
+as possible (it would make little sense if we replaced the original
+preference relation with indifference over all options).
 
-Representing inconsistent preferences turns out to be key to constructing
-`$f$`. I discuss two options for representing subsets of all possible
-inconsistent preferences:
+Formally, we want to find for some given [distance
+metric](https://en.wikipedia.org/wiki/Metric_\(mathematics\))
+`$d: \not \curlyvee_W \times \curlyvee_W \mapsto ℝ$`:
 
-1. Inconsistent preferences over discrete options are represented via directed graphs
-2. Inconsistent preferences over lotteries of options are represented via vector fields on probability simplices
+<div>
+	$$f= \underset{f}{\text{argmin }} d(\succsim, f(\succsim)) \\
+	\succeq=f(\succsim)$$
+</div>
+
+A solution to the problem of turning inconsistent preferences into consistent ones then has these components:
+
+1. A mathematical structure for representing `$\not \curlyvee_W$` and `$\curlyvee_W$`
+	* Inconsistent preferences over discrete options are represented via [directed graphs](https://en.wikipedia.org/wiki/Directed_graph)
+	* Inconsitent preferences over [lotteries](https://en.wikipedia.org/wiki/Lottery_\(probability\)) of options are represented via
+		* directed graphs over [probability simplices](https://en.wikipedia.org/wiki/Simplex)
+			* potentially more exotic structures such as [graphons](https://en.wikipedia.org/wiki/Graphon) or results from [extremal graph theory](https://en.wikipedia.org/wiki/Extremal_graph_theory) are relevant here, but I haven't investigated these in detail
+		* vector fields on probability simplices
+		* [graphs with edge weights](https://en.wikipedia.org/wiki/Graph_\(discrete_mathematics\)#Weighted_graph) in `$ℝ$`
+2. A specification for `$f$`
+	* In the case of discrete options, I propose adding and removing edges from the directed graph
+	* In the case of lotteries I don't have yet any clear proposals
+3. A specification for `$d$`
+	* In the case of discrete options, I propose using the [graph edit distance](https://en.wikipedia.org/wiki/Graph_edit_distance)
+	* In the case of lotteries I don't yet have any definite proposals
+
+Related Work
+------------
+
+This work is closely related to the investigations in [Aird & Shovelain
+2020](https://www.lesswrong.com/posts/ky988ePJvCRhmCwGo/using-vector-fields-to-visualise-preferences-and-make-them)
+(so closely that even though I believe I re-invented the
+approach independently, it might just be that I had read
+their work & simply forgotten it), and broadly related to
+the value extrapolation framework outlined in [Armstrong
+2022](https://www.lesswrong.com/posts/i8sHdLyGQeBTGwTqq/value-extrapolation-concept-extrapolation-model-splintering).
 
 Discrete Case
 --------------
 
-When we have discrete sets of options `$O$`, we can represent some
-inconsistent preferences by using a directed graph `$G_{\succsim}=(V,E_{\succsim}), V=O, E_{\succsim} \subseteq O \times O$`.
-The presence of an edge `$(o_1, o_2)$` would mean that `$o_1 \succsim
-o_2$`, that is `$o_1$` is preferred to `$o_2$`.
+When we have discrete sets of worlds `$W$`, we can represent
+an inconsistent preference over those worlds by using a directed graph
+`$G_{\succsim}=(W,E_{\succsim} \subseteq W \times W)$`.
+The presence of an edge `$(w_1, w_2)$` would mean that `$w_1 \succsim w_2$`,
+that is `$w_1$` is preferred to `$w_2$`.
 
-The consistent equivalent to an inconsistent preference represented by a
-directed graph would be a path graph `$G_{\succeq}=(V, E_{\succeq})$`
-over the same set of vertices `$O$`.  The method for transforming
-`$G_{\succsim}$` into `$G_{\succeq}$` would be by adding/deleting/merging
-the minimal amount vertices from `$E_{\succsim}$`.
+Mathematically, then, `$\not \curlyvee_W$` is the set of all possible
+graphs with edges in `$W \times W$`, that is
+`$\not \curlyvee_W=\{(W, E)| E \in \mathcal{P}(W \times W))\}$`).
 
-This leads to an interesting ethical consideration: is it a larger
-change to a preference relation to add new information, combine
-existing information, or remove information? It is discussed how to
-incorporate those weights into an algorithm for minimally transforming
-`$G_{\succsim}$` into `$G_{\succeq}$`.
+The consistent equivalent to an inconsistent preference
+represented by a directed graph would be a [path
+graph](https://en.wikipedia.org/wiki/Path_graph)
+`$G_{\succeq}=(V, E_{\succeq})$` over the same set of
+[vertices](https://en.wikipedia.org/wiki/Vertex_\(graph_theory\)) `$W$`.
+The method for transforming `$G_{\succsim}$` into `$G_{\succeq}$` would be
+by adding/deleting the minimal number of vertices from `$E_{\succsim}$`.
+
+Mathematically, then `$\curlyvee_W$` is the set of transitive closures
+of all possible path graphs that are encode permutations of `$W$`; `$\curlyvee_W=\{(V, E)^+ | E \in σ(W)\}$`.
+
+### Example
+
+Consider the following directed graph:
+
+![A directed graph](./img/turning/unbalanced_cycle.png "A directed graph. It contains nodes {a, b, c, d, e, f, g} and edges a → b → c → e → f → g → b, c → d.")
+
+Here, `$W=\{a,b,c,d,e,f,g\}$`.
+
+An edge from `$a$` to `$b$` means that `$a$` is preferred to `$b$`
+(short `$a \succsim_W b$`). The absence of an edge between two
+options means that those two options are, from the view of the agent,
+[incomparable](https://en.wikipedia.org/wiki/Comparability).
+
+It violates the two von Neumann-Morgenstern axioms for discrete options:
+
+* Completeness is violated because for example options `$d$` and `$e$` are incomparable (and we don't merely have [indifference](https://en.wikipedia.org/wiki/Indifference_curve) between these options)
+* Transitivity is violated because of the `$b → c → e → f → g → b$` loop
+
+<!--TODO:
+#### Recap: von Neumann-Morgenstern Axioms for Discrete Options
+
+-----
+-->
+
+A possible resolved version of these preferences could then be the
+following graph:
+
+![A messy graph.](./img/turning/resubc_hyp_trans.png "A messy graph. Vertices {a, b, c, d, e, f, g, h}. Edges are the transitive closure over the complete order a → b → c → d → e → f → g.")
+
+This graph looks quite messy, but it's really just the [transitive
+closure](https://en.wikipedia.org/wiki/transitive_closure) of this graph:
+
+![A path graph.](./img/turning/resubc_hyp.png "A path graph. Vertices again {a, b, c, d, e, f, g, h}. Edges are a → b → c → d → e → f → g.")
+
+Whether this is the "right" way to resolve the previous inconsistent
+preferences depends on the choice of distance metric we would like to use.
+
+### Resolving Inconsistencies
+
+In some sense, we want to change the inconsistent preferences as little
+as possible: the more we modify them, the more displayed preferences we
+have to remove or change. Since the presence or absence of preferences
+is encoded by the presence or absence of edges on the graph, removing
+edges or adding new edges is equivalent to removing or adding preferences
+(at the moment, we do *not* consider adding or removing vertices: we
+stay firmly inside the agent's [ontology](https://en.wikipedia.org/wiki/Ontology_\(information_science\))/world model).
+
+Luckily, there is a concept in computer science called the graph-edit
+distance: a measure for the difference between two graphs.
+
+The set of possible editing operations on the graph varies, e.g. Wikipedia lists
+
+> * __vertex insertion__ to introduce a single new labeled vertex to a graph.
+* __vertex deletion__ to remove a single (often disconnected) vertex from a graph.
+* __vertex substitution__ to change the label (or color) of a given vertex.
+* __edge insertion__ to introduce a new colored edge between a pair of vertices.
+* __edge deletion__ to remove a single edge between a pair of vertices.
+* __edge substitution__ to change the label (or color) of a given edge.
+
+*—[English Wikipedia](), [“Graph Edit Distance”](https://en.wikipedia.org/wiki/Graph_Edit_Distance), 2021*
+
+Since we do not have labels on the edges of the graph, and have disallowed
+the deletion or insertion of vertices, this leaves us with the graph
+edit distance that uses edge insertion and edge deletion.
+
+We can then write a simple algorithm for
+`$\succeq=f(\succsim)$`:
+
+	res(W, G≿=(W, E≿)):
+		mindist=∞
+		for L in perm(W):
+			L=trans_closure(L)
+			dist=ged(G≿, R)
+			if dist<mindist:
+				R=L
+				mindist=dist
+		return R
+
+where `perm(W)` is the set of
+[permutations](https://en.wikipedia.org/wiki/Permutation) on `W`,
+`trans_closure(G)` is the transitive closure of a graph `G`, and `ged(G1,
+G2)` is the graph edit distance from `G1` to `G2`.
+
+Or, mathematically,
+
+<div>
+	$$R=\underset{R \in σ(W)}{\text{argmin }}\text{GED}(R^+, G_{\succsim}))$$
+</div>
+
+#### Implementation
+
+Implementing this in Python 3 using the [networkx](http://networkx.github.io/)
+library turns out to be easy:
+
+	import math
+	import networkx as nx
+	import itertools as it
+
+	def res(W, G):
+		mindist=math.inf
+		for L in it.permutations(W):
+			L=list(L)
+			LG=nx.DiGraph()
+			for i in range(0, len(W)):
+				LG.add_node(W[i], ind=i)
+			for i in range(0, len(L)-1):
+				LG.add_edge(L[i], L[i+1])
+			LG=nx.algorithms.dag.transitive_closure(LG)
+			# Compute the graph edit distance, disabling node insertion/deletion/substition and edge substitution
+			oas=lambda x: 1
+			oah=lambda x: 10e10 # math.inf is not accepted here
+			nm=lambda x, y: x['ind']==y['ind']
+			em=lambda x, y: True
+			dist=nx.algorithms.similarity.graph_edit_distance(G, LG, node_match=nm, edge_match=em, node_del_cost=oah, node_ins_cost=oah, edge_ins_cost=oas, edge_del_cost=oas)
+			if dist<mindist:
+				R=LG
+				mindist=dist
+		return R
+
+We can then test the function, first with a graph with a known best
+completion, and then with our [example from above](#Example).
+
+The small example graph (top left) and its possible resolutions are
+(all others):
+
+![A small example](./img/turning/se_comp.png "Four graphs, side-by side. Top left is a → b, c, top right is a → b → c, a → c, bottom left is a → c → b, a → b, bottom right is c → a → b, c → b.")
+
+	>>> WS=['a', 'b', 'c']
+	>>> GS=nx.DiGSraph()
+	>>> for i in range(0, len(WS)):
+	...     GS.add_node(WS[i], ind=i)
+	>>> GS.add_edges_from([('a', 'b')])
+	>>> LGS=res(WS, GS)
+	>>> LGS.nodes
+	NodeView(('a', 'b', 'c'))
+	>>> LGS.edges
+	OutEdgeView([('a', 'b'), ('a', 'c'), ('b', 'c')])
+
+This looks pretty much correct.
+
+	>>> WM=['a', 'b', 'c', 'd', 'e', 'f', 'g']
+	>>> GM=nx.DiGMraph()
+	>>> for i in range(0, len(WM)):
+	...     GM.add_node(WM[i], ind=i)
+	>>> GM.add_edges_from([('a', 'b'), ('b', 'c'), ('c', 'd'), ('c', 'e'), ('e', 'f'), ('f', 'g'), ('g', 'b')])
+	>>> LGM=res(WM, GM)
+	>>> LGM.nodes
+	NodeView(('a', 'b', 'c', 'd', 'e', 'f', 'g'))
+	>>> LGM.edges
+	OutEdgeView([('a', 'b'), ('a', 'c'), ('a', 'd'), ('a', 'e'), ('a', 'f'), ('a', 'g'), ('b', 'c'), ('b', 'd'), ('b', 'e'), ('b', 'f'), ('b', 'g'), ('c', 'd'), ('c', 'e'), ('c', 'f'), ('c', 'g'), ('d', 'e'), ('d', 'f'), ('d', 'g'), ('e', 'f'), ('e', 'g'), ('f', 'g')])
+
+This is actually equal to the hypothesized solution from above (below
+is the non-transitive-closure version):
+
+![A path graph.](./img/turning/resubc_hyp.png "A path graph. Vertices again {a, b, c, d, e, f, g, h}. Edges are a → b → c → d → e → f → g.")
+
+##### Questions
+
+* Does it matter whether we give `res` a graph `$G$` or the transitive closure of `$G$`?
+
+#### Problems with This Method and its Algorithm
+
+This solution has some glaring problems.
+
+##### Speed (or the Lack Thereof)
+
+Some of you might have noticed that this algorithm is *somewhat
+inefficient* (by which I mean *absolutely infeasible*).
+
+Since we iterate through the permutations of `$W$`, the runtime is
+`$\mathcal{O}(|W|!)$` (with the added benefit of computing the
+[NP-complete](https://en.wikipedia.org/wiki/NP-completeness)
+graph edit distance inside of the loop, which is also
+[APX](https://en.wikipedia.org/wiki/APX)-hard to approximate).
+
+<!--TODO: measure runtime-->
+
+* Question: Is there a more efficient algorithm to compute the resolved preference? Can it at least be made exponential?
+
+##### Non-Unique Results
+
+Another, smaller problem is that the algorithm often doesn't have a unique
+result, as seen in the small example [above](#Resolving-Inconsistencies).
+
+We can compute the set of all possible resolutions with some trivial
+changes to the algorithm:
+
+	res_all(W, G≿=(W, E≿)):
+		mindist=∞
+		R=∅
+		[…]
+			if dist<mindist:
+				R={L}
+				mindist=dist
+			else if dist==mindist:
+				R=R∪{L}
+		return R
+
+and its implementation
+
+	def res_all(W, G):
+		R=set()
+		[…]
+			if dist<mindist:
+				R=set([LG])
+				mindist=dist
+			elif dist==mindist:
+				R.add(LG)
+		return R
+
+The results, with the small example, are as expected:
+
+	>>> S=list(res_all(WS, GS))
+	>>> len(S)
+	3
+	>>> S[0].edges
+	OutEdgeView([('a', 'b'), ('a', 'c'), ('b', 'c')])
+	>>> S[1].edges
+	OutEdgeView([('a', 'b'), ('c', 'a'), ('c', 'b')])
+	>>> S[2].edges
+	OutEdgeView([('a', 'c'), ('a', 'b'), ('c', 'b')])
+
+![A small example](./img/turning/se_comp.png "Four graphs, side-by side. Top left is a → b, c, top right is a → b → c, a → c, bottom left is a → c → b, a → b, bottom right is c → a → b, c → b.")
+
+For the big example, after waiting a while for the solution:
+
+	>>> S=list(res_all(WM, GM))
+	>>> len(S)
+	49
+
+I will not list them all, but these are less than the `$7!=5040$`
+possible options.
+
+This brings up an interesting question: As we have more and more
+elaborate inconsistent preferences with more elements, does it
+become more likely that the have a unique consistent preference
+they can be resolved to? Or, in other words, if make the graphs
+bigger and bigger, can we expect the fraction of inconsistent
+preferences with a unique resolution to grow (strictly)
+[monotonically](https://en.wikipedia.org/wiki/Monotonic_function)?
+
+More formally, if we define `$\mathcal{G}$` as the set of graphs
+with `$n$` nodes, and `$\mathcal{U}_n=\{G \in \mathcal{G}_n | 1=|\text{res_all}(G)|\}$`
+as the set of graphs with `$n$` nodes that
+have unique path graphs associated with them.
+
+###### Questions
+
+One can now pose several (possibly distracting) questions:
+
+* Is `$\frac{|\mathcal{U}_n|}{|\mathcal{G}_n|}<\frac{|\mathcal{U}_{n+1}|}{|\mathcal{G}_{n+1}|}$`?
+	* It should be possible to check this for small cases.
+* In general, how does the size of `$\mathcal{U}_n$` develop? What about graphs with 2 possible consistent resolutions, or in general `$m$`?
+	* One can define `$\mathcal{T}(n,m)=\{G \in \mathcal{G}_n | m=|\text{res_all}(G)|\}$`
+		* How, then, does `$\mathcal{T}(n,m)$` behave?
+		* What is `$\lim_{n \rightarrow \infty} \frac{1}{\mathcal{G}_n} \sum_{i=1}^{n} \mathcal{T}(n,i)$`? Does it converge?
 
 ### Encoding Inconsistencies
 
@@ -82,9 +396,9 @@ and intransitivity.
 
 #### Incompleteness
 
-Incompleteness (or incomparability) between two options `$o_1, o_2$`
+Incompleteness (or incomparability) between two options `$w_1, w_2$`
 can be represented by not specifying an edge between the two options,
-that is `$(o_1, o_2) \not \in E, (o_2, o_1) \not \in E$`.
+that is `$(w_1, w_2) \not \in E, (w_2, w_1) \not \in E$`.
 
 ![](./img/turning/incomplete.png)
 
@@ -100,20 +414,13 @@ With option set `$\{a,b\}$` have preference `$a \succsim b$`, with
 option set `$\{a,b,c\}$` have preferences
 `$b \succsim a, a \succsim c, b \succsim c$`.
 
-### Resolving Inconsistencies
+### Discussion
 
-![](./img/turning/unbalanced_cycle.png)
+This leads to an interesting ethical consideration: is it a larger change
+to a preference relation to add new information or remove information?
 
-#### Intransitivity
-
-#### Incompleteness
-
-"Zipping" DAGs.
-
-### Simple Approach
-
-Use Graph Edit distance on the permutations of options to determine the
-one with the smallest distance.
+It is discussed how to incorporate those weights into an algorithm for
+minimally transforming `$G_{\succsim}$` into `$G_{\succeq}$`.
 
 Continuous Case
 ----------------
@@ -170,8 +477,8 @@ to the AI simplex?
 Further Questions
 ------------------
 
-* Is there a canonical way to turn graphs into path graphs with a minimal number of "operations"?
 * Does every graph `$G$` have a unique graph `$G'$` so that `$G$` is the transitive closure of `$G'$`?
+* There is something interesting going on with lattices (?) over individual transitivity operations
 
 <!--
 *epistemic status: butterfly idea, I really should learn more topology
