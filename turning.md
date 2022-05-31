@@ -474,6 +474,12 @@ If you know a mapping between objects from human to AI ontology, you
 could find the mapping from the (consistent) human probability simplex
 to the AI simplex?
 
+#### Discrete Case
+
+A node splits in two or more, or two or more nodes get merged. If the
+then resulting graph isn't a path graph, it can be resolved with the
+method described above.
+
 Further Questions
 ------------------
 

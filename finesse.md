@@ -8,6 +8,8 @@ how random a set of resolved forecasts in a specific interval of
 probabilities is, and describe attempts to find algorithms that fulfill
 those conditions.__
 
+<!--https://nitter.hu/tenthkrige/status/1412457737380839432-->
+
 Finesse of Sets of Forecasts
 =============================
 

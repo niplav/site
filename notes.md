@@ -1198,3 +1198,24 @@ data-scientist.
 
 For more information about this amazing function, consult its
 [documentation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html).
+
+Some Civilizational Inadequacies
+---------------------------------
+
+<!--TODO: Fermi estimates for all of these-->
+
+* Cookie warnings in the EU, caused by the GDPR
+	* Civilizational cost Fermi estimate
+		* 1 warning per day, which takes 2 seconds to close, with ~400 mio. people use the internet regularly, for the 4 years since GDPR was instituted
+		* `$\frac{1 \text{ warning}}{\text{person} \cdot \text{day}} \cdot \frac{2 \text{ unskilled labor seconds}}{\text{warning}} \cdot \frac{1 \text{ unskilled labor hour}}{3600 \text{ unskilled labor seconds}} \cdot \frac{365 \text{ days}}{\text{year}} \cdot 4 \text{ years} \cdot 4 \cdot 10^8 \text{ persons} \approx 3.25 \cdot 10^8 \text{ unskilled labor hours}$`
+		* Which at `$\frac{5€}{\text{unskilled labor hour}}$` is ~1.6 bio. €
+		* Can the benefit compare to this?
+* Gear sticks for manual gear shifting (which are much more common in the EU, I think)
+	* Civilizational cost Fermi estimate
+		* Disregarding any costs from increased numbers of crashes, let's assume that ~half of the population of Europe learned to drive with manual (manual might not have been available beforehand), which took them ~5 hours more on average
+		* That gives `$\frac{5 \text{ unskilled labour hours}}{\text{person}} \cdot 3 \cdot 10^8 \text{ persons}=1.5 \cdot 10^8 \text{ unskilled labour hours}$`
+		* At `$\frac{5€}{\text{unskilled labor hour}}$` this is ~7.5 bio. €
+		* And this is still disregarding increased crash probabilities from higher cognitive load! (Although maybe automatic cars cost more?)<!--TODO: do-->
+* Ceramic plates and cups made of glass that break easily
+* Non-velcro shoes
+* Courses at university are not 3blue1brown + Q&A + extensive quizzes (or automated tutoring à la DARPA)
