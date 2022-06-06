@@ -383,6 +383,7 @@ Advertising Lines
 * Niplav Yushtun™: Paratechnē Straight from the Source
 * Niplav Yushtun™: Pathological Selfer
 * Niplav Yushtun™: [Now an effective cause area!](https://schelling.pt/web/statuses/107888052139408526)
+* Niplav Yushtun™: Calibration of the Intellect, Optimism of the Will
 
 Daygame
 --------

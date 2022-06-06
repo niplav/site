@@ -39,7 +39,7 @@ person).
 
 This is inspired by the idea of Long Content, produced under the motto
 
-> Think Less Wrong, act Long Now and Suck Less.
+> Think [Less Wrong](https://www.lesswrong.com), act Long Now<!--TODO: link--> and [Suck Less](https://suckless.org).
 
 *— paraphrasing [Gwern Branwen](https://www.gwern.net/), [“About This Website”](https://www.gwern.net/About), 2019*
 
@@ -94,7 +94,7 @@ informal diary-style text entries (posts). Posts are typically displayed
 in reverse chronological order, so that the most recent post appears
 first, at the top of the web page.
 
-*— [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), [“Blog”](https://en.wikipedia.org/wiki/Blog), 2021*
+*— [English Wikipedia](https://en.wikipedia.org/wiki/English_Wikipedia), [“Blog”](https://en.wikipedia.org/wiki/Blog), 2021*
 
 I don't think this website can be classified as a blog—it strongly
 lacks the chronological element of the standard blog format, except for
@@ -191,7 +191,7 @@ The style of writing is mostly formal US english.
 * MathJax is used only when necessary
 * The [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma) is not used
 * Code is not syntax-highlighted
-* A passive voice is preferred, but I have to get into the flow of writing, so texts may contain that as well.
+* A passive voice is preferred, but I have to get into the flow of writing, so texts may contain active voice as well.
 * No footnotes/endnotes (see [entirelyuseless 2015](https://entirelyuseless.com/2015/07/11/are-hyperlinks-a-bad-idea/))
 * Quotes have the following style: `*– [Author Name](https://en.wikipedia.org/wiki/Author_Name), [“Chapter” in “Work Name”](https://work-name.com) p.1, Year*`. If the work is not online, link the Wikipedia page.
 * Quotes of reddit have the following style:
@@ -200,8 +200,9 @@ The style of writing is mostly formal US english.
 * For pages, optimal is to give the page number of the quotation in the linked PDF. If it is not available, the page number written at the bottom of the page is used.
 * Link to document: typical style
 	* for one author: `[Author Year](./title_author_year.pdf)`
-	* for two authors: `[Author&Coauthor Year](./title_author_coauthor_year.pdf)`
+	* for two authors: `[Author & Coauthor Year](./title_author_coauthor_year.pdf)`
 	* for more than two authors: `[Author et al. Year](./title_author_et_al_year.pdf)`
+	* if the author is unknown, use "anon", if the year is unknown, use "unknown"
 	* Tooltip: The title of the document
 * The year for a text is usually the best date of the last significant change to the text.
 * Link individual chapters from books, not whole books, whole papers are okay.
@@ -453,7 +454,6 @@ but rather cycles).
 
 * [Ethan](https://210ethan.github.io)
 * [Tetraspace West](https://thetetra.space)
-* [Matteo Dimaio](https://matteodimaio.net)
 * [Skaði þjazidottir](https://ulthar.xyz)
 
 The Author

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-05-30, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-06-06, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,17 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Where to Live for Happiness (Ethan Morse, 2022)](https://210ethan.github.io/research/living.html)
+* [History of This Website (Brian Tomasik, 2019)](https://reducing-suffering.org/history-of-this-website/)
+* I Just Do Theory (Aaron Sterling, 2007)
+* [Paradigms of AI alignment: components and enablers (Vika, 2022)](https://www.lesswrong.com/posts/JC7aJZjt2WvxxffGz/paradigms-of-ai-alignment-components-and-enablers)
+* [Fusillade (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Fusillade)
+* [Frequently Asked Questions (FAQ) (Good JudgmentOpen, 2020)](https://www.gjopen.com/faq)
+* AI, Good and Evil… and Moloch (Anders Sandberg, 2019)
+* [Classification of finite simple groups (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Classification_of_finite_simple_groups)
+* [Classical Computing Embraces Quantum Ideas (Natalie Wolchover, 2012)](https://www.quantamagazine.org/quantum-computing-solves-classical-problems-20121218/)
+* [As Supersymmetry Fails Tests, Physicists Seek New Ideas (Natalie Wolchover, 2012)](https://www.quantamagazine.org/physicists-debate-future-of-supersymmetry-20121120/)
+* [In Mysterious Pattern, Math and Nature Converge (Natalie Wolchover, 2013)](https://www.quantamagazine.org/in-mysterious-pattern-math-and-nature-converge-20130205/)
 * [* Getting Into Shapes: From Hyperbolic Geometry to Cube Complexes and Back (Erica Klarreich, 2012)](https://www.quantamagazine.org/getting-into-shapes-from-hyperbolic-geometry-to-cube-complexes-and-back-20121002/)
 * [How understanding valence could help make future AIs safer (Michael Edward Johnson, 2015)](https://opentheory.net/2015/09/fai_and_valence/)
 * [On category I and category II problems (Eli Tyre, 2021)](https://musingsandroughdrafts.wordpress.com/2021/04/05/on-category-i-and-category-ii-problems/)
@@ -81,7 +92,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Initiation Prelude [Fiction] (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/10/28/initiation-prelude-fiction)
 * [Ghoti (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Ghoti)
 * [Tickle-fight Diplomacy, and Other Methods of Greeting and Conflict Management (William Buckner, 2021)](https://traditionsofconflict.com/blog/2021/10/17/tickle-fight-diplomacy-and-other-methods-of-greeting-and-conflict-management)
-* \* Calibration Scoring Rules for Practical Prediction Training (Spencer Greenberg, 2018)
+* Calibration Scoring Rules for Practical Prediction Training (Spencer Greenberg, 2018)
 * [The Creation of Men and Women in Hunter-Gatherer Societies (William Buckner, 2020)](https://traditionsofconflict.com/blog/2020/12/29/the-creation-of-men-and-women-in-hunter-gatherer-societies)
 * [The Hyperbolic Time Chamber & Brain Emulation (Gwern Branwen, 2018)](https://www.gwern.net/Hyperbolic-Time-Chamber)
 * [Book Review: Humankind by Rutger Bregman (William Buckner, 2020)](https://traditionsofconflict.com/blog/2020/12/13/book-review-humankind-by-rutger-bregman)

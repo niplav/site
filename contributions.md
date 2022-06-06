@@ -221,7 +221,7 @@ Fixed a typo where with "The inflation of the of wages from 1970 to
 Fixed a typo on p. 17 where in "treats b and c is formulas", "is" should
 have been be "as".
 
-### Categorizing Variants of Goodhart's Law
+### “Categorizing Variants of Goodhart's Law”
 
 [Manheim & Garrabrant 2019](https://arxiv.org/abs/1803.04585)
 

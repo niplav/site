@@ -1656,7 +1656,15 @@ Wikipedia Articles
 * On Wikipedia page for Graph Kernel, correct "Leman" to "Lehman" (first, check whether this is actually wrong).
 * Find Ian Goodfellow's true year of birth
 * Add missing national anthems to `https://en.wikipedia.org/wiki/List_of_national_anthems`
-* Danging link in second paragraph of Salutogenesis
+* Dangling link in second paragraph of Salutogenesis
+* Redirects to Multilayer perceptron:
+	* Multi layer perceptron
+	* Multi-layer peceptron
+* Redirects to Thomas Bayes
+	* Reverend Thomas Bayes
+	* Sir Reverend Thomas Bayes
+* Maiser Khana
+	* Replace '. .' with '.'
 
 Answers
 --------
