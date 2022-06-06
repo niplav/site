@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-02-22, modified: 2021-10-18, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2021-02-22, modified: 2022-06-06, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Inspired by others
 ([Falkovich 2019](https://www.lesswrong.com/posts/HJeD6XbMGEfcrx3mD/100-ways-to-live-better "100 Ways To Live Better"),
@@ -218,10 +218,10 @@ And, as always, remember that I'm just a person on the internet.
 	*	Know how much you spend, on what, and what your longterm
 		financial plan is.
 28.	For some people, sometimes being able to ground out ones problems
-	causally in the world (i.e. “Which
+	causally in the world (i.e. "Which
 	[gears-level](https://www.lesswrong.com/posts/B7P97C27rvHPz3s9B/gears-in-understanding)
 	processes lead to the situation I'm in, and which incentives
-	pushed which people to create/exacerbate those problems?”)
+	pushed which people to create/exacerbate those problems?")
 	can help dissolve negative emotions around the problem.
 	*	Related: Modeling other people as causal systems plays
 		into this very well

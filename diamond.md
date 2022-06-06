@@ -1,12 +1,21 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-11-20, modified: 2020-11-20, language: english, status: notes, importance: 4, confidence: highly likely*
+*author: niplav, created: 2020-11-20, modified: 2022-06-06, language: english, status: notes, importance: 4, confidence: highly likely*
 
-> __.__
+> __The Diamond-Square algorithm is a terrain-generation algorithm for
+two dimensions (producing a three-dimensional terrain). I generalize
+the algorithm to any positive number of dimensions, and analyze the
+resulting algorithm.__
 
 Generalizing the Diamond-Square Algorithm to n Dimensions
 =========================================================
+
+> Libre de la metáfora y del mito
+labra un arduo cristal: el infinito
+mapa de Aquel que es todas Sus estrellas.
+
+*— [Jorge Luis Borges](https://en.wikipedia.org/wiki/Jorge_Luis_Borges), [“Spinoza”](https://thefunambulist.net/literature/litterature-spinoza-by-borges), 1964*
 
 Introduction
 -------------

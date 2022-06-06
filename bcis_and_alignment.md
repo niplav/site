@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-08-17, modified: 2022-01-14, language: english, status: in progress, importance: 6, confidence: possible*
+*author: niplav, created: 2021-08-17, modified: 2022-06-06, language: english, status: in progress, importance: 6, confidence: possible*
 
 > __I discuss arguments for and against the usefulness of brain-computer
 interfaces in relation to AI alignment, and conclude that the path to
@@ -281,6 +281,37 @@ alignment, but is still a noteworthy addition to the scholarship on BCIs.
 
 Arguments For the Utility of Brain-Computer Interfaces in AI Alignment
 -----------------------------------------------------------------------
+
+> There is a cataclysm coming for this population  
+What form it takes is not yet known our team is at the station  
+The meiser is always watching over this old town  
+I know the ways their talking crumbles if the air becomes unwound  
+>  
+I am an alien, I can't say I'm a trusted bearer  
+I humbly ask my word be heeded lest there be a gruesome terror  
+Ungodly astral beings, lend your ear to me  
+For just a second I can make things clear  
+I'll let the meiser see  
+>  
+There is no easy way to give this information unto thee  
+I pray I do not sound to brash or too conspicuous indeed  
+The end is coming if I dare come if cliché  
+I dare say image won't concern me if we make it through today  
+>  
+[…]  
+>  
+> One dawn in the stomach of the beast  
+a sickly parasite will crave the taste of acid in the trees  
+Wine and bees, nothing here will keep the hive in check  
+Das triadische Ballet, das triadische Ballet  
+>  
+One dawn with a trepidacious spark  
+We need to turn the end upon us  
+We'll behest the oligarchs  
+All the stars burn the oceans up, the dreams we haven't met  
+Das triadische Ballet, das triadische Ballet!
+
+*—[Patricia Taxxon](), [“Alien”]() from [“Gelb”](), YEAR<!--TODO-->*
 
 ### Improving Human Cognition
 

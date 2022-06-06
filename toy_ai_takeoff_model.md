@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-07-22, modified: 2022-03-24, language: english, status: maintenance, importance: 5, confidence: highly unlikely*
+*author: niplav, created: 2020-07-22, modified: 2022-06-06, language: english, status: maintenance, importance: 5, confidence: highly unlikely*
 
 > __In [AI safety](https://en.wikipedia.org/wiki/AI_control_problem),
 significant time has been spent on the question of
@@ -25,12 +25,6 @@ TODO:
 
 An Exploratory Toy AI Takeoff Model
 ===================================
-
-> Libre de la metáfora y del mito  
-labra un arduo cristal: el infinito  
-mapa de Aquel que es todas Sus estrellas.
-
-*— [Jorge Luis Borges](https://en.wikipedia.org/wiki/Jorge_Luis_Borges), [“Spinoza”](https://thefunambulist.net/literature/litterature-spinoza-by-borges), 1964*
 
 > Paraphrasing Roache (2008) the state of play is such that nobody
 believes the result of a simulation, except the person who performed

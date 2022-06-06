@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-03-04, modified: 2022-05-29, language: english, status: notes, importance: 8, confidence: unlikely*
+*author: niplav, created: 2022-03-04, modified: 2022-06-06, language: english, status: notes, importance: 8, confidence: unlikely*
 
 > __Representing inconsistent preferences with specific mathematical
 structures can clarify thoughts about how to make those preferences
@@ -377,16 +377,20 @@ with `$n$` nodes, and `$\mathcal{U}_n=\{G \in \mathcal{G}_n | 1=|\text{res_all}(
 as the set of graphs with `$n$` nodes that
 have unique path graphs associated with them.
 
+###### Maximal and Minimal Number of Resolutions
+
 ###### Questions
 
 One can now pose several (possibly distracting) questions:
 
-* Is `$\frac{|\mathcal{U}_n|}{|\mathcal{G}_n|}<\frac{|\mathcal{U}_{n+1}|}{|\mathcal{G}_{n+1}|}$`?
+* As we add more options to our inconsistent preferences, do they become more likely to resolve uniquely?
+	* That is: Does it hold that `$\frac{|\mathcal{U}_n|}{|\mathcal{G}_n|}<\frac{|\mathcal{U}_{n+1}|}{|\mathcal{G}_{n+1}|}$`?
 	* It should be possible to check this for small cases.
 * In general, how does the size of `$\mathcal{U}_n$` develop? What about graphs with 2 possible consistent resolutions, or in general `$m$`?
 	* One can define `$\mathcal{T}(n,m)=\{G \in \mathcal{G}_n | m=|\text{res_all}(G)|\}$`
 		* How, then, does `$\mathcal{T}(n,m)$` behave?
-		* What is `$\lim_{n \rightarrow \infty} \frac{1}{\mathcal{G}_n} \sum_{i=1}^{n} \mathcal{T}(n,i)$`? Does it converge?
+		* Does the average number of resolutions for inconsitent preferences converge to a specific number?
+		* That is, what is `$\lim_{n \rightarrow \infty} \frac{1}{\mathcal{G}_n} \sum_{i=1}^{n} \mathcal{T}(n,i)$`? Does it converge?
 
 ### Encoding Inconsistencies
 
@@ -462,6 +466,15 @@ Look into extremal graph theory.
 
 Implications for AI Alignment
 ------------------------------
+
+> I've seen six cities fall for this  
+mathematics with incompetence  
+red flags stand among the trees  
+repugnant symphonies  
+a billionaires tarantula just ate the ceiling  
+thinking it was yet another floor
+
+*—[Patricia Taxxon](), [“Hellbulb”]() from [“Gelb”](), YEAR<!--TODO-->*
 
 ### Ambitious Value Learning
 
