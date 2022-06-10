@@ -1,0 +1,534 @@
+THE ABOLITIONIST PROJECT
+
+INTRODUCTION This talk is about suffering and how to get rid of it.
+The abolitionist project outlines how biotechnology will abolish
+suffering throughout the living world.  Our descendants will be animated
+by gradients of genetically preprogrammed well-being that are orders of
+magnitude richer than today's peak experiences.
+
+First, I'm going to outline why it's technically feasible to abolish
+the biological substrates of any kind of unpleasant experience -
+psychological pain as well as physical pain.  Secondly, I'm going to
+argue for the overriding moral urgency of the abolitionist project,
+whether or not one is any kind of ethical utilitarian.  Thirdly, I'm
+going to argue why a revolution in biotechnology means it's going to
+happen, albeit not nearly as fast as it should.
+
+1: WHY IT IS TECHNICALLY FEASIBLE Sadly, what won't abolish suffering,
+or at least not on its own, is socio-economic reform, or exponential
+economic growth, or technological progress in the usual sense, or any
+of the traditional panaceas for solving the world's ills. Improving the
+external environment is admirable and important; but such improvement
+can't recalibrate our hedonic treadmill above a genetically constrained
+ceiling. Twin studies confirm there is a [partially] heritable
+set-point of well-being - or ill-being - around which we all tend to
+fluctuate over the course of a lifetime. This set-point varies between
+individuals. [It's possible to lower an individual's hedonic set-point
+by inflicting prolonged uncontrolled stress; but even this re-set is not
+as easy as it sounds: suicide-rates typically go down in wartime; and
+six months after a quadriplegia-inducing accident, studies1 suggest that
+we are typically neither more nor less unhappy than we were before the
+catastrophic event.] Unfortunately, attempts to build an ideal society
+can't overcome this biological ceiling, whether utopias of the left
+or right, free-market or socialist, religious or secular, futuristic
+high-tech or simply cultivating one's garden. Even if everything that
+traditional futurists have asked for is delivered - eternal youth,
+unlimited material wealth, morphological freedom, superintelligence,
+immersive VR, molecular nanotechnology, etc - there is no evidence that
+our subjective quality of life would on average significantly surpass
+the quality of life of our hunter-gatherer ancestors - or a New Guinea
+tribesman today - in the absence of reward pathway enrichment. This claim
+is difficult to prove in the absence of sophisticated neuroscanning; but
+objective indices of psychological distress e.g. suicide rates, bear it
+out. Unenhanced humans will still be prey to the spectrum of Darwinian
+emotions, ranging from terrible suffering to petty disappointments and
+frustrations - sadness, anxiety, jealousy, existential angst. Their
+biology is part of "what it means to be human". Subjectively unpleasant
+states of consciousness exist because they were genetically adaptive. Each
+of our core emotions had a distinct signalling role in our evolutionary
+past: they tended to promote behaviours that enhanced the inclusive
+fitness of our genes in the ancestral environment.
+
+So if manipulating our external environment alone can never abolish
+suffering and malaise, what does technically work?
+
+Here are three scenarios in ascending order of sociological plausibility:
+
+    a) wireheading b) utopian designer drugs c) genetic engineering and -
+    what I want to focus on - the impending reproductive revolution of
+    designer babies
+
+    a) Recall wireheading is direct stimulation of the pleasure centres2
+    of the brain via implanted electrodes. Intracranial self-stimulation
+    shows no physiological or subjective tolerance i.e. it's just as
+    rewarding after two days as it is after two minutes. Wireheading
+    doesn't harm others; it has a small ecological footprint; it
+    banishes psychological and physical pain; and arguably it's a
+    lot less offensive to human dignity than having sex. Admittedly,
+    lifelong wireheading sounds an appealing prospect only to a handful
+    of severe depressives. But what are the technical arguments against
+    its adoption?
+
+    Well, wireheading is not an evolutionarily stable solution:
+    there would be selection pressure against its widespread
+    adoption. Wireheading doesn't promote nurturing behaviour:
+    wireheads, whether human or non-human, don't want to raise baby
+    wireheads. Uniform, indiscriminate bliss in the guise of wireheading
+    or its equivalents would effectively bring the human experiment to an
+    end, at least if it were adopted globally. Direct neurostimulation of
+    the reward centres destroys informational sensitivity to environmental
+    stimuli. So assuming we want to be smart - and become smarter - we
+    have a choice. Intelligent agents can have a motivational structure
+    based on gradients of ill-being, characteristic of some lifelong
+    depressives today. Or intelligent agents can have our current typical
+    mixture of pleasures and pains. Or alternatively, we could have an
+    informational economy of mind based entirely on [adaptive] gradients
+    of cerebral bliss - which I'm going to argue for.
+
+    Actually, this dismissal of wireheading may be too quick. In the
+    far future, one can't rule out offloading everything unpleasant or
+    mundane onto inorganic supercomputers, prostheses and robots while we
+    enjoy uniform orgasmic bliss. Or maybe not orgasmic bliss, possibly
+    some other family of ideal states that simply couldn't be improved
+    upon. But that's speculative. Whatever our ultimate destination, it
+    would be more prudent, I think, to aim for both superhappiness and
+    superintelligence - at least until we understand the full implications
+    of what we are doing. There isn't a moral urgency to maximizing
+    superhappiness in the same way as there is to abolishing suffering.
+
+    [It's worth noting that the offloading option assumes that inorganic
+    computers, prostheses and robots don't - or at least needn't -
+    experience subjective phenomenal pain even if their functional
+    architecture allows them to avoid and respond to noxious stimuli. This
+    absence of inorganic suffering is relatively uncontroversial with
+    existing computers - switching off one's PC doesn't have ethical
+    implications, and a silicon robot can be programmed to avoid corrosive
+    acids without experiencing agony if it's damaged. It's debatable
+    whether any computational system with a classical von Neumann
+    architecture will ever be interestingly conscious. I'm sceptical;
+    but either way, it doesn't affect the offloading option, unless
+    one argues that the subjective texture of suffering is functionally
+    essential to any system capable of avoiding harmful stimuli.]
+
+    b) The second technical option for eradicating suffering is futuristic
+    designer drugs. In an era of mature post-genomic medicine, will it
+    be possible rationally to design truly ideal pleasure-drugs that
+    deliver lifelong, high-functioning well-being without unacceptable
+    side-effects? "Ideal pleasure drugs" here is just a piece of
+    shorthand. Such drugs can in principle embrace cerebral, empathetic,
+    aesthetic and perhaps spiritual well-being - and not just hedonistic
+    pleasure in the usual one-dimensional and amoral sense.  We're not
+    talking here about recreational euphoriants, which simply activate the
+    negative feedback mechanisms of the brain; nor the shallow, opiated
+    contentment of a Brave New World; nor drugs that induce euphoric
+    mania, with its uncontrolled excitement, loss of critical insight,
+    grandiosity and flight of ideas. Can we develop true wonderdrugs
+    that deliver sublime well-being on a sustainable basis, recalibrating
+    the hedonic treadmill to ensure a high quality of life for everyone?
+
+    A lot of people recoil from the word "drugs" - which is understandable
+    given today's noxious street drugs and their uninspiring medical
+    counterparts. Yet even academics and intellectuals in our society
+    typically take the prototypical dumb drug, ethyl alcohol. If it's
+    socially acceptable to take a drug that makes you temporarily happy
+    and stupid, then why not rationally design drugs to make people
+    perpetually happier and smarter? Presumably, in order to limit
+    abuse-potential, one would want any ideal pleasure drug to be akin -
+    in one limited but important sense - to nicotine, where the smoker's
+    brain finely calibrates its optimal level: there is no uncontrolled
+    dose-escalation.
+
+    There are of course all kinds of pitfalls to drug-based
+    solutions. Technically, I think these pitfalls can be overcome,
+    though I won't try to show this here. But there is a deeper
+    issue. If there weren't something fundamentally wrong - or at
+    least fundamentally inadequate - with our existing natural state of
+    consciousness bequeathed by evolution, then we wouldn't be so keen
+    to change it. Even when it's not unpleasant, everyday consciousness
+    is mediocre compared to what we call peak experiences. Ordinary
+    everyday consciousness was presumably adaptive in the sense it helped
+    our genes leave more copies of themselves on the African savannah;
+    but why keep it as our default-state indefinitely? Why not change
+    human nature by literally repairing our genetic code?
+
+    Again, this dismissal of pharmacological solutions may be too
+    quick. Arguably, utopian designer drugs may always be useful for
+    the fine-grained and readily reversible control of consciousness;
+    and I think designer drugs will be an indispensable tool to explore
+    the disparate varieties of conscious mind. But wouldn't it be better
+    if we were all born with a genetic predisposition to psychological
+    superhealth rather than needing chronic self-medication? Does even
+    the most ardent abolitionist propose to give cocktails of drugs to
+    all children from birth; and then to take such drug cocktails for
+    the rest of our lives?
+
+    c) So thirdly, there are genetic solutions, embracing both somatic
+    and germline therapy.  By way of context, today there is a minority
+    of people who are always depressed or dysthymic, albeit to varying
+    degrees. Studies with mono- and dizygotic twins confirm there is a
+    high degree of genetic loading for depression. Conversely, there are
+    some people who are temperamentally optimistic. Beyond the optimists,
+    there is a very small minority of people who are what psychiatrists
+    call hyperthymic. Hyperthymic people aren't manic or bipolar;
+    but by contemporary standards, they are always exceedingly happy,
+    albeit sometimes happier than others. Hyperthymic people respond
+    "appropriately" and adaptively to their environment. Indeed they
+    are characteristically energetic, productive and creative. Even when
+    they are blissful, they aren't "blissed out".
+
+    Now what if, as a whole civilisation, we were to opt to become
+    genetically hyperthymic - to adopt a motivational system driven
+    entirely by adaptive gradients of well-being? More radically, as
+    the genetic basis of hedonic tone is understood, might we opt to
+    add multiple extra copies of hyperthymia-promoting genes/allelic
+    combinations and their regulatory promoters - not abolishing
+    homeostasis and the hedonic treadmill but shifting our hedonic
+    set-point to a vastly higher level?
+
+    Three points here: First, this genetic recalibration might
+    seem to be endorsing another kind of uniformity; but it's worth
+    recalling that happier people - and especially hyperdopaminergic
+    people - are typically responsive to a broader range of potentially
+    rewarding stimuli than depressives: they engage in more exploratory
+    behaviour. This makes getting stuck in a sub-optimal rut less likely,
+    both for the enhanced individual and posthuman society as a whole.
+
+    Secondly, universal hyperthymia might sound like a gigantic
+    experiment; and in a sense of course it is. But all sexual
+    reproduction is an experiment. We play genetic roulette, shuffling
+    our genes and then throwing the genetic dice. Most of us flinch at
+    the word "eugenics"; but that's what we're effectively practising,
+    crudely and incompetently, when we choose our prospective mates. The
+    difference is that within the next few decades, prospective parents
+    will be able to act progressively more rationally and responsibly in
+    their reproductive decisions. Pre-implantation genetic screening is
+    going to become routine; artificial wombs will release us from the
+    constraints of the human birth-canal; and a revolution in reproductive
+    medicine will begin to replace the old Darwinian lottery. The
+    question is not whether a reproductive revolution is coming, but
+    rather what kinds of being - and what kinds of consciousness -
+    do we want to create?
+
+    Thirdly, isn't this reproductive revolution going to be the
+    prerogative of rich elites in the West? Probably not for long. Compare
+    the brief lag between the introduction of, say, mobile phones and
+    their world-wide adoption with the 50 year time-lag between the
+    introduction and world-wide adoption of radio; and the 20 year lag
+    between the introduction and world-wide penetration of television. The
+    time-lag between the initial introduction and global acceptance of
+    new technologies is shrinking rapidly. So of course is the price.
+
+Anyway, one of the advantages of genetically recalibrating the hedonic
+treadmill rather than abolishing it altogether, at least for the
+foreseeable future, is that the functional analogues of pain, anxiety,
+guilt and even depression can be preserved without their nasty raw feels
+as we understand them today. We can retain the functional analogues of
+discontent - arguably the motor of progress - and retain the discernment
+and critical insight lacking in the euphorically manic. Even if hedonic
+tone is massively enhanced, and even if our reward centres are physically
+and functionally amplified, then it's still possible in principle to
+conserve much of our existing preference architecture. If you prefer
+Mozart to Beethoven, or philosophy to pushpin, then you can still retain
+this preference ranking even if your hedonic tone is hugely enriched.
+
+Now personally, I think it would be better if our preference architecture
+were radically changed, and we pursued [please pardon the jargon] a
+"re-encephalisation of emotion". Evolution via natural selection has left
+us strongly predisposed to form all manner of dysfunctional preferences
+that harm both ourselves and others for the benefit of our genes. Recall
+Genghis Khan: “The greatest happiness is to scatter your enemy, to
+drive him before you, to see his cities reduced to ashes, to see those
+who love him shrouded in tears, and to gather into your bosom his wives
+and daughters.”
+
+Now I'm told academia isn't quite that bad, but even university life
+has its forms of urbane savagery - its competitive status-seeking and
+alpha-male dominance rituals: a zero-sum game with many losers. Too
+many of our preferences reflect nasty behaviours and states of mind
+that were genetically adaptive in the ancestral environment. Instead,
+wouldn't it be better if we rewrote our own corrupt code? I've focused
+here on genetically enhancing hedonic tone. Yet mastery of the biology
+of emotion means that we'll be able, for instance, to enlarge our
+capacity for empathy, functionally amplifying mirror neurons and
+engineering a sustained increase in oxytocin-release to promote trust
+and sociability. Likewise, we can identify the molecular signatures of,
+say, spirituality, our aesthetic sense, or our sense of humour - and
+modulate and "over-express" their psychological machinery too. From an
+information-theoretic perspective, what is critical to an adaptive,
+flexible, intelligent response to the world is not our absolute
+point on a hedonic scale but that we are informationally sensitive
+to differences. Indeed information theorists sometimes simply define
+information as a "difference that makes a difference".
+
+However, to stress again, this re-encephalisation of emotion is
+optional. It's technically feasible to engineer the well-being of
+all sentience and retain most but not all of our existing preference
+architecture. The three technical options for abolishing suffering
+presented here - wireheading, designer drugs and genetic engineering
+- aren't mutually exclusive. Are they exhaustive? I don't know of
+any other viable options. Some transhumanists believe we could one
+day all be scanned, digitized and uploaded into inorganic computers
+and reprogrammed. Well, perhaps, I'm sceptical; but in any case, this
+proposal doesn't solve the suffering of existing organic life unless
+we embrace so-called destructive uploading - a holocaust option I'm not
+even going to consider here.
+
+2: WHY IT SHOULD HAPPEN Assume that within the next few centuries we will
+acquire these Godlike powers over our emotions. Assume, too, that the
+signalling function of unpleasant experience can be replaced - either
+through the recalibration argued for here, or through the offloading of
+everything unpleasant or routine to inorganic prostheses, bionic implants
+or inorganic computers - or perhaps through outright elimination in the
+case of something like jealousy. Why should we all be abolitionists?
+
+If one is a classical utilitarian, then the abolitionist project follows:
+it's Bentham plus biotechnology. One doesn't have to be a classical
+utilitarian to endorse the abolition of suffering; but all classical
+utilitarians should embrace the abolitionist project. Bentham championed
+social and legislative reform, which is great as far as it goes; but he
+was working before the era of biotechnology and genetic medicine.
+
+If one is a scientifically enlightened Buddhist, then the abolitionist
+project follows too. Buddhists, uniquely among the world's religions,
+focus on the primacy of suffering in the living world. Buddhists may
+think that the Noble Eightfold Path offers a surer route to Nirvana
+than genetic engineering; but it's hard for a Buddhist to argue in
+principle against biotech if it works. Buddhists focus on relieving
+suffering via the extinction of desire; yet it's worth noting this
+extinction is technically optional, and might arguably lead to a stagnant
+society. Instead it's possible both to abolish suffering and continue
+to have all manner of desires.
+
+Persuading followers of Islam and the Judeo-Christian tradition is more
+of a challenge. But believers claim - despite anomalies in the empirical
+evidence - that Allah/God is infinitely compassionate and merciful. So
+if mere mortals can envisage the well-being of all sentience, it would
+seem blasphemous to claim that God is more limited in the scope of
+His benevolence.
+
+Most contemporary philosophers aren't classical utilitarians or Buddhists
+or theists. Why should, say, an ethical pluralist take the abolitionist
+project seriously?  Here I want to take as my text Shakespeare's
+
+    "For there was never yet philosopher That could endure the toothache
+    patiently" [Much Ado About Nothing, Scene Five, Act One (Leonato
+    speaking)]
+
+When one is gripped by excruciating physical pain, one is always shocked
+at just how frightful it can be.  It's tempting to suppose that purely
+"psychological" pain - loneliness, rejection, existential angst, grief,
+anxiety, depression - can't be as atrocious as extreme physical pain;
+yet the reason over 800,000 people in the world take their own lives
+every year is mainly psychological distress. It's not that other things -
+great art, friendship, social justice, a sense of humour, cultivating
+excellence of character, academic scholarship, etc - aren't valuable;
+but rather when intense physical or psychological distress intrudes -
+either in one's own life or that of a loved one - we recognize that this
+intense pain has immediate priority and urgency. If you are in agony
+after catching your hand in the door, then you'd give short shrift to
+someone who urged you to remember the finer things in life. If you're
+distraught after an unhappy love affair, then you don't want to be
+tactlessly reminded it's a beautiful day outside.
+
+OK, while it lasts, extreme pain or psychological distress has an
+urgency and priority that overrides the rest of one's life projects;
+but so what? When the misery passes, why not just get on with one's life
+as before?  Well, natural science aspires to "a view from nowhere",
+a notional God's-eye view. Physics tells us that no here-and-now is
+privileged over any other; all are equally real. Science and technology
+are shortly going to give us Godlike powers over the entire living world
+to match this Godlike perspective. I argue that so long as there is
+any sentient being who is undergoing suffering similar to our distress,
+that suffering should be tackled with the same priority and urgency as
+if it were one's own pain or the pain of a loved one. With power comes
+complicity. Godlike powers carry godlike responsibilities. Thus the
+existence of suffering 200 years ago, for instance, may indeed have been
+terrible; but it's not clear that such suffering can sensibly be called
+"immoral" - because there wasn't much that could be done about it. But
+thanks to biotechnology, now there is - or shortly will be. Over the
+next few centuries, suffering of any kind is going to become optional.
+
+If you're not a classical ethical utilitarian, the advantage of
+recalibrating the hedonic treadmill rather than simply seeking to
+maximise superhappiness is that you are retaining at least a recognizable
+descendant of our existing preference architecture. Recalibration
+of the hedonic treadmill can be made consistent with your existing
+value scheme. Hence even the ill-named "preference utilitarian" can be
+accommodated. Indeed control over the emotions means that you can pursue
+your existing life projects more effectively.  And what about the alleged
+character-building function of suffering? "That which does not crush me
+makes me stronger”, said Nietzsche. This worry seems misplaced. Other
+things being equal, enhancing hedonic tone strengthens motivation - it
+makes us psychologically more robust. By contrast, prolonged low mood
+leads to a syndrome of learned helplessness and behavioural despair.
+
+I haven't explicitly addressed the value nihilist - the subjectivist
+or ethical sceptic who says all values are simply matters of opinion,
+and that one can't logically derive an "ought" from an "is".  Well,
+let's say I find myself in agony because my hand is on a hot stove. That
+agony is intrinsically motivating, even if my conviction that I ought to
+withdraw my hand doesn't follow the formal canons of logical inference.
+If one takes the scientific world-picture seriously, then there is
+nothing ontologically special or privileged about here-and-now or me -
+the egocentric illusion is a trick of perspective engineered by selfish
+DNA.  If it's wrong for me to be in agony, then it is wrong for anyone,
+anywhere.
+
+3: WHY IT WILL HAPPEN OK, it's technically feasible. A world without
+suffering would be wonderful; and full-blown paradise-engineering
+even better. But again, so what? It's technically feasible to build a
+thousand-metre cube of cheddar cheese. Why is a pain-free world going to
+happen? Perhaps it's just wishful thinking. Perhaps we'll opt to retain
+the biology of suffering indefinitely3.
+
+The counterargument here is that whether or not one is sympathetic to
+the abolitionist project, we are heading for a reproductive revolution
+of designer babies. Prospective parents are soon going to be choosing
+the characteristics of their future children. We're on the eve of the
+Post-Darwinian Transition, not in the sense that selection pressure will
+be any less severe, but evolution will no longer be "blind" and "random":
+there will no longer be natural selection but unnatural selection. We
+will be choosing the genetic makeup of our future offspring, selecting
+and designing alleles and allelic combinations in anticipation of their
+consequences. There will be selection pressure against nastier alleles
+and allelic combinations that were adaptive in the ancestral environment.
+
+Unfortunately, this isn't a rigorous argument, but imagine you are
+choosing the genetic dial-settings for mood - the hedonic set-point -
+of your future children. What settings would you pick? You might not
+want gradients of lifelong superhappiness, but the overwhelming bulk of
+parents will surely want to choose happy children. For a start, they
+are more fun to raise. Most parents across most cultures say, I think
+sincerely, that they want their children to be happy. One may be sceptical
+of parents who say happiness is the only thing they care about for their
+kids - many parents are highly ambitious. But other things being equal,
+happiness signals success - possibly the ultimate evolutionary origin
+of why we value the happiness of our children as well as our own.
+
+Of course the parental choice argument isn't decisive. Not least, it's
+unclear how many more generations of free reproductive choices lie ahead
+before radical antiaging technologies force a progressively tighter
+collective control over our reproductive decisions - since a swelling
+population of ageless quasi-immortals can't multiply indefinitely in
+finite physical space. But even if centralised control of reproductive
+decisions becomes the norm, and procreation itself becomes rare, the
+selection pressure against primitive Darwinian genotypes will presumably
+be intense. Thus it's hard to envisage what future social formations would
+really allow the premeditated creation of any predisposition to depressive
+or anxiety disorders - or even the "normal" pathologies of unenhanced
+consciousness.  Non-Human Animals So far I've focused on suffering in just
+one species. This restriction of the abolitionist project is parochial;
+but our anthropocentric bias is deeply rooted. Hunting, killing, and
+exploiting members of other species enhanced the inclusive fitness of our
+genes in the ancestral environment. [Here we are more akin to chimpanzees
+than bonobos.] So unlike, say, the incest taboo, we don't have an innate
+predisposition to find, say, hunting and exploiting non-human animals
+wrong. We read that Irene Pepperberg's parrot, with whom we last shared
+a common ancestor several hundred million years ago, had the mental age
+of a three-year-old child. But it's still legal for so-called sportsmen
+to shoot birds for fun. If sportsmen shot babies and toddlers of our
+own species for fun, they'd be judged criminal sociopaths and locked up.
+
+So there is a contrast: the lead story in the news media is often a
+terrible case of human child abuse and neglect, an abducted toddler, or
+abandoned Romanian orphans. Our greatest hate-figures are child abusers
+and child murderers. Yet we routinely pay for the industrialized mass
+killing of other sentient beings so we can eat them. We eat meat even
+though there's a wealth of evidence that functionally, emotionally,
+intellectually - and critically, in their capacity to suffer - the
+non-human animals we factory-farm and kill are equivalent to human babies
+and toddlers.
+
+From a notional God's-eye perspective, I'd argue that morally we
+should care just as much about the abuse of functionally equivalent
+non-human animals as we do about members of our own species - about
+the abuse and killing of a pig as we do about the abuse or killing of a
+human toddler. This violates our human moral intuitions; but our moral
+intuitions simply can't be trusted. They reflect our anthropocentric
+bias - not just a moral limitation but an intellectual and perceptual
+limitation too. It's not that there are no differences between human and
+non-human animals, any more than there are no differences between black
+people and white people, freeborn citizens and slaves, men and women,
+Jews and gentiles, gays or heterosexuals. The question is rather: are they
+morally relevant differences? This matters because morally catastrophic
+consequences can ensue when we latch on to a real but morally irrelevant
+difference between sentient beings. [Recall how Aristotle, for instance,
+defended slavery. How could he be so blind?] Our moral intuitions are
+poisoned by genetic self-interest - they weren't designed to take an
+impartial God's-eye view. But greater intelligence brings a greater
+cognitive capacity for empathy - and potentially an extended circle of
+compassion. Maybe our superintelligent/superempathetic descendants will
+view non-human animal abuse as no less abhorrent than we view child abuse:
+a terrible perversion.
+
+True or not, surely we aren't going to give up eating each other? Our
+self-interested bias is too strong. We like the taste of meat too
+much. Isn't the notion of global veganism just utopian dreaming?  Perhaps
+so. Yet within a few decades, the advent of genetically-engineered vatfood
+means that we can enjoy eating "meat" tastier than anything available
+today - without any killing and cruelty. As a foretaste of what's in
+store, the In Vitro Meat Consortium was initiated at a workshop held
+at the Norwegian University of Life Sciences in June 2007. Critically,
+growing meat from single stem-cells is likely to be scalable indefinitely:
+its global mass consumption is potentially cheaper than using intact
+non-human animals. Therefore - assuming that for the foreseeable future
+we retain the cash nexus and market economics - cheap, delicious vatfood
+is likely to displace the factory-farming and mass-killing of our fellow
+creatures.
+
+One might wonder sceptically: are most people really going to eat gourmet
+vatfood, even if it's cheaper and more palatable than flesh from butchered
+non-human animals?  If we may assume that vatfood is marketed properly,
+yes. For if we discover that we prefer the taste of vat-grown meat to
+carcasses of dead animals, then the moral arguments for a cruelty-free
+diet will probably seem much more compelling than they do at present.
+
+Yet even if we have global veganism, surely there will still be terrible
+cruelty in Nature? Wildlife documentaries give us a very Bambified
+view of the living world: it doesn't make good TV spending half an hour
+showing a non-human animal dying of thirst or hunger, or slowly being
+asphyxiated and eaten alive by a predator. And surely there has to be a
+food chain? Nature is cruel; but predators will always be essential on
+pain of a population explosion and Malthusian catastrophe?
+
+Not so. If we want to, intelligent agents can use cross-species
+depot-contraception4, redesign the global ecosystem, and rewrite the
+vertebrate genome to get rid of suffering in the rest of the natural
+world too. For non-human animals don't need liberating; they need looking
+after. We have a duty of care, just as we do to human babies and toddlers,
+to the old, and the mentally handicapped. This prospect might sound
+remote; but habitat-destruction means that effectively all that will
+be left of Nature later this century is our wildlife parks. Just as
+we don't feed terrified live rodents to snakes in zoos - we recognise
+that's barbaric - will we really continue to permit cruelties in our
+terrestrial wildlife parks because they are "natural"?
+
+The last frontier on Planet Earth is the ocean. Intuitively, running
+compassionate ecosystems might seem too complicated. But the exponential
+growth of computer power and nanorobotic technologies means that we can
+in theory comprehensively re-engineer marine ecosystems too. Currently
+such re-engineering is still impossible; in a few decades, the task
+will be computationally feasible but challenging; eventually, it will be
+technically trivial. So the question is: will we actually do it? Should
+we do it - or alternatively should we conserve the Darwinian status
+quo? Here we are clearly in the realm of speculation. Yet one may appeal
+to what might be called The Principle Of Weak Benevolence. Unlike the
+controversial claim that superintelligence entails superempathy, The
+Principle Of Weak Benevolence doesn't assume that our technologically
+and cognitively advanced descendants will be any more morally advanced
+than we are now.
+
+Let's give a concrete example of how the principle applies. If presented
+today with the choice of buying either free-range or factory-farmed
+eggs, most non-vegan consumers will pick the free-range eggs. If
+battery-farmed eggs are one penny cheaper, most people will still pick
+the "cruelty-free" option. No, one shouldn't underestimate human malice,
+spite and bloody-mindedness; but most of us have at least a weak bias
+towards benevolence. If any non-negligible element of self-sacrifice
+is involved, for example if free-range eggs cost even 20 pence more,
+then sadly sales fall off sharply. My point is that if - and it's a
+big if - the sacrifice involved for the morally apathetic could be made
+non-existent or trivial, then the abolitionist project can be carried
+to the furthest reaches of the living world.
+
+David Pearce (2007 plus 1 & 2)

@@ -697,7 +697,7 @@ is a fair criticism, since attractiveness is a subjective
 evaluation criterion. However, one must also consider that
 subjective judgements of attractiveness correlate strongly
 both within cultures as well as cross-culturally (see [Coetzee et al.
-2013](./doc/masturbation_and_attractiveness/cross_cultural_agreement_in_facial_attractiveness_preferences_coetzee_2014.pdf "Cross-Cultural Agreement in Facial Attractiveness Preferences: The Role of Ethnicity and Gender")).
+2013](./doc/psychology/attractiveness/cross_cultural_agreement_in_facial_attractiveness_preferences_coetzee_2014.pdf "Cross-Cultural Agreement in Facial Attractiveness Preferences: The Role of Ethnicity and Gender")).
 
 Another possible method would have been to approach people completely
 randomly, which would have reduced bias significantly. However, it
@@ -896,7 +896,7 @@ other reason. Indeed, one could suppose that masturbation is
 reproductively beneficial, since it has apparently been selected
 for by natural and/or sexual selection. "Major mechanisms that do not
 contribute to fitness do not survive in evolutionary equilibrium." ([Ng
-1995](./doc/better_words/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf "Towards Welfare Biology: Evolutionary Economics of Animal Consciousness and Suffering")
+1995](./doc/biology/welfare/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf "Towards Welfare Biology: Evolutionary Economics of Animal Consciousness and Suffering")
 p. 9).
 
 <!--TODO: search for examples of animal species masturbating,

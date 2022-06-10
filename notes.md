@@ -67,7 +67,7 @@ developing societies before they can start to colonize their own galaxy.
 One big question that poses itself is whether humanity is
 before or after such a filter. Some examples of potential
 filters that still await humanity are named in [Bostrom
-2008](./doc/silent_killers/where_are_they_bostrom_2008.pdf "Where Are
+2008](./doc/big_picture/fermi/where_are_they_bostrom_2008.pdf "Where Are
 They?"):
 
 > We can identify a number of potential existential risks: nuclear
@@ -84,7 +84,7 @@ They?"):
 > decades, it is plausible to assume that there are further existential
 > risks that we have not yet thought of.
 
-*— [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), [“Where Are They”](./doc/notes/where_are_they_bostrom_2008.pdf) p. 7, 2008*
+*— [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), [“Where Are They”](./doc/big_picture/fermi/where_are_they_bostrom_2008.pdf) p. 7, 2008*
 
 These risks can be categorized into two groups: silent killers and
 loud killers. A loud killer is an existential catastrophe that produces
@@ -159,7 +159,7 @@ Artificial Intelligence and Action-Compelling Sentences
 > intelligence could in principle be combined with more or less any
 > final goal.
 
-*— [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), [“The Superintelligent Will: Motivation And Instrumental Rationality In Advanced Artificial Agents”](./doc/moral_realist_ai/the_superintelligent_will_bostrom_2012.pdf) p. 3, 2012*
+*— [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), [“The Superintelligent Will: Motivation And Instrumental Rationality In Advanced Artificial Agents”](./doc/cs/ai/alignment/the_superintelligent_will_bostrom_2012.pdf) p. 3, 2012*
 
 For current AI systems, the orthogonality thesis seems to hold pretty
 well: a tree search doesn't start returning wrong results because they
@@ -194,7 +194,7 @@ Suppose that an agent `$A$` starts out not believing any sentence from
 and starts taking precautions against learning sentences from `$V$`
 (making not learning any sentences from `$V$` an instrumentally
 convergent goal since it violates goal preservation ([Omohundro
-2008](./doc/moral_realist_ai/the_basic_ai_drives_omohundro_2008.pdf "The Basic AI Drives"))).
+2008](./doc/cs/ai/alignment/the_basic_ai_drives_omohundro_2008.pdf "The Basic AI Drives"))).
 
 2. `$A$` learns any sentence `$v_{n}$` from `$V$` and alters its utility
 function to pursue `$v_{n}$`. Because it now has very strong evidence
@@ -545,7 +545,7 @@ previously poor people).
 A wealthier humanity would also speed up technological development
 relative to development of wisdom, which would contribute to differential
 intellectual progress ([Tomasik
-2017](./doc/thoughts_on_open_borders/differential_intellectual_progress_as_a_positive_sum_project_tomasik_2017.pdf "Differential Intellectual Progress as a Positive-Sum Project"))
+2017](./doc/big_picture/differential_intellectual_progress_as_a_positive_sum_project_tomasik_2017.pdf "Differential Intellectual Progress as a Positive-Sum Project"))
 and thereby increasing the probability of [global catastrophic
 risks](https://en.wikipedia.org/wiki/Global_catastrophic_risk) through
 novel technologies.
@@ -554,7 +554,7 @@ Pseudocode for an Algorithm for Finding Supermaximal Repeats Using a Suffix Arra
 ---------------------------------------------------------------------------------
 
 [Abouelhoda et al.
-2002](doc/supermaximal_repeats_pseudo/the_enhanced_suffix_array_and_its_implications_to_genome_analysis_abouelhoda_et_al_2002.pdf "The Enhanced Suffix Array and Its Applications to Genome Analysis")
+2002](doc/cs/suffarr/the_enhanced_suffix_array_and_its_implications_to_genome_analysis_abouelhoda_et_al_2002.pdf "The Enhanced Suffix Array and Its Applications to Genome Analysis")
 introduce the enhanced suffix array and describe an algorithm for finding
 [supermaximal repeats](https://en.wikipedia.org/wiki/Maximal_pair) and
 maximum unique matches using it in `${\cal{O}}(n)$` time (`$n=|S|$`,
@@ -691,7 +691,7 @@ controlling paternity much easier. However, would that be worth it?
 Maybe the cost of the operation and preservation is too high.
 
 As per [Grall
-2017](doc/sperm_freezing_vasectomy_cb/custodial_mothers_and_fathers_and_their_child_support_grall_2017.pdf "Custodial Mothers and Fathers and Their Child Support: 2017"),
+2017](doc/sociology/custodial_mothers_and_fathers_and_their_child_support_grall_2017.pdf "Custodial Mothers and Fathers and Their Child Support: 2017"),
 "custodial parents with legal order or informal agreements for child
 support were supposed to receive, on average, $5,519, or approximately
 \$460 per month" (p. 9) (as per Table 2 p. 16, \$5580 per custodial
@@ -1217,8 +1217,8 @@ TODO: I got pushback on LW for this:
 		* Disregarding any costs from increased numbers of crashes, let's assume that ~half of the population of Europe learned to drive with manual (manual might not have been available beforehand), which took them ~5 hours more on average
 		* That gives `$\frac{5 \text{ unskilled labour hours}}{\text{person}} \cdot 3 \cdot 10^8 \text{ persons}=1.5 \cdot 10^8 \text{ unskilled labour hours}$`
 		* At `$\frac{5€}{\text{unskilled labor hour}}$` this is ~7.5 bio. €
-		* And this is still disregarding increased crash probabilities from higher cognitive load! (Although maybe automatic cars cost more?)<!--TODO: do-->
--->
+		* And this is still disregarding increased crash probabilities from higher cognitive load! (Although maybe automatic cars cost more?)
+TODO: do-->
 * Ceramic plates and cups made of glass that break easily
 * Non-velcro shoes
 * Courses at university are not 3blue1brown + Q&A + extensive quizzes (or automated tutoring à la DARPA)

@@ -415,7 +415,7 @@ wiki](https://old.reddit.com/r/streamentry/wiki/index), as well as the
 writings of [Daniel M. Ingram](https://integrateddaniel.info).
 
 I also particularly recommend [Mindfulness in Plain
-English](./doc/meditation_2020/mindfulness_in_plain_english_gunaratana_1990.pdf).
+English](./doc/meditation/mindfulness_in_plain_english_gunaratana_1990.pdf).
 
 __9/10__
 

@@ -28,7 +28,6 @@ Software
 * Calendar: [when](http://www.lightandmatter.com/when/when.html)
 * [Spaced repetition](https://en.wikipedia.org/wiki/Spaced_Repetition): [fulgurate](https://github.com/theq629/fulgurate), [Anki](https://apps.ankiweb.net/index.html)
 * [Internet relay chat](https://en.wikipedia.org/wiki/Internet_Relay_Chat): [ii](https://tools.suckless.org/ii/) with [lchat](https://github.com/younix/lchat)
-* [Twtxt](https://github.com/buckket/twtxt): [txtnish](https://github.com/mdom/txtnish)
 * Version control: [git](https://git-scm.com/)
 * Password manager: [spm](https://notabug.org/kl3/spm/)
 * Code search: [ag](https://geoff.greer.fm/ag/)

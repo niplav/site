@@ -224,7 +224,7 @@ the opportunity was there and I should have taken it.
 After less than a handful of texts from my and her side, with some light
 teasing, I asked her out for drinks, which she declined, but immediately
 suggested two alternative dates (this girl had clearly read [Mr. V
-2020](./doc/pickup_reports/guide_to_texting_girls_mr_v_2020.pdf "Guide to Texting Girls")).
+2020](./doc/game/guide_to_texting_girls_mr_v_2020.pdf "Guide to Texting Girls")).
 
 Before meeting, I did two unsuccessful sets, according to the
 lessons about escalation I'd learned from the encounter with [Miss

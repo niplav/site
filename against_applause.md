@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2021-01-24, language: english, status: maintenance, importance: 4, confidence: unlikely*
+*author: niplav, created: 2019-04-11, modified: 2022-06-10, language: english, status: maintenance, importance: 4, confidence: unlikely*
 
 > __In western cultures, it is nearly universal for people to clap
 > before and after pieces of classical music and jazz. An argument
@@ -368,7 +368,7 @@ there exists a possibility of gaining a more pure experience of
 the music by allowing it to stay in the mind of the listeners for
 some time without being interrupted by loud applause. Research
 into how applause develops and disappears (e.g. [Mann et al.
-2013](./doc/against_applause/the_dynamics_of_audience_applause_mann_et_al_2013.pdf "The dynamics of audience applause"))
+2013](./doc/sociology/the_dynamics_of_audience_applause_mann_et_al_2013.pdf "The dynamics of audience applause"))
 could help determine how to prevent applause from arising in the first
 place.
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-06-06, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-06-10, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,17 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Ozymandias (Horace Smith, 1818)
+* Ozymandias (Percy Bysshe Shelley, 1818)
+* [Don't die with dignity; instead play to your outs (Jeffrey Ladish, 2022)](https://www.lesswrong.com/posts/xF7gBJYsy6qenmmCS/don-t-die-with-dignity-instead-play-to-your-outs)
+* Not What It Seems (Howard Taubman, 1961)
+* The Good Judgment Project: A large scale test of different methods of combining expert predictions (Barb Mellors/Jaime Ramos/Jon Baron/Lyle Ungar/Phil Tetlock/Sam Swift, 2012)
+* [Long Position vs. Short Position: What's the Difference? (Ariel Courage/Leslie Kramer/Thomas Brock, 2021)](https://www.investopedia.com/ask/answers/100314/whats-difference-between-long-and-short-position-market.asp)
+* [My current best guess on how to aggregate forecasts (Jaime Sevilla, 2021)](https://forum.effectivealtruism.org/s/hjiBqAJNKhfJFq7kf/p/acREnv2Z5h4Fr5NWz)
+* [When pooling forecasts, use the geometric mean of odds (Jaime Sevilla, 2021)](https://forum.effectivealtruism.org/s/hjiBqAJNKhfJFq7kf/p/sMjcjnnpoAQCcedL2)
+* [AGI Ruin: A List of Lethalities (Eliezer Yudkowsky, 2022)](https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities)
+* [Famine, Affluence, and Morality (Peter Singler, 1972)](https://www.jstor.org/stable/2265052)
+* [Noble Silence (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Noble_Silence)
 * [Where to Live for Happiness (Ethan Morse, 2022)](https://210ethan.github.io/research/living.html)
 * [History of This Website (Brian Tomasik, 2019)](https://reducing-suffering.org/history-of-this-website/)
 * I Just Do Theory (Aaron Sterling, 2007)
@@ -28,7 +39,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Classical Computing Embraces Quantum Ideas (Natalie Wolchover, 2012)](https://www.quantamagazine.org/quantum-computing-solves-classical-problems-20121218/)
 * [As Supersymmetry Fails Tests, Physicists Seek New Ideas (Natalie Wolchover, 2012)](https://www.quantamagazine.org/physicists-debate-future-of-supersymmetry-20121120/)
 * [In Mysterious Pattern, Math and Nature Converge (Natalie Wolchover, 2013)](https://www.quantamagazine.org/in-mysterious-pattern-math-and-nature-converge-20130205/)
-* [* Getting Into Shapes: From Hyperbolic Geometry to Cube Complexes and Back (Erica Klarreich, 2012)](https://www.quantamagazine.org/getting-into-shapes-from-hyperbolic-geometry-to-cube-complexes-and-back-20121002/)
+* [Getting Into Shapes: From Hyperbolic Geometry to Cube Complexes and Back (Erica Klarreich, 2012)](https://www.quantamagazine.org/getting-into-shapes-from-hyperbolic-geometry-to-cube-complexes-and-back-20121002/)
 * [How understanding valence could help make future AIs safer (Michael Edward Johnson, 2015)](https://opentheory.net/2015/09/fai_and_valence/)
 * [On category I and category II problems (Eli Tyre, 2021)](https://musingsandroughdrafts.wordpress.com/2021/04/05/on-category-i-and-category-ii-problems/)
 * [Results from the First Decade Review (Lizka, 2022)](https://forum.effectivealtruism.org/s/HSA8wsaYiqdt4ouNF/p/FEFEvC6BzswR4oQqm)

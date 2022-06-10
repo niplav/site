@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2022-05-28, language: english, status: maintenance, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2022-06-10, language: english, status: maintenance, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in
 relation to the time between forecast and resolution, and
@@ -1819,6 +1819,13 @@ into one, as I did with the linear regressions above.
 
 ##### Logistic Forecast Horizons for Questions
 
+> for there is in a god's face more of marvel than prediction can tell,
+and when that face is vaster than a great temple and seen looking down at
+sunset in the cryptic silences of that upper world from whose dark lava it
+was divinely hewn of old, the marvel is so strong that none may escape it.
+
+*— [Howard Phillips Lovecraft](https://en.wikipedia.org/wiki/H._P._Lovecraft), [“The Dream-Quest of Unknown Kadath”](http://www.hplovecraft.com/writings/texts/fiction/dq.aspx), 1943*
+
 We now can calculate the forecast horizon defined in [this
 section](#This-Is-Cool) for every question, and then calculate some
 summary statistics of the forecast horizons on all questions in the
@@ -2190,10 +2197,18 @@ confidence how space travel or nanotechnology may affect the ordinary
 person. Our vision seems to fade into a fog of possibilities.
 >
 > The scenario I am about to describe excites me because it seems
-an exception to this general rule -- more like a crack of dawn than
+an exception to this general rule --[sic] more like a crack of dawn than
 a fog, like a sharp transition with sharp implications regardless of
 the night that went before. Or like a sight on the horizon much clearer
 than the terrain inbetween. And, as scenarios go, this one seems rather
 likely. Here it is.
 
 *— [Robin Hanson](https://en.wikipedia.org/wiki/Robin_Hanson), [“If Uploads Come First”](http://mason.gmu.edu/~rhanson/uploads.html), 1994*
+
+> As time passes, the outcomes of most events become more predictable. It
+is therefore important to update probability estimates. We did this in
+the aggregation method by using an exponential decay (a time constant
+of a couple days was optimal in most of our tests), so that out-of-date
+predictions counted less.
+
+*— [Lyle Ungar](https://en.wikipedia.org/wiki/Lyle_Ungar) et al., “The Good Judgment Project: A large scale test of different methods of combining expert predictions” p. 3, 2012*
