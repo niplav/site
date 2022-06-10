@@ -67,7 +67,7 @@ However, it's the best model I know of.
 How deep does this instability & incoherence go?
 
 [Arrhenius
-2000](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf "An Impossibility Theorem for Welfarist Axiologies")
+2000](./doc/philosophy/ethics/population/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf "An Impossibility Theorem for Welfarist Axiologies")
 gives one answer.
 
 ### Then How Do We Find These Preferences?
@@ -243,7 +243,7 @@ farm policies persist.
 
 #### Prediction Markets
 
-[Arrow et al. 2008](./doc/politics_notes/the_promise_of_prediction_markets_arrow_et_al_2008.pdf "The Promise of Prediction Markets")
+[Arrow et al. 2008](./doc/prediction/markets/the_promise_of_prediction_markets_arrow_et_al_2008.pdf "The Promise of Prediction Markets")
 
 #### Nuclear Power
 

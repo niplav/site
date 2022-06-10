@@ -486,12 +486,12 @@ a language or musical instrument) and simply the cost of paying for dates.
 > 3-5 times a week and talking to 10 girls during each session (keep each
 > session to no more than 2 hours).
 
-*— [Tom Torero](https://tomtorero.com/), [“Beginner's Guide to Daygame”](./doc/daygame_cost_benefit/beginners_guide_to_daygame_torero_2018.pdf) p. 6, 2018*
+*— [Tom Torero](https://tomtorero.com/), [“Beginner's Guide to Daygame”](./doc/game/beginners_guide_to_daygame_torero_2018.pdf) p. 6, 2018*
 
 > Most regular hustlers go out 3-5 times a week and do 10 approaches
 > each session, meaning 30-50 per week.
 
-*— [Tom Torero](https://tomtorero.com/), [“Beginner's Guide to Daygame”](./doc/daygame_cost_benefit/beginners_guide_to_daygame_torero_2018.pdf) p. 13, 2018*
+*— [Tom Torero](https://tomtorero.com/), [“Beginner's Guide to Daygame”](./doc/game/beginners_guide_to_daygame_torero_2018.pdf) p. 13, 2018*
 
 I will assume that most daygamers will do around 4 approaches an hour
 (the ones I have met are more choosy, so they have a lower volume),
@@ -1106,7 +1106,7 @@ use the perfect [ISO-8601](https://en.wikipedia.org/wiki/ISO-8601) when
 it's right there‽‽‽), then removing stray spaces after semicolons,
 then removing the `^M` from the end of each line, using
 [structural regular
-expressions](./doc/daygame_cost_benefit_benefit/structural_regular_expressions_pike_1990.pdf "Structural Regular Expressions"):
+expressions](./doc/cs/structural_regular_expressions_pike_1990.pdf "Structural Regular Expressions"):
 
 	,x/([0-9]+)\/([0-9]+)\/([0-9]+) /c/\3-\1-\2T/
 	,x/; /c/;/

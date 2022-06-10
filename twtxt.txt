@@ -1287,3 +1287,18 @@
 2022-06-05T20:36:13.000000Z	“perception is all you need” — Rosenblatt, 1958
 2022-06-05T23:12:35.000000Z	closest pairs of points are not necessarily reflexive. there are some points in euclidean space that are just fundamentally abandoned
 2022-06-06T12:55:33.000000Z	hoooly crap the tino rangatiratanga is a good flag
+2022-06-06T22:44:33.000000Z	if aliens exists and UAPs are caused by them, what implication does that have for AI safety?
+2022-06-06T23:01:13.000000Z	it's funny, conditional on AGI (and perhaps also WBE?) not doing us in, i'm pretty bullish on this century. bio seems much less of a problem, and everything else is basically a-okay, especially with people becoming richer and needing to fight less. most other collapse narratives sound pretty unlikely (though prepping is sitll a good idea! you should have three months of food & water at home)
+2022-06-07T18:42:16.000000Z	even if cause X came along now, people wouldn't be able to update towards it within a year.
+2022-06-07T18:52:21.000000Z	goal: develop strong opinions about vector fields and where to stick wires into people's heads.
+2022-06-07T22:31:36.000000Z	is the “takeoff” of fundamental physics in the first half of the 20th century mostly due to the industrial revolution?
+2022-06-08T19:41:07.000000Z	“The geological study of Antarctica has been greatly hindered by nearly all of the continent being permanently covered with a thick layer of ice.”
+2022-06-08T21:45:15.000000Z	retconning my inner child
+2022-06-09T13:51:19.000000Z	the words “brier score” are used inconsistently: sometimes they just refer to the MSE of the probability assigned to the correct outcome, sometimes they refer to the MSE of the sum of the probability assigned to the correct and the incorrect outcome.
+2022-06-09T16:10:39.000000Z	the cold waste of unknown en-pyee
+2022-06-09T18:24:26.000000Z	lw karma political compass
+2022-06-09T19:17:05.000000Z	……………Tetlock data uses AMERICAN DATE FORMAT IN A DATASET
+2022-06-09T19:17:23.000000Z	AAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHH ARE YOU FOR REAL
+2022-06-09T19:18:51.000000Z	i want to commit violence
+2022-06-09T19:20:33.000000Z	some people just shouldn't be given the responsibility to create datasets.
+2022-06-10T13:53:02.000000Z	ai alignment is great bc nobody knows what it should be, so you can do whatever you want and call it alignment.

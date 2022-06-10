@@ -572,7 +572,7 @@ Here I will assume that
 	valuable as one additional lifeyear
 
 [Greaves
-2017](./doc/considerations_on_cryonics/discounting_future_health_greaves_2017.pdf "Discounting future health")
+2017](./doc/philosophy/ethics/discounting_future_health_greaves_2017.pdf "Discounting future health")
 argues against pure positive discounting for health (i.e QALYs):
 
 > A discount rate should be applied to future health for two
@@ -593,7 +593,7 @@ the instrumental as well as the intrinsic benefits of health improvements
 one is considering. If one did both of those things, there would be no
 reasons of the kinds we have accepted for discounting future health.
 
-*— [Hilary Greaves](https://en.wikipedia.org/wiki/Hilary_Greaves), [“Discounting future health”](./doc/considerations_on_cryonics/discounting_future_health_greaves_2017.pdf) p. 7, 2017*
+*— [Hilary Greaves](https://en.wikipedia.org/wiki/Hilary_Greaves), [“Discounting future health”](./doc/philosophy/ethics/discounting_future_health_greaves_2017.pdf) p. 7, 2017*
 
 She also argues against applying considerations from diminishing marginal
 returns to health (although it must be noted that this analysis does
@@ -607,7 +607,7 @@ been constructed to be linear in well-being. There is therefore
 no reason based in considerations of diminishing marginal returns
 to discount future QALYs.
 
-*— [Hilary Greaves](https://en.wikipedia.org/wiki/Hilary_Greaves), [“Discounting future health”](./doc/considerations_on_cryonics/discounting_future_health_greaves_2017.pdf) p. 3, 2017*
+*— [Hilary Greaves](https://en.wikipedia.org/wiki/Hilary_Greaves), [“Discounting future health”](./doc/philosophy/ethics/discounting_future_health_greaves_2017.pdf) p. 3, 2017*
 
 Additionally, problems with interpersonal utility comparison do not apply
 in this case, since the externalities from signing up for cryonics are
@@ -803,7 +803,7 @@ desires as they may have been expressed in a written, audio, or video
 __Statement of Revival Preferences and Desires__, which the Member may at
 his/her discretion attach to this Agreement.
 
-*— [Alcor Life Extension Foundation](https://www.alcor.org/), [“Cryopreservation Agreement”](./doc/considerations_on_cryonics/cryopreservation_agreement_alcor_2012.pdf) p. 15/16, 2012*
+*— [Alcor Life Extension Foundation](https://www.alcor.org/), [“Cryopreservation Agreement”](./doc/practical/cryopreservation_agreement_alcor_2012.pdf) p. 15/16, 2012*
 
 Although not a failsafe measure, steps can be taken to reduce
 the risks from hellish scenarios above by making arrangements with
@@ -1023,7 +1023,7 @@ this estimate. Interested readers are encouraged to try to modify the
 probability of success and observe the resulting changes in value.
 
 I obtain the 10 leading causes of death by age group from a [2018 CDC
-report](./doc/considerations_on_cryonics/10_leading_causes_of_death_by_age_group_cdc_2018.pdf "10 Leading Causes of Death by Age Group, United States – 2018").
+report](./doc/epidemiology/10_leading_causes_of_death_by_age_group_cdc_2018.pdf "10 Leading Causes of Death by Age Group, United States – 2018").
 
 The causes of death, and their effect on successful cryopreservation
 (as a percentage; reduction in probability of successful resuscitation
@@ -1161,7 +1161,7 @@ These numbers are entered into a Lua table of the following format:
 	}
 
 For the age groups starting from age 15, [NCHS
-2018](./doc/considerations_on_cryonics/data_brief_mortality_in_the_united_states_nchs_2018.pdf "Data Brief 355. Mortality in the United States, 2018")
+2018](./doc/epidemiology/data_brief_mortality_in_the_united_states_nchs_2018.pdf "Data Brief 355. Mortality in the United States, 2018")
 provided the number of deaths by age group (I don't understand why they
 had to start at age 15 and not just include the whole data).
 
@@ -1169,7 +1169,7 @@ For the missing first 4 categories (0 to 1 year, 1-4 years, 5-9 years,
 and 10-14 years), total deaths were calculated under the
 assumption that the top 10 causes of deaths account for 73.8%
 of the total number of deaths in that age group (see [Xu et al.
-2020](doc/considerations_on_cryonics/mortality_in_the_united_states_xu_et_al_2020.pdf "Mortality in the United States, 2018")
+2020](doc/epidemiology/mortality_in_the_united_states_xu_et_al_2020.pdf "Mortality in the United States, 2018")
 p. 2).
 
 For every age group, it was assumed that the average preservation quality

@@ -539,7 +539,7 @@ computers (and possibly increasing the amount of information that
 humans can process): A human typing at a keyboard can likely
 perform all operations on the computer that a human connected
 to the computer via a BCI can, such as giving feedback in a [CIRL
-game](doc/bcis_and_alignment/cooperative_inverse_reinforcement_learning_hadfield_mendell_et_al_2016.pdf "Cooperative Inverse Reinforcement Learning"),
+game](doc/cs/ai/alignment/cirl/cooperative_inverse_reinforcement_learning_hadfield_mendell_et_al_2016.pdf "Cooperative Inverse Reinforcement Learning"),
 interpreting a neural network, analysing the policy of a reinforcement
 learner etc. As such, BCIs offer no qualitatively new strategies for
 aligning AI systems.
@@ -632,7 +632,7 @@ existential risk, then AI capabilities researchers, most of which are
 very intelligent and technically capable, are currently engaging in an
 activity that is on reflection not desirable. One might call this lacking
 property of reflection “wisdom”, similar to the usage in [Tomasik
-2017](./doc/thoughts_on_open_borders/differential_intellectual_progress_as_a_positive_sum_project_tomasik_2017.pdf "Differential Intellectual Progress as a Positive-Sum Project").
+2017](./doc/big_picture/thoughts_on_open_borders/differential_intellectual_progress_as_a_positive_sum_project_tomasik_2017.pdf "Differential Intellectual Progress as a Positive-Sum Project").
 
 It is possible that such a property of human minds, distinct from
 intelligence, does not really exist, and it is merely by chance and
@@ -654,7 +654,7 @@ it: the augmented humans might not be sufficiently [metaphilosophically
 competent](https://www.lesswrong.com/posts/CCgvJHpbvc7Lm8ZS8/metaphilosophical-competence-can-t-be-disentangled-from "Metaphilosophical competence can't be disentangled from alignment")
 to deal with much greater insight the
 structure of reality (e.g. by being unable to cope with [ontological
-crises](./doc/bcis_and_alignment/ontological_crises_in_artificial_agents_value_systems_de_blanc_2011.pdf "Ontological Crises in Artificial Agents' Value Systems")
+crises](./doc/cs/ai/alignment/ontological_crises/ontological_crises_in_artificial_agents_value_systems_de_blanc_2011.pdf "Ontological Crises in Artificial Agents' Value Systems")
 (which appear not infrequently in normal humans), or becoming "drunk
 with power" and therefore malevolent).
 

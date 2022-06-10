@@ -23,13 +23,12 @@ The Problem
 ------------
 
 The original problem is taken from [Munroe
-2014](./doc/lost_immortals_munroe_2014.pdf "“Lost Immortals“ (Randall
-Munroe 2014)"):
+2014](./doc/math/lost_immortals_munroe_2014.pdf "Lost Immortals from “What If?”"):
 
 > If two immortal people were placed on opposite sides of an uninhabited
 > Earthlike planet, how long would it take them to find each other?
 
-*— [Randall Munroe](https://en.wikipedia.org/wiki/Randall_Munroe), [“Lost Immortals” in “What If?”, p. 183](./doc/lost_immortals_munroe_2014.pdf), 2014*
+*— [Randall Munroe](https://en.wikipedia.org/wiki/Randall_Munroe), [“Lost Immortals” in “What If?”, p. 183](./doc/math/lost_immortals_munroe_2014.pdf), 2014*
 
 Here, I add several clarifications to the problem.
 
@@ -170,7 +169,7 @@ the choice of going to the other side of the planet to the right
 body half, and then choosing the strategy based on which part of the
 body itches first. This would be useful since humans are notoriously
 bad at consciously generating random bits (see [Figurska et al.
-2007](./doc/two_people_on_a_planet/humans_cannot_consciously_generate_random_numbers_sequences_figurska_et_al_2008.pdf "Humans cannot consciously generate random numbers sequences: Polemic study")).
+2007](./doc/psychology/humans_cannot_consciously_generate_random_numbers_sequences_figurska_et_al_2008.pdf "Humans cannot consciously generate random numbers sequences: Polemic study")).
 
 On the other hand, this method could be biased, since many humans have
 points on their skin that are constantly itchy.

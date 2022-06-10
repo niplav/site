@@ -13,8 +13,10 @@ others. This is my attempt at salvaging that oversight.__
 Text Reviews
 =============
 
-Compassion, by the Pound (F. Bailey Norwood/Jayson L. Lusk, 2011)
-------------------------------------------------------------------
+Book Reviews
+------------
+
+### Compassion, by the Pound (F. Bailey Norwood/Jayson L. Lusk, 2011)
 
 “Compassion, by the Pound” by the economists F. Bailey Norwood and
 Jayson L. Lusk is one of those books that are excellent in their first
@@ -98,8 +100,7 @@ killing and eating animals.
 
 __6/10__
 
-The Human Predicament (David Benatar, 2017)
---------------------------------------------
+### The Human Predicament (David Benatar, 2017)
 
 “The Human Predicament” is a book about life philosophy, written
 by the pessimistic analytic philosopher David Benatar. In it, Benatar

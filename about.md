@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-05-24, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2022-06-10, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -20,7 +20,7 @@ pick and choose whichever facets they personally like. And the second
 group is going to be 100% right just like they always are every single
 time that argument happens anywhere.
 
-*— Groon the Walker, “The Erogamer”, 2020*
+*— Groon the Walker, [“The Erogamer”](./doc/fiction/the_erogamer_groon_the_walker_2020.epub), 2020*
 
 The Site
 --------
@@ -225,7 +225,7 @@ I use a [script](./code/sitelint) to fix easily catchable mistakes.
 * Broken citations
 * [American English](https://en.wikipedia.org/wiki/American_English) ("labour" instead of "labor", "behaviour" instead of "behavior")
 * Checking for unbalanced parentheses
-* Update the metadata for PDF files according to [Gwern 2022](https://www.gwern.net/Search#post-finding)
+* Update the metadata for PDF files according to [Gwern 2022](https://www.gwern.net/Search#post-finding "Internet Search Tips")
 
 > I try to set at least title/​author/​DOI/​year/​subject,
 and stuff any additional topics & bibliographic information into the
@@ -265,7 +265,7 @@ After some thought, I have decided to go with the handbook recommendation.
 ### Organisation
 
 For every text, there are several tags attached to it (mainly taken from
-[Gwern 2019](http://www.gwern.net/About#confidence-tags)).
+[Gwern 2019](http://www.gwern.net/About#confidence-tags "About This Website")).
 
 #### Author
 
@@ -455,6 +455,7 @@ but rather cycles).
 * [Ethan](https://210ethan.github.io)
 * [Tetraspace West](https://thetetra.space)
 * [Skaði þjazidottir](https://ulthar.xyz)
+<!--TODO: add nyx-->
 
 The Author
 ----------

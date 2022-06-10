@@ -51,8 +51,6 @@ Site
 	* `https://www.html-tidy.org/`
 	* `https://github.com/amperser/proselint/`
 * Import Meditavo data
-* Move read pdfs into the doc folder, maybe restructure?
-	* Not the full books obviously
 * Find for a way to allow for LaTeX in code blocks that doesn't break everything immediately
 * Pre-render LaTeX:
 	* `https://www.gwern.net/docs/www/joa.sh/290f53c78d4b287be8059260f613988a8abda677.html`

@@ -179,7 +179,7 @@ sentients. Hence, for the purpose here, the important dividing line is
 not between sentients and non-sentients, but between affective sentients
 and non-affective beings (sentient or non-sentient).
 
-*— Yew-Kwang Ng, [“Towards Welfare Biology: Evolutionary Economics of Animal Consciousness and Suffering”](.doc/better_words/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf) p. 4, 1995*
+*— Yew-Kwang Ng, [“Towards Welfare Biology: Evolutionary Economics of Animal Consciousness and Suffering”](./doc/biology/welfare/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf) p. 4, 1995*
 
 Thus, it seems desirable to differentiate between the ability to have
 subjective experiences ("sentience") and the ability to have affective
@@ -371,7 +371,7 @@ Good Bandnames
 
 * [Catastrophic Transcripts](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/qALeGJ9nPcs9eC9Af)
 * Memetic Immune Disorder<!--TODO link-->
-* Contextual Bandits (seen in [Amodei et al. 2016](./doc/language/concrete_problems_in_ai_safety_amodei_et_al_2016.pdf "Concrete Problems in AI Safety"))
+* Contextual Bandits (seen in [Amodei et al. 2016](./doc/cs/ai/alignment/overview/concrete_problems_in_ai_safety_amodei_et_al_2016.pdf "Concrete Problems in AI Safety"))
 * [Hypercarcinisation](https://en.wikipedia.org/wiki/Carcinisation#Hypercarcinisation)
 
 Advertising Lines

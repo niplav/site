@@ -81,7 +81,7 @@ No. (At least not for any useful definition of intelligence). IQ
 tests as they currently exist measure a proxy for the actual ability
 to perform complex tasks in the real world. For humans, geometry
 puzzles correlate (and predict) well with such tests ([Sternberg et al.
-2001](./doc/aima_solutions/the_predictive_value_of_iq_sternberg_2001.pdf "The Predictive Value of IQ")).
+2001](./doc/psychology/iq/the_predictive_value_of_iq_sternberg_2001.pdf "The Predictive Value of IQ")).
 
 However, this proxy breaks down once we start optimising for it (as
 in the case on extending ANALOGY). We can now not predict real-world

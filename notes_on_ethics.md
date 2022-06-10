@@ -20,7 +20,7 @@ soviel ich auch ausschaue, einen Erfolg sehe ich nicht.
 *— [Frank Kafka](https://en.wikipedia.org/wiki/Franz_Kafka), “Forschungen eines Hundes”, 1922*
 
 My general ethical outlook is one of high [moral
-uncertainty](./doc/ethics_notes/moral_uncertainty_macaskill_et_al_2020.pdf "Moral Uncertainty (William MacAskill/Krister Bykvist/Toby Ord, 2020)"),
+uncertainty](./doc/philosophy/ethics/moral_uncertainty_macaskill_et_al_2020.pdf "Moral Uncertainty (William MacAskill/Krister Bykvist/Toby Ord, 2020)"),
 with my favourite theory being consequentialism. I furthermore favour
 hedonic, negative-leaning, and act-based consequentialisms.
 
@@ -99,7 +99,7 @@ to understand the importance humans give to art.
 
 ### See Also
 
-* [Yudkowsky 2004](./doc/converging_preference_utilitarianism/coherent_extrapolated_volition_yudkowsky_2004.pdf "Coherent Extrapolated Volition")
+* [Yudkowsky 2004](./doc/cs/ai/alignment/cev/coherent_extrapolated_volition_yudkowsky_2004.pdf "Coherent Extrapolated Volition")
 
 Humans Implement Ethics Discovery
 ----------------------------------
@@ -121,7 +121,7 @@ process*. There also seems to be a third value-related process
 happening, which is more concerned with determining inconsistencies
 within ethical theories by applying them in thought-experiments (e.g. by
 discovering problems in population axiology, see for example [Parfit
-1986](./doc/ethics_notes/overpopulation_and_the_quality_of_life_parfit_1986.pdf "Overpopulation and the Quality of Life")).
+1986](./doc/philosophy/ethics/population/overpopulation_and_the_quality_of_life_parfit_1986.pdf "Overpopulation and the Quality of Life")).
 This process might be called the *value-inference process*.
 
 One could say that humans implement the *value-updating*
@@ -132,7 +132,7 @@ and searches for maxima. As far as is publicly known, there is no crisp
 formalization of this process (initial attempts are [reflective
 equilibrium](https://plato.stanford.edu/entries/reflective-equilibrium/)
 and [coherent extrapolated
-volition](./doc/converging_preference_utilitarianism/coherent_extrapolated_volition_yudkowsky_2004.pdf) "Coherent Extrapolated Volition").
+volition](./doc/cs/ai/alignment/cev/coherent_extrapolated_volition_yudkowsky_2004.pdf) "Coherent Extrapolated Volition").
 
 If we accept the [complexity of human
 values](https://arbital.com/p/complexity_of_value/) hypothesis, this
@@ -287,7 +287,7 @@ that at each moment, each human is perfectly fulfilling their own
 preferences).<!--TODO: link some Armstrong paper/blogpost here-->
 
 These are, of course, standard problems in value learning [Soares
-2018](./doc/against_preference_utilitarianism/the_value_learning_problem_soares_2016.pdf "The Value Learning Problem").
+2018](./doc/cs/ai/alignment/value_learning/the_value_learning_problem_soares_2016.pdf "The Value Learning Problem").
 
 ### Preference-Altering Actions Disallowed
 
@@ -298,7 +298,7 @@ population axiology is person-affecting), the ethical agent is forced
 to stabilize existing consistent prefereneces (and perhaps also to make
 inconsistent preferences consistent), because every stable preference
 implies a "meta-preference" of its own continued existence [Omohundro
-2008](./doc/moral_realist_ai/the_basic_ai_drives_omohundro_2008.pdf "The Basic AI Drives").
+2008](./doc/cs/ai/alignment/the_basic_ai_drives_omohundro_2008.pdf "The Basic AI Drives").
 
 However, this conflicts with ethical intuitions: We would like to allow
 ethical patients to undergo moral growth and reflect on their values.
@@ -346,7 +346,7 @@ happy while being alive. Indeed, since most of the time [the tails
 come apart](https://www.lesswrong.com/posts/asmZvCPHcB4SkSCMW "The Tails Coming Apart As Metaphor For Life"),
 I would make the guess that those people wouldn't be much
 happier than current humans (an example of [causal
-Goodhart](./doc/against_preference_utilitarianism/categorizing_variants_of_goodharts_law_manheim_garrabrant_2019.pdf "Categorizing Variants of Goodhart's Law")).
+Goodhart](./doc/cs/ai/alignment/agent_foundations/categorizing_variants_of_goodharts_law_manheim_garrabrant_2019.pdf "Categorizing Variants of Goodhart's Law")).
 
 Preference utilitarians who respect possible preferences might just bite
 this bullet and argue that this indeed the correct thing to do.
@@ -400,7 +400,7 @@ Stating the Result of “An Impossibility Theorem for Welfarist Axiologies”
 -------------------------------------------------------------------------
 
 [Arrhenius
-2000](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf "An Impossibility Theorem for Welfarist Axiologies")
+2000](./doc/philosophy/ethics/population/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf "An Impossibility Theorem for Welfarist Axiologies")
 gives a proof that basically states that the type of population axiology
 we want to construct is impossible. However, the natural-language
 statement of his result is scattered throughout the paper.
@@ -409,7 +409,7 @@ statement of his result is scattered throughout the paper.
 Dominance, the Addition, and the Minimal Non-Extreme Priority Principle
 implies the Repugnant, the Anti-Egalitarian, or the Sadistic Conclusion.
 
-*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 15, 2000*
+*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/philosophy/ethics/population/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 15, 2000*
 
 ### Requirements
 
@@ -417,21 +417,21 @@ implies the Repugnant, the Anti-Egalitarian, or the Sadistic Conclusion.
 people as population B, and every person in A has higher welfare than
 any person in B, then A is better than B.
 
-*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
+*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/philosophy/ethics/population/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
 
 > The Addition Principle: If it is bad to add a number of people, all
 with welfare lower than the original people, then it is at least as bad
 to add a greater number of people, all with even lower welfare than the
 original people.
 
-*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
+*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/philosophy/ethics/population/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
 
 > The Minimal Non-Extreme Priority Principle: There is a number n such
 that an addition of n people very high welfare and a single person with
 slightly negative welfare is at least as good as an addition of the same
 number of people but with very low positive welfare.
 
-*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
+*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/philosophy/ethics/population/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 11, 2000*
 
 ### Conclusions
 
@@ -439,19 +439,19 @@ number of people but with very low positive welfare.
 with very high positive value, there is a population with very
 low positive welfare which is better.
 
-*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 2, 2000*
+*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/philosophy/ethics/population/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 2, 2000*
 
 > The Anti-Egalitarian Conclusion: A population with perfect equality can
 be worse than a population with the same number of people, inequality,
 and lower average (and thus lower total) positive welfare.
 
-*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 12, 2000*
+*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/philosophy/ethics/population/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 12, 2000*
 
 > The Sadistic Conclusion: When adding people without
 affecting the original people's welfare, it can be better to
 add people with negative welfare than positive welfare.
 
-*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/population_ethics_impossible/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 5, 2000*
+*— [Gustaf Arrhenius](https://www.iffs.se/en/research/researchers/gustaf-arrhenius/), [“An Impossibility Theorem for Welfarist Axiologies”](./doc/philosophy/ethics/population/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf) p. 5, 2000*
 
 All of these are stated more mathematically on page 15.
 
