@@ -455,7 +455,7 @@ but rather cycles).
 * [Ethan](https://210ethan.github.io)
 * [Tetraspace West](https://thetetra.space)
 * [Skaði þjazidottir](https://ulthar.xyz)
-<!--TODO: add nyx-->
+* [Nyx](https://nyxus.xyz/)
 
 The Author
 ----------

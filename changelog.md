@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-05-29, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-06-12, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -20,6 +20,9 @@ with fecundity.
 
 June 2022
 ----------
+
+* [Notes](./notes.html)
+	* [An Example for Not Updating Uncertain Utility Functions](./notes.html#An-Unimportant-Utility-Function-Toy-Model)
 
 May 2022
 ---------

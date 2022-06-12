@@ -71,7 +71,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Design Graveyard (Gwern Branwen, 2022)](https://www.gwern.net/Design-graveyard)
 * [McKendree cylinder (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/McKendree_cylinder)
 * \* Conservative Agency (Alexander Matt Turner/Dylan Hadfield-Menell/Prasad Tadepalli, 2020)
-* \* A Generalist Agent (Alexander Novikov/Ali Razavi/Ashley Edwards/Emilio Parisotto/Gabriel Barth-Maron/Jackie Kay/Jake Bruce/Jost Tobias Springenberg/Konrad Żołna/Mahyar Bordbar/Mai Giménez/Nando de Freitas)/Nicolas Heess/Oriol Vinyals/Raia Hadsell/Scott Reed/Sergio Gómez Colmenarejo/Tom Eccles/Yury Sulsky/Yutian Chen, 2022)
+* A Generalist Agent (Alexander Novikov/Ali Razavi/Ashley Edwards/Emilio Parisotto/Gabriel Barth-Maron/Jackie Kay/Jake Bruce/Jost Tobias Springenberg/Konrad Żołna/Mahyar Bordbar/Mai Giménez/Nando de Freitas)/Nicolas Heess/Oriol Vinyals/Raia Hadsell/Scott Reed/Sergio Gómez Colmenarejo/Tom Eccles/Yury Sulsky/Yutian Chen, 2022)
 * [Evolution as Backstop for Reinforcement Learning (Gwern Branwen, 2021)](https://www.gwern.net/Backstop)
 * [Discredited hypotheses for the Cambrian explosion (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Discredited_hypotheses_for_the_Cambrian_explosion)
 * [Multi-agent learning (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Multi-agent_learning)

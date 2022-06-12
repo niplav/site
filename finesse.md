@@ -15,7 +15,7 @@ Finesse of Sets of Forecasts
 
 *epistemic status: likely not just reinventing the wheel, but the whole bicycle*
 
-TODO: Revamp the naming & notation a bit.
+TODO: Revamp the naming & notation a bit. Granularity or precision instead?
 
 Say we have a set of resolved forecasts and can display them on a
 calibration plot.
