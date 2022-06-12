@@ -484,9 +484,9 @@ learning at the correct level of abstraction), then make consistent.
 ### Ontological Crises
 
 > Furthermore, there remain difficult philosophical problems. We have
-made a dis- tinction between the agent’s uncertainty about which model
+made a distinction between the agent’s uncertainty about which model
 is correct and the agent’s uncertainty about which state the world is
-in within the model. We may wish to elim- inate this distinction; we
+in within the model. We may wish to eliminate this distinction; we
 could specify a single model, but only give utilities for some states
 of the model. We would then like the agent to generalize this utility
 function to the entire state space of the model.

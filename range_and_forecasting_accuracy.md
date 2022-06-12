@@ -2212,3 +2212,10 @@ of a couple days was optimal in most of our tests), so that out-of-date
 predictions counted less.
 
 *— [Lyle Ungar](https://en.wikipedia.org/wiki/Lyle_Ungar) et al., “The Good Judgment Project: A large scale test of different methods of combining expert predictions” p. 3, 2012*
+
+> Across all four years of the tournament, superforecasters looking out
+three hundred days were more accurate than regular forecasters looking
+out one hundred days. In other words, regular forecasters needed to
+triple their foresight to see as far as superforecasters.
+
+*— [Philip E. Tetlock](https://en.wikipedia.org/wiki/Philip_E._Tetlock) & Dan Gardner, “Superforecasting” p. 94, 2015*

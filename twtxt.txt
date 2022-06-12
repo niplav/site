@@ -1302,3 +1302,13 @@
 2022-06-09T19:18:51.000000Z	i want to commit violence
 2022-06-09T19:20:33.000000Z	some people just shouldn't be given the responsibility to create datasets.
 2022-06-10T13:53:02.000000Z	ai alignment is great bc nobody knows what it should be, so you can do whatever you want and call it alignment.
+2022-06-10T18:40:08.000000Z	once i've found a core to corrigibility i'll write an incel manifesto
+2022-06-10T18:58:57.000000Z	watching my motivational system surfing the edge of the indefference point on the hyperbolic discounting line—always pulled back by my good friend, the cost
+2022-06-10T19:27:11.000000Z	morad and moroid
+2022-06-10T19:28:11.000000Z	a “moron” could also be a group-theoretic structure. “On the symplectic inverses of left-invariant morons”
+2022-06-10T20:14:24.000000Z	solarpunk slightly hindered by the fact that for solar panels and cutesy robots you need industrial-strength chipfabs that are so advanced we have like 6 of them in the entire world
+2022-06-11T23:00:27.000000Z	wait, is CIRL incorrigible *for the same reason* that utility-maximizers don't wirehead? https://niplav.github.io/notes.html#A-Short-Example-For-Why-CIRL-Is-Incorrigible
+2022-06-11T23:31:54.000000Z	to what extent did AlphaFold2 solve protein folding? there should be a writeup of how much & what needs to be done for it to be completely solved.
+2022-06-12T00:15:11.000000Z	at least i'm up to a level where i'm reading a comment on an acx post and someone uses “consciousness” and i'm hella out there real quick
+2022-06-12T00:19:10.000000Z	holy fuck were ACX comments always this bad? most of them are fucking atrocious. like, barely tolerable.
+2022-06-12T00:19:30.000000Z	“The problem with Marcus' argument is that the only alternative to statistical AI is spiritual AI“ no what the fuck why would you say this did you even read the sequences i don't even know where to start with that

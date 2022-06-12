@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-05-27, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-06-10, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -145,6 +145,19 @@ Existing Texts
 	* Expand or axe Fixed Costs & Variable Costs section
 	* Create & explain Guesstimate Models
 	* Upload data to Appendix C
+* Turning
+	* Enumerating different ways of collapsing graphs representing inconsistent preferences into consistent preferences
+		* E.g. a>b>c>a must be cut in one place, pretty much indifferent about where to cut?
+		* Or merge DAGs into a path graph
+		* Continuous case: vector field over the probability simplex of options
+		* In the 2-option probability simplex, continuity is violated if at some point the vector field "turns around"
+		* Make consistent by rotating vectors so that the integral over vector strength/volume/degree of rotation is minimal
+		* Nontransitivity is probably maximal curl at some point in the vector field
+		* Also look at:
+			* Graphon
+			* Dense graph
+			* Extremal graph theory
+		* This also feels relevant to Ontological crises/shifts: Is there a canonical way to map from the human preference simplex to the AI preference simplex, if we know the concept equivalences? (A is just 30% B and 70% C, so we can split the simplex into another dimension here…)
 
 Texts
 -----
@@ -262,6 +275,7 @@ Texts
 	* If I indeed reason out that I am the type of agent that would have children, I should not have children
 	* Reasoning: If propensity to have children is heritable, this kind of decision will prevent my ancestors from becoming pure replicators
 	* It is slightly paradoxical, though
+* Bounded Population Axiology
 
 ### Alignment
 
@@ -272,18 +286,6 @@ Texts
 * Implement the project described in [Environmental Goals](https://arbital.com/p/environmental_goals/)
 * GPT for STEM data?
 * Is the F-invariance described in Utility Indifference (Armstrong 2010) tiling?
-* Enumerating different ways of collapsing graphs representing inconsistent preferences into consistent preferences
-	* E.g. a>b>c>a must be cut in one place, pretty much indifferent about where to cut?
-	* Or merge DAGs into a path graph
-	* Continuous case: vector field over the probability simplex of options
-	* In the 2-option probability simplex, continuity is violated if at some point the vector field "turns around"
-	* Make consistent by rotating vectors so that the integral over vector strength/volume/degree of rotation is minimal
-	* Nontransitivity is probably maximal curl at some point in the vector field
-	* Also look at:
-		* Graphon
-		* Dense graph
-		* Extremal graph theory
-	* This also feels relevant to Ontological crises/shifts: Is there a canonical way to map from the human preference simplex to the AI preference simplex, if we know the concept equivalences? (A is just 30% B and 70% C, so we can split the simplex into another dimension here…)
 * Scaling laws for debate
 	* AI safety via debate (Geoffrey Irving/Paul Christiano/Dario Amodei, 2018) test debate on an MNIST classifier with depths 4 and 6, what are the scaling laws for the depth and size of models?
 * Import reddit post about nuclear & ai worries
@@ -329,7 +331,12 @@ Texts
 
 #### Ethics
 
-* Bounded Population Axiology
+* Creating Utility Monsters or Repugnant Beings
+	* Marginal returns of investment on the well-being of single persons are probably monotonically increasing/decreasing
+	* If so, we end up with utility monsters or in a repugnant conclusion
+	* If not, we are lucky
+* Separating Arguments From Inconsistency and Questions About Inconsistency
+	* The thing Hanson does when arguing about ethics
 
 #### Consciousness
 
@@ -434,12 +441,6 @@ Texts
 	* Easterlin Paradox
 	* Status Games
 * In Praise of Cost-Benefit Analyses
-* Creating Utility Monsters or Repugnant Beings
-	* Marginal returns of investment on the well-being of single persons are probably monotonically increasing/decreasing
-	* If so, we end up with utility monsters or in a repugnant conclusion
-	* If not, we are lucky
-* Separating Arguments From Inconsistency and Questions About Inconsistency
-	* The thing Hanson does when arguing about ethics
 * Reflections on Pseudonymity
 	* “You don't know the pseudonyms I assume, you don't know the pseudonyms I assume…for you. Are you happier now \ About the gods who are dying \ What do you dream of \ Festing with omniscient beer” (?) (text from Bite Hard by Franz Ferdinand)
 * In Non-Adversarial Universes, Systematic Trying Dominates Other Approaches
@@ -470,7 +471,7 @@ Texts
 	* The Is-Ought Distinction
 * The C Standard Library is Bad
 * In The Dark Forest, Peace is Brittle And Hiding Is Easy
-	* Eternity in Six Hours and unstable Nash equilibria make the dark forest hypothesis unlikely
+	* Eternity in Six Hours and unstable equilibria make the dark forest hypothesis unlikely
 * Creating Positives versus Removing Negatives
 	* Examples:
 		* Epistemics: Removing Disinformation versus Writing Wikipedia Pages on Causal Inference
@@ -509,6 +510,9 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Contra Alexander on Epistemic Minor Leagues
 	* https://astralcodexten.substack.com/p/epistemic-minor-leagues?s=r
 	* Reality is really f\*\*\*ing high-dimensional, so there's a bunch of nooks and crannies nobody has explored before
+* Refactoring Rational Feelings
+	*	Relation between emotions, goals, strategy/planning, moral
+		development etc.
 
 ### Analyses
 
@@ -668,7 +672,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Describe and write some code for the n-polytopal conjecture
 	* Just generalise Pollock's polyhedral conjecture for n-dimensional polytopes
 	* Also try to prove the case for triangular numbers first to get a feel for it?
-* Try to find pollution levels in LOCAL\_CITY
+* Try to find subway pollution levels in LOCAL\_CITY
 * Expected value of plastic surgery for men
 * How Many Proton Decays?
 	* How many proton decays should we expect to have happened in the universe so far?
@@ -676,6 +680,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* When will the last proton decay?
 * Test computationally whether causal networks have more correlations or causations, project from [here](https://www.gwern.net/Causality#what-a-tangled-net-we-weave-when-first-we-practice-to-believe)
 * Which percentage of random normal-form games are potential games?
+	* 0?
 * Double Blind Self-Experiment with Wellbutrin
 * Find Polygenic scores for subjective well-being and run them through Gwerns Embryo Selection Analysis
 	* See [this section](https://www.gwern.net/Embryo-selection#multiple-selection-on-independent-traits)
@@ -747,9 +752,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Encoding Conditionals Using Modulo
 * Auras as synesthesia between visual perception and emotional perception
 	* Maybe a survey?
-* Refactoring Rational Feelings
-	*	Relation between emotions, goals, strategy/planning, moral
-		development etc.
 * Yang Wenli and Reinhard von Lohengramm—Taoism and Confucianism?
 	* Yang's "Win without fighting" is Wu Wei
 * The Argument from Explanation of Intuition
@@ -782,6 +784,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Hat-grab at John David Pressman
 * EA Cause Area Idea: Buy 0-day exploits and inform the companies
 * European vs. American Intervention Intuitions
+	* Europeans (esp germans) seem to have very different intuitions than Americans on foreign interventions. This might be because of the the two world wars taking place on european, but mostly not on american soil
 * fMRI scans for enhancing brain preservation through cryonics
 
 ### Collections
@@ -952,7 +955,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Growth
 	* How long can growth continue if the maximal value of an atom is fixed?
 	* Growth might slow to cubic (sphere expanding at constant fraction of c)
-* Panpsychism is a property of theories of consciousness, not a theory of consciousness
 * Defining long content
 	* Conditions point to a cluster in thingspace
 	* Comprehensive: long and detailed, providing sources, visualizations, code, predictions, etc.
@@ -1060,11 +1062,12 @@ Game. Even those odds likely overstate the number of Players in the world.
 	*	Status tags ({prototype, in progress, maintenance,
 		finished, hiatus, abandoned}) for open source projects.
 	* Mental tool: How would you solve this if you had a hypercomputer?
-		* Unbounded Analysis on arbital, problem relaxation as a tactic on LW
+		* [Unbounded Analysis](https://arbital.com/p/unbounded_analysis/), problem relaxation as a tactic by TurnTrout on LW
 	* Cryonics
 	* Daygame
 * Cryonics Zine
 * The Grand Picture
+	* See [Sandberg 2021](http://aleph.se/andart2/uncategorized/what-is-going-on-in-the-world/)
 * Fundamentals
 
 > we should be far more explicit about the assumed background against
@@ -1137,6 +1140,8 @@ Game. Even those odds likely overstate the number of Players in the world.
 * A Fanfiction of Edge of Tomorty: Rick Die Rickpeat, explaining the dangers of hypercomputation
 	* If you have a closed timelike curve, you are probably uncleashing computational titans the likes of which you can not fathom, beings that would snack superintelligences like potato chips
 	* See also: Causal Noose by qntm, NP-complete Problems and Physical Reality Aaronson 2006
+* Fiction about an expedition to the south pole, finding indigenous population
+	* schelling.pt thread abt this
 * Skalpell Bizeps
 
 > 11-uhr-luft liegt rauh auf dem parkplatzboden. in den ritzen des
@@ -1156,7 +1161,7 @@ eine kontingente verschmelzung von fast-sein und konkretheit"
 ### Translations
 
 * Kodomulo Manifesto (translation of “A Hacker Manifesto” into Esperanto)
-* Translate Endliche Gruppe I into English
+* Translate Endliche Gruppen I into English
 
 ### Archiving
 
@@ -1190,6 +1195,15 @@ Collect data on
 * Meditation
 * [Masturbation](./data/masturbations.csv)
 * A Large Dataset of Forecasts and Outcomes
+	* Sources:
+		* Metaculus
+		* PredictionBook
+		* GJOpen
+		* Hypermind
+		* Augur
+		* PredictIt
+		* Iowa Open Markets
+		* Others?
 * Large STEM Dataset
 	* For training large ML models that are less likely to be [human models](https://www.lesswrong.com/posts/BKjJJH2cRpJcAnP7T)
 
@@ -1585,6 +1599,7 @@ Programming
 	* add a `mentions` command
 * Mood Patterns
 	* Add option to change the notification sound
+* Find schelling.pt thread for bugs
 * dc 9base manpage:
 	* typo in the order of operations in the manpage
 

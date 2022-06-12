@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2022-05-06, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2022-06-12, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1222,3 +1222,66 @@ TODO: do-->
 * Ceramic plates and cups made of glass that break easily
 * Non-velcro shoes
 * Courses at university are not 3blue1brown + Q&A + extensive quizzes (or automated tutoring à la DARPA)
+
+An Example for Not Updating Uncertain Utility Functions
+--------------------------------------------------------
+
+Just having uncertainty over your reward function does not
+mean that you will necessarily be open to changing that
+uncertainty. Also known as the [problem of fully updated
+deference](https://arbital.com/p/updated_deference/).
+
+<div>
+	$$W_1=\{a, b, d\} \\
+	W_2=\{a, b\} \\
+	\\
+	U_x(a)=1, U_x(b)=0, U_x(d)=0 \\
+	\\
+	U_y(a)=0, U_y(b)=4, U_y(d)=0 \\
+	\\
+	π_1=\underset{a}{\text{argmax }} \mathbb{E}_{U \sim b_1} [U(a)+U(π_2|a)] \\
+	π_2=\underset{a}{\text{argmax }} \mathbb{E}_{U \sim b_2} [U(a)] \\
+	\\
+	b_l=[0.99: U_x, 0.01: U_y] \\
+	b_k=[0.01: U_x, 0.99: U_y] \\
+	\\
+	b_1=b_l \\
+	\text{if } π_1=d \text{ then } b_2=b_k \text{ else } b_2=b_l $$
+</div>
+
+What is `$π_1$`?
+
+<div>
+	$$ \mathbb{E}^{2}_{U \sim b_l}[a]=0.99 \cdot 1+0.01 \cdot 0=0.99 \\
+	\mathbb{E}^{2}_{U \sim b_l}[b]=0.99 \cdot 0+0.01 \cdot 1=0.01 \\
+	\\
+	\mathbb{E}^{2}_{U \sim b_k}[a]=0.01 \cdot 4+0.99 \cdot 0=0.04 \\
+	\mathbb{E}^{2}_{U \sim b_k}[b]=0.99 \cdot 4+0.01 \cdot 0=3.96 \\
+	\\
+	π_{2|U \sim b_l}=a \\
+	π_{2|U \sim b_k}=b \\
+	\\
+	\mathbb{E}^1_{U \sim b_l}[a]=\\
+	0.99 \cdot U_x(a)+0.01 \cdot U_y(a)+0.99 \cdot U_x(π_2|a)+0.01 \cdot U_y(π_2|a)=\\
+	0.99+0+0.99 \cdot U_x(a)+0.01 \cdot U_y(a)=\\
+	1.98 \\
+	\mathbb{E}^1_{U \sim b_l}[b]=\\
+	0.99 \cdot U_x(b)+0.01 \cdot U_y(b)+0.99 \cdot U_x(π_2|b)+0.01 \cdot U_y(π_2|b)=\\
+	0+0.04+0.99 \cdot U_x(b)+0.01 \cdot U_y(b)=\\
+	0.08 \\
+	\mathbb{E}^1_{U \sim b_l}[d]=\\
+	0.99 \cdot U_x(d)+0.01 \cdot U_y(d)+0.99 \cdot U_x(π_2|d)+0.01 \cdot U_y(π_2|d)=\\
+	0+0+0.99 \cdot U_x(b)+0.01 \cdot U_y(b)=\\
+	0.04 $$
+</div>
+
+My wild and at best flimsily supported conjecture is
+that this is *both* a model for CIRL ([Hadfield-Menell et al.
+2016](./doc/cs/ai/alignment/cirl/cooperative_inverse_reinforcement_learning_hadfield_mendell_et_al_2016.pdf "Cooperative Inverse Reinforcement Learning"))
+is incorrigible ([Soares
+2015](doc/cs/ai/alignment/corrigibility/corrigibility_soares_et_al_2015.pdf "Corrigibility")),
+*and also* for why utility maximizers don't do reward hacking ([Dewey
+2010](./doc/cs/ai/alignment/value_learning/learning_what_to_value_dewey_2010.pdf "Learning What to Value")).
+
+Explanation: `$d$` can be both an action that is equivalent to hacking
+reward, or to switching to a different utility function.
