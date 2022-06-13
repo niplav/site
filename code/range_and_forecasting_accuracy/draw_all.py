@@ -299,7 +299,7 @@ plt.savefig("perpbquestion_exp.png")
 
 fig=plt.figure(figsize=(8,8))
 
-plt.title("Horizons for expstic curve-fits within questions")
+plt.title("Horizons for exponential-ish curve-fits within questions")
 plt.xlabel("Horizon length (days, log₁₀)")
 plt.ylabel("Number of questions")
 

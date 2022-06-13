@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2022-06-10, language: english, status: maintenance, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2022-06-12, language: english, status: maintenance, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in
 relation to the time between forecast and resolution, and
@@ -2219,3 +2219,13 @@ out one hundred days. In other words, regular forecasters needed to
 triple their foresight to see as far as superforecasters.
 
 *— [Philip E. Tetlock](https://en.wikipedia.org/wiki/Philip_E._Tetlock) & Dan Gardner, “Superforecasting” p. 94, 2015*
+
+> Taleb, Kahneman, and I agree there is no evidence that geopolitical
+or economic forecasters can predict anything ten years out beyond the
+excruciatingly obvious—“there will be conflicts”—and the odd
+lucky hits that are inevitable whenever lots of forecasters make lots of
+forecasts. These limits on predictability are the predictable results
+of the butterfly dynamics of nonlinear systems. In my EPJ research,
+the accuracy of expert predictions declined toward chance five years out.
+
+*— [Philip E. Tetlock](https://en.wikipedia.org/wiki/Philip_E._Tetlock) & Dan Gardner, “Superforecasting” p. 234, 2015*
