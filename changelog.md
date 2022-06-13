@@ -22,7 +22,7 @@ June 2022
 ----------
 
 * [Notes](./notes.html)
-	* [An Example for Not Updating Uncertain Utility Functions](./notes.html#An-Unimportant-Utility-Function-Toy-Model)
+	* [An Example for Not Updating Uncertain Utility Functions](./notes.html#An-Example-for-Not-Updating-Uncertain-Utility-Functions)
 
 May 2022
 ---------

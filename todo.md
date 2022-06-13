@@ -82,6 +82,7 @@ Existing Texts
 		* `https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.12127`
 		* Prediction: The long and short of it (Anthony Millner/Daniel Heyen, 2020)
 		* `https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters`
+		* `https://www.edge.org/conversation/philip_tetlock-edge-master-class-2015-a-short-course-in-superforecasting-class-ii`
 * Considerations on Cryonics
 	* Add a literature review
 		* `https://www.tandfonline.com/doi/pdf/10.1080/01459741003715391`
@@ -1678,6 +1679,8 @@ Wikipedia Articles
 	* Sir Reverend Thomas Bayes
 * Maiser Khana
 	* Replace '. .' with '.'
+* Supercontinent
+	* "The supercontinent Pangaea is the collective name describing all of the continental landmasses when they were most recently near to one another." -> Double meaning, if we create a supercontinent tomorrow, will that also be called "Pangea"?
 
 Answers
 --------

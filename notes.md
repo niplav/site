@@ -1164,9 +1164,11 @@ or “Is the underlying process
 [ergodic](https://en.wikipedia.org/wiki/Ergodicity)?”, just fit the
 goddamn curve!
 
-And `scipy.optimize.curve_fit` does exactly
-that! (Using the [Levenberg-Marquardt
-algorithm](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm)).
+And `scipy.optimize.curve_fit` does
+exactly that! (Using the [Levenberg-Marquardt
+algorithm](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm),
+which minimizes the mean squared error of the predicted values and
+the dataset).
 
 You give it a function `f` with some parameters `a, b, c, …` and a
 dataset consisting of input values `x` and output values `y`, and it
@@ -1243,7 +1245,7 @@ deference](https://arbital.com/p/updated_deference/).
 	π_2=\underset{a}{\text{argmax }} \mathbb{E}_{U \sim b_2} [U(a)] \\
 	\\
 	b_l=[0.99: U_x, 0.01: U_y] \\
-	b_k=[0.01: U_x, 0.99: U_y] \\
+	b_k=[0.001: U_x, 0.999: U_y] \\
 	\\
 	b_1=b_l \\
 	\text{if } π_1=d \text{ then } b_2=b_k \text{ else } b_2=b_l $$
@@ -1256,7 +1258,7 @@ What is `$π_1$`?
 	\mathbb{E}^{2}_{U \sim b_l}[b]=0.99 \cdot 0+0.01 \cdot 1=0.01 \\
 	\\
 	\mathbb{E}^{2}_{U \sim b_k}[a]=0.01 \cdot 4+0.99 \cdot 0=0.04 \\
-	\mathbb{E}^{2}_{U \sim b_k}[b]=0.99 \cdot 4+0.01 \cdot 0=3.96 \\
+	\mathbb{E}^{2}_{U \sim b_k}[b]=0.999 \cdot 4+0.001 \cdot 0=3.996 \\
 	\\
 	π_{2|U \sim b_l}=a \\
 	π_{2|U \sim b_k}=b \\
@@ -1267,8 +1269,8 @@ What is `$π_1$`?
 	1.98 \\
 	\mathbb{E}^1_{U \sim b_l}[b]=\\
 	0.99 \cdot U_x(b)+0.01 \cdot U_y(b)+0.99 \cdot U_x(π_2|b)+0.01 \cdot U_y(π_2|b)=\\
-	0+0.04+0.99 \cdot U_x(b)+0.01 \cdot U_y(b)=\\
-	0.08 \\
+	0+0.04+0.99 \cdot U_x(a)+0.01 \cdot U_y(a)=\\
+	1.03 \\
 	\mathbb{E}^1_{U \sim b_l}[d]=\\
 	0.99 \cdot U_x(d)+0.01 \cdot U_y(d)+0.99 \cdot U_x(π_2|d)+0.01 \cdot U_y(π_2|d)=\\
 	0+0+0.99 \cdot U_x(b)+0.01 \cdot U_y(b)=\\
@@ -1285,3 +1287,18 @@ is incorrigible ([Soares
 
 Explanation: `$d$` can be both an action that is equivalent to hacking
 reward, or to switching to a different utility function.
+
+Geometric Mean of Odds, Arithmetic Mean of Logodds
+---------------------------------------------------
+
+Theorem: The arithmetic mean of logodds is just the geometric mean of odds.
+
+Proof: Let `$\mathbf{p}=(p_1, p_2, \dots, p_n)$` be a list of probabilities.
+
+Then the arithmetic mean of logodds is `$\exp(\frac{1}{n} \sum_{i=1}^n \log(\frac{p_i}{1-p_i}))=\exp(\frac{1}{n} \log(\prod_{i=1}^n \frac{p_i}{1-p_i}))=\exp(\log(\sqrt[n]{\prod_{i=1}^n \frac{p_i}{1-p_i}}))=\sqrt[n]{\prod_{i=1}^n \frac{p_i}{1-p_i}}$`
+
+This is not quite right, maybe TODO solve (although probably not *that* important, but the inversion isn't quite right).
+
+But then if the geometric mean is just the 0th generalized mean, and the arithmetic mean is the 1st generalized mean, are there similarly variants of the logodds? That is, the odds are the 0th generalized odds, the logodds are the 1st generalized odds, and there is some 2nd generalized odds so that the root mean square of the 2nd generalized odds is the geometric mean of odds?
+
+Would the nth generalized odds just be the `$\log^{(n)}$`odds?

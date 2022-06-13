@@ -9,6 +9,7 @@ probabilities is, and describe attempts to find algorithms that fulfill
 those conditions.__
 
 <!--https://nitter.hu/tenthkrige/status/1412457737380839432-->
+<!--https://stanford.edu/~knutson/nfc/mellers15.pdf-->
 
 Finesse of Sets of Forecasts
 =============================
