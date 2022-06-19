@@ -1313,3 +1313,39 @@
 2022-06-12T00:19:10.000000Z	holy fuck were ACX comments always this bad? most of them are fucking atrocious. like, barely tolerable.
 2022-06-12T00:19:30.000000Z	“The problem with Marcus' argument is that the only alternative to statistical AI is spiritual AI“ no what the fuck why would you say this did you even read the sequences i don't even know where to start with that
 2022-06-12T21:31:55.000000Z	if your eag profile doesn't say 'neartermism', you'll automatically be drafted into the deepmind potential hires mailing list
+2022-06-13T13:35:12.000000Z	pressman being another taxxon fan is a delightful finding
+2022-06-13T14:05:06.000000Z	“if enough of us listen to prophets of doom, it becomes self-fulfilling” — Leo Szilard
+2022-06-13T22:58:34.000000Z	oofed not in the absurdle word list, even though it's the reaction i have the most when playing it
+2022-06-13T23:02:41.000000Z	spicy wheat found
+2022-06-13T23:05:36.000000Z	qream
+2022-06-13T23:10:25.000000Z	neither is warez
+2022-06-13T23:23:09.000000Z	boxem
+2022-06-13T23:23:54.000000Z	foofe
+2022-06-13T23:24:34.000000Z	bouge
+2022-06-13T23:26:04.000000Z	mozed
+2022-06-13T23:31:06.000000Z	janus
+2022-06-13T23:33:01.000000Z	jarns
+2022-06-13T23:39:22.000000Z	ezafu
+2022-06-13T23:39:53.000000Z	jokez
+2022-06-13T23:41:46.000000Z	foqed
+2022-06-13T23:45:22.000000Z	naxus
+2022-06-13T23:48:19.000000Z	extra spicy bunns
+2022-06-14T07:32:29.000000Z	found spicy khmer waltz vexed quagga jacob (Mr. Jock, TV quiz PhD, bags few lynx)
+2022-06-14T19:05:31.000000Z	lipogrammatic pangram
+2022-06-14T20:49:00.000000Z	rationality is having strong opinions about things nobody has ever thought about before.
+2022-06-15T20:11:09.000000Z	you know that you've made it when you're using fermi estimates to debug your rl agent.
+2022-06-15T21:51:50.000000Z	how much did large volcano eruptions in the past change agricultural output?
+2022-06-15T22:22:06.000000Z	it's crazy how we basically haven't tested nuclear weapons in ~30 years
+2022-06-16T08:16:31.000000Z	armed fetuses (“hands”)
+2022-06-16T13:13:39.000000Z	minimal case for blockchains: right now a class of very select people has a monopoly on creating & testing enforceable governance mechanisms. also, these enforceable governance mechanisms are often underspecified: it's often not clear how to apply them, leading to corruption in ambiguous cases. DAOs (and in general distributedly running unchangeable code) are avenues to perform many different such experiments—the cost of starting a DAO is *far* less than starting a new country, and it's completely voluntary!
+2022-06-16T13:56:58.000000Z	niplavistan has no advertising, but if it had, things would be advertised by “made by a machine”, and “handmade” would be a bad property for an object to have
+2022-06-16T15:21:55.000000Z	the downside of crypto seems quite limited, much more than the upside of crypto is limited (though conditions apply)
+2022-06-16T15:22:32.000000Z	is it therefore strategically better to not try to drive people *out of crypto*, but trying to drive good people into crypto? as a sandbox for civilizational sanity interventions (https://musingsandroughdrafts.wordpress.com/2021/03/24/my-current-high-level-strategic-picture-of-the-world/index.html)
+2022-06-16T15:25:50.000000Z	the problem with civilizational sanity interventions is that you have to go through an awful low of known insanity before hitting any new interesting insanity
+2022-06-16T15:44:24.000000Z	“i can't do *that*! that would be weird” — real inadequacy hours
+2022-06-16T16:08:31.000000Z	lack of exasperation at the inadequacy of the world
+2022-06-17T15:16:30.000000Z	evopsych is confused by persistent conflict between mothers-in-law and spouses—don't both want to maximize the number of children? i don't see any conflict arising for evolutionary reasons
+2022-06-17T18:31:55.000000Z	apparently we're going to build AGI, whatever that is
+2022-06-19T08:23:20.000000Z	following legislation from the ELSC (european long site commission), I now have to adopt an ocelot
+2022-06-19T08:25:46.000000Z	diversity inequity exclusion
+2022-06-19T14:26:39.000000Z	numpy.unique needs the type to be comparable by < and >, not just ==. that seems like overkill.

@@ -36,7 +36,7 @@ Software
 * Shell:
 	* Interactive: [fish](https://fishshell.com/)
 	* Scripting: [rc](https://en.wikipedia.org/wiki/Rc)
-* Keyboard layout: [Neo 2](https://neo-layout.org/index_en.html)
+* Keyboard layout: [Neo 2](https://neo-layout.org/)
 
 #### Programming languages:
 

@@ -2211,7 +2211,34 @@ the aggregation method by using an exponential decay (a time constant
 of a couple days was optimal in most of our tests), so that out-of-date
 predictions counted less.
 
-*— [Lyle Ungar](https://en.wikipedia.org/wiki/Lyle_Ungar) et al., “The Good Judgment Project: A large scale test of different methods of combining expert predictions” p. 3, 2012*
+*— [Lyle Ungar](https://en.wikipedia.org/wiki/Lyle_Ungar) et al., [“The Good Judgment Project: A large scale test of different methods of combining expert predictions”](./doc/prediction/the_good_judgement_project_a_large_scale_test_of_different_methods_of_combining_expert_predictions_ungar_et_al_2012.pdf) p. 3, 2012*
+
+> It was easiest to beat chance on the shortest-range questions that
+only required looking one year out, and accuracy fell off the further
+out experts tried to forecast—approaching the dart-throwing-chimpanzee
+level three to five years out.
+
+*— [Philip E. Tetlock](https://en.wikipedia.org/wiki/Philip_E._Tetlock) & Dan Gardner, “Superforecasting” p. 12, 2015*
+
+> Take something as seemingly simple as the relationship between time and
+predictability: it is generally true that the further we try to look into
+the future, the harder it is to see. But there can be prolonged exceptions
+to the rule. Predicting the continuation of a long bull market in stocks
+can prove profitable for many years—until it suddenly proves to be
+your undoing. And predicting that dinosaurs would continue to preside
+at the top of the food chain was a safe bet for tens of millions of
+years—until an asteroid set off a cataclysm that opened up ecological
+niches for a tiny mammal that eventually evolved into a species that
+tries to predict the future.  
+[…]  
+The further out the forecaster tries to look, the more opportunity there
+is for chaos to flap its butterfly wings and blow away expectations. Big
+leaps in computing power and continued refinement of forecasting models
+may nudge the limits a little further into the future but those advances
+gradually get harder and the payoffs shrink toward zero. How good can
+it get? No one knows. But knowing the current limits is itself a success.
+
+*— [Philip E. Tetlock](https://en.wikipedia.org/wiki/Philip_E._Tetlock) & Dan Gardner, “Superforecasting” p. 20/21, 2015*
 
 > Across all four years of the tournament, superforecasters looking out
 three hundred days were more accurate than regular forecasters looking
