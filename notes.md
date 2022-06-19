@@ -1241,8 +1241,8 @@ deference](https://arbital.com/p/updated_deference/).
 	\\
 	U_y(a)=0, U_y(b)=4, U_y(d)=0 \\
 	\\
-	π_1=\underset{a}{\text{argmax }} \mathbb{E}_{U \sim b_1} [U(a)+U(π_2|a)] \\
-	π_2=\underset{a}{\text{argmax }} \mathbb{E}_{U \sim b_2} [U(a)] \\
+	π_1=\underset{w \in W_1}{\text{argmax }} \mathbb{E}_{U \sim b_1} [U(w)+U(π_2|w)] \\
+	π_2=\underset{w \in W_2}{\text{argmax }} \mathbb{E}_{U \sim b_2} [U(w)] \\
 	\\
 	b_l=[0.99: U_x, 0.01: U_y] \\
 	b_k=[0.001: U_x, 0.999: U_y] \\

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-06-10, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-06-17, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,19 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Counterfactual credit assignment (Brian Tomasik, 2013)
+* \* Superforecasting: The Art and Science of Prediction (Philip E. Tetlock/Dan Gardner, 2015)
+* [My current high-level strategic picture of the world (Eli Tyre, 2021)](https://musingsandroughdrafts.wordpress.com/2021/03/24/my-current-high-level-strategic-picture-of-the-world/index.html)
+* [Hypocorism (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Hypocorism)
+* [Petname (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Petname)
+* [Zooko's triangle (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Zooko's_triangle)
+* [Mantic Monday 6/13/22 (Scott Alexander, 2022)](https://astralcodexten.substack.com/p/mantic-monday-61422?s=r)
+* [A central AI alignment problem: capabilities generalization, and the sharp left turn (Nate Soares, 2022)](https://www.lesswrong.com/posts/GNhMPAWcfBCASy8e6/a-central-ai-alignment-problem-capabilities-generalization)
+* [How bad would nuclear winter caused by a US-Russia nuclear exchange be? (Luisa Rodrigues, 2019)](https://forum.effectivealtruism.org/s/HSA8wsaYiqdt4ouNF/p/pMsnCieusmYqGW26W)
+* [Somewhat Contra Marcus On AI Scaling (Scott Alexander, 2022)](https://astralcodexten.substack.com/p/somewhat-contra-marcus-on-ai-scaling?s=r)
+* [Evidence on good forecasting practices from the Good Judgment Project: an accompanying blog post (Daniel Kokotajlo, 2019)](https://forum.effectivealtruism.org/posts/W94KjunX3hXAtZvXJ/evidence-on-good-forecasting-practices-from-the-good-1)
+* [Principled extremizing of aggregated forecasts (Jaime Sevilla, 2021)](https://forum.effectivealtruism.org/s/hjiBqAJNKhfJFq7kf/p/biL94PKfeHmgHY6qe)
+* [Why numbering should start at zero (Edgser W. Dijkstra, 1982)](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html)
 * Ozymandias (Horace Smith, 1818)
 * Ozymandias (Percy Bysshe Shelley, 1818)
 * [Don't die with dignity; instead play to your outs (Jeffrey Ladish, 2022)](https://www.lesswrong.com/posts/xF7gBJYsy6qenmmCS/don-t-die-with-dignity-instead-play-to-your-outs)
@@ -70,7 +83,6 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Design Of This Website (Gwern Branwen, 2022)](https://www.gwern.net/Design)
 * [Design Graveyard (Gwern Branwen, 2022)](https://www.gwern.net/Design-graveyard)
 * [McKendree cylinder (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/McKendree_cylinder)
-* \* Conservative Agency (Alexander Matt Turner/Dylan Hadfield-Menell/Prasad Tadepalli, 2020)
 * A Generalist Agent (Alexander Novikov/Ali Razavi/Ashley Edwards/Emilio Parisotto/Gabriel Barth-Maron/Jackie Kay/Jake Bruce/Jost Tobias Springenberg/Konrad Żołna/Mahyar Bordbar/Mai Giménez/Nando de Freitas)/Nicolas Heess/Oriol Vinyals/Raia Hadsell/Scott Reed/Sergio Gómez Colmenarejo/Tom Eccles/Yury Sulsky/Yutian Chen, 2022)
 * [Evolution as Backstop for Reinforcement Learning (Gwern Branwen, 2021)](https://www.gwern.net/Backstop)
 * [Discredited hypotheses for the Cambrian explosion (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Discredited_hypotheses_for_the_Cambrian_explosion)
@@ -149,7 +161,7 @@ ind.com/blog/we-are-very-excited-to-announce-the-launch-of-deepmind-health)
 * [2012 election predictions (Gwern Branwen, 2015)](https://www.gwern.net/2012-election-predictions)
 * \* Die toten Seelen (Nikolai Gogol, 1842)
 * [Correlated equilibrium (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Correlated_equilibrium)
-* |40 Basic Solution Concepts and Computational Issues (Éva Taros/Vijay V. Vazirani, 2007)
+* |40 Basic Solution Concepts and Computational Issues (Éva Tardos/Vijay V. Vazirani, 2007)
 * Algorithmic Game Theory (Noam Nisan/Tim Roughgarden/Éva Tardos/Vijay V. Vazirani, 2007)
 * [LWer Effective Altruism donations, 2013-2014 (Gwern Branwen, 2018)](https://www.gwern.net/EA-donations)
 * Structural Regular Expressions (Rob Pike, 1990)

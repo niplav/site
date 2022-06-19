@@ -9,6 +9,16 @@
 Todo
 =====
 
+> In einer Ecke des Zimmers lag auf dem Fußboden all das in einem
+Haufen, was von gröberer Art und nicht würdig war, auf den Tischen zu
+liegen. Was sich aber in dem Haufen befand, war schwer zu bestimmen, denn
+er war mit solch einem Übermaß von Staub bedeckt, daß die Hände eines
+jeden, der ihn berührte, sich wie mit Handschuhen überzogen hätten;
+mehr als anderes fielen ein abgebrochenes Stück von einem Holzspaten,
+das dort hervorragte, und eine alte Stiefelsohle auf.
+
+*—[Nikolai Googol](https://en.wikipedia.org/wiki/Nikolai_Gogol), “Die toten Seelen”, 1842*
+
 Site
 -----
 
@@ -203,6 +213,7 @@ Texts
 	* Not literally best possible forecast
 	* But for humans at the time with the available information
 * An aggregation of all of Scott Alexander's forecasting results in one place
+* Probabilistic Forecasting as a Social Technology
 
 ### Population
 
@@ -685,6 +696,10 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Double Blind Self-Experiment with Wellbutrin
 * Find Polygenic scores for subjective well-being and run them through Gwerns Embryo Selection Analysis
 	* See [this section](https://www.gwern.net/Embryo-selection#multiple-selection-on-independent-traits)
+* Testing CFARs techniques and anti-procrastination techniques
+	* Use:
+		* CFAR handbook
+		* Lesswrong post about anti-procrastination techniques
 
 ### Ideas
 
@@ -1088,6 +1103,7 @@ Game. Even those odds likely overstate the number of Players in the world.
 * TheRedQuest
 * Brian Tomasik
 * CronoDAS
+* Eli Tyre
 
 ### Fiction
 
@@ -1653,6 +1669,7 @@ Wikipedia Articles
 * Pragmatic Dharma (?)
 * Kenneth Folk
 * Experience Replay (see Deep Q-Network (“DQN”; Mnih et al. 2015))
+* Blahaj
 
 ### Improve
 
@@ -1670,17 +1687,6 @@ Wikipedia Articles
 * On Wikipedia page for Graph Kernel, correct "Leman" to "Lehman" (first, check whether this is actually wrong).
 * Find Ian Goodfellow's true year of birth
 * Add missing national anthems to `https://en.wikipedia.org/wiki/List_of_national_anthems`
-* Dangling link in second paragraph of Salutogenesis
-* Redirects to Multilayer perceptron:
-	* Multi layer perceptron
-	* Multi-layer peceptron
-* Redirects to Thomas Bayes
-	* Reverend Thomas Bayes
-	* Sir Reverend Thomas Bayes
-* Maiser Khana
-	* Replace '. .' with '.'
-* Supercontinent
-	* "The supercontinent Pangaea is the collective name describing all of the continental landmasses when they were most recently near to one another." -> Double meaning, if we create a supercontinent tomorrow, will that also be called "Pangea"?
 
 Answers
 --------
@@ -1695,6 +1701,10 @@ Answers
 		a point even though you’re annoying, then they say on
 		balance you’re mostly right although you ignore some of
 		the most important facets of the issue, then you win.”"
+* Comment on `https://musingsandroughdrafts.wordpress.com/2021/03/24/my-current-high-level-strategic-picture-of-the-world/index.html`
+	* Say that it's excellent
+	* Point out typos
+	* Add points from notes
 
 Arbital
 --------

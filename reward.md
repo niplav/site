@@ -286,6 +286,7 @@ See also [Gwern 2012](https://www.gwern.net/Wikipedia And Other Wikis.html).
 * Zack M. Davis
 * JhanicManifold
 * Donald Knuth
+* Vanessa Kosoy
 * Anders Sandberg
 	* Although this might be remedied by his new book (if it *ever* comes out)
 -->

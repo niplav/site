@@ -44,6 +44,7 @@ HTML=index.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
 	exercise_log.html \
+	favorites.html \
 	finesse.html \
 	flags.html \
 	forecasters.html \
