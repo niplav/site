@@ -160,7 +160,7 @@ and which kind of content could be published there.
 I decided to start writing down my ideas, collecting older texts and
 reviewing them to see what was still valuable and what was useless.
 
-My decision to start a website was solidified by [guzey
+My decision to start a website was solidified by [Guzey
 2019](https://guzey.com/personal/why-have-a-blog/) and a question on
 [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/comments/ab3ry1/whats_the_bottleneck_to_more_things_like_slate/):
 

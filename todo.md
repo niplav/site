@@ -916,6 +916,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Easterlin Paradox
 	* Rotwelsch
 	* Picoeconomics
+	* Cold Showers
 * Elon Musk Forecast Correction Function
 	* Code: `1.8239233 * (forecasted-forecast_made) + 48.0502205` (days)
 	* [Original](https://web.archive.org/web/20210302224031/https://anthony.boyles.cc/Essays/portfolio/ElonMuskForecastCorrectionFunction.html)
@@ -1687,6 +1688,7 @@ Wikipedia Articles
 * On Wikipedia page for Graph Kernel, correct "Leman" to "Lehman" (first, check whether this is actually wrong).
 * Find Ian Goodfellow's true year of birth
 * Add missing national anthems to `https://en.wikipedia.org/wiki/List_of_national_anthems`
+* Add Teyolía and Ihíyotl to See Also section of Tonalli and Teyolía (and link these in the text)
 
 Answers
 --------

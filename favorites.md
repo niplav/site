@@ -1,7 +1,7 @@
 [home](./index.html)
 ---------------------
 
-*author: niplav, created: 2022-06-18, modified: 2022-06-19, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2022-06-18, modified: 2022-06-21, language: english, status: draft, importance: 2, confidence: log*
 
 > Idea & format stolen shamelessly from [Gavin
 Leech](https://www.gleech.org/favs/all/).
@@ -18,6 +18,8 @@ Texts
 TODO: demonstrate/defenestrate
 -->
 
+### Poems
+
 My favorite poems are [Howl (Allen Ginsberg,
 1955)](https://www.poetryfoundation.org/poems/49303/howl), Spinoza (Jorge
 Luis Borges, 1964), [Hyperions Schicksalslied (Friedrich Hölderlin,
@@ -31,137 +33,192 @@ Schiller, 1805).
 
 -->
 
+### Blogposts
+
+#### Insightful
+
+My favorite insightful blogposts/online essays are [Making
+Beliefs Pay Rent (in Anticipated Experiences) (Eliezer Yudkowsky,
+2007)](https://www.lesswrong.com/s/7gRSERQZbqTuLX5re/p/a7n8GdKiAZRX86T5A),
+[Software engineers solve problems (Drew DeVault,
+2020)](https://drewdevault.com/2020/08/17/Engineers-solve-problems.html),
+[How To Be Attractive (Hotel Concierge,
+2016)](https://hotelconcierge.tumblr.com/post/140529495929/how-to-be-attractive),
+[Meditations on Moloch (Scott Alexander,
+2013)](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/),
+[Being the (Pareto) Best in the World (johnswentworth,
+2019)](https://www.lesswrong.com/posts/XvN2QQpKTuEzgkZHY/being-the-pareto-best-in-the-world),
+[The Curse Of The Counterfactual (pjeby,
+2019)](https://www.lesswrong.com/posts/E4zGWYzh6ZiG85b2z),
+[My current high-level strategic picture of the world (Eli Tyre,
+2021)](https://musingsandroughdrafts.wordpress.com/2021/03/24/my-current-high-level-strategic-picture-of-the-world/),
+[Humans are not automatically strategic (Anna Salamon,
+2010)](https://www.lesswrong.com/posts/PBRWb2Em5SNeWYwwB/humans-are-not-automatically-strategic),
+[The Forces of Blandness and the Disagreeable Majority (sarahconstantin,
+2019)](https://www.lesswrong.com/posts/KHunHoNd2fckwaRxz),
+and [Science, the Constructionists, and Reality (John Nerst,
+2017)](https://everythingstudies.com/2017/03/06/science-the-constructionists-and-reality/).
+
+#### Practical
+
+The most practical/action-guiding posts I've read so far are (these
+might not be practical/applicable to anyone else, and often were just
+final pushes for me to do something in a particular direction):
+
+* [Spaced Repetition (Gwern Branwen, 2019)](https://www.gwern.net/Spaced-repetition)
+* Melatonin:
+	* [Melatonin: Much More Than You Wanted To Know (Scott Alexander, 2018)](https://slatestarcodex.com/2018/07/10/melatonin-much-more-than-you-wanted-to-know/)
+	* [Melatonin (Gwern Branwen, 2019)](https://www.gwern.net/Melatonin)
+* Cryonics:
+	* [You Only Live Twice (Eliezer Yudkowsky, 2008)](https://www.lesswrong.com/posts/yKXKcyoBzWtECzXrE/you-only-live-twice)
+	* [Why Cryonics Makes Sense (Tim Urban, 2016)](https://waitbutwhy.com/2016/03/cryonics.html)
+	* [Cryonics − Frequently Asked Questions (FAQ) (Ben Best, 2018)](http://www.benbest.com/cryonics/CryoFAQ.html)
+* Pickup
+	* [You only see the tip of the spear (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/02/07/you-only-see-the-tip-of-the-spear/index.html)
+	* [A lot of guys are pussies, but that means opportunity for the few who aren’t (TheRedQuest, 2022)](https://theredquest.wordpress.com/2022/02/23/a-lot-of-guys-are-pussies-but-that-means-opportunity-for-the-few-who-arent/)
+	* [Guide to Texting Girls (Mr. V, 2020)](./doc/game/guide_to_texting_girls_mr_v_2020.pdf)<!--TODO: add essay about daygame-->
+* Finance
+	* [Getting Rich: from Zero to Hero in One Blog Post (Mr. Money Mustache, 2013)](https://www.mrmoneymustache.com/2013/02/22/getting-rich-from-zero-to-hero-in-one-blog-post/)
+	* [The Shockingly Simple Math Behind Early Retirement (Mr. Money Mustache, 2012)](https://www.mrmoneymustache.com/2012/01/13/the-shockingly-simple-math-behind-early-retirement/)
+* Air quality
+	* [Better air quality is the easiest way not to die (dynomight, 2021)](https://dynomight.net/air/)
+	* [The Cuboid: A DIY air purifier that's better than a box-fan (dynomight, 2021)](https://dynomight.net/better-DIY-air-purifier.html)
+* Effective Altruism
+	* [Nobody is Perfect, Everything is Commensurable (Scott Alexander, 2014)](https://slatestarcodex.com/2014/12/19/nobody-is-perfect-everything-is-commensurable/)
+	* [Church vs. Taskforce (Eliezer Yudkowsky, 2009)](https://www.lesswrong.com/s/pvim9PZJ6qHRTMqD3/p/p5DmraxDmhvMoZx8J)
+* Websiting
+	* [Collective Apathy and the Internet (Eliezer Yudkowsky, 2009)](https://www.lesswrong.com/s/pvim9PZJ6qHRTMqD3/p/NnQbfLo868wgnHF4n)
+	* [About This Website (Gwern Branwen, 2021)](https://www.gwern.net/About)
+	* [History of This Website (Brian Tomasik, 2019)](https://reducing-suffering.org/history-of-this-website/)
+	* [Why You Should Start a Blog Right Now(Alexey Guzey, 2021)](https://guzey.com/personal/why-have-a-blog.html)
+* People in general and tolerance
+	* [People Are Different (John Nerst, 2017)](https://everythingstudies.com/2017/04/24/people-are-different/)
+<!--TODO: add generalizing from one example-->
+
+### Books
+
 My favorite books are The Elephant in the Brain, There is no Antimemetics
-Division, and House of Leaves (it does the whole postmodern literature
+Division, 1984 and House of Leaves (it does the whole postmodern literature
 shtick, but it does it really enjoyably!).
 
 Music
 ------
 
-### Songs
-
+<!--
 ### Albums
 
 ### Musicians
+-->
 
 My favorite musicians are Johann Sebastian Bach, Patricia Taxxon, Steve
 Reich, Sonny Clark, and Vincent E. L.
 
+My favorite pieces of music are Gavotte en
+Rondeau (Johann Sebastian Bach), [Gyermektánc (Béla
+Bartók)](https://www.youtube.com/watch?v=NTiWbzlwZGw&t=473s), Piano Phase
+(Steve Reich), Electric Counterpoint III (Steve Reich), The Well Tuned
+Piano (La Monte Young), This Goes To (Vincent E. L.), and Reconstructing
+More Science (Mike Morasky), Diamond Sky (Patricia Taxxon), Sweet Mary
+Sweet Midi (Patricia Taxxon), Castle Sinclair Girnigoe (Patricia Taxxon),
+Alien (Patricia Taxxon), Pack My Box (Patricia Taxxon), and Hellbulb
+(Patricia Taxxon) (I might be a *little bit* of a Taxxon fan). <!--TODO:
+link all of these-->
+
 Websites
 ---------
 
-### Blogs
-
-#### General Knowledge
-
-* [Nintil](https://nintil.com/)
-* [Dynomight](https://dynomight.net/)
-
-#### Rationality
-
-* [Less Wrong](https://lesswrong.com/)
-* [Everything Studies](https://everythingstudies.com/)
-* [Overcoming Bias](http://www.overcomingbias.com/)
-* [Slate Star Codex](http://slatestarcodex.com/)
-* [☆✦ The Scintillating But Ultimately Untrue Thought ✦☆](https://unremediatedgender.space) (highly focused on a rather irrelevant topic, but the lessons are generalizable)
-
-#### Programming
-
-* [Coding Horror](https://blog.codinghorror.com/)
-* [Drew DeVault's Blog](https://drewdevault.com/)
-* [Joel On Software](https://www.joelonsoftware.com/)
-* [Null Program](http://nullprogram.com/)
-
-#### Mathematics
-
-* [Bit-Player](http://bit-player.org/)
-* [Math ∩ Programming](https://jeremykun.com/)
-* [Shtetl-Optimized](https://www.scottaaronson.com/blog)
-* [An Algorithmic Lucidity](http://zackmdavis.net/blog/)
-
-#### Philosophy
-
-* [Entirely Useless](https://entirelyuseless.com/)
-* [Metamoderna](http://metamoderna.org/?lang=en)
-
-#### Politics
-
-* [The Real Movement](https://therealmovement.wordpress.com/)
-* [Unqualified Reservations](https://unqualified-reservations.org/)
-
-#### Insight Porn
-
-* [Hotel Concierge](https://hotelconcierge.tumblr.com/)
-* [The Last Psychiatrist](https://thelastpsychiatrist.com/)
-* [sam[]zdat](https://samzdat.com/)
-* [An Algorithmic Lucidity](http://zackmdavis.net/blog/)
-* [Traditions of Conflict](https://traditionsofconflict.com)
-
-#### Meditation
-
-* [Meditation Stuff](https://meditationstuff.wordpress.com)
-* [Neurotic Gradient Descent](https://neuroticgradientdescent.blogspot.com)
-
-#### Pick Up
-
-* [The Red Quest](https://theredquest.wordpress.com)
-* [Days of Game](https://daysofgame.com)
-
-####  Effective Altruism
-
-* Personal Websites
-	* [Reflective Disequilibrium](https://reflectivedisequilibrium.blogspot.com)
-	* [Rational Altruist](https://rationalaltruist.com)
-* [Effective Altruism Forum](https://forum.effectivealtruism.org/allposts)
-* Organisations
-	* [Qualia Research Institute](https://qualiaresearchinstitute.org/research-publications)
-	* [Rethink Priorities](https://rethinkpriorities.org/research)
-
-### Fiction
-
-* [Zero HP Lovecraft](https://zerohplovecraft.wordpress.com/)
-* [Things of Interest](https://qntm.org) (not just fiction, lots of other cool stuff too)
-
 ### Sites
 
-* [Yujiri's homepage](https://yujiri.xyz) (A [very Russian](https://yujiri.xyz/misc/structure.gmi.html) website: "This site's organization is different from most other sites that serve a similar purpose. It's not chronological like a blog, because it was never meant to be a personal voice for me, at least not primarily. It's meant to be an up-to-date, organized database of philosophical truth.". Fellow long-content writer.)
-* [Gwern](https://www.gwern.net/)
-* [Gavin Leech](https://www.gleech.org)
-* [210ethan](https://210ethan.github.io)
-* [Essays on Reducing Suffering](https://reducing-suffering.org)
+My favorite form of online expression is the [long
+site](https://www.gwern.net/About), best exemplified by
+[Gwern](https://www.gwern.net/), [Essays on Reducing
+Suffering](https://reducing-suffering.org), [Gavin
+Leech](https://www.gleech.org), [210ethan](https://210ethan.github.io),
+and [Yujiri's homepage](https://yujiri.xyz) (a [very
+Russian](https://yujiri.xyz/misc/structure.gmi.html) website: "This site's
+organization is different from most other sites that serve a similar
+purpose. It's not chronological like a blog, because it was never meant
+to be a personal voice for me, at least not primarily. It's meant to be
+an up-to-date, organized database of philosophical truth.").
 
-### Wikis
+### Blogs
 
-* [Wikipedia](https://en.wikipedia.org/)
-* [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/)
-* [SCP Wiki](http://www.scp-wiki.net/)
-* [Arbital AI Alignment Domain](https://arbital.org/explore/ai_alignment)
+My favorite general knowledge blogs are [Nintil](https://nintil.com/)
+and [Dynomight](https://dynomight.net/); my favorite blogs
+about rationality are [Less Wrong](https://lesswrong.com/),
+[Everything Studies](https://everythingstudies.com/),
+[Overcoming Bias](http://www.overcomingbias.com/), [Slate Star
+Codex](http://slatestarcodex.com/), and [☆✦ The Scintillating But
+Ultimately Untrue Thought ✦☆](https://unremediatedgender.space)
+(which is highly focused on a rather irrelevant topic,
+but the lessons are generalizable); my favorite programming
+blogs are [Coding Horror](https://blog.codinghorror.com/),
+[Drew DeVault's Blog](https://drewdevault.com/),
+[Joel On Software](https://www.joelonsoftware.com/)
+and [Null Program](http://nullprogram.com/); my favorite
+mathematics blogs are [Bit-Player](http://bit-player.org/),
+[Math ∩ Programming](https://jeremykun.com/),
+[Shtetl-Optimized](https://www.scottaaronson.com/blog) and [An
+Algorithmic Lucidity](http://zackmdavis.net/blog/); my favorite
+philosophy blogs are [Entirely Useless](https://entirelyuseless.com/) and
+[Metamoderna](http://metamoderna.org/?lang=en).
 
-### Other
+I don't read many blogs about politics per se,
+but I like the (in different ways) spicy [The Real
+Movement](https://therealmovement.wordpress.com/) and [Unqualified
+Reservations](https://unqualified-reservations.org/); good insight porn is
+hard to come by these days, but I have made good catch by trawling through
+the archives of [Hotel Concierge](https://hotelconcierge.tumblr.com/),
+[The Last Psychiatrist](https://thelastpsychiatrist.com/),
+[sam[]zdat](https://samzdat.com/), [An Algorithmic
+Lucidity](http://zackmdavis.net/blog/) and [Traditions of
+Conflict](https://traditionsofconflict.com)
 
-* [Schelling.pt](https://schelling.pt)
-* Forecasting
-	* [Metaculus](https://www.metaculus.com)
-	* [PredictionBook](https://www.predictionbook.com)
+Meditation is better done than read about, but if you have to,
+[Meditation Stuff](https://meditationstuff.wordpress.com) and [Neurotic
+Gradient Descent](https://neuroticgradientdescent.blogspot.com)
+are great places to; similar with pickup and [The Red
+Quest](https://theredquest.wordpress.com)/[Days of
+Game](https://daysofgame.com).
+
+My favorite blogs about Effective Altruism are [Reflective
+Disequilibrium](https://reflectivedisequilibrium.blogspot.com)
+and [Rational Altruist](https://rationalaltruist.com)
+(both unfortunately inactive), the [Effective Altruism
+Forum](https://forum.effectivealtruism.org/allposts) is of
+course widely known & loved, and I like the [Qualia Research
+Institute](https://qualiaresearchinstitute.org/research-publications)
+and [Rethink Priorities](https://rethinkpriorities.org/research)
+(if just because I actually read the stuff they put out).
+
+As for fiction, [Zero HP
+Lovecraft](https://zerohplovecraft.wordpress.com/) and [Things of
+Interest](https://qntm.org) present two very different (but both
+delightful) options. The [SCP Wiki](http://www.scp-wiki.net/) is also
+one of a kind, a true product of the internet age.
+
+My favorite wikis are [Wikipedia](https://en.wikipedia.org/), [Stanford
+Encyclopedia of Philosophy](https://plato.stanford.edu/) and the [Arbital
+AI Alignment Domain](https://arbital.org/explore/ai_alignment)
+(sadly defunct); my favorite social media site
+is [schelling.pt](https://schelling.pt); and my
+favorite forecasting/news sites are still the good ol'
+reliable [Metaculus](https://www.metaculus.com) and
+[PredictionBook](https://www.predictionbook.com).
 
 Mathematics
 ------------
 
-### Structures
-
-* ∅
-
-### Theorems
-
-* Bulow-Klemperer theorem
-
-### Proofs
-
-* [Classification of finite simple groups](https://en.wikipedia.org/wiki/Classification_of_finite_simple_groups) (not that I understand it)
+My favorite mathematical structure is ∅, my
+favorite theorem is the Bulow-Klemperer theorem, and
+my favorite proof is the [Classification of finite simple
+groups](https://en.wikipedia.org/wiki/Classification_of_finite_simple_groups)
+(not that I understand it).
 
 My favorite algorithms are the IC\* algorithm, Kadane's algorithm,
-Bron-Kerbosch algorithm, and Sleepsort.
+the Bron-Kerbosch algorithm, and Sleepsort.
 
+<!--
 Computers
 ----------
 
@@ -170,28 +227,37 @@ Computers
 ### Operating Systems
 
 ### Software
+-->
 
 Media
 ------
 
+<!--
 ### Podcasts
 
 ### Podcast Episodes
+-->
 
-### Movies
+My favorite movies are [Rango](https://www.imdb.com/title/tt1192628/),
+[District 9](https://www.imdb.com/title/tt1136608/), [Rogue
+One: A Star Wars Story](https://www.imdb.com/title/tt3748528/),
+[Koyaanisqatsi](https://www.imdb.com/title/tt0085809/), [Die
+Welt am Draht I](https://www.imdb.com/title/tt0070904/) and
+[II](https://www.imdb.com/title/tt0070904/), and The Element of Crime.
 
-My favorite movies are Rango, District 9, Rogue One, Koyaanisqatsi,
-Die Welt am Draht 1&2, and The Element of Crime.
-
+<!--
 ### Series
+-->
 
 Ideas
 ------
 
 My favorite ideas in policy are Futarchy, Harberger taxes, Track records,
-and Open borders.
+and open borders.
 
+<!--
 ### Philosophy
+-->
 
 More
 -----
@@ -211,7 +277,7 @@ being a close second), my favorite alcoholic beverage is none
 the [flag of Albania](https://en.wikipedia.org/wiki/Flag_of_Albania)
 (I may have a thing for birds on flags), my favorite mode of transport
 is by Zeppelin (primarily æsthetically, train is much more practical
-and nearly as cool), my favorite solution to disagreement is trade.
+and nearly as cool), my favorite solution to moral disagreement is trade.
 
 My favorite activities are
 [jamming](https://en.wikipedia.org/wiki/Jam_session), standing in front
