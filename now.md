@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2022-04-17, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2022-04-24, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -63,8 +63,5 @@ Currently, I am actively reading the following books:
 
 * Darf man Tiere essen? (Plutarch, 100)
 * Die toten Seelen (Nikolai Gogol, 1842)
-* Naïve Set Theory (Paul R. Halmos, 1960)
-* Population Genetics (John H. Gillespie, 2004)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * Superforecasting: The Art and Science of Prediction (Philip E. Tetlock/Dan Gardner, 2015)
-* The Jazz Piano Book (Mark Levine, 1998)

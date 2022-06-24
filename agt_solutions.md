@@ -31,7 +31,7 @@ Let `$g$` be a two-player game. Now construct a 3-player zero-sum game
 the utility of that player be
 `$u_3'(a_3, a_{-3})=0-(u_1(a_{-3})+u_2(a_{-3})$`.
 
-Then the Nash equilibria of `$G$'$` are the same as for `$g$`: player
+Then the Nash equilibria of `$G'$` are the same as for `$g$`: player
 `$3$` can't deviate, and the utilities of the other players are not
 affected by the actions of `$3$`. Therefore, the Nash equilibria in `$g'$`
 are the same as for `$g$`, and equally hard to find—which means that
