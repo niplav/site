@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-06-17, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-06-24, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,17 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Where I agree and disagree with Eliezer (Paul Christiano, 2022)](https://www.lesswrong.com/posts/CoZhXrhpQxpy9xw9y/where-i-agree-and-disagree-with-eliezer)
+* [What comes after we recognize a dead, boomer ideology? (TheRedQuest, 2022)](https://theredquest.wordpress.com/2022/06/19/what-comes-after-we-recognize-a-dead-boomer-ideology/)
+* [Why You Should Start a Blog Right Now (Alexey Guzey, 2021)](https://guzey.com/personal/why-have-a-blog.html)
+* [You only see the tip of the spear (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/02/07/you-only-see-the-tip-of-the-spear/index.html)
+* [Investing Time and Resources in Happiness (Andrés Gomez Emilsson, 2019)](https://qualiacomputing.com/2019/04/03/investing-time-and-resources-in-happiness/index.html)
+* [Software engineers solve problems (Drew DeVault, 2020)](https://drewdevault.com/2020/08/17/Engineers-solve-problems.html)
+* [Does Mouse Utopia Exist? (Gwern Branwen, 2022)](https://www.gwern.net/Mouse-Utopia)
+* [What is the likelihood that civilizational collapse would directly lead to human extinction (within decades)? (Luisa Rodriguez, 2020)](https://forum.effectivealtruism.org/posts/GsjmufaebreiaivF7/what-is-the-likelihood-that-civilizational-collapse-would)
+* [“Pivotal Act” Intentions: Negative Consequences and Fallacious Arguments (Andrew Critch, 2022)](https://www.lesswrong.com/posts/Jo89KvfAs9z7owoZp/pivotal-act-intentions-negative-consequences-and-fallacious)
+* [OpenAI! (Scott Aaronson, 2022)](https://scottaaronson.blog/?p=6484)
+* [Numerai (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Numerai)
 * Counterfactual credit assignment (Brian Tomasik, 2013)
 * \* Superforecasting: The Art and Science of Prediction (Philip E. Tetlock/Dan Gardner, 2015)
 * [My current high-level strategic picture of the world (Eli Tyre, 2021)](https://musingsandroughdrafts.wordpress.com/2021/03/24/my-current-high-level-strategic-picture-of-the-world/index.html)
@@ -349,7 +360,7 @@ ind.com/blog/we-are-very-excited-to-announce-the-launch-of-deepmind-health)
 * [Tulpar (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Tulpar)
 * [Danish Protest Pig (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Danish_Protest_Pig)
 * Die Kindesmörderin (Friedrich Schiller, 1805)
-* \* Population Genetics (John H. Gillespie, 2004)
+* |50 Population Genetics (John H. Gillespie, 2004)
 * Über die Natur von Wahrheit und Falschheit (Bertrand Russell, 1910)
 * Mastering the Core Teachings of the Buddha (Daniel M. Ingram, 2018)
 * The Game (Neil Strauss, 2005)
@@ -1675,7 +1686,7 @@ ind.com/blog/we-are-very-excited-to-announce-the-launch-of-deepmind-health)
 * [Catalan's conjecture (English Wikipedia, 2020)](https://en.wikipedia.org/wiki/Catalan%27s_conjecture)
 * Der Weg von hier (Dschelāladdīn Rūmī, 1256)
 * Er sprach: Wer klopfte (Dschelāladdīn Rūmī, 1256)
-* \* The Jazz Piano Book (Mark Levine, 1998)
+* |26 The Jazz Piano Book (Mark Levine, 1998)
 * [Hyperthymic temperament (English Wikipedia, 2020)](https://en.wikipedia.org/wiki/Hyperthymic_temperament)
 * [Growth and the case against randomista development (John Halstead/Hauke Hillebrandt, 2020)](https://forum.effectivealtruism.org/posts/bsE5t6qhGC65fEpzN/growth-and-the-case-against-randomista-development)
 * [Towards a New Impact Measure (TurnTrout, 2018)](https://www.lesswrong.com/posts/yEa7kwoMpsBgaBCgb/towards-a-new-impact-measure)
@@ -2552,7 +2563,7 @@ ind.com/blog/we-are-very-excited-to-announce-the-launch-of-deepmind-health)
 * [Die Eichbäume (Friedrich Hölderlin, 1797)](https://de.wikipedia.org/wiki/Die_Eichb%C3%A4ume_\(H%C3%B6lderlin\)#Text)
 * [Das Schicksal (Friedrich Hölderlin, 1793)](https://www.textlog.de/17770.html)
 * The Elephant in the Brain (Kevin Simler/Robin Hanson, 2018)
-* \* Naive Set Theory (Paul R. Halmos, 1960)
+* |54 Naive Set Theory (Paul R. Halmos, 1960)
 * Superintelligence (Nick Bostrom, 2014)
 * [To Wash It All Away (James Mickens, 2014)](https://www.usenix.org/system/files/1403_02-08_mickens.pdf)
 * [The Saddest Moment (James Mickens, 2013)](https://www.usenix.org/system/files/login-logout_1305_mickens.pdf)

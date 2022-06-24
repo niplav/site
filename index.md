@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2022-06-10, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2022-06-23, language: english, status: in progress, importance: 6, confidence: log*
 
 > __If you take away just one thing from this website,
 it should be that I think [you would want to sign up for
@@ -78,8 +78,8 @@ Writing
 * [Solutions to “Reactive Systems”](./rs_solutions.html)
 * [Solutions to “Programming in Lua”](./pil_solutions.html)
 * [Solutions to “Population Genetics”](./pg_solutions.html)
-* [Solutions to “Algorithmic Game Theory”](./agt_solutions.html)
 * [Solutions to “A Primer in Social Choice Theory”](./apisct_solutions.html)
+* [Solutions to “Algorithmic Game Theory”](./agt_solutions.html)
 * [Solutions to “Pattern Recognition and Machine Learning”](./praml_solutions.html)
 * [Exercises from “The Jazz Piano Book”](./tjpb_exercises.html)
 * [Administrativa for Textbooks](./administrativa_for_textbooks.html)
@@ -143,6 +143,7 @@ Miscellaneous
 
 * [About](./about.html)
 * [Changelog](./changelog.html)
+* [Favorites](./favorites.html)
 * [Contributions](./contributions.html)
 * [Now](./now.html)
 * [Todo](./todo.html)

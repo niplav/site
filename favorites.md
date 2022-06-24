@@ -1,7 +1,7 @@
 [home](./index.html)
 ---------------------
 
-*author: niplav, created: 2022-06-18, modified: 2022-06-21, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2022-06-18, modified: 2022-06-23, language: english, status: draft, importance: 2, confidence: log*
 
 > Idea & format stolen shamelessly from [Gavin
 Leech](https://www.gleech.org/favs/all/).
@@ -27,7 +27,6 @@ Luis Borges, 1964), [Hyperions Schicksalslied (Friedrich Hölderlin,
 Schiller, 1805).
 
 <!--
-### Blogposts
 
 ### Papers
 
@@ -111,7 +110,7 @@ Music
 -->
 
 My favorite musicians are Johann Sebastian Bach, Patricia Taxxon, Steve
-Reich, Sonny Clark, and Vincent E. L.
+Reich, Charles Mingus, Sonny Clark, and Vincent E. L.
 
 My favorite pieces of music are Gavotte en
 Rondeau (Johann Sebastian Bach), [Gyermektánc (Béla
@@ -209,14 +208,22 @@ reliable [Metaculus](https://www.metaculus.com) and
 Mathematics
 ------------
 
-My favorite mathematical structure is ∅, my
-favorite theorem is the Bulow-Klemperer theorem, and
-my favorite proof is the [Classification of finite simple
+My favorite mathematical structure is
+[∅](https://en.wikipedia.org/wiki/Empty_set),
+my favorite theorem is the [Bulow-Klemperer
+theorem](https://cs.brown.edu/courses/csci1440/lectures/2022/bulow_klemperer.pdf),
+and my favorite proof is the [Classification of finite simple
 groups](https://en.wikipedia.org/wiki/Classification_of_finite_simple_groups)
 (not that I understand it).
 
-My favorite algorithms are the IC\* algorithm, Kadane's algorithm,
-the Bron-Kerbosch algorithm, and Sleepsort.
+My favorite algorithms are the [IC\*
+algorithm](https://rpatrik96.github.io/posts/2021/11/2021-11-22-poc8-ic-ic-ic),
+[Kadane's
+algorithm](https://en.wikipedia.org/wiki/Maximum_subarray_problem#Kadane's_algorithm),
+the [Bron-Kerbosch
+algorithm](https://en.wikipedia.org/wiki/Bron%E2%80%93Kerbosch_algorithm),
+and
+[sleepsort](https://www.geeksforgeeks.org/sleep-sort-king-laziness-sorting-sleeping/).
 
 <!--
 Computers
@@ -265,19 +272,20 @@ More
 My favorite non-extinct animals are octopuses, my favorite extinct
 animals are [glyptodons](https://en.wikipedia.org/Glyptodon),
 my favorite type of art is [geometric
-abstraction](https://en.wikipedia.org/wiki/Geometric_abstraction),
-my favorite type of biome is flat deserts, my favorite type of
-meditation is good ol' ānāpānasati, my favorite kitchen appliance
-is the microwave, my favorite food is kimchi, my favorite non-alcohol
-drink is tap water (with [ayran](https://en.wikipedia.org/wiki/Ayran)
-being a close second), my favorite alcoholic beverage is none
-(although beer is enjoyable on dates), my favorite flags are the
-[flag of Uganda](https://en.wikipedia.org/wiki/Flag_of_Uganda), the
-[flag of Barbados](https://en.wikipedia.org/wiki/Flag_of_Barbados) and
-the [flag of Albania](https://en.wikipedia.org/wiki/Flag_of_Albania)
-(I may have a thing for birds on flags), my favorite mode of transport
-is by Zeppelin (primarily æsthetically, train is much more practical
-and nearly as cool), my favorite solution to moral disagreement is trade.
+abstraction](https://en.wikipedia.org/wiki/Geometric_abstraction), my
+favorite type of biome is flat deserts, my favorite type of meditation
+is good ol' ānāpānasati, my favorite kitchen appliance is the
+microwave, my favorite food is kimchi, my favorite non-alcohol drink
+is tap water (with [ayran](https://en.wikipedia.org/wiki/Ayran) being
+a close second), my favorite alcoholic beverage is none (although
+beer is enjoyable on dates), my favorite flags are the [flag of
+Uganda](https://en.wikipedia.org/wiki/Flag_of_Uganda), the [flag of
+Barbados](https://en.wikipedia.org/wiki/Flag_of_Barbados) and the [flag
+of Albania](https://en.wikipedia.org/wiki/Flag_of_Albania) (I may have a
+thing for birds on flags), my favorite anthem is the one of Kazakhstan
+(unfortunately most anthems are bad), my favorite mode of transport is
+by Zeppelin (primarily æsthetically, train is much more practical and
+nearly as cool), my favorite solution to moral disagreement is trade.
 
 My favorite activities are
 [jamming](https://en.wikipedia.org/wiki/Jam_session), standing in front
