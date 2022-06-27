@@ -116,7 +116,7 @@ My favorite pieces of music are Gavotte en
 Rondeau (Johann Sebastian Bach), [Gyermektánc (Béla
 Bartók)](https://www.youtube.com/watch?v=NTiWbzlwZGw&t=473s), Piano Phase
 (Steve Reich), Electric Counterpoint III (Steve Reich), The Well Tuned
-Piano (La Monte Young), This Goes To (Vincent E. L.), and Reconstructing
+Piano (La Monte Young), This Goes To (Vincent E. L.), Reconstructing
 More Science (Mike Morasky), Diamond Sky (Patricia Taxxon), Sweet Mary
 Sweet Midi (Patricia Taxxon), Castle Sinclair Girnigoe (Patricia Taxxon),
 Alien (Patricia Taxxon), Pack My Box (Patricia Taxxon), and Hellbulb
@@ -275,7 +275,7 @@ my favorite type of art is [geometric
 abstraction](https://en.wikipedia.org/wiki/Geometric_abstraction), my
 favorite type of biome is flat deserts, my favorite type of meditation
 is good ol' ānāpānasati, my favorite kitchen appliance is the
-microwave, my favorite food is kimchi, my favorite non-alcohol drink
+microwave, my favorite food is kimchi, my favorite non-alcoholic drink
 is tap water (with [ayran](https://en.wikipedia.org/wiki/Ayran) being
 a close second), my favorite alcoholic beverage is none (although
 beer is enjoyable on dates), my favorite flags are the [flag of

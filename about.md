@@ -456,6 +456,7 @@ but rather cycles).
 * [Tetraspace West](https://thetetra.space)
 * [Skaði þjazidottir](https://ulthar.xyz)
 * [Nyx](https://nyxus.xyz/)
+* [rodeo flagellum](https://rodeoflagellum.github.io/)
 
 The Author
 ----------

@@ -368,6 +368,7 @@ Date ratios:
 And this one:
 
 https://old.reddit.com/r/seduction/comments/9ock2a/my_daygame_experience_so_far_statistics_and/
+https://wolfedaygame.wordpress.com/2022/06/05/1000-sets-of-hell/
 -->
 
 #### Visualizing the Data

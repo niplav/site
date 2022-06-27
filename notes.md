@@ -1278,11 +1278,10 @@ What is `$π_1$`?
 </div>
 
 My wild and at best flimsily supported conjecture is
-that this is *both* a model for CIRL ([Hadfield-Menell et al.
-2016](./doc/cs/ai/alignment/cirl/cooperative_inverse_reinforcement_learning_hadfield_mendell_et_al_2016.pdf "Cooperative Inverse Reinforcement Learning"))
-is incorrigible ([Soares
-2015](doc/cs/ai/alignment/corrigibility/corrigibility_soares_et_al_2015.pdf "Corrigibility")),
-*and also* for why utility maximizers don't do reward hacking ([Dewey
+that this is *both* a model for why CIRL ([Hadfield-Menell et al.
+2016](./doc/cs/ai/alignment/cirl/cooperative_inverse_reinforcement_learning_hadfield_mendell_et_al_2016.pdf "Cooperative Inverse Reinforcement Learning")) is incorrigible ([Soares
+2015](doc/cs/ai/alignment/corrigibility/corrigibility_soares_et_al_2015.pdf "Corrigibility")), *and also* for why
+utility maximizers don't do reward hacking ([Dewey
 2010](./doc/cs/ai/alignment/value_learning/learning_what_to_value_dewey_2010.pdf "Learning What to Value")).
 
 Explanation: `$d$` can be both an action that is equivalent to hacking
@@ -1297,8 +1296,14 @@ Proof: Let `$\mathbf{p}=(p_1, p_2, \dots, p_n)$` be a list of probabilities.
 
 Then the arithmetic mean of logodds is `$\exp(\frac{1}{n} \sum_{i=1}^n \log(\frac{p_i}{1-p_i}))=\exp(\frac{1}{n} \log(\prod_{i=1}^n \frac{p_i}{1-p_i}))=\exp(\log(\sqrt[n]{\prod_{i=1}^n \frac{p_i}{1-p_i}}))=\sqrt[n]{\prod_{i=1}^n \frac{p_i}{1-p_i}}$`
 
-This is not quite right, maybe TODO solve (although probably not *that* important, but the inversion isn't quite right).
+This is not quite right, though.<!--, maybe TODO solve (although probably
+not *that* important, but the inversion isn't quite right).-->
 
-But then if the geometric mean is just the 0th generalized mean, and the arithmetic mean is the 1st generalized mean, are there similarly variants of the logodds? That is, the odds are the 0th generalized odds, the logodds are the 1st generalized odds, and there is some 2nd generalized odds so that the root mean square of the 2nd generalized odds is the geometric mean of odds?
+But then if the geometric mean is just the 0th generalized mean, and
+the arithmetic mean is the 1st generalized mean, are there similarly
+variants of the logodds? That is, the odds are the 0th generalized
+odds, the logodds are the 1st generalized odds, and there is some 2nd
+generalized odds so that the root mean square of the 2nd generalized
+odds is the geometric mean of odds?
 
 Would the nth generalized odds just be the `$\log^{(n)}$`odds?
