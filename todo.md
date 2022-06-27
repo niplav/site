@@ -67,6 +67,7 @@ Site
 	* `https://github.com/pkra/mathjax-node-page/`
 * Maybe collapsable sections?
 * Change internal anchor links to underscore from minus
+	* Also don't use frickin' javascript to create linkable sections, it's a horrible idea
 
 Existing Texts
 --------------
@@ -693,7 +694,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Test computationally whether causal networks have more correlations or causations, project from [here](https://www.gwern.net/Causality#what-a-tangled-net-we-weave-when-first-we-practice-to-believe)
 * Which percentage of random normal-form games are potential games?
 	* 0?
-* Double Blind Self-Experiment with Wellbutrin
+* Double Blind Self-Experiment with Wellbutrin/Bupropion
 * Find Polygenic scores for subjective well-being and run them through Gwerns Embryo Selection Analysis
 	* See [this section](https://www.gwern.net/Embryo-selection#multiple-selection-on-independent-traits)
 * Testing CFARs techniques and anti-procrastination techniques
@@ -1618,6 +1619,7 @@ Programming
 * Mood Patterns
 	* Add option to change the notification sound
 * Find schelling.pt thread for bugs
+* pandas apply to Expanding allows only single float values, not tables
 * dc 9base manpage:
 	* typo in the order of operations in the manpage
 
@@ -1688,7 +1690,6 @@ Wikipedia Articles
 * On Wikipedia page for Graph Kernel, correct "Leman" to "Lehman" (first, check whether this is actually wrong).
 * Find Ian Goodfellow's true year of birth
 * Add missing national anthems to `https://en.wikipedia.org/wiki/List_of_national_anthems`
-* Add Teyolía and Ihíyotl to See Also section of Tonalli and Teyolía (and link these in the text)
 
 Answers
 --------

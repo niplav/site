@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-06-23, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-06-26, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -24,6 +24,7 @@ June 2022
 * [Favorites](./favorites.html)
 * [Notes](./notes.html)
 	* [An Example for Not Updating Uncertain Utility Functions](./notes.html#An-Example-for-Not-Updating-Uncertain-Utility-Functions)
+	* [Geometric Mean of Odds, Arithmetic Mean of Logodds](./notes.html#Geometric-Mean-of-Odds-Arithmetic-Mean-of-Logodds)
 
 May 2022
 ---------
