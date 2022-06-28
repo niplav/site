@@ -520,6 +520,8 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Perhaps re-emphasize as "Easterlin Paradox"?
 * Contra Morse on Fame
 	* `https://210ethan.github.io/thoughts/famous.html`
+* Contra Morse on Modern Life
+	* `https://210ethan.github.io/thoughts/modern.html`
 * Contra Alexander on Epistemic Minor Leagues
 	* https://astralcodexten.substack.com/p/epistemic-minor-leagues?s=r
 	* Reality is really f\*\*\*ing high-dimensional, so there's a bunch of nooks and crannies nobody has explored before

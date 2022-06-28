@@ -246,7 +246,7 @@ My reasons for this as roughly as follows:
 	* eye contact
 	* vacuuming
 
-Now, I'm not preaching the [wu wei](https://en.wikipedia.org/wik/wu_wei)
+Now, I'm not preaching the [wu wei](https://en.wikipedia.org/wiki/Wu_wei)
 of game, or telling you that you should just become an effortless natural
 overnight, but the conversation on shit tests feels confused to me,
 and focusing on a misguided aspect of the interactions (judging from
