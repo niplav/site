@@ -1104,7 +1104,7 @@ Sanitizing the sessions file:
 
 Converting f\*\*\*ed up Google sheets date format (why does __nobody__
 use the perfect [ISO-8601](https://en.wikipedia.org/wiki/ISO-8601) when
-it's right there‽‽‽), then removing stray spaces after semicolons,
+it's right there‽), then removing stray spaces after semicolons,
 then removing the `^M` from the end of each line, using
 [structural regular
 expressions](./doc/cs/structural_regular_expressions_pike_1990.pdf "Structural Regular Expressions"):

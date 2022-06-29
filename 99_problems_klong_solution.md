@@ -1844,8 +1844,8 @@ The results are what one would expect from the problem statement.
 
 Given the function `flr`, this is easy: `s55` constructs all completely
 balanced binary trees with x nodes, and `s56` tests a tree for being
-completely balanced. One just generates the completely balanced trees
-and then filters them for being symmetric.
+symmetric. One just generates the completely balanced trees and then
+filters them for being symmetric.
 
 	s58::{flr({s56(x)};s55(x))}
 	symcbaltrees::s58

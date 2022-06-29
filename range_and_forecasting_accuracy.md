@@ -200,6 +200,39 @@ example](#Three-Different-Analyses-An-Illustrative-Example) can help):
 			Metaculus and ~120 years for PredictionBook
 			([more](#Exponential-Forecast-Horizons-for-Questions)).
 
+<table>
+<tbody>
+	<tr>
+		<td></td>
+		<td>Logistic fit horizon (PredictionBook)</td>
+		<td>Logistic fit horizon (Metaculus)</td>
+		<td>Exponential fit horizon (PredictionBook)</td>
+		<td>Exponential fit horizon (Metaculus)</td>
+	</tr>
+	<tr>
+		<td>Between Forecasts</td>
+		<td>18 years</td>
+		<td>3.6 years</td>
+		<td>75 days</td>
+		<td>1 day</td>
+	</tr>
+	<tr>
+		<td>Between Questions</td>
+		<td>4.5 days</td>
+		<td>1 day</td>
+		<td>9 days</td>
+		<td><1 day</td>
+	</tr>
+	<tr>
+		<td>Within Questions mean</td>
+		<td>1.08·10²¹ years</td>
+		<td>5.28·10²⁰ years</td>
+		<td>4.42 years</td>
+		<td>123.4 years</td>
+	</tr>
+</tbody>
+</table>
+
 These results suggest what to expect with questions with even greater
 range: That later predictions (closer to resolution time) on them will
 generally be more accurate, and that the kinds of questions with a very
@@ -643,7 +676,7 @@ error in numpy‽-->
 The Brier score is quite easy to implement:
 
 	def brier(x, y):
-		return np.mean((x-y)**2)
+		return np.mean((x-y)* *2)
 
 The first thing we can now do is to compare the forecasts from the
 two websites, and it turns out that Metaculus forecasts are slightly
@@ -892,7 +925,7 @@ which is the case.
 In python, this is simply
 
 	def shift_exp(x, b):
-		return ((b**x)-1)/(-4)
+		return ((b* *x)-1)/(-4)
 
 We can now fit that kind of curve to the data:
 
@@ -988,6 +1021,23 @@ Overall, I like the logistic fit *much* better than the exponential
 one: in practice, we know that forecasters don't give quasi-random
 predictions for questions that are further out than 100 days (or, as
 the PredictionBook fit suggests, that forecasting is impossible!).
+
+But one can also take a look at the quality of the fit to the data:
+What is the mean squared error of the predicted and the actual Brier
+score for the observed data?
+
+	>>> np.mean((shrunk_logistic(pbrngs, pblogifit[0][0], pblogifit[0][1])-pbbriers)**2)
+	0.05057901068476697
+	>>> np.mean((shrunk_logistic(metrngs, metlogifit[0][0], metlogifit[0][1])-metbriers)**2)
+	0.031372382650708616
+	>>> np.mean((shift_exp(pbrngs, pbexpfit[0][0])-pbbriers)**2)
+	0.058142052832572635
+	>>> np.mean((shift_exp(metrngs, metexpfit[0][0])-metbriers)**2)
+	0.0352617381522454
+
+The fits agree (very slightly) with me here: in both cases the logistic
+fit has a marginally smaller mean squared error in predicting the
+Brier score.
 
 ### Why Assume Accuracy will Increase?
 
@@ -1419,16 +1469,16 @@ questions is too small to explain the whole anomaly between forecasts.
 Again, one can fit the nonlinear exponential/logistic function defined
 [above](#NonLinear-CurveFitting) to the data between questions.
 
-	>>> pbexpfit_betweenq=spo.curve_fit(shift_exp, pbqbrier.T[0], pbqbrier.T[1], bounds=([-np.inf, 0], [0, 1]))
-	(array([4.77613047e-20]), array([[5.82829061e-18]]))
-	>>> metexpfit_betweenq=spo.curve_fit(shift_exp, metqbrier.T[0], metqbrier.T[1], bounds=([-np.inf, 0], [0, 1]))
-	(array([0.70814538]), array([[0.01386776]]))
 	>>> pblogifit_betweenq=spo.curve_fit(shrunk_logistic, pbqbrier.T[0], pbqbrier.T[1], bounds=([-np.inf, 0], [0, np.inf]))
 	(array([-2.70329933e+00,  5.32716622e-52]), array([[ 0.16764075, -0.01981014],
 		[-0.01981014,  0.00898443]]))
 	>>> metlogifit_betweenq=spo.curve_fit(shrunk_logistic, metqbrier.T[0], metqbrier.T[1], bounds=([-np.inf, 0], [0, np.inf]))
 	(array([-7.92206883, 33.48197   ]), array([[ 199420.41507448, -811407.37948018],
 		[-811407.37948018, 3301492.9741521 ]]))
+	>>> pbexpfit_betweenq=spo.curve_fit(shift_exp, pbqbrier.T[0], pbqbrier.T[1], bounds=([-np.inf, 0], [0, 1]))
+	(array([4.77613047e-20]), array([[5.82829061e-18]]))
+	>>> metexpfit_betweenq=spo.curve_fit(shift_exp, metqbrier.T[0], metqbrier.T[1], bounds=([-np.inf, 0], [0, 1]))
+	(array([0.70814538]), array([[0.01386776]]))
 
 But these numbers don't tell us much by themselves, do they become
 clearer when plotted?
@@ -1489,6 +1539,19 @@ functions, and
 	0.07235368359483728
 
 similarly short timespans for the exponential fit.
+
+And, comparing the quality (mean squared error) of the nonlinear fits to
+one another reveals that the two methods are remarkably similar at fitting
+the data (which is not surprising, since they look nearly identical):
+
+	>>> np.mean((shrunk_logistic(pbqbrier.T[0], pblogifit_betweenq[0][0], pblogifit_betweenq[0][1])-pbqbrier.T[1])**2)
+	0.04466653583438647
+	>>> np.mean((shrunk_logistic(metqbrier.T[0], metlogifit_betweenq[0][0], metlogifit_betweenq[0][1])-metqbrier.T[1])**2)
+	0.029639024718816995
+	>>> np.mean((shift_exp(pbqbrier.T[0], pbexpfit_betweenq[0][0])-pbqbrier.T[1])**2)
+	0.0466620438028492
+	>>> np.mean((shift_exp(metqbrier.T[0], metexpfit_betweenq[0][0])-metqbrier.T[1])**2)
+	0.029795384871374987
 
 #### Why Longer Range Questions More Accurate?
 
@@ -1693,7 +1756,7 @@ I am pretty confident that this code *is* correct, but I think that
 the questions with very few prdictions are producing incorrect results,
 especially when the predictions are very close to each other. So let's
 arbitrarily exclude questions with less than ten predictions (actually
-an arbitrary choice I did not iterate over to get a “desired” result):
+an arbitrary choice I did not iterate over to get a "desired" result):
 
 	>>> fwpbqbrier=list(filter(lambda x: len(x[0])>=10, wpbqbrier))
 	>>> len(fwpbqbrier)
@@ -1938,7 +2001,7 @@ This [family of curves](https://en.wikipedia.org/wiki/Family_of_curves) can now 
 
 I personally believe that these plots
 are kind of gorgeous. Interesting are the two
-[“rivers”](https://en.wikipedia.org/wiki/River_\(typography\)) in
+["rivers"](https://en.wikipedia.org/wiki/River_\(typography\)) in
 the Metaculus plots: they indicate that there are some horizons for which
 there are ~0 questions with that horizon. But this is possibly just due
 to a small sample-size & randomness, as they don't really occur in the
@@ -2014,7 +2077,7 @@ questions, scaled logarithmically:
 
 ![Histogram of expected horizons of forecasts on Metaculus & PredictionBook questions](./img/range_and_forecasting_accuracy/exp_horizons.png "Histogram of expected horizons of forecasts on Metaculus & PredictionBook questions: Horizons on the x-axis, ranging from 10⁻² to 10⁷, and number of questions in the bin on the y-axis, from 0 to ~450. For PredictionBook data, large peak at ~10¹ with ~420 (blaze it) questions. Then several bins, all with ~40 questions, to ~10⁴, then declining to ~15 questions per bin. Below 10¹, no strongly discernible pattern, again with ~20 questions per bin. Metaculus data quite similar: ~350 questions on the 10¹ bin, then a “hill” pattern that peaks at 10² and then declines to <10 questions per bin at 10⁴. ~20 questions per bin for horizons <10¹.")
 
-I wonder if the regularity I perceive (the nice declining “hill”-like
+I wonder if the regularity I perceive (the nice declining "hill"-like
 patterns for horizons >10¹) is a spurious artifact, a result of the
 specific method of analysis, or actually inherent in the data. If not,
 it indicates that PredictionBook contains more resolved questions with

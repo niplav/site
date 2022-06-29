@@ -1,17 +1,18 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-01-14, modified: 2022-03-27, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-01-14, modified: 2022-06-28, language: english, status: in progress, importance: 3, confidence: other*
 
 > __The list of 99 problems was original written by Werner Hett for
 > [Prolog](https://sites.google.com/site/prologsite/prolog-problems
 > "Original 99 Problems in Prolog") and has been translated into [a
 > number of languages](./99_problems_collection.html "A Collection of
 > Translations of the 99 Problems") since then. This is a translation for
-> the programming language [Klong](http://t3x.org/klong/index.html "The
-> Website for the Array Programming Language Klong"), inspired mainly by a
-> [Lisp](https://www.ic.unicamp.br/%7Emeidanis/courses/mc336/2006s2/funcional/L-99_Ninety-Nine_Lisp_Problems.html
-> "99 Problems for Lisp") version.__
+> the programming language
+> [Klong](http://t3x.org/klong/index.html "The Website for the Array Programming Language Klong"),
+> inspired mainly by a
+> [Lisp](https://www.ic.unicamp.br/%7Emeidanis/courses/mc336/2006s2/funcional/L-99_Ninety-Nine_Lisp_Problems.html "99 Problems for Lisp")
+> version.__
 
 <!--TODO: ask author about images-->
 

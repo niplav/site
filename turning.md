@@ -36,7 +36,7 @@ are unavailable or incomplete.
 *— Tsong Yueh Chen/Fei-Ching Kuo/Robert G. Merkel/T.H. Tse, [“Adaptive Random Testing: the ART of Test Case Diversity”](./doc/cs/reduction/adaptive_random_testing_chen_et_al_2010.pdf), 2010*
 
 Consider an agent which displays ([von
-Neumman-Morgenstern](https://en.wikipedia.org/wiki/Von_Neumann-Morgenstern_utility_theorem)
+Neumman-Morgenstern](https://en.wikipedia.org/wiki/Von_Neumann-Morgenstern_utility_theorem))
 inconsistent [preferences](https://en.wikipedia.org/wiki/Preference),
 for example choosing two incompatible
 options in the two scenarios in the [Allais
@@ -241,7 +241,7 @@ library turns out to be easy:
 			LG=nx.algorithms.dag.transitive_closure(LG)
 			# Compute the graph edit distance, disabling node insertion/deletion/substition and edge substitution
 			oas=lambda x: 1
-			oah=lambda x: 10e10 # math.inf is not accepted here
+			oah=lambda x: 10e10 # math.inf is not accepted here, TODO make some more specific maximum value
 			nm=lambda x, y: x['ind']==y['ind']
 			em=lambda x, y: True
 			dist=nx.algorithms.similarity.graph_edit_distance(G, LG, node_match=nm, edge_match=em, node_del_cost=oah, node_ins_cost=oah, edge_ins_cost=oas, edge_del_cost=oas)
