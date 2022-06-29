@@ -1026,6 +1026,8 @@ Game. Even those odds likely overstate the number of Players in the world.
 	* Fixing my Posture
 * Lessons in Instrumental Rationality from Approaching 360 Women in the Street
 	* I Solved a Big Problem in My Life: Not Having Sex
+* A Typical Daygame Session
+* A Typical Meditation Session
 
 ### Misc
 

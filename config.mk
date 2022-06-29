@@ -59,6 +59,7 @@ HTML=index.html \
 	music_rec.html \
 	pipe_rings.html \
 	platte.html \
+	precision.html \
 	range_and_forecasting_accuracy.html \
 	rationalist_gods.html \
 	reward.html \
