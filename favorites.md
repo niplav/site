@@ -1,7 +1,7 @@
 [home](./index.html)
 ---------------------
 
-*author: niplav, created: 2022-06-18, modified: 2022-06-23, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2022-06-18, modified: 2022-06-30, language: english, status: draft, importance: 2, confidence: log*
 
 > Idea & format stolen shamelessly from [Gavin
 Leech](https://www.gleech.org/favs/all/).
@@ -68,6 +68,8 @@ final pushes for me to do something in a particular direction):
 * Melatonin:
 	* [Melatonin: Much More Than You Wanted To Know (Scott Alexander, 2018)](https://slatestarcodex.com/2018/07/10/melatonin-much-more-than-you-wanted-to-know/)
 	* [Melatonin (Gwern Branwen, 2019)](https://www.gwern.net/Melatonin)
+* Meditation:
+	* [Investing Time and Resources in Happiness (Andrés Gomez Emilsson, 2019)](https://qualiacomputing.com/2019/04/03/investing-time-and-resources-in-happiness/index.html)
 * Cryonics:
 	* [You Only Live Twice (Eliezer Yudkowsky, 2008)](https://www.lesswrong.com/posts/yKXKcyoBzWtECzXrE/you-only-live-twice)
 	* [Why Cryonics Makes Sense (Tim Urban, 2016)](https://waitbutwhy.com/2016/03/cryonics.html)

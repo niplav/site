@@ -676,7 +676,7 @@ error in numpy‽-->
 The Brier score is quite easy to implement:
 
 	def brier(x, y):
-		return np.mean((x-y)* *2)
+		return np.mean((x-y)**2)
 
 The first thing we can now do is to compare the forecasts from the
 two websites, and it turns out that Metaculus forecasts are slightly
@@ -925,7 +925,7 @@ which is the case.
 In python, this is simply
 
 	def shift_exp(x, b):
-		return ((b* *x)-1)/(-4)
+		return ((b**x)-1)/(-4)
 
 We can now fit that kind of curve to the data:
 
@@ -2075,17 +2075,17 @@ questions, scaled logarithmically:
 
 	plt.savefig("exp_horizons.png")
 
-![Histogram of expected horizons of forecasts on Metaculus & PredictionBook questions](./img/range_and_forecasting_accuracy/exp_horizons.png "Histogram of expected horizons of forecasts on Metaculus & PredictionBook questions: Horizons on the x-axis, ranging from 10⁻² to 10⁷, and number of questions in the bin on the y-axis, from 0 to ~450. For PredictionBook data, large peak at ~10¹ with ~420 (blaze it) questions. Then several bins, all with ~40 questions, to ~10⁴, then declining to ~15 questions per bin. Below 10¹, no strongly discernible pattern, again with ~20 questions per bin. Metaculus data quite similar: ~350 questions on the 10¹ bin, then a “hill” pattern that peaks at 10² and then declines to <10 questions per bin at 10⁴. ~20 questions per bin for horizons <10¹.")
+![Histogram of expected horizons of forecasts on Metaculus & PredictionBook questions](./img/range_and_forecasting_accuracy/exp_horizons.png "Histogram of expected horizons of forecasts on Metaculus & PredictionBook questions: Horizons on the x-axis, ranging from 10⁻² to 10⁷, and number of questions in the bin on the y-axis, from 0 to ~450. For PredictionBook data, large peak at ~10 with ~420 (blaze it) questions. Then several bins, all with ~40 questions, to ~10⁴, then declining to ~15 questions per bin. Below 10, no strongly discernible pattern, again with ~20 questions per bin. Metaculus data quite similar: ~350 questions on the 10 bin, then a “hill” pattern that peaks at 10² and then declines to <10 questions per bin at 10⁴. ~20 questions per bin for horizons <10.")
 
 I wonder if the regularity I perceive (the nice declining "hill"-like
-patterns for horizons >10¹) is a spurious artifact, a result of the
+patterns for horizons >10) is a spurious artifact, a result of the
 specific method of analysis, or actually inherent in the data. If not,
 it indicates that PredictionBook contains more resolved questions with
 longer expected horizons (checks out: questions with longer ranges
 can be expected to have longer horizons, and PredictionBook has more &
 older resolved questions than Metaculus).
 
-Also, again, most questions have ranges ~10¹ (probably the 4.64 value
+Also, again, most questions have ranges ~10 (probably the 4.64 value
 from above), which is likely due to them becoming more accurate at higher
 ranges (discussed [here](#Why-Assume-Accuracy-will-Increase)).
 

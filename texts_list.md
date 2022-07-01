@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-06-24, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-07-01, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,19 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [How I started learning the game and seduction (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/03/04/how-i-started-learning-the-game-and-seduction/index.html)
+* [Home Friend is stepping up? [FR] (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/03/27/home-friend-is-stepping-up-fr/index.html)
+* [High Performance Psychology (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/03/28/high-performance-psychology/index.html)
+* Garbage post about ranking chicks (TheRedQuest, 2022)
+* [What graceful femininity looks like and sounds like (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/08/23/what-graceful-femininity-looks-like-and-sounds-like/index.html)
+* [Looking back on my alignment PhD (TurnTrout, 2022)](https://www.lesswrong.com/posts/2GxhAyn9aHqukap2S/looking-back-on-my-alignment-phd)
+* [Digital Computers Will Remain Unconscious Until They Recruit Physical Fields for Holistic Computing Using Well-Defined Topological Boundaries (Andrés Gomez Emilsson, 2022)](https://qualiacomputing.com/2022/06/19/digital-computers-will-remain-unconscious-until-they-recruit-physical-fields-for-holistic-computing-using-well-defined-topological-boundaries/)
+* [Asteroid mining (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Asteroid_mining)
+* [The Algernon Argument (Gwern Branwen, 2018)](https://www.gwern.net/Drug-heuristics)
+* [Precision bias (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Precision_bias)
+* [False precision (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/False_precision)
+* [brief history (Gavin Leech, 2022)](https://www.gleech.org/benchmarks)
+* [prospective nostalgia (Gavin Leech, 2022)](https://www.gleech.org/nownost)
 * [Where I agree and disagree with Eliezer (Paul Christiano, 2022)](https://www.lesswrong.com/posts/CoZhXrhpQxpy9xw9y/where-i-agree-and-disagree-with-eliezer)
 * [What comes after we recognize a dead, boomer ideology? (TheRedQuest, 2022)](https://theredquest.wordpress.com/2022/06/19/what-comes-after-we-recognize-a-dead-boomer-ideology/)
 * [Why You Should Start a Blog Right Now (Alexey Guzey, 2021)](https://guzey.com/personal/why-have-a-blog.html)
