@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-06-10, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-06-30, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -703,6 +703,13 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Use:
 		* CFAR handbook
 		* Lesswrong post about anti-procrastination techniques
+* Relation between
+	* Exercise
+	* Daygame
+	* Meditation
+	* Flashcards
+	* Happiness
+	* Masturbation
 
 ### Ideas
 
@@ -1229,6 +1236,9 @@ Collect data on
 		* Others?
 * Large STEM Dataset
 	* For training large ML models that are less likely to be [human models](https://www.lesswrong.com/posts/BKjJJH2cRpJcAnP7T)
+* Find easy ways to track
+	* Sleep
+	* Computer usage
 
 Flashcards
 -----------
@@ -1694,6 +1704,17 @@ Wikipedia Articles
 * On Wikipedia page for Graph Kernel, correct "Leman" to "Lehman" (first, check whether this is actually wrong).
 * Find Ian Goodfellow's true year of birth
 * Add missing national anthems to `https://en.wikipedia.org/wiki/List_of_national_anthems`
+* On Asteroid Mining
+	* "pentacarbonyl - then" replace with "—"
+
+Sequences
+----------
+
+* LessWrong
+	* Value Interpolation and Extrapolation
+	* Much More Than You Wanted To Know
+* EA Forum
+	* Cause Area Investigations
 
 Answers
 --------

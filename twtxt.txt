@@ -1363,3 +1363,5 @@
 2022-06-27T09:22:40.000000Z	pandas makes my RAM usage jump like a cardiogram
 2022-06-27T21:05:27.000000Z	if anything indicates anything, the french are now to be feared.
 2022-06-28T21:03:50.000000Z	lojban rap, microtonal giantstepscore, taxxonpop
+2022-06-30T20:36:38.000000Z	there's a lot of alpha left in high-weirdness mental wellbeing interventions
+2022-07-01T08:24:59.000000Z	maybe for most people social media isn't an epistemic hazard, but “just” an attention hazard?
