@@ -33,7 +33,7 @@ If I find time inbetween that, I'm expanding on the following texts:
 	* [Pickup Reports](./pickup_reports.html)
 * Forecasting
 	* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
-	* [Finesse of Sets of Forecasts](./finesse.html)
+	* [Precision of Sets of Forecasts](./precision.html)
 	* [Forecasters! What Do They Know? Do They Know Things?? Let's Find Out!](./forecasters.html)
 * [Prepare to Leave the Internet](./leave.html)
 * [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)

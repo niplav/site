@@ -19,10 +19,10 @@ intransitive.png: intransitive.dot
 unbalanced_cycle.png: unbalanced_cycle.dot
 	dot -Tpng $< >$@
 
-resubc_hyp.png: resubc_hyp.dot
+turnubc_hyp.png: turnubc_hyp.dot
 	dot -Tpng $< >$@
 
-resubc_hyp_trans.png: resubc_hyp_trans.dot
+turnubc_hyp_trans.png: turnubc_hyp_trans.dot
 	dot -Tpng $< >$@
 
 se_comp.png: se.png ser_1.png ser_2.png

@@ -31,7 +31,6 @@ Writing
 
 #### AI Alignment and Strategy
 
-* [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html)
 * [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.html)
 
@@ -52,6 +51,7 @@ Writing
 
 #### Philosophy
 
+* [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 * [Compliments as Utilitarian Praxis](./utilitarian_compliments.html)
 * [Using Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./consciousness_diagram.html)
 
