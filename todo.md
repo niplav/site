@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-06-30, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-07-06, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -314,6 +314,7 @@ Texts
 		* Large amounts of compute generate CO₂ (or, in the case of using green energy, counterfactually increase the price of green energy, leading to people (in expectation) purchasing more non-green energy)
 * Scaling Laws Under Different Activation Functions
 	* What are the scaling laws for ReLUs vs. sigmoids?
+	* Another datapoint on slow/fast takeoff
 
 ### Pick Up
 
@@ -402,6 +403,28 @@ Texts
 	* Chanting?
 	* Visualization?
 	* Yogic stuff? (Mudra)
+
+### Quantified Self
+
+* Are better-looking women more rude during daygame approaches?
+* Are better-looking women less likely to give contact info during daygame?
+* Does exercise improve daygame success?
+* How much does vibe improve daygame performance?
+	* I.e., how much does the density of approaches in the past affect the likelihood of daygame success?
+* Does exercise affect spaced repetition ability?
+* Does masturbation affect spaced repetition ability?
+	* Daygame success?
+* Does meditation affect my happiness?
+* Does abstinence from masturbation improve meditation?
+* Do blood donations reduce my cognitive function?
+* Diet Coke self experiment
+	* [https://dynomight.net/diet-coke-nootropic]
+* Erectile dysfunction medication QS
+	* Other purported aphrodisiacs?
+* Does asking for affirmative consent turn women off?
+* In the mood scales, bored — interested stands for chaste — horny
+* What is the effect of fasting on my, well, everything?
+	* Especially meditation though
 
 ### Arguments
 
@@ -710,6 +733,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Flashcards
 	* Happiness
 	* Masturbation
+	* Substances
 
 ### Ideas
 
@@ -1239,6 +1263,9 @@ Collect data on
 * Find easy ways to track
 	* Sleep
 	* Computer usage
+		* Fix awitt
+	* Productivity
+	* Personal forecast accuracy?
 
 Flashcards
 -----------

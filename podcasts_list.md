@@ -10,6 +10,7 @@ List of Podcasts I Listen To
 
 I try to listen to all episodes available to the public.
 
+* [0intro](https://0intro.dev/)
 * [80000 After Hours](https://80000hours.org/after-hours-podcast/)
 * [80000 Hours Podcast](https://80000hours.org/podcast/)
 * [Alignment Newsletter Podcast](https://alignment-newsletter.libsyn.com/)
