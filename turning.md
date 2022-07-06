@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-03-04, modified: 2022-06-06, language: english, status: notes, importance: 8, confidence: unlikely*
+*author: niplav, created: 2022-03-04, modified: 2022-07-05, language: english, status: notes, importance: 8, confidence: unlikely*
 
 > __Representing inconsistent preferences with specific mathematical
 structures can clarify thoughts about how to make those preferences
@@ -73,14 +73,21 @@ preference relation with indifference over all options).
 
 Formally, we want to find for some given [distance
 metric](https://en.wikipedia.org/wiki/Metric_\(mathematics\))
-`$d: \not \curlyvee_W \times \curlyvee_W \mapsto ℝ$`:
+`$d: \not \curlyvee_W \times \curlyvee_W \mapsto ℝ$` a function
+`$t$` so that
 
 <div>
-	$$f= \underset{f}{\text{argmin }} d(\succsim, f(\succsim)) \\
-	\succeq=f(\succsim)$$
+	$$t= \underset{t}{\text{argmin }} d(\succsim, t(\succsim)) \\
+	\succeq=t(\succsim)$$
 </div>
 
-A solution to the problem of turning inconsistent preferences into consistent ones then has these components:
+I call this function a __turning__, and sometimes call the results of
+that function __turned preferences__ (usually I just refer to them as
+consistent preferences). The names mostly chosen for not having been
+used yet in mathematics, as far as I know.
+
+A solution to the problem of turning inconsistent preferences into
+consistent ones then has these components:
 
 1. A mathematical structure for representing `$\not \curlyvee_W$` and `$\curlyvee_W$`
 	* Inconsistent preferences over discrete options are represented via [directed graphs](https://en.wikipedia.org/wiki/Directed_graph)
@@ -89,7 +96,7 @@ A solution to the problem of turning inconsistent preferences into consistent on
 			* potentially more exotic structures such as [graphons](https://en.wikipedia.org/wiki/Graphon) or results from [extremal graph theory](https://en.wikipedia.org/wiki/Extremal_graph_theory) are relevant here, but I haven't investigated these in detail
 		* vector fields on probability simplices
 		* [graphs with edge weights](https://en.wikipedia.org/wiki/Graph_\(discrete_mathematics\)#Weighted_graph) in `$ℝ$`
-2. A specification for `$f$`
+2. A specification for `$t$`
 	* In the case of discrete options, I propose adding and removing edges from the directed graph
 	* In the case of lotteries I don't have yet any clear proposals
 3. A specification for `$d$`
@@ -155,17 +162,17 @@ It violates the two von Neumann-Morgenstern axioms for discrete options:
 -----
 -->
 
-A possible resolved version of these preferences could then be the
+A possible turned version of these preferences could then be the
 following graph:
 
-![A messy graph.](./img/turning/resubc_hyp_trans.png "A messy graph. Vertices {a, b, c, d, e, f, g, h}. Edges are the transitive closure over the complete order a → b → c → d → e → f → g.")
+![A messy graph.](./img/turning/turnubc_hyp_trans.png "A messy graph. Vertices {a, b, c, d, e, f, g, h}. Edges are the transitive closure over the complete order a → b → c → d → e → f → g.")
 
 This graph looks quite messy, but it's really just the [transitive
 closure](https://en.wikipedia.org/wiki/transitive_closure) of this graph:
 
-![A path graph.](./img/turning/resubc_hyp.png "A path graph. Vertices again {a, b, c, d, e, f, g, h}. Edges are a → b → c → d → e → f → g.")
+![A path graph.](./img/turning/turnubc_hyp.png "A path graph. Vertices again {a, b, c, d, e, f, g, h}. Edges are a → b → c → d → e → f → g.")
 
-Whether this is the "right" way to resolve the previous inconsistent
+Whether this is the "right" way to turn the previous inconsistent
 preferences depends on the choice of distance metric we would like to use.
 
 ### Resolving Inconsistencies
@@ -199,7 +206,7 @@ edit distance that uses edge insertion and edge deletion.
 We can then write a simple algorithm for
 `$\succeq=f(\succsim)$`:
 
-	res(W, G≿=(W, E≿)):
+	turn(W, G≿=(W, E≿)):
 		mindist=∞
 		for L in perm(W):
 			L=trans_closure(L)
@@ -229,7 +236,7 @@ library turns out to be easy:
 	import networkx as nx
 	import itertools as it
 
-	def res(W, G):
+	def turn(W, G):
 		mindist=math.inf
 		for L in it.permutations(W):
 			L=list(L)
@@ -253,7 +260,7 @@ library turns out to be easy:
 We can then test the function, first with a graph with a known best
 completion, and then with our [example from above](#Example).
 
-The small example graph (top left) and its possible resolutions are
+The small example graph (top left) and its possible turnings are
 (all others):
 
 ![A small example](./img/turning/se_comp.png "Four graphs, side-by side. Top left is a → b, c, top right is a → b → c, a → c, bottom left is a → c → b, a → b, bottom right is c → a → b, c → b.")
@@ -263,7 +270,7 @@ The small example graph (top left) and its possible resolutions are
 	>>> for i in range(0, len(WS)):
 	...     GS.add_node(WS[i], ind=i)
 	>>> GS.add_edges_from([('a', 'b')])
-	>>> LGS=res(WS, GS)
+	>>> LGS=turn(WS, GS)
 	>>> LGS.nodes
 	NodeView(('a', 'b', 'c'))
 	>>> LGS.edges
@@ -276,7 +283,7 @@ This looks pretty much correct.
 	>>> for i in range(0, len(WM)):
 	...     GM.add_node(WM[i], ind=i)
 	>>> GM.add_edges_from([('a', 'b'), ('b', 'c'), ('c', 'd'), ('c', 'e'), ('e', 'f'), ('f', 'g'), ('g', 'b')])
-	>>> LGM=res(WM, GM)
+	>>> LGM=turn(WM, GM)
 	>>> LGM.nodes
 	NodeView(('a', 'b', 'c', 'd', 'e', 'f', 'g'))
 	>>> LGM.edges
@@ -285,11 +292,11 @@ This looks pretty much correct.
 This is actually equal to the hypothesized solution from above (below
 is the non-transitive-closure version):
 
-![A path graph.](./img/turning/resubc_hyp.png "A path graph. Vertices again {a, b, c, d, e, f, g, h}. Edges are a → b → c → d → e → f → g.")
+![A path graph.](./img/turning/turnubc_hyp.png "A path graph. Vertices again {a, b, c, d, e, f, g, h}. Edges are a → b → c → d → e → f → g.")
 
 ##### Questions
 
-* Does it matter whether we give `res` a graph `$G$` or the transitive closure of `$G$`?
+* Does it matter whether we give `turn` a graph `$G$` or the transitive closure of `$G$`?
 
 #### Problems with This Method and its Algorithm
 
@@ -308,17 +315,17 @@ graph edit distance inside of the loop, which is also
 
 <!--TODO: measure runtime-->
 
-* Question: Is there a more efficient algorithm to compute the resolved preference? Can it at least be made exponential?
+* Question: Is there a more efficient algorithm to compute the turned preference? Can it at least be made exponential?
 
 ##### Non-Unique Results
 
 Another, smaller problem is that the algorithm often doesn't have a unique
 result, as seen in the small example [above](#Resolving-Inconsistencies).
 
-We can compute the set of all possible resolutions with some trivial
+We can compute the set of all possible turnings with some trivial
 changes to the algorithm:
 
-	res_all(W, G≿=(W, E≿)):
+	turn_all(W, G≿=(W, E≿)):
 		mindist=∞
 		R=∅
 		[…]
@@ -331,7 +338,7 @@ changes to the algorithm:
 
 and its implementation
 
-	def res_all(W, G):
+	def turn_all(W, G):
 		R=set()
 		[…]
 			if dist<mindist:
@@ -343,7 +350,7 @@ and its implementation
 
 The results, with the small example, are as expected:
 
-	>>> S=list(res_all(WS, GS))
+	>>> S=list(turn_all(WS, GS))
 	>>> len(S)
 	3
 	>>> S[0].edges
@@ -357,7 +364,7 @@ The results, with the small example, are as expected:
 
 For the big example, after waiting a while for the solution:
 
-	>>> S=list(res_all(WM, GM))
+	>>> S=list(turn_all(WM, GM))
 	>>> len(S)
 	49
 
@@ -367,13 +374,13 @@ possible options.
 This brings up an interesting question: As we have more and more
 elaborate inconsistent preferences with more elements, does it
 become more likely that they have a unique consistent preference
-they can be resolved to? Or, in other words, if we make the graphs
+they can be turned to? Or, in other words, if we make the graphs
 bigger and bigger, can we expect the fraction of inconsistent
-preferences with a unique resolution to grow (strictly)
+preferences with a unique turning to grow (strictly)
 [monotonically](https://en.wikipedia.org/wiki/Monotonic_function)?
 
 More formally, if we define `$\mathcal{G}$` as the set of graphs
-with `$n$` nodes, and `$\mathcal{U}_n=\{G \in \mathcal{G}_n | 1=|\text{res_all}(G)|\}$`
+with `$n$` nodes, and `$\mathcal{U}_n=\{G \in \mathcal{G}_n | 1=|\text{turn_all}(G)|\}$`
 as the set of graphs with `$n$` nodes that
 have unique path graphs associated with them.
 
@@ -383,16 +390,30 @@ have unique path graphs associated with them.
 
 One can now pose several (possibly distracting) questions:
 
-* As we add more options to our inconsistent preferences, do they become more likely to resolve uniquely?
+* As we add more options to our inconsistent preferences, do they become more likely to turn uninuely?
 	* That is: Does it hold that `$\frac{|\mathcal{U}_n|}{|\mathcal{G}_n|}<\frac{|\mathcal{U}_{n+1}|}{|\mathcal{G}_{n+1}|}$`?
 	* It should be possible to check this for small cases.
-* In general, how does the size of `$\mathcal{U}_n$` develop? What about graphs with 2 possible consistent resolutions, or in general `$m$`?
-	* One can define `$\mathcal{T}(n,m)=\{G \in \mathcal{G}_n | m=|\text{res_all}(G)|\}$`
+* In general, how does the size of `$\mathcal{U}_n$` develop? What about graphs with 2 possible consistent turnings, or in general `$m$`?
+	* One can define `$\mathcal{T}(n,m)=\{G \in \mathcal{G}_n | m=|\text{turn_all}(G)|\}$`
 		* How, then, does `$\mathcal{T}(n,m)$` behave?
-		* Does the average number of resolutions for inconsistent preferences converge to a specific number?
+		* Does the average number of turnings for inconsistent preferences converge to a specific number?
 		* That is, what is `$\lim_{n \rightarrow \infty} \frac{1}{\mathcal{G}_n} \sum_{i=1}^{n} \mathcal{T}(n,i)$`? Does it converge?
 
-### Encoding Inconsistencies
+Encoding Inconsistencies
+------------------------
+
+### Theory
+
+Assuming that we have a set of axioms that describe which preferences
+are consistent and which are inconsistent, for the purposes of this
+text, we want to ideally find a set `$\not \curlyvee$` of mathematical
+structures that
+
+1. can represent preferences that violate each possible subset of those axioms.
+	1. Each inconsistent preference should have exactly one element of `$\not \curlyvee$` that represents it
+2. has a strict subset `$\curlyvee \subset \not \curlyvee$` so that `$\curlyvee$` can represent only consistent preferences.
+
+### Discrete Case
 
 The two relevant von Neumman-Morgenstern axioms are completeness and
 transitivity, with a directed graph one can also represent incompleteness
@@ -418,6 +439,24 @@ With option set `$\{a,b\}$` have preference `$a \succsim b$`, with
 option set `$\{a,b,c\}$` have preferences
 `$b \succsim a, a \succsim c, b \succsim c$`.
 
+### Continuous Case
+
+#### Incompleteness
+
+* Minima/maxima in the vector field
+* Discontinuities
+* Undifferentiable points
+
+#### Intransitivity
+
+Curl in the vector field?
+
+#### Discontinuity
+
+Can only exist with incompleteness?
+
+#### Dependence
+
 ### Discussion
 
 This leads to an interesting ethical consideration: is it a larger change
@@ -433,24 +472,6 @@ Continuous Case
 
 Vector field over the probability simplex over the options (representing
 local preferences over lotteries).
-
-#### Encoding Inconsistencies
-
-##### Incompleteness
-
-* Minima/maxima in the vector field
-* Discontinuities
-* Undifferentiable points
-
-##### Intransitivity
-
-Curl in the vector field?
-
-##### Discontinuities
-
-Can only exist with incompleteness?
-
-##### Dependence of Irrelevant Alternatives
 
 #### Resolving Inconsistencies
 
@@ -500,7 +521,7 @@ to the AI simplex?
 #### Discrete Case
 
 A node splits in two or more, or two or more nodes get merged. If the
-then resulting graph isn't a path graph, it can be resolved with the
+then resulting graph isn't a path graph, it can be turned with the
 method described above.
 
 Further Questions

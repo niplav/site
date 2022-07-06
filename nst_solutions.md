@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2022-04-11, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2022-07-05, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -1169,3 +1169,44 @@ Section 14
 Totality: `$R \cup R^{-1}=X \times X$`
 
 Antisymmetry: `$R \cap R^{-1}=\{(x,x)| x \in X\}$`
+
+### Stray Exercise 1
+
+> A set `$E$` may have no lower bounds or upper bounds at all, or it may
+have many; in the latter case it could happen that none of them belongs to
+`$E$`. (Examples?)
+
+Example for set without lower & upper bounds is `$X=∅$` (where always
+`$E=∅$`), if `$X=\{a,b,c,d\}$` and the partial order on `$X$` is
+`$a<b<d$` and `$a<c<d$` and `$E=\{d\}$` then the lower bounds are
+`$\{a,b,c\}$`, if `$E=∅$`, then every element of `$X$` is a lower
+bound of `$E$` (since the empty all-quantification is true), but none
+of them are in `$E$`.
+
+Section 15
+-----------
+
+### Stray Exercise 1
+
+To be proven: The Cartesian product of a finite family of sets
+`$\{X_i\}$`, at least one of which is empty, is necessarily and
+sufficiently also empty.
+
+Base case: As suggested by the book, I start the induction at 1: In
+this case `$\{X_i\}=\{\{\}\}$`, the set containing the empty set. The
+Cartesian product of `$\{\}$` with no other set is also the empty set.
+
+Induction assumption: If `$\{X_i\}$` is a family of sets with `$n$`
+elements, at least one of which is empty, then
+`$X_1 \times X_2 \times \dots \times X_n=\emptyset$`.
+
+Induction step: If `$\{X_i\}$` is a family of sets with `$n+1$` elements,
+at least one of which is the empty set, then either `$X_{n+1}$` is the
+empty set, or the empty set is is the first `$n$` elements.
+
+Let `$X_{\star}=X_1 \times X_2 \times \dots \times X_n$`.
+Then in the former case we know that
+`$X_{\star} \times X_{n+1}=X_{\star} \times \emptyset=\emptyset$`
+(as per the text). In the latter case we know that
+`$X_{\star} \times X_{n+1}=\emptyset \times X_{n+1}=\emptyset$`,
+so in both cases we get the empty set as a result.

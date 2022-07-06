@@ -1365,3 +1365,8 @@
 2022-06-28T21:03:50.000000Z	lojban rap, microtonal giantstepscore, taxxonpop
 2022-06-30T20:36:38.000000Z	there's a lot of alpha left in high-weirdness mental wellbeing interventions
 2022-07-01T08:24:59.000000Z	maybe for most people social media isn't an epistemic hazard, but “just” an attention hazard?
+2022-07-01T23:12:31.000000Z	the EA community is grabbing existential risk by the black balls
+2022-07-02T20:24:28.000000Z	i find the removal of the “master/slave” thing in computer protocols to be kinkshaming
+2022-07-02T21:54:16.000000Z	GPT-Alyx (Codebase: 96% Idris)
+2022-07-04T06:36:28.000000Z	oh yeah I *love* software that just dumps giant amounts of data into my home directory without giving me any option of changing where it dumps the data
+2022-07-04T23:31:43.000000Z	i'm now pretty sure the urbit whitepaper is impossible to parody.

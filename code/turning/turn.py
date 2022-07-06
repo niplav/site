@@ -2,7 +2,7 @@ import math
 import networkx as nx
 import itertools as it
 
-def res(W, G):
+def turn(W, G):
 	mindist=math.inf
 	for L in it.permutations(W):
 		L=list(L)
@@ -27,7 +27,7 @@ def res(W, G):
 			mindist=dist
 	return R
 
-def res_all(W, G):
+def turn_all(W, G):
 	R=set()
 	mindist=math.inf
 	for L in it.permutations(W):
