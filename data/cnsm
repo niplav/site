@@ -1,0 +1,17 @@
+#!/usr/bin/env rc
+
+echo -n 'datetime (ISO-8601): '
+datetime=`{read}
+if(~ $datetime '') {
+	datetime=`{date --iso-8601'=seconds'}
+}
+echo -n 'substance: '
+substance=`{read}
+echo -n 'amount: '
+amount=`{read}
+echo -n 'id: '
+id=`{read}
+echo -n 'substance prediction: '
+prediction=`{read}
+
+printf '%s,%s,%s,%s,%s\n' $datetime $substance $amount $id $prediction >>substances.csv
