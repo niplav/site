@@ -38,6 +38,7 @@ HTML=index.html \
 	consciousness_diagram.html \
 	considerations_on_cryonics.html \
 	cryonics_outside_us.html \
+	data.html \
 	daygame_cost_benefit.html \
 	declaration.html \
 	diamond.html \

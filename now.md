@@ -64,4 +64,5 @@ Currently, I am actively reading the following books:
 * Darf man Tiere essen? (Plutarch, 100)
 * Die toten Seelen (Nikolai Gogol, 1842)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
+* Naive Set Theory (Paul R. Halmos, 1960)
 * Superforecasting: The Art and Science of Prediction (Philip E. Tetlock/Dan Gardner, 2015)

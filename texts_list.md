@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-07-01, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-07-08, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [* The Pointers Problem: Human Values Are A Function Of Human's Latent Variables (johnswentworth, 2020)](https://www.lesswrong.com/posts/gQY6LrTWJNkTv8YJR/the-pointers-problem-human-values-are-a-function-of-humans)
+* Sedna (mythology) (English Wikipedia, 2021)
+* [Variables Don't Represent The Physical World (And That's OK) (johnswentworth, 2021)](https://www.lesswrong.com/posts/QaxMwZfMpMYGDeGvX/variables-don-t-represent-the-physical-world-and-that-s-ok)
+* [Magnesium Self-Experiments (Gwern Branwen, 2020)](https://www.gwern.net/nootropics/Magnesium)
 * [How I started learning the game and seduction (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/03/04/how-i-started-learning-the-game-and-seduction/index.html)
 * [Home Friend is stepping up? [FR] (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/03/27/home-friend-is-stepping-up-fr/index.html)
 * [High Performance Psychology (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/03/28/high-performance-psychology/index.html)
@@ -2576,7 +2580,7 @@ ind.com/blog/we-are-very-excited-to-announce-the-launch-of-deepmind-health)
 * [Die Eichbäume (Friedrich Hölderlin, 1797)](https://de.wikipedia.org/wiki/Die_Eichb%C3%A4ume_\(H%C3%B6lderlin\)#Text)
 * [Das Schicksal (Friedrich Hölderlin, 1793)](https://www.textlog.de/17770.html)
 * The Elephant in the Brain (Kevin Simler/Robin Hanson, 2018)
-* |54 Naive Set Theory (Paul R. Halmos, 1960)
+* \* Naive Set Theory (Paul R. Halmos, 1960)
 * Superintelligence (Nick Bostrom, 2014)
 * [To Wash It All Away (James Mickens, 2014)](https://www.usenix.org/system/files/1403_02-08_mickens.pdf)
 * [The Saddest Moment (James Mickens, 2013)](https://www.usenix.org/system/files/login-logout_1305_mickens.pdf)
