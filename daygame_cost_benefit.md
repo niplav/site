@@ -1074,6 +1074,8 @@ Appendix B: A Slightly More Complex Guesstimate Model of the Value
 Appendix C: Empirically Checking the Assumptions
 ------------------------------------------------
 
+TODO: move these to data.md
+
 Log:
 
 2 datasets, first containing approaches, 2nd containing approach sessions
