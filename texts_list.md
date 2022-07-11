@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-07-08, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-07-11, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,7 +17,36 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
-* [* The Pointers Problem: Human Values Are A Function Of Human's Latent Variables (johnswentworth, 2020)](https://www.lesswrong.com/posts/gQY6LrTWJNkTv8YJR/the-pointers-problem-human-values-are-a-function-of-humans)
+* [Alignment By Default (johnswentworth, 2020)](https://www.lesswrong.com/posts/Nwgdq6kHke5LY692J/alignment-by-default)
+* ["Neither as Plea nor as Despair" (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Sep/neither-as-plea-nor-as-despair/index.html)
+* [The Nadir of Reading Comprehension (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Sep/the-nadir-of-reading-comprehension/index.html)
+* [Interlude VIII (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Sep/interlude-viii/index.html)
+* [What's My Motivation? Or, Hormones Day 89 (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Jul/whats-my-motivation-or-hormones-day-89/index.html)
+* [Interlude VI (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Jul/interlude-vi/index.html)
+* [Interlude V (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Jun/interlude-v/index.html)
+* [Questions Such as, What's Wrong With You People? (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Jun/questions-such-as-wtf-is-wrong-with-you-people/index.html)
+* [Interlude IV (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/May/interlude-iv/index.html)
+* [Interlude III (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/May/interlude-iii/index.html)
+* [Thing of Things Transgender Intellectual Turing Test Predictions and Commentary (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Mar/thing-of-things-transgender-intellectual-turing-test-predictions-and-commentary/index.html)
+* [Nothing New Under the Sun (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Mar/nothing-new-under-the-sun/index.html)
+* ["Synthesis" (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Mar/synthesis/index.html)
+* [Cachebusters (Mark Taylor Saotome-Westlake, 2017)](https:///unremediatedgender.space/2017/Mar/cachebusters/index.html)
+* [Interlude II (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Mar/interlude-ii/index.html)
+* [Interlude I (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Mar/interlude-i/index.html)
+* [If Other Fantasies Were Treated Like Crossdreaming (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Feb/if-other-fantasies-were-treated-like-crossdreaming/index.html)
+* [Fashion-Forward (Mark Taylor Saotome-Westlake, 2016)](https://unremediatedgender.space/2016/Oct/fashion-forward/index.html)
+* [New Clothes (Mark Taylor Saotome-Westlake, 2016)](https://unremediatedgender.space/2016/Nov/new-clothes/index.html)
+* [Will faster economic growth make us happier? The relevance of the Easterlin Paradox to Progress Studies (Michael Plant, 2022)](https://forum.effectivealtruism.org/posts/gCDsAj3K5gcZvGgbg/will-faster-economic-growth-make-us-happier-the-relevance-of)
+* [The Counter (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Jan/the-counter/index.html)
+* [You Probably Haven't Heard of Them (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Jan/you-probably-havent-heard-of-them/index.html)
+* [Visibility (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Mar/visibility/index.html)
+* [Estranged Family (Mark Taylor Saotome-Westlake, 2016)](https://unremediatedgender.space/2016/Nov/estranged-family/index.html)
+* [The Line in the Sand; Or, My Slippery Slope Anchoring Action Plan (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Jan/the-line-in-the-sand-or-my-slippery-slope-anchoring-action-plan/index.html)
+* [Interlude VII (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Aug/interlude-vii/index.html)
+* [Exactly What It Says on the Tin (Mark Taylor Saotome-Westlake, 2016)](https://unremediatedgender.space/2016/Oct/exactly-what-it-says-on-the-tin/index.html)
+* [From What I've Tasted of Desire (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Jan/from-what-ive-tasted-of-desire/index.html)
+* [Sexual Dimorphism in Yudkowsky's Sequences, in Relation to My Gender Problems (Mark Taylor Saotome-Westlake, 2021)](https://unremediatedgender.space/2021/May/sexual-dimorphism-in-the-sequences-in-relation-to-my-gender-problems/index.html)
+* [The Pointers Problem: Human Values Are A Function Of Human's Latent Variables (johnswentworth, 2020)](https://www.lesswrong.com/posts/gQY6LrTWJNkTv8YJR/the-pointers-problem-human-values-are-a-function-of-humans)
 * Sedna (mythology) (English Wikipedia, 2021)
 * [Variables Don't Represent The Physical World (And That's OK) (johnswentworth, 2021)](https://www.lesswrong.com/posts/QaxMwZfMpMYGDeGvX/variables-don-t-represent-the-physical-world-and-that-s-ok)
 * [Magnesium Self-Experiments (Gwern Branwen, 2020)](https://www.gwern.net/nootropics/Magnesium)
