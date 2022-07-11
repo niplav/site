@@ -33,14 +33,7 @@ I try to listen to all episodes available to the public.
 Whining
 --------
 
-Side-note: Why would anyone want to name their podcast "The X Podcast
-with Gleeroy Finkelberg", if not for self-aggrandisement? Shouldn't
-the name of the podcast be sufficient to be a brand in
-itself? Or is it that many people really build a [parasocial
-relationship](https://en.wikipedia.org/wiki/Parasocial_interaction)
-with the podcast host, and the naming encourages that?
-
-Also frustrating: inconsistent (or missing) numbering of podcast episodes
+Frustrating: inconsistent (or missing) numbering of podcast episodes
 ([Zero Squared](https://dietsoap.podomatic.com/), starting off as a
 separate podcast called "Diet Soap", being an especially egregious
 example of this: early episodes missing from the feed (?), switching
@@ -55,9 +48,9 @@ Books Special" episodes, calling itself at times "Zero Books Podcast" or
 "Zero Squared" or "Zero Podcast" (okay, fine, `$0^2=0$`, but still…),
 and finally renaming itself back to "Diet Soap" after over 10 years!).
 
-So if I say I have listened to all publically available episodes of Zero
-Squared, that is a very qualified statement (if someone has episodes
-1–3, 5, 7–8, 10–11, 13–24, 26, 32–33, 36–40, 42–43, 51–53,
-183, 185, 187, 189–190, 192, 194, 196, 198, 200, 203, 205, 208, 210,
-212, 215, 223, 228–229, 258, I'd be happy to pay half a dollar per
-episode, just to silence my inner completionist).
+I have listened to all publically available episodes of Zero Squared,
+that is a very qualified statement (if someone has episodes 1–3, 5,
+7–8, 10–11, 13–24, 26, 32–33, 36–40, 42–43, 51–53, 183,
+185, 187, 189–190, 192, 194, 196, 198, 200, 203, 205, 208, 210, 212,
+215, 223, 228–229, 258, I'd be happy to pay half a dollar per episode,
+just to silence my inner completionist).

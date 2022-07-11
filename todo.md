@@ -525,6 +525,7 @@ Texts
 	* Distinction between removing negatives/adding positives in method and in topic selection ("How can I solve this thing?" versus "What should I focus on?") (see negative versus positive utilitarianism)
 	* See also upwing versus downwing (hat-tip John David Pressman)
 * Why Not Prepping?
+* Given No Singularity, Soon Mars Colonization is Unlikely, But Asteroid Mining Looks Promising
 
 > [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
 distinguishes between three different kinds of disaster scenarios:
@@ -837,6 +838,18 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * European vs. American Intervention Intuitions
 	* Europeans (esp germans) seem to have very different intuitions than Americans on foreign interventions. This might be because of the the two world wars taking place on european, but mostly not on american soil
 * fMRI scans for enhancing brain preservation through cryonics
+* Eccentric Trillionaire Ideas
+	* Beautiful Geometric Objects
+	* Philosophically Solving Language
+		* Via Conlangs
+		* We have Loglan & Lojban & Láadan & Ithkuil, but there's never been a *concerted* effort at this?
+	* A Fictional Ethnography and Anthropology of Native Antarticans
+	* Breeding Superintelligent Octopuses
+	* Cloning Extinct Animals
+		* In order: Passenger Pigeons, Thylacines, Dodos, Wooly Mammoths
+	* Masturbation Research
+	* Hard Takeoff Movie
+		* Humans die in the first minute, space megastructure & exotic decision theory & later ontokinetics shenanigans follow
 
 ### Collections
 
@@ -1715,6 +1728,7 @@ Wikipedia Articles
 * Kenneth Folk
 * Experience Replay (see Deep Q-Network (“DQN”; Mnih et al. 2015))
 * Blahaj
+* Cantril Ladder
 
 ### Improve
 

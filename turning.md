@@ -266,7 +266,7 @@ The small example graph (top left) and its possible turnings are
 ![A small example](./img/turning/se_comp.png "Four graphs, side-by side. Top left is a → b, c, top right is a → b → c, a → c, bottom left is a → c → b, a → b, bottom right is c → a → b, c → b.")
 
 	>>> WS=['a', 'b', 'c']
-	>>> GS=nx.DiGSraph()
+	>>> GS=nx.DiGraph()
 	>>> for i in range(0, len(WS)):
 	...     GS.add_node(WS[i], ind=i)
 	>>> GS.add_edges_from([('a', 'b')])
@@ -279,7 +279,7 @@ The small example graph (top left) and its possible turnings are
 This looks pretty much correct.
 
 	>>> WM=['a', 'b', 'c', 'd', 'e', 'f', 'g']
-	>>> GM=nx.DiGMraph()
+	>>> GM=nx.DiGraph()
 	>>> for i in range(0, len(WM)):
 	...     GM.add_node(WM[i], ind=i)
 	>>> GM.add_edges_from([('a', 'b'), ('b', 'c'), ('c', 'd'), ('c', 'e'), ('e', 'f'), ('f', 'g'), ('g', 'b')])
