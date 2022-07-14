@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-07-11, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-07-12, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,20 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Speculative Rules of Engagement (Zack M. Davis, 2015)](http://zackmdavis.net/blog/2015/01/)
+* [XXX I (Zack M. Davis, 2015)](http://zackmdavis.net/blog/2015/01/)
+* [2014 Year in Reverse (Zack M. Davis, 2015)](http://zackmdavis.net/blog/2015/01/)
+* [Permalink or It Didn't Happen (Zack M. Davis, 2015)](http://zackmdavis.net/blog/2015/02/)
+* [Mock (Zack M. Davis, 2015)](http://zackmdavis.net/blog/2015/03/)
+* ["Pi Day" Is an Unholy Festival of Sin That Is Corrupting Our Children (Zack M. Davis, 2015)](http://zackmdavis.net/blog/2015/03/pi-day-is-an-unholy-festival-of-sin-that-is-corrupting-our-children/)
+* [T.O.P. (Zack M. Davis, 2015)](http://zackmdavis.net/blog/2015/04/)
+* [Post-Ingress (Zack M. Davis, 2015)](http://zackmdavis.net/blog/2015/04/)
+* [Epistolary (Zack M. Davis, 2015)](http://zackmdavis.net/blog/2015/04/)
+* [XXX III (Zack M. Davis, 2015)](http://zackmdavis.net/blog/2015/04/)
+* [Comment on a Scene from Planecrash: "Crisis of Faith" (Mark Taylor Saotome-Westlake, 2022)](https://unremediatedgender.space/2022/Jun/comment-on-a-scene-from-planecrash-crisis-of-faith/index.html)
+* Social cooperation vs. competition (TheRedQuest, 2019)
+* [“The DIY Divorce: How I got divorced without hiring a lawyer” (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/03/15/the-diy-divorce-how-i-got-divorced-without-hiring-a-lawyer/index.html)
+* When girls shift from pure party mode to preferring guys with resources (TheRedQuest, 2021)
 * [Alignment By Default (johnswentworth, 2020)](https://www.lesswrong.com/posts/Nwgdq6kHke5LY692J/alignment-by-default)
 * ["Neither as Plea nor as Despair" (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Sep/neither-as-plea-nor-as-despair/index.html)
 * [The Nadir of Reading Comprehension (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Sep/the-nadir-of-reading-comprehension/index.html)

@@ -1376,7 +1376,17 @@
 2022-07-07T19:13:45.000000Z	(wistfully) “im not a furry, though, i just listen to the music”
 2022-07-07T22:32:20.000000Z	fodgehox
 2022-07-08T22:22:31.000000Z	ideologies are just compressed & distributed vibes, shards of shared stances.
-2022-07-09T23:27:59.000000Z	transhumanist is simplified humanism.
+2022-07-09T23:27:59.000000Z	transhumanism is simplified humanism.
 2022-07-09T23:30:07.000000Z	the right level for solving the hard problem of consciousness is within existing science/within philosophy/within meta- or pre-philosophy/needs a fully new paradigm of thought
 2022-07-10T17:27:23.000000Z	pet peeve: scales that have a neutral or default or average point, but which are nearly or completely on the positive. why are people asked to rate happiness from 0 to 10, not -10 to 10, where 0 is the neutral state? why are movies rated from 0 to five stars?
 2022-07-10T18:55:15.000000Z	stiglered again
+2022-07-11T15:55:12.000000Z	rip schelling.pt
+2022-07-11T16:20:48.000000Z	commitment races in rape accusation
+2022-07-11T16:49:51.000000Z	reading reddit thread about advice for women fighting men rn, and one of the advices is to yank an eye out, not considering that eyes are pretty hard to yank out
+2022-07-12T08:26:15.000000Z	In the Heideggerian sense, Sorge≠worry (as i believed), but Sorge=care
+2022-07-12T13:11:59.000000Z	if you believe i am causing massive amounts of harm, i want to hear from you
+2022-07-13T07:36:31.000000Z	“Noooo you can't just slap »Bayesian« onto something and that automatically makes it good” “haha MCMC go brrrrrrrrrr”
+2022-07-14T15:11:25.000000Z	cinary
+2022-07-14T15:11:35.000000Z	bontinuous
+2022-07-14T15:14:49.000000Z	every programming language should have a nop-equivalent statement. python left the option of using “continue” on the ground
+2022-07-14T16:55:20.000000Z	holding back human capabilities is by itself not a wisdom intervention.
