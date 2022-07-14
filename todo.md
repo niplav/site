@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-07-06, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-07-13, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -417,15 +417,32 @@ Texts
 * Does meditation affect my happiness?
 * Does abstinence from masturbation improve meditation?
 * Do blood donations reduce my cognitive function?
-* Diet Coke self experiment
-	* [https://dynomight.net/diet-coke-nootropic]
-* Erectile dysfunction medication QS
-	* Other purported aphrodisiacs?
 * Does asking for affirmative consent turn women off?
 * In the mood scales, bored — interested stands for chaste — horny
 * What is the effect of fasting on my, well, everything?
 	* Especially meditation though
 * Oxytocin?
+* Relation between
+	* Exercise
+	* Daygame
+	* Meditation
+	* Flashcards
+	* Happiness
+	* Masturbation
+	* Substances
+* Find easy ways to track
+	* Sleep
+	* Computer usage
+		* Fix awitt
+	* Productivity
+	* Personal forecast accuracy?
+* Substances
+	* Oxytocin
+	* Diet Coke self experiment
+		* [https://dynomight.net/diet-coke-nootropic]
+	* Erectile dysfunction medication QS
+		* Other purported aphrodisiacs?
+	* Brown Noise
 
 ### Arguments
 
@@ -728,14 +745,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Use:
 		* CFAR handbook
 		* Lesswrong post about anti-procrastination techniques
-* Relation between
-	* Exercise
-	* Daygame
-	* Meditation
-	* Flashcards
-	* Happiness
-	* Masturbation
-	* Substances
 
 ### Ideas
 
@@ -1274,12 +1283,6 @@ Collect data on
 		* Others?
 * Large STEM Dataset
 	* For training large ML models that are less likely to be [human models](https://www.lesswrong.com/posts/BKjJJH2cRpJcAnP7T)
-* Find easy ways to track
-	* Sleep
-	* Computer usage
-		* Fix awitt
-	* Productivity
-	* Personal forecast accuracy?
 
 Flashcards
 -----------

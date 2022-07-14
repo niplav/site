@@ -398,6 +398,7 @@ One can now pose several (possibly distracting) questions:
 		* How, then, does `$\mathcal{T}(n,m)$` behave?
 		* Does the average number of turnings for inconsistent preferences converge to a specific number?
 		* That is, what is `$\lim_{n \rightarrow \infty} \frac{1}{\mathcal{G}_n} \sum_{i=1}^{n} \mathcal{T}(n,i)$`? Does it converge?
+		* I predict [20% on the number monotonically increasing](https://predictionbook.com/predictions/208299), [50% on monotonically decreasing](https://predictionbook.com/predictions/208300) and [30% on showing no clear pattern](https://predictionbook.com/predictions/208300).
 
 Encoding Inconsistencies
 ------------------------
