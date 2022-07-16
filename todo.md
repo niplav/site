@@ -419,6 +419,7 @@ Texts
 * Do blood donations reduce my cognitive function?
 * Does asking for affirmative consent turn women off?
 * In the mood scales, bored — interested stands for chaste — horny
+* What effect did COVID-19 vaccinations have on my Anki scores?
 * What is the effect of fasting on my, well, everything?
 	* Especially meditation though
 * Oxytocin?
@@ -436,13 +437,19 @@ Texts
 		* Fix awitt
 	* Productivity
 	* Personal forecast accuracy?
+	* Air pollution
+	* CO₂ levels
 * Substances
 	* Oxytocin
 	* Diet Coke self experiment
 		* [https://dynomight.net/diet-coke-nootropic]
 	* Erectile dysfunction medication QS
 		* Other purported aphrodisiacs?
+* Methods
 	* Brown Noise
+	* Intermittent fasting
+* Muse headband for data collection?
+* Scott Alexander CO₂ and wordgame performance
 
 ### Arguments
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-07-12, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-07-16, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Zeo sleep self-experiments (Gwern Branwen, 2018)](https://www.gwern.net/Zeo)
+* Are we living at the hinge of history? (William MacAskill, 2020)
+* [How to drop a bomb on a group conversation (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/12/29/how-to-drop-a-bomb-on-a-group-conversation/index.html)
+* [One I got and then didn’t want (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/28/one-i-got-and-then-didnt-want/index.html)
+* [Putting the girl into the friend zone: a kind of mean story from college (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/12/30/putting-the-girl-in-the-friend-zone-a-kind-of-mean-story/index.html)
+* [LSD microdosing RCT (Gwern Branwen, 2019)](https://www.gwern.net/LSD-microdosing)
+* [On how various plans miss the hard bits of the alignment challenge (Nate Soares, 2022)](https://www.lesswrong.com/posts/3pinFH3jerMzAvmza/on-how-various-plans-miss-the-hard-bits-of-the-alignment)
+* [Scoring 2020 U.S. Presidential Election Predictions (Zack M. Davis, 2020)](http://zackmdavis.net/blog/2020/11/scoring-2020-us-presidential-election-predictions/#more-2359)
 * [Speculative Rules of Engagement (Zack M. Davis, 2015)](http://zackmdavis.net/blog/2015/01/)
 * [XXX I (Zack M. Davis, 2015)](http://zackmdavis.net/blog/2015/01/)
 * [2014 Year in Reverse (Zack M. Davis, 2015)](http://zackmdavis.net/blog/2015/01/)
