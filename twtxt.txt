@@ -1390,3 +1390,6 @@
 2022-07-14T15:11:35.000000Z	bontinuous
 2022-07-14T15:14:49.000000Z	every programming language should have a nop-equivalent statement. python left the option of using “continue” on the ground
 2022-07-14T16:55:20.000000Z	holding back human capabilities is by itself not a wisdom intervention.
+2022-07-14T17:15:28.000000Z	ah yes it's good i don't have a twitter right now
+2022-07-14T17:30:38.000000Z	note to self: not to underestimate e/acc. shitposting can lead to scary big results. The reaction from some EAs indicates underestimating it, with some smug superiority—not a good sign!
+2022-07-16T12:06:35.000000Z	p(2020 C.E.-2120 C.E. is the most important century)≅1/3
