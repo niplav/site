@@ -1,4 +1,5 @@
-IMG=incomplete.png \
+IMG=counter_comp.png \
+	incomplete.png \
 	intransitive.png \
 	turnubc_hyp.png \
 	turnubc_hyp_trans.png \

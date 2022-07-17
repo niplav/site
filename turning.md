@@ -10,7 +10,7 @@ the case of preferences over world states, represented by [directed
 graphs](https://en.wikipedia.org/wiki/Directed_graph); and preferences
 over [lotteries](https://en.wikipedia.org/wiki/Lottery_\(probability\))
 of world states, represented either by infinitely dense
-graphs or (in some cases) vector fields over probability
+graphs, (in some cases) vector fields over probability
 simplices, or edge-weighted directed graphs. I also present
 an algorithm for the discrete case based on the [graph edit
 distance](https://en.wikipedia.org/wiki/Graph_Edit_Distance). Implications
@@ -42,12 +42,17 @@ for example choosing two incompatible
 options in the two scenarios in the [Allais
 paradox](https://en.wikipedia.org/wiki/Allais_paradox), or reliably
 displaying [cycles](https://en.wikipedia.org/wiki/Cycle_\(graph_theory\))
-in its actions (detecting which actions are in fact caused by inconsistent
-preferences, and not just exotic ones from weird abstractions, can be
-considered a separate problem). We might want to interact with that agent,
-e.g. trade with it, help it (or exploit it), or generally know how it
-will act. But how to go about that if the agent displays inconsistent
-preferences?
+in its actions (detecting which actions are in fact caused by
+inconsistent preferences, and not just exotic ones from weird
+abstractions, is considered a separate problem here). We might want
+to interact with that agent, e.g. trade with it, help it (or exploit
+it), or generally know how it will act But how to go about that if the
+agent displays inconsistent preferences? Perhaps it might even be the
+case that humans are such agents, and find ourselves in a conundrum:
+we know our preferences are inconsistent and reliably exploitable,
+and that agents with such preferences [reliably fare worse in the
+world](https://www.lesswrong.com/s/FYMiCeXEgMzsB5stm/p/RQpNHSiWaXTvDxt6R),
+we might want to change that.
 
 A possible approach to this problem has two steps:
 
@@ -58,22 +63,22 @@ Mathematical Formulation of the Problem
 ----------------------------------------
 
 Define a set of possible (von Neumann-Morgenstern) inconsistent
-preferences over a set `$W$` of worlds as `$\not\curlyvee_W$`, and the set
-of consistent preferences over those worlds as `$\curlyvee_W$`. Elements
-from those sets are written as `$\succsim_W \in \not\curlyvee_W$` and
-`$\succeq_W \in \curlyvee_W$`.
+preferences over a set `$W$` of worlds as `$\not\curlyvee$`, and the set
+of consistent preferences over those worlds as `$\curlyvee$`. Elements
+from those sets are written as `$\succsim \in \not\curlyvee$` and
+`$\succeq \in \curlyvee$`.
 
 One way we could approach the problem is by trying to turn those
-inconsistent preferences consistent, i.e. constructing a function
-`$f: \not \curlyvee_W \mapsto \curlyvee_W$` that takes an inconsistent
-preference `$\succsim$` and transforms it into a consistent preference,
+inconsistent preferences consistent, i.e. constructing a function `$t:
+\not \curlyvee \mapsto \curlyvee$` that takes an inconsistent preference
+`$\succsim$` and transforms it into a consistent preference `$\succeq$`,
 while retaining as much of the original structure of the preference
 as possible (it would make little sense if we replaced the original
-preference relation with indifference over all options).
+preference relation with e.g. indifference over all options).
 
 Formally, we want to find for some given [distance
 metric](https://en.wikipedia.org/wiki/Metric_\(mathematics\))
-`$d: \not \curlyvee_W \times \curlyvee_W \mapsto ℝ$` a function
+`$d: \not \curlyvee \times \curlyvee \mapsto ℝ$` a function
 `$t$` so that
 
 <div>
@@ -81,19 +86,19 @@ metric](https://en.wikipedia.org/wiki/Metric_\(mathematics\))
 	\succeq=t(\succsim)$$
 </div>
 
-I call this function a __turning__, and sometimes call the results of
-that function __turned preferences__ (usually I just refer to them as
-consistent preferences). The names mostly chosen for not having been
-used yet in mathematics, as far as I know.
+I call this function a __turner__, and sometimes call the results of
+that function the __set of turnings__ (an element from that set is a
+__turning__). The names mostly chosen for not having been used yet in
+mathematics, as far as I know, and because I want to be a little extra.
 
 A solution to the problem of turning inconsistent preferences into
 consistent ones then has these components:
 
-1. A mathematical structure for representing `$\not \curlyvee_W$` and `$\curlyvee_W$`
+1. A mathematical structure for representing `$\not \curlyvee$` and `$\curlyvee$`
 	* Inconsistent preferences over discrete options are represented via [directed graphs](https://en.wikipedia.org/wiki/Directed_graph)
 	* Inconsistent preferences over [lotteries](https://en.wikipedia.org/wiki/Lottery_\(probability\)) of options are represented via
 		* directed graphs over [probability simplices](https://en.wikipedia.org/wiki/Simplex)
-			* potentially more exotic structures such as [graphons](https://en.wikipedia.org/wiki/Graphon) or results from [extremal graph theory](https://en.wikipedia.org/wiki/Extremal_graph_theory) are relevant here, but I haven't investigated these in detail
+			* potentially more exotic structures such as [graphons](https://en.wikipedia.org/wiki/Graphon) or results from [extremal graph theory](https://en.wikipedia.org/wiki/Extremal_graph_theory) might be relevant here, but I haven't investigated these in detail
 		* vector fields on probability simplices
 		* [graphs with edge weights](https://en.wikipedia.org/wiki/Graph_\(discrete_mathematics\)#Weighted_graph) in `$ℝ$`
 2. A specification for `$t$`
@@ -123,9 +128,9 @@ an inconsistent preference over those worlds by using a directed graph
 The presence of an edge `$(w_1, w_2)$` would mean that `$w_1 \succsim w_2$`,
 that is `$w_1$` is preferred to `$w_2$`.
 
-Mathematically, then, `$\not \curlyvee_W$` is the set of all possible
+Mathematically, then, `$\not \curlyvee$` is the set of all possible
 graphs with edges in `$W \times W$`, that is
-`$\not \curlyvee_W=\{(W, E)| E \in \mathcal{P}(W \times W))\}$`).
+`$\not \curlyvee=\{(W, E)| E \in \mathcal{P}(W \times W))\}$`).
 
 The consistent equivalent to an inconsistent preference
 represented by a directed graph would be a [path
@@ -135,8 +140,8 @@ graph](https://en.wikipedia.org/wiki/Path_graph)
 The method for transforming `$G_{\succsim}$` into `$G_{\succeq}$` would be
 by adding/deleting the minimal number of vertices from `$E_{\succsim}$`.
 
-Mathematically, then `$\curlyvee_W$` is the set of transitive closures
-of all possible path graphs that are encode permutations of `$W$`; `$\curlyvee_W=\{(V, E)^+ | E \in σ(W)\}$`.
+Mathematically, then `$\curlyvee$` is the set of transitive closures
+of all possible path graphs that are encode permutations of `$W$`; `$\curlyvee=\{(V, E)^+ | E \in σ(W)\}$`.
 
 ### Example
 
@@ -147,7 +152,7 @@ Consider the following directed graph:
 Here, `$W=\{a,b,c,d,e,f,g\}$`.
 
 An edge from `$a$` to `$b$` means that `$a$` is preferred to `$b$`
-(short `$a \succsim_W b$`). The absence of an edge between two
+(short `$a \succsim b$`). The absence of an edge between two
 options means that those two options are, from the view of the agent,
 [incomparable](https://en.wikipedia.org/wiki/Comparability).
 
@@ -206,7 +211,7 @@ edit distance that uses edge insertion and edge deletion.
 We can then write a simple algorithm for
 `$\succeq=f(\succsim)$`:
 
-	turn(W, G≿=(W, E≿)):
+	turn(G≿=(W, E≿)):
 		mindist=∞
 		for L in perm(W):
 			L=trans_closure(L)
@@ -236,26 +241,31 @@ library turns out to be easy:
 	import networkx as nx
 	import itertools as it
 
-	def turn(W, G):
-		mindist=math.inf
-		for L in it.permutations(W):
-			L=list(L)
-			LG=nx.DiGraph()
-			for i in range(0, len(W)):
-				LG.add_node(W[i], ind=i)
-			for i in range(0, len(L)-1):
-				LG.add_edge(L[i], L[i+1])
-			LG=nx.algorithms.dag.transitive_closure(LG)
-			# Compute the graph edit distance, disabling node insertion/deletion/substition and edge substitution
-			oas=lambda x: 1
-			oah=lambda x: 10e10 # math.inf is not accepted here, TODO make some more specific maximum value
-			nm=lambda x, y: x['ind']==y['ind']
-			em=lambda x, y: True
-			dist=nx.algorithms.similarity.graph_edit_distance(G, LG, node_match=nm, edge_match=em, node_del_cost=oah, node_ins_cost=oah, edge_ins_cost=oas, edge_del_cost=oas)
-			if dist<mindist:
-				R=LG
-				mindist=dist
-		return R
+def turn(graph):
+	mindist=math.inf
+	worlds=list(graph.nodes)
+	for perm in it.permutations(worlds):
+		perm=list(perm)
+		pathgraph=nx.DiGraph()
+		for i in range(0, len(worlds)):
+			pathgraph.add_node(worlds[i], ind=i)
+		# The transitive closure over this particular path graph
+		# Simplify to nx.algorithms
+		for i in range(0, len(perm)-1):
+			pathgraph.add_edge(perm[i], perm[i+1])
+		pathgraph=nx.algorithms.dag.transitive_closure(pathgraph)
+		print(pathgraph.nodes, pathgraph.edges)
+		# Compute the graph edit distance, disabling node insertion/deletion/substition and edge substitution
+		edge_cost=lambda x: 1
+		unaffordable=lambda x: 10e10
+		same_node=lambda x, y: x['ind']==y['ind']
+		edge_matches=lambda x, y: True
+		dist=nx.algorithms.similarity.graph_edit_distance(graph, pathgraph, node_match=same_node, edge_match=edge_matches, node_del_cost=unaffordable, node_ins_cost=unaffordable, edge_ins_cost=edge_cost, edge_del_cost=edge_cost)
+		print(dist)
+		if dist<mindist:
+			result=pathgraph
+			mindist=dist
+	return result
 
 We can then test the function, first with a graph with a known best
 completion, and then with our [example from above](#Example).
@@ -265,38 +275,34 @@ The small example graph (top left) and its possible turnings are
 
 ![A small example](./img/turning/se_comp.png "Four graphs, side-by side. Top left is a → b, c, top right is a → b → c, a → c, bottom left is a → c → b, a → b, bottom right is c → a → b, c → b.")
 
-	>>> WS=['a', 'b', 'c']
-	>>> GS=nx.DiGraph()
-	>>> for i in range(0, len(WS)):
-	...     GS.add_node(WS[i], ind=i)
-	>>> GS.add_edges_from([('a', 'b')])
-	>>> LGS=turn(WS, GS)
-	>>> LGS.nodes
+	>>> smallworld=['a', 'b', 'c']
+	>>> smallgraph=nx.DiGraph()
+	>>> for i in range(0, len(smallworld)):
+	...     smallgraph.add_node(smallworld[i], ind=i)
+	>>> smallgraph.add_edges_from([('a', 'b')])
+	>>> smallre=turn(smallworld, smallgraph)
+	>>> smallre.nodes
 	NodeView(('a', 'b', 'c'))
-	>>> LGS.edges
+	>>> smallre.edges
 	OutEdgeView([('a', 'b'), ('a', 'c'), ('b', 'c')])
 
 This looks pretty much correct.
 
-	>>> WM=['a', 'b', 'c', 'd', 'e', 'f', 'g']
-	>>> GM=nx.DiGraph()
-	>>> for i in range(0, len(WM)):
-	...     GM.add_node(WM[i], ind=i)
-	>>> GM.add_edges_from([('a', 'b'), ('b', 'c'), ('c', 'd'), ('c', 'e'), ('e', 'f'), ('f', 'g'), ('g', 'b')])
-	>>> LGM=turn(WM, GM)
-	>>> LGM.nodes
+	>>> mediumworld=['a', 'b', 'c', 'd', 'e', 'f', 'g']
+	>>> mediumgraph=nx.DiGraph()
+	>>> for i in range(0, len(mediumworld)):
+	...     mediumgraph.add_node(mediumworld[i], ind=i)
+	>>> mediumgraph.add_edges_from([('a', 'b'), ('b', 'c'), ('c', 'd'), ('c', 'e'), ('e', 'f'), ('f', 'g'), ('g', 'b')])
+	>>> mediumres=turn(mediumworld, mediumgraph)
+	>>> mediumres.nodes
 	NodeView(('a', 'b', 'c', 'd', 'e', 'f', 'g'))
-	>>> LGM.edges
+	>>> mediumres.edges
 	OutEdgeView([('a', 'b'), ('a', 'c'), ('a', 'd'), ('a', 'e'), ('a', 'f'), ('a', 'g'), ('b', 'c'), ('b', 'd'), ('b', 'e'), ('b', 'f'), ('b', 'g'), ('c', 'd'), ('c', 'e'), ('c', 'f'), ('c', 'g'), ('d', 'e'), ('d', 'f'), ('d', 'g'), ('e', 'f'), ('e', 'g'), ('f', 'g')])
 
 This is actually equal to the hypothesized solution from above (below
 is the non-transitive-closure version):
 
 ![A path graph.](./img/turning/turnubc_hyp.png "A path graph. Vertices again {a, b, c, d, e, f, g, h}. Edges are a → b → c → d → e → f → g.")
-
-##### Questions
-
-* Does it matter whether we give `turn` a graph `$G$` or the transitive closure of `$G$`?
 
 #### Problems with This Method and its Algorithm
 
@@ -308,14 +314,12 @@ Some of you might have noticed that this algorithm is *somewhat
 inefficient* (by which I mean *absolutely infeasible*).
 
 Since we iterate through the permutations of `$W$`, the runtime is
-`$\mathcal{O}(|W|!)$` (with the added benefit of computing the
-[NP-complete](https://en.wikipedia.org/wiki/NP-completeness)
+`$\mathcal{O}(|W|!)$` (with the added "benefit" of additionally computing
+the [NP-complete](https://en.wikipedia.org/wiki/NP-completeness)
 graph edit distance inside of the loop, which is also
 [APX](https://en.wikipedia.org/wiki/APX)-hard to approximate).
 
-<!--TODO: measure runtime-->
-
-* Question: Is there a more efficient algorithm to compute the turned preference? Can it at least be made exponential?
+<!--TODO: measure runtime, think about faster algorithms-->
 
 ##### Non-Unique Results
 
@@ -325,7 +329,7 @@ result, as seen in the small example [above](#Resolving-Inconsistencies).
 We can compute the set of all possible turnings with some trivial
 changes to the algorithm:
 
-	turn_all(W, G≿=(W, E≿)):
+	turn_all(G≿=(W, E≿)):
 		mindist=∞
 		R=∅
 		[…]
@@ -338,67 +342,256 @@ changes to the algorithm:
 
 and its implementation
 
-	def turn_all(W, G):
-		R=set()
+	def turn_all(graph):
+		results=set()
 		[…]
 			if dist<mindist:
-				R=set([LG])
+				results=set([pathgraph])
 				mindist=dist
 			elif dist==mindist:
-				R.add(LG)
-		return R
+				results.add(pathgraph)
+		return results
 
 The results, with the small example, are as expected:
 
-	>>> S=list(turn_all(WS, GS))
-	>>> len(S)
+	>>> turnings=list(turn_all(smallworld, smallgraph))
+	>>> len(turnings)
 	3
-	>>> S[0].edges
+	>>> turnings[0].edges
 	OutEdgeView([('a', 'b'), ('a', 'c'), ('b', 'c')])
-	>>> S[1].edges
+	>>> turnings[1].edges
 	OutEdgeView([('a', 'b'), ('c', 'a'), ('c', 'b')])
-	>>> S[2].edges
+	>>> turnings[2].edges
 	OutEdgeView([('a', 'c'), ('a', 'b'), ('c', 'b')])
 
 ![A small example](./img/turning/se_comp.png "Four graphs, side-by side. Top left is a → b, c, top right is a → b → c, a → c, bottom left is a → c → b, a → b, bottom right is c → a → b, c → b.")
 
 For the big example, after waiting a while for the solution:
 
-	>>> S=list(turn_all(WM, GM))
-	>>> len(S)
+	>>> turnings=list(turn_all(mediumworld, mediumgraph))
+	>>> len(turnings)
 	49
 
 I will not list them all, but these are less than the `$7!=5040$`
 possible options.
 
 This brings up an interesting question: As we have more and more
-elaborate inconsistent preferences with more elements, does it
+
+elaborate inconsistent preferences over more worlds, does it
 become more likely that they have a unique consistent preference
 they can be turned to? Or, in other words, if we make the graphs
 bigger and bigger, can we expect the fraction of inconsistent
-preferences with a unique turning to grow (strictly)
-[monotonically](https://en.wikipedia.org/wiki/Monotonic_function)?
+preferences with a unique turning to grow or shrink (strictly)
+[monotonically](https://en.wikipedia.org/wiki/Monotonic_function)? Or
+will it just oscillate around wildly?
 
-More formally, if we define `$\mathcal{G}$` as the set of graphs
+More formally, if we define `$\mathcal{G}_n$` as the set of graphs
 with `$n$` nodes, and `$\mathcal{U}_n=\{G \in \mathcal{G}_n | 1=|\text{turn_all}(G)|\}$`
 as the set of graphs with `$n$` nodes that
 have unique path graphs associated with them.
 
-###### Maximal and Minimal Number of Resolutions
+We can further define the set of all graphs wwith `$n$` nodes
+with `$m$` turnings as
+`$\mathcal{T}{n,m}=\{G \in \mathcal{G}_n | m=|\text{turn_all}(G)|\}$`
+(of which `$\mathcal{U}_n=\mathcal{T}_{n, 1}$`
+is just a special case).
 
-###### Questions
+###### Minimal and Maximal Number of Turnings
+
+The minimal number of turnings a graph can have is 1, with a graph-edit
+distance of 0: any transitive closure of a path graph satisfies this
+criterion (if your preferences are already consistent, why change them
+to be more consistent?)
+
+However, those graphs aren't the only graphs with exactly one turning,
+consider the following graph and a possible turning (with graph-edit
+distance 1, the changed edge is red):
+
+![](./img/turning/counter_comp.png)
+
+One can easily see that it has exactly one turning, and checking with
+the code confirms:
+
+	>>> counter=nx.DiGraph()
+	>>> counterworld=['a', 'b', 'c', 'd']
+	>>> for i in range(0, len(smallworld)):
+	...	smallgraph.add_node(smallworld[i], ind=i)
+	>>> counter.add_edges_from([('a', 'b'), ('b', 'c'), ('c', 'd'), ('a', 'c'), ('b', 'd'), ('d', 'a')])
+	>>> counterres=list(turn_all(counter))
+	>>> len(counterres)
+	>>> >>> counterres[0].edges
+	OutEdgeView([('a', 'b'), ('a', 'c'), ('a', 'd'), ('b', 'c'), ('b', 'd'), ('c', 'd')])
+
+For a graph with `$n$` nodes the maximal number of turnings it is
+upper-bounded by `$n!$`, and a sufficient condition for the graph to
+have that many turnings is when the graph is the union of a set of
+[complete digraphs](https://en.wikipedia.org/wiki/Complete_graph). For
+example the graph with 4 nodes and no edges has 24 possible turnings,
+as does the graph with 4 nodes and two edges `$\{(1,2), (2,1)\}$`.
+
+We can prove this inductively: When considering a node-labeled graph
+with `$n$` nodes and no edges, the graph edit distance to any path
+graph variant of that graph is the same, because we always have to
+add `$n-1+n-2+n-3 \dots 1=\frac{n-1+(n-1)^2}{2}$` edges to reach
+any transitive closure of a path graph (by the [sum of any arithmetic
+progression](https://en.wikipedia.org/wiki/Arithmetic_progression#Sum)).
+Let not `$G^{\circ}$` be a graph with `$n$` nodes that is solely the union
+of complete digraphs. When we now pick two nodes `$u$` and `$v$` from
+`$G^{\circ}$` and add the edges `$\{(u,v), (v,u)\} \cup \{(v, x)|(u,x)
+\in E^{\circ}\} \cup \{(u, y)|(v,x) \in E^{\circ}\}\} \cup \{(x, y)|(u,x)
+\in E^{\circ}, (v,y) \in E^{\circ}\}$` (that is, we connect `$u$` and
+`$v$`, and all their neighbors) to `$G^{\circ}$`, we have necessarily
+increased the graph-edit distance to any path graph by the same amount,
+we have symmetrically added edge-pairs that need to be broken in either
+direction.<!--TODO: make this clearer.-->
+
+### Questions
 
 One can now pose several (possibly distracting) questions:
 
+* Does it matter whether we give `turn` a graph `$G$` or the transitive closure of `$G$`?
+* Is there a more efficient algorithm to compute the turning?
+	* Can it at least be made exponential?
+	* Can we exploit the fact that we're always computing the graph-edit distance to a path-graph?
 * As we add more options to our inconsistent preferences, do they become more likely to turn uninuely?
 	* That is: Does it hold that `$\frac{|\mathcal{U}_n|}{|\mathcal{G}_n|}<\frac{|\mathcal{U}_{n+1}|}{|\mathcal{G}_{n+1}|}$`?
 	* It should be possible to check this for small cases.
-* In general, how does the size of `$\mathcal{U}_n$` develop? What about graphs with 2 possible consistent turnings, or in general `$m$`?
-	* One can define `$\mathcal{T}(n,m)=\{G \in \mathcal{G}_n | m=|\text{turn_all}(G)|\}$`
-		* How, then, does `$\mathcal{T}(n,m)$` behave?
-		* Does the average number of turnings for inconsistent preferences converge to a specific number?
-		* That is, what is `$\lim_{n \rightarrow \infty} \frac{1}{\mathcal{G}_n} \sum_{i=1}^{n} \mathcal{T}(n,i)$`? Does it converge?
-		* I predict [20% on the number monotonically increasing](https://predictionbook.com/predictions/208299), [50% on monotonically decreasing](https://predictionbook.com/predictions/208300) and [30% on showing no clear pattern](https://predictionbook.com/predictions/208300).
+
+#### Number of Turnings for `$\mathcal{G}_n$`
+
+* In general, how does the size of `$\mathcal{U}_n$` develop? What about `$\mathcal{T}_{n,2}$`, or in general `$\mathcal{T}_{n,m}$`?
+	* Does the average number of turnings for inconsistent preferences converge to a specific number?
+	* That is, what is `$\lim_{n \rightarrow \infty} \frac{1}{\mathcal{G}_n} \sum_{i=1}^{n} \mathcal{T}(n,i)$`?
+	* I predict [20% on the number monotonically increasing](https://predictionbook.com/predictions/208299), [50% on monotonically decreasing](https://predictionbook.com/predictions/208300) and [30% on showing no clear pattern](https://predictionbook.com/predictions/208300).
+
+We can check these empirically! While it would be nice to prove anything
+about them, it's much nicer to investigate them computationally. This is
+pretty straightforward: For increasing `$n$`, generate `$\mathcal{G}_n$`,
+for every `$G \in \mathcal{G}_n$`, compute `$|\text{turn_all}(G)|$`, save
+the data in a file somewhere, and do interesting things with that data.
+
+In code, we first generate all directed graphs with `$n$` nodes with a
+recursive function
+
+	def all_directed_graphs(n):
+		if n<=0:
+			return [nx.DiGraph()]
+		graphs=all_directed_graphs(n-1)
+		newgraphs=[]
+		for g in graphs:
+			g.add_node(n, ind=n)
+			for tosubset in powerset(range(1, n+1)):
+				for fromsubset in powerset(range(1, n)):
+					gnew=g.copy()
+					for element in tosubset:
+						gnew.add_edge(n, element)
+					for element in fromsubset:
+						gnew.add_edge(element, n)
+					newgraphs.append(gnew)
+		return newgraphs
+
+and start turning:
+
+	max=16
+	for i in range(0,max):
+		graphs=turn.all_directed_graphs(i)
+		for g in graphs:
+			print('{0},{1},"{2}"'.format(i, len(turn.turn_all(g)), g.edges))
+
+However, my computer quickly freezes and I find out that this is a lot
+of graphs:
+
+	>>> [len(list(all_directed_graphs(i))) for i in range(0,5)]
+	[1, 2, 16, 512, 65536]
+
+So the number directed graphs with 5 nodes would be
+`$2^{32}=4294967296$`, far too many for my puny laptop. But
+instead of generating them all, one can just generate a
+random sample and test on that, using the [Erdős–Rényi
+model](https://en.wikipedia.org/wiki/Erdős-Rényi_model),
+for which networkx has the helpful function
+`generators.random_graphs.gnp_random_graph` (Wikipedia informs us that
+"In particular, the case `$p=\frac{1}{2}$`  corresponds to the case
+where all `$2^{\binom {n}{2}}$` graphs on `$n$` vertices are chosen
+with equal probability."). We have to randomly add reflexive edges (not
+included in the model, it seems) with probability `$\frac{1}{2}$` each,
+and labels for the nodes, and then we're good to go:
+
+	samples=256
+	for i in range(5,lim):
+		for j in range(0,samples):
+			g=nx.generators.random_graphs.gnp_random_graph(i, 0.5, directed=True)
+			for n in g.nodes:
+				g.add_node(n, ind=n)
+				if random.random()>=0.5:
+					g.add_edge(n,n)
+			print('{0},{1},"{2}"'.format(i, len(turn.turn_all(g)), g.edges))
+
+We now run the script in the background, happily collecting data for us
+(`python3 collect.py >../../data/turnings.csv &`), and after a nice
+round of editing this text go back and try to make sense of the data,
+which runs squarely counter my expectations:
+
+	>>> import pandas as pd
+	>>> df=pd.read_csv('data/turnings.csv')
+	>>> df.groupby(['0']).mean()
+	           1
+	0
+	1   1.000000
+	2   1.875000
+	3   3.941406
+	4   9.390289
+	5  21.152344
+	6  39.885246
+
+It seems like the mean number of turnings actually increases with the
+graph size! Surprising. I'm also interested in the exact numbers: Why
+*exactly* 3.390289… for the graphs with 4 nodes? What is so special
+about that number‽
+
+Looking at unique turnings turns (hehe) up further questions:
+
+	>>> def uniqueratio(g):
+	...     return len(g.loc[g['1']==1])/len(g)
+	...
+	>>> df.groupby(['0']).apply(uniqueratio)
+	0
+	1    1.000000
+	2    0.125000
+	3    0.089844
+	4    0.055542
+	5    0.050781
+	6    0.016393
+	dtype: float64
+	>>> def uniques(g):
+	...     return len(g.loc[g['1']==1])
+	>>> df.groupby(['0']).apply(uniques)
+	0
+	1       2
+	2       2
+	3      46
+	4    3640
+
+Very much to my surprise, searching for "2,2,46,3640" [in the
+OEIS](https://oeis.org/search?q=2%2C2%2C46%2C3640&sort=&language=english&go=Search)
+yields *no results*, even though the sequence really looks like something
+that would already exist! (I think it has a specifically graph-theoretic
+"feel" to it). But apparently not so, I will submit it soon.
+
+<!--TODO: find this sequence on the OEIS-->
+
+I omit the number of unique turnings for 5 and 6, for obvious reasons
+(I also believe that the ratio for 6 is an outlier and should not be
+counted). The number of unique resolutions for the graph with 1 node
+makes sense, though: Removing the reflexive edge should count as
+one edge action, but the graph only has one unique resolution:
+
+	>>> df.loc[df['0']==1]
+	   0  1        []
+	0  1  1        []
+	1  1  1  [(1, 1)]
+
+<!--TODO: play around with this more-->
 
 Encoding Inconsistencies
 ------------------------
@@ -489,14 +682,14 @@ Look into extremal graph theory.
 Implications for AI Alignment
 ------------------------------
 
-> I've seen six cities fall for this  
-mathematics with incompetence  
-red flags stand among the trees  
-repugnant symphonies  
-a billionaires tarantula just ate the ceiling  
+> I've seen six cities fall for this
+mathematics with incompetence
+red flags stand among the trees
+repugnant symphonies
+a billionaires tarantula just ate the ceiling
 thinking it was yet another floor
 
-*—[Patricia Taxxon](), [“Hellbulb”]() from [“Gelb”](), YEAR<!--TODO-->*
+*—[Patricia Taxxon](http://patriciataxxon.bandcamp.com/), [“Hellbulb”](https://patriciataxxon.bandcamp.com/track/hellbulb) from [“Gelb”](https://patriciataxxon.bandcamp.com/album/gelb), 2020*
 
 ### Ambitious Value Learning
 
