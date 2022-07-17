@@ -311,7 +311,7 @@ We'll behest the oligarchs
 All the stars burn the oceans up, the dreams we haven't met  
 Das triadische Ballet, das triadische Ballet!
 
-*—[Patricia Taxxon](), [“Alien”]() from [“Gelb”](), YEAR<!--TODO-->*
+*—[Patricia Taxxon](https://patriciataxxon.bandcamp.com/), [“Alien”](https://patriciataxxon.bandcamp.com/album/gelb) from [“Gelb”](https://patriciataxxon.bandcamp.com/track/gelb), 2020*
 
 ### Improving Human Cognition
 

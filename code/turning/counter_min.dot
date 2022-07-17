@@ -1,0 +1,6 @@
+digraph counter_min {
+	a -> b -> c -> d;
+	a -> c;
+	b -> d;
+	d -> a [color=red];
+}

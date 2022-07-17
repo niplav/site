@@ -1,0 +1,6 @@
+digraph turn_counter_min {
+	a -> b -> c -> d;
+	a -> c;
+	b -> d;
+	a -> d [color=red];
+}

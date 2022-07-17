@@ -7,6 +7,12 @@ all: $(IMG)
 puttit: $(IMG)
 	mv $(IMG) ../../img/turning
 
+counter_comp.png: counter_min.png turn_counter_min.png
+	montage counter_min.png turn_counter_min.png -adjoin -geometry 192x252 counter_comp.png
+
+se_comp.png: se.png ser_1.png ser_2.png
+	montage se.png ser_1.png ser_2.png ser_3.png -adjoin -geometry 192x252 se_comp.png
+
 .dot.png:
 	dot -Tpng $< >$@
 
@@ -25,9 +31,6 @@ turnubc_hyp.png: turnubc_hyp.dot
 turnubc_hyp_trans.png: turnubc_hyp_trans.dot
 	dot -Tpng $< >$@
 
-se_comp.png: se.png ser_1.png ser_2.png
-	montage se.png ser_1.png ser_2.png ser_3.png -adjoin -geometry 192x252 se_comp.png
-
 se.png: se.dot
 	dot -Tpng $< >$@
 
@@ -35,6 +38,12 @@ ser_1.png: ser_1.dot
 	dot -Tpng $< >$@
 
 ser_2.png: ser_2.dot
+	dot -Tpng $< >$@
+
+counter_min.png: counter_min.dot
+	dot -Tpng $< >$@
+
+turn_counter_min.png: turn_counter_min.dot
 	dot -Tpng $< >$@
 
 clean:
