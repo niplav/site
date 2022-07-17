@@ -17,6 +17,8 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* \* Right Concentration (Leigh Brasington, 2015)
+* [What’s out there? (Michael Edward Johnson, 2019)](https://opentheory.net/2019/09/whats-out-there/index.html)
 * [Zeo sleep self-experiments (Gwern Branwen, 2018)](https://www.gwern.net/Zeo)
 * Are we living at the hinge of history? (William MacAskill, 2020)
 * [How to drop a bomb on a group conversation (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/12/29/how-to-drop-a-bomb-on-a-group-conversation/index.html)

@@ -15,14 +15,12 @@ def turn(graph):
 		for i in range(0, len(perm)-1):
 			pathgraph.add_edge(perm[i], perm[i+1])
 		pathgraph=nx.algorithms.dag.transitive_closure(pathgraph)
-		print(pathgraph.nodes, pathgraph.edges)
 		# Compute the graph edit distance, disabling node insertion/deletion/substition and edge substitution
 		edge_cost=lambda x: 1
 		unaffordable=lambda x: 10e10
 		same_node=lambda x, y: x['ind']==y['ind']
 		edge_matches=lambda x, y: True
 		dist=nx.algorithms.similarity.graph_edit_distance(graph, pathgraph, node_match=same_node, edge_match=edge_matches, node_del_cost=unaffordable, node_ins_cost=unaffordable, edge_ins_cost=edge_cost, edge_del_cost=edge_cost)
-		print(dist)
 		if dist<mindist:
 			result=pathgraph
 			mindist=dist

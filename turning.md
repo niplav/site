@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-03-04, modified: 2022-07-05, language: english, status: notes, importance: 8, confidence: unlikely*
+*author: niplav, created: 2022-03-04, modified: 2022-07-18, language: english, status: notes, importance: 8, confidence: unlikely*
 
 > __Representing inconsistent preferences with specific mathematical
 structures can clarify thoughts about how to make those preferences
@@ -14,7 +14,8 @@ graphs, (in some cases) vector fields over probability
 simplices, or edge-weighted directed graphs. I also present
 an algorithm for the discrete case based on the [graph edit
 distance](https://en.wikipedia.org/wiki/Graph_Edit_Distance). Implications
-for scenarios such as ontological crises are discussed.__
+for scenarios such as [ontological
+shifts](https://arbital.com/p/ontology_identification/) are discussed.__
 
 <!--https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/niplav-s-shortform?commentId=XRmMoNCPmDhvyLzwc-->
 <!--https://www.lesswrong.com/posts/ky988ePJvCRhmCwGo/using-vector-fields-to-visualise-preferences-and-make-them-->
@@ -208,7 +209,7 @@ Since we do not have labels on the edges of the graph, and have disallowed
 the deletion or insertion of vertices, this leaves us with the graph
 edit distance that uses edge insertion and edge deletion.
 
-We can then write a simple algorithm for
+We can then write a simple pseudocode algorithm for
 `$\succeq=f(\succsim)$`:
 
 	turn(G≿=(W, E≿)):
@@ -241,31 +242,29 @@ library turns out to be easy:
 	import networkx as nx
 	import itertools as it
 
-def turn(graph):
-	mindist=math.inf
-	worlds=list(graph.nodes)
-	for perm in it.permutations(worlds):
-		perm=list(perm)
-		pathgraph=nx.DiGraph()
-		for i in range(0, len(worlds)):
-			pathgraph.add_node(worlds[i], ind=i)
-		# The transitive closure over this particular path graph
-		# Simplify to nx.algorithms
-		for i in range(0, len(perm)-1):
-			pathgraph.add_edge(perm[i], perm[i+1])
-		pathgraph=nx.algorithms.dag.transitive_closure(pathgraph)
-		print(pathgraph.nodes, pathgraph.edges)
-		# Compute the graph edit distance, disabling node insertion/deletion/substition and edge substitution
-		edge_cost=lambda x: 1
-		unaffordable=lambda x: 10e10
-		same_node=lambda x, y: x['ind']==y['ind']
-		edge_matches=lambda x, y: True
-		dist=nx.algorithms.similarity.graph_edit_distance(graph, pathgraph, node_match=same_node, edge_match=edge_matches, node_del_cost=unaffordable, node_ins_cost=unaffordable, edge_ins_cost=edge_cost, edge_del_cost=edge_cost)
-		print(dist)
-		if dist<mindist:
-			result=pathgraph
-			mindist=dist
-	return result
+	def turn(graph):
+		mindist=math.inf
+		worlds=list(graph.nodes)
+		for perm in it.permutations(worlds):
+			perm=list(perm)
+			pathgraph=nx.DiGraph()
+			for i in range(0, len(worlds)):
+				pathgraph.add_node(worlds[i], ind=i)
+			# The transitive closure over this particular path graph
+			# Simplify to nx.algorithms
+			for i in range(0, len(perm)-1):
+				pathgraph.add_edge(perm[i], perm[i+1])
+			pathgraph=nx.algorithms.dag.transitive_closure(pathgraph)
+			# Compute the graph edit distance, disabling node insertion/deletion/substition and edge substitution
+			edge_cost=lambda x: 1
+			unaffordable=lambda x: 10e10
+			same_node=lambda x, y: x['ind']==y['ind']
+			edge_matches=lambda x, y: True
+			dist=nx.algorithms.similarity.graph_edit_distance(graph, pathgraph, node_match=same_node, edge_match=edge_matches, node_del_cost=unaffordable, node_ins_cost=unaffordable, edge_ins_cost=edge_cost, edge_del_cost=edge_cost)
+			if dist<mindist:
+				result=pathgraph
+				mindist=dist
+		return result
 
 We can then test the function, first with a graph with a known best
 completion, and then with our [example from above](#Example).
@@ -404,10 +403,11 @@ criterion (if your preferences are already consistent, why change them
 to be more consistent?)
 
 However, those graphs aren't the only graphs with exactly one turning,
-consider the following graph and a possible turning (with graph-edit
-distance 1, the changed edge is red):
+consider the following graph (left) and a possible turning (right)
+(with graph-edit distance 1, the changed edge is red, a nice opportunity
+for some [rubrication](https://gwern.net/Red)):
 
-![](./img/turning/counter_comp.png)
+![Image of two graphs, left has edges a→ b→ c→ d, a→ c, b→ d, d→ a, right graph is the same except d→ a is now a→ d.](./img/turning/counter_comp.png "Image of two graphs, left has edges a→ b→ c→ d, a→ c, b→ d, d→ a, right graph is the same except d→ a is now a→ d.")
 
 One can easily see that it has exactly one turning, and checking with
 the code confirms:
@@ -461,7 +461,7 @@ One can now pose several (possibly distracting) questions:
 
 * In general, how does the size of `$\mathcal{U}_n$` develop? What about `$\mathcal{T}_{n,2}$`, or in general `$\mathcal{T}_{n,m}$`?
 	* Does the average number of turnings for inconsistent preferences converge to a specific number?
-	* That is, what is `$\lim_{n \rightarrow \infty} \frac{1}{\mathcal{G}_n} \sum_{i=1}^{n} \mathcal{T}(n,i)$`?
+	* That is, what is `$\lim_{n \rightarrow \infty} \frac{1}{\mathcal{G}_n} \sum_{i=1}^{n} \mathcal{T}_{n,i}$`?
 	* I predict [20% on the number monotonically increasing](https://predictionbook.com/predictions/208299), [50% on monotonically decreasing](https://predictionbook.com/predictions/208300) and [30% on showing no clear pattern](https://predictionbook.com/predictions/208300).
 
 We can check these empirically! While it would be nice to prove anything
@@ -544,10 +544,14 @@ which runs squarely counter my expectations:
 	5  21.152344
 	6  39.885246
 
-It seems like the mean number of turnings actually increases with the
-graph size! Surprising. I'm also interested in the exact numbers: Why
-*exactly* 3.390289… for the graphs with 4 nodes? What is so special
-about that number‽
+It seems like the mean number of turnings actually increases
+with the graph size! Surprising. I'm also interested in the
+exact numbers: Why *exactly* 3.390289… for the graphs with 4
+nodes? What is so special about that number‽ (Except it being
+the [longitude](https://en.wikipedia.org/wiki/Longitude)
+of the [Cathedral Church of
+Christ](https://en.wikipedia.org/wiki/Cathedral_Church_of_Christ)
+in Lagos).
 
 Looking at unique turnings turns (hehe) up further questions:
 
@@ -682,11 +686,11 @@ Look into extremal graph theory.
 Implications for AI Alignment
 ------------------------------
 
-> I've seen six cities fall for this
-mathematics with incompetence
-red flags stand among the trees
-repugnant symphonies
-a billionaires tarantula just ate the ceiling
+> I've seen six cities fall for this  
+mathematics with incompetence  
+red flags stand among the trees  
+repugnant symphonies  
+a billionaires tarantula just ate the ceiling  
 thinking it was yet another floor
 
 *—[Patricia Taxxon](http://patriciataxxon.bandcamp.com/), [“Hellbulb”](https://patriciataxxon.bandcamp.com/track/hellbulb) from [“Gelb”](https://patriciataxxon.bandcamp.com/album/gelb), 2020*
@@ -706,7 +710,7 @@ could specify a single model, but only give utilities for some states
 of the model. We would then like the agent to generalize this utility
 function to the entire state space of the model.
 
-*—Peter de Blanc, “Ontological Crises in Artificial Agents’ Value Systems”, 2010*
+*—Peter de Blanc, [“Ontological Crises in Artificial Agents’ Value Systems”](./doc/cs/ai/alignment/ontological_crises/ontological_crises_in_artificial_agents_value_systems_de_blanc_2011.pdf), 2010*
 
 If you know a mapping between objects from human to AI ontology, you
 could find the mapping from the (consistent) human probability simplex

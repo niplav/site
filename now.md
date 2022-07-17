@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2022-07-16, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2022-07-18, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -49,9 +49,9 @@ have a fixed date to get started on that at the moment.
 Programming
 -----------
 
-My main focus in programming is working on the [99
-Klong Problems](./99_klong_problems.html) and their
-[solutions](./99_problems_klong_solution.html).
+Most of my programming time is spent improving
+[iqisa](https://github.com/niplav/iqisa), a library for handling various
+forecasting datasets. It's also, miraculously, my day job.
 
 I am also working on an [arbtt](https://arbtt.nomeata.de/)-inspired time
 tracker: [awitt](https://github.com/niplav/awitt).
@@ -66,3 +66,4 @@ Currently, I am actively reading the following books:
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * Naive Set Theory (Paul R. Halmos, 1960)
 * Superforecasting: The Art and Science of Prediction (Philip E. Tetlock/Dan Gardner, 2015)
+* Right Concentration (Leigh Brasington, 2015)
