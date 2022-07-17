@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-04-08, language: english, status: finished, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-07-18, language: english, status: finished, importance: 1, confidence: log*
 
 > __Podcasts I am following.__
 
@@ -49,8 +49,8 @@ Books Special" episodes, calling itself at times "Zero Books Podcast" or
 and finally renaming itself back to "Diet Soap" after over 10 years!).
 
 I have listened to all publically available episodes of Zero Squared,
-that is a very qualified statement (if someone has episodes 1–3, 5,
-7–8, 10–11, 13–24, 26, 32–33, 36–40, 42–43, 51–53, 183,
-185, 187, 189–190, 192, 194, 196, 198, 200, 203, 205, 208, 210, 212,
-215, 223, 228–229, 258, I'd be happy to pay half a dollar per episode,
-just to silence my inner completionist).
+although that is a very qualified statement (if someone has episodes
+1–3, 5, 7–8, 10–11, 13–24, 26, 32–33, 36–40, 42–43, 51–53,
+183, 185, 187, 189–190, 192, 194, 196, 198, 200, 203, 205, 208, 210,
+212, 215, 223, 228–229, 258, I'd be happy to pay half a dollar per
+episode, just to silence my inner completionist).
