@@ -49,6 +49,8 @@ HTML=index.html \
 	finesse.html \
 	flags.html \
 	forecasters.html \
+	iqisa.html \
+	iqisadoc.html \
 	language.html \
 	leave.html \
 	life_advice.html \
