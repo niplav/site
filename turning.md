@@ -318,6 +318,13 @@ the [NP-complete](https://en.wikipedia.org/wiki/NP-completeness)
 graph edit distance inside of the loop, which is also
 [APX](https://en.wikipedia.org/wiki/APX)-hard to approximate).
 
+Possible better approaches would involve finding the
+longest subgraph that is a path graph, or the [spanning
+tree](https://en.wikipedia.org/wiki/Spanning_tree), perhaps the
+[transitive reduction](https://en.wikipedia.org/wiki/Transitive_reduction)
+is helpful, or maybe the [feedback arc
+set](https://en.wikipedia.org/wiki/Feedback_arc_set)?
+
 <!--TODO: measure runtime, think about faster algorithms-->
 
 ##### Non-Unique Results
@@ -404,7 +411,7 @@ to be more consistent?)
 
 However, those graphs aren't the only graphs with exactly one turning,
 consider the following graph (left) and a possible turning (right)
-(with graph-edit distance 1, the changed edge is red, a nice opportunity
+(with graph-edit distance 1; the changed edge is red, a nice opportunity
 for some [rubrication](https://gwern.net/Red)):
 
 ![Image of two graphs, left has edges a→ b→ c→ d, a→ c, b→ d, d→ a, right graph is the same except d→ a is now a→ d.](./img/turning/counter_comp.png "Image of two graphs, left has edges a→ b→ c→ d, a→ c, b→ d, d→ a, right graph is the same except d→ a is now a→ d.")
@@ -425,9 +432,10 @@ the code confirms:
 For a graph with `$n$` nodes the maximal number of turnings it is
 upper-bounded by `$n!$`, and a sufficient condition for the graph to
 have that many turnings is when the graph is the union of a set of
-[complete digraphs](https://en.wikipedia.org/wiki/Complete_graph). For
-example the graph with 4 nodes and no edges has 24 possible turnings,
-as does the graph with 4 nodes and two edges `$\{(1,2), (2,1)\}$`.
+[complete digraphs](https://en.wikipedia.org/wiki/Complete_graph) with
+disjoint nodes. For example the graph with 4 nodes and no edges has 24
+possible turnings, as does the graph with 4 nodes and two edges `$\{(1,2),
+(2,1)\}$`.
 
 We can prove this inductively: When considering a node-labeled graph
 with `$n$` nodes and no edges, the graph edit distance to any path
@@ -435,15 +443,15 @@ graph variant of that graph is the same, because we always have to
 add `$n-1+n-2+n-3 \dots 1=\frac{n-1+(n-1)^2}{2}$` edges to reach
 any transitive closure of a path graph (by the [sum of any arithmetic
 progression](https://en.wikipedia.org/wiki/Arithmetic_progression#Sum)).
-Let not `$G^{\circ}$` be a graph with `$n$` nodes that is solely the union
-of complete digraphs. When we now pick two nodes `$u$` and `$v$` from
-`$G^{\circ}$` and add the edges `$\{(u,v), (v,u)\} \cup \{(v, x)|(u,x)
-\in E^{\circ}\} \cup \{(u, y)|(v,x) \in E^{\circ}\}\} \cup \{(x, y)|(u,x)
-\in E^{\circ}, (v,y) \in E^{\circ}\}$` (that is, we connect `$u$` and
-`$v$`, and all their neighbors) to `$G^{\circ}$`, we have necessarily
-increased the graph-edit distance to any path graph by the same amount,
-we have symmetrically added edge-pairs that need to be broken in either
-direction.<!--TODO: make this clearer.-->
+Let not `$G^{\circ}$` be a graph with `$n$` nodes that is solely the
+union of complete digraphs with disjoint nodes. When we now pick two nodes
+`$u$` and `$v$` from `$G^{\circ}$` and add the edges `$\{(u,v), (v,u)\}
+\cup \{(v, x)|(u,x) \in E^{\circ}\} \cup \{(u, y)|(v,x) \in E^{\circ}\}\}
+\cup \{(x, y)|(u,x) \in E^{\circ}, (v,y) \in E^{\circ}\}$` (that is,
+we connect `$u$` and `$v$`, and all their neighbors) to `$G^{\circ}$`,
+we have necessarily increased the graph-edit distance to any path graph
+by the same amount, we have symmetrically added edge-pairs that need to
+be broken in either direction.<!--TODO: make this clearer.-->
 
 ### Questions
 
