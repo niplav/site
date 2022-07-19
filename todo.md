@@ -1739,6 +1739,7 @@ Wikipedia Articles
 * Experience Replay (see Deep Q-Network (“DQN”; Mnih et al. 2015))
 * Blahaj
 * Cantril Ladder
+* Choice set, choice function, contraction/expansion consistency (all in the context of social choice theory, see Gaertner 2009 p. 7-9)
 
 ### Improve
 
