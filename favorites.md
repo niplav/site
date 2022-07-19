@@ -173,7 +173,7 @@ the archives of [Hotel Concierge](https://hotelconcierge.tumblr.com/),
 [The Last Psychiatrist](https://thelastpsychiatrist.com/),
 [sam[]zdat](https://samzdat.com/), [An Algorithmic
 Lucidity](http://zackmdavis.net/blog/) and [Traditions of
-Conflict](https://traditionsofconflict.com)
+Conflict](https://traditionsofconflict.com).
 
 Meditation is better done than read about, but if you have to,
 [Meditation Stuff](https://meditationstuff.wordpress.com) and [Neurotic

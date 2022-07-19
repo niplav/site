@@ -6,10 +6,10 @@ import turn
 lim=16
 samples=256
 
-for i in range(0,5):
-	graphs=turn.all_directed_graphs(i)
-	for g in graphs:
-		print('{0},{1},"{2}"'.format(i, len(turn.turn_all(g)), g.edges))
+#for i in range(0,5):
+#	graphs=turn.all_directed_graphs(i)
+#	for g in graphs:
+#		print('{0},{1},"{2}"'.format(i, len(turn.turn_all(g)), g.edges))
 
 for i in range(5,16):
 	for j in range(0,samples):

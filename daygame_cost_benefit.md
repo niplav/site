@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2022-04-05, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2022-07-19, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes,
 how much? I first present a simple [point
@@ -1072,85 +1072,4 @@ Appendix B: A Slightly More Complex Guesstimate Model of the Value
 ### Inputs
 
 Appendix C: Empirically Checking the Assumptions
-------------------------------------------------
-
-TODO: move these to data.md
-
-Log:
-
-2 datasets, first containing approaches, 2nd containing approach sessions
-
-1st file datapoints (in CSV):
-
-* Approach index number
-* Datetime
-* Location
-* Blowout
-* Contact info ∈{number,instagram,facebook,skype,snapchat etc.,other}
-* Idate length (minutes)
-* Idate cost (euro)
-* Flake before 1st date (boolean)
-* Date before first sex [1..10] cost (euro)
-* Date before first sex [1..10] length (minutes)
-* Sex number of times (approximately)
-* Attractiveness (∈[1..10])
-
-2nd file:
-
-* Datetime start
-* Datetime end
-* Approaches index number range
-* Number of approaches
-
-Sanitizing the sessions file:
-
-Converting f\*\*\*ed up Google sheets date format (why does __nobody__
-use the perfect [ISO-8601](https://en.wikipedia.org/wiki/ISO-8601) when
-it's right there‽), then removing stray spaces after semicolons,
-then removing the `^M` from the end of each line, using
-[structural regular
-expressions](./doc/cs/structural_regular_expressions_pike_1990.pdf "Structural Regular Expressions"):
-
-	,x/([0-9]+)\/([0-9]+)\/([0-9]+) /c/\3-\1-\2T/
-	,x/; /c/;/
-	,x/.$/c//
-	,x/(T[0-9]+:[0-9]+),/c/\1:00,/
-	,x/-([0-9])-/c/-0\1-/
-
-and some other minor fixes.
-
-Formatting the approaches file:
-
-	,x/.$/d
-	,x/ ,/c/,/
-
-Find incorrectly written locations:
-
-	$ awk -F, '{ print($2) }' <daygame_stats_approaches.csv | sort | uniq
-
-and manually correct them (this is useful for the other fields as well,
-just to check consistency).
-
-Anonymizing locations and the names of girls:
-
-	$ awk -F,  'BEGIN { OFS="," }
-	{
-		if(loc[$2]=="" && $2!="Location")
-		{
-			loc[$2]=""10*rand();
-			gsub(/,/, "", loc[$2]);
-		}
-		if(name[$8]=="" && $8!="Name")
-		{
-			name[$8]=""10*rand();
-			gsub(/,/, "", name[$8])
-		}
-		if($2!="Location") { $2=loc[$2]; }
-		if($8!="Name") { $8=name[$8]; }
-		print($0);
-	}' <daygame_stats_approaches.csv >daygame_stats_approaches_anon.csv
-	$ mv daygame_stats_approaches.csv daygame_stats_approaches_deanon.csv
-	$ mv daygame_stats_approaches_anon.csv daygame_stats_approaches.csv
-
-The approaches file can be found [here](./data/daygame_approaches.csv),
-the sessions file can be found [here](./data/daygame_sessions.csv).
+-------------------------------------------------
