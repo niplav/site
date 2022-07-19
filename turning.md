@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-03-04, modified: 2022-07-18, language: english, status: notes, importance: 8, confidence: likely*
+*author: niplav, created: 2022-03-04, modified: 2022-07-19, language: english, status: notes, importance: 8, confidence: likely*
 
 > __Representing inconsistent preferences with specific mathematical
 structures can clarify thoughts about how to make those preferences
@@ -732,9 +732,9 @@ to the AI simplex?
 
 #### Discrete Case
 
-A node splits in two or more, or two or more nodes get merged. If the
-then resulting graph isn't a path graph, it can be turned with the
-method described above.
+A node splits in two or more, or two or more nodes get merged, one adds
+nodes, or removes them. If the then resulting graph isn't a path graph,
+it can be turned with the method described above.
 
 ##### Calculating Utility Over Non-Unique Turnings
 
