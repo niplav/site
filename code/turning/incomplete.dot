@@ -1,4 +1,4 @@
 digraph incomplete {
-	a -> o1 -> b;
-	a -> o2 -> b;
+	a -> w1 -> b;
+	a -> w2 -> b;
 }

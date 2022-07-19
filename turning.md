@@ -614,88 +614,178 @@ one edge action, but the graph only has one unique resolution:
 Encoding Inconsistencies
 ------------------------
 
+After this concrete example of how to turn inconsistent preferences into
+consistent ones, I now try to extract general principles for representing
+inconsistent preferences, mainly because while the problem has been
+solved for discrete cases (or so at I believe), it is still open for
+preferences over lotteries.
+
 ### Theory
 
-Assuming that we have a set of axioms that describe which preferences
-are consistent and which are inconsistent, for the purposes of this
-text, we want to ideally find a set `$\not \curlyvee$` of mathematical
-structures that
+It is important to distinguish the inconsistent preferences `$\not P$`
+and the mathematical structure that is used to represent them, here
+`$\not\curlyvee$`, since we might use different ways of representing
+`$\not P$` (in the discrete case, we could try to use [choice
+functions](https://en.wikipedia.org/wiki/Choice_function),
+[set-theoretical
+relations](https://en.wikipedia.org/wiki/Finitary_relation), [utility
+functions](https://en.wikipedia.org/wiki/Utility) or [directed
+graphs](https://en.wikipedia.org/wiki/Directed graph) etc.).
 
-1. can represent preferences that violate each possible subset of those axioms.
-	1. Each inconsistent preference should have exactly one element of `$\not \curlyvee$` that represents it
+Assuming that we have a set of axioms `$\mathbf{A}$` that describe which
+preferences are consistent and which are inconsistent, for the purposes
+of this text, we want to ideally find a set of mathematical structures
+`$\not \curlyvee$` that can represent inconsistent preferences `$\not P$`:
+
+1. For every subset `$\mathbf{a} \subseteq \mathcal{P}(\mathbf{A})$` of the axioms, `$\not\curlyvee$` can represent a preference `$\not p \in \not P$` that violates all axioms in `$\mathbf{a}$`.
+2. Very weak condition of *Partial Representation*: There exists some subset of `$\not P' \subseteq \not P$` so that for each element `$\not p' \in \not P'$` there exists a non-empty subset of elements of `$\not \curlyvee$` that represents `$\not p'$`.
+	1. Weak Condition of *Partial Unique Representation*: For each element `$\not p'$` of that subset `$\not P'$`, there exists a unique element of `$\not \curlyvee$` that represents `$\not p'$`
+	2. Weak Condition of *Complete Representation*: For every `$\not p \in \not P$` there exists at least one element of `$\not \curlyvee$` that represents `$\not p$`.
+	3. Strong Condition of *Complete Unique Representation*: There is a [bijection](https://en.wikipedia.org/wiki/Bijection,_injection_and_surjection) between `$\not P$` and `$\not \curlyvee$`.
 2. has a strict subset `$\curlyvee \subset \not \curlyvee$` so that `$\curlyvee$` can represent only consistent preferences.
 
 ### Discrete Case
 
-The two relevant von Neumman-Morgenstern axioms are completeness and
-transitivity, with a directed graph one can also represent incompleteness
-and intransitivity.
+In the discrete case, the two relevant von Neumman-Morgenstern axioms
+are completeness and transitivity, which use as a basic structure
+set-theoretical relations. Furthermore, set-theoretical relations can
+also represent the violation of both transitivity and completeness.
+
+For purposes of visualization and for the use of some graph-theoretic
+constructs, I chose to represent those relations as directed labeled
+graphs, but since binary relations and directed labeled graphs have a
+bijection between them, this shouldn't be an issue.
 
 #### Incompleteness
 
-Incompleteness (or incomparability) between two options `$w_1, w_2$`
-can be represented by not specifying an edge between the two options,
-that is `$(w_1, w_2) \not \in E, (w_2, w_1) \not \in E$`.
+[Incompleteness](https://en.wikipedia.org/wiki/Completeness_\(order_theory\))
+(or [incomparability](https://en.wikipedia.org/wiki/Comparability))
+between two options `$w_1, w_2$` can be represented by not specifying
+an edge between the two options, that is `$(w_1, w_2) \not \in E, (w_2,
+w_1) \not \in E$`.
 
-![](./img/turning/incomplete.png)
+![Four variables, with relation a>w1>b, a>w2>b, with w1 and w2 incomparable.](./img/turning/incomplete.png "Four variables, with relation a>w1>b, a>w2>b, with w1 and w2 incomparable.")
 
 #### Intransitivity
 
-Intransitivity can be represented by cycles in the graph:
+Strictly speaking,
+[intransitivity](https://en.wikipedia.org/wiki/Transitive_relation)
+is already satisfied if there is a triple of worlds `$w_1, w_2, w_2$`
+so that `$(w_1, w_2) \in E, (w_2, w_3) \in E$` but `$(w_1, w_3) \not \in
+E$` (which is another form of incomparability). So having a cycle in the
+graph doesn't necessarily entail intransitivity, unless we also demand
+[antisymmetry](https://en.wikipedia.org/wiki/Antisymmetric_relation):
 
-![](./img/turning/intransitive.png)
+![A cycle graph with nodes/edges a→ b→ c→ a.](./img/turning/intransitive.png "A cycle graph with nodes/edges a→ b→ c→ a")
+
+I assume that antisymmetry is necessary for the consistent version of the
+preferences, no two options can be considered equally valuable, mainly
+for the purposes of simplicity (I do not think that this changes much).
+
+<!--TODO: how does it change if they are allowed-->
 
 #### Non-Encodable Inconsistencies
 
-With option set `$\{a,b\}$` have preference `$a \succsim b$`, with
-option set `$\{a,b,c\}$` have preferences
-`$b \succsim a, a \succsim c, b \succsim c$`.
+I believe that using graphs/set theoretic relations is sufficient to be
+able to represent all von Neumann-Morgenstern inconsistent preferences.
+
+However, in the formalism of choice sets/choice functions (Gaertner
+2009<!--TODO: link--> p. 7-9) I believe that there are some cases which
+can't be represented by this formalism (because they violate expansion
+consistency:
+
+With option set `$O_1=\{a,b\}$` have `$C(O_1)=\{a\}$`, but with option
+set `$O_2=\{a,b,c\}$` we have the choice `$C(O_2)=b$`.
+
+However, my mathematical knowledge here isn't very deep, so I'd be happy
+about comments.
+
+(Is this true? Can't we have that generate the relation `$a>b, b>a, b>c$`?
+Maybe we'd need the choice for every subset…<!--TODO-->)
 
 ### Continuous Case
 
-#### Incompleteness
+Von Neumann-Morgenstern utility theory takes as a starting point the
+concept of a lottery: a discrete distribution of probability on a set
+of worlds `$W$` (the probabilities, naturally, sum to 1). (If we have
+three worlds, e.g. `$W=\{\text{apple}, \text{banana}, \text{clementine}\}$`,
+an example for a lottery would be
+`$[0.3: \text{apple}, 0.65: \text{banana}, 0.05: \text{clementine}]$`).
+
+The consistent case for preferences over lotteries concerns itself
+with relations over those lotteries, and has four axioms, two of which
+(completeness and transitivity) have already been discussed above.
+
+However, finding a neat mathematical structure that can represent
+violations of all four axioms turns out to be finicky.
+
+#### (Dis)Continuity
+
+The continuity axiom demands that for three lotteries `$L, M, N$`,
+if `$L \preceq M \preceq N$`, then there exists a probability
+`$p \in [0,1]$` so that `$p \cdot L+(1-p) \cdot N \sim M$`.
+
+That is, shifting probabilities can move us toward indifference among
+options: there are some probabilites for which we will accept high risks
+or abandon possible high rewards.
+
+#### (In)Dependence
+
+### Specific Proposals
+
+#### Uncountably Large Graphs over Probability Simplices
+
+##### Incompleteness
+
+##### Intransitivity
+
+##### Discontinuity
+
+##### Dependence
+
+#### Vector Fields over Probability Simplices
+
+Vector field over the probability simplex over the options (representing
+local preferences over lotteries).
+
+##### Incompleteness
 
 * Minima/maxima in the vector field
 * Discontinuities
 * Undifferentiable points
 
-#### Intransitivity
+##### Intransitivity
 
-Curl in the vector field?
+Curl in the vector field?a
 
-#### Discontinuity
+##### Discontinuity
 
 Can only exist with incompleteness?
 
-#### Dependence
+##### Dependence
 
-### Discussion
+##### Resolving Inconsistencies
+
+Find mapping from vector field to another that makes the vector field
+consistent by minimizing the amount of turning/shrinking the vectors
+have to perform.
+
+#### Edge-Weighted Graphs
+
+#### Graphons
+
+?
+
+Look into extremal graph theory.
+
+Discussion
+-----------
 
 This leads to an interesting ethical consideration: is it a larger change
 to a preference relation to add new information or remove information?
 
 It is discussed how to incorporate those weights into an algorithm for
 minimally transforming `$G_{\succsim}$` into `$G_{\succeq}$`.
-
-Continuous Case
-----------------
-
-### Vector Fields over Probability Simplices
-
-Vector field over the probability simplex over the options (representing
-local preferences over lotteries).
-
-#### Resolving Inconsistencies
-
-Find mapping from vector field to another that makes the vector field
-consistent by minimizing the amount of turning/shrinking the vectors
-have to perform.
-
-### Graphons
-
-?
-
-Look into extremal graph theory.
 
 Implications for AI Alignment
 ------------------------------
@@ -752,59 +842,3 @@ Acknowledgements
 ------------------------
 
 Thanks to Miranda Dixon-Luinenburg for finding some typos.
-
-<!--
-*epistemic status: butterfly idea, I really should learn more topology
-and vector calculus, potentially very fruitful line of research in
-theoretical ethics*
-
-Consider an agent with inconsistent preferences. How can we represent
-their inconsistent preferences so that they can be turned into consistent
-variants of themselves, while minimally changing their structure?
-
-One way to approach this is to represent the preferences as a directed
-graph. In this case, we have for example an intransitive preference
-
-![](https://niplav.github.io/img/turning/intransitive.png)
-
-We can make this preference consistent by deleting an edge, but
-unfortunately we don't have a unique solution to making this preference
-consistent. I am interested in the combinatorics of turning a directed
-graph into a [path graph](https://en.wikipedia.org/wiki/Path_graph) (or
-its transitive closure) while making the minimal number of modificiations
-(deleting edges, adding edges, merging edges) to the initial graph.
-
-If we look at preferences over lotteries, we could represent a subset
-of all possible inconsistent preferences as a vector field over the
-probability simplex of all underlying options. Circular preferences
-would then be represented by the curl of the vector field, violations
-of continuity would be points in the vector field where the vectors
-are "0": for example on the line simplex, it would be the vector field
-"flipping around" at some point on the line (I don't know vector calculus
-that well).
-
-It might then be possible to define a function that minimally modifies
-that vector field to convert it to a consistent preference relation
-(i.e. a vector field that "flows toward a single option"). Defining
-"minimally" is the trick here: I'm imagining something akin to taking
-the integral over the rotation & size of the vectors of the difference
-of the vector field before and after (I told you I don't really know
-the math of that yet).
-
-I suspect that there are interesting further extensions to be discovered
-in extremal graph theory, for example graphons which look like they
-might be able to represent more & different preferential inconsistencies,
-but this is more of a hunch.
-
-If solved, this could be relevant to ambitious value learning and
-potential resolving ontological crises.
-
-Here are some questions I have:
-
-* I bet there is research on how to turn inconsistent preferences into consistent ones, but a cursory search hasn't shown me anything satisfactory yet. Where is it?
-* I would be fairly sure that there is also research on how to turn arbitrary directed graphs into directed path graphs, but I don't know about it yet.
-* What kinds of preferential inconsistencies can be represented via directed graphs/vector fields on probability simplices?
-* What would the vector field over a probability simplex look like to be equivalent to a consistent preference?
-* What is the topology of minimally transforming such a "inconsistent" vector field into a "consistent" vector field?
-* Does any of this actually make sense?
--->

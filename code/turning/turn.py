@@ -75,6 +75,7 @@ def all_directed_graphs(n):
 	return newgraphs
 
 def collect_all_5():
+	to=open('../../data/5_turnings.csv', mode='w')
 	n=5
 	saved=dict()
 	graphs=all_directed_graphs(n-1)
@@ -88,24 +89,28 @@ def collect_all_5():
 					gnew.add_edge(n, element)
 				for element in fromsubset:
 					gnew.add_edge(element, n)
-				save_graph(saved, gnew)
+				save_graph(saved, gnew, to)
 				if i%1000000==0:
 					print(i/2**32)
 
-def save_graph(saved, g):
+def save_graph(saved, g, to):
 	gdeg=",".join(sorted(str(d) for (n,d) in g.degree()))
 	if not gdeg in saved.keys():
 		saved[gdeg]=dict()
 		confusion=len(turn_all(g))
 		saved[gdeg][g]=confusion
 		print('{0},{1},"{2}"'.format(5, confusion, g.edges))
+		print('{0},{1},"{2}"'.format(5, confusion, g.edges), file=to)
 	else:
 		inthere=False
 		for h in saved[gdeg].keys():
 			if isomorph.is_isomorphic(g, h):
+				print("isomorphism found!")
 				inthere=True
 				print('{0},{1},"{2}"'.format(5, saved[gdeg][h], g.edges))
+				print('{0},{1},"{2}"'.format(5, saved[gdeg][h], g.edges), file=to)
 		if not inthere:
 			confusion=len(turn_all(g))
 			saved[gdeg][g]=confusion
 			print('{0},{1},"{2}"'.format(5, confusion, g.edges))
+			print('{0},{1},"{2}"'.format(5, confusion, g.edges), file=to)
