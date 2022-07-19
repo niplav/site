@@ -129,6 +129,7 @@ use the perfect [ISO-8601](https://en.wikipedia.org/wiki/ISO-8601) when
 it's right there‽), then removing stray spaces after semicolons,
 then removing the `^M` from the end of each line, using
 [structural regular                                                                                  expressions](./doc/cs/structural_regular_expressions_pike_1990.pdf "Structural Regular Expressions"):
+
 	,x/([0-9]+)\/([0-9]+)\/([0-9]+) /c/\3-\1-\2T/
 	,x/; /c/;/
 	,x/.$/c//

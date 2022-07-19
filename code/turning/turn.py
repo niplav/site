@@ -2,6 +2,13 @@ import math
 import networkx as nx
 import itertools as it
 
+import networkx.algorithms.isomorphism.isomorph as isomorph
+
+edge_cost=lambda x: 1
+unaffordable=lambda x: 10e10
+same_node=lambda x, y: x['ind']==y['ind']
+edge_matches=lambda x, y: True
+
 def turn(graph):
 	mindist=math.inf
 	worlds=list(graph.nodes)
@@ -16,10 +23,6 @@ def turn(graph):
 			pathgraph.add_edge(perm[i], perm[i+1])
 		pathgraph=nx.algorithms.dag.transitive_closure(pathgraph)
 		# Compute the graph edit distance, disabling node insertion/deletion/substition and edge substitution
-		edge_cost=lambda x: 1
-		unaffordable=lambda x: 10e10
-		same_node=lambda x, y: x['ind']==y['ind']
-		edge_matches=lambda x, y: True
 		dist=nx.algorithms.similarity.graph_edit_distance(graph, pathgraph, node_match=same_node, edge_match=edge_matches, node_del_cost=unaffordable, node_ins_cost=unaffordable, edge_ins_cost=edge_cost, edge_del_cost=edge_cost)
 		if dist<mindist:
 			result=pathgraph
@@ -39,10 +42,6 @@ def turn_all(graph):
 			pathgraph.add_edge(perm[i], perm[i+1])
 		pathgraph=nx.algorithms.dag.transitive_closure(pathgraph)
 		# Compute the graph edit distance, disabling node insertion/deletion/substition and edge substitution
-		edge_cost=lambda x: 1
-		unaffordable=lambda x: 10e10
-		same_node=lambda x, y: x['ind']==y['ind']
-		edge_matches=lambda x, y: True
 		dist=nx.algorithms.similarity.graph_edit_distance(graph, pathgraph, node_match=same_node, edge_match=edge_matches, node_del_cost=unaffordable, node_ins_cost=unaffordable, edge_ins_cost=edge_cost, edge_del_cost=edge_cost)
 		if dist<mindist:
 			results=set([pathgraph])
@@ -74,3 +73,39 @@ def all_directed_graphs(n):
 					gnew.add_edge(element, n)
 				newgraphs.append(gnew)
 	return newgraphs
+
+def collect_all_5():
+	n=5
+	saved=dict()
+	graphs=all_directed_graphs(n-1)
+	i=1
+	for g in graphs:
+		g.add_node(n, ind=n)
+		for tosubset in powerset(range(1, n+1)):
+			for fromsubset in powerset(range(1, n)):
+				gnew=g.copy()
+				for element in tosubset:
+					gnew.add_edge(n, element)
+				for element in fromsubset:
+					gnew.add_edge(element, n)
+				save_graph(saved, gnew)
+				if i%1000000==0:
+					print(i/2**32)
+
+def save_graph(saved, g):
+	gdeg=",".join(sorted(str(d) for (n,d) in g.degree()))
+	if not gdeg in saved.keys():
+		saved[gdeg]=dict()
+		confusion=len(turn_all(g))
+		saved[gdeg][g]=confusion
+		print('{0},{1},"{2}"'.format(5, confusion, g.edges))
+	else:
+		inthere=False
+		for h in saved[gdeg].keys():
+			if isomorph.is_isomorphic(g, h):
+				inthere=True
+				print('{0},{1},"{2}"'.format(5, saved[gdeg][h], g.edges))
+		if not inthere:
+			confusion=len(turn_all(g))
+			saved[gdeg][g]=confusion
+			print('{0},{1},"{2}"'.format(5, confusion, g.edges))
