@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-03-04, modified: 2022-07-18, language: english, status: notes, importance: 8, confidence: unlikely*
+*author: niplav, created: 2022-03-04, modified: 2022-07-18, language: english, status: notes, importance: 8, confidence: likely*
 
 > __Representing inconsistent preferences with specific mathematical
 structures can clarify thoughts about how to make those preferences
@@ -382,7 +382,6 @@ I will not list them all, but these are less than the `$7!=5040$`
 possible options.
 
 This brings up an interesting question: As we have more and more
-
 elaborate inconsistent preferences over more worlds, does it
 become more likely that they have a unique consistent preference
 they can be turned to? Or, in other words, if we make the graphs
@@ -401,6 +400,13 @@ with `$m$` turnings as
 `$\mathcal{T}{n,m}=\{G \in \mathcal{G}_n | m=|\text{turn_all}(G)|\}$`
 (of which `$\mathcal{U}_n=\mathcal{T}_{n, 1}$`
 is just a special case).
+
+We can call the size of the set of all turnings of a graph the
+__confusion__ of that graph/set of inconsistent preferences: If the
+graph is already the transitive closure of a path graph, the size of
+that set is (arguendo) 1: there are no other possible turnings. If the
+graph contains no edges (with `$n$` nodes), the confusion is maximal with
+`$n!$`, the preferences carry the minimal amount of meaning.
 
 ###### Minimal and Maximal Number of Turnings
 
@@ -461,7 +467,7 @@ One can now pose several (possibly distracting) questions:
 * Is there a more efficient algorithm to compute the turning?
 	* Can it at least be made exponential?
 	* Can we exploit the fact that we're always computing the graph-edit distance to a path-graph?
-* As we add more options to our inconsistent preferences, do they become more likely to turn uninuely?
+* As we add more options to our inconsistent preferences, do they become more likely to turn uniquely?
 	* That is: Does it hold that `$\frac{|\mathcal{U}_n|}{|\mathcal{G}_n|}<\frac{|\mathcal{U}_{n+1}|}{|\mathcal{G}_{n+1}|}$`?
 	* It should be possible to check this for small cases.
 
@@ -470,7 +476,7 @@ One can now pose several (possibly distracting) questions:
 * In general, how does the size of `$\mathcal{U}_n$` develop? What about `$\mathcal{T}_{n,2}$`, or in general `$\mathcal{T}_{n,m}$`?
 	* Does the average number of turnings for inconsistent preferences converge to a specific number?
 	* That is, what is `$\lim_{n \rightarrow \infty} \frac{1}{\mathcal{G}_n} \sum_{i=1}^{n} \mathcal{T}_{n,i}$`?
-	* I predict [20% on the number monotonically increasing](https://predictionbook.com/predictions/208299), [50% on monotonically decreasing](https://predictionbook.com/predictions/208300) and [30% on showing no clear pattern](https://predictionbook.com/predictions/208300).
+	* I predict [20% on the number monotonically increasing](https://predictionbook.com/predictions/208357), [50% on monotonically decreasing](https://predictionbook.com/predictions/208358) and [30% on showing no clear pattern](https://predictionbook.com/predictions/208359).
 
 We can check these empirically! While it would be nice to prove anything
 about them, it's much nicer to investigate them computationally. This is
@@ -549,12 +555,12 @@ which runs squarely counter my expectations:
 	2   1.875000
 	3   3.941406
 	4   9.390289
-	5  21.152344
-	6  39.885246
+	5  20.554422
+	6  47.389381
 
 It seems like the mean number of turnings actually increases
 with the graph size! Surprising. I'm also interested in the
-exact numbers: Why *exactly* 3.390289… for the graphs with 4
+exact numbers: Why *exactly* 9.390289… for the graphs with 4
 nodes? What is so special about that number‽ (Except it being
 the [longitude](https://en.wikipedia.org/wiki/Longitude)
 of the [Cathedral Church of
@@ -729,6 +735,12 @@ to the AI simplex?
 A node splits in two or more, or two or more nodes get merged. If the
 then resulting graph isn't a path graph, it can be turned with the
 method described above.
+
+##### Calculating Utility Over Non-Unique Turnings
+
+###### Incorporating Moral Uncertainty
+
+###### Multiple Ontological Shifts
 
 Further Questions
 ------------------
