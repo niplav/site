@@ -1814,6 +1814,7 @@ General
 -------
 
 * Send typos to people, let them correct them
+* Find some drugs that cause short-term memory loss without ~any side effects, for self-blinding in QS
 
 In-World Projects
 ------------------

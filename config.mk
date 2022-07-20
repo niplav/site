@@ -73,6 +73,7 @@ HTML=index.html \
 	textbook_discord_servers.html \
 	third.html \
 	toy_ai_takeoff_model.html \
+	trillionaire.html \
 	turning.html \
 	two_people_on_a_planet.html \
 	utilitarian_compliments.html \
