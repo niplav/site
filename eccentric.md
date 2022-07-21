@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-20, modified: 2022-07-20, language: english, status: notes, importance: 3, confidence: remote*
+*author: niplav, created: 2022-07-20, modified: 2022-07-21, language: english, status: notes, importance: 3, confidence: remote*
 
 > __What I might do if I magically got hold of a very large amount of
 money, and couldn't spend it maximally altruistically.__
@@ -26,6 +26,20 @@ to get hold of it anytime soon).
 Lots of these ideas aren't mine, and I have tried to attribute them
 wherever I could find the source.
 
+Culture
+---------
+
+* Snowball fights: I remember having *a lot of* fun with snowball fights during breaks in school, but I haven't seen them happen anywhere outside since leaving school.
+
+Language
+---------
+
+* Save dying languages
+* Raise children bilingual, first language Lojban
+* Philosophically Solving Language
+	* Via Conlangs
+	* We have Loglan & Lojban & Láadan & Ithkuil, but there's never been a *concerted* efffort at this?
+
 Art
 ----
 
@@ -42,9 +56,6 @@ Art
 Science
 --------
 
-* A roadmap to learn everything
-	* A list of textbooks whose order is optimised for having all dependencies covered.
-		* Plus professionally done sets of flashcards for those textbooks
 * Better Wireheading
 	* Achieving reversible (you can remove it and the rat feels/behaves as before) & non-adaptative (no hedonic adaptation happening) & non-addictive (isn't sought after when removed) & safe (doesn't have any serious health consequences) & ability-preserving (cognitive function isn't impaired, and ideally improved) & anti-slippery (when in the state the being doesn't seek more of it) long-term pleasure centric wireheading via extensive experiments on animals, either by direct brain stimulation or novel compounds.
 		* This one's pretty ethically questionable
@@ -53,9 +64,20 @@ Science
 * Cloning Extinct Animals
 	* In order: Passenger Pigeons, Thylacines, Dodos, Wooly Mammoths, Neanderthals, John von Neumann…
 * Masturbation Research
-* Raise children bilingual, first language Lojban
 * Explorables for Causal Inference
 * Find drugs that cause short-term memory loss with ideally no side effects (useful for blinding in scientific studies)
+* Studying foreveraloners
+
+Metascience
+------------
+
+* The Distillation Team
+	* A group of people whose sole job it is to talk with smart people whose perfectionism blocks them from writing any of their ideas down and doing it for them
+* The Meta-Analysis Team
+	* A group of people who, whenever I have a question, do a deep dive into the topic & produce a large & in-depth report on the topic (ideally Gwern-style, but I would be willing to make compromises)
+* A roadmap to learn everything
+	* A list of textbooks whose order is optimised for having all dependencies covered.
+		* Plus professionally done sets of flashcards for those textbooks
 
 Metaphilosophy
 ---------------
@@ -65,12 +87,5 @@ Metaphilosophy
 		* Examples:
 			* At some point someone must have invented music. That was a pretty big deal! Maybe we're missing a bunch of these kinds of things and don't even notice.
 			* Same for meditation.
-* Philosophically Solving Language
-	* Via Conlangs
-	* We have Loglan & Lojban & Láadan & Ithkuil, but there's never been a *concerted* efffort at this?
 * Really Out There Stuff Institute (ROTSI)
 	* Focus on exotic decision theories, acausal trade, UDASSA, infinite ethics etc. Global priorities research on steroids.
-* The Distillation Team
-	* A group of people whose sole job it is to talk with smart people whose perfectionism blocks them from writing any of their ideas down and doing it for them
-* The Meta-Analysis Team
-	* A group of people who, whenever I have a question, do a deep dive into the topic & produce a large & in-depth report on the topic (ideally Gwern-style, but I would be willing to make compromises)
