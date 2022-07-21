@@ -6,12 +6,12 @@ import turn
 lim=16
 samples=65536
 
-turn.collect_all_5()
+for i in range(0,5):
+	graphs=turn.all_nonref_directed_graphs(i)
+	for g in graphs:
+		print('{0},{1},"{2}"'.format(i, len(turn.turn_all(g)), g.edges))
 
-#for i in range(0,5):
-#	graphs=turn.all_directed_graphs(i)
-#	for g in graphs:
-#		print('{0},{1},"{2}"'.format(i, len(turn.turn_all(g)), g.edges))
+turn.collect_all_nonref_5()
 
 #for i in range(5,lim):
 #	for j in range(0,samples):

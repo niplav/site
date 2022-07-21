@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-03-25, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-07-21, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of puns, good bandnames, types of guy,
 idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
@@ -257,6 +257,9 @@ Types of Guy
 * guy who is building AGI on a discord server with his buddies instead of getting  himself a girlfriend
 * guy who insists on the distinction between corporatism and corporatocracy
 * guy who says “beginning of this century” when referring to the aughts, and “last century” for events in the nineties
+* guy who takes mdma at a techno rave and says “so this is what it's all about”, but not just about raving culture, but, like, life in general
+* guy who meets his spouse in the metaculus comments
+* guy who, when he hears someone mention SARS, thinks of deep Q-learning
 
 ### Of Rationalist
 
@@ -308,6 +311,7 @@ Puns
 * I uppekhan't get annoyed about this.
 *	What does an enthusiast for upper body clothing say when they see a new piece?  
 	“Intewesting”
+* I had to reject the p-zombie for the position, they just weren't qualiafied.
 
 ### German
 
@@ -346,6 +350,7 @@ Nominative Determinisms
 * The [Alcor Life Extension Foundation](https://en.wikipedia.org/wiki/Alcor_Life_Extension_Foundation) is located in Scottsdale, Arizona, which is in turn a part of Phoenix, Arizona.
 * To quote Wikipedia on [Candida hypersensitivity](https://en.wikipedia.org/wiki/Candida_hypersensitivity): "Candida hypersensitivity is a [pseudoscientific](https://en.wikipedia.org/wiki/Pseudoscience) disease promoted by William G. Crook, M.D."
 * [Kirby Dick](https://en.wikipedia.org/wiki/Kirby_Dick) directed [a documentary](https://en.wikipedia.org/wiki/This_Film_Is_Not_Yet_Rated) about the age rating system for movies, "The MPAA gave the original cut an NC-17 rating for "some graphic sexual content" – scenes that illustrated the content a film could include to garner such a rating. Dick appealed, and descriptions of the ratings deliberations and appeal were included in the documentary."
+* The [Schwarzschild radius](https://en.wikipedia.org/wiki/Schwarzschild_radius)
 
 Incorrect Plurals or Singulars People Use
 ------------------------------------------
@@ -357,7 +362,8 @@ Incorrect Plurals or Singulars People Use
 Equivalences
 -------------
 
-* Decision theory : microeconomics :: game theory : macroeconomics
+* decision theory : microeconomics :: game theory : macroeconomics
+* biology : philosophy of mind :: ethology : meditation
 
 Better Compound Words
 ----------------------

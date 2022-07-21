@@ -74,6 +74,23 @@ def all_directed_graphs(n):
 				newgraphs.append(gnew)
 	return newgraphs
 
+def all_nonref_directed_graphs(n):
+	if n<=0:
+		return [nx.DiGraph()]
+	graphs=all_nonref_directed_graphs(n-1)
+	newgraphs=[]
+	for g in graphs:
+		g.add_node(n, ind=n)
+		for tosubset in powerset(range(1, n)):
+			for fromsubset in powerset(range(1, n)):
+				gnew=g.copy()
+				for element in tosubset:
+					gnew.add_edge(n, element)
+				for element in fromsubset:
+					gnew.add_edge(element, n)
+				newgraphs.append(gnew)
+	return newgraphs
+
 def collect_all_5():
 	to=open('../../data/5_turnings.csv', mode='w')
 	n=5
@@ -83,6 +100,25 @@ def collect_all_5():
 	for g in graphs:
 		g.add_node(n, ind=n)
 		for tosubset in powerset(range(1, n+1)):
+			for fromsubset in powerset(range(1, n)):
+				gnew=g.copy()
+				for element in tosubset:
+					gnew.add_edge(n, element)
+				for element in fromsubset:
+					gnew.add_edge(element, n)
+				save_graph(saved, gnew, to)
+				if i%1000000==0:
+					print(i/2**32)
+
+def collect_all_nonref_5():
+	to=open('../../data/5_nonref_turnings.csv', mode='w')
+	n=5
+	saved=dict()
+	graphs=all_nonref_directed_graphs(n-1)
+	i=1
+	for g in graphs:
+		g.add_node(n, ind=n)
+		for tosubset in powerset(range(1, n)):
 			for fromsubset in powerset(range(1, n)):
 				gnew=g.copy()
 				for element in tosubset:
