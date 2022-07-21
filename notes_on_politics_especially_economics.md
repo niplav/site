@@ -160,8 +160,8 @@ they have?
 
 ### Asymmetric Information
 
-Three Taxes I Like, One I Dislike, And One I'm Unsure About
-------------------------------------------------------------
+Four Taxes I Like, Three I Dislike, And Two I'm Unsure About
+-------------------------------------------------------------
 
 ### Taxes I Like
 

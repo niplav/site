@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-07-16, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-07-21, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,23 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [If we can’t lie to others, we will lie to ourselves (Paul Christiano, 2016)](https://sideways-view.com/2016/11/26/if-you-cant-lie-to-others-you-must-lie-to-yourself/index.html)
+* [Less costly signaling (Paul Christiano, 2016)](https://sideways-view.com/2016/11/22/less-costly-signaling/index.html)
+* [The best kind of discrimination (Paul Christiano, 2016)](https://sideways-view.com/2016/11/03/the-best-kind-of-discrimination/index.html)
+* [The Elephant in the Brain (Paul Christiano, 2018)](https://sideways-view.com/2018/07/08/the-elephant-in-the-brain/index.html)
+* [Could we make information free? (Paul Christiano, 2016)](https://sideways-view.com/2016/10/22/could-we-make-information-free/index.html)
+* [Could raising tolls radically improve commuting? (Paul Christiano, 2016)](https://sideways-view.com/2016/10/27/is-raising-tolls-a-massive-free-lunch/index.html)
+* [Integrity for consequentialists (Paul Christiano, 2016)](https://sideways-view.com/2016/11/14/integrity-for-consequentialists/index.html)
+* [On Trump (Paul Christiano, 2016)](https://sideways-view.com/2016/11/11/on-trump/index.html)
+* [Eight unusual science fiction plots (Paul Christiano, 2018)](https://sideways-view.com/2018/05/27/eight-unusual-science-fiction-plots/index.html)
+* [The Comet King (Paul Christiano, 2016)](https://sideways-view.com/2016/12/09/the-comet-king/index.html)
+* [Intuitive supergoal uncertainty (Justin Shovelain, 2009)](https://www.lesswrong.com/posts/FobXYjmZD254MNk2S/intuitive-supergoal-uncertainty)
+* [Escorting Was Good For Me (Aella, 2022)](https://aella.substack.com/p/escorting-was-good-for-me)
+* [EA for dumb people? (Olivia Addy, 2022)](https://forum.effectivealtruism.org/posts/x9Rn5SfapcbbZaZy9/)
+* [The weirdest ideas I take seriously (Buck Shlegeris, 2018)](https://shlegeris.com/2018/10/23/weirdest.html)
+* [Steam (Abram Demski, 2022)](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam)
+* [Graph isomorphism (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Graph_isomorphism)
+* What Happens When Women Date Women (Xbtusd, 2022)
 * \* Right Concentration (Leigh Brasington, 2015)
 * [What’s out there? (Michael Edward Johnson, 2019)](https://opentheory.net/2019/09/whats-out-there/index.html)
 * [Zeo sleep self-experiments (Gwern Branwen, 2018)](https://www.gwern.net/Zeo)

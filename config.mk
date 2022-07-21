@@ -42,6 +42,7 @@ HTML=index.html \
 	daygame_cost_benefit.html \
 	declaration.html \
 	diamond.html \
+	eccentric.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
 	exercise_log.html \
@@ -73,7 +74,6 @@ HTML=index.html \
 	textbook_discord_servers.html \
 	third.html \
 	toy_ai_takeoff_model.html \
-	trillionaire.html \
 	turning.html \
 	two_people_on_a_planet.html \
 	utilitarian_compliments.html \
