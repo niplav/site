@@ -60,7 +60,6 @@ HTML=index.html \
 	mathematics_notation_convention.html \
 	metamodernistisches_manifest.html \
 	microfiction.html \
-	music_rec.html \
 	pipe_rings.html \
 	platte.html \
 	precision.html \

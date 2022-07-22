@@ -1408,3 +1408,4 @@
 2022-07-20T21:56:57.000000Z	biology:philosophy of mind::ethology:meditation
 2022-07-21T12:03:37.000000Z	myopic consequentialism might often outperform heuristics, don't know about full consequentialism in bounded agents tho
 2022-07-21T13:52:18.000000Z	what are people's attitudes towards others voting selfishly vs. not voting at all?
+2022-07-22T10:44:09.000000Z	a rationalists lament: on the EA community
