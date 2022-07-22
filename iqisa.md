@@ -5,5 +5,5 @@
 
 > __.__
 
-Iqisa: A Library For Handling Forecasting Datasets
-===================================================
+Iqisa Is A Library For Handling Forecasting Datasets
+=====================================================
