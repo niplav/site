@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-03-20, modified: 2022-07-05, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-03-20, modified: 2022-07-23, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __[“Naive Set
 > Theory”](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\))
@@ -1210,3 +1210,48 @@ Then in the former case we know that
 (as per the text). In the latter case we know that
 `$X_{\star} \times X_{n+1}=\emptyset \times X_{n+1}=\emptyset$`,
 so in both cases we get the empty set as a result.
+
+### Stray Exercise 2
+
+To prove:
+
+##### I.
+
+> there exists a function `$f$` with domain `$\mathcal{C}$` such that if
+`$A \in \mathcal{C}$`, then `$f(A) \in A$`
+
+and
+
+##### II.
+
+> if `$\mathcal{C}$` is a collection of pairwise disjoint non-empty sets,
+then there exists a set `$A$` such that `$A \cap C$` is a singleton for
+each `$C$` in `$\mathcal{C}$`
+
+are equivalent to the axiom of choice:
+
+> __Axiom of choice.__ The Cartesian product of a non-empty family of
+non-empty sets is non-empty.
+
+#### I.
+
+We need to prove two directions: `$\text{I} \Rightarrow \text{AOC}$`
+and `$\text{AOC} \Rightarrow \text{I}$`.
+
+For `$\text{AOC} \Rightarrow \text{I}$`, let `$\mathcal{C}^{\times}=C_1
+\times C_2 \times \dots$`.  Let `$C^{\times}$` be any element of
+`$\mathcal{C}^{\times}$` (Can we do that? Or does this then circularly
+depend on a choice function on `$\mathcal{C}^{\times}$`?<!-TODO-->). Then
+we can define `$f$` by `$f(C_i)=C^{\times}(i)$` (since `$C^{\times}$`
+is a tuple).
+
+For `$\text{I} \Rightarrow \text{AOC}$`, we can construct at least one
+element of the Cartesian product of `$\mathcal{C}$` by constructing
+the element `$(f(C_1), f(C_2), f(C_3), \dots)$`. This tuple must be an
+element of the Cartesian product of the elements in `$\mathcal{C}$`,
+therefore that Cartesian product can't be empty.
+
+#### II.
+
+This is actually a special case of I: we just define `$f(C)=C \cap
+A$`. This gives us the results from above.
