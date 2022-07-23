@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-07-22, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-07-24, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,8 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Read A Classic (Robin Hanson, 2010)](https://www.overcomingbias.com/2010/06/read-a-classic.html)
+* [Changing the world through slack & hobbies (Steven Byrnes, 2022)](https://www.lesswrong.com/posts/DdDt5NXkfuxAnAvGJ/changing-the-world-through-slack-and-hobbies)
 * [* Introduction To The Infra-Bayesianism Sequence (Diffractor, 2020)](https://www.lesswrong.com/s/CmrW8fCmSLK7E25sa/p/zB4f7QqKhBHa5b37a)
 * [If we can’t lie to others, we will lie to ourselves (Paul Christiano, 2016)](https://sideways-view.com/2016/11/26/if-you-cant-lie-to-others-you-must-lie-to-yourself/index.html)
 * [Less costly signaling (Paul Christiano, 2016)](https://sideways-view.com/2016/11/22/less-costly-signaling/index.html)

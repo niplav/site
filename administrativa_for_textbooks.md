@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2022-04-05, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2022-07-24, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks (broadly defined as "a book with
 exercises"), and create some stuff while reading them (e.g. making
@@ -49,21 +49,20 @@ mental model of how it works.
 	* p. 1-50
 	* p. 59-
 * [Solutions to Exercises](./pg_solutions.md)
-	* Chapter 1: 1.1-1.2, 1.5
+	* Chapter 1: 1.1-1.2, 1.5-1.6
 	* Chapter 2: 2.2, 2.5, 2.7, 2.9
 * Read:
 	* p. 1-50
-	* p. 59-
 
 ”Naïve Set Theory”
 ------------------
 
 * [Flashcards](./flash/naïve_set_theory.apkg)
-	* Sections 1-12
+	* Sections 1-15
 * [Solutions to Exercises](./nst_solutions.md)
-	* Sections 3-12
+	* Sections 3-15
 * Read:
-	* p. 1-52
+	* p. 1-63
 
 “Pattern Recognition and Machine Learning”
 ------------------------------------------

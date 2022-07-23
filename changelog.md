@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-07-01, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-07-23, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -20,6 +20,28 @@ with fecundity.
 
 July 2022
 ----------
+
+* [Types & Methods of Data Collection I Use](./data.html)
+* [If I Were An Eccentric Trillionaire](./eccentric.html)
+* Sections & editing on [Turning Some Inconsistent Preferences into Consistent Ones](./turning.html), in particular
+	* [Minimal and Maximal Number of Turnings](./turning.html#Minimal-and-Maximal-Number-of-Turnings)
+	* [Number of Turnings for `$\mathcal{G}_n$`](./turning.html#Number-of-Turnings-for-mathcalGn)
+	* [Encoding Inconsistencies](./turning.html#Encoding-Inconsistencies) in the [Discrete Case](./turning.html#Discrete-Case_1)
+* [Solutions to “Naïve Set Theory”](./nst_solutions.html):
+	* [Section 14](./nst_solutions.html#Section-14):
+		* [Stray Exercise 1](./nst_solutions.html#Stray-Exercise-1_1)
+	* [Section 15](./nst_solutions.html#Section-15)
+		* [Stray Exercise 1](./nst_solutions.html#Stray-Exercise-1_2)
+		* [Stray Exercise 2](./nst_solutions.html#Stray-Exercise-2)
+* [Solutions to “Population Genetics”](./pg_solutions.html):
+	* [Chapter 1](./pg_solutions.html#Chapter-1)
+		* [Problem 1.6](./pg_solutions.html#Problem-16)
+
+### Other
+
+I also worked on the library [iqisa](https://github.com/niplav/iqisa),
+which I hope to bring into a presentable shape by the end of the year
+(any faster and I'd lose the forecasting community, I fear).
 
 June 2022
 ----------
@@ -136,7 +158,7 @@ January 2022
 * [Solutions to “Population Genetics”](./pg_solutions.html):
 	* [Chapter 1](./pg_solutions.html#Chapter-1)
 		* [Problem 1.1](./pg_solutions.html#Problem-11)
-		* [Problem 1.2](./pg_solutions.html#Problem-12)
+	* [Problem 1.2](./pg_solutions.html#Problem-12)
 		* [Problem 1.5](./pg_solutions.html#Problem-15)
 * [Solutions to “Naïve Set Theory”](./nst_solutions.html):
 	* [Section 13](./nst_solutions.html#Section-13):
