@@ -22,7 +22,13 @@ with 7 different genotypes.
 
 For four it would be 32 different genotypes:
 
-`$A_1 A_1 A_1 A_1, A_1 A_1 A_1 A_2, A_1 A_1 A_1 A_3, A_1 A_1 A_1 A_4, A_1 A_1 A_2 A_2, A_1 A_1 A_2 A_3, A_1 A_1 A_2 A_4, A_1 A_1 A_3 A_3, A_1 A_1 A_3 A_4, A_1 A_1 A_4 A_4, A_1 A_2 A_2 A_2, A_1 A_2 A_2 A_3, A_1 A_2 A_2 A_4, A_1 A_2 A_3 A_4, A_1 A_2 A_4 A_4, A_1 A_3 A_4 A_4, A_1 A_4 A_4 A_4, A_2 A_2 A_2 A_2, A_2 A_2 A_2 A_3, A_2 A_2 A_2 A_4, A_2 A_2 A_3 A_3, A_2 A_2 A_3 A_4, A_2 A_2 A_4 A_4, A_2 A_3 A_3 A_3, A_2 A_3 A_3 A_4, A_2 A_3 A_4 A_4, A_2 A_4 A_4 A_4, A_3 A_3 A_3 A_3, A_3 A_3 A_3 A_4, A_3 A_3 A_4 A_4, A_3 A_4 A_4 A_4, A_4 A_4 A_4 A_4$`
+`$A_1 A_1 A_1 A_1, A_1 A_1 A_1 A_2, A_1 A_1 A_1 A_3, A_1 A_1 A_1 A_4, A_1 A_1 A_2 A_2$`,
+`$A_1 A_1 A_2 A_3, A_1 A_1 A_2 A_4, A_1 A_1 A_3 A_3, A_1 A_1 A_3 A_4, A_1 A_1 A_4 A_4$`,
+`$A_1 A_2 A_2 A_2, A_1 A_2 A_2 A_3, A_1 A_2 A_2 A_4, A_1 A_2 A_3 A_4, A_1 A_2 A_4 A_4$`,
+`$A_1 A_3 A_4 A_4, A_1 A_4 A_4 A_4, A_2 A_2 A_2 A_2, A_2 A_2 A_2 A_3, A_2 A_2 A_2 A_4$`, 
+`$A_2 A_2 A_3 A_3, A_2 A_2 A_3 A_4, A_2 A_2 A_4 A_4, A_2 A_3 A_3 A_3, A_2 A_3 A_3 A_4$`,
+`$A_2 A_3 A_4 A_4, A_2 A_4 A_4 A_4, A_3 A_3 A_3 A_3, A_3 A_3 A_3 A_4, A_3 A_3 A_4 A_4$`,
+`$A_3 A_4 A_4 A_4, A_4 A_4 A_4 A_4$`.
 
 <!--TODO: what closed form formula describes the above counting
 partition?-->
@@ -68,6 +74,32 @@ Checking, these three do sum to 1: `$0.0859+0.64005+0.27405=1$`.
 	draw()
 
 ![Graph for 1.5](./img/pg_solutions/p1.5.png)
+
+### Problem 1.6
+
+	>>> import numpy as np
+	>>> import scipy.stats as sps
+	>>> freq=np.array([0.4247, 0.3343, 0.0843, 0.0964, 0.0452, 0.0151])
+	>>> expected=np.array([0.4096, 0.3507, 0.0751, 0.1101, 0.0471, 0.0074])
+	>>> sps.chisquare(freq, expected)
+	Power_divergenceResult(statistic=0.012244149537675565, pvalue=0.9999991214396423)
+
+I guess? But checking the solution, I'm apparently wrong in multiple ways:
+3 degrees of freedom, and the genotype frequencies need to be multiplied
+by 332 before conducting the test.
+
+So, try again:
+
+	>>> import numpy as np
+	>>> import scipy.stats as sps
+	>>> freq=332*np.array([0.4247, 0.3343, 0.0843, 0.0964, 0.0452, 0.0151])
+	>>> expected=332*np.array([0.4096, 0.3507, 0.0751, 0.1101, 0.0471, 0.0074])
+	>>> sps.chisquare(freq, expected, ddof=3)
+	Power_divergenceResult(statistic=4.065057646508287, pvalue=0.13100381641660697)
+
+Which is what the solution to the exercise says as well. I guess the
+problem is that I don't really know how to apply statistical tests
+(…yet. Growth mindset.)
 
 Chapter 2
 ----------

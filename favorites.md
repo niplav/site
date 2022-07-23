@@ -114,6 +114,7 @@ Music
 My favorite musicians are Johann Sebastian Bach, Patricia Taxxon, Steve
 Reich, Charles Mingus, Sonny Clark, and Vincent E. L.
 
+<!--TODO: links to these!-->
 My favorite pieces of music are Gavotte en
 Rondeau (Johann Sebastian Bach), [Gyermektánc (Béla
 Bartók)](https://www.youtube.com/watch?v=NTiWbzlwZGw&t=473s), Piano Phase
