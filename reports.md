@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2022-03-24, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2020-10-07, modified: 2022-07-25, language: english, status: notes, importance: 3, confidence: log*
 
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
@@ -49,10 +49,10 @@ I think the effects on my life were (and are) pretty neutral, though my
 visual classifier for Smarts is still much better than for other cars. I
 also still get a little bolt of attention when I see a Smart.
 
-Also, the sportscar variant of Smarts looks kind
-of neat, together with the asthetic of the [Tesla
+Also, the [Smart roadster](https://en.wikipedia.org/wiki/Smart_Roadster)
+looks kind of neat, together with the asthetic of the [Tesla
 Cybertruck](https://en.wikipedia.org/wiki/Tesla_Cybertruck) my preferred
-aesthetic for cars.<!--TODO: links for these-->
+aesthetic for cars.
 
 If you're a bored 9 year old, this is probably not too bad.
 
@@ -129,9 +129,9 @@ This resulted in me biking on average ~25km a day for four months (my
 way to university was ~20km, and sometimes I had to drive into the city
 centre, which was another 10km).
 
-During the time on my bike I usually listened to podcasts on
-my IPod Shuffle<!--TODO: link-->, mostly the [80,000 Hours
-Podcast](https://80000hours.org/podcast/).
+During the time on my bike I usually listened to podcasts on my [IPod
+Shuffle](https://en.wikipedia.org/wiki/IPod_Shuffle), mostly the [80,000
+Hours Podcast](https://80000hours.org/podcast/).
 
 ### Why I Did It
 
@@ -460,8 +460,10 @@ However, the effects of doing intense concentration practice were still
 quite strong. I had some episodes of very clear & vivid mindfulness,
 following the breath easily for several minutes.
 
-I did ½h of metta<!--TODO: link, formatting-->, which convinced me to
-incorporate more loving-kindness meditation into daily practice as well.
+I did ½h of [mettā
+bhāvanā](https://en.wikipedia.org/wiki/Maitr%C4%AB), which convinced
+me to incorporate more loving-kindness meditation into daily practice
+as well.
 
 On the evenings first and second day specifically, my head felt like a
 swarm of busy tiny insects were performing a great amount of labour inside

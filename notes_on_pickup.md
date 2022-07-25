@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-03-12, modified: 2022-03-12, language: english, status: in progress, importance: 2, confidence: other*
+*author: niplav, created: 2022-03-12, modified: 2022-07-25, language: english, status: in progress, importance: 2, confidence: other*
 
 Notes on Pickup
 ================
@@ -81,14 +81,16 @@ center that often, she'll naturally get approached less).
 That said, it's not a very precise question, and is likely interpreted
 in many different ways, so I don't put that much weight on the responses.
 
-Note that this makes sense only *after* the woman has rejected you. If
-you ask during the approach, you are doing two questionable things: (1)
-asking questions and (2) focusing on your competition, instead of the
-woman in front of you. See [Heiman et al. 1995 ch. 13]("The New Strategic Selling")
-<!--TODO: link--> why this is generally a bad idea. This is also the
-strongest argument for why you shouldn't ask about approach frequency:
-In case you see the woman at some later point, she might have changed her
-mind, and asking her about approach frequency burns parts of that bridge.
+Note that this makes sense only *after* the woman has rejected
+you. If you ask during the approach, you are doing two questionable
+things: (1) asking questions and (2) focusing on your competition,
+instead of the woman in front of you. See [Heiman et al. 1995 ch.
+13](https://www.goodreads.com/book/show/34968.The_New_Strategic_Selling "The New Strategic Selling")
+why this is generally a bad idea. This is
+also the strongest argument for why you shouldn't ask about approach
+frequency: In case you see the woman at some later point, she might have
+changed her mind, and asking her about approach frequency burns parts
+of that bridge.
 
 She Needs to Know You're Not a Weirdo
 --------------------------------------
@@ -176,7 +178,7 @@ approaches (“I *could* talk to her, but why bother?”).
 Approach difficulties seem to have a variety of different causes. While
 the best method is to go out, become more and more frustrated, and then
 force yourself to approach (you can also work with your emotional state,
-as described in [Krauser 2014]()<!--TODO: link to Daygame Mastery-->
+as described in [Krauser 2014](https://www.goodreads.com/book/show/31021519-daygame-mastery)
 p. 64). There are different axes which can be intervened on independently:
 
 1. Cognitive Approach Difficulties: Do you believe that approaching is a good idea?

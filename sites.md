@@ -1,12 +1,12 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-14, modified: 2022-05-28, language: english, status: notes, importance: 6, confidence: log*
+*author: niplav, created: 2021-10-14, modified: 2022-07-25, language: english, status: notes, importance: 6, confidence: log*
 
-> __Some people have been complaining about a “website discoverability
-crisis”<!--TODO: link-->. While I haven't been affected by this
-particular problem (on the contrary!), I want people to know some
-high-quality websites.__
+> __Some people have been complaining about a [“website discoverability
+crisis”](https://memex.marginalia.nu/log/19-website-discoverability-crisis.gmi).
+While I haven't been affected by this particular problem (on the
+contrary!), I want people to know some high-quality websites.__
 
 Recommendation-Worthy Websites
 ===============================

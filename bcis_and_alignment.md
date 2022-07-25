@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-08-17, modified: 2022-06-06, language: english, status: in progress, importance: 6, confidence: possible*
+*author: niplav, created: 2021-08-17, modified: 2022-07-25, language: english, status: in progress, importance: 6, confidence: possible*
 
 > __I discuss arguments for and against the usefulness of brain-computer
 interfaces in relation to AI alignment, and conclude that the path to
@@ -380,9 +380,9 @@ A similar but weaker argument would apply to
 
 ### “Merging” AI Systems With Humans
 
-A notion often brought forward in the context of BCIs and AI alignment
-is the one of “merging” humans and AI systems<!--TODO: [citation
-neeeded]-->.
+A notion often brought forward in the context of BCIs and
+AI alignment is the one of [“merging” humans and AI
+systems](https://blog.samaltman.com/the-merge).
 
 Unfortunately, a clearer explanation of how exactly this would work or
 help with making AI go well is usually not provided (at least I haven't
