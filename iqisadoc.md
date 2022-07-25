@@ -1,10 +1,3 @@
-[home](./index.md)
-------------------
-
-*author: niplav, created: 2022, modified: 2022-07-19, language: english, status: notes, importance: 6, confidence: certain*
-
-> __.__
-
 Iqisa Documentation
 ======================
 
@@ -34,8 +27,6 @@ Similarly, one can also load the data from the Good Judgment project
 surveys:
 
 	>>> survey_fcasts=gjp.load_surveys()
-
-The `gjp.load_markets()` function might throw some warnings.
 
 Now `market_fcasts` contains the forecasts from all prediction markets
 from the Good Judgement Project as a [pandas](https://pandas.pydata.org/)
@@ -195,11 +186,6 @@ is a pandas DataFrame<!--TODO: link--> with shared columns:
 * `open_time`: The time at which the question was opened, i.e. at which forecasts could start. Type `datetime64[ns]`
 * `close_time`: The time at which the question was closed, i.e. at which the last possible forecast could be made. Type `datetime64[ns]`.
 * `resolve_time`: The time at which the resolution of the question was available. Type `datetime64[ns]`.
-<!--
-* `date_start`: * `date_suspend`: The datetime at which the question was suspended, i.e. at which no further forecasts were possible. Type `datetime64[ns]`. The biggest difference from `date_closed` seems to be that it also includes the time of closures.
-* `date_to_close`: The planned closing date of the question, type `datetime64[ns]`.
-* `date_closed`: The datetime at which the question was closed, type `datetime64[ns]`.
--->
 * `days_open`: The days for which the quesion was open, type `timedelta64[ns]`.
 * `n_opts`: The number of options the question had, type `int64`.
 * `options`: A string containing a description of the different possible options, type `str`.
@@ -222,67 +208,31 @@ Its columns are
 Loading Functions
 ------------------
 
-### `gjp.load_surveys(files=None)`
+The following functions can be used to load the forecasting data.
 
-#### Data Peculiarities
+### `gjp.load_surveys(files=None, processed=True, complete=False)` and `gjp.load_markets(files=None, processed=True, complete=False)`
 
-The GJOpen forecast data has some peculiarities, which are described here:
+`gjp.load_surveys()` loads forecasting data from GJP surveys, and
+`gjp.load_markets()` loads forecasting data from GJP prediction
+markets. They have the same arguments.
 
-* `question_id`: Follows the format `[0-9]{4}`.
-* `team_id`: The team "DEFAULT" is given the ID 0.
-* `answer_option`: One of 'a', 'b', 'c', 'd' or 'e' (or rarely `numpy.nan` for market data).
-* `outcome`: One of 'a', 'b', 'c', 'd', or 'e' (or rarely `numpy.nan`, in the case of voided questions).
-* `q_status`: One of 'closed', 'voided' or 'open'.
-* `q_type`: Integer between 0 and 6 (inclusive).
-	* 0: regular binomial or multinomial question
-	* 1-5: conditional question, index designated by the specific type (`q_type` 2: 2nd conditional question)
-	* 6: Ordered multinomial question
+#### Arguments
 
-#### `gjp.survey_files`
+* `files`: If `None`, the data is loaded from the default files (depending on the value of `processed`). Expects a list of strings of the filenames.
+	* If `processed` is `True`, `files` is by default `gjp.processed_survey_files`) (for `gjp.load_surveys()`) or `gjp.processed_market_files` (for `gjp.load_markets()`)
+	* If `processed` is `False`, `files` is by default `gjp.survey_files` (for `gjp.load_surveys()`) or `gjp.market_files` (for `gjp.load_markets()`)
+* `processed`: Whether to load the data from a pre-processed file (if `True`) or from the original files (if `False`). The main difference is in speed, loading from the pre-processed file is much faster.
+* `complete`: Whether to load all columns present in the dataset (if `True`) or only columns described [here](#Forecasts) (if `False`). Loading all columns returns a bigger and more confusing DataFrame, loading the comparable subset always returns a subset of the columns of the "complete" DataFrame.
 
-A list containing the names of all files in the dataset that contain
-data from surveys:
+#### Returns
 
-* ./data/gjp/survey_fcasts.yr1.csv
-* ./data/gjp/survey_fcasts.yr2.csv
-* ./data/gjp/survey_fcasts.yr3.csv.zip
-* ./data/gjp/survey_fcasts.yr4.csv.zip
+A DataFrame in the format described [here](#Forecasts) loaded from
+`files`, potentially with additional columns.
 
-### `gjp.load_markets(files=None)`
+##### Additional Fields when `complete=True`
 
-#### `gjp.market_files`
-
-A list containing the names of all files in the dataset that contain
-trades on prediction markets:
-
-* ./data/gjp/pm_transactions.lum1.yr2.csv
-* ./data/gjp/pm_transactions.lum2.yr2.csv
-* ./data/gjp/pm_transactions.lum1.yr3.csv
-* ./data/gjp/pm_transactions.lum2a.yr3.csv
-* ./data/gjp/pm_transactions.lum2.yr3.csv
-* ./data/gjp/pm_transactions.inkling.yr3.csv
-* ./data/gjp/pm_transactions.control.yr4.csv
-* ./data/gjp/pm_transactions.batch.train.yr4.csv
-* ./data/gjp/pm_transactions.batch.notrain.yr4.csv
-* ./data/gjp/pm_transactions.supers.yr4.csv
-* ./data/gjp/pm_transactions.teams.yr4.csv
-
-### `metaculus.load_private_binary(data_file)`
-
-### `metaculus.load_questions(q_files=None)`
-
-### `gjp.load_questions(q_files=None)`
-
-Returns a pandas DataFrame with the columns described [here](#Questions)
-loaded from `q_files`, by default from the files listed in
-`gjp.questions_files` (value `[./data/gjp/ifps.csv]`).
-
-Additionally, this questions data contains the columns
-
-* `q_desc`: The description of the question, including resolution criteria, type `str`.
-* `short_title`: The shortened title of the question, type `str`.
-
-### `gjp.load_complete_surveys(files=None)`
+Setting `complete=True` loads the following additional fields for
+`gjp.load_surveys()`:
 
 * `forecast_id`
 * `fcast_type`
@@ -294,7 +244,8 @@ Additionally, this questions data contains the columns
 * `q_desc`
 * `short_title`
 
-### `gjp.load_complete_markets(files=None)`
+Setting `complete=True` loads the following additional fields for
+`gjp.load_markets()`:
 
 * `islong`
 * `by_agent`
@@ -315,6 +266,84 @@ Additionally, this questions data contains the columns
 * `isbuy`
 * `prob_est`
 * `market_name`
+
+#### Data Peculiarities
+
+The GJOpen forecast data has some peculiarities, which are described here:
+
+* `question_id`: Follows the format `[0-9]{4}`.
+* `team_id`: The team "DEFAULT" is given the ID 0.
+* `answer_option`: One of 'a', 'b', 'c', 'd' or 'e' (or rarely `numpy.nan` for market data).
+* `outcome`: One of 'a', 'b', 'c', 'd', or 'e' (or rarely `numpy.nan`, in the case of voided questions).
+* `q_status`: One of 'closed', 'voided' or 'open'.
+* `q_type`: Integer between 0 and 6 (inclusive).
+	* 0: regular binomial or multinomial question
+	* 1-5: conditional question, index designated by the specific type (`q_type` 2: 2nd conditional question)
+	* 6: Ordered multinomial question
+
+### `gjp.load_questions(files=None)`
+
+Returns a pandas DataFrame with the columns described [here](#Questions)
+loaded from `files`, by default from the files listed in
+`gjp.questions_files` (value `[./data/gjp/ifps.csv]`).
+
+The field `resolve_time` is the same as `close_time`, as the GJOpen data
+doesn't distinguish the two times.
+
+Additionally, this questions data contains the columns
+
+* `q_desc`: The description of the question, including resolution criteria, type `str`.
+* `short_title`: The shortened title of the question, type `str`.
+
+### `gjp.survey_files`
+
+A list containing the names of all files in the dataset that contain
+data from surveys:
+
+* ./data/gjp/survey_fcasts.yr1.csv
+* ./data/gjp/survey_fcasts.yr2.csv
+* ./data/gjp/survey_fcasts.yr3.csv.zip
+* ./data/gjp/survey_fcasts.yr4.csv.zip
+
+### `gjp.market_files`
+
+A list containing the names of all files in the dataset that contain
+trades on prediction markets:
+
+* ./data/gjp/pm_transactions.lum1.yr2.csv
+* ./data/gjp/pm_transactions.lum2.yr2.csv
+* ./data/gjp/pm_transactions.lum1.yr3.csv
+* ./data/gjp/pm_transactions.lum2a.yr3.csv
+* ./data/gjp/pm_transactions.lum2.yr3.csv
+* ./data/gjp/pm_transactions.inkling.yr3.csv
+* ./data/gjp/pm_transactions.control.yr4.csv
+* ./data/gjp/pm_transactions.batch.train.yr4.csv
+* ./data/gjp/pm_transactions.batch.notrain.yr4.csv
+* ./data/gjp/pm_transactions.supers.yr4.csv
+* ./data/gjp/pm_transactions.teams.yr4.csv
+
+### `gjp.processed_survey_files` and `gjp.processed_market_files`
+
+Preprocessed files that contain all survey data
+(`./data/gjp/surveys.csv.zip`) and all market data
+(`./data/gjp/markets.csv.zip`).
+
+### `metaculus.load_private_binary(data_file)`
+
+Load private binary [Metaculus](https://www.metaculus.com/) forecasting
+data in the format the Metaculus developers give to researchers.
+
+`data_file` is the path to the file holding the private binary data.
+
+Returns a DataFrame in [this format](#Forecasts). If the Metaculus
+questions file in the iqisa repository is outdated this might only load
+a subset of the forecasts in `data_file`.
+
+### `metaculus.load_questions(files=None)`
+
+Returns a pandas DataFrame with the columns described [here](#Questions)
+loaded from `files`, by default from the files listed in
+`metaculus.questions_files` (value `[./data/metaculus/questions.csv]`).
 
 General Functions
 ------------------
