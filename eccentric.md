@@ -60,7 +60,7 @@ Science
 	* Achieving reversible (you can remove it and the rat feels/behaves as before) & non-adaptative (no hedonic adaptation happening) & non-addictive (isn't sought after when removed) & safe (doesn't have any serious health consequences) & ability-preserving (cognitive function isn't impaired, and ideally improved) & anti-slippery (when in the state the being doesn't seek more of it) long-term pleasure centric wireheading via extensive experiments on animals, either by direct brain stimulation or novel compounds.
 		* This one's pretty ethically questionable
 	* Replicate the work at the [semalab](https://semalab.arizona.edu/) that uses ultrasound brain stimulation for meditation enhancement.
-* Breeding Superintelligent Octopuses
+* [Breeding Superintelligent Octopuses](https://www.lesswrong.com/posts/DaFG3GKsBrsAnAERR/save-humanity-breed-sapient-octopuses)
 * Cloning Extinct Animals
 	* In order: Passenger Pigeons, Thylacines, Dodos, Wooly Mammoths, Neanderthals, John von Neumann…
 * Masturbation Research
