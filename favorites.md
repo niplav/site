@@ -1,7 +1,7 @@
 [home](./index.html)
 ---------------------
 
-*author: niplav, created: 2022-06-18, modified: 2022-06-30, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2022-06-18, modified: 2022-07-25, language: english, status: draft, importance: 2, confidence: log*
 
 > Idea & format stolen shamelessly from [Gavin
 Leech](https://www.gleech.org/favs/all/).
@@ -75,9 +75,10 @@ final pushes for me to do something in a particular direction):
 	* [Why Cryonics Makes Sense (Tim Urban, 2016)](https://waitbutwhy.com/2016/03/cryonics.html)
 	* [Cryonics − Frequently Asked Questions (FAQ) (Ben Best, 2018)](http://www.benbest.com/cryonics/CryoFAQ.html)
 * Pickup
+	* [Cold Approach: Why It’s a Massive Cheat Code to the Dating Life You Desire](https://looksmax.org/threads/cold-approach-why-its-a-massive-cheat-code-to-the-dating-life-you-desire.330030/) ([video version](https://www.youtube.com/watch?v=kEAQ8dB4_R4))
 	* [You only see the tip of the spear (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/02/07/you-only-see-the-tip-of-the-spear/index.html)
 	* [A lot of guys are pussies, but that means opportunity for the few who aren’t (TheRedQuest, 2022)](https://theredquest.wordpress.com/2022/02/23/a-lot-of-guys-are-pussies-but-that-means-opportunity-for-the-few-who-arent/)
-	* [Guide to Texting Girls (Mr. V, 2020)](./doc/game/guide_to_texting_girls_mr_v_2020.pdf)<!--TODO: add essay about daygame-->
+	* [Guide to Texting Girls (Mr. V, 2020)](./doc/game/guide_to_texting_girls_mr_v_2020.pdf)
 * Finance
 	* [Getting Rich: from Zero to Hero in One Blog Post (Mr. Money Mustache, 2013)](https://www.mrmoneymustache.com/2013/02/22/getting-rich-from-zero-to-hero-in-one-blog-post/)
 	* [The Shockingly Simple Math Behind Early Retirement (Mr. Money Mustache, 2012)](https://www.mrmoneymustache.com/2012/01/13/the-shockingly-simple-math-behind-early-retirement/)
@@ -94,7 +95,7 @@ final pushes for me to do something in a particular direction):
 	* [Why You Should Start a Blog Right Now(Alexey Guzey, 2021)](https://guzey.com/personal/why-have-a-blog.html)
 * People in general and tolerance
 	* [People Are Different (John Nerst, 2017)](https://everythingstudies.com/2017/04/24/people-are-different/)
-<!--TODO: add generalizing from one example-->
+	* [Generalizing From One Example](https://www.lesswrong.com/posts/baTWMegR42PAsH9qJ/generalizing-from-one-example)
 
 ### Books
 
@@ -114,17 +115,29 @@ Music
 My favorite musicians are Johann Sebastian Bach, Patricia Taxxon, Steve
 Reich, Charles Mingus, Sonny Clark, and Vincent E. L.
 
-<!--TODO: links to these!-->
-My favorite pieces of music are Gavotte en
-Rondeau (Johann Sebastian Bach), [Gyermektánc (Béla
-Bartók)](https://www.youtube.com/watch?v=NTiWbzlwZGw&t=473s), Piano Phase
-(Steve Reich), Electric Counterpoint III (Steve Reich), The Well Tuned
-Piano (La Monte Young), This Goes To (Vincent E. L.), Reconstructing
-More Science (Mike Morasky), Diamond Sky (Patricia Taxxon), Sweet Mary
-Sweet Midi (Patricia Taxxon), Castle Sinclair Girnigoe (Patricia Taxxon),
-Alien (Patricia Taxxon), Pack My Box (Patricia Taxxon), and Hellbulb
-(Patricia Taxxon) (I might be a *little bit* of a Taxxon fan). <!--TODO:
-link all of these-->
+My favorite pieces of music are [Gavotte en
+Rondeau](https://www.youtube.com/watch?v=oO9lSd5NdvU)
+(Johann Sebastian Bach), [Gyermektánc (Béla
+Bartók)](https://www.youtube.com/watch?v=NTiWbzlwZGw),
+[Piano Phase](https://www.youtube.com/watch?v=i0345c6zNfM)
+(Steve Reich), [Electric Counterpoint:
+III. Fast](https://www.youtube.com/watch?v=UStCXLNVtGY) (Steve Reich),
+[The Well Tuned Piano](https://www.youtube.com/watch?v=VXxZCSAWUP8) (La
+Monte Young), [This Goes To](https://www.youtube.com/watch?v=QzyLZXm3y-4)
+(Vincent E. L.), [Reconstructing More
+Science](https://www.youtube.com/watch?v=WAeiqxNH3W0) (Mike Morasky),
+[Diamond Sky](https://patriciataxxon.bandcamp.com/track/diamond-sky)
+(Patricia Taxxon), [Sweet Mary Sweet
+Midi](https://patriciataxxon.bandcamp.com/track/diamond-sky)
+(Patricia Taxxon), [Castle Sinclair
+Girnigoe](https://patriciataxxon.bandcamp.com/track/castle-sinclair-girnigoe)
+(Patricia Taxxon),
+[Alien](https://patriciataxxon.bandcamp.com/track/alien)
+(Patricia Taxxon), [Pack My
+Box](https://patriciataxxon.bandcamp.com/track/pack-my-box)
+(Patricia Taxxon), and
+[Hellbulb](https://patriciataxxon.bandcamp.com/track/pack-my-box)
+(Patricia Taxxon) (I might be a *little bit* of a Taxxon fan).
 
 Websites
 ---------

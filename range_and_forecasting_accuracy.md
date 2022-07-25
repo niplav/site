@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2022-06-12, language: english, status: maintenance, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2022-07-25, language: english, status: maintenance, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in
 relation to the time between forecast and resolution, and
@@ -28,8 +28,9 @@ turns deadbeat, evict it.
 
 *— [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“Making Beliefs Pay Rent (in Anticipated Experiences)“](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences), 2007*
 
-Judgmental forecasting<!--TODO: link--> in which
-humans aggregate both [qualitative and quantitative
+[Judgmental
+forecasting](https://en.wikipedia.org/wiki/Forecasting#Judgmental_methods)
+in which humans aggregate both [qualitative and quantitative
 methods](https://en.wikipedia.org/wiki/Forecasting#Qualitative_vs._quantitative_methods)
 to make predictions, and become better at doing so, is a comparatively
 simple idea. Basically, one needs to have only very few tools at one's
@@ -807,7 +808,7 @@ The logistic function seems like an optimal candidate here: it fulfills
 at least desideratum 1 (if shrunk) and 3, and with some fiddling may
 even satisfy 2.
 
-<!--TODO: link Armstrong on the problem of fitting sigmoids here!-->
+<!--TODO: link Armstrong https://www.lesswrong.com/posts/6tErqpd2tDcpiBrX9/why-sigmoids-are-so-hard-to-predict on the problem of fitting sigmoids here!-->
 
 Because this is very different from a [logistic
 regression](https://en.wikipedia.org/wiki/Logistic_regression) (scaled
@@ -867,8 +868,7 @@ The result can be plotted:
 I wonder whether the reason the Metaculus fit reaches the Metaculus
 data so much faster is because the Metaculus data ends earlier? (Also,
 yes, that is the logistic function and not a linear function for the
-PredictionBook data, it's a really non-steep<!--TODO what's the word
-I'm thinking of here?--> slope).
+PredictionBook data, it's a really moderate slope).
 
 Also, both plots start out with `$r(0)=0.125$`: not restricting the
 intercept to positive values returns negative intercepts (meaning that
@@ -941,8 +941,9 @@ the predictions become equivalent to random guesses almost
 immediately for PredictionBook, and for ranges >100 days for
 Metaculus. Perhaps there are some problems with [floating-point
 arithmetic](https://en.wikipedia.org/wiki/floating-point_arithmetic)
-at play here: the best fit *would* be at something like `$10^{-78}$`,
-but `curve_fit` doesn't know how to count that low<!--TODO: link-->?
+at play here: the best fit *would* be at something like
+`$10^{-78}$`, but `curve_fit` doesn't know how to [count that
+low](https://acesounderglass.com/2021/10/20/i-dont-know-how-to-count-that-low/)?
 
 ##### This Is Cool
 
