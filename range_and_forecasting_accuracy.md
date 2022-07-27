@@ -2219,7 +2219,7 @@ completely.
 
 Im am incredibly indebted to the Long-Term Future Fund, who
 gave me enough money for this project that I could justify to my
-parents that I wasn't wasting my time, and to fund my [cryonics
+parents that I wasn't wasting my time, and to pay my [cryonics
 membership](./considerations_on_cryonics.html) for the year on top
 of that.
 

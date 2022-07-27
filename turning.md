@@ -19,6 +19,7 @@ shifts](https://arbital.com/p/ontology_identification/) are discussed.__
 
 <!--https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/niplav-s-shortform?commentId=XRmMoNCPmDhvyLzwc-->
 <!--https://www.lesswrong.com/posts/ky988ePJvCRhmCwGo/using-vector-fields-to-visualise-preferences-and-make-them-->
+<!--TODO: THIS FRICKING THING: https://www.lesswrong.com/posts/6RjL996E8Dsz3vHPk/two-more-decision-theory-problems-for-humans#Partial_Utility_Function_Problem-->
 
 Turning Some Inconsistent Preferences into Consistent Ones
 ===========================================================
@@ -594,7 +595,10 @@ Very much to my surprise, searching for "2,2,46,3640" [in the
 OEIS](https://oeis.org/search?q=2%2C2%2C46%2C3640&sort=&language=english&go=Search)
 yields *no results*, even though the sequence really looks like something
 that would already exist! (I think it has a specifically graph-theoretic
-"feel" to it). But apparently not so, I will submit it soon.
+"feel" to it). But apparently not so. I have tried to submit this sequence
+to the OEIS, but they require either a real-world identity (which I'm
+not willing to reveal) or alternatively a fifth term in the sequence
+(which I'm currently unable to compute (yet. growth mindset.)). Oh well.
 
 <!--TODO: find this sequence on the OEIS-->
 
@@ -729,9 +733,41 @@ That is, shifting probabilities can move us toward indifference among
 options: there are some probabilites for which we will accept high risks
 or abandon possible high rewards.
 
+So we want to have a situation where no linear combination between the
+two "outer" options `$L$` and `$N$` is equivalent to `$M$` (or we find
+a way that `$L \preceq M \preceq N$`, but `$M$` is nowhere to be found
+in any linear combination "between" `$L$` and `$N$`).
+
 #### (In)Dependence
 
+The axiom of independence intuitively states that if we have two options
+`$L$` and `$M$`, combining both of those with a third option with some
+probability shouldn't change our ordering between `$L$` and `$M$`. (That
+is, if we like apples more than bananas, then modifying the choice to
+have a 50% chance apple, 50% chance clementine versus a 50% chance banana,
+50% chance clementine should not change that we like the first case more
+than the second one).
+
+![Apple is preferred to a banana if and only if apple+clementine is preferred to banana+clementine.](./img/turning/independence.png "Apple is preferred to a banana if and only if apple+clementine is preferred to banana+clementine.")
+
+Mathematically, this is expressed as
+`$L \preceq M \Leftrightarrow pL+(1-p)N \preceq pM+(1-p)N$`
+for any `$N$` and `$p \in (0,1]$`.
+
+This might be violated in two different ways by removing either side of
+the implication.
+
+So one could have that `$L \preceq M \not \Rightarrow pL+(1-p)N \preceq pM+(1-p)N$`,
+or that `$L \preceq M \not \Leftarrow pL+(1-p)N \preceq pM+(1-p)N$`.
+
+Poetically, a specific datastructure would need to be able to encode a
+different preference in a "subspace" than in the whole space.
+
 ### Specific Proposals
+
+Following are notes on three different possible approaches for
+mathematical structures to represent inconsistent & consistent
+preferences.
 
 #### Uncountably Large Graphs over Probability Simplices
 
@@ -756,7 +792,7 @@ local preferences over lotteries).
 
 ##### Intransitivity
 
-Curl in the vector field?a
+Curl in the vector field?
 
 ##### Discontinuity
 
@@ -786,6 +822,18 @@ to a preference relation to add new information or remove information?
 
 It is discussed how to incorporate those weights into an algorithm for
 minimally transforming `$G_{\succsim}$` into `$G_{\succeq}$`.
+
+Another possible way to look at the problem is through the lense of
+social choice theory, where one has a set of consistent but contradictory
+preferences from different agents and needs to aggregate those into
+a single preference. In that case the problem is overdetermined:
+we have "too much" information from the different agents as to what
+is preferred to what. In the case of turning inconsistent preferences
+into consistent ones, one might be dealing both with overconstrained and
+underconstrained preferences. Still, a social choice theory perspective
+might be extremely enlightening, especially if [multiagent models of
+mind](https://www.lesswrong.com/s/ZbmRyDN8TCpBTZSip/p/M4w2rdYgCKctbADMn)
+are directly applicable to human minds.
 
 Implications for AI Alignment
 ------------------------------
@@ -819,6 +867,11 @@ function to the entire state space of the model.
 If you know a mapping between objects from human to AI ontology, you
 could find the mapping from the (consistent) human probability simplex
 to the AI simplex?
+
+One can solve the problem [Dai
+2019](https://www.lesswrong.com/posts/6RjL996E8Dsz3vHPk/two-more-decision-theory-problems-for-humans#Partial_Utility_Function_Problem)
+describes as the "Partial Utility Function Problem" by turning that
+partial utility function into a full utility function.
 
 #### Discrete Case
 
