@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-07-24, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-07-27, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,16 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Are there alternative to solving value transfer and extrapolation? (Stuart Armstrong, 2021)](https://www.lesswrong.com/posts/DjTKMEwRqpuKkJzTo/are-there-alternative-to-solving-value-transfer-and)
+* [* A formalization of indirect normativity (Paul Christiano, 2012)](https://ordinaryideas.wordpress.com/2012/04/21/indirect-normativity-write-up/)
+* [Two More Decision Theory Problems for Humans (Wei Dai, 2019)](https://www.lesswrong.com/posts/6RjL996E8Dsz3vHPk/two-more-decision-theory-problems-for-humans)
+* [I Don’t Know How To Count That Low (Elizabeth, 2021)](https://acesounderglass.com/2021/10/20/i-dont-know-how-to-count-that-low/)
+* [The Small Website Discoverability Crisis (Memex, 2021)](https://memex.marginalia.nu/log/19-website-discoverability-crisis.gmi)
+* [Generalizing From One Example (Scott Alexander, 2009)](https://www.lesswrong.com/posts/baTWMegR42PAsH9qJ/generalizing-from-one-example)
+* [AI ontology crises: an informal typology (Stuart Armstrong, 2011)](https://www.lesswrong.com/posts/TA7kDYZGjMcSCH75C/ai-ontology-crises-an-informal-typology)
+* Dating unusual girls who have aspergers, or are non-reactive (TheRedQuest, 2021)
+* Location and logistics, married guys (TheRedQuest, 2019)
+* [Ontological Crisis in Humans (Wei Dai, 2012)](https://www.lesswrong.com/s/kjcioCkqSSS4LiMAe/p/KLaJjNdENsHhKhG5m)
 * [Read A Classic (Robin Hanson, 2010)](https://www.overcomingbias.com/2010/06/read-a-classic.html)
 * [Changing the world through slack & hobbies (Steven Byrnes, 2022)](https://www.lesswrong.com/posts/DdDt5NXkfuxAnAvGJ/changing-the-world-through-slack-and-hobbies)
 * [* Introduction To The Infra-Bayesianism Sequence (Diffractor, 2020)](https://www.lesswrong.com/s/CmrW8fCmSLK7E25sa/p/zB4f7QqKhBHa5b37a)

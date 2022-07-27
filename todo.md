@@ -1751,7 +1751,8 @@ Sequences
 ----------
 
 * LessWrong
-	* Value Interpolation and Extrapolation
+	* Inconsistent Values and Extrapolation
+		* Add `https://www.lesswrong.com/posts/6RjL996E8Dsz3vHPk/two-more-decision-theory-problems-for-humans`
 	* Much More Than You Wanted To Know
 * EA Forum
 	* Cause Area Investigations
