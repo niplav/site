@@ -67,6 +67,7 @@ Science
 * Explorables for Causal Inference
 * Find drugs that cause short-term memory loss with ideally no side effects (useful for blinding in scientific studies)
 * Studying foreveraloners
+* Run Newcomb's problem in real life
 
 Metascience
 ------------

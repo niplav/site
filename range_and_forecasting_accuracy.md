@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2022-07-25, language: english, status: maintenance, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2022-07-29, language: english, status: maintenance, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in
 relation to the time between forecast and resolution, and
@@ -816,7 +816,8 @@ values above the maximum (with a maximum of 0.25, some of the observed
 Brier scores are greater), continuous values to predict), I curve-fit
 explicitely using `scipy.optimize.curve_fit` (why did I only learn about
 this function from scrolling through the scipy documentation‽ This
-is awesome!) with two parameters.
+[is awesome](./notes.html#scipyoptimizecurvefit-Is-Awesome)!) with
+two parameters.
 
 (Why not do a linear regression on the log-transformed data? Because the
 corresponding transformation ends up with with 0 inside a logarithm for

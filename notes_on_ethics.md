@@ -295,9 +295,10 @@ Even if agents bearing preferences can be identified and the preferences
 they bear can be located, ethical agents are faced with a dubious
 demand: Insofar only the preferences of existing agents matter (i.e. our
 population axiology is person-affecting), the ethical agent is forced
-to stabilize existing consistent prefereneces (and perhaps also to make
-inconsistent preferences consistent), because every stable preference
-implies a "meta-preference" of its own continued existence [Omohundro
+to stabilize existing consistent prefereneces (and perhaps also to
+[make inconsistent preferences consistent](./turning.html)), because
+every stable preference implies a "meta-preference" of its own continued
+existence [Omohundro
 2008](./doc/cs/ai/alignment/the_basic_ai_drives_omohundro_2008.pdf "The Basic AI Drives").
 
 However, this conflicts with ethical intuitions: We would like to allow
@@ -373,9 +374,11 @@ boundaries](https://arbital.com/p/inductive_ambiguity/).
 
 If you restrict your preference utilitarianism to currently existing
 preferences, you might get lucky and avoid this kind of scenario. But
-also maybe you won't: If there are any currently existing preferences of
-the form P="I want there to be as many physically implemented instances
-of P to exist as possible", you have two choices:
+also maybe you won't: If there are any currently existing preferences
+of the form P="I want there to be as many physically implemented
+instances of P to exist as possible" (these are possible to represent as
+[quines](https://en.wikipedia.org/wiki/Quine_\(computing\))), you have
+two choices:
 
 * Either you weight preferences by how strong they were at a single point in time `$t$`, and just maximize the preferences existing at `$t$`
 * Or you maximize *currently existing preferences*, weighted by how strong they are right now
@@ -481,11 +484,6 @@ wants to restore justice for all past humans that have died at the
 most sensible course of action is to exterminate some or all species of
 mosquito that feed on human blood and transmit diseases.
 
-A mild counterpoint to this view is that we have an obligation to help
-species that thrive on mosquitoes, since they have helped humanity
-throughout the ages, but we'd hurt them by taking away one of their
-food sources.
-
 There are of course also additional reasons to exterminate some species
 of mosquito: 700k humans die per year from mosquito-borne diseases, and
 it might be better for mosquitos themselves to not exist at all (with
@@ -504,6 +502,11 @@ this is much bigger than the impact on mosquito populations
 directly as calculated in the previous section.
 
 *— [Brian Tomasik](https://reducing-suffering.org), [Will Gene Drives Reduce Wild-Animal Suffering?](https://reducing-suffering.org/will-gene-drives-reduce-wild-animal-suffering/), 2018*
+
+A mild counterpoint to this view is that we have an obligation to help
+species that thrive on mosquitoes, since they have helped humanity
+throughout the ages, but we'd hurt them by taking away one of their
+food sources.
 
 <!--
 Why Death is Bad

@@ -42,6 +42,7 @@ HTML=index.html \
 	daygame_cost_benefit.html \
 	declaration.html \
 	diamond.html \
+	eacrit.html \
 	eccentric.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \

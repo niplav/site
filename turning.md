@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-03-04, modified: 2022-07-19, language: english, status: notes, importance: 8, confidence: likely*
+*author: niplav, created: 2022-03-04, modified: 2022-07-28, language: english, status: notes, importance: 8, confidence: likely*
 
 > __Representing inconsistent preferences with specific mathematical
 structures can clarify thoughts about how to make those preferences
@@ -450,7 +450,7 @@ graph variant of that graph is the same, because we always have to
 add `$n-1+n-2+n-3 \dots 1=\frac{n-1+(n-1)^2}{2}$` edges to reach
 any transitive closure of a path graph (by the [sum of any arithmetic
 progression](https://en.wikipedia.org/wiki/Arithmetic_progression#Sum)).
-Let not `$G^{\circ}$` be a graph with `$n$` nodes that is solely the
+Let now `$G^{\circ}$` be a graph with `$n$` nodes that is solely the
 union of complete digraphs with disjoint nodes. When we now pick two nodes
 `$u$` and `$v$` from `$G^{\circ}$` and add the edges `$\{(u,v), (v,u)\}
 \cup \{(v, x)|(u,x) \in E^{\circ}\} \cup \{(u, y)|(v,x) \in E^{\circ}\}\}
@@ -480,7 +480,7 @@ One can now pose several (possibly distracting) questions:
 	* I predict [20% on the number monotonically increasing](https://predictionbook.com/predictions/208357), [50% on monotonically decreasing](https://predictionbook.com/predictions/208358) and [30% on showing no clear pattern](https://predictionbook.com/predictions/208359).
 
 We can check these empirically! While it would be nice to prove anything
-about them, it's much nicer to investigate them computationally. This is
+about them, I'm just as happy to investigate them computationally. This is
 pretty straightforward: For increasing `$n$`, generate `$\mathcal{G}_n$`,
 for every `$G \in \mathcal{G}_n$`, compute `$|\text{turn_all}(G)|$`, save
 the data in a file somewhere, and do interesting things with that data.
@@ -646,7 +646,7 @@ of this text, we want to ideally find a set of mathematical structures
 	1. Weak Condition of *Partial Unique Representation*: For each element `$\not p'$` of that subset `$\not P'$`, there exists a unique element of `$\not \curlyvee$` that represents `$\not p'$`
 	2. Weak Condition of *Complete Representation*: For every `$\not p \in \not P$` there exists at least one element of `$\not \curlyvee$` that represents `$\not p$`.
 	3. Strong Condition of *Complete Unique Representation*: There is a [bijection](https://en.wikipedia.org/wiki/Bijection,_injection_and_surjection) between `$\not P$` and `$\not \curlyvee$`.
-2. has a strict subset `$\curlyvee \subset \not \curlyvee$` so that `$\curlyvee$` can represent only consistent preferences.
+2. There is a strict subset `$\curlyvee \subset \not \curlyvee$` so that `$\curlyvee$` can represent only consistent preferences.
 
 ### Discrete Case
 
@@ -767,17 +767,79 @@ different preference in a "subspace" than in the whole space.
 
 Following are notes on three different possible approaches for
 mathematical structures to represent inconsistent & consistent
-preferences.
+preferences. None of these satisfy me as approaches, this could be
+rectified through finding a better structure or better algorithms for
+the individual structures.
 
 #### Uncountably Large Graphs over Probability Simplices
 
-##### Incompleteness
+In utility theory and social choice theory, lotteries over
+options are often represented by the so-called probability
+[simplex](https://en.wikipedia.org/wiki/Simplex): each vertex of
+the simplex represents one option, and each point within the simplex
+represents a lottery over the options represented by the vertices,
+where the coordinates of every point sum to 1.
 
-##### Intransitivity
+For example, the set of all lotteries over one option is a simple point,
+over two options it is a line segment, for three options it is a triangle,
+for four it is a tetrahedron etc.
+
+Then for example the lottery `$[0.5: a, 0.5: b]$` is right in the middle
+on the line between `$a$` and `$b$`, the lottery `$[⅓: a, ⅓: b, ⅓: c]$`
+is represented by the point in the middle of an [equilateral
+triangle](https://en.wikipedia.org/wiki/Equilateral_triangle), while
+`$[0.5: a, 0.5: b, 0: c]$` is in the middle of one edge of that triangle.
+
+![](./img/turning/simplex_1.png)
+
+![](./img/turning/simplex_2.png)
+
+Let's call the probability simplex for lotteries over a world `$W$`
+`$Δ_W$`, often just `$Δ$` for short (because of the triangle, get it?).
+
+So one can naïvely just extend the concept of graphs over options to
+graphs over lotteries: The vertices of the graph are elements in `$Δ$`,
+and edges are in `$Δ \times Δ$`.
+
+##### Incompleteness & Intransitivity
+
+One can transfer the representations for [incompleteness](#Incompleteness)
+and [intransitivity](#Intransitivity) directly from the discrete case:
+Incompleteness exists if for two lotteries `$l_1, l_2 \in Δ_W$` there
+are no edges `$(l_1, l_2), (l_2, l_1)$` in the graph, intransitivity
+exists if when for three lotteries `$l_1, l_2, l_3$` and edges `$(l_1, l_2), (l_2, l_3)$`
+there exists no edge `$(l_1, l_3)$` (because of tacit antisymmetry this
+excludes cycles). However, because the graph is _very_ dense (uncountably
+so, in fact!) this is difficult to visualize.
+
+![](./img/turning/incomplete_lott.jpg)
+
+In this example, we have two options `$\{a,b\}$`. Every lottery where
+`$a$` has a probability higher than some threshold (let's say `$0.55$`)
+is incomparable to any lottery where `$p(a)<0.55$`. But otherwise the
+preference is simple: `$[1-p:a, p:b] \succsim [1-q:a, q: b]$` iff `$p>q$`.
+
+The image tries to say exactly that: everything left of the red line is
+comparable to one another, as is everything to the right of the red line,
+and in both cases the more `$b$` the better. It merely leaves out most
+of the edges.
+
+![](./img/turning/intrans_lott_1.jpg)
+
+This image details shows one intransitive case: We always prefer more
+`$b$`, *except* that we prefer pure `$a$` to pure `$b$` (I may display
+this preference: In the case of cake with fruit, I always prefer less
+fruit and more cake, *but* I usually prefer pure fruit to pure cake).
+
+![](./img/turning/intrans_lott_2.jpg)
 
 ##### Discontinuity
 
 ##### Dependence
+
+##### Representing Only Consistent Preferences
+
+##### Problems
 
 #### Vector Fields over Probability Simplices
 
