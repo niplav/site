@@ -1422,3 +1422,7 @@
 2022-07-26T22:11:47.000000Z	malign prior as an idealized case of meta-optimization
 2022-07-27T10:39:28.000000Z	using subscripts for probability assignments?
 2022-07-27T10:40:26.000000Z	see https://www.gwern.net/Subscripts#evidentials
+2022-07-27T21:14:07.000000Z	i think in practice people were most convinced by timelines, if not arguments, then observations abt progress.
+2022-07-27T22:48:32.000000Z	solution to the fermi paradox: ~all species don't have nerds bc nerds are locally maladaptive, get stuck at the social reality bullshit level, humans are a fluke in the regard (kindness to kin, but for…, uhh, nerds?)
+2022-07-27T22:49:03.000000Z	being cone-theoryd
+2022-07-28T21:00:12.000000Z	warm & wet game theory

@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Chicks find it hard to get someone attractive yet interesting (TheRedQuest, 2021)
+* Low-cut top girl asks if I am a “fuckboy” (TheRedQuest, 2019)
+* Basics like asking the girl out and escalation (TheRedQuest, 2019)
+* [Infra-Bayesianism Distillation: Realizability and Decision Theory (Thomas Larsen, 2022)](https://www.lesswrong.com/posts/DMoiZDYZzqknfvoHh/infra-bayesianism-distillation-realizability-and-decision)
 * [Are there alternative to solving value transfer and extrapolation? (Stuart Armstrong, 2021)](https://www.lesswrong.com/posts/DjTKMEwRqpuKkJzTo/are-there-alternative-to-solving-value-transfer-and)
 * [* A formalization of indirect normativity (Paul Christiano, 2012)](https://ordinaryideas.wordpress.com/2012/04/21/indirect-normativity-write-up/)
 * [Two More Decision Theory Problems for Humans (Wei Dai, 2019)](https://www.lesswrong.com/posts/6RjL996E8Dsz3vHPk/two-more-decision-theory-problems-for-humans)
@@ -29,7 +33,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Ontological Crisis in Humans (Wei Dai, 2012)](https://www.lesswrong.com/s/kjcioCkqSSS4LiMAe/p/KLaJjNdENsHhKhG5m)
 * [Read A Classic (Robin Hanson, 2010)](https://www.overcomingbias.com/2010/06/read-a-classic.html)
 * [Changing the world through slack & hobbies (Steven Byrnes, 2022)](https://www.lesswrong.com/posts/DdDt5NXkfuxAnAvGJ/changing-the-world-through-slack-and-hobbies)
-* [* Introduction To The Infra-Bayesianism Sequence (Diffractor, 2020)](https://www.lesswrong.com/s/CmrW8fCmSLK7E25sa/p/zB4f7QqKhBHa5b37a)
+* [Introduction To The Infra-Bayesianism Sequence (Diffractor, 2020)](https://www.lesswrong.com/s/CmrW8fCmSLK7E25sa/p/zB4f7QqKhBHa5b37a)
 * [If we can’t lie to others, we will lie to ourselves (Paul Christiano, 2016)](https://sideways-view.com/2016/11/26/if-you-cant-lie-to-others-you-must-lie-to-yourself/index.html)
 * [Less costly signaling (Paul Christiano, 2016)](https://sideways-view.com/2016/11/22/less-costly-signaling/index.html)
 * [The best kind of discrimination (Paul Christiano, 2016)](https://sideways-view.com/2016/11/03/the-best-kind-of-discrimination/index.html)
