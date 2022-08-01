@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-07-27, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-07-29, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Updating Utility Functions (Joar Skalse/Justin Shovelain, 2022)](https://www.lesswrong.com/posts/NjYdGP59Krhie4WBp/updating-utility-functions)
+* Tough conversations. Downside of being known as a player (TheRedQuest, 2019)
+* Girls who do stupid things, like yell back at a carload of guys late at night (TheRedQuest, 2019)
+* You are not a special and unique sunflower: Jung and game (TheRedQuest, 2019)
+* [Why sigmoids are so hard to predict (Stuart Armstrong, 2021)](https://www.lesswrong.com/posts/6tErqpd2tDcpiBrX9/why-sigmoids-are-so-hard-to-predict)
+* Cause Area Analysis: Differential Neurotechnology Development and Governance (Milan Cvitkovic, 2022)
+* Be extreme (TheRedQuest, 2019)
+* “The Problem With Feminine Women” (TheRedQuest, 2019)
 * Chicks find it hard to get someone attractive yet interesting (TheRedQuest, 2021)
 * Low-cut top girl asks if I am a “fuckboy” (TheRedQuest, 2019)
 * Basics like asking the girl out and escalation (TheRedQuest, 2019)

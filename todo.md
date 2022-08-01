@@ -847,6 +847,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Use the Rocket Squid quote from Erogamer
 * The UTMs-simulate-each-other solution to the Python-with-Witch problem
 	* Look up LW shortform comment on this
+	* https://nitter.hu/RatOrthodox/status/1552618631602663425#m
 * Clanishness vs. tribalism and relatedness in Dunbars number sized groups
 * Upwing and downwing as new political fronts
 	* Hat-grab at John David Pressman
