@@ -828,8 +828,9 @@ of the edges.
 
 This image details shows one intransitive case: We always prefer more
 `$b$`, *except* that we prefer pure `$a$` to pure `$b$` (I may display
-this preference: In the case of cake with fruit, I always prefer less
-fruit and more cake, *but* I usually prefer pure fruit to pure cake).
+this preference in my personal life: In the case of cake with fruit,
+I always prefer less fruit and more cake, *but* I usually prefer pure
+fruit to pure cake).
 
 ![](./img/turning/intrans_lott_2.jpg)
 
