@@ -1814,3 +1814,4 @@ In-World Projects
 * Found a community of algae farmers that speak a Icelandic-Basque pidgin
 * Add Ithkuil script to the UCSUR
 * Bring the rest of the Latin super/subscripts into Unicode
+* Create & maintain rat/postrat/metarat fediverse instance
