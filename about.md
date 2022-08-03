@@ -109,7 +109,7 @@ a forum one can at least link or lurk without creating an account,
 and potentially just shove it into the internet archive if need
 be! "[anicca](https://en.wikipedia.org/wiki/Impermanence), anicca…"). I
 do, however, sometimes participate in the guilty pleasure of [ephemeral
-shitposting](https://schelling.pt/@niplav).
+shitposting](https://social.freetalklive.com/web/@niplav).
 
 I'm not big into linguistic prescriptivism (although it
 is another one of those guilty pleasures I [occasionally engage
@@ -491,14 +491,15 @@ The last g-laden test I took put me at ~110, which seems about right.
 * [Metaculus](https://www.metaculus.com/accounts/profile/112493/)
 * [Reddit](https://old.reddit.com/u/niplav)
 * [Wikipedia](https://en.wikipedia.org/wiki/User:Niplav)
-* [Mastodon](https://schelling.pt/@niplav)
+* [Fediverse](https://social.freetalklive.com/web/@niplav)
 
 I used to use [twitter](https://nitter.hu/niplavyushtun),
 but I got addicted to it (thrice) and decided to instead
 switch to [twtxt](https://github.com/buckket/twtxt). Then I
 discovered that it's not quite as fun as twitter and switched to a
-[mastodon](https://schelling.pt/@niplav) instance instead, which has
-been an okay middle ground.
+[mastodon](https://schelling.pt/@niplav) instance instead, and [another
+one](https://social.freetalklive.com/web/@niplav) after the first one
+died, which has been an okay middle ground.
 
 ### Contact
 

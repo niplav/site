@@ -4,11 +4,6 @@ import itertools as it
 
 import networkx.algorithms.isomorphism.isomorph as isomorph
 
-edge_cost=lambda x: 1
-unaffordable=lambda x: 10e10
-same_node=lambda x, y: x['ind']==y['ind']
-edge_matches=lambda x, y: True
-
 def turn(graph):
 	mindist=math.inf
 	worlds=list(graph.nodes)
@@ -22,8 +17,7 @@ def turn(graph):
 		for i in range(0, len(perm)-1):
 			pathgraph.add_edge(perm[i], perm[i+1])
 		pathgraph=nx.algorithms.dag.transitive_closure(pathgraph)
-		# Compute the graph edit distance, disabling node insertion/deletion/substition and edge substitution
-		dist=nx.algorithms.similarity.graph_edit_distance(graph, pathgraph, node_match=same_node, edge_match=edge_matches, node_del_cost=unaffordable, node_ins_cost=unaffordable, edge_ins_cost=edge_cost, edge_del_cost=edge_cost)
+		dist=len(set(graph.edges)^set(pathgraph.edges))
 		if dist<mindist:
 			result=pathgraph
 			mindist=dist
@@ -41,8 +35,7 @@ def turn_all(graph):
 		for i in range(0, len(perm)-1):
 			pathgraph.add_edge(perm[i], perm[i+1])
 		pathgraph=nx.algorithms.dag.transitive_closure(pathgraph)
-		# Compute the graph edit distance, disabling node insertion/deletion/substition and edge substitution
-		dist=nx.algorithms.similarity.graph_edit_distance(graph, pathgraph, node_match=same_node, edge_match=edge_matches, node_del_cost=unaffordable, node_ins_cost=unaffordable, edge_ins_cost=edge_cost, edge_del_cost=edge_cost)
+		dist=len(set(graph.edges)^set(pathgraph.edges))
 		if dist<mindist:
 			results=set([pathgraph])
 			mindist=dist
@@ -92,7 +85,6 @@ def all_nonref_directed_graphs(n):
 	return newgraphs
 
 def collect_all_5():
-	to=open('../../data/5_turnings.csv', mode='w')
 	n=5
 	saved=dict()
 	graphs=all_directed_graphs(n-1)
@@ -106,12 +98,10 @@ def collect_all_5():
 					gnew.add_edge(n, element)
 				for element in fromsubset:
 					gnew.add_edge(element, n)
-				save_graph(saved, gnew, to)
-				if i%1000000==0:
-					print(i/2**32)
+				confusion=len(turn_all(gnew))
+				print('{0},{1},"{2}"'.format(5, confusion, gnew.edges))
 
 def collect_all_nonref_5():
-	to=open('../../data/5_nonref_turnings.csv', mode='w')
 	n=5
 	saved=dict()
 	graphs=all_nonref_directed_graphs(n-1)
@@ -125,28 +115,39 @@ def collect_all_nonref_5():
 					gnew.add_edge(n, element)
 				for element in fromsubset:
 					gnew.add_edge(element, n)
-				save_graph(saved, gnew, to)
-				if i%1000000==0:
-					print(i/2**32)
+				confusion=len(turn_all(gnew))
+				print('{0},{1},"{2}"'.format(5, confusion, gnew.edges))
 
-def save_graph(saved, g, to):
+def collect_all_nonref_5_cache():
+	n=5
+	saved=dict()
+	graphs=all_nonref_directed_graphs(n-1)
+	i=1
+	for g in graphs:
+		g.add_node(n, ind=n)
+		for tosubset in powerset(range(1, n)):
+			for fromsubset in powerset(range(1, n)):
+				gnew=g.copy()
+				for element in tosubset:
+					gnew.add_edge(n, element)
+				for element in fromsubset:
+					gnew.add_edge(element, n)
+				save_graph(saved, gnew)
+
+def save_graph(saved, g):
 	gdeg=",".join(sorted(str(d) for (n,d) in g.degree()))
 	if not gdeg in saved.keys():
 		saved[gdeg]=dict()
 		confusion=len(turn_all(g))
 		saved[gdeg][g]=confusion
 		print('{0},{1},"{2}"'.format(5, confusion, g.edges))
-		print('{0},{1},"{2}"'.format(5, confusion, g.edges), file=to)
 	else:
 		inthere=False
 		for h in saved[gdeg].keys():
 			if isomorph.is_isomorphic(g, h):
-				print("isomorphism found!")
 				inthere=True
 				print('{0},{1},"{2}"'.format(5, saved[gdeg][h], g.edges))
-				print('{0},{1},"{2}"'.format(5, saved[gdeg][h], g.edges), file=to)
 		if not inthere:
 			confusion=len(turn_all(g))
 			saved[gdeg][g]=confusion
 			print('{0},{1},"{2}"'.format(5, confusion, g.edges))
-			print('{0},{1},"{2}"'.format(5, confusion, g.edges), file=to)

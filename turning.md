@@ -328,6 +328,42 @@ set](https://en.wikipedia.org/wiki/Feedback_arc_set)?
 
 <!--TODO: measure runtime, think about faster algorithms-->
 
+Part of the solution turns out to be so blindingly simple that
+I missed it: When just considering the graph edit distance between
+a graph and one of its possible turnings, this [can be computed in linear
+time](https://cs.stackexchange.com/questions/153281/fast-algorithm-for-graph-edit-distance-to-vertex-labeled-path-graph/153321#153321)
+with the size of the [symmetric set
+difference](https://en.wikipedia.org/wiki/Symmetric_difference) of the
+edges of the graph and its turning. The reason for this is that each
+edge that appears in the original graph but not in its potential turning
+needs to be removed at some point, and every edge that appears in the
+potential turning but not in the original graph needs to be removed at
+some point. The symmetric set difference is simply the minimal set of
+those edges: any smaller and you'd be missing some edges.
+
+I really missed the forest for the trees with this one then: thinking
+too complicatedly about a simple problem (similar to solving the [maximum
+subarray problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
+with [Kadane's
+algorithm](https://en.wikipedia.org/wiki/Maximum_subarray_problem#Kadane's_algorithm)).
+
+We can modify the algorithm to compute `dist` more efficiently:
+
+	turn(G≿=(W, E≿)):
+		[…]
+		dist=|E≿ΔE_L|
+		[…]
+
+and its implementation
+
+	def turn(graph):
+		[…]
+		dist=len(set(graph.edges)^set(pathgraph.edges))
+		[…]
+
+This has a *very* significant practical speedup for the relevant cases
+I look at, but is still factorial in the number of nodes in the graph.
+
 ##### Non-Unique Results
 
 Another, smaller problem is that the algorithm often doesn't have a unique
@@ -519,8 +555,10 @@ of graphs:
 	>>> [len(list(all_directed_graphs(i))) for i in range(0,5)]
 	[1, 2, 16, 512, 65536]
 
-So the number directed graphs with 5 nodes would be
-`$2^{32}=4294967296$`, far too many for my puny laptop. But
+So the number directed graphs with 5 nodes would
+be `$2^{5^2}=33554432$` (the number of [adjacency
+matrices](https://en.wikipedia.org/wiki/Adjacency_matrix) for
+graphs with 5 nodes), far too many for my puny laptop. But
 instead of generating them all, one can just generate a
 random sample and test on that, using the [Erdős–Rényi
 model](https://en.wikipedia.org/wiki/Erdős-Rényi_model),
@@ -533,7 +571,7 @@ included in the model, it seems) with probability `$\frac{1}{2}$` each,
 and labels for the nodes, and then we're good to go:
 
 	samples=256
-	for i in range(5,lim):
+	for i in range(6,lim):
 		for j in range(0,samples):
 			g=nx.generators.random_graphs.gnp_random_graph(i, 0.5, directed=True)
 			for n in g.nodes:
@@ -553,20 +591,15 @@ which runs squarely counter my expectations:
 	           1
 	0
 	1   1.000000
-	2   1.875000
-	3   3.941406
-	4   9.390289
-	5  20.554422
-	6  47.389381
+	2   1.500000
+	3   2.625000
+	4   4.910156
+	5  17.836986
 
 It seems like the mean number of turnings actually increases
 with the graph size! Surprising. I'm also interested in the
-exact numbers: Why *exactly* 9.390289… for the graphs with 4
-nodes? What is so special about that number‽ (Except it being
-the [longitude](https://en.wikipedia.org/wiki/Longitude)
-of the [Cathedral Church of
-Christ](https://en.wikipedia.org/wiki/Cathedral_Church_of_Christ)
-in Lagos).
+exact numbers: Why *exactly* 4.910156… for the graphs with 4
+nodes? What is so special about that number‽
 
 Looking at unique turnings turns (hehe) up further questions:
 
@@ -576,37 +609,39 @@ Looking at unique turnings turns (hehe) up further questions:
 	>>> df.groupby(['0']).apply(uniqueratio)
 	0
 	1    1.000000
-	2    0.125000
-	3    0.089844
-	4    0.055542
-	5    0.050781
-	6    0.016393
+	2    0.500000
+	3    0.281250
+	4    0.164062
+	5    0.021779
 	dtype: float64
 	>>> def uniques(g):
 	...     return len(g.loc[g['1']==1])
 	>>> df.groupby(['0']).apply(uniques)
 	0
-	1       2
-	2       2
-	3      46
-	4    3640
+	1        2
+	2        8
+	3      144
+	4    10752
+	5   203360
+	dtype: int64
 
-Very much to my surprise, searching for "2,2,46,3640" [in the
-OEIS](https://oeis.org/search?q=2%2C2%2C46%2C3640&sort=&language=english&go=Search)
-yields *no results*, even though the sequence really looks like something
-that would already exist! (I think it has a specifically graph-theoretic
-"feel" to it). But apparently not so. I have tried to submit this sequence
-to the OEIS, but they require either a real-world identity (which I'm
-not willing to reveal) or alternatively a fifth term in the sequence
-(which I'm currently unable to compute (yet. growth mindset.)). Oh well.
+Very much to my surprise, searching for "0,2,8,144,10752" [in the
+OEIS](https://oeis.org/search?q=0%2C2%2C8%2C144%2C10752&sort=&language=english&go=Search)
+yields *no results* (even [without leading
+zero](https://oeis.org/search?q=2%2C8%2C144%2C10752&sort=&language=english&go=Search)),
+even though the sequence really looks like something that would already
+exist! (I think it has a specifically graph-theoretic "feel" to it). But
+apparently not so. I have tried to submit this sequence to the OEIS,
+but they require either a real-world identity (which I'm not willing
+to reveal) or alternatively a fifth term in the sequence (which I'm
+currently computing). Oh well.
 
 <!--TODO: find this sequence on the OEIS-->
 
-I omit the number of unique turnings for 5 and 6, for obvious reasons
-(I also believe that the ratio for 6 is an outlier and should not be
-counted). The number of unique resolutions for the graph with 1 node
-makes sense, though: Removing the reflexive edge should count as
-one edge action, but the graph only has one unique resolution:
+I omit the number of unique turnings for 5 and 6, for obvious reasons. The
+number of unique resolutions for the graph with 1 node makes sense,
+though: Removing the reflexive edge should count as one edge action,
+but the graph only has one unique resolution:
 
 	>>> df.loc[df['0']==1]
 	   0  1        []
@@ -941,6 +976,10 @@ partial utility function into a full utility function.
 A node splits in two or more, or two or more nodes get merged, one adds
 nodes, or removes them. If the then resulting graph isn't a path graph,
 it can be turned with the method described above.
+
+Example with mammals > birds > fish (where dolphins & trouts are both
+fish!), but then we go through an ontological shift where fish split
+into fish and water mammals.
 
 ##### Calculating Utility Over Non-Unique Turnings
 
