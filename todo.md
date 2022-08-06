@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-07-13, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-08-03, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -445,11 +445,14 @@ Texts
 		* [https://dynomight.net/diet-coke-nootropic]
 	* Erectile dysfunction medication QS
 		* Other purported aphrodisiacs?
+	* Creatine
 * Methods
 	* Brown Noise
 	* Intermittent fasting
 * Muse headband for data collection?
 * Scott Alexander CO₂ and wordgame performance
+* Testing self-conditioning via nicotine as reward
+	* https://www.sciencedaily.com/releases/2009/09/090909122052.htm
 
 ### Arguments
 
@@ -973,6 +976,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Elon Musk Forecast Correction Function
 	* Code: `1.8239233 * (forecasted-forecast_made) + 48.0502205` (days)
 	* [Original](https://web.archive.org/web/20210302224031/https://anthony.boyles.cc/Essays/portfolio/ElonMuskForecastCorrectionFunction.html)
+* End-of-the-world Bet Calculator
 * Auctioning off Your Body
 	* `https://www.humanmicrobes.org/`
 	* Kidney

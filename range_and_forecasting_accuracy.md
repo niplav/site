@@ -2321,3 +2321,8 @@ of the butterfly dynamics of nonlinear systems. In my EPJ research,
 the accuracy of expert predictions declined toward chance five years out.
 
 *— [Philip E. Tetlock](https://en.wikipedia.org/wiki/Philip_E._Tetlock) & Dan Gardner, “Superforecasting” p. 234, 2015*
+
+> The future is usually "absurd" - it is unstable in its surface rules
+over fifty-year intervals.
+
+*— [Eliezer Yudkowsky](https://www.yudkowsky.net/), [“Absurdity Heuristic, Absurdity Bias”](https://www.lesswrong.com/posts/P792Z4QA9dzcLdKkE/absurdity-heuristic-absurdity-bias), 2007*
