@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2022-06-12, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2022-08-04, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1224,6 +1224,7 @@ TODO: do-->
 * Ceramic plates and cups made of glass that break easily
 * Non-velcro shoes
 * Courses at university are not 3blue1brown + Q&A + extensive quizzes (or automated tutoring à la DARPA)
+* TSA security theater
 
 An Example for Not Updating Uncertain Utility Functions
 --------------------------------------------------------

@@ -556,7 +556,7 @@ of graphs:
 	[1, 2, 16, 512, 65536]
 
 So the number directed graphs with 5 nodes would
-be `$2^{5^2}=33554432$` (the number of [adjacency
+be `$2^{(5^2)}=33554432$` (the number of [adjacency
 matrices](https://en.wikipedia.org/wiki/Adjacency_matrix) for
 graphs with 5 nodes), far too many for my puny laptop. But
 instead of generating them all, one can just generate a

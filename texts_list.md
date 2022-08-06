@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-07-29, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-08-03, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,11 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Nicotine (Gwern Branwen, 2016)](https://www.gwern.net/Nicotine)
+* [The Worst Game Ever (Gavin Leech, 2016)](https://www.gleech.org/worst)
+* [Why I don't write as much as I used to (Brian Tomasik, 2022)](https://briantomasik.com/writing-less/)
+* [EA and the current funding situation (William MacAskill, 2022)](https://forum.effectivealtruism.org/posts/cfdnJ3sDbCSkShiSZ/ea-and-the-current-funding-situation)
+* [PEP 8 – Style Guide for Python Code (Barry Warsaw/Guido van Rossum/Nick Coghlan, 2013)](https://peps.python.org/pep-0008/)
 * [Updating Utility Functions (Joar Skalse/Justin Shovelain, 2022)](https://www.lesswrong.com/posts/NjYdGP59Krhie4WBp/updating-utility-functions)
 * Tough conversations. Downside of being known as a player (TheRedQuest, 2019)
 * Girls who do stupid things, like yell back at a carload of guys late at night (TheRedQuest, 2019)
@@ -30,7 +35,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * Basics like asking the girl out and escalation (TheRedQuest, 2019)
 * [Infra-Bayesianism Distillation: Realizability and Decision Theory (Thomas Larsen, 2022)](https://www.lesswrong.com/posts/DMoiZDYZzqknfvoHh/infra-bayesianism-distillation-realizability-and-decision)
 * [Are there alternative to solving value transfer and extrapolation? (Stuart Armstrong, 2021)](https://www.lesswrong.com/posts/DjTKMEwRqpuKkJzTo/are-there-alternative-to-solving-value-transfer-and)
-* [* A formalization of indirect normativity (Paul Christiano, 2012)](https://ordinaryideas.wordpress.com/2012/04/21/indirect-normativity-write-up/)
+* [A formalization of indirect normativity (Paul Christiano, 2012)](https://ordinaryideas.wordpress.com/2012/04/21/indirect-normativity-write-up/)
 * [Two More Decision Theory Problems for Humans (Wei Dai, 2019)](https://www.lesswrong.com/posts/6RjL996E8Dsz3vHPk/two-more-decision-theory-problems-for-humans)
 * [I Don’t Know How To Count That Low (Elizabeth, 2021)](https://acesounderglass.com/2021/10/20/i-dont-know-how-to-count-that-low/)
 * [The Small Website Discoverability Crisis (Memex, 2021)](https://memex.marginalia.nu/log/19-website-discoverability-crisis.gmi)
