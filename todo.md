@@ -1794,6 +1794,7 @@ Metaculus Questions
 * A question about SGSS (?) data for virginity/no sex in last year for 2025-2030
 * A question about antibiotic resistant strains
 * Some questions about the performance of BCIs
+* Conditional on China invading Taiwan, will TSMC blow up its factories?
 
 Structure
 ---------

@@ -95,7 +95,7 @@ final pushes for me to do something in a particular direction):
 	* [Why You Should Start a Blog Right Now(Alexey Guzey, 2021)](https://guzey.com/personal/why-have-a-blog.html)
 * People in general and tolerance
 	* [People Are Different (John Nerst, 2017)](https://everythingstudies.com/2017/04/24/people-are-different/)
-	* [Generalizing From One Example](https://www.lesswrong.com/posts/baTWMegR42PAsH9qJ/generalizing-from-one-example)
+	* [Generalizing From One Example (Scott Alexander, 2009)](https://www.lesswrong.com/posts/baTWMegR42PAsH9qJ/generalizing-from-one-example)
 
 ### Books
 
