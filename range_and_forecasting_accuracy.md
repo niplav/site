@@ -2177,8 +2177,13 @@ After the support address had not responded to my inquiry, I contacted
 one of the admins of the site on the Discord, but was informed that
 updating the API would be too difficult to do (which is understandable,
 the Metaculus developers do not exist to cater to my whims, and are doing
-a phenomenal job). So, unfortunately I'll have postpone a more complete
-analysis to later.
+a phenomenal job).
+
+More than a year later, I got hold off the private Metaculus data via
+my job, the Metaculus admins also allowed me to use it for any private
+investigations.
+
+### Testing Previous Metaculus Findings on Private Data
 
 Limitations
 -----------

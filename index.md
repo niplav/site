@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2022-06-23, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2022-08-07, language: english, status: in progress, importance: 6, confidence: log*
 
 > __If you take away just one thing from this website,
 it should be that I think [you would want to sign up for
@@ -37,6 +37,7 @@ Writing
 #### Forecasting
 
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+* [Forecasters: What Do They Know? Do They Know Things?? Let's Find Out!](./forecasters.html)
 
 #### Programming & Computer Science
 

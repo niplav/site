@@ -1,12 +1,69 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-07-07, modified: 2022-07-19, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2022-07-07, modified: 2022-08-07, language: english, status: notes, importance: 2, confidence: log*
 
-> __.__
+> __Notes for myself on the data I track, how to transform it into a
+usable shape, data quality and other random assortments.__
 
 Types & Methods of Data Collection I Use
 =========================================
+
+I've always collected some data about myself and the world around me,
+but not using/analyzing it because of a chronic "I'll get around to it
+*eventually*" syndrome. Which is a shame, because that means I've been
+putting in a reasonably large amount of effort and have nothing to show
+for it, a 1-legged stool:
+
+> The QS cycle is straightforward and flexible:  
+>  
+1. Have an idea  
+2. Gather data  
+3. Test the data  
+4. Make a change; GOTO 1
+
+> Any of these steps can overlap: you may be collecting sleep data long
+before you have the idea (in the expectation that you will have an idea),
+or you may be making the change as part of the data in an experimental
+design, or you may inadvertently engage in a “natural experiment”
+before wondering what the effects were (perhaps the baby wakes you up
+on random nights and lets you infer the costs of poor sleep).  
+>
+> The point is not publishable scientific rigor. If you are the sort of
+person who wants to run such rigorous self-experiments, fantastic! The
+point is making your life better, for which scientific certainty is not
+necessary: imagine you are choosing between equally priced sleep pills
+and equal safety; the first sleep pill will make you go to sleep faster
+by 1 minute and has been validated in countless scientific trials, and
+while the second sleep pill has in the past week has ended the sweaty
+nightmares that have plagued you every few days since childhood but alas
+has only a few small trials in its favor—which would you choose? I
+would choose the second pill! […]
+>
+> One failure mode which is particularly dangerous for QSers is
+to overdo the data collection and collect masses of data they
+never use. Famous computer entrepreneur & mathematician [Stephen
+Wolfram](https://en.wikipedia.org/wiki/Stephen_Wolfram)
+exemplified this for me in March 2012 with his
+lengthy blog post ⁠[“The Personal Analytics of My
+Life”](https://writings.stephenwolfram.com/2012/03/the-personal-analytics-of-my-life/)
+in which he did some impressive graphing and exploration
+of data from 1989 to 2012: a third of a million (!) emails,
+full keyboard logging, calendar, phone call logs (with missed
+calls include), a pedometer, revision history of his tome [A New Kind of
+Science⁠](https://www.amazon.com/New-Kind-Science-Stephen-Wolfram/dp/1579550088/?tag=gwernnet-20),
+file types accessed per date, parsing scanned documents for dates,
+a treadmill, and perhaps more he didn’t mention. […]
+>
+> One thinks of [a saying](https://deming.org/index.cfm?content=653) of
+[W. Edwards Deming](https://en.wikipedia.org/wiki/W._Edwards_Deming):
+“Experience by itself teaches nothing.” Indeed. A QS experiment is a
+4-legged beast: if any leg is far too short or far too long, it can’t
+carry our burdens.
+
+At least I now know that I'm falling into this trap, "Selbsterkenntnis
+ist der erste Schritt zur Besserung". And the second step is to bring
+all of your data in a usable format.
 
 Anki
 -----
@@ -81,6 +138,10 @@ This is 0 for learning cards, 1 for review cards, 2 for relearn cards,
 and 3 for "cram" cards (cards being studied in a filtered deck when they
 are not due).
 
+*— Anki developers, [“Manual Analysis”](https://docs.ankiweb.net/stats.html#manual-analysis) in [“Graphs and Statistics”](https://docs.ankiweb.net/stats.html#manual-analysis), year unknown*
+
+The CSV of the data can be found [here](./data/anki_reviews.csv).
+
 Meditation
 -----------
 
@@ -94,6 +155,8 @@ for the data, after having locked myself in :-|):
 
 The names for the columns are exceedingly obvious and need no further
 explanation.
+
+The CSV of the meditation data can be found [here](./data/meditations.csv).
 
 Daygame
 --------
@@ -173,3 +236,46 @@ Anonymizing locations and the names of girls:
 
 The approaches file can be found [here](./data/daygame_approaches.csv),
 the sessions file can be found [here](./data/daygame_sessions.csv).
+
+Others
+-------
+
+Other metrics I track don't deserve as much elaboration.
+
+### Masturbation
+
+I track when I masturbate & how good it feels & the type of
+pornography in [this file](./data/masturbations.csv) via [this
+script](./data/mstrbt). Data quality is pretty high.
+
+### Mood
+
+I track my mood via the excellent [Mood
+Patterns](https://play.google.com/store/apps/details?id=info.moodpatterns.moodpatterns&hl=en&gl=US)
+which allows swift CSV export of the data. They even turned changed the
+*annoying* "hitting a block of wood with a hammer" notification sound to
+the OS default. No post-processing needed, the data *is just there*. An
+app by programmers, for programmers.
+
+CSV [here](./data/mood.csv), the data quality is mediocre (long stretches
+of not responding to questions, giving more conservative (closer to
+50) answers over time, starting to use activities around July 2022
+(and not using it for what it was intended for: when the activity is
+"Nothing" that means I carried on with my day as normal afterwards, if
+the activity is "Mindfulness" it means I spend a couple of seconds in
+a more mindful state)). Also, I use the "interested — uninterested"
+metric to track horniness.
+
+### Substances
+
+I track which substances I take (nootropics/melatonin/drugs) in [this
+file](./data/substances.csv) via [this script](./data/cnsm). Data
+quality is good but fairly few entries. Intend to use it for self-blinded
+randomized future experiments (if I ever stop procrastinating on them).
+
+### Bag Spreading
+
+Data on bag spreading on public transport, in [this
+file](./data/bag_spreading.csv). Data quality is horrible: probably prone
+to multiple biases from my side, from different locations, no tracking
+of location or datetime…maybe I should just delete this one.
