@@ -625,7 +625,7 @@ Looking at unique turnings turns (hehe) up further questions:
 	5   203360
 	dtype: int64
 
-Very much to my surprise, searching for "0,2,8,144,10752" [in the
+Very much to my surprise, searching for "1,2,8,144,10752" [in the
 OEIS](https://oeis.org/search?q=0%2C2%2C8%2C144%2C10752&sort=&language=english&go=Search)
 yields *no results* (even [without leading
 zero](https://oeis.org/search?q=2%2C8%2C144%2C10752&sort=&language=english&go=Search)),
@@ -869,6 +869,13 @@ fruit to pure cake).
 
 ![](./img/turning/intrans_lott_2.jpg)
 
+Here we have a probability simplex with 3 options. The graph
+is a set of concentrical cycles, and across the cycles the
+lotteries with lower entropy are preferred over those with higher
+[entropy](https://en.wikipedia.org/wiki/Entropy_\(information_theory\))
+(conditional on there being no preference already, e.g.
+`$[1: a, 0: b, 0: c]$` is not preferedd over `$[0.5: a, 0: b, 0.5: c]$`).
+
 ##### Discontinuity
 
 ##### Dependence
@@ -933,8 +940,8 @@ might be extremely enlightening, especially if [multiagent models of
 mind](https://www.lesswrong.com/s/ZbmRyDN8TCpBTZSip/p/M4w2rdYgCKctbADMn)
 are directly applicable to human minds.
 
-Implications for AI Alignment
-------------------------------
+Possible Implications for AI Alignment
+---------------------------------------
 
 > I've seen six cities fall for this  
 mathematics with incompetence  
@@ -944,11 +951,6 @@ a billionaires tarantula just ate the ceiling
 thinking it was yet another floor
 
 *—[Patricia Taxxon](http://patriciataxxon.bandcamp.com/), [“Hellbulb”](https://patriciataxxon.bandcamp.com/track/hellbulb) from [“Gelb”](https://patriciataxxon.bandcamp.com/album/gelb), 2020*
-
-### Ambitious Value Learning
-
-Learn human values, check if known inconsistencies are encoded (to ensure
-learning at the correct level of abstraction), then make consistent.
 
 ### Ontological Crises
 
@@ -961,6 +963,39 @@ of the model. We would then like the agent to generalize this utility
 function to the entire state space of the model.
 
 *—Peter de Blanc, [“Ontological Crises in Artificial Agents’ Value Systems”](./doc/cs/ai/alignment/ontological_crises/ontological_crises_in_artificial_agents_value_systems_de_blanc_2011.pdf), 2010*
+
+Ontological crises occur when an agents' world model changes,
+but its utility function over that world model still operates under
+outdated assumptions about the world. A common example for ontological
+shifts is a hypothetical society of humans who really care about
+the [temperature](https://en.wikipedia.org/wiki/Temperature) of
+objects, and then find out that temperature is not [ontologically
+basic](https://plato.stanford.edu/entries/substance/): It is instead
+the average translational kinetic energy per atom in the object under
+question. But their values still operate under the mistaken assumption
+that temperature is ontologically basic, that heat is good and chill is
+bad. For some who this example might strike as unrealistic, consider
+different responses of humans that read about arguments on personal
+identity and the philosophical difficulty of defending them: From "happy
+nihilism" over "everything is me" over "sad nihilism" to "utter despair"
+we have the whole gang here.
+
+In the context of AI safety one can have the same worry: if a [diamond
+maximizer](https://arbital.com/p/diamond_maximizer/) is created with
+a utility function that counts the carbon atoms that are bound to six
+other carbon atoms, and the underlying world model shifts away from
+assuming that atoms are are fundamental, and towards a model in which
+atoms are made of protons, electrons and neutrons which are distributed by
+probabilities and amplitudes that evolve via the Schrödinger equation. In
+this case the utility function needs to be updated to still recognize
+carbon atoms, even if the world model given to the utility function does
+not contain any fundamental carbon atoms anymore. If the utility function
+is not updated, the AI system might very well behave in unforeseen ways:
+In one of the worse cases it will continue operating under the assumption
+that the world is made up of atoms that on a macroscopic scale behave
+like wave functions in quantum mechanics, in some of the better cases
+it will stop acting (which might pose problems if it has implemented
+non-[abortable plans](https://arbital.com/p/abortable/).
 
 If you know a mapping between objects from human to AI ontology, you
 could find the mapping from the (consistent) human probability simplex
@@ -986,6 +1021,11 @@ into fish and water mammals.
 ###### Incorporating Moral Uncertainty
 
 ###### Multiple Ontological Shifts
+
+### Ambitious Value Learning
+
+Learn human values, check if known inconsistencies are encoded (to ensure
+learning at the correct level of abstraction), then make consistent.
 
 Further Questions
 ------------------

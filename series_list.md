@@ -30,5 +30,6 @@ order). I may not be finished with some of these yet.
 * [Rick and Morty](https://www.imdb.com/title/tt2861424/)
 * [Silicon Valley](https://www.imdb.com/title/tt2575988/)
 * [Snowpiercer](https://www.imdb.com/title/tt6156584/)
+* [Squid Game]()
 * [Stranger Things](https://www.imdb.com/title/tt4574334/)
 * [The Mandalorian](https://www.imdb.com/title/tt8111088/)

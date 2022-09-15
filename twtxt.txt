@@ -1442,3 +1442,4 @@
 2022-08-04T15:38:35.000000Z	L'an 2100 ne passera pas
 2022-08-04T16:07:55.000000Z	It seems quite unlikely to me that humans will cease to care about wealth after the singularity (15% maybe?), or that markets will cease to exist after the singularity (30% or sth). so the best investment strategy now for post-singularity scenarios is to invest broadly in the economy. not sure about divesting from AGI companies (bc they accelerate danger) or AI hardware companies (ditto)—they're going to especially valuable post-singularity.
 2022-08-04T18:12:10.000000Z	topics i will never research: how the prussian military inventing boardgames with dice to train military strategists influenced modern eurogames and not amerigames
+2022-09-15T01:10:10.000000Z	now is a good time to sit back and read
