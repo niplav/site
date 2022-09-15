@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2022-08-04, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2022-08-15, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1225,6 +1225,7 @@ TODO: do-->
 * Non-velcro shoes
 * Courses at university are not 3blue1brown + Q&A + extensive quizzes (or automated tutoring à la DARPA)
 * TSA security theater
+* A lot of terminology in mathematics, for example using "numerator"/"denominator" instead of "upper number"/"lower number" when talking about [fractions](https://en.wikipedia.org/wiki/Fraction) (which would be vastly easier to understand/remember *and* in one case even has fewer syllables)
 
 An Example for Not Updating Uncertain Utility Functions
 --------------------------------------------------------
