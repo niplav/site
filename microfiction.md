@@ -41,6 +41,8 @@ Words
 * German
 	* Bewahren
 	* Kabeljau
+	* Sollbruchstelle
+	* Ablaufdatum
 
 Poems
 ------
@@ -129,6 +131,20 @@ Kirschblüten gegen
 das samtene Firnament  
 bald stürzt es hinab
 
+Doch Blüten, deren  
+Topazellbogen  
+Scharlachknie sind
+
+Amethystschulter,  
+die mit Graphitgeste kein  
+Kobaltherz verscharrt
+
+##### Lipogrammatisch
+
+Nicht Domizil, nicht  
+Humbug, hat dir, Odysseus,  
+Schändung nun abzollt
+
 #### English
 
 In the CPU  
@@ -160,7 +176,7 @@ A married bachelor, ex
 falso quodlibet
 
 The silence prickles  
-A mind too fast for meaning  
+A mind too swift for meaning  
 <!--Is Thoughts without wrapping worse? Better?-->
 Unwrapping my thoughts
 
@@ -177,6 +193,24 @@ not dulled each fortnight
 A sharp mind might start  
 cutting itself, if it ain't  
 dulled once in a while
+
+Thus declaring: “read,  
+write, code—sit, approach, lift”, off  
+into the mountains.
+
+##### Lipogrammatic Bukkake Senryūs
+
+It, triumphantly  
+giggling, snatched this poisonous  
+cum from a mailman
+
+At my spot, I found 
+an old spy, cum Trotskyist 
+iconography
+
+Just sub a smoking  
+cumulonimbus, our work  
+now turns arduous
 
 Dialogues
 ----------
@@ -236,6 +270,19 @@ spot on the happiness/productivity Pareto frontier, dummy.”
 ----
 
 > “Stop narrativizing yourself! Stop narrativizing yourself!”
+
+----
+
+> “In general, my reaction to that kind of thing is *sound of someone trying to strangle a laptop*”
+
+----
+
+> “Are these subagents in the room with out right now?”
+
+----
+
+> “What wordcel wrote this!?!”  
+> “You, sir.”
 
 Wrong Quotes
 -------------
@@ -300,8 +347,30 @@ Sutras
 * the acausal sutra
 * the fourfold spatious sutra
 
+Unclaimed Domain Names
+-----------------------
+
+* paratechne.me
+* {uni,multi}fungal.space
+* rhizomiasmatic.tech
+* nibannergic.systems
+* calabiyau.systems
+* panchromatic.industries
+* ultracompactoid.industries
+* synprismatic.industries
+* autopoietic.systems
+* hyperoscillatory.space
+* polyhazardous.space
+
+Tom Swifties
+-------------
+
+* "These mussels weren't good anymore!", Tom exclamated.
+
+<!--
 Memes
 ------
+-->
 
 Other
 ------

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-03-04, modified: 2022-07-28, language: english, status: notes, importance: 8, confidence: likely*
+*author: niplav, created: 2022-03-04, modified: 2022-09-15, language: english, status: notes, importance: 8, confidence: likely*
 
 > __Representing inconsistent preferences with specific mathematical
 structures can clarify thoughts about how to make those preferences
@@ -586,7 +586,7 @@ round of editing this text go back and try to make sense of the data,
 which runs squarely counter my expectations:
 
 	>>> import pandas as pd
-	>>> df=pd.read_csv('data/turnings.csv')
+	>>> df=pd.read_csv('data/turnings_small.zip')
 	>>> df.groupby(['0']).mean()
 	           1
 	0
@@ -594,7 +594,6 @@ which runs squarely counter my expectations:
 	2   1.500000
 	3   2.625000
 	4   4.910156
-	5  17.836986
 
 It seems like the mean number of turnings actually increases
 with the graph size! Surprising. I'm also interested in the
@@ -612,34 +611,45 @@ Looking at unique turnings turns (hehe) up further questions:
 	2    0.500000
 	3    0.281250
 	4    0.164062
-	5    0.021779
 	dtype: float64
 	>>> def uniques(g):
 	...     return len(g.loc[g['1']==1])
 	>>> df.groupby(['0']).apply(uniques)
 	0
-	1        2
-	2        8
-	3      144
-	4    10752
-	5   203360
+	1         2
+	2         8
+	3       144
+	4     10752
+	5   3306240
 	dtype: int64
 
-Very much to my surprise, searching for "1,2,8,144,10752" [in the
+This sequence of numbers is interesting: Its `$n$`th term is the number
+of labeled graphs with `$n$` nodes and confusion 1.
+
+Very much to my surprise, searching for "1,2,8,144,10752,3306240" [in the
 OEIS](https://oeis.org/search?q=0%2C2%2C8%2C144%2C10752&sort=&language=english&go=Search)
 yields *no results* (even [without leading
-zero](https://oeis.org/search?q=2%2C8%2C144%2C10752&sort=&language=english&go=Search)),
-even though the sequence really looks like something that would already
-exist! (I think it has a specifically graph-theoretic "feel" to it). But
-apparently not so. I have tried to submit this sequence to the OEIS,
-but they require either a real-world identity (which I'm not willing
-to reveal) or alternatively a fifth term in the sequence (which I'm
-currently computing). Oh well.
+one](https://oeis.org/search?q=2%2C8%2C144%2C10752&sort=&language=english&go=Search))
+or using [Superseeker](https://oeis.org/ol.html), even though the sequence
+really looks like something that would already exist! (I think it has a
+specifically graph-theoretic "feel" to it). But apparently not so. An
+interesting fact about the sequence is that it is "redundant": Each
+graph with `$n$` nodes is represented `$n!$` times, with all possible
+permutations of vertex labelings. For example, the example graph
+from [this section](#Minimal-and-Maximal-Number-of-Turnings)
+is counted in 24 different variants. One can
+therefore divide the sequence by `$n!$`, which gives the sequence
+["1,2,4,24,448,27552"](http://oeis.org/search?q=1%2C2%2C4%2C24%2C448%2C27552&sort=&language=english&go=Search),
+which also doesn't occur in the OEIS
+([neither does the sequence without the leading
+one](http://oeis.org/search?q=2%2C4%2C24%2C448%2C27552&sort=&language=english&go=Search),
+and superseeker also doesn't find anything).  I have tried to submit
+this sequence to the OEIS, but they require a real-world identity
+(which I'm not willing to reveal). Oh well. I still stake my claim for
+this sequence, it shall henceforth be called the niplav numbers (if I
+am indeed the first person to have found them).
 
-<!--TODO: find this sequence on the OEIS-->
-
-I omit the number of unique turnings for 5 and 6, for obvious reasons. The
-number of unique resolutions for the graph with 1 node makes sense,
+The number of unique resolutions for the graph with 1 node makes sense,
 though: Removing the reflexive edge should count as one edge action,
 but the graph only has one unique resolution:
 
@@ -995,7 +1005,7 @@ In one of the worse cases it will continue operating under the assumption
 that the world is made up of atoms that on a macroscopic scale behave
 like wave functions in quantum mechanics, in some of the better cases
 it will stop acting (which might pose problems if it has implemented
-non-[abortable plans](https://arbital.com/p/abortable/).
+non-[abortable plans](https://arbital.com/p/abortable/)).
 
 If you know a mapping between objects from human to AI ontology, you
 could find the mapping from the (consistent) human probability simplex

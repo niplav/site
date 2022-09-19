@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-08-03, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-09-15, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -1082,6 +1082,7 @@ Game. Even those odds likely overstate the number of Players in the world.
 	* I Solved a Big Problem in My Life: Not Having Sex
 * A Typical Daygame Session
 * A Typical Meditation Session
+* A 1 Month At-Home Meditation Retreat
 
 ### Misc
 
@@ -1717,8 +1718,9 @@ Wikipedia Articles
 * Weisfeiler-Lehman algorithm
 * Brandes' algorithm
 * IC/IC\* algorithm
-* do operator
-* Back-door/Front-door criterion
+* Causal Inference pages
+	* do operator
+	* Back-door/Front-door criterion
 * Place premium
 * Pigou bound
 * Myerson's Lemma
@@ -1821,3 +1823,4 @@ In-World Projects
 * Add Ithkuil script to the UCSUR
 * Bring the rest of the Latin super/subscripts into Unicode
 * Create & maintain rat/postrat/metarat fediverse instance
+* Arrange Slavoj Žižek to be an EAG keynote speaker
