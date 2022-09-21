@@ -101,9 +101,9 @@ final pushes for me to do something in a particular direction):
 
 My favorite books are The Elephant in the Brain, There is no Antimemetics
 Division, 1984 and House of Leaves (it does the whole postmodern literature
-shtick, but it does it really enjoyably!).
+shtick, but it does it really enjoyably!).<!--TODO: links for these!-->
 
-Music
+Audio
 ------
 
 <!--
@@ -138,6 +138,13 @@ Box](https://patriciataxxon.bandcamp.com/track/pack-my-box)
 (Patricia Taxxon), and
 [Hellbulb](https://patriciataxxon.bandcamp.com/track/pack-my-box)
 (Patricia Taxxon) (I might be a *little bit* of a Taxxon fan).
+
+<!--
+### Podcasts
+
+TODO: Tara MacAulay 80k, Romeo Stevens thing, Guru Viking Shinzen Young
+series, Guru Viking guy living in cave, CRE Diamanten
+-->
 
 Websites
 ---------

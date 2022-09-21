@@ -277,6 +277,8 @@ See also [Gwern 2012](https://www.gwern.net/Wikipedia And Other Wikis.html).
 
 #### "Start Here" Pages
 
+#### Properties of Good Curations
+
 #### Long Site Wishlist
 
 * John Swentworth

@@ -365,7 +365,7 @@ robbing ammunition stores.
 Often in arguments with philosophers, especially about consequentialism,
 I find that most of them underappreciate the strangeness of
 results of very strong optimization algorithms. Whenever there's
-an `$\text{arg max}$` in your function, the result is probably
+an `$\text{argmax}$` in your function, the result is probably
 going to look *nothing like* what you imagine it looking like,
 especially if the optimization doesn't have [conservative concept
 boundaries](https://arbital.com/p/inductive_ambiguity/).

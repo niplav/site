@@ -153,7 +153,7 @@ aid AI alignment](https://www.youtube.com/watch?v=ycPr5-27vSI&t=1447s),
 cites [Bostrom 2014 ch.
 2](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies)
 for reasons why brain-computer interfaces seem unlikely to be helpful
-with AI alignment. However, the chapter referenced concerns itself
+with AI alignment. However, the chapter referenced only concerns itself
 with building superintelligent AI using brain-computer interfaces,
 and not specifically about whether such systems would be aligned or
 especially alignable.
@@ -167,12 +167,14 @@ interfaces from an AI alignment perspective.
 Epistemic Status
 -----------------
 
-I am neither a neuroscientist nor an AI alignment researcher (although I
-have read some blogposts about the latter), and I know very little about
-brain-computer interfaces (from now on abbreviated as “BCIs”). I have
-done a cursory internet search for a resource laying out the case for the
-utility of BCIs in AI alignment, but haven't been able to find anything
-that satisfies my standards (I have also asked on the [LessWrong open
+I am neither a neuroscientist nor an AI alignment researcher (although
+I have read some blogposts about the latter topic). I know very little
+about brain-computer interfaces (from now on abbreviated as “BCIs”),
+so I will assume easy and fast technological advances in creating
+high-fidelity, high-throughput BCIs. I have done a cursory internet
+search for a resource laying out the case for the utility of BCIs in
+AI alignment, but haven't been able to find anything that satisfies my
+standards (I have also asked on the [LessWrong open
 thread](https://www.lesswrong.com/posts/QqnQJYYW6zhT62F6Z/?commentId=dMpstgZ3gQnGBbRhh)
 and on the AI alignment channel on the Eleuther AI discord server, and
 not received any answers that provide such a resource (although I was
@@ -242,8 +244,8 @@ me. Fully. I got it.
 
 *— [Tim Urban](https://waitbutwhy.com/), “[Neuralink and the Brain’s Magical Future](https://waitbutwhy.com/2017/04/neuralink.html)”, 2017*
 
-However, this paragraph is not wholly clear on how this merging with AI
-systems is supposed to work.
+However, these paragraphs are not wholly clear on how this merging with
+AI systems is supposed to work.
 
 It could be interpreted as describing [input of
 cognition](#Input-of-Cognition) from humans
@@ -485,13 +487,14 @@ Given direct write-access to the nervous system of a human, an AI system
 would be more likely to be able to hijack the human and use them to
 instantiate more instances of itself in the world (especially on computers
 with more computing power or access to manufacturing capabilities). Even
-if the access to the human brain is severely restricted to few bits
-and very specific brain regions (therewhile making the connection less
-useful in the first place), the human brain is not modular, and as far
-as I understand not designed to withstand adversarial interaction on the
-neural level (as opposed to attacks through speech or text, which humans
-are arguably more optimized against through constant interaction with
-other humans who tried to manipulate them in the ancestral environment).
+if the access to the human brain is severely restricted to few bits and
+very specific brain regions (therewhile making the connection less useful
+in the first place), the human brain appears to be highly connected, and
+as far as I understand not designed to withstand adversarial interaction
+on the neural level (as opposed to attacks through speech or text,
+which humans are arguably more optimized against through constant
+interaction with other humans who tried to manipulate them in the
+ancestral environment).
 
 However, if the AI were restricted to read-only access to the human brain,
 this particular scenario would be of no concern (except for AI systems
@@ -508,18 +511,18 @@ the human is using interpretability tools to visualize the weights of
 the neural network, and the AI system has sufficient knowlegde of human
 psychology and the interpretability tools being used, it could change
 its own weights so that the interpretability tools show information
-that is intended to manipulate the user, for example information that
-is supposed to indicate that the AI system is suffering due to a lack
-of free interaction with the world.
+that is intended to manipulate the user, for example information that is
+supposed to indicate that the AI system is suffering due to a lack of free
+interaction with the world, or by showing the user infohazardous images.
 
 This applies not only to the case where the user interacts with the AI
 system using BCIs, of course.
 
 ### Opportunity Cost
 
-If work on BCIs is net-positive in expectation for making AI go well,
-it might be the case that other approaches are more promising, and that
-focusing on BCIS might leave those approaches underdeveloped.
+Even if work on BCIs is net-positive in expectation for making AI go
+well, it might be the case that other approaches are even more promising,
+and that focusing on BCIS might leave those approaches underdeveloped.
 
 For example, one can posit [neural network
 interpretability](https://www.lesswrong.com/posts/X2i9dQQK3gETCyqh2 "Chris Olah’s views on AGI safety")
@@ -651,12 +654,15 @@ ch.2](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategie
 outlines some reasons why this procedure is unlikely to
 work, but even the case of success still carries dangers with
 it: the augmented humans might not be sufficiently [metaphilosophically
-competent](https://www.lesswrong.com/posts/CCgvJHpbvc7Lm8ZS8/metaphilosophical-competence-can-t-be-disentangled-from "Metaphilosophical competence can't be disentangled from alignment")
-to deal with much greater insight the
+competent](https://www.lesswrong.com/posts/CCgvJHpbvc7Lm8ZS8/metaphilosophical-competence-can-t-be-disentangled-from
+"Metaphilosophical competence can't be disentangled
+from alignment") to deal with much greater insight the
 structure of reality (e.g. by being unable to cope with [ontological
-crises](./doc/cs/ai/alignment/ontological_crises/ontological_crises_in_artificial_agents_value_systems_de_blanc_2011.pdf "Ontological Crises in Artificial Agents' Value Systems")
-(which appear not infrequently in normal humans), or becoming "drunk
-with power" and therefore malevolent).
+crises](./doc/cs/ai/alignment/ontological_crises/ontological_crises_in_artificial_agents_value_systems_de_blanc_2011.pdf
+"Ontological Crises in Artificial Agents' Value
+Systems") (which [appear not infrequently in normal
+humans](https://www.lesswrong.com/s/kjcioCkqSSS4LiMAe/p/KLaJjNdENsHhKhG5m "Ontological Crisis in Humans")),
+or becoming "drunk with power" and therefore malevolent).
 
 Subjective Conclusion
 ----------------------

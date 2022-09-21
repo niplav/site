@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-05-06, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-09-20, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __Very small pieces of fiction and things that are sufficiently like
 fiction.__
@@ -19,14 +19,14 @@ Words
 
 ### New
 
-* endokremlinology
-* quinpedalism
-* mesamodernism
-* tiktocracy
-* sapolskywave
-* technocratsacy
-* [rijndaël](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)[ites](https://en.wikipedia.org/wiki/Raëlism)
-* licerology: the study of betting and auctions, auction theory
+* "endokremlinology"
+* "quinpedalism"
+* "mesamodernism"
+* "tiktocracy"
+* "sapolskywave"
+* "technocratsacy"
+* ["rijndaël"](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)[ites](https://en.wikipedia.org/wiki/Raëlism)
+* "licerology": the study of betting and auctions, auction theory
 
 #### Morphisms
 
@@ -36,13 +36,16 @@ Words
 ### Otherwise Nice
 
 * English
-	* corrigibility
-	* antisemanticity
+	* "corrigibility"
+	* "antisemanticity"
 * German
-	* Bewahren
-	* Kabeljau
-	* Sollbruchstelle
-	* Ablaufdatum
+	* "Bewahren"
+	* "Kabeljau"
+	* "Sollbruchstelle"
+	* "Ablaufdatum"
+	* "Geizkragen"
+	* "Pervers"
+	* "Etwas auf Vordermann bringen"
 
 Poems
 ------
@@ -114,6 +117,10 @@ geführt; —
 
 > Ikto verso lapido.
 
+----
+
+> Sed nihil subsequor.
+
 ### Senryū
 
 Well, not strictly [haiku](https://en.wikipedia.org/wiki/Haiku)
@@ -132,7 +139,7 @@ das samtene Firnament
 bald stürzt es hinab
 
 Doch Blüten, deren  
-Topazellbogen  
+Topazellbogen plötzlich  
 Scharlachknie sind
 
 Amethystschulter,  
@@ -198,14 +205,34 @@ Thus declaring: “read,
 write, code—sit, approach, lift”, off  
 into the mountains.
 
+When the elder drop  
+Never hits your eye again  
+Itching bark quivers
+
+Lest our shimmery  
+Streets give no unheard secrets  
+I will munge some corn
+
+Hardening over  
+Kazakhstani pools, we hence  
+Elucidate this
+
+Oscillate northwards,  
+Then hold to the nearest points  
+Fragmented lesions
+
+Having now observed  
+The one year and one day rule  
+I can say it's good
+
 ##### Lipogrammatic Bukkake Senryūs
 
 It, triumphantly  
 giggling, snatched this poisonous  
 cum from a mailman
 
-At my spot, I found 
-an old spy, cum Trotskyist 
+At my spot, I found  
+an old spy, cum Trotskyist  
 iconography
 
 Just sub a smoking  
@@ -332,11 +359,11 @@ pointing out dynamic inconsistency in the comments and melting hectoton steel-ma
 who improve their aim hurling yeeting philosophical tomes at unsuspecting passerbys and ascend urban lampposts to loudly deduce their mechanical liturgies,  
 who cut down oaks and poppies in the parks to make oil and space for those ones yet to come and who hunker down in fortified coalmines in Montana and the Ruhrgebiet, propelled into the rock by a Ordite reactor, a Bostromite dynamo,  
 who exitedly pour & plaster tabulated exponents into webscripted canisters just below the teal-tinded ceiling,  
-who can name the 11 AI forecasting organisations and the 4 factors of successful nonprofits and the 7 noble ways of becoming more agentic and might even find Rwanda on a map,  
+who can name the 11 AI forecasting organisations and the 4 factors of successful nonprofits and the 7 noble ways of becoming more agentic and might even find Rwanda on a map not made in Silicon Valley,  
 contemplating hemispherectomies to purify their nascent idealism on the verge of a hope-ash London dawn,  
 who catch a feral heart in the garden behind the A100 rack and save it into a transparent domicile, injecting it with 17000 volts to illuminate all the last battery cages equally,  
 who empty out their pockets with uncountable glaring utilons onto innocent climate activists, promising to make them happy neutron stars one day,  
-Microscopically examining the abyssal monstrosities their oracles conjure up out of the lurching empty chaos,  
+microscopically examining the abyssal monstrosities their oracles conjure up out of the lurching empty chaos,  
 who fever towards silver tendrils bashing open their skulls and eating up their brains and imaginations, losslessly swallowed into that ellipsoid strange matter gut pulsing out there between the holes
 
 Sutras

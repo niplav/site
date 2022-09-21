@@ -148,7 +148,7 @@ to have been threefold: firstly, the practice was not without religious
 significance; secondly, it was considered a sport and the heads regarded
 as trophies; and thirdly, among some tribes no youth was considered fit
 to rank as a man until he had obtained a head, the women taunting those
-who had been unsuccessful as cowards. (Evans, 186)
+who had been unsuccessful as cowards. (Evans, 186<!--TODO: typo here-->)
 >
 > A similar pattern was identified among societies on the island
 of Kiwai in New Guinea in 1903 by missionary James Chalmers, who

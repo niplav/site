@@ -312,6 +312,7 @@ Puns
 *	What does an enthusiast for upper body clothing say when they see a new piece?  
 	“Intewesting”
 * I had to reject the p-zombie for the position, they just weren't qualiafied.
+* Haskellers don't do jhãnic meditation? Because it's all about cultivating states.
 
 ### German
 
