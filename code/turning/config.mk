@@ -3,6 +3,7 @@ IMG=counter_comp.png \
 	intransitive.png \
 	turnubc_hyp.png \
 	turnubc_hyp_trans.png \
+	shift.png \
 	ser_1.png \
 	ser_2.png \
 	ser_3.png \

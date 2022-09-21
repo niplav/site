@@ -1,9 +1,9 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-05-23, modified: 2022-05-26, language: english, status: notes, importance: 3, confidence: unlikely*
+*author: niplav, created: 2021-05-23, modified: 2022-09-20, language: english, status: notes, importance: 3, confidence: unlikely*
 
-> __.__
+> __Notes for deliberate practice for calibration and resolution training.__
 
 Notes on Predictions
 ====================

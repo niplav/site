@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-09-15, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-09-20, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -21,12 +21,13 @@ with fecundity.
 September 2022
 --------------
 
+* [Squeal](./microfiction.html#Squeal)
+
 Meditation.
 
 August 2022
 ------------
 
-* [Squeal](./microfiction.html#Squeal)
 * [Other](./data.html#Others) personal datasets I collect
 * [The Five Horsemen of Hard Forecasting](./forecasters.html#The-Five-Horsemen-of-Hard-Forecasting)
 

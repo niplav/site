@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2022-08-07, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2022-09-20, language: english, status: in progress, importance: 6, confidence: log*
 
 > __If you take away just one thing from this website,
 it should be that I think [you would want to sign up for
@@ -29,10 +29,16 @@ Writing
 * [Considerations on Cryonics](./considerations_on_cryonics.html)
 * [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
 
-#### AI Alignment and Strategy
+#### AI Alignment
+
+##### Strategy
 
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html)
 * [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.html)
+
+##### Technical
+
+* [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 
 #### Forecasting
 
@@ -52,7 +58,6 @@ Writing
 
 #### Philosophy
 
-* [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 * [Compliments as Utilitarian Praxis](./utilitarian_compliments.html)
 * [Using Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./consciousness_diagram.html)
 

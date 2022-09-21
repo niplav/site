@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-03-04, modified: 2022-09-15, language: english, status: notes, importance: 8, confidence: likely*
+*author: niplav, created: 2022-03-04, modified: 2022-09-19, language: english, status: notes, importance: 8, confidence: likely*
 
 > __Representing inconsistent preferences with specific mathematical
 structures can clarify thoughts about how to make those preferences
@@ -204,7 +204,7 @@ The set of possible editing operations on the graph varies, e.g. Wikipedia lists
 * __edge deletion__ to remove a single edge between a pair of vertices.
 * __edge substitution__ to change the label (or color) of a given edge.
 
-*—[English Wikipedia](), [“Graph Edit Distance”](https://en.wikipedia.org/wiki/Graph_Edit_Distance), 2021*
+*—[English Wikipedia](https://en.wikipedia.org/wiki/English_Wikipedia), [“Graph Edit Distance”](https://en.wikipedia.org/wiki/Graph_Edit_Distance), 2021*
 
 Since we do not have labels on the edges of the graph, and have disallowed
 the deletion or insertion of vertices, this leaves us with the graph
@@ -658,16 +658,35 @@ but the graph only has one unique resolution:
 	0  1  1        []
 	1  1  1  [(1, 1)]
 
-<!--TODO: play around with this more-->
+<!--TODO: play around with this more, especially analyze:
+* Of the graphs with confusion 1/2/maximal confusion:
+	* degree sequence
+	* number of edges
+	* number of strongly connected components
+	* properties of the adjacency matrix:
+		* determinant
+		* eigenvalues
+		* whether it's singular
+		* symmetries
+-->
 
 Encoding Inconsistencies
 ------------------------
 
+> I've seen six cities fall for this  
+mathematics with incompetence  
+red flags stand among the trees  
+repugnant symphonies  
+a billionaires tarantula just ate the ceiling  
+thinking it was yet another floor
+
+*—[Patricia Taxxon](http://patriciataxxon.bandcamp.com/), [“Hellbulb”](https://patriciataxxon.bandcamp.com/track/hellbulb) from [“Gelb”](https://patriciataxxon.bandcamp.com/album/gelb), 2020*
+
 After this concrete example of how to turn inconsistent preferences into
 consistent ones, I now try to extract general principles for representing
 inconsistent preferences, mainly because while the problem has been
-solved for discrete cases (or so at I believe), it is still open for
-preferences over lotteries.
+solved for discrete cases (or at least so I believe), it is still open
+for preferences over lotteries.
 
 ### Theory
 
@@ -953,15 +972,6 @@ are directly applicable to human minds.
 Possible Implications for AI Alignment
 ---------------------------------------
 
-> I've seen six cities fall for this  
-mathematics with incompetence  
-red flags stand among the trees  
-repugnant symphonies  
-a billionaires tarantula just ate the ceiling  
-thinking it was yet another floor
-
-*—[Patricia Taxxon](http://patriciataxxon.bandcamp.com/), [“Hellbulb”](https://patriciataxxon.bandcamp.com/track/hellbulb) from [“Gelb”](https://patriciataxxon.bandcamp.com/album/gelb), 2020*
-
 ### Ontological Crises
 
 > Furthermore, there remain difficult philosophical problems. We have
@@ -1007,6 +1017,10 @@ like wave functions in quantum mechanics, in some of the better cases
 it will stop acting (which might pose problems if it has implemented
 non-[abortable plans](https://arbital.com/p/abortable/)).
 
+Okay, but what are an ontological shift/ontological crisis *really*? Let's
+write down some type signatures of functions.
+
+<!--
 If you know a mapping between objects from human to AI ontology, you
 could find the mapping from the (consistent) human probability simplex
 to the AI simplex?
@@ -1015,8 +1029,54 @@ One can solve the problem [Dai
 2019](https://www.lesswrong.com/posts/6RjL996E8Dsz3vHPk/two-more-decision-theory-problems-for-humans#Partial_Utility_Function_Problem)
 describes as the "Partial Utility Function Problem" by turning that
 partial utility function into a full utility function.
+-->
 
 #### Discrete Case
+
+Assume we have a transitive and complete ordering `$\preceq$` over
+possible worlds `$W_1$`, which is our consistent preferences. Let `$W_2$`
+be a new (and allegedly better) set of possible worlds—more refined,
+or worlds which contain non-existent entities (such as ghosts) have been
+removed. Then An ontological shift `$s_{\mathcal{o}}$` is a function that
+maps each `$w_1 \in W_1$` to a to a subset of `$W_2$`, possibly with
+weights for the new edges: `$s: W_1 \mapsto \mathcal{P}(W_2)$` or
+`$s: W_1 \mapsto \mathcal{P}(W_2 \times \mathbb{R})$`, where each
+`$w_1$` is mapped to every `$w_2$` at most once. Additionally, the
+weights could be required to add up to one and be in `$[0;1]$`, though
+there are possible meanings of sums greater than 1 or less than 0.
+
+This is quite abstract. Let's consider a small example:
+
+An agent starts out with a set of possible worlds `$W_1$` which contains
+two elements: the world `$w_N$` with nothing in it, and the world `$w_F$`
+with a single fruit: also the agent likes fruit more than nothing `$w_F \succeq w_N$`.
+
+But then the agent refines its world model: It discovers that there's
+actually three worlds in the set `$W_2$`, which are `$w_T$` (a tomato),
+`$w_A$` (an apple) and `$w_N$` (still nothing). Because tomatoes are
+only kind of fruits, we define `$s$` as `$s(w_N)=\{(w_N, 1)\}$` and
+`$s(w_F)=\{(w_A, 0.8), (w_T, 0.2)\}$`. The agent hasn't changed
+its mind about what what nothing is, but the category fruit has now
+[splintered](https://www.lesswrong.com/s/kjcioCkqSSS4LiMAe/p/k54rgSg7GcjtXnMHX)
+into apple and tomato (where the fruit world is *more*
+like the apple than like the tomato, because tomatos might
+be technically fruit, but they're definitely not a [central
+example](https://www.lesswrong.com/rationality/the-cluster-structure-of-thingspace)).
+Existing preferences are inherited: if `$w_F$` splits into `$w_A$` and `$w_T$`, both of them are still better than `$w_N$`.
+
+![](./img/turning/shift.png)
+
+The astute reader might notice something: The resulting situation is
+remakably similar to a simple inconsistent preference that were discussed
+earlier: `$w_A$` and `$w_T$` are in this scenario incomparable with
+each other. We can say that this resulting preference is in ontological
+crisis: An agent trying to use it to make decisions will make predictably
+bad decisions (we here violate the von Neumann-Morgenstern axiom of
+*completeness*).
+
+But! This is not a hopeless situation: One can slightly modify the
+procedure used for computing the set of turnings described earlier to
+resolve the ontological crises to full satisfaction.
 
 A node splits in two or more, or two or more nodes get merged, one adds
 nodes, or removes them. If the then resulting graph isn't a path graph,

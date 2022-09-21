@@ -1444,3 +1444,24 @@
 2022-08-04T16:07:55.000000Z	It seems quite unlikely to me that humans will cease to care about wealth after the singularity (15% maybe?), or that markets will cease to exist after the singularity (30% or sth). so the best investment strategy now for post-singularity scenarios is to invest broadly in the economy. not sure about divesting from AGI companies (bc they accelerate danger) or AI hardware companies (ditto)—they're going to especially valuable post-singularity.
 2022-08-04T18:12:10.000000Z	topics i will never research: how the prussian military inventing boardgames with dice to train military strategists influenced modern eurogames and not amerigames
 2022-09-15T01:10:10.000000Z	now is a good time to sit back and read
+2022-09-19T19:08:26.000000Z	taking the pledge to become 10% less misogynistic
+2022-09-19T19:09:39.000000Z	tolerating what we can
+2022-09-19T21:22:00.000000Z	dvorak edm remix which is actually good
+2022-09-20T09:11:22.000000Z	reaching exalted meditation states is not important per se, but that you have ample material to learn not clinging to.
+2022-09-20T21:24:17.000000Z	put an epistemic status on a thing you're really confident in, once in a while.
+2022-09-20T21:26:12.000000Z	“I assume that not everything that can improve my thinking is found in The Sequences.”
+2022-09-20T21:29:04.000000Z	Concepts: Semiquine (a program that only outputs its code, but never halts); prefixquine (program that outputs its code, but something after that). Trivial other versions are postfixquine, substringquine, prefixsemiquine.
+2022-09-20T21:29:57.000000Z	Why not focus on getting old LessWrongers to work on alignment instead of students? They might not be as skilled technically, but they probably have much deeper & well formed intuitions around the problem.
+2022-09-20T21:45:20.000000Z	Well, you have my curse.
+2022-09-20T21:45:45.000000Z	Playing hard to get imposes costs on other actually impossible to get players.
+2022-09-20T21:46:38.000000Z	You may start century time horizon projects
+2022-09-20T21:47:22.000000Z	Retaking an airplane after terrorist takeover is a coordination problem
+2022-09-20T21:47:30.000000Z	Planecrash but just the dath ilan bits
+2022-09-20T21:47:52.000000Z	80,000 hours podcast but it's only Rob Wiblin speaking. Useful for voice synthesis.
+2022-09-20T21:52:45.000000Z	Anyone else wanna laugh at millennials when they realize they have gotten old?
+2022-09-20T21:53:06.000000Z	Maybe just not have your search space contain Turing complete elements?
+2022-09-20T22:02:25.000000Z	I'm actually not that big a fan of most uses of “prior”/“posterior”: Nearly every credence you have is both a prior and a posterior, at different points in time. You were born with priors embedded in your genome, and you created posteriors from those with observations. but those posteriors became priors in the next update step. so the only credences you had that were only priors were the ones you had at birth (I might make exceptions for things that you have no explicit belief on, as in “huh, I hadn't thought about that problem. I guess my prior here is […]“), and the only credences that are only posteriors are the credences you have now.
+2022-09-20T22:07:02.000000Z	Todo: become an anti-recycling fanatic at some point
+2022-09-20T22:17:53.000000Z	rationalist meditation retreat: listening to Replacing Guilt as a dharma talk
+2022-09-20T22:19:09.000000Z	there are actually six hindrances: the original five and thinking about how to practically dovetail the shortest brainfuck quine
+2022-09-20T22:20:27.000000Z	I'd hate to be the baby strapped to Voyager 1

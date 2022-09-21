@@ -355,6 +355,7 @@ Texts
 #### Consciousness
 
 * Matter is Philosophically Unnecessary
+	* The matter/mind duality is an artifact of how our minds classify the world
 * The Hard Problem of Consciousness Still Persists Without Matter
 * Panpsychism is a Class of Theories of Consciousness, not a Theory of Consciousness
 * Intentional vs. Non-Intentional Consciousness
@@ -439,6 +440,9 @@ Texts
 	* Personal forecast accuracy?
 	* Air pollution
 	* CO₂ levels
+	* Subjective productivity
+	* Subjective creativity
+	* Fasts
 * Substances
 	* Oxytocin
 	* Diet Coke self experiment
@@ -453,6 +457,7 @@ Texts
 * Scott Alexander CO₂ and wordgame performance
 * Testing self-conditioning via nicotine as reward
 	* https://www.sciencedaily.com/releases/2009/09/090909122052.htm
+* Do I have better naps when I listen to fast audio of people talking?
 
 ### Arguments
 
@@ -551,8 +556,15 @@ Texts
 		* Removing negatives is more zero-sum, adding positives is more positive-sum (people in a negative-sum mindset don't really try to improve anything, I think)
 	* Distinction between removing negatives/adding positives in method and in topic selection ("How can I solve this thing?" versus "What should I focus on?") (see negative versus positive utilitarianism)
 	* See also upwing versus downwing (hat-tip John David Pressman)
-* Why Not Prepping?
 * Given No Singularity, Soon Mars Colonization is Unlikely, But Asteroid Mining Looks Promising
+* In Nearly Complete Defense of The Last Jedi
+* Scope Neglect is Not a Bias
+	* Not necessarily dynamically inconsistent
+	* I can want there to be ≥80 birds saved, but be indifferent about larger numbers
+	* This does not hold if we include probabilities, though
+* The Anti-Myopia argument for the dignity prior depends on myopia never being the right course of action
+	* Or, shorter: The Anti-Myopia Argument For The Dignity Prior Has A Questionable Premise
+* Why Not Prepping?
 
 > [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
 distinguishes between three different kinds of disaster scenarios:
@@ -1254,12 +1266,20 @@ eine kontingente verschmelzung von fast-sein und konkretheit"
 	* hbdchick
 	* Traditions of Conflict
 	* Quanta Magazine
+	* Nautilus
 * Best of collections from blogs
 	* TheRedQuest
 	* Overcoming Bias
 	* hbdchick
 * A wiki for pickup terminology
 * Kiwix versions of LessWrong, Alignment Forum, Effective Altruism Forum
+
+Videos
+-------
+
+* Population Axiology
+* Causal Inference
+* Patricia Taxxon music videos with generated images (Hellbulb, Alien, Cilantro)
 
 Data Sets
 ----------

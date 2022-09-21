@@ -1,0 +1,4 @@
+digraph after_shift {
+	wA -> wN [color=red, label="0.8"];
+	wT -> wN [color=red, label="0.2"];
+}
