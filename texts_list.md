@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-08-03, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-09-22, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [(A -> B) -> A (Scott Garrabrant, 2018)](https://www.lesswrong.com/posts/qhsELHzAHFebRJE59/a-greater-than-b-greater-than-a)
+* [Modafinil (Gwern Branwen, 2018)](https://www.gwern.net/Modafinil)
+* [Sport is my Teacher (Mark Twight, 2017)](https://www.nonprophet.media/journal/sport-is-my-teacher)
+* [Model splintering: moving from one imperfect model to another (Stuart Armstrong, 2020)](https://www.lesswrong.com/s/kjcioCkqSSS4LiMAe/p/k54rgSg7GcjtXnMHX)
+* [Chemical Imbalance (Scott Alexander, 2015)](https://slatestarcodex.com/2015/04/05/chemical-imbalance/)
+* [Slightly Against Underpopulation Worries (Scott Alexander, 2022)](https://astralcodexten.substack.com/p/slightly-against-underpopulation)
+* [Two-year update on my personal AI timelines (Ajeya Cotra, 2022)](https://www.lesswrong.com/posts/AfH2oPHCApdKicM4m/two-year-update-on-my-personal-ai-timelines)
+* [Unnatural Categories Are Optimized for Deception (Zack M. Davis, 2021)](https://www.lesswrong.com/posts/onwgTH6n8wxRSo2BJ/unnatural-categories-are-optimized-for-deception)
 * [Nicotine (Gwern Branwen, 2016)](https://www.gwern.net/Nicotine)
 * [The Worst Game Ever (Gavin Leech, 2016)](https://www.gleech.org/worst)
 * [Why I don't write as much as I used to (Brian Tomasik, 2022)](https://briantomasik.com/writing-less/)

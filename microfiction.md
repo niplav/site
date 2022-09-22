@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-09-20, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-09-22, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __Very small pieces of fiction and things that are sufficiently like
 fiction.__
@@ -38,14 +38,16 @@ Words
 * English
 	* "corrigibility"
 	* "antisemanticity"
+	* "crestfallen"
 * German
-	* "Bewahren"
+	* "bewahren"
 	* "Kabeljau"
 	* "Sollbruchstelle"
 	* "Ablaufdatum"
 	* "Geizkragen"
-	* "Pervers"
-	* "Etwas auf Vordermann bringen"
+	* "pervers"
+	* "etwas auf Vordermann bringen"
+	* "mit Hängen und Würgen"
 
 Poems
 ------

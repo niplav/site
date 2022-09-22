@@ -239,6 +239,12 @@ and my favorite proof is the [Classification of finite simple
 groups](https://en.wikipedia.org/wiki/Classification_of_finite_simple_groups)
 (not that I understand it).
 
+My *least* favorite mathematical mathematical technique is [spectral
+clustering](https://en.wikipedia.org/wiki/Spectral_clustering),
+and I am incredibly suspicious of [spectral graph
+theory](https://en.wikipedia.org/wiki/Spectral_graph_theory) in
+particular.
+
 My favorite algorithms are the [IC\*
 algorithm](https://rpatrik96.github.io/posts/2021/11/2021-11-22-poc8-ic-ic-ic),
 [Kadane's

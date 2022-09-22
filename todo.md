@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-09-15, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-09-22, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs that will be written decades
 > in the future, as well as music.__
@@ -1279,7 +1279,12 @@ Videos
 
 * Population Axiology
 * Causal Inference
-* Patricia Taxxon music videos with generated images (Hellbulb, Alien, Cilantro)
+* Patricia Taxxon music videos with generated images
+	* Hellbulb
+	* Alien
+	* Cilantro
+	* Rawr
+* Cool girl video + Death By Glamour
 
 Data Sets
 ----------
@@ -1843,4 +1848,5 @@ In-World Projects
 * Add Ithkuil script to the UCSUR
 * Bring the rest of the Latin super/subscripts into Unicode
 * Create & maintain rat/postrat/metarat fediverse instance
+	* domain name egregome.industries
 * Arrange Slavoj Žižek to be an EAG keynote speaker

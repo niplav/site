@@ -1465,3 +1465,4 @@
 2022-09-20T22:17:53.000000Z	rationalist meditation retreat: listening to Replacing Guilt as a dharma talk
 2022-09-20T22:19:09.000000Z	there are actually six hindrances: the original five and thinking about how to practically dovetail the shortest brainfuck quine
 2022-09-20T22:20:27.000000Z	I'd hate to be the baby strapped to Voyager 1
+2022-09-21T23:05:01.000000Z	pet peeve: line-splitting in an ﬀ ligature

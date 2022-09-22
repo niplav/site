@@ -1037,7 +1037,7 @@ Assume we have a transitive and complete ordering `$\preceq$` over
 possible worlds `$W_1$`, which is our consistent preferences. Let `$W_2$`
 be a new (and allegedly better) set of possible worlds—more refined,
 or worlds which contain non-existent entities (such as ghosts) have been
-removed. Then An ontological shift `$s_{\mathcal{o}}$` is a function that
+removed. Then an ontological shift `$s$` is a function that
 maps each `$w_1 \in W_1$` to a to a subset of `$W_2$`, possibly with
 weights for the new edges: `$s: W_1 \mapsto \mathcal{P}(W_2)$` or
 `$s: W_1 \mapsto \mathcal{P}(W_2 \times \mathbb{R})$`, where each
