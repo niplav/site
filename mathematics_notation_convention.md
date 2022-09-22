@@ -38,6 +38,9 @@ Schein von ihm schwindet.
 	* `$[n] = \{x \in \mathbb{N} | 1 \le x \le n \}$` for `$n \in \mathbb{N}$`.
 * For function definitions, use `$f: ℝ^n \mapsto ℝ$` instead of `$f: ℝ^n \rightarrow ℝ$`
 * In multiplication of reals (and maybe complex numbers), I prefer central dots `$a \cdot b \cdot c$`, and *sometimes* concatenation `$abcd$`. Rarely asterisks `$a * b * c * d$`, but I try to avoid them.
+* Words
+	* Instead of [__"numerator"__/__"denominator"__](https://en.wikipedia.org/wiki/Fraction) I instead use __"upper number"__/__"lower number"__
+	* A function `$f(x)=x^p$` is __"quadratic"__ iff `$p=2$`, and __"radical"__ iff `$p \in (0,1)$`
 
 ### Set Theory
 
