@@ -1,10 +1,11 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-09-22, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-09-23, language: english, status: notes, importance: 2, confidence: log*
 
-> __Notes and ideas for texts & programs that will be written decades
-> in the future, as well as music.__
+> __Notes and ideas for texts & programs & startups & projects & libraries
+& factories & technologies that will be started decades in the future,
+as well as music.__
 
 Todo
 =====
@@ -55,19 +56,22 @@ Site
 * Add metadata to hosted PDFs/videos
 * List of writings by importance/finishedness
 	* List of texts by year/author
-* Replace “” quotes by "" quotes, “” is for quotes within quotes
+* Replace
+	* “” quotes by "" quotes, “” is for quotes within quotes
+	* '*' in math formulas by '·'
 * Improve linting
 	* Incorporate `https://www.gwern.net/static/build/markdown-lint.sh`
 	* `https://www.html-tidy.org/`
 	* `https://github.com/amperser/proselint/`
-* Import Meditavo data
 * Find for a way to allow for LaTeX in code blocks that doesn't break everything immediately
 * Pre-render LaTeX:
 	* `https://www.gwern.net/docs/www/joa.sh/290f53c78d4b287be8059260f613988a8abda677.html`
 	* `https://github.com/pkra/mathjax-node-page/`
 * Maybe collapsable sections?
 * Change internal anchor links to underscore from minus
-	* Also don't use frickin' javascript to create linkable sections, it's a horrible idea
+	* Also don't use frickin' javascript to create linkable sections, it's disgusting
+* nitter.hu to nitter.net
+* Collect list of deprecated & draft texts somewhere
 
 Existing Texts
 --------------
@@ -215,6 +219,7 @@ Texts
 	* But for humans at the time with the available information
 * An aggregation of all of Scott Alexander's forecasting results in one place
 * Probabilistic Forecasting as a Social Technology
+* Practical Forecasting Handbook
 
 ### Population
 
@@ -315,6 +320,8 @@ Texts
 * Scaling Laws Under Different Activation Functions
 	* What are the scaling laws for ReLUs vs. sigmoids?
 	* Another datapoint on slow/fast takeoff
+* Repurposing honeypots for AI safety?
+* Kitchen sink versus integrated AI alignment
 
 ### Pick Up
 
@@ -454,10 +461,17 @@ Texts
 	* Brown Noise
 	* Intermittent fasting
 * Muse headband for data collection?
+* How to collect sleep data?
 * Scott Alexander CO₂ and wordgame performance
 * Testing self-conditioning via nicotine as reward
 	* https://www.sciencedaily.com/releases/2009/09/090909122052.htm
 * Do I have better naps when I listen to fast audio of people talking?
+* Double Blind Self-Experiment with Wellbutrin/Bupropion
+* Instant food blind trial
+	* Huel
+	* Queal
+	* Soylent
+	* Others?
 
 ### Arguments
 
@@ -532,7 +546,7 @@ Texts
 		* Leverage
 		* Zizians
 		* Psychotic Breaks in Berkeley
-* Do Things in Groups
+* Do Things Together
 * Some Useful Rationality Concepts
 	* Feedback Loops
 		* Thick vs. Thin/Fast vs. Slow/Signal vs. Noise
@@ -558,12 +572,15 @@ Texts
 	* See also upwing versus downwing (hat-tip John David Pressman)
 * Given No Singularity, Soon Mars Colonization is Unlikely, But Asteroid Mining Looks Promising
 * In Nearly Complete Defense of The Last Jedi
-* Scope Neglect is Not a Bias
-	* Not necessarily dynamically inconsistent
-	* I can want there to be ≥80 birds saved, but be indifferent about larger numbers
-	* This does not hold if we include probabilities, though
 * The Anti-Myopia argument for the dignity prior depends on myopia never being the right course of action
 	* Or, shorter: The Anti-Myopia Argument For The Dignity Prior Has A Questionable Premise
+	* Better arguments come from semi-open-source game theory and ethical injunctions
+* Overy violent vs. overly sexual examples
+	* Sex & violence & maybe children weirdness in our culture
+	* Why are we so okay with violence in movies & series, and so cucked about sex & sexuality?
+		* Isn't sex good & violence bad‽
+* Maybe a car rant
+* Deminatalist utilitarianism pitfalls
 * Why Not Prepping?
 
 > [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
@@ -592,11 +609,18 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Refactoring Rational Feelings
 	*	Relation between emotions, goals, strategy/planning, moral
 		development etc.
+* Scope Neglect is Not a Bias
+	* or, Contra Yudkowsky and Soares and Alexander on Oily Birds
+	* Not necessarily dynamically inconsistent
+	* I can want there to be ≥80 birds saved, but be indifferent about larger numbers
+	* This does not hold if we include probabilities, though
 
 ### Analyses
 
 * Dumpster Diving
 * Hitch Hiking
+* Table Diving
+* Walking Barefoot
 * Keyboards
 	* Hardware
 		* Hands too near each other
@@ -605,8 +629,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Software
 		* Layouts are a problem
 		* Two modes: key position on keyboard & character presented by key
-* Table Diving
-* Walking Barefoot
 * Actuarial tables for dictators
 * Ideology Transition Graphs
 	* When people move along ideologies, which paths do they take?
@@ -752,7 +774,10 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Just generalise Pollock's polyhedral conjecture for n-dimensional polytopes
 	* Also try to prove the case for triangular numbers first to get a feel for it?
 * Try to find subway pollution levels in LOCAL\_CITY
-* Expected value of plastic surgery for men
+* Expected value of plastic surgery for men (jaw augmentation)
+	* Daygame test! Daygame test!
+	* Also with google surveys for attractiveness before & after
+		* Include decoy lizard question
 * How Many Proton Decays?
 	* How many proton decays should we expect to have happened in the universe so far?
 	* Proton decay follows a geometric distribution
@@ -760,13 +785,16 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Test computationally whether causal networks have more correlations or causations, project from [here](https://www.gwern.net/Causality#what-a-tangled-net-we-weave-when-first-we-practice-to-believe)
 * Which percentage of random normal-form games are potential games?
 	* 0?
-* Double Blind Self-Experiment with Wellbutrin/Bupropion
 * Find Polygenic scores for subjective well-being and run them through Gwerns Embryo Selection Analysis
 	* See [this section](https://www.gwern.net/Embryo-selection#multiple-selection-on-independent-traits)
 * Testing CFARs techniques and anti-procrastination techniques
 	* Use:
 		* CFAR handbook
 		* Lesswrong post about anti-procrastination techniques
+* Universe good or bad calculation
+* More Heinz Ketchup than cum
+	* Probably not, through animals
+* Recycling cost-benefit calculation
 
 ### Ideas
 
@@ -863,6 +891,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * The UTMs-simulate-each-other solution to the Python-with-Witch problem
 	* Look up LW shortform comment on this
 	* https://nitter.hu/RatOrthodox/status/1552618631602663425#m
+	* Towards the Best Programming Language for Universal Induction
 * Clanishness vs. tribalism and relatedness in Dunbars number sized groups
 * Upwing and downwing as new political fronts
 	* Hat-grab at John David Pressman
@@ -870,6 +899,14 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * European vs. American Intervention Intuitions
 	* Europeans (esp germans) seem to have very different intuitions than Americans on foreign interventions. This might be because of the the two world wars taking place on european, but mostly not on american soil
 * fMRI scans for enhancing brain preservation through cryonics
+* Society free-rides on a lot of altruism, this has consequences
+	* The Fragile Blessing of Unrewarded Altruism
+	* Implications for Open Borders
+* The General Societal Problem of Matching Things
+	* Friends
+	* Romantic Partners
+	* Jobs to Workers
+	* Living Locations to Tenants
 
 ### Collections
 
@@ -900,6 +937,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Activities/Movies/Series/Podcasts/Books/Blogposts
 * Cool Things Humans Can Learn
 	* Inspiration from [here](https://www.lesswrong.com/posts/knLZY52Yx9G23u3Ka/insufficiently-awesome?commentId=4AevGHrCQMbWaoan9)
+	* Recognize temperature, time duration, object length, position on the globe
 * Notes on a Grand Plan to Learn Everything
 	* Exploration
 		* Read Wikipedia with [this method](./notes.html#Getting-an-Overview-Over-Everything)
@@ -1004,6 +1042,8 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* `https://www.gwern.net/Design`
 	* No dynamically loading images for f\*cks sake
 * A list of countries with ratings for how open their borders are
+* Typology of motivations to get into EA
+* Red teaming markets
 
 ### Notes
 
@@ -1026,9 +1066,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Therefore it's probably not very important what most people think
 * Hail Cyclists
 	* Positive Externalities: Environment, Attractiveness
-* Hail Long Content
-	* Most Topics are Too Short for Books
-* Hail FAQs
 * Boo Discord
 	* Why on earth did this software become the replacement for forums?
 * There is no Continous Probability Distribution without a Mode
@@ -1046,6 +1083,15 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Comprehensive: long and detailed, providing sources, visualizations, code, predictions, etc.
 	* Optimal: attempts to be a piece of content on the pareto frontier of what it is talking about)
 	* Updated: even if it doesn't pertain to current events, the author is either still working on it or had worked on it for a long time
+	* Hail Long Content
+		* Most Topics are Too Short for Books
+	* Hail FAQs
+	* Properties of good curations
+		* Completeness (everything relevant is there)
+		* Order (sorted by importance/relevance)
+	* Most problems get solved far too often, create (or maintain, or support) canonical resources
+		* wasted motion
+	* Long content and its curation
 * Tracking of Belief Introduces Overhead
 * Mastery is Exceedingly Rare
 
@@ -1071,6 +1117,10 @@ means that only 1 out of 250 men will even reach the intermediate level of
 Game. Even those odds likely overstate the number of Players in the world.
 
 *— Nick Krauser, “Daygame Mastery”, 2014*
+
+### Questions
+
+* Import ~/etc/notes/questions
 
 ### Reports
 
@@ -1157,6 +1207,7 @@ Game. Even those odds likely overstate the number of Players in the world.
 * Cryonics Zine
 * The Grand Picture
 	* See [Sandberg 2021](http://aleph.se/andart2/uncategorized/what-is-going-on-in-the-world/)
+* Import ~/etc/notes/misc
 * Fundamentals
 
 > we should be far more explicit about the assumed background against
@@ -1306,9 +1357,12 @@ Collect data on
 		* Augur
 		* PredictIt
 		* Iowa Open Markets
+		* INFER
+		* Manifold
 		* Others?
 * Large STEM Dataset
 	* For training large ML models that are less likely to be [human models](https://www.lesswrong.com/posts/BKjJJH2cRpJcAnP7T)
+ * Some dataset on polyamory??
 
 Flashcards
 -----------
@@ -1604,6 +1658,9 @@ Programming
 	* A stream version of sam: ssam : sam :: sed : ed
 	* Like, a proper one, not just a thin shell script wrapped around sam
 	* Maybe this exists already?
+* Dovetail the shortest brainfuck quine, in practice
+* EA idea repository
+* Open source onlyfans
 
 ### Klong Libraries
 
@@ -1787,6 +1844,7 @@ Sequences
 	* Inconsistent Values and Extrapolation
 		* Add `https://www.lesswrong.com/posts/6RjL996E8Dsz3vHPk/two-more-decision-theory-problems-for-humans`
 	* Much More Than You Wanted To Know
+	* Advances in Theoretical Group Rationality
 * EA Forum
 	* Cause Area Investigations
 
@@ -1803,10 +1861,24 @@ Answers
 		a point even though you’re annoying, then they say on
 		balance you’re mostly right although you ignore some of
 		the most important facets of the issue, then you win.”"
-* Comment on `https://musingsandroughdrafts.wordpress.com/2021/03/24/my-current-high-level-strategic-picture-of-the-world/index.html`
-	* Say that it's excellent
-	* Point out typos
-	* Add points from notes
+* Comment on Guys don't want to get laid by Red Quest
+	* 1. Most guys don't have "get laid a lot with hot chicks" as a life goal because they have no coherent life goals at all
+	* 1.1. Long-term goals are far mode (love, abstraction, altruism), and pickup requires long-term thinking, but is in the domain of near mode (sex, pleasure, egoism)
+	* 1.2. There could be Hansonian self-deceptive reasons against thinking about sex too strategically
+	* 2. Humans are not automatically strategic
+	* 2.1. Or rational etc.
+	* 3. Cold approach is *hard*
+	* 3.1. The evolutionary argument for approach anxiety is not bad
+	* 3.1.1. See hangahiwa wandafunei from The Assassin's Footprint (William Buckner, 2019)
+	* 3.2. Most people don't achieve hard valuable things
+	* 3.2.1 E.g. jhanas (or insight stages), high physical health, mastery of anything, emotional mastery
+	* 3.2.2 Most people don't seem to do the bare minimum (e.g. invest money lying around in the stock mark
+	* et)? Probably due to trivial inconveniences
+	* 3.2.3 People are satisficers, and most guys get the odd girlfriend and then drop out
+	* 3.2.3.1 Note that many guys in pickup have a history of being quite unsuccessful with women
+	* 3.3. Competes with other interests
+	* 4. Personal story
+	* 4.1 Maybe overestimates how horny guys are
 
 Arbital
 --------
@@ -1848,5 +1920,8 @@ In-World Projects
 * Add Ithkuil script to the UCSUR
 * Bring the rest of the Latin super/subscripts into Unicode
 * Create & maintain rat/postrat/metarat fediverse instance
-	* domain name egregome.industries
+	* domain name egregome.industries or just revive schelling.pt when it becomes available
 * Arrange Slavoj Žižek to be an EAG keynote speaker
+* 80,000 hours add German organisations
+* Headstrap for airplane sleeping?
+* Apartment swapping startup

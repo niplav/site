@@ -15,7 +15,9 @@ the middle where everything is the same
 
 *— [Neal Stephenson](https://en.wikipedia.org/wiki/Neal_Stephenson), [“Snow Crash”](https://en.wikipedia.org/wiki/Snow_Crash), 1992*
 
-<!--TODO: find pagenumber for quote-->
+<!--TODO: find pagenumber for quote
+Open science foundation pre-registration
+Or just pre-register on the blockchain-->
 
 Abstract
 --------

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-03-23, modified: 2022-06-10, language: english, status: notes, importance: 1, confidence: draft*
+*author: niplav, created: 2021-03-23, modified: 2022-09-23, language: english, status: notes, importance: 1, confidence: draft*
 
 > __People write mathematics in a specific way, and use different
 conventions. Here I collect mine, mainly for myself.__
@@ -36,7 +36,7 @@ Schein von ihm schwindet.
 	* (I'm not super confident about the arguments above, maybe I missed a structure. If so, please tell me!)
 * Setting operator precedence and passing arguments to functions is done with parentheses `$()$`, sets are denoted using `$\{\}$`, and `$[]$` is sometimes used in the context of statistics (variance of a variable, mean of a variable, and so on). These are not mixed.
 	* `$[n] = \{x \in \mathbb{N} | 1 \le x \le n \}$` for `$n \in \mathbb{N}$`.
-* For function definitions, use `$f: ℝ^n \mapsto ℝ$` instead of `$f: ℝ^n \rightarrow ℝ$`
+* For function definitions, use `$\mapsto$` instead of `$\rightarrow$`, e.g. `$f: ℝ^n \mapsto ℝ$` instead of `$f: ℝ^n \rightarrow ℝ$`
 * In multiplication of reals (and maybe complex numbers), I prefer central dots `$a \cdot b \cdot c$`, and *sometimes* concatenation `$abcd$`. Rarely asterisks `$a * b * c * d$`, but I try to avoid them.
 * Words
 	* Instead of [__"numerator"__/__"denominator"__](https://en.wikipedia.org/wiki/Fraction) I instead use __"upper number"__/__"lower number"__

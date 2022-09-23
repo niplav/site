@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-07-21, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-09-23, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of puns, good bandnames, types of guy,
 idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
@@ -312,7 +312,7 @@ Puns
 *	What does an enthusiast for upper body clothing say when they see a new piece?  
 	“Intewesting”
 * I had to reject the p-zombie for the position, they just weren't qualiafied.
-* Haskellers don't do jhãnic meditation? Because it's all about cultivating states.
+* Why don't Haskellers practice jhānic meditation? Because it's all about cultivating states.
 
 ### German
 
@@ -437,4 +437,4 @@ I have, at various times,
 
 I have been told that I'm creative, but I have never observed any
 correlation with how well the approach goes and the opener, except for
-boring openers and insults.
+very boring openers and insults.
