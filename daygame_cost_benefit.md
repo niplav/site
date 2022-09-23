@@ -26,6 +26,12 @@ Approximate ratio per:
 1:100 for 500-1000
 1:50 for 1000-2000
 1:30 for everything afterwards
+
+TODO:
+
+increase opportunity cost
+distinguish opportunity cost and incidental benefits from sunlight,
+light exercise and improvement of social skills
 -->
 
 Daygame Cost-Benefit Analysis
@@ -523,6 +529,8 @@ On the other hand, it may be that daygame only replaces "productive
 personal time", that the energy exerted in daygame misses in other
 productive activities, while the amount spent on downtime & unfulfilling
 stuff stays constant.
+
+<!--TODO: consider Matt's input on this-->
 
 I will tentatively set the opportunity cost of an hour of daygame to \$5,
 but would be interested in further input:

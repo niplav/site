@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-07-18, language: english, status: finished, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-09-23, language: english, status: finished, importance: 1, confidence: log*
 
 > __Podcasts I am following.__
 
@@ -25,6 +25,7 @@ I try to listen to all episodes available to the public.
 * [Manifold Podcast](https://manifold1.com)
 * [Razib Khan's Unsupervised Learning](https://razib.substack.com)
 * [Robot Friends](https://soundcloud.com/user-557955426)
+* [The Inside View](https://theinsideview.ai/)
 * [Utilitarian Podcast](https://anchor.fm/utilitarian)
 * [Vecna's Goon Squad](https://anchor.fm/cassius-vecna/)
 * [Wildness](https://www.wildanimalinitiative.org/wildness)

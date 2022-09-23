@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-09-22, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-09-23, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __Very small pieces of fiction and things that are sufficiently like
 fiction.__
@@ -25,7 +25,7 @@ Words
 * "tiktocracy"
 * "sapolskywave"
 * "technocratsacy"
-* ["rijndaël"](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)[ites](https://en.wikipedia.org/wiki/Raëlism)
+* ["rijndaël](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)[ites"](https://en.wikipedia.org/wiki/Raëlism)
 * "licerology": the study of betting and auctions, auction theory
 
 #### Morphisms
@@ -229,6 +229,8 @@ I can say it's good
 
 ##### Lipogrammatic Bukkake Senryūs
 
+I made up the ugliest possible genre of poetry.
+
 It, triumphantly  
 giggling, snatched this poisonous  
 cum from a mailman
@@ -240,6 +242,33 @@ iconography
 Just sub a smoking  
 cumulonimbus, our work  
 now turns arduous
+
+### Moloch
+
+> Moloch whose wasp-nests are fractal!  
+> Moloch whose pilots are spooky!  
+> Moloch who resides in an infinite-dimensional space!  
+> Mandate of tenderness! Fugitive astralites!
+
+#### Squeal
+
+> *epistemic status: I saw the best minds of my generation*
+>  
+> Limply balancing mile-deep cocktail glasses and clamoring for laughable Thielbucks on the cramped terraces of Berkely,  
+who invite you to the luring bay, promising to pay for your entire being while elegantly concealing the scarlet light evaporating from their tearducts and nostrils,  
+who down 3¾ bottles of Huel™ and sprint to their next fellowship or retreat or meetup or workshop, in the pore-showingly lit hallways with whiteboards and whiteboards and whiteboards and whiteboards,  
+who want to crown random nerds with aureal sigmas fished from the manifold crevaces of self-denying deities,  
+who write epics of institutionalized autists bent on terraforming these overpopulated hypothetical hells,  
+pointing out dynamic inconsistency in the comments and melting hectoton steel-marbles around civilizational recipes,  
+who improve their aim hurling yeeting philosophical tomes at unsuspecting passerbys and ascend urban lampposts to loudly deduce their mechanical liturgies,  
+who cut down oaks and poppies in the parks to make oil and space for those ones yet to come and who hunker down in fortified coalmines in Montana and the Ruhrgebiet, propelled into the rock by a Ordite reactor, a Bostromite dynamo,  
+who exitedly pour & plaster tabulated exponents into webscripted canisters just below the teal-tinded ceiling,  
+who can name the 11 AI forecasting organisations and the 4 factors of successful nonprofits and the 7 noble ways of becoming more agentic and might even find Rwanda on a map not made in Silicon Valley,  
+contemplating hemispherectomies to purify their nascent idealism on the verge of a hope-ash London dawn,  
+who catch a feral heart in the garden behind the A100 rack and save it into a transparent domicile, injecting it with 17000 volts to illuminate all the last battery cages equally,  
+who empty out their pockets with uncountable glaring utilons onto innocent climate activists, promising to make them happy neutron stars one day,  
+microscopically examining the abyssal monstrosities their oracles conjure up out of the lurching empty chaos,  
+who fever towards silver tendrils bashing open their skulls and eating up their brains and imaginations, losslessly swallowed into that ellipsoid strange matter gut pulsing out there between the holes
 
 Dialogues
 ----------
@@ -339,34 +368,6 @@ unknown, only to be faintly perceived by posterior-maximizers who have
 trained their sensory organs to the maximal degree of data intake possible
 without (at the moment outside of military circles unavailable) BCIs. And
 yet, the 'works scale and scale, just as foretold by the 𝔊 prophet.
-
-Moloch
--------
-
-* Moloch whose wasp-nests are fractal!
-* Moloch whose pilots are spooky!
-* Moloch who resides in an infinite-dimensional space!
-* Mandate of tenderness! Fugitive astralites!
-
-### Squeal
-
-> *epistemic status: I saw the best minds of my generation*
->  
-> Limply balancing mile-deep cocktail glasses and clamoring for laughable Thielbucks on the cramped terraces of Berkely,  
-who invite you to the luring bay, promising to pay for your entire being while elegantly concealing the scarlet light evaporating from their tearducts and nostrils,  
-who down 3¾ bottles of Huel™ and sprint to their next fellowship or retreat or meetup or workshop, in the pore-showingly lit hallways with whiteboards and whiteboards and whiteboards and whiteboards,  
-who want to crown random nerds with aureal sigmas fished from the manifold crevaces of self-denying deities,  
-who write epics of institutionalized autists bent on terraforming these overpopulated hypothetical hells,  
-pointing out dynamic inconsistency in the comments and melting hectoton steel-marbles around civilizational recipes,  
-who improve their aim hurling yeeting philosophical tomes at unsuspecting passerbys and ascend urban lampposts to loudly deduce their mechanical liturgies,  
-who cut down oaks and poppies in the parks to make oil and space for those ones yet to come and who hunker down in fortified coalmines in Montana and the Ruhrgebiet, propelled into the rock by a Ordite reactor, a Bostromite dynamo,  
-who exitedly pour & plaster tabulated exponents into webscripted canisters just below the teal-tinded ceiling,  
-who can name the 11 AI forecasting organisations and the 4 factors of successful nonprofits and the 7 noble ways of becoming more agentic and might even find Rwanda on a map not made in Silicon Valley,  
-contemplating hemispherectomies to purify their nascent idealism on the verge of a hope-ash London dawn,  
-who catch a feral heart in the garden behind the A100 rack and save it into a transparent domicile, injecting it with 17000 volts to illuminate all the last battery cages equally,  
-who empty out their pockets with uncountable glaring utilons onto innocent climate activists, promising to make them happy neutron stars one day,  
-microscopically examining the abyssal monstrosities their oracles conjure up out of the lurching empty chaos,  
-who fever towards silver tendrils bashing open their skulls and eating up their brains and imaginations, losslessly swallowed into that ellipsoid strange matter gut pulsing out there between the holes
 
 Sutras
 -------

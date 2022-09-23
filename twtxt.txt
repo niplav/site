@@ -1466,3 +1466,10 @@
 2022-09-20T22:19:09.000000Z	there are actually six hindrances: the original five and thinking about how to practically dovetail the shortest brainfuck quine
 2022-09-20T22:20:27.000000Z	I'd hate to be the baby strapped to Voyager 1
 2022-09-21T23:05:01.000000Z	pet peeve: line-splitting in an ﬀ ligature
+2022-09-22T23:02:05.000000Z	It's not fair! The graph was supposed to peak in 2047, not 2028!
+2022-09-22T23:02:27.000000Z	Most zero-sum games are actually negative-sum games, because of transaction costs
+2022-09-22T23:02:48.000000Z	Angels from Dr. Who but everytime you look away there's new AI capabilities progress
+2022-09-22T23:04:11.000000Z	soft (rigidity), soft (texture)
+2022-09-22T23:04:31.000000Z	Yudkowsky moved AI alignment research forward by 4 years, but he also sped up timelines by 2.5 years, so it all cancels out
+2022-09-22T23:04:49.000000Z	It's impossible to tell whether he's good or not
+2022-09-22T23:05:09.000000Z	MTF π-12 “tensor grease”
