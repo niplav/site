@@ -944,7 +944,7 @@ Metaculus. Perhaps there are some problems with [floating-point
 arithmetic](https://en.wikipedia.org/wiki/floating-point_arithmetic)
 at play here: the best fit *would* be at something like
 `$10^{-78}$`, but `curve_fit` doesn't know how to [count that
-low](https://acesounderglass.com/2021/10/20/i-dont-know-how-to-count-that-low/)?
+low](https://acesounderglass.com/2021/10/20/i-dont-know-how-to-count-that-low/ "I Don’t Know How To Count That Low (Elizabeth, 2021)")?
 
 ##### This Is Cool
 
@@ -2180,10 +2180,12 @@ the Metaculus developers do not exist to cater to my whims, and are doing
 a phenomenal job).
 
 More than a year later, I got hold off the private Metaculus data via
-my job, the Metaculus admins also allowed me to use it for any private
-investigations.
+my job, luckily the Metaculus admins also allowed me to use it for my
+private investigations.
 
-### Testing Previous Metaculus Findings on Private Data
+I subsequently [tried to replicate my previous
+findings](./range_and_forecasting_accuracy.html#Appendix-A-Replicating-Metaculus-Findings-With-Full-Data)
+with the private data, finding that \_.
 
 Limitations
 -----------
@@ -2251,7 +2253,37 @@ Discussions
 
 * [LessWrong](https://www.lesswrong.com/posts/MquvZCGWyYinsN49c/range-and-forecasting-accuracy)
 
-Appendix A: Quotes About the Horizon of Forecasts
+Appendix A: Replicating Metaculus Findings With Full Data
+-----------------------------------------------------------
+
+After receiving the private data from the Metaculus admins, I decided to
+check whether my previous findings would still bear out with the full
+dataset, or whether equally shrinking the data on questions with many
+forecasts and fewer forecasts had introduced significant amounts of bias.
+
+### Some Predictions About The Results
+
+This also gave me an excellent opportunity to test my own calibration
+on the findings: Would I be correct about which findings would
+and wouldn't hold up to scrutiny with nicer datasets? I used
+[PredictionBook](https://predictionbook.com/) to record my predictions
+about the results before running the code on the data (relying on
+the reader's trust that I hadn't just run the code beforehand and
+predicted with the benefit of hindsight). The private dataset was
+much bigger and more up-to-date than the compressed one from the
+[API](https://www.metaculus.com/api2/questions/) I had used.
+
+* Accuracy Between Forecasts
+	* "Will the Brier score on all resolved Metaculus binary forecasts be greater than or equal to 0.17085?"`$_{10\%}$`
+	* "Will the correlation between range and Brier score be non-negative for all resolved Metaculus binary forecasts?"`$_{45\%}$`
+	* "Will the correlation between range and Brier score be greater than or equal to 0.02166 for all resolved Metaculus binary forecasts?"`$_{40\%}$`
+	* "Will the slope for the linear regression between range and Brier score be non-negative for all resolved Metaculus binary forecasts?"`$_{45\%}$`
+	* "Will the slope for the linear regression between range and Brier score be greater than or equal to 1.4922e-5 for all resolved Metaculus binary forecasts?"`$_{40\%}$`
+	* "Will the intercept for the linear regression between range and Brier score be non-negative for all resolved Metaculus binary forecasts?"`$_{95\%}$`
+	* "Will the intercept for the linear regression between range and Brier score be greater than or equal to 0.1675 for all resolved Metaculus binary forecasts?"`$_{20\%}$`
+	* "Will the p-value for the linear regression between range and Brier score be greater than or equal to 1.8994e-6 for all resolved Metaculus binary forecasts?"`$_{35\%}$`
+
+Appendix B: Quotes About the Horizon of Forecasts
 --------------------------------------------------
 
 > Demographers disagree about many things, but not that the further into

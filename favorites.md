@@ -1,7 +1,7 @@
 [home](./index.html)
 ---------------------
 
-*author: niplav, created: 2022-06-18, modified: 2022-07-25, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2022-06-18, modified: 2022-09-27, language: english, status: draft, importance: 2, confidence: log*
 
 > Idea & format stolen shamelessly from [Gavin
 Leech](https://www.gleech.org/favs/all/).
@@ -92,7 +92,7 @@ final pushes for me to do something in a particular direction):
 	* [Collective Apathy and the Internet (Eliezer Yudkowsky, 2009)](https://www.lesswrong.com/s/pvim9PZJ6qHRTMqD3/p/NnQbfLo868wgnHF4n)
 	* [About This Website (Gwern Branwen, 2021)](https://www.gwern.net/About)
 	* [History of This Website (Brian Tomasik, 2019)](https://reducing-suffering.org/history-of-this-website/)
-	* [Why You Should Start a Blog Right Now(Alexey Guzey, 2021)](https://guzey.com/personal/why-have-a-blog.html)
+	* [Why You Should Start a Blog Right Now (Alexey Guzey, 2021)](https://guzey.com/personal/why-have-a-blog.html)
 * People in general and tolerance
 	* [People Are Different (John Nerst, 2017)](https://everythingstudies.com/2017/04/24/people-are-different/)
 	* [Generalizing From One Example (Scott Alexander, 2009)](https://www.lesswrong.com/posts/baTWMegR42PAsH9qJ/generalizing-from-one-example)
@@ -112,14 +112,14 @@ Audio
 ### Musicians
 -->
 
-My favorite musicians are Johann Sebastian Bach, Patricia Taxxon, Steve
-Reich, Charles Mingus, Sonny Clark, and Vincent E. L.
+My favorite musicians are Johann Sebastian Bach, Patricia Taxxon,
+Steve Reich, Charles Mingus, Sonny Clark, and Vincent E. L.<!--TODO:
+links to all of these-->
 
 My favorite pieces of music are [Gavotte en
-Rondeau](https://www.youtube.com/watch?v=oO9lSd5NdvU)
-(Johann Sebastian Bach), [Gyermektánc (Béla
-Bartók)](https://www.youtube.com/watch?v=NTiWbzlwZGw),
-[Piano Phase](https://www.youtube.com/watch?v=i0345c6zNfM)
+Rondeau](https://www.youtube.com/watch?v=oO9lSd5NdvU) (Johann Sebastian
+Bach), [Gyermektánc](https://www.youtube.com/watch?v=NTiWbzlwZGw) (Béla
+Bartók), [Piano Phase](https://www.youtube.com/watch?v=i0345c6zNfM)
 (Steve Reich), [Electric Counterpoint:
 III. Fast](https://www.youtube.com/watch?v=UStCXLNVtGY) (Steve Reich),
 [The Well Tuned Piano](https://www.youtube.com/watch?v=VXxZCSAWUP8) (La
@@ -148,6 +148,14 @@ series, Guru Viking guy living in cave, CRE Diamanten
 
 Websites
 ---------
+
+> A proposal, dear reader: Create a list of bookmarks linking
+to websites you find interesting, and publish it for the world
+to see. You decide what constitutes "interesting". The model
+is as recursive as it is simple. There is nothing preventing a
+list of bookmarks from linking to another list of bookmarks.
+
+*— [Memex](https://memex.marginalia.nu/), [The Small Website Discoverability Crisis](https://memex.marginalia.nu/log/19-website-discoverability-crisis.gmi), 2021*
 
 ### Sites
 
@@ -222,10 +230,10 @@ one of a kind, a true product of the internet age.
 My favorite wikis are [Wikipedia](https://en.wikipedia.org/), [Stanford
 Encyclopedia of Philosophy](https://plato.stanford.edu/) and the [Arbital
 AI Alignment Domain](https://arbital.org/explore/ai_alignment)
-(sadly defunct); my favorite social media site
-is [schelling.pt](https://schelling.pt); and my
-favorite forecasting/news sites are still the good ol'
-reliable [Metaculus](https://www.metaculus.com) and
+(sadly defunct); my favorite social media site was
+[schelling.pt](https://schelling.pt) (now sadly defunct<!--TODO:
+link-->); and my favorite forecasting/news sites are still the
+good ol' reliable [Metaculus](https://www.metaculus.com) and
 [PredictionBook](https://www.predictionbook.com).
 
 Mathematics

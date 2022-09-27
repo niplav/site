@@ -1473,3 +1473,4 @@
 2022-09-22T23:04:31.000000Z	Yudkowsky moved AI alignment research forward by 4 years, but he also sped up timelines by 2.5 years, so it all cancels out
 2022-09-22T23:04:49.000000Z	It's impossible to tell whether he's good or not
 2022-09-22T23:05:09.000000Z	MTF π-12 “tensor grease”
+2022-09-27T09:36:11.000000Z	often⩬percent
