@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-09-23, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-09-27, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of puns, good bandnames, types of guy,
 idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
@@ -239,7 +239,7 @@ costermongers and fearmongers?
 
 myopia, no youropia, heropia etc.
 
-paradox, but not paragnosis, paratechnē and paraëpisteme
+paradox, but not paragnosis, paratechnē and paraëpistēmē
 
 some Xs, every X?
 
@@ -350,11 +350,14 @@ Nominative Determinisms
 * [Dick Wertheim](https://en.wikipedia.org/wiki/Dick_Wertheim) ["died after a ball struck him in the groin and he fell out of his chair"](https://en.wikipedia.org/wiki/List_of_unusual_deaths)
 * The [Alcor Life Extension Foundation](https://en.wikipedia.org/wiki/Alcor_Life_Extension_Foundation) is located in Scottsdale, Arizona, which is in turn a part of Phoenix, Arizona.
 * To quote Wikipedia on [Candida hypersensitivity](https://en.wikipedia.org/wiki/Candida_hypersensitivity): "Candida hypersensitivity is a [pseudoscientific](https://en.wikipedia.org/wiki/Pseudoscience) disease promoted by William G. Crook, M.D."
-* [Kirby Dick](https://en.wikipedia.org/wiki/Kirby_Dick) directed [a documentary](https://en.wikipedia.org/wiki/This_Film_Is_Not_Yet_Rated) about the age rating system for movies, "The MPAA gave the original cut an NC-17 rating for "some graphic sexual content" – scenes that illustrated the content a film could include to garner such a rating. Dick appealed, and descriptions of the ratings deliberations and appeal were included in the documentary."
+* [Kirby Dick](https://en.wikipedia.org/wiki/Kirby_Dick) directed [a documentary](https://en.wikipedia.org/wiki/This_Film_Is_Not_Yet_Rated) about the age rating system for movies, "The MPAA gave the original cut an NC-17 rating for “some graphic sexual conten” – scenes that illustrated the content a film could include to garner such a rating. Dick appealed, and descriptions of the ratings deliberations and appeal were included in the documentary."
 * The [Schwarzschild radius](https://en.wikipedia.org/wiki/Schwarzschild_radius)
 
 Incorrect Plurals or Singulars People Use
 ------------------------------------------
+
+The first word is the correct one, the second word is the one people
+often use instead.
 
 * "Equilibria" instead of "equilibrium"
 * "Maxima" instead of "maximum"

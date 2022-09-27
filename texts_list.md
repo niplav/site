@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-09-22, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-09-27, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,13 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Nootropics (Gwern Branwen, 2018)](https://www.gwern.net/Nootropics)
+* [Scope neglect (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Scope_neglect)
+* [Public-facing Censorship Is Safety Theater, Causing Reputational Damage (Yitz, 2022)](https://www.lesswrong.com/posts/boBZkTqPdboX5u7g9/public-facing-censorship-is-safety-theater-causing)
+* [Using vector fields to visualise preferences and make them consistent (Michael Aird, Justin Shovelain, 2020)](https://www.lesswrong.com/posts/ky988ePJvCRhmCwGo/using-vector-fields-to-visualise-preferences-and-make-them)
+* [Things you're allowed to do (Milan Cvitkovic, 2021)](https://milan.cvitkovic.net/writing/things_youre_allowed_to_do/)
+* [Draft report on AI timelines (Ajeya Cotra, 2020)](https://www.lesswrong.com/s/EcKbpm4f7fBwhxRZs/p/KrJfoZzpSDpnrv9va)
+* [Use resilience, instead of imprecision, to communicate uncertainty (Gregory Lewis, 2020)](https://forum.effectivealtruism.org/s/dg852CXinRkieekxZ/p/m65R6pAAvd99BNEZL)
 * [(A -> B) -> A (Scott Garrabrant, 2018)](https://www.lesswrong.com/posts/qhsELHzAHFebRJE59/a-greater-than-b-greater-than-a)
 * [Modafinil (Gwern Branwen, 2018)](https://www.gwern.net/Modafinil)
 * [Sport is my Teacher (Mark Twight, 2017)](https://www.nonprophet.media/journal/sport-is-my-teacher)

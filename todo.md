@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-09-23, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-09-27, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -472,6 +472,7 @@ Texts
 	* Queal
 	* Soylent
 	* Others?
+* The General Algorithm For Self-Blinded Experiments
 
 ### Arguments
 
@@ -610,7 +611,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	*	Relation between emotions, goals, strategy/planning, moral
 		development etc.
 * Scope Neglect is Not a Bias
-	* or, Contra Yudkowsky and Soares and Alexander on Oily Birds
+	* or, Contra Desvouges and Kahnemann and Yudkowsky and Soares and Alexander on Oily Birds
 	* Not necessarily dynamically inconsistent
 	* I can want there to be ≥80 birds saved, but be indifferent about larger numbers
 	* This does not hold if we include probabilities, though
@@ -907,6 +908,10 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Romantic Partners
 	* Jobs to Workers
 	* Living Locations to Tenants
+* Subscripts for Probabilistic Credals
+	* Explore different ways of typesetting this
+	* Neither Veridical nor Mirative nor Evidential
+	* See [here](./range_and_forecasting_accuracy.html#Appendix-A-Replicating-Metaculus-Findings-With-Full-Data) for a first exploration
 
 ### Collections
 
@@ -1006,7 +1011,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 			* Spend relatively long on each question (15 minutes)
 * Anecdotes About the Running Times of Test Suites in the Software Industry
 * Ways in which people have misspelled "Kurzgesagt" on the internet
-* Ranking, Reviewing and Rating Patricia Taxxon's Music
+* Ranking, Rating and Reviewing Patricia Taxxon's Music
 * Meanings of "so" in German
 * Heuristics for Friendly Conversation on the Internet
 * Much More Than You Wanted to Know
@@ -1026,6 +1031,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Elon Musk Forecast Correction Function
 	* Code: `1.8239233 * (forecasted-forecast_made) + 48.0502205` (days)
 	* [Original](https://web.archive.org/web/20210302224031/https://anthony.boyles.cc/Essays/portfolio/ElonMuskForecastCorrectionFunction.html)
+	* This was done already by Anthony Boyles
 * End-of-the-world Bet Calculator
 * Auctioning off Your Body
 	* `https://www.humanmicrobes.org/`
@@ -1044,6 +1050,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * A list of countries with ratings for how open their borders are
 * Typology of motivations to get into EA
 * Red teaming markets
+* Properties of Good Textbooks
 
 ### Notes
 
@@ -1057,7 +1064,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Buffers by Rollo Tomassi
 * No One Knows & No One Can Know
 	* This argument infuriates me: did you try to find out what people actually know?
-* Sometimes People have the same Credences but still Disagree
+* Sometimes People have the same Credences but Still Disagree
 * Teaching Oneself vs. Being Taught
 	* Two different mindsets
 * Blogging as an Act of Benevolence
@@ -1207,7 +1214,7 @@ Game. Even those odds likely overstate the number of Players in the world.
 * Cryonics Zine
 * The Grand Picture
 	* See [Sandberg 2021](http://aleph.se/andart2/uncategorized/what-is-going-on-in-the-world/)
-* Import ~/etc/notes/misc
+* Import ~/etc/notes/misc, tweets and toots from schelling.pt and social.freetalklive.net
 * Fundamentals
 
 > we should be far more explicit about the assumed background against
