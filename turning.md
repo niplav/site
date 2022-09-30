@@ -282,7 +282,7 @@ The small example graph (top left) and its possible turnings are
 	>>> for i in range(0, len(smallworld)):
 	...     smallgraph.add_node(smallworld[i], ind=i)
 	>>> smallgraph.add_edges_from([('a', 'b')])
-	>>> smallre=turn(smallworld, smallgraph)
+	>>> smallre=turn(smallgraph)
 	>>> smallre.nodes
 	NodeView(('a', 'b', 'c'))
 	>>> smallre.edges
@@ -295,7 +295,7 @@ This looks pretty much correct.
 	>>> for i in range(0, len(mediumworld)):
 	...     mediumgraph.add_node(mediumworld[i], ind=i)
 	>>> mediumgraph.add_edges_from([('a', 'b'), ('b', 'c'), ('c', 'd'), ('c', 'e'), ('e', 'f'), ('f', 'g'), ('g', 'b')])
-	>>> mediumres=turn(mediumworld, mediumgraph)
+	>>> mediumres=turn(mediumgraph)
 	>>> mediumres.nodes
 	NodeView(('a', 'b', 'c', 'd', 'e', 'f', 'g'))
 	>>> mediumres.edges
@@ -413,7 +413,7 @@ The results, with the small example, are as expected:
 
 For the big example, after waiting a while for the solution:
 
-	>>> turnings=list(turn_all(mediumworld, mediumgraph))
+	>>> turnings=list(turn_all(mediumgraph))
 	>>> len(turnings)
 	49
 
@@ -434,8 +434,8 @@ with `$n$` nodes, and `$\mathcal{U}_n=\{G \in \mathcal{G}_n | 1=|\text{turn_all}
 as the set of graphs with `$n$` nodes that
 have unique path graphs associated with them.
 
-We can further define the set of all graphs wwith `$n$` nodes
-with `$m$` turnings as
+We can further define the set of all graphs with `$n$` nodes with `$m$`
+turnings as
 `$\mathcal{T}{n,m}=\{G \in \mathcal{G}_n | m=|\text{turn_all}(G)|\}$`
 (of which `$\mathcal{U}_n=\mathcal{T}_{n, 1}$`
 is just a special case).
@@ -856,9 +856,9 @@ is represented by the point in the middle of an [equilateral
 triangle](https://en.wikipedia.org/wiki/Equilateral_triangle), while
 `$[0.5: a, 0.5: b, 0: c]$` is in the middle of one edge of that triangle.
 
-![](./img/turning/simplex_1.png)
+![Line from a to b, with a short orthogonal red line in the middle and the text “\[0.5: a, 0.5: b\]” right above the short red line.](./img/turning/simplex_1.png "Line from a to b, with a short orthogonal red line in the middle and the text “\[0.5: a, 0.5: b\]” right above the short red line.")
 
-![](./img/turning/simplex_2.png)
+![Equilateral triangle, the vertices are labeled a, b and c. On the edge between a and b there is a short orthogonal red line in the middle and the text “\[0.5: a, 0.5: b\]” right above the short red line. In the middle of the triangle there is a red dot, and the text “\[⅓: a, ⅓: b, ⅓: c\]” above the dot.](./img/turning/simplex_2.png "Equilateral triangle, the vertices are labeled a, b and c. On the edge between a and b there is a short orthogonal red line in the middle and the text “\[0.5: a, 0.5: b\]” right above the short red line. In the middle of the triangle there is a red dot, and the text “\[⅓: a, ⅓: b, ⅓: c\]” above the dot.")
 
 Let's call the probability simplex for lotteries over a world `$W$`
 `$Δ_W$`, often just `$Δ$` for short (because of the triangle, get it?).
@@ -877,6 +877,8 @@ exists if when for three lotteries `$l_1, l_2, l_3$` and edges `$(l_1, l_2), (l_
 there exists no edge `$(l_1, l_3)$` (because of tacit antisymmetry this
 excludes cycles). However, because the graph is _very_ dense (uncountably
 so, in fact!) this is difficult to visualize.
+
+<!--TODO: captions for all of these-->
 
 ![](./img/turning/incomplete_lott.jpg)
 
@@ -900,12 +902,13 @@ fruit to pure cake).
 
 ![](./img/turning/intrans_lott_2.jpg)
 
-Here we have a probability simplex with 3 options. The graph
-is a set of concentrical cycles, and across the cycles the
-lotteries with lower entropy are preferred over those with higher
+Here we have a probability simplex with 3 options. The graph is a set
+of concentrical cycles, and across the cycles the lotteries with lower
 [entropy](https://en.wikipedia.org/wiki/Entropy_\(information_theory\))
-(conditional on there being no preference already, e.g.
-`$[1: a, 0: b, 0: c]$` is not preferedd over `$[0.5: a, 0: b, 0.5: c]$`).
+are preferred over those with higher entropy (conditional on there being
+no preference already, e.g. `$[1: a, 0: b, 0: c]$` is not preferred over
+`$[0.5: a, 0: b, 0.5: c]$`). The middle of the probability triangle is
+the worst option, and the graph only violates transitivity.
 
 ##### Discontinuity
 
@@ -1066,7 +1069,7 @@ be technically fruit, but they're definitely not a [central
 example](https://www.lesswrong.com/rationality/the-cluster-structure-of-thingspace)).
 Existing preferences are inherited: if `$w_F$` splits into `$w_A$` and `$w_T$`, both of them are still better than `$w_N$`.
 
-![](./img/turning/shift.png)
+![On the left a graph with wF→wN, then an arrow to the right (⇒ with s written over the arrow), on the right a graph wA → wN (edge labeled 0.8) and wT→ wN (edge labeled 0.2).](./img/turning/shift.png "On the left a graph with wF→wN, then an arrow to the right (⇒ with s written over the arrow), on the right a graph wA → wN (edge labeled 0.8) and wT→ wN (edge labeled 0.2).")
 
 The astute reader might notice something: The resulting situation is
 remakably similar to a simple inconsistent preference that were discussed
@@ -1078,11 +1081,10 @@ bad decisions (we here violate the von Neumann-Morgenstern axiom of
 
 But! This is not a hopeless situation: One can slightly modify the
 procedure used for computing the set of turnings described earlier to
-resolve the ontological crises to full satisfaction.
-
-A node splits in two or more, or two or more nodes get merged, one adds
-nodes, or removes them. If the then resulting graph isn't a path graph,
-it can be turned with the method described above.
+resolve the ontological crises to full satisfaction: A node splits in
+two or more, or two or more nodes get merged, one adds nodes, or removes
+them. If the then resulting graph isn't a path graph, it can be turned
+with the method described above.
 
 Example with mammals > birds > fish (where dolphins & trouts are both
 fish!), but then we go through an ontological shift where fish split

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-09-27, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-09-30, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,7 +17,7 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
-* [Nootropics (Gwern Branwen, 2018)](https://www.gwern.net/Nootropics)
+* [\* Nootropics (Gwern Branwen, 2018)](https://www.gwern.net/Nootropics)
 * [Scope neglect (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Scope_neglect)
 * [Public-facing Censorship Is Safety Theater, Causing Reputational Damage (Yitz, 2022)](https://www.lesswrong.com/posts/boBZkTqPdboX5u7g9/public-facing-censorship-is-safety-theater-causing)
 * [Using vector fields to visualise preferences and make them consistent (Michael Aird, Justin Shovelain, 2020)](https://www.lesswrong.com/posts/ky988ePJvCRhmCwGo/using-vector-fields-to-visualise-preferences-and-make-them)
@@ -161,7 +161,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [OpenAI! (Scott Aaronson, 2022)](https://scottaaronson.blog/?p=6484)
 * [Numerai (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Numerai)
 * Counterfactual credit assignment (Brian Tomasik, 2013)
-* \* Superforecasting: The Art and Science of Prediction (Philip E. Tetlock/Dan Gardner, 2015)
+* Superforecasting: The Art and Science of Prediction (Philip E. Tetlock/Dan Gardner, 2015)
 * [My current high-level strategic picture of the world (Eli Tyre, 2021)](https://musingsandroughdrafts.wordpress.com/2021/03/24/my-current-high-level-strategic-picture-of-the-world/index.html)
 * [Hypocorism (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Hypocorism)
 * [Petname (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Petname)
