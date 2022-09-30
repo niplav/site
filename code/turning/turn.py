@@ -151,3 +151,21 @@ def save_graph(saved, g):
 			confusion=len(turn_all(g))
 			saved[gdeg][g]=confusion
 			print('{0},{1},"{2}"'.format(5, confusion, g.edges))
+
+smallworld=['a', 'b', 'c']
+smallgraph=nx.DiGraph()
+
+for i in range(0, len(smallworld)):
+	smallgraph.add_node(smallworld[i], ind=i)
+
+smallgraph.add_edges_from([('a', 'b')])
+smallre=turn(smallgraph)
+
+mediumworld=['a', 'b', 'c', 'd', 'e', 'f', 'g']
+mediumgraph=nx.DiGraph()
+for i in range(0, len(mediumworld)):
+	mediumgraph.add_node(mediumworld[i], ind=i)
+
+mediumgraph.add_edges_from([('a', 'b'), ('b', 'c'), ('c', 'd'), ('c', 'e'), ('e', 'f'), ('f', 'g'), ('g', 'b')])
+
+mediumres=turn(mediumgraph)

@@ -98,6 +98,11 @@ How Can We Become Better At Forecasting?
 		* chained conditional forecasts
 * Is there any conceivable way of incentivizing good predictions on extinction events?
 
+How Can We Ask Better Forecasting Questions?
+---------------------------------------------
+
+* What are methods of scoring/defining how good a question was?
+
 Other Questions
 ----------------
 
