@@ -1100,6 +1100,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* wasted motion
 	* Long content and its curation
 * Tracking of Belief Introduces Overhead
+* Pet Peeves
 * Mastery is Exceedingly Rare
 
 > Very few will aspire to real mastery themselves. Very few will take the

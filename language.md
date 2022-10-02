@@ -369,12 +369,23 @@ Equivalences
 * decision theory : microeconomics :: game theory : macroeconomics
 * biology : philosophy of mind :: ethology : meditation
 
-Better Compound Words
-----------------------
+Better Words
+--------------
+
+### Compound
 
 * bodymind
 * spacetime
 * matterenergy
+
+### Abbreviations Turned Into Words
+
+<!--TODO: links and a planecrash quote-->
+
+* vopi
+* batna
+* botec
+* dists
 
 Good Bandnames
 ---------------
