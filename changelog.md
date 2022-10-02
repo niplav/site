@@ -21,6 +21,7 @@ with fecundity.
 September 2022
 --------------
 
+* [Unclaimed Domain Names](./language.html#Unclaimed_Domain_Names)
 * [Squeal](./microfiction.html#Squeal)
 * Some more [senryūs](./microfiction.html#English_1), [some of them](./microfiction.html#Lipogrammatic-Bukkake-Senrys) [lipogrammatic](https://en.wikipedia.org/wiki/Lipogram) [bukkake](https://en.wikipedia.org/wiki/Bukkake) ones
 

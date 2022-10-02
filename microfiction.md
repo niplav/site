@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-09-23, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-10-02, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __Very small pieces of fiction and things that are sufficiently like
 fiction.__
@@ -376,21 +376,6 @@ Sutras
 * the inframeasure sutra
 * the acausal sutra
 * the fourfold spatious sutra
-
-Unclaimed Domain Names
------------------------
-
-* paratechne.me
-* {uni,multi}fungal.space
-* rhizomiasmatic.tech
-* nibannergic.systems
-* calabiyau.systems
-* panchromatic.industries
-* ultracompactoid.industries
-* synprismatic.industries
-* autopoietic.systems
-* hyperoscillatory.space
-* polyhazardous.space
 
 Tom Swifties
 -------------
