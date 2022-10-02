@@ -1823,9 +1823,9 @@ Wikipedia Articles
 * Pragmatic Dharma (?)
 * Kenneth Folk
 * Experience Replay (see Deep Q-Network (“DQN”; Mnih et al. 2015))
-* Blahaj
 * Cantril Ladder
 * Choice set, choice function, contraction/expansion consistency (all in the context of social choice theory, see Gaertner 2009 p. 7-9)
+* Harberger Tax
 
 ### Improve
 
@@ -1834,13 +1834,10 @@ Wikipedia Articles
 	* Add description of MUMs
 * Judea Pearl
 * Patri Friedman site states he considers himself a rationalist, but that links to the page on philosophical rationalism, while I suspect this refers to the LW variety
-* In the page on Single-parameter Utility, the formulas contain non-\text multi-letter variables. Fix that.
-	* Same for Monotonicity (mechanism design)
 * What the fuck is going on with the The Gods Themselves page?
 * Wikipedia pages on symbols in mathematics and physics are sprawling and confused, clean them up
 * Use the definition from “Algorithmic Game Theory” of correlated equilibrium in the article Correlated equilibrium, the current explanation uses (but doesn't introduce) s_i
 	* Yeah, the current explanation is barely comprehensible
-* On Wikipedia page for Graph Kernel, correct "Leman" to "Lehman" (first, check whether this is actually wrong).
 * Find Ian Goodfellow's true year of birth
 * Add missing national anthems to `https://en.wikipedia.org/wiki/List_of_national_anthems`
 * Futarchy page

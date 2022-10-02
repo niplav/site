@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-09-27, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-10-02, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of puns, good bandnames, types of guy,
 idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
@@ -405,6 +405,21 @@ Advertising Lines
 * Niplav Yushtun™: Pathological Selfer
 * Niplav Yushtun™: [Now an effective cause area!](https://schelling.pt/web/statuses/107888052139408526)
 * Niplav Yushtun™: Calibration of the Intellect, Optimism of the Will
+
+Unclaimed Domain Names
+-----------------------
+
+* paratechne.me
+* {uni,multi}fungal.space
+* rhizomiasmatic.tech
+* nibannergic.systems
+* calabiyau.systems
+* panchromatic.industries
+* ultracompactoid.industries
+* synprismatic.industries
+* autopoietic.systems
+* hyperoscillatory.space
+* polyhazardous.space
 
 Daygame
 --------
