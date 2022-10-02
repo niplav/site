@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2022-09-30, language: english, status: maintenance, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2022-10-02, language: english, status: maintenance, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in
 relation to the time between forecast and resolution, and
@@ -588,13 +588,14 @@ line (the names of the variables, for other languages such as R). Then
 the ID is converted to integer, and the rest of the fields are converted
 to floats (the range is a float for some Metaculus questions, and while
 the result can only take on 0 or 1, using float there makes it easier
-to calculate the brier score later). After that, negative ranges are
+to calculate the brier score later). After that, npegative ranges are
 removed from the dataset, and ranges are converted from seconds to days,
 making them slightly easier to plot:
 
 	import csv
 	import numpy as np
 	import scipy.stats as sps
+	import scipy.optimize as spo
 
 	daysec=24*60*60
 
@@ -2273,24 +2274,30 @@ predicted with the benefit of hindsight). The private dataset was
 much bigger and more up-to-date than the compressed one from the
 [API](https://www.metaculus.com/api2/questions/) I had used.
 
+(Yo bro, I heard you like forecasts, so I made forecasts about my
+forecasting research…)
+
 * [Accuracy Between Forecasts](#Accuracy-Between-Forecasts)
-	* "[Will the Brier score on all resolved Metaculus binary forecasts be greater than or equal to 0.17085?](https://predictionbook.com/predictions/209328)"`$_{10\%}$`
 	* [Standard Results](#Results_1)
-		* "[Will the correlation between range and Brier score be non-negative for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209329)"`$_{45\%}$`
-		* "[Will the correlation between range and Brier score be greater than or equal to 0.02166 for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209330)"`$_{40\%}$`
-		* "[Will the slope for the linear regression between range and Brier score be non-negative for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209331)"`$_{45\%}$`
-		* "[Will the slope for the linear regression between range and Brier score be greater than or equal to 1.4922e-5 for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209332)"`$_{40\%}$`
-		* "[Will the intercept for the linear regression between range and Brier score be non-negative for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209333)"`$_{95\%}$`
-		* "[Will the intercept for the linear regression between range and Brier score be greater than or equal to 0.1675 for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209334)"`$_{20\%}$`
-		* "[Will the p-value for the linear regression between range and Brier score be greater than or equal to 1.8994e-6 for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209335)"`$_{35\%}$`
+		* "[Will the Brier score on all resolved Metaculus binary forecasts be greater than or equal to 0.17085?](https://predictionbook.com/predictions/209328)"`$_{10\%}$` (Resolution: Yes, with the Brier score being ≈0.1713)
+		* "[Will the correlation between range and Brier score be non-negative for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209329)"`$_{45\%}$` (Resolution: Yes. The correlation is ≈0.0831)
+		* "[Will the correlation between range and Brier score be greater than or equal to 0.02166 for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209330)"`$_{40\%}$` (Resolution: Yes. Same value as above.)
+		* "[Will the slope for the linear regression between range and Brier score be non-negative for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209331)"`$_{45\%}$` (Resolution: Yes, with the actual value being 7.886987831441408e-10)
+		* "[Will the slope for the linear regression between range and Brier score be greater than or equal to 1.4922e-5 for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209332)"`$_{40\%}$` (Resolution: No, same value as above.)
+		* "[Will the intercept for the linear regression between range and Brier score be non-negative for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209333)"`$_{95\%}$` (Yes, actual value is ≈0.15699.)
+		* "[Will the intercept for the linear regression between range and Brier score be greater than or equal to 0.1675 for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209334)"`$_{20\%}$` (No, same value as above.)
+		* "[Will the p-value for the linear regression between range and Brier score be greater than or equal to 1.8994e-6 for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209335)"`$_{35\%}$` (No, actual value scipy gives is 0.0 (?))
 	* [Computing Horizons](#NonLinear-CurveFitting)
-		* "[Will the slope for the logistic-ish fit between range and Brier score be greater than or equal to -1.08226e-6 for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209342)"`$_{40\%}$`
-		* "[Will the intercept for the logistic-ish fit between range and Brier score be greater than or equal to 3.5976667e-4 for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209343)"`$_{20\%}$`
-		* "[Will the parameter b for the exponential-ish fit between range and Brier score be greater than or equal to 0.9579 for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209344)"`$_{55\%}$`
-		* "[Will the parameter b for the exponential-ish fit between range and Brier score be greater than or equal to 0.5 for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209345)"`$_{80\%}$`
-		* "[Will the horizon for the logistic-ish fit between range and Brier score be greater than or equal to 1340 days for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209346)"`$_{60\%}$`
-		* "[Will the horizon for the exponential-ish fit between range and Brier score be greater than or equal to 75 days for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209347)"`$_{55\%}$`
-		* "[Will the mean squared error of the predicted to the actual Brier score for the forecasts be better on logistic fit than the exponential fit, for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209348)"`$_{55\%}$`
+		* [Fitting a Logistic Function](#Fitting-a-Logistic-Function)
+			* "[Will the slope for the logistic-ish fit between range and Brier score be greater than or equal to -1.08226e-6 for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209342)"`$_{40\%}$` (Resolution: No. Real answer is (apparently?) -1.).
+			* "[Will the intercept for the logistic-ish fit between range and Brier score be greater than or equal to 3.5976667e-4 for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209343)"`$_{20\%}$` (Resolution: Yes. Real value is 1.)
+		* [Fitting an Exponential Function](#Fitting-an-Exponential-Function)
+			* "[Will the parameter b for the exponential-ish fit between range and Brier score be greater than or equal to 0.9579 for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209344)"`$_{55\%}$` (Resolution: Yes. Actual value is 0.99999967)
+			* "[Will the parameter b for the exponential-ish fit between range and Brier score be greater than or equal to 0.5 for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209345)"`$_{80\%}$` (Resolution: Yes. Actual value same as above.)
+		* [Horizons](#This-Is-Cool)
+			* "[Will the horizon for the logistic-ish fit between range and Brier score be greater than or equal to 1340 days for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209346)"`$_{60\%}$` (Resolution: No. Actual value is 4.178 days.)
+			* "[Will the horizon for the exponential-ish fit between range and Brier score be greater than or equal to 75 days for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209347)"`$_{55\%}$` (Resolution: Yes. Actual value is ≈9660208.5 days.)
+			* "[Will the mean squared error of the predicted to the actual Brier score for the forecasts be better on logistic fit than the exponential fit, for all resolved Metaculus binary forecasts?](https://predictionbook.com/predictions/209348)"`$_{55\%}$` (Resolution: No. The [MSE](https://en.wikipedia.org/wiki/Mean_squared_error) is 0.052517449584277766 for exponential fit, 0.056682406889118776 for logistic fit. Makes exponential better, and resolves this negatively.)
 * [Accuracy Between Questions](#Accuracy-Between-Questions)
 	* [Standard Results](#Results_2)
 		* "[Will the correlation between range and Brier score be non-negative for all resolved Metaculus binary questions?](https://predictionbook.com/predictions/209349)"`$_{45\%}$`
@@ -2310,6 +2317,85 @@ much bigger and more up-to-date than the compressed one from the
 		* "[Will the mean squared error of the predicted to the actual Brier score for the questions be better on logistic fit than the exponential fit, for all resolved Metaculus binary questions?](https://predictionbook.com/predictions/209362)"`$_{60\%}$`
 * [Accuracy Within Questions](#Accuracy-Within-Questions)
 	* [Standard Results](#Results_3)
+		* "[Will the slope of the aggregated linear regressions on resolved Metaculus binary questions with ≥10 predictions be greater or equal to zero?](https://predictionbook.com/predictions/209368)"`$_{85\%}$`
+		* "[Will the slope of the aggregated linear regressions on resolved Metaculus binary questions with ≥10 predictions be greater or equal to 0.00305?](https://predictionbook.com/predictions/209369)"`$_{83\%}$`
+		* "[Will the intercept of the aggregated linear regressions on resolved Metaculus binary questions with ≥10 predictions be greater or equal to zero?](https://predictionbook.com/predictions/209370)"`$_{52\%}$`
+		* "[Will the intercept of the aggregated linear regressions on resolved Metaculus binary questions with ≥10 predictions be greater or equal to 0.0388?](https://predictionbook.com/predictions/209371)"`$_{50\%}$`
+	* Computing Horizons
+		* [Logistic-ish Horizons](#Logistic-Forecast-Horizons-for-Questions)
+			* "[Will the median forecast horizon of the logistic regressions on resolved Metaculus binary questions with ≥10 predictions be greater or equal to 4.18 days?](https://predictionbook.com/predictions/209372)"`$_{52\%}$`
+			* "[Will the mean forecast horizon of the logistic regressions on resolved Metaculus binary questions with ≥10 predictions be greater or equal to 1.93e+23 days?](https://predictionbook.com/predictions/209373)"`$_{45\%}$`
+			* "[Will the modal forecast horizon of the logistic regressions on resolved Metaculus binary questions with ≥10 predictions be greater or equal to 4.18 days?](https://predictionbook.com/predictions/209374)"`$_{55\%}$`
+			* "[Will the variance of the forecast horizon of the logistic regressions on resolved Metaculus binary questions with ≥10 predictions be greater or equal to 1.42e+49?](https://predictionbook.com/predictions/209375)"`$_{55\%}$`
+		* [Exponential-ish Horizons](#Exponential-Forecast-Horizons-for-Questions)
+			* "[Will the median forecast horizon of the exponential-ish regressions on resolved Metaculus binary questions with ≥10 predictions be greater or equal to 4.64 days?](https://predictionbook.com/predictions/209376)"`$_{48\%}$`
+			* "[Will the mean forecast horizon of the exponential-ish regressions on resolved Metaculus binary questions with ≥10 predictions be greater or equal to 1613.62 days?](https://predictionbook.com/predictions/209377)"`$_{60\%}$`
+			* "[Will the modal forecast horizon of the exponential-ish regressions on resolved Metaculus binary questions with ≥10 predictions be greater or equal to 4.64 days?](https://predictionbook.com/predictions/209378)"`$_{55\%}$`
+			* "[Will the variance of the forecast horizon of the exponential-ish regressions on resolved Metaculus binary questions with ≥10 predictions be greater or equal to 478494147?](https://predictionbook.com/predictions/209379)"`$_{55\%}$`
+
+### Analysis & Results
+
+I use [iqisa](./iqisa.html) and the private Metaculus data to reproduce
+the analysis.
+
+	$ python3
+	>>> import metaculus
+	>>> import numpy as np
+	>>> import pandas as pd
+	>>> import scipy.stats as sps
+	>>> import scipy.optimize as spo
+	>>> m=metaculus.load_private_binary('../prediction_data/metaculus/private.json')
+	>>> pmetbriers=(m['probability']-pd.to_numeric(m['outcome']))**2
+	>>> pmetrngs=m['resolve_time']-(pd.to_datetime(m['timestamp'], utc=True))
+	>>> pmetrngs=pmetrngs.values.astype(np.int64) // 10 ** 9
+	>>> pmetbriers=pmetbriers[pmetrngs>0]
+	>>> pmetrngs=pmetrngs[pmetrngs>0]
+	>>> np.mean(pmetbriers)
+	0.1713050461310057
+	>>> np.corrcoef(pmetbriers, pmetrngs)
+	array([[1.        , 0.08314111],
+		[0.08314111, 1.        ]])
+	>>> sps.linregress(pmetrngs, pmetbriers)
+	LinregressResult(slope=7.886987831441408e-10, intercept=0.15699128187976738, rvalue=0.08314111172079615, pvalue=0.0, stderr=1.9760352084502026e-11, intercept_stderr=0.0005896512003178297)
+
+And now onto the horizons between forecasts:
+
+	>>> def shrunk_logistic(x, slope, intercept):
+	...     return 0.25*1/(1+np.exp(slope*x+intercept))
+	...
+	>>> pmetlogifit=spo.curve_fit(shrunk_logistic, pmetrngs, pmetbriers, bounds=([-np.inf, 0], [0, np.inf]))
+	(array([-1.,  1.]), array([[2.04221678e+15, 0.00000000e+00],
+		[0.00000000e+00, 0.00000000e+00]]))
+
+<!--TODO: is this a bug‽-->
+This, uh, looks a lot like a bug. Why fit *exactly* to -1 and 1 when all negative and all positive numbers are available?
+
+The exponential fit is less stocky:
+
+	>>> def shift_exp(x, b):
+	...     return ((b**x)-1)/(-4)
+	>>> pmetexpfit=spo.curve_fit(shift_exp, pmetrngs, pmetbriers, bounds=([0], [1]))
+	(array([0.99999967]), array([[1.02638204e-17]]))
+
+And now onto the horizons:
+
+	>>> (np.log((1/0.96)-1)-pmetlogifit[0][1])/pmetlogifit[0][0]
+	4.1780538303479435
+	>>> np.log(0.04)/np.log(pmetexpfit[0][0])
+	9660208.513783043
+
+The horizon for the exponential fit is ~26500 years.
+
+The [mean squared
+errors](https://en.wikipedia.org/wiki/Mean_squared_error) of the two
+methods are
+
+	>>> np.mean((shrunk_logistic(pmetrngs, pmetlogifit[0][0], pmetlogifit[0][1])-pmetbriers)**2)
+	0.056682406889118776
+	>>> np.mean((shift_exp(pmetrngs, pmetexpfit[0][0])-pmetbriers)**2)
+	0.052517449584277766
+
+As one can see, the exponential fit *barely* beats the logistic fit.
 
 Appendix B: Quotes About the Horizon of Forecasts
 --------------------------------------------------
