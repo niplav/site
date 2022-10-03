@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-09-27, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-10-03, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -387,6 +387,7 @@ Texts
 		* Adderall
 		* LSD Microdosing
 		* Combinations: L-Theanine + Caffeine
+		* Take inspiration from [Gwern](https://www.gwern.net/Nootropics), of course
 * Brain Stimulation for Meditation Enhancement
 	* Ultrasound
 	* Magnetic stimulation
@@ -796,6 +797,8 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * More Heinz Ketchup than cum
 	* Probably not, through animals
 * Recycling cost-benefit calculation
+* A history of the Effective Altruism/Bayesian Rationality cluster
+	* For example, why poly?
 
 ### Ideas
 
@@ -1711,8 +1714,10 @@ Programming
 	* add C-a and C-e for beginning of line and end of line in insert mode
 	* add C-← and C-→ for jumping words in insert mode (equivalent of b and e)
 	* fix syntax highlighting for ocaml with single quotes: 'a takes the whole line
-	* Syntax highlighting of inline code in markdown is annoying (dark blue background!)
-		* Submit pull request for existing fix (which makes it mauve)
+	* MarkDown syntax highlighting not quite right
+		* of inline code in markdown is annoying (dark blue background!)
+			* Submit pull request for existing fix (which makes it mauve)
+		* two asterisks in succession (`**`) in indented code still make everything bold
 	* plugin for adding markdown wikipedia link easily
 * sad
 	* implement features that weren't finished
@@ -1826,6 +1831,7 @@ Wikipedia Articles
 * Cantril Ladder
 * Choice set, choice function, contraction/expansion consistency (all in the context of social choice theory, see Gaertner 2009 p. 7-9)
 * Harberger Tax
+* Axelrod's Meta-Norm
 
 ### Improve
 

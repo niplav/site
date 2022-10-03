@@ -1,7 +1,7 @@
 [home](./index.html)
 ---------------------
 
-*author: niplav, created: 2022-06-18, modified: 2022-10-02, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2022-06-18, modified: 2022-10-03, language: english, status: draft, importance: 2, confidence: log*
 
 > Idea & format stolen shamelessly from [Gavin
 Leech](https://www.gleech.org/favs/all/).
@@ -169,9 +169,9 @@ Aulay](https://80000hours.org/podcast/episodes/tara-mac-aulay-operations-mindset
 (1)](https://80000hours.org/podcast/episodes/paul-christiano-ai-alignment-solutions/)
 and [Paul Christiano
 (2)](https://80000hours.org/podcast/episodes/paul-christiano-a-message-for-the-future/)
-on [80,000 hours](https://80000hours.org/podcast/), [Romeo Stevens
-talk about Attractors in the Space of Mind Architectures and the Super
-Cooperation Cluster](https://www.youtube.com/watch?v=X6MYsKeTjKk),
+on [80,000 hours](https://80000hours.org/podcast/), [Romeo Stevens'
+talk about "Attractors in the Space of Mind Architectures and the Super
+Cooperation Cluster"](https://www.youtube.com/watch?v=X6MYsKeTjKk),
 [Chaos Radio Express](https://cre.fm/) on
 [Diamonds](https://cre.fm/cre218-diamanten)
 (unfortunately in German), [Joe
@@ -354,12 +354,16 @@ More
 My favorite non-extinct animals are octopuses, my favorite extinct
 animals are [glyptodons](https://en.wikipedia.org/Glyptodon),
 my favorite type of art is [geometric
-abstraction](https://en.wikipedia.org/wiki/Geometric_abstraction), my
-favorite type of biome is flat deserts, my favorite type of meditation
-is good ol' ānāpānasati, my favorite kitchen appliance is the
-microwave, my favorite food is kimchi, my favorite non-alcoholic drink
-is tap water (with [ayran](https://en.wikipedia.org/wiki/Ayran) being
-a close second), my favorite alcoholic beverage is none (although
+abstraction](https://en.wikipedia.org/wiki/Geometric_abstraction),
+my favorite type of biome is flat deserts, my favorite type of
+meditation is good ol' ānāpānasati (with each cycle beginning
+on an outbreath, relaxing & then counting to ten after recognizing
+mind-wandering, being more on the vipassanizing side, and (ideally)
+spanning up awareness to perform a mental check-in every ~4
+breath cycles), my favorite kitchen appliance is the microwave,
+my favorite food is kimchi, my favorite non-alcoholic drink is tap
+water (with [ayran](https://en.wikipedia.org/wiki/Ayran) being a
+close second), my favorite alcoholic beverage is none (although
 beer is enjoyable on dates), my favorite flags are the [flag of
 Uganda](https://en.wikipedia.org/wiki/Flag_of_Uganda), the [flag of
 Barbados](https://en.wikipedia.org/wiki/Flag_of_Barbados) and the [flag

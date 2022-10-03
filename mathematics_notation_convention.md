@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-03-23, modified: 2022-09-23, language: english, status: notes, importance: 1, confidence: draft*
+*author: niplav, created: 2021-03-23, modified: 2022-10-03, language: english, status: notes, importance: 1, confidence: draft*
 
 > __People write mathematics in a specific way, and use different
 conventions. Here I collect mine, mainly for myself.__
@@ -24,7 +24,7 @@ Schein von ihm schwindet.
 * A variable with the name "abcd" is written as `$\text{abcd}$`, `$abcd$` is the product of four variables `$a, b, c$` and `$d$`.
 * `$0 \in \mathbb{N}$`, `$\mathbb{N}^+:=\mathbb{N}\backslash \{0\}$`.
 	* First of all, [there's an ISO standard](https://en.wikipedia.org/Natural_number) (ISO-80000-2) that states that `$0 \in \mathbb{N}$`. I know it's kind of dumb, but standards are nice & there for a reason.
-	* `$(\mathbb{N}, +)$` and `$(\mathbb{N}^+, \cdot)$` are both commutative monoids.
+	* `$(\mathbb{N}, +)$` and `$(\mathbb{N}^+, \cdot)$` are both commutative [monoids](https://en.wikipedia.org/wiki/Monoid).
 	* `$(\mathbb{N}, +, \cdot)$` is a semiring.
 	* `$(\mathbb{N}^+, +, \cdot)$` is…nothing in particular?
 		* `$\cdot$` distributes over `$+$`
@@ -35,7 +35,7 @@ Schein von ihm schwindet.
 	* Therefore, because `$(\mathbb{N}, +, \cdot)$` is the nicer structure, `$0 \in \mathbb{N}$`.
 	* (I'm not super confident about the arguments above, maybe I missed a structure. If so, please tell me!)
 * Setting operator precedence and passing arguments to functions is done with parentheses `$()$`, sets are denoted using `$\{\}$`, and `$[]$` is sometimes used in the context of statistics (variance of a variable, mean of a variable, and so on). These are not mixed.
-	* `$[n] = \{x \in \mathbb{N} | 1 \le x \le n \}$` for `$n \in \mathbb{N}$`.
+* `$[n] = \{x \in \mathbb{N} | 1 \le x \le n \}$` for `$n \in \mathbb{N}$`.
 * For function definitions, use `$\mapsto$` instead of `$\rightarrow$`, e.g. `$f: ℝ^n \mapsto ℝ$` instead of `$f: ℝ^n \rightarrow ℝ$`
 * In multiplication of reals (and maybe complex numbers), I prefer central dots `$a \cdot b \cdot c$`, and *sometimes* concatenation `$abcd$`. Rarely asterisks `$a * b * c * d$`, but I try to avoid them.
 * Words
@@ -119,7 +119,7 @@ Things I Would Like To Do But I'm Not Brave Enough
 	* Only use the [generalized mean](https://en.wikipedia.org/wiki/Generalized_mean).
 * Use a big `$+$` and `$\cdot$` instead of `$\sum$` and `$\prod$` (maybe the latter can just be approximated by the `$\bullet$`, as in `$n!=\bullet_{i=1}^{n} i$`).
 * [This notation](https://www.youtube.com/watch?v=sULa9Lc4pck) for logarithms, exponents and roots.
-* Start with the integers `$\mathbb{Z}$`, and then specifies when one wants only the positive numbers (`$\mathbb{Z}^+$`), the positive numbers with 0 (`$\mathbb{Z}^+_0$`), the negative numbers (`$\mathbb{Z}^-$`) and the negative numbers with 0 (`$\mathbb{Z}^-_0$`). That would be much nicer than using `$\mathbb{N}$`, since `$\mathbb{Z}$` is a [commutative ring](https://en.wikipedia.org/commutative_ring) under addition and multiplication.
+* Start with the integers `$\mathbb{Z}$`, and then specify when one wants only the positive numbers (`$\mathbb{Z}^+$`), the positive numbers with 0 (`$\mathbb{Z}^+_0$`), the negative numbers (`$\mathbb{Z}^-$`) and the negative numbers with 0 (`$\mathbb{Z}^-_0$`). That would be much nicer than using `$\mathbb{N}$`, since `$\mathbb{Z}$` is a [commutative ring](https://en.wikipedia.org/commutative_ring) under addition and multiplication.
 * Treat `$-$` and `$+$` as [idempotent](https://en.wikipedia.org/wiki/Idempotence) operators for making expressions negative and positive, and sign flipping being done by explicitely multiplying with `$-1$`.
 	* Alternatively, use the same notation as for the [complex conjugate](https://en.wikipedia.org/wiki/Complex_conjugate).
 * Use more different symbols from many different scripts. Sure, よ for the [Yoneda embedding](https://en.wikipedia.org/wiki/Yoneda_lemma) and Ш for the [Tate-Shafarevich group](https://en.wikipedia.org/wiki/Tate-Shafarevich_group) or the [Dirac comb](https://en.wikipedia.org/wiki/Dirac_comb) are cute, but what about இ, ᚠ, ཧ, ದ, 𖤶 and ᕚ? One might want to object that these are hard to remember and therefore pronounce correctly, which is one of the reasons I don't use them. But on the other hand, one could focus on one script at a time, making it easier to learn the different symbols, especially if they are mostly used in text.
