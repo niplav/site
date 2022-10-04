@@ -474,6 +474,8 @@ Texts
 	* Soylent
 	* Others?
 * The General Algorithm For Self-Blinded Experiments
+* Does music decrease my productivity?
+	* randomize, awtt & check
 
 ### Arguments
 
