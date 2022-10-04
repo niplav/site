@@ -1140,7 +1140,7 @@ To be shown: if `$E$` is finite, then `$\mathcal{P}(E)$` is finite, and
 `$\#(\mathcal{P}(E))=2^{\#(E)}$`.
 
 Proof: This was shown in [Exercise 2 in Section
-5](./nst_solutions.html#Exercise-1_2) (I use the notation of `$|E|$`
+5](./nst_solutions.html#Exercise_1_2) (I use the notation of `$|E|$`
 for the size of a set there). Since we can construct the size of
 `$\mathcal{P}(E)$`, it is equivalent to some natural number, and
 therefore finite.

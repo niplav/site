@@ -23,7 +23,7 @@ September 2022
 
 * [Unclaimed Domain Names](./language.html#Unclaimed_Domain_Names)
 * [Squeal](./microfiction.html#Squeal)
-* Some more [senryūs](./microfiction.html#English_1), [some of them](./microfiction.html#Lipogrammatic-Bukkake-Senrys) [lipogrammatic](https://en.wikipedia.org/wiki/Lipogram) [bukkake](https://en.wikipedia.org/wiki/Bukkake) ones
+* Some more [senryūs](./microfiction.html#English_1), [some of them](./microfiction.html#Lipogrammatic_Bukkake_Senrys) [lipogrammatic](https://en.wikipedia.org/wiki/Lipogram) [bukkake](https://en.wikipedia.org/wiki/Bukkake) ones
 
 Meditation.
 
@@ -31,7 +31,7 @@ August 2022
 ------------
 
 * [Other](./data.html#Others) personal datasets I collect
-* [The Five Horsemen of Hard Forecasting](./forecasters.html#The-Five-Horsemen-of-Hard-Forecasting)
+* [The Five Horsemen of Hard Forecasting](./forecasters.html#The_Five_Horsemen_of_Hard_Forecasting)
 
 Meditation.
 
@@ -41,18 +41,18 @@ July 2022
 * [Types & Methods of Data Collection I Use](./data.html)
 * [If I Were An Eccentric Trillionaire](./eccentric.html)
 * Sections & editing on [Turning Some Inconsistent Preferences into Consistent Ones](./turning.html), in particular
-	* [Minimal and Maximal Number of Turnings](./turning.html#Minimal-and-Maximal-Number-of-Turnings)
-	* [Number of Turnings for `$\mathcal{G}_n$`](./turning.html#Number-of-Turnings-for-mathcalGn)
-	* [Encoding Inconsistencies](./turning.html#Encoding-Inconsistencies) in the [Discrete Case](./turning.html#Discrete-Case_1)
+	* [Minimal and Maximal Number of Turnings](./turning.html#Minimal_and_Maximal_Number_of_Turnings)
+	* [Number of Turnings for `$\mathcal{G}_n$`](./turning.html#Number_of_Turnings_for_mathcalGn)
+	* [Encoding Inconsistencies](./turning.html#Encoding_Inconsistencies) in the [Discrete Case](./turning.html#Discrete_Case_1)
 * [Solutions to “Naïve Set Theory”](./nst_solutions.html):
-	* [Section 14](./nst_solutions.html#Section-14):
-		* [Stray Exercise 1](./nst_solutions.html#Stray-Exercise-1_1)
-	* [Section 15](./nst_solutions.html#Section-15)
-		* [Stray Exercise 1](./nst_solutions.html#Stray-Exercise-1_2)
-		* [Stray Exercise 2](./nst_solutions.html#Stray-Exercise-2)
+	* [Section 14](./nst_solutions.html#Section_14):
+		* [Stray Exercise 1](./nst_solutions.html#Stray_Exercise_1_1)
+	* [Section 15](./nst_solutions.html#Section_15)
+		* [Stray Exercise 1](./nst_solutions.html#Stray_Exercise_1_2)
+		* [Stray Exercise 2](./nst_solutions.html#Stray_Exercise_2)
 * [Solutions to “Population Genetics”](./pg_solutions.html):
-	* [Chapter 1](./pg_solutions.html#Chapter-1)
-		* [Problem 1.6](./pg_solutions.html#Problem-16)
+	* [Chapter 1](./pg_solutions.html#Chapter_1)
+		* [Problem 1.6](./pg_solutions.html#Problem_16)
 
 ### Other
 
@@ -65,8 +65,8 @@ June 2022
 
 * [Favorites](./favorites.html)
 * [Notes](./notes.html)
-	* [An Example for Not Updating Uncertain Utility Functions](./notes.html#An-Example-for-Not-Updating-Uncertain-Utility-Functions)
-	* [Geometric Mean of Odds, Arithmetic Mean of Logodds](./notes.html#Geometric-Mean-of-Odds-Arithmetic-Mean-of-Logodds)
+	* [An Example for Not Updating Uncertain Utility Functions](./notes.html#An_Example_for_Not_Updating_Uncertain_Utility_Functions)
+	* [Geometric Mean of Odds, Arithmetic Mean of Logodds](./notes.html#Geometric_Mean_of_Odds_Arithmetic_Mean_of_Logodds)
 
 May 2022
 ---------
@@ -74,66 +74,66 @@ May 2022
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 	* Rewrote the code in Python 3
 	* Between Forecasts
-		* [Non-Linear Curve-Fitting](./range_and_forecasting_accuracy.html#NonLinear-CurveFitting)
-			* [Fitting a Logistic Function](./range_and_forecasting_accuracy.html#Fitting-a-Logistic-Function)
-			* [Fitting an Exponential Function](./range_and_forecasting_accuracy.html#Fitting-an-Exponential)
-			* [This Is Cool](./range_and_forecasting_accuracy.html#This-Is-Cool)
-	* [Statistical Significance of Truncated Datasets](./range_and_forecasting_accuracy.html#Statistical-Significance-of-Truncated-Datasets)
+		* [Non-Linear Curve-Fitting](./range_and_forecasting_accuracy.html#NonLinear_CurveFitting)
+			* [Fitting a Logistic Function](./range_and_forecasting_accuracy.html#Fitting_a_Logistic_Function)
+			* [Fitting an Exponential Function](./range_and_forecasting_accuracy.html#Fitting_an_Exponential)
+			* [This Is Cool](./range_and_forecasting_accuracy.html#This_Is_Cool)
+	* [Statistical Significance of Truncated Datasets](./range_and_forecasting_accuracy.html#Statistical_Significance_of_Truncated_Datasets)
 	* Between Questions
-		* [Non-Linear Curve-Fitting](./range_and_forecasting_accuracy.html#NonLinear-CurveFitting_1)
-		* [Why Long-Range Questions More Accurate](./range_and_forecasting_accuracy.html#Why-Longer-Range-Questions-More-Accurate)
-		* [This Partially Explains the Result Between Forecasts](./range_and_forecasting_accuracy.html#This-Partially-Explains-the-Result-Between-Forecasts)
+		* [Non-Linear Curve-Fitting](./range_and_forecasting_accuracy.html#NonLinear_CurveFitting_1)
+		* [Why Long-Range Questions More Accurate](./range_and_forecasting_accuracy.html#Why_Longer_Range_Questions_More_Accurate)
+		* [This Partially Explains the Result Between Forecasts](./range_and_forecasting_accuracy.html#This_Partially_Explains_the_Result_Between_Forecasts)
 	* Within Questions
-		* [Logistic Curve-Fit](./range_and_forecasting_accuracy.html#Logistic-CurveFit)
-		* [Exponential Curve-Fit](./range_and_forecasting_accuracy.html#Exponential-CurveFit)
-	* [Appendix A: Quotes About the Maximal Time-Horizon of Forecasts](./range_and_forecasting_accuracy.html#Appendix-A-Quotes-About-the-Maximal-TimeHorizon-of-Forecasts)
+		* [Logistic Curve-Fit](./range_and_forecasting_accuracy.html#Logistic_CurveFit)
+		* [Exponential Curve-Fit](./range_and_forecasting_accuracy.html#Exponential_CurveFit)
+	* [Appendix A: Quotes About the Maximal Time-Horizon of Forecasts](./range_and_forecasting_accuracy.html#Appendix_A_Quotes_About_the_Maximal_TimeHorizon_of_Forecasts)
 * [Turning Some Inconsistent Preferences into Consistent Ones](./turning.html)
 * Re-organised the [Text Reviews](./text_reviews.html)
 * [Notes](./notes.html)
-	* [`scipy.optimize.curve_fit` Is Awesome](./notes.html#scipyoptimizecurvefit-Is-Awesome)
+	* [`scipy.optimize.curve_fit` Is Awesome](./notes.html#scipyoptimizecurvefit_Is_Awesome)
 
 April 2022
 -----------
 
 * [Solutions to “Naïve Set Theory”](./nst_solutions.html):
-	* [Section 14](./nst_solutions.html#Section-14):
-		* [Exercise 3](./nst_solutions.html#Exercise-1_11)
+	* [Section 14](./nst_solutions.html#Section_14):
+		* [Exercise 3](./nst_solutions.html#Exercise_1_11)
 * [Solutions to “Algorithmic Game Theory”](./agt_solutions.html)
 	* [1.3](./agt_solutions.html#13)
 * Sent in [many fixes](./contributions.html) to typos in other peoples' texts
 * [Reward Long Content](./reward.html)
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 	* Rewrote part of the code in Python
-	* [Statistical Significance of Truncated Datasets](./range_and_forecasting_accuracy.html#Statistical-Significance-of-Truncated-Datasets)
+	* [Statistical Significance of Truncated Datasets](./range_and_forecasting_accuracy.html#Statistical_Significance_of_Truncated_Datasets)
 * Converted Twitter links to [nitter.hu](https://nitter.hu) links, since Twitter now freezes the view for visitors to the site who aren't logged in (another internet platform bites the dust, at least as infrastructure—maybe that will change under Musk?)
 
 March 2022
 -----------
 
 * [Notes](./notes.html)
-	* [Building a Cuboid](./notes.html#Building-a-Cuboid)
+	* [Building a Cuboid](./notes.html#Building_a_Cuboid)
 * [Notes on Pickup](./notes_on_pickup.html)
-	* [Reductionism on Approach Difficulties](./notes_on_pickup.html#Reductionism-on-Approach-Difficulties)
-	* [Instead of Recognizing and Dismantling Shit Tests, You Could Just Vibe Over Them](./notes_on_pickup.html#Instead-of-Recognizing-and-Dismantling-Shit-Tests-You-Could-Just-Vibe-Over-Them)
+	* [Reductionism on Approach Difficulties](./notes_on_pickup.html#Reductionism_on_Approach_Difficulties)
+	* [Instead of Recognizing and Dismantling Shit Tests, You Could Just Vibe Over Them](./notes_on_pickup.html#Instead_of_Recognizing_and_Dismantling_Shit_Tests_You_Could_Just_Vibe_Over_Them)
 * [Pickup Reports](./pickup_reports.html)
 * [Solutions to “Naïve Set Theory”](./nst_solutions.html):
-	* [Section 13](./nst_solutions.html#Section-13):
-		* [Exercise 3](./nst_solutions.html#Exercise-3_3)
-		* [Exercise 4](./nst_solutions.html#Exercise-4_2)
+	* [Section 13](./nst_solutions.html#Section_13):
+		* [Exercise 3](./nst_solutions.html#Exercise_3_3)
+		* [Exercise 4](./nst_solutions.html#Exercise_4_2)
 * [Solutions to “Reactive Systems”](./rs_solutions.html)
-	* [Chapter 3](./rs_solutions.html#Chapter-3)
+	* [Chapter 3](./rs_solutions.html#Chapter_3)
 		* [3.4](./rs_solutions.html#34)
 		* [3.7](./rs_solutions.html#37)
 		* [3.14](./rs_solutions.html#314)
 		* [3.17](./rs_solutions.html#317)
-	* [Chapter 4](./rs_solutions.html#Chapter-4)
+	* [Chapter 4](./rs_solutions.html#Chapter_4)
 		* [4.7](./rs_solutions.html#47)
-	* [Chapter 5](./rs_solutions.html#Chapter-5)
+	* [Chapter 5](./rs_solutions.html#Chapter_5)
 		* [5.4](./rs_solutions.html#54)
 		* [5.5](./rs_solutions.html#55)
 		* [5.7](./rs_solutions.html#57)
 		* [5.11](./rs_solutions.html#511)
-	* [Chapter 6](./rs_solutions.html#Chapter-6)
+	* [Chapter 6](./rs_solutions.html#Chapter_6)
 		* [6.5](./rs_solutions.html#65)
 		* [6.9](./rs_solutions.html#69)
 * [Rationalist Gods](./rationalist_gods.html)
@@ -144,63 +144,63 @@ February 2022
 --------------
 
 * Solutions to of the [99 Klong Problems](./99_problems_klong_solution.html):
-	* [P64](./99_problems_klong_solution.html#P64--Layout-a-binary-tree-1)
+	* [P64](./99_problems_klong_solution.html#P64__Layout_a_binary_tree_1)
 * [Solutions to “Naïve Set Theory”](./nst_solutions.html):
-	* [Section 13](./nst_solutions.html#Section-13):
-		* [Exercise 1](./nst_solutions.html#Exercise-1_10)
-		* [Exercise 2](./nst_solutions.html#Exercise-2_6)
+	* [Section 13](./nst_solutions.html#Section_13):
+		* [Exercise 1](./nst_solutions.html#Exercise_1_10)
+		* [Exercise 2](./nst_solutions.html#Exercise_2_6)
 * [Solutions to “Population Genetics”](./pg_solutions.html):
-	* [Chapter 2](./pg_solutions.html#Chapter-2)
-		* [Problem 2.2](./pg_solutions.html#Problem-22)
-		* [Problem 2.5](./pg_solutions.html#Problem-25)
-		* [Problem 2.7](./pg_solutions.html#Problem-27)
-		* [Problem 2.9](./pg_solutions.html#Problem-29)
+	* [Chapter 2](./pg_solutions.html#Chapter_2)
+		* [Problem 2.2](./pg_solutions.html#Problem_22)
+		* [Problem 2.5](./pg_solutions.html#Problem_25)
+		* [Problem 2.7](./pg_solutions.html#Problem_27)
+		* [Problem 2.9](./pg_solutions.html#Problem_29)
 * [Solutions to “Reactive Systems”](./rs_solutions.html)
-	* [Chapter 6](./rs_solutions.html#Chapter-6)
+	* [Chapter 6](./rs_solutions.html#Chapter_6)
 		* [6.7](./rs_solutions.html#67)
 * [Notes on Ethics](./notes_on_ethics.html)
-	* [Arguments Against Preference Utilitarianism](./notes_on_ethics.html#Arguments-Against-Preference-Utilitarianism)
+	* [Arguments Against Preference Utilitarianism](./notes_on_ethics.html#Arguments_Against_Preference_Utilitarianism)
 * [Playing with Language](./language.html)
-	* [Advertising Lines](./language.html#Advertising-Lines)
+	* [Advertising Lines](./language.html#Advertising_Lines)
 	* [Daygame Openers](./language.html#Openers)
 * [About](./about.html)
-	* [Not Really a Blog](./about.html#Not-Really-a-Blog)
+	* [Not Really a Blog](./about.html#Not_Really_a_Blog)
 * [Notes](./notes.html)
-	* [Ideas for More Pronominal Esperanto Words](./notes.html#Ideas-for-More-Pronominal-Esperanto-Words)
+	* [Ideas for More Pronominal Esperanto Words](./notes.html#Ideas_for_More_Pronominal_Esperanto_Words)
 * Now hosting a copy of [A Declaration of the Independence of Cyberspace](./declaration.html)
 
 January 2022
 -------------
 
 * [Solutions to “Population Genetics”](./pg_solutions.html):
-	* [Chapter 1](./pg_solutions.html#Chapter-1)
-		* [Problem 1.1](./pg_solutions.html#Problem-11)
-	* [Problem 1.2](./pg_solutions.html#Problem-12)
-		* [Problem 1.5](./pg_solutions.html#Problem-15)
+	* [Chapter 1](./pg_solutions.html#Chapter_1)
+		* [Problem 1.1](./pg_solutions.html#Problem_11)
+	* [Problem 1.2](./pg_solutions.html#Problem_12)
+		* [Problem 1.5](./pg_solutions.html#Problem_15)
 * [Solutions to “Naïve Set Theory”](./nst_solutions.html):
-	* [Section 13](./nst_solutions.html#Section-13):
-		* [Stray Exercise 1](./nst_solutions.html#Stray-Exercise-1)
+	* [Section 13](./nst_solutions.html#Section_13):
+		* [Stray Exercise 1](./nst_solutions.html#Stray_Exercise_1)
 * [Solutions to “Reactive Systems](./rs_solutions.html):
-	* [Chapter 3](./rs_solutions.html#Chapter-3)
+	* [Chapter 3](./rs_solutions.html#Chapter_3)
 		* [3.12](./rs_solutions.html#312)
 		* [3.30](./rs_solutions.html#330)
 		* [3.41](./rs_solutions.html#341)
-	* [Chapter 5](./rs_solutions.html#Chapter-5)
+	* [Chapter 5](./rs_solutions.html#Chapter_5)
 		* [5.1](./rs_solutions.html#51)
 		* [5.2](./rs_solutions.html#52)
 		* [5.3](./rs_solutions.html#53)
-	* [Chapter 6](./rs_solutions.html#Chapter-6)
-		* [Stray Exercise 4](./rs_solutions.html#Stray-Exercise-4_1)
+	* [Chapter 6](./rs_solutions.html#Chapter_6)
+		* [Stray Exercise 4](./rs_solutions.html#Stray_Exercise_4_1)
 		* [6.4](./rs_solutions.html#64)
 * [Exercises for “The Jazz Piano Book”](./tjpb_exercises.html)
-	* [Chapter 4](./tjpb_exercises.html#Chapter-4)
+	* [Chapter 4](./tjpb_exercises.html#Chapter_4)
 * Imported [Solutions to “Programming in Lua”](./pil_solutions.html)
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html):
-	* [Sidechannel Attacks](./bcis_and_alignment.html#Sidechannel-Attacks)
+	* [Sidechannel Attacks](./bcis_and_alignment.html#Sidechannel_Attacks)
 * [Text Reviews](./text_reviews.html)
-	* [Anti-Aging: State of the Art (JackH, 2020)](./text_reviews.html#AntiAging-State-of-the-Art-JackH-2020)
+	* [Anti-Aging: State of the Art (JackH, 2020)](./text_reviews.html#AntiAging_State_of_the_Art_JackH_2020)
 * [Notes](./notes.html)
-	* [A Simple Proof that in Hardy-Weinberg Mating, Allele Frequencies are Preserved](./notes.html#A-Simple-Proof-that-in-HardyWeinberg-Mating-Allele-Frequencies-are-Preserved)
+	* [A Simple Proof that in Hardy-Weinberg Mating, Allele Frequencies are Preserved](./notes.html#A_Simple_Proof_that_in_HardyWeinberg_Mating_Allele_Frequencies_are_Preserved)
 * [Mathematics Notation Convention](./mathematics_notation_convention.html)
 
 December 2021
@@ -210,28 +210,28 @@ December 2021
 	* [Chapter 2](./rs_solutions.html_Chapter-2)
 		* [2.7](./rs_solutions.html#27)
 		* [2.12](./rs_solutions.html#212)
-	* [Chapter 3](./rs_solutions.html#Chapter-3)
-		* [Stray Exercise 2](./rs_solutions.html#Stray-Exercise-2)
-	* [Chapter 4](./rs_solutions.html#Chapter-4)
+	* [Chapter 3](./rs_solutions.html#Chapter_3)
+		* [Stray Exercise 2](./rs_solutions.html#Stray_Exercise_2)
+	* [Chapter 4](./rs_solutions.html#Chapter_4)
 		* [4.1](./rs_solutions.html#41)
 		* [4.2](./rs_solutions.html#42)
 		* [4.3](./rs_solutions.html#43)
 		* [4.9](./rs_solutions.html#49)
-		* [Stray Exercise 4](./rs_solutions.html#Stray-Exercise-4)
+		* [Stray Exercise 4](./rs_solutions.html#Stray_Exercise_4)
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html):
-	* [Existing Texts](./bcis_and_alignment.html#Existing-Texts)
-	* [Scaling far Beyond Human Intelligence](./bcis_and_alignment.html#Scaling-far-Beyond-Human-Intelligence)
-	* [Removing Merged Humans is a Convergent Instrumental Strategy for AI Systems](./bcis_and_alignment.html#Removing-Merged-Humans-is-a-Convergent-Instrumental-Strategy-for-AI-Systems)
-	* [How Important is Wisdom?](./bcis_and_alignment.html#How-Important-Is-Wisdom)
-	* [Superintelligent Human Brains Seem Dangerous (Although Less So)](./bcis_and_alignment.html#Superintelligent-Human-Brains-Seem-Dangerous-Although-Less-So)
+	* [Existing Texts](./bcis_and_alignment.html#Existing_Texts)
+	* [Scaling far Beyond Human Intelligence](./bcis_and_alignment.html#Scaling_far_Beyond_Human_Intelligence)
+	* [Removing Merged Humans is a Convergent Instrumental Strategy for AI Systems](./bcis_and_alignment.html#Removing_Merged_Humans_is_a_Convergent_Instrumental_Strategy_for_AI_Systems)
+	* [How Important is Wisdom?](./bcis_and_alignment.html#How_Important_Is_Wisdom)
+	* [Superintelligent Human Brains Seem Dangerous (Although Less So)](./bcis_and_alignment.html#Superintelligent_Human_Brains_Seem_Dangerous_Although_Less_So)
 * [Text Reviews](./text_reviews.html)
-	* [Persuasion Tools: AI takeover without AGI or agency? (Daniel Kokotajlo, 2020)](./text_reviews.html#Persuasion-Tools-AI-takeover-without-AGI-or-agency-Daniel-Kokotajlo-2020)
+	* [Persuasion Tools: AI takeover without AGI or agency? (Daniel Kokotajlo, 2020)](./text_reviews.html#Persuasion_Tools_AI_takeover_without_AGI_or_agency_Daniel_Kokotajlo_2020)
 
 November 2021
 --------------
 
 * [Solutions to “Reactive Systems](./rs_solutions.html):
-	* [Chapter 3](./rs_solutions.html#Chapter-3)
+	* [Chapter 3](./rs_solutions.html#Chapter_3)
 		* [3.1](./rs_solutions.html#31)
 		* [3.2](./rs_solutions.html#32)
 		* [3.3](./rs_solutions.html#33)
@@ -248,20 +248,20 @@ October 2021
 	* [Discord Servers for Textbooks](./textbook_discord_servers.html)
 * Additions to old pages:
 	* [99 Problems Klong Solution](./99_problems_klong_solution.html):
-		* [P63](./99_problems_klong_solution.html#P63--Construct-a-complete-binary-tree)
+		* [P63](./99_problems_klong_solution.html#P63__Construct_a_complete_binary_tree)
 	* [Considerations on Cryonics](./considerations_on_cryonics.html)
-		* [Now What?](./considerations_on_cryonics.html#Now-What)
+		* [Now What?](./considerations_on_cryonics.html#Now_What)
 	* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 		* [Limitations](./range_and_forecasting_accuracy.html#Limitations)
 		* Fixed a bunch of minor problems
 	* [Solutions to “Naive Set Theory”](./nst_solutions.html):
-		* [Section 12](./nst_solutions.html#Section-12)
-			* [Exercise 1](./nst_solutions.html#Exercise-1_9)
-			* [Exercise 2](./nst_solutions.html#Exercise-2_5)
-			* [Exercise 3](./nst_solutions.html#Exercise-3_2)
-			* [Exercise 4](./nst_solutions.html#Exercise-4_1)
+		* [Section 12](./nst_solutions.html#Section_12)
+			* [Exercise 1](./nst_solutions.html#Exercise_1_9)
+			* [Exercise 2](./nst_solutions.html#Exercise_2_5)
+			* [Exercise 3](./nst_solutions.html#Exercise_3_2)
+			* [Exercise 4](./nst_solutions.html#Exercise_4_1)
 	* [Solutions to “Reactive Systems](./rs_solutions.html):
-		* [Chapter 2](./rs_solutions.html#Chapter-2)
+		* [Chapter 2](./rs_solutions.html#Chapter_2)
 			* [2.1](./rs_solutions.html#21)
 			* [2.2](./rs_solutions.html#22)
 			* [2.3](./rs_solutions.html#23)
@@ -292,23 +292,23 @@ August 2021
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html)
 * [Life Improvements in 2030](./life_improvements_2030.html)
 * [Notes on Ethics](./notes_on_ethics.html)
-	* [We Should Kill All Mosquitoes](./notes_on_ethics.html#We-Should-Kill-All-Mosquitoes)
+	* [We Should Kill All Mosquitoes](./notes_on_ethics.html#We_Should_Kill_All_Mosquitoes)
 * Added one section to [Considerations on Cryonics](./considerations_on_cryonics.html):
-	* [Being Revived as an Emulation and Forced to Work](./considerations_on_cryonics.html#Being-Revived-as-an-Emulation-and-Forced-to-Work)
+	* [Being Revived as an Emulation and Forced to Work](./considerations_on_cryonics.html#Being_Revived_as_an_Emulation_and_Forced_to_Work)
 
 July 2021
 ---------
 
 * [Notes](./notes.html)
-	* [Ask About Frequency of Being Approached After Rejection](./notes.html#Ask-About-Frequency-of-Being-Approached-After-Rejection)
+	* [Ask About Frequency of Being Approached After Rejection](./notes.html#Ask_About_Frequency_of_Being_Approached_After_Rejection)
 * [Notes on Ethics](./notes_on_ethics.html)
-	* [Deference Attractors of Ethical Agents](./notes_on_ethics.html#Deference-Attractors-of-Ethical-Agents)
+	* [Deference Attractors of Ethical Agents](./notes_on_ethics.html#Deference_Attractors_of_Ethical_Agents)
 
 June 2021
 ---------
 
 * [Notes](./notes.html)
-	* [She Needs to Know You're Not a Weirdo](./notes.html#She-Needs-to-Know-Youre-Not-a-Weirdo)
+	* [She Needs to Know You're Not a Weirdo](./notes.html#She_Needs_to_Know_Youre_Not_a_Weirdo)
 
 ### Other
 
@@ -321,7 +321,7 @@ May 2021
 * [Administrativa for Facts](./administrativa_for_facts.html)
 * Started [Notes on Predictions](./notes_on_predictions.html), though these are probably not very interesting for other people to read
 * [Notes](./notes.html)
-	* [Why Not Nano-Apartments?](./notes.html#Why-Not-NanoApartments)
+	* [Why Not Nano-Apartments?](./notes.html#Why_Not_NanoApartments)
 
 ### Other
 
@@ -339,8 +339,8 @@ April 2021
 	* [1.3](./apisct_solutions.html#13)
 	* [1.7](./apisct_solutions.html#17)
 * [Notes on Ethics](./notes_on_ethics.html)
-	* [Humans Implement Ethics Discovery](./notes_on_ethics.html#Humans-Implement-Ethics-Discovery)
-	* [I Care About Ethical Decision Procedures](./notes_on_ethics.html#I-Care-About-Ethical-Decision-Procedures)
+	* [Humans Implement Ethics Discovery](./notes_on_ethics.html#Humans_Implement_Ethics_Discovery)
+	* [I Care About Ethical Decision Procedures](./notes_on_ethics.html#I_Care_About_Ethical_Decision_Procedures)
 
 March 2021
 -----------
@@ -359,12 +359,12 @@ March 2021
 	* [16.17](./aima_solutions.html#1617)
 	* [17.3](./aima_solutions.html#173)
 * [Solutions to “Naïve Set Theory“](./nst_solutions.md)
-	* [Section 11 Exercise 1](./nst_solutions.html#Exercise-1_8)
+	* [Section 11 Exercise 1](./nst_solutions.html#Exercise_1_8)
 * [Notes](./notes.md)
-	* [Implementing Commutative Hyperoperators](./notes.html#Implementing-Commutative-Hyperoperators)
-	* [A Trivial Fact About Leyland Numbers](./notes.html#A-Trivial-Fact-About-Leyland-Numbers)
+	* [Implementing Commutative Hyperoperators](./notes.html#Implementing_Commutative_Hyperoperators)
+	* [A Trivial Fact About Leyland Numbers](./notes.html#A_Trivial_Fact_About_Leyland_Numbers)
 * [Text Reviews](./text_reviews.html)
-	* [Compassion, by the Pound (F. Bailey Norwood/Jayson L. Lusk, 2011)](./text_reviews.html#Compassion-by-the-Pound-F-Bailey-NorwoodJayson-L-Lusk-2011)
+	* [Compassion, by the Pound (F. Bailey Norwood/Jayson L. Lusk, 2011)](./text_reviews.html#Compassion_by_the_Pound_F_Bailey_NorwoodJayson_L_Lusk_2011)
 
 February 2021
 -------------
@@ -376,7 +376,7 @@ February 2021
 	* [16.1](./aima_solutions.html#161)
 	* [16.3](./aima_solutions.html#163)
 * [Solutions to “Naïve Set Theory“](./nst_solutions.md)
-	* [Section 10 Exercise 5](./nst_solutions.html#Exercise-5)
+	* [Section 10 Exercise 5](./nst_solutions.html#Exercise_5)
 * [Life Advice](./life_advice.md)
 
 January 2021
@@ -385,37 +385,37 @@ January 2021
 * [Administrativa for Textbooks](./administrativa_for_textbooks.md)
 * [Solutions to “Artificial Intelligence: A Modern Approach”](./aima_solutions.md)
 * [Text Reviews](./text_reviews.html)
-	* [1960: The Year The Singularity Was Cancelled (Scott Alexander, 2019)](./text_reviews.html#1960-The-Year-The-Singularity-Was-Cancelled-Scott-Alexander-2019)
+	* [1960: The Year The Singularity Was Cancelled (Scott Alexander, 2019)](./text_reviews.html#1960_The_Year_The_Singularity_Was_Cancelled_Scott_Alexander_2019)
 * [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.md)
-* [Exercises 1-4 in Section 10](./nst_solutions.html#Exercise-1_7) in [Solutions to “Naïve Set Theory“](./nst_solutions.html)
+* [Exercises 1-4 in Section 10](./nst_solutions.html#Exercise_1_7) in [Solutions to “Naïve Set Theory“](./nst_solutions.html)
 * Notes
-	* [Trigger-Action Plans](./notes.html#TriggerAction-Plans)
-	* [A Small Variation on Counting During Concentration Meditation](./notes.html#A-Small-Variation-on-Counting-During-Concentration-Meditation)
+	* [Trigger-Action Plans](./notes.html#TriggerAction_Plans)
+	* [A Small Variation on Counting During Concentration Meditation](./notes.html#A_Small_Variation_on_Counting_During_Concentration_Meditation)
 
 December 2020
 -------------
 
 * Added [Text Reviews](./text_reviews.html)
-	* [The Human Predicament (David Benatar, 2017)](./text_reviews.html#The-Human-Predicament-David-Benatar-2017)
-	* [What failure looks like (Paul Christiano, 2019)](./text_reviews.html#What-failure-looks-like-Paul-Christiano-2019)
-* [Why Some Negative Ranges?](./range_and_forecasting_accuracy.html#Why-Some-Negative-Ranges) in [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
-* [Exercise 3 in Section 9](./nst_solutions.html#Exercise-3) in [Solutions to “Naïve Set Theory“](./nst_solutions.html)
+	* [The Human Predicament (David Benatar, 2017)](./text_reviews.html#The_Human_Predicament_David_Benatar_2017)
+	* [What failure looks like (Paul Christiano, 2019)](./text_reviews.html#What_failure_looks_like_Paul_Christiano_2019)
+* [Why Some Negative Ranges?](./range_and_forecasting_accuracy.html#Why_Some_Negative_Ranges) in [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+* [Exercise 3 in Section 9](./nst_solutions.html#Exercise_3) in [Solutions to “Naïve Set Theory“](./nst_solutions.html)
 * Notes
 	* [Gifts](./notes.html#Gifts)
-	* [Vasectomy & Sperm-Freezing Cost-Benefit](./notes.html#Vasectomy--Sperm-Freezing-CostBenefit)
+	* [Vasectomy & Sperm-Freezing Cost-Benefit](./notes.html#Vasectomy__Sperm_Freezing_CostBenefit)
 * Reports
-	* [Looking Into A Mirror](./reports.html#Looking-Into-A-Mirror)
+	* [Looking Into A Mirror](./reports.html#Looking_Into_A_Mirror)
 
 November 2020
 -------------
 
-* [Simpson's Paradox](./range_and_forecasting_accuracy.html#Simpsons-Paradox) in [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html#Simpsons-Paradox)
-* [Exercise 2 in Section 9](./nst_solutions.html#Exercise-2_3) in [Solutions to “Naïve Set Theory“](./nst_solutions.html)
+* [Simpson's Paradox](./range_and_forecasting_accuracy.html#Simpsons_Paradox) in [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html#Simpsons_Paradox)
+* [Exercise 2 in Section 9](./nst_solutions.html#Exercise_2_3) in [Solutions to “Naïve Set Theory“](./nst_solutions.html)
 * Reports
-	* [Attempted 7-Day Meditation Retreat at Home](./reports.html#Attempted-7Day-Meditation-Retreat-at-Home)
-	* [300 Hours of Meditation](./reports.html#300-Hours-of-Meditation)
+	* [Attempted 7-Day Meditation Retreat at Home](./reports.html#Attempted_7Day_Meditation_Retreat_at_Home)
+	* [300 Hours of Meditation](./reports.html#300_Hours_of_Meditation)
 * Notes
-	* [Stating the Result of “An Impossibility Theorem for Welfarist Axiologies”](./notes.html#Stating-the-Result-of-An-Impossibility-Theorem-for-Welfarist-Axiologies)
+	* [Stating the Result of “An Impossibility Theorem for Welfarist Axiologies”](./notes.html#Stating_the_Result_of_An_Impossibility_Theorem_for_Welfarist_Axiologies)
 
 ### Other
 
@@ -426,16 +426,16 @@ October 2020
 
 * Added two section to [Considerations on Cryonics](./considerations_on_cryonics.html):
 	* [Caveats](./considerations_on_cryonics.html#Caveats)
-	* [Quality of Preservation](./considerations_on_cryonics.html#Quality-of-Preservation)
+	* [Quality of Preservation](./considerations_on_cryonics.html#Quality_of_Preservation)
 * Started [Reports](./reports.html) with
-	* [Counting Smarts](./reports.html#Countings-Smarts)
-	* [Eating Only Every Second Day](./reports.html#Eating-Only-Every-Second-Day)
-	* [Walking Barefoot](./reports.html#Walking-Barefoot)
-	* [Riding the Bike a Lot](./reports.html#Riding-the-Bike-a-Lot)
-	* [Mostly Stopping to Bite My Nails](./reports.html#Mostly-Stopping-to-Bite-My-Nails)
+	* [Counting Smarts](./reports.html#Countings_Smarts)
+	* [Eating Only Every Second Day](./reports.html#Eating_Only_Every_Second_Day)
+	* [Walking Barefoot](./reports.html#Walking_Barefoot)
+	* [Riding the Bike a Lot](./reports.html#Riding_the_Bike_a_Lot)
+	* [Mostly Stopping to Bite My Nails](./reports.html#Mostly_Stopping_to_Bite_My_Nails)
 	* [Melatonin](./reports.html#Melatonin)
-* [Some more thoughts](./nst_solutions.html#Other-Failing-Ways-of-Interpreting-the-Exercise) on [Exercise 1 from Section 9](./nst_solutions.html#Exercise-1_6) in [Solutions to “Naïve Set Theory“](./nst_solutions.html)
-* [Explaining the different approaches of analysis](./range_and_forecasting_accuracy.html#Three-Different-Analyses-An-Illustrative-Example) for [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+* [Some more thoughts](./nst_solutions.html#Other_Failing_Ways_of_Interpreting_the_Exercise) on [Exercise 1 from Section 9](./nst_solutions.html#Exercise_1_6) in [Solutions to “Naïve Set Theory“](./nst_solutions.html)
+* [Explaining the different approaches of analysis](./range_and_forecasting_accuracy.html#Three_Different_Analyses_An_Illustrative_Example) for [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 
 ### Other
 
@@ -454,7 +454,7 @@ August 2020
 
 * [Considerations on Cryonics](./considerations_on_cryonics.html)
 	* [Caveats](./considerations_on_cryonics.html#Caveats) on the value of future life years
-	* Started more in-depth thoughts on the [Quality of Cryopreservation](./considerations_on_cryonics.html#Quality-of-Preservation)
+	* Started more in-depth thoughts on the [Quality of Cryopreservation](./considerations_on_cryonics.html#Quality_of_Preservation)
 
 July 2020
 ---------
@@ -464,7 +464,7 @@ July 2020
 * Started the [Exercises for “The Jazz Piano Book”](./tjpb_exercises.html)
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 	* [Results for Accuracy Between Questions](./range_and_forecasting_accuracy.html#Results_1)
-	* [Accuracy Within Questions](./range_and_forecasting_accuracy.html#Accuracy-Within-Questions)
+	* [Accuracy Within Questions](./range_and_forecasting_accuracy.html#Accuracy_Within_Questions)
 * [Notes](./notes.html)
 	* [Pseudocode for Finding Supermaximal Repeats via Enhanced Suffix Array](notes.html#Pseudocode-for-an-Algorithm-for-Finding-Supermaximal-Repeats-Using-a-Suffix-Array)
 
@@ -483,13 +483,13 @@ in June.
 
 ### Writing
 
-* [Non-Solution to Exercise 1 in Section 9 of Naïve Set Theory](./nst_solutions.html#Exercise-1_6)
+* [Non-Solution to Exercise 1 in Section 9 of Naïve Set Theory](./nst_solutions.html#Exercise_1_6)
 * [Analysis and Results on Range and Forecasting Accuracy between Questions](./range_and_forecasting_accuracy.html#Analysis_1)
 
 ### Other
 
 Imported existing lists I maintained on past [Media
-Consumption](./index.html#Media-Consumption), specifically:
+Consumption](./index.html#Media_Consumption), specifically:
 
 * [Texts I Have Read](./texts_list.html)
 * [Movies I Have Watched](./movies_list.html)
@@ -504,7 +504,7 @@ much in May.
 
 ### Writing
 
-* [Low Sample Sizes In High Ranges In Forecasting](./range_and_forecasting_accuracy.html#Low-Sample-Sizes-With-High-Ranges)
+* [Low Sample Sizes In High Ranges In Forecasting](./range_and_forecasting_accuracy.html#Low_Sample_Sizes_With_High_Ranges)
 
 April 2020
 ----------
@@ -512,28 +512,28 @@ April 2020
 ### Writing
 
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
-* [Solutions for Exercises in “Naïve Set Theory”](./nst_solutions.html): Section [8](./nst_solutions.html#Section-8)
-* [Social Costs from being Found Out Doing Daygame](./daygame_cost_benefit.html#Social-Costs-from-Being-Found-Out)
+* [Solutions for Exercises in “Naïve Set Theory”](./nst_solutions.html): Section [8](./nst_solutions.html#Section_8)
+* [Social Costs from being Found Out Doing Daygame](./daygame_cost_benefit.html#Social_Costs_from_Being_Found_Out)
 * Notes:
-	* [Some Qualitative Intuitions on the Effects of Open Borders](./notes.html#Some-Qualitative-Intuitions-on-the-Effects-of-Open-Borders)
+	* [Some Qualitative Intuitions on the Effects of Open Borders](./notes.html#Some_Qualitative_Intuitions_on_the_Effects_of_Open_Borders)
 
 March 2020
 ----------
 
 ### Writing
 
-* [A Slightly More Complex Model for the Value of Daygame](./daygame_cost_benefit.html#A-Slightly-More-Complex-Model)
-* [Solutions for Exercises in “Naïve Set Theory”](./nst_solutions.html): Sections [6](./nst_solutions.html#Section-6) & [7](./nst_solutions.html#Section-7)
-* [A Generative Solution for P60](./99_problems_klong_solution.html#A-Generative-Solution) in the [99 Problems Klong Solution](./99_problems_klong_solution.html)
-* [A Monte-Carlo Simulation for the Value of Cryonics](./considerations_on_cryonics.html#Appendix-A-A-Guesstimate-Model)
+* [A Slightly More Complex Model for the Value of Daygame](./daygame_cost_benefit.html#A_Slightly_More_Complex_Model)
+* [Solutions for Exercises in “Naïve Set Theory”](./nst_solutions.html): Sections [6](./nst_solutions.html#Section_6) & [7](./nst_solutions.html#Section_7)
+* [A Generative Solution for P60](./99_problems_klong_solution.html#A_Generative_Solution) in the [99 Problems Klong Solution](./99_problems_klong_solution.html)
+* [A Monte-Carlo Simulation for the Value of Cryonics](./considerations_on_cryonics.html#Appendix_A_A_Guesstimate_Model)
 
 February 2020
 -------------
 
 ### Writing
 
-* [Further Hypotheses on Masturbation and Attractiveness](./masturbation_and_attractiveness.html#Appendix-C-Further-Hypotheses)
-* [Empirical Data for Daygame Ratios](./daygame_cost_benefit.html#Empirical-Data-for-Ratios)
+* [Further Hypotheses on Masturbation and Attractiveness](./masturbation_and_attractiveness.html#Appendix_C_Further_Hypotheses)
+* [Empirical Data for Daygame Ratios](./daygame_cost_benefit.html#Empirical_Data_for_Ratios)
 
 January 2020
 ------------
@@ -543,8 +543,8 @@ January 2020
 * Started [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
 * Added [Longevity Escape Velocity](https://en.wikipedia.org/wiki/Longevity_escape_velocity) impacts to [Considerations on Cryonics](./considerations_on_cryonics.html)
 * Notes
-	* [Some Thoughts about the Qualia Research Institute](./notes.html#Some-Thoughts-about-the-Qualia-Research-Institute)
-	* [The Benefit of Reading LessWrong](./notes.html#The-Benefit-of-Reading-LessWrong)
+	* [Some Thoughts about the Qualia Research Institute](./notes.html#Some_Thoughts_about_the_Qualia_Research_Institute)
+	* [The Benefit of Reading LessWrong](./notes.html#The_Benefit_of_Reading_LessWrong)
 * Updated the chronological blog archives:
 	* [bit-player](./bp_chrono.html)
 	* [Overcoming Bias](./ob_chrono.html)
@@ -558,7 +558,7 @@ December 2019
 
 * Restructured the [index page](./index.html)
 * Notes
-	* [Killing Old People Versus Infants](./notes.html#Killing-Old-People-Versus-Infants)
+	* [Killing Old People Versus Infants](./notes.html#Killing_Old_People_Versus_Infants)
 
 November 2019
 -------------
@@ -566,10 +566,10 @@ November 2019
 ### Writing
 
 * [Solutions to “Naïve Set Theory” up to section 6](./nst_solutions.html)
-* Solutions to [P61](./99_problems_klong_solution.html#P61--Count-the-leaves-of-a-binary-tree), [P61A](./99_problems_klong_solution.html#P61A--Collect-the-leaves-of-a-binary-tree-in-a-list), [P62](./99_problems_klong_solution.html#P62--Collect-the-internal-nodes-of-a-binary-tree-in-a-list) and [P62B](./99_problems_klong_solution.html#P62B--Collect-the-nodes-at-a-given-level-in-a-tree) of the [99 Klong Problems](./99_problems_klong_solution.html)
+* Solutions to [P61](./99_problems_klong_solution.html#P61__Count_the_leaves_of_a_binary_tree), [P61A](./99_problems_klong_solution.html#P61A__Collect_the_leaves_of_a_binary_tree_in_a_list), [P62](./99_problems_klong_solution.html#P62__Collect_the_internal_nodes_of_a_binary_tree_in_a_list) and [P62B](./99_problems_klong_solution.html#P62B__Collect_the_nodes_at_a_given_level_in_a_tree) of the [99 Klong Problems](./99_problems_klong_solution.html)
 * Notes
-	* [Artificial Intelligence and Action-Compelling Sentences](./notes.html#Artificial-Intelligence-and-ActionCompelling-Sentences)
-	* [Use Things Up](./notes.html#Use-Things-Up)
+	* [Artificial Intelligence and Action-Compelling Sentences](./notes.html#Artificial_Intelligence_and_ActionCompelling_Sentences)
+	* [Use Things Up](./notes.html#Use_Things_Up)
 	* Better Names
 		* [Better Names for "Sentience"](./notes.html#Sentience)
 
@@ -590,9 +590,9 @@ September 2019
 ### Writing
 
 * [Against Applause After Classical Concerts](./against_applause.html)
-* Solutions to [P55](./99_problems_klong_solution.html#P55--Construct-completely-balanced-binary-trees), [P56](./99_problems_klong_solution.html#P56--Symmetric-binary-trees), [P57](./99_problems_klong_solution.html#P57--Binary-search-trees-dictionaries), [P58](./99_problems_klong_solution.html#P58--Generateandtest-paradigm) and [P59](./99_problems_klong_solution.html#P59--Construct-heightbalanced-binary-trees), and a complete implementation of the [Huffman code](./99_problems_klong_solution.html#A-More-Complete-Implementation) for the [99 Klong Problems](./99_problems_klong_solution.html)
+* Solutions to [P55](./99_problems_klong_solution.html#P55__Construct_completely_balanced_binary_trees), [P56](./99_problems_klong_solution.html#P56__Symmetric_binary_trees), [P57](./99_problems_klong_solution.html#P57__Binary_search_trees_dictionaries), [P58](./99_problems_klong_solution.html#P58__Generateandtest_paradigm) and [P59](./99_problems_klong_solution.html#P59__Construct_heightbalanced_binary_trees), and a complete implementation of the [Huffman code](./99_problems_klong_solution.html#A_More_Complete_Implementation) for the [99 Klong Problems](./99_problems_klong_solution.html)
 * Notes
-	* [Better Names for Things](./notes.html#Better-Names-for-Things)
+	* [Better Names for Things](./notes.html#Better_Names_for_Things)
 
 ### Programming
 
@@ -604,10 +604,10 @@ August 2019
 ### Writing
 
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
-* Solutions to [P40](./99_problems_klong_solution.html#P40--Goldbachs-conjecture), [P41](./99_problems_klong_solution.html#P41--A-list-of-Goldbach-compositions), [P49](./99_problems_klong_solution.html#P49--Gray-code), [P50](./99_problems_klong_solution.html#P50--Huffman-code) and [P54A](./99_problems_klong_solution.html#P54A--Check-whether-a-given-term-represents-a-binary-tree) of the [99 Klong Problems](./99_problems_klong_solution.html)
+* Solutions to [P40](./99_problems_klong_solution.html#P40__Goldbachs_conjecture), [P41](./99_problems_klong_solution.html#P41__A_list_of_Goldbach_compositions), [P49](./99_problems_klong_solution.html#P49__Gray_code), [P50](./99_problems_klong_solution.html#P50__Huffman_code) and [P54A](./99_problems_klong_solution.html#P54A__Check_whether_a_given_term_represents_a_binary_tree) of the [99 Klong Problems](./99_problems_klong_solution.html)
 * Notes
-	* [Compliments as Utilitarian Praxis](./notes.html#Compliments-as-Utilitarian-Practice)
-	* [Indirect Anti-Natalism](./notes.html#Indirect-AntiNatalism)
+	* [Compliments as Utilitarian Praxis](./notes.html#Compliments_as_Utilitarian_Practice)
+	* [Indirect Anti-Natalism](./notes.html#Indirect_AntiNatalism)
 
 ### Site Changes
 
@@ -619,11 +619,11 @@ July 2019
 ### Writing
 
 * Notes
-	* [Converging Preference Utilitarianism](./notes.html#Converging-Preference-Utilitarianism)
-	* [Silent & Loud Killers](./notes.html#Silent--Loud-Killers)
+	* [Converging Preference Utilitarianism](./notes.html#Converging_Preference_Utilitarianism)
+	* [Silent & Loud Killers](./notes.html#Silent__Loud_Killers)
 * [Contributions](./contributions.html)
-* [Other Proposed Solutions to Rendezvous on a Sphere](./two_people_on_a_planet.html#Other-Proposed-Solutions)
-* [Solutions to P34-P39 for the 99 Klong Problems](./99_problems_klong_solution.html#P34--Calculate-Eulers-totient-function-phim)
+* [Other Proposed Solutions to Rendezvous on a Sphere](./two_people_on_a_planet.html#Other_Proposed_Solutions)
+* [Solutions to P34-P39 for the 99 Klong Problems](./99_problems_klong_solution.html#P34__Calculate_Eulers_totient_function_phim)
 * Archives
 	* [Bit-Player Posts Chronological Index](./bp_chrono.html)
 	* [Overcoming Bias Posts Chronological Index](./ob_chrono.html)
@@ -636,9 +636,9 @@ June 2019
 ### Writing
 
 * Notes
-	* [Approach Anxiety](./notes.html#Approach-Anxiety)
-* Solution to [Problem 27-33](./99_problems_klong_solution.html#P27--Group-the-elements-of-a-set-into-disjoint-subsets) of the 99 problems
-* Finished transcription of the [Tao Tê King](./tao_te_king.html#Kapitel-71) (chapters 71 to 81)
+	* [Approach Anxiety](./notes.html#Approach_Anxiety)
+* Solution to [Problem 27-33](./99_problems_klong_solution.html#P27__Group_the_elements_of_a_set_into_disjoint_subsets) of the 99 problems
+* Finished transcription of the [Tao Tê King](./tao_te_king.html#Kapitel_71) (chapters 71 to 81)
 
 ### Site Changes
 
@@ -651,7 +651,7 @@ May 2019
 
 * Started [Notes](./notes.html)
 * [Pipe Rings](./pipe_rings.html)
-* Transcribed chapters [43 to 70](./tao_te_king.html#Kapitel-43) of the Tao Tê King
+* Transcribed chapters [43 to 70](./tao_te_king.html#Kapitel_43) of the Tao Tê King
 * Added illustrations to [Two People on a Planet](./two_people_on_a_planet.html)
 
 ### Site Changes

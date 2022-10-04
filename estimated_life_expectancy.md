@@ -35,7 +35,7 @@ Data Collection Method
 
 ~500 random people were approached (the
 exact number of approaches was [regrettably not
-recorded](./estimated_life_expectancy.html#No-Tracking-of-the-Answering-Rate))
+recorded](./estimated_life_expectancy.html#No_Tracking_of_the_Answering_Rate))
 during the day in the streets of the center of a major german city. They
 were asked the following questions (in the presented order):
 

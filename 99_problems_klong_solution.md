@@ -49,9 +49,9 @@ several concessions concerning completeness have to be made. There
 is nearly no checking for correct arguments, except for empty lists.
 Variables are declared locally. The solution for problem N is called
 `sN`, helper functions are numbered `aN` for the Nth helper function in
-[__Working with lists__](./99_klong_problems.html#Working-with-lists),
+[__Working with lists__](./99_klong_problems.html#Working_with_lists),
 `bN` in [__Arithmetic__](./99_klong_problems.html#Arithmetic), `cN` in
-[__Logic and Codes__](./99_klong_problems.html#Logic-and-Codes) and so on.
+[__Logic and Codes__](./99_klong_problems.html#Logic_and_Codes) and so on.
 
 Prerequisites
 -------------
@@ -1046,7 +1046,7 @@ Seems about right.
 
 > Two numbers are coprime if their greatest common divisor equals 1.
 
-*— niplav, [“P33“ in 99 Klong Problems](./99_klong_problems.html#P33--Determine-whether-two-positive-integer-numbers-are-coprime), 2019*
+*— niplav, [“P33“ in 99 Klong Problems](./99_klong_problems.html#P33__Determine_whether_two_positive_integer_numbers_are_coprime), 2019*
 
 This is trivial:
 
@@ -1065,7 +1065,7 @@ Testing:
 > Euler's so-called totient function phi(m) is defined as the number of
 > positive integers r (1 <= r < m) that are coprime to m.
 
-*— niplav, [“P34“ in 99 Klong Problems](./99_klong_problems.html#P34--Calculate-Eulers-totient-function-phim), 2019*
+*— niplav, [“P34“ in 99 Klong Problems](./99_klong_problems.html#P34__Calculate_Eulers_totient_function_phim), 2019*
 
 Since a predicate for coprimality is already given with `s33`, it is
 not hard to find the number of coprimes for a given integer: Iterating
@@ -1191,7 +1191,7 @@ The wrong values for 1 and 0 are inherited from `s35`.
 
 > Take the number of logical inferences as a measure for efficiency.
 
-*— niplav, [“P38“ in 99 Klong Problems](./99_klong_problems.html#P38--Compare-the-two-methods-of-calculating-Eulers-totient-function), 2019*
+*— niplav, [“P38“ in 99 Klong Problems](./99_klong_problems.html#P38__Compare_the_two_methods_of_calculating_Eulers_totient_function), 2019*
 
 We will not do that, but simply measure the runtimes of the two functions
 in seconds.
@@ -2561,7 +2561,7 @@ Tests:
 creates the level-order sequence of the nodes. However, there are more
 efficient ways to do that.
 
-*— niplav, [“P62B“ in 99 Klong Problems](./99_klong_problems.html#P62B--Collect-the-nodes-at-a-given-level-in-a-list), 2019*
+*— niplav, [“P62B“ in 99 Klong Problems](./99_klong_problems.html#P62B__Collect_the_nodes_at_a_given_level_in_a_list), 2019*
 
 To solve this, one needs to know the depth of the tree. Fortunately,
 the already imported library `util.kg` contains an implementation for
@@ -2689,7 +2689,7 @@ the right subtree.
 	s64::{d7(x;1;1)}
 	layoutbinarytree::s64
 
-We can test this using the tree from the image in [the statement of the problem](./99_klong_problems.html#P64--Layout-a-binary-tree-1):
+We can test this using the tree from the image in [the statement of the problem](./99_klong_problems.html#P64__Layout_a_binary_tree_1):
 
 		t::[:n [:k [:c [:a [] []] [:h [:g [:e [] []] []] []]] [:m [] []]] [:u [:p [] [:s [:q [] []] []]] []]]
 		layoutbinarytree(t)

@@ -67,7 +67,7 @@ organs in the event that we would meet up.
 #### French First Love
 
 I approached her in the same session as the [schizo
-woman](./pickup_reports.html#Schizo-Woman), a bit later. She was a
+woman](./pickup_reports.html#Schizo_Woman), a bit later. She was a
 student on an exchange program, and only in the city for a short while.
 Quite giggly, and just blazing with feminine energy and playfulness —
 one of those women who are maybe a high seven looks wise (not dressed very

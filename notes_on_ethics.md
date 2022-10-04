@@ -250,7 +250,7 @@ utilitarianism](https://en.wikipedia.org/wiki/Preference_utilitarianism)
 enjoys great popularity among utilitarians<!--TODO: citation
 needed? How does it compare to other utilitarianisms?-->,
 and I tend to agree that it is a [very good pragmatic
-compromise](./notes_on_politics_especially_economics.html#What-Politics-Is-For)
+compromise](./notes_on_politics_especially_economics.html#What_Politics_Is_For)
 especially in the context of politics.
 
 However, most formulations I have encountered bring up some problems
@@ -353,7 +353,7 @@ Preference utilitarians who respect possible preferences might just bite
 this bullet and argue that this indeed the correct thing to do.
 
 But, depending on the definition of an ethical patient [who displays
-preferences](./notes_on_ethics.html#The-Identification-Argument), the
+preferences](./notes_on_ethics.html#The_Identification_Argument), the
 moral patient who maximally prefers existing might look nothing like a
 typical human, and more like an intricate e-coli-sized web of diamond
 or a very fast rotating blob of strange matter. The only people I can

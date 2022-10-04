@@ -222,7 +222,7 @@ bolt-upright and think "Oh damn! __That was a shit test__!".
 
 However, my experience after some of my recent dates
 has been the following: I'm eating, or [assembling an air
-filter](./notes.html#Building-a-Cuboid), and an epiphany hits me:
+filter](./notes.html#Building_a_Cuboid), and an epiphany hits me:
 "Shit! *That was a shit test*, and __this is how I deflected it
 automatically!__"
 

@@ -157,7 +157,7 @@ The Disvalue of Waiting
 -----------------------
 
 Two important factors play into the value (or disvalue) of waiting
-to sign up for cryonics: [Motivation drift](./notes.html#Value-Drift)
+to sign up for cryonics: [Motivation drift](./notes.html#Value_Drift)
 and the possibility of dying before signing up.
 
 	function value(age)
