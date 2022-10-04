@@ -416,7 +416,7 @@ possible for `$Q$` (`$Q \overset{ᰑ‎}{\rightarrow} Q'$`) because we
 assumed that `$P \mathcal{R} Q$`, or a replacement took place. In that case,
 the replacement would have replaced another variable `$α$` (perhaps
 because we thought that those greek variable names are [boring after a
-while](./mathematics_notation_convention.html#Things-I-Would-Like-To-Do-But-Im-Not-Brave-Enough)),
+while](./mathematics_notation_convention.html#Things_I_Would_Like_To_Do_But_Im_Not_Brave_Enough)),
 so we assume (witout loss of generality) that `$f(α)=ᰑ‎$`.
 
 Then we know that if `$P \mathcal{R} Q$` and `$P

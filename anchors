@@ -1,0 +1,43 @@
+#!/usr/bin/env python3
+
+import re
+import os
+import sys
+from bs4 import BeautifulSoup as bs
+
+filename=sys.argv[1]
+
+f=open(filename, 'r')
+
+soup=bs(f.read(), features='lxml')
+subheaders=soup.find_all(lambda tag: tag.name in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
+anchorhash=dict()
+
+for sh in subheaders:
+	t=ref=sh.string
+	if str(ref)=='home':
+		continue
+	ref=re.sub('[^a-zA-Z0-9 ]', '', str(ref))
+	ref=re.sub(' ', '_', ref)
+
+	i=0
+	newref=ref
+
+	while newref in anchorhash.keys():
+		i=i+1
+		newref=ref+'_'+str(i)
+
+	ref=newref
+	anchorhash[ref]=1
+
+	new_tag=soup.new_tag('a', href='#'+ref)
+	new_tag['class']='hanchor'
+	sh['id']=ref
+	list(sh.children)[0].wrap(new_tag)
+
+f.close()
+
+with open(filename, 'w') as f:
+	f.write(str(soup))
+
+f.close()

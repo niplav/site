@@ -817,7 +817,7 @@ values above the maximum (with a maximum of 0.25, some of the observed
 Brier scores are greater), continuous values to predict), I curve-fit
 explicitely using `scipy.optimize.curve_fit` (why did I only learn about
 this function from scrolling through the scipy documentation‽ This
-[is awesome](./notes.html#scipyoptimizecurvefit-Is-Awesome)!) with
+[is awesome](./notes.html#scipyoptimizecurvefit_Is_Awesome)!) with
 two parameters.
 
 (Why not do a linear regression on the log-transformed data? Because the
@@ -2187,7 +2187,7 @@ my job, luckily the Metaculus admins also allowed me to use it for my
 private investigations.
 
 I subsequently [tried to replicate my previous
-findings](./range_and_forecasting_accuracy.html#Appendix-A-Replicating-Metaculus-Findings-With-Full-Data)
+findings](./range_and_forecasting_accuracy.html#Appendix_A_Replicating_Metaculus_Findings_With_Full_Data)
 with the private data, finding that \_.
 
 Limitations

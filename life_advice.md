@@ -119,13 +119,13 @@ And, as always, remember that I'm just a person on the internet.
 	* Example: I had trouble going to bed early, so I [tried
 		Melatonin](./reports.html#Melatonin), which pretty much
 		solved my problem
-	* Example: I had trouble biting my nails, so I started [cutting them regularly](./reports.html#Mostly-topping-to-Bite-My-Nails), which also pretty much solved my problem
+	* Example: I had trouble biting my nails, so I started [cutting them regularly](./reports.html#Mostly_topping_to_Bite_My_Nails), which also pretty much solved my problem
 	* Example: I used to have a problem with getting distracted by the internet during hours when I wanted to be working. I moved to a place without internet, which made working easier.
 11.	The benefits of small amounts of meditation are probably
 	overstated, while the benefits of large amounts of
 	meditation (north of 1 hour a day) are probably heavily
 	underestimated. I have had [very good experiences with
-	it](./reports.html#300-Hours-of-Meditation).
+	it](./reports.html#300_Hours_of_Meditation).
 	*	The basic foundational activity before meditation is just
 		doing nothing. It shouldn't be very hard to do, but it is.
 12. The ability to form habits is powerful.

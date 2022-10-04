@@ -781,7 +781,7 @@ ignored) or might have corrupted the data (people being aware
 of it being an experiment). Because of this, I had to determine
 the gender of the respondent by subjective judgement, which
 might become a problem. By using the code in a section of [this
-piece](./estimated_life_expectancy.html#Gender-was-Determined-by-Appearance),
+piece](./estimated_life_expectancy.html#Gender_was_Determined_by_Appearance),
 I arrive at a probability of ~21% of encountering at least one trans
 person & misgendering them (N=400).
 

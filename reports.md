@@ -528,7 +528,7 @@ when I became more attentive.
 Several factors might distort my report.
 
 1. I am doing a [somewhat intensive contemplative
-practice](./reports.html#300-Hours-of-Meditation), and my perception is
+practice](./reports.html#300_Hours_of_Meditation), and my perception is
 perhaps already slightly different from the modal person's
 
 2. I have some psychedelic experiences, although the last happened more

@@ -113,7 +113,7 @@ shitposting](https://social.freetalklive.com/web/@niplav).
 
 I'm not big into linguistic prescriptivism (although it
 is another one of those guilty pleasures I [occasionally engage
-in](./language.html#Better-Names-for-Things)), so call this a blog if you
+in](./language.html#Better_Names_for_Things)), so call this a blog if you
 like. I personally prefer the term simple term "website" or "personal
 website". If you want to talk about me as if I had prestige, "essays"
 is also okay. (It might send incorrect signals about [how prestigeworthy
@@ -141,7 +141,7 @@ pages representing programming projects, but also [literate
 programs](https://en.wikipedia.org/wiki/Literate_programming)
 containing code, comments, tests and performance measurements. Most
 programs will be written in [a small number of programming
-languages](./uses_this.html#Programming-languages).
+languages](./uses_this.html#Programming_languages).
 
 ### Inspiration
 

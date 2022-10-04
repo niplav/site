@@ -46,13 +46,13 @@ much text?)--> For a shorter approach, you could also just read all
 Approach Anxiety
 ----------------
 
-Moved to [Notes on Pickup](./notes_on_pickup.html#Approach-Anxiety).
+Moved to [Notes on Pickup](./notes_on_pickup.html#Approach_Anxiety).
 
 Converging Preference Utilitarianism
 ------------------------------------
 
 Moved to [Notes on
-Ethics](./notes_on_ethics.html#Converging-Preference-Utilitarianism).
+Ethics](./notes_on_ethics.html#Converging_Preference_Utilitarianism).
 
 Silent & Loud Killers
 ---------------------
@@ -143,7 +143,7 @@ unmodified (this seems quite likely).
 Better Names for Things
 ------------------------
 
-Moved [here](./language.html#Better-Names-for-Things).
+Moved [here](./language.html#Better_Names_for_Things).
 
 Considerations on Cryonics
 --------------------------
@@ -584,7 +584,7 @@ pseudocode, which I show here:
 Stating the Result of “An Impossibility Theorem for Welfarist Axiologies”
 -------------------------------------------------------------------------
 
-Moved to [Notes on Ethics](./notes_on_ethics.html#Stating-the-Result-of-An-Impossibility-Theorem-for-Welfarist-Axiologies).
+Moved to [Notes on Ethics](./notes_on_ethics.html#Stating_the_Result_of_An_Impossibility_Theorem_for_Welfarist_Axiologies).
 
 Gifts
 ------
@@ -978,12 +978,12 @@ group is just too small/already served with university dorms?
 She Needs to Know You're Not a Weirdo
 --------------------------------------
 
-Moved to [Notes on Pickup](./notes_on_pickup.html#She-Needs-to-Know-Youre-Not-a-Weirdo).
+Moved to [Notes on Pickup](./notes_on_pickup.html#She_Needs_to_Know_Youre_Not_a_Weirdo).
 
 Ask About Frequency of Being Approached After Rejection
 --------------------------------------------------------
 
-Moved to [Notes on Pickup](./notes_on_pickup.html#Ask-About-Frequency-of-Being-Approached-After-Rejection).
+Moved to [Notes on Pickup](./notes_on_pickup.html#Ask_About_Frequency_of_Being_Approached_After_Rejection).
 
 A Simple Proof that in Hardy-Weinberg Mating, Allele Frequencies are Preserved
 -------------------------------------------------------------------------------
@@ -1193,8 +1193,8 @@ which says that `curve_fit` should not make the second argument smaller
 than zero, but otherwise can do whatever it wants.
 
 So far, I've already used this function
-[two](./range_and_forecasting_accuracy.html#Fitting-a-Logistic-Function)
-[times](./range_and_forecasting_accuracy.html#Fitting-an-Exponential-Function),
+[two](./range_and_forecasting_accuracy.html#Fitting_a_Logistic_Function)
+[times](./range_and_forecasting_accuracy.html#Fitting_an_Exponential_Function),
 and I've only known about it for a week! A must for every wannabe
 data-scientist.
 

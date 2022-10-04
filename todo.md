@@ -68,16 +68,15 @@ Site
 	* `https://www.gwern.net/docs/www/joa.sh/290f53c78d4b287be8059260f613988a8abda677.html`
 	* `https://github.com/pkra/mathjax-node-page/`
 * Maybe collapsable sections?
-* Change internal anchor links to underscore from minus
-	* Also don't use frickin' javascript to create linkable sections, it's disgusting
 * nitter.hu to nitter.net
 * Collect list of deprecated & draft texts somewhere
+* Title is not JS-added
 
 Existing Texts
 --------------
 
 * Range and Forecasting Accuracy
-	* Move the [PredictionBook download code](./range_and_forecasting_accuracy.html#For-PredictionBook) to the [PredictionBook API](https://github.com/bellroy/predictionbook/blob/master/API.md)
+	* Move the [PredictionBook download code](./range_and_forecasting_accuracy.html#For_PredictionBook) to the [PredictionBook API](https://github.com/bellroy/predictionbook/blob/master/API.md)
 	* Find Muehlhauser email with additional source
 	* Extend the analysis to more datapoints
 		* Extend the analysis to predictions with confidence intervals
@@ -916,7 +915,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Subscripts for Probabilistic Credals
 	* Explore different ways of typesetting this
 	* Neither Veridical nor Mirative nor Evidential
-	* See [here](./range_and_forecasting_accuracy.html#Appendix-A-Replicating-Metaculus-Findings-With-Full-Data) for a first exploration
+	* See [here](./range_and_forecasting_accuracy.html#Appendix_A_Replicating_Metaculus_Findings_With_Full_Data) for a first exploration
 
 ### Collections
 
@@ -950,7 +949,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Recognize temperature, time duration, object length, position on the globe
 * Notes on a Grand Plan to Learn Everything
 	* Exploration
-		* Read Wikipedia with [this method](./notes.html#Getting-an-Overview-Over-Everything)
+		* Read Wikipedia with [this method](./notes.html#Getting_an_Overview_Over_Everything)
 		* Read SEP
 			* randomly?
 	* Learning
@@ -1356,9 +1355,9 @@ Data Sets
 Collect data on
 
 * Bag Spreading
-* [Daygame](./daygame_cost_benefit.html#Appendix-C-Empirically-Checking-the-Assumptions)
+* [Daygame](./daygame_cost_benefit.html#Appendix_C_Empirically_Checking_the_Assumptions)
 * [Masturbation and Attractiveness](./masturbation_and_attractiveness.html#Method)
-* [Subjective Life Expectancy](./estimated_life_expectancy.html#Data-Collection-Method)
+* [Subjective Life Expectancy](./estimated_life_expectancy.html#Data_Collection_Method)
 * Meditation
 * [Masturbation](./data/masturbations.csv)
 * A Large Dataset of Forecasts and Outcomes

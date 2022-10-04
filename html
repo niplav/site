@@ -12,3 +12,5 @@ sed -i 's/\(\/[._a-zA-Z0-9%]\+\)\.md/\1.html/g' $1
 sed -i '1i\\n' $1
 sed -i '1r header.html' $1
 echo '</html>' >>$1
+
+./anchors $1
