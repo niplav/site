@@ -71,6 +71,7 @@ Site
 * nitter.hu to nitter.net
 * Collect list of deprecated & draft texts somewhere
 * Title is not JS-added
+* Reading ruler
 
 Existing Texts
 --------------
@@ -97,6 +98,7 @@ Existing Texts
 		* Prediction: The long and short of it (Anthony Millner/Daniel Heyen, 2020)
 		* `https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters`
 		* `https://www.edge.org/conversation/philip_tetlock-edge-master-class-2015-a-short-course-in-superforecasting-class-ii`
+	* Estimate with latent variable/instrumental variable
 * Considerations on Cryonics
 	* Add a literature review
 		* `https://www.tandfonline.com/doi/pdf/10.1080/01459741003715391`
@@ -316,6 +318,7 @@ Texts
 			* increased corporate vs. state capacity
 				* companies pull away capable researchers to work on private projects
 		* Large amounts of compute generate CO₂ (or, in the case of using green energy, counterfactually increase the price of green energy, leading to people (in expectation) purchasing more non-green energy)
+	* More generally Overlap between Effective Altruism and the Social Left?
 * Scaling Laws Under Different Activation Functions
 	* What are the scaling laws for ReLUs vs. sigmoids?
 	* Another datapoint on slow/fast takeoff
@@ -800,6 +803,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Recycling cost-benefit calculation
 * A history of the Effective Altruism/Bayesian Rationality cluster
 	* For example, why poly?
+* Pareto improvements and equity/equality
 
 ### Ideas
 
@@ -861,7 +865,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Salty fries
 	* Buy something, that creates a need for something else (software <-> support, salty fries <-> drinks)
 * Running Away from Your Problems
-	* Examples (?)
+	* Examples
 		* Anti-biotics
 		* de Grey anti-aging proposal
 * Cryptographic Agreement on Bribing
@@ -1361,16 +1365,26 @@ Collect data on
 * Meditation
 * [Masturbation](./data/masturbations.csv)
 * A Large Dataset of Forecasts and Outcomes
+	* See also [The Odds API](https://the-odds-api.com/)
 	* Sources:
-		* Metaculus
+		* [Metaculus](https://www.metaculus.com)
 		* PredictionBook
-		* GJOpen
-		* Hypermind
+		* [Foretell (CSET)](https://www.cset-foretell.com/)
+		* [Good Judgment Open](https://www.gjopen.com/)
+		* [Good Judgment](https://goodjudgment.io/)
+		* [Hypermind](https://www.hypermind.com)
 		* Augur
-		* PredictIt
+		* [Foretold](https://www.foretold.io/)
+		* [Omen](https://www.fsu.gr/en/fss/omen)
+		* [GiveWell](https://www.givewell.org/)
+		* [Open Philanthropy Project](https://www.openphilanthropy.org/)
+		* [PredictIt](https://www.predictit.org/)
+		* [Elicit](https://elicit.org/)
+		* [PolyMarket](https://polymarket.com/)
 		* Iowa Open Markets
 		* INFER
 		* Manifold
+		* [Smarkets](https://smarkets.com/)
 		* Others?
 * Large STEM Dataset
 	* For training large ML models that are less likely to be [human models](https://www.lesswrong.com/posts/BKjJJH2cRpJcAnP7T)
@@ -1802,6 +1816,7 @@ produces
 * SML
 * Forth
 * Prolog
+* Julia
 
 Wikipedia Articles
 -------------------
@@ -1826,7 +1841,7 @@ Wikipedia Articles
 	* Sadistic conclusion
 	* Critical-threshold approaches
 * Daniel Ingram
-* Pragmatic Dharma (?)
+* Pragmatic Dharma
 * Kenneth Folk
 * Experience Replay (see Deep Q-Network (“DQN”; Mnih et al. 2015))
 * Cantril Ladder
@@ -1935,5 +1950,8 @@ In-World Projects
 	* domain name egregome.industries or just revive schelling.pt when it becomes available
 * Arrange Slavoj Žižek to be an EAG keynote speaker
 * 80,000 hours add German organisations
-* Headstrap for airplane sleeping?
+* Headstrap for airplane sleeping
 * Apartment swapping startup
+* Shipping startup
+* backup libgen/scihub/arxiv/biorxiv/psyrxiv
+* Start a Notebook Journal (as in Jupyter Notebook)

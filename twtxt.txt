@@ -1481,4 +1481,6 @@
 2022-10-03T12:48:33.000000Z	tension between markets & hacker æsthetic: markets want competition (same thing is done often, separately, with lots of turnover), while hackers want things to be done once and well, with high maintenance (canonical resources)
 2022-10-03T15:00:57.000000Z	“citta” should probably just be translated as “psyche”
 2022-10-04T12:22:54.000000Z	i care about the instantiation of human values in the universe, not about whether humanity reaches the stars
-2022-10-04T12:24:06.000000Z	actual nazise talk about moloch a lot
+2022-10-04T12:24:06.000000Z	actual nazis talk about moloch a lot
+2022-10-05T15:26:53.000000Z	public relations is a reality-masking puzzle.
+2022-10-07T13:57:26.000000Z	{adequate,¬adequate}×{exploitable,¬exploitable}×{efficient,¬efficient}
