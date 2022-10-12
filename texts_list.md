@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-09-30, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-10-10, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,40 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Moloch's Toolbox (1/2) (Eliezer Yudkowsky, 2017)](https://www.lesswrong.com/s/oLGCcbnvabyibnG9d/p/x5ASTMPKPowLKpLpZ)
+* [Stuff That Makes Stuff Happen (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/NhQju3htS9W6p6wE6)
+* [Inner Alignment: Explain like I'm 12 Edition (Rafael  Harth, 2020)](https://www.lesswrong.com/s/PKKsrXtuptWzaKCjr/p/AHhCrJ2KpTjsCSwbt)
+* [Why haven't we celebrated any major achievements lately? (Jason Crawford, 2020)](https://www.lesswrong.com/s/cv2aZaRR22MPC5QwE/p/q3JY4iRzjq56FyjGF)
+* [Studies On Slack (Scott Alexander, 2020)](https://www.lesswrong.com/s/cv2aZaRR22MPC5QwE/p/GZSzMqr8hAB2dR8pk)
+* [Can crimes be discussed literally? (Benquo, 2020)](http://benjaminrosshoffman.com/can-crimes-be-discussed-literally/)
+* [Motive Ambiguity (Zvi, 2020)](https://www.lesswrong.com/s/cv2aZaRR22MPC5QwE/p/L6Ktf952cwdMJnzWm)
+* [Causal Diagrams and Causal Models (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/posts/hzuSDMx7pd2uxFc5w/causal-diagrams-and-causal-models)
+* [The Fabric of Real Things (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/h6fzC6wFYFxxKDm8u)
+* [Nuclear war is unlikely to cause human extinction (Jeffrey Ladish, 2020)](https://www.lesswrong.com/posts/sT6NxFxso6Z9xjS7o/nuclear-war-is-unlikely-to-cause-human-extinction)
+* [Firewalling the Optimal from the Rational (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/WbLAA8qZQNdbRgKte)
+* [An Orthodox Case Against Utility Functions (Abram Demski, 2020)](https://www.lesswrong.com/s/PKKsrXtuptWzaKCjr/p/A8iGaZ3uHNNGgJeaD)
+* [An Equilibrium of No Free Energy (Eliezer Yudkowsky, 2017)](https://www.lesswrong.com/s/oLGCcbnvabyibnG9d/p/yPLr2tnXbiFXkMWvk)
+* [What does it mean for an AGI to be 'safe'? (Nate Soares, 2022)](https://www.lesswrong.com/posts/BSee6LXg4adtrndwy)
+* [So, geez there's a lot of AI content these days (Raemon, 2022)](https://www.lesswrong.com/posts/P32AuYu9MqM2ejKKY/so-geez-there-s-a-lot-of-ai-content-these-days)
+* [Rationality: Appreciating Cognitive Algorithms (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/HcCpvYLoSFP4iAqSz)
+* [microCOVID.org: A tool to estimate COVID risk from common activities (catherio, 2020)](https://www.lesswrong.com/s/cv2aZaRR22MPC5QwE/p/krarE7WFijAtHf3hm)
+* ["Can you keep this confidential? How do you know?" (Raemon, 2020)](https://www.lesswrong.com/s/cv2aZaRR22MPC5QwE/p/rz73eva3jv267Hy7B)
+* [Anthropogenic Climate Change (Open Philanthropy Project, 2013)](https://www.openphilanthropy.org/research/anthropogenic-climate-change/)
+* [Introducing Metaforecast: A Forecast Aggregator and Search Tool (Nuño Sempere/Ozzie Gooen, 2021)](https://forum.effectivealtruism.org/posts/tEo5oXeSNcB3sYr8m/introducing-metaforecast-a-forecast-aggregator-and-search)
+* [Skill: The Map is Not the Territory (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/KJ9MFBPwXGwNpadf2)
+* [Transportation as a Constraint (johnswentworth, 2020)](https://www.lesswrong.com/s/cv2aZaRR22MPC5QwE/p/4s2gbwMHSdh2SByyZ)
+* [Interfaces as a Scarce Resource (johnswentworth, 2020)](https://www.lesswrong.com/s/cv2aZaRR22MPC5QwE/p/hyShz2ABiKX56j5tJ)
+* [The Treacherous Path to Rationality (Jacob Falkovich, 2020)](https://www.lesswrong.com/s/hFom77cBBnnbNLzzm/p/YcdArE79SDxwWAuyF)
+* [The Felt Sense: What, Why and How (Kaj Sotala, 2020)](https://www.lesswrong.com/s/hFom77cBBnnbNLzzm/p/eccTPEonRe4BAvNpD)
+* [Inadequacy and Modesty (Eliezer Yudkowsky, 2017)](https://www.lesswrong.com/s/oLGCcbnvabyibnG9d/p/zsG9yKcriht2doRhM)
+* [Reality-Revealing and Reality-Masking Puzzles (Anna Salamon, 2020)](https://www.lesswrong.com/s/hFom77cBBnnbNLzzm/p/byewoxJiAfwE6zpep)
+* [The Useful Idea of Truth (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/XqvnWFtRD2keJdwjX)
+* [To listen well, get curious (Ben Kuhn, 2020)](https://www.lesswrong.com/s/hFom77cBBnnbNLzzm/p/4K5pJnKBGkqqTbyxx)
+* [When Money Is Abundant, Knowledge Is The Real Wealth (johnswentworth, 2020)](https://www.lesswrong.com/s/hFom77cBBnnbNLzzm/p/wEebEiPpEwjYvnyqq)
+* [Coordination as a Scarce Resource (johnswentworth, 2020)](https://www.lesswrong.com/s/cv2aZaRR22MPC5QwE/p/P6fSj3t4oApQQTB7E)
+* [What Money Cannot Buy (johnswentworth, 2020)](https://www.lesswrong.com/s/hFom77cBBnnbNLzzm/p/YABJKJ3v97k9sbxwg)
+* [Landau set (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Landau_set)
+* [Inferring utility functions from locally non-transitive preferences (Jan Kirchner, 2022)](https://www.lesswrong.com/posts/QZiGEDiobFz8ropA5/inferring-utility-functions-from-locally-non-transitive)
 * [\* Nootropics (Gwern Branwen, 2018)](https://www.gwern.net/Nootropics)
 * [Scope neglect (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Scope_neglect)
 * [Public-facing Censorship Is Safety Theater, Causing Reputational Damage (Yitz, 2022)](https://www.lesswrong.com/posts/boBZkTqPdboX5u7g9/public-facing-censorship-is-safety-theater-causing)

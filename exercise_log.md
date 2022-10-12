@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-06-15, modified: 2022-09-27, language: english, status: notes, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-15, modified: 2022-10-12, language: english, status: notes, importance: 1, confidence: log*
 
 > __I recently got the feeling that tracking my exercise might be vaguely
 > useful. This is my attempt.__
@@ -3281,3 +3281,32 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 30 push-ups
 * 30 sit-ups
 * 100 froggers
+
+### 2022-10-05T14:30-2022-10-05T16:00
+
+* 10 sets 4 reps 20kg barbell squats
+* 1 sets 4 reps 40kg barbell squats
+* 1 sets 4 reps 50kg barbell squats
+* 1 sets 10 reps 10kg bench presses
+* 1 sets 10 reps 12.5kg bench presses
+* 1 sets 10 reps 15kg bench presses
+* 1 sets 10 reps 20kg bench presses
+* 1 sets 10 reps 25kg bench presses
+* 1 sets 8 reps 50kg deadlift
+
+### 2022-10-07T18:55-2022-10-04T16:00
+
+* 3 sets 4 reps 10kg overhead press
+* 1 sets 4 reps 15kg overhead press
+* 1 sets 4 reps 20kg overhead press
+* 2 sets 4 reps 22.5kg overhead press
+* 2 sets 4 reps 10kg back squats
+* 1 sets 7 reps 20kg back squat
+* 2 sets 7 reps 22.5kg back squat
+* 1 sets 10 reps 10kg barbell row
+* 1 sets 10 reps 10kg barbell row
+* 1 sets 10 reps 7kg barbell row
+* 1 sets 10 reps 10kg barbell row
+* 1 sets 10 reps 12.5kg barbell row
+* 1 sets 10 reps 15kg barbell row
+* 25 minutes cardio on bike
