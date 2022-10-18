@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2022-08-15, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2022-10-16, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1309,3 +1309,12 @@ generalized odds so that the root mean square of the 2nd generalized
 odds is the geometric mean of odds?
 
 Would the nth generalized odds just be the `$\log^{(n)}$`odds?
+
+Pet Peeves
+-----------
+
+* Numerical scales for symmetric variables (e.g. quality/pleasure & pain/change), that are only positive
+* Reporting the number of lives lost, not the number of [QALYs](https://en.wikipedia.org/wiki/Quality-adjusted_life_year) (or [DALYs](https://en.wikipedia.org/wiki/Disability-adjusted_life_year) or [HALY+s](https://forum.effectivealtruism.org/posts/Lncdn3tXi2aRt56k5/health-and-happiness-research-topics-part-1-background-on#1__The_HALY_) or [sHALYs](https://forum.effectivealtruism.org/posts/Lncdn3tXi2
+Rt56k5/health-and-happiness-research-topics-part-1-background-on#2__The_sHALY) etc.) lost
+* Browsers splitting words at a newline on a ﬀ ligature
+* Menus at restaurants that don't indicate whether the meal is vegetarian or not (ingredients often don't help: Restaurants will put meat (e.g. bacon cubes in salads) into dishes and not indicate it on the menu)

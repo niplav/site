@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-10-03, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-10-14, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -175,6 +175,8 @@ Existing Texts
 			* Dense graph
 			* Extremal graph theory
 		* This also feels relevant to Ontological crises/shifts: Is there a canonical way to map from the human preference simplex to the AI preference simplex, if we know the concept equivalences? (A is just 30% B and 70% C, so we can split the simplex into another dimension here…)
+* BCIs and Alignment
+	* Data for scaling laws from BCIs
 
 Texts
 -----
@@ -804,6 +806,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * A history of the Effective Altruism/Bayesian Rationality cluster
 	* For example, why poly?
 * Pareto improvements and equity/equality
+* Early PUA/General Semantics connection dig up
 
 ### Ideas
 
@@ -1059,6 +1062,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Typology of motivations to get into EA
 * Red teaming markets
 * Properties of Good Textbooks
+	* `https://docs.google.com/document/d/e/2PACX-1vTkqKg5IxCmPbw7JqnAWxoypaYNFH3XJd4UgYw4PufP09zzzW6j3v-CYXZkpD83sVrzygvg7gLbjM_Q/pub`
 
 ### Notes
 
@@ -1359,11 +1363,8 @@ Data Sets
 Collect data on
 
 * Bag Spreading
-* [Daygame](./daygame_cost_benefit.html#Appendix_C_Empirically_Checking_the_Assumptions)
 * [Masturbation and Attractiveness](./masturbation_and_attractiveness.html#Method)
 * [Subjective Life Expectancy](./estimated_life_expectancy.html#Data_Collection_Method)
-* Meditation
-* [Masturbation](./data/masturbations.csv)
 * A Large Dataset of Forecasts and Outcomes
 	* See also [The Odds API](https://the-odds-api.com/)
 	* Sources:
@@ -1386,6 +1387,10 @@ Collect data on
 		* Manifold
 		* [Smarkets](https://smarkets.com/)
 		* Others?
+* Datasets on
+	* Sex
+	* Productivity
+	* Creativity
 * Large STEM Dataset
 	* For training large ML models that are less likely to be [human models](https://www.lesswrong.com/posts/BKjJJH2cRpJcAnP7T)
  * Some dataset on polyamory??
@@ -1864,6 +1869,17 @@ Wikipedia Articles
 * Add missing national anthems to `https://en.wikipedia.org/wiki/List_of_national_anthems`
 * Futarchy page
 
+Lesswrong wiki
+---------------
+
+* [Textbook recommendations](https://www.lesswrong.com/posts/xg3hXCYQPJkwHyik2/the-best-textbooks-on-every-subject) into wiki page
+	* same for:
+		* [Boring Advice Repository](https://www.lesswrong.com/posts/HEn2qiMxk5BggN83J/boring-advice-repository)
+		* [Relationship Advice Repository](https://www.lesswrong.com/posts/AvjbBjAAbKBk73v5F/relationship-advice-repository)
+		* [Best Software For Every Need](https://www.lesswrong.com/posts/zHS4FJhByRjqsuH4o/the-best-software-for-every-need)
+		* [Useful Concepts Repository](https://www.lesswrong.com/posts/umzNiYpHLypdcXuEf/useful-concepts-repository)
+		* [Solved Problems Repository](https://www.lesswrong.com/posts/iTzvJ7kKK2TYJhYHB/solved-problems-repository)
+
 Sequences
 ----------
 
@@ -1955,3 +1971,4 @@ In-World Projects
 * Shipping startup
 * backup libgen/scihub/arxiv/biorxiv/psyrxiv
 * Start a Notebook Journal (as in Jupyter Notebook)
+* Build good color vision test website

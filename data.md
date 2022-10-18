@@ -261,6 +261,11 @@ I track when I masturbate & how good it feels & the type of
 pornography in [this file](./data/masturbations.csv) via [this
 script](./data/mstrbt). Data quality is pretty high.
 
+* `t` stands for text
+* `a` stands for audio
+* `i` stands for image
+* `v` stands for video
+
 ### Mood
 
 I track my mood via the excellent [Mood

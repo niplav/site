@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-07-30, language: english, status: finished, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2021-10-14, language: english, status: finished, importance: 1, confidence: log*
 
 > __Series I have watched since January 2018.__
 
@@ -30,6 +30,7 @@ order). I may not be finished with some of these yet.
 * [Rick and Morty](https://www.imdb.com/title/tt2861424/)
 * [Silicon Valley](https://www.imdb.com/title/tt2575988/)
 * [Snowpiercer](https://www.imdb.com/title/tt6156584/)
-* [Squid Game]()
+* [Squid Game](https://www.imdb.com/title/tt10919420/)
 * [Stranger Things](https://www.imdb.com/title/tt4574334/)
+* [The Lord of the Rings: The Rings of Power](https://www.imdb.com/title/tt7631058/)
 * [The Mandalorian](https://www.imdb.com/title/tt8111088/)
