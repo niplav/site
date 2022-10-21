@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2022-07-18, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2022-07-19, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -37,8 +37,8 @@ If I find time inbetween that, I'm expanding on the following texts:
 	* [Forecasters! What Do They Know? Do They Know Things?? Let's Find Out!](./forecasters.html)
 * [Prepare to Leave the Internet](./leave.html)
 * [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)
-* [Third Variable](./third.html)
 * [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
+* [Third Variable](./third.html)
 * [Generalizing the Diamond-Square Algorithm to n Dimensions](./diamond.html)
 * [Circle Combinations](./circle_combinations.html)
 * [Reward Long Content](./reward.html)
@@ -63,7 +63,7 @@ Currently, I am actively reading the following books:
 
 * Darf man Tiere essen? (Plutarch, 100)
 * Die toten Seelen (Nikolai Gogol, 1842)
-* Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * Naive Set Theory (Paul R. Halmos, 1960)
-* Superforecasting: The Art and Science of Prediction (Philip E. Tetlock/Dan Gardner, 2015)
-* Right Concentration (Leigh Brasington, 2015)
+* Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
+* Maths for Intelligent Systems (Marc Toussaint, 2022)
+* Introduction to Optimization (Marc Toussaint, 2022)

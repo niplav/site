@@ -9,6 +9,8 @@ conventions. Here I collect mine, mainly for myself.__
 Mathematics Notation Convention
 ================================
 
+<!--TODO: See also Maths for Intelligent Systems (Toussaint 2022) p. 6-->
+
 > Zum Schein nämlich steht das Ausdruckslose, wiewohl im Gegensatz,
 doch in derart notwendigem Verhältnis, daß eben das Schöne, ob auch
 selber nicht Schein, aufhört ein wesentlich Schönes zu sein, wenn der
@@ -36,7 +38,7 @@ Schein von ihm schwindet.
 	* (I'm not super confident about the arguments above, maybe I missed a structure. If so, please tell me!)
 * Setting operator precedence and passing arguments to functions is done with parentheses `$()$`, sets are denoted using `$\{\}$`, and `$[]$` is sometimes used in the context of statistics (variance of a variable, mean of a variable, and so on). These are not mixed.
 * `$[n] = \{x \in \mathbb{N} | 1 \le x \le n \}$` for `$n \in \mathbb{N}$`.
-* For function definitions, use `$\mapsto$` instead of `$\rightarrow$`, e.g. `$f: ℝ^n \mapsto ℝ$` instead of `$f: ℝ^n \rightarrow ℝ$`
+* For function definitions, use `$\mapsto$` instead of `$\rightarrow$`, e.g. `$f: ℝ^n \mapsto ℝ$` instead of `$f: ℝ^n \rightarrow ℝ$`<!--TODO: bad! bad! think of better option-->
 * In multiplication of reals (and maybe complex numbers), I prefer central dots `$a \cdot b \cdot c$`, and *sometimes* concatenation `$abcd$`. Rarely asterisks `$a * b * c * d$`, but I try to avoid them.
 * Words
 	* Instead of [__"numerator"__/__"denominator"__](https://en.wikipedia.org/wiki/Fraction) I instead use __"upper number"__/__"lower number"__

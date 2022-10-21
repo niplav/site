@@ -22,11 +22,14 @@ HTML=index.html \
 	agt_solutions.html \
 	aima_solutions.html \
 	apisct_solutions.html \
+	ito_solutions.html \
 	nst_solutions.html \
 	pil_solutions.html \
 	pg_solutions.html \
 	praml_solutions.html \
+	mfis_solutions.html \
 	rs_solutions.html \
+	swj_solutions.html \
 	tjpb_exercises.html \
 	99_klong_problems.html \
 	99_problems_collection.html \

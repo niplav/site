@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-10-10, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-10-21, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,17 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Blind Empiricism (Eliezer Yudkowsky, 2017)](https://www.lesswrong.com/s/oLGCcbnvabyibnG9d/p/6n9aKApfLre5WWvpG)
+* [Causal Universes (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/o5F2p3krzT4JgzqQc)
+* \* Introduction to Optimization (Marc Toussaint, 2022)
+* \* Maths for Intelligent Systems (Marc Toussaint, 2022)
+* Another Bay Area House Party (Scott Alexander, 2022)
+* |20 Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
+* [Living in an Inadequate World (Eliezer Yudkowsky, 2017)](https://www.lesswrong.com/s/oLGCcbnvabyibnG9d/p/pRibkeqBa2AxrpgT6)
+* [Simulacra Levels and their Interactions (Zvi, 2020)](https://www.lesswrong.com/s/cv2aZaRR22MPC5QwE/p/qDmnyEMtJkE9Wrpau)
+* [Inaccessible information (Paul Christiano, 2020)](https://www.lesswrong.com/s/PKKsrXtuptWzaKCjr/p/ZyWyAJbedvEgRT2uF)
+* [Moloch's Toolbox (2/2) (Eliezer Yudkowsky, 2017)](https://www.lesswrong.com/s/oLGCcbnvabyibnG9d/p/PRAyQaiMWg2La7XQy)
+* [Causal Reference (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/PXoWk554FZ4Gpfvah)
 * [Moloch's Toolbox (1/2) (Eliezer Yudkowsky, 2017)](https://www.lesswrong.com/s/oLGCcbnvabyibnG9d/p/x5ASTMPKPowLKpLpZ)
 * [Stuff That Makes Stuff Happen (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/NhQju3htS9W6p6wE6)
 * [Inner Alignment: Explain like I'm 12 Edition (Rafael  Harth, 2020)](https://www.lesswrong.com/s/PKKsrXtuptWzaKCjr/p/AHhCrJ2KpTjsCSwbt)
@@ -113,7 +124,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Steam (Abram Demski, 2022)](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam)
 * [Graph isomorphism (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Graph_isomorphism)
 * What Happens When Women Date Women (Xbtusd, 2022)
-* \* Right Concentration (Leigh Brasington, 2015)
+* Right Concentration (Leigh Brasington, 2015)
 * [What’s out there? (Michael Edward Johnson, 2019)](https://opentheory.net/2019/09/whats-out-there/index.html)
 * [Zeo sleep self-experiments (Gwern Branwen, 2018)](https://www.gwern.net/Zeo)
 * Are we living at the hinge of history? (William MacAskill, 2020)
