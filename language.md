@@ -310,7 +310,7 @@ Puns
 
 * I uppekhan't get annoyed about this.
 *	What does an enthusiast for upper body clothing say when they see a new piece?  
-	“Intewesting”
+	“Intevesting”
 * I had to reject the p-zombie for the position, they just weren't qualiafied.
 * Why don't Haskellers practice jhānic meditation? Because it's all about cultivating states.
 

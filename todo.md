@@ -72,6 +72,7 @@ Site
 * Collect list of deprecated & draft texts somewhere
 * Title is not JS-added
 * Reading ruler
+* Move from `$\mapsto$` to `$\rightarrow$`
 
 Existing Texts
 --------------
@@ -807,6 +808,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* For example, why poly?
 * Pareto improvements and equity/equality
 * Early PUA/General Semantics connection dig up
+* Marinelli Beaker Analytical Solution
 
 ### Ideas
 
@@ -1879,6 +1881,7 @@ Lesswrong wiki
 		* [Best Software For Every Need](https://www.lesswrong.com/posts/zHS4FJhByRjqsuH4o/the-best-software-for-every-need)
 		* [Useful Concepts Repository](https://www.lesswrong.com/posts/umzNiYpHLypdcXuEf/useful-concepts-repository)
 		* [Solved Problems Repository](https://www.lesswrong.com/posts/iTzvJ7kKK2TYJhYHB/solved-problems-repository)
+		* [Original Research on LessWrong](https://www.lesswrong.com/posts/jTkmEGWM4dJAfE62W/original-research-on-less-wrong)
 
 Sequences
 ----------
@@ -1972,3 +1975,4 @@ In-World Projects
 * backup libgen/scihub/arxiv/biorxiv/psyrxiv
 * Start a Notebook Journal (as in Jupyter Notebook)
 * Build good color vision test website
+* SkyGuessr — GeoGuessr but for pictures of the sky
