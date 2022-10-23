@@ -23,6 +23,8 @@ Writing
 I am mostly writing solutions to exercises in the textbooks I'm reading
 at the moment.
 
+### Currently Writing
+
 If I find time inbetween that, I'm expanding on the following texts:
 
 * [Notes](./notes.html)
@@ -32,19 +34,26 @@ If I find time inbetween that, I'm expanding on the following texts:
 * [Reports](./reports.html)
 	* [Pickup Reports](./pickup_reports.html)
 * Forecasting
-	* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 	* [Precision of Sets of Forecasts](./precision.html)
 	* [Forecasters! What Do They Know? Do They Know Things?? Let's Find Out!](./forecasters.html)
 * [Prepare to Leave the Internet](./leave.html)
 * [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)
 * [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
-* [Third Variable](./third.html)
 * [Generalizing the Diamond-Square Algorithm to n Dimensions](./diamond.html)
 * [Circle Combinations](./circle_combinations.html)
-* [Reward Long Content](./reward.html)
+* [Types & Methods of Data Collection I Use](./data.html)
+* [If I Were An Eccentric Trillionaire](./eccentric.html)
 
 I'm also planning a full edit of all texts on the website, but don't
 have a fixed date to get started on that at the moment.
+
+### Abandoned
+
+These have been (for various reasons) abandoned.
+
+* [Life Improvements in 2030](./life_improvements_2030.html)
+* [Reward Long Content](./reward.html)
+* [Third Variable](./third.html)
 
 Programming
 -----------

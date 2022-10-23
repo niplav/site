@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2022-10-04, language: english, status: maintenance, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2022-10-23, language: english, status: maintenance, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in
 relation to the time between forecast and resolution, and
@@ -1192,98 +1192,7 @@ of questions have a range of more than one year:
 
 ##### Statistical Significance of Truncated Datasets
 
-One could also be interested in how the statistical significance of the
-linear regression and correlation develops when we remove the forecasts
-with short ranges. This can be implemented quite easily by creating a
-function `val_shrinking_dataset` which first sorts the pre-computed
-Brier scores by range, and then calculates [p-values](https://en.wikipedia.org/wiki/p-value) and correlation
-coefficients, afterwards removing the earliest prediction from the dataset (I
-have no idea whether this is statistically acceptable, but it seemed like
-a reasonable thing to do, lest there's some problem here with p-hacking).
-The values are concatenated into arrays, which are then returned.
-
-	def val_shrinking_dataset(briers, ranges):
-		sortind=np.argsort(ranges)
-	        chronbriers=briers[sortind]
-	        chronranges=ranges[sortind]/30
-	        dropranges=[]
-	        pvalues=[]
-	        rvalues=[]
-	        for i in range(0, len(ranges)-2):
-	                _, _, rval, pval, _=sps.linregress(chronranges, chronbriers)
-	                pvalues.append(pval)
-	                rvalues.append(rval)
-	                dropranges.append(chronranges[0])
-	                chronranges=chronranges[1::]
-	                chronbriers=chronbriers[1::]
-	        return np.vstack([pvalues, rvalues, dropranges])
-
-	metpvals=val_shrinking_dataset(metbriers, metrngs)
-	pbpvals=val_shrinking_dataset(pbbriers, pbrngs)
-
-The resulting data can be plotted (correlation cofficients on the left
-y-axis, p-values on the (logarithmic) right y-axis). Here, the datapoint
-at range `x` would be the correlation coefficient and its p-value for
-all Brier scores *after* `x` (sorry for the legend in the upper right
-corner, I couldn't figure out how to move it to the right middle-bottom).
-
-	fig=plt.figure(figsize=(10,10), clear=True)
-
-	_, ax1 = plt.subplots()
-
-	ax1.set_xlabel("Range (months)")
-	ax1.set_ylabel("Correlation value")
-	ax1.plot(metpvals[2], metpvals[1], '-', linewidth=3, color='#ff4500', label="Metaculus truncated correlations")
-	ax1.plot(pbpvals[2], pbpvals[1], '-', linewidth=3, color='#00bfff', label="PredictionBook truncated correlations")
-	ax1.legend(loc='lower right')
-
-	ax2=ax1.twinx()
-	ax2.set_ylabel("p value")
-	ax2.semilogy(metpvals[2], metpvals[0], '-', color='#ffa500', linewidth=1, label="Metaculus truncated p-values")
-	ax2.semilogy(pbpvals[2], pbpvals[0], '-', color='cyan', linewidth=1, label="PredictionBook truncated p-values")
-	ax2.legend(loc='upper right')
-
-	plt.savefig("pvals_ss_plot.png")
-
-![Plot with four lines. Two are correlation coefficients, of Metaculus truncated correlations and PredictionBook truncated correlations. The Metaculus correlations are close to zero in the first ~15 months, then dip into negative correlations (around -0.2) until month ~35, then rise to positive correlations (around 0.15) until month 40, and then start oscillating wildly (shortly afterwards the data for Metaculus correlations ends). The PredictionBook correlations also start around 0, then rise slowly to ~0.05 at 60 months, at which point they start oscillating around 0 with larger and larger amplitudes until month 120. The p-values for Metaculus start out around 10⁻⁶, then jump around between 10⁻⁵ to 10⁻² in the first 15 months, and then dip down in the range of 10⁻²⁵ to 10⁻³⁵, and then recover back to 10⁻⁵ to 10⁻² until the end of the Metaculus dataset. The PredictionBook p-values start out at around 10⁻⁵, where they stay until 25 months, then rise to 10⁻¹ to 10⁻² until month 40, then drop down back to 10⁻⁵ until month 65, and then finally rise back up to 10⁻² to 10⁻³ month where they stay until the dataset ends.](./img/range_and_forecasting_accuracy/pvals_plot.png "Plot with four lines. Two are correlation coefficients, of Metaculus truncated correlations and PredictionBook truncated correlations. The Metaculus correlations are close to zero in the first ~15 months, then dip into negative correlations (around -0.2) until month ~35, then rise to positive correlations (around 0.15) until month 40, and then start oscillating wildly (shortly afterwards the data for Metaculus correlations ends). The PredictionBook correlations also start around 0, then rise slowly to ~0.05 at 60 months, at which point they start oscillating around 0 with larger and larger amplitudes until month 120. The p-values for Metaculus start out around 10⁻⁶, then jump around between 10⁻⁵ to 10⁻² in the first 15 months, and then dip down in the range of 10⁻²⁵ to 10⁻³⁵, and then recover back to 10⁻⁵ to 10⁻² until the end of the Metaculus dataset. The PredictionBook p-values start out at around 10⁻⁵, where they stay until 25 months, then rise to 10⁻¹ to 10⁻² until month 40, then drop down back to 10⁻⁵ until month 65, and then finally rise back up to 10⁻² to 10⁻³ month where they stay until the dataset ends.")
-
-And the same chart, just without the Metaculus data to make it easier
-to read (*allegedly*):
-
-![The same plot, but without the outlier Metaculus p-values](./img/range_and_forecasting_accuracy/pvals_pb_plot.png "The same plot, but without the outlier Metaculus p-values")
-
-These graphs are quite interesting in several regards. First, we can see
-that the correlation coefficients don't have a clear development as one
-removes forecasts with low ranges from the dataset: for Metaculus the
-correlation first goes down, then up again. (This might be an artifact
-of having very little data for long ranges in the Metaculus dataset,
-though). PredictionBook data is a bit more consistent: the correlation
-between range and accuracy rises the more early datapoints we remove
-(again with the coefficient flailing around in the end because it just
-doesn't have enough data).
-
-But truly odd is the p-value here: The dip in the correlation coefficient
-for Metaculus data is judged to be *extremely unlikely* to have occurred
-randomly, down to `$10^{-35}$`, so that it makes the chart nearly unreadable
-even on a log-scale.
-
-I am…not quite sure what to make of this. Intuitively, I would expect
-the correlation between range and accuracy to start out strong with the
-whole dataset, and then become weaker, noisier and more likely to be
-random the more values I remove from the start of the dataset. Perhaps
-the short-range Metaculus forecasts just introduce a bunch of noise,
-because people scramble to get a last prediction in? But that doesn't
-explain why the correlation is then negative with an extremely low
-p-value with predictions with a range of less than 18 months removed.
-
-The changes in Metaculus correlations might coincide with new years,
-perhaps?
-
-For PredictionBook, there is a more straight-forward story to tell,
-namely that short-range predictions seem to just introduce noise,
-and the longer the range, the stronger the correlation (although the
-relation to p-values doesn't look strong in any way, I wonder whether
-there is a way to test that).
+Moved to [Appendix B](#Appendix_B_Statistical_Significance_of_Truncated_Datasets).
 
 ----
 
@@ -2188,7 +2097,7 @@ private investigations.
 
 I subsequently [tried to replicate my previous
 findings](./range_and_forecasting_accuracy.html#Appendix_A_Replicating_Metaculus_Findings_With_Full_Data)
-with the private data, finding that \_.
+with the private data, finding that the findings [mostly replicate, or are slightly different](#Replication_Inbound).
 
 Limitations
 -----------
@@ -2431,16 +2340,16 @@ As one can see, the logistic fit *barely* beats the exponential fit.
 
 First we have to rewrite the code that groups the forecasts by question.
 
-pmetquestions=[]
+	pmetquestions=[]
 
-for e in np.unique(m['question_id']):
-	indices=np.where(m['question_id']==e)[0]
-	subdata=m.loc[m['question_id']==e]
-	questionrange=list(subdata['days_open'])[0].total_seconds()
-	outcomes=np.array(pd.to_numeric(subdata['outcome']))
-	probabilities=np.array(subdata['probability'])
-	franges=pmetrngs[indices]
-	pmetquestions.append([e, questionrange, outcomes, probabilities, franges])
+	for e in np.unique(m['question_id']):
+		indices=np.where(m['question_id']==e)[0]
+		subdata=m.loc[m['question_id']==e]
+		questionrange=list(subdata['days_open'])[0].total_seconds()
+		outcomes=np.array(pd.to_numeric(subdata['outcome']))
+		probabilities=np.array(subdata['probability'])
+		franges=pmetrngs[indices]
+		pmetquestions.append([e, questionrange, outcomes, probabilities, franges])
 
 We now have slightly more questions (nearly twice as many!):
 
@@ -2602,7 +2511,103 @@ original findings?
 	* Mean logistic-ish horizon is ~3 orders of magnitude away from original estimate, median & mode are the same (?), variance is smaller (~5 orders of magnitude), maximum & minimum are kind of close. Estimating the slope of a [sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function) is difficut. ~
 	* Mean exponential-ish horizon is factor ~7 smaller than original estimate, median & mode again are the same, variance smaller, maximum smaller and minimum slightly larger. ~
 
-Appendix B: Quotes About the Horizon of Forecasts
+Appendix B: Statistical Significance of Truncated Datasets
+-----------------------------------------------------------
+
+One could also be interested in how the statistical significance of the
+linear regression and correlation develops when we remove the forecasts
+with short ranges. This can be implemented quite easily by creating a
+function `val_shrinking_dataset` which first sorts the pre-computed
+Brier scores by range, and then calculates [p-values](https://en.wikipedia.org/wiki/p-value) and correlation
+coefficients, afterwards removing the earliest prediction from the dataset (I
+have no idea whether this is statistically acceptable, but it seemed like
+a reasonable thing to do, lest there's some problem here with p-hacking).
+The values are concatenated into arrays, which are then returned.
+
+	def val_shrinking_dataset(briers, ranges):
+		sortind=np.argsort(ranges)
+	        chronbriers=briers[sortind]
+	        chronranges=ranges[sortind]/30
+	        dropranges=[]
+	        pvalues=[]
+	        rvalues=[]
+	        for i in range(0, len(ranges)-2):
+	                _, _, rval, pval, _=sps.linregress(chronranges, chronbriers)
+	                pvalues.append(pval)
+	                rvalues.append(rval)
+	                dropranges.append(chronranges[0])
+	                chronranges=chronranges[1::]
+	                chronbriers=chronbriers[1::]
+	        return np.vstack([pvalues, rvalues, dropranges])
+
+	metpvals=val_shrinking_dataset(metbriers, metrngs)
+	pbpvals=val_shrinking_dataset(pbbriers, pbrngs)
+
+The resulting data can be plotted (correlation cofficients on the left
+y-axis, p-values on the (logarithmic) right y-axis). Here, the datapoint
+at range `x` would be the correlation coefficient and its p-value for
+all Brier scores *after* `x` (sorry for the legend in the upper right
+corner, I couldn't figure out how to move it to the right middle-bottom).
+
+	fig=plt.figure(figsize=(10,10), clear=True)
+
+	_, ax1 = plt.subplots()
+
+	ax1.set_xlabel("Range (months)")
+	ax1.set_ylabel("Correlation value")
+	ax1.plot(metpvals[2], metpvals[1], '-', linewidth=3, color='#ff4500', label="Metaculus truncated correlations")
+	ax1.plot(pbpvals[2], pbpvals[1], '-', linewidth=3, color='#00bfff', label="PredictionBook truncated correlations")
+	ax1.legend(loc='lower right')
+
+	ax2=ax1.twinx()
+	ax2.set_ylabel("p value")
+	ax2.semilogy(metpvals[2], metpvals[0], '-', color='#ffa500', linewidth=1, label="Metaculus truncated p-values")
+	ax2.semilogy(pbpvals[2], pbpvals[0], '-', color='cyan', linewidth=1, label="PredictionBook truncated p-values")
+	ax2.legend(loc='upper right')
+
+	plt.savefig("pvals_ss_plot.png")
+
+![Plot with four lines. Two are correlation coefficients, of Metaculus truncated correlations and PredictionBook truncated correlations. The Metaculus correlations are close to zero in the first ~15 months, then dip into negative correlations (around -0.2) until month ~35, then rise to positive correlations (around 0.15) until month 40, and then start oscillating wildly (shortly afterwards the data for Metaculus correlations ends). The PredictionBook correlations also start around 0, then rise slowly to ~0.05 at 60 months, at which point they start oscillating around 0 with larger and larger amplitudes until month 120. The p-values for Metaculus start out around 10⁻⁶, then jump around between 10⁻⁵ to 10⁻² in the first 15 months, and then dip down in the range of 10⁻²⁵ to 10⁻³⁵, and then recover back to 10⁻⁵ to 10⁻² until the end of the Metaculus dataset. The PredictionBook p-values start out at around 10⁻⁵, where they stay until 25 months, then rise to 10⁻¹ to 10⁻² until month 40, then drop down back to 10⁻⁵ until month 65, and then finally rise back up to 10⁻² to 10⁻³ month where they stay until the dataset ends.](./img/range_and_forecasting_accuracy/pvals_plot.png "Plot with four lines. Two are correlation coefficients, of Metaculus truncated correlations and PredictionBook truncated correlations. The Metaculus correlations are close to zero in the first ~15 months, then dip into negative correlations (around -0.2) until month ~35, then rise to positive correlations (around 0.15) until month 40, and then start oscillating wildly (shortly afterwards the data for Metaculus correlations ends). The PredictionBook correlations also start around 0, then rise slowly to ~0.05 at 60 months, at which point they start oscillating around 0 with larger and larger amplitudes until month 120. The p-values for Metaculus start out around 10⁻⁶, then jump around between 10⁻⁵ to 10⁻² in the first 15 months, and then dip down in the range of 10⁻²⁵ to 10⁻³⁵, and then recover back to 10⁻⁵ to 10⁻² until the end of the Metaculus dataset. The PredictionBook p-values start out at around 10⁻⁵, where they stay until 25 months, then rise to 10⁻¹ to 10⁻² until month 40, then drop down back to 10⁻⁵ until month 65, and then finally rise back up to 10⁻² to 10⁻³ month where they stay until the dataset ends.")
+
+And the same chart, just without the Metaculus data to make it easier
+to read (*allegedly*):
+
+![The same plot, but without the outlier Metaculus p-values](./img/range_and_forecasting_accuracy/pvals_pb_plot.png "The same plot, but without the outlier Metaculus p-values")
+
+These graphs are quite interesting in several regards. First, we can see
+that the correlation coefficients don't have a clear development as one
+removes forecasts with low ranges from the dataset: for Metaculus the
+correlation first goes down, then up again. (This might be an artifact
+of having very little data for long ranges in the Metaculus dataset,
+though). PredictionBook data is a bit more consistent: the correlation
+between range and accuracy rises the more early datapoints we remove
+(again with the coefficient flailing around in the end because it just
+doesn't have enough data).
+
+But truly odd is the p-value here: The dip in the correlation coefficient
+for Metaculus data is judged to be *extremely unlikely* to have occurred
+randomly, down to `$10^{-35}$`, so that it makes the chart nearly unreadable
+even on a log-scale.
+
+I am…not quite sure what to make of this. Intuitively, I would expect
+the correlation between range and accuracy to start out strong with the
+whole dataset, and then become weaker, noisier and more likely to be
+random the more values I remove from the start of the dataset. Perhaps
+the short-range Metaculus forecasts just introduce a bunch of noise,
+because people scramble to get a last prediction in? But that doesn't
+explain why the correlation is then negative with an extremely low
+p-value with predictions with a range of less than 18 months removed.
+
+The changes in Metaculus correlations might coincide with new years,
+perhaps?
+
+For PredictionBook, there is a more straight-forward story to tell,
+namely that short-range predictions seem to just introduce noise,
+and the longer the range, the stronger the correlation (although the
+relation to p-values doesn't look strong in any way, I wonder whether
+there is a way to test that).
+
+Appendix C: Quotes About the Horizon of Forecasts
 --------------------------------------------------
 
 > Demographers disagree about many things, but not that the further into
