@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-03-04, modified: 2022-09-19, language: english, status: notes, importance: 8, confidence: likely*
+*author: niplav, created: 2022-03-04, modified: 2022-10-23, language: english, status: notes, importance: 8, confidence: likely*
 
 > __Representing inconsistent preferences with specific mathematical
 structures can clarify thoughts about how to make those preferences
@@ -946,6 +946,20 @@ consistent by minimizing the amount of turning/shrinking the vectors
 have to perform.
 
 #### Edge-Weighted Graphs
+
+##### Incompleteness
+
+##### Intransitivity
+
+##### Discontinuity
+
+##### Dependence
+
+##### Resolving Inconsistencies
+
+In the complete case we can use Hodge Decomposition. The sum of the
+weights of the cyclical part is a measure of the confusion of the
+inconsistent version.
 
 #### Graphons
 

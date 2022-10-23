@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-06-15, modified: 2022-10-12, language: english, status: notes, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-15, modified: 2022-10-21, language: english, status: notes, importance: 1, confidence: log*
 
 > __I recently got the feeling that tracking my exercise might be vaguely
 > useful. This is my attempt.__
@@ -25,8 +25,10 @@ Template
 * 60 7.5kg dumbbell upright rows
 * 60 7.5kg dumbbell Γ lifts
 * 60 7.5kg dumbbell bench presses
+* 10 5kg dumbbell behind shoulder lifts
 * 30 7.5kg dumbbell scaptions
 * 30 7.5kg dumbbell lateral lifts
+* 10 5kg dumbbell behind shoulder lifts
 * 20 pull-ups
 * 60 push-ups
 * 60 sit-ups
@@ -3309,4 +3311,23 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 1 sets 10 reps 10kg barbell row
 * 1 sets 10 reps 12.5kg barbell row
 * 1 sets 10 reps 15kg barbell row
-* 25 minutes cardio on bike
+* 10 minutes cardio on bike
+
+### 2022-10-21T18:10:00-2022-10-21T19:10:00
+
+* 60 7.5kg dumbbell shoulder presses
+* 60 7.5kg dumbbell biceps curls
+* 60 7.5kg dumbbell upright rows
+* 60 7.5kg dumbbell Γ lifts
+* 60 7.5kg dumbbell bench presses
+* 15 7.5kg dumbbell scaptions
+* 15 7.5kg dumbbell lateral lifts
+* 20 5kg dumbbell behind shoulder lifts
+* 10 pull-ups
+* 30 push-ups
+* 30 sit-ups
+* 30 double leg lifts
+* 0 burpees
+* 30 walking lunges
+* 100 froggers
+* 2 minutes plank

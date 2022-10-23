@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-10-14, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-10-23, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -1741,6 +1741,7 @@ Programming
 			* Submit pull request for existing fix (which makes it mauve)
 		* two asterisks in succession (`**`) in indented code still make everything bold
 	* plugin for adding markdown wikipedia link easily
+	* Add syntax highlighting for Julia
 * sad
 	* implement features that weren't finished
 	* care for it
@@ -1870,6 +1871,7 @@ Wikipedia Articles
 * Find Ian Goodfellow's true year of birth
 * Add missing national anthems to `https://en.wikipedia.org/wiki/List_of_national_anthems`
 * Futarchy page
+* Add "See Also" section to "Gunk (mereology)"
 
 Lesswrong wiki
 ---------------

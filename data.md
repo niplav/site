@@ -291,6 +291,11 @@ file](./data/substances.csv) via [this script](./data/cnsm). Data
 quality is good but fairly few entries. Intend to use it for self-blinded
 randomized future experiments (if I ever stop procrastinating on them).
 
+### Weight
+
+Tracking weight, mostly for exercise purposes. Data
+[here](./data/weights.csv), collected with [this script](./data/weight).
+
 ### Bag Spreading
 
 Data on bag spreading on public transport, in [this

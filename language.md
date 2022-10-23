@@ -140,7 +140,7 @@ and goal-oriented activity, unlike most (if not all) art.
 Alternatives:
 
 * "Pick-Up"
-* "Game", but this one [suffers](https://en.wikipedia.org/wiki/Game) [from](https://en.wikipedia.org/wiki/Game_\(hunting\)) [serious](https://en.wikipedia.org/wiki/The_Game_\(rapper\)) [overloading](https://en.wikipedia.org/Game_\(Scientology\)) [problems](https://en.wikipedia.org/wiki/Game_\(grape\)) (Huh! I [lost](https://en.wikipedia.org/wiki/The_Game_\(mind_game\))/won<!--TODO: link to tweet about mdma and winning game--> it again!)
+* "Game", but this one [suffers](https://en.wikipedia.org/wiki/Game) [from](https://en.wikipedia.org/wiki/Game_\(hunting\)) [serious](https://en.wikipedia.org/wiki/The_Game_\(rapper\)) [overloading](https://en.wikipedia.org/Game_\(Scientology\)) [problems](https://en.wikipedia.org/wiki/Game_\(grape\)) (Huh! I [lost](https://en.wikipedia.org/wiki/The_Game_\(mind_game\))/won<!--TODO: link to tweet about MDMA and winning game--> it again!)
 
 ### "Sentience"
 
@@ -257,7 +257,7 @@ Types of Guy
 * guy who is building AGI on a discord server with his buddies instead of getting  himself a girlfriend
 * guy who insists on the distinction between corporatism and corporatocracy
 * guy who says “beginning of this century” when referring to the aughts, and “last century” for events in the nineties
-* guy who takes mdma at a techno rave and says “so this is what it's all about”, but not just about raving culture, but, like, life in general
+* guy who takes MDMA at a techno rave and says “so this is what it's all about”, but not just about raving culture, but, like, life in general
 * guy who meets his spouse in the metaculus comments
 * guy who, when he hears someone mention SARS, thinks of deep Q-learning
 
@@ -374,18 +374,21 @@ Better Words
 
 ### Compound
 
-* bodymind
-* spacetime
+* [bodymind](https://en.wikipedia.org/wiki/Bodymind)
+* [spacetime](https://en.wikipedia.org/wiki/Spacetime)
 * matterenergy
 
 ### Abbreviations Turned Into Words
 
 <!--TODO: links and a planecrash quote-->
 
-* vopi
-* batna
-* botec
-* dists
+* [dist(s)](https://en.wikipedia.org/wiki/Probability_Distribution): 8 syllables saved compared to "probability distribution(s)"
+* [prob](https://en.wikipedia.org/wiki/Probability): 4 syllables saved over "probability", closest colliding word is [prop](https://en.wikipedia.org/wiki/prop_\(disambiguation\)), none of which are particularly common
+* [vopi](https://en.wikipedia.org/wiki/Expected_value_of_perfect_information): 10 syllables saved over "expected value of perfect information", alternative spellings could be "evopi" or "evoi" or "voi" (removing perfection or expectation)
+* [batna](https://en.wikipedia.org/wiki/Best_alternative_to_a_negotiated_agreement): 13 syllables saved over "Best alternative to a negotiated agreement", perhaps acustically too close to "batman"
+* [botec](https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation)
+* [exval](https://en.wikipedia.org/wiki/Expected_value): 3 syllables saved compared to "expected value"
+* [ifef](https://en.wikipedia.org/wiki/If_and_only_if): 3 syllables saved over "if and only if"<!--TODO: add link to LessWrong post on this-->
 
 Good Bandnames
 ---------------

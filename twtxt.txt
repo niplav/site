@@ -1489,3 +1489,6 @@
 2022-10-18T16:05:10.000000Z	it's probably better as a meditator to focus on sensations in the belly instead of the nostrils—it's easier and makes progress seem faster, which motivates
 2022-10-19T22:13:02.000000Z	a lot of the value of reading attentively (as opposed to skimming or listening to audiobooks) is the mesa-skill of paying close attention and noticing when you didn't read something carefully—attentive reading, at its best, is deliberate practice for gears-level thinking
 2022-10-19T22:13:19.000000Z	possible also with other media, but practiced less often
+2022-10-21T15:05:11.000000Z	maybe social constructivism is just descriptive in how most social scientists create their theories?
+2022-10-22T21:35:34.000000Z	interpretability can ~re-create more discrete alignment methods over a leaky abstraction
+2022-10-22T23:04:13.000000Z	killing moloch is not glorious, it's just tedious.
