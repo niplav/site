@@ -468,7 +468,7 @@ in themselves, in two different scenarios:
 * Humans might become insane enough that further progress along relevant axes is halted, but not insane enough that civilization collapses. We get stuck oscillating around some technological level, until another existential catastrophe like nuclear war and resulting nuclear winter finishes us off.
 
 On the personal side, after being fooled by [people using GPT-3 to
-generate tweets](https://nitter.hu/lxrjl/status/1376830454075129858)
+generate tweets](https://nitter.net/lxrjl/status/1376830454075129858)
 and seeing at least one instance of observing
 someone [asking a commenter for the MD5 hashsum of a
 string](https://old.reddit.com/r/TheMotte/comments/qzfptl/culture_war_roundup_for_the_week_of_november_22/hmhnkzg/)

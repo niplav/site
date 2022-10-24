@@ -9,7 +9,7 @@ point additional precision is just noise, and investigate these proposals
 with empirical forecasting data. I furthermore describe desirable boundary
 conditions for such functions.__
 
-<!--https://nitter.hu/tenthkrige/status/1412457737380839432-->
+<!--https://nitter.net/tenthkrige/status/1412457737380839432-->
 <!--https://stanford.edu/~knutson/nfc/mellers15.pdf-->
 <!--https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/D9FAZL-->
 

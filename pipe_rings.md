@@ -312,7 +312,7 @@ seems like a frivolous waste of energy and computing power.
 
 Fortunately for me, somebody else has done this already,
 creating a gif that displays its own MD5 sum (made by
-[spq](https://nitter.hu/__spq__/status/838583044260904960)):
+[spq](https://nitter.net/__spq__/status/838583044260904960)):
 
 ![A gif that displays its own MD5 sum](./img/pipe_rings/md5.gif "A gif that displays its own MD5 sum. The MD5 sum is F5CA4F935D44685C431A8BF788C0EACA.")
 
