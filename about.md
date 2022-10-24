@@ -259,7 +259,7 @@ After some thought, I have decided to go with the handbook recommendation.
 * capitalization of headings
 * proselint
 * fixing 404'ed links
-* twitter links are nitter.hu links
+* twitter links are nitter.net links
 * books are linked to goodreads page (instead of, say Amazon or Wikipedia)
 -->
 
@@ -493,7 +493,7 @@ The last g-laden test I took put me at ~110, which seems about right.
 * [Wikipedia](https://en.wikipedia.org/wiki/User:Niplav)
 * [Fediverse](https://social.freetalklive.com/web/@niplav)
 
-I used to use [twitter](https://nitter.hu/niplavyushtun),
+I used to use [twitter](https://nitter.net/niplavyushtun),
 but I got addicted to it (thrice) and decided to instead
 switch to [twtxt](https://github.com/buckket/twtxt). Then I
 discovered that it's not quite as fun as twitter and switched to a

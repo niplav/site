@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-10-21, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-10-23, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,12 +17,17 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Universal grinder (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Universal_grinder)
+* [Logical Pinpointing (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/3FoMuCLqZggTxoC3S)
+* [Against Modest Epistemology (Eliezer Yudkowsky, 2017)](https://www.lesswrong.com/s/oLGCcbnvabyibnG9d/p/svoD5KLKHyAKEdwPo)
+* [Proofs, Implications, and Models (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/Z2CuyKtkCmWGQtAEh)
+* [The Phatic And The Anti-Inductive (Scott Alexander, 2015)](https://slatestarcodex.com/2015/01/11/the-phatic-and-the-anti-inductive/)
 * [Blind Empiricism (Eliezer Yudkowsky, 2017)](https://www.lesswrong.com/s/oLGCcbnvabyibnG9d/p/6n9aKApfLre5WWvpG)
 * [Causal Universes (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/o5F2p3krzT4JgzqQc)
 * \* Introduction to Optimization (Marc Toussaint, 2022)
 * \* Maths for Intelligent Systems (Marc Toussaint, 2022)
-* Another Bay Area House Party (Scott Alexander, 2022)
-* |20 Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
+* [Another Bay Area House Party (Scott Alexander, 2022)](https://astralcodexten.substack.com/p/another-bay-area-house-party)
+* \* Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
 * [Living in an Inadequate World (Eliezer Yudkowsky, 2017)](https://www.lesswrong.com/s/oLGCcbnvabyibnG9d/p/pRibkeqBa2AxrpgT6)
 * [Simulacra Levels and their Interactions (Zvi, 2020)](https://www.lesswrong.com/s/cv2aZaRR22MPC5QwE/p/qDmnyEMtJkE9Wrpau)
 * [Inaccessible information (Paul Christiano, 2020)](https://www.lesswrong.com/s/PKKsrXtuptWzaKCjr/p/ZyWyAJbedvEgRT2uF)

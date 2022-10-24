@@ -22,6 +22,13 @@ shifts](https://arbital.com/p/ontology_identification/) are discussed.__
 <!--TODO: THIS FRICKING THING: https://www.lesswrong.com/posts/6RjL996E8Dsz3vHPk/two-more-decision-theory-problems-for-humans#Partial_Utility_Function_Problem
 One dimensional graph embedding
 Hitting distance-->
+<!--Distinguish between all preferences and inconsistent and consistent ones-->
+<!--Ontological degreebling (consider renaming turning into greeble)
+confusion is the "degreebledegree"
+Probability simplex satisfies first three vnm axioms iff every infinite series of ≥ε steps leads to the least/largest option
+type of ontology shift is S: W1 → P(W2 × [0;1])
+Does ontological degreebling satisfy the following property:
+For two ontology shifts s1 and s2 from W1 to W2 and W2 to W3, does resolving the ontology after s1 and then shifting again and then resolving again after s2 give different results from just concatenating s1 and s2 and then resolving the output after that?-->
 
 Turning Some Inconsistent Preferences into Consistent Ones
 ===========================================================

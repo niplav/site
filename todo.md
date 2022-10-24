@@ -68,8 +68,6 @@ Site
 	* `https://www.gwern.net/docs/www/joa.sh/290f53c78d4b287be8059260f613988a8abda677.html`
 	* `https://github.com/pkra/mathjax-node-page/`
 * Maybe collapsable sections?
-* nitter.hu to nitter.net
-* Collect list of deprecated & draft texts somewhere
 * Title is not JS-added
 * Reading ruler
 * Move from `$\mapsto$` to `$\rightarrow$`
@@ -904,7 +902,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Use the Rocket Squid quote from Erogamer
 * The UTMs-simulate-each-other solution to the Python-with-Witch problem
 	* Look up LW shortform comment on this
-	* https://nitter.hu/RatOrthodox/status/1552618631602663425#m
+	* https://nitter.net/RatOrthodox/status/1552618631602663425#m
 	* Towards the Best Programming Language for Universal Induction
 * Clanishness vs. tribalism and relatedness in Dunbars number sized groups
 * Upwing and downwing as new political fronts
@@ -1856,6 +1854,7 @@ Wikipedia Articles
 * Choice set, choice function, contraction/expansion consistency (all in the context of social choice theory, see Gaertner 2009 p. 7-9)
 * Harberger Tax
 * Axelrod's Meta-Norm
+* Open-source game theory
 
 ### Improve
 
@@ -1872,6 +1871,8 @@ Wikipedia Articles
 * Add missing national anthems to `https://en.wikipedia.org/wiki/List_of_national_anthems`
 * Futarchy page
 * Add "See Also" section to "Gunk (mereology)"
+* Add "See Also" section to "Jacobian Conjecture", linking to Unsolved Problems in Mathematics
+* Redirect "Marr's Levels of Analysis" to the corresponding section on Level of Analysis article
 
 Lesswrong wiki
 ---------------
@@ -1978,3 +1979,4 @@ In-World Projects
 * Start a Notebook Journal (as in Jupyter Notebook)
 * Build good color vision test website
 * SkyGuessr — GeoGuessr but for pictures of the sky
+* Improve harbergertax.com

@@ -143,6 +143,10 @@ Resources from this comment:
 https://www.lesswrong.com/posts/rpRsksjrBXEDJuHHy/brain-computer-interfaces-and-ai-alignment?commentId=t9n35ss9nhW2gJBg5
 -->
 
+<!-- Additional pro-argument: Chinchilla scaling laws imply that info
+about human values is more important.  Since we relatively lack info
+about human values vs. general training data, BCIs supply those.-->
+
 Brain-Computer Interfaces and AI Alignment
 ===========================================
 
@@ -160,7 +164,7 @@ especially alignable.
 
 Arguments against the usefulness for brain-computer interfaces
 in AI alignment have been raised, but mostly in short form on
-twitter (for example [here](https://nitter.hu/robbensinger/status/1405878940149944332)).
+twitter (for example [here](https://nitter.net/robbensinger/status/1405878940149944332)).
 This text attempts to collect arguments for and against brain-computer
 interfaces from an AI alignment perspective.
 

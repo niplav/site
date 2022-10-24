@@ -108,7 +108,7 @@ April 2022
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 	* Rewrote part of the code in Python
 	* [Statistical Significance of Truncated Datasets](./range_and_forecasting_accuracy.html#Statistical_Significance_of_Truncated_Datasets)
-* Converted Twitter links to [nitter.hu](https://nitter.hu) links, since Twitter now freezes the view for visitors to the site who aren't logged in (another internet platform bites the dust, at least as infrastructure—maybe that will change under Musk?)
+* Converted Twitter links to [nitter.net](https://nitter.net) links, since Twitter now freezes the view for visitors to the site who aren't logged in (another internet platform bites the dust, at least as infrastructure—maybe that will change under Musk?)
 
 March 2022
 -----------

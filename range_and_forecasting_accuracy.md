@@ -967,7 +967,7 @@ every decision-theoretic ship that sails it is never to return with
 valuable information.
 
 It is [sometimes
-invoked](#Appendix-A-Quotes-About-the-Horizon-of-Forecasts)
+invoked](#Appendix-C-Quotes-About-the-Horizon-of-Forecasts)
 by people when they want to talk about the inherent unknowability of
 the future, always without evidence of any *actual number*.
 
@@ -2687,3 +2687,9 @@ the accuracy of expert predictions declined toward chance five years out.
 over fifty-year intervals.
 
 *— [Eliezer Yudkowsky](https://www.yudkowsky.net/), [“Absurdity Heuristic, Absurdity Bias”](https://www.lesswrong.com/posts/P792Z4QA9dzcLdKkE/absurdity-heuristic-absurdity-bias), 2007*
+
+> Successfully predicting the unimaginably far future - that is, more
+than 2 or 3 years out, or sometimes less - is something that human beings
+seem to be quite bad at, by and large.
+
+*— [Eliezer Yudkowsky](https://www.yudkowsky.net/), [“Biology-Inspired AGI Timelines: The Trick That Never Works”](https://www.lesswrong.com/s/EcKbpm4f7fBwhxRZs/p/ax695frGJEzGxFBK4), 2021*

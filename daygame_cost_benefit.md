@@ -227,7 +227,7 @@ still seems to be coherent.
 	* [April](https://roywalkerdaygame.wordpress.com/2017/05/15/update-a-month-on-the-road/) (?)
 	* [July-September](https://roywalkerdaygame.wordpress.com/2017/10/09/game-over/)
 * [2018](https://roywalkerdaygame.wordpress.com/2019/01/09/2018-a-year-of-change/)
-* [4000 sets](https://nitter.hu/RoyWalkerPUA/status/1183757732551282690)
+* [4000 sets](https://nitter.net/RoyWalkerPUA/status/1183757732551282690)
 * [2019](https://roywalkerdaygame.wordpress.com/2020/01/07/2019-the-year-of-meh/)
 	* [January](https://roywalkerdaygame.wordpress.com/2019/02/19/ketchup-in-glass-bottles/)
 

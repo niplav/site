@@ -1492,3 +1492,10 @@
 2022-10-21T15:05:11.000000Z	maybe social constructivism is just descriptive in how most social scientists create their theories?
 2022-10-22T21:35:34.000000Z	interpretability can ~re-create more discrete alignment methods over a leaky abstraction
 2022-10-22T23:04:13.000000Z	killing moloch is not glorious, it's just tedious.
+2022-10-23T17:04:39.000000Z	multifaceted hedgehog
+2022-10-23T18:09:52.000000Z	monotonic occam's razor
+2022-10-24T09:44:08.000000Z	meetups ostensibly about X should actually about X, not fucking/partying/status games/etc
+2022-10-24T13:03:07.000000Z	open-source game theory is apparently “game theory with translucent players” in the academic literature
+2022-10-24T15:02:03.000000Z	have problem → pay attention → ??? → problem solved
+2022-10-24T15:10:46.000000Z	Marr's computational level should be called the “functional” level—since functions are really just concerned with mappings
+2022-10-24T18:45:07.000000Z	“There's many nice women in the EA community–” ”Yeah, there's also a bunch of gold on Neptune.”
