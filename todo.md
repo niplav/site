@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-10-23, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-10-25, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -1873,6 +1873,12 @@ Wikipedia Articles
 * Add "See Also" section to "Gunk (mereology)"
 * Add "See Also" section to "Jacobian Conjecture", linking to Unsolved Problems in Mathematics
 * Redirect "Marr's Levels of Analysis" to the corresponding section on Level of Analysis article
+* Redirect "do operator" to Causal model#Interventions
+* Maybe factor out the "Causal Model" page into several pages?
+	* do operator
+	* frontdoor criterion
+	* backdoor criterion
+* Add "See Also" section to Causal Markov Condition
 
 Lesswrong wiki
 ---------------
@@ -1975,8 +1981,8 @@ In-World Projects
 * Headstrap for airplane sleeping
 * Apartment swapping startup
 * Shipping startup
-* backup libgen/scihub/arxiv/biorxiv/psyrxiv
-* Start a Notebook Journal (as in Jupyter Notebook)
+* Backup libgen/scihub/arxiv/biorxiv/psyrxiv
+* Start a notebook academic journal (as in Jupyter Notebook)
 * Build good color vision test website
 * SkyGuessr — GeoGuessr but for pictures of the sky
 * Improve harbergertax.com
