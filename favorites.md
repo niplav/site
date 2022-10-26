@@ -357,7 +357,7 @@ my favorite type of art is [geometric
 abstraction](https://en.wikipedia.org/wiki/Geometric_abstraction),
 my favorite type of biome is flat deserts, my favorite type of
 meditation is good ol' ānāpānasati (with each cycle beginning
-on an outbreath, relaxing & then counting to ten after recognizing
+on an outbreath, relaxing & then counting to eight after recognizing
 mind-wandering, being more on the vipassanizing side, and (ideally)
 spanning up awareness to perform a mental check-in every ~4
 breath cycles), my favorite kitchen appliance is the microwave,

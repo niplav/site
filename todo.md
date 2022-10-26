@@ -1873,7 +1873,6 @@ Wikipedia Articles
 * Add "See Also" section to "Gunk (mereology)"
 * Add "See Also" section to "Jacobian Conjecture", linking to Unsolved Problems in Mathematics
 * Redirect "Marr's Levels of Analysis" to the corresponding section on Level of Analysis article
-* Redirect "do operator" to Causal model#Interventions
 * Maybe factor out the "Causal Model" page into several pages?
 	* do operator
 	* frontdoor criterion
