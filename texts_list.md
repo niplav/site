@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-10-23, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-10-27, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,24 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [By Which It May Be Judged (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/zqwWicCLNBSA5Ssmn)
+* [Mixed Reference: The Great Reductionist Project (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/bTsiPnFndZeqTnWpu)
+* \* Children of Dune (Frank Herbert, 1976)
+* Die sozial-kognitive Theorie (Woofolk, 2008)
+* [Second-Order Logic: The Controversy (Eliezer Yudkowsky, 2013)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/SWn4rqdycu83ikfBa)
+* [Swiss Political System: More than You ever Wanted to Know (II.) (Martin Sustrik, 2020)](https://www.lesswrong.com/posts/KTnJ4w4grttfJmwo9/swiss-political-system-more-than-you-ever-wanted-to-know-ii)
+* [Zero matrix (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Zero_matrix)
+* [Reply to Eliezer on Biological Anchors (Holden Karnofsky, 2021)](https://www.lesswrong.com/s/EcKbpm4f7fBwhxRZs/p/nNqXfnjiezYukiMJi)
+* [Godel's Completeness and Incompleteness Theorems (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/GZjGtd35vhCnzSQKy)
+* Behavioristische Theorie (Woofolk, 2008)
+* [Some AI research areas and their relevance to existential safety (Andrew Critch, 2020)](https://www.lesswrong.com/s/EcKbpm4f7fBwhxRZs/p/hvGoYXi2kgnS3vxqb)
+* [Biology-Inspired AGI Timelines: The Trick That Never Works (Eliezer Yudkowsky, 2021)](https://www.lesswrong.com/s/EcKbpm4f7fBwhxRZs/p/ax695frGJEzGxFBK4)
+* [Against Shooting Yourself in the Foot (Eliezer Yudkowsky, 2017)](https://www.lesswrong.com/s/oLGCcbnvabyibnG9d/p/NtyBaxQShNFm92xnS)
+* [Swiss Political System: More than You ever Wanted to Know (I.) (Martin Sustrik, 2020)](https://www.lesswrong.com/s/cv2aZaRR22MPC5QwE/p/x6hpkYyzMG6Bf8T3W)
+* [Standard and Nonstandard Numbers (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/i7oNcHR3ZSnEAM29X)
+* [Creators and Rulers (Steve Hsu, 2009)](https://infoproc.blogspot.com/2009/08/creators-and-rulers.html)
+* [Competent Elites (Eliezer Yudkowsky, 2008)](https://www.lesswrong.com/posts/CKpByWmsZ8WmpHtYa/competent-elites)
+* [Status Regulation and Anxious Underconfidence (Eliezer Yudkowsky, 2017)](https://www.lesswrong.com/s/oLGCcbnvabyibnG9d/p/o28fkhcZsBhhgfGjx)
 * [Universal grinder (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Universal_grinder)
 * [Logical Pinpointing (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/3FoMuCLqZggTxoC3S)
 * [Against Modest Epistemology (Eliezer Yudkowsky, 2017)](https://www.lesswrong.com/s/oLGCcbnvabyibnG9d/p/svoD5KLKHyAKEdwPo)

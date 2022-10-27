@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2022-10-16, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2022-10-27, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1226,6 +1226,7 @@ TODO: do-->
 * Courses at university are not 3blue1brown + Q&A + extensive quizzes (or automated tutoring à la DARPA)
 * TSA security theater
 * A lot of terminology in mathematics, for example using "numerator"/"denominator" instead of "upper number"/"lower number" when talking about [fractions](https://en.wikipedia.org/wiki/Fraction) (which would be vastly easier to understand/remember *and* in one case even has fewer syllables)
+* Recycling
 
 An Example for Not Updating Uncertain Utility Functions
 --------------------------------------------------------
@@ -1318,3 +1319,4 @@ Pet Peeves
 Rt56k5/health-and-happiness-research-topics-part-1-background-on#2__The_sHALY) etc.) lost
 * Browsers splitting words at a newline on a ﬀ ligature
 * Menus at restaurants that don't indicate whether the meal is vegetarian or not (ingredients often don't help: Restaurants will put meat (e.g. bacon cubes in salads) into dishes and not indicate it on the menu)
+* Websites that offer two-factor authentication, but don't allow physical authentication keys and, worse, don't offer an option to backup those two-factor authentication methods
