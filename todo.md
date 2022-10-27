@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-10-25, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-10-27, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -71,6 +71,9 @@ Site
 * Title is not JS-added
 * Reading ruler
 * Move from `$\mapsto$` to `$\rightarrow$`
+* Collect all memes
+	* Add memes:
+		* I wish all dukkha a very pleasant cessation
 
 Existing Texts
 --------------
@@ -1112,7 +1115,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* wasted motion
 	* Long content and its curation
 * Tracking of Belief Introduces Overhead
-* Pet Peeves
 * Mastery is Exceedingly Rare
 
 > Very few will aspire to real mastery themselves. Very few will take the
@@ -1356,6 +1358,7 @@ Videos
 	* Cilantro
 	* Rawr
 * Cool girl video + Death By Glamour
+* Alice in Wonderland that scene with Tweedledee and Tweedledum
 
 Data Sets
 ----------
@@ -1500,7 +1503,7 @@ Programming
 		* ABNF (RFCs)
 		* EBNF
 		* naive & simple form (similar to the one used on Wikipedia)
-			* <symbol\>
+			* `<symbol>`
 			* optionality: '?'
 			* repetition: '+'
 			* repetition with optionality: '*'
@@ -1855,6 +1858,8 @@ Wikipedia Articles
 * Harberger Tax
 * Axelrod's Meta-Norm
 * Open-source game theory
+* 9front
+* Russ Cox
 
 ### Improve
 
@@ -1878,6 +1883,7 @@ Wikipedia Articles
 	* frontdoor criterion
 	* backdoor criterion
 * Add "See Also" section to Causal Markov Condition
+* Fish shell add creation date
 
 Lesswrong wiki
 ---------------
