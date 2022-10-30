@@ -74,5 +74,6 @@ Currently, I am actively reading the following books:
 * Die toten Seelen (Nikolai Gogol, 1842)
 * Naive Set Theory (Paul R. Halmos, 1960)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
-* Maths for Intelligent Systems (Marc Toussaint, 2022)
-* Introduction to Optimization (Marc Toussaint, 2022)
+* Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
+* Children of Dune (Frank Herbert, 1976)
+* Nootropics (Gwern Branwen, 2018)

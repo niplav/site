@@ -24,3 +24,7 @@ it not a function?
 
 Alas, plugging in `$g$` into `$f$` gives `$f(x)=3x+2(2x)$` and
 `$\frac{\partial}{\partial x}f(x)=3+4=7$`.
+
+### i) to iv)
+
+See [here](./ito_solutions.html#401).

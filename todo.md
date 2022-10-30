@@ -591,6 +591,8 @@ Texts
 		* Isn't sex good & violence bad‽
 * Maybe a car rant
 * Deminatalist utilitarianism pitfalls
+* Humans Are Not Turing Machines Because Nothing Is
+	* Apparently critrats believe this?
 * Why Not Prepping?
 
 > [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
@@ -1875,9 +1877,6 @@ Wikipedia Articles
 * Find Ian Goodfellow's true year of birth
 * Add missing national anthems to `https://en.wikipedia.org/wiki/List_of_national_anthems`
 * Futarchy page
-* Add "See Also" section to "Gunk (mereology)"
-* Add "See Also" section to "Jacobian Conjecture", linking to Unsolved Problems in Mathematics
-* Redirect "Marr's Levels of Analysis" to the corresponding section on Level of Analysis article
 * Maybe factor out the "Causal Model" page into several pages?
 	* do operator
 	* frontdoor criterion
