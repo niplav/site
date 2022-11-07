@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-10-27, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-11-08, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,13 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Kognitiver und sozialer Konstruktivismus (A. Wookolf, 2008)
+* [Search versus design (Alex Flint, 2020)](https://www.lesswrong.com/s/hFom77cBBnnbNLzzm/p/r3NHPD3dLFNk9QE2Y)
+* [Superintelligent AI is necessary for an amazing future, but far from sufficient (Nate Soares, 2022)](https://www.lesswrong.com/posts/HoQ5Rp7Gs6rebusNP/superintelligent-ai-is-necessary-for-an-amazing-future-but-1)
+* [The ground of optimization (Alex Flint, 2020)](https://www.lesswrong.com/s/PKKsrXtuptWzaKCjr/p/znfkdCoHMANwqc2WE)
+* [The Solomonoff Prior is Malign (Mark Xu, 2020)](https://www.lesswrong.com/s/hFom77cBBnnbNLzzm/p/Tr7tAyt5zZpdTwTQK)
+* Erfolgreiches Lernen als gute Informationsverarbeitung (M. Hasselhorn/A. Gold, 2006)
+* [Swiss Political System: More than You ever Wanted to Know (III.) (Martin Sustrik, 2020)](https://www.lesswrong.com/posts/fR9amAhzFktD5nMqi/swiss-political-system-more-than-you-ever-wanted-to-know-iii)
 * [By Which It May Be Judged (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/zqwWicCLNBSA5Ssmn)
 * [Mixed Reference: The Great Reductionist Project (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/bTsiPnFndZeqTnWpu)
 * \* Children of Dune (Frank Herbert, 1976)
@@ -42,8 +49,8 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [The Phatic And The Anti-Inductive (Scott Alexander, 2015)](https://slatestarcodex.com/2015/01/11/the-phatic-and-the-anti-inductive/)
 * [Blind Empiricism (Eliezer Yudkowsky, 2017)](https://www.lesswrong.com/s/oLGCcbnvabyibnG9d/p/6n9aKApfLre5WWvpG)
 * [Causal Universes (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/o5F2p3krzT4JgzqQc)
-* \* Introduction to Optimization (Marc Toussaint, 2022)
-* \* Maths for Intelligent Systems (Marc Toussaint, 2022)
+* |6 Introduction to Optimization (Marc Toussaint, 2022)
+* |15 Maths for Intelligent Systems (Marc Toussaint, 2022)
 * [Another Bay Area House Party (Scott Alexander, 2022)](https://astralcodexten.substack.com/p/another-bay-area-house-party)
 * \* Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
 * [Living in an Inadequate World (Eliezer Yudkowsky, 2017)](https://www.lesswrong.com/s/oLGCcbnvabyibnG9d/p/pRibkeqBa2AxrpgT6)
@@ -85,7 +92,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [What Money Cannot Buy (johnswentworth, 2020)](https://www.lesswrong.com/s/hFom77cBBnnbNLzzm/p/YABJKJ3v97k9sbxwg)
 * [Landau set (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Landau_set)
 * [Inferring utility functions from locally non-transitive preferences (Jan Kirchner, 2022)](https://www.lesswrong.com/posts/QZiGEDiobFz8ropA5/inferring-utility-functions-from-locally-non-transitive)
-* [\* Nootropics (Gwern Branwen, 2018)](https://www.gwern.net/Nootropics)
+* [Nootropics (Gwern Branwen, 2018)](https://www.gwern.net/Nootropics)
 * [Scope neglect (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Scope_neglect)
 * [Public-facing Censorship Is Safety Theater, Causing Reputational Damage (Yitz, 2022)](https://www.lesswrong.com/posts/boBZkTqPdboX5u7g9/public-facing-censorship-is-safety-theater-causing)
 * [Using vector fields to visualise preferences and make them consistent (Michael Aird, Justin Shovelain, 2020)](https://www.lesswrong.com/posts/ky988ePJvCRhmCwGo/using-vector-fields-to-visualise-preferences-and-make-them)

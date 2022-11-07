@@ -1518,3 +1518,16 @@
 2022-10-26T12:20:41.000000Z	futuristic city image “the world if all externalities were internalized”
 2022-10-28T15:49:32.000000Z	predict yourself as if you're a well-meaning but very unreliable friend of yourself
 2022-10-29T21:45:05.000000Z	The Honeycomb Conjecture was probably the longest-standing open conjecture in the history of mathematics. Open for 2035 years, if Wikipedia is to believed
+2022-10-31T20:51:42.000000Z	nnn that ends with a wimper, not with a bang
+2022-10-31T21:22:55.000000Z	how secure are the svalbard global seed vault and the Arctic World Archive? might it be useful for EAs to work for them?
+2022-10-31T21:25:59.000000Z	Today, scientists fear the corpses
+2022-11-01T20:33:16.000000Z	Gauzian
+2022-11-01T22:46:07.000000Z	MANGAO
+2022-11-04T14:17:17.000000Z	language is the middle layer of a qualia autoencoder
+2022-11-04T14:17:23.000000Z	podcast meditation
+2022-11-04T15:17:52.000000Z	elon musk is not playing 4d chess with neuralink, or with spacex.
+2022-11-04T15:19:49.000000Z	heuristics decline more gracefully in predictive accuracy than deep models. Example: Having the cosmological constant be off by one part in a thousand yields quite different predictions, while the heuristic "two objects of significant weight (e.g. >10²⁰kg) will enter an elliptical orbit" declines more gracefully as you change the weight
+2022-11-04T15:26:00.000000Z	thing that bugged me about don't look up is that they didn't restart the calculation in the beginning for four times and instead just immediately concluded doom.
+2022-11-05T12:01:26.000000Z	if agents are usually suffering negative sum games might be good via destructive warfare
+2022-11-06T00:42:35.000000Z	i only allow myself to go the hard way. good or bad?
+2022-11-07T23:15:01.000000Z	computational complexity theory of self-modifying code. probably not good for execution speed, but great for code size.

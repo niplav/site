@@ -418,6 +418,7 @@ Texts
 	* Chanting?
 	* Visualization?
 	* Yogic stuff? (Mudra)
+* Survey on entry time to first jhana
 
 ### Quantified Self
 
@@ -812,6 +813,9 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Pareto improvements and equity/equality
 * Early PUA/General Semantics connection dig up
 * Marinelli Beaker Analytical Solution
+* Weighted by frequency, do female names
+	* End more often in 'a'
+	* Contain more vowels than male names, controlling for the above
 
 ### Ideas
 
