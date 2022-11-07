@@ -479,9 +479,10 @@ My Big Five are:
 * Neuroticism: 19%
 
 From a test somewhere on the internet a while ago, I just wrote down
-the results.
+the results.<!--TODO: redo with a better source-->
 
-The last g-laden test I took put me at ~110, which seems about right.
+The last g-loaded test I took (in high school) put me at ~110, which
+seems about right.
 
 ### Elsewhere on the Internet
 

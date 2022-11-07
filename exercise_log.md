@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-06-15, modified: 2022-10-27, language: english, status: notes, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-15, modified: 2022-11-07, language: english, status: notes, importance: 1, confidence: log*
 
 > __I recently got the feeling that tracking my exercise might be vaguely
 > useful. This is my attempt.__
@@ -3296,7 +3296,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 1 sets 10 reps 25kg bench presses
 * 1 sets 8 reps 50kg deadlift
 
-### 2022-10-07T18:55-2022-10-04T16:00
+### 2022-10-07T18:55-2022-10-07T20:00
 
 * 3 sets 4 reps 10kg overhead press
 * 1 sets 4 reps 15kg overhead press
@@ -3383,3 +3383,51 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 60 walking lunges
 * 100 froggers
 * 2 minutes plank
+
+### 2022-10-30T20:55:00-2022-10-30T22:03
+
+* 60 7.5kg dumbbell shoulder presses
+* 60 7.5kg dumbbell biceps curls
+* 60 7.5kg dumbbell upright rows
+* 60 7.5kg dumbbell Γ lifts
+* 60 7.5kg dumbbell bench presses
+* 15 7.5kg dumbbell scaptions
+* 15 7.5kg dumbbell lateral lifts
+* 10 7.5kg dumbbell behind shoulder lifts
+* 10 pull-ups
+* 30 push-ups
+* 30 sit-ups
+* 30 double leg lifts
+* 0 burpees
+* 30 walking lunges
+* 100 froggers
+* 2 minutes plank
+
+### 2022-11-01T20:00-2022-11-01T20:45
+
+* 10 sets 4 reps 10kg barbell squats
+* 1 sets 4 reps 30kg barbell squats
+* 1 sets 4 reps 32.5kg barbell squats
+* 1 sets 4 reps 32.5kg barbell squats
+* 4 sets 10 reps 10kg bench presses
+* 1 sets 10 reps 20kg bench presses
+* 1 sets 10 reps 22.5kg bench presses
+* 1 sets 10 reps 22.5kg bench presses
+* 1 sets 8 reps 30kg deadlift
+* 1 sets 8 reps 40kg deadlift
+* 1 sets 8 reps 42.5kg deadlift
+
+### 2022-11-03T21:00-2022-11-03T22:17
+
+* 4 sets 10 reps 10kg overhead press RPE 3
+* 2 sets 4 reps 20kg overhead press RPE 7
+* 1 sets 4 reps 22.5kg overhead press RPE 8
+* 4 sets 7 reps 10kg back squats RPE 4
+* 1 sets 7 reps 12.5kg back squat RPE 6
+* 1 sets 7 reps 12.5kg back squat RPE 7
+* 1 sets 7 reps 12.5kg back squat RPE 7
+* 1 sets 10 reps 6kg barbell row RPE 2
+* 1 sets 10 reps 16kg barbell row RPE 7
+* 1 sets 10 reps 16kg barbell row RPE 7
+* 1 sets 10 reps 18kg barbell row RPE 9
+* 10 minutes cardio on bike RPE 7

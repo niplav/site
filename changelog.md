@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-10-12, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-11-08, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -20,6 +20,16 @@ with fecundity.
 
 October 2022
 -------------
+
+* [Playing With Language](./language.html)
+	* [Abbreviations Turned Into Words](./language.html#Abbreviations_Turned_Into_Words)
+* [Notes](./notes.html)
+	* [Pet Peeves](./notes.html#Pet_Peeves)
+* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+	* [Appendix A: Replicating Metaculus Findings With Full Data](./range_and_forecasting_accuracy.html#Appendix_A_Replicating_Metaculus_Findings_With_Full_Data)
+		* [Some Predictions About The Results](./range_and_forecasting_accuracy.html#Some_Predictions_About_The_Results)
+		* [Analysis And Results](./range_and_forecasting_accuracy.html#Analysis__Results)
+		* [Replication Inbound?](./range_and_forecasting_accuracy.html#Replication_Inbound)
 
 September 2022
 --------------
