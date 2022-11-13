@@ -76,4 +76,3 @@ Currently, I am actively reading the following books:
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
 * Children of Dune (Frank Herbert, 1976)
-* Nootropics (Gwern Branwen, 2018)

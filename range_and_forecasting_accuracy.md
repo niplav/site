@@ -128,6 +128,9 @@ Distinction between {probabilistic,non-probabilistic}
 {model-based,judgmental} forecasting
 -->
 
+Related Work
+-------------
+
 Results
 --------
 
