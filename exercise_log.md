@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-06-15, modified: 2022-11-07, language: english, status: notes, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-15, modified: 2022-11-13, language: english, status: notes, importance: 1, confidence: log*
 
 > __I recently got the feeling that tracking my exercise might be vaguely
 > useful. This is my attempt.__
@@ -3286,31 +3286,31 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 
 ### 2022-10-05T14:30-2022-10-05T16:00
 
-* 10 sets 4 reps 20kg barbell squats
-* 1 sets 4 reps 40kg barbell squats
+* 10 sets 4 reps 30kg barbell squats
 * 1 sets 4 reps 50kg barbell squats
-* 1 sets 10 reps 10kg bench presses
-* 1 sets 10 reps 12.5kg bench presses
-* 1 sets 10 reps 15kg bench presses
+* 1 sets 4 reps 60kg barbell squats
 * 1 sets 10 reps 20kg bench presses
+* 1 sets 10 reps 22.5kg bench presses
 * 1 sets 10 reps 25kg bench presses
-* 1 sets 8 reps 50kg deadlift
+* 1 sets 10 reps 30kg bench presses
+* 1 sets 10 reps 35kg bench presses
+* 1 sets 8 reps 60kg deadlift
 
 ### 2022-10-07T18:55-2022-10-07T20:00
 
-* 3 sets 4 reps 10kg overhead press
-* 1 sets 4 reps 15kg overhead press
-* 1 sets 4 reps 20kg overhead press
-* 2 sets 4 reps 22.5kg overhead press
-* 2 sets 4 reps 10kg back squats
-* 1 sets 7 reps 20kg back squat
-* 2 sets 7 reps 22.5kg back squat
-* 1 sets 10 reps 10kg barbell row
-* 1 sets 10 reps 10kg barbell row
-* 1 sets 10 reps 7kg barbell row
-* 1 sets 10 reps 10kg barbell row
-* 1 sets 10 reps 12.5kg barbell row
-* 1 sets 10 reps 15kg barbell row
+* 3 sets 4 reps 20kg overhead press
+* 1 sets 4 reps 25kg overhead press
+* 1 sets 4 reps 30kg overhead press
+* 2 sets 4 reps 32.5kg overhead press
+* 2 sets 4 reps 20kg back squats
+* 1 sets 7 reps 30kg back squat
+* 2 sets 7 reps 32.5kg back squat
+* 1 sets 10 reps 10kg dumbbell row
+* 1 sets 10 reps 10kg dumbbell row
+* 1 sets 10 reps 7kg dumbbell row
+* 1 sets 10 reps 10kg dumbbell row
+* 1 sets 10 reps 12.5kg dumbbell row
+* 1 sets 10 reps 15kg dumbbell row
 * 10 minutes cardio on bike
 
 ### 2022-10-21T18:10:00-2022-10-21T19:10:00
@@ -3405,29 +3405,74 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 
 ### 2022-11-01T20:00-2022-11-01T20:45
 
-* 10 sets 4 reps 10kg barbell squats
-* 1 sets 4 reps 30kg barbell squats
-* 1 sets 4 reps 32.5kg barbell squats
-* 1 sets 4 reps 32.5kg barbell squats
-* 4 sets 10 reps 10kg bench presses
-* 1 sets 10 reps 20kg bench presses
-* 1 sets 10 reps 22.5kg bench presses
-* 1 sets 10 reps 22.5kg bench presses
-* 1 sets 8 reps 30kg deadlift
+* 4 sets 10 reps 20kg barbell squats
+* 1 sets 4 reps 40kg barbell squats
+* 1 sets 4 reps 42.5kg barbell squats
+* 1 sets 4 reps 42.5kg barbell squats
+* 4 sets 10 reps 20kg bench presses
+* 1 sets 10 reps 30kg bench presses
+* 1 sets 10 reps 32.5kg bench presses
+* 1 sets 10 reps 32.5kg bench presses
 * 1 sets 8 reps 40kg deadlift
-* 1 sets 8 reps 42.5kg deadlift
+* 1 sets 8 reps 50kg deadlift
+* 1 sets 8 reps 52.5kg deadlift
 
 ### 2022-11-03T21:00-2022-11-03T22:17
 
-* 4 sets 10 reps 10kg overhead press RPE 3
-* 2 sets 4 reps 20kg overhead press RPE 7
-* 1 sets 4 reps 22.5kg overhead press RPE 8
-* 4 sets 7 reps 10kg back squats RPE 4
-* 1 sets 7 reps 12.5kg back squat RPE 6
-* 1 sets 7 reps 12.5kg back squat RPE 7
-* 1 sets 7 reps 12.5kg back squat RPE 7
-* 1 sets 10 reps 6kg barbell row RPE 2
-* 1 sets 10 reps 16kg barbell row RPE 7
-* 1 sets 10 reps 16kg barbell row RPE 7
-* 1 sets 10 reps 18kg barbell row RPE 9
-* 10 minutes cardio on bike RPE 7
+* 4 sets 10 reps 20kg overhead press RPE 3
+* 2 sets 4 reps 30kg overhead press RPE 7
+* 1 sets 4 reps 32.5kg overhead press RPE 8
+* 4 sets 7 reps 20kg back squats RPE 4
+* 1 sets 7 reps 22.5kg back squat RPE 6
+* 1 sets 7 reps 22.5kg back squat RPE 7
+* 1 sets 7 reps 22.5kg back squat RPE 7
+* 1 sets 10 reps 6kg dumbbell row RPE 2
+* 1 sets 10 reps 16kg dumbbell row RPE 7
+* 1 sets 10 reps 16kg dumbbell row RPE 7
+* 1 sets 10 reps 18kg dumbbell row RPE 9
+* 10 minutes cardio on bike difficulty 12 RPE 7
+
+### 2022-11-07T19:59-2022-11-07T20:55
+
+* 4 sets 10 reps 20kg deadlift RPE 1
+* 1 sets 4 reps 50kg deadlift RPE 4
+* 1 sets 4 reps 60kg deadlift RPE 5
+* 1 sets 4 reps 70kg deadlift RPE 7
+* 4 sets 10 reps 20kg bench press RPE 2
+* 1 sets 8 reps 30kg bench press RPE 6
+* 1 sets 8 reps 35kg bench press RPE 7
+* 1 sets 8 reps 37.5kg bench press RPE 8
+* 1 sets 10 reps 20kg back squat RPE 5
+* 1 sets 10 reps 20kg back squat RPE 7
+* 1 sets 10 reps 22.5kg back squat RPE 8
+* 1 sets 8 reps 25kg back squat RPE 10
+
+### 2022-11-09T20:35-2022-11-09T21:25
+
+* 4 sets 10 reps 20kg back squat RPE 4
+* 1 sets 4 reps 22.5kg back squat RPE 4
+* 1 sets 4 reps 25kg back squat RPE 5
+* 1 sets 4 reps 40kg back squat RPE 8
+* 4 sets 10 reps 20kg bench press RPE 1
+* 1 sets 10 reps 22.5kg bench press RPE 7
+* 1 sets 10 reps 35kg bench press RPE 8
+* 1 sets 10 reps 37.5kg bench press RPE 9
+* 4 sets 10 reps 20kg deadlift RPE 2
+* 1 sets 8 reps 60kg deadlift RPE 8
+* 1 sets 8 reps 70kg deadlift RPE 9
+* 1 sets 8 reps 70kg deadlift RPE 8
+
+### 2022-11-11T19:35-2022-11-11T20:43
+
+* 4 sets 10 reps 20kg overhead press RPE 5
+* 1 sets 4 reps 30kg overhead press RPE 6
+* 2 sets 4 reps 35kg overhead press RPE 9
+* 4 sets 7 reps 20kg back squats RPE 3
+* 1 sets 7 reps 25kg back squat RPE 4
+* 1 sets 7 reps 30kg back squat RPE 6
+* 1 sets 7 reps 35kg back squat RPE 7
+* 4 sets 10 reps 10kg dumbbell row RPE 3
+* 1 sets 10 reps 16kg dumbbell row RPE 5
+* 1 sets 10 reps 18kg dumbbell row RPE 7
+* 1 sets 10 reps 20kg dumbbell row RPE 7
+* 10 minutes cardio on bike difficulty 12 RPE 7

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-10-27, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-11-11, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -811,7 +811,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * A history of the Effective Altruism/Bayesian Rationality cluster
 	* For example, why poly?
 * Pareto improvements and equity/equality
-* Early PUA/General Semantics connection dig up
 * Marinelli Beaker Analytical Solution
 * Weighted by frequency, do female names
 	* End more often in 'a'
@@ -1866,6 +1865,7 @@ Wikipedia Articles
 * Open-source game theory
 * 9front
 * Russ Cox
+* Humane Technology
 
 ### Improve
 
