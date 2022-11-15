@@ -3476,3 +3476,18 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 1 sets 10 reps 18kg dumbbell row RPE 7
 * 1 sets 10 reps 20kg dumbbell row RPE 7
 * 10 minutes cardio on bike difficulty 12 RPE 7
+
+### 2022-11-14T19:17-2022-11-14T20:05
+
+* 4 sets 10 reps 20kg deadlift RPE 1
+* 1 sets 4 reps 65kg deadlift RPE 6
+* 1 sets 4 reps 80kg deadlift RPE 9
+* 1 sets 4 reps 85kg deadlift RPE 9
+* 4 sets 10 reps 20kg bench press RPE 1
+* 1 sets 8 reps 37.5kg bench press RPE 6
+* 1 sets 8 reps 40kg bench press RPE 9
+* 1 sets 8 reps 40kg bench press RPE 9
+* 1 sets 10 reps 20kg back squat RPE 5
+* 1 sets 10 reps 32.5kg back squat RPE 6
+* 1 sets 10 reps 35kg back squat RPE 7
+* 1 sets 10 reps 37.5kg back squat RPE 7

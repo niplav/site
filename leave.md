@@ -224,6 +224,45 @@ Evidence
 
 ### Have Attention Spans Been Declining?
 
+[Attention](https://en.wikipedia.org/wiki/Attention) is generally
+divided into three distinct categories: sustained attention,
+which is the consistent focus on a specific task or piece of
+information over time (Wikipedia states that the span for sustained
+attention has a [leprechaun](https://www.gwern.net/Leprechauns)
+figure of 10 minutes floating around); selective attention, which
+is the ability to resist distractions while focusing on important
+information while performing on a task (the thing trained during
+[mindfulness meditation](https://en.wikipedia.org/wiki/Mindfulness);
+and alternating attention, also known as the ability to
+[multitask](https://en.wikipedia.org/wiki/Human_multitasking).
+
+When asking whether attention spans have been declining, we'd
+ideally want to have experiments from up to 2019: close enough
+to the present to see whether there is a downward trend (a bit
+more than a decade after the introduction of the [iPhone in
+2007](https://en.wikipedia.org/wiki/iPhone_\(1st_generation\))),
+but before the [COVID-19
+pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic) which might
+be a huge confounder, or just have accelerated existing trends (which
+we can probably check in another 2 years).
+
+A commonly cited resource on the decline of attention span is Gausby et
+al. 2015 from Microsoft research. I'm not a huge fan of the study: It's
+already seven years old, which in internet years means we should prepare
+for its cryopreservation; its glossy makeup, corporate sponsoring and
+being directed at marketing professionals doesn't quite inspire confidence
+in me, and it is not very precise (often speaking of "% high sustained
+attention by demographic", without specifying what "high" is supposed
+to mean here). Add to that that they cite a probably [fallacious figure
+of a 8-second](https://www.bbc.com/news/health-38896790) attention span.
+
+Having said all that, Gausby et al. 2015 states self-described
+heavy social-media users and early tech adopters do significantly
+worse in terms of sustained attention than lighter social-media
+users (though they don't make clear whether they controlled
+for age, which [increases with age until the early
+40's](https://en.wikipedia.org/wiki/Attention_span#Human_Attention_Span_Over_Time).
+
 * `https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4567490`
 * `https://doi.org/10.1177%2F0956797615594896`
 * `https://web.archive.org/web/20100601192507/http://blogs.suntimes.com/ebert/2010/05/the_french_word_frisson_descri.html`
