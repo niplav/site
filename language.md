@@ -370,6 +370,7 @@ Equivalences
 * decision theory : microeconomics :: game theory : macroeconomics
 * biology : philosophy of mind :: ethology : meditation
 * David Gerard : Eliezer Yudkowsky :: Lucifer : God :: Émile Torres : William MacAskill :: Melkor : Eru Illúvatar
+* attention : distraction :: awareness : spacedoutness
 
 Better Words
 --------------

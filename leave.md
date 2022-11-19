@@ -225,16 +225,34 @@ Evidence
 ### Have Attention Spans Been Declining?
 
 [Attention](https://en.wikipedia.org/wiki/Attention) is generally
-divided into three distinct categories: sustained attention,
-which is the consistent focus on a specific task or piece of
-information over time (Wikipedia states that the span for sustained
-attention has a [leprechaun](https://www.gwern.net/Leprechauns)
-figure of 10 minutes floating around); selective attention, which
-is the ability to resist distractions while focusing on important
+divided into three distinct categories: **sustained attention**, which
+is the consistent focus on a specific task or piece of information
+over time (Wikipedia states that the span for sustained attention
+has a [leprechaun](https://www.gwern.net/Leprechauns) figure of
+10 minutes floating around); **selective attention**, which is
+the ability to resist distractions while focusing on important
 information while performing on a task (the thing trained during
-[mindfulness meditation](https://en.wikipedia.org/wiki/Mindfulness);
-and alternating attention, also known as the ability to
+[mindfulness meditation](https://en.wikipedia.org/wiki/Mindfulness); and
+**alternating** or **divided attention**, also known as the ability to
 [multitask](https://en.wikipedia.org/wiki/Human_multitasking).
+
+When asking the question "have attention spans been declining", we'd
+ideally want the same test measung all those three aspects of attention
+(and not just asking people about their perception via surveys<!--TODO:
+link guzey on surveys-->), performed anually on large random samples of
+humans over decades, ideally with additional information such as age,
+sex, intelligence (or alternatively educational attainment), occupation
+etc. I'm personally most interested in the development of sustained
+attention, and less so in the development of selective attention. But I
+have not been able to find such research, and in fact there is apparently
+no agreed upon test for measuring attention span in the first place:
+
+> She studies attention in drivers and witnesses to crime and says the
+idea of an "average attention span" is pretty meaningless. "It's very
+much task-dependent. How much attention we apply to a task will vary
+depending on what the task demand is."
+
+*— Simon Maybin quoting Dr. Gemma Briggs, [“Busting the attention span myth”](https://www.bbc.com/news/health-38896790), 2017*
 
 When asking whether attention spans have been declining, we'd
 ideally want to have experiments from up to 2019: close enough
@@ -267,7 +285,17 @@ for age, which [increases with age until the early
 * `https://doi.org/10.1177%2F0956797615594896`
 * `https://web.archive.org/web/20100601192507/http://blogs.suntimes.com/ebert/2010/05/the_french_word_frisson_descri.html`
 * `http://blogs.suntimes.com/ebert/2010/05/the_french_word_frisson_descri.html#more`
-* `https://www.wired.com/magazine/2010/05/ff_nicholas_carr/`
+* `https://www.wired.com/2010/05/ff-nicholas-carr/`
+* `https://www.wired.com/beyond-the-beyond/2016/08/nicholas-carr-world-wide-cage/`
+* `https://web.archive.org/web/20100601192507/http://blogs.suntimes.com/ebert/2010/05/the_french_word_frisson_descri.html`
+* `https://www.digitalinformationworld.com/2020/02/report-shows-that-attention-spans-are-shortening.html`
+* `https://www.euruni.edu/blog/the-truth-about-decreasing-attention-spans-in-university-students/`
+* `https://www.dtu.dk/english/news/all-news/nyhed?id=246BBED3-8683-4012-A294-20DB7F0015F4`
+* `https://www.brainbalancecenters.com/blog/normal-attention-span-expectations-by-age`
+* `https://www.dtu.dk/english/news/all-news/nyhed?id=246BBED3-8683-4012-A294-20DB7F0015F4`
+* `https://lsf.org/grammar/are-attention-spans-getting-shorter/`
+* `https://statenews.com/article/2022/01/having-the-attention-span-of-a-goldfish-may-no-longer-be-the-the-joke-you-think-it-is?ct=content_open&cv=cbox_latest`
+* `https://www.kcl.ac.uk/news/are-attention-spans-really-collapsing-data-shows-uk-public-are-worried-but-also-see-benefits-from-technology`
 
 For television & children:
 
