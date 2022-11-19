@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-10-02, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-11-19, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __Very small pieces of fiction and things that are sufficiently like
 fiction.__
@@ -227,6 +227,10 @@ Having now observed
 The one year and one day rule  
 I can say it's good
 
+The moon, presented:  
+A jewel on a pillow  
+chalk washed far away
+
 ##### Lipogrammatic Bukkake Senryūs
 
 I made up the ugliest possible genre of poetry.
@@ -255,7 +259,7 @@ now turns arduous
 > *epistemic status: I saw the best minds of my generation*
 >  
 > Limply balancing mile-deep cocktail glasses and clamoring for laughable Thielbucks on the cramped terraces of Berkely,  
-who invite you to the luring bay, promising to pay for your entire being while elegantly concealing the scarlet light evaporating from their tearducts and nostrils,  
+who invite you to the luring Bay, promising to pay for your entire being while elegantly concealing the scarlet light evaporating from their tearducts and nostrils,  
 who down 3¾ bottles of Huel™ and sprint to their next fellowship or retreat or meetup or workshop, in the pore-showingly lit hallways with whiteboards and whiteboards and whiteboards and whiteboards,  
 who want to crown random nerds with aureal sigmas fished from the manifold crevaces of self-denying deities,  
 who write epics of institutionalized autists bent on terraforming these overpopulated hypothetical hells,  

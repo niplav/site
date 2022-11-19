@@ -8,4 +8,4 @@ if(~ $datetime '') {
 echo -n 'weight (kg): '
 weight=`{read}
 
-printf '%s,%s,%s\n' $datetime $weight >>weights.csv
+printf '%s,%s\n' $datetime $weight >>weights.csv

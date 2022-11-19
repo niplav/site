@@ -1537,3 +1537,13 @@
 2022-11-14T00:21:19.000000Z	matpotlib
 2022-11-14T12:16:01.000000Z	1) What
 2022-11-14T15:55:05.000000Z	beliefs are position, epistemology is speed. i care about acceleration
+2022-11-15T22:23:27.000000Z	THE ACTOR OF THE MAIN CHARACTER FROM VGHS MARRIED THE ACTRESS PLAYING HIS LOVE INTEREST
+2022-11-15T23:31:42.000000Z	concept: Codex but fine-tuned on ticket description & diff pairs, for debugging instead of new code.
+2022-11-15T23:32:56.000000Z	how much programmer activity is spent writing new code vs. debugging existing code?
+2022-11-17T22:04:20.000000Z	Sauerkraut: The German Kimchi
+2022-11-18T07:35:43.000000Z	proposal: ability to sort posts on forum magnum by length
+2022-11-19T17:22:14.000000Z	i want that bear onesie
+2022-11-19T18:00:19.000000Z	analogue players link https://www.youtube.com/watch?v=WB3Oj00p83Q
+2022-11-19T18:52:55.000000Z	schelling.party
+2022-11-19T20:30:38.000000Z	Julius Caesar Scaliger pre-empted Scott Alexanders solution to theodicy: in his view god had created every being that would add more good than not to the cosmos
+2022-11-19T20:32:59.000000Z	noone told me that you can get basically free tutoring from professors during so-called office hours‽
