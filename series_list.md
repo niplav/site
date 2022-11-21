@@ -28,6 +28,7 @@ order). I may not be finished with some of these yet.
 * [Mr. Robot](https://www.imdb.com/title/tt4158110/)
 * [Neon Genesis Evangelion](https://www.imdb.com/title/tt0112159/)
 * [Rick and Morty](https://www.imdb.com/title/tt2861424/)
+* [Serial Experiments Lain]()
 * [Silicon Valley](https://www.imdb.com/title/tt2575988/)
 * [Snowpiercer](https://www.imdb.com/title/tt6156584/)
 * [Squid Game](https://www.imdb.com/title/tt10919420/)

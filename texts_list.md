@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-11-08, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-11-21, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,18 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [‘Queen Caroline’: The Risk-Loving 29-Year-Old Embroiled In The FTX Collapse (David Jeans/Sarah Emerson/Richard Nieva/Michael del Castillo, 2022)](https://www.forbes.com/sites/davidjeans/2022/11/18/queen-caroline-the-risk-loving-29-year-old-embroiled-in-the-ftx-collapse/)
+* [Sam Bankman-Fried tries to explain himself (Kelsey Piper, 2022)](https://www.vox.com/future-perfect/23462333/sam-bankman-fried-ftx-cryptocurrency-effective-altruism-crypto-bahamas-philanthropy)
+* \* Time Series: Theory and Methods (Peter J. Brockwell/Richard A. Davis, 2009)
+* \* The Precipice (Toby Ord, 2020)
+* [The attention span myth and why it’s problematic for marketers (Natasha Keary, 2021)](https://turtl.co/blog/the-attention-span-myth/)
+* [Do not date me (Qiaochu Yuan, 2022)](https://qchu.substack.com/p/do-not-date-me)
+* [Busting the attention span myth (Simon Maybin, 2017)](https://www.bbc.com/news/health-38896790)
+* Attention spans (Alyson Gausby, 2015)
+* [The Beginner Prescription (Austin Baraki/Jorgan Feigenbaum, 2019)](https://www.barbellmedicine.com/blog/the-beginner-prescription/)
+* [The Finale of the Ultimate Meta Mega Crossover (Eliezer Yudkowsky, 2009)](https://www.fanfiction.net/s/5389450/1/The-Finale-of-the-Ultimate-Meta-Mega-Crossover)
+* [Instead of technical research, more people should focus on buying time (Akash Wasil/Olivia Jimenez/Thomas Larsen, 2022)](https://www.lesswrong.com/posts/BbM47qBPzdSRruY4z/instead-of-technical-research-more-people-should-focus-on)
+* [Ontological Therapy (muflax, 2012)](http://web.archive.org/web/20141013085708/http://kruel.co/backup/Ontological%20Therapy.html)
 * Kognitiver und sozialer Konstruktivismus (A. Wookolf, 2008)
 * [Search versus design (Alex Flint, 2020)](https://www.lesswrong.com/s/hFom77cBBnnbNLzzm/p/r3NHPD3dLFNk9QE2Y)
 * [Superintelligent AI is necessary for an amazing future, but far from sufficient (Nate Soares, 2022)](https://www.lesswrong.com/posts/HoQ5Rp7Gs6rebusNP/superintelligent-ai-is-necessary-for-an-amazing-future-but-1)
