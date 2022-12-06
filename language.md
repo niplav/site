@@ -353,6 +353,7 @@ Nominative Determinisms
 * [Kirby Dick](https://en.wikipedia.org/wiki/Kirby_Dick) directed [a documentary](https://en.wikipedia.org/wiki/This_Film_Is_Not_Yet_Rated) about the age rating system for movies, "The MPAA gave the original cut an NC-17 rating for “some graphic sexual conten” – scenes that illustrated the content a film could include to garner such a rating. Dick appealed, and descriptions of the ratings deliberations and appeal were included in the documentary."
 * The [Schwarzschild radius](https://en.wikipedia.org/wiki/Schwarzschild_radius)
 * [Donald Broadbent's](https://en.wikipedia.org/wiki/Donald_Broadbent) [filter model of attention](https://en.wikipedia.org/wiki/Broadbent's_filter_model_of_attention)
+* The [Heaviside step function](https://en.wikipedia.org/wiki/Heaviside_step_function)
 
 Incorrect Plurals or Singulars People Use
 ------------------------------------------

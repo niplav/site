@@ -47,7 +47,7 @@ are unavailable or incomplete.
 *— Tsong Yueh Chen/Fei-Ching Kuo/Robert G. Merkel/T.H. Tse, [“Adaptive Random Testing: the ART of Test Case Diversity”](./doc/cs/reduction/adaptive_random_testing_chen_et_al_2010.pdf), 2010*
 
 Consider an agent which displays ([von
-Neumman-Morgenstern](https://en.wikipedia.org/wiki/Von_Neumann-Morgenstern_utility_theorem))
+Neumann-Morgenstern](https://en.wikipedia.org/wiki/Von_Neumann-Morgenstern_utility_theorem))
 inconsistent [preferences](https://en.wikipedia.org/wiki/Preference),
 for example choosing two incompatible
 options in the two scenarios in the [Allais

@@ -70,9 +70,7 @@ Reading
 
 Currently, I am actively reading the following books:
 
-* Darf man Tiere essen? (Plutarch, 100)
 * Die toten Seelen (Nikolai Gogol, 1842)
 * Naive Set Theory (Paul R. Halmos, 1960)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
-* Children of Dune (Frank Herbert, 1976)
