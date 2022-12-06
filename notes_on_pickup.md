@@ -258,3 +258,48 @@ I think that there are many other better parts of game to focus on.
 
 But perhaps I haven't dated girls that are hot enough to throw strong
 shit tests at me yet.
+
+Leaving My Phone At Home Makes Me Dick Around Less on My Phone
+---------------------------------------------------------------
+
+When I go out to approach women on the street (and, more recently, also
+in shops) my prime goal is to actually do the approaches. I have found
+that when I take my phone with me, the ubiquity of public WiFi where I
+live paired with my slight internet addiction make me spend time browsing
+the internet on my phone instead.
+
+This is a classic example of an avoidance weasel: the hard thing is the
+approach, so every possible slight distraction is amplified in strength
+(I've had a wing going to approach in a bookshop, just to find him there
+20 minutes later reading—not the right time, mate).
+
+Instead of using my phone to collect numbers, I bring a small
+notebook I also log my approaches and the time in, similar to [The Red
+Quest](https://theredquest.wordpress.com/2019/02/18/low-cut-top-girl-opening-off-an-ioi-on-the-way-to-the-gym-fr/index.html):
+
+> We chat a bit about a perfect party and I tell her I have a date with
+the gym. We talk about the gym for a minute. I get out my notebook and
+tell her to put her name and number in it.  
+> She’s surprised by the notebook thing, so we talk about that a bit,
+and I tell her about leaving my phone at home as that is a better way
+to experience the world (also something true… the younger the chick,
+the less they get this idea, except for Ms. Slav… the higher IQ, more
+self-aware chicks often understand this and have a love-hate relationship
+with their smartphones).
+
+*—[The Red Quest](https://theredquest.wordpress.com), [““Low-cut top girl,” opening off an IOI on the way to the gym [FR]”](https://theredquest.wordpress.com/2019/02/18/low-cut-top-girl-opening-off-an-ioi-on-the-way-to-the-gym-fr/index.html), 2019*
+
+This has some advantages and some disadvantages:
+
+* Advantages:
+	* It has far less potential for being a time waster (although I *have* found good use when being overcome by [the poetic muse](./microfiction.html#Poems))
+	* It's slightly out of the ordinary, so perhaps makes the approach more memorable and stand out
+	* Women sometimes remark on it (mostly positively, as far as I can tell), and I have used it for a bit of teasing ("you can still write, right?")
+* Disadvantages:
+	* Perhaps too weird, a cold approach on the street is already out-of-the-ordinary enough
+	* You have to pay extra attention to whether the woman sees the contact information others have written there as well (this is not just hypothetical: I might`$_{25\%}$` have lost a lead through this)
+	* There is no option to coordinate for a delayed instant date
+	* You can't make sure whether she has given you the right contact information (and this is perhaps even incentivized)
+
+Overall, for me the effects of removing one weasel strongly outweigh
+the downsides, but your mileage may vary.
