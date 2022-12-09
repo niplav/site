@@ -259,8 +259,8 @@ I think that there are many other better parts of game to focus on.
 But perhaps I haven't dated girls that are hot enough to throw strong
 shit tests at me yet.
 
-Leaving My Phone At Home Makes Me Dick Around Less on My Phone
----------------------------------------------------------------
+Leaving My Phone At Home
+-------------------------
 
 When I go out to approach women on the street (and, more recently, also
 in shops) my prime goal is to actually do the approaches. I have found

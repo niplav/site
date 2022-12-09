@@ -18,6 +18,23 @@ with fecundity.
 
 *—[Scott Alexander](https://slatestarcodex.com/), [“The Goddess of Everything Else”](https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/), 2015*
 
+December 2022
+--------------
+
+* [Leaving My Phone At Home](./notes_on_pickup.html#Leaving_My_Phone_At_Home)
+
+November 2022
+--------------
+
+* [Solutions to “Maths for Intelligent Systems”](./mfis_solutions.html)
+	* [2.4](./mfis_solutions.html#24)
+	* [2.6.3](./mfis_solutions.html#263)
+* [Solutions to “Introduction to Optimization”](./ito_solutions.html)
+	* [4.1.1](./ito_solutions.html#411)
+	* [4.3.3](./ito_solutions.html#433)
+	* [4.4.1](.//ito_solutions.html#441)
+* Some preliminary notes on [Have Attention Spans Been Declining](./leave.html#Have_Attention_Spans_Been_Declining)
+
 October 2022
 -------------
 
