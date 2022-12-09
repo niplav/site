@@ -339,7 +339,6 @@ Texts
 * Women actually enjoy getting chatted up, or are indifferent to it
 * Not masturbating for a while really improved my eye contact
 	* Caveat though
-* Leaving my phone at home made me dick around less on my phone will doing daygame
 * Yad Stop Flag
 * Wild and Unsupported Conjecture: Learning Pickup is Mostly Rewriting Your Life-History Strategy
 
