@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-11-11, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-12-11, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -1144,6 +1144,14 @@ Game. Even those odds likely overstate the number of Players in the world.
 
 *— Nick Krauser, “Daygame Mastery”, 2014*
 
+#### On Pickup
+
+* Some Thoughts on Game Effectiveness Metrics
+	* Wall-clock time vs. time spent doing game vs. number of approaches
+* Umeshisms as Shit-Test Responses
+	* "If you're not getting stabbed by pretty women you talk to, the women you approach aren't beautiful enough."
+	* "The optimal amount of awkwardness is not zero."
+
 ### Questions
 
 * Import ~/etc/notes/questions
@@ -1171,6 +1179,10 @@ Game. Even those odds likely overstate the number of Players in the world.
 * A Typical Daygame Session
 * A Typical Meditation Session
 * A 1 Month At-Home Meditation Retreat
+
+#### Pickup
+
+* The Jam Session DHV
 
 ### Misc
 
@@ -1886,6 +1898,8 @@ Wikipedia Articles
 	* backdoor criterion
 * Add "See Also" section to Causal Markov Condition
 * Fish shell add creation date
+* Dugway Proving Grounds change '--' to '—'
+* Plasma Modeling: The image contains the word 'Detial' which should be 'Detail'
 
 Lesswrong wiki
 ---------------

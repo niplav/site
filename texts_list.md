@@ -17,6 +17,16 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Motivationsförderung (Falko Rheinberg/Regina Vollmeyer, 2008)
+* [Foe (unit) (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Foe_(unit))
+* \* Solidarität oder Objektivität? (Richard Rorty, 1983)
+* [Why I'm Less Than Infinitely Hostile To Cryptocurrency (Scott Alexander, 2022)](https://astralcodexten.substack.com/p/why-im-less-than-infinitely-hostile)
+* Beginner Daygame (Nick Krauser/Tom Torero, 2014)
+* |7 Motiviert unterrichten (Angela Ittel/Sonja Mohr, 2014)
+* [Niceness is unnatural (Nate Soares, 2022)](https://www.lesswrong.com/s/v55BhXbpJuaExkpcD/p/krHDNc7cDvfEL8z9a)
+* |9 Motivation (Ulrich Schiefele, 2009)
+* Das Katastrophenprinzip (Stanisław Lem, 1983)
+* Lernen mit Medien (Elke Wild/Holger Horz/Jens Möller, 2015)
 * [‘Queen Caroline’: The Risk-Loving 29-Year-Old Embroiled In The FTX Collapse (David Jeans/Sarah Emerson/Richard Nieva/Michael del Castillo, 2022)](https://www.forbes.com/sites/davidjeans/2022/11/18/queen-caroline-the-risk-loving-29-year-old-embroiled-in-the-ftx-collapse/)
 * [Sam Bankman-Fried tries to explain himself (Kelsey Piper, 2022)](https://www.vox.com/future-perfect/23462333/sam-bankman-fried-ftx-cryptocurrency-effective-altruism-crypto-bahamas-philanthropy)
 * \* Time Series: Theory and Methods (Peter J. Brockwell/Richard A. Davis, 2009)
