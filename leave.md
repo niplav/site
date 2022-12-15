@@ -272,14 +272,15 @@ being directed at marketing professionals doesn't quite inspire confidence
 in me, and it is not very precise (often speaking of "% high sustained
 attention by demographic", without specifying what "high" is supposed
 to mean here). Add to that that they cite a probably [fallacious figure
-of a 8-second](https://www.bbc.com/news/health-38896790) attention span.
+of a 8-second](https://www.bbc.com/news/health-38896790) attention span
+([Twyman's law](https://en.wikipedia.org/wiki/Twyman's_law) in action).
 
 Having said all that, Gausby et al. 2015 states self-described
 heavy social-media users and early tech adopters do significantly
 worse in terms of sustained attention than lighter social-media
 users (though they don't make clear whether they controlled
 for age, which [increases with age until the early
-40's](https://en.wikipedia.org/wiki/Attention_span#Human_Attention_Span_Over_Time).
+40's](https://en.wikipedia.org/wiki/Attention_span#Human_Attention_Span_Over_Time)).
 
 * `https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4567490`
 * `https://doi.org/10.1177%2F0956797615594896`
@@ -296,6 +297,7 @@ for age, which [increases with age until the early
 * `https://lsf.org/grammar/are-attention-spans-getting-shorter/`
 * `https://statenews.com/article/2022/01/having-the-attention-span-of-a-goldfish-may-no-longer-be-the-the-joke-you-think-it-is?ct=content_open&cv=cbox_latest`
 * `https://www.kcl.ac.uk/news/are-attention-spans-really-collapsing-data-shows-uk-public-are-worried-but-also-see-benefits-from-technology`
+* `https://www.brainbalancecenters.com/blog/normal-attention-span-expectations-by-age`
 
 For television & children:
 

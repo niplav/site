@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2022-10-27, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2022-12-16, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -742,33 +742,59 @@ Trigger-Action Plans
 
 This is a list of some trigger-action plans I have installed/will install.
 
+### Installed
+
+1. After happiness, more happiness
+	* Trigger: I enter my current happiness on Mood Patterns
+	* Action: Focus on 10 breaths
+2. Got your keys
+	* Trigger: I grab the handle of the door outside my apartment
+	* Action: I feel in my pocket whether the keys are there
+
+### Dropped
+
+1. Take the keys
+	* Trigger: I stand up from my desk at work
+	* Action: I put my keys in my pocket
+2. Disabling web blocker
+	* Trigger: I try to disable Leechblock in my browser
+	* Action: I take a walk around the block
+
+### To Be Installed
+
 1. Knuckle-cracking
 	* Trigger: I crack my knuckles
 	* Action: I adjust my posture
 2. Nail-biting
 	* Trigger: I notice myself biting my nails
 	* Action: I put my hands on a desk/my lap, and focus on each of my fingertips for one in-out breath
-3. Disabling web blocker
-	* Trigger: I try to disable Leechblock in my browser
-	* Action: I take a walk around the house
-4. Take the keys
-	* Trigger: I stand up from my desk at work
-	* Action: I put my keys in my pocket
-5. After happiness, more happiness
-	* Trigger: I enter my current happiness on Mood Patterns
-	* Action: Focus on 10 breaths
-6. Alarm
+3. Alarm
 	* Trigger: I hear my alarm
 	* Action: I get out of bed
-7. Something is bad
+4. Something is bad
 	* Trigger: I feel bad/uncomfortable, in any way
 	* Action: I start noting my sensations
-8. No unwilling Wikipedia deep-dives
+5. No unwilling Wikipedia deep-dives
 	* Trigger: I type the 'x' of "Kiwix" to open the application
 	* Action: I set a 10-minute timer
-9. Mental jitteriness
+6. Mental jitteriness
 	* Trigger: I notice that I can't concentrate on anything, despite the circumstances being good for it (no internet, time set aside for deep work)
 	* Action: I do 20 burpees
+7. Toilet paper present
+	* Trigger: I sit down on a toilet
+	* Action: I look for/feel for toilet paper
+8. Posture (again)
+	* Trigger: I walk through a doorframe
+	* Action: I straighten my back, put my shoulders back
+
+### See Also
+
+* [Mati Roy](https://www.lesswrong.com/users/mathieuroy) asking about [social](https://www.lesswrong.com/posts/fNr8rZuQM2efqmLSG/what-social-trigger-action-plans-did-you-implement), [physical](https://www.lesswrong.com/posts/cejcJT6td43bbAcTk/what-physical-trigger-action-plans-did-you-implement) and [cognitive](https://www.lesswrong.com/posts/NnuXDCfnL9FLvNpuQ/what-cognitive-trigger-action-plans-did-you-implement) trigger-action plans
+* [Nuño Sempere's list of trigger-action plans](https://web.archive.org/web/20210511005303/https://nunosempere.github.io/rat/list-of-taps.html)<!--TODO: write him a mail that he should put it on his current site-->
+* [Ethan Morse on trigger-action plans](https://210ethan.github.io/knowledge/notes.html#trigger_action_plans), [his personal list](https://210ethan.github.io/research/self.html#trigger_action_plans)
+* [Lulie on trigger-action plans](https://www.lesswrong.com/posts/wJutA2czyFg6HbYoW/what-are-trigger-action-plans-taps)
+* [Kaj Sotala on trigger-action plans](https://www.lesswrong.com/posts/v4nNuJBZWPkMkgQRb/making-intentions-concrete-trigger-action-planning)
+* [Agenty Duck](https://agentyduck.blogspot.com/) on [noticing things, especially triggers](https://agentyduck.blogspot.com/)
 
 A Small Variation on Counting During Concentration Meditation
 --------------------------------------------------------------

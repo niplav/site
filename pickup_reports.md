@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-03-12, modified: 2022-04-10, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2022-03-12, modified: 2022-12-11, language: english, status: in progress, importance: 2, confidence: log*
 
 Pickup Reports
 ===============
@@ -96,6 +96,63 @@ But she was on.
 As [Nash](https://daysofgame.com) always says:
 
 Viva Daygame.
+
+### 2022-12-08
+
+#### What a Strong Shit Test
+
+I'm out on with a wing in a kind of trashy mall not far from where I live
+(in an area with low socio-economic status, and high crime). I see a young
+woman (maybe 19 or 20 years old?) walking by and get on the escalator,
+after half a second of hesitation (I'd not seen her well) I go for it.
+
+I get on the escalator behind her, she doesn't see me. On the top
+floor it's usually much less busy, I let her walk a couple meters until
+I wheel in front of her and stop her. She has a kind of funky style:
+flowing pants and a orange/red jacket with wide shoulders, plus several
+nose rings. I open the standard LDM way, and then start stacking:
+
+> Me: […] but what I noticed about you was the jacket, it looks like you've
+been rejected as a member from a biker gang.  
+> Her (completely seriously): I actually am a member of a biker gang,
+I like to stab men.  
+> Me: [half a second of actually believing her and getting kind of
+spooked, followed by the thought that this is a way of her telling me
+to bugger off]  
+> Me (stuttering): Huh, okay… then you're not really interested. Have a nice day.  
+> Her (smiling): You too! Thanks for the compliment :-)
+
+I went back to my wing and told him what had
+occurred, he immediately pick up on the fact that
+she was just shit-testing me. My [vibe simply wasn't strong
+enough](./notes_on_pickup.html#Instead_of_Recognizing_and_Dismantling_Shit_Tests_You_Could_Just_Vibe_Over_Them)
+to handle it (it's been the strongest shit test I've ever gotten **by
+far**).
+
+I am seriously impressed by this. Her delivery of the shit test was
+masterful, casual yet with conviction, completely improvised given
+my opener (I think she might've actually interrupted me, but I'm not
+sure). She was just very good at bantering, much better than I am.
+Very masculine delivery as well, my (sadly underdeveloped) bisexual side
+now kinda wants to get pegged by her.
+
+I have to admit honorable defeat, and was joking to my wing about becoming
+her student for bantering.
+
+What might I've said as a response? (Not that I expect to be able to
+deflect this kind of test anytime in the near future, and four days
+later you're always wittier)
+
+* "Nice, I've always wanted to be deeply penetrated" (Agree & amplify, with a sexual spike)
+* "If you're never getting stabbed the people you hang out with aren't interesting enough" (Umeshism)
+* "Finally, a worthy opponent! Our battle will be legendary!" or "Cool, wanna take this outside?" (Maybe slightly too chody)
+
+For a couple of earlier sessions at the same mall I'd carried a knife with
+me because I'd been threatened by a guy with a knife on public transport,
+but this time I didn't (but *imagine* her eyes if I'd opened my jacket
+and showed her the knife with the words "cool, wanna take this outside?").
+
+What an experience. I am impressed.
 
 <!--
 Sessions
