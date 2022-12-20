@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-11-19, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2022-12-20, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __Very small pieces of fiction and things that are sufficiently like
 fiction.__
@@ -266,8 +266,8 @@ who want to crown random nerds with aureal sigmas fished from the manifold creva
 who write epics of institutionalized autists bent on terraforming these overpopulated hypothetical hells,  
 pointing out dynamic inconsistency in the comments and melting hectoton steel-marbles around civilizational recipes,  
 who improve their aim hurling yeeting philosophical tomes at unsuspecting passerbys and ascend urban lampposts to loudly deduce their mechanical liturgies,  
-who cut down oaks and poppies in the parks to make oil and space for those ones yet to come and who hunker down in fortified coalmines in Montana and the Ruhrgebiet, propelled into the rock by a Ordite reactor, a Bostromite dynamo,  
-who exitedly pour & plaster tabulated exponents into webscripted canisters just below the teal-tinded ceiling,  
+who cut down oaks and poppies in the parks to make oil and space for those ones yet to come and who hunker down in fortified coalmines in Montana and the Ruhrgebiet, propelled into the rock by an Ordite reactor, a Bostromite dynamo,  
+who exitedly pour & plaster tabulated exponents into webscripted canisters just below the teal-tinted ceiling,  
 who can name the 11 AI forecasting organisations and the 4 factors of successful nonprofits and the 7 noble ways of becoming more agentic and might even find Rwanda on a map not made in Silicon Valley,  
 contemplating hemispherectomies to purify their nascent idealism on the verge of a hope-ash London dawn,  
 who catch a feral heart in the garden behind the A100 rack and save it into a transparent domicile, injecting it with 17000 volts to illuminate all the last battery cages equally,  

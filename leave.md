@@ -254,6 +254,10 @@ depending on what the task demand is."
 
 *— Simon Maybin quoting Dr. Gemma Briggs, [“Busting the attention span myth”](https://www.bbc.com/news/health-38896790), 2017*
 
+(So, [similar to
+comas](https://slatestarcodex.com/2014/08/11/does-the-glasgow-coma-scale-exist-do-comas/),
+attention span doesn't exist…)
+
 When asking whether attention spans have been declining, we'd
 ideally want to have experiments from up to 2019: close enough
 to the present to see whether there is a downward trend (a bit

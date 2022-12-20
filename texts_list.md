@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-11-21, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-12-20, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,34 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Goals for which Less Wrong does (and doesn't) help (Anna Salamon, 2010)](https://www.lesswrong.com/posts/7dRGYDqA2z6Zt7Q4h/goals-for-which-less-wrong-does-and-doesn-t-help)
+* [Mandatory Secret Identities (Eliezer Yudkowsky, 2009)](https://www.lesswrong.com/posts/gBewgmzcEiks2XdoQ/mandatory-secret-identities)
+* [Can we efficiently explain model behaviors? (Paul Christiano, 2022)](https://www.lesswrong.com/posts/dQvxMZkfgqGitWdkb/can-we-efficiently-explain-model-behaviors)
+* [Instrumental Rationality is a Chimera (Tom_Talbot, 2009)](https://www.lesswrong.com/posts/qTSRpyuuu6i9gGmWY/instrumental-rationality-is-a-chimera)
+* [Self-Improvement or Shiny Distraction: Why Less Wrong is anti-Instrumental Rationality (patrissimo, 2010)](https://www.lesswrong.com/posts/uFYQaGCRwt3wKtyZP/self-improvement-or-shiny-distraction-why-less-wrong-is-anti)
+* [Beyond a better world (David Manheim, 2022)](https://www.lesswrong.com/posts/ysDGYjmCXWmejhvja/beyond-a-better-world)
+* [Individual Rationality Is a Matter of Life and Death (patrissimo, 2009)](https://www.lesswrong.com/posts/WzMJRQBN3ryxiAbhi/individual-rationality-is-a-matter-of-life-and-death)
+* [Extreme Rationality: It's Not That Great (Scott Alexander, 2009)](https://www.lesswrong.com/posts/LgavAYtzFQZKg95WC/extreme-rationality-it-s-not-that-great)
+* [Yes, a blog. (Academian, 2010)](https://www.lesswrong.com/posts/DXcezGmnBcAYL2Y2u/yes-a-blog)
+* [Ingredients for creating disruptive research teams (Stefan Torges, 2019)](https://forum.effectivealtruism.org/posts/dCjz5mgQdiv57wWGz/ingredients-for-creating-disruptive-research-teams)
+* [Friendship Practices of the Secret-Sharing Plain Speech Valley Squirrels (Mark Taylor Saotome-Westlake, 2022)](http://unremediatedgender.space/2022/Sep/friendship-practices-of-the-secret-sharing-plain-speech-valley-squirrels/)
+* [The Signaling Hazard Objection (Mark Taylor Saotome-Westlake, 2022)](http://unremediatedgender.space/2022/Sep/the-signaling-hazard-objection/)
+* [The Two-Type Taxonomy Is a Useful Approximation for a More Detailed Causal Model (Mark Taylor Saotome-Westlake, 2022)](http://unremediatedgender.space/2022/Jul/the-two-type-taxonomy-is-a-useful-approximation-for-a-more-detailed-causal-model/)
+* [An Egoist Faith (Mark Taylor Saotome-Westlake, 2022)](http://unremediatedgender.space/2022/Jun/an-egoist-faith/)
+* [Challenges to Yudkowsky's Pronoun Reform Proposal (Mark Taylor Saotome-Westlake, 2022)](http://unremediatedgender.space/2022/Mar/challenges-to-yudkowskys-pronoun-reform-proposal/)
+* [Making intentions concrete - Trigger-Action Planning (Kaj Sotala, 2016)](https://www.lesswrong.com/posts/v4nNuJBZWPkMkgQRb/making-intentions-concrete-trigger-action-planning)
+* [The next decades might be wild (Marius Hobbahn, 2022)](https://www.lesswrong.com/posts/qRtD4WqKRYEtT5pi3/the-next-decades-might-be-wild)
+* [Perhaps It Is A Bad Thing That The World's Leading AI Companies Cannot Control Their AIs (Scott Alexander, 2022)](https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the)
+* [Attention span (English Wikipedia, 2022)](https://en.wikipedia.org/wiki/Attention_span)
+* [Trying to disambiguate different questions about whether RLHF is “good” (Buck Shlegeris, 2022)](https://www.lesswrong.com/posts/NG6FrXgmqPd5Wn3mh/trying-to-disambiguate-different-questions-about-whether)
+* [List of TAPs (Nuño Sempere, 2021)](https://web.archive.org/web/20210511005303/https://nunosempere.github.io/rat/list-of-taps.html)
+* [What's your personal TAP setup? (Raj Thimmiah, 2021)](https://www.lesswrong.com/posts/YjCtAQupnpoBRdDjE/what-s-your-personal-tap-setup)
+* [What cognitive trigger-action plans did you implement? (Mati Roy, 2020)](https://www.lesswrong.com/posts/NnuXDCfnL9FLvNpuQ/what-cognitive-trigger-action-plans-did-you-implement)
+* [What physical trigger-action plans did you implement? (Mati Roy, 2020)](https://www.lesswrong.com/posts/cejcJT6td43bbAcTk/what-physical-trigger-action-plans-did-you-implement)
+* [What social trigger-action plans did you implement? (Mati Roy, 2020)](https://www.lesswrong.com/posts/fNr8rZuQM2efqmLSG/what-social-trigger-action-plans-did-you-implement)
+* [What are Trigger-Action Plans (TAPs)? (Lulie, 2018)](https://www.lesswrong.com/posts/wJutA2czyFg6HbYoW/what-are-trigger-action-plans-taps)
+* [AI alignment is distinct from its near-term applications (Paul Christiano, 2022)](https://www.lesswrong.com/posts/Hw26MrLuhGWH7kBLm/ai-alignment-is-distinct-from-its-near-term-applications)
+* [I Don’t Want to Be an Internet Person (Ginevra Davis, 2022)](https://www.palladiummag.com/2022/11/04/i-do-not-want-to-be-an-internet-person/)
 * Motivationsförderung (Falko Rheinberg/Regina Vollmeyer, 2008)
 * [Foe (unit) (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Foe_(unit))
 * \* Solidarität oder Objektivität? (Richard Rorty, 1983)
@@ -48,7 +76,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Swiss Political System: More than You ever Wanted to Know (III.) (Martin Sustrik, 2020)](https://www.lesswrong.com/posts/fR9amAhzFktD5nMqi/swiss-political-system-more-than-you-ever-wanted-to-know-iii)
 * [By Which It May Be Judged (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/zqwWicCLNBSA5Ssmn)
 * [Mixed Reference: The Great Reductionist Project (Eliezer Yudkowsky, 2012)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/bTsiPnFndZeqTnWpu)
-* \* Children of Dune (Frank Herbert, 1976)
+* Children of Dune (Frank Herbert, 1976)
 * Die sozial-kognitive Theorie (Woofolk, 2008)
 * [Second-Order Logic: The Controversy (Eliezer Yudkowsky, 2013)](https://www.lesswrong.com/s/SqFbMbtxGybdS2gRs/p/SWn4rqdycu83ikfBa)
 * [Swiss Political System: More than You ever Wanted to Know (II.) (Martin Sustrik, 2020)](https://www.lesswrong.com/posts/KTnJ4w4grttfJmwo9/swiss-political-system-more-than-you-ever-wanted-to-know-ii)
@@ -406,7 +434,7 @@ ind.com/blog/we-are-very-excited-to-announce-the-launch-of-deepmind-health)
 * [LWer Effective Altruism donations, 2013-2014 (Gwern Branwen, 2018)](https://www.gwern.net/EA-donations)
 * Structural Regular Expressions (Rob Pike, 1990)
 * [Why short-range forecasting can be useful for longtermism (Linchuan Zhang, 2022)](https://rethinkpriorities.org/publications/why-short-range-forecasting-can-be-useful-for-longtermism)
-* \* Darf man Tiere essen? (Plutarch, 100)
+* Darf man Tiere essen? (Plutarch, 100)
 * Wei Dai’s Updateless Decision Theory (Tyrrell McAllister, 2011)
 * [How does forecast quantity impact forecast quality on Metaculus? (Charles Dillon, 2021)](https://rethinkpriorities.org/publications/how-does-forecast-quantity-impact-forecast-quality-on-metaculus)
 * [Reflector (cellular automaton) (English Wikipedia, 2021)](https://en.wikipedia.org/Reflector_\(cellular_automaton\))

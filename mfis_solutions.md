@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-10-19, modified: 2022-10-24, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2022-10-19, modified: 2022-12-20, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __Solutions to the textbook “Maths for Intelligent Systems”.__
 
@@ -78,7 +78,13 @@ Alas, plugging in `$g$` into `$f$` gives `$f(x)=3x+2(2x)$` and
 
 ### 2.6.1
 
-I… I don't know what the skew is :-/
+I… I don't know what the skew matrix is :-/, and Wikipedia
+isn't very helpful (I don't think it's the [skew-Hermitian
+matrix](https://en.wikipedia.org/wiki/Skew-Hermitian_matrix)
+or the [skew-symmetric
+matrix](https://en.wikipedia.org/wiki/Skew-symmetric_matrix)
+or the [skew-Hamiltonian
+matrix](https://en.wikipedia.org/wiki/Skew-Hamiltonian_matrix)).
 
 ### 2.6.2
 
@@ -141,3 +147,20 @@ And now the cooler `$f$`:
 	f (generic function with 1 method)
 	julia> df(x)=2*transpose(x)
 	df (generic function with 1 method)
+
+### 2.6.4
+
+The derivative of `$σ(W_0 \times x_0)$`, using the chain rule and the derivative
+of `$\frac{dσ}{dx}=σ'$`, is `$σ'(W_0 \times x_0) \times W_0$`.
+
+Applying this again for `$W_1 \times σ(W_0 \times x_0)$`,
+we get `$W_1 \times σ'(W_0 \times x_0) \times W_0$`.
+
+Again: `$\frac{d}{d x_0} σ(W_1 \times σ(W_0 \times x_0))=σ'(W_1 \times σ(W_0 \times x_0)) \times W_1 \times σ'(W_0 \times x_0) \times W_0$`.
+
+And finally:
+`$\frac{d}{d x_0} W_2 \times σ(W_1 \times σ(W_0 \times x_0))=W_2 \times σ'(W_1 \times σ(W_0 \times x_0)) \times W_1 \times σ'(W_0 \times x_0) \times W_0$`.
+
+Then the formula for computing `$\frac{d f}{d x_0}$` is `$W_2 \times \prod_{l=0}^{m-1} σ'(z_{l+1}) \times W_l$`,
+where `$m$` is the number of matrices, and `$\prod$` is left matrix
+multiplication.

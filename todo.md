@@ -1898,8 +1898,10 @@ Wikipedia Articles
 	* backdoor criterion
 * Add "See Also" section to Causal Markov Condition
 * Fish shell add creation date
-* Dugway Proving Grounds change '--' to '—'
-* Plasma Modeling: The image contains the word 'Detial' which should be 'Detail'
+* Bitte bitte
+	* Watch the video and provide a better summary
+* Rewrite the Attention Span article
+* Link Gab in Parler "See Also" section
 
 Lesswrong wiki
 ---------------

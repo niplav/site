@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2021-10-14, language: english, status: finished, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-12-20, language: english, status: finished, importance: 1, confidence: log*
 
 > __Series I have watched since January 2018.__
 
@@ -12,6 +12,7 @@ These are the series I have watched since January 2018 (alphabetical
 order). I may not be finished with some of these yet.
 
 * [Altered Carbon](https://www.imdb.com/title/tt2261227/)
+* [Andor]()
 * [Berserk](https://www.imdb.com/title/tt0318871/)
 * [Black Mirror](https://www.imdb.com/title/tt2085059/)
 * [BoJack Horseman](https://www.imdb.com/title/tt3398228/)
