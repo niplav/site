@@ -14,7 +14,7 @@ subheaders=soup.find_all(lambda tag: tag.name in ['h1', 'h2', 'h3', 'h4', 'h5', 
 anchorhash=dict()
 
 for sh in subheaders:
-	t=ref=sh.string
+	ref=sh.string
 	if str(ref)=='home':
 		continue
 	ref=re.sub('[^a-zA-Z0-9 ]', '', str(ref))
@@ -32,8 +32,10 @@ for sh in subheaders:
 
 	new_tag=soup.new_tag('a', href='#'+ref)
 	new_tag['class']='hanchor'
+	sh.wrap(new_tag)
+	sh.unwrap()
+	new_tag.wrap(sh)
 	sh['id']=ref
-	list(sh.children)[0].wrap(new_tag)
 
 f.close()
 

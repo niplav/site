@@ -44,6 +44,8 @@ Writing
 
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 * [Forecasters: What Do They Know? Do They Know Things?? Let's Find Out!](./forecasters.html)
+* [Iqisa: A Library For Handling Forecasting Datasets](./iqisa.html)
+	* [Documentation](./iqisadoc.html)
 
 #### Programming & Computer Science
 
@@ -85,6 +87,7 @@ Writing
 * [Solutions to “Reactive Systems”](./rs_solutions.html)
 * [Solutions to “Programming in Lua”](./pil_solutions.html)
 * [Solutions to “Population Genetics”](./pg_solutions.html)
+* [Solutions to “Maths for Intelligent Systems”](./mfis_solutions.html)
 * [Solutions to “A Primer in Social Choice Theory”](./apisct_solutions.html)
 * [Solutions to “Algorithmic Game Theory”](./agt_solutions.html)
 * [Solutions to “Pattern Recognition and Machine Learning”](./praml_solutions.html)

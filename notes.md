@@ -1343,6 +1343,6 @@ Pet Peeves
 * Numerical scales for symmetric variables (e.g. quality/pleasure & pain/change), that are only positive
 * Reporting the number of lives lost, not the number of [QALYs](https://en.wikipedia.org/wiki/Quality-adjusted_life_year) (or [DALYs](https://en.wikipedia.org/wiki/Disability-adjusted_life_year) or [HALY+s](https://forum.effectivealtruism.org/posts/Lncdn3tXi2aRt56k5/health-and-happiness-research-topics-part-1-background-on#1__The_HALY_) or [sHALYs](https://forum.effectivealtruism.org/posts/Lncdn3tXi2
 Rt56k5/health-and-happiness-research-topics-part-1-background-on#2__The_sHALY) etc.) lost
-* Browsers splitting words at a newline on a ﬀ ligature
+* Browsers splitting words at a newline on an ﬀ ligature
 * Menus at restaurants that don't indicate whether the meal is vegetarian or not (ingredients often don't help: Restaurants will put meat (e.g. bacon cubes in salads) into dishes and not indicate it on the menu)
 * Websites that offer two-factor authentication, but don't allow physical authentication keys and, worse, don't offer an option to backup those two-factor authentication methods
