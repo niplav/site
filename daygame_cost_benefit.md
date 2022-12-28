@@ -193,8 +193,8 @@ Visualizing this shows the following:
 
 ### Empirical Data for Ratios
 
-Fortunately, daygamers are often very diligent in keeping track records
-of their ratios and even publish them.
+Fortunately, some daygamers are often very diligent in keeping track
+records of their ratios and even publish them.
 
 Here, I collect cumulative date and lay ratios from several blogs. I
 don't count idates as dates, because I'm not sure whether daygamers
@@ -355,6 +355,11 @@ Date ratios:
 	kdate::[[1000 60][1480 110][2150 160]]
 	kdaterat::{(*x),%/|x}'kdate
 
+#### Wolfe Daygame
+
+* [First 1000 approaches](https://wolfedaygame.wordpress.com/2022/06/05/1000-sets-of-hell/index.html)
+	wlay::[[39 1][200 2][396 3][584 4][619 5][678 6][746 7][825 8][961 9]]
+
 <!--TODO: these two
 
 #### Runner
@@ -374,7 +379,6 @@ Date ratios:
 And this one:
 
 https://old.reddit.com/r/seduction/comments/9ock2a/my_daygame_experience_so_far_statistics_and/
-https://wolfedaygame.wordpress.com/2022/06/05/1000-sets-of-hell/
 -->
 
 #### Visualizing the Data

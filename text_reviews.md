@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-12-30, modified: 2022-05-20, language: english, status: in progress, importance: 3, confidence: opinion*
+*author: niplav, created: 2020-12-30, modified: 2022-12-24, language: english, status: in progress, importance: 3, confidence: opinion*
 
 > __Reading a text is sometimes a big time investment, but people
 don't approach their reading in a structured manner, e.g. by keeping
@@ -182,6 +182,33 @@ Overall, the book had some interesting points about suicide, the quality of
 life and meaning, but felt rather pointless.
 
 __3/10__
+
+### Right Concentration (Leigh Brasington, 2015)
+
+Illustrates the theory-practice gap, but in the other direction:
+excellently practical first half (which helped me get into the first
+jhāna (briefly) during a long retreat (the hard part is getting
+the access concentration good enough, which the book doesn't spend
+enough time on, in my opinion—only a short appendix (at least there's
+recommendations for other books)). The anecdotes from his students and
+their problems with entering the jhānas are fascinating (pīti that
+doesn't go away? jhānas contraindicated with seizures?), as are his
+reports of deep concentration states on long retreats (the visual field
+turning white in the fourth jhāna, and reports about the the nimitta,
+make me wonder what goes on in the visual cortex during absorption
+meditation).
+
+But Brasington just *wants* to believe that the Suttas are basically
+infallible, **especially** when they report what the Buddha said
+(Brasington has remarked on podcasts that we know that the Buddha knew
+what he was talking about, which I don't get—even if he was a great
+meditator and thinker, he could just have been *wrong* sometimes):
+Expecting the Suttas to accurately and coherently reflect reality
+in all its aspects is a bit too optimistic for me. But Brasington
+goes full memetic immune disorder on the Suttas, and the result is
+just…uninteresting?
+
+__6.5/10__
 
 LessWrong Yearly Reviews
 -------------------------

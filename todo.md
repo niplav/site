@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-12-11, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2022-12-23, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -225,6 +225,8 @@ Texts
 * An aggregation of all of Scott Alexander's forecasting results in one place
 * Probabilistic Forecasting as a Social Technology
 * Practical Forecasting Handbook
+* Addenda to the Prediction Market FAQ
+	* `https://astralcodexten.substack.com/p/prediction-market-faq`
 
 ### Population
 
@@ -328,6 +330,7 @@ Texts
 	* Another datapoint on slow/fast takeoff
 * Repurposing honeypots for AI safety?
 * Kitchen sink versus integrated AI alignment
+* The Relation Between Corrigibility and Impact Measures
 
 ### Pick Up
 
@@ -1901,7 +1904,8 @@ Wikipedia Articles
 * Bitte bitte
 	* Watch the video and provide a better summary
 * Rewrite the Attention Span article
-* Link Gab in Parler "See Also" section
+* Add See Also section to Rumo and His Miraculous Adventures
+* In Deontic Logic, subsection "Mally's first deontic logic and von Wright's first plausible deontic logic", change the non-LaTeX to LaTeX
 
 Lesswrong wiki
 ---------------

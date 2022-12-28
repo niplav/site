@@ -1599,3 +1599,16 @@
 2022-12-19T16:25:07.000000Z	(i won't watch it anyway)
 2022-12-19T22:50:05.000000Z	https://www.lesswrong.com/posts/7dRGYDqA2z6Zt7Q4h/goals-for-which-less-wrong-does-and-doesn-t-help?commentId=CRMuTvT8sYEYgddME this is just 80k hours. how did they know
 2022-12-20T00:58:22.000000Z	i would buy, but never wear, lesswrong merch
+2022-12-20T15:03:08.000000Z	often it doesn't actually matter whether you're chatting with an LLM or a human, you can just stop talking
+2022-12-21T16:00:08.000000Z	Zeynep's razor (second-order effects): https://nitter.net/zeynep/status/1478766408691556353?lang=en
+2022-12-21T18:29:09.000000Z	tbh whenever someone is like “the existing arguments for agi xrisk were insufficient/unclear, here's my better version” the arguments read exactly the same to me as the existing ones.
+2022-12-21T18:49:08.000000Z	philosophytube followers be pondering the impossibility of white bears in novaya semlya
+2022-12-21T19:45:23.000000Z	I really enjoy the portray of conseqduentialism in the SEP article on deontology: https://plato.stanford.edu/entries/ethics-deontological/
+2022-12-21T19:48:50.000000Z	philosophical technique: A is X, B is Y, but there is a continuous transformation from A to B, but there isn't from X to Y, where does the switch occur?
+2022-12-21T19:54:22.000000Z	in deontic logic, is ~obligation(~x)=permission(x)?
+2022-12-21T23:45:48.000000Z	but also the amount of time a broken clock is right has measure zero
+2022-12-22T00:26:22.000000Z	philogynic phylogynists
+2022-12-22T09:36:41.000000Z	deontology is not de-ontology
+2022-12-23T16:08:30.000000Z	it's really funny when people tag jimmy wales on twitter when they don't like some of the content on wikipedia. it's like someone would tag Nat Friedman when they find a bug in a program hosted there
+2022-12-25T15:29:41.000000Z	there are naive millionaires, but there are no naive billionaires
+2022-12-25T15:30:25.000000Z	Some people can only act if there are adults in the room. But there often aren't
