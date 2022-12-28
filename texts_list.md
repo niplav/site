@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-12-20, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2022-12-24, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,8 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [* Deontological Ethics (Larry Alexander/Michael Moore, 2020)](https://plato.stanford.edu/entries/ethics-deontological/)
+* [Prediction Market FAQ (Scott Alexander, 2022)](https://astralcodexten.substack.com/p/prediction-market-faq)
 * [Goals for which Less Wrong does (and doesn't) help (Anna Salamon, 2010)](https://www.lesswrong.com/posts/7dRGYDqA2z6Zt7Q4h/goals-for-which-less-wrong-does-and-doesn-t-help)
 * [Mandatory Secret Identities (Eliezer Yudkowsky, 2009)](https://www.lesswrong.com/posts/gBewgmzcEiks2XdoQ/mandatory-secret-identities)
 * [Can we efficiently explain model behaviors? (Paul Christiano, 2022)](https://www.lesswrong.com/posts/dQvxMZkfgqGitWdkb/can-we-efficiently-explain-model-behaviors)
@@ -58,7 +60,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [‘Queen Caroline’: The Risk-Loving 29-Year-Old Embroiled In The FTX Collapse (David Jeans/Sarah Emerson/Richard Nieva/Michael del Castillo, 2022)](https://www.forbes.com/sites/davidjeans/2022/11/18/queen-caroline-the-risk-loving-29-year-old-embroiled-in-the-ftx-collapse/)
 * [Sam Bankman-Fried tries to explain himself (Kelsey Piper, 2022)](https://www.vox.com/future-perfect/23462333/sam-bankman-fried-ftx-cryptocurrency-effective-altruism-crypto-bahamas-philanthropy)
 * \* Time Series: Theory and Methods (Peter J. Brockwell/Richard A. Davis, 2009)
-* \* The Precipice (Toby Ord, 2020)
+* The Precipice (Toby Ord, 2020)
 * [The attention span myth and why it’s problematic for marketers (Natasha Keary, 2021)](https://turtl.co/blog/the-attention-span-myth/)
 * [Do not date me (Qiaochu Yuan, 2022)](https://qchu.substack.com/p/do-not-date-me)
 * [Busting the attention span myth (Simon Maybin, 2017)](https://www.bbc.com/news/health-38896790)
@@ -389,25 +391,20 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Book Review: Humankind by Rutger Bregman (William Buckner, 2020)](https://traditionsofconflict.com/blog/2020/12/13/book-review-humankind-by-rutger-bregman)
 * [Surprisingly Turing-Complete (Gwern Branwen, 2021)](https://www.gwern.net/Turing-complete)
 * [Choosing Software (Gwern Branwen, 2012)](https://www.gwern.net/Choosing-Software)
-* [Conceptual Issues with Evolutionary Psychology: The Case of the ‘Mate-Killing Module’ (William Buc
-kner, 2020)](https://traditionsofconflict.com/blog/2020/4/28/conceptual-issues-with-evolutionary-psyc
-hology-the-case-of-the-mate-killing-module)
+* [Conceptual Issues with Evolutionary Psychology: The Case of the ‘Mate-Killing Module’ (William Buckner, 2020)](https://traditionsofconflict.com/blog/2020/4/28/conceptual-issues-with-evolutionary-psychology-the-case-of-the-mate-killing-module)
 * [Reasons of State: Why Didn’t Denmark Sell Greenland? (Gwern Branwen, 2019)](https://www.gwern.net/Greenland)
 * [Startup Ideas (Gwern Branwen, 2021)](https://www.gwern.net/Startup-ideas)
 * [Forbidden Utterances: Naming the Dead (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/8/23/forbidden-utterances-naming-the-dead)
 * [What Is The Collecting Mindset? (Gwern Branwen, 2022)](https://www.gwern.net/Collecting)
 * ['The WEIRDest People in the World' gets polygyny wrong (William Buckner, 2020)](https://traditionsofconflict.com/blog/2020/9/8/the-weirdest-people-in-the-world-gets-polygyny-wrong)
 * [Why Unity Biotechnology's UBX0101 failed (José Luis Ricón, 2020)](https://nintil.com/why-ubx0101-failed)
-* [Is cellular senescence irreversible? (José Luis Ricón, 2020)](https://nintil.com/reversible-senescenc
-e)
-* [On Seeing Through and Unseeing: The Hacker Mindset (Gwern Branwen, 2021)](https://www.gwern.net/Unsee
-ing)
+* [Is cellular senescence irreversible? (José Luis Ricón, 2020)](https://nintil.com/reversible-senescence)
+* [On Seeing Through and Unseeing: The Hacker Mindset (Gwern Branwen, 2021)](https://www.gwern.net/Unseeing)
 * [Progress In Beauty (Gwern Branwen, 2021)](https://www.gwern.net/Beauty)
 * [How Many Computers Are In Your Computer? (Gwern Branwen, 2021)](https://www.gwern.net/Computers)
 * [Easy Cryptographic Timestamping of Files (Gwern Branwen, 2017)](https://www.gwern.net/Timestamping)
 * [How to solve aging (José Luis Ricón, 2021)](https://nintil.com/how-to-solve-aging)
-* [CO₂ Coin: Decentralized Carbon Capture Blockchains (Gwern Branwen, 2022)](https://www.gwern.net/CO2-C
-oin)
+* [CO₂ Coin: Decentralized Carbon Capture Blockchains (Gwern Branwen, 2022)](https://www.gwern.net/CO2-Coin)
 * [The Dilemma of the Deserted Husband (and why polygyny is more common than polyandry) (William Buc
 kner, 2018)](https://traditionsofconflict.com/blog/2018/3/27/the-dilemma-of-the-deserted-husband-and
 -why-polygyny-is-more-common-than-polyandry-across-cultures)
@@ -415,16 +412,12 @@ kner, 2018)](https://traditionsofconflict.com/blog/2018/3/27/the-dilemma-of-the-
 /www.deepmind.com/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40)
 * [Fermi Calculation Examples (Gwern Branwen, 2022)](https://www.gwern.net/notes/Fermi)
 * [Frank P. Ramsey bibliography (Gwern Branwen, 2022)](https://www.gwern.net/notes/Ramsey)
-* [Welcome, Pieter and Shivon! (Ilya Sutskever, 2016)](https://openai.com/blog/welcome-pieter-and-sh
-ivon/)
+* [Welcome, Pieter and Shivon! (Ilya Sutskever, 2016)](https://openai.com/blog/welcome-pieter-and-shivon/)
 * [Team++ (Greg Brockman, 2016)](https://openai.com/blog/team-plus-plus/)
-* [Introducing OpenAI (Greg Brockman/Ilya Sutskever/OpenAI, 2015)](https://openai.com/blog/introduci
-ng-openai/)
+* [Introducing OpenAI (Greg Brockman/Ilya Sutskever/OpenAI, 2015)](https://openai.com/blog/introducing-openai/)
 * [Announcing DeepMind Health research partnership with Moorfields Eye Hospital (Deepmind, 2016)](ht
-tps://www.deepmind.com/blog/announcing-deepmind-health-research-partnership-with-moorfields-eye-hosp
-ital)
-* [We are very excited to announce the launch of DeepMind Health (Deepmind, 2016)](https://www.deepm
-ind.com/blog/we-are-very-excited-to-announce-the-launch-of-deepmind-health)
+tps://www.deepmind.com/blog/announcing-deepmind-health-research-partnership-with-moorfields-eye-hospital)
+* [We are very excited to announce the launch of DeepMind Health (Deepmind, 2016)](https://www.deepmind.com/blog/we-are-very-excited-to-announce-the-launch-of-deepmind-health)
 * [Eternal Subjugation (William Buckner, 2019)](https://traditionsofconflict.com/blog/2019/7/5/eternal-subjugation)
 * [2012 election predictions (Gwern Branwen, 2015)](https://www.gwern.net/2012-election-predictions)
 * \* Die toten Seelen (Nikolai Gogol, 1842)
