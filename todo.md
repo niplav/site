@@ -74,6 +74,7 @@ Site
 * Collect all memes
 	* Add memes:
 		* I wish all dukkha a very pleasant cessation
+* Move `text_reviews.md` to `reviews.md`
 
 Existing Texts
 --------------
@@ -1836,6 +1837,10 @@ produces
 	∸∸∸∸∸ ∸∸∸∸ ∸∸∸∸ ∸∸∸∸∸
 	∸∸∸∸∸ However, in a sense, maxichoice contraction
 	functions in general produce contractions
+
+#### Void Packages
+
+* julia
 
 ### Languages to Learn
 

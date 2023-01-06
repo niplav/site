@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2022-10-23, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2023-01-06, language: english, status: in progress, importance: 6, confidence: log*
 
 > __If you take away just one thing from this website,
 it should be that I think [you would want to sign up for
@@ -66,6 +66,7 @@ Writing
 #### Surveys & Experiments
 
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
+* [Types & Methods of Data Collection I Use](./data.html)
 
 #### Collections
 

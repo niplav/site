@@ -357,8 +357,35 @@ Date ratios:
 
 #### Wolfe Daygame
 
+* [First 445 approaches](https://wolfedaygame.wordpress.com/2021/09/30/the-first-three-months/index.html)
+* [First 593 approaches](https://wolfedaygame.wordpress.com/2021/11/28/600-not-out/index.html)
 * [First 1000 approaches](https://wolfedaygame.wordpress.com/2022/06/05/1000-sets-of-hell/index.html)
-	wlay::[[39 1][200 2][396 3][584 4][619 5][678 6][746 7][825 8][961 9]]
+* [2022](https://wolfedaygame.wordpress.com/2022/12/20/daygame-review-2022/index.html)
+	* [January](https://wolfedaygame.wordpress.com/2022/02/01/january-review/index.html)
+	* [February](https://wolfedaygame.wordpress.com/2022/02/28/february-review/index.html)
+	* [March](https://wolfedaygame.wordpress.com/2022/04/04/march-review/index.html)
+	* [April](https://wolfedaygame.wordpress.com/2022/05/03/april-review-frustrating-progress/index.html)
+	* [May](https://wolfedaygame.wordpress.com/2022/06/05/may-review/index.html)
+	* [June](https://wolfedaygame.wordpress.com/2022/07/05/june-review-shit-approaches-weekends-with-girls-and-lessons-from-self-coaching/index.html)
+	* [July](https://wolfedaygame.wordpress.com/2022/08/02/july-review-much-ado-about-nothing/index.html)
+	* [August](https://wolfedaygame.wordpress.com/2022/08/31/august-review-sprezzatura-smv-and-greek-delights/index.html)
+	* [September](https://wolfedaygame.wordpress.com/2022/10/08/september-review-am-i-even-doing-daygame/index.html)
+	* [October](wolfedaygame.wordpress.com/2022/11/01/october-review-seven-weeks-to-go/index.html)
+	* [November](https://wolfedaygame.wordpress.com/2022/12/10/november-review-biting-your-hand-off/index.html)
+	* [December](https://wolfedaygame.wordpress.com/2022/12/16/december-review-the-streets-are-yours-son/index.html)
+
+Lay ratios:
+
+	wlay::[[39 1][200 2][396 3][584 4][619 5][678 6][746 7][825 8][961 9][1086 9][1122 9][1174 10][1220 11][1267 11][1317 12][1322 12]]
+	wlayrat::{(+/(*+wlay)<x)%x}'1+!1000
+
+Since the data for the first 1000 approaches is complete, we can create
+a dense array of ratios over time.
+
+Date ratios:
+
+	wdate::[[445 11][593 12][700 14][783 15][858 19][925 23][1000 32][1086 32][1122 32][1174 35][1220 37][1267 37][1317 39][1322 39]]
+	wdaterat::{(*x),%/|x}'wdate
 
 <!--TODO: these two
 

@@ -6,4 +6,5 @@
 *.blg
 *.log
 *.dvi
+.*vis*
 !header.html

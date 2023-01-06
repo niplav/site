@@ -11,6 +11,13 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Doctor Strange in the Multiverse of Madness]()
+* [Eternals]()
+* [Spider-Man: Far From Home]()
+* [Annihilation]()
+* [Captain America: The Winter Soldier]()
+* [The Lord of the Rings: The Fellowship of the Ring]()
+* [Un conte de Noël]()
 * [A Fish Called Wanda]()<!--TODO-->
 * [Don't look up](https://www.imdb.com/title/tt11286314/)
 * [Beetlejuice](https://www.imdb.com/title/tt0094721/)
