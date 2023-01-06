@@ -63,6 +63,7 @@ HTML=index.html \
 	mathematics_notation_convention.html \
 	metamodernistisches_manifest.html \
 	microfiction.html \
+	nootropics.html \
 	pipe_rings.html \
 	platte.html \
 	precision.html \

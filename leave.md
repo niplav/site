@@ -224,6 +224,16 @@ Evidence
 
 ### Have Attention Spans Been Declining?
 
+#### How Is Attention Span Defined?
+
+#### How Do We Measure Attention Span?
+
+#### What Would the Ideal Study Look Like?
+
+#### What Existing Investigations Exist?
+
+#### Why Are They So Inadequate?
+
 [Attention](https://en.wikipedia.org/wiki/Attention) is generally
 divided into three distinct categories: **sustained attention**, which
 is the consistent focus on a specific task or piece of information
