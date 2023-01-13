@@ -1123,6 +1123,8 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* wasted motion
 	* Long content and its curation
 * Tracking of Belief Introduces Overhead
+* The Sum Rule Holds for Jacobians and Hessians
+* What is the Relation Between Species Size and Species Longvevity?
 * Mastery is Exceedingly Rare
 
 > Very few will aspire to real mastery themselves. Very few will take the
@@ -1911,6 +1913,8 @@ Wikipedia Articles
 * Rewrite the Attention Span article
 * Add See Also section to Rumo and His Miraculous Adventures
 * In Deontic Logic, subsection "Mally's first deontic logic and von Wright's first plausible deontic logic", change the non-LaTeX to LaTeX
+* Add "See Also" section to Churchillian Drift, add Stigler's law of eponymy
+* Add a date of death for Donald Rubin (or is he still alive?)
 
 Lesswrong wiki
 ---------------

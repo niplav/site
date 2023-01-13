@@ -1612,3 +1612,6 @@
 2022-12-23T16:08:30.000000Z	it's really funny when people tag jimmy wales on twitter when they don't like some of the content on wikipedia. it's like someone would tag Nat Friedman when they find a bug in a program hosted there
 2022-12-25T15:29:41.000000Z	there are naive millionaires, but there are no naive billionaires
 2022-12-25T15:30:25.000000Z	Some people can only act if there are adults in the room. But there often aren't
+2023-01-08T20:57:00.000000Z	“(1) we don't know what is going on in LLMs (2) it's outlandish to say that LLMs have no understanding of the world” both claims cannot be true
+2023-01-08T20:57:00.000000Z	“(1) we don't know what is going on in LLMs (2) it's outlandish to say that LLMs have no understanding of the world” both claims cannot be true
+2023-01-13T10:38:08.000000Z	on reflection disinviting AI researchers from parties and conferences is not an effective way of stopping them in developing AGI

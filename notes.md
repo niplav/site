@@ -1346,3 +1346,65 @@ Rt56k5/health-and-happiness-research-topics-part-1-background-on#2__The_sHALY) e
 * Browsers splitting words at a newline on an ﬀ ligature
 * Menus at restaurants that don't indicate whether the meal is vegetarian or not (ingredients often don't help: Restaurants will put meat (e.g. bacon cubes in salads) into dishes and not indicate it on the menu)
 * Websites that offer two-factor authentication, but don't allow physical authentication keys and, worse, don't offer an option to backup those two-factor authentication methods
+
+Was Software Security in the Aughts Exceptionally Bad?
+-------------------------------------------------------
+
+I remember (from listening to a [bunch of podcasts by German hackers from the mid 00s](https://cre.fm/archiv)) a strong vibe that the security of
+software systems at the time and earlier was definitely worse than what
+would've been optimal for the people making the software (definitely
+not safe enough for the users!).
+
+I wonder whether that is (1) true and (if yes) (2) what led to this
+happening!
+
+Maybe companies were just [myopic](https://en.wikipedia.org/wiki/Myopia)
+when writing software then, and could've predicted the security problems
+but didn't care?
+
+Or was it that the error predicting the importance of security was just
+an outlier, that companies and industries on average correctly predict
+the importance of safety & security, and this was just a bad draw from
+the distribution.
+
+Or is this a common occurrence? Then
+one might chalk it up to (1) [information asymmetries](https://en.wikipedia.org/wiki/Information_asymmetry)
+(normal users don't value the importance of software security,
+let alone evaluate the quality of a given piece of software)
+or (2) information problems in firms ([managers had a personal incentive](https://www.lesswrong.com/s/kNANcHLNtJt5qeuSS/p/45mNHCMaZgsvfDXbw) to cut corners on safety).
+
+Another reason might be that lower-level software
+usually can make any security issues a reputational
+[externality](https://en.wikipedia.org/wiki/Externality)
+for end-user software: sure, in the end Intel's [branch predictor](https://en.wikipedia.org/wiki/Branch_predictor) is
+responsible for [Meltdown](https://en.wikipedia.org/wiki/Meltdown) and
+[Spectre](https://en.wikipedia.org/wik/Spectre), and for setting cache
+[timeouts](https://en.wikipedia.org/wiki/Timing_attack) too high that
+we can nicely [rowhammer.js](https://en.wikipedia.org/wiki/Row_hammer)
+it out, but what end-user will blame Intel and not "and then Chrome
+crashed and they wanted my money".
+
+This is, of course, in the context of the development of AI, and the
+common argument that "companies will care about single-single alignment".
+
+The possible counterexample of software security engineering until the
+mid 00s seemed like a good test case to me, but on reflection I'm now
+not so sure anymore.
+
+There are some reasons to believe that these podcasts are not
+evidence for low investment in security being a bad decision
+at the time: In my experience, most people in the European
+hacker scene are technically excellent, but have a surprisingly
+poor understanding of economics and what constraints running a
+business entails, as well as being quite left wing and therefore
+[mind-killed](https://www.lesswrong.com/rationality/politics-is-the-mind-killer)
+with respect to software companies. Their job depends on demand
+for security experts, so they have an additional incentive to
+make security sound important & neglected, and finally software
+security people I have met have no sense of proportion ("What,
+we're *only 30 years* off of viable implementations of [Shor's
+algorithm](https://en.wikipedia.org/wiki/Shor's_algorithm)
+cracking [RSA](https://en.wikipedia.org/wiki/RSA)? Better
+get working on that [post-quantum
+crypto](https://en.wikipedia.org/wiki/Post-quantum_cryptography),
+baby!") (this is a good thing, don't get me wrong).
