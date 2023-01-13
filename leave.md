@@ -224,6 +224,12 @@ Evidence
 
 ### Have Attention Spans Been Declining?
 
+The question is not
+
+* "Does more social media/internet usage cause decreased attention spans?"
+* "Does more social media/internet usage correlate with decreased attention spans?"
+* "Does more social media/internet usage correlate with people reporting having shorter attention spans?"
+
 #### How Is Attention Span Defined?
 
 #### How Do We Measure Attention Span?

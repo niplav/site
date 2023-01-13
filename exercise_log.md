@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-06-15, modified: 2023-01-05, language: english, status: notes, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-15, modified: 2023-01-07, language: english, status: notes, importance: 1, confidence: log*
 
 > __I recently got the feeling that tracking my exercise might be vaguely
 > useful. This is my attempt.__
@@ -3752,3 +3752,18 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 1 sets 10 reps 22kg dumbbell row RPE 7
 * 1 sets 10 reps 24kg dumbbell row RPE 8
 * 11 minutes cardio on bike difficulty 12 RPE 6
+
+### 2023-01-07T10:00-2023-01-07T11:09
+
+* 4 sets 10 reps 20kg deadlift RPE 1
+* 1 sets 4 reps 85kg deadlift RPE 6
+* 1 sets 4 reps 87.5kg deadlift RPE 7
+* 1 sets 4 reps 90kg deadlift RPE 7
+* 4 sets 10 reps 20kg bench press RPE 2
+* 1 sets 8 reps 42.5kg bench press RPE 6
+* 1 sets 8 reps 45kg bench press RPE 7
+* 1 sets 8 reps 47.5kg bench press RPE 8
+* 1 sets 10 reps 20kg back squat RPE 4
+* 1 sets 10 reps 42.5kg back squat RPE 7
+* 1 sets 10 reps 45kg back squat RPE 7
+* 1 sets 10 reps 47.5kg back squat RPE 8
