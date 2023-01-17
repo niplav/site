@@ -1125,6 +1125,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Tracking of Belief Introduces Overhead
 * The Sum Rule Holds for Jacobians and Hessians
 * What is the Relation Between Species Size and Species Longvevity?
+* {winning, losing}*{knowing why it happened, not knowing why it happened}*{being competent, being incompetent}
 * Mastery is Exceedingly Rare
 
 > Very few will aspire to real mastery themselves. Very few will take the
