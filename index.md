@@ -1,10 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2023-01-06, language: english, status: in progress, importance: 6, confidence: log*
-
-> __If you take away just one thing from this website,
-it should be that I think [you would want to sign up for
-cryonics](./considerations_on_cryonics.html) after careful deliberation.__
+*author: niplav, created: 2019-03-20, modified: 2023-01-16, language: english, status: in progress, importance: 6, confidence: log*
 
 Content
 =======

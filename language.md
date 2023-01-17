@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-10-31, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2023-01-16, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of puns, good bandnames, types of guy,
 idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
@@ -337,6 +337,8 @@ Quines and Not-Quines
 * {What we're (not) able to do now}×{What we (don't) have to do now}
 * {Lives in social/physical reality}×{views things generally as positive/zero/negative sum}
 * Dating advice falls into {easy, hard}×{concrete, diffuse}×{effective, ineffective} (easy & concrete & effective doesn't exist, of course)
+* {being competent, being incompetent}×{winning, losing}×{knowing why it happened, not knowing why it happened}
+* {"under-", "open-"}×{"handed", "ended"}
 
 Umeshisms
 ----------
@@ -464,6 +466,7 @@ I have, at various times,
 		* a [mesa](https://en.wikipedia.org/wiki/Mesa)
 		* a native American hunting
 		* a black candle
+		* a bear cub/a teddybear
 		* a piano
 			* Comparing girls with musical instruments sounds like a pretty good opener in general (viola, violin, saxophone, definitely stirs the imagination)
 * Pointed out contradictions in their style

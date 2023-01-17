@@ -72,6 +72,7 @@ HTML=index.html \
 	reward.html \
 	senryu.html \
 	sites.html \
+	spans.html \
 	tao_te_king.html \
 	text_reviews.html \
 	textbook_discord_servers.html \
