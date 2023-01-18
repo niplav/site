@@ -17,9 +17,10 @@ follow the loading procedure detailed
 [here](https://examine.com/supplements/creatine/#NJj4E2e-do-i-need-to-load-creatine):
 
 > [Creatine](https://examine.com/supplements/creatine/) is a supplement that is known for having a 'loading' phase followed by a 'maintenance' phase. A typical creatine cycle has three parts to it.
+>  
 > * Take 20-25g (or 0.3g/kg) for 5-7 days (Loading)
-* Then take 5g daily for 3-4 weeks (Maintenance)
-* Take a week or two off creatine, and then repeat (Wash-out)
+> * Then take 5g daily for 3-4 weeks (Maintenance)
+> * Take a week or two off creatine, and then repeat (Wash-out)
 
 First dose was taken on 2023-01-06.
 
