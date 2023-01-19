@@ -1,9 +1,14 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-17, modified: 2023-01-17, language: english, status: notes, importance: 7, confidence: unlikely*
+*author: niplav, created: 2023-01-17, modified: 2023-01-19, language: english, status: notes, importance: 7, confidence: unlikely*
 
-> __.__
+> __I investigate whether the attention span of individual humans has
+been falling over the last two decades (prompted by curiosity about
+whether the introduction of the internet may be harmful to cognitive
+performance). I find little direct work on the topic, despite its wide
+appeal, but reviewing related research indicates that individual attention
+spans might have been declining`$_{75%}$`.__
 
 Have Attention Spans Been Declining?
 =====================================
@@ -61,7 +66,7 @@ What Are the Existing Investigations?
 	* Questions answered:
 		* Is self-reported attention span related to the number of social media accounts?, No, not statistically significant (F(2, 206)=0.1223, p>0.05) (via a one-way ANOVA)
 		* Is self-reported attention span related to whether a respondent mainly uses a mobile phone or a computer?, No, not statistically significant (P(2,713)=0.923, p>0.05) (via a one-way ANOVA)
-	* Method for assesing attention span: Questionnaire developed by the authors based on Conners 2004 (reliability: α=0.786)
+	* Method for assessing attention span: Questionnaire developed by the authors based on Conners 2004 (reliability: α=0.786)
 	* I do **not** trust this paper: Calling (what I think is) Generation Z "Generation D" (without source for the term), being clearly written in Word, and bad grammar (I *think* the authors are all Americans, so no excuse here):
 
 > Users that are older such as late adolescents and emerging adults
@@ -76,6 +81,13 @@ interactions among individuals to highly structured and regulated
 interaction consisting of the military or the stock exchange.
 
 *—Carstens et al., [“Social Media Impact on Attention Span”](./doc/psychology/attention_span/social_media_impact_on_attention_span_carstens_et_al_2018.pdf) p. 3, 2018*
+
+* [Lorenz-Spreen et al. 2019](./doc/psychology/attention_span/accelerating_dynamics_of_collective_attention_lorenz-spreen_et_al_2019.pdf "Accelerating dynamics of collective attention")
+	* Questions answered:
+		* *How long does any particular hashtag stay in the group of the top 50 most used hashtags? Specifically, how has that number developed from 2013 to 2016?*, "in 2013 a hashtag stayed within the top 50 for 17.5 hours on average, a number which gradually decreases to 11.9 hours in 2016", and "The average maximum popularity `$\langle L(t_{\hbox{peak}}) \rangle$` on one day `$t_{\hbox{peak}}$` stays relatively constant, while the average gradients `$\langle ΔL \rangle$` in positive and negative direction become steeper over the years."
+		* *Do things become more popular faster over time? That is, when e.g. a movie is gaining popularity, did it take longer to become popular in 1985 than it did in 2018?*, Broadly yes (the trends holds for popularity of hashtags in tweets (2013-2016)/[n-grams](https://en.wikipedia.org/wiki/n-gram) in books (1900-2004)/number of theaters that movies were screened in (1985-2018)/topics for search queries on Google (2010-2017)/Reddit comments on posts (2010-2015)/citations of publications (1990-2015)/daily traffic for Wikipedia articles (2012-2017)). Again the length of the time at the peak mostly didn't change (except in the case of Wikipedia articles, where the time at the peak *shrunk*)
+	* Method for assessing attention span: Time that specific pieces of information (hashtags/n-grams/Reddit submissions &c) were popular
+	* While it investigates a question different from the one I have, this paper seems good and trustworthy to me, while supporting a suspicion I've had (observing that the lifecycle of e.g. memes has apparently sped up significantly). I'd be interested in seeing whether the same process holds for internet communities I'm part of (for example on votes LessWrong and the EA Forum or forecasts on Metaculus).
 
 Why Are They So Inadequate?
 ----------------------------
