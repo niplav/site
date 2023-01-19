@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-11-08, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2023-01-19, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -17,6 +17,16 @@ unsterblich zu sein, um es zu vollenden.
 with fecundity.
 
 *—[Scott Alexander](https://slatestarcodex.com/), [“The Goddess of Everything Else”](https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/), 2015*
+
+January 2023
+-------------
+
+* [Empirical Data for Daygame Ratios](./daygame_cost_benefit.md#Empirical_Data_For_Ratios)
+	* [Wolfe Daygame Ratios](./daygame_cost_benefit.md#Wolfe_Daygame)
+* [Nootropics](./nootropics.md)
+* [Have Attention Spans Been Declining?](./spans.md)
+* [Notes](./notes.md)
+	* [Was Software Security in the Aughts Exceptionally Bad?](./notes.md#Was_Software_Security_in_the_Aughts_Exceptionally_Bad)
 
 December 2022
 --------------

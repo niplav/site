@@ -27,6 +27,7 @@ Words
 * "technocratsacy"
 * ["rijndaël](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)[ites"](https://en.wikipedia.org/wiki/Raëlism)
 * "licerology": the study of betting and auctions, auction theory
+* "autolykophilia"
 
 #### Morphisms
 
@@ -268,6 +269,7 @@ pointing out dynamic inconsistency in the comments and melting hectoton steel-ma
 who improve their aim hurling yeeting philosophical tomes at unsuspecting passerbys and ascend urban lampposts to loudly deduce their mechanical liturgies,  
 who cut down oaks and poppies in the parks to make oil and space for those ones yet to come and who hunker down in fortified coalmines in Montana and the Ruhrgebiet, propelled into the rock by an Ordite reactor, a Bostromite dynamo,  
 who exitedly pour & plaster tabulated exponents into webscripted canisters just below the teal-tinted ceiling,  
+hating one-sidedness and bureaucrats alike,  
 who can name the 11 AI forecasting organisations and the 4 factors of successful nonprofits and the 7 noble ways of becoming more agentic and might even find Rwanda on a map not made in Silicon Valley,  
 contemplating hemispherectomies to purify their nascent idealism on the verge of a hope-ash London dawn,  
 who catch a feral heart in the garden behind the A100 rack and save it into a transparent domicile, injecting it with 17000 volts to illuminate all the last battery cages equally,  

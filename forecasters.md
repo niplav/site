@@ -60,6 +60,7 @@ How Good Are We At forecasting?
 	* How much does forecaster quantity affect forecast quality on continuous questions? (i.e., extend [Dillon 2021](https://rethinkpriorities.org/publications/how-does-forecast-quantity-impact-forecast-quality-on-metaculus) to continuous data)
 		* How much does forecasting time affect forecast quality?
 			* Generally, scaling laws for forecasting would be interesting/cool to see
+		* How much do number of resolutions/forecasts matter for forecast quality/learning?
 * Do laypeople/pundits/domain experts perform better than forecasters/superforecasters/forecasting teams/prediction markets *specifically* under novel & unforeseen situations?
 
 How Can We Become Better At Forecasting?
@@ -107,6 +108,7 @@ Other Questions
 ----------------
 
 * Where are the big datasets of past judgmental forecasts?
+* What is the rate of positive resolution by range?
 * How difficult is it to manipulate real existing prediction platforms?
 	* Markets
 		* PredictIt

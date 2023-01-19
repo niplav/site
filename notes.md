@@ -1308,7 +1308,7 @@ What is `$π_1$`?
 
 My wild and at best flimsily supported conjecture is
 that this is *both* a model for why CIRL ([Hadfield-Menell et al.
-2016](./doc/cs/ai/alignment/cirl/cooperative_inverse_reinforcement_learning_hadfield_mendell_et_al_2016.pdf "Cooperative Inverse Reinforcement Learning")) is incorrigible ([Soares
+2016](./doc/cs/ai/alignment/cirl/cooperative_inverse_reinforcement_learning_hadfield_menell_et_al_2016.pdf "Cooperative Inverse Reinforcement Learning")) is incorrigible ([Soares
 2015](doc/cs/ai/alignment/corrigibility/corrigibility_soares_et_al_2015.pdf "Corrigibility")), *and also* for why
 utility maximizers don't do reward hacking ([Dewey
 2010](./doc/cs/ai/alignment/value_learning/learning_what_to_value_dewey_2010.pdf "Learning What to Value")).

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2022-12-23, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2023-01-19, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -482,6 +482,7 @@ Texts
 	* Huel
 	* Queal
 	* Soylent
+	* Jimmy Joy's (?)
 	* Others?
 * The General Algorithm For Self-Blinded Experiments
 * Does music decrease my productivity?
@@ -584,7 +585,7 @@ Texts
 		* Removing negatives is more zero-sum, adding positives is more positive-sum (people in a negative-sum mindset don't really try to improve anything, I think)
 	* Distinction between removing negatives/adding positives in method and in topic selection ("How can I solve this thing?" versus "What should I focus on?") (see negative versus positive utilitarianism)
 	* See also upwing versus downwing (hat-tip John David Pressman)
-* Given No Singularity, Soon Mars Colonization is Unlikely, But Asteroid Mining Looks Promising
+* Given No Singularity, Mars Colonization Soon is Unlikely, but Asteroid Mining Looks Promising
 * In Nearly Complete Defense of The Last Jedi
 * The Anti-Myopia argument for the dignity prior depends on myopia never being the right course of action
 	* Or, shorter: The Anti-Myopia Argument For The Dignity Prior Has A Questionable Premise
@@ -597,6 +598,11 @@ Texts
 * Deminatalist utilitarianism pitfalls
 * Humans Are Not Turing Machines Because Nothing Is
 	* Apparently critrats believe this?
+	* We're finite state machines, I think
+* The Monotonicity-Argument for Occam's Razor, and Its Inapplicability to Kolmogorov Complexity
+* Argument against polyamory
+* State some of position on consciousness
+* Bitcoin maximalism is not even wrong?
 * Why Not Prepping?
 
 > [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
@@ -818,6 +824,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Weighted by frequency, do female names
 	* End more often in 'a'
 	* Contain more vowels than male names, controlling for the above
+* Predicting voice from face or vice versa
 
 ### Ideas
 
@@ -934,6 +941,10 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Explore different ways of typesetting this
 	* Neither Veridical nor Mirative nor Evidential
 	* See [here](./range_and_forecasting_accuracy.html#Appendix_A_Replicating_Metaculus_Findings_With_Full_Data) for a first exploration
+* Solomonoff Induction with a Sophistication Prior?
+* Lesser known causal graphs
+	* Mathematical art with causal graphs where edges can point to (or inhibit) other edges
+	* Not to be taken seriously
 
 ### Collections
 
@@ -1074,6 +1085,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Red teaming markets
 * Properties of Good Textbooks
 	* `https://docs.google.com/document/d/e/2PACX-1vTkqKg5IxCmPbw7JqnAWxoypaYNFH3XJd4UgYw4PufP09zzzW6j3v-CYXZkpD83sVrzygvg7gLbjM_Q/pub`
+* Some Reasons to Be Unusually Truth-Oriented
 
 ### Notes
 
@@ -1125,7 +1137,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Tracking of Belief Introduces Overhead
 * The Sum Rule Holds for Jacobians and Hessians
 * What is the Relation Between Species Size and Species Longvevity?
-* {winning, losing}*{knowing why it happened, not knowing why it happened}*{being competent, being incompetent}
 * Mastery is Exceedingly Rare
 
 > Very few will aspire to real mastery themselves. Very few will take the

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-06-15, modified: 2023-01-07, language: english, status: notes, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-15, modified: 2023-01-19, language: english, status: notes, importance: 1, confidence: log*
 
 > __I recently got the feeling that tracking my exercise might be vaguely
 > useful. This is my attempt.__
@@ -3797,3 +3797,35 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 1 sets 10 reps 20kg dumbbell row RPE 6
 * 1 sets 10 reps 22kg dumbbell row RPE 7
 * 1 sets 10 reps 24kg dumbbell row RPE 8
+
+### 2023-01-16T19:39-2023-01-16T20:34
+
+* 4 sets 10 reps 20kg deadlift RPE 1
+* 1 sets 4 reps 87.5kg deadlift RPE 6
+* 1 sets 4 reps 90kg deadlift RPE 7
+* 1 sets 4 reps 92.5kg deadlift RPE 8
+* 4 sets 10 reps 20kg bench press RPE 2
+* 1 sets 8 reps 35kg bench press RPE 6
+* 1 sets 8 reps 37.5kg bench press RPE 7
+* 1 sets 8 reps 40kg bench press RPE 7
+* 1 sets 8 reps 42.5kg bench press RPE 8
+* 1 sets 10 reps 20kg back squat RPE 3
+* 1 sets 10 reps 45kg back squat RPE 6
+* 1 sets 10 reps 47.5kg back squat RPE 7
+* 1 sets 10 reps 50kg back squat RPE 8
+
+### 2023-01-18T11:44:00-2023-01-18T12:40:00
+
+* 4 sets 10 reps 20kg back squat RPE 3
+* 1 sets 4 reps 55kg back squat RPE 6
+* 1 sets 4 reps 57.5kg back squat RPE 7
+* 1 sets 4 reps 60kg back squat RPE 7
+* 1 sets 4 reps 62.5kg back squat RPE 8
+* 4 sets 10 reps 20kg bench press RPE 1
+* 1 sets 10 reps 35kg bench press RPE 6
+* 1 sets 10 reps 37.5kg bench press RPE 8
+* 1 sets 10 reps 37.5kg bench press RPE 8
+* 4 sets 10 reps 20kg deadlift RPE 1
+* 1 sets 8 reps 75kg deadlift RPE 6
+* 1 sets 8 reps 60kg deadlift RPE 7
+* 1 sets 8 reps 60kg deadlift RPE 5
