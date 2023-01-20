@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-01-19, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-01-20, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,12 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Aggregating human judgment probabilistic predictions of COVID-19 transmission, burden, and preventative measures (Allison Codi/Damon Luk/David Braun/Eva Chen/Juan Cambeiro/Luis Enrique Urtubey de Cèsaris/Paolo Bocchini/Tamay Besiroglu/Thomas McAndrew, 2022)
+* [The Source of Our Power (Mark Taylor Saotome-Westlake, 2019)](https://unremediatedgender.space/2019/Jul/the-source-of-our-power/index.html)
+* [Memento Mori (Mark Taylor Saotome-Westlake, 2020)](https://unremediatedgender.space/2020/Aug/memento-mori/index.html)
+* [On the Argumentative Form "Super-Proton Things Tend to Come In Varieties" (Mark Taylor Saotome-Westlake, 2019)](https://unremediatedgender.space/2019/Dec/on-the-argumentative-form-super-proton-things-tend-to-come-in-varieties/index.html)
+* [Data on forecasting accuracy across different time horizons and levels of forecaster experience (Charles Dillon, 2021)](https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons)
+* Accelerating dynamics of collective attention (Bjarke Mørch Mønsted/Philipp Hövel/Philipp Lorenz-Spreen/Sune Lehmann, 2019)
 * [Joined (Mark Taylor Saotome-Westlake, 2016)](https://unremediatedgender.space/2016/Dec/joined/index.html)
 * [Lesser-Known Demand Curves (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Dec/lesser-known-demand-curves/index.html)
 * [The Blockhead (Mark Taylor Saotome-Westlake, 2017)](https://unremediatedgender.space/2017/Nov/the-blockhead/index.html)

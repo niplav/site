@@ -67,6 +67,7 @@ HTML=index.html \
 	pipe_rings.html \
 	platte.html \
 	precision.html \
+	qualia.html \
 	range_and_forecasting_accuracy.html \
 	rationalist_gods.html \
 	reward.html \
