@@ -8,7 +8,7 @@ been falling over the last two decades (prompted by curiosity about
 whether the introduction of the internet may be harmful to cognitive
 performance). I find little direct work on the topic, despite its wide
 appeal, but reviewing related research indicates that individual attention
-spans might have been declining`$_{75%}$`.__
+spans might have been declining`$_{75\%}$`.__
 
 Have Attention Spans Been Declining?
 =====================================
@@ -62,7 +62,7 @@ What Are the Existing Investigations?
 			* *Do people who report more technology usage (tech adoption/web browsing/multi-screen usage while online) perform worse on the alternating attention span test?* No, they seem to perform better: Light:medium:heavy tech adoption corresponds to 31%:39%:40% having high alternating attention spans, light:medium:heavy web browsing to 29%:34%:37% and multi-screening while online to 27%:32%:37%.
 			* *Do people who use social media more have higher Attention/Connection/Encoding scores on EEG measurements?*, Not quite: "Moderate users of social media are better at multi-tasking than lower users. But, when crossing into the top quartile of social media usage, scores plummet."
 	* This is a marketing statement wearing the skinsuit of a previously great paper, it would be awesome if they released their exact methodology (tests performed, data collected, exact calculations & code written). I can smell that they actually put effort into the research: Creating an actual test instead of just asking respondents about their attention spans, doing EEG measurements of over 100 people, for 3 different types of attention…come on! Just put out there what you did!
-* [Carstens et al. 2018](./doc/psychology/attention_span/social_media_impact_on_atention_span_carstens_et_al_2018.pdf) (n=209 American respondents to a survey)
+* [Carstens et al. 2018](./doc/psychology/attention_span/social_media_impact_on_attention_span_carstens_et_al_2018.pdf) (n=209 American respondents to a survey)
 	* Questions answered:
 		* Is self-reported attention span related to the number of social media accounts?, No, not statistically significant (F(2, 206)=0.1223, p>0.05) (via a one-way ANOVA)
 		* Is self-reported attention span related to whether a respondent mainly uses a mobile phone or a computer?, No, not statistically significant (P(2,713)=0.923, p>0.05) (via a one-way ANOVA)

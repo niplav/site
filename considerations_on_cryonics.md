@@ -1521,7 +1521,7 @@ of the future is equally likely, resulting in a [normal
 distribution](https://en.wikipedia.org/wiki/Normal_distribution) with
 a 90% confidence interval in `$[-50000;150000]$`. I personally believe
 that being revived in a future with negative value is quite unlikely,
-as outlined [in this section](#Value-of-a-Lifeyear-in-the-Future),
+as outlined [in this section](#Value_of_a_Lifeyear_in_the_Future),
 but it's always what people bring up and want to argue about endlessly
 (perhaps trying to convince me of their values or test whether mine
 are acceptable), so I included the possibility of substantial negative

@@ -376,7 +376,7 @@ I look at, but is still factorial in the number of nodes in the graph.
 ##### Non-Unique Results
 
 Another, smaller problem is that the algorithm often doesn't have a unique
-result, as seen in the small example [above](#Resolving-Inconsistencies).
+result, as seen in the small example [above](#Resolving_Inconsistencies).
 
 We can compute the set of all possible turnings with some trivial
 changes to the algorithm:
@@ -645,7 +645,7 @@ specifically graph-theoretic "feel" to it). But apparently not so. An
 interesting fact about the sequence is that it is "redundant": Each
 graph with `$n$` nodes is represented `$n!$` times, with all possible
 permutations of vertex labelings. For example, the example graph
-from [this section](#Minimal-and-Maximal-Number-of-Turnings)
+from [this section](#Minimal_and_Maximal_Number_of_Turnings)
 is counted in 24 different variants. One can
 therefore divide the sequence by `$n!$`, which gives the sequence
 ["1,2,4,24,448,27552"](http://oeis.org/search?q=1%2C2%2C4%2C24%2C448%2C27552&sort=&language=english&go=Search),

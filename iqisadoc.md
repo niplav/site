@@ -407,7 +407,7 @@ The type signature of the function is
 
 To elaborate a bit further:
 
-* First argument (`forecasts`): A DataFrame of the format described [here](#Comparable-Forecast-Data-General-Structure), needs the following columns:
+* First argument (`forecasts`): A DataFrame of the format described [here](#Comparable_Forecast_Data_General_Structure), needs the following columns:
 	* `question_id`
 	* `probability`
 	* `outcome`

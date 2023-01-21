@@ -803,7 +803,7 @@ session the weather was \_.
 Some people might claim that the view "masturbation increases physical
 attractiveness" is a straw-man of the views of the larger NoFap
 community. I believe that I have provided ample evidence in the section
-[“Examples for the Claim”](#Examples-for-the-Claim) that the NoFap
+[“Examples for the Claim”](#Examples_for_the_Claim) that the NoFap
 community contains at least a very vocal subset of people who have this
 view who are not actively opposed by the rest of the community.
 
