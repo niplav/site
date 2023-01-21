@@ -285,7 +285,7 @@ suggested two alternative dates (this girl had clearly read [Mr. V
 
 Before meeting, I did two unsuccessful sets, according to the
 lessons about escalation I'd learned from the encounter with [Miss
-Candle](#Super-Honest-NonSDL), both of them leading nowhere, but still
+Candle](#Super_Honest_NonSDL), both of them leading nowhere, but still
 priming me to be more assertive.
 
 She turned up punctually, and I first took her to a French-style café

@@ -252,18 +252,18 @@ However, these paragraphs are not wholly clear on how this merging with
 AI systems is supposed to work.
 
 It could be interpreted as describing [input of
-cognition](#Input-of-Cognition) from humans
+cognition](#Input_of_Cognition) from humans
 into AI systems and vice versa, or simply non-AI [augmentation of human
-cognition](#Improving-Human-Cognition).
+cognition](#Improving_Human_Cognition).
 
 Assuming the interaction with an unaligned
 AI system, these would enable [easier neural
-takeover](#Direct-Neural-Takeover-Made-Easy)
+takeover](#Direct_Neural_Takeover_Made_Easy)
 or at least induce the removal of humans
 from the [centaur](https://en.wikipedia.org/wik/Advanced_chess) [due to convergent instrumental
-strategies](#Removing-Merged-Humans-is-a-Convergent-Instrumental-Strategy-for-AI-Systems)—well
+strategies](#Removing_Merged_Humans_is_a_Convergent_Instrumental_Strategy_for_AI_Systems)—well
 known failure modes in cases where [merging is just faster
-interaction](#Merging-is-Just-Faster-Interaction)
+interaction](#Merging_is_Just_Faster_Interaction)
 between humans and AI systems.
 
 The comparison with the limbic system is leaky, because the limbic system
@@ -600,7 +600,7 @@ translated into human concepts.
 
 To my knowledge, there is no publicly written up explanation of what it
 would mean for humans to “merge” with AI systems. I explore some of
-the possibilities in [this section](#Merging-AI-Systems-With-Humans),
+the possibilities in [this section](#Merging_AI_Systems_With_Humans),
 but these mostly boil down faster interaction.
 
 It seems worrying that a complete company has been built on a vision

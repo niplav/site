@@ -506,7 +506,7 @@ July 2020
 	* [Results for Accuracy Between Questions](./range_and_forecasting_accuracy.html#Results_1)
 	* [Accuracy Within Questions](./range_and_forecasting_accuracy.html#Accuracy_Within_Questions)
 * [Notes](./notes.html)
-	* [Pseudocode for Finding Supermaximal Repeats via Enhanced Suffix Array](notes.html#Pseudocode-for-an-Algorithm-for-Finding-Supermaximal-Repeats-Using-a-Suffix-Array)
+	* [Pseudocode for Finding Supermaximal Repeats via Enhanced Suffix Array](notes.html#Pseudocode_for_an_Algorithm_for_Finding_Supermaximal_Repeats_Using_a_Suffix_Array)
 
 ### Other
 
