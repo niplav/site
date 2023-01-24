@@ -228,6 +228,8 @@ Texts
 * Practical Forecasting Handbook
 * Addenda to the Prediction Market FAQ
 	* `https://astralcodexten.substack.com/p/prediction-market-faq`
+* Comparing Forecasts on a wide range of platforms
+	* Use `https://github.com/stanlyfok/sentence2vec` to compare questions
 
 ### Population
 
@@ -422,6 +424,11 @@ Texts
 	* Visualization?
 	* Yogic stuff? (Mudra)
 * Survey on entry time to first jhana
+* Technological Meditation Enhancement
+	* `https://www.jhourney.io/`
+	* `https://www.theguardian.com/lifeandstyle/video/2021/jun/29/hacking-enlightenment-can-ultrasound-help-you-transcend-reality?CMP=twt_b-gdnvideo`
+	* `https://www.wired.co.uk/article/consciousness-hacking-silicon-valley-enlightenment-brain`
+	* maybe `https://www.vielight.com/`
 
 ### Quantified Self
 
@@ -945,6 +952,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Lesser known causal graphs
 	* Mathematical art with causal graphs where edges can point to (or inhibit) other edges
 	* Not to be taken seriously
+* Transfer PoI LW shortform to notes
 
 ### Collections
 
@@ -1927,6 +1935,7 @@ Wikipedia Articles
 * In Deontic Logic, subsection "Mally's first deontic logic and von Wright's first plausible deontic logic", change the non-LaTeX to LaTeX
 * Add "See Also" section to Churchillian Drift, add Stigler's law of eponymy
 * Add a date of death for Donald Rubin (or is he still alive?)
+* Add Privileged Group to Public Good article
 
 Lesswrong wiki
 ---------------
@@ -2015,6 +2024,11 @@ General
 * Send typos to people, let them correct them
 * Find some drugs that cause short-term memory loss without ~any side effects, for self-blinding in QS
 
+Memes
+------
+
+* Deep Fried & Bass-Boosted National Anthems
+
 In-World Projects
 ------------------
 
@@ -2032,5 +2046,6 @@ In-World Projects
 * Backup libgen/scihub/arxiv/biorxiv/psyrxiv
 * Start a notebook academic journal (as in Jupyter Notebook)
 * Build good color vision test website
-* SkyGuessr — GeoGuessr but for pictures of the sky
+* SkyGuessr — GeoGuessr but for pictures of the sky (GeoGuessr already does this I think)
 * Improve harbergertax.com
+* Startup: Generalized prediction market alert system à la https://hasrussialaunchednukesyet.com/
