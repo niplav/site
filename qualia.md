@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-20, modified: 2023-01-20, language: english, status: in progress, importance: 5, confidence: remote*
+*author: niplav, created: 2023-01-20, modified: 2023-01-21, language: english, status: in progress, importance: 5, confidence: remote*
 
 > __Peter Thiel likes to distinguish between Progress in Bits (new
 algorithms, network protocols, user interfaces…) and Progress in Atoms
@@ -11,10 +11,11 @@ a third category: Progress in Qualia.__
 Progress in Qualia
 ===================
 
-It is not clear how one might want to measure Progress in Qualia:
-the necessary instruments<!--TODO: link to the qualiascope post)-->
-are not quite there yet. Therefore I'm mostly reduced to speculation,
-but speculation also has it's place.
+It is not clear how one might want to
+measure Progress in Qualia: the [necessary
+instruments](https://qualiacomputing.com/2020/02/23/qualiascope/ "Qualiascope")
+are not quite there yet. Therefore I'm mostly reduced to
+speculation, but speculation also has it's place.
 
 I will be trying to find examples of broad
 developments that impact many people a little (an aggregative "normally distributed" view), and

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-17, modified: 2023-01-19, language: english, status: notes, importance: 7, confidence: unlikely*
+*author: niplav, created: 2023-01-17, modified: 2023-01-24, language: english, status: notes, importance: 7, confidence: unlikely*
 
 > __I investigate whether the attention span of individual humans has
 been falling over the last two decades (prompted by curiosity about
@@ -23,22 +23,26 @@ How Is Attention Span Defined?
 -------------------------------
 
 [Attention](https://en.wikipedia.org/wiki/Attention) is generally
-divided into three distinct categories: **sustained attention**, which
-is the consistent focus on a specific task or piece of information
-over time (Wikipedia states that the span for sustained attention
-has a [leprechaun](https://www.gwern.net/Leprechauns) figure of
-10 minutes floating around); **selective attention**, which is
+divided into three distinct categories: **sustained attention**,
+which is the consistent focus on a specific task or piece of
+information over time (Wikipedia states that the span for sustained
+attention has a [leprechaun](https://www.gwern.net/Leprechauns)
+figure of 10 minutes floating around, elaborated on in [Wilson &
+Korn 2007](./doc/psychology/attention_span/attention_during_lectures_beyond_ten_minutes_wilson_korn_2007.pdf)); **selective attention**, which is
 the ability to resist distractions while focusing on important
 information while performing on a task (the thing trained during
-[mindfulness meditation](https://en.wikipedia.org/wiki/Mindfulness)); and
-**alternating** or **divided attention**, also known as the ability to
+[mindfulness meditation](https://en.wikipedia.org/wiki/Mindfulness));
+and **alternating** or **divided attention**, also known as the ability to
 [multitask](https://en.wikipedia.org/wiki/Human_multitasking).
+
+<!--Alternative partitioning in *arousal*, *capacity* and *selectity*. See
+Plude et al., 1994 p. 4-->
 
 How Do We Measure Attention Span?
 ----------------------------------
 
-What Would the Ideal Study Look Like?
---------------------------------------
+* [Wilson & Korn 2007](./doc/psychology/attention_span/attention_during_lectures_beyond_ten_minutes_wilson_korn_2007.pdf) report several different measures of attention span during lectures: the amount of notes taken over time<!--TODO: McKeachie (1986, 1999)-->, observation of the students by an author of one study<!--TODO: Lloyd 1968--> or two independent observers in another study<!--TODO: Johnstone and Percival (1976)-->, retention of material after the lecture<!--TODO: McLeish 1986-->, self-report in 5-minute intervals during the lecture<!--TODO: Stuard & Rutherford 1978-->, and heart rate<!--TODO: Bligh 2000-->. They also note that "Researchers use behaviors such as fidgeting, doodling, yawning, and looking around as indicators of inattentiveness (e.g., Frost, 1965; Johnstone & Percival, 1976)."
+* [Plude et al. 1994]() review how selective attention develops during a human life. For measuring attentino, they mainly focus on studies using reaction time as a metric—the speed at which an action occurs as a result of a changing stimulus: eye movement patterns of infants, simple tests such as pressing a button on a changing (often visual) stimulus, the influence of irrelevant visual stimuli at the periphery on a task performed at the centre of the visual field, judging similarity of stimuli at various distances in the visual field<!--Enns and Girgus, 1985--><!--TODO: continue-->. They also mention skin conductance (measuring arousal), <!--TODO: continue-->.
 
 What Are the Existing Investigations?
 -------------------------------------
@@ -89,8 +93,11 @@ interaction consisting of the military or the stock exchange.
 	* Method for assessing attention span: Time that specific pieces of information (hashtags/n-grams/Reddit submissions &c) were popular
 	* While it investigates a question different from the one I have, this paper seems good and trustworthy to me, while supporting a suspicion I've had (observing that the lifecycle of e.g. memes has apparently sped up significantly). I'd be interested in seeing whether the same process holds for internet communities I'm part of (for example on votes LessWrong and the EA Forum or forecasts on Metaculus).
 
-Why Are They So Inadequate?
-----------------------------
+What Would the Ideal Study Look Like?
+--------------------------------------
+
+Why Are Existing Studies So Inadequate?
+----------------------------------------
 
 ------
 
@@ -172,7 +179,7 @@ For television & children:
 Appendix A: Claims That Attention Spans Have Been Declining
 ------------------------------------------------------------
 
-Most of these are either unsourced or cites [Gausby
+Most of these are either unsourced or cite [Gausby
 2015](./doc/psychology/attention_span/attention_spans_gausby_et_al_2015.pdf "Attention spans")
 [fallaciously](https://www.bbc.com/news/health-38896790).
 
@@ -184,3 +191,23 @@ to attract individuals and hold their attention long enough for people
 to read or watch messages such as work memos, advertisements, etc.
 
 *—Carstens et al., [“Social Media Impact on Attention Span”](./doc/psychology/attention_span/social_media_impact_on_attention_span_carstens_et_al_2018.pdf) p. 2, 2018*
+
+> Big data plays an important role in the development of microlearning. In
+the age of big data, human’s attention span is decreasing. As per Hebert
+(1971), “what information consumes is rather obvious: it consumes the
+attention of its recipients. Hence a wealth of information creates a
+poverty of attention and a need to allocate that attention efficiently
+among the overabundance of information sources that might consume it”
+(p. 41). An example of short attention span in the age of big data can
+be found in the music industry, as per (Gauvin, 2017), the average time
+that passed before the audience would hear the vocals on any radio song
+was 23 s, today the average intro is just 5 s long. Wertz (2017) also
+suggested that 40% of users are likely to abandon a website if it does
+not load within three seconds or less. Furthermore, a survey (Gausby,
+2015) conducted by Microsoft indicated that the average attention span
+of a human dropped from 12 to eight seconds, which means shorter than
+a goldfish. Given the average human attention span is decreasing,
+microlearning becomes more and more important because it emphasises
+short learning duration.
+
+*—Leong et al., “A review of the trend of microlearning”<!--TODO: perhaps link--> p. 2, 2020*
