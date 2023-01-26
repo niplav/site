@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2023-01-19, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2023-01-25, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -1093,6 +1093,26 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Red teaming markets
 * Properties of Good Textbooks
 	* `https://docs.google.com/document/d/e/2PACX-1vTkqKg5IxCmPbw7JqnAWxoypaYNFH3XJd4UgYw4PufP09zzzW6j3v-CYXZkpD83sVrzygvg7gLbjM_Q/pub`
+	* Exercises
+		* Exercises very interspersed in the text, not in large chunks (better at the end of sections, not at the end of chapters)
+		* Solutions not available/separate
+		* Of varying difficulty (I like the approach Concrete Mathematics (Graham et al.) takes: everything from trivial applications to research questions)
+		* I like it when difficulty is indicated, but when it's said clearly in the beginning very difficult exercises that are not marked are mystery boxes
+	* Images
+	* New terms are introduced formally (e.g. by highlighting "*definition*")
+		* New terms are introduced before they are used
+		* Use **boldface** and *italics* and underlining &c for single purposes
+		* Use section headings liberally
+	* Hot take: mathematical proofs in textbooks are usually unneccessary
+		* Exception: New proof methods
+		* I like the Infinite Napkin for its approach
+	* Examples
+		* Examples are good
+		* I don't recall a textbook with too many examples
+	* Wishlist:
+		* Flashcard sets belonging to textbooks
+		* 3blue1brown type videos
+	* A conversational & whimsy style is nice, but can be overdone
 * Some Reasons to Be Unusually Truth-Oriented
 
 ### Notes
