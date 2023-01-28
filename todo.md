@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2023-01-25, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2023-01-28, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -347,6 +347,8 @@ Texts
 	* Caveat though
 * Yad Stop Flag
 * Wild and Unsupported Conjecture: Learning Pickup is Mostly Rewriting Your Life-History Strategy
+* Dictionary for Pick-Up Artists
+	* Does `http://www.pualingo.com` still exist?
 
 ### Time Experience
 

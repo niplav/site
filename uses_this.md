@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2022-03-28, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2023-01-28, language: english, status: in progress, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
 > recommendations by people who I respect, such as
@@ -47,6 +47,7 @@ Software
 * [Scheme](https://en.wikipedia.org/wiki/Scheme_\(programming_language\))
 * [Standard ML](https://en.wikipedia.org/wiki/Standard_ML)
 * [Python](https://www.python.org)
+* [Julia](https://julialang.org)
 
 ### Browser Plugins
 

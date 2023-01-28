@@ -492,7 +492,7 @@ seems about right.
 * [Metaculus](https://www.metaculus.com/accounts/profile/112493/)
 * [Reddit](https://old.reddit.com/u/niplav)
 * [Wikipedia](https://en.wikipedia.org/wiki/User:Niplav)
-* [Fediverse](https://social.freetalklive.com/web/@niplav)
+* [Fediverse](https://schelling.pt/@niplav)
 
 I used to use [twitter](https://nitter.net/niplavyushtun),
 but I got addicted to it (thrice) and decided to instead
@@ -500,11 +500,13 @@ switch to [twtxt](https://github.com/buckket/twtxt). Then I
 discovered that it's not quite as fun as twitter and switched to a
 [mastodon](https://schelling.pt/@niplav) instance instead, and [another
 one](https://social.freetalklive.com/web/@niplav) after the first one
-died, which has been an okay middle ground.
+died, and back to the first one after it was revived. This has been an
+okay middle ground.
 
 ### Contact
 
-Contact address is `echo avcyni@cbfgrb.arg | tr a-zA-Z n-za-mN-ZA-M`.
+Contact address is ([rot13ed](https://en.wikipedia.org/wiki/ROT13)
+`echo avcyni@cbfgrb.arg | tr a-zA-Z n-za-mN-ZA-M`.
 
 PGP public key:
 

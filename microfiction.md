@@ -255,6 +255,7 @@ now turns arduous
 > Moloch whose pilots are spooky!  
 > Moloch who resides in an infinite-dimensional space!  
 > Mandate of tenderness! Fugitive astralites!
+> Moloch, repugnant in a universal iron lattice!
 
 #### Squeal
 
@@ -348,6 +349,12 @@ spot on the happiness/productivity Pareto frontier, dummy.”
 
 > “What wordcel wrote this!?!”  
 > “You, sir.”
+
+----
+
+> B: “What?”  
+> A: “Was that an acustic, syntactic or semantic ‘What?’?”  
+> B: “……… What?”
 
 Wrong Quotes
 -------------

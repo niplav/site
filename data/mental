@@ -1,6 +1,7 @@
 #!/usr/bin/env rc
 
 prodfile='/home/niplav/proj/site/data/productivity.csv'
+creafile='/home/niplav/proj/site/data/creativity.csv'
 
 thisdate=`{date --iso-8601}
 deadline=`{date --date'='$thisdate'T20:00' '+%s'}
@@ -11,4 +12,10 @@ if(! grep $thisdate $prodfile >/dev/null && [ $now -ge $deadline ]) {
 	echo -n 'productivity [-10;10]: '
 	productivity=`{read}
 	printf '%s,%s\n' $nowiso $productivity >>$prodfile
+}
+
+if(! grep $thisdate $creafile >/dev/null && [ $now -ge $deadline ]) {
+	echo -n 'creativity [-10;10]: '
+	creativity=`{read}
+	printf '%s,%s\n' $nowiso $creativity >>$creafile
 }
