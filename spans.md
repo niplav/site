@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-17, modified: 2023-01-24, language: english, status: notes, importance: 7, confidence: unlikely*
+*author: niplav, created: 2023-01-17, modified: 2023-01-28, language: english, status: notes, importance: 7, confidence: unlikely*
 
 > __I investigate whether the attention span of individual humans has
 been falling over the last two decades (prompted by curiosity about
@@ -13,11 +13,70 @@ spans might have been declining`$_{75\%}$`.__
 Have Attention Spans Been Declining?
 =====================================
 
-The question is not
+In what might be just the age-old regular
+[ephebiphobia](https://en.wikipedia.org/wiki/Ephebiphobia),
+claims have been raised that individual attention spans [have been
+declining](#Appendix_A_Claims_That_Attention_Spans_Have_Been_Declining)—not
+just among adolescents but also among the general population. If so,
+this would be quite worrying: Much of the economy in industrialized
+societies is compromised of knowledge work, and knowledge work depends
+on attention to the task at hand; switching between tasks too often
+might prevent progress on complicated and difficult tasks.
+
+I became interested in the topic after seeing several claims that
+e.g. [Generation Z](https://en.wikipedia.org/wiki/Generation_Z) allegedly
+has lower attention spans, observing myself and how I struggled to get
+any work done when having an internet connection, and reports of others
+online of having the same problem.<!--I was finally convinced to actually
+investigate the topic™ by a comment on LessWrong asking the question
+(TODO: link) receiving a surprisingly large amount of upvotes.-->
+
+The exact question being asked is
+
+__"Have the attention spans of individuals on neutral tasks (that is,
+tasks that are not specifically intended to be stimulating) declined
+from 2000 to the present?"__
+
+(One might also formulate it as "Is there an equivalent of the “Negative
+Flynn Effect” for attention span?".) I am not particularly wedded to
+the specific timeframe, though the worries mentioned above assert that
+this has become most stark during the last decade or so, attributing the
+change to widespread social media/smartphone/internet usage. Data from
+before 2000 or just the [aughts](https://en.wikipedia.org/wiki/Aughts)
+would be less interesting. The near-global [COVID-19
+lockdows](https://en.wikipedia.org/wiki/COVID-19_lockdowns)
+could provide an especially enlightening [natural
+experiment](https://en.wikipedia.org/wiki/Natural_experiment): Did
+social media usage increase (my guess: yes`$_{90\%}$`, and if so, did
+attention spans decrease at the same time (or with a lag) (my guess:
+also yes`$_{70\%}$`, but I don't think anyone has the data on that *and*
+wants to share it).
+
+Ideally want to have experiments from up to 2019: close enough
+to the present to see whether there is a downward trend (a bit
+more than a decade after the introduction of the [iPhone in
+2007](https://en.wikipedia.org/wiki/iPhone_\(1st_generation\))),
+but before the [COVID-19
+pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic) which might
+be a huge confounder, or just have accelerated existing trends (which
+we can probably check in another 2 years).
+
+I am interested in the attention
+span of individual humans: [Lorenz-Spreen et al.
+2019](./doc/psychology/attention_span/accelerating_dynamics_of_collective_attention_lorenz-spreen_et_al_2019.pdf
+"Accelerating dynamics of collective attention") investigate the
+development of a construct they call "collective attention" (and indeed
+find a decline), but that seems less economically relevant than individual
+attention span. I am also far less interested in self-perception of
+attention span, give me data from a proper power- or speed-test<!--TODO:
+links-->, cowards!
+
+So the question I am asking is not
 
 * "Does more social media/internet usage cause decreased attention spans?"
 * "Does more social media/internet usage correlate with decreased attention spans?"
 * "Does more social media/internet usage correlate with people reporting having shorter attention spans?"
+* "Did collective attention spans decrease?"
 
 How Is Attention Span Defined?
 -------------------------------
@@ -38,11 +97,50 @@ and **alternating** or **divided attention**, also known as the ability to
 <!--Alternative partitioning in *arousal*, *capacity* and *selectity*. See
 Plude et al., 1994 p. 4-->
 
+When asking the question "have attention spans been declining",
+we'd ideally want the same test measuring all those three aspects of
+attention (and not just asking people about their [perception via
+surveys](https://guzey.com/statistics/dont-believe-self-reported-data/)),
+performed anually on large random samples of humans over decades,
+ideally with additional information such as age, sex, intelligence (or
+alternatively educational attainment), occupation etc. I'm personally
+most interested in the development of sustained attention, and less so
+in the development of selective attention. But I have not been able to
+find such research, and in fact there is apparently no agreed upon test
+for measuring attention span in the first place:
+
+> She studies attention in drivers and witnesses to crime and says the
+idea of an "average attention span" is pretty meaningless. "It's very
+much task-dependent. How much attention we apply to a task will vary
+depending on what the task demand is."
+
+*— Simon Maybin quoting Dr. Gemma Briggs, [“Busting the attention span myth”](https://www.bbc.com/news/health-38896790), 2017*
+
+(So, [similar to
+comas](https://slatestarcodex.com/2014/08/11/does-the-glasgow-coma-scale-exist-do-comas/),
+attention span doesn't exist…sure, [super-proton things come in
+varieties](https://unremediatedgender.space/2019/Dec/on-the-argumentative-form-super-proton-things-tend-to-come-in-varieties/index.html "On the Argumentative Form "Super-Proton Things Tend to Come In Varieties"),
+but **_which varieties_**?? And how??? Goddamn,
+psychologists, do your job and don't just
+[worship](https://www.lesswrong.com/rationality/explain-worship-ignore "Explain/Worship/Ignore?")
+complexity.)
+
 How Do We Measure Attention Span?
 ----------------------------------
 
+One of my hopes was that there is a canonical and well-established (and
+therefore, ahem, *tested*) test for attention span (or just attention)
+à la the IQ test for *g*: If so, I would've been able to laboriously go
+through the literature on attention, extract the individual measurements
+(and maybe even acquire some datasets) and perform a meta-analysis.
+
 * [Wilson & Korn 2007](./doc/psychology/attention_span/attention_during_lectures_beyond_ten_minutes_wilson_korn_2007.pdf) report several different measures of attention span during lectures: the amount of notes taken over time<!--TODO: McKeachie (1986, 1999)-->, observation of the students by an author of one study<!--TODO: Lloyd 1968--> or two independent observers in another study<!--TODO: Johnstone and Percival (1976)-->, retention of material after the lecture<!--TODO: McLeish 1986-->, self-report in 5-minute intervals during the lecture<!--TODO: Stuard & Rutherford 1978-->, and heart rate<!--TODO: Bligh 2000-->. They also note that "Researchers use behaviors such as fidgeting, doodling, yawning, and looking around as indicators of inattentiveness (e.g., Frost, 1965; Johnstone & Percival, 1976)."
-* [Plude et al. 1994]() review how selective attention develops during a human life. For measuring attentino, they mainly focus on studies using reaction time as a metric—the speed at which an action occurs as a result of a changing stimulus: eye movement patterns of infants, simple tests such as pressing a button on a changing (often visual) stimulus, the influence of irrelevant visual stimuli at the periphery on a task performed at the centre of the visual field, judging similarity of stimuli at various distances in the visual field<!--Enns and Girgus, 1985--><!--TODO: continue-->. They also mention skin conductance (measuring arousal), <!--TODO: continue-->.
+* [Plude et al. 1994]() review how selective attention develops during a human life. For measuring attentino, they mainly focus on studies using reaction time as a metric—the speed at which an action occurs as a result of a changing stimulus: eye movement patterns of infants, simple tests such as pressing a button on a changing (often visual) stimulus, the influence of irrelevant visual stimuli at the periphery on a task performed at the centre of the visual field, judging similarity of stimuli at various distances in the visual field!--Enns and Girgus, 1985-->, responding to a target stimulus surrounded by interfering distractor stimuli, and determining whether a visual target item is present or absent<!--TODO: continue-->. They also mention skin conductance (measuring arousal)<!--TODO: continue-->.
+	* They also mention studies investigating the time required for attentional switching in acoustic contexts: "Pearson and Lane (1991a) studied the time course of the attention-shifting process between lists and also found large age-related improvements between 8 and 11 years. Whereas 8-year-olds required more than 3.5 s to completely switch from monitoring one list to another, 11-year-olds and adults appeared to complete the switch in less than 2.5 seconds."
+
+But, as it stands, I don't think that such a metric exists`$_{35\%}$`:
+The set of listed measures I found appears to be too heterogenous and
+mostly not quantitative enough for me to pick and drill down on.
 
 What Are the Existing Investigations?
 -------------------------------------
@@ -68,8 +166,8 @@ What Are the Existing Investigations?
 	* This is a marketing statement wearing the skinsuit of a previously great paper, it would be awesome if they released their exact methodology (tests performed, data collected, exact calculations & code written). I can smell that they actually put effort into the research: Creating an actual test instead of just asking respondents about their attention spans, doing EEG measurements of over 100 people, for 3 different types of attention…come on! Just put out there what you did!
 * [Carstens et al. 2018](./doc/psychology/attention_span/social_media_impact_on_attention_span_carstens_et_al_2018.pdf) (n=209 American respondents to a survey)
 	* Questions answered:
-		* Is self-reported attention span related to the number of social media accounts?, No, not statistically significant (F(2, 206)=0.1223, p>0.05) (via a one-way ANOVA)
-		* Is self-reported attention span related to whether a respondent mainly uses a mobile phone or a computer?, No, not statistically significant (P(2,713)=0.923, p>0.05) (via a one-way ANOVA)
+		* *Is self-reported attention span related to the number of social media accounts?*, No, not statistically significant (F(2, 206)=0.1223, p>0.05) (via a one-way ANOVA)
+		* *Is self-reported attention span related to whether a respondent mainly uses a mobile phone or a computer?*, No, not statistically significant (P(2,713)=0.923, p>0.05) (via a one-way ANOVA)
 	* Method for assessing attention span: Questionnaire developed by the authors based on Conners 2004 (reliability: α=0.786)
 	* I do **not** trust this paper: Calling (what I think is) Generation Z "Generation D" (without source for the term), being clearly written in Word, and bad grammar (I *think* the authors are all Americans, so no excuse here):
 
@@ -91,66 +189,23 @@ interaction consisting of the military or the stock exchange.
 		* *How long does any particular hashtag stay in the group of the top 50 most used hashtags? Specifically, how has that number developed from 2013 to 2016?*, "in 2013 a hashtag stayed within the top 50 for 17.5 hours on average, a number which gradually decreases to 11.9 hours in 2016", and "The average maximum popularity `$\langle L(t_{\hbox{peak}}) \rangle$` on one day `$t_{\hbox{peak}}$` stays relatively constant, while the average gradients `$\langle ΔL \rangle$` in positive and negative direction become steeper over the years."
 		* *Do things become more popular faster over time? That is, when e.g. a movie is gaining popularity, did it take longer to become popular in 1985 than it did in 2018?*, Broadly yes (the trends holds for popularity of hashtags in tweets (2013-2016)/[n-grams](https://en.wikipedia.org/wiki/n-gram) in books (1900-2004)/number of theaters that movies were screened in (1985-2018)/topics for search queries on Google (2010-2017)/Reddit comments on posts (2010-2015)/citations of publications (1990-2015)/daily traffic for Wikipedia articles (2012-2017)). Again the length of the time at the peak mostly didn't change (except in the case of Wikipedia articles, where the time at the peak *shrunk*)
 	* Method for assessing attention span: Time that specific pieces of information (hashtags/n-grams/Reddit submissions &c) were popular
-	* While it investigates a question different from the one I have, this paper seems good and trustworthy to me, while supporting a suspicion I've had (observing that the lifecycle of e.g. memes has apparently sped up significantly). I'd be interested in seeing whether the same process holds for internet communities I'm part of (for example on votes LessWrong and the EA Forum or forecasts on Metaculus).
+	* While it investigates a question different from the one I have, this paper seems good and trustworthy to me, while supporting a suspicion I've had (observing that the lifecycle of e.g. memes has apparently sped up significantly). I'd be interested in seeing whether the same process holds for internet communities I'm part of (for example on votes [LessWrong](https://www.lesswrong.com/) and the [EA Forum](https://forum.effectivealtruism.org/) or forecasts on [Metaculus](https://www.metaculus.com/)).
 
+![Chart indicating how the speed at which hashtags become popular changed over the years. Four plots (yellow, green, blue and purple) which form a peak in the middle and fall off at the sides. The yellow line is highest around the peak, the green one is lower, blue even lower and purple the lowest.](./img/spans/popularity_ascent.png "Chart indicating how the speed at which hashtags become popular changed over the years. Four plots \(yellow, green, blue and purple\) which form a peak in the middle and fall off at the sides. The yellow line is highest around the peak, the green one is lower, blue even lower and purple the lowest.")
+
+<!--
 What Would the Ideal Study Look Like?
 --------------------------------------
+
+### How Might One Measure Attention Span Best?
+
+Power/speed test, maybe track eye movement. Internal/retest validity, of course.
 
 Why Are Existing Studies So Inadequate?
 ----------------------------------------
 
 ------
-
-When asking the question "have attention spans been declining",
-we'd ideally want the same test measung all those three aspects of
-attention (and not just asking people about their [perception via
-surveys](https://guzey.com/statistics/dont-believe-self-reported-data/)),
-performed anually on large random samples of humans over decades,
-ideally with additional information such as age, sex, intelligence (or
-alternatively educational attainment), occupation etc. I'm personally
-most interested in the development of sustained attention, and less so
-in the development of selective attention. But I have not been able to
-find such research, and in fact there is apparently no agreed upon test
-for measuring attention span in the first place:
-
-> She studies attention in drivers and witnesses to crime and says the
-idea of an "average attention span" is pretty meaningless. "It's very
-much task-dependent. How much attention we apply to a task will vary
-depending on what the task demand is."
-
-*— Simon Maybin quoting Dr. Gemma Briggs, [“Busting the attention span myth”](https://www.bbc.com/news/health-38896790), 2017*
-
-(So, [similar to
-comas](https://slatestarcodex.com/2014/08/11/does-the-glasgow-coma-scale-exist-do-comas/),
-attention span doesn't exist…)
-
-When asking whether attention spans have been declining, we'd
-ideally want to have experiments from up to 2019: close enough
-to the present to see whether there is a downward trend (a bit
-more than a decade after the introduction of the [iPhone in
-2007](https://en.wikipedia.org/wiki/iPhone_\(1st_generation\))),
-but before the [COVID-19
-pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic) which might
-be a huge confounder, or just have accelerated existing trends (which
-we can probably check in another 2 years).
-
-A commonly cited resource on the decline of attention span is Gausby et
-al. 2015 from Microsoft research. I'm not a huge fan of the study: It's
-already seven years old, which in internet years means we should prepare
-for its cryopreservation; its glossy makeup, corporate sponsoring and
-being directed at marketing professionals doesn't quite inspire confidence
-in me, and it is not very precise (often speaking of "% high sustained
-attention by demographic", without specifying what "high" is supposed
-to mean here). Add to that that they cite a probably [fallacious figure
-of a 8-second](https://www.bbc.com/news/health-38896790) attention span
-([Twyman's law](https://en.wikipedia.org/wiki/Twyman's_law) in action).
-
-Having said all that, Gausby et al. 2015 states self-described
-heavy social-media users and early tech adopters do significantly
-worse in terms of sustained attention than lighter social-media
-users (though they don't make clear whether they controlled
-for age, which [increases with age until the early
-40's](https://en.wikipedia.org/wiki/Attention_span#Human_Attention_Span_Over_Time)).
+-->
 
 <!--
 * `https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4567490`

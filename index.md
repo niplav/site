@@ -1,17 +1,17 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2023-01-16, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2023-01-28, language: english, status: in progress, importance: 6, confidence: log*
 
 Content
 =======
 
 This is the website of niplav. It contains texts on different topics,
-including (but not limited to) programming, unusual social behavior
-and philosophy, as well as translations and transcriptions of different
-texts, chronological archives of blogs and programming projects. More
-information about the website and its author can be found on the
-[about](./about.html) page, for recent additions and changes, see the
-[changelog](./changelog.html).
+including (but not limited to) forecasting, futurism, unusual social
+behavior and philosophy, as well as translations and transcriptions
+of different texts, chronological archives of blogs and programming
+projects. More information about the website and its author can be found
+on the [about](./about.html) page, for recent additions and changes,
+see the [changelog](./changelog.html).
 
 [Content warning](./content_warning.html).
 

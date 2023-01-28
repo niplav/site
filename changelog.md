@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2023-01-19, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2023-01-28, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -21,9 +21,12 @@ with fecundity.
 January 2023
 -------------
 
+* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+	* [Related Work](./range_and_forecasting_accuracy.html#Related_Work)
 * [Empirical Data for Daygame Ratios](./daygame_cost_benefit.md#Empirical_Data_For_Ratios)
 	* [Wolfe Daygame Ratios](./daygame_cost_benefit.md#Wolfe_Daygame)
 * [Nootropics](./nootropics.md)
+* [Progress in Qualia](./qualia.md)
 * [Have Attention Spans Been Declining?](./spans.md)
 * [Notes](./notes.md)
 	* [Was Software Security in the Aughts Exceptionally Bad?](./notes.md#Was_Software_Security_in_the_Aughts_Exceptionally_Bad)

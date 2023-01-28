@@ -60,7 +60,7 @@ Programming
 
 Most of my programming time is spent improving
 [iqisa](https://github.com/niplav/iqisa), a library for handling various
-forecasting datasets. It's also, miraculously, my day job.
+forecasting datasets.
 
 I am also working on an [arbtt](https://arbtt.nomeata.de/)-inspired time
 tracker: [awitt](https://github.com/niplav/awitt).

@@ -269,11 +269,11 @@ one of a kind, a true product of the internet age.
 My favorite wikis are [Wikipedia](https://en.wikipedia.org/),
 [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/), the
 [Xenharmonic Wiki](https://en.xen.wiki/) and the [Arbital AI Alignment
-Domain](https://arbital.org/explore/ai_alignment) (sadly defunct); my
-favorite social media site was [schelling.pt](https://schelling.pt) (now
-sadly defunct<!--TODO: link-->); and my favorite forecasting/news sites
-are still the good ol' reliable [Metaculus](https://www.metaculus.com)
-and [PredictionBook](https://www.predictionbook.com).
+Domain](https://arbital.org/explore/ai_alignment) (sadly abandoned); my
+favorite social media site is [schelling.pt](https://schelling.pt)
+and my favorite forecasting/news sites are still the good
+ol' reliable [Metaculus](https://www.metaculus.com) and
+[PredictionBook](https://www.predictionbook.com).
 
 Mathematics
 ------------

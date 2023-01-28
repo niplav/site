@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2022-12-16, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2023-01-26, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1346,6 +1346,8 @@ Rt56k5/health-and-happiness-research-topics-part-1-background-on#2__The_sHALY) e
 * Browsers splitting words at a newline on an ﬀ ligature
 * Menus at restaurants that don't indicate whether the meal is vegetarian or not (ingredients often don't help: Restaurants will put meat (e.g. bacon cubes in salads) into dishes and not indicate it on the menu)
 * Websites that offer two-factor authentication, but don't allow physical authentication keys and, worse, don't offer an option to backup those two-factor authentication methods
+* Applications that create visible new folders (or very large folders) in my home directory
+	* Examples include snap, DogeCoin
 
 Was Software Security in the Aughts Exceptionally Bad?
 -------------------------------------------------------
