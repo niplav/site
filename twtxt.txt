@@ -1637,3 +1637,13 @@
 2023-01-27T23:37:18.000000Z	looking through my website, I'm struck by how much it is…*I* made all that? impossible! But yet, it can't be otherwise
 2023-01-28T00:12:09.000000Z	i think people should give me money for me to pursue my idiosyncratic interests
 2023-01-28T00:37:20.000000Z	so discount rates are bad mmkay say philosophers, economists disagree. but then also RL practitioners (& theorists?) use pure discount rates…why?
+2023-01-28T10:37:20.000000Z	backp/acc
+2023-01-28T10:37:26.000000Z	balls/acc
+2023-01-29T02:02:19.000000Z	even fairly well informed people have 0 idea what's coming with AI. still talking about day-to-day politics. oh boy.
+2023-01-29T22:17:47.000000Z	if you need metascience you should probably just go into industry instead
+2023-01-29T22:18:03.000000Z	if you need metascience there's no alpha left in science
+2023-01-29T23:19:58.000000Z	is attraction additive or multiplicative?
+2023-01-29T23:20:32.000000Z	If you put down a heavy (1t) object at the north pole, how much time does pass until the ice has moved so much it's too warm, it melts, and the object falls in the sea?
+2023-01-29T23:20:42.000000Z	how do you do currying in julia?
+2023-01-30T00:24:06.000000Z	get in, loser, we're prompt-injecting the e-girls
+2023-01-30T10:25:59.000000Z	amussy

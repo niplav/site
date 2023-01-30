@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-01-20, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-01-28, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,16 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Berglied (Friedrich Schiller, 1805)
+* Der Pilgrim (Friedrich Schiller (1805)
+* \* The development of selective attention: A life-span overview (Dana J. Plude/Darlene Brodeur/Jim T. Enns, 1994)
+* \* Freud und die moralische Reflexion (Richard Rorty, 1984)
+* Attention During Lectures: Beyond Ten Minutes (James H. Korn/Karen Wilson, 2007)
+* [Slowing Moore’s Law: How It Could Happen (Gwern Branwen, 2017)](https://gwern.net/Slowing-Moores-
+Law)
+* [You Can Do Futarchy Yourself (Tetraspace, 2020)](https://www.lesswrong.com/posts/qZXy8kGkNFyqCfHE
+J/you-can-do-futarchy-yourself)
+* [Qualiascope (Andrés Gomez-Emilsson, 2020)](https://qualiacomputing.com/2020/02/23/qualiascope/)
 * Aggregating human judgment probabilistic predictions of COVID-19 transmission, burden, and preventative measures (Allison Codi/Damon Luk/David Braun/Eva Chen/Juan Cambeiro/Luis Enrique Urtubey de Cèsaris/Paolo Bocchini/Tamay Besiroglu/Thomas McAndrew, 2022)
 * [The Source of Our Power (Mark Taylor Saotome-Westlake, 2019)](https://unremediatedgender.space/2019/Jul/the-source-of-our-power/index.html)
 * [Memento Mori (Mark Taylor Saotome-Westlake, 2020)](https://unremediatedgender.space/2020/Aug/memento-mori/index.html)
@@ -63,7 +73,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [The Year in Comments (Matt Carlstrom, 2022)](https://www.quantamagazine.org/thoughtful-and-funny-feedback-from-quantas-audience-in-2022-20221222/)
 * [In Computers We Trust? (Natalie Wolchover, 2013)](https://www.quantamagazine.org/in-computers-we-trust-20130222/)
 * [Computer Scientists Take Road Less Traveled (Erica Klarreich, 2013)](https://www.quantamagazine.org/computer-scientists-find-new-shortcuts-to-traveling-salesman-problem-20130129/)
-* [* The Year in Physics (Natalie Wolchover, 2022)](https://www.quantamagazine.org/the-biggest-discoveries-in-physics-in-2022-20221222/)
+* [The Year in Physics (Natalie Wolchover, 2022)](https://www.quantamagazine.org/the-biggest-discoveries-in-physics-in-2022-20221222/)
 * [A Primordial Nucleus Behind the Elements of Life (Natalie Wolchover, 2012)](https://www.quantamagazine.org/the-physics-behind-the-elements-of-life-20121204/)
 * [How to Make Impossible Wallpaper (Erica Klarreich, 2013)](https://www.quantamagazine.org/how-to-make-impossible-wallpaper-20130305/)
 * [Peering Into the Early Universe (Natalie Wolchover, 2013)](https://www.quantamagazine.org/peering-into-the-early-universe-20130307/)
@@ -119,7 +129,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [I Don’t Want to Be an Internet Person (Ginevra Davis, 2022)](https://www.palladiummag.com/2022/11/04/i-do-not-want-to-be-an-internet-person/)
 * Motivationsförderung (Falko Rheinberg/Regina Vollmeyer, 2008)
 * [Foe (unit) (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Foe_(unit))
-* \* Solidarität oder Objektivität? (Richard Rorty, 1983)
+* Solidarität oder Objektivität? (Richard Rorty, 1983)
 * [Why I'm Less Than Infinitely Hostile To Cryptocurrency (Scott Alexander, 2022)](https://astralcodexten.substack.com/p/why-im-less-than-infinitely-hostile)
 * Beginner Daygame (Nick Krauser/Tom Torero, 2014)
 * |7 Motiviert unterrichten (Angela Ittel/Sonja Mohr, 2014)
@@ -591,7 +601,7 @@ tps://www.deepmind.com/blog/announcing-deepmind-health-research-partnership-with
 * [Klepton (English Wikipedia, 2021)](https://en.wikipedia.org/wiki/Klepton)
 * Über die Verbindlichkeit ethischer Urteile (Bertrand Russell, 1944)
 * Ethik (Bertrand Russell, 1927)
-* \* Dido (Friedrich Schiller, 1805)
+* Dido (Friedrich Schiller, 1805)
 * Das Geheimnis der Reminiszenz (Friedrich Schiller, 1805)
 * Punschlied (Friedrich Schiller, 1805)
 * Rousseau (Friedrich Schiller, 1805)
