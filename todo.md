@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2023-01-28, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2023-02-10, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -347,8 +347,6 @@ Texts
 	* Caveat though
 * Yad Stop Flag
 * Wild and Unsupported Conjecture: Learning Pickup is Mostly Rewriting Your Life-History Strategy
-* Dictionary for Pick-Up Artists
-	* Does `http://www.pualingo.com` still exist?
 
 ### Time Experience
 
@@ -553,6 +551,8 @@ Texts
 * In Non-Adversarial Universes, Systematic Trying Dominates Other Approaches
 	* In short: trying to think better/act better can expected to yield monotonically increasing results with effort put in
 	* Result: Utilitarianism works by its own standards, rationalism works by its own standards
+	* (The Taoist Assumption)
+	* Examples: Dating, basic math research without priorization is useful because muh number theory in cryptography
 * The Overlap Argument for Learning Latin does not Hold
 * The Existing-Uranium Argument Against Nuclear Waste Skepticism
 * Why Mars' Moons Should Be Destroyed
@@ -931,6 +931,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Look up LW shortform comment on this
 	* https://nitter.net/RatOrthodox/status/1552618631602663425#m
 	* Towards the Best Programming Language for Universal Induction
+	* Bayesian Conspiracy episode where this is mentioned
 * Clanishness vs. tribalism and relatedness in Dunbars number sized groups
 * Upwing and downwing as new political fronts
 	* Hat-grab at John David Pressman
@@ -955,6 +956,12 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Mathematical art with causal graphs where edges can point to (or inhibit) other edges
 	* Not to be taken seriously
 * Transfer PoI LW shortform to notes
+* So You're Proposing An Economic Policy checklist like the programming language/OS one
+* High Status Eschews Meritocracy
+	* Basically just the thing Oliver Habryka talks about in his Filan Cabinet interview
+	* Examples: resistance to judgmental forecasting with scoring, IQ tests, comparing doctors to each other (Semmelweis!), companies that estimate software project times without track records, in the rationality community no nice public ledger for bets/forecasting (and underappreciated by high status people from the rationality community), public reporting of date/lay ratios for pickup artists, intellectuals who place isolated demands for rigor on methods for measuring intelligence
+	* Collapse: MMA as an example (look for video), potentially meditation in the future?
+	* Argument: Metrics can be goodharted. Answer: "A solution is technical if it is precise enough to be Goodharted and social if it is imprecise enough to be used to coalitionally extract value"
 
 ### Collections
 
@@ -1116,6 +1123,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* 3blue1brown type videos
 	* A conversational & whimsy style is nice, but can be overdone
 * Some Reasons to Be Unusually Truth-Oriented
+	* Maybe compartmentalization is easy though?
 
 ### Notes
 
@@ -1305,6 +1313,12 @@ Game. Even those odds likely overstate the number of Players in the world.
 
 * For modern methods of causal inference from statistical data (especially Pearl?)
 
+### Reviews
+
+* Emily in Paris (season 1)
+* Practical Insight Meditation
+* There is No Antimemetics Division
+
 ### Interviews
 
 * /u/JhanicManifold
@@ -1314,6 +1328,7 @@ Game. Even those odds likely overstate the number of Players in the world.
 * Brian Tomasik
 * CronoDAS
 * Eli Tyre
+* /u/--MCMC--
 
 ### Fiction
 
@@ -1409,6 +1424,7 @@ eine kontingente verschmelzung von fast-sein und konkretheit"
 	* Overcoming Bias
 	* hbdchick
 * A wiki for pickup terminology
+	* Does `http://www.pualingo.com` still exist? If not, dig out archived version
 * Kiwix versions of LessWrong, Alignment Forum, Effective Altruism Forum
 
 Videos
@@ -1903,7 +1919,7 @@ Wikipedia Articles
 * Enhanced/Extended Suffix Array
 * Shapley Saddle
 * List of Animals by Number of Eyes
-* Weisfeiler-Lehman algorithm
+* Weisfeiler-Lehman algorithm (or add stuff to Colour refinement algorithm article)
 * Brandes' algorithm
 * IC/IC\* algorithm
 * Causal Inference pages
@@ -1913,7 +1929,6 @@ Wikipedia Articles
 * Pigou bound
 * Myerson's Lemma
 * Bulow-Klemperer Theorem
-* Prophet Inequality
 * Population Ethics pages
 	* Sadistic conclusion
 	* Critical-threshold approaches
@@ -1923,12 +1938,20 @@ Wikipedia Articles
 * Experience Replay (see Deep Q-Network (“DQN”; Mnih et al. 2015))
 * Cantril Ladder
 * Choice set, choice function, contraction/expansion consistency (all in the context of social choice theory, see Gaertner 2009 p. 7-9)
-* Harberger Tax
 * Axelrod's Meta-Norm
 * Open-source game theory
 * 9front
 * Russ Cox
 * Humane Technology
+* Chris Olah
+* Machine Learning Interpretability
+	* Circuit
+	* Induction head?
+* Lottery Ticket Hypothesis
+* Grokking
+* Deep Double Descent
+* French 79
+* Credibility formula (see `https://en.wikipedia.org/wiki/Imdb#Rankings`)
 
 ### Improve
 
@@ -1949,15 +1972,22 @@ Wikipedia Articles
 	* frontdoor criterion
 	* backdoor criterion
 * Add "See Also" section to Causal Markov Condition
-* Fish shell add creation date
 * Bitte bitte
 	* Watch the video and provide a better summary
 * Rewrite the Attention Span article
-* Add See Also section to Rumo and His Miraculous Adventures
-* In Deontic Logic, subsection "Mally's first deontic logic and von Wright's first plausible deontic logic", change the non-LaTeX to LaTeX
-* Add "See Also" section to Churchillian Drift, add Stigler's law of eponymy
-* Add a date of death for Donald Rubin (or is he still alive?)
-* Add Privileged Group to Public Good article
+* [Harberger Tax](https://en.wikipedia.org/wiki/Harberger_Tax)
+* Prophet Inequality
+* Anthropic
+* Urvashi
+* [Average Human Height by Country](https://en.wikipedia.org/wiki/Average_human_height_by_country), missing entries (various tiny European countries):
+	* Liechtenstein
+	* Monaco
+	* Vatican City
+	* San Marino
+* List of common misconceptions
+	* Add attention span 12s→ 8s incorrect factoid
+* David Eppstein
+	* Add that he is a prolific Wikipedia editor
 
 Lesswrong wiki
 ---------------

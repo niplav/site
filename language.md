@@ -431,6 +431,15 @@ Unclaimed Domain Names
 * hyperoscillatory.space
 * polyhazardous.space
 
+Missing Emojis
+---------------
+
+* Shovel
+* Grim determination
+* Sad smile
+* Suspicious squint
+* Erlenmeyer flask
+
 Daygame
 --------
 
