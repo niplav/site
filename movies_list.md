@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2022-12-23, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-02-11, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,14 +11,14 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
-* [Doctor Strange in the Multiverse of Madness]()
-* [Eternals]()
-* [Spider-Man: Far From Home]()
-* [Annihilation]()
-* [Captain America: The Winter Soldier]()
-* [The Lord of the Rings: The Fellowship of the Ring]()
-* [Un conte de Noël]()
-* [A Fish Called Wanda]()<!--TODO-->
+* [Doctor Strange in the Multiverse of Madness](https://www.imdb.com/title/tt9419884/)
+* [Eternals](https://www.imdb.com/title/tt9032400/)
+* [Spider-Man: Far From Home](https://www.imdb.com/title/tt6320628/)
+* [Annihilation](https://www.imdb.com/title/tt2798920/)
+* [Captain America: The Winter Soldier](https://www.imdb.com/title/tt1843866/)
+* [The Lord of the Rings: The Fellowship of the Ring](https://www.imdb.com/title/tt0120737/)
+* [Un conte de Noël](https://www.imdb.com/title/tt0993789/)
+* [A Fish Called Wanda](https://www.imdb.com/title/tt0095159/)
 * [Don't look up](https://www.imdb.com/title/tt11286314/)
 * [Beetlejuice](https://www.imdb.com/title/tt0094721/)
 * [Cobra Verde](https://www.imdb.com/title/tt0094888/)

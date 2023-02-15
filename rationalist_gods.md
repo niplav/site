@@ -10,6 +10,7 @@
 > This page collects links to some of the important texts in this pantheon.__
 
 <!--TODO: the gods of straight lines-->
+<!--TODO: that post with the hierarchy of gods of tolerance and intolerance and balance on SSC-->
 
 Rationalist Gods
 ================

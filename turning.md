@@ -30,6 +30,7 @@ type of ontology shift is S: W1 → P(W2 × [0;1])
 Does ontological degreebling satisfy the following property:
 For two ontology shifts s1 and s2 from W1 to W2 and W2 to W3, does resolving the ontology after s1 and then shifting again and then resolving again after s2 give different results from just concatenating s1 and s2 and then resolving the output after that?-->
 <!--Guarantee: Every disjoint set of consistent subpreferences will also occur at least once in the set of turnings. (Maybe even 50%+ of the time?-->
+<!--Can we put an upper bound on change in utility for preference change?-->
 
 Turning Some Inconsistent Preferences into Consistent Ones
 ===========================================================
