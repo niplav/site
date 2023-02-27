@@ -419,17 +419,19 @@ Advertising Lines
 Unclaimed Domain Names
 -----------------------
 
-* paratechne.me
-* {uni,multi}fungal.space
-* rhizomiasmatic.tech
-* nibannergic.systems
-* calabiyau.systems
-* panchromatic.industries
-* ultracompactoid.industries
-* synprismatic.industries
-* autopoietic.systems
-* hyperoscillatory.space
-* polyhazardous.space
+* https://paratechne.me
+* https://{uni,multi}fungal.space
+* https://rhizomiasmatic.tech
+* https://nibannergic.systems
+* https://calabiyau.systems
+* https://panchromatic.industries
+* https://ultracompactoid.industries
+* https://synprismatic.industries
+* https://autopoietic.systems
+* https://hyperoscillatory.space
+* https://polyhazardous.space
+* https://bigtiddygoth.gf
+* https://egregome.industries
 
 Missing Emojis
 ---------------
