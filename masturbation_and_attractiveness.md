@@ -315,7 +315,7 @@ self-experiment.
 Data was collected as follows:
 
 I abstained from masturbating and watching pornography from
-2023-02-09T21:18 to \_, resulting in >90 days of abstinence from
+2023-02-21T18:40:35 to \_, resulting in >90 days of abstinence from
 masturbation (which is also the period [recommended by the NoFap
 community](https://nofap.com/rebooting/): "NoFap’s gold standard of
 success is our 90-day reboot.").

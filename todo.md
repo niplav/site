@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2023-02-10, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2023-02-16, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -334,6 +334,11 @@ Texts
 * Repurposing honeypots for AI safety?
 * Kitchen sink versus integrated AI alignment
 * The Relation Between Corrigibility and Impact Measures
+* Distilling Debate Progress
+* Umeshisms for Low Impact
+	* If the future optimization trajectory along a dimension in the limit moves the value of that dimension to the maximum/minimum, don't do that.
+	* The optimal amount of anything is not the most extreme amount
+* Capable Artificial Alignment Theorists Appear Plausible
 
 ### Pick Up
 
@@ -612,6 +617,7 @@ Texts
 * Argument against polyamory
 * State some of position on consciousness
 * Bitcoin maximalism is not even wrong?
+* Forecasting Track Records: Still Undervalued
 * Why Not Prepping?
 
 > [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
@@ -834,6 +840,8 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* End more often in 'a'
 	* Contain more vowels than male names, controlling for the above
 * Predicting voice from face or vice versa
+* Bihacking/polyhacking case studies collection
+* Post-mortem on liquid democracy in the real world
 
 ### Ideas
 
@@ -1952,6 +1960,7 @@ Wikipedia Articles
 * Deep Double Descent
 * French 79
 * Credibility formula (see `https://en.wikipedia.org/wiki/Imdb#Rankings`)
+* Nanosystems: Molecular Machinery Manufacturing and Computation
 
 ### Improve
 
@@ -1986,8 +1995,15 @@ Wikipedia Articles
 	* San Marino
 * List of common misconceptions
 	* Add attention span 12s→ 8s incorrect factoid
-* David Eppstein
-	* Add that he is a prolific Wikipedia editor
+* Degrees of freedom
+	* Add See Also section
+* Razib Khan
+	* Those fuckers moved the Criticism into the Publications section again
+* Eric Drexler
+	* Something like "Since TODO, Drexler has been working at the [[Future of Humanity Institute]] as a TODO, researching risks from advanced artificial intelligence."
+	* Huh, this was apparently removed?
+* Sinclair coefficient
+* List of important publications in mathematics is very much too opinionated. Reviews like this don't quite belong on Wikipedia, so improve
 
 Lesswrong wiki
 ---------------
@@ -2101,3 +2117,4 @@ In-World Projects
 * SkyGuessr — GeoGuessr but for pictures of the sky (GeoGuessr already does this I think)
 * Improve harbergertax.com
 * Startup: Generalized prediction market alert system à la https://hasrussialaunchednukesyet.com/
+* Startup: RCTs as a service
