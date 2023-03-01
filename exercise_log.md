@@ -3950,3 +3950,123 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 1 sets 10 reps 20kg dumbbell row RPE 6
 * 1 sets 10 reps 22kg dumbbell row RPE 7
 * 1 sets 8 reps 24kg dumbbell row RPE 8
+
+### 2023-02-10T20:29:00-2023-02-10T21:19:00
+
+* 4 sets 10 reps 20kg deadlift RPE 2
+* 1 sets 4 reps 80kg deadlift RPE 6
+* 1 sets 4 reps 85kg deadlift RPE 7
+* 1 sets 4 reps 90kg deadlift RPE 8
+* 4 sets 10 reps 20kg bench press RPE 2
+* 1 sets 8 reps 45kg bench press RPE 7
+* 1 sets 8 reps 47.5kg bench press RPE 8
+* 1 sets 8 reps 50kg bench press RPE 8
+* 1 sets 10 reps 20kg back squat RPE 2
+* 1 sets 10 reps 52.5kg back squat RPE 6
+* 1 sets 10 reps 55kg back squat RPE 7
+* 1 sets 10 reps 57.5kg back squat RPE 8
+
+### 2023-02-13T20:23-2023-02-13T21:46
+
+* 4 sets 10 reps 20kg back squat RPE 2
+* 1 sets 4 reps 65kg back squat RPE 6
+* 1 sets 4 reps 67.5kg back squat RPE 7
+* 1 sets 4 reps 70kg back squat RPE 8
+* 4 sets 10 reps 20kg bench press RPE 1
+* 1 sets 10 reps 45kg bench press RPE 7
+* 1 sets 10 reps 47.5kg bench press RPE 8
+* 1 sets 10 reps 47.5kg bench press RPE 8
+* 4 sets 10 reps 20kg deadlift RPE 2
+* 1 sets 8 reps 80kg deadlift RPE 6
+* 1 sets 8 reps 82.5kg deadlift RPE 7
+* 1 sets 8 reps 85kg deadlift RPE 8
+
+### 2023-02-15T11:34-2023-02-15T12:40
+
+* 4 sets 10 reps 20kg overhead press RPE 5
+* 1 sets 4 reps 40kg overhead press RPE 7
+* 1 sets 4 reps 40kg overhead press RPE 8
+* 1 sets 3 reps 42.5kg overhead press RPE 10
+* 4 sets 7 reps 20kg back squats RPE 3
+* 1 sets 7 reps 57.5kg back squat RPE 6
+* 1 sets 7 reps 60kg back squat RPE 7
+* 1 sets 7 reps 62.5kg back squat RPE 8
+* 4 sets 10 reps 14kg dumbbell row RPE 4
+* 1 sets 10 reps 20kg dumbbell row RPE 6
+* 1 sets 10 reps 22kg dumbbell row RPE 7
+* 1 sets 10 reps 24kg dumbbell row RPE 7
+
+### 2023-02-17T19:35:00-2023-02-17T20:30:00
+
+* 4 sets 10 reps 20kg deadlift RPE 1
+* 1 sets 4 reps 87.5kg deadlift RPE 6
+* 1 sets 4 reps 90kg deadlift RPE 7
+* 1 sets 4 reps 92.5kg deadlift RPE 7
+* 4 sets 10 reps 20kg bench press RPE 1
+* 1 sets 8 reps 47.5kg bench press RPE 7
+* 1 sets 8 reps 50kg bench press RPE 7
+* 1 sets 8 reps 52.5kg bench press RPE 8
+* 1 sets 10 reps 20kg back squat RPE 2
+* 1 sets 10 reps 55kg back squat RPE 6
+* 1 sets 10 reps 57.5kg back squat RPE 7
+* 1 sets 10 reps 60kg back squat RPE 8
+
+### 2023-02-20T21:03-2023-02-20T22:10
+
+* 4 sets 10 reps 20kg back squat RPE 2
+* 1 sets 4 reps 67.5kg back squat RPE 6
+* 1 sets 4 reps 70kg back squat RPE 7
+* 1 sets 4 reps 72.5kg back squat RPE 8
+* 4 sets 10 reps 20kg bench press RPE 1
+* 1 sets 10 reps 47.5kg bench press RPE 7
+* 1 sets 10 reps 50kg bench press RPE 7
+* 1 sets 10 reps 52.5kg bench press RPE 9
+* 4 sets 10 reps 20kg deadlift RPE 2
+* 1 sets 8 reps 82.5kg deadlift RPE 7
+* 1 sets 8 reps 85kg deadlift RPE 8
+* 1 sets 8 reps 87.5kg deadlift RPE 8
+
+### 2023-02-22T21:24-2023-02-22T22:21
+
+* 4 sets 10 reps 20kg overhead press RPE 4
+* 1 sets 4 reps 40kg overhead press RPE 7
+* 1 sets 4 reps 42.5kg overhead press RPE 8
+* 1 sets 3 reps 42.5kg overhead press RPE 10
+* 4 sets 7 reps 20kg back squats RPE 2
+* 1 sets 7 reps 60kg back squat RPE 6
+* 1 sets 7 reps 62.5kg back squat RPE 7
+* 1 sets 7 reps 65kg back squat RPE 8
+* 4 sets 10 reps 14kg dumbbell row RPE 3
+* 1 sets 10 reps 20kg dumbbell row RPE 5
+* 1 sets 10 reps 24kg dumbbell row RPE 7
+* 1 sets 10 reps 26kg dumbbell row RPE 9
+
+### 2023-02-24T19:25:00-2023-02-24T20:23:00
+
+* 4 sets 10 reps 20kg deadlift RPE 1
+* 1 sets 4 reps 80kg deadlift RPE 6
+* 1 sets 4 reps 82.5kg deadlift RPE 7
+* 1 sets 4 reps 92.5kg deadlift RPE 8
+* 4 sets 10 reps 20kg bench press RPE 1
+* 1 sets 8 reps 50kg bench press RPE 6
+* 1 sets 8 reps 52.5kg bench press RPE 7
+* 1 sets 8 reps 55kg bench press RPE 8
+* 1 sets 10 reps 20kg back squat RPE 2
+* 1 sets 10 reps 57.5kg back squat RPE 7
+* 1 sets 10 reps 60kg back squat RPE 8
+* 1 sets 10 reps 62.5kg back squat RPE 9
+
+### 2023-02-27T19:00-2023-02-27T20:10
+
+* 4 sets 10 reps 20kg back squat RPE 2
+* 1 sets 4 reps 67.5kg back squat RPE 6
+* 1 sets 4 reps 70kg back squat RPE 7
+* 1 sets 4 reps 72.5kg back squat RPE 7
+* 4 sets 10 reps 20kg bench press RPE 1
+* 1 sets 10 reps 47.5kg bench press RPE 6
+* 1 sets 10 reps 50kg bench press RPE 7
+* 1 sets 10 reps 52.5kg bench press RPE 8
+* 4 sets 10 reps 20kg deadlift RPE 2
+* 1 sets 8 reps 82.5kg deadlift RPE 6
+* 1 sets 8 reps 85kg deadlift RPE 7
+* 1 sets 8 reps 87.5kg deadlift RPE 8
