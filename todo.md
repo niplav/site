@@ -842,6 +842,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Predicting voice from face or vice versa
 * Bihacking/polyhacking case studies collection
 * Post-mortem on liquid democracy in the real world
+* Investigate [this post empirically](http://www.overcomingbias.com/2007/02/is_truth_in_the.html) via information from forecasting datasets
 
 ### Ideas
 
@@ -1961,6 +1962,7 @@ Wikipedia Articles
 * French 79
 * Credibility formula (see `https://en.wikipedia.org/wiki/Imdb#Rankings`)
 * Nanosystems: Molecular Machinery Manufacturing and Computation
+* Global Priorities Institute
 
 ### Improve
 
@@ -2052,8 +2054,7 @@ Answers
 	* 3.1.1. See hangahiwa wandafunei from The Assassin's Footprint (William Buckner, 2019)
 	* 3.2. Most people don't achieve hard valuable things
 	* 3.2.1 E.g. jhanas (or insight stages), high physical health, mastery of anything, emotional mastery
-	* 3.2.2 Most people don't seem to do the bare minimum (e.g. invest money lying around in the stock mark
-	* et)? Probably due to trivial inconveniences
+	* 3.2.2 Most people don't seem to do the bare minimum (e.g. invest money lying around in the stock market?) Probably due to trivial inconveniences
 	* 3.2.3 People are satisficers, and most guys get the odd girlfriend and then drop out
 	* 3.2.3.1 Note that many guys in pickup have a history of being quite unsuccessful with women
 	* 3.3. Competes with other interests

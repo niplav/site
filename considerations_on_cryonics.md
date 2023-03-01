@@ -889,10 +889,10 @@ Besides these estimates, there exist also two related questions
 on the prediction website Metaculus. ["Before 1 January 2050,
 will any human cryonically preserved for at least 1 year be successfully
 revived?"](https://www.metaculus.com/questions/1626/before-1-january-2050-will-any-human-cryonically-preserved-for-at-least-1-year-be-successfully-revived/)
-has a median probability of 16% (n=117), ["If
+has a median probability of 16% (n=117)<!--TODO: now 4% with n=403-->, ["If
 you die today and get cryonically frozen, will you "wake
 up"?"](https://www.metaculus.com/questions/455/if-you-die-today-and-get-cryonically-frozen-will-you-wake-up/)
-receives 2% (n=407). I am not sure where the difference comes from,
+receives 2% (n=407)<!--now 5% with n=702-->. I am not sure where the difference comes from,
 perhaps either from worries about the quality of current preservation or
 from a low trust in the longevity of cryonics organisations. [This google
 sheet](https://docs.google.com/spreadsheets/d/1qn7c7rYmYx3KtqvhXTUGiiyuBk5e9kG3sA3jF-4zk6U/)
