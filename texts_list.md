@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-02-24, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-03-03, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,51 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Accountable Financial Regulation (Robin Hanson, 2007)](https://www.overcomingbias.com/p/accountable_finhtml)
+* [You Are Not Hiring the Top 1% (Eliezer Yudkowsky, 2007)](https://www.lesswrong.com/posts/HCssSWMp7zoJAPtcR/you-are-not-hiring-the-top-1)
+* [Morality or Manipulation? (David J. Balan, 2007)](https://www.overcomingbias.com/p/morality_or_manhtml)
+* [Medical Study Biases (Robin Hanson, 2007)](https://www.overcomingbias.com/p/medical_study_bhtml)
+* [This Is My Dataset. There Are Many Datasets Like It, but This One Is Mine. . . (Will Wilkinson, 2007)](https://www.overcomingbias.com/p/this_is_my_datahtml)
+* [Professors Progress Like Ads Advise (Robin Hanson, 2007)](https://www.overcomingbias.com/p/ads_advise_profhtml)
+* [Disagreement Case Study: Hanson and Cutler (Hal Finney, 2007)](https://www.overcomingbias.com/p/disagreement_cahtml)
+* [Marginally Revolved Biases (Robin Hanson, 2007)](https://www.overcomingbias.com/p/marginally_revohtml)
+* [Calibrate Your Ad Response (Robin Hanson, 2007)](https://www.overcomingbias.com/p/calibrate_your_html)
+* [Disagreement Case Studies (Robin Hanson, 2007)](https://www.overcomingbias.com/p/seeking_disagrehtml)
+* [Less Biased Memories (Robin Hanson, 2007)](https://www.overcomingbias.com/p/unbiased_memorihtml)
+* [Think Frequencies, Not Probabilities (Robin Hanson, 2007)](https://www.overcomingbias.com/p/think_frequencihtml)
+* [Fig Leaf Models (Robin Hanson, 2007)](https://www.overcomingbias.com/p/fig_leaf_modelshtml)
+* [Do We Get Used to Stuff, But Not Friends? (Will Wilkinson, 2007)](https://www.overcomingbias.com/p/do_we_get_used_html)
+* [Buss on True Love (Robin Hanson, 2007)](https://www.overcomingbias.com/p/buss_on_true_lohtml)
+* [Is Overcoming Bias Male? (Robin Hanson, 2007)](https://www.overcomingbias.com/p/is_overcoming_bhtml)
+* [Evidence-Based Medicine Backlash (Robin Hanson, 2007)](https://www.overcomingbias.com/p/evidencebased_mhtml)
+* [Bias in the Classroom (James Miller, 2007)](https://www.overcomingbias.com/p/bias_in_the_clahtml)
+* [Disagreement on Inflation (Robin Hanson, 2007)](https://www.overcomingbias.com/p/disagreement_onhtml)
+* [Moderate Moderation (Robin Hanson, 2007)](https://www.overcomingbias.com/p/moderate_moderahtml)
+* [Bias Toward Certainty (Arnold Kling, 2007)](https://www.overcomingbias.com/p/bias_toward_cerhtml)
+* [Our approach to alignment research (Jan Leike/Jeffrey Wu/John Schulman, 2022)](https://openai.com/blog/our-approach-to-alignment-research)
+* [OpenAI's "Planning For AGI And Beyond" (Scott Alexander, 2023)](https://astralcodexten.substack.com/p/openais-planning-for-agi-and-beyond)
+* [Winner take all science (dynomight, 2023)](https://dynomight.net/wta-science/)
+* [Selection Bias in Economic Theory (Robin Hanson, 2007)](https://www.overcomingbias.com/p/selection_bias_html)
+* [crackpot people and crackpot ideas (Arnold Kling, 2007)](https://www.overcomingbias.com/p/crackpot_peoplehtml)
+* [Too Many Loner Theorists? (David J. Balan, 2007)](https://www.overcomingbias.com/p/too_many_loner_html)
+* [It’s Sad When Bad Ideas Drive Out Good Ones (David J. Balan, 2007)](https://www.overcomingbias.com/p/its_sad_when_bahtml)
+* [Induce Presidential Candidates to Take IQ Tests (James Miller, 2007)](https://www.overcomingbias.com/p/induce_presidenhtml)
+* [Press Confirms Your Health Fears (Robin Hanson, 2007)](https://www.overcomingbias.com/p/press_confirms_html)
+* [Words for Love and Sex (Robin Hanson, 2007)](https://www.overcomingbias.com/p/words_for_love_html)
+* [Truth is stranger than fiction (Andrew Gelman, 2007)](https://www.overcomingbias.com/p/truth_is_stranghtml)
+* [Posterity Review Comes Cheap (Robin Hanson, 2007)](https://www.overcomingbias.com/p/posterity_reviehtml)
+* Reputation Commitment Mechanism (James Miller, 2007)
+* [More Lying (Stuart Armstrong, 2007)](https://www.overcomingbias.com/p/more_lyinghtml)
+* [Your Periodic Reminder I (Zack M. Davis, 2016)](http://zackmdavis.net/blog/2016/12/your-periodic-reminder-i/)
+* [Fighting Game Ideas I (Zack M. Davis, 2016)](http://zackmdavis.net/blog/2016/12/fighting-game-ideas-i/)
+* [Resisting the Narrative (Zack M. Davis, 2016)](http://zackmdavis.net/blog/2016/12/resisting-the-narrative/)
+* [Prescription II (Zack M. Davis, 2016)](http://zackmdavis.net/blog/2016/12/prescription-ii/)
+* [Alpha Gamma Phi (Zack M. Davis, 2016)](http://zackmdavis.net/blog/2016/12/alpha-gamma-phi/)
+* [Ecstasy (Zack M. Davis, 2016)](http://zackmdavis.net/blog/2016/12/ecstasy/)
+* [An Element Which Is Nameless (Zack M. Davis, 2016)](http://zackmdavis.net/blog/2016/12/an-element-which-is-nameless/)
+* [Philanthropy Scorecard Through 2016 (Zack M. Davis, 2016)](http://zackmdavis.net/blog/2016/12/philanthropy-scorecard-through-2016/)
+* [Blood Is Thicker Than Water 🐬 (Zack M. Davis, 2021)](https://www.lesswrong.com/posts/vhp2sW6iBhNJwqcwP/blood-is-thicker-than-water)
+* ["Rationalist Discourse" Is Like "Physicist Motors" (Zack M. Davis, 2023)](https://www.lesswrong.com/posts/SX6wQEdGfzz7GKYvp/rationalist-discourse-is-like-physicist-motors)
 * [Buddhist Psychotechnology for Withstanding Apocalypse Stress (Romeo Stevens, 2023)](https://www.lesswrong.com/posts/nnCjjdXEXdRhzTAPE/buddhist-psychotechnology-for-withstanding-apocalypse-stress)
 * [Planning for AGI and beyond (Sam Altman, 2023)](https://openai.com/blog/planning-for-agi-and-beyond/)
 * [Thumb twiddling (English Wikipedia, 2022)](https://en.wikipedia.org/wiki/Thumb_twiddling)

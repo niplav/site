@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-02-11, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-03-03, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,6 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Lantana](https://www.imdb.com/title/tt0259393/)
 * [Doctor Strange in the Multiverse of Madness](https://www.imdb.com/title/tt9419884/)
 * [Eternals](https://www.imdb.com/title/tt9032400/)
 * [Spider-Man: Far From Home](https://www.imdb.com/title/tt6320628/)

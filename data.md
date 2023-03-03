@@ -221,7 +221,7 @@ Formatting the approaches file:
 
 Find incorrectly written locations:
 
-	$ awk -F, '{ print($2) }' <daygame_stats_approaches.csv | sort | uniq
+	$ awk -F, '{ print($2) }' <daygame_approaches.csv | sort | uniq
 
 and manually correct them (this is useful for the other fields as well,
 just to check consistency).
@@ -243,9 +243,9 @@ Anonymizing locations and the names of girls:
 		if($2!="Location") { $2=loc[$2]; }
 		if($8!="Name") { $8=name[$8]; }
 		print($0);
-	}' <daygame_stats_approaches.csv >daygame_stats_approaches_anon.csv
-	$ mv daygame_stats_approaches.csv daygame_stats_approaches_deanon.csv
-	$ mv daygame_stats_approaches_anon.csv daygame_stats_approaches.csv
+	}' <daygame_approaches.csv >daygame_approaches_anon.csv
+	$ mv daygame_approaches.csv daygame_approaches_deanon.csv
+	$ mv daygame_approaches_anon.csv daygame_approaches.csv
 
 The approaches file can be found [here](./data/daygame_approaches.csv),
 the sessions file can be found [here](./data/daygame_sessions.csv).
