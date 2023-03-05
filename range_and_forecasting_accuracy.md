@@ -138,7 +138,7 @@ of predictions a forecaster has made (finding that more experienced
 forecasters are less overconfident), and investigates the relation between
 Brier score and range; finding, as in this analysis, that surprisingly
 predictions with longer horizons were *more accurate*. The latter finding
-is not likely not caused by more experienced forecasters making more
+is likely not caused by more experienced forecasters making more
 long-term predictions.
 
 Results
