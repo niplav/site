@@ -62,7 +62,7 @@ Science
 	* Replicate the work at the [semalab](https://semalab.arizona.edu/) that uses ultrasound brain stimulation for meditation enhancement.
 * [Breeding Superintelligent Octopuses](https://www.lesswrong.com/posts/DaFG3GKsBrsAnAERR/save-humanity-breed-sapient-octopuses)
 * Cloning Extinct Animals
-	* In order: Passenger Pigeons, Thylacines, Dodos, Wooly Mammoths, Neanderthals, John von Neumann…
+	* In order: Passenger Pigeons, Thylacines, Dodos, Wooly Mammoths, Neanderthals, John von Neumann, Srinivasa Ramanujan…
 * Masturbation Research
 * Explorables for Causal Inference
 * Find drugs that cause short-term memory loss with ideally no side effects (useful for blinding in scientific studies)

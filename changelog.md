@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2023-03-06, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2023-03-09, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -17,6 +17,12 @@ unsterblich zu sein, um es zu vollenden.
 with fecundity.
 
 *—[Scott Alexander](https://slatestarcodex.com/), [“The Goddess of Everything Else”](https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/), 2015*
+
+March 2023
+-----------
+
+* [Notes](./notes.md)
+	* [The Price of Inadequacy](./notes.html#The_Price_of_Inadequacy)
 
 February 2023
 -------------
