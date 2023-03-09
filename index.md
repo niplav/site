@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2023-01-28, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2023-03-09, language: english, status: in progress, importance: 6, confidence: log*
 
 Content
 =======
@@ -42,12 +42,18 @@ Writing
 * [Forecasters: What Do They Know? Do They Know Things?? Let's Find Out!](./forecasters.html)
 * [Iqisa: A Library For Handling Forecasting Datasets](./iqisa.html)
 	* [Documentation](./iqisadoc.html)
+* [Precision of Sets of Forecasts](./precision.html)
 
 #### Programming & Computer Science
 
 * [Pipe Rings](./pipe_rings.html)
 * [K-99: Ninety-Nine Klong Problems](./99_klong_problems.html)
 * [99 Problems Klong Solution](./99_problems_klong_solution.html)
+
+#### Quantified Self
+
+* [Types & Methods of Data Collection I Use](./data.html)
+* [Nootropics](./nootropics.html)
 
 #### Mathematics
 
@@ -75,7 +81,10 @@ Writing
 
 * [Against Applause After Classical Concerts](./against_applause.html)
 * [Two People on a Planet](./two_people_on_a_planet.html)
+* [Progress in Qualia](./qualia.html)
 * [Life Advice](./life_advice.html)
+* [If I Were An Eccentric Trillionaire](./eccentric.html)
+* [Prepare to Leave The Internet](./leave.html)
 
 #### Textbooks
 

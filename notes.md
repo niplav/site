@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2023-02-10, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2023-03-09, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1459,7 +1459,7 @@ but I have the intuition that it is, since
 
 <div>
 	$$\frac{\underset{s \in S}{\text{max}} \sum_{i \in N} α \cdot u_i(s)+β} {\underset{s \in \text{NE}(G)}{\text{min}} \sum_{i \in N} α \cdot u_i(s)+β}-\frac{\underset{s \in S}{\text{max}} \sum_{i \in N} α \cdot u_i(s)+β} {\underset{s \in \text{NE}(G)}{\text{max}} \sum_{i \in N} α \cdot u_i(s)+β}=\\
-	\frac{\underset{s \in S}{\text{max }} αβN \cdot \sum_{i \in N} u_i(s)} {\underset{s \in \text{NE}(G)}{\text{min }} αβN \cdot \sum_{i \in N} u_i(s)}-\frac{\underset{s \in S}{\text{max }} αβN \cdot \sum_{i \in N} u_i(s)} {\underset{s \in \text{NE}(G)}{\text{max }} αβN \cdot \sum_{i \in N} u_i(s)}=\\
+	\frac{\underset{s \in S}{\text{max }} αβN + α \cdot \sum_{i \in N} u_i(s)} {\underset{s \in \text{NE}(G)}{\text{min }} αβN + α \cdot \sum_{i \in N} u_i(s)}-\frac{\underset{s \in S}{\text{max }} αβN + α \cdot \sum_{i \in N} u_i(s)} {\underset{s \in \text{NE}(G)}{\text{max }} αβN + α \cdot \sum_{i \in N} u_i(s)}=\\
 	\frac{\underset{s \in S}{\text{max}} \sum_{i \in N} u_i(s)} {\underset{s \in \text{NE}(G)}{\text{min}} \sum_{i \in N} u_i(s)}-\frac{\underset{s \in S}{\text{max}} \sum_{i \in N} u_i(s)} {\underset{s \in \text{NE}(G)}{\text{max}} \sum_{i \in N} u_i(s)}$$
 </div>
 
@@ -1484,7 +1484,7 @@ can also sometimes establish bounds on the price of inadequacy:
 	<tr>
 		<td>Lower-bound: $\text{PoS} \ge m$</td>
 		<td>$\text{PoI} \le n-m$</td>
-		<td>-</td>
+		<td>$0 \le \text{PoI} \le n$</td>
 	</tr>
 </tbody>
 </table>
@@ -1492,3 +1492,4 @@ can also sometimes establish bounds on the price of inadequacy:
 As an example, in [network cost-sharing
 games](https://en.wikipedia.org/wiki/Price_of_stability#Network_design_games),
 `$\text{PoA} \le k$` and `$\text{PoS}=\mathcal{H}_k$`, so `$\text{PoI} \le k-\mathcal{H}_k$`.
+<!--TODO: cite this from Roughgardens Twenty Lectures-->.
