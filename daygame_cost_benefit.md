@@ -7,15 +7,15 @@
 how much? I first present a simple [point
 estimate](https://en.wikipedia.org/wiki/Point_estimation) [cost-benefit
 value estimation](https://en.wikipedia.org/wiki/Cost-benefit_analysis)
-written in Klong and find that daygame is probably worth ~\$996 maximum,
+written in Klong and find that daygame is probably worth ~\\$996 maximum,
 at ~499 approaches, though the number varies strongly under different
 assumptions. After that, I modify the model to capture more of the nuance,
-and arrive at ~\$2098 of value for ~1000 approaches. I then perform a
+and arrive at ~\\$2098 of value for ~1000 approaches. I then perform a
 [Monte-Carlo simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method)
 to determine the uncertainty around the [expected
 value](https://en.wikipedia.org/wiki/Expected_value) and find that in
-the simple case the value of daygame ranges from -\$3297 to \$3200
-(5th/95th percentile), with a median of \$899 and a mean of \$550,
+the simple case the value of daygame ranges from -\\$3297 to \\$3200
+(5th/95th percentile), with a median of \\$899 and a mean of \\$550,
 and in the complex case \_.__
 
 <!--
@@ -59,11 +59,11 @@ be doing?
 In this text, I first review existing texts on the topic and find them
 lacking in several ways. I then present a simple and general model for
 the value of doing a number of daygame approaches, and find that it
-recommends doing 484 approaches with a value of \$969 in the optimum. I
+recommends doing 484 approaches with a value of \\$969 in the optimum. I
 then extend the model to more subjective and hard to measure factors
 such as positive side effects, effects of daygame on mood and similar
 other factors, and estimate that the optimal number of approaches is 1024
-(power of two not indended, but appreciated), at a value of \$2110.
+(power of two not indended, but appreciated), at a value of \\$2110.
 
 The models presented don't consider externalities, be they positive or
 negative. That is the subject of a different debate.
@@ -75,8 +75,8 @@ One already existing cost analysis of game is [Free Northerner
 2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/ "Economic Analysis of Casual Sex – Prostitution vs Game"),
 he focuses on nightgame in bars and clubs and concludes that
 
-> Cost for Sex [from prostitution]: \$300  
-> Cost for sex [from game]: \$460 (\$200 is you enjoy clubbing, gaming,
+> Cost for Sex [from prostitution]: \\$300  
+> Cost for sex [from game]: \\$460 (\\$200 is you enjoy clubbing, gaming,
 > and dating for their own sake)  
 > […]  
 > For casual sex, a mid-range prostitute is cheaper than game.
@@ -563,7 +563,7 @@ stuff stays constant.
 
 <!--TODO: consider Matt's input on this-->
 
-I will tentatively set the opportunity cost of an hour of daygame to \$5,
+I will tentatively set the opportunity cost of an hour of daygame to \\$5,
 but would be interested in further input:
 
 	oppcost::5
@@ -622,7 +622,7 @@ above are from people who have already done many approaches:
 
 On dates, one usually needs to pay for drinks, food, and perhaps a taxi,
 there doesn't seem to be much information about the exact costs out
-there. I will assume \$20 for a date.
+there. I will assume \\$20 for a date.
 
 	datecost::20
 
@@ -674,7 +674,7 @@ is often accompanied with shame<!--TODO: source-->).
 
 <!--TODO: find own sources-->
 
-This leaves us with ~\$300 per hour of prostitution.
+This leaves us with ~\\$300 per hour of prostitution.
 
 An analysis of daygame contains some questions that are not obvious
 to answer:
@@ -711,7 +711,7 @@ So we can calculate that the value of seducing one woman is
 
 ##### A Sense of Pride and Accomplishment
 
-I will assume that the sense of pride and accomplishment is ~\$400. I
+I will assume that the sense of pride and accomplishment is ~\\$400. I
 have no hard numbers on this, but it seems like a good approximation,
 since this is just the number for the first daygame lay.
 
@@ -766,7 +766,7 @@ case 10000, more than that seems very difficult) and chooses the maximum:
 	969.13165157833204
 
 So one can conclude that 484 approaches are optimal under these
-assumptions, with a value of \$969.13.
+assumptions, with a value of \\$969.13.
 
 This can be visualized as well:
 
@@ -836,8 +836,8 @@ expected salary by 0.5% in the first year, with then logarithmic increases
 for each additional year, for 10 years.
 The [parity purchasing power average annual
 wage](https://en.wikipedia.org/wiki/List_of_countries_by_average_wage)
-in the US was \$60k in 2017, but many industrialized countries are lower.
-I'll assume that the average annual wage for a daygamer is \$40k, just
+in the US was \\$60k in 2017, but many industrialized countries are lower.
+I'll assume that the average annual wage for a daygamer is \\$40k, just
 to be safe.
 
 The code for calculating the monetary value of the positive side-effects of
@@ -868,8 +868,8 @@ and positive effects such as playful enjoyment, flow-states and
 extraverted enthusiasm setting after in after an initial hump. These
 positive states become less strong over time because of getting used
 to pickup. Specifically, the negative effects peak at ~80 approaches
-(with -\$500), and break even after ~300. The cumulative value approaches
-\$1900 over thousands of approaches.
+(with -\\$500), and break even after ~300. The cumulative value approaches
+\\$1900 over thousands of approaches.
 
 To model this, I abuse a [log-normal
 distribution](https://en.wikipedia.org/wiki/Log-normal_distribution)
@@ -910,7 +910,7 @@ Would these expenditures be made if the person wasn't doing daygame?
 
 ##### Fixed Costs
 
-I assume that the fixed costs for doing any daygame at all are \$500:
+I assume that the fixed costs for doing any daygame at all are \\$500:
 
 	fixcost::500
 
@@ -944,7 +944,7 @@ and does 1000 approaches per year.
 -->
 <!--TODO: find some examples for sources-->
 <!--
-I (without any research) assume that a daygamer will pay \$200 more per
+I (without any research) assume that a daygamer will pay \\$200 more per
 year for logistics.
 
 It seems to be relatively common for daygamers to move because of daygame,
@@ -956,7 +956,7 @@ I'll assume that 30% of them will do it.
 <!--
 I assume the daygamer counterfactually buys one vibrator (those who
 buy more probably would also have bought sex toys in the counterfactual
-case where they weren't doing daygame). A vibrator seems to cost ~\$30
+case where they weren't doing daygame). A vibrator seems to cost ~\\$30
 on average.
 
 Although buying sex toys has
@@ -972,7 +972,7 @@ I haven't heard much discussion of this, and therefore assume that only
 Many daygamers seem to buy less flashy clothes, sometimes of higher
 quality. I'm unsure how much these clothes introduce additional costs
 and how much they just displace buying normal clothes. I'll pretty much
-baselessly assume that the cost overhead is \$80.
+baselessly assume that the cost overhead is \\$80.
 
 This seems like something many daygamers do, I'll assume 80%.
 
@@ -988,7 +988,7 @@ This seems like something many daygamers do, I'll assume 80%.
 
 ##### Variable Costs
 
-I assume that the variable costs are \$0.5 per approach:
+I assume that the variable costs are \\$0.5 per approach:
 
 	varcost::0.5
 
@@ -1028,7 +1028,7 @@ I model this as having a certain probability of being discovered as
 a daygamer for every approach. Being found out more than once has
 logarithmically increasing costs with the number of being found out.
 
-I'll (somewhat arbitrarily) set the cost of first being found at \$500,
+I'll (somewhat arbitrarily) set the cost of first being found at \\$500,
 and the probability of being found out at any approach to 0.1%.
 
 The probability of being discovered `n` times with
@@ -1036,7 +1036,7 @@ The probability of being discovered `n` times with
 distribution](https://en.wikipedia.org/wiki/Binomial_distribution).
 
 To make the code run faster, only the scenarios with a cost of more than
-\$0.01 are being considered.
+\\$0.01 are being considered.
 
 	fcbfo::300
 	pbfo::0.001
@@ -1052,7 +1052,7 @@ The global optimum is now calculated the same way as [here](#Value):
 	2110.1350422531768
 
 The more complex model with additional considerations therefore recommends
-1024 approaches, with a value of ~\$2110.13.
+1024 approaches, with a value of ~\\$2110.13.
 
 Graphically:
 
@@ -1086,7 +1086,7 @@ Conclusion
 
 I have presented both a simple and a more complicated cost-benefit
 analysis for daygame. Both conclude that daygame is worth it, at around
-500-1000 approaches, but the value is not enormous, with only a \$1-2k,
+500-1000 approaches, but the value is not enormous, with only a \\$1-2k,
 and decreases rapidly with less lenient assumptions.
 
 I tentatively conclude that daygame may be worth it, but

@@ -262,7 +262,7 @@ One also loses the time of being able to use the old object: Let's
 say that one owns a table, but for some reason has decided that it
 isn't sufficient anymore (although it still fulfills its purpose).
 Let's say one estimates that the table will fulfill its function for
-another 5 years. If one then goes out and buys a new table for \$200,
+another 5 years. If one then goes out and buys a new table for \\$200,
 one then loses (with a discount rate of 1%) `$\$200-\$200*0.99^5=\$9.80$`.
 
 ### Explanations
@@ -490,7 +490,7 @@ is true that it's often hard to point to specific advantages of doing so.
 
 One such advantage may be signing up for cryonics. [I
 estimate](./considerations_on_cryonics.html "Considerations on Cryonics")
-that signing up for cryonics is worth \$2.5m in expectation for a twenty
+that signing up for cryonics is worth \\$2.5m in expectation for a twenty
 year old (and more for older people). Assume that after 500 hours reading
 Less Wrong, a person will decide to sign up for cryonics (it broadly
 took me that much time, maybe a little bit less).
@@ -694,7 +694,7 @@ As per [Grall
 2017](doc/sociology/custodial_mothers_and_fathers_and_their_child_support_grall_2017.pdf "Custodial Mothers and Fathers and Their Child Support: 2017"),
 "custodial parents with legal order or informal agreements for child
 support were supposed to receive, on average, $5,519, or approximately
-\$460 per month" (p. 9) (as per Table 2 p. 16, \$5580 per custodial
+\\$460 per month" (p. 9) (as per Table 2 p. 16, \\$5580 per custodial
 mother). "[A]bout 4 of every 5 (79.9 percent) of the 12.9 million
 custodial parents were mothers" (p. 1), to be more exact,
 12,918,000 (p. 16). I will assume that one father per mother is
@@ -713,23 +713,23 @@ the US above the age of 18, the expected value of child support paid per year is
 
 Freezing sperm is surprisingly expensive. [CostAide
 2020](https://costaide.com/freezing-sperm-cost/ "How Much Does Freezing Sperm Cost") states that "There
-is an up-front fee worth \$1000 to \$1200. Its breakdown includes account
+is an up-front fee worth \\$1000 to \\$1200. Its breakdown includes account
 setup, blood draw used to check for viruses and illness and the annual
-storage fee" and "if you store a perm for 1 year the cost will be \$395. A
-2-year storage is \$670, 3 years is \$985, 5 years is \$1340 and 10 years
-is \$2400".
+storage fee" and "if you store a perm for 1 year the cost will be \\$395. A
+2-year storage is \\$670, 3 years is \\$985, 5 years is \\$1340 and 10 years
+is \\$2400".
 
 [Stacey 2020](https://www.verywellhealth.com/how-much-does-a-vasectomy-cost-906900 "The Cost of a Vasectomy")
 (please take a second to note the slight nominative determinism) states
-that "In the United States, a vasectomy costs between \$300 to \$3000". To
-make the calculation easier, I will assume that a vasectomy costs \$1000.
+that "In the United States, a vasectomy costs between \\$300 to \\$3000". To
+make the calculation easier, I will assume that a vasectomy costs \\$1000.
 
 Assuming that sperm would be frozen for 25 years, while child support
 lasts for around 18 years, that would give a cost of
 `$\$1000 + \$1000 + 25\hbox{years}*\frac{\$2400}{10\hbox{years}}=\$8000$`.
 
 The benefit would be `$18\hbox{years}*713.73\frac{\$}{\hbox{year}}=\$12847.14$`,
-with a value of ~\$4850.
+with a value of ~\\$4850.
 
 Under this very crude calculation, freezing sperm and having a vasectomy might very
 well be worth it. However, there are other additional costs to consider, such
@@ -1410,3 +1410,85 @@ cracking [RSA](https://en.wikipedia.org/wiki/RSA)? Better
 get working on that [post-quantum
 crypto](https://en.wikipedia.org/wiki/Post-quantum_cryptography),
 baby!") (this is a good thing, don't get me wrong).
+
+The Price of Inadequacy
+------------------------
+
+In his book Inadequate Equilibria<!--TODO: link-->, Eliezer
+Yudkowsky introduces the concept of an inadequate equilibrium: A [Nash
+equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium) in a game
+where at least one Nash equilibrium with a larger payoff exists.
+
+One can then formalize the badness of an
+inadequate equilibrium `$e$` similarly to the [Price of
+Anarchy](https://en.wikipedia.org/wiki/Price_of_anarchy) and the [Price
+of Stability](https://en.wikipedia.org/wiki/Price_of_Stability):
+
+<div>
+	$$\text{PoI(G, e)}=\frac{\underset{s \in \text{NE}(G)}{\text{max}} \sum_{i \in N} u_i(s)}{\sum_{i \in N} u_i(e)}$$
+</div>
+
+where `$\text{NE}(G)$` is the set of all Nash equilibria for the game
+`$G$` and `$N$` is the set of all players.
+
+The bound for the badness of any inadequate equilibrium is then given by
+
+<div>
+	$$\text{PoI(G)}=\frac{\underset{s \in \text{NE}(G)}{\text{max}} \sum_{i \in N} u_i(s)}{\underset{s \in \text{NE}(G)}{\text{min}} \sum_{i \in N} u_i(s)}$$
+</div>
+
+This formalization has the problem of being sensitive to [affine
+transformations](https://en.wikipedia.org/wiki/Affine_transformation)
+of `$u$` and becoming undefined if the worst Nash equilibrium (or the
+current Nash equilibrium) has payoff zero.
+
+A slightly nicer formalization could be to define:
+
+<div>
+	$$\text{PoI(G)}=\\
+	\text{PoA}(G)-\text{PoS}(G)=\\
+	\frac{\underset{s \in S}{\text{max}} \sum_{i \in N} u_i(s)} {\underset{s \in \text{NE}(G)}{\text{min}} \sum_{i \in N} u_i(s)}-\frac{\underset{s \in S}{\text{max}} \sum_{i \in N} u_i(s)} {\underset{s \in \text{NE}(G)}{\text{max}} \sum_{i \in N} u_i(s)}$$
+</div>
+
+Since we [know
+that](https://en.wikipedia.org/Price_of_Anarchy#Mathematical_Definition)
+`$1 \le \text{PoS} \le \text{PoA}$`, under this definition `$\text{PoI} \ge 0$`.
+
+Is this definition insensitive to affine transformations? I am not sure,
+but I have the intuition that it is, since
+
+<div>
+	$$\frac{\underset{s \in S}{\text{max}} \sum_{i \in N} α \cdot u_i(s)+β} {\underset{s \in \text{NE}(G)}{\text{min}} \sum_{i \in N} α \cdot u_i(s)+β}-\frac{\underset{s \in S}{\text{max}} \sum_{i \in N} α \cdot u_i(s)+β} {\underset{s \in \text{NE}(G)}{\text{max}} \sum_{i \in N} α \cdot u_i(s)+β}=\\
+	\frac{\underset{s \in S}{\text{max }} αβN \cdot \sum_{i \in N} u_i(s)} {\underset{s \in \text{NE}(G)}{\text{min }} αβN \cdot \sum_{i \in N} u_i(s)}-\frac{\underset{s \in S}{\text{max }} αβN \cdot \sum_{i \in N} u_i(s)} {\underset{s \in \text{NE}(G)}{\text{max }} αβN \cdot \sum_{i \in N} u_i(s)}=\\
+	\frac{\underset{s \in S}{\text{max}} \sum_{i \in N} u_i(s)} {\underset{s \in \text{NE}(G)}{\text{min}} \sum_{i \in N} u_i(s)}-\frac{\underset{s \in S}{\text{max}} \sum_{i \in N} u_i(s)} {\underset{s \in \text{NE}(G)}{\text{max}} \sum_{i \in N} u_i(s)}$$
+</div>
+
+iff one can just pull coefficients out of a maximization/minimization
+like that. Not sure though.
+
+If one can bound the price of anarchy and the price of stability, one
+can also sometimes establish bounds on the price of inadequacy:
+
+<table>
+<tbody>
+	<tr>
+		<td></td>
+		<td>Upper-bound: $1 \le \text{PoA} \le n$</td>
+		<td>Lower-bound: $\text{PoA} \ge n$</td>
+	</tr>
+	<tr>
+		<td>Upper-bound: $1 \le \text{PoS} \le m$</td>
+		<td>$n-m \le \text{PoI} \le n-1$</td>
+		<td>$n-m \le \text{PoI}$</td>
+	</tr>
+	<tr>
+		<td>Lower-bound: $\text{PoS} \ge m$</td>
+		<td>$\text{PoI} \le n-m$</td>
+		<td>-</td>
+	</tr>
+</tbody>
+</table>
+
+As an example, in [network cost-sharing
+games](https://en.wikipedia.org/wiki/Price_of_stability#Network_design_games),
+`$\text{PoA} \le k$` and `$\text{PoS}=\mathcal{H}_k$`, so `$\text{PoI} \le k-\mathcal{H}_k$`.

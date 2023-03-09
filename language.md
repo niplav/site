@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2023-01-16, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2023-03-09, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of puns, good bandnames, types of guy,
 idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
@@ -393,7 +393,7 @@ Better Words
 * [prob](https://en.wikipedia.org/wiki/Probability): 4 syllables saved over "probability", closest colliding word is [prop](https://en.wikipedia.org/wiki/prop_\(disambiguation\)), none of which are particularly common
 * [vopi](https://en.wikipedia.org/wiki/Expected_value_of_perfect_information): 10 syllables saved over "expected value of perfect information", alternative spellings could be "evopi" or "evoi" or "voi" (removing perfection or expectation)
 * [batna](https://en.wikipedia.org/wiki/Best_alternative_to_a_negotiated_agreement): 13 syllables saved over "Best alternative to a negotiated agreement", perhaps acustically too close to "batman"
-* [botec](https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation)
+* [botec](https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation): 8 syllables saved over "back-of-the-envelope calculation"
 * [exval](https://en.wikipedia.org/wiki/Expected_value): 3 syllables saved compared to "expected value"
 * [ifef](https://en.wikipedia.org/wiki/If_and_only_if): 3 syllables saved over "if and only if"<!--TODO: add link to LessWrong post on this-->
 
@@ -415,6 +415,7 @@ Advertising Lines
 * Niplav Yushtun™: Pathological Selfer
 * Niplav Yushtun™: [Now an effective cause area!](https://schelling.pt/web/statuses/107888052139408526)
 * Niplav Yushtun™: Calibration of the Intellect, Optimism of the Will
+* Niplav Yushtum™: Mostly a Reputation Hazard
 
 Unclaimed Domain Names
 -----------------------

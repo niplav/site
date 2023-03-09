@@ -691,7 +691,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* transformation curves: {linear, marginal, any}
 	* indifference curves: {linear, fixed number, any}
 * Building A Big Tower
-	* 500 years, ~\$1t, stable technology, build a tower as big as possible
+	* 500 years, ~\\$1t, stable technology, build a tower as big as possible
 	* considerations
 		* location
 			* some mountains nearby for material
@@ -2007,6 +2007,10 @@ Wikipedia Articles
 	* Huh, this was apparently removed?
 * Sinclair coefficient
 * List of important publications in mathematics is very much too opinionated. Reviews like this don't quite belong on Wikipedia, so improve
+* Price of stability/price of anarchy:
+	* Collect bounds on Wikipedia
+	* Link the pages two each other in their See Also sections
+* Network cost-sharing game
 
 Lesswrong wiki
 ---------------
