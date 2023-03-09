@@ -1238,6 +1238,13 @@ Some Civilizational Inadequacies
 		* `$\frac{1 \text{ warning}}{\text{person} \cdot \text{day}} \cdot \frac{2 \text{ unskilled labor seconds}}{\text{warning}} \cdot \frac{1 \text{ unskilled labor hour}}{3600 \text{ unskilled labor seconds}} \cdot \frac{365 \text{ days}}{\text{year}} \cdot 4 \text{ years} \cdot 4 \cdot 10^8 \text{ persons} \approx 3.25 \cdot 10^8 \text{ unskilled labor hours}$`
 		* Which at `$\frac{5€}{\text{unskilled labor hour}}$` is ~1.6 bio. €
 		* Can the benefit compare to this?
+* Ceramic plates and cups made of glass that break easily
+* Non-velcro shoes
+* Courses at university are not 3blue1brown + Q&A + extensive quizzes (or automated tutoring à la DARPA)
+* TSA security theater
+* A lot of terminology in mathematics, for example using "numerator"/"denominator" instead of "upper number"/"lower number" when talking about [fractions](https://en.wikipedia.org/wiki/Fraction) (which would be vastly easier to understand/remember *and* in one case even has fewer syllables)
+* Recycling
+
 <!--
 TODO: I got pushback on LW for this:
 * Gear sticks for manual gear shifting (which are much more common in the EU, I think)
@@ -1246,13 +1253,8 @@ TODO: I got pushback on LW for this:
 		* That gives `$\frac{5 \text{ unskilled labour hours}}{\text{person}} \cdot 3 \cdot 10^8 \text{ persons}=1.5 \cdot 10^8 \text{ unskilled labour hours}$`
 		* At `$\frac{5€}{\text{unskilled labor hour}}$` this is ~7.5 bio. €
 		* And this is still disregarding increased crash probabilities from higher cognitive load! (Although maybe automatic cars cost more?)
-TODO: do-->
-* Ceramic plates and cups made of glass that break easily
-* Non-velcro shoes
-* Courses at university are not 3blue1brown + Q&A + extensive quizzes (or automated tutoring à la DARPA)
-* TSA security theater
-* A lot of terminology in mathematics, for example using "numerator"/"denominator" instead of "upper number"/"lower number" when talking about [fractions](https://en.wikipedia.org/wiki/Fraction) (which would be vastly easier to understand/remember *and* in one case even has fewer syllables)
-* Recycling
+TODO: do
+-->
 
 An Example for Not Updating Uncertain Utility Functions
 --------------------------------------------------------
@@ -1341,13 +1343,14 @@ Pet Peeves
 -----------
 
 * Numerical scales for symmetric variables (e.g. quality/pleasure & pain/change) that are only positive. If you have a thing, the neutral point should not be five, but zero.
-* Reporting the number of lives lost, not the number of [QALYs](https://en.wikipedia.org/wiki/Quality-adjusted_life_year) (or [DALYs](https://en.wikipedia.org/wiki/Disability-adjusted_life_year) or [HALY+s](https://forum.effectivealtruism.org/posts/Lncdn3tXi2aRt56k5/health-and-happiness-research-topics-part-1-background-on#1__The_HALY_) or [sHALYs](https://forum.effectivealtruism.org/posts/Lncdn3tXi2
-Rt56k5/health-and-happiness-research-topics-part-1-background-on#2__The_sHALY) etc.) lost
-* Browsers splitting words at a newline on an ﬀ ligature
+* Reporting the number of lives lost, not the number of [QALYs](https://en.wikipedia.org/wiki/Quality-adjusted_life_year) (or [DALYs](https://en.wikipedia.org/wiki/Disability-adjusted_life_year) or [HALY+s](https://forum.effectivealtruism.org/posts/Lncdn3tXi2aRt56k5/health-and-happiness-research-topics-part-1-background-on#1__The_HALY_) or [sHALYs](https://forum.effectivealtruism.org/posts/Lncdn3tXi2Rt56k5/health-and-happiness-research-topics-part-1-background-on#2__The_sHALY) etc.) lost
 * Menus at restaurants that don't indicate whether the meal is vegetarian or not (ingredients often don't help: Restaurants will put meat (e.g. bacon cubes in salads) into dishes and not indicate it on the menu)
 * Websites that offer two-factor authentication, but don't allow physical authentication keys and, worse, don't offer an option to backup those two-factor authentication methods
 * Applications that create visible new folders (or very large folders) in my home directory
 	* Examples include snap, DogeCoin, julia
+* Browsers splitting words at a newline on an ﬀ ligature:
+
+![Text: "paranoia is a profession. And so LeAIthan represents the most advanced ef[line split on ligature here]fort yet in AI alignment, using *factored* cognition—splitting up into a"](./img/pet_peeves/ff_split.png "Image of text: “paranoia is a profession. And so LeAIthan represents the most advanced ef[line split on ligature here]fort yet in AI alignment, using *factored* cognition—splitting up into a”")
 
 Was Software Security in the Aughts Exceptionally Bad?
 -------------------------------------------------------
@@ -1454,8 +1457,8 @@ Since we [know
 that](https://en.wikipedia.org/Price_of_Anarchy#Mathematical_Definition)
 `$1 \le \text{PoS} \le \text{PoA}$`, under this definition `$\text{PoI} \ge 0$`.
 
-Is this definition insensitive to affine transformations? I am not sure,
-but I have the intuition that it is, since
+Is this definition insensitive to positve affine transformations? I am
+not sure, but I have the intuition that it is, since
 
 <div>
 	$$\frac{\underset{s \in S}{\text{max}} \sum_{i \in N} α \cdot u_i(s)+β} {\underset{s \in \text{NE}(G)}{\text{min}} \sum_{i \in N} α \cdot u_i(s)+β}-\frac{\underset{s \in S}{\text{max}} \sum_{i \in N} α \cdot u_i(s)+β} {\underset{s \in \text{NE}(G)}{\text{max}} \sum_{i \in N} α \cdot u_i(s)+β}=\\
@@ -1464,7 +1467,8 @@ but I have the intuition that it is, since
 </div>
 
 iff one can just pull coefficients out of a maximization/minimization
-like that. Not sure though.
+like that. Not sure though. (Negative affine transformations would flip
+the function and select other points as maxima/minima).
 
 If one can bound the price of anarchy and the price of stability, one
 can also sometimes establish bounds on the price of inadequacy:
