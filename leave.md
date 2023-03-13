@@ -220,6 +220,13 @@ Evidence
 
 ### How Much Time do People Spend on the Internet?
 
+>  Regaining your focus requires you to be mindful of how you
+are using your technology, Mark said, a daunting ask if you
+consider the average American spends [at least 10 hours a day on
+screens](https://www.cnn.com/2016/06/30/health/americans-screen-time-nielsen/index.html).
+
+*—Sandee LaMotte, [“Your attention span is shrinking, studies say. Here's how to stay focused”](https://edition.cnn.com/2023/01/11/health/short-attention-span-wellness/index.html), 2023*
+
 ### How Much Time Would People Like to Spend on the Internet?
 
 ### Have Attention Spans Been Declining?

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2023-01-03, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2023-01-06, modified: 2023-03-12, language: english, status: notes, importance: 3, confidence: log*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
 decided to log my nootropics usage and its effects.__
@@ -28,3 +28,11 @@ I'm especially interested in the effects of creatine on my
 cognition (allegedly it increases IQ in vegetarians, and I'm a
 [lacto-vegetarian](https://en.wikipedia.org/wiki/Lacto-vegetarianism)),
 my exercising performance and my meditation ability.
+
+Nicotine
+---------
+
+I started taking nicotine (in the form of nicotine chewing gum with 2mg of
+active ingredient) in high-pressure situations (e.g. I'm procrastinating
+on an important task and have anxiety around it, or during exams). So far,
+it seems especially useful to break me out of a akratic rut.

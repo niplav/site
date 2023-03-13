@@ -1682,3 +1682,6 @@
 2023-03-05T19:31:21.000000Z	everybody starts with the same bad ideas <> beginners mind
 2023-03-05T19:43:16.000000Z	schelling.pt gone
 2023-03-06T01:39:31.000000Z	in emily in paris Y is mad because X slept with Ys boyfriend. and what does my brain say? 'why don't X and Ys boyfriend pay her the cheerful price to forget the thing?' damn economists
+2023-03-10T17:23:51.000000Z	there's some IOIs it's a crime not to react to
+2023-03-12T15:21:55.000000Z	a problem with minmaxing is that the crisper your model of the world becomes, the more conservative you become—but intuitively it should be the other way around!
+2023-03-12T16:46:57.000000Z	optimize by satisficing, satisfice by optimizing

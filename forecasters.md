@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-04-04, modified: 2022-08-07, language: english, status: notes, importance: 7, confidence: highly likely*
+*author: niplav, created: 2022-04-04, modified: 2023-03-13, language: english, status: notes, importance: 7, confidence: highly likely*
 
 > __Beginnings of a research agenda about [judgmental
 forecasting](https://en.wikipedia.org/wiki/Forecasting#Judgmental_methods).__
@@ -62,6 +62,8 @@ How Good Are We At forecasting?
 			* Generally, scaling laws for forecasting would be interesting/cool to see
 		* How much do number of resolutions/forecasts matter for forecast quality/learning?
 * Do laypeople/pundits/domain experts perform better than forecasters/superforecasters/forecasting teams/prediction markets *specifically* under novel & unforeseen situations?
+* Are more extreme views or more conservative views more accurate?
+	* Question originally asked in [Hanson 2007](https://www.overcomingbias.com/2007/02/is_truth_in_the.html)
 
 How Can We Become Better At Forecasting?
 -----------------------------------------
