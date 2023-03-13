@@ -157,10 +157,11 @@ The names for the columns are exceedingly obvious and need no further
 explanation.
 
 I didn't rate my sessions in the beginning (and manually inserted
-data from meditation retreats with unrated sessions), leading to a
-very optimistic default of 4.0 mindfulness and "concentration" (better
-called absorption, I claim). So we execute, using the sam language in
-vis<!--TODO: links-->:
+data from meditation retreats with unrated sessions), leading to
+a very optimistic default of 4.0 mindfulness and "concentration"
+(better called absorption, I claim). So we execute, using
+the [sam](https://plan9.io/sys/doc/sam/sam.html) language in
+[vis](https://github.com/martanne/vis):
 
 	/^1,/;/^860,/
 	x/4\.0,4\.0,/c/,/

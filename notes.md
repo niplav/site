@@ -1417,7 +1417,7 @@ baby!") (this is a good thing, don't get me wrong).
 The Price of Inadequacy
 ------------------------
 
-In his book Inadequate Equilibria<!--TODO: link-->, Eliezer
+In his book [Inadequate Equilibria](https://equilibriabook.com/), Eliezer
 Yudkowsky introduces the concept of an inadequate equilibrium: A [Nash
 equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium) in a game
 where at least one Nash equilibrium with a larger payoff exists.
@@ -1457,7 +1457,7 @@ Since we [know
 that](https://en.wikipedia.org/Price_of_Anarchy#Mathematical_Definition)
 `$1 \le \text{PoS} \le \text{PoA}$`, under this definition `$\text{PoI} \ge 0$`.
 
-Is this definition insensitive to positve affine transformations? I am
+Is this definition insensitive to positive affine transformations? I am
 not sure, but I have the intuition that it is, since
 
 <div>
@@ -1496,4 +1496,4 @@ can also sometimes establish bounds on the price of inadequacy:
 As an example, in [network cost-sharing
 games](https://en.wikipedia.org/wiki/Price_of_stability#Network_design_games),
 `$\text{PoA} \le k$` and `$\text{PoS}=\mathcal{H}_k$`, so `$\text{PoI} \le k-\mathcal{H}_k$`.
-<!--TODO: cite this from Roughgardens Twenty Lectures-->.
+<!--TODO: cite this from Roughgardens Twenty Lectures-->

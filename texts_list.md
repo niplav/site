@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-03-03, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-03-13, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,31 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [The Main Sources of AI Risk? (Daniel Kokotajlo/Wei Dai, 2019)](https://www.alignmentforum.org/posts/WXvt8bxYnwBYpy9oT/the-main-sources-of-ai-risk)
+* [AI Safety Needs Social Scientists (Amanda Askell/Geoffrey Irving, 2019)](https://distill.pub/2019/safety-needs-social-scientists/)
+* [How to Use t-SNE Effectively (Fernanda Viegas/Ian Johnson/Martin Wattenberg, 2016)](https://distill.pub/2016/misread-tsne/)
+* [Why I think strong general AI is coming soon (porby, 2022)](https://www.lesswrong.com/posts/K4urTDkBbtNuLivJx/why-i-think-strong-general-ai-is-coming-soon)
+* [Siren worlds and the perils of over-optimised search (Stuart Armstrong, 2014)](https://www.lesswrong.com/posts/nFv2buafNc9jSaxAH/siren-worlds-and-the-perils-of-over-optimised-search)
+* [How could we know that an AGI system will have good consequences? (Nate Soares, 2022)](https://www.lesswrong.com/posts/iDFTmb8HSGtL4zTvf/how-could-we-know-that-an-agi-system-will-have-good)
+* [Mysteries of mode collapse (janus, 2022)](https://www.lesswrong.com/posts/t9svvNPNmFf5Qa3TA/mysteries-of-mode-collapse)
+* [Radical Probabilism (Abram Demski, 2020)](https://www.lesswrong.com/posts/xJyY5QkQvNJpZLJRo/radical-probabilism-1)
+* [AI Neorealism: a threat model & success criterion for existential safety (David A. Dalrymple, 2022)](https://www.alignmentforum.org/posts/Wi4RAJCbh3qD9fynj/ai-neorealism-a-threat-model-and-success-criterion-for)
+* [An Open Agency Architecture for Safe Transformative AI (David A. Dalrymple, 2022)](https://www.alignmentforum.org/posts/pKSmEkSQJsCSTK6nH/an-open-agency-architecture-for-safe-transformative-ai)
+* [The Truth about Decreasing Attention Spans in University Students (EU Business School, 2022)](https://www.euruni.edu/blog/the-truth-about-decreasing-attention-spans-in-university-students/)
+* [Research Indicates That Attention Spans Are Shortening (Zia Muhammad, 2020)](https://www.digitalinformationworld.com/2020/02/report-shows-that-attention-spans-are-shortening.html)
+* [Normal Attention Span Expectations By Age (Brain Balance, 2023)](https://www.brainbalancecenters.com/blog/normal-attention-span-expectations-by-age)
+* [Your attention span is shrinking, studies say. Here’s how to stay focused (Sandee LaMotte, 2023)](https://edition.cnn.com/2023/01/11/health/short-attention-span-wellness/index.html)
+* [Logical and Indexical Uncertainty (Scott Garrabrant, 2014)](https://www.lesswrong.com/posts/SFLCB5BgjzruJv9sp/logical-and-indexical-uncertainty)
+* [logical vs indexical dignity (carado, 2022)](https://www.lesswrong.com/posts/Kjn4vahWAb8Xpuhi3/logical-vs-indexical-dignity)
+* [Getting Eulered (Scott Alexander, 2014)](https://slatestarcodex.com/2014/08/10/getting-eulered/)
+* [Core Views on AI Safety: When, Why, What, and How (Zac Hatfield-Dodds, 2023)](https://www.anthropic.com/index/core-views-on-ai-safety)
+* [We Choose To Align AI (johnswentworth, 2022)](https://www.lesswrong.com/posts/BseaxjsiDPKvGtDrm/we-choose-to-align-ai)
+* \* Attention span during lectures: 8 seconds, 10 minutes, or more? (Neil A. Bradbury, 2016)
+* [Why am I not terrified of AI? (Scott Aaronson, 2023)](https://scottaaronson.blog/?p=7064)
+* [Why Not Just... Build Weak AI Tools For AI Alignment Research? (johnswentworth, 2023)](https://www.lesswrong.com/posts/KQfYieur2DFRZDamd/why-not-just-build-weak-ai-tools-for-ai-alignment-research)
+* [The Waluigi Effect (mega-post) (Cleo Nardo, 2023)](https://www.lesswrong.com/posts/D7PumeYTDPfBTp3i7/the-waluigi-effect-mega-post)
+* [Using the Psychedelic Experience for Personal Growth and Healing (Trippingly, 2021)](https://www.trippingly.net/lsd-studies/2018/10/13/using-the-psychedelic-experience-for-personal-growth)
+* [The Story of Mel (Ed Nather, 1983)](http://www.catb.org/jargon/html/story-of-mel.html)
 * [Accountable Financial Regulation (Robin Hanson, 2007)](https://www.overcomingbias.com/p/accountable_finhtml)
 * [You Are Not Hiring the Top 1% (Eliezer Yudkowsky, 2007)](https://www.lesswrong.com/posts/HCssSWMp7zoJAPtcR/you-are-not-hiring-the-top-1)
 * [Morality or Manipulation? (David J. Balan, 2007)](https://www.overcomingbias.com/p/morality_or_manhtml)
@@ -161,7 +186,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * Der Graf von Habsburg (Friedrich Schiller, 1805)
 * Berglied (Friedrich Schiller, 1805)
 * Der Pilgrim (Friedrich Schiller (1805)
-* \* The development of selective attention: A life-span overview (Dana J. Plude/Darlene Brodeur/Jim T. Enns, 1994)
+* The development of selective attention: A life-span overview (Dana J. Plude/Darlene Brodeur/Jim T. Enns, 1994)
 * Freud und die moralische Reflexion (Richard Rorty, 1984)
 * Attention During Lectures: Beyond Ten Minutes (James H. Korn/Karen Wilson, 2007)
 * [Slowing Moore’s Law: How It Could Happen (Gwern Branwen, 2017)](https://gwern.net/Slowing-Moores-
@@ -281,7 +306,7 @@ J/you-can-do-futarchy-yourself)
 * Lernen mit Medien (Elke Wild/Holger Horz/Jens Möller, 2015)
 * [‘Queen Caroline’: The Risk-Loving 29-Year-Old Embroiled In The FTX Collapse (David Jeans/Sarah Emerson/Richard Nieva/Michael del Castillo, 2022)](https://www.forbes.com/sites/davidjeans/2022/11/18/queen-caroline-the-risk-loving-29-year-old-embroiled-in-the-ftx-collapse/)
 * [Sam Bankman-Fried tries to explain himself (Kelsey Piper, 2022)](https://www.vox.com/future-perfect/23462333/sam-bankman-fried-ftx-cryptocurrency-effective-altruism-crypto-bahamas-philanthropy)
-* \* Time Series: Theory and Methods (Peter J. Brockwell/Richard A. Davis, 2009)
+* Time Series: Theory and Methods (Peter J. Brockwell/Richard A. Davis, 2009)
 * The Precipice (Toby Ord, 2020)
 * [The attention span myth and why it’s problematic for marketers (Natasha Keary, 2021)](https://turtl.co/blog/the-attention-span-myth/)
 * [Do not date me (Qiaochu Yuan, 2022)](https://qchu.substack.com/p/do-not-date-me)
@@ -3035,7 +3060,7 @@ tps://www.deepmind.com/blog/announcing-deepmind-health-research-partnership-with
 * [Die Eichbäume (Friedrich Hölderlin, 1797)](https://de.wikipedia.org/wiki/Die_Eichb%C3%A4ume_\(H%C3%B6lderlin\)#Text)
 * [Das Schicksal (Friedrich Hölderlin, 1793)](https://www.textlog.de/17770.html)
 * The Elephant in the Brain (Kevin Simler/Robin Hanson, 2018)
-* \* Naive Set Theory (Paul R. Halmos, 1960)
+* |65 Naive Set Theory (Paul R. Halmos, 1960)
 * Superintelligence (Nick Bostrom, 2014)
 * [To Wash It All Away (James Mickens, 2014)](https://www.usenix.org/system/files/1403_02-08_mickens.pdf)
 * [The Saddest Moment (James Mickens, 2013)](https://www.usenix.org/system/files/login-logout_1305_mickens.pdf)
