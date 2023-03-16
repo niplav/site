@@ -35,5 +35,6 @@ order). I may not be finished with some of these yet.
 * [Snowpiercer](https://www.imdb.com/title/tt6156584/)
 * [Squid Game](https://www.imdb.com/title/tt10919420/)
 * [Stranger Things](https://www.imdb.com/title/tt4574334/)
+* [The Book of Boba Fett]()<!--TODO-->
 * [The Lord of the Rings: The Rings of Power](https://www.imdb.com/title/tt7631058/)
 * [The Mandalorian](https://www.imdb.com/title/tt8111088/)

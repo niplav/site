@@ -13,7 +13,7 @@ Against Applause After Classical Concerts
 
 > Silence is a hard virtue.
 
-*— [Scott Alexander](http://slatestarcodex.com/), [“The Virtue of Silence”]((https://slatestarcodex.com/2013/06/14/the-virtue-of-silence/), 2013*
+*— [Scott Alexander](http://slatestarcodex.com/), [“The Virtue of Silence”](https://slatestarcodex.com/2013/06/14/the-virtue-of-silence/), 2013*
 
 Arguing Against Applause
 ------------------------
