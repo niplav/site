@@ -22,6 +22,7 @@ HTML=index.html \
 	agt_solutions.html \
 	aima_solutions.html \
 	apisct_solutions.html \
+	co_solutions.html \
 	ito_solutions.html \
 	nst_solutions.html \
 	pil_solutions.html \

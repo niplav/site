@@ -68,7 +68,6 @@ Writing
 #### Surveys & Experiments
 
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
-* [Types & Methods of Data Collection I Use](./data.html)
 
 #### Collections
 

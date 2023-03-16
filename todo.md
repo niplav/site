@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2023-03-06, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2023-03-14, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -2025,6 +2025,7 @@ Wikipedia Articles
 * Nanosystems: Molecular Machinery Manufacturing and Computation
 * Global Priorities Institute
 * LLD (LLVM linker)
+* Scaling Laws for Large Language Models
 
 ### Improve
 
