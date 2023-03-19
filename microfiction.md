@@ -397,6 +397,7 @@ Tom Swifties
 -------------
 
 * "These mussels weren't good anymore!", Tom exclamated.
+* "Then you'll have to find an atomic solution", Tom departed.
 
 <!--
 Memes
