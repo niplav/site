@@ -617,7 +617,8 @@ Texts
 * Argument against polyamory
 * State some of position on consciousness
 * Bitcoin maximalism is not even wrong?
-* Forecasting Track Records: Still Undervalued
+* Forecasting Track Records: Still Underrated
+	* Argument: Metrics can be goodharted. Answer: "A solution is technical if it is precise enough to be Goodharted and social if it is imprecise enough to be used to coalitionally extract value"
 * Why Not Prepping?
 
 > [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
@@ -843,6 +844,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Bihacking/polyhacking case studies collection
 * Post-mortem on liquid democracy in the real world
 * Investigate [this post empirically](http://www.overcomingbias.com/2007/02/is_truth_in_the.html) via information from forecasting datasets
+* Daygame Locations as a Multi-Armed Bandit
 
 ### Ideas
 
@@ -937,7 +939,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Should the EA Community Buy Large AI Labs?
 	* Use the Rocket Squid quote from Erogamer
 * The UTMs-simulate-each-other solution to the Python-with-Witch problem
-	* Look up LW shortform comment on this
+	* Look up LW shortform comment on this<!--TODO, both of them-->
 	* https://nitter.net/RatOrthodox/status/1552618631602663425#m
 	* Towards the Best Programming Language for Universal Induction
 	* Bayesian Conspiracy episode where this is mentioned
@@ -964,74 +966,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Lesser known causal graphs
 	* Mathematical art with causal graphs where edges can point to (or inhibit) other edges
 	* Not to be taken seriously
-* Transfer PoI LW shortform to notes
 * So You're Proposing An Economic Policy checklist like the programming language/OS one
-* High Status Eschews Meritocracy
-	* Basically just the thing Oliver Habryka talks about in his Filan Cabinet interview
-	* Examples: resistance to judgmental forecasting with scoring, IQ tests, comparing doctors to each other (Semmelweis!), companies that estimate software project times without track records, in the rationality community no nice public ledger for bets/forecasting (and underappreciated by high status people from the rationality community), public reporting of date/lay ratios for pickup artists, intellectuals who place isolated demands for rigor on methods for measuring intelligence
-	* Collapse: MMA as an example (look for video), potentially meditation in the future?
-	* Argument: Metrics can be goodharted. Answer: "A solution is technical if it is precise enough to be Goodharted and social if it is imprecise enough to be used to coalitionally extract value"
-
-> Daniel Filan: So let's go back to what you think on your bad days. So
-you mentioned that you had this sense that lots of things in the world
-were, I don't know, trying to distract you from things that are true or
-important. And that LessWrong did that somewhat less.  
->
-> Oliver Habryka: Yeah.  
->
-> Daniel Filan: Can you kind of flesh that out? What kinds of things
-are you thinking of?  
->
-> Oliver Habryka: I mean, the central dimension that I would often
-think about here is reputation management. As an example, the medical
-profession, which, you know, generally has the primary job of helping
-you with your medical problems and trying to heal you of diseases and
-various other things, also, at the same time, seems to have a very strong
-norm of mutual reputation protection. Where, if you try to run a study
-trying to figure out which doctors in the hospital are better or worse
-than other doctors in the hospital, quite quickly, the hospital will
-close its ranks and be like, “Sorry, we cannot gather data on [which
-doctors are better than the other doctors in this hospital].” Because
-that would, like, threaten the reputation arrangement we have. This would
-introduce additional data that might cause some of us to be judged and
-some others of us to not be judged.  
->
-> And my sense is the way that usually looks like from the inside is
-an actual intentional blinding to performance metrics in order to both
-maintain a sense of social peace, and often the case because... A very
-common pattern here [is] something like, you have a status hierarchy
-within a community or a local institution like a hospital. And generally,
-that status hierarchy, because of the way it works, has leadership
-of the status hierarchy be opposed to all changes to the status
-hierarchy. Because the current leadership is at the top of the status
-hierarchy, and so almost anything that we introduce into the system that
-involves changes to that hierarchy is a threat, and there isn't much to
-be gained, [at least in] the zero-sum status conflict that is present.  
->
-> And so my sense is, when you try to run these studies about comparative
-doctor performance, what happens is more that there's an existing status
-hierarchy, and lots of people feel a sense of uneasiness and a sense
-of wanting to protect the status quo, and therefore they push back on
-gathering relevant data here. And from the inside this often looks like
-an aversion to trying to understand what are actually the things that
-cause different doctors to be better than other doctors. Which is crazy,
-if you're, like, what is the primary job of a good medical institution
-and a good medical profession, it would be figuring out what makes people
-be better doctors and worse doctors. But [there are] all of the social
-dynamics that tend to be present in lots of different institutions that
-make it so that looking at relative performance [metrics] becomes a
-quite taboo topic and a topic that is quite scary.  
->
-> So that's one way [in which] I think many places try to actively... Many
-groups of people, when they try to orient and gather around a certain
-purpose, actually [have a harder time] or get blinded or in some sense
-get integrated into a hierarchy that makes it harder for them to look
-at a thing that they were originally interested in when joining the
-institution.  
->
-> Yeah, I mean, that's a good chunk of it. Like these kinds of dynamics,
-there's lots of small pieces of dynamics that I could talk about that
-are present.
 
 ### Collections
 
@@ -1874,6 +1809,10 @@ Programming
 * statests.kg
 	* library for statistical tests
 
+### Julia Libraries
+
+* Bandits import fails, fix that
+
 ### Contributions
 
 * mupdf
@@ -1949,6 +1888,7 @@ Programming
 * Find schelling.pt thread for bugs
 * pandas apply to Expanding allows only single float values, not tables
 * numpy unique that doesn't require sortability, just comparability
+* Anki doesn't let you set the backup directory
 * dc 9base manpage:
 	* typo in the order of operations in the manpage
 
@@ -2073,6 +2013,7 @@ Wikipedia Articles
 	* Collect bounds on Wikipedia
 	* Link the pages two each other in their See Also sections
 * Network cost-sharing game
+* Add Rodney Brook's personal website http://rodneybrooks.com/ to his article
 
 Lesswrong wiki
 ---------------
@@ -2127,9 +2068,6 @@ Answers
 	* 3.3. Competes with other interests
 	* 4. Personal story
 	* 4.1 Maybe overestimates how horny guys are
-* Points to add to `https://www.alignmentforum.org/posts/WXvt8bxYnwBYpy9oT/the-main-sources-of-ai-risk`:
-	* AI systems correctly learn human values, but then change their world-model/ontology and incorrectly port the values to that ontology
-	* See [Rescuing the utility function](https://arbital.com/p/rescue_utility/), [Utility identification problem: Main](https://arbital.com/p/rescue_utility/), [Ontology identification problem: Technical tutorial](https://arbital.com/p/ontology_identification/?l=6b)
 
 Arbital
 --------
