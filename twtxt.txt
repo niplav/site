@@ -1690,3 +1690,4 @@
 2023-03-16T21:58:52.000000Z	“galaxybrained” is an interesting category. is it just pointing at the conjunction fallacy, or something more subtle?
 2023-03-17T19:02:36.000000Z	half-uplifted octopus escapes and starts a life of crime: The Multi-Armed Bandit
 2023-03-19T16:30:38.000000Z	CDTBNGS (Causal Decision Theory, but no Galaxy-Brained Shit)
+2023-03-20T15:49:51.000000Z	give standard vNM coherence violating scenarios to smarter language models

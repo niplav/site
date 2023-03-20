@@ -23,6 +23,7 @@ March 2023
 
 * [Notes](./notes.md)
 	* [The Price of Inadequacy](./notes.html#The_Price_of_Inadequacy)
+	* [High Status Eschews Quantification of Performance](./notes.html#High_Status_Eschews_Quantification_of_Performance)
 
 February 2023
 -------------

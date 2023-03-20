@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-17, modified: 2023-03-13, language: english, status: notes, importance: 7, confidence: unlikely*
+*author: niplav, created: 2023-01-17, modified: 2023-03-20, language: english, status: notes, importance: 7, confidence: unlikely*
 
 > __I investigate whether the attention span of individual humans has
 been falling over the last two decades (prompted by curiosity about
@@ -168,9 +168,51 @@ therefore, ah, *tested*) test for attention span (or just attention)
 through the literature on attention, extract the individual measurements
 (and maybe even acquire some datasets) and perform a meta-analysis.
 
-I attempted to find a survey or review paper on attention span, but
-was unsuccessful in my quest, so I resulted to collecting metrics for
-attention span from different papers:
+### Continuous Performance Tests
+
+For measuring sustained and selective attention,
+I found the family of [continuous performance
+tests](https://en.wikipedia.org/wiki/Continuous_performance_task),
+including the Visual and Auditory CPT (IVA-2), the [Test of Variables of
+Attention](https://en.wikipedia.org/wiki/Test_of_variables_of_Attention)
+(T.O.V.A), Conners' CPT-III, the
+gradCPTi and the QbTest, some of which are described
+[here](https://en.wikipedia.org/wiki/Continuous_performance_task#Test_administration)<!--TODO:
+links for all of these-->. These tests usually contain two parts: a part
+with low stimulation and rare changes of stimuli, which tests for lack
+of attention, and a part with high stimulation and numerous changes of
+stimuli, which tests for impulsivity/self control.
+
+Those tests [usually report four different scores](https://en.wikipedia.org/wik/Continuous_performance_task#Test_scoring):
+
+> 1. __Correct detection:__ This indicates the number of times the client
+responded to the target stimulus. Higher rates of correct detections
+indicate better attentional capacity.
+2. __[Reaction times](https://en.wikipedia.org/wiki/Reaction_time):__
+This measures the amount of time between the presentation of the stimulus
+and the client's response.
+3. __Omission errors:__ This indicates the number of times the target
+was presented, but the client did not respond/click the mouse. High
+omission rates indicate that the subject is either not paying attention
+(distractibility) to stimuli or has a sluggish response.
+4. __Commission errors:__ This score indicates the number of times the
+client responded but no target was presented. A fast reaction time and
+high commission error rate points to difficulties with impulsivity. A
+slow reaction time with high commission and omission errors, indicates
+inattention in general.
+
+<!--TODO:
+Two questions:
+
+* How close are those to measures of attention span
+* Are there any cross-sectional/time-series analyses using them
+-->
+
+### Other Heterogenous Metrics
+
+I also attempted to find a survey or review paper on attention span,
+but was unsuccessful in my quest, so I resulted to collecting metrics
+for attention span from different papers:
 
 * [Gausby 2015](./doc/psychology/attention_span/attention_spans_gausby_et_al_2015.pdf)
 	* Three online tests (probably devised by the authors (?), since no source is given) (n≈2000 Canadians). Very little information about the exact nature of the tests.
@@ -187,6 +229,8 @@ attention span from different papers:
 	* Time spent on websites on average.
 * [Lorenz-Spreen et al. 2019](./doc/psychology/attention_span/accelerating_dynamics_of_collective_attention_lorenz-spreen_et_al_2019.pdf "Accelerating dynamics of collective attention")
 	* Time that specific pieces of information (hashtags/n-grams/Reddit submissions &c) were popular
+
+<!--TODO: revise this-->
 
 But, as it stands, I don't think that such an instrument
 exists`$_{35\%}$`: The set of listed measures I found appears to be too
@@ -239,6 +283,24 @@ interaction consisting of the military or the stock exchange.
 
 ![Chart indicating how the speed at which hashtags become popular changed over the years. Four plots (yellow, green, blue and purple) which form a peak in the middle and fall off at the sides. The yellow line is highest around the peak, the green one is lower, blue even lower and purple the lowest.](./img/spans/popularity_ascent.png "Chart indicating how the speed at which hashtags become popular changed over the years. Four plots \(yellow, green, blue and purple\) which form a peak in the middle and fall off at the sides. The yellow line is highest around the peak, the green one is lower, blue even lower and purple the lowest.")
 
+What About Rates of ADHD?
+--------------------------
+
+[Data from the CDC](https://www.cdc.gov/ncbddd/adhd/timeline.html) shows
+a clear increase in the percentage of children with a parent-reported
+ADHD diagnosis:
+
+![](./img/spans/adhd_diagnoses.jpg)<!--TODO: label-->
+
+There has been a similar increase in the diagnosis of [ADHD among
+adults](https://www.psychologytoday.com/us/blog/balanced/202302/why-is-the-prevalence-of-adhd-increasing),
+"from 0.43 to 0.96 percent".<!--TODO: which years again?-->
+
+However, this does not necessarily mean that the *rate* of ADHD has
+increased, if e.g. awareness of ADHD has increased and therefore
+leads to more diagnoses<!--TODO: find the number of tests for ADHD or
+something?-->.
+
 What Would A Good Study Look Like?
 ------------------------------------
 
@@ -249,6 +311,8 @@ a good instrument for measuring attention span, and then apply that
 instrument on random population samples for several years.
 
 ### How Might One Measure Attention Span
+
+<!--TODO: revise this, maybe scrap :-/-->
 
 [I have not been able to find](#How_Do_We_Measure_Attention_Span)
 a standard instrument for measuring attention span which returns
@@ -368,8 +432,7 @@ Consider your incentives :-).
 * `https://statenews.com/article/2022/01/having-the-attention-span-of-a-goldfish-may-no-longer-be-the-the-joke-you-think-it-is?ct=content_open&cv=cbox_latest`
 * `https://www.kcl.ac.uk/news/are-attention-spans-really-collapsing-data-shows-uk-public-are-worried-but-also-see-benefits-from-technology`
 * `https://www.brainbalancecenters.com/blog/normal-attention-span-expectations-by-age`
-* Continuous performance task on Wikipedia
-* Test of Variables of Attention
+* Test of Variables of Attention on Wikipedia
 -->
 
 Appendix A: Claims That Attention Spans Have Been Declining
@@ -377,7 +440,9 @@ Appendix A: Claims That Attention Spans Have Been Declining
 
 Most of these are either unsourced or cite [Gausby
 2015](./doc/psychology/attention_span/attention_spans_gausby_et_al_2015.pdf "Attention spans")
-[fallaciously](https://www.bbc.com/news/health-38896790).
+[fallaciously](https://www.bbc.com/news/health-38896790) (which [Bradbury
+2016](./doc/psychology/attention_span/attention_span_during_lectures_8_seconds_10_minutes_or_more_bradbury_2016.pdf "Attention span during lectures: 8 seconds, 10 minutes, or more?")
+conjectures to be the number of seconds spent on websites on average).
 
 > Today, individuals are constantly on an information overload from
 both the quantity of information available and the speed of which
@@ -460,3 +525,20 @@ outside the classroom has an impact on their attention spans__.
 *—EU Business School, [“The Truth about Decreasing Attention Spans in University Students”](https://www.euruni.edu/blog/the-truth-about-decreasing-attention-spans-in-university-students/), 2022*
 
 (No link given.)
+
+> In 2015, a study commissioned by Microsoft and discussed in Time
+magazine found that the average attention span was in fact only 8 s. If
+indeed this is the case, then even participating in a 15-min lecture would
+be positively heroic. To place this in perspective, it was reported in
+the same Time article, that goldfish, of the piscine rather than snack
+variety, have an attention span of 9 s, one whole second greater than
+humans! It is perhaps rather premature to opt for an 8-s lecture format,
+as there are many caveats to the Time article, not the least of which
+is that no one knows how to actually measure a goldfish’s attention
+span. What has been measured is goldfish memory, which, according to
+researchers in the School of Psychology at the University of Plymouth,
+is actually quite good (7). Similarly the 8-s attention span for humans
+actually reflects the average time a person will spend on a web page
+before looking somewhere else.
+
+*—Neil A. Bradbury, [“Attention span during lectures: 8 seconds, 10 minutes, or more?”](./doc/psychology/attention_span/attention_span_during_lectures_8_seconds_10_minutes_or_more_bradbury_2016.pdf), 2016*
