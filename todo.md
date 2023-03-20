@@ -2041,6 +2041,7 @@ Sequences
 Answers
 --------
 
+* Answer with rant on `https://forum.effectivealtruism.org/posts/MrqM9XvJoKvyq6kxT/why-i-m-suss-on-wellbeing-surveys`
 * Answer `https://old.reddit.com/r/slatestarcodex/comments/u3xpn3/effective_altruists_and_worrying_about_nuclear/i4t4u2p/`
 * Answer `https://old.reddit.com/r/slatestarcodex/comments/u3xpn3/effective_altruists_and_worrying_about_nuclear/i4sxf5n/`
 * Answer `https://www.lesswrong.com/posts/pSdxQfbvC5qBBdehq/what-is-the-most-significant-way-you-have-changed-your-mind?commentId=G97DgBgPvWbugkZEd`

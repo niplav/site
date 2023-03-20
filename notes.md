@@ -1352,7 +1352,7 @@ Pet Peeves
 
 ![Text: "paranoia is a profession. And so LeAIthan represents the most advanced ef[line split on ligature here]fort yet in AI alignment, using *factored* cognition—splitting up into a"](./img/pet_peeves/ff_split.png "Image of text: “paranoia is a profession. And so LeAIthan represents the most advanced ef[line split on ligature here]fort yet in AI alignment, using *factored* cognition—splitting up into a”")
 
-![](./img/pet_peeves/ft_split.png)
+![Image of text: "the more rigorous the experiment, the smaller the effect. The respons to this is of[split on ligature here]ten to not explain how merely flipping a coin can make genuine effects disappear"](./img/pet_peeves/ft_split.png "Image of text: “the more rigorous the experiment, the smaller the effect. The respons to this is of[split on ligature here]ten to not explain how merely flipping a coin can make genuine effects disappear”")
 
 Was Software Security in the Aughts Exceptionally Bad?
 -------------------------------------------------------
@@ -1669,8 +1669,9 @@ any structural narrative in a social system.”
 #### Software Development Effort Estimation
 
 (*epistemic status*: The information in this section is from personal
-communication with a person with ~35 years of industry experience in
-software, but I haven't checked the claims in detail yet.<!--TODO-->)
+communication with a person with ~35 years of industry experience
+in software engineering, but I haven't checked the claims in detail
+yet.<!--TODO-->)
 
 It is common for big projects to take more effort and time to complete
 than initially estimated. For software projects, there exist several

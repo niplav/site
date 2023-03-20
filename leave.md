@@ -220,12 +220,17 @@ Evidence
 
 ### How Much Time do People Spend on the Internet?
 
->  Regaining your focus requires you to be mindful of how you
-are using your technology, Mark said, a daunting ask if you
-consider the average American spends [at least 10 hours a day on
-screens](https://www.cnn.com/2016/06/30/health/americans-screen-time-nielsen/index.html).
+> A new [Nielsen Company audience
+report](http://www.nielsen.com/us/en/insights/reports/2016/the-total-audience-report-q1-2016.html)
+reveals that adults in the United States devoted about 10 hours and 39
+minutes each day to consuming media during the first quarter of this year.
+[…]
+The report reveals a dramatic one-hour increase over last year in how
+often the average American adult gorges on media in a day. During the
+same time period last year, Nielsen reported that people spent about
+nine hours and 39 minutes engaging with gadgets.
 
-*—Sandee LaMotte, [“Your attention span is shrinking, studies say. Here's how to stay focused”](https://edition.cnn.com/2023/01/11/health/short-attention-span-wellness/index.html), 2023*
+*—Jacqueline Howard, [“Americans devote more than 10 hours a day to screen time, and growing”](https://edition.cnn.com/2016/06/30/health/americans-screen-time-nielsen/index.html), 2016*
 
 ### How Much Time Would People Like to Spend on the Internet?
 
