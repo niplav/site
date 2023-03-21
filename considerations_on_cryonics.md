@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2022-04-22, language: english, status: maintenance, importance: 7, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2023-03-20, language: english, status: maintenance, importance: 7, confidence: remote*
 
 > __Is [cryonics](https://en.wikipedia.org/wiki/Cryonics)
 worth it, and if yes, should one
@@ -24,6 +24,17 @@ therefore seems recommendable to sign up for cryonics immediately.__
 
 Considerations on Cryonics
 ==========================
+
+Preliminary Note
+-----------------
+
+I now believe this cost-benefit analysis to be incomplete, mainly because
+it doesn't treat the risk of extinction correctly. It's still the best
+one I know of, but proceed with caution.
+
+I plan on revisiting this analysis.
+
+------------
 
 > If I died, would I be rid of my senses?  
 Or will it retain, trapped within my corpse, in stasis?  

@@ -29,6 +29,11 @@ cognition (allegedly it increases IQ in vegetarians, and I'm a
 [lacto-vegetarian](https://en.wikipedia.org/wiki/Lacto-vegetarianism)),
 my exercising performance and my meditation ability.
 
+Melatonin
+----------
+
+See [my report on my melatonin consumption](./reports.html#Melatonin).
+
 Nicotine
 ---------
 

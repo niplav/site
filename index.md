@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2023-03-09, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2023-03-20, language: english, status: in progress, importance: 6, confidence: log*
 
 Content
 =======
@@ -19,11 +19,6 @@ Writing
 -------
 
 ### Nonfiction
-
-#### Cost-Benefit Analyses
-
-* [Considerations on Cryonics](./considerations_on_cryonics.html)
-* [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
 
 #### AI Alignment
 
@@ -54,6 +49,11 @@ Writing
 
 * [Types & Methods of Data Collection I Use](./data.html)
 * [Nootropics](./nootropics.html)
+
+#### Cost-Benefit Analyses
+
+* [Considerations on Cryonics](./considerations_on_cryonics.html)
+* [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
 
 #### Mathematics
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-03-13, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-03-21, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,34 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [What do we spend our excess money on? Sex. (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/08/31/what-do-we-spend-our-excess-money-on-sex/)
+* [Half An Hour Before Dawn In San Francisco (Scott Alexander, 2023)](https://astralcodexten.substack.com/p/half-an-hour-before-dawn-in-san-francisco)
+* [Continuous performance task (English Wikipedia, 2022)](https://en.wikipedia.org/wiki/Continuous_performance_task)
+* [How Long Can Your Child Stay Focused and How Can You Help? (Lingo Bus, 2018)](https://blog.lingobus.com/chinese-learning-resources/how-long-can-your-child-stay-focused-and-how-can-you-help/)
+* [Americans devote more than 10 hours a day to screen time, and growing (Jacqueline Howard, 2016)](https://edition.cnn.com/2016/06/30/health/americans-screen-time-nielsen/index.html)
+* [Understanding and avoiding value drift (TurnTrout, 2022)](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/jFvFreCeejRKaZv4v)
+* [The shard theory of human values (Quintin Pope/TurnTrout, 2022)](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/iCfdcxiyr2Kj8m8mT)
+* [Attention-Deficit/Hyperactivity Disorder (ADHD) (NIH, 2014)](https://www.nimh.nih.gov/health/statistics/attention-deficit-hyperactivity-disorder-adhd)
+* [ADHD and Long-Term Outcomes (CHADD, 2023)](https://chadd.org/about-adhd/long-term-outcomes/)
+* [Is ADHD Becoming More Common? (Samoon Ahmad, 2023)](https://www.psychologytoday.com/us/blog/balanced/202302/why-is-the-prevalence-of-adhd-increasing)
+* [ADHD Throughout the Years (CDC, 2022)](https://www.cdc.gov/ncbddd/adhd/timeline.html)
+* [Prediction Market Quotes (Robin Hanson, 2023)](https://www.overcomingbias.com/p/prediction-market-quoteshtml)
+* [Why I'm suss on wellbeing surveys (Henry Howard, 2023)](https://forum.effectivealtruism.org/posts/MrqM9XvJoKvyq6kxT/why-i-m-suss-on-wellbeing-surveys)
+* [One Man’s Modus Ponens (Gwern Branwen, 2022)](https://gwern.net/modus)
+* [Counterfactual Oracles = online supervised learning with random selection of training episodes (Wei Dai, 2019)](https://www.lesswrong.com/posts/yAiqLmLFxvyANSfs2/counterfactual-oracles-online-supervised-learning-with)
+* [QACI: question-answer counterfactual intervals (carado, 2022)](https://www.lesswrong.com/posts/88MCcHb77BvawfGZ4/question-answer-counterfactual-intervals)
+* [Counterfactual oversight vs. training data (Paul Christiano, 2015)](https://ai-alignment.com/counterfactual-oversight-vs-training-data-a7a1d247801)
+* [A Better Lesson (Rodney Brooks, 2019)](http://rodneybrooks.com/a-better-lesson/)
+* [Optimality is the tiger, and agents are its teeth (Veedrac, 2022)](https://www.lesswrong.com/posts/kpPnReyBC54KESiSn/optimality-is-the-tiger-and-agents-are-its-teeth)
+* ["Carefully Bootstrapped Alignment" is organizationally hard (Raemon, 2023)](https://www.lesswrong.com/posts/thkAtqoQwN6DtaiGT/carefully-bootstrapped-alignment-is-organizationally-hard)
+* [Preferences without Existence (Scott Garrabrant, 2014)](https://www.lesswrong.com/posts/NvwJMQvfu9hbBdG6d/preferences-without-existence)
+* [Reward is not the optimization target (TurnTrout, 2022)](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/pdaGN6pQyQarFHXF4)
+* [Evolution is a bad analogy for AGI: inner alignment (Quintin Pope, 2022)](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/FyChg3kYG54tEN3u6)
+* [General alignment properties (TurnTrout, 2022)](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/FMdGt9S9irgxeD9Xz)
+* [Human values & biases are inaccessible to the genome (TurnTrout, 2022)](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/CQAMdzA4MZEhNRtTp)
+* [Humans provide an untapped wealth of evidence about alignment (Quintin Pope/Turntrout, 2022)](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/CjFZeDD6iCnNubDoS)
+* [PVLV (English Wikipedia, 2022)](https://en.wikipedia.org/wiki/PVLV)
+* \* Convex Optimization (Lieven Vandenberghe/Stephen Boyd, 2008)
 * [The Main Sources of AI Risk? (Daniel Kokotajlo/Wei Dai, 2019)](https://www.alignmentforum.org/posts/WXvt8bxYnwBYpy9oT/the-main-sources-of-ai-risk)
 * [AI Safety Needs Social Scientists (Amanda Askell/Geoffrey Irving, 2019)](https://distill.pub/2019/safety-needs-social-scientists/)
 * [How to Use t-SNE Effectively (Fernanda Viegas/Ian Johnson/Martin Wattenberg, 2016)](https://distill.pub/2016/misread-tsne/)
@@ -36,7 +64,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Getting Eulered (Scott Alexander, 2014)](https://slatestarcodex.com/2014/08/10/getting-eulered/)
 * [Core Views on AI Safety: When, Why, What, and How (Zac Hatfield-Dodds, 2023)](https://www.anthropic.com/index/core-views-on-ai-safety)
 * [We Choose To Align AI (johnswentworth, 2022)](https://www.lesswrong.com/posts/BseaxjsiDPKvGtDrm/we-choose-to-align-ai)
-* \* Attention span during lectures: 8 seconds, 10 minutes, or more? (Neil A. Bradbury, 2016)
+* Attention span during lectures: 8 seconds, 10 minutes, or more? (Neil A. Bradbury, 2016)
 * [Why am I not terrified of AI? (Scott Aaronson, 2023)](https://scottaaronson.blog/?p=7064)
 * [Why Not Just... Build Weak AI Tools For AI Alignment Research? (johnswentworth, 2023)](https://www.lesswrong.com/posts/KQfYieur2DFRZDamd/why-not-just-build-weak-ai-tools-for-ai-alignment-research)
 * [The Waluigi Effect (mega-post) (Cleo Nardo, 2023)](https://www.lesswrong.com/posts/D7PumeYTDPfBTp3i7/the-waluigi-effect-mega-post)
@@ -137,7 +165,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Diversity takes (quinn, 2023)](https://forum.effectivealtruism.org/posts/NzPwFfzJur5bMmHTg/diversity-takes)
 * [My Disagreements With "Doing EA Better" (Ozy Brennan, 2023)](https://thingofthings.substack.com/p/my-disagreements-with-doing-ea-better)
 * [Five More Years (Scott Alexander, 2018)](https://slatestarcodex.com/2018/02/15/five-more-years/)
-* \* Timeless Decision Theory (Eliezer Yudkowsky, 2010)
+* Timeless Decision Theory (Eliezer Yudkowsky, 2010)
 * [You can’t take it with you: straight talk about epigenetics and intergenerational trauma (Razib Khan, 2022)](https://razib.substack.com/p/you-cant-take-it-with-you-straight)
 * [What is epigenetics? (Metacelsus, 2022)](https://denovo.substack.com/p/what-is-epigenetics)
 * [SolidGoldMagikarp (plus, prompt generation) (Jessica Rumbelow/Matthew Watkins, 2023)](https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation)
