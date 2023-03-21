@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2022-07-19, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2023-03-20, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes,
 how much? I first present a simple [point
@@ -36,6 +36,18 @@ light exercise and improvement of social skills
 
 Daygame Cost-Benefit Analysis
 =============================
+
+Preliminary Note
+-----------------
+
+I now believe this cost-benefit analysis to be flawed, mostly because
+I assume an [opportunity cost](#Approaching_Opportunity_Cost) that is
+too low, and various smaller issues.
+
+I plan on revisiting this text, but for now proceed with caution and
+skepticism towards the numbers.
+
+------------
 
 > These things should be left to the frigid and impersonal
 > investigator, for they offer two equally tragic alternatives to
@@ -530,6 +542,8 @@ a language or musical instrument) and simply the cost of paying for dates.
 > each session, meaning 30-50 per week.
 
 *— [Tom Torero](https://tomtorero.com/), [“Beginner's Guide to Daygame”](./doc/game/beginners_guide_to_daygame_torero_2018.pdf) p. 13, 2018*
+
+<!--TODO: fix this!-->
 
 I will assume that most daygamers will do around 4 approaches an hour
 (the ones I have met are more choosy, so they have a lower volume),
