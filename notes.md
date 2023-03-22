@@ -1503,6 +1503,8 @@ games](https://en.wikipedia.org/wiki/Price_of_stability#Network_design_games),
 High Status Eschews Quantification of Performance
 --------------------------------------------------
 
+<!--TODO: hunt down cryptonormativities in here, destroy them-->
+
 In a recent episode of [The Filan
 Cabinet](https://thefilancabinet.com/episodes/2023/02/05/6-oliver-habryka.html),
 Oliver Habryka elaborated on a very interesting social pattern: If you

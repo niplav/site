@@ -1889,6 +1889,8 @@ Programming
 * pandas apply to Expanding allows only single float values, not tables
 * numpy unique that doesn't require sortability, just comparability
 * Anki doesn't let you set the backup directory
+* Julia
+	* repl only goes back one item in history through keypress up
 * dc 9base manpage:
 	* typo in the order of operations in the manpage
 

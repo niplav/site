@@ -233,6 +233,10 @@ The moon, presented:
 A jewel on a pillow  
 chalk washed far away
 
+Onrushing tide, mere  
+thirty months away, and just  
+our puny channels
+
 ##### Lipogrammatic Bukkake Senryūs
 
 I made up the ugliest possible genre of poetry.
@@ -261,7 +265,7 @@ now turns arduous
 
 > *epistemic status: I saw the best minds of my generation*
 >  
-> Limply balancing mile-deep cocktail glasses and clamoring for laughable Thielbucks on the cramped terraces of Berkely,  
+limply balancing mile-deep cocktail glasses and clamoring for laughable Thielbucks on the cramped terraces of Berkely,  
 who invite you to the luring Bay, promising to pay for your entire being while elegantly concealing the scarlet light evaporating from their tearducts and nostrils,  
 who down 3¾ bottles of Huel™ and sprint to their next fellowship or retreat or meetup or workshop, in the pore-showingly lit hallways with whiteboards and whiteboards and whiteboards and whiteboards,  
 who want to crown random nerds with aureal sigmas fished from the manifold crevaces of self-denying deities,  
