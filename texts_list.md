@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-03-21, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-03-22, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,13 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Rationalists Are Less Credulous But Better At Taking Ideas Seriously (Scott Alexander, 2014)](https://www.lesswrong.com/posts/Gh2qQHrCg3teQen3c/rationalists-are-less-credulous-but-better-at-taking-ideas)
+* [What should you change in response to an "emergency"? And AI risk (Anna Salamon, 2022)](https://www.lesswrong.com/posts/mmHctwkKjpvaQdC3c/what-should-you-change-in-response-to-an-emergency-and-ai)
+* [Oceanic (Greg Egan, 1999)](https://www.gregegan.net/OCEANIC/Complete/Oceanic.html)
+* [Returning soldier effect (English Wikipedia, 2022)](https://en.wikipedia.org/wiki/Returning_soldier_effect)
+* [A typology of s-risks (Tobias Baumann, 2022)](https://centerforreducingsuffering.org/research/a-typology-of-s-risks/)
+* [Don't align agents to evaluations of plans (TurnTrout, 2022)](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/fopZesxLCGAXqqaPv)
+* [Don't design agents which exploit adversarial inputs (Garrett Baker/TurnTrout, 2022)](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/jFCK9JRLwkoJX4aJA)
 * [What do we spend our excess money on? Sex. (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/08/31/what-do-we-spend-our-excess-money-on-sex/)
 * [Half An Hour Before Dawn In San Francisco (Scott Alexander, 2023)](https://astralcodexten.substack.com/p/half-an-hour-before-dawn-in-san-francisco)
 * [Continuous performance task (English Wikipedia, 2022)](https://en.wikipedia.org/wiki/Continuous_performance_task)

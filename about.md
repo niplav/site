@@ -505,7 +505,7 @@ okay middle ground.
 
 ### Contact
 
-Contact address is ([rot13ed](https://en.wikipedia.org/wiki/ROT13)
+Contact address is ([rot13ed](https://en.wikipedia.org/wiki/ROT13))
 `echo avcyni@cbfgrb.arg | tr a-zA-Z n-za-mN-ZA-M`.
 
 PGP public key:
