@@ -70,7 +70,13 @@ Reading
 
 Currently, I am actively reading the following books:
 
+* Convex Optimization (Lieven Vandenberghe/Stephen Boyd, 2008)
+* Starting Strength (Lon Kilgore/Mark Rippetoe, 2007)
 * Die toten Seelen (Nikolai Gogol, 1842)
-* Naive Set Theory (Paul R. Halmos, 1960)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
+
+I'm also reading about [Shard
+Theory](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX) and
+recently finished [Timeless Decision Theory (Eliezer Yudkowsky,
+2010)](./doc/cs/ai/alignment/decision_theory/timeless_decision_theory_yudkowsky_2010.pdf).

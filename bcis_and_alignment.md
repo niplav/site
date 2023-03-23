@@ -329,7 +329,7 @@ traditional perception:
 * Quick lookup of facts (e.g. querying Wikipedia while in a conversation)
 *	Augmented long-term memory (with more reliable and resilient
 	memory freeing up capacity for thought)
-*	Augmented working memory (i.e. holding 11±2 instead of 7±2
+*	Augmented working memory (i.e. holding 11±2 instead of 7±2<!--TODO: this is not quite correct, see WP on Short-term memory-->
 	items in mind at the same time) (thanks to janus#0150 on the
 	Eleuther AI discord server for this point)
 *	Exchange of mental models between humans (instead of explaining
