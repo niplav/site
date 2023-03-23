@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2023-03-12, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2023-01-06, modified: 2023-03-22, language: english, status: notes, importance: 3, confidence: log*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
 decided to log my nootropics usage and its effects.__
@@ -33,6 +33,8 @@ Melatonin
 ----------
 
 See [my report on my melatonin consumption](./reports.html#Melatonin).
+
+<!--TODO: describe the weird sometimes-insomnia effects-->
 
 Nicotine
 ---------

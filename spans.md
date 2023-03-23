@@ -17,20 +17,20 @@ In what might be just the age-old regular
 [ephebiphobia](https://en.wikipedia.org/wiki/Ephebiphobia),
 claims have been raised that individual attention spans [have been
 declining](#Appendix_A_Claims_That_Attention_Spans_Have_Been_Declining)—not
-just among adolescents but also among the general population. If so,
-this would be quite worrying: Much of the economy in industrialized
-societies is compromised of knowledge work, and knowledge work depends
-on attention to the task at hand; switching between tasks too often
-might prevent progress on complicated and difficult tasks.
+just among adolescents, but among the general population. If so, this
+would be quite worrying: Much of the economy in industrialized societies
+is compromised of knowledge work, and knowledge work depends on attention
+to the task at hand: switching between tasks too often might prevent
+progress on complicated and difficult problems.
 
 I became interested in the topic after
 [seeing](https://edition.cnn.com/2023/01/11/health/short-attention-span-wellness/index.html)
 [several](https://eu.usatoday.com/story/life/health-wellness/2021/12/22/covid-attention-span-exhaustion/8926439002/)
-[claims](https://twitter.com/amix011/status/1603927882459672576)
-that e.g. [Generation Z](https://en.wikipedia.org/wiki/Generation_Z)
-allegedly has lower attention spans, observing myself and how I
-struggled to get any work done when having an internet connection, and
-reports of others online of having the same problem.<!--I was finally
+[claims](https://twitter.com/amix011/status/1603927882459672576) that
+e.g. [Generation Z](https://en.wikipedia.org/wiki/Generation_Z) allegedly
+has lower attention spans, observing myself and how I struggled to get
+any work done when connected to the internet, and hearing reports from
+others online and in person having the same problem.<!--I was finally
 convinced to actually investigate™ the topic after making [a comment on
 LessWrong](https://www.lesswrong.com/posts/Bfq6ncLfYdtCb6sat/i-converted-book-i-of-the-sequences-into-a-zoomer-readable?commentId=7SDEJibu5hedqqNmo)
 asking the question and receiving a surprisingly large amount of
@@ -82,10 +82,7 @@ So the question I am asking is not
 * "Does more social media/internet usage correlate with decreased attention spans?"
 * "Does more social media/internet usage correlate with people reporting having shorter attention spans?"
 * "Did collective attention spans decrease?"
-
-but simply
-
-* Have individual attention spans been declining for the last 25 years?
+* "Are people on average spending less time on webpages than they used to?"
 
 How Is Attention Span Defined?
 -------------------------------
@@ -227,6 +224,7 @@ for attention span from different papers:
 	* They also mention studies investigating the time required for attentional switching in acoustic contexts: "Pearson and Lane (1991a) studied the time course of the attention-shifting process between lists and also found large age-related improvements between 8 and 11 years. Whereas 8-year-olds required more than 3.5 s to completely switch from monitoring one list to another, 11-year-olds and adults appeared to complete the switch in less than 2.5 seconds."
 * [Muhammad 2020](https://www.digitalinformationworld.com/2020/02/report-shows-that-attention-spans-are-shortening.html)
 	* Time spent on websites on average.
+		* This is not an adequate metric, I believe: It would also decline if people would become better at prioritising on which websites are more worthy of their attention.
 * [Lorenz-Spreen et al. 2019](./doc/psychology/attention_span/accelerating_dynamics_of_collective_attention_lorenz-spreen_et_al_2019.pdf "Accelerating dynamics of collective attention")
 	* Time that specific pieces of information (hashtags/n-grams/Reddit submissions &c) were popular
 
