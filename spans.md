@@ -292,7 +292,7 @@ ADHD diagnosis:
 
 There has been a similar increase in the diagnosis of [ADHD among
 adults](https://www.psychologytoday.com/us/blog/balanced/202302/why-is-the-prevalence-of-adhd-increasing),
-"from 0.43 to 0.96 percent".<!--TODO: which years again?-->
+"from 0.43 to 0.96 percent" between 2007 and 2016.
 
 However, this does not necessarily mean that the *rate* of ADHD has
 increased, if e.g. awareness of ADHD has increased and therefore

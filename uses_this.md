@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2023-01-28, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2023-03-23, language: english, status: in progress, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
 > recommendations by people who I respect, such as
@@ -40,14 +40,16 @@ Software
 
 #### Programming languages:
 
+In rough order of proficiency.
+
 * [C](https://en.wikipedia.org/wiki/C_%28programming_language%29)
+* [Python](https://www.python.org)
 * [Klong](http://t3x.org/klong/index.html)
-* [Myrddin](https://eigenstate.org/myrddin/)
 * [Lua](https://www.lua.org/)
+* [Julia](https://julialang.org)
+* [Myrddin](https://eigenstate.org/myrddin/)
 * [Scheme](https://en.wikipedia.org/wiki/Scheme_\(programming_language\))
 * [Standard ML](https://en.wikipedia.org/wiki/Standard_ML)
-* [Python](https://www.python.org)
-* [Julia](https://julialang.org)
 
 ### Browser Plugins
 
