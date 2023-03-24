@@ -1453,28 +1453,6 @@ Collect data on
 * Bag Spreading
 * [Masturbation and Attractiveness](./masturbation_and_attractiveness.html#Method)
 * [Subjective Life Expectancy](./estimated_life_expectancy.html#Data_Collection_Method)
-* A Large Dataset of Forecasts and Outcomes
-	* See also [The Odds API](https://the-odds-api.com/)
-	* Sources:
-		* [Metaculus](https://www.metaculus.com)
-		* PredictionBook
-		* [Foretell (CSET)](https://www.cset-foretell.com/)
-		* [Good Judgment Open](https://www.gjopen.com/)
-		* [Good Judgment](https://goodjudgment.io/)
-		* [Hypermind](https://www.hypermind.com)
-		* Augur
-		* [Foretold](https://www.foretold.io/)
-		* [Omen](https://www.fsu.gr/en/fss/omen)
-		* [GiveWell](https://www.givewell.org/)
-		* [Open Philanthropy Project](https://www.openphilanthropy.org/)
-		* [PredictIt](https://www.predictit.org/)
-		* [Elicit](https://elicit.org/)
-		* [PolyMarket](https://polymarket.com/)
-		* Iowa Open Markets
-		* INFER
-		* Manifold
-		* [Smarkets](https://smarkets.com/)
-		* Others?
 * Datasets on
 	* Sex
 	* Productivity
