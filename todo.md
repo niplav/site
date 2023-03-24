@@ -1320,7 +1320,7 @@ Game. Even those odds likely overstate the number of Players in the world.
 
 ### Reviews
 
-* Emily in Paris (season 1)
+* Emily in Paris
 * Practical Insight Meditation
 * There is No Antimemetics Division
 
@@ -1812,6 +1812,7 @@ Programming
 ### Julia Libraries
 
 * Bandits import fails, fix that
+	* In general improve the package I think? Doesn't support my usecase
 
 ### Contributions
 

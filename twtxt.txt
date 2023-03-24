@@ -1693,3 +1693,4 @@
 2023-03-20T15:49:51.000000Z	give standard vNM coherence violating scenarios to smarter language models
 2023-03-21T10:05:51.000000Z	can you money-pump the agents simulated by large-language models?
 2023-03-22T16:33:08.000000Z	at higher levels of intelligence, maintaining coherence becomes more difficult since your action space widens and having high coherence might be NP-hard. so the better metric is coherence divided by size of action space
+2023-03-23T15:47:46.000000Z	but can you trick the plan evaluation evaluation procedure?
