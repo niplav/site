@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2023-03-09, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2023-03-25, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -21,6 +21,7 @@ with fecundity.
 March 2023
 -----------
 
+* [Iqisa: A Library For Handling Forecasting Datasets](./iqisa.md), [documentation](./iqisadoc.md)
 * [Notes](./notes.md)
 	* [The Price of Inadequacy](./notes.html#The_Price_of_Inadequacy)
 	* [High Status Eschews Quantification of Performance](./notes.html#High_Status_Eschews_Quantification_of_Performance)

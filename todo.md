@@ -1129,6 +1129,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* A conversational & whimsy style is nice, but can be overdone
 * Some Reasons to Be Unusually Truth-Oriented
 	* Maybe compartmentalization is easy though?
+* EPRC Bibliography
 
 ### Notes
 
@@ -1994,7 +1995,6 @@ Wikipedia Articles
 	* Collect bounds on Wikipedia
 	* Link the pages two each other in their See Also sections
 * Network cost-sharing game
-* Add Rodney Brook's personal website http://rodneybrooks.com/ to his article
 
 Lesswrong wiki
 ---------------
