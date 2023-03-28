@@ -390,7 +390,7 @@ Better Words
 <!--TODO: links and a planecrash quote-->
 
 * [dist(s)](https://en.wikipedia.org/wiki/Probability_Distribution): 8 syllables saved compared to "probability distribution(s)"
-* [prob](https://en.wikipedia.org/wiki/Probability): 4 syllables saved over "probability", closest colliding word is [prop](https://en.wikipedia.org/wiki/prop_\(disambiguation\)), none of which are particularly common
+* [prob](https://en.wikipedia.org/wiki/Probability): 4 syllables saved over "probability", closest colliding word is [prop](https://en.wikipedia.org/wiki/prop_\(disambiguation\)), which is not particularly common
 * [vopi](https://en.wikipedia.org/wiki/Expected_value_of_perfect_information): 10 syllables saved over "expected value of perfect information", alternative spellings could be "evopi" or "evoi" or "voi" (removing perfection or expectation)
 * [batna](https://en.wikipedia.org/wiki/Best_alternative_to_a_negotiated_agreement): 13 syllables saved over "Best alternative to a negotiated agreement", perhaps acustically too close to "batman"
 * [botec](https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation): 8 syllables saved over "back-of-the-envelope calculation"

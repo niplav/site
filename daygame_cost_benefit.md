@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2023-03-20, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2023-03-28, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes,
 how much? I first present a simple [point
@@ -427,6 +427,7 @@ https://old.reddit.com/r/seduction/comments/9ock2a/my_daygame_experience_so_far_
 * Blue: Mr. White
 * Purple: Thomas Crown
 * Red: Krauser
+* Orange: Mr. Wolfe
 
 The plotted data for lay ratios looks like this:
 
@@ -468,6 +469,11 @@ The plotted data for lay ratios looks like this:
 
 	fillrgb(1;0;0)
 	scplot2(klayrat)
+
+	:"Data for Mr. Wolfe ratios"
+
+	fillrgb(1.0;0.6;0.1)
+	scplot2(wlayrat)
 
 	draw()
 
@@ -513,6 +519,11 @@ Similarly, the data for reported date ratios:
 
 	fillrgb(1;0;0)
 	scplot2(kdaterat)
+
+	:"Data for Mr. Wolfe ratios"
+
+	fillrgb(1.0;0.6;0.1)
+	scplot2(wdaterat)
 
 	draw()
 

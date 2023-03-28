@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2022-07-19, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2023-03-27, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -70,7 +70,6 @@ Reading
 
 Currently, I am actively reading the following books:
 
-* Convex Optimization (Lieven Vandenberghe/Stephen Boyd, 2008)
 * Starting Strength (Lon Kilgore/Mark Rippetoe, 2007)
 * Die toten Seelen (Nikolai Gogol, 1842)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)

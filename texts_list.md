@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-03-22, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-03-28, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,44 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Beware over-use of the agent model (Alex Flint, 2021)](https://www.lesswrong.com/posts/2QuAcx8XQw7rrXzGC/beware-over-use-of-the-agent-model)
+* [Gravity Turn (alkjash, 2021)](https://www.lesswrong.com/posts/QcXuwQvvPkqcKZmXS/gravity-turn)
+* [Going Out With Dignity (Tomás B., 2021)](https://www.lesswrong.com/posts/CBWSDdzjqfnexBurB/going-out-with-dignity)
+* [Curing insanity with malaria (Miranda Dxon-Luinenburg, 2021)](https://www.lesswrong.com/posts/AH3iGfz4ArJnXEEYs/curing-insanity-with-malaria)
+* [RadVac Commercial Antibody Test Results (johnswentworth, 2021)](https://www.lesswrong.com/posts/Mqy4GFqJoMSfs8raA/radvac-commercial-antibody-test-results)
+* [Testing The Natural Abstraction Hypothesis: Project Intro (johnswentworth, 2021)](https://www.lesswrong.com/posts/cy3BhHrGinZCp3LXE/testing-the-natural-abstraction-hypothesis-project-intro)
+* [Book Review: A Pattern Language by Christopher Alexander (lincolnquirk, 2021)](https://www.lesswrong.com/posts/K2AWPo7sMsvrrofsM/book-review-a-pattern-language-by-christopher-alexander)
+* [Selection Has A Quality Ceiling (johnswentworth, 2021)](https://www.lesswrong.com/posts/Rrt7uPJ8r3sYuLrXo/selection-has-a-quality-ceiling)
+* [Making Vaccine (johnswentworth, 2021)](https://www.lesswrong.com/posts/niQ3heWwF6SydhS7R/making-vaccine)
+* [Fun with +12 OOMs of Compute (Daniel Kokotajlo, 2021)](https://www.lesswrong.com/posts/rzqACeBGycZtqCfaX/fun-with-12-ooms-of-compute)
+* [Your Cheerful Price (Eliezer Yudkowsky, 2021)](https://www.lesswrong.com/posts/MzKKi7niyEqkBPnyu/your-cheerful-price)
+* Do we have your attention (Bobby Duffy/Marion Thain, 2022)
+* [A few thought on the inner ring (Katja Grace, 2021)](https://www.lesswrong.com/posts/ycrreLRsaANhYxZmC/a-few-thought-on-the-inner-ring)
+* [The Most Important Century: Sequence Introduction (Holden Karnofsky, 2021)](https://www.lesswrong.com/posts/yHzDrTCum4rdNRDJJ/the-most-important-century-sequence-introduction)
+* [The feeling of breaking an Overton window (Anna Salamon, 2021)](https://www.lesswrong.com/posts/bzhGBHrGrFfQss4Df/the-feeling-of-breaking-an-overton-window)
+* [Unwitting cult leaders (Kaj Sotala, 2021)](https://www.lesswrong.com/posts/o9dnstYoc7cwpgdhg/unwitting-cult-leaders)
+* [Precognition (Jason Crawford, 2021)](https://www.lesswrong.com/posts/yyDrMYBfvYtKbmPmm/precognition)
+* [Law of No Evidence (Zvi, 2021)](https://www.lesswrong.com/posts/j9HoG56Y6KuopSzdn/law-of-no-evidence)
+* [The Point of Trade (Eliezer Yudkowsky, 2021)](https://www.lesswrong.com/posts/6KzFwcDy7hsCkzJKY/the-point-of-trade)
+* [Bets, Bonds, and Kindergarteners (jefftk, 2021)](https://www.lesswrong.com/posts/DoHcgTvyxdorAMquE/bets-bonds-and-kindergarteners)
+* [Worst-case thinking in AI alignment (Buck Shlegeris, 2021)](https://www.lesswrong.com/posts/yTvBSFrXhZfL8vr5a/worst-case-thinking-in-ai-alignment)
+* [Simulacrum 3 As Stag-Hunt Strategy (johnswentworth, 2021)](https://www.lesswrong.com/posts/tF8z9HBoBn783Cirz/simulacrum-3-as-stag-hunt-strategy)
+* [Elephant seal 2 (Katja Grace, 2021)](https://www.lesswrong.com/posts/vLRxmYCKpmZAAJ3KC/elephant-seal-2)
+* [Working With Monsters (johnswentworth, 2021)](https://www.lesswrong.com/posts/o4cgvYmNZnfS4xhxL/working-with-monsters)
+* [The Rationalists of the 1950s (and before) also called themselves “Rationalists” (Owain Evans, 2021)](https://www.lesswrong.com/posts/DtcbfwSrcewFubjxp/the-rationalists-of-the-1950s-and-before-also-called)
+* [How To Write Quickly While Maintaining Epistemic Rigor (johnswentworth, 2021)](https://www.lesswrong.com/posts/Psr9tnQFuEXiuqGcR/how-to-write-quickly-while-maintaining-epistemic-rigor)
+* [Cryonics signup guide #1: Overview (mingyuan, 2021)](https://www.lesswrong.com/posts/2cYebKxNp47PapHTL/cryonics-signup-guide-1-overview)
+* [Selection Theorems: A Program For Understanding Agents (johnswentworth, 2021)](https://www.lesswrong.com/posts/G2Lne2Fi7Qra5Lbuf/selection-theorems-a-program-for-understanding-agents)
+* [All Possible Views About Humanity's Future Are Wild (Holden Karnofsky, 2021)](https://www.lesswrong.com/posts/F5ktR95qqpmGXXmLq/all-possible-views-about-humanity-s-future-are-wild-1)
+* [Taboo "Outside View" (Daniel Kokotajlo, 2021)](https://www.lesswrong.com/posts/BcYfsi7vmhDvzQGiF/taboo-outside-view)
+* [Science in a High-Dimensional World (johnswentworth, 2021)](https://www.lesswrong.com/posts/4XRjPocTprL4L8tmB/science-in-a-high-dimensional-world)
+* [Lies, Damn Lies, and Fabricated Options (Duncan Sabien, 2021)](https://www.lesswrong.com/posts/gNodQGNoPDjztasbh/lies-damn-lies-and-fabricated-options)
+* [The heritability of human values: A behavior genetic critique of Shard Theory (Geoffrey Miller, 2022)](https://www.lesswrong.com/posts/dRsrfC8LN4z2oehJg/the-heritability-of-human-values-a-behavior-genetic-critique)
+* [A shot at the diamond-alignment problem (TurnTrout, 2022)](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/k4AQqboXz8iE5TNXK)
+* [2019 News (Gwern Branwen, 2023)](https://gwern.net/newsletter/2019/13)
+* [All Watched Over by Machines of Loving Grace (Richard Brautigan, 1967)](http://www.brautigan.net/machines.html)
+* [Contra shard theory, in the context of the diamond maximizer problem (So8res, 2022)](https://www.lesswrong.com/posts/Aet2mbnK7GDDfrEQu/contra-shard-theory-in-the-context-of-the-diamond-maximizer)
+* [Alignment allows "nonrobust" decision-influences and doesn't require robust grading (TurnTrout, 2022)](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/rauMEna2ddf26BqiE)
 * [Rationalists Are Less Credulous But Better At Taking Ideas Seriously (Scott Alexander, 2014)](https://www.lesswrong.com/posts/Gh2qQHrCg3teQen3c/rationalists-are-less-credulous-but-better-at-taking-ideas)
 * [What should you change in response to an "emergency"? And AI risk (Anna Salamon, 2022)](https://www.lesswrong.com/posts/mmHctwkKjpvaQdC3c/what-should-you-change-in-response-to-an-emergency-and-ai)
 * [Oceanic (Greg Egan, 1999)](https://www.gregegan.net/OCEANIC/Complete/Oceanic.html)
@@ -51,7 +89,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Human values & biases are inaccessible to the genome (TurnTrout, 2022)](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/CQAMdzA4MZEhNRtTp)
 * [Humans provide an untapped wealth of evidence about alignment (Quintin Pope/Turntrout, 2022)](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/CjFZeDD6iCnNubDoS)
 * [PVLV (English Wikipedia, 2022)](https://en.wikipedia.org/wiki/PVLV)
-* \* Convex Optimization (Lieven Vandenberghe/Stephen Boyd, 2008)
+* Convex Optimization (Lieven Vandenberghe/Stephen Boyd, 2008)
 * [The Main Sources of AI Risk? (Daniel Kokotajlo/Wei Dai, 2019)](https://www.alignmentforum.org/posts/WXvt8bxYnwBYpy9oT/the-main-sources-of-ai-risk)
 * [AI Safety Needs Social Scientists (Amanda Askell/Geoffrey Irving, 2019)](https://distill.pub/2019/safety-needs-social-scientists/)
 * [How to Use t-SNE Effectively (Fernanda Viegas/Ian Johnson/Martin Wattenberg, 2016)](https://distill.pub/2016/misread-tsne/)
@@ -197,7 +235,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Scientists Parse Ocean’s Dynamic Role in Climate Change (Natalie Wolchover, 2013)](https://www.quantamagazine.org/scientists-parse-oceans-role-in-climate-change-20130411/)
 * [A New Approach to Building the Tree of Life (Emily Singer, 2013)](https://www.quantamagazine.org/a-new-approach-to-building-the-tree-of-life-20130604/)
 * [Tiny Genomes May Offer Clues to First Plants and Animals (Emily Singer, 2013)](https://www.quantamagazine.org/tiny-genomes-may-offer-clues-to-first-plants-and-animals-20130620/)
-* * Der Vorrang der Demokratie vor der Philosophie (Richard Rorty, 1988)
+* \* Der Vorrang der Demokratie vor der Philosophie (Richard Rorty, 1988)
 * [Simulators (janus, 2022)](https://generative.ink/posts/simulators/)
 * [I'm an SaR Officer... (Update #2) (searchandrescuewoods, 2016)](https://old.reddit.com/r/nosleep/comments/4r835f/im_an_sar_officer_update_2/)
 * [I'm An SaR Officer... (Update 1) (searchandrescuewoods, 2016)](https://old.reddit.com/r/nosleep/comments/4r2kvl/im_an_sar_officer_update_1/)
