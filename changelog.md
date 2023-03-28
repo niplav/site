@@ -21,7 +21,7 @@ with fecundity.
 March 2023
 -----------
 
-* [Iqisa: A Library For Handling Forecasting Datasets](./iqisa.md), [documentation](./iqisadoc.md)
+* [Iqisa: A Library For Handling Forecasting Datasets](./iqisa.md), [Documentation](./iqisadoc.md)
 * [Notes](./notes.md)
 	* [The Price of Inadequacy](./notes.html#The_Price_of_Inadequacy)
 	* [High Status Eschews Quantification of Performance](./notes.html#High_Status_Eschews_Quantification_of_Performance)

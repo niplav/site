@@ -339,6 +339,7 @@ Texts
 	* If the future optimization trajectory along a dimension in the limit moves the value of that dimension to the maximum/minimum, don't do that.
 	* The optimal amount of anything is not the most extreme amount
 * Capable Artificial Alignment Theorists Appear Plausible
+* Shard Theory and the Indirect Realist Turn
 
 ### Pick Up
 
@@ -1999,6 +2000,7 @@ Wikipedia Articles
 Lesswrong wiki
 ---------------
 
+* Add tag for Interpretability & Mechanistic Interpretability
 * [Textbook recommendations](https://www.lesswrong.com/posts/xg3hXCYQPJkwHyik2/the-best-textbooks-on-every-subject) into wiki page
 	* same for:
 		* [Boring Advice Repository](https://www.lesswrong.com/posts/HEn2qiMxk5BggN83J/boring-advice-repository)

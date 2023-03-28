@@ -238,6 +238,11 @@ slightly different things for me to pick one and drill down on.
 What Are the Existing Investigations?
 -------------------------------------
 
+> A lack of long-term studies means we can't tell whether attention
+spans have actually declined.
+
+*—Bobby Duffy & Marion Thain, [“Do we have your attention”]()<!--TODO--> p. 5, 2022*
+
 * [Gausby 2015](./doc/psychology/attention_span/attention_spans_gausby_et_al_2015.pdf)
 	* Questions answered:
 		* Sustained attention:
@@ -280,6 +285,19 @@ interaction consisting of the military or the stock exchange.
 	* While it investigates a question different from the one I have, this paper seems good and trustworthy to me, while supporting a suspicion I've had (observing that the lifecycle of e.g. memes has apparently sped up significantly). I'd be interested in seeing whether the same process holds for internet communities I'm part of (for example on votes [LessWrong](https://www.lesswrong.com/) and the [EA Forum](https://forum.effectivealtruism.org/) or forecasts on [Metaculus](https://www.metaculus.com/)).
 
 ![Chart indicating how the speed at which hashtags become popular changed over the years. Four plots (yellow, green, blue and purple) which form a peak in the middle and fall off at the sides. The yellow line is highest around the peak, the green one is lower, blue even lower and purple the lowest.](./img/spans/popularity_ascent.png "Chart indicating how the speed at which hashtags become popular changed over the years. Four plots \(yellow, green, blue and purple\) which form a peak in the middle and fall off at the sides. The yellow line is highest around the peak, the green one is lower, blue even lower and purple the lowest.")
+
+Do People Believe Attention Spans Have Declined?
+-------------------------------------------------
+
+> Half of the public feel their attention span is shorter than it used
+to be, compared with around a quarter (23%) who believe they are just
+attentive [sic] as they've always been.
+>
+> Again, the feeling of is not just reported by the young — it's
+also the dominant feeling among the middle aged too, with 56% of 35-
+to 54-year-olds thinking their attention spans have worsened.
+
+*—Bobby Duffy & Marion Thain, [“Do we have your attention”]()<!--TODO--> p. 6, 2022*
 
 What About Rates of ADHD?
 --------------------------
@@ -540,3 +558,9 @@ actually reflects the average time a person will spend on a web page
 before looking somewhere else.
 
 *—Neil A. Bradbury, [“Attention span during lectures: 8 seconds, 10 minutes, or more?”](./doc/psychology/attention_span/attention_span_during_lectures_8_seconds_10_minutes_or_more_bradbury_2016.pdf), 2016*
+
+Appendix B: Studies for a Meta-Analysis
+----------------------------------------
+
+* Association between urine cotinine levels, continuous performance test variables, and attention deficit hyperactivity disorder and learning disability symptoms in school-aged children (B.-N. Kim/E.-J. Park/H.-J.Yoo/I.-H. Cho/J.-H. Lee/J. Hur/J.-W. Kim/M.-H. Park/M.-S. Shin/S.-B. Hong/S.-C. Cho/S.-K. Han/S. Park/S.-Y. Bhang/Y.-C. Hong, 2012): n=989 Korean children (mean age 9.1±0.7 years), tested with an unspecified CPT
+* Cognitive control in media multitaskers (Anthony D. Wagner/Clifford Nass/Eyal Ophir, 2009): n=28 (?), tested with the AX-CPT

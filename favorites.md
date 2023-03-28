@@ -76,7 +76,7 @@ final pushes for me to do something in a particular direction):
 	* [Cryonics − Frequently Asked Questions (FAQ) (Ben Best, 2018)](http://www.benbest.com/cryonics/CryoFAQ.html)
 * Pickup
 	* [Cold Approach: Why It’s a Massive Cheat Code to the Dating Life You Desire](https://looksmax.org/threads/cold-approach-why-its-a-massive-cheat-code-to-the-dating-life-you-desire.330030/) ([video version](https://www.youtube.com/watch?v=kEAQ8dB4_R4))
-	* [You only see the tip of the spear (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/02/07/you-only-see-the-tip-of-the-spear/index.html)
+	* [You only see the tip of the spear (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/02/07/you-only-see-the-tip-of-the-spear/)
 	* [A lot of guys are pussies, but that means opportunity for the few who aren’t (TheRedQuest, 2022)](https://theredquest.wordpress.com/2022/02/23/a-lot-of-guys-are-pussies-but-that-means-opportunity-for-the-few-who-arent/)
 	* [Guide to Texting Girls (Mr. V, 2020)](./doc/game/guide_to_texting_girls_mr_v_2020.pdf)
 * Finance

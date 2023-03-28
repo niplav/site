@@ -2,6 +2,102 @@
 .l("./load.kg")
 .l("./data.kg")
 
+dateratiodata::.oc("dateratio_data.eps")
+.tc(dateratiodata)
+
+setrgb(0;0;0)
+grid([0 10000 1000];[0 0.08 0.002])
+xtitle("Approaches")
+ytitle("Cumulative ratios")
+
+plot(dateratio)
+text(200;250;"Approach-to-date ratio")
+
+setdot(4)
+
+:"Data for Roy Walker ratios"
+
+fillrgb(0.109;0.847;0.588)
+scplot2(rwdaterat)
+
+:"Data for Mr. White ratios"
+
+fillrgb(0.4;0.4;1)
+scplot2(mwdaterat)
+
+:"Data for Thomas Crown ratios"
+
+fillrgb(0.7;0.2;0.7)
+scplot2(tcdaterat)
+
+:"Data for Seven ratios"
+
+fillrgb(0.8;0.8;0.1)
+scplot2(sdaterat)
+
+:"Data for Krauser ratios"
+
+fillrgb(1;0;0)
+scplot2(kdaterat)
+
+:"Data for Mr. Wolfe ratios"
+
+fillrgb(1.0;0.6;0.1)
+scplot2(wdaterat)
+
+draw()
+
+.fl()
+.cc(dateratiodata)
+
+layratiodata::.oc("layratio_data.eps")
+.tc(layratiodata)
+
+setrgb(0;0;0)
+grid([0 10000 1000];[0 0.04 0.002])
+xtitle("Approaches")
+ytitle("Cumulative ratios")
+
+plot(ratio)
+text(250;60;"Approach-to-lay ratio")
+
+setdot(4)
+
+:"Data for Roy Walker ratios"
+
+fillrgb(0.109;0.847;0.588)
+scplot2(rwlayrat)
+
+:"Data for Mr. White ratios"
+
+fillrgb(0.4;0.4;1)
+scplot2(mwlayrat)
+
+:"Data for Thomas Crown ratios"
+
+fillrgb(0.7;0.2;0.7)
+scplot2(tclayrat)
+
+:"Data for Seven ratios"
+
+fillrgb(0.8;0.8;0.1)
+scplot2(slayrat)
+
+:"Data for Krauser ratios"
+
+fillrgb(1;0;0)
+scplot2(klayrat)
+
+:"Data for Mr. Wolfe ratios"
+
+fillrgb(1.0;0.6;0.1)
+scplot2(wlayrat)
+
+draw()
+
+.fl()
+.cc(layratiodata)
+
 complete::.oc("complete.eps")
 .tc(complete)
 
@@ -64,91 +160,6 @@ draw()
 
 .fl()
 .cc(costf)
-
-dateratiodata::.oc("dateratio_data.eps")
-.tc(dateratiodata)
-
-setrgb(0;0;0)
-grid([0 10000 1000];[0 0.08 0.002])
-xtitle("Approaches")
-ytitle("Cumulative ratios")
-
-plot(dateratio)
-text(200;250;"Approach-to-date ratio")
-
-setdot(4)
-
-:"Data for Roy Walker ratios"
-
-fillrgb(0.109;0.847;0.588)
-scplot2(rwdaterat)
-
-:"Data for Mr. White ratios"
-
-fillrgb(0.4;0.4;1)
-scplot2(mwdaterat)
-
-:"Data for Thomas Crown ratios"
-
-fillrgb(0.7;0.2;0.7)
-scplot2(tcdaterat)
-
-:"Data for Seven ratios"
-
-fillrgb(0.8;0.8;0.1)
-scplot2(sdaterat)
-
-:"Data for Krauser ratios"
-
-fillrgb(1;0;0)
-scplot2(kdaterat)
-draw()
-
-.fl()
-.cc(dateratiodata)
-
-layratiodata::.oc("layratio_data.eps")
-.tc(layratiodata)
-
-setrgb(0;0;0)
-grid([0 10000 1000];[0 0.04 0.002])
-xtitle("Approaches")
-ytitle("Cumulative ratios")
-
-plot(ratio)
-text(250;60;"Approach-to-lay ratio")
-
-setdot(4)
-
-:"Data for Roy Walker ratios"
-
-fillrgb(0.109;0.847;0.588)
-scplot2(rwlayrat)
-
-:"Data for Mr. White ratios"
-
-fillrgb(0.4;0.4;1)
-scplot2(mwlayrat)
-
-:"Data for Thomas Crown ratios"
-
-fillrgb(0.7;0.2;0.7)
-scplot2(tclayrat)
-
-:"Data for Seven ratios"
-
-fillrgb(0.8;0.8;0.1)
-scplot2(slayrat)
-
-:"Data for Krauser ratios"
-
-fillrgb(1;0;0)
-scplot2(klayrat)
-
-draw()
-
-.fl()
-.cc(layratiodata)
 
 layvalsf::.oc("layvals.eps")
 .tc(layvalsf)
