@@ -105,6 +105,7 @@ Writing
 * [Notes on Ethics](./notes_on_ethics.html)
 * [Notes on Pickup](./notes_on_pickup.html)
 * [Notes on Predictions](./notes_on_predictions.html)
+* [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
 
 #### Reports
 

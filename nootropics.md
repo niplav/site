@@ -9,6 +9,32 @@ decided to log my nootropics usage and its effects.__
 Nootropics
 ===========
 
+Caffeine
+---------
+
+Randomized self-blinded experiment A.
+
+Cost:
+
+* Time
+	* Time for filling: 35 minutes
+	* Time for preparing envelopes: 40 minutes
+* Cost of caffeine pills:
+* Cost of empty capsules:
+
+200mg caffeine pills, placebo pills filled with sugar, of each 25.
+Put each pill with a corresponding piece of paper ("C" for caffeine,
+"P" for placebo) into an unlabeled envelope.  Used `seq 1 50 | shuf`
+to number the envelopes, and sorted them accordingly.
+
+Variables tracked:
+
+* Meditation performance
+* Flashcard performance
+* Mood
+* Productivity
+* Creativity
+
 Creatine
 ---------
 

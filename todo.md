@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2023-03-14, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2023-03-29, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -467,12 +467,9 @@ Texts
 	* Sleep
 	* Computer usage
 		* Fix awitt
-	* Productivity
 	* Personal forecast accuracy?
 	* Air pollution
 	* CO₂ levels
-	* Subjective productivity
-	* Subjective creativity
 	* Fasts
 * Substances
 	* Oxytocin
@@ -1457,8 +1454,6 @@ Collect data on
 * [Subjective Life Expectancy](./estimated_life_expectancy.html#Data_Collection_Method)
 * Datasets on
 	* Sex
-	* Productivity
-	* Creativity
 * Large STEM Dataset
 	* For training large ML models that are less likely to be [human models](https://www.lesswrong.com/posts/BKjJJH2cRpJcAnP7T)
  * Some dataset on polyamory??
@@ -1993,8 +1988,7 @@ Wikipedia Articles
 * Sinclair coefficient
 * List of important publications in mathematics is very much too opinionated. Reviews like this don't quite belong on Wikipedia, so improve
 * Price of stability/price of anarchy:
-	* Collect bounds on Wikipedia
-	* Link the pages two each other in their See Also sections
+	* Collect bounds
 * Network cost-sharing game
 
 Lesswrong wiki
