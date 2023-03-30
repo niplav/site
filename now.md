@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2023-03-27, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2023-03-29, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -20,12 +20,7 @@ part of my free time. I apologize for any inconveniences.
 Writing
 -------
 
-I am mostly writing solutions to exercises in the textbooks I'm reading
-at the moment.
-
-### Currently Writing
-
-If I find time inbetween that, I'm expanding on the following texts:
+I'm right now expanding on the following texts:
 
 * [Notes](./notes.html)
 	* [Notes on Ethics](./notes_on_ethics.html)
@@ -36,9 +31,9 @@ If I find time inbetween that, I'm expanding on the following texts:
 * Forecasting
 	* [Precision of Sets of Forecasts](./precision.html)
 	* [Forecasters! What Do They Know? Do They Know Things?? Let's Find Out!](./forecasters.html)
+* [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 * [Prepare to Leave the Internet](./leave.html)
 * [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)
-* [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 * [Generalizing the Diamond-Square Algorithm to n Dimensions](./diamond.html)
 * [Circle Combinations](./circle_combinations.html)
 * [Types & Methods of Data Collection I Use](./data.html)
@@ -74,8 +69,3 @@ Currently, I am actively reading the following books:
 * Die toten Seelen (Nikolai Gogol, 1842)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
-
-I'm also reading about [Shard
-Theory](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX) and
-recently finished [Timeless Decision Theory (Eliezer Yudkowsky,
-2010)](./doc/cs/ai/alignment/decision_theory/timeless_decision_theory_yudkowsky_2010.pdf).

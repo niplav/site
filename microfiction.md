@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2022-12-20, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2023-03-29, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __Very small pieces of fiction and things that are sufficiently like
 fiction.__
@@ -258,7 +258,7 @@ now turns arduous
 > Moloch whose wasp-nests are fractal!  
 > Moloch whose pilots are spooky!  
 > Moloch who resides in an infinite-dimensional space!  
-> Mandate of tenderness! Fugitive astralites!
+> Mandate of tenderness! Fugitive astralites!  
 > Moloch, repugnant in a universal iron lattice!
 
 #### Squeal

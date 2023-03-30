@@ -299,6 +299,23 @@ to 54-year-olds thinking their attention spans have worsened.
 
 *—Bobby Duffy & Marion Thain, [“Do we have your attention”]()<!--TODO--> p. 6, 2022*
 
+> Even more widespread is the belief that young people's attention spans
+in particular are worse than they were in the past—two-thirds of people
+think this is the case (66%).
+>
+> Perhaps unsurprisingly, this belief is most common among the oldest
+age group surveyed, of those aged 55 or over — however, young people
+themselves also feel this way, with a majority of 18- 34-year-olds
+holdngi this view.
+
+*—Bobby Duffy & Marion Thain, [“Do we have your attention”]()<!--TODO--> p. 7, 2022*
+
+Note that [selectiev attention mostly improves with
+age](./doc/psychology/attention_span/the_development_of_selective_attention_plude_et_al_1994.pdf),
+so the older age-groups might be comparing themselves now to the younger
+age groups now (as opposed to remembering back at their own attention
+spans).
+
 What About Rates of ADHD?
 --------------------------
 
