@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-04-04, modified: 2023-03-13, language: english, status: notes, importance: 7, confidence: highly likely*
+*author: niplav, created: 2022-04-04, modified: 2023-04-02, language: english, status: notes, importance: 7, confidence: highly likely*
 
 > __Beginnings of a research agenda about [judgmental
 forecasting](https://en.wikipedia.org/wiki/Forecasting#Judgmental_methods).__
@@ -105,6 +105,9 @@ How Can We Ask Better Forecasting Questions?
 ---------------------------------------------
 
 * What are methods of scoring/defining how good a question was?
+* How many questions resolve due to technicalities in the resolution criteria?
+	* Are the ratios here different across different question categories?
+	* How does this ratio develope as one puts more effort into specifying resolution criteria?
 
 Other Questions
 ----------------

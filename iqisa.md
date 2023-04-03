@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-15, modified: 2022-12-20, language: english, status: notes, importance: 6, confidence: certain*
+*author: niplav, created: 2022-07-15, modified: 2023-04-02, language: english, status: notes, importance: 6, confidence: certain*
 
 > __Iqisa is [a library](https://github.com/niplav/iqisa) for handling and comparing forecasting datasets from different platforms.__
 
@@ -80,3 +80,10 @@ Feature Wishlist
 * [Manifold](https://manifold.markets/home)
 * [Smarkets](https://smarkets.com/)
 * [The Odds API](https://the-odds-api.com/)
+
+Acknowledgements
+-----------------
+
+Credits go to [Arb Research](https://arbresearch.com/) for funding the
+first 90% of this work, and Misha Yagudin in particular for guidance
+and mentorship.

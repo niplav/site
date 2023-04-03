@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-17, modified: 2023-03-20, language: english, status: notes, importance: 7, confidence: unlikely*
+*author: niplav, created: 2023-01-17, modified: 2023-04-03, language: english, status: notes, importance: 7, confidence: possible*
 
 > __I investigate whether the attention span of individual humans has
 been falling over the last two decades (prompted by curiosity about
@@ -44,7 +44,7 @@ from 2000 to the present?"__
 
 (One might also formulate it as "Is there an equivalent of the “[Reversed
 Flynn Effect](https://en.wikipedia.org/wiki/Flynn_Effect#Possible_end_of_progression)”
-for attention span?".) I am not particularly wedded to the specific
+for attention span?") I am not particularly wedded to the specific
 timeframe, though the worries mentioned above assert that this has
 become most stark during the last decade or so, attributing the change
 to widespread social media/smartphone/internet usage. Data from before
@@ -76,7 +76,7 @@ find a decline), but that seems less economically relevant than individual
 attention span. I am also far less interested in self-perception of
 attention span, give me data from a proper [power-](http://www.careergym.com/psychometric_glossary/power_test) or [speed-test](http://www.careergym.com/psychometric_glossary/speed_test), cowards!
 
-So the question I am asking is not
+So the question I am asking is not any of the following:
 
 * "Does more social media/internet usage cause decreased attention spans?"
 * "Does more social media/internet usage correlate with decreased attention spans?"
@@ -161,7 +161,7 @@ How Do We Measure Attention Span?
 
 One of my hopes was that there is a canonical and well-established (and
 therefore, ah, *tested*) test for attention span (or just attention)
-à la the IQ test for *g*: If so, I would've been able to laboriously go
+à la the IQ test for *g*: If so, I would be able to laboriously go
 through the literature on attention, extract the individual measurements
 (and maybe even acquire some datasets) and perform a meta-analysis.
 
@@ -198,17 +198,15 @@ high commission error rate points to difficulties with impulsivity. A
 slow reaction time with high commission and omission errors, indicates
 inattention in general.
 
-<!--TODO:
-Two questions:
+I'm currently unsure about two crucial points:
 
-* How close are those to measures of attention span
-* Are there any cross-sectional/time-series analyses using them
--->
+* How much does any CPT measure the concept we naively call attention span? The papers I've read don't refer to attention span per se, but a general capability of sustained and selective attention.
+* Are there any time-series analyses or longitudinal studies using a CPT? I have not been able to find any.
 
 ### Other Heterogenous Metrics
 
 I also attempted to find a survey or review paper on attention span,
-but was unsuccessful in my quest, so I resulted to collecting metrics
+but was unsuccessful in my quest, so I fell back to collecting metrics
 for attention span from different papers:
 
 * [Gausby 2015](./doc/psychology/attention_span/attention_spans_gausby_et_al_2015.pdf)
@@ -230,10 +228,17 @@ for attention span from different papers:
 
 <!--TODO: revise this-->
 
-But, as it stands, I don't think that such an instrument
-exists`$_{35\%}$`: The set of listed measures I found appears to be too
-heterogenous, idiosyncratic, mostly not quantitative enough and measuring
-slightly different things for me to pick one and drill down on.
+-------
+
+As it stands, I think there's a decent chance`$_{60\%}$` that one or
+several tests from the CPT family can be used as tests for attention
+span without much of a problem.
+
+I don't think a separate dedicated test for attention span
+exists`$_{35\%}$`: The set of listed measures I found (apart from the CPT)
+appears to be too heterogenous, idiosyncratic, mostly not quantitative
+enough and measuring slightly different things to be robustly useful
+for a meta-analysis.
 
 What Are the Existing Investigations?
 -------------------------------------
@@ -260,7 +265,7 @@ spans have actually declined.
 	* Questions answered:
 		* *Is self-reported attention span related to the number of social media accounts?*, No, not statistically significant (F(2, 206)=0.1223, p>0.05) (via a one-way [ANOVA](https://en.wikipedia.org/wiki/ANOVA)
 		* *Is self-reported attention span related to whether a respondent mainly uses a mobile phone or a computer?*, No, not statistically significant (P(2,713)=0.923, p>0.05) (via a one-way ANOVA)
-	* I do **not** trust this paper: Calling (what I think is) Generation Z "Generation D" (without source for the term), being clearly written in Word, and bad grammar (I *think* the authors are all Americans, so no excuse here):
+	* I do **not** trust this paper: Calling (what I think is) Generation Z "Generation D" (without source for the term), being clearly written in Word, and confusing grammar (I *think* the authors are all Americans, so no excuse here):
 
 > Users that are older such as late adolescents and emerging adults
 average approximately 30-minutes daily for just Facebook that does not
@@ -297,7 +302,7 @@ attentive [sic] as they've always been.
 also the dominant feeling among the middle aged too, with 56% of 35-
 to 54-year-olds thinking their attention spans have worsened.
 
-*—Bobby Duffy & Marion Thain, [“Do we have your attention”]()<!--TODO--> p. 6, 2022*
+*—Bobby Duffy & Marion Thain, [“Do we have your attention”](./doc/psychology/attention_span/do_we_have_your_attention_duffy_thain_2022.pdf) p. 6, 2022*
 
 > Even more widespread is the belief that young people's attention spans
 in particular are worse than they were in the past—two-thirds of people
@@ -308,13 +313,26 @@ age group surveyed, of those aged 55 or over — however, young people
 themselves also feel this way, with a majority of 18- 34-year-olds
 holdngi this view.
 
-*—Bobby Duffy & Marion Thain, [“Do we have your attention”]()<!--TODO--> p. 7, 2022*
+*—Bobby Duffy & Marion Thain, [“Do we have your attention”](./doc/psychology/attention_span/do_we_have_your_attention_duffy_thain_2022.pdf) p. 7, 2022*
 
 Note that [selectiev attention mostly improves with
 age](./doc/psychology/attention_span/the_development_of_selective_attention_plude_et_al_1994.pdf),
 so the older age-groups might be comparing themselves now to the younger
 age groups now (as opposed to remembering back at their own attention
 spans).
+
+> The absence of long-term research means it remains unknown whether
+technology has caused a deterioration in the country's ability to
+concentrate — but comparisons with survey data from previous decades
+indicate that, on some measures the public feel more pressured than they
+did in the past.
+
+*—Bobby Duffy & Marion Thain, [“Do we have your attention”](./doc/psychology/attention_span/do_we_have_your_attention_duffy_thain_2022.pdf) p. 18, 2022*
+
+In response to the questions (n=2093 UK adults aged 18+ in 2021):
+
+* "To what extent do you agree or disagree with the following statement? __The pace of life is too much for me these days__" (1983: 30% agree, 2021: 41% agree)
+* "To what extent do you agree or disagree with the following statement? __I wish I could slow down the pace of my life__" (1997: 47% agree, 1999: 51% agree, 2008: 45% agree, 2021: 54% agree)
 
 What About Rates of ADHD?
 --------------------------
@@ -334,76 +352,36 @@ increased, if e.g. awareness of ADHD has increased and therefore
 leads to more diagnoses<!--TODO: find the number of tests for ADHD or
 something?-->.
 
-What Would A Good Study Look Like?
-------------------------------------
+What Could A Study Look Like?
+-------------------------------
 
-Compared to other feats that psychology is accomplishing, finding out
-whether individual attention spans are declining appears to be of medium
-difficulty, so I'll try to outline how this could be accomplished: Find
-a good instrument for measuring attention span, and then apply that
-instrument on random population samples for several years.
+Compared to other feats that psychology is accomplishing,
+finding out whether individual attention spans are declining
+appears to be of medium difficulty, so I'll try to outline how
+this could be accomplished in three different ways:
 
-### How Might One Measure Attention Span
-
-<!--TODO: revise this, maybe scrap :-/-->
-
-[I have not been able to find](#How_Do_We_Measure_Attention_Span)
-a standard instrument for measuring attention span which returns
-a scalar or vector describing the attention span of an individual
-(optimally returning the number of seconds for the average attention
-span)—it appears that most published papers on the topic
-use survey data (which I fear to fall to [social desirability
-bias](https://en.wikipedia.org/wiki/Social-desirability
-bias)) or behavioral cues (which I suspect
-are quite noisy), with the exception of [Gausby
-2015](./doc/psychology/attention_span/attention_spans_gausby_et_al_2015.pdf),
-who didn't explain their instruments in great detail.
-
-(Note that I'm not a psychometrician, but I like speculating about things,
-so the ideas below might contain subtle and glaring mistakes. Noting them
-down here anyway because I might want to implement them at some point.)
-
-It seems relatively easy to measure attention span with a power- or
-speed-test, via one of three methods:
-
-1. Present a stimulus, change the stimulus and let the test subject report the change in stimulus; this results in two numbers: the time between the stimulus being initially being presented and the time it was changed (let's call this value `t_change`), and the time between the change of the stimulus and the reporting of the change (calling this value `t_report`). Performing this test with different value of `t_change` should result in different values of `t_report`. There is a `t_change` for which `t_report` falls over a threshold value, that `t_change` can be called the attention span.
-	1. This method has some disadvantages:
-		1. It needs a change in stimulus that requires selective attention to notice, but changing e.g. visual stimuli involves motion, which direct attention. (Idea: have a colored stimulus continuously changing color, and a reference color, once the stimulus has the reference color, the subject is supposed to report; avoiding sudden changes in visual stimuli.)
-		2. The method would require many samples to find the `t_change` for which `t_report` falls over the threshold value.
-		3. Performing the test multiple times in a row might induce mental fatigue, decreasing attention span
-2. Let the test subject engage in a mentally draining exercise like the [Stroop test](https://en.wikipedia.org/wiki/Stroop_test) with some performance measure. I would the performance to decline over time, and one could define a threshold value at which the subject "is no longer paying attention".
-3. Let the subject observe a neutral stimulus while measuring some indicator of attention (such as arousal via skin conductivity or the [default mode network](https://en.wikipedia.org/wiki/Default_mode_network) being inactive), when the measured value falls under/over a threshold the subject has "lost attention".
-	1. This method has the major disadvantage that it requires special equipment to perform.
-
-Such an instrument would of course need to have different forms of
-[reliability](https://en.wikipedia.org/wiki/Reliability_\(psychometrics\))
-and [validity](https://en.wikipedia.org/wiki/Validity_\(psychometrics\)),
-and I think it would probably work best as a power test or a speed test.
-
-I'm not sure how such a test would relate to standard [IQ
-tests](https://en.wikipedia.org/wiki/Intelligence_quotient): would it
-simply measure a subpart of *g*, completely independent or just partially
-related to it?
-
-### Performing the Study
-
+1. Find a good instrument for measuring attention
+span (optionally just use a [continuous performance
+test](https://en.wikipedia.org/wiki/Continuous_performance_task)).
 Once one has a suitable instrument for measuring attention
 span, one can every year (or every second year) for a couple
 of years pick a random sample from the population (not of
 the same set of people, though, since attention span [increases with
 age](./doc/psychology/attention_span/the_development_of_selective_attention_plude_et_al_1994.pdf)),
-e.g. via the internet if the test can be done online,
-save the data and finally apply a [cross-sectional
-regression](https://en.wikipedia.org/wiki/Cross-sectional_regression)
-or a fancier statistical technique I don't know to find out whether
-attention spans have declined between the measurements.
-
-<!--
-Why Are Existing Studies So Inadequate?
-----------------------------------------
-
-------
--->
+e.g. via the internet if the test can be done
+online, save the data and finally apply a [linear trend
+estimation](https://en.wikipedia.org/wiki/Linear_trend_estimation) or a
+fancier statistical technique I don't know to find out whether attention
+spans have declined between the measurements.
+	1. This could be done relatively cheaply: Let's say we collect 50 datapoints a year, from Mechanical Turk workers at \$10/hr. A conservative estimate is that the test takes ~30 minutes to complete, so for three years the cost of the data would be `$50 \cdot 3 \cdot 10 \frac{\$}{\text{h}} \cdot 0.5\text{h}=\$750$`. It looks like there are open-source implementations of the test available<!--TODO: links-->, so the additional cost is for the researcher setting up the test and recruiting the participants, which could take ~30 hours, and another ~30 hours for analysing the data. So the total cost of the experiment would be, at an hourly wage of \$15 for the researcher (come on, we can let a grad student do it), `$\$750+60 \text{hr} \cdot 15 \frac{\$}{\text{hr}}=\$1650$`. Fudging upwards by taking the [planning fallacy](https://en.wikipedia.org/wik/Planning_fallacy) into account gives \$2k for the experiment.
+2. Find someone who has been collecting data on attention span, ask them
+for it nicely, and analyse that data.
+3. Use the [control groups](https://en.wikipedia.org/wiki/Control_group)
+from studies testing the effect of
+interventions on attention as data and then perform a
+[meta-analysis](https://en.wikipedia.org/wiki/Meta-analysis). A lot of
+studies use some variant of the CPT, I started collecting such studies
+[here](./spans.html#Appendix_B_Studies_for_a_MetaAnalysis).
 
 Conclusion
 -----------
@@ -421,7 +399,7 @@ yet? After all, it doesn't seem to me to be extremely difficult to do
 (compared to [other](https://en.wikipedia.org/wiki/Large_Hadron_Collider)
 [things](https://en.wikipedia.org/wiki/Smallpox#Eradication)
 [science](https://en.wikipedia.org/wiki/Apollo_11)
-[has](https://en.wikipedia.org/wiki/Dolly_\(sheep\)))
+[has](https://en.wikipedia.org/wiki/Dolly_\(sheep\))
 [accomplished](https://en.wikipedia.org/wiki/AlphaFold)),
 there is pretty clearly a lot of media attention on
 the question (so much so that [a likely incorrect number
@@ -444,10 +422,12 @@ come up.
 
 So I want to end with a call to action: If you have the capacity to
 study this problem, there is room for improvement in the existing
-literature! Attention spans could be important, but we don't know how
-to measure then, and many people claim that they're declining, but are
-too sure about it. False numbers are widely cited, meaning that correct
-numbers might be cited even more widely!
+literature! Attention spans could be important, but we don't know
+how to measure then, and many people claim that they're declining,
+but are too sure about it. False numbers are widely cited, meaning
+that correct numbers might be cited even more widely. And it's
+[probably](./spans.html#What_Could_A_Study_Look_Like) not even (that)
+hard!
 
 Consider your incentives :-).
 
@@ -579,5 +559,44 @@ before looking somewhere else.
 Appendix B: Studies for a Meta-Analysis
 ----------------------------------------
 
-* Association between urine cotinine levels, continuous performance test variables, and attention deficit hyperactivity disorder and learning disability symptoms in school-aged children (B.-N. Kim/E.-J. Park/H.-J.Yoo/I.-H. Cho/J.-H. Lee/J. Hur/J.-W. Kim/M.-H. Park/M.-S. Shin/S.-B. Hong/S.-C. Cho/S.-K. Han/S. Park/S.-Y. Bhang/Y.-C. Hong, 2012): n=989 Korean children (mean age 9.1±0.7 years), tested with an unspecified CPT
-* Cognitive control in media multitaskers (Anthony D. Wagner/Clifford Nass/Eyal Ophir, 2009): n=28 (?), tested with the AX-CPT
+I'll list the closest thing those studies have to a control group,
+list sorted by year.
+
+* Decreased frontal activation in schizophrenics during stimulation with the Continuous Performance Test — a functional magnetic resonance imaging study (H.-P. Volz/C. Gaser/F. Häger/R. Rzanny/J. Pönisch/H.-J. Mentzel/W.A. Kaiser/H. Sauer, 1999): n=20 German volunteers (28.2±5.7 years), tested using the *CPT-double-T-version*.
+* Continuous Performance Test Performance in a Normative Epidemiological Sample (C. Keith Conners/Jeffery N. Epstein/Adrian Angold/John Klaric, 2002): n=816 children from North Carolina (9-17 years), tested using *Conners' CPT*.
+* Cognitive control in media multitaskers (Anthony D. Wagner/Clifford Nass/Eyal Ophir, 2009): n=28 (?), tested with the *AX-CPT*.
+* Association between urine cotinine levels, continuous performance test variables, and attention deficit hyperactivity disorder and learning disability symptoms in school-aged children (B.-N. Kim/E.-J. Park/H.-J.Yoo/I.-H. Cho/J.-H. Lee/J. Hur/J.-W. Kim/M.-H. Park/M.-S. Shin/S.-B. Hong/S.-C. Cho/S.-K. Han/S. Park/S.-Y. Bhang/Y.-C. Hong, 2012): n=989 Korean children (mean age 9.1±0.7 years), tested with an unspecified *CPT*.
+* Continuous performance test in children with intellectual disability and attention deficit hyperactivity disorder (Puga María Celeste/Vaucheret Paz Esteban/Leist Mariana/García Basalo María José/Baliarda Florencia/Ekonen Christy/Lascombes María IVsabel/Agostau Guillermo, 2018): n=122 Argentinian children (mean age 10 years) with ADHD and IQ>80, tested with the *CPT II*.
+* Do concerns about COVID-19 impair sustained attention? (Jihyang Jun/Yi Ni Toh/Caitlin A. Sisk/Roger W. Remington/Vanessa G. Lee, 2021): n=161 participants (23±5.2 years), recruited online. No control group, but instead a correlational study. Tested using the *scene CPT*.
+
+Appendix C: How I Believed One Might Measure Attention Span Before I Found Out About The CPT
+---------------------------------------------------------------------------------------------
+
+Before I found out about the Continous Performance Test, I speculated
+about how to measure attention span:
+
+(Note that I'm not a psychometrician, but I like speculating about things,
+so the ideas below might contain subtle and glaring mistakes. Noting them
+down here anyway because I might want to implement them at some point.)
+
+It seems relatively easy to measure attention span with a power- or
+speed-test, via one of three methods:
+
+1. Present a stimulus, change the stimulus and let the test subject report the change in stimulus; this results in two numbers: the time between the stimulus being initially being presented and the time it was changed (let's call this value `t_change`), and the time between the change of the stimulus and the reporting of the change (calling this value `t_report`). Performing this test with different value of `t_change` should result in different values of `t_report`. There is a `t_change` for which `t_report` falls over a threshold value, that `t_change` can be called the attention span.
+	1. This method has some disadvantages:
+		1. It needs a change in stimulus that requires selective attention to notice, but changing e.g. visual stimuli involves motion, which direct attention. (Idea: have a colored stimulus continuously changing color, and a reference color, once the stimulus has the reference color, the subject is supposed to report; avoiding sudden changes in visual stimuli.)
+		2. The method would require many samples to find the `t_change` for which `t_report` falls over the threshold value.
+		3. Performing the test multiple times in a row might induce mental fatigue, decreasing attention span
+2. Let the test subject engage in a mentally draining exercise like the [Stroop test](https://en.wikipedia.org/wiki/Stroop_test) with some performance measure. I would the performance to decline over time, and one could define a threshold value at which the subject "is no longer paying attention".
+3. Let the subject observe a neutral stimulus while measuring some indicator of attention (such as arousal via skin conductivity or the [default mode network](https://en.wikipedia.org/wiki/Default_mode_network) being inactive), when the measured value falls under/over a threshold the subject has "lost attention".
+	1. This method has the major disadvantage that it requires special equipment to perform.
+
+Such an instrument would of course need to have different forms of
+[reliability](https://en.wikipedia.org/wiki/Reliability_\(psychometrics\))
+and [validity](https://en.wikipedia.org/wiki/Validity_\(psychometrics\)),
+and I think it would probably work best as a power test or a speed test.
+
+I'm not sure how such a test would relate to standard [IQ
+tests](https://en.wikipedia.org/wiki/Intelligence_quotient): would it
+simply measure a subpart of *g*, completely independent or just partially
+related to it?
