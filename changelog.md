@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2023-03-25, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2023-04-02, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -18,9 +18,18 @@ with fecundity.
 
 *—[Scott Alexander](https://slatestarcodex.com/), [“The Goddess of Everything Else”](https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/), 2015*
 
+April 2023
+-----------
+
+* [Microfiction](./microfiction.md)
+	* [Things to Shout](./microfiction.html#Things_to_Shout)
+	* [Funny Internet Images](./microfiction.html#Funny_Internet_Images)
+
 March 2023
 -----------
 
+* [Nootropics](./nootropics.md)
+	* Started first experiment with [Caffeine](./nootropics.html#Caffeine)
 * [Iqisa: A Library For Handling Forecasting Datasets](./iqisa.md), [Documentation](./iqisadoc.md)
 * [Notes](./notes.md)
 	* [The Price of Inadequacy](./notes.html#The_Price_of_Inadequacy)

@@ -375,6 +375,7 @@ Equivalences
 * biology : philosophy of mind :: ethology : meditation
 * David Gerard : Eliezer Yudkowsky :: Lucifer : God :: Émile Torres : William MacAskill :: Melkor : Eru Illúvatar
 * attention : distraction :: awareness : spacedoutness
+* moloch : slack :: goodhart : swamp
 
 Better Words
 --------------

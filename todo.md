@@ -335,6 +335,7 @@ Texts
 * Kitchen sink versus integrated AI alignment
 * The Relation Between Corrigibility and Impact Measures
 * Distilling Debate Progress
+	* `https://www.lesswrong.com/posts/PJLABqQ962hZEqhdB/debate-update-obfuscated-arguments-problem`
 * Umeshisms for Low Impact
 	* If the future optimization trajectory along a dimension in the limit moves the value of that dimension to the maximum/minimum, don't do that.
 	* The optimal amount of anything is not the most extreme amount
@@ -380,7 +381,7 @@ Texts
 
 * Matter is Philosophically Unnecessary
 	* The matter/mind duality is an artifact of how our minds classify the world
-* The Hard Problem of Consciousness Still Persists Without Matter
+* The Hard Problem of Consciousness Is Not About Matter
 * Panpsychism is a Class of Theories of Consciousness, not a Theory of Consciousness
 * Intentional vs. Non-Intentional Consciousness
 	* The reason why, even if, strictly speaking, trees are "conscious", we don't have to worry about damaging them as much as we have to worry about damaging animals
@@ -2062,6 +2063,7 @@ Metaculus Questions
 * A question about antibiotic resistant strains
 * Some questions about the performance of BCIs
 * Conditional on China invading Taiwan, will TSMC blow up its factories?
+* Question about best performance of homomorphic encryption
 
 Structure
 ---------

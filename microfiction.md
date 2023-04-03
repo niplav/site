@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2023-03-29, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2023-04-03, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __Very small pieces of fiction and things that are sufficiently like
 fiction.__
@@ -40,6 +40,8 @@ Words
 	* "corrigibility"
 	* "antisemanticity"
 	* "crestfallen"
+	* "moleFLOP"
+	* "gradientspawn"
 * German
 	* "bewahren"
 	* "Kabeljau"
@@ -56,16 +58,14 @@ Poems
 
 ### English
 
+* Eternal Hustle of the Stopless Grind
+* Calibration of the intellect, optimism of the will
+* gah, can't snarf evince.
+* You can sit here and be okay, if you want.
+* gatekeep girlboss gaslight givewell
+
 > Paradises, peacocks, peaches and palimpsests! Prussians, prowlers plus
 plumous penguins, priestess parks principles—priceless.
-
-----
-
-> gah, can't snarf evince.
-
-----
-
-> You can sit here and be okay, if you want.
 
 ----
 
@@ -81,6 +81,16 @@ traverse the geodesic so
 a “hi”, a “no”, a saddest look,  
 relieved of possibility  
 Now have I fucking traumatized the bird‽
+
+----
+
+> My reply guys have reply guys, and they have reply
+guys too, and deeper still; together we implement an
+[HCH](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/NXqs4nYXaq8q6dTTx)
+tree.
+
+> what if we held hands 👉👈 🥺
+at the Sloan Great Wall and listened to the pulsars sing
 
 ### German
 
@@ -341,10 +351,6 @@ spot on the happiness/productivity Pareto frontier, dummy.”
 
 ----
 
-> “Stop narrativizing yourself! Stop narrativizing yourself!”
-
-----
-
 > “In general, my reaction to that kind of thing is *sound of someone trying to strangle a laptop*”
 
 ----
@@ -361,6 +367,18 @@ spot on the happiness/productivity Pareto frontier, dummy.”
 > B: “What?”  
 > A: “Was that an acustic, syntactic or semantic ‘What?’?”  
 > B: “……… What?”
+
+### Things to Shout
+
+> “Stop narrativizing yourself! Stop narrativizing yourself!”
+
+----
+
+> “Ghastly incentives! Horrid incentives!”
+
+----
+
+> “Markets! Hah! Pale shadows at best.”
 
 Wrong Quotes
 -------------
@@ -403,14 +421,54 @@ Tom Swifties
 * "These mussels weren't good anymore!", Tom exclamated.
 * "Then you'll have to find an atomic solution", Tom departed.
 
-<!--
-Memes
-------
--->
-
 Other
 ------
 
 *	Browers fix-point theorem as inane self-help wisdom: "Even if
 	you continuously transform yourself, a small part of you will
 	still stay the same."
+
+Funny Internet Images
+----------------------
+
+I continue to maintain that this was a good use of my time.
+
+<!--TODO: alt-text descriptions for all of these-->
+
+![](./img/memes/compass.png)
+
+----
+
+![](./img/memes/last_thing_dyson_sphere.jpg)
+
+----
+
+![](./img/memes/outer.png)
+
+----
+
+![](./img/memes/overconfident.png)
+
+----
+
+![](./img/memes/shulman_smile.jpg)
+
+----
+
+![](./img/memes/unholy_trinity.jpg)
+
+----
+
+![](./img/memes/virginity_chart_lw.jpg)
+
+----
+
+![](./img/memes/wish_all_dukkha.jpg)
+
+### Ahegao
+
+![](./img/memes/gwern_ahegao.png)
+
+----
+
+![](./img/memes/ssc_nyt_ahegao.jpg)
