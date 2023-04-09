@@ -1700,3 +1700,7 @@
 2023-04-01T11:19:19.000000Z	well, sometimes humans provide the discontinuities (via large jumps in training run sizes)
 2023-04-01T11:57:15.000000Z	how many metaculus questions resolved on technicalities?
 2023-04-02T11:16:04.000000Z	wow https://www.lesswrong.com/posts/vwLxd6hhFvPbvKmBH/yudkowsky-and-christiano-discuss-takeoff-speeds?commentId=mKgEsfShs2xtaWz4K
+2023-04-06T20:32:45.000000Z	evolution lets animals age because otherwise they fall into procrastination type paradox situations
+2023-04-06T21:48:58.000000Z	meditation has the effect of “concetptual regularization” for me: less discrete thinking, and more conservative concept boundaries
+2023-04-08T10:40:49.000000Z	orthogonality of substrate and structure in general
+2023-04-08T21:33:06.000000Z	i mean how many bits can you even hide in a human-understandable theorem?

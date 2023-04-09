@@ -89,8 +89,11 @@ guys too, and deeper still; together we implement an
 [HCH](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/NXqs4nYXaq8q6dTTx)
 tree.
 
-> what if we held hands 👉👈 🥺
-at the Sloan Great Wall and listened to the pulsars sing
+----
+
+> what if we held hands 👉👈 🥺  
+at the Sloan Great Wall  
+and listened to the pulsars sing
 
 ### German
 

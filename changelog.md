@@ -50,7 +50,6 @@ January 2023
 	* [Wolfe Daygame Ratios](./daygame_cost_benefit.md#Wolfe_Daygame)
 * [Nootropics](./nootropics.md)
 * [Progress in Qualia](./qualia.md)
-* [Have Attention Spans Been Declining?](./spans.md)
 * [Notes](./notes.md)
 	* [Was Software Security in the Aughts Exceptionally Bad?](./notes.md#Was_Software_Security_in_the_Aughts_Exceptionally_Bad)
 
