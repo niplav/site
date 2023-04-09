@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-04-03, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-04-09, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,43 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Octopuses (Probably) Don't Have Nine Minds (Bob Fischer/Joe Gottlieb, 2022)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/WBWXLZTF5FPzmK8nh)
+* [Why Neuron Counts Shouldn't Be Used as Proxies for Moral Weight (Adam Shriver, 2022)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/Mfq7KxQRvkeLnJvoB)
+* [Grokking the Intentional Stance (jbkjr, 2021)](https://www.lesswrong.com/posts/jHSi6BwDKTLt5dmsG/grokking-the-intentional-stance)
+* [Theories of Welfare and Welfare Range Estimates (Bob Fischer, 2022)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/WfeWN2X4k8w8nTeaS)
+* [The Welfare Range Table (Bob Fischer, 2022)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/tnSg6o7crcHFLc395)
+* [Comments on Carlsmith's “Is power-seeking AI an existential risk?” (Nate Soares, 2021)](https://www.lesswrong.com/posts/cCMihiwtZx7kdcKgt/comments-on-carlsmith-s-is-power-seeking-ai-an-existential)
+* [Social behavior curves, equilibria, and radicalism (Eric Neyman, 2021)](https://www.lesswrong.com/posts/Hoh6umyMWSqzPGMJZ/social-behavior-curves-equilibria-and-radicalism)
+* [An Introduction to the Moral Weight Project (Bob Fischer, 2022)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/hxtwzcsz8hQfGyZQM)
+* [The scale of direct human impact on invertebrates (Abraham Rowe, 2020)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/9drbh8sKzzykaX38P)
+* [Highlights from The Autobiography of Andrew Carnegie (Jason Crawford, 2021)](https://www.lesswrong.com/posts/4yDZgN7dvyzKEMYkg/highlights-from-the-autobiography-of-andrew-carnegie)
+* [Kelly *is* (just) about logarithmic utility (Abram Demski, 2021)](https://www.lesswrong.com/posts/DfZtwtGD6ymFtXmdA/kelly-is-just-about-logarithmic-utility)
+* [Equanimity On Demand: Can Brain Stimulation Technology Mimic the Effects of Meditation? (Michael Haederle, 2021)](https://tricycle.org/article/brain-stimulation-meditation/)
+* [Reneging Prosocially (Duncan Sabien, 2021)](https://www.lesswrong.com/posts/sjRG35aq5fosJ6mdG/reneging-prosocially)
+* [Research Summary: The Subjective Experience of Time (Jason Schukraft, 2020)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/4ie9fTgB4spQ3zARk)
+* [Don’t Balk at Animal-friendly Results (Bob Fischer, 2023)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/KXSBb2zgkLE6gnn3K)
+* [Procrastination Paradoxes: the Good, the Bad, and the Ugly (scasper, 2020)](https://www.lesswrong.com/posts/5a9Xz3mhYF6c2Zwgn/procrastination-paradoxes-the-good-the-bad-and-the-ugly)
+* [Shared Frames Are Capital Investments in Coordination (johnswentworth, 2021)](https://www.lesswrong.com/posts/GkxxfdCukyGuyKXQQ/shared-frames-are-capital-investments-in-coordination)
+* [A penguin fish-recommender systems using multi-armed bandits pt. 1 (Sebastian Callh, 2020)](https://sebastiancallh.github.io/post/multi-armed-bandits-and-penguins/)
+* [What's Stopping You? (Neel Nanda, 2021)](https://www.lesswrong.com/posts/XCcqNb9Hy3sjSMDfq/what-s-stopping-you)
+* [The 60-Year-Old Scientific Screwup That Helped Covid Kill (Megan Molteni, 2021)](https://www.wired.com/story/the-teeny-tiny-scientific-screwup-that-helped-covid-kill/)
+* [Visible Thoughts Project and Bounty Announcement (Nate Soares, 2021)](https://www.lesswrong.com/posts/zRn6cLtxyNodudzhw/visible-thoughts-project-and-bounty-announcement)
+* [Where do your eyes go? (alkjash, 2021)](https://www.lesswrong.com/posts/gCz7cB6JG66EhweSS/where-do-your-eyes-go)
+* [On Hreha On Behavioral Economics (Scott Alexander, 2021)](https://www.lesswrong.com/posts/gBpYo7mt2zNBmtBJd/crosspost-on-hreha-on-behavioral-economics)
+* [Intentionally Making Close Friends (Neel Nanda, 2021)](https://www.lesswrong.com/posts/pfibDHFZ3waBo6pAc/intentionally-making-close-friends)
+* [Conflict Vs. Mistake (Scott Alexander, 2018)](https://slatestarcodex.com/2018/01/24/conflict-vs-mistake/)
+* [a dialogue with myself concerning eliezer yudkowsky (Qiaochu Yuan, 2023)](https://qchu.substack.com/p/eliezer)
+* [How To Get Into Independent Research On Alignment/Agency (johnswentworth, 2021)](https://www.lesswrong.com/posts/P3Yt66Wh5g7SbkKuT/how-to-get-into-independent-research-on-alignment-agency)
+* [Birds, Brains, Planes, and AI: Against Appeals to the Complexity/Mysteriousness/Efficiency of the Brain (Daniel Kokotajlo, 2021)](https://www.lesswrong.com/posts/HhWhaSzQr6xmBki8F/birds-brains-planes-and-ai-against-appeals-to-the-complexity)
+* [Jean Monnet: The Guerilla Bureaucrat (Martin Sustrik, 2021)](https://www.lesswrong.com/posts/5b6YcFbEBCZbX6YSK/jean-monnet-the-guerilla-bureaucrat)
+* [Automating Auditing: An ambitious concrete technical research proposal (Evan Hubinger, 2021)](https://www.lesswrong.com/posts/cQwT8asti3kyA62zc/automating-auditing-an-ambitious-concrete-technical-research)
+* [Ruling Out Everything Else (Duncan Sabien, 2021)](https://www.lesswrong.com/posts/57sq9qA3wurjres4K/ruling-out-everything-else)
+* [The bonds of family and community: Poverty and cruelty among Russian peasants in the late 19th century (Jason Crawford, 2021)](https://www.lesswrong.com/posts/mhA4vkeaRn9cpxkag/the-bonds-of-family-and-community-poverty-and-cruelty-among)
+* [Bad names make you open the box (Adam Zerner, 2021)](https://www.lesswrong.com/posts/NYaLudjSqsYtZDB2t/bad-names-make-you-open-the-box)
+* [Benchmarking an old chess engine on new hardware (hippke, 2021)](https://www.lesswrong.com/posts/J6gktpSgYoyq5q3Au/benchmarking-an-old-chess-engine-on-new-hardware)
+* [Redwood Research’s current project (Buck Shlegeris, 2021)](https://www.lesswrong.com/posts/k7oxdbNaGATZbtEg3/redwood-research-s-current-project)
+* [Why did we wait so long for the threshing machine? (Jason Crawford, 2021)](https://www.lesswrong.com/posts/K7wtTqTEoKXC9Kb24/why-did-we-wait-so-long-for-the-threshing-machine)
+* [The Death Of Behavioral Economics (Jason Hreha, 2021)](https://www.thebehavioralscientist.com/articles/the-death-of-behavioral-economics)
 * [POWERplay: An open-source toolchain to study AI power-seeking (Edouard Harris, 2022)](https://www.alignmentforum.org/posts/ojwujybfRC9SwRhAP/powerplay-an-open-source-toolchain-to-study-ai-power-seeking)
 * [Your Dog is Even Smarter Than You Think (StyleOfDog, 2021)](https://www.lesswrong.com/posts/zbqLuTgTCu365MNu9/your-dog-is-even-smarter-than-you-think)
 * [Review of "Fun with +12 OOMs of Compute" (adamShimi/Joe Collman/Gyrodiot, 2021)](https://www.lesswrong.com/posts/bAAtiG8og7CxH3cXG/review-of-fun-with-12-ooms-of-compute)

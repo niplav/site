@@ -75,6 +75,7 @@ HTML=index.html \
 	senryu.html \
 	sites.html \
 	spans.html \
+	stimulation.html \
 	tao_te_king.html \
 	text_reviews.html \
 	textbook_discord_servers.html \

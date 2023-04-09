@@ -1,14 +1,14 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-17, modified: 2023-04-03, language: english, status: notes, importance: 7, confidence: possible*
+*author: niplav, created: 2023-01-17, modified: 2023-04-09, language: english, status: notes, importance: 7, confidence: possible*
 
 > __I investigate whether the attention span of individual humans has
 been falling over the last two decades (prompted by curiosity about
 whether the introduction of the internet may be harmful to cognitive
 performance). I find little direct work on the topic, despite its wide
-appeal, but reviewing related research indicates that individual attention
-spans might have been declining`$_{70\%}$`.__
+appeal. Reviewing related research indicates that individual attention
+spans might indeed have been declining`$_{70\%}$`.__
 
 Have Attention Spans Been Declining?
 =====================================
@@ -172,8 +172,8 @@ I found the family of [continuous performance
 tests](https://en.wikipedia.org/wiki/Continuous_performance_task),
 including the Visual and Auditory CPT (IVA-2), the [Test of Variables of
 Attention](https://en.wikipedia.org/wiki/Test_of_variables_of_Attention)
-(T.O.V.A), Conners' CPT-III, the
-gradCPTi and the QbTest, some of which are described
+(T.O.V.A.), Conners' CPT-III, the
+gradCPT and the QbTest, some of which are described
 [here](https://en.wikipedia.org/wiki/Continuous_performance_task#Test_administration)<!--TODO:
 links for all of these-->. These tests usually contain two parts: a part
 with low stimulation and rare changes of stimuli, which tests for lack
@@ -201,7 +201,7 @@ inattention in general.
 I'm currently unsure about two crucial points:
 
 * How much does any CPT measure the concept we naively call attention span? The papers I've read don't refer to attention span per se, but a general capability of sustained and selective attention.
-* Are there any time-series analyses or longitudinal studies using a CPT? I have not been able to find any.
+* Are there any time-series analyses or longitudinal studies using a CPT, or alternatively meta-analyses using data collected from existing studies? I have not been able to find any.
 
 ### Other Heterogenous Metrics
 
@@ -235,7 +235,7 @@ several tests from the CPT family can be used as tests for attention
 span without much of a problem.
 
 I don't think a separate dedicated test for attention span
-exists`$_{35\%}$`: The set of listed measures I found (apart from the CPT)
+exists`$_{45\%}$`: The set of listed measures I found (apart from the CPT)
 appears to be too heterogenous, idiosyncratic, mostly not quantitative
 enough and measuring slightly different things to be robustly useful
 for a meta-analysis.
@@ -360,7 +360,7 @@ finding out whether individual attention spans are declining
 appears to be of medium difficulty, so I'll try to outline how
 this could be accomplished in three different ways:
 
-1. Find a good instrument for measuring attention
+1. Develop a good instrument for measuring attention
 span (optionally just use a [continuous performance
 test](https://en.wikipedia.org/wiki/Continuous_performance_task)).
 Once one has a suitable instrument for measuring attention
@@ -369,7 +369,7 @@ of years pick a random sample from the population (not of
 the same set of people, though, since attention span [increases with
 age](./doc/psychology/attention_span/the_development_of_selective_attention_plude_et_al_1994.pdf)),
 e.g. via the internet if the test can be done
-online, save the data and finally apply a [linear trend
+online. One could then apply a [linear trend
 estimation](https://en.wikipedia.org/wiki/Linear_trend_estimation) or a
 fancier statistical technique I don't know to find out whether attention
 spans have declined between the measurements.
@@ -411,23 +411,23 @@ I'd guess?) and it slots more or less into cognitive psychology.
 I'm not sure why this hasn't happened yet (and consider
 this text evidence for a partial violation of [Cowen's 2nd
 law](https://marginalrevolution.com/marginalrevolution/2015/04/tyler-cowens-three-laws.html)).
-The reasons I can think of is that one would need to first find a good
-test for determining attention span, which is some work in itself,
-be relatively patient (since the test would need to be re-run at least
-twice with a >1 year pause, for which the best grant structure might not
-exist), there are many partial investigations into the topic, making it
-appear like it's solved, and perhaps there just aren't enough cognitive
-psychologists around to investigate all the interesting questions that
-come up.
+The reasons I can think of is that one would need to first develop a
+good test for determining attention span, which is some work in itself
+(or use the CPT); be relatively patient (since the test would need to
+be re-run at least twice with a >1 year pause, for which the best grant
+structure might not exist); there are many partial investigations into
+the topic, making it appear like it's solved; and perhaps there just
+aren't enough cognitive psychologists around to investigate all the
+interesting questions that come up.
 
-So I want to end with a call to action: If you have the capacity to
-study this problem, there is room for improvement in the existing
-literature! Attention spans could be important, but we don't know
-how to measure then, and many people claim that they're declining,
-but are too sure about it. False numbers are widely cited, meaning
-that correct numbers might be cited even more widely. And it's
-[probably](./spans.html#What_Could_A_Study_Look_Like) not even (that)
-hard!
+So I want to end with a call to action: If you have the capacity
+to study this problem, there is room for improvement in the existing
+literature! Attention spans could be important, it's probably not hard to
+measure them, and many people claim that they're declining, but are way
+too confident about it given the state of the evidence. False numbers are
+widely circulated, meaning that correct numbers might be cited even more
+widely. And it's [probably](./spans.html#What_Could_A_Study_Look_Like)
+not even (that) hard!
 
 Consider your incentives :-).
 
@@ -562,12 +562,31 @@ Appendix B: Studies for a Meta-Analysis
 I'll list the closest thing those studies have to a control group,
 list sorted by year.
 
+* What Determines Continuous Performance Task Performance? (Maria J. O. van Asma/René P. Rombouts/Robert J. van den Bosch, 1996): Patient controls n=19 (mean age 29.5±8.1 years), normal controls n=20 (mean age 32.2±8.3 years). Tested with an unspecified digit related *CPT*.
+* Performance of the Continuous Performance Test Among Community Samples (Chuhsing K. Hsiao/Hai-Gwo Hwu/Li-Ling Hsiao/Wei J. Chen, 1998): n=115 students (aged 14±0.8 years) and n=345 adults (aged 41.3±13 years), randomly selected, from the [Jinshan District](https://en.wikipedia.org/wiki/Jinshan_District,_New_Taipei). Tested using the *CPT 1-9*, both degraded and undegraded.
 * Decreased frontal activation in schizophrenics during stimulation with the Continuous Performance Test — a functional magnetic resonance imaging study (H.-P. Volz/C. Gaser/F. Häger/R. Rzanny/J. Pönisch/H.-J. Mentzel/W.A. Kaiser/H. Sauer, 1999): n=20 German volunteers (28.2±5.7 years), tested using the *CPT-double-T-version*.
 * Continuous Performance Test Performance in a Normative Epidemiological Sample (C. Keith Conners/Jeffery N. Epstein/Adrian Angold/John Klaric, 2002): n=816 children from North Carolina (9-17 years), tested using *Conners' CPT*.
-* Cognitive control in media multitaskers (Anthony D. Wagner/Clifford Nass/Eyal Ophir, 2009): n=28 (?), tested with the *AX-CPT*.
+* Relations Between Continuous Performance Test Performance Measures and ADHD Behaviors (Jeffery N. Epstein/Alaatin Erkanli/C. Keith Conners/John Klaric/Jane E. Costello/Adrian Angold, 2003): Epidemiological sample n=817 North Carolina children. Administered the Conners' CPT.<!--TODO: more info about paper in Conners, C.K., Epstein, J.N., Angold, A. & Klaric, J. (2003). Continuous Performance Test Performance in a Normative Epidemiological Sample. Journal of Abnormal Child Psychology, 31, 557-564.-->
+* Longitudinal change of ERP during cued continuous performance test in child with attention-deficit/hyperactivity disorder (Hisaki Ozaki/Hisao Maekawa/Satoshi Futakami/Shinji Okazaki, 2004): n=1 (yes, really), male child with ADHD, measurements at 9.6/10.6/11.6 years old with and without medication, tested using the *CPT-AX*.
+* Segmenting the stream of consciousness: The psychological correlates of temporal structures in the time series data of a continuous performance task (Jonathan Smallwood/Merrill McSpadden/Bryan Luus/Jonathan Schooler, 2007): n=23 Canadian undergraduate students (aged 19-22). Tested using an unspecified *CPT* with the task of recognising specific digits as target stimuli. Probably not useful.
+* Cognitive control in media multitaskers (Anthony D. Wagner/Clifford Nass/Eyal Ophir, 2009): n=28 (?), tested with the *CPT-AX*.
+* Measuring Several Aspects of Attention in One Test (Iwona Kovalik-Gran/Jens Egeland, 2010): n=376 Norwegian patients, aged 14-77 (mean 32.9 years, standard deviation 13.8), either referred to Egeland or to the Vestfold Mental Health Care Trust, with various psychological disorders (57 without such disorders). Tested using *Conners' CPT*. Scores for normal group not reported independently.
 * Association between urine cotinine levels, continuous performance test variables, and attention deficit hyperactivity disorder and learning disability symptoms in school-aged children (B.-N. Kim/E.-J. Park/H.-J.Yoo/I.-H. Cho/J.-H. Lee/J. Hur/J.-W. Kim/M.-H. Park/M.-S. Shin/S.-B. Hong/S.-C. Cho/S.-K. Han/S. Park/S.-Y. Bhang/Y.-C. Hong, 2012): n=989 Korean children (mean age 9.1±0.7 years), tested with an unspecified *CPT*.
+* Sustaining visual attention in the face of distraction: a novel gradual-onset continuous performance task (Joseph DeGutis/Michael Esterman/Monica Rosenberg/Sarah Noonan, 2013): n=29 healthy US-American participants (18-26 years old), tested with the therein developed *gradCPT*.
+* Sustained attention across the lifespan in a sample of 10,000: Dissociating ability and strategy (Francesca C. Fortenbaugh/Jeremy Wilmer/Joseph DeGutes/Kathryn Russo/Laura Germine/Mallory Grosso/Michael Esterman, 2015): n=10430 random internet sample, aged 10 to 70 (mean 26.07±11.77 years). Tested using the *gradCPT*.
+* Recent *versus* chronic exposure to particulate matter air pollution in association with neurobehavioral performance in a panel study of primary schoolchildren (Charlotte Vanpoucke/Eline B. Provost/Harry A. Roels/Karen Vrijens/Mineke K. Viaene/Nelly D. Saenen/Tim S. Nawrot/Wouter Lefebvre, 2016): n=310 Belgian school children (aged 10.2±1.3 years), tested using an unspecified *CPT* (reporting 593±51.2 msec as the outcome of the test (?)).
+* Linear and non-linear analyses of Conner's Continuous Performance Test-II discriminate adult patients with attention deficit hyperactivity disorder from patients with mood and anxiety disorders (Anita L. Hansen/Jan Øystein Berle/Ketil J. Oedegaard/Kristin Mjeldheim/Ole Bernt Fasmer/Vigdis Elin Giæver Syrstad/Wenche Førland, 2016): n=99 adult (aged 18-65 years) Norwegian patients in need of a diagnostic evaluation of ADHD, mood or anxiety disorders, tested with *Conners' CPT II*.
 * Continuous performance test in children with intellectual disability and attention deficit hyperactivity disorder (Puga María Celeste/Vaucheret Paz Esteban/Leist Mariana/García Basalo María José/Baliarda Florencia/Ekonen Christy/Lascombes María IVsabel/Agostau Guillermo, 2018): n=122 Argentinian children (mean age 10 years) with ADHD and IQ>80, tested with the *CPT II*.
+* Reliability and validity of the Conners' Continuous Performance Test (Danielle Shaked/Lauren M. D. Faulkner/Kathryn Tolle/Carrington R. Wendell/Shari R. Waldstein/Robert J. Spencer, 2019): n=91 undergraduate psychology students (20.01±1.68 years), tested using *Conners' CPT II*. Page 3 lists more retest studies for Conners' CPT II.
+* Poor Sleep Hygiene is Associated with Decreased Discrimination and Inattention on Continuous Performance Task in Doctor of Physical Therapy Students: A Cross-sectional Study (Catherine F Siengsukon/Stacy Coffyn, 2020): n=50 Kansas students of Physical Therapy (age 24.18±1.6 years), tested with *Conners CPT 3*. (Raw CPT results not reported as far as I can tell, therefore probably useless :-|. But perhaps the authors can be contacted for the raw data…)
 * Do concerns about COVID-19 impair sustained attention? (Jihyang Jun/Yi Ni Toh/Caitlin A. Sisk/Roger W. Remington/Vanessa G. Lee, 2021): n=161 participants (23±5.2 years), recruited online. No control group, but instead a correlational study. Tested using the *scene CPT*.
+* Individual Variability in Reaction Time and Prediction of Clinical Response to Methyphenidate in Adult ADHD: A Prospective Open Label Study Using Conners' Continuous Performance Test II (Jan Haavik/Jens Egeladn/Mats Fredriksen/Ole Bernt Fasmer, 2021): n=123 Norwegian participants with ADHD, tested using *Conners' CPT II*.
+
+Furthermore, “Is the Continuous Performance Task a Valuable Research
+Tool for use with Children with Attention-Deficit-Hyperactivity
+Disorder” (Linda S. Siegel/Penny V. Corkum, 1993) p. 8-9 contains
+references to several studies from before 1993 using the CPT on children
+with ADHD.
 
 Appendix C: How I Believed One Might Measure Attention Span Before I Found Out About The CPT
 ---------------------------------------------------------------------------------------------

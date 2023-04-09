@@ -35,6 +35,14 @@ Variables tracked:
 * Productivity
 * Creativity
 
+3rd dose: Out of fear that the placebo pills have some sugar stuck
+outside of them, which could de-blind the dose, I take a bit (~10 g)
+of sugar with each pill.
+
+7th dose: Increase time between consumption and starting to meditate to
+~45 minutes, after finding out that the onset of action is 45 minutes-1
+hour.
+
 Creatine
 ---------
 
