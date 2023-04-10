@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2023-04-02, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2023-04-10, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -21,6 +21,8 @@ with fecundity.
 April 2023
 -----------
 
+* [Notes](./notes.md)
+	* [Subscripts for Probabilities](./notes.html#Subscripts_for_Probabilities)
 * [Microfiction](./microfiction.md)
 	* [Things to Shout](./microfiction.html#Things_to_Shout)
 	* [Funny Internet Images](./microfiction.html#Funny_Internet_Images)

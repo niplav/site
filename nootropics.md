@@ -29,8 +29,8 @@ to number the envelopes, and sorted them accordingly.
 
 Variables tracked:
 
-* Meditation performance
-* Flashcard performance
+* Meditation performance: Started 0-60 minutes after taking the dose
+* Flashcard performance: Started 0-60 minutes after finishing meditation
 * Mood
 * Productivity
 * Creativity
@@ -77,4 +77,4 @@ Nicotine
 I started taking nicotine (in the form of nicotine chewing gum with 2mg of
 active ingredient) in high-pressure situations (e.g. I'm procrastinating
 on an important task and have anxiety around it, or during exams). So far,
-it seems especially useful to break me out of a akratic rut.
+it seems especially useful to break me out of an akratic rut.
