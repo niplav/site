@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-04-09, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-04-10, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Core Pathways of Aging (johnswentworth, 2021)](https://www.lesswrong.com/posts/ui6mDLdqXkaXiDMJ5/core-pathways-of-aging)
+* [A non-magical explanation of Jeffrey Epstein (lc, 2021)](https://www.lesswrong.com/posts/hurF9uFGkJYXzpHEE/a-non-magical-explanation-of-jeffrey-epstein)
+* [Subscripts For Citations (Gwern Branwen, 2020)](https://www.gwern.net/Subscripts.html)
+* [[Book review] Gödel, Escher, Bach: an in-depth explainer (Sam Marks, 2021)](https://www.lesswrong.com/posts/wwNnzaPnB5a48K86N/book-review-goedel-escher-bach-an-in-depth-explainer)
 * [Octopuses (Probably) Don't Have Nine Minds (Bob Fischer/Joe Gottlieb, 2022)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/WBWXLZTF5FPzmK8nh)
 * [Why Neuron Counts Shouldn't Be Used as Proxies for Moral Weight (Adam Shriver, 2022)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/Mfq7KxQRvkeLnJvoB)
 * [Grokking the Intentional Stance (jbkjr, 2021)](https://www.lesswrong.com/posts/jHSi6BwDKTLt5dmsG/grokking-the-intentional-stance)
