@@ -1942,7 +1942,6 @@ Wikipedia Articles
 * LLD (LLVM linker)
 * Scaling Laws for Large Language Models
 * Bounded Agency
-* Redirect Half Bracket & Half Brackets to the corresponding section in the Bracket article
 
 ### Improve
 
