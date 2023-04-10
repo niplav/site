@@ -957,10 +957,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Romantic Partners
 	* Jobs to Workers
 	* Living Locations to Tenants
-* Subscripts for Probabilistic Credals
-	* Explore different ways of typesetting this
-	* Neither Veridical nor Mirative nor Evidential
-	* See [here](./range_and_forecasting_accuracy.html#Appendix_A_Replicating_Metaculus_Findings_With_Full_Data) for a first exploration
 * Solomonoff Induction with a Sophistication Prior?
 * Lesser known causal graphs
 	* Mathematical art with causal graphs where edges can point to (or inhibit) other edges
@@ -1945,6 +1941,8 @@ Wikipedia Articles
 * Global Priorities Institute
 * LLD (LLVM linker)
 * Scaling Laws for Large Language Models
+* Bounded Agency
+* Redirect Half Bracket & Half Brackets to the corresponding section in the Bracket article
 
 ### Improve
 

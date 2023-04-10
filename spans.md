@@ -8,7 +8,7 @@ been falling over the last two decades (prompted by curiosity about
 whether the introduction of the internet may be harmful to cognitive
 performance). I find little direct work on the topic, despite its wide
 appeal. Reviewing related research indicates that individual attention
-spans might indeed have been declining`$_{70\%}$`.__
+spans might indeed have been declining<sub>70%</sub>.__
 
 Have Attention Spans Been Declining?
 =====================================
@@ -53,9 +53,9 @@ would be less interesting. The near-global [COVID-19
 lockdows](https://en.wikipedia.org/wiki/COVID-19_lockdowns)
 could provide an especially enlightening [natural
 experiment](https://en.wikipedia.org/wiki/Natural_experiment): Did
-social media usage increase (my guess: yes`$_{90\%}$`), and if so, did
+social media usage increase (my guess: yes<sub>90%</sub>), and if so, did
 attention spans decrease at the same time (or with a lag) (my guess:
-also yes`$_{75\%}$`), but I don't think anyone has the data on that *and*
+also yes<sub>75%</sub>), but I don't think anyone has the data on that *and*
 wants to share it.
 
 Ideally want to have experiments from ~2000 up to 2019: close enough to
@@ -230,12 +230,12 @@ for attention span from different papers:
 
 -------
 
-As it stands, I think there's a decent chance`$_{60\%}$` that one or
+As it stands, I think there's a decent chance<sub>60%</sub> that one or
 several tests from the CPT family can be used as tests for attention
 span without much of a problem.
 
 I don't think a separate dedicated test for attention span
-exists`$_{45\%}$`: The set of listed measures I found (apart from the CPT)
+exists<sub>45%</sub>: The set of listed measures I found (apart from the CPT)
 appears to be too heterogenous, idiosyncratic, mostly not quantitative
 enough and measuring slightly different things to be robustly useful
 for a meta-analysis.
@@ -591,7 +591,7 @@ with ADHD.
 Appendix C: How I Believed One Might Measure Attention Span Before I Found Out About The CPT
 ---------------------------------------------------------------------------------------------
 
-Before I found out about the Continous Performance Test, I speculated
+Before I found out about the Continuous Performance Test, I speculated
 about how to measure attention span:
 
 (Note that I'm not a psychometrician, but I like speculating about things,
