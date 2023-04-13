@@ -8,6 +8,12 @@
 Brain Stimulation for Meditation Enhancement
 =============================================
 
+<!--TODO
+* https://www.theguardian.com/lifeandstyle/video/2021/jun/29/hacking-enlightenment-can-ultrasound-help-you-transcend-reality
+* https://consciousness.arizona.edu/sema-lab
+* https://crowdfund.arizona.edu/project/20986
+-->
+
 > The project follows standard neuroscience research protocols. In
 the lab, study subjects (novices as well as experienced meditators),
 don something that looks like a hairnet studded with ultrasonic
