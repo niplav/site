@@ -732,38 +732,38 @@ $((hg)f)(x)=((hg)(f(x)))=h(g(f(x)))=h(gf(x))$
 
 ### Query 1
 
-> what do $R^{-1}$, $S^{-1}$, $RS$, and $R^{-1}S^{-1}$ mean?"
+> what do `$R^{-1}$`, `$S^{-1}$`, `$RS$`, and `$R^{-1}S^{-1}$` mean?"
 
-$yR^{-1}x$: y father of x, $z S^{-1}y$: z is brother of y. $xRSy$:
-x nephew of y. $xR^{-1}S^{-1}$.
+`$yR^{-1}x$`: `$y$` father of `$x$`, `$z S^{-1}y$`: `$z$` is brother of
+`$y$`. `$$xRSy$`: `$x$` nephew of `$y$`. `$xR^{-1}S^{-1}$`.
 
 ### Exercise 4
 
-To be proven: $(SR)^{-1}=R^{-1}S^{-1}$
+To be proven: `$(SR)^{-1}=R^{-1}S^{-1}$`
 
 Proof:
 
-Let $(z,x) \in (SR)^{-1}$. Then $xSRz$. Then $\exists y: xSy \land yRs$. Then
-$yS^{-1}x$ and $zR^{-1}y$, and then $zR^{-1}S^{-1}x$.
+Let `$(z,x) \in (SR)^{-1}$`. Then `$xSRz$`. Then `$\exists y: xSy \land yRs$`.
+Then `$yS^{-1}x$` and `$zR^{-1}y$`, and then `$zR^{-1}S^{-1}x$`.
 
 ### Query 2
 
-> is there a connection among I, $RR^{-1}$, and $R^{-1}R$?
+> is there a connection among I, `$RR^{-1}$`, and `$R^{-1}R$`?
 
-Shouldn't $I=RR^{-1}$? No. Because if $xRy$ and $zRy$, then
-$xRR^{-1}z$. But $I \subset RR^{-1}$, and $I \subset R^{-1}R$. I think
-alsso that $RR^{-1}=(R^{-1}R)^{-1}$, and $R^{-1}R=(RR^{-1})^{-1}$
+Shouldn't `$I=RR^{-1}$`? No. Because if `$xRy$` and `$zRy$`, then
+`$xRR^{-1}z$`. But `$I \subset RR^{-1}$`, and `$I \subset R^{-1}R$`. I think
+alsso that `$RR^{-1}=(R^{-1}R)^{-1}$`, and `$R^{-1}R=(RR^{-1})^{-1}$`
 (which is true by the previously proven theorem). I don't think there's
 any further connections here.
 
 ### Exercise 5
 
-(i) Given $g: Y \rightarrow X$ and $gf(x)=x$, then $f$ is "one-to-one"
-and "$g$ maps $Y$ onto $X$".
+(i) Given `$g: Y \rightarrow X$` and `$gf(x)=x$`, then `$f$` is "one-to-one"
+and "`$g$` maps `$Y$` onto `$X$`".
 
-Judging from what I understand, "$f$ is one-to-one" would mean that $f$
+Judging from what I understand, "`$f$` is one-to-one" would mean that `$f$`
 is [injective](https://en.wikipedia.org/wiki/Injective_function),
-and "$g$ maps $X$ onto $X$" just means that $g$ is
+and "`$g$` maps `$X$` onto `$X$`" just means that `$g$` is
 [surjective](https://en.wikipedia.org/wiki/Surjective_function)?
 
 Wikipedia agrees with these hunches.

@@ -1942,6 +1942,8 @@ Wikipedia Articles
 * LLD (LLVM linker)
 * Scaling Laws for Large Language Models
 * Bounded Agency
+* Meta Tic-Tac-Toe
+* Pentagon 2023 leaks
 
 ### Improve
 
@@ -1988,6 +1990,7 @@ Wikipedia Articles
 * Price of stability/price of anarchy:
 	* Collect bounds
 * Network cost-sharing game
+* Full list of 10,000 vital articles
 
 Lesswrong wiki
 ---------------

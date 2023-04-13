@@ -87,15 +87,16 @@ Writing
 
 #### Textbooks
 
-* [Solutions to “Naïve Set Theory”](./nst_solutions.html)
 * [Solutions to “Artificial Intelligence: A Modern Approach”](./aima_solutions.html)
-* [Solutions to “Reactive Systems”](./rs_solutions.html)
+* [Solutions to “Naïve Set Theory”](./nst_solutions.html)
 * [Solutions to “Programming in Lua”](./pil_solutions.html)
+* [Solutions to “Reactive Systems”](./rs_solutions.html)
+* [Solutions to “Introduction to Optimization”](./ito_solutions.html)
 * [Solutions to “Population Genetics”](./pg_solutions.html)
 * [Solutions to “Maths for Intelligent Systems”](./mfis_solutions.html)
 * [Solutions to “A Primer in Social Choice Theory”](./apisct_solutions.html)
-* [Solutions to “Algorithmic Game Theory”](./agt_solutions.html)
 * [Solutions to “Pattern Recognition and Machine Learning”](./praml_solutions.html)
+* [Solutions to “Algorithmic Game Theory”](./agt_solutions.html)
 * [Exercises from “The Jazz Piano Book”](./tjpb_exercises.html)
 * [Administrativa for Textbooks](./administrativa_for_textbooks.html)
 

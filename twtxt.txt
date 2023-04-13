@@ -1704,3 +1704,7 @@
 2023-04-06T21:48:58.000000Z	meditation has the effect of “concetptual regularization” for me: less discrete thinking, and more conservative concept boundaries
 2023-04-08T10:40:49.000000Z	orthogonality of substrate and structure in general
 2023-04-08T21:33:06.000000Z	i mean how many bits can you even hide in a human-understandable theorem?
+2023-04-11T22:59:13.000000Z	“…and we can probably plan for middle of March thi…ah, hello! Mister Yudkowsky! I hope you found—” “Rename your company to ClosedAI.” “Uh…what?” “Rename your company to ClosedAI. Stop your biggest training runs. Pivot to mechanistic interpretability. Shut it all down.” “………Selfie?”
+2023-04-12T11:26:59.000000Z	Utility is linear in probability but nothing else.
+2023-04-12T15:21:11.000000Z	chigs
+2023-04-12T15:21:16.000000Z	pickens

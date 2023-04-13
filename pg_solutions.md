@@ -33,8 +33,9 @@ For four it would be 32 different genotypes:
 <!--TODO: what closed form formula describes the above counting
 partition?-->
 
-So apparently, per solution, this is wrong, because I assumed that `$n$`
-different alleles resulted in a `$n$`ploid organism, which isn't the case.
+So apparently, per solution, this is wrong, because I assumed that
+`$n$` different alleles resulted in an `$n$`ploid organism, which isn't
+the case.
 
 For three alleles it would be `$A_1 A_1, A_1 A_2, A_1 A_3, A_2 A_2, A_2 A_3, A_3 A_3$`,
 which is 6 different genotypes.

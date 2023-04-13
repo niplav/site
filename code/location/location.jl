@@ -1,6 +1,23 @@
 using CSV, DataFrames, Distributions
 using Distributions, Statistics, ConjugatePriors
 
+approaches=CSV.read("../../data/daygame_approaches.csv", DataFrame)
+successes=approaches[!,["Location", "Contact info"]]
+rename!(successes, Symbol("Contact info")=>:Contact)
+replace!(successes[!, :Contact], ["number" => "1", "insta" => "1", "insta given" => "1", "number given" => "1", "facebook" => "1", "email" => "1"]...)
+successes=coalesce.(successes, "0")
+successes[!, :Contact]=map(string->parse(Int, string), successes[!, :Contact])
+
+#TODO: remove the following line later, only bc bad data
+
+successes[!,:Location]=begin
+	unique_locations=sort(unique(successes.Location))
+	ids=Dict(s => i for (i,s) in enumerate(unique_locations))
+	map(s -> ids[s], successes.Location)
+end
+
+success_freq=combine(groupby(successes, :Location), :Contact => mean)
+
 struct BetaBernoulli
 	pθ::Array{Beta{Float64}}
 end
@@ -37,27 +54,19 @@ Base.size(env::PalmerEnv, kwargs...) = size(env.locations, kwargs...)
 Base.getindex(env::PalmerEnv, i) = env.locations[i,:]
 Base.rand(env::PalmerEnv, n::Integer = 1) = env[rand(1:size(env, 1), n)]
 
-approaches=CSV.read("../../data/daygame_approaches.csv", DataFrame)
-successes=approaches[!,["Location", "Contact info"]]
-rename!(successes, Symbol("Contact info")=>:Contact)
-replace!(successes[!, :Contact], ["number" => "1", "insta" => "1", "insta given" => "1", "number given" => "1", "facebook" => "1", "email" => "1"]...)
-successes=coalesce.(successes, "0")
-successes[!, :Contact]=map(string->parse(Int, string), successes[!, :Contact])
-success_freq=combine(groupby(successes, :Location), :Contact => mean)[!, :Contact_mean]
+#env=PalmerEnv(successes, success_freq)
 
-agent=BetaBernoulli(length(success_freq))
-expected_reward(location)=success_freq[location]
-θ_max=expected_reward(argmax(success_freq))
+expected_reward(location)=success_freq.Contact_mean[location]
+agent=BetaBernoulli(length(success_freq.Location))
+θ_max=expected_reward(argmax(success_freq.Contact_mean))
 
-#run(env, agent, θmax, expected_reward; rounds) = begin
-#    map(1:rounds) do _
-#        penguin = first(rand(env))
-#        a = agent(fish -> env(fish, penguin))
-#        θ = expected_reward(a)
-#        ρ = θmax - θ
-#    end
-#end
-#
-#expected_reward(fish) = fish_eat_probs.eaten_mean[fish]
-#θ_max = expected_reward(argmax(fish_eat_probs.eaten_mean))
+run(env, agent, θmax, expected_reward; rounds) = begin
+    map(1:rounds) do _
+        penguin = first(rand(env))
+        a = agent(fish -> env(fish, penguin))
+        θ = expected_reward(a)
+        ρ = θmax - θ
+    end
+end
+
 #regrets = run(env, agent, θ_max, expected_reward; rounds = 1000);
