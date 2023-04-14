@@ -1,12 +1,17 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-15, modified: 2023-03-24, language: english, status: notes, importance: 6, confidence: certain*
+*author: niplav, created: 2022-07-15, modified: 2023-04-14, language: english, status: notes, importance: 6, confidence: certain*
 
 > __A library for handling forecasting datasets is documented.__
 
 Iqisa Documentation
 ======================
+
+> […] there is a great gap between a tool existing and everyone using
+it, and good documentation is as underestimated as open datasets.
+
+*—[Gwern Branwen](https://gwern.net), [“2019 News”](https://gwern.net/newsletter/2019/13), 2019*
 
 Iqisa is a library for handling and comparing different forecasting
 datasets, focused on taking on the burden of dealing with differently
@@ -215,7 +220,7 @@ Its columns are
 
 <!--TODO: describe further-->
 
-* `question_id`, `date_start`, `date_suspend`, `date_to_close`, `date_closed`, `outcome`, `q_type`, `q_status`, `time_open`, `n_opts`, `options`: As in the [description of `forecasts` above](#forecasts)
+* `question_id`, `q_title`, `q_status`, `open_time`, `close_time`, `resolve_time`, `close_date`, `outcome`, `time_open`, `n_opts`, `options`: As in the [description of `forecasts` above](#forecasts)
 * `q_title`: The title of the question, as a `str`.
 
 Loading Functions
@@ -309,7 +314,46 @@ a subset of the forecasts in `data_file`.
 
 Returns a pandas DataFrame with the columns described [here](#Questions)
 loaded from `files`, by default from the files listed in
-`metaculus.questions_files` (value `[./data/metaculus/questions.csv]`).
+`metaculus.questions_files` (value `["./data/metaculus/questions.csv"]`).
+
+### `metaculus.load_public_binary(files=None, processed=True)`
+
+__Note__: This data is not the data for individual forecasters, but
+timeseries data for each question (capped at 101 interpolated datapoints
+per question).
+
+Returns a pandas DataFrame with forecasting data frome the
+public Metaculus API. The columns of the data are described
+[here](#Questions), and the data is loaded from `files`, by
+default from the files in `metaculus.public_files` (value
+(`["./data/metaculus/public.csv.zip"]`).
+
+#### Arguments
+
+* `files`: Specify a different file do load the data from.
+* `processed`: If `True`, load the data from a pre-processed CSV, if `False`, load it from the original JSON. Currently the only difference is that loading from the original data is slower.
+
+### `predictionbook.load(files=None, processed=True)`
+
+Return a pandas DataFrame with forecasts from PredictionBook (columns
+of the data described [here](#Questions)).
+
+The data is loaded from `files`, by default `public_files`
+(`["./data/predictionbook/public.csv.zip"]`).
+
+#### Arguments
+
+* `files`: Specify a different file do load the data from.
+* `processed`: If `True`, load the data from a pre-processed CSV, if `False`, load it from the original HTML files. Currently the only difference is that loading from the original data is far far slower.
+
+### `predictionbook.load_questions(data_file=None, processed=True)`
+
+Returns a pandas DataFrame with the columns described [here](#Questions)
+loaded from `data_file`, by default from the files listed in
+`predictionbook.questions_file` (value `["./data/metaculus/questions.csv.zip"]`).
+
+Setting `processed=False` makes the loading much slower, and currently
+has no other effect.
 
 General Functions
 ------------------

@@ -1717,7 +1717,7 @@ Subscripts for Probabilities
 
 Gwern has wondered about a use-case for subscripts in hypertext. While
 they have settled on a specific use-case, namely [years for
-citations](www.gwern.net/Subscripts.html), I propose a different one:
+citations](https://www.gwern.net/Subscripts.html), I propose a different one:
 reporting explicit probabilities.
 
 Explicitely giving for probabilities in day-to-day English text is usually
