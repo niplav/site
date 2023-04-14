@@ -1,6 +1,6 @@
 IMG=\
 	layratio_data.png \
-	dateratio_data.png
+	dateratio_data.png \
 	complete.png \
 	complete_complex.png \
 	cost.png \

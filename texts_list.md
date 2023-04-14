@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-04-11, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-04-14, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,9 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Imitative Generalisation (AKA 'Learning the Prior') (Beth Barnes, 2021)](https://www.lesswrong.com/posts/JKj5Krff5oKMb8TjT/imitative-generalisation-aka-learning-the-prior-1)
+* [Rethink Priorities’ Welfare Range Estimates (Bob Fischer, 2023)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/Qk3hd6PrFManj8K6o)
+* [EfficientZero: How It Works (1a3orn, 2021)](https://www.lesswrong.com/posts/mRwJce3npmzbKfxws/efficientzero-how-it-works)
 * [Insect herbivores, life history and wild animal welfare (kcudding, 2019)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/cqJH5xnwhRNn5mw4j)
 * [Instrumental convergence: scale and physical interactions (Edouard Harris/Simon Suo, 2022)](https://www.alignmentforum.org/posts/nisaAr7wMDiMLc2so/inst
 rumental-convergence-scale-and-physical-interactions)
