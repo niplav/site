@@ -610,7 +610,7 @@ or the question is closed.
 
 A generic method for combining multiple forecasts into a
 single number, intended to be plugged as a second argument into
-[`aggregate`](./iqisadoc.html#aggregateforecasts_aggregationfunction_onquestionid_answeroption_args_kwargs).
+[`aggregate`](#aggregateforecasts_aggregationfunction_onquestionid_answeroption_args_kwargs).
 
 #### Arguments
 

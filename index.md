@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2023-03-20, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2023-04-14, language: english, status: in progress, importance: 6, confidence: log*
 
 Content
 =======
@@ -22,14 +22,14 @@ Writing
 
 #### AI Alignment
 
+##### Technical
+
+* [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
+
 ##### Strategy
 
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html)
 * [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.html)
-
-##### Technical
-
-* [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 
 #### Forecasting
 

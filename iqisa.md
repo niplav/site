@@ -22,7 +22,7 @@ library for handling those datasets. Code and data available
 So far it contains data from:
 
 * The [Good Judgment Project](https://en.wikipedia.org/wiki/The_Good_Judgment_Project): ~790k market trades+~3.14m survey predictions≈3.9m forecasts
-* The [Metaculus](https://metaculus.com) public API: ~210k forecasts
+* The [Metaculus public API](https://www.metaculus.com/api2/schema/redoc/): ~210k forecasts
 * [PredictionBook](https://predictionbook.com/): ~64k forecasts
 
 for a total of ~4.2m forecasts, as well as code for handling private
@@ -60,6 +60,13 @@ And we can see:
 
 Concluding that more experienced traders are only very slightly better
 at trading.
+
+Prerequisites
+--------------
+
+* [NumPy](https://numpy.org/)
+* [Pandas](https://pandas.pydata.org)
+* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
 
 Usages
 -------

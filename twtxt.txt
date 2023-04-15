@@ -1708,3 +1708,9 @@
 2023-04-12T11:26:59.000000Z	Utility is linear in probability but nothing else.
 2023-04-12T15:21:11.000000Z	chigs
 2023-04-12T15:21:16.000000Z	pickens
+2023-04-14T11:14:20.000000Z	What is the information bottleneck of epigenetics?
+2023-04-14T11:20:43.000000Z	in practice probably ~all systems with qualia are valenced systems, since valence is the primary axis along which qualia can vary
+2023-04-14T11:48:19.000000Z	What is the Bayesian version of calibration?
+2023-04-14T12:44:13.000000Z	starstardotbib
+2023-04-14T23:39:11.000000Z	just loving this little guy: (·,·). it's like he's looking through a crack: ‘come on, you'll understand the function definition’
+2023-04-15T09:52:36.000000Z	“neniel” could also be a biblical angel
