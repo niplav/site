@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2023-03-29, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2023-04-14, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -69,3 +69,10 @@ Currently, I am actively reading the following books:
 * Die toten Seelen (Nikolai Gogol, 1842)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
+
+I am also reading the [Invertebrate Welfare
+Sequence](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6),
+[The Moral Weight Project
+Sequence](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw)
+and the top posts from the [2021 LessWrong
+Review](https://www.lesswrong.com/posts/zajNa9fdr8JYJpxrG/voting-results-for-the-2021-review).

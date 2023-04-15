@@ -1106,8 +1106,9 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* Exercises very interspersed in the text, not in large chunks (better at the end of sections, not at the end of chapters)
 		* Solutions not available/separate
 		* Of varying difficulty (I like the approach Concrete Mathematics (Graham et al.) takes: everything from trivial applications to research questions)
-		* I like it when difficulty is indicated, but when it's said clearly in the beginning very difficult exercises that are not marked are mystery boxes
+		* I like it when difficulty is indicated, but it's also okay when it's said clearly in the beginning that very difficult exercises that are not marked are mystery boxes
 	* Images
+	* Code
 	* New terms are introduced formally (e.g. by highlighting "*definition*")
 		* New terms are introduced before they are used
 		* Use **boldface** and *italics* and underlining &c for single purposes
@@ -1942,7 +1943,6 @@ Wikipedia Articles
 * LLD (LLVM linker)
 * Scaling Laws for Large Language Models
 * Bounded Agency
-* Meta Tic-Tac-Toe
 * Pentagon 2023 leaks
 
 ### Improve
@@ -1991,6 +1991,14 @@ Wikipedia Articles
 	* Collect bounds
 * Network cost-sharing game
 * Full list of 10,000 vital articles
+* Add See Also to Ultimate tic-tac-toe
+	* Tic-tac-toe variants
+* Add Ultimate tic-tac-toe to Tic-tac-toe variants article
+* Ultimate tic-tac-toe
+	* Add sentence about even deeper nestings, linking to `https://chandlerswift.com/2020/10/04/meta-tic-tac-toe`
+	* In section on computer implementations link `https://bejofo.net/ttt` for online play
+* Quantum tic-tac-toe
+	* Link for online play `https://quantumtictactoe.com/play/`
 
 Lesswrong wiki
 ---------------

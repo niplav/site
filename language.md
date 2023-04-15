@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2023-03-09, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2023-04-15, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of puns, good bandnames, types of guy,
 idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
@@ -313,6 +313,7 @@ Puns
 	“Intevesting”
 * I had to reject the p-zombie for the position, they just weren't qualiafied.
 * Why don't Haskellers practice jhānic meditation? Because it's all about cultivating states.
+* 1. If it is spring, then I must sneeze, 2. It is spring ∴ I must sneeze: Modus Pollens
 
 ### German
 
@@ -402,7 +403,7 @@ Good Bandnames
 ---------------
 
 * [Catastrophic Transcripts](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/qALeGJ9nPcs9eC9Af)
-* Memetic Immune Disorder<!--TODO link-->
+* [Memetic Immune Disorder](https://www.lesswrong.com/posts/aHaqgTNnFzD7NGLMx/reason-as-memetic-immune-disorder)
 * Contextual Bandits (seen in [Amodei et al. 2016](./doc/cs/ai/alignment/overview/concrete_problems_in_ai_safety_amodei_et_al_2016.pdf "Concrete Problems in AI Safety"))
 * [Hypercarcinisation](https://en.wikipedia.org/wiki/Carcinisation#Hypercarcinisation)
 
@@ -417,6 +418,7 @@ Advertising Lines
 * Niplav Yushtun™: [Now an effective cause area!](https://schelling.pt/web/statuses/107888052139408526)
 * Niplav Yushtun™: Calibration of the Intellect, Optimism of the Will
 * Niplav Yushtum™: Mostly a Reputation Hazard
+* Niplav Yushtum™: Midwit With High Need for Cognition
 
 Unclaimed Domain Names
 -----------------------

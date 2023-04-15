@@ -1776,7 +1776,9 @@ the probability.
 		* Conflicts with assigning probabilities to multiple statements.
 		* Puts visual clutter before the statement in question.
 * At the end of the statement: "I think it'll rain tomorrow<sub>55%</sub>."
-	* Advantage: Allows assigning probabilities to simple statements ("It'll rain tomorrow<sub>55%</sub>") and to multiple statements (see below).
+	* Advantages:
+		* Allows assigning probabilities to simple statements ("It'll rain tomorrow<sub>55%</sub>") and to multiple statements (see below).
+		* Allows distinguishing the beliefs of different people. "I think<sub>55%</sub> it'll rain tomorrow, but [Cú Chulainn](https://en.wikipedia.org/wiki/Cú_Chulainn) disagrees<sub>22%</sub>."
 	* Disadvantage: If the probability is intended to contextualise the statement, this context is weaker if it is introduced *after* the statement in question.
 * At the subject of the sentence: "I<sub>55%</sub> think it'll rain tomorrow."
 	* Advantage: This can be used to distinguish the beliefs of different people. "I<sub>55%</sub> think it'll rain tomorrow, but [Cú Chulainn](https://en.wikipedia.org/wiki/Cú_Chulainn)<sub>22%</sub> is skeptical about it."
