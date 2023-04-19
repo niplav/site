@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2023-04-14, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2023-04-19, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -69,6 +69,7 @@ Currently, I am actively reading the following books:
 * Die toten Seelen (Nikolai Gogol, 1842)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
+* Theory of Games and Economic Behavior (John von Neumann/Oskar Morgenstern, 1953)
 
 I am also reading the [Invertebrate Welfare
 Sequence](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6),

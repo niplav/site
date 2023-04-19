@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-04-14, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-04-19, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,28 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [The science behind caffeine (Kamal Patel, 2023)](https://examine.com/articles/science-behind-caffeine/)
+* [Invertebrate Welfare Cause Profile (Jason Schukraft, 2019)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/EDCwbDEhwRGZjqY6S)
+* [Your Book Review: Progress And Poverty (Lars Doucet, 2021)](https://astralcodexten.substack.com/p/your-book-review-progress-and-poverty)
+* [The Telephone Theorem: Information At A Distance Is Mediated By Deterministic Constraints (johnswentworth, 2021)](https://www.lesswrong.com/posts/jJf4FrfiQdDGg7uco/the-telephone-theorem-information-at-a-distance-is-mediated)
+* [Choice Writings of Dominic Cummings (Connor Flexman, 2021)](https://www.lesswrong.com/posts/doPejjd84w8BmERqj/choice-writings-of-dominic-cummings)
+* [Cup-Stacking Skills (or, Reflexive Involuntary Mental Motions) (Duncan Sabien, 2021)](https://www.lesswrong.com/posts/vQKbgEKjGZcpbCqDs/cup-stacking-skills-or-reflexive-involuntary-mental-motions)
+* [The case for aligning narrowly superhuman models (Ajeya Cotra, 2021)](https://www.lesswrong.com/posts/PZtsoaoSLpKjjbMqM/the-case-for-aligning-narrowly-superhuman-models)
+* [Evolution provides no evidence for the sharp left turn (Quintin Pope, 2023)](https://www.lesswrong.com/posts/hvz9qjWyv8cLX9JJR/evolution-provides-no-evidence-for-the-sharp-left-turn)
+* [Self-confirming prophecies, and simplified Oracle designs (Stuart Armstrong, 2019)](https://www.lesswrong.com/posts/wJ3AqNPM7W4nfY5Bk/self-confirming-prophecies-and-simplified-oracle-designs)
+* [An Increasingly Manipulative Newsfeed (Michaël Trazzi, 2019)](https://www.lesswrong.com/posts/EpdXLNXyL4EYLFwF8/an-increasingly-manipulative-newsfeed)
+* [Oracles, sequence predictors, and self-confirming predictions (Stuart Armstrong, 2019)](https://www.lesswrong.com/posts/i2dNFgbjnqZBfeitT/oracles-sequence-predictors-and-self-confirming-predictions)
+* [Self-confirming predictions can be arbitrarily bad (Stuart Armstrong, 2019)](https://www.lesswrong.com/posts/KoEY9CjrKe93ErYhd/self-confirming-predictions-can-be-arbitrarily-bad)
+* [Study Guide (johnswentworth, 2021)](https://www.lesswrong.com/posts/bjjbp5i5G8bekJuxv/study-guide)
+* [If Adult Insects Matter, How Much Do Juveniles Matter? (Bob Fischer, 2023)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/E7xdBbxqPNLjhrnz6)
+* [Diving into Golden: using web3 to equip the world with all the knowledge it needs (Ekin Genç, 2022)](https://www.culture3.xyz/posts/golden)
+* [larger language models may disappoint you [or, an eternally unfinished draft] (nostalgebraist, 2021)](https://www.lesswrong.com/posts/pv7Qpu8WSge8NRbpB/larger-language-models-may-disappoint-you-or-an-eternally)
+* [A freshman year during the AI midgame: my approach to the next year (Buck Shlegeris, 2023)](https://www.lesswrong.com/posts/mfFn46AEiBL5EzaXr/a-freshman-year-during-the-ai-midgame-my-approach-to-the)
+* [Wikipedia and Dark Side Editing (Gwern Branwen, 2013)](https://gwern.net/wikipedia-and-dark-side-editing)
+* [Wikipedia & Knol: Why Knol Already Failed (Gwern Branwen, 2013)](https://gwern.net/wikipedia-and-knol)
+* [Wikipedia and Other Wikis (Gwern Branwen, 2012)](https://gwern.net/wikipedia-and-other-wikis)
+* [Fixing The Good Regulator Theorem (johnswentworth, 2021)](https://www.lesswrong.com/posts/Dx9LoqsEh3gHNJMDk/fixing-the-good-regulator-theorem)
+* [Do Brains Contain Many Conscious Subsystems? If So, Should We Act Differently? (Adam Shriver/Bob Fischer/MichaelStJules, 2022)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/vbhoFsyQmrntru6Kw)
 * [Imitative Generalisation (AKA 'Learning the Prior') (Beth Barnes, 2021)](https://www.lesswrong.com/posts/JKj5Krff5oKMb8TjT/imitative-generalisation-aka-learning-the-prior-1)
 * [Rethink Priorities’ Welfare Range Estimates (Bob Fischer, 2023)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/Qk3hd6PrFManj8K6o)
 * [EfficientZero: How It Works (1a3orn, 2021)](https://www.lesswrong.com/posts/mRwJce3npmzbKfxws/efficientzero-how-it-works)

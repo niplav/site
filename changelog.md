@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2023-04-10, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2023-04-19, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -21,11 +21,21 @@ with fecundity.
 April 2023
 -----------
 
+* Started a self-blinded randomized [Caffeine experiment](./nootropics.html#Caffeine)
+* Expanded on [Iqisa](./iqisa.html) and its [documentation](./iqisadoc.html)
+* [Brain Stimulation for Meditation Enhancement](./stimulation.html)
 * [Notes](./notes.md)
 	* [Subscripts for Probabilities](./notes.html#Subscripts_for_Probabilities)
 * [Microfiction](./microfiction.md)
 	* [Things to Shout](./microfiction.html#Things_to_Shout)
 	* [Funny Internet Images](./microfiction.html#Funny_Internet_Images)
+
+Read most of the posts from the [2021 LessWrong
+Review](https://www.lesswrong.com/posts/zajNa9fdr8JYJpxrG/voting-results-for-the-2021-review),
+the [Invertebrate
+Welfare](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6)
+sequence and [Moral Weight Project
+Sequence](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw).
 
 March 2023
 -----------

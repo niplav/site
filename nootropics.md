@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2023-04-02, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2023-01-06, modified: 2023-04-19, language: english, status: notes, importance: 3, confidence: log*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
 decided to log my nootropics usage and its effects.__
@@ -11,6 +11,8 @@ Nootropics
 
 Caffeine
 ---------
+
+[Examine](https://examine.com/supplements/caffeine/).
 
 Randomized self-blinded experiment A.
 
@@ -35,13 +37,17 @@ Variables tracked:
 * Productivity
 * Creativity
 
-3rd dose: Out of fear that the placebo pills have some sugar stuck
+Notes on the experiment:
+
+* 3rd dose: Out of fear that the placebo pills have some sugar stuck
 outside of them, which could de-blind the dose, I take a bit (~10 g)
 of sugar with each pill.
-
-7th dose: Increase time between consumption and starting to meditate to
+* 7th dose: Increase time between consumption and starting to meditate to
 ~45 minutes, after finding out that the onset of action is 45 minutes-1
 hour.
+* 14th dose: Noticed that during meditation, sharpness/clarity of
+attention is ~high, and relaxing after becoming mindful is easy, but
+attention strays just as easily.
 
 Creatine
 ---------
