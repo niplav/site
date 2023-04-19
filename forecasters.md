@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-04-04, modified: 2023-04-02, language: english, status: notes, importance: 7, confidence: highly likely*
+*author: niplav, created: 2022-04-04, modified: 2023-04-19, language: english, status: notes, importance: 7, confidence: highly likely*
 
 > __Beginnings of a research agenda about [judgmental
 forecasting](https://en.wikipedia.org/wiki/Forecasting#Judgmental_methods).__
@@ -58,8 +58,8 @@ How Good Are We At forecasting?
 		* How quickly?
 		* Over time/over more forecasts
 	* How much does forecaster quantity affect forecast quality on continuous questions? (i.e., extend [Dillon 2021](https://rethinkpriorities.org/publications/how-does-forecast-quantity-impact-forecast-quality-on-metaculus) to continuous data)
-		* How much does forecasting time affect forecast quality?
-			* Generally, scaling laws for forecasting would be interesting/cool to see
+		* How much does forecasting time affect forecast quality? That is, what is the relation of accuracy of prediction to the time spent on refining that prediction?
+			* Generally, scaling laws for forecasting would be interesting/cool to see.
 		* How much do number of resolutions/forecasts matter for forecast quality/learning?
 * Do laypeople/pundits/domain experts perform better than forecasters/superforecasters/forecasting teams/prediction markets *specifically* under novel & unforeseen situations?
 * Are more extreme views or more conservative views more accurate?
@@ -107,7 +107,8 @@ How Can We Ask Better Forecasting Questions?
 * What are methods of scoring/defining how good a question was?
 * How many questions resolve due to technicalities in the resolution criteria?
 	* Are the ratios here different across different question categories?
-	* How does this ratio develope as one puts more effort into specifying resolution criteria?
+	* How does this ratio develop as one puts more effort into specifying resolution criteria?
+	* This might be studied qualitatively/semi-quantitatively.
 
 Other Questions
 ----------------

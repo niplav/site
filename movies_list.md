@@ -11,7 +11,9 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
-* [The Prince of Egypt]()
+<!--TODO: that silent movie-->
+* [Everything Everywhere All At Once](https://www.imdb.com/title/tt6710474/)
+* [The Prince of Egypt](https://www.imdb.com/title/tt0120794/)
 * [Lantana](https://www.imdb.com/title/tt0259393/)
 * [Doctor Strange in the Multiverse of Madness](https://www.imdb.com/title/tt9419884/)
 * [Eternals](https://www.imdb.com/title/tt9032400/)

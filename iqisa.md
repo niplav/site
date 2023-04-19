@@ -61,8 +61,17 @@ And we can see:
 Concluding that more experienced traders are only very slightly better
 at trading.
 
-Prerequisites
---------------
+Advantages
+-----------
+
+Iqisa offers some advantages over existing datasets:
+
+* Ease of use: data can be loaded using two lines of code
+* Unified data format: the data from different platforms and projects has been brought into the same format that enables easier comparisons and cross-platform analyses
+* Pre-defined functionalities for analysis: Some functionalities (such as for scoring or aggregation) have been implemented for easier use
+
+Requirements
+-------------
 
 * [NumPy](https://numpy.org/)
 * [Pandas](https://pandas.pydata.org)
@@ -95,6 +104,7 @@ If you decide to work with this library, feel free to [contact me](./about.md#Co
 * The default fields in the Metaculus & PredictionBook data should be `NA` more often than they are right now.
 * The documentation is still *slightly* spotty, and tests are mostly nonexistent.
 * Some variables shouldn't be exposed, but are.
+* The code hasn't been updated for the new Metaculus API<!--TODO: link-->
 
 Feature Wishlist
 -----------------

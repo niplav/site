@@ -287,7 +287,8 @@ metric to track horniness.
 
 ### Substances
 
-I track which substances I take (nootropics/melatonin/drugs) in [this
+I track which substances I take
+([nootropics](./nootropics.html)/melatonin/drugs) in [this
 file](./data/substances.csv) via [this script](./data/cnsm). Data
 quality is good but fairly few entries. Intend to use it for self-blinded
 randomized future experiments (if I ever stop procrastinating on them).

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-01-25, modified: 2022-03-15, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2022-01-25, modified: 2022-04-19, language: english, status: in progress, importance: 1, confidence: log*
 
 > __;-)__
 
@@ -16,9 +16,10 @@ then the total fitness contribution of the `$\hat{n}$` heterozygous
 loci is `$(1+hs)^{\hat{n}}$`. These same loci in the sexual species
 will have sped to fixation, so their total fitness contribution is
 `$(1+s)^{\hat{n}}$`. The relative advantage of the sexual species is
+
 > <div>
-> 	$$W_s=\left (\frac{1+s}{1+hs}\right )^{\hat{n}}$$
-> </div>
+	$$W_s=\left (\frac{1+s}{1+hs}\right )^{\hat{n}}$$
+</div>
 
 *— [John H. Gillespie](https://en.wikipedia.org/wiki/John_H._Gillespie), “Population Genetics” p. 172, 2004*
 

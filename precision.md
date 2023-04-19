@@ -34,7 +34,7 @@ But we can also ask the question: how fine-grained are the predictions of
 our forecaster? I.e., at which level of finesse can we assume that
 the additional information is just noise?
 
-Take, for example, a hypothetical forecaster Baktiu who always gives
+Take, for example, a hypothetical forecaster Merkhet who always gives
 their forecasts with 5 decimal digits of precision, such as forecasting a
 "24.566% probability of North Korea testing an ICBM in the year 2022",
 even though if we look at their calibration plot, we see that they are
@@ -43,7 +43,7 @@ forecast with 15% and a forecast of 5% can be expected to resolve to
 the same outcome with equal probability). This means that 4 of the 5
 decimal digits of precision are just noise!
 
-Baktiu would be behaving absurdly; misleading their audience into
+Merkhet would be behaving absurdly; misleading their audience into
 believing they had spent much more time on their forecasts than they
 actually had (or, more likely, into correctly leading the audience into
 believing that there was something epistemically sketchy going on).
@@ -58,7 +58,7 @@ precision](https://en.wikipedia.org/wiki/False_precision): At some
 point, if remove digits of precision, the forecasts will become worse
 in expectation.
 
-But how might we confront our forecaster Baktiu from above? How might we
+But how might we confront our forecaster Merkhet from above? How might we
 estimate the level of degrees of precision after which their forecasts
 gave no more additional information?
 
