@@ -1991,6 +1991,7 @@ Wikipedia Articles
 	* Collect bounds
 * Network cost-sharing game
 * Full list of 10,000 vital articles
+* Improve Mathematical Alphanumeric Symbols: Add explanation of how to write them in `$\LaTeX$`
 
 Lesswrong wiki
 ---------------
