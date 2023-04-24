@@ -43,6 +43,34 @@ def turn_all(graph):
 			results.add(pathgraph)
 	return results
 
+def is_consistent(graph):
+	try:
+		cycles=nx.find_cycle(graph, orientation="original")
+	except nx.NetworkXNoCycle:
+		if nx.algorithms.tournament.is_tournament(graph):
+			return True
+	return False
+
+def maximal_consistent_subgraphs(graph):
+	maximal_consistencies=set()
+	for p in reversed(powerset(graph.nodes)):
+		subgraph=graph.subgraph(p)
+		if is_consistent(subgraph):
+			smaller_subprefs=set()
+			ignore=False
+			for m in maximal_consistencies:
+				if set(subgraph.nodes()).issubset(set(m.nodes())):
+					ignore=True
+					continue
+				elif set(m.nodes()).issubset(set(subgraph.nodes())):
+					smaller_subprefs.add(m)
+			if ignore:
+				continue
+			else:
+				maximal_consistencies=maximal_consistencies-smaller_subprefs
+				maximal_consistencies.add(subgraph)
+	return list(maximal_consistencies)
+
 def powerset(iterable):
 	s = list(iterable)
 	allcomb=[]

@@ -21,7 +21,6 @@ with fecundity.
 April 2023
 -----------
 
-* Started a self-blinded randomized [Caffeine experiment](./nootropics.html#Caffeine)
 * Expanded on [Iqisa](./iqisa.html) and its [documentation](./iqisadoc.html)
 * [Brain Stimulation for Meditation Enhancement](./stimulation.html)
 * [Notes](./notes.md)

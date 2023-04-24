@@ -1719,3 +1719,6 @@
 2023-04-18T16:27:21.000000Z	Stop Goodharting yourself! Stop Goodharting yourself!
 2023-04-19T06:16:07.000000Z	haro in Esperanto means “single hair”. “hararo“ maeans “collection of many hairs“. “harari” is the corresponding verb.
 2023-04-19T06:18:12.000000Z	wait WHY is “book” “libro” in esperanto, but “library” is *not* “libraro” but “biblioteko”? Huh???
+2023-04-19T12:27:22.000000Z	ugh I hate it I am allied with people who propose the clipper chip but for GPUs
+2023-04-19T12:27:59.000000Z	maybe for good reason but man I dislike the aesthetic and will continue to only do technical stuff
+2023-04-19T13:53:18.000000Z	von Neumann and Morgenstern is a joy to read :-D
