@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-04-19, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-04-24, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Impossibility results for unbounded utilities (Paul Christiano, 2022)](https://www.lesswrong.com/posts/hbmsW2k9DxED5Z4eJ/impossibility-results-for-unbounded-utilities)
+* [The Learning-Theoretic AI Alignment Research Agenda (Vanessa Kosoy, 2018)](https://www.lesswrong.com/posts/5bd75cc58225bf0670375575/the-learning-theoretic-ai-alignment-research-agenda)
+* On expected utility (Joe Carlsmith, 2022)
+* \* Theory of Games and Economic Behavior (John von Neumann/Oskar Morgenstern, 1953)
 * [The science behind caffeine (Kamal Patel, 2023)](https://examine.com/articles/science-behind-caffeine/)
 * [Invertebrate Welfare Cause Profile (Jason Schukraft, 2019)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/EDCwbDEhwRGZjqY6S)
 * [Your Book Review: Progress And Poverty (Lars Doucet, 2021)](https://astralcodexten.substack.com/p/your-book-review-progress-and-poverty)
@@ -356,7 +360,7 @@ rumental-convergence-scale-and-physical-interactions)
 * [Scientists Parse Ocean’s Dynamic Role in Climate Change (Natalie Wolchover, 2013)](https://www.quantamagazine.org/scientists-parse-oceans-role-in-climate-change-20130411/)
 * [A New Approach to Building the Tree of Life (Emily Singer, 2013)](https://www.quantamagazine.org/a-new-approach-to-building-the-tree-of-life-20130604/)
 * [Tiny Genomes May Offer Clues to First Plants and Animals (Emily Singer, 2013)](https://www.quantamagazine.org/tiny-genomes-may-offer-clues-to-first-plants-and-animals-20130620/)
-* \* Der Vorrang der Demokratie vor der Philosophie (Richard Rorty, 1988)
+* Der Vorrang der Demokratie vor der Philosophie (Richard Rorty, 1988)
 * [Simulators (janus, 2022)](https://generative.ink/posts/simulators/)
 * [I'm an SaR Officer... (Update #2) (searchandrescuewoods, 2016)](https://old.reddit.com/r/nosleep/comments/4r835f/im_an_sar_officer_update_2/)
 * [I'm An SaR Officer... (Update 1) (searchandrescuewoods, 2016)](https://old.reddit.com/r/nosleep/comments/4r2kvl/im_an_sar_officer_update_1/)

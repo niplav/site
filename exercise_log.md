@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-06-15, modified: 2023-04-12, language: english, status: notes, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-15, modified: 2023-04-24, language: english, status: notes, importance: 1, confidence: log*
 
 > __I recently got the feeling that tracking my exercise might be vaguely
 > useful. This is my attempt.__
@@ -4272,3 +4272,48 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 1 sets 10 reps 22kg dumbbell row RPE 6
 * 1 sets 10 reps 24kg dumbbell row RPE 7
 * 1 sets 10 reps 26kg dumbbell row RPE 8
+
+### 2023-04-13T15:43:00-2023-04-13T17:07:00
+
+* 4 sets 10 reps 20kg deadlift RPE 2
+* 1 sets 4 reps 92.5kg deadlift RPE 6
+* 1 sets 4 reps 95kg deadlift RPE 7
+* 1 sets 4 reps 97.5kg deadlift RPE 7
+* 4 sets 10 reps 20kg bench press RPE 1
+* 1 sets 8 reps 50kg bench press RPE 6
+* 1 sets 8 reps 52.5kg bench press RPE 7
+* 1 sets 8 reps 55kg bench press RPE 8
+* 1 sets 10 reps 20kg back squat RPE 3
+* 1 sets 10 reps 60kg back squat RPE 6
+* 1 sets 10 reps 62.5kg back squat RPE 7
+* 1 sets 10 reps 65kg back squat RPE 9
+
+### 2023-04-15T18:07-2023-04-15T19:03
+
+* 4 sets 10 reps 20kg back squat RPE 2
+* 1 sets 4 reps 72.5kg back squat RPE 6
+* 1 sets 4 reps 75kg back squat RPE 7
+* 1 sets 4 reps 77.5kg back squat RPE 8
+* 4 sets 10 reps 20kg bench press RPE 2
+* 1 sets 10 reps 50kg bench press RPE 7
+* 1 sets 10 reps 50kg bench press RPE 7
+* 1 sets 10 reps 52.5kg bench press RPE 8
+* 4 sets 10 reps 20kg deadlift RPE 2
+* 1 sets 8 reps 85kg deadlift RPE 6
+* 1 sets 8 reps 87.5kg deadlift RPE 6
+* 1 sets 8 reps 90kg deadlift RPE 7
+
+### 2023-04-17T21:30-2023-04-17T22:27
+
+* 4 sets 10 reps 20kg overhead press RPE 5
+* 1 sets 4 reps 40kg overhead press RPE 6
+* 1 sets 4 reps 40kg overhead press RPE 7
+* 1 sets 4 reps 42.5kg overhead press RPE 8
+* 4 sets 7 reps 20kg back squats RPE 2
+* 1 sets 7 reps 62.5kg back squat RPE 6
+* 1 sets 7 reps 65kg back squat RPE 7
+* 1 sets 7 reps 67.5kg back squat RPE 8
+* 4 sets 10 reps 14kg dumbbell row RPE 2
+* 1 sets 10 reps 22kg dumbbell row RPE 5
+* 1 sets 10 reps 24kg dumbbell row RPE 6
+* 1 sets 10 reps 26kg dumbbell row RPE 7

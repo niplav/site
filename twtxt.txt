@@ -1722,3 +1722,4 @@
 2023-04-19T12:27:22.000000Z	ugh I hate it I am allied with people who propose the clipper chip but for GPUs
 2023-04-19T12:27:59.000000Z	maybe for good reason but man I dislike the aesthetic and will continue to only do technical stuff
 2023-04-19T13:53:18.000000Z	von Neumann and Morgenstern is a joy to read :-D
+2023-04-24T18:56:34.000000Z	Functional Decision Theory has a WP page

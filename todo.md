@@ -1944,6 +1944,8 @@ Wikipedia Articles
 * Scaling Laws for Large Language Models
 * Bounded Agency
 * Pentagon 2023 leaks
+* Devonian Toolkit
+	* `https://www.annualreviews.org/doi/full/10.1146/annurev-ento-011613-162041`
 
 ### Improve
 
