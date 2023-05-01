@@ -115,6 +115,7 @@ Other Questions
 
 * Where are the big datasets of past judgmental forecasts?
 * What is the rate of positive resolution by range?
+* How good a predictor is forecasting performance of intra-individual cognitive performance?
 * How difficult is it to manipulate real existing prediction platforms?
 	* Markets
 		* PredictIt

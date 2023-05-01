@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-04-24, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-05-02, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,23 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [* Caffeine (Kamal Patel, 2023)](https://examine.com/supplements/caffeine/)
+* [Logical decision theories (Alexei Andreev/Eliezer Yudkowsky/Eric Rogstad, 2016)](https://arbital.com/p/logical_dt/?l=58b)
+* On the Structural Consistency of Preferences (Aly El Gamal, 2013)
+* [Report likelihoods, not p-values (Eliezer Yudkowsky, 2016)](https://arbital.com/p/likelihoods_not_pvalues/)
+* [Seven Years of Spaced Repetition Software in the Classroom (tanagrabeast, 2021)](https://www.lesswrong.com/posts/F6ZTtBXn2cFLmWPdM/seven-years-of-spaced-repetition-software-in-the-classroom-1)
+* [The Learning-Theoretic Agenda: Status 2023 (Vanessa Kosoy, 2023)](https://www.lesswrong.com/posts/ZwshvqiqCvXPsZEct/the-learning-theoretic-agenda-status-2023)
+* [My Objections to "We’re All Gonna Die with Eliezer Yudkowsky" (Quintin Pope, 2023)](https://www.lesswrong.com/posts/wAczufCpMdaamF9fy/my-objections-to-we-re-all-gonna-die-with-eliezer-yudkowsky)
+* [Does Georgism Work, Part 3: Can Unimproved Land Value be Accurately Assessed Separately From Buildings? (Lars Doucet, 2021)](https://astralcodexten.substack.com/p/does-georgism-work-part-3-can-unimproved)
+* [Latent variables for prediction markets: motivation, technical guide, and design considerations (tailcalled, 2023)](https://www.lesswrong.com/posts/ufW5LvcwDuL6qjdBT/latent-variables-for-prediction-markets-motivation-technical)
+* [Snails used for human consumption: The case of meat and slime (Daniela R. Waldhorn, 2020)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/C8247akhZpyMXkRb3)
+* On the complexity of Slater's problems (Olivier Hudry, 2009)
+* [Research Ideas (Gwern Branwen, 2023)](https://gwern.net/idea)
+* [Does Georgism Work? Part 2: Can Landlords Pass Land Value Tax on to Tenants? (Lars Doucet, 2021)](https://astralcodexten.substack.com/p/does-georgism-work-part-2-can-landlords)
+* [Does Georgism Work? Part 1: Is Land Really A Big Deal? (Lars Doucet, 2021)](https://astralcodexten.substack.com/p/does-georgism-work-is-land-really)
+* [Does Critical Flicker-Fusion Frequency Track the Subjective Experience of Time? (Jason Schukraft, 2020)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/DAKivjBpvQhHYGqBH)
+* [Next Steps in Invertebrate Welfare, Part 1: Fundamental Research (Daniela R. Waldhorn, 2019)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/5EuefaGpLSvfcxnP4)
+* [Better impossibility result for unbounded utilities (Paul Christiano, 2022)](https://www.lesswrong.com/posts/gJxHRxnuFudzBFPuu/better-impossibility-result-for-unbounded-utilities)
 * [Impossibility results for unbounded utilities (Paul Christiano, 2022)](https://www.lesswrong.com/posts/hbmsW2k9DxED5Z4eJ/impossibility-results-for-unbounded-utilities)
 * [The Learning-Theoretic AI Alignment Research Agenda (Vanessa Kosoy, 2018)](https://www.lesswrong.com/posts/5bd75cc58225bf0670375575/the-learning-theoretic-ai-alignment-research-agenda)
 * On expected utility (Joe Carlsmith, 2022)

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2023-03-29, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2023-05-02, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -71,9 +71,6 @@ Site
 * Title is not JS-added
 * Reading ruler
 * Move from `$\mapsto$` to `$\rightarrow$`
-* Collect all memes
-	* Add memes:
-		* I wish all dukkha a very pleasant cessation
 * Move `text_reviews.md` to `reviews.md`
 
 Existing Texts
@@ -962,6 +959,38 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Mathematical art with causal graphs where edges can point to (or inhibit) other edges
 	* Not to be taken seriously
 * So You're Proposing An Economic Policy checklist like the programming language/OS one
+	* Your policy depends on work that has failed to replicate
+	* Your policy depends on work that has been replicated once
+	* Your policy depends on work for which there doesn't exist a replication attempt
+	* Your policy would disincentivize good things
+	* Your policy would incentivize bad things
+	* Your policy would be wildly unpopular, even though you think it's the best things since sliced bread (it's not)
+	* Your policy thinks that taking options away from people fixes things
+	* Your policy depends on 19th century theorizing for which there exists near-zero empirical work
+	* Your policy depends on a [dynamic stochastic general equilibrium](https://en.wikipedia.org/wiki/Dynamic_stochastic_general_equilibrium) model with 200 free parameters tracking reality perfectly
+	* Furthermore, all predictions your model has made look like this:
+		* [Chart here where the predicted trends always fail to materialize
+	* Your policy is a variant of universal basic income
+	* Your policy just reinvents land-value taxes, badly
+	* Your policy sneakily redistributes money from poor to rich people
+	* Your policy assumes the cost of coordination is zero
+		* is negative
+	* You actually have no idea what a failure/success of your policy would look like
+	* Your policy only works if every country on earth adopts it at the same time
+	* Your policy would fix:
+		* Climate change
+		* Godlessness
+		* Police violence
+		* Wet socks
+		* Teenage depression
+		* Rising rents
+		* War
+		* Falling sperm counts and/or testosterone levels
+	* Your policy assumes privatization always works
+	* Your policy assumes privatization never works
+	* Your policy assumes your country will never become a dictatorship
+	* Your policy assumes your country will always stay a dictatorship
+	* Your policy is a pareto-worsening
 
 ### Collections
 
@@ -1123,9 +1152,15 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* Flashcard sets belonging to textbooks
 		* 3blue1brown type videos
 	* A conversational & whimsy style is nice, but can be overdone
+	* Multiple authors
+	* Multiple editions
+	* If it has pre-requisites, it recommends other textbooks that *completely* fulfill those pre-requisites
 * Some Reasons to Be Unusually Truth-Oriented
 	* Maybe compartmentalization is easy though?
 * EPRC Bibliography
+* How good are forecasters?
+	* How good are prediction markets?
+* Reporting Likelihood Ratios: A Practical Tutorial
 
 ### Notes
 
@@ -1176,7 +1211,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Long content and its curation
 * Tracking of Belief Introduces Overhead
 * The Sum Rule Holds for Jacobians and Hessians
-* What is the Relation Between Species Size and Species Longvevity?
 * Mastery is Exceedingly Rare
 
 > Very few will aspire to real mastery themselves. Very few will take the
@@ -1209,9 +1243,11 @@ Game. Even those odds likely overstate the number of Players in the world.
 * Umeshisms as Shit-Test Responses
 	* "If you're not getting stabbed by pretty women you talk to, the women you approach aren't beautiful enough."
 	* "The optimal amount of awkwardness is not zero."
+* The Jam Session DHV
 
 ### Questions
 
+* What is the Relation Between Species Size and Species Longvevity?
 * Import ~/etc/notes/questions
 
 ### Reports
@@ -1237,10 +1273,6 @@ Game. Even those odds likely overstate the number of Players in the world.
 * A Typical Daygame Session
 * A Typical Meditation Session
 * A 1 Month At-Home Meditation Retreat
-
-#### Pickup
-
-* The Jam Session DHV
 
 ### Misc
 
@@ -1994,6 +2026,9 @@ Wikipedia Articles
 * Network cost-sharing game
 * Full list of 10,000 vital articles
 * Improve Mathematical Alphanumeric Symbols: Add explanation of how to write them in `$\LaTeX$`
+* Markov information source: string '00' at the end of the 'Formal definition' section.
+* Sophistication (complexity theory)
+* Redirect List of smallest mammals to Smallest organisms
 
 Lesswrong wiki
 ---------------
