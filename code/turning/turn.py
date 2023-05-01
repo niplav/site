@@ -47,7 +47,7 @@ def is_consistent(graph):
 	try:
 		cycles=nx.find_cycle(graph, orientation="original")
 	except nx.NetworkXNoCycle:
-		if nx.algorithms.tournament.is_tournament(graph):
+		if nx.algorithms.tournament.is_tournament(graph) and len(graph.edges)>0:
 			return True
 	return False
 
@@ -197,3 +197,8 @@ for i in range(0, len(mediumworld)):
 mediumgraph.add_edges_from([('a', 'b'), ('b', 'c'), ('c', 'd'), ('c', 'e'), ('e', 'f'), ('f', 'g'), ('g', 'b')])
 
 mediumres=turn(mediumgraph)
+
+bigrev=nx.DiGraph()
+bigrev_opts=['a','b','c','d','m1','m2','m3','m4','m5']
+#TODO: finish the edges
+bigrev.add_edges_from([('a','d'),('d','b')])

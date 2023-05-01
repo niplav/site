@@ -1680,7 +1680,7 @@ dataset (`clean_{met,pb}forecasts`):
 
 The PredictionBook data—how do I put this—simply makes no sense.
 I am pretty confident that this code *is* correct, but I think that
-the questions with very few prdictions are producing incorrect results,
+the questions with very few predictions are producing incorrect results,
 especially when the predictions are very close to each other. So let's
 arbitrarily exclude questions with less than ten predictions (actually
 an arbitrary choice I did not iterate over to get a "desired" result):
@@ -2087,7 +2087,7 @@ has 765 forecasts)!
 ![If an item does not appear in our records, it does not exist](./img/range_and_forecasting_accuracy/api_incomplete.png "Image of confused Obi-Wan Kenobi, with the text “Impossible. Perhaps the api is incomplete.” (If an item does not appear in our records, it does not exist)")
 
 I initially suspected a bug in my code, but to my surprise, after further
-investigation, it turns out that the Metaculus API returns timeseries
+investigation, it turns out that the Metaculus API returned timeseries
 with elements removed so that the length was always 101.
 
 I can think of two reasons to do this:
@@ -2110,7 +2110,8 @@ private investigations.
 
 I subsequently [tried to replicate my previous
 findings](./range_and_forecasting_accuracy.html#Appendix_A_Replicating_Metaculus_Findings_With_Full_Data)
-with the private data, finding that the findings [mostly replicate, or are slightly different](#Replication_Inbound).
+with the private data, finding that the findings [mostly replicate,
+or are only slightly different](#Replication_Inbound).
 
 Limitations
 -----------

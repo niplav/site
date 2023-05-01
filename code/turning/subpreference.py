@@ -3,24 +3,23 @@ import networkx as nx
 
 import turn
 
-def check_subprefs(subprefs, turnings):
+def check_subprefs(subprefs, turnings, g):
 	for s in subprefs:
 		present_in=0
 		for t in turnings:
 			if set(s.nodes).issubset(set(t.nodes)) and set(s.edges).issubset(set(t.edges)):
 				present_in=present_in+1
 		if present_in==0:
-			print(present_in, s.edges, g.edges)
-		else:
-			print(present_in/len(turnings), s.edges)
-
+			print(str(present_in)+","+str(len(s.nodes))+","+str(len(turnings))+","+str(s.edges)+","+str(g.edges))
 
 for i in range(0,5):
 	graphs=turn.all_directed_graphs(i)
 	for g in graphs:
 		turnings=turn.turn_all(g)
 		subprefs=turn.maximal_consistent_subgraphs(g)
-		check_subprefs(subprefs, turnings)
+		check_subprefs(subprefs, turnings, g)
+
+exit(1)
 
 lim=16
 samples=1024
