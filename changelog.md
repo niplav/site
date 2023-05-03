@@ -18,6 +18,12 @@ with fecundity.
 
 *—[Scott Alexander](https://slatestarcodex.com/), [“The Goddess of Everything Else”](https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/), 2015*
 
+May 2023
+---------
+
+* [Notes](./notes.html)
+	* [Properties of Good Textbooks](./notes.html#Properties_of_Good_Textbooks)
+
 April 2023
 -----------
 
