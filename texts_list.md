@@ -20,7 +20,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [* Caffeine (Kamal Patel, 2023)](https://examine.com/supplements/caffeine/)
 * [Logical decision theories (Alexei Andreev/Eliezer Yudkowsky/Eric Rogstad, 2016)](https://arbital.com/p/logical_dt/?l=58b)
 * On the Structural Consistency of Preferences (Aly El Gamal, 2013)
-* [Report likelihoods, not p-values (Eliezer Yudkowsky, 2016)](https://arbital.com/p/likelihoods_not_pvalues/)
+* [Report likelihoods, not p-values (Eric Bruylant/Eric Rogstad/Nate Soares, 2017)](https://arbital.com/p/likelihoods_not_pvalues/)
 * [Seven Years of Spaced Repetition Software in the Classroom (tanagrabeast, 2021)](https://www.lesswrong.com/posts/F6ZTtBXn2cFLmWPdM/seven-years-of-spaced-repetition-software-in-the-classroom-1)
 * [The Learning-Theoretic Agenda: Status 2023 (Vanessa Kosoy, 2023)](https://www.lesswrong.com/posts/ZwshvqiqCvXPsZEct/the-learning-theoretic-agenda-status-2023)
 * [My Objections to "We’re All Gonna Die with Eliezer Yudkowsky" (Quintin Pope, 2023)](https://www.lesswrong.com/posts/wAczufCpMdaamF9fy/my-objections-to-we-re-all-gonna-die-with-eliezer-yudkowsky)

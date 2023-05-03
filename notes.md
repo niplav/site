@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2023-04-11, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2023-05-03, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1847,3 +1847,35 @@ The notation proposed here would change the text:
 > * Given hedonism and conditional on sentience, we think that none of the vertebrate nonhuman animals of interest have a welfare range that’s more than double the size of any of the others<sub>70%</sub>. While carp and salmon have lower scores than pigs and chickens, we suspect that’s largely due to a lack of research.
 * Given hedonism and conditional on sentience, we think that the welfare ranges of humans and the vertebrate animals of interest are within an order of magnitude of one another<sub>65%</sub>.
 * Given hedonism and conditional on sentience, we think that all the invertebrates of interest have welfare ranges within two orders of magnitude of the vertebrate nonhuman animals of interest<sub>60%</sub>. Invertebrates are so diverse and we know so little about them; hence, our caution.
+
+Properties of Good Textbooks
+-----------------------------
+
+Heuristics for choosing/writing good textbooks (see also
+[here](https://docs.google.com/document/d/e/2PACX-1vTkqKg5IxCmPbw7JqnAWxoypaYNFH3XJd4UgYw4PufP09zzzW6j3v-CYXZkpD83sVrzygvg7gLbjM_Q/pub)):
+
+* Has exercises
+	* Exercises are interspersed in the text, not in large chunks (better at the end of sections, not just at the end of chapters)
+	* Solutions are available but difficult to access (in a separate book, or on the web), this reduces the urge to look the solution up if one is stuck
+	* Of varying difficulty (I like the approach [Concrete Mathematics](https://en.wikipedia.org/wiki/Concrete_Mathematics) takes: everything from trivial applications to research questions)
+	* I like it when difficulty is indicated, but it's also okay when it's said clearly in the beginning that very difficult exercises that are not marked are mystery boxes
+* Takes many angles
+	* Has **figures** and **illustrations**. I don't think I've encountered a textbook with too many yet.
+	* Has many **examples**. I'm not sure yet about the advantage of recurring examples. Same point about amount as with figures.
+	* Includes **code**, if possible. It's cool if you tell me the equations for computing the [likelihood ratio](https://en.wikipedia.org/wiki/Likelihood_function) of a hypothesis & dataset, but it's even cooler if you give me some sample code I can use and extedn along with it.
+* Uses typography
+	 * You can use **boldface** and *italics* and underlining for reading comprehension, example [here](https://gwern.net/subscript#example-use).
+	* Use section headings and paragraphs liberally.
+	* [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/) has one-three word side-notes describing the content of each paragraph. This is very good.
+	* Distinguish definitions, proofs, examples, case-studies, code, formulas &c.
+* Dependencies
+	* Define terms before they are used. (This is not a joke. [Population Genetics](https://www.amazon.com/Population-Genetics-John-H-Gillespie/dp/0801880092) uses the term "substitution" on p. 32 without defining it, and exercise 12-1 from [Naive Set Theory](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\)) depends on the [axiom of regularity](https://en.wikipedia.org/wiki/Axiom_of_regularity), but the book doesn't define it.)
+	* If the book has pre-requisites beyond what a high-schooler knows, a good textbook lists those pre-requisites and textbooks that teach them.
+* Indicators
+	* Multiple editions are an indicator for quality.
+	* Ditto for multiple authors.
+* A conversational and whimsy style can be nice, but shouldn't be overdone.
+* Hot take: I get very little value from proofs in math textbooks, and consider them usually unnecessary (unless they teach a new proof method). I like the [Infinite Napkin](https://web.evanchen.cc/napkin.html) for its approach.
+* Wishlist
+	* Flashcard sets that come together with textbooks. Please.
+	* [3blue1brown](https://www.youtube.com/@3blue1brown) style videos that accompany the book. [From Zero to Geo](https://www.youtube.com/watch?v=2hBWCCAiCzQ&list=PLVuwZXwFua-0Ks3rRS4tIkswgUmDLqqRy) is a great step in that direction.

@@ -1129,32 +1129,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * A list of countries with ratings for how open their borders are
 * Typology of motivations to get into EA
 * Red teaming markets
-* Properties of Good Textbooks
-	* `https://docs.google.com/document/d/e/2PACX-1vTkqKg5IxCmPbw7JqnAWxoypaYNFH3XJd4UgYw4PufP09zzzW6j3v-CYXZkpD83sVrzygvg7gLbjM_Q/pub`
-	* Exercises
-		* Exercises very interspersed in the text, not in large chunks (better at the end of sections, not at the end of chapters)
-		* Solutions not available/separate
-		* Of varying difficulty (I like the approach Concrete Mathematics (Graham et al.) takes: everything from trivial applications to research questions)
-		* I like it when difficulty is indicated, but it's also okay when it's said clearly in the beginning that very difficult exercises that are not marked are mystery boxes
-	* Images
-	* Code
-	* New terms are introduced formally (e.g. by highlighting "*definition*")
-		* New terms are introduced before they are used
-		* Use **boldface** and *italics* and underlining &c for single purposes
-		* Use section headings liberally
-	* Hot take: mathematical proofs in textbooks are usually unneccessary
-		* Exception: New proof methods
-		* I like the Infinite Napkin for its approach
-	* Examples
-		* Examples are good
-		* I don't recall a textbook with too many examples
-	* Wishlist:
-		* Flashcard sets belonging to textbooks
-		* 3blue1brown type videos
-	* A conversational & whimsy style is nice, but can be overdone
-	* Multiple authors
-	* Multiple editions
-	* If it has pre-requisites, it recommends other textbooks that *completely* fulfill those pre-requisites
 * Some Reasons to Be Unusually Truth-Oriented
 	* Maybe compartmentalization is easy though?
 * EPRC Bibliography
