@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-05-02, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-05-07, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,7 +17,16 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
-* [* Caffeine (Kamal Patel, 2023)](https://examine.com/supplements/caffeine/)
+* [Catching the Spark (Logan Strohl, 2021)](https://www.lesswrong.com/posts/9cbEPEuCa9E7uHMXT/catching-the-spark)
+* [Thoughts on the STEM “class” (tsu, 2016)](https://tsutsifrutsi.tumblr.com/post/139992202409/thoughts-on-the-stem-class)
+* [Programming Language Checklist (Colin McMillen/Elly Fong-Jones/Jason Reed, 2011)](https://www.mcmillen.dev/language_checklist.html)
+* \* Worm (Wildbow, 2013)
+* [Insects raised for food and feed — global scale, practices, and policy (Abraham Rowe, 2020)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/ruFmR5oBgqLgTcp2b)
+* [An Introduction to Logical Decision Theory for Everyone Else (Eliezer Yudkowsky, 2017)](https://arbital.com/p/logical_dt/?l=5kv)
+* [Introduction to Logical Decision Theory for Computer Scientists (Eliezer Yudkowsky, 2017)](https://arbital.com/p/logical_dt/?l=5d6)
+* [Report likelihoods not p-values: FAQ (Eric Bruylant/Nate Soares/Travis Rivera,
+2017)](https://arbital.com/p/likelihoods_not_pvalues/?l=505)
+* [Caffeine (Kamal Patel, 2023)](https://examine.com/supplements/caffeine/)
 * [Logical decision theories (Alexei Andreev/Eliezer Yudkowsky/Eric Rogstad, 2016)](https://arbital.com/p/logical_dt/?l=58b)
 * On the Structural Consistency of Preferences (Aly El Gamal, 2013)
 * [Report likelihoods, not p-values (Eric Bruylant/Eric Rogstad/Nate Soares, 2017)](https://arbital.com/p/likelihoods_not_pvalues/)
