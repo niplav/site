@@ -1731,3 +1731,9 @@
 2023-04-29T17:11:38.000000Z	is the biggest snail bigger than the smallest rabbit?
 2023-04-30T17:27:15.000000Z	google 40 percent capabilities researchers
 2023-05-01T21:00:42.000000Z	have there been any discontinuities in the domain of computer security?
+2023-05-03T12:46:18.000000Z	you might be thinking: “aha! so I should vote in elections, since even though under do()-calculus, the decision has a miniscule impact, there are many agents that are logically correlated with me, which means my influence is much higher!” A tiny problem is that the number of agents that are logically correlated because they base their decisions on logical correlation is, ah, not *that* big…
+2023-05-04T10:32:39.000000Z	chugging the melatonin pills to keep my energy from making me explode
+2023-05-04T22:18:17.000000Z	I don't remember where I first read this, but: A government's OODA loop is ~6 months long.
+2023-05-04T22:18:28.000000Z	How long is *your* fundamental OODA loop?
+2023-05-05T23:50:30.000000Z	faux-translating “estrogeno” from esperanto, it means master-hormone or master-chemical
+2023-05-07T11:30:37.000000Z	performing a million moleFLOP on the common crawl to cultivate a new gradientspawn

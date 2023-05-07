@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2023-04-19, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2023-01-06, modified: 2023-05-06, language: english, status: notes, importance: 3, confidence: log*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
 decided to log my nootropics usage and its effects.__
@@ -69,6 +69,35 @@ creatine on my cognition (it [increases IQ in
 vegetarians](https://examine.com/supplements/creatine/), and I'm a
 [lacto-vegetarian](https://en.wikipedia.org/wiki/Lacto-vegetarianism)),
 my exercising performance and my meditation ability.
+
+L-Theanine
+-----------
+
+> L-Theanine is synergistic with caffeine in regards to attention
+switching<sup>[\[318\]](https://examine.com/supplements/caffeine/research/#ref-318)</sup>
+and
+alertness<sup>[\[319\]](https://examine.com/supplements/caffeine/research/#ref-319)[\[320\]](https://examine.com/supplements/caffeine/research/#ref-320)</sup>
+and reduces susceptibility to distractions
+(focus).<sup>[\[320\]](https://examine.com/supplements/caffeine/research/#ref-320)[\[321\]](https://examine.com/supplements/caffeine/research/#ref-320)</sup>
+However, alertness seems to be relatively subjective
+and may not be a reliable increase between these two
+compounds,<sup>[\[318\]](https://examine.com/supplements/caffeine/research/#ref-318)</sup>
+and increases in mood are either present of
+absent.<sup>[\[322\]](https://examine.com/supplements/caffeine/research/#ref-322)[\[318\]](https://examine.com/supplements/caffeine/research/#ref-318)[\[323\]](https://examine.com/supplements/caffeine/research/#ref-323)</sup>
+This may be due to theanine being a relatively subpar
+nootropic in and of itself pertaining to the above parameters,
+but augmenting caffeine's effects; some studies do note
+that theanine does not affect the above parameters in and of
+itself.<sup>[\[324\]](https://examine.com/supplements/caffeine/research/#ref-324)</sup>
+Due to this, any insensitivity or habituation to caffeine would reduce
+the effects of the combination as L-theanine may work through caffeine.
+>
+> L-Theanine does not appear to be synergistic with caffeine
+in regards to attention to a prolonged and monotonous
+task.<sup>[\[325\]](https://examine.com/supplements/caffeine/research/#ref-325)</sup>
+<!--Foxe JJ, et al. Assessing the effects of caffeine and theanine on the maintenance of vigilance during a sustained attention task.-->
+
+*—Kamal Patel, [“Caffeine”](https://examine.com/supplements/caffeine/research/#3JD9zlr-nutrient-nutrient-interactions_3JD9zlr-l-theanine), 2023*
 
 Melatonin
 ----------

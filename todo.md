@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2023-05-02, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2023-05-05, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -959,6 +959,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Mathematical art with causal graphs where edges can point to (or inhibit) other edges
 	* Not to be taken seriously
 * So You're Proposing An Economic Policy checklist like the programming language/OS one
+	* `https://www.mcmillen.dev/language_checklist.html`
 	* Your policy depends on work that has failed to replicate
 	* Your policy depends on work that has been replicated once
 	* Your policy depends on work for which there doesn't exist a replication attempt
@@ -1952,6 +1953,7 @@ Wikipedia Articles
 * Pentagon 2023 leaks
 * Devonian Toolkit
 	* `https://www.annualreviews.org/doi/full/10.1146/annurev-ento-011613-162041`
+* Participation (social choice theory)
 
 ### Improve
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2023-05-03, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2023-05-05, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1855,18 +1855,18 @@ Heuristics for choosing/writing good textbooks (see also
 [here](https://docs.google.com/document/d/e/2PACX-1vTkqKg5IxCmPbw7JqnAWxoypaYNFH3XJd4UgYw4PufP09zzzW6j3v-CYXZkpD83sVrzygvg7gLbjM_Q/pub)):
 
 * Has exercises
-	* Exercises are interspersed in the text, not in large chunks (better at the end of sections, not just at the end of chapters)
-	* Solutions are available but difficult to access (in a separate book, or on the web), this reduces the urge to look the solution up if one is stuck
-	* Of varying difficulty (I like the approach [Concrete Mathematics](https://en.wikipedia.org/wiki/Concrete_Mathematics) takes: everything from trivial applications to research questions)
-	* I like it when difficulty is indicated, but it's also okay when it's said clearly in the beginning that very difficult exercises that are not marked are mystery boxes
+	* Exercises are interspersed in the text, not in large chunks (better at the end of sections, not just at the end of chapters).
+	* Solutions are available but difficult to access (in a separate book, or on the web), this reduces the urge to look the solution up if one is stuck.
+	* Of varying difficulty (I like the approach [Concrete Mathematics](https://en.wikipedia.org/wiki/Concrete_Mathematics) takes: everything from trivial applications to research questions).
+	* I like it when difficulty is indicated, but it's also okay when it's said clearly in the beginning that exercises are not marked for difficulty (making them mystery boxes).
 * Takes many angles
-	* Has **figures** and **illustrations**. I don't think I've encountered a textbook with too many yet.
+	* Has **figures** and **illustrations**. I don't think I've encountered a textbook with too many yet. (See [Visual Complex Analysis](https://en.wikipedia.org/wiki/Visual_Complex_Analysis) for an example of doing this well.)
 	* Has many **examples**. I'm not sure yet about the advantage of recurring examples. Same point about amount as with figures.
-	* Includes **code**, if possible. It's cool if you tell me the equations for computing the [likelihood ratio](https://en.wikipedia.org/wiki/Likelihood_function) of a hypothesis & dataset, but it's even cooler if you give me some sample code I can use and extedn along with it.
+	* Includes **code**, if possible. It's cool if you tell me the equations for computing the [likelihood ratio](https://en.wikipedia.org/wiki/Likelihood_function) of a hypothesis & dataset, but it's even cooler if you give me some sample code I can use and extend along with it.
 * Uses typography
 	 * You can use **boldface** and *italics* and underlining for reading comprehension, example [here](https://gwern.net/subscript#example-use).
 	* Use section headings and paragraphs liberally.
-	* [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/) has one-three word side-notes describing the content of each paragraph. This is very good.
+	* [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/) has one- to three-word side-notes describing the content of each paragraph. This is very good.
 	* Distinguish definitions, proofs, examples, case-studies, code, formulas &c.
 * Dependencies
 	* Define terms before they are used. (This is not a joke. [Population Genetics](https://www.amazon.com/Population-Genetics-John-H-Gillespie/dp/0801880092) uses the term "substitution" on p. 32 without defining it, and exercise 12-1 from [Naive Set Theory](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\)) depends on the [axiom of regularity](https://en.wikipedia.org/wiki/Axiom_of_regularity), but the book doesn't define it.)

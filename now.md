@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2023-04-19, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2023-05-07, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -20,24 +20,8 @@ part of my free time. I apologize for any inconveniences.
 Writing
 -------
 
-I'm right now expanding on the following texts:
-
-* [Notes](./notes.html)
-	* [Notes on Ethics](./notes_on_ethics.html)
-	* [Notes on Pickup](./notes_on_pickup.html)
-	* [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
-* [Reports](./reports.html)
-	* [Pickup Reports](./pickup_reports.html)
-* Forecasting
-	* [Precision of Sets of Forecasts](./precision.html)
-	* [Forecasters! What Do They Know? Do They Know Things?? Let's Find Out!](./forecasters.html)
-* [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
-* [Prepare to Leave the Internet](./leave.html)
-* [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)
-* [Generalizing the Diamond-Square Algorithm to n Dimensions](./diamond.html)
-* [Circle Combinations](./circle_combinations.html)
-* [Types & Methods of Data Collection I Use](./data.html)
-* [If I Were An Eccentric Trillionaire](./eccentric.html)
+Curently I'm mostly working on an expanded version of [Turning Some
+Inconsistent Preferences into Consistent Ones](./turning.html).
 
 I'm also planning a full edit of all texts on the website, but don't
 have a fixed date to get started on that at the moment.
@@ -70,10 +54,4 @@ Currently, I am actively reading the following books:
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
 * Theory of Games and Economic Behavior (John von Neumann/Oskar Morgenstern, 1953)
-
-I am also reading the [Invertebrate Welfare
-Sequence](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6),
-[The Moral Weight Project
-Sequence](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw)
-and the top posts from the [2021 LessWrong
-Review](https://www.lesswrong.com/posts/zajNa9fdr8JYJpxrG/voting-results-for-the-2021-review).
+* Worm (Wildbow, 2013)

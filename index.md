@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2023-04-14, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2023-05-07, language: english, status: in progress, importance: 6, confidence: log*
 
 Content
 =======
@@ -44,16 +44,22 @@ Writing
 * [Pipe Rings](./pipe_rings.html)
 * [K-99: Ninety-Nine Klong Problems](./99_klong_problems.html)
 * [99 Problems Klong Solution](./99_problems_klong_solution.html)
+* [Generalizing the Diamond-Square Algorithm to n Dimensions](./diamond.html)
 
 #### Quantified Self
 
 * [Types & Methods of Data Collection I Use](./data.html)
 * [Nootropics](./nootropics.html)
 
-#### Cost-Benefit Analyses
+#### Practical
 
+* [Prepare to Leave The Internet](./leave.html)
 * [Considerations on Cryonics](./considerations_on_cryonics.html)
+
+##### Pick-Up
+
 * [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
+* [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)
 
 #### Mathematics
 
@@ -83,7 +89,6 @@ Writing
 * [Progress in Qualia](./qualia.html)
 * [Life Advice](./life_advice.html)
 * [If I Were An Eccentric Trillionaire](./eccentric.html)
-* [Prepare to Leave The Internet](./leave.html)
 
 #### Textbooks
 
