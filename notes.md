@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2023-05-05, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2023-05-08, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1353,6 +1353,14 @@ Pet Peeves
 ![Text: "paranoia is a profession. And so LeAIthan represents the most advanced ef[line split on ligature here]fort yet in AI alignment, using *factored* cognition—splitting up into a"](./img/pet_peeves/ff_split.png "Image of text: “paranoia is a profession. And so LeAIthan represents the most advanced ef[line split on ligature here]fort yet in AI alignment, using *factored* cognition—splitting up into a”")
 
 ![Image of text: "the more rigorous the experiment, the smaller the effect. The respons to this is of[split on ligature here]ten to not explain how merely flipping a coin can make genuine effects disappear"](./img/pet_peeves/ft_split.png "Image of text: “the more rigorous the experiment, the smaller the effect. The respons to this is of[split on ligature here]ten to not explain how merely flipping a coin can make genuine effects disappear”")
+
+* Unicode
+	* Unicode *does not* include all letters as subscripts or superscripts.
+		* For the subscripts, following lowercase letters are missing: b, c, d, f, g, q, w, y, z.
+		* For the superscripts, following uppercase letters are missing: S, X, Y, Z.
+		* It has no uppercase subscript Latin letters.
+	* It does not have a percentage sign '%' or full stop '.' as a subscript.
+	* Unicode does not distinguish between a dollar sign with one or two strokes.
 
 Was Software Security in the Aughts Exceptionally Bad?
 -------------------------------------------------------

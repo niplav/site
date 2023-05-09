@@ -1954,6 +1954,7 @@ Wikipedia Articles
 * Devonian Toolkit
 	* `https://www.annualreviews.org/doi/full/10.1146/annurev-ento-011613-162041`
 * Participation (social choice theory)
+* Banks Set (social choice theory)
 
 ### Improve
 
@@ -2005,6 +2006,9 @@ Wikipedia Articles
 * Markov information source: string '00' at the end of the 'Formal definition' section.
 * Sophistication (complexity theory)
 * Redirect List of smallest mammals to Smallest organisms
+* Add IPA for MECE pronounciation part
+* Landau set
+	* Add some true facts about the Landau set (look at notes)
 
 Lesswrong wiki
 ---------------

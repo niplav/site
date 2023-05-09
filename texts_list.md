@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-05-07, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-05-08, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,12 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Technology Holy Wars are Coordination Problems (Gwern Branwen, 2020)](https://gwern.net/holy-war)
+* [Fake Journal Club: Teaching Critical Reading (Gwern Branwen, 2023)](https://gwern.net/fake-journal-club)
+* [A note on “instrumental rationality” (Eli Tyre, 2023)](https://musingsandroughdrafts.com/2023/02/13/a-note-on-instrumental-rationality/)
+* [My current summary of the state of AI risk (Eli Tyre, 2023)](https://musingsandroughdrafts.com/2023/02/17/my-current-summary-of-the-state-of-ai-risk/)
+* [Investing in wayfinding, over speed (Eli Tyre, 2023)](https://musingsandroughdrafts.com/2023/03/04/investing-in-wayfinding-over-speed/)
+* [Inner and outer alignment decompose one hard problem into two extremely hard problems (TurnTrout, 2022)](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/gHefoxiznGfsbiAu9)
 * [Catching the Spark (Logan Strohl, 2021)](https://www.lesswrong.com/posts/9cbEPEuCa9E7uHMXT/catching-the-spark)
 * [Thoughts on the STEM “class” (tsu, 2016)](https://tsutsifrutsi.tumblr.com/post/139992202409/thoughts-on-the-stem-class)
 * [Programming Language Checklist (Colin McMillen/Elly Fong-Jones/Jason Reed, 2011)](https://www.mcmillen.dev/language_checklist.html)

@@ -1737,3 +1737,5 @@
 2023-05-04T22:18:28.000000Z	How long is *your* fundamental OODA loop?
 2023-05-05T23:50:30.000000Z	faux-translating “estrogeno” from esperanto, it means master-hormone or master-chemical
 2023-05-07T11:30:37.000000Z	performing a million moleFLOP on the common crawl to cultivate a new gradientspawn
+2023-05-08T20:43:51.000000Z	Unicode doesn't distinguish between a dollar sign with one and a dollar sign with two strokes, which makes me sad.
+2023-05-08T21:08:23.000000Z	e/acc: epistemic accelerationism
