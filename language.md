@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2023-04-15, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2023-05-08, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of puns, good bandnames, types of guy,
 idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
@@ -203,12 +203,9 @@ Programmers often have to use the ASCII special characters
 "exclamation mark" has proven to be cumbersome, which made programmers
 introduce (or use) their own names for these characters.
 
-Existing<!--TODO: find sources-->:
+Some proposed names for these<!--TODO: find sources-->:
 
 * '!': Bang
-
-Personal proposals:
-
 * '()': Parens
 * '[]': Brackets
 * '{}': Braces
@@ -220,15 +217,9 @@ Asymmetries in Languages
 
 ### German
 
-Wenn man das weibliche Gegenstück zum "Patriarchen" benennen will,
-welches Wort verwendet man? Üblicherweise ist die Antwort "die
-Matriarchin", aber das Wort ist redundant: das Geschlecht wird sowohl
-durch das "-in" Postfix als auch das Präfix "Matr-" signalisiert —
-aber das Wort "Matriarch" klingt bestenfalls merkwürdig. Was tun?
-
-0.5 vs. 1/2
-
-keine vs. null
+* Wenn man das weibliche Gegenstück zum "Patriarchen" benennen will, welches Wort verwendet man? Üblicherweise ist die Antwort "die Matriarchin", aber das Wort ist redundant: das Geschlecht wird sowohl durch das "-in" Postfix als auch das Präfix "Matr-" signalisiert — aber das Wort "Matriarch" klingt bestenfalls merkwürdig. Was tun?
+* Wenn man "0,5 Eier" sagt, ist "Eier" im Plural, aber bei "½ Ei" ist "Ei" im Singular. Wieso?
+* Man kann zwischen "keine Pferde" und "kein Pferd" unterscheiden (Žižek approves), aber nicht zwischen "null Pferde" und "null Pferd".
 
 ### English
 
@@ -392,12 +383,13 @@ Better Words
 <!--TODO: links and a planecrash quote-->
 
 * [dist(s)](https://en.wikipedia.org/wiki/Probability_Distribution): 8 syllables saved compared to "probability distribution(s)"
-* [prob](https://en.wikipedia.org/wiki/Probability): 4 syllables saved over "probability", closest colliding word is [prop](https://en.wikipedia.org/wiki/prop_\(disambiguation\)), which is not particularly common
+* [prob(s)](https://en.wikipedia.org/wiki/Probability): 4 syllables saved over "probabilit{y,ies}", closest colliding word is [prop](https://en.wikipedia.org/wiki/prop_\(disambiguation\)), which is not particularly common
 * [vopi](https://en.wikipedia.org/wiki/Expected_value_of_perfect_information): 10 syllables saved over "expected value of perfect information", alternative spellings could be "evopi" or "evoi" or "voi" (removing perfection or expectation)
 * [batna](https://en.wikipedia.org/wiki/Best_alternative_to_a_negotiated_agreement): 13 syllables saved over "Best alternative to a negotiated agreement", perhaps acustically too close to "batman"
 * [botec](https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation): 8 syllables saved over "back-of-the-envelope calculation"
 * [exval](https://en.wikipedia.org/wiki/Expected_value): 3 syllables saved compared to "expected value"
 * [ifef](https://en.wikipedia.org/wiki/If_and_only_if): 3 syllables saved over "if and only if"<!--TODO: add link to LessWrong post on this-->
+* [mece](https://en.wikipedia.org/wiki/MECE_principle)<!--TODO: IPA-->: 12 syllables saved over "[mutually exclusive](https://en.wikipedia.org/wiki/Mutual_exclusivity) and [collectively exhaustive](https://en.wikipedia.org/wiki/Collectively_exhaustive_events)"
 
 Good Bandnames
 ---------------
@@ -406,6 +398,15 @@ Good Bandnames
 * [Memetic Immune Disorder](https://www.lesswrong.com/posts/aHaqgTNnFzD7NGLMx/reason-as-memetic-immune-disorder)
 * Contextual Bandits (seen in [Amodei et al. 2016](./doc/cs/ai/alignment/overview/concrete_problems_in_ai_safety_amodei_et_al_2016.pdf "Concrete Problems in AI Safety"))
 * [Hypercarcinisation](https://en.wikipedia.org/wiki/Carcinisation#Hypercarcinisation)
+
+Fake Esperanto Translations
+----------------------------
+
+* "harari": Hairing a lot
+* "akira": Having the property of acquiring
+* "flamingo": Flammability
+* "estrogeno": Master gene
+* "neniel": A biblical angel
 
 Advertising Lines
 ------------------
@@ -419,6 +420,7 @@ Advertising Lines
 * Niplav Yushtun™: Calibration of the Intellect, Optimism of the Will
 * Niplav Yushtum™: Mostly a Reputation Hazard
 * Niplav Yushtum™: Midwit With High Need for Cognition
+* Niplav Yushtun™: Can It Export the Data to CSV?
 
 Unclaimed Domain Names
 -----------------------
@@ -436,6 +438,7 @@ Unclaimed Domain Names
 * https://polyhazardous.space
 * https://bigtiddygoth.gf
 * https://egregome.industries
+* https://hell.network
 
 Missing Emojis
 ---------------

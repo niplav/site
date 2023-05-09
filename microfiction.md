@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2023-04-03, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2023-05-08, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __Very small pieces of fiction and things that are sufficiently like
 fiction.__
@@ -370,6 +370,14 @@ spot on the happiness/productivity Pareto frontier, dummy.”
 > B: “What?”  
 > A: “Was that an acustic, syntactic or semantic ‘What?’?”  
 > B: “……… What?”
+
+----
+
+> “…and we can probably plan for middle of March thi…ah, hello! Mister Yudkowsky! I hope you found—”  
+> “Rename your company to ClosedAI.”  
+> “Uh……”  
+>  “Rename your company to ClosedAI. Stop your biggest training runs. Pivot to mechanistic interpretability. Shut it all down.”  
+>  “………Selfie?”
 
 ### Things to Shout
 
