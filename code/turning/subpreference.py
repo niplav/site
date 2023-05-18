@@ -19,8 +19,6 @@ for i in range(0,5):
 		subprefs=turn.maximal_consistent_subgraphs(g)
 		check_subprefs(subprefs, turnings, g)
 
-exit(1)
-
 lim=16
 samples=1024
 

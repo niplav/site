@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-04-04, modified: 2023-04-24, language: english, status: notes, importance: 7, confidence: highly likely*
+*author: niplav, created: 2022-04-04, modified: 2023-05-10, language: english, status: notes, importance: 7, confidence: highly likely*
 
 > __Beginnings of a research agenda about [judgmental
 forecasting](https://en.wikipedia.org/wiki/Forecasting#Judgmental_methods).__
@@ -42,6 +42,8 @@ How Good Are We At forecasting?
 	* How quickly does our forecasting ability decrease with increasing range of the question/forecast?
 		* Does it decrease at all, or just oscillate wildly?
 		* How quickly does performance degrade in different categories of questions (finance, meteorology, global economics, technological development) and by different forecasters (prediction markets, superforecasters & teams)?
+	* Are there people who are better long-term forecasters and people who are better short-term forecasters?
+		* See [here](https://twitter.com/Simeon_CPS/status/1655277260524453892)
 * How good are our forecasts on low-probability events?
 * How good are our forecasts on extinction events?
 * How good are our forecasts in situations where we have historical discontinuities?
@@ -75,6 +77,7 @@ How Can We Become Better At Forecasting?
 		* Accuracy compared to others
 		* Importance of question
 	* That incentivize collaboration and positive-sum interactions instead of information-hiding
+		* The literature on information elicitation could be useful here
 * How can we compare the skill and reliability of forecasters to one another?
 	* Metaculus at the moment does this by "who writes good comments". That seems inadequate.
 	* Taking into account:
@@ -86,8 +89,8 @@ How Can We Become Better At Forecasting?
 		* Compare using a scoring rule on any question the forecasters predicted on
 		* Compare using a scoring rule on the intersection of the questions the forecasters predicted on
 	* Two functions of scoring rules: Rewarding or comparing forecasters
-	* Related field: information elicitation
-		* See also: Chapter 27 from Algorithmic Game Theory (Nisan et al. 2007)
+	* Related field: honest reporting and information elicitation
+		* See also: Section 27.4.2 from Algorithmic Game Theory (Nisan et al. 2007)
 
 ### Difficult Types of Questions
 
