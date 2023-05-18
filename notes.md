@@ -1860,7 +1860,9 @@ Properties of Good Textbooks
 -----------------------------
 
 Heuristics for choosing/writing good textbooks (see also
-[here](https://docs.google.com/document/d/e/2PACX-1vTkqKg5IxCmPbw7JqnAWxoypaYNFH3XJd4UgYw4PufP09zzzW6j3v-CYXZkpD83sVrzygvg7gLbjM_Q/pub)):
+[here](https://docs.google.com/document/d/e/2PACX-1vTkqKg5IxCmPbw7JqnAWxoypaYNFH3XJd4UgYw4PufP09zzzW6j3v-CYXZkpD83sVrzygvg7gLbjM_Q/pub)
+and
+[here](https://wiki.issarice.com/wiki/What_makes_a_word_explanation_good%3F)):
 
 * Has exercises
 	* Exercises are interspersed in the text, not in large chunks (better at the end of sections, not just at the end of chapters).

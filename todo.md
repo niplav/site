@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2023-05-05, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2023-05-18, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -337,7 +337,11 @@ Texts
 	* If the future optimization trajectory along a dimension in the limit moves the value of that dimension to the maximum/minimum, don't do that.
 	* The optimal amount of anything is not the most extreme amount
 * Capable Artificial Alignment Theorists Appear Plausible
-* Shard Theory and the Indirect Realist Turn
+* Goal Misgeneralization along Ontological Shifts
+	* Shard Theory and the Indirect Realist Turn is a subcase
+	* Diamond turns into Diamond#1 and Diamond#2, latent and directly observed diamond. Which to generalize to?
+* Establishing a Theory of Establishing Coherence
+* Which Coherence Axioms are Hard to Violate? Which Easy?
 
 ### Pick Up
 
@@ -970,12 +974,13 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Your policy depends on 19th century theorizing for which there exists near-zero empirical work
 	* Your policy depends on a [dynamic stochastic general equilibrium](https://en.wikipedia.org/wiki/Dynamic_stochastic_general_equilibrium) model with 200 free parameters tracking reality perfectly
 	* Furthermore, all predictions your model has made look like this:
-		* [Chart here where the predicted trends always fail to materialize
+		* Chart here where the predicted trends always fail to materialize
 	* Your policy is a variant of universal basic income
 	* Your policy just reinvents land-value taxes, badly
 	* Your policy sneakily redistributes money from poor to rich people
 	* Your policy assumes the cost of coordination is zero
 		* is negative
+		* is positive but ridiculously small
 	* You actually have no idea what a failure/success of your policy would look like
 	* Your policy only works if every country on earth adopts it at the same time
 	* Your policy would fix:
@@ -992,6 +997,8 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Your policy assumes your country will never become a dictatorship
 	* Your policy assumes your country will always stay a dictatorship
 	* Your policy is a pareto-worsening
+	* Living under your policy is anadequate punishment for coming up with it.
+* Dutch-books for Agents That Implement Incompleteness via Randomization
 
 ### Collections
 
@@ -1243,7 +1250,7 @@ Game. Even those odds likely overstate the number of Players in the world.
 	* Fixing My Voice
 	* Experiments with Butt Stuff
 	* Fixing my Posture
-* Lessons in Instrumental Rationality from Approaching 360 Women in the Street
+* Lessons in Instrumental Rationality from Approaching 600 Women in the Street
 	* I Solved a Big Problem in My Life: Not Having Sex
 * A Typical Daygame Session
 * A Typical Meditation Session
@@ -1327,6 +1334,7 @@ Game. Even those odds likely overstate the number of Players in the world.
 * Emily in Paris
 * Practical Insight Meditation
 * There is No Antimemetics Division
+* Worm
 
 ### Interviews
 
@@ -1955,6 +1963,7 @@ Wikipedia Articles
 	* `https://www.annualreviews.org/doi/full/10.1146/annurev-ento-011613-162041`
 * Participation (social choice theory)
 * Banks Set (social choice theory)
+* Slater's problem
 
 ### Improve
 
@@ -2125,3 +2134,4 @@ In-World Projects
 * Improve harbergertax.com
 * Startup: Generalized prediction market alert system à la https://hasrussialaunchednukesyet.com/
 * Startup: RCTs as a service
+* https://hasbetelgeusegonesupernovayet.com

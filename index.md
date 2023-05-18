@@ -58,6 +58,8 @@ Writing
 
 ##### Pick-Up
 
+* [Pickup Reports](./pickup_reports.html)
+* [Notes on Pickup](./notes_on_pickup.html)
 * [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
 * [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)
 
@@ -109,14 +111,9 @@ Writing
 
 * [Notes](./notes.html)
 * [Notes on Ethics](./notes_on_ethics.html)
-* [Notes on Pickup](./notes_on_pickup.html)
 * [Notes on Predictions](./notes_on_predictions.html)
 * [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
-
-#### Reports
-
 * [Reports](./reports.html)
-* [Pickup Reports](./pickup_reports.html)
 
 ### Fiction
 

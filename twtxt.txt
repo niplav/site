@@ -1739,3 +1739,20 @@
 2023-05-07T11:30:37.000000Z	performing a million moleFLOP on the common crawl to cultivate a new gradientspawn
 2023-05-08T20:43:51.000000Z	Unicode doesn't distinguish between a dollar sign with one and a dollar sign with two strokes, which makes me sad.
 2023-05-08T21:08:23.000000Z	e/acc: epistemic accelerationism
+2023-05-10T08:04:00.000000Z	gimli voice: they call it a *site*
+2023-05-10T09:30:10.000000Z	midjourney prompts: the buddha as a roman senator
+2023-05-10T09:30:17.000000Z	roman buddhists
+2023-05-10T10:26:59.000000Z	steelmanning benefits the steelmanner
+2023-05-10T12:32:39.000000Z	snitches get stitches, bitches get skritches
+2023-05-10T14:55:09.000000Z	WAIT WHAT DID ZIZ GET HER NAME FROM ONE OF THE ENDBRINGERS FROM WORM‽
+2023-05-10T20:46:38.000000Z	von Neumann: I came up with this new system that generalizes probability theory to consider convex sets instead of point estimates. I think that I could use this to prove regret bounds…
+2023-05-10T20:47:24.000000Z	“…still working on the frugal priors though”
+2023-05-10T20:58:14.000000Z	no Eliezer you're wrong Runaround is about tiling agents,
+2023-05-10T21:32:34.000000Z	from a computational complexity perspective, completeness is the “worst” axiom to violate: only O(n²) to find a violation
+2023-05-11T18:24:25.000000Z	productivity under anxiety is a repulsive fixed point (you might even feel worse the closer you get to what you should be doing)
+2023-05-12T10:23:05.000000Z	“nubile” should mean cloud-like
+2023-05-13T14:23:46.000000Z	Shapley values are NP-hard to compute, right?
+2023-05-15T18:47:21.000000Z	draining the baby out with the bathwater
+2023-05-17T15:54:13.000000Z	do *not* mix up creatine and ketamine. worst border control of my life.
+2023-05-17T16:02:53.000000Z	my experience reading Worm so far: 0%-20%: Taylor no! 20%-50%: lol. lmao 50%: gniihihihihi descriptionfucking
+2023-05-17T16:22:16.000000Z	“You can't take that! That's my emotional-support Pareto improvement”

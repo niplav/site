@@ -51,6 +51,23 @@ def is_consistent(graph):
 			return True
 	return False
 
+def is_largest(c, g):
+	for n in g.nodes():
+		if n==c:
+			continue
+		if (n,c) in g.edges():
+			return False
+		if not (c,n) in g.edges():
+			return False
+	return True
+
+def get_largest(g):
+	largest=None
+	for n in g.nodes():
+		if is_largest(n,g):
+			largest=n
+	return largest
+
 def maximal_consistent_subgraphs(graph):
 	maximal_consistencies=set()
 	for p in reversed(powerset(graph.nodes)):

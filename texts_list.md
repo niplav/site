@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-05-08, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-05-12, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,11 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Ivermectin: Much More Than You Wanted To Know (Scott Alexander, 2021)](https://astralcodexten.substack.com/p/ivermectin-much-more-than-you-wanted)
+* [Descartes snark (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Descartes_snark)
+* [The Narrowing Circle (Gwern Branwen, 2019)](https://gwern.net/narrowing-circle)
+* On Cliques in Graphs (J.W. Moon/L. Moser, 1965)
+* [Concave Utility Question (Scott Garrabrant, 2023)](https://www.lesswrong.com/posts/uJnR4YmG5Kq9FfTey/concave-utility-question)
 * [Technology Holy Wars are Coordination Problems (Gwern Branwen, 2020)](https://gwern.net/holy-war)
 * [Fake Journal Club: Teaching Critical Reading (Gwern Branwen, 2023)](https://gwern.net/fake-journal-club)
 * [A note on “instrumental rationality” (Eli Tyre, 2023)](https://musingsandroughdrafts.com/2023/02/13/a-note-on-instrumental-rationality/)
