@@ -150,6 +150,12 @@ about human values vs. general training data, BCIs supply those.-->
 Brain-Computer Interfaces and AI Alignment
 ===========================================
 
+> There was only one serious attempt to answer it. Its author said that
+machines were to be regarded as a part of man's own physical nature,
+being really nothing but extra-corporeal limbs.
+
+*—Samuel Butler<!--TODO: link-->, “Erewhon”<!--TODO: link-->, 1872*
+
 As a response to Elon Musk declaring that [NeuraLink's purpose is to
 aid AI alignment](https://www.youtube.com/watch?v=ycPr5-27vSI&t=1447s),
 [Muehlhauser

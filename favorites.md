@@ -1,7 +1,7 @@
 [home](./index.html)
 ---------------------
 
-*author: niplav, created: 2022-06-18, modified: 2022-10-03, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2022-06-18, modified: 2023-06-12, language: english, status: draft, importance: 2, confidence: log*
 
 > Idea & format stolen shamelessly from [Gavin
 Leech](https://www.gleech.org/favs/all/).
@@ -314,12 +314,6 @@ Computers
 
 Media
 ------
-
-<!--
-### Podcasts
-
-### Podcast Episodes
--->
 
 My favorite movies are [Rango](https://www.imdb.com/title/tt1192628/),
 [District 9](https://www.imdb.com/title/tt1136608/), [Rogue

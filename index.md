@@ -44,7 +44,6 @@ Writing
 * [Pipe Rings](./pipe_rings.html)
 * [K-99: Ninety-Nine Klong Problems](./99_klong_problems.html)
 * [99 Problems Klong Solution](./99_problems_klong_solution.html)
-* [Generalizing the Diamond-Square Algorithm to n Dimensions](./diamond.html)
 
 #### Quantified Self
 
@@ -53,13 +52,11 @@ Writing
 
 #### Practical
 
-* [Prepare to Leave The Internet](./leave.html)
 * [Considerations on Cryonics](./considerations_on_cryonics.html)
 
 ##### Pick-Up
 
 * [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
-* [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)
 
 #### Mathematics
 
@@ -111,7 +108,6 @@ Writing
 * [Notes on Ethics](./notes_on_ethics.html)
 * [Notes on Pickup](./notes_on_pickup.html)
 * [Notes on Predictions](./notes_on_predictions.html)
-* [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
 
 #### Reports
 

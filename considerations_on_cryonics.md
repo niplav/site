@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2023-03-20, language: english, status: maintenance, importance: 7, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2023-06-12, language: english, status: maintenance, importance: 7, confidence: remote*
 
 > __Is [cryonics](https://en.wikipedia.org/wiki/Cryonics)
 worth it, and if yes, should one
@@ -390,6 +390,8 @@ The following assumptions will be made in the implementation:
 	their membership starting from that year.
 
 ![Inflation adjusted historical cryonics prices](https://timelines.issarice.com/images/7/79/Historical_cost_of_cryonics%2C_inflation_adjusted.png "Inflation adjusted historical cryonics prices")
+
+<!--TODO: make this image local-->
 
 The implementation is quite straightforward:
 
@@ -915,6 +917,8 @@ Calculating the mean of these results in a chance of ~13%:
 <div>
 	$$\frac{0.2\%+15\%+13\%+77\%+85\%+6\%+23\%+9\%+17\%+0.2\%+1100*18\%+59*12\%+117*16\%+407*2\%+0.04\%+0.223\%+29\%+6.71\%+14.86\%+0.23\%+22.8\%}{1700} \approx 13.83\%$$
 </div>
+
+<!--TODO: use a better method for aggregation, such as geometric mean of log-odds or Neyman aggregation, for this-->
 
 It would certainly be interesting to set up a prediction market for this
 question, or get a team of superforecasters to estimate it, but basically,

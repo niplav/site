@@ -3,12 +3,16 @@ import networkx as nx
 
 import turn
 
+def turn_summary(g):
+	confusion=len(turn.turn_all(g))
+	print('{0},{1},"{2}"'.format(len(g.nodes), confusion, g.edges))
+
 for i in range(0,5):
 	graphs=turn.all_directed_graphs(i)
 	for g in graphs:
-		print('{0},{1},"{2}"'.format(i, len(turn.turn_all(g)), g.edges))
+		turn_summary(g)
 
-turn.collect_all_5()
+turn.map_5_graphs(turn_summary)
 
 lim=16
 samples=65536

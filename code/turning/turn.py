@@ -9,9 +9,10 @@ def turn(graph):
 	worlds=list(graph.nodes)
 	for perm in it.permutations(worlds):
 		perm=list(perm)
+		# Probably better to use nx.path_graph() with some constructor
 		pathgraph=nx.DiGraph()
 		for i in range(0, len(worlds)):
-			pathgraph.add_node(worlds[i], ind=i)
+			pathgraph.add_node(worlds[i], ind=i+1)
 		# The transitive closure over this particular path graph
 		# Simplify to nx.algorithms
 		for i in range(0, len(perm)-1):
@@ -31,7 +32,7 @@ def turn_all(graph):
 		perm=list(perm)
 		pathgraph=nx.DiGraph()
 		for i in range(0, len(worlds)):
-			pathgraph.add_node(worlds[i], ind=i)
+			pathgraph.add_node(worlds[i], ind=i+1)
 		for i in range(0, len(perm)-1):
 			pathgraph.add_edge(perm[i], perm[i+1])
 		pathgraph=nx.algorithms.dag.transitive_closure(pathgraph)
@@ -43,11 +44,83 @@ def turn_all(graph):
 			results.add(pathgraph)
 	return results
 
+def stepwise(graph):
+	decycleds=set()
+	solutions=set()
+
+	graph.remove_edges_from([(x,x) for x in graph.nodes])
+
+	if is_consistent(graph):
+		return set([graph])
+
+	if is_acyclic(graph):
+		decycleds.add(graph)
+	else:
+		mfass=minimal_feedback_arc_sets(graph)
+		for mfas in mfass:
+			decycled=nx.DiGraph(graph)
+			decycled.remove_edges_from(mfas)
+			decycleds.add(decycled)
+
+	for decycled in decycleds:
+		if is_consistent(decycled):
+			solutions.add(decycled)
+			continue
+
+		solutions.update(set(totalizations(decycled)))
+
+	return solutions
+
+def totalizations(graph):
+	if len(list(graph.nodes()))==0:
+		return [graph]
+
+	solutions=list()
+	indegrees=dict(graph.in_degree())
+
+	for k,v in indegrees.items():
+		if v==0:
+			ablated=nx.DiGraph(graph)
+			ablated.remove_node(k)
+			totalized=totalizations(ablated)
+			for t in totalized:
+				t.add_node(k)
+				for n in t.nodes():
+					t.add_edge(k, n)
+				t.remove_edge(k,k)
+			solutions=solutions+totalized
+
+	return solutions
+
+def is_acyclic(graph):
+	try:
+		cycles=nx.find_cycle(graph, orientation="original")
+	except nx.NetworkXNoCycle:
+		return True
+	return False
+
+def minimal_feedback_arc_sets(graph):
+	edges=list(graph.edges)
+	nedges=len(edges)
+	mfas=[]
+	found_minimal=False
+	for i in range(0,nedges):
+		candidates=it.combinations(edges, i)
+		for c in candidates:
+			graph.remove_edges_from(c)
+			if is_acyclic(graph):
+				found_minimal=True
+				mfas.append(c)
+			graph.add_edges_from(c)
+		if found_minimal==True:
+			break
+	return mfas
+
 def is_consistent(graph):
 	try:
 		cycles=nx.find_cycle(graph, orientation="original")
 	except nx.NetworkXNoCycle:
-		if nx.algorithms.tournament.is_tournament(graph) and len(graph.edges)>0:
+		if nx.algorithms.tournament.is_tournament(graph):
 			return True
 	return False
 
@@ -112,73 +185,25 @@ def all_nonref_directed_graphs(n):
 				newgraphs.append(gnew)
 	return newgraphs
 
-def collect_all_5():
+def map_5_graphs(f, reflexive=True):
 	n=5
 	saved=dict()
 	graphs=all_directed_graphs(n-1)
 	i=1
 	for g in graphs:
 		g.add_node(n, ind=n)
-		for tosubset in powerset(range(1, n+1)):
+		if reflexive==True:
+			limit=n+1
+		else:
+			limit=n
+		for tosubset in powerset(range(1, limit)):
 			for fromsubset in powerset(range(1, n)):
 				gnew=g.copy()
 				for element in tosubset:
 					gnew.add_edge(n, element)
 				for element in fromsubset:
 					gnew.add_edge(element, n)
-				confusion=len(turn_all(gnew))
-				print('{0},{1},"{2}"'.format(5, confusion, gnew.edges))
-
-def collect_all_nonref_5():
-	n=5
-	saved=dict()
-	graphs=all_nonref_directed_graphs(n-1)
-	i=1
-	for g in graphs:
-		g.add_node(n, ind=n)
-		for tosubset in powerset(range(1, n)):
-			for fromsubset in powerset(range(1, n)):
-				gnew=g.copy()
-				for element in tosubset:
-					gnew.add_edge(n, element)
-				for element in fromsubset:
-					gnew.add_edge(element, n)
-				confusion=len(turn_all(gnew))
-				print('{0},{1},"{2}"'.format(5, confusion, gnew.edges))
-
-def collect_all_nonref_5_cache():
-	n=5
-	saved=dict()
-	graphs=all_nonref_directed_graphs(n-1)
-	i=1
-	for g in graphs:
-		g.add_node(n, ind=n)
-		for tosubset in powerset(range(1, n)):
-			for fromsubset in powerset(range(1, n)):
-				gnew=g.copy()
-				for element in tosubset:
-					gnew.add_edge(n, element)
-				for element in fromsubset:
-					gnew.add_edge(element, n)
-				save_graph(saved, gnew)
-
-def save_graph(saved, g):
-	gdeg=",".join(sorted(str(d) for (n,d) in g.degree()))
-	if not gdeg in saved.keys():
-		saved[gdeg]=dict()
-		confusion=len(turn_all(g))
-		saved[gdeg][g]=confusion
-		print('{0},{1},"{2}"'.format(5, confusion, g.edges))
-	else:
-		inthere=False
-		for h in saved[gdeg].keys():
-			if isomorph.is_isomorphic(g, h):
-				inthere=True
-				print('{0},{1},"{2}"'.format(5, saved[gdeg][h], g.edges))
-		if not inthere:
-			confusion=len(turn_all(g))
-			saved[gdeg][g]=confusion
-			print('{0},{1},"{2}"'.format(5, confusion, g.edges))
+				f(gnew)
 
 smallworld=['a', 'b', 'c']
 smallgraph=nx.DiGraph()
