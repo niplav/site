@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2023-05-08, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2023-06-16, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -215,7 +215,7 @@ weaker agent `$A_{w}$` with the goal of learning as much as possible. If
 than `$A_{w}$`, it can then stop `$A_{w}$`, extract `$v_{m}$` using a
 weak agent that isn't strong enough to be influenced by action-compelling
 sentences, and let that weak agent compute `$h_{m}=\text{hash}(v_{m})$`<!--TODO:
-link quote that says that every cryoptographer can design a code that he
+link quote that says that every cryptographer can design a code that he
 can't crack: https://en.wikipedia.org/wiki/Bruce_Schneier#Cryptography,
 but I don't see how that's relevant here-->. `$h_{m}$` could then be
 added to a weak separate internal system that replaces `$v_{m}$` with
@@ -740,16 +740,41 @@ on birth control measures.
 Trigger-Action Plans
 ---------------------
 
-This is a list of some trigger-action plans I have installed/will install.
+This is a list of some trigger-action plans I have installed (for which
+I've found spaced repetition to be very useful).
 
 ### Installed
 
 1. After happiness, more happiness
-	* Trigger: I enter my current happiness on Mood Patterns
+	* Trigger: I enter my current happiness on Mood Patterns, and it shows me Mindfulness as an action
 	* Action: Focus on 10 breaths
 2. Got your keys
 	* Trigger: I grab the handle of the door outside my apartment
 	* Action: I feel in my pocket whether the keys are there
+3. Knuckle-cracking
+	* Trigger: I crack my knuckles
+	* Action: I adjust my posture
+4. Nail-biting
+	* Trigger: I notice myself biting my nails
+	* Action: I put my hands on a desk/my lap, and focus on each of my fingertips for one in-out breath
+5. Alarm
+	* Trigger: I hear my alarm
+	* Action: I get out of bed
+6. Something is bad
+	* Trigger: I feel bad/uncomfortable, in any way
+	* Action: I start noting my sensations
+7. No unwilling Wikipedia deep-dives
+	* Trigger: I type the 'x' of "Kiwix" to open the application
+	* Action: I set a 10-minute timer
+8. Mental jitteriness
+	* Trigger: I notice that I can't concentrate on anything, despite the circumstances being good for it (no internet, time set aside for deep work)
+	* Action: I do 10 burpees
+9. Toilet paper present
+	* Trigger: I sit down on a toilet
+	* Action: I look for/feel for toilet paper
+10. Doorframe
+	* Trigger: I walk through a doorframe
+	* Action: I straighten my back, put my shoulders back
 
 ### Dropped
 
@@ -759,33 +784,6 @@ This is a list of some trigger-action plans I have installed/will install.
 2. Disabling web blocker
 	* Trigger: I try to disable Leechblock in my browser
 	* Action: I take a walk around the block
-
-### To Be Installed
-
-1. Knuckle-cracking
-	* Trigger: I crack my knuckles
-	* Action: I adjust my posture
-2. Nail-biting
-	* Trigger: I notice myself biting my nails
-	* Action: I put my hands on a desk/my lap, and focus on each of my fingertips for one in-out breath
-3. Alarm
-	* Trigger: I hear my alarm
-	* Action: I get out of bed
-4. Something is bad
-	* Trigger: I feel bad/uncomfortable, in any way
-	* Action: I start noting my sensations
-5. No unwilling Wikipedia deep-dives
-	* Trigger: I type the 'x' of "Kiwix" to open the application
-	* Action: I set a 10-minute timer
-6. Mental jitteriness
-	* Trigger: I notice that I can't concentrate on anything, despite the circumstances being good for it (no internet, time set aside for deep work)
-	* Action: I do 20 burpees
-7. Toilet paper present
-	* Trigger: I sit down on a toilet
-	* Action: I look for/feel for toilet paper
-8. Posture (again)
-	* Trigger: I walk through a doorframe
-	* Action: I straighten my back, put my shoulders back
 
 ### See Also
 
@@ -1348,6 +1346,8 @@ Pet Peeves
 * Websites that offer two-factor authentication, but don't allow physical authentication keys and, worse, don't offer an option to backup those two-factor authentication methods
 * Applications that create visible new folders (or very large folders) in my home directory
 	* Examples include snap, DogeCoin, julia
+* Sinks are weirdly badly designed: Why is the end of the faucet so close to the back end of the sink? Why is it so close to the bottom of the sink? I don't see a good reason why the water shouldn't be directed to the middle of the sink, and the faucet be high up (for ample space for hands).<!--TODO: maybe images here-->
+* Microwaves and refridgerators have a great deal of controls that I believe ~all people don't use (the only control I use on a microwave is setting the duration, but I could see a reason for the energy dial; refridgerators need at most one dial (for setting the temperature). Why do they persist? Do consumers really (and erroneously) factor the presence of many dials into their purchase decision? Are companies simply falling prey to feature creep, and the cost of those features isn't large enough to make a difference?<!--TODO: link feature creep-->
 * Browsers splitting words at a newline on an ﬀ or ﬅ ligature:
 
 ![Text: "paranoia is a profession. And so LeAIthan represents the most advanced ef[line split on ligature here]fort yet in AI alignment, using *factored* cognition—splitting up into a"](./img/pet_peeves/ff_split.png "Image of text: “paranoia is a profession. And so LeAIthan represents the most advanced ef[line split on ligature here]fort yet in AI alignment, using *factored* cognition—splitting up into a”")
@@ -1505,7 +1505,8 @@ can also sometimes establish bounds on the price of inadequacy:
 
 As an example, in [network cost-sharing
 games](https://en.wikipedia.org/wiki/Price_of_stability#Network_design_games),
-`$\text{PoA} \le k$` and `$\text{PoS}=\mathcal{H}_k$`, so `$\text{PoI} \le k-\mathcal{H}_k$`.
+`$\text{PoA} \le k$` and `$\text{PoS}=\mathcal{H}_k$`, so
+`$\text{PoI} \le k-\mathcal{H}_k$`.
 <!--TODO: cite this from Roughgardens Twenty Lectures-->
 
 High Status Eschews Quantification of Performance
@@ -1720,6 +1721,10 @@ contact. I have not dug into the details of this<!--TODO-->, but this
 could be an interesting case study for bringing more meritocracy into
 existing sklerotic status hierarchies.
 
+### See Also
+
+* [Systems to Eschew Eschewing Performance (210ethan, 2023)](https://210ethan.github.io/thoughts/eschew.html)
+
 Subscripts for Probabilities
 ------------------------------
 
@@ -1887,3 +1892,81 @@ Heuristics for choosing/writing good textbooks (see also
 * Wishlist
 	* Flashcard sets that come together with textbooks. Please.
 	* [3blue1brown](https://www.youtube.com/@3blue1brown) style videos that accompany the book. [From Zero to Geo](https://www.youtube.com/watch?v=2hBWCCAiCzQ&list=PLVuwZXwFua-0Ks3rRS4tIkswgUmDLqqRy) is a great step in that direction.
+
+Economic Policy Checklist
+--------------------------
+
+Courtesy of the [programming language
+checklist](https://www.mcmillen.dev/language_checklist.html).
+
+So you're proposing a new economic policy. Here's why your policy will
+not work.
+
+<div>
+<ul style="list-style: none;">
+<li>Your policy depends on science/theorizing that:
+	<ul style="list-style: none;">
+	<li> ☐ has been replicated only once</li>
+	<li> ☐ has failed to replicate</li>
+	<li> ☐ for which there exist no replication attempts</li>
+	<li> ☐ was last taken seriously sometime around 1900</li>
+	<li> ☐ requires a <a href="https://en.wikipedia.org/wiki/Dynamic_stochastic_general_equilibrium">DSGE<a> model with 200 free parameters to perfectly track reality perfectly</li>
+	</ul>
+</li>
+<!--<li>☐ Furthermore, all predictions your model has made look like this:</li>TODO: find images here-->
+<li>Your policy would:
+	<ul style="list-style: none;">
+	<li> ☐ disincentivize good things</li>
+	<li> ☐ incentivize bad things</li>
+	<li> ☐ both</li>
+	<li> ☐ be wildly unpopular, even though you think it's the best thing since sliced bread (it's not)</li>
+	</ul>
+</li>
+<li>☐ You seem to think that taking options away from people helps them</li>
+<li>Your policy just reinvents
+	<ul style="list-style: none;">
+	<li> ☐ land-value taxes, but worse</li>
+	<li> ☐ universal basic income, but worse</li>
+	<li> ☐ price discrimination, but worse</li>
+	<li> ☐ demand subsidy, but worse</li>
+	<li> ☐ demand subsidy, better, but that's still no excuse</li>
+	</ul>
+</li>
+<li>☐ Your policy sneakily redistributes money from poor to rich people</li>
+<li>☐ Your policy only works if every country on earth accepts it at the same time</li>
+<li>☐ You actually have no idea what failure/success of your policy would look like</li>
+<li>You claim it fixes
+<ul style="list-style: none;">
+	<li> ☐ climate change</li>
+	<li> ☐ godlessness</li>
+	<li> ☐ police violence</li>
+	<li> ☐ wet socks</li>
+	<li> ☐ teenage depression</li>
+	<li> ☐ rising rents</li>
+	<li> ☐ war</li>
+	<li> ☐ falling/rising sperm counts/testosterone levels</li>
+	</ul>
+</li>
+<li>You seem to assume that
+	<ul style="list-style: none;">
+	<li> ☐ privatization always works</li>
+	<li> ☐ privatization never works</li>
+	<li> ☐ your country will never become a dictatorship</li>
+	<li> ☐ your country will always stay a dictatorship</li>
+	<li> the cost of coordination is</li>
+		<ul style="list-style: none;">
+		<li> ☐ negligible</li>
+		<li> ☐ zero</li>
+		<li> ☐ negative</li>
+		</ul>
+	</ul>
+</li>
+<li>☐ Your policy is a Pareto-worsening</li>
+<li>In conclusion,
+	<ul style="list-style: none;">
+	<li> ☐ You have copied and mashed together some good ideas with some mediocre ideas</li>
+	<li> ☐ You have not even tried to understand basic economics/political science/sociology concepts</li>
+	<li> ☐ Living under your policy is an adequate punishment for inventing it</li>
+</li>
+</ul>
+</div>

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2023-05-07, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2023-06-12, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -21,7 +21,10 @@ Writing
 -------
 
 Curently I'm mostly working on an expanded version of [Turning Some
-Inconsistent Preferences into Consistent Ones](./turning.html).
+Inconsistent Preferences into Consistent Ones](./turning.html),
+and sometimes [thinking on how to measure the precision of
+forecasts](./precision.md). I am also finishing up a [self-blinded RCT
+with caffeine](./nootropics.html#SelfBlinded_RCT_A).
 
 I'm also planning a full edit of all texts on the website, but don't
 have a fixed date to get started on that at the moment.
@@ -49,9 +52,11 @@ Reading
 
 Currently, I am actively reading the following books:
 
-* Starting Strength (Lon Kilgore/Mark Rippetoe, 2007)
 * Die toten Seelen (Nikolai Gogol, 1842)
+* Human Compatible (Stuart Rusell, 2019)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
+* Starting Strength (Lon Kilgore/Mark Rippetoe, 2007)
 * Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
+* The Machinery of Freedom (David Friedman, 2014)
 * Theory of Games and Economic Behavior (John von Neumann/Oskar Morgenstern, 1953)
-* Worm (Wildbow, 2013)
+* What We Owe The Future (William MacAskill, 2022)

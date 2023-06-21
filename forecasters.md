@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-04-04, modified: 2023-04-24, language: english, status: notes, importance: 7, confidence: highly likely*
+*author: niplav, created: 2022-04-04, modified: 2023-06-12, language: english, status: notes, importance: 7, confidence: highly likely*
 
 > __Beginnings of a research agenda about [judgmental
 forecasting](https://en.wikipedia.org/wiki/Forecasting#Judgmental_methods).__
@@ -100,6 +100,15 @@ How Can We Become Better At Forecasting?
 	* Ideas:
 		* chained conditional forecasts
 * Is there any conceivable way of incentivizing good predictions on extinction events?
+
+### Forecasting Techniques
+
+* Does the method of decomposing questions work?
+	* I.e. if we say "X can only happen if Y₁ and Y₂ and Y₃..., so we estamet P(Y₁) and P(Y₂) and P(Y₃), and multiply those together", do we usually get a probability that is close to P(X)?
+	* What is the experimental evidence?
+	* See [Yudkowsky 2017](https://arbital.com/p/multiple_stage_fallacy/) for arguments against this technique<!--TODO: also add link to Gwern-->, specifically that it reliably underestimates the probability of events
+	* Is there experimental evidence that this technique works?
+	* It appears to be relatively commonly used, see [Allyn-Feuer & Sanders 2023](https://forum.effectivealtruism.org/posts/ARkbWch5RMsj6xP5p/transformative-agi-by-2043-is-less-than-1-likely), [Silver 2016](http://fivethirtyeight.com/features/donald-trumps-six-stages-of-doom/), [Kaufman 2011](https://www.jefftk.com/p/breaking-down-cryonics-probabilities) and [Hanson 2011](https://www.overcomingbias.com/p/break-cryonics-downhtml)
 
 How Can We Ask Better Forecasting Questions?
 ---------------------------------------------

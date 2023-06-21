@@ -1,4 +1,4 @@
-MARKDOWN=lowdown --html-no-skiphtml --html-no-escapehtml --out-no-smarty
+MARKDOWN=markdown
 
 CONF=config.mk header.html main.css
 

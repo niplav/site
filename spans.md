@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-17, modified: 2023-04-12, language: english, status: notes, importance: 7, confidence: possible*
+*author: niplav, created: 2023-01-17, modified: 2023-06-12, language: english, status: notes, importance: 7, confidence: possible*
 
 > __I investigate whether the attention span of individual humans has
 been falling over the last two decades (prompted by curiosity about
@@ -261,7 +261,7 @@ spans have actually declined.
 	* This is a marketing statement wearing the skinsuit of a previously great paper, it would be awesome if they released their exact methodology (tests performed, data collected, exact calculations & code written). I can smell that they actually put effort into the research: Creating an actual test instead of just asking respondents about their attention spans, doing EEG measurements of over 100 people, for 3 different types of attention…come on! Just put out there what you did!
 * [Carstens et al. 2018](./doc/psychology/attention_span/social_media_impact_on_attention_span_carstens_et_al_2018.pdf) (n=209 American respondents to a survey)
 	* Questions answered:
-		* *Is self-reported attention span related to the number of social media accounts?*, No, not statistically significant (F(2, 206)=0.1223, p>0.05) (via a one-way [ANOVA](https://en.wikipedia.org/wiki/ANOVA)
+		* *Is self-reported attention span related to the number of social media accounts?*, No, not statistically significant (F(2, 206)=0.1223, p>0.05) (via a one-way [ANOVA](https://en.wikipedia.org/wiki/ANOVA))
 		* *Is self-reported attention span related to whether a respondent mainly uses a mobile phone or a computer?*, No, not statistically significant (P(2,713)=0.923, p>0.05) (via a one-way ANOVA)
 	* I do **not** trust this paper: Calling (what I think is) Generation Z "Generation D" (without source for the term), being clearly written in Word, and confusing grammar (I *think* the authors are all Americans, so no excuse here):
 
@@ -407,8 +407,10 @@ sustained attention is *probably* an important factor in knowledge work,
 I'd guess?) and it slots more or less into cognitive psychology.
 
 I'm not sure why this hasn't happened yet (and consider
-this text evidence for a partial violation of [Cowen's 2nd
-law](https://marginalrevolution.com/marginalrevolution/2015/04/tyler-cowens-three-laws.html)).
+it evidence for a partial violation of [Cowen's 2nd
+law](https://marginalrevolution.com/marginalrevolution/2015/04/tyler-cowens-three-laws.html)—although,
+to be fair, the law doesn't specify there needs to be a *good* literature
+on everything…).
 The reasons I can think of is that one would need to first develop a
 good test for determining attention span, which is some work in itself
 (or use the CPT); be relatively patient (since the test would need to

@@ -2522,7 +2522,7 @@ original findings?
 	* The mean squared errors of both methods are again remarkably close. ✓
 * Within questions
 	* Slope for linear regressions is surprising close, intercept off by a factor of ~2. Still ok. ✓
-	* Mean logistic-ish horizon is ~3 orders of magnitude away from original estimate, median & mode are the same (?), variance is smaller (~5 orders of magnitude), maximum & minimum are kind of close. Estimating the slope of a [sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function) is difficut. ~
+	* Mean logistic-ish horizon is ~3 orders of magnitude away from original estimate, median & mode are the same (?), variance is smaller (~5 orders of magnitude), maximum & minimum are kind of close. Estimating the slope of a [sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function) is difficult. ~
 	* Mean exponential-ish horizon is factor ~7 smaller than original estimate, median & mode again are the same, variance smaller, maximum smaller and minimum slightly larger. ~
 
 Appendix B: Statistical Significance of Truncated Datasets

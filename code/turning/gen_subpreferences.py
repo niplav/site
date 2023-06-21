@@ -9,17 +9,19 @@ def check_subprefs(subprefs, turnings, g):
 		for t in turnings:
 			if set(s.nodes).issubset(set(t.nodes)) and set(s.edges).issubset(set(t.edges)):
 				present_in=present_in+1
-		if present_in==0:
-			print(str(present_in)+","+str(len(s.nodes))+","+str(len(turnings))+","+str(s.edges)+","+str(g.edges))
+		print(str(present_in)+","+str(len(turnings))+","+str(len(s.nodes))+","+str(s.edges)+","+str(g.edges))
+
+def subpreferences(g):
+	turnings=turn.turn_all(g)
+	subprefs=turn.maximal_consistent_subgraphs(g)
+	check_subprefs(subprefs, turnings, g)
 
 for i in range(0,5):
 	graphs=turn.all_directed_graphs(i)
 	for g in graphs:
-		turnings=turn.turn_all(g)
-		subprefs=turn.maximal_consistent_subgraphs(g)
-		check_subprefs(subprefs, turnings, g)
+		subpreferences(g)
 
-exit(1)
+turn.map_5_graphs(subpreferences)
 
 lim=16
 samples=1024

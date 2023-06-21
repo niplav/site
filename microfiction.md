@@ -358,7 +358,7 @@ spot on the happiness/productivity Pareto frontier, dummy.”
 
 ----
 
-> “Are these subagents in the room with out right now?”
+> “Are these subagents in the room with us right now?”
 
 ----
 
