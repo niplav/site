@@ -741,7 +741,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* `https://www.lesswrong.com/posts/8FRzErffqEW9gDCCW/against-the-linear-utility-hypothesis-and-the-leverage`
 		* `https://www.lesswrong.com/posts/NoYXhJLtoKpLoZhRf/pascal-s-mugging-finite-or-unbounded-resources`
 		* In defence of fanaticism (Hayden Wilkinson, 2020)
-* Creatine & Vegetarianism IQ?
 * Survey advanced meditators about their attainments and their monetary worth
 	* That is, how much is your meditative attainment worth to you?
 		* `https://old.reddit.com/r/TheMindIlluminated/comments/su8f1j/to_seek_or_to_not_seek_enlightenment/hx995y6/?context=3`
@@ -1996,6 +1995,7 @@ Wikipedia Articles
 * Move [this comparison table](https://en.wikipedia.org/wiki/Kemeny%E2%80%93Young_method#Comparison_table) into it's own article.
 * Gibbard's Theorem
 	* Add section on Gibbard's 1978 theorem
+* Redirect "Experience sampling" to "Experience sampling method"
 
 Lesswrong wiki
 ---------------

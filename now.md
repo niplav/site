@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2023-06-12, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2023-06-22, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -24,7 +24,7 @@ Curently I'm mostly working on an expanded version of [Turning Some
 Inconsistent Preferences into Consistent Ones](./turning.html),
 and sometimes [thinking on how to measure the precision of
 forecasts](./precision.md). I am also finishing up a [self-blinded RCT
-with caffeine](./nootropics.html#SelfBlinded_RCT_A).
+with caffeine](./nootropics.html#Experiment_A_SelfBlinded_RCT).
 
 I'm also planning a full edit of all texts on the website, but don't
 have a fixed date to get started on that at the moment.
@@ -47,11 +47,27 @@ forecasting datasets.
 I am also working on an [arbtt](https://arbtt.nomeata.de/)-inspired time
 tracker: [awitt](https://github.com/niplav/awitt).
 
+Data Collection
+----------------
+
+I am currently running a [self-blinded RCT with
+L-Theanine](./nootropics.html#Experiment_B_SelfBlinded_RCT).
+
+Meditation
+-----------
+
+* Morning: 15 minutes ānāpānasati, 30 minutes of Mahasi-style noting
+* Evening: 60 minutes ānāpānasati
+
+I also want to do more integration<!--TODO: Romeo Stevens link-->,
+and am planning to read Core Transformation (Andreas 1994) for that.
+
 Reading
 -------
 
 Currently, I am actively reading the following books:
 
+* Attention Span (Gloria Mark, 2023)
 * Die toten Seelen (Nikolai Gogol, 1842)
 * Human Compatible (Stuart Rusell, 2019)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)

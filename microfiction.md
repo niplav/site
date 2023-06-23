@@ -27,7 +27,7 @@ Words
 * "technocratsacy"
 * ["rijndaël](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)[ites"](https://en.wikipedia.org/wiki/Raëlism)
 * "licerology": the study of betting and auctions, auction theory
-* "autolykophilia"
+* "autolykophilia": furrydom
 
 #### Morphisms
 
@@ -60,7 +60,7 @@ Poems
 
 * Eternal Hustle of the Stopless Grind
 * Calibration of the intellect, optimism of the will
-* gah, can't snarf evince.
+* Gah, can't snarf evince.<!--TODO: links-->
 * You can sit here and be okay, if you want.
 * gatekeep girlboss gaslight givewell
 
@@ -368,7 +368,7 @@ spot on the happiness/productivity Pareto frontier, dummy.”
 ----
 
 > B: “What?”  
-> A: “Was that an acustic, syntactic or semantic ‘What?’?”  
+> A: “Was that an acoustic, syntactic or semantic ‘What?’?”  
 > B: “……… What?”
 
 ----

@@ -9,6 +9,16 @@ decided to log my nootropics usage and its effects.__
 Nootropics
 ===========
 
+<!--Nootropics and meditation:
+*Caffeine
+	* https://skemman.is/handle/1946/41957
+	* Maybe https://www.frontiersin.org/articles/10.3389/fpsyg.2020.610156/full accidentally reveals some info on caffeine effect on mindfulness? But probably not.
+* Caffeine & L-Theanine
+	* http://cafeesaude.com/wp-content/uploads/2012/01/Humor-J-Bryan-et-al-Appetite-Volume-58-2012.pdf
+* L-Theanine
+	* https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=6899536c95f528308ab27810cfd17f4ba3a96d9e
+-->
+
 You could put randomized substances in your body and find out what they
 do by recording the outcomes. That's what I did.
 
@@ -17,14 +27,14 @@ do by recording the outcomes. That's what I did.
 	<tr>
 		<td></td>
 		<td>Log-score of predictions of substance</td>
-		<td>Mindfulness effect size [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) (λ, p, σ increase)</td>
-		<td>Absorption effect size [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) (λ, p, σ increase)</td>
-		<td>Productivity effect size [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) (λ, p, σ increase)</td>
-		<td>Creativity effect size [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) (λ, p, σ increase)</td>
-		<td>Happiness effect size [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) (λ, p, σ increase)</td>
-		<td>Contentment effect size [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) (λ, p, σ increase)</td>
-		<td>Relaxation effect size [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) (λ, p, σ increase)</td>
-		<td>Horniness effect size [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) (λ, p, σ increase)</td>
+		<td>Mindfulness effect size d (λ, p, σ increase)</td>
+		<td>Absorption effect size d (λ, p, σ increase)</td>
+		<td>Productivity effect size d (λ, p, σ increase)</td>
+		<td>Creativity effect size d (λ, p, σ increase)</td>
+		<td>Happiness effect size d (λ, p, σ increase)</td>
+		<td>Contentment effect size d (λ, p, σ increase)</td>
+		<td>Relaxation effect size d (λ, p, σ increase)</td>
+		<td>Horniness effect size d (λ, p, σ increase)</td>
 	</tr>
 	<tr>
 		<td>200mg Caffeine (n=1, m=40)</td>
@@ -40,6 +50,35 @@ do by recording the outcomes. That's what I did.
 	</tr>
 </tbody>
 </table>
+
+I am especially interested in testing many different substances for
+their effect on meditation, while avoiding negative side effects. The
+benefits from high meditational attainments valuable to me, and seem
+especially likely to benefit from chemical intervention, since the
+[Algernon argument](https://gwern.net/drug-heuristic#loopholes)
+likely doesn't apply: Meditative attainments might've
+not led to a fitness advantage (even, by [opportunity
+cost](https://en.wikipedia.org/wiki/Opportunity_cost), to a fitness
+disadvantage), and so were likely selected against, but most of us
+don't care *that* much about inclusive genetic fitness and more about
+psychological well-being. Evolutionary dynamics favor being like
+[Dschingis Khan](https://en.wikipedia.org/wiki/Dschinghis_Khan)
+(hundreds to thousands of offspring) over [Siddharta
+Gautama](https://en.wikipedia.org/wiki/Siddharta_Gotama) (one son), but
+I'd rather attain [sotāpanna](https://en.wikipedia.org/wiki/Sotāpanna)
+than pillage and murder.
+
+And meditative attainments are *costly*: they take tens to
+hundreds to thousands of hours to reach, which would make simple
+psychopharmacological interventions worthwhile. I also don't buy
+that they miss the point of meditation—most people already struggle
+enough, so some help doesn't make it a cakewalk; "reach heaven through
+fraud"<!--TODO: link grognor tweet-->. One must be careful not to fall
+into the trap of taking substances that feel good but lessen sensory
+clarity (which I believe was the original intent behind the [fourth
+precept](https://en.wikipedia.org/wiki/Five_precepts)<!--TODO: is this
+the right one-->), and so I'll exclude e.g. opiates from the substances
+to test.
 
 Caffeine
 ---------
@@ -123,8 +162,6 @@ values). `$\lambda<0$` is not possible, since that would mean that
 the MLE of the placebo distribution has a higher likelihood for the
 caffeine data than the MLE of the caffeine distribution itself—not
 very likely<!--TODO: sunglasses emoji?-->.
-
-<!--TODO: effect sizes!-->
 
 Note that I'm not a statistician, this is my first serious statistical
 analysis, so please correct me if I'm making some important
@@ -460,5 +497,3 @@ I started taking nicotine (in the form of nicotine chewing gum with 2mg of
 active ingredient) in high-pressure situations (e.g. I'm procrastinating
 on an important task and have anxiety around it, or during exams). So
 far, it seems especially useful to break me out of an akratic rut.
-~0.47 for happiness, ~0.266 for contentment, -0.13 for relaxation and
--0.17 for horniness.

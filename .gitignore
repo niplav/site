@@ -9,6 +9,8 @@
 .*vis*
 *.o
 !header.html
-code/turning/subpref_freq.txt
+code/turning/confusions.txt
+code/turning/subgraphs.txt
+code/turning/subgraphs_overview.csv
 __pycache__
 precision
