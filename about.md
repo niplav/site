@@ -490,6 +490,7 @@ seems about right.
 * [Lesswrong](https://www.lesswrong.com/users/niplav)
 * [Effective Altruism Forum](https://forum.effectivealtruism.org/users/niplav)
 * [Metaculus](https://www.metaculus.com/accounts/profile/112493/)
+* [PredictionBook](https://predictionbook.com/users/niplav)
 * [Reddit](https://old.reddit.com/u/niplav)
 * [Wikipedia](https://en.wikipedia.org/wiki/User:Niplav)
 * [Fediverse](https://schelling.pt/@niplav)

@@ -8,12 +8,23 @@ prefs3={0:np.array([4,np.nan,3]),1:np.array([3,4,np.nan]),2:np.array([np.nan, 3,
 prefs4={0:np.array([5,np.nan,3]),1:np.array([3,4,np.nan]),2:np.array([np.nan, 3,4])}
 prefs5={0:np.array([5,np.nan,3]),1:np.array([3,4,np.nan]),2:np.array([1, 3,4])}
 prefs6={0:np.array([1,1]),1:np.array([1,1]),2:np.array([1,1])}
-
-# Maybe edges should be so that each edge has positive weight?
+prefs7={0:np.array([5,3]),1:np.array([4,5]),2:np.array([3, np.nan]),3:np.array([5,2]),4:np.array([np.nan,2])}
 
 def positive_edges(prefs):
-	edges=[(e[0], e[1], {"weight":np.nanmean(prefs[e[0]]-prefs[e[1]])}) for e in it.combinations(prefs.keys(), 2)]
-	edges=[e if e[2]['weight']>=0 else (e[1], e[0], {"weight": -e[2]['weight']}) for e in edges]
+	edges=[]
+	for e in it.combinations(prefs.keys(), 2):
+		if np.all(np.isnan(prefs[e[0]]-prefs[e[1]])):
+			weight=np.nan
+		else:
+			weight=np.nanmean(prefs[e[0]]-prefs[e[1]])
+
+		n=np.sum(~np.isnan(prefs[e[0]]-prefs[e[1]]))
+		if np.isnan(weight):
+			continue
+		elif weight>=0:
+			edges.append((e[0], e[1], {'weight': weight, 'n': n}))
+		else:
+			edges.append((e[1], e[0], {'weight': -weight, 'n': n}))
 	return edges
 
 def prefgraph(prefs):
@@ -24,23 +35,28 @@ def prefgraph(prefs):
 
 	return g
 
-def decompose(g, prefs):
-	edges=positive_edges(prefs)
-	f=np.array([e[2]['weight'] for e in edges])
-	W=np.diag([np.sum(~np.isnan(prefs[e[0]]-prefs[e[1]])) for e in it.combinations(prefs.keys(), 2)])
+def decompose(g):
+	f=np.array([g[e[0]][e[1]]['weight'] for e in g.edges])
+	W=np.diag([g[e[0]][e[1]]['n'] for e in g.edges])
 
 	origins=np.zeros((len(g.edges), len(g.nodes)))
 
 	c=0
 	for e in g.edges:
 		sign=np.sign(g[e[0]][e[1]]['weight'])
+		if np.isnan(sign):
+			sign=0
 		origins[c][e[0]]=sign*-1
-		origins[c][e[1]]=sign*1
+		origins[c][e[1]]=sign
 		c=c+1
 
-	s=-np.linalg.pinv(origins.T@W@origins)@origins.T@W@f
+	try:
+		s=-np.linalg.pinv(origins.T@W@origins)@origins.T@W@f
+	except LinAlgError:
+		s=np.zeros(len(list(g.nodes)))
+
 	return s,f,W,origins
 
 def hodgerank(prefs):
 	g=prefgraph(prefs)
-	return decompose(g, prefs)
+	return decompose(g)

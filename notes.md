@@ -1628,7 +1628,7 @@ Another example is that (arguendo) many intellectuals
 place an absurdly high amount of rigor on any attempts to
 develop tests for *g*, and the widespread [isolated demands for
 rigor](https://slatestarcodex.com/2014/08/14/beware-isolated-demands-for-rigor/)
-placed on IQ tests, despite their [predictive predictive
+placed on IQ tests, despite their [predictive
 value](./doc/psychology/iq/the_predictive_value_of_iq_sternberg_2001.pdf "The Predictive Value of IQ (Sternberg et al. 2001").
 
 The hypothesis that many intellectuals fear that widespread reliable
@@ -1970,3 +1970,77 @@ not work.
 </li>
 </ul>
 </div>
+
+Nothing to See Here, Just An Implementation of HodgeRank
+----------------------------------------------------------
+
+[Jiang et al.
+2011](.doc/preference/statistical_ranking_and_combinatorial_hodge_theory_jiang_et_al_2011.pdf "Statistical ranking and combinatorial Hodge theory")
+propose a ranking algorithm for incomplete and cyclic data, but neglect
+to give code or even pseudo-code for this algorithm. The algorithm turns out
+to be easy to implement in Python using networkx and numpy, with some help from [this
+guide](https://medium.com/@zj444/hodgerank-generating-movie-ranking-from-imdb-movie-ratings-part-1-2a88ec148f10 "HodgeRank: Generating Movie Ranking From IMDb Movie Ratings (Part 1: Problem Formulation)").
+Since other people might find the code valuable as well, I provide it here
+(mostly without comment or explanation).
+
+	def positive_edges(prefs):
+		edges=[]
+		for e in it.combinations(prefs.keys(), 2):
+			if np.all(np.isnan(prefs[e[0]]-prefs[e[1]])):
+				weight=np.nan
+			else:
+				weight=np.nanmean(prefs[e[0]]-prefs[e[1]])
+
+			n=np.sum(~np.isnan(prefs[e[0]]-prefs[e[1]]))
+			if np.isnan(weight):
+				continue
+			elif weight>=0:
+				edges.append((e[0], e[1], {'weight': weight, 'n': n}))
+			else:
+				edges.append((e[1], e[0], {'weight': -weight, 'n': n}))
+		return edges
+
+	def prefgraph(prefs):
+		g=nx.DiGraph()
+		g.add_nodes_from(list(prefs.keys()))
+		edges=positive_edges(prefs)
+		g.add_edges_from(edges)
+
+	def decompose(g):
+		f=np.array([g[e[0]][e[1]]['weight'] for e in g.edges])
+		W=np.diag([g[e[0]][e[1]]['n'] for e in g.edges])
+
+		origins=np.zeros((len(g.edges), len(g.nodes)))
+
+		c=0
+		for e in g.edges:
+			sign=np.sign(g[e[0]][e[1]]['weight'])
+			if np.isnan(sign):
+				sign=0
+			origins[c][e[0]]=sign*-1
+			origins[c][e[1]]=sign
+			c=c+1
+
+		try:
+			s=-np.linalg.pinv(origins.T@W@origins)@origins.T@W@f
+		except LinAlgError:
+			s=np.zeros(len(list(g.nodes)))
+
+		return s,f,W,origins
+
+	def hodgerank(prefs):
+	        g=prefgraph(prefs)
+	        return decompose(g)
+
+If `decompose` can't find a solution to the given preferences, it returns
+a vector of 0s as a default result.
+
+The input for `hodgerank` is a dictionary of preferences, where the keys
+must be the numbers from 0 to the number of options.
+
+Example:
+
+	>>> prefs7={0:np.array([5,3]),1:np.array([4,5]),2:np.array([3, np.nan]),3:np.array([5,2]),4:np.array([np.nan,2])}
+	>>> s,f,W,origins=hodgerank(prefs7)
+	>>> s
+	array([ 0.63571429,  1.13571429, -0.97142857,  0.31428571, -1.11428571])

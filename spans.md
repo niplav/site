@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-17, modified: 2023-06-12, language: english, status: notes, importance: 7, confidence: possible*
+*author: niplav, created: 2023-01-17, modified: 2023-06-22, language: english, status: notes, importance: 7, confidence: possible*
 
 > __I investigate whether the attention span of individual humans has
 been falling over the last two decades (prompted by curiosity about
@@ -288,6 +288,77 @@ interaction consisting of the military or the stock exchange.
 	* While it investigates a question different from the one I have, this paper seems good and trustworthy to me, while supporting a suspicion I've had (observing that the lifecycle of e.g. memes has apparently sped up significantly). I'd be interested in seeing whether the same process holds for internet communities I'm part of (for example on votes [LessWrong](https://www.lesswrong.com/) and the [EA Forum](https://forum.effectivealtruism.org/) or forecasts on [Metaculus](https://www.metaculus.com/)).
 
 ![Chart indicating how the speed at which hashtags become popular changed over the years. Four plots (yellow, green, blue and purple) which form a peak in the middle and fall off at the sides. The yellow line is highest around the peak, the green one is lower, blue even lower and purple the lowest.](./img/spans/popularity_ascent.png "Chart indicating how the speed at which hashtags become popular changed over the years. Four plots \(yellow, green, blue and purple\) which form a peak in the middle and fall off at the sides. The yellow line is highest around the peak, the green one is lower, blue even lower and purple the lowest.")
+
+Mark 2023<!--TODO: link to goodreads page for book--> is a recent
+book about attention spans, which I was excited to read and find the
+important studies I'd missed. Unfortunately, it is quite thin on talking
+about the development of attention span over time. It states that
+
+> My own research, as well as those of others, has shown that over
+the last fifteen years, our attention spans have declined in duration
+when we use our devices. Our attention spans while on our computers and
+smartphones have become short—crazily short—as we now spend about
+forty-seven seconds on any screen on average.
+
+*—Gloria Mark, “Attention Span” p. 13/14, 2023*
+
+which is not quite strong enough a measurement for me.
+
+> when email was cut off, people’s attention spans were significantly
+longer while working on their computers—in other words, they switched
+their attention less frequently.
+
+*—Gloria Mark, “Attention Span” p. 97, 2023*
+
+She gives some useful statistics about time spent on screens:
+
+> Nielsen reports that Americans spend on average five hours and thirty
+minutes daily of screen time on their computers, tablets and phones<sup>[\[8\]](https://www.nielsen.com/us/en/insights/report/2021/total-audience-advertising-across-todays-media/)</sup>.
+> […]
+> But what is really astonishing is that when we add in the
+time watching other media like TV and films to this, then we
+see that our attention is fixated on some form of screen,
+in some type of mediated environment, nearly ten hours a
+day<sup>[\[8\]](https://www.nielsen.com/us/en/insights/report/2021/total-audience-advertising-across-todays-media/)</sup>.
+
+*—Gloria Mark, “Attention Span” p. 180, 2023*
+
+She connects attention span to shot-length in movies:
+
+> The type of motion within shots has been changing. According to film
+scholar James Cutting and his colleagues at Cornell, shots containing the
+onset of motion (like a standing person who then runs) have increased
+because filmmakers believe that it will better attract viewers’
+attention.
+[…]
+The average film shot length in 1930 was twelve seconds, but then began
+to shorten, reaching an average of less than four seconds after the
+year 2010, as measured by James Cutting and colleagues.<sup>12</sup>
+Interestingly, the shot length for film sequels also decreased. For
+example, the shot length of the first Iron Man film averaged about 3.7
+seconds; for Iron Man 2, 3.0 seconds; and for Iron Man 3, about 2.4
+seconds.<sup>13</sup>
+
+*—Gloria Mark, “Attention Span” p. 180/181, 2023*
+
+<!--TODO: include image from p. 181, maybe read its source-->
+
+> Like in TV and film, shot lengths in television commercials also
+shortened over time. The average shot length of commercials in 1978 was
+3.8 seconds, dropping down to an average of 2.3 seconds in 1991.
+[…]
+It’s not just the shot lengths, though, that are short—the overall
+length of advertisements on TV has also decreased. The majority of
+ads started out as sixty seconds in length in the 1950s,<sup>26</sup>
+but that length comprised only 5 percent of ads shown in 2017. In the
+1980s, advertisers started experimenting with showing fifteen-second
+ads instead of thirty-second ads.  They discovered that fifteen seconds
+was even more persuasive than thirty seconds, especially when the ads
+used elements expressing cuteness and humor.<sup>27</sup> In 2014, 61
+percent of ads were thirty seconds in length, but three years later,
+that percentage decreased to 49 percent.<sup>28</sup>
+
+*—Gloria Mark, “Attention Span” p. 189, 2023*
 
 Do People Believe Attention Spans Have Declined?
 -------------------------------------------------

@@ -60,7 +60,7 @@ from the Good Judgement Project as a [pandas](https://pandas.pydata.org/)
 	[793501 rows x 15 columns]
 
 The [`load`](#loadfilesNone) functions are the central piece of the
-library, as they give you, the user, the data in [a format](#forecasts)
+library, as they give you, the user, the data in [a format](#Forecasts)
 that can be compared across datasets. The other functions are merely
 suggestions and can be ignored if they don't fit your use-case (iqisa
 wants to provide you with the data, and not be opinionated with what
@@ -220,7 +220,7 @@ Its columns are
 
 <!--TODO: describe further-->
 
-* `question_id`, `q_title`, `q_status`, `open_time`, `close_time`, `resolve_time`, `close_date`, `outcome`, `time_open`, `n_opts`, `options`: As in the [description of `forecasts` above](#forecasts)
+* `question_id`, `q_title`, `q_status`, `open_time`, `close_time`, `resolve_time`, `close_date`, `outcome`, `time_open`, `n_opts`, `options`: As in the [description of `forecasts` above](#Forecasts).
 * `q_title`: The title of the question, as a `str`.
 
 Loading Functions

@@ -26,8 +26,9 @@ I often ignored my other obligations this month.
 * [Precision of Sets of Forecasts](./precision.html)
 * [Notes](./notes.html)
 	* [Economic Policy Checklist](./notes.html#Economic_Policy_Checklist)
+	* [Nothing to See Here, Just An Implementation of HodgeRank](./notes.html#Nothing_to_See_Here_Just_An_Implementation_of_HodgeRank)
 * [Nootropics](./nootropics.html)
-	* [Self-Blinded RCT with Caffeine](./nootropics.html##Experiment_A_SelfBlinded_RCT)
+	* [Self-Blinded RCT with Caffeine](./nootropics.html#Experiment_A_SelfBlinded_RCT)
 
 May 2023
 ---------
