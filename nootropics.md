@@ -27,8 +27,8 @@ do by recording the outcomes. That's what I did.
 	<tr>
 		<td></td>
 		<td>Log-score of predictions of substance</td>
-		<td>Mindfulness effect size d (λ, p, σ increase)</td>
 		<td>Absorption effect size d (λ, p, σ increase)</td>
+		<td>Mindfulness effect size d (λ, p, σ increase)</td>
 		<td>Productivity effect size d (λ, p, σ increase)</td>
 		<td>Creativity effect size d (λ, p, σ increase)</td>
 		<td>Happiness effect size d (λ, p, σ increase)</td>
@@ -38,15 +38,15 @@ do by recording the outcomes. That's what I did.
 	</tr>
 	<tr>
 		<td>200mg Caffeine (n=1, m=40)</td>
-		<td>-0.61</td>
-		<td>0.61 (λ=10.12, p=0.0033, -0.019)</td>
-		<td>0.56 (λ=9.32, p=0.0065, -0.071)</td>
-		<td>0.78 (λ=58.50, p=1.8<sup>-32</sup>, 0.156)</td>
-		<td>0.37 (λ=24.73, p=3.2<sup>-10</sup>, 0.095)</td>
-		<td>0.47 (λ=15.83, p=1.22<sup>-5</sup>, 0.1)</td>
-		<td>0.266 (λ=5.17, p=0.14, 0.141)</td>
-		<td>-0.13 (λ=6.71, p=0.05, 0.61)</td>
-		<td>-0.17 (λ=2.89, p=0.449, -0.28)</td>
+		<td>-0.6</td>
+		<td>0.61 (λ=13.3, p=0.00017, -0.072)</td>
+		<td>0.58 (λ=11.8, p=0.0007, 0.021)</td>
+		<td>0.58 (λ=28.9, p=1.3<sup>-12</sup>, 0.11)</td>
+		<td>0.38 (λ=32.9, p=5.2<sup>-15</sup>, 0.09)</td>
+		<td>0.27 (λ=10.6, p=0.002, 0.3)</td>
+		<td>0.13 (λ=7.66, p=0.02, 0.47)</td>
+		<td>-0.11 (λ=5, p=0.15, 0.42)</td>
+		<td>-0.14 (λ=1.9, p=0.64, 0.11)</td>
 	</tr>
 </tbody>
 </table>
@@ -72,13 +72,12 @@ And meditative attainments are *costly*: they take tens to
 hundreds to thousands of hours to reach, which would make simple
 psychopharmacological interventions worthwhile. I also don't buy
 that they miss the point of meditation—most people already struggle
-enough, so some help doesn't make it a cakewalk; "reach heaven through
-fraud"<!--TODO: link grognor tweet-->. One must be careful not to fall
+enough, so some help doesn't make it a cakewalk; ["reach heaven through
+fraud"](https://pastebin.com/xuVuVnhw). One must be careful not to fall
 into the trap of taking substances that feel good but lessen sensory
-clarity (which I believe was the original intent behind the [fourth
-precept](https://en.wikipedia.org/wiki/Five_precepts)<!--TODO: is this
-the right one-->), and so I'll exclude e.g. opiates from the substances
-to test.
+clarity (which I believe was the original intent behind the [fifth
+precept](https://en.wikipedia.org/wiki/Five_precepts#Fifth_precept),
+and so I'll exclude e.g. opiates from the substances to test.
 
 Caffeine
 ---------
@@ -92,20 +91,21 @@ Cost:
 * Time
 	* Time for filling: 35 minutes
 	* Time for preparing envelopes: 40 minutes
-* Cost of caffeine pills:
-* Cost of empty capsules:
-* Cost of sugar:
+* Cost of caffeine pills: `$\frac{0.0825€}{\text{200mg caffeine pill}} \cdot \text{ 200mg caffeine pills}=2.0625€$`
+* Cost of empty capsules: `$\frac{0.03€}{\text{capsule}} \cdot 25 \text{ capsules}=0.75€$`
+* Cost of sugar: Negligible.
 
 200mg caffeine pills, placebo pills filled with sugar, of each 25.
 Put each pill with a corresponding piece of paper ("C" for caffeine,
 "P" for placebo) into an unlabeled envelope.  Used `seq 1 50 | shuf`
 to number the envelopes, and sorted them accordingly.
 
-Variables tracked:
+Variables tracked (see more [here](./data.html)):
 
 * Meditation: 45 minutes of ānāpānasati, started 0-60 minutes after taking the dose, tracking two variables.
 	* __Mindfulness__: How aware I was of what was going on in my head, modulo my ability to influence it.
 	* __Absorption__ (often called concentration): How "still" my mind was, how easily I was swept away by my thoughts.
+* __Flashcard performance__: Did my daily flashcards for ~20 minutes, started 0-60 minutes after finishing meditation.
 * __Arm Prediction__: I tried to predict whether the substance I'd taken was placebo or caffeine.
 * [Mood](./data.html#Mood): Tracking 4 different variables at random points during the day, namely
 	* __Happiness/Sadness__
@@ -113,7 +113,6 @@ Variables tracked:
 	* __Relaxation/Stress__
 	* __Horniness/Chastity__: Chastity being simply the opposite of horniness in this case.
 * __Productivity__ and __creativity__, recorded at the end of the day.
-* __Flashcard performance__: Did my daily flashcards for ~20 minutes, started 0-60 minutes after finishing meditation.
 
 Notes on the experiment:
 
@@ -139,9 +138,11 @@ values for a variable of the caffeine arm. (I apologise for the
 arm](https://en.wikipedia.org/wiki/Control_arm)).
 
 Then let `$\theta_0=(\mu_0, \sigma_0)=MLE_{\mathcal{N}}(\mathbf{v}_P)$`
-be the Gaussian maximum likelihood estimator for our placebo values,
-and `$\theta=(\mu, \sigma)=MLE_{\mathcal{N}}(\mathbf{v}_C)$` be the MLE
-for our caffeine values.
+be the Gaussian [maximum likelihood
+estimator](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation)
+for our placebo values, and
+`$\theta=(\mu, \sigma)=MLE_{\mathcal{N}}(\mathbf{v}_C)$`
+be the MLE for our caffeine values.
 
 Then the likelihood ratio statistic `$\lambda$` is defined as
 
@@ -149,10 +150,11 @@ Then the likelihood ratio statistic `$\lambda$` is defined as
 	$$\lambda=2 \log \frac{\mathcal{L}_C(\theta)}{\mathcal{L}_C(\theta_0)}$$
 </div>
 
-where `$\mathcal{L}_C(\theta)$` is the likelihood the caffeine distribution
-assigns to the parameters `$\theta$`. This test is useful here because we
-fix all values of `$\theta_0$`. See [Wassermann 2003 ch. 10.6]()<!--TODO:
-link--> for more.
+where `$\mathcal{L}_C(\theta)$` is the likelihood the caffeine
+distribution assigns to the parameters `$\theta$`. This test is useful
+here because we fix all values of `$\theta_0$`. See [Wasserman 2003
+ch. 10.6](https://www.goodreads.com/book/show/411722.All_of_Statistics)
+for more.
 
 If `$\lambda \approx 0$`, then the MLE for the placebo arm is very close
 to the MLE for the caffeine arm, the distributions are similar. If
@@ -174,48 +176,7 @@ I want to make some predictions about the outcome
 of the experiment, similar to another attempt
 [here](./range_and_forecasting_accuracy.html#Some_Predictions_About_The_Results).
 
-<!--TODO: convert into a table?-->
-
-* __Prediction of Arm__
-	* My prediction about the content of the pill is more accurate than random guesses<sub>[80%](https://predictionbook.com/predictions/211893)</sub>.
-	* My prediction about the content of the pill has a log score of more than -0.5<sub>[60%](https://predictionbook.com/predictions/211894)</sub>.
-* __Meditation__
-	* On days with caffeine, my average mindfulness during meditation was higher than days with placebo<sub>[60%](https://predictionbook.com/predictions/211895)</sub>.
-	* On days with caffeine, my average absorption during meditation was higher than days with placebo<sub>[40%](https://predictionbook.com/predictions/211896)</sub>.
-	* On days with caffeine, the variance of values for mindfulness during meditation was lower than on placebo days<sub>[55%](https://predictionbook.com/predictions/211897)</sub>.
-	* On days with caffeine, the variance of values for absorption during meditation was lower than on placebo days<sub>[35%](https://predictionbook.com/predictions/211898)</sub>.
-	* `$\lambda<1$` for the mindfulness values<sub>[20%](https://predictionbook.com/predictions/211899)</sub>.
-	* `$\lambda<1$` for the absorption values<sub>[25%](https://predictionbook.com/predictions/211900)</sub>.
-	* `$\lambda<4$` for the mindfulness values<sub>[82%](https://predictionbook.com/predictions/211901)</sub>.
-	* `$\lambda<4$` for the absorption values<sub>[88%](https://predictionbook.com/predictions/211902)</sub>.
-* __Mood__
-	* On days with caffeine, my average happiness during the day was higher than days with placebo<sub>[65%](https://predictionbook.com/predictions/211903)</sub>.
-	* On days with caffeine, my average contentment during the day was higher than days with placebo<sub>[45%](https://predictionbook.com/predictions/211904)</sub>.
-	* On days with caffeine, my average relaxation during the day was higher than days with placebo<sub>[35%](https://predictionbook.com/predictions/211905)</sub>.
-	* On days with caffeine, my average chastity during the day was higher than days with placebo<sub>[50%](https://predictionbook.com/predictions/211906)</sub>.
-	* On days with caffeine, the variance of values for happiness during the day was lower than on placebo days<sub>[55%](https://predictionbook.com/predictions/211907)</sub>.
-	* On days with caffeine, the variance of values for contentment during the day was lower than on placebo days<sub>[30%](https://predictionbook.com/predictions/211908)</sub>.
-	* On days with caffeine, the variance of values for relaxation during the day was lower than on placebo days<sub>[30%](https://predictionbook.com/predictions/211909)</sub>.
-	* On days with caffeine, the variance of values for chastity during the day was lower than on placebo days<sub>[50%](https://predictionbook.com/predictions/211910)</sub>.
-	* `$\lambda<1$` for the happiness values<sub>[45%](https://predictionbook.com/predictions/211911)</sub>.
-	* `$\lambda<1$` for the contentment values<sub>[40%](https://predictionbook.com/predictions/211912)</sub>.
-	* `$\lambda<1$` for the relaxation values<sub>[37%](https://predictionbook.com/predictions/211913)</sub>.
-	* `$\lambda<1$` for the chastity values<sub>[60%](https://predictionbook.com/predictions/211914)</sub>.
-	* `$\lambda<4$` for the happiness values<sub>[85%](https://predictionbook.com/predictions/211915)</sub>.
-	* `$\lambda<4$` for the contentment values<sub>[90%](https://predictionbook.com/predictions/211916)</sub>.
-	* `$\lambda<4$` for the relaxation values<sub>[90%](https://predictionbook.com/predictions/211917)</sub>.
-	* `$\lambda<4$` for the chastity values<sub>[95%](https://predictionbook.com/predictions/211918)</sub>.
-* __Productivity and Creativity__
-	* On days with caffeine, my average productivity during the day was higher than days with placebo<sub>52%</sub>.
-	* On days with caffeine, my average creativity during the day was higher than days with placebo<sub>55%</sub>.
-	* On days with caffeine, the variance of values for productivity during the day was lower than on placebo days<sub>40%</sub>.
-	* On days with caffeine, the variance of values for creativity during the day was lower than on placebo days<sub>65%</sub>.
-	* `$\lambda<1$` for the productivity values<sub>[40%](https://predictionbook.com/predictions/211919)</sub>.
-	* `$\lambda<1$` for the creativity values<sub>[45%](https://predictionbook.com/predictions/211920)</sub>.
-	* `$\lambda<4$` for the producitvity values<sub>[75%](https://predictionbook.com/predictions/211921)</sub>.
-	* `$\lambda<4$` for the creativity values<sub>[80%](https://predictionbook.com/predictions/211922)</sub>.
-
-I also recorded my predictions about the content of the pill on PredictionBook ([1](https://predictionbook.com/predictions/211311) [2](https://predictionbook.com/predictions/211312) [3](https://predictionbook.com/predictions/211313) [4](https://predictionbook.com/predictions/211314) [5](https://predictionbook.com/predictions/211857) [6](https://predictionbook.com/predictions/211858) [7](https://predictionbook.com/predictions/211859) [8](https://predictionbook.com/predictions/211860) [9](https://predictionbook.com/predictions/211861) [10](https://predictionbook.com/predictions/211862) [11](https://predictionbook.com/predictions/211863) [12](https://predictionbook.com/predictions/211864) [13](https://predictionbook.com/predictions/211865) [14](https://predictionbook.com/predictions/211866) [15](https://predictionbook.com/predictions/211867) [16](https://predictionbook.com/predictions/211868) [17](https://predictionbook.com/predictions/211869) [18](https://predictionbook.com/predictions/211870) [19](https://predictionbook.com/predictions/211871) [20](https://predictionbook.com/predictions/211872) [21](https://predictionbook.com/predictions/211873) [22](https://predictionbook.com/predictions/211874) [23](https://predictionbook.com/predictions/211875) [24](https://predictionbook.com/predictions/211876) [25](https://predictionbook.com/predictions/211877) [26](https://predictionbook.com/predictions/211878) [27](https://predictionbook.com/predictions/211879) [28](https://predictionbook.com/predictions/211880) 29 30 31 32 33 34 35 36 37 38 [39](https://predictionbook.com/predictions/211881) [40](https://predictionbook.com/predictions/211882) [41](https://predictionbook.com/predictions/211883) [42](https://predictionbook.com/predictions/211884) [43](https://predictionbook.com/predictions/211885) [44](https://predictionbook.com/predictions/211886) [45](https://predictionbook.com/predictions/211887) [46](https://predictionbook.com/predictions/211888) [47](https://predictionbook.com/predictions/211889) [48](https://predictionbook.com/predictions/211890) [49](https://predictionbook.com/predictions/211891) [50](https://predictionbook.com/predictions/211892)).
+Moved [here](#Caffeine_1).
 
 #### Analysis
 
@@ -255,12 +216,13 @@ but that is easily remedied.
 We can first test how well my predictions fared:
 
 	probs=np.array(expa['prediction'])
-	outcomes=np.array([0 if substances[i]=='sugar' else 1 for i in substances.index])
+	substances=np.array(expa['substance'])
+	outcomes=np.array([0 if i=='sugar' else 1 for i in substances])
 
 *drumroll*
 
 	>>> np.mean(list(map(lambda x: math.log(x[0]) if x[1]==1 else math.log(1-x[0]), zip(probs, outcomes))))
-	-0.6142394580267694
+	-0.5991670759554912
 
 At least this time I was better than chance:
 
@@ -274,26 +236,26 @@ selecting the individual variables of interest:
 
 	meditations.sort_values("meditation_start", inplace=True)
 	meditations_a=pd.merge_asof(expa, meditations, left_on='datetime', right_on='meditation_start', direction='forward')
-	caffeine_mindfulness=meditations_a.loc[meditations_a['substance']=='caffeine']['mindfulness_rating']
-	placebo_mindfulness=meditations_a.loc[meditations_a['substance']=='sugar']['mindfulness_rating']
 	caffeine_concentration=meditations_a.loc[meditations_a['substance']=='caffeine']['concentration_rating']
 	placebo_concentration=meditations_a.loc[meditations_a['substance']=='sugar']['concentration_rating']
+	caffeine_mindfulness=meditations_a.loc[meditations_a['substance']=='caffeine']['mindfulness_rating']
+	placebo_mindfulness=meditations_a.loc[meditations_a['substance']=='sugar']['mindfulness_rating']
 
 So, does it help?
 
 	>>> (caffeine_concentration.mean()-placebo_concentration.mean())/meditations['concentration_rating'].std()
-	0.5609411379318844
+	0.6119357868347828
 	>>> (caffeine_mindfulness.mean()-placebo_mindfulness.mean())/meditations['mindfulness_rating'].std()
-	0.6171233170326925
+	0.575981762563846
 
 Indeed! [Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)
 here looks pretty good. Taking caffeine also reduces the variance of
 both variables:
 
-	>>> caffeine_mindfulness.std()-placebo_mindfulness.std()
-	-0.01898430416807584
 	>>> caffeine_concentration.std()-placebo_concentration.std()
-	-0.07119944142518708
+	-0.0720877290884765
+	>>> caffeine_mindfulness.std()-placebo_mindfulness.std()
+	0.02186797288826836
 
 ###### Productivity and Creativity
 
@@ -309,9 +271,9 @@ We repeat the same procedure for the productivity and creativity data:
 And the result is…
 
 	>>> (caffeine_productivity.mean()-placebo_productivity.mean())/prod_a['productivity'].std()
-	0.7847612611667064
+	0.5784143673702401
 	>>> (caffeine_creativity.mean()-placebo_creativity.mean())/creat_a['creativity'].std()
-	0.3684366228871795
+	0.38432393552829164
 
 Again surprisingly good! The creativity values are small enough to be
 a fluke, but the productivity values seem cool.
@@ -320,9 +282,9 @@ In this case, though, caffeine *increases* variance in the variables
 (not by very much):
 
 	>>> caffeine_productivity.std()-placebo_productivity.std()
-	0.1557773175491261
+	0.1139221931098384
 	>>> caffeine_creativity.std()-placebo_creativity.std()
-	0.09479532961921128
+	0.08619686235791152
 
 ###### Mood
 
@@ -339,27 +301,28 @@ doesn't do cartesian product:
 And now the analysis:
 
 	>>> caffeine_mood[['happy', 'content', 'relaxed', 'horny']].describe()
-	           happy    content    relaxed       horny
-	count  64.000000  64.000000  64.000000   64.000000
-	mean   52.484375  51.515625  50.718750   46.843750
-	std     2.145443   2.581941   3.382817    2.912582
+	           happy    content    relaxed      horny
+	count  88.000000  88.000000  88.000000  88.000000
+	mean   52.193182  51.227273  50.704545  46.568182
+	std     2.396635   2.911441   3.115254   3.117601
 	[…]
 	>>> placebo_mood[['happy', 'content', 'relaxed', 'horny']].describe()
-	           happy    content    relaxed       horny
-	count  57.000000  57.000000  57.000000   57.000000
-	mean   51.473684  50.842105  51.122807   47.368421
-	std     2.045075   2.440649   2.771476    3.188325
+	           happy    content    relaxed      horny
+	count  73.000000  73.000000  73.000000  73.000000
+	mean   51.575342  50.876712  51.041096  47.000000
+	std     2.101043   2.437811   2.699992   3.009245
 	[…]
 
 Which leads to [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)
-of ~0.47 for happiness, ~0.266 for contentment, -0.13 for relaxation
-and -0.17 for horniness.
+of ~0.27 for happiness, ~0.13 for contentment, ~-0.11 for relaxation
+and ~-0.14 for horniness.
 
 ##### Likelihood Ratios
 
-We assume (at first) that the data is distributed normally<!--TODO:
-link-->. The we can define a function for the gaussian likelihood
-of a distribution given some parameters:
+We assume (at first) that the data is [distributed
+normally](https://en.wikipedia.org/wiki/Normal_distribution). Then we
+can define a function for the gaussian likelihood of a distribution
+given some parameters:
 
 	def normal_likelihood(data, mu, std):
 		return np.product(scistat.norm.pdf(data, loc=mu, scale=std))
@@ -379,30 +342,30 @@ and also the result of the likelihood ratio test:
 
 And this gives us surprisingly large values:
 
-	>> placebo_likelihood_ratio(caffeine_mindfulness, placebo_mindfulness)
-	157.37572997585897
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mindfulness, placebo_mindfulness))
-	10.11727226160484
 	>>> placebo_likelihood_ratio(caffeine_concentration, placebo_concentration)
-	105.8473930980437
+	776.6147119766716
 	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_concentration, placebo_concentration))
-	9.323996738023183
+	13.309888722406932
+	>> placebo_likelihood_ratio(caffeine_mindfulness, placebo_mindfulness)
+	363.3984201164464
+	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mindfulness, placebo_mindfulness))
+	11.790999616893938
 	>>> placebo_likelihood_ratio(caffeine_productivity, placebo_productivity)
-	5053632067240.518
+	1884090.6347491818
 	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_productivity, placebo_productivity))
-	58.50225664387183
+	28.8979116811553
 	>>> placebo_likelihood_ratio(caffeine_creativity, placebo_creativity)
-	234560.28379684332
+	14009015.173307568
 	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_creativity, placebo_creativity))
-	24.7309358151824
+	32.910423242578126
 
 And, if one is interested in p-values, those correspond to (with 2 degrees of freedom each):
 
 	def llrt_pval(lmbda, df=2):
 		return scistat.chi2.cdf(df, lmbda)
 
-	>>> llrt_pval([10.11727226160484, 9.323996738023183, 58.50225664387183, 24.7309358151824])
-	array([3.30451079e-03, 6.51771165e-03, 1.83724663e-32, 3.27886988e-10])
+	>>> llrt_pval([13.309888722406932,11.790999616893938, 28.8979116811553, 32.910423242578126])
+	array([1.66559304e-04, 7.23739116e-04 ,1.34836408e-12, 5.17222209e-15])
 
 I find these results surprisingly strong, and am still kind of mystified
 why. Surely caffeine isn't *that* reliable!
@@ -410,21 +373,35 @@ why. Surely caffeine isn't *that* reliable!
 And, the same, for mood:
 
 	>>> placebo_likelihood_ratio(caffeine_mood['happy'], placebo_mood['happy'])
-	2743.9269008532096
+	204.81283712162838
 	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mood['happy'], placebo_mood['happy']))
-	15.83429069772036
+	10.644193144917832
 	>>> placebo_likelihood_ratio(caffeine_mood['content'], placebo_mood['content'])
-	13.301378181774787
+	46.08310645632934
 	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mood['content'], placebo_mood['content']))
-	5.175735305098163
+	7.6608928570645105
 	>>> placebo_likelihood_ratio(caffeine_mood['relaxed'], placebo_mood['relaxed'])
-	28.57583615444588
+	12.229945616108525
 	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mood['relaxed'], placebo_mood['relaxed']))
-	6.7051229420012906
+	5.007775005855661
 	>>> placebo_likelihood_ratio(caffeine_mood['horny'], placebo_mood['horny'])
-	4.23238893275755
+	2.670139324155222
 	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mood['horny'], placebo_mood['horny']))
-	2.8855331863174007
+	1.9642613047646074
+
+And the p-values of those are:
+
+	>>> llrt_pval([10.644193144917832, 7.6608928570645105, 5.007775005855661, 1.9642613047646074])
+	array([0.0020736 , 0.02462515, 0.15015613, 0.63984027])
+
+#### Conclusion
+
+Caffeine appears helpful for everything except relaxation (and it makes
+me hornier, which I'm neutral about). I'd call this experiment a success
+and will be running more in the future, while in the meantime taking
+caffeine before morning meditations.
+
+Full code for the experiment [here](./code/experiment_a/load.py).
 
 Creatine
 ---------
@@ -480,8 +457,8 @@ task.<sup>[\[325\]](https://examine.com/supplements/caffeine/research/#ref-325)<
 ### Experiment B: Self-Blinded RCT
 
 * Time for preparation: 93 minutes
-* Cost of l-theanine pills:
-* Cost of empty capsules:
+* Cost of l-theanine pills: `$\frac{~0.25€}{\text{500mg L-theanine pill}} \cdot 25 \text{ 500mg L-theanine pills}=6.25€$`
+* Cost of empty capsules: `$0.75€$`
 
 Melatonin
 ----------
@@ -497,3 +474,55 @@ I started taking nicotine (in the form of nicotine chewing gum with 2mg of
 active ingredient) in high-pressure situations (e.g. I'm procrastinating
 on an important task and have anxiety around it, or during exams). So
 far, it seems especially useful to break me out of an akratic rut.
+
+Appendix A: Predictions on Self-Blinded RCTs
+---------------------------------------------
+
+Predicting the outcomes of personal experiments give a useful way to
+train ones own calibration, I take it a step further and record the
+predictions for the world to observe my idiocy.
+
+### Caffeine
+
+<!--TODO: convert into a table?-->
+
+* __Prediction of Arm__
+	* My prediction about the content of the pill is more accurate than random guesses<sub>[80%](https://predictionbook.com/predictions/211893)</sub>.
+	* My prediction about the content of the pill has a log score of more than -0.5<sub>[60%](https://predictionbook.com/predictions/211894)</sub>.
+* __Meditation__
+	* On days with caffeine, my average mindfulness during meditation was higher than days with placebo<sub>[60%](https://predictionbook.com/predictions/211895)</sub>.
+	* On days with caffeine, my average absorption during meditation was higher than days with placebo<sub>[40%](https://predictionbook.com/predictions/211896)</sub>.
+	* On days with caffeine, the variance of values for mindfulness during meditation was lower than on placebo days<sub>[55%](https://predictionbook.com/predictions/211897)</sub>.
+	* On days with caffeine, the variance of values for absorption during meditation was lower than on placebo days<sub>[35%](https://predictionbook.com/predictions/211898)</sub>.
+	* `$\lambda<1$` for the mindfulness values<sub>[20%](https://predictionbook.com/predictions/211899)</sub>.
+	* `$\lambda<1$` for the absorption values<sub>[25%](https://predictionbook.com/predictions/211900)</sub>.
+	* `$\lambda<4$` for the mindfulness values<sub>[82%](https://predictionbook.com/predictions/211901)</sub>.
+	* `$\lambda<4$` for the absorption values<sub>[88%](https://predictionbook.com/predictions/211902)</sub>.
+* __Mood__
+	* On days with caffeine, my average happiness during the day was higher than days with placebo<sub>[65%](https://predictionbook.com/predictions/211903)</sub>.
+	* On days with caffeine, my average contentment during the day was higher than days with placebo<sub>[45%](https://predictionbook.com/predictions/211904)</sub>.
+	* On days with caffeine, my average relaxation during the day was higher than days with placebo<sub>[35%](https://predictionbook.com/predictions/211905)</sub>.
+	* On days with caffeine, my average chastity during the day was higher than days with placebo<sub>[50%](https://predictionbook.com/predictions/211906)</sub>.
+	* On days with caffeine, the variance of values for happiness during the day was lower than on placebo days<sub>[55%](https://predictionbook.com/predictions/211907)</sub>.
+	* On days with caffeine, the variance of values for contentment during the day was lower than on placebo days<sub>[30%](https://predictionbook.com/predictions/211908)</sub>.
+	* On days with caffeine, the variance of values for relaxation during the day was lower than on placebo days<sub>[30%](https://predictionbook.com/predictions/211909)</sub>.
+	* On days with caffeine, the variance of values for chastity during the day was lower than on placebo days<sub>[50%](https://predictionbook.com/predictions/211910)</sub>.
+	* `$\lambda<1$` for the happiness values<sub>[45%](https://predictionbook.com/predictions/211911)</sub>.
+	* `$\lambda<1$` for the contentment values<sub>[40%](https://predictionbook.com/predictions/211912)</sub>.
+	* `$\lambda<1$` for the relaxation values<sub>[37%](https://predictionbook.com/predictions/211913)</sub>.
+	* `$\lambda<1$` for the chastity values<sub>[60%](https://predictionbook.com/predictions/211914)</sub>.
+	* `$\lambda<4$` for the happiness values<sub>[85%](https://predictionbook.com/predictions/211915)</sub>.
+	* `$\lambda<4$` for the contentment values<sub>[90%](https://predictionbook.com/predictions/211916)</sub>.
+	* `$\lambda<4$` for the relaxation values<sub>[90%](https://predictionbook.com/predictions/211917)</sub>.
+	* `$\lambda<4$` for the chastity values<sub>[95%](https://predictionbook.com/predictions/211918)</sub>.
+* __Productivity and Creativity__
+	* On days with caffeine, my average productivity during the day was higher than days with placebo<sub>52%</sub>.
+	* On days with caffeine, my average creativity during the day was higher than days with placebo<sub>55%</sub>.
+	* On days with caffeine, the variance of values for productivity during the day was lower than on placebo days<sub>40%</sub>.
+	* On days with caffeine, the variance of values for creativity during the day was lower than on placebo days<sub>65%</sub>.
+	* `$\lambda<1$` for the productivity values<sub>[40%](https://predictionbook.com/predictions/211919)</sub>.
+	* `$\lambda<1$` for the creativity values<sub>[45%](https://predictionbook.com/predictions/211920)</sub>.
+	* `$\lambda<4$` for the producitvity values<sub>[75%](https://predictionbook.com/predictions/211921)</sub>.
+	* `$\lambda<4$` for the creativity values<sub>[80%](https://predictionbook.com/predictions/211922)</sub>.
+
+I also recorded my predictions about the content of the pill on PredictionBook ([1](https://predictionbook.com/predictions/211311) [2](https://predictionbook.com/predictions/211312) [3](https://predictionbook.com/predictions/211313) [4](https://predictionbook.com/predictions/211314) [5](https://predictionbook.com/predictions/211857) [6](https://predictionbook.com/predictions/211858) [7](https://predictionbook.com/predictions/211859) [8](https://predictionbook.com/predictions/211860) [9](https://predictionbook.com/predictions/211861) [10](https://predictionbook.com/predictions/211862) [11](https://predictionbook.com/predictions/211863) [12](https://predictionbook.com/predictions/211864) [13](https://predictionbook.com/predictions/211865) [14](https://predictionbook.com/predictions/211866) [15](https://predictionbook.com/predictions/211867) [16](https://predictionbook.com/predictions/211868) [17](https://predictionbook.com/predictions/211869) [18](https://predictionbook.com/predictions/211870) [19](https://predictionbook.com/predictions/211871) [20](https://predictionbook.com/predictions/211872) [21](https://predictionbook.com/predictions/211873) [22](https://predictionbook.com/predictions/211874) [23](https://predictionbook.com/predictions/211875) [24](https://predictionbook.com/predictions/211876) [25](https://predictionbook.com/predictions/211877) [26](https://predictionbook.com/predictions/211878) [27](https://predictionbook.com/predictions/211879) [28](https://predictionbook.com/predictions/211880) 29 30 31 32 33 34 35 36 37 38 [39](https://predictionbook.com/predictions/211881) [40](https://predictionbook.com/predictions/211882) [41](https://predictionbook.com/predictions/211883) [42](https://predictionbook.com/predictions/211884) [43](https://predictionbook.com/predictions/211885) [44](https://predictionbook.com/predictions/211886) [45](https://predictionbook.com/predictions/211887) [46](https://predictionbook.com/predictions/211888) [47](https://predictionbook.com/predictions/211889) [48](https://predictionbook.com/predictions/211890) [49](https://predictionbook.com/predictions/211891) [50](https://predictionbook.com/predictions/211892)).

@@ -154,7 +154,7 @@ Brain-Computer Interfaces and AI Alignment
 machines were to be regarded as a part of man's own physical nature,
 being really nothing but extra-corporeal limbs.
 
-*—Samuel Butler<!--TODO: link-->, “Erewhon”<!--TODO: link-->, 1872*
+*—[Samuel Butler](https://en.wikipedia.org/wiki/Samuel_Butler_\(novelist\)), [“Erewhon”](https://en.wikipedia.org/wiki/Erewhon), 1872*
 
 As a response to Elon Musk declaring that [NeuraLink's purpose is to
 aid AI alignment](https://www.youtube.com/watch?v=ycPr5-27vSI&t=1447s),

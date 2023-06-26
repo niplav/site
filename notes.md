@@ -1347,7 +1347,7 @@ Pet Peeves
 * Applications that create visible new folders (or very large folders) in my home directory
 	* Examples include snap, DogeCoin, julia
 * Sinks are weirdly badly designed: Why is the end of the faucet so close to the back end of the sink? Why is it so close to the bottom of the sink? I don't see a good reason why the water shouldn't be directed to the middle of the sink, and the faucet be high up (for ample space for hands).<!--TODO: maybe images here-->
-* Microwaves and refridgerators have a great deal of controls that I believe ~all people don't use (the only control I use on a microwave is setting the duration, but I could see a reason for the energy dial; refridgerators need at most one dial (for setting the temperature). Why do they persist? Do consumers really (and erroneously) factor the presence of many dials into their purchase decision? Are companies simply falling prey to feature creep, and the cost of those features isn't large enough to make a difference?<!--TODO: link feature creep-->
+* Microwaves and refridgerators have a great deal of controls that I believe ~all people don't use (the only control I use on a microwave is setting the duration, but I could see a reason for the energy dial; refridgerators need at most one dial (for setting the temperature). Why do they persist? Do consumers really (and erroneously) factor the presence of many dials into their purchase decision? Are companies simply falling prey to [feature creep](https://en.wikipedia.org/wiki/Feature_creep), and the cost of those features isn't large enough to make a difference?
 * Browsers splitting words at a newline on an ﬀ or ﬅ ligature:
 
 ![Text: "paranoia is a profession. And so LeAIthan represents the most advanced ef[line split on ligature here]fort yet in AI alignment, using *factored* cognition—splitting up into a"](./img/pet_peeves/ff_split.png "Image of text: “paranoia is a profession. And so LeAIthan represents the most advanced ef[line split on ligature here]fort yet in AI alignment, using *factored* cognition—splitting up into a”")
@@ -1607,11 +1607,11 @@ However, Semmelweis was derided for his ideas, and they were dismissed
 as out of line with the then common four humors theory. Additionally, Wikipedia states that
 
 > As a result, his ideas were rejected by the medical community. Other,
-more subtle, factors may also have played a role. Some doctors, for
-instance, were offended at the suggestion that they should wash their
-hands, feeling that their social status as gentlemen was inconsistent with
-the idea that their hands could be unclean.<sup>[19][F]</sup><!--TODO:
-link those-->
+more subtle, factors may also have played a role. Some doctors,
+for instance, were offended at the suggestion that they should
+wash their hands, feeling that their social status as gentlemen
+was inconsistent with the idea that their hands could be
+unclean.<sup>[19][\[F\]](https://en.wikipedia.org/wiki/Ignaz_Semmelweis#cite_note-30)</sup>
 
 And:
 
@@ -1865,7 +1865,8 @@ Properties of Good Textbooks
 -----------------------------
 
 Heuristics for choosing/writing good textbooks (see also
-[here](https://docs.google.com/document/d/e/2PACX-1vTkqKg5IxCmPbw7JqnAWxoypaYNFH3XJd4UgYw4PufP09zzzW6j3v-CYXZkpD83sVrzygvg7gLbjM_Q/pub)):
+[here](https://docs.google.com/document/d/e/2PACX-1vTkqKg5IxCmPbw7JqnAWxoypaYNFH3XJd4UgYw4PufP09zzzW6j3v-CYXZkpD83sVrzygvg7gLbjM_Q/pub)) and
+[here](https://wiki.issarice.com/wiki/What_makes_a_word_explanation_good%3F)):
 
 * Has exercises
 	* Exercises are interspersed in the text, not in large chunks (better at the end of sections, not just at the end of chapters).

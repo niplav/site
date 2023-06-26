@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-17, modified: 2023-06-22, language: english, status: notes, importance: 7, confidence: possible*
+*author: niplav, created: 2023-01-17, modified: 2023-06-23, language: english, status: notes, importance: 7, confidence: possible*
 
 > __I investigate whether the attention span of individual humans has
 been falling over the last two decades (prompted by curiosity about
@@ -172,13 +172,16 @@ I found the family of [continuous performance
 tests](https://en.wikipedia.org/wiki/Continuous_performance_task),
 including the Visual and Auditory CPT (IVA-2), the [Test of Variables of
 Attention](https://en.wikipedia.org/wiki/Test_of_variables_of_Attention)
-(T.O.V.A.), Conners' CPT-III, the
-gradCPT and the QbTest, some of which are described
-[here](https://en.wikipedia.org/wiki/Continuous_performance_task#Test_administration)<!--TODO:
-links for all of these-->. These tests usually contain two parts: a part
-with low stimulation and rare changes of stimuli, which tests for lack
-of attention, and a part with high stimulation and numerous changes of
-stimuli, which tests for impulsivity/self control.
+(T.O.V.A.), [Conners'
+CPT-III](https://storefront.mhs.com/collections/conners-cpt-3), the
+[gradCPT](https://www.researchgate.net/figure/Gradual-onset-continuous-performance-task-gradCPT-Schematic-illustrating-the-gradual_fig2_314232645)
+and the [QbTest](https://www.qbtech.com/adhd-tests/),
+some of which are described
+[here](https://en.wikipedia.org/wiki/Continuous_performance_task#Test_administration).
+These tests usually contain two parts: a part with low stimulation and
+rare changes of stimuli, which tests for lack of attention, and a part
+with high stimulation and numerous changes of stimuli, which tests for
+impulsivity/self control.
 
 Those tests [usually report four different scores](https://en.wikipedia.org/wik/Continuous_performance_task#Test_scoring):
 
@@ -289,7 +292,7 @@ interaction consisting of the military or the stock exchange.
 
 ![Chart indicating how the speed at which hashtags become popular changed over the years. Four plots (yellow, green, blue and purple) which form a peak in the middle and fall off at the sides. The yellow line is highest around the peak, the green one is lower, blue even lower and purple the lowest.](./img/spans/popularity_ascent.png "Chart indicating how the speed at which hashtags become popular changed over the years. Four plots \(yellow, green, blue and purple\) which form a peak in the middle and fall off at the sides. The yellow line is highest around the peak, the green one is lower, blue even lower and purple the lowest.")
 
-Mark 2023<!--TODO: link to goodreads page for book--> is a recent
+[Mark 2023](https://www.goodreads.com/en/book/show/60795084) is a recent
 book about attention spans, which I was excited to read and find the
 important studies I'd missed. Unfortunately, it is quite thin on talking
 about the development of attention span over time. It states that

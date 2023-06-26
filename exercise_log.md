@@ -4317,3 +4317,15 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 1 sets 10 reps 22kg dumbbell row RPE 5
 * 1 sets 10 reps 24kg dumbbell row RPE 6
 * 1 sets 10 reps 26kg dumbbell row RPE 7
+
+### 2023-05-13T18:05-2023-05-13T18:55
+
+* 50 minutes jogging
+
+### 2023-06-15T19:05-2023-05-15T19:35
+
+* 30 minutes jogging
+
+### 2023-06-22T19:05-2023-05-13T19:40
+
+* 35 minutes jogging
