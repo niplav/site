@@ -340,6 +340,11 @@ Texts
 * Capable Artificial Alignment Theorists Appear Plausible
 * Shard Theory and Ontological Crises
 * Money-Pumping: A Computational-Complexity-theoretic Approach
+* Goal Misgeneralization along Ontological Shifts
+      * Shard Theory and the Indirect Realist Turn is a subcase
+      * Diamond turns into Diamond#1 and Diamond#2, latent and directly observed diamond. Which to generalize to?
+* Establishing a Theory of Establishing Coherence
+* Value- and Concept-Ladenness
 
 ### Pick Up
 
@@ -483,7 +488,7 @@ Texts
 	* Adderall
 	* LSD Microdosing
 	* Combinations: L-Theanine + Caffeine
-	* [Diet Coke](https://dynomight.net/diet-coke-nootropic)
+	* [Diet Coke](https://dynomight.net/diet-coke-nootropic) (maybe just check aspartame directly)
 	* Oxytocin
 	* Wellbutrin/Bupropion
 	* Testosterone
@@ -836,6 +841,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Investigate [this post empirically](http://www.overcomingbias.com/2007/02/is_truth_in_the.html) via information from forecasting datasets
 * Daygame Locations as a Multi-Armed Bandit
 * Acausalism
+* Lucid Dreaming Cost-Benefit Analysis
 
 ### Ideas
 
@@ -1100,6 +1106,26 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * How good are forecasters?
 	* How good are prediction markets?
 * Reporting Likelihood Ratios: A Practical Tutorial
+* Some Problems in Computational Philosophy
+	* Metrics for Logical Correlation
+		 * Between Decision Algorithms and algorithms in general
+	* The Python-with-Witch Problem
+	* Solomonoff Induction with a Sophistication Prior?
+	* Dutch-books for Agents That Implement Incompleteness via Randomization
+	* The UTMs-simulate-each-other solution to the Python-with-Witch problem
+		 * Look up LW shortform comment on this<!--TODO, both of them-->
+		 * https://nitter.net/RatOrthodox/status/1552618631602663425#m
+		 * Towards the Best Programming Language for Universal Induction
+		 * Bayesian Conspiracy episode where this is mentioned
+	* Deminatalist utilitarianism pitfalls
+	* Humans Are Not Turing Machines Because Nothing Is
+		 * Apparently critrats believe this?
+		 * We're finite state machines, I think
+	* The Monotonicity-Argument for Occam's Razor, and Its Inapplicability to Kolmogorov Complexity
+	* Which Coherence Axioms are Hard to Violate? Which Easy?
+	* Metrics for Goodhartability
+		 * Given a function `$f$` and an approximation `$a$`, how do we measure the Goodhartability of `$f$` when maximizing `$a$`, even in principle?
+	* Bounded Population Axiology
 
 ### Notes
 
@@ -1124,6 +1150,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Positive Externalities: Environment, Attractiveness
 * Boo Discord
 	* Why on earth did this software become the replacement for forums?
+	* Or: Lamentations on Fora
 * There is no Continous Probability Distribution without a Mode
 * Sharing Beliefs vs. Evidence vs. Models vs. Ontologies
 	* With examples:
@@ -1214,7 +1241,7 @@ Game. Even those odds likely overstate the number of Players in the world.
 	* Fixing My Voice
 	* Experiments with Butt Stuff
 	* Fixing my Posture
-* Lessons in Instrumental Rationality from Approaching 360 Women in the Street
+* Lessons in Instrumental Rationality from Approaching 600 Women in the Street
 	* I Solved a Big Problem in My Life: Not Having Sex
 * A Typical Daygame Session
 * A Typical Meditation Session
@@ -1934,9 +1961,16 @@ Wikipedia Articles
 * Banks Set (social choice theory)
 * Hodge Decomposition from combinatorial hodge theory
 * Hyllands theorem
+* Slater's problem
 
 ### Improve
 
+* Short pages with α in improvement
+	* Futarchy
+	* [Harberger Tax](https://en.wikipedia.org/wiki/Harberger_Tax)
+	* Landau set
+		* Add some true facts about the Landau set (look at notes)
+	* Sophistication (complexity theory)
 * [Maximal pair](https://en.wikipedia.org/wiki/Maximal_pair)
 	* Add examples
 	* Add description of MUMs
@@ -1948,7 +1982,6 @@ Wikipedia Articles
 	* Yeah, the current explanation is barely comprehensible
 * Find Ian Goodfellow's true year of birth
 * Add missing national anthems to `https://en.wikipedia.org/wiki/List_of_national_anthems`
-* Futarchy page
 * Maybe factor out the "Causal Model" page into several pages?
 	* do operator
 	* frontdoor criterion
@@ -1957,7 +1990,6 @@ Wikipedia Articles
 * Bitte bitte
 	* Watch the video and provide a better summary
 * Rewrite the Attention Span article
-* [Harberger Tax](https://en.wikipedia.org/wiki/Harberger_Tax)
 * Prophet Inequality
 * Anthropic
 * Urvashi
@@ -1982,12 +2014,7 @@ Wikipedia Articles
 * Network cost-sharing game
 * Full list of 10,000 vital articles
 * Improve Mathematical Alphanumeric Symbols: Add explanation of how to write them in `$\LaTeX$`
-* Markov information source: string '00' at the end of the 'Formal definition' section.
-* Sophistication (complexity theory)
-* Redirect List of smallest mammals to Smallest organisms
 * Add IPA for MECE pronounciation part
-* Landau set
-	* Add some true facts about the Landau set (look at notes)
 * Kemeny Rule
 	* Add mathematical formula/pseudocode/Python algorithm to the article
 * MDMA
@@ -1995,7 +2022,6 @@ Wikipedia Articles
 * Move [this comparison table](https://en.wikipedia.org/wiki/Kemeny%E2%80%93Young_method#Comparison_table) into it's own article.
 * Gibbard's Theorem
 	* Add section on Gibbard's 1978 theorem
-* Redirect "Experience sampling" to "Experience sampling method"
 
 Lesswrong wiki
 ---------------
@@ -2084,7 +2110,7 @@ General
 -------
 
 * Send typos to people, let them correct them
-* Find some drugs that cause short-term memory loss without ~any side effects, for self-blinding in QS
+* Find some drugs that cause short-term memory loss without ~any side effects, for self-blinding in QS, maybe [Midalozam](https://en.wikipedia.org/wiki/Midazolam)?
 
 Memes
 ------
@@ -2108,7 +2134,6 @@ In-World Projects
 * Backup libgen/scihub/arxiv/biorxiv/psyrxiv
 * Start a notebook academic journal (as in Jupyter Notebook)
 * Build good color vision test website
-* SkyGuessr — GeoGuessr but for pictures of the sky (GeoGuessr already does this I think)
 * Improve harbergertax.com
 * Startup: Generalized prediction market alert system à la https://hasrussialaunchednukesyet.com/
 * Startup: RCTs as a service

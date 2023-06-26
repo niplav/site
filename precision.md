@@ -80,39 +80,41 @@ forecasts and produces a real number `$ᚠ: ((0;1),\{0,1\})^n \rightarrow
 
 ### Bits, Not Probabilities, for Precision
 
-It is natural to assume that `$ᚠ$` returns a *probability*: after
-all, the input dataset has probabilities, and when talking about
-[Omar's](#Overprecise_Omar) calibration plot<!--TODO: link--> I was
-explicitely calling out the loss of accuracy in probability intervals
-shorter than 0.1.
+It is natural to assume that `$ᚠ$` returns a *probability*:
+after all, the input dataset has probabilities, and
+when talking about [Omar's](#Overprecise_Omar) [calibration
+plot](https://en.wikipedia.org/wiki/Probabilistic_classification#Probability_calibration)
+I was explicitely calling out the loss of accuracy in probability
+intervals shorter than 0.1.
 
 Furthermore, Tetlock et al.<!--TODO: read & link their precision paper-->
 also talk about precision in terms of probabilities, we are all used to
 probabilities, probabilities are friends.
 
-But this doesn't stand up to scrutiny: If we accept this, assuming
-we use probability buckets of size 5%, then 99.99999% and 96% are as
-similar to each other as 51% and 54.99999%. But the readers familiar
-with the formulation of probability in log-odds form<!--TODO: link-->
-surely balk at this equivalence: 99.99999% is a beast of a probability,
-an invocation only uttered in situations of extreme certainty, while 96%,
-51% and 54.99999% (modulo false precision) are everyday probabilities,
-plebeian even.
+But this doesn't stand up to scrutiny: If we accept this,
+assuming we use probability buckets of size 5%, then 99.99999%
+and 96% are as similar to each other as 51% and 54.99999%. But the
+readers familiar with the formulation of probability in [log-odds
+form](https://en.wikipedia.org/wiki/Logit) surely balk at this
+equivalence: 99.99999% is a beast of a probability, an invocation only
+uttered in situations of extreme certainty, while 96%, 51% and 54.99999%
+(modulo false precision) are everyday probabilities, plebeian even.
 
-However, in terms of *precision*, 54.99999% stands out like a sore
-thumb: while 99.99999% is supremely confident, it is not *overprecise*,
-since rounding up to 100% would be foolish<!--TODO: link 0 and 1 are
-not probabilities-->; but with 54.99999%, there is no good reason we
-can't just round to 55%.
+However, in terms of *precision*, 54.99999% stands out
+like a sore thumb: while 99.99999% is supremely confident,
+it is not *overprecise*, since rounding up to 100% [would be
+foolish](https://www.lesswrong.com/posts/QGkYCwyC7wTDyt3yT/0-and-1-are-not-probabilities);
+but with 54.99999%, there is no good reason we can't just round to 55%.
 
 So precision should be calculated in log-odds space, where one moves in
 bits instead of probabilities. Since we want to make a statement how
-much we can move the probabilities around until the proper scoring
-rule<!--TODO: link--> we apply starts giving worse results, it is
-only natural to express the precision in bits as well. (Which can't be
-converted linearly into probabilities: moving from 50% to 75% is one
-bit, but similarly moving from ~99.954% to ~99.977% is also a change
-of one bit).<!--TODO: check whether example is actually correct-->
+much we can move the probabilities around until the [proper scoring
+rule](https://en.wikipedia.org/wiki/Scoring_rule) we apply starts
+giving worse results, it is only natural to express the precision in
+bits as well. (Which can't be converted linearly into probabilities:
+moving from 50% to 75% is one bit, but similarly moving from ~99.954%
+to ~99.977% is also a change of one bit).<!--TODO: check whether example
+is actually correct-->
 
 Algorithms!
 ------------
@@ -165,9 +167,9 @@ and then a simple function that
 			pert_scores.append(mse(o,perturbed))
 		return np.mean(pert_scores)-score
 
-One could then simply sample the precisions and estimate the elbow
-point<!--TODO: link--> with a threshold value (why doesn't `range`
-allow floating point values as parameters?):
+One could then simply sample the precisions and estimate the [elbow
+point](https://en.wikipedia.org/wiki/Knee_of_a_curve) with a threshold
+value (why doesn't `range` allow floating point values as parameters?):
 
 	def score_differences(forecasts, samples=100, low=0, high=100, div=100):
 		return np.array([[s/div, perturbed_score_difference(d1, perturbation=s/div, samples=samples)] for s in range(low,high)]).T
