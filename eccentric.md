@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-20, modified: 2022-07-21, language: english, status: notes, importance: 3, confidence: remote*
+*author: niplav, created: 2022-07-20, modified: 2023-05-24, language: english, status: notes, importance: 3, confidence: remote*
 
 > __What I might do if I magically got hold of a very large amount of
 money, and couldn't spend it maximally altruistically.__
@@ -68,6 +68,7 @@ Science
 * Find drugs that cause short-term memory loss with ideally no side effects (useful for blinding in scientific studies)
 * Studying foreveraloners
 * Run Newcomb's problem in real life
+* Run the Generalized Wada Test<!--TODO: link-->
 
 Metascience
 ------------

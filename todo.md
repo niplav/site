@@ -300,7 +300,6 @@ Texts
 	* If I indeed reason out that I am the type of agent that would have children, I should not have children
 	* Reasoning: If propensity to have children is heritable, this kind of decision will prevent my ancestors from becoming pure replicators
 	* It is slightly paradoxical, though
-* Bounded Population Axiology
 
 ### Alignment
 
@@ -341,7 +340,7 @@ Texts
 	* Shard Theory and the Indirect Realist Turn is a subcase
 	* Diamond turns into Diamond#1 and Diamond#2, latent and directly observed diamond. Which to generalize to?
 * Establishing a Theory of Establishing Coherence
-* Which Coherence Axioms are Hard to Violate? Which Easy?
+* Value- and Concept-Ladenness
 
 ### Pick Up
 
@@ -386,6 +385,7 @@ Texts
 * Panpsychism is a Class of Theories of Consciousness, not a Theory of Consciousness
 * Intentional vs. Non-Intentional Consciousness
 	* The reason why, even if, strictly speaking, trees are "conscious", we don't have to worry about damaging them as much as we have to worry about damaging animals
+* State some of position on consciousness
 
 ### Meditation
 
@@ -609,13 +609,7 @@ Texts
 	* Why are we so okay with violence in movies & series, and so cucked about sex & sexuality?
 		* Isn't sex good & violence bad‽
 * Maybe a car rant
-* Deminatalist utilitarianism pitfalls
-* Humans Are Not Turing Machines Because Nothing Is
-	* Apparently critrats believe this?
-	* We're finite state machines, I think
-* The Monotonicity-Argument for Occam's Razor, and Its Inapplicability to Kolmogorov Complexity
 * Argument against polyamory
-* State some of position on consciousness
 * Bitcoin maximalism is not even wrong?
 * Forecasting Track Records: Still Underrated
 	* Argument: Metrics can be goodharted. Answer: "A solution is technical if it is precise enough to be Goodharted and social if it is imprecise enough to be used to coalitionally extract value"
@@ -822,7 +816,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* When will the last proton decay?
 * Test computationally whether causal networks have more correlations or causations, project from [here](https://www.gwern.net/Causality#what-a-tangled-net-we-weave-when-first-we-practice-to-believe)
 * Which percentage of random normal-form games are potential games?
-	* 0?
+	* 0? (almost none)
 * Find Polygenic scores for subjective well-being and run them through Gwerns Embryo Selection Analysis
 	* See [this section](https://www.gwern.net/Embryo-selection#multiple-selection-on-independent-traits)
 * Testing CFARs techniques and anti-procrastination techniques
@@ -845,6 +839,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Post-mortem on liquid democracy in the real world
 * Investigate [this post empirically](http://www.overcomingbias.com/2007/02/is_truth_in_the.html) via information from forecasting datasets
 * Daygame Locations as a Multi-Armed Bandit
+* Lucid Dreaming Cost-Benefit Analysis
 
 ### Ideas
 
@@ -938,11 +933,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Solution: If coordination is eventually easy with a non-negligible probability, it's not a problem
 * Should the EA Community Buy Large AI Labs?
 	* Use the Rocket Squid quote from Erogamer
-* The UTMs-simulate-each-other solution to the Python-with-Witch problem
-	* Look up LW shortform comment on this<!--TODO, both of them-->
-	* https://nitter.net/RatOrthodox/status/1552618631602663425#m
-	* Towards the Best Programming Language for Universal Induction
-	* Bayesian Conspiracy episode where this is mentioned
 * Clanishness vs. tribalism and relatedness in Dunbars number sized groups
 * Upwing and downwing as new political fronts
 	* Hat-grab at John David Pressman
@@ -958,7 +948,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Romantic Partners
 	* Jobs to Workers
 	* Living Locations to Tenants
-* Solomonoff Induction with a Sophistication Prior?
 * Lesser known causal graphs
 	* Mathematical art with causal graphs where edges can point to (or inhibit) other edges
 	* Not to be taken seriously
@@ -998,7 +987,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Your policy assumes your country will always stay a dictatorship
 	* Your policy is a pareto-worsening
 	* Living under your policy is anadequate punishment for coming up with it.
-* Dutch-books for Agents That Implement Incompleteness via Randomization
 
 ### Collections
 
@@ -1143,6 +1131,26 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * How good are forecasters?
 	* How good are prediction markets?
 * Reporting Likelihood Ratios: A Practical Tutorial
+* Some Problems in Computational Philosophy
+	* Metrics for Logical Correlation
+		* Between Decision Algorithms and algorithms in general
+	* The Python-with-Witch Problem
+	* Solomonoff Induction with a Sophistication Prior?
+	* Dutch-books for Agents That Implement Incompleteness via Randomization
+	* The UTMs-simulate-each-other solution to the Python-with-Witch problem
+		* Look up LW shortform comment on this<!--TODO, both of them-->
+		* https://nitter.net/RatOrthodox/status/1552618631602663425#m
+		* Towards the Best Programming Language for Universal Induction
+		* Bayesian Conspiracy episode where this is mentioned
+	* Deminatalist utilitarianism pitfalls
+	* Humans Are Not Turing Machines Because Nothing Is
+		* Apparently critrats believe this?
+		* We're finite state machines, I think
+	* The Monotonicity-Argument for Occam's Razor, and Its Inapplicability to Kolmogorov Complexity
+	* Which Coherence Axioms are Hard to Violate? Which Easy?
+	* Metrics for Goodhartability
+		* Given a function `$f$` and an approximation `$a$`, how do we measure the Goodhartability of `$f$` when maximizing `$a$`, even in principle?
+	* Bounded Population Axiology
 
 ### Notes
 
@@ -1167,6 +1175,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Positive Externalities: Environment, Attractiveness
 * Boo Discord
 	* Why on earth did this software become the replacement for forums?
+	* Or: Lamentations on Fora
 * There is no Continous Probability Distribution without a Mode
 * Sharing Beliefs vs. Evidence vs. Models vs. Ontologies
 	* With examples:
