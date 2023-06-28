@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2023-06-21, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2023-01-06, modified: 2023-06-27, language: english, status: notes, importance: 3, confidence: log*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
 decided to log my nootropics usage and its effects.__
@@ -34,10 +34,10 @@ do by recording the outcomes. That's what I did.
 		<td>Happiness effect size d (λ, p, σ increase)</td>
 		<td>Contentment effect size d (λ, p, σ increase)</td>
 		<td>Relaxation effect size d (λ, p, σ increase)</td>
-		<td>Horniness effect size d (λ, p, σ increase)</td>
+		<td>Chastity effect size d (λ, p, σ increase)</td>
 	</tr>
 	<tr>
-		<td>200mg Caffeine (n=1, m=40)</td>
+		<td>200mg Caffeine (n=1, m=50)</td>
 		<td>-0.6</td>
 		<td>0.61 (λ=13.3, p=0.00017, -0.072)</td>
 		<td>0.58 (λ=11.8, p=0.0007, 0.021)</td>
@@ -63,10 +63,12 @@ disadvantage), and so were likely selected against, but most of us
 don't care *that* much about inclusive genetic fitness and more about
 psychological well-being. Evolutionary dynamics favor being like
 [Dschingis Khan](https://en.wikipedia.org/wiki/Dschinghis_Khan)
-(hundreds to thousands of offspring) over [Siddharta
-Gautama](https://en.wikipedia.org/wiki/Siddharta_Gotama) (one son), but
-I'd rather attain [sotāpanna](https://en.wikipedia.org/wiki/Sotāpanna)
-than pillage and murder.
+([dozens to hundreds of
+offspring](https://en.wikipedia.org/wiki/Family_and_descendants_of_Genghis_Khan))
+over [Siddharta Gautama](https://en.wikipedia.org/wiki/Siddharta_Gotama)
+([one son](https://en.wikipedia.org/wiki/R%C4%81hula)), but I'd rather
+attain [sotāpanna](https://en.wikipedia.org/wiki/Sotāpanna) than
+pillage and murder.
 
 And meditative attainments are *costly*: they take tens to
 hundreds to thousands of hours to reach, which would make simple
@@ -86,20 +88,6 @@ Caffeine
 
 ### Experiment A: Self-Blinded RCT
 
-Cost:
-
-* Time
-	* Time for filling: 35 minutes
-	* Time for preparing envelopes: 40 minutes
-* Cost of caffeine pills: `$\frac{0.0825€}{\text{200mg caffeine pill}} \cdot \text{ 200mg caffeine pills}=2.0625€$`
-* Cost of empty capsules: `$\frac{0.03€}{\text{capsule}} \cdot 25 \text{ capsules}=0.75€$`
-* Cost of sugar: Negligible.
-
-200mg caffeine pills, placebo pills filled with sugar, of each 25.
-Put each pill with a corresponding piece of paper ("C" for caffeine,
-"P" for placebo) into an unlabeled envelope.  Used `seq 1 50 | shuf`
-to number the envelopes, and sorted them accordingly.
-
 Variables tracked (see more [here](./data.html)):
 
 * Meditation: 45 minutes of ānāpānasati, started 0-60 minutes after taking the dose, tracking two variables.
@@ -113,6 +101,20 @@ Variables tracked (see more [here](./data.html)):
 	* __Relaxation/Stress__
 	* __Horniness/Chastity__: Chastity being simply the opposite of horniness in this case.
 * __Productivity__ and __creativity__, recorded at the end of the day.
+
+The total cost of the experiment is at least 21.5€:
+
+* Time: The [Clearer Thinking tool](https://programs.clearerthinking.org/what_is_your_time_really_worth_to_you.html) for the value of my time returns 15€/hour, which gives a time cost of 18.75€ for preparing the experiment.
+	* Time for filling: 35 minutes
+	* Time for preparing envelopes: 40 minutes
+* Cost of caffeine pills: `$\frac{0.0825€}{\text{200mg caffeine pill}} \cdot \text{ 200mg caffeine pills}=2.0625€$`
+* Cost of empty capsules: `$\frac{0.03€}{\text{capsule}} \cdot 25 \text{ capsules}=0.75€$`
+* Cost of sugar: Negligible.
+
+200mg caffeine pills, placebo pills filled with sugar, of each 25.
+Put each pill with a corresponding piece of paper ("C" for caffeine,
+"P" for placebo) into an unlabeled envelope.  Used `seq 1 50 | shuf`
+to number the envelopes, and sorted them accordingly.
 
 Notes on the experiment:
 
@@ -487,42 +489,42 @@ predictions for the world to observe my idiocy.
 <!--TODO: convert into a table?-->
 
 * __Prediction of Arm__
-	* My prediction about the content of the pill is more accurate than random guesses<sub>[80%](https://predictionbook.com/predictions/211893)</sub>.
-	* My prediction about the content of the pill has a log score of more than -0.5<sub>[60%](https://predictionbook.com/predictions/211894)</sub>.
+	* My prediction about the content of the pill is more accurate than random guesses<sub>[80%](https://predictionbook.com/predictions/211893)</sub>: Yes.
+	* My prediction about the content of the pill has a log score of more than -0.5<sub>[60%](https://predictionbook.com/predictions/211894)</sub>: No.
 * __Meditation__
-	* On days with caffeine, my average mindfulness during meditation was higher than days with placebo<sub>[60%](https://predictionbook.com/predictions/211895)</sub>.
-	* On days with caffeine, my average absorption during meditation was higher than days with placebo<sub>[40%](https://predictionbook.com/predictions/211896)</sub>.
-	* On days with caffeine, the variance of values for mindfulness during meditation was lower than on placebo days<sub>[55%](https://predictionbook.com/predictions/211897)</sub>.
-	* On days with caffeine, the variance of values for absorption during meditation was lower than on placebo days<sub>[35%](https://predictionbook.com/predictions/211898)</sub>.
-	* `$\lambda<1$` for the mindfulness values<sub>[20%](https://predictionbook.com/predictions/211899)</sub>.
-	* `$\lambda<1$` for the absorption values<sub>[25%](https://predictionbook.com/predictions/211900)</sub>.
-	* `$\lambda<4$` for the mindfulness values<sub>[82%](https://predictionbook.com/predictions/211901)</sub>.
-	* `$\lambda<4$` for the absorption values<sub>[88%](https://predictionbook.com/predictions/211902)</sub>.
+	* On days with caffeine, my average mindfulness during meditation was higher than days with placebo<sub>[60%](https://predictionbook.com/predictions/211895)</sub>: Yes.
+	* On days with caffeine, my average absorption during meditation was higher than days with placebo<sub>[40%](https://predictionbook.com/predictions/211896)</sub>: Yes.
+	* On days with caffeine, the variance of values for mindfulness during meditation was lower than on placebo days<sub>[55%](https://predictionbook.com/predictions/211897)</sub>: No.
+	* On days with caffeine, the variance of values for absorption during meditation was lower than on placebo days<sub>[35%](https://predictionbook.com/predictions/211898)</sub>: Yes.
+	* `$\lambda<1$` for the mindfulness values<sub>[20%](https://predictionbook.com/predictions/211899)</sub>: No.
+	* `$\lambda<1$` for the absorption values<sub>[25%](https://predictionbook.com/predictions/211900)</sub>: No.
+	* `$\lambda<4$` for the mindfulness values<sub>[82%](https://predictionbook.com/predictions/211901)</sub>: No.
+	* `$\lambda<4$` for the absorption values<sub>[88%](https://predictionbook.com/predictions/211902)</sub>: No.
 * __Mood__
-	* On days with caffeine, my average happiness during the day was higher than days with placebo<sub>[65%](https://predictionbook.com/predictions/211903)</sub>.
-	* On days with caffeine, my average contentment during the day was higher than days with placebo<sub>[45%](https://predictionbook.com/predictions/211904)</sub>.
-	* On days with caffeine, my average relaxation during the day was higher than days with placebo<sub>[35%](https://predictionbook.com/predictions/211905)</sub>.
-	* On days with caffeine, my average chastity during the day was higher than days with placebo<sub>[50%](https://predictionbook.com/predictions/211906)</sub>.
-	* On days with caffeine, the variance of values for happiness during the day was lower than on placebo days<sub>[55%](https://predictionbook.com/predictions/211907)</sub>.
-	* On days with caffeine, the variance of values for contentment during the day was lower than on placebo days<sub>[30%](https://predictionbook.com/predictions/211908)</sub>.
-	* On days with caffeine, the variance of values for relaxation during the day was lower than on placebo days<sub>[30%](https://predictionbook.com/predictions/211909)</sub>.
-	* On days with caffeine, the variance of values for chastity during the day was lower than on placebo days<sub>[50%](https://predictionbook.com/predictions/211910)</sub>.
-	* `$\lambda<1$` for the happiness values<sub>[45%](https://predictionbook.com/predictions/211911)</sub>.
-	* `$\lambda<1$` for the contentment values<sub>[40%](https://predictionbook.com/predictions/211912)</sub>.
-	* `$\lambda<1$` for the relaxation values<sub>[37%](https://predictionbook.com/predictions/211913)</sub>.
-	* `$\lambda<1$` for the chastity values<sub>[60%](https://predictionbook.com/predictions/211914)</sub>.
-	* `$\lambda<4$` for the happiness values<sub>[85%](https://predictionbook.com/predictions/211915)</sub>.
-	* `$\lambda<4$` for the contentment values<sub>[90%](https://predictionbook.com/predictions/211916)</sub>.
-	* `$\lambda<4$` for the relaxation values<sub>[90%](https://predictionbook.com/predictions/211917)</sub>.
-	* `$\lambda<4$` for the chastity values<sub>[95%](https://predictionbook.com/predictions/211918)</sub>.
+	* On days with caffeine, my average happiness during the day was higher than days with placebo<sub>[65%](https://predictionbook.com/predictions/211903)</sub>: Yes.
+	* On days with caffeine, my average contentment during the day was higher than days with placebo<sub>[45%](https://predictionbook.com/predictions/211904)</sub>: Yes.
+	* On days with caffeine, my average relaxation during the day was higher than days with placebo<sub>[35%](https://predictionbook.com/predictions/211905)</sub>: No.
+	* On days with caffeine, my average chastity during the day was higher than days with placebo<sub>[50%](https://predictionbook.com/predictions/211906)</sub>: No.
+	* On days with caffeine, the variance of values for happiness during the day was lower than on placebo days<sub>[55%](https://predictionbook.com/predictions/211907)</sub>: No.
+	* On days with caffeine, the variance of values for contentment during the day was lower than on placebo days<sub>[30%](https://predictionbook.com/predictions/211908)</sub>: No.
+	* On days with caffeine, the variance of values for relaxation during the day was lower than on placebo days<sub>[30%](https://predictionbook.com/predictions/211909)</sub>: No.
+	* On days with caffeine, the variance of values for chastity during the day was lower than on placebo days<sub>[50%](https://predictionbook.com/predictions/211910)</sub>: No.
+	* `$\lambda<1$` for the happiness values<sub>[45%](https://predictionbook.com/predictions/211911)</sub>: No.
+	* `$\lambda<1$` for the contentment values<sub>[40%](https://predictionbook.com/predictions/211912)</sub>: No.
+	* `$\lambda<1$` for the relaxation values<sub>[37%](https://predictionbook.com/predictions/211913)</sub>: No.
+	* `$\lambda<1$` for the chastity values<sub>[60%](https://predictionbook.com/predictions/211914)</sub>: No.
+	* `$\lambda<4$` for the happiness values<sub>[85%](https://predictionbook.com/predictions/211915)</sub>: No.
+	* `$\lambda<4$` for the contentment values<sub>[90%](https://predictionbook.com/predictions/211916)</sub>: No.
+	* `$\lambda<4$` for the relaxation values<sub>[90%](https://predictionbook.com/predictions/211917)</sub>: No.
+	* `$\lambda<4$` for the chastity values<sub>[95%](https://predictionbook.com/predictions/211918)</sub>: Yes.
 * __Productivity and Creativity__
-	* On days with caffeine, my average productivity during the day was higher than days with placebo<sub>52%</sub>.
-	* On days with caffeine, my average creativity during the day was higher than days with placebo<sub>55%</sub>.
-	* On days with caffeine, the variance of values for productivity during the day was lower than on placebo days<sub>40%</sub>.
-	* On days with caffeine, the variance of values for creativity during the day was lower than on placebo days<sub>65%</sub>.
-	* `$\lambda<1$` for the productivity values<sub>[40%](https://predictionbook.com/predictions/211919)</sub>.
-	* `$\lambda<1$` for the creativity values<sub>[45%](https://predictionbook.com/predictions/211920)</sub>.
-	* `$\lambda<4$` for the producitvity values<sub>[75%](https://predictionbook.com/predictions/211921)</sub>.
-	* `$\lambda<4$` for the creativity values<sub>[80%](https://predictionbook.com/predictions/211922)</sub>.
+	* On days with caffeine, my average productivity during the day was higher than days with placebo<sub>[52%](https://predictionbook.com/predictions/211991)</sub>: Yes.
+	* On days with caffeine, my average creativity during the day was higher than days with placebo<sub>[55%](https://predictionbook.com/predictions/211992)</sub>: Yes.
+	* On days with caffeine, the variance of values for productivity during the day was lower than on placebo days<sub>[40%](https://predictionbook.com/predictions/211993)</sub>: No.
+	* On days with caffeine, the variance of values for creativity during the day was lower than on placebo days<sub>[65%](https://predictionbook.com/predictions/211994)</sub>: No.
+	* `$\lambda<1$` for the productivity values<sub>[40%](https://predictionbook.com/predictions/211919)</sub>: No.
+	* `$\lambda<1$` for the creativity values<sub>[45%](https://predictionbook.com/predictions/211920)</sub>: No.
+	* `$\lambda<4$` for the productivity values<sub>[75%](https://predictionbook.com/predictions/211921)</sub>: No.
+	* `$\lambda<4$` for the creativity values<sub>[80%](https://predictionbook.com/predictions/211922)</sub>: No.
 
-I also recorded my predictions about the content of the pill on PredictionBook ([1](https://predictionbook.com/predictions/211311) [2](https://predictionbook.com/predictions/211312) [3](https://predictionbook.com/predictions/211313) [4](https://predictionbook.com/predictions/211314) [5](https://predictionbook.com/predictions/211857) [6](https://predictionbook.com/predictions/211858) [7](https://predictionbook.com/predictions/211859) [8](https://predictionbook.com/predictions/211860) [9](https://predictionbook.com/predictions/211861) [10](https://predictionbook.com/predictions/211862) [11](https://predictionbook.com/predictions/211863) [12](https://predictionbook.com/predictions/211864) [13](https://predictionbook.com/predictions/211865) [14](https://predictionbook.com/predictions/211866) [15](https://predictionbook.com/predictions/211867) [16](https://predictionbook.com/predictions/211868) [17](https://predictionbook.com/predictions/211869) [18](https://predictionbook.com/predictions/211870) [19](https://predictionbook.com/predictions/211871) [20](https://predictionbook.com/predictions/211872) [21](https://predictionbook.com/predictions/211873) [22](https://predictionbook.com/predictions/211874) [23](https://predictionbook.com/predictions/211875) [24](https://predictionbook.com/predictions/211876) [25](https://predictionbook.com/predictions/211877) [26](https://predictionbook.com/predictions/211878) [27](https://predictionbook.com/predictions/211879) [28](https://predictionbook.com/predictions/211880) 29 30 31 32 33 34 35 36 37 38 [39](https://predictionbook.com/predictions/211881) [40](https://predictionbook.com/predictions/211882) [41](https://predictionbook.com/predictions/211883) [42](https://predictionbook.com/predictions/211884) [43](https://predictionbook.com/predictions/211885) [44](https://predictionbook.com/predictions/211886) [45](https://predictionbook.com/predictions/211887) [46](https://predictionbook.com/predictions/211888) [47](https://predictionbook.com/predictions/211889) [48](https://predictionbook.com/predictions/211890) [49](https://predictionbook.com/predictions/211891) [50](https://predictionbook.com/predictions/211892)).
+I also recorded my predictions about the content of the pill on PredictionBook ([1](https://predictionbook.com/predictions/211311) [2](https://predictionbook.com/predictions/211312) [3](https://predictionbook.com/predictions/211313) [4](https://predictionbook.com/predictions/211314) [5](https://predictionbook.com/predictions/211857) [6](https://predictionbook.com/predictions/211858) [7](https://predictionbook.com/predictions/211859) [8](https://predictionbook.com/predictions/211860) [9](https://predictionbook.com/predictions/211861) [10](https://predictionbook.com/predictions/211862) [11](https://predictionbook.com/predictions/211863) [12](https://predictionbook.com/predictions/211864) [13](https://predictionbook.com/predictions/211865) [14](https://predictionbook.com/predictions/211866) [15](https://predictionbook.com/predictions/211867) [16](https://predictionbook.com/predictions/211868) [17](https://predictionbook.com/predictions/211869) [18](https://predictionbook.com/predictions/211870) [19](https://predictionbook.com/predictions/211871) [20](https://predictionbook.com/predictions/211872) [21](https://predictionbook.com/predictions/211873) [22](https://predictionbook.com/predictions/211874) [23](https://predictionbook.com/predictions/211875) [24](https://predictionbook.com/predictions/211876) [25](https://predictionbook.com/predictions/211877) [26](https://predictionbook.com/predictions/211878) [27](https://predictionbook.com/predictions/211879) [28](https://predictionbook.com/predictions/211880) [29](https://predictionbook.com/predictions/211967) [30](https://predictionbook.com/predictions/211968) [31](https://predictionbook.com/predictions/211969) [32](https://predictionbook.com/predictions/211970) [33](https://predictionbook.com/predictions/211971) [34](https://predictionbook.com/predictions/211972) [35](https://predictionbook.com/predictions/211973) [36](https://predictionbook.com/predictions/211974) [37](https://predictionbook.com/predictions/211975) [38](https://predictionbook.com/predictions/211976) [39](https://predictionbook.com/predictions/211881) [40](https://predictionbook.com/predictions/211882) [41](https://predictionbook.com/predictions/211883) [42](https://predictionbook.com/predictions/211884) [43](https://predictionbook.com/predictions/211885) [44](https://predictionbook.com/predictions/211886) [45](https://predictionbook.com/predictions/211887) [46](https://predictionbook.com/predictions/211888) [47](https://predictionbook.com/predictions/211889) [48](https://predictionbook.com/predictions/211890) [49](https://predictionbook.com/predictions/211891) [50](https://predictionbook.com/predictions/211892)).

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2023-06-21, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2023-06-27, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -488,7 +488,9 @@ Texts
 	* Adderall
 	* LSD Microdosing
 	* Combinations: L-Theanine + Caffeine
-	* [Diet Coke](https://dynomight.net/diet-coke-nootropic) (maybe just check aspartame directly)
+	* [Diet Coke](https://dynomight.net/diet-coke-nootropic)
+		* Aspartame
+		* Phenylalanine (https://www.aaronbergman.net/p/contra-dynomight-contra-me-but-also)
 	* Oxytocin
 	* Wellbutrin/Bupropion
 	* Testosterone
