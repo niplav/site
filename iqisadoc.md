@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-15, modified: 2023-04-14, language: english, status: notes, importance: 6, confidence: certain*
+*author: niplav, created: 2022-07-15, modified: 2023-06-12, language: english, status: notes, importance: 6, confidence: certain*
 
 > __A library for handling forecasting datasets is documented.__
 
@@ -60,7 +60,7 @@ from the Good Judgement Project as a [pandas](https://pandas.pydata.org/)
 	[793501 rows x 15 columns]
 
 The [`load`](#loadfilesNone) functions are the central piece of the
-library, as they give you, the user, the data in [a format](#forecasts)
+library, as they give you, the user, the data in [a format](#Forecasts)
 that can be compared across datasets. The other functions are merely
 suggestions and can be ignored if they don't fit your use-case (iqisa
 wants to provide you with the data, and not be opinionated with what
@@ -220,7 +220,7 @@ Its columns are
 
 <!--TODO: describe further-->
 
-* `question_id`, `q_title`, `q_status`, `open_time`, `close_time`, `resolve_time`, `close_date`, `outcome`, `time_open`, `n_opts`, `options`: As in the [description of `forecasts` above](#forecasts)
+* `question_id`, `q_title`, `q_status`, `open_time`, `close_time`, `resolve_time`, `close_date`, `outcome`, `time_open`, `n_opts`, `options`: As in the [description of `forecasts` above](#Forecasts).
 * `q_title`: The title of the question, as a `str`.
 
 Loading Functions
@@ -627,7 +627,7 @@ single number, intended to be plugged as a second argument into
 	* This parameter is only used if `summ` is `'arith'`
 * `extremize`: Whether and how to [extremize](https://arxiv.org/pdf/1506.06405.pdf) forecasts.
 	* `noextr`: Don't extremize, leave the probabilities as they are
-	* `gjpextr`: Use the extremising method described in [Ungar et al 2012](./doc/prediction/the_good_judgement_project_a_large_scale_test_of_different_methods_of_combining_expert_predictions_ungar_et_al_2012.pdf): Given the already aggregated probability `$p$` and extremization factor `$a$` (function argument `extrfactor`, default 3), set the new probaility to `$\frac{p^a}{(p^a+(1-p))^{1/a}}$`
+	* `gjpextr`: Use the extremising method described in [Ungar et al 2012](./doc/prediction/the_good_judgement_project_a_large_scale_test_of_different_methods_of_combining_expert_predictions_ungar_et_al_2012.pdf): Given the already aggregated probability `$p$` and extremization factor `$a$` (function argument `extrfactor`, default 3), set the new probability to `$\frac{p^a}{(p^a+(1-p))^{1/a}}$`
 	* `postextr`: Given the already aggregated probability `$p$` and extremization factor `$a$` (function argument `extrfactor`, default 3), extremise the probaility to `$p^a$`
 	* `neyextr`: Use the extremising method developed in [Neyman & Roughgarden 2022](https://arxiv.org/pdf/2111.03153.pdf): Given `$n$` forecasts, already aggregated to a probability `$p$`, extremise to `$n \cdot \frac{\sqrt{3 \cdot n^2-3n+1}-2}{n^2-n-1}$`
 * `fill`: Change the forecasts so that each forecast is repeated daily until a new forecast is made

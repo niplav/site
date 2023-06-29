@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2023-05-03, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2023-06-12, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -17,6 +17,18 @@ unsterblich zu sein, um es zu vollenden.
 with fecundity.
 
 *—[Scott Alexander](https://slatestarcodex.com/), [“The Goddess of Everything Else”](https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/), 2015*
+
+June 2023
+----------
+
+I often ignored my other obligations this month.
+
+* [Precision of Sets of Forecasts](./precision.html)
+* [Notes](./notes.html)
+	* [Economic Policy Checklist](./notes.html#Economic_Policy_Checklist)
+	* [Nothing to See Here, Just An Implementation of HodgeRank](./notes.html#Nothing_to_See_Here_Just_An_Implementation_of_HodgeRank)
+* [Nootropics](./nootropics.html)
+	* [Self-Blinded RCT with Caffeine](./nootropics.html#Experiment_A_SelfBlinded_RCT)
 
 May 2023
 ---------

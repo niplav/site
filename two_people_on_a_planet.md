@@ -84,7 +84,7 @@ Exchange post:
 
 *— [RobAu](https://math.stackexchange.com/users/53495/robau), [“Fastest way to meet, without communication, on a sphere?”](https://math.stackexchange.com/questions/1214022/fastest-way-to-meet-without-communication-on-a-sphere/), 2015*
 
-In this problem, marking are not possible, and players don't start at
+In this problem, marking is not possible, and players don't start at
 the opposite sides of the planet (which makes a solution a lot harder).
 
 #### Moving at Random, but Changing Directions Rarely

@@ -9,9 +9,11 @@ echo -n 'substance: '
 substance=`{read}
 echo -n 'amount (mg/g): '
 amount=`{read}
+echo -n 'experiment: '
+id=`{read}
 echo -n 'id: '
 id=`{read}
 echo -n 'substance prediction: '
 prediction=`{read}
 
-printf '%s,%s,%s,%s,%s\n' $datetime $substance $amount $id $prediction >>substances.csv
+printf '%s,%s,%s,%s,%s,%s\n' $datetime $substance $amount $experiment $id $prediction >>substances.csv

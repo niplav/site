@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2023-05-08, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2023-06-16, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -215,7 +215,7 @@ weaker agent `$A_{w}$` with the goal of learning as much as possible. If
 than `$A_{w}$`, it can then stop `$A_{w}$`, extract `$v_{m}$` using a
 weak agent that isn't strong enough to be influenced by action-compelling
 sentences, and let that weak agent compute `$h_{m}=\text{hash}(v_{m})$`<!--TODO:
-link quote that says that every cryoptographer can design a code that he
+link quote that says that every cryptographer can design a code that he
 can't crack: https://en.wikipedia.org/wiki/Bruce_Schneier#Cryptography,
 but I don't see how that's relevant here-->. `$h_{m}$` could then be
 added to a weak separate internal system that replaces `$v_{m}$` with
@@ -740,16 +740,41 @@ on birth control measures.
 Trigger-Action Plans
 ---------------------
 
-This is a list of some trigger-action plans I have installed/will install.
+This is a list of some trigger-action plans I have installed (for which
+I've found spaced repetition to be very useful).
 
 ### Installed
 
 1. After happiness, more happiness
-	* Trigger: I enter my current happiness on Mood Patterns
+	* Trigger: I enter my current happiness on Mood Patterns, and it shows me Mindfulness as an action
 	* Action: Focus on 10 breaths
 2. Got your keys
 	* Trigger: I grab the handle of the door outside my apartment
 	* Action: I feel in my pocket whether the keys are there
+3. Knuckle-cracking
+	* Trigger: I crack my knuckles
+	* Action: I adjust my posture
+4. Nail-biting
+	* Trigger: I notice myself biting my nails
+	* Action: I put my hands on a desk/my lap, and focus on each of my fingertips for one in-out breath
+5. Alarm
+	* Trigger: I hear my alarm
+	* Action: I get out of bed
+6. Something is bad
+	* Trigger: I feel bad/uncomfortable, in any way
+	* Action: I start noting my sensations
+7. No unwilling Wikipedia deep-dives
+	* Trigger: I type the 'x' of "Kiwix" to open the application
+	* Action: I set a 10-minute timer
+8. Mental jitteriness
+	* Trigger: I notice that I can't concentrate on anything, despite the circumstances being good for it (no internet, time set aside for deep work)
+	* Action: I do 10 burpees
+9. Toilet paper present
+	* Trigger: I sit down on a toilet
+	* Action: I look for/feel for toilet paper
+10. Doorframe
+	* Trigger: I walk through a doorframe
+	* Action: I straighten my back, put my shoulders back
 
 ### Dropped
 
@@ -759,33 +784,6 @@ This is a list of some trigger-action plans I have installed/will install.
 2. Disabling web blocker
 	* Trigger: I try to disable Leechblock in my browser
 	* Action: I take a walk around the block
-
-### To Be Installed
-
-1. Knuckle-cracking
-	* Trigger: I crack my knuckles
-	* Action: I adjust my posture
-2. Nail-biting
-	* Trigger: I notice myself biting my nails
-	* Action: I put my hands on a desk/my lap, and focus on each of my fingertips for one in-out breath
-3. Alarm
-	* Trigger: I hear my alarm
-	* Action: I get out of bed
-4. Something is bad
-	* Trigger: I feel bad/uncomfortable, in any way
-	* Action: I start noting my sensations
-5. No unwilling Wikipedia deep-dives
-	* Trigger: I type the 'x' of "Kiwix" to open the application
-	* Action: I set a 10-minute timer
-6. Mental jitteriness
-	* Trigger: I notice that I can't concentrate on anything, despite the circumstances being good for it (no internet, time set aside for deep work)
-	* Action: I do 20 burpees
-7. Toilet paper present
-	* Trigger: I sit down on a toilet
-	* Action: I look for/feel for toilet paper
-8. Posture (again)
-	* Trigger: I walk through a doorframe
-	* Action: I straighten my back, put my shoulders back
 
 ### See Also
 
@@ -1348,6 +1346,8 @@ Pet Peeves
 * Websites that offer two-factor authentication, but don't allow physical authentication keys and, worse, don't offer an option to backup those two-factor authentication methods
 * Applications that create visible new folders (or very large folders) in my home directory
 	* Examples include snap, DogeCoin, julia
+* Sinks are weirdly badly designed: Why is the end of the faucet so close to the back end of the sink? Why is it so close to the bottom of the sink? I don't see a good reason why the water shouldn't be directed to the middle of the sink, and the faucet be high up (for ample space for hands).<!--TODO: maybe images here-->
+* Microwaves and refridgerators have a great deal of controls that I believe ~all people don't use (the only control I use on a microwave is setting the duration, but I could see a reason for the energy dial; refridgerators need at most one dial (for setting the temperature). Why do they persist? Do consumers really (and erroneously) factor the presence of many dials into their purchase decision? Are companies simply falling prey to [feature creep](https://en.wikipedia.org/wiki/Feature_creep), and the cost of those features isn't large enough to make a difference?
 * Browsers splitting words at a newline on an ﬀ or ﬅ ligature:
 
 ![Text: "paranoia is a profession. And so LeAIthan represents the most advanced ef[line split on ligature here]fort yet in AI alignment, using *factored* cognition—splitting up into a"](./img/pet_peeves/ff_split.png "Image of text: “paranoia is a profession. And so LeAIthan represents the most advanced ef[line split on ligature here]fort yet in AI alignment, using *factored* cognition—splitting up into a”")
@@ -1505,7 +1505,8 @@ can also sometimes establish bounds on the price of inadequacy:
 
 As an example, in [network cost-sharing
 games](https://en.wikipedia.org/wiki/Price_of_stability#Network_design_games),
-`$\text{PoA} \le k$` and `$\text{PoS}=\mathcal{H}_k$`, so `$\text{PoI} \le k-\mathcal{H}_k$`.
+`$\text{PoA} \le k$` and `$\text{PoS}=\mathcal{H}_k$`, so
+`$\text{PoI} \le k-\mathcal{H}_k$`.
 <!--TODO: cite this from Roughgardens Twenty Lectures-->
 
 High Status Eschews Quantification of Performance
@@ -1606,11 +1607,11 @@ However, Semmelweis was derided for his ideas, and they were dismissed
 as out of line with the then common four humors theory. Additionally, Wikipedia states that
 
 > As a result, his ideas were rejected by the medical community. Other,
-more subtle, factors may also have played a role. Some doctors, for
-instance, were offended at the suggestion that they should wash their
-hands, feeling that their social status as gentlemen was inconsistent with
-the idea that their hands could be unclean.<sup>[19][F]</sup><!--TODO:
-link those-->
+more subtle, factors may also have played a role. Some doctors,
+for instance, were offended at the suggestion that they should
+wash their hands, feeling that their social status as gentlemen
+was inconsistent with the idea that their hands could be
+unclean.<sup>[19][\[F\]](https://en.wikipedia.org/wiki/Ignaz_Semmelweis#cite_note-30)</sup>
 
 And:
 
@@ -1627,7 +1628,7 @@ Another example is that (arguendo) many intellectuals
 place an absurdly high amount of rigor on any attempts to
 develop tests for *g*, and the widespread [isolated demands for
 rigor](https://slatestarcodex.com/2014/08/14/beware-isolated-demands-for-rigor/)
-placed on IQ tests, despite their [predictive predictive
+placed on IQ tests, despite their [predictive
 value](./doc/psychology/iq/the_predictive_value_of_iq_sternberg_2001.pdf "The Predictive Value of IQ (Sternberg et al. 2001").
 
 The hypothesis that many intellectuals fear that widespread reliable
@@ -1719,6 +1720,10 @@ hierarchy, which outperformed other systems whenever the two came in
 contact. I have not dug into the details of this<!--TODO-->, but this
 could be an interesting case study for bringing more meritocracy into
 existing sklerotic status hierarchies.
+
+### See Also
+
+* [Systems to Eschew Eschewing Performance (210ethan, 2023)](https://210ethan.github.io/thoughts/eschew.html)
 
 Subscripts for Probabilities
 ------------------------------
@@ -1889,3 +1894,155 @@ and
 * Wishlist
 	* Flashcard sets that come together with textbooks. Please.
 	* [3blue1brown](https://www.youtube.com/@3blue1brown) style videos that accompany the book. [From Zero to Geo](https://www.youtube.com/watch?v=2hBWCCAiCzQ&list=PLVuwZXwFua-0Ks3rRS4tIkswgUmDLqqRy) is a great step in that direction.
+
+Economic Policy Checklist
+--------------------------
+
+Courtesy of the [programming language
+checklist](https://www.mcmillen.dev/language_checklist.html).
+
+So you're proposing a new economic policy. Here's why your policy will
+not work.
+
+<div>
+<ul style="list-style: none;">
+<li>Your policy depends on science/theorizing that:
+	<ul style="list-style: none;">
+	<li> ☐ has been replicated only once</li>
+	<li> ☐ has failed to replicate</li>
+	<li> ☐ for which there exist no replication attempts</li>
+	<li> ☐ was last taken seriously sometime around 1900</li>
+	<li> ☐ requires a <a href="https://en.wikipedia.org/wiki/Dynamic_stochastic_general_equilibrium">DSGE<a> model with 200 free parameters to perfectly track reality perfectly</li>
+	</ul>
+</li>
+<!--<li>☐ Furthermore, all predictions your model has made look like this:</li>TODO: find images here-->
+<li>Your policy would:
+	<ul style="list-style: none;">
+	<li> ☐ disincentivize good things</li>
+	<li> ☐ incentivize bad things</li>
+	<li> ☐ both</li>
+	<li> ☐ be wildly unpopular, even though you think it's the best thing since sliced bread (it's not)</li>
+	</ul>
+</li>
+<li>☐ You seem to think that taking options away from people helps them</li>
+<li>Your policy just reinvents
+	<ul style="list-style: none;">
+	<li> ☐ land-value taxes, but worse</li>
+	<li> ☐ universal basic income, but worse</li>
+	<li> ☐ price discrimination, but worse</li>
+	<li> ☐ demand subsidy, but worse</li>
+	<li> ☐ demand subsidy, better, but that's still no excuse</li>
+	</ul>
+</li>
+<li>☐ Your policy sneakily redistributes money from poor to rich people</li>
+<li>☐ Your policy only works if every country on earth accepts it at the same time</li>
+<li>☐ You actually have no idea what failure/success of your policy would look like</li>
+<li>You claim it fixes
+<ul style="list-style: none;">
+	<li> ☐ climate change</li>
+	<li> ☐ godlessness</li>
+	<li> ☐ police violence</li>
+	<li> ☐ wet socks</li>
+	<li> ☐ teenage depression</li>
+	<li> ☐ rising rents</li>
+	<li> ☐ war</li>
+	<li> ☐ falling/rising sperm counts/testosterone levels</li>
+	</ul>
+</li>
+<li>You seem to assume that
+	<ul style="list-style: none;">
+	<li> ☐ privatization always works</li>
+	<li> ☐ privatization never works</li>
+	<li> ☐ your country will never become a dictatorship</li>
+	<li> ☐ your country will always stay a dictatorship</li>
+	<li> the cost of coordination is</li>
+		<ul style="list-style: none;">
+		<li> ☐ negligible</li>
+		<li> ☐ zero</li>
+		<li> ☐ negative</li>
+		</ul>
+	</ul>
+</li>
+<li>☐ Your policy is a Pareto-worsening</li>
+<li>In conclusion,
+	<ul style="list-style: none;">
+	<li> ☐ You have copied and mashed together some good ideas with some mediocre ideas</li>
+	<li> ☐ You have not even tried to understand basic economics/political science/sociology concepts</li>
+	<li> ☐ Living under your policy is an adequate punishment for inventing it</li>
+</li>
+</ul>
+</div>
+
+Nothing to See Here, Just An Implementation of HodgeRank
+----------------------------------------------------------
+
+[Jiang et al.
+2011](.doc/preference/statistical_ranking_and_combinatorial_hodge_theory_jiang_et_al_2011.pdf "Statistical ranking and combinatorial Hodge theory")
+propose a ranking algorithm for incomplete and cyclic data, but neglect
+to give code or even pseudo-code for this algorithm. The algorithm turns out
+to be easy to implement in Python using networkx and numpy, with some help from [this
+guide](https://medium.com/@zj444/hodgerank-generating-movie-ranking-from-imdb-movie-ratings-part-1-2a88ec148f10 "HodgeRank: Generating Movie Ranking From IMDb Movie Ratings (Part 1: Problem Formulation)").
+Since other people might find the code valuable as well, I provide it here
+(mostly without comment or explanation).
+
+	def positive_edges(prefs):
+		edges=[]
+		for e in it.combinations(prefs.keys(), 2):
+			if np.all(np.isnan(prefs[e[0]]-prefs[e[1]])):
+				weight=np.nan
+			else:
+				weight=np.nanmean(prefs[e[0]]-prefs[e[1]])
+
+			n=np.sum(~np.isnan(prefs[e[0]]-prefs[e[1]]))
+			if np.isnan(weight):
+				continue
+			elif weight>=0:
+				edges.append((e[0], e[1], {'weight': weight, 'n': n}))
+			else:
+				edges.append((e[1], e[0], {'weight': -weight, 'n': n}))
+		return edges
+
+	def prefgraph(prefs):
+		g=nx.DiGraph()
+		g.add_nodes_from(list(prefs.keys()))
+		edges=positive_edges(prefs)
+		g.add_edges_from(edges)
+
+	def decompose(g):
+		f=np.array([g[e[0]][e[1]]['weight'] for e in g.edges])
+		W=np.diag([g[e[0]][e[1]]['n'] for e in g.edges])
+
+		origins=np.zeros((len(g.edges), len(g.nodes)))
+
+		c=0
+		for e in g.edges:
+			sign=np.sign(g[e[0]][e[1]]['weight'])
+			if np.isnan(sign):
+				sign=0
+			origins[c][e[0]]=sign*-1
+			origins[c][e[1]]=sign
+			c=c+1
+
+		try:
+			s=-np.linalg.pinv(origins.T@W@origins)@origins.T@W@f
+		except LinAlgError:
+			s=np.zeros(len(list(g.nodes)))
+
+		return s,f,W,origins
+
+	def hodgerank(prefs):
+	        g=prefgraph(prefs)
+	        return decompose(g)
+
+If `decompose` can't find a solution to the given preferences, it returns
+a vector of 0s as a default result.
+
+The input for `hodgerank` is a dictionary of preferences, where the keys
+must be the numbers from 0 to the number of options.
+
+Example:
+
+	>>> prefs7={0:np.array([5,3]),1:np.array([4,5]),2:np.array([3, np.nan]),3:np.array([5,2]),4:np.array([np.nan,2])}
+	>>> s,f,W,origins=hodgerank(prefs7)
+	>>> s
+	array([ 0.63571429,  1.13571429, -0.97142857,  0.31428571, -1.11428571])
