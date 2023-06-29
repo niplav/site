@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-24, modified: 2020-01-24, language: english, status: finished, importance: 4, confidence: possible*
+*author: niplav, created: 2019-04-24, modified: 2023-06-22, language: english, status: finished, importance: 4, confidence: possible*
 
 > __[Pipelines](https://en.wikipedia.org/wiki/Pipeline_\(Unix\)) are an
 > integral part of the Unix operating system. They come in different
@@ -138,7 +138,8 @@ implement a pipe ring that generates mu expressions.
 	tail -f mu | apr | stdbuf -oL grep -E '^.{,80}$' | stdbuf -oL awk '!a[$0]++' >>mu
 
 `awk '!a[$0]++'` is taken from
-[iridakos 2019](https://iridakos.com/how-to/2019/05/16/remove-duplicate-lines-preserving-order-linux.html).
+[iridakos 2019](https://iridakos.com/how-to/2019/05/16/remove-duplicate-lines-preserving-order-linux.html)
+and filters out duplicate lines.
 Also, stdbuf doesn't work with rc functions, so it has to be written
 directly into the function. `grep` is used to prevent extremely long
 lines from forming through the repeated application of the first rule.

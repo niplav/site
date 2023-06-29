@@ -79,7 +79,7 @@ anything beyond a slim part of existing texts on a topic before writing
 my own ideas down), but it seems likely that the idea will at least
 be new to most readers.
 
-Generally I use the rule: Let t be the time it would take to write a
+Generally I use the rule: Let `$t$` be the time it would take to write a
 text about the idea I was thinking about. Then the time spent researching
 whether the idea exists already should stop take at most `$\frac{t}{2}$`.
 
@@ -109,7 +109,7 @@ a forum one can at least link or lurk without creating an account,
 and potentially just shove it into the internet archive if need
 be! "[anicca](https://en.wikipedia.org/wiki/Impermanence), anicca…"). I
 do, however, sometimes participate in the guilty pleasure of [ephemeral
-shitposting](https://social.freetalklive.com/web/@niplav).
+shitposting](https://twitter.com/niplav_site).
 
 I'm not big into linguistic prescriptivism (although it
 is another one of those guilty pleasures I [occasionally engage
@@ -490,18 +490,11 @@ seems about right.
 * [Lesswrong](https://www.lesswrong.com/users/niplav)
 * [Effective Altruism Forum](https://forum.effectivealtruism.org/users/niplav)
 * [Metaculus](https://www.metaculus.com/accounts/profile/112493/)
+* [PredictionBook](https://predictionbook.com/users/niplav)
 * [Reddit](https://old.reddit.com/u/niplav)
 * [Wikipedia](https://en.wikipedia.org/wiki/User:Niplav)
 * [Fediverse](https://schelling.pt/@niplav)
-
-I used to use [twitter](https://nitter.net/niplavyushtun),
-but I got addicted to it (thrice) and decided to instead
-switch to [twtxt](https://github.com/buckket/twtxt). Then I
-discovered that it's not quite as fun as twitter and switched to a
-[mastodon](https://schelling.pt/@niplav) instance instead, and [another
-one](https://social.freetalklive.com/web/@niplav) after the first one
-died, and back to the first one after it was revived. This has been an
-okay middle ground.
+* [Twitter](https://twitter.com/niplav_site)
 
 ### Contact
 

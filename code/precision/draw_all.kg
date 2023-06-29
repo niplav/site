@@ -1,0 +1,16 @@
+.l("nplot")
+
+cap::.oc("cap.eps")
+.tc(cap)
+
+setrgb(0;0;0)
+grid([0 1 0.1];[0 1 0.1])
+xtitle("Probability given")
+ytitle("Frequency of positive outcome")
+
+plot({:[x<0.5;x;1-x]})
+
+draw()
+
+.fl()
+.cc(cap)

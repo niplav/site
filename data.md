@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-07-07, modified: 2022-08-07, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2022-07-07, modified: 2023-06-22, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes for myself on the data I track, how to transform it into a
 usable shape, data quality and other random assortments.__
@@ -159,45 +159,26 @@ explanation.
 I didn't rate my sessions in the beginning (and manually inserted
 data from meditation retreats with unrated sessions), leading to
 a very optimistic default of 4.0 mindfulness and "concentration"
-(better called absorption, I claim). So we execute, using
+(better called absorption, I claim). So we remove those, using
 the [sam](https://plan9.io/sys/doc/sam/sam.html) language in
 [vis](https://github.com/martanne/vis):
 
-	/^1,/;/^860,/
+	,/^1,/;/^860,/
 	x/4\.0,4\.0,/c/,/
-	/^1210,/;/^1308,/
+	,/^1210,/;/^1308,/
 	x/4\.0,4\.0,/c/,/
-	/^1594,/;/^1615,/
+	,/^1594,/;/^1615,/
 	x/4\.0,4\.0,/c/,/
 
 The CSV of the meditation data can be found [here](./data/meditations.csv).
 
+`mindfulness_ranking` and `concentration_ranking` are both subjective
+impressions directly after meditation, where "mindfulness" describes the
+degree of sensory clarity, and "concentration" (better called "absorption"
+or "rest") describes my ability to rest on a specific sensory object.
+
 Daygame
 --------
-
-2 datasets, first containing approaches, 2nd containing approach sessions
-
-1st file datapoints (in CSV):
-
-* Approach index number
-* Datetime
-* Location
-* Blowout
-* Contact info ∈{number,instagram,facebook,skype,snapchat etc.,other}
-* Idate length (minutes)
-* Idate cost (euro)
-* Flake before 1st date (boolean)
-* Date before first sex [1..10] cost (euro)
-* Date before first sex [1..10] length (minutes)
-* Sex number of times (approximately)
-* Attractiveness (∈[1..10])
-
-2nd file:
-
-* Datetime start
-* Datetime end
-* Approaches index number range
-* Number of approaches
 
 Sanitizing the sessions file:
 
@@ -205,7 +186,8 @@ Converting f\*\*\*ed up Google sheets date format (why does __nobody__
 use the perfect [ISO-8601](https://en.wikipedia.org/wiki/ISO-8601) when
 it's right there‽), then removing stray spaces after semicolons,
 then removing the `^M` from the end of each line, using
-[structural regular                                                                                  expressions](./doc/cs/structural_regular_expressions_pike_1990.pdf "Structural Regular Expressions"):
+[structural regular
+expressions](./doc/cs/structural_regular_expressions_pike_1990.pdf "Structural Regular Expressions"):
 
 	,x/([0-9]+)\/([0-9]+)\/([0-9]+) /c/\3-\1-\2T/
 	,x/; /c/;/
@@ -227,9 +209,9 @@ Find incorrectly written locations:
 and manually correct them (this is useful for the other fields as well,
 just to check consistency).
 
-Anonymizing locations and the names of girls:
+Anonymizing locations and the names of the women:
 
-	$ awk -F,  'BEGIN { OFS="," }
+	$ awk -F, 'BEGIN { OFS="," }
 	{
 		if(loc[$2]=="" && $2!="Location")
 		{
@@ -251,6 +233,28 @@ Anonymizing locations and the names of girls:
 The approaches file can be found [here](./data/daygame_approaches.csv),
 the sessions file can be found [here](./data/daygame_sessions.csv).
 
+Approaches file datapoints (in CSV):
+
+* Approach index number
+* Datetime
+* Location
+* Blowout
+* Contact info ∈{number,instagram,facebook,skype,snapchat etc.,other}
+* Idate length (minutes)
+* Idate cost (euro)
+* Flake before 1st date (boolean)
+* Date before first sex [1..10] cost (euro)
+* Date before first sex [1..10] length (minutes)
+* Sex number of times (approximately)
+* Attractiveness (∈[1..10])
+
+Sessions file:
+
+* Datetime start
+* Datetime end
+* Approaches index number range
+* Number of approaches
+
 Others
 -------
 
@@ -271,10 +275,28 @@ script](./data/mstrbt). Data quality is pretty high.
 
 I track my mood via the excellent [Mood
 Patterns](https://play.google.com/store/apps/details?id=info.moodpatterns.moodpatterns&hl=en&gl=US)
-which allows swift CSV export of the data. They even turned changed the
-*annoying* "hitting a block of wood with a hammer" notification sound to
-the OS default. No post-processing needed, the data *is just there*. An
-app by programmers, for programmers.
+which performs [experience
+sampling](https://en.wikipedia.org/wiki/Experience_sampling_method) allows
+swift CSV export of the data. They even turned changed the *annoying*
+"hitting a block of wood with a hammer" notification sound to the OS
+default. No post-processing needed, the data *is just there*. An app by
+programmers, for programmers.
+
+But there is still *some* data cleanup to do:
+
+	cat mood.csv ~/site/data/mood.csv |
+	sort |
+	uniq |
+	sed -E 's/^([0-9T: -]+),"/\1,\1,"/g' |
+	sed 's/nothing/Nothing/g;s/mindfulness/Mindfulness/' |
+	sort |
+	uniq >newmood.csv
+
+Finally I rename the mood columns simply to "happy", "content", "relaxed",
+and "horny".
+
+The file contains (because of a slight screwup) some duplicated
+entries.<!--TODO: remove these (by hand or otherwise?)-->
 
 CSV [here](./data/mood.csv), the data quality is mediocre (long stretches
 of not responding to questions, giving more conservative (closer to

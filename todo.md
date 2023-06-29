@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2023-05-18, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2023-06-27, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -69,9 +69,10 @@ Site
 	* `https://github.com/pkra/mathjax-node-page/`
 * Maybe collapsable sections?
 * Title is not JS-added
-* Reading ruler
+* Reading ruler (?)
 * Move from `$\mapsto$` to `$\rightarrow$`
 * Move `text_reviews.md` to `reviews.md`
+* Use markdown with tables. The HTML tables are unacceptable.
 
 Existing Texts
 --------------
@@ -80,7 +81,6 @@ Existing Texts
 	* Move the [PredictionBook download code](./range_and_forecasting_accuracy.html#For_PredictionBook) to the [PredictionBook API](https://github.com/bellroy/predictionbook/blob/master/API.md)
 	* Find Muehlhauser email with additional source
 	* Extend the analysis to more datapoints
-		* Extend the analysis to predictions with confidence intervals
 		* Extend the analysis to real Metaculus data
 		* Extend to more datasets
 			* `https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters`
@@ -91,7 +91,6 @@ Existing Texts
 		* `https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons`
 		* `https://rethinkpriorities.org/publications/potentially-great-ways-forecasting-can-improve-the-longterm-future`
 		* `https://rethinkpriorities.org/publications/why-short-range-forecasting-can-be-useful-for-longtermism`
-		* `/usr/local/doc/unread/calibration_scoring_rules_for_practical_prediction_training_greenberg_2018.pdf`
 		* `https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting`
 		* `http://foresightr.com/2016/05/06/a-brief-history-of-forecasting`
 		* `https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.12127`
@@ -221,12 +220,13 @@ Texts
 	* Not literally best possible forecast
 	* But for humans at the time with the available information
 * An aggregation of all of Scott Alexander's forecasting results in one place
-* Probabilistic Forecasting as a Social Technology
+* Judgmental Forecasting as a Social Technology
 * Practical Forecasting Handbook
 * Addenda to the Prediction Market FAQ
 	* `https://astralcodexten.substack.com/p/prediction-market-faq`
 * Comparing Forecasts on a wide range of platforms
 	* Use `https://github.com/stanlyfok/sentence2vec` to compare questions
+* Literature review of different forecasting techniques
 
 ### Population
 
@@ -275,6 +275,7 @@ Texts
 	* Reasons against worrying
 		* Too far in the future
 		* Number of children not heritable
+			* But it is!
 * Population Ethics Test Suite
 	* Look at comments on “An Impossibility Theorem for Welfarist Axiologies” (Arrhenius 2000)
 * Three-level population ethics
@@ -339,6 +340,8 @@ Texts
 * Goal Misgeneralization along Ontological Shifts
 	* Shard Theory and the Indirect Realist Turn is a subcase
 	* Diamond turns into Diamond#1 and Diamond#2, latent and directly observed diamond. Which to generalize to?
+	* Shard Theory and Ontological Crises
+* Money-Pumping: A Computational-Complexity-theoretic Approach
 * Establishing a Theory of Establishing Coherence
 * Value- and Concept-Ladenness
 
@@ -365,6 +368,7 @@ Texts
 		* Meditation
 		* New experiences
 		* Drugs?
+* Lit review
 
 ### Philosophy
 
@@ -390,23 +394,9 @@ Texts
 ### Meditation
 
 * Self-Blinded Nootropics Experiments in Concentration Meditation
-	*	Setup: Self-blinded, 2 hours of concentration meditation
-		a day (concentration on the breath), sampling once
-		every 4 days, always in the evening (half placebo,
-		half non-placebo).
-	* Substances:
-		* L-Theanine
-			* [Examine summary](https://examine.com/supplements/theanine/), [research](https://examine.com/supplements/theanine/research/)
-		* Caffeine
-			* [Examine summary](https://examine.com/supplements/caffeine/), [research](https://examine.com/supplements/caffeine/research/)
-		* Nicotine
-			* [Examine summary](https://examine.com/supplements/nicotine/), [research](https://examine.com/supplements/nicotine/)
-		* Modafinil
-			* [Examine summary](https://examine.com/supplements/adrafinil/), [research](https://examine.com/supplements/adrafinil/research/) (here for Adrafinil, the Modafinil page isn't reachable?
-		* Adderall
-		* LSD Microdosing
-		* Combinations: L-Theanine + Caffeine
-		* Take inspiration from [Gwern](https://www.gwern.net/Nootropics), of course
+	* 45 minutes of concentration meditation
+	a day (concentration on the breath), sampling every day,
+	always in the morning (half placebo, half non-placebo).
 * Brain Stimulation for Meditation Enhancement
 	* Ultrasound
 	* Magnetic stimulation
@@ -452,11 +442,9 @@ Texts
 * Does abstinence from masturbation improve meditation?
 * Do blood donations reduce my cognitive function?
 * Does asking for affirmative consent turn women off?
-* In the mood scales, bored — interested stands for chaste — horny
 * What effect did COVID-19 vaccinations have on my Anki scores?
 * What is the effect of fasting on my, well, everything?
 	* Especially meditation though
-* Oxytocin?
 * Relation between
 	* Exercise
 	* Daygame
@@ -473,13 +461,6 @@ Texts
 	* Air pollution
 	* CO₂ levels
 	* Fasts
-* Substances
-	* Oxytocin
-	* Diet Coke self experiment
-		* [https://dynomight.net/diet-coke-nootropic]
-	* Erectile dysfunction medication QS
-		* Other purported aphrodisiacs?
-	* Creatine
 * Methods
 	* Brown Noise
 	* Intermittent fasting
@@ -489,7 +470,6 @@ Texts
 * Testing self-conditioning via nicotine as reward
 	* https://www.sciencedaily.com/releases/2009/09/090909122052.htm
 * Do I have better naps when I listen to fast audio of people talking?
-* Double Blind Self-Experiment with Wellbutrin/Bupropion
 * Instant food blind trial
 	* Huel
 	* Queal
@@ -498,7 +478,23 @@ Texts
 	* Others?
 * The General Algorithm For Self-Blinded Experiments
 * Does music decrease my productivity?
-	* randomize, awtt & check
+	* randomize, awitt & check
+* Does water in my mouth *really* make me cry less while cutting onions?
+* Test CFAR handbook on GPT-4 written fake chapters
+* Self-blinded RCTs with:
+	* L-Theanine ([Examine summary](https://examine.com/supplements/theanine/), [research](https://examine.com/supplements/theanine/research/))
+	* Nicotine ([Examine summary](https://examine.com/supplements/nicotine/), [research](https://examine.com/supplements/nicotine/research/))
+	* Modafinil ([Examine summary](https://examine.com/supplements/adrafinil/), [research](https://examine.com/supplements/adrafinil/research/) (here for Adrafinil, the Modafinil page isn't reachable?)
+	* Adderall
+	* LSD Microdosing
+	* Combinations: L-Theanine + Caffeine
+	* [Diet Coke](https://dynomight.net/diet-coke-nootropic)
+		* Aspartame
+		* Phenylalanine (https://www.aaronbergman.net/p/contra-dynomight-contra-me-but-also)
+	* Oxytocin
+	* Wellbutrin/Bupropion
+	* Testosterone
+	* Take inspiration from [Gwern](https://www.gwern.net/Nootropics), of course
 
 ### Arguments
 
@@ -612,7 +608,9 @@ Texts
 * Argument against polyamory
 * Bitcoin maximalism is not even wrong?
 * Forecasting Track Records: Still Underrated
-	* Argument: Metrics can be goodharted. Answer: "A solution is technical if it is precise enough to be Goodharted and social if it is imprecise enough to be used to coalitionally extract value"
+	* Argument: Metrics can be Goodharted. Answer: "A solution is technical if it is precise enough to be Goodharted and social if it is imprecise enough to be used to coalitionally extract value"
+* E/acc in a Bathtub-Sized Nutshell
+* An Anti E/acc FAQ
 * Why Not Prepping?
 
 > [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
@@ -744,7 +742,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* `https://www.lesswrong.com/posts/8FRzErffqEW9gDCCW/against-the-linear-utility-hypothesis-and-the-leverage`
 		* `https://www.lesswrong.com/posts/NoYXhJLtoKpLoZhRf/pascal-s-mugging-finite-or-unbounded-resources`
 		* In defence of fanaticism (Hayden Wilkinson, 2020)
-* Creatine & Vegetarianism IQ?
 * Survey advanced meditators about their attainments and their monetary worth
 	* That is, how much is your meditative attainment worth to you?
 		* `https://old.reddit.com/r/TheMindIlluminated/comments/su8f1j/to_seek_or_to_not_seek_enlightenment/hx995y6/?context=3`
@@ -827,7 +824,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * More Heinz Ketchup than cum
 	* Probably not, through animals
 * Recycling cost-benefit calculation
-* A history of the Effective Altruism/Bayesian Rationality cluster
+* A History of the Effective Altruism/Bayesian Rationality cluster
 	* For example, why poly?
 * Pareto improvements and equity/equality
 * Marinelli Beaker Analytical Solution
@@ -839,6 +836,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Post-mortem on liquid democracy in the real world
 * Investigate [this post empirically](http://www.overcomingbias.com/2007/02/is_truth_in_the.html) via information from forecasting datasets
 * Daygame Locations as a Multi-Armed Bandit
+* Acausalism
 * Lucid Dreaming Cost-Benefit Analysis
 
 ### Ideas
@@ -951,42 +949,9 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Lesser known causal graphs
 	* Mathematical art with causal graphs where edges can point to (or inhibit) other edges
 	* Not to be taken seriously
-* So You're Proposing An Economic Policy checklist like the programming language/OS one
-	* `https://www.mcmillen.dev/language_checklist.html`
-	* Your policy depends on work that has failed to replicate
-	* Your policy depends on work that has been replicated once
-	* Your policy depends on work for which there doesn't exist a replication attempt
-	* Your policy would disincentivize good things
-	* Your policy would incentivize bad things
-	* Your policy would be wildly unpopular, even though you think it's the best things since sliced bread (it's not)
-	* Your policy thinks that taking options away from people fixes things
-	* Your policy depends on 19th century theorizing for which there exists near-zero empirical work
-	* Your policy depends on a [dynamic stochastic general equilibrium](https://en.wikipedia.org/wiki/Dynamic_stochastic_general_equilibrium) model with 200 free parameters tracking reality perfectly
-	* Furthermore, all predictions your model has made look like this:
-		* Chart here where the predicted trends always fail to materialize
-	* Your policy is a variant of universal basic income
-	* Your policy just reinvents land-value taxes, badly
-	* Your policy sneakily redistributes money from poor to rich people
-	* Your policy assumes the cost of coordination is zero
-		* is negative
-		* is positive but ridiculously small
-	* You actually have no idea what a failure/success of your policy would look like
-	* Your policy only works if every country on earth adopts it at the same time
-	* Your policy would fix:
-		* Climate change
-		* Godlessness
-		* Police violence
-		* Wet socks
-		* Teenage depression
-		* Rising rents
-		* War
-		* Falling sperm counts and/or testosterone levels
-	* Your policy assumes privatization always works
-	* Your policy assumes privatization never works
-	* Your policy assumes your country will never become a dictatorship
-	* Your policy assumes your country will always stay a dictatorship
-	* Your policy is a pareto-worsening
-	* Living under your policy is anadequate punishment for coming up with it.
+* For two function `$f$`, `$a$`, define how Goodharting optimizing for `$a$` is when the outcome should be `$f$`
+* Attack versus Defense in the Long Run
+	* Investigate empirically from game data at different levels of capability
 
 ### Collections
 
@@ -1239,6 +1204,13 @@ Game. Even those odds likely overstate the number of Players in the world.
 ### Questions
 
 * What is the Relation Between Species Size and Species Longvevity?
+* What is the distribution for weight changes during the training of a neural network?
+	* Would one backprop completely destroy or simply slightly modify an inner optimizer?
+* Do mosquitoes prefer certain blood types?
+* Has toothpaste been getting better?
+* What algorithms/finite state machines does a rock implement?
+* What's up with computational universality?
+* Do games with better players shift towards more defense?
 * Import ~/etc/notes/questions
 
 ### Reports
@@ -1885,6 +1857,7 @@ Programming
 	* Add option to change the notification sound
 * Find schelling.pt thread for bugs
 * pandas apply to Expanding allows only single float values, not tables
+* Add finding on minimal feedback arc sets and HodgeRank to networkx
 * numpy unique that doesn't require sortability, just comparability
 * Anki doesn't let you set the backup directory
 * Julia
@@ -1907,6 +1880,11 @@ produces
 	∸∸∸∸∸ ∸∸∸∸ ∸∸∸∸ ∸∸∸∸∸
 	∸∸∸∸∸ However, in a sense, maxichoice contraction
 	functions in general produce contractions
+
+* `fzf`<!--TODO: link--> as a server, so that it doesn't have to reload a specific file over and over.
+	* Also package that integrates it with `vis`
+	* Specific vis package for Wikipedia titles
+		* With sections?
 
 #### Void Packages
 
@@ -1972,10 +1950,18 @@ Wikipedia Articles
 	* `https://www.annualreviews.org/doi/full/10.1146/annurev-ento-011613-162041`
 * Participation (social choice theory)
 * Banks Set (social choice theory)
+* Hodge Decomposition from combinatorial hodge theory
+* Hyllands theorem
 * Slater's problem
 
 ### Improve
 
+* Short pages with α in improvement
+	* Futarchy
+	* [Harberger Tax](https://en.wikipedia.org/wiki/Harberger_Tax)
+	* Landau set
+		* Add some true facts about the Landau set (look at notes)
+	* Sophistication (complexity theory)
 * [Maximal pair](https://en.wikipedia.org/wiki/Maximal_pair)
 	* Add examples
 	* Add description of MUMs
@@ -1987,7 +1973,6 @@ Wikipedia Articles
 	* Yeah, the current explanation is barely comprehensible
 * Find Ian Goodfellow's true year of birth
 * Add missing national anthems to `https://en.wikipedia.org/wiki/List_of_national_anthems`
-* Futarchy page
 * Maybe factor out the "Causal Model" page into several pages?
 	* do operator
 	* frontdoor criterion
@@ -1996,7 +1981,6 @@ Wikipedia Articles
 * Bitte bitte
 	* Watch the video and provide a better summary
 * Rewrite the Attention Span article
-* [Harberger Tax](https://en.wikipedia.org/wiki/Harberger_Tax)
 * Prophet Inequality
 * Anthropic
 * Urvashi
@@ -2021,12 +2005,14 @@ Wikipedia Articles
 * Network cost-sharing game
 * Full list of 10,000 vital articles
 * Improve Mathematical Alphanumeric Symbols: Add explanation of how to write them in `$\LaTeX$`
-* Markov information source: string '00' at the end of the 'Formal definition' section.
-* Sophistication (complexity theory)
-* Redirect List of smallest mammals to Smallest organisms
 * Add IPA for MECE pronounciation part
-* Landau set
-	* Add some true facts about the Landau set (look at notes)
+* Kemeny Rule
+	* Add mathematical formula/pseudocode/Python algorithm to the article
+* MDMA
+	* Add that people who consume MDMA grind their teeth, and a common method used to assuage that is to chew chewing gum during while rolling
+* Move [this comparison table](https://en.wikipedia.org/wiki/Kemeny%E2%80%93Young_method#Comparison_table) into it's own article.
+* Gibbard's Theorem
+	* Add section on Gibbard's 1978 theorem
 
 Lesswrong wiki
 ---------------
@@ -2115,7 +2101,7 @@ General
 -------
 
 * Send typos to people, let them correct them
-* Find some drugs that cause short-term memory loss without ~any side effects, for self-blinding in QS
+* Find some drugs that cause short-term memory loss without ~any side effects, for self-blinding in QS, maybe [Midalozam](https://en.wikipedia.org/wiki/Midazolam)?
 
 Memes
 ------
@@ -2139,8 +2125,7 @@ In-World Projects
 * Backup libgen/scihub/arxiv/biorxiv/psyrxiv
 * Start a notebook academic journal (as in Jupyter Notebook)
 * Build good color vision test website
-* SkyGuessr — GeoGuessr but for pictures of the sky (GeoGuessr already does this I think)
 * Improve harbergertax.com
 * Startup: Generalized prediction market alert system à la https://hasrussialaunchednukesyet.com/
 * Startup: RCTs as a service
-* https://hasbetelgeusegonesupernovayet.com
+* Website for interacting with word2vec
