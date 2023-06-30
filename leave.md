@@ -232,6 +232,18 @@ nine hours and 39 minutes engaging with gadgets.
 
 *—Jacqueline Howard, [“Americans devote more than 10 hours a day to screen time, and growing”](https://edition.cnn.com/2016/06/30/health/americans-screen-time-nielsen/index.html), 2016*
 
+> Children as young as two to four years old already average two and a
+half hours of screen time a day, and it soon climbs to an average of three
+hours and five minutes for ages five to eight. While most screen time is
+TV and YouTube viewing, children ages five to eight spend forty minutes
+a day gaming.³⁸ We don't yet know what young children's attention
+spans are when watching, say, YouTube, but we do know from laboratory
+studies that young children are mor susceptible to distraction than
+older children, and when distracted, it takes them longer to regain
+their focus on the original object.
+
+*—Gloria Mark, “Attention Span” p. 83, 2023*
+
 ### How Much Time Would People Like to Spend on the Internet?
 
 ### Have Attention Spans Been Declining?

@@ -18,7 +18,7 @@ def llrt_pval(lmbda, df=2):
 	return scistat.chi2.cdf(df, lmbda)
 
 def analyze(experiment, substance, placebo):
-	substances=pd.read_csv('../..//data/substances.csv')
+	substances=pd.read_csv('../../data/substances.csv')
 
 	expa=substances.loc[substances['experiment']==experiment].copy()
 	expa['datetime']=pd.to_datetime(expa['datetime'], utc=True)
