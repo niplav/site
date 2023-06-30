@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2023-06-27, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2023-06-29, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -344,6 +344,8 @@ Texts
 * Money-Pumping: A Computational-Complexity-theoretic Approach
 * Establishing a Theory of Establishing Coherence
 * Value- and Concept-Ladenness
+* AI Alignment problems in pictures
+	* See [here](https://www.lesswrong.com/posts/WXvt8bxYnwBYpy9oT/)
 
 ### Pick Up
 
@@ -493,6 +495,7 @@ Texts
 		* Phenylalanine (https://www.aaronbergman.net/p/contra-dynomight-contra-me-but-also)
 	* Oxytocin
 	* Wellbutrin/Bupropion
+	* CBD/THC
 	* Testosterone
 	* Take inspiration from [Gwern](https://www.gwern.net/Nootropics), of course
 
@@ -838,6 +841,9 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Daygame Locations as a Multi-Armed Bandit
 * Acausalism
 * Lucid Dreaming Cost-Benefit Analysis
+* Pomodoro Experiment
+	* Apparently pomodoro technique has not been investigated empirically‽
+	* See Attention Span (Mark 2023) p. 66
 
 ### Ideas
 
@@ -2013,6 +2019,14 @@ Wikipedia Articles
 * Move [this comparison table](https://en.wikipedia.org/wiki/Kemeny%E2%80%93Young_method#Comparison_table) into it's own article.
 * Gibbard's Theorem
 	* Add section on Gibbard's 1978 theorem
+* Mutually Assured Destruction
+	* Add section of Self-Assured Destruction
+* List of Internet forums
+	* Add LessWrong
+	* Redirect "List of Internet fora" to that page
+* rio (windowing system)
+	* Redirect rio (software) to that page
+	* Redirect 8½ (software)/(windowing system) to the page
 
 Lesswrong wiki
 ---------------

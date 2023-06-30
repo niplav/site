@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2023-06-27, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2023-01-06, modified: 2023-06-30, language: english, status: notes, importance: 3, confidence: log*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
 decided to log my nootropics usage and its effects.__
@@ -528,3 +528,23 @@ predictions for the world to observe my idiocy.
 	* `$\lambda<4$` for the creativity values<sub>[80%](https://predictionbook.com/predictions/211922)</sub>: No.
 
 I also recorded my predictions about the content of the pill on PredictionBook ([1](https://predictionbook.com/predictions/211311) [2](https://predictionbook.com/predictions/211312) [3](https://predictionbook.com/predictions/211313) [4](https://predictionbook.com/predictions/211314) [5](https://predictionbook.com/predictions/211857) [6](https://predictionbook.com/predictions/211858) [7](https://predictionbook.com/predictions/211859) [8](https://predictionbook.com/predictions/211860) [9](https://predictionbook.com/predictions/211861) [10](https://predictionbook.com/predictions/211862) [11](https://predictionbook.com/predictions/211863) [12](https://predictionbook.com/predictions/211864) [13](https://predictionbook.com/predictions/211865) [14](https://predictionbook.com/predictions/211866) [15](https://predictionbook.com/predictions/211867) [16](https://predictionbook.com/predictions/211868) [17](https://predictionbook.com/predictions/211869) [18](https://predictionbook.com/predictions/211870) [19](https://predictionbook.com/predictions/211871) [20](https://predictionbook.com/predictions/211872) [21](https://predictionbook.com/predictions/211873) [22](https://predictionbook.com/predictions/211874) [23](https://predictionbook.com/predictions/211875) [24](https://predictionbook.com/predictions/211876) [25](https://predictionbook.com/predictions/211877) [26](https://predictionbook.com/predictions/211878) [27](https://predictionbook.com/predictions/211879) [28](https://predictionbook.com/predictions/211880) [29](https://predictionbook.com/predictions/211967) [30](https://predictionbook.com/predictions/211968) [31](https://predictionbook.com/predictions/211969) [32](https://predictionbook.com/predictions/211970) [33](https://predictionbook.com/predictions/211971) [34](https://predictionbook.com/predictions/211972) [35](https://predictionbook.com/predictions/211973) [36](https://predictionbook.com/predictions/211974) [37](https://predictionbook.com/predictions/211975) [38](https://predictionbook.com/predictions/211976) [39](https://predictionbook.com/predictions/211881) [40](https://predictionbook.com/predictions/211882) [41](https://predictionbook.com/predictions/211883) [42](https://predictionbook.com/predictions/211884) [43](https://predictionbook.com/predictions/211885) [44](https://predictionbook.com/predictions/211886) [45](https://predictionbook.com/predictions/211887) [46](https://predictionbook.com/predictions/211888) [47](https://predictionbook.com/predictions/211889) [48](https://predictionbook.com/predictions/211890) [49](https://predictionbook.com/predictions/211891) [50](https://predictionbook.com/predictions/211892)).
+
+This comes out badly for me, again:
+
+	>>> import math
+	>>> import numpy as np
+	>>> probs=np.array([0.8, 0.6, 0.6, 0.4, 0.55, 0.35, 0.2, 0.25, 0.82, 0.88, 0.65, 0.45, 0.35, 0.5, 0.55, 0.3, 0.3, 0.5, 0.45, 0.4, 0.37, 0.6, 0.85, 0.9, 0.9, 0.95, 0.52, 0.55, 0.4, 0.65, 0.4, 0.45, 0.75, 0.8])
+	>>> outcomes=np.array([1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0])
+	>>> np.mean(list(map(lambda x: math.log(x[0]) if x[1]==1 else math.log(1-x[0]), zip(probs, outcomes))))
+	-0.8610697622640346
+	>>> np.mean(list(map(lambda x: math.log(x[0]) if x[1]==1 else math.log(1-x[0]), zip([0.5]*40, outcomes))))
+	-0.6931471805599452
+
+I am significantly *worse* than chance in my predictions.
+
+> Die Welt gibt dir viel falsche Zeichen,  
+> dem tückischen Geist zu vergleichen,  
+> Du bist, alle Zeichen verachtend,  
+> zu dem ohne Zeichen gegangen.
+
+*—Dschelāladdīn Rūmī, “Am Ende bist du entschwunden”, 1256*

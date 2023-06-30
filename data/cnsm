@@ -10,7 +10,7 @@ substance=`{read}
 echo -n 'amount (mg/g): '
 amount=`{read}
 echo -n 'experiment: '
-id=`{read}
+experiment=`{read}
 echo -n 'id: '
 id=`{read}
 echo -n 'substance prediction: '

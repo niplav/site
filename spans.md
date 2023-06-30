@@ -1,14 +1,14 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-17, modified: 2023-06-23, language: english, status: notes, importance: 7, confidence: possible*
+*author: niplav, created: 2023-01-17, modified: 2023-06-30, language: english, status: notes, importance: 7, confidence: possible*
 
 > __I investigate whether the attention span of individual humans has
 been falling over the last two decades (prompted by curiosity about
 whether the introduction of the internet may be harmful to cognitive
 performance). I find little direct work on the topic, despite its wide
 appeal. Reviewing related research indicates that individual attention
-spans might indeed have been declining<sub>70%</sub>.__
+spans might indeed have been declining<sub>65%</sub>.__
 
 Have Attention Spans Been Declining?
 =====================================
@@ -307,6 +307,41 @@ forty-seven seconds on any screen on average.
 
 which is not quite strong enough a measurement for me.
 
+> In 2004, in our earliest study, we found that people averaged about
+one hundred fifty seconds (two and a half minutes) on a computer screen
+before switching their attention to another screen; in 2012, the average
+went down to seventy-five seconds before switching. In later years,
+from 2016 to 2021, the average amount of time on any screen before
+switching was found to be relatively consistent between forty-four and
+fifty seconds. Others replicated our results, also with computer logging.
+seconds. Others replicated our results, also with computer logging. André
+Meyer and colleagues at Microsoft Research found the average attention
+span of twenty software developers over eleven workdays to be fifty
+seconds.⁹ For her dissertation, my student Fatema Akbar found the
+average attention span of fifty office workers in various jobs over a
+period of three to four weeks to be a mere forty-four seconds.¹⁰
+In other words, in the last several years, every day and all day in
+the workplace, people switch their attention on computer screens about
+every forty-seven seconds on average.  In fact, in 2016 we found the
+median (i.e., midpoint) for length of attention duration to be forty
+seconds.¹¹ This means that half the observations of attention length
+on any screen were shorter than forty seconds.
+> ![](./img/spans/screentime.png)
+
+*—Gloria Mark, “Attention Span” p. 74/75, 2023*
+
+She doesn't mention the hypothesis that this could be the symptom of
+a higher ability to prioritize tasks, although she is adamant that
+multi-tasking is bad.
+
+Furthermore, this behavior displays only a decrease in the *propensity*
+of attention, but not necessarily one of *capacity*: Perhaps people could
+concentrate more, if they wanted to/were incentivized to, but they don't,
+because there is no strong intent to or reward for doing so.
+Admittedly, this is less of an argument in the workplace where these
+studies were conducted, but perhaps people just care not as much about
+their jobs (or so I've heard).
+
 > when email was cut off, people’s attention spans were significantly
 longer while working on their computers—in other words, they switched
 their attention less frequently.
@@ -316,13 +351,14 @@ their attention less frequently.
 She gives some useful statistics about time spent on screens:
 
 > Nielsen reports that Americans spend on average five hours and thirty
-minutes daily of screen time on their computers, tablets and phones<sup>[\[8\]](https://www.nielsen.com/us/en/insights/report/2021/total-audience-advertising-across-todays-media/)</sup>.
+minutes daily of screen time on their computers, tablets and
+phones<sup>[8](https://www.nielsen.com/us/en/insights/report/2021/total-audience-advertising-across-todays-media/)</sup>.
 > […]
 > But what is really astonishing is that when we add in the
 time watching other media like TV and films to this, then we
 see that our attention is fixated on some form of screen,
 in some type of mediated environment, nearly ten hours a
-day<sup>[\[8\]](https://www.nielsen.com/us/en/insights/report/2021/total-audience-advertising-across-todays-media/)</sup>.
+day<sup>[8](https://www.nielsen.com/us/en/insights/report/2021/total-audience-advertising-across-todays-media/)</sup>.
 
 *—Gloria Mark, “Attention Span” p. 180, 2023*
 
@@ -344,7 +380,7 @@ seconds.<sup>13</sup>
 
 *—Gloria Mark, “Attention Span” p. 180/181, 2023*
 
-<!--TODO: include image from p. 181, maybe read its source-->
+![](./img/spans/shotlengths.png)
 
 > Like in TV and film, shot lengths in television commercials also
 shortened over time. The average shot length of commercials in 1978 was
