@@ -783,7 +783,7 @@ being that option:
 * If whole-brain emulation is wide-spread, and copying of whole-brain emulations is easy:
 	* Competition among whole-brain emulations is likely fierce, and labor by emulations would be as cheap as slave labour (so there is no particular reason to enslave emulations)
 	* The average emulation is likely very competent and elite, and a much better worker than the average college-educated person ([Hanson 2016 pp. 161-163](https://ageofem.com "The Age of Em")) estimates that most ems are going to be copies of fewer than a thousand or so original humans, each most likely again selected from several thousand individual childhoods to select the most capable educational lineage)
-* If whole-brain emulation is not wide-spread, then the more the more more-obscure whole-brain emulation is, the more unlikely it is that cryonics and whole-brain emulation will "come into contact", since cryonics is also obscure and the number of preserved patients is tiny (~1500)<!--TODO: this number is incorrect, it's much less than that-->
+* If whole-brain emulation is not wide-spread, then the more the more more-obscure whole-brain emulation is, the more unlikely it is that cryonics and whole-brain emulation will "come into contact", since cryonics is also obscure and the number of preserved patients is tiny ([<500](https://docs.google.com/spreadsheets/d/1vBrlNvPkPQbLKxtSUlTF_ZpUS4lwW2W7lENRj9Gdk3I/edit#gid=662993486), with [much more to come](https://lessdead.com/how-many-humans-will-have-their-brain-preserved-forecasts-and-trends))
 	* It seems unlikely that whole-brain emulation will stay restricted to a niche, since it will likely require large amounts of computational power and high-tech scanning facilities which are only possible with large amounts of capital
 	* A factor working against this is that whole-brain emulation and cryonics are discussed within in the same subculture
 * Uploading a [vitrified](https://en.wikipedia.org/wiki/Cryopreservation#Vitrification) brain seems to be at least as difficult as scanning a freshly deceased brain or a living brain, and possibly much more difficult, since one would need to repair structural damage done by outdated cryopreservation methods (why not vitrify a recently deanimated person with the newest cryogenic technology, and then scan & upload them, instead of trying to fix old somewhat broken brains?), so it would probably not be more economically viable
@@ -966,15 +966,16 @@ arrives at 2850 years.
 conservatively estimates a life expectancy of ~1000 years for each
 individual human after LEV.
 
-Taking existential risks into account is a bit harder. It is unclear
-whether most of the probability mass for existential risks should be
-placed before resuscitation of cryonics patients becomes feasible,
-or after it. It is also unclear how high the existential risk for
-humanity is overall. Assuming that the existential risk for humanity
-over the next 10000 years is ~40% (this number is pretty much a
-guess)<!--TODO: link Metaculus Ragnarök series, and see if someone
-like FHI has done some calculations on that-->, and half of that risk
-is placed before resuscitation, then the life expectancy of cryonics is
+Taking existential risks into account is a bit harder. It is
+unclear whether most of the probability mass for existential
+risks should be placed before resuscitation of cryonics patients
+becomes feasible, or after it. It is also unclear how high the
+existential risk for humanity is overall. Assuming that the
+existential risk for humanity over the next 10000 years is ~40%
+(this number is pretty much a guess, see also the [Ragnarök question
+series](https://www.metaculus.com/questions/2568/ragnar%25C3%25B6k-seriesresults-so-far/)),
+and half of that risk is placed before resuscitation, then the life
+expectancy of cryonics is
 `$\frac{8938+2850+1000}{3}*(1-0.20) \approx 3410$`.
 
 That number should be qualified further in an ["Age of

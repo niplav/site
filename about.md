@@ -39,7 +39,7 @@ person).
 
 This is inspired by the idea of Long Content, produced under the motto
 
-> Think [Less Wrong](https://www.lesswrong.com), act Long Now<!--TODO: link--> and [Suck Less](https://suckless.org).
+> Think [Less Wrong](https://www.lesswrong.com), act [Long Now](https://en.wikipedia.org/wiki/Long_Now_Foundation) and [Suck Less](https://suckless.org).
 
 *— paraphrasing [Gwern Branwen](https://www.gwern.net/), [“About This Website”](https://www.gwern.net/About), 2019*
 

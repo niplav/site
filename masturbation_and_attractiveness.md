@@ -320,9 +320,10 @@ masturbation (which is also the period [recommended by the NoFap
 community](https://nofap.com/rebooting/): "NoFap’s gold standard of
 success is our 90-day reboot.").
 
-From \_ to \_, I went on the streets of a major european city and
-approached 100 people I read as men and 100 people I read as women,
-usually via a Yad stop<!--TODO: link or source-->.
+From \_ to \_, I went on the streets of a major
+european city and approached 100 people I read as
+men and 100 people I read as women, usually via a [Yad
+stop](https://thomascrownpua.com/2023/04/21/qa-what-do-you-think-of-the-yad-stop/)
 The people who were approached were chosen by their attractiveness to
 the author.
 

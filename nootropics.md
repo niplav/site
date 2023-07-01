@@ -84,7 +84,10 @@ and so I'll exclude e.g. opiates from the substances to test.
 Caffeine
 ---------
 
-[Examine](https://examine.com/supplements/caffeine/).
+I won't dig too deep into the effects of caffeine, as other people have
+done that already ([Examine](https://examine.com/supplements/caffeine/),
+[Gwern](https://gwern.net/nootropic/nootropics#caffeine),
+[Wikipedia](https://en.wikipedia.org/wiki/Caffeine)).
 
 ### Experiment A: Self-Blinded RCT
 

@@ -36,8 +36,8 @@ Some standard numpy code:
 	    return retval/(a**2+retval)
 
 The derivative of `$f_{\text{sq}}=x^{\top}Cx$` is `$(C+C^{\top})x$`
-(as per identity 81 from the Matrix Cookbook (Petersen & Pedersen
-2012))<!--TODO: link-->.
+(as per identity 81 from the [Matrix
+Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)).
 
 Which is excellent, since the identity 2.3 of Maths for Intelligent
 Systems (Toussaint 2022) gives

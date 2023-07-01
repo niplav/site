@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2023-05-08, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2023-07-01, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of puns, good bandnames, types of guy,
 idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
@@ -359,6 +359,7 @@ often use instead.
 * "Equilibria" instead of "equilibrium"
 * "Maxima" instead of "maximum"
 * "Criteria" instead of "criterion"
+* "Stimulus" instead of "stimuli"<!--TODO: the Bailey episode on catgirls-->
 
 Equivalences
 -------------

@@ -106,8 +106,7 @@ Not only do we bring up an impressive barrage of [cognitive
 biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases),
 but it seems likely that our brains are
 designed to [deceive and hide information from
-themselves](https://en.wikipedia.org/wiki/The_Elephant_in_the_Brain)<!--TODO:
-perhaps replace with a GoodReads link-->.
+themselves](https://www.goodreads.com/book/show/28820444-the-elephant-in-the-brain).
 And knowing about cognitive biases and flawed thinking usually helps
 little with actually mitigating them, sometimes even [amplifying the
 problem](https://www.lesswrong.com/rationality/knowing-about-biases-can-hurt-people).
@@ -205,8 +204,9 @@ for example the [right to be
 forgotten](https://en.wikipedia.org/wiki/Right_to_be_forgotten)
 or the [General Data Protection
 Regulation](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation),
-[humane technology]()<!--TODO: link, but there isn't a wikipedia article
-about this yet--> isn't very much on the radar of legislators yet—a
+[humane
+technology](https://en.wikipedia.org/wiki/Center_for_Humane_Technology)
+isn't very much on the radar of legislators yet—a
 [summary](https://en.wikipedia.org/wiki/Digital_media_usage_and_mental_health#Industry_and_government)
 on Wikipedia lists only some minor actions
 by east-Asian countries (again [of their western
@@ -310,7 +310,7 @@ As an example, here's the things I have downloaded for offline reading:
 * A large collection (several thousands) of books and papers I want to read
 * [Websites I like](./sites.html)
 
-To download a website, I usually used the command wget<!--TODO: link-->:
+To download a website, I usually used the command [wget](https://en.wikipedia.org/wiki/Wget):
 
 	wget --page-requisites -e robots=off -p -k -c -r --mirror -p --html-extension -R '*replytocom*,*like_comment*,*p=*,*test-preview=*,*test-expand=*,*url=*,*share=*,*commentId=*,*sortedBy=*,*after=*,*before=*,*limit=*,*filter=*,*showPostCount=*,*useTagName=*,*///*,*social-media/*,*updated-max=*,*max-results=*,*reverse-paginate=*,*showComment=*,*filters_and=*,*following%5C*,*https:%5C*,*fsnapshot*' -P . www.example.com
 

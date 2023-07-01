@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2023-06-29, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2023-07-01, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -1755,6 +1755,7 @@ Programming
 * Dovetail the shortest brainfuck quine, in practice
 * EA idea repository
 * Open source onlyfans
+* `dmenu` × `fzf`
 
 ### Klong Libraries
 
@@ -2023,10 +2024,6 @@ Wikipedia Articles
 	* Add section of Self-Assured Destruction
 * List of Internet forums
 	* Add LessWrong
-	* Redirect "List of Internet fora" to that page
-* rio (windowing system)
-	* Redirect rio (software) to that page
-	* Redirect 8½ (software)/(windowing system) to the page
 
 Lesswrong wiki
 ---------------
@@ -2121,6 +2118,18 @@ Memes
 ------
 
 * Deep Fried & Bass-Boosted National Anthems
+* Effective Altriust Alignment Chart
+	* Intention Purist/Intention Neutral/Intention Rebel
+	* Effect Purist/Effect Neutral/Effect Rebel
+	* IP&EP: Jeff Kaufman
+	* IP&EN: Eliezer Yudkowsky
+	* IP&ER: Sam Bankman-Fried
+	* IN&EP: Katalín Kariko
+	* IN&EN: Basically everyone else
+	* IN&ER: Fritz Haber
+	* IR&EP: The Black Plague
+	* IR&EN: Sam Altman
+	* IR&ER: Mr. Beast
 
 In-World Projects
 ------------------

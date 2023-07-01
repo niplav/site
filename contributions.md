@@ -108,7 +108,7 @@ look". The comma before "smallcaps" was misplaced.
 * "when I speculated on the identity of Mike Darwin‘s patron (above, ’Notes’)" -> it's now below
 * List of heuristics started at 2, not at 1 (the one after "When we begin deciding what probability to give the prediction")
 * "industry over the period from 2010 to 2010" -> maybe one of those numbers should be different
-* "he had ~410 billion in 2000 but fell to 300 million" -> shouldn't be "~410 billion", Wikipedia says <!--TODO: link--> "In 2000, Forbes estimated his net worth at $1.6 billion"
+* "he had ~410 billion in 2000 but fell to 300 million" -> shouldn't be "~410 billion", Wikipedia [says](https://en.wikipedia.org/wiki/Jay_S._Walker) "In 2000, Forbes estimated his net worth at $1.6 billion"
 * "Page & Brin; while I generally get a utopian Singulitarian vibe off them and their projects and they seem to like publicizing their works" -> the "while" wasn't resolved
 
 #### “The Existential Risk of Math Errors”

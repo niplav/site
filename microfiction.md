@@ -60,7 +60,7 @@ Poems
 
 * Eternal Hustle of the Stopless Grind
 * Calibration of the intellect, optimism of the will
-* Gah, can't snarf evince.<!--TODO: links-->
+* Gah, can't [snarf](https://9p.io/sys/doc/sam/sam.pdf#page=14) [evince](https://en.wikipedia.org/wiki/Evince).
 * You can sit here and be okay, if you want.
 * gatekeep girlboss gaslight givewell
 

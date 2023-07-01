@@ -6,7 +6,12 @@ import matplotlib.pyplot as plt
 # Don't just pad. You need to do something more elaborate.
 
 def plot_confusions(df, multiplier):
-	values=np.pad(df[2], (0, len(x)-len(df[2])), 'constant', constant_values=0)
+	values=np.zeros(len(labels))
+	for i in range(0, len(labels)):
+		try:
+			values[i]=df.loc[df[1]==labels[i]][2].iloc[0]
+		except:
+			continue
 	offset=width*multiplier
 	rects=ax.bar(x+offset, values, width, log=True)
 

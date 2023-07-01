@@ -68,7 +68,7 @@ Science
 * Find drugs that cause short-term memory loss with ideally no side effects (useful for blinding in scientific studies)
 * Studying foreveraloners
 * Run Newcomb's problem in real life
-* Run the Generalized Wada Test<!--TODO: link-->
+* Run the [Generalized Wada Test](https://qualiacomputing.com/2015/05/01/generalized-wada-test-and-the-total-order-of-consciousness/)
 
 Metascience
 ------------
