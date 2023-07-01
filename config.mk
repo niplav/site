@@ -66,6 +66,7 @@ HTML=index.html \
 	nootropics.html \
 	pipe_rings.html \
 	platte.html \
+	preagent.html \
 	precision.html \
 	qualia.html \
 	range_and_forecasting_accuracy.html \

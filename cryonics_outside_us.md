@@ -29,7 +29,7 @@ for cryonics is a good idea (see [Urban
 and perhaps my own [cost-benefit
 analysis](./considerations_on_cryonics.html "Considerations on Cryonics")).
 For instructions on how to sign up for cryonics in the US, see
-[here]()<!--TODO: link cryonics signup guide-->.
+[here](https://www.lesswrong.com/s/weBHYgBXg9thEQNEe).
 
 Structure
 ----------
@@ -65,7 +65,7 @@ countries contribute the precautions they have taken.
 __If you don't have a US citizenship and have signed up with cryonics, or
 have considered and research it, but rejected it for logistical reasons,
 I would [like to talk to you](./about.html#Contact) about why and how
-(email address is rot-13ed <!--TODO: link-->).__
+(email address is [rot13ed](https://en.wikipedia.org/wiki/ROT13)).__
 
 European Union
 ---------------

@@ -283,8 +283,8 @@ preferences, see e.g. [Hayden & Niv
 If we instead go with revealed preferences, unless we assume a
 certain level of irrationality, we wouldn't be able to ascertain which
 preferences of humans were *not* fulfilled (since we could just assume
-that at each moment, each human is perfectly fulfilling their own
-preferences).<!--TODO: link some Armstrong paper/blogpost here-->
+that at each moment, each human is [perfectly fulfilling their own
+preferences](https://arxiv.org/abs/1712.05812)).
 
 These are, of course, standard problems in value learning [Soares
 2018](./doc/cs/ai/alignment/value_learning/the_value_learning_problem_soares_2016.pdf "The Value Learning Problem").

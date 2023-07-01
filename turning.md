@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-03-04, modified: 2023-01-28, language: english, status: notes, importance: 8, confidence: likely*
+*author: niplav, created: 2022-03-04, modified: 2023-07-01, language: english, status: notes, importance: 8, confidence: likely*
 
 > __Representing inconsistent preferences with specific mathematical
 structures can clarify thoughts about how to make those preferences
@@ -677,9 +677,14 @@ We can now try to plot this:
 	import matplotlib.pyplot as plt
 
 	def plot_confusions(df, multiplier):
-	        values=np.pad(df[2], (0, len(x)-len(df[2])), 'constant', constant_values=0)
-	        offset=width*multiplier
-	        rects=ax.bar(x+offset, values, width, log=True)
+	values=np.zeros(len(labels))
+		for i in range(0, len(labels)):
+			try:
+				values[i]=df.loc[df[1]==labels[i]][2].iloc[0]
+			except:
+				continue
+		offset=width*multiplier
+		rects=ax.bar(x+offset, values, width, log=True)
 
 	confusions=pd.read_csv('../../data/compressed.csv', header=None)
 	labels=np.sort(confusions[1].unique())
@@ -690,7 +695,7 @@ We can now try to plot this:
 	fig, ax=plt.subplots(constrained_layout=True)
 
 	for c in list(confusions.groupby(0)):
-	        plot_confusions(c[1], c[0])
+		plot_confusions(c[1], c[0])
 
 	ax.set_ylabel('Number of graphs with confusion')
 	ax.set_xticks(x+width, labels)
@@ -798,10 +803,10 @@ for the purposes of simplicity (I do not think that this changes much).
 I believe that using graphs/set theoretic relations is sufficient to be
 able to represent all von Neumann-Morgenstern inconsistent preferences.
 
-However, in the formalism of choice sets/choice functions (Gaertner
-2009<!--TODO: link--> p. 7-9) I believe that there are some cases which
-can't be represented by this formalism (because they violate expansion
-consistency:
+However, in the formalism of choice sets/choice functions ([Gaertner
+2009](https://www.goodreads.com/book/show/6390481-a-primer-in-social-choice-theory)
+p. 7-9) I believe that there are some cases which can't be represented
+by this formalism (because they violate expansion consistency:
 
 With option set `$O_1=\{a,b\}$` have `$C(O_1)=\{a\}$`, but with option
 set `$O_2=\{a,b,c\}$` we have the choice `$C(O_2)=b$`.

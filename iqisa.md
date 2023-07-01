@@ -104,7 +104,7 @@ If you decide to work with this library, feel free to [contact me](./about.md#Co
 * The default fields in the Metaculus & PredictionBook data should be `NA` more often than they are right now.
 * The documentation is still *slightly* spotty, and tests are mostly nonexistent.
 * Some variables shouldn't be exposed, but are.
-* The code hasn't been updated for the new Metaculus API<!--TODO: link-->
+* The code hasn't been updated for the new [Metaculus API](https://www.metaculus.com/api2/schema/redoc/)
 
 Feature Wishlist
 -----------------

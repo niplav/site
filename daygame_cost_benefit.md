@@ -601,10 +601,13 @@ this number upwards.
 ##### Opportunity Cost
 
 [Free Northerner
-2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/ "Economic Analysis of Casual Sex – Prostitution vs Game")
-assumes 3 dates, it is common wisdom <!--TODO: any sort of
-link-->originating from Mystery that 7 hours is a normal time spent on
-dates until having sex.
+2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/
+"Economic Analysis of Casual Sex –
+Prostitution vs Game") assumes 3 dates, it is [common
+wisdom](https://theredarchive.com/blog/Days-of-Game/part-i-mysterys-seven-hour-rule-and-lmr.22180)
+originating from
+[Mystery](https://en.wikipedia.org/wiki/Erik_von_Markovik) that 7 hours
+is a normal time spent on dates until having sex.
 
 Data from [Roy Walker](https://roywalkerdaygame.wordpress.com/) includes
 numbers of dates starting from 2018:

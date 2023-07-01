@@ -112,7 +112,7 @@ And, as always, remember that I'm just a person on the internet.
 		threshold, humanity is [probably
 		doomed](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like)
 		* But you can still spend the remaining time well!
-		* Or even try to prevent it <!--TODO: link No time like present for AI safety research-->
+		* Or even try to [prevent it](https://slatestarcodex.com/2015/05/29/no-time-like-the-present-for-ai-safety-work/)
 	* Post on this [forthcoming some time](./leave.html)
 10. If you are looking for solutions to problems, look for zero-willpower/zero-inspiration solutions first
 	* The best example for this is buying a product that solves your problem
@@ -151,10 +151,11 @@ And, as always, remember that I'm just a person on the internet.
 	* The more similar their constraints to yours, the better
 	* This probably disqualifies this whole text, but whatever
 18. [Structured Procrastination](https://structuredprocrastination.com) might work for you. It does for me.
-19.	Fight tooth and nail for Slack<!--TODO: link-->. FIRE<!--TODO:
-	link-->, fewer addictions (even small ones like mindless internet
-	browsing), no debt, fewer physical objects you own, and less
-	social obligations are all instances of having a lot of slack.
+19.	Fight tooth and nail for [Slack](https://www.lesswrong.com/posts/yLLkWMDbC9ZNKbjDG/slack).
+	[FIRE](https://en.wikipedia.org/wiki/FIRE_movement), fewer
+	addictions (even small ones like mindless internet browsing), no
+	debt, fewer physical objects you own, and less social obligations
+	are all instances of having a lot of slack.
 	*	Example: I have a bad instance of completionism around
 		media. Once I have started a particular piece of media
 		(a podcast, a series, a blog), it feels bad to just not
@@ -178,7 +179,7 @@ And, as always, remember that I'm just a person on the internet.
 			* Meditation is probably a good example for this
 	*	Creating things probably feels longer than the same
 		time spent consuming things
-	* Doing new activies also feels longer than familiar ones <!--TODO: theoryengine post-->
+	* Doing new activies also feels longer than [familiar ones](http://theoryengine.org/life/tips-for-a-longer-life/)
 22.	If you want to get into X, the best way of doing so is probably
 	doing a little bit of X for a month, and then one week of X for
 	6 or more hours a day
@@ -214,7 +215,7 @@ And, as always, remember that I'm just a person on the internet.
 		have ideological hangups about money, seeing it as
 		immoral and not worth thinking about. This seems
 		both untrue and harmful – money is extremely useful,
-		and having money is pretty important. <!--TODO: LW post about money-->
+		and having money [is pretty important](https://www.lesswrong.com/posts/TsjdF2Fpes7S7Syej/taking-money-seriously).
 	*	Know how much you spend, on what, and what your longterm
 		financial plan is.
 28.	For some people, sometimes being able to ground out ones problems
@@ -245,11 +246,12 @@ Existence of Long Tails for Bliss and Suffering")<!--TODO: better links for this
 	not sure when ("The market can stay irrational longer than you
 	can stay solvent—unless it can't anymore").
 	*	If you appreciate natural diamonds for their authenticity,
-		then by all means, go ahead. But don't be disappointed
-		when a years later, your friends can buy bigger diamonds
-		with the same carbon atoms 10x cheaper<!--TODO: link
-		Yudkowsky on "the same atoms"-->, and nobody cares about
-		your authentic diamond.
+		then by all means, go ahead. But don't
+		be disappointed when a years later, your
+		friends can buy bigger diamonds with the [same carbon
+		atoms](https://www.lesswrong.com/posts/RLScTpwc5W2gGGrL9/identity-isn-t-in-specific-atoms)
+		10x cheaper, and nobody cares about your authentic
+		diamond.
 
 See Also
 ---------
