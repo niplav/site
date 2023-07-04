@@ -79,7 +79,7 @@ fraud"](https://pastebin.com/xuVuVnhw). One must be careful not to fall
 into the trap of taking substances that feel good but lessen sensory
 clarity (which I believe was the original intent behind the [fifth
 precept](https://en.wikipedia.org/wiki/Five_precepts#Fifth_precept),
-and so I'll exclude e.g. opiates from the substances to test.
+and so I'll exclude e.g. opiates from the substances to test).
 
 Caffeine
 ---------
