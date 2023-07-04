@@ -34,6 +34,7 @@ HTML=index.html \
 	99_problems_collection.html \
 	99_problems_klong_solution.html \
 	against_applause.html \
+	awesome.html \
 	bcis_and_alignment.html \
 	buch_stab.html \
 	circle_combinations.html \

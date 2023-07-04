@@ -844,6 +844,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Pomodoro Experiment
 	* Apparently pomodoro technique has not been investigated empirically‽
 	* See Attention Span (Mark 2023) p. 66
+* Ethics survey
 
 ### Ideas
 
@@ -1960,6 +1961,7 @@ Wikipedia Articles
 * Hodge Decomposition from combinatorial hodge theory
 * Hyllands theorem
 * Slater's problem
+* Structural Regular Expressions
 
 ### Improve
 
@@ -2130,6 +2132,7 @@ Memes
 	* IR&EP: The Black Plague
 	* IR&EN: Sam Altman
 	* IR&ER: Mr. Beast
+* Cat with newspaper image, caption "I should read his books"
 
 In-World Projects
 ------------------
