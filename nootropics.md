@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2023-06-30, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2023-01-06, modified: 2023-07-05, language: english, status: notes, importance: 3, confidence: log*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
 decided to log my nootropics usage and its effects.__
@@ -135,10 +135,11 @@ attention strays just as easily.
 #### Statistical Method
 
 In general, I'll be working with the [likelihood ratio
-test](https://en.wikipedia.org/wiki/Likelihood-ratio_Test). For this,
-let `$\mathbf{v}_P$` be the distribution of values of a variable
-for the placebo arm, and `$\mathbf{v}_C$` the distribution of
-values for a variable of the caffeine arm. (I apologise for the
+test](https://en.wikipedia.org/wiki/Likelihood-ratio_Test) (encouraged by
+[this article]((https://arbital.com/p/likelihoods_not_pvalues/)). For
+this, let `$\mathbf{v}_P$` be the distribution of values of a
+variable for the placebo arm, and `$\mathbf{v}_C$` the distribution
+of values for a variable of the caffeine arm. (I apologise for the
 `$C$` being ambiguous, since it could also refer to the [control
 arm](https://en.wikipedia.org/wiki/Control_arm)).
 
@@ -459,11 +460,19 @@ task.<sup>[\[325\]](https://examine.com/supplements/caffeine/research/#ref-325)<
 
 *—Kamal Patel, [“Caffeine”](https://examine.com/supplements/caffeine/research/#3JD9zlr-nutrient-nutrient-interactions_3JD9zlr-l-theanine), 2023*
 
+See again [Examine](https://examine.com/supplements/theanine/research/),
+[Wikipedia](https://en.wikipedia.org/wiki/Theanine) and
+[Gwern](https://gwern.net/Nootropics#L-Theanine).
+
 ### Experiment B: Self-Blinded RCT
 
 * Time for preparation: 93 minutes
 * Cost of l-theanine pills: `$\frac{~0.25€}{\text{500mg L-theanine pill}} \cdot 25 \text{ 500mg L-theanine pills}=6.25€$`
 * Cost of empty capsules: `$0.75€$`
+
+Notes during consumption:
+
+* 1st dose: Made a mistake while filling the envelopes, accidentally deblinded myself.
 
 Melatonin
 ----------

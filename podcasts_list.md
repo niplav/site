@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-04-11, language: english, status: finished, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-07-05, language: english, status: finished, importance: 1, confidence: log*
 
 > __Podcasts I am following.__
 
@@ -19,14 +19,17 @@ I try to listen to all episodes available to the public.
 * [Chaos Radio Express](https://cre.fm/)
 * [Clearer Thinking Podcast](https://clearerthinkingpodcast.com)
 * [Cryonics Underground](https://www.cryonicsunderground.com)
+* [Future of Life Institute Podcast]()<!--TODO: link-->
 * [Guru Viking](https://www.guruviking.com/)
 * [History of Philosophy Without any Gaps](https://historyofphilosophy.net/)
 * [Lex Fridman Podcast](https://lexfridman.com/podcast)
 * [Manifold Podcast](https://manifold1.com)
 * [Razib Khan's Unsupervised Learning](https://razib.substack.com)
 * [Robot Friends](https://soundcloud.com/user-557955426)
+* [The Bailey](https://thebaileypodcast.substack.com)
 * [The EPRC Podcast](https://theeprc.podbean.com/)
 * [The Inside View](https://theinsideview.ai/)
+* [The Lunar Society](https://www.dwarkeshpatel.com/podcast)
 * [Utilitarian Podcast](https://anchor.fm/utilitarian)
 * [Vecna's Goon Squad](https://anchor.fm/cassius-vecna/)
 * [Wildness](https://www.wildanimalinitiative.org/wildness)

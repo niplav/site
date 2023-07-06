@@ -17,7 +17,8 @@ but you can guarantee that they won’t use it.
 
 Iqisa is a collection of forecasting datasets and a simple
 library for handling those datasets. Code and data available
-[here](https://github.com/niplav/iqisa).
+[here](https://github.com/niplav/iqisa). Documentation is
+[here](./iqisadoc.html).
 
 So far it contains data from:
 
