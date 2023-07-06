@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-07-04, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-07-06, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,26 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Ibis redibis nunquam per bella peribis (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Ibis_redibis_nunquam_per_bella_peribis)
+* [Mathematicians Shed Light on Minimalist Conjecture (Erica Klarreich, 2013)](https://www.quantamagazine.org/mathematicians-shed-light-on-minimalist-conjecture-20130709/)
+* [Crystal Healing — or the Origins of Expected Utility Maximizers (Alexander Gietelink Oldenziel/Kaarel/RP, 2023)](https://www.lesswrong.com/posts/tiftX2exZbrc3pNJt/)
+* [Introducing Superalignment (Ilya Sutskever/Jan Leike, 2023)](https://openai.com/blog/introducing-superalignment)
+* [Wikipedia:Contributing to Wikipedia (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia)
+* [How to Slow Down Time (Michael Stern, 2022)](https://www.wikihow.com/Slow-Down-Time)
+* [9 Tips for Better Posture (Melinda Ratini, 2022)](https://www.webmd.com/osteoporosis/ss/slideshow-posture-tips)
+* [An interview with Brian Tomasik (Brian Tomasik, 2015)](http://petrl.org/2015/12/08/brian-tomasik.html)
+* [Leichte Sprache (Margret Liefner-Thiem, 2021)](https://www.friedrich-verlag.de/schulleitung/inklusion/durch-leichte-sprache-teilhabe-ermoeglichen/)
+* [Leichte Sprache – verständliche Sprache (Claudia Mutter, 2015)](https://www.lehrer-online.de/unterricht/sekundarstufen/faecheruebergreifend/artikel/fa/leichte-sprache-verstaendliche-sprache/)
+* [Can Bivalves Suffer? (Brian Tomasik, 2019)](https://reducing-suffering.org/can-bivalves-suffer/)
+* [The Soviet Union: Achieving full employment (José Luis Ricón, 2016)](https://nintil.com/the-soviet-union-achieving-full-employment)
+* [A conversation with Brian Tomasik (Brian Tomasik/Luke Muehlhauser, 2016)](https://www.openphilanthropy.org/files/Conversations/Brian_Tomasik_10-06-16_(public).pdf)
+* [Fuzzy, Nested Minds Problematize Utilitarian Aggregation (Brian Tomasik, 2015)](https://reducing-suffering.org/fuzzy-nested-minds-problematize-utilitarian-aggregation/)
+* [To Settle Infinity Dispute, a New Law of Logic (Natalie Wolchover, 2013)](https://www.quantamagazine.org/to-settle-infinity-question-a-new-law-of-mathematics-20131126/)
+* [The Surprising Origins of Life’s Complexity (Carl Zimmer, 2013)](https://www.quantamagazine.org/the-surprising-origins-of-lifes-complexity-20130716/)
+* [I'm Dropping the Pseudonym From This Blog (Zack M. Davis, 2023)](http://unremediatedgender.space/2023/Jul/i-am-dropping-the-pseudonym-from-this-blog/)
+* [YOU NEED MORE LUMENS (David Chapman, 2015)](https://meaningness.com/sad-light-lumens)
+* [Why Were Early Psychedelicists So Weird? (Scott Alexander, 2016)](https://slatestarcodex.com/2016/04/28/why-were-early-psychedelicists-so-weird/)
+* [Cryptomorphism (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Cryptomorphism)
 * [The Soviet Union: Brief remarks on the transition (José Luis Ricón, 2016)](https://nintil.com/the-soviet-union-brief-remarks-on-the-transition)
 * [The Soviet Union: GDP growth (José Luis Ricón, 2016)](https://nintil.com/the-soviet-union-gdp-growth)
 * [What You Should Know About the Benefits of Good Posture (WebMD Editorial Contributors, 2021)](https://www.webmd.com/fitness-exercise/what-you-should-know-about-benefits-good-posture)
@@ -82,7 +102,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Sophistication (complexity theory) (English Wikipedia, 2022)](https://en.wikipedia.org/wiki/Sophistication_(complexity_theory))
 * [Harberger Tax (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Harberger_Tax)
 * [A stylized dialogue on John Wentworth's claims about markets and optimization (Nate Soares, 2023)](https://www.lesswrong.com/posts/fJBTRa7m7KnCDdzG5/a-stylized-dialogue-on-john-wentworth-s-claims-about-markets)
-* \* Attention Span (Gloria Mark, 2023)
+* Attention Span (Gloria Mark, 2023)
 * [Conceptual conversions (Gavin Leech, 2015)](https://www.gleech.org/conversion/)
 * [Robots, Games, Life, Markets (Gavin Leech, 2020)](https://www.gleech.org/games-of-life)
 * [Likelihood-ratio test (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Likelihood-ratio_test)
@@ -97,7 +117,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Why Subagents (johnswentworth, 2019)](https://www.lesswrong.com/posts/3xF66BNSC5caZuKyC/why-subagents)
 * [High Status and Stupidity: Why? (Eliezer Yudkowsky, 2010)](https://www.lesswrong.com/posts/cgrvvp9QzjiFuYwLi/high-status-and-stupidity-why)
 * [HodgeRank: Generating Movie Ranking From IMDb Movie Ratings (Part 1: Problem Formulation) (Zian Jiang, 2019)](https://medium.com/@zj444/hodgerank-generating-movie-ranking-from-imdb-movie-ratings-part-1-2a88ec148f10)
-* \* What We Owe The Future (William MacAskill, 2022)
+* What We Owe The Future (William MacAskill, 2022)
 * \* The Machinery of Freedom (David Friedman, 2014)
 * \* Human Compatible (Stuart Russell, 2019)
 * [Creatine Cognition Meta-analysis (Gwern Branwen, 2021)](https://gwern.net/creatine)

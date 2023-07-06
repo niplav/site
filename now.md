@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2023-06-22, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2023-07-06, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -67,7 +67,6 @@ Reading
 
 Currently, I am actively reading the following books:
 
-* Attention Span (Gloria Mark, 2023)
 * Die toten Seelen (Nikolai Gogol, 1842)
 * Human Compatible (Stuart Rusell, 2019)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
@@ -75,4 +74,3 @@ Currently, I am actively reading the following books:
 * Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
 * The Machinery of Freedom (David Friedman, 2014)
 * Theory of Games and Economic Behavior (John von Neumann/Oskar Morgenstern, 1953)
-* What We Owe The Future (William MacAskill, 2022)

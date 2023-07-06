@@ -46,13 +46,13 @@ Site
 * Add content tables to pages?
 * Maybe a dark mode?
 * Add RSS feed (ugh)
-	* `https://www.interglacial.com/tpj/26/`
-	* `https://github.com/html2rss/html2rss`
-	* `http://fetchrss.com/`
-	* `https://www.linux.com/news/building-command-line-generator-rss-feeds-0/`
-	* `https://lynxbee.com/bash-script-to-generate-rss-feed-compatible-xml-using-unique-urls-of-a-website/#.Yl_EYlxBxH5`
-	* `https://www.makeuseof.com/tag/how-to-create-an-rss-feed-for-your-site-from-scratch/`
-	* `https://florian-dahlitz.de/articles/create-feeds-for-your-blog`
+	* <https://www.interglacial.com/tpj/26/>
+	* <https://github.com/html2rss/html2rss>
+	* <http://fetchrss.com/>
+	* <https://www.linux.com/news/building-command-line-generator-rss-feeds-0/>
+	* <https://lynxbee.com/bash-script-to-generate-rss-feed-compatible-xml-using-unique-urls-of-a-website/#.Yl_EYlxBxH5>
+	* <https://www.makeuseof.com/tag/how-to-create-an-rss-feed-for-your-site-from-scratch/>
+	* <https://florian-dahlitz.de/articles/create-feeds-for-your-blog>
 * Add metadata to hosted PDFs/videos
 * List of writings by importance/finishedness
 	* List of texts by year/author
@@ -60,13 +60,13 @@ Site
 	* “” quotes by "" quotes, “” is for quotes within quotes
 	* '*' in math formulas by '·'
 * Improve linting
-	* Incorporate `https://www.gwern.net/static/build/markdown-lint.sh`
-	* `https://www.html-tidy.org/`
-	* `https://github.com/amperser/proselint/`
+	* Incorporate <https://www.gwern.net/static/build/markdown-lint.sh>
+	* <https://www.html-tidy.org/>
+	* <https://github.com/amperser/proselint/>
 * Find for a way to allow for LaTeX in code blocks that doesn't break everything immediately
 * Pre-render LaTeX:
-	* `https://www.gwern.net/docs/www/joa.sh/290f53c78d4b287be8059260f613988a8abda677.html`
-	* `https://github.com/pkra/mathjax-node-page/`
+	* <https://www.gwern.net/docs/www/joa.sh/290f53c78d4b287be8059260f613988a8abda677.html>
+	* <https://github.com/pkra/mathjax-node-page/>
 * Maybe collapsable sections?
 * Title is not JS-added
 * Reading ruler (?)
@@ -83,38 +83,38 @@ Existing Texts
 	* Extend the analysis to more datapoints
 		* Extend the analysis to real Metaculus data
 		* Extend to more datasets
-			* `https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters`
+			* <https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters>
 	* Add a literature review
-		* `https://rethinkpriorities.org/publications/how-does-forecast-quantity-impact-forecast-quality-on-metaculus`
-		* `https://rethinkpriorities.org/publications/an-analysis-of-metaculus-predictions-of-future-ea-resources`
-		* `https://rethinkpriorities.org/publications/an-examination-of-metaculus-resolved-ai-predictions`
-		* `https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons`
-		* `https://rethinkpriorities.org/publications/potentially-great-ways-forecasting-can-improve-the-longterm-future`
-		* `https://rethinkpriorities.org/publications/why-short-range-forecasting-can-be-useful-for-longtermism`
-		* `https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting`
-		* `http://foresightr.com/2016/05/06/a-brief-history-of-forecasting`
-		* `https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.12127`
+		* <https://rethinkpriorities.org/publications/how-does-forecast-quantity-impact-forecast-quality-on-metaculus>
+		* <https://rethinkpriorities.org/publications/an-analysis-of-metaculus-predictions-of-future-ea-resources>
+		* <https://rethinkpriorities.org/publications/an-examination-of-metaculus-resolved-ai-predictions>
+		* <https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons>
+		* <https://rethinkpriorities.org/publications/potentially-great-ways-forecasting-can-improve-the-longterm-future>
+		* <https://rethinkpriorities.org/publications/why-short-range-forecasting-can-be-useful-for-longtermism>
+		* <https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting>
+		* <http://foresightr.com/2016/05/06/a-brief-history-of-forecasting>
+		* <https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.12127>
 		* Prediction: The long and short of it (Anthony Millner/Daniel Heyen, 2020)
-		* `https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters`
-		* `https://www.edge.org/conversation/philip_tetlock-edge-master-class-2015-a-short-course-in-superforecasting-class-ii`
+		* <https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters>
+		* <https://www.edge.org/conversation/philip_tetlock-edge-master-class-2015-a-short-course-in-superforecasting-class-ii>
 	* Estimate with latent variable/instrumental variable
 * Considerations on Cryonics
 	* Add a literature review
-		* `https://www.tandfonline.com/doi/pdf/10.1080/01459741003715391`
-		* `https://www.tandfonline.com/doi/full/10.1080/23311886.2016.1167576`
-		* `https://books.google.de/books?id=9C0ABAAAQBAJ&pg=PA281&lpg=PA281&dq=Cryonics+cost+benefit+calculation&source=bl&ots=IIIVQtzzXt&sig=ACfU3U3KMGKCBWhP1tvegvKvHTyCLtZNGA&hl=en&sa=X&ved=2ahUKEwjc_O6v743qAhUKYcAKHXFVDsUQ6AEwDXoECAMQAQ#v=onepage&q=Cryonics%20cost%20benefit%20calculation&f=false`
+		* <https://www.tandfonline.com/doi/pdf/10.1080/01459741003715391>
+		* <https://www.tandfonline.com/doi/full/10.1080/23311886.2016.1167576>
+		* <https://books.google.de/books?id=9C0ABAAAQBAJ&pg=PA281&lpg=PA281&dq=Cryonics+cost+benefit+calculation&source=bl&ots=IIIVQtzzXt&sig=ACfU3U3KMGKCBWhP1tvegvKvHTyCLtZNGA&hl=en&sa=X&ved=2ahUKEwjc_O6v743qAhUKYcAKHXFVDsUQ6AEwDXoECAMQAQ#v=onepage&q=Cryonics%20cost%20benefit%20calculation&f=false>
 	* Think about incorporating the Metaculus questions on Cryonics into the probability
 		* Revival
-			* `https://www.metaculus.com/questions/3330/will-any-person-that-has-been-cryopreserved-for-more-than-1-year-be-resuscitated-or-emulated-before-2200/`
-			* `https://www.metaculus.com/questions/1626/before-1-january-2050-will-any-human-cryonically-preserved-for-at-least-1-year-be-successfully-revived/`
-			* `https://www.metaculus.com/questions/455/if-you-die-today-and-get-cryonically-frozen-will-you-wake-up/https://www.metaculus.com/questions/3332/will-james-bedford-be-revived-or-emulated-before-2200/`
-			* `https://www.metaculus.com/questions/3331/when-will-the-first-person-that-has-been-cryopreserved-for-more-than-1-year-be-resuscitated-or-uploaded/`
-			* `https://www.metaculus.com/questions/3382/what-will-the-earliest-preservation-date-of-any-resuscitated-cryonics-patient-be/`
+			* <https://www.metaculus.com/questions/3330/will-any-person-that-has-been-cryopreserved-for-more-than-1-year-be-resuscitated-or-emulated-before-2200/>
+			* <https://www.metaculus.com/questions/1626/before-1-january-2050-will-any-human-cryonically-preserved-for-at-least-1-year-be-successfully-revived/>
+			* <https://www.metaculus.com/questions/455/if-you-die-today-and-get-cryonically-frozen-will-you-wake-up/https://www.metaculus.com/questions/3332/will-james-bedford-be-revived-or-emulated-before-2200/>
+			* <https://www.metaculus.com/questions/3331/when-will-the-first-person-that-has-been-cryopreserved-for-more-than-1-year-be-resuscitated-or-uploaded/>
+			* <https://www.metaculus.com/questions/3382/what-will-the-earliest-preservation-date-of-any-resuscitated-cryonics-patient-be/>
 		* Preservation:
-			* `https://www.metaculus.com/questions/3333/when-will-the-number-of-people-in-cryopreservation-preserved-before-2019-fall-to-less-than-50-of-the-current-value/`
+			* <https://www.metaculus.com/questions/3333/when-will-the-number-of-people-in-cryopreservation-preserved-before-2019-fall-to-less-than-50-of-the-current-value/>
 		* Signup:
-			* `https://www.metaculus.com/questions/3478/how-many-patients-will-be-in-cryonic-suspension-at-the-cryonics-institute-in-2030/`
-			* `https://www.metaculus.com/questions/4052/if-cryonics-is-at-some-point-offered-for-free-what-percentage-of-americans-will-be-signed-up-within-10-years/`
+			* <https://www.metaculus.com/questions/3478/how-many-patients-will-be-in-cryonic-suspension-at-the-cryonics-institute-in-2030/>
+			* <https://www.metaculus.com/questions/4052/if-cryonics-is-at-some-point-offered-for-free-what-percentage-of-americans-will-be-signed-up-within-10-years/>
 	* Different value of money at different ages?
 	* Why not a Pascal's mugging?
 		* No adversary
@@ -149,10 +149,10 @@ Existing Texts
 	* Change so that in the male case, there's nothing beyond collecting contact info (no date invite/date)
 	* Elaborate on asking for contact info/date process
 	* Literature review
-		* `https://en.wikipedia.org/wiki/Masturbation`
-		* `https://en.wikipedia.org/wiki/Pornography`
-		* `/usr/local/doc/unread/blackpill/physical_attractiveness_research_adams_1977.pdf`
-		* `/usr/local/doc/unread/sexual_activity_is_inversely_related_to_womens_perceptions_of_male_facial_attractiveness_hess_et_al_2007.pdf`
+		* <https://en.wikipedia.org/wiki/Masturbation>
+		* <https://en.wikipedia.org/wiki/Pornography>
+		* </usr/local/doc/unread/blackpill/physical_attractiveness_research_adams_1977.pdf>
+		* </usr/local/doc/unread/sexual_activity_is_inversely_related_to_womens_perceptions_of_male_facial_attractiveness_hess_et_al_2007.pdf>
 * Daygame Cost-Benefit Analysis
 	* Incorporate new daygame stats from blogs
 	* Adjust curve to fit Roy Walker & Thomas Crown data better
@@ -213,8 +213,8 @@ Texts
 	* Is Forecasting Harder to Game?
 	* Less Susceptible to Social Biases like Charisma
 * Comparing Forecasting Accuracy Between the Good Judgment Project and Metaculus
-	* `https://www.openphilanthropy.org/blog/forecasting-covid-19-pandemic`
-	* `https://pandemic.metaculus.com/questions/`
+	* <https://www.openphilanthropy.org/blog/forecasting-covid-19-pandemic>
+	* <https://pandemic.metaculus.com/questions/>
 * Extracting Probabilities from Stock Markets
 * The "At-the-time best possible forecast"
 	* Not literally best possible forecast
@@ -223,9 +223,9 @@ Texts
 * Judgmental Forecasting as a Social Technology
 * Practical Forecasting Handbook
 * Addenda to the Prediction Market FAQ
-	* `https://astralcodexten.substack.com/p/prediction-market-faq`
+	* <https://astralcodexten.substack.com/p/prediction-market-faq>
 * Comparing Forecasts on a wide range of platforms
-	* Use `https://github.com/stanlyfok/sentence2vec` to compare questions
+	* Use <https://github.com/stanlyfok/sentence2vec> to compare questions
 * Literature review of different forecasting techniques
 
 ### Population
@@ -332,7 +332,7 @@ Texts
 * Kitchen sink versus integrated AI alignment
 * The Relation Between Corrigibility and Impact Measures
 * Distilling Debate Progress
-	* `https://www.lesswrong.com/posts/PJLABqQ962hZEqhdB/debate-update-obfuscated-arguments-problem`
+	* <https://www.lesswrong.com/posts/PJLABqQ962hZEqhdB/debate-update-obfuscated-arguments-problem>
 * Umeshisms for Low Impact
 	* If the future optimization trajectory along a dimension in the limit moves the value of that dimension to the maximum/minimum, don't do that.
 	* The optimal amount of anything is not the most extreme amount
@@ -425,10 +425,10 @@ Texts
 	* Yogic stuff? (Mudra)
 * Survey on entry time to first jhana
 * Technological Meditation Enhancement
-	* `https://www.jhourney.io/`
-	* `https://www.theguardian.com/lifeandstyle/video/2021/jun/29/hacking-enlightenment-can-ultrasound-help-you-transcend-reality?CMP=twt_b-gdnvideo`
-	* `https://www.wired.co.uk/article/consciousness-hacking-silicon-valley-enlightenment-brain`
-	* maybe `https://www.vielight.com/`
+	* <https://www.jhourney.io/>
+	* <https://www.theguardian.com/lifeandstyle/video/2021/jun/29/hacking-enlightenment-can-ultrasound-help-you-transcend-reality?CMP=twt_b-gdnvideo>
+	* <https://www.wired.co.uk/article/consciousness-hacking-silicon-valley-enlightenment-brain>
+	* maybe <https://www.vielight.com/>
 
 ### Quantified Self
 
@@ -512,7 +512,7 @@ Texts
 		* [Node JS](http://blog.izs.me/post/48281998870/unix-philosophy-and-nodejs)
 		* [The Internet](https://victorops.com/blog/internet-age-unix-philosophy/)
 		* [Vim](https://www.reddit.com/r/vim/comments/22w1li/a_fair_comparison_between_vim_and_emacs/cgqyqst/)
-		* `https://gist.github.com/rjsteinert/f3823f3cdc9971779c17`
+		* <https://gist.github.com/rjsteinert/f3823f3cdc9971779c17>
 	* ["Do one thing, and do it well. Use text streams, since that is the universal interface"](http://www.catb.org/esr/writings/taoup/html/ch01s06.html)
 	* Most systems reimplement unix ("Those who don't understand unix are doomed to reimplement it, poorly.")
 * Libertarianism is too Simple
@@ -541,7 +541,7 @@ Texts
 	* "Rationalism leads to believing wrong things!"
 	* Related text: [Incremental Progress and the Valley](https://www.lesswrong.com/s/pvim9PZJ6qHRTMqD3/p/oZNXmHcdhb4m7vwsv)
 * In Favor of Gish-Gallop
-	* `https://en.wikipedia.org/wiki/Gish_gallop`
+	* <https://en.wikipedia.org/wiki/Gish_gallop>
 * The Hedonic Treadmill and Politics
 	* Inequality
 	* Pareto Improvements
@@ -562,7 +562,7 @@ Texts
 * Why Mars' Moons Should Be Destroyed
 * Why We Need New Anthems
 	* Most national anthems suck, let's make some more original ones
-		* Review `https://en.wikipedia.org/wiki/List_of_national_anthems`
+		* Review <https://en.wikipedia.org/wiki/List_of_national_anthems>
 * Models With Huge Error Bars are Better Than No Models At All
 * Some Epistemic Warning Signs in the Effective Altruism and Rationality Communities
 	* People are Friends
@@ -633,9 +633,9 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Read up on the research
 	* Perhaps re-emphasize as "Easterlin Paradox"?
 * Contra Morse on Fame
-	* `https://210ethan.github.io/thoughts/famous.html`
+	* <https://210ethan.github.io/thoughts/famous.html>
 * Contra Morse on Modern Life
-	* `https://210ethan.github.io/thoughts/modern.html`
+	* <https://210ethan.github.io/thoughts/modern.html>
 * Contra Alexander on Epistemic Minor Leagues
 	* https://astralcodexten.substack.com/p/epistemic-minor-leagues?s=r
 	* Reality is really f\*\*\*ing high-dimensional, so there's a bunch of nooks and crannies nobody has explored before
@@ -705,8 +705,8 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Nuking the Amazon Cost-Benefit Analysis
 * What is the most common word I don't use?
 * How Strong is the Gender Difference In Sex Drive?
-	* `/usr/local/doc/unread/blackpill/is_there_a_gender_difference_in_strength_of_sex_drive_baumeister_et_al_2001.pdf`
-	* `/usr/local/doc/unread/blackpill/in_heterosexual_relationships_men_masturbate_more_than_women_waterink_2014.pdf`
+	* </usr/local/doc/unread/blackpill/is_there_a_gender_difference_in_strength_of_sex_drive_baumeister_et_al_2001.pdf>
+	* </usr/local/doc/unread/blackpill/in_heterosexual_relationships_men_masturbate_more_than_women_waterink_2014.pdf>
 * Do eggs burst when they're not poked before boiling?
 	* Blinded, person needs to poke & write down, but not tell
 	* Student's t-test
@@ -726,30 +726,30 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* Probability of X is undefined
 	* Maxipok
 	* Links to relevant texts here:
-		* `https://gwern.net/mugging`
-		* `https://gwern.net/Mugging-DP`
-		* `https://nintil.com/pascals-mugging/`
-		* `https://nickbostrom.com/papers/pascal.pdf`
-		* `https://en.wikipedia.org/wiki/Pascal%27s\_mugging`
-		* `https://patrickjuli.us/2019/11/10/pascals-mugging/`
-		* `https://www.lesswrong.com/posts/9WZAqFzNJ4KrhsqJ7/pascal-s-mugging-solved`
-		* `https://www.lesswrong.com/posts/gjyvXPqvCZPEtCKLB/tactics-against-pascal-s-mugging`
-		* `https://risingentropy.com/pascals-mugging/`
-		* `https://wiki.lesswrong.com/wiki/Pascal%27s\_mugging`
-		* `https://wmbriggs.com/post/20492/`
-		* `https://medium.com/@SunBurntSky/pascals-mugging-787c37e76bc3`
-		* `https://utilitarianism.fandom.com/wiki/Pascal%27s\_Mugging`
-		* `https://www.lesswrong.com/posts/Ap4KfkHyxjYPDiqh2/pascal-s-muggle-infinitesimal-priors-and-strong-evidence`
-		* `https://www.lesswrong.com/posts/KDzXTWSTg8ArwbhRR/pascal-s-muggle-short-version`
-		* `https://www.lesswrong.com/posts/CaPgNwxEFHh3Ahvf7/pascal-s-muggle-pays`
-		* `https://www.lesswrong.com/posts/8FRzErffqEW9gDCCW/against-the-linear-utility-hypothesis-and-the-leverage`
-		* `https://www.lesswrong.com/posts/NoYXhJLtoKpLoZhRf/pascal-s-mugging-finite-or-unbounded-resources`
+		* <https://gwern.net/mugging>
+		* <https://gwern.net/Mugging-DP>
+		* <https://nintil.com/pascals-mugging/>
+		* <https://nickbostrom.com/papers/pascal.pdf>
+		* <https://en.wikipedia.org/wiki/Pascal%27s\_mugging>
+		* <https://patrickjuli.us/2019/11/10/pascals-mugging/>
+		* <https://www.lesswrong.com/posts/9WZAqFzNJ4KrhsqJ7/pascal-s-mugging-solved>
+		* <https://www.lesswrong.com/posts/gjyvXPqvCZPEtCKLB/tactics-against-pascal-s-mugging>
+		* <https://risingentropy.com/pascals-mugging/>
+		* <https://wiki.lesswrong.com/wiki/Pascal%27s\_mugging>
+		* <https://wmbriggs.com/post/20492/>
+		* <https://medium.com/@SunBurntSky/pascals-mugging-787c37e76bc3>
+		* <https://utilitarianism.fandom.com/wiki/Pascal%27s\_Mugging>
+		* <https://www.lesswrong.com/posts/Ap4KfkHyxjYPDiqh2/pascal-s-muggle-infinitesimal-priors-and-strong-evidence>
+		* <https://www.lesswrong.com/posts/KDzXTWSTg8ArwbhRR/pascal-s-muggle-short-version>
+		* <https://www.lesswrong.com/posts/CaPgNwxEFHh3Ahvf7/pascal-s-muggle-pays>
+		* <https://www.lesswrong.com/posts/8FRzErffqEW9gDCCW/against-the-linear-utility-hypothesis-and-the-leverage>
+		* <https://www.lesswrong.com/posts/NoYXhJLtoKpLoZhRf/pascal-s-mugging-finite-or-unbounded-resources>
 		* In defence of fanaticism (Hayden Wilkinson, 2020)
 * Survey advanced meditators about their attainments and their monetary worth
 	* That is, how much is your meditative attainment worth to you?
-		* `https://old.reddit.com/r/TheMindIlluminated/comments/su8f1j/to_seek_or_to_not_seek_enlightenment/hx995y6/?context=3`
-		* `https://www.shinzen.org/the-dark-night/`
-		* `https://www.youtube.com/watch?v=SmaZ6am_KIQ&lc=UgyhA5CfJXShZN9loVd4AaABAg.9DWh5Ao7Klk9DXRaKBauqZ`
+		* <https://old.reddit.com/r/TheMindIlluminated/comments/su8f1j/to_seek_or_to_not_seek_enlightenment/hx995y6/?context=3>
+		* <https://www.shinzen.org/the-dark-night/>
+		* <https://www.youtube.com/watch?v=SmaZ6am_KIQ&lc=UgyhA5CfJXShZN9loVd4AaABAg.9DWh5Ao7Klk9DXRaKBauqZ>
 * Masturbation Spacing
 	* Space masturbation to make it more enjoyable
 	* Form:
@@ -859,7 +859,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * The “If Everyone Just” Argument
 	* The argument just assumes one of the biggest problems away: coordination and cooperation
 	* Related: [Malthusianisms](https://www.scottaaronson.com/blog/?p=418)
-	* Related: `https://squareallworthy.tumblr.com/post/163790039847/everyone-will-not-just`
+	* Related: <https://squareallworthy.tumblr.com/post/163790039847/everyone-will-not-just>
 * Information and Markets:
 	* Explanation
 		* Information as a non-scarce good
@@ -971,19 +971,19 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		contemporary ideas for better notation, and discuss old &
 		discarded methods of writing mathematics.
 	* Discarded Methods
-		* `https://en.wikipedia.org/wiki/Begriffsschrift`
-		* `https://en.wikipedia.org/wiki/Newton%27s_notation#Newton's_notation`
-		* `https://github.com/prathyvsh/notation`
+		* <https://en.wikipedia.org/wiki/Begriffsschrift>
+		* <https://en.wikipedia.org/wiki/Newton%27s_notation#Newton's_notation>
+		* <https://github.com/prathyvsh/notation>
 	* New Notations
 		* General
-			* `https://www.stephenwolfram.com/publications/mathematical-notation-past-future/`
-			* `/usr/local/doc/unread/towards_a_better_notation_for_mathematics_olah_2010.pdf`
+			* <https://www.stephenwolfram.com/publications/mathematical-notation-past-future/>
+			* </usr/local/doc/unread/towards_a_better_notation_for_mathematics_olah_2010.pdf>
 		* Triangle of Power
-			* `https://www.youtube.com/watch?v=sULa9Lc4pck`
-			* `https://math.stackexchange.com/questions/30046/alternative-notation-for-exponents-logs-and-roots`
-			* `http://www.solidangl.es/2015/04/a-radical-new-look-for-logarithms.html`
+			* <https://www.youtube.com/watch?v=sULa9Lc4pck>
+			* <https://math.stackexchange.com/questions/30046/alternative-notation-for-exponents-logs-and-roots>
+			* <http://www.solidangl.es/2015/04/a-radical-new-look-for-logarithms.html>
 	* Read
-		* `/usr/local/doc/unread/notation/notation_as_a_tool_of_thought_iverson_1986.pdf`
+		* </usr/local/doc/unread/notation/notation_as_a_tool_of_thought_iverson_1986.pdf>
 	* Substitution of variables in formulas: order is _bad_ & _wrong_
 * Recommendations
 	* Activities/Movies/Series/Podcasts/Books/Blogposts
@@ -998,21 +998,21 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Learning
 		* Reading textbooks (Natural sciences and engineering)
 			* Mathematics
-				* `https://intelligence.org/research-guide/`
-				* `https://www.ocf.berkeley.edu/~abhishek/chicmath.htm`
-				* `https://math.ucr.edu/home/baez/books.html#math`
+				* <https://intelligence.org/research-guide/>
+				* <https://www.ocf.berkeley.edu/~abhishek/chicmath.htm>
+				* <https://math.ucr.edu/home/baez/books.html#math>
 			* Science
 				* Physics
 					* Feynman Lectures on Physics
-					* `https://www.susanjfowler.com/blog/2016/8/13/so-you-want-to-learn-physics`
-					* `https://www.ocf.berkeley.edu/~abhishek/chicphys.htm`
-					* `https://math.ucr.edu/home/baez/books.html#physics`
+					* <https://www.susanjfowler.com/blog/2016/8/13/so-you-want-to-learn-physics>
+					* <https://www.ocf.berkeley.edu/~abhishek/chicphys.htm>
+					* <https://math.ucr.edu/home/baez/books.html#physics>
 				* Chemistry
 				* Social Sciences
 					* Economics
 				* Life Sciences
 					* Biology
-						* `https://old.reddit.com/r/biology/wiki/faq#Suggestedtextbooks`
+						* <https://old.reddit.com/r/biology/wiki/faq#Suggestedtextbooks>
 						* Campbell Biology
 						* Molecular Biology of the Gene
 						* Molecular Biology of the Cell
@@ -1035,7 +1035,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 						* Evolutionary Psychology (Buss)
 			* Engineering
 				* Computer Science
-					* `https://teachyourselfcs.com/`
+					* <https://teachyourselfcs.com/>
 				* Electrical Engineering
 				* Mechanical Engineering
 				* Chemical Engineering
@@ -1064,7 +1064,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Much More Than You Wanted to Know
 	* Vandwelling
 	* UBI
-		* `https://www.givedirectly.org/basic-income/`
+		* <https://www.givedirectly.org/basic-income/>
 	* Climate Change Impacts
 	* Shipping
 	* The Uyghurs and China
@@ -1081,9 +1081,9 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* This was done already by Anthony Boyles
 * End-of-the-world Bet Calculator
 * Auctioning off Your Body
-	* `https://www.humanmicrobes.org/`
+	* <https://www.humanmicrobes.org/>
 	* Kidney
-		* See `Gary Becker & Julio Jorge Elías (Summer 2007). "Introducing incentives in the market for live and cadaveric organ donations". Journal of Economic Perspectives. 21 (3): 3–24. doi:10.1257/jep.21.3.3. PMID 19728419.`
+		* See: Gary Becker & Julio Jorge Elías (Summer 2007). "Introducing incentives in the market for live and cadaveric organ donations". Journal of Economic Perspectives. 21 (3): 3–24. doi:10.1257/jep.21.3.3. PMID 19728419.
 	* Sperm, Eggs
 	* Plasma/Blood
 * Nuclear Waste FAQ
@@ -1092,7 +1092,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Host images/pdfs/videos/audio files locally (this makes it easier to archive the site via `wget`!)
 	* Use static webpages with minimal javascript, and optimally no external javascript
 	* No CMSs, or SquareSpace, or BlogSpot/WordPress/…
-	* `https://www.gwern.net/Design`
+	* <https://www.gwern.net/Design>
 	* No dynamically loading images for f\*cks sake
 * A list of countries with ratings for how open their borders are
 * Typology of motivations to get into EA
@@ -1273,7 +1273,7 @@ Game. Even those odds likely overstate the number of Players in the world.
 	* Forecasting
 		* Track records
 		* Prediction platforms
-		* Prediction markets (`https://en.wikipedia.org/wiki/Prediction_market`)
+		* Prediction markets <https://en.wikipedia.org/wiki/Prediction_market>
 		* Decision markets
 		* Futarchy
 	* Voting methods
@@ -1345,11 +1345,11 @@ Game. Even those odds likely overstate the number of Players in the world.
 		* Timelessness
 			* Plotinus
 		* Tegmark's Mathematical Universe
-			* `/usr/local/doc/unread/physics/our_mathematical_universe_tegmark_2014.epub`
+			* </usr/local/doc/unread/physics/our_mathematical_universe_tegmark_2014.epub>
 		* Symmetry Theory of Valence
-			* `/usr/local/doc/unread/principia_qualia_johnson_2017.pdf`
+			* </usr/local/doc/unread/principia_qualia_johnson_2017.pdf>
 		* Scott Alexander's Solution to Theodicy
-			* `https://slatestarcodex.com/2015/03/15/answer-to-job/`
+			* <https://slatestarcodex.com/2015/03/15/answer-to-job/>
 	* Explanation
 		* Creation
 		* God
@@ -1429,7 +1429,7 @@ eine kontingente verschmelzung von fast-sein und konkretheit"
 	* Overcoming Bias
 	* hbdchick
 * A wiki for pickup terminology
-	* Does `http://www.pualingo.com` still exist? If not, dig out archived version
+	* Does <http://www.pualingo.com> still exist? If not, dig out archived version
 * Kiwix versions of LessWrong, Alignment Forum, Effective Altruism Forum
 
 Videos
@@ -1658,7 +1658,7 @@ Programming
 * minspantree
 	* implement all algorithms for the minimum spanning tree in a functional programming language
 	* like sml/ocaml
-	* `/usr/local/doc/unread/cs/state_of_the_art_algorithms_for_minimum_spanning_trees_eisner_1997.pdf`
+	* </usr/local/doc/unread/cs/state_of_the_art_algorithms_for_minimum_spanning_trees_eisner_1997.pdf>
 * nenio
 	* a suckless prolog implementation
 	* ISO prolog
@@ -1822,8 +1822,6 @@ Programming
 	* port neo2 to plan9/9front/Haiku OS
 * git
 	* Add heatmap flag for git blame (for recency)
-* WebTeX
-	* Make it able to display `\bigsqcap`, `\bigplus`, `\bigmult`
 * Help administering schelling.pt, it needs it
 * klong
 	* receiving output of shell commands (maybe via pipe?)
@@ -1947,7 +1945,7 @@ Wikipedia Articles
 * Grokking
 * Deep Double Descent
 * French 79
-* Credibility formula (see `https://en.wikipedia.org/wiki/Imdb#Rankings`)
+* Credibility formula (see <https://en.wikipedia.org/wiki/Imdb#Rankings>)
 * Nanosystems: Molecular Machinery Manufacturing and Computation
 * Global Priorities Institute
 * LLD (LLVM linker)
@@ -1955,13 +1953,14 @@ Wikipedia Articles
 * Bounded Agency
 * Pentagon 2023 leaks
 * Devonian Toolkit
-	* `https://www.annualreviews.org/doi/full/10.1146/annurev-ento-011613-162041`
+	* <https://www.annualreviews.org/doi/full/10.1146/annurev-ento-011613-162041>
 * Participation (social choice theory)
 * Banks Set (social choice theory)
 * Hodge Decomposition from combinatorial hodge theory
 * Hyllands theorem
 * Slater's problem
 * Structural Regular Expressions
+* Minimalist conjecture (see [here](https://www.quantamagazine.org/mathematicians-shed-light-on-minimalist-conjecture-20130709/))
 
 ### Improve
 
@@ -1981,7 +1980,7 @@ Wikipedia Articles
 * Use the definition from “Algorithmic Game Theory” of correlated equilibrium in the article Correlated equilibrium, the current explanation uses (but doesn't introduce) s_i
 	* Yeah, the current explanation is barely comprehensible
 * Find Ian Goodfellow's true year of birth
-* Add missing national anthems to `https://en.wikipedia.org/wiki/List_of_national_anthems`
+* Add missing national anthems to <https://en.wikipedia.org/wiki/List_of_national_anthems>
 * Maybe factor out the "Causal Model" page into several pages?
 	* do operator
 	* frontdoor criterion
@@ -2024,8 +2023,6 @@ Wikipedia Articles
 	* Add section on Gibbard's 1978 theorem
 * Mutually Assured Destruction
 	* Add section of Self-Assured Destruction
-* List of Internet forums
-	* Add LessWrong
 
 Lesswrong wiki
 ---------------
@@ -2045,7 +2042,7 @@ Sequences
 
 * LessWrong
 	* Inconsistent Values and Extrapolation
-		* Add `https://www.lesswrong.com/posts/6RjL996E8Dsz3vHPk/two-more-decision-theory-problems-for-humans`
+		* Add <https://www.lesswrong.com/posts/6RjL996E8Dsz3vHPk/two-more-decision-theory-problems-for-humans>
 	* Much More Than You Wanted To Know
 	* Advances in Theoretical Group Rationality
 * EA Forum
@@ -2054,11 +2051,11 @@ Sequences
 Answers
 --------
 
-* Answer with rant on `https://forum.effectivealtruism.org/posts/MrqM9XvJoKvyq6kxT/why-i-m-suss-on-wellbeing-surveys`
-* Answer `https://old.reddit.com/r/slatestarcodex/comments/u3xpn3/effective_altruists_and_worrying_about_nuclear/i4t4u2p/`
-* Answer `https://old.reddit.com/r/slatestarcodex/comments/u3xpn3/effective_altruists_and_worrying_about_nuclear/i4sxf5n/`
-* Answer `https://www.lesswrong.com/posts/pSdxQfbvC5qBBdehq/what-is-the-most-significant-way-you-have-changed-your-mind?commentId=G97DgBgPvWbugkZEd`
-* Answer `https://forum.effectivealtruism.org/posts/aNu3HCGjLCn45EMNp/reward-long-content` Nick Whitaker & salonium
+* Answer with rant on <https://forum.effectivealtruism.org/posts/MrqM9XvJoKvyq6kxT/why-i-m-suss-on-wellbeing-surveys>
+* Answer <https://old.reddit.com/r/slatestarcodex/comments/u3xpn3/effective_altruists_and_worrying_about_nuclear/i4t4u2p/>
+* Answer <https://old.reddit.com/r/slatestarcodex/comments/u3xpn3/effective_altruists_and_worrying_about_nuclear/i4sxf5n/>
+* Answer <https://www.lesswrong.com/posts/pSdxQfbvC5qBBdehq/what-is-the-most-significant-way-you-have-changed-your-mind?commentId=G97DgBgPvWbugkZEd>
+* Answer <https://forum.effectivealtruism.org/posts/aNu3HCGjLCn45EMNp/reward-long-content> Nick Whitaker & salonium
 	*	"“First they ignore you, then they laugh at you, then they fight
 		you, then they fight you half-heartedly, then they’re
 		neutral, then they then they grudgingly say you might have
