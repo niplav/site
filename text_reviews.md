@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-12-30, modified: 2022-12-24, language: english, status: in progress, importance: 3, confidence: opinion*
+*author: niplav, created: 2020-12-30, modified: 2023-07-07, language: english, status: in progress, importance: 3, confidence: opinion*
 
 > __Reading a text is sometimes a big time investment, but people
 don't approach their reading in a structured manner, e.g. by keeping
@@ -209,6 +209,109 @@ goes full memetic immune disorder on the Suttas, and the result is
 just…uninteresting?
 
 __6.5/10__
+
+### What We Owe The Future (William MacAskill, 2022)
+
+Preceded by a [superior book with the same
+topic](https://www.goodreads.com/book/show/50485582-the-precipice);
+this one is sleeker, less filled with random interesting facts, less
+scientific, less exuberant in its prose. I enjoyed the introduction of the
+[SPC framework](https://forum.effectivealtruism.org/topics/spc-framework)
+(though that might be also a flaw, unlike with
+[ITN](https://forum.effectivealtruism.org/topics/itn-framework) I haven't
+even seen anyone else pay lip service to SPC…), found the alleged
+first popular introduction to population axiology cute, and liked the
+chapters on stagnation.
+
+But honestly? I enjoyed the research that led to those chapters
+more than the chapters in the book themselves (especially [Rodriguez
+2019](https://forum.effectivealtruism.org/s/HSA8wsaYiqdt4ouNF/p/pMsnCieusmYqGW26W)
+and [Rodriguez
+2020](https://forum.effectivealtruism.org/posts/GsjmufaebreiaivF7/what-is-the-likelihood-that-civilizational-collapse-would)),
+and I think the team that made The Precipice would've done a nicer job
+at exposition.
+
+Similarly, I was not a huge fan of the chapter on risks from artificial
+intelligence. Too conservative, which might've been warranted before
+GPT-3, but mid-2022? Bad timing to be all "could be soon or bad, or both,
+or not, idk". (Although apparently other reviewers have the opposite
+issue, so perhaps a good compromise was struck).
+
+I am unsure about the value lock-in frame. On the one hand, it's a very
+exact description of what the danger with AI x-risk *really* refers to,
+pin-pointed. But it also invites endless bickering about "who gets to
+control the AIs values" and "democracy" and "social solutions", and the
+*completely separate* issue of stable totalitarianism.
+
+Finally: Who *the hell* decided this was a good way to do endnotes? In
+general the best policy is to [under not circumstances use endnotes, ever,
+__why__](https://entirelyuseless.com/2015/07/11/are-hyperlinks-a-bad-idea/).
+But WWOTF makes it 10x worse: I usually read endnotes,
+because I'm unusually curious and bad at priorization,
+but WWOTF only has ~25% substantive endnotes, with the rest
+being just incomplete references (which can be accessed on [the
+website](https://whatweowethefuture.com/bibliography/))—so I found
+myself flipping back and forth, only to be disappointed most of the
+time. Surely there must be a better way of distinguishing between
+citations and endnotes.
+
+Maybe I should've avoided it: Pop philosophy that is already in my
+own groundwater.
+
+If you're reading this site, read The Precipice instead. (Not a *full*
+condemnation of WWOTF).
+
+__5.5/10__
+
+### Attention Span (Gloria Mark, 2023)
+
+> Curiosity is the drug of the internet.
+
+*—Gloria Mark, “Attention Span” p. 114, 2023*
+
+Read this while researching attention spans, I did not find what I was
+looking for (remaining mostly unconvinced that the reported statistics
+are strong enough to justify the claim that attention spans have been
+declining). Otherwise acceptable; and in some parts genuinely novel to me,
+giving a plethora of ways of measuring attention ([transcranial Doppler
+sonography](https://en.wikipedia.org/wiki/Transcranial_Doppler),
+[functional near-infrared
+spectroscopy](https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy),
+facial [thermography](https://en.wikipedia.org/wiki/Thermography)
+to measure cognitive effort, [blood
+velocity](https://en.wikipedia.org/wiki/Hemodynamics#Velocity)…),
+claims that the Pomodoro technique hasn't been experimentally tested
+(big if true!). Apparently people often *self-interrupt* while on a task,
+which I've noticed myself doing more & more. The Big 5 relate to how
+humans perform tasks:
+
+> Those who score high in Neuroticism in personality tests also tend
+to perform worse on selective attention tasks where they have to pay
+attention to some things and ignore distracting stimuli,²⁰ much like
+the Stroop task.
+
+*—Gloria Mark, “Attention Span” p. 154, 2023*
+
+> We expected that conscientious people would be more likely to be
+continuous email checkers, and that is exactly what we found. In fact,
+it explained their email checking behavior to a striking extent […]
+we found that people who score higher on the personality trait
+of Openness perform better in environments with interruptions.
+
+*—Gloria Mark, “Attention Span” p. 156, 2023*
+
+This leads to conscientious people being more exhausted if possible
+low-effort interruptions are taken away from them, they just work
+continuously until exhaustion.
+
+Mark's background in art gives some entertaining anecdotes and
+statistics, I especially enjoyed learning about [dialectical
+montage](https://en.wikipedia.org/wiki/Soviet_montage_theory) and
+decreasing shot-lengths in movies, series and advertisements.
+
+Apparently people want to use this as a self-help book‽ Bizarre.
+
+__6/10__
 
 LessWrong Yearly Reviews
 -------------------------

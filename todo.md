@@ -2018,11 +2018,11 @@ Wikipedia Articles
 	* Add mathematical formula/pseudocode/Python algorithm to the article
 * MDMA
 	* Add that people who consume MDMA grind their teeth, and a common method used to assuage that is to chew chewing gum during while rolling
-* Move [this comparison table](https://en.wikipedia.org/wiki/Kemeny%E2%80%93Young_method#Comparison_table) into it's own article.
 * Gibbard's Theorem
 	* Add section on Gibbard's 1978 theorem
 * Mutually Assured Destruction
 	* Add section of Self-Assured Destruction
+* Redirect <https://en.wikipedia.org/wiki/Kemeny%E2%80%93Young_method#Comparison_table> and <https://en.wikipedia.org/wiki/Schulze_method#Comparison_table> to <https://en.wikipedia.org/wiki/Comparison_of_electoral_systems#Compliance_of_selected_single-winner_methods>
 
 Lesswrong wiki
 ---------------

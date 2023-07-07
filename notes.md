@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2023-06-16, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2023-07-07, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2050,9 +2050,47 @@ Example:
 All Things People Have Written About Lumenators
 ------------------------------------------------
 
+* [YOU NEED MORE LUMENS (David Chapman, 2015)](https://meaningness.com/sad-light-lumens)
 * [How to build your own Lumenator (Eliezer Yudkowsky, 2016)](https://arbital.com/p/lumenators/)
+* [MORE LUX: light bars for SAD (David Chapman, 2019)](https://meaningness.com/sad-light-led-lux)
 * [Your room can be as bright as the outdoors (Ben Kuhn, 2019)](https://www.benkuhn.net/lux/)
 * [How to Build a Lumenator (Raemon 2018)](https://www.lesswrong.com/posts/hC2NFsuf5anuGadFm/how-to-build-a-lumenator)
+* [A new option for building lumenators (Alex Altair, 2021)](https://www.lesswrong.com/posts/ZAMA4y6SbtFCTjjY4/a-new-option-for-building-lumenators)
 * [How to Lumenate (UK Edition) (chanamessinger, 2022)](https://www.lesswrong.com/posts/xSfn84q3vdotALHuB/how-to-lumenate-uk-edition)
 * [Guide to rationalist interior decorating (mingyuan 2023)](https://www.lesswrong.com/posts/HJNtrNHf688FoHsHM/guide-to-rationalist-interior-decorating#Lumenators)
 * [Shortform on cheap lumenator (Angelinahli 2023)](https://www.lesswrong.com/posts/R6ByTTv9dpnjNA45C/angelinahli-s-shortform?commentId=hBPd4HGxRLGzkEGsj)
+
+Kaldor-Hicks Worsenings
+------------------------
+
+There are
+[Pareto-improvements](https://en.wikipedia.org/wiki/Pareto_efficiency):
+everyone is made better (or equally well) off by their own
+standards. There are, similarly, Pareto-worsenings: Everyone is made
+*worse* off by their own standard, or their welfare is unchanged.
+
+Then there are [Kaldor-Hicks
+improvements](https://en.wikipedia.org/wiki/Kaldor-Hicks_efficiency),
+which happen if one e.g. reallocates the available goods so that
+the better-off could compensate the now worse-off to create a Pareto
+improvement. This compensation need not occur, it needs to be merely
+possible.
+
+Now can there be a Kaldor-Hicks-*worsening*?
+
+The naive version (everyone is worse (or equally well) off, and there
+is no way of making a single person better off through redistribution)
+seems too strong, there is probably always a redistribution that gives
+the available resources to a single agent.
+
+A simple negation of the criteria, then perhaps makes more sense: A
+change is a Kaldor-Hicks-worsening if and only if everyone is worse (or
+equally well) off and there is no way of creating a Pareto-improvement
+through reallocation.
+
+This implies a anti-Kaldor-Hicks-worsening: A change makes everyone worse
+off, *but* there is some reallocation that creates a Pareto improvement.
+
+Example: We have a Sadist and a Masochist. The Masochist starts hurting
+the Sadist, thus creating opportunity cost for them both. Switching the
+roles creates a Pareto improvement.
