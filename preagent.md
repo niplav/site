@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav & Alexander Gietelink Oldenziel, created: 2023-05-24, modified: 2023-07-01, language: english, status: draft, importance: 9, confidence: likely*
+*author: niplav & Alexander Gietelink Oldenziel, created: 2023-05-24, modified: 2023-07-06, language: english, status: draft, importance: 9, confidence: likely*
 
 > __Not sure yet.__
 
@@ -9,9 +9,8 @@ Pre-Agent Theory
 ==================
 
 In 1947, John von Neumann and Oskar Morgenstern published their book
-Theory of Games and Economic Behavior. This made a lot of people very
-angry and has been widely regarded as a bad move.<!--TODO: figure out
-exact Douglas Adams quote?-->
+Theory of Games and Economic Behavior. This has made a lot of people
+very angry and has been widely regarded as a bad move.
 
 The theorem is deceptively simple. Given a set of options `$\Omega$`
 (not further elaborated on), and a preference relation on lotteries
