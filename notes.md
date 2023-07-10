@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2023-07-07, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2023-07-10, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1915,7 +1915,8 @@ not work.
 	<li> ☐ requires a <a href="https://en.wikipedia.org/wiki/Dynamic_stochastic_general_equilibrium">DSGE<a> model with 200 free parameters to perfectly track reality perfectly</li>
 	</ul>
 </li>
-<!--<li>☐ Furthermore, all predictions your model has made look like this:</li>TODO: find images here-->
+<li>☐ Furthermore, all predictions your model has made look like this:</li>
+<img src="./img/checklist/outlooks.jpg"/>
 <li>Your policy would:
 	<ul style="list-style: none;">
 	<li> ☐ disincentivize good things</li>
