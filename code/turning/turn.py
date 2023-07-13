@@ -202,11 +202,17 @@ def all_nonref_directed_graphs(n):
 				newgraphs.append(gnew)
 	return newgraphs
 
-def map_5_graphs(f, reflexive=True):
+def map_5_graphs(f, reflexive=True, resume_at=None):
 	n=5
 	saved=dict()
 	graphs=all_directed_graphs(n-1)
 	i=1
+
+	if resume_at==None:
+		resume=True
+	else:
+		resume=False
+
 	for g in graphs:
 		g.add_node(n, ind=n)
 		if reflexive==True:
@@ -220,7 +226,11 @@ def map_5_graphs(f, reflexive=True):
 					gnew.add_edge(n, element)
 				for element in fromsubset:
 					gnew.add_edge(element, n)
-				f(gnew)
+				if set(gnew.edges).issubset(set(resume_at.edges)) and set(resume_at.edges).issubset(set(gnew.edges)):
+					resume=True
+					print("success!")
+				if resume==True:
+					f(gnew)
 
 smallworld=['a', 'b', 'c']
 smallgraph=nx.DiGraph()

@@ -4,7 +4,7 @@ prodfile='/home/niplav/proj/site/data/productivity.csv'
 creafile='/home/niplav/proj/site/data/creativity.csv'
 
 thisdate=`{date --iso-8601}
-deadline=`{date --date'='$thisdate'T20:00' '+%s'}
+deadline=`{date --date'='$thisdate'T22:00' '+%s'}
 now=`{date '+%s'}
 nowiso=`{date --iso-8601'=seconds'}
 

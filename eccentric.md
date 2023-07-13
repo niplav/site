@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-20, modified: 2023-05-24, language: english, status: notes, importance: 3, confidence: remote*
+*author: niplav, created: 2022-07-20, modified: 2023-07-13, language: english, status: notes, importance: 3, confidence: remote*
 
 > __What I might do if I magically got hold of a very large amount of
 money, and couldn't spend it maximally altruistically.__
@@ -10,18 +10,18 @@ If I Were An Eccentric Trillionaire
 =====================================
 
 I sometimes like to engage in idle speculation. One of those speculations
-is: “If someone came up to me and told me that they would give me a lot
+is: "If someone came up to me and told me that they would give me a lot
 of money, but only under the condition that I would spend most of it on
 unconventional and interesting projects, and I was forbidden to give it to
 Effective Altruist organizations narrowly defined, what would I do? Not
-forbidding the projects from having positive consequences accidentally,
-of course.”
+disallowing the projects from having positive consequences accidentally,
+of course."
 
-The following is a result of this speculation in particular. Many of
-the ideas might be of questionable ethicality; I hope it's clear I would
-think a bit more about them if I were to actually put them into practice
-(which I won't, since I don't have that type of money, nor am I likely
-to get hold of it anytime soon).
+The following is a result of this speculation. Many of the ideas might
+be of questionable morality; I hope it's clear I would think a bit more
+about them if I were to actually put them into practice (which I won't,
+since I don't have that type of money, nor am I likely to get hold of
+it myself anytime soon).
 
 Lots of these ideas aren't mine, and I have tried to attribute them
 wherever I could find the source.
@@ -29,12 +29,39 @@ wherever I could find the source.
 Culture
 ---------
 
-* Snowball fights: I remember having *a lot of* fun with snowball fights during breaks in school, but I haven't seen them happen anywhere outside since leaving school.
+* __Snowball fights__: I remember having *a lot of* fun with snowball fights
+during breaks in school, but I haven't seen them happen anywhere outside
+since leaving school. People sign up for participating in (moderated)
+snowball fights, and are notified on weekends with especially good snow.
+Large open grassy fields are rented (e.g. a stadium), and separated
+into at least 2 parts, each parts gets a large pile of fresh snow (to
+minimize the chance of stones in snowballs). People are encouraged to
+bring protective gear to allow for rougher fighting. If one is to allow
+for physical encounters, one'd need to group by fitness/size.
 
 Language
 ---------
 
-* Save dying languages
+* __Save dying languages__: There are ~6900 living
+languages in the world, but the number of speakers for
+languages is heavy-tailed: ~500 of those languages [are nearly
+extinct](https://en.wikipedia.org/wiki/Lists_of_endangered_languages#Discussion),
+likely due to very few and elderly native speakers. Extinct languages
+are a loss of the cultural heritage of humankind, so just as we want to
+save endangered species or artworks from their destruction, it would
+be cool to save nearly extinct languages from their demise. This
+is not just hypothetical: From 2013 to 2023, [19 languages have
+died](https://en.wikipedia.org/wiki/List_of_languages_by_time_of_extinction#21st_century)<!--TODO:
+has rate of language death sped up? Read around to figure this out-->. To
+do this, we employ linguists to learn each of the the endangered languages
+and practice it. 10 linguists per language should be enough, so we
+employ 5000 of them at ~\\$50k a year, for 4 years, to spend learning the
+language full-time, which yields us expenses of ~\\$1bio. Then say that
+we continue employing them part-time for 20 years to continue practicing
+until we've found a way to permanently store the languages, for example
+by training large language models (text and audio) on those languages;
+this would give us (at \\$10k salary a year) another \\$1bio. in expenses,
+plus whatever cost the preservation procedure entails.
 * Raise children bilingual, first language Lojban
 * Philosophically Solving Language
 	* Via Conlangs
@@ -62,7 +89,7 @@ Science
 	* Replicate the work at the [semalab](https://semalab.arizona.edu/) that uses ultrasound brain stimulation for meditation enhancement.
 * [Breeding Superintelligent Octopuses](https://www.lesswrong.com/posts/DaFG3GKsBrsAnAERR/save-humanity-breed-sapient-octopuses)
 * Cloning Extinct Animals
-	* In order: Passenger Pigeons, Thylacines, Dodos, Wooly Mammoths, Neanderthals, John von Neumann, Srinivasa Ramanujan…
+	* In order: Passenger Pigeons, Thylacines, Dodos, Wooly Mammoths, Neanderthals, [John von Neumann](https://fantasticanachronism.com/2021/03/23/two-paths-to-the-future/), Srinivasa Ramanujan…
 * Masturbation Research
 * Explorables for Causal Inference
 * Find drugs that cause short-term memory loss with ideally no side effects (useful for blinding in scientific studies)

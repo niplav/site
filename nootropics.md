@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2023-07-05, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2023-01-06, modified: 2023-07-13, language: english, status: notes, importance: 3, confidence: log*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
 decided to log my nootropics usage and its effects.__
@@ -23,29 +23,51 @@ You could put randomized substances in your body and find out what they
 do by recording the outcomes. That's what I did.
 
 <table>
-<tbody>
+<thead>
 	<tr>
-		<td></td>
-		<td>Log-score of predictions of substance</td>
-		<td>Absorption effect size d (λ, p, σ increase)</td>
-		<td>Mindfulness effect size d (λ, p, σ increase)</td>
-		<td>Productivity effect size d (λ, p, σ increase)</td>
-		<td>Creativity effect size d (λ, p, σ increase)</td>
-		<td>Happiness effect size d (λ, p, σ increase)</td>
-		<td>Contentment effect size d (λ, p, σ increase)</td>
-		<td>Relaxation effect size d (λ, p, σ increase)</td>
-		<td>Chastity effect size d (λ, p, σ increase)</td>
+		<td>Value tracked</td>
+		<td>Effect size d (λ, p, σ increase)</td>
 	</tr>
 	<tr>
+		<td></td>
 		<td>200mg Caffeine (n=1, m=50)</td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Log-score of predictions of substance</td>
 		<td>-0.6</td>
+	</tr>
+	<tr>
+		<td>Absorption</td>
 		<td>0.61 (λ=13.3, p=0.00017, -0.072)</td>
+	</tr>
+	<tr>
+		<td>Mindfulness</td>
 		<td>0.58 (λ=11.8, p=0.0007, 0.021)</td>
+	</tr>
+	<tr>
+		<td>Productivity</td>
 		<td>0.58 (λ=28.9, p=1.3<sup>-12</sup>, 0.11)</td>
+	</tr>
+	<tr>
+		<td>Creativity</td>
 		<td>0.38 (λ=32.9, p=5.2<sup>-15</sup>, 0.09)</td>
+	</tr>
+	<tr>
+		<td>Happiness</td>
 		<td>0.27 (λ=10.6, p=0.002, 0.3)</td>
+	</tr>
+	<tr>
+		<td>Contentment</td>
 		<td>0.13 (λ=7.66, p=0.02, 0.47)</td>
+	</tr>
+	<tr>
+		<td>Relaxation</td>
 		<td>-0.11 (λ=5, p=0.15, 0.42)</td>
+	</tr>
+	<tr>
+		<td>Chastity</td>
 		<td>-0.14 (λ=1.9, p=0.64, 0.11)</td>
 	</tr>
 </tbody>

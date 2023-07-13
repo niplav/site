@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-06-15, modified: 2023-06-22, language: english, status: notes, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-15, modified: 2023-07-12, language: english, status: notes, importance: 1, confidence: log*
 
 > __I recently got the feeling that tracking my exercise might be vaguely
 > useful. This is my attempt.__
@@ -4326,6 +4326,10 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 
 * 30 minutes jogging
 
-### 2023-06-22T19:05-2023-05-13T19:40
+### 2023-06-22T19:05-2023-06-22T19:40
+
+* 35 minutes jogging
+
+### 2023-07-11T20:05-2023-06-11T19:50
 
 * 35 minutes jogging

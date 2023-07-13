@@ -47,8 +47,8 @@ Writing
 
 #### Quantified Self
 
-* [Types & Methods of Data Collection I Use](./data.html)
 * [Nootropics](./nootropics.html)
+* [Types & Methods of Data Collection I Use](./data.html)
 
 #### Practical
 

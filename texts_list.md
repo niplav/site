@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-07-06, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-07-13, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,19 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [A Dialogue on Suffering Subroutines (Brian Tomasik, 2017)](https://longtermrisk.org/a-dialogue-on-suffering-subroutines/)
+* [Evolution as Opportunist (Wynne Parry, 2013)](https://www.quantamagazine.org/evolutionary-modeling-study-provides-new-evidence-for-exaptation-20130904/)
+* [Next Steps in Invertebrate Welfare, Part 3: Understanding Attitudes and Possibilities  (Daniela R. Waldhorn, 2019)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/3EabJKHtXkEFiptPm)
+* [Debating the Evolution of Multicellularity (Peter Byrne, 2013)](https://www.quantamagazine.org/exploring-the-evolution-of-multicellularity-with-cassandra-extavour-20130925/)
+* [Someone should probably start a bright home lighting company (lincolnquirk, 2019)](http://www.lincolnquirk.com/2019/11/26/lumenator.html)
+* [Together and Alone, Closing the Prime Gap (Erica Klarreich, 2013)](https://www.quantamagazine.org/mathematicians-team-up-on-twin-primes-conjecture-20131119/)
+* [Next Steps in Invertebrate Welfare, Part 2: Possible Interventions (Daniela R. Waldhorn, 2019)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/JR4azSe4Yr2qdBBwt)
+* [A Jewel at the Heart of Quantum Physics (Natalie Wolchover, 2013)](https://www.quantamagazine.org/physicists-discover-geometry-underlying-particle-physics-20130917/)
+* [The Future Fabric of Data Analysis (Jennifer Ouellette, 2013)](https://www.quantamagazine.org/the-future-fabric-of-data-analysis-20131009/)
+* [Blanchard's Dangerous Idea and the Plight of the Lucid Crossdreamer (Zack M. Davis, 2023)](http://unremediatedgender.space/2023/Jul/blanchards-dangerous-idea-and-the-plight-of-the-lucid-crossdreamer/)
+* [Kaldor–Hicks efficiency (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Kaldor-Hicks_efficiency)
+* [Förderschule (Deutschland) (Deutsche Wikipedia, 2023)](https://de.wikipedia.org/wiki/F%C3%B6rderschule_(Deutschland))
+* [Leichte Sprache (Landesbildungsserver Baden-Württemberg, 2021)](https://www.schule-bw.de/themen-und-impulse/ideenpool-lesen/grundschule/grundschule12/methoden_konzepte_projekte/lesen-im-unterricht/leichtesprache)
 * [Ibis redibis nunquam per bella peribis (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Ibis_redibis_nunquam_per_bella_peribis)
 * [Mathematicians Shed Light on Minimalist Conjecture (Erica Klarreich, 2013)](https://www.quantamagazine.org/mathematicians-shed-light-on-minimalist-conjecture-20130709/)
 * [Crystal Healing — or the Origins of Expected Utility Maximizers (Alexander Gietelink Oldenziel/Kaarel/RP, 2023)](https://www.lesswrong.com/posts/tiftX2exZbrc3pNJt/)

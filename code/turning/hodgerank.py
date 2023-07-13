@@ -2,14 +2,6 @@ import numpy as np
 import networkx as nx
 import itertools as it
 
-prefs1={0:np.array([5,3]),1:np.array([4,5]),2:np.array([3, np.nan]),3:np.array([5,2])}
-prefs2={0:np.array([5,3]),1:np.array([4,5]),2:np.array([3, 1]),3:np.array([5,2])}
-prefs3={0:np.array([4,np.nan,3]),1:np.array([3,4,np.nan]),2:np.array([np.nan, 3,4])}
-prefs4={0:np.array([5,np.nan,3]),1:np.array([3,4,np.nan]),2:np.array([np.nan, 3,4])}
-prefs5={0:np.array([5,np.nan,3]),1:np.array([3,4,np.nan]),2:np.array([1, 3,4])}
-prefs6={0:np.array([1,1]),1:np.array([1,1]),2:np.array([1,1])}
-prefs7={0:np.array([5,3]),1:np.array([4,5]),2:np.array([3, np.nan]),3:np.array([5,2]),4:np.array([np.nan,2])}
-
 def positive_edges(prefs):
 	edges=[]
 	for e in it.combinations(prefs.keys(), 2):
@@ -39,15 +31,19 @@ def decompose(g):
 	f=np.array([g[e[0]][e[1]]['weight'] for e in g.edges])
 	W=np.diag([g[e[0]][e[1]]['n'] for e in g.edges])
 
-	origins=np.zeros((len(g.edges), len(g.nodes)))
+	idx=dict()
+	nodes=list(g.nodes)
+	for i in range(0, len(nodes)):
+		idx[nodes[i]]=i
 
+	origins=np.zeros((len(g.edges), len(g.nodes)))
 	c=0
 	for e in g.edges:
 		sign=np.sign(g[e[0]][e[1]]['weight'])
 		if np.isnan(sign):
 			sign=0
-		origins[c][e[0]]=sign*-1
-		origins[c][e[1]]=sign
+		origins[c][idx[e[0]]]=sign*-1
+		origins[c][idx[e[1]]]=sign
 		c=c+1
 
 	try:
@@ -55,7 +51,12 @@ def decompose(g):
 	except LinAlgError:
 		s=np.zeros(len(list(g.nodes)))
 
-	return s,f,W,origins
+	values=dict()
+
+	for option in idx.keys():
+		values[option]=s[idx[option]]
+
+	return values
 
 def hodgerank(prefs):
 	g=prefgraph(prefs)

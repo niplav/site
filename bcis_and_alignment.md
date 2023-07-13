@@ -143,6 +143,8 @@ Resources from this comment:
 https://www.lesswrong.com/posts/rpRsksjrBXEDJuHHy/brain-computer-interfaces-and-ai-alignment?commentId=t9n35ss9nhW2gJBg5
 -->
 
+<!--TODO: useful for whole brain emulation-->
+
 <!-- Additional pro-argument: Chinchilla scaling laws imply that info
 about human values is more important.  Since we relatively lack info
 about human values vs. general training data, BCIs supply those.-->

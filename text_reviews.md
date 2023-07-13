@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-12-30, modified: 2023-07-07, language: english, status: in progress, importance: 3, confidence: opinion*
+*author: niplav, created: 2020-12-30, modified: 2023-07-13, language: english, status: in progress, importance: 3, confidence: opinion*
 
 > __Reading a text is sometimes a big time investment, but people
 don't approach their reading in a structured manner, e.g. by keeping
@@ -244,7 +244,7 @@ control the AIs values" and "democracy" and "social solutions", and the
 *completely separate* issue of stable totalitarianism.
 
 Finally: Who *the hell* decided this was a good way to do endnotes? In
-general the best policy is to [under not circumstances use endnotes, ever,
+general the best policy is to [under no circumstances use endnotes, ever,
 __why__](https://entirelyuseless.com/2015/07/11/are-hyperlinks-a-bad-idea/).
 But WWOTF makes it 10x worse: I usually read endnotes,
 because I'm unusually curious and bad at priorization,
@@ -311,7 +311,9 @@ decreasing shot-lengths in movies, series and advertisements.
 
 Apparently people want to use this as a self-help book‽ Bizarre.
 
-__6/10__
+Satisfactory.
+
+__6.5/10__
 
 LessWrong Yearly Reviews
 -------------------------
