@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-03-04, modified: 2023-07-01, language: english, status: notes, importance: 8, confidence: likely*
+*author: niplav, created: 2022-03-04, modified: 2023-07-13, language: english, status: notes, importance: 8, confidence: likely*
 
 > __Representing inconsistent preferences with specific mathematical
 structures can clarify thoughts about how to make those preferences
@@ -715,6 +715,30 @@ We can now try to plot this:
 		* whether it's singular
 		* symmetries
 -->
+
+#### Number of Preserved Inclusion-Maximal Consistent Subgraphs for `$\mathcal{G}_n$`
+
+	import pandas as pd
+	df=pd.read_csv('./preservations.csv', header=None)
+	>>> df.groupby(0).describe()
+	            1                                                                  2
+	        count      mean       std       min       25%  50%  75%  max       count      mean       std  min  25%  50%  75%  max
+	0
+	0         1.0  1.000000       NaN  1.000000  1.000000  1.0  1.0  1.0         1.0  1.000000       NaN  1.0  1.0  1.0  1.0  1.0
+	1         2.0  1.000000  0.000000  1.000000  1.000000  1.0  1.0  1.0         2.0  1.000000  0.000000  1.0  1.0  1.0  1.0  1.0
+	2        16.0  1.000000  0.000000  1.000000  1.000000  1.0  1.0  1.0        16.0  1.500000  0.516398  1.0  1.0  1.5  2.0  2.0
+	3       512.0  0.989583  0.058054  0.666667  1.000000  1.0  1.0  1.0       512.0  2.062500  0.496564  1.0  2.0  2.0  2.0  3.0
+	4     65536.0  0.966764  0.091617  0.666667  1.000000  1.0  1.0  1.0     65536.0  2.837891  0.657808  1.0  2.0  3.0  3.0  5.0
+	5  10499314.0  0.939655  0.105763  0.500000  0.833333  1.0  1.0  1.0  10499314.0  3.846478  0.878092  1.0  3.0  4.0  4.0  8.0
+	>>> df.loc[df[1]==1.0].groupby(0).count()
+	         1        2
+	0
+	0        1        1
+	1        2        2
+	2       16       16
+	3      496      496
+	4    57728    57728
+	5  7803263  7803263
 
 Encoding Inconsistencies
 ------------------------

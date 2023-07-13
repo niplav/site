@@ -24,7 +24,7 @@ July 2023
 * [Notes](./notes.html)
 	* [Kaldor-Hicks Worsenings](./notes.html#KaldorHicks_Worsenings)
 	* [All Things People Have Written About Lumenators](./notes.html#All_Things_People_Have_Written_About_Lumenators)
-* [Book Reviews](./text_reviews#Book_Reviews)
+* [Book Reviews](./text_reviews.html#Book_Reviews)
 	* [What We Owe The Future (William MacAskill, 2022)](./text_reviews.html#What_We_Owe_The_Future_William_MacAskill_2022)
 	* [Attention Span (Gloria Mark, 2023)](./text_reviews.html#Attention_Span_Gloria_Mark_2023)
 

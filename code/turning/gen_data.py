@@ -3,9 +3,6 @@ import networkx as nx
 
 import turn
 
-confusions=open('./confusions_fast.csv', mode='w', buffering=1)
-preservations=open('./subgraphs_fast.csv', mode='w', buffering=1)
-
 def subgraph_summary(g, subgraphs, turnings):
 	overall_preservation=0
 	nsubgraphs=len(subgraphs)
@@ -28,24 +25,20 @@ def write_summary(g):
 	subgraphs=turn.maximal_consistent_subgraphs(g)
 	subgraph_summary(g, subgraphs, turnings)
 
-for i in range(0,5):
-	graphs=turn.all_directed_graphs(i)
-	for g in graphs:
-		write_summary(g)
+confusions=open('./confusions_fast.csv', mode='w', buffering=1)
+preservations=open('./subgraphs_fast.csv', mode='w', buffering=1)
 
-confusions.close()
-preservations.close()
+#for i in range(0,5):
+#	graphs=turn.all_directed_graphs(i)
+#	for g in graphs:
+#		write_summary(g)
 
-confusions=open('./confusions_fast.csv', mode='a', buffering=1)
-preservations=open('./subgraphs_fast.csv', mode='a', buffering=1)
+last=nx.DiGraph()
+for i in range(1,5):
+	last.add_node(i, ind=i+1)
+last.add_edges_from([(1,2), (1,5), (2,4), (4,3), (5,4)])
 
-turn.map_5_graphs(write_summary)
-
-confusions.close()
-preservations.close()
-
-confusions=open('./confusions_fast.csv', mode='a', buffering=1)
-preservations=open('./subgraphs_fast.csv', mode='a', buffering=1)
+turn.map_5_graphs(write_summary, resume_at=last)
 
 lim=16
 samples=65536
