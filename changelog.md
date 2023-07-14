@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2023-07-07, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2023-07-14, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -24,6 +24,7 @@ July 2023
 * [Notes](./notes.html)
 	* [Kaldor-Hicks Worsenings](./notes.html#KaldorHicks_Worsenings)
 	* [All Things People Have Written About Lumenators](./notes.html#All_Things_People_Have_Written_About_Lumenators)
+	* [Does Recent Masturbation Decrease Meditation Quality?](./notes.html#Does_Recent_Masturbation_Decrease_Meditation_Quality)
 * [Book Reviews](./text_reviews.html#Book_Reviews)
 	* [What We Owe The Future (William MacAskill, 2022)](./text_reviews.html#What_We_Owe_The_Future_William_MacAskill_2022)
 	* [Attention Span (Gloria Mark, 2023)](./text_reviews.html#Attention_Span_Gloria_Mark_2023)

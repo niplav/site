@@ -464,6 +464,8 @@ but rather cycles).
 The Author
 ----------
 
+Who I am is not terribly important.
+
 ### Pronouns
 
 I'm most happy with they/them.

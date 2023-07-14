@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2023-07-12, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2023-07-14, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2153,3 +2153,102 @@ off, *but* there is some reallocation that creates a Pareto improvement.
 Example: We have a Sadist and a Masochist. The Masochist starts hurting
 the Sadist, thus creating opportunity cost for them both. Switching the
 roles creates a Pareto improvement.
+
+Does Recent Masturbation Decrease Meditation Quality?
+------------------------------------------------------
+
+Probably not<sub>75%</sub>.<!--TODO: image of dril tweet?--> Correlations
+between meditation quality and time since last masturbation are generally
+<0.1, and sometimes negative.
+
+There is some received wisdom that ejaculation and masturbation
+in particular decreases meditation quality: The retreats of
+[dhamma.org](http://www.dhamma.org/en/) in the tradition of S.N. Goenka
+forbid any sexual activity, and [Taoist sexual practices recommend semen
+retention](https://en.wikipedia.org/wiki/Taoist_sexual_practices#Male_control_of_ejaculation).
+Since I track both [my meditations](./data.html#Meditation) and
+[masturbations](./data.html#Masturbation), I can check whether this is
+observationally true. Of course with observational data there can be
+many confounders, but such data may still point to possible experimental
+studies.
+
+First, I load both meditation data and masturbation data (using my
+loading code from [here](./code/experiments/load.py)):
+
+	>>> meditations=get_meditations()
+	>>> masturbations=get_masturbations()
+
+Since I only started tracking my masturbations on 2021-01-15, I have to
+filter out all meditation I did before that:
+
+	tohu=masturbations['datetime'].min()
+	meditations=meditations.loc[meditations['meditation_start']>tohu]
+
+And then I merge `meditations` and `masturbations` so that each meditation
+is relation to the masturbation last before it:
+
+	meditations=meditations.sort_values('meditation_start')
+	combined=pd.merge_asof(meditations, masturbations, left_on='meditation_start', right_on='datetime', direction='backward')
+	combined['diff']=combined['meditation_start']-combined['datetime']
+
+All hail `merge_asof`!<!--TOOO: meme with Elmo?-->
+
+Just to check whether the difference computed is the right one, I do a
+quick sanity check:
+
+	>>> combined['diff'].describe()
+	count                         1462
+	mean     3 days 21:46:44.564929548
+	std      6 days 10:27:57.403873207
+	min         0 days 00:03:45.389000
+	25%         0 days 16:00:47.628250
+	50%         1 days 12:27:33.874500
+	75%         3 days 14:14:14.750500
+	max        39 days 09:24:06.877000
+	Name: diff, dtype: object
+
+And now I can simply compute the correlation with time since last
+masturbation and concentration & mindfulness during meditation:
+
+	>>> combined[['mindfulness_rating', 'concentration_rating', 'diff']].corr(numeric_only=False)
+	                      mindfulness_rating  concentration_rating      diff
+	mindfulness_rating              1.000000              0.687853  0.088458
+	concentration_rating            0.687853              1.000000 -0.049699
+	diff                            0.088458             -0.049699  1.000000
+
+As one can see, the correlation between time since last masturbation
+and concentration/mindfulness are weak and contradictory, and I
+weakly conclude that masturbation does not influence meditation quality
+noticeably in practice regimes like mine. One might criticize my analysis
+for not including periods of long abstinence from ejaculation, which
+I guess is fair. So we can simply restrict the dataset to meditations
+4 or more days after the last masturbation. We still have n=329, which
+is appreciable.
+
+	>>> combined_long=combined.loc[combined['diff']>pd.Timedelta('4d')]
+	>>> combined_long['diff'].describe()
+	count                           329
+	mean     12 days 19:50:39.986796352
+	std       8 days 20:16:12.256869649
+	min          4 days 01:15:13.941000
+	25%          6 days 09:45:24.187000
+	50%          9 days 21:45:40.422000
+	75%         14 days 12:50:55.863000
+	max         39 days 09:24:06.877000
+	Name: diff, dtype: object
+	>>> combined_long[['mindfulness_rating', 'concentration_rating', 'diff']].corr(numeric_only=False)
+	                      mindfulness_rating  concentration_rating      diff
+	mindfulness_rating              1.000000              0.542909  0.169900
+	concentration_rating            0.542909              1.000000 -0.040382
+	diff                            0.169900             -0.040382  1.000000
+
+The correlation of ≅0.17 of abstinence-time with concentration is
+still not strong enough to convince me, but perhaps points in some
+interesting direction.
+
+I'd like someone to do an experimental analysis on this (keeping
+a strict meditation schedule and randomizing 2-week pairs for
+masturbation/abstinence), since the common wisdowm is so widespread.
+
+But I won't do it in the forseeable future, since other experiments have
+higher priority.
