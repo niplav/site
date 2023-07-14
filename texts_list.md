@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-07-13, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-07-14, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,9 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Why do organisms feel both suffering and happiness? (Brian Tomasik, 2018)](https://reducing-suffering.org/why-organisms-feel-both-suffering-and-happiness/)
+* [Hammurabi (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Hammurabi)
+* [Our Bodies, Our Data (Emily Singer, 2013)](https://www.quantamagazine.org/biology-confronts-data-complexity-20131007/)
 * [A Dialogue on Suffering Subroutines (Brian Tomasik, 2017)](https://longtermrisk.org/a-dialogue-on-suffering-subroutines/)
 * [Evolution as Opportunist (Wynne Parry, 2013)](https://www.quantamagazine.org/evolutionary-modeling-study-provides-new-evidence-for-exaptation-20130904/)
 * [Next Steps in Invertebrate Welfare, Part 3: Understanding Attitudes and Possibilities  (Daniela R. Waldhorn, 2019)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/3EabJKHtXkEFiptPm)

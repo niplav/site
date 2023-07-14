@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2023-07-13, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2023-01-06, modified: 2023-07-14, language: english, status: notes, importance: 3, confidence: log*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
 decided to log my nootropics usage and its effects.__
@@ -35,40 +35,56 @@ do by recording the outcomes. That's what I did.
 </thead>
 <tbody>
 	<tr>
-		<td>Log-score of predictions of substance</td>
+		<td>Log-score of substance prediction<sup><a href="#fn1" rel="footnote">1</a></sup></td>
 		<td>-0.6</td>
 	</tr>
 	<tr>
-		<td>Absorption</td>
+		<td>Absorption<sup><a href="#fn1" rel="footnote">1</a></sup></td>
 		<td>0.61 (λ=13.3, p=0.00017, -0.072)</td>
 	</tr>
 	<tr>
-		<td>Mindfulness</td>
+		<td>Mindfulness<sup><a href="#fn1" rel="footnote">1</a></sup></td>
 		<td>0.58 (λ=11.8, p=0.0007, 0.021)</td>
 	</tr>
 	<tr>
-		<td>Productivity</td>
+		<td>Productivity<sup><a href="#fn1" rel="footnote">1</a></sup></td>
 		<td>0.58 (λ=28.9, p=1.3<sup>-12</sup>, 0.11)</td>
 	</tr>
 	<tr>
-		<td>Creativity</td>
+		<td>Creativity<sup><a href="#fn1" rel="footnote">1</a></sup></td>
 		<td>0.38 (λ=32.9, p=5.2<sup>-15</sup>, 0.09)</td>
 	</tr>
 	<tr>
-		<td>Happiness</td>
+		<td>Happiness<sup><a href="#fn1" rel="footnote">1</a></sup></td>
 		<td>0.27 (λ=10.6, p=0.002, 0.3)</td>
 	</tr>
 	<tr>
-		<td>Contentment</td>
+		<td>Contentment<sup><a href="#fn1" rel="footnote">1</a></sup></td>
 		<td>0.13 (λ=7.66, p=0.02, 0.47)</td>
 	</tr>
 	<tr>
-		<td>Relaxation</td>
+		<td>Relaxation<sup><a href="#fn1" rel="footnote">1</a></sup></td>
 		<td>-0.11 (λ=5, p=0.15, 0.42)</td>
 	</tr>
 	<tr>
-		<td>Chastity</td>
+		<td>Chastity<sup><a href="#fn2" rel="footnote">2</a></sup></td>
 		<td>-0.14 (λ=1.9, p=0.64, 0.11)</td>
+	</tr>
+	<tr>
+		<td>Flashcard ease<sup><a href="#fn1" rel="footnote">1</a></sup></td>
+		<td>0.003 (λ≈∞, p≈0, -0.009)</td>
+	</tr>
+	<tr>
+		<td>Flashcard new ease factor<sup><a href="#fn1" rel="footnote">1</a></sup></td>
+		<td>-0.039 (λ≈∞, p≈0, -32.7)</td>
+	</tr>
+	<tr>
+		<td>Flashcard new interval<sup><a href="#fn1" rel="footnote">1</a></sup></td>
+		<td>0.011 (λ≈∞, p≈0, -1.88)</td>
+	</tr>
+	<tr>
+		<td>Time per flashcard<sup><a href="#fn3" rel="footnote">3</a></sup></td>
+		<td>0.006 (λ≈∞, p≈0, 273.4)</td>
 	</tr>
 </tbody>
 </table>
@@ -115,17 +131,21 @@ done that already ([Examine](https://examine.com/supplements/caffeine/),
 
 Variables tracked (see more [here](./data.html)):
 
+* __Arm Prediction__: I tried to predict whether the substance I'd taken was placebo or caffeine.
 * Meditation: 45 minutes of ānāpānasati, started 0-60 minutes after taking the dose, tracking two variables.
 	* __Mindfulness__: How aware I was of what was going on in my head, modulo my ability to influence it.
 	* __Absorption__ (often called concentration): How "still" my mind was, how easily I was swept away by my thoughts.
-* __Flashcard performance__: Did my daily flashcards for ~20 minutes, started 0-60 minutes after finishing meditation.
-* __Arm Prediction__: I tried to predict whether the substance I'd taken was placebo or caffeine.
+* __Productivity__ and __creativity__, recorded at the end of the day.
 * [Mood](./data.html#Mood): Tracking 4 different variables at random points during the day, namely
-	* __Happiness/Sadness__
+	* __Happiness/Sadness__[^1]
 	* __Contentment/Discontentment__
 	* __Relaxation/Stress__
-	* __Horniness/Chastity__: Chastity being simply the opposite of horniness in this case.
-* __Productivity__ and __creativity__, recorded at the end of the day.
+	* __Horniness/Chastity__: Chastity being simply the opposite of horniness in this case[^2].
+* __Flashcard performance__: Did my daily flashcards for ~20 minutes, started 0-60 minutes after finishing meditation. More explanation [here](./data#Anki)
+	* __Ease__[^1]: How easy I remembered the card (1: not at all, 4: baked into the memory).
+	* __New ease factor__: How much the card will be pushed into the future if I answer it correctly next time.
+	* __New interval__: How far the card has been pushed into the future.
+	* __Time__[^3]: How long I spent on the card.
 
 The total cost of the experiment is at least 21.5€:
 
@@ -345,6 +365,23 @@ Which leads to [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)
 of ~0.27 for happiness, ~0.13 for contentment, ~-0.11 for relaxation
 and ~-0.14 for horniness.
 
+###### Flashcards
+
+Because Anki stores the intervals of learning flashcards (that is, ones
+that have been answered incorrectly too many times), we have to adjust
+the numbers to reflect that a negative second is not equal to a day.
+
+	flashcards_a=flashcards.loc[(flashcards['id']>expa['datetime'].min()) & (flashcards['id']<expa['datetime'].max()+pd.Timedelta('10h'))]
+	flashcards_a=expa.join(flashcards_a, how='cross', rsuffix='r')
+	flashcards_a=flashcards_a.loc[(flashcards_a['idr']-flashcards_a['datetime']<pd.Timedelta('10h'))&(flashcards_a['idr']-flashcards_a['datetime']
+	>pd.Timedelta('0h'))]
+	flashcards_a.loc[flashcards_a['ivl']>0,'ivl']=-flashcards_a.loc[flashcards_a['ivl']>0,'ivl']/86400
+
+We then again separate into placebo and caffeine:
+
+	placebo_flashcards=flashcards_a.loc[flashcards_a['substance']==placebo]
+	substance_flashcards=flashcards_a.loc[flashcards_a['substance']==substance]
+
 ##### Likelihood Ratios
 
 We assume (at first) that the data is [distributed
@@ -429,7 +466,23 @@ me hornier, which I'm neutral about). I'd call this experiment a success
 and will be running more in the future, while in the meantime taking
 caffeine before morning meditations.
 
-Full code for the experiment [here](./code/experiment_a/load.py).
+### Generalising the Code
+
+After finishing the coding for this experiment, I decided it'd be easier
+if for the future I could call a single function to analyze all my data
+for me.
+The result can be found [here](./code/experiment/load.py), the function is
+`analyze(experiment, substance, placebo)`.
+
+To analyze this specific experiment, I simply call
+`caffeine_results=analyze('A', 'caffeine', 'sugar')` and get this nice
+DataFrame:
+
+	    absorption  mindfulness  productivity    creativity      happy   content   relaxed     horny      ease    factor       ivl        time
+	d     0.611936     0.575982  5.784144e-01  4.544300e-01   0.270813  0.129624 -0.114858 -0.140795 -0.009327 -0.068599 -0.046602    0.021811
+	λ    13.309889    11.791000  2.889791e+01  5.103201e+01  10.644193  7.660893  5.007775  1.964261       inf       inf       inf         inf
+	p     0.000167     0.000724  1.348364e-12  4.609786e-27   0.002074  0.024625  0.150156  0.639840  0.000000  0.000000  0.000000    0.000000
+	dσ   -0.072088     0.021868  1.139222e-01  9.659407e-02   0.295592  0.473630  0.415262  0.108356 -0.011060 -0.679137 -0.567543  697.624130
 
 Creatine
 ---------
@@ -582,3 +635,7 @@ I am significantly *worse* than chance in my predictions.
 > zu dem ohne Zeichen gegangen.
 
 *—Dschelāladdīn Rūmī, “Am Ende bist du entschwunden”, 1256*
+
+[^1]: Higher is better.
+[^2]: Whether higher or lower values are better here is not clear.
+[^3]: The value of higher or lower values here is not clear: Do we want to spend more time per flashcard, or are we content with fast but sloppy performance?

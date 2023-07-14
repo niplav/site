@@ -441,7 +441,6 @@ Texts
 * Does masturbation affect spaced repetition ability?
 	* Daygame success?
 * Does meditation affect my happiness?
-* Does abstinence from masturbation improve meditation?
 * Do blood donations reduce my cognitive function?
 * Does asking for affirmative consent turn women off?
 * What effect did COVID-19 vaccinations have on my Anki scores?
