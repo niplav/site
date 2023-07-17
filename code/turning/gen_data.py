@@ -9,7 +9,7 @@ def subgraph_summary(g, subgraphs, turnings):
 	for s in subgraphs:
 		present_in=0
 		for t in turnings:
-			if set(s.nodes).issubset(set(t.nodes)) and set(s.edges).issubset(set(t.edges)):
+			if turn.issubgraph(s,t):
 				present_in=present_in+1
 		overall_preservation=overall_preservation+present_in/len(turnings)
 		preservations.write('\t{0},{1},"{2}","{3}","{4}"\n'.format(len(g.nodes), present_in/len(turnings), nsubgraphs, s.edges, g.edges))

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2023-07-14, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2023-07-17, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2168,9 +2168,9 @@ forbid any sexual activity, and [Taoist sexual practices recommend semen
 retention](https://en.wikipedia.org/wiki/Taoist_sexual_practices#Male_control_of_ejaculation).
 Since I track both [my meditations](./data.html#Meditation) and
 [masturbations](./data.html#Masturbation), I can check whether this is
-observationally true. Of course with observational data there can be
-many confounders, but such data may still point to possible experimental
-studies.
+observationally true. Of course results from observational data can be due
+to confounders, but such results are more valuable than pure speculation,
+and may point to possible experimental investigations.
 
 First, I load both meditation data and masturbation data (using my
 loading code from [here](./code/experiments/load.py)):
@@ -2248,7 +2248,7 @@ interesting direction.
 
 I'd like someone to do an experimental analysis on this (keeping
 a strict meditation schedule and randomizing 2-week pairs for
-masturbation/abstinence), since the common wisdowm is so widespread.
+masturbation/abstinence), since the common wisdom is so widespread.
 
 But I won't do it in the forseeable future, since other experiments have
 higher priority.

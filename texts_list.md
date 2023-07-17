@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-07-14, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-07-17, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,11 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [A Digital Copy of the Universe, Encrypted (Natalie Wolchover, 2013)](https://www.quantamagazine.org/a-digital-copy-of-the-universe-encrypted-20131002/)
+* [Improving Pest Management for Wild Insect Welfare (Wild Animal Initiative, 2019)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/puxyrkSSZ9FEYK6Rm)
+* [A Hill of Validity in Defense of Meaning (Zack M. Davis, 2023)](https://www.lesswrong.com/posts/ZjXtjRQaD2b4PAser/a-hill-of-validity-in-defense-of-meaning)
+* [The Soviet Union: poverty and inequality (José Luis Ricón, 2017)](https://nintil.com/the-soviet-union-poverty-and-inequality)
+* [The Mathematical Shape of Things to Come (Jenniffer Ouellette, 2013)](https://www.quantamagazine.org/the-mathematical-shape-of-big-science-data-20131004/)
 * [Why do organisms feel both suffering and happiness? (Brian Tomasik, 2018)](https://reducing-suffering.org/why-organisms-feel-both-suffering-and-happiness/)
 * [Hammurabi (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Hammurabi)
 * [Our Bodies, Our Data (Emily Singer, 2013)](https://www.quantamagazine.org/biology-confronts-data-complexity-20131007/)

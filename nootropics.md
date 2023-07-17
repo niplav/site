@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2023-07-14, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2023-01-06, modified: 2023-07-17, language: english, status: notes, importance: 3, confidence: log*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
 decided to log my nootropics usage and its effects.__
@@ -140,9 +140,9 @@ Variables tracked (see more [here](./data.html)):
 	* __Happiness/Sadness__[^1]
 	* __Contentment/Discontentment__
 	* __Relaxation/Stress__
-	* __Horniness/Chastity__: Chastity being simply the opposite of horniness in this case[^2].
+	* __Horniness/Chastity__[^2]: Chastity being simply the opposite of horniness in this case.
 * __Flashcard performance__: Did my daily flashcards for ~20 minutes, started 0-60 minutes after finishing meditation. More explanation [here](./data#Anki)
-	* __Ease__[^1]: How easy I remembered the card (1: not at all, 4: baked into the memory).
+	* __Ease__: How easy I remembered the card (1: not at all, 4: baked into the memory).
 	* __New ease factor__: How much the card will be pushed into the future if I answer it correctly next time.
 	* __New interval__: How far the card has been pushed into the future.
 	* __Time__[^3]: How long I spent on the card.
