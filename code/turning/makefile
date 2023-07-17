@@ -34,6 +34,9 @@ turnubc_hyp.png: turnubc_hyp.dot
 turnubc_hyp_trans.png: turnubc_hyp_trans.dot
 	dot -Tpng $< >$@
 
+medium_hodge.png: medium_hodge.dot
+	dot -Tpng $< >$@
+
 se.png: se.dot
 	dot -Tpng $< >$@
 

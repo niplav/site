@@ -61,3 +61,34 @@ def decompose(g):
 def hodgerank(prefs):
 	g=prefgraph(prefs)
 	return decompose(g)
+
+def weightgraph(graph):
+	g=graph.copy()
+	for e in g.edges:
+		g[e[0]][e[1]]['weight']=1
+		g[e[0]][e[1]]['n']=1
+
+	return g
+
+def potential_to_graph(potential):
+	res=nx.DiGraph()
+	res.add_nodes_from(potential.keys())
+
+	for x, y in it.combinations(potential.keys(), 2):
+		if np.isclose(potential[x], potential[y]):
+			res.add_edges_from([(x,y, {'weight': 0}), (y,x, {'weight': 0})])
+		elif potential[x]>potential[y]:
+			res.add_edges_from([(x,y, {'weight': potential[x]-potential[y]})])
+		else:
+			res.add_edges_from([(y,x, {'weight': potential[y]-potential[x]})])
+
+	return res
+
+def hodgeresolve(graph):
+	g=weightgraph(graph)
+
+	potential=decompose(g)
+
+	res=potential_to_graph(potential)
+
+	return res

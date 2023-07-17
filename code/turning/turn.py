@@ -226,11 +226,17 @@ def map_5_graphs(f, reflexive=True, resume_at=None):
 					gnew.add_edge(n, element)
 				for element in fromsubset:
 					gnew.add_edge(element, n)
-				if set(gnew.edges).issubset(set(resume_at.edges)) and set(resume_at.edges).issubset(set(gnew.edges)):
+				if resume==False and gequals(gnew, resume_at):
 					resume=True
 					print("success!")
 				if resume==True:
 					f(gnew)
+
+def gequals(g, h):
+	return set(g.edges).issubset(set(h.edges)) and set(h.edges).issubset(set(g.edges))
+
+def issubgraph(s, g):
+	return set(s.nodes).issubset(set(g.nodes)) and set(s.edges).issubset(set(g.edges))
 
 smallworld=['a', 'b', 'c']
 smallgraph=nx.DiGraph()

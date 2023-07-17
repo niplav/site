@@ -9,4 +9,5 @@ IMG=counter_comp.png \
 	ser_3.png \
 	se.png \
 	se_comp.png \
-	unbalanced_cycle.png
+	unbalanced_cycle.png \
+	medium_hodge.png
