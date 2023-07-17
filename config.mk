@@ -11,6 +11,7 @@ HTML=index.html \
 	todo.html \
 	uses_this.html \
 	reports.html \
+	services.html \
 	pickup_reports.html \
 	notes.html \
 	notes_on_ethics.html \

@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2023-05-07, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2023-07-17, language: english, status: in progress, importance: 6, confidence: log*
 
 Content
 =======
@@ -11,7 +11,8 @@ behavior and philosophy, as well as translations and transcriptions
 of different texts, chronological archives of blogs and programming
 projects. More information about the website and its author can be found
 on the [about](./about.html) page, for recent additions and changes,
-see the [changelog](./changelog.html).
+see the [changelog](./changelog.html). I [can be hired](./services.html)
+to investigate research questions and write code.
 
 [Content warning](./content_warning.html).
 
