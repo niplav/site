@@ -2707,3 +2707,7 @@ than 2 or 3 years out, or sometimes less - is something that human beings
 seem to be quite bad at, by and large.
 
 *— [Eliezer Yudkowsky](https://www.yudkowsky.net/), [“Biology-Inspired AGI Timelines: The Trick That Never Works”](https://www.lesswrong.com/s/EcKbpm4f7fBwhxRZs/p/ax695frGJEzGxFBK4), 2021*
+
+> Near-term is more predictable and hence conclusions are more likely to be true, but far futures may be more entertaining since more extreme things are possible.
+
+*—Anders Sandberg, “Grand Futures” p. 32, 2023*

@@ -5,7 +5,7 @@
 
 > __Texts I have read since May 2017.__
 
-List of Texts I have Read
+List of Texts I Have Read
 ==========================
 
 These are the texts I have read since May 2017 (sorted by starting date,

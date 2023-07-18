@@ -22,6 +22,17 @@ Nootropics
 You could put randomized substances in your body and find out what they
 do by recording the outcomes. That's what I did.
 
+<!--
+TODO: move to this table format
+
+| Officer         | Rank                 |
+| :-------------- | -------------------- |
+| Jean-Luc Picard | Captain              |
+| Worf            | Lieutenant Commander |
+| Data            | Lieutenant Commander |
+| William Riker   | Commander            |
+-->
+
 <table>
 <thead>
 	<tr>

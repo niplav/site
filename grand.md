@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-07-06, modified: 2023-07-06, language: english, status: in progress, importance: 5, confidence: unlikely*
+*author: niplav, created: 2023-07-06, modified: 2023-07-18, language: english, status: in progress, importance: 5, confidence: unlikely*
 
 > __Hi Anders__
 
@@ -36,4 +36,41 @@ than before.” [684]²
 
 The citation 684 is for "Gravitationally redshifted absorption lines in
 the x-ray burst spectra of a neutron star", but I think it should be 685,
-"Existential risk and existential hope: definitions".
+"Existential risk and existential hope: definitions". This off-by-one
+pattern repeats itself throughout my copy of the book.
+
+### 0.3
+
+> The usage of the term civilization in this book needs to be
+disambiguated.  Civilization can be used to denote complex societies
+with features such as irrigation, urban areas, social stratification,
+symbolic systems of communication, division of labour etc.
+
+Perhaps use quotation marks around "civilization"
+here—this feels like a [mention more than a
+use](https://en.wikipedia.org/wiki/Use—mention_distinction).
+
+> I will be using the term civilization not in the narrow high culture
+sense but to denote __as__ a cohesive, long-range (social) structure
+with a high degree of coordination
+
+Same with quotation here, also the "as" feels stumbly.
+
+### 0.4
+
+> Near-term is more predictable and hence conclusions are more likely
+to be true
+
+I don't know of a good resource that firmly establishes this. My
+[own investigation](./range_and_forecasting_accuracy.html) and [Dillon
+2020](https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons)
+don't come to firm conclusions, mostly because of
+a dearth of good long-term forecasting data. [Muehlhauser
+2019](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting)
+also laments the lack of long-term forecasts that are precise enough to
+be checked. I think later in the book there will be talk about why less
+accurate forecasts should be expected in dynamical systems, and I look
+forward to that discussion.
+
+I haven't yet done a full review of that field yet, and my guess is that
+there are much better references out there (maybe even on my hard drive).
