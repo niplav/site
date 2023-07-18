@@ -19,5 +19,5 @@ accuracy](./range_and_forecasting_accuracy.html).
 
 My rates are as follows:
 
-* \$30/hr for work for which the final product will be mostly public, potentially with a discount if I was [already planning to do it myself](./todo.html)
+* \$30/hr for work for which the final product will be mostly public, potentially with a discount if I was [already planning to do it myself](./todo.html).
 * \$40/hr otherwise.

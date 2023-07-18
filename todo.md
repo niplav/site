@@ -2022,6 +2022,7 @@ Wikipedia Articles
 * Mutually Assured Destruction
 	* Add section of Self-Assured Destruction
 * Redirect <https://en.wikipedia.org/wiki/Kemeny%E2%80%93Young_method#Comparison_table> and <https://en.wikipedia.org/wiki/Schulze_method#Comparison_table> to <https://en.wikipedia.org/wiki/Comparison_of_electoral_systems#Compliance_of_selected_single-winner_methods>
+* Add the Collingridge Dilemma to the list of eponymous laws?
 
 Lesswrong wiki
 ---------------

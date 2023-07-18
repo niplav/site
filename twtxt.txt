@@ -1764,3 +1764,6 @@
 2023-06-30T14:26:07.000000Z	dril wrote for HiveSwap. It's all connected
 2023-07-05T14:55:09.000000Z	trying to fit in with Gödelian set theorists by saying “V” when someone does something outrageously stupid
 2023-07-14T10:56:26.000000Z	lean into reality ⋄ lean into irreality ⋄ lean into dissociation
+2023-07-17T23:05:42.000000Z	if you do something risky and potentially dumb please at least report on it so that we can learn from your mistakes
+2023-07-17T23:29:09.000000Z	people creating new programming languages is a status thing
+2023-07-17T23:29:59.000000Z	instead of e.g. new linkers. why is there only one ImageMagick, or one ffmpeg, but ~6k programming languages? status.

@@ -11,8 +11,10 @@ behavior and philosophy, as well as translations and transcriptions
 of different texts, chronological archives of blogs and programming
 projects. More information about the website and its author can be found
 on the [about](./about.html) page, for recent additions and changes,
-see the [changelog](./changelog.html). I [can be hired](./services.html)
-to investigate research questions and write code.
+see the [changelog](./changelog.html).
+
+I [can be hired](./services.html) to investigate research questions and
+write code.
 
 [Content warning](./content_warning.html).
 
