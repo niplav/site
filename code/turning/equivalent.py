@@ -14,7 +14,7 @@ def algos_equivalent(g):
 	for t in turnings:
 		present=False
 		for s in stepwises:
-			if nx.utils.edges_equal(t.edges,s.edges) and nx.utils.nodes_equal(s.nodes, t.nodes):
+			if turn.gequals(t, s):
 				present=True
 				break
 		if not present:

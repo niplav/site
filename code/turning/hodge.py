@@ -2,6 +2,22 @@ import numpy as np
 import networkx as nx
 import itertools as it
 
+def prefgraph(prefs):
+	g=nx.DiGraph()
+	g.add_nodes_from(list(prefs.keys()))
+	edges=positive_edges(prefs)
+	g.add_edges_from(edges)
+
+	return g
+
+def weightgraph(graph):
+	g=graph.copy()
+	for e in g.edges:
+		g[e[0]][e[1]]['weight']=1
+		g[e[0]][e[1]]['n']=1
+
+	return g
+
 def positive_edges(prefs):
 	edges=[]
 	for e in it.combinations(prefs.keys(), 2):
@@ -18,14 +34,6 @@ def positive_edges(prefs):
 		else:
 			edges.append((e[1], e[0], {'weight': -weight, 'n': n}))
 	return edges
-
-def prefgraph(prefs):
-	g=nx.DiGraph()
-	g.add_nodes_from(list(prefs.keys()))
-	edges=positive_edges(prefs)
-	g.add_edges_from(edges)
-
-	return g
 
 def decompose(g):
 	f=np.array([g[e[0]][e[1]]['weight'] for e in g.edges])
@@ -58,18 +66,6 @@ def decompose(g):
 
 	return values
 
-def hodgerank(prefs):
-	g=prefgraph(prefs)
-	return decompose(g)
-
-def weightgraph(graph):
-	g=graph.copy()
-	for e in g.edges:
-		g[e[0]][e[1]]['weight']=1
-		g[e[0]][e[1]]['n']=1
-
-	return g
-
 def potential_to_graph(potential):
 	res=nx.DiGraph()
 	res.add_nodes_from(potential.keys())
@@ -84,11 +80,11 @@ def potential_to_graph(potential):
 
 	return res
 
+def hodgerank(prefs):
+	g=prefgraph(prefs)
+	return decompose(g)
+
 def hodgeresolve(graph):
-	g=weightgraph(graph)
+	potential=decompose(graph)
 
-	potential=decompose(g)
-
-	res=potential_to_graph(potential)
-
-	return res
+	return potential_to_graph(potential)

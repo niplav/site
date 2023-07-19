@@ -1767,3 +1767,5 @@
 2023-07-17T23:05:42.000000Z	if you do something risky and potentially dumb please at least report on it so that we can learn from your mistakes
 2023-07-17T23:29:09.000000Z	people creating new programming languages is a status thing
 2023-07-17T23:29:59.000000Z	instead of e.g. new linkers. why is there only one ImageMagick, or one ffmpeg, but ~6k programming languages? status.
+2023-07-19T11:06:47.000000Z	are there any other industries in which we apply a similar safety standard as training of large neural networks? the closest that comes to my mind is animal husbandry, but I think we understand the genetics of that better than we understand neural networks, and don't apply ever-more increasing optimization power to it. (although, to be fair, when humans began husbandry they understood it far less)
+2023-07-19T14:22:03.000000Z	lol @ the nauty source code: some functions are >1k lines long
