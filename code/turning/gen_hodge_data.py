@@ -19,24 +19,34 @@ def subgraph_summary(g, subgraphs, res):
 	#preservations.write('{0},{1},{2},"{3}"\n'.format(len(g.nodes), overall_preservation/nsubgraphs, nsubgraphs, g.edges))
 	print('{0},{1},{2},"{3}"'.format(len(g.nodes), overall_preservation/nsubgraphs, nsubgraphs, g.edges))
 
-def hodge_summary(g, res):
-	residual=None #TODO
+def hodge_summary(g, result):
+	residual=0
+	for e in g.edges:
+		gw=g.edges[e[0], e[1]]['weight']
+		if e[0]==e[1]:
+			resultw=0
+		elif e in result.edges:
+			resultw=result.edges[e[0], e[1]]['weight']
+		else:
+			resultw=-result.edges[e[1], e[0]]['weight']
+		residual=residual+(resultw-gw)**2
 	#residuals.write('{0},{1},"{2}"\n'.format(len(g.nodes), residual, g.edges))
 	print('{0},{1},"{2}"'.format(len(g.nodes), residual, g.edges))
 
 def write_summary(g):
-	res=hodge.hodgeresolve(g)
-	hodge_summary(g, res)
+	wg=hodge.weightgraph(g)
+	res=hodge.hodgeresolve(wg)
+	hodge_summary(wg, res)
 	subgraphs=turn.maximal_consistent_subgraphs(g)
 	subgraph_summary(g, subgraphs, res)
 
 #residuals=open('./residuals.csv', mode='w', buffering=1)
 #preservations=open('./subgraphs.csv', mode='w', buffering=1)
 
-#for i in range(0,5):
-#	graphs=turn.all_directed_graphs(i)
-#	for g in graphs:
-#		write_summary(g)
+for i in range(0,5):
+	graphs=turn.all_directed_graphs(i)
+	for g in graphs:
+		write_summary(g)
 
 turn.map_5_graphs(write_summary)
 

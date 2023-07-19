@@ -140,7 +140,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [HodgeRank: Generating Movie Ranking From IMDb Movie Ratings (Part 1: Problem Formulation) (Zian Jiang, 2019)](https://medium.com/@zj444/hodgerank-generating-movie-ranking-from-imdb-movie-ratings-part-1-2a88ec148f10)
 * What We Owe The Future (William MacAskill, 2022)
 * \* The Machinery of Freedom (David Friedman, 2014)
-* \* Human Compatible (Stuart Russell, 2019)
+* Human Compatible (Stuart Russell, 2019)
 * [Creatine Cognition Meta-analysis (Gwern Branwen, 2021)](https://gwern.net/creatine)
 * [Harvard sentences (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Harvard_sentences)
 * ["Good day, fellow!" "Axe handle!" (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/"Good_day,_fellow!"_"Axe handle")

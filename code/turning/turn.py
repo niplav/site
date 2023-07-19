@@ -9,14 +9,7 @@ def turn(graph):
 	worlds=list(graph.nodes)
 	for perm in it.permutations(worlds):
 		perm=list(perm)
-		# Probably better to use nx.path_graph() with some constructor
-		pathgraph=nx.DiGraph()
-		for i in range(0, len(worlds)):
-			pathgraph.add_node(worlds[i], ind=i+1)
-		# The transitive closure over this particular path graph
-		# Simplify to nx.algorithms
-		for i in range(0, len(perm)-1):
-			pathgraph.add_edge(perm[i], perm[i+1])
+		pathgraph=nx.path_graph(perm, nx.DiGraph)
 		pathgraph=nx.algorithms.dag.transitive_closure(pathgraph)
 		dist=len(set(graph.edges)^set(pathgraph.edges))
 		if dist<mindist:
@@ -30,11 +23,7 @@ def turn_all(graph):
 	worlds=list(graph.nodes)
 	for perm in it.permutations(worlds):
 		perm=list(perm)
-		pathgraph=nx.DiGraph()
-		for i in range(0, len(worlds)):
-			pathgraph.add_node(worlds[i], ind=i+1)
-		for i in range(0, len(perm)-1):
-			pathgraph.add_edge(perm[i], perm[i+1])
+		pathgraph=nx.path_graph(perm, nx.DiGraph)
 		pathgraph=nx.algorithms.dag.transitive_closure(pathgraph)
 		dist=len(set(graph.edges)^set(pathgraph.edges))
 		if dist<mindist:
@@ -69,6 +58,11 @@ def stepwise(graph):
 
 		solutions.update(set(totalizations(decycled)))
 
+	#for x, y in it.combinations(solutions, 2):
+	#	if gequals(x,y):
+	#		solutions.discard(x)
+	#		print("found duplicate ", y)
+
 	return solutions
 
 def totalizations(graph):
@@ -92,13 +86,6 @@ def totalizations(graph):
 
 	return solutions
 
-def is_acyclic(graph):
-	try:
-		cycles=nx.find_cycle(graph, orientation="original")
-	except nx.NetworkXNoCycle:
-		return True
-	return False
-
 def minimal_feedback_arc_sets(graph):
 	edges=list(graph.edges)
 	nedges=len(edges)
@@ -115,24 +102,6 @@ def minimal_feedback_arc_sets(graph):
 		if found_minimal==True:
 			break
 	return mfas
-
-def is_consistent(graph):
-	try:
-		cycles=nx.find_cycle(graph, orientation="original")
-	except nx.NetworkXNoCycle:
-		if nx.algorithms.tournament.is_tournament(graph):
-			return True
-	return False
-
-def is_largest(c, g):
-	for n in g.nodes():
-		if n==c:
-			continue
-		if (n,c) in g.edges():
-			return False
-		if not (c,n) in g.edges():
-			return False
-	return True
 
 def get_largest(g):
 	largest=None
@@ -228,7 +197,6 @@ def map_5_graphs(f, reflexive=True, resume_at=None):
 					gnew.add_edge(element, n)
 				if resume==False and gequals(gnew, resume_at):
 					resume=True
-					print("success!")
 				if resume==True:
 					f(gnew)
 
@@ -237,6 +205,31 @@ def gequals(g, h):
 
 def issubgraph(s, g):
 	return set(s.nodes).issubset(set(g.nodes)) and set(s.edges).issubset(set(g.edges))
+
+def is_acyclic(graph):
+	try:
+		cycles=nx.find_cycle(graph, orientation="original")
+	except nx.NetworkXNoCycle:
+		return True
+	return False
+
+def is_consistent(graph):
+	try:
+		cycles=nx.find_cycle(graph, orientation="original")
+	except nx.NetworkXNoCycle:
+		if nx.algorithms.tournament.is_tournament(graph):
+			return True
+	return False
+
+def is_largest(c, g):
+	for n in g.nodes():
+		if n==c:
+			continue
+		if (n,c) in g.edges():
+			return False
+		if not (c,n) in g.edges():
+			return False
+	return True
 
 smallworld=['a', 'b', 'c']
 smallgraph=nx.DiGraph()
