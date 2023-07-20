@@ -62,7 +62,47 @@ until we've found a way to permanently store the languages, for example
 by training large language models (text and audio) on those languages;
 this would give us (at \\$10k salary a year) another \\$1bio. in expenses,
 plus whatever cost the preservation procedure entails.
-* Raise children bilingual, first language Lojban
+* __Raise native speakers of an engineered
+conlang__: Spurred on by the [Sapir-Whorf
+hypothesis](https://en.wikipedia.org/wiki/Linguistic_relativity),
+people have created [several engineered constructed
+languages](https://en.wikipedia.org/wiki/List_of_constructed_languages#Engineered_languages).
+Such languages attempt to introduce new paradigms to spoken languages
+and aim for extreme properties along one or more axes: emotional
+expressivity ([Láadan](https://en.wikipedia.org/wiki/Láadan)),
+complete grammar and lack of syntactic ambiguity
+([Lojban](https://en.wikipedia.org/wiki/Lojban)), simplicity ([Toki
+Pona](https://en.wikipedia.org/wiki/Toki_Pona)), expressivity and semantic
+richness ([Ithkuil](https://en.wikipedia.org/wiki/Ithkuil))…<br>
+We know that people can use a constructed language as
+their native tongue, as there are [>1k native Esperanto
+speakers](https://en.wikipedia.org/wiki/Native_Esperanto_speakers) in the
+world. But I do not know of any examples of raising a child primarily on
+a language engineered to exceed the bounds of natural language<!--TODO:
+link youtube video with alleged Lojban speaking to baby?-->. So it would
+interesting to pay some new parents (ideally already both speakers of the
+engineered language) to raise a child with that language. The difficulty
+of achieving this depends on how difficult the target language is to
+learn, and how many speakers there are: Toki Pona should be easiest,
+followed by Lojban (hard to learn, but more speakers) and Láadan
+(perhaps easier to learn, but less developed and few (no?) speakers),
+[Kēlen](https://en.wikipedia.org/wiki/Kēlen) would be quite difficult
+(since there are probably no fluent speakers, and speakers would
+need to be trained) and Ithkuil is probably impossible, as even the
+creator can't speak it fluently.<!--TODO: find out the number of Toki
+Pona/Láadan/Lojban speakers--> I don't know what price parents would
+put on raising one of their children in primarily the constructed
+language, which might be in the highest case several hundreds of
+thousands of dollars per year: If we have two children in different
+families per language, and pick Toki Pona, Láadan, Lojban and Kēlen,
+at \$200k per parent and year, until the child is 18 years old, we pay
+`$\$200000 \cdot 2 \cdot 4 \cdot 18=\$28.8 \text{ mio}$`. We know that
+children can be bilingual, so the danger of inability to communicate
+can basically be excluded—and since money is not a huge issue, one
+could offer a ~\$10mio. insurance against worst-case outcomes. If we
+assume that worst-case outcomes are possible but unlikely<sub>5%</sub>,
+we pay (in expectation) `$4 \cdot 0.05 \cdot \$ 10 \text{ mio.}=\$2\text{
+mio.}$`, for a total of \$30.8 mio.
 * Philosophically Solving Language
 	* Via Conlangs
 	* We have Loglan & Lojban & Láadan & Ithkuil, but there's never been a *concerted* efffort at this?

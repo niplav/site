@@ -72,7 +72,6 @@ Site
 * Reading ruler (?)
 * Move from `$\mapsto$` to `$\rightarrow$`
 * Move `text_reviews.md` to `reviews.md`
-* Use markdown with tables. The HTML tables are unacceptable.
 
 Existing Texts
 --------------
@@ -1968,6 +1967,7 @@ Wikipedia Articles
 	* [Harberger Tax](https://en.wikipedia.org/wiki/Harberger_Tax)
 	* Landau set
 		* Add some true facts about the Landau set (look at notes)
+		* Add algorithm for computing it, and statements about difficulty of computing it
 	* Sophistication (complexity theory)
 * [Maximal pair](https://en.wikipedia.org/wiki/Maximal_pair)
 	* Add examples

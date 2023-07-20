@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-07-06, modified: 2023-07-18, language: english, status: in progress, importance: 5, confidence: unlikely*
+*author: niplav, created: 2023-07-06, modified: 2023-07-18, language: english, status: in progress, importance: 5, confidence: probable*
 
 > __Hi Anders__
 
@@ -61,9 +61,9 @@ Same with quotation here, also the "as" feels stumbly.
 > Near-term is more predictable and hence conclusions are more likely
 to be true
 
-I don't know of a good resource that firmly establishes this. My
-[own investigation](./range_and_forecasting_accuracy.html) and [Dillon
+I don't know of a good resource that firmly establishes this. [Dillon
 2020](https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons)
+and my [own investigation](./range_and_forecasting_accuracy.html)
 don't come to firm conclusions, mostly because of
 a dearth of good long-term forecasting data. [Muehlhauser
 2019](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting)
@@ -74,3 +74,24 @@ forward to that discussion.
 
 I haven't yet done a full review of that field yet, and my guess is that
 there are much better references out there (maybe even on my hard drive).
+
+#### 1.1.4
+
+> While this book certain__ty__ is not intended as science fiction, it
+may well find use as a source of raw material for science fiction authors.
+
+Typo, should be "certain__ly__".
+
+<!--
+> [Stanislaw Lem — Summa Technologiae, comments on prognostication]
+
+TODO: Das Katastrophenprinzip (Stanisław Lem, 1983)
+
+find what this was and refer Sandberg to it-->
+
+#### 1.1.5
+
+> But for having a liveable society with an open future dynamism looks
+better.
+
+This sentence tripped me up, twice.

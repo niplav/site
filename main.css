@@ -29,10 +29,12 @@ table {
 	width: 800px;
 	border: solid 1px #000000;
 	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
 }
 
 td {
-	font-size: 18px;
 	line-height: 1.6;
 	padding: 0em 8px;
 	border: solid 1px #000000;

@@ -558,34 +558,12 @@ standard deviation to compare the different parts of the dataset.
 Here the table for the different mean values and their variances in
 parentheses (the botttom right cell contains the overall mean value):
 
-<table>
-<tbody>
-	<tr>
-		<td></td>
-		<td>during</td>
-		<td>after</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>f</td>
-		<td>μ_duringf (var)</td>
-		<td>μ_afterf (var)</td>
-		<td>μ_f (var)</td>
-	</tr>
-	<tr>
-		<td>m</td>
-		<td>μ_duringm (var)</td>
-		<td>μ_afterm (var)</td>
-		<td>μ_m (var)</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>μ_during (var)</td>
-		<td>μ_after (var)</td>
-		<td>μ (var)</td>
-	</tr>
-</tbody>
-</table>
+
+|       | during               | after          |           |
+| ----- | -------------------- | -------------- | --------- |
+| f     | μ_duringf (var)      | μ_afterf (var) | μ_f (var) |
+| m     | μ_duringm (var)      | μ_afterm (var) | μ_m (var) |
+|       | μ_during (var)       | μ_after (var)  | μ (var)   |
 
 As one can see, \_.
 
