@@ -421,58 +421,14 @@ Below a matrix with probabilistic guesses and the expected values (with
 a unit of something roughly like "valence-adjusted human life year")
 of the combinations of these scenarios.
 
-<table>
-<tbody>
-	<tr>
-		<td></td>
-		<td>No technological success</td>
-		<td>Low technological success</td>
-		<td>Medium technological success</td>
-		<td>High technological success</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>No social success</td>
-		<td>63.7%<br>0</td>
-		<td>-</td>
-		<td>-</td>
-		<td>-</td>
-		<td>-</td>
-	</tr>
-	<tr>
-		<td>Low social success</td>
-		<td>-</td>
-		<td>17.5%<br>3.5</td>
-		<td>7.5%<br>15</td>
-		<td>2.5%<br>50</td>
-		<td>50%</td>
-	</tr>
-	<tr>
-		<td>Medium social success</td>
-		<td>-</td>
-		<td>5.25%<br>1050</td>
-		<td>2.25%<br>4500</td>
-		<td>0.75%<br>15000</td>
-		<td>15%</td>
-	</tr>
-	<tr>
-		<td>High social success</td>
-		<td>-</td>
-		<td>0.35%<br>7000</td>
-		<td>0.15%<br>30000</td>
-		<td>0.05%<br>100000</td>
-		<td>1%</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>-</td>
-		<td>35%</td>
-		<td>15%</td>
-		<td>5%</td>
-		<td></td>
-	</tr>
-</tbody>
-</table>
+
+|           | No technological success | Low technological success | Medium technological success | High technological success | |
+| --------------------- | ---------------- | ------------- | ------------------ | ----------------- | --------- |
+| No social success     | 63.7% <br> 0     | -             | -                  | -                 | -         |
+| Low social success    | -                | 17.5%<br>3.5  | 7.5%<br>15         | 2.5%<br>50        | 50%       |
+| Medium social success | -                |5.25%<br>1050  | 2.25%<br>4500      | 0.75%<br>15000    | 15%       |
+| High social success   | -                | 0.35%<br>7000 | 0.15%<br>30000     | 0.05%<br>100000   | 1%        |
+|                       | -                | 35%           | 15%                | 5%                |           |
 
 The overall value of QRI would then be
 `$3.5+15+50+1050+4500+15000+7000+30000+100000=157618.5$` valence adjusted
@@ -1483,25 +1439,12 @@ the function and select other points as maxima/minima).
 If one can bound the price of anarchy and the price of stability, one
 can also sometimes establish bounds on the price of inadequacy:
 
-<table>
-<tbody>
-	<tr>
-		<td></td>
-		<td>Upper-bound: $1 \le \text{PoA} \le n$</td>
-		<td>Lower-bound: $\text{PoA} \ge n$</td>
-	</tr>
-	<tr>
-		<td>Upper-bound: $1 \le \text{PoS} \le m$</td>
-		<td>$n-m \le \text{PoI} \le n-1$</td>
-		<td>$n-m \le \text{PoI}$</td>
-	</tr>
-	<tr>
-		<td>Lower-bound: $\text{PoS} \ge m$</td>
-		<td>$\text{PoI} \le n-m$</td>
-		<td>$0 \le \text{PoI} \le n$</td>
-	</tr>
-</tbody>
-</table>
+
+
+|                                         | Upper-bound:  `$1 \le \text{PoA} \le n$` | Lower-bound: `$\text{PoA} \ge n$` |
+| --------------------------------------- | ---------------------------------------- | --------------------------------- |
+| Upper-bound: `$1 \le \text{PoS} \le m$` | `$n-m \le \text{PoI} \le n-1$`           | `$n-m \le \text{PoI}$`            |
+| Lower-bound: `$\text{PoS} \ge m$`       | `$\text{PoI} \le n-m$`                   | `$0 \le \text{PoI} \le n$`        |
 
 As an example, in [network cost-sharing
 games](https://en.wikipedia.org/wiki/Price_of_stability#Network_design_games),

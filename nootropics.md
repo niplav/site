@@ -22,83 +22,22 @@ Nootropics
 You could put randomized substances in your body and find out what they
 do by recording the outcomes. That's what I did.
 
-<!--
-TODO: move to this table format
-
-| Officer         | Rank                 |
-| :-------------- | -------------------- |
-| Jean-Luc Picard | Captain              |
-| Worf            | Lieutenant Commander |
-| Data            | Lieutenant Commander |
-| William Riker   | Commander            |
--->
-
-<table>
-<thead>
-	<tr>
-		<td>Value tracked</td>
-		<td>Effect size d (λ, p, σ increase)</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>200mg Caffeine (n=1, m=50)</td>
-	</tr>
-</thead>
-<tbody>
-	<tr>
-		<td>Log-score of substance prediction<sup><a href="#fn1" rel="footnote">1</a></sup></td>
-		<td>-0.6</td>
-	</tr>
-	<tr>
-		<td>Absorption<sup><a href="#fn1" rel="footnote">1</a></sup></td>
-		<td>0.61 (λ=13.3, p=0.00017, -0.072)</td>
-	</tr>
-	<tr>
-		<td>Mindfulness<sup><a href="#fn1" rel="footnote">1</a></sup></td>
-		<td>0.58 (λ=11.8, p=0.0007, 0.021)</td>
-	</tr>
-	<tr>
-		<td>Productivity<sup><a href="#fn1" rel="footnote">1</a></sup></td>
-		<td>0.58 (λ=28.9, p=1.3<sup>-12</sup>, 0.11)</td>
-	</tr>
-	<tr>
-		<td>Creativity<sup><a href="#fn1" rel="footnote">1</a></sup></td>
-		<td>0.38 (λ=32.9, p=5.2<sup>-15</sup>, 0.09)</td>
-	</tr>
-	<tr>
-		<td>Happiness<sup><a href="#fn1" rel="footnote">1</a></sup></td>
-		<td>0.27 (λ=10.6, p=0.002, 0.3)</td>
-	</tr>
-	<tr>
-		<td>Contentment<sup><a href="#fn1" rel="footnote">1</a></sup></td>
-		<td>0.13 (λ=7.66, p=0.02, 0.47)</td>
-	</tr>
-	<tr>
-		<td>Relaxation<sup><a href="#fn1" rel="footnote">1</a></sup></td>
-		<td>-0.11 (λ=5, p=0.15, 0.42)</td>
-	</tr>
-	<tr>
-		<td>Chastity<sup><a href="#fn2" rel="footnote">2</a></sup></td>
-		<td>-0.14 (λ=1.9, p=0.64, 0.11)</td>
-	</tr>
-	<tr>
-		<td>Flashcard ease<sup><a href="#fn1" rel="footnote">1</a></sup></td>
-		<td>0.003 (λ≈∞, p≈0, -0.009)</td>
-	</tr>
-	<tr>
-		<td>Flashcard new ease factor<sup><a href="#fn1" rel="footnote">1</a></sup></td>
-		<td>-0.039 (λ≈∞, p≈0, -32.7)</td>
-	</tr>
-	<tr>
-		<td>Flashcard new interval<sup><a href="#fn1" rel="footnote">1</a></sup></td>
-		<td>0.011 (λ≈∞, p≈0, -1.88)</td>
-	</tr>
-	<tr>
-		<td>Time per flashcard<sup><a href="#fn3" rel="footnote">3</a></sup></td>
-		<td>0.006 (λ≈∞, p≈0, 273.4)</td>
-	</tr>
-</tbody>
-</table>
+| Value tracked                      | Effect size d (λ, p, σ change)   | Effect size d (λ, p, σ change)|
+| ---------------------------------- | -------------------------------- | ----------------------------- |
+|                                    | 200 mg Caffeine (n=1, m=50)      | 500 mg L-theanine (n=1, m=50) |
+| Log-score substance prediction[^1] | -0.6                             | |
+| Absorption                         | 0.61 (λ=13.3, p=0.00017, -0.072) | |
+| Mindfulness                        | 0.58 (λ=11.8, p=0.0007, 0.021)   | |
+| Productivity                       | 0.58 (λ=28.9, p=1.3-12, 0.11)    | |
+| Creativity                         | 0.38 (λ=32.9, p=5.2-15, 0.09)    | |
+| Happiness                          | 1.27 (λ=10.6, p=0.002, 0.3)      | |
+| Contentment                        | 0.13 (λ=7.66, p=0.02, 0.47)      | |
+| Relaxation                         | -0.11 (λ=5, p=0.15, 0.42)        | |
+| Chastity[^2]                       | -0.14 (λ=1.9, p=0.64, 0.11)      | |
+| Flashcard ease                     | 0.003 (λ≈∞, p≈0, -0.009)         | |
+| Flashcard ease factor              | -0.039 (λ≈∞, p≈0, -32.7)         | |
+| Flashcard new interval             | 0.011 (λ≈∞, p≈0, -1.88)          | |
+| Time per flashcard[^3]             | 0.006 (λ≈∞, p≈0, 273.4)          | |
 
 I am especially interested in testing many different substances for
 their effect on meditation, while avoiding negative side effects. The
@@ -148,15 +87,15 @@ Variables tracked (see more [here](./data.html)):
 	* __Absorption__ (often called concentration): How "still" my mind was, how easily I was swept away by my thoughts.
 * __Productivity__ and __creativity__, recorded at the end of the day.
 * [Mood](./data.html#Mood): Tracking 4 different variables at random points during the day, namely
-	* __Happiness/Sadness__[^1]
+	* __Happiness/Sadness__
 	* __Contentment/Discontentment__
 	* __Relaxation/Stress__
-	* __Horniness/Chastity__[^2]: Chastity being simply the opposite of horniness in this case.
+	* __Horniness/Chastity__: Chastity being simply the opposite of horniness in this case.
 * __Flashcard performance__: Did my daily flashcards for ~20 minutes, started 0-60 minutes after finishing meditation. More explanation [here](./data#Anki)
 	* __Ease__: How easy I remembered the card (1: not at all, 4: baked into the memory).
 	* __New ease factor__: How much the card will be pushed into the future if I answer it correctly next time.
 	* __New interval__: How far the card has been pushed into the future.
-	* __Time__[^3]: How long I spent on the card.
+	* __Time__: How long I spent on the card.
 
 The total cost of the experiment is at least 21.5€:
 

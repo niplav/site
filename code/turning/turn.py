@@ -130,6 +130,11 @@ def maximal_consistent_subgraphs(graph):
 				maximal_consistencies.add(subgraph)
 	return list(maximal_consistencies)
 
+def preserves_dominance(graph, result):
+	if not nx.is_weakly_connected(graph):
+		return True
+	return False
+
 def powerset(iterable):
 	s = list(iterable)
 	allcomb=[]

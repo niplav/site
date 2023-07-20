@@ -214,38 +214,11 @@ example](#Three_Different_Analyses_An_Illustrative_Example) can help):
 			Metaculus and ~120 years for PredictionBook
 			([more](#Exponential_Forecast_Horizons_for_Questions)).
 
-<table>
-<tbody>
-	<tr>
-		<td></td>
-		<td>Logistic fit horizon (PredictionBook)</td>
-		<td>Logistic fit horizon (Metaculus)</td>
-		<td>Exponential fit horizon (PredictionBook)</td>
-		<td>Exponential fit horizon (Metaculus)</td>
-	</tr>
-	<tr>
-		<td>Between Forecasts</td>
-		<td>18 years</td>
-		<td>3.6 years</td>
-		<td>75 days</td>
-		<td>1 day</td>
-	</tr>
-	<tr>
-		<td>Between Questions</td>
-		<td>4.5 days</td>
-		<td>1 day</td>
-		<td>9 days</td>
-		<td><1 day</td>
-	</tr>
-	<tr>
-		<td>Within Questions mean</td>
-		<td>1.08·10²¹ years</td>
-		<td>5.28·10²⁰ years</td>
-		<td>123.4 years</td>
-		<td>4.42 years</td>
-	</tr>
-</tbody>
-</table>
+| | Logistic fit horizon (PredictionBook) | Logistic fit horizon (Metaculus) | Exponential fit horizon (PredictionBook) | Exponential fit horizon (Metaculus) |
+| - | ------------------------------------- | -------------------------------- | ---------------------------------------- | ----------------------------------- |
+| Between Forecasts       | 18 years        | 3.6 years       | 75 days     | 1 day      |
+| Between Questions 	  | 4.5 days        | 1 day           | 9 days      | <1 day     |
+| Within Questions mean   | 1.08·10²¹ years | 5.28·10²⁰ years | 123.4 years | 4.42 years |
 
 These results suggest what to expect with questions with even greater
 range: That later predictions (closer to resolution time) on them will
@@ -1831,37 +1804,11 @@ the invalid fits represented by `[]`):
 
 So, what horizons do we have?
 
-<table>
-<tbody>
-	<tr>
-		<td></td>
-		<td>Mean</td>
-		<td>Median</td>
-		<td>Mode</td>
-		<td>Variance</td>
-		<td>Maximum</td>
-		<td>Minimum</td>
-	</tr>
-	<tr>
-		<td>Metaculus</td>
-		<td>1.93e+23</td>
-		<td>4.18</td>
-		<td>4.18</td>
-		<td>1.42e+49</td>
-		<td>8.79e+25</td>
-		<td>0.0043</td>
-	</tr>
-	<tr>
-		<td>PredictionBook</td>
-		<td>3.93e+23</td>
-		<td>4.18</td>
-		<td>4.18</td>
-		<td>1.11e+50</td>
-		<td>3.04e+26</td>
-		<td>0.000137</td>
-	</tr>
-</tbody>
-</table>
+
+|                | Mean     | Median  | Mode | Variance | Maximum  | Minimum  |
+| -------------- | -------- | ------- | ---- | -------- | -------- | -------- |
+| Metaculus      | 1.93e+23 | 4.18    | 4.18 | 1.42e+49 | 8.79e+25 | 0.0043   |
+| PredictionBook | 3.93e+23 | 4.18    | 4.18 | 1.11e+50 | 3.04e+26 | 0.000137 |
 
 This shouldn't be *that* surprising: some of the logistic fits were
 basically flat, and some were basically vertical, so it is to be
@@ -1950,37 +1897,11 @@ Calculating the horizons is as easy as before:
 
 And the summary statistics (in days):
 
-<table>
-<tbody>
-	<tr>
-		<td></td>
-		<td>Mean</td>
-		<td>Median</td>
-		<td>Mode</td>
-		<td>Variance</td>
-		<td>Maximum</td>
-		<td>Minimum</td>
-	</tr>
-	<tr>
-		<td>Metaculus</td>
-		<td>1613.62</td>
-		<td>4.64</td>
-		<td>4.64</td>
-		<td>478494147</td>
-		<td>497370.21</td>
-		<td>0.064</td>
-	</tr>
-	<tr>
-		<td>PredictionBook</td>
-		<td>45041.92</td>
-		<td>4.64</td>
-		<td>4.64</td>
-		<td>8.29e+11</td>
-		<td>5.31e+7</td>
-		<td>0.064</td>
-	</tr>
-</tbody>
-</table>
+
+|                | Mean     | Median  | Mode  | Variance    | Maximum        | Minimum |
+| -------------- | -------- | ------- | ----- | ----------- | -------------- | ------- |
+| Metaculus      | 1613.62  | 4.64    | 4.64  | 478494147   | 497370.21      | 0.064   |
+| PredictionBook | 45041.92 | 4.64    | 4.64  | 8.29e+11    | 5.31e+7        | 0.064   |
 
 The mean here is ~4.42 years for Metaculus data, and 123.4 years for
 PredictionBook data.
