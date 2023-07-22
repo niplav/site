@@ -309,7 +309,6 @@ Texts
 * Faster algorithm for ontology mapping, first described in [de Blanc 2011](http://intelligence.org/files/OntologicalCrises.pdf)
 * Implement the project described in [Environmental Goals](https://arbital.com/p/environmental_goals/)
 * GPT for STEM data?
-* Is the F-invariance described in Utility Indifference (Armstrong 2010) tiling?
 * Scaling laws for debate
 	* AI safety via debate (Geoffrey Irving/Paul Christiano/Dario Amodei, 2018) test debate on an MNIST classifier with depths 4 and 6, what are the scaling laws for the depth and size of models?
 * Import reddit post about nuclear & ai worries
@@ -431,14 +430,8 @@ Texts
 
 ### Quantified Self
 
-* Are better-looking women more rude during daygame approaches?
-* Are better-looking women less likely to give contact info during daygame?
-* Does exercise improve daygame success?
-* How much does vibe improve daygame performance?
-	* I.e., how much does the density of approaches in the past affect the likelihood of daygame success?
 * Does exercise affect spaced repetition ability?
 * Does masturbation affect spaced repetition ability?
-	* Daygame success?
 * Does meditation affect my happiness?
 * Do blood donations reduce my cognitive function?
 * Does asking for affirmative consent turn women off?
@@ -607,7 +600,7 @@ Texts
 		* Isn't sex good & violence bad‽
 * Maybe a car rant
 * Argument against polyamory
-* Bitcoin maximalism is not even wrong?
+* Bitcoin maximalism is not even wrong
 * Forecasting Track Records: Still Underrated
 	* Argument: Metrics can be Goodharted. Answer: "A solution is technical if it is precise enough to be Goodharted and social if it is imprecise enough to be used to coalitionally extract value"
 * E/acc in a Bathtub-Sized Nutshell
@@ -701,7 +694,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 			* pump up powder/sand/little stones or magma?
 			* in the former case, one also needs electricity at the top
 * Nuking the Amazon Cost-Benefit Analysis
-* What is the most common word I don't use?
 * How Strong is the Gender Difference In Sex Drive?
 	* </usr/local/doc/unread/blackpill/is_there_a_gender_difference_in_strength_of_sex_drive_baumeister_et_al_2001.pdf>
 	* </usr/local/doc/unread/blackpill/in_heterosexual_relationships_men_masturbate_more_than_women_waterink_2014.pdf>
@@ -778,7 +770,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Timeline of the Odyssee
 * Roomba Cost-Benefit Analysis
 * A History of the Term “Rationalist”
-* Weather Affects Daygame Success/Divorce Rates?
 * Wireheading
 	* [Electrical Brain Stimulation](https://en.wikipedia.org/wiki/Electrical_brain_stimulation)
 	* [Wireheading](https://en.wikipedia.org/wiki/Wirehead_\(science_fiction\))
@@ -808,13 +799,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Daygame test! Daygame test!
 	* Also with google surveys for attractiveness before & after
 		* Include decoy lizard question
-* How Many Proton Decays?
-	* How many proton decays should we expect to have happened in the universe so far?
-	* Proton decay follows a geometric distribution
-	* When will the last proton decay?
 * Test computationally whether causal networks have more correlations or causations, project from [here](https://www.gwern.net/Causality#what-a-tangled-net-we-weave-when-first-we-practice-to-believe)
-* Which percentage of random normal-form games are potential games?
-	* 0? (almost none)
 * Find Polygenic scores for subjective well-being and run them through Gwerns Embryo Selection Analysis
 	* See [this section](https://www.gwern.net/Embryo-selection#multiple-selection-on-independent-traits)
 * Testing CFARs techniques and anti-procrastination techniques
@@ -1205,18 +1190,6 @@ Game. Even those odds likely overstate the number of Players in the world.
 	* "If you're not getting stabbed by pretty women you talk to, the women you approach aren't beautiful enough."
 	* "The optimal amount of awkwardness is not zero."
 * The Jam Session DHV
-
-### Questions
-
-* What is the Relation Between Species Size and Species Longvevity?
-* What is the distribution for weight changes during the training of a neural network?
-	* Would one backprop completely destroy or simply slightly modify an inner optimizer?
-* Do mosquitoes prefer certain blood types?
-* Has toothpaste been getting better?
-* What algorithms/finite state machines does a rock implement?
-* What's up with computational universality?
-* Do games with better players shift towards more defense?
-* Import ~/etc/notes/questions
 
 ### Reports
 
@@ -2023,6 +1996,7 @@ Wikipedia Articles
 	* Add section of Self-Assured Destruction
 * Redirect <https://en.wikipedia.org/wiki/Kemeny%E2%80%93Young_method#Comparison_table> and <https://en.wikipedia.org/wiki/Schulze_method#Comparison_table> to <https://en.wikipedia.org/wiki/Comparison_of_electoral_systems#Compliance_of_selected_single-winner_methods>
 * Add the Collingridge Dilemma to the list of eponymous laws?
+* Redirect Rationality Community to LessWrong
 
 Lesswrong wiki
 ---------------

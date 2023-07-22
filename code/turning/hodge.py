@@ -88,3 +88,17 @@ def hodgeresolve(graph):
 	potential=decompose(graph)
 
 	return potential_to_graph(potential)
+
+def residual(graph, resolved):
+	residual=0
+	for e in graph.edges:
+		gw=graph.edges[e[0], e[1]]['weight']
+		if e[0]==e[1]:
+			resolvedw=0
+		elif e in resolved.edges:
+			resolvedw=resolved.edges[e[0], e[1]]['weight']
+		else:
+			resolvedw=-resolved.edges[e[1], e[0]]['weight']
+		residual=residual+(resolvedw-gw)**2
+
+	return residual

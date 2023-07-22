@@ -82,12 +82,17 @@ may well find use as a source of raw material for science fiction authors.
 
 Typo, should be "certain__ly__".
 
-<!--
 > [Stanislaw Lem — Summa Technologiae, comments on prognostication]
 
-TODO: Das Katastrophenprinzip (Stanisław Lem, 1983)
+There is a work by Lem which I have only been able to find references
+to in German. It's called "Das Katastrophenprinzip: Die Welt as
+Holocaust" (Stanisław Lem, 1983). It gives an interesting perspective
+on predictability, stating that the universe is *less* predictable in
+the short term than in the long term. This feels related to notions of
+sophistication from complexity theory, which try to capture the property
+of being complex but not random.
 
-find what this was and refer Sandberg to it-->
+<!--Read & excerpt it, and refer Sandberg to it-->
 
 #### 1.1.5
 

@@ -13,25 +13,17 @@ def subgraph_summary(g, subgraphs, res):
 		if turn.issubgraph(s, res):
 			present_in=1
 			overall_preservation=overall_preservation+1
-		#preservations.write('\t{0},{1},"{2}","{3}","{4}"\n'.format(len(g.nodes), present_in/len(turnings), nsubgraphs, s.edges, g.edges))
-		print('\t{0},{1},"{2}","{3}","{4}"'.format(len(g.nodes), present_in, nsubgraphs, s.edges, g.edges))
+		preservations.write('\t{0},{1},"{2}","{3}","{4}"\n'.format(len(g.nodes), present_in, nsubgraphs, s.edges, g.edges))
+		#print('\t{0},{1},"{2}","{3}","{4}"'.format(len(g.nodes), present_in, nsubgraphs, s.edges, g.edges))
 
-	#preservations.write('{0},{1},{2},"{3}"\n'.format(len(g.nodes), overall_preservation/nsubgraphs, nsubgraphs, g.edges))
-	print('{0},{1},{2},"{3}"'.format(len(g.nodes), overall_preservation/nsubgraphs, nsubgraphs, g.edges))
+	preservations.write('{0},{1},{2},"{3}"\n'.format(len(g.nodes), overall_preservation/nsubgraphs, nsubgraphs, g.edges))
+	#print('{0},{1},{2},"{3}"'.format(len(g.nodes), overall_preservation/nsubgraphs, nsubgraphs, g.edges))
 
 def hodge_summary(g, result):
-	residual=0
-	for e in g.edges:
-		gw=g.edges[e[0], e[1]]['weight']
-		if e[0]==e[1]:
-			resultw=0
-		elif e in result.edges:
-			resultw=result.edges[e[0], e[1]]['weight']
-		else:
-			resultw=-result.edges[e[1], e[0]]['weight']
-		residual=residual+(resultw-gw)**2
-	#residuals.write('{0},{1},"{2}"\n'.format(len(g.nodes), residual, g.edges))
-	print('{0},{1},"{2}"'.format(len(g.nodes), residual, g.edges))
+	residual=hodge.residual(g, result)
+	dominance_preservation=turn.preserves_dominance(g, result)
+	residuals.write('{0},{1},{2},"{3}"\n'.format(len(g.nodes), residual, dominance_preservation, g.edges))
+	#print('{0},{1},{2},"{3}"'.format(len(g.nodes), residual, dominance_preservation, g.edges))
 
 def write_summary(g):
 	wg=hodge.weightgraph(g)
@@ -40,8 +32,8 @@ def write_summary(g):
 	subgraphs=turn.maximal_consistent_subgraphs(g)
 	subgraph_summary(g, subgraphs, res)
 
-#residuals=open('./residuals.csv', mode='w', buffering=1)
-#preservations=open('./subgraphs.csv', mode='w', buffering=1)
+residuals=open('./residuals.csv', mode='w', buffering=1)
+preservations=open('./hodge_subgraphs.csv', mode='w', buffering=1)
 
 for i in range(0,5):
 	graphs=turn.all_directed_graphs(i)
