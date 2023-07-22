@@ -106,10 +106,10 @@ Alternatives:
 
 ### "Patriarchy"
 
-Most feminists today claim that the patriarchy hurts both men *and*
-women.<!--TODO: [citation needed]--> However, the word "patriarchy"
-strongly carries the connotation that men are solely responsible for this,
-which seems not entirely clear.
+Some feminists today claim that the patriarchy hurts [both men *and*
+women](https://geekfeminism.fandom.com/wiki/Patriarchy). However, the
+word "patriarchy" strongly carries the connotation that men are solely
+responsible for this, which seems not entirely clear.
 
 Alternatives:
 
@@ -196,12 +196,13 @@ Personal proposals:
 Naming ASCII Characters
 ------------------------
 
-<!--TODO: Urbit names?-->
-
 Programmers often have to use the ASCII special characters
-`!"#\|%&'()*+,-./:;<=>?@[\]^_{|}~` and \`. However, spelling out
-"exclamation mark" has proven to be cumbersome, which made programmers
-introduce (or use) their own names for these characters.
+`!"#\|%&'()*+,-./:;<=>?@[\]^_{|}~` and \`. However, spelling
+out "exclamation mark" has proven to be cumbersome, which
+made programmers introduce (or use) their own names for these
+characters. [Urbit](https://en.wikipedia.org/wiki/Urbit),
+as always, [drives the idea to its logical
+conclusion](https://developers.urbit.org/reference/hoon/stdlib/4h).
 
 Some proposed names for these<!--TODO: find sources-->:
 
@@ -359,7 +360,7 @@ often use instead.
 * "Equilibria" instead of "equilibrium"
 * "Maxima" instead of "maximum"
 * "Criteria" instead of "criterion"
-* "Stimulus" instead of "stimuli"<!--TODO: the Bailey episode on catgirls-->
+* "Stimulus" instead of "stimuli" (which annoyed me incredibly on [this podcast episode](https://podcasts.apple.com/us/podcast/e016-the-banality-of-catgirls/id1483001784?i=1000494296958))
 
 Equivalences
 -------------
@@ -389,7 +390,7 @@ Better Words
 * [batna](https://en.wikipedia.org/wiki/Best_alternative_to_a_negotiated_agreement): 13 syllables saved over "Best alternative to a negotiated agreement", perhaps acustically too close to "batman"
 * [botec](https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation): 8 syllables saved over "back-of-the-envelope calculation"
 * [exval](https://en.wikipedia.org/wiki/Expected_value): 3 syllables saved compared to "expected value"
-* [ifef](https://en.wikipedia.org/wiki/If_and_only_if): 3 syllables saved over "if and only if"<!--TODO: add link to LessWrong post on this-->
+* [ifef](https://en.wikipedia.org/wiki/If_and_only_if): 3 syllables saved over "if and only if", and [others agree](https://www.lesswrong.com/posts/JuLJbayPQDhZuPXHa/if-and-only-if-should-be-spelled-ifeff)
 * [mece](https://en.wikipedia.org/wiki/MECE_principle)<!--TODO: IPA-->: 12 syllables saved over "[mutually exclusive](https://en.wikipedia.org/wiki/Mutual_exclusivity) and [collectively exhaustive](https://en.wikipedia.org/wiki/Collectively_exhaustive_events)"
 
 Good Bandnames

@@ -30,7 +30,7 @@ do by recording the outcomes. That's what I did.
 | Mindfulness                        | 0.58 (λ=11.8, p=0.0007, 0.021)   | |
 | Productivity                       | 0.58 (λ=28.9, p=1.3-12, 0.11)    | |
 | Creativity                         | 0.38 (λ=32.9, p=5.2-15, 0.09)    | |
-| Happiness                          | 1.27 (λ=10.6, p=0.002, 0.3)      | |
+| Happiness                          | 0.27 (λ=10.6, p=0.002, 0.3)      | |
 | Contentment                        | 0.13 (λ=7.66, p=0.02, 0.47)      | |
 | Relaxation                         | -0.11 (λ=5, p=0.15, 0.42)        | |
 | Chastity[^2]                       | -0.14 (λ=1.9, p=0.64, 0.11)      | |

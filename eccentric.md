@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-20, modified: 2023-07-13, language: english, status: notes, importance: 3, confidence: remote*
+*author: niplav, created: 2022-07-20, modified: 2023-07-22, language: english, status: notes, importance: 3, confidence: remote*
 
 > __What I might do if I magically got hold of a very large amount of
 money, and couldn't spend it maximally altruistically.__
@@ -38,6 +38,7 @@ into at least 2 parts, each parts gets a large pile of fresh snow (to
 minimize the chance of stones in snowballs). People are encouraged to
 bring protective gear to allow for rougher fighting. If one is to allow
 for physical encounters, one'd need to group by fitness/size.
+* __Buy a small island for disaster preparation__
 
 Language
 ---------
@@ -77,35 +78,58 @@ richness ([Ithkuil](https://en.wikipedia.org/wiki/Ithkuil))…<br>
 We know that people can use a constructed language as
 their native tongue, as there are [>1k native Esperanto
 speakers](https://en.wikipedia.org/wiki/Native_Esperanto_speakers) in the
-world. But I do not know of any examples of raising a child primarily on
-a language engineered to exceed the bounds of natural language<!--TODO:
-link youtube video with alleged Lojban speaking to baby?-->. So it would
-interesting to pay some new parents (ideally already both speakers of the
-engineered language) to raise a child with that language. The difficulty
-of achieving this depends on how difficult the target language is to
-learn, and how many speakers there are: Toki Pona should be easiest,
-followed by Lojban (hard to learn, but more speakers) and Láadan
-(perhaps easier to learn, but less developed and few (no?) speakers),
-[Kēlen](https://en.wikipedia.org/wiki/Kēlen) would be quite difficult
-(since there are probably no fluent speakers, and speakers would
-need to be trained) and Ithkuil is probably impossible, as even the
-creator can't speak it fluently.<!--TODO: find out the number of Toki
-Pona/Láadan/Lojban speakers--> I don't know what price parents would
-put on raising one of their children in primarily the constructed
-language, which might be in the highest case several hundreds of
-thousands of dollars per year: If we have two children in different
-families per language, and pick Toki Pona, Láadan, Lojban and Kēlen,
-at \$200k per parent and year, until the child is 18 years old, we pay
-`$\$200000 \cdot 2 \cdot 4 \cdot 18=\$28.8 \text{ mio}$`. We know that
-children can be bilingual, so the danger of inability to communicate
-can basically be excluded—and since money is not a huge issue, one
-could offer a ~\$10mio. insurance against worst-case outcomes. If we
-assume that worst-case outcomes are possible but unlikely<sub>5%</sub>,
-we pay (in expectation) `$4 \cdot 0.05 \cdot \$ 10 \text{ mio.}=\$2\text{
-mio.}$`, for a total of \$30.8 mio.
-* Philosophically Solving Language
-	* Via Conlangs
-	* We have Loglan & Lojban & Láadan & Ithkuil, but there's never been a *concerted* efffort at this?
+world. But I do not know of any examples of raising a child primarily on a
+language engineered to exceed the bounds of natural language, the closest
+being [this video](https://www.youtube.com/watch?v=rewmVNsmz0s). So
+it would interesting to pay some new parents (ideally already
+both speakers of the engineered language) to raise a child with
+that language. The difficulty of achieving this depends on how
+difficult the target language is to learn, and [how many speakers there
+are](https://esperanto.stackexchange.com/questions/1082/how-many-people-speak-esperanto-compared-to-other-planned-languages):
+Toki Pona should be easiest (allegedly has ~100 speakers),
+followed by Lojban (hard to learn, has ~15 speakers) and Láadan
+(perhaps easier to learn, but less developed and there are
+negligibly many speakers (and therefore likely none willing to
+raise a child)), [Kēlen](https://en.wikipedia.org/wiki/Kēlen)
+would be quite difficult (since there are probably no fluent
+speakers, and speakers would need to be trained) and Ithkuil
+is probably impossible, as [even the creator can't speak it
+fluently](https://www.newyorker.com/magazine/2012/12/24/utopian-for-beginners).
+I don't know what price parents would put on raising one of their
+children in primarily the constructed language, which might be in
+the highest case several hundreds of thousands of dollars per year:
+If we have two children in different families per language, and pick
+Toki Pona, Láadan, Lojban and Kēlen, at \$200k per parent and year,
+until the child is 18 years old, we pay `$\$200000 \cdot 2 \cdot 4 \cdot
+18=\$28.8 \text{ mio}$`. We know that children can be bilingual, so the
+danger of inability to communicate can basically be excluded—and since
+money is not a huge issue, one could offer a ~\$10mio. insurance against
+worst-case outcomes. If we assume that worst-case outcomes are possible
+but unlikely<sub>5%</sub>, we pay (in expectation) `$4 \cdot 0.05 \cdot \$
+10 \text{ mio.}=\$2\text{ mio.}$`, for a total of \$30.8 mio.
+* __Philosophically solve language__: Related to raising native speakers
+of engineered conlangs, I am not very impressed by the degree of effort
+that has gone into trying to philosophically solve language—all
+work has been done by hobbyists, without a neat [concentration of
+force](https://www.lesswrong.com/posts/rQKstXH8ZMAdN5iqD/concentration-of-force).
+We have [John
+Wilkin's](https://en.wikipedia.org/wiki/John_Wilkins) [unnamed
+language](https://en.wikipedia.org/wiki/An_Essay_Towards_a_Real_Character,_and_a_Philosophical_Language)
+&_Lojban &
+[aUI](https://en.wikipedia.org/wiki/aUI_\(Constructed_language\))
+& Láadan & Ithkuil, but there's never been a *concerted* effort
+at exploring the space—we e.g. haven't yet tried to create a
+language for [Lullism](https://en.wikipedia.org/wiki/Lullism),
+[deleuzian](https://en.wikipedia.org/wiki/Gilles_Deleuze)
+[post-structuralism](https://en.wikipedia.org/wiki/Post-structuralism)
+or the insights from the [rationality
+community](https://en.wikipedia.org/wiki/LessWrong).  There are
+[reasons to be skeptical](https://gwern.net/language) about the allure
+of philosophically powerful languages, and it's not quite clear what
+*exactly* would be looked for here, but that's all part of the problem
+statement! If we employ 5 philosophers and 5 linguists at \$100k/year for
+10 years, we spend \\$10 mio, and at worst we get some very interesting
+speculation.
 
 Art
 ----
