@@ -17,6 +17,12 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [FTX Foundation wanted to buy the nation of Nauru to save EAs' lives (Eugenics-Adjacent, 2023)](https://forum.effectivealtruism.org/posts/8NgFWTk2puBG5eSJA/ftx-foundation-wanted-to-buy-the-nation-of-nauru-to-save-eas)
+* [Cifal (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Cifal)
+* [Why are we not harder, better, faster, stronger? (Nuño Sempere, 2023)](https://nunosempere.com/blog/2023/07/19/better-harder-faster-stronger/)
+* [Imagining Data Without Division (Thomas Lin, 2013)](https://www.quantamagazine.org/in-big-science-imagining-data-without-division-20130930/)
+* [\* Dual n-Back FAQ (Gwern Branwen, 2019)](https://gwern.net/dnb-faq)
+* \* Grand Futures (Anders Sandberg, 2023)
 * [A Digital Copy of the Universe, Encrypted (Natalie Wolchover, 2013)](https://www.quantamagazine.org/a-digital-copy-of-the-universe-encrypted-20131002/)
 * [Improving Pest Management for Wild Insect Welfare (Wild Animal Initiative, 2019)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/puxyrkSSZ9FEYK6Rm)
 * [A Hill of Validity in Defense of Meaning (Zack M. Davis, 2023)](https://www.lesswrong.com/posts/ZjXtjRQaD2b4PAser/a-hill-of-validity-in-defense-of-meaning)

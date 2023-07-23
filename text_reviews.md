@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-12-30, modified: 2023-07-13, language: english, status: in progress, importance: 3, confidence: opinion*
+*author: niplav, created: 2020-12-30, modified: 2023-07-23, language: english, status: in progress, importance: 3, confidence: opinion*
 
 > __Reading a text is sometimes a big time investment, but people
 don't approach their reading in a structured manner, e.g. by keeping
@@ -314,6 +314,58 @@ Apparently people want to use this as a self-help book‽ Bizarre.
 Satisfactory.
 
 __6.5/10__
+
+### Human Compatible (Stuart Russell, 2019)
+
+> It sounds odd to say that happiness should be an engineering discipline,
+but that seems to be the inevitable conclusion.
+
+*—Stuart Russell, “Human Compatible” p. 123, 2019*
+
+[Another](#What_We_Owe_The_Future_William_MacAskill_2022) book with an
+orange cover, and another popularization of a thing I spend a lot of
+time thinking and reading about. But I like this one much more!
+
+Thoroughly enjoyed the many tidbits from AI history, and the stories
+about semi-successful systems, as well as a preference-utilitarian
+definition of "sadism, envy, resentment and malice", a naive approach
+to meta-reasoning ("just reason about a thing if the expected value of
+reasoning is positive", without talking about the obvious boots-trapping
+problems…but still), learning about the Baldwin effect and the quotes
+about risks from artificial intelligence from Butler's Erewhon.
+
+Skeptical about transformative AI soon, and about the [scaling
+hypothesis](https://www.gwern.net/Scaling-hypothesis), but probably for
+reasons I can't understand. Also this was written before GPT-3, so he
+might've changed his mind since then.
+
+The book *does* assume that [reward is the optimization
+target](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/pdaGN6pQyQarFHXF4),
+and doesn't mention [inner
+optimizers](https://www.lesswrong.com/posts/FkgsxrGf3QxhfLWHG), but your
+popularization of alignment can only do so much. I should really read
+into the whole CIRL/corrigibility debate, any day now.
+
+The book *did* have endnotes, which I hate, but less so than with [What We
+Owe The Future](#What_We_Owe_The_Future_William_MacAskill_2022)—perhaps
+because I got to read the titles of the papers and not just a naked "Foo
+et al. 2010", perhaps because there was just more content per footnote.
+
+> The task is, fortunately, not the following: given a machine that
+possesses a high degree of intelligence, work out how to contol it. If
+that were the task, we would be toast. A machine viewed as a black box,
+a *fait accompli*, might as well have arrived from outer space. And
+our chances of controlling a superintelligent entity from outer space
+are roughly zero. Similar arguments apply to the methods of creating AI
+systems that guarantee we won't understand how they work; these methods
+include *whole-brain emulation*¹—creating souped-up electronic copies
+of human brains—as well as methods based on simulated evolutions of
+programs.² I won't say more about these proposals because they are so
+obviously a bad idea.
+
+*—Stuart Russell, “Human Compatible” p. 171, 2019*
+
+__7.5/10__
 
 LessWrong Yearly Reviews
 -------------------------

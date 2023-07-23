@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2023-07-14, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2023-07-23, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -28,6 +28,9 @@ July 2023
 * [Book Reviews](./text_reviews.html#Book_Reviews)
 	* [What We Owe The Future (William MacAskill, 2022)](./text_reviews.html#What_We_Owe_The_Future_William_MacAskill_2022)
 	* [Attention Span (Gloria Mark, 2023)](./text_reviews.html#Attention_Span_Gloria_Mark_2023)
+	* [Human Compatible (Stuart Russell, 2019)](./text_reviews.html#Human_Compatible_Stuart_Russell_2019)
+* [Turning Some Inconsistent Preferences into Consistent Ones](./turning.html)
+	* [Number of Preserved Inclusion-Maximal Consistent Subgraphs for `$\mathcal{G}_n$`](./turning.html#None_1)
 
 June 2023
 ----------

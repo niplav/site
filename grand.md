@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-07-06, modified: 2023-07-18, language: english, status: in progress, importance: 5, confidence: probable*
+*author: niplav, created: 2023-07-06, modified: 2023-07-22, language: english, status: in progress, importance: 5, confidence: probable*
 
 > __Hi Anders__
 
@@ -100,3 +100,28 @@ of being complex but not random.
 better.
 
 This sentence tripped me up, twice.
+
+#### 1.2.1
+
+In terms of macrohistory, one (self-described) amateur attempt is
+[Muehlhauser
+2017a](http://lukemuehlhauser.com/three-wild-speculations-from-amateur-quantitative-macrohistory/ "Three wild speculations from amateur quantitative macrohistory")
+and [Muehlhauser
+2017b](http://lukemuehlhauser.com/industrial-revolution/ "How big a deal was the Industrial Revolution?"),
+which find that along 5 different metrics, human well-being has been
+improving increasingly rapidly since the industrial revolution.
+
+Also relevant to 1.2.2.
+
+> A pessimistic possibility is that the set of people skilled in core
+competences is so small compared to the overall population today that many
+key technologies would be lost in a fall of civilization. An optimistic
+counterargument may be that in this case many flock to the frarmer or
+smith to learn their skills.
+
+For an investigation into such global collapse at
+current civilizational levels causing human extinction, see [Rodrigues
+2020](https://forum.effectivealtruism.org/posts/GsjmufaebreiaivF7/what-is-the-likelihood-that-civilizational-collapse-would).
+It broadly finds that recovery appears likely in scenarios where less
+than 99.9% of all humans die, and finds extinction unlikely unless more
+than 99.999% of all humans die.
