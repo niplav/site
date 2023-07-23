@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2023-07-06, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2023-07-23, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -67,8 +67,9 @@ Reading
 
 Currently, I am actively reading the following books:
 
+* An Infinitely Large Napkin (Evan Chen, 2023)
 * Die toten Seelen (Nikolai Gogol, 1842)
-* Human Compatible (Stuart Rusell, 2019)
+* Grand Futures (Anders Sandberg, 2023)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * Starting Strength (Lon Kilgore/Mark Rippetoe, 2007)
 * Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2023-06-12, language: english, status: maintenance, importance: 7, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2023-07-22, language: english, status: maintenance, importance: 7, confidence: remote*
 
 > __Is [cryonics](https://en.wikipedia.org/wiki/Cryonics)
 worth it, and if yes, should one
@@ -526,22 +526,54 @@ values.
 
 ### Value of a Lifeyear in the Future
 
-<!-- Dangers from incompetent revival -->
+<!--TODO: Dangers from incompetent revival -->
 
 Much ink and pixels have been spilled on the question of the quality of
 the future, very little of it trying to make accurate or even resolvable
-predictions.<!--TODO: find out what positive/negative/circular/other
-accounts of history are called, link to some source contrasting
-them, or provide some contrasting myself--> One way to look at the
-question could be to find clear metrics that encapsulate the most
-important human values and then fund a prediction market to bet on
-these metrics. This could include the power of humanity to make most
-important decisions regarding its development and resource management,
+predictions. Anders Sandberg summarizes the current approaches:
+
+> Some of this discourse relates to the issue of whether history is
+cyclical, spiralling, progressive or regressive. Is there a particular
+shape to history?  If there is, then this makes a strong long-term
+prediction about the future.  While this could be a teleological arc
+towards completion, it could also be an unavoidable thermodynamic decline,
+the environmentally biased random walk of evolution or an emergent
+trajectory set by a mixture of forces, events and individuals. In
+a sense a sufficiently large-scale macrohistorical theory will tend
+to become a prospective universal history. Still, even the idea of a
+prospective history is tied to a particular (forward-looking, linear)
+concept of time: many macrohistorians have been concerned with very
+different concepts of time and its structure.  
+Another key issue is how the patterns of history are caused and shaped.
+Beside any transcendental or environmental forces shaping history,
+who (if any) are the vanguard? This might for example be enlightened
+leaders (Ssu-Ma Ch’ien, Sarkar), creative elites or intellectuals
+(Toynbee, Gramsci), people seizing power (Khaldun), or the proletariat
+(Marx). An issue that will be relevant in this book is to what degree we
+can expect deliberate shaping of future trajectories to be possible. Many
+macrohistorical theories deny this, since the shape is largely determined
+by general patterns rather than individual decisions, yet some are also
+compatible with contingency and freedom along some dimensions, or that
+certain stages and patterns can be broken under the right conditions.
+
+*—Anders Sandberg, “Grand Futures”, 2023*
+
+One way to look at the question could be to find clear
+metrics that encapsulate the most important human values and
+then fund a prediction market to bet on these metrics. This
+could include the power of humanity to make most important
+decisions regarding its development and resource management,
 diversity among human beings, average happiness and lifespans and
 other variables such as inequality regarding resources (see also [Shulman
-2013](https://reflectivedisequilibrium.blogspot.com/2013/12/what-proxies-to-use-for-flow-through.html "What proxies to use for flow-through effects?")
-for a more extensive list of metrics for flow-through effects, which
-could be used to evaluate the general quality of life in the future).
+2013](https://reflectivedisequilibrium.blogspot.com/2013/12/what-proxies-to-use-for-flow-through.html
+"What proxies to use for flow-through effects?")  for a more
+extensive list of metrics for flow-through effects, which could be
+used to evaluate the general quality of life in the future). [Muehlhauser
+2017a](http://lukemuehlhauser.com/three-wild-speculations-from-amateur-quantitative-macrohistory/ "Three wild speculations from amateur quantitative macrohistory")
+and [Muehlhauser
+2017b](http://lukemuehlhauser.com/industrial-revolution/ "How big a deal was the Industrial Revolution?")
+find that along 5 different metrics, human well-being has been improving
+increasingly rapidly since the industrial revolution.
 
 But a much simpler way of approaching the topic could be the following:
 One takes arguments from both sides (proclaiming positive futures
