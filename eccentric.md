@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-20, modified: 2023-07-22, language: english, status: notes, importance: 3, confidence: remote*
+*author: niplav, created: 2022-07-20, modified: 2023-07-23, language: english, status: notes, importance: 3, confidence: remote*
 
 > __What I might do if I magically got hold of a very large amount of
 money, and couldn't spend it maximally altruistically.__
@@ -29,16 +29,48 @@ wherever I could find the source.
 Culture
 ---------
 
-* __Snowball fights__: I remember having *a lot of* fun with snowball fights
-during breaks in school, but I haven't seen them happen anywhere outside
-since leaving school. People sign up for participating in (moderated)
-snowball fights, and are notified on weekends with especially good snow.
-Large open grassy fields are rented (e.g. a stadium), and separated
-into at least 2 parts, each parts gets a large pile of fresh snow (to
-minimize the chance of stones in snowballs). People are encouraged to
-bring protective gear to allow for rougher fighting. If one is to allow
-for physical encounters, one'd need to group by fitness/size.
-* __Buy a small island for disaster preparation__
+* __Snowball fights__: I remember having *a lot of* fun with snowball
+fights during breaks in school, but I haven't seen them happen anywhere
+outside since leaving school. People sign up for participating in
+(moderated) snowball fights, and are notified on weekends with especially
+good snow.  Large open grassy fields (or perhaps even stadiums) are
+rented, and separated into at least 2 parts, each parts gets a large pile
+of fresh snow (to minimize the chance of stones in snowballs). People are
+encouraged to bring protective gear to allow for rougher fighting. If one
+is to allow for physical encounters, one'd need to group by fitness/size.
+* __Buy a small island__: Since other billionaires are now
+[unable](https://qz.com/sam-bankman-fried-ftx-nauru-court-case-money-laundering-1850662899)
+or unwilling to buy a small remote island for eccentric trillionaire
+purposes, this duty now falls on us. Owning an island has several
+advantages, such as being able to provide shelter during some catastrophic
+events and be a base for organizing other eccentric activities. Plus
+points if the island owned is a nation state, as one could pass ones
+own laws (within the bounds of international agreements, of course).
+Let's say we e.g. try to buy [Nauru](https://en.wikipedia.org/wiki/Nauru)[^1].
+Nauru's GPD is ~\\$135 mio., which at a discount rate of ~5% has a
+[net present value](https://en.wikipedia.org/wiki/Net_present_value)
+of `$\frac{\$135 \text{ mio.}}{0.05}=\$2.7 \text{ bio.}$`,
+which we can round up to \\$3 bio. What if we instead
+try to buy Nauru from each Nauruan individually? The [average
+GDP](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_\(nominal\)_per_capita#Table)
+[per
+capita](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_\(PPP\)_per_capita#Table)
+of Nauru seems to be ~\\$12k, but to be conservative we can round that
+up to \\$15k. Then the net present value (again at 5%) of each Nauruans
+future income is `$\frac{\$15\text{k}}{0.05}=\$300\text{k}$`. There are
+11k Nauruans, which results in an expense of
+`$\frac{\$3 \cdot 10^5}{\text{person}} \cdot 1.1 \cdot 10^4 \text{ persons}=\$3.3 \cdot 10^9$`.
+In both cases, the Nauruans would be giving up a significant amount
+of their civil rights, and might want to find new citizenships, to
+support them with this one could allocate more money so that the sum
+nicely sums up to \\$5bio. So it would be *financially* feasible to
+do this, but would it be politically and legally feasible? I don't
+know about that, and don't know of any precedent either. [Leopold
+II.](https://en.wikipedia.org/wiki/Leopold_II_of_Belgium) privately owned
+the [Congo Free State](https://en.wikipedia.org/wiki/Congo_free_state),
+but I don't think he *bought* it, and instead convinced the other
+European states to be allowed to militarily seize it. (Our intentions
+are far more benevolent (and probably weirder) than Leopold's).
 
 Language
 ---------
@@ -115,7 +147,7 @@ force](https://www.lesswrong.com/posts/rQKstXH8ZMAdN5iqD/concentration-of-force)
 We have [John
 Wilkin's](https://en.wikipedia.org/wiki/John_Wilkins) [unnamed
 language](https://en.wikipedia.org/wiki/An_Essay_Towards_a_Real_Character,_and_a_Philosophical_Language)
-&_Lojban &
+& Lojban &
 [aUI](https://en.wikipedia.org/wiki/aUI_\(Constructed_language\))
 & Láadan & Ithkuil, but there's never been a *concerted* effort
 at exploring the space—we e.g. haven't yet tried to create a
@@ -182,3 +214,5 @@ Metaphilosophy
 			* Same for meditation.
 * Really Out There Stuff Institute (ROTSI)
 	* Focus on exotic decision theories, acausal trade, UDASSA, infinite ethics etc. Global priorities research on steroids.
+
+[^1]: It's not clear that Nauru is the best choice here. While it probably is the smallest nation state that can conceivably be bought, it is not very fertile, and has only limited freshwater reserves, relying mostly on rainwater. The highest point is only 71 metres above sea level, which means that a large part of the island might be at risk of going under water with rising sea levels.

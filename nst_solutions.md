@@ -485,8 +485,9 @@ formulated as follows:
 > Suppose, for instance, that `$\{I_{j}\}$` is a family of sets with
 > domain `$J$`, say; write `$K=\bigcup_{j} I_{j}$`, and let `$\{A_{k}\}$` be
 > a family of sets with domain `$K$`. It is then not difficult to prove that
+
 > <div>
->	$$\bigcup_{k \in K} A_{k}=\bigcup_{j \in J}(\bigcup_{i \in I_{j}} A_{i})$$
+> $$\bigcup_{k \in K} A_{k}=\bigcup_{j \in J}(\bigcup_{i \in I_{j}} A_{i}) $$
 > </div>
 
 Okay, this is all fine and dandy, but where am I going with this? Well,
@@ -1241,7 +1242,7 @@ and `$\text{AOC} \Rightarrow \text{I}$`.
 For `$\text{AOC} \Rightarrow \text{I}$`, let `$\mathcal{C}^{\times}=C_1
 \times C_2 \times \dots$`.  Let `$C^{\times}$` be any element of
 `$\mathcal{C}^{\times}$` (Can we do that? Or does this then circularly
-depend on a choice function on `$\mathcal{C}^{\times}$`?<!-TODO-->). Then
+depend on a choice function on `$\mathcal{C}^{\times}$`?<!--TODO-->). Then
 we can define `$f$` by `$f(C_i)=C^{\times}(i)$` (since `$C^{\times}$`
 is a tuple).
 

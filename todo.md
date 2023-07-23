@@ -1881,71 +1881,24 @@ Wikipedia Articles
 
 ### Create
 
-* Enhanced/Extended Suffix Array
-* Shapley Saddle
-* List of Animals by Number of Eyes
-* Weisfeiler-Lehman algorithm (or add stuff to Colour refinement algorithm article)
-* Brandes' algorithm
-* IC/IC\* algorithm
 * Causal Inference pages
 	* do operator
 	* Back-door/Front-door criterion
-* Place premium
-* Pigou bound
-* Myerson's Lemma
-* Bulow-Klemperer Theorem
-* Population Ethics pages
-	* Sadistic conclusion
-	* Critical-threshold approaches
-* Daniel Ingram
-* Pragmatic Dharma
-* Kenneth Folk
 * Experience Replay (see Deep Q-Network (“DQN”; Mnih et al. 2015))
-* Cantril Ladder
 * Choice set, choice function, contraction/expansion consistency (all in the context of social choice theory, see Gaertner 2009 p. 7-9)
-* Axelrod's Meta-Norm
-* Open-source game theory
-* 9front
-* Russ Cox
-* Humane Technology
-* Chris Olah
-* Machine Learning Interpretability
-	* Circuit
-	* Induction head?
-* Lottery Ticket Hypothesis
-* Grokking
-* Deep Double Descent
-* French 79
 * Credibility formula (see <https://en.wikipedia.org/wiki/Imdb#Rankings>)
 * Nanosystems: Molecular Machinery Manufacturing and Computation
-* Global Priorities Institute
-* LLD (LLVM linker)
-* Scaling Laws for Large Language Models
-* Bounded Agency
-* Pentagon 2023 leaks
 * Devonian Toolkit
 	* <https://www.annualreviews.org/doi/full/10.1146/annurev-ento-011613-162041>
-* Participation (social choice theory)
 * Banks Set (social choice theory)
 * Hodge Decomposition from combinatorial hodge theory
-* Hyllands theorem
-* Slater's problem
-* Structural Regular Expressions
 * Minimalist conjecture (see [here](https://www.quantamagazine.org/mathematicians-shed-light-on-minimalist-conjecture-20130709/))
 
 ### Improve
 
-* Short pages with α in improvement
-	* Futarchy
-	* [Harberger Tax](https://en.wikipedia.org/wiki/Harberger_Tax)
-	* Landau set
-		* Add some true facts about the Landau set (look at notes)
-		* Add algorithm for computing it, and statements about difficulty of computing it
-	* Sophistication (complexity theory)
 * [Maximal pair](https://en.wikipedia.org/wiki/Maximal_pair)
 	* Add examples
 	* Add description of MUMs
-* Judea Pearl
 * Patri Friedman site states he considers himself a rationalist, but that links to the page on philosophical rationalism, while I suspect this refers to the LW variety
 * What the fuck is going on with the The Gods Themselves page?
 * Wikipedia pages on symbols in mathematics and physics are sprawling and confused, clean them up
@@ -1990,13 +1943,6 @@ Wikipedia Articles
 	* Add mathematical formula/pseudocode/Python algorithm to the article
 * MDMA
 	* Add that people who consume MDMA grind their teeth, and a common method used to assuage that is to chew chewing gum during while rolling
-* Gibbard's Theorem
-	* Add section on Gibbard's 1978 theorem
-* Mutually Assured Destruction
-	* Add section of Self-Assured Destruction
-* Redirect <https://en.wikipedia.org/wiki/Kemeny%E2%80%93Young_method#Comparison_table> and <https://en.wikipedia.org/wiki/Schulze_method#Comparison_table> to <https://en.wikipedia.org/wiki/Comparison_of_electoral_systems#Compliance_of_selected_single-winner_methods>
-* Add the Collingridge Dilemma to the list of eponymous laws?
-* Redirect Rationality Community to LessWrong
 
 Lesswrong wiki
 ---------------
