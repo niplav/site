@@ -16,6 +16,14 @@ For flashcards, if I include the screenshot of an algorithm, the goal
 is not to learn the algorithm by heart in all detail, but have a good
 mental model of how it works.
 
+“An Infinitely Large Napkin”
+-----------------------------
+
+* Flashcards
+* Solutions
+* Read
+	* p. 1-48
+
 “Maths for Intelligent Systems”
 --------------------------------
 

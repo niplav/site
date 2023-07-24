@@ -125,3 +125,35 @@ current civilizational levels causing human extinction, see [Rodrigues
 It broadly finds that recovery appears likely in scenarios where less
 than 99.9% of all humans die, and finds extinction unlikely unless more
 than 99.999% of all humans die.
+
+#### 1.2.3
+
+> although underground storage aims at storage for `$1 \times 10^5 yr$`
+
+Word storage is repeated, perhaps use another term? Maybe use "safety for"
+instead of "storage for".
+
+> *La tombe du soldat inconnu* in Paris has been guarded and with a lit
+eternal flame since 1920.
+
+There is a large amount of ["eternal"
+flames](https://en.wikipedia.org/wiki/Eternal_flame) around the world. I
+don't know of any dataset that estimates the age of such eternal flames,
+and their failure rates.
+
+<!--
+> An oft recounted tale that an Oxford college needed timber to repair
+the great hall and found that it owned a forest planted 500 years ago
+for that very purpose appears to be merely a good tale.
+
+TODO: find out whether similar Notre-Dame rumor is true.
+
+<https://www.architecturaldigest.com/story/two-years-later-heres-latest-notre-dames-restoration/amp>
+-->
+
+#### 1.2.4
+
+> This is not merely large constructions such a Bering Strait bridge or
+a trans-oceanic subway *in* the world
+
+Shouldn't it be "such *as* a Bering Strait bridge"?
