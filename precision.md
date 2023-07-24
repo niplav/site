@@ -203,6 +203,13 @@ One can now eyeball this plot and try to determine the point where the
 difference in Brier score starts diverging from 0, which I would put at
 around 0.25 bits.
 
+Usage
+------
+
+Given the precision of some forecaster or forecasting platform, one can
+much easier perform sensitivity analysis (especially after correcting
+for miscalibration).
+
 Appendix A: Conditions for a Precision Evaluation Function
 ------------------------------------------------------------
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-07-17, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-07-24, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,9 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Search Escalates for Key to Why Matter Exists (Natalie Wolchover, 2013)](https://www.quantamagazine.org/neutrino-experiment-intensifies-effort-to-explain-matter-antimatter-asymmetry-20131015/)
+* [An Introduction to Kēlen (Sylvia Sotomayor, 2019)](http://www.terjemar.net/kelen/kelen.php)
+* [This is an Essay: The Language and Legacy of Láadan (Evidently) (Kelly Rafey, 2015)](https://tortoise.princeton.edu/2015/10/18/language-and-legacy-of-laadan/)
 * [FTX Foundation wanted to buy the nation of Nauru to save EAs' lives (Eugenics-Adjacent, 2023)](https://forum.effectivealtruism.org/posts/8NgFWTk2puBG5eSJA/ftx-foundation-wanted-to-buy-the-nation-of-nauru-to-save-eas)
 * [Cifal (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Cifal)
 * [Why are we not harder, better, faster, stronger? (Nuño Sempere, 2023)](https://nunosempere.com/blog/2023/07/19/better-harder-faster-stronger/)
