@@ -71,6 +71,7 @@ the [Congo Free State](https://en.wikipedia.org/wiki/Congo_free_state),
 but I don't think he *bought* it, and instead convinced the other
 European states to be allowed to militarily seize it. (Our intentions
 are far more benevolent (and probably weirder) than Leopold's).
+* __[You Can Do Futarchy Yourself](https://www.lesswrong.com/posts/qZXy8kGkNFyqCfHEJ/you-can-do-futarchy-yourself) on Steroids__
 
 Language
 ---------
@@ -89,11 +90,11 @@ has rate of language death sped up? Read around to figure this out-->. To
 do this, we employ linguists to learn each of the the endangered languages
 and practice it. 10 linguists per language should be enough, so we
 employ 5000 of them at ~\\$50k a year, for 4 years, to spend learning the
-language full-time, which yields us expenses of ~\\$1bio. Then say that
+language full-time, which yields us expenses of ~\\$1 bio. Then say that
 we continue employing them part-time for 20 years to continue practicing
 until we've found a way to permanently store the languages, for example
 by training large language models (text and audio) on those languages;
-this would give us (at \\$10k salary a year) another \\$1bio. in expenses,
+this would give us (at \\$10k salary a year) another \\$1 bio. in expenses,
 plus whatever cost the preservation procedure entails.
 * __Raise native speakers of an engineered
 conlang__: Spurred on by the [Sapir-Whorf
@@ -135,7 +136,7 @@ Toki Pona, Láadan, Lojban and Kēlen, at \$200k per parent and year,
 until the child is 18 years old, we pay `$\$200000 \cdot 2 \cdot 4 \cdot
 18=\$28.8 \text{ mio}$`. We know that children can be bilingual, so the
 danger of inability to communicate can basically be excluded—and since
-money is not a huge issue, one could offer a ~\$10mio. insurance against
+money is not a huge issue, one could offer a ~\$10 mio. insurance against
 worst-case outcomes. If we assume that worst-case outcomes are possible
 but unlikely<sub>5%</sub>, we pay (in expectation) `$4 \cdot 0.05 \cdot \$
 10 \text{ mio.}=\$2\text{ mio.}$`, for a total of \$30.8 mio.
@@ -166,8 +167,60 @@ speculation.
 Art
 ----
 
-* A good series set in the SCP Universe
-	* Spinoff series set in the antimemetics division
+* __SCP series__: The [SCP Foundation Wiki](http://www.scp-wiki.net/)
+is probably the most successful collaborative fiction writing project of
+the internet age (though probably not the most successful collaborative
+fiction project ever; any medium-large scale religious mythology has
+higher longevity, more detail & more consistency than SCP). It has
+inspired [an animated series](https://www.imdb.com/title/tt9872610/)[^2]
+[and](https://www.imdb.com/title/tt13484102/) [some]()
+[short]() [films]()<!--TODO: more links here-->, as well as
+[several](https://www.amazon.com/dp/B09766RWR8)<!--TODO:
+Antimemetics goodreads link instead-->
+[books](https://boingboing.net/2021/06/12/graphic-novel-about-one-of-the-most-epic-scp-foundation-entires.html).<!--TODO:
+link some clamoring that a professional
+series be made?--> However, the [creative commons
+license](https://en.wikipedia.org/wiki/Creative_Commons_license) used
+for the SCP wiki content (CC-BY-SA-3.0) has hindered the development of
+a professional adaption—technically using the material for commercial
+purposes is possible, but the share-alike property demands that the
+produced works be freely copyable and under a license no more restrictive
+than the original license. So the production of such a professional
+series would be, after all, a public good. But that doesn't concern us,
+the eccentric trillionaire: We just want some cool SCP content to watch.
+The SCP universe lends itself to an anthology series like [Love,
+Death & Robots](https://en.wikipedia.org/wiki/Love,_Death_&_Robots)
+or [The Animatrix](https://en.wikipedia.org/wiki/The_Animatrix),
+e.g. following [MTF Omega-7 ("Pandora's Box") with
+Able](http://www.scp-wiki.net/scp-076-2) (showing the uneasy situation
+the Foundation finds itself in, caught between the Scylla of using
+SCPs but with potentially disastrous outcomes, and the charybdis of
+being crushed and consumed by the anomalous world around it), or [the
+Reluctant Dimension Hopper](http://scp-wiki.wikidot.com/scp-507)
+on some of his unfortunate travels, a
+[slice-of-life](https://en.wikipedia.org/wiki/Slice_of_life)-with-a-twist
+episode with a member of one of the [Gamers Against
+Weed](https://www.scp-wiki.net/gamers-against-weed-dossier),
+a [Pythonesque](https://en.wikipedia.org/wiki/Monty_Python)
+sketch on someone (unsuccessfully) trying to explain [SCP
+426](https://www.scp-wiki.net/scp-426) to someone else, a short episode
+with the content of [Revenants](https://scp-wiki.wikidot.com/revenants),
+a little exploration of the [log of anomalous
+items](https://www.scp-wiki.net/log-of-anomalous-items) in form of
+an introduction to a new foundation researcher…
+What budget one would need to be is not quite as clear, on the high end
+[Game of Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones)
+commanded a budget of >\\$600 mio. for 73
+episodes, and [The Lord of the Rings: The Rings of
+Power](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Rings_of_Power)
+has a committed budget of at least \\$1 bio. for 5 seasons. I haven't
+been able to find information on the budget of Love, Death & Robots or
+The Animatrix. Spending \\$1 bio. on an SCP series is not unthinkable
+in this case.
+	* __Spinoff with Antimemetics Division__: Of course I can't
+	neglect my favorite work of fiction: The novel [There Is No
+	Antimemetics Division](https://www.amazon.com/dp/B09766RWR8)
+	would lend itself well to a one-season spinoff.
 * Hard Takeoff Movie
 	* Humans die in the first minute, space megastructure & multiverse-wide cooperation & later ontokinetics shenanigans follow
 * Double Crux: The Podcast. Super long (>>10h) discussions between two people trying to resolve a mutual disagreement, with moderation and fact checking help
@@ -215,4 +268,5 @@ Metaphilosophy
 * Really Out There Stuff Institute (ROTSI)
 	* Focus on exotic decision theories, acausal trade, UDASSA, infinite ethics etc. Global priorities research on steroids.
 
-[^1]: It's not clear that Nauru is the best choice here. While it probably is the smallest nation state that can conceivably be bought, it is not very fertile, and has only limited freshwater reserves, relying mostly on rainwater. The highest point is only 71 metres above sea level, which means that a large part of the island might be at risk of going under water with rising sea levels.
+[^1]: It's not clear that Nauru is the best choice here. While it probably is the smallest nation state that can conceivably be bought (I don't think there is any realistic (or unrealistic) amount of money for which Vatican City could be acquired), it is not very fertile, and has only limited freshwater reserves, relying mostly on rainwater. The highest point is only 71 metres above sea level, which means that a large part of the island might be at risk of going under water with rising sea levels.
+[^2]: Rest in peace.<!--TODO: link-->

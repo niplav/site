@@ -6,15 +6,14 @@ import turn
 
 def subgraph_summary(g, subgraphs, res):
 	overall_preservation=0
-	present_in=0
 	nsubgraphs=len(subgraphs)
 	for s in subgraphs:
 		present_in=0
 		if turn.issubgraph(s, res):
 			present_in=1
 			overall_preservation=overall_preservation+1
-		preservations.write('\t{0},{1},"{2}","{3}","{4}"\n'.format(len(g.nodes), present_in, nsubgraphs, s.edges, g.edges))
-		#print('\t{0},{1},"{2}","{3}","{4}"'.format(len(g.nodes), present_in, nsubgraphs, s.edges, g.edges))
+		preservations.write('\t{0},{1},{2},"{3}","{4}"\n'.format(len(g.nodes), present_in, nsubgraphs, s.edges, g.edges))
+		#print('\t{0},{1},{2},"{3}","{4}"'.format(len(g.nodes), present_in, nsubgraphs, s.edges, g.edges))
 
 	preservations.write('{0},{1},{2},"{3}"\n'.format(len(g.nodes), overall_preservation/nsubgraphs, nsubgraphs, g.edges))
 	#print('{0},{1},{2},"{3}"'.format(len(g.nodes), overall_preservation/nsubgraphs, nsubgraphs, g.edges))
@@ -32,7 +31,7 @@ def write_summary(g):
 	subgraphs=turn.maximal_consistent_subgraphs(g)
 	subgraph_summary(g, subgraphs, res)
 
-residuals=open('./residuals.csv', mode='w', buffering=1)
+residuals=open('./hodge_residuals.csv', mode='w', buffering=1)
 preservations=open('./hodge_subgraphs.csv', mode='w', buffering=1)
 
 for i in range(0,5):

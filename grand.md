@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-07-06, modified: 2023-07-22, language: english, status: in progress, importance: 5, confidence: probable*
+*author: niplav, created: 2023-07-06, modified: 2023-07-26, language: english, status: in progress, importance: 5, confidence: probable*
 
 > __Hi Anders__
 
@@ -157,3 +157,17 @@ TODO: find out whether similar Notre-Dame rumor is true.
 a trans-oceanic subway *in* the world
 
 Shouldn't it be "such *as* a Bering Strait bridge"?
+
+#### 1.2.5
+
+> I.__J__. Rabi
+
+Should be 'I.I. Rabi'.
+
+#### 1.2.6
+
+> It dealt with not just eugenics ([…]) but that human evolution
+would become a result of cultural or political decisions.
+
+The part after the parentheses might benefit from two or three more words,
+"but also with the hypothesis that […]".

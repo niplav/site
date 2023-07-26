@@ -489,6 +489,7 @@ Texts
 	* CBD/THC
 	* Testosterone
 	* Take inspiration from [Gwern](https://www.gwern.net/Nootropics), of course
+* Accutane literature review
 
 ### Arguments
 

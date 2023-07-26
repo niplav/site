@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-07-24, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-07-26, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,9 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Topological censorship (English Wikipedia, 2023)](https:/en.wikipedia.org/wiki/Topological_censorship)
+* Learning the Preferences of Ignorant, Inconsistent Agents (Andreas Stuhlmüller/Owain Evans/Noah D. Goodman, 2016)
+* ["Justice, Cherryl." (Zack M. Davis, 2023)](https://www.lesswrong.com/posts/vfjptEJ2oahLqRyZz/justice-cherryl)
 * [Search Escalates for Key to Why Matter Exists (Natalie Wolchover, 2013)](https://www.quantamagazine.org/neutrino-experiment-intensifies-effort-to-explain-matter-antimatter-asymmetry-20131015/)
 * [An Introduction to Kēlen (Sylvia Sotomayor, 2019)](http://www.terjemar.net/kelen/kelen.php)
 * [This is an Essay: The Language and Legacy of Láadan (Evidently) (Kelly Rafey, 2015)](https://tortoise.princeton.edu/2015/10/18/language-and-legacy-of-laadan/)
