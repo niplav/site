@@ -12,7 +12,7 @@ def subgraph_summary(g, subgraphs, turnings):
 			if turn.issubgraph(s,t):
 				present_in=present_in+1
 		overall_preservation=overall_preservation+present_in/len(turnings)
-		preservations.write('\t{0},{1},"{2}","{3}","{4}"\n'.format(len(g.nodes), present_in/len(turnings), nsubgraphs, s.edges, g.edges))
+		preservations.write('\t{0},{1},{2},"{3}","{4}"\n'.format(len(g.nodes), present_in/len(turnings), nsubgraphs, s.edges, g.edges))
 	preservations.write('{0},{1},{2},"{3}"\n'.format(len(g.nodes), overall_preservation/len(subgraphs), nsubgraphs, g.edges))
 
 def turn_summary(g, turnings):
@@ -25,20 +25,15 @@ def write_summary(g):
 	subgraphs=turn.maximal_consistent_subgraphs(g)
 	subgraph_summary(g, subgraphs, turnings)
 
-confusions=open('./confusions_fast.csv', mode='w', buffering=1)
-preservations=open('./subgraphs_fast.csv', mode='w', buffering=1)
+confusions=open('./eged_confusions.csv', mode='w', buffering=1)
+preservations=open('./eged_subgraphs.csv', mode='w', buffering=1)
 
-#for i in range(0,5):
-#	graphs=turn.all_directed_graphs(i)
-#	for g in graphs:
-#		write_summary(g)
+for i in range(0,5):
+	graphs=turn.all_directed_graphs(i)
+	for g in graphs:
+		write_summary(g)
 
-last=nx.DiGraph()
-for i in range(1,5):
-	last.add_node(i, ind=i+1)
-last.add_edges_from([(1,2), (1,5), (2,4), (4,3), (5,4)])
-
-turn.map_5_graphs(write_summary, resume_at=last)
+turn.map_5_graphs(write_summary)
 
 lim=16
 samples=65536

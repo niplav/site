@@ -33,9 +33,11 @@ def turn_all(graph):
 			results.add(pathgraph)
 	return results
 
-def stepwise(graph):
+def stepwise(g):
 	decycleds=set()
 	solutions=set()
+
+	graph=g.copy()
 
 	graph.remove_edges_from([(x,x) for x in graph.nodes])
 
@@ -57,11 +59,6 @@ def stepwise(graph):
 			continue
 
 		solutions.update(set(totalizations(decycled)))
-
-	#for x, y in it.combinations(solutions, 2):
-	#	if gequals(x,y):
-	#		solutions.discard(x)
-	#		print("found duplicate ", y)
 
 	return solutions
 
@@ -131,7 +128,6 @@ def maximal_consistent_subgraphs(graph):
 	return list(maximal_consistencies)
 
 def preserves_dominance(graph, result):
-
 	try:
 		if not nx.is_weakly_connected(graph):
 			return True
@@ -142,9 +138,9 @@ def preserves_dominance(graph, result):
 
 	result_tmp=result.copy()
 	for p in dominating_sets:
-		if not is_dominating_set(result, p):
+		if not is_dominating_set(result_tmp, p):
 			return False
-		result.remove_nodes_from(p)
+		result_tmp.remove_nodes_from(p)
 
 	return True
 
@@ -241,7 +237,7 @@ def gequals(g, h):
 	return set(g.edges).issubset(set(h.edges)) and set(h.edges).issubset(set(g.edges))
 
 def issubgraph(s, g):
-	return set(s.nodes).issubset(set(g.nodes)) and set(s.edges).issubset(set(g.edges))
+	return set(s.edges) <= (set(g.edges))
 
 def is_acyclic(graph):
 	try:

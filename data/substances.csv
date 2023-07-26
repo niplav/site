@@ -252,3 +252,6 @@ datetime,substance,amount,experiment,id,prediction
 2023-07-23T10:42:23+02:00,l-theanine,500mg,B,16,0.7
 2023-07-24T01:20:00+02:00,creatine,3g,,,
 2023-07-24T13:47:51+02:00,l-theanine,500mg,B,17,0.4
+2023-07-24T23:05:39+02:00,melatonin,0.725mg,,,
+2023-07-25T11:42:44+02:00,l-theanine,500mg,B,18,0.4
+2023-07-26T08:46:00+02:00,l-theanine,500mg,B,19,0.6
