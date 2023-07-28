@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-07-03, modified: 2023-07-03, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2023-07-03, modified: 2023-07-27, language: english, status: notes, importance: 3, confidence: log*
 
 > __.__
 
@@ -61,3 +61,5 @@ maintained.
 * Try to be mindful of your posture – how straight is your back, where are your shoulders? Maybe [set up a random timer that reminds you to do this](https://play.google.com/store/apps/details?id=com.multiordinal.nom&hl=en_US&gl=US).
 * Learn the basics of dressing well, then refactor your wardrobe (starting point [for men](https://old.reddit.com/r/malefashionadvice/wiki/index), practical information for women seems to need no resource).
 * Learn the basics of investing, and actually put some money into it.
+* Learn to recognize temperature/time duration/length.
+* Play [GeoGuessr](https://en.wikipedia.org/wiki/GeoGuessr) until you are pretty good at locating yourself anywhere in the world. People can learn this to a surprising degree.<!--TODO: link Rainbolt or similar video, complain about meta-->

@@ -287,5 +287,4 @@ mediumres=turn(mediumgraph)
 
 bigrev=nx.DiGraph()
 bigrev_opts=['a','b','c','d','m1','m2','m3','m4','m5']
-#TODO: finish the edges
-bigrev.add_edges_from([('a','d'),('d','b')])
+bigrev.add_edges_from([('a','m1'), ('m1', 'b'), ('a', 'b'), ('b', 'm2'), ('m2','c'), ('b', 'c'), ('a', 'm3'), ('m3', 'd'), ('a', 'd'), ('d', 'm4'), ('m4', 'c'), ('d', 'c'), ('c', 'm5'), ('m5', 'a'), ('c', 'a')])
