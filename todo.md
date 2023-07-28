@@ -199,33 +199,16 @@ Texts
 		If we can't develop explicit numerical models, why
 		not train people in becoming good at estimating the future,
 		but this time with probabilistic estimates?
-* Why not Earlier Forecasting?
-	* Maybe not Big Advantage?
-	* Needs Infrastructure: Takes months/years to bring fruits
-	* People would be wrong
-	* Focus on explicit models instead
-* Forecasting, Science and Crystal Balls
-* Forecasting Contra Credentials
-	* Forecasting Stays Relevant to the Topic
-	* Forecasting Remembers, the Public May Not
-	* Forecasting has Faster Feedback
-	* Is Forecasting Harder to Game?
-	* Less Susceptible to Social Biases like Charisma
 * Comparing Forecasting Accuracy Between the Good Judgment Project and Metaculus
 	* <https://www.openphilanthropy.org/blog/forecasting-covid-19-pandemic>
 	* <https://pandemic.metaculus.com/questions/>
-* Extracting Probabilities from Stock Markets
 * The "At-the-time best possible forecast"
 	* Not literally best possible forecast
 	* But for humans at the time with the available information
-* An aggregation of all of Scott Alexander's forecasting results in one place
-* Judgmental Forecasting as a Social Technology
-* Practical Forecasting Handbook
 * Addenda to the Prediction Market FAQ
 	* <https://astralcodexten.substack.com/p/prediction-market-faq>
 * Comparing Forecasts on a wide range of platforms
 	* Use <https://github.com/stanlyfok/sentence2vec> to compare questions
-* Literature review of different forecasting techniques
 
 ### Population
 
@@ -823,8 +806,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Post-mortem on liquid democracy in the real world
 * Investigate [this post empirically](http://www.overcomingbias.com/2007/02/is_truth_in_the.html) via information from forecasting datasets
 * Daygame Locations as a Multi-Armed Bandit
-* Acausalism
-* Lucid Dreaming Cost-Benefit Analysis
 * Pomodoro Experiment
 	* Apparently pomodoro technique has not been investigated empirically‽
 	* See Attention Span (Mark 2023) p. 66
@@ -872,7 +853,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 			* Problem: getting harder the more products come into the information domain
 		* Open-source model: free work
 	* This is essentially a discussion about how to finance public goods
-* Aesthematics
+* Æsthematics
 	* Infinite Fractal Meta Recursion
 		* This is possibly just the ordinal numbers
 	* Mendeljew Operator
@@ -971,9 +952,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Substitution of variables in formulas: order is _bad_ & _wrong_
 * Recommendations
 	* Activities/Movies/Series/Podcasts/Books/Blogposts
-* Cool Things Humans Can Learn
-	* Inspiration from [here](https://www.lesswrong.com/posts/knLZY52Yx9G23u3Ka/insufficiently-awesome?commentId=4AevGHrCQMbWaoan9)
-	* Recognize temperature, time duration, object length, position on the globe
 * Notes on a Grand Plan to Learn Everything
 	* Exploration
 		* Read Wikipedia with [this method](./notes.html#Getting_an_Overview_Over_Everything)
@@ -1221,16 +1199,6 @@ Game. Even those odds likely overstate the number of Players in the world.
 * Evolution as a Tautology
 	* Structures that are Better at Self-Replication will Eventually be More Common than the Ones Which are Not
 * A Collection of Screenshots from “Legend of the Galactic Heroes”
-* Very Specific Psychedelic Qualia
-	* №1: “Inverse Capgraps Syndrome”
-		*	You locate a specific person while also being fully able to understand
-			that the person is not visible, audible, and can not be felt or smelled.
-			For example, you would say: "I perceive Steven sitting on the chair"
-			while not seeing Steven, hearing or feeling him, and being fully aware
-			of these facts.
-	* №2: “The Infinite Room-Accordion Thinks Itself”
-	* №3: “Very Very Long Now”
-	* №4: “Young & Blocky Consciousness“
 * Coding Standards
 	* General Project Setup
 	* C

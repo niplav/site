@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-03-04, modified: 2023-07-13, language: english, status: notes, importance: 8, confidence: likely*
+*author: niplav, created: 2022-03-04, modified: 2023-07-25, language: english, status: notes, importance: 8, confidence: likely*
 
 > __Representing inconsistent preferences with specific mathematical
 structures can clarify thoughts about how to make those preferences

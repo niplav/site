@@ -498,6 +498,7 @@ See again [Examine](https://examine.com/supplements/theanine/research/),
 Notes during consumption:
 
 * 1st dose: Made a mistake while filling the envelopes, accidentally deblinded myself.
+* 19th dose: Took L-Theanine & did my routine, then took a nap and woke up 3 hours later.
 
 Melatonin
 ----------

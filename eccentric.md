@@ -173,13 +173,18 @@ the internet age (though probably not the most successful collaborative
 fiction project ever; any medium-large scale religious mythology has
 higher longevity, more detail & more consistency than SCP). It has
 inspired [an animated series](https://www.imdb.com/title/tt9872610/)[^2]
-[and](https://www.imdb.com/title/tt13484102/) [some]()
-[short]() [films]()<!--TODO: more links here-->, as well as
-[several](https://www.amazon.com/dp/B09766RWR8)<!--TODO:
-Antimemetics goodreads link instead-->
-[books](https://boingboing.net/2021/06/12/graphic-novel-about-one-of-the-most-epic-scp-foundation-entires.html).<!--TODO:
-link some clamoring that a professional
-series be made?--> However, the [creative commons
+[and](https://www.imdb.com/title/tt13484102/)
+[some](https://www.youtube.com/watch?v=MEOZkf4imaM)
+[short](https://www.youtube.com/watch?v=1MFurJmxNCs)
+[films](https://www.youtube.com/watch?v=OoCGiSzWIa4), as
+well as [several](https://www.goodreads.com/en/book/show/54870256)
+[books](https://boingboing.net/2021/06/12/graphic-novel-about-one-of-the-most-epic-scp-foundation-entires.html).
+However, despite the [clamorings of
+the](https://old.reddit.com/r/SCP/comments/14fiss1/what_do_you_think_is_the_best_way_to_adapt_scp/)
+[of
+the](https://old.reddit.com/r/SCP/comments/157mw35/scp_foundation_the_series/)
+[community](https://old.reddit.com/r/SCP/comments/157mw35/scp_foundation_the_series/),
+the [creative commons
 license](https://en.wikipedia.org/wiki/Creative_Commons_license) used
 for the SCP wiki content (CC-BY-SA-3.0) has hindered the development of
 a professional adaption—technically using the material for commercial
@@ -206,12 +211,11 @@ sketch on someone (unsuccessfully) trying to explain [SCP
 426](https://www.scp-wiki.net/scp-426) to someone else, a short episode
 with the content of [Revenants](https://scp-wiki.wikidot.com/revenants),
 a little exploration of the [log of anomalous
-items](https://www.scp-wiki.net/log-of-anomalous-items) in form of
-an introduction to a new foundation researcher…
-What budget one would need to be is not quite as clear, on the high end
-[Game of Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones)
-commanded a budget of >\\$600 mio. for 73
-episodes, and [The Lord of the Rings: The Rings of
+items](https://www.scp-wiki.net/log-of-anomalous-items) in form
+of an introduction to a new foundation researcher… What budget
+one would need to be is not quite as clear, on the high end [Game of
+Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones) commanded a budget
+of >\\$600 mio. for 73 episodes, and [The Lord of the Rings: The Rings of
 Power](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Rings_of_Power)
 has a committed budget of at least \\$1 bio. for 5 seasons. I haven't
 been able to find information on the budget of Love, Death & Robots or
@@ -219,7 +223,7 @@ The Animatrix. Spending \\$1 bio. on an SCP series is not unthinkable
 in this case.
 	* __Spinoff with Antimemetics Division__: Of course I can't
 	neglect my favorite work of fiction: The novel [There Is No
-	Antimemetics Division](https://www.amazon.com/dp/B09766RWR8)
+	Antimemetics Division](https://www.goodreads.com/en/book/show/54870256)
 	would lend itself well to a one-season spinoff.
 * Hard Takeoff Movie
 	* Humans die in the first minute, space megastructure & multiverse-wide cooperation & later ontokinetics shenanigans follow
@@ -269,4 +273,4 @@ Metaphilosophy
 	* Focus on exotic decision theories, acausal trade, UDASSA, infinite ethics etc. Global priorities research on steroids.
 
 [^1]: It's not clear that Nauru is the best choice here. While it probably is the smallest nation state that can conceivably be bought (I don't think there is any realistic (or unrealistic) amount of money for which Vatican City could be acquired), it is not very fertile, and has only limited freshwater reserves, relying mostly on rainwater. The highest point is only 71 metres above sea level, which means that a large part of the island might be at risk of going under water with rising sea levels.
-[^2]: Rest in peace.<!--TODO: link-->
+[^2]: [Rest in peace](https://old.reddit.com/r/SCP/comments/1434kh7/the_whole_scp_confinement_situation_is_both/).
