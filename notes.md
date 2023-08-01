@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2023-07-17, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2023-07-31, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2110,10 +2110,10 @@ in particular decreases meditation quality: The retreats of
 forbid any sexual activity, and [Taoist sexual practices recommend semen
 retention](https://en.wikipedia.org/wiki/Taoist_sexual_practices#Male_control_of_ejaculation).
 Since I track both [my meditations](./data.html#Meditation) and
-[masturbations](./data.html#Masturbation), I can check whether this is
-observationally true. Of course results from observational data can be due
-to confounders, but such results are more valuable than pure speculation,
-and may point to possible experimental investigations.
+[(a.m.a.b.) masturbations](./data.html#Masturbation), I can check whether
+this is observationally true. Of course results from observational data
+can be due to confounders, but such results are more valuable than pure
+speculation, and may point to possible experimental investigations.
 
 First, I load both meditation data and masturbation data (using my
 loading code from [here](./code/experiments/load.py)):

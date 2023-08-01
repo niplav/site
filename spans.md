@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-17, modified: 2023-06-30, language: english, status: notes, importance: 7, confidence: possible*
+*author: niplav, created: 2023-01-17, modified: 2023-08-01, language: english, status: notes, importance: 7, confidence: possible*
 
 > __I investigate whether the attention span of individual humans has
 been falling over the last two decades (prompted by curiosity about
@@ -26,15 +26,14 @@ progress on complicated and difficult problems.
 I became interested in the topic after
 [seeing](https://edition.cnn.com/2023/01/11/health/short-attention-span-wellness/index.html)
 [several](https://eu.usatoday.com/story/life/health-wellness/2021/12/22/covid-attention-span-exhaustion/8926439002/)
-[claims](https://twitter.com/amix011/status/1603927882459672576) that
-e.g. [Generation Z](https://en.wikipedia.org/wiki/Generation_Z) allegedly
-has lower attention spans, observing myself and how I struggled to get
-any work done when connected to the internet, and hearing reports from
-others online and in person having the same problem.<!--I was finally
+[claims](https://twitter.com/amix011/status/1603927882459672576)
+that e.g. [Generation Z](https://en.wikipedia.org/wiki/Generation_Z)
+allegedly has lower attention spans, observing myself and how I struggled
+to get any work done when connected to the internet, and hearing reports
+from others online and in person having the same problem. I was finally
 convinced to actually investigate™ the topic after making [a comment on
 LessWrong](https://www.lesswrong.com/posts/Bfq6ncLfYdtCb6sat/i-converted-book-i-of-the-sequences-into-a-zoomer-readable?commentId=7SDEJibu5hedqqNmo)
-asking the question and receiving a surprisingly large amount of
-upvotes.-->
+asking the question and receiving a surprisingly large amount of upvotes.
 
 The exact question being asked is:
 

@@ -120,7 +120,7 @@ counterargument may be that in this case many flock to the frarmer or
 smith to learn their skills.
 
 For an investigation into such global collapse at
-current civilizational levels causing human extinction, see [Rodrigues
+current civilizational levels causing human extinction, see [Rodriguez
 2020](https://forum.effectivealtruism.org/posts/GsjmufaebreiaivF7/what-is-the-likelihood-that-civilizational-collapse-would).
 It broadly finds that recovery appears likely in scenarios where less
 than 99.9% of all humans die, and finds extinction unlikely unless more
@@ -171,3 +171,22 @@ would become a result of cultural or political decisions.
 
 The part after the parentheses might benefit from two or three more words,
 "but also with the hypothesis that […]".
+
+#### 1.3.1
+
+> and be compact enough for a rapid exchange__d__ of in__-__ formation
+among them.
+
+Two typos (I think), I guess it should be "a rapid exchange of information
+among them."
+
+### 1.5
+
+> More branches?
+
+Perhaps elaborate on distinction between
+transhumanism/posthumanism/extropianism, somewhere.
+
+### 2.1
+
+I like `$r$` more for radial distances.
