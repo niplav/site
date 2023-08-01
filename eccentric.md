@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-20, modified: 2023-07-23, language: english, status: notes, importance: 3, confidence: remote*
+*author: niplav, created: 2022-07-20, modified: 2023-07-31, language: english, status: notes, importance: 3, confidence: remote*
 
 > __What I might do if I magically got hold of a very large amount of
 money, and couldn't spend it maximally altruistically.__
@@ -33,7 +33,7 @@ Culture
 fights during breaks in school, but I haven't seen them happen anywhere
 outside since leaving school. People sign up for participating in
 (moderated) snowball fights, and are notified on weekends with especially
-good snow.  Large open grassy fields (or perhaps even stadiums) are
+good snow. Large open grassy fields (or perhaps even stadiums) are
 rented, and separated into at least 2 parts, each parts gets a large pile
 of fresh snow (to minimize the chance of stones in snowballs). People are
 encouraged to bring protective gear to allow for rougher fighting. If one
@@ -156,7 +156,7 @@ language for [Lullism](https://en.wikipedia.org/wiki/Lullism),
 [deleuzian](https://en.wikipedia.org/wiki/Gilles_Deleuze)
 [post-structuralism](https://en.wikipedia.org/wiki/Post-structuralism)
 or the insights from the [rationality
-community](https://en.wikipedia.org/wiki/LessWrong).  There are
+community](https://en.wikipedia.org/wiki/LessWrong). There are
 [reasons to be skeptical](https://gwern.net/language) about the allure
 of philosophically powerful languages, and it's not quite clear what
 *exactly* would be looked for here, but that's all part of the problem
@@ -179,8 +179,8 @@ inspired [an animated series](https://www.imdb.com/title/tt9872610/)[^2]
 [films](https://www.youtube.com/watch?v=OoCGiSzWIa4), as
 well as [several](https://www.goodreads.com/en/book/show/54870256)
 [books](https://boingboing.net/2021/06/12/graphic-novel-about-one-of-the-most-epic-scp-foundation-entires.html).
-However, despite the [clamorings of
-the](https://old.reddit.com/r/SCP/comments/14fiss1/what_do_you_think_is_the_best_way_to_adapt_scp/)
+However, despite the
+[clamorings](https://old.reddit.com/r/SCP/comments/14fiss1/what_do_you_think_is_the_best_way_to_adapt_scp/)
 [of
 the](https://old.reddit.com/r/SCP/comments/157mw35/scp_foundation_the_series/)
 [community](https://old.reddit.com/r/SCP/comments/157mw35/scp_foundation_the_series/),
@@ -195,7 +195,7 @@ series would be, after all, a public good. But that doesn't concern us,
 the eccentric trillionaire: We just want some cool SCP content to watch.
 The SCP universe lends itself to an anthology series like [Love,
 Death & Robots](https://en.wikipedia.org/wiki/Love,_Death_&_Robots)
-or [The Animatrix](https://en.wikipedia.org/wiki/The_Animatrix),
+or [The Animatrix](https://en.wikipedia.org/wiki/The_Animatrix);
 e.g. following [MTF Omega-7 ("Pandora's Box") with
 Able](http://www.scp-wiki.net/scp-076-2) (showing the uneasy situation
 the Foundation finds itself in, caught between the Scylla of using
@@ -225,9 +225,55 @@ in this case.
 	neglect my favorite work of fiction: The novel [There Is No
 	Antimemetics Division](https://www.goodreads.com/en/book/show/54870256)
 	would lend itself well to a one-season spinoff.
-* Hard Takeoff Movie
-	* Humans die in the first minute, space megastructure & multiverse-wide cooperation & later ontokinetics shenanigans follow
-* Double Crux: The Podcast. Super long (>>10h) discussions between two people trying to resolve a mutual disagreement, with moderation and fact checking help
+* __Discontinuous & Fast AI Takeoff Movie__: Most movies with
+artificial intelligence feel pretty provincial to me: Most
+of the AI systems in those movies are simply [humans in funny
+suits](https://www.lesswrong.com/rationality/humans-in-funny-suits), at
+best they are [not bipedal](https://www.imdb.com/title/tt0133093/)
+or perhaps [distributed over some amount of bipedal
+bodies](https://www.imdb.com/title/tt6292852/),
+or perhaps wholly [without a body but very human in
+behavior](https://www.imdb.com/title/tt1798709/). I do enjoy
+movies with [very](https://www.imdb.com/title/tt2543164/)
+[non-human](https://www.imdb.com/title/tt2798920/) aliens—can
+we have the same for AIs?  One way to achieve this would to have a
+movie about an AI system that crosses a threshold of capabilities
+extremely quickly and suddenly. Humans die in the first ~2 minutes
+of the movie (less than a couple of days in-movie time), followed by
+the AI systems constructing megastructures in space by [deconstructing
+planets](./doc/big_picture/fermi/eternity_in_6_hours_sandberg_armstrong_2013.pdf),
+sending probes to all reachable galaxies &c. Interactions with
+other highly advanced alien civilizations could be shown, including
+trade (though hard to convey *that* trade is taking place) and
+warfare (much easier to convey: nicer visual effects from [black
+hole bombs](https://en.wikipedia.org/wiki/Black_hole_bomb), induced
+supernovae and near-*[c](https://en.wikipedia.org/wiki/Speed_of_light)*
+projectiles; but perhaps not as likely to happen in reality because
+warfare is [negative-sum](https://en.wikipedia.org/wiki/Zero-sum_game),
+and we should expect advanced agents to avoid negative sum
+behavior). Processes within the AI could also be fascinating to
+visualize: the creation, pursuit and extermination of [optimization
+daemons](https://arbital.com/p/daemons/) and the difficulties of
+trying to align future versions (perhaps put on screen as blurry
+simulations of successor behavior) should be [interesting to look
+at](https://kajsotala.fi/2011/12/ai-thought-process-visualization/). If
+we're willing to get *really* weird, one could try to depict [acausal
+trade](https://www.lesswrong.com/tag/acausal-trade), multiverse-wide
+evidential cooperation and later ontokinetics shenanigans—but then one'd
+need to launch a research project on how these things could possibly
+play out. One difficulty of making this movie: The strategies of such
+a system would probably be extremely alien by human standards, and the
+resulting movie would be quite conceptual as a result—and by [Vinge's
+law](https://arbital.com/p/Vinge_law/) the scriptwriters wouldn't be able
+to make it even remotely realistic. But it might be pretty—similar
+to [Koyaanisqatsi](https://www.imdb.com/title/tt0085809/),
+maybe using the [Brandenburg
+Concertos](https://en.wikipedia.org/wiki/Brandenburg_Concertos)
+as music. [Really expensive
+movies](https://en.wikipedia.org/wiki/List_of_most_expensive_films)
+cost at most ~\\$400 mio., we could easily top that by spending half a
+billion on a frivolous nerd project.
+* Double Crux: The Podcast. Super long (>>10h) discussions between two people trying to resolve a mutual disagreement, with moderation and fact checking help. See also <https://tsvibt.blogspot.com/2023/05/better-debates.html>.
 * A Fictional Ethnography and Anthropology of Native Antarticans
 * Beautiful Geometric Objects
 	* The platonic solids in physical form, similar to tungsten cubes, but of varying size & material (from a steel icosahedron with a few centimetres vertex length to a granite cube or obsidian dodecahedron twenty metres at each side)—the stuff that would make future people say "they considered themselves a powerful culture"
@@ -236,19 +282,19 @@ in this case.
 Science
 --------
 
-* Better Wireheading
-	* Achieving reversible (you can remove it and the rat feels/behaves as before) & non-adaptative (no hedonic adaptation happening) & non-addictive (isn't sought after when removed) & safe (doesn't have any serious health consequences) & ability-preserving (cognitive function isn't impaired, and ideally improved) & anti-slippery (when in the state the being doesn't seek more of it) long-term pleasure centric wireheading via extensive experiments on animals, either by direct brain stimulation or novel compounds.
-		* This one's pretty ethically questionable
-	* Replicate the work at the [semalab](https://semalab.arizona.edu/) that uses ultrasound brain stimulation for meditation enhancement.
+* Studying foreveraloners
 * [Breeding Superintelligent Octopuses](https://www.lesswrong.com/posts/DaFG3GKsBrsAnAERR/save-humanity-breed-sapient-octopuses)
 * Cloning Extinct Animals
 	* In order: Passenger Pigeons, Thylacines, Dodos, Wooly Mammoths, Neanderthals, [John von Neumann](https://fantasticanachronism.com/2021/03/23/two-paths-to-the-future/), Srinivasa Ramanujan…
 * Masturbation Research
 * Explorables for Causal Inference
 * Find drugs that cause short-term memory loss with ideally no side effects (useful for blinding in scientific studies)
-* Studying foreveraloners
 * Run Newcomb's problem in real life
 * Run the [Generalized Wada Test](https://qualiacomputing.com/2015/05/01/generalized-wada-test-and-the-total-order-of-consciousness/)
+* Better Wireheading
+	* Achieving reversible (you can remove it and the rat feels/behaves as before) & non-adaptative (no hedonic adaptation happening) & non-addictive (isn't sought after when removed) & safe (doesn't have any serious health consequences) & ability-preserving (cognitive function isn't impaired, and ideally improved) & anti-slippery (when in the state the being doesn't seek more of it) long-term pleasure centric wireheading via extensive experiments on animals, either by direct brain stimulation or novel compounds.
+		* This one's pretty ethically questionable
+	* Replicate the work at the [semalab](https://semalab.arizona.edu/) that uses ultrasound brain stimulation for meditation enhancement.
 
 Metascience
 ------------

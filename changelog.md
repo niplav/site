@@ -31,6 +31,9 @@ July 2023
 	* [Human Compatible (Stuart Russell, 2019)](./text_reviews.html#Human_Compatible_Stuart_Russell_2019)
 * [Turning Some Inconsistent Preferences into Consistent Ones](./turning.html)
 	* [Number of Preserved Inclusion-Maximal Consistent Subgraphs for `$\mathcal{G}_n$`](./turning.html#None_1)
+* Initial import of [Awesome Things Humans Can Learn](./awesome.html)
+
+Read a large number of blog posts.
 
 June 2023
 ----------

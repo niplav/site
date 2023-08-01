@@ -327,6 +327,12 @@ Texts
 * Value- and Concept-Ladenness
 * AI Alignment problems in pictures
 	* See [here](https://www.lesswrong.com/posts/WXvt8bxYnwBYpy9oT/)
+* Training LLMs on similarity to human thought
+	* Achievable via EEG data?
+	* Check paper Pope mentioned again
+	* Problem with type signature
+* Convergent Intervention Avoidanceⁿ
+	* Check twitter thread on this
 
 ### Pick Up
 
@@ -1934,6 +1940,7 @@ Sequences
 		* Add <https://www.lesswrong.com/posts/6RjL996E8Dsz3vHPk/two-more-decision-theory-problems-for-humans>
 	* Much More Than You Wanted To Know
 	* Advances in Theoretical Group Rationality
+	* Put Stuart Armstrongs posts on Acausal Trade into a sequence
 * EA Forum
 	* Cause Area Investigations
 
@@ -1951,6 +1958,9 @@ Answers
 		a point even though you’re annoying, then they say on
 		balance you’re mostly right although you ignore some of
 		the most important facets of the issue, then you win.”"
+* Answer Nuno on <https://nunosempere.com/blog/2023/07/19/better-harder-faster-stronger/>
+* Answer various comments in reddit inbox <https://old.reddit.com/message/inbox/>
+* Answer <https://forum.effectivealtruism.org/posts/WSqLHsuNGoveGXhgz/disentangling-some-important-forecasting-concepts-terms?commentId=daFSthYmxKpCjN4Db>
 * Comment on Guys don't want to get laid by Red Quest
 	* 1. Most guys don't have "get laid a lot with hot chicks" as a life goal because they have no coherent life goals at all
 	* 1.1. Long-term goals are far mode (love, abstraction, altruism), and pickup requires long-term thinking, but is in the domain of near mode (sex, pleasure, egoism)
@@ -2007,7 +2017,7 @@ Memes
 
 * Deep Fried & Bass-Boosted National Anthems
 * Effective Altriust Alignment Chart
-	* Intention Purist/Intention Neutral/Intention Rebel
+	* Intent Purist/Intent Neutral/Intent Rebel
 	* Effect Purist/Effect Neutral/Effect Rebel
 	* IP&EP: Jeff Kaufman
 	* IP&EN: Eliezer Yudkowsky

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-07-26, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-08-01, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,53 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Inside a Brain Circuit, the Will to Press On (Emily Singer, 2013)](https://www.quantamagazine.org/inside-the-brains-salience-network-the-will-to-press-on-20131205/)
+* [Shrimp Welfare - 2020 Recommended idea (Karolina Sarek/Vicky Cox, 2020)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/qmTthNdYDvy7vPfQo)
+* [An appreciation of the Less Wrong Sequences (Kaj Sotala, 2016)](https://kajsotala.fi/2016/08/an-appreciation-of-the-less-wrong-sequences/)
+* [AI thought process visualization (Kaj Sotala, 2011)](https://kajsotala.fi/2011/12/ai-thought-process-visualization/)
+* [Lack of Social Grace Is an Epistemic Virtue (Zack M. Davis, 2023)](https://www.lesswrong.com/posts/h2Hk2c2Gp5sY4abQh/lack-of-social-grace-is-an-epistemic-virtue)
+* [Acausal normalcy (Andrew Critch, 2023)](https://www.lesswrong.com/posts/3RSq3bfnzuL3sp46J/acausal-normalcy)
+* [Structure, creativity, and novelty (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/08/structure-creativity-and-novelty.html)
+* [Could Knots Unravel Mysteries of Fluid Flow? (Natalie Wolchover, 2013)](https://www.quantamagazine.org/december-3-2014-learning-to-move-20131209/)
+* [SCP-1090 (floridapologia, 2022)](https://scp-wiki.wikidot.com/scp-1090)
+* [SCP-1089 (Trask, 2022)](https://scp-wiki.wikidot.com/scp-1089)
+* [SCP-1088 (Anaxagoras, 2022)](https://scp-wiki.wikidot.com/scp-1088)
+* [SCP-1087 (SCP Foundation, 2022)](https://scp-wiki.wikidot.com/scp-1087)
+* [RoboCat: A self-improving robotic agent (The RoboCat team, 2023)](https://www.deepmind.com/blog/robocat-a-self-improving-robotic-agent)
+* [SCP-1086 (Eskobar, 2022)](https://scp-wiki.wikidot.com/scp-1086)
+* [smaller X-risk (carado, 2022)](https://carado.moe/smaller-x-risk.html)
+* [Acausal Trade (Joshua Fox/Lukeprog/Gwern/Vladimir Nesov/Sauski/Deku-shrub/Caspar42/Joe Collman/Jja, 2023)](https://www.lesswrong.com/tag/acausal-trade)
+* [SCP-1085 (Eskobar, 2022)](https://scp-wiki.wikidot.com/scp-1085)
+* [SCP-1084 (SCP Foundation, 2019)](https://scp-wiki.wikidot.com/scp-1084)
+* [A neural approach to relational reasoning (Adam Santoro/David Raposo/Nick Watters, 2017)](https://www.deepmind.com/blog/a-neural-approach-to-relational-reasoning)
+* [Neural Networks, Manifolds, and Topology (Chris Olah, 2014)](http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/)
+* [SCP-1083 (Eskobar, 2022)](https://scp-wiki.wikidot.com/scp-1083)
+* [Document 1082-25 (Eskobar, 2022)](https://scp-wiki.wikidot.com/document-1082-25)
+* [SCP-1082 (Eskobar, 2022)](https://scp-wiki.wikidot.com/scp-1082)
+* [RT-2: New model translates vision and language into action (Tianhe Yu/Yevgen Chebotar, 2023)](https://www.deepmind.com/blog/rt-2-new-model-translates-vision-and-language-into-action)
+* [The Secret Language of Plants (Kat McGowan, 2013)](https://www.quantamagazine.org/the-secret-language-of-plants-20131216/)
+* [Provisionality (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/03/provisionality.html)
+* [Learning through human feedback (Jan Leike/Miljan Martic/Shane Legg, 2017)](https://www.deepmind.com/blog/learning-through-human-feedback)
+* [Exploring institutions for global AI governance (Lewis Ho, 2023)](https://www.deepmind.com/blog/exploring-institutions-for-global-ai-governance)
+* [Endo-, Dia-, Para-, and Ecto-systemic novelty (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/01/endo-dia-para-and-ecto-systemic-novelty.html)
+* [Telopheme, telophore, and telotect (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/06/telopheme-telophore-and-telotect.html)
+* [Frontier Model Forum (OpenAI, 2023)](https://openai.com/blog/frontier-model-forum)
+* [Language models can explain neurons in language models (Jan Leike/Jeffrey Wu/Steven Bills/William Saunders/Leo Gao/Henk Tillman/Daniel Mossing, 2023)](https://openai.com/research/language-models-can-explain-neurons-in-language-models)
+* [SCP-1081 (Eskobar, 2022)](https://scp-wiki.wikidot.com/scp-1081)
+* [SCP-1080 (SCP Foundation, 2022)](https://scp-wiki.wikidot.com/scp-1080)
+* [SCP-1079 (Buns, 2023)](https://scp-wiki.wikidot.com/scp-1079)
+* [SCP-1078 (Solan625, 2022)](https://scp-wiki.wikidot.com/scp-1078)
+* [SCP-1077 (Rioghail, 2022)](https://scp-wiki.wikidot.com/scp-1077)
+* [SCP-1076 (murphy_slaw, 2022)](https://scp-wiki.wikidot.com/scp-1076)
+* [SCP-1075 (SCP Foundation, 2022)](https://scp-wiki.wikidot.com/scp-1075)
+* [SCP-1074 (Smapti, 2022)](https://scp-wiki.wikidot.com/scp-1074)
+* [SCP-1073 (DiskElemental, 2022)](https://scp-wiki.wikidot.com/scp-1073)
+* [SCP-1072 (SCP Foundation, 2022)](https://scp-wiki.wikidot.com/scp-1072)
+* [Better debates (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/05/better-debates.html)
+* [Communicating with binaries and spectra (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/02/communicating-with-binaries-and-spectra.html)
+* [Hyperphone (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/01/hyperphone.html)
+* [Views on when AGI comes and on strategy to reduce existential risk (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/07/views-on-when-agi-comes-and-on-strategy.html)
+* [On the Existence of Powerful Natural Languages (Gwern Branwen, 2019)](https://gwern.net/language)
 * [Topological censorship (English Wikipedia, 2023)](https:/en.wikipedia.org/wiki/Topological_censorship)
 * Learning the Preferences of Ignorant, Inconsistent Agents (Andreas Stuhlmüller/Owain Evans/Noah D. Goodman, 2016)
 * ["Justice, Cherryl." (Zack M. Davis, 2023)](https://www.lesswrong.com/posts/vfjptEJ2oahLqRyZz/justice-cherryl)

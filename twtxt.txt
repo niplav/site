@@ -1771,3 +1771,8 @@
 2023-07-19T14:22:03.000000Z	lol @ the nauty source code: some functions are >1k lines long
 2023-07-22T11:18:55.000000Z	output format of AI systems doing alignment research (formal proof, set of heuristics, set of algorithms…)? AI systems will align their successor systems, repeatedly. Unless this process has 100% fidelity, errors in the alignment process will compound over time, similar to numerical instability. Similar to numerical analysis, could we make a useful statement about the “condition number” of this repeated alignment process?
 2023-07-22T11:45:04.000000Z	And last but not least: Contests such as the underhanded C contest show that it is quite easy in sufficiently expressive formal systems) to create malicious outputs with high plausible deniability. Since training ML systems is even more expressive than that, the existence of such successful contests seems worrying
+2023-07-28T20:54:54.000000Z	transtem
+2023-07-28T20:55:35.000000Z	distem, tetratem, extem, anatem, katatem, metatem, mesatem
+2023-07-30T21:29:33.000000Z	“making infinite use of finite means”
+2023-07-31T20:42:44.000000Z	Gwern must feel so lonely up there
+2023-08-01T01:16:57.000000Z	s h o r t t o r s o
