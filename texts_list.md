@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-08-01, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-08-02, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,7 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [The Soviet Union: Durable Goods (José Luis Ricón, 2016)](https://nintil.com/the-soviet-union-durable-goods)
 * [Inside a Brain Circuit, the Will to Press On (Emily Singer, 2013)](https://www.quantamagazine.org/inside-the-brains-salience-network-the-will-to-press-on-20131205/)
 * [Shrimp Welfare - 2020 Recommended idea (Karolina Sarek/Vicky Cox, 2020)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/qmTthNdYDvy7vPfQo)
 * [An appreciation of the Less Wrong Sequences (Kaj Sotala, 2016)](https://kajsotala.fi/2016/08/an-appreciation-of-the-less-wrong-sequences/)
@@ -74,7 +75,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Cifal (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Cifal)
 * [Why are we not harder, better, faster, stronger? (Nuño Sempere, 2023)](https://nunosempere.com/blog/2023/07/19/better-harder-faster-stronger/)
 * [Imagining Data Without Division (Thomas Lin, 2013)](https://www.quantamagazine.org/in-big-science-imagining-data-without-division-20130930/)
-* [\* Dual n-Back FAQ (Gwern Branwen, 2019)](https://gwern.net/dnb-faq)
+* [Dual n-Back FAQ (Gwern Branwen, 2019)](https://gwern.net/dnb-faq)
 * \* Grand Futures (Anders Sandberg, 2023)
 * [A Digital Copy of the Universe, Encrypted (Natalie Wolchover, 2013)](https://www.quantamagazine.org/a-digital-copy-of-the-universe-encrypted-20131002/)
 * [Improving Pest Management for Wild Insect Welfare (Wild Animal Initiative, 2019)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/puxyrkSSZ9FEYK6Rm)

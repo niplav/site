@@ -190,3 +190,53 @@ transhumanism/posthumanism/extropianism, somewhere.
 ### 2.1
 
 I like `$r$` more for radial distances.
+
+### 3.4
+
+> Loss of biodiversity might be irreversible and regrettable, yet that
+permanent loss might not mean a permanent loss of potential.
+
+I personally *do* feel a sense of loss at languages, species,
+cultures & ecosystems going extinct. (I think it's sad trilobites
+& opabinia regalis with its five eyes are gone, and would like to
+revive them, even though this conflicts with wild-animal suffering
+concerns.) Similarly, projections that [by 2050 >90% of all languages
+will have gone extinct](http://dx.doi.org/10.1126/science.1096546)
+seem like a tragedy to me, and I like the fact that there are (some)
+language revitalization and [language](https://en.wikipedia.org/wiki/FirstVoices) [documentation](https://en.wikipedia.org/wiki/OLAC) projects underway.
+
+#### 3.4.2
+
+> many, many worlds worlds
+
+Typo
+
+#### 3.4.3
+
+> Finding the right priorization strategy is non-trivial. One heuristic
+is nick Bostrom's MaxiPOK principle “ “maximize the chance of an
+OK outcome”.
+
+Typo: after "principle" there are two quotation marks.
+
+> [Other strategies]
+> [Priority. Targeted vs broad interventions. Diff tech
+development. Maxipok. Global public good. Safety beats haste.]
+
+MaxiPOK was already mentioned & explained. For differential development
+there's also differential intellectual progress, as explained in
+“Differential Intellectual Progress as a Positive-Sum Project”
+(Brian Tomasik, 2017).
+
+> [?, 232]
+[Trajectory changes. Planning?]
+
+First reference is broken.
+
+###### “Stupidity”: cognitive failures of coordination
+
+> If the total amount of work done is proportional to the number of
+members and the fraction of time not spent on meetings, then it is
+`$T_{work}=c_1N(1-c_2 N)$`.
+
+What do `$c_1$` and `$c_2$` stand for?

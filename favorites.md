@@ -184,6 +184,7 @@ and the series of [dialogues between Chelsea
 Fasano, Jay Sanguinetti, Shinzen Young and various
 guests](https://www.guruviking.com/podcast/tag/Shinzen+Young+Dialogues)
 on [Guru Viking](https://www.guruviking.com/podcast).
+<!--TODO: add Shulman on the Lunar Society-->
 
 Websites
 ---------
@@ -278,8 +279,9 @@ ol' reliable [Metaculus](https://www.metaculus.com) and
 Mathematics
 ------------
 
-My favorite mathematical structure is
-[∅](https://en.wikipedia.org/wiki/Empty_set),
+My favorite mathematical structures are the
+[∅](https://en.wikipedia.org/wiki/Empty_set) and [Post's
+lattice](https://en.wikipedia.org/wiki/Post's_lattice),
 my favorite theorem is the [Bulow-Klemperer
 theorem](https://cs.brown.edu/courses/csci1440/lectures/2022/bulow_klemperer.pdf),
 and my favorite proof is the [Classification of finite simple
@@ -373,3 +375,5 @@ of a whiteboard with two other people boggling at a hard problem, taking
 MDMA in the presence of effective altruists after an EA conference,
 and executing a really clean daygame approach (all of these involve
 other people, hm…).
+
+<!--TODO: languages-->
