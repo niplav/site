@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-20, modified: 2023-07-31, language: english, status: notes, importance: 3, confidence: remote*
+*author: niplav, created: 2022-07-20, modified: 2023-08-02, language: english, status: notes, importance: 3, confidence: remote*
 
 > __What I might do if I magically got hold of a very large amount of
 money, and couldn't spend it maximally altruistically.__
@@ -57,20 +57,28 @@ GDP](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_\(nominal\)_per_capi
 capita](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_\(PPP\)_per_capita#Table)
 of Nauru seems to be ~\\$12k, but to be conservative we can round that
 up to \\$15k. Then the net present value (again at 5%) of each Nauruans
-future income is `$\frac{\$15\text{k}}{0.05}=\$300\text{k}$`. There are
-11k Nauruans, which results in an expense of
-`$\frac{\$3 \cdot 10^5}{\text{person}} \cdot 1.1 \cdot 10^4 \text{ persons}=\$3.3 \cdot 10^9$`.
-In both cases, the Nauruans would be giving up a significant amount
-of their civil rights, and might want to find new citizenships, to
-support them with this one could allocate more money so that the sum
-nicely sums up to \\$5bio. So it would be *financially* feasible to
-do this, but would it be politically and legally feasible? I don't
+future income is `$\frac{\$15\text{k}}{0.05}=\$300\text{k}$`. There
+are 11k Nauruans, which results in an expense of `$\frac{\$3 \cdot
+10^5}{\text{person}} \cdot 1.1 \cdot 10^4 \text{ persons}=\$3.3 \cdot
+10^9$`.  In both cases, the Nauruans would be giving up a significant
+amount of their civil rights, and might want to find new citizenships,
+to support them with this one could allocate more money so that the
+sum nicely comes out to \\$5bio. So it would be *financially* feasible
+to do this, but would it be politically and legally feasible? I don't
 know about that, and don't know of any precedent either. [Leopold
 II.](https://en.wikipedia.org/wiki/Leopold_II_of_Belgium) privately owned
 the [Congo Free State](https://en.wikipedia.org/wiki/Congo_free_state),
-but I don't think he *bought* it, and instead convinced the other
-European states to be allowed to militarily seize it. (Our intentions
-are far more benevolent (and probably weirder) than Leopold's).
+but I don't think he *bought* it, and instead convinced the other European
+states to be allowed to militarily seize it. (Our intentions are far more
+benevolent (and probably weirder) than Leopold's). Nation states have
+bought vast swathes of territory from others (a prominent example being
+the [Alaska Purchase](https://en.wikipedia.org/wiki/Alaska_Purchase)
+for \$140 mio. 2021 dollars (peanuts!),
+and there were attempts from the US side to also [buy
+Greenland](https://en.wikipedia.org/wiki/Proposals_for_the_United_States_to_purchase_Greenland)
+from Denmark—[ultimately
+unsuccessful](https://www.gwern.net/Greenland). More examples
+[here](https://en.wikipedia.org/wiki/List_of_territory_purchased_by_a_sovereign_nation_from_another_sovereiign_nation)).
 * __[You Can Do Futarchy Yourself](https://www.lesswrong.com/posts/qZXy8kGkNFyqCfHEJ/you-can-do-futarchy-yourself) on Steroids__
 
 Language
@@ -273,11 +281,51 @@ as music. [Really expensive
 movies](https://en.wikipedia.org/wiki/List_of_most_expensive_films)
 cost at most ~\\$400 mio., we could easily top that by spending half a
 billion on a frivolous nerd project.
-* Double Crux: The Podcast. Super long (>>10h) discussions between two people trying to resolve a mutual disagreement, with moderation and fact checking help. See also <https://tsvibt.blogspot.com/2023/05/better-debates.html>.
+* __Double Crux Podcast__: [Double
+crux](https://www.lesswrong.com/tag/double-crux) is a technique
+for resolving disagreements developed by the [Center for Applied
+Rationality](https://rationality.org). In it, (usually) two interlocutors
+`$A, B$` with differing opinions on a subject `$S$` have a conversation
+in which they try to understand each others' beliefs and models
+of the world, with the goal of finding a single statement `$Q$`
+(ideally factually checkable or at least eventually resolvable) for
+which it holds that `$A$` believes `$Q$` and `$B$` believes `$\lnot
+Q$`, *and* if it turned out that `$Q$` then `$B$` would change their
+mind on `$S$` (adopting `$A$`s position), and vice versa for `$A$`
+and `$\lnot Q$`. With motivated participants, this tends to produce
+debates which are more oriented towards finding the truth.  Debates on
+podcasts are often unsatisfactory because participants usually have an
+adversarial stance towards each other and the time is limited<!--TODO:
+link examples here? Maybe that objectivist guy on Lex Fridman-->. So a
+step towards a solution could be to start a new podcast using the double
+crux framework. The discussions might become exceedingly long (≫10h
+seem plausible, although that needn't retract [as much from viewership as
+expected](https://medium.com/@robertwiblin/our-data-suggests-people-keep-listening-to-podcasts-even-if-theyre-very-long-483dcfc77c02)),
+and ideally [spiced
+up](https://tsvibt.blogspot.com/2023/05/better-debates.html)
+with moderation, fact checking, intermittent summarizing
+of positions after a while &c.  Initial attempts at this format
+[seem](https://thefilancabinet.com/episodes/2023/04/28/11-divia-eden-ronny-fernandez.html)
+[promising](https://mutualunderstanding.substack.com/p/ronny-fernandez-and-quintin-pope#details).
+This is a long shot, as it is unclear how much conversations [can be
+improved](https://tsvibt.blogspot.com/2023/07/views-on-when-agi-comes-and-on-strategy.html#things-that-might-actually-work),
+how good debate is at truth-finding<!--TODO: links for AI
+safety via debate?-->, and how entertaining or interesting
+this would be to listeners. Examples such as the [2021 MIRI
+conversations](https://www.lesswrong.com/s/n945eovrA3oDueqtq)
+have left some participants with a
+[lower opinion of trying to hash out long-standing
+disagreements](https://www.lesswrong.com/posts/4Gcz3fGcYmmzhozxr/hashing-out-long-standing-disagreements-seems-low-value-to).
+Cost: Probably two full-time equivalents for producer/interviewer
+and audio engineering, each at ~\\$50k per year, and maybe another
+moderator and a fact checker as a part-time (10h per week on average
+perhaps?) position, at a total cost of ~\\$150k per year, fudging upwards
+to \\$200k per year.
 * A Fictional Ethnography and Anthropology of Native Antarticans
 * Beautiful Geometric Objects
 	* The platonic solids in physical form, similar to tungsten cubes, but of varying size & material (from a steel icosahedron with a few centimetres vertex length to a granite cube or obsidian dodecahedron twenty metres at each side)—the stuff that would make future people say "they considered themselves a powerful culture"
 * Buy the movie rights to House of Leaves to make sure noone can ever make a movie out of it.
+* A History of Eve Online
 
 Science
 --------
