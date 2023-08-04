@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-fig=plt.figure(figsize=(8,8))
+fig=plt.figure(figsize=(10,10))
 
 df=pd.read_csv('./hodge_preservations.csv', header=None)
 summ=df.groupby(0).describe()
@@ -30,8 +30,6 @@ plt.set_xticks()
 
 plt.savefig("preservations.png")
 
-exit(0)
-
 def plot_confusions(df, multiplier):
 	values=np.zeros(len(labels))
 	for i in range(0, len(labels)):
@@ -49,7 +47,7 @@ x=np.arange(len(labels))
 width=1/5
 multiplier=0
 
-fig, ax=plt.subplots(constrained_layout=True)
+fig, ax=plt.subplots(constrained_layout=True, figsize=(10,10))
 
 for c in list(confusions.groupby(0)):
 	plot_confusions(c[1], c[0])
