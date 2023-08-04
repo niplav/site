@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-20, modified: 2023-08-02, language: english, status: notes, importance: 3, confidence: remote*
+*author: niplav, created: 2022-07-20, modified: 2023-08-03, language: english, status: notes, importance: 3, confidence: remote*
 
 > __What I might do if I magically got hold of a very large amount of
 money, and couldn't spend it maximally altruistically.__
@@ -298,8 +298,8 @@ podcasts are often unsatisfactory because participants usually have an
 adversarial stance towards each other and the time is limited<!--TODO:
 link examples here? Maybe that objectivist guy on Lex Fridman-->. So a
 step towards a solution could be to start a new podcast using the double
-crux framework. The discussions might become exceedingly long (≫10h
-seem plausible, although that needn't retract [as much from viewership as
+crux framework. The discussions might become exceedingly long (≫10h seem
+plausible, although that alone needn't retract [as much from viewership as
 expected](https://medium.com/@robertwiblin/our-data-suggests-people-keep-listening-to-podcasts-even-if-theyre-very-long-483dcfc77c02)),
 and ideally [spiced
 up](https://tsvibt.blogspot.com/2023/05/better-debates.html)
@@ -321,7 +321,59 @@ and audio engineering, each at ~\\$50k per year, and maybe another
 moderator and a fact checker as a part-time (10h per week on average
 perhaps?) position, at a total cost of ~\\$150k per year, fudging upwards
 to \\$200k per year.
-* A Fictional Ethnography and Anthropology of Native Antarticans
+* __Languishing Drafts Podcast__
+* __A Fictional Ethnography and Anthropology of Native Antarcticans__:
+Antarctica wasn't settled by humans before [Fabian Gottlieb von
+Bellingshausen](https://en.wikipedia.org/wiki/Fabian_Gottlieb_von_Bellingshausen)
+and [Mikhail Lazarev](https://en.wikipedia.org/wiki/Mikhail_Lazarev)
+sighted the [Fimbul ice
+shelf](https://en.wikipedia.org/wiki/Fimbul_ice_shelf). But what
+if it had?  Humans managed to find and [settle Hawaii in ~1250
+C.E](https://en.wikipedia.org/wiki/Discovery_and_settlement_of_Hawaii)
+from the Marquesas islands and the Society islands<!--TODO:
+distance to Hawaii-->. Similarly, the polynesians that settled Hawaii
+([probably](https://en.wikipedia.org/wiki/Pre-Māori_settlement_of_New_Zealand_theories))
+*also* settled New Zealand. The southernmost point of New Zealand is TODO
+kilometres from the nearest point at the Antarctic coast, so it is not
+*inconceivable* that a Māori society with more durable ships and warmer
+clothes could have sailed southwards repeatedly and finally put foot
+on those icy shores. (Indeed I find it pretty likely that [some crazy
+guys](https://en.wikipedia.org/wiki/Ui-te-Rangoira) might've done this,
+given the number of islands out in the Pacific that were just discovered
+(?) by Polynesians sailing around.)[^3] Actually *settling* Antarctica
+is a whole other can of worms: The continent is by far the coldest and
+(as a [polar desert](https://en.wikipedia.org/wiki/Polar_desert)) driest,
+it harbors nearly no vegetation (except lichen & moss), and away from the
+coasts there are very ~no large organisms. So we'd like to know, assuming
+it is possible for there to be native antarctican populations descended
+from [Māori people](https://en.wikipedia.org/wiki/Māori_people),
+*how* such a population might manage to endure, and what their
+culture and daily life might look like. Ideas: instead of using wood
+(since there isn't any), maybe the native Antarcticans could create a
+[pykrete](https://en.wikipedia.org/wiki/pykrete) variant with lichen
+or moss ("likrete"); perhaps (with much effort?) it is possible
+to domesticate [fur seals](https://en.wikipedia.org/wiki/Fur_seal)
+([leopard seals](https://en.wikipedia.org/wiki/Leopard_seal) seem
+[harder](https://en.wikipedia.org/wiki/Leopard_seal#Negative_interactions_with_humans)),
+and whaling might still be an option. Antarcticans would probably need
+to be hunter-gatherers, but the absence of wood makes it quite hard
+to hunt where the (mostly marine) animals are, similar with spears
+and bows—is it conceivable to use tools made from ice and stone
+instead? Heating is a big problem, as well as surviving through the
+winter, but surely Antarctica has some accessible coal<!--TODO: look
+this up-->. Maybe our native population would need to overwinter in
+shelters (made from ice, stone or likrete?), surviving on seal meat
+and [blubber](https://en.wikipedia.org/wiki/Blubber). It would also
+be interesting to have a description of Antarctican culture: What
+kind of mythology would develop in such a ruthless place? ([Inuit
+mythology](https://en.wikipedia.org/wiki/Inuit_religion) is already
+fascinating, and the very different cultural lineage from polynesian
+societies would add an interesting twist). With AI tools it might be
+surprisingly cheap to produce such a fictional ethnography, paying an
+anthropologist and a designer \\$50k/year each, for a year. Output format:
+An illustrated book in the style of early 20th century ethnographies, with
+descriptions of daily life, technology, culture, language &c.<!--TODO:
+ask D for examples of books like these on Aboriginals-->
 * Beautiful Geometric Objects
 	* The platonic solids in physical form, similar to tungsten cubes, but of varying size & material (from a steel icosahedron with a few centimetres vertex length to a granite cube or obsidian dodecahedron twenty metres at each side)—the stuff that would make future people say "they considered themselves a powerful culture"
 * Buy the movie rights to House of Leaves to make sure noone can ever make a movie out of it.
@@ -331,7 +383,10 @@ Science
 --------
 
 * Studying foreveraloners
-* [Breeding Superintelligent Octopuses](https://www.lesswrong.com/posts/DaFG3GKsBrsAnAERR/save-humanity-breed-sapient-octopuses)
+* [Breeding Superintelligent
+Octopuses](https://www.lesswrong.com/posts/DaFG3GKsBrsAnAERR/save-humanity-breed-sapient-octopuses)
+(or
+[parrots](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-intelligent-parrots))
 * Cloning Extinct Animals
 	* In order: Passenger Pigeons, Thylacines, Dodos, Wooly Mammoths, Neanderthals, [John von Neumann](https://fantasticanachronism.com/2021/03/23/two-paths-to-the-future/), Srinivasa Ramanujan…
 * Masturbation Research
@@ -364,7 +419,8 @@ Metaphilosophy
 			* At some point someone must have invented music. That was a pretty big deal! Maybe we're missing a bunch of these kinds of things and don't even notice.
 			* Same for meditation.
 * Really Out There Stuff Institute (ROTSI)
-	* Focus on exotic decision theories, acausal trade, UDASSA, infinite ethics etc. Global priorities research on steroids.
+	* Focus on exotic decision theories, acausal trade, [UDASSA](http://fennetic.net/irc/finney.org/~hal/udassa/summary1.html), infinite ethics etc. Global priorities research on steroids.
 
 [^1]: It's not clear that Nauru is the best choice here. While it probably is the smallest nation state that can conceivably be bought (I don't think there is any realistic (or unrealistic) amount of money for which Vatican City could be acquired), it is not very fertile, and has only limited freshwater reserves, relying mostly on rainwater. The highest point is only 71 metres above sea level, which means that a large part of the island might be at risk of going under water with rising sea levels.
 [^2]: [Rest in peace](https://old.reddit.com/r/SCP/comments/1434kh7/the_whole_scp_confinement_situation_is_both/).
+[^3]: Maybe I'm lacking in imagination, but this implies both that polynesians can survive for weeks on the open ocean, can reliably find their way back home if need be, and are adventurous enough to just sail out to the open ocean in the hopes of finding new islands. This seems extremely crazy to me.

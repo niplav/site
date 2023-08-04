@@ -17,6 +17,9 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [UDASSA (Jacob Falkovich, 2023)](https://www.lesswrong.com/posts/tndX9uZEp5HHpS9xK/udassa)
+* ["UDT2" and "against UD+ASSA" (Wei Dai, 2019)](https://www.lesswrong.com/posts/zd2DrbHApWypJD2Rz/udt2-and-against-ud-assa)
+* [Summary of UDASSA (Hal Finney, 2010)](http://fennetic.net/irc/finney.org/~hal/udassa/summary1.html)
 * [The Soviet Union: Durable Goods (José Luis Ricón, 2016)](https://nintil.com/the-soviet-union-durable-goods)
 * [Inside a Brain Circuit, the Will to Press On (Emily Singer, 2013)](https://www.quantamagazine.org/inside-the-brains-salience-network-the-will-to-press-on-20131205/)
 * [Shrimp Welfare - 2020 Recommended idea (Karolina Sarek/Vicky Cox, 2020)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/qmTthNdYDvy7vPfQo)

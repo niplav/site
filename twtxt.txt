@@ -1776,3 +1776,4 @@
 2023-07-30T21:29:33.000000Z	“making infinite use of finite means”
 2023-07-31T20:42:44.000000Z	Gwern must feel so lonely up there
 2023-08-01T01:16:57.000000Z	s h o r t t o r s o
+2023-08-02T23:13:40.000000Z	The problem with the Repugnant Conclusion in UDASSA is that you run out of low-complexity creatures to occupy the short programs with

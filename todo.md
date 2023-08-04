@@ -181,34 +181,12 @@ Texts
 
 ### Forecasting
 
-* Forecasting is Worse is Better
-	*	The [Brier score](https://en.wikipedia.org/wiki/Brier_score) was invented
-		in 1950, [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes'_theorem)
-		was first described in 1763, and [probability
-		theory](https://en.wikipedia.org/wiki/Probability_theory) was properly
-		invented at the beginning of the 18th century.
-	*	However, attempting to use forecasting to seriously determine the
-		probability of future events, training & selecting
-		people for their forecasting ability and creating
-		procedures that incorporate both intuition-based
-		and model-based predictions have only been around
-		since the mid 1980s <!--TODO: citation needed-->,
-		mostly popularized by the work of [Philip
-		Tetlock](https://en.wikipedia.org/wiki/Ehpilp_E._Tetlock).
-	*	Tetlock-style forecasting is "Worse is Better"
-		If we can't develop explicit numerical models, why
-		not train people in becoming good at estimating the future,
-		but this time with probabilistic estimates?
 * Comparing Forecasting Accuracy Between the Good Judgment Project and Metaculus
 	* <https://www.openphilanthropy.org/blog/forecasting-covid-19-pandemic>
 	* <https://pandemic.metaculus.com/questions/>
 * The "At-the-time best possible forecast"
 	* Not literally best possible forecast
 	* But for humans at the time with the available information
-* Addenda to the Prediction Market FAQ
-	* <https://astralcodexten.substack.com/p/prediction-market-faq>
-* Comparing Forecasts on a wide range of platforms
-	* Use <https://github.com/stanlyfok/sentence2vec> to compare questions
 
 ### Population
 
@@ -382,10 +360,6 @@ Texts
 
 ### Meditation
 
-* Self-Blinded Nootropics Experiments in Concentration Meditation
-	* 45 minutes of concentration meditation
-	a day (concentration on the breath), sampling every day,
-	always in the morning (half placebo, half non-placebo).
 * Brain Stimulation for Meditation Enhancement
 	* Ultrasound
 	* Magnetic stimulation
@@ -1856,9 +1830,6 @@ Wikipedia Articles
 
 ### Create
 
-* Causal Inference pages
-	* do operator
-	* Back-door/Front-door criterion
 * Experience Replay (see Deep Q-Network (“DQN”; Mnih et al. 2015))
 * Choice set, choice function, contraction/expansion consistency (all in the context of social choice theory, see Gaertner 2009 p. 7-9)
 * Credibility formula (see <https://en.wikipedia.org/wiki/Imdb#Rankings>)
@@ -1871,9 +1842,6 @@ Wikipedia Articles
 
 ### Improve
 
-* [Maximal pair](https://en.wikipedia.org/wiki/Maximal_pair)
-	* Add examples
-	* Add description of MUMs
 * Patri Friedman site states he considers himself a rationalist, but that links to the page on philosophical rationalism, while I suspect this refers to the LW variety
 * What the fuck is going on with the The Gods Themselves page?
 * Wikipedia pages on symbols in mathematics and physics are sprawling and confused, clean them up
@@ -1881,32 +1849,20 @@ Wikipedia Articles
 	* Yeah, the current explanation is barely comprehensible
 * Find Ian Goodfellow's true year of birth
 * Add missing national anthems to <https://en.wikipedia.org/wiki/List_of_national_anthems>
-* Maybe factor out the "Causal Model" page into several pages?
-	* do operator
-	* frontdoor criterion
-	* backdoor criterion
 * Add "See Also" section to Causal Markov Condition
 * Bitte bitte
 	* Watch the video and provide a better summary
 * Rewrite the Attention Span article
-* Prophet Inequality
-* Anthropic
-* Urvashi
 * [Average Human Height by Country](https://en.wikipedia.org/wiki/Average_human_height_by_country), missing entries (various tiny European countries):
 	* Liechtenstein
 	* Monaco
 	* Vatican City
 	* San Marino
-* List of common misconceptions
-	* Add attention span 12s→ 8s incorrect factoid
-* Degrees of freedom
-	* Add See Also section
 * Razib Khan
 	* Those fuckers moved the Criticism into the Publications section again
 * Eric Drexler
 	* Something like "Since TODO, Drexler has been working at the [[Future of Humanity Institute]] as a TODO, researching risks from advanced artificial intelligence."
 	* Huh, this was apparently removed?
-* Sinclair coefficient
 * List of important publications in mathematics is very much too opinionated. Reviews like this don't quite belong on Wikipedia, so improve
 * Price of stability/price of anarchy:
 	* Collect bounds
@@ -1914,8 +1870,6 @@ Wikipedia Articles
 * Full list of 10,000 vital articles
 * Improve Mathematical Alphanumeric Symbols: Add explanation of how to write them in `$\LaTeX$`
 * Add IPA for MECE pronounciation part
-* Kemeny Rule
-	* Add mathematical formula/pseudocode/Python algorithm to the article
 * MDMA
 	* Add that people who consume MDMA grind their teeth, and a common method used to assuage that is to chew chewing gum during while rolling
 
@@ -2037,6 +1991,7 @@ In-World Projects
 * Found a community of algae farmers that speak a Icelandic-Basque pidgin
 * Add Ithkuil script to the UCSUR
 * Bring the rest of the Latin super/subscripts into Unicode
+	* Probably difficult, see that twitter reply
 * Create & maintain rat/postrat/metarat fediverse instance
 	* domain name egregome.industries or just revive schelling.pt when it becomes available
 * Arrange Slavoj Žižek to be an EAG keynote speaker
