@@ -55,7 +55,7 @@ Writing
 
 #### Practical
 
-* [Considerations on Cryonics](./considerations_on_cryonics.html)
+* [Cryonics Cost-Benefit Analysis](./considerations_on_cryonics.html)
 
 ##### Pick-Up
 

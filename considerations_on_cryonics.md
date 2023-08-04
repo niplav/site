@@ -22,8 +22,8 @@ and find that signing up for cryonics at age 20 is worth \\$18m in the
 mean, median -\\$100k (90% confidence interval: -\\$2.16m, \\$58.25m). It
 therefore seems recommendable to sign up for cryonics immediately.__
 
-Considerations on Cryonics
-==========================
+Cryonics Cost-Benefit Analysis
+===============================
 
 Preliminary Note
 -----------------

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2023-07-01, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2023-07-04, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of puns, good bandnames, types of guy,
 idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
@@ -361,6 +361,7 @@ often use instead.
 * "Maxima" instead of "maximum"
 * "Criteria" instead of "criterion"
 * "Stimulus" instead of "stimuli" (which annoyed me incredibly on [this podcast episode](https://podcasts.apple.com/us/podcast/e016-the-banality-of-catgirls/id1483001784?i=1000494296958))
+* "Desideratum" instead of "desiderata" (e.g. [here](https://joecarlsmith.com/2021/11/28/anthropics-and-the-universal-distribution#iii-are-the-world-and-claw-assumptions-true))
 
 Equivalences
 -------------

@@ -382,11 +382,11 @@ ask D for examples of books like these on Aboriginals-->
 Science
 --------
 
-* Studying foreveraloners
+* __Studying Foreveraloners__:
 * [Breeding Superintelligent
 Octopuses](https://www.lesswrong.com/posts/DaFG3GKsBrsAnAERR/save-humanity-breed-sapient-octopuses)
 (or
-[parrots](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-intelligent-parrots))
+[Parrots](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-intelligent-parrots))
 * Cloning Extinct Animals
 	* In order: Passenger Pigeons, Thylacines, Dodos, Wooly Mammoths, Neanderthals, [John von Neumann](https://fantasticanachronism.com/2021/03/23/two-paths-to-the-future/), Srinivasa Ramanujan…
 * Masturbation Research
