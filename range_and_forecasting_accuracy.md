@@ -2437,7 +2437,7 @@ original findings?
 	* The slope of the linear regression also flips sign, but the intercept is remarkably similar. ~
 	* The p-value is still abysmal. ✓
 	* The sign of the logistic-ish fit is the same for both parameters, though the original parameters were more extreme. ~
-	* The exponential-ish fit has a slightly smaller parameter, which discounts even more aggresively. ~
+	* The exponential-ish fit has a slightly smaller parameter, which discounts even more aggressively. ~
 	* The logistic-ish predictive horizon is sightly smaller, but in the same ballpark. ✓
 	* The exponential-ish horizon is ~half as long. ~
 	* The mean squared errors of both methods are again remarkably close. ✓
