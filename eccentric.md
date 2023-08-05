@@ -330,17 +330,28 @@ sighted the [Fimbul ice
 shelf](https://en.wikipedia.org/wiki/Fimbul_ice_shelf). But what
 if it had?  Humans managed to find and [settle Hawaii in ~1250
 C.E](https://en.wikipedia.org/wiki/Discovery_and_settlement_of_Hawaii)
-from the Marquesas islands and the Society islands<!--TODO:
-distance to Hawaii-->. Similarly, the polynesians that settled Hawaii
+from the Marquesas islands (distance: 3650km) and the Society islands
+(distance: 2560km). Similarly, the polynesians that settled Hawaii
 ([probably](https://en.wikipedia.org/wiki/Pre-Māori_settlement_of_New_Zealand_theories))
-*also* settled New Zealand. The southernmost point of New Zealand is TODO
-kilometres from the nearest point at the Antarctic coast, so it is not
-*inconceivable* that a Māori society with more durable ships and warmer
-clothes could have sailed southwards repeatedly and finally put foot
-on those icy shores. (Indeed I find it pretty likely that [some crazy
+*also* settled New Zealand. The southernmost point
+of New Zealand is 2466km from the nearest point at the
+Antarctic coast (the closest Antarctic point from [Stewart
+Island](https://en.wikipedia.org/wiki/Stewart_island))
+but if you're willing to make some hops over the [Snares
+Islands](https://en.wikipedia.org/wiki/Snares_Islands_/_Tini_Heke),
+[Auckland Island](https://en.wikipedia.org/wiki/Auckland_Island)[^4],
+[Macquarie Island](https://en.wikipedia.org/wiki/Macquarie_Island)
+and [this unnamed icy spot in the
+Pacific](https://www.google.com/maps/@-66.801999,161.2642981,7z?entry=ttu)
+the distance increases to 2770km, but with no hop being greater
+than [1295km](https://www.calcmaps.com/map-distance/ryxrc5/) (the one from Macquarie Island to the small island
+before Antarctica). So it is not *inconceivable* that a Māori
+society with more durable ships and warmer clothes could have
+sailed southwards repeatedly and finally put foot on those icy
+shores. (Indeed I find it pretty likely<sub>25%</sub> that [some crazy
 guys](https://en.wikipedia.org/wiki/Ui-te-Rangoira) might've done this,
 given the number of islands out in the Pacific that were just discovered
-(?) by Polynesians sailing around.)[^3] Actually *settling* Antarctica
+(?) by Polynesians sailing around.)[^3][^5] Actually *settling* Antarctica
 is a whole other can of worms: The continent is by far the coldest and
 (as a [polar desert](https://en.wikipedia.org/wiki/Polar_desert)) driest,
 it harbors nearly no vegetation (except lichen & moss), and away from the
@@ -424,3 +435,5 @@ Metaphilosophy
 [^1]: It's not clear that Nauru is the best choice here. While it probably is the smallest nation state that can conceivably be bought (I don't think there is any realistic (or unrealistic) amount of money for which Vatican City could be acquired), it is not very fertile, and has only limited freshwater reserves, relying mostly on rainwater. The highest point is only 71 metres above sea level, which means that a large part of the island might be at risk of going under water with rising sea levels.
 [^2]: [Rest in peace](https://old.reddit.com/r/SCP/comments/1434kh7/the_whole_scp_confinement_situation_is_both/).
 [^3]: Maybe I'm lacking in imagination, but this implies both that polynesians can survive for weeks on the open ocean, can reliably find their way back home if need be, and are adventurous enough to just sail out to the open ocean in the hopes of finding new islands. This seems extremely crazy to me.
+[^4]: Indeed, there is [some evidence](https://en.wikipedia.org/wiki/Auckland_Island#Human_presence_on_the_island) that Auckland island was settled briefly by Polynesians 600-700 years ago.
+[^5]: Another method of finding and moving to Antarctica would be from the [Tierra del Fuego](https://en.wikipedia.org/wiki/Tierra_del_fuego) to the [Siffrey point](https://en.wikipedia.org/wiki/Siffrey_point), which is much closer<!--TODO: distance-->. I'm not sure whether this is more or less likely: the [Yahgan people](https://en.wikipedia.org/wiki/Yahgan_people) have lived in the Tierra del Fuego for ~8k years, which would give far more time for for extensive exploration, but I believe that the Polynesians were *much* better at spending long durations of time at sea, and at finding far away land from subtle cues.
