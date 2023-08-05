@@ -461,7 +461,6 @@ but rather cycles).
 * [Tetraspace West](https://thetetra.space): Land value tax : repetitive Georgists :: Conditional prediction markets : That place for Quaternions
 * [Skaði þjazidottir](https://ulthar.xyz): Gather some stoic people with guns, who have written low-level code
 * [Nyx](https://nyxus.xyz/): Brightly empathetically menacing (we all know she's just joking)
-* [rodeo flagellum](https://rodeoflagellum.github.io/): *Definitely* wants to become stronger
 
 The Author
 ----------
