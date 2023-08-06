@@ -11,6 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* Oppenheimer
 <!--TODO: New India Jones movie-->
 * [No Time To Die](https://www.imdb.com/title/tt2382320/)
 * [Ocean's Eleven](https://www.imdb.com/title/tt0240772/)
