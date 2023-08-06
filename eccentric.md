@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-20, modified: 2023-08-03, language: english, status: notes, importance: 3, confidence: remote*
+*author: niplav, created: 2022-07-20, modified: 2023-08-06, language: english, status: notes, importance: 3, confidence: remote*
 
 > __What I might do if I magically got hold of a very large amount of
 money, and couldn't spend it maximally altruistically.__
@@ -24,7 +24,10 @@ since I don't have that type of money, nor am I likely to get hold of
 it myself anytime soon).
 
 Lots of these ideas aren't mine, and I have tried to attribute them
-wherever I could find the source.
+wherever I could find the source. If guess that if they were implemented
+(not sure whether that's possible: legality & all that) I'd very likely
+become very unpopular in polite society. But the resulting discourse
+might be worth it.
 
 Culture
 ---------
@@ -95,15 +98,16 @@ be cool to save nearly extinct languages from their demise. This
 is not just hypothetical: From 2013 to 2023, [19 languages have
 died](https://en.wikipedia.org/wiki/List_of_languages_by_time_of_extinction#21st_century)<!--TODO:
 has rate of language death sped up? Read around to figure this out-->. To
-do this, we employ linguists to learn each of the the endangered languages
-and practice it. 10 linguists per language should be enough, so we
-employ 5000 of them at ~\\$50k a year, for 4 years, to spend learning the
-language full-time, which yields us expenses of ~\\$1 bio. Then say that
-we continue employing them part-time for 20 years to continue practicing
-until we've found a way to permanently store the languages, for example
-by training large language models (text and audio) on those languages;
-this would give us (at \\$10k salary a year) another \\$1 bio. in expenses,
-plus whatever cost the preservation procedure entails.
+do this, we employ linguists to learn each of the the endangered
+languages and practice it. 10 linguists per language should be enough,
+so we employ 5000 of them at ~\\$50k a year, for 4 years, to spend
+learning the language full-time, which yields us expenses of ~\\$1
+bio. Then say that we continue employing them part-time for 20 years
+to continue practicing until we've found a way to permanently store the
+languages, for example by training large language models (text and audio)
+on those languages; this would give us (at \\$10k salary a year) another
+\\$1 bio. in expenses, plus whatever cost the preservation procedure
+entails.<!--TODO: invest & pay speakers from revenue-->
 * __Raise native speakers of an engineered
 conlang__: Spurred on by the [Sapir-Whorf
 hypothesis](https://en.wikipedia.org/wiki/Linguistic_relativity),
@@ -158,9 +162,10 @@ Wilkin's](https://en.wikipedia.org/wiki/John_Wilkins) [unnamed
 language](https://en.wikipedia.org/wiki/An_Essay_Towards_a_Real_Character,_and_a_Philosophical_Language)
 & Lojban &
 [aUI](https://en.wikipedia.org/wiki/aUI_\(Constructed_language\))
-& Láadan & Ithkuil, but there's never been a *concerted* effort
-at exploring the space—we e.g. haven't yet tried to create a
-language for [Lullism](https://en.wikipedia.org/wiki/Lullism),
+& Láadan & Ithkuil, but there's never been a
+*[concerted](https://www.lesswrong.com/posts/rQKstXH8ZMAdN5iqD/concentration-of-force)*
+effort at exploring the space—we e.g. haven't yet tried to create
+a language for [Lullism](https://en.wikipedia.org/wiki/Lullism),
 [deleuzian](https://en.wikipedia.org/wiki/Gilles_Deleuze)
 [post-structuralism](https://en.wikipedia.org/wiki/Post-structuralism)
 or the insights from the [rationality
@@ -321,7 +326,6 @@ and audio engineering, each at ~\\$50k per year, and maybe another
 moderator and a fact checker as a part-time (10h per week on average
 perhaps?) position, at a total cost of ~\\$150k per year, fudging upwards
 to \\$200k per year.
-* __Languishing Drafts Podcast__
 * __A Fictional Ethnography and Anthropology of Native Antarcticans__:
 Antarctica wasn't settled by humans before [Fabian Gottlieb von
 Bellingshausen](https://en.wikipedia.org/wiki/Fabian_Gottlieb_von_Bellingshausen)
@@ -330,8 +334,8 @@ sighted the [Fimbul ice
 shelf](https://en.wikipedia.org/wiki/Fimbul_ice_shelf). But what
 if it had?  Humans managed to find and [settle Hawaii in ~1250
 C.E](https://en.wikipedia.org/wiki/Discovery_and_settlement_of_Hawaii)
-from the Marquesas islands (distance: 3650km) and the Society islands
-(distance: 2560km). Similarly, the polynesians that settled Hawaii
+from the Marquesas islands (distance: 3530km) and the Society islands
+(distance: 3990km). Similarly, the polynesians that settled Hawaii
 ([probably](https://en.wikipedia.org/wiki/Pre-Māori_settlement_of_New_Zealand_theories))
 *also* settled New Zealand. The southernmost point
 of New Zealand is 2466km from the nearest point at the
@@ -343,65 +347,111 @@ Islands](https://en.wikipedia.org/wiki/Snares_Islands_/_Tini_Heke),
 [Macquarie Island](https://en.wikipedia.org/wiki/Macquarie_Island)
 and [this unnamed icy spot in the
 Pacific](https://www.google.com/maps/@-66.801999,161.2642981,7z?entry=ttu)
-the distance increases to 2770km, but with no hop being greater
-than [1295km](https://www.calcmaps.com/map-distance/ryxrc5/) (the one from Macquarie Island to the small island
-before Antarctica). So it is not *inconceivable* that a Māori
-society with more durable ships and warmer clothes could have
-sailed southwards repeatedly and finally put foot on those icy
-shores. (Indeed I find it pretty likely<sub>25%</sub> that [some crazy
-guys](https://en.wikipedia.org/wiki/Ui-te-Rangoira) might've done this,
-given the number of islands out in the Pacific that were just discovered
-(?) by Polynesians sailing around.)[^3][^5] Actually *settling* Antarctica
-is a whole other can of worms: The continent is by far the coldest and
-(as a [polar desert](https://en.wikipedia.org/wiki/Polar_desert)) driest,
-it harbors nearly no vegetation (except lichen & moss), and away from the
-coasts there are very ~no large organisms. So we'd like to know, assuming
-it is possible for there to be native antarctican populations descended
+the distance increases to 2770km, but with no hop being greater than
+[1295km](https://www.calcmaps.com/map-distance/ryxrc5/) (the one from
+Macquarie Island to the small island before Antarctica). So it is
+not *inconceivable* that a Māori society with more durable ships and
+warmer clothes could have sailed southwards repeatedly and finally put
+foot on those icy shores. (Indeed I find it pretty likely<sub>25%</sub>
+that [some crazy guys](https://en.wikipedia.org/wiki/Ui-te-Rangoira)
+might've done this, given the number of islands out in the
+Pacific that were just discovered (?) by Polynesians sailing
+around.)[^3][^5] Actually *settling* Antarctica is a whole other
+can of worms: The continent is by far the coldest and (as a [polar
+desert](https://en.wikipedia.org/wiki/Polar_desert)) driest, it harbors
+nearly no vegetation (except lichen & moss), and away from the coasts
+there are very ~no large organisms. So we'd like to know, assuming it
+is possible for there to be native antarctican populations descended
 from [Māori people](https://en.wikipedia.org/wiki/Māori_people),
 *how* such a population might manage to endure, and what their
-culture and daily life might look like. Ideas: instead of using wood
-(since there isn't any), maybe the native Antarcticans could create a
-[pykrete](https://en.wikipedia.org/wiki/pykrete) variant with lichen
-or moss ("likrete"); perhaps (with much effort?) it is possible
-to domesticate [fur seals](https://en.wikipedia.org/wiki/Fur_seal)
+culture and daily life might look like. Ideas: instead of using
+wood (since there isn't any), maybe the native Antarcticans
+could create a [pykrete](https://en.wikipedia.org/wiki/pykrete)
+variant with lichen ("likrete") or moss ("mokrete");
+perhaps (with much effort?) it is possible to domesticate
+[fur seals](https://en.wikipedia.org/wiki/Fur_seal)
 ([leopard seals](https://en.wikipedia.org/wiki/Leopard_seal) seem
 [harder](https://en.wikipedia.org/wiki/Leopard_seal#Negative_interactions_with_humans)),
-and whaling might still be an option. Antarcticans would probably need
-to be hunter-gatherers, but the absence of wood makes it quite hard
-to hunt where the (mostly marine) animals are, similar with spears
-and bows—is it conceivable to use tools made from ice and stone
-instead? Heating is a big problem, as well as surviving through the
-winter, but surely Antarctica has some accessible coal<!--TODO: look
-this up-->. Maybe our native population would need to overwinter in
-shelters (made from ice, stone or likrete?), surviving on seal meat
-and [blubber](https://en.wikipedia.org/wiki/Blubber). It would also
+and whaling might still be an option. Antarcticans would probably need to
+be hunter-gatherers, but the absence of wood makes it quite hard to hunt
+where the (mostly marine) animals are, similar with spears and bows—is
+it conceivable to use tools made from ice and stone instead? Heating is
+a big problem, as well as surviving through the winter, but Antarctica
+has some accessible coal [Merrill
+2016](./doc/geology/gis_representation_of_coal_bearing_areas_in_antarctical_merrill_2016.pdf "GIS Representation of Coal-Bearing Areas in Antarctica"),
+some of it fairly close to the coast where Māori might land. Maybe
+our native population would need to overwinter in shelters
+(made from ice, stone or likrete?), surviving on seal meat and
+[blubber](https://en.wikipedia.org/wiki/Blubber). It would also
 be interesting to have a description of Antarctican culture: What
 kind of mythology would develop in such a ruthless place? ([Inuit
-mythology](https://en.wikipedia.org/wiki/Inuit_religion) is already
-fascinating, and the very different cultural lineage from polynesian
-societies would add an interesting twist). With AI tools it might be
-surprisingly cheap to produce such a fictional ethnography, paying an
-anthropologist and a designer \\$50k/year each, for a year. Output format:
-An illustrated book in the style of early 20th century ethnographies, with
-descriptions of daily life, technology, culture, language &c.<!--TODO:
-ask D for examples of books like these on Aboriginals-->
-* Beautiful Geometric Objects
+mythology](https://en.wikipedia.org/wiki/Inuit_religion) is
+already fascinating, and the very different cultural lineage from
+polynesian societies would add an interesting twist). With AI
+tools it might be surprisingly cheap to produce such a fictional
+ethnography, paying an anthropologist and a designer \\$50k/year
+each, for a year. Output format: An illustrated book in the style
+of early 20th century ethnographies, with descriptions of daily life,
+technology, culture, language &c, similar to [The Native Tribes of Central
+Australia](https://www.goodreads.com/book/show/68126748-the-native-tribes-of-central-australiar)
+or [Report on the Work of the Horn Scientific
+Expedition](https://www.goodreads.com/book/show/43843069).
+* __Build Beautiful Geometric Objects__
 	* The platonic solids in physical form, similar to tungsten cubes, but of varying size & material (from a steel icosahedron with a few centimetres vertex length to a granite cube or obsidian dodecahedron twenty metres at each side)—the stuff that would make future people say "they considered themselves a powerful culture"
-* Buy the movie rights to House of Leaves to make sure noone can ever make a movie out of it.
-* A History of Eve Online
+* __Buy the movie rights to House of Leaves__: Make sure noone can ever make a movie out of it.
+* __A History of Eve Online__
+* __Languishing Drafts Podcast__
 
 Science
 --------
 
-* __Studying Foreveraloners__:
-* [Breeding Superintelligent
-Octopuses](https://www.lesswrong.com/posts/DaFG3GKsBrsAnAERR/save-humanity-breed-sapient-octopuses)
-(or
-[Parrots](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-intelligent-parrots))
-* Cloning Extinct Animals
+* __Studying Foreveraloners__: Some people<!--TODO how
+many? Percentage?--> are unable to find a partner for their
+entire life and perhaps never lose their virginity. They give
+themselves various names: "LoveShy"<!--TODO: link-->, ["Forever
+alone"](https://old.reddit.com/r/ForeverAlone/) or ["involuntary
+celibate"](https://en.wikipedia.org/wiki/Incel). A common point of
+disagreement in those communities is whether lack sexual activity by
+itself (independently from relationships) has negative effects on people:
+The incels wiki [lists](https://incels.wiki/w/Scientific_Blackpill#Health)
+a (likely selective) collection of studies, however nearly all of them
+are correlational & the ones who aren't don't test sexual activity *per
+se* (merely physical contact). This offers a nice opportunity for a
+[longitudinal](https://en.wikipedia.org/wiki/Longitudinal_study)
+[randomized
+experiment](https://en.wikipedia.org/wiki/Randomized_experiment): Find
+300 men[^6] above the age of 25 who have never had a partner of sexual
+intercourse ([/r/ForeverAlone](https://old.reddit.com/r/ForeverAlone/)
+has ~180k subscribers, so the subjects would be 1/600th of the number
+of subscribers: seems doable), and randomize them into two groups:
+For a ten-year period, men in the treatment group see a (paid for)
+prostitute once a week for ~2 hours, men in the control group don't
+(they are, however, *not* prevented from finding partners for intercourse
+themselves, and are perhaps rewarded a cash price after ten years that
+is large enough that they're still willing to participate in data
+collection without misreporting).  Nobody is *forced* (by contract
+or otherwise) to neglect finding a partner, or to sleep with the
+prostitute, however participants in both groups will receive the
+cash price in the end if and only if they participate in the data
+collection. Data collected might be income, educational attainment,
+relationship status, other sexual activity, mood (via [experience
+sampling](https://en.wikipedia.org/wiki/Experience_sampling_method)),
+blood pressure and other various health indicators. Cost: \\$1k per
+prostitute visit at two visits per week for 150 men for 52 weeks a year
+for 10 years, which comes out at \\$156 mio., \\$200k cash price for
+participants in the treatment group & \\$1mio. cash price for members
+of the control group at (in total) \\$180mio.[^7], ~\\$100mio. for the
+data collection (I don't have a clear idea how much more or less this
+would need to be), which comes out at ~\\$436mio. Should one be able to
+find a similarly sized set of female participants, this doubles the cost
+to ~\\$872mio. Setting the experiment up to find participants who are
+actually celibate and not simply interested in the money or prostitution
+might pose some difficulty, but not be insurmountable.
+* __[Breeding Superintelligent Octopuses](https://www.lesswrong.com/posts/DaFG3GKsBrsAnAERR/save-humanity-breed-sapient-octopuses) or [Parrots](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-intelligent-parrots)__
+* __Cloning Extinct Animals__
 	* In order: Passenger Pigeons, Thylacines, Dodos, Wooly Mammoths, Neanderthals, [John von Neumann](https://fantasticanachronism.com/2021/03/23/two-paths-to-the-future/), Srinivasa Ramanujan…
-* Masturbation Research
-* Explorables for Causal Inference
+* __Masturbation Research__
+* __Explorables for Causal Inference__
 * Find drugs that cause short-term memory loss with ideally no side effects (useful for blinding in scientific studies)
 * Run Newcomb's problem in real life
 * Run the [Generalized Wada Test](https://qualiacomputing.com/2015/05/01/generalized-wada-test-and-the-total-order-of-consciousness/)
@@ -436,4 +486,6 @@ Metaphilosophy
 [^2]: [Rest in peace](https://old.reddit.com/r/SCP/comments/1434kh7/the_whole_scp_confinement_situation_is_both/).
 [^3]: Maybe I'm lacking in imagination, but this implies both that polynesians can survive for weeks on the open ocean, can reliably find their way back home if need be, and are adventurous enough to just sail out to the open ocean in the hopes of finding new islands. This seems extremely crazy to me.
 [^4]: Indeed, there is [some evidence](https://en.wikipedia.org/wiki/Auckland_Island#Human_presence_on_the_island) that Auckland island was settled briefly by Polynesians 600-700 years ago.
-[^5]: Another method of finding and moving to Antarctica would be from the [Tierra del Fuego](https://en.wikipedia.org/wiki/Tierra_del_fuego) to the [Siffrey point](https://en.wikipedia.org/wiki/Siffrey_point), which is much closer<!--TODO: distance-->. I'm not sure whether this is more or less likely: the [Yahgan people](https://en.wikipedia.org/wiki/Yahgan_people) have lived in the Tierra del Fuego for ~8k years, which would give far more time for for extensive exploration, but I believe that the Polynesians were *much* better at spending long durations of time at sea, and at finding far away land from subtle cues.
+[^5]: Another method of finding and moving to Antarctica would be from the [Tierra del Fuego](https://en.wikipedia.org/wiki/Tierra_del_fuego) to the [Siffrey point](https://en.wikipedia.org/wiki/Siffrey_point), which is much closer (~1030km). I'm not sure whether this is more or less likely: the [Yahgan people](https://en.wikipedia.org/wiki/Yahgan_people) have lived in the Tierra del Fuego for ~8k years, which would give far more time for for extensive exploration, and the [Prime Head](https://en.wikipedia.org/wiki/Prime_Head) is likely warmer and more hospitable than the rest of Antarctica, but I believe that the Polynesians were *much* better at spending long durations of time at sea, and at finding far away land from subtle cues.
+[^6]: Since the experiment would solely involve prostitution, my best guess<sub>80%</sub> is that it would be significantly more difficult to find a similar number of female participants.
+[^7]: I'd like to hear feedback on what people believe the right amounts of money for indifference between membership of the two groups+participation would be.

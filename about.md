@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-06-10, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2022-08-05, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -466,6 +466,36 @@ The Author
 ----------
 
 Who I am is not terribly important.
+
+### Track Records
+
+I think that track records are [great &
+underrated](http://www.overcomingbias.com/2006/12/the_80_forecast.html),
+so insofar this website isn't already a clear display of my
+(in)competence, I'll also share my various track records to make
+it easier for others to determine whether I'm to be taken serious as a
+source of information.
+
+#### Forecasting
+
+Scores (as of 2023-08-05):
+
+* [PredictionBook](https://predictionbook.com/users/niplav)
+	* Brier score (131 questions, mostly forecasts about the outcomes of my own research, and success from daygame approaches): 0.2365
+![](./img/about/predictionbook_calibration.png)
+* [Metaculus](https://www.metaculus.com/accounts/profile/112493/)
+	* Brier score (281 binary questions, basically uniformly sampled from all Metaculus questions): 0.116
+![](./img/about/metaculus_binary_brier_score.png)
+![](./img/about/metaculus_binary_calibration.png)
+	* Continuous log score (204 questions, also uniformly sampled): 1.35
+![](./img/about/metaculus_cont_log_score.png)
+![](./img/about/metaculus_cont_calibration.png)
+* [Manifold markets](https://manifold.markets/NiplavYushtun)
+	* Profit: M\\$101
+	* Net worth: M\\$1103
+	* Balance: M\\$662
+	* Calibration: Grade C+, Score -4.5
+![](./img/about/manifold_calibration.png)
 
 ### Pronouns
 
