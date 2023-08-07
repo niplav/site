@@ -307,6 +307,12 @@ Puns
 * Why don't Haskellers practice jhānic meditation? Because it's all about cultivating states.
 * 1. If it is spring, then I must sneeze, 2. It is spring ∴ I must sneeze: Modus Pollens
 
+> "Knock knock."  
+"Who's there?"  
+"Just Rwanda."  
+"Just Rwanda who??"  
+"Just rwandering around!"
+
 ### German
 
 * Dafür, daß sie Jainisten heißen, sind sie aber ganz schön resolut.

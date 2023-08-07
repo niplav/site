@@ -23,11 +23,12 @@ Writing
 Curently I'm mostly working on an expanded version of [Turning Some
 Inconsistent Preferences into Consistent Ones](./turning.html),
 and sometimes [thinking on how to measure the precision of
-forecasts](./precision.md). I am also finishing up a [self-blinded RCT
-with caffeine](./nootropics.html#Experiment_A_SelfBlinded_RCT).
+forecasts](./precision.md).
 
-I'm also planning a full edit of all texts on the website, but don't
-have a fixed date to get started on that at the moment.
+I'm also conducting a full edit of all texts on the website, which
+is turning out to take *way* longer than I expected. (I started with
+[this page](./eccentric.html) and immediately got stuck, expanding the
+text considerably).
 
 ### Abandoned
 

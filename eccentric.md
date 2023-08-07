@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-20, modified: 2023-08-06, language: english, status: notes, importance: 3, confidence: remote*
+*author: niplav, created: 2022-07-20, modified: 2023-08-07, language: english, status: in progress, importance: 3, confidence: other*
 
 > __What I might do if I magically got hold of a very large amount of
 money, and couldn't spend it maximally altruistically.__
@@ -27,7 +27,24 @@ Lots of these ideas aren't mine, and I have tried to attribute them
 wherever I could find the source. If guess that if they were implemented
 (not sure whether that's possible: legality & all that) I'd very likely
 become very unpopular in polite society. But the resulting discourse
-might be worth it.
+would absolutely be worth it.
+
+| Intervention                                      | Cost           |
+| :------------------------------------------------ | -------------- |
+| Snowball fights                                   | ?              |
+| Buy a small island nation                         | \\$5 bio.      |
+| Personal futarchy on steroids                     | \\$100 mio.    |
+| Save dying languages                              | \\$2 bio.      |
+| Raise native speakers of an engineered conlang    | \\$30.8 mio.   |
+| Philosophically solve language                    | \\$10 mio.     |
+| SCP series                                        | \\$1 bio.      |
+| Antimemetics Division spinoff                     | \\$200 mio.    |
+| Discontinuous & fast AI takeoff movie             | \\$500 mio.    |
+| Double Crux podcast                               | \\$2 mio.      |
+| Fictional ethnography of native Antarcticans      | \\$100k        |
+| Studying foreveraloners                           | \\$900 mio.    |
+|                                                   |                |
+| __Sum__                                           | \\$ 9.75 bio.  |
 
 Culture
 ---------
@@ -41,15 +58,15 @@ rented, and separated into at least 2 parts, each parts gets a large pile
 of fresh snow (to minimize the chance of stones in snowballs). People are
 encouraged to bring protective gear to allow for rougher fighting. If one
 is to allow for physical encounters, one'd need to group by fitness/size.
-* __Buy a small island__: Since other billionaires are now
+* __Buy a small island nation__: Since other billionaires are now
 [unable](https://qz.com/sam-bankman-fried-ftx-nauru-court-case-money-laundering-1850662899)
 or unwilling to buy a small remote island for eccentric trillionaire
 purposes, this duty now falls on us. Owning an island has several
 advantages, such as being able to provide shelter during some catastrophic
 events and be a base for organizing other eccentric activities. Plus
-points if the island owned is a nation state, as one could pass ones
-own laws (within the bounds of international agreements, of course).
-Let's say we e.g. try to buy [Nauru](https://en.wikipedia.org/wiki/Nauru)[^1].
+points if the island owned is a nation state, as one could pass ones own
+laws (within the bounds of international agreements, of course).  Let's
+say we e.g. try to buy [Nauru](https://en.wikipedia.org/wiki/Nauru)[^1].
 Nauru's GPD is ~\\$135 mio., which at a discount rate of ~5% has a
 [net present value](https://en.wikipedia.org/wiki/Net_present_value)
 of `$\frac{\$135 \text{ mio.}}{0.05}=\$2.7 \text{ bio.}$`,
@@ -81,8 +98,98 @@ and there were attempts from the US side to also [buy
 Greenland](https://en.wikipedia.org/wiki/Proposals_for_the_United_States_to_purchase_Greenland)
 from Denmark—[ultimately
 unsuccessful](https://www.gwern.net/Greenland). More examples
-[here](https://en.wikipedia.org/wiki/List_of_territory_purchased_by_a_sovereign_nation_from_another_sovereiign_nation)).
-* __[You Can Do Futarchy Yourself](https://www.lesswrong.com/posts/qZXy8kGkNFyqCfHEJ/you-can-do-futarchy-yourself) on Steroids__
+[here](https://en.wikipedia.org/wiki/List_of_territory_purchased_by_a_sovereign_nation_from_another_sovereiign_nation)),
+*but* to my best knowledge nobody has
+ever acquared a country. (Yet. [Growth
+mindset](https://en.wikipedia.org/wiki/Mindset#Fixed_and_growth_mindsets).)
+* __Personal futarchy on steroids__: In [You Can Do Futarchy
+Yourself](https://www.lesswrong.com/posts/qZXy8kGkNFyqCfHEJ/you-can-do-futarchy-yourself),
+[Tetraspace](https://thetetra.space) outlines
+a way of implementing a preliminary versions of
+[Futarchy](https://en.wikipedia.org/wiki/Futarchy) (using [prediction
+markets](https://en.wikipedia.org/wiki/Prediction_market)
+to determine policies whose outcomes are [predicted to
+be](https://casparoesterheld.com/2017/12/18/futarchy-implements-evidential-decision-theory/)
+optimal alongside some pre-defined metric) by submitting
+conditional questions to forecasting platforms like
+[Metaculus](https://www.metaculus.com) or [Manifold
+Markets](https://manifold.markets/).
+	* __As an example__, say one only cared about GDP. Then one could
+	submit the questions "If a Democratic candidate wins the 2024
+	presidential election, what will the US GDP be in 2026?" and "If
+	a Republican candidate wins the 2024 presidential election, what
+	will the US GDP be in 2026?", and, depending on the forecasts
+	others make, decide to vote one way or the other.<!--TODO:
+	link real examples that Tetraspace put up on Metaculus?-->
+	Online forecasting platforms are fairly reliable<!--TODO: link
+	track records here-->, especially for short-term political
+	questions<!--TODO: actually investigate this-->, so the
+	information would be quite valuable.
+	* Another nice thing about this proposal is that it is very
+	scalable: The minimum viable product can be made by a motivated
+	individual in one evening, but more sophisticated versions are
+	possible. One possible extension could look like a [voting advice
+	application](https://en.wikipedia.org/wiki/Voting_advice_application),
+	similar to the German
+	[Wahl-O-Mat](https://en.wikipedia.org/wiki/Federal_Agency_for_Civic_Education#Voting_advice)
+	or the international [Vote
+	Compass](https://en.wikipedia.org/wiki/Vote_Compass).
+	* __Create markets on elections__: For a given national election,
+	a team of political scientists would enumerate the lists of likely
+	outcomes of the election (either determining which coalitions
+	are likely, or (in single-winner elections) which parties
+	could win). They would also collect common & clearly measurable
+	desired outcomes the voters might have for the election, such
+	as GPD, life expectancy, crime levels, the [Human Development
+	Index](https://en.wikipedia.org/wiki/Human_Development_Index)
+	and others. (It is possible to define more specific criteria,
+	such as whether certain laws would be passed, but this might
+	slide into already specifying beforehand which party would
+	come out ahead). For a specific election `$E$`, candidate
+	`$c$` and indicator `$i$`, a question would then be created
+	on a prediction platform (or, even better, market): "If `$c$`
+	gets elected in `$E$`, what will the value of `$i$` be at the
+	end of the legislative period of `$c$`?" (There are [some problems
+	here](https://www.lesswrong.com/posts/a4jRN9nbD79PAhWTB/prediction-markets-when-do-they-work)
+	with the many markets that don't resolve, which we will ignore for
+	the time being, perhaps combinatorial prediction markets<!--TODO:
+	read & link here--> or [latent variable prediction
+	markets](https://www.lesswrong.com/posts/ufW5LvcwDuL6qjdBT/latent-variables-for-prediction-markets-motivation-technical)
+	can help, but I don't know enough about them).
+	* __Make a website__: One would then create a website giving users
+	[sliders](https://en.wikipedia.org/wiki/Slider_\(computing\))
+	choose which indicators `$i$` they care more or less about,
+	and about the desired sign of those indicators[^8]. Using the
+	probability distributions over indicators from the prediction
+	platforms, the website would then compute the expected value
+	for each candidate and report the list of candidates to the
+	user, sorted by desirability — giving them information
+	about which candidates are most likely to actually succeed at
+	giving them the outcomes they desire, and thereby influencing
+	voting behavior. The whole website would be accompanied with
+	a short video explaining the concept, and perhaps a longer
+	explainer text going in detail. Voting platforms are [fairly
+	popular](https://en.wikipedia.org/wiki/Voting_advice_application#Effects_on_voting_behaviour),
+	sometimes drawing >10% of the population to use them.
+	* __Cost__: The underlying software should not be very expensive
+	(a website, an app and a backend that could support tens to
+	potentially hundreds of thousands of visits a day), and could be
+	re-used for each election: An initial expense of ~\\$5mio., with
+	~\\$500k per ear of maintenance seems on the conservative side
+	for an estimate. Assuming we want to supply the elections of the
+	40 biggest (democratic) countries with information, there'd be
+	(assuming an electoral cycle of ~4 years) ~10 elections a year
+	— something a team of 5 political scientists (~\\$100k a year
+	each) should be able to handle.  Assuming that for each election,
+	there are ~6 candidates/coalitions that cover most of the election
+	outcomes, and ~6 indicators we want to use to evaluate election
+	outcomes, subsidizing each market with \\$10k comes out at
+	`$\frac{\$10k}{\text{market}} \cdot \frac{6 \text{ markets}}{\text{ candidate}} \cdot \frac{6 \text{ markets}}{\text{ indicator}} \cdot \frac{10 \text{ elections}}{\text{year}} \cdot \frac{1 \text{ candidate indicator}}{\text{ election market}}=\frac{\$360k}{\text{year}}$`.
+	If the whole thing runs for 20 years, we then pay
+	`$\$5 \text{ mio.} + 20 \cdot (\$500k + \$500k + \$360k)=\$32 \text{ mio}$`.
+	This is *surprisingly* cheap, so I'll fudge upwards to \$100 mio,
+	just in case. Still a steal, if you ask me. Just not sure whether
+	I'd have to fear angry politicians.
 
 Language
 ---------
@@ -238,7 +345,7 @@ in this case.
 	neglect my favorite work of fiction: The novel [There Is No
 	Antimemetics Division](https://www.goodreads.com/en/book/show/54870256)
 	would lend itself well to a one-season spinoff.
-* __Discontinuous & Fast AI Takeoff Movie__: Most movies with
+* __Discontinuous & fast AI takeoff movie__: Most movies with
 artificial intelligence feel pretty provincial to me: Most
 of the AI systems in those movies are simply [humans in funny
 suits](https://www.lesswrong.com/rationality/humans-in-funny-suits), at
@@ -270,12 +377,14 @@ daemons](https://arbital.com/p/daemons/) and the difficulties of
 trying to align future versions (perhaps put on screen as blurry
 simulations of successor behavior) should be [interesting to look
 at](https://kajsotala.fi/2011/12/ai-thought-process-visualization/). If
-we're willing to get *really* weird, one could try to depict [acausal
-trade](https://www.lesswrong.com/tag/acausal-trade), multiverse-wide
-evidential cooperation and later ontokinetics shenanigans—but then one'd
-need to launch a research project on how these things could possibly
-play out. One difficulty of making this movie: The strategies of such
-a system would probably be extremely alien by human standards, and the
+we're willing to get *really* weird, one could try to depict
+[acausal trade](https://www.lesswrong.com/tag/acausal-trade),
+[multiverse-wide evidential
+cooperation](https://forum.effectivealtruism.org/posts/7MdLurJGhGmqRv25c/multiverse-wide-cooperation-in-a-nutshell)
+and later ontokinetics shenanigans—but then one'd need to
+launch a research project on how these things could possibly play
+out. One difficulty of making this movie: The strategies of such a
+system would probably be extremely alien by human standards, and the
 resulting movie would be quite conceptual as a result—and by [Vinge's
 law](https://arbital.com/p/Vinge_law/) the scriptwriters wouldn't be able
 to make it even remotely realistic. But it might be pretty—similar
@@ -286,7 +395,7 @@ as music. [Really expensive
 movies](https://en.wikipedia.org/wiki/List_of_most_expensive_films)
 cost at most ~\\$400 mio., we could easily top that by spending half a
 billion on a frivolous nerd project.
-* __Double Crux Podcast__: [Double
+* __Double Crux podcast__: [Double
 crux](https://www.lesswrong.com/tag/double-crux) is a technique
 for resolving disagreements developed by the [Center for Applied
 Rationality](https://rationality.org). In it, (usually) two interlocutors
@@ -326,79 +435,99 @@ and audio engineering, each at ~\\$50k per year, and maybe another
 moderator and a fact checker as a part-time (10h per week on average
 perhaps?) position, at a total cost of ~\\$150k per year, fudging upwards
 to \\$200k per year.
-* __A Fictional Ethnography and Anthropology of Native Antarcticans__:
+* __A fictional ethnography and anthropology of native Antarcticans__:
 Antarctica wasn't settled by humans before [Fabian Gottlieb von
 Bellingshausen](https://en.wikipedia.org/wiki/Fabian_Gottlieb_von_Bellingshausen)
 and [Mikhail Lazarev](https://en.wikipedia.org/wiki/Mikhail_Lazarev)
 sighted the [Fimbul ice
 shelf](https://en.wikipedia.org/wiki/Fimbul_ice_shelf). But what
-if it had?  Humans managed to find and [settle Hawaii in ~1250
-C.E](https://en.wikipedia.org/wiki/Discovery_and_settlement_of_Hawaii)
-from the Marquesas islands (distance: 3530km) and the Society islands
-(distance: 3990km). Similarly, the polynesians that settled Hawaii
-([probably](https://en.wikipedia.org/wiki/Pre-Māori_settlement_of_New_Zealand_theories))
-*also* settled New Zealand. The southernmost point
-of New Zealand is 2466km from the nearest point at the
-Antarctic coast (the closest Antarctic point from [Stewart
-Island](https://en.wikipedia.org/wiki/Stewart_island))
-but if you're willing to make some hops over the [Snares
-Islands](https://en.wikipedia.org/wiki/Snares_Islands_/_Tini_Heke),
-[Auckland Island](https://en.wikipedia.org/wiki/Auckland_Island)[^4],
-[Macquarie Island](https://en.wikipedia.org/wiki/Macquarie_Island)
-and [this unnamed icy spot in the
-Pacific](https://www.google.com/maps/@-66.801999,161.2642981,7z?entry=ttu)
-the distance increases to 2770km, but with no hop being greater than
-[1295km](https://www.calcmaps.com/map-distance/ryxrc5/) (the one from
-Macquarie Island to the small island before Antarctica). So it is
-not *inconceivable* that a Māori society with more durable ships and
-warmer clothes could have sailed southwards repeatedly and finally put
-foot on those icy shores. (Indeed I find it pretty likely<sub>25%</sub>
-that [some crazy guys](https://en.wikipedia.org/wiki/Ui-te-Rangoira)
-might've done this, given the number of islands out in the
-Pacific that were just discovered (?) by Polynesians sailing
-around.)[^3][^5] Actually *settling* Antarctica is a whole other
-can of worms: The continent is by far the coldest and (as a [polar
-desert](https://en.wikipedia.org/wiki/Polar_desert)) driest, it harbors
-nearly no vegetation (except lichen & moss), and away from the coasts
-there are very ~no large organisms. So we'd like to know, assuming it
-is possible for there to be native antarctican populations descended
-from [Māori people](https://en.wikipedia.org/wiki/Māori_people),
-*how* such a population might manage to endure, and what their
-culture and daily life might look like. Ideas: instead of using
-wood (since there isn't any), maybe the native Antarcticans
-could create a [pykrete](https://en.wikipedia.org/wiki/pykrete)
-variant with lichen ("likrete") or moss ("mokrete");
-perhaps (with much effort?) it is possible to domesticate
-[fur seals](https://en.wikipedia.org/wiki/Fur_seal)
-([leopard seals](https://en.wikipedia.org/wiki/Leopard_seal) seem
-[harder](https://en.wikipedia.org/wiki/Leopard_seal#Negative_interactions_with_humans)),
-and whaling might still be an option. Antarcticans would probably need to
-be hunter-gatherers, but the absence of wood makes it quite hard to hunt
-where the (mostly marine) animals are, similar with spears and bows—is
-it conceivable to use tools made from ice and stone instead? Heating is
-a big problem, as well as surviving through the winter, but Antarctica
-has some accessible coal [Merrill
-2016](./doc/geology/gis_representation_of_coal_bearing_areas_in_antarctical_merrill_2016.pdf "GIS Representation of Coal-Bearing Areas in Antarctica"),
-some of it fairly close to the coast where Māori might land. Maybe
-our native population would need to overwinter in shelters
-(made from ice, stone or likrete?), surviving on seal meat and
-[blubber](https://en.wikipedia.org/wiki/Blubber). It would also
-be interesting to have a description of Antarctican culture: What
-kind of mythology would develop in such a ruthless place? ([Inuit
-mythology](https://en.wikipedia.org/wiki/Inuit_religion) is
-already fascinating, and the very different cultural lineage from
-polynesian societies would add an interesting twist). With AI
-tools it might be surprisingly cheap to produce such a fictional
-ethnography, paying an anthropologist and a designer \\$50k/year
-each, for a year. Output format: An illustrated book in the style
-of early 20th century ethnographies, with descriptions of daily life,
-technology, culture, language &c, similar to [The Native Tribes of Central
-Australia](https://www.goodreads.com/book/show/68126748-the-native-tribes-of-central-australiar)
-or [Report on the Work of the Horn Scientific
-Expedition](https://www.goodreads.com/book/show/43843069).
-* __Build Beautiful Geometric Objects__
+if it had?
+	* __Finding Antarctica__: Humans
+	managed to find and [settle Hawaii in ~1250
+	C.E](https://en.wikipedia.org/wiki/Discovery_and_settlement_of_Hawaii)
+	from the Marquesas islands (distance:
+	3530km) and the Society islands (distance:
+	3990km). Similarly, the polynesians that settled Hawaii
+	([probably](https://en.wikipedia.org/wiki/Pre-Māori_settlement_of_New_Zealand_theories))
+	*also* settled New Zealand. The southernmost point
+	of New Zealand is 2466km from the nearest point at the
+	Antarctic coast (the closest Antarctic point from [Stewart
+	Island](https://en.wikipedia.org/wiki/Stewart_island))
+	but if you're willing to make some hops over the [Snares
+	Islands](https://en.wikipedia.org/wiki/Snares_Islands_/_Tini_Heke),
+	[Auckland
+	Island](https://en.wikipedia.org/wiki/Auckland_Island)[^4],
+	[Macquarie Island](https://en.wikipedia.org/wiki/Macquarie_Island)
+	and [this unnamed icy spot in the
+	Pacific](https://www.google.com/maps/@-66.801999,161.2642981,7z?entry=ttu)
+	the distance increases to 2770km, but with no hop being greater
+	than [1295km](https://www.calcmaps.com/map-distance/ryxrc5/)
+	(the one from Macquarie Island to the small island before
+	Antarctica). So it is not *inconceivable* that a Māori
+	society with more durable ships and warmer clothes could have
+	sailed southwards repeatedly and finally put foot on those icy
+	shores. (Indeed I find it pretty likely<sub>25%</sub> that [some
+	crazy guys](https://en.wikipedia.org/wiki/Ui-te-Rangoira) might've
+	done this, given the number of islands out in the Pacific that
+	were just discovered (?) by Polynesians sailing around.)[^3][^5]
+	* __Settling Antarctica__: Actually *settling* Antarctica is a whole other
+	can of worms: The continent is by far the coldest and (as a [polar
+	desert](https://en.wikipedia.org/wiki/Polar_desert)) driest, it harbors
+	nearly no vegetation (except lichen & moss), and away from the coasts
+	there are very ~no large organisms. So we'd like to know, assuming it
+	is possible for there to be native antarctican populations descended
+	from [Māori people](https://en.wikipedia.org/wiki/Māori_people),
+	*how* such a population might manage to endure, and what their
+	culture and daily life might look like. Ideas: instead of using
+	wood (since there isn't any), maybe the native Antarcticans
+	could create a [pykrete](https://en.wikipedia.org/wiki/pykrete)
+	variant with lichen ("likrete") or moss ("mokrete");
+	perhaps (with much effort?) it is possible to domesticate
+	[fur seals](https://en.wikipedia.org/wiki/Fur_seal)
+	([leopard seals](https://en.wikipedia.org/wiki/Leopard_seal) seem
+	[harder](https://en.wikipedia.org/wiki/Leopard_seal#Negative_interactions_with_humans)),
+	and whaling might still be an option. Antarcticans would probably need to
+	be hunter-gatherers, but the absence of wood makes it quite hard to hunt
+	where the (mostly marine) animals are, similar with spears and bows—is
+	it conceivable to use tools made from ice and stone instead? Heating is
+	a big problem, as well as surviving through the winter, but Antarctica
+	has some accessible coal [Merrill
+	2016](./doc/geology/gis_representation_of_coal_bearing_areas_in_antarctical_merrill_2016.pdf "GIS Representation of Coal-Bearing Areas in Antarctica"),
+	some of it fairly close to the coast where Māori might land. Maybe
+	our native population would need to overwinter in shelters
+	(made from ice, stone or likrete?), surviving on seal meat and
+	[blubber](https://en.wikipedia.org/wiki/Blubber). It would also
+	be interesting to have a description of Antarctican culture: What
+	kind of mythology would develop in such a ruthless place? ([Inuit
+	mythology](https://en.wikipedia.org/wiki/Inuit_religion) is
+	already fascinating, and the very different cultural lineage from
+	polynesian societies would add an interesting twist).
+	* __Cost__: With AI tools it might be surprisingly cheap to
+	produce such a fictional ethnography, paying an anthropologist
+	and a designer \\$50k/year each, for a year. Output format:
+	An illustrated book in the style of early 20th century
+	ethnographies, with descriptions of daily life, technology,
+	culture, language &c, similar to [The Native Tribes of Central
+	Australia](https://www.goodreads.com/book/show/68126748-the-native-tribes-of-central-australiar)
+	or [Report on the Work of the Horn Scientific
+	Expedition](https://www.goodreads.com/book/show/43843069).
+* __Prevent [House of
+Leaves](https://en.wikipedia.org/wiki/House_of_Leaves) movie__: House
+of Leaves is one of my favorite works of fiction. I'm also completely
+convinced that if anyone ever tried to make a movie out of it, they
+would completely butcher it and soil the book by sheer association. This
+scenario must be avoided. So I would buy the rights to the movie for
+House of Leaves and simply hold them, squatting on the ground others
+might poison, and in the meantime thinking about what to do when the
+books copyright runs out (perhaps intervening by [subsidizing longevity
+treatments](https://en.wikipedia.org/wiki/Copyright_term) for [Mark
+Danielewski](https://en.wikipedia.org/wiki/Mark_Z._Danielewski) as soon
+as they are available). Cost: Unclear. I guess that Danielewski would
+either be willing to sell the rights to me for ~\\$50mio., or unwilling
+to sell the rights to anyone, which would be just as good.<!--TODO:
+email him & ask!-->
+* __Build beautiful geometric objects__
 	* The platonic solids in physical form, similar to tungsten cubes, but of varying size & material (from a steel icosahedron with a few centimetres vertex length to a granite cube or obsidian dodecahedron twenty metres at each side)—the stuff that would make future people say "they considered themselves a powerful culture"
-* __Buy the movie rights to House of Leaves__: Make sure noone can ever make a movie out of it.
 * __A History of Eve Online__
 * __Languishing Drafts Podcast__
 
@@ -489,3 +618,4 @@ Metaphilosophy
 [^5]: Another method of finding and moving to Antarctica would be from the [Tierra del Fuego](https://en.wikipedia.org/wiki/Tierra_del_fuego) to the [Siffrey point](https://en.wikipedia.org/wiki/Siffrey_point), which is much closer (~1030km). I'm not sure whether this is more or less likely: the [Yahgan people](https://en.wikipedia.org/wiki/Yahgan_people) have lived in the Tierra del Fuego for ~8k years, which would give far more time for for extensive exploration, and the [Prime Head](https://en.wikipedia.org/wiki/Prime_Head) is likely warmer and more hospitable than the rest of Antarctica, but I believe that the Polynesians were *much* better at spending long durations of time at sea, and at finding far away land from subtle cues.
 [^6]: Since the experiment would solely involve prostitution, my best guess<sub>80%</sub> is that it would be significantly more difficult to find a similar number of female participants.
 [^7]: I'd like to hear feedback on what people believe the right amounts of money for indifference between membership of the two groups+participation would be.
+[^8]: "Yes, I want housing costs to be AS HIGH AS POSSIBLE! MWAHAHAHAHAH!"

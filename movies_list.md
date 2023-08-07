@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-07-10, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-08-06, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,8 +11,9 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
-* Oppenheimer
-<!--TODO: New India Jones movie-->
+* Hamilton
+* [Oppenheimer](https://www.imdb.com/title/tt15398776/)
+* [Indiana Jones and the Dial of Destiny](https://www.imdb.com/title/tt1462764/)
 * [No Time To Die](https://www.imdb.com/title/tt2382320/)
 * [Ocean's Eleven](https://www.imdb.com/title/tt0240772/)
 * [Lolita](https://www.imdb.com/title/tt0119558/1)
