@@ -309,6 +309,7 @@ English and German, but the tag may be one of the following:
 * "french"
 * ["esperanto"](https://en.wikipedia.org/wiki/Esperanto)
 * ["latin"](https://en.wikipedia.org/wiki/Latin)
+
 <!--
 * ["serbocroatian"](https://en.wikipedia.org/wiki/Serbo-Croatian)
 * ["lojban"](https://en.wikipedia.org/wiki/Lojban)
@@ -464,6 +465,8 @@ but rather cycles).
 
 The Author
 ----------
+
+<!--TODO: Faust quote ("Ich bin ein Teil von jenem Teil…")-->
 
 Who I am is not terribly important.
 

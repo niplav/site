@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-08-02, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-08-07, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,11 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [RNA’s Secret Life Outside the Cell (Wynne Parry, 2013)](https://www.quantamagazine.org/rnas-secret-life-outside-the-cell-20131108/)
+* [SCP-2005 (Silberescher, 2021)](https://scp-wiki.wikidot.com/scp-2005)
+* [SCP-2010 (Devereaux, 2021)](https://scp-wiki.wikidot.com/scp-2010)
+* [SCP-2006 (weizhong, 2022)](https://scp-wiki.wikidot.com/scp-2006)
+* [SCP-1095 (SCP Foundation, 2022)](https://scp-wiki.wikidot.com/scp-1095)
 * [SCP-1097 (Kalinin, 2022)](https://scp-wiki.wikidot.com/scp-1097)
 * [SCP-2002 (Crayne, 2023)](https://scp-wiki.wikidot.com/scp-2002)
 * [SCP-1100 (Aelanna, 2022)](https://scp-wiki.wikidot.com/scp-1100)
