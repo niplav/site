@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-20, modified: 2023-08-07, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2022-07-20, modified: 2023-08-08, language: english, status: in progress, importance: 3, confidence: other*
 
 > __What I might do if I magically got hold of a very large amount of
 money, and couldn't spend it maximally altruistically.__
@@ -43,8 +43,9 @@ would absolutely be worth it.
 | Double Crux podcast                               | \\$2 mio.      |
 | Fictional ethnography of native Antarcticans      | \\$100k        |
 | Studying foreveraloners                           | \\$900 mio.    |
+| Really Out There Stuff Institute                  | \\$60 mio.     |
 |                                                   |                |
-| __Sum__                                           | \\$ 9.75 bio.  |
+| __Sum__                                           | \\$ 9.81 bio.  |
 
 Culture
 ---------
@@ -125,10 +126,11 @@ Markets](https://manifold.markets/).
 	track records here-->, especially for short-term political
 	questions<!--TODO: actually investigate this-->, so the
 	information would be quite valuable.
-	* Another nice thing about this proposal is that it is very
-	scalable: The minimum viable product can be made by a motivated
-	individual in one evening, but more sophisticated versions are
-	possible. One possible extension could look like a [voting advice
+	* __More is possible__: Another nice thing about this
+	proposal is that it is very scalable: The minimum viable
+	product can be made by a motivated individual in one
+	evening, but more sophisticated versions are possible. One
+	possible extension could look like a [voting advice
 	application](https://en.wikipedia.org/wiki/Voting_advice_application),
 	similar to the German
 	[Wahl-O-Mat](https://en.wikipedia.org/wiki/Federal_Agency_for_Civic_Education#Voting_advice)
@@ -530,8 +532,8 @@ to sell the rights to anyone, which would be just as good.<!--TODO:
 email him & ask!-->
 * __Build beautiful geometric objects__
 	* The platonic solids in physical form, similar to tungsten cubes, but of varying size & material (from a steel icosahedron with a few centimetres vertex length to a granite cube or obsidian dodecahedron twenty metres at each side)—the stuff that would make future people say "they considered themselves a powerful culture"
-* __A History of Eve Online__
-* __Languishing Drafts Podcast__
+* __A History of [Eve Online](https://en.wikipedia.org/wiki/Eve_Online)__
+* __Languishing drafts podcast__
 
 Science
 --------
@@ -578,40 +580,84 @@ find a similarly sized set of female participants, this doubles the cost
 to ~\\$872mio. Setting the experiment up to find participants who are
 actually celibate and not simply interested in the money or prostitution
 might pose some difficulty, but not be insurmountable.
-* __[Breeding Superintelligent Octopuses](https://www.lesswrong.com/posts/DaFG3GKsBrsAnAERR/save-humanity-breed-sapient-octopuses) or [Parrots](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-intelligent-parrots)__
-* __Cloning Extinct Animals__
-	* In order: Passenger Pigeons, Thylacines, Dodos, Wooly Mammoths, Neanderthals, [John von Neumann](https://fantasticanachronism.com/2021/03/23/two-paths-to-the-future/), Srinivasa Ramanujan…
-* __Masturbation Research__
-* __Explorables for Causal Inference__
+* __[Breeding superintelligent octopuses](https://www.lesswrong.com/posts/DaFG3GKsBrsAnAERR/save-humanity-breed-sapient-octopuses) or [parrots](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-intelligent-parrots)__
+* __Cloning Extinct Animals__ In order: Passenger Pigeons, Thylacines, Dodos, Wooly Mammoths, Neanderthals, [John von Neumann](https://fantasticanachronism.com/2021/03/23/two-paths-to-the-future/), Srinivasa Ramanujan…
+* __Masturbation research__
+* __Explorables for causal inference__
 * __Find and test amnestics__<!--TODO: link-->: Find drugs that cause short-term memory loss with ideally no side effects (useful for blinding in scientific studies)
-* Run Newcomb's problem in real life
-* Run the [Generalized Wada Test](https://qualiacomputing.com/2015/05/01/generalized-wada-test-and-the-total-order-of-consciousness/)
-* Better Wireheading
-	* Achieving reversible (you can remove it and the rat feels/behaves as before) & non-adaptative (no hedonic adaptation happening) & non-addictive (isn't sought after when removed) & safe (doesn't have any serious health consequences) & ability-preserving (cognitive function isn't impaired, and ideally improved) & anti-slippery (when in the state the being doesn't seek more of it) long-term pleasure centric wireheading via extensive experiments on animals, either by direct brain stimulation or novel compounds.
-		* This one's pretty ethically questionable
+* __Run Newcomb's problem in real life__
+* __Run the [generalized wada test](https://qualiacomputing.com/2015/05/01/generalized-wada-test-and-the-total-order-of-consciousness/)__
+* __Better wireheading__: Achieving reversible (you can remove it and the rat feels/behaves as before) & non-adaptative (no hedonic adaptation happening) & non-addictive (isn't sought after when removed) & safe (doesn't have any serious health consequences) & ability-preserving (cognitive function isn't impaired, and ideally improved) & anti-slippery (when in the state the being doesn't seek more of it) long-term pleasure centric wireheading via extensive experiments on animals, either by direct brain stimulation or novel compounds.
+	* This one's pretty ethically questionable
 	* Replicate the work at the [semalab](https://semalab.arizona.edu/) that uses ultrasound brain stimulation for meditation enhancement.
 
 Metascience
 ------------
 
-* The Distillation Team
-	* A group of people whose sole job it is to talk with smart people whose perfectionism blocks them from writing any of their ideas down and doing it for them
-* The Meta-Analysis Team
-	* A group of people who, whenever I have a question, do a deep dive into the topic & produce a large & in-depth report on the topic (ideally Gwern-style, but I would be willing to make compromises)
-* A roadmap to learn everything
-	* A list of textbooks whose order is optimised for having all dependencies covered.
-		* Plus professionally done sets of flashcards for those textbooks
+* __The distillation team__: A group of people whose sole job it is to talk with smart people whose perfectionism blocks them from writing any of their ideas down and doing it for them
+* __The meta-analysis team__: A group of people who, whenever I have a question, do a deep dive into the topic & produce a large & in-depth report on the topic (ideally [Gwern](https://www.gwern.net)-style, but I would be willing to make compromises)
+* __A roadmap to learn everything__: A list of textbooks whose order is optimised for having all dependencies covered. Plus professionally done sets of flashcards for those textbooks.
 
 Metaphilosophy
 ---------------
 
-* New modes of being
-	* What activity-shaped holes are there in our society? How can we find them?
-		* Examples:
-			* At some point someone must have invented music. That was a pretty big deal! Maybe we're missing a bunch of these kinds of things and don't even notice.
-			* Same for meditation.
-* Really Out There Stuff Institute (ROTSI)
-	* Focus on exotic decision theories, acausal trade, [UDASSA](http://fennetic.net/irc/finney.org/~hal/udassa/summary1.html), infinite ethics etc. Global priorities research on steroids.
+* __New modes of being__: What activity-shaped holes are there in our
+society? How can we find them? Examples:  At some point someone must
+have invented music. That was a pretty big deal! Maybe we're missing a
+bunch of these kinds of things and don't even notice. Same for meditation.
+* __Really Out There Stuff Institute (ROTSI)__: [Global priorities
+research](https://en.wikipedia.org/wiki/Faculty_of_Philosophy,_University_of_Oxford#Global_Priorities_Institute)
+is a branch of (mostly) philosophy focusing on crucial considerations:
+statements that, if they were true, would radically change which things
+are most relevant for global and long-term thinking. This research
+encompasses some of my favorite parts of philosophy: [population
+axiology](https://en.wikipedia.org/wiki/Population_ethics), [moral
+uncertainty](./doc/philosophy/ethics/moral_uncertainty_macaskill_et_al_2020.pdf),
+problems in decision theory such as [Pascal's
+mugging](./doc/philosophy/decision_theory/pascals_mugging_bostrom_2009.pdf)
+(there caled fanaticism) and much more. Separately, a strand of
+amateur thinking about philosophical problems with a strongly
+computational bent has emerged from the website LessWrong. This
+view is very interested in formal epistemology using [Solomonoff
+induction](https://arbital.com/p/solomonoff_induction/),
+has broadly mathematical or computational Platonist
+metaphysics ("all mathematical structures/possible
+programs exist", inspired by the [mathematical universe
+hypothesis](https://en.wikipedia.org/wiki/Mathematical_universe_hypothesis)
+(MUH)).  I find this strand of thinking fascinating, and would
+love to see a team of ~20 people or so working on it.  The focus
+of that research would include topics such as exotic decision theories
+([TDT](./doc/cs/ai/alignment/decision_theory/timeless_decision_theory_yudkowsky_2010.pdf)
+and its variants<!--TODO: link the papers here, after they're read--> &
+[UDT](./doc/cs/ai/alignment/decision_theory/wei_dais_updateless_decision_theory_mcallister_2011.pdf)
+and [possible
+successors](https://www.lesswrong.com/posts/zd2DrbHApWypJD2Rz/udt2-and-against-ud-assa)),
+[acausal trade](https://www.lesswrong.com/tag/acausal-trade)<!--TODO:
+link multiverse-wide cooperation papers here after read-->,
+[UDASSA](http://fennetic.net/irc/finney.org/~hal/udassa/summary1.html),
+the possible implications of being in
+simulated universes (such as the option to [escape to
+base-universes](https://www.lesswrong.com/posts/Qz6w4GYZpgeDp6ATB/beyond-astronomical-waste)),
+implications of assuming the existence of universes allowing for
+[hypercomputation](https://en.wikipedia.org/wiki/Hypercomputation)
+in the MUH (and different results from
+assuming the existence of universes higher in the
+[arithmetical](https://en.wikipedia.org/wiki/Arithmetical_hierarchy)
+and [hyperarithmetical
+hierarchy](https://en.wikipedia.org/wiki/Hyperarithmetical_hierarchy)),
+as well as problems with the framework (such as the arbitrariness of the
+Turing machine used) and more. Global priorities research on steroids
+(being potentially less rigorous or philosophically satisfying, but
+also willing to take larger steps). Currently, the only organisations
+doing similar work (that I'm aware of) are the [Center for Long-Term
+Risk](https://longtermrisk.org) and the aforementioned Global Priorities
+Institute.
+	* Cost: Hiring ~20 researchers (evenly split between analytical
+	philosophers, physicists, theoretical computer scientists and economists,
+	plus ~10 (?) supporting staff, each at \\$100k per year, for ~20 years,
+	giving \\$60 mio. in total.
+	* Output format: Mostly long PDFs with titles such as "Acausalism:
+	A Primer" or "Chaitinudassicon".
 
 [^1]: It's not clear that Nauru is the best choice here. While it probably is the smallest nation state that can conceivably be bought (I don't think there is any realistic (or unrealistic) amount of money for which Vatican City could be acquired), it is not very fertile, and has only limited freshwater reserves, relying mostly on rainwater. The highest point is only 71 metres above sea level, which means that a large part of the island might be at risk of going under water with rising sea levels.
 [^2]: [Rest in peace](https://old.reddit.com/r/SCP/comments/1434kh7/the_whole_scp_confinement_situation_is_both/).
