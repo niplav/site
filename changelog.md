@@ -23,6 +23,8 @@ August 2023
 
 * [About](./about.html)
 	* [Track Records](./about.html#Track_Records)
+* [Notes](./notes.html)
+	* [Two Reasons For Restarting the Testing of Nuclear Weapons](./notes.html#Two_Reasons_For_Restarting_the_Testing_of_Nuclear_Weapons)
 
 July 2023
 ----------
