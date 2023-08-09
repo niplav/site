@@ -531,8 +531,6 @@ Texts
 		* Psychotic Breaks in Berkeley
 * Do Things Together
 * Some Useful Rationality Concepts
-	* Feedback Loops
-		* Thick vs. Thin/Fast vs. Slow/Signal vs. Noise
 	* Option Value
 	* The Is-Ought Distinction
 * The C Standard Library is Bad

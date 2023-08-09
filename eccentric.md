@@ -6,8 +6,8 @@
 > __What I might do if I magically got hold of a very large amount of
 money, and couldn't spend it maximally altruistically.__
 
-If I Were An Eccentric Trillionaire
-=====================================
+If I Was An Eccentric Trillionaire
+====================================
 
 I sometimes like to engage in idle speculation. One of those speculations
 is: "If someone came up to me and told me that they would give me a lot
