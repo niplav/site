@@ -4473,3 +4473,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 ### 2023-07-25T19:02-2023-07-25T19:47
 
 * 45 minutes jogging
+
+### 2023-08-08T19:10-2023-08-08T19:35
+
+* 25 minutes jogging

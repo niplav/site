@@ -598,8 +598,8 @@ Metascience
 * __The meta-analysis team__: A group of people who, whenever I have a question, do a deep dive into the topic & produce a large & in-depth report on the topic (ideally [Gwern](https://www.gwern.net)-style, but I would be willing to make compromises)
 * __A roadmap to learn everything__: A list of textbooks whose order is optimised for having all dependencies covered. Plus professionally done sets of flashcards for those textbooks.
 
-Metaphilosophy
----------------
+Other
+-------
 
 * __New modes of being__: What activity-shaped holes are there in our
 society? How can we find them? Examples:  At some point someone must

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2023-07-17, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2023-01-06, modified: 2023-08-12, language: english, status: notes, importance: 3, confidence: log*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
 decided to log my nootropics usage and its effects.__
@@ -488,6 +488,22 @@ task.<sup>[\[325\]](https://examine.com/supplements/caffeine/research/#ref-325)<
 See again [Examine](https://examine.com/supplements/theanine/research/),
 [Wikipedia](https://en.wikipedia.org/wiki/Theanine) and
 [Gwern](https://gwern.net/Nootropics#L-Theanine).
+
+[Sitiprapaporn et al. 2018](./doc/meditation/science/classification_of_human_brain_attention_focused_on_meditation_effected_by_l-theanine_acid_in_oolong_tea_srimaharaj_et_al_2018.pdf)
+test the effect of an unspecified quantity of L-theanine via Oolong tea
+on meditation on 10 university students (non-randomized, it seems). Data
+collected via EEG and indicates statistically significantly more alpha
+waves during meditation (although it is unclear how long the meditation
+was).
+
+This paper is probably bad, but I don't want it to be bad. The english
+is so horrendous it feels like I'm having a stroke while I'm reading it,
+but that would be fine if they were good at reporting methods, which
+they are not (missing amounts of L-theanine and duration of meditation
+(they also mention reading earlier in the article, which I assumed
+was the control activity, but it doesn't come up again?)). Also they
+report differences between scores, not effect sizes, and some figures
+are screenshotted images from a Windows Vista clustering application.
 
 ### Experiment B: Self-Blinded RCT
 

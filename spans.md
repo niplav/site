@@ -137,17 +137,17 @@ are periodically pruned by nature. This allows for parallel evolutionary
 sequences, some of which are adaptive and others not — at any moment in
 time only the tips of adaptive branches are in evidence, the pruned ones
 cannot be seen. Thus rather than being direct descendants of primitive
-hominids, for example, huankind would have evolved along a separate but
+hominids, for example, humankind would have evolved along a separate but
 parallel line from other primates.  
 > Might the ontogeny of selective attention recapitulate this theme? That
 is, rather than selective attention comprising a single construct
 with a fixed ontogenic plan, might it be better conceptualized as
-a multidimensional construct with separat, parallel developmental
+a multidimensional construct with separate, parallel developmental
 trajectories for different components. To carry the analogy still
 further, might the specific developmental progression for a particular
 component of selective attention be determined by the adaptive fit of that
 component with the individual's ‘environmental press’? Although such
-a conjecture rekindles the tened of *ontogeny recapitulates phylogney*
+a conjecture rekindles the tened of *ontogeny recapitulates phylogeny*
 long since abandoned in physiological development (e.g., Dixon and Lerner,
 1985), we suggest that it may nonetheless provide an overarching framework
 within which to cast life-span research and theory on the development

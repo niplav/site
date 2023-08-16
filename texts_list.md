@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-08-07, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-08-16, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,26 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [LLM Powered Autonomous Agents (Lilian Weng, 2023)](https://lilianweng.github.io/posts/2023-06-23-agent/)
+* [AI alignment & academia (Gavin Leech, 2020)](https://www.gleech.org/acais)
+* Classification of human brain attention focused on meditation, effected by L-theanine acid in Oolong tea (Phakkharawat Sittiprapaporn/Roungsan Chaisricharoen/Supansa Chaising/Wanus Srimaharaj, 2018)
+* [The Startup Landscape for Expanding Consciousness (Greg Kubin/Scott Britton, 2023)](https://scottbritton.substack.com/p/the-startup-landscape-for-expanding)
+* Meditation acutely improves psychomotor vigilance, and may decrease sleep need (Bruce F. O'Hara/Craig R. Sargent/Jason Passafiume/Prashand Kaul, 2010)
+* [More Links For February 2014 (Scott Alexander, 2014)](https://slatestarcodex.com/2014/02/24/more-links-for-february-2014/)
+* [on the efficacy of cosmic ray sorting (tedu, 2022)](https://flak.tedunangst.com/post/on-the-efficacy-of-cosmic-ray-sorting)
+* [Raku: A Language for Gremlins (Computer Things, 2023)](https://buttondown.email/hillelwayne/archive/raku-a-language-for-gremlins/)
+* [SCP-2012 (weizhong, 2022)](https://scp-wiki.wikidot.com/scp-2012)
+* [SCP-2011 (Fiery Kiln, 2022)](https://scp-wiki.wikidot.com/scp-2011)
+* [SCP-2009 (Gaffsey, 2022)](https://scp-wiki.wikidot.com/scp-2009)
+* [SCP-2008 (Doctor Cimmerian/The Great Hippo, 2023)](https://scp-wiki.wikidot.com/scp-2008)
+* [SCP-2013 (SCP Foundation, 2021)](https://scp-wiki.wikidot.com/scp-2013)
+* [SCP-1091 (SCP Foundation, 2021)](https://scp-wiki.wikidot.com/scp-1091)
+* [Feedbackloop-first Rationality (Raemon, 2023)](https://www.lesswrong.com/posts/pZrvkZzL2JnbRgEBC/feedbackloop-first-rationality)
+* [Understanding Agent Incentives with Causal Influence Diagrams (Tom Everitt, 2019)](https://deepmindsafetyresearch.medium.com/understanding-agent-incentives-with-causal-influence-diagrams-7262c2512486)
+* [Tell your girl to use a vibrator during sex, and other bedroom tips and sex skills for guys (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/03/13/tell-your-girl-to-use-a-vibrator-during-sex-and-other-bedroom-tips/)
+* [SCP-2014 (DeviantDharma, 2022)](https://scp-wiki.wikidot.com/scp-2014)
+* [SCP-2007 (GrandEnder, 2021)](https://scp-wiki.wikidot.com/scp-2007)
+* [Accidental Nuclear War: a Timeline of Close Calls (Ariel Conn, 2016)](https://futureoflife.org/resource/nuclear-close-calls-a-timeline/)
 * [RNA’s Secret Life Outside the Cell (Wynne Parry, 2013)](https://www.quantamagazine.org/rnas-secret-life-outside-the-cell-20131108/)
 * [SCP-2005 (Silberescher, 2021)](https://scp-wiki.wikidot.com/scp-2005)
 * [SCP-2010 (Devereaux, 2021)](https://scp-wiki.wikidot.com/scp-2010)
@@ -252,8 +272,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Insects raised for food and feed — global scale, practices, and policy (Abraham Rowe, 2020)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/ruFmR5oBgqLgTcp2b)
 * [An Introduction to Logical Decision Theory for Everyone Else (Eliezer Yudkowsky, 2017)](https://arbital.com/p/logical_dt/?l=5kv)
 * [Introduction to Logical Decision Theory for Computer Scientists (Eliezer Yudkowsky, 2017)](https://arbital.com/p/logical_dt/?l=5d6)
-* [Report likelihoods not p-values: FAQ (Eric Bruylant/Nate Soares/Travis Rivera,
-2017)](https://arbital.com/p/likelihoods_not_pvalues/?l=505)
+* [Report likelihoods not p-values: FAQ (Eric Bruylant/Nate Soares/Travis Rivera,2017)](https://arbital.com/p/likelihoods_not_pvalues/?l=505)
 * [Caffeine (Kamal Patel, 2023)](https://examine.com/supplements/caffeine/)
 * [Logical decision theories (Alexei Andreev/Eliezer Yudkowsky/Eric Rogstad, 2016)](https://arbital.com/p/logical_dt/?l=58b)
 * On the Structural Consistency of Preferences (Aly El Gamal, 2013)
@@ -301,10 +320,8 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Rethink Priorities’ Welfare Range Estimates (Bob Fischer, 2023)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/Qk3hd6PrFManj8K6o)
 * [EfficientZero: How It Works (1a3orn, 2021)](https://www.lesswrong.com/posts/mRwJce3npmzbKfxws/efficientzero-how-it-works)
 * [Insect herbivores, life history and wild animal welfare (kcudding, 2019)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/cqJH5xnwhRNn5mw4j)
-* [Instrumental convergence: scale and physical interactions (Edouard Harris/Simon Suo, 2022)](https://www.alignmentforum.org/posts/nisaAr7wMDiMLc2so/inst
-rumental-convergence-scale-and-physical-interactions)
-* [Misalignment-by-default in multi-agent systems (Edouard Harris/Simon Suo, 2022)](https://www.alignmentforum.org/posts/cemhavELfHFHRaA7Q/misalignment-by
--default-in-multi-agent-systems)
+* [Instrumental convergence: scale and physical interactions (Edouard Harris/Simon Suo, 2022)](https://www.alignmentforum.org/posts/nisaAr7wMDiMLc2so/instrumental-convergence-scale-and-physical-interactions)
+* [Misalignment-by-default in multi-agent systems (Edouard Harris/Simon Suo, 2022)](https://www.alignmentforum.org/posts/cemhavELfHFHRaA7Q/misalignment-by-default-in-multi-agent-systems)
 * [Why I Am Not in Charge (Zvi, 2021)](https://www.lesswrong.com/posts/cR7Zfrc4BtnFes46y/why-i-am-not-in-charge)
 * [Core Pathways of Aging (johnswentworth, 2021)](https://www.lesswrong.com/posts/ui6mDLdqXkaXiDMJ5/core-pathways-of-aging)
 * [A non-magical explanation of Jeffrey Epstein (lc, 2021)](https://www.lesswrong.com/posts/hurF9uFGkJYXzpHEE/a-non-magical-explanation-of-jeffrey-epstein)
@@ -641,10 +658,8 @@ rumental-convergence-scale-and-physical-interactions)
 * The development of selective attention: A life-span overview (Dana J. Plude/Darlene Brodeur/Jim T. Enns, 1994)
 * Freud und die moralische Reflexion (Richard Rorty, 1984)
 * Attention During Lectures: Beyond Ten Minutes (James H. Korn/Karen Wilson, 2007)
-* [Slowing Moore’s Law: How It Could Happen (Gwern Branwen, 2017)](https://gwern.net/Slowing-Moores-
-Law)
-* [You Can Do Futarchy Yourself (Tetraspace, 2020)](https://www.lesswrong.com/posts/qZXy8kGkNFyqCfHE
-J/you-can-do-futarchy-yourself)
+* [Slowing Moore’s Law: How It Could Happen (Gwern Branwen, 2017)](https://gwern.net/Slowing-Moores-Law)
+* [You Can Do Futarchy Yourself (Tetraspace, 2020)](https://www.lesswrong.com/posts/qZXy8kGkNFyqCfHEJ/you-can-do-futarchy-yourself)
 * [Qualiascope (Andrés Gomez-Emilsson, 2020)](https://qualiacomputing.com/2020/02/23/qualiascope/)
 * Aggregating human judgment probabilistic predictions of COVID-19 transmission, burden, and preventative measures (Allison Codi/Damon Luk/David Braun/Eva Chen/Juan Cambeiro/Luis Enrique Urtubey de Cèsaris/Paolo Bocchini/Tamay Besiroglu/Thomas McAndrew, 2022)
 * [The Source of Our Power (Mark Taylor Saotome-Westlake, 2019)](https://unremediatedgender.space/2019/Jul/the-source-of-our-power/index.html)
@@ -1104,18 +1119,14 @@ J/you-can-do-futarchy-yourself)
 * [Easy Cryptographic Timestamping of Files (Gwern Branwen, 2017)](https://www.gwern.net/Timestamping)
 * [How to solve aging (José Luis Ricón, 2021)](https://nintil.com/how-to-solve-aging)
 * [CO₂ Coin: Decentralized Carbon Capture Blockchains (Gwern Branwen, 2022)](https://www.gwern.net/CO2-Coin)
-* [The Dilemma of the Deserted Husband (and why polygyny is more common than polyandry) (William Buc
-kner, 2018)](https://traditionsofconflict.com/blog/2018/3/27/the-dilemma-of-the-deserted-husband-and
--why-polygyny-is-more-common-than-polyandry-across-cultures)
-* [DeepMind AI Reduces Google Data Centre Cooling Bill by 40% (Richard Evans/Jim Gao, 2016)](https:/
-/www.deepmind.com/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40)
+* [The Dilemma of the Deserted Husband (and why polygyny is more common than polyandry) (William Buckner, 2018)](https://traditionsofconflict.com/blog/2018/3/27/the-dilemma-of-the-deserted-husband-and-why-polygyny-is-more-common-than-polyandry-across-cultures)
+* [DeepMind AI Reduces Google Data Centre Cooling Bill by 40% (Richard Evans/Jim Gao, 2016)](https://www.deepmind.com/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40)
 * [Fermi Calculation Examples (Gwern Branwen, 2022)](https://www.gwern.net/notes/Fermi)
 * [Frank P. Ramsey bibliography (Gwern Branwen, 2022)](https://www.gwern.net/notes/Ramsey)
 * [Welcome, Pieter and Shivon! (Ilya Sutskever, 2016)](https://openai.com/blog/welcome-pieter-and-shivon/)
 * [Team++ (Greg Brockman, 2016)](https://openai.com/blog/team-plus-plus/)
 * [Introducing OpenAI (Greg Brockman/Ilya Sutskever/OpenAI, 2015)](https://openai.com/blog/introducing-openai/)
-* [Announcing DeepMind Health research partnership with Moorfields Eye Hospital (Deepmind, 2016)](ht
-tps://www.deepmind.com/blog/announcing-deepmind-health-research-partnership-with-moorfields-eye-hospital)
+* [Announcing DeepMind Health research partnership with Moorfields Eye Hospital (Deepmind, 2016)](https://www.deepmind.com/blog/announcing-deepmind-health-research-partnership-with-moorfields-eye-hospital)
 * [We are very excited to announce the launch of DeepMind Health (Deepmind, 2016)](https://www.deepmind.com/blog/we-are-very-excited-to-announce-the-launch-of-deepmind-health)
 * [Eternal Subjugation (William Buckner, 2019)](https://traditionsofconflict.com/blog/2019/7/5/eternal-subjugation)
 * [2012 election predictions (Gwern Branwen, 2015)](https://www.gwern.net/2012-election-predictions)
