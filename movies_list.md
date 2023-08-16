@@ -11,6 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* The Big Short
 * Hamilton
 * [Oppenheimer](https://www.imdb.com/title/tt15398776/)
 * [Indiana Jones and the Dial of Destiny](https://www.imdb.com/title/tt1462764/)

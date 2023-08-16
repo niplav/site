@@ -240,3 +240,21 @@ members and the fraction of time not spent on meetings, then it is
 `$T_{work}=c_1N(1-c_2 N)$`.
 
 What do `$c_1$` and `$c_2$` stand for?
+
+#### 3.5.3
+
+> but hard for e.g. space when not easy enforcement
+
+Now I'm wondering how spacetime ownership might look like, especially
+around black holes (and how that spacetime might be taxed in a Georgist
+fashion).
+
+##### The singleton and cybernetics
+
+> Even one implemented as an autonomous AGI can have a corrigible value
+function that it does not resist changing [2700, 2218].
+
+Corrigibility remains (afaik) fundamentally unsolved in
+the toy cases (at least one that is demanded in [Soares et al.
+2015](./doc/cs/ai/alignment/corrigibility/corrigibility_soares_et_al_2015.pdf),
+so perhaps a "probably" or "may" would be good here.
