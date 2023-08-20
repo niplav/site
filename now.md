@@ -74,5 +74,4 @@ Currently, I am actively reading the following books:
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * Starting Strength (Lon Kilgore/Mark Rippetoe, 2007)
 * Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
-* The Machinery of Freedom (David Friedman, 2014)
 * Theory of Games and Economic Behavior (John von Neumann/Oskar Morgenstern, 1953)

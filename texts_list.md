@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Timing Technology: Lessons From The Media Lab (Gwern Branwen, 2019)](https://gwern.net/timing)
+* [In Defense Of Describable Dating Preferences (Scott Alexander, 2023)](https://astralcodexten.substack.com/p/in-defense-of-describable-dating)
+* [Bride Of Bay Area House Party (Scott Alexander, 2023)](https://astralcodexten.substack.com/p/bride-of-bay-area-house-party)
+* Preference reversal and delayed reinforcement (George Ainslie/R. J. Herrnstein, 1981)
 * [LLM Powered Autonomous Agents (Lilian Weng, 2023)](https://lilianweng.github.io/posts/2023-06-23-agent/)
 * [AI alignment & academia (Gavin Leech, 2020)](https://www.gleech.org/acais)
 * Classification of human brain attention focused on meditation, effected by L-theanine acid in Oolong tea (Phakkharawat Sittiprapaporn/Roungsan Chaisricharoen/Supansa Chaising/Wanus Srimaharaj, 2018)
@@ -246,7 +250,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [High Status and Stupidity: Why? (Eliezer Yudkowsky, 2010)](https://www.lesswrong.com/posts/cgrvvp9QzjiFuYwLi/high-status-and-stupidity-why)
 * [HodgeRank: Generating Movie Ranking From IMDb Movie Ratings (Part 1: Problem Formulation) (Zian Jiang, 2019)](https://medium.com/@zj444/hodgerank-generating-movie-ranking-from-imdb-movie-ratings-part-1-2a88ec148f10)
 * What We Owe The Future (William MacAskill, 2022)
-* \* The Machinery of Freedom (David Friedman, 2014)
+* The Machinery of Freedom (David Friedman, 2014)
 * Human Compatible (Stuart Russell, 2019)
 * [Creatine Cognition Meta-analysis (Gwern Branwen, 2021)](https://gwern.net/creatine)
 * [Harvard sentences (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Harvard_sentences)
