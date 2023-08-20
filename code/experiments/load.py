@@ -37,17 +37,11 @@ def get_moods():
 
 	return mood
 
-def get_creativity():
-	creativity=pd.read_csv('../../data/creativity.csv')
-	creativity['datetime']=pd.to_datetime(creativity['datetime'], utc=True)
+def get_mental():
+	mental=pd.read_csv('../../data/mental.csv')
+	mental['datetime']=pd.to_datetime(mental['datetime'], utc=True)
 
-	return creativity
-
-def get_productivity():
-	productivity=pd.read_csv('../../data/productivity.csv')
-	productivity['datetime']=pd.to_datetime(productivity['datetime'], utc=True)
-
-	return productivity
+	return mental
 
 def get_flashcards():
 	flashcards=pd.read_csv('../../data/anki_reviews.csv')
@@ -71,9 +65,11 @@ def analyze(experiment, substance, placebo):
 
 	meditations=get_meditations()
 	mood=get_moods()
-	creativity=get_creativity()
-	productivity=get_productivity()
+	mental=get_mental()
 	flashcards=get_flashcards()
+
+	creativity=mental[['datetime', 'creativity']]
+	productivity=mental[['datetime', 'productivity']]
 
 	meditations.sort_values("meditation_start", inplace=True)
 	meditations_a=pd.merge_asof(expa, meditations, left_on='datetime', right_on='meditation_start', direction='forward')

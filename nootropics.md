@@ -22,22 +22,22 @@ Nootropics
 You could put randomized substances in your body and find out what they
 do by recording the outcomes. That's what I did.
 
-| Value tracked                      | Effect size d (λ, p, σ change)   | Effect size d (λ, p, σ change)|
-| ---------------------------------- | -------------------------------- | ----------------------------- |
-|                                    | 200 mg Caffeine (n=1, m=50)      | 500 mg L-theanine (n=1, m=50) |
-| Log-score substance prediction[^1] | -0.6                             | |
-| Absorption                         | 0.61 (λ=13.3, p=0.00017, -0.072) | |
-| Mindfulness                        | 0.58 (λ=11.8, p=0.0007, 0.021)   | |
-| Productivity                       | 0.58 (λ=28.9, p=1.3-12, 0.11)    | |
-| Creativity                         | 0.38 (λ=32.9, p=5.2-15, 0.09)    | |
-| Happiness                          | 0.27 (λ=10.6, p=0.002, 0.3)      | |
-| Contentment                        | 0.13 (λ=7.66, p=0.02, 0.47)      | |
-| Relaxation                         | -0.11 (λ=5, p=0.15, 0.42)        | |
-| Chastity[^2]                       | -0.14 (λ=1.9, p=0.64, 0.11)      | |
-| Flashcard ease                     | 0.003 (λ≈∞, p≈0, -0.009)         | |
-| Flashcard ease factor              | -0.039 (λ≈∞, p≈0, -32.7)         | |
-| Flashcard new interval             | 0.011 (λ≈∞, p≈0, -1.88)          | |
-| Time per flashcard[^3]             | 0.006 (λ≈∞, p≈0, 273.4)          | |
+| Value tracked                      | Effect size d (λ, p, σ change)              | Effect size d (λ, p, σ change)|
+| ---------------------------------- | --------------------------------            | ----------------------------- |
+|                                    | 200 mg Caffeine (n=1, m=50)                 | 500 mg L-theanine (n=1, m=50) |
+| Log-score substance prediction[^1] | -0.6                                        | |
+| Absorption                         | 0.61 (λ=13.3, p=0.00017, -0.072)            | |
+| Mindfulness                        | 0.58 (λ=11.8, p=0.0007, 0.021)              | |
+| Productivity                       | 0.58 (λ=28.9, p=1.3<sup>-12</sup>, 0.11)    | |
+| Creativity                         | 0.38 (λ=32.9, p=5.2<sup>-15</sup>, 0.09)    | |
+| Happiness                          | 0.27 (λ=10.6, p=0.002, 0.3)                 | |
+| Contentment                        | 0.13 (λ=7.66, p=0.02, 0.47)                 | |
+| Relaxation                         | -0.11 (λ=5, p=0.15, 0.42)                   | |
+| Chastity[^2]                       | -0.14 (λ=1.9, p=0.64, 0.11)                 | |
+| Flashcard ease                     | 0.003 (λ≈∞, p≈0, -0.009)                    | |
+| Flashcard ease factor              | -0.039 (λ≈∞, p≈0, -32.7)                    | |
+| Flashcard new interval             | 0.011 (λ≈∞, p≈0, -1.88)                     | |
+| Time per flashcard[^3]             | 0.006 (λ≈∞, p≈0, 273.4)                     | |
 
 I am especially interested in testing many different substances for
 their effect on meditation, while avoiding negative side effects. The
@@ -504,6 +504,39 @@ they are not (missing amounts of L-theanine and duration of meditation
 was the control activity, but it doesn't come up again?)). Also they
 report differences between scores, not effect sizes, and some figures
 are screenshotted images from a Windows Vista clustering application.
+
+But [examine](https://examine.com/supplements/theanine/research/) agrees
+(if not on meditation specifically):
+
+> L-Theanine supplementation in the standard dosages (50-250mg)
+has been repeatedly noted to increase α-waves in otherwise healthy
+persons. This may only occur in persons with somewhat higher baseline
+anxiety<sup>[\[25\]](https://examine.com/supplements/theanine/research/#ref-25)[\[26\]](https://examine.com/supplements/theanine/research/#ref-26)</sup>
+or under periods of stress
+(positive<sup>[\[14\]](https://examine.com/supplements/theanine/research/#ref-14)</sup>
+and
+negative<sup>[\[27\]](https://examine.com/supplements/theanine/research/#ref-27)</sup>
+results), but has been noted to occur during closed eye
+rest<sup>[\[5\]](https://examine.com/supplements/theanine/research/#ref-5)</sup>
+as well as during visuospatial
+tasks<sup>[\[16\]](https://examine.com/supplements/theanine/research/#ref-16)</sup>
+around 30-45 minutes after
+ingestion.<sup>[\[5\]](https://examine.com/supplements/theanine/research/#ref-5)[\[4\]](https://examine.com/supplements/theanine/research/#ref-4)</sup>
+It appears that only the α-1 wave (8-10Hz)
+is affected, with no influence on α-2 wave
+(11-13Hz).<sup>[\[4\]](https://examine.com/supplements/theanine/research/#ref-4)</sup>
+
+Although I'm confused about the increased α-waves in "otherwise healthy
+patients"‽
+
+Additionally, it notes that memory was slightly increased:
+
+> One study using a supplement called LGNC-07 (360mg of green tea extract
+and 60mg theanine; thrice daily dosing for 16 weeks) in persons with
+mild cognitive impairment based on MMSE scores, supplementation was
+associated with improved delayed recognition and immediate recall
+scores with no effect on verbal and visuospatial memory (Rey-Kim
+test).<sup>[\[17\]](https://examine.com/supplements/theanine/research/#ref-17)</sup>
 
 ### Experiment B: Self-Blinded RCT
 

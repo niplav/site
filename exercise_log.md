@@ -4454,6 +4454,47 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 1 sets 10 reps 65kg back squat RPE 7
 * 1 sets 10 reps 67.5kg back squat RPE 8
 
+### 2023-05-17T16:03-2023-05-17T17:25
+
+* 4 sets 10 reps 20kg back squat RPE 3
+* 1 sets 4 reps 77.5kg back squat RPE 6
+* 1 sets 4 reps 80kg back squat RPE 7
+* 1 sets 4 reps 82.5kg back squat RPE 8
+* 4 sets 10 reps 20kg bench press RPE 1
+* 1 sets 10 reps 52kg bench press RPE 7
+* 1 sets 10 reps 55kg bench press RPE 7
+* 1 sets 10 reps 57.5kg bench press RPE 8
+* 4 sets 10 reps 20kg deadlift RPE 3
+* 1 sets 8 reps 87.5kg deadlift RPE 6
+* 1 sets 8 reps 90kg deadlift RPE 7
+* 1 sets 8 reps 92.5kg deadlift RPE 8
+
+### 2023-05-26T21:28-2023-05-26T22:18
+
+* 4 sets 10 reps 20kg overhead press RPE 3
+* 1 sets 4 reps 40kg overhead press RPE 6
+* 1 sets 4 reps 42.5kg overhead press RPE 9
+* 1 sets 4 reps 42.5kg overhead press RPE 8
+* 4 sets 10 reps 20kg back squats RPE 2
+* 1 sets 7 reps 67.5kg back squat RPE 6
+* 1 sets 7 reps 70kg back squat RPE 7
+* 1 sets 7 reps 72.5kg back squat RPE 8
+* 4 sets 10 reps 16kg dumbbell row RPE 3
+* 1 sets 10 reps 24kg dumbbell row RPE 6
+* 1 sets 10 reps 26kg dumbbell row RPE 7
+* 1 sets 10 reps 28kg dumbbell row RPE 9
+
+### 2023-05-29T18:40:00-2023-05-29T19:49:00
+
+* 4 sets 10 reps 20kg bench press RPE 1
+* 1 sets 8 reps 52.5kg bench press RPE 7
+* 1 sets 8 reps 55kg bench press RPE 7
+* 1 sets 8 reps 57.5kg bench press RPE 9
+* 4 sets 10 reps 20kg back squat RPE 3
+* 1 sets 10 reps 62.5kg back squat RPE 6
+* 1 sets 10 reps 65kg back squat RPE 7
+* 1 sets 10 reps 67.5kg back squat RPE 8
+
 ### 2023-06-15T19:05-2023-05-15T19:35
 
 * 30 minutes jogging
@@ -4477,3 +4518,7 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 ### 2023-08-08T19:10-2023-08-08T19:35
 
 * 25 minutes jogging
+
+### 2023-08-16T19:22-2023-08-16T20:12
+
+* 50 minutes jogging

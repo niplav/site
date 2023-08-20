@@ -2284,3 +2284,21 @@ precision, that would be good or bad for the world: nuclear strikes would
 have fewer externalities, but leaders might also be more willing to use
 nuclear strikes due to lower civilian casualties (and thereby increasing
 the risk of nuclear escalation)).
+
+Examples and Counter-examples for Zeynep's Razor
+-------------------------------------------------
+
+Zeynep's razor (after [Zeynep
+Tufekci](https://en.wikipedia.org/wiki/Zeynep_Tufekci) [states
+that](https://nitter.net/zeynep/status/1478766408691556353?lang=en)
+first-order effects are rarely outweighed by [rebound effects](https://en.wikipedia.org/wiki/Rebound_effect_\(conservation\)).<!--TODO: state exactly!-->
+
+Examples:
+
+* Introducing seatbelts into cars and making them mandatory to wear does not lead to driving so reckless that accidents increase<!--TODO: link-->
+
+Counter-examples<!--TODO: describe ideal gas laws-->:
+
+* [Jevons paradox](https://en.wikipedia.org/wiki/Jevons_paradox)
+* [Wirth's law](https://en.wikipedia.org/wiki/Wirth's_law)
+* [Peter principle](https://en.wikipedia.org/wiki/Peter_principle)

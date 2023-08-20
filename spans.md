@@ -147,7 +147,7 @@ trajectories for different components. To carry the analogy still
 further, might the specific developmental progression for a particular
 component of selective attention be determined by the adaptive fit of that
 component with the individual's ‘environmental press’? Although such
-a conjecture rekindles the tened of *ontogeny recapitulates phylogeny*
+a conjecture rekindles the tenet of *ontogeny recapitulates phylogeny*
 long since abandoned in physiological development (e.g., Dixon and Lerner,
 1985), we suggest that it may nonetheless provide an overarching framework
 within which to cast life-span research and theory on the development

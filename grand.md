@@ -258,3 +258,24 @@ Corrigibility remains (afaik) fundamentally unsolved in
 the toy cases (at least one that is demanded in [Soares et al.
 2015](./doc/cs/ai/alignment/corrigibility/corrigibility_soares_et_al_2015.pdf),
 so perhaps a "probably" or "may" would be good here.
+
+### 4.1
+
+> **However**, if these differences can be cached out in normatively
+relevant unfairness, political power, or social scarce resourcse such
+as status (see **box** ), then this **may** be an issue that **may**
+motivate distributive actions. **However**, redistributing goods may
+be less important than (if possible) influencing the fairness, power
+or status.
+
+(Emphases mine)
+
+Some quibbles: "However" is written twice, as is "may" in the first
+sentence. And there is a stray space after "box".
+
+##### Artificial scarcity and coordination limits
+
+> badly made poetry
+
+I like the image of someone haphazardly slapping together some poetry
+with their clumsy hands.

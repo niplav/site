@@ -25,20 +25,15 @@ def write_summary(g):
 	subgraphs=turn.maximal_consistent_subgraphs(g)
 	subgraph_summary(g, subgraphs, turnings)
 
-confusions=open('./eged_confusions_3.csv', mode='w', buffering=1)
-preservations=open('./eged_subgraphs_3.csv', mode='w', buffering=1)
+confusions=open('./eged_confusions.csv', mode='w', buffering=1)
+preservations=open('./eged_subgraphs.csv', mode='w', buffering=1)
 
-#for i in range(0,5):
-#	graphs=turn.all_directed_graphs(i)
-#	for g in graphs:
-#		write_summary(g)
+for i in range(0,5):
+	graphs=turn.all_directed_graphs(i)
+	for g in graphs:
+		write_summary(g)
 
-last=nx.DiGraph()
-for i in range(1,5):
-        last.add_node(i, ind=i+1)
-last.add_edges_from([(1, 1), (1, 3), (1, 4), (2, 4), (2, 5), (3, 1), (3, 2), (3, 4), (3, 5), (4, 1), (4, 3), (4, 4), (4, 5), (5, 3), (5, 4), (5, 5)])
-
-turn.map_5_graphs(write_summary, resume_at=last)
+turn.map_5_graphs(write_summary)
 
 lim=16
 samples=65536
