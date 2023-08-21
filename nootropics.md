@@ -526,6 +526,8 @@ It appears that only the α-1 wave (8-10Hz)
 is affected, with no influence on α-2 wave
 (11-13Hz).<sup>[\[4\]](https://examine.com/supplements/theanine/research/#ref-4)</sup>
 
+*Bill Willis, [“Theanine”](https://examine.com/supplements/theanine/research/), 2022*
+
 Although I'm confused about the increased α-waves in "otherwise healthy
 patients"‽
 
@@ -537,6 +539,8 @@ mild cognitive impairment based on MMSE scores, supplementation was
 associated with improved delayed recognition and immediate recall
 scores with no effect on verbal and visuospatial memory (Rey-Kim
 test).<sup>[\[17\]](https://examine.com/supplements/theanine/research/#ref-17)</sup>
+
+*Bill Willis, [“Theanine”](https://examine.com/supplements/theanine/research/), 2022*
 
 ### Experiment B: Self-Blinded RCT
 
