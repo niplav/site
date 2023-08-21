@@ -320,6 +320,13 @@ randomized future experiments (if I ever stop procrastinating on them).
 Tracking weight, mostly for exercise purposes. Data
 [here](./data/weights.csv), collected with [this script](./data/weight).
 
+### Daily Performance Metrics
+
+Productivity, creativity and the subjective length of the
+day. Collected with [this script](./data/mental) into [this
+file](./data/mental.csv). Started collecting subjective length of the
+day on 2023-08-21.
+
 ### Bag Spreading
 
 Data on bag spreading on public transport, in [this
