@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-08-16, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-08-24, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,13 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [A Missing Genetic Link in Human Evolution (Emily Singer, 2014)](https://www.quantamagazine.org/a-missing-genetic-link-in-human-evolution-20140102/)
+* [Physicists Eye Quantum-Gravity Interface (Natalie Wolchover, 2013)](https://www.quantamagazine.org/new-experiments-to-pit-quantum-mechanics-against-general-relativity-20131031/)
+* [The Soviet Union: The Food consumption puzzle (José Luis Ricón, 2016)](https://nintil.com/the-soviet-union-food)
+* [You’re Not Going Anywhere (Fernando Boretti, 2023)](https://borretti.me/article/youre-not-going-anywhere)
+* [In Brain’s ‘Rich Club,’ Meetings of the Mind (Emily Singer, 2013)](https://www.quantamagazine.org/in-brains-rich-club-meetings-of-the-mind-20131024/)
+* [Theanine (Bill Willis, 2022)](https://examine.com/supplements/theanine/research/)
+* [A New Tool to Help Mathematicians Pack (Natalie Wolchover, 2013)](https://www.quantamagazine.org/mathematical-progress-on-sphere-packing-optimization-problems-20131220/)
 * [Timing Technology: Lessons From The Media Lab (Gwern Branwen, 2019)](https://gwern.net/timing)
 * [In Defense Of Describable Dating Preferences (Scott Alexander, 2023)](https://astralcodexten.substack.com/p/in-defense-of-describable-dating)
 * [Bride Of Bay Area House Party (Scott Alexander, 2023)](https://astralcodexten.substack.com/p/bride-of-bay-area-house-party)

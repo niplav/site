@@ -8,6 +8,11 @@
 Notes
 =====
 
+If something isn't long enough to be its own article (yet…)
+and it is neither [ethics](./notes_on_ethics.html)- nor
+[politics](notes_on_politics_especially_economics.html)- or
+[pickup](./notes_on_pickup.html)-related, I put it here.
+
 Getting an Overview Over Everything
 -----------------------------------
 
@@ -2285,11 +2290,11 @@ have fewer externalities, but leaders might also be more willing to use
 nuclear strikes due to lower civilian casualties (and thereby increasing
 the risk of nuclear escalation)).
 
-Examples and Counter-examples for Zeynep's Razor
+Examples and Counter-examples for Zeyneps Razor
 -------------------------------------------------
 
-Zeynep's razor (after [Zeynep
-Tufekci](https://en.wikipedia.org/wiki/Zeynep_Tufekci) [states
+Zeyneps razor (after [Zeynep
+Tufekci](https://en.wikipedia.org/wiki/Zeynep_Tufekci)) [states
 that](https://nitter.net/zeynep/status/1478766408691556353?lang=en)
 first-order effects are rarely outweighed by [rebound effects](https://en.wikipedia.org/wiki/Rebound_effect_\(conservation\)).<!--TODO: state exactly!-->
 
@@ -2302,3 +2307,32 @@ Counter-examples<!--TODO: describe ideal gas laws-->:
 * [Jevons paradox](https://en.wikipedia.org/wiki/Jevons_paradox)
 * [Wirth's law](https://en.wikipedia.org/wiki/Wirth's_law)
 * [Peter principle](https://en.wikipedia.org/wiki/Peter_principle)
+
+Actually, which is "more true": Zeyneps razor or Jevons paradox? Perhaps
+one could pick 10 past interventions/cheapenings at random, and
+investigate whether efficiency or safety gains were outweighed by
+rebound effects.
+
+Favorite Quanta Magazine Articles
+----------------------------------
+
+[Quanta magazine](https://www.quantamagazine.org/) is great. I was
+recently asked for my favorite articles from the site, here's my
+(evolving) list, limited to 10 articles per year. My preference leans
+more towards biology/ecology/neuroscience articles, it's what I know
+least about, and its stamp-collecting nature makes it more amenable
+to popular articles (in contrast to physics and mathematics articles,
+which always feels hollow without the math).
+
+### 2013
+
+* [Biologists Home In on Turing Patterns (Jennifer Ouellette, 2013)](https://www.quantamagazine.org/biologists-home-in-on-turing-patterns-20130325/)
+* [Hunger Game: Is Honesty Between Animals Always the Best Policy? (Natalie Wolchover, 2013)](https://www.quantamagazine.org/hunger-game-is-honesty-between-animals-always-the-best-policy-20130109/)
+* [Google Researcher, Long Out of Math, Cracks Devilish Problem About Sets (Kevin Hartnett, 2023)](https://www.quantamagazine.org/long-out-of-math-an-ai-programmer-cracks-a-pure-math-problem-20230103/)
+* [Mathematicians Roll Dice and Get Rock-Paper-Scissors (Erica Klarreich, 2023)](https://www.quantamagazine.org/mathematicians-roll-dice-and-get-rock-paper-scissors-20230119/)
+* [On the Microbial Frontier, Cooperation Thrives (Emily Singer, 2013)](https://www.quantamagazine.org/on-the-microbial-frontier-cooperation-thrives-20130802/)
+* [In Pursuit of Quantum Biology With Birgitta Whaley (Peter Byrne, 2013)](https://www.quantamagazine.org/in-pursuit-of-quantum-biology-with-birgitta-whaley-20130730/)
+* [To Settle Infinity Dispute, a New Law of Logic (Natalie Wolchover, 2013)](https://www.quantamagazine.org/to-settle-infinity-question-a-new-law-of-mathematics-20131126/)
+* [Imagining Data Without Division (Thomas Lin, 2013)](https://www.quantamagazine.org/in-big-science-imagining-data-without-division-20130930/)
+* [The Secret Language of Plants (Kat McGowan, 2013)](https://www.quantamagazine.org/the-secret-language-of-plants-20131216/)
+* [In Natural Networks, Strength in Loops (Emily Singer, 2013)](https://quantamagazine.org/in-natural-networks-strength-in-loops-20130814/)
