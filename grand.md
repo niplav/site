@@ -279,3 +279,21 @@ sentence. And there is a stray space after "box".
 
 I like the image of someone haphazardly slapping together some poetry
 with their clumsy hands.
+
+#### 4.2.1
+
+##### EROI
+
+Details 15 ("Space solar EROI"), footnote a: what does `$S$` stand for?
+
+##### Nuclear energy
+
+Footnote 30 links to footnote 31, which links…nowhere?
+
+##### Heat dissipation in the environment
+
+> A civilization that wants to use more energy on Earth without heating it
+up __need__ to increase the emissivity or albedo throguh surface changes³²
+or geoengineering, or add an external cooling system for more extreme uses
+
+"needs" would read more smoothly, methinks.

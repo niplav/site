@@ -544,6 +544,9 @@ test).<sup>[\[17\]](https://examine.com/supplements/theanine/research/#ref-17)</
 
 ### Experiment B: Self-Blinded RCT
 
+This time I explicitely divided my meditation into a concentration part
+(first 15 minutes) and a mindfulness part (last 30 minutes).
+
 * Time for preparation: 93 minutes
 * Cost of l-theanine pills: `$\frac{~0.25€}{\text{500mg L-theanine pill}} \cdot 25 \text{ 500mg L-theanine pills}=6.25€$`
 * Cost of empty capsules: `$0.75€$`

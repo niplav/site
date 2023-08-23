@@ -1241,6 +1241,9 @@ Game. Even those odds likely overstate the number of Players in the world.
 * Practical Insight Meditation
 * There is No Antimemetics Division
 * Worm
+* The Machinery of Freedom
+* The Big Short
+	* An Elegy
 
 ### Interviews
 

@@ -25,6 +25,10 @@ August 2023
 	* [Track Records](./about.html#Track_Records)
 * [Notes](./notes.html)
 	* [Two Reasons For Restarting the Testing of Nuclear Weapons](./notes.html#Two_Reasons_For_Restarting_the_Testing_of_Nuclear_Weapons)
+	* [Examples and Counter-examples for Zeyneps Razor](./notes.html#Examples_and_Counterexamples_for_Zeyneps_Razor)
+	* [Favorite Quanta Magazine Articles](./notes.html#Favorite_Quanta_Magazine_Articles)
+* [Types & Methods of Data Collection I Use](./data.html)
+	* [Daily Performance Metrics](./data.html#Daily_Performance_Metrics)
 
 July 2023
 ----------

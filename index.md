@@ -73,9 +73,10 @@ Writing
 * [Compliments as Utilitarian Praxis](./utilitarian_compliments.html)
 * [Using Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./consciousness_diagram.html)
 
-#### Surveys & Experiments
+#### Psychology
 
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
+* [Have Attention Spans Been Declining?](./spans.html)
 
 #### Collections
 
