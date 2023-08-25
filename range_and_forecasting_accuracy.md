@@ -953,7 +953,7 @@ every decision-theoretic ship that sails it is never to return with
 valuable information.
 
 It is [sometimes
-invoked](#Appendix_C_Quotes_About_the_Horizon_of…Forecasts)
+invoked](#Appendix_C_Quotes_About_the_Horizon_of_Forecasts)
 by people when they want to talk about the inherent unknowability of
 the future, always without evidence of any *actual number*.
 

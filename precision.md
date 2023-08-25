@@ -119,8 +119,20 @@ is actually correct-->
 Algorithms!
 ------------
 
-The assumption of expressing precision in bits naturally leads to an
-algorithm:
+The assumption of expressing precision in bits naturally leads to two
+different algorithms.
+
+### Log-Odds Rounding
+
+#### Problems
+
+If you decrease precision by rounding, you can actually make a probability
+*better* by moving it closer to 0%/100%.
+
+Rounding very strongly rounds everything to 50%, so with strong enough
+rounding *every* dataset has the same score.
+
+### Uniform Noise in Log-Odds Space
 
 1. Transform the dataset of forecasts `$D$` into log-odds.
 2. Apply some noise `$ⴟ(θ)$` for some parameters `$θ$` to those forecasts.

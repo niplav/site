@@ -177,14 +177,16 @@ Cooperation Cluster"](https://www.youtube.com/watch?v=X6MYsKeTjKk),
 (unfortunately in German), [Joe
 Cesario](https://infoproc.blogspot.com/2019/05/manifold-episode-11-joe-cesario-on.html)
 on [Manifold](https://www.manifold1.com/), [Lee
-Cronin](https://lexfridman.com/lee-cronin/) on the [Lex
-Fridman Podcast](https://lexfridman.com/podcast/), [Bhante
+Cronin](https://lexfridman.com/lee-cronin/) on the
+[Lex Fridman Podcast](https://lexfridman.com/podcast/),
+[Carl](https://www.dwarkeshpatel.com/p/carl-shulman#details)
+[Shulman](https://www.dwarkeshpatel.com/p/carl-shulman-2#details)
+on the [Dwarkesh Podcast](https://www.dwarkeshpatel.com/), [Bhante
 Jason](https://www.guruviking.com/podcast/ep12-bhante-jason-guru-viking-interviews)
 and the series of [dialogues between Chelsea
 Fasano, Jay Sanguinetti, Shinzen Young and various
 guests](https://www.guruviking.com/podcast/tag/Shinzen+Young+Dialogues)
 on [Guru Viking](https://www.guruviking.com/podcast).
-<!--TODO: add Shulman on the Lunar Society-->
 
 Websites
 ---------
