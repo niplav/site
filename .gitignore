@@ -10,5 +10,4 @@
 *.o
 !header.html
 __pycache__
-precision
 code/turning/*.csv

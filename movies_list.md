@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-08-06, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-08-24, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -12,7 +12,7 @@ These are the movies I have watched since December 2018 (newest additions
 first).
 
 * [The Big Short](https://www.imdb.com/title/tt1596363/)
-* Hamilton
+* [Hamilton](https://www.imdb.com/title/tt8503618/)
 * [Oppenheimer](https://www.imdb.com/title/tt15398776/)
 * [Indiana Jones and the Dial of Destiny](https://www.imdb.com/title/tt1462764/)
 * [No Time To Die](https://www.imdb.com/title/tt2382320/)

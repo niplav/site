@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-08-24, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-08-25, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,37 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Reversing history (Brian Hayes, 2006)](http://bit-player.org/2006/reversing-history)
+* [Assume Bad Faith (Zack M. Davis, 2023)](https://www.lesswrong.com/posts/e4GBj6jxRZcsHFSvP/assume-bad-faith)
+* [Orientation on the Contemplative Path (Romeo Stevens, 2018)](https://neuroticgradientdescent.blogspot.com/2018/12/orientation-on-contemplative-path.html)
+* [Modular Peptide Nanotechnology (Sam Harsimony, 2023)](https://splittinginfinity.substack.com/p/modular-peptide-nanotechnology)
+* [Arcfour and CipherSaber in Emacs Lisp (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/04/26/)
+* [CipherSaber (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/04/24/)
+* [Today’s catch (Brian Hayes, 2006)](http://bit-player.org/2006/todays-catch)
+* [An early crop of Sudoku (Brian Hayes, 2006)](http://bit-player.org/2006/a-new-crop-of-sudoku)
+* [A List of Major, Future Innovations (Sam Harsimony, 2020)](https://harsimony.wordpress.com/2020/10/31/a-list-of-major-future-innovations/)
+* [Black Hole Civilizations (Sam Harsimony, 2022)](https://harsimony.wordpress.com/2022/09/13/black-hole-civilizations/)
+* [Approaches to Interpersonal Comparison of Utilities (Sam Harsimony, 2022)](https://harsimony.wordpress.com/2022/09/19/approaches-to-interpersonal-comparison-of-utilities/)
+* [Computer Optimization: Your Computer Is Faster Than You Think (Gwern Branwen, 2023)](https://gwern.net/note/faster)
+* [Friedman's Law (David Henderson, 2009)](https://www.econlib.org/archives/2009/06/friedmans_law.html)
+* [Dukkha: created vs discovered (Romeo Stevens, 2019)](https://neuroticgradientdescent.blogspot.com/2019/12/dukkha-created-vs-discovered.html)
+* [Threefold Training (Romeo Stevens, 2021)](https://neuroticgradientdescent.blogspot.com/2021/03/threefold-training.html)
+* [Human wanting (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/08/human-wanting.html)
+* [Old Man River (Brian Hayes, 2006)](http://bit-player.org/2006/old-man-river)
+* [Hashapass Password Management (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/04/14/)
+* [SWF Decompression Perl One-liner (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/04/18/)
+* [URL Shortening (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/04/16/)
+* [The Lazy Fibonacci List (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/04/10/)
+* [In Soviet Union, Optimization Problem Solves You (Cosma Shalizi, 2012)](http://bactra.org/weblog/918.html)
+* [There are two sides to many stories (Brian Tomasik, 2023)](https://briantomasik.com/two-sides-to-many-stories/)
+* [A Not So Stupid C Mistake (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/04/20/)
+* [Brainfuck Halting Problem (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/04/12/)
+* [Apartment Balcony Gardening (Chris Wellons, 2009)](https://nullprogram.com/blog/2009/04/08/)
+* [Cranking it up (Brian Hayes, 2006)](http://bit-player.org/2006/cranking-it-up)
+* [Select examples of adverse selection in longtermist grantmaking (Linch, 2023)](https://forum.effectivealtruism.org/posts/sWMwGNgpzPn7X9oSk/select-examples-of-adverse-selection-in-longtermist)
+* [My protest against the tyranny of time (Brian Hayes, 2006)](http://bit-player.org/2006/my-protest-against-the-tyranny-of-time)
+* [The lost millennium (Ege Erdil, 2023)](https://www.lesswrong.com/posts/hgf6FB9jMB7wMLuKA/the-lost-millennium)
+* [6 Exercises for Better Posture Rebecca Buffum Taylor, 2021)](https://www.webmd.com/fitness-exercise/better-posture-exercises)
 * [A Missing Genetic Link in Human Evolution (Emily Singer, 2014)](https://www.quantamagazine.org/a-missing-genetic-link-in-human-evolution-20140102/)
 * [Physicists Eye Quantum-Gravity Interface (Natalie Wolchover, 2013)](https://www.quantamagazine.org/new-experiments-to-pit-quantum-mechanics-against-general-relativity-20131031/)
 * [The Soviet Union: The Food consumption puzzle (José Luis Ricón, 2016)](https://nintil.com/the-soviet-union-food)

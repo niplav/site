@@ -1,12 +1,18 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2023-08-08, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2023-08-24, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
 Notes
 =====
+
+> Das Immer-wieder-von-vorn-anfangen ist [die regulative Idee des
+Spiels](https://www.lesswrong.com/posts/7Fft9kNTvqixttGc3 "Circle Games (sarahconstantin, 2019)") (wie der
+Lohnarbeit).
+
+*—Walter Benjamin, [“Über einige Motive bei Baudelaire“](https://www.kuwi.europa-uni.de/de/lehrstuhl/lw/westeuropa/lehre/Lehrmaterial/WalterBenjamin_Gesammelte_Schiften_I.pdf), 2023, link mine*
 
 If something isn't long enough to be its own article (yet…)
 and it is neither [ethics](./notes_on_ethics.html)- nor
@@ -1303,7 +1309,8 @@ Pet Peeves
 
 * Numerical scales for symmetric variables (e.g. quality/pleasure & pain/change) that are only positive. If you have a thing, the neutral point should not be five, but zero.
 * Reporting the number of lives lost, not the number of [QALYs](https://en.wikipedia.org/wiki/Quality-adjusted_life_year) (or [DALYs](https://en.wikipedia.org/wiki/Disability-adjusted_life_year) or [HALY+s](https://forum.effectivealtruism.org/posts/Lncdn3tXi2aRt56k5/health-and-happiness-research-topics-part-1-background-on#1__The_HALY_) or [sHALYs](https://forum.effectivealtruism.org/posts/Lncdn3tXi2Rt56k5/health-and-happiness-research-topics-part-1-background-on#2__The_sHALY) etc.) lost
-* Menus at restaurants that don't indicate whether the meal is vegetarian or not (ingredients often don't help: Restaurants will put meat (e.g. bacon cubes in salads) into dishes and not indicate it on the menu)
+* Menus at restaurants that don't indicate whether the meal is vegetarian or not (ingredients often don't help: Restaurants will put meat (e.g. bacon cubes in salads) into dishes and not indicate it on the menu).
+	* Interesting: I was recently at a restaurant which indicated the vegetarian/vegan status for *every ingredient* of every meal, which I found curiously annoying. I wonder what made them overshoot.
 * Websites that offer two-factor authentication, but don't allow physical authentication keys and, worse, don't offer an option to backup those two-factor authentication methods
 * Applications that create visible new folders (or very large folders) in my home directory
 	* Examples include snap, DogeCoin, julia
