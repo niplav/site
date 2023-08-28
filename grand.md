@@ -297,3 +297,31 @@ up __need__ to increase the emissivity or albedo throguh surface changes³²
 or geoengineering, or add an external cooling system for more extreme uses
 
 "needs" would read more smoothly, methinks.
+
+#### 4.3.1 Raw materials
+
+> If `$M(r) \propto r^{-α} α > 1$`
+
+I think there should be a comma between `$r^{-α}$` and `$α > 1$`.
+
+#### 4.4.1 Productivity limits
+
+> and its logarithm __the the__ learning coefficient
+
+#### 4.4.2 Automation
+
+##### Artificial intelligence
+
+> This is especially true since once the system has learned the task it
+might be possible to copy its performance (having it act as an ANI or
+generate an ANI with the skill`$^{51}$`).
+
+Some of the literature on distilling larger neural networks into smaller
+ones might be relevant here, but I haven't read any of it.<!--TODO:
+read-->
+
+##### Safety and control
+
+> People recognizes that “life will find a way”
+
+Should be "recognize"
