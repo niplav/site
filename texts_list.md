@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-08-25, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-08-28, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Aumann-agreement is common (tailcalled, 2023)](https://www.lesswrong.com/posts/4S6zunFNFY3f5JYxt/aumann-agreement-is-common)
+* [Using Points to Rate Different Kinds of Evidence (ozziegooen, 2023)](https://www.lesswrong.com/posts/6DuAddMcrv2jfQ5CW/using-points-to-rate-different-kinds-of-evidence)
+* [A list of core AI safety problems and how I hope to solve them (David A. Dalrymple, 2023)](https://www.lesswrong.com/posts/mnoc3cKY3gXMrTybs/a-list-of-core-ai-safety-problems-and-how-i-hope-to-solve)
+* [A Brief Note on Trauma Work (Romeo Stevens, 2020)](https://neuroticgradientdescent.blogspot.com/2020/07/a-brief-note-on-trauma-work.html)
 * [Reversing history (Brian Hayes, 2006)](http://bit-player.org/2006/reversing-history)
 * [Assume Bad Faith (Zack M. Davis, 2023)](https://www.lesswrong.com/posts/e4GBj6jxRZcsHFSvP/assume-bad-faith)
 * [Orientation on the Contemplative Path (Romeo Stevens, 2018)](https://neuroticgradientdescent.blogspot.com/2018/12/orientation-on-contemplative-path.html)
