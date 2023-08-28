@@ -325,3 +325,22 @@ read-->
 > People recognizes that “life will find a way”
 
 Should be "recognize"
+
+##### Limits to self replication
+
+> Perhaps somewhat surprising there are no quantum self-replicators. The
+no cloning theorem means that copying arbitrary quantum states
+is impossible. A corollary is that there is no universal quantum
+constructor since it would be able to clone itself, a “no self
+replication theorem”.
+
+Probably should start with "Perhaps somewhat surprising__ly__".
+
+If the no cloning theorem says that *arbitrary* quantum states
+can't be copied, can't there be a subspace of quantum states that is
+capable of replication, similar to how arbitrary hard SAT problems are
+computationally intractable but in practice we can solve real-world
+instances just fine?
+
+Or is the issues with the *universal* quantum constructor, since such
+a replicator wouldn't be able to create arbitrary quantum states?

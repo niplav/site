@@ -68,6 +68,7 @@ HTML=index.html \
 	microfiction.html \
 	nootropics.html \
 	pipe_rings.html \
+	platforms.html \
 	platte.html \
 	preagent.html \
 	precision.html \

@@ -451,6 +451,8 @@ Texts
 	* Wellbutrin/Bupropion
 	* CBD/THC
 	* Testosterone
+	* Vitamin D
+	* Vitamin C?
 	* Take inspiration from [Gwern](https://www.gwern.net/Nootropics), of course
 * Accutane literature review
 
