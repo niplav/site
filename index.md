@@ -52,6 +52,7 @@ Writing
 
 * [Nootropics](./nootropics.html)
 * [Types & Methods of Data Collection I Use](./data.html)
+* [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
 
 #### Practical
 

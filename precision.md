@@ -354,6 +354,8 @@ point](https://en.wikipedia.org/wiki/Knee_of_a_curve) of the declining
 curve of scores, but as far as I know there is no reliable method for
 doing so, nor is there a mathematical framework for this.
 
+Divergence point needs to depend on the perturbance parameter.
+
 Usage
 ------
 
