@@ -190,12 +190,103 @@ How Can We Become Better At Forecasting?
 
 ### Forecasting Techniques
 
-* Does the method of decomposing questions work?
-	* I.e. if we say "X can only happen if Y₁ and Y₂ and Y₃..., so we estamet P(Y₁) and P(Y₂) and P(Y₃), and multiply those together", do we usually get a probability that is close to P(X)?
-	* What is the experimental evidence?
-	* See [Yudkowsky 2017](https://arbital.com/p/multiple_stage_fallacy/) for arguments against this technique, as does [Gwern 2019](https://gwern.net/forking-path), specifically that it reliably underestimates the probability of events
-	* Is there experimental evidence that this technique works?
-	* It appears to be relatively commonly used, see [Allyn-Feuer & Sanders 2023](https://forum.effectivealtruism.org/posts/ARkbWch5RMsj6xP5p/transformative-agi-by-2043-is-less-than-1-likely), [Silver 2016](http://fivethirtyeight.com/features/donald-trumps-six-stages-of-doom/), [Kaufman 2011](https://www.jefftk.com/p/breaking-down-cryonics-probabilities) and [Hanson 2011](https://www.overcomingbias.com/p/break-cryonics-downhtml)
+If we say "`$X$` will happen if and only if `$Y_1$` and `$Y_2$` and
+`$Y_3$`... *all* happen, so we estimate `$P(Y_1)$` and `$P(Y_2|Y_1)$`
+and `$P(Y_3|Y_1, Y_2)$` &c, and then multiply them together to estimate
+`$P(X)=P(Y_1)·P(Y_2|Y_1)·P(Y_3|Y_2,Y_1·)·$`…", do we usually get a
+probability that is close to `$P(X)$`?  Does this *improve* forecasts where
+one tries to estimate `$P(X)$` directly?
+
+This type of question decomposition (which one could
+call *multiplicative decomposition*) appears to be a
+relatively common method for forecasting, see [Allyn-Feuer & Sanders
+2023](https://forum.effectivealtruism.org/posts/ARkbWch5RMsj6xP5p/transformative-agi-by-2043-is-less-than-1-likely),
+[Silver
+2016](http://fivethirtyeight.com/features/donald-trumps-six-stages-of-doom/),
+[Kaufman
+2011](https://www.jefftk.com/p/breaking-down-cryonics-probabilities),
+[Carlsmith 2022](https://arxiv.org/abs/2206.13353) and [Hanson
+2011](https://www.overcomingbias.com/p/break-cryonics-downhtml),
+but there have been conceptual arguments against this technique, see
+[Yudkowsky 2017](https://arbital.com/p/multiple_stage_fallacy/), [AronT
+2023](https://www.lesswrong.com/posts/kmZkCmz6AiJntjWDG/multiple-stages-of-fallacy-justifications-and-non)
+and [Gwern 2019](https://gwern.net/forking-path), which both state that
+it reliably underestimates the probability of events.
+
+What is the empirical evidence for decomposition?
+
+[Lawrence et al.
+2006](https://www.sciencedirect.com/science/article/abs/pii/S0169207006000501)
+summarize the state of research on the question:
+
+> Decomposition methods are designed to improve accuracy by splitting
+the judgmental task into a series of smaller and cognitively less
+demanding tasks, and then combining the resulting judgements. [Armstrong
+(2001)](https://www.researchgate.net/publication/267198099_The_Forecasting_Dictionary)
+distinguishes between decomposition, where the breakdown of
+the task is multiplicative (e.g. sales forecast=market size
+forecast×market share forecast), and segmentation, where it is
+additive (e.g. sales forecast=Northern region forecast+Western
+region forecast+Central region forecast), but we will use the
+term for both approaches here. **Surprisingly, there has been
+relatively little research over the last 25 years into the value
+of decomposition and the conditions under which it is likely to
+improve accuracy. In only a few cases has the accuracy of forecasts
+resulting from decomposition been tested against those of control
+groups making forecasts holistically.** One exception is [Edmundson
+(1990)](https://onlinelibrary.wiley.com/doi/abs/10.1002/for.3980090403)
+who found that for a time series extrapolation task, obtaining separate
+estimates of the trend, seasonal and random components and then combining
+these to obtain forecasts led to greater accuracy than could be obtained
+from holistic forecasts.  Similarly, [Webby, O’Connor and Edmundson
+(2005)](https://www.sciencedirect.com/science/article/abs/pii/S0169207004001049)
+showed that, when a time series was disturbed in some periods by several
+simultaneous special events, accuracy was greater when forecasters were
+required to make separate estimates for the effect of each event, rather
+than estimating the combined effects holistically. [Armstrong and Collopy
+(1993)](https://core.ac.uk/download/pdf/76362507.pdf) also constructed
+more accurate forecasts by structuring the selection and weighting
+of statistical forecasts around the judge’s knowledge of separate
+factors that influence the trends in time series (causal forces).
+Many other proposals for decomposition methods have been based on an
+act of faith that breaking down judgmental tasks is bound to improve
+accuracy or upon the fact that decomposition yields an audit trail
+and hence a defensible rationale for the forecasts ([Abramson & Finizza,
+1991](https://d1wqtxts1xzle7.cloudfront.net/49278189/0169-2070_2891_2990004-f20161001-25533-1nihj7p-libre.pdf?1475369537=&response-content-disposition=inline%3B+filename%3DUsing_belief_networks_to_forecast_oil_pr.pdf&Expires=1693237828&Signature=JtQssSZv0KaUbWLf3fPA70ho1ECj9zYkBC~EnNVIrFfIgcQ5dDVeK5stSWj1tR7OQrcur7PG~y8wHNuAorqrPAjqHwEq3T88klt23BzmzXwMWUNR~ZPKimTrcDTGgrj0WcC~~gM51fzvvCJrK2hO7oPsmc-mQsgvBL5VIywRLw6-GpQjBbpILXJk90c3-JTXwWeUwhwt1zv3h6U-WAyQn-Y88tZg~R7AUFJBRAdbwV8A67o7mHcCZNbKLdluGYDgG9uC516BWr4lckSd7VcoqzfywkjpxZWTjBEFLvmJoWuSRwNvqak3SzHBO5Hv86zZ4oJtWXbxwTdsVw61JGmt6Q__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA);
+[Bunn & Wright,
+1991](https://www.researchgate.net/profile/George-Wright-11/publication/227446292_Interaction_of_Judgemental_and_Statistical_Forecasting_Methods_Issues_Analysis/links/0c9605375ff870d3c9000000/Interaction-of-Judgemental-and-Statistical-Forecasting-Methods-Issues-Analysis.pdf);
+[Flores, Olson, & Wolfe,
+1992](https://www.sciencedirect.com/science/article/abs/pii/0169207092900277);
+[Saaty &
+Vargas, 1991](https://link.springer.com/book/9789401579544); [Salo & Bunn,
+1995](https://d1wqtxts1xzle7.cloudfront.net/56667412/0040-1625_2894_2900050-720180527-12155-ptp70l-libre.pdf?1527455229=&response-content-disposition=inline%3B+filename%3DDecomposition_in_the_assessment_of_judgm.pdf&Expires=1693237988&Signature=Np4MDK~nFPb3xPknH2QaBnyOnnYT8FPgpsx7PTKkZEhmPVRQ5RTKSKzOQ7j9KDstvWfF~X7pIQdd~OJxn4OntioCsEPCPxRzLtOUscn3~UuGBnWYNsZ4JO8iBaREvH2N~DL0um~6moufhk69-lNkSjV~x2MLC5KMDBGJUwbxSwZmTp0sx3vANfZGpq~~f5ojnSkSfVJ1NYvWr82KK5UUxtU08HtGsSqOKlBB8NA7~IxsTcJnUKONHm5lczVeWq8KBEMGaNLI0GBr1y4e2bPA~Y8aKcCqnDbsOriQ0f7rNclqsY-cEEarUmd8UXRFJZc6vtPjgdF5Xv0CgrPEGIh0xA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA);
+[Wolfe & Flores,
+1990](https://onlinelibrary.wiley.com/doi/abs/10.1002/for.3980090407)).
+Yet, as [Goodwin and Wright
+(1993)](https://d1wqtxts1xzle7.cloudfront.net/46103856/0169-2070_2893_2990001-420160531-2191-1mlbayr-libre.pdf?1464718211=&response-content-disposition=inline%3B+filename%3DImproving_judgmental_time_series_forecas.pdf&Expires=1693238053&Signature=PDCGfnyMHtluH1q9RsZffGSGZU02oBJZvEFChvofGx0nzBDrpCnlErCwx5OFUv0rXIRsULnJL~LA57rWsRXBEXcAbUtaObpC6rJTmAqe1RJLkDE59eD7787zBpqxYCkBHx5-uOou2gPpBCrxpMzc9JS3zDt4HXSs3eiXMzhzw0jPHkPyYGPwIFK5Xae1JVOkmZccnBe-9QwZhwyIcLEqoEWIoAr34d2EW19zendk~9NA182Kaf4MgKXaUCzMxSwcyMIWfoJ5K~VdfWr5Cf1LOToCb638Nn354gpcOtTX~gwCfaK0lwWcqc9Ew-3AJ7w7EBtStETgW3rSbOvuSV9WrA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
+point out, decomposition is not guaranteed to improve accuracy and may
+actually reduce it when the decomposed judgements are psychologically more
+complex or less familiar than holistic judgements, or where the increased
+number of judgements required by the decomposition induces fatigue.
+
+(Emphasis mine).
+
+The types of decomposition described here seem quite different from
+the ones used in the sources above: Decomposed time series are quite
+dissimilar to multiplied probabilities for binary predictions, and in
+combination with the conceptual counter-arguments the evidence appears
+quite weak.
+
+It appears as if a team of a few (let's say 4) dedicated forecasters could
+run a small experiment to determine whether multiplicative decomposition
+for binary forecasts a good method, by randomly spending 20 minutes either
+making explicitely decomposed forecasts or control forecasts (although
+the exact method for control needs to be elaborated on). Working in
+parallel, making 70 forecasts should take $70 \text{ forecasts} \cdot \frac{1 \text{hr}}{3 \text{ forecasts}} \cdot \frac{1}{4}
+\approx 5.8\text{hr}$ less than 6 hours, although it'd be useful to search for
+more recent literature on the question.
+
+* Would decomposition work if one were operating with log-odds instead of probabilities?
 
 How Can We Ask Better Forecasting Questions?
 ---------------------------------------------

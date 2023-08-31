@@ -288,3 +288,7 @@ mediumres=turn(mediumgraph)
 bigrev=nx.DiGraph()
 bigrev_opts=['a','b','c','d','m1','m2','m3','m4','m5']
 bigrev.add_edges_from([('a','m1'), ('m1', 'b'), ('a', 'b'), ('b', 'm2'), ('m2','c'), ('b', 'c'), ('a', 'm3'), ('m3', 'd'), ('a', 'd'), ('d', 'm4'), ('m4', 'c'), ('d', 'c'), ('c', 'm5'), ('m5', 'a'), ('c', 'a')])
+
+animals=nx.DiGraph()
+animals.add_nodes_from(['M', 'I', 'B', 'F'])
+animals.add_edges_from([('M', 'M', {'weight': 0.11, 'n': 1}), ('M', 'B', {'weight': 0.225, 'n': 1}), ('B', 'M', {'weight': 0.045, 'n': 1}), ('M', 'I', {'weight': 0.225, 'n': 1}), ('I', 'M', {'weight': 0.145, 'n': 1}), ('I', 'B', {'weight': 0.225, 'n': 1}), ('I', 'I', {'weight': 0.225, 'n': 1}), ('I', 'F', {'weight': 0.855, 'n': 1}), ('B', 'F', {'weight': 0.405, 'n': 1}), ('M', 'F', {'weight': 0.54, 'n': 1})])
