@@ -47,8 +47,9 @@ And indeed I don't have a shortage of ideas on things I
 (I try to collect m=50 samples in each RCT, which (with days off) is
 usually more than 2 months of data collection).
 
-So I'll do what [@saulmunn](https://twitter.com/saulmunn/) pointed
-out to me<!--TODO: link--> is a possibility: I'm going to do [futarchy
+So I'll do what [@saulmunn](https://twitter.com/saulmunn/) pointed [out
+to me](https://twitter.com/saulmunn/status/1671923161695240192)
+is a possibility: I'm going to do [futarchy
 myself](https://www.lesswrong.com/posts/qZXy8kGkNFyqCfHEJ/you-can-do-futarchy-yourself)
 by setting up a set of markets of Manifold Markets with respect to the
 outcomes of some pre-specified self-blinded RCTs, waiting until bets

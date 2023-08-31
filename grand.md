@@ -344,3 +344,30 @@ instances just fine?
 
 Or is the issues with the *universal* quantum constructor, since such
 a replicator wouldn't be able to create arbitrary quantum states?
+
+#### 4.5.2 Autopoiesis
+
+##### Autopoietic societies
+
+> and New Zealand was likely settled a founder population with between
+50 and 100 women
+
+Missing "by": "settled __by__ a founder population with […]"
+
+### 4.6 Services
+
+> It can be argued that the heterogeneity of services requires human-level
+artificial intelligence, but a vast number of services can be performed
+by more narrow systems adequately (making the human-provided version a
+valuable luxury in many cases: small talk with the hairdresser may soon
+be the actual reason to pay the premium).
+
+I somewhat balk at the specific example, as the job of a hair dresser
+(from a robotic perspective, though I'm no roboticist) seems to me
+to be one of the hardest professions to automate (hair is non-rigid
+& highly non-linear & malfunctioning machinery would be dangerously
+close to a human neck, and the wages aren't high enough for there to
+be significant pressure for automation). I'd maybe pick legal advice &
+a charismatic lawyer instead, or medical advice and empathy (though both
+of these examples suffer from the fact that these two professions have
+far more legal protection).

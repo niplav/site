@@ -31,6 +31,29 @@ August 2023
 	* [Favorite Quanta Magazine Articles](./notes.html#Favorite_Quanta_Magazine_Articles)
 * [Types & Methods of Data Collection I Use](./data.html)
 	* [Daily Performance Metrics](./data.html#Daily_Performance_Metrics)
+* [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
+
+### Links
+
+* [Retentive Network: A Successor to Transformer for Large Language Models (Yutao Sun/Li Dong/Shaohan Haung/Shuming Ma/Yuqing Xia/Jilong Xue/Jianyong Wang/Furu Wei, 2023)](./doc/cs/ai/ml/retentive_network_a_successor_to_transformer_for_large_language_models_sun_et_al_2023.pdf)
+* [Accidental Nuclear War: a Timeline of Close Calls (Ariel Conn, 2016)](https://futureoflife.org/resource/nuclear-close-calls-a-timeline/)
+* [Meditation acutely improves psychomotor vigilance, and may decrease sleep need (Bruce F. O'Hara/Craig R. Sargent/Jason Passafiume/Prashand Kaul, 2010)](./doc/meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf): Very big if true: One might be able to get all the benefits from meditation, at none of the costs in terms of time, additionally increasing one's effective subjective lifespan through more waking hours.
+* [A New Tool to Help Mathematicians Pack (Natalie Wolchover, 2013)](https://www.quantamagazine.org/mathematical-progress-on-sphere-packing-optimization-
+problems-20131220/): Optimal packing is related to error correction codes. Curious!
+* [In Soviet Union, Optimization Problem Solves You (Cosma Shalizi, 2012)](http://bactra.org/weblog/918.html): Combining my two favorite things: Computational complexity theory and speculative economic systems.
+	* Related: [The Soviet Union Series (José Luis Ricón, 2016/2017)](https://nintil.com/categories/soviet-union-series/)
+* [Black Hole Civilizations (Sam Harsimony, 2022)](https://harsimony.wordpress.com/2022/09/13/black-hole-civilizations/): Black holes are unusually flexible: Possible to be used as currency, weapons, mass-energy converters (& therefore as drives for travel), randomness generators…
+	* Related: [Malament–Hogarth spacetime](https://en.wikipedia.org/wiki/Malament%E2%80%93Hogarth_spacetime)
+
+#### Computational Metaphysics
+
+* [Anthropics and the Universal Distribution (Joe Carlsmith, 2022)](https://joecarlsmith.com/2021/11/28/anthropics-and-the-universal-distribution)
+* [Summary of UDASSA (Hal Finney, 2010)](http://fennetic.net/irc/finney.org/~hal/udassa/summary1.html)
+* [UDASSA (Jacob Falkovich, 2023)](https://www.lesswrong.com/posts/tndX9uZEp5HHpS9xK/udassa)
+* [The Absolute Self-Selection Assumption (Paul Christiano, 2011)](https://www.lesswrong.com/posts/QmWNbCRMgRBcMK6RK/the-absolute-self-selection-assumption)
+* UDT
+	* [Wei Dai’s Updateless Decision Theory (Tyrrell McAllister, 2011)](./doc/cs/ai/alignment/decision_theory/wei_dais_updateless_decision_theory_mcallister_2011.pdf)
+	* ["UDT2" and "against UD+ASSA" (Wei Dai, 2019)](https://www.lesswrong.com/posts/zd2DrbHApWypJD2Rz/udt2-and-against-ud-assa)
 
 July 2023
 ----------

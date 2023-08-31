@@ -17,6 +17,26 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [|1 Infra-Bayesian physicalism: a formal theory of naturalized induction (Vanessa Kosoy/Diffractor, 2021)](https://www.lesswrong.com/posts/gHgs2e2J5azvG
+Fatb/infra-bayesian-physicalism-a-formal-theory-of-naturalized)
+* [Complexity Theory’s 50-Year Journey to the Limits of Knowledge (Ben Brubaker, 2023)](https://www.quantamagazine.org/complexity-theorys-50-year-journey-to-the-limits-of-knowledge-20230817/)
+* [Language models can explain neurons in language models (Jan Leike/Jeffrey Wu/Steven Bills/William Saunders/Leo Gao/Henk Tillman/Daniel Mossing, 2023)](https://openai.com/research/language-models-can-explain-neurons-in-language-models)
+* [PageRank for physicists (Brian Hayes, 2006)](http://bit-player.org/2006/pagerank-for-physicists)
+* [Refrigeration by filtering (Brian Hayes, 2006)](http://bit-player.org/2006/refrigeration-by-filtering)
+* [DCLXVI (Brian Hayes, 2006)](http://bit-player.org/2006/dclxvi)
+* [ENIACiana (Brian Hayes, 2006)](http://bit-player.org/2006/eniaciana)
+* [Setting the river straight (Brian Hayes, 2006)](http://bit-player.org/2006/setting-the-river-straight)
+* [Talkin’ Towson (Brian Hayes, 2006)](http://bit-player.org/2006/talkin-towson)
+* [Brackets (Brian Hayes, 2006)](http://bit-player.org/2006/brackets)
+* [Prompt Engineering (Lilian Weng, 2023)](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)
+* [The Multi-Armed Bandit Problem and Its Solutions (Lilian Weng, 2018)](https://lilianweng.github.io/posts/2018-01-23-multi-armed-bandit/)
+* [Multiple stages of fallacy - justifications and non-justifications for the multiple stage fallacy (AronT, 2023)](https://www.lesswrong.com/posts/kmZkCmz6AiJntjWDG/multiple-stages-of-fallacy-justifications-and-non)
+* [Malament–Hogarth spacetime (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Malament%E2%80%93Hogarth_spacetime)
+* [Do human pheromones actually exist? (Lindzi Wessel, 2017)](https://www.science.org/content/article/do-human-pheromones-actually-exist)
+* [Mantic Monday 8/28/23 (Scott Alexander, 2023)](https://astralcodexten.substack.com/p/mantic-monday-82823)
+* [Forecasting Forecasting (Alvaro de Menard, 2022)](https://fantasticanachronism.com/2022/11/21/forecasting-forecasting/)
+* [Four Pillars of Practice Progress (Romeo Stevens, 2020)](https://neuroticgradientdescent.blogspot.com/2020/08/four-pillars-of-practice-progress.html)
+* [What is suffering? (Romeo Stevens, 2019)](https://neuroticgradientdescent.blogspot.com/2019/07/what-is-suffering.html)
 * [Aumann-agreement is common (tailcalled, 2023)](https://www.lesswrong.com/posts/4S6zunFNFY3f5JYxt/aumann-agreement-is-common)
 * [Using Points to Rate Different Kinds of Evidence (ozziegooen, 2023)](https://www.lesswrong.com/posts/6DuAddMcrv2jfQ5CW/using-points-to-rate-different-kinds-of-evidence)
 * [A list of core AI safety problems and how I hope to solve them (David A. Dalrymple, 2023)](https://www.lesswrong.com/posts/mnoc3cKY3gXMrTybs/a-list-of-core-ai-safety-problems-and-how-i-hope-to-solve)
