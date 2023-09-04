@@ -7,7 +7,7 @@
 2021](https://applieddivinitystudies.com/2030/)<!--TODO: tooltip-->, I wrote a [long
 comment](https://old.reddit.com/r/slatestarcodex/comments/p5lf7n/ordinary_life_improvements_2030/h979po7/)
 on [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex), taking
-the premise more serious. This is a formatted and revised version of
+the premise more seriously. This is a formatted and revised version of
 that comment.__
 
 Life Improvements in 2030

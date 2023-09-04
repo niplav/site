@@ -170,7 +170,7 @@ Log-odds rounding is pretty similar to odds-rounding.
 Once a probability `$p$` has been converted into log-odds
 form `$l_p$`, then rounding with a perturbation `$σ$` is
 [simply](https://en.wikipedia.org/wiki/Rounding#Rounding_to_a_specified_multiple)
-`$l'_p=σ \cdot \text{round}(σ \cdot l_p)$`.
+`$l'_p=σ \cdot \text{round}(l_p / σ)$`.
 
 Scoring the forecasts using the logarithmic scoring rule, one can then
 write this in a couple of lines of python code:
@@ -341,20 +341,31 @@ Unfortunately, this method doesn't really give reliable results for small sample
 
 But this *does* tell us that `$ᚠ(d1)\approx 1.15$` bits.
 
+#### Binary Search
+
 The code can be changed to be faster, using [binary
 search](https://en.wikipedia.org/wiki/Binary_search) (rewriting the code
 to be [noisy binary search](https://en.wikipedia.org/wiki/Binary_search),
 since the comparisons of scores are not reliable, might be a cool
 project<!--TODO-->):
 
+##### Binary Search With Noise
+
 <!--TODO-->
+
+#### Perturbation Parameter-Dependent Divergence Finding
+
+Divergence point needs to depend on the perturbance parameter.
+
+----
 
 A more sophisticated technique could try to estimate the  [elbow
 point](https://en.wikipedia.org/wiki/Knee_of_a_curve) of the declining
 curve of scores, but as far as I know there is no reliable method for
 doing so, nor is there a mathematical framework for this.
 
-Divergence point needs to depend on the perturbance parameter.
+Precision of Forecasting Datasets
+----------------------------------
 
 Usage
 ------

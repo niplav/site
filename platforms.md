@@ -3,8 +3,10 @@
 
 *author: niplav, created: 2023-08-28, modified: 2023-08-28, language: english, status: finished, importance: 7, confidence: certain*
 
-> __There are too many possible quantified self experiments to
-run. Hobbyist prediction platforms[^1] make priorisation easier.__
+> __There are too many possible quantified self experiments to run. Do
+hobbyist prediction platforms[^1] make priorisation easier? I test this
+by setting up multiple markets and running two experiments on nootropics
+for meditation.__
 
 Using Prediction Platforms to Select Quantified Self Experiments
 =================================================================
@@ -57,11 +59,26 @@ on them accumulate, and then running two of those RCTs (the "best" one,
 by my standards, and a random one) and using the results as resolutions,
 while resolving the others as ambiguous.
 
+### Timeline
+
+If the markets receive enough liquidity, I'll start the first experiment
+mid november, and the second one early next year, hopefully sometime
+in february.
+
 Markets
 --------
 
 Plea
 -----
+
+I would love to subsidise my markets on Manifold a whole bunch, but
+don't have enough mana for that (I've subsidised them best I could).
+
+So here is my plea: __Please predict on the markets!__
+
+It would be cool to know whether hobbyist prediction markets *can* be
+used for choosing experiments, and the worst result would be a "well,
+we can't really tell because liquidity on the markets was too small".
 
 Further Ideas
 --------------
