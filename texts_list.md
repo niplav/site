@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-08-28, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-09-03, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,16 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [The Soviet Union: From farm to factory. Stalin's Industrial Revolution (José Luis Ricón, 2017)](https://nintil.com/the-soviet-series-from-farm-to-factory-stalins-industrial-revolution)
+* [Room 641A (Brian Hayes, 2006)](http://bit-player.org/2006/room-641a)
+* [The oddest numbers (Brian Hayes, 2006)](http://bit-player.org/2006/the-oddest-numbers)
+* [Graphical Causal Models (Cosma Shalizi, 2023)](http://bactra.org/notebooks/graphical-causal-models.html)
+* [Implications of evidential cooperation in large worlds (Lukas Finnveden, 2023)](https://forum.effectivealtruism.org/posts/WYsLjeJzh7tZqe6Lo/implications-of-evidential-cooperation-in-large-worlds)
+* [Learn stats without going mad (Gavin Leech, 2023)](https://www.gleech.org/stats)
+* [What should Julia users know about? (Muireall Prase, 2022)](https://muireall.space/julians-should-know/)
+* [Some Thoughts on Metaphilosophy (Wei Dai, 2019)](https://www.lesswrong.com/posts/EByDsY9S3EDhhfFzC/some-thoughts-on-metaphilosophy)
+* [Core Transformation (Romeo Stevens, 2019)](https://neuroticgradientdescent.blogspot.com/2019/07/core-transformation.html)
+* [Can You Divide by Three? (Brian Hayes, 2006)](http://bit-player.org/2006/can-you-divide-by-three)
 * [|1 Infra-Bayesian physicalism: a formal theory of naturalized induction (Vanessa Kosoy/Diffractor, 2021)](https://www.lesswrong.com/posts/gHgs2e2J5azvG
 Fatb/infra-bayesian-physicalism-a-formal-theory-of-naturalized)
 * [Complexity Theory’s 50-Year Journey to the Limits of Knowledge (Ben Brubaker, 2023)](https://www.quantamagazine.org/complexity-theorys-50-year-journey-to-the-limits-of-knowledge-20230817/)

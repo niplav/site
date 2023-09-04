@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-07, modified: 2023-04-07, language: english, status: in progress, importance: 4, confidence: likely*
+*author: niplav, created: 2023-04-07, modified: 2023-04-07, language: english, status: in progress, importance: 5, confidence: likely*
 
 > __A bibliography of various methods for meditation enhancements through brain stimulation and feedback, focusing on intracranial ultrasound stimulation.__
 
@@ -60,3 +60,16 @@ I was able to accomplish just by sitting for 45 minutes every day. With
 the PCC ultrasound, it was within the first five minutes.”
 
 *—[Michael Haederle](https://tricycle.org/author/michaelhaederle/), [“Equanimity On Demand: Can Brain Stimulation Technology Mimic the Effects of Meditation?”](https://tricycle.org/article/brain-stimulation-meditation/), 2021*
+
+> During the individual's two-month post-completion evaluation, he
+showed a significant score decrease in mood inventories, with virtually
+no remaining anxiety or depression. The response pattern observed
+may demonstrate that fUS [focused ultra-sound] targeting the amygdala
+produces very specific symptom relief in anxiety, but not in depression
+and obsessive thinking. In this previously treatment-resistant individual,
+anxiety may have prevented the therapeutic response to previous treatments
+for comorbid conditions in these patients. Indeed, extremely high levels
+of general anxiety are often considered to be markers of non-response
+to antidepressants, therapy, rTMS and ECT.
+
+*—Zielinski et al., [A Case Study of Low-Intensity Focused Ultrasound For Treatment-Resistant Generalized Anxiety Disorder and Major Depressive Disorder](./doc/stimulation/a_case_study_of_low_intensity_focused_ultrasound_for_treatment_resistant_anxiety_zielinski_et_al_2021.pdf), 2021*

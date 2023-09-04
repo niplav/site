@@ -371,3 +371,59 @@ be significant pressure for automation). I'd maybe pick legal advice &
 a charismatic lawyer instead, or medical advice and empathy (though both
 of these examples suffer from the fact that these two professions have
 far more legal protection).
+
+#### 4.9.4 Enhancing well-being
+
+> Happiness has a strong genetic component, ranging from 30-80% of the
+variation depending on study
+
+Perhaps this should be "the study".
+
+> **Meta-analysis** show that positive psychology interventions can
+have medium (standardized mean difference 0.3) effects for subjective
+well-being
+
+If this is a plural, I believe the plural of "analysis" is "analyses".
+
+##### Social pain
+
+> `$μ$`-opoid
+
+Missing 'i'.
+
+#### 4.9.5 Pleasure and happiness in the brain
+
+> The introspective training required may preclude widespread use
+at present`$^{94}$`, but future neurotechnologies may well simplify
+achieving it.
+
+Might be worth referencing some of the people working on this,
+e.g. the [semalab](https://semalab.arizona.edu/). More information on
+them in “Spirit Tech” (Wesley J. Wildman/Kate J. Stockly, 2021)
+ch. 2 — unfortunately they don't publish that much.
+
+There is also “Transcranial Focused Ultrasound for Modulation of
+Attention Networks in Humans”  (Maria Elizabeth Fini, 2020), but I
+have read very little of it.
+
+Also potentially worth mentioning is
+[Jhourney](https://jhourney.io)? Although I'm not sure about the policy
+you have about mentioning startups and speculative business ventures in
+an academic book.
+
+#### 4.9.6 How intense can suffering and pleasure be?
+
+Maybe add a remark on how energy
+efficient pleasure vs. suffering are? See [Shulman
+2012](https://reflectivedisequilibrium.blogspot.com/2012/03/are-pain-and-pleasure-equally-energy.html)
+for some pontification. Or maybe put in the abolitionism section?
+
+<!--TODO: Buddhist premise from
+./doc/bio/welfare/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf,
+but with the 2019 update!-->
+
+> In many psychological experiments subjective magnitude of a stimuli
+typically grows as the logarithm (Fechner's law) or a power-law (Steven's
+law) with the objective intensity of the stimuli
+
+If I'm not mistaken the singular of "stimuli" is "stimulus".

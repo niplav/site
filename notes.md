@@ -2343,3 +2343,42 @@ which always feels hollow without the math).
 * [Imagining Data Without Division (Thomas Lin, 2013)](https://www.quantamagazine.org/in-big-science-imagining-data-without-division-20130930/)
 * [The Secret Language of Plants (Kat McGowan, 2013)](https://www.quantamagazine.org/the-secret-language-of-plants-20131216/)
 * [In Natural Networks, Strength in Loops (Emily Singer, 2013)](https://quantamagazine.org/in-natural-networks-strength-in-loops-20130814/)
+
+Ordering Outgoing *and* Incoming Edges in Dot
+----------------------------------------------
+
+Let's say you have a graph like this, drawn by the `dot` program:
+
+	digraph {
+		c->a
+		d->c [color="red"]
+		c->b
+		b->d
+		a->d
+	}
+
+![](./img/incoming/example_wrong.png)
+
+but you want to move the red edge to the middle. In this particular
+example, you *could* use `circo` and make the graph more circular,
+but that pattern fails with more complicated graphs, especially when
+you want specific edges to be on top or at the bottom (e.g. when each
+edge in the example graph is replaced by an edge, a node and another
+edge). Neither do edge-weighting, subgraphs or ordering of nodes work.
+
+The best solution I've found is to add an invisible further edge `c->d`:
+
+	digraph {
+		c->a
+		d->c [color="red"]
+		c->d [color="white"]
+		c->b
+		b->d
+		a->d
+	}
+
+![](./img/incoming/example_right.png)
+
+The result looks slightly wonky. but works. If one wants more assurances,
+one can also add the line `{ordering=out; c};` to make it more likely
+that the red edge isn't just banished to the side.
