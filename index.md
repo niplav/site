@@ -78,6 +78,7 @@ Writing
 
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
 * [Have Attention Spans Been Declining?](./spans.html)
+* [Brain Stimulation for Meditation Enhancement](./stimulation.html)
 
 #### Collections
 

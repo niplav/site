@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-09-03, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-09-05, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,9 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [How to Measure Capacity for Welfare and Moral Status (Jason Schukraft, 2020)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/XG86pCgqTweFsQyrd)
+* [Proper scoring rules don’t guarantee predicting fixed points (Caspar Oesterheld/Johannes Treutlein/Rubi J. Hudson, 2022)](https://www.lesswrong.com/posts/Aufg88v7mQ2RuEXkS/proper-scoring-rules-don-t-guarantee-predicting-fixed-points)
+* A Case Study of Low-Intensity Focused Ultrasound For Treatment-Resistant Generalized Anxiety Disorder and Major Depressive Disorder (Maggie Zielinski/Kennedy Mahdavi/Sheldon Jordan/Jonathan Haroon/Barshen Habelhah/Sergio beccera/Norman Spivak/Taylor Kuhn/Alexander Bystrisky, 2021)
 * [The Soviet Union: From farm to factory. Stalin's Industrial Revolution (José Luis Ricón, 2017)](https://nintil.com/the-soviet-series-from-farm-to-factory-stalins-industrial-revolution)
 * [Room 641A (Brian Hayes, 2006)](http://bit-player.org/2006/room-641a)
 * [The oddest numbers (Brian Hayes, 2006)](http://bit-player.org/2006/the-oddest-numbers)

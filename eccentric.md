@@ -493,8 +493,8 @@ if it had?
 	where the (mostly marine) animals are, similar with spears and bows—is
 	it conceivable to use tools made from ice and stone instead? Heating is
 	a big problem, as well as surviving through the winter, but Antarctica
-	has some accessible coal [Merrill
-	2016](./doc/geology/gis_representation_of_coal_bearing_areas_in_antarctical_merrill_2016.pdf "GIS Representation of Coal-Bearing Areas in Antarctica"),
+	has some accessible coal ([Merrill
+	2016](./doc/geology/gis_representation_of_coal_bearing_areas_in_antarctical_merrill_2016.pdf "GIS Representation of Coal-Bearing Areas in Antarctica")),
 	some of it fairly close to the coast where Māori might land. Maybe
 	our native population would need to overwinter in shelters
 	(made from ice, stone or likrete?), surviving on seal meat and
@@ -581,10 +581,10 @@ to ~\\$872mio. Setting the experiment up to find participants who are
 actually celibate and not simply interested in the money or prostitution
 might pose some difficulty, but not be insurmountable.
 * __[Breeding superintelligent octopuses](https://www.lesswrong.com/posts/DaFG3GKsBrsAnAERR/save-humanity-breed-sapient-octopuses) or [parrots](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-intelligent-parrots)__
-* __Cloning Extinct Animals__ In order: Passenger Pigeons, Thylacines, Dodos, Wooly Mammoths, Neanderthals, [John von Neumann](https://fantasticanachronism.com/2021/03/23/two-paths-to-the-future/), Srinivasa Ramanujan…
+* __Cloning Extinct Animals__ In order: Passenger Pigeons, Thylacines, Dodos, Wooly Mammoths, Neanderthals, [John von Neumann](https://fantasticanachronism.com/2021/03/23/two-paths-to-the-future/), Srinivasa Ramanujan… Comparable to the revival of the (2000 years extinct) [Judean date palm](https://en.wikipedia.org/wiki/Judean_date_palm) and the (32k years extinct) [*silene stenophylla*](https://en.wikipedia.org/wikipedia.org/wiki/Silene_stenophylla).
 * __Masturbation research__
 * __Explorables for causal inference__
-* __Find and test amnestics__<!--TODO: link-->: Find drugs that cause short-term memory loss with ideally no side effects (useful for blinding in scientific studies)
+* __Find and test amnestics__<!--TODO: link-->: Find drugs that cause short-term memory loss with ideally no side effects (useful for blinding in scientific studies)—perhaps [Midalozam](https://en.wikipedia.org/wiki/Midazolam) can be used for this?
 * __Run Newcomb's problem in real life__
 * __Run the [generalized wada test](https://qualiacomputing.com/2015/05/01/generalized-wada-test-and-the-total-order-of-consciousness/)__
 * __Better wireheading__: Achieving reversible (you can remove it and the rat feels/behaves as before) & non-adaptative (no hedonic adaptation happening) & non-addictive (isn't sought after when removed) & safe (doesn't have any serious health consequences) & ability-preserving (cognitive function isn't impaired, and ideally improved) & anti-slippery (when in the state the being doesn't seek more of it) long-term pleasure centric wireheading via extensive experiments on animals, either by direct brain stimulation or novel compounds.
@@ -661,7 +661,7 @@ Institute.
 
 [^1]: It's not clear that Nauru is the best choice here. While it probably is the smallest nation state that can conceivably be bought (I don't think there is any realistic (or unrealistic) amount of money for which Vatican City could be acquired), it is not very fertile, and has only limited freshwater reserves, relying mostly on rainwater. The highest point is only 71 metres above sea level, which means that a large part of the island might be at risk of going under water with rising sea levels.
 [^2]: [Rest in peace](https://old.reddit.com/r/SCP/comments/1434kh7/the_whole_scp_confinement_situation_is_both/).
-[^3]: Maybe I'm lacking in imagination, but this implies both that polynesians can survive for weeks on the open ocean, can reliably find their way back home if need be, and are adventurous enough to just sail out to the open ocean in the hopes of finding new islands. This seems extremely crazy to me.
+[^3]: Maybe I'm lacking in imagination, but this implies both that polynesians can survive for weeks on the open ocean, can reliably find their way back home if need be, and are adventurous enough to just sail out to the open ocean in the hopes of finding new islands. This seems extremely wild to me.
 [^4]: Indeed, there is [some evidence](https://en.wikipedia.org/wiki/Auckland_Island#Human_presence_on_the_island) that Auckland island was settled briefly by Polynesians 600-700 years ago.
 [^5]: Another method of finding and moving to Antarctica would be from the [Tierra del Fuego](https://en.wikipedia.org/wiki/Tierra_del_fuego) to the [Siffrey point](https://en.wikipedia.org/wiki/Siffrey_point), which is much closer (~1030km). I'm not sure whether this is more or less likely: the [Yahgan people](https://en.wikipedia.org/wiki/Yahgan_people) have lived in the Tierra del Fuego for ~8k years, which would give far more time for for extensive exploration, and the [Prime Head](https://en.wikipedia.org/wiki/Prime_Head) is likely warmer and more hospitable than the rest of Antarctica, but I believe that the Polynesians were *much* better at spending long durations of time at sea, and at finding far away land from subtle cues.
 [^6]: Since the experiment would solely involve prostitution, my best guess<sub>80%</sub> is that it would be significantly more difficult to find a similar number of female participants.

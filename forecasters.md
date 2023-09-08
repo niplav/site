@@ -21,7 +21,7 @@ In general, judgmental forecasting methods operate best in areas with
 fast feedback loops, large existing datasets (or at least good reference
 classes for base rates) and continuous historical trends.
 
-We can therefore identify the four horsemen of hard forecasting:
+We can therefore identify the five horsemen of hard forecasting:
 
 * __Long time horizons__: Because most forecasters and traders
 [discount](https://en.wikipedia.org/wiki/Discounting) the
@@ -210,10 +210,11 @@ relatively common method for forecasting, see [Allyn-Feuer & Sanders
 but there have been conceptual arguments against this technique, see
 [Yudkowsky 2017](https://arbital.com/p/multiple_stage_fallacy/), [AronT
 2023](https://www.lesswrong.com/posts/kmZkCmz6AiJntjWDG/multiple-stages-of-fallacy-justifications-and-non)
-and [Gwern 2019](https://gwern.net/forking-path), which both state that
+and [Gwern 2019](https://gwern.net/forking-path), which all argue that
 it reliably underestimates the probability of events.
 
-What is the empirical evidence for decomposition?
+What is the empirical evidence for decomposition being a technique that
+*improves* forecasts?
 
 [Lawrence et al.
 2006](https://www.sciencedirect.com/science/article/abs/pii/S0169207006000501)

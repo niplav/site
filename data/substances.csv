@@ -291,3 +291,8 @@ datetime,substance,amount,experiment,id,prediction
 2023-09-01T17:23:03+02:00,nicotine,2mg,,,
 2023-09-02T13:05:37+02:00,creatine,3g,,,
 2023-09-04T14:46:24+02:00,l-theanine,500mg,B,37,0.35
+2023-09-04T23:09:54+02:00,melatonin,0.3mg,,,
+2023-09-05T08:47:54+02:00,l-theanine,500mg,B,38,0.6
+2023-09-06T12:08:53+02:00,l-theanine,500mg,B,39,0.5
+2023-09-06T14:28:53+02:00,creatine,3g,,,
+2023-09-08T11:48:32+02:00,l-theanine,500mg,B,40,
