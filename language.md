@@ -458,6 +458,7 @@ Missing Emojis
 * Sad smile
 * Suspicious squint
 * Erlenmeyer flask
+* Red star
 
 Daygame
 --------

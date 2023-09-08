@@ -427,3 +427,18 @@ typically grows as the logarithm (Fechner's law) or a power-law (Steven's
 law) with the objective intensity of the stimuli
 
 If I'm not mistaken the singular of "stimuli" is "stimulus".
+
+##### Limits of comprehension
+
+> One can also argue that the process is more about understanding and
+explanations, the opposite of compression: the formulation of forward
+models that allow predictions.
+
+I like this point. Pithier: "everything is compression" is wrong, it
+ought to be "everything is compression *and execution*".
+
+##### Limits of method
+
+> of real world-data
+
+Shouldn't this be "of real-world data" instead?
