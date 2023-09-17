@@ -442,3 +442,24 @@ ought to be "everything is compression *and execution*".
 > of real world-data
 
 Shouldn't this be "of real-world data" instead?
+
+#### 4.13.2 Fundamental problems for growth
+
+The cubic (or quadratic?) limit to growth also means that if there
+are limits to growth or scientific knowledge, their end might arrive
+comparatively suddenly this growth starts asymptoting.
+
+> While buying and selling may be reversible operations¹²⁷ there is
+a need to perform error correction and there might even be desirable to
+ensure that the transaction is not too readily undone.
+
+"and there might even be desirable" -> "and **it** might even be
+desirable" or some other modification.
+
+# 5 Long-term stability of civilizations
+
+> a civilization (or society, or institution) collapses or transforms
+if it no longer can or **want** to pursue any multigenerational project that
+it used to regard as highly valuable.
+
+"want" should be "wants".

@@ -1872,6 +1872,7 @@ not work.
 </li>
 <li>☐ Furthermore, all predictions your model has made look like this:</li>
 <img src="./img/checklist/outlooks.jpg"/>
+<img src="./img/checklist/bad_forecast.jpg"/>
 <li>Your policy would:
 	<ul style="list-style: none;">
 	<li> ☐ disincentivize good things</li>
@@ -2270,6 +2271,27 @@ making reductions in stockpiles more realistic. If I imagine having to
 rely on weapons that haven't been tested in more than 30 years, I'd also
 want to err on having more of those weapons rather than less.
 
+> The reduction brought challenges: if the U.S. could no longer build
+or design the next world-altering bomb, what could government officials
+do to retain the expertise of scientists? And how would the ensure the
+integrity of the arsenal without being able to test the products? Nuclear
+bombs contain more than 4,000 parts, and most of those parts are now
+more than 30 years old. Ask yourself: If you left a 1993 Ford Mustang
+in the barn—a temperature-controlled vault of a barn, but a barn
+nonetheless—would you feel 100% certain that everything would work
+properly when you turned the ignition? Oh, and don’t forget that your
+life may depend on it.  
+> The answer the Energy Department came up with was to harness computer
+simulations and experiments to evaluate the reliability—and extend the
+life spans of—America’s nuclear weapons. The most vexing dilemma was
+assessing plutonium, an element only discovered 80 years ago. To find
+out how it ages, Los Alamos ran experiments in the early 2000s that
+found plutonium pits changed over the years in ways that could impact
+weapons’ performance. But the studies couldn’t provide specifics on
+when exactly plutonium aged out.
+
+*—W. J. Hennigan, [“In the Lab Oppenheimer Built, the U.S. Is Building Nuclear Bomb Cores Again”](https://time.com/6296743/los-alamos-lab-plutonium-pits-nuclear-weapons/), 2023*
+
 There are some counterarguments to restarting the testing:
 
 1. __Tests as cover for attack__: More tests would mean that countries
@@ -2343,6 +2365,8 @@ which always feels hollow without the math).
 * [Imagining Data Without Division (Thomas Lin, 2013)](https://www.quantamagazine.org/in-big-science-imagining-data-without-division-20130930/)
 * [The Secret Language of Plants (Kat McGowan, 2013)](https://www.quantamagazine.org/the-secret-language-of-plants-20131216/)
 * [In Natural Networks, Strength in Loops (Emily Singer, 2013)](https://quantamagazine.org/in-natural-networks-strength-in-loops-20130814/)
+
+### 2014
 
 Ordering Outgoing *and* Incoming Edges in Dot
 ----------------------------------------------

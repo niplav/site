@@ -45,7 +45,25 @@ def lo_precision_scores(forecasts, samples=100, low=10e-4, high=10, change=2, mo
 			p=p+change
 	return np.array(deg_scores).T
 
-def lo_find_precision(forecasts, samples=100, low=10e-4, high=10, change=2, mindiff=0.01, mode='round', stepmode='exp'):
+def prob_rounded_score(forecasts, perturbation=0.1):
+	p=forecasts[1]
+	rounded_probs=perturbation*np.round(p/perturbation)
+	rounded_probs[np.where(rounded_probs>=1)]=1-perturbation
+	rounded_probs[np.where(rounded_probs<=0)]=perturbation
+	return np.mean(logscore(forecasts[0], rounded_probs))
+
+def prob_precision_scores(forecasts, samples=100, low=10e-4, high=0.5, change=0.01, stepmode='lin'):
+	p=low
+	deg_scores=[]
+	while p<high:
+		deg_scores=deg_scores+[[p, prob_rounded_score(forecasts, perturbation=p)]]
+		if stepmode=='exp':
+			p=p*change
+		elif stepmode=='lin':
+			p=p+change
+	return np.array(deg_scores).T
+
+def linsearch_precision(forecasts, samples=100, low=10e-4, high=10, change=2, mindiff=0.01, mode='round', stepmode='exp'):
 	clean_score=pert_score=np.mean(logscore(forecasts[0], forecasts[1]))
 	p=low
 	while np.abs(clean_score-pert_score)<mindiff and p<high:
@@ -59,24 +77,19 @@ def lo_find_precision(forecasts, samples=100, low=10e-4, high=10, change=2, mind
 			p=p+change
 	return p
 
-def prob_rounded_score(forecasts, perturbation=0.1):
-	p=forecasts[1]
-	rounded_probs=perturbation*np.round(p/perturbation)
-	rounded_probs[np.where(rounded_probs>=1)]=1-perturbation
-	rounded_probs[np.where(rounded_probs<=0)]=perturbation
-	return np.mean(logscore(forecasts[0], rounded_probs))
-
-def prob_precision_scores(forecasts, samples=100, low=10e-4, high=0.5, change=0.01, stepmode='lin'):
-	p=low
-	deg_scores=[]
-	while p<high:
-		deg_scores=deg_scores+[[p, prob_rounded_score(forecasts, perturbation=p)]]
-
-		if stepmode=='exp':
-			p=p*change
-		elif stepmode=='lin':
-			p=p+change
-	return np.array(deg_scores).T
+def binsearch_precision(forecasts, samples=100, low=10e-4, high=10, mindiff=0.01, mode='round', minstep=10e-4):
+	clean_score=np.mean(logscore(forecasts[0], forecasts[1]))
+	while high-low>minstep:
+		mid=(high+low)/2
+		if mode=='round':
+			pert_score=logodds_rounded_score(forecasts, perturbation=mid)
+		elif mode=='noise':
+			pert_score=noised_score(forecasts, perturbation=mid, samples=samples)
+		if np.abs(clean_score-pert_score)<mindiff:
+			low=mid
+		else:
+			high=mid
+	return mid
 
 d1=np.array([[1,0.8],[0,0.4],[0,0.65],[1,0.99]]).T
 oc=d1[0]

@@ -11,8 +11,8 @@ resulting algorithm.__
 Generalizing the Diamond-Square Algorithm to n Dimensions
 =========================================================
 
-> Libre de la metáfora y del mito
-labra un arduo cristal: el infinito
+> Libre de la metáfora y del mito  
+labra un arduo cristal: el infinito  
 mapa de Aquel que es todas Sus estrellas.
 
 *— [Jorge Luis Borges](https://en.wikipedia.org/wiki/Jorge_Luis_Borges), [“Spinoza”](https://thefunambulist.net/literature/litterature-spinoza-by-borges), 1964*

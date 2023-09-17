@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-09-05, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-09-15, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,12 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Risks from Atomically Precise Manufacturing (Open Philanthropy, 2015)](https://www.openphilanthropy.org/research/atomically-precise-manufacturing/)
+* [An Overview of Deep Learning for Curious People (Lilian Weng, 2017)](https://lilianweng.github.io/posts/2017-06-21-overview/)
+* [In the Lab Oppenheimer Built, the U.S. Is Building Nuclear Bomb Cores Again (W. J. Hennigan, 2023)](https://time.com/6296743/los-alamos-lab-plutonium-pits-nuclear-weapons/)
+* [Book Review: Elon Musk (Scott Alexander, 2023)](https://www.astralcodexten.com/p/book-review-elon-musk)
+* [Contra Yudkowsky on Epistemic Conduct for Author Criticism (Zack M. Davis, 2023)](https://www.lesswrong.com/posts/pkaagE6LAsGummWNv/contra-yudkowsky-on-epistemic-conduct-for-author-criticism)
+* [Adapting Land Value Taxation to Space (Sam Harsimony, 2023)](https://splittinginfinity.substack.com/p/adapting-land-value-taxation-to-space)
 * [How to Measure Capacity for Welfare and Moral Status (Jason Schukraft, 2020)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/XG86pCgqTweFsQyrd)
 * [Proper scoring rules don’t guarantee predicting fixed points (Caspar Oesterheld/Johannes Treutlein/Rubi J. Hudson, 2022)](https://www.lesswrong.com/posts/Aufg88v7mQ2RuEXkS/proper-scoring-rules-don-t-guarantee-predicting-fixed-points)
 * A Case Study of Low-Intensity Focused Ultrasound For Treatment-Resistant Generalized Anxiety Disorder and Major Depressive Disorder (Maggie Zielinski/Kennedy Mahdavi/Sheldon Jordan/Jonathan Haroon/Barshen Habelhah/Sergio beccera/Norman Spivak/Taylor Kuhn/Alexander Bystrisky, 2021)
@@ -803,7 +809,7 @@ Fatb/infra-bayesian-physicalism-a-formal-theory-of-naturalized)
 * [A Philosophy of Education (Zack M. Davis, 2012)](http://zackmdavis.net/blog/2012/12/a-philosophy-of-education/)
 * [Tyler Cowen’s three laws (Tyler Cowen, 2015)](https://marginalrevolution.com/marginalrevolution/2015/04/tyler-cowens-three-laws.html)
 * Torero Travels (Tom Torero, 2014)
-* \* Starting Strength (Lon Kilgore/Mark Rippetoe, 2007)
+* Starting Strength (Lon Kilgore/Mark Rippetoe, 2007)
 * [Creatine (Antonis Damianou, 2022)](https://examine.com/supplements/creatine/)
 * [MYSTERIOUS MYSTERIES OF UNSOLVED MYSTERY: Call for Entries (slimemoldtimemold, 2023)](https://slimemoldtimemold.com/2023/01/01/mysterious-mysteries-of-unsolved-mystery-call-for-entries/)
 * [Even More Bay Area House Party (Scott Alexander, 2023)](https://astralcodexten.substack.com/p/even-more-bay-area-house-party)

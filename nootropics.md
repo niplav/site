@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2023-08-12, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2023-01-06, modified: 2023-09-16, language: english, status: notes, importance: 3, confidence: log*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
 decided to log my nootropics usage and its effects.__
@@ -496,17 +496,17 @@ collected via EEG and indicates statistically significantly more alpha
 waves during meditation (although it is unclear how long the meditation
 was).
 
-This paper is probably bad, but I don't want it to be bad. The english
-is so horrendous it feels like I'm having a stroke while I'm reading it,
-but that would be fine if they were good at reporting methods, which
-they are not (missing amounts of L-theanine and duration of meditation
-(they also mention reading earlier in the article, which I assumed
-was the control activity, but it doesn't come up again?)). Also they
-report differences between scores, not effect sizes, and some figures
-are screenshotted images from a Windows Vista clustering application.
+This paper is bad. The english is so horrendous it feels like I'm having
+a stroke while I'm reading it, but that would be fine if they were good
+at reporting methods, which they are not (missing amounts of L-theanine
+and duration of meditation, they also mention reading earlier in the
+article, which I assumed was the control activity, but it doesn't come
+up again?). Also they report differences between scores, not effect
+sizes, and some figures are screenshotted images from a Windows Vista
+clustering application.
 
-But [examine](https://examine.com/supplements/theanine/research/) agrees
-(if not on meditation specifically):
+[Examine](https://examine.com/supplements/theanine/research/) agrees on
+the cognitive effects of l-theanine (if not on meditation specifically):
 
 > L-Theanine supplementation in the standard dosages (50-250mg)
 has been repeatedly noted to increase α-waves in otherwise healthy
@@ -555,6 +555,7 @@ Notes during consumption:
 
 * 1st dose: Made a mistake while filling the envelopes, accidentally deblinded myself.
 * 19th dose: Took L-Theanine & did my routine, then took a nap and woke up 3 hours later.
+* 43rd dose: Woke up with "brain fog", meditation was dull & all over the place. Maybe because I'd been drying laundry in my room during the night? Also took nicotine later the day to kickstart some work on a project that needed to be finished.
 
 Melatonin
 ----------
