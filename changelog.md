@@ -21,6 +21,18 @@ with fecundity.
 September 2023
 ---------------
 
+* [Notes](./notes.html)
+	* [Ordering Outgoing *and* Incoming Edges in Dot](./notes.html#None_1)
+
+### Links
+
+* [Core Transformation (Romeo Stevens, 2019)](https://neuroticgradientdescent.blogspot.com/2019/07/core-transformation.html)
+* [What should Julia users know about? (Muireall Prase, 2022)](https://muireall.space/julians-should-know/)
+* [Implications of evidential cooperation in large worlds (Lukas Finnveden, 2023)](https://forum.effectivealtruism.org/posts/WYsLjeJzh7tZqe6Lo/implications-of-evidential-cooperation-in-large-worlds): Glad people at OpenPhil are thinking about this.
+* [Proper scoring rules don’t guarantee predicting fixed points (Caspar Oesterheld/Johannes Treutlein/Rubi J. Hudson, 2022)](https://www.lesswrong.com/posts/Aufg88v7mQ2RuEXkS/proper-scoring-rules-don-t-guarantee-predicting-fixed-points)
+* [Adapting Land Value Taxation to Space (Sam Harsimony, 2023)](https://splittinginfinity.substack.com/p/adapting-land-value-taxation-to-space)
+* [In the Lab Oppenheimer Built, the U.S. Is Building Nuclear Bomb Cores Again (W. J. Hennigan, 2023)](https://time.com/6296743/los-alamos-lab-plutonium-pits-nuclear-weapons/)
+
 August 2023
 ------------
 

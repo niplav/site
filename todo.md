@@ -390,6 +390,7 @@ Texts
 	* <https://www.theguardian.com/lifeandstyle/video/2021/jun/29/hacking-enlightenment-can-ultrasound-help-you-transcend-reality?CMP=twt_b-gdnvideo>
 	* <https://www.wired.co.uk/article/consciousness-hacking-silicon-valley-enlightenment-brain>
 	* maybe <https://www.vielight.com/>
+* Guided Meditations Are Not to be Overdone
 
 ### Quantified Self
 
@@ -454,7 +455,9 @@ Texts
 	* Vitamin D
 	* Vitamin C?
 	* Take inspiration from [Gwern](https://www.gwern.net/Nootropics), of course
-* Accutane literature review
+* (Ro)accutane literature review
+* Air with more O₂/less CO₂ content experiment
+	* <https://twitter.com/benwr/status/1706054091281412584>
 
 ### Arguments
 

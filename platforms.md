@@ -62,8 +62,8 @@ while resolving the others as ambiguous.
 ### Timeline
 
 If the markets receive enough liquidity, I'll start the first experiment
-mid november, and the second one early next year, hopefully sometime
-in february.
+mid November, and the second one early next year, hopefully sometime
+in February.
 
 Markets
 --------

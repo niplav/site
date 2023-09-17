@@ -459,6 +459,7 @@ Missing Emojis
 * Suspicious squint
 * Erlenmeyer flask
 * Red star
+* Grass
 
 Daygame
 --------

@@ -313,7 +313,7 @@ bound on a `$σ$` which is "too much"), but shines by virtue of being
 bog-simple and easy to implement. A more sophisticated method can use
 binary search to zero in on a `$σ$` that *just* crosses the threshold.
 
-	def lo_find_precision(forecasts, samples=100, low=10e-4, high=10, change=1.05, mindiff=0.01, mode='round'):
+	def linsearch_precision(forecasts, samples=100, low=10e-4, high=10, change=1.05, mindiff=0.01, mode='round'):
 		clean_score=pert_score=np.mean(logscore(forecasts[0], forecasts[1]))
 		p=low
 		while np.abs(clean_score-pert_score)<mindiff and p<high:
@@ -326,36 +326,111 @@ binary search to zero in on a `$σ$` that *just* crosses the threshold.
 
 Unfortunately, this method doesn't really give reliable results for small sample sizes:
 
-	>>> lo_find_precision(d1, change=1.05, mode='noise', samples=500)
-	1.2406168179333095
-	>>> lo_find_precision(d1, change=1.05, mode='noise', samples=500)
-	1.1815398266031518
-	>>> lo_find_precision(d1, change=1.05, mode='noise', samples=500)
-	1.1815398266031518
-	>>> lo_find_precision(d1, change=1.05, mode='noise', samples=500)
-	1.0716914527012713
-	>>> lo_find_precision(d1, change=1.05, mode='noise', samples=500)
-	1.2406168179333095
-	>>> lo_find_precision(d1, change=1.05, mode='noise', samples=500)
-	1.125276025336335
+	>>> precisions_1=[linsearch_precision(d1, change=1.05, mode='noise', samples=1000) for i in range(0, 5)]
+	>>> precisions_1
+	[1.2406168179333095, 1.302647658829975, 1.1815398266031518, 1.302647658829975, 1.302647658829975]
+	>>> np.mean(precisions_1)
+	1.2660199242052772
+	>>> np.var(precisions_1)
+	0.002361395506068271
+	>>> precisions_6=[linsearch_precision(d6, change=1.05, mode='noise', samples=200) for i in range(0, 5)]
+	>>> precisions_6
+	[1.302647658829975, 1.302647658829975, 1.302647658829975, 1.302647658829975, 1.302647658829975]
+	>>> np.mean(precisions_6)
+	1.302647658829975
+	>>> np.var(precisions_6)
+	0.0
 
-But this *does* tell us that `$ᚠ(d1)\approx 1.15$` bits.
+It seems like smaller datasets need higher sample sizes to adequately
+assess the precision using noise-based methods.
+
+But this *does* tell us that `$ᚠ(d1)\approx 1.2$` bits, and
+`$ᚠ(d1)\approx 1.3$` bits.
 
 #### Binary Search
 
 The code can be changed to be faster, using [binary
-search](https://en.wikipedia.org/wiki/Binary_search) (rewriting the code
-to be [noisy binary search](https://en.wikipedia.org/wiki/Binary_search),
+search](https://en.wikipedia.org/wiki/Binary_search):
+
+	def binsearch_precision(forecasts, samples=100, low=10e-4, high=10, mindiff=0.01, mode='round', minstep=10e-4):
+		clean_score=np.mean(logscore(forecasts[0], forecasts[1]))
+		while high-low>minstep:
+			mid=(high+low)/2
+			if mode=='round':
+				pert_score=logodds_rounded_score(forecasts, perturbation=mid)
+			elif mode=='noise':
+				pert_score=noised_score(forecasts, perturbation=mid, samples=samples)
+			if np.abs(clean_score-pert_score)<mindiff:
+				low=mid
+			else:
+				high=mid
+		return mid
+
+We can take advantage of the fact that we're not dealing the the indices
+of arrays here, so one can just divide by two as desired.
+
+	>>> bin_precisions_1=[binsearch_precision(d1, mode='noise', samples=1000) for i in range(0, 5)]
+	>>> bin_precisions_1
+	[1.2002208862304686, 1.2612499389648437, 1.2685734252929686, 1.3686610717773438, 1.2136472778320313]
+	>>> np.var(bin_precisions_1)
+	0.0035147788876175893
+	>>> bin_precisions_6=[binsearch_precision(d6, mode='noise', samples=200) for i in range(0, 5)]
+	>>> bin_precisions_6
+	[1.1916768188476563, 1.2160884399414063, 1.2173090209960937, 1.2124266967773438, 1.207544372558594]
+	>>> np.mean(bin_precisions_6)
+	1.2090090698242189
+	>>> np.var(bin_precisions_6)
+	8.664782133936837e-05
+
+Now we can check whether the two methods give the ~same results:
+
+	>>> np.mean(precisions_1)
+	1.2660199242052772
+	>>> np.mean(bin_precisions_1)
+	1.2624705200195312
+	>>> np.mean(precisions_6)
+	1.302647658829975
+	>>> np.mean(bin_precisions_6)
+	1.2090090698242189
+
+I suspect that this is simply a problem of small sample sizes, though:
+Increasing the sample sizes by 5× doesn't change problem at all:
+
+	>>> bin_precisions_6=[binsearch_precision(d6, mode='noise', samples=500) for i in
+	range(0, 10)]
+	>>> np.mean(bin_precisions_6)
+	1.2027841064453124
+
+I'm kind of puzzled at this result, and not sure what to make of it. Maybe
+binary search biases the results downwards, while exponential
+search biases them upwards? We can check by changing the stepsize to linear:
+
+	>>> precisions_6=[linsearch_precision(d6, change=0.01, mode='noise', stepmode='lin', samples=200) for i in range(0, 5)]
+	>>> precisions_6
+	[1.2010000000000007, 1.2110000000000007, 1.2110000000000007, 1.2010000000000007, 1.2210000000000008]
+	>>> np.mean(precisions_6)
+	1.209000000000001
+	>>> np.var(precisions_6)
+	5.60000000000001e-05
+
+This, prima facie, resolves our dilemma, and indicates that linear
+steps are better than exponential steps, and if speed is a problem,
+then binary search is better.
+
+Rewriting the code
+to use [noisy binary search](https://en.wikipedia.org/wiki/Binary_search),
 since the comparisons of scores are not reliable, might be a cool
-project<!--TODO-->):
+project<!--TODO-->.
+
+<!--TODO:
 
 ##### Binary Search With Noise
-
-<!--TODO-->
 
 #### Perturbation Parameter-Dependent Divergence Finding
 
 Divergence point needs to depend on the perturbance parameter.
+
+-->
 
 ----
 
@@ -366,6 +441,22 @@ doing so, nor is there a mathematical framework for this.
 
 Precision of Forecasting Datasets
 ----------------------------------
+
+Equipped with some shaky heuristics about forecasting precision, one
+can now try to estimate the precision of different forecasting datasets
+(especially interesting should be comparing different platforms).
+
+I will be doing so using the library [iqisa](./iqisa.html).
+
+	import numpy as np
+	import iqisa as iqs
+	import iqisa.gjp as gjp
+
+	market_fcasts=gjp.load_markets()
+	survey_fcasts=gjp.load_surveys()
+	d_gjpmarket=np.vstack((np.int64(market_fcasts['answer_option']==market_fcasts['outcome']), market_fcasts['probability']))
+
+<!--TODO: remove nans from the datasets-->
 
 Usage
 ------
