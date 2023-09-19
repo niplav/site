@@ -2632,3 +2632,10 @@ seem to be quite bad at, by and large.
 > Near-term is more predictable and hence conclusions are more likely to be true, but far futures may be more entertaining since more extreme things are possible.
 
 *—Anders Sandberg, “Grand Futures” p. 32, 2023*
+
+> Two main indicators of forecasting ease are the forecast's size and time
+horizon. More extreme probability estimates reflect greater certainty,
+which may correlate with easier questions. Nearer-term events may also
+be easier for analysts to predict.
+
+*—Barbara A. Mellers et al., “The Value of Precision in Probability Assessment: Evidence from a Large-Scale Geopolitical Forecasting Tournament” p. 7, 2018*

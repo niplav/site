@@ -1,18 +1,19 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-02-04, modified: 2023-06-12, language: english, status: notes, importance: 4, confidence: likely*
+*author: niplav, created: 2022-02-04, modified: 2023-09-19, language: english, status: finished, importance: 4, confidence: possible*
 
 > __I discuss proposals for a method that estimates how much predictive
 information additional degrees of precision in forecasts add and at which
 point additional precision is just noise, and investigate these proposals
 with empirical forecasting data. I furthermore describe desirable criteria
 such functions ought to fulfill. I conclude that methods based on rounding
-probabilities are hot flaming garbage, methods based on rounding odds
-or log-odds are regular garbage, and methods based on applying noise to
-probabilities are ok but slow.__
+probabilities are hot flaming garbage, methods based on [rounding odds
+or log-odds](#LogOdds_Rounding) are [regular garbage](#Problems), and
+methods based on [applying noise to log-odds](#Noise_in_LogOdds_Space)
+are [ok but sort of slow](#Advantages_and_Problems). Finding the [maximal
+informative precision](#Finding_Divergence) turns out to be tricky.__
 
-<!--https://nitter.net/tenthkrige/status/1412457737380839432-->
 <!--https://stanford.edu/~knutson/nfc/mellers15.pdf-->
 <!--https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/D9FAZL-->
 
@@ -21,19 +22,19 @@ Precision of Sets of Forecasts
 
 #### Epistemic Status
 
-Likely not just reinventing the wheel, but the whole bicycle.
+Maybe not just reinventing the wheel, but the whole bicycle.
 
 ------------
 
 Say we have a set of resolved forecasts and can display them on a
 calibration plot.
 
-We can grade the forecasts according to some proper scoring rule,
+We can grade the forecasts according to some [proper scoring
+rule](./doc/prediction/calibration_scoring_rules_for_practical_prediction_training_greenberg_2018.pdf),
 e.g. the [Brier score](https://en.wikipedia.org/wiki/Brier_score)
 or the [logarithmic scoring
 rule](https://en.wikipedia.org/wiki/Scoring_rule#Logarithmic_scoring_rule),
-perhaps broken up by calibration and resolution<!--TODO: links and/or
-citation-->.
+maybe even broken up by calibration and resolution.
 
 But we can also ask the question: how fine-grained are the predictions of
 our forecaster? I.e., at which level of precision can we assume that
@@ -57,7 +58,7 @@ they had spent much more time on their forecasts than they actually had
 that there was something epistemically sketchy going on). It is certainly
 useful to use [probability resilience, and not imprecision, to communicate
 uncertainty](https://forum.effectivealtruism.org/s/dg852CXinRkieekxZ/p/m65R6pAAvd99BNEZL),
-but not but there is an adequate & finite limit to precision.
+but there is an adequate & finite limit to precision.
 
 I believe something similar is going on when people encounter
 others putting probabilities on claims: It appears like an
@@ -92,21 +93,25 @@ forecasts and produces a real number `$ᚠ: ((0;1),\{0,1\})^n \rightarrow \mathb
 so for example `$ᚠ(D)=0.2$` for the forecasts and outcomes `$D$`
 of some forecaster, or team of forecasters.
 
+We call `$ᚠ$`  the **precision function**.
+
 ### Bits, Not Probabilities, for Precision
 
-It is natural to assume that `$ᚠ$` is a *probability*:
+It is natural to assume that `$ᚠ$` returns a *probability*:
 after all, the input dataset has probabilities, and
 when talking about [Omar's](#Overprecise_Omar) [calibration
 plot](https://en.wikipedia.org/wiki/Probabilistic_classification#Probability_calibration)
 I was explicitely calling out the loss of accuracy in probability
 intervals shorter than 0.1.
 
-Furthermore, Tetlock et al. 2018<!--TODO: read & link their precision
-paper--> also talk about precision in terms of probabilities, we are
-all used to probabilities, probabilities are *friends*.
+Furthermore, [Friedman et al.
+2018](./doc/prediction/the_value_of_precision_in_probability_assessment_friedman_et_al_2018.pdf)
+also talk about precision in terms of probabilities (or rather "bins
+of probabilities"), we are all used to probabilities, probabilities
+are *friends*.
 
-But this doesn't stand up to scrutiny: If we accept this,
-assuming we use probability buckets of size 5%, then 99.99999%
+But this doesn't stand up to scrutiny: If we accept this, assuming
+we use probability "bins" or "buckets" of size 5%, then 99.99999%
 and 96% are as similar to each other as 51% and 54.99999%. But the
 readers familiar with the formulation of probability in [log-odds
 form](https://en.wikipedia.org/wiki/Logit) will surely balk at this
@@ -114,21 +119,25 @@ equivalence: 99.99999% is a beast of a probability, an invocation only
 uttered in situations of extreme certainty, while 96%, 51% and 54.99999%
 (modulo false precision) are everyday probabilities, plebeian even.
 
-However, in terms of *precision*, 54.99999% stands out
-like a sore thumb: while 99.99999% is supremely confident,
+And, in terms of *precision*, 54.99999% stands out like
+a sore thumb: while 99.99999% is supremely confident,
 it is not *overprecise*, since rounding up to 100% [would be
 foolish](https://www.lesswrong.com/posts/QGkYCwyC7wTDyt3yT/0-and-1-are-not-probabilities);
 but with 54.99999%, there is no good reason we can't just round to 55%.
 
-So precision should be calculated in log-odds space, where one moves in
+So precision should not be investigated on probabilities. Instead I
+claim that it should be calculated in log-odds space (which has an
+advantage over the odds form by being symmetric), where one moves in
 bits instead of probabilities. Since we want to make a statement how
 much we can move the probabilities around until the [proper scoring
 rule](https://en.wikipedia.org/wiki/Scoring_rule) we apply starts
 giving worse results, it is only natural to express the precision in
 bits as well. (Which can't be converted linearly into probabilities:
-moving from 50% to 75% is one bit, but similarly moving from ~99.954%
-to ~99.977% is also a change of one bit).<!--TODO: check whether example
-is actually correct-->
+moving from 50% to 75% or from 80% to 40% is one bit, but similarly
+moving from ~99.954% to ~99.977% is also a change of one bit). Instead
+one uses the [logit function](https://en.wikipedia.org/wiki/Logit),
+and the [logistic function](https://en.wikipedia.org/wiki/Logistic_function)
+to return to probabilities.
 
 Algorithms!
 ------------
@@ -141,11 +150,11 @@ These algorithms follow a common pattern:
 0. Input: a dataset `$D$` of forecasts and resolutions.
 1. Set a perturbation parameter `$σ$` to a minimum value.
 2. Repeat:
-	1. Potentially do *something* with the probabilities
-	2. Perturb the probabilities, using `$σ$` as a parameter for the perturbation function `$ఐ: ((0,1),\{0,1\})^n \times ℝ \rightarrow ((0,1),\{0,1\})^n$` so that `$D'=ఐ(D, σ)$`.
-	3. Potentially reverse the things done in step 1.
+	1. Potentially do *something* with the probabilities, for example by moving to log-odds.
+	2. Perturb the result, using `$σ$` as a parameter for the **perturbation function** `$ఐ: ((0,1),\{0,1\})^n \times ℝ \rightarrow ((0,1),\{0,1\})^n$` so that `$D'=ఐ(D, σ)$`.
+	3. Reverse the things done in step 1 (if necessary).
 	4. Calculate the score of `$D'$`.
-	5. If the perturbed score is significantly worse than the unperturbed score, then `$σ$` is the correct level of precision, stop.
+	5. If the perturbed score is significantly worse than the unperturbed score, then `$σ$` is the correct level of precision, stop. This is the output of `$ᚠ(D)$`.
 	6. Else increase `$σ$`.
 
 ### Log-Odds Rounding
@@ -218,12 +227,16 @@ forecast with probability `$p=0.75$` and the outcome `$o=1$`. Without
 rounding, this has a log-score of ~-0.29. Setting `$σ=0.3$` and rounding
 in log-odds space and transforming back gives `$p_r \approx 0.77$`, with
 an improved log-score of ~-0.26. When one sees the weird zig-zag pattern
-for log-score, I believe that *this* is the reason. This is likely
-only an issue in smaller datasets: In larger ones, these individual
-random improving/worsening effects cancel each other out, and one can
-see the underlying trend of worsening (as is already visible with the
-purple plot for n=2000, and to a lesser extent brown & orange). Still,
-I count this as a major problem with rounding-based methods.
+for log-score, I believe that *this* is the reason. This is likely only
+an issue in smaller datasets: In larger ones, these individual random
+improving/worsening effects cancel each other out, and one can see the
+underlying trend of worsening (as is already visible with the purple
+plot for n=2000, and to a lesser extent brown & orange). Still, I count
+this as a major problem with rounding-based methods. [Friedman et al.
+2018](./doc/prediction/the_value_of_precision_in_probability_assessment_friedman_et_al_2018.pdf)
+note the same: "Coarsening probability estimates could actually *improve*
+predictive accuracy if this prevents foreign policy analysts from making
+their judgments too extreme".
 
 2. Rounding very strongly rounds everything to 50%, so with strong
 enough rounding *every* dataset has the same score. This has some
@@ -242,16 +255,18 @@ That said, the method has one big advantage: It is quite fast, running
 
 ### Noise in Log-Odds Space
 
-But one can also examine a different paradigm: applying noise to
+But one can also examine a different paradigm: Applying noise to
 the predictions. In our [framework](#Algorithms), this is concretely
 operationalized by repeatedly (`$s$` times) projecting the probabilities
 into log-odds space, applying some noise with width `$σ$` to them,
 and then calculating the resulting probabilities and scoring them,
 finally taking the mean of the scores.
 
-There are some free parameters here, especially around the exact type
-of noise to use (normal? beta? uniform?), as well as the number `$s$`
-of samples.
+There are some free parameters here, especially around the exact type of
+noise to use ([normal](https://en.wikipedia.org/wiki/Normal_distribution)?
+[beta](https://en.wikipedia.org/wiki/Beta_distribution)?
+[uniform](https://en.wikipedia.org/wiki/Continuous_uniform_distribution)?),
+as well as the number `$s$` of samples.
 
 I have decided to use uniform noise, but for no special mathematical
 reason, and adjust the number of samples by the size of the dataset
@@ -289,20 +304,19 @@ This can be seen when comparing increasing perturbation with the
 The disadvantage lies in the runtime: Taking many samples makes the
 method slow, but a small number of samples is too noisy to reliably
 detect when the the quality of forecasts starts dropping off. I think
-this is less of a problem with bigger datasets, but in the worst case
-I'd have to do a bunch of numpy-magic to optimize this further (or
-rewrite the code in a faster programming language, with a prototype in C
+this is less of a problem with bigger datasets, but in the worst
+case I'd have to do a bunch of numpy-magic to optimize this further
+(or rewrite the code in a faster programming language, prototype in C
 [here](./code/precision/precision.c)).
 
 ### Finding Divergence
 
 If the unperturbed dataset `$D$` has a score `$r=S(D)$`, then we also need
-to find a value for `$σ$` with `$D'=ఐ(D, σ)$` so that `$r'=S(D')\not
-\approx r$`, perhaps even `$r'<r$` (in the case of scoring rules where
-lower scores are worse) or even that for all positive `$δ \in ℝ$`
-and `$D''=ఐ(D, σ+δ)$` it holds that `$r''=S(D'')<r'$`. That is,
-as we increase the perturbation more and more, the score becomes worse
-and worse.
+to find a value for `$σ$` with `$D'=ఐ(D, σ)$` so that `$r'=S(D')\not \approx r$`,
+with `$r'<r$` (in the case of scoring rules where lower scores are worse)
+or even that for all positive `$δ \in ℝ$` and `$D''=ఐ(D, σ+δ)$`
+it holds that `$r''=S(D'')<r'$`. That is, as we increase the perturbation
+more and more, the score becomes worse and worse.
 
 The easiest way to do this is to iterate through values for `$σ$`,
 and once the difference between `$r$` and `$r'$` is too big, return the
@@ -417,10 +431,25 @@ This, prima facie, resolves our dilemma, and indicates that linear
 steps are better than exponential steps, and if speed is a problem,
 then binary search is better.
 
+#### More Ideas
+
 Rewriting the code
 to use [noisy binary search](https://en.wikipedia.org/wiki/Binary_search),
 since the comparisons of scores are not reliable, might be a cool
 project<!--TODO-->.
+
+But perhaps the entire idea of using a fixed value for divergence
+is flawed? The divergence point needs to depend on the perturbance
+parameter. I think I should instead assume there is a perfectly
+calibrated, infinitely big dataset `$D^{\star}$`. How much does its
+score drop if we perturb by `$σ$`? If `$D$`, perturbed, drops by half
+(or whatever) as much as the score of `$D^{\star}$` then we have found
+our point.
+
+A more sophisticated technique could try to estimate the  [elbow
+point](https://en.wikipedia.org/wiki/Knee_of_a_curve) of the declining
+curve of scores, but as far as I know there is no reliable method for
+doing so, nor is there a mathematical framework for this.
 
 <!--TODO:
 
@@ -428,16 +457,7 @@ project<!--TODO-->.
 
 #### Perturbation Parameter-Dependent Divergence Finding
 
-Divergence point needs to depend on the perturbance parameter.
-
 -->
-
-----
-
-A more sophisticated technique could try to estimate the  [elbow
-point](https://en.wikipedia.org/wiki/Knee_of_a_curve) of the declining
-curve of scores, but as far as I know there is no reliable method for
-doing so, nor is there a mathematical framework for this.
 
 Precision of Forecasting Datasets
 ----------------------------------
@@ -449,36 +469,116 @@ can now try to estimate the precision of different forecasting datasets
 I will be doing so using the library [iqisa](./iqisa.html).
 
 	import numpy as np
+	import pandas as pd
 	import iqisa as iqs
 	import iqisa.gjp as gjp
 
-	market_fcasts=gjp.load_markets()
-	survey_fcasts=gjp.load_surveys()
-	d_gjpmarket=np.vstack((np.int64(market_fcasts['answer_option']==market_fcasts['outcome']), market_fcasts['probability']))
+	gjpmarket_fcasts=gjp.load_markets()
+	gjpsurvey_fcasts=gjp.load_surveys()
+	gjpmarket=gjpmarket_fcasts[['probability', 'answer_option', 'outcome']].dropna()
+	gjpsurvey=gjpsurvey_fcasts[['probability', 'answer_option', 'outcome']].dropna()
+	gjpmarket=np.array([np.int64(gjpmarket['answer_option']==gjpmarket['outcome']), gjpmarket['probability']])
+	gjpsurvey=np.array([np.int64(gjpsurvey['answer_option']==gjpsurvey['outcome']), gjpsurvey['probability']])
 
-<!--TODO: remove nans from the datasets-->
+Now we can use the algorithms for estimating precision on the dataset:
+
+	import algorithms as prc
+
+	>>> prc.binsearch_precision(gjpsurvey, mode='noise', samples=10)
+	1.5017044067382812
+	>>> prc.binsearch_precision(gjpmarket, mode='noise', samples=10)
+	1.279558654785156
+
+Apparently the markets were more precise than the survey
+forecasts. Interesting. Now let's see <strike>Paul Allen's</strike>
+*Metaculus'* precision.
+
+	import iqisa.metaculus as metaculus
+	metaculus_fcasts=metaculus.load_public_binary()
+	met_fcasts=met_fcasts_fcasts[['probability', 'answer_option', 'outcome']].dropna()
+	met_fcasts=np.array([np.int64(met_fcasts['answer_option']==met_fcasts['outcome']), met_fcasts['probability']])
+
+	>>> prc.binsearch_precision(met_fcasts, mode='noise', samples=10)
+	1.1941179809570313
+
+Harsh words from Metaculus here… the precision is *higher* here, to be
+clear: The smallest perturbation for which the score becomes noticeably
+worse is smaller.
+
+Same with PredictionBook:
+
+	import iqisa.predictionbook as predictionbook
+	pred_fcasts=predictionbook.load()
+	pred_fcasts=pred_fcasts[['probability', 'answer_option', 'outcome']].dropna()
+	pred_fcasts=np.array([np.int64(pred_fcasts['answer_option']==pred_fcasts['outcome']), pred_fcasts['probability']])
+
+	>>> prc.binsearch_precision(pred_fcasts, mode='noise', samples=10)
+	1.3198378295898436
+
+The difference is quite small but noticeable, and the purple and the green
+plot overlap a bunch: Metaculus and PredictionBook aren't so different
+(?):
+
+![](./img/precision/platforms.png)
+
+The precision tracks the unperturbed score to a high degree. I'm not
+sure whether this is an airtight relation or just commonly the case,
+perhaps someone will look into this.
 
 Usage
 ------
 
 Given the precision of some forecaster or forecasting platform, one can
 much easier perform sensitivity analysis (especially after correcting
-for miscalibration).
+for miscalibration), as it allows to create a distribution over what a
+probability could reasonably mean, given some resolved past data from
+the same source.
+
+Knowing the precision of some source of forecasts can also be nice to
+stave off criticism of false precision: One can now answer "No, you're
+wrong: I'm being wholly correct at reporting my forecasts at 1.2 bits
+of precision!". Surely no incredulous stares with that.
+
+Conclusion
+-----------
+
+When evaluating the precision of a set of forecasts, all sources I know
+agree that perturbing the forecasts in some way and then observing how
+the forecasts worsen with more perturbation is the correct way to go
+about evaluating the precision of forecasts.
+
+However, the existing attempts are based on *rounding*: Moving
+probabilities, odds or log-odds that are close together to the same
+number.
+
+I believe that these approaches are not good: For small datasets they
+produce large oscillations in the score, not smooth declines, and they
+*improve* the scores of worse-than-random forecast datasets.
+
+Instead, a better way to estimate the precision is to apply noise to
+the forecasts and track how the score worsens. This has the advantage
+of producing monotonically declining scores.
+
+Testing the method of noising forecasts on real-world datasets shows
+that they have similar precisions.
 
 Appendix A: Conditions for a Precision Evaluation Function
 ------------------------------------------------------------
 
-Use precision `$ᚠ$` and noise `$ⴟ$`.
+Using a **precision function** `$ᚠ$`, **perturbation function** `$ఐ$`,
+**proper scoring rule** `$s$` and noise `$σ$`. These are very much me
+thinking out loud.
 
-1. If `$n=0$`, `$s(\emptyset, \mathcal{F})$` is undefined.
-2. If `$n=1$`, `$s(\mathbf{D}, \mathcal{F})=0$`: We are generally suspicious of any single forecast.
-	1. More generally, if `$\mathbf{D}$` contains an `$f_i$` so that there is no other prediction with a probability within `$[f_i-\frac{\mathcal{F}}{2}; f_i+\frac{\mathcal{F}}{2}]$`, then `$s(\mathbf{D}, \mathcal{F})=0$`. Yes, even if the set of forecasts is "dense" and non-random in other places.
-3. If `$n=2$`, then it should hold for an `$ε>0$` (but close to 0): `$s(((ε, 0), (1-ε, 1)), 1)=1$`, and `$s(((ε, 0), (1-ε, 1)), 0.5)=0$`.
-	1. More generally, if we have only zeros in the left half and ones in the right half, with `$n \rightarrow \infty$`, and a sufficiently small `$\frac{1}{n}>ε>0$`, it should hold that `$s(((ε,0),(2ε,0), \dots, (\lfloor \frac{n}{2} \rfloor ε, 0), (\lceil \frac{n}{2} \rceil ε, 1), \dots, (nε, 1)), \mathcal{F})$` is `$1$` for `$\mathcal{F}=1$` and `$0$` for `$\mathcal{F} \le 0.5$`.
-4. For a sufficiently large `$n \rightarrow \infty$`, and a sufficiently small `$\frac{1}{n}>ε>0$`, and `$r(p)$` being 1 with probability `$p$` and 0 with probability `$1-p$`, it should hold that `$s(((ε,r(ε)),(2ε,r(2ε)), \dots, (\lfloor \frac{n}{2} \rfloor ε, r(\lfloor \frac{n}{2} \rfloor ε)), (\lceil \frac{n}{2} \rceil ε, r(\lceil \frac{n}{2} \rceil ε)), \dots, (nε, r(nε))), \mathcal{F})=1$` for any `$\mathcal{F}$`: If we have lots of datapoints, all perfectly calibrated, the score is nearly 0 at all precisions.
-5. In expectation, if we sample every `$o_i$` uniformly from `$\{0, 1\}$` with replacement, `$s(\mathbf{D}, \mathcal{F})=0$`.
-6. With `$\mathcal{F}_1<\mathcal{F}_2$`, `$s(\mathbf{D}, \mathcal{F}_1) \le s(\mathbf{D}, \mathcal{F}_2)$` (smaller precision shouldn't lead to a greater score, since if you're uncalibrated at a precision of 10%, you're not going to be suddenly calibrated at a precision of 5%)
-	1. We can't just do this by multiplying the result with the precision, since that would violate condition 4
+1. **(Emptiness)** If `$n=0$`, `$ᚠ(\emptyset)$` is undefined.
+2. **(Loneliness)** If `$n=1$`, `$ᚠ(\mathbf{D})=1$`: We are generally suspicious of any single forecast.
+	1. More generally, if `$\mathbf{D}$` contains an `$f_i$` so that there is no other prediction with a probability within `$[f_i-\frac{σ}{2}; f_i+\frac{σ}{2}]$`, then `$ఐ(\mathbf{D}, σ)=s(D)$`. Yes, even if the set of forecasts is "dense" and non-random in other places.
+3. **(Edginess)** If `$n=2$`, then it should hold for an `$ε>0$` (but close to 0): `$ᚠ(((ε, 0), (1-ε, 1)))=1$`.
+	1. More generally, if we have only zeros in the left half and ones in the right half, with `$n \rightarrow \infty$`, and a sufficiently small `$\frac{1}{n}>ε>0$`, it should hold that `$ఐ(((ε,0),(2ε,0), \dots, (\lfloor \frac{n}{2} \rfloor ε, 0), (\lceil \frac{n}{2} \rceil ε, 1), \dots, (nε, 1)), σ)$` is `$0$` for `$σ=1$` and `$1$` for `$σ \le 0.5$`.
+4. **(Perfection)** For a sufficiently large `$n \rightarrow \infty$`, and a sufficiently small `$\frac{1}{n}>ε>0$`, and `$r(p)$` being 1 with probability `$p$` and 0 with probability `$1-p$`, it should hold that `$ᚠ(((ε,r(ε)),(2ε,r(2ε)), \dots, (\lfloor \frac{n}{2} \rfloor ε, r(\lfloor \frac{n}{2} \rfloor ε)), (\lceil \frac{n}{2} \rceil ε, r(\lceil \frac{n}{2} \rceil ε)), \dots, (nε, r(nε))))=0$`: If we have lots of datapoints, all perfectly calibrated, the score is nearly 0 at all precisions.
+5. **(Anti-Uniformity)** In expectation, if we sample every `$o_i$` uniformly from `$\{0, 1\}$` with replacement, `$ᚠ(\mathbf{D})=1$`.
+6. **(Monotonicity)** With `$σ_1<σ_2$`, `$ఐ(\mathbf{D}, σ_1) \le ఐ(\mathbf{D}, σ_2)$` (smaller precision shouldn't lead to a greater score, since if you're uncalibrated at a precision of 10%, you're not going to be suddenly calibrated at a precision of 5%).
+	1. We can't just do this by multiplying the result with the precision, since that would violate condition 4.
+	2. This gets violated if one uses a proper scoring rule that is always negative, but if we flip the score this can still trivially hold.
 
 But what should be done about a calibration plot that looks like this?
 

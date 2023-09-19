@@ -1260,6 +1260,7 @@ Game. Even those odds likely overstate the number of Players in the world.
 * CronoDAS
 * Eli Tyre
 * /u/--MCMC--
+* Jay Sanguinetti
 
 ### Fiction
 

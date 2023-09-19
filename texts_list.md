@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-09-15, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-09-18, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,31 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [A New Physics Theory of Life (Natalie Wolchover, 2014)](https://www.quantamagazine.org/a-new-thermodynamics-theory-of-the-origin-of-life-20140122/)
+* [Scheduled procrastination (Brian Hayes, 2006)](http://bit-player.org/2006/scheduled-procrastination)
+* [Haµte cuisine (Brian Hayes, 2006)](http://bit-player.org/2006/hate-cuisine)
+* [The figure in the flagstone (Brian Hayes, 2006)](http://bit-player.org/2006/the-figure-in-the-flagstone)
+* [Beach reading (Brian Hayes, 2006)](http://bit-player.org/2006/beach-reading)
+* [Empty-niche syndrome (Brian Hayes, 2006)](http://bit-player.org/2006/empty-niche-syndrome)
+* [Errors acummulate (Brian Hayes, 2006)](http://bit-player.org/2006/errors-acummulate)
+* [Friday Night Smackdown (Brian Hayes, 2006)](http://bit-player.org/2006/friday-night-smackdown)
+* [Sudoku dans la Belle Époque (Brian Hayes, 2006)](http://bit-player.org/2006/sudoku-dans-la-belle-epoque)
+* [Shulman and Yudkowsky on AI progress (Carl Shulman/Eliezer Yudkowsky, 2021)](https://www.lesswrong.com/s/n945eovrA3oDueqtq/p/sCCdCLPN9E3YvdZhj)
+* [SCP-2024 (DrBerggren, 2022)](https://scp-wiki.wikidot.com/scp-2024)
+* [SCP-2023 (Zyn, 2022)](https://scp-wiki.wikidot.com/scp-2023)
+* [SCP-2022 (Bucell, 2020)](https://scp-wiki.wikidot.com/scp-2022)
+* [SCP-2021 (AndarielHalo, 2021)](https://scp-wiki.wikidot.com/scp-2021)
+* [SCP-2020 (Communism will win, 2022)](https://scp-wiki.wikidot.com/scp-2020)
+* [SCP-2019 (DeviantDharma, 2023)](https://scp-wiki.wikidot.com/scp-2019)
+* [SCP-2018 (DeviantDharma, 2022)](https://scp-wiki.wikidot.com/scp-2018)
+* [SCP-2017 (MissMercurial, 2022)](https://scp-wiki.wikidot.com/scp-2017)
+* [SCP-2016 (DeviantDharma, 2022)](https://scp-wiki.wikidot.com/scp-2016)
+* [SCP-2015 (DeviantDharma, 2021)](https://scp-wiki.wikidot.com/scp-2015)
+* The Value of Precision in Probability Assessment: Evidence from a Large-Scale Geopolitical Forecasting Tournament (Barbara A. Mellers/Jeffrey A. Friedman/Joshua D. Baker/Philip E. Tetlock/Richard Zeckhauser, 2018)
+* [Dual n-Back Meta-Analysis (Gwern Branwen, 2018)](https://gwern.net/dnb-meta-analysis)
+* [Under Pressure, Does Evolution Evolve? (Emily Singer, 2014)](https://www.quantamagazine.org/under-pressure-does-evolution-evolve-20140115/)
+* [What will GPT-2030 look like? (Jacob Steinhardt, 2023)](https://bounded-regret.ghost.io/what-will-gpt-2030-look-like/)
+* [Christiano, Cotra, and Yudkowsky on AI progress (Ajeya Cotra/Eliezer Yudkowsky, 2021)](https://www.lesswrong.com/s/n945eovrA3oDueqtq/p/7MCqRnZzvszsxgtJi)
 * [Risks from Atomically Precise Manufacturing (Open Philanthropy, 2015)](https://www.openphilanthropy.org/research/atomically-precise-manufacturing/)
 * [An Overview of Deep Learning for Curious People (Lilian Weng, 2017)](https://lilianweng.github.io/posts/2017-06-21-overview/)
 * [In the Lab Oppenheimer Built, the U.S. Is Building Nuclear Bomb Cores Again (W. J. Hennigan, 2023)](https://time.com/6296743/los-alamos-lab-plutonium-pits-nuclear-weapons/)
@@ -36,8 +61,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Some Thoughts on Metaphilosophy (Wei Dai, 2019)](https://www.lesswrong.com/posts/EByDsY9S3EDhhfFzC/some-thoughts-on-metaphilosophy)
 * [Core Transformation (Romeo Stevens, 2019)](https://neuroticgradientdescent.blogspot.com/2019/07/core-transformation.html)
 * [Can You Divide by Three? (Brian Hayes, 2006)](http://bit-player.org/2006/can-you-divide-by-three)
-* [|1 Infra-Bayesian physicalism: a formal theory of naturalized induction (Vanessa Kosoy/Diffractor, 2021)](https://www.lesswrong.com/posts/gHgs2e2J5azvG
-Fatb/infra-bayesian-physicalism-a-formal-theory-of-naturalized)
+* [|1 Infra-Bayesian physicalism: a formal theory of naturalized induction (Vanessa Kosoy/Diffractor, 2021)](https://www.lesswrong.com/posts/gHgs2e2J5azvGFatb/infra-bayesian-physicalism-a-formal-theory-of-naturalized)
 * [Complexity Theory’s 50-Year Journey to the Limits of Knowledge (Ben Brubaker, 2023)](https://www.quantamagazine.org/complexity-theorys-50-year-journey-to-the-limits-of-knowledge-20230817/)
 * [Language models can explain neurons in language models (Jan Leike/Jeffrey Wu/Steven Bills/William Saunders/Leo Gao/Henk Tillman/Daniel Mossing, 2023)](https://openai.com/research/language-models-can-explain-neurons-in-language-models)
 * [PageRank for physicists (Brian Hayes, 2006)](http://bit-player.org/2006/pagerank-for-physicists)

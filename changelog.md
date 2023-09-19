@@ -23,6 +23,10 @@ September 2023
 
 * [Notes](./notes.html)
 	* [Ordering Outgoing *and* Incoming Edges in Dot](./notes.html#None_1)
+* [Precision of Sets of Forecasts](./precision.html)
+	* [Binary Search](./precision.html#Binary_Search)
+	* [Precision of Forecasting Datasets](./precision.html#Precision_of_Forecasting_Datasets)
+	* [Conclusion](.//precision.html#Conclusion)
 
 ### Links
 
