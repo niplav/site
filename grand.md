@@ -463,3 +463,7 @@ if it no longer can or **want** to pursue any multigenerational project that
 it used to regard as highly valuable.
 
 "want" should be "wants".
+
+### 5.1.1 Cyclic theories
+
+Footnote 3 should have a period at the end.

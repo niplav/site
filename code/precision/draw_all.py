@@ -12,6 +12,28 @@ plt.title('Plot log scores for different levels of perturbation')
 plt.xlabel('Noise (bits)')
 plt.ylabel('Log score')
 
+plt.plot(metaculus_scores[0], metaculus_scores[1], linestyle='-', color='red', label='GJP Surveys')
+plt.plot(gjpsurvey_scores[0], gjpsurvey_scores[1], linestyle='-', color='blue', label='GJP Markets')
+plt.plot(gjpmarket_scores[0], gjpmarket_scores[1], linestyle='-', color='green', label='Metaculus')
+plt.plot(predictionbook_scores[0], predictionbook_scores[1], linestyle='-', color='purple', label='PredictionBook')
+
+plt.bar(1.1941179809570313, -1.2, width=0.02, color='red')
+plt.bar(1.5017044067382812, -1.2, width=0.02, color='blue')
+plt.bar(1.279558654785156, -1.2, width=0.02, color='green')
+plt.bar(1.3198378295898436, -1.2, width=0.02, color='purple')
+
+plt.legend()
+
+plt.savefig('platforms.png')
+
+fig=plt.figure(figsize=(8,8))
+
+plt.xscale('log')
+
+plt.title('Plot log scores for different levels of perturbation')
+plt.xlabel('Noise (bits)')
+plt.ylabel('Log score')
+
 plt.plot(lo_pert_scores_1[0], lo_pert_scores_1[1], linestyle='-', color='red', label='n=4')
 plt.plot(lo_pert_scores_2[0], lo_pert_scores_2[1], linestyle='-', color='blue', label='n=4')
 plt.plot(lo_pert_scores_3[0], lo_pert_scores_3[1], linestyle='-', color='green', label='n=4')
