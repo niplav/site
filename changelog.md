@@ -18,6 +18,11 @@ with fecundity.
 
 *—[Scott Alexander](https://slatestarcodex.com/), [“The Goddess of Everything Else”](https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/), 2015*
 
+October 2023
+------------
+
+Meditation.
+
 September 2023
 ---------------
 
@@ -27,15 +32,23 @@ September 2023
 	* [Binary Search](./precision.html#Binary_Search)
 	* [Precision of Forecasting Datasets](./precision.html#Precision_of_Forecasting_Datasets)
 	* [Conclusion](.//precision.html#Conclusion)
+* [Nootropics](./nootropics.html)
+	* [Mostly finished RCT on L-theanine](/nootropics.html#Experiment_B_SelfBlinded_RCT). The developers of my meditation app seem to have removed the ability to export the data, I emailed them about it. Unfortunate if true, because I don't want to export 80 meditations by hand.
 
 ### Links
 
 * [Core Transformation (Romeo Stevens, 2019)](https://neuroticgradientdescent.blogspot.com/2019/07/core-transformation.html)
 * [What should Julia users know about? (Muireall Prase, 2022)](https://muireall.space/julians-should-know/)
 * [Implications of evidential cooperation in large worlds (Lukas Finnveden, 2023)](https://forum.effectivealtruism.org/posts/WYsLjeJzh7tZqe6Lo/implications-of-evidential-cooperation-in-large-worlds): Glad people at OpenPhil are thinking about this.
-* [Proper scoring rules don’t guarantee predicting fixed points (Caspar Oesterheld/Johannes Treutlein/Rubi J. Hudson, 2022)](https://www.lesswrong.com/posts/Aufg88v7mQ2RuEXkS/proper-scoring-rules-don-t-guarantee-predicting-fixed-points)
 * [Adapting Land Value Taxation to Space (Sam Harsimony, 2023)](https://splittinginfinity.substack.com/p/adapting-land-value-taxation-to-space)
 * [In the Lab Oppenheimer Built, the U.S. Is Building Nuclear Bomb Cores Again (W. J. Hennigan, 2023)](https://time.com/6296743/los-alamos-lab-plutonium-pits-nuclear-weapons/)
+* [A New Physics Theory of Life (Natalie Wolchover, 2014)](https://www.quantamagazine.org/a-new-thermodynamics-theory-of-the-origin-of-life-20140122/): Made me want to learn out-of-equilibrium thermodynamics, plus an impromptu reconaissance with [Crooks fluctuation theorem](https://en.wikipedia.org/wiki/Crooks_fluctuation_theorem).
+* [Scheduled procrastination (Brian Hayes, 2006)](http://bit-player.org/2006/scheduled-procrastination): I'd always wondered about optimal solutions to the problem of starting optimally with problems that become easier, apparently we don't (didn't?) even know whether this is in NP. Dangit.
+
+#### Forecasting
+
+* [Proper scoring rules don’t guarantee predicting fixed points (Caspar Oesterheld/Johannes Treutlein/Rubi J. Hudson, 2022)](https://www.lesswrong.com/posts/Aufg88v7mQ2RuEXkS/proper-scoring-rules-don-t-guarantee-predicting-fixed-points)
+* [The Value of Precision in Probability Assessment: Evidence from a Large-Scale Geopolitical Forecasting Tournament (Barbara A. Mellers/Jeffrey A. Friedman/Joshua D. Baker/Philip E. Tetlock/Richard Zeckhauser, 2018)](./doc/prediction/the_value_of_precision_in_probability_assessment_friedman_et_al_2018.pdf): Kind of disappointing, I think I have [better methods](./precision.html).
 
 August 2023
 ------------
