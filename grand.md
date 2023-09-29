@@ -467,3 +467,19 @@ it used to regard as highly valuable.
 ### 5.1.1 Cyclic theories
 
 Footnote 3 should have a period at the end.
+
+##### Thermodynamics and scaling of sustainability
+
+> Garrett then equates the absorption ability with accumulated
+global economic value, arriving at an energy consumption equal
+to λC where C is amount of accumulated value and λ=(9.7±0.3)mW
+per 1990 US dollar
+
+"is amount of" should be "is **the** amount of".
+
+##### Civilizations as open thermodynamic systems?
+
+> Recognizing that the lifespan is set by the overall energy release
+(L) and releasable energy (0.007 Mc²) gives the information.
+
+What information?

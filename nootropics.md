@@ -28,16 +28,16 @@ do by recording the outcomes. That's what I did.
 | Log-score substance prediction[^1] | -0.6                                        | |
 | Absorption                         | 0.61 (λ=13.3, p=0.00017, -0.072)            | |
 | Mindfulness                        | 0.58 (λ=11.8, p=0.0007, 0.021)              | |
-| Productivity                       | 0.58 (λ=28.9, p=1.3<sup>-12</sup>, 0.11)    | |
-| Creativity                         | 0.38 (λ=32.9, p=5.2<sup>-15</sup>, 0.09)    | |
-| Happiness                          | 0.27 (λ=10.6, p=0.002, 0.3)                 | |
-| Contentment                        | 0.13 (λ=7.66, p=0.02, 0.47)                 | |
-| Relaxation                         | -0.11 (λ=5, p=0.15, 0.42)                   | |
-| Chastity[^2]                       | -0.14 (λ=1.9, p=0.64, 0.11)                 | |
-| Flashcard ease                     | 0.003 (λ≈∞, p≈0, -0.009)                    | |
-| Flashcard ease factor              | -0.039 (λ≈∞, p≈0, -32.7)                    | |
-| Flashcard new interval             | 0.011 (λ≈∞, p≈0, -1.88)                     | |
-| Time per flashcard[^3]             | 0.006 (λ≈∞, p≈0, 273.4)                     | |
+| Productivity                       | 0.58 (λ=28.9, p=1.3<sup>-12</sup>, 0.11)    | -0.28 (λ=5.51, p=0.109, 0.03) |
+| Creativity                         | 0.45 (λ=51, p=4.6<sup>-27</sup>, 0.09)      | -0.12 (λ=5.05, p=0.14, -0.04) |
+| Happiness                          | 0.27 (λ=10.6, p=0.002, 0.3)                 | 0.16 (λ=3.98, p=0.27, -0.155) |
+| Contentment                        | 0.13 (λ=7.66, p=0.02, 0.47)                 | 0.25 (λ=6.83, p=0.04, -0.04)  |
+| Relaxation                         | -0.11 (λ=5, p=0.15, 0.42)                   | 0.12 (λ=1.5, p=0.74, 0.02)    |
+| Chastity[^2]                       | -0.14 (λ=1.9, p=0.64, 0.11)                 | -0.03 (λ=1.15, p=0.8, 0.25)   |
+| Flashcard ease                     | 0.003 (λ≈∞, p≈0, -0.009)                    | -0.072 (λ=∞, p≈0, -0.01)      |
+| Flashcard ease factor              | -0.039 (λ≈∞, p≈0, -32.7)                    | 0.0026 (λ=∞, p≈0, -18.9)      |
+| Flashcard new interval             | 0.011 (λ≈∞, p≈0, -1.88)                     | -0.016 (λ=∞, p≈0, 3.1)        |
+| Time per flashcard[^3]             | 0.006 (λ≈∞, p≈0, 273.4)                     | 0.003 (λ=∞, p≈0, 13.66)       |
 
 I am especially interested in testing many different substances for
 their effect on meditation, while avoiding negative side effects. The
@@ -557,6 +557,45 @@ Notes during consumption:
 * 19th dose: Took L-Theanine & did my routine, then took a nap and woke up 3 hours later.
 * 43rd dose: Woke up with "brain fog", meditation was dull & all over the place. Maybe because I'd been drying laundry in my room during the night? Also took nicotine later the day to kickstart some work on a project that needed to be finished.
 
+Ran the experiment from 2023-06-22 to 2023-09-28, skipping many days in the experiment.
+
+I use the same [statistical techniques as in the caffeine
+experiment](#Statistical_Method), and start, as usual, with my predictions
+about the content of the pill:
+
+	>>> substances=pd.read_csv('../../data/substances.csv')
+	>>> experiment='B'
+	>>> substance='l-theanine'
+	>>> placebo='sugar'
+	>>> expa=substances.loc[substances['experiment']==experiment].copy()
+	>>> expa['datetime']=pd.to_datetime(expa['datetime'], utc=True)
+	>>> probs=np.array(expa['prediction'])
+	>>> substances=np.array(expa['substance'])
+	>>> outcomes=np.array([0 if i=='sugar' else 1 for i in substances])
+	>>> np.mean(list(map(lambda x: math.log(x[0]) if x[1]==1 else math.log(1-x[0]), zip(probs, outcomes))))
+	-0.705282842369643
+
+This is not great. In fact, it's slightly worse than chance (which would
+be about -0.693). Not a great sign for L-theanine, and, in fact, it gets
+worse. I use the [generalized and compacted code](#Generalising_the_Code)
+from the last experiments to get the other results, and they don't point
+a rosy picture for L-theanine:
+
+	>>> analyze('B', 'l-theanine', 'sugar')
+	    absorption  mindfulness  productivity  creativity     happy   content   relaxed     horny      ease     factor       ivl       time
+	d          NaN          NaN     -0.278448   -0.116001  0.164261  0.254040  0.119069 -0.031665 -0.072098   0.002561 -0.015955   0.003073
+	λ          NaN          NaN      5.517769    5.049838  3.983760  6.833004  1.496601  1.148131       inf        inf       inf        inf
+	p          NaN          NaN      0.109735    0.146420  0.266491  0.045270  0.740705  0.813279  0.000000   0.000000  0.000000   0.000000
+	dσ         NaN          NaN      0.039855   -0.043241 -0.155797 -0.046668  0.019655  0.251454 -0.016542 -18.901846  3.108518  13.660820
+
+It worsens productivity and creativity (though not *quite* statistically
+significantly, but it's on the way there), but at least it improves my
+mood somewhat (though those results, besides contentment, might as well be
+due to random chance). No clear effect sizes with the flashcards either.
+
+So a hard pass on L-theanine, I think. Maybe it's better when combined
+with caffeine?
+
 Melatonin
 ----------
 
@@ -577,52 +616,59 @@ Appendix A: Predictions on Self-Blinded RCTs
 
 Predicting the outcomes of personal experiments give a useful way to
 train ones own calibration, I take it a step further and record the
-predictions for the world to observe my idiocy.
+predictions for the world to observe my idiocy. The probabilities
+link to PredictionBook/Fatebook.
 
-### Caffeine
+|                                                                                          Question               | Caffeine probability                                 | Caffeine outcome | L-Theanine probability | L-Theanine outcome |
+| --------------------------------------------------------------------------------------------------------------- | --------------------                                 | ---------------- | ---------------------- | ------------------ |
+| __Prediction of Arm__                                                                                           |                                                      |                  |                        |                    |
+| My prediction about the content of the pill is more accurate than random guesses                                | [80%](https://predictionbook.com/predictions/211893) | Yes              | [65%](https://fatebook.io/q/my-prediction-about-the-content-of-the--cln3mrb2x0003mj08tfxhuvh4) | No                 |
+| My prediction about the content of the pill has a log score of more than -0.5                                   | [60%](https://predictionbook.com/predictions/211894) | No               | [40%](https://fatebook.io/q/my-prediction-about-the-content-of-the--cln3mqldv0001mj08z5l8hryz)                    | No                 |
+| __Meditation__                                                                                                  |                                                      |                  |                        |                    |
+| On interventional days, my average mindfulness during meditation was higher than days with placebo              | [60%](https://predictionbook.com/predictions/211895) | Yes              | 45%                    |                    |
+| On interventional days, my average absorption during meditation was higher than days with placebo               | [40%](https://predictionbook.com/predictions/211896) | No               | 55%                    |                    |
+| On interventional days, the variance of values for mindfulness during meditation was lower than on placebo days | [55%](https://predictionbook.com/predictions/211897) | No               | 60%                    |                    |
+| On interventional days, the variance of values for absorption during meditation was lower than on placebo days  | [35%](https://predictionbook.com/predictions/211898) | Yes              | 65%                    |                    |
+| `$\lambda<1$` for the mindfulness values                                                                        | [20%](https://predictionbook.com/predictions/211899) | No               | [7%](https://fatebook.io/q/-1-for-the-mindfulness-values--cln3muaor0001jx08qm23vbcu)      |                    |
+| `$\lambda<1$` for the absorption values                                                                         | [25%](https://predictionbook.com/predictions/211900) | No               | [5%](https://fatebook.io/q/-1-for-the-absorption-values-for--cln3mv8020001m808r7qfhxvr)   |                    |
+| `$\lambda<4$` for the mindfulness values                                                                        | [82%](https://predictionbook.com/predictions/211901) | No               | [15%](https://fatebook.io/q/-4-for-the-mindfulness-values-for--cln3mw7710003l808hhlwezyn) |                    |
+| `$\lambda<4$` for the absorption values                                                                         | [88%](https://predictionbook.com/predictions/211902) | No               | [20%](https://fatebook.io/q/-4-for-the-absorption-values-for--cln3mvlv40001l50807gv6orv)  |                    |
+| `$\lambda<10$` for the mindfulness values                                                                       |                                                      |                  | [65%](https://fatebook.io/q/-10-for-the-mindfulness-values--cln3n0zqf0001lb08kbdkgsn9)    |                    |
+| `$\lambda<10$` for the absorption values                                                                        |                                                      |                  | [60%](https://fatebook.io/q/-10-for-the-absorption-values--cln3n1erx0003jt08myozekxy)     |                    |
+| __Mood__                                                                                                        |                                                      |                  |                        |                    |
+| On interventional days, my average happiness during the day was higher than days with placebo                   | [65%](https://predictionbook.com/predictions/211903) | Yes              | [55%](https://fatebook.io/q/on-l-theanine-days-my-average-happiness--cln3n20dw0003jx08d97b25tv) | Yes                |
+| On interventional days, my average contentment during the day was higher than days with placebo                 | [45%](https://predictionbook.com/predictions/211904) | Yes              | [60%](https://fatebook.io/q/on-l-theanine-days-my-average--cln3n2cp80003m808lwhhbhj2)           | Yes                |
+| On interventional days, my average relaxation during the day was higher than days with placebo                  | [35%](https://predictionbook.com/predictions/211905) | No               | [65%](https://fatebook.io/q/on-l-theanine-days-my-average--cln3n2nnq0002kx08dcu5x00j)           | Yes                |
+| On interventional days, my average chastity during the day was higher than days with placebo                    | [50%](https://predictionbook.com/predictions/211906) | No               | [50%](https://fatebook.io/q/on-l-theanine-days-my-average-chastity--cln3n2yqg0001jy08aeb48b0b)  | No                 |
+| On interventional days, the variance of values for happiness during the day was lower than on placebo days      | [55%](https://predictionbook.com/predictions/211907) | No               | [60%](https://fatebook.io/q/on-l-theanine-days-the-variance-of--cln3n38tm0005jx08u2pvaneg)      | Yes                |
+| On interventional days, the variance of values for contentment during the day was lower than on placebo days    | [30%](https://predictionbook.com/predictions/211908) | No               | [65%](https://fatebook.io/q/on-l-theanine-days-the-variance-of--cln3n3ivi0001js08poq8ex63)     | Yes                |
+| On interventional days, the variance of values for relaxation during the day was lower than on placebo days     | [30%](https://predictionbook.com/predictions/211909) | No               | [65%](https://fatebook.io/q/on-l-theanine-days-the-variance-of--cln3n3ymm0001lf08r9am2pov)     | No                 |
+| On interventional days, the variance of values for chastity during the day was lower than on placebo days       | [50%](https://predictionbook.com/predictions/211910) | No               | [50%](https://fatebook.io/q/on-l-theanine-days-the-variance-of--cln3n4an4000dmj08zgq56b5m)    | No                 |
+| `$\lambda<1$` for the happiness values                                                                          | [45%](https://predictionbook.com/predictions/211911) | No               | [8%](https://fatebook.io/q/-1-for-the-happiness-values-for--cln3n4q7u0001l908gy0xp29b)        | No                 |
+| `$\lambda<1$` for the contentment values                                                                        | [40%](https://predictionbook.com/predictions/211912) | No               | [5%](https://fatebook.io/q/-1-for-the-contentment-values-for--cln3n521t0001l90812jb10yc)      | No                 |
+| `$\lambda<1$` for the relaxation values                                                                         | [37%](https://predictionbook.com/predictions/211913) | No               | [5%](https://fatebook.io/q/-1-for-the-relaxation-values-for--cln3n5cbk0003l908opgeutk5)       | No                 |
+| `$\lambda<1$` for the chastity values                                                                           | [60%](https://predictionbook.com/predictions/211914) | No               | [10%](https://fatebook.io/q/-1-for-the-chastity-values-for--cln3n5mg30001l708fl3d4e79)        | No                 |
+| `$\lambda<4$` for the happiness values                                                                          | [85%](https://predictionbook.com/predictions/211915) | No               | 18%                    | No                 |
+| `$\lambda<4$` for the contentment values                                                                        | [90%](https://predictionbook.com/predictions/211916) | No               | 12%                    | No                 |
+| `$\lambda<4$` for the relaxation values                                                                         | [90%](https://predictionbook.com/predictions/211917) | No               | [12%](https://fatebook.io/q/-4-for-the-relaxation-values-for--cln3n6q7w0005lc089jtw45hd)      | Yes                |
+| `$\lambda<4$` for the chastity values                                                                           | [95%](https://predictionbook.com/predictions/211918) | Yes              | [20%](https://fatebook.io/q/-4-for-the-chastity-values-for--cln3n73wr0001il08p58hm5g2)                    | Yes                |
+| `$\lambda<10$` for the happiness values                                                                         |                                                      |                  | [75%](https://fatebook.io/q/-10-for-the-happiness-values-for--cln3n7hol0005l80809dnogc9)      | Yes                |
+| `$\lambda<10$` for the contentment values                                                                       |                                                      |                  | [70%](https://fatebook.io/q/-10-for-the-contentment-values-for--cln3n7qyk0007lc08i2y0wi03)    | Yes                |
+| `$\lambda<10$` for the relaxation values                                                                        |                                                      |                  | 70%                    | Yes                |
+| `$\lambda<10$` for the chastity values                                                                          |                                                      |                  | [85%](https://fatebook.io/q/-10-for-the-chastity-values-for--cln3n8hnn0003jv098so68txn)       | Yes                |
+| __Productivity and Creativity__                                                                                 |                                                      |                  |                        |                    |
+| On interventional days, my average productivity during the day was higher than days with placebo                | [52%](https://predictionbook.com/predictions/211991) | Yes              | 65%                    | No                 |
+| On interventional days, my average creativity during the day was higher than days with placebo                  | [55%](https://predictionbook.com/predictions/211992) | Yes              | 55%                    | No                 |
+| On interventional days, the variance of values for productivity during the day was lower than on placebo days   | [40%](https://predictionbook.com/predictions/211993) | No               | [70%](https://fatebook.io/q/on-l-theanine-days-the-variance-of--cln3n9d9d0001jo080y15xrhg)    | No                 |
+| On interventional days, the variance of values for creativity during the day was lower than on placebo days     | [65%](https://predictionbook.com/predictions/211994) | No               | [50%](https://fatebook.io/q/on-l-theanine-days-the-variance-of--cln3n9nbc0005l308ubxz0n6x)    | Yes                |
+| `$\lambda<1$` for the productivity values                                                                       | [40%](https://predictionbook.com/predictions/211919) | No               | [7%](https://fatebook.io/q/-1-for-the-productivity-values-for--cln3na38s0001mm08la0civwq)     | No                 |
+| `$\lambda<1$` for the creativity values                                                                         | [45%](https://predictionbook.com/predictions/211920) | No               | [9%](https://fatebook.io/q/-1-for-the-creativity-values-for--cln3nai420003jy08dmz160po)       | No                 |
+| `$\lambda<4$` for the productivity values                                                                       | [75%](https://predictionbook.com/predictions/211921) | No               | [20%](https://fatebook.io/q/-4-for-the-productivity-values-for--cln3nawnv0007l308g5tzi4zb)    | No                 |
+| `$\lambda<4$` for the creativity values                                                                         | [80%](https://predictionbook.com/predictions/211922) | No               | [25%](https://fatebook.io/q/-4-for-the-creativity-values-for--cln3nbams0001mn08eme6xhz2)      | No                 |
+| `$\lambda<10$` for the productivity values                                                                      |                                                      |                  | [60%](https://fatebook.io/q/-10-for-the-productivity-values-for--cln3nbkbo0003l708mzjft66f)   | Yes                |
+| `$\lambda<10$` for the creativity values                                                                        |                                                      |                  | [70%](https://fatebook.io/q/-10-for-the-creativity-values-for--cln3nbtwu0001jn08f6top2si)     | Yes                |
 
-<!--TODO: convert into a table?-->
-
-* __Prediction of Arm__
-	* My prediction about the content of the pill is more accurate than random guesses<sub>[80%](https://predictionbook.com/predictions/211893)</sub>: Yes.
-	* My prediction about the content of the pill has a log score of more than -0.5<sub>[60%](https://predictionbook.com/predictions/211894)</sub>: No.
-* __Meditation__
-	* On days with caffeine, my average mindfulness during meditation was higher than days with placebo<sub>[60%](https://predictionbook.com/predictions/211895)</sub>: Yes.
-	* On days with caffeine, my average absorption during meditation was higher than days with placebo<sub>[40%](https://predictionbook.com/predictions/211896)</sub>: Yes.
-	* On days with caffeine, the variance of values for mindfulness during meditation was lower than on placebo days<sub>[55%](https://predictionbook.com/predictions/211897)</sub>: No.
-	* On days with caffeine, the variance of values for absorption during meditation was lower than on placebo days<sub>[35%](https://predictionbook.com/predictions/211898)</sub>: Yes.
-	* `$\lambda<1$` for the mindfulness values<sub>[20%](https://predictionbook.com/predictions/211899)</sub>: No.
-	* `$\lambda<1$` for the absorption values<sub>[25%](https://predictionbook.com/predictions/211900)</sub>: No.
-	* `$\lambda<4$` for the mindfulness values<sub>[82%](https://predictionbook.com/predictions/211901)</sub>: No.
-	* `$\lambda<4$` for the absorption values<sub>[88%](https://predictionbook.com/predictions/211902)</sub>: No.
-* __Mood__
-	* On days with caffeine, my average happiness during the day was higher than days with placebo<sub>[65%](https://predictionbook.com/predictions/211903)</sub>: Yes.
-	* On days with caffeine, my average contentment during the day was higher than days with placebo<sub>[45%](https://predictionbook.com/predictions/211904)</sub>: Yes.
-	* On days with caffeine, my average relaxation during the day was higher than days with placebo<sub>[35%](https://predictionbook.com/predictions/211905)</sub>: No.
-	* On days with caffeine, my average chastity during the day was higher than days with placebo<sub>[50%](https://predictionbook.com/predictions/211906)</sub>: No.
-	* On days with caffeine, the variance of values for happiness during the day was lower than on placebo days<sub>[55%](https://predictionbook.com/predictions/211907)</sub>: No.
-	* On days with caffeine, the variance of values for contentment during the day was lower than on placebo days<sub>[30%](https://predictionbook.com/predictions/211908)</sub>: No.
-	* On days with caffeine, the variance of values for relaxation during the day was lower than on placebo days<sub>[30%](https://predictionbook.com/predictions/211909)</sub>: No.
-	* On days with caffeine, the variance of values for chastity during the day was lower than on placebo days<sub>[50%](https://predictionbook.com/predictions/211910)</sub>: No.
-	* `$\lambda<1$` for the happiness values<sub>[45%](https://predictionbook.com/predictions/211911)</sub>: No.
-	* `$\lambda<1$` for the contentment values<sub>[40%](https://predictionbook.com/predictions/211912)</sub>: No.
-	* `$\lambda<1$` for the relaxation values<sub>[37%](https://predictionbook.com/predictions/211913)</sub>: No.
-	* `$\lambda<1$` for the chastity values<sub>[60%](https://predictionbook.com/predictions/211914)</sub>: No.
-	* `$\lambda<4$` for the happiness values<sub>[85%](https://predictionbook.com/predictions/211915)</sub>: No.
-	* `$\lambda<4$` for the contentment values<sub>[90%](https://predictionbook.com/predictions/211916)</sub>: No.
-	* `$\lambda<4$` for the relaxation values<sub>[90%](https://predictionbook.com/predictions/211917)</sub>: No.
-	* `$\lambda<4$` for the chastity values<sub>[95%](https://predictionbook.com/predictions/211918)</sub>: Yes.
-* __Productivity and Creativity__
-	* On days with caffeine, my average productivity during the day was higher than days with placebo<sub>[52%](https://predictionbook.com/predictions/211991)</sub>: Yes.
-	* On days with caffeine, my average creativity during the day was higher than days with placebo<sub>[55%](https://predictionbook.com/predictions/211992)</sub>: Yes.
-	* On days with caffeine, the variance of values for productivity during the day was lower than on placebo days<sub>[40%](https://predictionbook.com/predictions/211993)</sub>: No.
-	* On days with caffeine, the variance of values for creativity during the day was lower than on placebo days<sub>[65%](https://predictionbook.com/predictions/211994)</sub>: No.
-	* `$\lambda<1$` for the productivity values<sub>[40%](https://predictionbook.com/predictions/211919)</sub>: No.
-	* `$\lambda<1$` for the creativity values<sub>[45%](https://predictionbook.com/predictions/211920)</sub>: No.
-	* `$\lambda<4$` for the productivity values<sub>[75%](https://predictionbook.com/predictions/211921)</sub>: No.
-	* `$\lambda<4$` for the creativity values<sub>[80%](https://predictionbook.com/predictions/211922)</sub>: No.
-
-I also recorded my predictions about the content of the pill on PredictionBook ([1](https://predictionbook.com/predictions/211311) [2](https://predictionbook.com/predictions/211312) [3](https://predictionbook.com/predictions/211313) [4](https://predictionbook.com/predictions/211314) [5](https://predictionbook.com/predictions/211857) [6](https://predictionbook.com/predictions/211858) [7](https://predictionbook.com/predictions/211859) [8](https://predictionbook.com/predictions/211860) [9](https://predictionbook.com/predictions/211861) [10](https://predictionbook.com/predictions/211862) [11](https://predictionbook.com/predictions/211863) [12](https://predictionbook.com/predictions/211864) [13](https://predictionbook.com/predictions/211865) [14](https://predictionbook.com/predictions/211866) [15](https://predictionbook.com/predictions/211867) [16](https://predictionbook.com/predictions/211868) [17](https://predictionbook.com/predictions/211869) [18](https://predictionbook.com/predictions/211870) [19](https://predictionbook.com/predictions/211871) [20](https://predictionbook.com/predictions/211872) [21](https://predictionbook.com/predictions/211873) [22](https://predictionbook.com/predictions/211874) [23](https://predictionbook.com/predictions/211875) [24](https://predictionbook.com/predictions/211876) [25](https://predictionbook.com/predictions/211877) [26](https://predictionbook.com/predictions/211878) [27](https://predictionbook.com/predictions/211879) [28](https://predictionbook.com/predictions/211880) [29](https://predictionbook.com/predictions/211967) [30](https://predictionbook.com/predictions/211968) [31](https://predictionbook.com/predictions/211969) [32](https://predictionbook.com/predictions/211970) [33](https://predictionbook.com/predictions/211971) [34](https://predictionbook.com/predictions/211972) [35](https://predictionbook.com/predictions/211973) [36](https://predictionbook.com/predictions/211974) [37](https://predictionbook.com/predictions/211975) [38](https://predictionbook.com/predictions/211976) [39](https://predictionbook.com/predictions/211881) [40](https://predictionbook.com/predictions/211882) [41](https://predictionbook.com/predictions/211883) [42](https://predictionbook.com/predictions/211884) [43](https://predictionbook.com/predictions/211885) [44](https://predictionbook.com/predictions/211886) [45](https://predictionbook.com/predictions/211887) [46](https://predictionbook.com/predictions/211888) [47](https://predictionbook.com/predictions/211889) [48](https://predictionbook.com/predictions/211890) [49](https://predictionbook.com/predictions/211891) [50](https://predictionbook.com/predictions/211892)).
+I also recorded my predictions about the content of the pill on PredictionBook (Caffeine: [1](https://predictionbook.com/predictions/211311) [2](https://predictionbook.com/predictions/211312) [3](https://predictionbook.com/predictions/211313) [4](https://predictionbook.com/predictions/211314) [5](https://predictionbook.com/predictions/211857) [6](https://predictionbook.com/predictions/211858) [7](https://predictionbook.com/predictions/211859) [8](https://predictionbook.com/predictions/211860) [9](https://predictionbook.com/predictions/211861) [10](https://predictionbook.com/predictions/211862) [11](https://predictionbook.com/predictions/211863) [12](https://predictionbook.com/predictions/211864) [13](https://predictionbook.com/predictions/211865) [14](https://predictionbook.com/predictions/211866) [15](https://predictionbook.com/predictions/211867) [16](https://predictionbook.com/predictions/211868) [17](https://predictionbook.com/predictions/211869) [18](https://predictionbook.com/predictions/211870) [19](https://predictionbook.com/predictions/211871) [20](https://predictionbook.com/predictions/211872) [21](https://predictionbook.com/predictions/211873) [22](https://predictionbook.com/predictions/211874) [23](https://predictionbook.com/predictions/211875) [24](https://predictionbook.com/predictions/211876) [25](https://predictionbook.com/predictions/211877) [26](https://predictionbook.com/predictions/211878) [27](https://predictionbook.com/predictions/211879) [28](https://predictionbook.com/predictions/211880) [29](https://predictionbook.com/predictions/211967) [30](https://predictionbook.com/predictions/211968) [31](https://predictionbook.com/predictions/211969) [32](https://predictionbook.com/predictions/211970) [33](https://predictionbook.com/predictions/211971) [34](https://predictionbook.com/predictions/211972) [35](https://predictionbook.com/predictions/211973) [36](https://predictionbook.com/predictions/211974) [37](https://predictionbook.com/predictions/211975) [38](https://predictionbook.com/predictions/211976) [39](https://predictionbook.com/predictions/211881) [40](https://predictionbook.com/predictions/211882) [41](https://predictionbook.com/predictions/211883) [42](https://predictionbook.com/predictions/211884) [43](https://predictionbook.com/predictions/211885) [44](https://predictionbook.com/predictions/211886) [45](https://predictionbook.com/predictions/211887) [46](https://predictionbook.com/predictions/211888) [47](https://predictionbook.com/predictions/211889) [48](https://predictionbook.com/predictions/211890) [49](https://predictionbook.com/predictions/211891) [50](https://predictionbook.com/predictions/211892)) and Fatebook (L-theanine: [1](https://fatebook.io/q/b-1-was-l-theanine--cln3nlpzp0003lf0884psl2ib), [2](https://fatebook.io/q/b-2-was-l-theanine--cln3nlyxb0005lf08k0rajsdn), [3](https://fatebook.io/q/b-3-was-l-theanine--cln3nm7fe0007lf088nhg6c6c), [4](https://fatebook.io/q/b-4-was-l-theanine--cln3nmf250009lf08dxxykycc), [5](https://fatebook.io/q/b-5-was-l-theanine--cln3nmqpk000blf08qwo2g3fh), [6](https://fatebook.io/q/b-6-was-l-theanine--cln3nn1km000dlf088dneeojq), [7](https://fatebook.io/q/b-7-was-l-theanine--cln3nndil0001l6089v0s4ech), [8](https://fatebook.io/q/b-8-was-l-theanine--cln3nnotx0001l308a3d6yl3i), [9](https://fatebook.io/q/b-9-was-l-theanine--cln3nnzjk0001jg088mzwzaj9), [10](https://fatebook.io/q/b-10-was-l-theanine--cln3no8yp0005jy08nf3d6l5i), [11](https://fatebook.io/q/b-11-was-l-theanine--cln3noi4l0007jy08zy3rakyj), [12](https://fatebook.io/q/b-12-was-l-theanine--cln3nov1a0005l708x511km76), [13](https://fatebook.io/q/b-13-was-l-theanine--cln3np7ky0003mm08laa92q7k), [14](https://fatebook.io/q/b-14-was-l-theanine--cln3npguy0003l608jrpz8rl5), [15](https://fatebook.io/q/b-15-was-l-theanine--cln3npnq50005l6081tsw7nm4), [16](https://fatebook.io/q/b-16-was-l-theanine--cln3npydv0001mw089qn8n3i3), [17](https://fatebook.io/q/b-17-was-l-theanine--cln3nq5cd0009l3088vb790kx), [18](https://fatebook.io/q/b-18-was-l-theanine--cln3nqdb2000bl308j0zp8szo), [19](https://fatebook.io/q/b-19-was-l-theanine--cln3nqjwz000dl3086mhgtx0c), [20](https://fatebook.io/q/b-20-was-l-theanine--cln3nqs180009jy085s7hcb2j), [21](https://fatebook.io/q/b-21-was-l-theanine--cln3nr0n20009lc08gvz8dyqv), [22](https://fatebook.io/q/b-22-was-l-theanine--cln3nr6vl000blc08jvlqkop4), [23](https://fatebook.io/q/b-23-was-l-theanine--cln3nrdzp0001mb08hnsfx62p), [24](https://fatebook.io/q/b-24-was-l-theanine--cln3nrlwf0001lf08ze31fei4), [25](https://fatebook.io/q/b-25-was-l-theanine--cln3nrrj80003lf08oxvumyol), [26](https://fatebook.io/q/b-26-was-l-theanine--cln3nrz1e0003mb08lgpjnfcp), [27](https://fatebook.io/q/b-27-was-l-theanine--cln3ns73t0003mn0847juzfs6), [28](https://fatebook.io/q/b-28-was-l-theanine--cln3nshqo0005lf08weefbhh8), [29](https://fatebook.io/q/b-29-was-l-theanine--cln3nsob40001mm086d4h6h3x), [30](https://fatebook.io/q/b-30-was-l-theanine--cln3nsx8w0001jt08gl24gn3s), [31](https://fatebook.io/q/b-31-was-l-theanine--cln3nt98t0003mm084oan2rel), [32](https://fatebook.io/q/b-32-was-l-theanine--cln3nth3p0005mm08krm6qwlq), [33](https://fatebook.io/q/b-33-was-l-theanine--cln3ntlcu0007mm08suqrvb55), [34](https://fatebook.io/q/b-34-was-l-theanine--cln3ntqzl0009mm087nrhe6hj), [35](https://fatebook.io/q/b-35-was-l-theanine--cln3ntw12000bmm08ht8mls5l), [36](https://fatebook.io/q/b-36-was-l-theanine--cln3nuaar0001lh08cyhevs62), [37](https://fatebook.io/q/b-37-was-l-theanine--cln3nuh0j0003lh0839dl2j9b), [38](https://fatebook.io/q/b-38-was-l-theanine--cln3nupmh0001mr08kp6sd8as), [39](https://fatebook.io/q/b-39-was-l-theanine--cln3nuz1n0007l708p37hk2w3), [40](https://fatebook.io/q/b-40-was-l-theanine--cln3nvbmf000flf08y6ljte6w), [41](https://fatebook.io/q/b-41-was-l-theanine--cln3nyq7s000dlc08mogrfrxb), [42](https://fatebook.io/q/b-42-was-l-theanine--cln3nywvk0005mn0852sa7imk), [43](https://fatebook.io/q/b-43-was-l-theanine--cln3nz6ra0007lf088bfchitm), [44](https://fatebook.io/q/b-44-was-l-theanine--cln3nzh0g0003jo0808diqg88), [45](https://fatebook.io/q/b-45-was-l-theanine--cln3nzq2m0001l408ck1bh6ca), [46](https://fatebook.io/q/b-46-was-l-theanine--cln3nzzdx0005m808tp1ouvt6), [47](https://fatebook.io/q/b-47-was-l-theanine--cln3o07fx0003mr087ntixwuc), [48](https://fatebook.io/q/b-48-was-l-theanine--cln3o0hoe0001mh09gwb2hq2g), [49](https://fatebook.io/q/b-49-was-l-theanine--cln3o0sgd0001l309z03l6ire), [50](https://fatebook.io/q/b-50-was-l-theanine--cln3o0ywv0001l508g2gq1ykj)).
 
 This comes out badly for me, again:
 
@@ -632,7 +678,7 @@ This comes out badly for me, again:
 	>>> outcomes=np.array([1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0])
 	>>> np.mean(list(map(lambda x: math.log(x[0]) if x[1]==1 else math.log(1-x[0]), zip(probs, outcomes))))
 	-0.8610697622640346
-	>>> np.mean(list(map(lambda x: math.log(x[0]) if x[1]==1 else math.log(1-x[0]), zip([0.5]*40, outcomes))))
+	>>> np.mean(list(map(lambda x: math.log(x[0]) if x[1]==1 else math.log(1-x[0]), zip([0.5]*50, outcomes))))
 	-0.6931471805599452
 
 I am significantly *worse* than chance in my predictions.

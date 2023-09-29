@@ -117,7 +117,7 @@ we can improve one of them without harming our ability to perform well
 on the others, we have made progress, if we improve several in tandem,
 that's even better.
 
-How Good Are We At forecasting?
+How Good Are We At Forecasting?
 --------------------------------
 
 * How good are long-term forecasts?

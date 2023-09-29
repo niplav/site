@@ -13,6 +13,7 @@ order). I may not be finished with some of these yet.
 
 * [Altered Carbon](https://www.imdb.com/title/tt2261227/)
 * [Andor](https://www.imdb.com/title/tt9253284/)
+* [Beastars]()<!--TODO-->
 * [Berserk](https://www.imdb.com/title/tt0318871/)
 * [Black Mirror](https://www.imdb.com/title/tt2085059/)
 * [BoJack Horseman](https://www.imdb.com/title/tt3398228/)

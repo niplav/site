@@ -201,7 +201,7 @@ in importance (an outlier-focused "log-normally distributed" view).
 	in the world by destroying ecosystems, especially since the
 	beginning of the industrial revolution. Further economic growth
 	should continue this trend.
-* __[Other Things](https://opentheory.net/2019/09/whats-out-there/index.html)__
+* __[Other Things](https://opentheory.net/2019/09/whats-out-there/)__
 	* Since humanity has created technological artifacts that
 	don't occur anywhere else in the universe, we could've
 	created entirely new qualia varieties (e.g. humans have

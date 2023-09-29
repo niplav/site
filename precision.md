@@ -439,7 +439,7 @@ since the comparisons of scores are not reliable, might be a cool
 project<!--TODO-->.
 
 But perhaps the entire idea of using a fixed value for divergence
-is flawed? The divergence point needs to depend on the perturbance
+is flawed? The divergence point needs to depend on the perturbation
 parameter. I think I should instead assume there is a perfectly
 calibrated, infinitely big dataset `$D^{\star}$`. How much does its
 score drop if we perturb by `$σ$`? If `$D$`, perturbed, drops by half

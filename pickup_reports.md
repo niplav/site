@@ -35,7 +35,7 @@ in her late twenties, dressed kind of weirdly (dark grayish green coat
 and pants). When I started talking to her, I started stacking about her
 outfit, and suggested that she was probably off to mountaineering.
 
-She took the hooks perfectly, and I was already internally fist-pumping,
+She took the hook perfectly, and I was already internally fist-pumping,
 but then she started talking non-stop about her hiking trip to a holy
 mountain in Tibet, and how 10 people had died there when ascending the
 mountain against the better advice of the locals. I've never had any
