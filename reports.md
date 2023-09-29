@@ -574,8 +574,10 @@ to taking LSD: I currently put ~20% on my second LSD
 trip causing more than half of my current [erectile
 dysfunction](https://en.wikipedia.org/wiki/Erectile_dysfunction)
 (which consists of a mix of psychological and physiological issues,
-occurring both during masturbation and attempted sex, but not always
-and to varying degrees, and beware: I don't have a formal diagnosis yet).
+occurring both during masturbation and attempted sex, but not always and
+to varying degrees, and beware: I don't have a formal diagnosis yet). My
+ED disappeared in early 2023, and I now guess guess that it was simply
+due to nervousness.
 
 The potential causal pathways from the LSD trip to erectile dysfunction
 are hard to convey to third parties, and quite speculative. I attribute a

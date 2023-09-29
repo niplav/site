@@ -421,6 +421,7 @@ Texts
 * Methods
 	* Brown Noise
 	* Intermittent fasting
+	* Binaural beats
 * Muse headband for data collection?
 * How to collect sleep data?
 * Scott Alexander CO₂ and wordgame performance
@@ -454,6 +455,7 @@ Texts
 	* Testosterone
 	* Vitamin D
 	* Vitamin C?
+	* Lion's Mane
 	* Take inspiration from [Gwern](https://www.gwern.net/Nootropics), of course
 * (Ro)accutane literature review
 * Air with more O₂/less CO₂ content experiment
@@ -1261,6 +1263,7 @@ Game. Even those odds likely overstate the number of Players in the world.
 * Eli Tyre
 * /u/--MCMC--
 * Jay Sanguinetti
+* [Mike Battaglia](https://en.xen.wiki/w/User:Mike_Battaglia)
 
 ### Fiction
 

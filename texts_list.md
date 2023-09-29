@@ -402,7 +402,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Impossibility results for unbounded utilities (Paul Christiano, 2022)](https://www.lesswrong.com/posts/hbmsW2k9DxED5Z4eJ/impossibility-results-for-unbounded-utilities)
 * [The Learning-Theoretic AI Alignment Research Agenda (Vanessa Kosoy, 2018)](https://www.lesswrong.com/posts/5bd75cc58225bf0670375575/the-learning-theoretic-ai-alignment-research-agenda)
 * On expected utility (Joe Carlsmith, 2022)
-* \* Theory of Games and Economic Behavior (John von Neumann/Oskar Morgenstern, 1953)
+* |49 Theory of Games and Economic Behavior (John von Neumann/Oskar Morgenstern, 1953)
 * [The science behind caffeine (Kamal Patel, 2023)](https://examine.com/articles/science-behind-caffeine/)
 * [Invertebrate Welfare Cause Profile (Jason Schukraft, 2019)](https://forum.effectivealtruism.org/s/ptTzTsuDJEK8awdf6/p/EDCwbDEhwRGZjqY6S)
 * [Your Book Review: Progress And Poverty (Lars Doucet, 2021)](https://astralcodexten.substack.com/p/your-book-review-progress-and-poverty)

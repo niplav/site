@@ -119,6 +119,7 @@ Things I Would Like To Do But I'm Not Brave Enough
 * Use the generalized everything
 	* Write the first/second/third and so on [moment](https://en.wikipedia.org/wiki/Moment_\(mathematics\)) as `$\mathbb{M_{1}}, \mathbb{M_{2}}, \mathbb{M_{3}}$`.
 	* Only use the [generalized mean](https://en.wikipedia.org/wiki/Generalized_mean).
+	* Only refer to the Euclidean/Manhattan/max-norm with their respective `$p$`-norm.
 * Use a `$\newcommand{\bigplus}{\mathop{\Large+\normalsize}} \bigplus_{i \in I}V_i$` and `$\newcommand{\bigdot}{\mathop{\Large•\normalsize}} \bigdot_{i \in I}V_i$` or `$\newcommand{\bigmult}{\mathop{\Large*\normalsize}} \bigmult_{i \in I}V_i$` instead of `$\sum_{i \in I} V_i$` and `$\prod_{i \in I} V_i$`.<!--TODO: LW link-->
 * [This notation](https://www.youtube.com/watch?v=sULa9Lc4pck) for logarithms, exponents and roots.
 * Start with the integers `$\mathbb{Z}$`, and then specify when one wants only the positive numbers (`$\mathbb{Z}^+$`), the positive numbers with 0 (`$\mathbb{Z}^+_0$`), the negative numbers (`$\mathbb{Z}^-$`) and the negative numbers with 0 (`$\mathbb{Z}^-_0$`). That would be much nicer than using `$\mathbb{N}$`, since `$\mathbb{Z}$` is a [commutative ring](https://en.wikipedia.org/commutative_ring) under addition and multiplication.

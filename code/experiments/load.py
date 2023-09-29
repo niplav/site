@@ -80,10 +80,10 @@ def analyze(experiment, substance, placebo):
 
 	prod_a=pd.merge_asof(expa, productivity, left_on='datetime', right_on='datetime', direction='forward')
 	creat_a=pd.merge_asof(expa, creativity, left_on='datetime', right_on='datetime', direction='forward')
-	substance_productivity=prod_a.loc[meditations_a['substance']==substance]['productivity']
-	placebo_productivity=prod_a.loc[meditations_a['substance']==placebo]['productivity']
-	substance_creativity=creat_a.loc[meditations_a['substance']==substance]['creativity']
-	placebo_creativity=creat_a.loc[meditations_a['substance']==placebo]['creativity']
+	substance_productivity=prod_a.loc[prod_a['substance']==substance]['productivity']
+	placebo_productivity=prod_a.loc[prod_a['substance']==placebo]['productivity']
+	substance_creativity=creat_a.loc[creat_a['substance']==substance]['creativity']
+	placebo_creativity=creat_a.loc[creat_a['substance']==placebo]['creativity']
 
 	mood=expa.join(mood, how='cross')
 	mood=mood.loc[(mood['alarm']-mood['datetime']<pd.Timedelta('10h'))&(mood['alarm']-mood['datetime']>pd.Timedelta('0h'))]
