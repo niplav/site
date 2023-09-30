@@ -18,6 +18,8 @@ with fecundity.
 
 *—[Scott Alexander](https://slatestarcodex.com/), [“The Goddess of Everything Else”](https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/), 2015*
 
+Monthly updates are sent out [via substack](https://niplav.substack.com/).
+
 October 2023
 ------------
 
