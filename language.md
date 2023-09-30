@@ -338,6 +338,8 @@ Quines and Not-Quines
 * Dating advice falls into {easy, hard}×{concrete, diffuse}×{effective, ineffective} (easy & concrete & effective doesn't exist, of course)
 * {being competent, being incompetent}×{winning, losing}×{knowing why it happened, not knowing why it happened}
 * {"under-", "open-"}×{"handed", "ended"}
+* Coordination is {easy, difficult}×{attack, defense} is favored
+* {adequate, inadequate}×{exploitable, unexploitable}×{efficient, inefficient}
 
 Umeshisms
 ----------

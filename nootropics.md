@@ -25,7 +25,7 @@ do by recording the outcomes. That's what I did.
 | Value tracked                      | Effect size d (λ, p, σ change)              | Effect size d (λ, p, σ change)|
 | ---------------------------------- | --------------------------------            | ----------------------------- |
 |                                    | 200 mg Caffeine (n=1, m=50)                 | 500 mg L-theanine (n=1, m=50) |
-| Log-score substance prediction[^1] | -0.6                                        | |
+| Log-score substance prediction[^1] | -0.6                                        | -0.7                          |
 | Absorption                         | 0.61 (λ=13.3, p=0.00017, -0.072)            | |
 | Mindfulness                        | 0.58 (λ=11.8, p=0.0007, 0.021)              | |
 | Productivity                       | 0.58 (λ=28.9, p=1.3<sup>-12</sup>, 0.11)    | -0.28 (λ=5.51, p=0.109, 0.03) |
