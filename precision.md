@@ -8,11 +8,12 @@ information additional degrees of precision in forecasts add and at which
 point additional precision is just noise, and investigate these proposals
 with empirical forecasting data. I furthermore describe desirable criteria
 such functions ought to fulfill. I conclude that methods based on rounding
-probabilities are hot flaming garbage, methods based on [rounding odds
-or log-odds](#LogOdds_Rounding) are [regular garbage](#Problems), and
-methods based on [applying noise to log-odds](#Noise_in_LogOdds_Space)
-are [ok but sort of slow](#Advantages_and_Problems). Finding the [maximal
-informative precision](#Finding_Divergence) turns out to be tricky.__
+probabilities are confused as they treat probabilities on a linear
+scale, methods based on [rounding odds or log-odds](#LogOdds_Rounding)
+are [better but also not reliable](#Problems), and methods based on
+[applying noise to log-odds](#Noise_in_LogOdds_Space) are [ok but sort
+of slow](#Advantages_and_Problems). Finding the [maximal informative
+precision](#Finding_Divergence) turns out to be tricky.__
 
 <!--https://stanford.edu/~knutson/nfc/mellers15.pdf-->
 <!--https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/D9FAZL-->

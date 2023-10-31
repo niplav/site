@@ -115,8 +115,6 @@ Familiar](https://www.goodreads.com/book/show/23012473-one-rainy-day-in-may)…)
 Audio
 ------
 
-### Music
-
 <!--
 #### Albums
 
@@ -131,6 +129,8 @@ Reich](https://en.wikipedia.org/wiki/Steve_Reich), [Charles
 Mingus](https://en.wikipedia.org/wiki/Charles_Mingus), [Sonny
 Clark](https://en.wikipedia.org/wiki/Sonny_Clark), and [Vincent
 E. L.](https://vincentel.bandcamp.com/).
+
+### Music
 
 My favorite pieces of music are [Gavotte en
 Rondeau](https://www.youtube.com/watch?v=oO9lSd5NdvU) ([Johann
@@ -281,7 +281,7 @@ ol' reliable [Metaculus](https://www.metaculus.com) and
 Mathematics
 ------------
 
-My favorite mathematical structures are the
+My favorite mathematical structures are
 [∅](https://en.wikipedia.org/wiki/Empty_set) and [Post's
 lattice](https://en.wikipedia.org/wiki/Post's_lattice),
 my favorite theorem is the [Bulow-Klemperer
@@ -294,7 +294,7 @@ My *least* favorite mathematical mathematical technique is [spectral
 clustering](https://en.wikipedia.org/wiki/Spectral_clustering),
 and I am incredibly suspicious of [spectral graph
 theory](https://en.wikipedia.org/wiki/Spectral_graph_theory) in
-particular.
+general.
 
 My favorite algorithms are the [IC\*
 algorithm](https://rpatrik96.github.io/posts/2021/11/2021-11-22-poc8-ic-ic-ic),

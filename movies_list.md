@@ -11,7 +11,9 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
-* [Glass Onion]()
+* [Her](https://www.imdb.com/title/tt1798709/)
+* [Knives Out](https://www.imdb.com/title/tt8946378/)
+* [Glass Onion](https://www.imdb.com/title/tt11564570/)
 * [The Big Short](https://www.imdb.com/title/tt1596363/)
 * [Hamilton](https://www.imdb.com/title/tt8503618/)
 * [Oppenheimer](https://www.imdb.com/title/tt15398776/)

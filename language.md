@@ -340,6 +340,9 @@ Quines and Not-Quines
 * {"under-", "open-"}×{"handed", "ended"}
 * Coordination is {easy, difficult}×{attack, defense} is favored
 * {adequate, inadequate}×{exploitable, unexploitable}×{efficient, inefficient}
+* {be, take, give}×{a, the, ""} shit
+
+<!--TODO: add bullwhip effect thing from twitter-->
 
 Umeshisms
 ----------
