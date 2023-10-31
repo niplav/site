@@ -1821,6 +1821,7 @@ produces
 	* Also package that integrates it with `vis`
 	* Specific vis package for Wikipedia titles
 		* With sections?
+* `yt-dlp`: Add option for downloading substack podcast
 
 #### Void Packages
 

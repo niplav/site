@@ -58,11 +58,13 @@ Writing
 
 * [Cryonics Cost-Benefit Analysis](./considerations_on_cryonics.html)
 
+<!--
 ##### Pick-Up
 
 * [Pickup Reports](./pickup_reports.html)
 * [Notes on Pickup](./notes_on_pickup.html)
 * [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
+-->
 
 #### Mathematics
 

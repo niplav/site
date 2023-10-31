@@ -482,4 +482,4 @@ per 1990 US dollar
 > Recognizing that the lifespan is set by the overall energy release
 (L) and releasable energy (0.007 Mc²) gives the information.
 
-What information?
+What information exactly?
