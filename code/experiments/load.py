@@ -53,7 +53,7 @@ def get_flashcards():
 def get_masturbations():
 	masturbations=pd.read_csv('../../data/masturbations.csv')
 	masturbations.loc[masturbations['methods'].isna(),'methods']='n'
-	masturbations['datetime']=pd.to_datetime(masturbations['datetime'], utc=True)
+	masturbations['datetime']=pd.to_datetime(masturbations['datetime'], utc=True, format='mixed', dayfirst=False)
 
 	return masturbations
 

@@ -20,6 +20,7 @@ Words
 ### New
 
 * "endokremlinology"
+* "endochronology"
 * "quinpedalism"
 * "mesamodernism"
 * "tiktocracy"
@@ -417,6 +418,12 @@ unknown, only to be faintly perceived by posterior-maximizers who have
 trained their sensory organs to the maximal degree of data intake possible
 without (at the moment outside of military circles unavailable) BCIs. And
 yet, the 'works scale and scale, just as foretold by the 𝔊 prophet.
+
+----
+
+> Everyone who was a nerdy 15 year old boy interested in computers is
+now either a neoreactionary javascript machine or an anarcho-communist
+transwoman in a 6-person polycule.
 
 Sutras
 -------

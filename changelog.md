@@ -25,6 +25,8 @@ October 2023
 
 Meditation.
 
+* Added meditation outcomes to the [l-theanine RCT](./nootropics.html#Experiment_B_SelfBlinded_RCT)
+
 September 2023
 ---------------
 

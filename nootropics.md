@@ -593,8 +593,14 @@ significantly, but it's on the way there), but at least it improves my
 mood somewhat (though those results, besides contentment, might as well be
 due to random chance). No clear effect sizes with the flashcards either.
 
-So a hard pass on L-theanine, I think. Maybe it's better when combined
-with caffeine?
+#### Conclusion
+
+So a hard pass on L-theanine, I think. My current best guess is that
+as a night owl in the morning I'm still quite tired, and lack energy,
+with l-theanine just making me more sleepy than I already am. But then
+again, under Bonferroni-correction none of the p-values are statistically
+significant, so it looks like l-theanine just doesn't do anything. Maybe
+it's better when combined with caffeine?
 
 Melatonin
 ----------

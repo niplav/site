@@ -39,10 +39,10 @@ FACE? Well how about this:
 
 *[dynomight](https://dynomight.net/prediction-market-causation/), [“Prediction market does not imply causation”](https://dynomight.net/prediction-market-causation/), 2022*
 
-Well, I'm neither a billionaire nor the NSF or DARPA, but I __have__ run
+Well, I'm neither a billionaire nor the NSF or DARPA, but I
+__have__ run [two](./nootropics.html#Experiment_B_SelfBlinded_RCT)
 [shitty](./nootropics.html#Experiment_A_SelfBlinded_RCT) self-blinded
-[RCTs](./nootropics.html#Experiment_B_SelfBlinded_RCT)
-already, and I'm certainly not afraid of the
+RCTs on myself already, and I'm certainly not afraid of the
 [CFTC](https://en.wikipedia.org/wiki/Commodity_Futures_Trading_Commission).
 And indeed I don't have a shortage of ideas on things I
 [could](./todo.html#Quantified_Self) run RCTs on, but the time is scarce
@@ -62,11 +62,22 @@ while resolving the others as ambiguous.
 ### Timeline
 
 If the markets receive enough liquidity, I'll start the first experiment
-mid November, and the second one early next year, hopefully sometime
-in February.
+early in 2024, and the second one sometime in 2024 (depending on the
+exact experiment), hopefully finishing both before 2025.
 
 Markets
 --------
+
+* L-Theanine + Caffeine
+* Nicotine
+* Modafinil
+* Vitamin D
+* Vitamin B12
+* LSD Microdosing
+* CBD
+* THC
+* Aspartame
+* Phenylalanine
 
 Plea
 -----
@@ -89,4 +100,8 @@ markets](https://www.lesswrong.com/posts/ufW5LvcwDuL6qjdBT/latent-variables-for-
 Results
 --------
 
-[^1]: I refuse to call any platform on which people functionally give probabilities, but without staking real money, "prediction markets". Neither Metaculus not Manifold Markets are prediction markets, but PredictIt and Kalshi are.
+[^1]: I refuse to call any platform on which people functionally
+give probabilities, but without staking real money, "prediction
+markets". Neither [Metaculus](https://www.metaculus.com/) not [Manifold
+Markets](https://manifold.markets/) are prediction markets, but
+[PredictIt](https://www.predictit.org/) and Kalshi are.

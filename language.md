@@ -342,8 +342,6 @@ Quines and Not-Quines
 * {adequate, inadequate}×{exploitable, unexploitable}×{efficient, inefficient}
 * {be, take, give}×{a, the, ""} shit
 
-<!--TODO: add bullwhip effect thing from twitter-->
-
 Umeshisms
 ----------
 
@@ -382,6 +380,8 @@ Equivalences
 * David Gerard : Eliezer Yudkowsky :: Lucifer : God :: Émile Torres : William MacAskill :: Melkor : Eru Illúvatar
 * attention : distraction :: awareness : spacedoutness
 * moloch : slack :: goodhart : swamp
+
+<!--TODO: add bullwhip effect thing from twitter-->
 
 Better Words
 --------------
