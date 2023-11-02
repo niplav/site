@@ -1307,6 +1307,8 @@ Would the nth generalized odds just be the `$\log^{(n)}$`odds?
 Pet Peeves
 -----------
 
+<!--TODO: add annoyance about lack of clarity for metrics what is better or worse-->
+
 * Numerical scales for symmetric variables (e.g. quality/pleasure & pain/change) that are only positive. If you have a thing, the neutral point should not be five, but zero.
 * Reporting the number of lives lost, not the number of [QALYs](https://en.wikipedia.org/wiki/Quality-adjusted_life_year) (or [DALYs](https://en.wikipedia.org/wiki/Disability-adjusted_life_year) or [HALY+s](https://forum.effectivealtruism.org/posts/Lncdn3tXi2aRt56k5/health-and-happiness-research-topics-part-1-background-on#1__The_HALY_) or [sHALYs](https://forum.effectivealtruism.org/posts/Lncdn3tXi2Rt56k5/health-and-happiness-research-topics-part-1-background-on#2__The_sHALY) etc.) lost
 * Menus at restaurants that don't indicate whether the meal is vegetarian or not (ingredients often don't help: Restaurants will put meat (e.g. bacon cubes in salads) into dishes and not indicate it on the menu).
@@ -2145,6 +2147,7 @@ And then I merge `meditations` and `masturbations` so that each meditation
 is relation to the masturbation last before it:
 
 	meditations=meditations.sort_values('meditation_start')
+	masturbations=masturbations.sort_values('datetime')
 	combined=pd.merge_asof(meditations, masturbations, left_on='meditation_start', right_on='datetime', direction='backward')
 	combined['diff']=combined['meditation_start']-combined['datetime']
 
@@ -2198,6 +2201,19 @@ is appreciable.
 	mindfulness_rating              1.000000              0.542909  0.169900
 	concentration_rating            0.542909              1.000000 -0.040382
 	diff                            0.169900             -0.040382  1.000000
+
+What if we look at exclude up to 30 days?
+
+        mindfulness_correlations=[]
+        concentration_correlations=[]
+        for i in range(0,30):
+                combined_long=combined.loc[combined['diff']>pd.Timedelta(str(i)+'d')]
+                mindfulness_correlations+=combined_long[['mindfulness_rating', 'concentration_rating', 'diff']].corr(numeric_only=False)['mindfulness_rati
+ng']['diff']
+                concentration_correlations+=combined_long[['mindfulness_rating', 'concentration_rating', 'diff']].corr(numeric_only=False)['concentration_
+rating']['diff']
+
+<!--TODO: continue-->
 
 The correlation of ≅0.17 of abstinence-time with concentration is
 still not strong enough to convince me, but perhaps points in some
@@ -2407,3 +2423,11 @@ The best solution I've found is to add an invisible further edge `c->d`:
 The result looks slightly wonky. but works. If one wants more assurances,
 one can also add the line `{ordering=out; c};` to make it more likely
 that the red edge isn't just banished to the side.
+
+PredictionBook Archive
+-----------------------
+
+Since PredictionBook is shutting down, I thought it'd be good to
+`wget` the site and make a static archive available. It is available
+[here](./doc/misc/predictionbook.com.tar.gz), and can be extracted via
+`tar -xzf predictionbook.com.tar.gz`.
