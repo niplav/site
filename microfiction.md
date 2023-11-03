@@ -26,9 +26,24 @@ Words
 * "tiktocracy"
 * "sapolskywave"
 * "technocratsacy"
+* "wisdoom"
+* "croyncs"
 * ["rijndaël](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)[ites"](https://en.wikipedia.org/wiki/Raëlism)
+* "mushroam"
+* "goofhart"
+* "beautifoul"
+* "zillenialism"
+* "circel"
+* "causaluminosity"
+* "waldschratstyle"
+* "conjectile"
 * "licerology": the study of betting and auctions, auction theory
 * "autolykophilia": furrydom
+
+#### Switcheroos
+
+* "anecdoche"/"synecdote"
+* "cinary"/"bontinuous"
 
 #### Morphisms
 
@@ -53,6 +68,7 @@ Words
 	* "etwas auf Vordermann bringen"
 	* "mit Hängen und Würgen"
 	* "hanebüchen"
+	* "Verdauungsspaziergang"
 
 Poems
 ------
@@ -96,6 +112,25 @@ tree.
 at the Sloan Great Wall  
 and listened to the pulsars sing
 
+----
+
+> fuck mary eat  
+pray love kill
+
+----
+
+> joy in the merely valuable
+
+----
+
+*landsailor voice*<!--TODO: link-->
+
+ >Truthwarden,
+Shelves upon shelves
+All with your secrets unlocked
+>
+> Grantmaker,
+
 ### German
 
 > Ein Wille wie Silizium, ein Auftreten wie Sand, ein Gemüt wie von
@@ -138,6 +173,10 @@ geführt; —
 ----
 
 > Sed nihil subsequor.
+
+----
+
+> L'an deux-mille cent ne passera pas.
 
 ### Senryū
 
@@ -380,6 +419,14 @@ spot on the happiness/productivity Pareto frontier, dummy.”
 >  “Rename your company to ClosedAI. Stop your biggest training runs. Pivot to mechanistic interpretability. Shut it all down.”  
 >  “………Selfie?”
 
+------
+
+> "Nice category you have there. Would be a shame if someone were to… queer it"
+
+-----
+
+> If you're going to get pascal-mugged, at least get mugged in style.
+
 ### Things to Shout
 
 > “Stop narrativizing yourself! Stop narrativizing yourself!”
@@ -391,6 +438,10 @@ spot on the happiness/productivity Pareto frontier, dummy.”
 ----
 
 > “Markets! Hah! Pale shadows at best.”
+
+----
+
+> "Holding back human capabilities is by itself not a wisdom intervention!"
 
 Wrong Quotes
 -------------
@@ -425,6 +476,18 @@ yet, the 'works scale and scale, just as foretold by the 𝔊 prophet.
 now either a neoreactionary javascript machine or an anarcho-communist
 transwoman in a 6-person polycule.
 
+----
+
+> Today, scientists fear the corpses
+
+----
+
+> Become the inscrutable webs of curvings glimmering around the buzzing moons
+
+----
+
+> Cultivating my garden of abominable philosophies.
+
 Sutras
 -------
 
@@ -439,12 +502,29 @@ Tom Swifties
 * "These mussels weren't good anymore!", Tom exclamated.
 * "Then you'll have to find an atomic solution", Tom departed.
 
+Mathwords
+----------
+
+* Warm and wet game theory
+* Adjacency tensor
+* The nondual of an optimization problem
+* The `$\mathbf{0}$`-vector can also be called `$\hat{r}$`
+* The no cap theorem, the fr fr lemma
+
+Possible Image Generation Prompts
+----------------------------------
+
+* "A WW2 type poster urging its citizens to donate TPU time to the government"
+* "A quokka the size and strength of a bear"
+* "A fox with the multi-faceted eyes of a dragonfly"
+
 Other
 ------
 
 *	Browers fix-point theorem as inane self-help wisdom: "Even if
 	you continuously transform yourself, a small part of you will
 	still stay the same."
+* MTF π-12 “tensor grease”
 
 Funny Internet Images
 ----------------------

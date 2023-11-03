@@ -252,6 +252,7 @@ Existence of Long Tails for Bliss and Suffering")<!--TODO: better links for this
 		atoms](https://www.lesswrong.com/posts/RLScTpwc5W2gGGrL9/identity-isn-t-in-specific-atoms)
 		10x cheaper, and nobody cares about your authentic
 		diamond.
+33. Carrying around a USB stick on a keychain is pretty useful in some situations.
 
 See Also
 ---------
