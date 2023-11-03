@@ -316,6 +316,7 @@ Puns
 ### German
 
 * Dafür, daß sie Jainisten heißen, sind sie aber ganz schön resolut.
+* Traurig ist einfach ein Trauring ohne neutrales Element.
 
 Quines and Not-Quines
 ----------------------
@@ -346,6 +347,7 @@ Umeshisms
 ----------
 
 * If you can follow your own ethical rules, your own ethical rules are not demanding enough.
+* If you're not committing any genocides, you're not proud enough of your country.
 
 Nominative Determinisms
 ------------------------
@@ -380,6 +382,7 @@ Equivalences
 * David Gerard : Eliezer Yudkowsky :: Lucifer : God :: Émile Torres : William MacAskill :: Melkor : Eru Illúvatar
 * attention : distraction :: awareness : spacedoutness
 * moloch : slack :: goodhart : swamp
+* [anarchy:singleton::ANN computing:ALU computing](https://twitter.com/exdiegesis/status/1719884031871905953)
 
 <!--TODO: add bullwhip effect thing from twitter-->
 
@@ -465,6 +468,12 @@ Missing Emojis
 * Erlenmeyer flask
 * Red star
 * Grass
+
+New Eponymous Laws
+-------------------
+
+* [Zeynep's razor](./notes.html#Examples_and_Counterexamples_for_Zeyneps_Razor): "first-order effects are rarely outweighed by rebound effects"
+* Guzey's law: Good hobbyist internet science writers & scientists are afflicted by a peculiar disease: they produce some (or a lot of) good output, and then someone gives them enough money to start an organization, and they never write anything interesting again.
 
 Daygame
 --------
