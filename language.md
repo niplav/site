@@ -218,6 +218,7 @@ Asymmetries in Languages
 
 ### German
 
+* German distinguishes between structural "same" ("das gleiche") and indexcial "same" (dasselbe")
 * Wenn man das weibliche Gegenstück zum "Patriarchen" benennen will, welches Wort verwendet man? Üblicherweise ist die Antwort "die Matriarchin", aber das Wort ist redundant: das Geschlecht wird sowohl durch das "-in" Postfix als auch das Präfix "Matr-" signalisiert — aber das Wort "Matriarch" klingt bestenfalls merkwürdig. Was tun?
 * Wenn man "0,5 Eier" sagt, ist "Eier" im Plural, aber bei "½ Ei" ist "Ei" im Singular. Wieso?
 * Man kann zwischen "keine Pferde" und "kein Pferd" unterscheiden (Žižek approves), aber nicht zwischen "null Pferde" und "null Pferd".
@@ -331,18 +332,6 @@ Quines and Not-Quines
 * “is socially constructed” is socially constructed
 * “I will do as I please” will do as it pleases
 
-2×2s, 2×3s and more
---------------------
-
-* {What we're (not) able to do now}×{What we (don't) have to do now}
-* {Lives in social/physical reality}×{views things generally as positive/zero/negative sum}
-* Dating advice falls into {easy, hard}×{concrete, diffuse}×{effective, ineffective} (easy & concrete & effective doesn't exist, of course)
-* {being competent, being incompetent}×{winning, losing}×{knowing why it happened, not knowing why it happened}
-* {"under-", "open-"}×{"handed", "ended"}
-* Coordination is {easy, difficult}×{attack, defense} is favored
-* {adequate, inadequate}×{exploitable, unexploitable}×{efficient, inefficient}
-* {be, take, give}×{a, the, ""} shit
-
 Umeshisms
 ----------
 
@@ -382,9 +371,24 @@ Equivalences
 * David Gerard : Eliezer Yudkowsky :: Lucifer : God :: Émile Torres : William MacAskill :: Melkor : Eru Illúvatar
 * attention : distraction :: awareness : spacedoutness
 * moloch : slack :: goodhart : swamp
-* [anarchy:singleton::ANN computing:ALU computing](https://twitter.com/exdiegesis/status/1719884031871905953)
+* [anarchy : singleton :: ANN computing : ALU computing](https://twitter.com/exdiegesis/status/1719884031871905953)
+* Need for cognition : charisma :: need for social interaction : intelligence
+* Christianity : Teilhard de Chardin :: Buddhism : Romeo Stevens
+* [log odds : probability :: epistemic status : confidence level](https://www.lesswrong.com/posts/xF7gBJYsy6qenmmCS/don-t-die-with-dignity-instead-play-to-your-outs?commentId=P9EiLDCgxRwJNi6bs)
 
 <!--TODO: add bullwhip effect thing from twitter-->
+
+2×2s, 2×3s and more
+--------------------
+
+* {What we're (not) able to do now}×{What we (don't) have to do now}
+* {Lives in social/physical reality}×{views things generally as positive/zero/negative sum}
+* Dating advice falls into {easy, hard}×{concrete, diffuse}×{effective, ineffective} (easy & concrete & effective doesn't exist, of course)
+* {being competent, being incompetent}×{winning, losing}×{knowing why it happened, not knowing why it happened}
+* {"under-", "open-"}×{"handed", "ended"}
+* Coordination is {easy, difficult}×{attack, defense} is favored
+* {adequate, inadequate}×{exploitable, unexploitable}×{efficient, inefficient}
+* {be, take, give}×{a, the, ""} shit
 
 Better Words
 --------------

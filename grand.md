@@ -483,3 +483,18 @@ per 1990 US dollar
 (L) and releasable energy (0.007 Mc²) gives the information.
 
 What information exactly?
+
+#### 5.3.2
+
+##### Bureaucracies
+
+> as they accumulate, the number of rules **needed seem** to diminish
+
+Emphasis mine.
+
+#### 5.3.4 Software ageing
+
+> There also appears to be a bias in people towards adding **rather removing**
+things when improving a situation.
+
+Missing "than" between "rather" and "removing".

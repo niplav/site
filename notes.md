@@ -1209,6 +1209,7 @@ Some Civilizational Inadequacies
 * TSA security theater
 * A lot of terminology in mathematics, for example using "numerator"/"denominator" instead of "upper number"/"lower number" when talking about [fractions](https://en.wikipedia.org/wiki/Fraction) (which would be vastly easier to understand/remember *and* in one case even has fewer syllables)
 * Recycling
+* People wear glasses and usually clean the *lenses*, but I've never heard of anyone who washes the *frame* of their glasses, despite wearing them on their face nearly the entire day.
 
 <!--
 TODO: I got pushback on LW for this:
@@ -2204,6 +2205,7 @@ is appreciable.
 	concentration_rating            0.542909              1.000000 -0.040382
 	diff                            0.169900             -0.040382  1.000000
 
+<!--
 What if we look at exclude up to 30 days?
 
         mindfulness_correlations=[]
@@ -2214,6 +2216,8 @@ What if we look at exclude up to 30 days?
 ng']['diff']
                 concentration_correlations+=combined_long[['mindfulness_rating', 'concentration_rating', 'diff']].corr(numeric_only=False)['concentration_
 rating']['diff']
+
+-->
 
 <!--TODO: continue-->
 
@@ -2433,3 +2437,23 @@ Since PredictionBook is shutting down, I thought it'd be good to
 `wget` the site and make a static archive available. It is available
 [here](./doc/misc/predictionbook.com.tar.gz), and can be extracted via
 `tar -xzf predictionbook.com.tar.gz`.
+
+Downloading a Substack Podcast by Hand
+---------------------------------------
+
+To my surprise, [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) can't
+download [Substack](https://en.wikipedia.org/wiki/Substack) podcasts. But
+they *can* be downloaded with a little bit of effort by hand.
+
+Let's take [this podcast
+episode](https://uncoiling.substack.com/p/romeo-stevens-an-orientation-to-practice-part-1)
+as an example. Inspecting the audio player, we can find the following HTML block:
+
+	<audio src="/api/v1/audio/upload/3b5196e4-3c8e-40aa-b1a2-d334923ca874/src">Audio playback is not supported on your browser. Please upgrade.</audio>
+
+So we can simply plug the source in
+after the global substack domain, which gets us
+<https://substack.com/api/v1/audio/upload/3b5196e4-3c8e-40aa-b1a2-d334923ca874/src>.
+Calling that address starts the download process automatically.
+
+Adding the download functionality to `yt-dlp` is on my todo list.

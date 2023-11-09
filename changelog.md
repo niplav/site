@@ -20,12 +20,28 @@ with fecundity.
 
 Monthly updates are sent out [via substack](https://niplav.substack.com/).
 
+November 2023
+--------------
+
+* [Playing with Language](./language.html): [New Eponymous Laws](./language.html#New_Eponymous_Laws)
+* [Microfiction](./microfiction.html): [Switcheroos](./microfiction.html#Switcheroos)
+* [Notes](./notes.html)
+	* [Downloading a Substack Podcast by Hand](./notes.html#Downloading_a_Substack_Podcast_by_Hand)
+	* [PredictionBook Archive](./notes.html#PredictionBook_Archive)
+
 October 2023
 ------------
 
 Meditation.
 
 * Added meditation outcomes to the [l-theanine RCT](./nootropics.html#Experiment_B_SelfBlinded_RCT)
+
+### Links
+
+* [The meta-institutional bottleneck (Eli Tyre, 2023)](https://musingsandroughdrafts.com/2023/09/24/the-meta-institutional-bottleneck/)
+* [A logic to deal with inconsistent preferences (Bob Jacobs, 2023)](https://bobjacobs.substack.com/p/a-logic-to-deal-with-inconsistent): A bunch of people are looking into value formation/resolution now, see also [Value systematization: how values become coherent (and misaligned) (Richard Ngo, 2023)](https://www.lesswrong.com/posts/J2kpxLjEyqh6x3oA4/value-systematization-how-values-become-coherent-and) and [The Value Change Problem (Nora Amann, 2023)](https://www.lesswrong.com/s/3QXNgNKXoLrdXJwWE). This makes me happy! Also a bit nervous because I have a long post+explainer coming up on this, and I don't want other people to steal my show :-)
+* [[FR] It was acceptable in the ’00s (Clarky Khat, 2023)](https://scalingthemountain6.wordpress.com/2023/04/01/fr-it-was-acceptable-in-the-00s/): Hilarious constrained writing, if you know about a very specific episode of US pickup culture. Pickup "artists" also engage in [the craft of deliberate lexicogenesis](https://tsvibt.blogspot.com/2023/05/the-possible-shared-craft-of-deliberate.html).
+* [How to Train Really Large Models on Many GPUs? (Lilian Weng, 2021)](https://lilianweng.github.io/posts/2021-09-25-train-large/): Just some satisfying good ol' computer science.
 
 September 2023
 ---------------
