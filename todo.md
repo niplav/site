@@ -80,14 +80,12 @@ Existing Texts
 	* Move the [PredictionBook download code](./range_and_forecasting_accuracy.html#For_PredictionBook) to the [PredictionBook API](https://github.com/bellroy/predictionbook/blob/master/API.md)
 	* Find Muehlhauser email with additional source
 	* Extend the analysis to more datapoints
-		* Extend the analysis to real Metaculus data
 		* Extend to more datasets
 			* <https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters>
 	* Add a literature review
 		* <https://rethinkpriorities.org/publications/how-does-forecast-quantity-impact-forecast-quality-on-metaculus>
 		* <https://rethinkpriorities.org/publications/an-analysis-of-metaculus-predictions-of-future-ea-resources>
 		* <https://rethinkpriorities.org/publications/an-examination-of-metaculus-resolved-ai-predictions>
-		* <https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons>
 		* <https://rethinkpriorities.org/publications/potentially-great-ways-forecasting-can-improve-the-longterm-future>
 		* <https://rethinkpriorities.org/publications/why-short-range-forecasting-can-be-useful-for-longtermism>
 		* <https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting>
@@ -1265,6 +1263,9 @@ Game. Even those odds likely overstate the number of Players in the world.
 * /u/--MCMC--
 * Jay Sanguinetti
 * [Mike Battaglia](https://en.xen.wiki/w/User:Mike_Battaglia)
+* [@norvid_studies](https://twitter.com/norvid_studies)
+* [@exdiegesis](https://twitter.com/exdiegesis)
+* [@TeortaxesTex](https://twitter.com/TeortaxesTex)
 
 ### Fiction
 

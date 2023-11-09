@@ -39,6 +39,7 @@ HTML=index.html \
 	bcis_and_alignment.html \
 	buch_stab.html \
 	circle_combinations.html \
+	coherence.html \
 	consciousness_diagram.html \
 	considerations_on_cryonics.html \
 	cryonics_outside_us.html \

@@ -80,6 +80,7 @@ Poems
 * Gah, can't [snarf](https://9p.io/sys/doc/sam/sam.pdf#page=14) [evince](https://en.wikipedia.org/wiki/Evince).
 * You can sit here and be okay, if you want.
 * gatekeep girlboss gaslight givewell
+* joy in the merely valuable
 
 > Paradises, peacocks, peaches and palimpsests! Prussians, prowlers plus
 plumous penguins, priestess parks principles—priceless.
@@ -116,10 +117,6 @@ and listened to the pulsars sing
 
 > fuck mary eat  
 pray love kill
-
-----
-
-> joy in the merely valuable
 
 ----
 
@@ -425,7 +422,7 @@ spot on the happiness/productivity Pareto frontier, dummy.”
 
 -----
 
-> If you're going to get pascal-mugged, at least get mugged in style.
+> "If you're going to get pascal-mugged, at least get mugged in style."
 
 ### Things to Shout
 
@@ -487,6 +484,10 @@ transwoman in a 6-person polycule.
 ----
 
 > Cultivating my garden of abominable philosophies.
+
+-----
+
+> I put on my best reference class tennis outfit…
 
 Sutras
 -------
