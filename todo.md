@@ -1879,35 +1879,13 @@ Wikipedia Articles
 * List of important publications in mathematics is very much too opinionated. Reviews like this don't quite belong on Wikipedia, so improve
 * Price of stability/price of anarchy:
 	* Collect bounds
-* Network cost-sharing game
 * Full list of 10,000 vital articles
 * Improve Mathematical Alphanumeric Symbols: Add explanation of how to write them in `$\LaTeX$`
 * Add IPA for MECE pronounciation part
-* MDMA
-	* Add that people who consume MDMA grind their teeth, and a common method used to assuage that is to chew chewing gum during while rolling
-
-Lesswrong wiki
----------------
-
-* Add tag for Interpretability & Mechanistic Interpretability
-* [Textbook recommendations](https://www.lesswrong.com/posts/xg3hXCYQPJkwHyik2/the-best-textbooks-on-every-subject) into wiki page
-	* same for:
-		* [Boring Advice Repository](https://www.lesswrong.com/posts/HEn2qiMxk5BggN83J/boring-advice-repository)
-		* [Relationship Advice Repository](https://www.lesswrong.com/posts/AvjbBjAAbKBk73v5F/relationship-advice-repository)
-		* [Best Software For Every Need](https://www.lesswrong.com/posts/zHS4FJhByRjqsuH4o/the-best-software-for-every-need)
-		* [Useful Concepts Repository](https://www.lesswrong.com/posts/umzNiYpHLypdcXuEf/useful-concepts-repository)
-		* [Solved Problems Repository](https://www.lesswrong.com/posts/iTzvJ7kKK2TYJhYHB/solved-problems-repository)
-		* [Original Research on LessWrong](https://www.lesswrong.com/posts/jTkmEGWM4dJAfE62W/original-research-on-less-wrong)
 
 Sequences
 ----------
 
-* LessWrong
-	* Inconsistent Values and Extrapolation
-		* Add <https://www.lesswrong.com/posts/6RjL996E8Dsz3vHPk/two-more-decision-theory-problems-for-humans>
-	* Much More Than You Wanted To Know
-	* Advances in Theoretical Group Rationality
-	* Put Stuart Armstrongs posts on Acausal Trade into a sequence
 * EA Forum
 	* Cause Area Investigations
 

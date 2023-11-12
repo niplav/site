@@ -1,72 +1,54 @@
-using CSV, DataFrames, Distributions
-using Distributions, Statistics, ConjugatePriors
+using CSV
+using Distributions
+using DataFrames
 
-approaches=CSV.read("../../data/daygame_approaches.csv", DataFrame)
-successes=approaches[!,["Location", "Contact info"]]
-rename!(successes, Symbol("Contact info")=>:Contact)
-replace!(successes[!, :Contact], ["number" => "1", "insta" => "1", "insta given" => "1", "number given" => "1", "facebook" => "1", "email" => "1"]...)
-successes=coalesce.(successes, "0")
-successes[!, :Contact]=map(string->parse(Int, string), successes[!, :Contact])
-
-#TODO: remove the following line later, only bc bad data
-
-successes[!,:Location]=begin
-	unique_locations=sort(unique(successes.Location))
-	ids=Dict(s => i for (i,s) in enumerate(unique_locations))
-	map(s -> ids[s], successes.Location)
+function select_location(dg_locations, successes, failures)
+    num_locations = length(dg_locations)
+    theta = [Beta(successes[i] + 1, failures[i] + 1) for i in 1:num_locations]
+    samples = [rand(theta[i]) for i in 1:num_locations]
+    return dg_locations[argmax(samples)]
 end
 
-success_freq=combine(groupby(successes, :Location), :Contact => mean)
-
-struct BetaBernoulli
-	pθ::Array{Beta{Float64}}
-end
-
-BetaBernoulli(K) =
-	BetaBernoulli([Beta(1, 1) for _ in 1:K])
-
-Base.length(b::BetaBernoulli) = length(b.pθ)
-Base.iterate(b::BetaBernoulli) = b.pθ[1], 1
-Base.iterate(b::BetaBernoulli, i) =
-	i < length(b) ? (b.pθ[i+1], i+1) : nothing
-
-(b::BetaBernoulli)(act) = begin
-	θ = rand.(b.pθ)
-	a = argmax(θ)
-	r = act(a)
-	b.pθ[a] = posterior(b.pθ[a], Bernoulli, [r])
-	a
-end
-
-struct PalmerEnv
-	locations::DataFrame
-	success_probs::Matrix{Bernoulli{Float64}}
-end
-
-PalmerEnv(locations, success_probs) =
-	PalmerEnv(locations,
-			  Bernoulli.(success_probs))
-
-(env::PalmerEnv)(location) =
-	rand(env.success_probs[location])
-
-Base.size(env::PalmerEnv, kwargs...) = size(env.locations, kwargs...)
-Base.getindex(env::PalmerEnv, i) = env.locations[i,:]
-Base.rand(env::PalmerEnv, n::Integer = 1) = env[rand(1:size(env, 1), n)]
-
-#env=PalmerEnv(successes, success_freq)
-
-expected_reward(location)=success_freq.Contact_mean[location]
-agent=BetaBernoulli(length(success_freq.Location))
-θ_max=expected_reward(argmax(success_freq.Contact_mean))
-
-run(env, agent, θmax, expected_reward; rounds) = begin
-    map(1:rounds) do _
-        penguin = first(rand(env))
-        a = agent(fish -> env(fish, penguin))
-        θ = expected_reward(a)
-        ρ = θmax - θ
+function update_location(dg_locations, selected_location, success)
+    location_index = findfirst(x -> x == selected_location, dg_locations)
+    if success
+        successes[location_index] += 1
+    else
+        failures[location_index] += 1
     end
 end
 
-#regrets = run(env, agent, θ_max, expected_reward; rounds = 1000);
+# Load data from CSV
+data = CSV.File("../../data/daygame_approaches.csv") |> DataFrame
+
+# Extract location and enjoyment information
+locations = data.Location
+contacts = ismissing.(data."Contact info")
+
+# Define ice cream locations
+dg_locations = unique(locations)
+
+# Initialize success and failure counts
+successes = zeros(Int, length(dg_locations))
+failures = zeros(Int, length(dg_locations))
+
+# Perform the bandit algorithm
+for i in 1:length(locations)
+    selected_location = select_location(dg_locations, successes, failures)
+
+    # Simulate success or failure based on "Enjoyment" column
+    success = contacts[i] == 1
+
+    # Update success/failure counts
+    update_location(dg_locations, selected_location, success)
+end
+
+# Print the estimated success probabilities
+for i in 1:length(dg_locations)
+    success_prob = successes[i] / (successes[i] + failures[i])
+    println("Shop: $(dg_locations[i]), Success Probability: $success_prob")
+end
+
+# Choose the best location based on the estimated success probabilities
+best_location = dg_locations[argmax(successes + failures)]
+println("Best Shop: $best_location")

@@ -538,6 +538,10 @@ I continue to maintain that this was a good use of my time.
 
 ----
 
+![](./img/memes/chatgpt_bluescreen.png)
+
+----
+
 ![](./img/memes/last_thing_dyson_sphere.jpg)
 
 ----
@@ -563,6 +567,10 @@ I continue to maintain that this was a good use of my time.
 ----
 
 ![](./img/memes/wish_all_dukkha.jpg)
+
+----
+
+![](./img/memes/iceberg.jpg)
 
 ### Ahegao
 
