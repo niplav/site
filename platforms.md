@@ -100,8 +100,4 @@ markets](https://www.lesswrong.com/posts/ufW5LvcwDuL6qjdBT/latent-variables-for-
 Results
 --------
 
-[^1]: I refuse to call any platform on which people functionally
-give probabilities, but without staking real money, "prediction
-markets". Neither [Metaculus](https://www.metaculus.com/) not [Manifold
-Markets](https://manifold.markets/) are prediction markets, but
-[PredictIt](https://www.predictit.org/) and Kalshi are.
+[^1]: I refuse to call any platform on which people functionally give probabilities, but without staking real money, "prediction markets". Neither [Metaculus](https://www.metaculus.com/) not [Manifold Markets](https://manifold.markets/) are prediction markets, but [PredictIt](https://www.predictit.org/) and Kalshi are.
