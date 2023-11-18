@@ -2392,6 +2392,9 @@ which always feels hollow without the math).
 
 ### 2014
 
+* [Perfecting the Art of Sensible Nonsense (Erica Klarreich, 2014)](https://www.quantamagazine.org/in-cryptography-advances-in-program-obfuscation-20140130/)
+* [A New Physics Theory of Life (Natalie Wolchover, 2014)](https://www.quantamagazine.org/a-new-thermodynamics-theory-of-the-origin-of-life-20140122/)
+
 Ordering Outgoing *and* Incoming Edges in Dot
 ----------------------------------------------
 

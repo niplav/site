@@ -303,3 +303,15 @@ This has some advantages and some disadvantages:
 
 Overall, for me the effects of removing one weasel strongly outweigh
 the downsides, but your mileage may vary.
+
+<!--
+Using Multi-Armed Bandits to Select Daygame Locations
+------------------------------------------------------
+
+Given the [data of my daygame approaches](./data.html#Daygame), I've
+wondered for quite a while how I could use that data to make improve
+my game. I don't think I've found anything solid yet, so instead I'm
+going to try to use that data to estimate where I should do my next
+daygame session.
+
+-->

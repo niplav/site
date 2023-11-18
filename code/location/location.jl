@@ -36,7 +36,7 @@ failures = zeros(Int, length(dg_locations))
 for i in 1:length(locations)
     selected_location = select_location(dg_locations, successes, failures)
 
-    # Simulate success or failure based on "Enjoyment" column
+    # Simulate success or failure based on "Contact info" column
     success = contacts[i] == 1
 
     # Update success/failure counts
@@ -46,9 +46,9 @@ end
 # Print the estimated success probabilities
 for i in 1:length(dg_locations)
     success_prob = successes[i] / (successes[i] + failures[i])
-    println("Shop: $(dg_locations[i]), Success Probability: $success_prob")
+    println("Location: $(dg_locations[i]), Success Probability: $success_prob")
 end
 
 # Choose the best location based on the estimated success probabilities
 best_location = dg_locations[argmax(successes + failures)]
-println("Best Shop: $best_location")
+println("Best location: $best_location")
