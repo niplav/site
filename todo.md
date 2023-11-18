@@ -173,6 +173,7 @@ Existing Texts
 		* This also feels relevant to Ontological crises/shifts: Is there a canonical way to map from the human preference simplex to the AI preference simplex, if we know the concept equivalences? (A is just 30% B and 70% C, so we can split the simplex into another dimension here…)
 * BCIs and Alignment
 	* Data for scaling laws from BCIs
+	* Add proposal for activation steering with BCIs
 
 Texts
 -----
@@ -410,13 +411,13 @@ Texts
 	* Masturbation
 	* Substances
 * Find easy ways to track
-	* Sleep
 	* Computer usage
 		* Fix awitt
 	* Personal forecast accuracy?
 	* Air pollution
 	* CO₂ levels
 	* Fasts
+	* Brightness
 * Methods
 	* Brown Noise
 	* Intermittent fasting
@@ -773,6 +774,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Testing CFARs techniques and anti-procrastination techniques
 	* Use:
 		* CFAR handbook
+		* Hammertime & others
 		* Lesswrong post about anti-procrastination techniques
 * Universe good or bad calculation
 * More Heinz Ketchup than cum
@@ -1068,7 +1070,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Which Coherence Axioms are Hard to Violate? Which Easy?
 	* Metrics for Goodhartability
 		* Given a function `$f$` and an approximation `$a$`, how do we measure the Goodhartability of `$f$` when maximizing `$a$`, even in principle?
-	* Bounded Population Axiology
+* Bounded Population Axiology
 
 ### Notes
 
@@ -1689,6 +1691,7 @@ Programming
 * EA idea repository
 * Open source onlyfans
 * `dmenu` × `fzf`
+* Structural regular expressions library for rust (??), myrddin (??)
 
 ### Klong Libraries
 
@@ -1849,23 +1852,15 @@ Wikipedia Articles
 * Nanosystems: Molecular Machinery Manufacturing and Computation
 * Devonian Toolkit
 	* <https://www.annualreviews.org/doi/full/10.1146/annurev-ento-011613-162041>
-* Banks Set (social choice theory)
-* Hodge Decomposition from combinatorial hodge theory
-* Minimalist conjecture (see [here](https://www.quantamagazine.org/mathematicians-shed-light-on-minimalist-conjecture-20130709/))
 
 ### Improve
 
 * Patri Friedman site states he considers himself a rationalist, but that links to the page on philosophical rationalism, while I suspect this refers to the LW variety
-* What the fuck is going on with the The Gods Themselves page?
 * Wikipedia pages on symbols in mathematics and physics are sprawling and confused, clean them up
 * Use the definition from “Algorithmic Game Theory” of correlated equilibrium in the article Correlated equilibrium, the current explanation uses (but doesn't introduce) s_i
 	* Yeah, the current explanation is barely comprehensible
-* Find Ian Goodfellow's true year of birth
-* Add missing national anthems to <https://en.wikipedia.org/wiki/List_of_national_anthems>
-* Add "See Also" section to Causal Markov Condition
 * Bitte bitte
 	* Watch the video and provide a better summary
-* Rewrite the Attention Span article
 * [Average Human Height by Country](https://en.wikipedia.org/wiki/Average_human_height_by_country), missing entries (various tiny European countries):
 	* Liechtenstein
 	* Monaco
@@ -1879,7 +1874,6 @@ Wikipedia Articles
 * List of important publications in mathematics is very much too opinionated. Reviews like this don't quite belong on Wikipedia, so improve
 * Price of stability/price of anarchy:
 	* Collect bounds
-* Full list of 10,000 vital articles
 * Improve Mathematical Alphanumeric Symbols: Add explanation of how to write them in `$\LaTeX$`
 * Add IPA for MECE pronounciation part
 
@@ -1940,6 +1934,7 @@ Metaculus Questions
 * Some questions about the performance of BCIs
 * Conditional on China invading Taiwan, will TSMC blow up its factories?
 * Question about best performance of homomorphic encryption
+* Question about the best performance of indistinguishability obfuscation
 
 Structure
 ---------

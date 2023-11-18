@@ -498,3 +498,14 @@ Emphasis mine.
 things when improving a situation.
 
 Missing "than" between "rather" and "removing".
+
+#### 5.6.2 Long-term cultural continuity
+
+##### Detecting and retrodicting the past
+
+> but it might also be that civilizations on average tend to make
+artefacts and processes that in make retrodiction far easier than in
+the natural state
+
+"that in make retrodiction far easier" is either confusingly written or
+grammatically incorrect.

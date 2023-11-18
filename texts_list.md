@@ -17,6 +17,16 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Reinforcement Learning (DQN) Tutorial (Adam Paszke/Mark Towers, 2023)](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
+* [Racing through a minefield: the AI deployment problem (Holden Karnofsky, 2022)](https://www.cold-taes.com/racing-through-a-minefield-the-ai-deployment-problem/)
+* [ML Systems Will Have Weird Failure Modes (Jacob Steinhardt, 2022)](https://bounded-regret.ghost.io/ml-systems-will-have-weird-failure-modes-2/)
+* |8 Professionalität im Kindergarten (Melanie Kuhn, 2013)
+* [Cover letter (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Cover_letter)
+* [Logical depth (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Logical_depth)
+* [Bennett's law (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Bennett's_law)
+* [Bennett's laws (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Bennett's_laws)
+* [Speed prior (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Speed_prior)
+* Single-Turn Debate Does Not Help Humans Answer Hard Reading-Comprehension Questions (Alicia Parrish/Angelica Chen/Ethan Perez/Harsh Trivedi/Jason Phang/Nikita Nangia/Samuel R. Bowman, 2022)
 * [Why indoor lighting is hard to get right and how to fix it (Richard Korzekwa, 2020)](https://www.lesswrong.com/posts/7izSBpNJSEXSAbaFh/why-indoor-lighting-is-hard-to-get-right-and-how-to-fix-it)
 * fzf(1) (fzf developers, 2023)
 * [Possibilizing vs. actualizing (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/12/possibilizing-vs-actualizing.html)

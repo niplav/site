@@ -11,6 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* Killers of the Flower Moon
 * [Sweeney Todd](https://www.imdb.com/title/tt0408236/)
 * [Her](https://www.imdb.com/title/tt1798709/)
 * [Knives Out](https://www.imdb.com/title/tt8946378/)
