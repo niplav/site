@@ -68,16 +68,39 @@ exact experiment), hopefully finishing both before 2025.
 Markets
 --------
 
-* L-Theanine + Caffeine
-* Nicotine
-* Modafinil
-* Vitamin D
-* Vitamin B12
-* LSD Microdosing
-* CBD
-* THC
-* Aspartame
-* Phenylalanine
+Some experiments can be self-blinded, especially ones that involve
+substances, others can not because they require me to engage in an
+activity or receive some sensory input), so I distinguish the two,
+and will slightly prioritise the experiments that can be blinded.
+
+In all experiments, I will be using the statistical method
+detailed [here](./nootropics.html#Statistical_Method), code for it
+[here](./code/experiments/load.py).
+
+### Self-Blinded Experiments
+
+1. __L-Theanine + Caffeine__ vs. __Sugar__ → *Meditative absorption*: 50 samples in the morning after waking up, 25 intervention with 500mg l-theanine & 200mg caffeine and 25 placebo (sugar pills). Expected duration of trial: ~2½ months (one sample every day, but with possible pauses).
+2. __Nicotine__ vs. __Normal chewing gum__ → *Meditative absorption*: 40 samples, with [blocking](https://en.wikipedia.org/wiki/Blocking_\(statistics\)) after waking up, 20 intervention with 2mg nicotine, 20 placebo (similar-looking square chewing gum). Expected duration of trial: ~4½ months (two samples/week, to avoid getting addicted to nicotine).
+3. __Modafinil__ vs. __Sugar__ → *Meditative absorption*: 40 samples, again with [blocking](https://en.wikipedia.org/wiki/Blocking_\(statistics\)) directly after waking up, 20 intervention with 100mg modafinil and 20 placebo (sugar pills). Expected duration of trial: Also ~4½ months with two samples per week, as to prevent becoming dependent on modafinil.
+4. __Vitamin D__ vs. __Sugar__ → *Meditative absorption*: 50 samples, taken after waking up, 25 intervention (25μg Vitamin D₃) and 25 placebo (sugar pills). Expected duration of trial: ~2½ months (taken ~every day, with possible pauses).
+5. __Vitamin B12__ vs. __Sugar__ → *Meditative absorption*
+6. __LSD Microdosing__ vs. __Water__ → *Meditative absorption*
+7. __CBD__ → *Meditative absorption*
+8. __THC__ → *Meditative absorption*
+9. __Aspartame__ → *Meditative absorption*
+10. __Phenylalanine__ → *Meditative absorption*
+11. __Bupropion__ → *Happiness*
+
+### Non-Blinded Experiments
+
+1. __Intermittent fasting__ → *Happiness*
+2. __Meditation__ → *Sleep duration*
+3. __Binaural beats__ → *Meditative absorption*
+4. __Brown noise__ vs. __Music__ → *Productivity*
+5. __Silence__ vs. __Music__ → *Productivity*
+6. __Pomodoro method__ → *Productivity*
+7. __Time since last masturbation__ → *Productivity*
+8. __Time since last masturbation__ → *Happiness*
 
 Plea
 -----

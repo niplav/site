@@ -17,6 +17,13 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Write your player blog. It's an advertisement, but not in the way you think. (TheRedQuest, 2020)](https://theredquest.substack.com/p/write-your-player-blog-its-an-advertisement-but-not-in-the-way-you-think)
+* [Why Cats Knock Stuff Over (Gwern Branwen, 2023)](https://gwern.net/cat-knocking)
+* [Information security considerations for AI and the long term future (Jeffrey Ladish/Lennart Heim, 2022)](https://blog.heim.xyz/information-security-considerations-for-ai/)
+* [Why Should Neuroenhancement Be Possible? (Sarah Constantin, 2023)](https://sarahconstantin.substack.com/p/why-should-neuroenhancement-be-possible)
+* [Who's Working on Ultrasound Neuromodulation? (Sarah Constantin, 2023)](https://sarahconstantin.substack.com/p/whos-working-on-ultrasound-neuromodulation)
+* Weaver Nine (Thinker6, 2015)
+* [Large Transformer Model Inference Optimization (Lilian Weng, 2023)](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/)
 * [Reinforcement Learning (DQN) Tutorial (Adam Paszke/Mark Towers, 2023)](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
 * [Racing through a minefield: the AI deployment problem (Holden Karnofsky, 2022)](https://www.cold-taes.com/racing-through-a-minefield-the-ai-deployment-problem/)
 * [ML Systems Will Have Weird Failure Modes (Jacob Steinhardt, 2022)](https://bounded-regret.ghost.io/ml-systems-will-have-weird-failure-modes-2/)

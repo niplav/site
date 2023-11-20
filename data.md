@@ -177,6 +177,15 @@ impressions directly after meditation, where "mindfulness" describes the
 degree of sensory clarity, and "concentration" (better called "absorption"
 or "rest") describes my ability to rest on a specific sensory object.
 
+Fitbit Biometrics
+------------------
+
+I use the [Fitbit Inspire
+3](https://en.wikipedia.org/wiki/List_of_Fitbit_products#Fitbit_Inspire_3)
+because it is one of the few (the only?) products that allow for data
+export, mostly to track my sleep, but maybe I'll also get mileage out
+of the heart rate, step, glucose and temperature tracking.
+
 Daygame
 --------
 
@@ -311,9 +320,9 @@ metric to track horniness.
 
 I track which substances I take
 ([nootropics](./nootropics.html)/melatonin/drugs) in [this
-file](./data/substances.csv) via [this script](./data/cnsm). Data
-quality is good but fairly few entries. Intend to use it for self-blinded
-randomized future experiments (if I ever stop procrastinating on them).
+file](./data/substances.csv) via [this script](./data/cnsm). Data quality
+is good but fairly few entries. At the moment I am mostly using it to
+perform self-blinded RCTs.
 
 ### Weight
 

@@ -418,12 +418,7 @@ Texts
 	* CO₂ levels
 	* Fasts
 	* Brightness
-* Methods
-	* Brown Noise
-	* Intermittent fasting
-	* Binaural beats
 * Muse headband for data collection?
-* How to collect sleep data?
 * Scott Alexander CO₂ and wordgame performance
 * Testing self-conditioning via nicotine as reward
 	* https://www.sciencedaily.com/releases/2009/09/090909122052.htm
@@ -440,26 +435,23 @@ Texts
 * Does water in my mouth *really* make me cry less while cutting onions?
 * Test CFAR handbook on GPT-4 written fake chapters
 * Self-blinded RCTs with:
-	* L-Theanine ([Examine summary](https://examine.com/supplements/theanine/), [research](https://examine.com/supplements/theanine/research/))
 	* Nicotine ([Examine summary](https://examine.com/supplements/nicotine/), [research](https://examine.com/supplements/nicotine/research/))
 	* Modafinil ([Examine summary](https://examine.com/supplements/adrafinil/), [research](https://examine.com/supplements/adrafinil/research/) (here for Adrafinil, the Modafinil page isn't reachable?)
 	* Adderall
-	* LSD Microdosing
-	* Combinations: L-Theanine + Caffeine
 	* [Diet Coke](https://dynomight.net/diet-coke-nootropic)
 		* Aspartame
 		* Phenylalanine (https://www.aaronbergman.net/p/contra-dynomight-contra-me-but-also)
 	* Oxytocin
-	* Wellbutrin/Bupropion
-	* CBD/THC
 	* Testosterone
-	* Vitamin D
 	* Vitamin C?
 	* Lion's Mane
 	* Take inspiration from [Gwern](https://www.gwern.net/Nootropics), of course
 * (Ro)accutane literature review
 * Air with more O₂/less CO₂ content experiment
 	* <https://twitter.com/benwr/status/1706054091281412584>
+* Pomodoro Experiment
+	* Apparently pomodoro technique has not been investigated empirically‽
+	* See Attention Span (Mark 2023) p. 66
 
 ### Arguments
 
@@ -792,9 +784,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Post-mortem on liquid democracy in the real world
 * Investigate [this post empirically](http://www.overcomingbias.com/2007/02/is_truth_in_the.html) via information from forecasting datasets
 * Daygame Locations as a Multi-Armed Bandit
-* Pomodoro Experiment
-	* Apparently pomodoro technique has not been investigated empirically‽
-	* See Attention Span (Mark 2023) p. 66
 * Ethics survey
 
 ### Ideas
