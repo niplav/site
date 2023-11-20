@@ -476,8 +476,8 @@ Missing Emojis
 New Eponymous Laws
 -------------------
 
-* [Zeynep's razor](./notes.html#Examples_and_Counterexamples_for_Zeyneps_Razor): "first-order effects are rarely outweighed by rebound effects"
-* Guzey's law: Good hobbyist internet science writers & scientists are afflicted by a peculiar disease: they produce some (or a lot of) good output, and then someone gives them enough money to start an organization, and they never write anything interesting again.
+* *[Zeynep's razor](./notes.html#Examples_and_Counterexamples_for_Zeyneps_Razor)*: "first-order effects are rarely outweighed by rebound effects"
+* *Guzey's law* (or, less politely, *Guzey's disease*): Good hobbyist internet science writers & scientists are afflicted by a peculiar disease: they produce some (or a lot of) good output, and then someone gives them enough money to start an organization, and they never write anything interesting again.
 
 Daygame
 --------

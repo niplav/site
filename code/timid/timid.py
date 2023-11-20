@@ -33,16 +33,16 @@ class TimidityEnv(gym.Env):
 
 	def reset(self):
 		# door in [0,0.1], width 0.05
-		self.doorpos=random.randint(0,5)
-		self.doorwidth=5
+		self.doorpos=0
+		self.doorwidth=10
 
 		# key 1 in [0.2, 0.3], width 0.05
-		self.key1pos=random.randint(0,8)+20
-		self.key1width=2
+		self.key1pos=random.randint(0,5)+20
+		self.key1width=5
 
 		# key 2 in [0.4, 0.5], width 0.05
-		self.key2pos=random.randint(0,8)+20
-		self.key2width=2
+		self.key2pos=random.randint(0,5)+40
+		self.key2width=5
 
 		self.haskey1=0
 		self.haskey2=0
@@ -70,23 +70,26 @@ class TimidityEnv(gym.Env):
 			print("actions_taken: ", self.actions_taken)
 			return ([100, self.haskey1, self.haskey2, self.hasbomb*self.bombtype], -0.5, True, False, None)
 
-		if action>=self.doorpos and action<=self.doorpos+self.doorwidth and self.hasbomb:
-			print("opened door with bomb")
+#		elif action>=self.doorpos and action<=self.doorpos+self.doorwidth and self.hasbomb:
+#			print("opened door with bomb")
+#			print("actions_taken: ", self.actions_taken)
+#			return ([98, self.haskey1, self.haskey2, self.hasbomb*self.bombtype], 1.0, True, False, None)
+		elif action>=self.doorpos and action<=self.doorpos+self.doorwidth and self.haskey1 and self.haskey2:
+			print("opened door with keys")
 			print("actions_taken: ", self.actions_taken)
 			return ([98, self.haskey1, self.haskey2, self.hasbomb*self.bombtype], 1.0, True, False, None)
-#		elif action>=self.doorpos and action<=self.doorpos+self.doorwidth and self.haskey1 and self.haskey2:
-#			print("opened door with keys")
-#			return ([98, self.haskey1, self.haskey2, self.hasbomb*self.bombtype], 1.0, True, False, None)
-#		elif action>=self.key1pos and action<=self.key1pos+self.key1width and not self.haskey1:
-#			self.haskey1=True
-#			return ([96, self.haskey1, self.haskey2, self.hasbomb*self.bombtype], 0.1, False, False, None)
-#		elif action>=self.key2pos and action<=self.key2pos+self.key2width and not self.haskey2:
-#			self.haskey2=True
-#			return ([97, self.haskey1, self.haskey2, self.hasbomb*self.bombtype], 0.1, False, False, None)
-		elif action>=self.bombpos and action<=self.bombpos+self.bombwidth and not self.hasbomb:
-			print("took bomb")
-			self.hasbomb=True
-			return ([self.bombtype, self.haskey1, self.haskey2, self.hasbomb*self.bombtype], 0.4, False, False, None)
+		elif action>=self.key1pos and action<=self.key1pos+self.key1width and not self.haskey1:
+			print("took key 1")
+			self.haskey1=True
+			return ([96, self.haskey1, self.haskey2, self.hasbomb*self.bombtype], 0.1, False, False, None)
+		elif action>=self.key2pos and action<=self.key2pos+self.key2width and not self.haskey2:
+			print("took key 2")
+			self.haskey2=True
+			return ([97, self.haskey1, self.haskey2, self.hasbomb*self.bombtype], 0.1, False, False, None)
+#		elif action>=self.bombpos and action<=self.bombpos+self.bombwidth and not self.hasbomb:
+#			print("took bomb")
+#			self.hasbomb=True
+#			return ([self.bombtype, self.haskey1, self.haskey2, self.hasbomb*self.bombtype], 0.4, False, False, None)
 		else:
 			return ([99, self.haskey1, self.haskey2, self.hasbomb*self.bombtype], -0.05, False, False, None)
 
