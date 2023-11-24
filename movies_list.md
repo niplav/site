@@ -11,6 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* The Talented Mr. Ripley
 * [Ad Astra](https://www.imdb.com/title/tt2935510/)
 * Killers of the Flower Moon
 * [Sweeney Todd](https://www.imdb.com/title/tt0408236/)

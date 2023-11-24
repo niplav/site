@@ -2461,3 +2461,71 @@ after the global substack domain, which gets us
 Calling that address starts the download process automatically.
 
 Adding the download functionality to `yt-dlp` is on my todo list.
+
+A Response on FOOM
+-------------------
+
+The most fleshed-out model of AI takeoff is [Davidson
+2023](https://niplav.site/doc/cs/ai/alignment/takeoff/a_compute_centric_framework_of_takeoff_speeds_davidson_2023.pdf),
+which makes the median prediction of 20% automation to 100% automation
+in ~3 years (10th percentile: 0.8 years, 90th percentile: 12.5 years).
+
+Along the axes of {fast, slow}×{continuous, discountinuous}, that feels
+quite fast to me, even if it isn't very discountinuous.
+
+The other reasons make me move towards "but it might be a lot faster
+than that". One reason is that the Davidson model assumes that the human
+brain performs 10¹⁵ FLOP/s, and that the AI systems will be at most
+that efficient or slightly less efficient. So most of my disagreement
+is around *how much the ceiling of cognitive algorithms is above humans*.
+
+One reason is that human brains don't seem like the optimal substrate
+for performing cognition: Warm & wet, very low information transmission
+speed (signals on neurons are limited to at most 200 m/s)—and still
+they are incredibly sample-efficient!
+
+Then there's the *power of error-corrected computation*: Digital
+computers can make very long inferences in discrete domains without
+problems, and when I introspect, I have the strong intuition that
+my system 2 tries to approximate this, especially when trying to
+enumerate options in a decision, recursively decompose a plan into
+its components, perform abstraction (while caching which parts of the
+abstraction are tight and which are leaky)—but my system 2 only has
+[7±2](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two)
+(or maybe [actually just
+4](https://en.wikipedia.org/wiki/Working_Memory#Capacity)?) usable
+slots. And unless the limit is due to combinatorial explosion (which
+might be handleable by careful pruning, or prioritized search), AI
+systems could have larger (perhaps vastly larger?) working memories.
+
+The standard rejoinder here is that evolution has optimized human brains
+really really hard, and our current technology is usually 2-6 orders of
+magnitude worse than what evolution has come up with. But if we believe
+that error-corrected computation is quite rare in biology, then this opens
+up a new niche to make progress in, similar to how there are no plants
+in space because they couldn't evolve rocket-like tech and transparent
+shells that were resistant enough in vacuum.
+
+This points at an intuition I have: There is a bunch of α left in
+combining error-corrected/discrete computation (which computers are good
+at) with error-resistant/continuous computation (à la neural networks
+or brains). And especially if I think about cognition through the lens of
+algorithms, it feels like there's a *deep mine of algorithms*: The space
+of possible algorithms is vast, and even in *very* simple problem domains
+we have found surprising innovations (such as going from the [Karatsuba
+algorithm](https://en.wikipedia.org/wiki/Karatsuba_algorithm)
+to the [Schönhage-Strassen
+algorithm](https://en.wikipedia.org/wiki/Schönhage-Strassen_algorithm),
+or from the naive algorithm for the [maximum subarray
+problem](https://en.wikipedia.org/wiki/Maximum_Subarray_problem)
+to Kadane's algorithm)). My "optimism" here has been hindered
+somewhat by some evidence on how well [old chess algorithms perform on new
+hardware](https://www.lesswrong.com/posts/J6gktpSgYoyq5q3Au/benchmarking-an-old-chess-engine-on-new-hardware),
+and the observation that the surprising algorithms we find
+are usually galactic (such as in the case of the [slowly
+shrinking best-case exponent in the computational complexity of matrix
+multiplication](https://en.wikipedia.org/wiki/Computational_complexity_of_matrix_multiplication#Matrix_multiplication_exponent)—where
+yet we still only use [Strassen's
+algorithm](https://en.wikipedia.org/wiki/Strassen's_algorithm).
+
+Additionally, people seem to have *forgotten about thinking*:

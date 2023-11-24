@@ -509,3 +509,9 @@ the natural state
 
 "that in make retrodiction far easier" is either confusingly written or
 grammatically incorrect.
+
+### 6.3 The extended Anthropocene
+
+> The Anthropocene is (maybe) **H**the current geological age
+
+Typo.
