@@ -1872,7 +1872,7 @@ not work.
 	<li> ☐ has failed to replicate</li>
 	<li> ☐ for which there exist no replication attempts</li>
 	<li> ☐ was last taken seriously sometime around 1900</li>
-	<li> ☐ requires a <a href="https://en.wikipedia.org/wiki/Dynamic_stochastic_general_equilibrium">DSGE<a> model with 200 free parameters to perfectly track reality perfectly</li>
+	<li> ☐ requires a <a href="https://en.wikipedia.org/wiki/Dynamic_stochastic_general_equilibrium">DSGE<a> model with 200 free parameters to track reality at all</li>
 	</ul>
 </li>
 <li>☐ Furthermore, all predictions your model has made look like this:</li>
@@ -1897,7 +1897,7 @@ not work.
 	</ul>
 </li>
 <li>☐ Your policy sneakily redistributes money from poor to rich people</li>
-<li>☐ Your policy only works if every country on earth accepts it at the same time</li>
+<li>☐ Your policy only works if every country on earth adopts it at the same time</li>
 <li>☐ You actually have no idea what failure/success of your policy would look like</li>
 <li>You claim it fixes
 <ul style="list-style: none;">
@@ -2430,7 +2430,7 @@ The best solution I've found is to add an invisible further edge `c->d`:
 
 ![](./img/incoming/example_right.png)
 
-The result looks slightly wonky. but works. If one wants more assurances,
+The result looks slightly wonky, but works. If one wants more assurances,
 one can also add the line `{ordering=out; c};` to make it more likely
 that the red edge isn't just banished to the side.
 
@@ -2526,6 +2526,6 @@ are usually galactic (such as in the case of the [slowly
 shrinking best-case exponent in the computational complexity of matrix
 multiplication](https://en.wikipedia.org/wiki/Computational_complexity_of_matrix_multiplication#Matrix_multiplication_exponent)—where
 yet we still only use [Strassen's
-algorithm](https://en.wikipedia.org/wiki/Strassen's_algorithm).
+algorithm](https://en.wikipedia.org/wiki/Strassen's_algorithm)).
 
 Additionally, people seem to have *forgotten about thinking*:

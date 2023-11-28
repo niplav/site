@@ -238,10 +238,12 @@ or not, idk". (Although apparently other reviewers have the opposite
 issue, so perhaps a good compromise was struck).
 
 I am unsure about the value lock-in frame. On the one hand, it's a very
-exact description of what the danger with AI x-risk *really* refers to,
-pin-pointed. But it also invites endless bickering about "who gets to
-control the AIs values" and "democracy" and "social solutions", and the
-*completely separate* issue of stable totalitarianism.
+rough description of some of the danger with AI x-risk, but not all
+danger fits in that format: What if AI systems don't lock in any specific
+value, but kill off humanity and then go on to explore the space of all
+possible value? This framing also invites endless bickering about "who
+gets to control the AIs values" and "democracy" and "social solutions",
+and the *completely separate* issue of stable totalitarianism.
 
 Finally: Who *the hell* decided this was a good way to do endnotes? In
 general the best policy is to [under no circumstances use endnotes, ever,
@@ -269,11 +271,12 @@ __5.5/10__
 
 *—Gloria Mark, “Attention Span” p. 114, 2023*
 
-Read this while researching attention spans, I did not find what I was
-looking for (remaining mostly unconvinced that the reported statistics
-are strong enough to justify the claim that attention spans have been
-declining). Otherwise acceptable; and in some parts genuinely novel to me,
-giving a plethora of ways of measuring attention ([transcranial Doppler
+Read this while [researching attention spans](./spans.html), I
+did not find what I was looking for (remaining mostly unconvinced
+that the reported statistics are strong enough to justify the
+claim that attention spans have been declining). Otherwise
+acceptable; and in some parts genuinely novel to me, giving a
+plethora of ways of measuring attention ([transcranial Doppler
 sonography](https://en.wikipedia.org/wiki/Transcranial_Doppler),
 [functional near-infrared
 spectroscopy](https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy),
@@ -367,7 +370,7 @@ obviously a bad idea.
 
 __7.5/10__
 
-LessWrong Yearly Reviews
+LessWrong Annual Reviews
 -------------------------
 
 ### 2019

@@ -515,3 +515,30 @@ grammatically incorrect.
 > The Anthropocene is (maybe) **H**the current geological age
 
 Typo.
+
+##### Evolutionary effects of anthropogenic environments
+
+> human-generated patters
+
+Typo, should be "patterns"
+
+##### Minimum viable technological or cultural population
+
+Figure 6.2: Where 10 000 should be there is only 10 on the chart.
+
+#### 6.6.1 Polar settlements
+
+Footnote 42: "but as far as I know none of the children have returned"
+reads like they're still in Antarctica, and haven't returned to the
+countries they're citizens of, while the opposite is the case.
+
+#### 6.6.2
+
+Footnote 48: "Hf B\_2" should be "Hf B₂", I reckon
+
+##### Stability of the biosphere
+
+> In particular, methane poisoning 3.6 gya, the oxygen catastrophe 2.8
+gya, snowball earth 2.3 gya and 790-630 mya […]
+
+Shouldn't "mya" and "gya" be "Mya" and "Gya", for consistency's sake?

@@ -389,8 +389,27 @@ solutions. Fast progress in BCIs could make WBEs more likely before an AI
 return](https://www.lesswrong.com/posts/JPan54R525D68NoEt/the-date-of-ai-takeover-is-not-the-day-the-ai-takes-over "The date of AI Takeover is not the day the AI takes over")
 by improving the understanding of the human brain.
 
+
 A similar but weaker argument would apply to
 [AI systems that imitate human behavior](https://www.alignmentforum.org/posts/LTFaD96D9kWuTibWr/just-imitate-humans "Just Imitate Humans?").
+
+##### Top-Down WBE
+
+WBE don't *need* to be based on a neuron-, synapse- or
+molecule-level understanding of the brain: Training AI systems
+to perform cognition similar to how humans could work just as
+well, for example by performing [activation steering using BCI
+data](https://manifund.org/projects/activation-vector-steering-with-bci)
+(though the BCI in question is "just" regular
+[fMRI](https://en.wikipedia.org/wiki/Functional_MRI)), or by during
+training applying a penalty term based on the similarity of activations
+to a BCI reading on the same task.
+
+Other approaches, such as [Gwern
+2023](https://gwern.net/aunn-brain "Modular Brain AUNNs for Uploads"),
+would also benefit from more training data for individual modules,
+especially if assuming that we have an invasive BCI that can read at
+the interface for specific brain regions.
 
 ### “Merging” AI Systems With Humans
 
@@ -464,17 +483,20 @@ to remove the ability of the human to change its policy at a whim.
 ### Aid to Interpretability Work
 
 By increasing the speed of interaction and augmenting human intelligence,
-BCIs might aid the quest of improving the interpretability of AI systems.
+BCIs might aid the quest of improving the interpretability of AI
+systems, or (less likely) offer insights into neuroscience that would
+be transferable to interpretability.
 
 ### Side-note: A Spectrum from Humans to Human Imitations
 
 There seems to be a spectrum from biological humans to human imitations,
 roughly along the axes of integration with digital systems/speed:
 Biological humans → humans with BCIs → whole-brain emulations →
-human imitations. This spectrum also partially tracks how aligned
-these human-like systems can be expected to act: a human imitation
-off-distribution seems much less trustworthy than a whole-brain emulation
-of a human acting off distribution.
+top-down (modular) whole-brain emulations → human imitations. This
+spectrum also partially tracks how aligned these human-like systems
+can be expected to act: a human imitation off-distribution seems much
+less trustworthy than a whole-brain emulation of a human acting off
+distribution.
 
 Arguments Against the Utility of Brain-Computer Interfaces in AI Alignment
 ---------------------------------------------------------------------------

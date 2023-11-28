@@ -12,7 +12,7 @@ Using Prediction Platforms to Select Quantified Self Experiments
 =================================================================
 
 [dynomight 2022](https://dynomight.net/prediction-market-causation/#7)
-has a good proposal:
+has a cool proposal:
 
 > Fortunately, there’s a good (and well-known) alternative, which is
 to randomize decisions sometimes, at random. You tell people: “I will
@@ -46,12 +46,12 @@ RCTs on myself already, and I'm certainly not afraid of the
 [CFTC](https://en.wikipedia.org/wiki/Commodity_Futures_Trading_Commission).
 And indeed I don't have a shortage of ideas on things I
 [could](./todo.html#Quantified_Self) run RCTs on, but the time is scarce
-(I try to collect m=50 samples in each RCT, which (with days off) is
-usually more than 2 months of data collection).
+(I try to collect m=50 samples in each RCT, which (with buffer-days off)
+is usually more than 2 months of data collection).
 
-So I'll do what [@saulmunn](https://twitter.com/saulmunn/) pointed [out
-to me](https://twitter.com/saulmunn/status/1671923161695240192)
-is a possibility: I'm going to do [futarchy
+So I'll do what [@saulmunn](https://nitter.net/saulmunn/) pointed [out
+to me](https://nitter.net/saulmunn/status/1671923161695240192)
+is a possibility: I'm going to do [futarchy (on)
 myself](https://www.lesswrong.com/posts/qZXy8kGkNFyqCfHEJ/you-can-do-futarchy-yourself)
 by setting up a set of markets of Manifold Markets with respect to the
 outcomes of some pre-specified self-blinded RCTs, waiting until bets
@@ -79,12 +79,23 @@ detailed [here](./nootropics.html#Statistical_Method), code for it
 
 ### Self-Blinded Experiments
 
+In general, by *meditative absorption* I mean
+the concentration/tranquility (in Buddhist terms
+[samatha](https://en.wikipedia.org/wiki/Samatha-vipassana)) during
+a ≥30 minute meditation session in the morning, ~45 minutes
+after waking up and taking the substance (less if the substance
+starts working immediately). I will be doing at least 15 minutes of
+[anapanasati](https://en.wikipedia.org/wiki/Anapanasati) during that
+meditation session, but might start (or end) with another practice).
+
+Past meditation data can be found [here](./data/meditations.csv).
+
 1. __L-Theanine + Caffeine__ vs. __Sugar__ → *Meditative absorption*: 50 samples in the morning after waking up, 25 intervention with 500mg l-theanine & 200mg caffeine and 25 placebo (sugar pills). Expected duration of trial: ~2½ months (one sample every day, but with possible pauses).
 2. __Nicotine__ vs. __Normal chewing gum__ → *Meditative absorption*: 40 samples, with [blocking](https://en.wikipedia.org/wiki/Blocking_\(statistics\)) after waking up, 20 intervention with 2mg nicotine, 20 placebo (similar-looking square chewing gum). Expected duration of trial: ~4½ months (two samples/week, to avoid getting addicted to nicotine).
 3. __Modafinil__ vs. __Sugar__ → *Meditative absorption*: 40 samples, again with [blocking](https://en.wikipedia.org/wiki/Blocking_\(statistics\)) directly after waking up, 20 intervention with 100mg modafinil and 20 placebo (sugar pills). Expected duration of trial: Also ~4½ months with two samples per week, as to prevent becoming dependent on modafinil.
 4. __Vitamin D__ vs. __Sugar__ → *Meditative absorption*: 50 samples, taken after waking up, 25 intervention (25μg Vitamin D₃) and 25 placebo (sugar pills). Expected duration of trial: ~2½ months (taken ~every day, with possible pauses).
 5. __Vitamin B12__ vs. __Sugar__ → *Meditative absorption*
-6. __LSD Microdosing__ vs. __Water__ → *Meditative absorption*
+6. __LSD Microdosing__ vs. __Water__ → *Meditative absorption*: 50 samples in the morning, 25 intervention (10μg LSD), and 25 placebo (distilled water). Expected duration of trial is ~4 months (4 samples per week, with some time left as a buffer).
 7. __CBD__ → *Meditative absorption*
 8. __THC__ → *Meditative absorption*
 9. __Aspartame__ → *Meditative absorption*
@@ -102,8 +113,8 @@ detailed [here](./nootropics.html#Statistical_Method), code for it
 7. __Time since last masturbation__ → *Productivity*
 8. __Time since last masturbation__ → *Happiness*
 
-Plea
------
+Pleas
+------
 
 I would love to subsidise my markets on Manifold a whole bunch, but
 don't have enough mana for that (I've subsidised them best I could).
