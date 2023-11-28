@@ -515,6 +515,18 @@ if it had?
 	Expedition](https://www.goodreads.com/book/show/43843069).
 	* __See Also__:
 		* [Quora](https://www.quora.com/If-Antarctica-were-to-have-a-native-indigenous-population-what-would-they-be-like)
+* __Crime in Antarctica Miniseries__: Keeping with the Antarctica theme,
+the [five crimes](https://en.wikipedia.org/wiki/Crime_in_Antarctica)
+that have occurred there would make well in a miniseries (starting
+and ending Russian themed, perhaps treating the ban on chess with an
+absurdist lens, but also incorporating horror with the death of [Rodney
+Marks](https://en.wikipedia.org/wiki/Rodney_Marks_\(Astrophysist\))).
+Could be quite picturesque, with [blue ice
+areas](https://en.wikipedia.org/wiki/Blue-ice_area) and [ice
+quakes](https://en.wikipedia.org/wiki/Cryoseism) in the barren
+landscapes of the continent. Maybe already done better by [Werner
+Herzog](https://en.wikipedia.org/wiki/Encounters_at_the_End_of_the_World)?
+— I haven't seen it.
 * __Prevent [House of
 Leaves](https://en.wikipedia.org/wiki/House_of_Leaves) movie__: House
 of Leaves is one of my favorite works of fiction. I'm also completely
@@ -581,7 +593,7 @@ to ~\\$872mio. Setting the experiment up to find participants who are
 actually celibate and not simply interested in the money or prostitution
 might pose some difficulty, but not be insurmountable.
 * __[Breeding superintelligent octopuses](https://www.lesswrong.com/posts/DaFG3GKsBrsAnAERR/save-humanity-breed-sapient-octopuses) or [parrots](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-intelligent-parrots)__
-* __Cloning Extinct Animals__ In order: Passenger Pigeons, Thylacines, Dodos, Wooly Mammoths, Neanderthals, [John von Neumann](https://fantasticanachronism.com/2021/03/23/two-paths-to-the-future/), Srinivasa Ramanujan… Comparable to the revival of the (2000 years extinct) [Judean date palm](https://en.wikipedia.org/wiki/Judean_date_palm) and the (32k years extinct) [*silene stenophylla*](https://en.wikipedia.org/wikipedia.org/wiki/Silene_stenophylla).
+* __Cloning Extinct Animals__ In order: Passenger Pigeons, Thylacines, Dodos, Great Auks, Wooly Mammoths, the Tarpan horse, Neanderthals, [John von Neumann](https://fantasticanachronism.com/2021/03/23/two-paths-to-the-future/), Srinivasa Ramanujan… Comparable to the revival of the (2000 years extinct) [Judean date palm](https://en.wikipedia.org/wiki/Judean_date_palm) and the (32k years extinct) [*silene stenophylla*](https://en.wikipedia.org/wikipedia.org/wiki/Silene_stenophylla).
 * __Masturbation research__
 * __Explorables for causal inference__
 * __Find and test amnestics__<!--TODO: link-->: Find drugs that cause short-term memory loss with ideally no side effects (useful for blinding in scientific studies)—perhaps [Midalozam](https://en.wikipedia.org/wiki/Midazolam) can be used for this?
