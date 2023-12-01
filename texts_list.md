@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [🥺: the best sudo replacement (Christine Dodrill, 2023)](https://xeiaso.net/blog/xn--ts9h/)
+* [The First Law of Complexodynamics (Scott Aaronson, 2011)](https://scottaaronson.blog/?p=762)
+* [Activation vector steering with BCI (Lisa Thiergart, 2023)](https://manifund.org/projects/activation-vector-steering-with-bci)
+* [Seriously bright light vs. winter blahs (David Chapman, 2023)](https://meaningness.com/sad-light-lumens)
 * [Ability to solve long-horizon tasks correlates with wanting things in the behaviorist sense (Nate Soares, 2023)](https://www.lesswrong.com/posts/AWoZBzxdm4DoGgiSj/ability-to-solve-long-horizon-tasks-correlates-with-wanting)
 * [Hybrot (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Hybrot)
 * [SCP-2036 (Alchemist Toxias, 2022)](https://scp-wiki.wikidot.com/scp-2036)
