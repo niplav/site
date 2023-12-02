@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2023-11-13, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2023-12-02, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -23,20 +23,34 @@ Monthly updates are sent out [via substack](https://niplav.substack.com/).
 November 2023
 --------------
 
+* Finished publishable version of [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
+* [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html): [Top-Down WBE](./bcis_and_alignment.html#TopDown_WBE)
 * [Playing with Language](./language.html): [New Eponymous Laws](./language.html#New_Eponymous_Laws)
 * [Microfiction](./microfiction.html): [Switcheroos](./microfiction.html#Switcheroos)
+* [Data](./data.html): [FitBit Biometrics](./data.html#Fitbit_Biometrics)
 * [Notes](./notes.html)
 	* [Downloading a Substack Podcast by Hand](./notes.html#Downloading_a_Substack_Podcast_by_Hand)
 	* [PredictionBook Archive](./notes.html#PredictionBook_Archive)
 
 ### Links
 
+* [Dérive (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/D%C3%A9rive): Remembered the [Situationists](https://en.wikipedia.org/wiki/Situationist_International)
 * [Wild knot (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Wild_knot)
 * [The Subjective Experience of Time: Welfare Implications (Jason Schukraft, 2020)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/qEsDhFL8mQARFw6Fj)
 * [On Bloom's two sigma problem: A systematic review of the effectiveness of mastery learning, tutoring, and direct instruction (José Luis Ricón, 2020)](https://nintil.com/bloom-sigma): Oldie but goodie. Computer-based tutoring is still under-rated! Maybe I will use language models more intensely for study.
 * [Dangers of deference (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/09/dangers-of-deferrence.html): It's nice to have a comprehensive list about this kind of to-me-obviously-flawed epistemic practice.
 * [Snake detection theory (William Buckner, 2022)](https://traditionsofconflict.substack.com/p/snake-detection-theory): Are primates genetically programmed to be afraid of snakes? Apparently, [ophidiophobia](https://en.wikipedia.org/wiki/Ophidiophobia) is one of the most common phobias, which I can't really understand (snakes were for quite a while my favorite type of animal). Related question: Is the common and apparently instinctive fear that cats display towards long green objects (e.g. cucumbers) that appear suddenly in their field of view<!--TODO: link video compilation?--> slight evidence for snake detection theory, since those cats had never seen a snake in their life? Also, if snakes are [accessible to the genome](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/CQAMdzA4MZEhNRtTp), what else could be?
 * [Perfecting the Art of Sensible Nonsense (Erica Klarreich, 2014)](https://www.quantamagazine.org/in-cryptography-advances-in-program-obfuscation-20140130/): I had not heard to [indistinguishability obfuscation](https://en.wikipedia.org/wiki/Indistinguishability_obfuscation) before! It turns out you *can* (in theory) build a program that only runs if you give it the correct password, even if you have access to the binary, and this leads to [being able to construct](https://en.wikipedia.org/wiki/Indistinguishability_obfuscation#Potential_applications) a whole zoo of cryptographic operations, including [fully homomorphic encryption](https://en.wikipedia.org/wiki/Fully_homomorphic_encryption) and many others I don't even recognize. Curiously, in [Russell Impagliazzo's](https://en.wikipedia.org/wiki/Russell_Impagliazzo) five worlds, indistinguishability obfuscation only [exists in two](https://en.wikipedia.org/wiki/Indistinguishability_obfuscation#Existence). Quanta magazine continues to deliver, as the researcher mentioned in the article, [Amit Sahai](https://en.wikipedia.org/wiki/Amit_Sahai), shows up in the comments to correct the misunderstanding of another commenter.
+
+#### Ways of Classifying Strings, Computationally
+
+Started reading a bit about this because I was dissatisfied with the
+standard explanation of neural networks having a simplicity prior,
+not finding anything but theorycel constructs. Still very cool!
+
+* [The First Law of Complexodynamics (Scott Aaronson, 2011)](https://scottaaronson.blog/?p=762)
+* [Logical depth (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Logical_depth)
+* [Speed prior (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Speed_prior)
 
 October 2023
 ------------

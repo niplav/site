@@ -11,9 +11,10 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Kein Platz für Wilde Tiere](https://www.imdb.com/title/tt0049401/)
 * [The Talented Mr. Ripley](https://www.imdb.com/title/tt0134119/)
 * [Ad Astra](https://www.imdb.com/title/tt2935510/)
-* Killers of the Flower Moon
+* [Killers of the Flower Moon](https://www.imdb.com/title/tt5537002/)
 * [Sweeney Todd](https://www.imdb.com/title/tt0408236/)
 * [Her](https://www.imdb.com/title/tt1798709/)
 * [Knives Out](https://www.imdb.com/title/tt8946378/)

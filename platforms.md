@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-08-28, modified: 2023-08-28, language: english, status: finished, importance: 7, confidence: certain*
+*author: niplav, created: 2023-08-28, modified: 2023-12-02, language: english, status: finished, importance: 7, confidence: certain*
 
 > __There are too many possible quantified self experiments to run. Do
 hobbyist prediction platforms[^1] make priorisation easier? I test
