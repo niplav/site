@@ -115,7 +115,7 @@ and listened to the pulsars sing
 
 ----
 
-> fuck mary eat  
+> fuck marry eat  
 pray love kill
 
 ----

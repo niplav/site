@@ -17,6 +17,8 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Chemists Seek Possible Precursor to RNA (Emily Singer, 2014)](https://www.quantamagazine.org/in-chemistry-of-life-seeking-a-precursor-to-rna-20140205/)
+* [Links For November 2023 (Scott Alexander, 2023)](https://www.astralcodexten.com/p/links-for-november-2023)
 * [🥺: the best sudo replacement (Christine Dodrill, 2023)](https://xeiaso.net/blog/xn--ts9h/)
 * [The First Law of Complexodynamics (Scott Aaronson, 2011)](https://scottaaronson.blog/?p=762)
 * [Activation vector steering with BCI (Lisa Thiergart, 2023)](https://manifund.org/projects/activation-vector-steering-with-bci)
