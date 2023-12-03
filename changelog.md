@@ -23,7 +23,7 @@ Monthly updates are sent out [via substack](https://niplav.substack.com/).
 November 2023
 --------------
 
-* Finished publishable version of [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
+* Wrote publishable version of [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html). Please predict the markets!
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html): [Top-Down WBE](./bcis_and_alignment.html#TopDown_WBE)
 * [Playing with Language](./language.html): [New Eponymous Laws](./language.html#New_Eponymous_Laws)
 * [Microfiction](./microfiction.html): [Switcheroos](./microfiction.html#Switcheroos)
@@ -32,9 +32,14 @@ November 2023
 	* [Downloading a Substack Podcast by Hand](./notes.html#Downloading_a_Substack_Podcast_by_Hand)
 	* [PredictionBook Archive](./notes.html#PredictionBook_Archive)
 
+### Code
+
+* "Forked" [vis-fzf-open](https://git.sr.ht/~mcepl/vis-fzf-open) to create a [vis](https://github.com/martanne/vis) plugin that allows for inserting lines from specific files: [vis-fzf-insert](https://github.com/niplav/vis-fzf-insert).
+* Decided to get out of theorycel stasis and started working on the project described in [Yudkowsky 2017](https://arbital.com/p/environmental_goals/), code [here](https://github.com/niplav/timidity). It currently does exactly the opposite of what I want it to do, which means I am one bit away from success.
+
 ### Links
 
-* [Dérive (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/D%C3%A9rive): Remembered the [Situationists](https://en.wikipedia.org/wiki/Situationist_International)
+* [Dérive (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/D%C3%A9rive): Remembered the [Situationists](https://en.wikipedia.org/wiki/Situationist_International).
 * [Wild knot (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Wild_knot)
 * [The Subjective Experience of Time: Welfare Implications (Jason Schukraft, 2020)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/qEsDhFL8mQARFw6Fj)
 * [On Bloom's two sigma problem: A systematic review of the effectiveness of mastery learning, tutoring, and direct instruction (José Luis Ricón, 2020)](https://nintil.com/bloom-sigma): Oldie but goodie. Computer-based tutoring is still under-rated! Maybe I will use language models more intensely for study.
@@ -44,9 +49,15 @@ November 2023
 
 #### Ways of Classifying Strings, Computationally
 
-Started reading a bit about this because I was dissatisfied with the
-standard explanation of neural networks having a simplicity prior,
-not finding anything but theorycel constructs. Still very cool!
+Started reading a bit about this because I was dissatisfied
+with the standard explanation of neural networks having a
+simplicity prior, but of course got distracted by the cool
+things you can do with Turing machines. I wonder whether
+you can create a sophistication/anti-sophistication/logical
+depth prior, and what that would compare to [Kolmogorov
+complexity](https://en.wikipedia.org/wiki/Kolmogorov_Complexity)
+in terms of
+[malignity](https://www.lesswrong.com/s/hFom77cBBnnbNLzzm/p/Tr7tAyt5zZpdTwTQK).
 
 * [The First Law of Complexodynamics (Scott Aaronson, 2011)](https://scottaaronson.blog/?p=762)
 * [Logical depth (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Logical_depth)
