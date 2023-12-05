@@ -39,7 +39,6 @@ HTML=index.html \
 	bcis_and_alignment.html \
 	buch_stab.html \
 	circle_combinations.html \
-	coherence.html \
 	consciousness_diagram.html \
 	considerations_on_cryonics.html \
 	cryonics_outside_us.html \
@@ -68,10 +67,11 @@ HTML=index.html \
 	metamodernistisches_manifest.html \
 	microfiction.html \
 	nootropics.html \
+	oldpreagent.html \
 	pipe_rings.html \
 	platforms.html \
 	platte.html \
-	preagent.html \
+	preagents.html \
 	precision.html \
 	qualia.html \
 	range_and_forecasting_accuracy.html \
@@ -82,11 +82,11 @@ HTML=index.html \
 	slowdown.html \
 	spans.html \
 	stimulation.html \
+	suspicious.html \
 	tao_te_king.html \
 	text_reviews.html \
 	textbook_discord_servers.html \
 	third.html \
-	timid.html \
 	toy_ai_takeoff_model.html \
 	turning.html \
 	two_people_on_a_planet.html \

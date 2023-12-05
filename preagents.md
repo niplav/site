@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-11-04, modified: 2023-11-04, language: english, status: in progress, importance: 8, confidence: likely*
+*author: niplav, Alexander Gietelink-Oldenziehl, created: 2023-11-04, modified: 2023-11-04, language: english, status: in progress, importance: 8, confidence: likely*
 
 > __Summary of a longer investigation into inconsistent preferences and
 how to resolve them. I investigate two different ways of representing

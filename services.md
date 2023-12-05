@@ -1,9 +1,10 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-07-17, modified: 2023-07-17, language: english, status: finished, importance: 5, confidence: other*
+*author: niplav, created: 2023-07-17, modified: 2023-12-04, language: english, status: finished, importance: 5, confidence: other*
 
-> __My services can be acquired for money.__
+> __My services (research, programming, experimental design and
+implementation) can be acquired for money.__
 
 Services
 =========
@@ -20,4 +21,4 @@ accuracy](./range_and_forecasting_accuracy.html).
 My rates are as follows:
 
 * \$30/hr for work for which the final product will be mostly public, potentially with a discount if I was [already planning to do it myself](./todo.html).
-* \$40/hr otherwise.
+* \$50/hr otherwise.
