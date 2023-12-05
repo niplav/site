@@ -25,7 +25,7 @@ Schein von ihm schwindet.
 * Usually, with `$\bigcup/\bigvee/\sum/\prod$` etc, use `$i$` and `$j$` as the variables. If there are more, use `$i_1, i_2, \dots$`.
 * A variable with the name "abcd" is written as `$\text{abcd}$`, `$abcd$` is the product of four variables `$a, b, c$` and `$d$`.
 * `$0 \in \mathbb{N}$`, `$\mathbb{N}^+:=\mathbb{N}\backslash \{0\}$`.
-	* First of all, [there's an ISO standard](https://en.wikipedia.org/Natural_number) (ISO-80000-2) that states that `$0 \in \mathbb{N}$`. I know it's kind of dumb, but standards are nice & there for a reason.
+	* First of all, [there's an ISO standard](https://en.wikipedia.org/wiki/Natural_number) (ISO-80000-2) that states that `$0 \in \mathbb{N}$`. I know it's kind of dumb, but standards are nice & there for a reason.
 	* `$(\mathbb{N}, +)$` and `$(\mathbb{N}^+, \cdot)$` are both commutative [monoids](https://en.wikipedia.org/wiki/Monoid).
 	* `$(\mathbb{N}, +, \cdot)$` is a semiring.
 	* `$(\mathbb{N}^+, +, \cdot)$` is…nothing in particular?

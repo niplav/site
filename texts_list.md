@@ -17,6 +17,22 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Value systematization: how values become coherent (and misaligned) (Richard Ngo, 2023)](https://www.lesswrong.com/posts/J2kpxLjEyqh6x3oA4/value-systematization-how-values-become-coherent-and)
+* [Big Bang Secrets Swirling in a Fluid Universe (Natalie Wolchover, 2014)](https://www.quantamagazine.org/big-bang-secrets-swirling-in-a-fluid-universe-20140212/)
+* [Abortion procedures in hunter-gatherer societies (William Buckner, 2022)](https://traditionsofconflict.substack.com/p/abortion-procedures-in-hunter-gatherer)
+* [The Northman, the decline of western civilizations, and the rise of 'Western Civilization' (William Buckner, 2022)](https://traditionsofconflict.substack.com/p/the-northman-the-decline-of-western)
+* [Wantzel’s Theorem (Brian Hayes, 2006)](http://bit-player.org/2006/wantzels-theorem)
+* [Good company (Brian Hayes, 2006)](http://bit-player.org/2006/good-company)
+* [Nullity (Brian Hayes, 2006)](http://bit-player.org/2006/nullity)
+* [Snappy or sappy? (Brian Hayes, 2006)](http://bit-player.org/2006/snappy-or-sappy)
+* [Radio alert (Brian Hayes, 2006)](http://bit-player.org/2006/radio-alert)
+* [Stupid questions (Brian Hayes, 2006)](http://bit-player.org/2006/stupid-questions)
+* [What’s so special about {0,2,3,4,7,11,12,14}? (Brian Hayes, 2006)](http://bit-player.org/2006/whats-so-special-about-0-2-3-4-7-11-12-14)
+* [The backblog (Brian Hayes, 2006)](http://bit-player.org/2006/the-backblog)
+* [R6RS (Brian Hayes, 2006)](http://bit-player.org/2006/r6rs)
+* [Softer infrastructure (Brian Hayes, 2006)](http://bit-player.org/2006/softer-infrastructure)
+* [Conspiracy theories (Brian Hayes, 2006)](http://bit-player.org/2006/conspiracy-theories)
+* [Contra Dynomight contra me, but also kinda contra me and in support of Dynomight, on Diet Coke (Aaron Bergman, 2022)](https://www.aaronbergman.net/p/contra-dynomight-contra-me-but-also)
 * [Chemists Seek Possible Precursor to RNA (Emily Singer, 2014)](https://www.quantamagazine.org/in-chemistry-of-life-seeking-a-precursor-to-rna-20140205/)
 * [Links For November 2023 (Scott Alexander, 2023)](https://www.astralcodexten.com/p/links-for-november-2023)
 * [🥺: the best sudo replacement (Christine Dodrill, 2023)](https://xeiaso.net/blog/xn--ts9h/)

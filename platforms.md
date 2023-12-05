@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-08-28, modified: 2023-12-02, language: english, status: finished, importance: 7, confidence: certain*
+*author: niplav, created: 2023-08-28, modified: 2023-12-04, language: english, status: in progress, importance: 7, confidence: certain*
 
 > __There are too many possible quantified self experiments to run. Do
 hobbyist prediction platforms[^1] make priorisation easier? I test
@@ -179,6 +179,11 @@ Many thanks to [clippy](https://manifold.markets/anonymous)
 Mana and [Tetraspace](https://manifold.markets/Tetraspace)
 ([twitter](https://twitter.com/TetraspaceWest)) for 1000 Mana — your
 funding of the sciences is greatly appreciated.
+
+See Also
+---------
+
+* [Replication Markets](https://replicationmarkets.com/)
 
 Appendix A: Explanations for the Experiments I Chose
 -----------------------------------------------------
