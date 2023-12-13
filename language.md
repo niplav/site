@@ -390,6 +390,11 @@ Equivalences
 * {adequate, inadequate}×{exploitable, unexploitable}×{efficient, inefficient}
 * {be, take, give}×{a, the, ""} shit
 
+Great Words
+------------
+
+* "__tjimaruwentakaruwala__": A song "sung specifically to threaten a man who did not fulfill the terms of a marriage exchange", in which two men promised to marry each other's sisters or daughters, from the [Tiwi people](https://en.wikipedia.org/wiki/Tiwi_people).
+
 Better Words
 --------------
 

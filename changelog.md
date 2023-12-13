@@ -20,6 +20,9 @@ with fecundity.
 
 Monthly updates are sent out [via substack](https://niplav.substack.com/).
 
+December 2023
+--------------
+
 November 2023
 --------------
 
