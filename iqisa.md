@@ -134,7 +134,8 @@ Feature Wishlist
 * [Manifold](https://manifold.markets/home)
 * [Smarkets](https://smarkets.com/)
 * [The Odds API](https://the-odds-api.com/)
-* Kalshi
+* [Kalshi](https://kalshi.com/)
+* [Foresight Exchange](http://www.ideosphere.com/)
 
 Acknowledgements
 -----------------
