@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2023-12-02, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2023-12-14, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -22,6 +22,42 @@ Monthly updates are sent out [via substack](https://niplav.substack.com/).
 
 December 2023
 --------------
+
+* [Great Words](./language.html#Great_Words)
+
+### Links
+
+This is pretty representative of what things I've read
+this month (excluding the binge of reddit posts on
+[/r/WormFanFic](https://old.reddit.com/r/WormFanfic)…)
+
+* [What’s so special about {0,2,3,4,7,11,12,14}? (Brian Hayes, 2006)](http://bit-player.org/2006/whats-so-special-about-0-2-3-4-7-11-12-14): Some people might call it unelegant, but I find these kinds of mathematical curiosities fascinating.
+* [Big Bang Secrets Swirling in a Fluid Universe (Natalie Wolchover, 2014)](https://www.quantamagazine.org/big-bang-secrets-swirling-in-a-fluid-universe-20140212/): "“Twenty pascal-seconds is the viscosity of the universe,” said Leonardo Senatore, an assistant professor of physics at Stanford University — just as it is for the ice cream topping". Using fluid dynamics to understand the structure of the universe. Cool.
+* [Value systematization: how values become coherent (and misaligned) (Richard Ngo, 2023)](https://www.lesswrong.com/posts/J2kpxLjEyqh6x3oA4/value-systematization-how-values-become-coherent-and)
+* [An exhaustive list of cosmic threats (JordanStone, 2023)](https://forum.effectivealtruism.org/posts/fGCHomw45xuTHd757/an-exhaustive-list-of-cosmic-threats): Title says it all. Lists are great. Good post.
+* [Diss Songs (William Buckner, 2022)](https://traditionsofconflict.substack.com/p/diss-songs): Diss songs are a surprisingly common phenomenon across human cultures—why? (Although the post doesn't have numbers on this).
+* [Open Phil Should Allocate Most Neartermist Funding to Animal Welfare (Ariel Simnegar, 2023)](https://forum.effectivealtruism.org/posts/btTeBHKGkmRyD5sFK/open-phil-should-allocate-most-neartermist-funding-to-animal): Pretty popular already, but seems just straightforwardly true to me. People from openphil answering in the comments didn't move me much, probably mainly based on the introspective question "do I expect, with more evidence, to be convinced that human interventions are more promising than animal interventions?", with the answer being clearly no.
+* [Are there cognitive realms? (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/11/are-there-cognitive-realms.html)
+
+#### Ultrasound Posts by Sarah Constantin
+
+Very cool series of posts on ultrasound neuromodulation,
+I've been interested in the topic for a while now
+(especially in the context of meditation, see e.g. [Haederle
+2021](https://tricycle.org/article/brain-stimulation-meditation/)). Feels
+like there's a bunch of α here.
+
+* [Testing Human Augmentation (Sarah Constantin, 2023)](https://sarahconstantin.substack.com/p/testing-human-augmentation)
+* [Transcranial Ultrasound Neuromodulation: The Studies (Sarah Constantin, 2023)](https://sarahconstantin.substack.com/p/transcranial-ultrasound-neuromodulation)
+* [Transcranial Ultrasound Studies, Part 2 (Sarah Constantin, 2023)](https://sarahconstantin.substack.com/p/transcranial-ultrasound-studies-part)
+* [Ultrasound Neuromodulation (Sarah Constantin, 2023)](https://sarahconstantin.substack.com/p/ultrasound-neuromodulation)
+* [How Ultrasound Neuromodulation Works (Sarah Constantin, 2023)](https://sarahconstantin.substack.com/p/how-ultrasound-neuromodulation-works)
+* [Why Should Neuroenhancement Be Possible? (Sarah Constantin, 2023)](https://sarahconstantin.substack.com/p/why-should-neuroenhancement-be-possible)
+* [Who's Working on Ultrasound Neuromodulation? (Sarah Constantin, 2023)](https://sarahconstantin.substack.com/p/whos-working-on-ultrasound-neuromodulation)
+
+Related, though more speculative:
+
+* [Prosthetic connectivity (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/11/prosthetic-connectivity.html)
 
 November 2023
 --------------

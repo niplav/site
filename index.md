@@ -13,8 +13,8 @@ projects. More information about the website and its author can be found
 on the [about](./about.html) page, for recent additions and changes,
 see the [changelog](./changelog.html).
 
-I [can be hired](./services.html) to investigate research questions and
-write code.
+I [can be hired](./services.html) to investigate research questions, write
+code, design and execute experiments, analyze data and make predictions.
 
 [Content warning](./content_warning.html).
 

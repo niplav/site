@@ -4,8 +4,8 @@
 *author: niplav, created: 2023-08-28, modified: 2023-12-04, language: english, status: in progress, importance: 7, confidence: certain*
 
 > __There are too many possible quantified self experiments to run. Do
-hobbyist prediction platforms[^1] make priorisation easier? I test
-this by setting up multiple markets, in order to run two experiments
+hobbyist prediction platforms[^1] make priorisation easier? I test this by
+setting up [multiple markets](#Markets), in order to run two experiments
 (the best one, and a random one), mostly for the effects of nootropics
 on absorption in meditation.__
 
@@ -144,7 +144,7 @@ to you, dear reader:
 
 
 1. __Please predict on the markets!__ If people predict on the markets, I *both* get more information about the value of the different experiments, and I also get mana back. It would be cool to know whether hobbyist prediction markets *can* be used for choosing experiments, and the worst result would be a "well, we can't really tell because liquidity on the markets was too small".
-2. __Maybe send me mana for me to create more markets or subsidise existing ones.__ I'd love to subsidise my markets on Manifold a whole bunch, but don't have enough mana for that at the moment. [clippy](https://manifold.markets/anonymous) and [Tetraspace](https://manifold.markets/Tetraspace) both already send me mana, which I greatly appreciate. With more mana, I could also put up more markets, and thereby explore a larger space of possible experiments. However, maybe the value of another market isn't so high, so this one is way less urgent.
+2. __Maybe send me mana for me to create more markets or subsidise existing ones.__ I'd love to subsidise my markets on Manifold a whole bunch, but don't have enough mana for that at the moment. [clippy](https://manifold.markets/anonymous) and [Tetraspace](https://manifold.markets/Tetraspace) both already send me mana, which I greatly appreciate. With more mana, I could also put up more markets, and thereby explore a larger space of possible experiments. However, maybe the value of another market isn't so high, so this one is way less urgent.<!--TODO: acknowledge other mana gifters-->
 3. __Give me ideas for more experiments to run.__ If you have an idea you're enthusiastic about and which you've always wanted to have tested, but you're kind of lazy about actually doing it, I might be able to jump in. Most interesting to me are experiments that are:
 	1. *Affordable*: Expensive substances, high-end devices etc. are too prohibitive (unless you want to buy the thing for me to perform the experiment).
 	2. *Safe*: Sorry, I'm not going to take methamphetamine, even though it might make me much more productive.
@@ -189,6 +189,53 @@ Appendix A: Explanations for the Experiments I Chose
 -----------------------------------------------------
 
 Over time, I'll put some explanations on why these specific experiments
-interest me. Not yet, though.
+interest me. Not yet fully, though.
+
+### __L-Theanine + Caffeine__ vs. __Sugar__ → *Meditative Absorption*
+
+### __Nicotine__ vs. __Normal chewing gum__ → *Meditative Absorption*
+
+### __Modafinil__ vs. __Sugar__ → *Meditative Absorption*
+
+### __Vitamin D__ vs. __Sugar__ → *Meditative Absorption*
+
+### __Vitamin B12__ vs. __Sugar__ → *Meditative Absorption*
+
+### __LSD Microdosing__ vs. __Water__ → *Meditative Absorption*
+
+Inspired by [Gwern 2019)](https://www.gwern.net/LSD-microdosing).
+
+### __CBD Oil__ vs. __Similar-Tasting Oil__ → *Meditative Absorption*
+
+### __L-Phenylalanine__ vs. __Sugar__ → *Meditative Absorption*
+
+* [Diet Coke probably isn't a cognitive performance enhancer (dynomight, 2022)](https://dynomight.net/diet-coke-nootropic/)
+* [Contra Dynomight contra me, but also kinda contra me and in support of Dynomight, on Diet Coke (Aaron Bergman, 2022)](https://www.aaronbergman.net/p/contra-dynomight-contra-me-but-also)
+
+### __Bupropion__ vs. __Sugar__ → *Happiness*
+
+* [My positive experience taking the antidepressant Wellbutrin/Bupropion, & why maybe you should try it too (Robert Wiblin, 2019)](https://docs.google.com/document/d/1niiV8I4cgk_xZ1Blou15ImPmqXU4eb_li9eRVp5NgYo/)
+
+### __THC Oil__ vs. __Similar-Tasting Oil__ → *Meditative Absorption*
+
+### __Intermittent Fasting__ vs. __Normal Diet__ → *Happiness*
+
+### __Pomodoro Method__ vs. __Nothing__ → *Productivity*
+
+> The Pomodoro technique also uses the concept of rhythm, breaking up
+the day into twenty-five-minute segments of work and five minutes of
+a break. Interestingly, though, I found no academic study that tested
+the technique.
+
+*—Gloria Mark, “Attention Span” p. 66, 2023*
+
+### __Bright Light__ vs. __Normal Light__ → *Happiness*
+
+See [all the things people have written about
+lumenators](./notes.html#All_Things_People_Have_Written_About_Lumenators).
+
+### __Meditation__ vs. __No Meditation__ → *Sleep duration*
+
+* [O'Hara et al. 2010)](./meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf)
 
 [^1]: I find it odd to call any platform on which people functionally give probabilities, but without staking real money, "prediction markets". Neither [Metaculus](https://www.metaculus.com/) not [Manifold Markets](https://manifold.markets/) are prediction markets, but [PredictIt](https://www.predictit.org/) and [Kalshi](https://kalshi.com/) are.
