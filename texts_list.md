@@ -17,6 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [The voyage of novelty (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/01/the-voyage-of-novelty.html)
+* [Betting on the Future of Quantum Gravity (Natalie Wolchover, 2014)](https://www.quantamagazine.org/betting-on-the-future-of-quantum-gravity-20140314/)
+* [Sum-threshold attacks (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/09/sum-threshold-attacks.html)
+* [4. Risks from causing illegitimate value change (performative predictors) (Noram Ammann, 2023)](https://www.lesswrong.com/s/3QXNgNKXoLrdXJwWE/p/qZFGPJi3u8xuvnWHQ)
+* ["Sorry" and the originary concept of apology (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/01/sorry-and-originary-concept-of-apology.html)
+* [Nonfiction Writing Advice (Scott Alexander, 2016)](https://slatestarcodex.com/2016/02/20/writing-advice/)
+* [Son Of Bride Of Bay Area House Party (Scott Alexander, 2023)](https://www.astralcodexten.com/p/son-of-bride-of-bay-area-house-party)
+* [Does Competition Drive Diversity of Species? (Emily Singer, 2014)](https://www.quantamagazine.org/bird-study-questions-a-driving-force-in-evolution-20140310/)
 * [Descriptive vs. specifiable values (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/11/descriptive-vs-specifiable-values.html)
 * [Are there cognitive realms? (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/11/are-there-cognitive-realms.html)
 * [Look for the Next Tech Gold Rush? (Wei Dai, 2014)](https://www.lesswrong.com/posts/Jter3YhFBZFYo8vtq/look-for-the-next-tech-gold-rush)

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-08-05, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-04-02, modified: 2023-12-13, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -494,11 +494,12 @@ Scores (as of 2023-08-05):
 ![](./img/about/metaculus_cont_log_score.png)
 ![](./img/about/metaculus_cont_calibration.png)
 * [Manifold markets](https://manifold.markets/NiplavYushtun)
-	* Profit: M\\$101
-	* Net worth: M\\$1103
-	* Balance: M\\$662
-	* Calibration: Grade C+, Score -4.5
+	* Profit: M̶262
+	* Net worth: M̶1103
+	* Balance: M̶662
+	* Calibration: Grade C-, Score -7.13
 ![](./img/about/manifold_calibration.png)
+![](./img/about/manifold_profit.png)
 
 ### Pronouns
 

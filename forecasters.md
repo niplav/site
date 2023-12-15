@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-04-04, modified: 2023-07-13, language: english, status: notes, importance: 7, confidence: highly likely*
+*author: niplav, created: 2022-04-04, modified: 2023-12-14, language: english, status: notes, importance: 7, confidence: highly likely*
 
 > __Beginnings of a research agenda about [judgmental
 forecasting](https://en.wikipedia.org/wiki/Forecasting#Judgmental_methods).__
@@ -311,3 +311,8 @@ Other Questions
 	* Hobbyist sites
 		* Metaculus
 		* PredictionBook
+* How can we develop better forecast aggregation methods?
+	* Use momentum of past forecasts
+	* Use the [generalized mean](https://en.wikipedia.org/wiki/Generalized_mean) with changing `$p$` as the time to question resolution shrinks
+		* Should `$p$` be increasing/decreasing/following a more complicated pattern?
+		* Can we do something cool with the [quasi-arithmetic mean](https://en.wikipedia.org/wiki/Quasi-arithmetic_mean)?

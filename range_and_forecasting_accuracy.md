@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2023-01-20, language: english, status: maintenance, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2023-12-14, language: english, status: maintenance, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in
 relation to the time between forecast and resolution, and
@@ -128,19 +128,6 @@ Distinction between {probabilistic,non-probabilistic}
 {model-based,judgmental} forecasting
 -->
 
-Related Work
--------------
-
-[Dillon
-2021](https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons "Data on forecasting accuracy across different time horizons and levels of forecaster experience")
-investigates the quality of predictions in relation to the number
-of predictions a forecaster has made (finding that more experienced
-forecasters are less overconfident), and investigates the relation between
-Brier score and range; finding, as in this analysis, that surprisingly
-predictions with longer horizons were *more accurate*. The latter finding
-is likely not caused by more experienced forecasters making more
-long-term predictions.
-
 Results
 --------
 
@@ -247,6 +234,19 @@ these datasets still be positive/negative?-->
 I hope to update this analysis in the future, when data from predictions
 with higher ranges has become available, and to check whether the findings
 in this analysis continue to be correct.
+
+Related Work
+-------------
+
+[Dillon
+2021](https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons "Data on forecasting accuracy across different time horizons and levels of forecaster experience")
+investigates the quality of predictions in relation to the number
+of predictions a forecaster has made (finding that more experienced
+forecasters are less overconfident), and investigates the relation between
+Brier score and range; finding, as in this analysis, that surprisingly
+predictions with longer horizons were *more accurate*. The latter finding
+is likely not caused by more experienced forecasters making more
+long-term predictions.
 
 Three Different Analyses: An Illustrative Example
 -------------------------------------------------

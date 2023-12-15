@@ -2081,6 +2081,8 @@ All Things People Have Written About Lumenators
 * [How to Lumenate (UK Edition) (chanamessinger, 2022)](https://www.lesswrong.com/posts/xSfn84q3vdotALHuB/how-to-lumenate-uk-edition)
 * [Guide to rationalist interior decorating (mingyuan 2023)](https://www.lesswrong.com/posts/HJNtrNHf688FoHsHM/guide-to-rationalist-interior-decorating#Lumenators)
 * [Shortform on cheap lumenator (Angelinahli 2023)](https://www.lesswrong.com/posts/R6ByTTv9dpnjNA45C/angelinahli-s-shortform?commentId=hBPd4HGxRLGzkEGsj)
+* [YOU NEED MORE LUX (David Chapman, 2023)](https://meaningness.com/sad-light-led-lux)
+* [Seriously bright light vs. winter blahs (David Chapman, 2023)](https://meaningness.com/sad-light-lumens)
 
 Kaldor-Hicks Worsenings
 ------------------------
@@ -2394,6 +2396,8 @@ which always feels hollow without the math).
 
 * [Perfecting the Art of Sensible Nonsense (Erica Klarreich, 2014)](https://www.quantamagazine.org/in-cryptography-advances-in-program-obfuscation-20140130/)
 * [A New Physics Theory of Life (Natalie Wolchover, 2014)](https://www.quantamagazine.org/a-new-thermodynamics-theory-of-the-origin-of-life-20140122/)
+* [Big Bang Secrets Swirling in a Fluid Universe (Natalie Wolchover, 2014)](https://www.quantamagazine.org/big-bang-secrets-swirling-in-a-fluid-universe-20140212/)
+* [Scientists Reveal Structure of Pain Sensor (Emily Singer, 2014)](https://www.quantamagazine.org/scientists-reveal-structure-of-pain-sensor-20140220/)
 
 Ordering Outgoing *and* Incoming Edges in Dot
 ----------------------------------------------
@@ -2476,20 +2480,28 @@ quite fast to me, even if it isn't very discountinuous.
 The other reasons make me move towards "but it might be a lot faster
 than that". One reason is that the Davidson model assumes that the human
 brain performs 10¹⁵ FLOP/s, and that the AI systems will be at most
-that efficient or slightly less efficient. So most of my disagreement
-is around *how much the ceiling of cognitive algorithms is above humans*.
+that efficient or slightly less efficient. So a lot of my disagreement is
+around: __how much the ceiling of cognitive algorithms is above humans__
+(my belief: very high<sub>80%</sub>), and the rest of the disagreement
+is __how quickly can AI systems move towards that ceiling__ (my belief:
+not sure, but potentially within days<sub>40%</sub>).
+
+### Better Algorithms Exist
 
 One reason is that human brains don't seem like the optimal substrate
 for performing cognition: Warm & wet, very low information transmission
-speed (signals on neurons are limited to at most 200 m/s)—and still
-they are incredibly sample-efficient!
+speed (signals on neurons are limited to at most 200 m/s)[Kokotajlo
+2021](https://www.lesswrong.com/posts/HhWhaSzQr6xmBki8F/birds-brains-planes-and-ai-against-appeals-to-the-complexity)
+— and still brains are incredibly sample-efficient!
 
-Then there's the *power of error-corrected computation*: Digital
-computers can make very long inferences in discrete domains without
-problems, and when I introspect, I have the strong intuition that
-my system 2 tries to approximate this, especially when trying to
-enumerate options in a decision, recursively decompose a plan into
-its components, perform abstraction (while caching which parts of the
+Then there's the *power of error-corrected/discrete computation*:
+Digital computers can make very long inferences in discrete domains
+without problems, and when I introspect, I have the strong intuition
+that my system 2 tries to approximate this, especially when trying
+to enumerate options in a decision, recursively decompose a plan
+into its components (which gets much easier [once you have a world
+model](https://bmk.sh/2020/08/17/Building-AGI-Using-Language-Models/)),
+perform abstraction (while caching which parts of the
 abstraction are tight and which are leaky)—but my system 2 only has
 [7±2](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two)
 (or maybe [actually just
@@ -2498,10 +2510,11 @@ slots. And unless the limit is due to combinatorial explosion (which
 might be handleable by careful pruning, or prioritized search), AI
 systems could have larger (perhaps vastly larger?) working memories.
 
-The standard rejoinder here is that evolution has optimized human brains
-really really hard, and our current technology is usually 2-6 orders of
-magnitude worse than what evolution has come up with. But if we believe
-that error-corrected computation is quite rare in biology, then this opens
+The standard rejoinder here is that evolution has optimized human
+brains really really hard, and our current technology is usually 2-6
+orders of magnitude worse than what evolution has come up with<!--TODO:
+find Christiano investigation into this-->. But if we believe that
+error-corrected computation is quite rare in biology, then this opens
 up a new niche to make progress in, similar to how there are no plants
 in space because they couldn't evolve rocket-like tech and transparent
 shells that were resistant enough in vacuum.
@@ -2521,11 +2534,35 @@ problem](https://en.wikipedia.org/wiki/Maximum_Subarray_problem)
 to Kadane's algorithm)). My "optimism" here has been hindered
 somewhat by some evidence on how well [old chess algorithms perform on new
 hardware](https://www.lesswrong.com/posts/J6gktpSgYoyq5q3Au/benchmarking-an-old-chess-engine-on-new-hardware),
-and the observation that the surprising algorithms we find
-are usually galactic (such as in the case of the [slowly
-shrinking best-case exponent in the computational complexity of matrix
+and the observation that the surprising algorithms we find are
+usually galactic (such as in the case of the [decreasing shrinking
+rate of the best-case exponent in the computational complexity of matrix
 multiplication](https://en.wikipedia.org/wiki/Computational_complexity_of_matrix_multiplication#Matrix_multiplication_exponent)—where
 yet we still only use [Strassen's
 algorithm](https://en.wikipedia.org/wiki/Strassen's_algorithm)).
 
-Additionally, people seem to have *forgotten about thinking*:
+Additionally, there's some domains of computation of which we have
+made little use, *because* our minds are limited in a way that makes
+it difficult to think about them. As the adage goes, programming is
+divided into four levels of difficulty: `if` statements, `while`
+loops, [recursion](https://en.wikipedia.org/wiki/Recursion) and
+[parallelism](https://en.wikipedia.org/wiki/Parallelism_\(computing\));
+but what about domains like [self-modifying
+code](https://en.wikipedia.org/wiki/Self-modifying_code) (where, except
+maybe [Gödel machines](https://en.wikipedia.org/wiki/Gödel_machine),
+there is no respectable theory, and except [Alexia
+Massalin's](https://en.wikipedia.org/wiki/Alexia_Massalin)
+[superoptimization](https://en.wikipedia.org/wiki/Superoptimization) there
+isn't really any application)? Although, to be fair, [neural architecture
+search](https://en.wikipedia.org/wiki/Neural_architecture_search) might
+be getting there, sometime.
+
+<!--Additionally, people seem to have *forgotten about thinking*:-->
+
+My view on better algorithms existing is *not*
+informed very much by [specific observations about
+evolution](https://www.lesswrong.com/posts/hvz9qjWyv8cLX9JJR/evolution-provides-no-evidence-for-the-sharp-left-turn).
+
+<!--
+### Better Algorithms are Quickly Reachable
+-->
