@@ -670,6 +670,11 @@ Institute.
 	* Output format: Mostly long PDFs with titles such as "Acausalism:
 	A Primer" or "Chaitinudassicon".
 
+Discussions
+-------------
+
+* [LessWrong](https://www.lesswrong.com/posts/4TbTktGNu2vtGRbfM/if-i-was-an-eccentric-trillionaire)
+
 [^1]: It's not clear that Nauru is the best choice here. While it probably is the smallest nation state that can conceivably be bought (I don't think there is any realistic (or unrealistic) amount of money for which Vatican City could be acquired), it is not very fertile, and has only limited freshwater reserves, relying mostly on rainwater. The highest point is only 71 metres above sea level, which means that a large part of the island might be at risk of going under water with rising sea levels.
 [^2]: [Rest in peace](https://old.reddit.com/r/SCP/comments/1434kh7/the_whole_scp_confinement_situation_is_both/).
 [^3]: Maybe I'm lacking in imagination, but this implies both that polynesians can survive for weeks on the open ocean, can reliably find their way back home if need be, and are adventurous enough to just sail out to the open ocean in the hopes of finding new islands. This seems extremely wild to me.

@@ -146,3 +146,9 @@ and mentorship.
 
 Thanks also to [hrosspet](https://github.com/hrosspet) for making the
 library more usable.
+
+Discussions
+------------
+
+* [LessWrong](https://www.lesswrong.com/posts/CPJeoLZiqbzKtxLYF/iqisa-a-library-for-handling-forecasting-datasets)
+* [Effective Altruism Forum](https://forum.effectivealtruism.org/posts/T7PC22Yc9heFL5Ay4/iqisa-a-library-for-handling-forecasting-datasets)

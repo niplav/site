@@ -1203,23 +1203,26 @@ Some Civilizational Inadequacies
 		* `$\frac{1 \text{ warning}}{\text{person} \cdot \text{day}} \cdot \frac{2 \text{ unskilled labor seconds}}{\text{warning}} \cdot \frac{1 \text{ unskilled labor hour}}{3600 \text{ unskilled labor seconds}} \cdot \frac{365 \text{ days}}{\text{year}} \cdot 4 \text{ years} \cdot 4 \cdot 10^8 \text{ persons} \approx 3.25 \cdot 10^8 \text{ unskilled labor hours}$`
 		* Which at `$\frac{5€}{\text{unskilled labor hour}}$` is ~1.6 bio. €
 		* Can the benefit compare to this?
+* Gear sticks for manual gear shifting (which are much more common in the EU, I think)
+	* Civilizational cost Fermi estimate
+		* Let's assume that ~half of the population of Europe learned to drive with manual (manual might not have been available beforehand), which took them ~5 hours more on average.
+		* That gives `$\frac{5 \text{ unskilled labour hours}}{\text{person}} \cdot 3 \cdot 10^8 \text{ persons}=1.5 \cdot 10^8 \text{ unskilled labour hours}$`
+		* At `$\frac{5€}{\text{unskilled labor hour}}$` this is ~7.5 bio. €
+		* Although maybe this isn't a civiliational inadequacy (since there is not *really* an equilibrium we're caught in), or at least we're in the process of transitioning [out of it](https://www.nytimes.com/2021/06/24/business/stick-shift-collector-cars.html).
+		* Disregarding
+			* Any costs from increased numbers of crashes.
+			* Increased crash probabilities from higher cognitive load.
+		* Further relevant numbers
+			* It seems like automatic cars [are now *more* fuel efficient than manual ones](https://20somethingfinance.com/manual-transmission-savings/), at ~\$60 per 1000 kilometers.<!--TODO: maybe use http://www.fueleconomy.gov/ -->
+			* On the other hand, automatic gearshifting mechanisms [are far more expensive to repair](https://www.fbfs.com/learning-center/automatic-vs-manual-cars-costs-to-consider), at a cost of ~\\$2k-\\$4k, whereas manual transmission replacement costs ~\\$1.5k-\\$3k.
+			* Additionally, [this page](https://20somethingfinance.com/manual-transmission-savings/) states that manual cars are still ~\\$1k cheaper than automatic ones.
+			* The world produces about [100 mio. cars per year](https://en.wikipedia.org/wiki/Car_production#World_motor_vehicle_production).
 * Non-velcro shoes
 * Courses at university are not 3blue1brown + Q&A + extensive quizzes (or automated tutoring à la DARPA)
 * TSA security theater
 * A lot of terminology in mathematics, for example using "numerator"/"denominator" instead of "upper number"/"lower number" when talking about [fractions](https://en.wikipedia.org/wiki/Fraction) (which would be vastly easier to understand/remember *and* in one case even has fewer syllables)
 * Recycling
 * People wear glasses and usually clean the *lenses*, but I've never heard of anyone who washes the *frame* of their glasses, despite wearing them on their face nearly the entire day.
-
-<!--
-TODO: I got pushback on LW for this:
-* Gear sticks for manual gear shifting (which are much more common in the EU, I think)
-	* Civilizational cost Fermi estimate
-		* Disregarding any costs from increased numbers of crashes, let's assume that ~half of the population of Europe learned to drive with manual (manual might not have been available beforehand), which took them ~5 hours more on average
-		* That gives `$\frac{5 \text{ unskilled labour hours}}{\text{person}} \cdot 3 \cdot 10^8 \text{ persons}=1.5 \cdot 10^8 \text{ unskilled labour hours}$`
-		* At `$\frac{5€}{\text{unskilled labor hour}}$` this is ~7.5 bio. €
-		* And this is still disregarding increased crash probabilities from higher cognitive load! (Although maybe automatic cars cost more?)
-TODO: do
--->
 
 ### Fragile Tableware
 
@@ -1914,6 +1917,10 @@ and
 	* Flashcard sets that come together with textbooks. Please.
 	* [3blue1brown](https://www.youtube.com/@3blue1brown) style videos that accompany the book. [From Zero to Geo](https://www.youtube.com/watch?v=2hBWCCAiCzQ&list=PLVuwZXwFua-0Ks3rRS4tIkswgUmDLqqRy) is a great step in that direction.
 
+### Discussions
+
+* [LessWrong](https://www.lesswrong.com/posts/LockA5xWWn39fXQ5i/properties-of-good-textbooks)
+
 Economic Policy Checklist
 --------------------------
 
@@ -2403,6 +2410,10 @@ precision, that would be good or bad for the world: nuclear strikes would
 have fewer externalities, but leaders might also be more willing to use
 nuclear strikes due to lower civilian casualties (and thereby increasing
 the risk of nuclear escalation)).
+
+### Discussions
+
+* [Effective Altruism Forum](https://forum.effectivealtruism.org/posts/C6xvD89F3Jj3WFNpW/two-reasons-for-restarting-the-testing-of-nuclear-weapons)
 
 Examples and Counter-examples for Zeyneps Razor
 -------------------------------------------------

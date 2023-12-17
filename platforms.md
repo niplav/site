@@ -174,6 +174,9 @@ See Also
 ---------
 
 * [Replication Markets](https://replicationmarkets.com/)
+* Discussions
+	* [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/comments/18a4ojx/using_prediction_platforms_to_select_quantified/)
+	* [LessWrong](https://www.lesswrong.com/posts/2qQyKpXzbPov2Fmdr/please-bet-on-my-quantified-self-decision-markets)
 
 Appendix A: Explanations for the Experiments I Chose
 -----------------------------------------------------
@@ -181,7 +184,7 @@ Appendix A: Explanations for the Experiments I Chose
 Over time, I'll put some explanations on why these specific experiments
 interest me. Not yet fully, though.
 
-### __L-Theanine + Caffeine__ vs. __Sugar__ → *Meditative Absorption*
+### L-Theanine + Caffeine vs. Sugar → *Meditative Absorption*
 
 My [l-theanine experiment](./nootropics.html#LTheanine) gave disappointing
 results, but people have (rightfully) pointed out<!--TODO: where?-->
@@ -193,34 +196,39 @@ markets for all possible combinations of nootropics? But
 alas, this runs into problems with [combinatorial
 explosion](https://en.wikipedia.org/wiki/Combinatorial_explosion).
 
-### __Nicotine__ vs. __Normal chewing gum__ → *Meditative Absorption*
+### Nicotine vs. Normal chewing gum → *Meditative Absorption*
 
-### __Modafinil__ vs. __Sugar__ → *Meditative Absorption*
+### Modafinil vs. Sugar → *Meditative Absorption*
 
-### __Vitamin D__ vs. __Sugar__ → *Meditative Absorption*
+### Vitamin D vs. Sugar → *Meditative Absorption*
 
-### __Vitamin B12__ vs. __Sugar__ → *Meditative Absorption*
+### Vitamin B12 vs. Sugar → *Meditative Absorption*
 
-### __LSD Microdosing__ vs. __Water__ → *Meditative Absorption*
+### LSD Microdosing vs. Water → *Meditative Absorption*
 
-Inspired by [Gwern 2019)](https://www.gwern.net/LSD-microdosing).
+Inspired by [Gwern 2019](https://www.gwern.net/LSD-microdosing).
 
-### __CBD Oil__ vs. __Similar-Tasting Oil__ → *Meditative Absorption*
+### CBD Oil vs. Similar-Tasting Oil → *Meditative Absorption* and THC Oil vs. Similar-Tasting Oil → *Meditative Absorption*
 
-### __L-Phenylalanine__ vs. __Sugar__ → *Meditative Absorption*
+My brother, in conversation, brought up that smoking weed is incredibly
+relaxing to him, and told me he imagines that this is what he thinks
+deep meditative states feel like. That intrigues me enough to consider
+it as intervention towards absorption, if not mindfulness (albeit one
+that has the danger of creating subtly dull states of mind).
+
+### L-Phenylalanine vs. Sugar → *Meditative Absorption*
 
 * [Diet Coke probably isn't a cognitive performance enhancer (dynomight, 2022)](https://dynomight.net/diet-coke-nootropic/)
 * [Contra Dynomight contra me, but also kinda contra me and in support of Dynomight, on Diet Coke (Aaron Bergman, 2022)](https://www.aaronbergman.net/p/contra-dynomight-contra-me-but-also)
 
-### __Bupropion__ vs. __Sugar__ → *Happiness*
+### Bupropion vs. Sugar → *Happiness*
 
 * [My positive experience taking the antidepressant Wellbutrin/Bupropion, & why maybe you should try it too (Robert Wiblin, 2019)](https://docs.google.com/document/d/1niiV8I4cgk_xZ1Blou15ImPmqXU4eb_li9eRVp5NgYo/)
 
-### __THC Oil__ vs. __Similar-Tasting Oil__ → *Meditative Absorption*
 
-### __Intermittent Fasting__ vs. __Normal Diet__ → *Happiness*
+### Intermittent Fasting vs. Normal Diet → *Happiness*
 
-### __Pomodoro Method__ vs. __Nothing__ → *Productivity*
+### Pomodoro Method vs. Nothing → *Productivity*
 
 > The Pomodoro technique also uses the concept of rhythm, breaking up
 the day into twenty-five-minute segments of work and five minutes of
@@ -232,12 +240,12 @@ the technique.
 It'd be cool if I were the first person to *actually test* this widespread
 technique.
 
-### __Bright Light__ vs. __Normal Light__ → *Happiness*
+### Bright Light vs. Normal Light → *Happiness*
 
 See [all the things people have written about
 lumenators](./notes.html#All_Things_People_Have_Written_About_Lumenators).
 
-### __Meditation__ vs. __No Meditation__ → *Sleep duration*
+### Meditation vs. No Meditation → *Sleep duration*
 
 * [O'Hara et al. 2010)](./meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf)
 

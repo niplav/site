@@ -562,6 +562,12 @@ Consider your incentives :-).
 * https://onlinelibrary.wiley.com/doi/full/10.1111/j.1440-1819.2007.01658.x
 -->
 
+Discussions
+------------
+
+* [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/comments/16kyvs9/have_attention_spans_been_declining_niplav_2023/)
+* [LessWrong](https://www.lesswrong.com/posts/Pweg9xpKknkNwN8Fx/have-attention-spans-been-declining)
+
 Appendix A: Claims That Attention Spans Have Been Declining
 ------------------------------------------------------------
 
