@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-20, modified: 2023-08-08, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2022-07-20, modified: 2023-12-16, language: english, status: in progress, importance: 3, confidence: other*
 
 > __What I might do if I magically got hold of a very large amount of
 money, and couldn't spend it maximally altruistically.__
@@ -544,7 +544,6 @@ to sell the rights to anyone, which would be just as good.<!--TODO:
 email him & ask!-->
 * __Build beautiful geometric objects__
 	* The platonic solids in physical form, similar to tungsten cubes, but of varying size & material (from a steel icosahedron with a few centimetres vertex length to a granite cube or obsidian dodecahedron twenty metres at each side)—the stuff that would make future people say "they considered themselves a powerful culture"
-* __A History of [Eve Online](https://en.wikipedia.org/wiki/Eve_Online)__
 * __Languishing drafts podcast__
 
 Science

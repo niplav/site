@@ -6,8 +6,9 @@
 > __There are too many possible quantified self experiments to run. Do
 hobbyist prediction platforms[^1] make priorisation easier? I test this by
 setting up [multiple markets](#Markets), in order to run two experiments
-(the best one, and a random one), mostly for the effects of nootropics
-on absorption in meditation.__
+(the best one, and a random one), mostly for the effects of various
+[nootropics](https://en.wikipedia.org/wiki/Nootropics) on absorption
+in meditation.__
 
 Using Prediction Platforms to Select Quantified Self Experiments
 =================================================================
@@ -15,22 +16,11 @@ Using Prediction Platforms to Select Quantified Self Experiments
 [dynomight 2022](https://dynomight.net/prediction-market-causation/#7)
 has a cool proposal:
 
-> Fortunately, there’s a good (and well-known) alternative, which is
-to randomize decisions sometimes, at random. You tell people: “I will
-roll a 20-sided die. If it comes up 1-19, everyone gets their money back
-and I do what I want. If it comes up 20, the bets activate and I decide
-what to do using a coinflip.”
-
-> What’s nice about this is that you can do whatever you want when 1-19
-come up, including making your decisions using the market prices. But you
-must make decisions randomly sometimes, because if bets never activate,
-no one will waste their time betting in your market.
-
-> This is elegant. Oh, and by the way are you THE NSF or DARPA or THE
-NIH or A BILLIONAIRE WHO WANTS TO SPEND LOTS OF MONEY AND BRAG ABOUT
-HOW YOU ADVANCED THE STATE OF HUMAN KNOWLEDGE MORE THAN ALL THOSE OTHER
-LAME BILLIONAIRES WHO WOULDN’T KNOW A HIGH ROI IF IT HIT THEM IN THE
-FACE? Well how about this:
+> Oh, and by the way are you THE NSF or DARPA or THE NIH or A BILLIONAIRE
+WHO WANTS TO SPEND LOTS OF MONEY AND BRAG ABOUT HOW YOU ADVANCED THE
+STATE OF HUMAN KNOWLEDGE MORE THAN ALL THOSE OTHER LAME BILLIONAIRES
+WHO WOULDN’T KNOW A HIGH ROI IF IT HIT THEM IN THE FACE? Well how
+about this:
 
 > 1. Gather proposals for a hundred RCTs that would each be really expensive but also really awesome. (E.g. you could investigate `SALT → MORTALITY` or `ALCOHOL → MORTALITY` or `UBI → HUMAN FLOURISHING`.)
 > 2. Fund highly liquid markets to predict the outcome of each of these RCTs, conditional on them being funded.
@@ -193,6 +183,16 @@ interest me. Not yet fully, though.
 
 ### __L-Theanine + Caffeine__ vs. __Sugar__ → *Meditative Absorption*
 
+My [l-theanine experiment](./nootropics.html#LTheanine) gave disappointing
+results, but people have (rightfully) pointed out<!--TODO: where?-->
+that l-theanine is best taken together with caffeine: one gets energy
+*and* relaxation at the same time.
+
+This points at a broader possibility: Why not set up
+markets for all possible combinations of nootropics? But
+alas, this runs into problems with [combinatorial
+explosion](https://en.wikipedia.org/wiki/Combinatorial_explosion).
+
 ### __Nicotine__ vs. __Normal chewing gum__ → *Meditative Absorption*
 
 ### __Modafinil__ vs. __Sugar__ → *Meditative Absorption*
@@ -228,6 +228,9 @@ a break. Interestingly, though, I found no academic study that tested
 the technique.
 
 *—Gloria Mark, “Attention Span” p. 66, 2023*
+
+It'd be cool if I were the first person to *actually test* this widespread
+technique.
 
 ### __Bright Light__ vs. __Normal Light__ → *Happiness*
 

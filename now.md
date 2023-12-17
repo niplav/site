@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2023-07-23, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2023-12-16, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -21,9 +21,7 @@ Writing
 -------
 
 Curently I'm mostly working on an expanded version of [Turning Some
-Inconsistent Preferences into Consistent Ones](./turning.html),
-and sometimes [thinking on how to measure the precision of
-forecasts](./precision.md).
+Inconsistent Preferences into Consistent Ones](./turning.html).
 
 I'm also conducting a full edit of all texts on the website, which
 is turning out to take *way* longer than I expected. (I started with
@@ -32,7 +30,7 @@ text considerably).
 
 ### Abandoned
 
-These have been (for various reasons) abandoned.
+These texts have been (for various reasons) abandoned.
 
 * [Life Improvements in 2030](./life_improvements_2030.html)
 * [Reward Long Content](./reward.html)
@@ -51,8 +49,8 @@ tracker: [awitt](https://github.com/niplav/awitt).
 Data Collection
 ----------------
 
-I am currently running a [self-blinded RCT with
-L-Theanine](./nootropics.html#Experiment_B_SelfBlinded_RCT).
+I'm currently just running my usual [data collection](./data.htm),
+but not running any experiments at the moment.
 
 Meditation
 -----------
@@ -60,8 +58,11 @@ Meditation
 * Morning: 15 minutes ānāpānasati, 30 minutes of Mahasi-style noting
 * Evening: 60 minutes ānāpānasati
 
-I also want to do more integration<!--TODO: Romeo Stevens link-->,
-and am planning to read Core Transformation (Andreas 1994) for that.
+I also want to do more
+[integration](https://neuroticgradientdescent.blogspot.com/2021/03/threefold-training.html),
+and am planning to read up on [core
+Transformation](https://neuroticgradientdescent.blogspot.com/2019/07/core-transformation.html)
+for that purpose.
 
 Reading
 -------
@@ -69,9 +70,7 @@ Reading
 Currently, I am actively reading the following books:
 
 * An Infinitely Large Napkin (Evan Chen, 2023)
-* Die toten Seelen (Nikolai Gogol, 1842)
 * Grand Futures (Anders Sandberg, 2023)
+* Growth (Vaclav Smil, 2020)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
-* Starting Strength (Lon Kilgore/Mark Rippetoe, 2007)
 * Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
-* Theory of Games and Economic Behavior (John von Neumann/Oskar Morgenstern, 1953)
