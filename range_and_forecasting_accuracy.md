@@ -2099,6 +2099,7 @@ Discussions
 -----------
 
 * [LessWrong](https://www.lesswrong.com/posts/MquvZCGWyYinsN49c/range-and-forecasting-accuracy)
+* [Effective Altruism Forum](https://forum.effectivealtruism.org/posts/nfEWwLH8qSqNATxmr/range-and-forecasting-accuracy)
 
 Appendix A: Replicating Metaculus Findings With Full Data
 -----------------------------------------------------------

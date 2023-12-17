@@ -289,6 +289,11 @@ more recent literature on the question.
 
 * Would decomposition work if one were operating with log-odds instead of probabilities?
 
+### Discussions
+
+* [LessWrong](https://www.lesswrong.com/posts/YjZ8sJmkGJQhNcjHj/the-evidence-for-question-decomposition-is-weak)
+* [Effective Altruism Forum](https://forum.effectivealtruism.org/posts/beRtXkMpCT39y8bPj/there-is-little-evidence-on-question-decomposition)
+
 How Can We Ask Better Forecasting Questions?
 ---------------------------------------------
 

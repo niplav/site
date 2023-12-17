@@ -563,6 +563,12 @@ of producing monotonically declining scores.
 Testing the method of noising forecasts on real-world datasets shows
 that they have similar precisions.
 
+Discussions
+------------
+
+* [Effective Altruism Forum](https://forum.effectivealtruism.org/posts/WigMgsDrSzrnRZ5mm/precision-of-sets-of-forecasts)
+* [LessWrong](https://www.lesswrong.com/posts/WhwHYsKTNptbFwdwP/precision-of-sets-of-forecasts)
+
 Appendix A: Conditions for a Precision Evaluation Function
 ------------------------------------------------------------
 

@@ -434,6 +434,10 @@ DataFrame:
 	p     0.000167     0.000724  1.348364e-12  4.609786e-27   0.002074  0.024625  0.150156  0.639840  0.000000  0.000000  0.000000    0.000000
 	dσ   -0.072088     0.021868  1.139222e-01  9.659407e-02   0.295592  0.473630  0.415262  0.108356 -0.011060 -0.679137 -0.567543  697.624130
 
+### Discussions
+
+* [LessWrong](https://www.lesswrong.com/posts/DQvuSBquC8ccwPhBo/self-blinded-caffeine-rct)
+
 Creatine
 ---------
 
@@ -601,6 +605,11 @@ with l-theanine just making me more sleepy than I already am. But then
 again, under Bonferroni-correction none of the p-values are statistically
 significant, so it looks like l-theanine just doesn't do anything. Maybe
 it's better when combined with caffeine?
+
+### Discussions
+
+* [/r/QuantifiedSelf](https://old.reddit.com/r/QuantifiedSelf/comments/17lase8/selfblinded_ltheanine_rct_niplav_2023/)
+* [LessWrong](https://www.lesswrong.com/posts/Am9oRbY3bgwE55TxL/self-blinded-l-theanine-rct)
 
 Melatonin
 ----------
