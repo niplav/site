@@ -24,6 +24,7 @@ December 2023
 --------------
 
 * [Great Words](./language.html#Great_Words)
+* [Fragile Tableware Cost Analysis](./notes.html#Fragile_Tableware)
 
 ### Links
 
@@ -31,7 +32,7 @@ This is pretty representative of what things I've read
 this month (excluding the binge of reddit posts on
 [/r/WormFanFic](https://old.reddit.com/r/WormFanfic)…)
 
-* [What’s so special about {0,2,3,4,7,11,12,14}? (Brian Hayes, 2006)](http://bit-player.org/2006/whats-so-special-about-0-2-3-4-7-11-12-14): Some people might call it unelegant, but I find these kinds of mathematical curiosities fascinating.
+* [What’s so special about {0,2,3,4,7,11,12,14}? (Brian Hayes, 2006)](http://bit-player.org/2006/whats-so-special-about-0-2-3-4-7-11-12-14) Answer: That set is one of the two smallest known ones that have more [pairwise sums than pairwise differences](http://bit-player.org/2006/counting-sums-and-differences). Some people might call it unelegant, but I find these kinds of mathematical curiosities fascinating.
 * [Big Bang Secrets Swirling in a Fluid Universe (Natalie Wolchover, 2014)](https://www.quantamagazine.org/big-bang-secrets-swirling-in-a-fluid-universe-20140212/): "“Twenty pascal-seconds is the viscosity of the universe,” said Leonardo Senatore, an assistant professor of physics at Stanford University — just as it is for the ice cream topping". Using fluid dynamics to understand the structure of the universe. Cool.
 * [Value systematization: how values become coherent (and misaligned) (Richard Ngo, 2023)](https://www.lesswrong.com/posts/J2kpxLjEyqh6x3oA4/value-systematization-how-values-become-coherent-and)
 * [An exhaustive list of cosmic threats (JordanStone, 2023)](https://forum.effectivealtruism.org/posts/fGCHomw45xuTHd757/an-exhaustive-list-of-cosmic-threats): Title says it all. Lists are great. Good post.

@@ -1,10 +1,16 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-03-12, modified: 2022-07-25, language: english, status: in progress, importance: 2, confidence: other*
+*author: niplav, created: 2022-03-12, modified: 2023-12-16, language: english, status: in progress, importance: 2, confidence: other*
+
+> __Short texts on pickup, mostly daygame.__
 
 Notes on Pickup
 ================
+
+I noticed that a lot of my [notes](./notes.html) were about
+[pick-up](https://en.wikipedia.org/wiki/Pick-up_artist), especially
+daygame, so I decided to collect them here, in a separate file.
 
 Approach Anxiety
 ----------------
@@ -304,7 +310,6 @@ This has some advantages and some disadvantages:
 Overall, for me the effects of removing one weasel strongly outweigh
 the downsides, but your mileage may vary.
 
-<!--
 Using Multi-Armed Bandits to Select Daygame Locations
 ------------------------------------------------------
 
@@ -314,4 +319,36 @@ my game. I don't think I've found anything solid yet, so instead I'm
 going to try to use that data to estimate where I should do my next
 daygame session.
 
--->
+For this, I trick ChatGPT into writing code for a [multi-armed
+bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit) using
+[Thompson sampling](https://en.wikipedia.org/wiki/Thompson_sampling) in
+[Julia](https://en.wikipedia.org/wiki/Julia_\(programming_language\)),
+with getting a contact information as a reward of 1 and not getting any
+contact information as a reward of 0.
+
+(I know that this is a super impoverished view on what makes a good
+daygame approach, but this is an exploratory exercise. I might add more &
+different factors later.)
+
+Of course, I can't tell ChatGPT that I am doing pickup, so I instead
+say that I'm looking to optimize the quality of icecream I'm eating by
+selecting different icecream shops. (Title of conversation: "Bayesian
+Icecream Bandit").
+
+The resulting code is [here](./code/location/location.jl), but I haven't
+tested it in the field yet.
+
+Additional variables I could take into account would be my enjoyment
+of the approach, the attractiveness of the woman I'm speaking to, the
+amount of time I'm spending between approaches, …
+
+And if I want to be really fancy, I could use a 2-dimensional
+[Gaussian process](https://en.wikipedia.org/wiki/Gaussian_Process), in
+[kriging](https://en.wikipedia.org/wiki/Kriging) fashion, to interpolate
+geographical data and find the best daygame locations that way. *Probably*
+overkill.
+
+### See Also
+
+* [The Multi-Armed Bandit Problem and Its Solutions (Lilian Weng, 2018)](https://lilianweng.github.io/posts/2018-01-23-multi-armed-bandit/)
+* [A penguin fish-recommender systems using multi-armed bandits pt. 1 (Sebastian Callh, 2020)](https://sebastiancallh.github.io/post/multi-armed-bandits-and-penguins/)

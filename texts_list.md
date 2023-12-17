@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-12-12, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-12-16, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Sums, differences, and surprises (Brian Hayes, 2006)](http://bit-player.org/2006/sums-differences-and-surprises)
+* [More on sums and differences (Brian Hayes, 2006)](http://bit-player.org/2006/more-on-sums-and-differences)
+* [Counting sums and differences (Brian Hayes, 2006)](http://bit-player.org/2006/counting-sums-and-differences)
+* [Possible Echo of Big Bang Detected (Natalie Wolchover, 2014)](https://www.quantamagazine.org/bicep2-telescope-detects-possible-gravitational-waves-20140317/)
+* [Current AIs Provide Nearly No Data Relevant to AGI Alignment (Thane Ruthenis, 2023)](https://www.lesswrong.com/posts/HmQGHGCnvmpCNDBjc/current-ais-provide-nearly-no-data-relevant-to-agi-alignment)
+* [Beyond the Binary (Zack M. Davis, 2023)](http://unremediatedgender.space/2023/Dec/beyond-the-binary/)
+* [‘Story Of Your Life’ Is Not A Time-Travel Story (Gwern Branwen, 2018)](https://gwern.net/story-of-your-life)
+* [5. Risks from preventing legitimate value change (value collapse) (Nora Ammann, 2023)](https://www.lesswrong.com/s/3QXNgNKXoLrdXJwWE/p/KeHGinpj2WyzDEQAx)
 * [The voyage of novelty (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/01/the-voyage-of-novelty.html)
 * [Betting on the Future of Quantum Gravity (Natalie Wolchover, 2014)](https://www.quantamagazine.org/betting-on-the-future-of-quantum-gravity-20140314/)
 * [Sum-threshold attacks (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/09/sum-threshold-attacks.html)
@@ -57,7 +65,7 @@ ink/)
 * [Worm except it's the early 2000's and Contessa is a horny, rebellious teenager (LiterallyWormExcept, 2019)](https://old.reddit.com/r/WormFanfic/comments/b0obzh/worm_except_its_the_early_2000s_and_contessa_is_a/)
 * [This may be a super crazy theory but I think Taylor had a sub-power like Jack Slash that she wasn’t aware of. (OmegonAlphariusXX, 2022)](https://old.reddit.com/r/WormFanfic/comments/tszil3/this_may_be_a_super_crazy_theory_but_i_think/)
 * [On Stress (Gwern Branwen, 2014)](https://gwern.net/stress)
-* * Children's Conceptualisations of their Well-Being (Elizabeth Watson/Jan Mason/Toby Fattore, 2006)
+* Children's Conceptualisations of their Well-Being (Elizabeth Watson/Jan Mason/Toby Fattore, 2006)
 * [A Survey of Poison Use in Hunter-Gatherer Societies (A Survey of Poison Use in Hunter-Gatherer Societies, 2022)](https://traditionsofconflict.substack.com/p/a-survey-of-poison-use-in-hunter)
 * [Rules for the flighty-souled (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/02/rules-for-flighty-souled.html)
 * [idiopathies (Gavin Leech, 2023)](https://www.gleech.org/med)

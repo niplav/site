@@ -783,7 +783,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 * Bihacking/polyhacking case studies collection
 * Post-mortem on liquid democracy in the real world
 * Investigate [this post empirically](http://www.overcomingbias.com/2007/02/is_truth_in_the.html) via information from forecasting datasets
-* Daygame Locations as a Multi-Armed Bandit
 * Ethics survey
 
 ### Ideas

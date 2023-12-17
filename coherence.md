@@ -24,6 +24,8 @@ Related Work
 
 * [A logic to deal with inconsistent preferences (Bob Jacobs, 2023)](https://bobjacobs.substack.com/p/a-logic-to-deal-with-inconsistent)
 * [Using vector fields to visualise preferences and make them consistent (Michael Aird, Justin Shovelain, 2020)](https://www.lesswrong.com/posts/ky988ePJvCRhmCwGo/using-vector-fields-to-visualise-preferences-and-make-them)
+* [0. The Value Change Problem: introduction, overview and motivations (Nora Ammann, 2023)](https://www.lesswrong.com/s/3QXNgNKXoLrdXJwWE/p/mHQHBEuFcEWRnitp4)
+* [Value systematization: how values become coherent (and misaligned) (Richard Ngo, 2023)](https://www.lesswrong.com/posts/J2kpxLjEyqh6x3oA4/value-systematization-how-values-become-coherent-and)
 
 Representing Inconsistent Preferences
 --------------------------------------
