@@ -4,7 +4,8 @@ import pandas as pd
 import scipy.stats as scistat
 
 def normal_likelihood(data, mu, std):
-	return np.product(scistat.norm.pdf(data, loc=mu, scale=std))
+	data_probs=scistat.norm.pdf(data, loc=mu, scale=std)
+	return np.multiply.reduce(data_probs, where=~np.isnan(data_probs))
 
 def placebo_likelihood_ratio(active, placebo):
 	placebo_mle_lh=normal_likelihood(active, placebo.mean(), placebo.std())

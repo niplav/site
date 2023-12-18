@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2023-12-04, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2023-12-18, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2562,7 +2562,10 @@ One reason is that human brains don't seem like the optimal substrate
 for performing cognition: Warm & wet, very low information transmission
 speed (signals on neurons are limited to at most 200 m/s)[Kokotajlo
 2021](https://www.lesswrong.com/posts/HhWhaSzQr6xmBki8F/birds-brains-planes-and-ai-against-appeals-to-the-complexity)
-— and still brains are incredibly sample-efficient!
+— and still brains are incredibly sample-efficient! And I
+suspect that, if anything, humans are at best at a [subspace
+optimum](https://www.lesswrong.com/posts/yuP4D4Pz79uyPS9KW) of cognitive
+algorithms.
 
 Then there's the *power of error-corrected/discrete computation*:
 Digital computers can make very long inferences in discrete domains
