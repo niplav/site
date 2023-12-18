@@ -182,9 +182,9 @@ Fitbit Biometrics
 
 I use the [Fitbit Inspire
 3](https://en.wikipedia.org/wiki/List_of_Fitbit_products#Fitbit_Inspire_3)
-because it is one of the few (the only?) products that allow for data
-export, mostly to track my sleep, but maybe I'll also get mileage out
-of the heart rate, step, glucose and temperature tracking.
+because Fitbit is one of the few (the only?) companies whose products
+allow for data exporting, mostly to track my sleep, but maybe I'll also
+get mileage out of the heart rate, step, glucose and temperature tracking.
 
 Daygame
 --------

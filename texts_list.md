@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-12-16, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2023-12-18, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,15 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [esc. (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/02/esc.html)
+* [Politically convergent perverse instability (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2022/12/politically-convergent-perverse.html)
+* [Getting Started (Turing Developers, 2023)](https://turinglang.org/dev/docs/using-turing/get-started)
+* [The Cost of Manual Transmission vs. Automatic Transmission: Is it Worth it? (G. E. Miller, 2023)](https://20somethingfinance.com/manual-transmission-savings/)
+* [Automatic vs. Manual Cars — Costs to Consider (Farm Bureau Finanical Services, 2023)](https://www.fbfs.com/learning-center/automatic-vs-manual-cars-costs-to-consider)
+* [Tutorials (Turing Developers, 2023)](https://turing.ml/dev/tutorials/)
+* [Turing Documentation (Turing Developers, 2023)](https://turing.ml/dev/docs/using-turing/)
+* [A ‘Rebel’ Without a Ph.D. (Freeman Dyson/Thomas Lin, 2014)](https://www.quantamagazine.org/a-math-puzzle-worthy-of-freeman-dyson-20140326/)
+* Understand (Ted Chiang, 1991)
 * [Sums, differences, and surprises (Brian Hayes, 2006)](http://bit-player.org/2006/sums-differences-and-surprises)
 * [More on sums and differences (Brian Hayes, 2006)](http://bit-player.org/2006/more-on-sums-and-differences)
 * [Counting sums and differences (Brian Hayes, 2006)](http://bit-player.org/2006/counting-sums-and-differences)

@@ -1,7 +1,7 @@
 [home](./index.html)
 ---------------------
 
-*author: niplav, created: 2022-06-18, modified: 2023-06-12, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2022-06-18, modified: 2023-12-18, language: english, status: draft, importance: 2, confidence: log*
 
 > Idea & format stolen shamelessly from [Gavin
 Leech](https://www.gleech.org/favs/all/).
@@ -269,6 +269,8 @@ Interest](https://qntm.org) present two very different (but both
 delightful) options. The [SCP Wiki](http://www.scp-wiki.net/) is also
 one of a kind, a true product of the internet age.
 
+### Wikis
+
 My favorite wikis are [Wikipedia](https://en.wikipedia.org/),
 [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/), the
 [Xenharmonic Wiki](https://en.xen.wiki/) and the [Arbital AI Alignment
@@ -277,6 +279,13 @@ favorite social media site is [schelling.pt](https://schelling.pt)
 and my favorite forecasting/news sites are still the good
 ol' reliable [Metaculus](https://www.metaculus.com) and
 [PredictionBook](https://www.predictionbook.com).
+
+### Newspapers
+
+I don't read the news, except for [Quanta
+Magazine](https://www.quantamagazine.org/), where I'm working through the
+archives (I'm currently up to early 2014). Favorite articles, 10 per year,
+[here](./notes.html#Favorite_Quanta_Magazine_Articles).
 
 Mathematics
 ------------
