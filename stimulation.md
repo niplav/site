@@ -9,11 +9,16 @@ Brain Stimulation for Meditation Enhancement
 =============================================
 
 See [Constantin
-2023a](https://sarahconstantin.substack.com/p/why-should-neuroenhancement-be-possible "Why Should Neuroenhancement Be Possible?")
-for a general overview for neuroenhancement and [Constantin
-2023b](https://sarahconstantin.substack.com/p/whos-working-on-ultrasound-neuromodulation "Who's Working on Ultrasound Neuromodulation?")
-for more information on companies working on ultrasound for
-neuromodulation in particular.
+2023a](https://sarahconstantin.substack.com/p/why-should-neuroenhancement-be-possible
+"Why Should Neuroenhancement Be Possible?")
+for a general overview for neuroenhancement, [Constantin
+2023b](https://sarahconstantin.substack.com/p/transcranial-ultrasound-neuromodulation)
+and [Constantin
+2023c](https://sarahconstantin.substack.com/p/transcranial-ultrasound-studies-part)
+for an overview of studies, and [Constantin
+2023d](https://sarahconstantin.substack.com/p/whos-working-on-ultrasound-neuromodulation
+"Who's Working on Ultrasound Neuromodulation?")  for more information
+on companies working on ultrasound for neuromodulation in particular.
 
 <!--TODO
 * https://www.theguardian.com/lifeandstyle/video/2021/jun/29/hacking-enlightenment-can-ultrasound-help-you-transcend-reality

@@ -48,6 +48,7 @@ HTML=index.html \
 	diamond.html \
 	eacrit.html \
 	eccentric.html \
+	eschews.html \
 	equally_many_heads_and_tails.html \
 	estimated_life_expectancy.html \
 	exercise_log.html \
@@ -74,6 +75,7 @@ HTML=index.html \
 	platte.html \
 	preagents.html \
 	precision.html \
+	preference.html \
 	qualia.html \
 	range_and_forecasting_accuracy.html \
 	rationalist_gods.html \
@@ -82,6 +84,7 @@ HTML=index.html \
 	sites.html \
 	spans.html \
 	stimulation.html \
+	subscripts.html \
 	suspicious.html \
 	tao_te_king.html \
 	text_reviews.html \
