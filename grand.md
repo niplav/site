@@ -542,3 +542,9 @@ Footnote 48: "Hf B\_2" should be "Hf B₂", I reckon
 gya, snowball earth 2.3 gya and 790-630 mya […]
 
 Shouldn't "mya" and "gya" be "Mya" and "Gya", for consistency's sake?
+
+#### 7.2.2
+
+> This contrasts to the fear/hope that change may go in \*any\* direction
+
+I assume the asterisks are supposed to make "any" italic.

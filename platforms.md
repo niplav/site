@@ -116,6 +116,7 @@ and will put them up as I acquire more mana.
 Blindeable:
 
 1. __Semaglutide__ vs. __Sugar__ → *Productivity* (tracking conscientiousness)
+2. __Melatonin__ vs. __Sugar__ → *Sleep duration*
 
 Not blindeable:
 

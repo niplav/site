@@ -1192,6 +1192,10 @@ data-scientist.
 For more information about this amazing function, consult its
 [documentation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html).
 
+### Discussions
+
+* [LessWrong](https://www.lesswrong.com/posts/tTACHjbQ9W5Ha4GnF/scipy-optimize-curve_fit-is-awesome)
+
 Some Civilizational Inadequacies
 ---------------------------------
 
@@ -1746,6 +1750,8 @@ existing sklerotic status hierarchies.
 ### See Also
 
 * [Systems to Eschew Eschewing Performance (210ethan, 2023)](https://210ethan.github.io/thoughts/eschew.html)
+* Discussions
+	* [LessWrong Discussion](https://www.lesswrong.com/posts/NAjM4y26yYwKzXA2s/high-status-eschews-quantification-of-performance)
 
 Subscripts for Probabilities
 ------------------------------
@@ -1882,6 +1888,10 @@ The notation proposed here would change the text:
 > * Given hedonism and conditional on sentience, we think that none of the vertebrate nonhuman animals of interest have a welfare range that’s more than double the size of any of the others<sub>70%</sub>. While carp and salmon have lower scores than pigs and chickens, we suspect that’s largely due to a lack of research.
 * Given hedonism and conditional on sentience, we think that the welfare ranges of humans and the vertebrate animals of interest are within an order of magnitude of one another<sub>65%</sub>.
 * Given hedonism and conditional on sentience, we think that all the invertebrates of interest have welfare ranges within two orders of magnitude of the vertebrate nonhuman animals of interest<sub>60%</sub>. Invertebrates are so diverse and we know so little about them; hence, our caution.
+
+### Discussions
+
+* [LessWrong](https://www.lesswrong.com/posts/Tmz6ucxDFsdod2QLd/subscripts-for-probabilities)
 
 Properties of Good Textbooks
 -----------------------------
@@ -2630,12 +2640,48 @@ isn't really any application)? Although, to be fair, [neural architecture
 search](https://en.wikipedia.org/wiki/Neural_architecture_search) might
 be getting there, sometime.
 
-<!--Additionally, people seem to have *forgotten about thinking*:-->
+<!--TODO: Additionally, people seem to have *forgotten about thinking*:-->
 
 My view on better algorithms existing is *not*
 informed very much by [specific observations about
 evolution](https://www.lesswrong.com/posts/hvz9qjWyv8cLX9JJR/evolution-provides-no-evidence-for-the-sharp-left-turn).
 
 <!--
+TODO:
+
 ### Better Algorithms are Quickly Reachable
 -->
+
+Paternalism May Be About Mechanism Design
+-------------------------------------------
+
+There's
+[been](https://www.lesswrong.com/posts/6dSitnwYPg8i8NHn3/burch-s-law)
+[some](https://www.overcomingbias.com/p/rational_agent_html)
+[discussion](http://www.overcomingbias.com/2006/11/asymmetric_pate.html)
+[about](https://musingsandroughdrafts.wordpress.com/2022/03/29/paternalism-is-about-outrage/)
+[the origins](https://www.overcomingbias.com/p/paternalism_is_html)
+[of paternalism](https://www.overcomingbias.com/p/heres_my_openinhtml).
+
+I believe that there's another possible justification for paternalism:
+Intervening in situations between different actors to bring about
+Pareto-improved games.
+
+Let's take the [game of
+chicken](https://en.wikipedia.org/wiki/Chicken_\(game\)). If
+one *favors* a specific player, and one has access to their car
+before the game, one could remove the steering wheel to make their
+commitment for them—taking an option away, but still improving
+their situation by forcing the other player to swerve first,
+and guaranteeing the swerve (after all, it's a [strictly dominant
+strategy](https://en.wikipedia.org/wiki/Dominant_Strategy)).
+
+In a less artificial context, one could see minimum wage laws as
+an example of this. Disregarding potential effects from increased
+unemployment, having higher minimum wage removes the temptation of
+workers to accept lower wages.
+
+One can imagine a paternalist government as more of a [mechanism
+designer](https://en.wikipedia.org/wiki/Mechanism_Design), then.
+
+<!--TODO: Taking options away from people post-->
