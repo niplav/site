@@ -56,6 +56,7 @@ HTML=index.html \
 	flags.html \
 	forecasters.html \
 	grand.html \
+	increasing.html \
 	iqisa.html \
 	iqisadoc.html \
 	language.html \
@@ -79,7 +80,6 @@ HTML=index.html \
 	reward.html \
 	senryu.html \
 	sites.html \
-	slowdown.html \
 	spans.html \
 	stimulation.html \
 	suspicious.html \

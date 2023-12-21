@@ -734,3 +734,9 @@ well as the responses on the [LessWrong August 2021 Open
 Thread](https://www.lesswrong.com/posts/QqnQJYYW6zhT62F6Z/?commentId=dMpstgZ3gQnGBbRhh)
 and the people in the AI alignment channel of the Eleuther AI discord
 server for their responses.
+
+Discussions
+------------
+
+* [/r/ControlProblem](https://old.reddit.com/r/ControlProblem/comments/pfb8ze/braincomputer_interfaces_and_ai_alignment/)
+* [LessWrong](https://www.lesswrong.com/posts/rpRsksjrBXEDJuHHy/brain-computer-interfaces-and-ai-alignment)

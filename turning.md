@@ -1190,6 +1190,11 @@ Further Questions
 * There is something interesting going on with lattices (?) over individual transitivity operations
 
 Acknowledgements
-------------------------
+------------------
 
 Thanks to Miranda Dixon-Luinenburg for finding some typos.
+
+Discussions
+-------------
+
+* [LessWrong](https://www.lesswrong.com/posts/H2SizXNd99FcwLsCC/turning-some-inconsistent-preferences-into-consistent-ones)

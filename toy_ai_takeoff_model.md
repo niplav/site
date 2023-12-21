@@ -612,6 +612,11 @@ skeptics can point to concrete implementation details or assumptions of
 the models that they disagree with, as well as modify it and demonstrate
 under which conditions no discontinuities occur.
 
+Discussions
+-------------
+
+* [LessWrong](https://www.lesswrong.com/posts/dBBqHxZqvXKW3ZsGa/an-exploratory-toy-ai-takeoff-model)
+
 Appendix A: Images of All Runs
 -------------------------------
 

@@ -24,7 +24,14 @@ December 2023
 --------------
 
 * [Great Words](./language.html#Great_Words)
-* [Fragile Tableware Cost Analysis](./notes.html#Fragile_Tableware)
+* [Notes](./notes.html)
+	* [Fragile Tableware Cost Analysis](./notes.html#Fragile_Tableware): We might be losing on average ~$4e7/day on having porcelain plates.
+	* [A Response on FOOM](./notes.html#A_Response_on_FOOM)
+	* [Paternalism May Be About Mechanism Design](./notes.html#Paternalism_May_Be_About_Mechanism_Design)
+<!--
+* [Notes on Pickup](./notes_on_pickup.html)
+	* [Using Multi-Armed Bandits to Select Daygame Locations](./notes_on_pickup.html#Using_MultiArmed_Bandits_to_Select_Daygame_Locations)
+-->
 
 ### Links
 
