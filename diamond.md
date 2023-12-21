@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-11-20, modified: 2022-06-06, language: english, status: notes, importance: 4, confidence: highly likely*
+*author: niplav, created: 2020-11-20, modified: 2023-12-21, language: english, status: notes, importance: 4, confidence: highly likely*
 
 > __The Diamond-Square algorithm is a terrain-generation algorithm for
 two dimensions (producing a three-dimensional terrain). I generalize
@@ -22,6 +22,8 @@ Introduction
 
 Description
 ------------
+
+Code [here](code/diamond/ndim_diamond_square.py).
 
 ### Square
 

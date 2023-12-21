@@ -1538,360 +1538,12 @@ games](https://en.wikipedia.org/wiki/Price_of_stability#Network_design_games),
 High Status Eschews Quantification of Performance
 --------------------------------------------------
 
-<!--TODO: hunt down cryptonormativities in here, destroy them-->
-
-In a recent episode of [The Filan
-Cabinet](https://thefilancabinet.com/episodes/2023/02/05/6-oliver-habryka.html),
-Oliver Habryka elaborated on a very interesting social pattern: If you
-have a community with high status people, and try to introduce clearer
-metrics of performance into that community, high status individuals in
-the community will strongly resist those metrics because they have an
-asymmetric downside: If they perform well on the metric, they stay in
-their position, but if they perform poorly, they might lose status. Since
-they are at least a little bit unsure about their performance on the
-metric relative to others, they can only lose.
-
-> Daniel Filan: So let's go back to what you think on your bad days. So
-you mentioned that you had this sense that lots of things in the world
-were, I don't know, trying to distract you from things that are true or
-important. And that LessWrong did that somewhat less.  
->
-> Oliver Habryka: Yeah.  
->
-> Daniel Filan: Can you kind of flesh that out? What kinds of things
-are you thinking of?  
->
-> Oliver Habryka: I mean, the central dimension that I would often
-think about here is reputation management. As an example, the medical
-profession, which, you know, generally has the primary job of helping
-you with your medical problems and trying to heal you of diseases and
-various other things, also, at the same time, seems to have a very strong
-norm of mutual reputation protection. Where, if you try to run a study
-trying to figure out which doctors in the hospital are better or worse
-than other doctors in the hospital, quite quickly, the hospital will
-close its ranks and be like, “Sorry, we cannot gather data on [which
-doctors are better than the other doctors in this hospital].” Because
-that would, like, threaten the reputation arrangement we have. This would
-introduce additional data that might cause some of us to be judged and
-some others of us to not be judged.  
->
-> And my sense is the way that usually looks like from the inside is
-an actual intentional blinding to performance metrics in order to both
-maintain a sense of social peace, and often the case because... __A very
-common pattern here [is] something like, you have a status hierarchy
-within a community or a local institution like a hospital. And generally,
-that status hierarchy, because of the way it works, has leadership
-of the status hierarchy be opposed to all changes to the status
-hierarchy. Because the current leadership is at the top of the status
-hierarchy, and so almost anything that we introduce into the system that
-involves changes to that hierarchy is a threat, and there isn't much to
-be gained, [at least in] the zero-sum status conflict that is present.__  
->
-> And so my sense is, when you try to run these studies about comparative
-doctor performance, what happens is more that there's an existing status
-hierarchy, and lots of people feel a sense of uneasiness and a sense
-of wanting to protect the status quo, and therefore they push back on
-gathering relevant data here. And from the inside this often looks like
-an aversion to trying to understand what are actually the things that
-cause different doctors to be better than other doctors. Which is crazy,
-if you're, like, what is the primary job of a good medical institution
-and a good medical profession, it would be figuring out what makes people
-be better doctors and worse doctors. But [there are] all of the social
-dynamics that tend to be present in lots of different institutions that
-make it so that looking at relative performance [metrics] becomes a
-quite taboo topic and a topic that is quite scary.  
->
-> So that's one way [in which] I think many places try to actively... Many
-groups of people, when they try to orient and gather around a certain
-purpose, actually [have a harder time] or get blinded or in some sense
-get integrated into a hierarchy that makes it harder for them to look
-at a thing that they were originally interested in when joining the
-institution.  
-
-*— Oliver Habryka & Daniel Filan, [“The Filan Cabinet Podcast with Oliver Habryka - Transcript”](https://www.lesswrong.com/posts/4NFDwQRhHBB2Ad4ZY/filan-cabinet-podcast-with-oliver-habryka-transcript), 2023*
-
-This dynamic appears to me to explain many dysfunctions that currently
-occur, and important enough to collect some examples where this pattern
-occurred/occurs and where it was broken.
-
-### Examples of the Dynamic
-
-#### Ignaz Semmelweis and Hospitals
-
-[Ignaz Semmelweis](https://en.wikipedia.org/wiki/Ignaz_Semmelweis)
-studied the maternal mortality rate due to puerperal fever in two
-different hospitals in the Vienna of the mid 19th century. Finding a
-stark difference in mortality rates between the two clinics (10% and
-4%), he pursued different theories, finally concluding that the medical
-students and doctors in the first clinic did not wash their hands even
-after autopsies, while the midwives in the second clinic did not have
-contact with corpses. He instituted a policy of first desinfecting hands
-with a chlorinated solution and later simple handwashing, leading to
-drastic declines in the mortality rate.
-
-However, Semmelweis was derided for his ideas, and they were dismissed
-as out of line with the then common four humors theory. Additionally, Wikipedia states that
-
-> As a result, his ideas were rejected by the medical community. Other,
-more subtle, factors may also have played a role. Some doctors,
-for instance, were offended at the suggestion that they should
-wash their hands, feeling that their social status as gentlemen
-was inconsistent with the idea that their hands could be
-unclean.<sup>[19][\[F\]](https://en.wikipedia.org/wiki/Ignaz_Semmelweis#cite_note-30)</sup>
-
-And:
-
-> János Diescher was appointed Semmelweis's successor at the Pest
-University maternity clinic. Immediately, mortality rates increased
-sixfold to 6%, but the physicians of Budapest said nothing; there were
-no inquiries and no protests.
-
-It is quite surprising to me that we still know these numbers.
-
-#### Intellectuals Resist IQ
-
-Another example is that (arguendo) many intellectuals
-place an absurdly high amount of rigor on any attempts to
-develop tests for *g*, and the widespread [isolated demands for
-rigor](https://slatestarcodex.com/2014/08/14/beware-isolated-demands-for-rigor/)
-placed on IQ tests, despite their [predictive
-value](./doc/psychology/iq/the_predictive_value_of_iq_sternberg_2001.pdf "The Predictive Value of IQ (Sternberg et al. 2001").
-
-The hypothesis that many intellectuals fear that widespread reliable
-testing of cognitive ability could hurt their position in status
-hierarchies where intellectual performance is crucial retrodicts this.
-
-#### FTFP and Two-Party Systems
-
-A more esoteric example is the baffling prevalence of
-[first-past-the-post](https://en.wikipedia.org/wiki/First-past-the-post_voting)
-voting systems, despite the large amount of [wasted
-votes](https://en.wikipedia.org/wiki/Wasted_vote)
-it incurs, the pressure towards two-party systems via
-[Duverger's law](https://en.wikipedia.org/Duverger's_law)
-(and probably thereby creating more polarization),
-and the large number of voting method criteria [it
-violates](https://en.wikipedia.org/wiki/First-past-the-post_voting#Voting_method_criteria).
-
-Here, again, the groups with large amounts of power have an incentive to
-prevent better methods of measurement coming into place: in a two-party
-system, both parties don't want additional competitors (i.e. third
-parties) to have a better shot at coming into power, which would be the
-case with better voting methods—so both parties don't undertake any
-steps to switch to a better system (and might even attempt to hinder or
-stop such efforts).
-
-If this is true, then it's a display that high status actors not only
-resist quantification of performance, but also improvements in the
-existing metrics for performance.
-
-#### Prediction Markets
-
-Prediction markets [offer to be a reliable mechanism for aggregating
-information](./doc/prediction/markets/the_promise_of_prediction_markets_arrow_et_al_2008.pdf "The Promise of Prediction Markets (Kenneth J. Arrow/Robert Fortsythe/Michael Gorham/Robert Hahn/Robin Hanson/John O. Ledyard/Saul Levmore/Robert Litan/Paul Milgrom/Forest D. Nelson/George R. Neumann/Marco Ottaviani/Thomas C. Schelling/Robert J. Shiller/Vernon L. Smith/Erik Snowberg/Cass r. Sunstein/Paul C. Tetlock/Philip E. Tetlock/Hal R. Varian/Justin Wolfers/Eric Zitzowitz, 2008)")
-about future events, yet they have been adopted in neither governments
-nor companies.
-
-One reason for this is the [at best shaky legal
-ground](https://en.wikipedia.org/wiki/Prediction_market#Legality)
-such markets stand on in the US, but they also threaten the
-reputations of pundits and other information sources who often do
-not display high accuracy in their predictions. See also [Hanson
-2023](https://www.overcomingbias.com/p/prediction-market-quoteshtml)
-
-> A partner at a prominent US-based global management consultant:
-> > “The objective truth should never be more than optional input to
-any structural narrative in a social system.”
-
-#### Software Development Effort Estimation
-
-(*epistemic status*: The information in this section is from personal
-communication with a person with ~35 years of industry experience
-in software engineering, but I haven't checked the claims in detail
-yet.<!--TODO-->)
-
-It is common for big projects to take more effort and time to complete
-than initially estimated. For software projects, there exist several
-companies who act as consultants to estimate the effort and time
-required for completing software projects. However, none of those
-companies publish track records of their forecasting ability (in
-line with the surprising general lack of customers demanding [track
-records](http://www.overcomingbias.com/2006/12/the_80_forecast.html)
-of performance).
-
-This is a somewhat noncentral case, because the development effort
-estimation companies and consultancies are probably not high status
-relative to their customers, but perhaps the most well-regarded of such
-companies have found a way to coordinate around making track records
-low status.
-
-#### The Rationality Community
-
-Left as an exercise to the reader.
-
-### Transitions to Clearer Quantification
-
-If one accepts that this dynamic is surprisingly common, one might be
-interested in how to avoid it (or transition to a regime with stronger
-quantification for performance).
-
-One such example could be the emergence of [Mixed Martial
-Arts](https://en.wikipedia.org/wiki/Mixed_Martial_Arts) through the
-[Gracie challenge](https://en.wikipedia.org/wiki/Gracie_challenge)
-in the 1920s and later the
-[UFC](https://en.wikipedia.org/wiki/Ultimate_Fighting_Championship):
-The ability to hold fights in relatively short tournaments with clear win
-conditions seems to have enabled the establishment of a parallel status
-hierarchy, which outperformed other systems whenever the two came in
-contact. I have not dug into the details of this<!--TODO-->, but this
-could be an interesting case study for bringing more meritocracy into
-existing sklerotic status hierarchies.
-
-### See Also
-
-* [Systems to Eschew Eschewing Performance (210ethan, 2023)](https://210ethan.github.io/thoughts/eschew.html)
-* Discussions
-	* [LessWrong Discussion](https://www.lesswrong.com/posts/NAjM4y26yYwKzXA2s/high-status-eschews-quantification-of-performance)
+Moved [here](./eschews.html).
 
 Subscripts for Probabilities
 ------------------------------
 
-Gwern has wondered about a use-case for subscripts in hypertext. While
-they have settled on a specific use-case, namely [years for
-citations](https://www.gwern.net/Subscripts.html), I propose a different one:
-reporting explicit probabilities.
-
-Explicitely giving for probabilities in day-to-day English text is usually
-quite clunky: "I assign 35% to North Korea testing an intercontinental
-ballistic missile until the end of this year" reads far less smoothly
-than "I don't think North Korea will test an intercontinental ballistic
-missile this year".<!--TODO: what's the normal English problem with
-multiple statements?-->
-
-And since subscripts are a solution in need of a problem, one can wonder
-how well those two fit together: Quite well, I claim.
-
-In short, I propose to append probabilities in subscript after a statement
-using standard HTML subscript notation (or `$\LaTeX$` as a fallback if
-it's available), with the probability possibly also being a link to a
-relevant forecasting platform with the same question:
-
-> I think Donald Trump is going to be incarcerated before 2030<sub>[65%](https://www.metaculus.com/questions/10832/donald-trump-jailed-by-2030/)</sub>.
-
-This is *almost* as readable as the sentence without the probability.
-
-There are some complications with negations in sentences or multiple
-statements. For the most part, I'll simply avoid such cases ("Doctor,
-it hurts when I do this!" "Don't do that, then."), but if I had to,
-I'd solve the first problem by declaring that the probability applies to
-the literal meaning of the previous sentence, including all negations;
-the problem with multiple statements is solved by delimiters.
-
-As an example for the different kinds of negation: "The train won't
-come more than 5 minutes late<sub>90%</sub>" would (arguendo) mean the
-same thing as "I don't think the train will come more than 5 minutes
-late<sub>90%</sub>" means the same as "The train will take more than 5
-minutes to arrive<sub>10%</sub>" equivalent to "I assign 90% probability
-to the train arriving within the next 5 minutes".
-
-With multiple statements, my favorite way of delimiting is currently
-half brackets: "I think ⸤it'll rain tomorrow⸥<sub>55%</sub>, but
-⸤Tuesday is going to be sunny⸥<sub>80%</sub>, but I don't think
-⸤your uncle is going to be happy about that⸥<sub>15%</sub>."
-
-The probabilities in this context aren't quite
-[evidentials](https://en.wikipedia.org/wiki/Evidentiality), but neither
-are they [veridicals](https://en.wikipedia.org/wiki/Veridicality) nor
-[miratives](https://en.wikipedia.org/wik/Mirativity), I propose the world
-"credal" for this category.
-
-### Enumerating Possible Notations
-
-The exact place of insertion is subtle: In sentences with a
-single central statement, there are multiple locations one could place
-the probability.
-
-* After the verb related to belief: "I think<sub>55%</sub> it'll rain tomorrow."
-	* Advantage: Close to the word relating to the belief (which could reflect the strength of belief in itself, using "guess"/"wager"/"think"/"believe").
-	* Disadvantages:
-		* Conflicts with assigning probabilities to multiple statements.
-		* Puts visual clutter before the statement in question.
-* At the end of the statement: "I think it'll rain tomorrow<sub>55%</sub>."
-	* Advantages:
-		* Allows assigning probabilities to simple statements ("It'll rain tomorrow<sub>55%</sub>") and to multiple statements (see below).
-		* Allows distinguishing the beliefs of different people. "I think<sub>55%</sub> it'll rain tomorrow, but [Cú Chulainn](https://en.wikipedia.org/wiki/Cú_Chulainn) disagrees<sub>22%</sub>."
-	* Disadvantage: If the probability is intended to contextualise the statement, this context is weaker if it is introduced *after* the statement in question.
-* At the subject of the sentence: "I<sub>55%</sub> think it'll rain tomorrow."
-	* Advantage: This can be used to distinguish the beliefs of different people. "I<sub>55%</sub> think it'll rain tomorrow, but [Cú Chulainn](https://en.wikipedia.org/wiki/Cú_Chulainn)<sub>22%</sub> is skeptical about it."
-	* Disadvantage: Putting the probability before the statement the probability is about feels quite unnatural.
-
-This becomes trickier in sentences with multiple statements.
-
-* Probabilities after each subclaim: "I think it'll rain tomorrow<sub>55%</sub>, but Tuesday is going to be sunny<sub>80%</sub>, but I don't think your uncle is going to be happy about that<sub>15%</sub>.
-	* Adding in delimiters to denote a specific subclaim the probability is about. I wonder whether there are better unicode characters for this, corner brackets might be a good candidate.
-		* Lower [half brackets](https://en.wikipedia.org/wiki/Half_Bracket) (or [Quine corners](https://en.wikipedia.org/wiki/Bracket#Quine_corners_⌜⌝_and_half_brackets_⸤_⸥_or_⸢_⸣) which look almost the same): "I think ⸤it'll rain tomorrow⸥<sub>55%</sub>, but ⸤Tuesday is going to be sunny⸥<sub>80%</sub>, but I don't think ⸤your uncle is going to be happy about that⸥<sub>15%</sub>."
-		* Upper half brackets to the left, lower half brackets to the right: "I think ⸢it'll rain tomorrow⸥<sub>55%</sub>, but ⸢Tuesday is going to be sunny⸥<sub>80%</sub>, but I don't think ⸢your uncle is going to be happy about that⸥<sub>15%</sub>."
-		* Subscripted [parentheses](https://en.wikipedia.org/wiki/Parenthesis): "I think <sub>(</sub>it'll rain tomorrow<sub>)</sub><sub>55%</sub>, but <sub>(</sub>Tuesday is going to be sunny<sub>)</sub><sub>80%</sub>, but I don't think <sub>(</sub>your uncle is going to be happy about that<sub>)</sub><sub>15%</sub>."
-		* Subscripted half [guillemets](https://en.wikipedia.org/wiki/Guillemet): "I think <sub>‹</sub>it'll rain tomorrow<sub>›</sub><sub>55%</sub>, but <sub>‹</sub>Tuesday is going to be sunny<sub>›</sub><sub>80%</sub>, but I don't think <sub>‹</sub>your uncle is going to be happy about that<sub>›</sub><sub>15%</sub>."
-		* And subscripted full guillemets: "I think <sub>«</sub>it'll rain tomorrow<sub>»</sub><sub>55%</sub>, but <sub>«</sub>Tuesday is going to be sunny<sub>»</sub><sub>80%</sub>, but I don't think <sub>«</sub>your uncle is going to be happy about that<sub>»</sub><sub>15%</sub>."
-* I basically rule out lists of probabilities after the verb relating to each subclaim, as it's very mentally taxing to relate each probability to each claim:
-	* "I think<sub>55%, 80%, 15%</sub> ⸤it'll rain tomorrow⸥, but ⸤Tuesday is going to be sunny⸥, but I don't think ⸤your uncle is going to be happy about that⸥.
-
-Since the people writing the text
-reporting probabilities are probably [logically
-non-omniscient](./doc/cs/ai/alignment/agent_foundations/embedded_agency_demski_garrabrant_2020.pdf)
-[bounded agents](https://arbital.com/p/bounded_agent/), it might as
-well be useful to report the time or effort one has spent on refining
-the reported probability: "I reckon humanity will survive the 21st
-century<sub>55%:20h</sub>", indicating that the speaker has reflected
-on this question for 20 hours to arrive at their current probability
-(something akin to reporting an "epistemic effort" for a piece of
-information). I fear that this notation is getting into cumbersome
-territory and won't be using it.
-
-### Notation Options and Difficulties
-
-There are three available options: Either ones writing platform supports
-HTML, in which case one can use the `<sub>18%</sub>` tags (giving
-<sub>18%</sub>), or it supports `$\LaTeX$`, which creates a sligthly
-fancier looking but also more fragile notation using `_{18\%}` (resulting
-in `$_{18\%}$`), or ones platform directly supports subscripting, such
-as [pandoc](https://en.wikipedia.org/wiki/Pandoc) with `~18%~`, but not
-Reddit Markdown (which *does* support superscript). More info about other
-platforms [here](https://www.gwern.net/Subscripts.html#technical-support).
-
-Ideally one would simply use [Unicode
-subscripts](https://en.wikipedia.org/wik/Unicode_subscripts), which are
-available for all digits, but tragically not for the percentage sign
-'%' or a simple dot '.'. Perhaps a project for the future: After all,
-they did include a subscript '+'₊, a subscript '-'₋, equality sign
-'='₌ and parentheses '()'₍₎, but many subscript letters (b, c, d,
-f, g, j, q, r, u, v, w, y and z) are still missing…
-
-### Applications
-
-I've used this notation sparingly but
-increasingly, a good example of a first exploration is
-[here](./range_and_forecasting_accuracy.html#Appendix_A_Replicating_Metaculus_Findings_With_Full_Data)<!--TODO:
-release, and interspersed in the text [here](./spans.html)-->.
-
-[Fischer
-2023](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/Qk3hd6PrFManj8K6o)
-uses a different notation:
-
-> * Given hedonism and conditional on sentience, we think (credence: 0.7) that none of the vertebrate nonhuman animals of interest have a welfare range that’s more than double the size of any of the others. While carp and salmon have lower scores than pigs and chickens, we suspect that’s largely due to a lack of research.
-* Given hedonism and conditional on sentience, we think (credence: 0.65) that the welfare ranges of humans and the vertebrate animals of interest are within an order of magnitude of one another.
-* Given hedonism and conditional on sentience, we think (credence 0.6) that all the invertebrates of interest have welfare ranges within two orders of magnitude of the vertebrate nonhuman animals of interest. Invertebrates are so diverse and we know so little about them; hence, our caution.
-
-The notation proposed here would change the text:
-
-> * Given hedonism and conditional on sentience, we think that none of the vertebrate nonhuman animals of interest have a welfare range that’s more than double the size of any of the others<sub>70%</sub>. While carp and salmon have lower scores than pigs and chickens, we suspect that’s largely due to a lack of research.
-* Given hedonism and conditional on sentience, we think that the welfare ranges of humans and the vertebrate animals of interest are within an order of magnitude of one another<sub>65%</sub>.
-* Given hedonism and conditional on sentience, we think that all the invertebrates of interest have welfare ranges within two orders of magnitude of the vertebrate nonhuman animals of interest<sub>60%</sub>. Invertebrates are so diverse and we know so little about them; hence, our caution.
-
-### Discussions
-
-* [LessWrong](https://www.lesswrong.com/posts/Tmz6ucxDFsdod2QLd/subscripts-for-probabilities)
+Moved [here](./subscripts.html).
 
 Properties of Good Textbooks
 -----------------------------
@@ -2198,9 +1850,13 @@ roles creates a Pareto improvement.
 Does Recent Masturbation Decrease Meditation Quality?
 ------------------------------------------------------
 
-Probably not<sub>75%</sub>.<!--TODO: image of dril tweet?--> Correlations
-between meditation quality and time since last masturbation are generally
-<0.1, and sometimes negative.
+<!--TODO: maybe replace correlations with linear regressions, which give
+p-values too.-->
+
+Maybe<sub>65%</sub>? Correlations between mindfulness and time since
+last masturbation are generally <0.2, and sometimes negative.
+But there seems to be a pretty clear trend of positive correlation with
+concentration if we only look at sessions with >20 days of abstinence.
 
 There is some received wisdom that ejaculation and masturbation
 in particular decreases meditation quality: The retreats of
@@ -2231,7 +1887,7 @@ is relation to the masturbation last before it:
 	meditations=meditations.sort_values('meditation_start')
 	masturbations=masturbations.sort_values('datetime')
 	combined=pd.merge_asof(meditations, masturbations, left_on='meditation_start', right_on='datetime', direction='backward')
-	combined['diff']=combined['meditation_start']-combined['datetime']
+	['diff']=combined['meditation_start']-combined['datetime']
 
 All hail `merge_asof`!<!--TOOO: meme with Elmo?-->
 
@@ -2284,29 +1940,46 @@ is appreciable.
 	concentration_rating            0.542909              1.000000 -0.040382
 	diff                            0.169900             -0.040382  1.000000
 
-<!--
-What if we look at exclude up to 30 days?
-
-        mindfulness_correlations=[]
-        concentration_correlations=[]
-        for i in range(0,30):
-                combined_long=combined.loc[combined['diff']>pd.Timedelta(str(i)+'d')]
-                mindfulness_correlations+=combined_long[['mindfulness_rating', 'concentration_rating', 'diff']].corr(numeric_only=False)['mindfulness_rati
-ng']['diff']
-                concentration_correlations+=combined_long[['mindfulness_rating', 'concentration_rating', 'diff']].corr(numeric_only=False)['concentration_
-rating']['diff']
-
--->
-
-<!--TODO: continue-->
-
 The correlation of ≅0.17 of abstinence-time with concentration is
 still not strong enough to convince me, but perhaps points in some
 interesting direction.
 
-I'd like someone to do an experimental analysis on this (keeping
-a strict meditation schedule and randomizing 2-week pairs for
-masturbation/abstinence), since the common wisdom is so widespread.
+What if we look at exclude up to 30 days?
+
+	mindfulness_correlations=[]
+	concentration_correlations=[]
+	sample_sizes=[]
+	for i in range(0,30):
+		combined_long=combined.loc[combined['diff']>pd.Timedelta(str(i)+'d')]
+		sample_sizes.append(len(combined_long))
+		mindfulness_correlations.append(combined_long[['mindfulness_rating', 'concentration_rating', 'diff']].corr(numeric_only=False)['mindfulness_rating']['diff'])
+		concentration_correlations.append(combined_long[['mindfulness_rating', 'concentration_rating', 'diff']].corr(numeric_only=False)['concentration_rating']['diff'])
+
+Plotting:
+
+	import matplotlib.pyplot as plt
+
+	fig=plt.figure(figsize=(8,8))
+	_, ax1 = plt.subplots()
+	ax2=ax1.twinx()
+	ax2.set_ylabel('Sample size')
+	ax1.plot(mindfulness_correlations, color='red', label='Mindfulness correlations')
+	ax1.plot(concentration_correlations, color='blue', label='Concentration correlations')
+	ax1.set_xlabel('Time since last masturbation (days)')
+	ax1.set_ylabel('Correlation (Pearson)')
+	ax2.plot(sample_sizes, color='green', label='Sample size')
+	ax1.legend()
+	ax2.legend()
+	plt.savefig('time_correlations.png')
+
+!["Plot of three variables: Concentration correlations, mindfulness correlations and sample sizes, with the x-axis being days since last masturbation. The mindfulness correlations merely oscillate between 0 and 0.2, while the concentration correlations rise from below zero at one day to more than 0.3 at ~20 days, just to fall back to 1.5 after that. Sample sizes start high at 1600, and fall rapidly to near zero.](./img/masturbation_and_meditation/time_correlations.png "Plot of three variables: Concentration correlations, mindfulness correlations and sample sizes, with the x-axis being days since last masturbation. The mindfulness correlations merely oscillate between 0 and 0.2, while the concentration correlations rise from below zero at one day to more than 0.3 at ~20 days, just to fall back to 1.5 after that. Sample sizes start high at 1600, and fall rapidly to near zero.")
+
+Now *this* is interesting! Even just eye-balling suggests that abstaining
+from masturbation might improve concentration, but has no effect on
+mindfulness. That could be worth testing, so I'd like someone to do an
+experiment on this (keeping a strict meditation schedule and randomizing
+4-week pairs for masturbation/abstinence), since the sample sizes in
+the upper ranges are so small (62 at 20 days, 45 at 25 days).
 
 But I won't do it in the forseeable future, since other experiments have
 higher priority.

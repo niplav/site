@@ -28,6 +28,8 @@ Writing
 ##### Technical
 
 * [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
+* [Preagents and Value Formation](./coherence.html)
+* [Too Good to be True: Training an RL Agent to be Suspicious](./suspicious.html)
 
 ##### Strategy
 
@@ -41,12 +43,15 @@ Writing
 	* [Documentation](./iqisadoc.html)
 * [Forecasters: What Do They Know? Do They Know Things?? Let's Find Out!](./forecasters.html)
 * [Precision of Sets of Forecasts](./precision.html)
+* [Notes on Predictions](./notes_on_predictions.html)
+* [Subscripts for Probabilities](./subscripts.html)
 
 #### Programming & Computer Science
 
 * [Pipe Rings](./pipe_rings.html)
 * [K-99: Ninety-Nine Klong Problems](./99_klong_problems.html)
 * [99 Problems Klong Solution](./99_problems_klong_solution.html)
+* [Generalizing the Diamond-Square Algorithm to n Dimensions](./diamond.html)
 
 #### Quantified Self
 
@@ -57,6 +62,8 @@ Writing
 #### Practical
 
 * [Cryonics Cost-Benefit Analysis](./considerations_on_cryonics.html)
+* [Cryonics Outside of the United States](./cryonics_outside_us.html)
+* [Prepare to Leave The Internet](./leave.html)
 
 <!--
 ##### Pick-Up
@@ -64,6 +71,7 @@ Writing
 * [Pickup Reports](./pickup_reports.html)
 * [Notes on Pickup](./notes_on_pickup.html)
 * [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
+* [Flags](./flags.html)
 -->
 
 #### Mathematics
@@ -75,12 +83,14 @@ Writing
 
 * [Compliments as Utilitarian Praxis](./utilitarian_compliments.html)
 * [Using Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./consciousness_diagram.html)
+* [Arguments Against Preference Utilitarianism](./preference.html)
 
 #### Psychology
 
-* [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
 * [Have Attention Spans Been Declining?](./spans.html)
+* [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
 * [Brain Stimulation for Meditation Enhancement](./stimulation.html)
+* [Increasing Subjective Lifespan](./increasing.html)
 
 #### Collections
 
@@ -96,6 +106,7 @@ Writing
 * [Progress in Qualia](./qualia.html)
 * [Life Advice](./life_advice.html)
 * [If I Were An Eccentric Trillionaire](./eccentric.html)
+* [High Status Eschews Quantification of Performance](./eschews.html)
 
 #### Textbooks
 
@@ -116,7 +127,7 @@ Writing
 
 * [Notes](./notes.html)
 * [Notes on Ethics](./notes_on_ethics.html)
-* [Notes on Predictions](./notes_on_predictions.html)
+* [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
 
 #### Reports
 
@@ -174,6 +185,7 @@ Miscellaneous
 * [Favorites](./favorites.html)
 * [Now](./now.html)
 * [Todo](./todo.html)
+* [Administrativa for Facts](./administrativa_for_facts.html)
 
 ### Media Consumption
 

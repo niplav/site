@@ -26,8 +26,10 @@ December 2023
 * [Great Words](./language.html#Great_Words)
 * [Notes](./notes.html)
 	* [Fragile Tableware Cost Analysis](./notes.html#Fragile_Tableware): We might be losing on average ~$4e7/day on having porcelain plates.
-	* [A Response on FOOM](./notes.html#A_Response_on_FOOM)
-	* [Paternalism May Be About Mechanism Design](./notes.html#Paternalism_May_Be_About_Mechanism_Design)
+	* [A Response on FOOM](./notes.html#A_Response_on_FOOM): Various thoughts on fast takeoff that've been floating around in my mind for a while.
+	* [Paternalism May Be About Mechanism Design](./notes.html#Paternalism_May_Be_About_Mechanism_Design): Cases in which taking options away from people is fine.
+	* [Does Recent Masturbation Decrease Meditation Quality?](./notes.html#Does_Recent_Masturbation_Decrease_Meditation_Quality): After some initial skepticism on my side, it looks like abstinence from masturbation is related to higher concentration during meditation after more than 20 days of abstinence. Correlation is [r](https://en.wikipedia.org/wiki/Pearson's_correlation_coefficient)>0.3. Very curious!
+
 <!--
 * [Notes on Pickup](./notes_on_pickup.html)
 	* [Using Multi-Armed Bandits to Select Daygame Locations](./notes_on_pickup.html#Using_MultiArmed_Bandits_to_Select_Daygame_Locations)
@@ -41,11 +43,11 @@ this month (excluding the binge of reddit posts on
 
 * [What’s so special about {0,2,3,4,7,11,12,14}? (Brian Hayes, 2006)](http://bit-player.org/2006/whats-so-special-about-0-2-3-4-7-11-12-14) Answer: That set is one of the two smallest known ones that have more [pairwise sums than pairwise differences](http://bit-player.org/2006/counting-sums-and-differences). Some people might call it unelegant, but I find these kinds of mathematical curiosities fascinating.
 * [Big Bang Secrets Swirling in a Fluid Universe (Natalie Wolchover, 2014)](https://www.quantamagazine.org/big-bang-secrets-swirling-in-a-fluid-universe-20140212/): "“Twenty pascal-seconds is the viscosity of the universe,” said Leonardo Senatore, an assistant professor of physics at Stanford University — just as it is for the ice cream topping". Using fluid dynamics to understand the structure of the universe. Cool.
-* [Value systematization: how values become coherent (and misaligned) (Richard Ngo, 2023)](https://www.lesswrong.com/posts/J2kpxLjEyqh6x3oA4/value-systematization-how-values-become-coherent-and)
 * [An exhaustive list of cosmic threats (JordanStone, 2023)](https://forum.effectivealtruism.org/posts/fGCHomw45xuTHd757/an-exhaustive-list-of-cosmic-threats): Title says it all. Lists are great. Good post.
 * [Diss Songs (William Buckner, 2022)](https://traditionsofconflict.substack.com/p/diss-songs): Diss songs are a surprisingly common phenomenon across human cultures—why? (Although the post doesn't have numbers on this).
 * [Open Phil Should Allocate Most Neartermist Funding to Animal Welfare (Ariel Simnegar, 2023)](https://forum.effectivealtruism.org/posts/btTeBHKGkmRyD5sFK/open-phil-should-allocate-most-neartermist-funding-to-animal): Pretty popular already, but seems just straightforwardly true to me. People from openphil answering in the comments didn't move me much, probably mainly based on the introspective question "do I expect, with more evidence, to be convinced that human interventions are more promising than animal interventions?", with the answer being clearly no.
 * [Are there cognitive realms? (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/11/are-there-cognitive-realms.html)
+* [Value systematization: how values become coherent (and misaligned) (Richard Ngo, 2023)](https://www.lesswrong.com/posts/J2kpxLjEyqh6x3oA4/value-systematization-how-values-become-coherent-and)
 
 #### Ultrasound Posts by Sarah Constantin
 

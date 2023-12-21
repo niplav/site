@@ -12,3 +12,5 @@ Code based on [this
 tutorial](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html),
 trying to implement the experiment detailed in [Yudkowsky
 2017](https://arbital.com/p/environmental_goals/).
+
+![](./img/suspicious/one_bit_from_success.png)

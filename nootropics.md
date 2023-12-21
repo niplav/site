@@ -129,7 +129,7 @@ attention strays just as easily.
 
 In general, I'll be working with the [likelihood ratio
 test](https://en.wikipedia.org/wiki/Likelihood-ratio_Test) (encouraged by
-[this article]((https://arbital.com/p/likelihoods_not_pvalues/)). For
+[this article](https://arbital.com/p/likelihoods_not_pvalues/)). For
 this, let `$\mathbf{v}_P$` be the distribution of values of a
 variable for the placebo arm, and `$\mathbf{v}_C$` the distribution
 of values for a variable of the caffeine arm. (I apologise for the

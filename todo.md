@@ -148,8 +148,8 @@ Existing Texts
 	* Literature review
 		* <https://en.wikipedia.org/wiki/Masturbation>
 		* <https://en.wikipedia.org/wiki/Pornography>
-		* </usr/local/doc/unread/blackpill/physical_attractiveness_research_adams_1977.pdf>
-		* </usr/local/doc/unread/sexual_activity_is_inversely_related_to_womens_perceptions_of_male_facial_attractiveness_hess_et_al_2007.pdf>
+		* /usr/local/doc/unread/blackpill/physical\_attractiveness\_research\_adams\_1977.pdf
+		* /usr/local/doc/unread/sexual\_activity\_is\_inversely\_related\_to\_womens\_perceptions\_of\_male\_facial\_attractiveness\_hess\_et\_al\_2007.pdf
 * Daygame Cost-Benefit Analysis
 	* Incorporate new daygame stats from blogs
 	* Adjust curve to fit Roy Walker & Thomas Crown data better
@@ -549,7 +549,7 @@ Texts
 		* Removing negatives probably coincides with Health/Purity
 		* Removing negatives is more zero-sum, adding positives is more positive-sum (people in a negative-sum mindset don't really try to improve anything, I think)
 	* Distinction between removing negatives/adding positives in method and in topic selection ("How can I solve this thing?" versus "What should I focus on?") (see negative versus positive utilitarianism)
-	* See also upwing versus downwing (hat-tip John David Pressman)
+	* See also upwing versus downwing (hat-tip FM-2030 via. John David Pressman)
 * Given No Singularity, Mars Colonization Soon is Unlikely, but Asteroid Mining Looks Promising
 * In Nearly Complete Defense of The Last Jedi
 * The Anti-Myopia argument for the dignity prior depends on myopia never being the right course of action
@@ -656,8 +656,8 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 			* in the former case, one also needs electricity at the top
 * Nuking the Amazon Cost-Benefit Analysis
 * How Strong is the Gender Difference In Sex Drive?
-	* </usr/local/doc/unread/blackpill/is_there_a_gender_difference_in_strength_of_sex_drive_baumeister_et_al_2001.pdf>
-	* </usr/local/doc/unread/blackpill/in_heterosexual_relationships_men_masturbate_more_than_women_waterink_2014.pdf>
+	* /usr/local/doc/unread/blackpill/is\_there\_a\_gender\_difference\_in\_strength\_of\_sex\_drive\_baumeister\_et\_al\_2001.pdf
+	* /usr/local/doc/unread/blackpill/in\_heterosexual\_relationships\_men\_masturbate\_more\_than\_women\_waterink\_2014.pdf
 * Do eggs burst when they're not poked before boiling?
 	* Blinded, person needs to poke & write down, but not tell
 	* Student's t-test
@@ -916,13 +916,13 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* New Notations
 		* General
 			* <https://www.stephenwolfram.com/publications/mathematical-notation-past-future/>
-			* </usr/local/doc/unread/towards_a_better_notation_for_mathematics_olah_2010.pdf>
+			* /usr/local/doc/unread/towards\_a\_better\_notation\_for\_mathematics\_olah\_2010.pdf
 		* Triangle of Power
 			* <https://www.youtube.com/watch?v=sULa9Lc4pck>
 			* <https://math.stackexchange.com/questions/30046/alternative-notation-for-exponents-logs-and-roots>
 			* <http://www.solidangl.es/2015/04/a-radical-new-look-for-logarithms.html>
 	* Read
-		* </usr/local/doc/unread/notation/notation_as_a_tool_of_thought_iverson_1986.pdf>
+		* /usr/local/doc/unread/notation/notation\_as\_a\_tool\_of\_thought\_iverson\_1986.pdf
 	* Substitution of variables in formulas: order is _bad_ & _wrong_
 * Recommendations
 	* Activities/Movies/Series/Podcasts/Books/Blogposts
@@ -1268,9 +1268,9 @@ Game. Even those odds likely overstate the number of Players in the world.
 		* Timelessness
 			* Plotinus
 		* Tegmark's Mathematical Universe
-			* </usr/local/doc/unread/physics/our_mathematical_universe_tegmark_2014.epub>
+			* /usr/local/doc/unread/physics/our\_mathematical\_universe\_tegmark\_2014.epub
 		* Symmetry Theory of Valence
-			* </usr/local/doc/unread/principia_qualia_johnson_2017.pdf>
+			* /usr/local/doc/unread/principia\_qualia\_johnson\_2017.pdf
 		* Scott Alexander's Solution to Theodicy
 			* <https://slatestarcodex.com/2015/03/15/answer-to-job/>
 	* Explanation
@@ -1581,7 +1581,7 @@ Programming
 * minspantree
 	* implement all algorithms for the minimum spanning tree in a functional programming language
 	* like sml/ocaml
-	* </usr/local/doc/unread/cs/state_of_the_art_algorithms_for_minimum_spanning_trees_eisner_1997.pdf>
+	* /usr/local/doc/unread/cs/state\_of\_the\_art\_algorithms\_for\_minimum\_spanning\_trees\_eisner\_1997.pdf
 * nenio
 	* a suckless prolog implementation
 	* ISO prolog

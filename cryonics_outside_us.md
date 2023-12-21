@@ -63,7 +63,7 @@ Ideally, this document would grow over time, as people from different
 countries contribute the precautions they have taken.
 
 __If you don't have a US citizenship and have signed up with cryonics, or
-have considered and research it, but rejected it for logistical reasons,
+have considered and researched it, but rejected it for logistical reasons,
 I would [like to talk to you](./about.html#Contact) about why and how
 (email address is [rot13ed](https://en.wikipedia.org/wiki/ROT13)).__
 
