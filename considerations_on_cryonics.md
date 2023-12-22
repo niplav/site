@@ -7,7 +7,7 @@
 worth it, and if yes, should one
 [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
 (i.e. postpone signing up for cryonics
-to a later date)?  [Betteridge's law of
+to a later date)? [Betteridge's law of
 headlines](https://en.wikipedia.org/wiki/Betteridge's_law_of_headlines)
 only applies partially here: Yes, it is probably worth it (under plausible
 assumptions \\$2.7m for a 20 year old, and more for older people), and no,
@@ -15,7 +15,7 @@ cryocrastination is usually irrational. A cost-benefit analysis written in
 [Lua](https://en.wikipedia.org/wiki/Lua_\(programming_language\)),
 considering
 [neurocryopreservation](https://www.alcor.org/library/neuropreservation-option/)
-with [Alcor](https://www.alcor.org/).  I also perform a [Monte-Carlo
+with [Alcor](https://www.alcor.org/). I also perform a [Monte-Carlo
 simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method) using
 [Guesstimate](https://www.getguesstimate.com/ "Official website"),
 and find that signing up for cryonics at age 20 is worth \\$18m in the

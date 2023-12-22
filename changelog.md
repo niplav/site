@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2023-12-14, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2023-12-22, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -48,6 +48,9 @@ this month (excluding the binge of reddit posts on
 * [Open Phil Should Allocate Most Neartermist Funding to Animal Welfare (Ariel Simnegar, 2023)](https://forum.effectivealtruism.org/posts/btTeBHKGkmRyD5sFK/open-phil-should-allocate-most-neartermist-funding-to-animal): Pretty popular already, but seems just straightforwardly true to me. People from openphil answering in the comments didn't move me much, probably mainly based on the introspective question "do I expect, with more evidence, to be convinced that human interventions are more promising than animal interventions?", with the answer being clearly no.
 * [Are there cognitive realms? (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/11/are-there-cognitive-realms.html)
 * [Value systematization: how values become coherent (and misaligned) (Richard Ngo, 2023)](https://www.lesswrong.com/posts/J2kpxLjEyqh6x3oA4/value-systematization-how-values-become-coherent-and)
+* Case study: algorithms for plane geometry
+	* [The land surveyor’s algorithm (Brian Hayes, 2007)](http://bit-player.org/2007/the-land-surveyors-algorithm): One simple algorithm, for estimating the area of any polygon (be it non-convex, with zero-length edges etc.). As one commenter remarks: Wicked cool?
+	* [Only connect! (Brian Hayes, 2006)](http://bit-player.org/2006/only-connect): And another algorithm, for testing whether two finite-length lines embedded in ℝ² cross. The only solution found is riddled with special cases and disgusting.
 
 #### Ultrasound Posts by Sarah Constantin
 
