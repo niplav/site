@@ -17,6 +17,16 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Postage due (Brian Hayes, 2007)](http://bit-player.org/2007/postage-due)
+* [The stepchild (Brian Hayes, 2007)](http://bit-player.org/2007/the-stepchild)
+* [Math on the Mississippi (Brian Hayes, 2007)](http://bit-player.org/2007/math-on-the-mississippi)
+* [Wildfire of strategicness (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/01/wildfire-of-strategicness.html)
+* [Rootedness (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2022/10/rootedness.html)
+* [What is wisdom? (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/11/what-is-wisdom.html)
+* [Don't take bad options away from people (Dumbledore's Army, 2023)](https://www.lesswrong.com/posts/wg5YpAofgbEg587d2/don-t-take-bad-options-away-from-people)
+* [Succession (Richard Ngo, 2023)](https://www.lesswrong.com/posts/CAzntXYTEaNfC9nB6/succession)
+* [Time’s Arrow Traced to Quantum Source (Natalie Wolchover, 2014)](https://www.quantamagazine.org/quantum-entanglement-drives-the-arrow-of-time-scientists-say-20140416/)
+* [Value Formation: An Overarching Model (Thane Ruthenis, 2022)](https://www.lesswrong.com/posts/kmpNkeqEGvFue7AvA/value-formation-an-overarching-model)
 * [Research Debt (Chris Olah/Shan Carter, 2017)](https://distill.pub/2017/research-debt/)
 * [The land surveyor’s algorithm (Brian Hayes, 2007)](http://bit-player.org/2007/the-land-surveyors-algorithm)
 * [Ronny and Nate discuss what sorts of minds humanity is likely to find by Machine Learning (Nate Soares/Ronny Fernandez, 2023)](https://www.lesswrong.com/posts/9x8nXABeg9yPk2HJ9/ronny-and-nate-discuss-what-sorts-of-minds-humanity-is)

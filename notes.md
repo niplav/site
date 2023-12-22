@@ -1667,7 +1667,7 @@ Nothing to See Here, Just An Implementation of HodgeRank
 ----------------------------------------------------------
 
 [Jiang et al.
-2011](.doc/preference/statistical_ranking_and_combinatorial_hodge_theory_jiang_et_al_2011.pdf "Statistical ranking and combinatorial Hodge theory")
+2011](./doc/preference/statistical_ranking_and_combinatorial_hodge_theory_jiang_et_al_2011.pdf "Statistical ranking and combinatorial Hodge theory")
 propose a ranking algorithm for incomplete and cyclic data, but neglect
 to give code or even pseudo-code for this algorithm. The algorithm turns out
 to be easy to implement in Python using networkx and numpy, with some help from [this
@@ -2334,7 +2334,8 @@ There's
 [discussion](http://www.overcomingbias.com/2006/11/asymmetric_pate.html)
 [about](https://musingsandroughdrafts.wordpress.com/2022/03/29/paternalism-is-about-outrage/)
 [the origins](https://www.overcomingbias.com/p/paternalism_is_html)
-[of paternalism](https://www.overcomingbias.com/p/heres_my_openinhtml).
+[of](https://www.lesswrong.com/posts/wg5YpAofgbEg587d2/don-t-take-bad-options-away-from-people)
+[paternalism](https://www.overcomingbias.com/p/heres_my_openinhtml).
 
 I believe that there's another possible justification for paternalism:
 Intervening in situations between different actors to bring about

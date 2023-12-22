@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2023-07-17, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2023-12-22, language: english, status: in progress, importance: 6, confidence: log*
 
 Content
 =======
@@ -47,6 +47,19 @@ Writing
 * [Subscripts for Probabilities](./subscripts.html)
 
 #### Programming & Computer Science
+
+> “Stepchild”! That one word says it all. There’s a whole
+Tolstoyan novel in it, or maybe a Henry James, or at least a Grimm
+Brothers fairy tale. Computer science is the poor relation, the orphan,
+the foundling—taken in by a grand family but never taken seriously,
+never allowed to forget its doubtful origins. Or else computer science is
+the arriviste, the rich American cousin with too much cash and too little
+taste, who tears down the mossy old manse and puts up a spiffy new house
+designed by Frank Gehry. Or do we have a tale of sibling rivalry—the two
+children with different visions of the future for the family firm, neither
+of whom can ever feel secure in the love of a cold and distant parent?
+
+*—[Brian Hayes](https://en.wikipedia.org/wiki/Brian_Hayes_\(scientist\)), [“The stepchild”](http://bit-player.org/2007/the-stepchild), 2007*
 
 * [Pipe Rings](./pipe_rings.html)
 * [K-99: Ninety-Nine Klong Problems](./99_klong_problems.html)
