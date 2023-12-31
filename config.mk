@@ -3,6 +3,11 @@ MARKDOWN=lowdown --html-no-skiphtml --html-no-escapehtml --out-no-smarty
 CONF=config.mk header.html main.css
 
 HTML=index.html \
+	attic/eacrit.html \
+	attic/life_improvements_2030.html \
+	attic/oldpreagent.html \
+	attic/reward.html \
+	attic/third.html \
 	about.html \
 	changelog.html \
 	content_warning.html \
@@ -46,7 +51,6 @@ HTML=index.html \
 	daygame_cost_benefit.html \
 	declaration.html \
 	diamond.html \
-	eacrit.html \
 	eccentric.html \
 	eschews.html \
 	equally_many_heads_and_tails.html \
@@ -63,13 +67,11 @@ HTML=index.html \
 	language.html \
 	leave.html \
 	life_advice.html \
-	life_improvements_2030.html \
 	masturbation_and_attractiveness.html \
 	mathematics_notation_convention.html \
 	metamodernistisches_manifest.html \
 	microfiction.html \
 	nootropics.html \
-	oldpreagent.html \
 	pipe_rings.html \
 	platforms.html \
 	platte.html \
@@ -79,7 +81,6 @@ HTML=index.html \
 	qualia.html \
 	range_and_forecasting_accuracy.html \
 	rationalist_gods.html \
-	reward.html \
 	senryu.html \
 	sites.html \
 	spans.html \
@@ -89,7 +90,6 @@ HTML=index.html \
 	tao_te_king.html \
 	text_reviews.html \
 	textbook_discord_servers.html \
-	third.html \
 	toy_ai_takeoff_model.html \
 	turning.html \
 	two_people_on_a_planet.html \

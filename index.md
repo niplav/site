@@ -28,7 +28,7 @@ Writing
 ##### Technical
 
 * [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
-* [Preagents and Value Formation](./coherence.html)
+* [Preagents and Value Formation](./preagents.html)
 * [Too Good to be True: Training an RL Agent to be Suspicious](./suspicious.html)
 
 ##### Strategy

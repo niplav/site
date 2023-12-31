@@ -19,6 +19,14 @@ Introduction
 
 ### Motivation
 
+If we assume that [there is a "natural" structure for
+preferences](https://www.lesswrong.com/posts/suxvE2ddnYMPJN9HD), then
+I find it likely to assume that cognitive systems, as they develop,
+might not have preferences in that structure.
+
+Therefore it is useful to examine procedures to transform preferences
+that don't have this "natural" structure into ones that do.
+
 Related Work
 -------------
 
@@ -55,6 +63,8 @@ Desirable Criteria
 
 Two Impossibility Theorems, with Two Interpretations
 -----------------------------------------------------
+
+### Impossibility Theorem: Statement
 
 ### Yay!
 

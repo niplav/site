@@ -125,6 +125,12 @@ end
 b=0.108
 eta=0.0001
 
+--TODO: finish this
+
+function xrisk(year)
+	return nil
+end
+
 function gompertz(age)
 	return math.exp(-eta*(math.exp(b*age)-1))
 end

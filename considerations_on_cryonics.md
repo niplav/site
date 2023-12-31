@@ -29,8 +29,8 @@ Preliminary Note
 -----------------
 
 I now believe this cost-benefit analysis to be incomplete, mainly because
-it doesn't treat the risk of extinction correctly. It's still the best
-one I know of, but proceed with caution.
+it doesn't treat the risk of extinction with as much detail as I would
+like it to. It's still the best one I know of, but proceed with caution.
 
 I plan on revisiting this analysis.
 
@@ -534,8 +534,8 @@ predictions. Anders Sandberg summarizes the current approaches:
 
 > Some of this discourse relates to the issue of whether history is
 cyclical, spiralling, progressive or regressive. Is there a particular
-shape to history?  If there is, then this makes a strong long-term
-prediction about the future.  While this could be a teleological arc
+shape to history? If there is, then this makes a strong long-term
+prediction about the future. While this could be a teleological arc
 towards completion, it could also be an unavoidable thermodynamic decline,
 the environmentally biased random walk of evolution or an emergent
 trajectory set by a mixture of forces, events and individuals. In
@@ -566,7 +566,7 @@ decisions regarding its development and resource management,
 diversity among human beings, average happiness and lifespans and
 other variables such as inequality regarding resources (see also [Shulman
 2013](https://reflectivedisequilibrium.blogspot.com/2013/12/what-proxies-to-use-for-flow-through.html
-"What proxies to use for flow-through effects?")  for a more
+"What proxies to use for flow-through effects?") for a more
 extensive list of metrics for flow-through effects, which could be
 used to evaluate the general quality of life in the future). [Muehlhauser
 2017a](http://lukemuehlhauser.com/three-wild-speculations-from-amateur-quantitative-macrohistory/ "Three wild speculations from amateur quantitative macrohistory")
@@ -998,17 +998,48 @@ arrives at 2850 years.
 conservatively estimates a life expectancy of ~1000 years for each
 individual human after LEV.
 
+#### Existential Risk
+
+Existential risk affects three different variables in the cost-benefit analysis:
+
+1. The amount of time spent alive (in expectation) before dying
+2. The probability of being resuscitated (because an existential catastrophe happening while in preservation very likely causes [information-theoretic death](https://en.wikipedia.org/wiki/Information-theoretic_death))
+3. The amount of time spent alive after resuscitation
+
+This, in turn, depends on the development of the probability of
+existential risk over the next 10k years. Thisk appears to be quite
+tricky: We can take average extinction rates across many species,
+or across species in the [homo](https://en.wikipedia.org/wiki/Homo)
+(`$\approx 7 \times 10^{-5}$` per year Sandberg 2023, sec. 8.9](),
+<!--TODO: link the Goodreads page--> but that assumes that *homo sapiens*
+is a typical species or a typical member of the genus homo, which is
+a bold statement about the first species to single-handedly cause a
+[mass extinction](https://en.wikipedia.org/wiki/Holocene_Mass_Extinction).
+
+(Among other things.)
+
+The probabilities, pathways, causes, risk factors, inhibitors,
+badness, varieties and reference classes for existential risk have been
+[extensively](https://en.wikipedia.org/wiki/The_Precipice:_Existential_Risk_and_the_Future_of_Humanity)
+[belabored](https://en.wikipedia.org/wiki/What_We_Owe_the_Future),
+so I won't roll up that entire discussion again. Unfortunately, most
+estimates of existential risk concern themselves only with this century,
+and don't make statements about medium term (i.e., the next 10k years)
+probabilities of extinction.
+
 Taking existential risks into account is a bit harder. It is
 unclear whether most of the probability mass for existential
 risks should be placed before resuscitation of cryonics patients
 becomes feasible, or after it. It is also unclear how high the
 existential risk for humanity is overall. Assuming that the
-existential risk for humanity over the next 10000 years is ~40%
+existential risk for humanity over the next 10k years is ~40%
 (this number is pretty much a guess, see also the [Ragnarök question
 series](https://www.metaculus.com/questions/2568/ragnar%25C3%25B6k-seriesresults-so-far/)),
 and half of that risk is placed before resuscitation, then the life
 expectancy of cryonics is
 `$\frac{8938+2850+1000}{3}*(1-0.20) \approx 3410$`.
+
+----------------------
 
 That number should be qualified further in an ["Age of
 Em"](https://en.wikipedia.org/wiki/The_Age_of_Em) scenario: that
