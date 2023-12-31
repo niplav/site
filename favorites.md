@@ -1,7 +1,7 @@
 [home](./index.html)
 ---------------------
 
-*author: niplav, created: 2022-06-18, modified: 2023-12-18, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2022-06-18, modified: 2023-12-24, language: english, status: draft, importance: 2, confidence: log*
 
 > Idea & format stolen shamelessly from [Gavin
 Leech](https://www.gleech.org/favs/all/).
@@ -188,6 +188,23 @@ Fasano, Jay Sanguinetti, Shinzen Young and various
 guests](https://www.guruviking.com/podcast/tag/Shinzen+Young+Dialogues)
 on [Guru Viking](https://www.guruviking.com/podcast).
 
+Video
+-------
+
+My favorite movies are [Rango](https://www.imdb.com/title/tt1192628/),
+[District 9](https://www.imdb.com/title/tt1136608/),
+[The Big Short](https://www.imdb.com/title/tt1596363/),
+[Koyaanisqatsi](https://www.imdb.com/title/tt0085809/), [Die
+Welt am Draht I](https://www.imdb.com/title/tt0070904/) and
+[II](https://www.imdb.com/title/tt0070904/), and [The Element of
+Crime](https://www.imdb.com/title/tt0087280/).
+
+<!--
+### Series
+
+### YouTube Videos
+-->
+
 Websites
 ---------
 
@@ -229,7 +246,6 @@ blogs are [Coding Horror](https://blog.codinghorror.com/),
 [Joel On Software](https://www.joelonsoftware.com/)
 and [Null Program](http://nullprogram.com/); my favorite
 mathematics blogs are [Bit-Player](http://bit-player.org/),
-[Math ∩ Programming](https://jeremykun.com/),
 [Shtetl-Optimized](https://www.scottaaronson.com/blog) and [An
 Algorithmic Lucidity](http://zackmdavis.net/blog/); my favorite
 philosophy blogs are [Entirely Useless](https://entirelyuseless.com/) and
@@ -278,7 +294,7 @@ Domain](https://arbital.org/explore/ai_alignment) (sadly abandoned); my
 favorite social media site is [schelling.pt](https://schelling.pt)
 and my favorite forecasting/news sites are still the good
 ol' reliable [Metaculus](https://www.metaculus.com) and
-[PredictionBook](https://www.predictionbook.com).
+[Manifold Markets](https://manifold.markets/).
 
 ### Newspapers
 
@@ -325,21 +341,6 @@ Computers
 ### Software
 -->
 
-Media
-------
-
-My favorite movies are [Rango](https://www.imdb.com/title/tt1192628/),
-[District 9](https://www.imdb.com/title/tt1136608/), [Rogue
-One: A Star Wars Story](https://www.imdb.com/title/tt3748528/),
-[Koyaanisqatsi](https://www.imdb.com/title/tt0085809/), [Die
-Welt am Draht I](https://www.imdb.com/title/tt0070904/) and
-[II](https://www.imdb.com/title/tt0070904/), and [The Element of
-Crime](https://www.imdb.com/title/tt0087280/).
-
-<!--
-### Series
--->
-
 Ideas
 ------
 
@@ -361,15 +362,13 @@ More
 My favorite non-extinct animals are octopuses, my favorite extinct
 animals are [glyptodons](https://en.wikipedia.org/Glyptodon),
 my favorite type of art is [geometric
-abstraction](https://en.wikipedia.org/wiki/Geometric_abstraction),
-my favorite type of biome is flat deserts, my favorite type of
-meditation is good ol' ānāpānasati (with each cycle beginning
-on an outbreath, relaxing & then counting to eight after recognizing
-mind-wandering, being more on the vipassanizing side, and (ideally)
-spanning up awareness to perform a mental check-in every ~4
-breath cycles), my favorite kitchen appliance is the microwave,
-my favorite food is kimchi, my favorite non-alcoholic drink is tap
-water (with [ayran](https://en.wikipedia.org/wiki/Ayran) being a
+abstraction](https://en.wikipedia.org/wiki/Geometric_abstraction), my
+favorite type of biome is flat deserts, my favorite type of meditation
+[Mahasi Sayadaw](https://en.wikipedia.org/wiki/Mahasi_Sayadaw) style
+[noting](./meditation/practical_insight_meditation_sayadaw_1971.pdf),
+my favorite kitchen appliance is the microwave, my favorite
+food is kimchi, my favorite non-alcoholic drink is tap water
+(with [ayran](https://en.wikipedia.org/wiki/Ayran) being a
 close second), my favorite alcoholic beverage is none (although
 beer is enjoyable on dates), my favorite flags are the [flag of
 Uganda](https://en.wikipedia.org/wiki/Flag_of_Uganda), the [flag of

@@ -199,7 +199,11 @@ explosion](https://en.wikipedia.org/wiki/Combinatorial_explosion).
 
 ### Nicotine vs. Normal chewing gum → *Meditative Absorption*
 
+* [Gwern 2016](https://www.gwern.net/Nicotine)
+
 ### Modafinil vs. Sugar → *Meditative Absorption*
+
+* [Gwern 2018](https://www.gwern.net/Modafinil)
 
 ### Vitamin D vs. Sugar → *Meditative Absorption*
 

@@ -24,9 +24,7 @@ Curently I'm mostly working on an expanded version of [Turning Some
 Inconsistent Preferences into Consistent Ones](./turning.html).
 
 I'm also conducting a full edit of all texts on the website, which
-is turning out to take *way* longer than I expected. (I started with
-[this page](./eccentric.html) and immediately got stuck, expanding the
-text considerably).
+is turning out to take *way* longer than I expected.
 
 ### Abandoned
 

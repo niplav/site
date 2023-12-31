@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2023-12-18, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2023-12-23, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2151,6 +2151,7 @@ which always feels hollow without the math).
 * [A New Physics Theory of Life (Natalie Wolchover, 2014)](https://www.quantamagazine.org/a-new-thermodynamics-theory-of-the-origin-of-life-20140122/)
 * [Big Bang Secrets Swirling in a Fluid Universe (Natalie Wolchover, 2014)](https://www.quantamagazine.org/big-bang-secrets-swirling-in-a-fluid-universe-20140212/)
 * [Scientists Reveal Structure of Pain Sensor (Emily Singer, 2014)](https://www.quantamagazine.org/scientists-reveal-structure-of-pain-sensor-20140220/)
+* [Early Life in Death Valley (Peter Byrne, 2014)](https://www.quantamagazine.org/ancient-fossils-suggest-complex-life-evolved-on-land-20140424/)
 
 Ordering Outgoing *and* Incoming Edges in Dot
 ----------------------------------------------
@@ -2357,5 +2358,3 @@ workers to accept lower wages.
 
 One can imagine a paternalist government as more of a [mechanism
 designer](https://en.wikipedia.org/wiki/Mechanism_Design), then.
-
-<!--TODO: Taking options away from people post-->

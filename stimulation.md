@@ -24,6 +24,13 @@ on companies working on ultrasound for neuromodulation in particular.
 * https://www.theguardian.com/lifeandstyle/video/2021/jun/29/hacking-enlightenment-can-ultrasound-help-you-transcend-reality
 * https://consciousness.arizona.edu/sema-lab
 * https://crowdfund.arizona.edu/project/20986
+
+Companies:
+
+* https://www.openwater.health/
+* https://nurosym.com/
+* https://alpha-stim.com/
+* [Who's Working on Ultrasound Neuromodulation? (Sarah Constantin, 2023)](https://sarahconstantin.substack.com/p/whos-working-on-ultrasound-neuromodulation)
 -->
 
 > The project follows standard neuroscience research protocols. In

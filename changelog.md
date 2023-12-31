@@ -31,6 +31,7 @@ December 2023
 	* [Does Recent Masturbation Decrease Meditation Quality?](./notes.html#Does_Recent_Masturbation_Decrease_Meditation_Quality): After some initial skepticism on my side, it looks like abstinence from masturbation is related to higher concentration during meditation after more than 20 days of abstinence. Correlation is [r](https://en.wikipedia.org/wiki/Pearson's_correlation_coefficient)>0.3. Very curious!
 
 <!--
+TODO: add again afterwards
 * [Notes on Pickup](./notes_on_pickup.html)
 	* [Using Multi-Armed Bandits to Select Daygame Locations](./notes_on_pickup.html#Using_MultiArmed_Bandits_to_Select_Daygame_Locations)
 -->
@@ -51,6 +52,7 @@ this month (excluding the binge of reddit posts on
 * Case study: algorithms for plane geometry
 	* [The land surveyor’s algorithm (Brian Hayes, 2007)](http://bit-player.org/2007/the-land-surveyors-algorithm): One simple algorithm, for estimating the area of any polygon (be it non-convex, with zero-length edges etc.). As one commenter remarks: Wicked cool?
 	* [Only connect! (Brian Hayes, 2006)](http://bit-player.org/2006/only-connect): And another algorithm, for testing whether two finite-length lines embedded in ℝ² cross. The only solution found is riddled with special cases and disgusting.
+* [Adolf Brand](https://en.wikipedia.org/wiki/Adolf_Brand)
 
 #### Ultrasound Posts by Sarah Constantin
 
