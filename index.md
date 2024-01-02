@@ -97,6 +97,7 @@ of whom can ever feel secure in the love of a cold and distant parent?
 * [Compliments as Utilitarian Praxis](./utilitarian_compliments.html)
 * [Using Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./consciousness_diagram.html)
 * [Arguments Against Preference Utilitarianism](./preference.html)
+* [Notes on Ethics](./notes_on_ethics.html)
 
 #### Psychology
 
@@ -139,7 +140,6 @@ of whom can ever feel secure in the love of a cold and distant parent?
 #### Notes
 
 * [Notes](./notes.html)
-* [Notes on Ethics](./notes_on_ethics.html)
 * [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
 
 #### Reports

@@ -99,7 +99,7 @@ Counter-example: P-Zombie
 
 #### [Sapient](https://en.wikipedia.org/wiki/Sapience) (SP):
 
-Possesses "wisdom" and "insight", think "a good human person"
+Possesses "[wisdom](https://tsvibt.blogspot.com/2023/11/what-is-wisdom.html)" and "insight", think "a good human person"
 
 > […] sapience […] is the ability to think and act using knowledge,
 experience, understanding, common sense and insight.

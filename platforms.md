@@ -174,6 +174,7 @@ funding of the sciences is greatly appreciated.
 See Also
 ---------
 
+* [What I learned gathering thousands of nootropic ratings (troof, 2022)](https://troof.blog/posts/nootropics/)<!--TODO: read-->
 * [Replication Markets](https://replicationmarkets.com/)
 * Discussions
 	* [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/comments/18a4ojx/using_prediction_platforms_to_select_quantified/)

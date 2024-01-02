@@ -25,11 +25,11 @@ Und Regimenter fesselt das starre Kommando.
 
 *— [Friedrich Schiller](https://en.wikipedia.org/wiki/Friedrich_Schiller), “Die Schlacht”, 1805*
 
-I had very big problems when trying to overcome approach anxiety. Since
-this seems to be a common problem, it may be worth it to share a method
-that was successful for me to become more comfortable with it. To make
-progress on that front, I set a goal for several weeks in advance,
-similar to this:
+I had very big problems when trying to overcome approach anxiety. (I have
+heard that I was not alone in this.) Since this seems to be a common
+problem, it may be worth it to share a method that was successful for
+me to become more comfortable with it. To make progress on that front,
+I set a goal for several weeks in advance, similar to this:
 
 * 1st week: Ask 1 guy a day for his number
 * 2nd week: Ask 2 guys for their numbers

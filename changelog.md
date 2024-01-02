@@ -23,12 +23,14 @@ Monthly updates are sent out [via substack](https://niplav.substack.com/).
 December 2023
 --------------
 
+Moved [several](./eschews.html) [notes](subscripts.html) [to](preference.html) top-level posts.
+
 * [Great Words](./language.html#Great_Words)
 * [Notes](./notes.html)
 	* [Fragile Tableware Cost Analysis](./notes.html#Fragile_Tableware): We might be losing on average ~$4e7/day on having porcelain plates.
 	* [A Response on FOOM](./notes.html#A_Response_on_FOOM): Various thoughts on fast takeoff that've been floating around in my mind for a while.
 	* [Paternalism May Be About Mechanism Design](./notes.html#Paternalism_May_Be_About_Mechanism_Design): Cases in which taking options away from people is fine.
-	* [Does Recent Masturbation Decrease Meditation Quality?](./notes.html#Does_Recent_Masturbation_Decrease_Meditation_Quality): After some initial skepticism on my side, it looks like abstinence from masturbation is related to higher concentration during meditation after more than 20 days of abstinence. Correlation is [r](https://en.wikipedia.org/wiki/Pearson's_correlation_coefficient)>0.3. Very curious!
+	* [Does Recent Masturbation Decrease Meditation Quality?](./notes.html#Does_Recent_Masturbation_Decrease_Meditation_Quality): After some initial skepticism on my side, it looks like abstinence from masturbation is related to higher concentration during meditation after more than 20 days of abstinence. Correlation is [r](https://en.wikipedia.org/wiki/Pearson's_correlation_coefficient)>0.3. Very curious! Maybe [nofap](https://en.wikipedia.org/wiki/NoFap) isn't complete bunk?
 
 <!--
 TODO: add again afterwards
@@ -50,7 +52,7 @@ this month (excluding the binge of reddit posts on
 * [Are there cognitive realms? (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/11/are-there-cognitive-realms.html)
 * [Value systematization: how values become coherent (and misaligned) (Richard Ngo, 2023)](https://www.lesswrong.com/posts/J2kpxLjEyqh6x3oA4/value-systematization-how-values-become-coherent-and)
 * Case study: algorithms for plane geometry
-	* [The land surveyor’s algorithm (Brian Hayes, 2007)](http://bit-player.org/2007/the-land-surveyors-algorithm): One simple algorithm, for estimating the area of any polygon (be it non-convex, with zero-length edges etc.). As one commenter remarks: Wicked cool?
+	* [The land surveyor’s algorithm (Brian Hayes, 2007)](http://bit-player.org/2007/the-land-surveyors-algorithm): One simple algorithm, for estimating the area of any polygon (be it non-convex, with zero-length edges etc.). As one commenter remarks: Wicked cool.
 	* [Only connect! (Brian Hayes, 2006)](http://bit-player.org/2006/only-connect): And another algorithm, for testing whether two finite-length lines embedded in ℝ² cross. The only solution found is riddled with special cases and disgusting.
 * [Adolf Brand](https://en.wikipedia.org/wiki/Adolf_Brand)
 
