@@ -30,9 +30,10 @@ is turning out to take *way* longer than I expected.
 
 These texts have been (for various reasons) abandoned.
 
-* [Life Improvements in 2030](./life_improvements_2030.html)
-* [Reward Long Content](./reward.html)
-* [Third Variable](./third.html)
+* [Life Improvements in 2030](./attic/life_improvements_2030.html)
+* [Reward Long Content](./attic/reward.html)
+* [Third Variable](./attic/third.html)
+* [Effective Altruism is a Pareto Frontier of Truth and Power](./attic/eacrit.html)
 
 Programming
 -----------

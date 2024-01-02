@@ -22,6 +22,8 @@ and [Ricón 2021](https://nintil.com/longevity).
 Slowing Down Subjective Experience of Time
 -------------------------------------------
 
+<!--https://210ethan.github.io/research/slow.html-->
+
 ### Meditation
 
 ### Drugs
@@ -32,6 +34,8 @@ Slowing Down Subjective Experience of Time
 
 Reducing Time Slept
 --------------------
+
+<!--https://www.healthline.com/health/how-to-sleep-8-hours-in-4-hours-->
 
 ### Meditation
 

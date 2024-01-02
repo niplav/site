@@ -154,7 +154,7 @@ And, as always, remember that I'm just a person on the internet.
 19.	Fight tooth and nail for [Slack](https://www.lesswrong.com/posts/yLLkWMDbC9ZNKbjDG/slack).
 	[FIRE](https://en.wikipedia.org/wiki/FIRE_movement), fewer
 	addictions (even small ones like mindless internet browsing), no
-	debt, fewer physical objects you own, and less social obligations
+	debt, fewer physical objects you own, and fewer social obligations
 	are all instances of having a lot of slack.
 	*	Example: I have a bad instance of completionism around
 		media. Once I have started a particular piece of media

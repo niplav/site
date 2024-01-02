@@ -250,6 +250,8 @@ Moved [here](./preference.html).
 Stating the Result of “An Impossibility Theorem for Welfarist Axiologies”
 -------------------------------------------------------------------------
 
+<!--TODO: More impossibility theorems?-->
+
 [Arrhenius
 2000](./doc/philosophy/ethics/population/an_impossibility_theorem_for_welfarist_axiologies_arrhenius_2000.pdf "An Impossibility Theorem for Welfarist Axiologies")
 gives a proof that basically states that the type of population axiology
