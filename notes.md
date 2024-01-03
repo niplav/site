@@ -2320,11 +2320,30 @@ My view on better algorithms existing is *not*
 informed very much by [specific observations about
 evolution](https://www.lesswrong.com/posts/hvz9qjWyv8cLX9JJR/evolution-provides-no-evidence-for-the-sharp-left-turn).
 
-<!--
-TODO:
-
 ### Better Algorithms are Quickly Reachable
--->
+
+As in the section about better algorithms existing, many of my intuitions
+here come from algorithm design and/or regular software engineering.
+
+One argument against discountinuous takeoff is a response
+to the hypothesis of recursive self-improvement, in
+which AI systems start finding improvements to their own
+architectures more and more quickly (which I try to model
+[here](./toy_ai_takeoff_model.html)). The counterargument says that
+before there will be AI systems that are really good at self-improvement,
+there [will be systems that are first crappy and then merely okay at
+self-improvement](https://sideways-view.com/2018/02/24/takeoff-speeds/).<!--TODO:
+link page that collects examples of these in current ML?-->
+
+But usually, with algorithms, having a 99%-finished implementation of the
+algorithm doesn't give you 99% of the benefit, nor does it give you 50%
+or even 1% of the benefit. It simply doesn't work. And here intuitions
+collide: I find it plausible that, in this case, the [The Gods of Straight
+Lines)](https://www.lesswrong.com/posts/xkRtegmqL2iyhtDB3/the-gods-of-straight-lines)
+do not interfere, and instead something far stranger is afoot, but
+the machine learning intuition tells people that everything in neural
+networks is continuous, so why wouldn't there be a continous path to a
+TAI architecture?<!--TODO: link continuity assumption post by Kulveit?-->
 
 Paternalism May Be About Mechanism Design
 -------------------------------------------
