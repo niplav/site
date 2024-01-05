@@ -17,6 +17,8 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Einops tutorial, part 1: basics (einops developers, 2023)](https://einops.rocks/1-einops-basics/)
+* [Einsum is All you Need - Einstein Summation in Deep Learning (Tim Rocktäschel, 2018)](https://rockt.github.io/2018/04/30/einsum)
 * [Predicting Growth in the Battery Industry (Sarah Constantin, 2022)](https://sarahconstantin.substack.com/p/predicting-growth-in-the-battery)
 * [The only problem with Python 3's str is that you don't grok it (Drew DeVault, 2017)](https://drewdevault.com/2017/01/13/The-problem-with-Python-3.html)
 * [Actually, you CAN do it (Drew DeVault, 2017)](https://drewdevault.com/2017/01/06/Actually-you-CAN-do-it.html)

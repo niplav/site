@@ -24,9 +24,11 @@ Slowing Down Subjective Experience of Time
 
 <!--https://210ethan.github.io/research/slow.html-->
 
-### Meditation
+### Behavioral
 
 ### Drugs
+
+### Meditation
 
 ### Other
 
@@ -42,6 +44,10 @@ Reducing Time Slept
 * [Kaul et al. 2010](./doc/meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf) find that long-term meditators ~2.5h less at 2.3h meditation/day, which suggests that one can reap the benefits of meditation while also increasing the time spent lucid, if one values time in meditation half as much as other waking time, that still gives `$1.25h \cdot 365 \cdot 40 =18250h$` additional hours in a 40 year period.
 
 ### Genes
+
+<!--https://forum.effectivealtruism.org/posts/nSwaDrHunt3ohh9Et/cause-area-short-sleeper-genes-->
+<!--https://harsimony.wordpress.com/2021/02/05/why-sleep/-->
+<!--https://harsimony.wordpress.com/2022/07/14/cause-exploration-prize-application/-->
 
 > Sleep takes up a sizeable fraction of our lives and has major effects on
 life quality, making improvements in quality or wakefulness an ethically
@@ -59,6 +65,8 @@ sleep without negative consequences [3137, 3167].][sic]
 * [3167] Liubin Zheng and Luoying Zhang. The molecular mechanism of natural short sleep: A path towards understanding why we need to sleep. Brain Science Advances, 2022.
 
 ### Drugs
+
+* Melatonin ([Gwern 2019](https://www.gwern.net/Melatonin#tempus-fugit)): "My rule of thumb is melatonin subtracts an hour [of sleep time]. (I originally guessed at this value, but my Zeo sleep recordings seem to suggest the value is [more like 50 minutes](https://www.gwern.net/Zeo.html#melatonin-analysis).) That is: if one slept for 7 hours, one awakes as refreshed as if one had slept for 8 hours etc. From comparing with others, I think I benefit more than around two-thirds of people."
 
 Making Sleep More Lucid
 ------------------------

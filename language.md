@@ -389,6 +389,7 @@ Equivalences
 * Coordination is {easy, difficult}×{attack, defense} is favored
 * {adequate, inadequate}×{exploitable, unexploitable}×{efficient, inefficient}
 * {be, take, give}×{a, the, ""} shit
+<!--* Thinking the right things, thinking the right way, saying the right things, doing the right things-->
 
 Great Words
 ------------

@@ -33,7 +33,7 @@ maintained.
 * That said, learn to not care what other people think when it's not for your long-term benefit. Much of social interaction is mental masturbation, it feels nice and conforming so you do it. From HP and the MOR:
 * For now I'll just note that it's dangerous to worry about what other people think on instinct, because you actually care, not as a matter of cold-blooded calculation. Remember, I was beaten and bullied by older Slytherins for fifteen minutes, and afterward I stood up and graciously forgave them. Just like the good and virtuous Boy-Who-Lived ought to do. But my cold-blooded calculations, Draco, tell me that I have no use for the dumbest idiots in Slytherin, since I don't own a pet snake. So I have no reason to care what they think about how I conduct my duel with Hermione Granger.
 * Learn to pick locks. If you want to seem awesome, bring padlocks with you and practise this in public :P
-* Learn how to [walk without making a sound](http://www.bbc.co.uk/dna/h2g2/A980589r.
+* Learn how to [walk without making a sound](http://www.bbc.co.uk/dna/h2g2/A980589r).
 * Learn to control your voice. Learn to project like an actress. PUAs have also written on this.
 * Do you know what a wombat looks like, or where your pancreas is? Learn basic biology, chemistry, physics, programming, etc.. There's so much low-hanging fruit.
 * Learn to count cards, like for blackjack. Because what-would-James-Bond-do, that's why! (Actually, in the books Bond is stupidly superstitious about, for example, roulette rolls.)
