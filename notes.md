@@ -2276,13 +2276,14 @@ up a new niche to make progress in, similar to how there are no plants
 in space because they couldn't evolve rocket-like tech and transparent
 shells that were resistant enough in vacuum.
 
-This points at an intuition I have: There is a bunch of α left in
-combining error-corrected/discrete computation (which computers are good
-at) with error-resistant/continuous computation (à la neural networks
-or brains). And especially if I think about cognition through the lens of
-algorithms, it feels like there's a *deep mine of algorithms*: The space
-of possible algorithms is vast, and even in *very* simple problem domains
-we have found surprising innovations (such as going from the [Karatsuba
+This points at an intuition I have: There is a bunch of α left
+in combining error-corrected/discrete/serial computation (which
+computers are good at) with error-resistant/continuous/parallel
+computation (à la neural networks or brains). And especially if
+I think about cognition through the lens of algorithms, it feels
+like there's a *deep mine of algorithms*: The space of possible
+algorithms is vast, and even in *very* simple problem domains we have
+found surprising innovations (such as going from the [Karatsuba
 algorithm](https://en.wikipedia.org/wiki/Karatsuba_algorithm)
 to the [Schönhage-Strassen
 algorithm](https://en.wikipedia.org/wiki/Schönhage-Strassen_algorithm),

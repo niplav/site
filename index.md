@@ -105,6 +105,7 @@ of whom can ever feel secure in the love of a cold and distant parent?
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
 * [Brain Stimulation for Meditation Enhancement](./stimulation.html)
 * [Increasing Subjective Lifespan](./increasing.html)
+* [Awesome Things Humans Can Learn](./awesome.html)
 
 #### Collections
 

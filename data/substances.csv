@@ -371,3 +371,7 @@ datetime,substance,amount,experiment,id,prediction
 2023-12-30T01:18:39+01:00,melatonin,0.375mg,,,
 2024-01-01T21:24:12+01:00,melatonin,0.75mg,,,
 2024-01-03T15:14:48+01:00,nicotine,2mg,,,
+2024-01-03T19:03:48+01:00,creatine,3g,,,
+2024-01-04T22:11:37+01:00,melatonin,0.375mg,,,
+2024-01-05T00:16:09+01:00,creatine,3g,,,
+2024-01-05T09:34:26+01:00,caffeine,200mg,,,
