@@ -72,3 +72,5 @@ Making Sleep More Lucid
 ------------------------
 
 ### Lucid Dreaming
+
+* Galantamine (h/t [Chapin](https://twitter.com/sashachapin/status/1743332700143174124))

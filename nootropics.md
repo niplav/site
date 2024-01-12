@@ -627,6 +627,11 @@ active ingredient) in high-pressure situations (e.g. I'm procrastinating
 on an important task and have anxiety around it, or during exams). So
 far, it seems especially useful to break me out of an akratic rut.
 
+See Also
+---------
+
+<!--* [Nootchat notes](https://pad.riseup.net/p/nootgc-research-2023-keep)-->
+
 Appendix A: Predictions on Self-Blinded RCTs
 ---------------------------------------------
 

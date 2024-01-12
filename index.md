@@ -43,8 +43,8 @@ Writing
 	* [Documentation](./iqisadoc.html)
 * [Forecasters: What Do They Know? Do They Know Things?? Let's Find Out!](./forecasters.html)
 * [Precision of Sets of Forecasts](./precision.html)
-* [Notes on Predictions](./notes_on_predictions.html)
 * [Subscripts for Probabilities](./subscripts.html)
+* [Notes on Predictions](./notes_on_predictions.html)
 
 #### Programming & Computer Science
 
