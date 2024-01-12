@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-04-04, modified: 2023-12-14, language: english, status: notes, importance: 7, confidence: highly likely*
+*author: niplav, created: 2022-04-04, modified: 2024-01-06, language: english, status: notes, importance: 7, confidence: highly likely*
 
 > __Beginnings of a research agenda about [judgmental
 forecasting](https://en.wikipedia.org/wiki/Forecasting#Judgmental_methods).__
@@ -287,7 +287,19 @@ parallel, making 70 forecasts should take $70 \text{ forecasts} \cdot \frac{1 \t
 \approx 5.8\text{hr}$ less than 6 hours, although it'd be useful to search for
 more recent literature on the question.
 
-* Would decomposition work if one were operating with log-odds instead of probabilities?
+* Would decomposition work better if one were operating with log-odds instead of probabilities?
+* Can one leverage LLMs to do this work now, constructing the decomposition via [chain of thought](https://blog.research.google/2022/05/language-models-perform-reasoning-via.html)?
+
+#### Improvements
+
+The description of such decomposition in the first paragraph is, of
+course, lacking: A *better* way of decomposition would be, for a specific
+outcome, to find a set of preconditions for `$X$` that are [mutually
+exclusive](https://en.wikipedia.org/wiki/Mutually-exclusive)
+and [collectively
+exhaustive](https://en.wikipedia.org/wiki/Collectively_exhaustive), find
+a chain that precedes them (or another MECE decomposition), and iterate
+until a whole (possibly interweaving) tree of options has been found.
 
 ### Discussions
 

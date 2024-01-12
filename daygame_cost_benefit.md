@@ -418,6 +418,10 @@ Date ratios:
 And this one:
 
 https://old.reddit.com/r/seduction/comments/9ock2a/my_daygame_experience_so_far_statistics_and/
+
+#### Clarky
+
+* [2023](https://scalingthemountain6.wordpress.com/2023/12/31/2023-my-first-year-in-game/)
 -->
 
 #### Visualizing the Data

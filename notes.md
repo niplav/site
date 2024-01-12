@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2023-12-23, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-01-09, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2244,14 +2244,15 @@ not sure, but potentially within days<sub>40%</sub>).
 
 One reason is that human brains don't seem like the optimal substrate
 for performing cognition: Warm & wet, very low information transmission
-speed (signals on neurons are limited to at most 200 m/s)[Kokotajlo
-2021](https://www.lesswrong.com/posts/HhWhaSzQr6xmBki8F/birds-brains-planes-and-ai-against-appeals-to-the-complexity)
-— and still brains are incredibly sample-efficient! And I
+speed (signals on neurons are limited to at most 200 m/s) [Kokotajlo
+2021](https://www.lesswrong.com/posts/HhWhaSzQr6xmBki8F/birds-brains-planes-and-ai-against-appeals-to-the-complexity),
+needing to self-construct and self-repair — and
+still brains are incredibly sample-efficient! And I
 suspect that, if anything, humans are at best at a [subspace
 optimum](https://www.lesswrong.com/posts/yuP4D4Pz79uyPS9KW) of cognitive
 algorithms.
 
-Then there's the *power of error-corrected/discrete computation*:
+Then there's the *power of error-corrected/discrete/serial computation*:
 Digital computers can make very long inferences in discrete domains
 without problems, and when I introspect, I have the strong intuition
 that my system 2 tries to approximate this, especially when trying
@@ -2289,7 +2290,7 @@ to the [Schönhage-Strassen
 algorithm](https://en.wikipedia.org/wiki/Schönhage-Strassen_algorithm),
 or from the naive algorithm for the [maximum subarray
 problem](https://en.wikipedia.org/wiki/Maximum_Subarray_problem)
-to Kadane's algorithm)). My "optimism" here has been hindered
+to Kadane's algorithm). My "optimism" here has been hindered
 somewhat by some evidence on how well [old chess algorithms perform on new
 hardware](https://www.lesswrong.com/posts/J6gktpSgYoyq5q3Au/benchmarking-an-old-chess-engine-on-new-hardware),
 and the observation that the surprising algorithms we find are
@@ -2340,7 +2341,7 @@ But usually, with algorithms, having a 99%-finished implementation of the
 algorithm doesn't give you 99% of the benefit, nor does it give you 50%
 or even 1% of the benefit. It simply doesn't work. And here intuitions
 collide: I find it plausible that, in this case, the [The Gods of Straight
-Lines)](https://www.lesswrong.com/posts/xkRtegmqL2iyhtDB3/the-gods-of-straight-lines)
+Lines](https://www.lesswrong.com/posts/xkRtegmqL2iyhtDB3/the-gods-of-straight-lines)
 do not interfere, and instead something far stranger is afoot, but
 the machine learning intuition tells people that everything in neural
 networks is continuous, so why wouldn't there be a continous path to a
@@ -2371,10 +2372,12 @@ their situation by forcing the other player to swerve first,
 and guaranteeing the swerve (after all, it's a [strictly dominant
 strategy](https://en.wikipedia.org/wiki/Dominant_Strategy)).
 
-In a less artificial context, one could see minimum wage laws as
-an example of this. Disregarding potential effects from increased
-unemployment, having higher minimum wage removes the temptation of
-workers to accept lower wages.
+In a less artificial context, one could see minimum wage laws
+as an example of this. Disregarding potential effects from
+increased unemployment, having higher minimum wage removes
+the temptation of workers to accept lower wages. [Braess'
+paradox](https://en.wikipedia.org/wiki/Braess_Paradox) is another
+instantiation of this problem.
 
 One can imagine a paternalist government as more of a [mechanism
 designer](https://en.wikipedia.org/wiki/Mechanism_Design), then.

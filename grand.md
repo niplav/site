@@ -548,3 +548,30 @@ Shouldn't "mya" and "gya" be "Mya" and "Gya", for consistency's sake?
 > This contrasts to the fear/hope that change may go in \*any\* direction
 
 I assume the asterisks are supposed to make "any" italic.
+
+#### 8.3.1 Material metabolism
+
+##### Other environments
+
+> [The fit with demandite, ]
+
+Maybe explain what demandite is, Wikipedia doesn't contain that word.
+
+### 8.6
+
+> far more habitable than any planetary body could be expected __tot be__.
+
+Typo, emphasis mine.
+
+#### 8.6.1
+
+> Hence settling space for land is not a radical improvement over Earth.  
+__In terms of raw mass__  
+Practical habitat design is somewhat outside the topic of this book.
+
+Stray sentence fragment. Also I can't believe *anything* is outside the
+topic of this book.
+
+> while at 90 atm pressure on Venus is challenging³⁹
+
+Missing period at the end of the sentence.

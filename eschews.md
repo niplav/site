@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-12-21, modified: 2023-12-21, language: english, status: in progress, importance: 4, confidence: certain*
+*author: niplav, created: 2023-12-21, modified: 2024-01-12, language: english, status: in progress, importance: 4, confidence: certain*
 
 > __Changing [credit
 assignment](https://en.wikipedia.org/wiki/Credit_assignment_problem)
@@ -229,4 +229,4 @@ existing sklerotic status hierarchies.
 
 * [Systems to Eschew Eschewing Performance (210ethan, 2023)](https://210ethan.github.io/thoughts/eschew.html)
 * Discussions
-        * [LessWrong Discussion](https://www.lesswrong.com/posts/NAjM4y26yYwKzXA2s/high-status-eschews-quantification-of-performance)
+	* [LessWrong Discussion](https://www.lesswrong.com/posts/NAjM4y26yYwKzXA2s/high-status-eschews-quantification-of-performance)
