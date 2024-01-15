@@ -159,9 +159,9 @@ All forms of preference utilitarianism face the challenge of identifying
 which systems have preferences, and how those preferences are implemented.
 
 * Preference utilitarianisms
-        * Face the challenge of identifying which systems have preferences, and how those preferences are implemented.
-        * That don't respect possible preferences:
-                * Will attempt to "freeze" current preferences and prevent any moral progress.
-                * If they always maximize the currently existing preferences, and self-replicating preferences exist in the universe, they will tile the universe with those preferences.
-        * That respect possible preferences:
-                * Will get mercilessly exploited by the strongest preferences they include in the domain of moral patients.
+	* Face the challenge of identifying which systems have preferences, and how those preferences are implemented.
+	* That don't respect possible preferences:
+		* Will attempt to "freeze" current preferences and prevent any moral progress.
+		* If they always maximize the currently existing preferences, and self-replicating preferences exist in the universe, they will tile the universe with those preferences.
+	* That respect possible preferences:
+		* Will get mercilessly exploited by the strongest preferences they include in the domain of moral patients.

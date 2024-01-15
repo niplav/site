@@ -78,7 +78,6 @@ Poems
 * Eternal Hustle of the Stopless Grind
 * Calibration of the intellect, optimism of the will
 * Gah, can't [snarf](https://9p.io/sys/doc/sam/sam.pdf#page=14) [evince](https://en.wikipedia.org/wiki/Evince).
-* You can sit here and be okay, if you want.
 * gatekeep girlboss gaslight givewell
 * joy in the merely valuable
 
@@ -127,6 +126,16 @@ Shelves upon shelves
 All with your secrets unlocked  
 >  
 > Grantmaker,
+
+#### Meditative
+
+* "The awareness will continue to expand until the morale improves"
+* "You can sit here and be okay, if you want."
+* "Slow is smooth, and smooth is fast."
+* "Paper-thin and feather-light."
+* "What is here now, when there is no problem to solve"
+* "Think the thought that is nowhere supported"
+* "Be empty of that too"
 
 ### German
 

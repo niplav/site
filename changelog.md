@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2023-12-22, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2024-01-15, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -19,6 +19,16 @@ with fecundity.
 *—[Scott Alexander](https://slatestarcodex.com/), [“The Goddess of Everything Else”](https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/), 2015*
 
 Monthly updates are sent out [via substack](https://niplav.substack.com/).
+
+January 2024
+-------------
+
+* [Question Decomposition in Forecasting](./forecasters.html#Forecasting_Techniques): [Improvement of MECE Decomposition](./forecasters.html#Improvements) and an idea to [use LLMs](./forecasters.html#Using_LLMs) to test whether decomposition works.
+* Preliminary notes on [Increasing Subjective Lifespan](./increasing.html), at the moment mapping the territory and reading abstracts.
+* [Microfiction](./microfiction.html)
+	* [Meditative Sayings](./microfiction.html#Meditative)
+* [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
+	* [Table of Current Market Status](./platforms.html#Table_of_Current_Market_Status). Currently nicotine→meditation & lumenator→happiness seem the most promising. Going to select the markets end of January.
 
 December 2023
 --------------

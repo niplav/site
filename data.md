@@ -177,15 +177,6 @@ impressions directly after meditation, where "mindfulness" describes the
 degree of sensory clarity, and "concentration" (better called "absorption"
 or "rest") describes my ability to rest on a specific sensory object.
 
-Fitbit Biometrics
-------------------
-
-I use the [Fitbit Inspire
-3](https://en.wikipedia.org/wiki/List_of_Fitbit_products#Fitbit_Inspire_3)
-because Fitbit is one of the few (the only?) companies whose products
-allow for data exporting, mostly to track my sleep, but maybe I'll also
-get mileage out of the heart rate, step, glucose and temperature tracking.
-
 Daygame
 --------
 
@@ -263,6 +254,15 @@ Sessions file:
 * Datetime end
 * Approaches index number range
 * Number of approaches
+
+Fitbit Biometrics
+------------------
+
+I use the [Fitbit Inspire
+3](https://en.wikipedia.org/wiki/List_of_Fitbit_products#Fitbit_Inspire_3)
+because Fitbit is one of the few (the only?) companies whose products
+allow for data exporting, mostly to track my sleep, but maybe I'll also
+get mileage out of the heart rate, step, glucose and temperature tracking.
 
 Others
 -------
@@ -342,3 +342,11 @@ Data on bag spreading on public transport, in [this
 file](./data/bag_spreading.csv). Data quality is horrible: probably prone
 to multiple biases from my side, from different locations, no tracking
 of location or datetime…maybe I should just delete this one.
+
+### Forecasting Performance
+
+In principle it should be possible for me to track my forecasting
+performance on Manifold, Fatebook/PredictionBook and Metaculus,
+given that all of them have APIs over which data can be exported and
+analyzed. In practice I haven't done so yet, but it might be a good
+(albeit slow-to-evaluate) proxy for cognitive performance.

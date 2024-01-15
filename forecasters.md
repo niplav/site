@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-04-04, modified: 2024-01-06, language: english, status: notes, importance: 7, confidence: highly likely*
+*author: niplav, created: 2022-04-04, modified: 2024-01-06, language: english, status: notes, importance: 6, confidence: highly likely*
 
 > __Beginnings of a research agenda about [judgmental
 forecasting](https://en.wikipedia.org/wiki/Forecasting#Judgmental_methods).__
@@ -300,6 +300,23 @@ and [collectively
 exhaustive](https://en.wikipedia.org/wiki/Collectively_exhaustive), find
 a chain that precedes them (or another MECE decomposition), and iterate
 until a whole (possibly interweaving) tree of options has been found.
+
+#### Using LLMs
+
+This is a scenario where large language models are quite useful, and
+we have a testable hypothesis: Does question decomposition (or MECE
+decomposition) improve language model forecasts by any amount?
+
+Frontier LLMs are [at](https://dynomight.net/predictions/)
+[best](https://www.lesswrong.com/posts/c3cQgBN3v2Cxpe2kc/getting-gpt-3-to-predict-metaculus-questions)
+[mediocre](https://arxiv.org/pdf/2206.15474v1) at
+forecasting real-world events, but similar to how [asking
+for calibration](https://arxiv.org/pdf/2305.14975v2)
+improves performance, so perhaps
+[chain-of-thought](https://blog.research.google/2022/05/language-models-perform-reasoning-via.html)-like
+question decomposition improves (or reduces) their performance (and
+therefore gives us reason to believe that similar practices will (or
+won't) work with human forecasters).
 
 ### Discussions
 
