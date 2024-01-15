@@ -81,9 +81,10 @@ of whom can ever feel secure in the love of a cold and distant parent?
 <!--
 ##### Pick-Up
 
-* [Pickup Reports](./pickup_reports.html)
-* [Notes on Pickup](./notes_on_pickup.html)
 * [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
+* [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)
+* [Notes on Pickup](./notes_on_pickup.html)
+* [Pickup Reports](./pickup_reports.html)
 * [Flags](./flags.html)
 -->
 
@@ -123,6 +124,15 @@ of whom can ever feel secure in the love of a cold and distant parent?
 * [If I Were An Eccentric Trillionaire](./eccentric.html)
 * [High Status Eschews Quantification of Performance](./eschews.html)
 
+#### Notes
+
+* [Notes](./notes.html)
+* [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
+
+#### Reports
+
+* [Reports](./reports.html)
+
 #### Textbooks
 
 * [Solutions to “Artificial Intelligence: A Modern Approach”](./aima_solutions.html)
@@ -137,15 +147,6 @@ of whom can ever feel secure in the love of a cold and distant parent?
 * [Solutions to “Algorithmic Game Theory”](./agt_solutions.html)
 * [Exercises from “The Jazz Piano Book”](./tjpb_exercises.html)
 * [Administrativa for Textbooks](./administrativa_for_textbooks.html)
-
-#### Notes
-
-* [Notes](./notes.html)
-* [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
-
-#### Reports
-
-* [Reports](./reports.html)
 
 ### Fiction
 

@@ -6,9 +6,8 @@
 > __Is [cryonics](https://en.wikipedia.org/wiki/Cryonics)
 worth it, and if yes, should one
 [cryocrastinate](https://alcor.org/Library/html/cryocrastination.html)
-(i.e. postpone signing up for cryonics
-to a later date)? [Betteridge's law of
-headlines](https://en.wikipedia.org/wiki/Betteridge's_law_of_headlines)
+(i.e. postpone signing up for cryonics to a later date)? [Betteridge's law
+of headlines](https://en.wikipedia.org/wiki/Betteridge's_law_of_headlines)
 only applies partially here: Yes, it is probably worth it (under plausible
 assumptions \\$2.7m for a 20 year old, and more for older people), and no,
 cryocrastination is usually irrational. A cost-benefit analysis written in
@@ -18,9 +17,10 @@ considering
 with [Alcor](https://www.alcor.org/). I also perform a [Monte-Carlo
 simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method) using
 [Guesstimate](https://www.getguesstimate.com/ "Official website"),
-and find that signing up for cryonics at age 20 is worth \\$18m in the
-mean, median -\\$100k (90% confidence interval: -\\$2.16m, \\$58.25m). It
-therefore seems recommendable to sign up for cryonics immediately.__
+and find that signing up for cryonics at age 20 is worth \\$18m
+in the mean, median -\\$100k (90% confidence interval: -\\$2.16m,
+\\$58.25m). It therefore seems recommendable to sign up for cryonics
+[immediately](#Now_What).__
 
 Cryonics Cost-Benefit Analysis
 ===============================
@@ -1694,7 +1694,7 @@ signing up at a much lower cost, which can then be activated at a later
 point in time into a full membership quickly, and memberships at the
 [Cryonics Institute](https://cryonics.org), which also much cheaper
 than Alcor, but require much higher amount of initiative to assure a
-quick preservation)).
+quick preservation).
 
 [![Tweet by @TetraspaceWest, with text “It's called cryonics because you have to fill out like one form to do it, enough to make you cry”](./img/considerations_on_cryonics/tetraspace_tweet.png "Tweet by @TetraspaceWest, with text “It's called cryonics because you have to fill out like one form to do it, enough to make you cry”")](https://nitter.net/TetraspaceWest/status/1508597929082294272)
 

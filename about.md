@@ -462,6 +462,7 @@ but rather cycles).
 * [Tetraspace West](https://thetetra.space): Land value tax : repetitive Georgists :: Conditional prediction markets : That place for Quaternions
 * [Skaði þjazidottir](https://ulthar.xyz): Gather some stoic people with guns, who have written low-level code
 * [Nyx](https://nyxus.xyz/): Brightly empathetically menacing (we all know she's just joking)
+<!--TODO: add harsimony, 1a3orn, others?-->
 
 The Author
 ----------
@@ -480,6 +481,8 @@ it easier for others to determine whether I'm to be taken serious as a
 source of information.
 
 #### Forecasting
+
+<!--TODO: update & add Fatebook-->
 
 Scores (as of 2023-08-05):
 

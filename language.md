@@ -350,7 +350,7 @@ Nominative Determinisms
 * [Donald Broadbent's](https://en.wikipedia.org/wiki/Donald_Broadbent) [filter model of attention](https://en.wikipedia.org/wiki/Broadbent's_filter_model_of_attention)
 * The [Heaviside step function](https://en.wikipedia.org/wiki/Heaviside_step_function)
 * "The Empire Strikes Back (1980) was voted the best film of all time by over 250,000 readers of the Empire film magazine in 2015." ([List of films considered the best](https://en.wikipedia.org/wiki/List_of_films_considered_the_best))
-* [Robert Fludd](https://en.wikipedia.org/wiki/Robert_Fludd)<!--TODO-->
+* [Robert Fludd](https://en.wikipedia.org/wiki/Robert_Fludd): "Fludd's own theory on the origin of all things posited that, instead of the Tria Prima, all species and things stemmed from first, dark Chaos, then divine Light which acted upon the Chaos, which finally brought forth the waters. This last element was also called the Spirit of the Lord"
 
 Incorrect Plurals or Singulars People Use
 ------------------------------------------
@@ -390,7 +390,7 @@ Equivalences
 * Coordination is {easy, difficult}×{attack, defense} is favored
 * {adequate, inadequate}×{exploitable, unexploitable}×{efficient, inefficient}
 * {be, take, give}×{a, the, ""} shit
-<!--* Thinking the right things, thinking the right way, saying the right things, doing the right things-->
+* Thinking the {right, wrong} things × thinking in the {right, wrong} way × saying the {right, wrong} things × performing the {right, wrong} actions
 
 Great Words
 ------------
@@ -426,7 +426,7 @@ Good Bandnames
 * [Memetic Immune Disorder](https://www.lesswrong.com/posts/aHaqgTNnFzD7NGLMx/reason-as-memetic-immune-disorder)
 * Contextual Bandits (seen in [Amodei et al. 2016](./doc/cs/ai/alignment/overview/concrete_problems_in_ai_safety_amodei_et_al_2016.pdf "Concrete Problems in AI Safety"))
 * [Hypercarcinisation](https://en.wikipedia.org/wiki/Carcinisation#Hypercarcinisation)
-* Genderless Gaits, from [Wessel 2017](https://www.science.org/content/article/do-human-pheromones-actually-exist)
+* Genderless Gaits (from [Wessel 2017](https://www.science.org/content/article/do-human-pheromones-actually-exist))
 
 Fake Esperanto Translations
 ----------------------------

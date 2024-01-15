@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-12-18, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-01-15, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,15 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Effective Altruists Want to Engineer People to Sleep Less So They Can Work More (Hannah Docter-Loeb, 2023)](https://www.vice.com/en/article/v7bd33/effective-altruists-want-to-engineer-people-to-sleep-less-so-they-can-work-more)
+* [Research Areas for Reducing Sleep Need (Sam Harsimony, 2023)](https://harsimony.wordpress.com/2023/01/20/research-areas-for-reducing-sleep-need/)
+* [Let’s Eliminate Sleep (Sam Harsimony, 2021)](https://harsimony.wordpress.com/2021/02/05/why-sleep/)
+* [Slowing Time (Ethan, 2023)](https://210ethan.github.io/research/slow.html)
+* The Hundred-Light-Year-Diary (Greg Egan, 1992)
+* [Why all the fuss about recursive self-improvement? (Nate Soares, 2022)](https://www.lesswrong.com/posts/8NKu9WES7KeKRWEKK/)
+* [If Clarity Seems Like Death to Them (Zack M. Davis, 2023)](http://unremediatedgender.space/2023/Dec/if-clarity-seems-like-death-to-them/)
+* [Tensors (PyTorch developers, 2023)](https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html)
+* [Learn the Basics (PyTorch developers, 2023)](https://pytorch.org/tutorials/beginner/basics/intro.html)
 * [Einops tutorial, part 1: basics (einops developers, 2023)](https://einops.rocks/1-einops-basics/)
 * [Einsum is All you Need - Einstein Summation in Deep Learning (Tim Rocktäschel, 2018)](https://rockt.github.io/2018/04/30/einsum)
 * [Predicting Growth in the Battery Industry (Sarah Constantin, 2022)](https://sarahconstantin.substack.com/p/predicting-growth-in-the-battery)

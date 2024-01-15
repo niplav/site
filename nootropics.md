@@ -630,7 +630,9 @@ far, it seems especially useful to break me out of an akratic rut.
 See Also
 ---------
 
+<!--TODO: something by kanzure?-->
 <!--* [Nootchat notes](https://pad.riseup.net/p/nootgc-research-2023-keep)-->
+* [troof 2022](https://troof.blog/posts/nootropics/)
 
 Appendix A: Predictions on Self-Blinded RCTs
 ---------------------------------------------
