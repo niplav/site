@@ -376,6 +376,8 @@ Equivalences
 * Need for cognition : charisma :: need for social interaction : intelligence
 * Christianity : Teilhard de Chardin :: Buddhism : Romeo Stevens
 * [log odds : probability :: epistemic status : confidence level](https://www.lesswrong.com/posts/xF7gBJYsy6qenmmCS/don-t-die-with-dignity-instead-play-to-your-outs?commentId=P9EiLDCgxRwJNi6bs)
+* Action : Inaction : Energy : Sluggishness : [Steam](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam) :: Robustness : Fragility : Resilience : Damage : [Hormesis](https://en.wikipedia.org/wiki/Hormesis)
+	* Or even: ((Action : Inaction) :: (Energy : Sluggishness) ::: [Steam](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam)) :::: ((Robustness : Fragility) :: (Resilience : Damage) ::: [Hormesis](https://en.wikipedia.org/wiki/Hormesis))
 
 <!--TODO: add bullwhip effect thing from twitter-->
 

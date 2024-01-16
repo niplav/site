@@ -23,6 +23,11 @@ medical interventions, or curing aging, for overview into that see [JackH
 2020](https://www.lesswrong.com/posts/RcifQCKkRc9XTjxC2/anti-aging-state-of-the-art)
 and [Ricón 2021](https://nintil.com/longevity).
 
+| Intervention                  | [Net present value](https://en.wikipedia.org/wiki/Net_Present_Value) | State of evidence                | Papers |
+| ----------------------------- | -------------------------------------------------------------------- | -------------------------------- | -------|
+| Meditating 2.5 hours per day  | \$33k                                                                | Poor, a single case study (n=7)  | [Kaul et al. 2010](./doc/meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf)
+
+
 Slowing Down Subjective Experience of Time
 -------------------------------------------
 
@@ -45,6 +50,18 @@ Reducing Time Slept
 argues that we should reduce sleep need, pointing out that these ~30%
 of our lives might be better spent on other activities, be they conscious
 leisure or work.
+
+Beliefs are for action, all statistics is decision theory. In choosing
+how (much) to sleep, and in what way, we want to trade off benefits
+against costs. The benefit of sleeping less is quite straightforward:
+More time spent awake, either in leisure or working, making more use of
+the limited amount of time we have before dying.
+
+The costs are more subtle: Some intervention we're considering might have
+negative side effects, either only on the hours gained or on all of the
+hours spent awake, or having an effect on expected lifespan.  So we have
+to decide how much we (e.g.) (dis)value spending an additional hour awake,
+but being 5% more dizzy during those 17 waking hours.
 
 <!--https://www.healthline.com/health/how-to-sleep-8-hours-in-4-hours-->
 
@@ -78,17 +95,65 @@ Selected from [Harsimony 2023](https://harsimony.wordpress.com/2023/01/20/resear
 
 ### Meditation
 
+> While it may be true that, when doing intensive practice, the need
+for sleep may go down to perhaps four to six hour or less at a time,
+try to get at least some sleep every night.
+
+*—Daniel Ingram, “Mastering the Core Teachings of the Buddha”, p. 179*
+
+> Meditation in dreams and lucid dreaming is common in this territory
+[of the Arising and Passing away]. The need for sleep may be greatly
+reduced. […] The big difference between the A&P and Equanimity is that this
+stage is generally ruled by quick cycles, quickly changing frequencies
+of vibrations, odd physical movements, strange breathing patterns, heady
+raptures, a decreased need for sleep, strong bliss, and a general sense
+of riding on a spiritual roller coaster with no brakes.
+
+*—Daniel Ingram, “Mastering the Core Teachings of the Buddha”, p. 275*
+
+> Need for sleep tends to increase in the Three Characteristics, mostly
+due to how tiring pain can be. Sleep need can drop dramatically in the
+stage of the A&P, suddenly peak in dissolution, drop a bit again in Fear
+as our energy returns, and increase during the Dark Night, mostly due
+to how mentally fatiguing that stage can be.
+
+*—Daniel Ingram, “Mastering the Core Teachings of the Buddha”, p. 379*
+
+> The interesting thing is that all four of these people within a year
+or so of having started this practice claimed to have done it, and by
+“it” I mean eliminated all emotions entirely, replacing them with a
+perpetually wonderful perception of the freshness of the sensate world,
+a lack of time pressure, a reduced need for sleep, and some other benefits
+and odd side effects.
+
+*—Daniel Ingram, “Mastering the Core Teachings of the Buddha”, p. 462*
+
+> The sleep models generally relate to either sleeping less or being
+awake in some way while asleep. Sleeping less is common during retreats,
+particularly in some stages such as the A&P. I also know some people who,
+because of spiritual attainments, have reduced their need for sleep,
+and this has happened to me at points, but it hasn't been sustained in
+my case.
+
+*—Daniel Ingram, “Mastering the Core Teachings of the Buddha”, p. 470*
+
 #### Kaul et al. 2010
 
 [Kaul et al.
 2010](./doc/meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf)
-find that long-term meditators ~2.5h less at 2.3h meditation/day,
+find that long-term meditators sleep ~2.5h less at 2.3h meditation/day,
 which suggests that one can reap the benefits of meditation while also
 increasing the time spent lucid, if one values time in meditation half
-as much as other waking time, that still gives
-`$1.25h \cdot 365 \cdot 40 =18250h$` additional hours in a 40 year period.
+as much as other waking time at \$2.5/hr. This gives a [net present
+value](https://en.wikipedia.org/wiki/Net_Present_Value) over the next
+40 years of
 
-Relation laws of meditation done → hours slept.
+`$\sum_{i=0}^{40} \frac{365 \cdot \$5/\text{hr} \cdot 2 \text{hr} \cdot 0.5}{1.05^i}=\$33140$`.
+
+The quality of the evidence here is very slim, but anecdotes<!--TODO:
+link, maybe MCTB?--> point towards sleep durations decreasing during
+meditation retreats. It would be quite interesting to know the relation
+between time spent meditating and amount of time slept.
 
 ### Behavioral Interventions
 
@@ -98,6 +163,8 @@ Relation laws of meditation done → hours slept.
 * Unihemispheric Sleep
 
 ### Other Interventions
+
+#### Reducing Sleep Inertia
 
 #### Stimulation
 
@@ -118,7 +185,7 @@ sleep without negative consequences [3137, 3167].][sic]
 
 * [2392] An Ravelingien and A Sandberg. Sleep better than medicine? ethical issues related to “wake enhancement”. Journal of Medical Ethics, 34(9):e9–e9, 2008.
 * [1332]: [He et al. 2009](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2884988/ "Ying He, Christopher R Jones, Nobuhiro Fujiki, Ying Xu, Bin Guo, Jimmy L Holder Jr, Moritz J Rossner, Seiji Nishino, and Ying-Hui Fu. The transcriptional repressor dec2 regulates sleep length in mammals. Science, 325(5942):866–870, 2009")
-* [1372] Arisa Hirano, Pei-Ken Hsu, Luoying Zhang, Lijuan Xing, Thomas McMahon, Maya Yamazaki, Louis J Ptáˇcek, and Ying-Hui Fu. Dec2 modulates orexin expression and regulates sleep. Proceedings of the National Academy of Sciences, 115(13):3434–3439, 2018.
+* [1372] Arisa Hirano, Pei-Ken Hsu, Luoying Zhang, Lijuan Xing, Thomas McMahon, Maya Yamazaki, Louis J Ptáček, and Ying-Hui Fu. Dec2 modulates orexin expression and regulates sleep. Proceedings of the National Academy of Sciences, 115(13):3434–3439, 2018.
 * [2639] Guangsen Shi, Lijuan Xing, David Wu, Bula J Bhattacharyya, Christopher R Jones, Thomas McMahon, SY Christin Chong, Jason A Chen, Giovanni Coppola, Daniel Geschwind, et al. A rare mutation of β1-adrenergic receptor affects sleep/wake behaviors. Neuron, 103(6):1044–1055, 2019.
 * [3113] Lijuan Xing, Guangsen Shi, Yulia Mostovoy, Nicholas W Gentry, Zenghua Fan, Thomas BMcMahon, Pui-Yan Kwok, Christopher R Jones, Louis J Ptáˇcek, and Ying-Hui Fu. Mutant neuropeptide s receptor reduces sleep duration with preserved memory consolidation. Science translational medicine, 11(514):eaax2014, 2019.
 * [2640] Guangsen Shi, Chen Yin, Zenghua Fan, Lijuan Xing, Yulia Mostovoy, Pui-Yan Kwok, Liza H Ashbrook, Andrew D Krystal, Louis J Ptáˇcek, and Ying-Hui Fu. Mutations in metabotropic glutamate receptor 1 contribute to natural short sleep trait. Current Biology, 31(1):13–24, 2021.

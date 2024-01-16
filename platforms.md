@@ -153,15 +153,19 @@ Blindeable:
 
 1. __Semaglutide__ vs. __Sugar__ → *Productivity* (tracking conscientiousness)
 2. __Melatonin__ vs. __Sugar__ → *Sleep duration*
+3. __Orexin-A__ vs. __Sugar__ → *Sleep duration*
+4. __Neuropeptide S__ vs. __Sugar__ → *Sleep duration*
+5. __Sodium Oxybate__ vs. __Sugar__ → *Sleep duration*
+6. __Galantamine__ vs. __Sugar__ → *Number of lucid dreams*
 
 Not blindeable:
 
-5. __Binaural Beats__ vs. __Silence__ → *Meditative Absorption*
-6. __Brown Noise__ vs. __Silence__ → *Meditative Absorption*
-7. __Brown Noise__ vs. __Music__ → *Productivity*
-8. __Silence__ vs. __Music__ → *Productivity*
-9. __Time Since Last Masturbation__ → *Productivity*
-10. __Starting Work Standing__ vs. __Starting Work Sitting__ → *Productivity*
+7. __Binaural Beats__ vs. __Silence__ → *Meditative Absorption*
+8. __Brown Noise__ vs. __Silence__ → *Meditative Absorption*
+9. __Brown Noise__ vs. __Music__ → *Productivity*
+10. __Silence__ vs. __Music__ → *Productivity*
+11. __Time Since Last Masturbation__ → *Productivity*
+12. __Starting Work Standing__ vs. __Starting Work Sitting__ → *Productivity*
 
 Pleas
 ------
