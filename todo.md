@@ -1242,22 +1242,6 @@ Game. Even those odds likely overstate the number of Players in the world.
 * The Big Short
 	* An Elegy
 
-### Interviews
-
-* /u/JhanicManifold
-* /u/MakeTotalDestr0i
-* /u/redditselloutbiddy
-* TheRedQuest
-* Brian Tomasik
-* CronoDAS
-* Eli Tyre
-* /u/--MCMC--
-* Jay Sanguinetti
-* [Mike Battaglia](https://en.xen.wiki/w/User:Mike_Battaglia)
-* [@norvid_studies](https://twitter.com/norvid_studies)
-* [@exdiegesis](https://twitter.com/exdiegesis)
-* [@TeortaxesTex](https://twitter.com/TeortaxesTex)
-
 ### Fiction
 
 * A Religion
@@ -1294,6 +1278,7 @@ Game. Even those odds likely overstate the number of Players in the world.
 	* Text by german early 20th century continental philosopher about this object
 	* Fragments by a 11th century german monk about this
 * Guten Morgen
+	* Brecht-style play about a worker who doesn't answer his boss saying "Guten Morgen" at 5 AM in the factory, and the class conflict erupting over this
 * All-Feeler
 	* Object that untwists topological boundaries in phenomenological space
 * Qui Custodiet?
@@ -1309,7 +1294,7 @@ Game. Even those odds likely overstate the number of Players in the world.
 * Destructive Uplift Theory of the Boötes Void
 * A Fanfiction of Edge of Tomorty: Rick Die Rickpeat, explaining the dangers of hypercomputation
 	* If you have a closed timelike curve, you are probably uncleashing computational titans the likes of which you can not fathom, beings that would snack superintelligences like potato chips
-	* See also: Causal Noose by qntm, NP-complete Problems and Physical Reality Aaronson 2006
+	* See also: Causal Noose by qntm, NP-complete Problems and Physical Reality Aaronson 2006, The Hundred-Light-Year Diary
 * Fiction about an expedition to the south pole, finding indigenous population
 	* schelling.pt thread abt this
 * Skalpell Bizeps
@@ -1732,8 +1717,6 @@ Programming
 		* of inline code in markdown is annoying (dark blue background!)
 			* Submit pull request for existing fix (which makes it mauve)
 		* two asterisks in succession (`**`) in indented code still make everything bold
-	* plugin for adding markdown wikipedia link easily
-	* Add syntax highlighting for Julia
 * sad
 	* implement features that weren't finished
 	* care for it
@@ -1828,7 +1811,6 @@ produces
 * SML
 * Forth
 * Prolog
-* Julia
 
 Wikipedia Articles
 -------------------
