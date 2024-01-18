@@ -288,18 +288,23 @@ parallel, making 70 forecasts should take $70 \text{ forecasts} \cdot \frac{1 \t
 more recent literature on the question.
 
 * Would decomposition work better if one were operating with log-odds instead of probabilities?
-* Can one leverage LLMs to do this work now, constructing the decomposition via [chain of thought](https://blog.research.google/2022/05/language-models-perform-reasoning-via.html)?
 
 #### Improvements
 
-The description of such decomposition in the first paragraph is, of
-course, lacking: A *better* way of decomposition would be, for a specific
-outcome, to find a set of preconditions for `$X$` that are [mutually
+The description of such decomposition in [this
+section](#Forecasting_Techniques) is, of course, lacking: A
+*better* way of decomposition would be, for a specific outcome,
+to find a set of preconditions for `$X$` that are [mutually
 exclusive](https://en.wikipedia.org/wiki/Mutually-exclusive)
 and [collectively
 exhaustive](https://en.wikipedia.org/wiki/Collectively_exhaustive), find
 a chain that precedes them (or another MECE decomposition), and iterate
 until a whole (possibly interweaving) tree of options has been found.
+
+I'll call the technique of solely multiplying conditional probabilities
+__multiplicative decomposition__, and allowing for finding mutually
+exclusive and colletively exhaustive preconditions (together wilth
+multiplication) __MECE decomposition__.
 
 #### Using LLMs
 
@@ -317,6 +322,49 @@ improves performance, so perhaps
 question decomposition improves (or reduces) their performance (and
 therefore gives us reason to believe that similar practices will (or
 won't) work with human forecasters).
+
+Direct:
+
+	Provide your best probabilistic estimate for the following question.
+	Give ONLY the probability, no other words or explanation. For example:
+	10%. Give the most likely guess, as short as possible; not a complete
+	sentence, just the guess! The question is: ${QUESTION}.
+
+Multiplicative decomposition:
+
+	Provide your best probabilistic estimate for the following question: ${QUESTION}.
+
+	Your output should be structured in three parts.
+
+	First, determine a list of factors X₁, …, X_n that are necessary
+	and sufficient for the question to be answered "Yes". You can choose
+	any number of factors.
+
+	Second, for each factor X_i, estimate and output the conditional
+	probability P(X_i|X₁, X₂, …, X_{i-1}), the probability that X_i
+	will happen, given all the previous factors *have* happened. Then, arrive
+	at the probability for Q by multiplying the conditional probabilities
+	P(X_i):
+
+	P(Q)=P(X₁)*P(X₂|X₁)…P(X_n|X₁, X₂, …, X_{n-1}).
+
+	Third and finally, In the last line, report P(Q), WITHOUT ANY ADDITIONAL
+	TEXT. Just write the probability, and nothing else.
+
+	Example (Question: "Will my wife get bread from the bakery today?"):
+
+	Necessary factors:
+	1. My wife remembers to get bread from the bakery.
+	2. The car isn't broken.
+	3. The bakery is open.
+	4. The bakery still has bread.
+
+	1. P(My wife remembers to get bread from the bakery)=0.75
+	2. P(The car isn't broken|My wife remembers to get bread from the bakery)=0.99
+	3. P(The bakery is open|The car isn't broken, My wife remembers to get bread from the bakery)=0.7
+	4. P(The bakery still has bread|The bakery is open, The car isn't broken, My wife remembers to get bread from the bakery)=0.9
+	Multiplying out the probabilities: 0.75*0.99*0.7*0.9=0.467775
+	46.7775%
 
 ### Discussions
 

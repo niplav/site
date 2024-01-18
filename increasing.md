@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-07-06, modified: 2023-12-20, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2023-07-06, modified: 2024-01-17, language: english, status: notes, importance: 6, confidence: possible*
 
 > __Humans get around 80 years of life. How can that time be made to
 feel as long as possible?__
@@ -23,9 +23,10 @@ medical interventions, or curing aging, for overview into that see [JackH
 2020](https://www.lesswrong.com/posts/RcifQCKkRc9XTjxC2/anti-aging-state-of-the-art)
 and [Ricón 2021](https://nintil.com/longevity).
 
-| Intervention                  | [Net present value](https://en.wikipedia.org/wiki/Net_Present_Value) | State of evidence                | Papers |
-| ----------------------------- | -------------------------------------------------------------------- | -------------------------------- | -------|
-| Meditating 2.5 hours per day  | \$33k                                                                | Poor, a single case study (n=7)  | [Kaul et al. 2010](./doc/meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf)
+| Intervention | [Net present value](https://en.wikipedia.org/wiki/Net_Present_Value) | State of evidence | Papers | Notes |
+| ----------------------------- | -------------------------------------------------------------------- | -------------------------------- | -------| ----- |
+| Meditating 2.5 hours per day → Reduces sleep need | \$33k | Poor, a single case study (n=7) | [Kaul et al. 2010](./doc/meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf) | Can also confer [other benefits](https://en.wikipedia.org/wiki/Research_on_Meditation), but multiple hours of meditation per day [could be risky](https://harpers.org/archive/2021/04/lost-in-thought-psychological-risks-of-meditation/) | <!--TODO: maybe link MCTB here?-->
+| Taking melatonin → Reduces sleep need | \$7.5k | Data collected from two individuals (n=2) | [Gwern 2019](https://www.gwern.net/Melatonin#tempus-fugit), [Niplav 2024](./nootropics.html#Reducing_Sleep_Duration) | Low risk |
 
 
 Slowing Down Subjective Experience of Time
@@ -81,14 +82,43 @@ if one slept for 7 hours, one awakes as refreshed as if one had slept
 for 8 hours etc. From comparing with others, I think I benefit more than
 around two-thirds of people.
 
-<!--TODO: analyze own data-->
+##### Niplav 2024
+
+I [analyze](./nootropics.html#Reducing_Sleep_Duration) my own data,
+and (weakly) conclude that melatonin reduces my sleep duration by ~25
+minutes, although I have not checked whether melatonin simply makes my
+body go into sleep debt which is then paid off the next night.
+
+##### Cost-Benefit
+
+Assuming a (conservative) 15 minutes of sleep time saved, at a price of
+~4 cent per pill, assuming the benefit does not taper off, we get a net
+present value (over the next 40 years) of
+
+`$\sum_{i=0}^{40} \frac{365 \cdot (0.25 \text{hr} \cdot 5 \frac{\$}{\text{hr}})}{1.05^i} \approx \$7578$`.
+
+#### Orexin-A
+
+> If you are a naive reader, you might expect that we give people
+with narcolepsy type 1 orexin-A as a supplement because that would be
+obvious. We don’t. You might expect that someone tried to bring it to
+market as a drug and ran a clinical trial. They didn’t.  
+> The problem seems to be that the solution is too obvious. The patent
+office likely decided that the solution would be too obvious to give
+out a [patent for it](https://qr.ae/pvWJAr), and thus the narcoleptic
+patients are without orexin-A supplementation unless they go through
+[efforts](https://forum.biohack.me/index.php?p=/discussion/1075/orexin-a-group-purchase)
+to procure it themselves.
+
+*—[ChristianKl](https://www.lesswrong.com/users/christiankl), [“Orexin and the quest for more waking hours”](https://www.lesswrong.com/posts/sksP9Lkv9wqaAhXsA/orexin-and-the-quest-for-more-waking-hours), 2022*
+
+<!--TODO: check up on Orexin agonists!-->
 
 #### Others
 
 Selected from [Harsimony 2023](https://harsimony.wordpress.com/2023/01/20/research-areas-for-reducing-sleep-need/):
 
 * Modafinil
-* Orexin-A
 * Neuropeptide S
 * S-Adenosyl methionine
 * Sodium Oxybate
@@ -148,12 +178,12 @@ as much as other waking time at \$2.5/hr. This gives a [net present
 value](https://en.wikipedia.org/wiki/Net_Present_Value) over the next
 40 years of
 
-`$\sum_{i=0}^{40} \frac{365 \cdot \$5/\text{hr} \cdot 2 \text{hr} \cdot 0.5}{1.05^i}=\$33140$`.
+`$\sum_{i=0}^{40} \frac{365 \cdot \$5/\text{hr} \cdot 2 \text{hr} \cdot 0.5}{1.05^i} \approx \$33140$`.
 
-The quality of the evidence here is very slim, but anecdotes<!--TODO:
-link, maybe MCTB?--> point towards sleep durations decreasing during
-meditation retreats. It would be quite interesting to know the relation
-between time spent meditating and amount of time slept.
+The quality of the evidence here is very slim, but anecdotes point
+towards sleep durations decreasing during meditation retreats. It would
+be quite interesting to know the relation between time spent meditating
+and amount of time slept.
 
 ### Behavioral Interventions
 
@@ -161,6 +191,14 @@ between time spent meditating and amount of time slept.
 * Cognitive Behavioral Therapy
 * Polyphasic Sleep
 * Unihemispheric Sleep
+* Going to Bed Later and Waking Up At The Same Time
+* Going to Bed At The Same Time And Waking Up Earlier
+
+> There are two plausible ways to cut sleep duration without harming
+cognition: increasing the proportion of slow wave sleep that is spent
+in deep sleep and reducing REM sleep.
+
+*—[Angela Pretorius](https://www.lesswrong.com/users/angela-pretorius), [LessWrong comment](https://www.lesswrong.com/posts/sksP9Lkv9wqaAhXsA/orexin-and-the-quest-for-more-waking-hours?commentId=L6HTekbs6hrCdATAv), 2022*
 
 ### Other Interventions
 
@@ -192,12 +230,20 @@ sleep without negative consequences [3137, 3167].][sic]
 * [3137] Ji Hyun Yook, Muneeba Rizwan, Noor ul ain Shahid, Noreen Naguit, Rakesh Jakkoju, Sadia Laeeq, Tiba Reghefaoui, Hafsa Zahoor, and Lubna Mohammed. Some twist of molecular circuitry fast forwards overnight sleep hours: A systematic review of natural short sleepers’ genes. Cureus, 13(10), 2021.
 * [3167] Liubin Zheng and Luoying Zhang. The molecular mechanism of natural short sleep: A path towards understanding why we need to sleep. Brain Science Advances, 2022.
 
+See also [JohnBoyle
+2022](https://forum.effectivealtruism.org/posts/nSwaDrHunt3ohh9Et/cause-area-short-sleeper-genes),
+and a [skeptical
+comment](https://forum.effectivealtruism.org/posts/nSwaDrHunt3ohh9Et/cause-area-short-sleeper-genes?commentId=GCQf5qjG4LyEdEJov)
+on the state of research on these genes.
+
 Making Sleep More Lucid
 ------------------------
 
-### Lucid Dreaming
+### Dreams
 
-#### Behavioral Interventions
+#### Lucid Dreaming
+
+##### Behavioral Interventions
 
 > While self-assessed numbers of awakenings, polyphasic sleep and
 physiologically validated wake-REM sleep tran- sitions were associated
@@ -206,6 +252,6 @@ cally validated numbers of awakenings were.
 
 *–Gott et al., “Sleep fragmentation and lucid dreaming”, 2019*
 
-#### Drugs
+##### Drugs
 
 * Galantamine (h/t [Chapin](https://twitter.com/sashachapin/status/1743332700143174124))

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2024-01-02, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2020-10-07, modified: 2024-01-17, language: english, status: notes, importance: 3, confidence: log*
 
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
@@ -240,60 +240,9 @@ __7/10__
 Melatonin
 ---------
 
-### What I Did and Why I Did It
+Content moved [here](nootropics.html#Melatonin).
 
-After being bullied into it by [Gwern
-2019](https://www.gwern.net/Melatonin "Melatonin") and
-reading more about dosage & administration in [Scott Alexander
-2018](https://slatestarcodex.com/2018/07/10/melatonin-much-more-than-you-wanted-to-know/ "Melatonin: Much More Than You Wanted To Know"),
-I decided to tackle my irregular sleeping rhythm and my late bedtimes
-by taking Melatonin.
-
-Getting enough high-quality sleep had been quite a problem for most of my
-life, I just *could not* find the willpower to actually go to bed early on
-most days. Most other advice relied on exactly bringing up this willpower
-(just read before going to bed/just stay away from screens/just do sports
-in the morning/just spend more time outside/just masturbate (actually
-counter-productive in my case!)); Gwern's framing as an enforcement
-mechanism appealed to me, and the cost-benefit analysis seemed sound.
-
-I first tried buying Melatonin at a pharmacy, only to find out that
-it is prescription only in my country. A friend told me he had bought
-his from Ebay as a food supplement (laws have interesting loopholes),
-I ordered 100 3mg pills for ~30€ and they arrived, together with around
-10g of protein powder.
-
-### What the Effects Were
-
-I experimented around with administration time & dosage, finding out
-that 1/8th (≈0.375g) of a pill, administered at ~20:00, was usually
-sufficient to make me sleepy enough at 23:00 to actually go to bed
-(though the pills are kind of hard to cut well). I also realized that it was
-not necessary to take Melatonin every evening, once a good rhythm had
-been established, a dosage every 2 or 3 days was usually enough to keep
-the habit of going to bed early.
-
-In the last couple of weeks I've felt like 1/8th of a pill is not enough,
-perhaps this is adaption to the substance (though I remember reading
-that adaption is negligible). Alternatively, the placebo effect might
-be wearing off.
-
-<!--TODO: follow up on this-->
-
-While Melatonin has been very useful at enforcing bedtimes, it hasn't
-caused me to sleep less.
-
-### Whether It Was a Good Idea
-
-I am very glad that I've bought & tried Melatonin; it has to a large
-degree fixed a significant problem in my life. I am now happier in
-the morning when I wake up, less tired during the course of the day,
-and don't have to feel guilty at 04:00 because I stayed up too late.
-
-At my current usage, my stash will last me
-`$95 \hbox{ pills }*8\frac{\hbox{dosages}}{\hbox{pill}}*2\frac{\hbox{days}}{\hbox{dosage}}=1520 \hbox{ days}$`:
-more than 4 years! Even if the future effects are just half as good as
-the past effects, this investment was completely worth it.
+Long story short: It's great.
 
 __8/10__
 
