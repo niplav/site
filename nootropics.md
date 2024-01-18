@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2023-09-16, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2023-01-06, modified: 2024-01-17, language: english, status: notes, importance: 3, confidence: log*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
 decided to log my nootropics usage and its effects.__
@@ -51,7 +51,7 @@ cost](https://en.wikipedia.org/wiki/Opportunity_cost), to a fitness
 disadvantage), and so were likely selected against, but most of us
 don't care *that* much about inclusive genetic fitness and more about
 psychological well-being. Evolutionary dynamics favor being like
-[Dschingis Khan](https://en.wikipedia.org/wiki/Dschinghis_Khan)
+[Ghengis Khan](https://en.wikipedia.org/wiki/Ghenghis_Khan)
 ([dozens to hundreds of
 offspring](https://en.wikipedia.org/wiki/Family_and_descendants_of_Genghis_Khan))
 over [Siddharta Gautama](https://en.wikipedia.org/wiki/Siddharta_Gotama)
@@ -615,9 +615,115 @@ it's better when combined with caffeine?
 Melatonin
 ----------
 
-See [my report on my melatonin consumption](./reports.html#Melatonin).
+After being bullied into it by [Gwern
+2019](https://www.gwern.net/Melatonin "Melatonin") and
+reading more about dosage & administration in [Scott Alexander
+2018](https://slatestarcodex.com/2018/07/10/melatonin-much-more-than-you-wanted-to-know/ "Melatonin: Much More Than You Wanted To Know"),
+I decided to tackle my irregular sleeping rhythm and my late bedtimes
+by taking Melatonin.
 
-<!--TODO: describe the weird sometimes-insomnia effects-->
+Getting enough high-quality sleep had been quite a problem for most of my
+life, I just *could not* find the willpower to actually go to bed early on
+most days. Most other advice relied on exactly bringing up this willpower
+(just read before going to bed/just stay away from screens/just do sports
+in the morning/just spend more time outside/just masturbate (actually
+counter-productive in my case!)); Gwern's framing as an enforcement
+mechanism appealed to me, and the cost-benefit analysis seemed sound.
+
+I first tried buying Melatonin at a pharmacy, only to find out that
+it is prescription only in my country. A friend told me he had bought
+his from Ebay as a food supplement (laws have interesting loopholes),
+I ordered 100 3mg pills for ~30€ and they arrived, together with around
+10g of protein powder.
+
+### Effects
+
+I experimented around with administration time & dosage, finding out
+that 1/8th (≈0.375g) of a pill, administered at ~20:00, was usually
+sufficient to make me sleepy enough at 23:00 to actually go to bed
+(though the pills are kind of hard to cut well). I also realized that it was
+not necessary to take Melatonin every evening, once a good rhythm had
+been established, a dosage every 2 or 3 days was usually enough to keep
+the habit of going to bed early.
+
+In the last couple of weeks I've felt like 1/8th of a pill is not enough,
+perhaps this is adaption to the substance (though I remember reading
+that adaption is negligible). Alternatively, the placebo effect might
+be wearing off.
+
+While I haven't experiencde more vivid dreams from Melatonin (which I'd
+consider an [advantage](./increasing.html#Dreams)), sometimes my sleep
+on Melatonin is very light, bordering on dozing, and I also sometimes
+experience sleep paralysis while on melatonin. This is in stark contrast
+with my normal sleep on melatonin, which I'd guess is deeper than my
+normal sleep.
+
+#### Reducing Sleep Duration
+
+One large (potential) advantage of Melatonin would be a reduction in [the
+amount of time slept](https://www.gwern.net/Melatonin#tempus-fugit).
+2½ months after getting a wearable tracker, I decided to analyze
+my data on this. I'll spare you the details of data conversion (and
+will just say that it's kind of annoying that pandas `merge` doesn't
+implement the [antijoin](https://en.wikipedia.org/wiki/Antijoin))
+and cut straight to the chase (of which the code can be found
+[here](./code/melatonin/load.py)):
+
+	>>> melatonin_sleep['minutes_asleep'].mean()
+	395.5652173913044
+	>>> non_melatonin_sleep['minutes_asleep'].mean()
+	387.2142857142857
+	>>> non_melatonin_sleep['minutes_asleep'].var()
+	17452.53506493507
+	>>> melatonin_sleep['minutes_asleep'].var()
+	5158.620553359683
+	>>> len(non_melatonin_sleep)
+	56
+	>>> len(melatonin_sleep)
+	23
+
+It doesn't look like Melatonin has a large effect on sleep durations,
+at least with the current (meagre) sample sizes).
+
+Maybe it helps if we filter out sleep that starts later than 6:00 in
+the morning (which excludes naps)?
+
+	>>> non_nap_melatonin_sleep=melatonin_sleep.loc[(melatonin_sleep['start_time'].dt.hour<6) & (melatonin_sleep['start_time'].dt.hour<18)]
+	>>> non_nap_melatonin_sleep['minutes_asleep'].mean()
+	395.5652173913044
+	>>> non_nap_non_melatonin_sleep=non_melatonin_sleep.loc[(non_melatonin_sleep['start_time'].dt.hour<6) & (non_melatonin_sleep['start_time'].dt.hour<18)]
+	>>> non_nap_non_melatonin_sleep['minutes_asleep'].mean()
+	419.29545454545456
+	>>> len(non_nap_melatonin_sleep)
+	23
+	>>> len(non_nap_non_melatonin_sleep)
+	44
+	>>> lr=likelihood_ratio_test(placebo_likelihood_ratio(non_nap_melatonin_sleep['minutes_asleep'], non_nap_non_melatonin_sleep['minutes_asleep']))
+	6.363562898136653
+	>>> llrt_pval(lr)
+	0.06284859113951252
+
+Here it looks like there is a medium-sized advantage to taking
+melatonin, with ~25 minutes shorter sleep (at the edge of '[statistical
+significance](https://en.wikipedia.org/wiki/Statistically_significant#Limitations)').
+
+While Melatonin has been very useful at enforcing bedtimes, the advantage
+of sleeping less has been moderate, and potentially just caused by noise.
+
+<!--TODO: check bedtime enforcement!-->
+<!--TODO: check whether melatonin consumption just increases sleep debt-->
+
+### Takeaway
+
+I am very glad that I've bought & tried Melatonin; it has to a large
+degree fixed a significant problem in my life. I am now happier in
+the morning when I wake up, less tired during the course of the day,
+and don't have to feel guilty at 04:00 because I stayed up too late.
+
+At my current usage, my stash will last me
+`$95 \hbox{ pills } \cdot 8\frac{\hbox{dosages}}{\hbox{pill}} \cdot 2\frac{\hbox{days}}{\hbox{dosage}}=1520 \hbox{ days}$`:
+more than 4 years! Even if the future effects are just half as good as
+the past effects, this investment was completely worth it.
 
 Nicotine
 ---------
