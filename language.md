@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2023-07-04, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2024-01-23, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of puns, good bandnames, types of guy,
 idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
@@ -376,10 +376,10 @@ Equivalences
 * Need for cognition : charisma :: need for social interaction : intelligence
 * Christianity : Teilhard de Chardin :: Buddhism : Romeo Stevens
 * [log odds : probability :: epistemic status : confidence level](https://www.lesswrong.com/posts/xF7gBJYsy6qenmmCS/don-t-die-with-dignity-instead-play-to-your-outs?commentId=P9EiLDCgxRwJNi6bs)
-* Action : Inaction : Energy : Sluggishness : [Steam](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam) :: Robustness : Fragility : Resilience : Damage : [Hormesis](https://en.wikipedia.org/wiki/Hormesis)
-	* Or even: ((Action : Inaction) :: (Energy : Sluggishness) ::: [Steam](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam)) :::: ((Robustness : Fragility) :: (Resilience : Damage) ::: [Hormesis](https://en.wikipedia.org/wiki/Hormesis))
-
-<!--TODO: add bullwhip effect thing from twitter-->
+* Action : Inaction : Energy : Sluggishness : [Steam](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam) :: Noninteraction : Damage : Robustness : Fragility : [Hormesis](https://en.wikipedia.org/wiki/Hormesis)
+	* Or even: ((Action : Inaction) :: (Energy : Sluggishness) ::: [Steam](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam)) :::: ((Noninteraction : Damage) :: (Robustness : Fragility) ::: [Hormesis](https://en.wikipedia.org/wiki/Hormesis))
+* Evolution : lifetime learning : humans : human values :: neural architecture search : SGD : ML systems : ML system goals
+* Bullwhip effect : markets :: exploding gradients : neural network training :: epilepsy : brains :: cytokine storm : immune systems :: hypereutrophy : ecosystems<!--TODO: add link to own & Gavin's tweet-->
 
 2×2s, 2×3s and more
 --------------------

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-26, modified: 2020-07-22, language: english, status: in progress, importance: 3, confidence: unlikely*
+*author: niplav, created: 2019-09-26, modified: 2020-07-22, language: english, status: maintenance, importance: 3, confidence: unlikely*
 
 > __People seem to derive happiness from compliments. Therefore,
 > altruistic consequentialists may be sometimes motivated to compliment

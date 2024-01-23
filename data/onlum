@@ -1,0 +1,7 @@
+#!/usr/bin/env rc
+
+lightfile='/home/niplav/proj/site/data/light.csv'
+
+datetime=`{date --iso-8601'=seconds'}
+
+echo -n $datetime',26000,' >>$lightfile

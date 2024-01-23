@@ -264,6 +264,8 @@ because Fitbit is one of the few (the only?) companies whose products
 allow for data exporting, mostly to track my sleep, but maybe I'll also
 get mileage out of the heart rate, step, glucose and temperature tracking.
 
+Sleep data [here](./data/sleep.json).
+
 Others
 -------
 

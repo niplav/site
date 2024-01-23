@@ -8,6 +8,8 @@ crisis”](https://memex.marginalia.nu/log/19-website-discoverability-crisis.gmi
 While I haven't been affected by this particular problem (on the
 contrary!), I want people to know some high-quality websites.__
 
+<!--TODO: reintegrate from favorites, rethink-->
+
 Recommendation-Worthy Websites
 ===============================
 

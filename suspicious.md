@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-12-04, modified: 2023-12-04, language: english, status: draft, importance: 7, confidence: certain*
+*author: niplav, created: 2023-12-04, modified: 2023-12-04, language: english, status: notes, importance: 7, confidence: certain*
 
 > __.__
 

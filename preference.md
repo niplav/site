@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-12-04, modified: 2023-12-04, language: english, status: in progress, importance: 3, confidence: certain*
+*author: niplav, created: 2023-12-04, modified: 2023-12-04, language: english, status: maintenance, importance: 3, confidence: certain*
 
 > __I remain unconvinced by preference utilitarianism. Here's why.__
 

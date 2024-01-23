@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-07, modified: 2023-04-07, language: english, status: in progress, importance: 5, confidence: likely*
+*author: niplav, created: 2023-04-07, modified: 2023-04-07, language: english, status: notes, importance: 5, confidence: likely*
 
 > __A bibliography of various methods for meditation enhancements through brain stimulation and feedback, focusing on intracranial ultrasound stimulation.__
 
