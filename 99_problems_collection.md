@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-09, modified: 2020-02-09, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-02-09, modified: 2020-02-09, language: english, status: notes, importance: 2, confidence: log*
 
 > __The list of 99 problems, originally for Prolog, has been translated
 > for a few other languages. This page collects links to them.__

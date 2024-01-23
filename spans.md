@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-17, modified: 2023-08-01, language: english, status: notes, importance: 7, confidence: possible*
+*author: niplav, created: 2023-01-17, modified: 2023-08-01, language: english, status: maintenance, importance: 7, confidence: possible*
 
 > __I investigate whether the attention span of individual humans has
 been falling over the last two decades (prompted by curiosity about

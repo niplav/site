@@ -29,21 +29,6 @@ and [Ricón 2021](https://nintil.com/longevity).
 | Taking melatonin → Reduces sleep need | \$7.5k | Data collected from two individuals (n=2) | [Gwern 2019](https://www.gwern.net/Melatonin#tempus-fugit), [Niplav 2024](./nootropics.html#Reducing_Sleep_Duration) | Low risk |
 
 
-Slowing Down Subjective Experience of Time
--------------------------------------------
-
-### Behavioral Interventions
-
-### Drugs
-
-* [The Pseudo-Time Arrow: Explaining Phenomenal Time With Implicit Causal Structures In Networks Of Local Binding (Andrés Gomez Emilsson, 2018)](https://qualiacomputing.com/2018/11/28/the-pseudo-time-arrow-explaining-phenomenal-time-with-implicit-causal-structures-in-networks-of-local-binding/): Inducing exotic states of time experience.
-
-### Meditation
-
-### Other
-
-* Being scared: <http://www.livescience.com/2117-time-slow-emergencies.html>
-
 Reducing Time Slept
 --------------------
 
@@ -69,6 +54,8 @@ but being 5% more dizzy during those 17 waking hours.
 ### Drugs
 
 #### Melatonin
+
+<!--TODO: incorporate info from two meta-analyses linked in twitter replies-->
 
 ##### Gwern 2019
 
@@ -147,7 +134,12 @@ stage of the A&P, suddenly peak in dissolution, drop a bit again in Fear
 as our energy returns, and increase during the Dark Night, mostly due
 to how mentally fatiguing that stage can be.
 
+> ![](./img/increasing/ingram_sleep_chart.png)
+
 *—Daniel Ingram, “Mastering the Core Teachings of the Buddha”, p. 379*
+
+Note: as far as I know, this chart is not based on any data collected,
+but on the personal experience of Ingram and his acquaintances.
 
 > The interesting thing is that all four of these people within a year
 or so of having started this practice claimed to have done it, and by
@@ -235,6 +227,21 @@ See also [JohnBoyle
 and a [skeptical
 comment](https://forum.effectivealtruism.org/posts/nSwaDrHunt3ohh9Et/cause-area-short-sleeper-genes?commentId=GCQf5qjG4LyEdEJov)
 on the state of research on these genes.
+
+Slowing Down Subjective Experience of Time
+-------------------------------------------
+
+### Behavioral Interventions
+
+### Drugs
+
+* [The Pseudo-Time Arrow: Explaining Phenomenal Time With Implicit Causal Structures In Networks Of Local Binding (Andrés Gomez Emilsson, 2018)](https://qualiacomputing.com/2018/11/28/the-pseudo-time-arrow-explaining-phenomenal-time-with-implicit-causal-structures-in-networks-of-local-binding/): Inducing exotic states of time experience.
+
+### Meditation
+
+### Other
+
+* Being scared: <http://www.livescience.com/2117-time-slow-emergencies.html>
 
 Making Sleep More Lucid
 ------------------------

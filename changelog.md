@@ -29,6 +29,7 @@ January 2024
 	* [Meditative Sayings](./microfiction.html#Meditative)
 * [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
 	* [Table of Current Market Status](./platforms.html#Table_of_Current_Market_Status). Currently nicotine→meditation & lumenator→happiness seem the most promising. Going to select the markets end of January.
+* Quantifying the [Reduction Melatonin has on my Sleep Duration](./nootropics.html#Reducing_Sleep_Duration)
 
 December 2023
 --------------

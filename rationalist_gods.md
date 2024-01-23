@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2022-03-28, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2022-03-28, language: english, status: notes, importance: 2, confidence: log*
 
 > __[Rationalists](https://en.wikipedia.org/wiki/LessWrong) and the
 > [neoreactionary movement](https://en.wikipedia.org/wiki/Dark_Enlightenment)

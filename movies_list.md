@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2023-12-23, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-01-19, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,6 +11,8 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Jurassic World: Dominion](https://en.wikipedia.org/wiki/Jurassic_World_Dominion)
+* [The Batman](https://en.wikipedia.org/wiki/The_Batman_\(2021_movie\))
 * [Guillermo del Toro's Pinocchio](https://www.imdb.com/title/tt1488589/)
 * [Incendies](https://en.wikipedia.org/wiki/Incendies_\(film\))
 * [The Dead Don't Die](https://en.wikipedia.org/wiki/The_Dead_Don't_Die_\(2019_film\))

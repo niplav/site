@@ -675,6 +675,13 @@ Discussions
 
 * [LessWrong](https://www.lesswrong.com/posts/4TbTktGNu2vtGRbfM/if-i-was-an-eccentric-trillionaire)
 
+Appendix A: Markets from a Personal Futarchy Experiment by Tetraspace
+-----------------------------------------------------------------------
+
+* "If […] win the next UK general election, what will the England & Wales prison population rate per 100,000 people be 5 years later?": [Conservatives](https://www.metaculus.com/questions/4645/if-conservatives-win-the-next-uk-general-election-what-will-the-england--wales-prison-population-rate-per-100000-people-be-5-years-later/), [Labour](https://www.metaculus.com/questions/4644/if-labour-wins-the-next-uk-general-election-what-will-the-england--wales-prison-population-rate-per-100000-people-be-5-years-later/)
+* "If […] win the 2019 UK general election, what will be mean UK broadband download speeds 5 years later?": [Conservatives](https://www.metaculus.com/questions/3341/if-conservatives-win-the-2019-uk-general-election-what-will-be-mean-uk-broadband-download-speeds-5-years-later/), [Labour](https://www.metaculus.com/questions/3340/if-labour-wins-the-2019-uk-general-election-what-will-be-mean-uk-broadband-download-speeds-5-years-later/)
+* "If […] is (re)elected president, what will be the yearly CO2 emissions per capita in the US in 2024?": [Donald Trump](https://www.metaculus.com/questions/4101/if-donald-trump-is-reelected-president-what-will-be-the-yearly-co2-emissions-per-capita-in-the-us-in-2024/), [Bernie Sanders](https://www.metaculus.com/questions/3805/if-bernie-sanders-becomes-president-what-will-be-the-yearly-co2-emissions-per-capita-in-the-us-in-2024/), [Joe Biden](https://www.metaculus.com/questions/3806/2024-co2-emissions-if-biden-presidency/)
+
 [^1]: It's not clear that Nauru is the best choice here. While it probably is the smallest nation state that can conceivably be bought (I don't think there is any realistic (or unrealistic) amount of money for which Vatican City could be acquired), it is not very fertile, and has only limited freshwater reserves, relying mostly on rainwater. The highest point is only 71 metres above sea level, which means that a large part of the island might be at risk of going under water with rising sea levels.
 [^2]: [Rest in peace](https://old.reddit.com/r/SCP/comments/1434kh7/the_whole_scp_confinement_situation_is_both/).
 [^3]: Maybe I'm lacking in imagination, but this implies both that polynesians can survive for weeks on the open ocean, can reliably find their way back home if need be, and are adventurous enough to just sail out to the open ocean in the hopes of finding new islands. This seems extremely wild to me.
