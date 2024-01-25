@@ -519,7 +519,7 @@ Mathwords
 * Adjacency tensor
 * The nondual of an optimization problem
 * The `$\mathbf{0}$`-vector can also be called `$\hat{r}$`
-* The no cap theorem, the fr fr lemma
+* The no [cap theorem](https://en.wikipedia.org/wiki/CAP_Theorem), the fr fr lemma
 
 Possible Image Generation Prompts
 ----------------------------------
@@ -531,9 +531,10 @@ Possible Image Generation Prompts
 Other
 ------
 
-*	Browers fix-point theorem as inane self-help wisdom: "Even if
-	you continuously transform yourself, a small part of you will
-	still stay the same."
+*	[Brouwers fix-point
+	theorem](https://en.wikipedia.org/wiki/Brouwer's_fixed-point_theorem)
+	as inane self-help wisdom: "Even if you continuously transform
+	yourself, a small part of you will still stay the same."
 * MTF π-12 “tensor grease”
 
 Funny Internet Images

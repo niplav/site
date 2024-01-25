@@ -190,6 +190,8 @@ How Can We Become Better At Forecasting?
 
 ### Forecasting Techniques
 
+#### Question Decomposition
+
 If we say "`$X$` will happen if and only if `$Y_1$` and `$Y_2$` and
 `$Y_3$`... *all* happen, so we estimate `$P(Y_1)$` and `$P(Y_2|Y_1)$`
 and `$P(Y_3|Y_1, Y_2)$` &c, and then multiply them together to estimate
@@ -198,7 +200,7 @@ probability that is close to `$P(X)$`?  Does this *improve* forecasts where
 one tries to estimate `$P(X)$` directly?
 
 This type of question decomposition (which one could
-call *multiplicative decomposition*) appears to be a
+call __multiplicative decomposition__) appears to be a
 relatively common method for forecasting, see [Allyn-Feuer & Sanders
 2023](https://forum.effectivealtruism.org/posts/ARkbWch5RMsj6xP5p/transformative-agi-by-2043-is-less-than-1-likely),
 [Silver
@@ -289,7 +291,7 @@ more recent literature on the question.
 
 * Would decomposition work better if one were operating with log-odds instead of probabilities?
 
-#### Improvements
+##### Classification and Improvements
 
 The description of such decomposition in [this
 section](#Forecasting_Techniques) is, of course, lacking: A
@@ -301,12 +303,26 @@ exhaustive](https://en.wikipedia.org/wiki/Collectively_exhaustive), find
 a chain that precedes them (or another MECE decomposition), and iterate
 until a whole (possibly interweaving) tree of options has been found.
 
-I'll call the technique of solely multiplying conditional probabilities
-__multiplicative decomposition__, and allowing for finding mutually
-exclusive and colletively exhaustive preconditions (together wilth
-multiplication) __MECE decomposition__.
+Thus one can define three types of question decomposition:
 
-#### Using LLMs
+1. __Multiplicative Decomposition__: Given an event `$X$`, find conditions `$Y_1, \dots Y_n$` so that `$X$` if any only if all of `$Y_1, \dots, Y_n$` happen. Estimate `$P(Y_1)$` and `$P(Y_2|Y_1)$` and `$P(Y_3|Y_1, Y_2)$` &c, and then multiply them together to estimate `$P(X)=P(Y_1)·P(Y_2|Y_1)·P(Y_3|Y_2,Y_1·) \dots P(Y_n | Y_{n-1}, \dots, Y_2, Y_1)$`.
+2. __Additive Decomposition__ or __[ME](https://en.wikipedia.org/wiki/Mutually-exclusive)[CE](https://en.wikipedia.org/wiki/Collectively_Exhaustive_Events) Decomposition__: Given an event `$X$`, find a set of scenarios `$Y_1, \dots Y_n$` such that `$X$` happens if any `$Y$` happens, and only then, and no two `$Y_k, Y_l$` have `$P(Y_k \cap Y_l)>0$`. Estimate `$P(Y_1), P(Y_2), \dots P(Y_n)$` and then estimate `$P(X)=\sum_{i=1}^n P(Y_i)$`.
+3. __Recursive Decomposition__: For each scenario `$X'$`, decide to pursue one of the following strategies:
+	1. Estimate `$P(X')$` directly
+	2. Multiplicative decomposition of `$P(X')$`
+		1. Find a multiplicative decomposition `$Y_1', \dots Y_n'$` for `$X'$`
+		2. Estimate `$P(Y_1'), \dots P(Y_n' | Y_1', \dots Y_{n-1}')$` each via recursive decomposition
+		3. Determine `$P(X')=P(Y_1')·P(Y_2'|Y_1')·P(Y_3'|Y_2', Y_1') \dots P(Y_n' | Y_{n-1}', \dots, Y_2', Y_1')$`.
+	3. Additive decomposition of `$P(X')$`
+		1. Find a multiplicative decomposition `$Y_1', \dots Y_n'$` for `$X'$`
+		2. Estimate `$P(Y_1'), \dots P(Y_n')$` each via recursive decomposition
+		3. Determine `$P(X')=P(Y_1')+P(Y_2')+ \dots P(Y_n')$`.
+
+A keen reader will notice that recursive decomposition is similar to
+[Bayes nets](https://en.wikipedia.org/wiki/Bayesian_Network). True, though
+it doesn't deal as well with conditional probabilities.
+
+##### Using LLMs
 
 This is a scenario where large language models are quite useful, and
 we have a testable hypothesis: Does question decomposition (or MECE
@@ -366,7 +382,7 @@ Multiplicative decomposition:
 	Multiplying out the probabilities: 0.75*0.99*0.7*0.9=0.467775
 	46.7775%
 
-### Discussions
+#### Discussions
 
 * [LessWrong](https://www.lesswrong.com/posts/YjZ8sJmkGJQhNcjHj/the-evidence-for-question-decomposition-is-weak)
 * [Effective Altruism Forum](https://forum.effectivealtruism.org/posts/beRtXkMpCT39y8bPj/there-is-little-evidence-on-question-decomposition)

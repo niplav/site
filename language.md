@@ -393,6 +393,7 @@ Equivalences
 * {adequate, inadequate}×{exploitable, unexploitable}×{efficient, inefficient}
 * {be, take, give}×{a, the, ""} shit
 * Thinking the {right, wrong} things × thinking in the {right, wrong} way × saying the {right, wrong} things × performing the {right, wrong} actions
+* {continuous, discountinuous} {inductive, deductive} assumptions
 
 Great Words
 ------------

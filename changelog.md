@@ -31,6 +31,16 @@ January 2024
 	* [Table of Current Market Status](./platforms.html#Table_of_Current_Market_Status). Currently nicotine→meditation & lumenator→happiness seem the most promising. Going to select the markets end of January.
 * Quantifying the [Reduction Melatonin has on my Sleep Duration](./nootropics.html#Reducing_Sleep_Duration)
 
+### Links
+
+* [Paternal policies fight cognitive bias, slash information costs, and privilege responsible subselves (Bruce Britton, 2007)](https://www.overcomingbias.com/p/paternal_policihtml): Some discussion about paternalism, prompted me to write my own [note](./notes.html#Paternalism_May_Be_About_Mechanism_Design).
+* [Colon-Equals (Zack M. Davis, 2012)](https://zackmdavis.net/blog/2012/10/colon-equals/index.html): A tragedy of inconsistent notation in mathematics and computer programming: Sometimes '=' means we assign (even in mathematics, e.g. in a summation!), sometimes it is a statement of truth (these two expressions are equal). We should just use ':=' and '=', in both programming and math.
+* [Decoding the Secrets of Superconductivity (Natalie Wolchover, 2014)](https://www.quantamagazine.org/breakthrough-in-study-of-high-temperature-superconductivity-20140430/): After the LK-99 affair, a view into superconductivity research from 10 years ago.
+* [Predicting Growth in the Battery Industry (Sarah Constantin, 2022)](https://sarahconstantin.substack.com/p/predicting-growth-in-the-battery)
+* [Slowing Time (Ethan, 2023)](https://210ethan.github.io/research/slow.html)
+* [Orexin and the quest for more waking hours (ChistianKl, 2022)](https://www.lesswrong.com/posts/sksP9Lkv9wqaAhXsA/orexin-and-the-quest-for-more-waking-hours)
+* Tower of Babylon (Ted Chiang, 1990)
+
 December 2023
 --------------
 

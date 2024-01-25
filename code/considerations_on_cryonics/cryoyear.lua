@@ -167,9 +167,27 @@ function avg_pres_quality(age)
 	return weighteddeaths/alldeaths
 end
 
+--TODO: finish this
+-- Probability of human extinction by a given year
+
+function extinction_risk(year)
+    -- Example: Simple linear increase in risk over time
+    local base_year = curyear -- Base year for the calculation
+    local max_risk = 0.1    -- Maximum risk of extinction by 2100
+    local risk_increase_per_year = max_risk / (2100 - base_year)
+    local risk = (year - base_year) * risk_increase_per_year
+    return math.min(risk, max_risk)  -- Cap the risk at max_risk
+end
+
+-- Adjusted benefit function
+
 --I only get the benefit if
 --1. I haven't died before signing up
 --2. I die before LEV
+function benefit(age)
+    local ext_risk = extinction_risk(curyear + (age - curage))
+    return prob_pres * prob_succ * years_gain * val_year * prob_liveto(age) * prob_diebeforelev(age) * avg_pres_quality(age) * (1 - ext_risk)
+end
 
 function benefit(age)
 	return prob_pres*prob_succ*years_gain*val_year*prob_liveto(age)*prob_diebeforelev(age)*avg_pres_quality(age)
