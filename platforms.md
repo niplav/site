@@ -200,7 +200,15 @@ could be incredibly cool, but we don't live in that world (yet).
 Results
 --------
 
-To be done.
+On 2024-01-25, I decided to select the experiment. `seq
+1 14 | shuf | tail -1` output `12`, which corresponds
+to the experiment [Pomodoro Method vs. Nothing →
+*Productivity*](https://manifold.markets/NiplavYushtun/by-how-much-does-the-pomodoro-metho).
+
+The market with the highest expected
+effect size is [Bright Light vs. Normal Light →
+*Happiness*](https://manifold.markets/NiplavYushtun/by-how-much-does-very-bright-light),
+so those are the two experiments I am going to run.
 
 Acknowledgements
 -----------------

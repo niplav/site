@@ -177,11 +177,20 @@ towards sleep durations decreasing during meditation retreats. It would
 be quite interesting to know the relation between time spent meditating
 and amount of time slept.
 
+#### Anecdotes
+
+On a 1-month meditation retreat I did I noticed a stark reduction in my
+sleep time, at ~10 hours of meditation a day I probably slept 5-6 hours
+a night (I usually sleep ~8 hours if uninterrupted).
+
+I friend of mine with a long-term chronic illness, also a long-term
+meditator, tells me he sleep ~6-7 hours per night, at around 2 hours of
+meditation a day.
+
 ### Behavioral Interventions
 
 * Sleep Hygiene
 * Cognitive Behavioral Therapy
-* Polyphasic Sleep
 * Unihemispheric Sleep
 * Going to Bed Later and Waking Up At The Same Time
 * Going to Bed At The Same Time And Waking Up Earlier
@@ -191,6 +200,91 @@ cognition: increasing the proportion of slow wave sleep that is spent
 in deep sleep and reducing REM sleep.
 
 *—[Angela Pretorius](https://www.lesswrong.com/users/angela-pretorius), [LessWrong comment](https://www.lesswrong.com/posts/sksP9Lkv9wqaAhXsA/orexin-and-the-quest-for-more-waking-hours?commentId=L6HTekbs6hrCdATAv), 2022*
+
+#### Polyphasic Sleep
+
+> most popular polyphasic sleep schedules (as described below)[…]
+will result in less sleep obtained because of the influence of circadian
+rhythmicity on sleep, and may disproportionately deprive individuals of
+REM sleep.
+>
+> […]
+>
+> Proponents claim that for the most optimal (“Uberman”), polyphasic
+sleep schedule, adherants should strive to achieve six 20-minute sleep
+episodes spaced evenly across the 24-hour day for a total targeted sleep
+duration of 2 hours per 24 hours.⁵ Those who are unable to attain this
+goal are urged to adopt the Everyman polyphasic sleep schedule, which
+incorporates a 3-hour nighttime core sleep with three 20-minute daytime
+sleep episodes, designed to achieve a total targeted sleep duration of
+4 hours per 24 hours. Another example is the Triphasic sleep schedule:
+sleep episodes after dusk, before dawn, and in the afternoon for a total
+of 4-5 h per 24 hours.
+
+*—Weaver et al., [“Adverse impact of polyphasic sleep patterns in humans: Report of the National Sleep Foundation sleep timing and variability consensus panel”](./doc/sleep/adverse_impact_of_polyphasic_sleep_patterns_in_humans_weaver_et_al_2021.pdf) p. 2, 2021*
+
+Compared to a sleep time of 8 hours, the Uberman schedule saves 6 hours
+per night, the Everyman schedule saves 4 hours, and the triphasic sleep
+schedule save 3-4 hours.
+
+However, taking these numbers at face value is obviously foolish. [Weaver
+et al. 2021](./doc/sleep/adverse_impact_of_polyphasic_sleep_patterns_in_humans_weaver_et_al_2021.pdf) report multiple disadvantages from the scant studies on
+polyphasic sleep: worsened memory, decreased mood and discomfort,
+heightened irritability, worsened psychomotor performance &c.
+
+Additionally, although polyphasic sleep advocates
+claim that it increases life expectancy<!--TODO:
+cite this claim!-->, no studies investigated in [Weaver et al.
+2021](./doc/sleep/adverse_impact_of_polyphasic_sleep_patterns_in_humans_weaver_et_al_2021.pdf)
+can support this claim. And while there is
+[some](https://www.lesswrong.com/posts/sbcmACvB6DqYXYidL/counter-theses-on-sleep)
+[discussion](https://guzey.com/theses-on-sleep/) on the question
+whether sleep deprivation decreases life expectancy, [Weaver et al.
+2021](./doc/sleep/adverse_impact_of_polyphasic_sleep_patterns_in_humans_weaver_et_al_2021.pdf)
+also state that the amount of sleep reduction entailed by polyphasic
+sleep creates *some* reduction in life expectancy (although they are not
+clear on how much).<!--TODO: this is relevant to cite & calculate! Maybe
+in the other behavioral interventions section though?-->
+
+|                                          | Recommended sleep | Triphasic schedule | Everyman schedule | Uberman schedule |
+| ---------------------------------------- | ----------------- | ------------------ | ----------------- | ---------------- |
+| Hours saved per night                    | 0                 | 3.5                | 4                 | 6                |
+| Hours saved per year                     | 0                 | 1.27k              | 1.46k             | 2.19k            |
+| Net-present value over 40 years          | \$0               | \$21.79k           | \$25.05k          | \$37.58k         |
+| Equivalent in increased lifespan         | 0%                | 21.9%              | 25%               | 37.5%            |
+| Equivalent lifespan increase (waking)    | 0y (0y)           | 5.8y (8.7y)        | 6.6y (10y)        | 10y (15y)        |
+| Quality-break-even at                    | 0%                | -18%               | -20%              | -27.3%           |
+
+While we don't have data on life expectancy, we can make statements
+about the amount of life expectancy that would need to be *lost* to
+render polyphasic sleep equivalent in value to normal sleep.
+
+Take for example the triphasic schedule. It results in being awake 19.5
+hours a day, instead of only 16, which is ~21.9% longer. Assuming the
+reader is currently 30 years old and will keep this polyphasic schedule
+to the age of 70, this is then equivalent to 50.8k hours, or
+`$(1270 \cdot 40)/(365 \cdot 24)=5.8$` additional years of life (or 8.7
+years of life if we only count the waking hours).
+
+Another perspective is the break-even point in terms of quality of the
+waking hours: How much *worse* do my waking hours need to be due to the
+polyphasic sleep schedule in order to not pursue polyphasic sleep?  Taking
+the triphasic schedule again, this number would be `$1-(16/19.5)≈0.18$`:
+If an hour on a triphasic schedule were, say, 20% less valuable, a day
+of 19.5 waking hours would have a value equivalent to
+`$19.5h \cdot (1-0.2)≈15.6h$` fully rested waking hours.
+
+My intuition, from sleep deprived days, is that the quality-decrease for
+sleep deprived hours is far higher than a 25% reduction, which rules
+out polyphasic sleep. However, I haven't attempted to live on such a
+schedule for a prolonged time, so I might be mistaken.
+
+<!--
+##### Does Polyphasic Sleep Have Any Advantage over sleeping Less?
+
+Hartly 1974 suggests yes: 4h continuous sleep is generally worse than 3× 80 minutes sleep, but both worse than 8h continuous
+Bonnet & Arand 1995 suggest the effects are similar, 4h continuous vs. 4×1h
+-->
 
 ### Other Interventions
 
@@ -253,9 +347,9 @@ Making Sleep More Lucid
 ##### Behavioral Interventions
 
 > While self-assessed numbers of awakenings, polyphasic sleep and
-physiologically validated wake-REM sleep tran- sitions were associated
-with lucid dreaming, neither self-assessed sleep quality, nor physiologi-
-cally validated numbers of awakenings were.
+physiologically validated wake-REM sleep transitions were associated with
+lucid dreaming, neither self-assessed sleep quality, nor physiologically
+validated numbers of awakenings were.
 
 *–Gott et al., “Sleep fragmentation and lucid dreaming”, 2019*
 
