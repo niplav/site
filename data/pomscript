@@ -1,0 +1,18 @@
+#!/usr/bin/env rc
+
+pomfile='/home/niplav/proj/site/data/pomodoros.csv'
+
+fn readval {
+        dmenu -l 10 -fn 'monospace:size=10' -nb '#ffffff' -nf '#000000' -sb '#ffb405'
+}
+
+datetime=`{date --iso-8601'=seconds'}
+
+if (test `{tail -1 $pomfile | wc -l} -gt 0) {
+	printf '%s,' $datetime >>$pomfile
+}; if not {
+	activity=`{echo 'activity' | readval}
+	productivity=`{echo 'productivity' | readval}
+
+	printf '%s,%s,%s\n' $"activity $productivity $datetime >>$pomfile
+}

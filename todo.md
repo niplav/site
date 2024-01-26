@@ -1817,18 +1817,13 @@ Wikipedia Articles
 
 ### Create
 
-* Experience Replay (see Deep Q-Network (“DQN”; Mnih et al. 2015))
 * Choice set, choice function, contraction/expansion consistency (all in the context of social choice theory, see Gaertner 2009 p. 7-9)
 * Credibility formula (see <https://en.wikipedia.org/wiki/Imdb#Rankings>)
-* Nanosystems: Molecular Machinery Manufacturing and Computation
-* Devonian Toolkit
-	* <https://www.annualreviews.org/doi/full/10.1146/annurev-ento-011613-162041>
 
 ### Improve
 
 * Patri Friedman site states he considers himself a rationalist, but that links to the page on philosophical rationalism, while I suspect this refers to the LW variety
-* Wikipedia pages on symbols in mathematics and physics are sprawling and confused, clean them up
-* Use the definition from “Algorithmic Game Theory” of correlated equilibrium in the article Correlated equilibrium, the current explanation uses (but doesn't introduce) s_i
+* Use the definition from “Algorithmic Game Theory” of correlated equilibrium in the article Correlated equilibrium, the current explanation uses (but doesn't introduce) `$s_i$`
 	* Yeah, the current explanation is barely comprehensible
 * Bitte bitte
 	* Watch the video and provide a better summary
@@ -1842,7 +1837,6 @@ Wikipedia Articles
 * Eric Drexler
 	* Something like "Since TODO, Drexler has been working at the [[Future of Humanity Institute]] as a TODO, researching risks from advanced artificial intelligence."
 	* Huh, this was apparently removed?
-* List of important publications in mathematics is very much too opinionated. Reviews like this don't quite belong on Wikipedia, so improve
 * Price of stability/price of anarchy:
 	* Collect bounds
 * Improve Mathematical Alphanumeric Symbols: Add explanation of how to write them in `$\LaTeX$`

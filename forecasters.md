@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-04-04, modified: 2024-01-06, language: english, status: notes, importance: 6, confidence: highly likely*
+*author: niplav, created: 2022-04-04, modified: 2024-01-26, language: english, status: notes, importance: 6, confidence: highly likely*
 
 > __Beginnings of a research agenda about [judgmental
 forecasting](https://en.wikipedia.org/wiki/Forecasting#Judgmental_methods).__
