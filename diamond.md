@@ -1,12 +1,13 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-11-20, modified: 2023-12-21, language: english, status: notes, importance: 4, confidence: highly likely*
+*author: niplav, created: 2020-11-20, modified: 2024-01-26, language: english, status: notes, importance: 4, confidence: highly likely*
 
-> __The Diamond-Square algorithm is a terrain-generation algorithm for
-two dimensions (producing a three-dimensional terrain). I generalize
-the algorithm to any positive number of dimensions, and analyze the
-resulting algorithm.__
+> __The [Diamond-Square
+algorithm](https://en.wikipedia.org/wiki/Diamond-square_algorithm)
+is a terrain-generation algorithm for two dimensions (producing a
+three-dimensional terrain). I generalize the algorithm to any positive
+number of dimensions, and analyze the resulting algorithm.__
 
 Generalizing the Diamond-Square Algorithm to n Dimensions
 =========================================================
@@ -19,6 +20,21 @@ mapa de Aquel que es todas Sus estrellas.
 
 Introduction
 -------------
+
+I learned of the diamond-square algorithm by reading through the archives
+of [Chris Wellon's blog](https://nullprogram.com/), specifically his post
+on [noise fractals](https://nullprogram.com/blog/2007/11/20) and terrain
+generation. The algorithm is a fairly simple and old one (dating back
+to the 80s), but not being interested in graphics or game programming,
+I shelved it as a curiosity.
+
+However, a while later I needed a way to generate high-dimensional
+landscapes for [a simulation](./toy_ai_takeoff_model.html), and
+remembered the algorithm, I felt like I could contribute something here
+by generalizing the algorithm to produce landscapes in an arbitrary number
+of dimensions, and that this would be a fun challenge to sharpen my (then
+fairly weak) Python and [numpy](https://en.wikipedia.org/wiki/NumPy)
+skills.
 
 Description
 ------------

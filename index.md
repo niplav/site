@@ -81,6 +81,19 @@ of whom can ever feel secure in the love of a cold and distant parent?
 <!--
 ##### Pick-Up
 
+> The American girl is well acquainted with her body’s seductive
+capacity. She knows it lies in the face, and in expressive eyes,
+and thirsty lips. She knows seductiveness lies in the round breasts,
+the full buttocks, and in the shapely thighs, sleek legs and she shows
+all this and does not hide it. She knows it lies in clothes: in bright
+colors that awaken primal sensations, and in designs that reveal the
+temptations of the body— and in American girls these are sometimes live,
+screaming temptations! Then she adds to all this the fetching laugh,
+the naked looks, and the bold moves, and she does not ignore this for
+one moment or forget it!
+
+*—[Sayyid Qutb ash-Shaheed](https://en.wikipedia.org/wiki/Sayyid_Qutb), [“The America I Have Seen”](https://en.wikipedia.org/wiki/The_America_I_Have_Seen) p. 16, 1951*
+
 * [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
 * [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)
 * [Notes on Pickup](./notes_on_pickup.html)
@@ -135,6 +148,10 @@ of whom can ever feel secure in the love of a cold and distant parent?
 
 #### Textbooks
 
+> Shut up! Shut up and leave me alone with my books!
+
+*—Zack M. Davis, [“A Philosophy of Education”](http://zackmdavis.net/blog/2012/12/a-philosophy-of-education/), 2012*
+
 * [Solutions to “Artificial Intelligence: A Modern Approach”](./aima_solutions.html)
 * [Solutions to “Naïve Set Theory”](./nst_solutions.html)
 * [Solutions to “Programming in Lua”](./pil_solutions.html)
@@ -144,6 +161,7 @@ of whom can ever feel secure in the love of a cold and distant parent?
 * [Solutions to “Maths for Intelligent Systems”](./mfis_solutions.html)
 * [Solutions to “A Primer in Social Choice Theory”](./apisct_solutions.html)
 * [Solutions to “Pattern Recognition and Machine Learning”](./praml_solutions.html)
+* [Solutions to “An Infinitely Large Napkin”](./napkin_solutions.html)
 * [Solutions to “Algorithmic Game Theory”](./agt_solutions.html)
 * [Exercises from “The Jazz Piano Book”](./tjpb_exercises.html)
 * [Administrativa for Textbooks](./administrativa_for_textbooks.html)
