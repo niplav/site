@@ -23,13 +23,14 @@ Monthly updates are sent out [via substack](https://niplav.substack.com/).
 January 2024
 -------------
 
+* After incorporating existential risk more carefully into my [cryonics cost-benefit analysis](./considerations_on_cryonics.html), the expected value is now only \$850k for a 20 year old, and cryocrastination (until age 55) is rational under complete self-trust.
 * [Question Decomposition in Forecasting](./forecasters.html#Forecasting_Techniques): [Improvement of MECE Decomposition](./forecasters.html#Improvements) and an idea to [use LLMs](./forecasters.html#Using_LLMs) to test whether decomposition works.
 * Preliminary notes on [Increasing Subjective Lifespan](./increasing.html), at the moment mapping the territory and reading abstracts.
 * [Microfiction](./microfiction.html)
 	* [Meditative Sayings](./microfiction.html#Meditative)
 * [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
 	* [Table of Current Market Status](./platforms.html#Table_of_Current_Market_Status). Currently nicotine→meditation & lumenator→happiness seem the most promising. Going to select the markets end of January.
-* Quantifying the [Reduction Melatonin has on my Sleep Duration](./nootropics.html#Reducing_Sleep_Duration)
+* Quantifying the [Reduction Melatonin has on my Sleep Duration](./nootropics.html#Reducing_Sleep_Duration). It shaves off ~25 minutes.
 
 ### Links
 
