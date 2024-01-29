@@ -54,14 +54,7 @@ but not running any experiments at the moment.
 Meditation
 -----------
 
-* Morning: 15 minutes ānāpānasati, 30 minutes of Mahasi-style noting
-* Evening: 60 minutes ānāpānasati
-
-I also want to do more
-[integration](https://neuroticgradientdescent.blogspot.com/2021/03/threefold-training.html),
-and am planning to read up on [core
-Transformation](https://neuroticgradientdescent.blogspot.com/2019/07/core-transformation.html)
-for that purpose.
+* Evening: 30 minutes core transformation
 
 Reading
 -------

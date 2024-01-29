@@ -18,18 +18,24 @@ with fecundity.
 
 *—[Scott Alexander](https://slatestarcodex.com/), [“The Goddess of Everything Else”](https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/), 2015*
 
-Monthly updates are sent out [via substack](https://niplav.substack.com/).
+Monthly updates are sent out [via substack](https://niplav.substack.com/),
+the content is a copy of each monthly changelog. Don't expect any
+*different* content.
 
 January 2024
 -------------
 
+[Moved](./hyperoperators.html) [even](nuclear.html) [more](./quality.html)
+[notes](hodge.html) [to](./hyperoperators.html) [top-level](./foom.html)
+[posts](./cuboid.html).
+
 * After incorporating existential risk more carefully into my [cryonics cost-benefit analysis](./considerations_on_cryonics.html), the expected value is now only \$850k for a 20 year old, and cryocrastination (until age 55) is rational under complete self-trust.
-* [Question Decomposition in Forecasting](./forecasters.html#Forecasting_Techniques): [Improvement of MECE Decomposition](./forecasters.html#Improvements) and an idea to [use LLMs](./forecasters.html#Using_LLMs) to test whether decomposition works.
+* [Question Decomposition in Forecasting](./forecasters.html#Forecasting_Techniques): [Improvement of MECE Decomposition](./forecasters.html#Classification_and_Improvements) and an idea to [use LLMs](./forecasters.html#Using_LLMs) to test whether decomposition works.
 * Preliminary notes on [Increasing Subjective Lifespan](./increasing.html), at the moment mapping the territory and reading abstracts.
 * [Microfiction](./microfiction.html)
 	* [Meditative Sayings](./microfiction.html#Meditative)
 * [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
-	* [Table of Current Market Status](./platforms.html#Table_of_Current_Market_Status). Currently nicotine→meditation & lumenator→happiness seem the most promising. Going to select the markets end of January.
+	* [Table of Current Market Status](./platforms.html#Table_of_Current_Market_Status). Currently nicotine→meditation & lumenator→happiness seem the most promising. I have [selected](./platforms.html#Results) [Pomodoro Method vs. Nothing → Productivity](https://manifold.markets/NiplavYushtun/by-how-much-does-the-pomodoro-metho) (by random lottery) and [Bright Light vs. Normal Light → Happiness](https://manifold.markets/NiplavYushtun/by-how-much-does-very-bright-light).
 * Quantifying the [Reduction Melatonin has on my Sleep Duration](./nootropics.html#Reducing_Sleep_Duration). It shaves off ~25 minutes.
 
 ### Links

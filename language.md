@@ -45,10 +45,11 @@ Title Idioms
 Better Names for Things
 ------------------------
 
-Although linguistic prescriptivism is technically a cardinal sin, I
-sometimes make exceptions if a word particularly annoys me. This is a
-list of such words and suggestions for better naming of the concepts
-they describe.
+Although [linguistic
+prescriptivism](https://en.wikipedia.org/wiki/Linguistic_prescription)
+is technically a cardinal sin, I sometimes make exceptions if a word
+particularly annoys me. This is a list of such words and suggestions
+for better naming of the concepts they describe.
 
 ### "Rationalism"
 

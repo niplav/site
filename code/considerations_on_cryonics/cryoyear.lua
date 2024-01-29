@@ -1,5 +1,5 @@
 --curent age of the user of this script
-curage=tonumber(arg[1]) and tonumber(arg[1]) or 30
+curage=tonumber(arg[1]) and tonumber(arg[1]) or 20
 
 --value of one year of life
 val_year=tonumber(arg[2]) and tonumber(arg[2]) or 50000
