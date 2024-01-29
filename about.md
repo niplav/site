@@ -497,10 +497,10 @@ Scores (as of 2023-08-05):
 ![](./img/about/metaculus_cont_log_score.png)
 ![](./img/about/metaculus_cont_calibration.png)
 * [Manifold markets](https://manifold.markets/NiplavYushtun)
-	* Profit: M̶262
-	* Net worth: M̶1103
-	* Balance: M̶662
-	* Calibration: Grade C-, Score -7.13
+	* Profit: M̶602
+	* Net worth: M̶4016
+	* Balance: M̶238
+	* Calibration: Grade C+, Score -4.2
 ![](./img/about/manifold_calibration.png)
 ![](./img/about/manifold_profit.png)
 
