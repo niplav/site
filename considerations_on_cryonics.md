@@ -9,8 +9,11 @@ worth it, and if yes, should one
 (i.e. postpone signing up for cryonics to a later date)? [Betteridge's law
 of headlines](https://en.wikipedia.org/wiki/Betteridge's_law_of_headlines)
 only applies partially here: Yes, it is probably worth it (under plausible
-assumptions \\$2.7m for a 20 year old, and more for older people), and no,
-cryocrastination is usually irrational. A cost-benefit analysis written in
+assumptions [\\$850k for a 20 year old](#Currently_20_years_old),
+and [more for older people](#Currently_40_years_old)), and no,
+cryocrastination is usually irrational (unless one [doesn't experience
+value drift](#Without_Motivation_Drift), in which case cryocrastination
+is rational until age 55). A cost-benefit analysis written in
 [Lua](https://en.wikipedia.org/wiki/Lua_\(programming_language\)),
 considering
 [neurocryopreservation](https://www.alcor.org/library/neuropreservation-option/)
@@ -24,17 +27,6 @@ in the mean, median -\\$100k (90% confidence interval: -\\$2.16m,
 
 Cryonics Cost-Benefit Analysis
 ===============================
-
-Preliminary Note
------------------
-
-I now believe this cost-benefit analysis to be incomplete, mainly because
-it doesn't treat the risk of extinction with as much detail as I would
-like it to. It's still the best one I know of, but proceed with caution.
-
-I plan on revisiting this analysis.
-
-------------
 
 > If I died, would I be rid of my senses?  
 Or will it retain, trapped within my corpse, in stasis?  
@@ -354,6 +346,8 @@ cryopreservation.
 	end
 
 ### Membership Fees
+
+<!--TODO: fees have changed! Update-->
 
 Membership fees for Alcor are calculated using the age of the member
 and the length of their membership.
@@ -998,6 +992,35 @@ arrives at 2850 years.
 conservatively estimates a life expectancy of ~1000 years for each
 individual human after LEV.
 
+The life
+expectancy of cryonics is thus is (just taking the average of these three values)
+`$\frac{8938+2850+1000}{3} \approx 4260$`.
+
+To conclude, it seems like resuscitated cryonicists will on average live
+around years, although there is room for debate on this number.
+
+	years_gain=4260
+
+----------------------
+
+That number should be qualified further in an ["Age of
+Em"](https://en.wikipedia.org/wiki/The_Age_of_Em) scenario: that
+scenario will contain less natural risks (emulation can be backed up,
+they live in a simulated world where homicide risks and car accidents
+make no sense), but an em also suffers from the risk of not having
+enough money to continue being run, and from the fact that the
+em era might not last several subjective millennia. Furthermore,
+it might be that multiple copies of the emulated cryonicist are
+executed. This scenario deserves further consideration (see also
+[Hanson 1994](http://mason.gmu.edu/~rhanson/uploads.html "If Uploads Come First")).
+I will not take into account the possibility of multiple
+copies of the same person, and assume that only one emulation is being
+run (to avoid tricky problems in aggregation).
+
+<!--
+DOI: 10.2307/1973599
+-->
+
 #### Existential Risk
 
 Existential risk affects three different variables in the cost-benefit analysis:
@@ -1029,15 +1052,17 @@ emerging technology may be inherently unknowable. Still, we can bound
 extinction within a century is virtually certain[…] produces a rate of
 at most `$10^{-2}$` per year. A lower bound may be `$10^{-5}$` per year.
 
-This, in turn, depends on the development of the probability of
-existential risk over the next 10k years. Thisk appears to be quite
-tricky: We can take average extinction rates across many species,
-or across species in the [homo](https://en.wikipedia.org/wiki/Homo)
-(`$\approx 7 \times 10^{-5}$` per year [Sandberg 2023, sec. 8.9](),
-<!--TODO: link the Goodreads page--> but that assumes that *homo sapiens*
-is a typical species or a typical member of the genus homo, which is
-a bold statement about the first species to single-handedly cause a
-[mass extinction](https://en.wikipedia.org/wiki/Holocene_Mass_Extinction).
+*—Anders Sandberg, “Grand Futures” p. 488-489, 2023*
+
+This, in turn, depends on the development of the probability
+of existential risk over the next 10k years. Estimating
+existential risk appears to be quite tricky: We can take average
+extinction rates across many species, or across species in the
+[homo](https://en.wikipedia.org/wiki/Homo) (`$\approx 7 \times
+10^{-5}$` per year), but that assumes that *homo sapiens* is a
+typical species or a typical member of the genus homo, which is a bold
+statement about the first species to single-handedly cause a [mass
+extinction](https://en.wikipedia.org/wiki/Holocene_Mass_Extinction).
 
 (Among other things.)
 
@@ -1050,42 +1075,38 @@ estimates of existential risk concern themselves only with this century,
 and don't make statements about medium term (i.e., the next 10k years)
 probabilities of extinction.
 
-Taking existential risks into account is a bit harder. It is
-unclear whether most of the probability mass for existential
-risks should be placed before resuscitation of cryonics patients
-becomes feasible, or after it. It is also unclear how high the
-existential risk for humanity is overall. Assuming that the
-existential risk for humanity over the next 10k years is ~40%
-(this number is pretty much a guess, see also the [Ragnarök question
-series](https://www.metaculus.com/questions/2568/ragnar%25C3%25B6k-seriesresults-so-far/)),
-and half of that risk is placed before resuscitation, then the life
-expectancy of cryonics is
-`$\frac{8938+2850+1000}{3}*(1-0.20) \approx 3410$`.
+For the 21st century I'll take the number by [Ord
+2020](https://en.wikipedia.org/wiki/The_Precipice:_Existential_Risk_and_the_Future_of_Humanity):
+~16.5% (equivalent to ~0.25% per year).
 
-----------------------
+For the time after that, I'll lowball the number at `$2 \cdot 10^{-5}$`
+per year. I don't have a great good justification for this,
+but I find space colonization fairly plausible, which
+reduces x-risk, and I also find it plausible achieving
+transformative AI could bring humanity [out of the "time of
+perils"](https://musingsandroughdrafts.wordpress.com/2021/03/24/my-current-high-level-strategic-picture-of-the-world/).
+See also the [Ragnarök question
+series](https://www.metaculus.com/questions/2568/ragnar%25C3%25B6k-seriesresults-so-far/).<!--TODO:
+check out and incorporate numbers here?-->
 
-That number should be qualified further in an ["Age of
-Em"](https://en.wikipedia.org/wiki/The_Age_of_Em) scenario: that
-scenario will contain less natural risks (emulation can be backed up,
-they live in a simulated world where homicide risks and car accidents
-make no sense), but an em also suffers from the risk of not having
-enough money to continue being run, and from the fact that the
-em era might not last several subjective millennia. Furthermore,
-it might be that multiple copies of the emulated cryonicist are
-executed. This scenario deserves further consideration (see also
-[Hanson 1994](http://mason.gmu.edu/~rhanson/uploads.html "If Uploads Come First")).
-I will not take into account the possibility of multiple
-copies of the same person, and assume that only one emulation is being
-run (to avoid tricky problems in aggregation).
+So, we can write a simple function that calculates the total extinction risk before a year:
 
-To conclude, it seems like resuscitated cryonicists will on average live
-around 3410 years, although there is room for debate on this number.
+	perils_end=2100
+	risk_before_perils_end=0.165
+	annual_risk_before_perils_end=0.0024
+	annual_risk_after_perils_end=2*10e-5
 
-	years_gain=3410
-
-<!--
-DOI: 10.2307/1973599
--->
+	function extinction_risk(year)
+	        if year>perils_end then
+	                -- rescaling, can be at most 1-risk_before_perils_end
+	                post_perils_risk=(1-risk_before_perils_end)*(1-math.pow(1-annual_risk_after_perils_end, year-perils_end))
+	                return risk_before_perils_end+post_perils_risk
+	        elseif year==perils_end then
+	                return risk_before_perils_end
+	        else
+	                return 1-math.pow(1-annual_risk_before_perils_end, year-curyear)
+	        end
+	end
 
 ### Probability of Being Preserved
 
@@ -1357,15 +1378,17 @@ die of old age and not due to accidents during their lifetime.
 The benefit of cryonics is only realized in one case: One lives to the
 planned year of signing up, but then dies before LEV. Both dying before
 signing up or living until LEV after having signed up make the value
-of cryonics \\$0. One can calculate the probability of this scenario by
+of cryonics \\$0.[^1] One can calculate the probability of this scenario by
 multiplying the probabilities of living until signup with the probability
 of then dying before LEV.
+
+[^1]: Well, this isn't *quite* correct. One can imagine a world in which LEV is achieved for normal aging processes, *but* dying of very bad injuries is still a possibility. In that case, dying from those injuries is possible, but future revival from those injuries could still happen. I won't incorporate that possibility into the model, because that would make it pretty messy.
 
 To calculate the probability of living to a given age, we can use
 the gompertz distribution again:
 
 	function prob_liveto(age)
-		return gompertz(age)/gompertz(curage)
+		return gompertz(age)/gompertz(curage)+extinction_risk(curyear+(age-curage))
 	end
 
 The probability of dying before LEV is 0 if LEV has already occurred:
@@ -1379,7 +1402,45 @@ same as `$1-\Pr[\hbox{Living until LEV}]$`, or the probability of living until
 `curage+(levyear-curyear)` given one has already lived until `age`.
 
 	else
-		return 1-(gompertz(curage+(levyear-curyear))/gompertz(age))
+		return 1-(gompertz(curage+(levyear-curyear))/gompertz(age))+extinction_risk(curyear+(age-curage))
+	end
+
+### Extinction Risk After Revival
+
+Not only does extinction endanger the cryonicist's revival, it
+also (in expectation) shortens their lifespan *after* revival. To
+estimate, it is important to know whether the revival happens
+*before* or *after* 2100 (the arbitrary cutoff date when the [hinge of
+history](./ea/are_we_living_at_the_hinge_of_history_macaskill_2020.pdf)
+is over and humanity has passed the time of perils). The years of revival
+before 2100 are in expectation less valuable than the years after 2100.
+
+This can be easily expressed by taking the extinction risk during the
+lifespan after revival and subtracting the extinction risk before revival,
+no complicated calculations required.
+
+	post_revival_risk=extinction_risk(revival_year+years_gain)-extiction_risk(revival_year)
+
+Putting it All Together
+------------------------
+
+One can then simply calculate the benefit of signing up for cryonics at
+a specific age:
+
+	expected_post_revival_years=prob_pres*prob_succ*(1-post_revival_risk)*years_gain
+	return expected_post_revival_years*val_year*prob_liveto(age)*prob_diebeforelev(age)*avg_pres_quality(age)
+
+The cost is easier to calculate, as it has fewer factors:
+
+	function cost(age)
+        	return membership_fees(age)+pres_cost(age)+cms_fees(age)
+	end
+
+The the value of signing up for cryonics is simply the expected cost
+subtracted from the expected benefit:
+
+	function value(age)
+	        return prob_signup(age)*prob_liveto(age)*(benefit(age)-cost(age))
 	end
 
 Results
@@ -1396,18 +1457,18 @@ punishes the procrastination quite heavily.
 
 #### Currently 20 years old
 
-At the age of 20 years, the value of signing up for cryonics the
-same year is \\$2718928 (~`$\$2.7*10^6$`) according to this model,
-prolonging the decision until one is 30 reduces this number to \\$1622285
-(~`$\$1.6*10^6$`), and waiting until 40, 50 and 60 years yields a value
-of \\$958279 (~`$\$9.5*10^5$`), \\$546862 (~`$\$5.4*10^5$`) and \\$280704
-(~`$\$2.8*10^5$`), respectively.
+At the age of 20 years, the value of signing up for cryonics the same year
+is \\$848035 (~`$\$8.5 \cdot 10^5$`) according to this model, prolonging
+the decision until one is 30 reduces this number to \\$600000 (~`$\$6
+\cdot 10^5$`), and waiting until 40, 50 and 60 years yields a value
+of \\$399948 (~`$\$4 \cdot 10^5$`), \\$253943 (~`$\$2.5 \cdot 10^5$`)
+and \\$142394 (~`$\$1.4 \cdot 10^5$`), respectively.
 
 	.l("nplot")
 
 	data::.r()
 
-	grid([0],(#data),[10];[0],(|/data),[1000000])
+	grid([0],(#data),[10];[0],(|/data),[250000])
 
 	xtitle("Years from now")
 	ytitle("Dollar value of signing up for cryonics")
@@ -1418,15 +1479,15 @@ of \\$958279 (~`$\$9.5*10^5$`), \\$546862 (~`$\$5.4*10^5$`) and \\$280704
 
 #### Currently 40 years old
 
-The values of signing up for cryonics look very similar to the values
-for a 20 year old. Performing the signup immediately at age 40 is worth
-\\$6434231 (~`$\$6.4*10^6$`) at age 40 and is the best time to do it.
+The values of signing up for cryonics are much higher for a 40 year
+old. Performing the signup immediately at age 40 is worth \\$3009892
+(~`$\$3 \cdot 10^6$`) at age 40 and is the best time to do it.
 
 	.l("nplot")
 
 	data::.r()
 
-	grid([0],(#data),[10];[0],(|/data),[1000000])
+	grid([0],(#data),[10];[0],(|/data),[500000])
 
 	xtitle("Years from now")
 	ytitle("Dollar value of signing up for cryonics")
@@ -1447,28 +1508,28 @@ In this model, a very different picture emerges:
 
 	data::.r()
 
-	grid([0],(#data),[10];[0],(|/data),[1000000])
+	grid([0],(#data),[10];[0],(|/data),[100000])
 
 	xtitle("Years from now")
 	ytitle("Dollar value of signing up for cryonics")
 	barplot(data)
 	draw()
 
-![Value of signing up for cryonics in n years at age 20, no motivation drift.](./img/considerations_on_cryonics/no_drift_val.png "Value of signing up for cryonics in n years at age 20, no motivation drift. In the first 30 years, there is very little decline in value, but the the value starts decreasing rapidly.")
+![Value of signing up for cryonics in n years at age 20, no motivation drift.](./img/considerations_on_cryonics/no_drift_val.png "Value of signing up for cryonics in n years at age 20, no motivation drift. In the first 30 years, the value continues to increase, until at ~30 (or age 50) the value starts decreasing rapidly.")
 
-	$ lua cryoyear.lua 20 50000 0.05 0.6 4500 1 | sort -n | tail -10
-	1770851.3434545: 29
-	1771271.4463869: 24
-	1772258.6631463: 23
-	1772455.258346: 28
-	1772578.3116184: 25
-	1773160.8544677: 22
-	1773986.7306506: 21
-	1774219.6984224: 27
-	1774744.1202585: 20
-	1775550.165284: 26
+	$ lua cryoyear.lua 20 50000 0.05 0.6 4500 1 | sort -nr | head -10
+	772358.83294268: 52
+	772249.89402817: 51
+	771393.75439825: 53
+	771173.79853806: 50
+	769614.18541915: 49
+	769238.25552628: 54
+	766954.57748956: 48
+	765765.98870041: 55
+	763596.0050379: 47
+	759612.28026664: 46
 
-It is now optimal to wait for 6 years, with an added value of
+It is now optimal to wait for 30 years, with an added value of
 ~\\$800. This is probably due to very slight variations in the quality
 of cryopreservation at different ages of death.
 
@@ -1477,13 +1538,15 @@ of cryocrastination might indeed be rational, although the benefits
 are so small that they might be swamped by even slight changes to the
 factors for the quality of cryopreservation.
 
-And, in case anybody was wondering, at age 26 the model recommends
-signing up immediately:
+And, in case anybody was wondering, at age 26 the model also recommends
+deferring to age 52:
 
 	$ lua cryoyear.lua 26 50000 0.05 0.6 4500 1 | sort -n | tail -1
-	2076784.4016749: 26
+	1202556.0910284: 52
 
-For ages 20-25, it recommends waiting until the age of 26.
+For ages 20-25, it recommends waiting until the age of 52, and if you're
+older, it usually recommends to sign up at 54 (at ages above 54 it tells
+you to sign up immediately).
 
 ### The Critic's Scenario
 
@@ -1503,16 +1566,16 @@ In this case, signing up for cryonics has negative value that converges
 to 0 the older one gets:
 
 	$ lua cryoyear.lua 20 50000 0.01 0.6 50 1 | sort -n | tail -10
-	-81533.552305999: 69
-	-79644.977781056: 70
-	-78060.880368866: 71
-	-75915.347114195: 72
-	-73635.266812914: 73
-	-71605.456094135: 74
-	-69025.930083615: 75
-	-66295.81565389: 76
-	-63762.191486437: 77
-	-60711.195331299: 78
+	-92300.725472993: 69
+	-90585.101387741: 70
+	-89238.764428451: 71
+	-87276.353042895: 72
+	-85184.716132512: 73
+	-83413.058081414: 74
+	-81035.187052355: 75
+	-78513.415141421: 76
+	-76779.408558686: 77
+	-73647.055526417: 78
 
 Please note that the following graph should have negative values on the
 y-axis. This should get fixed sometime in the future.
@@ -1538,7 +1601,7 @@ $ lua cryoyear.lua 22 50000 0.1 0.6 100 1 180 100000 2080
 -->
 
 <!--
-Higher monetary for life-years make the case stronger
+Higher monetary value for life-years make the case stronger
 -->
 
 <!--

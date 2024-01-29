@@ -10,8 +10,8 @@ datetime=`{date --iso-8601}
 ispom=`{seq 0 1 | shuf | tail -1}
 
 if (~ $ispom 0) {
-	printf '%s,%s\n' $datetime %ispom >>$pomfile
+	printf '%s,%s\n' $datetime $ispom >>$pomfile
 }; if not {
-	printf '%s,%s\n' $datetime %ispom >>$pomfile
+	printf '%s,%s\n' $datetime $ispom >>$pomfile
 	spt -e pomscript
 }

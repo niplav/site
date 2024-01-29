@@ -2,7 +2,7 @@
 
 data::.r()
 
-grid([0],(#data),[10];[0],(|/data),[1000000])
+grid([0],(#data),[10];[0],(|/data),[500000])
 
 xtitle("Years from now")
 ytitle("Dollar value of signing up for cryonics")
