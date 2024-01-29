@@ -77,7 +77,6 @@ Existing Texts
 --------------
 
 * Range and Forecasting Accuracy
-	* Move the [PredictionBook download code](./range_and_forecasting_accuracy.html#For_PredictionBook) to the [PredictionBook API](https://github.com/bellroy/predictionbook/blob/master/API.md)
 	* Find Muehlhauser email with additional source
 	* Extend the analysis to more datapoints
 		* Extend to more datasets
@@ -173,7 +172,6 @@ Existing Texts
 		* This also feels relevant to Ontological crises/shifts: Is there a canonical way to map from the human preference simplex to the AI preference simplex, if we know the concept equivalences? (A is just 30% B and 70% C, so we can split the simplex into another dimension here…)
 * BCIs and Alignment
 	* Data for scaling laws from BCIs
-	* Add proposal for activation steering with BCIs
 
 Texts
 -----

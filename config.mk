@@ -48,6 +48,7 @@ HTML=index.html \
 	consciousness_diagram.html \
 	considerations_on_cryonics.html \
 	cryonics_outside_us.html \
+	cuboid.html \
 	data.html \
 	daygame_cost_benefit.html \
 	declaration.html \
@@ -58,10 +59,14 @@ HTML=index.html \
 	estimated_life_expectancy.html \
 	exercise_log.html \
 	favorites.html \
+	foom.html \
 	finesse.html \
 	flags.html \
 	forecasters.html \
 	grand.html \
+	hodge.html \
+	hyperoperators.html \
+	inadequacies.html \
 	increasing.html \
 	iqisa.html \
 	iqisadoc.html \
@@ -73,6 +78,7 @@ HTML=index.html \
 	metamodernistisches_manifest.html \
 	microfiction.html \
 	nootropics.html \
+	nuclear.html \
 	pipe_rings.html \
 	platforms.html \
 	platte.html \
@@ -80,6 +86,7 @@ HTML=index.html \
 	precision.html \
 	preference.html \
 	qualia.html \
+	quality.html \
 	range_and_forecasting_accuracy.html \
 	rationalist_gods.html \
 	senryu.html \
@@ -100,6 +107,7 @@ HTML=index.html \
 	so_chrono.html \
 	trm_chrono.html \
 	awitt.html \
+	vis.html \
 	movies_list.html \
 	podcasts_list.html \
 	series_list.html \

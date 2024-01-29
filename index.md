@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2023-12-22, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2024-01-30, language: english, status: in progress, importance: 6, confidence: log*
 
 Content
 =======
@@ -9,9 +9,10 @@ This is the website of niplav. It contains texts on different topics,
 including (but not limited to) forecasting, futurism, unusual social
 behavior and philosophy, as well as translations and transcriptions
 of different texts, chronological archives of blogs and programming
-projects. More information about the website and its author can be found
-on the [about](./about.html) page, for recent additions and changes,
-see the [changelog](./changelog.html).
+projects. More information about the website and its author can be
+found on the [about](./about.html) page, for recent additions and
+changes, see the [changelog](./changelog.html) or the corresponding
+[substack](https://niplav.substack.com/).
 
 I [can be hired](./services.html) to investigate research questions, write
 code, design and execute experiments, analyze data and make predictions.
@@ -35,6 +36,7 @@ Writing
 
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html)
 * [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.html)
+* [On Discontinuous and Fast Takeoff](./foom.html)
 
 #### Forecasting
 
@@ -64,21 +66,29 @@ of whom can ever feel secure in the love of a cold and distant parent?
 * [Pipe Rings](./pipe_rings.html)
 * [K-99: Ninety-Nine Klong Problems](./99_klong_problems.html)
 * [99 Problems Klong Solution](./99_problems_klong_solution.html)
+* [Nothing to See Here, Just An Implementation of HodgeRank](./hodge.html)
+* [Implementing Commutative Hyperoperators](./hyperoperators.html)
 * [Generalizing the Diamond-Square Algorithm to n Dimensions](./diamond.html)
+
+#### Mathematics
+
+* [Equally Many Heads and Tails](./equally_many_heads_and_tails.html)
+* [Mathematics Notation Convention](./mathematics_notation_convention.html)
 
 #### Quantified Self
 
 * [Nootropics](./nootropics.html)
 * [Types & Methods of Data Collection I Use](./data.html)
 * [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
+* [Does Recent Masturbation Decrease Meditation Quality?](./quality.html)
 
 #### Practical
 
 * [Cryonics Cost-Benefit Analysis](./considerations_on_cryonics.html)
 * [Cryonics Outside of the United States](./cryonics_outside_us.html)
+* [Building a Cuboid](./cuboid.html)
 * [Prepare to Leave The Internet](./leave.html)
 
-<!--
 ##### Pick-Up
 
 > The American girl is well acquainted with her body’s seductive
@@ -99,12 +109,10 @@ one moment or forget it!
 * [Notes on Pickup](./notes_on_pickup.html)
 * [Pickup Reports](./pickup_reports.html)
 * [Flags](./flags.html)
--->
 
-#### Mathematics
+#### Existential Risk
 
-* [Equally Many Heads and Tails](./equally_many_heads_and_tails.html)
-* [Mathematics Notation Convention](./mathematics_notation_convention.html)
+* [Two Reasons For Restarting the Testing of Nuclear Weapons](./nuclear.html)
 
 #### Philosophy
 
@@ -123,6 +131,7 @@ one moment or forget it!
 
 #### Collections
 
+* [Some Civilizational Inadequacies](./inadequacies.html)
 * [Rationalist Gods](./rationalist_gods.html)
 * [99 Problems](./99_problems_collection.html)
 * [Recommendation-Worthy Websites](./sites.html)
@@ -207,6 +216,7 @@ Programming
 -----------
 
 * [awitt – Another Window Title Tracker](./awitt.html)
+* [Fuzzy Find to Insert Lines in vis](./vis.html)
 
 Miscellaneous
 =============
