@@ -379,10 +379,13 @@ Equivalences
 * Action : Inaction : Energy : Sluggishness : [Steam](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam) :: Noninteraction : Damage : Robustness : Fragility : [Hormesis](https://en.wikipedia.org/wiki/Hormesis)
 	* Or even: ((Action : Inaction) :: (Energy : Sluggishness) ::: [Steam](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam)) :::: ((Noninteraction : Damage) :: (Robustness : Fragility) ::: [Hormesis](https://en.wikipedia.org/wiki/Hormesis))
 * Evolution : lifetime learning : humans : human values :: neural architecture search : SGD : ML systems : ML system goals
-* Bullwhip effect : markets :: exploding gradients : neural network training :: epilepsy : brains :: cytokine storm : immune systems :: hypereutrophy : ecosystems<!--TODO: add link to own & Gavin's tweet-->
+* [Bullwhip effect](https://en.wikipedia.org/wiki/Bullwhip_Effect) : markets :: [exploding gradients](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) : neural network training :: epilepsy : brains :: [cytokine storm](https://en.wikipedia.org/wiki/Cytokine_Storm) : immune systems :: [hypereutrophy](https://en.wikipedia.org/wiki/Trophic_State_Index#Hypereutrophic) : ecosystems :: meditation : jhanas<!--TODO: add link to own & Gavin's tweet-->
+* Editors : Wikipedia :: hot women : dating apps
 
 2×2s, 2×3s and more
 --------------------
+
+<!--TODO: table, fill out?-->
 
 * {What we're (not) able to do now}×{What we (don't) have to do now}
 * {Lives in social/physical reality}×{views things generally as positive/zero/negative sum}
@@ -393,7 +396,7 @@ Equivalences
 * {adequate, inadequate}×{exploitable, unexploitable}×{efficient, inefficient}
 * {be, take, give}×{a, the, ""} shit
 * Thinking the {right, wrong} things × thinking in the {right, wrong} way × saying the {right, wrong} things × performing the {right, wrong} actions
-* {continuous, discountinuous} {inductive, deductive} assumptions
+* {continuous, discountinuous} × {inductive, deductive} assumptions
 
 Great Words
 ------------
@@ -482,6 +485,7 @@ Missing Emojis
 * Erlenmeyer flask
 * Red star
 * Grass
+* Kimchi
 
 New Eponymous Laws
 -------------------

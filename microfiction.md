@@ -136,6 +136,7 @@ All with your secrets unlocked
 * "What is here now, when there is no problem to solve"
 * "Think the thought that is nowhere supported"
 * "Be empty of that too"
+* "Awareness is unsullied by the contents that pass through it"
 
 ### German
 

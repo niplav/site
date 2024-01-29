@@ -1006,11 +1006,34 @@ Existential risk affects three different variables in the cost-benefit analysis:
 2. The probability of being resuscitated (because an existential catastrophe happening while in preservation very likely causes [information-theoretic death](https://en.wikipedia.org/wiki/Information-theoretic_death))
 3. The amount of time spent alive after resuscitation
 
+> An upper bound on natural existential risk to humanity
+`$μ_{\text{nature}}$` based on the age of the species has been estimated
+as `$<7.1429×10^{-5}$` per year, and based on the survival of the *Homo*
+lineage below `$1/1.1494×10^{-6}$` [2697][…]. For the sake of argument,
+let us set `$μ_{\text{nature}}≈7×10^{-5}$` per year.  
+Anthropogenic existential risk `$μ_{\text{anthro}}$`is hard to estimate
+[2472], and yet likely dominates the risk profile at present and in the
+near future. Claims in the literature are on the order of `$10^{-3}$`
+to `$10^{-2}$` per year, although they are perhaps mainly rhetorical
+[1983]. If one naively extrapolates the Richardson war fatality
+distribution to killing 100% of the world population it gives a rate of
+`$3.8730×10^{-4}$` per year (using the tail fit from [1959]). Nuclear
+war rates may be on the order of 0.01 per year and have perhaps 10%
+existential risk of being existenital (`$=10^{-3}$` per year), but
+arguments can certainly be made for lower numbers [REF]. Climate
+change combined with an unexpectedly high climate sensitivity may
+have 1% probability [2697]; if we spread this across two centuries of
+industrialization that may give `$5×10^{-5}$` per year. Risks from
+emerging technology may be inherently unknowable. Still, we can bound
+`$μ_{\text{anthro}}$`is by noting that even great pessimists claiming
+extinction within a century is virtually certain[…] produces a rate of
+at most `$10^{-2}$` per year. A lower bound may be `$10^{-5}$` per year.
+
 This, in turn, depends on the development of the probability of
 existential risk over the next 10k years. Thisk appears to be quite
 tricky: We can take average extinction rates across many species,
 or across species in the [homo](https://en.wikipedia.org/wiki/Homo)
-(`$\approx 7 \times 10^{-5}$` per year Sandberg 2023, sec. 8.9](),
+(`$\approx 7 \times 10^{-5}$` per year [Sandberg 2023, sec. 8.9](),
 <!--TODO: link the Goodreads page--> but that assumes that *homo sapiens*
 is a typical species or a typical member of the genus homo, which is
 a bold statement about the first species to single-handedly cause a
