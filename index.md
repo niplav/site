@@ -89,6 +89,7 @@ of whom can ever feel secure in the love of a cold and distant parent?
 * [Building a Cuboid](./cuboid.html)
 * [Prepare to Leave The Internet](./leave.html)
 
+<!--
 ##### Pick-Up
 
 > The American girl is well acquainted with her body’s seductive
@@ -109,6 +110,7 @@ one moment or forget it!
 * [Notes on Pickup](./notes_on_pickup.html)
 * [Pickup Reports](./pickup_reports.html)
 * [Flags](./flags.html)
+-->
 
 #### Existential Risk
 

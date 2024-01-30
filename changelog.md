@@ -37,6 +37,7 @@ January 2024
 * [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
 	* [Table of Current Market Status](./platforms.html#Table_of_Current_Market_Status). Currently nicotine→meditation & lumenator→happiness seem the most promising. I have [selected](./platforms.html#Results) [Pomodoro Method vs. Nothing → Productivity](https://manifold.markets/NiplavYushtun/by-how-much-does-the-pomodoro-metho) (by random lottery) and [Bright Light vs. Normal Light → Happiness](https://manifold.markets/NiplavYushtun/by-how-much-does-very-bright-light).
 * Quantifying the [Reduction Melatonin has on my Sleep Duration](./nootropics.html#Reducing_Sleep_Duration). It shaves off ~25 minutes.
+* [Fuzzy Find to Insert Lines in vis](./vis.html)
 
 ### Links
 
