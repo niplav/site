@@ -13,5 +13,5 @@ if (~ $ispom 0) {
 	printf '%s,%s\n' $datetime $ispom >>$pomfile
 }; if not {
 	printf '%s,%s\n' $datetime $ispom >>$pomfile
-	spt -e pomscript
+	spt -e pomscript -n echo
 }

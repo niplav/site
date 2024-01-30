@@ -301,6 +301,6 @@ lumenators](./notes.html#All_Things_People_Have_Written_About_Lumenators).
 
 ### Meditation vs. No Meditation → *Sleep duration*
 
-* [O'Hara et al. 2010)](./meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf)
+* [O'Hara et al. 2010](./meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf)
 
 [^1]: I find it odd to call any platform on which people functionally give probabilities, but without staking real money, "prediction markets". Neither [Metaculus](https://www.metaculus.com/) not [Manifold Markets](https://manifold.markets/) are prediction markets, but [PredictIt](https://www.predictit.org/) and [Kalshi](https://kalshi.com/) are.
