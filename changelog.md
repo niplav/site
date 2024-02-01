@@ -22,6 +22,16 @@ Monthly updates are sent out [via substack](https://niplav.substack.com/),
 the content is a copy of each monthly changelog. Don't expect any
 *different* content.
 
+February 2024
+--------------
+
+* [Solutions to “An Infinitely Large Napkin”](./napkin_solutions.html)
+	* [Question 1.1.10](./napkin_solutions.html#Question_1110)
+	* [Question 1.1.16](./napkin_solutions.html#Question_1116)
+	* [Exercise 1.1.18](./napkin_solutions.html#Exercise_1118)
+	* [Exercise 1.2.6](./napkin_solutions.html#Exercise_126)
+	* [Exercise 1.3.5](./napkin_solutions.html#Exercise_135)
+
 January 2024
 -------------
 
@@ -29,7 +39,7 @@ January 2024
 [notes](hodge.html) [to](./hyperoperators.html) [top-level](./foom.html)
 [posts](./cuboid.html).
 
-* After incorporating existential risk more carefully into my [cryonics cost-benefit analysis](./considerations_on_cryonics.html), the expected value is now only \$850k for a 20 year old, and cryocrastination (until age 55) is rational under complete self-trust.
+* After incorporating existential risk more carefully into my [cryonics cost-benefit analysis](./considerations_on_cryonics.html), the expected value is now only \$850k for a 20 year old, and cryocrastination (until age 55) is rational under complete self-trust (though still irrational under even slight motivation drift).
 * [Question Decomposition in Forecasting](./forecasters.html#Forecasting_Techniques): [Improvement of MECE Decomposition](./forecasters.html#Classification_and_Improvements) and an idea to [use LLMs](./forecasters.html#Using_LLMs) to test whether decomposition works.
 * Preliminary notes on [Increasing Subjective Lifespan](./increasing.html), at the moment mapping the territory and reading abstracts.
 * [Microfiction](./microfiction.html)

@@ -15,7 +15,7 @@ for a general overview for neuroenhancement, [Constantin
 2023b](https://sarahconstantin.substack.com/p/transcranial-ultrasound-neuromodulation)
 and [Constantin
 2023c](https://sarahconstantin.substack.com/p/transcranial-ultrasound-studies-part)
-for an overview of studies, and [Constantin
+for an overview of studies on ultrasound stimulation, and [Constantin
 2023d](https://sarahconstantin.substack.com/p/whos-working-on-ultrasound-neuromodulation
 "Who's Working on Ultrasound Neuromodulation?")  for more information
 on companies working on ultrasound for neuromodulation in particular.

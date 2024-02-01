@@ -9,9 +9,11 @@ This is the website of niplav. It contains texts on different topics,
 including (but not limited to) forecasting, futurism, unusual social
 behavior and philosophy, as well as translations and transcriptions
 of different texts, chronological archives of blogs and programming
-projects. More information about the website and its author can be
-found on the [about](./about.html) page, for recent additions and
-changes, see the [changelog](./changelog.html) or the corresponding
+projects.
+
+More information about the website and its author can be found on
+the [about](./about.html) page, for recent additions and changes,
+see the [changelog](./changelog.html) or the corresponding
 [substack](https://niplav.substack.com/).
 
 I [can be hired](./services.html) to investigate research questions, write
