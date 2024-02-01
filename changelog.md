@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2024-01-15, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2024-02-01, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -31,6 +31,8 @@ February 2024
 	* [Exercise 1.1.18](./napkin_solutions.html#Exercise_1118)
 	* [Exercise 1.2.6](./napkin_solutions.html#Exercise_126)
 	* [Exercise 1.3.5](./napkin_solutions.html#Exercise_135)
+* [Notes](./notes.html)
+	* [Scientific and Other Classifications](./notes.html#Scientific_and_Other_Classifications)
 
 January 2024
 -------------

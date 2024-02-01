@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-01-30, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-02-01, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1621,3 +1621,82 @@ instantiation of this problem.
 
 One can imagine a paternalist government as more of a [mechanism
 designer](https://en.wikipedia.org/wiki/Mechanism_Design), then.
+
+Scientific and Other Classifications
+--------------------------------------
+
+One might think all we do is stamp-collecting.
+
+* Mathematics
+	* [Classification of simple finite groups](https://en.wikipedia.org/wiki/Classification_of_finite_simple_groups)
+	* [Classification of manifolds](https://en.wikipedia.org/wiki/Classification_of_manifolds) and [surfaces](https://en.wikipedia.org/wiki/Surface_\(topology\)#Classification_of_closed_surfaces)
+	* [Regular polytopes](https://en.wikipedia.org/wiki/Regular_Polytopes)
+	* [Elementary cellular automata](https://en.wikipedia.org/wiki/Elementary_cellular_automata)
+	* [Symmetry groups](https://en.wikipedia.org/wiki/Symmetry_groups)
+		* [Wallpaper groups](https://en.wikipedia.org/wiki/Wallpaper_groups)
+		* [Space groups](https://en.wikipedia.org/wiki/Wallpaper_groups)
+		* [Bieberbach groups](https://en.wikipedia.org/wiki/Bieberbach_group)
+	* Classification of reversible bit operations<!--TODO: link aaronson paper here!-->
+		* Also [Post's lattice](https://en.wikipedia.org/wiki/Post's_lattice)
+	* Complexity classes and their relations
+		* [Arithmetic hierarchy](https://en.wikipedia.org/wiki/Arithmetic_hierarchy)
+		* [Polynomial hierarchy](https://en.wikipedia.org/wiki/Polynomial_hierarchy)
+		* [Chomsky hierarchy](https://en.wikipedia.org/wiki/Chomsky_Hierarchy)
+	* Stability theory
+		* [Poincaré maps](https://en.wikipedia.org/wiki/Poincaré_map) of linear [autonomous systems](https://en.wikipedia.org/wiki/Autonomous_system_\(Mathematics\))
+	* Game theory
+		* [Classification](https://www.lesswrong.com/s/yiFxBWDXnLpbWGTkK/p/KwbJFexa4MEdhJbs4) of `$2 \times 2$` normal-form games<!--TODO: book or paper on this-->
+* Physics
+	* [Standard Model](https://en.wikipedia.org/wiki/Stellar_Classification)
+		* Classifies all [fundamental particles](https://en.wikipedia.org/wiki/Fundamental_particles)
+	* Cosmology
+		* [Stellar classification](https://en.wikipedia.org/wiki/Stellar_Classification)
+		* [Galaxy classification](https://en.wikipedia.org/wiki/Galaxy_morphological_classification)
+		* Orbital mechanics
+			* [Lagrange points](https://en.wikipedia.org/wiki/Lagrange_Points)
+			* Different types of orbits
+* Chemistry
+	* [Periodic Table of Elements](https://en.wikipedia.org/wiki/Periodic_Table_of_Elements)
+	* [Synthetic polymers](https://en.wikipedia.org/wiki/List_of_synthetic_polymers)
+	* [Hazardous materials classification](https://en.wikipedia.org/wiki/Hazardous_materials_labels)
+* Biology
+	* [Phylogenetic tree of life](https://en.wikipedia.org/wiki/Phylogenetic_Tree)
+	* [Linnean taxonomy](https://en.wikipedia.org/wiki/Linnean_taxonomy)
+	* [Classification of viruses](https://en.wikipedia.org/wiki/Classification_of_viruses), e.g. the [ICTV classification](https://en.wikipedia.org/wiki/International_Committee_on_Taxonomy_of_Viruses)
+	* Various schemes for [biomes](https://en.wikipedia.org/wiki/Biome#Classifications), e.g. the [Holdridge life zones](https://en.wikipedia.org/wiki/Holdridge_Life_Zones)
+* Earth science
+	* [Geologic time scale](https://en.wikipedia.org/wiki/Geological_timescale)
+	* [Cloud genera](https://en.wikipedia.org/wiki/Cloud_genera)
+	* Soil classification: [USDA soil taxonomy](https://en.wikipedia.org/wiki/USDA_soil_taxonomy)
+	* Classifications of [snow](https://en.wikipedia.org/wiki/Classifications_of_snow) and [snowflakes](https://en.wikipedia.org/wiki/Snowflake#Classification)
+	* [Classification of minerals](https://en.wikipedia.org/wiki/Classification_of_minerals), separated beautifully into:
+		* [Organic](https://en.wikipedia.org/wiki/Classification_of_organic_minerals)
+		* [Silicate](https://en.wikipedia.org/wiki/Classification_of_silicate_minerals)
+		* [Non-silicate](https://en.wikipedia.org/wiki/Classification_of_non-silicate_minerals)
+	* Also [meteorites](https://en.wikipedia.org/wiki/Classification_of_meteorites)
+	* [Trewartha](https://en.wikipedia.org/wiki/Trewartha_climate_classification) and [Köppen](https://en.wikipedia.org/wiki/Köppen_Climate_Classification) climate classifications
+* Linguistics
+	* [International phonetic alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)
+	* [Language families](https://en.wikipedia.org/wiki/Language_families), [list](https://en.wikipedia.org/wiki/List_of_language_families)
+	* [Unicode](https://en.wikipedia.org/wiki/Unicode)
+* Medicine
+	* Medical classification: [ICD-10](https://en.wikipedia.org/wiki/ICD-10)
+		* Leading to many *many* subclassifications, e.g. of [asthma](https://en.wikipedia.org/wiki/Asthma#Classification), [breast cancer](https://en.wikipedia.org/wiki/Classification_of_breast_cancer), [obesity](https://en.wikipedia.org/wiki/Classification_of_obesity), of course [diabetes](https://en.wikipedia.org/wiki/Diabetes) ([type 1](https://en.wikipedia.org/wiki/Diabetes_Type_1) and [type 2](https://en.wikipedia.org/wiki/Diabetes_type_2)) and [strokes](https://en.wikipedia.org/wiki/Stroke) (ischemic and hemorrhagic)…
+	* Psychiatric classification: [DSM-5](https://en.wikipedia.org/wiki/DSM-5)
+	* [Blood types](https://en.wikipedia.org/wiki/Blood_Types)
+* Psychology
+	* [Various proposed classifications of emotions](https://en.wikipedia.org/wiki/Classification_of_emotions)
+* Meditation
+	* [Jhanas](https://en.wikipedia.org/wiki/Jhāna)
+	* Maps of insight
+* [Dewey Decimal classification](https://en.wikipedia.org/wiki/Dewey_Decimal_System)
+
+A classification of classifications, if you will.
+
+Sporadic elements include classifications of
+[wines](https://en.wikipedia.org/wiki/Classification_of_wine) and
+[champagne](https://en.wikipedia.org/wiki/Classification_of_Champagne),
+[cars](https://en.wikipedia.org/wiki/Classification_of_cars),
+[demons](https://en.wikipedia.org/wiki/Classification_of_demons) and
+[fairies](https://en.wikipedia.org/wiki/Classifications_of_fairies),
+and [swords](https://en.wikipedia.org/wiki/Classification_of_swords).
