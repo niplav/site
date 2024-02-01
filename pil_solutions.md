@@ -1002,10 +1002,6 @@ Using a closure for the allwords argument
 
 ### Exercise 11.4
 
-* `g`: the graph
-* `s`: the name of the starting point
-* `e`: the name of the endpoint
-
 	dofile("ex_3.lua")
 
 	function dijkstra(g, s, e)
@@ -1042,6 +1038,10 @@ Using a closure for the allwords argument
 
 		return prev
 	end
+
+* `g`: the graph
+* `s`: the name of the starting point
+* `e`: the name of the endpoint
 
 Chapter 12
 -----------

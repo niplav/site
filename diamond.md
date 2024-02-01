@@ -39,6 +39,9 @@ skills.
 Description
 ------------
 
+The original (2-dimensional) diamond-square algorithm (in its simplest
+form) starts with a `$2^n+1 \times 2^n+1$` array of numbers.
+
 Code [here](code/diamond/ndim_diamond_square.py).
 
 ### Square
