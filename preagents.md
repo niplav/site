@@ -3,13 +3,13 @@
 
 *author: niplav, created: 2023-11-04, modified: 2023-11-04, language: english, status: notes, importance: 8, confidence: likely*
 
-> __Summary of a longer investigation into inconsistent preferences and
-how to resolve them. I investigate two different ways of representing
-inconsistent preferences, two different methods for resolving them
-into consistent preferences, how these perform on seven criteria, and
-how two of those criteria are incompatible. I conclude by connecting
-the question to ontological crises, and offer some ideas for further
-research in the area.__
+> __Summary of a longer investigation into [inconsistent
+preferences](./turning.html) and how to resolve them. I investigate two
+different ways of representing inconsistent preferences, two different
+methods for resolving them into consistent preferences, how these perform
+on seven criteria, and how two of those criteria are incompatible. I
+conclude by connecting the question to ontological crises, and offer
+some ideas for further research in the area.__
 
 Preagents and Value Formation
 ==============================

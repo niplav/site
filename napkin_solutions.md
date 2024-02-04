@@ -92,3 +92,26 @@ questions.
 
 Let `$g$` be the primite root modulo `$p$`. Then the isomorphism between
 `$ℤ/(p-1)ℤ \cong (ℤ/pℤ)^{\times}$` is `$\phi(x)=g^x \mod p$`.
+
+### Question 1.4.5
+
+* 0: Order 1 (it's already the identity element)
+* 1: Order 6, `$1+1+1+1+1+1 \mod 6=0$`
+* 2: Order 3 `$2+2+2 \mod 6=0$`
+* 3: Order 2 `$3+3 \mod 6=0$`
+* 4: Order 3 `$4+4+4 \mod 6=0$`
+* 5: Order 6 `$5+5+5+5+5+5 \mod 6=0$`
+
+### Exercise 1.5.6
+
+I don't quite get this question. I think I need *more* information about
+`$G$` in order to answer it? Otherwise all I can say about `$\langle x \rangle$`
+is that it contains 2015 elements (or alternatively infinitely many).
+
+### Problem 1A
+
+The joke here is that a group can only have a proper subgroup isomorphic
+to itself if the group is infinitely big. Hence, the person's love for
+their partner is infinite.
+
+Sweet.

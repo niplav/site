@@ -341,8 +341,8 @@ time on the internet, barely consciously scrolling
 reddit/twitter/lesswrong/4chan/…. Mercifully, I don't have exact
 numbers, but I would estimate that since I started using the internet
 ~10 years ago, I have spent ≥~1½h a day on it unproductively, giving
-me at least `$10*365*1.5h=5475h$` hours wasted. Had I poured half of
-that into honing a new skill, or acquiring a new one… But what is
+me at least `$10*365*1.5h=5475h$` wasted. Had I poured half of that
+into honing an existing skill, or acquiring a new one… But what is
 important is to avoid wasting another 5000h, instead of crying about
 the ones that had already fallen into a screen.
 

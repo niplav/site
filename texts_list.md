@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-01-25, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-02-04, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,23 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* The Safe-Deposit Box (Greg Egan, 1990)
+* [Blue or Green on Regulation? (Eliezer Yudkowsky, 2007)](https://www.lesswrong.com/posts/uaPc4NHi5jGXGQKFS/blue-or-green-on-regulation)
+* [100,000 Visits (Robin Hanson, 2007)](https://www.overcomingbias.com/p/100000_visitshtml)
+* [The Trouble With Track Records (Robin Hanson, 2007)](https://www.overcomingbias.com/p/the_trouble_withtml)
+* [Singleton (Greg Egan, 2002)](https://www.gregegan.net/MISC/SINGLETON/Singleton.html)
+* [Appearance of the Border (Greg Egan, 2002)](https://www.gregegan.net/SCHILD/Appearance/Appearance.html)
+* [Only Connect (Greg Egan, 2000)](https://www.gregegan.net/SCHILD/Connect/Connect.html)
+* The Evolution of Human Science (Ted Chiang, 2000)
+* Axiomatic (Greg Egan, 1990)
+* [In Bees, a Hunt for Roots of Social Behavior (Emily Singer, 2014)](https://www.quantamagazine.org/in-social-bees-and-loners-a-hunt-for-the-genes-behind-social-behavior-20140506/)
+* Seventy-Two Letters (Ted Chiang, 2000)
+* Blood Sisters (Greg Egan, 1991)
+* [The Thing and the Symbolic Representation of The Thing (Zvi, 2015)](https://www.lesswrong.com/posts/ZLB8cDM8DxwfxJSLc/the-thing-and-the-symbolic-representation-of-the-thing)
+* Division by Zero (Ted Chiang, 1991)
+* The Caress (Greg Egan, 1990)
+* [Newcastle-Ottawa scale (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Newcastle-Ottawa_Scale)
+* [Thoughts on LLM Agents (Fernando Borretti, 2024)](https://borretti.me/article/thoughts-llm-agents)
 * [Actually Personal Responsibility (Zack M. Davis, 2012)](https://zackmdavis.net/blog/2012/12/actually-personal-responsibility/index.html)
 * [Draft of a Letter to a Former Teacher, Which I Did Not Send Because Doing So Would Be a Bad Idea (Zack M. Davis, 2012)](https://zackmdavis.net/blog/2012/12/draft-of-a-letter-to-a-former-teacher-which-i-did-not-send-because-doing-so-would-be-a-bad-idea/index.html)
 * [Self-Esteem Is Overrated (Zack M. Davis, 2012)](https://zackmdavis.net/blog/2012/12/self-esteem-is-overrated/index.html)
@@ -417,7 +434,7 @@ ink/)
 * [The meta-institutional bottleneck (Eli Tyre, 2023)](https://musingsandroughdrafts.com/2023/09/24/the-meta-institutional-bottleneck/)
 * [Inside Views, Impostor Syndrome, and the Great LARP (johnswentworth, 2023)](https://www.lesswrong.com/posts/nt8PmADqKMaZLZGTC/inside-views-impostor-syndrome-and-the-great-larp)
 * [My simple hack for increased alertness and improved cognitive functioning: very bright light (chaosmage, 2013)](https://www.lesswrong.com/posts/Ag7oQifJQM5AnMCrR/my-simple-hack-for-increased-alertness-and-improved)
-* \* Core Transformation Foundation Training (Connirae Andreas/Tamara Andreas, 2021)
+* Core Transformation Foundation Training (Connirae Andreas/Tamara Andreas, 2021)
 * [The Soviet Union: Productive Efficiency (José Luis Ricón, 2016)](https://nintil.com/the-soviet-union-productive-efficiency)
 * [Differences in the Intensity of Valenced Experience across Species (Jason Schukraft, 2020)](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/H7KMqMtqNifGYMDft)
 * The Metropolitan Man (Alexander Wales, 2014)
