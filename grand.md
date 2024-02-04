@@ -575,3 +575,11 @@ topic of this book.
 > while at 90 atm pressure on Venus is challenging³⁹
 
 Missing period at the end of the sentence.
+
+#### 9.3.4 Accelerators
+
+##### Electromagnetic launchers
+
+> To approach relativistic velocities the barrel need to be longer than 100 AU
+
+"need" should be "needs".

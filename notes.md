@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-02-01, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-02-04, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1686,6 +1686,13 @@ One might think all we do is stamp-collecting.
 	* [Blood types](https://en.wikipedia.org/wiki/Blood_Types)
 * Psychology
 	* [Various proposed classifications of emotions](https://en.wikipedia.org/wiki/Classification_of_emotions)
+* Culture
+	* Music
+		* [Musical genres](https://en.wikipedia.org/wiki/List_of_musical_genres)<!--Link Data is Beautiful instead?-->
+		* [Musical instruments](https://en.wikipedia.org/wiki/Classification_of_Instruments), especially [percussion instruments](https://en.wikipedia.org/wiki/Classification_of_percussion_instruments)
+	* Food
+		* [Wines](https://en.wikipedia.org/wiki/Classification_of_wine)
+		* [Champagne](https://en.wikipedia.org/wiki/Classification_of_Champagne)
 * Meditation
 	* [Jhanas](https://en.wikipedia.org/wiki/Jhāna)
 	* Maps of insight
@@ -1694,9 +1701,7 @@ One might think all we do is stamp-collecting.
 A classification of classifications, if you will.
 
 Sporadic elements include classifications of
-[wines](https://en.wikipedia.org/wiki/Classification_of_wine) and
-[champagne](https://en.wikipedia.org/wiki/Classification_of_Champagne),
 [cars](https://en.wikipedia.org/wiki/Classification_of_cars),
-[demons](https://en.wikipedia.org/wiki/Classification_of_demons) and
+[demons](https://en.wikipedia.org/wiki/Classification_of_demons),
 [fairies](https://en.wikipedia.org/wiki/Classifications_of_fairies),
 and [swords](https://en.wikipedia.org/wiki/Classification_of_swords).

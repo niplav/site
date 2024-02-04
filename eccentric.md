@@ -591,7 +591,7 @@ find a similarly sized set of female participants, this doubles the cost
 to ~\\$872mio. Setting the experiment up to find participants who are
 actually celibate and not simply interested in the money or prostitution
 might pose some difficulty, but not be insurmountable.
-* __[Breeding superintelligent octopuses](https://www.lesswrong.com/posts/DaFG3GKsBrsAnAERR/save-humanity-breed-sapient-octopuses) or [parrots](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-intelligent-parrots)__
+* __[Breeding superintelligent octopuses](https://www.lesswrong.com/posts/DaFG3GKsBrsAnAERR/save-humanity-breed-sapient-octopuses) or [parrots](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-intelligent-parrots)__<!--TODO: add twitter calculation here, cleaned up & elaborated-->
 * __Cloning Extinct Animals__ In order: Passenger Pigeons, Thylacines, Dodos, Great Auks, Wooly Mammoths, the Tarpan horse, Neanderthals, [John von Neumann](https://fantasticanachronism.com/2021/03/23/two-paths-to-the-future/), Srinivasa Ramanujan… Comparable to the revival of the (2000 years extinct) [Judean date palm](https://en.wikipedia.org/wiki/Judean_date_palm) and the (32k years extinct) [*silene stenophylla*](https://en.wikipedia.org/wikipedia.org/wiki/Silene_stenophylla).
 * __Masturbation research__
 * __Explorables for causal inference__

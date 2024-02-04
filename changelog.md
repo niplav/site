@@ -31,6 +31,9 @@ February 2024
 	* [Exercise 1.1.18](./napkin_solutions.html#Exercise_1118)
 	* [Exercise 1.2.6](./napkin_solutions.html#Exercise_126)
 	* [Exercise 1.3.5](./napkin_solutions.html#Exercise_135)
+	* [Question 1.4.5](./napkin_solutions.html#Question_145)
+	* [Exercise 1.5.6](./napkin_solutions.html#Exercise_156)
+	* [Problem 1A](./napkin_solutions.html#Problem_1A)
 * [Notes](./notes.html)
 	* [Scientific and Other Classifications](./notes.html#Scientific_and_Other_Classifications)
 
