@@ -23,10 +23,10 @@ library for handling those datasets. Code and data available
 So far it contains data from:
 
 * The [Good Judgment Project](https://en.wikipedia.org/wiki/The_Good_Judgment_Project): ~790k market trades+~3.14m survey predictions≈3.9m forecasts
-* The [Metaculus public API](https://www.metaculus.com/api2/schema/redoc/): ~210k forecasts
+* The [Metaculus public API](https://www.metaculus.com/api2/schema/redoc/): ~390k forecasts
 * [PredictionBook](https://predictionbook.com/): ~64k forecasts
 
-for a total of ~4.2m forecasts, as well as code for handling private
+for a total of ~4.38m forecasts, as well as code for handling private
 [Metaculus](https://metaculus.com) data (available to researchers on
 request to Metaculus), but I plan to also add data from various other
 sources.
@@ -141,7 +141,7 @@ Acknowledgements
 -----------------
 
 Credits go to [Arb Research](https://arbresearch.com/) for funding the
-first 85% of this work, and Misha Yagudin in particular for guidance
+first 80% of this work, and Misha Yagudin in particular for guidance
 and mentorship.
 
 Thanks also to [hrosspet](https://github.com/hrosspet) for making the

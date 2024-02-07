@@ -17,6 +17,11 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* \* Designing Data-Intensive Applications (Martin Kleppmann, 2017)
+* [Is There Suffering in Fundamental Physics? (Brian Tomasik, 2020)](https://reducing-suffering.org/is-there-suffering-in-fundamental-physics/)
+* Luminous (Greg Egan, 1995)
+* A Kidnapping (Greg Egan, 1995)
+* Seeing (Greg Egan, 1995)
 * The Safe-Deposit Box (Greg Egan, 1990)
 * [Blue or Green on Regulation? (Eliezer Yudkowsky, 2007)](https://www.lesswrong.com/posts/uaPc4NHi5jGXGQKFS/blue-or-green-on-regulation)
 * [100,000 Visits (Robin Hanson, 2007)](https://www.overcomingbias.com/p/100000_visitshtml)
