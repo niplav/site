@@ -115,3 +115,5 @@ to itself if the group is infinitely big. Hence, the person's love for
 their partner is infinite.
 
 Sweet.
+
+### Problem 1B
