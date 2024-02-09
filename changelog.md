@@ -36,6 +36,14 @@ February 2024
 	* [Problem 1A](./napkin_solutions.html#Problem_1A)
 * [Notes](./notes.html)
 	* [Scientific and Other Classifications](./notes.html#Scientific_and_Other_Classifications)
+* [Some Civilizational Inadequacies](./inadequacies.html): Collected some [civilizational *adequacies*](./inadequacies.html#None)
+
+### Links
+
+Mainly read books this month.
+
+* [Is There Suffering in Fundamental Physics? (Brian Tomasik, 2020)](https://reducing-suffering.org/is-there-suffering-in-fundamental-physics/)
+* [Luminous (Greg Egan, 1995)](https://en.wikipedia.org/wiki/Luminous_\(book\)), especially the titular short story. Incredible philosophical fiction.
 
 January 2024
 -------------
