@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-02-04, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-02-07, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -743,15 +743,15 @@ I've found spaced repetition to be very useful).
 10. Doorframe
 	* Trigger: I walk through a doorframe
 	* Action: I straighten my back, put my shoulders back
+11. Disabling web blocker
+	* Trigger: I try to disable Leechblock in my browser
+	* Action: I take a walk around the block
 
 ### Dropped
 
 1. Take the keys
 	* Trigger: I stand up from my desk at work
 	* Action: I put my keys in my pocket
-2. Disabling web blocker
-	* Trigger: I try to disable Leechblock in my browser
-	* Action: I take a walk around the block
 
 ### See Also
 
@@ -1392,6 +1392,8 @@ not work.
 </ul>
 </div>
 
+Now please, guys, don't make me create one for AI governance proposals.
+
 Nothing to See Here, Just An Implementation of HodgeRank
 ----------------------------------------------------------
 
@@ -1636,9 +1638,9 @@ One might think all we do is stamp-collecting.
 		* [Wallpaper groups](https://en.wikipedia.org/wiki/Wallpaper_groups)
 		* [Space groups](https://en.wikipedia.org/wiki/Wallpaper_groups)
 		* [Bieberbach groups](https://en.wikipedia.org/wiki/Bieberbach_group)
-	* Classification of reversible bit operations<!--TODO: link aaronson paper here!-->
+	* [Classification of reversible bit operations](https://arxiv.org/abs/1504.05155)
 		* Also [Post's lattice](https://en.wikipedia.org/wiki/Post's_lattice)
-	* Complexity classes and their relations
+	* [Complexity classes](https://en.wikipedia.org/wiki/List_of_complexity_classes) and their relations
 		* [Arithmetic hierarchy](https://en.wikipedia.org/wiki/Arithmetic_hierarchy)
 		* [Polynomial hierarchy](https://en.wikipedia.org/wiki/Polynomial_hierarchy)
 		* [Chomsky hierarchy](https://en.wikipedia.org/wiki/Chomsky_Hierarchy)

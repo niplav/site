@@ -39,9 +39,11 @@ gov/ -->
 * Courses at university are not 3blue1brown + Q&A + extensive quizzes (or automated tutoring à la DARPA)
 * TSA security theater
 * A lot of terminology in mathematics, for example using "numerator"/"denominator" instead of "upper number"/"lower number" when talking about [fractions](https://en.wikipedia.org/wiki/Fraction) (which would be vastly easier to understand/remember *and* in one case even has fewer syllables)
-* Recycling
 * People wear glasses and usually clean the *lenses*, but I've never heard of anyone who washes the *frame* of their glasses, despite wearing them on their face nearly the entire day.
-* Instead of writing Bachelor's theses, students could simply improve or write Wikipedia articles
+	* Other frequently used and rarely cleaned objects: Salt shakers and pepper mills, laptop keyboards, smartphones, (smart)watches. One might be tempted to argue that this infrequent cleaning is evidence that we are overly obsessive over cleanliness.
+* Instead of writing Bachelor's theses, students could simply improve or write Wikipedia articles.
+* Most recycling
+* [Pennies](https://en.wikipedia.org/wiki/Penny_debate_in_the_United_States), 1-cent and 2-cent coins (still present despite [a plurality of citizens in *all eurozone countries* being in favor of abolishing the 1-cent coin](https://europa.eu/eurobarometer/surveys/detail/2291))
 
 ### Fragile Tableware
 
@@ -103,3 +105,19 @@ to do this properly in Turing, maybe download documentation-->.
 Note that this code only estimates the costs of fragile tableware, and
 makes no statements about the costs of e.g. switching to alternative
 materials.
+
+Appendix A: Civilizational *Adequacies*
+----------------------------------------
+
+I use the term "civilizational adequacy" in a very strict sense here:
+Areas where our world surprisingly overperforms, implementing policies or
+having institutions that, given one were to observe them, would indicate
+our civiliation being adequate in many other dimensions too. "Mundane"
+but still impressive infrastructure doesn't count, even though it's
+really good.
+
+* [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System), impressive because it uses both special and general relativity
+* The swift implementation of the [Montréal Protocol](https://en.wikipedia.org/wiki/Montreal_Protocol) after we discovered the growing [ozone hole](https://en.wikipedia.org/wiki/Ozone_Hole)
+* [Aviation safety](https://en.wikipedia.org/wiki/Aviation_safety)
+* [Spectrum auctions](https://en.wikipedia.org/wiki/Spectrum_auction), especially the [structure](https://en.wikipedia.org/wiki/Spectrum_auction#Auction_structure) of the US auctions and of the [UK](https://en.wikipedia.org/wiki/Paul_Klemperer#Public_policy) revenue maximising auctions, earning the UK government multiple billions dollars more
+* Efforts at asteroid mapping and [defense](https://en.wikipedia.org/wiki/Double_Asteroid_Redirection_Test) efforts, in my humble opinion adequate for the relatively small annual risk (though we're not yet prepared); [Ord 2020](https://en.wikipedia.org/wiki/The_Precipice_\(book\)) estimates a chance of extinction of 1:1 mio. per century due to asteroid impact.

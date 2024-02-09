@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2024-01-23, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2024-02-08, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of puns, good bandnames, types of guy,
 idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
@@ -237,11 +237,6 @@ paradox, but not paragnosis, paratechnē and paraëpistēmē
 
 some Xs, every X?
 
-#### Missing Words
-
-* eating : drinking :: feeding : ?
-* hungry: satiated :: thirsty : quenched :: horny : ? ("That's my secret—I'm *always* horny." \*hulk transform\*)
-
 Types of Guy
 -------------
 
@@ -383,6 +378,11 @@ Equivalences
 * [Bullwhip effect](https://en.wikipedia.org/wiki/Bullwhip_Effect) : markets :: [exploding gradients](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) : neural network training :: epilepsy : brains :: [cytokine storm](https://en.wikipedia.org/wiki/Cytokine_Storm) : immune systems :: [hypereutrophy](https://en.wikipedia.org/wiki/Trophic_State_Index#Hypereutrophic) : ecosystems :: meditation : jhanas<!--TODO: add link to own & Gavin's tweet-->
 * Editors : Wikipedia :: hot women : dating apps
 
+#### Missing Words
+
+* eating : drinking :: feeding : ?
+* hungry: satiated :: thirsty : quenched :: horny : ? ("That's my secret—I'm *always* horny." \*hulk transform\*)
+
 2×2s, 2×3s and more
 --------------------
 
@@ -454,8 +454,8 @@ Advertising Lines
 * Niplav Yushtun™: Pathological Selfer
 * Niplav Yushtun™: [Now an effective cause area!](https://schelling.pt/web/statuses/107888052139408526)
 * Niplav Yushtun™: Calibration of the Intellect, Optimism of the Will
-* Niplav Yushtum™: Mostly a Reputation Hazard
-* Niplav Yushtum™: Midwit With High Need for Cognition
+* Niplav Yushtun™: Mostly a Reputation Hazard
+* Niplav Yushtun™: Midwit With High Need for Cognition
 * Niplav Yushtun™: Can It Export the Data to CSV?
 
 Unclaimed Domain Names

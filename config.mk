@@ -5,7 +5,6 @@ CONF=config.mk header.html main.css
 HTML=index.html \
 	attic/eacrit.html \
 	attic/life_improvements_2030.html \
-	attic/oldpreagent.html \
 	attic/reward.html \
 	attic/third.html \
 	about.html \
