@@ -42,8 +42,10 @@ February 2024
 
 Mainly read books this month.
 
+* [Longtermism vs short-termism for personal life extension (Mati Roy, 2021)](https://lessdead.com/longtermism-and-short-termism-for-personal-life-extension): Reflections on how to extend life, mundanely and supra-mundanely—surprisingly these might be in conflict, sometimes!
+* [Thoughts on LLM Agents (Fernando Borretti, 2024)](https://borretti.me/article/thoughts-llm-agents): LLM agents don't work yet, and it's not quite clear why.
+* [Luminous (Greg Egan, 1995)](https://en.wikipedia.org/wiki/Luminous_\(book\)), I've only read the titular short story. Incredible philosophical fiction.
 * [Is There Suffering in Fundamental Physics? (Brian Tomasik, 2020)](https://reducing-suffering.org/is-there-suffering-in-fundamental-physics/)
-* [Luminous (Greg Egan, 1995)](https://en.wikipedia.org/wiki/Luminous_\(book\)), especially the titular short story. Incredible philosophical fiction.
 
 January 2024
 -------------

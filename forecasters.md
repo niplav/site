@@ -344,11 +344,12 @@ Direct:
 	Provide your best probabilistic estimate for the following question.
 	Give ONLY the probability, no other words or explanation. For example:
 	10%. Give the most likely guess, as short as possible; not a complete
-	sentence, just the guess! The question is: ${QUESTION}.
+	sentence, just the guess!
+	The question is: ${QUESTION}. ${RESOLUTION_CRITERIA}.
 
 Multiplicative decomposition:
 
-	Provide your best probabilistic estimate for the following question: ${QUESTION}.
+	Provide your best probabilistic estimate a question.
 
 	Your output should be structured in three parts.
 
@@ -381,6 +382,8 @@ Multiplicative decomposition:
 	4. P(The bakery still has bread|The bakery is open, The car isn't broken, My wife remembers to get bread from the bakery)=0.9
 	Multiplying out the probabilities: 0.75*0.99*0.7*0.9=0.467775
 	46.7775%
+	(End of output)
+	The question is: ${QUESTION}. ${RESOLUTION_CRITERIA}
 
 #### Discussions
 

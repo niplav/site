@@ -17,6 +17,11 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* The Cutie (Greg Egan, 1989)
+* The Walk (Greg Egan, 1992)
+* [Longtermism vs short-termism for personal life extension (Mati Roy, 2021)](https://lessdead.com/longtermism-and-short-termism-for-personal-life-extension)
+* [Believing In (Anna Salamon, 2024)](https://www.lesswrong.com/posts/duvzdffTzL3dWJcxn/believing-in-1)
+* [Hilbert curve scheduling (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Hilbert_curve_scheduling)
 * The Vat (Greg Egan, 1990)
 * Mitochondrial Eve (Greg Egan, 1995)
 * Learning To Be Me (Greg Egan, 1990)
@@ -548,7 +553,7 @@ ink/)
 * [A Missing Genetic Link in Human Evolution (Emily Singer, 2014)](https://www.quantamagazine.org/a-missing-genetic-link-in-human-evolution-20140102/)
 * [Physicists Eye Quantum-Gravity Interface (Natalie Wolchover, 2013)](https://www.quantamagazine.org/new-experiments-to-pit-quantum-mechanics-against-general-relativity-20131031/)
 * [The Soviet Union: The Food consumption puzzle (José Luis Ricón, 2016)](https://nintil.com/the-soviet-union-food)
-* [You’re Not Going Anywhere (Fernando Boretti, 2023)](https://borretti.me/article/youre-not-going-anywhere)
+* [You’re Not Going Anywhere (Fernando Borretti, 2023)](https://borretti.me/article/youre-not-going-anywhere)
 * [In Brain’s ‘Rich Club,’ Meetings of the Mind (Emily Singer, 2013)](https://www.quantamagazine.org/in-brains-rich-club-meetings-of-the-mind-20131024/)
 * [Theanine (Bill Willis, 2022)](https://examine.com/supplements/theanine/research/)
 * [A New Tool to Help Mathematicians Pack (Natalie Wolchover, 2013)](https://www.quantamagazine.org/mathematical-progress-on-sphere-packing-optimization-problems-20131220/)
