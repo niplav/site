@@ -117,3 +117,20 @@ their partner is infinite.
 Sweet.
 
 ### Problem 1B
+
+If we allow __Fact 1.4.7__ to be given, then this is easy
+to prove: If `$\text{ord } g$` must divide `$|G|$` then
+`$g^{|G|}=g^{\frac{|G|}{\text{ord }g} \cdot \text{ord }g}=1_G^{\frac{|G|}{\text{ord }g}}=1_G$`.
+
+However, if we can't assume __Fact 1.4.7__ then we haven't made our
+job easier.
+
+Assume `$\text{ord } g$` does not divide `$|G|$`. Then it is either the
+case that (1) `$\text{ord } g<|G|$` or (2) `$\text{ord } g>|G|$`.
+
+1. Dunno?
+2. In this case, by the pigeonhole principle, there must be some `$i, j \in ℕ$` so that `$g^i=g^j$`, with `$i<j<\text{ord } g$`. But then `$g^j \cdot g^{\text{ ord} g-j}=1$`, but then also `$g^i \cdot g^{\text{ ord} g-j} \not =1$`, even though they are the same operation. This can't be the case, so we exclude `$\text{ord } g>|G|$`.
+
+### Problem 1C
+
+Let the isomorphism `$\phi$` be as follows<!--TODO-->

@@ -11,6 +11,7 @@ HTML=index.html \
 	changelog.html \
 	content_warning.html \
 	contributions.html \
+	fullindex.html \
 	now.html \
 	todo.html \
 	uses_this.html \
