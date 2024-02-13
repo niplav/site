@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2023-07-22, language: english, status: maintenance, importance: 7, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2024-02-13, language: english, status: maintenance, importance: 7, confidence: remote*
 
 > __Is [cryonics](https://en.wikipedia.org/wiki/Cryonics)
 worth it, and if yes, should one
@@ -925,33 +925,40 @@ in the future to \\$50000.
 *— [Gwern Branwen](https://www.gwern.net), [“Plastination versus Cryonics”](https://www.gwern.net/plastination), 2014*
 
 Besides these estimates, there exist also two related questions
-on the prediction website Metaculus. ["Before 1 January 2050,
-will any human cryonically preserved for at least 1 year be successfully
-revived?"](https://www.metaculus.com/questions/1626/before-1-january-2050-will-any-human-cryonically-preserved-for-at-least-1-year-be-successfully-revived/)
-has a median probability of 16% (n=117)<!--TODO: now 4% with n=403-->, ["If
-you die today and get cryonically frozen, will you "wake
-up"?"](https://www.metaculus.com/questions/455/if-you-die-today-and-get-cryonically-frozen-will-you-wake-up/)
-receives 2% (n=407)<!--now 5% with n=702-->. I am not sure where the difference comes from,
-perhaps either from worries about the quality of current preservation or
-from a low trust in the longevity of cryonics organisations. [This google
+on the prediction website Metaculus.<!--TODO: dig out manifold questions on this-->
+
+* ["If you die today and get cryonically frozen, will you "wake up"?"](https://www.metaculus.com/questions/455/if-you-die-today-and-get-cryonically-frozen-will-you-wake-up/) receives 5% (n=436).
+* ["What percentage of people cryopreserved between 2020 and 2050 will be revived by 2200?"](https://www.metaculus.com/questions/4785/what-percentage-of-people-cryopreserved-between-2020-and-2050-will-be-revived-by-2200/) has a community prediction of 2.138% (n=44).
+
+I am not sure where the difference comes from, perhaps either
+from worries about the quality of current preservation or from
+a low trust in the longevity of cryonics organisations. [This google
 sheet](https://docs.google.com/spreadsheets/d/1qn7c7rYmYx3KtqvhXTUGiiyuBk5e9kG3sA3jF-4zk6U/)
 contains 7 estimates of success: 0.04%, 0.223%, 29%, 6.71%, 14.86%,
 0.23% and 22.8%, with various different models underlying these estimates.
 
-Calculating the mean of these results in a chance of ~13%:
+For forecast aggregation, the [geometric mean of odds is currently
+SOTA](https://forum.effectivealtruism.org/s/hjiBqAJNKhfJFq7kf/p/sMjcjnnpoAQCcedL2),
+so we will be using that, which results in a chance of ~13%:
 
-<div>
-	$$\frac{0.2\%+15\%+13\%+77\%+85\%+6\%+23\%+9\%+17\%+0.2\%+1100*18\%+59*12\%+117*16\%+407*2\%+0.04\%+0.223\%+29\%+6.71\%+14.86\%+0.23\%+22.8\%}{1700} \approx 13.83\%$$
-</div>
+<!--TODO: maybe load individual forecasts from Metaculus private data?-->
 
-<!--TODO: use a better method for aggregation, such as geometric mean of log-odds or Neyman aggregation, for this-->
+	import numpy as np
+	>>> probs=np.array([0.002, 0.15, 0.13, 0.77, 0.85, 0.06, 0.23, 0.09, 0.17, 0.002]+1100*[0.18]+59*[0.12]+436*[0.05]+44*[0.02138]+[0.0004]+[0.00223]+[0.29]+[0.0671]+[0.1486]+[0.23]+[0.228])
+	>>> odds=probs/(1-probs)
+	>>> statistics.geometric_mean(odds)
+	0.1379626857389968
 
-It would certainly be interesting to set up a prediction market for this
-question, or get a team of superforecasters to estimate it, but basically,
-it seems like for a young or middle-aged person, the estimated probability
-is around 10%. However, the people surveyed are often sympathetic to
-cryonics or even signed up, and people in general are overconfident,
-so being conservative by halving the estimate seems like a good idea.
+(If we remove the numbers from the 2012 LessWrong Survey, the aggregated
+probability drops to ~5%.)
+
+It would certainly be interesting to set up a prediction market for
+this question, or get a team of superforecasters to estimate it,
+but basically, it seems like for a young or middle-aged person, the
+estimated probability is around 10%. However, the people surveyed are
+often sympathetic to cryonics or even signed up. People are in general
+overconfident, things generally don't happen, so being conservative by
+halving the estimate seems like a good idea.
 
 	prob_succ=0.05
 
@@ -959,6 +966,12 @@ This is quite pessimistic: It assumes that cryobiology will make no
 progress *whatsoever* in the fidelity of the preserved tissue (remember,
 the probabilities given are usually for the success of a preservation
 given that it happens *now*).
+
+#### Other Relevant Questions
+
+* ["Before 1 January 2050, will any human cryonically preserved for at least 1 year be successfully revived?"](https://www.metaculus.com/questions/1626/before-1-january-2050-will-any-human-cryonically-preserved-for-at-least-1-year-be-successfully-revived/) has a median probability of 2% (n=260).
+* ["Will any person that has been cryopreserved for more than 1 year be resuscitated or emulated before 2200?"](https://www.metaculus.com/questions/3330/will-any-person-that-has-been-cryopreserved-for-more-than-1-year-be-resuscitated-or-emulated-before-2200/): 57% (n=63).
+* ["What will the earliest preservation date of any resuscitated cryonics patient be?"](https://www.metaculus.com/questions/3382/what-will-the-earliest-preservation-date-of-any-resuscitated-cryonics-patient-be/) with a community prediction of ~2060 (n=49).
 
 ### Years Gained
 
