@@ -323,12 +323,13 @@ For a rough attempt to formalize this, see [TurnTrout & elriggs
 
 ### We Should Kill All Mosquitoes
 
-If we assign a non-miniscule amount of credence to [retributive
-theories of justice](https://en.wikipedia.org/wiki/Retributive_justice)
-that include invertebrates as culpable agents, humanity might have
-an (additional) duty to exterminate mosquitoes. Between [5% and
-50%](https://en.wikipedia.org/wiki/Mosquito) of all humans that have
-ever lived have been killed by mosquito-born diseases—if humanity
+If we assign a non-miniscule amount of credence to [retributive theories
+of justice](https://en.wikipedia.org/wiki/Retributive_justice)
+that include invertebrates as culpable agents, humanity might
+have an (additional) duty to exterminate mosquitoes. Between
+[5% and 50%](https://en.wikipedia.org/wiki/Mosquito)<!--TODO:
+this is incorrect, change!--> of all humans that have ever
+lived have been killed by mosquito-born diseases—if humanity
 wants to restore justice for all past humans that have died at the
 [proboscis](https://en.wikipedia.org/wiki/Proposcis) of mosquito, the
 most sensible course of action is to exterminate some or all species of
