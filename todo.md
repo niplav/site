@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2023-07-01, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2024-02-16, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -125,7 +125,6 @@ Existing Texts
 		* Southern Cryonics
 		* Kriorus (maybe not though, after the recent debacle)
 			* Expand the section on the Guesstimate model
-	* Incorporate updated Metaculus probabilities
 	* Make interactive calculator
 	* Add net-present value
 * Abstinence from Masturbation and Success from Cold Approach
@@ -557,8 +556,6 @@ Texts
 	* Sex & violence & maybe children weirdness in our culture
 	* Why are we so okay with violence in movies & series, and so cucked about sex & sexuality?
 		* Isn't sex good & violence bad‽
-* Maybe a car rant
-* Argument against polyamory
 * Bitcoin maximalism is not even wrong
 * Forecasting Track Records: Still Underrated
 	* Argument: Metrics can be Goodharted. Answer: "A solution is technical if it is precise enough to be Goodharted and social if it is imprecise enough to be used to coalitionally extract value"
@@ -1700,10 +1697,6 @@ Programming
 
 ### Contributions
 
-* mupdf
-	* implement unicode search
-	* improve search overall, lacking
-	* why don't ← and → work for next/prev page?
 * myrddin
 	* documentation: "and modern features with a high cost-benefit ratio"
 	* cost/benefit is high? Clarify
@@ -1768,18 +1761,10 @@ Programming
 	* Add option to change the notification sound
 * Find schelling.pt thread for bugs
 * pandas apply to Expanding allows only single float values, not tables
-* Add finding on minimal feedback arc sets and HodgeRank to networkx
 * numpy unique that doesn't require sortability, just comparability
 * Anki doesn't let you set the backup directory
 * Julia
 	* repl only goes back one item in history through keypress up
-* dc 9base manpage:
-	* typo in the order of operations in the manpage
-
-> \+ - / * % ^
->	Add subtract multiply divide remainder or exponentiate the top
->	two values on the stack.
-
 * Make GNU fmt respect unicode:
 	*	Formatting
 		"∸∸∸∸∸ ∸∸∸∸ ∸∸∸∸ ∸∸∸∸∸
@@ -1796,7 +1781,6 @@ produces
 	* Also package that integrates it with `vis`
 	* Specific vis package for Wikipedia titles
 		* With sections?
-* `yt-dlp`: Add option for downloading substack podcast
 
 #### Void Packages
 
@@ -1945,15 +1929,8 @@ In-World Projects
 	* domain name egregome.industries or just revive schelling.pt when it becomes available
 * Arrange Slavoj Žižek to be an EAG keynote speaker
 * 80,000 hours add German organisations
-* Headstrap for airplane sleeping
-* Apartment swapping startup
 * Shipping startup
 * Backup libgen/scihub/arxiv/biorxiv/psyrxiv
 * Start a notebook academic journal (as in Jupyter Notebook)
-* Build good color vision test website
 * Improve harbergertax.com
-* Startup: Generalized prediction market alert system à la https://hasrussialaunchednukesyet.com/
-* Startup: RCTs as a service
-* Website for interacting with word2vec
 * Create a `.based` TLD
-* Startup: We run RCTs on your employees, to improve your productivity

@@ -36,27 +36,18 @@ Schiller, 1805).
 
 #### Insightful
 
-My favorite insightful blogposts/online essays are [Making
-Beliefs Pay Rent (in Anticipated Experiences) (Eliezer Yudkowsky,
-2007)](https://www.lesswrong.com/s/7gRSERQZbqTuLX5re/p/a7n8GdKiAZRX86T5A),
-[Software engineers solve problems (Drew DeVault,
-2020)](https://drewdevault.com/2020/08/17/Engineers-solve-problems.html),
-[How To Be Attractive (Hotel Concierge,
-2016)](https://hotelconcierge.tumblr.com/post/140529495929/how-to-be-attractive),
-[Meditations on Moloch (Scott Alexander,
-2013)](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/),
-[Being the (Pareto) Best in the World (johnswentworth,
-2019)](https://www.lesswrong.com/posts/XvN2QQpKTuEzgkZHY/being-the-pareto-best-in-the-world),
-[The Curse Of The Counterfactual (pjeby,
-2019)](https://www.lesswrong.com/posts/E4zGWYzh6ZiG85b2z),
-[My current high-level strategic picture of the world (Eli Tyre,
-2021)](https://musingsandroughdrafts.wordpress.com/2021/03/24/my-current-high-level-strategic-picture-of-the-world/),
-[Humans are not automatically strategic (Anna Salamon,
-2010)](https://www.lesswrong.com/posts/PBRWb2Em5SNeWYwwB/humans-are-not-automatically-strategic),
-[The Forces of Blandness and the Disagreeable Majority (sarahconstantin,
-2019)](https://www.lesswrong.com/posts/KHunHoNd2fckwaRxz),
-and [Science, the Constructionists, and Reality (John Nerst,
-2017)](https://everythingstudies.com/2017/03/06/science-the-constructionists-and-reality/).
+My favorite insightful blogposts/online essays are:
+
+* [Making Beliefs Pay Rent (in Anticipated Experiences) (Eliezer Yudkowsky, 2007)](https://www.lesswrong.com/s/7gRSERQZbqTuLX5re/p/a7n8GdKiAZRX86T5A)
+* [Software engineers solve problems (Drew DeVault, 2020)](https://drewdevault.com/2020/08/17/Engineers-solve-problems.html)
+* [How To Be Attractive (Hotel Concierge, 2016)](https://hotelconcierge.tumblr.com/post/140529495929/how-to-be-attractive)
+* [Meditations on Moloch (Scott Alexander, 2013)](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/)
+* [Being the (Pareto) Best in the World (johnswentworth, 2019)](https://www.lesswrong.com/posts/XvN2QQpKTuEzgkZHY/being-the-pareto-best-in-the-world)
+* [The Curse Of The Counterfactual (pjeby, 2019)](https://www.lesswrong.com/posts/E4zGWYzh6ZiG85b2z)
+* [My current high-level strategic picture of the world (Eli Tyre, 2021)](https://musingsandroughdrafts.wordpress.com/2021/03/24/my-current-high-level-strategic-picture-of-the-world/)
+* [Humans are not automatically strategic (Anna Salamon, 2010)](https://www.lesswrong.com/posts/PBRWb2Em5SNeWYwwB/humans-are-not-automatically-strategic)
+* [The Forces of Blandness and the Disagreeable Majority (sarahconstantin, 2019)](https://www.lesswrong.com/posts/KHunHoNd2fckwaRxz)
+* [Science, the Constructionists, and Reality (John Nerst, 2017)](https://everythingstudies.com/2017/03/06/science-the-constructionists-and-reality/)
 
 #### Practical
 
