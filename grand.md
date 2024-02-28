@@ -583,3 +583,10 @@ Missing period at the end of the sentence.
 > To approach relativistic velocities the barrel need to be longer than 100 AU
 
 "need" should be "needs".
+
+## 10 Intergalactic Settlement
+
+> The most fundamental differences are that the environment between
+galaxies appear far more dust-free than inside galaxies
+
+Should be "appears" instead of "appear".

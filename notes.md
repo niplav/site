@@ -1316,7 +1316,8 @@ Economic Policy Checklist
 --------------------------
 
 Courtesy of the [programming language
-checklist](https://www.mcmillen.dev/language_checklist.html).
+checklist](https://www.mcmillen.dev/language_checklist.html) and the
+[spam filter solution checklist](https://craphound.com/spamsolutions.txt).
 
 So you're proposing a new economic policy. Here's why your policy will
 not work.
@@ -1647,7 +1648,7 @@ One might think all we do is stamp-collecting.
 	* Stability theory
 		* [Poincaré maps](https://en.wikipedia.org/wiki/Poincaré_map) of linear [autonomous systems](https://en.wikipedia.org/wiki/Autonomous_system_\(Mathematics\))
 	* Game theory
-		* [Classification](https://www.lesswrong.com/s/yiFxBWDXnLpbWGTkK/p/KwbJFexa4MEdhJbs4) of `$2 \times 2$` normal-form games<!--TODO: book or paper on this-->
+		* [Classification](https://www.lesswrong.com/s/yiFxBWDXnLpbWGTkK/p/KwbJFexa4MEdhJbs4) of [`$2 \times 2$` normal-form games](https://arxiv.org/pdf/1010.4727.pdf)
 * Physics
 	* [Standard Model](https://en.wikipedia.org/wiki/Stellar_Classification)
 		* Classifies all [fundamental particles](https://en.wikipedia.org/wiki/Fundamental_particles)
@@ -1697,7 +1698,7 @@ One might think all we do is stamp-collecting.
 		* [Champagne](https://en.wikipedia.org/wiki/Classification_of_Champagne)
 * Meditation
 	* [Jhanas](https://en.wikipedia.org/wiki/Jhāna)
-	* Maps of insight
+	* [Maps](https://www.integrateddaniel.info/mind-maps) [of insight](https://www.dharmaoverground.org/dharma-wiki/-/wiki/Main/MCTB+The+Progress+of+Insight)
 * [Dewey Decimal classification](https://en.wikipedia.org/wiki/Dewey_Decimal_System)
 
 A classification of classifications, if you will.

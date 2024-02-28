@@ -37,6 +37,7 @@ February 2024
 * [Notes](./notes.html)
 	* [Scientific and Other Classifications](./notes.html#Scientific_and_Other_Classifications)
 * [Some Civilizational Inadequacies](./inadequacies.html): Collected some [civilizational *adequacies*](./inadequacies.html#None)
+* Minor updates to the forecasting dataset library [iqisa](./iqisa.html).
 
 ### Links
 
@@ -45,7 +46,9 @@ Mainly read books this month.
 * [Longtermism vs short-termism for personal life extension (Mati Roy, 2021)](https://lessdead.com/longtermism-and-short-termism-for-personal-life-extension): Reflections on how to extend life, mundanely and supra-mundanely—surprisingly these might be in conflict, sometimes!
 * [Thoughts on LLM Agents (Fernando Borretti, 2024)](https://borretti.me/article/thoughts-llm-agents): LLM agents don't work yet, and it's not quite clear why.
 * [Luminous (Greg Egan, 1995)](https://en.wikipedia.org/wiki/Luminous_\(book\)), I've only read the titular short story. Incredible philosophical fiction.
-* [Is There Suffering in Fundamental Physics? (Brian Tomasik, 2020)](https://reducing-suffering.org/is-there-suffering-in-fundamental-physics/)
+* [Cause X – What Will the New Shiny Effective Altruist Cause Be? (Andrés Gomez Emilsson, 2019)](https://qualiacomputing.com/2019/02/07/cause-x-what-will-
+the-new-shiny-effective-altruist-cause-be/): Results from a little contest run among friends to find a new Cause X in Effective Altruism. Coolest proposal: investigating the ethical importance of [exotic phenomenal time](https://qualiacomputing.com/2018/11/28/the-pseudo-time-arrow-explaining-phenomenal-time-with-implicit-causal-structures-in-networks-of-local-binding/), for example "moments of eternity" for their ethical relevance. Also, for some reason, people have stopped talking about Cause X. I wonder why that is.
+	* Obviously related: [Is There Suffering in Fundamental Physics? (Brian Tomasik, 2020)](https://reducing-suffering.org/is-there-suffering-in-fundamental-physics/)
 
 January 2024
 -------------
