@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-02-07, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-03-04, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1708,3 +1708,91 @@ Sporadic elements include classifications of
 [demons](https://en.wikipedia.org/wiki/Classification_of_demons),
 [fairies](https://en.wikipedia.org/wiki/Classifications_of_fairies),
 and [swords](https://en.wikipedia.org/wiki/Classification_of_swords).
+
+A FIRE Upon the Deep
+---------------------
+
+Consider the problem of being automated away in a period of human history
+with explosive growth, and having to subsist on one's capital. Property
+rights are respected, but there is no financial assistance by governments
+or AGI corporations.
+
+What wealth does one need to have to survive, ideally indefinitely?
+
+At the moment, the world economy is growing at a pace that leads to
+doublings in [GWP](https://en.wikipedia.org/wiki/Gross_World_Product)
+every 20 years, steadily since ~1960. Explosive growth might instead be
+[hyperbolic](https://sideways-view.com/2017/10/04/hyperbolic-growth/)
+(continuing the trend [we've seen seen through human history so
+far](https://www.openphilanthropy.org/blog/modeling-human-trajectory)),
+with the economy first doubling in 20, then in 10, then in 5, then
+2.5, then 15 months, and so on. I'll assume that the smallest time for
+doublings is 1 year.
+
+	initial_doubling_time=20
+	final_doubling_time=1
+	initial_growth_rate=2^(1/(initial_doubling_time*12))
+	final_growth_rate=2^(1/(final_doubling_time*12))
+
+	function generate_growth_rate_array(months::Int)
+	    growth_rate_array = zeros(Float64, years)
+	    growth_rate_step = (final_growth_rate - initial_growth_rate) / (years - 1)
+
+	    current_growth_rate = initial_growth_rate
+
+	    for i in 1:years
+	        growth_rate_array[i] = current_growth_rate
+	        current_growth_rate += growth_rate_step
+	    end
+
+	    return growth_rate_array
+	end
+
+We can then define the doubling sequence:
+
+	years=12*ceil(Int, 10+5+2.5+1.25+final_doubling_time)
+	economic_growth_rate = generate_growth_rate_array(years)
+	economic_growth_rate=cat(economic_growth_rate, repeat([final_growth_rate], 60*12-size(economic_growth_rate)[1]), dims=1)
+
+And we can then write a very simple model of monthly spending to figure
+out how our capital develops.
+
+	capital=collect(1:250000)
+	monthly_spending=1000 # if we really tighten our belts
+
+	for growth_rate in economic_growth_rate
+		capital=capital.*growth_rate
+		capital=capital.-monthly_spending
+	end
+
+`capital` now contains the capital we end up with after 60 years. To find
+the minimum amount of capital we need to start out with to not lose out
+we find the index of the number closest to zero:
+
+	julia> findmin(abs.(capital))
+	(1.1776066747029436e13, 70789)
+
+So, under these requirements, starting out with more than \$71k should be fine.
+
+But maybe we'll only lose our job somewhat into the singularity
+already! We can simulate that as losing a job when initial doubling
+times are 15 years:
+
+	initial_doubling_time=15
+	initial_growth_rate=2^(1/(initial_doubling_time*12))
+	years=12*ceil(Int, 10+5+2.5+1.25+final_doubling_time)
+	economic_growth_rate = generate_growth_rate_array(years)
+        economic_growth_rate=cat(economic_growth_rate, repeat([final_growth_rate], 60*12-size(economic_growth_rate)[1]), dims=1)
+
+	capital=collect(1:250000)
+        monthly_spending=1000 # if we really tighten our belts
+
+        for growth_rate in economic_growth_rate
+                capital=capital.*growth_rate
+                capital=capital.-monthly_spending
+        end
+
+The amount of initially required capital doesn't change by that much:
+
+	julia> findmin(abs.(capital))
+	(9.75603002635271e13, 68109)
