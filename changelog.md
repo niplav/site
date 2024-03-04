@@ -38,6 +38,7 @@ February 2024
 	* [Scientific and Other Classifications](./notes.html#Scientific_and_Other_Classifications)
 * [Some Civilizational Inadequacies](./inadequacies.html): Collected some [civilizational *adequacies*](./inadequacies.html#None)
 * Minor updates to the forecasting dataset library [iqisa](./iqisa.html).
+* Added a [Best Of](./index.html#Best_Of) section to the index
 
 ### Links
 

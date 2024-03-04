@@ -21,6 +21,18 @@ code, design and execute experiments, analyze data and make predictions.
 
 [Content warning](./content_warning.html).
 
+Best Of
+--------
+
+* [Cryonics Cost-Benefit Analysis](./considerations_on_cryonics.html)
+* [Have Attention Spans Been Declining?](./spans.html)
+* [High Status Eschews Quantification of Performance](./eschews.html)
+* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+* [Subscripts for Probabilities](./subscripts.html)
+* [Nootropics](./nootropics.html)
+* [Two Reasons For Restarting the Testing of Nuclear Weapons](./nuclear.html)
+* [Iqisa: A Library For Handling Forecasting Datasets](./iqisa.html)
+
 Writing
 -------
 
