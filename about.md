@@ -468,7 +468,12 @@ but rather cycles).
 The Author
 ----------
 
-<!--TODO: Faust quote ("Ich bin ein Teil von jenem Teil…")-->
+> Ich bin ein Teil des Teils, der anfangs alles war,  
+ein Teil der Finsternis, die sich das Licht gebar,  
+das stolze Licht, das nun der Mutter Nacht  
+den alten Rang, den Raum ihr streitig macht.
+
+*—[Johann Wolfgang von Goethe](https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe), [Faust 1, Studierzimmer. (Mephistopheles)](https://en.wikipedia.org/wiki/Faust_I), 1808*
 
 Who I am is not terribly important.
 
@@ -524,6 +529,8 @@ the results.<!--TODO: redo with a better source-->
 
 The last g-loaded test I took (in high school) put me at ~110, which
 seems about right.
+
+<!--TODO: Crocker-->
 
 ### Elsewhere on the Internet
 

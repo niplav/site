@@ -151,6 +151,12 @@ TODO: find out whether similar Notre-Dame rumor is true.
 <https://www.architecturaldigest.com/story/two-years-later-heres-latest-notre-dames-restoration/amp>
 -->
 
+##### Messages and projects for the future
+
+###### Details 7
+
+Maybe add the [60 year knuckle-cracking experiment](https://www.scientificamerican.com/article/crack-research/).
+
 #### 1.2.4
 
 > This is not merely large constructions such a Bering Strait bridge or

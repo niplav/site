@@ -1717,7 +1717,11 @@ with explosive growth, and having to subsist on one's capital. Property
 rights are respected, but there is no financial assistance by governments
 or AGI corporations.
 
-What wealth does one need to have to survive, ideally indefinitely?
+How much wealth does one need to have to survive, ideally indefinitely?
+
+__Finding__: If you lose your job at the start of the singularity, with
+monthly spending of \$1k, you need ~\$71k in total of capital. This
+number doesn't look very sensitive to losing one's job slightly later.
 
 At the moment, the world economy is growing at a pace that leads to
 doublings in [GWP](https://en.wikipedia.org/wiki/Gross_World_Product)
@@ -1796,3 +1800,23 @@ The amount of initially required capital doesn't change by that much:
 
 	julia> findmin(abs.(capital))
 	(9.75603002635271e13, 68109)
+
+Research Consultants List
+--------------------------
+
+* [Alok Singh](https://alok.github.io/about/) (≥\$300/hr)
+* [Elizabeth van Nostrand](https://acesounderglass.com/hire-me/) (≥\$300/hr)
+* [Niplav](./services.html) (\\$20 for impactful or interesting projects, \\$35 for work with a public result, \\$50 otherwise)
+* [Nuño Sempere](https://nunosempere.com/consulting/) (~\$250/hr, at marginally decreasing price)
+* [Roko Mijic](https://www.lesswrong.com/posts/bMxhrrkJdEormCcLt/brute-force-manufactured-consensus-is-hiding-the-crime-of?commentId=tjt7GbC2fsw2dtNGF) (\$200/hr)
+* [Vasco Grilo](https://forum.effectivealtruism.org/users/vascoamaralgrilo), (\$20/hr)
+
+Discord Servers for Textbooks
+-------------------------------
+
+Inspired by [this shortform
+post](https://www.lesswrong.com/posts/DJk86FE29ad4vr5e9/riceissa-s-shortform?commentId=W49udPvKRZB4B3snR),
+I decided to collect a list of discord servers dedicated to textbooks.
+
+* [Analysis I (Tao 2016)](https://discord.gg/Jy4HZtP9pt)
+* [Naive Set Theory (Halmos 1960)](https://discord.gg/sApjeGjdvx)

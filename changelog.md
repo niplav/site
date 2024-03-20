@@ -22,6 +22,13 @@ Monthly updates are sent out [via substack](https://niplav.substack.com/),
 the content is a copy of each monthly changelog. Don't expect any
 *different* content.
 
+March 2024
+-----------
+
+### Link
+
+* [The Fable of the Chessmaster (Scott Aaronson, 2006)](https://scottaaronson.blog/?p=56)
+
 February 2024
 --------------
 
