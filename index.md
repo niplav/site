@@ -151,7 +151,6 @@ one moment or forget it!
 * [Rationalist Gods](./rationalist_gods.html)
 * [99 Problems](./99_problems_collection.html)
 * [Recommendation-Worthy Websites](./sites.html)
-* [Discord Servers for Textbooks](./textbook_discord_servers.html)
 
 ### Other
 

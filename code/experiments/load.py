@@ -1,8 +1,11 @@
+import os
 import math
 import numpy as np
+import seaborn as sns
 import pandas as pd
 import scipy.stats as scistat
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 
 def normal_likelihood(data, mu, std):
 	data_probs=scistat.norm.pdf(data, loc=mu, scale=std)
@@ -101,13 +104,67 @@ def get_datasets(experiment, substance, placebo):
 
 	return meditations, substance_meditations, placebo_meditations, mental, substance_mental, placebo_mental, mood, placebo_mood, substance_mood, flashcards, placebo_flashcards, substance_flashcards
 
-def plot_experiment(experiment, substance, placebo):
-	meditation, substance_meditations, placebo_meditations, mental, substance_mental, placebo_mental, mood, placebo_mood, substance_mood, flashcards, placebo_flashcards, substance_flashcards=get_datasets(experiment, substance, placebo)
 
-	fig=plt.figure(figsize=(8,8))
-	plt.bar(placebo_meditations.index, placebo_meditations['absorption'], color='red')
-	plt.bar(substance_meditations.index, substance_meditations['absorption'], color='blue')
-	return
+def plot_datasets(experiment, substance, placebo):
+	# Get datasets
+	meditations, substance_meditations, placebo_meditations, mental, substance_mental, placebo_mental, mood, placebo_mood, substance_mood, flashcards, placebo_flashcards, substance_flashcards = get_datasets(experiment, substance, placebo)
+
+	# Set the overall layout
+	sns.set(style="whitegrid")
+
+	data_pairs = [
+	    (substance_meditations, placebo_meditations, 'mindfulness', 'mindfulness', 'datetime'),
+	    (substance_meditations, placebo_meditations, 'absorption', 'absorption', 'datetime'),
+	    (substance_mental, placebo_mental, 'productivity', 'productivity', 'datetime'),
+	    (substance_mental, placebo_mental, 'creativity', 'creativity', 'datetime'),
+	    #(substance_mental, placebo_mental, 'subjective length', 'sublen', 'datetime'),
+	    (substance_mood, placebo_mood, 'happiness', 'happy', 'datetime'),
+	    (substance_mood, placebo_mood, 'contentment', 'content', 'datetime'),
+	    (substance_mood, placebo_mood, 'relaxation', 'relaxed', 'datetime'),
+	    (substance_mood, placebo_mood, 'horniness', 'horny', 'datetime'),
+	    (substance_flashcards, placebo_flashcards, 'factor', 'factor', 'datetime'),
+#	    (substance_flashcards, placebo_flashcards, 'interval', 'ivl', 'datetime'),
+	    (substance_flashcards, placebo_flashcards, 'ease', 'ease', 'datetime'),
+	    (substance_flashcards, placebo_flashcards, 'duration', 'time', 'datetime'),
+	    # Add more pairs as needed, along with the measurement variable and the x-axis variable
+	]
+
+	n_data_pairs = len(data_pairs)
+	n_plots_per_pair = 3
+
+	# Create a figure with a grid of subplots
+	fig, axs = plt.subplots(n_data_pairs, n_plots_per_pair, figsize=(15, 4 * n_data_pairs))
+
+	for i, (substance_data, placebo_data, label, y_variable, x_variable) in enumerate(data_pairs):
+		for subplot_index in range(0, 2):
+			axs[i, subplot_index].xaxis.set_major_formatter(mdates.DateFormatter('%m-%d'))  # Change format to Year-Month
+
+		# Scatter plot
+		sns.scatterplot(ax=axs[i, 0], x=x_variable, y=y_variable, data=substance_data, color='blue', label='Substance')
+		sns.scatterplot(ax=axs[i, 0], x=x_variable, y=y_variable, data=placebo_data, color='red', label='Placebo')
+		axs[i, 0].set_title(f'Scatter Plot of {label}')
+		axs[i, 0].set_xlabel(x_variable)
+		axs[i, 0].set_ylabel(y_variable)
+
+		# Line plot
+		sns.lineplot(ax=axs[i, 1], x=x_variable, y=y_variable, data=substance_data, color='blue', label='Substance')
+		sns.lineplot(ax=axs[i, 1], x=x_variable, y=y_variable, data=placebo_data, color='red', label='Placebo')
+		axs[i, 1].set_title(f'Line Plot of {label}')
+		axs[i, 1].set_xlabel(x_variable)
+		axs[i, 1].set_ylabel(y_variable)
+
+		# Histogram
+		sns.histplot(ax=axs[i, 2], data=substance_data, x=y_variable, color='blue', label='Substance', kde=True, alpha=0.6)
+		sns.histplot(ax=axs[i, 2], data=placebo_data, x=y_variable, color='red', label='Placebo', kde=True, alpha=0.6)
+		axs[i, 2].set_title(f'Histogram of {label}')
+		axs[i, 2].set_xlabel(y_variable)
+		axs[i, 2].set_ylabel('Frequency')
+
+	plt.tight_layout()
+
+	# Save the figure
+
+	plt.savefig(f'{substance}_results.png')
 
 def analyze(experiment, substance, placebo):
 	meditation, substance_meditations, placebo_meditations, mental, substance_mental, placebo_mental, mood, placebo_mood, substance_mood, flashcards, placebo_flashcards, substance_flashcards=get_datasets(experiment, substance, placebo)

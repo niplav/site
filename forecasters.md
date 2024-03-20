@@ -150,6 +150,7 @@ How Good Are We At Forecasting?
 	* Question originally asked in [Hanson 2007](https://www.overcomingbias.com/2007/02/is_truth_in_the.html)
 	* Are there people who are better long-term forecasters and people who are better short-term forecasters?
 		* See [here](https://twitter.com/Simeon_CPS/status/1655277260524453892)
+* How well does forecasting expertise in one domain transfer to another?
 
 How Can We Become Better At Forecasting?
 -----------------------------------------

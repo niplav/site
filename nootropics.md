@@ -210,6 +210,10 @@ but that is easily remedied.
 	dates=pd.to_datetime(pd.Series(mood['date']), format='mixed')
 	mood['date']=pd.DatetimeIndex(dates.dt.tz_localize('CET', ambiguous='infer')).tz_convert(tz='UTC')
 
+This data can now be plotted unwieldly:
+
+![](./img/nootropics/caffeine_results.png)
+
 ##### Summary Statistics
 
 We can first test how well my predictions fared:
@@ -597,6 +601,8 @@ It worsens productivity and creativity (though not *quite* statistically
 significantly, but it's on the way there), but at least it improves my
 mood somewhat (though those results, besides contentment, might as well be
 due to random chance). No clear effect sizes with the flashcards either.
+
+![](./img/nootropics/l-theanine_results.png)
 
 #### Conclusion
 

@@ -435,6 +435,9 @@ Good Bandnames
 * [Hypercarcinisation](https://en.wikipedia.org/wiki/Carcinisation#Hypercarcinisation)
 * Genderless Gaits (from [Wessel 2017](https://www.science.org/content/article/do-human-pheromones-actually-exist))
 
+See also [isomorphismes
+2013](https://isomorphismes.tumblr.com/post/47509929969/mathematical-band-names?).
+
 Fake Esperanto Translations
 ----------------------------
 

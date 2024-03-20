@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-07-17, modified: 2023-12-04, language: english, status: finished, importance: 5, confidence: other*
+*author: niplav, created: 2023-07-17, modified: 2024-03-05, language: english, status: finished, importance: 5, confidence: other*
 
 > __My services (research, programming, experimental design and
 implementation) can be acquired for money.__
@@ -20,5 +20,6 @@ accuracy](./range_and_forecasting_accuracy.html).
 
 My rates are as follows:
 
-* \$30/hr for work for which the final product will be mostly public, potentially with a discount if I was [already planning to do it myself](./todo.html).
+* \$20/hr for work which I [was already planning to do myself](./todo.html), deem unusually important/good or just find very interesting (modeling the price after [Vasco Grilo](https://forum.effectivealtruism.org/users/vascoamaralgrilo): "I typically ask for 20 $/h, which is roughly equal to 2 times the global real GDP per capita.").
+* \$35/hr for work for which the final product will be public.
 * \$50/hr otherwise.

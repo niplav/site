@@ -89,6 +89,15 @@ This becomes trickier in sentences with multiple statements.
 * I basically rule out lists of probabilities after the verb relating to each subclaim, as it's very mentally taxing to relate each probability to each claim:
         * "I think<sub>55%, 80%, 15%</sub> ⸤it'll rain tomorrow⸥, but ⸤Tuesday is going to be sunny⸥, but I don't think ⸤your uncle is going to be happy about that⸥.
 
+A variant of the notation could use decimal notation instead
+of percentages, and leave out trailing zeroes. "I think it'll
+rain tomorrow`$_{50\%}$`" would then become the more compact "I
+think it'll rain tomorrow`$_{.5}$`". This has the advantage of
+being compatible with plain text through the [combining dot below
+diacritic](https://en.wikipedia.org/wiki/Dot_\(diacritic\)), which would
+yield "I think it'll rain tomorroẉ₅". However, the meaning of the
+combining dot can be ambiguous at first.
+
 Since the people writing the text
 reporting probabilities are probably [logically
 non-omniscient](./doc/cs/ai/alignment/agent_foundations/embedded_agency_demski_garrabrant_2020.pdf)
@@ -100,7 +109,6 @@ on this question for 20 hours to arrive at their current probability
 (something akin to reporting an "epistemic effort" for a piece of
 information). I fear that this notation is getting into cumbersome
 territory and won't be using it.
-
 
 ### Notation Options and Difficulties
 
@@ -147,3 +155,7 @@ nd we know so little about them; hence, our caution.
 ### Discussions
 
 * [LessWrong](https://www.lesswrong.com/posts/Tmz6ucxDFsdod2QLd/subscripts-for-probabilities)
+
+### See Also
+
+* [Creating a Text Shorthand for Uncertainty](https://www.lesswrong.com/posts/jsfSXH8mGrLy9pPqr/creating-a-text-shorthand-for-uncertainty)
