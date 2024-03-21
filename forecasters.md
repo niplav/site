@@ -151,6 +151,8 @@ How Good Are We At Forecasting?
 	* Are there people who are better long-term forecasters and people who are better short-term forecasters?
 		* See [here](https://twitter.com/Simeon_CPS/status/1655277260524453892)
 * How well does forecasting expertise in one domain transfer to another?
+	* That is, if a forecaster starts by forecasting in some domain `$D$`, and after a while switches to domain `$D'$`, how much better is the forecaster than if he'd started out in `$D'$` without any other experience?
+	* This would be even more interesting when also having a metric for the difference between `$D$` and `$D'$`.
 
 How Can We Become Better At Forecasting?
 -----------------------------------------

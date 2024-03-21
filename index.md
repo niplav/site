@@ -141,6 +141,7 @@ one moment or forget it!
 
 * [Have Attention Spans Been Declining?](./spans.html)
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
+* [Transfer Learning in Humans](./transfer.html)
 * [Brain Stimulation for Meditation Enhancement](./stimulation.html)
 * [Increasing Subjective Lifespan](./increasing.html)
 * [Awesome Things Humans Can Learn](./awesome.html)
