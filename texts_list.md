@@ -17,6 +17,17 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Flash forward (Brian Hayes, 2007)](http://bit-player.org/2007/flash-forward)
+* [A mathematical fable previsited (Brian Hayes, 2007)](http://bit-player.org/2007/a-mathematical-fable-revisited)
+* [Hermann Weyl, tax accountant (Brian Hayes, 2007)](http://bit-player.org/2007/hermann-weyl-tax-accountant)
+* [Quantum numbers (Brian Hayes, 2007)](http://bit-player.org/2007/quantum-numbers)
+* [Lambda, the ultimate mashup (Brian Hayes, 2007)](http://bit-player.org/2007/lambda-the-ultimate-mashup)
+* [Choosing up sides, again (Brian Hayes, 2007)](http://bit-player.org/2007/choosing-up-sides-again)
+* [Choosing up sides (Brian Hayes, 2007)](http://bit-player.org/2007/choosing-up-sides)
+* [Why do microwave ovens beep? (tomscii, 2021)](https://tomscii.sig7.se/2021/07/Why-do-microwave-ovens-beep)
+* [The green fuse (Brian Hayes, 2007)](http://bit-player.org/2007/the-green-fuse)
+* [Sets as functions (Buck Shlegeris, 2015)](http://bshlgrs.github.io/2015/08/08/haskell_set.html)
+* [Cold Showers, Tested (Nick Winter, 2013)](https://blog.nickwinter.net/posts/cold-showers-tested)
 * [Creating a Text Shorthand for Uncertainty (Ozzie Gooen, 2013)](https://www.lesswrong.com/posts/jsfSXH8mGrLy9pPqr/creating-a-text-shorthand-for-uncertainty)
 * [The Universal Plot: Consciousness vs. Pure Replicators (Andrés Gómez-Emilsson, 2017)](https://qri.org/blog/universal-plot)
 * [Wireheading Done Right: Stay Positive Without Going Insane (Andrés Gómez-Emilsson, 2016)](https://qualiacomputing.com/2016/08/20/wireheading_done_right/)

@@ -25,6 +25,8 @@ the content is a copy of each monthly changelog. Don't expect any
 March 2024
 -----------
 
+* [Trying to Disambiguate Different Questions about Whether Humans are Turing Machines](./notes.html#Trying_to_Disambiguate_Different_Questions_about_Whether_Humans_are_Turing_Machines)
+
 ### Link
 
 * [The Fable of the Chessmaster (Scott Aaronson, 2006)](https://scottaaronson.blog/?p=56)
