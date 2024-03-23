@@ -24,7 +24,7 @@ do by recording the outcomes. That's what I did.
 
 | Value tracked                      | Effect size d (λ, p, σ change)              | Effect size d (λ, p, σ change)      |
 | ---------------------------------- | ------------------------------------------- | ----------------------------------- |
-|                                    | 200 mg Caffeine (n=1, m=50)                 | 500 mg L-theanine (n=1, m=50)       |
+|                                    |   *200 mg Caffeine (n=1, m=50)*             |   *500 mg L-theanine (n=1, m=50)*   |
 | Log-score substance prediction[^1] | -0.6                                        | -0.7                                |
 | Absorption                         | 0.61 (λ=13.3, p=0.00017, -0.072)            | 0.04 (λ=1.38, p=0.77, -0.07)        |
 | Mindfulness                        | 0.58 (λ=11.8, p=0.0007, 0.021)              | 0.12 (λ=0.72, p=0.89, -0.018)       |
@@ -123,7 +123,7 @@ hour.
 * 14th dose: Noticed that during meditation, sharpness/clarity of
 attention is ~high, and relaxing after becoming mindful is easy, but
 attention strays just as easily.
-* 49th dose: Took the pill, meditated, lay down during meditation and fell asleep. Likely<sub>10%</sub> placebo.
+* 49th dose: Took the pill, meditated, lay down during meditation and fell asleep. Likely placebo<sub>90%</sub>.
 
 #### Statistical Method
 
@@ -232,201 +232,11 @@ At least this time I was better than chance:
 	>>> np.mean(list(map(lambda x: math.log(x[0]) if x[1]==1 else math.log(1-x[0]), zip([0.5]*40, outcomes))))
 	-0.6931471805599453
 
-###### Meditation
-
-Merging the meditations closest (on the right) to the consumption and
-selecting the individual variables of interest:
-
-	meditations.sort_values("meditation_start", inplace=True)
-	meditations_a=pd.merge_asof(expa, meditations, left_on='datetime', right_on='meditation_start', direction='forward')
-	caffeine_concentration=meditations_a.loc[meditations_a['substance']=='caffeine']['concentration_rating']
-	placebo_concentration=meditations_a.loc[meditations_a['substance']=='sugar']['concentration_rating']
-	caffeine_mindfulness=meditations_a.loc[meditations_a['substance']=='caffeine']['mindfulness_rating']
-	placebo_mindfulness=meditations_a.loc[meditations_a['substance']=='sugar']['mindfulness_rating']
-
-So, does it help?
-
-	>>> (caffeine_concentration.mean()-placebo_concentration.mean())/meditations['concentration_rating'].std()
-	0.6119357868347828
-	>>> (caffeine_mindfulness.mean()-placebo_mindfulness.mean())/meditations['mindfulness_rating'].std()
-	0.575981762563846
-
-Indeed! [Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)
-here looks pretty good. Taking caffeine also reduces the variance of
-both variables:
-
-	>>> caffeine_concentration.std()-placebo_concentration.std()
-	-0.0720877290884765
-	>>> caffeine_mindfulness.std()-placebo_mindfulness.std()
-	0.02186797288826836
-
-###### Productivity and Creativity
-
-We repeat the same procedure for the productivity and creativity data:
-
-	prod_a=pd.merge_asof(expa, productivity, left_on='datetime', right_on='datetime', direction='forward')
-	creat_a=pd.merge_asof(expa, creativity, left_on='datetime', right_on='datetime', direction='forward')
-	caffeine_productivity=prod_a.loc[meditations_a['substance']=='caffeine']['productivity']
-	placebo_productivity=prod_a.loc[meditations_a['substance']=='sugar']['productivity']
-	caffeine_creativity=creat_a.loc[meditations_a['substance']=='caffeine']['creativity']
-	placebo_creativity=creat_a.loc[meditations_a['substance']=='sugar']['creativity']
-
-And the result is…
-
-	>>> (caffeine_productivity.mean()-placebo_productivity.mean())/prod_a['productivity'].std()
-	0.5784143673702401
-	>>> (caffeine_creativity.mean()-placebo_creativity.mean())/creat_a['creativity'].std()
-	0.38432393552829164
-
-Again surprisingly good! The creativity values are small enough to be
-a fluke, but the productivity values seem cool.
-
-In this case, though, caffeine *increases* variance in the variables
-(not by very much):
-
-	>>> caffeine_productivity.std()-placebo_productivity.std()
-	0.1139221931098384
-	>>> caffeine_creativity.std()-placebo_creativity.std()
-	0.08619686235791152
-
-###### Mood
-
-Some unimportant pre-processing, in which we filter
-for mood recordings 0-10 hours after caffeine intake, since
-[`pd.merge_asof`](https://devdocs.io/pandas~1/reference/api/pandas.merge_asof)
-doesn't do cartesian product:
-
-	mood_a=expa.join(mood, how='cross')
-	mood_a=mood_a.loc[(mood_a['alarm']-mood_a['datetime']<pd.Timedelta('10h'))&(mood_a['alarm']-mood_a['datetime']>pd.Timedelta('0h'))]
-	caffeine_mood=mood_a.loc[mood_a['substance']=='caffeine']
-	placebo_mood=mood_a.loc[mood_a['substance']=='sugar']
-
-And now the analysis:
-
-	>>> caffeine_mood[['happy', 'content', 'relaxed', 'horny']].describe()
-	           happy    content    relaxed      horny
-	count  88.000000  88.000000  88.000000  88.000000
-	mean   52.193182  51.227273  50.704545  46.568182
-	std     2.396635   2.911441   3.115254   3.117601
-	[…]
-	>>> placebo_mood[['happy', 'content', 'relaxed', 'horny']].describe()
-	           happy    content    relaxed      horny
-	count  73.000000  73.000000  73.000000  73.000000
-	mean   51.575342  50.876712  51.041096  47.000000
-	std     2.101043   2.437811   2.699992   3.009245
-	[…]
-
-Which leads to [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)
-of ~0.27 for happiness, ~0.13 for contentment, ~-0.11 for relaxation
-and ~-0.14 for horniness.
-
-###### Flashcards
-
-Because Anki stores the intervals of learning flashcards (that is, ones
-that have been answered incorrectly too many times), we have to adjust
-the numbers to reflect that a negative second is not equal to a day.
-
-	flashcards_a=flashcards.loc[(flashcards['id']>expa['datetime'].min()) & (flashcards['id']<expa['datetime'].max()+pd.Timedelta('10h'))]
-	flashcards_a=expa.join(flashcards_a, how='cross', rsuffix='r')
-	flashcards_a=flashcards_a.loc[(flashcards_a['idr']-flashcards_a['datetime']<pd.Timedelta('10h'))&(flashcards_a['idr']-flashcards_a['datetime']
-	>pd.Timedelta('0h'))]
-	flashcards_a.loc[flashcards_a['ivl']>0,'ivl']=-flashcards_a.loc[flashcards_a['ivl']>0,'ivl']/86400
-
-We then again separate into placebo and caffeine:
-
-	placebo_flashcards=flashcards_a.loc[flashcards_a['substance']==placebo]
-	substance_flashcards=flashcards_a.loc[flashcards_a['substance']==substance]
-
-##### Likelihood Ratios
-
-We assume (at first) that the data is [distributed
-normally](https://en.wikipedia.org/wiki/Normal_distribution). Then we
-can define a function for the gaussian likelihood of a distribution
-given some parameters:
-
-	def normal_likelihood(data, mu, std):
-		return np.product(scistat.norm.pdf(data, loc=mu, scale=std))
-
-And now we can compute the likelihood ratio
-`$\frac{\mathcal{L}{θ}}{\mathcal{L}{θ_0}}$` for the null hypothesis
-`$θ_0=\text{MLE}(\mathbf{v}_P)$` for the placebo data `$\mathbf{v}_P$`,
-and also the result of the likelihood ratio test:
-
-	def placebo_likelihood(active, placebo):
-		placebo_mle_lh=normal_likelihood(active, placebo.mean(), placebo.std())
-		active_mle_lh=normal_likelihood(active, active.mean(), active.std())
-		return active_mle_lh/placebo_mle_lh
-
-	def likelihood_ratio_test(lr):
-		return 2*np.log(lr)
-
-And this gives us surprisingly large values:
-
-	>>> placebo_likelihood_ratio(caffeine_concentration, placebo_concentration)
-	776.6147119766716
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_concentration, placebo_concentration))
-	13.309888722406932
-	>> placebo_likelihood_ratio(caffeine_mindfulness, placebo_mindfulness)
-	363.3984201164464
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mindfulness, placebo_mindfulness))
-	11.790999616893938
-	>>> placebo_likelihood_ratio(caffeine_productivity, placebo_productivity)
-	1884090.6347491818
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_productivity, placebo_productivity))
-	28.8979116811553
-	>>> placebo_likelihood_ratio(caffeine_creativity, placebo_creativity)
-	14009015.173307568
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_creativity, placebo_creativity))
-	32.910423242578126
-
-And, if one is interested in p-values, those correspond to (with 2 degrees of freedom each):
-
-	def llrt_pval(lmbda, df=2):
-		return scistat.chi2.cdf(df, lmbda)
-
-	>>> llrt_pval([13.309888722406932,11.790999616893938, 28.8979116811553, 32.910423242578126])
-	array([1.66559304e-04, 7.23739116e-04 ,1.34836408e-12, 5.17222209e-15])
-
-I find these results surprisingly strong, and am still kind of mystified
-why. Surely caffeine isn't *that* reliable!
-
-And, the same, for mood:
-
-	>>> placebo_likelihood_ratio(caffeine_mood['happy'], placebo_mood['happy'])
-	204.81283712162838
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mood['happy'], placebo_mood['happy']))
-	10.644193144917832
-	>>> placebo_likelihood_ratio(caffeine_mood['content'], placebo_mood['content'])
-	46.08310645632934
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mood['content'], placebo_mood['content']))
-	7.6608928570645105
-	>>> placebo_likelihood_ratio(caffeine_mood['relaxed'], placebo_mood['relaxed'])
-	12.229945616108525
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mood['relaxed'], placebo_mood['relaxed']))
-	5.007775005855661
-	>>> placebo_likelihood_ratio(caffeine_mood['horny'], placebo_mood['horny'])
-	2.670139324155222
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mood['horny'], placebo_mood['horny']))
-	1.9642613047646074
-
-And the p-values of those are:
-
-	>>> llrt_pval([10.644193144917832, 7.6608928570645105, 5.007775005855661, 1.9642613047646074])
-	array([0.0020736 , 0.02462515, 0.15015613, 0.63984027])
-
-#### Conclusion
-
-Caffeine appears helpful for everything except relaxation (and it makes
-me hornier, which I'm neutral about). I'd call this experiment a success
-and will be running more in the future, while in the meantime taking
-caffeine before morning meditations.
-
-### Generalising the Code
-
-After finishing the coding for this experiment, I decided it'd be easier
-if for the future I could call a single function to analyze all my data
-for me.
-The result can be found [here](./code/experiment/load.py), the function is
+After [finishing the coding for this
+experiment](#Appendix_B_The_code_for_Analyzing_The_Caffeine_Data),
+I decided it'd be easier if for the future I could call a single
+function to analyze all my data for me.  The result can be found
+[here](./code/experiment/load.py), the function is
 `analyze(experiment, substance, placebo)`.
 
 To analyze this specific experiment, I simply call
@@ -439,9 +249,21 @@ DataFrame:
 	p     0.000167     0.000724  1.348364e-12  4.609786e-27   0.002074  0.024625  0.150156  0.639840  0.000000  0.000000  0.000000    0.000000
 	dσ   -0.072088     0.021868  1.139222e-01  9.659407e-02   0.295592  0.473630  0.415262  0.108356 -0.011060 -0.679137 -0.567543  697.624130
 
+#### Conclusion
+
+Caffeine appears helpful for everything except relaxation (and it *maybe*
+makes me hornier, which I'm neutral about). I'd call this experiment a
+success and will be running more in the future, while in the meantime
+taking caffeine before morning meditations.
+
 ### Discussions
 
 * [LessWrong](https://www.lesswrong.com/posts/DQvuSBquC8ccwPhBo/self-blinded-caffeine-rct)
+
+### See Also
+
+* [Stimulant tolerance, or, the tears of things (Leech, 2020)](https://www.gleech.org/stims)
+* [Avoiding Caffeine Tolerance (Dickens, 2024)](https://mdickens.me/2024/03/02/caffeine_tolerance/)
 
 Creatine
 ---------
@@ -743,7 +565,7 @@ See Also
 ---------
 
 <!--TODO: something by kanzure?-->
-<!--* [Nootchat notes](https://pad.riseup.net/p/nootgc-research-2023-keep)-->
+* [Nootchat notes](https://pad.riseup.net/p/nootgc-research-2023-keep)
 * [troof 2022](https://troof.blog/posts/nootropics/)
 
 Appendix A: Predictions on Self-Blinded RCTs
@@ -823,6 +645,194 @@ of my own experiments:
 > zu dem ohne Zeichen gegangen.
 
 *—Dschelāladdīn Rūmī, “Am Ende bist du entschwunden”, 1256*
+
+Appendix B: The code for Analyzing The Caffeine Data
+-----------------------------------------------------
+
+I realised the code for this wasn't interesting to probably anyone,
+but if you want details, here it is:
+
+###### Meditation
+
+Merging the meditations closest (on the right) to the consumption and
+selecting the individual variables of interest:
+
+	meditations.sort_values("meditation_start", inplace=True)
+	meditations_a=pd.merge_asof(expa, meditations, left_on='datetime', right_on='meditation_start', direction='forward')
+	caffeine_concentration=meditations_a.loc[meditations_a['substance']=='caffeine']['concentration_rating']
+	placebo_concentration=meditations_a.loc[meditations_a['substance']=='sugar']['concentration_rating']
+	caffeine_mindfulness=meditations_a.loc[meditations_a['substance']=='caffeine']['mindfulness_rating']
+	placebo_mindfulness=meditations_a.loc[meditations_a['substance']=='sugar']['mindfulness_rating']
+
+So, does it help?
+
+	>>> (caffeine_concentration.mean()-placebo_concentration.mean())/meditations['concentration_rating'].std()
+	0.6119357868347828
+	>>> (caffeine_mindfulness.mean()-placebo_mindfulness.mean())/meditations['mindfulness_rating'].std()
+	0.575981762563846
+
+Indeed! [Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)
+here looks pretty good. Taking caffeine also reduces the variance of
+both variables:
+
+	>>> caffeine_concentration.std()-placebo_concentration.std()
+	-0.0720877290884765
+	>>> caffeine_mindfulness.std()-placebo_mindfulness.std()
+	0.02186797288826836
+
+###### Productivity and Creativity
+
+We repeat the same procedure for the productivity and creativity data:
+
+	prod_a=pd.merge_asof(expa, productivity, left_on='datetime', right_on='datetime', direction='forward')
+	creat_a=pd.merge_asof(expa, creativity, left_on='datetime', right_on='datetime', direction='forward')
+	caffeine_productivity=prod_a.loc[meditations_a['substance']=='caffeine']['productivity']
+	placebo_productivity=prod_a.loc[meditations_a['substance']=='sugar']['productivity']
+	caffeine_creativity=creat_a.loc[meditations_a['substance']=='caffeine']['creativity']
+	placebo_creativity=creat_a.loc[meditations_a['substance']=='sugar']['creativity']
+
+And the result is…
+
+	>>> (caffeine_productivity.mean()-placebo_productivity.mean())/prod_a['productivity'].std()
+	0.5784143673702401
+	>>> (caffeine_creativity.mean()-placebo_creativity.mean())/creat_a['creativity'].std()
+	0.38432393552829164
+
+Again surprisingly good! The creativity values are small enough to be
+a fluke, but the productivity values seem cool.
+
+In this case, though, caffeine *increases* variance in the variables
+(not by very much):
+
+	>>> caffeine_productivity.std()-placebo_productivity.std()
+	0.1139221931098384
+	>>> caffeine_creativity.std()-placebo_creativity.std()
+	0.08619686235791152
+
+###### Mood
+
+Some unimportant pre-processing, in which we filter
+for mood recordings 0-10 hours after caffeine intake, since
+[`pd.merge_asof`](https://devdocs.io/pandas~1/reference/api/pandas.merge_asof)
+doesn't do cartesian product:
+
+	mood_a=expa.join(mood, how='cross')
+	mood_a=mood_a.loc[(mood_a['alarm']-mood_a['datetime']<pd.Timedelta('10h'))&(mood_a['alarm']-mood_a['datetime']>pd.Timedelta('0h'))]
+	caffeine_mood=mood_a.loc[mood_a['substance']=='caffeine']
+	placebo_mood=mood_a.loc[mood_a['substance']=='sugar']
+
+And now the analysis:
+
+	>>> caffeine_mood[['happy', 'content', 'relaxed', 'horny']].describe()
+	           happy    content    relaxed      horny
+	count  88.000000  88.000000  88.000000  88.000000
+	mean   52.193182  51.227273  50.704545  46.568182
+	std     2.396635   2.911441   3.115254   3.117601
+	[…]
+	>>> placebo_mood[['happy', 'content', 'relaxed', 'horny']].describe()
+	           happy    content    relaxed      horny
+	count  73.000000  73.000000  73.000000  73.000000
+	mean   51.575342  50.876712  51.041096  47.000000
+	std     2.101043   2.437811   2.699992   3.009245
+	[…]
+
+Which leads to [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)
+of ~0.27 for happiness, ~0.13 for contentment, ~-0.11 for relaxation
+and ~-0.14 for horniness.
+
+###### Flashcards
+
+Because Anki stores the intervals of learning flashcards (that is, ones
+that have been answered incorrectly too many times), we have to adjust
+the numbers to reflect that a negative second is not equal to a day.
+
+	flashcards_a=flashcards.loc[(flashcards['id']>expa['datetime'].min()) & (flashcards['id']<expa['datetime'].max()+pd.Timedelta('10h'))]
+	flashcards_a=expa.join(flashcards_a, how='cross', rsuffix='r')
+	flashcards_a=flashcards_a.loc[(flashcards_a['idr']-flashcards_a['datetime']<pd.Timedelta('10h'))&(flashcards_a['idr']-flashcards_a['datetime']
+	>pd.Timedelta('0h'))]
+	flashcards_a.loc[flashcards_a['ivl']>0,'ivl']=-flashcards_a.loc[flashcards_a['ivl']>0,'ivl']/86400
+
+We then again separate into placebo and caffeine:
+
+	placebo_flashcards=flashcards_a.loc[flashcards_a['substance']==placebo]
+	substance_flashcards=flashcards_a.loc[flashcards_a['substance']==substance]
+
+##### Likelihood Ratios
+
+We assume (at first) that the data is [distributed
+normally](https://en.wikipedia.org/wiki/Normal_distribution). Then we
+can define a function for the gaussian likelihood of a distribution
+given some parameters:
+
+	def normal_likelihood(data, mu, std):
+		return np.product(scistat.norm.pdf(data, loc=mu, scale=std))
+
+And now we can compute the likelihood ratio
+`$\frac{\mathcal{L}{θ}}{\mathcal{L}{θ_0}}$` for the null hypothesis
+`$θ_0=\text{MLE}(\mathbf{v}_P)$` for the placebo data `$\mathbf{v}_P$`,
+and also the result of the likelihood ratio test:
+
+	def placebo_likelihood(active, placebo):
+		placebo_mle_lh=normal_likelihood(active, placebo.mean(), placebo.std())
+		active_mle_lh=normal_likelihood(active, active.mean(), active.std())
+		return active_mle_lh/placebo_mle_lh
+
+	def likelihood_ratio_test(lr):
+		return 2*np.log(lr)
+
+And this gives us surprisingly large values:
+
+	>>> placebo_likelihood_ratio(caffeine_concentration, placebo_concentration)
+	776.6147119766716
+	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_concentration, placebo_concentration))
+	13.309888722406932
+	>> placebo_likelihood_ratio(caffeine_mindfulness, placebo_mindfulness)
+	363.3984201164464
+	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mindfulness, placebo_mindfulness))
+	11.790999616893938
+	>>> placebo_likelihood_ratio(caffeine_productivity, placebo_productivity)
+	1884090.6347491818
+	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_productivity, placebo_productivity))
+	28.8979116811553
+	>>> placebo_likelihood_ratio(caffeine_creativity, placebo_creativity)
+	14009015.173307568
+	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_creativity, placebo_creativity))
+	32.910423242578126
+
+And, if one is interested in p-values, those correspond to (with 2 degrees of freedom each):
+
+	def llrt_pval(lmbda, df=2):
+		return scistat.chi2.cdf(df, lmbda)
+
+	>>> llrt_pval([13.309888722406932,11.790999616893938, 28.8979116811553, 32.910423242578126])
+	array([1.66559304e-04, 7.23739116e-04 ,1.34836408e-12, 5.17222209e-15])
+
+I find these results surprisingly strong, and am still kind of mystified
+why. Surely caffeine isn't *that* reliable!
+
+And, the same, for mood:
+
+	>>> placebo_likelihood_ratio(caffeine_mood['happy'], placebo_mood['happy'])
+	204.81283712162838
+	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mood['happy'], placebo_mood['happy']))
+	10.644193144917832
+	>>> placebo_likelihood_ratio(caffeine_mood['content'], placebo_mood['content'])
+	46.08310645632934
+	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mood['content'], placebo_mood['content']))
+	7.6608928570645105
+	>>> placebo_likelihood_ratio(caffeine_mood['relaxed'], placebo_mood['relaxed'])
+	12.229945616108525
+	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mood['relaxed'], placebo_mood['relaxed']))
+	5.007775005855661
+	>>> placebo_likelihood_ratio(caffeine_mood['horny'], placebo_mood['horny'])
+	2.670139324155222
+	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mood['horny'], placebo_mood['horny']))
+	1.9642613047646074
+
+And the p-values of those are:
+
+	>>> llrt_pval([10.644193144917832, 7.6608928570645105, 5.007775005855661, 1.9642613047646074])
+	array([0.0020736 , 0.02462515, 0.15015613, 0.63984027])
 
 [^1]: Higher is better.
 [^2]: Whether higher or lower values are better here is not clear.
