@@ -17,6 +17,7 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Physicists Prove Surprising Rule of Threes (Natalie Wolchover, 2014)](https://www.quantamagazine.org/in-efimov-state-physicists-find-a-surprising-rule-of-threes-20140527/)
 * [Flash forward (Brian Hayes, 2007)](http://bit-player.org/2007/flash-forward)
 * [A mathematical fable previsited (Brian Hayes, 2007)](http://bit-player.org/2007/a-mathematical-fable-revisited)
 * [Hermann Weyl, tax accountant (Brian Hayes, 2007)](http://bit-player.org/2007/hermann-weyl-tax-accountant)

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2024-02-01, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2024-03-23, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -25,10 +25,15 @@ the content is a copy of each monthly changelog. Don't expect any
 March 2024
 -----------
 
-* [Trying to Disambiguate Different Questions about Whether Humans are Turing Machines](./notes.html#Trying_to_Disambiguate_Different_Questions_about_Whether_Humans_are_Turing_Machines)
+* [Transfer Learning in Humans](./transfer.html)
+* [Trying to Disambiguate Different Questions about Whether Humans are Turing Machines](./notes.html#Trying_to_Disambiguate_Different_Questions_about_Whether_Humans_are_Turing_Machines). Takeaway: No.
+* [A FIRE Upon the Deep](./notes.html#A_FIRE_Upon_the_Deep): I now want to prioritize earning enough money to have \\$100k in capital, afterwards I'll be more relaxed.
+* [Research Consultants List](./notes.html#Research_Consultants_List)
+* Moved [Discord Servers for Textbooks](./textbook_discord_servers.html) to [a note](./notes.html#Discord_Servers_for_Textbooks)
 
 ### Link
 
+* [Cold Showers, Tested (Nick Winter, 2013)](https://blog.nickwinter.net/posts/cold-showers-tested): Cold showers don't have an effect, except on mood.
 * [The Fable of the Chessmaster (Scott Aaronson, 2006)](https://scottaaronson.blog/?p=56)
 
 February 2024

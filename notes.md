@@ -1720,7 +1720,7 @@ or AGI corporations.
 How much wealth does one need to have to survive, ideally indefinitely?
 
 __Finding__: If you lose your job at the start of the singularity, with
-monthly spending of \$1k, you need ~\$71k in total of capital. This
+monthly spending of \\$1k, you need ~\\$71k in total of capital. This
 number doesn't look very sensitive to losing one's job slightly later.
 
 At the moment, the world economy is growing at a pace that leads to
@@ -1839,16 +1839,72 @@ as opposed to e.g.
 [context-free](https://en.wikipedia.org/wiki/Context-free_grammar)
 languages.
 
-1. My first reaction is that humans are definitely not Turing machines, because we lack the infinite amount of memory the Turing machine has in form of an (idealized) tape. Indeed, in the [Chomsky hierarchy](https://en.wikipedia.org/wiki/Chomsky_Hierarchy) human aren't even at the level of [pushdown automata](https://en.wikipedia.org/wiki/Push-down_automata), instead we are nothing more than [finite state automata](https://en.wikipedia.org/wiki/Finite-state_automaton). (I remember a professor pointing this out to us that all physical instantiations of computers are merely finite-state automata).
-	1. Depending on one's [interpretation of quantum mechanics](https://en.wikipedia.org/wiki/Interpretations_of_Quantum_Mechanics), one might instead argue that we're at least [nondeterministic finite automata](https://en.wikipedia.org/wiki/Nondeterministic_finite_automata) or even [Markov chains](https://en.wikipedia.org/wiki/Markov-Chain). However, every nondeterministic finite automaton can be [transformed into a deterministic finite automaton](https://en.wikipedia.org/wiki/Nondeterministic_finite_automata#Equivalence_to_DFA), albeit at an exponential increase in the number of states, and Markov chains aren't more computationally powerful (e.g. they can't recognize [Dyck languages](https://en.wikipedia.org/wiki/Dyck_language), just as DFAs can't).
-	2. It might be that [Quantum finite automata](https://en.wikipedia.org/wiki/Quantum_finite_automata) are of interest, but I don't know enough about quantum physics to make a judgment call.
-2. The above argument only applies if we regard humans as closed systems with clearly defined inputs and outputs. When probed, many proponents of the statement "humans are Turing machines" indeed fall back to a [motte](https://en.wikipedia.org/wiki/Motte-and-Bailey) that *in principle* a human could execute every algorithm, given enough [time, pen and paper](https://xkcd.com/505/).
-	1. This seems true to me, assuming that the matter in universe does not have a limited amount of computation it can perform.
-		1. In a [finite universe](https://arxiv.org/pdf/quant-ph/0110141.pdf) we are [logically isolated](https://www.lesswrong.com/posts/JWeA8PHnRNQYGWw6Q/aaboyles-s-shortform?commentId=P3NmzPzKHpBXFFZbm) from [almost all](https://en.wikipedia.org/wiki/Almost_all) computable strings, which seems pretty relevant.
-		2. Another constraint is from computational complexity; [should we treat things that are not polynomial-time computable as basically unknowable](https://www.scottaaronson.com/papers/philos.pdf)? Humans certainly can't solve [NP-complete problems](https://en.wikipedia.org/wiki/NP-complete) efficiently.
+1.	My first reaction is that humans are definitely not Turing
+	machines, because we lack the infinite amount of memory the Turing
+	machine has in form of an (idealized) tape. Indeed, in the [Chomsky
+	hierarchy](https://en.wikipedia.org/wiki/Chomsky_Hierarchy)
+	human aren't even at the level of [pushdown
+	automata](https://en.wikipedia.org/wiki/Push-down_automata),
+	instead we are nothing more than [finite state
+	automata](https://en.wikipedia.org/wiki/Finite-state_automaton). (I
+	remember a professor pointing this out to us that all physical
+	instantiations of computers are merely finite-state automata).
+	1.	Depending on one's [interpretation of quantum
+		mechanics](https://en.wikipedia.org/wiki/Interpretations_of_Quantum_Mechanics),
+		one might instead argue that
+		we're at least [nondeterministic finite
+		automata](https://en.wikipedia.org/wiki/Nondeterministic_finite_automata)
+		or even [Markov
+		chains](https://en.wikipedia.org/wiki/Markov-Chain). However,
+		every nondeterministic finite automaton
+		can be [transformed into a deterministic finite
+		automaton](https://en.wikipedia.org/wiki/Nondeterministic_finite_automata#Equivalence_to_DFA),
+		albeit at an exponential increase in the
+		number of states, and Markov chains aren't more
+		computationally powerful (e.g. they can't recognize [Dyck
+		languages](https://en.wikipedia.org/wiki/Dyck_language), just
+		as DFAs can't).
+	2. It might be that [Quantum finite
+		automata](https://en.wikipedia.org/wiki/Quantum_finite_automata)
+		are of interest, but I don't know enough about quantum physics
+		to make a judgment call.
+2.	The above argument only applies if we regard humans as closed systems
+	with clearly defined inputs and outputs. When probed, many proponents
+	of the statement "humans are Turing machines" indeed fall back to
+	a [motte](https://en.wikipedia.org/wiki/Motte-and-Bailey) that *in
+	principle* a human could execute every algorithm, given enough [time,
+	pen and paper](https://xkcd.com/505/).
+	1.	This seems true to me, assuming that the matter in universe
+		does not have a limited amount of computation it can perform.
+		1.	In a [finite
+			universe](https://arxiv.org/pdf/quant-ph/0110141.pdf)
+			we are [logically
+			isolated](https://www.lesswrong.com/posts/JWeA8PHnRNQYGWw6Q/aaboyles-s-shortform?commentId=P3NmzPzKHpBXFFZbm)
+			from [almost
+			all](https://en.wikipedia.org/wiki/Almost_all) computable
+			strings, which seems pretty relevant.
+		2.	Another constraint is from computational
+			complexity; [should we treat things that
+			are not polynomial-time computable as basically
+			unknowable](https://www.scottaaronson.com/papers/philos.pdf)?
+			Humans certainly can't solve [NP-complete
+			problems](https://en.wikipedia.org/wiki/NP-complete)
+			efficiently.
 	2. I'm not sure this is a very useful notion.
-		1. On the one hand, I'd argue that, by orchestrating the exactly right circumstances, a tulip could receive specific stimuli to grow in the right directions, knock the correct things over, lift other things up with its roots, create offspring that perform subcomputations &c to execute arbitrary programs. [Conway's Game of Life certainly manages to](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Undecidability)!. One might object that this is set up for the tulip to succeed, but we also put the human in a room with unlimited pens and papers.
-		2. On the other hand, those circumstances would have to be *very exact*, much more so than with humans. But that again is a difference in degree, not in kind.
+		1.	On the one hand, I'd argue that, by orchestrating
+			the exactly right circumstances, a tulip could
+			receive specific stimuli to grow in the right
+			directions, knock the correct things over, lift
+			other things up with its roots, create offspring
+			that perform subcomputations &c to execute arbitrary
+			programs. [Conway's Game of Life certainly manages
+			to](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Undecidability)!.
+			One might object that this is set up for the tulip
+			to succeed, but we also put the human in a room with
+			unlimited pens and papers.
+		2.	On the other hand, those circumstances would have to
+			be *very exact*, much more so than with humans. But that
+			again is a difference in degree, not in kind.
 
 After all, I'm coming down with the following summary: Humans are
 certainly *not Turing machines*, however there might be a (much weaker)
