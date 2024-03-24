@@ -15,6 +15,7 @@ and knowledge patterns from one learned domain in a new domain if
 appropriate (transfer learning), and make it easier to find further
 learning-accelerating techniques (meta-learning).
 
+
 Summary of the Results
 -----------------------
 
@@ -28,6 +29,18 @@ set of interventions `$I$` which has the following properties:
 2. Applying `$I$` is easier than learning all skills `$S$`
 3. Optional: `$I$` is *relatively* easy to apply, that is it doesn't need a lot of institutional setup
 4. Optional: `$I$` can be applied to itself, and to find better interventions `$I'$` that have the same properties as `$I$`
+
+The question about transfer learning in humans isn't clearly
+differentiated from the research into effective learning techniques.
+Transfer learning and meta-learning are more focused on crossing the
+theory-practice gap and making progress in domains where we don't yet
+have detailed knowledge.
+
+Therefore, I tried to find more information from well-performing
+institutions such as the military and large corporations, de-emphasizing
+research done in universities and schools (I found this difficult because
+those places tend to have more incentive to publish their techniques,
+and also strive to quantify their benefits).
 
 Candidates
 -----------
@@ -87,6 +100,9 @@ steps being](https://math.berkeley.edu/~gmelvin/polya.pdf)
 
 1. Understand the problem
 2. Devise a plan
+	1.	The book "How to Solve It"
+		also has a list of [problem solving
+		strategies](https://en.wikipedia.org/wiki/How_to_Solve_It#Second_principle:_Devise_a_plan)
 3. Carry out the plan
 4. Look back
 
