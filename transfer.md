@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-02-28, modified: 2024-02-28, language: english, status: notes, importance: 6, confidence: certain*
+*author: niplav, created: 2024-02-28, modified: 2024-02-28, language: english, status: in progress, importance: 6, confidence: certain*
 
 > __I examine the literature on transfer learning in humans<!--, and find that-->.__
 
@@ -15,9 +15,23 @@ and knowledge patterns from one learned domain in a new domain if
 appropriate (transfer learning), and make it easier to find further
 learning-accelerating techniques (meta-learning).
 
-
 Summary of the Results
 -----------------------
+
+1. If you want to learn faster
+	1. Do [spaced repetition](https://www.gwern.net/Spaced-repetition) when possible
+		1. In general, revisit basics of a field while you're learning
+	2. Spend a lot of time on practice problems
+	3. Explain why you're doing what you're doing, while you're doing it
+1. If you want to solve problems
+	1. If there are already experts at the problem you're trying to solve, [interview them in a systematic fashion](https://commoncog.com/accelerated-expertise/) to [extract](https://commoncog.com/an-easier-method-for-extracting-tacit-knowledge/) their [tacit knowledge](https://commoncog.com/the-tacit-knowledge-series/).
+		1. With enough institutional support this can be turned into a training program.
+	2. If there are no experts in the domain where you're trying to solve a problem:
+		1. Search for related domains and extract existing tacit knowledge there, or learn those domains
+		2. Apply the [Pólya method](#Pólya_Method)
+
+If you think that these recommendations are kind of unsatisfying,
+[I agree with you](#My_Impression_of_the_Literature).
 
 What I Am Looking For
 -----------------------
@@ -42,8 +56,8 @@ research done in universities and schools (I found this difficult because
 those places tend to have more incentive to publish their techniques,
 and also strive to quantify their benefits).
 
-Candidates
------------
+Candidate Interventions
+------------------------
 
 ### Straightforward Stuff
 
@@ -84,14 +98,37 @@ interventions as having moderate utility:
 		moderate, but (p. 38): "interleaved practice helped
 		students to discriminate between various kinds of
 		problems and to learn the appropriate formula to apply
-		for each one". Works better on mathematics.
+		for each one". Works better on mathematics[^3].
 
 [^1]: Judging from [Dunlosky et al. 2017](https://www.wku.edu/senate/documents/improving_student_learning_dunlosky_2013.pdf) the participants in the various studies were asked to verbally explain their reasoning. It's not said how writing the explanation instead of saying it compares.
 [^2]: These two techniques are treated separately in the paper, but as far as I can tell mostly for historical reasons.
+[^3]: This is supported by the theory of [transfer-appropriate processing](https://en.wikipedia.org/wiki/Transfer-appropriate_processing), which puts an especially strong emphasis on the encoding and retrieval of learned information. As far as I understand, the recapitulation of basic knowledge in the context of more advanced knowledge allows for a more accurate re-encoding of the basic knowledge. This also tracks with my experience of learning mathematics: I've gotten more mileage out of understanding basic concepts deeply (e.g. how probabilities, logits and bits fit together), than understanding more advanced concepts shallowly.
 
 ### "Far Transfer"
 
+__Summary__: Far transfer occurs if one puts in a lot of effort,
+e.g. after doing semester- or year-long courses on decision-making and
+such. The effect sizes on general abilities tests are medium (d≈0.3).
+
+Far transfer is:
+
+> improved performance at problems that are similar to but also
+substantially different from ones experienced during training (e.g.,
+fault diagnosis in process control to fault diagnosis in telecommunication
+networks).
+
+*—Hoffman et al., “Accelerated Expertise”, 2014*
+
+The relevant papers are:
+
+* [Herrnstein et al. 1986](https://www.researchgate.net/profile/Raymond-Nickerson/publication/232424806_Teaching_Thinking_Skills/links/564b3d0408ae3374e5dd841b/Teaching-Thinking-Skills.pdf): n=895 Venezuelan high-school students (mean age 13.22 years), controlled trial. Intervention was a year-long course on decision-making (four days a week), others received a control course (it's not clear what this control course was about). Effect sizes on various general intelligence tests are d=0.35 (General Abilities Test), d=0.43 ([OLSAT](https://en.wikipedia.org/wiki/Otis-Lennon_School_Ability_Test)), d=0.11 ([CATTELL](https://en.wikipedia.org/wiki/Cattell_Culture_Fair_Intelligence_Test)), all at statistical significance.
+* [Fong et al. 1986](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/26118/0000194.pdf;sequence=1): n=347 adults and high-school students were instructed on the [law of large numbers](https://en.wikipedia.org/wiki/Law_Of_Large_Numbers), from just reading a description (control) to working through examples where the law was and was not applicable (intervention). They were then tested on the application of the law to new problems. Effect size was 1 logit (which corresponds to d≈0.55 [IIUC](https://en.wiktionary.org/wiki/IIUC)).
+
 ### Pólya Method
+
+__Summary__: Evidence is not great, but one paper looks suspiciously
+good. Worth investigating, especially since it's often recommended by
+research mathematicians.
 
 Another interesting-seeming strand of research were tests of the
 [Pólya method](https://en.wikipedia.org/wiki/How_To_Solve_It). The
@@ -114,19 +151,80 @@ and for reflection after carrying out the plan.
 For some weird reason, the only scientists who have investigated the
 Pólya method experimentally are Indonesian. I have no idea why.
 
-The relevant papers are:
+The relevant papers all test on learning basic
+mathematical problem solving skills in [plane
+geometry](https://en.wikipedia.org/wiki/Plane_Geometry) and
+[fractions](https://en.wikipedia.org/wiki/Fractions):
 
 1. [Nasir & Syartina 2021](https://jurnal.syekhnurjati.ac.id/index.php/eduma/article/viewFile/8700/3969): n=32 Indonesian high-school students, non-RCT, only observational. Effect size d=0.71, but that's not super impressive given it's not an RCT.
 2. [Widiana et al. 2018](http://edulearn.intelektual.org/index.php/EduLearn/article/viewFile/4526/5353): n=138 elementary school children, RCT. I'm not *entirely* sure about this, but based on their Table 1 and [this calculator](https://www.socscistatistics.com/effectsize/default3.aspx) I get __d=2.4__, which I find really hard to believe. I think I'm making a mistake`$_{60\%}$` or the paper is fraudulent`$_{40\%}$`.
 3. [Hayati et al. 2022](https://jestec.taylors.edu.my/Special%20Issue%20ICMScE2022/ICMScE2022_04.pdf): n=40 Indonesian high-school children. This paper is so confusingly written I can't extract any meaning from it.
 
-### Training Spatial Cognition
-
 ### Dual N-Back
 
-### Increasing Intelligence
+__Summary__: Increases working memory, but probably not IQ.
+
+I re-read parts of [Gwern 2019](https://gwern.net/dnb-faq) and [Gwern
+2018](https://gwern.net/dnb-meta-analysis), and come away with believing
+that if one is bottlenecked by working memory, n-back is worth it,
+but it doesn't work well for increasing intelligence.
+
+### Judgmental Forecasting
+
+__Summary__: I didn't find anything on whether learned forecasting
+ability transfers across domains. I now want to analyze some data to
+find out whether it does.
+
+The evidence from the judgmental forecasting research is confusing. On
+the one hand, it's widely known that domain-level experts are [not
+very good](https://en.wikipedia.org/wiki/Expert_Political_Judgment)
+at making predictions about their own domain, and are outcompeted by
+[superforecasters](https://en.wikipedia.org/wiki/Superforecasting)
+who are just generally good at predicting.
+
+On the other hand, the vibe given by forecasters and forecasting
+researchers is similar to the following statement:
+
+> By the way, there are no shortcuts. Bridge players may develop
+well-calibrated judgment when it comes to bidding on tricks, but research
+shows that judgment calibrated in one context transfers poorly, if at
+all, to another. So if you were thinking of becoming a better political
+or business forecaster by playing bridge, forget it.
+
+*—Philip E. Tetlock & Dan Gardner, “Superforecasting” p. 179, 2015*
+
+I tried to find the research this paragraph is talking about by asking
+in a couple of discord servers and messaging the [Forecasting Research
+Institute](https://forecastingresearch.org/), but I didn't get any
+responses that were satisfying to me.
+
+I now want to analyze my [own judgmental forecasting
+datasets](./iqisa.html) to figure out how much forecasting ability
+generalizes across domains.
+
+### Training Spatial Cognition
+
+### Accelerated Expertise
 
 Creating Self-Improving Institutions
 --------------------------------------
 
 Double-loop learning.
+
+My Impression of the Literature
+--------------------------------
+
+After spending a dozen hours researching this area, my current impression
+is that this is something that too many different fields are interested
+in; among them are business people, military psychologists, education
+researchers, neuroscientists, cognitive psychologists…
+
+This results in a wild outgrowth of terminology: "transfer of learning",
+"learning to learn", "deutero-learning", "double-loop learning", "design
+thinking", "adaptive learning" &c. In my research I don't think I've
+encountered a paper being cited by two different papers, which suggests
+there's more than a thousand papers grasping at the same question of
+transfer learning.
+
+See Also
+---------
