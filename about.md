@@ -27,16 +27,15 @@ The Site
 
 ### Content
 
-This website contains texts on different topics, ranging
-from programming over philosophy to discussions of odd social
+This website contains texts on different topics, ranging from
+programming over philosophy to discussions of odd social
 behavior, as well as translations, transcriptions, music
 recordings and programming projects. It follows the idea of [Long
 Content](https://www.gwern.net/About#long-content): pages that are
 continually getting refined and updated, never quite completely finished,
 but approaching stability. This allows for "perpetual drafts", along
-with continuous improvement (similar to a wiki, but mainly edited by one
-person).
-
+with continuous improvement (similar to a wiki, but mainly edited by
+one person)
 This is inspired by the idea of Long Content, produced under the motto
 
 > Think [Less Wrong](https://www.lesswrong.com), act [Long Now](https://en.wikipedia.org/wiki/Long_Now_Foundation) and [Suck Less](https://suckless.org).
@@ -49,6 +48,12 @@ the content of the site in order (i. e. to ["Start at the
 Beginning"](https://entirelyuseless.com/2018/06/12/start-at-the-beginning/))
 and to structure it by topic and form, rather than to strive for
 presenting mainly new information to the reader.
+
+This is also why you might see [multiple](./preagents.html)
+[skeletal](./increasing.html) [posts](./leave.html). I've thought about
+whether to keep these frames on the index, but decided in favour—it
+gives interested people something to hang onto, at my expense of looking
+foolish.
 
 Furthermore, the texts are often less
 literary essays and more static [computational
