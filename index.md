@@ -43,8 +43,6 @@ Writing
 ##### Technical
 
 * [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
-* [Preagents and Value Formation](./preagents.html)
-* [Too Good to be True: Training an RL Agent to be Suspicious](./suspicious.html)
 
 ##### Strategy
 
@@ -82,7 +80,6 @@ of whom can ever feel secure in the love of a cold and distant parent?
 * [99 Problems Klong Solution](./99_problems_klong_solution.html)
 * [Nothing to See Here, Just An Implementation of HodgeRank](./hodge.html)
 * [Implementing Commutative Hyperoperators](./hyperoperators.html)
-* [Generalizing the Diamond-Square Algorithm to n Dimensions](./diamond.html)
 
 #### Mathematics
 
@@ -99,32 +96,7 @@ of whom can ever feel secure in the love of a cold and distant parent?
 #### Practical
 
 * [Cryonics Cost-Benefit Analysis](./considerations_on_cryonics.html)
-* [Cryonics Outside of the United States](./cryonics_outside_us.html)
 * [Building a Cuboid](./cuboid.html)
-* [Prepare to Leave The Internet](./leave.html)
-
-<!--
-##### Pick-Up
-
-> The American girl is well acquainted with her body’s seductive
-capacity. She knows it lies in the face, and in expressive eyes,
-and thirsty lips. She knows seductiveness lies in the round breasts,
-the full buttocks, and in the shapely thighs, sleek legs and she shows
-all this and does not hide it. She knows it lies in clothes: in bright
-colors that awaken primal sensations, and in designs that reveal the
-temptations of the body— and in American girls these are sometimes live,
-screaming temptations! Then she adds to all this the fetching laugh,
-the naked looks, and the bold moves, and she does not ignore this for
-one moment or forget it!
-
-*—[Sayyid Qutb ash-Shaheed](https://en.wikipedia.org/wiki/Sayyid_Qutb), [“The America I Have Seen”](https://en.wikipedia.org/wiki/The_America_I_Have_Seen) p. 16, 1951*
-
-* [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
-* [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)
-* [Notes on Pickup](./notes_on_pickup.html)
-* [Pickup Reports](./pickup_reports.html)
-* [Flags](./flags.html)
--->
 
 #### Existential Risk
 
@@ -142,8 +114,6 @@ one moment or forget it!
 * [Have Attention Spans Been Declining?](./spans.html)
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
 * [Transfer Learning in Humans](./transfer.html)
-* [Brain Stimulation for Meditation Enhancement](./stimulation.html)
-* [Increasing Subjective Lifespan](./increasing.html)
 * [Awesome Things Humans Can Learn](./awesome.html)
 
 #### Collections
@@ -165,7 +135,6 @@ one moment or forget it!
 #### Notes
 
 * [Notes](./notes.html)
-* [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
 
 #### Reports
 
@@ -244,7 +213,7 @@ Miscellaneous
 * [Favorites](./favorites.html)
 * [Now](./now.html)
 * [Todo](./todo.html)
-* [Administrativa for Facts](./administrativa_for_facts.html)
+* [Full Index](./fullindex.html)
 
 ### Media Consumption
 

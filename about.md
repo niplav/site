@@ -482,6 +482,20 @@ den alten Rang, den Raum ihr streitig macht.
 
 Who I am is not terribly important.
 
+I follow [Crocker's rules](https://www.lesswrong.com/tag/crockers-rules):
+
+> Declaring yourself to be operating by "Crocker's Rules" means that
+other people are allowed to optimize their messages for information, not
+for being nice to you.  Crocker's Rules means that you have accepted full
+responsibility for the operation of your own mind - if you're offended,
+it's your fault.
+
+*—[“Crocker's rules”](http://sl4.org/crocker.html)*
+
+People don't seem particularly benefit from declaring Crocker's rules—I
+suspect that is because giving direct and honest feedback is similarly
+psychologically difficult to receiving it.
+
 ### Track Records
 
 I think that track records are [great &
@@ -534,8 +548,6 @@ the results.<!--TODO: redo with a better source-->
 
 The last g-loaded test I took (in high school) put me at ~110, which
 seems about right.
-
-<!--TODO: Crocker-->
 
 ### Elsewhere on the Internet
 
