@@ -18,20 +18,25 @@ learning-accelerating techniques (meta-learning).
 Summary of the Results
 -----------------------
 
-1. If you want to learn faster
+1. If you want to [learn faster](#Straightforward_Stuff)
 	1. Do [spaced repetition](https://www.gwern.net/Spaced-repetition) when possible
 		1. In general, revisit basics of a field while you're learning
 	2. Spend a lot of time on practice problems
 	3. Explain why you're doing what you're doing, while you're doing it
+	4. If errors are cheap and obvious, [make and seek out errors during learning/training](#Error_Management_Theory)
 1. If you want to solve problems
-	1. If there are already experts at the problem you're trying to solve, [interview them in a systematic fashion](https://commoncog.com/accelerated-expertise/) to [extract](https://commoncog.com/an-easier-method-for-extracting-tacit-knowledge/) their [tacit knowledge](https://commoncog.com/the-tacit-knowledge-series/).
-		1. With enough institutional support this can be turned into a training program.
-	2. If there are no experts in the domain where you're trying to solve a problem:
-		1. Search for related domains and extract existing tacit knowledge there, or learn those domains
+	1. Try to get feedback on both the process and the outcomes of what you're doing
+		1. Explicitly [analyse errors after you've made them](#Inducing_Transfer)[^4]
+	2. If there are already experts at the problem you're trying to solve, [interview them in a systematic fashion](https://commoncog.com/accelerated-expertise/) to [extract](https://commoncog.com/an-easier-method-for-extracting-tacit-knowledge/) their [tacit knowledge](https://commoncog.com/the-tacit-knowledge-series/)
+		1. With enough institutional support this can be turned into a training program
+	3. If there are no experts in the domain where you're trying to solve a problem:
+		1. Search for related domains and extract existing tacit knowledge there, or learn those domains—the closer the better
 		2. Apply the [Pólya method](#Pólya_Method)
 
 If you think that these recommendations are kind of unsatisfying,
 [I agree with you](#My_Impression_of_the_Literature).
+
+[^4]: Since everything is judgmental-forecasting-shaped, one could test this by letting forecasters elaborate on their forecasts and at resolution time analyse their elaborations. I've [tried doing this](http://niplav.site/notes_on_predictions.html) but it fell off for other projects.
 
 What I Am Looking For
 -----------------------
@@ -124,6 +129,42 @@ The relevant papers are:
 * [Herrnstein et al. 1986](https://www.researchgate.net/profile/Raymond-Nickerson/publication/232424806_Teaching_Thinking_Skills/links/564b3d0408ae3374e5dd841b/Teaching-Thinking-Skills.pdf): n=895 Venezuelan high-school students (mean age 13.22 years), controlled trial. Intervention was a year-long course on decision-making (four days a week), others received a control course (it's not clear what this control course was about). Effect sizes on various general intelligence tests are d=0.35 (General Abilities Test), d=0.43 ([OLSAT](https://en.wikipedia.org/wiki/Otis-Lennon_School_Ability_Test)), d=0.11 ([CATTELL](https://en.wikipedia.org/wiki/Cattell_Culture_Fair_Intelligence_Test)), all at statistical significance.
 * [Fong et al. 1986](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/26118/0000194.pdf;sequence=1): n=347 adults and high-school students were instructed on the [law of large numbers](https://en.wikipedia.org/wiki/Law_Of_Large_Numbers), from just reading a description (control) to working through examples where the law was and was not applicable (intervention). They were then tested on the application of the law to new problems. Effect size was 1 logit (which corresponds to d≈0.55 [IIUC](https://en.wiktionary.org/wiki/IIUC)).
 
+### Error Management Theory
+
+__Summary__: Making errors during training, if it is obvious an error
+has occurred, and errors are affordable, transfers the learned knowledge
+pretty well (d=0.8).
+
+[Error Management
+Training](https://en.wikipedia.org/wiki/Error_management_theory) (EMT) is a
+type of training in which making errors during exploration while learning
+is actively encouraged. Trainers encourage learners during learning to
+make errors and reflect on those errors while learning, but don't give
+much guidance beyond that.
+
+[Keith & Frese
+2008](http://fox.leuphana.de/portal/files/607254/Keith_frese_Error_Manag_Train_Metacongition_Em_control_JAP05.pdf)
+perform a meta-analysis analysing studies training participants to use
+software tools or learn programming languages (n=2183), comparing EMT
+to training that encourages error-avoidance, and find that EMT has a
+medium-sized advantage over error-avoiding training methods (d=0.44).
+
+EMT shows *larger* effect sizes over error-avoiding methods with more
+demanding transfer: d=0.56 for performance after training, and d=0.8 for
+transfer that requires modifying learned procedures to fit news contexts
+(adaptive transfer). However, Keith & Frese also provide evidence that
+this advantage only occurs if there is clear feedback on whether an
+error has occurred or not.
+
+One is reminded of [Umeshisms](https://www.scottaaronson.com/blog/?p=40):
+If you never fail, you're underperforming. (Also, you're not going to
+be able to use it.)
+
+I don't know how to balance the rate of failing to succeeding tasks,
+when I tried tutoring someone in software engineering for fun, I tried
+to give the person assignments that they would only be able to solve 50%
+of the time.
+
 ### Pólya Method
 
 __Summary__: Evidence is not great, but one paper looks suspiciously
@@ -159,6 +200,63 @@ geometry](https://en.wikipedia.org/wiki/Plane_Geometry) and
 1. [Nasir & Syartina 2021](https://jurnal.syekhnurjati.ac.id/index.php/eduma/article/viewFile/8700/3969): n=32 Indonesian high-school students, non-RCT, only observational. Effect size d=0.71, but that's not super impressive given it's not an RCT.
 2. [Widiana et al. 2018](http://edulearn.intelektual.org/index.php/EduLearn/article/viewFile/4526/5353): n=138 elementary school children, RCT. I'm not *entirely* sure about this, but based on their Table 1 and [this calculator](https://www.socscistatistics.com/effectsize/default3.aspx) I get __d=2.4__, which I find really hard to believe. I think I'm making a mistake`$_{60\%}$` or the paper is fraudulent`$_{40\%}$`.
 3. [Hayati et al. 2022](https://jestec.taylors.edu.my/Special%20Issue%20ICMScE2022/ICMScE2022_04.pdf): n=40 Indonesian high-school children. This paper is so confusingly written I can't extract any meaning from it.
+
+### Accelerated Expertise
+
+__Summary__: With a lot of institutional support, one can extract
+knowledge from experts and use it to create better training programs.
+This requires a large institution to be worth it.
+
+Accelerated Expertise ([Hoffman et al.,
+2014](https://www.goodreads.com/book/show/17399473-accelerated-expertise))
+was motivated by getting military recruits up to speed quickly before
+moving them to deployment.  It focuses on the case in which there are
+already experts for a given domain, and one aims to move the skills from
+domain experts into the mind of new recruits as quickly as possible. [Chin
+2024](https://commoncog.com/accelerated-expertise/) summarizes the goals
+of the research project that lead to the book as attempting to speed
+up the time from being a beginner at a specific task or set of tasks to
+being proficient at that task (hence the name "Accelerated Expertise").
+
+![](./img/transfer/accelerated.jpg)
+
+They are skeptical that any training can make trainees dramatically
+better at the domain than experts with a lot of training.
+
+For this, Hoffman et al. have developed a series of multiple steps for
+creating training programs for new recruits.
+
+1. Identify domain experts
+2. Use [Cognitive Task Analysis](https://commoncog.com/an-easier-method-for-extracting-tacit-knowledge/) to extract expert knowledge
+3. Build a case library of difficult cases
+4. Turn case library into a set of training simulations
+5. Optional: Include introspection & reflection in the program
+6. Optional: Teach abstract/generalized principles
+7. Test the program
+
+The book contains a literature review on transfer in chapter 5, which I
+didn't manage to completely read, but which afaik is the best collected
+resource on transfer learning in humans. They summarize the chapter by
+remarking that not artificially "dumbing down" a domain when a beginner
+tries to learn it can delay learning in the beginning, but speed up
+learning in the long run because it prevents misunderstandings from
+becoming entrenched.
+
+#### Inducing Transfer
+
+They also summarize the methods for inducing transfer:
+
+> Transferring a skill to new situations is often difficult but can
+be promoted by following a number of training principles: employing
+deliberate practice, increasing the variability of practice, adding
+sources of contextual interference, using a mixed practice schedule,
+distributing practice in time, and providing process and outcome feedback
+in an explicit analysis of errors.
+
+*—Hoffman et al., [“Accelerated Expertise”](https://www.goodreads.com/book/show/17399473-accelerated-expertise) p. 176, 2014*
+
+I'd also have liked to dive deeper on extracting expert knowledge,
+which looks important especially in novel domains like AI alignment.
 
 ### Dual N-Back
 
@@ -204,8 +302,6 @@ generalizes across domains.
 
 ### Training Spatial Cognition
 
-### Accelerated Expertise
-
 Creating Self-Improving Institutions
 --------------------------------------
 
@@ -226,5 +322,11 @@ encountered a paper being cited by two different papers, which suggests
 there's more than a thousand papers grasping at the same question of
 transfer learning.
 
+I've created an (incomplete)
+[spreadsheet](https://docs.google.com/spreadsheets/d/1-_EuaLf1Fau7hhH-9lvzec-hhiswmRM2rey2bfbp8mA/edit?usp=sharing)
+with the relevant papers from the literature that I could find.
+
 See Also
 ---------
+
+* [Ricón 2020](https://nintil.com/bloom-sigma/#darpa-s-study) on a DARPA study with a digital tutor for a specific domain, showing __d=2.81__ improvement
