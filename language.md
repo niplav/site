@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2024-02-08, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2024-03-30, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of puns, good bandnames, types of guy,
 idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
@@ -198,21 +198,49 @@ Naming ASCII Characters
 ------------------------
 
 Programmers often have to use the ASCII special characters
-`!"#\|%&'()*+,-./:;<=>?@[\]^_{|}~` and \`. However, spelling
-out "exclamation mark" has proven to be cumbersome, which
+`!"#\|%&'()*+,-./:;<=>?@[\]^_{|}~` and \`. However,
+pronouncing/spelling out "exclamation mark" is cumbersome, which
 made programmers introduce (or use) their own names for these
 characters. [Urbit](https://en.wikipedia.org/wiki/Urbit),
 as always, [drives the idea to its logical
 conclusion](https://developers.urbit.org/reference/hoon/stdlib/4h).
 
-Some proposed names for these<!--TODO: find sources-->:
+Let me propose some names:
 
-* '!': Bang
-* '()': Parens
-* '[]': Brackets
-* '{}': Braces
-* '\': Whack
-* '?': What
+* \* star (splat)
+* ? what
+* \` tick
+* ! bang
+* . dot
+* + plus
+* ~ not
+* < less
+* > more
+* @ at
+* # hash
+* / slash
+* \ back (whack)
+* | bar (or)
+* & and
+* " quote
+* = is
+* $ cash
+
+No individual names yet, also two syllables:
+
+* \(\) paren
+* \[\] bracket
+* {} brace
+
+Not sure:
+
+* % per
+* \_ score
+* ^ up
+* ; then
+* - take
+* : so
+* ' say
 
 Asymmetries in Languages
 -------------------------
@@ -326,7 +354,7 @@ Quines and Not-Quines
 	 Noting "noting “noting ‘noting »noting ›noting 'noting itself' itself‹ itself« itself’ itself” itself" itself
 
 * “is socially constructed” is socially constructed
-* “I will do as I please” will do as it pleases
+* “will do as it pleases” will do as it pleases
 
 Umeshisms
 ----------
@@ -363,25 +391,37 @@ often use instead.
 Equivalences
 -------------
 
+<!--The whole equivalence tree for programming languages and religions-->
+
 * decision theory : microeconomics :: game theory : macroeconomics
 * biology : philosophy of mind :: ethology : meditation
-* David Gerard : Eliezer Yudkowsky :: Lucifer : God :: Émile Torres : William MacAskill :: Melkor : Eru Illúvatar
 * attention : distraction :: awareness : spacedoutness
 * moloch : slack :: goodhart : swamp
 * [anarchy : singleton :: ANN computing : ALU computing](https://twitter.com/exdiegesis/status/1719884031871905953)
 * Need for cognition : charisma :: need for social interaction : intelligence
-* Christianity : Teilhard de Chardin :: Buddhism : Romeo Stevens
 * [log odds : probability :: epistemic status : confidence level](https://www.lesswrong.com/posts/xF7gBJYsy6qenmmCS/don-t-die-with-dignity-instead-play-to-your-outs?commentId=P9EiLDCgxRwJNi6bs)
 * Action : Inaction : Energy : Sluggishness : [Steam](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam) :: Noninteraction : Damage : Robustness : Fragility : [Hormesis](https://en.wikipedia.org/wiki/Hormesis)
 	* Or even: ((Action : Inaction) :: (Energy : Sluggishness) ::: [Steam](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam)) :::: ((Noninteraction : Damage) :: (Robustness : Fragility) ::: [Hormesis](https://en.wikipedia.org/wiki/Hormesis))
 * Evolution : lifetime learning : humans : human values :: neural architecture search : SGD : ML systems : ML system goals
 * [Bullwhip effect](https://en.wikipedia.org/wiki/Bullwhip_Effect) : markets :: [exploding gradients](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) : neural network training :: epilepsy : brains :: [cytokine storm](https://en.wikipedia.org/wiki/Cytokine_Storm) : immune systems :: [hypereutrophy](https://en.wikipedia.org/wiki/Trophic_State_Index#Hypereutrophic) : ecosystems :: meditation : jhanas<!--TODO: add link to own & Gavin's tweet-->
 * Editors : Wikipedia :: hot women : dating apps
+* LLMs : Pre-training : Fine-Tuning : RLHF : Constitutional AI :: Humans : Predictive Processing : Selective Attention : Reinforcement Learning : Cultural Learning
+* David Gerard : Eliezer Yudkowsky :: Lucifer : God :: Émile Torres : William MacAskill :: Melkor : Eru Illúvatar
+* Christianity : Teilhard de Chardin :: Buddhism : Romeo Stevens
 
 #### Missing Words
 
 * eating : drinking :: feeding : ?
 * hungry: satiated :: thirsty : quenched :: horny : ? ("That's my secret—I'm *always* horny." \*hulk transform\*)
+
+##### From German
+
+* "scoff"
+
+##### From English
+
+* "doch"
+* "Feierabend"
 
 2×2s, 2×3s and more
 --------------------
@@ -446,6 +486,7 @@ Fake Esperanto Translations
 * "flamingo": Flammability
 * "estrogeno": Master gene
 * "neniel": A biblical angel
+* "library" in English is "biblioteko" in Esperanto, which is infuriating: "[-aro](https://en.wikiversity.org/wiki/Esperanto/Grammar#Suffixes)" is the suffix for group, and "libr-" is the root for book, so "libraro" would be "group of/collection of books"; *what else is a library*‽
 
 Advertising Lines
 ------------------

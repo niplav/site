@@ -69,6 +69,7 @@ Words
 	* "mit Hängen und Würgen"
 	* "hanebüchen"
 	* "Verdauungsspaziergang"
+	* "[Erbfeindschaft](https://en.wikipedia.org/wiki/Erbfeindschaft)"
 
 Poems
 ------
