@@ -56,6 +56,9 @@ but being 5% more dizzy during those 17 waking hours.
 #### Melatonin
 
 <!--TODO: incorporate info from two meta-analyses linked in twitter replies-->
+<!--Question: *Why does melatonin show reduced sleep duration in internet
+hobbyist studies, but professional meta-analyses show slight increase
+in duration? Is it the overdosing of melatonin in nearly all settings?-->
 
 ##### Gwern 2019
 
@@ -100,6 +103,8 @@ to procure it themselves.
 *—[ChristianKl](https://www.lesswrong.com/users/christiankl), [“Orexin and the quest for more waking hours”](https://www.lesswrong.com/posts/sksP9Lkv9wqaAhXsA/orexin-and-the-quest-for-more-waking-hours), 2022*
 
 <!--TODO: check up on Orexin agonists!-->
+
+* [jayterwahl, 2021](https://www.lesswrong.com/posts/cfRHPHdgpNcSEcY5y/curing-sleep-my-experiences-doing-cowboy-science): n=2, m=? experiment with Orexin, battery of cognitive tests. Subjective assessment by the author: Reduces the effects of sleep deprivation on cognitive performance, but not the feeling of sleepiness. Doesn't mention the amount of sleep deprivation, but useful datapoint: It's not *immediately lethal* to snort Orexin.
 
 #### Others
 
