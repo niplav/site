@@ -5,6 +5,8 @@
 
 > __I examine the literature on transfer learning in humans<!--, and find that-->.__
 
+<!--TODO: section n negative transfer?-->
+
 Transfer Learning in Humans
 ============================
 
@@ -45,9 +47,10 @@ Given a broad set of skills `$S$`, I was looking for an intervention/a
 set of interventions `$I$` which has the following properties:
 
 1. After applying `$I$`, an average adult can now learn skills from `$S$` is on average much faster counterfactually to not having applied `$I$`
-2. Applying `$I$` is easier than learning all skills `$S$`
-3. Optional: `$I$` is *relatively* easy to apply, that is it doesn't need a lot of institutional setup
-4. Optional: `$I$` can be applied to itself, and to find better interventions `$I'$` that have the same properties as `$I$`
+2. Applying `$I$` and learning `$S$` is easier than just learning all skills `$S$`
+3. `$S$` is large (or actually encompasses all skills humans have)
+4. Optional: `$I$` is *relatively* easy to apply, that is it doesn't need a lot of institutional setup
+5. Optional: `$I$` can be applied to itself, and to find better interventions `$I'$` that have the same properties as `$I$`
 
 The question about transfer learning in humans isn't clearly
 differentiated from the research into effective learning techniques.
@@ -160,10 +163,10 @@ One is reminded of [Umeshisms](https://www.scottaaronson.com/blog/?p=40):
 If you never fail, you're underperforming. (Also, you're not going to
 be able to use it.)
 
-I don't know how to balance the rate of failing to succeeding tasks,
-when I tried tutoring someone in software engineering for fun, I tried
-to give the person assignments that they would only be able to solve 50%
-of the time.
+When I tried tutoring someone in programming for fun, I tried to give
+the person assignments that they would only be able to solve 50% of
+the time. I don't know whether this is optimal, but *mumble mumble*
+entropy *mumble* dense reward *mumble*.
 
 ### Pólya Method
 
@@ -300,12 +303,65 @@ I now want to analyze my [own judgmental forecasting
 datasets](./iqisa.html) to figure out how much forecasting ability
 generalizes across domains.
 
+<!--
+TODO:
+
 ### Training Spatial Cognition
+-->
 
 Creating Self-Improving Institutions
 --------------------------------------
 
-Double-loop learning.
+__Summary__: Organizations can become organizations that improve their
+governing variables. Inducing this is very tricky. Events that can
+induce double-loop learning in an organization include a change to
+leaders which value reflection and dialogue, and the introduction of
+software tools, such as systems which are used for prediction, which
+then provide feedback.
+
+*Double-loop learning* is a method to improve learning of organizations,
+taking into account the learning process itself.
+
+[Auqui-Caceres & Furlan
+2023](https://onlinelibrary.wiley.com/doi/pdf/10.1111/emre.12615) review
+the evidence on double-loop learning.
+
+![](./img/transfer/double_loop.png)
+
+They report on several interventions:
+
+* Tested:
+	* [Integrative Double-Kaizen Loop](https://ieeexplore.ieee.org/document/8345680) → implemented and saw improvements, but no controls
+	* Writing and iterating on simulation software ("simulation modeling"/machine learning models) → Induced double-loop learning in two different papers
+* Tested, didn't work:
+	* PIER (Problem-based learning, Interactive multimedia, Experiential learning, and Role-playing) → Allegedly failed because leadership didn't participate
+	* Briefing-debriefing sessions → Allegedly failed because the tested protocol didn't include communicating up the hierarchy
+	* Incident-reporting systems → No change observed
+* Proposed but, as far as I understand, not tested:
+	* [DMAIC](https://asq.org/quality-resources/dmaic)
+	* ["Circular organization"](https://www.proquest.com/docview/197599398)
+
+> […] these studies maintain that the most prominent barrier to generate
+DLL is defensive reasoning and routines (Bochman & Kroth, 2010; Clarke,
+2006; Kwon & Nicolaides, 2017; Sisaye & Birnberg, 2010; Stavropoulou et
+al., 2015; Sterman, 1994; Wong, 2005), which are produced by participants
+in DLL processes, whenever assumptions underlying taken-for-granted
+procedures, practices, or policies are challenged. Although people are
+aware that they should not use defensive reasoning to deal with daily work
+difficulties and challenges (Thornhill & Amit, 2003), they still use them
+to avoid losing control and dealing with embarrassment (Mordaunt, 2006).
+
+*—Auqui-Caceres & Furlan, [“Revitalizing double-loop learning in organizational contexts: A systematic review and research agenda”](https://onlinelibrary.wiley.com/doi/pdf/10.1111/emre.12615) p. 14, 2023*
+
+Questions
+-----------
+
+1. Is it better to perform elaborative interrogation verbally, or is it as good to write things down?
+2. What is the optimal amount of "going back to the basics" to deepen understanding over time?
+	1. Spaced repetition schedules are one suggestion, but they're only geared towards remembering, not deepening understanding.
+3. Do people generalize within judgmental forecasting, across question asking domains?
+4. Why do all papers I've found to gravitate to the "better learning techniques" bucket?
+5. Which techniques do really successful consultancies or investment firms use for problem-solving ability?
 
 My Impression of the Literature
 --------------------------------
