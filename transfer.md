@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-02-28, modified: 2024-02-28, language: english, status: in progress, importance: 6, confidence: certain*
+*author: niplav, created: 2024-02-28, modified: 2024-03-31, language: english, status: in progress, importance: 6, confidence: certain*
 
 > __I examine the literature on transfer learning in humans<!--, and find that-->.__
 
@@ -20,6 +20,8 @@ learning-accelerating techniques (meta-learning).
 Summary of the Results
 -----------------------
 
+If you're already using spaced repetition a bunch,
+
 1. If you want to [learn faster](#Straightforward_Stuff)
 	1. Do [spaced repetition](https://www.gwern.net/Spaced-repetition) when possible
 		1. In general, revisit basics of a field while you're learning
@@ -33,7 +35,7 @@ Summary of the Results
 		1. With enough institutional support this can be turned into a training program
 	3. If there are no experts in the domain where you're trying to solve a problem:
 		1. Search for related domains and extract existing tacit knowledge there, or learn those domains—the closer the better
-		2. Apply the [Pólya method](#Pólya_Method)
+		2. Apply the [Pólya method](#Pólya_Method)<!--Add four steps-->
 
 If you think that these recommendations are kind of unsatisfying,
 [I agree with you](#My_Impression_of_the_Literature).
@@ -377,6 +379,9 @@ thinking", "adaptive learning" &c. In my research I don't think I've
 encountered a paper being cited by two different papers, which suggests
 there's more than a thousand papers grasping at the same question of
 transfer learning.
+
+<!--Have people figured anything out, did they do obvious or just
+seemingly obvious things-->
 
 I've created an (incomplete)
 [spreadsheet](https://docs.google.com/spreadsheets/d/1-_EuaLf1Fau7hhH-9lvzec-hhiswmRM2rey2bfbp8mA/edit?usp=sharing)
