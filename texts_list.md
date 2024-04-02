@@ -17,6 +17,13 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Can you have causation without correlation? (Surprisingly, yes) (Spencer Greenberg, 2022)](https://www.spencergreenberg.com/2022/03/can-you-have-causation-without-correlation-surprisingly-yes/)
+* \* Accelerated Expertise (Robert R. Hoffman/Paul Ward/Paul J. Feltovich/Lia DiBello/Stephen M. Fiore/Dee H. Andrews, 2014)
+* [Curing Sleep: My Experiences Doing Cowboy Science (jayterwahl, 2021)](https://www.lesswrong.com/posts/cfRHPHdgpNcSEcY5y/curing-sleep-my-experiences-doing-cowboy-science)
+* [Could we breed/engineer intelligent parrots? (lukehmiles, 2023)](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-intelligent-parrots)
+* [An anthropomorphic AI dilemma (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/01/the-anthropomorphic-ai-dilemma.html)
+* [Counting-down vs. counting-up coherence (Tsvi Benson-Tilsen, 2024)](https://tsvibt.blogspot.com/2022/10/counting-down-vs-counting-up-coherence.html)
+* [What could a policy banning AGI look like? (Tsvi Benson-Tilsen, 2024)](https://tsvibt.blogspot.com/2024/03/what-could-policy-banning-agi-look-like.html)
 * [Physicists Prove Surprising Rule of Threes (Natalie Wolchover, 2014)](https://www.quantamagazine.org/in-efimov-state-physicists-find-a-surprising-rule-of-threes-20140527/)
 * [Flash forward (Brian Hayes, 2007)](http://bit-player.org/2007/flash-forward)
 * [A mathematical fable previsited (Brian Hayes, 2007)](http://bit-player.org/2007/a-mathematical-fable-revisited)

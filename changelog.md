@@ -26,15 +26,22 @@ March 2024
 -----------
 
 * [Transfer Learning in Humans](./transfer.html)
-* [Trying to Disambiguate Different Questions about Whether Humans are Turing Machines](./notes.html#Trying_to_Disambiguate_Different_Questions_about_Whether_Humans_are_Turing_Machines). Takeaway: No.
-* [A FIRE Upon the Deep](./notes.html#A_FIRE_Upon_the_Deep): I now want to prioritize earning enough money to have \\$100k in capital, afterwards I'll be more relaxed.
-* [Research Consultants List](./notes.html#Research_Consultants_List)
-* Moved [Discord Servers for Textbooks](./textbook_discord_servers.html) to [a note](./notes.html#Discord_Servers_for_Textbooks)
+* [Notes](./notes.html)
+	* [Trying to Disambiguate Different Questions about Whether Humans are Turing Machines](./notes.html#Trying_to_Disambiguate_Different_Questions_about_Whether_Humans_are_Turing_Machines). Takeaway: No.
+	* [A FIRE Upon the Deep](./notes.html#A_FIRE_Upon_the_Deep): I now want to prioritize earning enough money to have \\$100k in capital, afterwards I'll be more relaxed.
+	* [Research Consultants List](./notes.html#Research_Consultants_List)
+	* Moved [Discord Servers for Textbooks](./textbook_discord_servers.html) to [a note](./notes.html#Discord_Servers_for_Textbooks)
+	* [How Often Does ¬Correlation ⇏ ¬Causation?](./notes.html#How_Often_Does_Correlation__Causation): About half the time is my best current guess.
+* [Naming ASCII characters](./language.html#Naming_ASCII_Characters)
+* Words missing from [German](./language.html#From_German) and [English](./language.html#From_English)
 
 ### Link
 
 * [Cold Showers, Tested (Nick Winter, 2013)](https://blog.nickwinter.net/posts/cold-showers-tested): Cold showers don't have an effect, except on mood.
+* [Curing Sleep: My Experiences Doing Cowboy Science (jayterwahl, 2021)](https://www.lesswrong.com/posts/cfRHPHdgpNcSEcY5y/curing-sleep-my-experiences-doing-cowboy-science): Somebody tries [Orexin](https://en.wikipedia.org/wiki/Orexin) and doesn't die!
 * [The Fable of the Chessmaster (Scott Aaronson, 2006)](https://scottaaronson.blog/?p=56)
+* [Counting-down vs. counting-up coherence (Tsvi Benson-Tilsen, 2024)](https://tsvibt.blogspot.com/2022/10/counting-down-vs-counting-up-coherence.html)
+* [Addiplication (Brian Hayes, 2007)](http://bit-player.org/2007/addiplication)
 
 February 2024
 --------------
