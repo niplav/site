@@ -2022,8 +2022,8 @@ are ignored because when running the code, they never give me any causal
 non-correlations. (I'd be interested in seeing examples to the contrary.)
 
 	results = Dict{Int, Array{Int, 1}}()
-	sem_samples=100
-	inputs_samples=10000
+	sem_samples=200
+	inputs_samples=20000
 	for i in 4:16
 	        results[i]=misclassified_absence_mc(i, sem_samples, inputs_samples)
 	end
@@ -2042,6 +2042,8 @@ So it *looks like* a growing proportion of causal relationships
 are not correlational, and I think the number will
 [asymptote](https://en.wikipedia.org/wiki/Asymptote) at 50%.
 
+### Is the Sample Size Too Small?
+
 Is the issue with the number of inner samples, are we
 simply *not checking enough*? But 10k samples [ought to be enough for
 anybody](https://www.computerworld.com/article/2534312/the--640k--quote-won-t-go-away----but-did-gates-really-say-it-.html)—if
@@ -2052,9 +2054,10 @@ But let's better go and write some code to check:
 	more_samples=Dict{Int, Array{Int, 1}}()
 	samples_test_size=12
 	sem_samples=100
-	for inputs_samples in 2 .^(6:16)
-	        println(inputs_samples)
-	        more_samples[inputs_samples]=misclassified_absence_mc(samples_test_size, sem_samples, inputs_samples)
+	inputs_samples=2 .^(6:17)
+	for inputs_sample in inputs_samples
+	        println(inputs_sample)
+	        more_samples[inputs_sample]=misclassified_absence_mc(samples_test_size, sem_samples, inputs_sample)
 	end
 
 Plotting the number of causal non-correlations reveals that 10k samples
