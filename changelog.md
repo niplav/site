@@ -35,7 +35,7 @@ March 2024
 * [Naming ASCII characters](./language.html#Naming_ASCII_Characters)
 * Words missing from [German](./language.html#From_German) and [English](./language.html#From_English)
 
-### Link
+### Links
 
 * [Cold Showers, Tested (Nick Winter, 2013)](https://blog.nickwinter.net/posts/cold-showers-tested): Cold showers don't have an effect, except on mood.
 * [Curing Sleep: My Experiences Doing Cowboy Science (jayterwahl, 2021)](https://www.lesswrong.com/posts/cfRHPHdgpNcSEcY5y/curing-sleep-my-experiences-doing-cowboy-science): Somebody tries [Orexin](https://en.wikipedia.org/wiki/Orexin) and doesn't die!

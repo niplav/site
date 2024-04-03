@@ -60,7 +60,7 @@ end
 function misclassifications(sem::DiGraph, coefficients::Dict, inner_samples::Int)
 	correlations=correlation_in_sem(sem, coefficients, inner_samples)
 
-	influence=Matrix(Bool.(transpose(adjacency_matrix(sem))))
+	influence=Matrix(Bool.(transpose(adjacency_matrix(transitiveclosure(sem)))))
 	not_influence=tril(.!(influence), -1)
 
 	non_causal_correlations=not_influence.*correlations
@@ -90,7 +90,7 @@ keys = [key for (key, values) in sort(results)]
 
 # Create subplots
 p1 = plot(keys, result_means, title="Mean misclassified", legend=false)
-p2 = plot(keys, result_props, title="Proportions", legend=false)
+p2 = plot(keys, result_props, title="Proportion misclassified", legend=false)
 
 # Combine subplots into a single plot with 3 rows and 1 column
 combined_plot = plot(p1, p2, layout=(1, 2), size=(1200, 600))
@@ -110,10 +110,11 @@ more_samples=Dict{Int, Array{Int, 1}}()
 
 samples_test_size=12
 sem_samples=100
+inputs_samples=2 .^(6:17)
 
-for inputs_samples in 2 .^(6:16)
-	println(inputs_samples)
-	more_samples[inputs_samples]=misclassified_absence_mc(samples_test_size, sem_samples, inputs_samples)
+for inputs_sample in inputs_samples
+	println(inputs_sample)
+	more_samples[inputs_sample]=misclassified_absence_mc(samples_test_size, sem_samples, inputs_sample)
 end
 
 samples_plot=plot(legend=:topleft, dpi=140, xlabel="Number of causal non-correlations", ylabel="Density",
