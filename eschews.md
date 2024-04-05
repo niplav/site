@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-12-21, modified: 2024-01-12, language: english, status: in progress, importance: 4, confidence: certain*
+*author: niplav, created: 2023-12-21, modified: 2024-04-05, language: english, status: in progress, importance: 4, confidence: certain*
 
 > __Changing [credit
 assignment](https://en.wikipedia.org/wiki/Credit_assignment_problem)
@@ -17,14 +17,15 @@ High Status Eschews Quantification of Performance
 
 In a recent episode of [The Filan
 Cabinet](https://thefilancabinet.com/episodes/2023/02/05/6-oliver-habryka.html),
-Oliver Habryka elaborated on a very interesting social pattern: If you
-have a community with high status people, and try to introduce clearer
-metrics of performance into that community, high status individuals in
-the community will strongly resist those metrics because they have an
-asymmetric downside: If they perform well on the metric, they stay in
-their position, but if they perform poorly, they might lose status. Since
-they are at least a little bit unsure about their performance on the
-metric relative to others, they can only lose.
+[Oliver Habryka](https://www.lesswrong.com/users/habryka4) elaborates
+on a very interesting social pattern: If you have a community with high
+status people, and try to introduce clearer metrics of performance into
+that community, high status individuals in the community will strongly
+resist those metrics because they have an asymmetric downside. If they
+perform well on the metric, they stay in their position, but if they
+perform poorly, they might lose status. Since they are at least a little
+bit unsure about their performance on the metric relative to others,
+they can only lose.
 
 > Daniel Filan: So let's go back to what you think on your bad days. So
 you mentioned that you had this sense that lots of things in the world
@@ -83,12 +84,11 @@ get integrated into a hierarchy that makes it harder for them to look
 at a thing that they were originally interested in when joining the
 institution.
 
-*— Oliver Habryka & Daniel Filan, [“The Filan Cabinet Podcast with Oliver Habryka - Transcript”](https://www.lesswrong.com/posts/4NFDwQRhHBB2Ad4ZY/filan-cabinet-podca
-st-with-oliver-habryka-transcript), 2023*
+*— Oliver Habryka & Daniel Filan, [“The Filan Cabinet Podcast with Oliver Habryka - Transcript”](https://www.lesswrong.com/posts/4NFDwQRhHBB2Ad4ZY/filan-cabinet-podcast-with-oliver-habryka-transcript), 2023*
 
-This dynamic appears to me to explain many dysfunctions that currently
-occur, and important enough to collect some examples where this pattern
-occurred/occurs and where it was broken.
+This dynamic appears to me to explain many things that currently happen
+in institutions, and important enough to collect some examples where
+this pattern occurred/occurs, and where it was broken.
 
 ### Examples of the Dynamic
 

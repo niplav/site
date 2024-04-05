@@ -104,7 +104,7 @@ to procure it themselves.
 
 <!--TODO: check up on Orexin agonists!-->
 
-* [jayterwahl, 2021](https://www.lesswrong.com/posts/cfRHPHdgpNcSEcY5y/curing-sleep-my-experiences-doing-cowboy-science): n=2, m=? experiment with Orexin, battery of cognitive tests. Subjective assessment by the author: Reduces the effects of sleep deprivation on cognitive performance, but not the feeling of sleepiness. Doesn't mention the amount of sleep deprivation, but useful datapoint: It's not *immediately lethal* to snort Orexin.
+* [jayterwahl, 2021](https://www.lesswrong.com/posts/cfRHPHdgpNcSEcY5y/curing-sleep-my-experiences-doing-cowboy-science): n=2, m=4 (?) experiment with Orexin, battery of cognitive tests. Subjective assessment by the author: Reduces the effects of sleep deprivation on cognitive performance, but not the feeling of sleepiness. Doesn't mention the amount of sleep deprivation, but useful datapoint: It's not *immediately lethal* to snort Orexin.
 
 #### Others
 
@@ -189,8 +189,8 @@ sleep time, at ~10 hours of meditation a day I probably slept 5-6 hours
 a night (I usually sleep ~8 hours if uninterrupted).
 
 I friend of mine with a long-term chronic illness, also a long-term
-meditator, tells me he sleep ~6-7 hours per night, at around 2 hours of
-meditation a day.
+meditator, tells me he sleeps ~6-7 hours per night, at around 2 hours
+of meditation a day.
 
 ### Behavioral Interventions
 
@@ -285,7 +285,7 @@ out polyphasic sleep. However, I haven't attempted to live on such a
 schedule for a prolonged time, so I might be mistaken.
 
 <!--
-##### Does Polyphasic Sleep Have Any Advantage over sleeping Less?
+##### Does Polyphasic Sleep Have Any Advantage over Sleeping Less?
 
 Hartly 1974 suggests yes: 4h continuous sleep is generally worse than 3× 80 minutes sleep, but both worse than 8h continuous
 Bonnet & Arand 1995 suggest the effects are similar, 4h continuous vs. 4×1h

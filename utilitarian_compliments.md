@@ -13,10 +13,10 @@ Compliments as Utilitarian Praxis
 It seems like <!--TODO: source here, perhaps a link to reddit of people
 complaining about not getting enough compliments--> people don't get
 as many compliments as they want, and that getting a compliment greatly
-enhances the quality of their lives. <!--Again, link to a reddit thread
-of people talking about how they remember compliments from years ago.-->
-Some people even report to remember compliments months or even years after
-they get them and are very happy about them.
+enhances the quality of their lives. <!--TODO: Again, link to a reddit
+thread of people talking about how they remember compliments from years
+ago.--> Some people even report to remember compliments months or even
+years after they get them and are very happy about them.
 
 This creates a good opportunity for utilitarians (both hedonic and
 preference) to use otherwise wasted time. Since there is often time

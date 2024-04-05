@@ -4,9 +4,9 @@
 *author: niplav, created: 2019-04-11, modified: 2023-03-23, language: english, status: in progress, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
-> recommendations by people who I respect, such as
-> [gwern](https://www.gwern.net/Links#uses-this), the
-> [suckless project](https://suckless.org/rocks/), and
+> [recommendations](https://usesthis.com/) by people who I respect,
+> such as [gwern](https://www.gwern.net/Links#uses-this),
+> the [suckless project](https://suckless.org/rocks/), and
 > [cat-v.org](http://harmful.cat-v.org/software/). I hope that the
 > recommendations presented here can provide a comparable utility to
 > similarly-minded people.__

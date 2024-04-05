@@ -86,6 +86,7 @@ of whom can ever feel secure in the love of a cold and distant parent?
 
 #### Mathematics
 
+* [How Often Does ¬Correlation ⇏ ¬Causation?](./cause.html)
 * [Equally Many Heads and Tails](./equally_many_heads_and_tails.html)
 * [Mathematics Notation Convention](./mathematics_notation_convention.html)
 
@@ -138,6 +139,7 @@ one moment or forget it!
 #### Psychology
 
 * [Have Attention Spans Been Declining?](./spans.html)
+* [Transfer Learning in Humans](./transfer.html)
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
 * [Brain Stimulation for Meditation Enhancement](./stimulation.html)
 * [Increasing Subjective Lifespan](./increasing.html)
