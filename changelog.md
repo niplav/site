@@ -22,6 +22,18 @@ Monthly updates are sent out [via substack](https://niplav.substack.com/),
 the content is a copy of each monthly changelog. Don't expect any
 *different* content.
 
+April 2024
+-----------
+
+> but that’s just a coincidence, everyone knows words aren’t real. Or
+maybe I phrased that awkwardly, but certainly they’re not so real that
+if you inscribe every word ever written onto a piece of glass then the
+glass comes to life and kills you.
+
+*—Scott Alexander, [“Half An Hour Before Dawn In San Francisco”](https://astralcodexten.substack.com/p/half-an-hour-before-dawn-in-san-francisco), 2023*
+
+### Links
+
 March 2024
 -----------
 
@@ -31,7 +43,7 @@ March 2024
 	* [A FIRE Upon the Deep](./notes.html#A_FIRE_Upon_the_Deep): I now want to prioritize earning enough money to have \\$100k in capital, afterwards I'll be more relaxed.
 	* [Research Consultants List](./notes.html#Research_Consultants_List)
 	* Moved [Discord Servers for Textbooks](./textbook_discord_servers.html) to [a note](./notes.html#Discord_Servers_for_Textbooks)
-	* [How Often Does ¬Correlation ⇏ ¬Causation?](./notes.html#How_Often_Does_Correlation__Causation): About half the time is my best current guess.
+	* [How Often Does ¬Correlation ⇏ ¬Causation?](./notes.html#How_Often_Does_Correlation__Causation): Almost always is my best current guess.
 * [Naming ASCII characters](./language.html#Naming_ASCII_Characters)
 * Words missing from [German](./language.html#From_German) and [English](./language.html#From_English)
 

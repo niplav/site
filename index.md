@@ -83,6 +83,7 @@ of whom can ever feel secure in the love of a cold and distant parent?
 
 #### Mathematics
 
+* [How Often Does ¬Correlation ⇏ ¬Causation?](./cause.html)
 * [Equally Many Heads and Tails](./equally_many_heads_and_tails.html)
 * [Mathematics Notation Convention](./mathematics_notation_convention.html)
 

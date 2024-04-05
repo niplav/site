@@ -44,6 +44,7 @@ HTML=index.html \
 	awesome.html \
 	bcis_and_alignment.html \
 	buch_stab.html \
+	cause.html \
 	circle_combinations.html \
 	consciousness_diagram.html \
 	considerations_on_cryonics.html \

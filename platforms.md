@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-08-28, modified: 2023-01-04, language: english, status: in progress, importance: 7, confidence: certain*
+*author: niplav, created: 2023-01-04, modified: 2024-04-05, language: english, status: in progress, importance: 7, confidence: certain*
 
 > __There are too many possible quantified self experiments to run. Do
 hobbyist prediction platforms[^1] make priorisation easier? I test this by
@@ -87,10 +87,10 @@ other data](./data.html) during that time that will also be analyzed.
 | [__L-Phenylalanine__ vs. __Sugar__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-lphenylalanine-imp)        | 7                 | M̶269           | __0.302__            |
 | [__Bupropion__ vs. __Sugar__ → *Happiness*](https://manifold.markets/NiplavYushtun/by-how-much-does-bupropion-improve)                           | 8                 | M̶225           | __0.326__            |
 | [__THC Oil__ vs. __Similar-Tasting Oil__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-thc-oil-improve-me)  | 10                | M̶230           | __0.344__            |
-| [__Intermittent Fasting__ vs. __Normal Diet__ → *Happiness*](https://manifold.markets/NiplavYushtun/by-how-much-does-intermittent-fasti)         | 11                | M̶223           | __0.355__            |
-| [__Pomodoro Method__ vs. __Nothing__ → *Productivity*](https://manifold.markets/NiplavYushtun/by-how-much-does-the-pomodoro-metho)               | 7                 | M̶107           | __0.397__            |
+| [__Intermittent Fasting__ vs. __Normal Diet__ → *Happiness*](https://manifold.markets/NiplavYushtun/by-how-much-does-intermittent-fasti)         | 13                | M̶228           | __0.348__            |
+| [__Pomodoro Method__ vs. __Nothing__ → *Productivity*](https://manifold.markets/NiplavYushtun/by-how-much-does-the-pomodoro-metho)               | 8                 | M̶297           | __0.407__            |
 | [__Bright Light__ vs. __Normal Light__ → *Happiness*](https://manifold.markets/NiplavYushtun/by-how-much-does-very-bright-light)                 | 7                 | M̶102           | __0.463__            |
-| [__Meditation__ vs. __No Meditation__ → *Sleep duration*](https://manifold.markets/NiplavYushtun/by-how-much-does-2-hours-of-meditat)            | 12                | M̶375           | __0.237__            |
+| [__Meditation__ vs. __No Meditation__ → *Sleep duration*](https://manifold.markets/NiplavYushtun/by-how-much-does-2-hours-of-meditat)            | 13                | M̶380           | __0.241__            |
 
 ### Self-Blinded Experiments
 
@@ -133,13 +133,13 @@ will focus on experiments that can be blinded, but don't want to exclude
 the wider space of interventions.
 
 1. [__Intermittent Fasting__ vs. __Normal Diet__ → *Happiness*](https://manifold.markets/NiplavYushtun/by-how-much-does-intermittent-fasti): 50 samples, 25 intervention (eating only between 18:00 and midnight), 25 non-intervention (normal diet, which is usually 2 meals a day, spaced ~10 hours apart), chosen randomly via `echo -e "fast\ndon't fast" | shuf | tail -1`. Expected duration of the trial: ~2 months.
-	1. Expected effect size: `$0.03 \cdot 1+0.19 \cdot 0.8+0.36 \cdot 0.4+0.29 \cdot 0.1+0.13 \cdot 0=\mathbf{0.355}$`
+	1. Expected effect size: `$0.03 \cdot 1+0.18 \cdot 0.8+0.36 \cdot 0.4+0.3 \cdot 0.1+0.13 \cdot 0=\mathbf{0.348}$`
 2. [__Pomodoro Method__ vs. __Nothing__ → *Productivity*](https://manifold.markets/NiplavYushtun/by-how-much-does-the-pomodoro-metho): 50 samples, 25 intervention (I try to follow the [Pomodoro method](https://en.wikipedia.org/wiki/Pomodoro_technique) as best as I can, probably by installing a [TAP](https://www.lesswrong.com/posts/wJutA2czyFg6HbYoW/what-are-trigger-action-plans-taps) of some sort), 25 non-intervention (I just try to do work as normally), chosen randomly via `echo -e "pomodoro\nno pomodoro" | shuf | tail -1`. Expected duration of trial: 2 months.
-	1. Expected effect size: `$0.06 \cdot 1+0.2 \cdot 0.8+0.38 \cdot 0.4+0.25 \cdot 0.1+0.11 \cdot 0=\mathbf{0.397}$`
+	1. Expected effect size: `$0.07 \cdot 1+0.19 \cdot 0.8+0.39 \cdot 0.4+0.29 \cdot 0.1+0.06 \cdot 0=\mathbf{0.397}$`
 1. [__Bright Light__ vs. __Normal Light__ → *Happiness*](https://manifold.markets/NiplavYushtun/by-how-much-does-very-bright-light): 50 samples, 25 intervention (turning on my [lumenator](https://arbital.com/p/lumenators/) of ~30k lumen in the morning), 25 non-intervention (turning on my normal desk lamp of ~1k lumen), selected via `echo -e "lamp\nno lamp" | shuf | tail -1`. Expected duration of trial: 4 months, as I often don't spend all my day at home.
 	1. Expected effect size: `$0.1 \cdot 1+0.29 \cdot 0.8+0.27 \cdot 0.4+0.23 \cdot 0.1+0.1 \cdot 0=\mathbf{0.463}$`
 4. [__Meditation__ vs. __No Meditation__ → *Sleep duration*](https://manifold.markets/NiplavYushtun/by-how-much-does-2-hours-of-meditat): 50 samples, 25 intervention (2 consecutive days of ≥2h/day of meditation), 25 non-intervention (no meditation), selected via `echo -e "meditation\nno meditation" | shuf | tail -1`. Expected duration of trial: 5 months, as I might not always find a 2-day interval in which I'm sure I can meditative 2h/day.
-	1. Expected effect size: `$0.04 \cdot 1+0.08 \cdot 0.8+0.2 \cdot 0.4+0.53 \cdot 0.1+0.15 \cdot 0=\mathbf{0.237}$`
+	1. Expected effect size: `$0.04 \cdot 1+0.08 \cdot 0.8+0.21 \cdot 0.4+0.53 \cdot 0.1+0.15 \cdot 0=\mathbf{0.241}$`
 
 #### Further Ideas
 
@@ -255,6 +255,12 @@ explosion](https://en.wikipedia.org/wiki/Combinatorial_explosion).
 * [Gwern 2018](https://www.gwern.net/Modafinil)
 
 ### Vitamin D vs. Sugar → *Meditative Absorption*
+
+Vitamin D seems just
+[generally](https://gwern.net/nootropic/nootropics#vitamin-d)
+[great](https://gwern.net/longevity#vitamin-d), so it's not *super*
+far out to suspect that supplementing it after waking up could have
+positive effects on wakefulness.
 
 ### Vitamin B12 vs. Sugar → *Meditative Absorption*
 
