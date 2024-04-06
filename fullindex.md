@@ -55,11 +55,12 @@ Writing
 #### Forecasting
 
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
-* [Iqisa: A Library For Handling Forecasting Datasets](./iqisa.html)
-	* [Documentation](./iqisadoc.html)
-* [Forecasters: What Do They Know? Do They Know Things?? Let's Find Out!](./forecasters.html)
-* [Precision of Sets of Forecasts](./precision.html)
 * [Subscripts for Probabilities](./subscripts.html)
+* [On The Effectiveness Of Question Decomposition](./decompose.html)
+* [Precision of Sets of Forecasts](./precision.html)
+* [Iqisa: A Library For Handling Forecasting Datasets](./iqisa.html)
+        * [Documentation](./iqisadoc.html)
+* [Forecasters: What Do They Know? Do They Know Things?? Let's Find Out!](./forecasters.html)
 * [Notes on Predictions](./notes_on_predictions.html)
 
 #### Programming & Computer Science
