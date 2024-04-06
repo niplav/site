@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-02-04, modified: 2023-09-19, language: english, status: finished, importance: 4, confidence: possible*
+*author: niplav, created: 2022-02-04, modified: 2024-04-06, language: english, status: in progress, importance: 4, confidence: unlikely*
 
 > __Absence of correlation almost never implies absence of
 causation<sub>[55%](https://fatebook.io/q/in-linear-sems-with-0-1-distributed--clujl9idv0001lc0841gwx9te)</sub>.__

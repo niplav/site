@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-11-04, modified: 2024-2-08, language: english, status: notes, importance: 8, confidence: likely*
+*author: niplav, created: 2023-11-04, modified: 2024-02-08, language: english, status: notes, importance: 8, confidence: likely*
 
 > __Summary of a longer investigation into [inconsistent
 preferences](./turning.html) and how to resolve them. I investigate

@@ -53,6 +53,7 @@ HTML=index.html \
 	data.html \
 	daygame_cost_benefit.html \
 	declaration.html \
+	decompose.html \
 	diamond.html \
 	eccentric.html \
 	eschews.html \
