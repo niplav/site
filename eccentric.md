@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-20, modified: 2023-12-16, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2022-07-20, modified: 2024-04-07, language: english, status: in progress, importance: 3, confidence: other*
 
 > __What I might do if I magically got hold of a very large amount of
 money, and couldn't spend it maximally altruistically.__
