@@ -532,6 +532,7 @@ Missing Emojis
 * Red star
 * Grass
 * Kimchi
+* [Various egypt-themed emoji](https://twitter.com/hum_dunkin/status/1776579149739528668)
 
 New Eponymous Laws
 -------------------

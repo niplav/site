@@ -42,6 +42,7 @@ would absolutely be worth it.
 | Discontinuous & fast AI takeoff movie             | \\$500 mio.    |
 | Double Crux podcast                               | \\$2 mio.      |
 | Fictional ethnography of native Antarcticans      | \\$100k        |
+| Breeding very intelligent parrots                 | \\$5m          |
 | Studying foreveraloners                           | \\$900 mio.    |
 | Really Out There Stuff Institute                  | \\$60 mio.     |
 |                                                   |                |
@@ -647,11 +648,55 @@ but not be insurmountable.
 
 ### Breeding Very Intelligent Animals
 
-__[Breeding superintelligent
+There's been two proposals for breeding
+superintelligent animals, namely __[superintelligent
 octopuses](https://www.lesswrong.com/posts/DaFG3GKsBrsAnAERR/save-humanity-breed-sapient-octopuses)
 or
-[parrots](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-intelligent-parrots)__<!--TODO:
-add twitter calculation here, cleaned up & elaborated-->
+[parrots](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-intelligent-parrots)__.
+
+One can do a small [Fermi calculation](https://en.wikipedia.org/wiki/Fermi_calculation) to estimate the cost of such a breeding program.
+
+__For parrots__: An [African grey
+parrot](https://en.wikipedia.org/wiki/African_Grey_Parrot)
+[costs](https://a-z-animals.com/blog/parrot-prices-purchase-cost-supplies-food-and-more/)
+~\\$2k/parrot. For a small breeding
+population might be ~150 individuals ([fox
+domestication](https://en.wikipedia.org/wiki/Domesticated_Silver_Fox)
+started out "with 30 male foxes and 100 vixens"). Let's assume cages cost
+[\\$1k/parrot](https://a-z-animals.com/blog/parrot-prices-purchase-cost-supplies-food-and-more/),
+including perches, feeding- and water-bowls. The estimated price for
+an avian vet is \\$400/parrot-year.
+
+[This
+page](https://a-z-animals.com/blog/parrot-prices-purchase-cost-supplies-food-and-more/)
+also says that African greys produce feather dust,
+and one therefore needs airfilters (which are advisable
+[anyway](https://dynomight.net/air/). Let's say we need one for every
+10 parrots, costing \\$500 each.
+
+Let's say the whole experiment takes 50 years, which is ~7
+generations. I'll assume that the number of parrots is not fluctuating
+due to breeding them at a constant rate.
+
+Let's say it takes \\$500/parrot for feed and water (just a guess,
+I haven't looked this up)<!--TODO: look up prices for parrot feed-->.
+
+We also have to buy a building to house the parrots in. 2m²/parrot
+at \\$100/m² in rural areas, plus \\$200k for a building housing 50
+parrots each (I've guessed those numbers). Four staff perhaps (working
+8 hours/day), expense at \\$60/staff-hour, 360 days a year.
+
+The total cost is then
+150\*\\$2k+15\*\\$500+150\*\\$1k+150\*50\*(\\$400+\\$500)+3\*\\$200k+2\*150\*\\$100+50\*360\*8\*4\*\\$60=\\$3.632 mio.
+
+Because I'd have a lot of money, let's round this up to \$5m. The whole
+enterprise might become profitable at some point: The parrots not selected
+for breeding because of (lower) intelligence could be sold as a curiosity
+or simply as pets.
+
+I assume the number is going to be very similar for
+other (potentially more intelligent) birds [like
+keas](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-intelligent-parrots?commentId=pzEbmSCxkGHP4iTHF).
 
 * __Cloning Extinct Animals__ In order: Passenger Pigeons, Thylacines, Dodos, Great Auks, [Wooly Mammoths](https://colossal.com/mammoth/), the Tarpan horse, Neanderthals, [John von Neumann](https://fantasticanachronism.com/2021/03/23/two-paths-to-the-future/), Srinivasa Ramanujan… Comparable to the revival of the (2000 years extinct) [Judean date palm](https://en.wikipedia.org/wiki/Judean_date_palm) and the (32k years extinct) [*silene stenophylla*](https://en.wikipedia.org/wikipedia.org/wiki/Silene_stenophylla).
 * __Masturbation research__
