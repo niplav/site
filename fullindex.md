@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2024-01-30, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2024-04-10, language: english, status: in progress, importance: 6, confidence: log*
 
 Content
 =======
@@ -11,10 +11,13 @@ behavior and philosophy, as well as translations and transcriptions
 of different texts, chronological archives of blogs and programming
 projects.
 
-More information about the website and its author can be found on
-the [about](./about.html) page, for recent additions and changes,
-see the [changelog](./changelog.html) or the corresponding
-[substack](https://niplav.substack.com/).
+More information about the website and its author can be
+found on the [about](./about.html) page, for recent additions
+and changes, see the [changelog](./changelog.html), and the
+corresponding [RSS feed](https://niplav.substack.com/feed) or
+[substack](https://niplav.substack.com/)[^1].
+
+[^1]: Feeds like RSS/Atom/Substack are not a great fit for what I'm trying to do here, since [I'm not writing a blog](./about#Not_Really_a_Blog) and instead focus on [long content](https://gwern.net/about#long-content).
 
 I [can be hired](./services.html) to investigate research questions, write
 code, design and execute experiments, analyze data and make predictions.
@@ -59,7 +62,7 @@ Writing
 * [On The Effectiveness Of Question Decomposition](./decompose.html)
 * [Precision of Sets of Forecasts](./precision.html)
 * [Iqisa: A Library For Handling Forecasting Datasets](./iqisa.html)
-        * [Documentation](./iqisadoc.html)
+	* [Documentation](./iqisadoc.html)
 * [Forecasters: What Do They Know? Do They Know Things?? Let's Find Out!](./forecasters.html)
 * [Notes on Predictions](./notes_on_predictions.html)
 
@@ -141,8 +144,8 @@ one moment or forget it!
 #### Psychology
 
 * [Have Attention Spans Been Declining?](./spans.html)
-* [Transfer Learning in Humans](./transfer.html)
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
+* [Transfer Learning in Humans](./transfer.html)
 * [Brain Stimulation for Meditation Enhancement](./stimulation.html)
 * [Increasing Subjective Lifespan](./increasing.html)
 * [Awesome Things Humans Can Learn](./awesome.html)
