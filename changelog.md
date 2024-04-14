@@ -19,8 +19,9 @@ with fecundity.
 *—[Scott Alexander](https://slatestarcodex.com/), [“The Goddess of Everything Else”](https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/), 2015*
 
 Monthly updates are sent out [via substack](https://niplav.substack.com/),
-the content is a copy of each monthly changelog. Don't expect any
-*different* content.
+the content is a copy of each monthly changelog. [Here's the RSS
+feed](https://niplav.substack.com/feed). Don't expect any *different*
+content.
 
 April 2024
 -----------
@@ -39,7 +40,7 @@ March 2024
 
 * [Transfer Learning in Humans](./transfer.html)
 * [Notes](./notes.html)
-	* [Trying to Disambiguate Different Questions about Whether Humans are Turing Machines](./notes.html#Trying_to_Disambiguate_Different_Questions_about_Whether_Humans_are_Turing_Machines). Takeaway: No.
+	* [Trying to Disambiguate Different Questions about Whether Humans are Turing Machines](./notes.html#Trying_to_Disambiguate_Different_Questions_about_Whether_Humans_are_Turing_Machines). Takeaway: They aren't.
 	* [A FIRE Upon the Deep](./notes.html#A_FIRE_Upon_the_Deep): I now want to prioritize earning enough money to have \\$100k in capital, afterwards I'll be more relaxed.
 	* [Research Consultants List](./notes.html#Research_Consultants_List)
 	* Moved [Discord Servers for Textbooks](./textbook_discord_servers.html) to [a note](./notes.html#Discord_Servers_for_Textbooks)

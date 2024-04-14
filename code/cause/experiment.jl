@@ -78,7 +78,7 @@ results=Dict{Int, Array{Int, 1}}()
 sem_samples=200
 inputs_samples=20000
 
-for i in 4:16
+Threads.@threads for i in 4:16
 	println(i)
 	results[i]=misclassified_absence_mc(i, sem_samples, inputs_samples)
 end
