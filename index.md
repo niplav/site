@@ -119,7 +119,6 @@ of whom can ever feel secure in the love of a cold and distant parent?
 * [Have Attention Spans Been Declining?](./spans.html)
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
 * [Transfer Learning in Humans](./transfer.html)
-* [Awesome Things Humans Can Learn](./awesome.html)
 
 #### Collections
 
