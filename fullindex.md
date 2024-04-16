@@ -47,7 +47,6 @@ Writing
 
 * [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 * [Preagents and Value Formation](./preagents.html)
-* [Too Good to be True: Training an RL Agent to be Suspicious](./suspicious.html)
 
 ##### Strategy
 
@@ -148,7 +147,6 @@ one moment or forget it!
 * [Transfer Learning in Humans](./transfer.html)
 * [Brain Stimulation for Meditation Enhancement](./stimulation.html)
 * [Increasing Subjective Lifespan](./increasing.html)
-* [Awesome Things Humans Can Learn](./awesome.html)
 
 #### Collections
 

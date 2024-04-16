@@ -10,7 +10,7 @@ Services
 =========
 
 I am available for hire to do consulting, especially research consulting
-and to a lesser degree computer programming and data science.
+and to a lesser degree software engineering and data science.
 
 Contact me [here](./about.html#Contact) for inquiries.
 
