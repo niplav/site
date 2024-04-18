@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-12-21, modified: 2023-12-21, language: english, status: finished, importance: 3, confidence: certain*
+*author: niplav, created: 2023-12-21, modified: 2024-04-18, language: english, status: finished, importance: 3, confidence: certain*
 
 > __Subscripts in text can be used to attach explicit probabilities to claims<sub>99%</sub>.__
 
@@ -89,6 +89,8 @@ This becomes trickier in sentences with multiple statements.
 * I basically rule out lists of probabilities after the verb relating to each subclaim, as it's very mentally taxing to relate each probability to each claim:
         * "I think<sub>55%, 80%, 15%</sub> ⸤it'll rain tomorrow⸥, but ⸤Tuesday is going to be sunny⸥, but I don't think ⸤your uncle is going to be happy about that⸥.
 
+#### Variants
+
 A variant of the notation could use decimal notation instead
 of percentages, and leave out trailing zeroes. "I think it'll
 rain tomorrow`$_{50\%}$`" would then become the more compact "I
@@ -97,6 +99,11 @@ being compatible with plain text through the [combining dot below
 diacritic](https://en.wikipedia.org/wiki/Dot_\(diacritic\)), which would
 yield "I think it'll rain tomorroẉ₅". However, the meaning of the
 combining dot can be ambiguous at first.
+
+On [LessWrong](www.lesswrong.com), one can also use [reacts signifying
+probabilities](https://www.lesswrong.com/posts/ByqKwsYK6rH6AYNDY/reacts-now-enabled-on-100-of-posts-though-still-just)
+on one's own text. While it's restricted to LessWrong, it also allows
+other people to easily assign different probabilities to your statements.
 
 Since the people writing the text
 reporting probabilities are probably [logically

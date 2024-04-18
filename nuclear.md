@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-01-30, modified: 2024-01-30, language: english, status: in progress, importance: 3, confidence: certain*
+*author: niplav, created: 2024-01-30, modified: 2024-04-18, language: english, status: in progress, importance: 3, confidence: certain*
 
 > __Testing nuclear weapons is actually good, because it removes
 incentives to build more & different weapons as a response to uncertainty
@@ -23,7 +23,8 @@ and a couple of weak counter-arguments.
 Reinstating such tests would include public announcement of their time &
 place, with penalties for unannounced tests.
 
-Arguments:
+Arguments
+----------
 
 1. __Testing of warning systems__: Early warning systems malfunctioning
 present a large risk of normal events being mistaken as attacks, with
@@ -91,13 +92,17 @@ when exactly plutonium aged out.
 
 *—W. J. Hennigan, [“In the Lab Oppenheimer Built, the U.S. Is Building Nuclear Bomb Cores Again”](https://time.com/6296743/los-alamos-lab-plutonium-pits-nuclear-weapons/), 2023*
 
+Counter-Arguments
+------------------
+
 There are some counterarguments to restarting the testing:
 
 1. __Tests as cover for attack__: More tests would mean that countries
 could mistake tests as attacks, or tests be used as a plausibly deniable
 scenario in which to strike first (perhaps even masking the attack as
 an accident). This risk could be strongly reduced by requiring public
-announcements of the tests e.g. a month ahead.
+announcements of the tests e.g. a month ahead. Additionally, usually tests
+involving a single nuclear weapon, and thus would be not great as attacks.
 2. __Environmental impact__: Wikipedia
 [states](https://en.wikipedia.org/wiki/Nuclear_weapons_testing#Compensation_for_victims)
 that nuclear fallout has lead to an excess of ~11,000 deaths due to
@@ -117,6 +122,36 @@ precision, that would be good or bad for the world: nuclear strikes would
 have fewer externalities, but leaders might also be more willing to use
 nuclear strikes due to lower civilian casualties (and thereby increasing
 the risk of nuclear escalation)).
+
+<!--TODO:
+Objections:
+
+Maybe we'll just get more reliable weapons at the same volume?
+Maybe none of the current weapons actually work? In this case testing would be bad.
+-->
+
+Ideal Policy Situation
+-----------------------
+
+The ideal policy situation that looks achievable to me (as it looks like
+it doesn't directly go against any nation-states interest) would look
+like this:
+
+1. All nuclear powers in the world sign a treaty governing how nuclear weapons should be tested.
+2. Whenever someone wants to test a nuclear weapon, they announce details of this test a month in advance.
+	1. The blast yield.
+	1. If ICBM:
+		1. Launch datetime & location.
+		2. Touchdown datetime & location.
+		3. The trajectory.
+		4. Whether the ICBM will contain a nuclear warhead.
+	2. If nuclear warhead:
+		1. Detonation datetime.
+		2. Detonation location.
+		3. The blast yield.
+		4. The type of weapon ([thermonuclear](https://en.wikipedia.org/wiki/Thermonuclear_Bomb), [fission weapons](https://en.wikipedia.org/wiki/Nuclear_weapon#Fission_weapons) or [others](https://en.wikipedia.org/wiki/Nuclear_weapon#Other_types)).
+3. Only one test a week is allowed.
+4. If one party of the treaty uses a test for a covert attack, all other parties of the treaty attack the perpetrator.
 
 ### Discussions
 
