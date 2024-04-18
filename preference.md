@@ -8,6 +8,12 @@
 Arguments Against Preference Utilitarianism
 =============================================
 
+<div>
+        $$\text{argmax} \sum ☺-☹$$
+</div>
+
+*—Anders Sandberg, [FHI Final Report](https://static1.squarespace.com/static/660e95991cf0293c2463bcc8/t/661a3fc3cecceb2b8ffce80d/1712996303164/FHI+Final+Report.pdf#page=52) p. 52, 2024*
+
 [Preference
 utilitarianism](https://en.wikipedia.org/wiki/Preference_utilitarianism)
 enjoys great popularity among utilitarians<!--TODO: citation

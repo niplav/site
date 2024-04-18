@@ -365,9 +365,8 @@ other considerations.
 Some Thoughts about the Qualia Research Institute
 -------------------------------------------------
 
-### Epistemic Status
-
-This text is almost pure speculation. Do not assign much value to it.
+*Epistemic Status*: This is almost pure speculation. Do not assign much
+value to it.
 
 ### QRI and AGI
 
@@ -1918,6 +1917,10 @@ stronger than the one of *life*:
 
 I don't know of any formulation of such a criterion of generality,
 but would be interested in seeing it fleshed out.
+
+### Related
+
+* [Are there cognitive realms? (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/11/are-there-cognitive-realms.html)
 
 How Often Does ¬Correlation ⇏ ¬Causation?
 ------------------------------------------
