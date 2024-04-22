@@ -17,8 +17,8 @@ Treaty](https://en.wikipedia.org/wiki/Comprehensive_Nuclear-Test-Ban_Treaty)
 in 1996, with the exception of non-signatories like India, Pakistan (both
 last testing weapons in 1998) and North Korea (tests during the 2010s).
 
-I see two arguments in favor of restarting some limited nuclear tests,
-and a couple of weak counter-arguments.
+I see two strong arguments in favor of restarting some limited nuclear
+tests, and a couple of weak counter-arguments.
 
 Reinstating such tests would include public announcement of their time &
 place, with penalties for unannounced tests.

@@ -64,30 +64,30 @@ single central statement, there are multiple locations one could place
 the probability.
 
 * After the verb related to belief: "I think<sub>55%</sub> it'll rain tomorrow."
-        * Advantage: Close to the word relating to the belief (which could reflect the strength of belief in itself, using "guess"/"wager"/"think"/"believe").
-        * Disadvantages:
-                * Conflicts with assigning probabilities to multiple statements.
-                * Puts visual clutter before the statement in question.
+	* Advantage: Close to the word relating to the belief (which could reflect the strength of belief in itself, using "guess"/"wager"/"think"/"believe").
+	* Disadvantages:
+		* Conflicts with assigning probabilities to multiple statements.
+		* Puts visual clutter before the statement in question.
 * At the end of the statement: "I think it'll rain tomorrow<sub>55%</sub>."
-        * Advantages:
-                * Allows assigning probabilities to simple statements ("It'll rain tomorrow<sub>55%</sub>") and to multiple statements (see below).
-                * Allows distinguishing the beliefs of different people. "I think<sub>55%</sub> it'll rain tomorrow, but [Cú Chulainn](https://en.wikipedia.org/wiki/Cú_Chulainn) disagrees<sub>22%</sub>."
-        * Disadvantage: If the probability is intended to contextualise the statement, this context is weaker if it is introduced *after* the statement in question.
+	* Advantages:
+		* Allows assigning probabilities to simple statements ("It'll rain tomorrow<sub>55%</sub>") and to multiple statements (see below).
+		* Allows distinguishing the beliefs of different people. "I think<sub>55%</sub> it'll rain tomorrow, but [Cú Chulainn](https://en.wikipedia.org/wiki/Cú_Chulainn) disagrees<sub>22%</sub>."
+	* Disadvantage: If the probability is intended to contextualise the statement, this context is weaker if it is introduced *after* the statement in question.
 * At the subject of the sentence: "I<sub>55%</sub> think it'll rain tomorrow."
-        * Advantage: This can be used to distinguish the beliefs of different people. "I<sub>55%</sub> think it'll rain tomorrow, but [Cú Chulainn](https://en.wikipedia.org/wiki/Cú_Chulainn)<sub>22%</sub> is skeptical about it."
-        * Disadvantage: Putting the probability before the statement the probability is about feels quite unnatural.
+	* Advantage: This can be used to distinguish the beliefs of different people. "I<sub>55%</sub> think it'll rain tomorrow, but [Cú Chulainn](https://en.wikipedia.org/wiki/Cú_Chulainn)<sub>22%</sub> is skeptical about it."
+	* Disadvantage: Putting the probability before the statement the probability is about feels quite unnatural.
 
 This becomes trickier in sentences with multiple statements.
 
 * Probabilities after each subclaim: "I think it'll rain tomorrow<sub>55%</sub>, but Tuesday is going to be sunny<sub>80%</sub>, but I don't think your uncle is going to be happy about that<sub>15%</sub>.
-        * Adding in delimiters to denote a specific subclaim the probability is about. I wonder whether there are better unicode characters for this, corner brackets might be a good candidate.
-                * Lower [half brackets](https://en.wikipedia.org/wiki/Half_Bracket) (or [Quine corners](https://en.wikipedia.org/wiki/Bracket#Quine_corners_⌜⌝_and_half_brackets_⸤_⸥_or_⸢_⸣) which look almost the same): "I think ⸤it'll rain tomorrow⸥<sub>55%</sub>, but ⸤Tuesday is going to be sunny⸥<sub>80%</sub>, but I don't think ⸤your uncle is going to be happy about that⸥<sub>15%</sub>."
-                * Upper half brackets to the left, lower half brackets to the right: "I think ⸢it'll rain tomorrow⸥<sub>55%</sub>, but ⸢Tuesday is going to be sunny⸥<sub>80%</sub>, but I don't think ⸢your uncle is going to be happy aboutthat⸥<sub>15%</sub>."
-                * Subscripted [parentheses](https://en.wikipedia.org/wiki/Parenthesis): "I think <sub>(</sub>it'll rain tomorrow<sub>)</sub><sub>55%</sub>, but <sub>(</sub>Tuesday is going to be sunny<sub>)</sub><sub>80%</sub>, but I don't think <sub>(</sub>your uncle is going to be happy about that<sub>)</sub><sub>15%</sub>."
-                * Subscripted half [guillemets](https://en.wikipedia.org/wiki/Guillemet): "I think <sub>‹</sub>it'll rain tomorrow<sub>›</sub><sub>55%</sub>, but <sub>‹</sub>Tuesday is going to be sunny<sub>›</sub><sub>80%</sub>, but I don't think <sub>‹</sub>your uncle is going to be happy about that<sub>›</sub><sub>15%</sub>."
-                * And subscripted full guillemets: "I think <sub>«</sub>it'll rain tomorrow<sub>»</sub><sub>55%</sub>, but <sub>«</sub>Tuesday is going to be sunny<sub>»</sub><sub>80%</sub>, but I don't think <sub>«</sub>your uncle is going to be happy about that<sub>»</sub><sub>15%</sub>."
+	* Adding in delimiters to denote a specific subclaim the probability is about. I wonder whether there are better unicode characters for this, corner brackets might be a good candidate.
+		* Lower [half brackets](https://en.wikipedia.org/wiki/Half_Bracket) (or [Quine corners](https://en.wikipedia.org/wiki/Bracket#Quine_corners_⌜⌝_and_half_brackets_⸤_⸥_or_⸢_⸣) which look almost the same): "I think ⸤it'll rain tomorrow⸥<sub>55%</sub>, but ⸤Tuesday is going to be sunny⸥<sub>80%</sub>, but I don't think ⸤your uncle is going to be happy about that⸥<sub>15%</sub>."
+		* Upper half brackets to the left, lower half brackets to the right: "I think ⸢it'll rain tomorrow⸥<sub>55%</sub>, but ⸢Tuesday is going to be sunny⸥<sub>80%</sub>, but I don't think ⸢your uncle is going to be happy aboutthat⸥<sub>15%</sub>."
+		* Subscripted [parentheses](https://en.wikipedia.org/wiki/Parenthesis): "I think <sub>(</sub>it'll rain tomorrow<sub>)</sub><sub>55%</sub>, but <sub>(</sub>Tuesday is going to be sunny<sub>)</sub><sub>80%</sub>, but I don't think <sub>(</sub>your uncle is going to be happy about that<sub>)</sub><sub>15%</sub>."
+		* Subscripted half [guillemets](https://en.wikipedia.org/wiki/Guillemet): "I think <sub>‹</sub>it'll rain tomorrow<sub>›</sub><sub>55%</sub>, but <sub>‹</sub>Tuesday is going to be sunny<sub>›</sub><sub>80%</sub>, but I don't think <sub>‹</sub>your uncle is going to be happy about that<sub>›</sub><sub>15%</sub>."
+		* And subscripted full guillemets: "I think <sub>«</sub>it'll rain tomorrow<sub>»</sub><sub>55%</sub>, but <sub>«</sub>Tuesday is going to be sunny<sub>»</sub><sub>80%</sub>, but I don't think <sub>«</sub>your uncle is going to be happy about that<sub>»</sub><sub>15%</sub>."
 * I basically rule out lists of probabilities after the verb relating to each subclaim, as it's very mentally taxing to relate each probability to each claim:
-        * "I think<sub>55%, 80%, 15%</sub> ⸤it'll rain tomorrow⸥, but ⸤Tuesday is going to be sunny⸥, but I don't think ⸤your uncle is going to be happy about that⸥.
+	* "I think<sub>55%, 80%, 15%</sub> ⸤it'll rain tomorrow⸥, but ⸤Tuesday is going to be sunny⸥, but I don't think ⸤your uncle is going to be happy about that⸥.
 
 #### Variants
 
