@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2024-04-18, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2024-04-22, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -32,9 +32,6 @@ if you inscribe every word ever written onto a piece of glass then the
 glass comes to life and kills you.
 
 *—Scott Alexander, [“Half An Hour Before Dawn In San Francisco”](https://astralcodexten.substack.com/p/half-an-hour-before-dawn-in-san-francisco), 2023*
-
-April 2024
------------
 
 * [On The Unreasonable Effectiveness Of Question Decomposition](./decompose.html)
 	* [A Small Experiment on Question Decomposition](./decompose.html#Small_Experiment) shows that in LLMS, [multiplicative question decomposition](./decompose.html#Classification_and_Improvements) outperforms direct estimation of probabilities. I've received some pushback on the exact experiment, though: Making LLMs chain-of-thought about questions *at all* should improve estimates greatly.
