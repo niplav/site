@@ -63,6 +63,9 @@ minimize the chance of stones in snowballs). People are encouraged to
 bring protective gear to allow for rougher fighting. If one is to allow
 for physical encounters, one'd need to group by fitness/size.
 
+Politics
+---------
+
 ### Buy a Small Island Nation
 
 Since other billionaires are now
@@ -707,6 +710,7 @@ keas](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-
 * __Better wireheading__: Achieving reversible (you can remove it and the rat feels/behaves as before) & non-adaptative (no hedonic adaptation happening) & non-addictive (isn't sought after when removed) & safe (doesn't have any serious health consequences) & ability-preserving (cognitive function isn't impaired, and ideally improved) & anti-slippery (when in the state the being doesn't seek more of it) long-term pleasure centric wireheading via extensive experiments on animals, either by direct brain stimulation or novel compounds.
 	* This one's pretty ethically questionable
 	* Replicate the work at the [semalab](https://semalab.arizona.edu/) that uses ultrasound brain stimulation for meditation enhancement.
+* __[Send helpful messages to the future](https://sideways-view.com/2018/06/07/messages-to-the-future/)__: Estimated at \$10 mio.
 
 Metascience
 ------------
