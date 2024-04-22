@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-12-30, modified: 2023-07-23, language: english, status: in progress, importance: 3, confidence: opinion*
+*author: niplav, created: 2020-12-30, modified: 2024-04-19, language: english, status: in progress, importance: 3, confidence: opinion*
 
 > __Reading a text is sometimes a big time investment, but people
 don't approach their reading in a structured manner, e.g. by keeping
@@ -212,16 +212,16 @@ __6.5/10__
 
 ### What We Owe The Future (William MacAskill, 2022)
 
-Preceded by a [superior book with the same
+Preceded by a [superior book on the same
 topic](https://www.goodreads.com/book/show/50485582-the-precipice);
 this one is sleeker, less filled with random interesting facts, less
 scientific, less exuberant in its prose. I enjoyed the introduction of the
 [SPC framework](https://forum.effectivealtruism.org/topics/spc-framework)
-(though that might be also a flaw, unlike with
+(though it may be relegated to the dutsbin — unlike with
 [ITN](https://forum.effectivealtruism.org/topics/itn-framework) I haven't
-even seen anyone else pay lip service to SPC…), found the alleged
-first popular introduction to population axiology cute, and liked the
-chapters on stagnation.
+even seen anyone else pay lip service to it…), found the alleged first
+popular introduction to population axiology cute, and liked the chapters
+on stagnation.
 
 But honestly? I enjoyed the research that led to those chapters
 more than the chapters in the book themselves (especially [Rodriguez
@@ -235,15 +235,18 @@ Similarly, I was not a huge fan of the chapter on risks from artificial
 intelligence. Too conservative, which might've been warranted before
 GPT-3, but mid-2022? Bad timing to be all "could be soon or bad, or both,
 or not, idk". (Although apparently other reviewers have the opposite
-issue, so perhaps a good compromise was struck).
+issue, so perhaps a good compromise was struck in the realm of public
+communication).
 
 I am unsure about the value lock-in frame. On the one hand, it's a very
-rough description of some of the danger with AI x-risk, but not all
-danger fits in that format: What if AI systems don't lock in any specific
-value, but kill off humanity and then go on to explore the space of all
-possible value? This framing also invites endless bickering about "who
-gets to control the AIs values" and "democracy" and "social solutions",
-and the *completely separate* issue of stable totalitarianism.
+rough description of some of the danger with AI x-risk, but not all danger
+fits in that format: What if AI systems don't lock in any specific value,
+but kill off humanity and then go on to explore the space of all possible
+values? Not lockin, but it surely doesn't look "good" to me.
+
+This framing also invites endless bickering about "who gets to control
+the AIs values" and "democracy" and "social solutions", and the
+*completely separate* issue of stable totalitarianism.
 
 Finally: Who *the hell* decided this was a good way to do endnotes? In
 general the best policy is to [under no circumstances use endnotes, ever,
@@ -264,6 +267,8 @@ If you're reading this site, read The Precipice instead. (Not a *full*
 condemnation of WWOTF).
 
 __5.5/10__
+
+![](./img/reviews/owo.png)
 
 ### Attention Span (Gloria Mark, 2023)
 
@@ -314,7 +319,7 @@ decreasing shot-lengths in movies, series and advertisements.
 
 Apparently people want to use this as a self-help book‽ Bizarre.
 
-Satisfactory.
+But to me: Satisfactory.
 
 __6.5/10__
 
@@ -368,7 +373,73 @@ obviously a bad idea.
 
 *—Stuart Russell, “Human Compatible” p. 171, 2019*
 
-__7.5/10__
+__7/10__
+
+### The Machinery of Freedom (David Friedman, 2014)
+
+> As a moral philosopher I am a libertarian, insofar as I am anything. As
+an economist I am a utilitarian.
+
+*—David Friedman, “The Machinery of Freedom” p. 179, 2014*
+
+Anarcho-capitalist cut from my people's cloth, namely of the consequentialist
+variety, writes a series of blogposts in 1967-1973, again in 1989,
+and again in 2014.
+
+Unlike many other anarcho-capitalist this one's not completely
+[mind-killed](https://www.lesswrong.com/rationality/politics-is-the-mind-killer),
+able to acknowledge weaknesses in his position, capable to argue
+against the arguments of his allies, and still bullet-biting when its
+necessary. (For example on copyright).
+
+Clever proposals for mechanism design that don't quite work, but feel
+like they only need one more insight, plus a lot of very good very true
+libertarian proposals.
+
+Responsible for a certain cluster of people knowing surprisingly
+much about medieval icelandic law. I learned it from here, as well as
+Friedman's law — not yet used in a cost-benefit calculation, but surely
+feels like it could come in handy. (Some empirical demonstration of it
+would be nice.)
+
+Complaint: Instead of rewriting or updating sections of the text, as
+one would think of a new edition, the things that have changed about the
+world are usually appended to chapters in square brackets. This makes it
+confusing while reading: I read a fact, which later is reverted. This
+also happens to a lesser degree with the different eras the book was
+written in: A strange mix of 90s cypherpunk, 70s quaintness and early
+2010s internet culture (complete with a recommendation of Slate Star
+Codex in the appendix).
+
+Available online
+[here](http://www.daviddfriedman.com/Machinery%203rd%20Edn.pdf), true
+to its stance on copyright.
+
+__7/10__
+
+### Three Essays (Richard Rorty, 1983-1990)
+
+__Solidarity or Objectivity (1983)__, __Freud and
+Moral Reflection (1984)__, __The Priority of Democracy
+to Philosophy (1990)__, read in german as [this
+collection](https://www.goodreads.com/book/show/20343958-solidarit-t-oder-objektivit-t-drei-philosophische-essays).
+
+Given his reputation as standing between analytic
+and continental philosophy, I'd hoped to get the
+*understanding* that I got from the analytics, and the
+*poetry* from the continentals. I got neither, just as when I read
+[Habermas](https://www.goodreads.com/book/show/321494.Zwischenbetrachtungen_Im_Proze_der_Aufkl_rung)
+or
+[Benjamin](https://www.goodreads.com/book/show/613761.Illuminationen_Ausgew_hlte_Schriften_1)
+or
+[Derrida](https://www.goodreads.com/book/show/1421797.Gesetzeskraft_Der_mystische_Grund_der_Autorit_t_).
+
+I mostly didn't understand the essays, and what I understood, I didn't
+like—I was confused, couldn't follow, lacked context.
+
+Not for me.
+
+__2/10__
 
 LessWrong Annual Reviews
 -------------------------

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2024-03-23, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2024-04-18, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -33,7 +33,19 @@ glass comes to life and kills you.
 
 *—Scott Alexander, [“Half An Hour Before Dawn In San Francisco”](https://astralcodexten.substack.com/p/half-an-hour-before-dawn-in-san-francisco), 2023*
 
-### Links
+April 2024
+-----------
+
+* [On The Unreasonable Effectiveness Of Question Decomposition](./decompose.html)
+	* [A Small Experiment on Question Decomposition](./decompose.html#Small_Experiment) shows that in LLMS, [multiplicative question decomposition](./decompose.html#Classification_and_Improvements) outperforms direct estimation of probabilities. I've received some pushback on the exact experiment, though: Making LLMs chain-of-thought about questions *at all* should improve estimates greatly.
+* [If I Was An Eccentric Trillionaire](./eccentric.html): [Breeding Very Intelligent Parrots](./eccentric.html#Breeding_Very_Intelligent_Animals) would cost ≈\$3.65 mio. for a 50 year experiment.
+* [Notes](./notes.html)
+	* [AI Safety Via Debate Links](./notes.html#AI_Safety_Via_Debate_Links)
+	* [Logical Correlation](./notes.html#Logical_Correlation)
+* [Ideal Policy for Testing Nuclear Weapons](./nuclear.html#Ideal_Policy_Situation)
+* [Text Reviews](./text_reviews.html)
+	* [The Machinery of Freedom (David Friedman, 2014)](./text_reviews.html#The_Machinery_of_Freedom_David_Friedman_2014)
+	* [Three Essays (Richard Rorty, 1983-1990)](./text_reviews.html#Three_Essays_Richard_Rorty_19831990)
 
 March 2024
 -----------

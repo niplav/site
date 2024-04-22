@@ -300,6 +300,10 @@ the technique.
 It'd be cool if I were the first person to *actually test* this widespread
 technique.
 
+See also:
+
+* [Akrasia Tactics Review](https://www.lesswrong.com/posts/rRmisKb45dN7DK4BW/akrasia-tactics-review), [2](https://www.lesswrong.com/posts/tAjXnuJajm3GRKT79/akrasia-tactics-review-2-the-akrasia-strikes-back), [3](https://www.lesswrong.com/posts/SXLiEiYz4b6mLWfrQ/akrasia-tactics-review-3-the-return-of-the-akrasia)
+
 ### Bright Light vs. Normal Light → *Happiness*
 
 See [all the things people have written about

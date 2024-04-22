@@ -414,6 +414,15 @@ Equivalences
 * eating : drinking :: feeding : ?
 * hungry: satiated :: thirsty : quenched :: horny : ? ("That's my secret—I'm *always* horny." \*hulk transform\*)
 
+We can test whether such words exist via gensim word2vec embeddings:
+
+	>>> import gensim.downloader
+	>>> model=gensim.downloader.load("glove-wiki-gigaword-50")
+	>>> model.most_similar(positive=["drinking" ,"feeding"], negative=["eating"])
+[('water', 0.7137373089790344), ('alcohol', 0.680603563785553), ('sewage', 0.6791356205940247), ('streams', 0.6613353490829468), ('preventing', 0.658783495426178), ('stream', 0.6549322605133057), ('flow', 0.6541517376899719), ('feed', 0.6427099108695984), ('prevent', 0.6414331793785095), ('oxygen', 0.6339807510375977)]
+	>>> model.most_similar(model["horny"]+model["satiated"]-model["hungry"])
+[('augmentor', 0.7722139954566956), ('flesh-colored', 0.7714864015579224), ('dalmatic', 0.7516317367553711), ('falchion', 0.749862551689148), ('irremovable', 0.7393192052841187), ('16-cell', 0.7370430827140808), ('pinchos', 0.7362353801727295), ('cryptochrome', 0.7349831461906433), ('tatoos', 0.7349593639373779), ('red/black', 0.7319703102111816)]
+
 ##### From German
 
 * "scoff"

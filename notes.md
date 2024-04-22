@@ -1827,6 +1827,19 @@ I often hear the sentiment that humans are [Turing
 machines](https://en.wikipedia.org/wiki/Turing_Machine), and that this
 sets humans apart from other pieces of matter.<!--TODO: link twitter-->
 
+Examples are [this
+thread](https://twitter.com/tmdanis/status/1769471661001109979)
+and a short section in [an interview with David
+Deutsch](https://www.dwarkeshpatel.com/i/52511224/will-ais-be-smarter-than-humans):
+
+> So all hardware limitations on us boil down to speed and memory capacity. And both of those can be augmented to the level of any other entity that is in the universe. Because if somebody builds a computer that can think faster than the brain, then we can use that very computer or that very technology to make our thinking go just as fast as that. So that's the hardware.  
+[…]  
+So if we take the hardware, we know that __our brains are Turing-complete bits of hardware__, and therefore can exhibit the functionality of running any computable program and function.
+
+[and](https://www.dwarkeshpatel.com/i/52511224/can-you-simulate-the-whole-universe):
+
+> So the more memory and time you give it, the more closely it could simulate the whole universe. But it couldn't ever simulate the whole universe or anything near the whole universe because it is hard for it to simulate itself. Also, the sheer size of the universe is large.
+
 I've always found those statements a bit strange and confusing, so it
 seems worth it to tease apart what they could mean.
 
@@ -1918,7 +1931,7 @@ stronger than the one of *life*:
 I don't know of any formulation of such a criterion of generality,
 but would be interested in seeing it fleshed out.
 
-### Related
+### See Also
 
 * [Are there cognitive realms? (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/11/are-there-cognitive-realms.html)
 
@@ -2017,3 +2030,47 @@ trying to implement the experiment detailed in [Yudkowsky
 ![](./img/suspicious/3.jpg)
 
 ![](./img/suspicious/4.jpg)
+
+Logical Correlation
+--------------------
+
+Consider proposing the most naïve formula for logical correlation[^1].
+
+Let a program `$p$` be a tuple of code for a Turing machine, intermediate
+tape states after each command execution, and output. All in binary.
+
+That is `$p=(c, t, o)$`, with `$c \in \{0, 1\}^+, t \in (\{0, 1\}^+)^+$` and `$o \in \{0, 1\}^+$`.
+
+Let `$l=|t|$` be the number of steps that `$p$` takes to halt.
+
+Then a formula for the logical correlation `$合$`[^2] of two halting
+programs `$p_1=(c_1, t_1, o_1), p_2=(c_2, t_2, o_2)$`, a tape-state
+discount factor `$γ$`[^3], and a [string-distance metric](https://en.wikipedia.org/wiki/String_similarity_metric)
+`$d: \{0, 1\}^+ \times \{0, 1\}^+ \rightarrow ℕ$` could be
+
+<div>
+	$$合(p_1, p_2, γ)=d(o_1, o_2)-\frac{1}{2+\sum_{k=0}^{\min(l_1, l_2)} γ^k \cdot d(t_1(l_1-k), t_2(l_2-k))}$$
+</div>
+
+The lower `$合$`, the higher the logical correlation between `$p_1$`
+and `$p_2$`. The minimal value is `$-0.5$`.
+
+If `$d(o_1, o_2)<d(o_1, o_3)$`, then it's also the case that `$合(p_1, p_2, γ)<合(p_1, p_3, γ)$`.
+
+One might also want to be able to deal with the fact that programs have
+different trace lengths, and penalize that, e.g. amending the formula:
+
+<div>
+	$$合'(p_1, p_2, γ)=合(p_1, p_2, γ)+2^{|l_1-l_2|}$$
+</div>
+
+I'm a bit unhappy that the code doesn't factor in the logical correlation,
+and ideally one would want to be able to compute the logical correlation
+without having to run the program.
+
+How does this relate to
+[data=code](https://wiki.c2.com/?DataAndCodeAreTheSameThing)?
+
+[^1]: Actually not explained in detail anywhere, as far as I can tell. I'm going to leave out all motivation here.
+[^2]: Suggested by GPT-4. Stands for [joining, combining, uniting](https://en.wiktionary.org/wiki/%E5%90%88#Definitions). Also "to suit; to fit", "to have sexual intercourse", "to fight, to have a confrontation with", or "to be equivalent to, to add up".
+[^3]: Which is needed because tape states close to the output are more important than tape states early on.

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-02-28, modified: 2024-04-15, language: english, status: in progress, importance: 6, confidence: certain*
+*author: niplav, created: 2024-02-28, modified: 2024-04-21, language: english, status: in progress, importance: 6, confidence: certain*
 
 > __I examine the literature on transfer learning in humans. [Far
 transfer](#Far_Transfer) is difficult to achieve, best
@@ -45,16 +45,24 @@ by how relevant and effective I think they are):
 4. __OODA-loop-likes__: Methods that structure the problem-solving process, such as the [Pólya method](#Plya_Method) or [DMAIC](https://en.wikipedia.org/wiki/DMAIC). In most cases, these haven't been tested well or at all, but they are popular in the business context. Also they look all the same to me, but probably have the advantage of functioning as [checklists](https://en.wikipedia.org/wiki/Checklist_Manifesto) when performing a task.
 5. __Transfer Within Domains__: Methods that are supposed to help with getting knowledge about a particular domain [from an expert to a trainee](#Accelerated_Expertise), or from [training to application on the job](https://www.semanticscholar.org/paper/Training-Transfer%3A-An-Integrative-Literature-Review-Burke-Hutchins/b4432f65b76d9a8d44b8ff68fd01239134f9aec5). Those methods have a high fixed cost since experts have to be interviewed and whole curricula have to be created, but they work *very well* at the task they've been created for (where training sometimes is sped up by more than an order of magnitude).
 
-In general, the tension I was observing is that industry and the military
-are the ones who perform well/do non-fake things, but academia are the
-ones who actually measure and report those measures to the public.
-
 Additionally, most of the research is on subjects which are probably
 not intrinsically motivated to apply a technique well (i.e. high school
 students, military trainees, and university students), so there is a bunch
 of selection pressure on techniques which still work with demotivated
 subjects. I expect that many techniques work much better with already
 motivated subjects, especially ones that are easy to goodhart.
+
+In general, the tension I was observing is that industry and the military
+are the ones who perform well/do non-fake things, but academia are the
+ones who actually measure and report those measures to the public.
+
+From when I've talked with people from industry, they don't seem at
+all interested in tracking per-employee performance (e.g. Google isn't
+running RCTs on their engineers to increase their coding performance,
+and estimates for how long projects will take [are not tracked
+& scored](./eschews.html#Software_Development_Effort_Estimation)).
+I also haven't seen many studies quantifying the individual performance
+of employees, especially high-earning white collar knowledge-workers.
 
 ### Recommendations
 
@@ -469,6 +477,15 @@ intervention for increasing transfer would have.
 7. Under which conditions does negative transfer happen?
 	1. Could it be that negative transfer is more common than normally though?
 
+Context
+--------
+
+This review was written after
+[Raemon](https://www.lesswrong.com/users/raemon)
+comissioned me to research transfer learning in humans,
+in the context of his new project on [feedback-loop-first
+rationality](https://www.lesswrong.com/posts/pZrvkZzL2JnbRgEBC/feedbackloop-first-rationality).
+
 Appendix A: My Impression of the Literature
 ---------------------------------------------
 
@@ -492,4 +509,7 @@ seemingly obvious things-->
 See Also
 ---------
 
+
 * [Ricón 2020](https://nintil.com/bloom-sigma/#darpa-s-study) on a DARPA study with a digital tutor for a specific domain, showing __d=2.81__ improvement
+* [Meta-Learning: Learning to Learn Fast (Weng, 2018)](https://lilianweng.github.io/posts/2018-11-30-meta-learning/)
+* [Meta Reinforcement Learning (Weng, 2019)](https://lilianweng.github.io/posts/2019-06-23-meta-rl/)

@@ -17,6 +17,16 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [AI Safety in China: Part 2 (Lao Mein, 2023)](https://www.lesswrong.com/posts/zjym2uaPsg9n3EjY6/ai-safety-in-china-part-2)
+* [My Assessment of the Chinese AI Safety Community (Lao Mein, 2023)](https://www.lesswrong.com/posts/EAwe7smpmFQi2653G/my-assessment-of-the-chinese-ai-safety-community)
+* [Anthropic AI made the right call (bhauth, 2024)](https://www.lesswrong.com/posts/BaLAgoEvsczbSzmng/anthropic-ai-made-the-right-call)
+* [Safetywashing (Adam Scholl, 2022)](https://www.lesswrong.com/posts/xhD6SHAAE9ghKZ9HS/safetywashing)
+* [Let’s think about slowing down AI (Katja Grace, 2022)](https://www.lesswrong.com/posts/uFNgRumrDTpBfQGrs/let-s-think-about-slowing-down-ai)
+* [Parrot Prices in 2024: Purchase Cost, Supplies, Food, and More! (Kristin Hitchcock, 2023)](https://a-z-animals.com/blog/parrot-prices-purchase-cost-supplies-food-and-more/)
+* [Staring into the abyss as a core life skill (Ben Kuhn, 2022)](https://www.lesswrong.com/posts/vzfz4AS6wbooaTeQk/staring-into-the-abyss-as-a-core-life-skill)
+* [Six Dimensions of Operational Adequacy in AGI Projects (Eliezer Yudkowsky, 2022)](https://www.lesswrong.com/posts/keiYkaeoLHoKK4LYA/six-dimensions-of-operational-adequacy-in-agi-projects)
+* [Control (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/08/control.html)
+* [Modifying Jones' "AI Dilemma" Model (Sam Harsimony, 2024)](https://splittinginfinity.substack.com/p/modifying-jones-ai-dilemma-model)
 * [Can you have causation without correlation? (Surprisingly, yes) (Spencer Greenberg, 2022)](https://www.spencergreenberg.com/2022/03/can-you-have-causation-without-correlation-surprisingly-yes/)
 * \* Accelerated Expertise (Robert R. Hoffman/Paul Ward/Paul J. Feltovich/Lia DiBello/Stephen M. Fiore/Dee H. Andrews, 2014)
 * [Curing Sleep: My Experiences Doing Cowboy Science (jayterwahl, 2021)](https://www.lesswrong.com/posts/cfRHPHdgpNcSEcY5y/curing-sleep-my-experiences-doing-cowboy-science)

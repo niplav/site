@@ -26,12 +26,10 @@ blockquote {
 }
 
 table {
-	width: 1200px;
+	width: 850px;
 	border: solid 1px #000000;
 	border-collapse: collapse;
 	position: relative;
-	left: 50%;
-	transform: translateX(-50%);
 	font-size: 14px;
 }
 

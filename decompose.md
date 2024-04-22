@@ -6,8 +6,8 @@
 > __Question decomposition is unreasonably effective, despite good
 counter-arguments.__
 
-On The Effectiveness Of Question Decomposition
-================================================
+On The Unreasonable Effectiveness Of Question Decomposition
+============================================================
 
 If we say "`$X$` will happen if and only if `$Y_1$` and `$Y_2$` and
 `$Y_3$`... *all* happen, so we estimate `$P(Y_1)$` and `$P(Y_2|Y_1)$`
