@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-02-22, modified: 2024-04-07, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2021-02-22, modified: 2024-04-26, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Inspired by others
 ([Falkovich 2019](https://www.lesswrong.com/posts/HJeD6XbMGEfcrx3mD/100-ways-to-live-better "100 Ways To Live Better"),
@@ -12,18 +12,6 @@ dealing with being human.__
 
 Life Advice
 =============
-
-Disclaimer: I only follow parts of the advice given in here, though my
-idealized version follows it nearly completely. I also believe that
-following this advice completely is probably too hard, but following
-it has monotonically increasing gains.
-
-However, as always, the [law of equal and opposite
-advice](https://slatestarcodex.com/2014/03/24/should-you-reverse-any-advice-you-hear/)
-applies, [people are
-different](https://everythingstudies.com/2017/04/24/people-are-different/).
-
-And, as always, remember that I'm just a person on the internet.
 
 <!--Separate into value-laden and value-agnostic advice-->
 <!--Preparing for civilizational collapse? Which?-->
@@ -148,7 +136,7 @@ And, as always, remember that I'm just a person on the internet.
 	* Doing new activies also feels longer than [familiar ones](http://theoryengine.org/life/tips-for-a-longer-life/)
 21.	If you want to get into X, the best way of doing so is probably
 	doing a little bit of X for a month, and then one week of X for
-	6 or more hours a day
+	6 or more hours a day.
 	* This probably works better for non-cognitive tasks
 	* Unfortunately, you probably won't have the time for spending 6 hours a day on X for a week.
 22.	If there is an item on this list that tells you to stop doing X,
@@ -158,7 +146,7 @@ And, as always, remember that I'm just a person on the internet.
 	once you're done. It has only happened to me a couple of times,
 	but losing a long, detailed comment through a reload or browser
 	crash or whatever was always frustrating.
-24. Obvious computering advice
+24. Obvious computering advice:
 	* Make backups
 		*	Ideally, use the 3-2-1 strategy (3 copies on the local
 			drive, 2 more copies on separate drives, and 1
@@ -223,7 +211,10 @@ Existence of Long Tails for Bliss and Suffering")<!--TODO: better links for this
 34. If you really want something to get done, [use a money-as-commitment website](https://www.lesswrong.com/posts/DRrAMiekmqwDjnzS5/my-experience-using-financial-commitments-to-overcome) like [beeminder](https://www.beeminder.com/), [taskratchet](https://taskratchet.com/), [forfeit](https://www.forfeit.app/) or [intend](https://intend.do/).
 	* I've only used beeminder, sparingly, but it has worked very well every time.
 	* For me, using this kind of commitment device feels uncomfortable, which is why I limit my usage of them. I suspect there's some significant amount of coërcion of subagents in my mind involved.
-35. Do the obvious things
+35. Own multiple chargers for your laptop.
+36. Do a little bit of stock-picking, based on your inside view, and then observe how well the picked stocks do.
+	* In the beginning, don't do this for the returns, but for the value of information on whether you can outperform the market.
+37. Do the obvious things
 	* Exercise any amount
 		*	Even walking around outside for 10 minutes a
 			day is better than nothing
@@ -256,6 +247,18 @@ Existence of Long Tails for Bliss and Suffering")<!--TODO: better links for this
 	* Floss <!--TODO: find out whether the research supports this-->
 	* Follow the advice in [Muehlhauser 2011](https://www.lesswrong.com/s/oi873FWi6pHWxswSa/p/ZbgCx2ntD5eu8Cno9 "How to Be Happy")
 	<!--Link Interventions for longevity from LW-->
+
+Disclaimer: I only follow parts of the advice given in here, though my
+idealized version follows it nearly completely. I also believe that
+following this advice completely is probably too hard, but following
+it has monotonically increasing gains.
+
+However, as always, the [law of equal and opposite
+advice](https://slatestarcodex.com/2014/03/24/should-you-reverse-any-advice-you-hear/)
+applies, [people are
+different](https://everythingstudies.com/2017/04/24/people-are-different/).
+
+And, as always, remember that I'm just a person on the internet.
 
 See Also
 ---------

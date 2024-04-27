@@ -34,7 +34,7 @@ glass comes to life and kills you.
 *—Scott Alexander, [“Half An Hour Before Dawn In San Francisco”](https://astralcodexten.substack.com/p/half-an-hour-before-dawn-in-san-francisco), 2023*
 
 * [On The Unreasonable Effectiveness Of Question Decomposition](./decompose.html)
-	* [A Small Experiment on Question Decomposition](./decompose.html#Small_Experiment) shows that in LLMS, [multiplicative question decomposition](./decompose.html#Classification_and_Improvements) outperforms direct estimation of probabilities. I've received some pushback on the exact experiment, though: Making LLMs chain-of-thought about questions *at all* should improve estimates greatly.
+	* [A Small Experiment on Question Decomposition](./decompose.html#Small_Experiment) shows that in LLMS, [multiplicative question decomposition](./decompose.html#Classification_and_Improvements) outperforms direct estimation of probabilities. I've received some pushback on this particular experiment: Making LLMs chain-of-thought about questions *at all* should improve estimates greatly. So there's still work to be done.
 * [If I Was An Eccentric Trillionaire](./eccentric.html): [Breeding Very Intelligent Parrots](./eccentric.html#Breeding_Very_Intelligent_Animals) would cost ≈\$3.65 mio. for a 50 year experiment.
 * [Notes](./notes.html)
 	* [AI Safety Via Debate Links](./notes.html#AI_Safety_Via_Debate_Links)
@@ -43,6 +43,10 @@ glass comes to life and kills you.
 * [Text Reviews](./text_reviews.html)
 	* [The Machinery of Freedom (David Friedman, 2014)](./text_reviews.html#The_Machinery_of_Freedom_David_Friedman_2014)
 	* [Three Essays (Richard Rorty, 1983-1990)](./text_reviews.html#Three_Essays_Richard_Rorty_19831990)
+
+### Links
+
+* [ZWSP](https://zerowidthspace.me/): Copy a zero-width space to your clipboard
 
 March 2024
 -----------
