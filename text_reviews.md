@@ -421,7 +421,7 @@ __7/10__
 
 __Solidarity or Objectivity (1983)__, __Freud and
 Moral Reflection (1984)__, __The Priority of Democracy
-to Philosophy (1990)__, read in german as [this
+to Philosophy (1990)__, read in German as [this
 collection](https://www.goodreads.com/book/show/20343958-solidarit-t-oder-objektivit-t-drei-philosophische-essays).
 
 Given his reputation as standing between analytic

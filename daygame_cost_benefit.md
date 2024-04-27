@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2023-03-28, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2024-04-27, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes,
 how much? I first present a simple [point
@@ -163,46 +163,7 @@ one lay out of thirty. He doesn't specify how much practice makes
 a beginner/intermediate/advanced daygamer.
 
 The numbers for the approach-to-lay ratios were 1 in 100 for beginners,
-1 in 50 for intermediate daygamers and 1 in 30 for experts. I will
-assume that this is comparatively over-optimistic, and assume that
-the date-to-lay ratio starts at 1 in 200, and then converges towards
-1 in 50 on the scale of thousands of approaches in the form of an
-[S-curve](https://www.lesswrong.com/posts/oaqKjHbgsoqEXBMZ2 "S-Curves for Trend Forecasting"):
-
-	ratiobegin::0.005
-	ratioexp::0.02
-	ratio::{ratiobegin+(ratioexp-ratiobegin)*(1-500%x+500)}
-
-These numbers are of course heavily dependant on all kinds of factors:
-attractiveness, speed of learning, effort exerted in daygame, logistics
-and much much more.
-
-I will also assume that one in three series of dates with the same woman
-leads to a lay:
-
-	dateratio::{3*ratio(x)}
-
-Visualizing this shows the following:
-
-	.l("./load.kg")
-
-	.l("nplot")
-
-	grid([0 10000 1000];[0 0.07 0.002])
-	xtitle("Approaches")
-	ytitle("Cumulative ratios")
-
-	plot(ratio)
-	text(250;60;"Approach-to-lay ratio")
-
-	setrgb(0;0;1)
-	plot(dateratio)
-	text(200;250;"Approach-to-date ratio")
-
-	draw()
-
-![The date & lay ratios over thousands of approaches](./img/daygame_cost_benefit/ratio.png "The date & lay ratios over thousands of approaches")
-
+1 in 50 for intermediate daygamers and 1 in 30 for experts.
 ### Empirical Data for Ratios
 
 Fortunately, some daygamers are often very diligent in keeping track
@@ -399,7 +360,7 @@ Date ratios:
 	wdate::[[445 11][593 12][700 14][783 15][858 19][925 23][1000 32][1086 32][1122 32][1174 35][1220 37][1267 37][1317 39][1322 39]]
 	wdaterat::{(*x),%/|x}'wdate
 
-<!--TODO: these two
+<!--TODO: these three
 
 #### Runner
 
@@ -422,6 +383,10 @@ https://old.reddit.com/r/seduction/comments/9ock2a/my_daygame_experience_so_far_
 #### Clarky
 
 * [2023](https://scalingthemountain6.wordpress.com/2023/12/31/2023-my-first-year-in-game/)
+
+### D.J. Caird
+
+[Blog](https://djcaird.wordpress.com/).
 -->
 
 #### Visualizing the Data
@@ -435,103 +400,72 @@ https://old.reddit.com/r/seduction/comments/9ock2a/my_daygame_experience_so_far_
 
 The plotted data for lay ratios looks like this:
 
+![Empirical data for the cumulative value of lay-ratios over time](./img/daygame_cost_benefit/layratio_data.png "Empirical data for the cumulative value of lay-ratios over time.")
+
+Similarly, the data for reported date ratios:
+
+![Empirical data for the cumulative value of date-ratios over time](./img/daygame_cost_benefit/dateratio_data.png "Empirical data for the cumulative value of date-ratios over time.")
+
+### Estimating Parameters
+
+I will assume that this is comparatively over-optimistic,
+and assume that the date-to-lay ratio converges towards 1 in
+30 on the scale of thousands of approaches in the form of an
+[S-curve](https://www.lesswrong.com/posts/oaqKjHbgsoqEXBMZ2 "S-Curves
+for Trend Forecasting"). The other parameters are estimated using
+[`scipy.optimize.curve_fit`](./notes.html#None) with data from Roy Walker,
+Mr. Wolfe and Thomas Crown.
+
+First we collect the relevant information in a processable form (removing
+the first datapoint from Mr. Wolfe because it confuses `curve_fit`):
+
+	import numpy as np
+	import scipy.optimize as spo
+	rwlay=np.array([[511, 5],[901, 10],[977, 10],[1060, 11],[1143, 13],[1216, 14],[1380, 16],[1448, 18],[1557, 19],[1990, 27],[2063, 27],[2130, 27],[2230, 27],[2373, 31],[2540, 35],[2876, 44],[3442, 62],[3567, 63],[3991, 83],[4092, 84]])
+	tclay=np.array([[208, 2],[1638, 20],[2453, 34],[3036, 45]])
+	wlay=np.array([[39, 1],[200, 2],[396, 3],[584, 4],[619, 5],[678, 6],[746, 7],[825, 8],[961, 9],[1086, 9],[1122, 9],[1174, 10],[1220, 11],[1267, 11],[1317, 12],[1322, 12]])
+	def ratio_of(data):
+		return data.T[1]/data.T[0]
+	ratios=np.concatenate([ratio_of(rwlay), ratio_of(tclay), ratio_of(wlay)])
+	approaches=np.concatenate([rwlay.T[0], tclay.T[0], wlay.T[0]])
+
+Now we can estimate the parameters:
+
+	def shrunk_logistic(x, slope, intercept, ceiling):
+		return ceiling*1/(1+np.exp(slope*x+intercept))
+	ratio_fit=spo.curve_fit(shrunk_logistic, approaches, ratios, bounds=([-np.inf, 0, 0], [1, np.inf, 0.033]))
+
+These numbers are of course heavily dependant on all kinds of factors:
+attractiveness, speed of learning, effort exerted in daygame, logistics
+and much much more.
+
+<!--TODO: continue here with estimating the date ratios-->
+
+I will also assume that one in three series of dates with the same woman
+leads to a lay:
+
+	dateratio::{3*ratio(x)}
+
+Visualizing this shows the following:
+
 	.l("./load.kg")
-	.l("./data.kg")
 
 	.l("nplot")
 
-	grid([0 10000 1000];[0 0.04 0.002])
+	grid([0 10000 1000];[0 0.07 0.002])
 	xtitle("Approaches")
 	ytitle("Cumulative ratios")
 
 	plot(ratio)
 	text(250;60;"Approach-to-lay ratio")
 
-	setdot(4)
-
-	:"Data for Roy Walker ratios"
-
-	fillrgb(0.109;0.847;0.588)
-	scplot2(rwlayrat)
-
-	:"Data for Mr. White ratios"
-
-	fillrgb(0.4;0.4;1)
-	scplot2(mwlayrat)
-
-	:"Data for Thomas Crown ratios"
-
-	fillrgb(0.7;0.2;0.7)
-	scplot2(tclayrat)
-
-	:"Data for Seven ratios"
-
-	fillrgb(0.8;0.8;0.1)
-	scplot2(slayrat)
-
-	:"Data for Krauser ratios"
-
-	fillrgb(1;0;0)
-	scplot2(klayrat)
-
-	:"Data for Mr. Wolfe ratios"
-
-	fillrgb(1.0;0.6;0.1)
-	scplot2(wlayrat)
-
-	draw()
-
-![Empirical data for the cumulative value of lay-ratios over time](./img/daygame_cost_benefit/layratio_data.png "Empirical data for the cumulative value of lay-ratios over time.")
-
-Similarly, the data for reported date ratios:
-
-	.l("./load.kg")
-	.l("./data.kg")
-
-	.l("nplot")
-
-	grid([0 10000 1000];[0 0.08 0.002])
-	xtitle("Approaches")
-	ytitle("Cumulative ratios")
-
+	setrgb(0;0;1)
 	plot(dateratio)
 	text(200;250;"Approach-to-date ratio")
 
-	setdot(4)
-
-	:"Data for Roy Walker ratios"
-
-	fillrgb(0.109;0.847;0.588)
-	scplot2(rwdaterat)
-
-	:"Data for Mr. White ratios"
-
-	fillrgb(0.4;0.4;1)
-	scplot2(mwdaterat)
-
-	:"Data for Thomas Crown ratios"
-
-	fillrgb(0.7;0.2;0.7)
-	scplot2(tcdaterat)
-
-	:"Data for Seven ratios"
-
-	fillrgb(0.8;0.8;0.1)
-	scplot2(sdaterat)
-
-	:"Data for Krauser ratios"
-
-	fillrgb(1;0;0)
-	scplot2(kdaterat)
-
-	:"Data for Mr. Wolfe ratios"
-
-	fillrgb(1.0;0.6;0.1)
-	scplot2(wdaterat)
-
 	draw()
 
-![Empirical data for the cumulative value of date-ratios over time](./img/daygame_cost_benefit/dateratio_data.png "Empirical data for the cumulative value of date-ratios over time.")
+![The date & lay ratios over thousands of approaches](./img/daygame_cost_benefit/ratio.png "The date & lay ratios over thousands of approaches")
 
 A Simple Model
 --------------

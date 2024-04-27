@@ -18,6 +18,8 @@ Examples of my past paid work include [a library of forecasting
 datasets](./iqisa.html) and [an analysis of range and forecasting
 accuracy](./range_and_forecasting_accuracy.html).
 
+<!--TODO: add Raymond feedback. Ask Yagudin & Leech?-->
+
 My rates are as follows:
 
 * \$20/hr for work which I [was already planning to do myself](./todo.html), deem unusually important/good or just find very interesting (modeling the price after [Vasco Grilo](https://forum.effectivealtruism.org/users/vascoamaralgrilo): "I typically ask for 20 $/h, which is roughly equal to 2 times the global real GDP per capita.").
