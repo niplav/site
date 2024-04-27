@@ -2038,21 +2038,21 @@ In the [twin prisoners
 dilemma](https://www.lesswrong.com/tag/psychological-twin-prisoner-s-dilemma),
 I cooperate because we're the same algorithm. If we modify the twin to
 have a slightly longer right index-finger-nail, I would still cooperate,
-even though they're a different algorithm, but little enough has been
-changed about the algorithm that the internal states that they're still
-similar enough.
+even though we're different algorithms, but little enough has been
+changed about our algorithms that the internal states and the output
+are sufficiently similar.
 
 But it could be that I'm in a prisoner's dilemma with some program
 `$p^{\star}$` that, given some inputs, returns the same outputs as I do,
 but for completely different "reasons"—that is, the internal states
 are very different, and a slight change in input would cause the output
 to be radically different. Intuitively, my logical correlation with
-`$p^{\star}$` is pretty small, because, even though it gives the same
+`$p^{\star}$` is pretty small, because even though it gives the same
 output, it gives that output for very different reasons, so I don't have
 much control over its outputs by controlling my own computations.
 
 But we don't yet have a way of estimating the logical correlation between
-different decision algorithms.
+different decision algorithms.<!--TODO: cite someone here-->
 
 Thus: Consider proposing the most naïve formula for logical
 correlation[^1].
@@ -2092,12 +2092,12 @@ without having to run the program.
 How does this relate to
 [data=code](https://wiki.c2.com/?DataAndCodeAreTheSameThing)?
 
-[^1]: Actually not explained in detail anywhere, as far as I can tell. I'm going to leave out all motivation here.
+[^1]: Actually not explained in detail anywhere, as far as I can tell.
 [^2]: Suggested by GPT-4. Stands for [joining, combining, uniting](https://en.wiktionary.org/wiki/%E5%90%88#Definitions). Also "to suit; to fit", "to have sexual intercourse", "to fight, to have a confrontation with", or "to be equivalent to, to add up".
 [^3]: Which is needed because tape states close to the output are more important than tape states early on.
 
-Area-Specific Low-Information Priors
+Field-Specific Low-Information Priors
 --------------------------------------
 
-* [~](https://www.metaculus.com/questions/1490/which-percentage-of-metaculus-questions-resolving-in-q1-2019-will-resolve-positively/)[4](https://www.metaculus.com/questions/804/1000th-binary-question-resolution-is-positive/)[0](https://www.metaculus.com/questions/1475/which-percentage-of-metaculus-questions-resolving-from-october-1st-to-december-31st-2018-inclusive-will-resolve-positively/)[%](https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons) of questions worth asking resolve as true
-* One can expect a trait to, on average, have 50% heritability
+* [~](https://www.metaculus.com/questions/1490/which-percentage-of-metaculus-questions-resolving-in-q1-2019-will-resolve-positively/)[4](https://www.metaculus.com/questions/804/1000th-binary-question-resolution-is-positive/)[0](https://www.metaculus.com/questions/1475/which-percentage-of-metaculus-questions-resolving-from-october-1st-to-december-31st-2018-inclusive-will-resolve-positively/)[​%](https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons) of questions worth asking resolve as true
+* One can expect a trait to, on average, have 50% heritability<!--TODO: links?-->

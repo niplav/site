@@ -62,10 +62,9 @@ Reading
 Currently, I am actively reading the following books:
 
 * An Infinitely Large Napkin (Evan Chen, 2023)
+* Accelerated Expertise (Robert R. Hoffman/Paul Ward/Paul J. Feltovich/Lia DiBello/Stephen M. Fiore/Dee H. Andrews, 2014)
 * Designing Data-Intensive Applications (Martin Kleppmann, 2017)
 * Grand Futures (Anders Sandberg, 2023)
 * Growth (Vaclav Smil, 2020)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
-
-I'm also reading a Greg Egan short story once in a while. It's fun.
