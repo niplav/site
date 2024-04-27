@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2023-12-16, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2024-04-27, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -20,11 +20,7 @@ part of my free time. I apologize for any inconveniences.
 Writing
 -------
 
-Curently I'm mostly working on an expanded version of [Turning Some
-Inconsistent Preferences into Consistent Ones](./turning.html).
-
-I'm also conducting a full edit of all texts on the website, which
-is turning out to take *way* longer than I expected.
+I'm currently not writing very much.
 
 ### Abandoned
 
@@ -35,6 +31,15 @@ These texts have been (for various reasons) abandoned.
 * [Third Variable](./attic/third.html)
 * [Effective Altruism is a Pareto Frontier of Truth and Power](./attic/eacrit.html)
 
+Data Collection
+----------------
+
+At the moment I'm collecting data for a randomized
+experiment on the effectiveness of the [Pomodoro
+method](https://en.wikipedia.org/wiki/Pomodoro_Technique), in the context
+of my attempt at using [Manifold Markets](https://manifold.markets) to
+[estimate the results of quantified-self experiments](./platforms.html).
+
 Programming
 -----------
 
@@ -44,17 +49,6 @@ forecasting datasets.
 
 I am also working on an [arbtt](https://arbtt.nomeata.de/)-inspired time
 tracker: [awitt](https://github.com/niplav/awitt).
-
-Data Collection
-----------------
-
-I'm currently just running my usual [data collection](./data.htm),
-but not running any experiments at the moment.
-
-Meditation
------------
-
-* Evening: 30 minutes core transformation
 
 Reading
 -------

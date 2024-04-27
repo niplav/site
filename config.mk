@@ -65,6 +65,7 @@ HTML=index.html \
 	finesse.html \
 	flags.html \
 	forecasters.html \
+	general.html \
 	grand.html \
 	hodge.html \
 	hyperoperators.html \

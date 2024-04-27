@@ -136,6 +136,7 @@ one moment or forget it!
 #### Philosophy
 
 * [Compliments as Utilitarian Praxis](./utilitarian_compliments.html)
+* [Trying to Disambiguate Different Questions about Whether Humans are Turing Machines](./general.html)
 * [Using Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./consciousness_diagram.html)
 * [Arguments Against Preference Utilitarianism](./preference.html)
 * [Notes on Ethics](./notes_on_ethics.html)
