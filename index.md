@@ -136,9 +136,6 @@ of whom can ever feel secure in the love of a cold and distant parent?
 * [Life Advice](./life_advice.html)
 * [If I Were An Eccentric Trillionaire](./eccentric.html)
 * [High Status Eschews Quantification of Performance](./eschews.html)
-
-#### Notes
-
 * [Notes](./notes.html)
 
 #### Reports

@@ -17,7 +17,7 @@ and changes, see the [changelog](./changelog.html), and the
 corresponding [RSS feed](https://niplav.substack.com/feed) or
 [substack](https://niplav.substack.com/)[^1].
 
-[^1]: Feeds like RSS/Atom/Substack are not a great fit for what I'm trying to do here, since [I'm not writing a blog](./about#Not_Really_a_Blog) and instead focus on [long content](https://gwern.net/about#long-content). But demand was high.
+[^1]: Feeds like RSS/Atom/Substack are not a great fit for what I'm trying to do here, since [I'm not writing a blog](./about.html#Not_Really_a_Blog) and instead focus on [long content](https://gwern.net/about#long-content). But demand was high.
 
 I [can be hired](./services.html) to investigate research questions, write
 code, design and execute experiments, analyze data and make predictions.
@@ -164,9 +164,6 @@ one moment or forget it!
 * [Life Advice](./life_advice.html)
 * [If I Were An Eccentric Trillionaire](./eccentric.html)
 * [High Status Eschews Quantification of Performance](./eschews.html)
-
-#### Notes
-
 * [Notes](./notes.html)
 * [Notes on Politics, Especially Economics](./notes_on_politics_especially_economics.html)
 

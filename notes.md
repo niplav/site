@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-04-22, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-04-30, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1278,31 +1278,31 @@ Properties of Good Textbooks
 
 Heuristics for choosing/writing good textbooks (see also
 [here](https://docs.google.com/document/d/e/2PACX-1vTkqKg5IxCmPbw7JqnAWxoypaYNFH3XJd4UgYw4PufP09zzzW6j3v-CYXZkpD83sVrzygvg7gLbjM_Q/pub)
-and
-[here](https://wiki.issarice.com/wiki/What_makes_a_word_explanation_good%3F)):
+and [Issa
+Rice](https://wiki.issarice.com/wiki/What_makes_a_word_explanation_good%3F)):
 
-* Has exercises
+* Has __exercises__
 	* Exercises are interspersed in the text, not in large chunks (better at the end of sections, not just at the end of chapters).
 	* Solutions are available but difficult to access (in a separate book, or on the web), this reduces the urge to look the solution up if one is stuck.
 	* Of varying difficulty (I like the approach [Concrete Mathematics](https://en.wikipedia.org/wiki/Concrete_Mathematics) takes: everything from trivial applications to research questions).
 	* I like it when difficulty is indicated, but it's also okay when it's said clearly in the beginning that exercises are not marked for difficulty (making them mystery boxes).
 * Takes many angles
-	* Has **figures** and **illustrations**. I don't think I've encountered a textbook with too many yet. (See [Visual Complex Analysis](https://en.wikipedia.org/wiki/Visual_Complex_Analysis) for an example of doing this well.)
-	* Has many **examples**. I'm not sure yet about the advantage of recurring examples. Same point about amount as with figures.
-	* Includes **code**, if possible. It's cool if you tell me the equations for computing the [likelihood ratio](https://en.wikipedia.org/wiki/Likelihood_function) of a hypothesis & dataset, but it's even cooler if you give me some sample code I can use and extend along with it.
+	* Has __figures__ and __illustrations__. I don't think I've encountered a textbook with too many yet. (See [Visual Complex Analysis](https://en.wikipedia.org/wiki/Visual_Complex_Analysis) for an example of doing this well.)
+	* Has many __examples__. I'm not sure yet about the advantage of recurring examples. Same point about amount as with figures.
+	* Includes __code__, if possible. It's cool if you tell me the equations for computing the [likelihood ratio](https://en.wikipedia.org/wiki/Likelihood_function) of a hypothesis & dataset, but it's even cooler if you give me some sample code I can use and extend along with it.
 * Uses typography
-	 * You can use **boldface** and *italics* and underlining for reading comprehension, example [here](https://gwern.net/subscript#example-use).
+	 * You can use __boldface__ and *italics* and underlining for reading comprehension, example [here](https://gwern.net/subscript#example-use).
 	* Use section headings and paragraphs liberally.
 	* [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/) has one- to three-word side-notes describing the content of each paragraph. This is very good.
 	* Distinguish definitions, proofs, examples, case-studies, code, formulas &c.
 * Dependencies
-	* Define terms before they are used. (This is not a joke. [Population Genetics](https://www.amazon.com/Population-Genetics-John-H-Gillespie/dp/0801880092) uses the term "substitution" on p. 32 without defining it, and exercise 12-1 from [Naive Set Theory](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\)) depends on the [axiom of regularity](https://en.wikipedia.org/wiki/Axiom_of_regularity), but the book doesn't define it.)
+	* Defines terms before they are used. (This is not a joke. [Population Genetics](https://www.amazon.com/Population-Genetics-John-H-Gillespie/dp/0801880092) uses the term "substitution" on p. 32 without defining it, and exercise 12-1 from [Naive Set Theory](https://en.wikipedia.org/wiki/Naive_Set_Theory_\(book\)) depends on the [axiom of regularity](https://en.wikipedia.org/wiki/Axiom_of_regularity), but the book doesn't define it.)
 	* If the book has pre-requisites beyond what a high-schooler knows, a good textbook lists those pre-requisites and textbooks that teach them.
 * Indicators
 	* Multiple editions are an indicator for quality.
 	* Ditto for multiple authors.
 * A conversational and whimsy style can be nice, but shouldn't be overdone.
-* Hot take: I get very little value from proofs in math textbooks, and consider them usually unnecessary (unless they teach a new proof method). I like the [Infinite Napkin](https://web.evanchen.cc/napkin.html) for its approach.
+* Hot take: I get very little value from proofs in math textbooks, and consider them usually unnecessary (unless they teach a new proof method). I like the [Infinite Napkin](https://web.evanchen.cc/napkin.html) for its approach of focusing on what it calls "natural explanations" instead of proofs.
 * Wishlist
 	* Flashcard sets that come together with textbooks. Please.
 	* [3blue1brown](https://www.youtube.com/@3blue1brown) style videos that accompany the book. [From Zero to Geo](https://www.youtube.com/watch?v=2hBWCCAiCzQ&list=PLVuwZXwFua-0Ks3rRS4tIkswgUmDLqqRy) is a great step in that direction.
@@ -1920,6 +1920,19 @@ trying to implement the experiment detailed in [Yudkowsky
 ![](./img/suspicious/3.jpg)
 
 ![](./img/suspicious/4.jpg)
+
+### See Also
+
+> There could also be a sequence of such steps. As a caricature, imagine
+that first Alex interacts with 3rd graders while being evaluated for
+honesty by 6th graders, and then with 6th graders while being evaluated
+for honesty by 9th graders, and then with 9th graders while being
+evaluated by 12th graders, and so on. We might hope that after many
+instances of “learning the lesson” that it will be evaluated by a
+human better-informed than the one it’s interacting with, Alex would
+learn to “play it safe” by always being honest.
+
+*—Ajeya Cotra, [“Without specific countermeasures, the easiest path to transformative AI likely leads to AI takeove”](https://www.lesswrong.com/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to), 2022*
 
 Logical Correlation
 --------------------

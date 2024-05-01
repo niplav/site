@@ -47,6 +47,8 @@ glass comes to life and kills you.
 ### Links
 
 * [ZWSP](https://zerowidthspace.me/): Copy a zero-width space to your clipboard
+* [Last Two Afghan Jews Fighting Each Other](https://youtu.be/b4fx6BjWEqk?si=437Uleq4GT3IZX4m), see also [Zablon Simintov](https://en.wikipedia.org/wiki/Zablon_Simintov) ("In November 2013, Simintov announced that he would close his kebab restaurant in March 2014 due to declining business after the reduction of American and NATO forces in Afghanistan.")
+* [Replications & Reversals](https://forrt.org/reversals/)
 
 March 2024
 -----------
