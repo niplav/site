@@ -180,13 +180,9 @@ Texts
 * Comparing Forecasting Accuracy Between the Good Judgment Project and Metaculus
 	* <https://www.openphilanthropy.org/blog/forecasting-covid-19-pandemic>
 	* <https://pandemic.metaculus.com/questions/>
-* The "At-the-time best possible forecast"
-	* Not literally best possible forecast
-	* But for humans at the time with the available information
 
 ### Population
 
-* Antinatalism and Consent
 * Wither Humanity? (Alternatively, “Ponderings on Population”)
 	* Would a bigger humanity be a good idea?
 	* Against:
@@ -252,23 +248,13 @@ Texts
 	*	And also one person with critlevel+ε infinitely better
 		than many with critlevel-ε
 	* `tlpe::{:[(&/x)<-cl;+/x:|(-cl)<(&/x)<cl;ω++/x;(2*ω)++/x}`
-* Semi-Natalism
-	* If I reason out that I am not the type of agent that would have children otherwise, I should have children
-	* If I indeed reason out that I am the type of agent that would have children, I should not have children
-	* Reasoning: If propensity to have children is heritable, this kind of decision will prevent my ancestors from becoming pure replicators
-	* It is slightly paradoxical, though
 
 ### Alignment
 
-* Impact Measures Depend on, Rather Than Specify, Inaction Baselines
 * Requirements for AI Safety via Debate
-* Thoughts About Reward Hacking
 * Faster algorithm for ontology mapping, first described in [de Blanc 2011](http://intelligence.org/files/OntologicalCrises.pdf)
-* Implement the project described in [Environmental Goals](https://arbital.com/p/environmental_goals/)
-* GPT for STEM data?
 * Scaling laws for debate
 	* AI safety via debate (Geoffrey Irving/Paul Christiano/Dario Amodei, 2018) test debate on an MNIST classifier with depths 4 and 6, what are the scaling laws for the depth and size of models?
-* Import reddit post about nuclear & ai worries
 * Overlapping Concerns for AI X-Risk and the Social Left
 	* Interpretability
 		* Useful for detecting & removing algorithmic bias
@@ -292,22 +278,11 @@ Texts
 	* If the future optimization trajectory along a dimension in the limit moves the value of that dimension to the maximum/minimum, don't do that.
 	* The optimal amount of anything is not the most extreme amount
 * Capable Artificial Alignment Theorists Appear Plausible
-* Goal Misgeneralization along Ontological Shifts
-	* Shard Theory and the Indirect Realist Turn is a subcase
-	* Diamond turns into Diamond#1 and Diamond#2, latent and directly observed diamond. Which to generalize to?
-	* Shard Theory and Ontological Crises
 * Money-Pumping: A Computational-Complexity-theoretic Approach
-* Establishing a Theory of Establishing Coherence
-* Value- and Concept-Ladenness
-* AI Alignment problems in pictures
-	* See [here](https://www.lesswrong.com/posts/WXvt8bxYnwBYpy9oT/)
 * Training LLMs on similarity to human thought
 	* Achievable via EEG data?
 	* Check paper Pope mentioned again
 	* Problem with type signature
-* Convergent Intervention Avoidanceⁿ
-	* Check twitter thread on this
-* Language Models Remain Bad at Judgmental Forecasting
 
 ### Pick Up
 
@@ -321,18 +296,6 @@ Texts
 	* Caveat though
 * Yad Stop Flag
 * Wild and Unsupported Conjecture: Learning Pickup is Mostly Rewriting Your Life-History Strategy
-
-### Time Experience
-
-* Subjective time experience for advanced meditators
-	* Wittmann & Schmidt 2013
-* Interventions to Slow Down the Age-Related Speedup of Subjective Time
-	* That theoryengine post
-	* Slowing the Speedup of Subjective Time With Age
-		* Meditation
-		* New experiences
-		* Drugs?
-* Lit review
 
 ### Philosophy
 
@@ -358,7 +321,7 @@ Texts
 ### Meditation
 
 * Brain Stimulation for Meditation Enhancement
-	* Ultrasound
+	* Ultrasound stimulation
 	* Magnetic stimulation
 	* Electrical stimulation
 * 52 Weeks of Meditation Techniques
@@ -446,9 +409,6 @@ Texts
 * (Ro)accutane literature review
 * Air with more O₂/less CO₂ content experiment
 	* <https://twitter.com/benwr/status/1706054091281412584>
-* Pomodoro Experiment
-	* Apparently pomodoro technique has not been investigated empirically‽
-	* See Attention Span (Mark 2023) p. 66
 
 ### Arguments
 
@@ -480,8 +440,6 @@ Texts
 	* Strong claim: Advertising is always bad
 	* Weak claim: Advertising in public spaces is bad
 	* Does this hold up to a good consequentialist calculation?
-* Against News
-	* Priming → News+Wikipedia≤Wikipedia
 * On the Importance of
 	* Qualia Engineering
 	* Track Records, Forecasting and Prediction Markets
@@ -500,7 +458,6 @@ Texts
 	* Progress
 	* Easterlin Paradox
 	* Status Games
-* In Praise of Cost-Benefit Analyses
 * Reflections on Pseudonymity
 	* “You don't know the pseudonyms I assume, you don't know the pseudonyms I assume…for you. Are you happier now \ About the gods who are dying \ What do you dream of \ Festing with omniscient beer” (?) (text from Bite Hard by Franz Ferdinand)
 * In Non-Adversarial Universes, Systematic Trying Dominates Other Approaches
@@ -510,7 +467,6 @@ Texts
 	* Examples: Dating, basic math research without priorization is useful because muh number theory in cryptography
 * The Overlap Argument for Learning Latin does not Hold
 * The Existing-Uranium Argument Against Nuclear Waste Skepticism
-* Why Mars' Moons Should Be Destroyed
 * Why We Need New Anthems
 	* Most national anthems suck, let's make some more original ones
 		* Review <https://en.wikipedia.org/wiki/List_of_national_anthems>
@@ -569,7 +525,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 
 #### Contra
 
-* Contra Yudkowsky on Axelrodian Tolerance
 * In Favor of Selling Glee/Contra Alexander on Hedonic Acquisitions
 	* Pointing out problems with the ideas in [The Price Of Glee In China](http://slatestarcodex.com/2016/03/23/the-price-of-glee-in-china/)
 	*	General idea: When you find out that making people wealthier
@@ -1212,7 +1167,6 @@ Game. Even those odds likely overstate the number of Players in the world.
 		* [Unbounded Analysis](https://arbital.com/p/unbounded_analysis/), problem relaxation as a tactic by TurnTrout on LW
 	* Cryonics
 	* Daygame
-* Cryonics Zine
 * The Grand Picture
 	* See [Sandberg 2021](http://aleph.se/andart2/uncategorized/what-is-going-on-in-the-world/)
 * Import ~/etc/notes/misc, tweets and toots from schelling.pt and social.freetalklive.net
@@ -1233,7 +1187,6 @@ Game. Even those odds likely overstate the number of Players in the world.
 * Practical Insight Meditation
 * There is No Antimemetics Division
 * Worm
-* The Machinery of Freedom
 * The Big Short
 	* An Elegy
 
@@ -1353,14 +1306,8 @@ Data Sets
 
 Collect data on
 
-* Bag Spreading
 * [Masturbation and Attractiveness](./masturbation_and_attractiveness.html#Method)
 * [Subjective Life Expectancy](./estimated_life_expectancy.html#Data_Collection_Method)
-* Datasets on
-	* Sex
-* Large STEM Dataset
-	* For training large ML models that are less likely to be [human models](https://www.lesswrong.com/posts/BKjJJH2cRpJcAnP7T)
- * Some dataset on polyamory??
 
 Flashcards
 -----------
@@ -1393,17 +1340,6 @@ Music
 * Nocturnes (Chopin)
 * Gymnopédies/Gnosiemmes (Satie)
 * Rhapsodie in Blue (Gershwin)
-
-Languages to Learn
--------------------
-
-* French
-* Esperanto
-* Latin
-* Serbocroatian
-* Toki Pona
-* Lojban
-* Ithkuil
 
 Programming
 -----------
@@ -1658,9 +1594,7 @@ Programming
 	* Maybe this exists already?
 * Dovetail the shortest brainfuck quine, in practice
 * EA idea repository
-* Open source onlyfans
 * `dmenu` × `fzf`
-* Structural regular expressions library for rust (??), myrddin (??)
 
 ### Klong Libraries
 
@@ -1781,10 +1715,6 @@ produces
 	* Also package that integrates it with `vis`
 	* Specific vis package for Wikipedia titles
 		* With sections?
-
-#### Void Packages
-
-* julia
 
 ### Languages to Learn
 
