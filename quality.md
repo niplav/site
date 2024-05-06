@@ -18,8 +18,9 @@ concentration if we only look at sessions with >20 days of abstinence.
 
 There is some received wisdom that ejaculation and masturbation
 in particular decreases meditation quality: The retreats of
-[dhamma.org](http://www.dhamma.org/en/) in the tradition of S.N. Goenka
-forbid any sexual activity, and [Taoist sexual practices recommend semen
+[dhamma.org](http://www.dhamma.org/en/) in the tradition of
+[S.N. Goenka](https://en.wikipedia.org/wiki/S.N.Goenka) forbid
+any sexual activity, and [Taoist sexual practices recommend semen
 retention](https://en.wikipedia.org/wiki/Taoist_sexual_practices#Male_control_of_ejaculation).
 Since I track both [my meditations](./data.html#Meditation) and
 [(a.m.a.b.) masturbations](./data.html#Masturbation), I can check whether

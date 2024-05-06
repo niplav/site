@@ -1,13 +1,13 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-20, modified: 2023-01-21, language: english, status: in progress, importance: 5, confidence: remote*
+*author: niplav, created: 2023-01-20, modified: 2024-05-04, language: english, status: in progress, importance: 5, confidence: remote*
 
 > __[Peter Thiel](https://en.wikipedia.org/wiki/Peter_Thiel) likes
 to distinguish between Progress in Bits (new algorithms, network
 protocols, user interfaces, social media sites…) and Progress in Atoms
 (transportation speed, energy usage, material abundance…). I propose a
-third category: Progress in Qualia, and outline factors influencing it.__
+third category: Progress in Qualia; and outline factors influencing it.__
 
 Progress in Qualia
 ===================
@@ -43,7 +43,7 @@ in importance (an outlier-focused "log-normally distributed" view).
 		might weigh more strongly, and we're potentially
 		neglecting [large amounts of suffering at the end of
 		life](https://slatestarcodex.com/2013/07/17/who-by-very-slow-decay/)
-		(since there is no selection for [energy
+		(since there is no selection against high [energy
 		expenditure](https://reflectivedisequilibrium.blogspot.com/2012/03/are-pain-and-pleasure-equally-energy.html)
 		close to death).
 		* Individual wealth has been rising, when ~90% of
@@ -89,14 +89,15 @@ in importance (an outlier-focused "log-normally distributed" view).
 		experienced by humans, and since most people speak
 		positively of their trips, I'm inclined to believe that
 		they are on average of positive valence. Psychedelic
-		qualia are much "thicker", subjective time becomes much
-		slower, the meaning of experiences increases (maybe by
-		a directed acyclic graph between experiences containing
-		more edges?<!--TODO: link pseudo-time arrow-->). I think
-		most psychedelics consumption occurred since the second
-		half of the 20th century, and given the intensity of
-		psychedelic qualia they might be highly relevant in
-		assessing whether progress in qualia has occurred.
+		qualia are much "thicker", subjective time
+		becomes much slower, the meaning of experiences
+		increases (maybe by a [directed acyclic graph between
+		experiences](https://qualiacomputing.com/2018/11/28/the-pseudo-time-arrow-explaining-phenomenal-time-with-implicit-causal-structures-in-networks-of-local-binding/)
+		containing more edges?). I think most psychedelics
+		consumption occurred since the second half of the 20th
+		century, and given the intensity of psychedelic qualia
+		they might be highly relevant in assessing whether
+		progress in qualia has occurred.
 	* __Meditation__: Even though today probably more people than ever
 	in history meditate<!--TODO: source?-->, I suspect that in terms
 	of exotic and high-valenced meditation qualia, humanity might
@@ -112,6 +113,7 @@ in importance (an outlier-focused "log-normally distributed" view).
 	amount of monks in the world—and it seems worth noting that only
 	~5% of Buddhist monks spend most of their time meditating<!--TODO:
 	sources-->.
+		* __Religion__<!--TODO-->
 		* "As mentioned in chapter 7 on the fourth jhāna, at the
 		time of the Buddha, after the monks and nuns finished
 		their alms rounds, they would eat their midday meal,

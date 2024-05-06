@@ -165,4 +165,5 @@ nd we know so little about them; hence, our caution.
 
 ### See Also
 
-* [Creating a Text Shorthand for Uncertainty](https://www.lesswrong.com/posts/jsfSXH8mGrLy9pPqr/creating-a-text-shorthand-for-uncertainty)
+* [Creating a Text Shorthand for Uncertainty (Ozzie Gooen, 2013))](https://www.lesswrong.com/posts/jsfSXH8mGrLy9pPqr/creating-a-text-shorthand-for-uncertainty)
+* [Interrocolon (xefer, 2008)](https://xefer.com/2008/03/interrocolon)

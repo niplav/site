@@ -11,8 +11,9 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
-<!--Labyrinth movie-->
+* Lektionen in Finsternis
 <!--Newest animated spiderman-->
+* [Labyrinth](https://en.wikipedia.org/wiki/Labyrinth_\(movie\))
 * [From Dusk Till Dawn](https://en.wikipedia.org/wiki/From_Dusk_Till_Dawn)
 * [One who flew over the cuckoos nest](https://en.wikipedia.org/wiki/One_Flew_Over_the_Cuckoo's_Nest_\(film\))
 * [Jurassic World: Dominion](https://en.wikipedia.org/wiki/Jurassic_World_Dominion)

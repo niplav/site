@@ -76,24 +76,6 @@ Site
 Existing Texts
 --------------
 
-* Range and Forecasting Accuracy
-	* Find Muehlhauser email with additional source
-	* Extend the analysis to more datapoints
-		* Extend to more datasets
-			* <https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters>
-	* Add a literature review
-		* <https://rethinkpriorities.org/publications/how-does-forecast-quantity-impact-forecast-quality-on-metaculus>
-		* <https://rethinkpriorities.org/publications/an-analysis-of-metaculus-predictions-of-future-ea-resources>
-		* <https://rethinkpriorities.org/publications/an-examination-of-metaculus-resolved-ai-predictions>
-		* <https://rethinkpriorities.org/publications/potentially-great-ways-forecasting-can-improve-the-longterm-future>
-		* <https://rethinkpriorities.org/publications/why-short-range-forecasting-can-be-useful-for-longtermism>
-		* <https://en.wikipedia.org/wiki/J._Scott_Armstrong#Forecasting>
-		* <http://foresightr.com/2016/05/06/a-brief-history-of-forecasting>
-		* <https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.12127>
-		* Prediction: The long and short of it (Anthony Millner/Daniel Heyen, 2020)
-		* <https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters>
-		* <https://www.edge.org/conversation/philip_tetlock-edge-master-class-2015-a-short-course-in-superforecasting-class-ii>
-	* Estimate with latent variable/instrumental variable
 * Considerations on Cryonics
 	* Add a literature review
 		* <https://www.tandfonline.com/doi/pdf/10.1080/01459741003715391>
@@ -278,7 +260,6 @@ Texts
 	* If the future optimization trajectory along a dimension in the limit moves the value of that dimension to the maximum/minimum, don't do that.
 	* The optimal amount of anything is not the most extreme amount
 * Capable Artificial Alignment Theorists Appear Plausible
-* Money-Pumping: A Computational-Complexity-theoretic Approach
 * Training LLMs on similarity to human thought
 	* Achievable via EEG data?
 	* Check paper Pope mentioned again
@@ -942,9 +923,7 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* Forecasting
 			* Metaculus
 			* Spend relatively long on each question (15 minutes)
-* Anecdotes About the Running Times of Test Suites in the Software Industry
 * Ways in which people have misspelled "Kurzgesagt" on the internet
-* Ranking, Rating and Reviewing Patricia Taxxon's Music
 * Meanings of "so" in German
 * Heuristics for Friendly Conversation on the Internet
 * Much More Than You Wanted to Know
@@ -1009,13 +988,9 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Which Coherence Axioms are Hard to Violate? Which Easy?
 	* Metrics for Goodhartability
 		* Given a function `$f$` and an approximation `$a$`, how do we measure the Goodhartability of `$f$` when maximizing `$a$`, even in principle?
-* Bounded Population Axiology
 
 ### Notes
 
-* Be Liberal in what you Accept, but Conservative in what you Emit
-* Believing Something Doesn't Mean You to Tell it to Everyone
-* You Actually Don't Need to Convice Idiots
 * Hug the Objective
 	* When trying to achieve something, work directly on that thing
 	* Related to: yak-shaving
@@ -1023,7 +998,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Buffers by Rollo Tomassi
 * No One Knows & No One Can Know
 	* This argument infuriates me: did you try to find out what people actually know?
-* Sometimes People have the same Credences but Still Disagree
 * Teaching Oneself vs. Being Taught
 	* Two different mindsets
 * Blogging as an Act of Benevolence
@@ -1059,8 +1033,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 	* Most problems get solved far too often, create (or maintain, or support) canonical resources
 		* wasted motion
 	* Long content and its curation
-* Tracking of Belief Introduces Overhead
-* The Sum Rule Holds for Jacobians and Hessians
 * Mastery is Exceedingly Rare
 
 > Very few will aspire to real mastery themselves. Very few will take the
@@ -1287,19 +1259,6 @@ eine kontingente verschmelzung von fast-sein und konkretheit"
 * A wiki for pickup terminology
 	* Does <http://www.pualingo.com> still exist? If not, dig out archived version
 * Kiwix versions of LessWrong, Alignment Forum, Effective Altruism Forum
-
-Videos
--------
-
-* Population Axiology
-* Causal Inference
-* Patricia Taxxon music videos with generated images
-	* Hellbulb
-	* Alien
-	* Cilantro
-	* Rawr
-* Cool girl video + Death By Glamour
-* Alice in Wonderland that scene with Tweedledee and Tweedledum
 
 Data Sets
 ----------
