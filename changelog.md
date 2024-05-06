@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2024-04-22, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2024-05-01, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -39,6 +39,7 @@ glass comes to life and kills you.
 * [Notes](./notes.html)
 	* [AI Safety Via Debate Links](./notes.html#AI_Safety_Via_Debate_Links)
 	* [Logical Correlation](./notes.html#Logical_Correlation)
+	* [Field-Specific Low-Information Priors](./notes.html#FieldSpecific_LowInformation_Priors): [~](https://www.metaculus.com/questions/1490/which-percentage-of-metaculus-questions-resolving-in-q1-2019-will-resolve-positively/)[4](https://www.metaculus.com/questions/804/1000th-binary-question-resolution-is-positive/)[0](https://www.metaculus.com/questions/1475/which-percentage-of-metaculus-questions-resolving-from-october-1st-to-december-31st-2018-inclusive-will-resolve-positively/)[​%](https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons) of questions worth asking resolve as true, and One can expect a trait to, on average, have 50% heritability. I'm open to further suggestions.
 * [Ideal Policy for Testing Nuclear Weapons](./nuclear.html#Ideal_Policy_Situation)
 * [Text Reviews](./text_reviews.html)
 	* [The Machinery of Freedom (David Friedman, 2014)](./text_reviews.html#The_Machinery_of_Freedom_David_Friedman_2014)

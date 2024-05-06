@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2024-03-30, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2024-05-04, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of puns, good bandnames, types of guy,
 idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
@@ -205,7 +205,8 @@ characters. [Urbit](https://en.wikipedia.org/wiki/Urbit),
 as always, [drives the idea to its logical
 conclusion](https://developers.urbit.org/reference/hoon/stdlib/4h).
 
-Let me propose some names:
+Let me propose some names, with the goal of selecting the most common
+name for the character that is only one syllable long:
 
 * \* star (splat)
 * ? what
@@ -225,6 +226,7 @@ Let me propose some names:
 * " quote
 * = is
 * $ cash
+* - dash
 
 No individual names yet, also two syllables:
 
@@ -236,9 +238,8 @@ Not sure:
 
 * % per
 * \_ score
-* ^ up
+* ^ up (hat, flex)
 * ; then
-* - take
 * : so
 * ' say
 
