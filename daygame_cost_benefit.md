@@ -376,10 +376,6 @@ Date ratios:
 
 * [2013](https://krauserpua.com/2014/01/02/guest-post-tom-toreros-2013-daygame-stats/)
 
-And this one:
-
-https://old.reddit.com/r/seduction/comments/9ock2a/my_daygame_experience_so_far_statistics_and/
-
 #### Clarky
 
 * [2023](https://scalingthemountain6.wordpress.com/2023/12/31/2023-my-first-year-in-game/)
@@ -387,24 +383,11 @@ https://old.reddit.com/r/seduction/comments/9ock2a/my_daygame_experience_so_far_
 ### D.J. Caird
 
 [Blog](https://djcaird.wordpress.com/).
+
+And this one:
+
+https://old.reddit.com/r/seduction/comments/9ock2a/my_daygame_experience_so_far_statistics_and/
 -->
-
-#### Visualizing the Data
-
-* Green: Roy Walker
-* Beige: Seven
-* Blue: Mr. White
-* Purple: Thomas Crown
-* Red: Krauser
-* Orange: Mr. Wolfe
-
-The plotted data for lay ratios looks like this:
-
-![Empirical data for the cumulative value of lay-ratios over time](./img/daygame_cost_benefit/layratio_data.png "Empirical data for the cumulative value of lay-ratios over time.")
-
-Similarly, the data for reported date ratios:
-
-![Empirical data for the cumulative value of date-ratios over time](./img/daygame_cost_benefit/dateratio_data.png "Empirical data for the cumulative value of date-ratios over time.")
 
 ### Estimating Parameters
 
@@ -414,7 +397,9 @@ and assume that the date-to-lay ratio converges towards 1 in
 [S-curve](https://www.lesswrong.com/posts/oaqKjHbgsoqEXBMZ2 "S-Curves
 for Trend Forecasting"). The other parameters are estimated using
 [`scipy.optimize.curve_fit`](./notes.html#None) with data from Roy Walker,
-Mr. Wolfe and Thomas Crown.
+Mr. Wolfe and Thomas Crown, since we have information from the start.
+
+#### Lays
 
 First we collect the relevant information in a processable form (removing
 the first datapoint from Mr. Wolfe because it confuses `curve_fit`):
@@ -439,33 +424,51 @@ These numbers are of course heavily dependant on all kinds of factors:
 attractiveness, speed of learning, effort exerted in daygame, logistics
 and much much more.
 
+#### Dates
+
 <!--TODO: continue here with estimating the date ratios-->
 
-I will also assume that one in three series of dates with the same woman
-leads to a lay:
+I then repeat the same procedure for dates, collecting the date ratio
+data for Walker, Wolfe & Crown:
 
-	dateratio::{3*ratio(x)}
+	rwdate=np.array([[511, 19,], [901, 38,], [977, 38,], [1060, 40,], [1143, 46,], [1216, 48,], [1380, 58,], [1448, 63,], [1557, 64,], [1990, 81,], [2063, 81,], [2130, 84,], [2230, 85,], [2373, 91,], [2540, 97,], [2876, 126,], [3442, 165,], [3567, 170,], [3991, 200,], [4092, 202]])
+	tcdate=np.array([[208, 12], [1638, 79], [2453, 116]])
+	wdate=np.array([[445, 11,], [593, 12,], [700, 14,], [783, 15,], [858, 19,], [925, 23,], [1000, 32,], [1086, 32,], [1122, 32,], [1174, 35,], [1220, 37,], [1267, 37,], [1317, 39,], [1322, 39,]])
 
-Visualizing this shows the following:
+	date_ratios=np.concatenate([ratio_of(rwdate), ratio_of(tcdate), ratio_of(wdate)])
+	approaches=np.concatenate([rwdate.T[0], tcdate.T[0], wdate.T[0]])
 
-	.l("./load.kg")
+This time I assume that at best one goes on a date with 1 in 14 women
+approached:
 
-	.l("nplot")
+	date_ratio_fit=spo.curve_fit(shrunk_logistic, approaches, date_ratios, bounds=([-np.inf, 0, 0], [1, np.inf, 0.07]))
+	date_slope, date_intercept, date_ceiling=date_ratio_fit[0]
 
-	grid([0 10000 1000];[0 0.07 0.002])
-	xtitle("Approaches")
-	ytitle("Cumulative ratios")
+#### Visualizing the Data
 
-	plot(ratio)
-	text(250;60;"Approach-to-lay ratio")
+* Green: Roy Walker
+* Beige: Seven
+* Blue: Mr. White
+* Purple: Thomas Crown
+* Red: Krauser
+* Orange: Mr. Wolfe
 
-	setrgb(0;0;1)
-	plot(dateratio)
-	text(200;250;"Approach-to-date ratio")
+The plotted data for lay ratios (and the corresponding fitted sigmoid
+curve) look like this:
 
-	draw()
+![Empirical data for the cumulative value of lay-ratios over time](./img/daygame_cost_benefit/layratio_data.png "Empirical data for the cumulative value of lay-ratios over time.")
 
-![The date & lay ratios over thousands of approaches](./img/daygame_cost_benefit/ratio.png "The date & lay ratios over thousands of approaches")
+Similarly, the data for reported date ratios:
+
+![Empirical data for the cumulative value of date-ratios over time](./img/daygame_cost_benefit/dateratio_data.png "Empirical data for the cumulative value of date-ratios over time.")
+
+#### Comparing Date & Lay Ratios
+
+We can also compare date & lay ratios with the fitted parameters, and
+I notice that date ratios grow faster than lay ratios. Not sure what is
+up with that.
+
+![The date & lay ratios over thousands of approaches](./img/daygame_cost_benefit/ratio_data.png "The date & lay ratios over thousands of approaches")
 
 A Simple Model
 --------------
@@ -524,17 +527,18 @@ personal time", that the energy exerted in daygame misses in other
 productive activities, while the amount spent on downtime & unfulfilling
 stuff stays constant.
 
-<!--TODO: consider Matt's input on this-->
+The [Clearer Thinking
+tool](https://programs.clearerthinking.org/what_is_your_time_really_worth_to_you.html)
+for the value of my time returns 15€/hour:
 
-I will tentatively set the opportunity cost of an hour of daygame to \\$5,
-but would be interested in further input:
-
-	oppcost::5
+	oppcost::15
 
 Daygamers who could earn more with their day job might want to adjust
 this number upwards.
 
 #### Costs from Dates
+
+Dates cost money: both as an opportunity cost and for paying for drinks.
 
 ##### Opportunity Cost
 

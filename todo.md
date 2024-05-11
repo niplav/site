@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2024-02-16, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2024-05-11, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -23,8 +23,6 @@ das dort hervorragte, und eine alte Stiefelsohle auf.
 Site
 -----
 
-* Add tooltips to links (Title of Text)
-* Find out how to make the site more inclusive
 * (a) link for archives?
 * Get rid of "we", use "I" instead.
 * Improve citation (both to wikipedia and to papers)
@@ -36,14 +34,9 @@ Site
 	* Done:
 		* Range and Forecasting Accuracy
 		* Daygame Cost-Benefit Analysis
-* Switch to MathJax 3?
-* Edit texts:
-	* Considerations on Cryonics
-		* Mainly done
 * Flashcards:
 	* Add tags for chapters/sort by chapters
 	* Prune flagged cards?
-* Add content tables to pages?
 * Maybe a dark mode?
 * Add RSS feed (ugh)
 	* <https://www.interglacial.com/tpj/26/>
@@ -146,13 +139,7 @@ Existing Texts
 		* In the 2-option probability simplex, continuity is violated if at some point the vector field "turns around"
 		* Make consistent by rotating vectors so that the integral over vector strength/volume/degree of rotation is minimal
 		* Nontransitivity is probably maximal curl at some point in the vector field
-		* Also look at:
-			* Graphon
-			* Dense graph
-			* Extremal graph theory
 		* This also feels relevant to Ontological crises/shifts: Is there a canonical way to map from the human preference simplex to the AI preference simplex, if we know the concept equivalences? (A is just 30% B and 70% C, so we can split the simplex into another dimension here…)
-* BCIs and Alignment
-	* Data for scaling laws from BCIs
 
 Texts
 -----
@@ -259,7 +246,6 @@ Texts
 * Umeshisms for Low Impact
 	* If the future optimization trajectory along a dimension in the limit moves the value of that dimension to the maximum/minimum, don't do that.
 	* The optimal amount of anything is not the most extreme amount
-* Capable Artificial Alignment Theorists Appear Plausible
 * Training LLMs on similarity to human thought
 	* Achievable via EEG data?
 	* Check paper Pope mentioned again

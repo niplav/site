@@ -98,37 +98,38 @@ in importance (an outlier-focused "log-normally distributed" view).
 		century, and given the intensity of psychedelic qualia
 		they might be highly relevant in assessing whether
 		progress in qualia has occurred.
-	* __Meditation__: Even though today probably more people than ever
-	in history meditate<!--TODO: source?-->, I suspect that in terms
-	of exotic and high-valenced meditation qualia, humanity might
-	be regressing. Meditative qualia require a large investment of
-	consecutive time, attention and mental energy, which I suspect
-	fewer people are willing to invest. This might even be inversely
-	linked to economic progress: faster growth rates lead to a larger
-	amount of interest in novelty (counterforce: material abundance
-	frees oneself to investigate avenues of self-actualiazation
-	(or, in this case, self-deconstruction)). But the number of
-	contemplative practitioners doesn't have to seem grown with the
-	population, and it would be interesting to find numbers on the
-	amount of monks in the world—and it seems worth noting that only
-	~5% of Buddhist monks spend most of their time meditating<!--TODO:
-	sources-->.
+	* __Spirituality__:
+		* __Meditation__: Even though today probably more people than ever
+		in history meditate<!--TODO: source?-->, I suspect that in terms
+		of exotic and high-valenced meditation qualia, humanity might
+		be regressing. Meditative qualia require a large investment of
+		consecutive time, attention and mental energy, which I suspect
+		fewer people are willing to invest. This might even be inversely
+		linked to economic progress: faster growth rates lead to a larger
+		amount of interest in novelty (counterforce: material abundance
+		frees oneself to investigate avenues of self-actualiazation
+		(or, in this case, self-deconstruction)). But the number of
+		contemplative practitioners doesn't have to seem grown with the
+		population, and it would be interesting to find numbers on the
+		amount of monks in the world—and it seems worth noting that only
+		~5% of Buddhist monks spend most of their time meditating<!--TODO:
+		sources-->.
+			* "As mentioned in chapter 7 on the fourth jhāna, at the
+			time of the Buddha, after the monks and nuns finished
+			their alms rounds, they would eat their midday meal,
+			which would be at around ten or eleven o'clock in the
+			morning. Then they would “go for the day's abiding”⁹
+			and meditate until evening. Since they had not grown up
+			with chairs, they had the capacity to sit cross-legged
+			for an extended period of time. So if they were sitting
+			for multiple hours at a time over a six- or seven-hour
+			period, they were fare more likely to experience a very
+			deep level of concentration. By the time they entered the
+			fourth jhāna, their concentration was deep enough that
+			the simile with its white cloth indeed captures the pure,
+			bright mind they were experiencing." (Right Concentration
+			(Leigh Brasington, 2015), p. 180)
 		* __Religion__<!--TODO-->
-		* "As mentioned in chapter 7 on the fourth jhāna, at the
-		time of the Buddha, after the monks and nuns finished
-		their alms rounds, they would eat their midday meal,
-		which would be at around ten or eleven o'clock in the
-		morning. Then they would “go for the day's abiding”⁹
-		and meditate until evening. Since they had not grown up
-		with chairs, they had the capacity to sit cross-legged
-		for an extended period of time. So if they were sitting
-		for multiple hours at a time over a six- or seven-hour
-		period, they were fare more likely to experience a very
-		deep level of concentration. By the time they entered the
-		fourth jhāna, their concentration was deep enough that
-		the simile with its white cloth indeed captures the pure,
-		bright mind they were experiencing." (Right Concentration
-		(Leigh Brasington, 2015), p. 180)
 	* __Art__: The variety of art available to each individual
 	likely has increased, and I assume that people select art they
 	enjoy, so I believe that there has been large progress in the

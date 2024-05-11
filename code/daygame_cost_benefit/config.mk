@@ -7,5 +7,4 @@ IMG=\
 	sideeff.png \
 	layvals.png \
 	mental.png \
-	ratio.png \
 	ratio_data.png

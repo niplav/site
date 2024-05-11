@@ -15,14 +15,6 @@ a very simple [hill-climbing](https://en.wikipedia.org/wiki/Hill_climbing)
 algorithm and brute-force search on that space. Possible further
 improvements to the model are suggested, and implications are discussed.__
 
-<!--
-TODO:
-* Another view on takeoff speeds in relation to the shape of optimization-space
-	*	Maybe model with n-dimensional space with perlin noise,
-		depth of current search determines size of subspace
-		being searchable at the moment
--->
-
 An Exploratory Toy AI Takeoff Model
 ===================================
 
@@ -68,28 +60,6 @@ intelligence:
 * By working and investing a part of the money to buy more hardware (e.g. by a cloud provider). This should grow roughly exponentially, at a similar speed to the [Gross World Product](https://en.wikipedia.org/wiki/Gross_world_product#Recent_growth) (although the model does not consider wall-clock time)
 * By performing a very simple [hill-climbing](https://en.wikipedia.org/wiki/Hill_climbing) algorithm in the space of possible optimization algorithms, such as rewriting parts of its source code in [assembly language](https://en.wikipedia.org/wiki/Assembly_language) or making trivial small performance improvements
 * By [brute-force searching](https://en.wikipedia.org/wiki/Brute-force_search) the space of possible optimization algorithms, possibly in the vincinity of the current algorithm
-
-<!--
-### Existing Approaches
-TODO: collect & write up.
-
-Articles:
-* https://aiimpacts.org/historical-growth-trends/
-* https://aiimpacts.org/likelihood-of-discontinuous-progress-around-the-development-of-agi/
-* https://intelligence.org/ai-foom-debate/
-* https://intelligence.org/files/IEM.pdf
-* https://longtermrisk.org/the-future-of-growth-near-zero-growth-rates/
-* https://sideways-view.com/2018/02/24/takeoff-speeds/
-* https://www.lesswrong.com/posts/5WECpYABCT62TJrhY/will-ai-undergo-discontinuous-progress
-* https://www.lesswrong.com/posts/66FKFkWAugS8diydF/modelling-continuous-progress
-* https://www.lesswrong.com/posts/77xLbXs6vYQuhT8hq/why-ai-may-not-foom
-* https://www.lesswrong.com/posts/CjW4axQDqLd2oDCGG/misconceptions-about-continuous-takeoff
-* https://www.lesswrong.com/posts/JBadX7rwdcRFzGuju/recursive-self-improvement
-* https://www.lesswrong.com/posts/YgNYA6pj2hPSDQiTE/distinguishing-definitions-of-takeoff
-* https://www.lesswrong.com/posts/cxgtQXnH2uDGBJJGa/redefining-fast-takeoff
-* https://www.lesswrong.com/posts/tjH8XPxAnr6JRbh7k/hard-takeoff
-* https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/ai-timelines
--->
 
 The Argument
 ------------
@@ -675,15 +645,3 @@ Appendix A: Images of All Runs
 ![Two-dimensional run](./img/toy_ai_takeoff_model/8_9_0.5_1.001.png "After ~200 timesteps two medium-sized jumps, then no jumps the rest of the time (but still growth).")
 
 *A run in `$\mathbb{F}_{9}^{8}$`, with two early discontinuities*
-
-<!--
-https://en.wikipedia.org/wiki/Brownian_surface
-https://en.wikipedia.org/wiki/Fractal_landscape
-https://en.wikipedia.org/wiki/Fractional_Brownian_motion
-https://en.wikipedia.org/wiki/Gradient_descent
-https://en.wikipedia.org/wiki/Newton%27s_method
-https://en.wikipedia.org/wiki/OpenSimplex_noise
-https://en.wikipedia.org/wiki/Perlin_noise
-https://en.wikipedia.org/wiki/Simplex_noise
-https://github.com/buckinha/DiamondSquare
--->
