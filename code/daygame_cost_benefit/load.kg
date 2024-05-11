@@ -1,7 +1,7 @@
 .l("math")
 .l("nstat")
 
-oppcost::5
+oppcost::15
 
 prostcost::300
 prideval::400
@@ -15,7 +15,8 @@ datelen::3.5
 apprperhour::4
 ratioexp::0.02
 ratiobegin::0.005
-maxappr::10000
+maxappr::5000
+datalim::5000
 
 fixcost::500
 varcost::0.5
@@ -28,10 +29,19 @@ apppy::1000
 fcbfo::300
 pbfo::0.001
 
-ratio::{ratiobegin+(ratioexp-ratiobegin)*(1-500%x+500)}
-dateratio::{3*ratiobegin+(ratioexp-ratiobegin)*(1-500%x+500)}
+layceil::0.032999999999999995
+layslope::-0.00032469342601662376
+layintercept::1.0921062524727312
 
-layvals::{firstlayval*sqr(ratio(x)*x)}
+layratio::{layceil*1%(1+exp(layintercept+layslope*x))}
+
+dateceil::0.06999999999999999
+dateslope::-0.00032682619283946467
+dateintercept::0.4249112313623176
+
+dateratio::{dateceil*1%(1+exp(dateintercept+dateslope*x))}
+
+layvals::{firstlayval*sqr(layratio(x)*x)}
 benefit::{layvals(x)}
 
 cost::{(oppcost*x%apprperhour)+(dateratio(x)*datecost*avgdates*x)+dateratio(x)*datelen*avgdates*oppcost}

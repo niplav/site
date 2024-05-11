@@ -2,11 +2,57 @@
 .l("./load.kg")
 .l("./data.kg")
 
+ratiodata::.oc("ratio_data.eps")
+.tc(ratiodata)
+
+setrgb(0;0;0)
+grid([0],datalim,(datalim%10);[0 0.08 0.002])
+xtitle("Approaches")
+ytitle("Cumulative ratios")
+
+plot(layratio)
+text(250;60;"Approach-to-lay ratio")
+
+setrgb(0;0;1)
+plot(dateratio)
+text(200;250;"Approach-to-date ratio")
+
+setdot(4)
+
+:"Data for Roy Walker ratios"
+
+fillrgb(0.109;0.847;0.588)
+scplot2(rwlayrat)
+
+fillrgb(0.147;0.468;0.354)
+scplot2(rwdaterat)
+
+:"Data for Thomas Crown ratios"
+
+fillrgb(0.7;0.2;0.7)
+scplot2(tclayrat)
+
+fillrgb(0.5;0.1;0.5)
+scplot2(tcdaterat)
+
+:"Data for Mr. Wolfe ratios"
+
+fillrgb(0.8;0.55;0.05)
+scplot2(wdaterat)
+
+fillrgb(1.0;0.65;0.1)
+scplot2(wlayrat)
+
+draw()
+
+.fl()
+.cc(ratiodata)
+
 dateratiodata::.oc("dateratio_data.eps")
 .tc(dateratiodata)
 
 setrgb(0;0;0)
-grid([0 10000 1000];[0 0.08 0.002])
+grid([0],datalim,(datalim%10);[0 0.08 0.002])
 xtitle("Approaches")
 ytitle("Cumulative ratios")
 
@@ -45,6 +91,11 @@ scplot2(kdaterat)
 fillrgb(1.0;0.6;0.1)
 scplot2(wdaterat)
 
+:"Plot for the best fitted parameters"
+setrgb(0;0;0)
+plot(dateratio)
+text(200;250;"Approach-to-date ratio")
+
 draw()
 
 .fl()
@@ -54,11 +105,11 @@ layratiodata::.oc("layratio_data.eps")
 .tc(layratiodata)
 
 setrgb(0;0;0)
-grid([0 10000 1000];[0 0.04 0.002])
+grid([0],datalim,(datalim%10);[0 0.04 0.002])
 xtitle("Approaches")
 ytitle("Cumulative ratios")
 
-plot(ratio)
+plot(layratio)
 text(250;60;"Approach-to-lay ratio")
 
 setdot(4)
@@ -93,6 +144,11 @@ scplot2(klayrat)
 fillrgb(1.0;0.6;0.1)
 scplot2(wlayrat)
 
+:"Plot for the best fitted parameters"
+setrgb(0;0;0)
+plot(layratio)
+text(250;60;"Approach-to-lay ratio")
+
 draw()
 
 .fl()
@@ -102,7 +158,7 @@ complete::.oc("complete.eps")
 .tc(complete)
 
 setrgb(0;0;0)
-grid([0],maxappr,[1000];[-20000 15000 1000])
+grid([0],maxappr,(maxappr%10);[-20000 15000 1000])
 xtitle("Approaches")
 ytitle("Cumulative total value")
 
@@ -117,42 +173,17 @@ setrgb(1;0;0)
 plot({-cost(x)})
 text(250;60;"Cost")
 
-bar(optim;20000+optimben;10000)
+bar(optim;20000+optimben;maxappr)
 draw()
 
 .fl()
 .cc(complete)
 
-completecomplex::.oc("complete_complex.eps")
-.tc(completecomplex)
-
-setrgb(0;0;0)
-grid([0],maxappr,[1000];[-20000 20000 1000])
-xtitle("Approaches")
-ytitle("Cumulative total value")
-
-plot({cbenefit(x)-ccost(x)})
-text(200;250;"Value")
-
-setrgb(0;0;1)
-plot(cbenefit)
-text(200;400;"Benefit")
-
-setrgb(1;0;0)
-plot({-ccost(x)})
-text(250;60;"cost")
-
-bar(coptim;20000+coptimben;10000)
-draw()
-
-.fl()
-.cc(completecomplex)
-
 costf::.oc("cost.eps")
 .tc(costf)
 
 setrgb(0;0;0)
-grid([0],maxappr,[1000];[-20000 0 500])
+grid([0],maxappr,(maxappr%10);[-20000 0 500])
 xtitle("Approaches")
 ytitle("Cumulative dollar cost of dates")
 plot({-cost(x)})
@@ -187,93 +218,11 @@ draw()
 .fl()
 .cc(mentalf)
 
-ratiof::.oc("ratio.eps")
-.tc(ratiof)
-
-setrgb(0;0;0)
-grid([0 10000 1000];[0 0.07 0.002])
-xtitle("Approaches")
-ytitle("Cumulative ratios")
-
-plot(ratio)
-text(250;60;"Approach-to-lay ratio")
-
-setrgb(0;0;1)
-plot(dateratio)
-text(200;250;"Approach-to-date ratio")
-
-draw()
-
-.fl()
-.cc(ratiof)
-
-ratiodata::.oc("ratio_data.eps")
-.tc(ratiodata)
-
-setrgb(0;0;0)
-grid([0 10000 1000];[0 0.08 0.002])
-xtitle("Approaches")
-ytitle("Cumulative ratios")
-
-plot(ratio)
-text(250;60;"Approach-to-lay ratio")
-
-setrgb(0;0;1)
-plot(dateratio)
-text(200;250;"Approach-to-date ratio")
-
-setdot(4)
-
-:"Data for Roy Walker ratios"
-
-fillrgb(0.109;0.847;0.588)
-scplot2(rwlayrat)
-
-fillrgb(0.147;0.468;0.354)
-scplot2(rwdaterat)
-
-:"Data for Mr. White ratios"
-
-fillrgb(0.4;0.4;1)
-scplot2(mwlayrat)
-
-fillrgb(0.1;0.1;0.7)
-scplot2(mwdaterat)
-
-:"Data for Thomas Crown ratios"
-
-fillrgb(0.7;0.2;0.7)
-scplot2(tclayrat)
-
-fillrgb(0.5;0.1;0.5)
-scplot2(tcdaterat)
-
-:"Data for Seven ratios"
-
-fillrgb(0.8;0.8;0.1)
-scplot2(slayrat)
-
-fillrgb(0.6;0.6;0)
-scplot2(sdaterat)
-
-:"Data for Krauser ratios"
-
-fillrgb(1;0;0)
-scplot2(klayrat)
-
-fillrgb(0.8;0;0)
-scplot2(kdaterat)
-
-draw()
-
-.fl()
-.cc(ratiodata)
-
 sideeff::.oc("sideeff.eps")
 .tc(sideeff)
 
 setrgb(0;0;0)
-grid([0 10000 1000];[0 5000 200])
+grid([0],maxappr,(maxappr%10);[0 5000 200])
 xtitle("Approaches")
 ytitle("Cumulative dollar value of side effects")
 plot(csideeff)
@@ -281,3 +230,29 @@ draw()
 
 .fl()
 .cc(sideeff)
+
+.x(1)
+
+completecomplex::.oc("complete_complex.eps")
+.tc(completecomplex)
+
+setrgb(0;0;0)
+grid([0],maxappr,(maxappr%10);[-20000 20000 1000])
+xtitle("Approaches")
+ytitle("Cumulative total value")
+
+plot({cbenefit(x)-ccost(x)})
+text(200;250;"Value")
+
+setrgb(0;0;1)
+plot(cbenefit)
+text(200;400;"Benefit")
+
+setrgb(1;0;0)
+plot({-ccost(x)})
+text(250;60;"cost")
+
+bar(coptim;20000+coptimben;10000)
+
+.fl()
+.cc(completecomplex)

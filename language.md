@@ -531,8 +531,8 @@ Unclaimed Domain Names
 * https://egregome.industries
 * https://hell.network
 
-Missing Emojis
----------------
+Missing Emoji
+--------------
 
 * Shovel
 * Grim determination
@@ -543,6 +543,7 @@ Missing Emojis
 * Grass
 * Kimchi
 * [Various egypt-themed emoji](https://twitter.com/hum_dunkin/status/1776579149739528668)
+* Flag of the Roman Empire
 
 New Eponymous Laws
 -------------------
