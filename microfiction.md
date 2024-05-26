@@ -331,6 +331,7 @@ who invite you to the luring Bay, promising to pay for your entire being while e
 who down 3¾ bottles of Huel™ and sprint to their next fellowship or retreat or meetup or workshop, in the pore-showingly lit hallways with whiteboards and whiteboards and whiteboards and whiteboards,  
 who want to crown random nerds with aureal sigmas fished from the manifold crevaces of self-denying deities,  
 who write epics of institutionalized autists bent on terraforming these overpopulated hypothetical hells,  
+horizons clitch and cline  
 pointing out dynamic inconsistency in the comments and melting hectoton steel-marbles around civilizational recipes,  
 who improve their aim hurling yeeting philosophical tomes at unsuspecting passerbys and ascend urban lampposts to loudly deduce their mechanical liturgies,  
 cascades! cycles! insights!  
@@ -343,7 +344,7 @@ who catch a feral heart in the garden behind the A100 rack and save it into a tr
 who empty out their pockets with uncountable glaring utilons onto innocent climate activists, promising to make them happy neutron stars one day,  
 microscopically examining the abyssal monstrosities their oracles conjure up out of the lurching empty chaos,  
 recursion! magic!  
-who fever towards silver tendrils bashing open their skulls and eating up their brains and imaginations, losslessly swallowed into that ellipsoid strange matter gut pulsing out there between the holes
+who fever towards silver tendrils bashing open their skulls and eating up their brains and imaginations, losslessly swallowed into that ellipsoid strange matter gut pulsing out there between the holes  
 
 Dialogues
 ----------

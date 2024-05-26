@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-01-30, modified: 2024-01-30, language: english, status: in progress, importance: 3, confidence: certain*
+*author: niplav, created: 2024-01-30, modified: 2024-05-20, language: english, status: in progress, importance: 3, confidence: certain*
 
 > __Some thoughts on discontinuous and/or fast takeoff during TAI
 development, in response to a twitter question.__
@@ -134,3 +134,9 @@ do not interfere, and instead something far stranger is afoot, but
 the machine learning intuition tells people that everything in neural
 networks is continuous, so why wouldn't there be a continous path to a
 TAI architecture?<!--TODO: link continuity assumption post by Kulveit?-->
+
+See Also
+---------
+
+* [Takeoff speeds (Paul Christiano, 2018)](https://sideways-view.com/2018/02/24/takeoff-speeds/)
+* [Optimization and the Intelligence Explosion (Eliezer Yudkowsky, 2015)](https://www.lesswrong.com/rationality/optimization-and-the-intelligence-explosion)

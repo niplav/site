@@ -75,18 +75,6 @@
 #	xandkar https://xandkar.net/twtxt.txt
 #	xuu https://txt.sour.is/user/xuu/twtxt.txt
 #	z3bra gopher://g.nixers.net/0/~z3bra/twtxt.txt
-2020-11-26T14:43:42.000000Z	I used to have a twitter, but then I got addicted to it and shut it down (https://twitter.com/niplavyushtun). I think I'll put similar stuff on here, and maybe more extreme experimental takes, because there's no risk of getting banned.
-2020-11-26T15:06:04.000000Z	If it's not insightful enough for the LessWrong shortform, not in context enough for reddit, and not long enough for my website, it goes on here.
-2020-11-26T15:06:56.000000Z	BTW, website! I can be found at https://niplav.github.io. If you want to read things I thought about for more than 5 seconds, that's the place to go.
-2020-11-26T15:10:30.000000Z	Tiktokracy
-2020-11-26T16:06:28.000000Z	Lecturer: "0 is not the empty set." Me (looking into Naïve Set Theory by Halmos): "we have no choice; we must write (as we did) 0=∅"
-2020-11-26T16:09:08.000000Z	Does this void answer with jazz?
-2020-11-26T16:10:10.000000Z	I should pay more attention.
-2020-11-26T16:20:50.000000Z	Is the most efficient hedonium decreasing or increasing in supplied matter-energy?
-2020-11-26T16:23:49.000000Z	That is, would total utilitarians build very small (& not very intensive) pockets of hedonium, or extremely big ones?
-2020-11-26T16:24:15.000000Z	Or, in other words: would we have a repugnant conclusion?
-2020-11-26T16:27:12.000000Z	"If you both die, I will mourn the corpse closest to the finish line."
-2020-11-26T16:27:47.000000Z	I upekkhan't get annoyed about this.
 2020-11-26T16:28:30.000000Z	The thought that we should respect people's wishes after they're dead might be a corollary of death being bad.
 2020-11-26T16:29:29.000000Z	Attempting suicide sometimes isn't about killing yourself, it's about signalling.
 2020-11-26T16:30:08.000000Z	A textbook is a book with exercises
@@ -184,9 +172,6 @@
 2020-12-24T23:47:20.000000Z	https://www.gwern.net/newsletter/2020/12#fn1 is extremely important, but people fall into the anthropomorphization trap again and again
 2020-12-26T11:09:36.000000Z	My internal monologue is somewhere in my right hemisphere, more on the outside than the inside. Sort of above my right ear.
 2020-12-26T11:50:05.000000Z	Inner alignment is a problem when you train the reward function & the policy function jointly.
-2020-12-26T12:32:03.000000Z	I have a feeling that the first step in solving any coordination problem is “bring all relevant parties in a room, and lock them in there with water, food & sanitation until they have either found a solution or killed each other”
-2020-12-26T12:32:17.000000Z	Thinking about founding an organization that does exactly that.
-2020-12-26T12:32:35.000000Z	Life-extension/superhappiness are not answers to the question of meaning, just frames for making the search for meaning easier and more likely to succeed in the long run.
 2020-12-26T12:32:52.000000Z	Lisp is like minarchism.
 2020-12-26T12:33:06.000000Z	Project idea: search for books that are most effective at converting people from one ideology to another, for any two ideologies.
 2020-12-26T12:33:23.000000Z	0th Potentiality: Doing something
@@ -240,10 +225,6 @@
 2021-01-07T09:31:45.000000Z	“I will do as I please” will do as it pleases
 2021-01-07T09:38:01.000000Z	A bit tempted to trying to dovetail to find the shortest brainfuck quine.
 2021-01-07T09:38:33.000000Z	Only 4^391 programs. That shouldn't be _that_ hard!
-2021-01-07T09:54:37.000000Z	Subtly phenomenologically tainted words lead to anthropomorphization in discussions about AI
-2021-01-07T09:54:54.000000Z	e.g. desire, want, reason, think
-2021-01-07T16:26:03.000000Z	@<sdk https://codevoid.de/tw.txt> "Oh fun. I was not active on txtnish for a while and now all the feeds are 404 :( I miss you guys..." Same.
-2021-01-07T18:06:07.000000Z	@<eli_oat https://txt.eli.li/twtxt/twtxt.txt> txt txt txt txt txt txt txt
 2021-01-07T21:20:42.000000Z	My definite stance on the rat/postrat discourse. Strap in. 1/89
 2021-01-07T21:21:13.000000Z	It all starts back in the days, when people started posting on SL4. As it turns out, 2/89
 2021-01-07T21:22:13.000000Z	bang. bang. bang. bang. Caledonian2 looks down on me. “What now, punk? Where is your overcoming of bias now?” “FUCK YOU” I scream. I lift 13/89
@@ -253,11 +234,8 @@
 2021-01-07T21:28:42.000000Z	and if you truly get down to it, there's no ground for solomonoff induction, because your choice of TM is completely arbitrary! Furthermore, what does it even mean for bayesianism to be a coherent epistemology‽ How do we decide wha 84/89
 2021-01-07T21:29:24.000000Z	lief as attire will not save you. Come back to LW we miss you. Please don't stray too far from the light. 89/89
 2021-01-07T21:32:05.000000Z	https://twitter.com/skluuug/status/1343488552512802817
-2021-01-07T22:28:37.000000Z	i will not have the sex. i will not spread the gene.
 2021-01-07T22:39:54.000000Z	I'm cartesianly divided from twitter, to which I'm often responding. We're back to watching television again.
 2021-01-09T00:00:33.000000Z	…and over to monist idealism.
-2021-01-09T01:02:40.000000Z	Personal anti-natalism delays the point point in time of malthusian saturation
-2021-01-10T12:47:55.000000Z	Will self-driving cars also be something that's always n years away?
 2021-01-10T13:30:04.000000Z	@(frogorbits.com) "@niplav Re: rats:  YOU ARE NOT ALONE" https://i.ytimg.com/vi/2sbUDWU3Fjk/maxresdefault.jpg
 2021-01-10T13:49:47.000000Z	@<felixp7 https://twtxt.net/user/felixp7/twtxt.txt> "Yo, crypto-heads. Encrypted communication doesn't protect your privacy. Laws …" I guess crypto-heads are often happy with acknowledging this, but also arguing that e.g. deniable crypto is a useful way out here (and, of course, just doing illegal stuff if it gets really rough).
 2021-01-10T13:50:58.000000Z	One should probably have a bunch of hard-drives with random content (not some files, but really random) lying around to being able to believably glomarize towards law enforcement
@@ -267,7 +245,6 @@
 2021-01-10T14:01:31.000000Z	`curl https://raw.githubusercontent.com/jointwt/we-are-twtxt/master/we-are-twtxt.txt | grep -v '^niplav ' | field 2 | xargs curl ^/dev/null | grep niplav` here we go
 2021-01-10T14:07:17.000000Z	I should probably just add a `mentions` command to txtnish
 2021-01-10T14:20:12.000000Z	New post: https://niplav.github.io/toy_ai_takeoff_model.html.
-2021-01-11T09:06:25.000000Z	Oedipedia
 2021-01-11T09:06:34.000000Z	Care less about organic food
 2021-01-12T16:03:55.000000Z	gf that is actually just function composition disguised as your romantic partner
 2021-01-13T11:29:19.000000Z	DSA DSA=Democratic Socialists of America decisive strategic advantage
@@ -283,7 +260,6 @@
 2021-01-15T21:04:25.000000Z	@<adi https://twtxt.net/user/adi/twtxt.txt> “@niplav What kind of _thinking_?” Nearly everything, I guess? More concretely: What falls into the category of whatever spans {deciding where to sit, deciding whether to blame someone else for something, catching a ball, picking a good career, proving a theorem}.
 2021-01-15T21:06:14.000000Z	Riffing off of Mechtild of Magdeburg, yes, sex may be a mystical act towards god, but it's a blind idiot alien god :-^
 2021-01-15T21:08:28.000000Z	@<adi https://twtxt.net/user/adi/twtxt.txt> “@niplav What kind of _thinking_?” Leaning towards explicit abstract reasoning, though, if I would be pressed.
-2021-01-18T15:31:02.000000Z	Memetic algorithms are a thing! [Moscato and Cotta 2010]. Wonderful
 2021-01-18T21:45:53.000000Z	I'm slightly concerned by the selection pressure against meditation
 2021-01-18T22:32:58.000000Z	US declining quickly, europe slowly?
 2021-01-19T00:40:59.000000Z	https://twitter.com/JgaltTweets/status/1351231569055383554 :-(
@@ -313,7 +289,6 @@
 2021-01-25T11:30:51.000000Z	other weird thing: while cutting my nails a few weeks back (and accidentally cutting into the flesh of my toes), my visual field very quickly disappeared, flashed white, and reappeared. the whole thing took maybe 0.2 seconds. what was that?
 2021-01-25T11:38:45.000000Z	see the dank world
 2021-01-25T11:40:46.000000Z	seeing EA/LW people date each other dramatically reduces my confidence in them being successful at truth-seeking
-2021-01-25T11:42:51.000000Z	niplav yushtun, whose map is not the territory
 2021-01-25T14:32:46.000000Z	oh, you meditate? note every sensation then
 2021-01-25T14:34:27.000000Z	If the evolution of human-level intelligence is a great filter, then neat AI seems a bit more likely
 2021-01-25T14:34:53.000000Z	Ich werde eure Jachten anzünden und eure scheiß Ferraris in die Luft jagen.
@@ -338,7 +313,6 @@
 2021-01-25T14:44:07.000000Z	Is there a german word for the situation where somebody jokingly asks for the german word for an obscure phenomenon, and some Germans half-ironically half-sincerely trying to come up with words to describe the phenomenon?
 2021-01-25T14:44:27.000000Z	Whatever the question, despair is not the answer.
 2021-01-25T14:44:34.000000Z	Intellectualize your problems so you will become bored of them.
-2021-01-25T14:45:24.000000Z	Australien kaputt
 2021-01-25T17:15:11.000000Z	sorry for the twtstorm o.o
 2021-01-25T18:46:42.000000Z	@<vain https://www.uninformativ.de/twtxt.txt> “I don’t know. But you got me.” <3
 2021-01-26T09:29:25.000000Z	note to self: don't go to the bay
@@ -463,9 +437,6 @@
 2021-02-25T10:21:35.000000Z	Simp-lifying
 2021-02-25T10:21:43.000000Z	Tran-Skript
 2021-02-25T10:21:52.000000Z	Working hours are not about work, they're about class warfare.
-2021-02-25T10:22:29.000000Z	brahmaviha-rat
-2021-02-25T10:24:57.000000Z	a twitching robot, if you will
-2021-02-25T10:27:48.000000Z	morning larks like breakfast more?
 2021-02-25T10:28:12.000000Z	Men care more than women about longevity?
 2021-02-25T10:28:34.000000Z	The automatic mental cut between “I believe this” and “I have to say this”
 2021-02-25T10:30:05.000000Z	rationalist who is cryocrastinating
@@ -485,7 +456,6 @@
 2021-03-03T23:46:41.000000Z	aversion to carrying out actions that increase my prediction error
 2021-03-03T23:46:57.000000Z	e.g. editing a text – I thought i was done with it!
 2021-03-03T23:54:37.000000Z	when forecasting, babble 10 unexpected things that might derail the forecast
-2021-03-05T09:20:33.000000Z	it's fascinating (and by that i mean dumb) that we still use signatures written with pens to sign documents instead of signing them with private keys like civilized people.
 2021-03-05T21:22:38.000000Z	look at me! Im Moldbug! I want to appoint $PROGRESSIVE_ICON as king/queen!
 2021-03-05T21:39:36.000000Z	@(frogorbits.com) @<niplav https://niplav.github.io/twtxt.txt> "I sign a lot less stuff these days now that my phone can pretend to be a credit card. Also: an impostor with a quantum computer can’t pretend to  sign documents on my behalf…" -> It's good that pen signatures are completely unfakeable. They're unbelievably reliable. We can't just copy & photoshop around the edges. Better worry about those definitely-soon-to-exist quantum computers that might crack cryptography.
 2021-03-05T21:39:58.000000Z	@(frogorbits.com) I hope that didn't come off too mean :-/
@@ -505,7 +475,6 @@
 2021-03-24T21:14:22.000000Z	epistemic status: taking semi-jokes seriously) “irrationalism” would be a much much better name than “rationalism”: it sounds more humble (and this _is_ important to the outside world, name not yet taken, and it carries in it a very central point of bayrat thinking (namely, that humans are extremely irrational). Other idea: “adrationalism”: “towards rationality”
 2021-03-24T21:18:54.000000Z	@<jlj https://twt.nfld.uk/user/jlj/twtxt.txt> "@niplav (#<xvbnyma https://twt.nfld.uk/search?tag=xvbnyma>) Fascinating. :-) Suspect #<RMS https://twt.nfld.uk/search?tag=RMS> would have a violent physical reaction -- accompanied by some salty language -- after even a moment's  contemplation of life under such complicity. :-D" -> He is a very unreasonable man <3
 2021-03-25T10:17:49.000000Z	 
-2021-03-27T12:41:58.000000Z	the mental motion that is equivalent to the physical motion you make when you expel residual fluid out of your urethra
 2021-03-28T09:40:08.000000Z	Be as honest to other people as you expect them to be to you.
 2021-03-28T09:40:34.000000Z	That way, you can create pockets of honesty, while still succeeding when dishonesty is necessary.
 2021-03-28T09:48:17.000000Z	subsumption lattices in the water supply
@@ -560,8 +529,6 @@
 2021-04-27T13:41:15.000000Z	I can often distinguish sympathetic mockery from sneering mockery, even with relatively litlte context. I wonder why – what am I picking up on? What is the distinct way of making fun of someone you actually like vs. don't like?
 2021-04-28T09:32:50.000000Z	fake space
 2021-04-28T09:33:01.000000Z	fake liminal space
-2021-04-28T11:44:31.000000Z	in meditation, the only standard one _can_ set for ones own performance is ones own.
-2021-04-28T17:34:48.000000Z	ratiome
 2021-04-30T13:55:10.000000Z	every permutation is a bijection, not every bijection is a permutation. this wasn't obvious to me!
 2021-05-01T23:27:49.000000Z	pïti streaming into the sky!
 2021-05-02T00:15:39.000000Z	FreeBSDitties
@@ -656,7 +623,6 @@
 2021-06-29T21:37:05.000000Z	MFTOC
 2021-06-29T21:37:10.000000Z	MFTOM
 2021-06-29T21:39:11.000000Z	carteography
-2021-06-29T21:40:13.000000Z	looking forward to the moment when i can first smack someone with my copy of Grand Futures because they're being an annoying pseudo-primitivist – the satisfying sound of a thousand pages of industrial strength paper against their weak biological skull
 2021-06-29T21:42:29.000000Z	approached a girl on saturday. the approach itself was nothing special, & i got rejected as expected. BUT I know understand what all those guys mean with femininity. this girl was dripping with it. she even gave me a compliment (“you have beautiful eyes”) after rejecting me. damn
 2021-06-29T22:45:58.000000Z	excess wealth spent on addiction or sex
 2021-06-29T22:46:06.000000Z	(mostly)
@@ -723,7 +689,6 @@
 2021-08-10T14:45:28.000000Z	children are also just self-replicating probes
 2021-08-10T17:10:25.000000Z	what,,, you are trying to do good? how about I complain about you wanting to do good, and accuse you of being evil, even though on further questioning I would agree your actions are at worst net-zero?
 2021-08-10T23:25:46.000000Z	https://pbs.twimg.com/media/E8W9k1SXoA8Khmf?format=jpg&name=4096x4096
-2021-08-10T23:48:54.000000Z	at some point you realise that david pearce is right about everything, nick cammarata is right about everything, andrés gomez emilsson is right about everything.
 2021-08-11T13:25:51.000000Z	lol, just realised that standard AI risk is just environmental disaster risk amped up to 10^(10^10), only that the direct perpetrator isn't humanity (we're only the proximate perpetrator). huh
 2021-08-15T23:02:59.000000Z	on the other hand, induction has also never worked before for anti-inductionists, so they might try it.
 2021-08-17T06:54:18.000000Z	maybe elites appear incompetent because they're mostly trying to prevent AI disaster behind the curtains? perhaps that's why GPT-4 hasn't appeared yet – they coordinated not to do it.
@@ -737,9 +702,6 @@
 2021-08-28T22:08:09.000000Z	guy who can't use a twitter account responsibly
 2021-08-28T22:09:50.000000Z	joule supremacy
 2021-08-28T22:10:46.000000Z	bigword bigwords bigword2
-2021-08-28T22:50:55.000000Z	foq: (ten to the) fifty-one QALYs
-2021-08-28T22:51:27.000000Z	we probably have a kilofoq of value in this universe, probably more (https://arbital.com/p/cosmic_endowment/)
-2021-08-28T23:08:36.000000Z	gigapearce
 2021-08-29T20:47:54.000000Z	really mad about the death of the FAQ
 2021-08-29T20:48:33.000000Z	father (pointing at night sky): one day this all will be yours, son.
 2021-08-29T20:48:55.000000Z	yes, I'm in favour of a combination of fusion power and solar (dyson sphere)
@@ -808,29 +770,6 @@
 2022-01-14T11:59:26.000000Z	[coherent & sensible screaming]
 2022-01-14T17:01:25.000000Z	professor gives us data in a dxn ndarray, where d is the number of features and n is the num of datapoints. r-worded
 2022-01-14T17:02:20.000000Z	i wonder whether this is to teach us about the r-wordedness of data in the real world.
-2022-01-15T14:09:58.000000Z	my problem with animism is that it's too anthropocentric
-2022-01-15T14:52:45.000000Z	contemplating what i must have done right to end up in this moment
-2022-01-15T14:53:05.000000Z	the awareness will continue to expand until the morale improves
-2022-01-16T04:23:20.000000Z	all your bayes are belong to us
-2022-01-16T04:38:46.000000Z	You have no chance to update make your time.
-2022-01-16T05:13:13.000000Z	my kink is people calling me “anon” during sex
-2022-01-16T05:24:11.000000Z	The stories and information posted here are artistic works of fiction and falsehood. Only a fool would take anything posted here as fact.
-2022-01-16T05:55:51.000000Z	mARLEBCAKEALSOTHEGAME
-2022-01-16T08:00:19.000000Z	#sobsquad
-2022-01-16T08:00:59.000000Z	for the love of god i really hope that insects can't suffer
-2022-01-16T08:59:53.000000Z	cities lack places where you can go and scream very loudly
-2022-01-16T09:00:08.000000Z	i am awesome because i can play the Piano
-2022-01-16T09:00:23.000000Z	(after receiving lessons for ~14 years, but that's not important right now)
-2022-01-16T10:06:24.000000Z	heterotic string theory pun, knock yourself out
-2022-01-17T12:10:00.000000Z	A: “i should be stealing twin babies and giving them up for adoption to advance social science.” B: “fraternal or identical twins?”
-2022-01-17T13:09:38.000000Z	if something is strictly more intelligent than you, you can't predict how much more intelligent it could be
-2022-01-17T13:12:49.000000Z	degenewussy
-2022-01-17T13:27:21.000000Z	schein mir in die augen, kleines
-2022-01-17T18:40:12.000000Z	the bron-kerbosch algorithm
-2022-01-17T18:40:20.000000Z	the cocke-younger-kasami algorithm
-2022-01-17T18:41:05.000000Z	the hindley-milner algorithm
-2022-01-17T21:04:18.000000Z	disappointed beyond measure that payer doesn't mean “to country” in french
-2022-01-17T21:12:35.000000Z	petasus, petasī: not a type of horse
 2022-01-18T10:11:02.000000Z	snicean relevance gnorms
 2022-01-18T11:20:51.000000Z	The Computing Amish vs. Computing Scientology: The Final Showdown
 2022-01-18T13:05:47.000000Z	EXPLAIN GAUSSIAN PROCESSES TO ME OR I'LL FUCKING KILL YOU I'LL WHY THE FUCK HOW THE FUCK CAN IT BE A DISTRIBUTION OVER FUNCTIONS SO THAT THE JOINT DISTRIBUTION FOR OUTPUTS IS GAUSSIAN
@@ -863,9 +802,6 @@
 2022-01-25T13:04:33.000000Z	TIL that there's no flag emoji, there are “regional indicator symbols”, which are basically letters that are combined into two-letter codes for countries.
 2022-01-26T17:59:52.000000Z	today i gave a guy with a great beard a compliment. ~10 minutes later he spotted me, walked up to me and gave me a protein shake :-D
 2022-01-26T18:15:42.000000Z	get yourself a girl who can pronounce the name of halley's comet correctly
-2022-01-29T22:57:06.000000Z	guy who insists on the disticnion between corporatism and corporatocracy
-2022-01-29T22:57:54.000000Z	guy who says “beginning of this century” when referring to the aughts, and “last century”
-2022-01-29T23:46:02.000000Z	it's good that masculinity is in crisis. where else should it be‽
 2022-01-30T00:16:04.000000Z	the heart say “no”, the spleen says “hey ;-)”
 2022-01-30T18:00:45.000000Z	every copy of Jensen's inequality is personalized
 2022-01-30T18:01:14.000000Z	Jensen's inequality (black market edition)
@@ -900,9 +836,6 @@
 2022-02-06T17:31:16.000000Z	melting face is great too
 2022-02-06T18:04:32.000000Z	rijndaelites
 2022-02-06T21:38:13.000000Z	the adiabatic sutra, the inframeasure sutra, the acausal sutra
-2022-02-06T21:42:24.000000Z	i think india is actually the source of written religions. seriously, the tripitaka is so gigantic (50 volumes) that it hasn't been completely translated *until this day* (acessintoinsight.org summarizing it with the words “if you want to read the whole tripitaka, you'll have to learn pali”), and i can't find a description of how long the vedas are (except the 20379 mantras figure on wikipedia, which would be ~10,000 pages judging from the length of a mantra in the incomplete pdfs i've found online). a shelf copy of the mahabharata takes up 10 volumes
-2022-02-06T22:40:10.000000Z	apparently the tibetan canon is *checks* 73 million words long. which would be 173,000 pages. yea
-2022-02-06T22:43:53.000000Z	i think if wikipedia says that the chinese buddhist canon is 52,382,960 characters long, that would be around 50,000,000 words. mental
 2022-02-06T22:53:01.000000Z	there are two types of panpsychism, and they can be distinguished by asking “if i shatter this glass, will it feel pain?”. one answers "yes", the other answers "no clue, but probably not"
 2022-02-07T03:15:36.000000Z	Wikipedia article on Banach spaces: “Maurice René Fréchet was the first to use the term »Banach space« and Banach in turn then coined the term »Fréchet space.«” that is very cute.
 2022-02-07T10:55:45.000000Z	deep taylor decomposition ;-)
@@ -999,7 +932,6 @@
 2022-03-10T23:26:35.000000Z	frankensteinian linguistics
 2022-03-10T23:41:38.000000Z	𒉌𒉺𒆷 𒍑𒌅𒉈
 2022-03-12T19:59:41.000000Z	https://www.lesswrong.com/posts/34Gkqus9vusXRevR8/late-2021-miri-conversations-ama-discussion?commentId=PYHHJkHcS55ekmWEE (!!!!!!)
-2022-03-13T00:21:34.000000Z	Niplav Yushtun™: Ethics in Games Journalism and Beyond
 2022-03-13T00:28:06.000000Z	Curtis Yarvin orchestrated gamergate to see if he could
 2022-03-14T12:56:15.000000Z	apparently i have LOST ANOTHER 3 KILOGRAMS WHAT IS GOING ON I EXERCISE LIKE 3 HOURS A WEEK AND EAT LIKE A BEAR AND A TIGER
 2022-03-15T10:04:21.000000Z	Montmartre-Paris+New York=?
@@ -1090,7 +1022,6 @@
 2022-04-02T21:38:52.000000Z	all linear programming is integer linear programming if you try hard enough
 2022-04-03T19:35:52.000000Z	ahhhhh pdfs with columns aaahhhh
 2022-04-04T12:45:39.000000Z	squiggle number one
-2022-04-04T12:46:02.000000Z	in the community of people who adore the music of patricia taxxon, i'm probably an extreme outlier—not a furry, or queer in any way, maybe even anti-queer bc of daygame, sort-of  liberaltarian, no mental illness, etc. If she ever gives a concert (as if), I'm going to feel odd being there
 2022-04-04T13:15:20.000000Z	“there's still canyons worth of work this winter”
 2022-04-04T16:06:05.000000Z	okay, so here's a claim: axes of personal development à la Kegan are in principle orthogonal to meditative attainments
 2022-04-04T17:55:23.000000Z	the elephant seal in the brain
@@ -1653,7 +1584,6 @@
 2023-02-04T20:51:46.000000Z	here's a question: when do NNs generalize, and how hard? as in adding two specific numbers together vs. n-digit integer addition vs. addition in general vs. simple arithmetical operations
 2023-02-05T01:06:24.000000Z	image of the man in the blue overall “I like the schizo Altman arc”
 2023-02-05T21:27:39.000000Z	2 BIT ENTER! 1 BIT LEAVES! — the THUNDERNOR
-2023-02-06T01:58:59.000000Z	ethics is a non-recusive self-improving optimization process
 2023-02-06T02:51:29.000000Z	humans are good at compartmentalising, but the humans who are good at compartmentalising are usually not very good at thinking.
 2023-02-08T22:44:16.000000Z	hitler having been a furry makes kabbalistic sense: adolf (noble wolf) hitler (one who lives in a hut)
 2023-02-09T21:13:08.000000Z	the most galaxybrained argument for the least galaxybrained conclusion: https://forum.effectivealtruism.org/posts/7MdLurJGhGmqRv25c/multiverse-wide-cooperation-in-a-nutshell
@@ -1770,14 +1700,3 @@
 2023-07-19T11:06:47.000000Z	are there any other industries in which we apply a similar safety standard as training of large neural networks? the closest that comes to my mind is animal husbandry, but I think we understand the genetics of that better than we understand neural networks, and don't apply ever-more increasing optimization power to it. (although, to be fair, when humans began husbandry they understood it far less)
 2023-07-19T14:22:03.000000Z	lol @ the nauty source code: some functions are >1k lines long
 2023-07-22T11:18:55.000000Z	output format of AI systems doing alignment research (formal proof, set of heuristics, set of algorithms…)? AI systems will align their successor systems, repeatedly. Unless this process has 100% fidelity, errors in the alignment process will compound over time, similar to numerical instability. Similar to numerical analysis, could we make a useful statement about the “condition number” of this repeated alignment process?
-2023-07-22T11:45:04.000000Z	And last but not least: Contests such as the underhanded C contest show that it is quite easy in sufficiently expressive formal systems) to create malicious outputs with high plausible deniability. Since training ML systems is even more expressive than that, the existence of such successful contests seems worrying
-2023-07-28T20:54:54.000000Z	transtem
-2023-07-28T20:55:35.000000Z	distem, tetratem, extem, anatem, katatem, metatem, mesatem
-2023-07-30T21:29:33.000000Z	“making infinite use of finite means”
-2023-07-31T20:42:44.000000Z	Gwern must feel so lonely up there
-2023-08-01T01:16:57.000000Z	s h o r t t o r s o
-2023-08-02T23:13:40.000000Z	The problem with the Repugnant Conclusion in UDASSA is that you run out of low-complexity creatures to occupy the short programs with
-2023-08-14T10:23:11.000000Z	hi ate us
-2023-08-18T01:35:19.000000Z	georgism will fix everything people — conditional prediction markets fix everything people — daygame fixes everything people
-2023-09-04T22:03:20.000000Z	asteriskarianism
-2023-09-05T07:40:37.000000Z	“everything is compression” is wrong, as it ought to be “everything is compression and execution”
