@@ -224,7 +224,6 @@ name for the character that is only one syllable long:
 * | bar (or)
 * & and
 * " quote
-* = is
 * $ cash
 * - dash
 
@@ -242,6 +241,7 @@ Not sure:
 * ; then
 * : so
 * ' say
+* = is
 
 Asymmetries in Languages
 -------------------------
@@ -278,6 +278,7 @@ Types of Guy
 * guy who takes MDMA at a techno rave and says “so this is what it's all about”, but not just about raving culture, but, like, life in general
 * guy who meets his spouse in the metaculus comments
 * guy who, when he hears someone mention SARS, thinks of deep Q-learning
+* guy who takes up daygame again because of the transferrable skills
 
 ### Of Rationalist
 
@@ -535,6 +536,8 @@ Missing Emoji
 --------------
 
 * Shovel
+* Whistling face
+* Face with red eyes
 * Grim determination
 * Sad smile
 * Suspicious squint

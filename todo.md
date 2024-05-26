@@ -123,14 +123,6 @@ Existing Texts
 		* <https://en.wikipedia.org/wiki/Pornography>
 		* /usr/local/doc/unread/blackpill/physical\_attractiveness\_research\_adams\_1977.pdf
 		* /usr/local/doc/unread/sexual\_activity\_is\_inversely\_related\_to\_womens\_perceptions\_of\_male\_facial\_attractiveness\_hess\_et\_al\_2007.pdf
-* Daygame Cost-Benefit Analysis
-	* Incorporate new daygame stats from blogs
-	* Adjust curve to fit Roy Walker & Thomas Crown data better
-		* use `scipy.optimize.curve_fit`
-	* different diminishing returns in code, make all logarithmic/radical/hyperbolic?
-	* Expand or axe Fixed Costs & Variable Costs section
-	* Create & explain Guesstimate Models
-	* Upload data to Appendix C
 * Turning
 	* Enumerating different ways of collapsing graphs representing inconsistent preferences into consistent preferences
 		* E.g. a>b>c>a must be cut in one place, pretty much indifferent about where to cut?
@@ -235,9 +227,6 @@ Texts
 				* companies pull away capable researchers to work on private projects
 		* Large amounts of compute generate CO₂ (or, in the case of using green energy, counterfactually increase the price of green energy, leading to people (in expectation) purchasing more non-green energy)
 	* More generally Overlap between Effective Altruism and the Social Left?
-* Scaling Laws Under Different Activation Functions
-	* What are the scaling laws for ReLUs vs. sigmoids?
-	* Another datapoint on slow/fast takeoff
 * Repurposing honeypots for AI safety?
 * Kitchen sink versus integrated AI alignment
 * The Relation Between Corrigibility and Impact Measures
@@ -471,7 +460,6 @@ Texts
 	* Distinction between removing negatives/adding positives in method and in topic selection ("How can I solve this thing?" versus "What should I focus on?") (see negative versus positive utilitarianism)
 	* See also upwing versus downwing (hat-tip FM-2030 via. John David Pressman)
 * Given No Singularity, Mars Colonization Soon is Unlikely, but Asteroid Mining Looks Promising
-* In Nearly Complete Defense of The Last Jedi
 * The Anti-Myopia argument for the dignity prior depends on myopia never being the right course of action
 	* Or, shorter: The Anti-Myopia Argument For The Dignity Prior Has A Questionable Premise
 	* Better arguments come from semi-open-source game theory and ethical injunctions
@@ -484,11 +472,6 @@ Texts
 	* Argument: Metrics can be Goodharted. Answer: "A solution is technical if it is precise enough to be Goodharted and social if it is imprecise enough to be used to coalitionally extract value"
 * E/acc in a Bathtub-Sized Nutshell
 * An Anti E/acc FAQ
-* Why Not Prepping?
-
-> [lcamtuf 2018](https://lcamtuf.coredump.cx/prep/ "Disaster planning for regular folks")
-distinguishes between three different kinds of disaster scenarios:
-small-scale events, mass calamities, and the "zombie apocalypse".
 
 #### Contra
 
@@ -669,9 +652,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* Safety
 		* Ability preservation
 		* Anti-slipperiness
-* Describe and write some code for the n-polytopal conjecture
-	* Just generalise Pollock's polyhedral conjecture for n-dimensional polytopes
-	* Also try to prove the case for triangular numbers first to get a feel for it?
 * Try to find subway pollution levels in LOCAL\_CITY
 * Expected value of plastic surgery for men (jaw augmentation)
 	* Daygame test! Daygame test!
@@ -749,7 +729,6 @@ small-scale events, mass calamities, and the "zombie apocalypse".
 		* This is possibly just the ordinal numbers
 	* Mendeljew Operator
 	* Supersymmetric Copying
-* Preference Frustration Auctions
 * The Tyranny of the Mill
 	* The Hedonic Treadmill is very good & very bad
 * Writing system based on all binary trees with maximal height 2
@@ -1660,14 +1639,6 @@ produces
 	* Also package that integrates it with `vis`
 	* Specific vis package for Wikipedia titles
 		* With sections?
-
-### Languages to Learn
-
-* Myrddin
-* Scheme
-* SML
-* Forth
-* Prolog
 
 Wikipedia Articles
 -------------------

@@ -44,8 +44,8 @@ I now believe this cost-benefit analysis to be flawed, mostly because
 I assume an [opportunity cost](#Approaching_Opportunity_Cost) that is
 too low, and various smaller issues.
 
-I plan on revisiting this text, but for now proceed with caution and
-skepticism towards the numbers.
+I am currently revisiting this text, but for now proceed with caution
+and skepticism towards the numbers.
 
 ------------
 

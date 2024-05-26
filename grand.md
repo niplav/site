@@ -596,3 +596,8 @@ Missing period at the end of the sentence.
 galaxies appear far more dust-free than inside galaxies
 
 Should be "appears" instead of "appear".
+
+#### 10.7.2
+
+> As the settlement wave progresses initial conditions matter**s**
+less as it approaches an asymptotic form.

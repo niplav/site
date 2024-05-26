@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-05-11, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-05-17, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1479,11 +1479,12 @@ Counter-examples<!--TODO: describe ideal gas laws-->:
 * [Jevons paradox](https://en.wikipedia.org/wiki/Jevons_paradox)
 * [Wirth's law](https://en.wikipedia.org/wiki/Wirth's_law)
 * [Peter principle](https://en.wikipedia.org/wiki/Peter_principle)
+* [Streisand effect](https://en.wikipedia.org/wiki/Streisand_Effect)
 
-Actually, which is "more true": Zeyneps razor or Jevons paradox? Perhaps
-one could pick 10 past interventions/cheapenings at random, and
-investigate whether efficiency or safety gains were outweighed by
-rebound effects.
+Actually, which is "more true": Zeyneps razor or the
+counter-examples? Perhaps one could pick 10 past interventions/cheapenings
+at random, and investigate whether efficiency or safety gains were
+outweighed by rebound effects.
 
 Favorite Quanta Magazine Articles
 ----------------------------------
@@ -1996,6 +1997,7 @@ How does this relate to
 [data=code](https://wiki.c2.com/?DataAndCodeAreTheSameThing)?
 
 <!--TODO: check with brainfuck-->
+<!--TODO: prove or disprove that this is a metric-->
 
 [^1]: Actually not explained in detail anywhere, as far as I can tell.
 [^2]: Suggested by GPT-4. Stands for [joining, combining, uniting](https://en.wiktionary.org/wiki/%E5%90%88#Definitions). Also "to suit; to fit", "to have sexual intercourse", "to fight, to have a confrontation with", or "to be equivalent to, to add up".
