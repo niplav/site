@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-05-20, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-05-27, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,28 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Luck based medicine: my resentful story of becoming a medical miracle (Elizabeth, 2022)](https://www.lesswrong.com/posts/fFY2HeC9i2Tx8FEnK/luck-based-medicine-my-resentful-story-of-becoming-a-medical)
+* [Tyranny of the Epistemic Majority (Scott Garrabrant, 2022)](https://www.lesswrong.com/posts/o3RLHYviTE4zMb9T9/tyranny-of-the-epistemic-majority)
+* [AI firms mustn’t govern themselves, say ex-members of OpenAI’s board (Helen Toner/Tasha McCauley, 2024)](https://archive.is/wbwC2)
+* [Humans aren't fitness maximizers (Nate Soares, 2022)](https://www.lesswrong.com/s/v55BhXbpJuaExkpcD/p/CzrF5rsJWvccFdemb)
+* [Where I currently disagree with Ryan Greenblatt’s version of the ELK approach (Nate Soares, 2022)](https://www.lesswrong.com/s/v55BhXbpJuaExkpcD/p/LBzFCPbG5s95mf43M)
+* [Brainstorm of things that could force an AI team to burn their lead (Nate Soares, 2022)](https://www.lesswrong.com/s/v55BhXbpJuaExkpcD/p/p3s8RvkcyTwzu27ps)
+* [Article 14: Human Oversight (Eruopean Commission, 2024)](https://artificialintelligenceact.eu/article/14/)
+* [Article 13: Transparency and Provision of Information to Deployers (European Commission, 2024)](https://artificialintelligenceact.eu/article/13/)
+* [rough draft on what happens in the brain when you have an insight (Emrik, 2024)](https://www.lesswrong.com/posts/jmqJvJ2SSLR4bvtCp/rough-draft-on-what-happens-in-the-brain-when-you-have-an)
+* [Article 9: Risk Management System (European Commission, 2024)](https://artificialintelligenceact.eu/article/9)
+* [RFC 2119 (Scott Bradner, 1997)](https://www.rfc-editor.org/rfc/rfc2119)
+* [Luck based medicine: my resentful story of becoming a medical miracle (Elizabeth, 2022)](https://www.lesswrong.com/posts/fFY2HeC9i2Tx8FEnK/luck-based-medicine-my-resentful-story-of-becoming-a-medical)
+* [Tyranny of the Epistemic Majority (Scott Garrabrant, 2022)](https://www.lesswrong.com/posts/o3RLHYviTE4zMb9T9/tyranny-of-the-epistemic-majority)
+* [AI firms mustn’t govern themselves, say ex-members of OpenAI’s board (Helen Toner/Tasha McCauley, 2024)](https://archive.is/wbwC2)
+* [Humans aren't fitness maximizers (Nate Soares, 2022)](https://www.lesswrong.com/s/v55BhXbpJuaExkpcD/p/CzrF5rsJWvccFdemb)
+* [Where I currently disagree with Ryan Greenblatt’s version of the ELK approach (Nate Soares, 2022)](https://www.lesswrong.com/s/v55BhXbpJuaExkpcD/p/LBzFCPbG5s95mf43M)
+* [Brainstorm of things that could force an AI team to burn their lead (Nate Soares, 2022)](https://www.lesswrong.com/s/v55BhXbpJuaExkpcD/p/p3s8RvkcyTwzu27ps)
+* [Article 14: Human Oversight (Eruopean Commission, 2024)](https://artificialintelligenceact.eu/article/14/)
+* [Article 13: Transparency and Provision of Information to Deployers (European Commission, 2024)](https://artificialintelligenceact.eu/article/13/)
+* [rough draft on what happens in the brain when you have an insight (Emrik, 2024)](https://www.lesswrong.com/posts/jmqJvJ2SSLR4bvtCp/rough-draft-on-what-happens-in-the-brain-when-you-have-an)
+* [Article 9: Risk Management System (European Commission, 2024)](https://artificialintelligenceact.eu/article/9)
+* [RFC 2119 (Scott Bradner, 1997)](https://www.rfc-editor.org/rfc/rfc2119)
 * [Expanding the domain of discourse reveals structure already there but hidden (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/05/expanding-domain-of-discourse-reveals.html)
 * [Don't leave your fingerprints on the future (Nate Soares, 2022)](https://www.lesswrong.com/s/v55BhXbpJuaExkpcD/p/DJRe5obJd7kqCkvRr)
 * [Warning Shots Probably Wouldn't Change The Picture Much (Nate Soares, 2022)](https://www.lesswrong.com/s/v55BhXbpJuaExkpcD/p/idipkijjz5PoxAwju)
