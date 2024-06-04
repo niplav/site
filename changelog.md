@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2024-05-01, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2024-06-03, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -25,6 +25,30 @@ content.
 
 May 2024
 ---------
+
+> the deeds of reality are just as inane and childish [as dreams],
+and even more absurd because their actors persist in fancying them
+full of meaning and purpose as the blind cosmos grinds aimlessly on
+from nothing to something and from something back to nothing again,
+neither heeding nor knowing the wishes or existence of the minds that
+flicker for a second now and then in the darkness.
+
+*—[H. P. Lovecraft](https://en.wikipedia.org/wiki/Howard_Philips_Lovecraft), “The Silver Key”, 1929*
+
+I haven't written anything of import on the site this month.
+
+(Adult life has finally caught up with me.)
+
+I might put the changelog on hiatus until end of
+August<sub>50%</sub><!--TODO: fatebook prediction-->.
+
+### Links
+
+Also not that much reading this month.
+
+* [Sending a message to the future (Paul Christiano, 2018)](https://sideways-view.com/2018/06/07/messages-to-the-future/)
+* [Interrocolon (xefer, 2008)](https://xefer.com/2008/03/interrocolon)
+* [Tyranny of the Epistemic Majority (Scott Garrabrant, 2022)](https://www.lesswrong.com/posts/o3RLHYviTE4zMb9T9/tyranny-of-the-epistemic-majority)
 
 April 2024
 -----------

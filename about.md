@@ -468,7 +468,7 @@ but rather cycles).
 * [Skaði þjazidottir](https://ulthar.xyz): Gather some stoic people with guns, who have written low-level code
 * [Nyx](https://nyxus.xyz/): Brightly empathetically menacing (we all know she's just joking)
 * [Andrew McKenzie](http://andrewtmckenzie.com/), who writes essays on brain preservation [here](http://andrewtmckenzie.com/) and notes on neurobiology [here](https://neurobiology.substack.com/)
-<!--TODO: add harsimony, 1a3orn, etale.site?-->
+<!--TODO: add harsimony, 1a3orn, etale.site, mesaoptimizer, matthew baggins?-->
 
 The Author
 ----------

@@ -1834,14 +1834,14 @@ Moved to [a separate post](./cause.html).
 AI Safety Via Debate Links
 ---------------------------
 
-* [Scalable AI Safety via Doubly-Efficient Debate (2023)](https://arxiv.org/pdf/2311.14125.pdf)
 * [AI Safety Via Debate (2018)](https://arxiv.org/abs/1805.00899)
+* [Writeup: Progress on AI Safety via Debate (2020)](https://www.alignmentforum.org/posts/Br4xDbYu4Frwrb64a/writeup-progress-on-ai-safety-via-debate-1)
+* [Debate update: Obfuscated arguments problem (2020)](https://www.alignmentforum.org/posts/PJLABqQ962hZEqhdB/debate-update-obfuscated-arguments-problem)
+* [Why I'm excited about Debate (2021)](https://www.alignmentforum.org/posts/LDsSqXf9Dpu3J3gHD/why-i-m-excited-about-debate)
 * [Single-Turn Debate Does Not Help Humans Answer Hard Reading-Comprehension Questions (2022)](https://arxiv.org/abs/2204.05212)
 * [Two-Turn Debate Doesn't Help Humans Answer Hard Reading Comprehension Questions (2022)](https://arxiv.org/abs/2210.10860)
+* [Scalable AI Safety via Doubly-Efficient Debate (2023)](https://arxiv.org/pdf/2311.14125.pdf)
 * [Anthropic Fall 2023 Debate Progress Update (2023)](https://www.alignmentforum.org/posts/QtqysYdJRenWFeWc4/anthropic-fall-2023-debate-progress-update)
-* [Debate update: Obfuscated arguments problem (2020)](https://www.alignmentforum.org/posts/PJLABqQ962hZEqhdB/debate-update-obfuscated-arguments-problem)
-* [Writeup: Progress on AI Safety via Debate (2020)](https://www.alignmentforum.org/posts/Br4xDbYu4Frwrb64a/writeup-progress-on-ai-safety-via-debate-1)
-* [Why I'm excited about Debate (2021)](https://www.alignmentforum.org/posts/LDsSqXf9Dpu3J3gHD/why-i-m-excited-about-debate)
 * [Debating with More Persuasive LLMs Leads to More Truthful Answers (2024)](https://arxiv.org/pdf/2402.06782.pdf)
 
 I'll check more at [the LessWrong
