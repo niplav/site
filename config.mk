@@ -92,6 +92,7 @@ HTML=index.html \
 	quality.html \
 	range_and_forecasting_accuracy.html \
 	rationalist_gods.html \
+	resolving.html \
 	senryu.html \
 	sites.html \
 	spans.html \

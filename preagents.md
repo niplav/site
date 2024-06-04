@@ -141,6 +141,7 @@ and *highly* opinionated, thus all blame and some praise goes to me.
 These people pushed this project forward, disagreed, were frustrated,
 calmed down, were confused, went silent for a while and then came back:
 Kaarel Hänni, Alexander Gietelink-Oldenziehl, Filip Sondej, Felix Harder.
+I am grateful for their help.
 
 See Also
 ----------
