@@ -461,6 +461,7 @@ of digits on my website changes slightly (since the numbers above are
 part of the website), but it does not reach fixation at some point,
 but rather cycles).
 
+<!--
 ### Friends of the Site
 
 * [Ethan](https://210ethan.github.io): Pure Everests, with careful diligence
@@ -468,7 +469,8 @@ but rather cycles).
 * [Skaði þjazidottir](https://ulthar.xyz): Gather some stoic people with guns, who have written low-level code
 * [Nyx](https://nyxus.xyz/): Brightly empathetically menacing (we all know she's just joking)
 * [Andrew McKenzie](http://andrewtmckenzie.com/), who writes essays on brain preservation [here](http://andrewtmckenzie.com/) and notes on neurobiology [here](https://neurobiology.substack.com/)
-<!--TODO: add harsimony, 1a3orn, etale.site, mesaoptimizer, matthew baggins?-->
+
+TODO: add harsimony, 1a3orn, etale.site, mesaoptimizer, matthew baggins?-->
 
 The Author
 ----------
@@ -534,6 +536,10 @@ Scores (as of 2023-08-05):
 ### Pronouns
 
 I'm most happy with they/them.
+
+### Self-Hiding Agreements
+
+I have not made any self-hiding agreements with any entities.
 
 ### Psychological Characteristica
 

@@ -99,14 +99,6 @@
 2020-11-29T22:08:03.000000Z	Fashion seems to operate on two different timescales: 'high fashion' (?) on ½ or 1 year cycles, and 'macro fashion', which changes on the scale of 5 to 10 years
 2020-11-30T10:14:19.000000Z	https://grahamkarta.bandcamp.com now that's my kind of music
 2020-11-30T10:22:54.000000Z	PSA: SL4≠seL4
-2020-11-30T10:44:33.000000Z	Placebos funktionieren.
-2020-11-30T10:44:45.000000Z	Placebos funktionieren auch dann, wenn Menschen, die Placebos nehmen, wissen, dass es Placebos sind.
-2020-11-30T10:45:00.000000Z	Placebos funktionieren auch dann, wenn Menschen, die Placebos nehmen, wissen, dass Placebos auch dann funktionieren, wenn Menschen, die Placebos nehmen, wissen, dass es Placebos sind.
-2020-11-30T10:45:19.000000Z	Placebos funktionieren auch dann, wenn Menschen, die Placebos nehmen, wissen, dass Placebos auch dann funktionieren, wenn Menschen, die Placebos nehmen, wissen, dass Placebos auch dann funktionieren, wenn Menschen, die Placebos nehmen, wissen, dass es Placebos sind.
-2020-11-30T10:45:49.000000Z	Placebos funktionieren auch dann, wenn Menschen, die Placebos nehmen, wissen, dass Placebos auch dann funktionieren, wenn Menschen, die Placebos nehmen, wissen, dass Placebos auch dann funktionieren, wenn Menschen, die Placebos nehmen, wissen, dass Placebos auch dann funktionieren, wenn Menschen, die Placebos nehmen, wissen, dass es Placebos sind.
-2020-11-30T10:45:56.000000Z	Decision theory ↔ Microeconomics, Game theory ↔ Macroeconomics?
-2020-11-30T10:46:04.000000Z	Opportunitätsmoral
-2020-11-30T10:46:42.000000Z	The upper class unconsciously wages class war against the lower classes through lax social laws, such as deregulation of drugs or teenage sexuality, which upper classes can cope with easily (higher discipline), but lower classes can't (and become criminal/addicted to drugs/pregnant at an early age/drop out of school early). This secures the upper class's position.
 2020-11-30T10:51:56.000000Z	Totraum
 2020-11-30T10:54:00.000000Z	ש (shin). Any connection to Evangelion? It is the letter of fire in kabbalah, apparently :thinking_face:
 2020-11-30T10:54:16.000000Z	There is no correct marxism, but there is a right marxism.
@@ -162,10 +154,7 @@
 2020-12-20T01:58:34.000000Z	I'm back to “tribes are bad”
 2020-12-20T01:59:55.000000Z	As a matter of reconciliation; welp
 2020-12-22T15:18:40.000000Z	https://www.lesswrong.com/posts/xdwbX9pFEr7Pomaxv/meta-honesty-firming-up-honesty-around-its-edge-cases?commentId=rfYQjT8SfzfQPLWYH lel
-2020-12-23T21:57:33.000000Z	To all the people arguing for putting the comma inside the quotation marks: You are nitpicking and biased, I win, bye bye
 2020-12-23T22:10:40.000000Z	@<pbatch (3 days ago)> "that's it. I'm sticking to this txtnish client." Solid choice.
-2020-12-23T22:19:37.000000Z	Current status: High moral/ontologicial/metaphysical/empirical uncertainty. Thus: Relative conservativism, plus progression in direction of more cooperation, increasing option value/attainable utility. More concretely: Prevent wars, prevent extinction, freeze people, don't destroy ecosystems (for now). Possible flaws: Assumes we will be able to coordinate even better in the future. Seems more likely to me than not, but otherwise, flip the whole thing and go exploit on current morality.
-2020-12-23T22:21:21.000000Z	My LW shortform was not appreciated as much as I expected – was I subtly wrong, or did I miss discussion about the choice of TM in Solomonoff induction?
 2020-12-24T14:03:11.000000Z	If you're an average man, my calculation tells me that freezing your sperm & getting a vasectomy is worth ~ in expectation (https://niplav.github.io/notes.html#Vasectomy--Sperm-Freezing-CostBenefit) (in the US, caveat caveat caveat)
 2020-12-24T14:05:57.000000Z	I've always found the 'suicide is selfish' argument weird. Someone is making the most important (and most tragic) decision in their life, and people are talking about themselves?
 2020-12-24T14:17:41.000000Z	Actually, embedded agency is a super good name for a movement, and I could see it replacing the horrid 'rationalism' over time. Plus, 'embags' is a really good abbreviation.
@@ -212,12 +201,6 @@
 2021-01-04T10:20:42.000000Z	Buy some space near the sun, because it's going to be worth a lot when a Dyson sphere gets built.
 2021-01-04T10:21:05.000000Z	Umeshism: If you can follow your own ethical rules, your own ethical rules are not demanding enough.
 2021-01-04T10:21:14.000000Z	Infuriating: With the Euro, 50 ct. coins are bigger than 1€ coins.
-2021-01-04T10:25:30.000000Z	caveet
-2021-01-04T10:26:17.000000Z	the hard problem of matter
-2021-01-04T10:29:19.000000Z	IF YOU BELIEVE A THING, THAT DOESN'T MEAN YOU __HAVE__ TO SAY IT
-2021-01-04T10:29:28.000000Z	BE WILLING TO MAKE BETS
-2021-01-04T10:30:14.000000Z	“You only ever see the map, but you walk the territory.”
-2021-01-04T10:30:43.000000Z	Also, as a reminder, we have noticed the skulls, yes: https://www.lesswrong.com/s/7gRSERQZbqTuLX5re/p/dLbkrPu5STNCBLRjr
 2021-01-05T11:06:18.000000Z	Niplav Yushtun, PhD in Memetodynamics
 2021-01-05T15:59:25.000000Z	Unless the world has been adversarially structured against you, you can do better by just trying. This holds both for bayesianism & consequentialism.
 2021-01-05T16:00:12.000000Z	In other words: you can expect the mistakes you make to be normally distributed around 0 if you're not trying.
@@ -334,12 +317,6 @@
 2021-01-31T15:01:32.000000Z	un-doing not doing non-doing
 2021-02-02T12:40:38.000000Z	yesterdays session: collecting dullness (?, maybe addictive energy is a better name) at the spot where the nose begins between the eyes, then concentrating on it
 2021-02-02T12:41:12.000000Z	felt really tense around a maybe 4cm² area there, slowly disappeared during the sit
-2021-02-02T13:51:14.000000Z	I used aversion factoring yesterday
-2021-02-02T15:52:35.000000Z	masturbyte
-2021-02-02T15:52:41.000000Z	masturbit
-2021-02-02T15:52:46.000000Z	maturyte
-2021-02-02T15:59:42.000000Z	could we build a blockchain which auctions off computing power to companies who wish to solve NP-hard problems as proof of work?
-2021-02-02T21:58:30.000000Z	high effect-size male
 2021-02-03T13:30:43.000000Z	shoot me if i ever say that X should require Educational Attainment Y
 2021-02-04T15:03:45.000000Z	@<iolfree https://tilde.club/~iolfree/twtxt.txt> "I just typed in 'censorship' on pinterest and that is also completely banned." https://i.imgflip.com/1ppi4p.jpg
 2021-02-05T09:50:31.000000Z	how come there's a Hard Problem of Consciousness™, but no hard problem of matter?
@@ -349,11 +326,6 @@
 2021-02-05T10:48:06.000000Z	rationalist ∟ postrationalist
 2021-02-05T10:49:24.000000Z	or, longer: in the cartesian product of the space of minds by their rationality and mind-states by their emotional well-being on the high end the tails may come apart, but they are not anti-correlated
 2021-02-05T11:15:25.000000Z	dislike of editing because it induces a prediction error for believing ”I'm already finished working on this text”
-2021-02-05T14:00:58.000000Z	v_v
-2021-02-05T21:12:03.000000Z	gilgamesh ratfic
-2021-02-05T22:51:28.000000Z	I should fight for slack more.
-2021-02-05T23:38:43.000000Z	paradox of tolerance is self-swallowing?
-2021-02-05T23:39:36.000000Z	what is the popperian stance towards tolerance's stance towards the popperian stance towards tolerance?
 2021-02-06T10:18:52.000000Z	reading
 2021-02-06T10:20:46.000000Z	@prologic “we _should_ fight for IRC more” another slack “Definition: Slack. The absence of binding constraints on behavior.” https://thezvi.wordpress.com/2017/09/30/slack/
 2021-02-06T10:22:57.000000Z	ironically, IRC has more slack than Slack
@@ -391,14 +363,6 @@
 2021-02-15T11:56:02.000000Z	Intelligence is the technology creating technology.
 2021-02-15T11:56:16.000000Z	Either you die a good person, or you get old enough to see yourself turn into an Omohundro monster.
 2021-02-15T11:56:50.000000Z	The wise man bowed his head and said solemnly: "There is in fact no difference between aesthetics and ethics (normativity and morality). You imbecile. You fucking moron."
-2021-02-15T11:56:57.000000Z	Meatculus
-2021-02-15T11:57:11.000000Z	Approval directed behavior in the water supply
-2021-02-15T11:57:19.000000Z	Pareto diversity
-2021-02-15T11:57:29.000000Z	The singular of criteria is criterion goddamnit!
-2021-02-15T11:57:37.000000Z	Some of you haven't read the sequences and it shows.
-2021-02-15T11:58:46.000000Z	Note to self: Use “Eat my shorts” and “Stay fresh, cheese bags” more often.
-2021-02-15T11:59:00.000000Z	At least you can feel good about the counterfactual worlds which are doing really well right now!
-2021-02-15T11:59:46.000000Z	Echochamber of Guf.
 2021-02-16T11:00:36.000000Z	the emotion {≻,~,≺}
 2021-02-16T11:00:55.000000Z	looked better rendered by LaTeX, but whatevs
 2021-02-16T11:20:31.000000Z	naming my eye floaters
@@ -427,25 +391,9 @@
 2021-02-22T10:48:53.000000Z	I get very squeamish when people are insistent on me saying “X is Y”. It's usually a bad sign.
 2021-02-22T10:49:09.000000Z	The epistemic commons are worth protecting. Go and do your signalling with donations or fashion.
 2021-02-24T11:22:12.000000Z	Being rational is virtuous
-2021-02-25T10:18:15.000000Z	when thinking about metaphysics, i always feel as if i'm either reinventing the aristotelian substance/form distinction or parmenidesian monism or badly compressing deleuze.
-2021-02-25T10:19:17.000000Z	Daily annoyance: When the change in a metric is given, but it's not clear whether this change was good or bad, because I don't know the metric.
-2021-02-25T10:19:28.000000Z	Axistentialism
-2021-02-25T10:19:54.000000Z	It's not widely known, but in fact shopping is just slang for “style hopping”
-2021-02-25T10:20:37.000000Z	i mean, it's kind of obvious that if you dangle a gigantic “you oughn't think this particular thought” in front of a bunch of nerds, they are abso-fucking-lutely going to think the thought.
-2021-02-25T10:20:45.000000Z	what did you expect?
 2021-02-25T10:21:29.000000Z	Turbo-Lenz
 2021-02-25T10:21:35.000000Z	Simp-lifying
 2021-02-25T10:21:43.000000Z	Tran-Skript
-2021-02-25T10:21:52.000000Z	Working hours are not about work, they're about class warfare.
-2021-02-25T10:28:12.000000Z	Men care more than women about longevity?
-2021-02-25T10:28:34.000000Z	The automatic mental cut between “I believe this” and “I have to say this”
-2021-02-25T10:30:05.000000Z	rationalist who is cryocrastinating
-2021-02-25T10:30:20.000000Z	rationalist who hasn't touched his 100-card anki deck in half a year
-2021-02-25T10:30:32.000000Z	rationalist who is okay-ish at forecasting
-2021-02-25T10:30:37.000000Z	(it me)
-2021-02-25T10:32:32.000000Z	for some reason, I really like this pattern of exchange: A:“[controversial/semi-out-of-context thing, said quickly, maybe mutteringly] what?” B [in quick succession]: ”what?” A [also quickly]: “what?” (repeat as often as needed)
-2021-02-25T12:27:56.000000Z	every state is goal state
-2021-02-25T12:42:43.000000Z	i'm twelve
 2021-02-26T13:58:11.000000Z	sequential decision problems in the water supply
 2021-02-26T14:40:23.000000Z	interested in understanding the world of fucking
 2021-02-28T21:10:08.000000Z	men care more than women about longevity?
@@ -485,7 +433,7 @@
 2021-03-30T09:11:10.000000Z	Skolem constants are just Skolem functions of arity 0, they have no universal quantifiers around them.
 2021-03-31T22:29:59.000000Z	@<adi https://twtxt.net/user/adi/twtxt.txt> "@niplav Your reasoning is that if Zeus would create mistresses he would create _too many_ people?" -> Nope, that he wouldn't be able to control them (since they are only slightly less powerful than him), and “you cannot put down what you have conjured up”
 2021-04-05T18:19:55.000000Z	5-word horror story: law of conversation of valence
-2021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is different now, i feel like i'm in a completely different place then when i was writing here last" -> Welcome back
+a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is different now, i feel like i'm in a completely different place then when i was writing here last" -> Welcome back
 2021-04-06T19:28:45.000000Z	The last thing ever felt was a medium-surprised “huh.”, as when one comes across a novel, but not very surprising new fact. After August 23rd 2039 11:34, nothing ever happened in an awareness again.
 2021-04-07T13:52:53.000000Z	Annoyance: it is the exception, rather than the norm, that taking away options from someone helps them.
 2021-04-08T21:45:13.000000Z	~problematic~
@@ -662,7 +610,6 @@
 2021-07-17T00:59:48.000000Z	trump turned out to not be such a big deal
 2021-07-17T21:21:02.000000Z	the inclusive genetic fitness party
 2021-07-20T17:17:20.000000Z	identity politics defection from class warfare, maybe?
-2021-07-20T17:25:46.000000Z	globe-decorated neo-neoliberals were furiously fruitlessly arguing with zero-summers on twitter, shaman bros were helping others get laid at parties funded by eternal-life cryptomoguls, infra-red haired identity-fractalites with two dozen Mercedes stars draped over their bodies lectured pale soy-skeletons about cockshottian cybernetics. it was, not exaggerating too much, a moment exactly fitting the emergence of a second semi-unknown unknown, only to be faintly perceived by posterior-maximizers who had trained their sensory organs to the maximal degree of data intake possible without (at the time outside of military circles unavailable) BCIs. and yet, the 'works scaled and scaled, just as the fraktur-g prophet had foretold
 2021-07-21T13:52:12.000000Z	youropia
 2021-07-21T13:52:50.000000Z	theiropia, ouropia, heropia, hisopia
 2021-07-21T13:59:06.000000Z	if there is a reachable maximal economic productivity of matterenergy/spacetime, then at some point economic progress will slow from exponential to cubic, since if one expands at a constant fraction of c, then the growth is proportional to the volume of the sphere, which with constantly expanding radius is cubic.
@@ -770,10 +717,6 @@
 2022-01-14T11:59:26.000000Z	[coherent & sensible screaming]
 2022-01-14T17:01:25.000000Z	professor gives us data in a dxn ndarray, where d is the number of features and n is the num of datapoints. r-worded
 2022-01-14T17:02:20.000000Z	i wonder whether this is to teach us about the r-wordedness of data in the real world.
-2022-01-18T10:11:02.000000Z	snicean relevance gnorms
-2022-01-18T11:20:51.000000Z	The Computing Amish vs. Computing Scientology: The Final Showdown
-2022-01-18T13:05:47.000000Z	EXPLAIN GAUSSIAN PROCESSES TO ME OR I'LL FUCKING KILL YOU I'LL WHY THE FUCK HOW THE FUCK CAN IT BE A DISTRIBUTION OVER FUNCTIONS SO THAT THE JOINT DISTRIBUTION FOR OUTPUTS IS GAUSSIAN
-2022-01-18T22:45:45.000000Z	random tetraspace method
 2022-01-19T12:45:03.000000Z	List of discredited bloggers
 2022-01-19T19:00:06.000000Z	we will cut a frowny face in your chest, little wench
 2022-01-19T21:24:13.000000Z	yoooo! Justus! Licht meiner Seele, Blut meiner Augen!
@@ -890,23 +833,8 @@
 2022-02-21T20:36:29.000000Z	230/330
 2022-02-21T23:37:33.000000Z	the fourfold spatious sutra
 2022-02-21T23:43:19.000000Z	Despite close connection in spirit [Chapin 2022, Cammarata 2021, Sotala 2019], few scholars have investigated the relation between microblogging and ancient buddhist scripture, especially the Tipitaka. However, multiple connections arise, for example the four brahmaviharas (the divine abodes) [Sujiva 2003, Buddhaghosa 500] and certain quaternionic spaces (or “tetraspaces”) [Minkowski 1908, Hamilton 1843, holomanga 2019], pointing at interesting connections between fourfold symmetries and benevolence [Gomez-Émilsson 2018]. In this essay I will
-2022-02-22T00:22:55.000000Z	one thing niplav culture started doing very early was to group niplavs into group of 2-4 people who would form a worker/research unit (friendship encouraged, but romance discouraged). because of high agreeability, these units can be *very* stable, and are especially useful in trying to understand & solve difficult problems, often by one niplav being the babble and the other being the prune. this also has the advantage that for a niplav, intellectual work is around three times as fun in interaction with other niplavs, mainly because there is some very quick feedback mechanism that bores into weak points of understanding or sloppy parts of models/proofs, where a single niplav would just shrug and give up early.
-2022-02-22T00:24:06.000000Z	an optimal session would be two niplavs at a whiteboard, either both thinking, or one explaining an idea to the other, and a third sitting at a laptop in the background and writing down the ideas as they're developed (and only sometimes asking questions for clarification).
-2022-02-22T00:25:24.000000Z	the similarity to pair programming is not coincidental, but as in pair programming, this works best if the problem is actually quite difficult and critical, since otherwise it's not economically viable
-2022-02-22T00:27:15.000000Z	niplav culture mostly acknowledges this, but takes the productivity hit by using these groups in settings where they're not necessarily optimal (although it is surprising how synchronized and fast a group of niplavs can be if they have been working together for a decade)
-2022-02-22T00:30:06.000000Z	there has been a large amount of experimentation to find psychological characteristics of niplavs that are especially conducive for forming these kinds of groups or pairs, and a large portion of the teenage years of a niplav is spent in various different groups to find an especially well-functioning one.
-2022-02-22T00:30:44.000000Z	these groups also work very well as ways of quickly organizing commitments, e.g. for meditation, exercise, artistic projects etc.
-2022-02-22T00:33:31.000000Z	one disadvantage is the huge variety of interests a niplav can have, it is often not possible to find a pair/group where every niplav is at the same time interested in bebop, type theory, bouldering and forecasting. usually, this is solved by having one primary group that is broadly intellectual, and then side-projects, with elaborate rules about how to deal with these side-groups becoming more important than the main group.
-2022-02-22T00:36:13.000000Z	this is less of a problem than one might suspect, because niplavs are generally easily made enthusiastic about most topics, niplavs are agreeable and willing to try the stuff other niplavs think are cool, motivated to stay in their group because they have grooved in a very strong rhythm, more capable of understanding why something is cool (because of short inferential distances), and the groups are carefully chosen to maximize potential common interests.
-2022-02-22T00:40:20.000000Z	here im assuming that the distribution over people isn't just mean niplav, but also has less variance (but not so little that society immediately collapses, because just copies of niplav can't run a society)
-2022-02-22T20:12:00.000000Z	Ein Mann muss lernen, Frauen anzusprechen. Eine Frau muss lernen, Männer abzuweisen. »Diese beiden sind eins und gleich. Hervorgehoben sind ihre Namen verschieden, ihre Vereinigung aber nennen wir mystisch — mystisch und abermals mystisch, die Pforte zu jedwedem Geheimnis.«
-2022-02-22T20:14:41.000000Z	parts of life imitate art with very high fidelity
 2022-02-23T21:29:42.000000Z	procrastinating by writing and exercising…i have reached new lows
 2022-02-23T21:30:14.000000Z	picoeconomics is a great word & concept, and I'm sad it hasn't been developed further
-2022-02-25T02:35:48.000000Z	heaventen thousandbooks
-2022-02-25T16:18:51.000000Z	pathological selfer
-2022-02-25T23:15:19.000000Z	The first two things that people usually say when they step out of the plane at the central niplavistan airport are “Why is everyone dressed the same way” and “Why does everything look like it's built to withstand a nuclear—no, wait, let me rephrase, why *is* everything here built to as if to withstand a nuclear strike?”
-2022-02-25T23:31:05.000000Z	Well, modulo each item of clothing being produced in 1024 different colors
 2022-02-27T18:17:46.000000Z	milflife crisis
 2022-02-27T20:04:37.000000Z	funder (thunder but with fun, f*** under, fun; der, person who gives funding)
 2022-02-28T08:53:48.000000Z	inter ni
@@ -987,10 +915,6 @@
 2022-03-27T18:52:59.000000Z	so the British colonized most of world, but they also made lots of countries abolish slavery, so it's impossible to tell whether they're good or bad,,,
 2022-03-27T18:53:09.000000Z	see http://lukemuehlhauser.com/industrial-revolution/#footnote_79_3108
 2022-03-27T22:30:18.000000Z	introduction to coq continued, now i have learned what the codebase is supposed to do when it's finished
-2022-03-27T22:48:32.000000Z	problems with finding partners at an event dedicated to X: if you're interested in X independently of it being good to find partners there, the gender(/sex) ratio is (if you're heterosexual) likely not in your favour (unless you're odd, but few people are odd). furthermore, if you *do* ask someone out, you might get rejected & perceived (and gain a reputation as) creepy, or mistakenly (“mistakenly”) identified as a sex pest (or, more lightly, as being there just to chase skirt/kilt). even if you don't care about your reputation at the event/in the group, you probably care about X, and that people do X, if you creep them out, they will stop doing X. (not success). (how do normal people handle interacting after one has romantically rejected the other? the ~2 times i have experienced it, it was always just __awkward__ and odd, is there no standard social script? when do you learn it?) if they do agree, you have another mess: others might still get jealous and call you a pest, with the standard hansonian dynamics voluminousifying, or leading to sliding into social bullshit; or there might be a less than optimal breakup that leads to one party not wanting to do X anymore. (not success). (this is furthermore worsened by the fact that you are probably not calibrated & smooth and can handle rejection well, or the other person can't handle rejecting well. oh well). so. if you go to an event about X because the gender ratio is good and you don't really care about X, then it is probably immediately and super clear that you are being *very* incongruous, and it's, like, not a great move? it feels very much like not a great move. so, this is the tree of badness for asking people at hobby events.
-2022-03-27T22:49:01.000000Z	∴ Good(daygame)
-2022-03-27T22:55:02.000000Z	the pickup community is the only one i know of that went straight from geeks to psychopaths, without any MOPs.
-2022-03-27T22:57:07.000000Z	powerful move to reply to a statement with “sorry, I have that argument tree mapped out, and a minimax search shows me stalemate in every possible play” and leave
 2022-03-28T10:03:58.000000Z	we could also clone Ramanujan
 2022-03-28T14:17:58.000000Z	rereading the wikipedia page on ramanujan, we should absolutely clone him and von Neumann, and have them talk to each other. this is either going to destroy the world or usher in utopia, not sure which
 2022-03-28T14:32:48.000000Z	people talk often about power in a way that is not clearly physical power. i have never understood those people, but i suspect that there is some thing there, and that i often perceive its shadow which is epistemic bullshit.
@@ -1286,10 +1210,6 @@
 2022-06-20T21:22:21.000000Z	“It's a traditional niplavistani recipe.” “And what's that weird plushy stuff?” “Oh, that's really special. Fermented blåhaj fins.”
 2022-06-21T19:17:24.000000Z	I expect the future to be more, not less, absurd than ~all scifi. way more—there's no scifi this abstract & absurd, and noone would buy it (& also bc of Vinge's law)
 2022-06-21T19:28:46.000000Z	plasmacrane
-2022-06-23T02:45:52.000000Z	wrangling (& getting to work) an RL agent with a friend until half past 2 am. good times
-2022-06-23T02:48:13.000000Z	we're paving over the reputational ecosystems with beautiful curves whose area sums to one, just watch
-2022-06-23T09:40:57.000000Z	steelmanning the whole “space colonization ideology is just a new colonialism/imperialism, and just as bad”: let's take domestic robots which display signals of pain when damaged (even though we know that they don't feel pain, because consciousness research was miraculously successful). if there was no moral norm against damaging/destroying them, we would still regard it as bad, because it's harmful to the human psyche to perceive oneself to be causing pain, and that being okay. similarly, talk about aggressive space colonization could be damaging to the human psyche, because it kindles an emotional stance that does not respect other people or their lands. this is irrespective whether we would encounter alien life out there or not! (i suspect most people can't think clearly about the distinction anyway). it'd be enough if that emotional stance/ideology would do damage on earth.
-2022-06-23T09:41:25.000000Z	“but niplav, isn't that way too meta/coupling?” “yes.”
 2022-06-27T08:37:44.000000Z	if you want to minimize the amount of words in your library, every function should have as many parameters as there are functions in total.
 2022-06-27T09:22:40.000000Z	pandas makes my RAM usage jump like a cardiogram
 2022-06-27T21:05:27.000000Z	if anything indicates anything, the french are now to be feared.
