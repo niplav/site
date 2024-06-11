@@ -98,7 +98,7 @@ think it'll rain tomorrow`$_{.5}$`". This has the advantage of
 being compatible with plain text through the [combining dot below
 diacritic](https://en.wikipedia.org/wiki/Dot_\(diacritic\)), which would
 yield "I think it'll rain tomorroẉ₅". However, the meaning of the
-combining dot can be ambiguous at first.
+combining dot can be ambiguous to uninformed readers.
 
 On [LessWrong](www.lesswrong.com), one can also use [reacts signifying
 probabilities](https://www.lesswrong.com/posts/ByqKwsYK6rH6AYNDY/reacts-now-enabled-on-100-of-posts-though-still-just)

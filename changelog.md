@@ -23,6 +23,9 @@ the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
 
+June 2024
+----------
+
 May 2024
 ---------
 

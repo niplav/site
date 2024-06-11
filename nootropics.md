@@ -22,6 +22,8 @@ Nootropics
 You could put randomized substances in your body and find out what they
 do by recording the outcomes. That's what I did.
 
+<!--TODO: color for effect size?-->
+
 | Value tracked                      | Effect size d (λ, p, σ change)              | Effect size d (λ, p, σ change)      |
 | ---------------------------------- | ------------------------------------------- | ----------------------------------- |
 |                                    |   *200 mg Caffeine (n=1, m=50)*             |   *500 mg L-theanine (n=1, m=50)*   |

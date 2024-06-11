@@ -48,6 +48,12 @@ def get_mental():
 
 	return mental
 
+def get_ispom():
+	ispomodoro=pd.read_csv('../../data/ispomodoro.csv')
+	ispomodoro['date']=pd.to_datetime(ispomodoro['date'], utc=True)
+
+	return ispomodoro
+
 def get_flashcards():
 	flashcards=pd.read_csv('../../data/anki_reviews.csv')
 	flashcards['id']=pd.to_datetime(flashcards['id'], unit='ms', utc=True)

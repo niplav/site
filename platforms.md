@@ -214,6 +214,21 @@ I am a bit weary of selecting these two markets: The Bright Light market
 has the lowest trading volume of all markets, at only M̶104, and both
 these markets are not blindeable.
 
+But a commitment I have made, so a commitment I have to follow through
+with.
+
+### Pomodoros
+
+	ispom=get_ispom()
+	mental=get_mental()
+	mental_pom=pd.merge_asof(ispom, mental, left_on='date', right_on='datetime', direction='forward', tolerance=pd.Timedelta('1d'))
+	mental_pom=mental_pom[mental_pom['productivity'].notna()]
+	with_pom=mental_pom[mental_pom['ispomodoro']==1]
+	no_pom=mental_pom[mental_pom['ispomodoro']==0]
+	pom_ds=(with_pom[['productivity', 'creativity', 'sublen']].describe().loc['mean',:]-no_pom[['productivity', 'creativity', 'sublen']].describe().loc['mean',:])/mental_pom[['productivity', 'creativity', 'sublen']].describe().loc['std', :]
+	pom_d_sigmas=with_pom[['productivity', 'creativity', 'sublen']].describe().loc['std',:]-no_pom[['productivity', 'creativity', 'sublen']].describe().loc['std',:]
+	likelihood_ratio_test(placebo_likelihood_ratio(with_pom['productivity'], no_pom['productivity']))
+
 Acknowledgements
 -----------------
 

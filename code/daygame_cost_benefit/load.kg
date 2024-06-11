@@ -41,7 +41,7 @@ dateintercept::0.4249112313623176
 
 dateratio::{dateceil*1%(1+exp(dateintercept+dateslope*x))}
 
-layvals::{firstlayval*sqr(layratio(x)*x)}
+layvals::{firstlayval*layratio(x)*x}
 benefit::{layvals(x)}
 
 cost::{(oppcost*x%apprperhour)+(dateratio(x)*datecost*avgdates*x)+dateratio(x)*datelen*avgdates*oppcost}
