@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-15, modified: 2024-06-04, language: english, status: notes, importance: 8, confidence: highly likely*
+*author: niplav, created: 2023-04-15, modified: 2024-06-10, language: english, status: notes, importance: 8, confidence: highly likely*
 
 > __We consider the problem of resolving preferences that are inconsistent
 under the von Neumann-Morgenstern axioms into consistent preferences. For
@@ -18,8 +18,6 @@ set of objects changes.__
 
 Resolving von Neumann-Morgenstern Inconsistent Preferences
 ===========================================================
-
-## Introduction
 
 In economics, decision theory, game theory and parts of artificial
 intelligence the standard approach to modeling actors is to assume those
@@ -54,9 +52,9 @@ make them consistent is interesting and important for several different
 reasons:
 
 -   **Learning the preferences of weaker incoherent
-    systems**[@dewey2011learning]: Assuming that one system $S_1$ wants
-    to learn the preferences of a less coherent system $S_2$, $S_1$
-    might want to "correct" inconsistent preferences learned from $S_2$
+    systems**[@dewey2011learning]: Assuming that one system `$S_1$` wants
+    to learn the preferences of a less coherent system `$S_2$`, `$S_1$`
+    might want to "correct" inconsistent preferences learned from `$S_2$`
     to avoid being exploitable via Dutch books. For example, an AI
     assistant trying to learn and then fulfill the preferences of a
     gambling-addicted human could notice that the human has a cyclic
@@ -139,28 +137,27 @@ is a set of goods $B$ and a utility function $U: B \times \mathbb{R}
 that good that has been consumed. Consumption can take place at
 different time steps: Let $c: B \times \mathbb{N}$ be a function that
 returns the consumption of a good at a specific timestep. With a single
-good $b$ and different quantities $c(b, 1), c(b, 2), \dots, c(b, n)$
+good $b$ and different quantities `$c(b, 1), c(b, 2), \dots, c(b, n)$`
 consumed at $n$ timesteps, the time-discounted utility (discount factor
-$\delta$) of this consumption is $\sum_{i=1}^n \delta^i U(b, c(b, i))$
+$\delta$) of this consumption is `$\sum_{i=1}^n \delta^i U(b, c(b, i))$`
 (which is equivalent to the use of discount rates in reinforcement
 learning [@sutton2020reinforcement ch. 3]).
 
 A common form of modeling human preferences that are not exponentially
 time-discounted in this way is hyperbolic discounting, in which the
 discounting factor is a hyperbolic function with a parameter $k$ instead
-of an exponential. Let $U_h(b, i, k)=\frac{1}{1+ki}U(b, c(b, i))$ be the
-hyperbolically discounted utility of consuming $b$ at time step $i$.
+of an exponential. Let `$U_h(b, i, k)=\frac{1}{1+ki}U(b, c(b, i))$` be the
+hyperbolically discounted utility of consuming $b$ at time step `$i$`.
 
 This kind of discounting leads to disproportionately preferring small
 rewards soon over large rewards later, and might lead to preference
 reversals: For two goods $b$ and $b'$, an agent can have the preference
-$U_h(b, c(b, i))>U_h(b', c(b, i+c))$ at a time step $i$ and a time step
+`$U_h(b, c(b, i))>U_h(b', c(b, i+c))$` at a time step $i$ and a time step
 $i+c$, but reverse that preference if it lies at another timestep $j$:
-$U_h(b, c(b, j))<U_h(b', c(b,
-j+c))$. [@ainslie1981preference]. Such hyperbolic discounting has been
-observed in humans [@green1994discounting] and pigeons
-[@ainslie1981preference]. This kind of preference reversal does not
-occur with exponential discounting.
+`$U_h(b, c(b, j))<U_h(b', c(b, j+c))$`. [@ainslie1981preference]. Such
+hyperbolic discounting has been observed in humans [@green1994discounting]
+and pigeons [@ainslie1981preference]. This kind of preference reversal
+does not occur with exponential discounting.
 
 Hyperbolic preferences can be modeled in a a game-theoretic setup, in
 which subagents in aggregation execute a Pareto-dominated strategy, and
@@ -238,32 +235,30 @@ Let $\Omega$ be a set of $n$ distinct outcomes, and let $\Delta(\Omega)$
 be the set of all probability distributions on $\Omega$, which in von
 Neumann and Morgenstern call "lotteries" [@von1947theory].
 
-For given $\omega_1, \omega_2 \in \Omega$, a lottery in which $\omega_1$
-has a probability $p_1$ and $\omega_2$ has a probability $p_2$ is
-written as $[p_1: \omega_1, p_2: \omega_2]$[^1].
+For given `$\omega_1, \omega_2 \in \Omega$`, a lottery in which $\omega_1$
+has a probability `$p_1$` and `$\omega_2$` has a probability `$p_2$` is
+written as `$[p_1: \omega_1, p_2: \omega_2]$`[^1].
 
-**Definition 1**. Let $l_1, l_2, l_3 \in \Delta(\Omega)$. Let $\preceq$
-be a relation on all lotteries on $\Omega$, that is
-$\preceq\ \subseteq \Delta(\Omega)
-\times \Delta(\Omega)$.
+**Definition 1**. Let `$l_1, l_2, l_3 \in \Delta(\Omega)$`. Let $\preceq$
+be a relation on all lotteries on $\Omega$, that is $\preceq \subseteq \Delta(\Omega) \times \Delta(\Omega)$.
 
-If $l_1 \preceq l_2$ and $l_2 \preceq l_1$, then we write
-$l_1 \sim l_2$.
+If `$l_1 \preceq l_2$` and `$l_2 \preceq l_1$`, then we write
+`$l_1 \sim l_2$i`.
 
 Then the relation $\preceq$ is a **preference relation** if and only if
 it fulfills the four von Neumann-Morgenstern axioms
 
-1.  **Completeness**: For any lotteries $l_1, l_2$, it holds that
-    $\l_1 \preceq l_2$ or $l_2 \preceq l_1$.
-2.  **Transitivity**: For any lotteries $l_1, l_2, l_3$, if
-    $l_1 \preceq l_2$ and $l_2 \preceq l_3$, then it must also hold that
-    $l_1 \preceq l_3$.
-3.  **Continuity**: Given $l_1, l_2, l_3$, if it holds that
-    $l_1 \preceq l_2 \preceq l_3$, then there must be a probability
-    $p \in [0,1]$ so that $l_2 \sim [p: l_1, (1-p): l_3]$.
-4.  **Independence**: Given $l_1, l_2, l_3$ it holds that
-    $l_1 \preceq l_2$ if and only if for any $p \in [0;1]$ it holds that
-    $[p: l_1, (1-p): l_3] \preceq [p: l_2, (1-p): l_3]$.
+1.  **Completeness**: For any lotteries `$l_1, l_2$`, it holds that
+    `$l_1 \preceq l_2$` or `$l_2 \preceq l_1$`.
+2.  **Transitivity**: For any lotteries `$l_1, l_2, l_3$`, if
+    `$l_1 \preceq l_2$` and `$l_2 \preceq l_3$`, then it must also hold that
+    `$l_1 \preceq l_3$`.
+3.  **Continuity**: Given `$l_1, l_2, l_3$`, if it holds that
+    `$l_1 \preceq l_2 \preceq l_3$`, then there must be a probability
+    `$p \in [0,1]$` so that `$l_2 \sim [p: l_1, (1-p): l_3]$`.
+4.  **Independence**: Given `$l_1, l_2, l_3$` it holds that
+    `$l_1 \preceq l_2$` if and only if for any `$p \in [0;1]$` it holds that
+    `$[p: l_1, (1-p): l_3] \preceq [p: l_2, (1-p): l_3]$`.
 
 The axiom of completeness implies reflexivity: For all lotteries $l$ it
 holds that $l \preceq l$.
@@ -271,15 +266,12 @@ holds that $l \preceq l$.
 We denote the probability a lottery $l$ assigns to $\omega \in \Omega$
 as $p_l(\omega)$.
 
-Given a preference relation $\preceq$, one can create a function
-$U\colon
-\Delta(\Omega) \rightarrow [0;1]$ for which it holds that $U(l_1) \ge
-U(l_2)$ if and only if $l_1 \preceq l_2$ [@von1947theory ch. 3.6].
+Given a preference relation $\preceq$, one can create a function `$U\colon
+\Delta(\Omega) \rightarrow [0;1]$` for which it holds that `$U(l_1)
+\ge U(l_2)$` if and only if `$l_1 \preceq l_2$` [@von1947theory ch. 3.6].
 
-::: definition
 **Definition 2**. This function is called a **utility function** for the
 preference relation $\preceq$.
-:::
 
 Let us as a shorthand write $\omega$ for the lottery that assigns
 probability 1 to $\omega$, and probability 0 to all other options (we
@@ -289,18 +281,17 @@ $U$ has the property that for any lottery $l$ from $\Delta(\Omega)$, the
 value $U(l)$ is simply the *expected* value of $l$, that is the mean of
 the utilities weighted by the probabilities:
 
-$$U(l)=\sum_{\omega \in \Omega} U(\omega) \cdot p_l(\omega)$$
+<div>
+	$$U(l)=\sum_{\omega \in \Omega} U(\omega) \cdot p_l(\omega)$$
+</div>
 
 #### Assuming Asymmetry
 
-::: definition
 **Definition 3**. A relation
-$\prec \subseteq \Delta(\Omega) \times \Delta(\Omega)$ is a **strict
+`$\prec \subseteq \Delta(\Omega) \times \Delta(\Omega)$` is a **strict
 preference relation** if and only if it fulfills the four von
 Neumann-Morgenstern axioms and also the additional criterion of
-**antisymmetry**: $l_1 \prec l_2 and l_2 \prec l_1$ if and only if
-$l_1=l_2$.
-:::
+**antisymmetry**: `$l_1 \prec l_2$` and `$l_2 \prec l_1$` if and only if `$l_1=l_2$`.
 
 The reason for this assumption is that one of the algorithms we
 investigate (namely `EGEDmin`) produces a total order over $\Omega$.
@@ -314,47 +305,45 @@ non-strict preferences over lotteries).
 
 A consistent preference over $\Omega$ that fulfills **completeness**,
 **transitivity** and **antisymmetry** can be represented by an acyclic
-tournament $G$[^2], with $E \subseteq \Omega \times
-\Omega$. That is, $G$ itself is **complete**, **transitive** and
+tournament `$G$`[^2], with `$E \subseteq \Omega \times \Omega$`.
+That is, `$G$` itself is **complete**, **transitive** and
 **antisymmetric**. We call such $G$ a **consistent** graph (or
 consistent directed graph, or acyclic tournament).
 
-The set of possible preferences over $\Omega$ (including inconsistent
-preferences), $\mathfrak{P}_{\Omega}$, may be represented as the set of
-all directed graphs with vertices $\Omega$. We will use $\mathfrak{P}_n$
-to denote the set of all directed graphs with $n$ vertices
-($n=|\Omega|$), allowing for reflexive edges (that is edges of the form
-$(\omega_1,
-\omega_1)$). The set $\mathfrak{P}_{\Omega}$ can be constructed by
-enumerating the set of adjacency matrices (elements of $\{0,1\}^{n
-\times n}$) and then, for each adjacency matrix, constructing the
-corresponding graph. There are $2^{n^2}$ possible preferences in
-$\mathfrak{P}_{\Omega}$.
+The set of possible preferences over `$\Omega$` (including inconsistent
+preferences), `$\mathfrak{P}_{\Omega}$`, may be represented as the set of
+all directed graphs with vertices `$\Omega$`. We will use `$\mathfrak{P}_n$`
+to denote the set of all directed graphs with `$n$` vertices
+(`$n=|\Omega|$`), allowing for reflexive edges (that is edges of the form
+`$(\omega_1, \omega_1)$`). The set `$\mathfrak{P}_{\Omega}$` can be constructed by
+enumerating the set of adjacency matrices (elements of `$\{0,1\}^{n \times n}$`)
+and then, for each adjacency matrix, constructing the
+corresponding graph. There are `$2^{n^2}$` possible preferences in
+`$\mathfrak{P}_{\Omega}$`.
 
-For a directed graph $G \in \mathfrak{P}_{\Omega}$, one can interpret
-the presence of an edge $(\omega_1, \omega_2) \in E_G$, with $\omega_1,
-\omega_2 \in \Omega$, as "$\omega_1$ is preferred over $\omega_2$",
-written $\omega_1 \succ \omega_2$ or $\omega_1 \rightarrow \omega_2$.
+For a directed graph `$G \in \mathfrak{P}_{\Omega}$`, one can interpret
+the presence of an edge `$(\omega_1, \omega_2) \in E_G$`, with `$\omega_1,
+\omega_2 \in \Omega$`, as "`$\omega_1$` is preferred over `$\omega_2$`",
+written `$\omega_1 \succ \omega_2$` or `$\omega_1 \rightarrow \omega_2$`.
 
-Let $\mathfrak{C}_{\Omega}$ be the set of **consistent graphs** over
-$\Omega$, with $\mathfrak{C}_{\Omega} \subset \mathfrak{P}_{\Omega}$,
-can be constructed by enumerating the set of permutations of $\Omega$,
+Let `$\mathfrak{C}_{\Omega}$` be the set of **consistent graphs** over
+`$\Omega$`, with `$\mathfrak{C}_{\Omega} \subset \mathfrak{P}_{\Omega}$`,
+can be constructed by enumerating the set of permutations of `$\Omega$`,
 constructing a strict total order out of each permutation, and taking
-the transitive closure of that strict total order. There are $n!$
-elements in $\mathfrak{C}_{\Omega}$.
+the transitive closure of that strict total order. There are `$n!$`
+elements in `$\mathfrak{C}_{\Omega}$`.
 
-We take the set of **inconsistent graphs** $\mathfrak{I}_{\Omega}
-\subset \mathfrak{P}_{\Omega}$ to be all graphs that are not consistent,
-that is $\mathfrak{I}_{\Omega}=\mathfrak{P}_{\Omega} \backslash
-\mathfrak{C}_{\Omega}$.
+We take the set of **inconsistent graphs** `$\mathfrak{I}_{\Omega}
+\subset \mathfrak{P}_{\Omega}$` to be all graphs that are not consistent,
+that is `$\mathfrak{I}_{\Omega}=\mathfrak{P}_{\Omega} \backslash
+\mathfrak{C}_{\Omega}$`.
 
-Let $\mathfrak{W}_{\Omega}$ be the set of **weakly consistent** graphs
-over $\Omega$, which may be represented as the set of all directed
+Let `$\mathfrak{W}_{\Omega}$` be the set of **weakly consistent** graphs
+over `$\Omega$`, which may be represented as the set of all directed
 graphs that are equivalent to some weak ordering. It can be constructed
-by taking all weak orderings on $\Omega$, for each weak ordering
-$\preceq$ creating an edge from $\omega_1$ to $\omega_2$ if and only if
-$\omega_1
-\preceq \omega_2$, and then taking the transitive closure of that graph.
+by taking all weak orderings on `$\Omega$`, for each weak ordering
+`$\preceq$` creating an edge from `$\omega_1$` to `$\omega_2$` if and only if
+`$\omega_1 \preceq \omega_2$`, and then taking the transitive closure of that graph.
 The weak orderings are counted by the ordered Bell numbers.
 
 ### Violating the von Neumann-Morgenstern Axioms
@@ -367,13 +356,12 @@ being lotteries.
 Directed graphs are well able to represent all violations of these vNM
 axioms.
 
-##### Incompleteness.
+##### Incompleteness
 
 Incompleteness is distinct from indifference: indifference between
-$\omega_1$ and $\omega_2$ exists if both $\omega_1 \preceq \omega_2$ and
-$\omega_2 \preceq \omega_1$, incompleteness (or incomparability) is the
-case if neither $\omega_2 \preceq \omega_1$ nor $\omega_1 \preceq
-\omega_2$.
+`$\omega_1$` and `$\omega_2$` exists if both `$\omega_1 \preceq \omega_2$` and
+`$\omega_2 \preceq \omega_1$`, incompleteness (or incomparability) is the
+case if neither `$\omega_2 \preceq \omega_1$` nor `$\omega_1 \preceq \omega_2$`.
 
 The presence of an incomplete preference in an agent is difficult to
 operationalize, [@gustafsson2022money] treats incomparable options as
@@ -382,25 +370,24 @@ randomizes when presented with incomparable options are also possible
 (however, as Gustaffson notes, the randomization offers an adversary the
 option to (in expectation) perform money-pumps).
 
-In a graph-theoretic setting, incomparability between options $\omega_1,
-\omega_2$ is represented by the absence of any edge between $\omega_1$
-and $\omega_2$ in the graph $G$ representing the preference.
+In a graph-theoretic setting, incomparability between options `$\omega_1,
+\omega_2$` is represented by the absence of any edge between `$\omega_1$`
+and `$\omega_2$` in the graph `$G$` representing the preference.
 
 ##### Intransitivity.
 
-Intransitivity is quite easy to represent in a graph $G$: If there is an
-edge $\omega_1 \rightarrow \omega_2 \in E$ and an edge
-$\omega_2 \rightarrow \omega_3 \in E$, but no edge $\omega_1 \rightarrow
-\omega_3 \in E$, then one has represented an intransitive preference
-$\omega_1 \prec \omega_2, \omega_2 \prec \omega_3, \omega_1 \not \prec
-\omega_3$.
+Intransitivity is quite easy to represent in a graph `$G$`: If there is
+an edge `$\omega_1 \rightarrow \omega_2 \in E$` and an edge `$\omega_2
+\rightarrow \omega_3 \in E$`, but no edge `$\omega_1 \rightarrow \omega_3
+\in E$`, then one has represented an intransitive preference `$\omega_1
+\prec \omega_2, \omega_2 \prec \omega_3, \omega_1 \not \prec \omega_3$`.
 
 ##### Symmetry.
 
-A symmetric (or indifferent) preference between $\omega_1, \omega_2$
-(written as $\omega_1 \sim \omega_2$) can also easily be represented by
-a directed graph by having the edges $\omega_1 \rightarrow \omega_2,
-\omega_2 \rightarrow \omega_1 \in E$.
+A symmetric (or indifferent) preference between `$\omega_1, \omega_2$`
+(written as `$\omega_1 \sim \omega_2$`) can also easily be represented
+by a directed graph by having the edges `$\omega_1 \rightarrow \omega_2,
+\omega_2 \rightarrow \omega_1 \in E$`.
 
 ### Algorithms for Resolving Inconsistencies
 
@@ -973,7 +960,7 @@ behavior. We generated all directed graphs with up to 5 vertices and
 computed their confusion.
 
 ![Number of graphs by number of nodes and
-confusion.](./nconfusions.png){#fig:nconfusions}
+confusion.](./img/resolving/nconfusions.png){#fig:nconfusions}
 
 $|\mathbf{G}_{n,1}|$ is the number of all graphs with $n$ vertices and
 confusion 1, and $|\mathbf{G}_{n,1}|/n!$ is the same number but up to
@@ -1176,7 +1163,7 @@ in Figure 2. Note that none of them contain $\mathit{S}_{cd}$ as a
 subgraph.
 :::
 
-![image](./counter_example_3.png){width="0.9\\linewidth"}
+![image](./img/resolving/counter_example_3.png){width="0.9\\linewidth"}
 
 This counter-example can be generalized so that inclusion-maximal
 consistent subgraphs with an arbitrary number of nodes $n$ get reversed:
@@ -1354,7 +1341,7 @@ subgraphs.
 
 ![Comparing `EGEDmin` and `HodgeResolve` at how well they perform on
 various metrics of preserving inclusion-maximal consistent
-subgraphs.](./preservations.png){#fig:preservationcomp}
+subgraphs.](./img/resolving/preservations.png){#fig:preservationcomp}
 
 One can see that on average, `EGEDmin` preserves inclusion-maximal
 consistent subgraphs more often, and may also retain all
@@ -1377,7 +1364,7 @@ $V^*$ that meets (1).
 
 One can create a related (but weaker) definition for directed graphs:
 
-![image](./dominance.png){width="0.6\\linewidth"}
+![image](./img/resolving/dominance.png){width="0.6\\linewidth"}
 
 For a given $G$, let $\Sigma_1, \Sigma_2$ be non-empty sets of vertices
 of $G$ such that $\Sigma_1 \uplus \Sigma_2=\Omega$. Then $\Sigma_1$ is a
@@ -1563,7 +1550,7 @@ size $n$ it holds that
 $\forall P_n \in \mathfrak{P}_n: |f(P_n)| \le p(n)$.
 :::
 
-![image](./en.png){width="0.9\\linewidth"}
+![image](./img/resolving/en.png){width="0.9\\linewidth"}
 
 We show this with a graph that is a counterexample, i.e. for which such
 a polynomial can not exist.
@@ -2393,13 +2380,13 @@ and aquatic insects).
 
 <figure id="fig:animals_example">
 <figure id="fig:animals_1">
-<img src="./animals_1.png" />
+<img src="./img/resolving/animals_1.png" />
 <figcaption>The initial preference <span
 class="math inline"><em>G</em></span>, as an edge-weighted
 graph.</figcaption>
 </figure>
 <figure id="fig:animals_2">
-<img src="./animals_2.png" />
+<img src="./img/resolving/animals_2.png" />
 <figcaption><span class="math inline"><em>G</em><sup>⋆</sup></span>,
 after applying the ontological shift <span
 class="math inline"><em>s</em></span> and determining the edge weights
@@ -2407,7 +2394,7 @@ using <span class="math inline"><em>t</em></span>. Positive 3-cycle in
 red.</figcaption>
 </figure>
 <figure id="fig:animals_3">
-<img src="./animals_3.png" />
+<img src="./img/resolving/animals_3.png" />
 <figcaption><span class="math inline"><em>G</em>′</span> after applying
 a procedure for resolving the inconsistent preference <span
 class="math inline"><em>G</em><sup>⋆</sup></span>, in this case using
@@ -2523,19 +2510,19 @@ and then again after $s_2$. The final graphs have different weights.
 
 <figure id="fig:nores_dist_example">
 <figure id="fig:distr_1">
-<img src="./distr_example_1.png" />
+<img src="./img/resolving/distr_example_1.png" />
 <figcaption aria-hidden="true"></figcaption>
 </figure>
 <figure id="fig:distr_2">
-<img src="./distr_example_2.png" />
+<img src="./img/resolving/distr_example_2.png" />
 <figcaption aria-hidden="true"></figcaption>
 </figure>
 <figure id="fig:distr_3">
-<img src="./distr_example_3.png" />
+<img src="./img/resolving/distr_example_3.png" />
 <figcaption aria-hidden="true"></figcaption>
 </figure>
 <figure id="fig:distr_3">
-<img src="./distr_example_final.png" />
+<img src="./img/resolving/distr_example_final.png" />
 <figcaption aria-hidden="true"></figcaption>
 </figure>
 <figcaption>In (a) we have the initial preference <span
@@ -2554,15 +2541,15 @@ class="math inline"><em>g</em></span>.</figcaption>
 
 <figure id="fig:res_dist_example">
 <figure id="fig:res_distr_1">
-<img src="./distr_example_1.png" />
+<img src="./img/resolving/distr_example_1.png" />
 <figcaption aria-hidden="true"></figcaption>
 </figure>
 <figure id="fig:res_distr_2">
-<img src="./distr_example_res_2.png" />
+<img src="./img/resolving/distr_example_res_2.png" />
 <figcaption aria-hidden="true"></figcaption>
 </figure>
 <figure id="fig:res_distr_3">
-<img src="./distr_example_res_3.png" />
+<img src="./img/resolving/distr_example_res_3.png" />
 <figcaption aria-hidden="true"></figcaption>
 </figure>
 <figcaption>(a) again shows the initial preference <span
@@ -2694,14 +2681,14 @@ Evans et al. to allow for a larger diversity of inconsistent preferences
 
 ## Acknowledgements
 
-This text has been long in the making, and has benefitted from much
-advice and input. I thank professor Holger Dell for his help and
-suggestions. I'd also like to thank the Crystal Healing Group for their
-inputs, especially Kaarel Hänni for the gentle introduction to Hodge
-decomposition, and Alexander Gietelink-Oldenziel for the hours of
-talking about decomposing irrational preferences into rational ones. I
-also want to thank Felix Harder for help with the impossibility result,
-and Filip Sondej for his surprising ideas in the lottery case.
+This text has been long in the making, and has benefitted from much advice
+and input. I thank Holger Dell for his help and suggestions. I'd also
+like to thank the Crystal Healing Group for their inputs, especially
+Kaarel Hänni for the gentle introduction to Hodge decomposition, and
+Alexander Gietelink-Oldenziel for the hours of talking about decomposing
+irrational preferences into rational ones. I also want to thank Felix
+Harder for help with the impossibility result, and Filip Sondej for his
+surprising ideas in the lottery case.
 
 [^1]: The notation for lotteries is common in social choice theory
     [@gaertner2009primer ch. 8.2]. Some sources would instead write this

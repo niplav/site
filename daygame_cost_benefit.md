@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2024-04-27, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2024-06-11, language: english, status: in progress, importance: 4, confidence: remote*
 
 > __Is daygame worth it, and if yes,
 how much? I first present a simple [point
@@ -444,6 +444,10 @@ approached:
 	date_ratio_fit=spo.curve_fit(shrunk_logistic, approaches, date_ratios, bounds=([-np.inf, 0, 0], [1, np.inf, 0.07]))
 	date_slope, date_intercept, date_ceiling=date_ratio_fit[0]
 
+The Klong code describing the date- and lay- ratios is then as follows:
+
+<!--TODO-->
+
 #### Visualizing the Data
 
 * Green: Roy Walker
@@ -518,9 +522,10 @@ exhaustion).
 <!--TODO: minimum wage in different western countries
 https://en.wikipedia.org/wiki/Minimum_wage-->
 
-Furthermore, the physical activity while doing daygame is broadly good:
-most people probably don't spend enough time outside walking around
-(reducing Vitamin D deficiency), and interacting with other people.
+Furthermore, the physical activity while doing daygame is broadly
+good: most people probably don't spend enough time outside walking
+around (reducing [Vitamin D](https://en.wikipedia.org/wiki/Vitamin-D)
+deficiency), and interacting with other people.
 
 On the other hand, it may be that daygame only replaces "productive
 personal time", that the energy exerted in daygame misses in other
@@ -562,7 +567,7 @@ He reports 76 first dates, 27 second dates, 11 third dates and 5 fourth
 dates. This means that he went on 5 dates with 4 women, on 3 dates with
 `$11-5=6$` women, and so forth. This means that the average number of dates he
 went on per first date was
-`$\frac{5*4+(11-5)*3+(27-11)*2+(76-27)}{76} \approx 1.566$`
+`$\frac{5\cdot 4+(11-5)\cdot 3+(27-11)\cdot 2+(76-27)}{76} \approx 1.566$`
 – quite lower than the 3 assumed by [Free Northerner
 2012](https://freenortherner.wordpress.com/2012/06/12/economic-analysis-of-casual-sex-prostitution-vs-game/ "Economic Analysis of Casual Sex – Prostitution vs Game")!
 
@@ -574,7 +579,7 @@ For [Seven](https://sevendaygame.wordpress.com/), the numbers can be found here:
 
 He reports 76 first dates, 21 second dates, 13 third
 dates, 6 fourth dates and 1 fifth date. This results in
-`$\frac{(1*5+(6-1)*4+(13-6)*3+(21-13)*2+(76-21))}{76} \approx 1.54$`
+`$\frac{(1\cdot 5+(6-1)\cdot 4+(13-6)\cdot 3+(21-13)\cdot 2+(76-21))}{76} \approx 1.54$`
 dates per lay, again smaller.
 
 Similarly, Thomas Crown reports [1.4 dates on average for a lay in
@@ -582,11 +587,11 @@ his first year](https://thomascrownpua.wordpress.com/2016-17/ "2016/17 Statistic
 and [1.1 for his
 second](https://thomascrownpua.wordpress.com/2018-statistics/ "2018 Statistics").
 
-I will assume 1.8 dates on average lasting 3.5h each, because the numbers
+I will assume 1.7 dates on average lasting 3.5h each, because the numbers
 above are from people who have already done many approaches:
 
 	datelen::3.5
-	avgdates::1.8
+	avgdates::1.7
 
 ##### Paying for Dates
 
@@ -619,12 +624,10 @@ The resulting function is linear on the number of approaches:
 
 ### Benefit
 
-#### Value of Having Sex
-
 The thing providing most of the value from daygame is the sex with
-different women. Sex is not a homogenous commodity, but has a wildly
-differing value, depending on the attractiveness of the partner and
-their skill at sex. Nethertheless I will assume that the value of
+different women. Sex is not a homogenous commodity, but instead has a
+wildly differing value, depending on the attractiveness of the partner
+and their skill at sex. Nethertheless I will assume that the value of
 sex averages out to the price of prostitution.
 
 I will consider two different components of the value: the value of
@@ -633,7 +636,7 @@ accomplishment](https://knowyourmeme.com/memes/events/star-wars-battlefront-ii-u
 (knowing that one is developing ones skills in daygame, while prostitution
 is often accompanied with shame<!--TODO: source-->).
 
-##### Value of the Sex Itself
+#### Value of the Sex Itself
 
 > According to this intro to escorting guide on a business blog
 > for escorts (I guess escorts need business advice too; the weird
@@ -644,32 +647,59 @@ is often accompanied with shame<!--TODO: source-->).
 
 <!--TODO: find own sources-->
 
-This leaves us with ~\\$300 per hour of prostitution.
+This leaves us with ~\\$300 per hour of prostitution, but I want to flag
+that the cost of prostitution is highly dependent on the attractiveness
+of the escort, with prices in the thousands of dollars for particularly
+beautiful women—but realistically I don't expect to data on the beauty
+of women that men sleep with through daygame compared to the beauty
+of escorts.
 
-An analysis of daygame contains some questions that are not obvious
-to answer:
+##### Some Questions
 
-* If one has sex as the result of daygame, how long does one have sex?
-* How often do daygamers sleep with the women they have seduced?
-* How strong are the diminishing returns on sex with different partners?
-* And how strong are the diminishing returns on sex with the same partner?
+A cost-benefit analysis of daygame contains some questions that are not
+obvious to answer:
+
+1. If one has sex as the result of daygame, how long does one have sex?
+2. How often do daygamers sleep with the women they have seduced?
+3. How strong are the diminishing returns to sex with different partners?
+	1. Or, in more general terms:
+	2. For a male animal, what is the function that describes the marginal value of mating once with a female randomly selected from the fertile population? I have the feeling that I would be able to answer this if I new more population genetics.
+	3. For example, a male animal should be willing to die for the expectation of >2 offspring with a randomly selected female. But the chance of fathering a child with a random woman depends on the time of the woman's period, her age &c.
+	4. One could then take ones life-time discounted estimated earning potential, calculate the expected value over the [pregnancy rate for sexual intercourse](https://en.wikipedia.org/wiki/Pregnancy_rate#Pregnancy_rate_for_sexual_intercourse) given the age of the woman and the man, and multiply these together.
+	5. It's unclear to me whether there should be any effect of diminishing returns at all in the number of partners slept with, except perhaps through the fact that the population is not infinitely big and therefore the number of offspring with different partners' genes declines. But given that the world population is in the billions, we might just as well treat it as infinite.
+4. And how strong are the diminishing returns to sex with the same partner?
+	1. This could be investigated in the same way as the question above.
+
+<!--TODO: Is this something?-->
+
+---------------
 
 I have not found any people discussing this, and there is probably a
 high variance in these numbers depending on the daygamer.
 
 I will assume that one sex session lasts one hour and that the average
-daygamer sleeps with the same woman 4 times (some women become regular sex
-partners, even if the overwhelming majority is only a one-night stand).
+daygamer sleeps with the same woman 4 times (some women become regulars
+or long-term partners, even if the overwhelming majority is only a
+one-night stand).
 
 I will also assume that the dimimishing returns on sex with different
-partners are square-rooted, because for men having sex with many partners
-has a high evolutionary benefit, and logarithmic returns would seem to
-punishing for that.
+partners are linear. My intuition for this comes from a handwavey
+evolutionary argument that men should value additional offspring with
+randomly selected women with a constant marginal return, since
+more diverse offspring from a basically infinite population of mating
+partners result (in expectation) in linearly more grandchildren.
 
-I will also assume that the diminishing returns on sex with the same
+<!--
+TODO: Function that is first linear and then becomes logarithmic?
+-->
+
+And I will assume that the diminishing returns on sex with the same
 partner _is_ logarithmic, because for men, having sex multiple times with
-the same woman carries little evolutionary advantage except perhaps for
+the same woman carries little *evolutionary* advantage except perhaps for
 competition with other mens sperm.
+
+<!--TODO: this is not true? Finding a good match, linear as one drives
+down the probability of not having fathered children, etc-->
 
 These numbers are only preliminary, informed by reading daygame blogs.
 
@@ -679,29 +709,34 @@ So we can calculate that the value of seducing one woman is
 		300*ln(4*e)
 	715.888308335967204
 
-##### A Sense of Pride and Accomplishment
+#### A Sense of Pride and Accomplishment
 
-I will assume that the sense of pride and accomplishment is ~\\$400. I
-have no hard numbers on this, but it seems like a good approximation,
-since this is just the number for the first daygame lay.
+I will assume that the sense of pride and accomplishment is ~\\$400 for
+the first lay. I am making this number up, since I'm lacking any data
+on this. (If one believes this to be too much, I'll remind the reader
+that men sometimes pay thousands of dollars for pick-up coaching and
+bootcamps, which very far from guarantee any sex.)
 
 To wrap it up, one can conclude that the value of the first lay is
 
-	prostcost::300
-	prideval::400
-	laynum::4
-	firstlayval::prideval+prostcost*ln(e*laynum)
+		prostcost::300
+		prideval::400
+		laynum::4
+		firstlayval::prideval+prostcost*ln(e*laynum)
+	907.944154167983596
+
+As said, I assume that the marginal returns on additional sex partners are
+constant—except for the sense of pride and accomplishment, which very
+much disappears over time. I'll assume it's logarithmic.
 
 #### Calculating the Benefit
 
-As said, I assume that the diminishing marginal returns on additional
-sex partners can be calculated with the square root. The benefit of sex
-can then be calculated with the square root of the expected amount of
-sex for a given number of approaches and the value of the first lay.
-Note that this number is cumulative, it considers the benefit of all
-lays up to `x` approaches.
+The benefit from sex can be calculated by summing the expected sense of
+pride and accomplishment and the expected value from having sex. Note
+that this number is cumulative, as it considers the benefit of all lays
+up for `x` approaches:
 
-	layvals::{firstlayval*sqr(ratio(x)*x)}
+	layvals::{prideval*ln(e*(x+1))*ratio(x)+prostcost*laynum*ratio(x)*x}
 
 This looks like this for up to 10000 approaches:
 
