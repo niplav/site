@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2024-06-03, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2024-06-15, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -25,6 +25,17 @@ content.
 
 June 2024
 ----------
+
+* [About](./about.html):
+	* Added some [friends](./about.html#Friends_of_the_Site)
+	* [Self-Hiding Agreements](./about.html#SelfHiding_Agreements): I haven't made any.
+* [Notes](./notes.html):
+	* [Fat Tails Discourage Compromise](./notes.html#Fat_Tails_Discourage_Compromise)
+
+### Links
+
+* [What Cost Variety? (Robin Hanson, 2014)](https://www.overcomingbias.com/p/what-cost-varietyhtml)
+* [Couvade (William Buckner, 2022)](https://traditionsofconflict.substack.com/p/couvade)
 
 May 2024
 ---------

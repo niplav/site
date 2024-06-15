@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2023-05-08, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2024-06-15, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __Very small pieces of fiction and things that are sufficiently like
 fiction.__
@@ -585,6 +585,18 @@ I continue to maintain that this was a good use of my time.
 ----
 
 ![](./img/memes/iceberg.jpg)
+
+----
+
+![](./img/memes/valid_honor.png)
+
+----
+
+![](./img/memes/chickenpox_lattice.png)
+
+----
+
+![](./img/memes/multiocular_integral.png)
 
 ### Ahegao
 

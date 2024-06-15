@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-02, modified: 2023-12-13, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-06-15, modified: 2024-06-15, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -461,7 +461,6 @@ of digits on my website changes slightly (since the numbers above are
 part of the website), but it does not reach fixation at some point,
 but rather cycles).
 
-<!--
 ### Friends of the Site
 
 * [Ethan](https://210ethan.github.io): Pure Everests, with careful diligence
@@ -469,8 +468,15 @@ but rather cycles).
 * [Skaði þjazidottir](https://ulthar.xyz): Gather some stoic people with guns, who have written low-level code
 * [Nyx](https://nyxus.xyz/): Brightly empathetically menacing (we all know she's just joking)
 * [Andrew McKenzie](http://andrewtmckenzie.com/), who writes essays on brain preservation [here](http://andrewtmckenzie.com/) and notes on neurobiology [here](https://neurobiology.substack.com/)
+* [Sam Harsimony](https://splittinginfinity.substack.com/), [Wordpress](https://harsimony.wordpress.com/): Polymath
+* [Mesaoptimizer](https://mesaoptimizer.com/)
+* [Matthew Baggins](https://matthewbaggins.github.io/)
+* [norvid_studies](https://norvidshoshin.wordpress.com/blog/), [𝕏](https://twitter.com/norvid_studies)
+* [exdiegesis](https://x.com/exdiegesis/)/[mir](https://www.lesswrong.com/users/mir)/[rime](https://forum.effectivealtruism.org/users/elua)
 
-TODO: add harsimony, 1a3orn, etale.site, mesaoptimizer, matthew baggins?-->
+If you're not on here but think you should be, [contact me](#Contact).
+
+<!--TODO: add 1a3orn, etale.site, Alex K. Chen, Burny, Nuño?-->
 
 The Author
 ----------
@@ -526,10 +532,9 @@ Scores (as of 2023-08-05):
 	* Ranking: 28th on [baseline accuracy](https://www.metaculus.com/help/scores-faq/#baseline-score), 43rd on [peer accuracy](https://www.metaculus.com/help/scores-faq/#peer-score)
 ![](./img/about/metaculus_ranking.png)
 * [Manifold markets](https://manifold.markets/NiplavYushtun)
-	* Profit: M̶602
-	* Net worth: M̶4016
-	* Balance: M̶238
-	* Calibration: Grade C+, Score -4.2
+	* Profit: M̶904
+	* Net worth: M̶15000
+	* Calibration: Grade B-, Score -2.69
 ![](./img/about/manifold_calibration.png)
 ![](./img/about/manifold_profit.png)
 
@@ -567,7 +572,7 @@ seems about right.
 * [Reddit](https://old.reddit.com/u/niplav)
 * [Wikipedia](https://en.wikipedia.org/wiki/User:Niplav)
 * [Fediverse](https://schelling.pt/@niplav)
-* [Twitter](https://twitter.com/niplav_site)
+* [𝕏](https://x.com/niplav_site)
 
 ### Contact
 

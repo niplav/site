@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-06-03, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-06-15, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,20 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [How much do solutions to social problems differ in their effectiveness? (Benjamin Todd, 2023)](https://80000hours.org/2023/02/how-much-do-solutions-differ-in-effectiveness/)
+* [Convex and Concave Dispositions (Vitalik Buterin, 2020)](https://vitalik.eth.limo/general/2020/11/08/concave.html)
+* Der Wolf und die sieben jungen Geißlein (Deutsche Bauern, 1812)
+* Der Froschkönig oder der eiserne Heinrich (Deutsche Bauern, 1812)
+* [AI #68: Remarkably Reasonable Reactions (Zvi, 2024)](https://www.lesswrong.com/posts/DWkhjAxbwdcxYgyrJ/ai-68-remarkably-reasonable-reactions)
+* [InvertOrNot.com Proposal (Gwern Branwen, 2024)](https://gwern.net/invertornot)
+* [‘NN sparsity’ tag (Gwern Branwen, 2024)](https://gwern.net/doc/ai/nn/sparsity/index)
+* [‘end-to-end’ tag (Gwern Branwen, 2024)](https://gwern.net/doc/cs/end-to-end-principle/index)
+* [Gebusi Homicide and the Cultural Influence of Violence (William Buckner, 2023)](https://traditionsofconflict.substack.com/p/gebusi-homicide-and-the-cultural)
+* [About me (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/05/contact.html)
+* |12 AI Control: Improving Safety Despite Intentional Subversion (Ryan Greenblatt/Buck Shlegeris/Kshitij Sachan/Fabien Roger, 2024)
+* [Mortality (computability theory)](https://en.wikipedia.org/wiki/Mortality_\(computability_theory\))
+* [You’re Good Enough, You’re Smart Enough, and People Would Like You (Zvi, 2017)](https://thezvi.wordpress.com/2017/04/09/youre-good-enough-youre-smart-enough-and-people-would-like-you/)
+* \* Adaptive Federated Optimization (Sashank J. Reddi/Zachary Charles/Manzil Zaheer/Zachary Garrett/Keith Rush/Jakub Konečný/Sanjiv Kumar/H. Brendan McMahan, 2021)
 * [OpenAI makes humanity less safe (Benquo, 2017)](http://benjaminrosshoffman.com/openai-makes-humanity-less-safe/)
 * [How AI Is Revolutionizing Digital Advertising In 2024 (Rocco Baldassarre, 2024)](https://www.forbes.com/sites/forbesagencycouncil/2024/04/09/how-ai-is-revolutionizing-digital-advertising-in-2024/)
 * [What Cost Variety? (Robin Hanson, 2014)](https://www.overcomingbias.com/p/what-cost-varietyhtml)

@@ -279,8 +279,6 @@
 2021-01-26T11:16:21.000000Z	i will not live in the bay, i won't be part of the cule
 2021-01-27T21:16:32.000000Z	beer is liquid psychoactive bread
 2021-01-29T18:59:55.000000Z	@<pbatch https://pbat.ch/twtxt.txt> "Writing a "tweet" is low-friction, and the medium forces you to chunk out ideas into (mostly) self-contained thoughts." <3
-2021-01-30T09:07:20.000000Z	two sigma male
-2021-01-30T16:43:49.000000Z	learning dril tweets & morse code using spaced repetition
 2021-01-30T16:53:05.000000Z	@<jlj https://twt.nfld.uk/user/jlj/twtxt.txt> "Wow. I think much of what drew me to zettlekasten -- and then letting it languish :-( -- really belongs in Anki." <3 i have only used SRS for ~3 months now, so I'm not sure how long i'll continue
 2021-01-31T12:02:03.000000Z	(me making up words): qualia internalism: the properties of a quale are internal to the quale, and therefore the properties of different qualia can be projected onto a cardinal scale with zero point.
 2021-01-31T12:05:30.000000Z	(cont): qualia relationism: the properties of qualia are defined by their relations to other qualia (but distinguish ordinal rankings for properties of qualia without a zero-point from cardinal properties of qualia without a zero-point). E.g., the hedonic treadmill is not accidental, but a deep fact of the universe.
@@ -290,13 +288,6 @@
 2021-02-02T12:41:12.000000Z	felt really tense around a maybe 4cm² area there, slowly disappeared during the sit
 2021-02-03T13:30:43.000000Z	shoot me if i ever say that X should require Educational Attainment Y
 2021-02-04T15:03:45.000000Z	@<iolfree https://tilde.club/~iolfree/twtxt.txt> "I just typed in 'censorship' on pinterest and that is also completely banned." https://i.imgflip.com/1ppi4p.jpg
-2021-02-05T09:50:31.000000Z	how come there's a Hard Problem of Consciousness™, but no hard problem of matter?
-2021-02-05T10:11:50.000000Z	winner's curse for high discount rates
-2021-02-05T10:12:20.000000Z	high discounters force low discounters into high discounting
-2021-02-05T10:16:13.000000Z	humans are maybe better at solving common resource problems than more rational agents for adaption-executer reasons
-2021-02-05T10:48:06.000000Z	rationalist ∟ postrationalist
-2021-02-05T10:49:24.000000Z	or, longer: in the cartesian product of the space of minds by their rationality and mind-states by their emotional well-being on the high end the tails may come apart, but they are not anti-correlated
-2021-02-05T11:15:25.000000Z	dislike of editing because it induces a prediction error for believing ”I'm already finished working on this text”
 2021-02-06T10:18:52.000000Z	reading
 2021-02-06T10:20:46.000000Z	@prologic “we _should_ fight for IRC more” another slack “Definition: Slack. The absence of binding constraints on behavior.” https://thezvi.wordpress.com/2017/09/30/slack/
 2021-02-06T10:22:57.000000Z	ironically, IRC has more slack than Slack
@@ -304,22 +295,6 @@
 2021-02-10T10:11:44.000000Z	proposal: let's ignore 2020 data when trying to argue about anything
 2021-02-10T18:18:17.000000Z	yo bro, the new alignment newsletter just dropped!
 2021-02-14T14:23:31.000000Z	@<jlj https://twt.nfld.uk/user/jlj/twtxt.txt> "@niplav (#<4qeibma https://twt.nfld.uk/search?tag=4qeibma>) Hadn't heard of this; thanks for the tip! Been getting lost in your text reviews; the Benatar piece piqued my interest: I'd been reading a critique of his earlier work -- in Overall's *Why Have Children?* -- that really wasn't up to scratch. Now I'm reading about pure replicators, which is a new concept, to me. :-)" -> Nice :-) Looking over my text reviews, they're not quite finished (especially the Benatar one), so take it with a grain of salt
-2021-02-14T14:34:33.000000Z	Wirth's law, but for economic growth and regulation instead of hardware and software
-2021-02-14T14:36:20.000000Z	or, more flippantly: almost all economic growth is destroyed by regulation, almost all progress in hardware is destroyed by slower software
-2021-02-14T14:36:53.000000Z	Note: I'm not sure how much I believe this as of yet. Maybe 10%?
-2021-02-14T15:05:03.000000Z	fnarglization might work if you have a ruler that's about as smart as humans and rational (it definitely doesn't if one of those doesn't hold)
-2021-02-15T08:45:02.000000Z	positional enslavement
-2021-02-15T11:52:46.000000Z	subtle sense of impending doom
-2021-02-15T11:53:00.000000Z	meditation is a fine long-term form of suicide
-2021-02-15T11:53:19.000000Z	I'm here to chew bubblegum and refine my subjective experience, and luckily both can be combined
-2021-02-15T11:53:45.000000Z	Sure, give me all the negative space you want. I'll take the most comfortable spot.
-2021-02-15T11:53:50.000000Z	https://en.wikipedia.org/wiki/Orbifold#Music_theory
-2021-02-15T11:53:57.000000Z	Politics supervenes on ethics/epistemology.
-2021-02-15T11:54:12.000000Z	It's harder for me to be mindful of default states of mind (calm etc.) than very agitated states (nervousness, stress etc.).
-2021-02-15T11:54:23.000000Z	Families are probably very good: people genetically pre-disposed to like/help/cooperate with you.
-2021-02-15T11:54:33.000000Z	Virginity actuarial table
-2021-02-15T11:54:48.000000Z	A lot of social technology developed by nerds makes lying harder, and therefore won't be accepted except in nerd-only spaces.
-2021-02-15T11:54:57.000000Z	Omohundro monsters in the water supply.
 2021-02-15T11:55:22.000000Z	Play strange games, win strange prizes.
 2021-02-15T11:55:34.000000Z	value of perfect information in the water supply
 2021-02-15T11:55:43.000000Z	Doing a crucifix: Human
@@ -346,7 +321,6 @@
 2021-02-20T23:48:29.000000Z	it's uncool on purpose to avoid you clicking
 2021-02-21T21:11:55.000000Z	I'm skeptical about having a model of utility actually being sufficient to solve optimizers curse. isn't that just kicking the can down the road, finding something that fools both your utility and your utility model?
 2021-02-22T10:43:31.000000Z	technocratsacy
-2021-02-22T10:44:56.000000Z	Minimax, maximin, minimin, maximax
 2021-02-22T10:45:12.000000Z	A jam is a very vibey object.
 2021-02-22T10:45:19.000000Z	Concreteness leaking out of your abstractions there.
 2021-02-22T10:45:26.000000Z	How do you cooperate with suboptimal allies?
@@ -618,22 +592,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2021-09-18T19:46:58.000000Z	mathematics is the science of the infinite, computer science is the science of the finite
 2021-09-19T13:41:37.000000Z	@<movq https://www.uninformativ.de/twtxt.txt> "How does one interpret those numbers? Does it mean that people usually died at about 30 years or is that really an average, meaning lots of children died but those who survived still reached something like 70 years?" -> It's the mean, so there is a lot of bias in there w/r to infant mortality. I don't know about median age of death.
 2021-10-10T15:32:05.000000Z	I need to find evidence for/against the claim that there was a training run of GPT-2 that maximized negative log-loss – I've heard it a couple of times on the internet and already spread the meme myself, but I haven't seen it in a paper or blogpost
-2021-10-10T17:31:15.000000Z	Niplav Yushtun™: A Large Variety of Extremely Good Posts
-2021-10-11T08:33:41.000000Z	The Racist in the Cave
-2021-10-11T14:43:27.000000Z	i innoculated myself against emacs by first & only playing tetris in it
-2021-10-11T14:45:19.000000Z	“you guys are getting added to groupchats?”
-2021-10-18T23:52:46.000000Z	how _do_ you prove that n=Δ+Δ'+Δ''?
-2021-10-19T00:01:09.000000Z	we have the fermat polygonal theorem and pollock's polyhedral numbers conjecture. can we generalise this into the n-polytopal conjecture?
-2021-10-22T09:47:11.000000Z	wagmi (or, unfortunately, nigmi)
-2021-10-22T09:47:18.000000Z	at least waitt
-2021-10-22T09:47:27.000000Z	everybody is an egg for buddha nature
-2021-10-22T10:04:19.000000Z	otoh i don't trust gov to do pigovian taxes well either
-2021-10-22T10:04:25.000000Z	fucken double-binds
-2021-10-23T10:29:04.000000Z	walking through carefully calculated rivers of blood
-2021-12-18T11:12:29.000000Z	cats are better than dogs because, well, have you ever stepped in catshit?
-2021-12-18T11:13:06.000000Z	“spiritual but not religious” <=> “consequentialist but not utilitarian”
-2021-12-18T11:15:11.000000Z	your incentives are bad, and so are you
-2021-12-18T11:39:09.000000Z	valley of bad rationality girl
 2021-12-29T18:05:38.000000Z	gnonomics
 2021-12-31T00:35:25.000000Z	well, what if my values include a constraint that my values shouldn't be optimized by an outside optimizer?
 2021-12-31T00:38:18.000000Z	shedding, shedding!
