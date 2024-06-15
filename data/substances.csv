@@ -447,3 +447,6 @@ datetime,substance,amount,experiment,id,prediction
 2024-06-09T23:21:51+02:00,melatonin,0.375mg,,,
 2024-06-10T09:25:24+02:00,caffeine,200mg,,,
 2024-06-10T23:30:29+02:00,melatonin,0.375mg,,,
+2024-06-14T10:00:00+02:00,vitamind3,25μg,,,
+2024-06-14T10:00:00+02:00,vitaminb12,500mg,,,
+2024-06-14T22:19:16+02:00,creatine,3g,,,

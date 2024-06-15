@@ -152,6 +152,11 @@ psychologically and physiologically to a degree that they do not desire
 to reproduce, or if people have a strong desire to leave their children
 unmodified (this seems quite likely).
 
+### See Also
+
+* [Procrastination Paradoxes: the Good, the Bad, and the Ugly (scasper, 2020)](https://www.lesswrong.com/posts/5a9Xz3mhYF6c2Zwgn/procrastination-paradoxes-the-good-the-bad-and-the-ugly)
+* [The Procrastination Paradox (Brief technical note) (Eliezer Yudkowsky, 2013)](./doc/cs/ai/alignment/agent_foundations/the_procrastination_paradox_yudkowsky_2013.pdf)
+
 Better Names for Things
 ------------------------
 
@@ -2006,5 +2011,89 @@ How does this relate to
 Field-Specific Low-Information Priors
 --------------------------------------
 
-* [~](https://www.metaculus.com/questions/1490/which-percentage-of-metaculus-questions-resolving-in-q1-2019-will-resolve-positively/)[4](https://www.metaculus.com/questions/804/1000th-binary-question-resolution-is-positive/)[0](https://www.metaculus.com/questions/1475/which-percentage-of-metaculus-questions-resolving-from-october-1st-to-december-31st-2018-inclusive-will-resolve-positively/)[​%](https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons) of questions worth asking resolve as true
-* One can expect a trait to, on average, have 50% heritability<!--TODO: links?-->
+1. [~](https://www.metaculus.com/questions/1490/which-percentage-of-metaculus-questions-resolving-in-q1-2019-will-resolve-positively/)[4](https://www.metaculus.com/questions/804/1000th-binary-question-resolution-is-positive/)[0](https://www.metaculus.com/questions/1475/which-percentage-of-metaculus-questions-resolving-from-october-1st-to-december-31st-2018-inclusive-will-resolve-positively/)[​%](https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons) of questions worth asking resolve as true
+2. One can expect a trait to, on average, have 50% heritability<!--TODO: links?-->
+3. The top 2.5% of global health and policy interventions [are 8-20 times more effective than the mean intervention, and 20-200 times more effective than the median intervention](https://80000hours.org/2023/02/how-much-do-solutions-differ-in-effectiveness/#patterns-in-the-data-overall).
+
+Fat Tails Discourage Compromise
+--------------------------------
+
+Say that we have a set of options, such as (for example) [wild animal
+welfare](https://en.wikipedia.org/wiki/Wild_animal_welfare) interventions.
+
+Say also that you have two axes along which you can score those
+interventions: *popularity* (how much people will like your intervention)
+and *effectiveness* (how much the intervention actually helps wild
+animals).
+
+Assume that we (for some reason) can't convert between and compare those
+two properties.
+
+Should you then pick an intervention that is a compromise on the two
+axes—that is, it scores decently well on both—or should you max out
+on a particular axis?
+
+One thing you might consider is the distribution of options
+along those two axes: the distribution of interventions can
+[normal](https://en.wikipedia.org/wiki/Normal-distribution) on for both
+popularity and effectiveness, or the underlying distribution could be
+[lognormal](https://en.wikipedia.org/wiki/Lognormal_Distribution)
+for both axes, or they could be mixed (e.g. normal for popularity,
+and lognormal for effectiveness).
+
+Intuitively, the distributions seem like they affect the kinds of
+tradeoffs we can make, how could we possibly figure out how?
+
+…
+
+…
+
+…
+
+![](./img/fat_tails/monte_carlo.jpg "Text: “you can't use Monte Carlo simulations for everything”. Image of sketch man with sunglasses making finger guns, with the text “that's where you're wrong kiddo” next to him")
+
+It turns out that if both properties are normally
+distributed, one gets a fairly large Pareto frontier, with a
+[convex](https://en.wikipedia.org/wiki/Convexity) set of options,
+while if the two properties are lognormally distributed, one gets a
+[concave](https://en.wikipedia.org/wiki/Concavity) set of options.
+
+![](./img/fat_tails/tails.png)
+
+(Code [here](./code/fat_tails/fat_tails.jl).)
+
+So if we believe that the interventions are normally distributed
+around popularity and effectiveness, we would be justified
+in opting for an intervention that gets us the best of both
+worlds, such as sterilising stray dogs or finding less painful
+[rodenticides](https://en.wikipedia.org/wiki/Rodenticides).
+
+If we, however, believe that popularity and effectiveness are lognormally
+distributed, we instead want to go in hard on only one of those,
+such as [buying brazilian beef that leads to Amazonian rainforest being
+destroyed](https://reducing-suffering.org/how-rainforest-beef-production-affects-wild-animal-suffering/),
+or writing a book of poetic short stories that detail the harsh life of
+wild animals.
+
+What if popularity of interventions is normally distributed, but
+effectiveness is lognormally distributed?
+
+![](./img/fat_tails/different.png)
+
+In that case you get a pretty large Pareto frontier which almost looks
+linear to me, and it's not clear anymore that one can't get a good
+trade-off between the two options.
+
+So if you believe that [heavy tails dominate with the things you care
+about](https://80000hours.org/2023/02/how-much-do-solutions-differ-in-effectiveness/),
+on multiple dimensions, you might consider taking a [barbell
+strategy](https://en.wikipedia.org/wiki/Barbell_strategy) and taking
+one or multiple options that each max out on a particular axis.
+
+If you have thin tails, however, taking a [concave
+disposition](https://vitalik.eth.limo/general/2020/11/08/concave.html)
+towards your available options can give you most of the value you want.
+
+### See Also
+
+* [Being the (Pareto) Best in the World (johnswentworth, 2019)](https://www.lesswrong.com/posts/XvN2QQpKTuEzgkZHY/being-the-pareto-best-in-the-world)

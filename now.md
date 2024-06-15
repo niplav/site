@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2024-05-01, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2024-06-15, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -20,7 +20,8 @@ part of my free time. I apologize for any inconveniences.
 Writing
 -------
 
-I'm currently not writing very much.
+I am currently not writing very much. If I find the time, I slowly fix
+the [daygame cost-benefit analysis](./daygame_cost_benefit.md).
 
 ### Abandoned
 
@@ -56,7 +57,6 @@ Reading
 Currently, I am actively reading the following books:
 
 * An Infinitely Large Napkin (Evan Chen, 2023)
-* Accelerated Expertise (Robert R. Hoffman/Paul Ward/Paul J. Feltovich/Lia DiBello/Stephen M. Fiore/Dee H. Andrews, 2014)
 * Bombay. Maximum City (Suketu Mehta, 2005)
 * Designing Data-Intensive Applications (Martin Kleppmann, 2017)
 * Grand Futures (Anders Sandberg, 2023)
