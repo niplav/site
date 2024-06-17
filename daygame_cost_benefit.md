@@ -446,7 +446,17 @@ approached:
 
 The Klong code describing the date- and lay- ratios is then as follows:
 
-<!--TODO-->
+	layceil::0.032999999999999995
+	layslope::-0.00032469342601662376
+	layintercept::1.0921062524727312
+
+	layratio::{layceil*1%(1+exp(layintercept+layslope*x))}
+
+	dateceil::0.06999999999999999
+	dateslope::-0.00032682619283946467
+	dateintercept::0.4249112313623176
+
+	dateratio::{dateceil*1%(1+exp(dateintercept+dateslope*x))}
 
 #### Visualizing the Data
 
@@ -507,39 +517,44 @@ with 15 minutes for one approach.
 
 The opportunity cost of daygame is unclear—what would one be doing
 instead? One could dream of daygamers instead cultivating friendships,
-learning languages or instruments and meditating, and while that could
+learning languages or making music or meditating, and while that could
 certainly sometimes be the case, a lot of that time would also be spent
 on mindlessly browsing the internet, watching netflix or doing other
 things that aren't terribly fulfilling or valuable. Economists often
 assume that the opportunity cost of an activity to be the money one
-could have earned with a minimum wage job during that time<!--TODO:
-[citation needed]-->, but that seems to go too far: an additional hour
-spent working might be net negative, even with taking wage into account
-(working hours have diminishing and at some point negative [marginal
-utility](https://en.wikipedia.org/wiki/Marginal_utility) because of
-exhaustion).
+could have earned during that time, so I'll just go with that.
 
-<!--TODO: minimum wage in different western countries
-https://en.wikipedia.org/wiki/Minimum_wage-->
+The [Clearer Thinking
+tool](https://programs.clearerthinking.org/what_is_your_time_really_worth_to_you.html)
+for the value of my time returns 20€/hour:
 
+	oppcost::20
+
+Daygamers who could earn more with their day job might want to adjust
+this number upwards.
+
+##### Skepticism
+
+I am skeptical that the opportunity cost should be ones wage: an
+additional hour spent working might be net negative, even with taking wage
+into account (working hours have diminishing and at some point negative
+[marginal utility](https://en.wikipedia.org/wiki/Marginal_utility)
+because of exhaustion).
+
+It may be that daygame only replaces *productive* personal time, that
+the energy exerted in daygame misses in other productive activities,
+while the amount spent on downtime & unfulfilling stuff stays constant.
+
+But such things are difficult to quantify, so I'll stick with the
+opportunity cost.
+
+<!--
+TODO: move to "other benefits"
 Furthermore, the physical activity while doing daygame is broadly
 good: most people probably don't spend enough time outside walking
 around (reducing [Vitamin D](https://en.wikipedia.org/wiki/Vitamin-D)
 deficiency), and interacting with other people.
-
-On the other hand, it may be that daygame only replaces "productive
-personal time", that the energy exerted in daygame misses in other
-productive activities, while the amount spent on downtime & unfulfilling
-stuff stays constant.
-
-The [Clearer Thinking
-tool](https://programs.clearerthinking.org/what_is_your_time_really_worth_to_you.html)
-for the value of my time returns 15€/hour:
-
-	oppcost::15
-
-Daygamers who could earn more with their day job might want to adjust
-this number upwards.
+-->
 
 #### Costs from Dates
 
@@ -683,11 +698,13 @@ or long-term partners, even if the overwhelming majority is only a
 one-night stand).
 
 I will also assume that the dimimishing returns on sex with different
-partners are linear. My intuition for this comes from a handwavey
+partners are [radical](https://en.wikipedia.org/wiki/Square-root).
+
+My intuition is that it should be linear, which stems from the handwavey
 evolutionary argument that men should value additional offspring with
-randomly selected women with a constant marginal return, since
-more diverse offspring from a basically infinite population of mating
-partners result (in expectation) in linearly more grandchildren.
+randomly selected women with a constant marginal return, since more
+diverse offspring from a basically infinite population of mating partners
+result (in expectation) in linearly more grandchildren.
 
 <!--
 TODO: Function that is first linear and then becomes logarithmic?
@@ -701,13 +718,15 @@ competition with other mens sperm.
 <!--TODO: this is not true? Finding a good match, linear as one drives
 down the probability of not having fathered children, etc-->
 
-These numbers are only preliminary, informed by reading daygame blogs.
-
-So we can calculate that the value of seducing one woman is
+So we can calculate that the value of sleeping with one woman is
 
 		.l("math")
 		300*ln(4*e)
 	715.888308335967204
+
+<!--TODO: what if we tried to maximize the utility from sleeping with a
+woman some number of times? Especially since sleeping with more beautiful
+women is a higher initial return-->
 
 #### A Sense of Pride and Accomplishment
 
@@ -736,7 +755,8 @@ pride and accomplishment and the expected value from having sex. Note
 that this number is cumulative, as it considers the benefit of all lays
 up for `x` approaches:
 
-	layvals::{prideval*ln(e*(x+1))*ratio(x)+prostcost*laynum*ratio(x)*x}
+	pridevals::{prideval*ln(e*(x+1))*layratio(x)*x}
+	layvals::{prostcost*ln(e*laynum)*layratio(x)*x}
 
 This looks like this for up to 10000 approaches:
 
@@ -754,6 +774,7 @@ This looks like this for up to 10000 approaches:
 
 The benefit of approaching is then simply the value of the sex:
 
+	benefit::{pridevals(x)+layvals(x)}
 	benefit::{layvals(x)}
 
 ### Value
@@ -761,14 +782,14 @@ The benefit of approaching is then simply the value of the sex:
 To now calculate the optimal amount of daygame, one simply calculates
 the difference between cumulative benefit and cumulative cost for all
 possible number of approaches up to the maximum possible number (in this
-case 10000, more than that seems very difficult) and chooses the maximum:
+case 5000, which is a common number for expert daygamers) and chooses the maximum:
 
-		maxappr::10000
+		maxappr::5000
 		vals::{benefit(x)-cost(x)}'!maxappr
 		optim::*>vals
-	484
+	4999
 		optimben::vals@*>vals
-	969.13165157833204
+	435138.941060850614
 
 So one can conclude that 484 approaches are optimal under these
 assumptions, with a value of \\$969.13.
@@ -799,10 +820,6 @@ This can be visualized as well:
 	draw()
 
 ![Visualizing the cost & benefit of daygame, against each other, as well as the optimum](img/daygame_cost_benefit/complete.png "Visualizing the cost & benefit of daygame, against each other, as well as the optimum")
-
-<!--
-### Solving Symbolically
--->
 
 A Slightly More Complex Model
 ------------------------------
@@ -1117,3 +1134,6 @@ Appendix B: A Slightly More Complex Guesstimate Model of the Value
 
 Appendix C: Empirically Checking the Assumptions
 -------------------------------------------------
+
+Appendix D: Some Questions About the Value of Offspring
+--------------------------------------------------------
