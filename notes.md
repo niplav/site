@@ -2035,7 +2035,7 @@ on a particular axis?
 
 One thing you might consider is the distribution of options
 along those two axes: the distribution of interventions can
-[normal](https://en.wikipedia.org/wiki/Normal-distribution) on for both
+be [normal](https://en.wikipedia.org/wiki/Normal-distribution) on for both
 popularity and effectiveness, or the underlying distribution could be
 [lognormal](https://en.wikipedia.org/wiki/Lognormal_Distribution)
 for both axes, or they could be mixed (e.g. normal for popularity,

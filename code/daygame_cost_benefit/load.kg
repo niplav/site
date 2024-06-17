@@ -1,11 +1,11 @@
 .l("math")
 .l("nstat")
 
-oppcost::15
+oppcost::20
 
-prostcost::300
+prostcost::250
 prideval::400
-laynum::2
+laynum::4
 firstlayval::prideval+prostcost*(1+ln(laynum))
 
 datecost::20
@@ -41,8 +41,9 @@ dateintercept::0.4249112313623176
 
 dateratio::{dateceil*1%(1+exp(dateintercept+dateslope*x))}
 
-layvals::{firstlayval*layratio(x)*x}
-benefit::{layvals(x)}
+pridevals::{prideval*ln(e*(x+1))*layratio(x)*x}
+layvals::{prostcost*ln(e*laynum)*layratio(x)*x}
+benefit::{pridevals(x)+layvals(x)}
 
 cost::{(oppcost*x%apprperhour)+(dateratio(x)*datecost*avgdates*x)+dateratio(x)*datelen*avgdates*oppcost}
 
