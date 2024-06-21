@@ -1,0 +1,26 @@
+#!/usr/bin/env rc
+
+medfile='/home/niplav/proj/site/data/meditations.csv'
+
+number=`{echo `{awk -F, '{print($1)}' <$medfile | sort -n | tail -1}^'+1' | bc}
+startepoch=`{echo `{date '+%s'}^'*1000' | bc}
+
+fn readval {
+	dmenu -l 10 -fn 'monospace:size=10' -nb '#ffffff' -nf '#000000' -sb '#ffb405'
+}
+
+mpv /home/niplav/proj/site/aud/meditation.ogg
+
+sleep $1
+
+mpv /home/niplav/proj/site/aud/meditation.ogg &
+
+endepoch=`{echo `{date '+%s'}^'*1000' | bc}
+
+duration=`{printf '%d-%d\n' $endepoch $startepoch | bc}
+
+mindfulness=`{echo 'mindfulness' | readval}
+concentration=`{echo 'concentration' | readval}
+comment=`{echo 'comment' | readval}
+
+printf '%s,%s,%s,%s,%s,%s,%s,\n' $number $startepoch $endepoch $duration $mindfulness $concentration $"comment>>$medfile

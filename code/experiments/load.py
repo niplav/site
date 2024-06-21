@@ -221,3 +221,6 @@ def analyze(experiment, substance, placebo):
 	result.loc['p',:]=llrt_pval(result.loc['λ',:])
 
 	return result
+
+def logscore(o,p):
+        return np.mean(o*np.log(p)+(np.ones_like(o)-o)*np.log(np.ones_like(p)-p))

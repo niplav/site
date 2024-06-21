@@ -14,7 +14,7 @@ machines](https://en.wikipedia.org/wiki/Turing_Machine), and that this
 sets humans apart from other pieces of matter.<!--TODO: link twitter-->
 
 Examples are [this
-thread](https://twitter.com/tmdanis/status/1769471661001109979)
+thread](http://nitter.poast.org/tmdanis/status/1769471661001109979)
 and a short section in [an interview with David
 Deutsch](https://www.dwarkeshpatel.com/i/52511224/will-ais-be-smarter-than-humans):
 

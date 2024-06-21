@@ -125,7 +125,7 @@ How Good Are We At Forecasting?
 		* Does it decrease at all, or just oscillate wildly?
 		* How quickly does performance degrade in different categories of questions (finance, meteorology, global economics, technological development) and by different forecasters (prediction markets, superforecasters & teams)?
 	* Are there people who are better long-term forecasters and people who are better short-term forecasters?
-		* See [here](https://twitter.com/Simeon_CPS/status/1655277260524453892)
+		* See [here](http://nitter.poast.org/Simeon_CPS/status/1655277260524453892)
 * How good are our forecasts on low-probability events?
 * How good are our forecasts on extinction events?
 * How good are our forecasts in situations where we have historical discontinuities?
@@ -149,7 +149,7 @@ How Good Are We At Forecasting?
 * Are more extreme views or more conservative views more accurate?
 	* Question originally asked in [Hanson 2007](https://www.overcomingbias.com/2007/02/is_truth_in_the.html)
 	* Are there people who are better long-term forecasters and people who are better short-term forecasters?
-		* See [here](https://twitter.com/Simeon_CPS/status/1655277260524453892)
+		* See [here](http://nitter.poast.org/Simeon_CPS/status/1655277260524453892)
 * How well does forecasting expertise in one domain transfer to another?
 	* That is, if a forecaster starts by forecasting in some domain `$D$`, and after a while switches to domain `$D'$`, how much better is the forecaster than if he'd started out in `$D'$` without any other experience?
 	* This would be even more interesting when also having a metric for the difference between `$D$` and `$D'$`.

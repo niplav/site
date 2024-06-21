@@ -114,7 +114,7 @@ a forum one can at least link or lurk without creating an account,
 and potentially just shove it into the internet archive if need
 be! "[anicca](https://en.wikipedia.org/wiki/Impermanence), anicca…"). I
 do, however, sometimes participate in the guilty pleasure of [ephemeral
-shitposting](https://twitter.com/niplav_site).
+shitposting](http://nitter.poast.org/niplav_site).
 
 I'm not big into linguistic prescriptivism (although it
 is another one of those guilty pleasures I [occasionally engage
@@ -263,8 +263,7 @@ After some thought, I have decided to go with the handbook recommendation.
 * links for authors to Wikipedia
 * capitalization of headings
 * proselint
-* fixing 404'ed links
-* twitter links are nitter.net links
+* fixing 404'ed links* nitter.poast.orgks are nitter.poast.org links
 * books are linked to goodreads page (instead of, say Amazon or Wikipedia)
 -->
 
@@ -468,15 +467,15 @@ but rather cycles).
 * [Skaði þjazidottir](https://ulthar.xyz): Gather some stoic people with guns, who have written low-level code
 * [Nyx](https://nyxus.xyz/): Brightly empathetically menacing (we all know she's just joking)
 * [Andrew McKenzie](http://andrewtmckenzie.com/), who writes essays on brain preservation [here](http://andrewtmckenzie.com/) and notes on neurobiology [here](https://neurobiology.substack.com/)
-* [Sam Harsimony](https://splittinginfinity.substack.com/), [Wordpress](https://harsimony.wordpress.com/): Polymath
 * [Mesaoptimizer](https://mesaoptimizer.com/)
 * [Matthew Baggins](https://matthewbaggins.github.io/)
-* [norvid_studies](https://norvidshoshin.wordpress.com/blog/), [𝕏](https://twitter.com/norvid_studies)
+* [norvid_studies](https://norvidshoshin.wordpress.com/blog/), [𝕏](http://nitter.poast.org/norvid_studies)
 * [exdiegesis](https://x.com/exdiegesis/)/[mir](https://www.lesswrong.com/users/mir)/[rime](https://forum.effectivealtruism.org/users/elua)
 
 If you're not on here but think you should be, [contact me](#Contact).
 
 <!--TODO: add 1a3orn, etale.site, Alex K. Chen, Burny, Nuño?-->
+<!--[Sam Harsimony](https://splittinginfinity.substack.com/), [Wordpress](https://harsimony.wordpress.com/): Polymath.-->
 
 The Author
 ----------

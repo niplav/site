@@ -391,8 +391,8 @@ by a directed graph by having the edges `$\omega_1 \rightarrow \omega_2,
 
 ### Algorithms for Resolving Inconsistencies
 
-Any method for resolving inconsistent graphs is a function $f:
-\mathfrak{P}_{\Omega} \rightarrow \mathcal{P}(\mathfrak{C}_{\Omega})$
+Any method for resolving inconsistent graphs is a function `$f:
+\mathfrak{P}_{\Omega} \rightarrow \mathcal{P}(\mathfrak{C}_{\Omega})$`
 that maps any inconsistent graph to a set of consistent graphs which
 might contain more than one element since the inconsistent graph might
 not fully determine its consistent counterpart.
@@ -400,21 +400,25 @@ not fully determine its consistent counterpart.
 #### Finding Consistent Graphs with the Smallest Graph-Edit Distance
 
 One potential class of such functions would be ones that minimize a
-"distance" $d: \mathfrak{G}_{\Omega} \times \mathfrak{C}_{\Omega}
-\rightarrow \mathbb{R}$ between the (possibly inconsistent) graph and
+"distance" `$d: \mathfrak{G}_{\Omega} \times \mathfrak{C}_{\Omega}
+\rightarrow \mathbb{R}$` between the (possibly inconsistent) graph and
 its consistent counterparts.
 
-The function $f_m$ would then return
+The function `$f_m$` would then return
 
-$$f_d(G)=\underset{C \in C_{\Omega}}{\text{argmin }} d(C, G)$$
+<div>
+	$$f_d(G)=\underset{C \in C_{\Omega}}{\text{argmin }} d(C, G)$$
+</div>
 
-We propose a candidate for $f_d$, which minimizes the edge-graph-edit
-distance between any $G \in \mathfrak{P}_{\Omega}$ and the set of
-consistent versions $\mathbf{C} \subseteq \mathfrak{C}_{\Omega}$ of $G$.
+We propose a candidate for `$f_d$`, which minimizes the edge-graph-edit
+distance between any `$G \in \mathfrak{P}_{\Omega}$` and the set of
+consistent versions `$\mathbf{C} \subseteq \mathfrak{C}_{\Omega}$` of `$G$`.
 
 Formally:
 
-$$f_{\text{EGED}}(G)=\underset{C \in C_{\Omega}}{\text{argmin }} \text{EGED}(C, G)$$
+<div>
+	$$f_{\text{EGED}}(G)=\underset{C \in C_{\Omega}}{\text{argmin }} \text{EGED}(C, G)$$
+</div>
 
 where $\text{EGED}(X,Y)$ is the smallest number of edges that need to be
 added or removed from $X$ to create $Y$. The addition or removal of
@@ -422,10 +426,10 @@ vertices is not allowed, since the elements of $\Omega$ can be
 distinguished from one another.
 
 This function is intuitively appealing: Let
-$G \in \mathfrak{P}_{\Omega}$ be a (possibly inconsistent) preference
-over $\Omega$. Then let $\omega_1, \omega_2 \in \Omega$ be two possible
-outcomes. the existence of an edge $(\omega_1, \omega_2) \in V_P$
-represents that $\omega_1$ is preferred over $\omega_2$.
+`$G \in \mathfrak{P}_{\Omega}$` be a (possibly inconsistent) preference
+over `$\Omega$`. Then let `$\omega_1, \omega_2 \in \Omega$` be two possible
+outcomes. the existence of an edge `$(\omega_1, \omega_2) \in V_P$`
+represents that `$\omega_1$` is preferred over `$\omega_2$`.
 
 Then, given $G$, if one desired a consistent version of $G$, one would
 want to give up *as few as possible* of such rankings of two options.

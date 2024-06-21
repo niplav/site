@@ -1,20 +1,22 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-04, modified: 2024-04-27, language: english, status: in progress, importance: 7, confidence: certain*
+*author: niplav, created: 2023-01-04, modified: 2024-06-21, language: english, status: in progress, importance: 7, confidence: certain*
 
 > __There are too many possible quantified self experiments to run. Do
-hobbyist prediction platforms[^1] make priorisation easier? I test this by
-setting up [multiple markets](#Markets), in order to run two experiments
-(the best one, and a random one), mostly for the effects of various
-[nootropics](https://en.wikipedia.org/wiki/Nootropics) on absorption
-in meditation.__
+hobbyist prediction platforms[^1] make priorisation easier? I test
+this by setting up [multiple markets](#Markets), in order to run two
+experiments (the best one, and a random one), mostly for the effects
+of various [nootropics](https://en.wikipedia.org/wiki/Nootropics)
+on absorption in meditation. After one experiment, the [log
+score](https://en.wikipedia.org/wiki/Proper_scoring_rule#Logarithmic_score)
+of the market is -0.326 — pretty good.__
 
 Using Prediction Platforms to Select Quantified Self Experiments
 =================================================================
 
 [dynomight 2022](https://dynomight.net/prediction-market-causation/#7)
-has a cool proposal:
+has a very cool proposal:
 
 > Oh, and by the way are you THE NSF or DARPA or THE NIH or A BILLIONAIRE
 WHO WANTS TO SPEND LOTS OF MONEY AND BRAG ABOUT HOW YOU ADVANCED THE
@@ -31,7 +33,7 @@ about this:
 *—[dynomight](https://dynomight.net/prediction-market-causation/), [“Prediction market does not imply causation”](https://dynomight.net/prediction-market-causation/), 2022*
 
 Well, I'm neither a billionaire nor the NSF or DARPA, but I
-__have__ run [two](./nootropics.html#Experiment_B_SelfBlinded_RCT)
+*have* run [two](./nootropics.html#Experiment_B_SelfBlinded_RCT)
 [shitty](./nootropics.html#Experiment_A_SelfBlinded_RCT) self-blinded
 RCTs on myself already, and I'm certainly not afraid of the
 [CFTC](https://en.wikipedia.org/wiki/Commodity_Futures_Trading_Commission).
@@ -40,8 +42,8 @@ And indeed I don't have a shortage of ideas on things I
 (I try to collect m=50 samples in each RCT, which (with buffer-days off)
 is usually more than 2 months of data collection).
 
-So I'll do what [@saulmunn](https://nitter.net/saulmunn/) pointed [out
-to me](https://nitter.net/saulmunn/status/1671923161695240192)
+So I'll do what [@saulmunn](http://nitter.poast.org/saulmunn/) pointed [out
+to me](http://nitter.poast.org/saulmunn/status/1671923161695240192)
 is a possibility: I'm going to do [futarchy (on)
 myself](https://www.lesswrong.com/posts/qZXy8kGkNFyqCfHEJ/you-can-do-futarchy-yourself)
 by setting up a set of markets of Manifold Markets with respect to the
@@ -75,22 +77,22 @@ other data](./data.html) during that time that will also be analyzed.
 
 ### Table of Current Market Status
 
-| Experiment                                                                                                                                       | Number of Traders | Trading Volume | Expected Effect Size<!--TODO: explain and/or change calculation?--> |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------- | -------------- | -------------------- |
-| [__L-Theanine + Caffeine__ vs. __Sugar__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-caffeine-ltheanine)  | 14                | M̶515           | __0.306__            |
-| [__Nicotine__ vs. __Normal chewing gum__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-nicotine-improve-m)  | 7                 | M̶342           | __0.437__            |
-| [__Modafinil__ vs. __Sugar__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-modafinil-improve)               | 11                | M̶668           | __0.337__            |
-| [__Vitamin D__ vs. __Sugar__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-vitamin-d-improve)               | 11                | M̶675           | __0.169__            |
-| [__Vitamin B12__ vs. __Sugar__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-vitamin-b12-improv)            | 7                 | M̶303           | __0.182__            |
-| [__LSD Microdosing__ vs. __Water__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-microdosed-lsd-imp)        | 6                 | M̶174           | __0.286__            |
-| [__CBD Oil__ vs. __Similar-Tasting Oil__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-cbd-improve-medita)  | 9                 | M̶210           | __0.227__            |
-| [__L-Phenylalanine__ vs. __Sugar__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-lphenylalanine-imp)        | 7                 | M̶269           | __0.302__            |
-| [__Bupropion__ vs. __Sugar__ → *Happiness*](https://manifold.markets/NiplavYushtun/by-how-much-does-bupropion-improve)                           | 8                 | M̶303           | __0.337__            |
-| [__THC Oil__ vs. __Similar-Tasting Oil__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-thc-oil-improve-me)  | 10                | M̶230           | __0.344__            |
-| [__Intermittent Fasting__ vs. __Normal Diet__ → *Happiness*](https://manifold.markets/NiplavYushtun/by-how-much-does-intermittent-fasti)         | 13                | M̶228           | __0.348__            |
-| [__Pomodoro Method__ vs. __Nothing__ → *Productivity*](https://manifold.markets/NiplavYushtun/by-how-much-does-the-pomodoro-metho)               | 9                 | M̶300           | __0.397__            |
-| [__Bright Light__ vs. __Normal Light__ → *Happiness*](https://manifold.markets/NiplavYushtun/by-how-much-does-very-bright-light)                 | 9                 | M̶104           | __0.473__            |
-| [__Meditation__ vs. __No Meditation__ → *Sleep duration*](https://manifold.markets/NiplavYushtun/by-how-much-does-2-hours-of-meditat)            | 13                | M̶380           | __0.241__            |
+| Experiment                                                                                                                                       | Number of Traders | Trading Volume | Expected Effect Size<!--TODO: explain and/or change calculation?--> | Resolved Effect Size |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------- | -------------- | -------------------- | ----------------------- |
+| [__L-Theanine + Caffeine__ vs. __Sugar__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-caffeine-ltheanine)  | 14                | M̶515           | __0.306__            |                         |
+| [__Nicotine__ vs. __Normal chewing gum__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-nicotine-improve-m)  | 7                 | M̶342           | __0.437__            |                         |
+| [__Modafinil__ vs. __Sugar__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-modafinil-improve)               | 11                | M̶668           | __0.337__            |                         |
+| [__Vitamin D__ vs. __Sugar__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-vitamin-d-improve)               | 11                | M̶675           | __0.169__            |                         |
+| [__Vitamin B12__ vs. __Sugar__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-vitamin-b12-improv)            | 7                 | M̶303           | __0.182__            |                         |
+| [__LSD Microdosing__ vs. __Water__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-microdosed-lsd-imp)        | 6                 | M̶174           | __0.286__            |                         |
+| [__CBD Oil__ vs. __Similar-Tasting Oil__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-cbd-improve-medita)  | 9                 | M̶210           | __0.227__            |                         |
+| [__L-Phenylalanine__ vs. __Sugar__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-lphenylalanine-imp)        | 7                 | M̶269           | __0.302__            |                         |
+| [__Bupropion__ vs. __Sugar__ → *Happiness*](https://manifold.markets/NiplavYushtun/by-how-much-does-bupropion-improve)                           | 8                 | M̶303           | __0.337__            |                         |
+| [__THC Oil__ vs. __Similar-Tasting Oil__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-thc-oil-improve-me)  | 10                | M̶230           | __0.344__            |                         |
+| [__Intermittent Fasting__ vs. __Normal Diet__ → *Happiness*](https://manifold.markets/NiplavYushtun/by-how-much-does-intermittent-fasti)         | 13                | M̶228           | __0.348__            | [__0.26__](#Pomodoros)  |
+| [__Pomodoro Method__ vs. __Nothing__ → *Productivity*](https://manifold.markets/NiplavYushtun/by-how-much-does-the-pomodoro-metho)               | 9                 | M̶300           | __0.397__            |                         |
+| [__Bright Light__ vs. __Normal Light__ → *Happiness*](https://manifold.markets/NiplavYushtun/by-how-much-does-very-bright-light)                 | 9                 | M̶104           | __0.473__            |                         |
+| [__Meditation__ vs. __No Meditation__ → *Sleep duration*](https://manifold.markets/NiplavYushtun/by-how-much-does-2-hours-of-meditat)            | 13                | M̶380           | __0.241__            |                         |
 
 ### Self-Blinded Experiments
 
@@ -153,15 +155,15 @@ Blindeable:
 
 1. __Semaglutide__ vs. __Sugar__ → *Productivity* (tracking conscientiousness)
 2. __Melatonin__ vs. __Sugar__ → *Sleep duration*
-3. __Orexin-A__ vs. __Sugar__ → *Sleep duration*
+3. [__Orexin-A__](https://en.wikipedia.org/wiki/Orexin-A) vs. __Sugar__ → *Sleep duration*
 4. __Neuropeptide S__ vs. __Sugar__ → *Sleep duration*
 5. __Sodium Oxybate__ vs. __Sugar__ → *Sleep duration*
-6. __Galantamine__ vs. __Sugar__ → *Number of lucid dreams*
+6. [__Galantamine__](https://en.wikipedia.org/wiki/Galantamine) vs. __Sugar__ → *Number of dreams*
 
 Not blindeable:
 
-7. __Binaural Beats__ vs. __Silence__ → *Meditative Absorption*
-8. __Brown Noise__ vs. __Silence__ → *Meditative Absorption*
+7. [__Binaural Beats__](https://en.wikipedia.org/wiki/Binaural_beats) vs. __Silence__ → *Meditative Absorption*
+8. [__Brown Noise__](https://en.wikipedia.org/wiki/Brown_Noise) vs. __Silence__ → *Meditative Absorption*
 9. __Brown Noise__ vs. __Music__ → *Productivity*
 10. __Silence__ vs. __Music__ → *Productivity*
 11. __Time Since Last Masturbation__ → *Productivity*
@@ -219,32 +221,86 @@ with.
 
 ### Pomodoros
 
+| Value tracked        | Effect size d (λ, p, σ change) |
+| -------------------- | ------------------------------ |
+| Productivity         | 0.26 (λ≈6.26)                  |
+| Creativity           | -0.04 (λ≈0.58)                 |
+| Subjective length    | -0.147 (λ≈3.33)                |
+
+I ran the experiment from 2024-01-29 to 2024-06-17,
+using [spt](https://github.com/pickfire/spt) with [this
+script](./data/pomscript), managed by [this script](./data/pomanage).
+
+The data on whether a particular day was a pomodoro-method day was saved
+in [this file](./data/ispomodoro.csv), and the data on the pomodoros
+was saved in [this file](./data/pomodoros.csv).
+
+The code for loading and transforming the pomodoro data isn't
+particularly interesting, if you're curious you can find it in [this
+file](./code/experiments/load.py).
+
 	ispom=get_ispom()
 	mental=get_mental()
+
+Let's proceed to the analysis, then (using the same methodology as for my
+[nootropics experiments](.//nootropics.html#Statistical_Method):
+
 	mental_pom=pd.merge_asof(ispom, mental, left_on='date', right_on='datetime', direction='forward', tolerance=pd.Timedelta('1d'))
 	mental_pom=mental_pom[mental_pom['productivity'].notna()]
 	with_pom=mental_pom[mental_pom['ispomodoro']==1]
 	no_pom=mental_pom[mental_pom['ispomodoro']==0]
 	pom_ds=(with_pom[['productivity', 'creativity', 'sublen']].describe().loc['mean',:]-no_pom[['productivity', 'creativity', 'sublen']].describe().loc['mean',:])/mental_pom[['productivity', 'creativity', 'sublen']].describe().loc['std', :]
 	pom_d_sigmas=with_pom[['productivity', 'creativity', 'sublen']].describe().loc['std',:]-no_pom[['productivity', 'creativity', 'sublen']].describe().loc['std',:]
-	likelihood_ratio_test(placebo_likelihood_ratio(with_pom['productivity'], no_pom['productivity']))
+
+And the results are:
+
+	>>> pom_ds
+	productivity    0.259951
+	creativity     -0.041504
+	sublen         -0.147437
+	dtype: float64
+	>>> likelihood_ratio_test(placebo_likelihood_ratio(with_pom['productivity'], no_pom['productivity']))
+	6.225107192981073
+	>>> likelihood_ratio_test(placebo_likelihood_ratio(with_pom['creativity'], no_pom['creativity']))
+	0.5830070557412034
+	>>> likelihood_ratio_test(placebo_likelihood_ratio(with_pom['sublen'], no_pom['sublen']))
+	3.3290003000536625
+
+So the pomodoro method somewhat increases productivity (at medium
+statistical significance), and *maybe* decreases subjective length of
+the day a bit.
+
+I can now score the market:
+
+	def logscore(o,p):
+            return np.mean(o*np.log(p)+(np.ones_like(o)-o)*np.log(np.ones_like(p)-p))
+	p=np.array([0.06, 0.29, 0.39, 0.19, 0.07])
+	o=np.array([0, 0, 1, 0, 0])
+	logscore(outcomes, p)
+	-0.3258531953347593
+
+Honestly: The market did pretty well.
 
 Acknowledgements
 -----------------
 
 Many thanks to [clippy](https://manifold.markets/anonymous)
-([twitter](https://twitter.com/12leavesleft)) for M̶500,
+([twitter](http://nitter.poast.org/12leavesleft)) for M̶500,
 and [Tetraspace](https://manifold.markets/Tetraspace)
-([twitter](https://twitter.com/TetraspaceWest)) for M̶1000 — your
-funding of the sciences is greatly appreciated.
+([twitter](http://nitter.poast.org/TetraspaceWest)) for M̶1000, which I
+used to subsidize the markets. Also many thanks to the manifold admin
+[Genzy](https://manifold.markets/Gen) for subsidizing each market
+with M̶450.
 
-<!--TODO: credit manifold admins for also subsidising-->
+Your funding of the sciences is greatly appreciated.
 
 See Also
 ---------
 
-* [What I learned gathering thousands of nootropic ratings (troof, 2022)](https://troof.blog/posts/nootropics/)<!--TODO: read-->
 * [Replication Markets](https://replicationmarkets.com/)
+* [What I learned gathering thousands of nootropic ratings (troof, 2022)](https://troof.blog/posts/nootropics/)<!--TODO: read-->
+* [[Part 1] Amplifying generalist research via forecasting – Models of impact and challenges (jacobjacob/ozziegooen/Elizabeth/NunoSempere/bgold, 2019)](https://www.lesswrong.com/posts/cLtdcxu9E4noRSons/part-1-amplifying-generalist-research-via-forecasting-models)
+* [[Part 2] Amplifying generalist research via forecasting – results from a preliminary exploration (jacobjacob/ozziegooen/Elizabeth/NunoSempere/bgold, 2019)](https://www.lesswrong.com/posts/FeE9nR7RPZrLtsYzD)
 * Discussions
 	* [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/comments/18a4ojx/using_prediction_platforms_to_select_quantified/)
 	* [LessWrong](https://www.lesswrong.com/posts/2qQyKpXzbPov2Fmdr/please-bet-on-my-quantified-self-decision-markets)

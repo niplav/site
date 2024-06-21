@@ -138,8 +138,9 @@ such that `$X$` happens if any `$Y$` happens, and only then, and no two `$Y_k, Y
                 3. Determine `$P(X')=P(Y_1')+P(Y_2')+ \dots P(Y_n')$`.
 
 A keen reader will notice that recursive decomposition is similar to
-[Bayes nets](https://en.wikipedia.org/wiki/Bayesian_Network). True, though
-it doesn't deal as well with conditional probabilities.
+[Bayes nets](https://en.wikipedia.org/wiki/Bayesian_Network). True,
+though it doesn't deal as well with [conditional
+probabilities](https://en.wikipedia.org/wiki/Conditional_Probability).
 
 Using LLMs
 -----------

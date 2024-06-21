@@ -161,8 +161,8 @@ These algorithms follow a common pattern:
 ### Log-Odds Rounding
 
 A technique [explored
-by](https://twitter.com/tenthkrige/status/1412457737380839432)
-[@tenthkrige](https://twitter.com/tenthkrige/) explores rounding in
+by](http://nitter.poast.org/tenthkrige/status/1412457737380839432)
+[@tenthkrige](http://nitter.poast.org/tenthkrige/) explores rounding in
 odds-form: The probabilities are converted into odds-form and there
 rounded to the nearest multiple of the perturbation parameter `$σ$`.
 
