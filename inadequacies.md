@@ -42,7 +42,7 @@ gov/ -->
 * People wear glasses and usually clean the *lenses*, but I've never heard of anyone who washes the *frame* of their glasses, despite wearing them on their face nearly the entire day.
 	* Other frequently used and rarely cleaned objects: Salt shakers and pepper mills, laptop keyboards, smartphones, (smart)watches. One might be tempted to argue that this infrequent cleaning is evidence that we are overly obsessive over cleanliness.
 * Instead of writing Bachelor's theses, students could simply improve or write Wikipedia articles.
-* Most recycling
+* Most likely recycling
 * [Pennies](https://en.wikipedia.org/wiki/Penny_debate_in_the_United_States), 1-cent and 2-cent coins (still present despite [a plurality of citizens in *all eurozone countries* being in favor of abolishing the 1-cent coin](https://europa.eu/eurobarometer/surveys/detail/2291))
 
 ### Fragile Tableware

@@ -170,9 +170,10 @@ with building superintelligent AI using brain-computer interfaces,
 and not specifically about whether such systems would be aligned or
 especially alignable.
 
-Arguments against the usefulness for brain-computer interfaces
-in AI alignment have been raised, but mostly in short form on
-twitter (for example [here](https://nitter.net/robbensinger/status/1405878940149944332)).
+Arguments against the usefulness for brain-computer
+interfaces in AI alignment have been raised,
+but mostly in short form on twitter (for example
+[here](http://nitter.poast.org/robbensinger/status/1405878940149944332)).
 This text attempts to collect arguments for and against brain-computer
 interfaces from an AI alignment perspective.
 

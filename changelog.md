@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2024-06-15, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2024-06-21, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -26,16 +26,20 @@ content.
 June 2024
 ----------
 
+* [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.md): [Pomodoro Method Edition](./platforms.md#Pomodoros). First result on how good small prediction markets are for selecting actions. The market did quite well, placing 39% on the actual outcome, and got a log score of -0.326. A little bit of evidence that [futarchy](https://en.wikipedia.org/wiki/Futarchy) is viable.
+* [Notes](./notes.html):
+	* [Fat Tails Discourage Compromise](./notes.html#Fat_Tails_Discourage_Compromise)
 * [About](./about.html):
 	* Added some [friends](./about.html#Friends_of_the_Site)
 	* [Self-Hiding Agreements](./about.html#SelfHiding_Agreements): I haven't made any.
-* [Notes](./notes.html):
-	* [Fat Tails Discourage Compromise](./notes.html#Fat_Tails_Discourage_Compromise)
 
 ### Links
 
 * [What Cost Variety? (Robin Hanson, 2014)](https://www.overcomingbias.com/p/what-cost-varietyhtml)
 * [Couvade (William Buckner, 2022)](https://traditionsofconflict.substack.com/p/couvade)
+* [Resolutions of mathematical conjectures over time (Asya Bergal, 2020)](https://aiimpacts.org/resolutions-of-mathematical-conjectures-over-time/)
+* [How much do solutions to social problems differ in their effectiveness? (Benjamin Todd, 2023)](https://80000hours.org/2023/02/how-much-do-solutions-differ-in-effectiveness/)
+* [You’re Good Enough, You’re Smart Enough, and People Would Like You (Zvi, 2017)](https://thezvi.wordpress.com/2017/04/09/youre-good-enough-youre-smart-enough-and-people-would-like-you/)
 
 May 2024
 ---------

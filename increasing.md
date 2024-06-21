@@ -360,4 +360,4 @@ validated numbers of awakenings were.
 
 ##### Drugs
 
-* Galantamine (h/t [Chapin](https://twitter.com/sashachapin/status/1743332700143174124))
+* Galantamine (h/t [Chapin](http://nitter.poast.org/sashachapin/status/1743332700143174124))

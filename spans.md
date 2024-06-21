@@ -8,7 +8,8 @@ been falling over the last two decades (prompted by curiosity about
 whether the introduction of the internet may be harmful to cognitive
 performance). I find little direct work on the topic, despite its wide
 appeal. Reviewing related research indicates that individual attention
-spans might indeed have been declining<sub>65%</sub>.__
+spans might indeed have been declining<sub>65%</sub>, but this is an area
+where an enterprising psychology student could rack up some citations.__
 
 Have Attention Spans Been Declining?
 =====================================
@@ -26,7 +27,7 @@ progress on complicated and difficult problems.
 I became interested in the topic after
 [seeing](https://edition.cnn.com/2023/01/11/health/short-attention-span-wellness/index.html)
 [several](https://eu.usatoday.com/story/life/health-wellness/2021/12/22/covid-attention-span-exhaustion/8926439002/)
-[claims](https://twitter.com/amix011/status/1603927882459672576) that
+[claims](http://nitter.poast.org/amix011/status/1603927882459672576) that
 e.g. [Generation Z](https://en.wikipedia.org/wiki/Generation_Z) allegedly
 has lower attention spans and that [clickbait has disastrous impacts on
 civilizational sanity](https://www.lesswrong.com/posts/YicoiQurNBxSp7a65),

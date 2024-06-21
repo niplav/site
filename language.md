@@ -399,7 +399,7 @@ Equivalences
 * biology : philosophy of mind :: ethology : meditation
 * attention : distraction :: awareness : spacedoutness
 * moloch : slack :: goodhart : swamp
-* [anarchy : singleton :: ANN computing : ALU computing](https://twitter.com/exdiegesis/status/1719884031871905953)
+* [anarchy : singleton :: ANN computing : ALU computing](http://nitter.poast.org/exdiegesis/status/1719884031871905953)
 * Need for cognition : charisma :: need for social interaction : intelligence
 * [log odds : probability :: epistemic status : confidence level](https://www.lesswrong.com/posts/xF7gBJYsy6qenmmCS/don-t-die-with-dignity-instead-play-to-your-outs?commentId=P9EiLDCgxRwJNi6bs)
 * Action : Inaction : Energy : Sluggishness : [Steam](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam) :: Noninteraction : Damage : Robustness : Fragility : [Hormesis](https://en.wikipedia.org/wiki/Hormesis)
@@ -549,7 +549,7 @@ Missing Emoji
 * Blanket
 * Pillow
 * [Lime](https://x.com/mulltuhh/status/1799816080875233538)
-* [Various egypt-themed emoji](https://twitter.com/hum_dunkin/status/1776579149739528668)
+* [Various egypt-themed emoji](http://nitter.poast.org/hum_dunkin/status/1776579149739528668)
 
 New Eponymous Laws
 -------------------

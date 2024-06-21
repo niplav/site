@@ -28,19 +28,19 @@ do by recording the outcomes. That's what I did.
 | ---------------------------------- | ------------------------------------------- | ----------------------------------- |
 |                                    |   *200 mg Caffeine (n=1, m=50)*             |   *500 mg L-theanine (n=1, m=50)*   |
 | Log-score substance prediction[^1] | -0.6                                        | -0.7                                |
-| Absorption                         | 0.61 (λ=13.3, p=0.00017, -0.072)            | 0.04 (λ=1.38, p=0.77, -0.07)        |
-| Mindfulness                        | 0.58 (λ=11.8, p=0.0007, 0.021)              | 0.12 (λ=0.72, p=0.89, -0.018)       |
-| Productivity                       | 0.58 (λ=28.9, p=1.3<sup>-12</sup>, 0.11)    | -0.28 (λ=5.51, p=0.109, 0.03)       |
-| Creativity                         | 0.45 (λ=51, p=4.6<sup>-27</sup>, 0.09)      | -0.12 (λ=5.05, p=0.14, -0.04)       |
-| Happiness                          | 0.27 (λ=10.6, p=0.002, 0.3)                 | 0.16 (λ=3.98, p=0.27, -0.155)       |
-| Contentment                        | 0.13 (λ=7.66, p=0.02, 0.47)                 | 0.25 (λ=6.83, p=0.04, -0.04)        |
-| Relaxation                         | -0.11 (λ=5, p=0.15, 0.42)                   | 0.12 (λ=1.5, p=0.74, 0.02)          |
-| Chastity[^2]                       | -0.14 (λ=1.9, p=0.64, 0.11)                 | -0.03 (λ=1.15, p=0.8, 0.25)         |
-| Subjective length of day           | Not collected                               | -0.015 (λ=0.35, p=0.95, -0.015)[^4] |
-| Flashcard ease                     | 0.003 (λ≈∞, p≈0, -0.009)                    | -0.072 (λ=∞, p≈0, -0.01)            |
-| Flashcard ease factor              | -0.039 (λ≈∞, p≈0, -32.7)                    | 0.0026 (λ=∞, p≈0, -18.9)            |
-| Flashcard new interval             | 0.011 (λ≈∞, p≈0, -1.88)                     | -0.016 (λ=∞, p≈0, 3.1)              |
-| Time per flashcard[^3]             | 0.006 (λ≈∞, p≈0, 273.4)                     | 0.003 (λ=∞, p≈0, 13.66)             |
+| Absorption                         | 0.61 (λ≈13.3, p≈0.00017, -0.072)            | 0.04 (λ≈1.38, p≈0.77, -0.07)        |
+| Mindfulness                        | 0.58 (λ≈11.8, p≈0.0007, 0.021)              | 0.12 (λ≈0.72, p≈0.89, -0.018)       |
+| Productivity                       | 0.58 (λ≈28.9, p≈1.3<sup>-12</sup>, 0.11)    | -0.28 (λ≈5.51, p≈0.109, 0.03)       |
+| Creativity                         | 0.45 (λ≈51, p≈4.6<sup>-27</sup>, 0.09)      | -0.12 (λ≈5.05, p≈0.14, -0.04)       |
+| Happiness                          | 0.27 (λ≈10.6, p≈0.002, 0.3)                 | 0.16 (λ≈3.98, p≈0.27, -0.155)       |
+| Contentment                        | 0.13 (λ≈7.66, p≈0.02, 0.47)                 | 0.25 (λ≈6.83, p≈0.04, -0.04)        |
+| Relaxation                         | -0.11 (λ≈5, p≈0.15, 0.42)                   | 0.12 (λ≈1.5, p≈0.74, 0.02)          |
+| Chastity[^2]                       | -0.14 (λ≈1.9, p≈0.64, 0.11)                 | -0.03 (λ≈1.15, p≈0.8, 0.25)         |
+| Subjective length of day           | Not collected                               | -0.015 (λ≈0.35, p≈0.95, -0.015)[^4] |
+| Flashcard ease                     | 0.003 (λ≈∞, p≈0, -0.009)                    | -0.072 (λ≈∞, p≈0, -0.01)            |
+| Flashcard ease factor              | -0.039 (λ≈∞, p≈0, -32.7)                    | 0.0026 (λ≈∞, p≈0, -18.9)            |
+| Flashcard new interval             | 0.011 (λ≈∞, p≈0, -1.88)                     | -0.016 (λ≈∞, p≈0, 3.1)              |
+| Time per flashcard[^3]             | 0.006 (λ≈∞, p≈0, 273.4)                     | 0.003 (λ≈∞, p≈0, 13.66)             |
 
 I am especially interested in testing many different substances for
 their effect on meditation, while avoiding negative side effects. The

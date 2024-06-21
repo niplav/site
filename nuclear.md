@@ -140,7 +140,7 @@ like this:
 1. All nuclear powers in the world sign a treaty governing how nuclear weapons should be tested.
 2. Whenever someone wants to test a nuclear weapon, they announce details of this test a month in advance.
 	1. The blast yield.
-	1. If ICBM:
+	1. If [ICBM](https://en.wikipedia.org/wiki/ICBM):
 		1. Launch datetime & location.
 		2. Touchdown datetime & location.
 		3. The trajectory.

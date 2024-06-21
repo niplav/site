@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2024-06-15, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2024-06-21, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -35,11 +35,8 @@ These texts have been (for various reasons) abandoned.
 Data Collection
 ----------------
 
-At the moment I'm collecting data for a randomized
-experiment on the effectiveness of the [Pomodoro
-method](https://en.wikipedia.org/wiki/Pomodoro_Technique), in the context
-of my attempt at using [Manifold Markets](https://manifold.markets) to
-[estimate the results of quantified-self experiments](./platforms.html).
+At the moment I'm not collecting much data beyond [what I usually
+gather](./data.md).
 
 Programming
 -----------
@@ -61,5 +58,6 @@ Currently, I am actively reading the following books:
 * Designing Data-Intensive Applications (Martin Kleppmann, 2017)
 * Grand Futures (Anders Sandberg, 2023)
 * Growth (Vaclav Smil, 2020)
+* Schild's Ladder (Greg Egan, 2004)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)

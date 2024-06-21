@@ -313,7 +313,7 @@ Killing Old People Versus Infants
 
 [Would you rather kill anybody above the age
 of 55, or all infants who are less than 1 year
-old](https://nitter.net/Aella_Girl/status/1201004323771015168)? A
+old](http://nitter.poast.org/Aella_Girl/status/1201004323771015168)? A
 utilitarian estimate calculation.
 
 First, we have to find out how many people one
@@ -436,7 +436,6 @@ and a lack of technologies precludes any social acceptance.
 Below a matrix with probabilistic guesses and the expected values (with
 a unit of something roughly like "valence-adjusted human life year")
 of the combinations of these scenarios.
-
 
 |           | No technological success | Low technological success | Medium technological success | High technological success | |
 | --------------------- | ---------------- | ------------- | ------------------ | ----------------- | --------- |
@@ -1472,14 +1471,14 @@ Examples and Counter-examples for Zeyneps Razor
 
 Zeyneps razor (after [Zeynep
 Tufekci](https://en.wikipedia.org/wiki/Zeynep_Tufekci)) [states
-that](https://nitter.net/zeynep/status/1478766408691556353?lang=en)
+that](http://nitter.poast.org/zeynep/status/1478766408691556353?lang=en)
 first-order effects are rarely outweighed by [rebound effects](https://en.wikipedia.org/wiki/Rebound_effect_\(conservation\)).<!--TODO: state exactly!-->
 
 Examples:
 
 * Introducing seatbelts into cars and making them mandatory to wear does not lead to driving so reckless that accidents increase<!--TODO: link-->
 
-Counter-examples<!--TODO: describe ideal gas laws-->:
+Counter-principles<!--TODO: describe ideal gas laws-->:
 
 * [Jevons paradox](https://en.wikipedia.org/wiki/Jevons_paradox)
 * [Wirth's law](https://en.wikipedia.org/wiki/Wirth's_law)
@@ -1653,7 +1652,7 @@ One might think all we do is stamp-collecting.
 	* Stability theory
 		* [Poincaré maps](https://en.wikipedia.org/wiki/Poincaré_map) of linear [autonomous systems](https://en.wikipedia.org/wiki/Autonomous_system_\(Mathematics\))
 	* Game theory
-		* [Classification](https://www.lesswrong.com/s/yiFxBWDXnLpbWGTkK/p/KwbJFexa4MEdhJbs4) of [`$2 \times 2$` normal-form games](https://arxiv.org/pdf/1010.4727.pdf)
+		* [Classification](https://www.lesswrong.com/s/yiFxBWDXnLpbWGTkK/p/KwbJFexa4MEdhJbs4) of `$2 \times 2$` [normal-form games](https://arxiv.org/pdf/1010.4727.pdf)
 * Physics
 	* [Standard Model](https://en.wikipedia.org/wiki/Stellar_Classification)
 		* Classifies all [fundamental particles](https://en.wikipedia.org/wiki/Fundamental_particles)

@@ -98,7 +98,7 @@ live under. Hopefully both economists and animal advocates won't have
 to be annoyed as much in the future, but for the time being, we're still
 killing and eating animals.
 
-__6/10__
+__8/10__
 
 ### The Human Predicament (David Benatar, 2017)
 
@@ -208,7 +208,7 @@ in all its aspects is a bit too optimistic for me. But Brasington
 goes full memetic immune disorder on the Suttas, and the result is
 just…uninteresting?
 
-__6.5/10__
+__7/10__
 
 ### What We Owe The Future (William MacAskill, 2022)
 
@@ -373,7 +373,7 @@ obviously a bad idea.
 
 *—Stuart Russell, “Human Compatible” p. 171, 2019*
 
-__7/10__
+__6.5/10__
 
 ### The Machinery of Freedom (David Friedman, 2014)
 
@@ -398,9 +398,9 @@ libertarian proposals.
 
 Responsible for a certain cluster of people knowing surprisingly
 much about medieval icelandic law. I learned it from here, as well as
-Friedman's law — not yet used in a cost-benefit calculation, but surely
-feels like it could come in handy. (Some empirical demonstration of it
-would be nice.)
+[Friedman's law](https://en.wikipedia.org/wiki/Friedman's_Law) — not
+yet used in a cost-benefit calculation, but surely feels like it could
+come in handy. (Some empirical demonstration of it would be nice.)
 
 Complaint: Instead of rewriting or updating sections of the text, as
 one would think of a new edition, the things that have changed about the
@@ -726,7 +726,7 @@ in themselves, in two different scenarios:
 * Humans might become insane enough that further progress along relevant axes is halted, but not insane enough that civilization collapses. We get stuck oscillating around some technological level, until another existential catastrophe like nuclear war and resulting nuclear winter finishes us off.
 
 On the personal side, after being fooled by [people using GPT-3 to
-generate tweets](https://nitter.net/lxrjl/status/1376830454075129858)
+generate tweets](http://nitter.poast.org/lxrjl/status/1376830454075129858)
 and seeing at least one instance of observing
 someone [asking a commenter for the MD5 hashsum of a
 string](https://old.reddit.com/r/TheMotte/comments/qzfptl/culture_war_roundup_for_the_week_of_november_22/hmhnkzg/)
