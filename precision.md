@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-02-04, modified: 2023-09-19, language: english, status: finished, importance: 4, confidence: possible*
+*author: niplav, created: 2022-02-04, modified: 2023-09-19, language: english, status: maintenance, importance: 4, confidence: possible*
 
 > __I discuss proposals for a method that estimates how much predictive
 information additional degrees of precision in forecasts add and at which

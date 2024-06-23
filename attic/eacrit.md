@@ -1,7 +1,7 @@
 [home](./index.html)
 ---------------------
 
-*author: niplav, created: 2022-07-28, modified: 2022-07-28, language: english, status: notes, importance: 5, confidence: unlikely*
+*author: niplav, created: 2022-07-28, modified: 2022-07-28, language: english, status: abandoned, importance: 5, confidence: unlikely*
 
 > __A note on the effective altruism community pointing out a tension
 between truth-seeking and effectiveness present in the community.__

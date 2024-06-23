@@ -293,8 +293,9 @@ membership they are probably not going to need anyway. In this text,
 I will consider LEV by assuming there will be a certain year after which
 the probability of death from aging is practically zero.
 
-I somewhat arbitrarily set this year to 2080<!--TODO: find some estimates
-of LEV-->, though many futurists seem more optimistic<!--TODO source-->:
+I somewhat arbitrarily set this year to 2080<!--TODO: find some
+estimates of LEV, maybe Metaculus?-->, though many futurists seem more
+optimistic<!--TODO source-->:
 
 	levyear=2080
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2024-06-23, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2019-08-03, modified: 2024-06-23, language: english, status: draft, importance: 2, confidence: likely*
 
 > __Members of the [NoFap community](https://en.wikipedia.org/wiki/NoFap)
 frequently claim that abstinence from masturbation causally increases

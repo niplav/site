@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-01-30, modified: 2024-01-30, language: english, status: in progress, importance: 2, confidence: certain*
+*author: niplav, created: 2024-01-30, modified: 2024-01-30, language: english, status: finished, importance: 2, confidence: certain*
 
 > __I implement an obscure mathematical construct in an obscure
 programming language. Edge cases are encountered.__

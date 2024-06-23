@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-01-30, modified: 2024-04-18, language: english, status: in progress, importance: 8, confidence: certain*
+*author: niplav, created: 2024-01-30, modified: 2024-04-18, language: english, status: maintenance, importance: 8, confidence: certain*
 
 > __Testing nuclear weapons is actually good, because it removes
 incentives to build more & different weapons as a response to uncertainty
