@@ -578,7 +578,7 @@ areas](https://en.wikipedia.org/wiki/Blue-ice_area) and [ice
 quakes](https://en.wikipedia.org/wiki/Cryoseism) in the barren
 landscapes of the continent. Maybe already done better by [Werner
 Herzog](https://en.wikipedia.org/wiki/Encounters_at_the_End_of_the_World)?
-— I haven't seen it.
+— I haven't watched it.
 
 ### Prevent House of Leaves Movie
 

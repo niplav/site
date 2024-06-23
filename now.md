@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2024-06-21, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2024-06-23, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -20,8 +20,10 @@ part of my free time. I apologize for any inconveniences.
 Writing
 -------
 
-I am currently not writing very much. If I find the time, I slowly fix
-the [daygame cost-benefit analysis](./daygame_cost_benefit.md).
+I am currently not writing very much. If I find the time, I slowly
+fix the [daygame cost-benefit analysis](./daygame_cost_benefit.md),
+and the text for the [masturbation and cold approach success
+experiment](./masturbation_and_attractiveness.md).
 
 ### Abandoned
 

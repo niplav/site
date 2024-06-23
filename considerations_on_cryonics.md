@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2024-02-13, language: english, status: maintenance, importance: 7, confidence: remote*
+*author: niplav, created: 2019-10-18, modified: 2024-02-13, language: english, status: maintenance, importance: 7, confidence: possible*
 
 > __Is [cryonics](https://en.wikipedia.org/wiki/Cryonics)
 worth it, and if yes, should one

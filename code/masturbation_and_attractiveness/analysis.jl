@@ -1,4 +1,8 @@
-using DataFrames, CSV
+using DataFrames, CSV, HypothesisTests
 
-approaches=CSV.read("../../data/daygame_approaches.csv", DataFrame)
-sessions=CSV.read("../../data/daygame_sessions.csv", DataFrame)
+data=CSV.read("./data/masturbation_attractiveness.csv", DataFrame)
+
+before=filter(row->row["after"]==0, data)
+after=filter(row->row["after"]==1, data)
+
+MannWhitneyUTest(before[!, "progress"], after[!, "progress"])

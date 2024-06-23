@@ -1,92 +1,22 @@
 .l("csv")
 .l("nstat")
 
-:"Two sample-set t-test"
-:"x=data1, y=data2, z=p-value"
-
-:"example: two sample t-test"
-:"since n≥30, Student's t-distribution is approximated with a normal distribution"
-:"H₀: μ_{during}=μ_{after}"
-:"test with both α≤0.05 and α≤0.01"
-
-tstt::{t::sqr(((#y)+(#x)-2)%(%#x)+%#y)*(mu(x)-mu(y))%sqr((((#x)-1)*svar(x))+((#y)-1)*svar(y));
-:[t>qf(1-z);.p("μ_X≤μ_Y rejected (p≤",($z),")");.p("μ_X≤μ_Y accepted (p≤",($z),")")];
-:[(#t)>qf(1-z%2);.p("μ_X=μ_Y rejected (p≤",($z),")");.p("μ_X=μ_Y accepted (p≤",($z),")")];
-:[t<qf(z);.p("μ_X≥μ_Y rejected (p≤",($z),")");.p("μ_X≥μ_Y accepted (p≤",($z),")")]}
-
-.fc(.ic("../../data/masturbation_attractiveness_dummy_even.csv"));data::csv.load()
+.fc(.ic("../../data/masturbation_attractiveness_dummy_fadv.csv"));data::csv.load()
 
 data::{["" 1 "" 1]:$'x}'4_data
 
 data::{1_x}'data
 
 during::{*|x}'flr({1=*x};data)
-duringm::{*|x}'flr({(1=*x)&("m"=x@1)};data)
-duringf::{*|x}'flr({(1=*x)&("f"=x@1)};data)
 
 during.stag::#'=during@<during
-duringm.stag::#'=duringm@<duringm
-duringf.stag::#'=duringf@<duringf
-
 during.stagcum::|+\|during.stag
-duringm.stagcum::|+\|duringm.stag
-duringf.stagcum::|+\|duringf.stag
-
 during.perc::|%:'|during.stagcum
-duringm.perc::|%:'|duringm.stagcum
-duringf.perc::|%:'|duringf.stagcum
-
 during.cumperc::1,*\during.perc
-duringm.cumperc::1,*\duringm.perc
-duringf.cumperc::1,*\duringf.perc
 
 after::{*|x}'flr({0=*x};data)
-afterm::{*|x}'flr({(0=*x)&("m"=x@1)};data)
-afterf::{*|x}'flr({(0=*x)&("f"=x@1)};data)
 
 after.stag::#'=after@<after
-afterm.stag::#'=afterm@<afterm
-afterf.stag::#'=afterf@<afterf
-
 after.stagcum::|+\|after.stag
-afterm.stagcum::|+\|afterm.stag
-afterf.stagcum::|+\|afterf.stag
-
 after.perc::|%:'|after.stagcum
-afterm.perc::|%:'|afterm.stagcum
-afterf.perc::|%:'|afterf.stagcum
-
 after.cumperc::1,*\after.perc
-afterm.cumperc::1,*\afterm.perc
-afterf.cumperc::1,*\afterf.perc
-
-m::{*|x}'flr({"m"~x@1};data)
-f::{*|x}'flr({"f"~x@1};data)
-
-duringf.toignored::{:[x<2;x;0]}'duringf
-duringf.tostopped::{:[x<3;x;0]}'duringf
-duringf.toname::{:[x<4;x;0]}'duringf
-duringf.torejection::{:[x<5;x;0]}'duringf
-duringf.toflake::{:[x<6;x;0]}'duringf
-duringf.todate::{:[x<7;x;0]}'duringf
-
-afterf.toignored::{:[x<2;x;0]}'afterf
-afterf.tostopped::{:[x<3;x;0]}'afterf
-afterf.toname::{:[x<4;x;0]}'afterf
-afterf.torejection::{:[x<5;x;0]}'afterf
-afterf.toflake::{:[x<6;x;0]}'afterf
-afterf.todate::{:[x<7;x;0]}'afterf
-
-duringm.toignored::{:[x<2;x;0]}'duringm
-duringm.tostopped::{:[x<3;x;0]}'duringm
-duringm.toname::{:[x<4;x;0]}'duringm
-duringm.torejection::{:[x<5;x;0]}'duringm
-duringm.toflake::{:[x<6;x;0]}'duringm
-duringm.todate::{:[x<7;x;0]}'duringm
-
-afterm.toignored::{:[x<2;x;0]}'afterm
-afterm.tostopped::{:[x<3;x;0]}'afterm
-afterm.toname::{:[x<4;x;0]}'afterm
-afterm.torejection::{:[x<5;x;0]}'afterm
-afterm.toflake::{:[x<6;x;0]}'afterm
-afterm.todate::{:[x<7;x;0]}'afterm

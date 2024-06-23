@@ -23,4 +23,4 @@ mindfulness=`{echo 'mindfulness' | readval}
 concentration=`{echo 'concentration' | readval}
 comment=`{echo 'comment' | readval}
 
-printf '%s,%s,%s,%s,%s,%s,%s,\n' $number $startepoch $endepoch $duration $mindfulness $concentration $"comment>>$medfile
+printf '%s,%s,%s,%s,%s,%s,%s\n' $number $startepoch $endepoch $duration $mindfulness $concentration $"comment>>$medfile

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2024-01-17, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2023-01-06, modified: 2024-01-17, language: english, status: notes, importance: 3, confidence: likely*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
 decided to log my nootropics usage and its effects.__
