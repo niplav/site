@@ -1,11 +1,20 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2022-03-18, language: english, status: in progress, importance: 2, confidence: unlikely*
+*author: niplav, created: 2019-08-03, modified: 2024-06-23, language: english, status: in progress, importance: 2, confidence: likely*
 
-> __Members of the NoFap movement often claim that abstinence from
-> masturbation increases male attractiveness. Experimental evidence is
-> collected and shows that \_.__
+> __Members of the [NoFap community](https://en.wikipedia.org/wiki/NoFap)
+frequently claim that abstinence from masturbation causally increases
+male attractiveness.__  
+> __I present a method to test this claim (albeit imperfectly) by
+approaching 100 women in the street after 90 days of abstinence from
+masturbation and asking them for their contact information, and 100 again
+after a week of daily masturbation. The results are analyzed using a
+[Mann-Whitney U-test](https://en.wikipedia.org/wiki/Mann-Whitney_U_test)
+and various [descriptive statistical
+methods](https://en.wikipedia.org/wiki/Descriptive_statistics) and find
+that \_.__
+
 
 Abstinence from Masturbation and Success from Cold Approach
 ===========================================================
@@ -19,21 +28,7 @@ the middle where everything is the same
 Open science foundation pre-registration
 Or just pre-register on the blockchain-->
 
-Abstract
---------
-
-Members of the [NoFap community](https://en.wikipedia.org/wiki/NoFap) frequently claim that
-male physical attractiveness is causally influenced by the frequency
-and duration since the last occurence of masturbation.
-
-I present a method to test this claim (albeit imperfectly) by approaching
-200 people in the street after 90 days of abstinence from masturbation
-and asking them for a date, and 200 again after a week of daily
-masturbation. The results are analyzed using a two-sample [Student's
-t-test](https://en.wikipedia.org/wiki/Student%27s_t-test)
-and various [descriptive statistical
-methods](https://en.wikipedia.org/wiki/Descriptive_statistics) and find
-that \_.
+Consider a question of burning importance:
 
 <!--
 Existing Literature
@@ -320,59 +315,27 @@ masturbation (which is also the period [recommended by the NoFap
 community](https://nofap.com/rebooting/): "NoFap’s gold standard of
 success is our 90-day reboot.").
 
-From \_ to \_, I went on the streets of a major
-european city and approached 100 people I read as
-men and 100 people I read as women, usually via a [Yad
+From \_ to \_, I went on the streets of a major european city
+and approached 100 people I read as women, usually via a [Yad
 stop](https://thomascrownpua.com/2023/04/21/qa-what-do-you-think-of-the-yad-stop/)
-The people who were approached were chosen by their attractiveness to
+The women who were approached were chosen by their attractiveness to
 the author.
 
-If I was unsure about the age of the person, I would first ask
-
-> Hi, are you already eighteen?
-
-If they replied no, I wished them a good day and continued on my way.
-
-If they looked confused, I asked
-
-> Is English or [local language] better?
-
-If they knew neither English nor the local language, I would wish them
-a good day and continue on my way.
-
-If they preferred English, I would ask the question about age again,
-and abort if they were too young.
-
-Then, I would hold the following dialogue with them (either in English
-or the local language):
-
-<!--TODO: what about the strategy of agreeing to have a date?-->
-
-> I know this is really spontaneous, but I just saw you and thought
-you looked really nice. What is your name?
-
-The other person usually answered with their name, and I replied with
-
-> Nice to meet you, [name]. To make a long story short, I'd like to
-take you out on a date sometime.
-
-<!--TODO: ask for date or ask for contact information?-->
-
-In case of them agreeing to go on a date, a time and place were agreed
-upon, and I came to the date to check whether they had showed up.
+I then ran a standard daygame opener on the woman, with the goal of
+asking her for her number and later taking her on a date.
 
 In the week following the last approach, I masturbated once every day
-with the aid of pornography <!--TODO: link the pornography consumed
-during that time-->.
-Afterwards, I repeated the procedure of approaching 100 men and 100 women
-with the same words from \_ to \_.
+with the aid of pornography<!--TODO: link the pornography consumed during
+that time-->.
+
+Afterwards, I repeated the procedure of approaching 100 women in the
+same manner from \_ to \_.
 
 Data that was logged included date and time of day (in
 [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601)), whether the approach
-was after abstinence from masturbation or after the one-week period
-of masturbation (1 for the part after abstinence, and 0 for the part
-after masturbation), perceived gender of the person approached ("m",
-"f" or "o"), and how far the interaction went:
+was after abstinence from masturbation or after the one-week period of
+masturbation (1 for the part after abstinence, and 0 for the part after
+masturbation), and how far the interaction went:
 
 * 1 (ignored): the person walked past and did not react
 * 2 (stopped): the person stopped, but didn't answer any question (started laughing or walking away)
@@ -435,51 +398,7 @@ Code:
 
 	draw()
 
-![Gender non-specific loss in different stages of the funnel](./img/masturbation_and_attractiveness/dur_after_bar.png "Gender non-specific loss in different stages of the funnel.")
-
-*Gender non-specific loss in different stages of cold approach*
-
-Very similar diagrams can be made for male and female data points:
-
-Male:
-
-	.l("nplot")
-	.l("./load.kg")
-
-	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 100 10])
-
-	text(10;400;"light blue: during abstinence, before masturbation, dark blue: after masturbation")
-
-	fillrgb(0.4;0.4;1)
-	{bar(2*x;duringm.stag@x;12)}'!6
-	fillrgb(0;0;0.6)
-	{bar(1+2*x;afterm.stag@x;12)}'!6
-
-	draw()
-
-![Male loss in different stages of the funnel](./img/masturbation_and_attractiveness/dur_after_m_bar.png "Male loss in different stages of the funnel.")
-
-*Male loss in different stages of cold approach*
-
-Female:
-
-	.l("nplot")
-	.l("./load.kg")
-
-	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 100 10])
-
-	text(20;400;"light red: during abstinence, before masturbation, dark red: after masturbation")
-
-	fillrgb(1;0.4;0.4)
-	{bar(2*x;duringf.stag@x;12)}'!6
-	fillrgb(0.6;0;0)
-	{bar(1+2*x;afterf.stag@x;12)}'!6
-
-	draw()
-
-![Female loss in different stages of the funnel](./img/masturbation_and_attractiveness/dur_after_f_bar.png "Female loss in different stages of the funnel.")
-
-*Female loss in different stages of cold approach*
+![Loss in different stages of the funnel](./img/masturbation_and_attractiveness/dur_after_bar.png "Loss in different stages of the funnel.")
 
 Another possible method could be to visualize cumulative survival
 rates for the different stages by percentage by showing a [Kaplan-Meier
@@ -507,48 +426,6 @@ overall graph for this would look like this:
 
 *Survival percentages for different stages, overall*
 
-	.l("nplot")
-	.l("./load.kg")
-
-	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 1 0.1])
-
-	text(10;200;"light blue: during abstinence, before masturbation, dark blue: after masturbation")
-
-	setwidth(4)
-
-	setrgb(0.4;0.4;1)
-	plot({duringm.cumperc@(_x)-1})
-
-	setrgb(0;0;0.6)
-	plot({afterm.cumperc@(_x)-1})
-
-	draw()
-
-![Survival percentages for different stages, men](./img/masturbation_and_attractiveness/survival_m.png "Survival percentages for different stages, men")
-
-*Survival percentages for different stages, men*
-
-	.l("nplot")
-	.l("./load.kg")
-
-	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 1 0.1])
-
-	text(27;200;"light red: during abstinence, before masturbation, dark red: after masturbation")
-
-	setwidth(4)
-
-	setrgb(1;0.4;0.4)
-	plot({duringf.cumperc@(_x)-1})
-
-	setrgb(0.6;0;0)
-	plot({afterf.cumperc@(_x)-1})
-
-	draw()
-
-![Survival percentages for different stages, women](./img/masturbation_and_attractiveness/survival_f.png "Survival percentages for different stages, women")
-
-*Survival percentages for different stages, women*
-
 ### Descriptive Results
 
 Before testing the hypotheses, one can compare the results using very
@@ -561,9 +438,7 @@ parentheses (the botttom right cell contains the overall mean value):
 
 |       | during               | after          |           |
 | ----- | -------------------- | -------------- | --------- |
-| f     | μ_duringf (var)      | μ_afterf (var) | μ_f (var) |
-| m     | μ_duringm (var)      | μ_afterm (var) | μ_m (var) |
-|       | μ_during (var)       | μ_after (var)  | μ (var)   |
+| f     | μ_during (var)      | μ_after (var) | μ (var) |
 
 As one can see, \_.
 
@@ -573,15 +448,11 @@ The code for calculating these can be found
 <!--
 Questions:
 
-* mu(m)≥mu(f)?
-* var(m)≥var(f)?
 * mu(during)≥mu(after)?
 * var(during)≥var(after)?
 
-* mu(duringm)≥mu(afterm)?
 * mu(duringf)≥mu(afterf)?
 * var(duringf)≥var(afterf)?
-* var(duringm)≥var(afterm)?
 -->
 
 ### Testing the Hypothesis
@@ -592,9 +463,9 @@ should be more successful after a long period of abstinence from
 masturbation than after a period of sustained masturbation. This
 assumption generates three hypotheses:
 
-1. H₀: `$\mu_{during} \le \mu_{after}$`
-2. H₁: `$\mu_{during} = \mu_{after}$`
-3. H₂: `$\mu_{during} \ge \mu_{after}$`
+1. H₀: `$\mu_{\text{during}} \le \mu_{\text{after}}$`
+2. H₁: `$\mu_{\text{during}} = \mu_{\text{after}}$`
+3. H₂: `$\mu_{\text{during}} \ge \mu_{\text{after}}$`
 
 The result implied by the views of the NoFap community would be that
 H₀ would definitely be rejected, and that it would be very likely
@@ -605,60 +476,20 @@ the same time. It is merely the case that if a hypothesis gets rejected,
 the probability that it got rejected although it is true is lower than
 a given percentage (usually and also in this case 5%).
 
-I used a two-sample Student's t-test to test the
-hypotheses, under the assumption that the distribution
-of results from cold approach was roughly [normally
-distributed](https://en.wikipedia.org/wiki/Normal_distribution)
-and that the [variance](https://en.wikipedia.org/wiki/Variance)
-of the two sample sets was also roughly equal. As one can see from the
-figures, this assumption of normal distribution \_.
+I used a [Mann-Whitney
+U-Test](https://en.wikipedia.org/wiki/Mann-Whitney_U_Test) to
+test the hypotheses, under the assumption that the observations
+from each group are independent of each other. (I can't use e.g. a
+[t-test](https://en.wikipedia.org/wiki/Student's_T-Test) because the
+data is on a [Likert scale](https://en.wikipedia.org/wiki/Likert_Scale)).
 
-To calculate Student's t-test, let
-`$\{X_{1}, \cdots, X_{m}\}=X_{i}\sim{\cal{N}}(\mu_{X}, \sigma_{X})$`
-be the first sample, and
-`$\{Y_{1}, \cdots, Y_{n}\}=Y_{i}\sim{\cal{N}}(\mu_{Y}, \sigma_{Y})$`
-the second sample.
+	using DataFrames, CSV, HypothesisTests
 
-Let then `$T$` be
+	data=CSV.read("./data/masturbation_attractiveness.csv", DataFrame)
 
-<div>
-	$$T:=\sqrt{\frac{n+m-2}{\frac{1}{m}+\frac{1}{n}}}*\frac{\overline{X}-\overline{Y}}{\sqrt{(m-1)*S_{X}^{2}+(n-1)*S_{Y}^{2}}}$$
-</div>
-
-where `$\overline{X}$` and `$\overline{Y}$` are the sample mean of the
-two sample sets, and `$S_{X}^{2}$` and `$S_{Y}^{2}$` are the sample
-variances of the two sample sets.
-
-Different hypotheses are then tested by comparing `$T$` to the [quantile
-function](https://en.wikipedia.org/wiki/Quantile_function) of [Student's
-t-distribution](https://en.wikipedia.org/wiki/Student%27s_t-distribution).
-In this case, our sample sizes are bigger than 30, and so the quantile
-function of Student's t-distribution can be approximated using the
-quantile function of the normal distribution<!--TODO: sources for this
-claim-->.
-
-The two-sided Student's t-test can thus be implemented (the
-full code for different hypothesis testing can be found
-[here](./code/masturbation_and_attractiveness/hypo.kg):
-
-	.l("nstat")
-	.l("math")
-
-	tstt::{t::sqr(((#y)+(#x)-2)%(%#x)+%#y)*(mu(x)-mu(y))%sqr((((#x)-1)*svar(x))+((#y)-1)*svar(y));
-	:[t>qf(1-z);.p("μ_X≤μ_Y rejected (p≤",($z),")");.p("μ_X≤μ_Y accepted (p≤",($z),")")];
-	:[(#t)>qf(1-z%2);.p("μ_X=μ_Y rejected (p≤",($z),")");.p("μ_X=μ_Y accepted (p≤",($z),")")];
-	:[t<qf(z);.p("μ_X≥μ_Y rejected (p≤",($z),")");.p("μ_X≥μ_Y accepted (p≤",($z),")")]}
-
-The argument `x` is the first sample set, `y` is the second sample set,
-and `z` is the [p-value](https://en.wikipedia.org/wiki/P-value). The
-function tests all three hypotheses and prints the result.
-
-One can now simply execute the test:
-
-		tstt(duringf;afterf;0.05)
-	μ_X≤μ_Y _ (p≤0.05)
-	μ_X=μ_Y _ (p≤0.05)
-	μ_X≥μ_Y _ (p≤0.05)
+	before=filter(row->row["after"]==0, data)
+	after=filter(row->row["after"]==1, data)
+	MannWhitneyUTest(before[!, "progress"], after[!, "progress"])
 
 As one can see, \_.
 
@@ -686,6 +517,7 @@ would also have made the result less useful, since it seems like people
 who practice NoFap care about their attractiveness to a very certain
 demographic (namely, conventionally attractive women from their late teens
 to early thirties).
+
 On the other hand, it might have been interesting to observe how older
 people would react to cold approach.
 
@@ -752,18 +584,6 @@ seems likey that they will be strong, but a priori, only western and
 industrialized necessarily apply – the experiment was performed in
 western europe.
 
-### Gender was Determined by Perception
-
-I didn't ask the respondents for their gender because sometimes
-that might have been impossible to do (in the case of being
-ignored) or might have corrupted the data (people being aware
-of it being an experiment). Because of this, I had to determine
-the gender of the respondent by subjective judgement, which
-might become a problem. By using the code in a section of [this
-piece](./estimated_life_expectancy.html#Gender_was_Determined_by_Appearance),
-I arrive at a probability of ~21% of encountering at least one trans
-person & misgendering them (N=400).
-
 ### Different Settings, Clothing & Weather
 
 A possible objection could be that the clothes I wore might have been
@@ -812,6 +632,8 @@ experiments, I didn't do them for several reasons:
 	been very low, since I assigned a very low credence to the validity
 	of the central claim altogether.
 
+### Learning Effect During First 100 Half
+
 Conclusion
 ----------
 
@@ -843,16 +665,16 @@ Its hashsum was computed as such:
 
 <!--TODO: add link to reddit post-->
 
-The pre-registered hypothesis shall thus be: Let `$\mu_{during}$`
+The pre-registered hypothesis shall thus be: Let `$\mu_{\text{during}}$`
 be the expected value of cold approach with women during a long
 period of abstinence from masturbation as described in the section
-[Method](#Method), and `$\mu_{after}$` be the expected value of cold
+[Method](#Method), and `$\mu_{\text{after}}$` be the expected value of cold
 approach with women after a week of regular masturbation. Then there
 are three different hypotheses:
 
-1. H₀: `$\mu_{during} \le \mu_{after}$`
-2. H₁: `$\mu_{during} = \mu_{after}$`
-3. H₂: `$\mu_{during} \ge \mu_{after}$`
+1. H₀: `$\mu_{\text{during}} \le \mu_{\text{after}}$`
+2. H₁: `$\mu_{\text{during}} = \mu_{\text{after}}$`
+3. H₂: `$\mu_{\text{during}} \ge \mu_{\text{after}}$`
 
 There seem to be different possible strengths of convictions on this issue:
 
@@ -948,9 +770,9 @@ Since I don't perform any analysis on it, that should be fine.
 
 ### Testing the Sensitivity
 
-To test whether my implementation of Student's t-test was correct, I
-first checked the hypothesis with the dummy data with the probabilities in
-the code above (where abstinence from masturbation has no effect at all):
+To test whether my code was correct, I first checked the hypothesis with
+the dummy data with the probabilities in the code above (where abstinence
+from masturbation has no effect at all):
 
 	$ kg -l ./load.kg
 		.fc(.ic("../../data/masturbation_attractiveness_dummy_even.csv"));data::csv.load()
@@ -998,140 +820,3 @@ As one can see, this already leads to H₀ being rejected.
 
 The data can be found
 [here](./data/masturbation_attractiveness_dummy_fadv.csv).
-
-Appendix C: Further Hypotheses
-------------------------------
-
-If one wanted to find out not just whether, but in which way abstinence
-from masturbation increases attractiveness, one might try to find
-out at which stage of the process how much of the benefit occurs. For
-example, abstinence might increase initial responses to cold approach
-(reducing the amount of blowouts), because pheromones hook into a very
-deep mechanism, or it might decrease flaking rate, because during the
-interaction micro-expressions had an impressive effect.
-
-I don't have a clear idea how this could be done comprehensively, but
-one possible approach could be to test the expected value of the first
-n stages of the process – for example, only comparing values up to
-getting the name.
-
-The code for that looks like this:
-
-	duringf.toignored::{:[x<2;x;0]}'duringf
-	duringf.tostopped::{:[x<3;x;0]}'duringf
-	duringf.toname::{:[x<4;x;0]}'duringf
-	duringf.torejection::{:[x<5;x;0]}'duringf
-	duringf.toflake::{:[x<6;x;0]}'duringf
-	duringf.todate::{:[x<7;x;0]}'duringf
-
-	afterf.toignored::{:[x<2;x;0]}'afterf
-	afterf.tostopped::{:[x<3;x;0]}'afterf
-	afterf.toname::{:[x<4;x;0]}'afterf
-	afterf.torejection::{:[x<5;x;0]}'afterf
-	afterf.toflake::{:[x<6;x;0]}'afterf
-	afterf.todate::{:[x<7;x;0]}'afterf
-
-	duringm.toignored::{:[x<2;x;0]}'duringm
-	duringm.tostopped::{:[x<3;x;0]}'duringm
-	duringm.toname::{:[x<4;x;0]}'duringm
-	duringm.torejection::{:[x<5;x;0]}'duringm
-	duringm.toflake::{:[x<6;x;0]}'duringm
-	duringm.todate::{:[x<7;x;0]}'duringm
-
-	afterm.toignored::{:[x<2;x;0]}'afterm
-	afterm.tostopped::{:[x<3;x;0]}'afterm
-	afterm.toname::{:[x<4;x;0]}'afterm
-	afterm.torejection::{:[x<5;x;0]}'afterm
-	afterm.toflake::{:[x<6;x;0]}'afterm
-	afterm.todate::{:[x<7;x;0]}'afterm
-
-	.p("
-	X=duringf.toignored, Y=afterf.toignored
-	")
-
-	tstt(duringf.toignored;afterf.toignored;0.05)
-	tstt(duringf.toignored;afterf.toignored;0.01)
-
-	.p("
-	X=duringf.tostopped, Y=afterf.tostopped
-	")
-
-	tstt(duringf.tostopped;afterf.tostopped;0.05)
-	tstt(duringf.tostopped;afterf.tostopped;0.01)
-
-	.p("
-	X=duringf.toname, Y=afterf.toname
-	")
-
-	tstt(duringf.toname;afterf.toname;0.05)
-	tstt(duringf.toname;afterf.toname;0.01)
-
-	.p("
-	X=duringf.torejection, Y=afterf.torejection
-	")
-
-	tstt(duringf.torejection;afterf.torejection;0.05)
-	tstt(duringf.torejection;afterf.torejection;0.01)
-
-	.p("
-	X=duringf.toflake, Y=afterf.toflake
-	")
-
-	tstt(duringf.toflake;afterf.toflake;0.05)
-	tstt(duringf.toflake;afterf.toflake;0.01)
-
-	.p("
-	X=duringf.todate, Y=afterf.todate
-	")
-
-	tstt(duringf.todate;afterf.todate;0.05)
-	tstt(duringf.todate;afterf.todate;0.01)
-
-	.p("
-	X=duringm.toignored, Y=afterm.toignored
-	")
-
-	tstt(duringm.toignored;afterm.toignored;0.05)
-	tstt(duringm.toignored;afterm.toignored;0.01)
-
-	.p("
-	X=duringm.tostopped, Y=afterm.tostopped
-	")
-
-	tstt(duringm.tostopped;afterm.tostopped;0.05)
-	tstt(duringm.tostopped;afterm.tostopped;0.01)
-
-	.p("
-	X=duringm.toname, Y=afterm.toname
-	")
-
-	tstt(duringm.toname;afterm.toname;0.05)
-	tstt(duringm.toname;afterm.toname;0.01)
-
-	.p("
-	X=duringm.torejection, Y=afterm.torejection
-	")
-
-	tstt(duringm.torejection;afterm.torejection;0.05)
-	tstt(duringm.torejection;afterm.torejection;0.01)
-
-	.p("
-	X=duringm.toflake, Y=afterm.toflake
-	")
-
-	tstt(duringm.toflake;afterm.toflake;0.05)
-	tstt(duringm.toflake;afterm.toflake;0.01)
-
-	.p("
-	X=duringm.todate, Y=afterm.todate
-	")
-
-	tstt(duringm.todate;afterm.todate;0.05)
-	tstt(duringm.todate;afterm.todate;0.01)
-
-This is not an attempt at p-hacking – I know that some of these
-hypotheses will probably get rejected by pure chance, but that is
-okay because I'm only trying to identify hypotheses that could inspire
-further testing.
-
-Executed on the data collected, the output shows that \_.

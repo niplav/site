@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2024-06-11, language: english, status: in progress, importance: 4, confidence: remote*
+*author: niplav, created: 2019-12-25, modified: 2024-06-11, language: english, status: in progress, importance: 4, confidence: possible*
 
 > __Is daygame worth it, and if yes,
 how much? I first present a simple [point
@@ -883,7 +883,7 @@ Besides the cost for dates & opportunity costs, doing daygame might carry
 a great amount of various expenditures: some daygamers move to appartments
 that are closer to the centers of cities & are more expensive, there may
 be some costs from upgrading ones wardrobe, buying condoms and possibly
-sex toys.
+sex toys<!--TODO: Red Quest/KYIL post about sex toys-->.
 
 In economics, costs are often divided into fixed costs (costs that are
 not dependent on the amount of goods produced, in this case approaches
@@ -1112,8 +1112,10 @@ Appendix C: Empirically Checking the Assumptions
 Appendix D: Some Questions About the Value of Offspring
 --------------------------------------------------------
 
-A cost-benefit analysis of daygame contains some questions that are not
-obvious to answer:
+A cost-benefit analysis of daygame contains some questions that
+are not obvious to answer, but some of which feel tractable from a
+[population-genetics](https://en.wikipedia.org/wiki/Population_Genetics)
+perspective:
 
 1. If one has sex as the result of daygame, how long does one have sex?
 2. How often do daygamers sleep with the women they have seduced?

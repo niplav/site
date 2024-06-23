@@ -3,11 +3,15 @@
 
 *author: niplav, created: 2023-04-15, modified: 2024-06-10, language: english, status: notes, importance: 8, confidence: highly likely*
 
-> __We consider the problem of resolving preferences that are inconsistent
-under the von Neumann-Morgenstern axioms into consistent preferences. For
-preferences over deterministic options, we model inconsistent preferences
-as directed graphs, and the resolution as selecting acyclic tournaments
-with the same vertices and minimal graph-edit distance, or Hodge
+> __We consider the problem of resolving preferences
+that are inconsistent under the [von Neumann-Morgenstern
+axioms](https://en.wikipedia.org/wiki/Von_Neumann-Morgenstern_axioms)
+into consistent preferences. For preferences over
+deterministic options, we model inconsistent preferences
+as directed graphs, and the resolution as selecting acyclic
+[tournaments](https://en.wikipedia.org/wiki/Tournament_\(graph_theory\))
+with the same vertices and minimal [graph-edit
+distance](https://en.wikipedia.org/wiki/Graph_edit_distance), or Hodge
 decomposition. For preferences over lotteries, we offer two different
 methods for modeling inconsistence and one method for resolving them:
 as edge-weighted weakly connected directed graphs (resolution via Hodge
@@ -438,29 +442,15 @@ Neumann-Morgenstern consistent preferences (for example to break
 cycles), but a high number of deletions or additions of rankings is
 undesirable.
 
-::: proposition
 **Proposition 1**. For two directed graphs on the same set of vertices,
-$G_1=(\Omega, E_1),
-G_2=(\Omega, E_2)$ the edge-graph-edit distance is the same as the size
+`$G_1=(\Omega, E_1), G_2=(\Omega, E_2)$` the edge-graph-edit distance is the same as the size
 of the symmetrical difference of the sets of edges, that is
-$\text{EGED}(G_1,
-G_2)=|E_1 \Delta E_2|$.
-:::
+`$\text{EGED}(G_1, G_2)=|E_1 \Delta E_2|$`.
 
-::: proof
-*Proof.* $\text{EGED}(G_1, G_2) \le |E_1 \Delta E_2|$: To generate $G_2$
-from $G_1$ it is necessary to remove edges from $G_1$ not in $G_2$, and
-then add edges from $G_2$ not in $G_1$. These comprise the set $(E_1
-\backslash E_2) \cup (E_2 \backslash E_1)$. So the graph-edit distance
-is upper-bounded by the size of the symmetric difference.
+*Proof.*
 
-$\text{EGED}(G_1, G_2) \ge |E_1 \Delta E_2|$: Assume that $|E_1 \Delta
-E_2|<\text{EGED}(G_1, G_2)$. Removing $E^-=E_1 \backslash E_2$ from
-$G_1$ and adding the edges $E^+=E_2 \backslash E_1$ results in $G_2$.
-But then $E^- \uplus E^+$ is already a graph edit that creates $G_2$
-from $G_1$, so $\text{EGED}(G_1, G_2)$ can't be a minimal
-edge-graph-edit distance between $G_1$ and $G_2$. ◻
-:::
+1. `$\text{EGED}(G_1, G_2) \le |E_1 \Delta E_2|$`: To generate `$G_2$` from `$G_1$` it is necessary to remove edges from `$G_1$` not in `$G_2$`, and then add edges from `$G_2$` not in `$G_1$`. These comprise the set `$(E_1 \backslash E_2) \cup (E_2 \backslash E_1)$`. So the graph-edit distance is upper-bounded by the size of the symmetric difference.
+2. `$\text{EGED}(G_1, G_2) \ge |E_1 \Delta E_2|$`: Assume that `$|E_1 \Delta E_2|<\text{EGED}(G_1, G_2)$`. Removing `$E^-=E_1 \backslash E_2$` from `$G_1$` and adding the edges `$E^+=E_2 \backslash E_1$` results in `$G_2$`. But then `$E^- \uplus E^+$` is already a graph edit that creates `$G_2$` from `$G_1$`, so `$\text{EGED}(G_1, G_2)$` can't be a minimal edge-graph-edit distance between `$G_1$` and `$G_2$`. ◻
 
 ::: algorithm
 ::: algorithmic
@@ -975,18 +965,16 @@ For some given set of directed graphs $\mathfrak{P}_n$, not all numbers
 between $1$ and $n!$ can be confusions. There are, for example, no
 graphs of size 3 with confusion 4 (or 5).
 
-::: center
-  $n$   Samples    Average confusion   $|\mathbf{G}_{n,1}|$         $|\mathbf{G}_{n,1}|/n!$   $|\mathbf{G}_{n, n!}|$   
-  ----- ---------- ------------------- ---------------------------- ------------------------- ------------------------ --
-  0     1          1                   100% (1)                     1                         $2^0$                    
-  1     2          1                   100% (2)                     2                         $2^1$                    
-  2     16         1.5                 50% (8)                      4                         $2^3$                    
-  3     512        2.625               28.125% (144)                24                        $2^6$                    
-  4     65536      $\approx$ 4.91      $\approx$ 16.4% (10752)      448                       $2^{10}$                 
-  5     33554432   $\approx$ 9.43      $\approx$ 9.853% (3306240)   27552                     $2^{15}$                 
-  6     90927      $\approx$ 18.138    $\approx$ 6.225% (5660)      ?[^3]                     ?                        
-  7     1580       $\approx$ 36.412    $\approx$ 3.608% (57)        ?                         ?                        
-:::
+| `$n$`   | Samples    | Average confusion   | $\|\mathbf{G}_{n,1}\|$     | $\|\mathbf{G}_{n,1}\|/n!$ | $\|\mathbf{G}_{n, n!}\|$ |
+| ------- | ---------- | ------------------- | -------------------------- | ------------------------- | ------------------------ |
+| 0       | 1          | 1                   | 100% (1)                   | 1                         | $2^0$                    |
+| 1       | 2          | 1                   | 100% (2)                   | 2                         | $2^1$                    |
+| 2       | 16         | 1.5                 | 50% (8)                    | 4                         | $2^3$                    |
+| 3       | 512        | 2.625               | 28.125% (144)              | 24                        | $2^6$                    |
+| 4       | 65536      | $\approx$ 4.91      | $\approx$ 16.4% (10752)    | 448                       | $2^{10}$                 |
+| 5       | 33554432   | $\approx$ 9.43      | $\approx$ 9.853% (3306240) | 27552                     | $2^{15}$                 |
+| 6       | 90927      | $\approx$ 18.138    | $\approx$ 6.225% (5660)    | ?[^3]                     | ?                        |
+| 7       | 1580       | $\approx$ 36.412    | $\approx$ 3.608% (57)      | ?                         | ?                        |
 
 Interestingly, neither $|\mathbf{G}_{n,1}|$ nor $|\mathbf{G}_{n,1}|/n!$
 are known integer sequences: a search on the OEIS and via SuperSeeker
@@ -1300,12 +1288,12 @@ all but one inclusion-maximal consistent subgraphs are preserved.
 
 <figure id="fig:hodgeres_counter">
 <figure id="fig:counter2">
-<img src="./hodge_no_preserve.png" />
+<img src="./img/resolving/hodge_no_preserve.png" />
 <figcaption><span class="math inline">1 → 2</span> is the only
 consistent subgraph, but it gets reversed.</figcaption>
 </figure>
 <figure id="fig:resolved2">
-<img src="./hodge_some_preserve.png" />
+<img src="./img/resolving/hodge_some_preserve.png" />
 <figcaption>Each edge is an inclusion-maximal consistent subgraph, and
 only the edge <span class="math inline">3 → 4</span> gets reversed. 1
 and 2 in the result have the same potential.</figcaption>
@@ -1521,17 +1509,15 @@ creation) with up to 13 nodes.
 We can now summarize how well the two algorithms fulfill the different
 criteria:
 
-::: center
-  #**Criterion**                          `EGEDmin`   `HodgeResolve`
-  -------------------------------------- ----------- --------------------
-  Surjectivity                                       
-  Identity                                           
-  Worst-case computational complexity    $NP$-hard   $\mathcal{O}(n^3)$
-  Uniqueness                                         $\sim$
-  Polynomial output size                             $\sim$
-  Preservation of consistent subgraphs               
-  Preservation of complete domination                ?
-:::
+| Criterion                              |  `EGEDmin`  |  `HodgeResolve`     |
+| -------------------------------------- | ----------- | --------------------|
+| Surjectivity                           |             |                     |
+| Identity                               |             |                     |
+| Worst-case computational complexity    | $NP$-hard   | $\mathcal{O}(n^3)$  |
+| Uniqueness                             |             | $\sim$              |
+| Polynomial output size                 |             | $\sim$              |
+| Preservation of consistent subgraphs   |             |                     |
+| Preservation of complete domination    |             | ?                   |
 
 ## Impossibilities
 
