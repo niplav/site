@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-01-29, modified: 2024-01-29, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2024-01-29, modified: 2024-01-29, language: english, status: draft, importance: 3, confidence: possible*
 
 > __In which I investigate whether not masturbating makes my mind clear.__
 

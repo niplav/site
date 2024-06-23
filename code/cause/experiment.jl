@@ -112,7 +112,7 @@ samples_test_size=12
 sem_samples=100
 inputs_samples=2 .^(6:17)
 
-for inputs_sample in inputs_samples
+Threads.@threads for inputs_sample in inputs_samples
 	println(inputs_sample)
 	more_samples[inputs_sample]=misclassified_absence_mc(samples_test_size, sem_samples, inputs_sample)
 end

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-06-15, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-06-23, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,16 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [How to (hopefully ethically) make money off of AGI (habryka/Zvi/Cosmos/NoahK, 2023)](https://www.lesswrong.com/posts/CTBta9i8sav7tjC2r/how-to-hopefully-ethically-make-money-off-of-agi)
+* [Frontier AI Safety Commitments, AI Seoul Summit 2024 (UK Government, 2024)](https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024)
+* [Sycophancy to subterfuge: Investigating reward tampering in language models (Anthropic, 2024)](https://www.anthropic.com/research/reward-tampering)
+* [AI #69: Nice (Zvi, 2024)](https://www.lesswrong.com/posts/ytFLs37zLsFBqLHGA/ai-69-nice)
+* [Resolutions of mathematical conjectures over time (Asya Bergal, 2020)](https://aiimpacts.org/resolutions-of-mathematical-conjectures-over-time/)
+* An Opinionated Literature Review to Inform the EU Codes of Practice on GPAI with Systemic Risks (Siméon Campos, 2024)
+* \* Schild's Ladder (Greg Egan, 2004)
+* Mister Volition (Greg Egan, 1995)
+* Chaff (Greg Egan, 1993)
+* [Article 55: Obligations for Providers of General-Purpose AI Models with Systemic Risk (European Commission, 2024)](https://artificialintelligenceact.eu/article/55/)
 * [How much do solutions to social problems differ in their effectiveness? (Benjamin Todd, 2023)](https://80000hours.org/2023/02/how-much-do-solutions-differ-in-effectiveness/)
 * [Convex and Concave Dispositions (Vitalik Buterin, 2020)](https://vitalik.eth.limo/general/2020/11/08/concave.html)
 * Der Wolf und die sieben jungen Geißlein (Deutsche Bauern, 1812)

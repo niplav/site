@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-07-07, modified: 2023-06-22, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2022-07-07, modified: 2023-06-22, language: english, status: maintenance, importance: 2, confidence: log*
 
 > __Notes for myself on the data I track, how to transform it into a
 usable shape, data quality and other random assortments.__

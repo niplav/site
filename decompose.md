@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-04-06, modified: 2024-04-06, language: english, status: finished, importance: 5, confidence: likely*
+*author: niplav, created: 2024-04-06, modified: 2024-04-06, language: english, status: in progress, importance: 5, confidence: likely*
 
 > __Question decomposition is unreasonably effective, despite good
 counter-arguments.__
