@@ -97,10 +97,31 @@ Turing.jl:
         4.00195809996674e7
         gui(histogram(total_cost_per_day, label="samples", xlabel="cost", ylabel="number of samples"))
 
-![](./img/civilizational_inadequacies/cost_histogram.png)
+![](./img/civilizational_inadequacies/tableware_jl.png)
 
-I'm aware that this code is ugly, and I'll fix it<!--TODO: look at how
-to do this properly in Turing, maybe download documentation-->.
+And using [squigglepy](https://github.com/rethinkpriorities/squigglepy):
+
+	import squigglepy as sq
+	import numpy as np
+	import matplotlib.pyplot as plt
+
+	people=sq.norm(mean=8*10**9, sd=0.05)
+	meals_per_day=sq.norm(mean=2.5, sd=1, lclip=0)
+	proportion_tableware_users=sq.beta(a=5, b=2.5)
+	breakage_per_meal=sq.beta(a=1.5, b=1000)
+	cost_per_tableware=sq.norm(mean=2, sd=0.5, lclip=0)
+	total_cost_per_day=(people*meals_per_day*proportion_tableware_users*breakage_per_meal*cost_per_tableware)@100000
+
+	np.mean(total_cost_per_day)
+	40423162.50675405
+
+![](./img/civilizational_inadequacies/tableware_sq.png)
+
+This is a clear case of where [estimational
+programming](https://forum.effectivealtruism.org/posts/t6FA9kGsJsEQMDExt/what-is-estim
+ational-programming-squiggle-in-context)
+has a strong advantage over [probabilistic
+programming](https://en.wikipedia.org/wiki/Probabilistic_programming).
 
 Note that this code only estimates the costs of fragile tableware, and
 makes no statements about the costs of e.g. switching to alternative
