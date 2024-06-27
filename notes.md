@@ -370,7 +370,7 @@ other considerations.
 Some Thoughts about the Qualia Research Institute
 -------------------------------------------------
 
-*Epistemic Status*: This is almost pure speculation. Do not assign much
+*Epistemic status*: This is almost pure speculation. Do not assign much
 value to it.
 
 ### QRI and AGI
@@ -1003,9 +1003,10 @@ which says that `curve_fit` should not make the second argument smaller
 than zero, but otherwise can do whatever it wants.
 
 So far, I've already used this function
-[two](./range_and_forecasting_accuracy.html#Fitting_a_Logistic_Function)
-[times](./range_and_forecasting_accuracy.html#Fitting_an_Exponential_Function),
-and I've only known about it for a week! A must for every wannabe
+[three](./range_and_forecasting_accuracy.html#Fitting_a_Logistic_Function)
+[times](./range_and_forecasting_accuracy.html#Fitting_an_Exponential_Function)
+[already](./daygame_cost_benefit.html#Estimating_Parameters), and
+I've only known about it for a short time! A must for every wannabe
 data-scientist.
 
 For more information about this amazing function, consult its
@@ -1115,8 +1116,8 @@ Pet Peeves
 * Websites that offer two-factor authentication, but don't allow physical authentication keys and, worse, don't offer an option to backup those two-factor authentication methods
 * Applications that create visible new folders (or very large folders) in my home directory
 	* Examples include snap, DogeCoin, julia
-* Sinks are weirdly badly designed: Why is the end of the faucet so close to the back end of the sink? Why is it so close to the bottom of the sink? I don't see a good reason why the water shouldn't be directed to the middle of the sink, and the faucet be high up (for ample space for hands).<!--TODO: maybe images here-->
-* Microwaves and refridgerators have a great deal of controls that I believe ~all people don't use (the only control I use on a microwave is setting the duration, but I could see a reason for the energy dial; refridgerators need at most one dial (for setting the temperature). Why do they persist? Do consumers really (and erroneously) factor the presence of many dials into their purchase decision? Are companies simply falling prey to [feature creep](https://en.wikipedia.org/wiki/Feature_creep), and the cost of those features isn't large enough to make a difference?
+* Many sinks are weirdly badly designed: Why is the end of the faucet so close to the back end of the sink? Why is it so close to the bottom of the sink? I don't see a good reason why the water shouldn't be directed to the middle of the sink, and the faucet be high up (for ample space for hands).<!--TODO: maybe images here-->
+* Microwaves and refrigerators have a great deal of controls that I believe ~nobody uses (the only control I use on a microwave is setting the duration, but I could see a reason for the energy dial; refrigerators need at most one dial (for setting the temperature). Why do they persist? Do consumers really (and erroneously) factor the presence of many dials into their purchase decision? Are companies simply falling prey to [feature creep](https://en.wikipedia.org/wiki/Feature_creep), and the cost of those features isn't large enough to make a difference?
 * Some websites mandate specific ways of doing two-factor authentication—sometimes via SMS, sometimes with a custom app, sometimes with Google authenticator… I'd like a unified interface around this where I can just use my Ubikey.
 	* No longer a pet peeve: Until recently, it was basically impossible to backup Google authenticator.
 * Browsers splitting words at a newline on an ﬀ or ﬅ ligature:
@@ -2137,12 +2138,15 @@ samples, reduce them down to 2 dimensions, and plot the result (code in
 
 ![](./img/dimension/tsne_plot.png)
 
-	gui(scatter(reduced_umap[1,:],reduced_umap[2,:]))
+	gui(scatter(reduced_umap[1,:],reduced_umap[2,:], color=:red))
 
 ![](./img/dimension/umap_plot.png)
 
 Changing the perplexity to 5 doesn't change the clustering produced
 by t-SNE:
+
+	reduced_5=tsne(data, 2, 0, 1000, 5.0)
+	gui(scatter(reduced_5[:,1],reduced_5[:,2], color=:green))
 
 ![](./img/dimension/tsne_5_plot.png)
 

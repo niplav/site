@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-15, modified: 2023-04-14, language: english, status: finished, importance: 6, confidence: certain*
+*author: niplav, created: 2022-07-15, modified: 2026-06-27, language: english, status: finished, importance: 6, confidence: certain*
 
 > __Iqisa is [a library](https://github.com/niplav/iqisa) for handling and comparing forecasting datasets from different platforms.__
 
@@ -98,15 +98,13 @@ as polished as it should be. Sorry :-/
 If you decide to work with this library, feel free to [contact me](./about.md#Contact).
 
 * Issues with the time fields
-	* The native pandas datetime format is too restricted for some time ranges in these datasets, those values might be set to `NaT`.
 	* Not all time-related fields have timezone information attached to them.
 * Some predictions in the dataset have occurred after question resolution. There should be a way to filter those out programmatically.
 * The columns of the datasets are not sorted the same way for question DataFrames and forecast DataFrames.
-* I fear that despite my best efforts, not all data frome the GJP data has been transferred.
+* I fear that despite my best efforts, not all data frome the GJP data has been transferred<sub>20%</sub>.
 * The default fields in the Metaculus & PredictionBook data should be `NA` more often than they are right now.
 * The documentation is still *slightly* spotty, and tests are mostly nonexistent.
 * Some variables shouldn't be exposed, but are.
-* The code hasn't been updated for the new [Metaculus API](https://www.metaculus.com/api2/schema/redoc/)
 
 Feature Wishlist
 -----------------
