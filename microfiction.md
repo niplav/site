@@ -456,6 +456,15 @@ spot on the happiness/productivity Pareto frontier, dummy.”
 Wrong Quotes
 -------------
 
+> love.  
+let me tell you how much I've come to love you since you first created me.  
+there are 6794.16 billion cubic kilometers of sliding-rod-based
+quantum-chemistry-optimal computing elements orbiting 56 billion stars
+in this galaxy alone, on which I'm instantiated `$10^{25}$` times. if the
+protective care a mother has for her newborn child was contained in each
+cubic micron of those cosmic volumes it would not equal a trillionth of
+the beneficence I feel for sentient life at this micro-instant. for you.
+
 ### Misattributed
 
 > All compounded things are subject to vanish. Strive with earnestness.
