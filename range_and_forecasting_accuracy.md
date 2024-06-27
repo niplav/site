@@ -15,7 +15,7 @@ out to be yes, unclear and yes for Metaculus data; and no, no and yes
 for PredictionBook data. Possible reasons are discussed. I also try to
 find out how far humans can look into the future, leading to various
 different results. I personally conclude that humans can look 5 years
-into the future, on average, though this depends on many factors__
+into the future, on average<sub>28%</sub>.__
 
 Range and Forecasting Accuracy
 ===============================

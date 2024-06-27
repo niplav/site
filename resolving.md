@@ -346,9 +346,10 @@ Let `$\mathfrak{W}_{\Omega}$` be the set of **weakly consistent** graphs
 over `$\Omega$`, which may be represented as the set of all directed
 graphs that are equivalent to some weak ordering. It can be constructed
 by taking all weak orderings on `$\Omega$`, for each weak ordering
-`$\preceq$` creating an edge from `$\omega_1$` to `$\omega_2$` if and only if
-`$\omega_1 \preceq \omega_2$`, and then taking the transitive closure of that graph.
-The weak orderings are counted by the ordered Bell numbers.
+`$\preceq$` creating an edge from `$\omega_1$` to `$\omega_2$` if and
+only if `$\omega_1 \preceq \omega_2$`, and then taking the transitive
+closure of that graph.  The weak orderings are counted by the [ordered
+Bell numbers](https://en.wikipedia.org/wiki/Ordered_Bell_number).
 
 ### Violating the von Neumann-Morgenstern Axioms
 

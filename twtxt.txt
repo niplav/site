@@ -75,27 +75,9 @@
 #	xandkar https://xandkar.net/twtxt.txt
 #	xuu https://txt.sour.is/user/xuu/twtxt.txt
 #	z3bra gopher://g.nixers.net/0/~z3bra/twtxt.txt
-2020-11-26T16:28:30.000000Z	The thought that we should respect people's wishes after they're dead might be a corollary of death being bad.
-2020-11-26T16:29:29.000000Z	Attempting suicide sometimes isn't about killing yourself, it's about signalling.
-2020-11-26T16:30:08.000000Z	A textbook is a book with exercises
-2020-11-26T16:30:23.000000Z	Demonless preference utilitarianism
-2020-11-26T16:30:42.000000Z	reference magnetism in the water supply
-2020-11-26T16:31:34.000000Z	this feels like write-only access to twitter
-2020-11-26T16:57:20.000000Z	It's an absolute crime that ii doesn't support SSL out of the box.
-2020-11-27T09:16:27.000000Z	A textbooks is a book with exercises
 2020-11-27T09:18:15.000000Z	Image of Dog holding tennisball: "Please babble! No! No prune, only babble!"
-2020-11-27T09:21:40.000000Z	ifff = If and only if, and I will take no complaints!
-2020-11-27T09:22:26.000000Z	No person on MDMA ever complained about the lack of meaning in their experience.
-2020-11-27T15:14:32.000000Z	"Why do you [X]?" "Signaling."
-2020-11-27T16:04:20.000000Z	Getting Boltzmanned on Dust Theory.
-2020-11-27T16:04:35.000000Z	If Functionalism, then Reality is Dovetailing, but Reality Dovetailing is just Tegmark IV/Zero Ontology (as per Curry-Howard Correspondence).
-2020-11-27T16:04:46.000000Z	Ibrahim ←→ Abraham
-2020-11-27T16:04:55.000000Z	Working hours are not about work, they're about class warfare.
 2020-11-28T14:31:33.000000Z	https://www.youtube.com/watch?v=40OcxBzUgK4&t=40m25s it could be like this.
-2020-11-28T15:01:54.000000Z	Rationality is a set of mental motions. Meditation teaches to observe mental motions, and possibly methods to construct new ones.
-2020-11-29T13:20:00.000000Z	Believing something doesn't mean you have to tell it to everyone
 2020-11-29T13:20:21.000000Z	You don't actually need to convince idiots
-2020-11-29T15:57:29.000000Z	sapolskywave
 2020-11-29T22:08:03.000000Z	Fashion seems to operate on two different timescales: 'high fashion' (?) on ½ or 1 year cycles, and 'macro fashion', which changes on the scale of 5 to 10 years
 2020-11-30T10:14:19.000000Z	https://grahamkarta.bandcamp.com now that's my kind of music
 2020-11-30T10:22:54.000000Z	PSA: SL4≠seL4
@@ -125,7 +107,6 @@
 2020-12-12T22:52:12.000000Z	progress in bits, progress in atoms, progress in qualia
 2020-12-12T23:12:40.000000Z	there are a lot of things that disappear when applied to themselves partially. principle of charity, tolerance, libertarianism in CEV. but, being *completely* X lets you retain them. (being maximally tolerant, maximally charitable towards everything, maximally libertarian towards other value systems).
 2020-12-12T23:19:08.000000Z	meta-not-caring
-2020-12-12T23:24:21.000000Z	ratoid
 2020-12-13T01:12:07.000000Z	Not too nice. Not too nasty. Not either to nice or too nasty. Not neither too nice nor too nasty.
 2020-12-15T09:03:49.000000Z	fresh tapas
 2020-12-16T11:18:56.000000Z	HoPwave
@@ -163,15 +144,7 @@
 2020-12-26T11:50:05.000000Z	Inner alignment is a problem when you train the reward function & the policy function jointly.
 2020-12-26T12:32:52.000000Z	Lisp is like minarchism.
 2020-12-26T12:33:06.000000Z	Project idea: search for books that are most effective at converting people from one ideology to another, for any two ideologies.
-2020-12-26T12:33:23.000000Z	0th Potentiality: Doing something
-2020-12-26T12:33:32.000000Z	1st Potentiality: Having the ability to do something
-2020-12-26T12:33:47.000000Z	2nd Potentiality: Having the ability to acquire abilities (intelligence)
-2020-12-26T12:33:55.000000Z	3rd Potentiality: Having the ability to increase 2nd potentiality (having the ability to increase intelligence)
-2020-12-26T12:34:03.000000Z	4th Potentiality: Having the ability to increase 3rd potentiality (being able to acquire intelligence-amplifying technology)
-2020-12-26T12:34:09.000000Z	Humans have 0th, 1st, 2nd and 4th potentiality.
 2020-12-26T12:34:25.000000Z	If you're right about this, how could you make money with it?
-2020-12-26T12:34:33.000000Z	Pronounciation of iff (non-IPA at the moment): ifef
-2020-12-26T12:34:42.000000Z	Michel Foucault -> Mishio Fuko (misheard at the breakfast table)
 2020-12-26T12:34:56.000000Z	tangle ←→ distangle ←→ entangle ←→ untangle ←→ disentangle ←→ endistangle ←→ disuntangle ←→ endisuntangle
 2020-12-26T12:37:46.000000Z	Hot damn good post https://www.lesswrong.com/posts/2G8j8D5auZKKAjSfY
 2020-12-28T13:41:53.000000Z	Oh yeah, you know pain? Have you ever had your contact lenses on the wrong way, with ~½ a dioptrie difference?
@@ -180,14 +153,6 @@
 2020-12-28T14:53:40.000000Z	ge-stern (gasball)
 2020-12-28T14:54:00.000000Z	gestirn
 2020-12-29T12:25:51.000000Z	Endokremlinology
-2020-12-29T13:36:21.000000Z	the whole universe being filled with hedonium is not the optimal outcome, but the whole universe being filled with dolorium is the pessimal outcome
-2020-12-29T13:53:04.000000Z	*sigh* I guess you are my little postrat. Come here *opens arms*
-2020-12-29T16:13:15.000000Z	MFTOE: My Favourite Theory Of Ethics
-2020-12-29T20:31:51.000000Z	However, most people are not even at the “endorse an outcome” stage of political debate
-2020-12-29T20:57:51.000000Z	people only meditate bc it's a trauma cope mechanism
-2020-12-29T21:59:01.000000Z	AI Takeoff model post coming together, slowly.
-2020-12-29T21:59:55.000000Z	Also, after googling, I have discovered I'm pretty much the first person to make the “Endokremlinology” pun. You are hereby authorized to use it as the name for a russian domestic politics blog if you credit me by name.
-2020-12-29T22:01:04.000000Z	Proof: https://www.google.com/search?q=%22endokremlinology%22
 2020-12-30T10:23:25.000000Z	I think I understand bigint multiplication now. Not sure if I've reinvented the Karatsuba algorithm
 2020-12-31T15:08:55.000000Z	no rats on the twtxt tl :-(
 2020-12-31T16:48:00.000000Z	Rethink Priorities is just putting out absolute bangers one after the other. Impressive
@@ -739,7 +704,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-02-21T19:44:30.000000Z	someone on twitter said once that if “defenestrate” means to throw someone out of a window, to “demonstrate” means to throw someone out of a monster. i think about that a lot
 2022-02-21T20:36:29.000000Z	230/330
 2022-02-21T23:37:33.000000Z	the fourfold spatious sutra
-2022-02-21T23:43:19.000000Z	Despite close connection in spirit [Chapin 2022, Cammarata 2021, Sotala 2019], few scholars have investigated the relation between microblogging and ancient buddhist scripture, especially the Tipitaka. However, multiple connections arise, for example the four brahmaviharas (the divine abodes) [Sujiva 2003, Buddhaghosa 500] and certain quaternionic spaces (or “tetraspaces”) [Minkowski 1908, Hamilton 1843, holomanga 2019], pointing at interesting connections between fourfold symmetries and benevolence [Gomez-Émilsson 2018]. In this essay I will
 2022-02-23T21:29:42.000000Z	procrastinating by writing and exercising…i have reached new lows
 2022-02-23T21:30:14.000000Z	picoeconomics is a great word & concept, and I'm sad it hasn't been developed further
 2022-02-27T18:17:46.000000Z	milflife crisis
@@ -978,7 +942,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-05-18T17:58:57.000000Z	DALL·E 2 prompts: The Gateboss of the Girlkeep
 2022-05-19T23:34:51.000000Z	The Lightgirl of the Gate
 2022-05-20T21:29:16.000000Z	knuckle tatoos: “nplv site”, “ttra spce”, “less wrng”
-2022-05-20T21:58:17.000000Z	update: invoking cultural evolution as an explanation is most of the time tenuous, see https://www.gwern.net/Backstop#artificial-persons: “cultures or groups are rarely driven extinct, with most large-scale ones persisting for millennia; such ‘natural selection’ on the group-level is only tenuously linked to the many thousands of distinct practices & beliefs that make up these cultures; and these cultures mutate rapidly as fads and visions and stories and neighboring cultures and new technologies all change over time”
 2022-05-21T19:13:31.000000Z	longevity research is trying to move an outer loss signal into the inner optimizer, we'll have to see whether that one is strong enough to take up the burden
 2022-05-23T21:43:06.000000Z	niplav yushtun, ta faret ne digal.
 2022-05-23T21:55:22.000000Z	I really look forward to the next AI winter! We'll all cozy up inside by the fireside in thick markov blankets, everyone finds a new agent foundations paper in their stocking, and we can listen to uncle Paul have his discussion with uncle Eliezer when the whole family re-unites…
@@ -1045,7 +1008,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-06-15T21:51:50.000000Z	how much did large volcano eruptions in the past change agricultural output?
 2022-06-15T22:22:06.000000Z	it's crazy how we basically haven't tested nuclear weapons in ~30 years
 2022-06-16T08:16:31.000000Z	armed fetuses (“hands”)
-2022-06-16T13:13:39.000000Z	minimal case for blockchains: right now a class of very select people has a monopoly on creating & testing enforceable governance mechanisms. also, these enforceable governance mechanisms are often underspecified: it's often not clear how to apply them, leading to corruption in ambiguous cases. DAOs (and in general distributedly running unchangeable code) are avenues to perform many different such experiments—the cost of starting a DAO is *far* less than starting a new country, and it's completely voluntary!
 2022-06-16T13:56:58.000000Z	niplavistan has no advertising, but if it had, things would be advertised by “made by a machine”, and “handmade” would be a bad property for an object to have
 2022-06-16T15:21:55.000000Z	the downside of crypto seems quite limited, much more than the upside of crypto is limited (though conditions apply)
 2022-06-16T15:22:32.000000Z	is it therefore strategically better to not try to drive people *out of crypto*, but trying to drive good people into crypto? as a sandbox for civilizational sanity interventions (https://musingsandroughdrafts.wordpress.com/2021/03/24/my-current-high-level-strategic-picture-of-the-world/index.html)
@@ -1138,7 +1100,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-09-20T21:47:52.000000Z	80,000 hours podcast but it's only Rob Wiblin speaking. Useful for voice synthesis.
 2022-09-20T21:52:45.000000Z	Anyone else wanna laugh at millennials when they realize they have gotten old?
 2022-09-20T21:53:06.000000Z	Maybe just not have your search space contain Turing complete elements?
-2022-09-20T22:02:25.000000Z	I'm actually not that big a fan of most uses of “prior”/“posterior”: Nearly every credence you have is both a prior and a posterior, at different points in time. You were born with priors embedded in your genome, and you created posteriors from those with observations. but those posteriors became priors in the next update step. so the only credences you had that were only priors were the ones you had at birth (I might make exceptions for things that you have no explicit belief on, as in “huh, I hadn't thought about that problem. I guess my prior here is […]“), and the only credences that are only posteriors are the credences you have now.
 2022-09-20T22:07:02.000000Z	Todo: become an anti-recycling fanatic at some point
 2022-09-20T22:17:53.000000Z	rationalist meditation retreat: listening to Replacing Guilt as a dharma talk
 2022-09-20T22:19:09.000000Z	there are actually six hindrances: the original five and thinking about how to practically dovetail the shortest brainfuck quine
@@ -1196,9 +1157,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-10-26T12:20:41.000000Z	futuristic city image “the world if all externalities were internalized”
 2022-10-28T15:49:32.000000Z	predict yourself as if you're a well-meaning but very unreliable friend of yourself
 2022-10-29T21:45:05.000000Z	The Honeycomb Conjecture was probably the longest-standing open conjecture in the history of mathematics. Open for 2035 years, if Wikipedia is to believed
-2022-10-31T20:51:42.000000Z	nnn that ends with a wimper, not with a bang
-2022-10-31T21:22:55.000000Z	how secure are the svalbard global seed vault and the Arctic World Archive? might it be useful for EAs to work for them?
-2022-10-31T21:25:59.000000Z	Today, scientists fear the corpses
 2022-11-01T20:33:16.000000Z	Gauzian
 2022-11-01T22:46:07.000000Z	MANGAO
 2022-11-04T14:17:17.000000Z	language is the middle layer of a qualia autoencoder

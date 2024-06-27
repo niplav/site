@@ -3,15 +3,11 @@ MARKDOWN=lowdown --html-no-skiphtml --html-no-escapehtml --out-no-smarty
 CONF=config.mk header.html main.css
 
 HTML=index.html \
-	attic/eacrit.html \
-	attic/life_improvements_2030.html \
-	attic/reward.html \
-	attic/third.html \
+	fullindex.html \
 	about.html \
 	changelog.html \
 	content_warning.html \
 	contributions.html \
-	fullindex.html \
 	now.html \
 	todo.html \
 	uses_this.html \
@@ -46,6 +42,7 @@ HTML=index.html \
 	buch_stab.html \
 	cause.html \
 	circle_combinations.html \
+	china.html \
 	consciousness_diagram.html \
 	considerations_on_cryonics.html \
 	cryonics_outside_us.html \
@@ -116,4 +113,8 @@ HTML=index.html \
 	movies_list.html \
 	podcasts_list.html \
 	series_list.html \
-	texts_list.html
+	texts_list.html \
+	attic/eacrit.html \
+	attic/life_improvements_2030.html \
+	attic/reward.html \
+	attic/third.html \

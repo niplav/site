@@ -29,8 +29,9 @@ June 2024
 * [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.md): [Pomodoro Method Edition](./platforms.md#Pomodoros). First result on how good small prediction markets are for selecting actions. The market did quite well, placing 39% on the actual outcome, and got a log score of -0.326. A little bit of evidence that [futarchy](https://en.wikipedia.org/wiki/Futarchy) is viable.
 * [Notes](./notes.html):
 	* [Fat Tails Discourage Compromise](./notes.html#Fat_Tails_Discourage_Compromise)
+	* [t-SNE and UMAP Don't Produce Clusters on Random Data](./notes.html#tSNE_and_UMAP_Dont_Produce_Clusters_on_Random_Data)
 * [About](./about.html):
-	* Added some [friends](./about.html#Friends_of_the_Site)
+	* Added some [friends](./about.html#Friends_of_the_Site) to the [about page](./about.html).
 	* [Self-Hiding Agreements](./about.html#SelfHiding_Agreements): I haven't made any.
 
 ### Links

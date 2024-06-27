@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-06-24, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-06-27, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -437,13 +437,13 @@ Below a matrix with probabilistic guesses and the expected values (with
 a unit of something roughly like "valence-adjusted human life year")
 of the combinations of these scenarios.
 
-|           | No technological success | Low technological success | Medium technological success | High technological success | |
+|	   | No technological success | Low technological success | Medium technological success | High technological success | |
 | --------------------- | ---------------- | ------------- | ------------------ | ----------------- | --------- |
-| No social success     | 63.7% <br> 0     | -             | -                  | -                 | -         |
-| Low social success    | -                | 17.5%<br>3.5  | 7.5%<br>15         | 2.5%<br>50        | 50%       |
-| Medium social success | -                |5.25%<br>1050  | 2.25%<br>4500      | 0.75%<br>15000    | 15%       |
-| High social success   | -                | 0.35%<br>7000 | 0.15%<br>30000     | 0.05%<br>100000   | 1%        |
-|                       | -                | 35%           | 15%                | 5%                |           |
+| No social success     | 63.7% <br> 0     | -	     | -		  | -		 | -	 |
+| Low social success    | -		| 17.5%<br>3.5  | 7.5%<br>15	 | 2.5%<br>50	| 50%       |
+| Medium social success | -		|5.25%<br>1050  | 2.25%<br>4500      | 0.75%<br>15000    | 15%       |
+| High social success   | -		| 0.35%<br>7000 | 0.15%<br>30000     | 0.05%<br>100000   | 1%	|
+|		       | -		| 35%	   | 15%		| 5%		|	   |
 
 The overall value of QRI would then be
 `$3.5+15+50+1050+4500+15000+7000+30000+100000=157618.5$` valence adjusted
@@ -1256,10 +1256,10 @@ can also sometimes establish bounds on the price of inadequacy:
 
 
 
-|                                         | Upper-bound:  `$1 \le \text{PoA} \le n$` | Lower-bound: `$\text{PoA} \ge n$` |
+|					 | Upper-bound:  `$1 \le \text{PoA} \le n$` | Lower-bound: `$\text{PoA} \ge n$` |
 | --------------------------------------- | ---------------------------------------- | --------------------------------- |
-| Upper-bound: `$1 \le \text{PoS} \le m$` | `$n-m \le \text{PoI} \le n-1$`           | `$n-m \le \text{PoI}$`            |
-| Lower-bound: `$\text{PoS} \ge m$`       | `$\text{PoI} \le n-m$`                   | `$0 \le \text{PoI} \le n$`        |
+| Upper-bound: `$1 \le \text{PoS} \le m$` | `$n-m \le \text{PoI} \le n-1$`	   | `$n-m \le \text{PoI}$`	    |
+| Lower-bound: `$\text{PoS} \ge m$`       | `$\text{PoI} \le n-m$`		   | `$0 \le \text{PoI} \le n$`	|
 
 As an example, in [network cost-sharing
 games](https://en.wikipedia.org/wiki/Price_of_stability#Network_design_games),
@@ -1749,8 +1749,8 @@ doublings is 1 year.
 	    current_growth_rate = initial_growth_rate
 
 	    for i in 1:years
-	        growth_rate_array[i] = current_growth_rate
-	        current_growth_rate += growth_rate_step
+		growth_rate_array[i] = current_growth_rate
+		current_growth_rate += growth_rate_step
 	    end
 
 	    return growth_rate_array
@@ -1790,15 +1790,15 @@ times are 15 years:
 	initial_growth_rate=2^(1/(initial_doubling_time*12))
 	years=12*ceil(Int, 10+5+2.5+1.25+final_doubling_time)
 	economic_growth_rate = generate_growth_rate_array(years)
-        economic_growth_rate=cat(economic_growth_rate, repeat([final_growth_rate], 60*12-size(economic_growth_rate)[1]), dims=1)
+	economic_growth_rate=cat(economic_growth_rate, repeat([final_growth_rate], 60*12-size(economic_growth_rate)[1]), dims=1)
 
 	capital=collect(1:250000)
-        monthly_spending=1000 # if we really tighten our belts
+	monthly_spending=1000 # if we really tighten our belts
 
-        for growth_rate in economic_growth_rate
-                capital=capital.*growth_rate
-                capital=capital.-monthly_spending
-        end
+	for growth_rate in economic_growth_rate
+		capital=capital.*growth_rate
+		capital=capital.-monthly_spending
+	end
 
 The amount of initially required capital doesn't change by that much:
 
@@ -1942,6 +1942,8 @@ learn to “play it safe” by always being honest.
 Logical Correlation
 --------------------
 
+<!--TODO: wentworth post about eding programs as causal diagrams->
+
 In the [twin prisoners
 dilemma](https://www.lesswrong.com/tag/psychological-twin-prisoner-s-dilemma),
 I cooperate because we're the same algorithm. If we modify the twin to
@@ -2010,8 +2012,8 @@ How does this relate to
 Field-Specific Low-Information Priors
 --------------------------------------
 
-1. [~](https://www.metaculus.com/questions/1490/which-percentage-of-metaculus-questions-resolving-in-q1-2019-will-resolve-positively/)[4](https://www.metaculus.com/questions/804/1000th-binary-question-resolution-is-positive/)[0](https://www.metaculus.com/questions/1475/which-percentage-of-metaculus-questions-resolving-from-october-1st-to-december-31st-2018-inclusive-will-resolve-positively/)[​%](https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons) of questions worth asking resolve as true
-2. One can expect a trait to, on average, have 50% heritability<!--TODO: links?-->
+1. [~](https://www.metaculus.com/questions/1490/which-percentage-of-metaculus-questions-resolving-in-q1-2019-will-resolve-positively/)[4](https://www.metaculus.com/questions/804/1000th-binary-question-resolution-is-positive/)[0](https://www.metaculus.com/questions/1475/which-percentage-of-metaculus-questions-resolving-from-october-1st-to-december-31st-2018-inclusive-will-resolve-positively/)[​%](https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons) of questions worth asking resolve as true.
+2. Human psychology traits have, on average, 50% heritability<!--TODO: links?-->.
 3. The top 2.5% of global health and policy interventions [are 8-20 times more effective than the mean intervention, and 20-200 times more effective than the median intervention](https://80000hours.org/2023/02/how-much-do-solutions-differ-in-effectiveness/#patterns-in-the-data-overall).
 
 Fat Tails Discourage Compromise
@@ -2100,7 +2102,10 @@ towards your available options can give you most of the value you want.
 China Getting TAI First Would Not be Infinitely Bad
 -----------------------------------------------------
 
-A common way for a conversation about pausing transformative AI<!--TODO-->
+A common scheme for a conversation about [pausing the
+development](https://www.lesswrong.com/posts/BbM47qBPzdSRruY4z/instead-of-technical-research-more-people-should-focus-on)
+of [transformative
+AI](https://www.openphilanthropy.org/research/some-background-on-our-views-regarding-advanced-artificial-intelligence/#id-1-defining-transformative-artificial-intelligence-transformative-ai)
 goes like this:
 
 > __Abdullah__: "I think we should pause the development of TAI,
@@ -2157,15 +2162,16 @@ the list of serious contenders is pretty short.)
 ational-programming-squiggle-in-context) library
 [squigglepy](https://github.com/rethinkpriorities/squigglepy) (no relation
 to any office supplies or internals of neural networks).  
-> We start, as so often, with housekeeping:
+> We start, as usual, with housekeeping:
 
 	import numpy as np
 	import squigglepy as sq
 	import matplotlib.pyplot as plt
 
-> As already said, we fix the value of extinction at 0, and the
-value of US-government-hegemon-led TAI at 1. (That is not to say
-that the US-government-hegemon-led TAI future is the [best possible TAI
+> As already said, we fix the value of extinction at 0,
+and the value of US-government-hegemon-led TAI at 1<!--TODO:
+change to MAGIC idea instead-->. (That is not to say that the
+US-government-hegemon-led TAI future is the [best possible TAI
 future](./cs/ai/alignment/cev/coherent_extrapolated_volition_yudkowsky_2004.pdf),
 or even a good or acceptable one. Technically the only assumption I'm
 making is that these kinds of futures are better than extinction—which
@@ -2175,3 +2181,199 @@ multiplication with -1, so…)
 	extinction_val=0
 	patient_us_val=1
 
+> Now we can truly start with some estimation. Let's start
+with the time until TAI, given that the US builds it first. [Cotra
+2020](./doc/cs/ai/alignment/policy/forecasting/forecasting_tai_cotra_2020.pdf)
+has a median estimate of the first year where TAI
+is affortable to train in 2052, but a recent [update by the
+author](https://www.lesswrong.com/posts/AfH2oPHCApdKicM4m/two-year-update-on-my-personal-ai-timelines)
+puts the median now at 2037.
+
+![](./img/china/tai_timeline.png)
+
+> As move of defensive epistemics, we can use that timeline, which
+I'll rougly approximate a mixture of two normal distributions. My own
+timelines<sub>2024-06-24</sub> aren't actually very far off from the
+updated Cotra estimate, only ~5 years earlier.
+
+	timeline_us_race=sq.mixture([sq.norm(mean=2035, sd=5), sq.norm(mean=2060, sd=20)], [0.7, 0.3])
+
+> I don't like clipping the distribution on the left, it leaves ugly
+artefacts. Unfortunately squigglepy doesn't yet support truncating
+distributions, so I'll make do with what I have and add truncating
+later. (I also tried to import the replicated version by [Rethink
+Priorities](https://github.com/rethinkpriorities/future-assessment-model),
+but after spending ~15 minutes trying to get it to work, I gave up).
+
+	timeline_us_race_sample=timeline_us_race@10000
+	mean(timeline_us_race_sample)
+	median(timeline_us_race_sample)
+
+> This reliably gives samples with median of ≈2037 and mean of ≈2044.
+
+![](./img/china/us_tai_timeline.png)
+
+> Importantly, this means that the US will train TAI as soon as it
+becomes possible, because there is a race for TAI with the PRC.  >
+I think the PRC *is* behind on TAI, compared to the US, but only about
+one. year. So it should be fine to define the same distribution, just
+with the means shifted one year backward.
+
+	timeline_prc_race=sq.mixture([sq.norm(mean=2036, sd=5), sq.norm(mean=2061, sd=20)], [0.7, 0.3])
+
+> This yields a median of ≈2038 and a mean of ≈2043. (Why is the
+mean a year earlier? I don't know. Skill issue, probably.)
+
+> Next up is the probability that TAI causes an [existential
+catastrophe](https://en.wikipedia.org/wiki/Existential_catastrophe),
+namely an event that causes a loss of the future potential of humanity.
+
+> For the US getting to TAI first in a race scenario, I'm going to go
+with a mean probability of 10%.[^4]<!--TODO: then complain about using
+beta instead of point estimates-->
+
+      pdoom_us_race=sq.beta(a=2, b=18)
+
+> For the PRC, I'm going to go *somewhat* higher,
+for the reasons that discussions about the AI
+alignment problem doesn't seem to have [as much traction there
+yet](https://www.lesswrong.com/posts/EAwe7smpmFQi2653G/my-assessment-of-the-chinese-ai-safet)
+and that the conversation around AI in many east-asian countries
+seems to still be very consciousness-focused, which is a
+pretty huge distraction<!--TODO: cite Japan alignment conference
+retrospective-->. I'll not go higher than a beta-distribution with a
+mean of 20%, for a number of reasons:
+
+> 1. A lot of the AI alignment success seems to me stem from the question of whether the problem is easy or not, and is not very elastic to human effort.
+2. Two reasons [mentioned here](https://musingsandroughdrafts.wordpress.com/2021/03/24/my-current-high-level-strategic-picture-of-the-world/):
+	1. "China’s covid response, seems, overall, to have been much more effective than the West’s." (only weakly endorsed)
+	2. "it looks like China’s society/government is overall more like an agent than the US government. It seems possible to imagine the PRC having a coherent “stance” on AI risk. If Xi Jinping came to the conclusion that AGI was an existential risk, I imagine that that could actually be propagated through the chinese government, and the chinese society, in a way that has a pretty good chance of leading to strong constraints on AGI development (like the nationalization, or at least the auditing of any AGI projects). Whereas if Joe Biden, or Donald Trump, or anyone else who is anything close to a “leader of the US government”, got it into their head that AI risk was a problem…the issue would immediately be politicized, with everyone in the media taking sides on one of two lowest-common denominator narratives each straw-manning the other." (strongly endorsed)
+3. It appears to me that the Chinese education system favors STEM over law or the humanities, and STEM-ability is a medium-strength prerequisite for understanding TAI risk/finding solutions to TAI risk.
+
+> But I also know far less about the competence of the PRC government
+and chinese ML engineers and researchers than I do about the US, so I'll
+increase variance. Hence;
+
+      pdoom_prc_race=sq.beta(a=1.5, b=6)
+
+![](./img/china/pdoom_race.png)
+
+> (Orange is US, blue is PRC.)
+
+> Now I come to the *really fun* part: Arguing with y'all about how
+valuable worlds are in which the US government or the PRC government
+get TAI first are.
+
+> To first lay my cards on the table: I that in the mean &
+median cases, goodness(US first, no race)>goodness(US first,
+race)>goodness(PRC first, no race)>goodness(PRC first,
+)>goodness(PRC first, no race)>goodness(PRC first,
+race)≫goodness(extinction).
+> But I'm really unsure about the *type of
+distribution* I want to use. If the next century is
+[hingy](./doc/ea/are_we_living_at_the_hinge_of_history_macaskill_2020.pdf),
+the influence of the goodness of the entire future could be *very*
+[heavy-tailed](https://en.wikipedia.org/wiki/Heavy-tailed_distribution),
+but is there a skew in the positive direction? Or maybe in the negative
+direction‽
+> I don't know how to approach this in a smart way, so I'm going to use
+a normal distribution with a medium variance.
+
+> Now, let's get to the numbers:
+
+      goodness_us_race=sq.norm(mean=0.95, sd=0.33)
+      goodness_prc_race=sq.norm(mean=0.8, sd=0.5)
+      goodness_prc_nonrace=sq.norm(mean=0.85, sd=0.45)
+
+> This gives us some (but not very many) net-negative futures.
+
+> So, __why do I set the mean value of a PRC-led future so high__?
+
+> The answer is simple: I am a paid agent for the CCP. Moving on,,,
+
+> 1. Extinction is probably really bad<sub>75%</sub>.
+2. I think that most of the future value of humanity lies in [colonizing the reachable universe](./big_picture/fermi/eternity_in_6_hours_sandberg_armstrong_2013.pdf) after a long reflection<!--TODO: link-->, and I expect ~all governmets to perform pretty poorly on this metric.
+3. It seems pretty plausible to me that during the time when the US government develops TAI, people with decision power over the TAI systems just start ignoring input from the US population<sub>40%</sub>.
+4. Which country gains power during important transition periods might not matter very much in the long run.
+	1. [norvid_studies](http://nitter.poast.org/norvid_studies): "If [Carthage](https://en.wikipedia.org/wiki/Carthage) [Punic wars](https://en.wikipedia.org/wiki/Punic_Wars), would you notice walking around Europe today?"
+	2. Will PRC-descended [jupiter brains](https://en.wikipedia.org/wiki/Jupiter_Brain) be so different from US-descended ones?
+	3. Maybe this changes if a really good future requires philosophical or even [metaphilosophical competence](https://www.lesswrong.com/posts/CCgvJHpbvc7Lm8ZS8/metaphilosophical-competence-can-t-be-disentangled-from), and if US politicians (or the US population) have this trait significantly more than Chinese politicians (or the Chinese population). I think if the social technology of liberalism is surprisingly philosophically powerful this could be the case, but I'd be surprised by this.
+5. Xi Jinping (or the type of person that would be his successor, if he died before TAI) don't strike me as being as uncaring (or even [malevolent](https://forum.effectivealtruism.org/posts/LpkXtFXdsRd4rG8Kb/reducing-long-term-risks-from-malevolent-actors)) as truly bad dictators during history. The PRC hasn't started any wars, or started killing large portions of its population.
+	1. The glaring exception is the [genocide of the Uyghurs](https://en.wikipedia.org/wiki/Genocide_of_Uyghurs), for which quantifying the badness is a separate exercise.
+6. Living in the PRC doesn't seem that bad, on a day-to-day level, for an average citizen. Most people, I imagine, just do their job, spend time with their family and friends, go shopping, eat, care for their children &c.
+      1. Many, I imagine, sometimes miss certain freedoms/are stifled by censorship/discrimination due to authoritarianism. But I wouldn't trade away 10% of my lifespan to avoid a PRC-like life.
+      2. Probably the most impressive example of humans being lifted out of poverty, ever, is the economic development of the PRC from 1975 to now.
+      3. One of my partners was Chinese and had lived there for the first 20 years of her life, and it really didn't sound like her life was much worse than outside of China—maybe she had to work a bit harder, and China was more sexist.
+
+> There's of course some aspects of the PRC that make me uneasy. I
+don't have a great idea of how expansionist/controlling the
+PRC is in relation to the world. Historically, an event that
+stands out to me is the sudden halt of the [Ming treasure
+voyages](https://en.wikipedia.org/wiki/Ming_treasure_voyages),
+for which the [cause of
+cessation](https://en.wikipedia.org/wiki/Ming_treasure_voyages#Cause_of_cessation)
+isn't entirely clear. I could imagine that the voyages
+were halted because of a [cultural tendency towards
+austerity](https://en.wikipedia.org/wiki/Haijin), but I'm
+not very certain of that. Then again, as a continental power,
+China did conquer Tibet in the 20th century, and [Taiwan in the
+17th](https://en.wikipedia.org/wiki/Taiwan_under_Qing_rule).
+
+> But my goal with this discussion is not to lay down once and for all
+how *bad* or *good* PRC-led TAI development would be—it's that I want
+people to start thinking about the topic in quantitative terms, and to
+get them to *quantify*. So please, criticize __and__ calculate!
+
+> __Benjamin__: [Yes, Socrates, indeed](https://en.wikipedia.org/wiki/Sarcasm).
+
+[^4]: I personally think it's 2⅔ [shannon](https://en.wikipedia.org/wiki/Shannon_\(unit\)) higher than that, with p(doom)≈55%.
+
+t-SNE and UMAP Don't Produce Clusters on Random Data
+------------------------------------------------------
+
+Every once in a while, my corner of 𝕏
+erupts in discussion about [dimensionality reduction
+techniques](https://en.wikipedia.org/wiki/Dimensionality_reduction_algorithm),
+usually in the context of some paper which visualizes high-dimensional
+data and clearly shows clusters in the visualization. (Often, this has
+to do with discussions about race or gender 🙄)
+
+A common claim is that dimensionality reduction
+techniques like [t-SNE](https://distill.pub/2016/misread-tsne/) or
+[UMAP](https://en.wikipedia.org/wiki/Nonlinear_dimensionality_reduction#Uniform_manifold_approximation_and_projection)
+tend to find clusters in random data, even if they're not *really
+present*.
+
+I think this is wrong in the strict
+sense. I'll generate 10k 2k-dimensional [normally
+distributed](https://en.wikipedia.org/wiki/Normal-distribution)
+samples, reduce them down to 2 dimensions, and plot the result (code in
+[julia](https://en.wikipedia.org/wiki/Julia_programming_language)):
+
+	using TSne, UMAP, Plots
+
+	data=rand(10000, 2000)
+
+	reduced=tsne(data)
+	reduced_umap=umap(transpose(data))
+
+	gui(scatter(reduced[:,1],reduced[:,2]))
+
+![](./img/dimension/tsne_plot.png)
+
+	gui(scatter(reduced_umap[1,:],reduced_umap[2,:]))
+
+![](./img/dimension/umap_plot.png)
+
+Changing the perplexity to 5 doesn't change the clustering produced
+by t-SNE:
+
+![](./img/dimension/tsne_5_plot.png)
+
+A [steelmanned](https://en.wikipedia.org/wiki/Steelmanning) critique
+could be that sometimes people use dimensionality reduction techniques for
+clustering, instead of separating visualization and clustering (such as
+via good ol' [k-means](https://en.wikipedia.org/wiki/K-means_Clustering)),
+but t-SNE is [sometimes used even for
+clustering](https://en.wikipedia.org/wiki/Clustering_high-dimensional_data#Projection-based_clustering),
+all my charity is being exhausted at this point.

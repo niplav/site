@@ -17,6 +17,7 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [What is estimational programming? Squiggle in context (quinn, 2022)](https://forum.effectivealtruism.org/posts/t6FA9kGsJsEQMDExt/what-is-estimational-programming-squiggle-in-context)
 * [How to (hopefully ethically) make money off of AGI (habryka/Zvi/Cosmos/NoahK, 2023)](https://www.lesswrong.com/posts/CTBta9i8sav7tjC2r/how-to-hopefully-ethically-make-money-off-of-agi)
 * [Frontier AI Safety Commitments, AI Seoul Summit 2024 (UK Government, 2024)](https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024)
 * [Sycophancy to subterfuge: Investigating reward tampering in language models (Anthropic, 2024)](https://www.anthropic.com/research/reward-tampering)
