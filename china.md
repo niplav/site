@@ -17,15 +17,15 @@ goes like this:
 > __Abdullah__: "I think we should pause the development of TAI,
 because if we don't it seems plausible that humanity [will be disempowered
 by](https://www.lesswrong.com/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to)
-by advanced AI systems."
+by advanced AI systems."  
 > __Benjamin__: "Ah, if you use “we” to refer to the United States
 (and other closely allied countries, which probably don't stand a
 chance), then the current geopolitical rival of the US, namely the
 [PRC](https://en.wikipedia.org/wiki/People's_Republic_Of_China), will
-achieve TAI first. That would be bad."
+achieve TAI first. That would be bad."  
 > __Abdullah__: "I don't see how the US getting TAI *first* changes anything
 about the fact that we don't know how to align superintelligent AI
-systems—I'd rather not race to be the *first* person to kill everyone."
+systems—I'd rather not race to be the *first* person to kill everyone."  
 > __Benjamin__: "Ah, so *now* you're retreating back into your cozy little
 [motte](https://en.wikipedia.org/wiki/Motte-and-bailey_argument): Earlier
 you said that “it seems plausible that humanity will be disempowered“,
@@ -40,13 +40,15 @@ This dynamic is a bit frustrating. Here's how I'd like Abdullah to respond:
 > __Abdullah__: "You're right. I was insufficiently precise in my statements,
 and I apologize for that. Instead, let us manifest the dream of [the great
 philosopher](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz):
-*Calculemus!*
+*Calculemus!*  
+
 > At a basic level, we want to estimate *how much* __worse__ (or, perhaps,
 __better__) it would be for the United States to completely cede the
 race for TAI to the PRC. I will exclude other countries as contenders
 in the scramble for TAI, since I want to keep this analysis simple, but
 that doesn't mean that I don't think they matter. (Although, honestly,
 the list of serious contenders is pretty short.)
+
 > For this, we have to estimate multiple quantities:
 
 > 1. In worlds in which the US and PRC race for TAI:
@@ -120,8 +122,9 @@ but after spending ~15 minutes trying to get it to work, I gave up).
 ![](./img/china/us_tai_timeline.png)
 
 > Importantly, this means that the US will train TAI as soon as it
-becomes possible, because there is a race for TAI with the PRC.  >
-I think the PRC *is* behind on TAI, compared to the US, but only about
+becomes possible, because there is a race for TAI with the PRC.
+
+> I think the PRC *is* behind on TAI, compared to the US, but only about
 one. year. So it should be fine to define the same distribution, just
 with the means shifted one year backward.
 
@@ -135,8 +138,8 @@ catastrophe](https://en.wikipedia.org/wiki/Existential_catastrophe),
 namely an event that causes a loss of the future potential of humanity.
 
 > For the US getting to TAI first in a race scenario, I'm going to go
-with a mean probability of 10%.[^4]<!--TODO: then complain about using
-beta instead of point estimates-->
+with a mean probability of 10%.[^1]
+<!--TODO: then complain about using beta instead of point estimates-->
 
       pdoom_us_race=sq.beta(a=2, b=18)
 
@@ -197,13 +200,13 @@ a normal distribution with a medium variance.
 > The answer is simple: I am a paid agent for the CCP. Moving on,,,
 
 > 1. Extinction is probably really bad<sub>75%</sub>.
-2. I think that most of the future value of humanity lies in [colonizing the reachable universe](./big_picture/fermi/eternity_in_6_hours_sandberg_armstrong_2013.pdf) after a long reflection<!--TODO: link-->, and I expect ~all governmets to perform pretty poorly on this metric.
+2. I think that most of the future value of humanity lies in [colonizing the reachable universe](./big_picture/fermi/eternity_in_6_hours_sandberg_armstrong_2013.pdf) after a long reflection<!--TODO: link-->, and I expect ~all governments to perform pretty poorly on this metric.
 3. It seems pretty plausible to me that during the time when the US government develops TAI, people with decision power over the TAI systems just start ignoring input from the US population<sub>40%</sub>.
 4. Which country gains power during important transition periods might not matter very much in the long run.
 	1. [norvid_studies](http://nitter.poast.org/norvid_studies): "If [Carthage](https://en.wikipedia.org/wiki/Carthage) [Punic wars](https://en.wikipedia.org/wiki/Punic_Wars), would you notice walking around Europe today?"
 	2. Will PRC-descended [jupiter brains](https://en.wikipedia.org/wiki/Jupiter_Brain) be so different from US-descended ones?
 	3. Maybe this changes if a really good future requires philosophical or even [metaphilosophical competence](https://www.lesswrong.com/posts/CCgvJHpbvc7Lm8ZS8/metaphilosophical-competence-can-t-be-disentangled-from), and if US politicians (or the US population) have this trait significantly more than Chinese politicians (or the Chinese population). I think if the social technology of liberalism is surprisingly philosophically powerful this could be the case, but I'd be surprised by this.
-5. Xi Jinping (or the type of person that would be his successor, if he died before TAI) don't strike me as being as uncaring (or even [malevolent](https://forum.effectivealtruism.org/posts/LpkXtFXdsRd4rG8Kb/reducing-long-term-risks-from-malevolent-actors)) as truly bad dictators during history. The PRC hasn't started any wars, or started killing large portions of its population.
+5. Xi Jinping (or the type of person that would be his successor, if he dies before TAI) don't strike me as being as uncaring (or even [malevolent](https://forum.effectivealtruism.org/posts/LpkXtFXdsRd4rG8Kb/reducing-long-term-risks-from-malevolent-actors)) as truly bad dictators during history. The PRC hasn't started any wars, or started killing large portions of its population.
 	1. The glaring exception is the [genocide of the Uyghurs](https://en.wikipedia.org/wiki/Genocide_of_Uyghurs), for which quantifying the badness is a separate exercise.
 6. Living in the PRC doesn't seem that bad, on a day-to-day level, for an average citizen. Most people, I imagine, just do their job, spend time with their family and friends, go shopping, eat, care for their children &c.
       1. Many, I imagine, sometimes miss certain freedoms/are stifled by censorship/discrimination due to authoritarianism. But I wouldn't trade away 10% of my lifespan to avoid a PRC-like life.

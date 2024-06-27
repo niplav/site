@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-12-21, modified: 2024-04-05, language: english, status: in progress, importance: 4, confidence: certain*
+*author: niplav, created: 2023-12-21, modified: 2024-06-27, language: english, status: in progress, importance: 4, confidence: certain*
 
 > __Changing [credit
 assignment](https://en.wikipedia.org/wiki/Credit_assignment_problem)
@@ -175,7 +175,7 @@ ground](https://en.wikipedia.org/wiki/Prediction_market#Legality)
 such markets stand on in the US, but they also threaten the
 reputations of pundits and other information sources who often do
 not display high accuracy in their predictions. See also [Hanson
-2023](https://www.overcomingbias.com/p/prediction-market-quoteshtml)
+2023](https://www.overcomingbias.com/p/prediction-market-quoteshtml):
 
 > A partner at a prominent US-based global management consultant:
 > > “The objective truth should never be more than optional input to

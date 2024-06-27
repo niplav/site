@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-02-08, modified: 2019-11-19, language: english, status: maintenance, importance: 4, confidence: highly likely*
+*author: niplav, created: 2019-02-08, modified: 2024-06-27, language: english, status: maintenance, importance: 4, confidence: highly likely*
 
 > __Imagine getting up every morning and throwing a coin so often that
 > heads and tails have come up an equal amount of times. How often
@@ -16,15 +16,15 @@ This thought experiment can be modeled as a simple
 calculation in a countably infinite case:
 
 <div>
-	$$\mathbb{E}=\sum_{i=1}^{\infty} p_{i}*x_{i}$$
+	$$\mathbb{E}=\sum_{i=1}^{\infty} p_{i} \cdot x_{i}$$
 </div>
 
 Finding `$x_{i}$`
 -----------------
 
-We know that flipping the coin definitely ends when for 2\*n coin flips,
+We know that flipping the coin definitely ends when for `$2 \cdot n$` coin flips,
 we have gotten heads n times and tails n times as well. This gives us
-`$x_{i}=2*i$`.
+`$x_{i}=2 \cdot i$`.
 
 Finding `$p_{i}$`
 -----------------
@@ -99,10 +99,10 @@ enough iterations to find a pattern in the sequences.
 
 ### Considerations on Coin Flips
 
-First of all, the number of finishing sequences given 2\*n coin flips
+First of all, the number of finishing sequences given `$2 \cdot n$` coin flips
 is the [Catalan number](https://en.wikipedia.org/wiki/Catalan_number)
 Cₙ. In this case, it describes the number of [Dyck
-words](https://en.wikipedia.org/wiki/Dyck_word) of the length 2\*n. To
+words](https://en.wikipedia.org/wiki/Dyck_word) of the length `$2 \cdot n$`. To
 quote Wikipedia:
 
 > A Dyck word is a string consisting of n X's and n Y's such that no
@@ -112,7 +112,7 @@ quote Wikipedia:
 
 This applies exactly to the given problem. A finishing sequence has
 equally many heads and tails, but doesn't begin with a sequence of
-equally many heads and tails. Cₙ is defined as `$\frac{1}{n+1}*{2*n \choose n}$`.
+equally many heads and tails. Cₙ is defined as `$\frac{1}{n+1} \cdot {2 \cdot n \choose n}$`.
 
 Catalan numbers can be easily implemented using the [binomial
 coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient):
@@ -122,16 +122,16 @@ coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient):
 	catalan::{bincoeff(2*x;x)%x+1}
 	f::{2*catalan(x)}
 
-We call the number of finishing steps given 2\*n coin flips fₙ.
+We call the number of finishing steps given `$2\cdot n$` coin flips fₙ.
 
 One can also see that the total number of possible sequences of coin flips
-oₙ after 2\*n coin flips is `$4*(o_{n-1}-f_{n-1})$`, because
+oₙ after `$2 \cdot n$` coin flips is `$4 \cdot (o_{n-1}-f_{n-1})$`, because
 one appends `H;H` or `H;T` or `T;H` or `T;T` to the remaining number of
 sequences. So let oₙ be
 
 <div>
 	$$o_{1}=4\\
-	o_{n}=4*(o_{n-1}-f_{n-1})$$
+	o_{n}=4 \cdot (o_{n-1}-f_{n-1})$$
 </div>
 
 One can implement `$o_{n}$` simply:
@@ -139,31 +139,31 @@ One can implement `$o_{n}$` simply:
 	o::{:[x=1;4;4*o(x-1)-f(x-1)]}
 
 When one executes `o` and `f`, one notices something peculiar: it seems
-that `$o_{n}=2*n*f_{n}$`.
+that `$o_{n}=2 \cdot n \cdot f_{n}$`.
 
-#### Proof that `$o_{n}=2*n*f_{n}$`
+#### Proof that `$o_{n}=2 \cdot n \cdot f_{n}$`
 
 Induction basis:
 
 <div>
-	$$o_{1}=2*1*f_{1}\\
-	4=2*1*2$$
+	$$o_{1}=2 \cdot 1 \cdot f_{1}\\
+	4=2 \cdot 1 \cdot 2$$
 </div>
 
 Induction assumption:
 
 <div>
-	$$o_{n}=2*n*f_{n}$$
+	$$o_{n}=2 \cdot n \cdot f_{n}$$
 </div>
 
 Induction step:
 
 <div>
-	$$o_{n+1}=2*(n+1)*f_{n+1}\\
-	2*(o_{n}-f_{n})=(n+1)*f_{n+1}\\
-	2*(2*n*f_{n}-f_{n})=(n+1)*f_{n+1}\\
-	8*n*C_{n}-4*C_{n}=(n+1)*2*C_{n+1}\\
-	C_{n}*\frac{4*n-2}{n+1}=C_{n+1}$$
+	$$o_{n+1}=2 \cdot (n+1) \cdot f_{n+1}\\
+	2 \cdot (o_{n}-f_{n})=(n+1) \cdot f_{n+1}\\
+	2 \cdot (2 \cdot n \cdot f_{n}-f_{n})=(n+1) \cdot f_{n+1}\\
+	8 \cdot n \cdot C_{n}-4 \cdot C_{n}=(n+1) \cdot 2 \cdot C_{n+1}\\
+	C_{n} \cdot \frac{4 \cdot n-2}{n+1}=C_{n+1}$$
 </div>
 
 This is equivalent to [a recursive definition](https://oeis.org/A000108)
@@ -173,10 +173,10 @@ of the Catalan numbers in the OEIS (sixth formula).
 (first value of the catalan numbers is not used, so the whole sequence
 is shifted). Look at this.-->
 
-### Probability of Finishing at `$2*n$` Steps
+### Probability of Finishing at `$2 \cdot n$` Steps
 
 So, what's the probability of finishing given `2*n` steps now? Simple:
-it's `$\frac{f_{n}}{o_{n}}=\frac{f_n}{2*n*f_{n}}=\frac{1}{2*n}$`.
+it's `$\frac{f_{n}}{o_{n}}=\frac{f_n}{2 \cdot n \cdot f_{n}}=\frac{1}{2 \cdot n}$`.
 
 	pgn::{1%2*x}
 
@@ -192,10 +192,10 @@ define `$r_{n}$` recursively:
 
 <div>
 	$$r_{0}=1\\
-	r_{n}=r_{n-1}-\frac{1}{2*(n-1)}*r_{n-1}$$
+	r_{n}=r_{n-1}-\frac{1}{2 \cdot (n-1)} \cdot r_{n-1}$$
 </div>
 
-Now, defining `$p_{n}$` is simple: `$p_{n}=\frac{1}{2*n}*r_{n}$`.
+Now, defining `$p_{n}$` is simple: `$p_{n}=\frac{1}{2 \cdot n} \cdot r_{n}$`.
 
 Final Formula and Final Code
 ----------------------------
@@ -203,7 +203,7 @@ Final Formula and Final Code
 Our final formula for the expected value is thus
 
 <div>
-	$$\mathbb{E}=\sum_{i=1}^{\infty} \frac{1}{2*i}*r_{i}*2*i$$
+	$$\mathbb{E}=\sum_{i=1}^{\infty} \frac{1}{2 \cdot i} \cdot r_{i} \cdot 2 \cdot i$$
 </div>
 
 We could implement `$r_{n}$` very easily:
@@ -251,7 +251,7 @@ To prove this, let the `$\mathbb{E}_n$` for `$n \in \mathbb{N}$` be the
 expected value if we finish throwing the coin after `2*n` steps:
 
 <div>
-	$$\mathbb{E}_n=\sum_{i=1}^{n} \frac{1}{2*i}*r_{i}*2*i$$
+	$$\mathbb{E}_n=\sum_{i=1}^{n} \frac{1}{2 \cdot i} \cdot r_{i} \cdot 2 \cdot i$$
 </div>
 
 We now want to show that
@@ -269,7 +269,7 @@ and show that `$\sum_{i=1}^{n} r_{i}$` diverges as well.
 Let `$r_{n}$` be
 
 `$r_{0}=1$`  
-`$r_{n}=r_{n-1}-\frac{1}{2*(n-1)}*r_{n-1}$`
+`$r_{n}=r_{n-1}-\frac{1}{2 \cdot (n-1)} \cdot r_{n-1}$`
 
 #### Proof that `$r_n \ge \frac{1}{n}$`
 
@@ -291,18 +291,18 @@ Induction Step:
 
 <div>
 	$$r_{n+1} \ge \frac{1}{n+1}\\
-	r_{n}-\frac{1}{2*n}*r_{n} \ge \frac{1}{n+1}\\
-	r_{n}*(1-\frac{1}{2*n}) \ge \frac{1}{n+1}\\
-	r_{n} \ge \frac{1}{(n+1)*(1-\frac{1}{2*n})}\\
-	r_{n} \ge \frac{1}{n+\frac{1}{2}-\frac{1}{2*n}}$$
+	r_{n}-\frac{1}{2 \cdot n} \cdot r_{n} \ge \frac{1}{n+1}\\
+	r_{n} \cdot (1-\frac{1}{2 \cdot n}) \ge \frac{1}{n+1}\\
+	r_{n} \ge \frac{1}{(n+1) \cdot (1-\frac{1}{2 \cdot n})}\\
+	r_{n} \ge \frac{1}{n+\frac{1}{2}-\frac{1}{2 \cdot n}}$$
 </div>
 
 Inserting the assumption:
 
 <div>
-	$$r_{n} \ge \frac{1}{n} \ge \frac{1}{n+\frac{1}{2}-\frac{1}{2*n}}\\
-	n+\frac{1}{2}-\frac{1}{2*n} \ge n\\
-	\frac{1}{2} \ge \frac{1}{2*n}\\
+	$$r_{n} \ge \frac{1}{n} \ge \frac{1}{n+\frac{1}{2}-\frac{1}{2 \cdot n}}\\
+	n+\frac{1}{2}-\frac{1}{2 \cdot n} \ge n\\
+	\frac{1}{2} \ge \frac{1}{2 \cdot n}\\
 	n \ge 1$$
 </div>
 

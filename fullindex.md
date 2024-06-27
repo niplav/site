@@ -54,6 +54,7 @@ Writing
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html)
 * [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.html)
 * [On Discontinuous and Fast Takeoff](./foom.html)
+* [China Getting TAI First Would Not be Infinitely Bad](./china.html)
 
 #### Forecasting
 
