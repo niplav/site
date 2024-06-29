@@ -5,8 +5,8 @@
 
 > __.__
 
-China Getting TAI First Would Not be Infinitely Bad
-===================================================
+A TAI Race With China Can Be Better Than Not Racing
+====================================================
 
  common scheme for a conversation about [pausing the
 development](https://www.lesswrong.com/posts/BbM47qBPzdSRruY4z/instead-of-technical-research-more-people-should-focus-on)
@@ -62,7 +62,7 @@ the list of serious contenders is pretty short.)
 >       2. The probability of extinction caused by TAI.
 >       3. The value of worlds in which the PRC builds aligned TAI.
 > 3. The value of worlds where extinction occurs (which I'll fix at 0).
-> 4. As a reference point the value of hypothetical worlds in which the US builds TAI first, without any time pressure, for which I'll fix the mean value at 1.
+> 4. As a reference point the value of hypothetical worlds in which there is a [multinational exclusive AGI consortium](./doc/cs/ai/alignment/policy/multinational_agi_consortium_hausenloy_2023.pdf) that builds TAI first, without any time pressure, for which I'll fix the mean value at 1.
 
 > To properly quantify uncertainty, I'll use the
 [Monte-Carlo](https://en.wikipedia.org/wiki/Monte-Carlo_methods)
@@ -87,7 +87,7 @@ I'm anxiously uncertain about. But the whole thing is symmetric under
 multiplication with -1, so…)
 
 	extinction_val=0
-	patient_us_val=1
+	magic_val=1
 
 > Now we can truly start with some estimation. Let's start
 with the time until TAI, given that the US builds it first. [Cotra
@@ -157,7 +157,8 @@ mean of 20%, for a number of reasons:
 2. Two reasons [mentioned here](https://musingsandroughdrafts.wordpress.com/2021/03/24/my-current-high-level-strategic-picture-of-the-world/):
 	1. "China’s covid response, seems, overall, to have been much more effective than the West’s." (only weakly endorsed)
 	2. "it looks like China’s society/government is overall more like an agent than the US government. It seems possible to imagine the PRC having a coherent “stance” on AI risk. If Xi Jinping came to the conclusion that AGI was an existential risk, I imagine that that could actually be propagated through the chinese government, and the chinese society, in a way that has a pretty good chance of leading to strong constraints on AGI development (like the nationalization, or at least the auditing of any AGI projects). Whereas if Joe Biden, or Donald Trump, or anyone else who is anything close to a “leader of the US government”, got it into their head that AI risk was a problem…the issue would immediately be politicized, with everyone in the media taking sides on one of two lowest-common denominator narratives each straw-manning the other." (strongly endorsed)
-3. It appears to me that the Chinese education system favors STEM over law or the humanities, and STEM-ability is a medium-strength prerequisite for understanding TAI risk/finding solutions to TAI risk.
+3. It appears to me that the Chinese education system favors STEM over law or the humanities, and STEM-ability is a medium-strength prerequisite for understanding or being able to identify solutions to TAI risk. [Xi Jinping](https://en.wikipedia.org/wiki/Jinping_Xi), for example, studied chemical engineering before becoming a politician.
+	1. The ability to discern technical solutions from non-solutions matters a lot in tricky situations like AI alignment, and [is hard to delegate](https://www.lesswrong.com/s/hFom77cBBnnbNLzzm/p/YABJKJ3v97k9sbxwg).
 
 > But I also know far less about the competence of the PRC government
 and chinese ML engineers and researchers than I do about the US, so I'll
@@ -174,8 +175,9 @@ valuable worlds are in which the US government or the PRC government
 get TAI first are.
 
 > To first lay my cards on the table: I that in the mean & median cases,
-goodness(US first, no race)>goodness(US first, race)>goodness(PRC
-first, no race)>goodness(PRC first, race)>goodness(PRC first,
+goodness([MAGIC](./doc/cs/ai/alignment/policy/multinational_agi_consortium_hausenloy_2023.pdf))>goodness(US
+first, no race)>goodness(US first, race)>goodness(PRC first,
+no race)>goodness(PRC first, race)>goodness(PRC first,
 race)≫goodness(extinction).
 > But I'm really unsure about the *type of
 distribution* I want to use. If the next century is
@@ -191,7 +193,6 @@ a normal distribution with a medium variance.
 
       goodness_us_race=sq.norm(mean=0.95, sd=0.33)
       goodness_prc_race=sq.norm(mean=0.8, sd=0.5)
-      goodness_prc_nonrace=sq.norm(mean=0.85, sd=0.45)
 
 > This gives us some (but not very many) net-negative futures.
 
@@ -203,7 +204,7 @@ a normal distribution with a medium variance.
 2. I think that most of the future value of humanity lies in [colonizing the reachable universe](./big_picture/fermi/eternity_in_6_hours_sandberg_armstrong_2013.pdf) after a long reflection<!--TODO: link-->, and I expect ~all governments to perform pretty poorly on this metric.
 3. It seems pretty plausible to me that during the time when the US government develops TAI, people with decision power over the TAI systems just start ignoring input from the US population<sub>40%</sub>.
 4. Which country gains power during important transition periods might not matter very much in the long run.
-	1. [norvid_studies](http://nitter.poast.org/norvid_studies): "If [Carthage](https://en.wikipedia.org/wiki/Carthage) [Punic wars](https://en.wikipedia.org/wiki/Punic_Wars), would you notice walking around Europe today?"
+	1. [norvid_studies](http://nitter.poast.org/norvid_studies): "If [Carthage](https://en.wikipedia.org/wiki/Carthage) had won the [Punic wars](https://en.wikipedia.org/wiki/Punic_Wars), would you notice walking around Europe today?"
 	2. Will PRC-descended [jupiter brains](https://en.wikipedia.org/wiki/Jupiter_Brain) be so different from US-descended ones?
 	3. Maybe this changes if a really good future requires philosophical or even [metaphilosophical competence](https://www.lesswrong.com/posts/CCgvJHpbvc7Lm8ZS8/metaphilosophical-competence-can-t-be-disentangled-from), and if US politicians (or the US population) have this trait significantly more than Chinese politicians (or the Chinese population). I think if the social technology of liberalism is surprisingly philosophically powerful this could be the case, but I'd be surprised by this.
 5. Xi Jinping (or the type of person that would be his successor, if he dies before TAI) don't strike me as being as uncaring (or even [malevolent](https://forum.effectivealtruism.org/posts/LpkXtFXdsRd4rG8Kb/reducing-long-term-risks-from-malevolent-actors)) as truly bad dictators during history. The PRC hasn't started any wars, or started killing large portions of its population.
@@ -227,11 +228,138 @@ not very certain of that. Then again, as a continental power,
 China did conquer Tibet in the 20th century, and [Taiwan in the
 17th](https://en.wikipedia.org/wiki/Taiwan_under_Qing_rule).
 
+<!--TODO: maybe a distribution with a sharper left tail instead?-->
+
 > But my goal with this discussion is not to lay down once and for all
 how *bad* or *good* PRC-led TAI development would be—it's that I want
 people to start thinking about the topic in quantitative terms, and to
 get them to *quantify*. So please, criticize __and__ calculate!
 
-> __Benjamin__: [Yes, Socrates, indeed](https://en.wikipedia.org/wiki/Sarcasm).
+> __Benjamin__: [Yes, Socrates. Indeed](https://en.wikipedia.org/wiki/Sarcasm).
+
+> __Abdullah__: Wonderful.
+
+> Now we can get to estimating these parameters in worlds where the US
+refuses to join the race.  
+> In this case I'll assume that the PRC is less reckless than they would
+be in a race with the US, and will spend more time and effort on AI
+alignment. I won't go so far to assume that the PRC will manage as well
+as the US (for reasons named earlier), but I think a 5% reduction in
+`$p(\text{doom})$` compared to the race situation can be expected. So,
+with a mean of 15%:
+
+	pdoom_prc_nonrace=sq.beta(a=1.06, b=6)
+
+> I also think that not being in a race situation would allow for more
+moral reflection, possibilities for consulting the chinese population for
+their preferences, options for reversing attempts at grabs for power etc.  
+> So I'll set the goodness at mean 85% of the MAGIC scenario, with lower
+variance than in worlds with a race.
+
+	goodness_prc_nonrace=sq.norm(mean=0.85, sd=0.45)
+
+> The PRC would then presumably take more time to build TAI, I think 4
+years more can be expected:
+
+	timeline_prc_nonrace=sq.mixture([sq.norm(mean=2040, sd=5, lclip=2024), sq.norm(mean=2065, sd=20, lclip=2024)], [0.7, 0.3])
+
+> Now we can finally estimate how good the outcomes of the race situation
+and the non-race situation are, respectively.  
+> We start by estimating how good, in
+[expectation](https://en.wikipedia.org/wiki/Expected_Value), the US-wins-race
+worlds are, and how often the US in fact wins the race:
+
+	us_timelines_race=timeline_us_race@100000
+	prc_timelines_race=timeline_prc_race@100000
+
+	us_wins_race=1*(us_timelines_race<prc_timelines_race)
+	ev_us_wins_race=(1-pdoom_us_race@100000)*(goodness_us_race@100000)
+
+
+> And the same for the PRC:
+
+	prc_wins_race=1*(us_timelines_race>prc_timelines_race)
+	ev_prc_wins_race=(1-pdoom_prc_race@100000)*(goodness_prc_race@100000)
+
+> It's not *quite* correct to just check where the US timeline is
+shorter than the PRC one: The timeline distribution is aggregating
+our uncertainty about which world we're in (i.e., whether TAI takes
+evolution-level amounts of compute to create, or brain-development-like
+levels of compute), so if we just compare which sample from the timelines
+is smaller, we assume "fungibility" between those two worlds. So the
+difference between TAI-achievement ends up larger than the lead in a race
+would be. I haven't found an easy way to write this down in the model,
+but it might affect the outcome slightly.
+
+> The expected goodness of a race world then is
+
+	>>> goodness_race=us_wins_race*ev_us_wins_race+prc_wins_race*ev_prc_wins_race
+	>>> np.mean(goodness_race)
+	0.755284436663701
+	>>> np.median(goodness_race)
+	0.8141808579180554
+	>>> np.var(goodness_race)
+	0.10073986788804666
+
+![](./img/china/goodness_race.png)
+
+As for the non-race situation in which the US decides not to scramble
+for TAI, the calculation is even simpler:
+
+	goodness_non_race=(goodness_prc_nonrace@100000)*(1-pdoom_prc_nonrace@100000)
+
+Summary stats:
+
+	>>> np.mean(goodness_non_race)
+	0.723211242397307
+	>>> np.median(goodness_non_race)
+	0.7084175401996939
+	>>> np.var(goodness_non_race)
+	0.1614949090769059
+
+Comparing the two (with the blue plot being the values non-race worlds,
+and the orange plot being the value of the race worlds):
+
+![](./img/china/goodnesses.png)
+
+> __Abdullah__: …huh. I didn't expect this.  
+> The mean and median of value the worlds with a TAI race are higher
+than the value of the world without a race, and the variance of the
+value of a non-race world is higher. But neither world [stochastically
+dominates](https://en.wikipedia.org/wiki/Stochastic_Dominance) the other
+one—non-race worlds have a higher density of better-than-MAGIC values,
+while having basically the same worse-than-extinction densities. I [update
+myself](https://www.lesswrong.com/rationality/update-yourself-incrementally)
+towards thinking that a race can be beneficial, Benjamin!
+
+> __Benjamin__: ![](./img/china/man_of_culture.jpg)
+
+> __Abdullah__: I'm not done yet, though.
+
+> The first additional consideration is that in a non-race world,
+humanity has the additional benefit of living a few years longer before
+TAI happens and we either live in a drastically changed world<!--TODO:
+link Katja Grace post here?--> or we go extinct.
+
+> (Again, red is in the race, blue is non-race)
+
+	curyear=time.localtime().tm_year
+	years_left_nonrace=(timeline_prc_nonrace-curyear)@100000
+	years_left_race=np.hstack((us_timelines_race[us_timelines_race<prc_timelines_race], prc_timelines_race[us_timelines_race>prc_timelines_race]))-curyear
+
+![](./img/china/years_left.png)
+
+> Whether these distributions are *good* or *bad* depends very much
+on the relative value of pre-TAI and post-TAI lives. (Except for the
+possibility of extinction, which is already accounted for.)  
+> I think that TAI-lives will probably be far better
+than pre-TAI lives, on average, but I'm not at all
+certain: I could imagine a situation like the [Neolothic
+revolution](https://en.wikipedia.org/wiki/Neolithic_Revolution), which
+[arguably](https://en.wikipedia.org/wiki/Neolithic_Revolution#Social_change)
+was net-bad for the humans living through it.
+
+> But the *other* thing I want to point out is that we've been assuming
+that the US just sits back and does nothing while the PRC develops TAI.
 
 [^1]: I personally think it's 2⅔ [shannon](https://en.wikipedia.org/wiki/Shannon_\(unit\)) higher than that, with p(doom)≈55%.
