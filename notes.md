@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-06-27, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-06-28, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2115,7 +2115,7 @@ usually in the context of some paper which visualizes high-dimensional
 data and clearly shows clusters in the visualization. (Often, this has
 to do with discussions about race or gender 🙄)
 
-A common claim is that dimensionality reduction
+A common claim in those discussions is that dimensionality reduction
 techniques like [t-SNE](https://distill.pub/2016/misread-tsne/) or
 [UMAP](https://en.wikipedia.org/wiki/Nonlinear_dimensionality_reduction#Uniform_manifold_approximation_and_projection)
 tend to find clusters in random data, even if they're not *really
@@ -2157,6 +2157,10 @@ hallucinates structure in that case‼
 	gui(scatter(reduced_moredims[:,1],reduced_moredims[:,2]))
 
 ![](./img/dimension/tsne_moredims.png)
+
+And the same for UMAP:
+
+![](./img/dimension/umap_moredims.png)
 
 A [steelmanned](https://en.wikipedia.org/wiki/Steelmanning) critique
 could be that sometimes people use dimensionality reduction techniques for
