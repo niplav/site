@@ -466,7 +466,7 @@ but rather cycles).
 * [Tetraspace West](https://thetetra.space): Land value tax : repetitive Georgists :: Conditional prediction markets : That place for Quaternions
 * [Skaði þjazidottir](https://ulthar.xyz): Gather some stoic people with guns, who have written low-level code
 * [Nyx](https://nyxus.xyz/): Brightly empathetically menacing (we all know she's just joking)
-* [Andrew McKenzie](http://andrewtmckenzie.com/), who writes essays on brain preservation [here](http://andrewtmckenzie.com/) and notes on neurobiology [here](https://neurobiology.substack.com/)
+* [Andrew McKenzie](http://andrewtmckenzie.com/), who writes essays on brain preservation [here](https://brainpreservation.github.io/) and notes on neurobiology [here](https://neurobiology.substack.com/)
 * [Mesaoptimizer](https://mesaoptimizer.com/)
 * [Matthew Baggins](https://matthewbaggins.github.io/)
 * [norvid_studies](https://norvidshoshin.wordpress.com/blog/), [𝕏](http://nitter.poast.org/norvid_studies)

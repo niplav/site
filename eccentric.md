@@ -100,7 +100,7 @@ to support them with this one could allocate more money so that the
 sum nicely comes out to \\$5bio. So it would be *financially* feasible
 to do this, but would it be politically and legally feasible? I don't
 know about that, and don't know of any precedent either. [Leopold
-II.](https://en.wikipedia.org/wiki/Leopold_II_of_Belgium) privately owned
+II](https://en.wikipedia.org/wiki/Leopold_II_of_Belgium) privately owned
 the [Congo Free State](https://en.wikipedia.org/wiki/Congo_free_state),
 but I don't think he *bought* it, and instead convinced the other European
 states to be allowed to militarily seize it. (Our intentions are far more
@@ -116,7 +116,7 @@ from Denmark—[ultimately
 unsuccessful](https://www.gwern.net/Greenland). More examples
 [here](https://en.wikipedia.org/wiki/List_of_territory_purchased_by_a_sovereign_nation_from_another_sovereiign_nation)),
 *but* to my best knowledge nobody has
-ever acquared a country. (Yet. [Growth
+ever acquired a country. (Yet. [Growth
 mindset](https://en.wikipedia.org/wiki/Mindset#Fixed_and_growth_mindsets).)
 
 ### Personal Futarchy on Steroids
@@ -193,7 +193,7 @@ sometimes drawing >10% of the population to use them.
 __Cost__: The underlying software should not be very expensive (a
 website, an app and a backend that could support tens to potentially
 hundreds of thousands of visits a day), and could be re-used for each
-election: An initial expense of ~\\$5mio., with ~\\$500k per ear of
+election: An initial expense of ~\\$5mio., with ~\\$500k per year of
 maintenance seems on the conservative side for an estimate. Assuming we
 want to supply the elections of the 40 biggest (democratic) countries
 with information, there'd be (assuming an electoral cycle of ~4 years)

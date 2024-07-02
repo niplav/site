@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2024-06-23, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2024-07-01, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -51,15 +51,20 @@ I am also working on an [arbtt](https://arbtt.nomeata.de/)-inspired time
 tracker: [awitt](https://github.com/niplav/awitt).
 
 Reading
--------
+--------
 
-Currently, I am actively reading the following books:
+Currently, I am actively reading the following texts:
 
-* An Infinitely Large Napkin (Evan Chen, 2023)
-* Bombay. Maximum City (Suketu Mehta, 2005)
-* Designing Data-Intensive Applications (Martin Kleppmann, 2017)
-* Grand Futures (Anders Sandberg, 2023)
-* Growth (Vaclav Smil, 2020)
-* Schild's Ladder (Greg Egan, 2004)
-* Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
-* Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
+* Textbooks:
+	* An Infinitely Large Napkin (Evan Chen, 2023)
+	* Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
+	* Designing Data-Intensive Applications (Martin Kleppmann, 2017)
+* Paper books:
+	* Growth (Vaclav Smil, 2020)
+	* Bombay. Maximum City (Suketu Mehta, 2005)
+	* Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
+* Pickup book:
+* Meditation book:
+* Other:
+	* Grand Futures (Anders Sandberg, 2023)
+* The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 2/1000.

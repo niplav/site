@@ -1109,8 +1109,8 @@ Appendix B: A Slightly More Complex Guesstimate Model of the Value
 Appendix C: Empirically Checking the Assumptions
 -------------------------------------------------
 
-Appendix D: Some Questions About the Value of Offspring
---------------------------------------------------------
+Appendix D: Some Questions About the Value of Sex
+---------------------------------------------------
 
 A cost-benefit analysis of daygame contains some questions that
 are not obvious to answer, but some of which feel tractable from a
