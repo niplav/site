@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-07-07, modified: 2023-06-22, language: english, status: maintenance, importance: 2, confidence: log*
+*author: niplav, created: 2022-07-07, modified: 2024-07-02, language: english, status: maintenance, importance: 2, confidence: log*
 
 > __Notes for myself on the data I track, how to transform it into a
 usable shape, data quality and other random assortments.__
@@ -145,7 +145,7 @@ The CSV of the data can be found [here](./data/anki_reviews.csv).
 Meditation
 -----------
 
-Similarly, one can export meditation data from Meditavo (if one has
+Similarly, one can export meditation data from Medativo (if one has
 coughed up 5€ for the premium version, which I decided was worth it
 for the data, after having locked myself in :-|):
 

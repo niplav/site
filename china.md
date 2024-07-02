@@ -8,7 +8,7 @@
 A TAI Race With China Can Be Better Than Not Racing
 ====================================================
 
- common scheme for a conversation about [pausing the
+A common scheme for a conversation about [pausing the
 development](https://www.lesswrong.com/posts/BbM47qBPzdSRruY4z/instead-of-technical-research-more-people-should-focus-on)
 of [transformative
 AI](https://www.openphilanthropy.org/research/some-background-on-our-views-regarding-advanced-artificial-intelligence/#id-1-defining-transformative-artificial-intelligence-transformative-ai)
@@ -76,18 +76,19 @@ to any office supplies or internals of neural networks).
 	import squigglepy as sq
 	import matplotlib.pyplot as plt
 
-> As already said, we fix the value of extinction at 0,
-and the value of US-government-hegemon-led TAI at 1<!--TODO:
-change to MAGIC idea instead-->. (That is not to say that the
-US-government-hegemon-led TAI future is the [best possible TAI
+> As already said, we fix the value of
+extinction at 0, and the value of a [multinational AGI
+consortium](./doc/cs/ai/alignment/policy/multinational_agi_consortium_hausenloy_2023.pdf)-led
+TAI at 1 (I'll just call the consortium "MAGIC", from here on). That
+is not to say that the MAGIC-led TAI future is the [best possible TAI
 future](./cs/ai/alignment/cev/coherent_extrapolated_volition_yudkowsky_2004.pdf),
 or even a good or acceptable one. Technically the only assumption I'm
 making is that these kinds of futures are better than extinction—which
 I'm anxiously uncertain about. But the whole thing is symmetric under
-multiplication with -1, so…)
+multiplication with -1, so…
 
 	extinction_val=0
-	magic_val=1
+	magic_val=sq.norm(mean=1, sd=0.05)
 
 > Now we can truly start with some estimation. Let's start
 with the time until TAI, given that the US builds it first. [Cotra
@@ -191,8 +192,8 @@ a normal distribution with a medium variance.
 
 > Now, let's get to the numbers:
 
-      goodness_us_race=sq.norm(mean=0.95, sd=0.33)
-      goodness_prc_race=sq.norm(mean=0.8, sd=0.5)
+      us_race_val=sq.norm(mean=0.95, sd=0.33)
+      prc_race_val=sq.norm(mean=0.8, sd=0.5)
 
 > This gives us some (but not very many) net-negative futures.
 
@@ -212,7 +213,7 @@ a normal distribution with a medium variance.
 6. Living in the PRC doesn't seem that bad, on a day-to-day level, for an average citizen. Most people, I imagine, just do their job, spend time with their family and friends, go shopping, eat, care for their children &c.
       1. Many, I imagine, sometimes miss certain freedoms/are stifled by censorship/discrimination due to authoritarianism. But I wouldn't trade away 10% of my lifespan to avoid a PRC-like life.
       2. Probably the most impressive example of humans being lifted out of poverty, ever, is the economic development of the PRC from 1975 to now.
-      3. One of my partners was Chinese and had lived there for the first 20 years of her life, and it really didn't sound like her life was much worse than outside of China—maybe she had to work a bit harder, and China was more sexist.
+      3. One of my ex-partners was Chinese and had lived there for the first 20 years of her life, and it really didn't sound like her life was much worse than outside of China—maybe she had to work a bit harder, and China was more sexist.
 
 > There's of course some aspects of the PRC that make me uneasy. I
 don't have a great idea of how expansionist/controlling the
@@ -256,7 +257,7 @@ their preferences, options for reversing attempts at grabs for power etc.
 > So I'll set the goodness at mean 85% of the MAGIC scenario, with lower
 variance than in worlds with a race.
 
-	goodness_prc_nonrace=sq.norm(mean=0.85, sd=0.45)
+	prc_nonrace_val=sq.norm(mean=0.85, sd=0.45)
 
 > The PRC would then presumably take more time to build TAI, I think 4
 years more can be expected:
@@ -273,13 +274,13 @@ worlds are, and how often the US in fact wins the race:
 	prc_timelines_race=timeline_prc_race@100000
 
 	us_wins_race=1*(us_timelines_race<prc_timelines_race)
-	ev_us_wins_race=(1-pdoom_us_race@100000)*(goodness_us_race@100000)
+	s_race=(1-pdoom_us_race@100000)*(goodness_us_race_val@100000)
 
 
 > And the same for the PRC:
 
 	prc_wins_race=1*(us_timelines_race>prc_timelines_race)
-	ev_prc_wins_race=(1-pdoom_prc_race@100000)*(goodness_prc_race@100000)
+	ns_race=(1-pdoom_prc_race@100000)*(goodness_prc_race_val@100000)
 
 > It's not *quite* correct to just check where the US timeline is
 shorter than the PRC one: The timeline distribution is aggregating
@@ -293,28 +294,28 @@ but it might affect the outcome slightly.
 
 > The expected goodness of a race world then is
 
-	>>> goodness_race=us_wins_race*ev_us_wins_race+prc_wins_race*ev_prc_wins_race
-	>>> np.mean(goodness_race)
+	ess_race_val=us_wins_race*ev_us_wins_race+prc_wins_race*ev_prc_wins_race
+	an(goodness_race_val)
 	0.755284436663701
-	>>> np.median(goodness_race)
+	dian(goodness_race_val)
 	0.8141808579180554
-	>>> np.var(goodness_race)
+	r(goodness_race_val)
 	0.10073986788804666
 
-![](./img/china/goodness_race.png)
+/china/goodness_race_val.png)
 
 As for the non-race situation in which the US decides not to scramble
 for TAI, the calculation is even simpler:
 
-	goodness_non_race=(goodness_prc_nonrace@100000)*(1-pdoom_prc_nonrace@100000)
+	non_race_val=(goodness_prc_nonrace_val@100000)*(1-pdoom_prc_nonrace@100000)
 
 Summary stats:
 
-	>>> np.mean(goodness_non_race)
+	an(goodness_non_race_val)
 	0.723211242397307
-	>>> np.median(goodness_non_race)
+	dian(goodness_non_race_val)
 	0.7084175401996939
-	>>> np.var(goodness_non_race)
+	r(goodness_non_race_val)
 	0.1614949090769059
 
 Comparing the two (with the blue plot being the values non-race worlds,
@@ -360,6 +361,29 @@ revolution](https://en.wikipedia.org/wiki/Neolithic_Revolution), which
 was net-bad for the humans living through it.
 
 > But the *other* thing I want to point out is that we've been assuming
-that the US just sits back and does nothing while the PRC develops TAI.
+that the US just sits back and does nothing while the PRC develops TAI.  
+> What if, instead, we assume that the US tries to convince its allies and
+the PRC to instead join a MAGIC consortium, for example by demonstrating
+"model organisms"<!--TODO: link here--> of alignment failures.
+
+> A central question now is: How high would the probability of success
+of this course of action need to be to be *as good* or even *better*
+than entering a race?
+
+> As said earlier, the value of MAGIC worlds is fixed at 1, but even such
+worlds still have a small probability of doom—the whole TAI enterprise
+is rather risky. Let's say that it's at 2%, which sets the expected value
+of convincing the whole world to join MAGIC at 0.98.
+
+	pdoom_magic=sq.beta(a=2, b=96)
+
+> I'll also guess that MAGIC takes a whole while longer to get to TAI,
+about 20 years more than the US in a race. (If anyone has suggestions
+about how this affects the *shape* of the distribution, let me know.)
+
+	timeline_magic=sq.mixture([sq.norm(mean=2055, sd=5, lclip=2024), sq.norm(mean=2080, sd=20, lclip=2024)], [0.7, 0.3])
+
+> If we assume that the US has a 10% shot at convincing the PRC to join
+MAGIC, how does this shift our expected value?
 
 [^1]: I personally think it's 2⅔ [shannon](https://en.wikipedia.org/wiki/Shannon_\(unit\)) higher than that, with p(doom)≈55%.

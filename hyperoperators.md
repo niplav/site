@@ -9,8 +9,8 @@ programming language. Edge cases are encountered.__
 Implementing Commutative Hyperoperators
 ========================================
 
-[Ghalimi 2019](https://observablehq.com/@ishi/arithmetic "Hyperlogarithmic
-Arithmetic") presents and discusses a novel construction of a class of
+[Ghalimi 2019](https://observablehq.com/@ishi/arithmetic "Hyperlogarithmic Arithmetic")
+presents and discusses a novel construction of a class of
 [hyperoperators](https://en.wikipedia.org/wiki/Hyperoperator), here I
 implement these in [Klong](http://t3x.org/klong/index.html).
 

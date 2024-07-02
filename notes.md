@@ -2014,7 +2014,7 @@ Field-Specific Low-Information Priors
 --------------------------------------
 
 1. [~](https://www.metaculus.com/questions/1490/which-percentage-of-metaculus-questions-resolving-in-q1-2019-will-resolve-positively/)[4](https://www.metaculus.com/questions/804/1000th-binary-question-resolution-is-positive/)[0](https://www.metaculus.com/questions/1475/which-percentage-of-metaculus-questions-resolving-from-october-1st-to-december-31st-2018-inclusive-will-resolve-positively/)[​%](https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons) of questions worth asking resolve as true.
-2. Human psychology traits have, on average, 50% heritability<!--TODO: links?-->.
+2. Human psychological traits have, on average, 50% heritability<!--TODO: links?-->.
 3. The top 2.5% of global health and policy interventions [are 8-20 times more effective than the mean intervention, and 20-200 times more effective than the median intervention](https://80000hours.org/2023/02/how-much-do-solutions-differ-in-effectiveness/#patterns-in-the-data-overall).
 
 Fat Tails Discourage Compromise
