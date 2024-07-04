@@ -725,12 +725,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-03-03T22:55:05.000000Z	Mandate of Tenderness
 2022-03-08T17:11:32.000000Z	Bourne in (s)hell
 2022-03-09T23:04:43.000000Z	It's not enough to be drunk for escalation, I also need to have made approaches beforehand.
-2022-03-10T21:58:12.000000Z	Stop narrativizing yourself! Stop narrativizing yourself!
-2022-03-10T22:01:09.000000Z	planetejaro, planetarejo, planetarejaĉo, planetaĉejaro
-2022-03-10T22:16:28.000000Z	for obvious reasons, we coated it in a thick layer of orange cheese
-2022-03-10T23:26:35.000000Z	frankensteinian linguistics
-2022-03-10T23:41:38.000000Z	𒉌𒉺𒆷 𒍑𒌅𒉈
-2022-03-12T19:59:41.000000Z	https://www.lesswrong.com/posts/34Gkqus9vusXRevR8/late-2021-miri-conversations-ama-discussion?commentId=PYHHJkHcS55ekmWEE (!!!!!!)
 2022-03-13T00:28:06.000000Z	Curtis Yarvin orchestrated gamergate to see if he could
 2022-03-14T12:56:15.000000Z	apparently i have LOST ANOTHER 3 KILOGRAMS WHAT IS GOING ON I EXERCISE LIKE 3 HOURS A WEEK AND EAT LIKE A BEAR AND A TIGER
 2022-03-15T10:04:21.000000Z	Montmartre-Paris+New York=?
@@ -762,14 +756,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-03-23T20:37:55.000000Z	/r/sneerclub believes that everybody in the bay is attending ceremonies where peter thiel and moldbug sacrifice black children on the altar of acausal capitalism, of course, they are right.
 2022-03-23T21:16:54.000000Z	not the best move on the side of the red cross to call me and tell me it's because of my blood donation — i nearly had a panic attack for the 10 seconds that they didn't tell me it was all fine (why would you call me then‽ and why speak as if you're going to tell me i'll be dead in a month‽)
 2022-03-23T23:01:34.000000Z	the status incentives might not be interested in you, but you are surely interested in the status incentives
-2022-03-24T09:48:54.000000Z	hunting hungarians with a howitzer
-2022-03-24T11:09:51.000000Z	one goal of my site is to maximize the number of intelligent responses I get
-2022-03-24T14:56:13.000000Z	Bach was actually French. Checkmate, Teutons
-2022-03-24T15:07:48.000000Z	also beethoven was Austrian. sorry, I don't make the rules
-2022-03-24T18:00:31.000000Z	male evopsych researchers post your laycounts
-2022-03-24T18:55:58.000000Z	decision theory is applicable when nobody else in the environment is an agent relative to you, game theory is applicable when some things are as agent-like as you, and despair can be used when you are very un-agenty compared to everything else in the environment
-2022-03-24T21:43:36.000000Z	i notice my confusion: i would have expected many more and larger NN models by now, trained on larger amounts of data and displaying significant scaling. where are they? are orgs hiding them?
-2022-03-24T22:23:38.000000Z	why, of course extremal graph theory is, ahem, extremely relevant to ethics! who would have argued otherwise?
 2022-03-25T12:12:17.000000Z	if you're not special, generating passwords is like running from bears: you don't need to be good, you just need to be better than the majority
 2022-03-25T13:09:20.000000Z	wikipedia redirects shitcoin to cryptocurrency. heh
 2022-03-25T14:58:18.000000Z	if you believe that blue-collar republicans are voting against their own interest, well, what about white-collar democrats?
@@ -818,11 +804,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-04-04T18:25:34.000000Z	in general, lw feels like a place where it would be good for many people to cross-post to, a content aggregator/archiver
 2022-04-04T21:47:09.000000Z	i remembered i liked structural regular expressions, but re-reading the paper reminds me of how cool they are
 2022-04-04T21:47:23.000000Z	truly Weapons From a More Civilized Age material
-2022-04-05T13:36:48.000000Z	who called it the psyche and not the egosystem
-2022-04-05T13:42:46.000000Z	Acausal Macroeconomics: A Semidecidable Perspective
-2022-04-05T13:49:56.000000Z	You know, Papadimitriou claims that PPAD stands for “Polynomial Parity Arguments on Directed graphs”, but it bears a suspicious resemblance to his name…
-2022-04-05T16:33:58.000000Z	trembling-hand best response dynamics?
-2022-04-05T17:35:02.000000Z	wish i could scream “I TOLD YOU SO” at the top of my lungs about how dumb europe was to abandon nuclear in favour of Russian gas, but tbh I hadn't even considered that as a factor. Still,,,,,,,,,,,,,
 2022-04-06T23:51:48.000000Z	there is this property of Doneness that I really like, and that tracks a lot (but not all) of my interests. First, let's take meditation: every single moment in meditation is really Done after it's over, it doesn't linger around, the sensations don't pile up somewhere. They might influence each other, sure, but at the end of the day it's just the present experience, slashing into and out of existence in its clear luminosity.
 2022-04-06T23:53:17.000000Z	second, there's predictions. a prediction is Done when it's made. you could add comments, explanations, models &c, but the prediction can be Done and stand there on its own. (there is a slight problem with the fact that predictions need to be updated over time, though, so there is some Piling there as well).
 2022-04-06T23:54:49.000000Z	third, let's look at daygame. if you ask someone out in a social circle/hobby group, that leaves residual social cruft lying around: awkwardness & mutual avoidance. the whole thing is not Done the way it is when you get cleanly rejected on the street. (online dating has a similar quality of Doneness to it, I think, but matches might stack up and old leads might spring to life sometime, but that's the same with DG).
@@ -928,14 +909,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-05-11T12:06:15.000000Z	why am i just now finding out about examine.com this is pretty cool
 2022-05-11T20:55:08.000000Z	God exists, and she is a woman 😏
 2022-05-11T20:55:28.000000Z	Don Knuth really really wants to write a long site and not books. I mean…just take a look at them!
-2022-05-12T09:29:14.000000Z	humans-in-the-loop reinforcement
-2022-05-12T09:29:14.000000Z	humans-in-the-loop exploring reinforcement
-2022-05-12T12:18:38.000000Z	brb replacing all occurrences of “eigen” with “sein” in a linear algebra textbook.
-2022-05-12T13:11:34.000000Z	polls: Were you surprised by the capabilities of DALL·E 2? Were you surprised by the capabilities of PaLM (or however that's capitalized)? Were you (back then) surprised by the capabilities of GPT-3?
-2022-05-12T13:13:27.000000Z	Were you surprised by the capabilities of AlphaGo?
-2022-05-12T13:26:07.000000Z	it's astonishing how often people violate the same basic fucking heuristics, such as DON'T SLEEP WITH YOUR DHARMA STUDENTS, or DON'T SLEEP WITH YOUR DHARMA TEACHERS. really makes you think there's an underlying pattern there. or smth idk
-2022-05-12T14:28:08.000000Z	wait, DALL·E is capable of solving Raven's Matrices tests‽
-2022-05-12T14:28:23.000000Z	https://thenextweb.com/neural/2021/01/10/heres-how-openais-magical-dall-e-generates-images-from-text-syndication/
 2022-05-16T14:14:50.000000Z	vibe computing
 2022-05-17T00:11:49.000000Z	the buddha vector is calculated by finding the path in the space of possible attractors that maximizes the number of attractors it could fall into with an ε perturbation, but falls into none.
 2022-05-17T21:29:00.000000Z	Have you considered that removing Occam's razor from your worldview makes the worldview simpler?
@@ -1125,54 +1098,21 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-10-07T13:57:26.000000Z	{adequate,¬adequate}×{exploitable,¬exploitable}×{efficient,¬efficient}
 2022-10-14T15:19:24.000000Z	gratitude should be a brahmavihara, not upekkha
 2022-10-18T11:00:29.000000Z	what's the entomology of that?
-2022-10-18T16:05:10.000000Z	it's probably better as a meditator to focus on sensations in the belly instead of the nostrils—it's easier and makes progress seem faster, which motivates
-2022-10-19T22:13:02.000000Z	a lot of the value of reading attentively (as opposed to skimming or listening to audiobooks) is the mesa-skill of paying close attention and noticing when you didn't read something carefully—attentive reading, at its best, is deliberate practice for gears-level thinking
-2022-10-19T22:13:19.000000Z	possible also with other media, but practiced less often
 2022-10-21T15:05:11.000000Z	maybe social constructivism is just descriptive in how most social scientists create their theories?
 2022-10-22T21:35:34.000000Z	interpretability can ~re-create more discrete alignment methods over a leaky abstraction
 2022-10-22T23:04:13.000000Z	killing moloch is not glorious, it's just tedious.
 2022-10-23T17:04:39.000000Z	multifaceted hedgehog
 2022-10-23T18:09:52.000000Z	monotonic occam's razor
-2022-10-24T09:44:08.000000Z	meetups ostensibly about X should actually about X, not fucking/partying/status games/etc
-2022-10-24T13:03:07.000000Z	open-source game theory is apparently “game theory with translucent players” in the academic literature
-2022-10-24T15:02:03.000000Z	have problem → pay attention → ??? → problem solved
-2022-10-24T15:10:46.000000Z	Marr's computational level should be called the “functional” level—since functions are really just concerned with mappings
-2022-10-24T18:45:07.000000Z	“There's many nice women in the EA community–” ”Yeah, there's also a bunch of gold on Neptune.”
-2022-10-24T22:40:11.000000Z	gender ratio to sex ratio
-2022-10-24T23:28:12.000000Z	julia nonchalantly eats a whopping 700MB like it's a slice of Gaudamer
-2022-10-24T23:28:24.000000Z	I aspire to such levels of confidence
-2022-10-25T07:52:51.000000Z	the kabbalistic implications of Derek Parfit's name are not to be understated
-2022-10-25T09:13:34.000000Z	I'm confused about beggars. I imagine that for me begging is *much harder*than most other kinds of work. Is it just that some people have that little aversion to approaching thousands of people and asking for money and that much aversion to any other kind of work? Or is it instead sheer necessity: Beggars can't work for whatever reason but still walk & talk, so they beg instead? Or is the real reason just rarity of jobs: You can *always beg*, but jobs are scarce.
-2022-10-25T09:14:01.000000Z	Despite what everyone's saying Morfydd is a badass name.
-2022-10-25T09:17:53.000000Z	~all situations where i can't work and have to resort to begging probably lead to me dying. i think. counterexamples might include having been convicted of a crime and being unemployable, i guess?
-2022-10-25T09:20:27.000000Z	ah! other option: begging is a very flexible occupation: yoou don't need to regularly be at a certain place at a certain time, and noone is bossing you around. so you beg when you need to, and do whatever else otherwise. which brings up a further question: what do beggars spend their time on? do they beg most of their waking time or do they only beg for short bursts?
-2022-10-25T15:53:08.000000Z	the alleged woke decline of Wikipedia has been greatly exaggerated.
-2022-10-25T15:53:30.000000Z	who'd believed that I'd become a bioleninist in my old days
-2022-10-25T18:31:26.000000Z	it's kind of alarming how often my willingness to carefully listen to a person's arguments boils down to how much i like them personally
-2022-10-25T18:31:44.000000Z	slightly less of a problem when I think of them purely as a resource.
-2022-10-25T18:32:56.000000Z	related: I really like having good personal relations with people from the radical left while also being openly EA and very much not leftist. feels like a good step towards coalitions forged between mostly orthogonal sozio-political camps
-2022-10-25T18:37:06.000000Z	the variance in likeability is not as high over text
-2022-10-25T19:24:17.000000Z	how much has EA looked into peak fertilizer and antibiotic resistance?
-2022-10-25T19:40:32.000000Z	bell curve meme with books with/without pictures
 2022-10-26T12:20:41.000000Z	futuristic city image “the world if all externalities were internalized”
 2022-10-28T15:49:32.000000Z	predict yourself as if you're a well-meaning but very unreliable friend of yourself
 2022-10-29T21:45:05.000000Z	The Honeycomb Conjecture was probably the longest-standing open conjecture in the history of mathematics. Open for 2035 years, if Wikipedia is to believed
 2022-11-01T20:33:16.000000Z	Gauzian
 2022-11-01T22:46:07.000000Z	MANGAO
-2022-11-04T14:17:17.000000Z	language is the middle layer of a qualia autoencoder
-2022-11-04T14:17:23.000000Z	podcast meditation
-2022-11-04T15:17:52.000000Z	elon musk is not playing 4d chess with neuralink, or with spacex.
-2022-11-04T15:19:49.000000Z	heuristics decline more gracefully in predictive accuracy than deep models. Example: Having the cosmological constant be off by one part in a thousand yields quite different predictions, while the heuristic "two objects of significant weight (e.g. >10²⁰kg) will enter an elliptical orbit" declines more gracefully as you change the weight
-2022-11-04T15:26:00.000000Z	thing that bugged me about don't look up is that they didn't restart the calculation in the beginning for four times and instead just immediately concluded doom.
 2022-11-05T12:01:26.000000Z	if agents are usually suffering negative sum games might be good via destructive warfare
 2022-11-06T00:42:35.000000Z	i only allow myself to go the hard way. good or bad?
 2022-11-07T23:15:01.000000Z	computational complexity theory of self-modifying code. probably not good for execution speed, but great for code size.
-2022-11-08T23:17:14.000000Z	Albert Ellis, who probably wrote the first book on pickup, “The Art of Erotic Seduction”, was influenced by Alfred Korzybski for inspiring his philosophical path for founding rational therapy. TINACBNIEAC
 2022-11-09T11:01:04.000000Z	of course the Soviet Union failed—they didn't have computers yet!
 2022-11-10T14:34:14.000000Z	arrière and derrière having the same meaning is just such a thing
-2022-11-14T00:21:19.000000Z	matpotlib
-2022-11-14T12:16:01.000000Z	1) What
-2022-11-14T15:55:05.000000Z	beliefs are position, epistemology is speed. i care about acceleration
 2022-11-15T22:23:27.000000Z	THE ACTOR OF THE MAIN CHARACTER FROM VGHS MARRIED THE ACTRESS PLAYING HIS LOVE INTEREST
 2022-11-15T23:31:42.000000Z	concept: Codex but fine-tuned on ticket description & diff pairs, for debugging instead of new code.
 2022-11-15T23:32:56.000000Z	how much programmer activity is spent writing new code vs. debugging existing code?
@@ -1184,10 +1124,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-11-19T20:30:38.000000Z	Julius Caesar Scaliger pre-empted Scott Alexanders solution to theodicy: in his view god had created every being that would add more good than not to the cosmos
 2022-11-19T20:32:59.000000Z	noone told me that you can get basically free tutoring from professors during so-called office hours‽
 2022-11-22T20:49:48.000000Z	My Generation — The Who (Eurobeat Remix)
-2022-11-23T11:55:06.000000Z	functional illiteracy (doesn't know anything about functional analysis)
-2022-11-23T12:02:13.000000Z	logarithmic piechart
-2022-11-23T12:30:57.000000Z	computers? miss me with that wimpy shit, that's for women
-2022-11-23T22:53:08.000000Z	tbh maybe the biggest innovations that Julia makes are the iseven() and isodd() functions
 2022-11-24T16:15:34.000000Z	I believe that in effective altruism, deciding where funds are redirected by classic one-person-gets-one-vote methods would be hugely misguided. leading to coalitions appropriating resources, working against specialization etc. not against funders trying better mechanisms to elicit local knowledge, but applause-lighting “democracy” ain't gonna cut it
 2022-11-24T16:18:41.000000Z	openphils first spent dollar is more effective at promoting public good than the first tax dollar to the eu (to speak nothing of the us)
 2022-11-24T21:44:34.000000Z	WWTSCCD (what would the super-cooperation cluster do)
@@ -1201,13 +1137,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-12-06T01:01:24.000000Z	In this House — We might fail, but never with abandon — Every moment is fresh, unimpeded by the one before — We remove as many obligations as we add — There is something to protect, something to give everything for — Tsuyoku Naritai!
 2022-12-06T15:58:59.000000Z	I'm rapidly flip-flopping between believing that I'm extremely autistic and believing that everyone else is autistic compared to me
 2022-12-06T15:59:03.000000Z	help
-2022-12-08T21:00:22.000000Z	ye olde oshvic model
-2022-12-09T07:39:15.000000Z	are ftm trans people more often sociopathic or psychopathic?
-2022-12-09T07:40:06.000000Z	why does reality give me my strongest leads from my weakest opens
-2022-12-09T09:02:37.000000Z	https://twitter.com/miricult
-2022-12-09T09:26:00.000000Z	XIMPL
-2022-12-09T11:50:44.000000Z	daygame coaches are sex workers
-2022-12-09T12:22:47.000000Z	“blockchains are bad because harmful ai systems could use them to acquire resources” nice try
 2022-12-10T21:14:00.000000Z	thussy
 2022-12-10T21:14:14.000000Z	What is a market then? A wretched piece of matching algorithm
 2022-12-11T21:34:27.000000Z	rapidly oscillating between nibbanic zero-ontology and plotinian “badness is non-being” views
@@ -1222,8 +1151,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-12-14T20:45:07.000000Z	critiques of effective altruism in the form “effective altruism isn't blue/green enough” are really boring, and likely wrong
 2022-12-14T20:46:11.000000Z	“sorry dude, you have vingean uncertainty over the EA community”
 2022-12-14T20:51:54.000000Z	Reading The Precipice & struck by the fact that it was released *before* GPT-3, just as COVID-19 was ramping up. Pretty insane
-2022-12-15T22:11:56.000000Z	all men have opinions on the æsthetics of flags, but not all men have opinions on the beauty of women
-2022-12-15T22:12:26.000000Z	women from $COUNTRY are too logical (I'm from $COUNTRY
 2022-12-17T00:13:48.000000Z	“But I'd love to be pinned down” — Toby Ord (The Precipice p. 397)
 2022-12-17T13:02:33.000000Z	google maps as a dating app
 2022-12-17T23:46:18.000000Z	i *am* looking forward to seeing whether aliens similarly have two sexes, and whether they roughly split up by “sex that does the investing in the offspring” and “sex that provides a lot of variation in mating success”
@@ -1234,8 +1161,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-12-19T16:24:54.000000Z	Prediction: I will not like the Philosophy Tube Video about Effective Altruism
 2022-12-19T16:25:07.000000Z	(i won't watch it anyway)
 2022-12-19T22:50:05.000000Z	https://www.lesswrong.com/posts/7dRGYDqA2z6Zt7Q4h/goals-for-which-less-wrong-does-and-doesn-t-help?commentId=CRMuTvT8sYEYgddME this is just 80k hours. how did they know
-2022-12-20T00:58:22.000000Z	i would buy, but never wear, lesswrong merch
-2022-12-20T15:03:08.000000Z	often it doesn't actually matter whether you're chatting with an LLM or a human, you can just stop talking
 2022-12-21T16:00:08.000000Z	Zeynep's razor (second-order effects): https://nitter.net/zeynep/status/1478766408691556353?lang=en
 2022-12-21T18:29:09.000000Z	tbh whenever someone is like “the existing arguments for agi xrisk were insufficient/unclear, here's my better version” the arguments read exactly the same to me as the existing ones.
 2022-12-21T18:49:08.000000Z	philosophytube followers be pondering the impossibility of white bears in novaya semlya
@@ -1246,23 +1171,11 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-12-22T00:26:22.000000Z	philogynic phylogynists
 2022-12-22T09:36:41.000000Z	deontology is not de-ontology
 2022-12-23T16:08:30.000000Z	it's really funny when people tag jimmy wales on twitter when they don't like some of the content on wikipedia. it's like someone would tag Nat Friedman when they find a bug in a program hosted there
-2022-12-25T15:29:41.000000Z	there are naive millionaires, but there are no naive billionaires
-2022-12-25T15:30:25.000000Z	Some people can only act if there are adults in the room. But there often aren't
 2023-01-08T20:57:00.000000Z	“(1) we don't know what is going on in LLMs (2) it's outlandish to say that LLMs have no understanding of the world” both claims cannot be true
 2023-01-13T10:38:08.000000Z	on reflection disinviting AI researchers from parties and conferences is not an effective way of stopping them in developing AGI
 2023-01-16T14:46:08.000000Z	how much money do I need to pay you for you to take a pill that makes you insane?
 2023-01-22T00:09:57.000000Z	the name of the lost+found/ directory encapsulates all that is great & bad about linux. i won't take any questions.
 2023-01-13T12:03:12.000000Z	you can't just propose a counterfactual and not state whether it's conditional or where you do() the past to produce it
-2023-01-19T12:01:29.000000Z	you need to be metamaxxing. you need to be bullshitpilled. living the simulacrumcore.
-2023-01-19T12:03:45.000000Z	has anyone tried constrained optimization into an ethical system yet?
-2023-01-19T22:27:12.000000Z	> I like this comment and I think it is true [image of Lesswrong vote up + agree]
-2023-01-19T23:48:14.000000Z	cold confusion
-2023-01-19T23:50:30.000000Z	I'm slowly learning how to do a lit review
-2023-01-19T23:50:39.000000Z	It's…kind of fun?
-2023-01-20T16:15:42.000000Z	tetraspace of tetraspades *air guitar solo*
-2023-01-21T19:44:47.000000Z	people writing alleged megathreads with 21 tweets—smh
-2023-01-23T14:49:30.000000Z	we're all the same age in years left to live
-2023-01-24T15:48:06.000000Z	immanent imminent eminent immanant
 2023-01-24T21:29:51.000000Z	what if ftm is just a *really* strong countersignal? have you ever considered that, Mark?
 2023-01-25T20:23:47.000000Z	mfw Eliezer will never call any of my ideas “dignified”
 2023-01-25T21:42:21.000000Z	the correct position on consciousness is the figure-ground inversion of functionalism
@@ -1270,12 +1183,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2023-01-28T00:37:20.000000Z	so discount rates are bad mmkay say philosophers, economists disagree. but then also RL practitioners (& theorists?) use pure discount rates…why?
 2023-01-28T10:37:20.000000Z	backp/acc
 2023-01-28T10:37:26.000000Z	balls/acc
-2023-01-29T02:02:19.000000Z	even fairly well informed people have 0 idea what's coming with AI. still talking about day-to-day politics. oh boy.
-2023-01-29T22:17:47.000000Z	if you need metascience you should probably just go into industry instead
-2023-01-29T22:18:03.000000Z	if you need metascience there's no alpha left in science
-2023-01-29T23:19:58.000000Z	is attraction additive or multiplicative?
-2023-01-29T23:20:32.000000Z	If you put down a heavy (1t) object at the north pole, how much time does pass until the ice has moved so much it's too warm, it melts, and the object falls in the sea?
-2023-01-29T23:20:42.000000Z	how do you do currying in julia?
 2023-01-30T00:24:06.000000Z	get in, loser, we're prompt-injecting the e-girls
 2023-01-30T10:25:59.000000Z	amussy
 2023-02-02T12:42:52.000000Z	he⃛h
@@ -1294,10 +1201,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2023-02-19T00:11:30.000000Z	I want there to be a norm that it is *good* for people to first state them noticing their status-guided motivations and then proceding to answer on the object level when askedabout things.
 2023-02-22T00:58:08.000000Z	heuristic-ness is the curvature of the graceful decline in prediction-accuracy to perturbations of the heuristic
 2023-02-22T11:30:03.000000Z	comparing politics to constrained optimization: taxes are equivalent to the penalty method, while regulations are equivalent to barrier functions.
-2023-02-23T14:33:41.000000Z	a wikipedia article for every beetle species!
-2023-02-23T15:29:09.000000Z	Wikipedia article “List of Largest Snakes”: »There are eleven living snakes«
-2023-02-24T16:35:23.000000Z	does regularization of RL policies act as an impact measure?
-2023-02-24T20:27:13.000000Z	Can DALL·E do Bongard problems?
 2023-02-25T16:22:16.000000Z	»If a tree falls in the forest, does it make a sound?« »Does the bear shit in the woods?«
 2023-02-26T01:18:10.000000Z	A tensor is just an element in the tensor product of vector spaces and their duals, what's the problem?
 2023-02-26T01:18:29.000000Z	(Non-joke question) Is there a tensor product of tensor products?

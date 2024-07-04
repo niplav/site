@@ -61,6 +61,8 @@ a treadmill, and perhaps more he didn’t mention. […]
 4-legged beast: if any leg is far too short or far too long, it can’t
 carry our burdens.
 
+*—[Gwern](https://gwern.net), [“Zeo sleep self-experiments”](https://www.gwern.net/Zeo), 2018*
+
 At least I now know that I'm falling into this trap, "Selbsterkenntnis
 ist der erste Schritt zur Besserung". And the second step is to bring
 all of your data in a usable format.
@@ -191,7 +193,6 @@ expressions](./doc/cs/structural_regular_expressions_pike_1990.pdf "Structural R
 
 	,x/([0-9]+)\/([0-9]+)\/([0-9]+) /c/\3-\1-\2T/
 	,x/; /c/;/
-	,x/.$/c//
 	,x/(T[0-9]+:[0-9]+),/c/\1:00,/
 	,x/-([0-9])-/c/-0\1-/
 
@@ -199,7 +200,6 @@ and some other minor fixes.
 
 Formatting the approaches file:
 
-	,x/.$/d
 	,x/ ,/c/,/
 
 Find incorrectly written locations:
@@ -215,17 +215,22 @@ Anonymizing locations and the names of the women:
 	{
 		if(loc[$2]=="" && $2!="Location")
 		{
-			loc[$2]=""10*rand();
-			gsub(/,/, "", loc[$2]);
+			loc[$2]=100000*rand();
+			gsub(/\./, "", loc[$2]);
+			print $2, loc[$2]>>/dev/stderr
 		}
 		if(name[$8]=="" && $8!="Name")
 		{
-			name[$8]=""10*rand();
-			gsub(/,/, "", name[$8])
+			name[$8]=100000*rand();
+			gsub(/\./, "", name[$8])
+			print $8,name[$8]>>/dev/stderr
 		}
 		if($2!="Location") { $2=loc[$2]; }
 		if($8!="Name") { $8=name[$8]; }
 		print($0);
+	}
+	END {
+		for(key in loc) { printf "%i,%s\n", loc[key], key >"locations" }
 	}' <daygame_approaches.csv >daygame_approaches_anon.csv
 	$ mv daygame_approaches.csv daygame_approaches_deanon.csv
 	$ mv daygame_approaches_anon.csv daygame_approaches.csv
