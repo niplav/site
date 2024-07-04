@@ -50,6 +50,7 @@ Writing
 ##### Strategy
 
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html)
+* [A TAI Race With China Can Be Better Than Not Racing](./china.html)
 * [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.html)
 * [On Discontinuous and Fast Takeoff](./foom.html)
 

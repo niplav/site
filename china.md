@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-06-24, modified: 2024-06-27, language: english, status: finished, importance: 9, confidence: unlikely*
+*author: niplav, created: 2024-06-24, modified: 2024-07-02, language: english, status: finished, importance: 9, confidence: unlikely*
 
 > __Frustrated by all your bad takes, I write a Monte-Carlo analysis
 of whether a transformative-AI-race between the PRC and the USA
@@ -363,7 +363,7 @@ on the relative value of pre-TAI and post-TAI lives. (Except for the
 possibility of extinction, which is already accounted for.)  
 > I think that TAI-lives will probably be far better
 than pre-TAI lives, on average, but I'm not at all
-certain: I could imagine a situation like the [Neolothic
+certain: I could imagine a situation like the [Neolithic
 revolution](https://en.wikipedia.org/wiki/Neolithic_Revolution), which
 [arguably](https://en.wikipedia.org/wiki/Neolithic_Revolution#Social_change)
 was net-bad for the humans living through it.

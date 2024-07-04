@@ -2,22 +2,6 @@ using CSV
 using Distributions
 using DataFrames
 
-function select_location(dg_locations, successes, failures)
-    num_locations = length(dg_locations)
-    theta = [Beta(successes[i] + 1, failures[i] + 1) for i in 1:num_locations]
-    samples = [rand(theta[i]) for i in 1:num_locations]
-    return dg_locations[argmax(samples)]
-end
-
-function update_location(dg_locations, selected_location, success)
-    location_index = findfirst(x -> x == selected_location, dg_locations)
-    if success
-        successes[location_index] += 1
-    else
-        failures[location_index] += 1
-    end
-end
-
 # Load data from CSV
 data = CSV.File("../../data/daygame_approaches.csv") |> DataFrame
 
@@ -31,24 +15,26 @@ dg_locations = unique(locations)
 # Initialize success and failure counts
 successes = zeros(Int, length(dg_locations))
 failures = zeros(Int, length(dg_locations))
+success_prob = zeros(Int, length(dg_locations))
 
-# Perform the bandit algorithm
-for i in 1:length(locations)
-    selected_location = select_location(dg_locations, successes, failures)
+bandit=DataFrame([dg_locations, successes, failures, success_prob], [:location, :successes, :failures, :success_prob])
 
-    # Simulate success or failure based on "Contact info" column
-    success = contacts[i] == 1
-
-    # Update success/failure counts
-    update_location(dg_locations, selected_location, success)
-end
-
-# Print the estimated success probabilities
 for i in 1:length(dg_locations)
-    success_prob = successes[i] / (successes[i] + failures[i])
-    println("Location: $(dg_locations[i]), Success Probability: $success_prob")
+	failures[i]=sum(ismissing.(filter(x->x[:Location]==bandit[!,1][i], data)[!,"Contact info"]))
+	successes[i]=sum(.!ismissing.(filter(x->x[:Location]==bandit[!,1][i], data)[!,"Contact info"]))
 end
 
-# Choose the best location based on the estimated success probabilities
-best_location = dg_locations[argmax(successes + failures)]
-println("Best location: $best_location")
+success_prob=successes ./ (successes .+ failures)
+
+bandit[!, :successes]=successes
+bandit[!, :failures]=failures
+bandit[!, :success_prob]=success_prob
+bandit[!, :dist]=[Beta(bandit[!,2][i] + 1, bandit[!,3][i] + 1) for i in 1:length(bandit[!,1])]
+bandit[!, :sample]=rand.(bandit[!, :dist])
+
+weekday_bad_weather=[449052, 709269, 76108, 548236, 422985]
+weekday_good_weather=[548236, 175735, 709269, 76108, 956569, 132388, 449256, 591664, 449052, 119752, 868084, 422985]
+weekend_bad_weather=[449052, 709269, 76108, 548236, 422985, 10939, 702595, 531828]
+weekend_good_weather=[692404,10939,548236,35322,175735,702595,709269,803955,76108,276017,52055,422985,956569,300211,132388,449256,531828,433507,591664,868084,371851,32441,119752,449052]
+
+println(sort(bandit, :sample))

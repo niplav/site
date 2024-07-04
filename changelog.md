@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2024-06-27, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2024-07-05, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -22,6 +22,12 @@ Monthly updates are sent out [via substack](https://niplav.substack.com/),
 the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
+
+July 2024
+----------
+
+* [A TAI Race With China Can Be Better Than Not Racing](./china.html)
+* [Using A Multi-Armed Bandit to Select Daygame Locations](./bandit.html)
 
 June 2024
 ----------
@@ -185,12 +191,6 @@ Moved [several](./eschews.html) [notes](subscripts.html) [to](preference.html) t
 	* [A Response on FOOM](./notes.html#A_Response_on_FOOM): Various thoughts on fast takeoff that've been floating around in my mind for a while.
 	* [Paternalism May Be About Mechanism Design](./notes.html#Paternalism_May_Be_About_Mechanism_Design): Cases in which taking options away from people is fine.
 	* [Does Recent Masturbation Decrease Meditation Quality?](./notes.html#Does_Recent_Masturbation_Decrease_Meditation_Quality): After some initial skepticism on my side, it looks like abstinence from masturbation is related to higher concentration during meditation after more than 20 days of abstinence. Correlation is [r](https://en.wikipedia.org/wiki/Pearson's_correlation_coefficient)>0.3. Very curious! Maybe [nofap](https://en.wikipedia.org/wiki/NoFap) isn't complete bunk?
-
-<!--
-TODO: add again afterwards
-* [Notes on Pickup](./notes_on_pickup.html)
-	* [Using Multi-Armed Bandits to Select Daygame Locations](./notes_on_pickup.html#Using_MultiArmed_Bandits_to_Select_Daygame_Locations)
--->
 
 ### Links
 

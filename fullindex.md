@@ -54,7 +54,7 @@ Writing
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html)
 * [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.html)
 * [On Discontinuous and Fast Takeoff](./foom.html)
-* [China Getting TAI First Would Not be Infinitely Bad](./china.html)
+* [A TAI Race With China Can Be Better Than Not Racing](./china.html)
 
 #### Forecasting
 
@@ -126,6 +126,7 @@ one moment or forget it!
 *—[Sayyid Qutb ash-Shaheed](https://en.wikipedia.org/wiki/Sayyid_Qutb), [“The America I Have Seen”](https://en.wikipedia.org/wiki/The_America_I_Have_Seen) p. 16, 1951*
 
 * [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
+* [Using A Multi-Armed Bandit to Select Daygame Locations](./bandit.html)
 * [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)
 * [Notes on Pickup](./notes_on_pickup.html)
 * [Pickup Reports](./pickup_reports.html)

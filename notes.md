@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-06-28, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-07-05, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1814,6 +1814,7 @@ Research Consultants List
 * [Niplav](./services.html) (\\$20 for impactful or interesting projects, \\$35 for work with a public result, \\$50 otherwise)
 * [Nuño Sempere](https://nunosempere.com/consulting/) (~\$250/hr, at marginally decreasing price)
 * [Roko Mijic](https://www.lesswrong.com/posts/bMxhrrkJdEormCcLt/brute-force-manufactured-consensus-is-hiding-the-crime-of?commentId=tjt7GbC2fsw2dtNGF) (\$200/hr)
+* [Sarah Constantin](https://www.sarah-constantin.org/consulting) (no hourly rate given)
 * [Vasco Grilo](https://forum.effectivealtruism.org/users/vascoamaralgrilo), (\$20/hr)
 
 Discord Servers for Textbooks
@@ -1943,7 +1944,7 @@ learn to “play it safe” by always being honest.
 Logical Correlation
 --------------------
 
-<!--TODO: wentworth post about eding programs as causal diagrams->
+<!--TODO: wentworth post about eding programs as causal diagrams-->
 
 In the [twin prisoners
 dilemma](https://www.lesswrong.com/tag/psychological-twin-prisoner-s-dilemma),

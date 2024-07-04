@@ -38,6 +38,7 @@ HTML=index.html \
 	99_problems_klong_solution.html \
 	against_applause.html \
 	awesome.html \
+	bandit.html \
 	bcis_and_alignment.html \
 	buch_stab.html \
 	cause.html \
