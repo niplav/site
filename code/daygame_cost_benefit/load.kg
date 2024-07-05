@@ -13,8 +13,8 @@ avgdates::1.8
 datelen::3.5
 
 apprperhour::4
-maxappr::500
-datalim::500
+maxappr::5000
+datalim::5000
 
 fixcost::500
 varcost::0.5

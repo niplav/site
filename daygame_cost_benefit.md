@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-12-25, modified: 2024-06-11, language: english, status: in progress, importance: 3, confidence: possible*
+*author: niplav, created: 2019-12-25, modified: 2024-07-05, language: english, status: in progress, importance: 3, confidence: possible*
 
 > __Is daygame worth it, and if yes,
 how much? I first present a simple [point
@@ -667,8 +667,8 @@ down the probability of not having fathered children, etc-->
 So we can calculate that the value of sleeping with one woman is
 
 		.l("math")
-		300*log(2;4)
-	300
+		350*log(2;4)
+	700.0
 
 <!--TODO: what if we tried to maximize the utility from sleeping with a
 woman some number of times? Especially since sleeping with more beautiful
