@@ -199,7 +199,7 @@ setrgb(0;0;0)
 grid([0],maxappr,(maxappr%10);[0 50000 2000])
 xtitle("Approaches")
 ytitle("Cumulative dollar value of lays")
-plot(layvals)
+plot(disclayvals)
 draw()
 
 .fl()
