@@ -105,7 +105,7 @@ layratiodata::.oc("layratio_data.eps")
 .tc(layratiodata)
 
 setrgb(0;0;0)
-grid([0],datalim,(datalim%10);[0 0.04 0.002])
+grid([1],maxappr,(maxappr%10);[0 0.04 0.005])
 xtitle("Approaches")
 ytitle("Cumulative ratios")
 
@@ -158,7 +158,7 @@ complete::.oc("complete.eps")
 .tc(complete)
 
 setrgb(0;0;0)
-grid([0],maxappr,(maxappr%10);[-20000 15000 1000])
+grid([1],maxappr,(maxappr%10);[-40000 50000 5000])
 xtitle("Approaches")
 ytitle("Cumulative total value")
 
@@ -183,7 +183,7 @@ costf::.oc("cost.eps")
 .tc(costf)
 
 setrgb(0;0;0)
-grid([0],maxappr,(maxappr%10);[-20000 0 500])
+grid([0],maxappr,(maxappr%10);[-40000 0 1000])
 xtitle("Approaches")
 ytitle("Cumulative dollar cost of dates")
 plot({-cost(x)})
@@ -196,7 +196,7 @@ layvalsf::.oc("layvals.eps")
 .tc(layvalsf)
 
 setrgb(0;0;0)
-grid([0],maxappr,[1000];[0 12000 500])
+grid([0],maxappr,(maxappr%10);[0 50000 2000])
 xtitle("Approaches")
 ytitle("Cumulative dollar value of lays")
 plot(layvals)
@@ -204,6 +204,8 @@ draw()
 
 .fl()
 .cc(layvalsf)
+
+.x(1)
 
 mentalf::.oc("mental.eps")
 .tc(mentalf)
