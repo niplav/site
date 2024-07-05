@@ -1,13 +1,13 @@
 .l("nplot")
 .l("./load.kg")
 
-cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 100 10])
+cgrid(["ignored" "stopped" "name" "rejection" "flake" "fizzle" "date" "sex"];[0 100 10])
 
 text(20;400;"white: during abstinence, before masturbation, black: after masturbation")
 
 fillrgb(0;0;0)
-{bar(2*x;after.stag@x;12)}'!6
+{bar(2*x;after.stag@x;16)}'!8
 fillrgb(1;1;1)
-{bar(1+2*x;during.stag@x;12)}'!6
+{bar(1+2*x;during.stag@x;16)}'!8
 
 draw()

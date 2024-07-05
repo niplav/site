@@ -67,4 +67,4 @@ Currently, I am actively reading the following texts:
 * Meditation book:
 * Other:
 	* Grand Futures (Anders Sandberg, 2023)
-* The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 2/1000.
+* The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 3/1000.
