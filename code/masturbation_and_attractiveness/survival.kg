@@ -1,16 +1,16 @@
 .l("nplot")
 .l("./load.kg")
 
-cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 1 0.1])
+cgrid(["ignored" "stopped" "name" "rejection" "flake" "fizzle" "date" "sex"];[0 1 0.1])
 
 text(27;200;"light gray: during abstinence, before masturbation, black: after masturbation")
 
 setwidth(4)
 
 setrgb(0;0;0)
-plot({during.cumperc@(_x)-1})
+plot({after.cumperc@(_x)-1})
 
 setrgb(0.8;0.8;0.8)
-plot({after.cumperc@(_x)-1})
+plot({during.cumperc@(_x)-1})
 
 draw()

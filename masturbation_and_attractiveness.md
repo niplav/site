@@ -1,20 +1,20 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2024-06-23, language: english, status: draft, importance: 2, confidence: likely*
+*author: niplav, created: 2019-08-03, modified: 2024-07-05, language: english, status: draft, importance: 2, confidence: likely*
 
 > __Members of the [NoFap community](https://en.wikipedia.org/wiki/NoFap)
 frequently claim that abstinence from masturbation causally increases
 male attractiveness.__  
 > __I present a method to test this claim (albeit imperfectly) by
-approaching 100 women in the street after 90 days of abstinence from
-masturbation and asking them for their contact information, and 100 again
-after a week of daily masturbation. The results are analyzed using a
-[Mann-Whitney U-test](https://en.wikipedia.org/wiki/Mann-Whitney_U_test)
+approaching 100 women in the street after >90 days of abstinence
+from masturbation and after a short conversation asking them for
+their contact information, and 100 again after a week of daily
+masturbation. The results are analyzed using a [Mann-Whitney
+U-test](https://en.wikipedia.org/wiki/Mann-Whitney_U_test)
 and various [descriptive statistical
-methods](https://en.wikipedia.org/wiki/Descriptive_statistics) and find
-that \_.__
-
+methods](https://en.wikipedia.org/wiki/Descriptive_statistics) and I
+find that \_.__
 
 Abstinence from Masturbation and Success from Cold Approach
 ===========================================================
@@ -24,21 +24,12 @@ the middle where everything is the same
 
 *— [Neal Stephenson](https://en.wikipedia.org/wiki/Neal_Stephenson), [“Snow Crash”](https://en.wikipedia.org/wiki/Snow_Crash), 1992*
 
-<!--TODO: find pagenumber for quote
-Open science foundation pre-registration
-Or just pre-register on the blockchain-->
-
-Consider a question of burning importance:
-
-<!--
-Existing Literature
--------------------
-
-TODO: Search google scholar for "abstinence masturbation
-attractiveness", "abstinence masturbation pheromones" and "abstinence
-masturbation microexpressions". The last time I checked, there was
-nothing there, but it might have changed.
--->
+Consider a question of burning importance: If a man abstains from
+masturbation for a long time, does other people's perception of him
+change as a result, even if they don't know he doesn't abstain? *More
+poignantly*, does he become more attractive to women, through some
+not-yet-understood process of microexpressions, pheromones, more confident
+gait &c?
 
 Examples for the Claim
 -----------------------
@@ -300,9 +291,9 @@ the claims made by members of the NoFap community.
 Method
 ------
 
-Relevant information about me: I am a male living in a european country,
-my age being in the early twenties. I seem to fall into the same
-demographic as most members of the NoFap community.
+Relevant information about me: I am a.m.a.b in my twenties living in
+a european country. I seem to fall into the same demographic as most
+members of the NoFap community.
 
 To test the claims by the NoFap community, I performed a small
 self-experiment.
@@ -310,7 +301,7 @@ self-experiment.
 Data was collected as follows:
 
 I abstained from masturbating and watching pornography from
-2023-02-21T18:40:35 to \_, resulting in >90 days of abstinence from
+2023-06-24T00:54:24 to \_, resulting in >90 days of abstinence from
 masturbation (which is also the period [recommended by the NoFap
 community](https://nofap.com/rebooting/): "NoFap’s gold standard of
 success is our 90-day reboot.").
@@ -318,8 +309,7 @@ success is our 90-day reboot.").
 From \_ to \_, I went on the streets of a major european city
 and approached 100 people I read as women, usually via a [Yad
 stop](https://thomascrownpua.com/2023/04/21/qa-what-do-you-think-of-the-yad-stop/)
-The women who were approached were chosen by their attractiveness to
-the author.
+The women who were approached were chosen by how attractive I found them.
 
 I then ran a standard daygame opener on the woman, with the goal of
 asking her for her number and later taking her on a date.
@@ -333,29 +323,36 @@ same manner from \_ to \_.
 
 Data that was logged included date and time of day (in
 [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601)), whether the approach
-was after abstinence from masturbation or after the one-week period of
-masturbation (1 for the part after abstinence, and 0 for the part after
-masturbation), and how far the interaction went:
+was after abstinence from masturbation or after the one-week period
+of masturbation (1 for the part after abstinence, and 0 for the part
+after masturbation), and how far the interaction went, on an 8-point
+[Likert scale](https://en.wikipedia.org/wiki/Likert_Scale):
 
-* 1 (ignored): the person walked past and did not react
-* 2 (stopped): the person stopped, but didn't answer any question (started laughing or walking away)
-* 3 (name): person gave name, but then started walking away
-* 4 (rejection): person answered that they were in a relationship/had no interest
-* 5 (flake): person gave contact information, but did not reply
-* 6 (date): person showed up to the date
+* 1 (ignored): the woman walked past and did not react
+* 2 (stopped): the woman stopped, but didn't answer any question (started laughing or walking away)
+* 3 (name): the woman gave her name, but then started walking away
+* 4 (rejection): the woman answered that they were in a relationship/had no interest
+* 5 (flake): the woman gave me her contact information, but did not reply
+* 6 (fizzle): the woman replied to one or several of my messages, but didn't agree on a date
+* 7 (date): the woman showed up to the date
+* 8 (sex): I slept with the woman
 
 Results were logged in a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values).
 
-<!--
 ### Justification for Cold Approach as a Method
 
-* Seven point Likert scale
+Cold approach works well as a method here: It
+allows me to sample my attractiveness to women from an
+[i.i.d.](https://en.wikipedia.org/wiki/Independent_and_identically_distributed)
+distribution, basically arbitrarily often. The women don't *know*
+I am doing an experiment, and the stakes are real, so there's little
+incentive for them to lie about their preferences (as they might in a
+survey), and little incentive for me to change my behavior (because I
+like sleeping with beautiful women).
 
-TODO: read
-/usr/local/doc/unread/blackpill/gender_differences_in_receptivity_to_sexual_offers_tappé_et_al_2013.pdf
-/usr/local/doc/unread/blackpill/gender_differences_in_receptivity_to_sexual_offers_clark_hatfield_1989.pdf
-/usr/local/doc/unread/blackpill/psychological_perspectives_on_sex_tappé_2012.pdf
--->
+If the effect of abstaining from masturbation is subliminal and affects
+smell or micro-expressions, approaching women on the street also beats
+online dating as a metric of assessing attractiveness.
 
 Results Analysis
 -----------------
@@ -387,14 +384,14 @@ Code:
 	.l("nplot")
 	.l("./load.kg")
 
-	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 200 10])
+	cgrid(["ignored" "stopped" "name" "rejection" "flake" "fizzle" "date" "sex"];[0 100 10])
 
 	text(20;400;"white: during abstinence, before masturbation, black: after masturbation")
 
 	fillrgb(0;0;0)
-	{bar(2*x;during.stag@x;12)}'!6
+	{bar(2*x;after.stag@x;16)}'!8
 	fillrgb(1;1;1)
-	{bar(1+2*x;after.stag@x;12)}'!6
+	{bar(1+2*x;during.stag@x;16)}'!8
 
 	draw()
 
@@ -408,7 +405,7 @@ overall graph for this would look like this:
 	.l("nplot")
 	.l("./load.kg")
 
-	cgrid(["ignored" "stopped" "name" "rejection" "flake" "date"];[0 1 0.1])
+	cgrid(["ignored" "stopped" "name" "rejection" "flake" "fizzle" "date" "sex"];[0 1 0.1])
 
 	text(27;200;"light gray: during abstinence, before masturbation, black: after masturbation")
 
@@ -422,9 +419,9 @@ overall graph for this would look like this:
 
 	draw()
 
-![Survival percentages for different stages, overall](./img/masturbation_and_attractiveness/survival.png "Survival percentages for different stages, overall")
+![Retention percentages for different stages, overall](./img/masturbation_and_attractiveness/survival.png "Retention percentages for different stages, overall")
 
-*Survival percentages for different stages, overall*
+*Retention percentages for different stages, overall*
 
 ### Descriptive Results
 
@@ -435,15 +432,13 @@ standard deviation to compare the different parts of the dataset.
 Here the table for the different mean values and their variances in
 parentheses (the botttom right cell contains the overall mean value):
 
-
-|       | during               | after          |           |
-| ----- | -------------------- | -------------- | --------- |
-| f     | μ_during (var)      | μ_after (var) | μ (var) |
+|           | during        | after      |      |
+| --------- | ------------- | ---------- | ---- |
+| mean      | μ\_during     | μ\_after   | μ    |
+| median    | mdn\_during   | mdn\_after | mdn  |
+| variance  | var\_during   | var\_after | var  |
 
 As one can see, \_.
-
-The code for calculating these can be found
-[here](./code/masturbation_and_attractiveness/load.kg).
 
 <!--
 Questions:
@@ -498,11 +493,6 @@ Problems
 
 ### No Objective Decision Process for Approaching
 
-<!--
-TODO: Read:
-/usr/local/doc/unread/attractiveness/maxims_or_myths_of_beauty_langlois_et_al_2000.pdf
--->
-
 One possible criticism of the above experiment could be that no
 clear method of establishing of whom to approach was used. This
 is a fair criticism, since attractiveness is a subjective
@@ -527,20 +517,6 @@ This person and the person approaching would meet twice, at least 90
 days apart, and the decider would choose who would be approached by
 the experimenter. For me, this didn't work, since proposing this to any
 acquantainces would have been not socially acceptable.
-
-<!--
-### Perception of Attractiveness may Vary In Regards to Masturbation Behavior
-
-TODO:
-Idea:
-Survey on /r/NoFap regarding attractiveness perception (does longer
-abstinence from masturbation result in lower attractiveness standards?
-Search for claims that abstinence from masturbation changes perception
-of attractiveness
-
-Does attractiveness have an influence on the strength of the response to
-cold approach?
--->
 
 Another possible bias in choosing whom to approach could be that
 abstinence from masturbation changes the perception of attractiveness. In
@@ -642,8 +618,6 @@ This experiment shows that \_. So we can conclude that \_.
 Appendix A: Preregistration
 ---------------------------
 
-### Preregistration
-
 To avoid p-hacking and other practices, the bulk of this text was written
 before the actual experiment and data analysis was conducted, and posted
 on the subreddit [/r/niplav](https://old.reddit.com/r/niplav), with the
@@ -655,9 +629,6 @@ by users of reddit.
 
 The raw markdown, pre-registered version of this article can be found
 [here](https://niplav.github.io/masturbation_and_attractiveness_preregistered.txt).
-Two appendices and all comments were removed from the markdown to reduce
-the character count, which allowed the markdown itself to be posted
-on reddit.
 
 Its hashsum was computed as such:
 
@@ -665,7 +636,10 @@ Its hashsum was computed as such:
 
 <!--TODO: add link to reddit post-->
 
-The pre-registered hypothesis shall thus be: Let `$\mu_{\text{during}}$`
+Hypotheses
+-----------
+
+The pre-registered hypotheses shall thus be: Let `$\mu_{\text{during}}$`
 be the expected value of cold approach with women during a long
 period of abstinence from masturbation as described in the section
 [Method](#Method), and `$\mu_{\text{after}}$` be the expected value of cold
@@ -678,14 +652,14 @@ are three different hypotheses:
 
 There seem to be different possible strengths of convictions on this issue:
 
-* I define the *Strong NoFap Stance* as predicting that H₀ and H₁ will be rejected, and only H₂ will be accepted.
-* I define the *Weak NoFap Stance* as predicting that H₀ will be rejected, and H₁ and H₂ will be accepted.
-* I define the *Neutral Stance* as predicting that all 3 hypotheses will be accepted.
+1. I define the *Strong NoFap Stance* as predicting that H₀ and H₁ will be rejected, and only H₂ will be accepted.
+2. I define the *Weak NoFap Stance* as predicting that H₀ will be rejected, and H₁ and H₂ will be accepted.
+3. I define the *Neutral Stance* as predicting that all 3 hypotheses will be accepted.
 
 As a pre-registration, I subjectively assign a probability of 60% to the
 *Neutral Stance* being correct, a probability of 17% to the *Weak NoFap
 Stance* being correct, a 8% probability to the *Strong NoFap Stance*,
-and 15% to any other result.
+and 15% to any other result.<!--TODO: fatebook!-->
 
 ### Reasoning
 
@@ -701,11 +675,6 @@ for by natural and/or sexual selection. "Major mechanisms that do not
 contribute to fitness do not survive in evolutionary equilibrium." ([Ng
 1995](./doc/biology/welfare/towards_welfare_biology_evolutionary_economics_of_animal_consciousness_and_suffering_ng_1995.pdf "Towards Welfare Biology: Evolutionary Economics of Animal Consciousness and Suffering")
 p. 9).
-
-<!--TODO: search for examples of animal species masturbating,
-as well as the reasoning about the evolutionary reasons for masturbation:
-https://en.wikipedia.org/wiki/Non-reproductive_sexual_behavior_in_animals#Autoeroticism_or_masturbation,
-https://en.wikipedia.org/wiki/Masturbation#Evolutionary_utility-->
 
 This reasoning is imperfect, because it may very well be that masturbation
 is an adaption that was useful in environments with low numbers of people,
@@ -725,36 +694,26 @@ much easier. I used the following code to generate the dummy data:
 
 	probes::100
 
-	fdur::[0.15 0.25 0.35 0.9 0.95]
-	mdur::[0.15 0.25 0.35 0.9 0.95]
-	faft::[0.15 0.25 0.35 0.9 0.95]
-	maft::[0.15 0.25 0.35 0.9 0.95]
+	dur::[0.1 0.2 0.25 0.3 0.75 0.9 0.98]
+	aft::[0.1 0.2 0.25 0.3 0.75 0.9 0.98]
 
 	d::({:[
-		x<fdur@0;"2019-09-17T15:17:10+02:00,1,f,1":|
-		x<fdur@1;"2019-09-17T15:17:10+02:00,1,f,2":|
-		x<fdur@2;"2019-09-17T15:17:10+02:00,1,f,3":|
-		x<fdur@3;"2019-09-17T15:17:10+02:00,1,f,4":|
-		x<fdur@4;"2019-09-17T15:17:10+02:00,1,f,5";
-		"2019-09-17T15:17:10+02:00,1,f,6"]}'probes{x,.rn()}:*[]),({:[
-		x<mdur@0;"2019-09-17T15:17:10+02:00,1,m,1":|
-		x<mdur@1;"2019-09-17T15:17:10+02:00,1,m,2":|
-		x<mdur@2;"2019-09-17T15:17:10+02:00,1,m,3":|
-		x<mdur@3;"2019-09-17T15:17:10+02:00,1,m,4":|
-		x<mdur@4;"2019-09-17T15:17:10+02:00,1,m,5";
-		"2019-09-17T15:17:10+02:00,1,m,6"]}'probes{x,.rn()}:*[]),({:[
-		x<faft@0;"2019-09-17T15:17:10+02:00,0,f,1":|
-		x<faft@1;"2019-09-17T15:17:10+02:00,0,f,2":|
-		x<faft@2;"2019-09-17T15:17:10+02:00,0,f,3":|
-		x<faft@3;"2019-09-17T15:17:10+02:00,0,f,4":|
-		x<faft@4;"2019-09-17T15:17:10+02:00,0,f,5";
-		"2019-09-17T15:17:10+02:00,0,f,6"]}'probes{x,.rn()}:*[]),({:[
-		x<maft@0;"2019-09-17T15:17:10+02:00,0,m,1":|
-		x<maft@1;"2019-09-17T15:17:10+02:00,0,m,2":|
-		x<maft@2;"2019-09-17T15:17:10+02:00,0,m,3":|
-		x<maft@3;"2019-09-17T15:17:10+02:00,0,m,4":|
-		x<maft@4;"2019-09-17T15:17:10+02:00,0,m,5";
-		"2019-09-17T15:17:10+02:00,0,m,6"]}'probes{x,.rn()}:*[])
+	        x<dur@0;"2019-09-17T15:17:10+02:00,1,1":|
+	        x<dur@1;"2019-09-17T15:17:10+02:00,1,2":|
+	        x<dur@2;"2019-09-17T15:17:10+02:00,1,3":|
+	        x<dur@3;"2019-09-17T15:17:10+02:00,1,4":|
+	        x<dur@4;"2019-09-17T15:17:10+02:00,1,5":|
+	        x<dur@5;"2019-09-17T15:17:10+02:00,1,6":|
+	        x<dur@6;"2019-09-17T15:17:10+02:00,1,7";
+	        "2019-09-17T15:17:10+02:00,1,8"]}'probes{x,.rn()}:*[]),({:[
+	        x<aft@0;"2019-09-17T15:17:10+02:00,0,1":|
+	        x<aft@1;"2019-09-17T15:17:10+02:00,0,2":|
+	        x<aft@2;"2019-09-17T15:17:10+02:00,0,3":|
+	        x<aft@3;"2019-09-17T15:17:10+02:00,0,4":|
+	        x<aft@4;"2019-09-17T15:17:10+02:00,0,5":|
+	        x<aft@5;"2019-09-17T15:17:10+02:00,0,6":|
+	        x<aft@6;"2019-09-17T15:17:10+02:00,0,7";
+	        "2019-09-17T15:17:10+02:00,0,8"]}'probes{x,.rn()}:*[])
 
 	.p({x,"
 	",y}/d)
@@ -774,49 +733,62 @@ To test whether my code was correct, I first checked the hypothesis with
 the dummy data with the probabilities in the code above (where abstinence
 from masturbation has no effect at all):
 
-	$ kg -l ./load.kg
-		.fc(.ic("../../data/masturbation_attractiveness_dummy_even.csv"));data::csv.load()
-		data::{["" 1 "" 1]:$'x}'4_data
-		data::{1_x}'data
-		duringf::{*|x}'flr({(1=*x)&("f"=x@1)};data)
-		afterf::{*|x}'flr({(0=*x)&("f"=x@1)};data)
-		tstt(duringf;afterf;0.05)
-	μ_X≤μ_Y accepted (p≤0.05)
-	μ_X=μ_Y accepted (p≤0.05)
-	μ_X≥μ_Y accepted (p≤0.05)
-	"μ_X≥μ_Y accepted (p≤0.05)"
-
 The data can be found
-[here](./data/masturbation_attractiveness_dummy_even.csv).
+[here](./data/masturbation_attractiveness_dummy_even.csv). I find that
+this data fails to reject H₀:
+
+	julia> MannWhitneyUTest(before[!, "progress"], after[!, "progress"])
+	Approximate Mann-Whitney U test
+	-------------------------------
+	Population details:
+	    parameter of interest:   Location parameter (pseudomedian)
+	    value under h_0:         0
+	    point estimate:          0.0
+
+	Test summary:
+	    outcome with 95% confidence: fail to reject h_0
+	    two-sided p-value:           0.2680
+
+	Details:
+	    number of observations in each group: [100, 100]
+	    Mann-Whitney-U statistic:             4571.5
+	    rank sums:                            [9621.5, 10478.5]
+	    adjustment for ties:                  868776.0
+	    normal approximation (μ, σ):          (-428.5, 386.406)
 
 I then first changed the probabilities in the dummy data generation
 script slightly (reducing the probability of failure in each step by
 only a few percentage points):
 
-	fdur::[0.13 0.21 0.29 0.88 0.9]
-	mdur::[0.15 0.25 0.35 0.9 0.95]
-	faft::[0.15 0.25 0.35 0.9 0.95]
-	maft::[0.15 0.25 0.35 0.9 0.95]
+	dur::[0.1 0.2 0.25 0.3 0.75 0.9 0.98]
+	aft::[0.15 0.3 0.35 0.4 0.8 0.93 0.99]
 
 I then generated the dummy data:
 
-	$ kg ./code/masturbation_and_attractiveness/gen_dummy.kg >>data/masturbation_attractiveness_dummy_fadv.csv
+	$ kg ./code/masturbation_and_attractiveness/gen_dummy.kg >>data/masturbation_attractiveness_dummy_better.csv
 
 and tested the hypothesis again:
 
-	$ kg -l ./load.kg
-		.fc(.ic("../../data/masturbation_attractiveness_dummy_fadv.csv"));data::csv.load()
-		data::{["" 1 "" 1]:$'x}'4_data
-		data::{1_x}'data
-		duringf::{*|x}'flr({(1=*x)&("f"=x@1)};data)
-		afterf::{*|x}'flr({(0=*x)&("f"=x@1)};data)
-		tstt(duringf;afterf;0.05)
-	μ_X≤μ_Y rejected (p≤0.05)
-	μ_X=μ_Y accepted (p≤0.05)
-	μ_X≥μ_Y accepted (p≤0.05)
-	"μ_X≥μ_Y accepted (p≤0.05)"
+	julia> MannWhitneyUTest(before[!, "progress"], after[!, "progress"])
+	Approximate Mann-Whitney U test
+	-------------------------------
+	Population details:
+	    parameter of interest:   Location parameter (pseudomedian)
+	    value under h_0:         0
+	    point estimate:          0.0
+
+	Test summary:
+	    outcome with 95% confidence: reject h_0
+	    two-sided p-value:           0.0184
+
+	Details:
+	    number of observations in each group: [100, 100]
+	    Mann-Whitney-U statistic:             4070.5
+	    rank sums:                            [9120.5, 10979.5]
+	    adjustment for ties:                  585144.0
+	    normal approximation (μ, σ):          (-929.5, 394.016)
 
 As one can see, this already leads to H₀ being rejected.
 
 The data can be found
-[here](./data/masturbation_attractiveness_dummy_fadv.csv).
+[here](./data/masturbation_attractiveness_dummy_better.csv).

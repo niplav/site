@@ -1,15 +1,16 @@
 .l("csv")
 .l("nstat")
 
-.fc(.ic("../../data/masturbation_attractiveness_dummy_fadv.csv"));data::csv.load()
+.fc(.ic("../../data/masturbation_attractiveness_dummy_better.csv"));data::csv.load()
 
-data::{["" 1 "" 1]:$'x}'4_data
+data::{["" 1 "" 1]:$'x}'1_data
 
 data::{1_x}'data
 
 during::{*|x}'flr({1=*x};data)
 
 during.stag::#'=during@<during
+during.stag::during.stag,((8-#during.stag):^0)
 during.stagcum::|+\|during.stag
 during.perc::|%:'|during.stagcum
 during.cumperc::1,*\during.perc
@@ -17,6 +18,7 @@ during.cumperc::1,*\during.perc
 after::{*|x}'flr({0=*x};data)
 
 after.stag::#'=after@<after
+after.stag::after.stag,((8-#after.stag):^0)
 after.stagcum::|+\|after.stag
 after.perc::|%:'|after.stagcum
 after.cumperc::1,*\after.perc
