@@ -3,20 +3,18 @@
 
 oppcost::20
 
-prostcost::250
+prostcost::350
 prideval::400
 laynum::4
-firstlayval::prideval+prostcost*(1+ln(laynum))
+firstlayval::prideval+prostcost*log(2;laynum)
 
 datecost::20
 avgdates::1.8
 datelen::3.5
 
 apprperhour::4
-ratioexp::0.02
-ratiobegin::0.005
-maxappr::5000
-datalim::5000
+maxappr::500
+datalim::500
 
 fixcost::500
 varcost::0.5
@@ -28,6 +26,8 @@ apppy::1000
 
 fcbfo::300
 pbfo::0.001
+
+partnerexp::199%200
 
 layceil::0.032999999999999995
 layslope::-0.00032469342601662376
@@ -41,9 +41,18 @@ dateintercept::0.4249112313623176
 
 dateratio::{dateceil*1%(1+exp(dateintercept+dateslope*x))}
 
-pridevals::{prideval*ln(e*(x+1))*layratio(x)*x}
-layvals::{prostcost*ln(e*laynum)*layratio(x)*x}
-benefit::{pridevals(x)+layvals(x)}
+:"TODO: find this through iteration"
+firstlayat::118
+
+pridevals::{prideval*log(2;x+1)*layratio(x)*x}
+pridemult::prideval%log(2;pridevals(firstlayat))
+discpridevals::{pridemult*log(2;pridevals(x))}
+
+layvals::{prostcost*log(2;laynum)*layratio(x)*x}
+laymult::prostcost%layvals(firstlayat)^partnerexp
+disclayvals::{(laymult*layvals(x))^partnerexp}
+
+benefit::{discpridevals(x)+disclayvals(x)}
 
 cost::{(oppcost*x%apprperhour)+(dateratio(x)*datecost*avgdates*x)+dateratio(x)*datelen*avgdates*oppcost}
 
@@ -59,10 +68,10 @@ ccbfo::{[t];t::x;+/{b.pmf(x;t;pbfo)*fcbfo*(1+ln(x))}'1+!{(x<t)&00.1<b.pmf(x;t;pb
 
 ccost::{ccbfo(x)+cexpenditures(x)+(oppcost*x%apprperhour)+(dateratio(x)*datecost*avgdates*x)+dateratio(x)*datelen*avgdates*oppcost}
 
-vals::{benefit(x)-cost(x)}'!maxappr
+vals::{benefit(x)-cost(x)}'1+!maxappr
 optim::*>vals
 optimben::vals@*>vals
 
-cvals::{cbenefit(x)-ccost(x)}'!maxappr
-coptim::*>cvals
-coptimben::cvals@*>cvals
+:"cvals::{cbenefit(x)-ccost(x)}'20*1+!maxappr%20"
+:"coptim::*>cvals"
+:"coptimben::cvals@*>cvals"
