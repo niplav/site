@@ -52,8 +52,12 @@ discarded. Lists can also be ignored. (This is basically applying
 though without a success condition).
 
 This method results in a corpus of considerable size.<!--(TODO: how
-much text?)--> For a shorter approach, you could also just read all
-[vital articles](https://en.wikipedia.org/wiki/Wikipedia:Vital_articles).
+much text?)-->
+
+For a shorter approach, one could also just read all [Level 3 vital
+articles](https://en.wikipedia.org/wiki/Wikipedia:Vital_articles)—a
+strategy I am currently pursuing. (I have read three out of the 1000
+articles so far.)
 
 Approach Anxiety
 ----------------

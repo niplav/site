@@ -453,13 +453,19 @@ of the symmetrical difference of the sets of edges, that is
 1. `$\text{EGED}(G_1, G_2) \le |E_1 \Delta E_2|$`: To generate `$G_2$` from `$G_1$` it is necessary to remove edges from `$G_1$` not in `$G_2$`, and then add edges from `$G_2$` not in `$G_1$`. These comprise the set `$(E_1 \backslash E_2) \cup (E_2 \backslash E_1)$`. So the graph-edit distance is upper-bounded by the size of the symmetric difference.
 2. `$\text{EGED}(G_1, G_2) \ge |E_1 \Delta E_2|$`: Assume that `$|E_1 \Delta E_2|<\text{EGED}(G_1, G_2)$`. Removing `$E^-=E_1 \backslash E_2$` from `$G_1$` and adding the edges `$E^+=E_2 \backslash E_1$` results in `$G_2$`. But then `$E^- \uplus E^+$` is already a graph edit that creates `$G_2$` from `$G_1$`, so `$\text{EGED}(G_1, G_2)$` can't be a minimal edge-graph-edit distance between `$G_1$` and `$G_2$`. ◻
 
-::: algorithm
-::: algorithmic
-$m \gets \infty$, $R \gets \emptyset$ $L$ is a consistent graph with
-vertices $\Omega$ and edges $E_L$ $d \gets |E \Delta E_L|$
-$R \gets \{L\}$, $m \gets d$ $R \gets R \cup \{L\}$ $R$
-:::
-:::
+*__Algorithm 1__: A naive algorithm for computing `EGEDmin`*
+
+```
+function EGEDmin(G)
+	m=∞,R=∅
+	for L∈ℭ_Ω: # L is a consistent graph with vertices Ω and edges E_L
+		d=|EΔE_L|
+		if d<m:
+			R={L}, m=d
+		else if d==m:
+			R=R∪{L}
+	return R
+```
 
 #### Establishing Consistency Stepwise
 
@@ -489,55 +495,62 @@ is to execute the following steps:
     in front of a strict order $C$. The result is a set of acyclic
     tournaments $\mathbf{C}$ on $\Omega$.
 
-::: algorithm
-::: algorithmic
-$\{G\}$ Remove reflexive edges from $G$ $\mathbf{A} \gets \emptyset$,
-$\mathbf{R} \gets \emptyset$
-$\mathbf{A} \gets \mathbf{A} \cup \{G \backslash \text{fas}\}$
-$\mathbf{R} \gets \mathbf{R}\ \cup$ $\mathbf{R}$ $G$
-$\mathbf{R} \gets \emptyset$ $M \gets G$ with $\omega$ removed
-$\mathbf{T} \gets$ $\mathbf{R} \gets \mathbf{R} \cup \{T^*\}$ $T^*$ is
-the transitive closure of $T$ $\mathbf{R}$
-:::
-:::
+*__Algorithm 2__: Computing `stepwise`*
+
+```
+function stepwise(G)
+	if G is consistent
+		return {G}
+	Remove reflexive edges from G
+	A=∅, R=∅
+	for fas∈mfas(G):
+		A=A∪{G\fas}
+	for a∈A
+		R=R∪topological_sorts(a)
+	return R
+
+function topological_sorts(G)
+	if |Ω|=0:
+		return G
+	R=∅
+	for ω∈Ω so that ω has in-degree 0 in G:
+		M=G with ω removed
+		T=topological_sorts(M)
+		for t∈T:
+			R=R∪{t*} # t* is the transitive closure of t
+	return R
+```
 
 We can now prove that `stepwise` has the same output as `EGEDmin`. First
 we prove that all outputs of `stepwise` have the same edge-graph-edit
 distance from $G$.
 
-::: {#lemma:stepwisesamedist .lemma}
 **Lemma 1**. For a given $G=(\Omega, E_G)$, all graphs returned by
 $\mathtt{stepwise}$ have the same edge-graph-edit distance from $G$.
-:::
 
-::: proof
-*Proof.* Let $\mathbf{S}=\mathtt{stepwise}(G)$, and $S=(\Omega, E_S) \in
-\mathbf{S}$. Since all $S$ are transitive, complete and reflexive, all
-$S$ have the same number of edges, namely the triangular number
-$|E_S|=\frac{|\Omega|(|\Omega|+1)}{2}$. We also know that
-$\text{EGED}(G, S)=|E_G \Delta E_S|$, and $E_G
-\Delta E_S=E_G \backslash E_S \cup E_S \backslash E_G$ (the edges we
-remove from $E_G$ and the edges we add to $E_S$). The edges removed from
-$E_G$ are the minimal feedback arc sets, so they all have the same size
-$m=|E_G \backslash E_S|$. It now suffices to show that
-$i=E_S \backslash E_G$, the size of the edges added, is constant. It
-holds that $|E_G|-m+i=|E_S|$, and then $i=|E_S|-|E_G|+m$, which must be
-constant. So $\text{EGED}(S, G)=m+i$ is also constant for a given
-$G, S \in \mathbf{S}$. ◻
-:::
+*Proof.* Let `$\mathbf{S}=\mathtt{stepwise}(G)$`, and `$S=(\Omega,
+E_S) \in \mathbf{S}$`. Since all `$S$` are transitive, complete and
+reflexive, all $S$ have the same number of edges, namely the triangular
+number `$|E_S|=\frac{|\Omega|(|\Omega|+1)}{2}$`. We also know that
+`$\text{EGED}(G, S)=|E_G \Delta E_S|$`, and `$E_G \Delta E_S=E_G
+\backslash E_S \cup E_S \backslash E_G$` (the edges we remove from
+`$E_G$` and the edges we add to `$E_S$`). The edges removed from
+`$E_G$` are the minimal feedback arc sets, so they all have the same
+size `$m=|E_G \backslash E_S|$`. It now suffices to show that `$i=E_S
+\backslash E_G$`, the size of the edges added, is constant. It holds
+that `$|E_G|-m+i=|E_S|$`, and then `$i=|E_S|-|E_G|+m$`, which must be
+constant. So `$\text{EGED}(S, G)=m+i$` is also constant for a given `$G,
+S \in \mathbf{S}$`. ◻
 
 We then show that the edges removed by `EGEDmin` are always a minimum
 feedback arc set.
 
-::: {#mfasremove .lemma}
-**Lemma 2**. Given a directed graph $G$, let $T=(\Omega, E_T) \in
-\mathtt{EGEDmin}(G)$. Let $E^-_T=E \backslash E_T$ (the edges removed
-from $G$ to achieve $T$) and $E^+_T=E_T \backslash E$ (the edges added
-to $G$ to create $T$). Then $E^-_T$ is a minimum feedback arc set of
-$G$.
-:::
+**Lemma 2**. Given a directed graph `$G$`, let `$T=(\Omega, E_T)
+\in \mathtt{EGEDmin}(G)$`. Let `$E^-_T=E \backslash E_T$` (the edges
+removed from `$G$` to achieve `$T$`) and `$E^+_T=E_T \backslash E$`
+(the edges added to `$G$` to create `$T$`). Then `$E^-_T$` is a minimum
+feedback arc set of `$G$`.
 
-::: proof
 *Proof.* $E^-_T$ is a feedback arc set: Assume for contradiction that
 $E^-_T$ was not a feedback arc set. Then $G$ would need to contain a
 cycle of directed edges

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-06-23, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-07-06, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,21 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Reasons To Be Cheerful (Greg Egan, 1997)
+* [Continuing My Caffeine Self-Experiment (Michael Dickens, 2024)](https://mdickens.me/2024/06/24/continuing_caffeine_self_experiment/)
+* [Caffeine Cycling Self-Experiment (Michael Dickens, 2024)](https://mdickens.me/2024/04/11/caffeine_self_experiment/)
+* [AI #71: Farewell to Chevron (Zvi, 2024)](https://www.lesswrong.com/posts/AYJcL6GD3FLkL4yNC/ai-71-farewell-to-chevron)
+* [An introduction to Codes of Practice for the AI Act (Jimmy Farrell, 2024)](https://artificialintelligenceact.eu/introduction-to-codes-of-practice/)
+* [Ramesses II (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Rameses_II)
+* Silver Fire (Greg Egan, 1995)
+* Transition Dreams (Greg Egan, 1993)
+* Cocoon (Greg Egan, 1994)
+* [Hatshepsut (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Hatshepsut)
+* [My 2024 Presidential Debate (Scott Alexander, 2024)](https://www.astralcodexten.com/p/my-2024-presidential-debate)
+* Multinational AGI Consortium (MAGIC): A Proposal for International Coordination on AI (Jason Hausenloy/Andrea Miotti/Claire Dennis, 2023)
+* [Reward Misspecification (markov/Charbel-Raphaël Segerie, 2024)](https://centresecuriteia.github.io/textbook/Chapters/06
+* [Things I Use (Gavin Leech, 2020)](https://www.gleech.org/stuff)
+* [Now THIS is forecasting: understanding Epoch's Direct Approach (Elliot Mckernon/Zershaaneh Qureshi/Convergence Analysis, 2024)](https://forum.effectivealtruism.org/posts/yHjdr5pi2oCPbMxTR/now-this-is-forecasting-understanding-epoch-s-direct)
 * [What is estimational programming? Squiggle in context (quinn, 2022)](https://forum.effectivealtruism.org/posts/t6FA9kGsJsEQMDExt/what-is-estimational-programming-squiggle-in-context)
 * [How to (hopefully ethically) make money off of AGI (habryka/Zvi/Cosmos/NoahK, 2023)](https://www.lesswrong.com/posts/CTBta9i8sav7tjC2r/how-to-hopefully-ethically-make-money-off-of-agi)
 * [Frontier AI Safety Commitments, AI Seoul Summit 2024 (UK Government, 2024)](https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024)

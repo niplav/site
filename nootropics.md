@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2024-01-17, language: english, status: maintenance, importance: 3, confidence: likely*
+*author: niplav, created: 2023-01-06, modified: 2024-07-06, language: english, status: maintenance, importance: 3, confidence: likely*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
 decided to log my nootropics usage and its effects.__
@@ -266,6 +266,7 @@ taking caffeine before morning meditations.
 
 * [Stimulant tolerance, or, the tears of things (Leech, 2020)](https://www.gleech.org/stims)
 * [Avoiding Caffeine Tolerance (Dickens, 2024)](https://mdickens.me/2024/03/02/caffeine_tolerance/)
+	* [Continuing My Caffeine Self-Experiment (Michael Dickens, 2024)](https://mdickens.me/2024/06/24/continuing_caffeine_self_experiment/)
 
 Creatine
 ---------

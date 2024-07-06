@@ -13,9 +13,6 @@
 Subjective Estimates of Life Expectancy
 ======================================
 
-Abstract
---------
-
 <!--TODO: at ≥1000 data points, put results into the abstract.-->
 
 Actuarial tables are of great interest to statisticians, gerontologists
