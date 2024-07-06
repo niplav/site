@@ -436,23 +436,23 @@ similar to those of the minimalist unix and [Plan
 Various measures of size for the website (excluding automatically generated content and transcriptions):
 
 	$ cat (l *.md | g -v 'chrono|tao|_list|exercise_log|declaration') | pr | grep -Eo 'Page [0-9]+' | tail -1
-	Page 472
+	Page 830
 	$ wc (l *.md | g -v 'chrono|tao|_list|exercise_log|declaration') | tail -1
-	26416  146341 1072198 total
+	46452  278664 2166233 total
 
 Benford's law:
 
 	$ grep -ho '[0-9]' *.md | sort | uniq -c | sort -n | tail -10
-	6106 4
-	7128 9
-	7130 6
-	7297 8
-	7423 3
-	7750 5
-	7803 7
-	26734 1
-	28876 2
-	44173 0
+	9694 4
+	10092 9
+	10138 8
+	10271 6
+	11056 7
+	11764 3
+	11887 5
+	36400 1
+	40989 2
+	57962 0
 
 (Note: as of the time of writing, the list of numbers above is not
 iteratively stable, that is, after I update the numbers, the distribution
