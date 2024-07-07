@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-15, modified: 2024-06-10, language: english, status: notes, importance: 8, confidence: highly likely*
+*author: niplav, created: 2023-04-15, modified: 2024-07-07, language: english, status: notes, importance: 8, confidence: highly likely*
 
 > __We consider the problem of resolving preferences
 that are inconsistent under the [von Neumann-Morgenstern
@@ -551,53 +551,52 @@ removed from `$G$` to achieve `$T$`) and `$E^+_T=E_T \backslash E$`
 (the edges added to `$G$` to create `$T$`). Then `$E^-_T$` is a minimum
 feedback arc set of `$G$`.
 
-*Proof.* $E^-_T$ is a feedback arc set: Assume for contradiction that
-$E^-_T$ was not a feedback arc set. Then $G$ would need to contain a
-cycle of directed edges
-$E_c=\omega_1 \rightarrow \omega_2 \rightarrow \dots
-\rightarrow \omega_{k-1} \rightarrow \omega_k \rightarrow \omega_1$ so
-that the cycle was still present after removing $E^-_T$, that is $E_c
-\subseteq E \backslash E^-_T$. We know that then $E_T=(E \backslash
-E^-_T) \cup E^+_T$, but adding edges can't remove a subset, so $E_c
-\subseteq E \backslash E^-_T \Rightarrow E_c \subseteq (E \backslash
-E^-_T) \cup E^+_T$.
+*Proof.* `$E^-_T$` is a feedback arc set: Assume for contradiction that
+`$E^-_T$` was not a feedback arc set. Then $G$ would need to contain a
+cycle of directed edges `$E_c=\omega_1 \rightarrow \omega_2 \rightarrow
+\dots \rightarrow \omega_{k-1} \rightarrow \omega_k \rightarrow \omega_1$`
+so that the cycle was still present after removing `$E^-_T$`, that
+is `$E_c \subseteq E \backslash E^-_T$`. We know that then `$E_T=(E
+\backslash E^-_T) \cup E^+_T$`, but adding edges can't remove a subset,
+so `$E_c \subseteq E \backslash E^-_T \Rightarrow E_c \subseteq (E
+\backslash E^-_T) \cup E^+_T$`.
 
-But then $T$ can't be transitive, asymmetric and complete: If it was
-transitive and complete, then there would need to be an edge $\omega_1
-\rightarrow \omega_3$ (created through $\omega_1 \rightarrow \omega_2
-\rightarrow \omega_3$), an edge $\omega_1 \rightarrow \omega_4$ (created
-through $\omega_1 \rightarrow \omega_3 \rightarrow \omega_4$), and so
-on. Then $E_T$ would also contain the edge $\omega_1 \rightarrow
-\omega_{k-1}$, and thereby also the edge $\omega_{k} \rightarrow
-\omega_{k-1}$ (through the transitivity of $\omega_k \rightarrow
-\omega_1 \rightarrow \omega_{k-1}$). But since both
-$\omega_k \rightarrow
-\omega_{k-1} \in E_T$ and $\omega_{k-1} \rightarrow \omega_k \in E_T$,
-it can't be asymmetric.
+But then `$T$` can't be transitive, asymmetric and complete: If it was
+transitive and complete, then there would need to be an edge `$\omega_1
+\rightarrow \omega_3$` (created through `$\omega_1 \rightarrow \omega_2
+\rightarrow \omega_3$`), an edge `$\omega_1 \rightarrow \omega_4$`
+(created through `$\omega_1 \rightarrow \omega_3 \rightarrow
+\omega_4$`), and so on. Then `$E_T$` would also contain the edge
+`$\omega_1 \rightarrow \omega_{k-1}$`, and thereby also the edge
+`$\omega_{k} \rightarrow \omega_{k-1}$` (through the transitivity of
+`$\omega_k \rightarrow \omega_1 \rightarrow \omega_{k-1}$`). But since
+both `$\omega_k \rightarrow \omega_{k-1} \in E_T$` and `$\omega_{k-1}
+\rightarrow \omega_k \in E_T$`, it can't be asymmetric.
 
-$E^-_T$ is minimal: Assume $E^-_T$ was a feedback arc set, but not
-minimal. Then there would need to be another feedback arc set $E^{-'}_T$
-so that $|E^{-'}_T|<|E^-_T|$. Then one can create $T'=(\Omega, E_T')$
-from $G$ by removing $E^{-'}_T$ from $E$ and then completing the
+`$E^-_T$` is minimal: Assume `$E^-_T$` was a feedback arc set, but not
+minimal. Then there would need to be another feedback arc set `$E^{-'}_T$`
+so that `$|E^{-'}_T|<|E^-_T|$`. Then one can create `$T'=(\Omega, E_T')$`
+from `$G$` by removing `$E^{-'}_T$` from `$E$` and then completing the
 resulting directed acyclic graph to a consistent graph.
 
-We know that $|E_T|=|E_T'|=\frac{|\Omega|(|\Omega|+1)}{2}$, since both
-$T$ and $T'$ are acyclic tournaments.
+We know that `$|E_T|=|E_T'|=\frac{|\Omega|(|\Omega|+1)}{2}$`, since both
+`$T$` and `$T'$` are acyclic tournaments.
 
-Then it is the case that $\text{EGED}(G, T) > \text{EGED}(G, T')$:
+Then it is the case that `$\text{EGED}(G, T) > \text{EGED}(G, T')$`:
 
-$$\begin{aligned}
-&\text{EGED}(G, T)>\text{EGED}(G, T') \\
-&\Leftrightarrow |E \Delta E_T| > |E \Delta E_T'| \\
-&\Leftrightarrow |E^-_T \uplus E^+_T| > |E^{-'}_T \uplus E^{+'}_T| \\
-&\Leftrightarrow |E^-_T|+|E_T|-(|E|-|E^-_T|)>|E^{-'}_T|+|E_T'|-(|E|-|E^{-'}_T|) \\
-&\Leftrightarrow |E^-_T|-|E|+|E^-_T|>|E^{-'}_T|-|E|+|E^{-'}_T| \\
-&\Leftrightarrow 2 \cdot |E^-_T|>2 \cdot |E^{-'}_T| \\
-\end{aligned}$$
+<div>
+	$$\begin{aligned}
+	&\text{EGED}(G, T)>\text{EGED}(G, T') \\
+	&\Leftrightarrow |E \Delta E_T| > |E \Delta E_T'| \\
+	&\Leftrightarrow |E^-_T \uplus E^+_T| > |E^{-'}_T \uplus E^{+'}_T| \\
+	&\Leftrightarrow |E^-_T|+|E_T|-(|E|-|E^-_T|)>|E^{-'}_T|+|E_T'|-(|E|-|E^{-'}_T|) \\
+	&\Leftrightarrow |E^-_T|-|E|+|E^-_T|>|E^{-'}_T|-|E|+|E^{-'}_T| \\
+	&\Leftrightarrow 2 \cdot |E^-_T|>2 \cdot |E^{-'}_T| \\
+	\end{aligned}$$
+</div>
 
-So $E^-_T$ must be minimal, since otherwise it is not a set of edges
+So `$E^-_T$` must be minimal, since otherwise it is not a set of edges
 removed by `EGEDmin`. ◻
-:::
 
 Using the fact that $E_T^-$ is a minimum feedback arc set, and that all
 outputs of stepwise have the same edge-edit distance from the input, we
@@ -815,9 +814,8 @@ to be NP-hard [@hudry2010complexity].
 edge-graph-edit distance to a given graph $G$ is NP-hard.
 :::
 
-::: proof
 *Proof.* Reduction from finding all Slater orders with the smallest
-distance to a given tournament $T$.
+distance to a given tournament `$T$`.
 
 Assume we know an algorithm $\mathtt{A}$ to compute $f_{\text{EGED}}(G)$
 efficiently, that is, to compute the set of all acyclic tournaments with
@@ -825,15 +823,14 @@ the minimal graph-edit distance to a given directed graph $G$ in
 polynomial time.
 
 Then one could solve Slater's problem in polynomial time: For any given
-tournament $T$, $\mathtt{A}$ would compute a set $\mathbf{C}_T$ of
-acyclic tournaments which have the same minimal graph-edit distance $2k$
-to $T$, the distance is divisible by two because by editing a tournament
-$T$ into a tournament $T'$. Edges can only be flipped, which engenders
+tournament `$T$`, `$\mathtt{A}$` would compute a set `$\mathbf{C}_T$` of
+acyclic tournaments which have the same minimal graph-edit distance `$2k$`
+to `$T$`, the distance is divisible by two because by editing a tournament
+`$T$` into a tournament `$T'$`. Edges can only be flipped, which engenders
 two edge operations (removing an edge and then adding a new one). Then
-that set would also be the set of Slater orders of $T$ (with distance
-$k$), a solution to ($P_3$) from [@hudry2010complexity], which is known
+that set would also be the set of Slater orders of `$T$` (with distance
+`$k$`), a solution to ($P_3$) from [@hudry2010complexity], which is known
 to be NP-hard. ◻
-:::
 
 Similarly, finding only *one* element from $f_{\text{EGED}}(G)$ is also
 NP-hard, by reducing it to $P_2$ ("PROBLEM $P_2$. Given a tournament
@@ -907,10 +904,10 @@ by different elements of the set of results).
 
 However, results from two different fields apply to this case.
 
--   **Social Choice Theory**: Since all elements of $\mathbf{C}_G=f(G)$
+-   **Social Choice Theory**: Since all elements of `$\mathbf{C}_G=f(G)$`
     are complete, transitive, and asymmetric, one can apply the large
     toolbox of methods and results from social choice theory
-    [@banks2000positive] to elements from $\mathbf{C}_G$ by treating
+    [@banks2000positive] to elements from `$\mathbf{C}_G$` by treating
     them as individual preferences in a preference profile by applying a
     social welfare function in sense of Arrow to it [@gaertner2009primer
     ch.2]. Some impossibility results such as Arrow's theorem
@@ -1146,11 +1143,11 @@ reference="fig:example1"}:
 
 <figure id="fig:example1">
 <figure id="fig:counter1">
-<img src="./counter_example.png" />
+<img src="./img/resolving/counter_example.png" />
 <figcaption>Counterexample</figcaption>
 </figure>
 <figure id="fig:resolved">
-<img src="./resolved_example.png" />
+<img src="./img/resolving/resolved_example.png" />
 <figcaption>Counterexample resolved versions</figcaption>
 </figure>
 <figcaption><span
@@ -1403,40 +1400,36 @@ dominated set $\Sigma_2$ it holds that $\forall C \in f(G)$ the set of
 nodes $\Sigma_1$ is a completely dominating set of $\Sigma_2$ in $C$.
 :::
 
-::: proposition
 **Proposition 3**. Let $f$ be a function that fulfills **Preservation of
 Complete Domination**. If for a graph $G$ there are $n$ sets of vertices
 $\Sigma_1,
 \dots, \Sigma_n$ so that $\biguplus_{i=1}^n \Sigma_i=\Omega$ and
 
-$$\forall c \in \{1, \dots, n\}: \bigcup_{i=1}^c \Sigma_i \text{ completely dominates } \bigcup_{j=c+1}^n \Sigma_j$$,
+<div>
+	$$\forall c \in \{1, \dots, n\}: \bigcup_{i=1}^c \Sigma_i \text{ completely dominates } \bigcup_{j=c+1}^n \Sigma_j$$,
+</div>
 
-then for any $C\in f(G)$ with $C=(\Omega, E_C)$ it holds that $\forall
+then for any `$C\in f(G)$` with `$C=(\Omega, E_C)$` it holds that `$\forall
 1<j<k<n: \forall \sigma_j \in \Sigma_j, \sigma_k \in \Sigma_k: (\sigma_j,
-\sigma_k) \in E_C \land (\sigma_k, \sigma_j) \not \in E_C$ (or, less
+\sigma_k) \in E_C \land (\sigma_k, \sigma_j) \not \in E_C$` (or, less
 formally, every element from a subset of a completely dominating set is
 strictly preferred over any element from a subset of a completely
-dominated set in the output of the resolution function $f$).
-:::
+dominated set in the output of the resolution function `$f$`).
 
-::: proof
-*Proof.* Fix $1<j<k<n$. Let $\Sigma_l=\biguplus_{i=1}^{k-1} \Sigma_i$
-and $\Sigma_r=\biguplus_{i=k}^n \Sigma_i$. Then $\Sigma_l$ dominates
-$\Sigma_r$ in $G$, and by assumption also in $C \in f(G)$. Since
-$\Sigma_j \subsetneq \Sigma_l$ and $\Sigma_k \subsetneq \Sigma_r$, it
-holds that $\forall \sigma_j \in \Sigma_j, \sigma_k \in \Sigma_k:
+*Proof.* Fix `$1<j<k<n$`. Let `$\Sigma_l=\biguplus_{i=1}^{k-1} \Sigma_i$`
+and `$\Sigma_r=\biguplus_{i=k}^n \Sigma_i$`. Then `$\Sigma_l$` dominates
+`$\Sigma_r$` in `$G$`, and by assumption also in `$C \in f(G)$`. Since
+`$\Sigma_j \subsetneq \Sigma_l$` and `$\Sigma_k \subsetneq \Sigma_r$`, it
+holds that `$\forall \sigma_j \in \Sigma_j, \sigma_k \in \Sigma_k:
 \sigma_j \rightarrow \sigma_k \in E_C \land \sigma_k \rightarrow \sigma_j
-\not \in E_C$. So $\Sigma_j$ now completely dominates $\Sigma_k$ in
+\not \in E_C$`. So `$\Sigma_j$` now completely dominates `$\Sigma_k$` in
 $C$. ◻
-:::
 
-::: remark
-**Remark 1**. Sets of such $\Sigma_1, \dots, \Sigma_n$ such that there
+**Remark 1**. Sets of such `$\Sigma_1, \dots, \Sigma_n$` such that there
 is a relationship of complete domination between any two of them are
 quite similar to graph quotients, but is somewhat stricter (demanding
-that each $\sigma_i \in
-\Sigma_i$ be preferred to each other $\sigma_j \in \Sigma_j$).
-:::
+that each `$\sigma_i \in
+\Sigma_i$` be preferred to each other `$\sigma_j \in \Sigma_j$`).
 
 ::: remark
 **Remark 2**. Preservation of complete domination implies some other
@@ -2143,13 +2136,13 @@ I(s_0) \cr
 I(s_n) \cr
 \end{pmatrix} \in \mathbb{R}^n$$
 
-Consider two MDPs $\mathcal{M}_1=(S_1, A, P_1, R_1, I_1)$ and
-$\mathcal{M}_2=(S_2, A, P_2, R_2, I_2)$, but with $R_2$ being unknown.
-An agent who starts with $\mathcal{M}_1$, but who discovers that a
-better model $\mathcal{M}_2$ of the environment has a different set of
+Consider two MDPs `$\mathcal{M}_1=(S_1, A, P_1, R_1, I_1)$` and
+`$\mathcal{M}_2=(S_2, A, P_2, R_2, I_2)$`, but with `$R_2$` being unknown.
+An agent who starts with `$\mathcal{M}_1$`, but who discovers that a
+better model `$\mathcal{M}_2$` of the environment has a different set of
 states and transition probabilities (however, the set of actions stays
-the same) and thereby now wants to operate in $\mathcal{M}_2$ has the
-problem of defining $R_2$.
+the same) and thereby now wants to operate in `$\mathcal{M}_2$` has the
+problem of defining `$R_2$`.
 
 ::: definition
 **Definition 14**. The method de Blanc uses to find $R_2$ is to find two

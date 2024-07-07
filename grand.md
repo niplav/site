@@ -601,3 +601,9 @@ Should be "appears" instead of "appear".
 
 > As the settlement wave progresses initial conditions matter**s**
 less as it approaches an asymptotic form.
+
+#### 12.2.1
+
+> although most of the effect is is mild heating
+
+Repeated word.

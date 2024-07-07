@@ -20,7 +20,7 @@ part of my free time. I apologize for any inconveniences.
 Writing
 -------
 
-I am currently not writing very much. If I find the time, I slowly
+I am currently writing more than I should. When I find the time, I slowly
 fix the [daygame cost-benefit analysis](./daygame_cost_benefit.md),
 and the text for the [masturbation and cold approach success
 experiment](./masturbation_and_attractiveness.md).
