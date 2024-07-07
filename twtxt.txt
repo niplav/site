@@ -200,12 +200,6 @@
 2021-01-20T14:36:36.000000Z	bootstrap loading icons are spinning clockwise in their RTL cheatsheet. heh.
 2021-01-20T22:26:57.000000Z	“is socially constructed” is socially constructed
 2021-01-20T22:27:14.000000Z	Quines are poems. Don't @ me
-2021-01-22T10:00:00.000000Z	2x2 {what we're able to do now, what we have to do now}
-2021-01-22T10:00:32.000000Z	move solving metaphilosophy & similar problems into the future
-2021-01-22T10:01:27.000000Z	if we loose control soon (or just decreasing control), grab all value that you can, otherwise delegate as much as possible into the future
-2021-01-22T15:34:23.000000Z	co-evolution of C and operating systems
-2021-01-22T15:46:10.000000Z	@frogorbits.com "@niplav Re: selection pressure against meditation: go on…" It's just that people who become enlightened have less kids than people who don't. (This is not to say that people who become enlightened should have many kids).
-2021-01-22T15:46:51.000000Z	@frogorbits.com "I want to listen to music, but quite honestly the silence sounds better." <3
 2021-01-25T14:36:57.000000Z	Several levels: Achievable with: • Current computing power \ • Engineering-realistic computing power \ • Physically possible computing power \ • Unlimited but finite computing power \ • Infinite computing power \ • (?) Hypercomputation
 2021-01-25T14:37:14.000000Z	It matters how many life years are lost in car crashes, not how many lives.
 2021-01-25T14:39:55.000000Z	Different utilitarian approaches to COVID-19 vaccination order, by order of complexity: Maximize {probability of infection*probability of counterfactual death, probability of infection*expected life years lost, probability of infection*expected severity of illness, probability of infection*expected severity of illness+probability of infecting n others*fudging for spreading}

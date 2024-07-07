@@ -201,19 +201,6 @@ Texts
 	* Check paper Pope mentioned again
 	* Problem with type signature
 
-### Pick Up
-
-* In Praise of Encouragement
-* Game Seems to be a Middle-Class Phenomenon
-* Don't Give Out Your Contact Information, Take Hers
-* On the Importance of Pick Up
-	* Combines Near (Sex) with Far (Abstract thinking)
-* Women actually enjoy getting chatted up, or are indifferent to it
-* Not masturbating for a while really improved my eye contact
-	* Caveat though
-* Yad Stop Flag
-* Wild and Unsupported Conjecture: Learning Pickup is Mostly Rewriting Your Life-History Strategy
-
 ### Philosophy
 
 #### Ethics
@@ -261,24 +248,14 @@ Texts
 	* Chanting?
 	* Visualization?
 	* Yogic stuff? (Mudra)
-* Survey on entry time to first jhana
 * Technological Meditation Enhancement
 	* <https://www.jhourney.io/>
 	* <https://www.theguardian.com/lifeandstyle/video/2021/jun/29/hacking-enlightenment-can-ultrasound-help-you-transcend-reality?CMP=twt_b-gdnvideo>
 	* <https://www.wired.co.uk/article/consciousness-hacking-silicon-valley-enlightenment-brain>
 	* maybe <https://www.vielight.com/>
-* Guided Meditations Are Not to be Overdone
 
 ### Quantified Self
 
-* Does exercise affect spaced repetition ability?
-* Does masturbation affect spaced repetition ability?
-* Does meditation affect my happiness?
-* Do blood donations reduce my cognitive function?
-* Does asking for affirmative consent turn women off?
-* What effect did COVID-19 vaccinations have on my Anki scores?
-* What is the effect of fasting on my, well, everything?
-	* Especially meditation though
 * Relation between
 	* Exercise
 	* Daygame
@@ -287,15 +264,6 @@ Texts
 	* Happiness
 	* Masturbation
 	* Substances
-* Find easy ways to track
-	* Computer usage
-		* Fix awitt
-	* Personal forecast accuracy?
-	* Air pollution
-	* CO₂ levels
-	* Fasts
-	* Brightness
-* Muse headband for data collection?
 * Scott Alexander CO₂ and wordgame performance
 * Testing self-conditioning via nicotine as reward
 	* https://www.sciencedaily.com/releases/2009/09/090909122052.htm
@@ -387,7 +355,6 @@ Texts
 * Why We Need New Anthems
 	* Most national anthems suck, let's make some more original ones
 		* Review <https://en.wikipedia.org/wiki/List_of_national_anthems>
-* Models With Huge Error Bars are Better Than No Models At All
 * Some Epistemic Warning Signs in the Effective Altruism and Rationality Communities
 	* People are Friends
 	* People Date Each Other
@@ -398,13 +365,10 @@ Texts
 		* Leverage
 		* Zizians
 		* Psychotic Breaks in Berkeley
-* Do Things Together
 * Some Useful Rationality Concepts
 	* Option Value
 	* The Is-Ought Distinction
 * The C Standard Library is Bad
-* In The Dark Forest, Peace is Brittle And Hiding Is Easy
-	* Eternity in Six Hours and unstable equilibria make the dark forest hypothesis unlikely
 * Creating Positives versus Removing Negatives
 	* Examples:
 		* Epistemics: Removing Disinformation versus Writing Wikipedia Pages on Causal Inference
@@ -431,8 +395,6 @@ Texts
 * Bitcoin maximalism is not even wrong
 * Forecasting Track Records: Still Underrated
 	* Argument: Metrics can be Goodharted. Answer: "A solution is technical if it is precise enough to be Goodharted and social if it is imprecise enough to be used to coalitionally extract value"
-* E/acc in a Bathtub-Sized Nutshell
-* An Anti E/acc FAQ
 
 #### Contra
 
@@ -707,8 +669,6 @@ Texts
 		* de Grey anti-aging proposal
 * Cryptographic Agreement on Bribing
 * Encoding Conditionals Using Modulo
-* Auras as synesthesia between visual perception and emotional perception
-	* Maybe a survey?
 * Yang Wenli and Reinhard von Lohengramm—Taoism and Confucianism?
 	* Yang's "Win without fighting" is Wu Wei
 * The Argument from Explanation of Intuition
@@ -725,8 +685,6 @@ Texts
 		* Be conservative:
 			* Preserve humans, ecosystems, language, culture (losing them is really bad, perhaps)
 	* These are especially important for humans since our values change, in somewhat forseeable ways
-* An Unreasonable Proposal
-	* Merge India and the European Union
 * Writing Notes
 	* Concatenating Different Explanations
 * `$k$` grass-cutting robots on `$n$`-dimensional manifolds
@@ -749,12 +707,7 @@ Texts
 	* Romantic Partners
 	* Jobs to Workers
 	* Living Locations to Tenants
-* Lesser known causal graphs
-	* Mathematical art with causal graphs where edges can point to (or inhibit) other edges
-	* Not to be taken seriously
 * For two function `$f$`, `$a$`, define how Goodharting optimizing for `$a$` is when the outcome should be `$f$`
-* Attack versus Defense in the Long Run
-	* Investigate empirically from game data at different levels of capability
 
 ### Collections
 
@@ -870,14 +823,6 @@ Texts
 	* Code: `1.8239233 * (forecasted-forecast_made) + 48.0502205` (days)
 	* [Original](https://web.archive.org/web/20210302224031/https://anthony.boyles.cc/Essays/portfolio/ElonMuskForecastCorrectionFunction.html)
 	* This was done already by Anthony Boyles
-* End-of-the-world Bet Calculator
-* Auctioning off Your Body
-	* <https://www.humanmicrobes.org/>
-	* Kidney
-		* See: Gary Becker & Julio Jorge Elías (Summer 2007). "Introducing incentives in the market for live and cadaveric organ donations". Journal of Economic Perspectives. 21 (3): 3–24. doi:10.1257/jep.21.3.3. PMID 19728419.
-	* Sperm, Eggs
-	* Plasma/Blood
-	* Hair
 * Nuclear Waste FAQ
 * List of three-letter names for Unix related people (dmr, ken, rsc, there are probably others?)
 * Heuristics for Long-Term Websites
@@ -1027,10 +972,6 @@ Game. Even those odds likely overstate the number of Players in the world.
 	* C
 	* Shell Scripting
 * Mistakes
-* Open Questions
-	* Why Not Nano-Apartments?
-	* Why Not Prepping?
-	* ~/etc/notes/questions
 * Good Ideas
 	* Some ideas I've read about & found good
 	* Forecasting
