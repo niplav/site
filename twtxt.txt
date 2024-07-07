@@ -81,7 +81,6 @@
 2020-11-29T22:08:03.000000Z	Fashion seems to operate on two different timescales: 'high fashion' (?) on ½ or 1 year cycles, and 'macro fashion', which changes on the scale of 5 to 10 years
 2020-11-30T10:14:19.000000Z	https://grahamkarta.bandcamp.com now that's my kind of music
 2020-11-30T10:22:54.000000Z	PSA: SL4≠seL4
-2020-11-30T10:51:56.000000Z	Totraum
 2020-11-30T10:54:00.000000Z	ש (shin). Any connection to Evangelion? It is the letter of fire in kabbalah, apparently :thinking_face:
 2020-11-30T10:54:16.000000Z	There is no correct marxism, but there is a right marxism.
 2020-12-01T09:08:58.000000Z	Medicine is a type of engineering. Change my mind.
@@ -96,15 +95,7 @@
 2020-12-02T15:07:07.000000Z	I want a 'Map≠Territory' T-shirt.
 2020-12-02T18:35:50.000000Z	Trying to move things with your mind might be good meditation practice.
 2020-12-03T08:40:44.000000Z	A strange mental motion in AI alignment is thinking about agency in non-agential ways.
-2020-12-03T18:10:43.000000Z	I'm already looking forward to Hanson's next book.
-2020-12-05T16:50:27.000000Z	Issa Rice was right about Wei Dai.
-2020-12-05T16:52:46.000000Z	Sorta context: https://issarice.com/wei-dai
-2020-12-06T11:19:18.000000Z	Ein Wille wie Silizium, ein Auftreten wie Sand, ein Gemüt wie von Licht durchschienenes Glas.
-2020-12-06T11:19:34.000000Z	Somebody is always the bottleneck.
-2020-12-06T12:59:32.000000Z	Did communism kill 100mio. counterfactual people? And – how many counterfactual people did it save?
-2020-12-06T12:59:58.000000Z	Or, rather 'communism'
 2020-12-08T10:25:42.000000Z	renriderog
-2020-12-12T22:52:12.000000Z	progress in bits, progress in atoms, progress in qualia
 2020-12-12T23:12:40.000000Z	there are a lot of things that disappear when applied to themselves partially. principle of charity, tolerance, libertarianism in CEV. but, being *completely* X lets you retain them. (being maximally tolerant, maximally charitable towards everything, maximally libertarian towards other value systems).
 2020-12-12T23:19:08.000000Z	meta-not-caring
 2020-12-13T01:12:07.000000Z	Not too nice. Not too nasty. Not either to nice or too nasty. Not neither too nice nor too nasty.
@@ -119,10 +110,7 @@
 2020-12-18T08:39:18.000000Z	”If everyone just…“ ”See, there's your problem already”
 2020-12-18T08:39:49.000000Z	Signaling/countersignaling are nuclear weapons for nerdy thinking: they explain 99% of social behavior in an easy, slightly demeaning way.
 2020-12-18T08:40:08.000000Z	Most advice is basically “become better at signaling”, or it is itself signaling.
-2020-12-18T08:42:02.000000Z	Would online dating without images lead to deeper, more human connections? I.e. only descriptions of people. If yes, is it different because of molochian reasons? More beautiful people have no problem showing their faces, so not showing ones face is seen as a low-status signal at some point. Counter: The idea of deeper,
-2020-12-18T08:42:02.000001Z	more
-2020-12-18T08:42:02.000002Z	human
-2020-12-18T08:42:02.000003Z	connections is in itself flawed, most mating choices are the result of a combination of class/status signals and physical attractiveness anyway.
+2020-12-18T08:42:02.000000Z	Would online dating without images lead to deeper, more human connections? I.e. only descriptions of people. If yes, is it different because of molochian reasons? More beautiful people have no problem showing their faces, so not showing ones face is seen as a low-status signal at some point. Counter: The idea of deeper, more human connections is in itself flawed, most mating choices are the result of a combination of class/status signals and physical attractiveness anyway.
 2020-12-18T08:42:33.000000Z	Why does biology contain the field of ecology? This makes biology even bigger than it is already, ranging from biochemistry up to ecology. That would be like including sociology and medicine plus anthropology in one gigantic field of study.
 2020-12-18T08:42:41.000000Z	Oh die Tyrannei der Mühle, oh die Medizin der Mühle!
 2020-12-18T08:43:04.000000Z	Evolution is going to destroy everything you love and then piss on the shards.
