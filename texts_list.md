@@ -17,6 +17,22 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* The Planck Dive (Greg Egan, 1998)
+* [Writing Causal Models Like We Write Programs (johnswentworth, 2020)](https://www.lesswrong.com/posts/Xd9FLs4geRAWxkQPE/writing-causal-models-like-we-write-programs)
+* [The Game Theory of Life (Emily Singer, 2014)](https://www.quantamagazine.org/game-theory-makes-new-predictions-for-evolution-20140618/)
+* [When will these Republicans end their 2024 primary campaigns? (Jgalt, 2023)](https://www.metaculus.com/questions/20515/date-2024-republican-candidates-drop-out/)
+* [In a Grain, a Glimpse of the Cosmos (Natalie Wolchover, 2014)](https://www.quantamagazine.org/quasicrystal-meteorite-poses-age-old-questions-20140613/)
+* [Evolving With a Little Help From Our Friends (Carrie Arnold, 2014)](https://www.quantamagazine.org/an-organisms-microbiome-may-drive-evolution-of-new-species-20140604/)
+* [If World War 3 happens before 2060, will the US and China be on the same side? (Matthew Barnett, 2022)](https://www.metaculus.com/questions/10036/if-ww3-before-2060-will-us-and-china-ally/)
+* [Will the world remain "normal" through 2030, according to specified criteria? (NMorrison/RyanBeck, 2024)](https://www.metaculus.com/questions/25801/normal-world-in-2030/)
+* [Will Donald Trump be removed or blocked from the primary election ballot of any U.S. state for a federal office under Section 3 of the 14th Amendment? (christian, 2023)](https://www.metaculus.com/questions/18716/trump-removed-or-blocked-from-primary-ballot/)
+* [Who will win the 2024 Presidential Election in Rwanda? (rduubs, 2024)](https://www.metaculus.com/questions/22442/rwanda-presidential-election-winner-2024/)
+* [Which country will win the UEFA Euro 2024? (RyanBeck/Korne127, 2024)](https://www.metaculus.com/questions/25481/uefa-euro-2024-winner/)
+* [Will Joe Biden announce before July 15, 2024 that he will not accept the Democratic Party's nomination for President? (Jgalt, 2024)](https://www.metaculus.com/questions/25755/biden-announces-drop-out-before-july-15-2024/)
+* [* Why Momentum Really Works (Gabriel Goh, 2017)](https://distill.pub/2017/momentum/)
+* [LK-99 in retrospect (bhauth, 2024)](https://www.bhauth.com/blog/flawed%20ideas/lk99.html)
+* Our Lady of Chernobyl (Greg Egan, 1994)
+* [Cyrus the Great (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Cyrus_The_Great)
 * Reasons To Be Cheerful (Greg Egan, 1997)
 * [Continuing My Caffeine Self-Experiment (Michael Dickens, 2024)](https://mdickens.me/2024/06/24/continuing_caffeine_self_experiment/)
 * [Caffeine Cycling Self-Experiment (Michael Dickens, 2024)](https://mdickens.me/2024/04/11/caffeine_self_experiment/)
