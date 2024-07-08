@@ -15,7 +15,7 @@ maxval=255
 space=create_space(2, size, minval, maxval, 0.5)
 
 fig=plt.figure()
-ax=fig.gca(projection='3d')
+ax = fig.add_subplot(projection='3d')
 
 X=np.arange(0, size, 1)
 Y=np.arange(0, size, 1)

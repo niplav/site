@@ -1,4 +1,5 @@
 import random
+import itertools
 import numpy as np
 
 def create_space(dim, size, minval, maxval, factor):
@@ -6,21 +7,14 @@ def create_space(dim, size, minval, maxval, factor):
 	n-dimensional diamond square algorithm."""
 
 	space=np.zeros([size]*dim)
-	cornerspos=get_cornerspos(dim)
-	corners=np.array([(i*(size-1)) for i in get_cornerspos(dim)])
-
-	for c in corners:
-		val=random.randint(minval, maxval)
-		space[tuple(c)]=random.randint(minval, maxval)
-
-	return fill_space(space, dim, size, minval, maxval, factor)
-
-def fill_space(space, dim, size, minval, maxval, factor):
-	"""Fill a dim-dimensional discrete space of ℕ^{size} with
-	some random hyperplane with values ranging from minval to
-	maxval. Returns a ℕ^{size} array. Changes space in-place."""
+	corners=(size-1)*get_cornerspos(dim)
+	space[*(corners.T)]=np.random.randint(minval, maxval, size=len(corners))
 
 	offsets=[np.array([0]*dim)]
+
+	"""Fill a dim-dimensional discrete space of ℕ^{size} with
+	some random landscape with values ranging from minval to
+	maxval. Returns a ℕ^{size} array."""
 	return ndim_diamond_square_rec(space, dim, size, offsets, minval, maxval, factor)
 
 def ndim_diamond_square_rec (space, dim, size, offsets, minval, maxval, factor):
@@ -30,29 +24,19 @@ def ndim_diamond_square_rec (space, dim, size, offsets, minval, maxval, factor):
 	nsize=size//2
 
 	for o in offsets:
-		center=np.array([nsize]*dim)
-		center=o+center
+		center=o+np.array([nsize]*dim)
+		b=int(size==len(space))
 
-		if size==len(space):
-			b=1
-		else:
-			b=0
-
-		cornerspos=get_cornerspos(dim)
-		corners=np.array([(i*(size-b))+o for i in cornerspos])
-
+		corners=get_cornerspos(dim)*(size-b)+o
 		cornersum=0
 
-		for corner in corners:
-			cornersum=cornersum+space[tuple(corner)]
-
+		cornersum=np.sum(space[*(corners.T)])
 		val=(cornersum/len(corners))+(random.randint(minval, maxval)-((maxval-minval)//2))
 
 		space[tuple(center)]=val
 
 	for o in offsets:
-		center=np.array([nsize]*dim)
-		center=o+center
+		center=o+np.array([nsize]*dim)
 		# Recursive square step here (dim times)
 		explored=np.array([False]*dim)
 
@@ -68,7 +52,6 @@ def ndim_diamond_square_rec (space, dim, size, offsets, minval, maxval, factor):
 
 	noffsets=[]
 
-	# Recursive square step
 	for pos in get_cornerspos(dim):
 		noffsets=noffsets+[(pos*nsize)+offset for offset in offsets]
 
@@ -120,9 +103,4 @@ def square_rec(space, dim, size, center, explored, minval, maxval, factor):
 			explored[i]=False
 
 def get_cornerspos(dim):
-	cornerspos=[('{0:0'+str(dim)+'b}').format(i) for i in range(2**dim)]
-	cornerspos=[list(i) for i in cornerspos]
-	cornerspos=list(map((lambda x: list(map(int, x))), cornerspos))
-	cornerspos=np.array(cornerspos)
-
-	return cornerspos
+	return np.array(list(itertools.product([0, 1], repeat=dim)))

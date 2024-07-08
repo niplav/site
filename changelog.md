@@ -29,6 +29,8 @@ July 2024
 * [A TAI Race With China Can Be Better Than Not Racing](./china.html)
 * [Using A Multi-Armed Bandit to Select Daygame Locations](./bandit.html)
 
+Moved the note on logical correlation to its [own page](./logical.html).
+
 June 2024
 ----------
 

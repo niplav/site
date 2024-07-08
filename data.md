@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-07-07, modified: 2024-07-02, language: english, status: maintenance, importance: 2, confidence: log*
+*author: niplav, created: 2022-07-07, modified: 2024-07-08, language: english, status: maintenance, importance: 2, confidence: log*
 
 > __Notes for myself on the data I track, how to transform it into a
 usable shape, data quality and other random assortments.__
@@ -74,10 +74,12 @@ I use spaced repetition, and plan to take it as a proxy for cognitive
 performance in QS experiments.
 
 The data can be found in the helpfully named `collection.anki2`, which
-is actually an sqlite database in disguise.
+is actually an [sqlite](https://en.wikipedia.org/wiki/SQLITE) database
+in disguise.
 
-The [Anki manual]() helpfully informs that the most important table is
-`revlog`, one can then export the data to CSV with the following command:
+The [Anki manual](https://docs.ankiweb.net/stats.html#manual-analysis)
+helpfully informs that the most important table is `revlog`, one can
+then export the data to CSV with the following command:
 
 	echo -e '.headers on \n select * from revlog;' |
 	sqlite3 anki_2022-07-04T08:43:00.db |
@@ -182,21 +184,16 @@ or "rest") describes my ability to rest on a specific sensory object.
 Daygame
 --------
 
-Sanitizing the sessions file:
-
-Converting f\*\*\*ed up Google sheets date format (why does __nobody__
-use the perfect [ISO-8601](https://en.wikipedia.org/wiki/ISO-8601) when
-it's right there‽), then removing stray spaces after semicolons,
-then removing the `^M` from the end of each line, using
-[structural regular
-expressions](./doc/cs/structural_regular_expressions_pike_1990.pdf "Structural Regular Expressions"):
+Sanitizing the sessions file by converting the datetime to
+[ISO-8601](https://en.wikipedia.org/wiki/ISO-8601) using [structural
+regular
+expressions](./doc/cs/structural_regular_expressions_pike_1990.pdf "Structural Regular Expressions"),
+and some other minor fixes:
 
 	,x/([0-9]+)\/([0-9]+)\/([0-9]+) /c/\3-\1-\2T/
 	,x/; /c/;/
 	,x/(T[0-9]+:[0-9]+),/c/\1:00,/
 	,x/-([0-9])-/c/-0\1-/
-
-and some other minor fixes.
 
 Formatting the approaches file:
 
@@ -217,13 +214,11 @@ Anonymizing locations and the names of the women:
 		{
 			loc[$2]=100000*rand();
 			gsub(/\./, "", loc[$2]);
-			print $2, loc[$2]>>/dev/stderr
 		}
 		if(name[$8]=="" && $8!="Name")
 		{
 			name[$8]=100000*rand();
 			gsub(/\./, "", name[$8])
-			print $8,name[$8]>>/dev/stderr
 		}
 		if($2!="Location") { $2=loc[$2]; }
 		if($8!="Name") { $8=name[$8]; }
@@ -274,6 +269,8 @@ Sleep data [here](./data/sleep.json).
 Others
 -------
 
+<!--TODO: light.csv, islight.csv, ispomodoro.csv, pomodoros.csv-->
+
 Other metrics I track don't deserve as much elaboration.
 
 ### Masturbation
@@ -311,9 +308,6 @@ But there is still *some* data cleanup to do:
 Finally I rename the mood columns simply to "happy", "content", "relaxed",
 and "horny".
 
-The file contains (because of a slight screwup) some duplicated
-entries.<!--TODO: remove these (by hand or otherwise?)-->
-
 CSV [here](./data/mood.csv), the data quality is mediocre (long stretches
 of not responding to questions, giving more conservative (closer to
 50) answers over time, starting to use activities around July 2022
@@ -349,6 +343,13 @@ Data on bag spreading on public transport, in [this
 file](./data/bag_spreading.csv). Data quality is horrible: probably prone
 to multiple biases from my side, from different locations, no tracking
 of location or datetime…maybe I should just delete this one.
+
+### Phone Data
+
+Via [Sensor
+Logger](https://play.google.com/store/apps/details?id=com.kelvin.sensorapp&hl=en_US),
+I use my phone as an easy way to collect large amounts of data. I don't want to
+make the files public, as they contain information that could de-pseudonymise me.
 
 ### Forecasting Performance
 

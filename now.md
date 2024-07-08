@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2024-07-01, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2024-07-09, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -22,8 +22,12 @@ Writing
 
 I am currently writing more than I should. When I find the time, I slowly
 fix the [daygame cost-benefit analysis](./daygame_cost_benefit.md),
-and the text for the [masturbation and cold approach success
-experiment](./masturbation_and_attractiveness.md).
+write the text for the [masturbation and cold approach success
+experiment](./masturbation_and_attractiveness.md), pontificate
+about [logical correlation](./logical.html), boggle at my own code
+for an [n-dimensional diamond-squae algorithm](./diamond.html),
+and slowly make readable the treatise on [resolving inconsistent
+preferences](./resolving.html).
 
 ### Abandoned
 
@@ -67,4 +71,4 @@ Currently, I am actively reading the following texts:
 * Meditation book:
 * Other:
 	* Grand Futures (Anders Sandberg, 2023)
-* The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 3/1000.
+* The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 4/1000.

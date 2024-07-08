@@ -636,8 +636,7 @@ Its hashsum was computed as such:
 
 <!--TODO: add link to reddit post-->
 
-Hypotheses
------------
+### Hypotheses
 
 The pre-registered hypotheses shall thus be: Let `$\mu_{\text{during}}$`
 be the expected value of cold approach with women during a long
