@@ -88,6 +88,13 @@ of whom can ever feel secure in the love of a cold and distant parent?
 
 #### Mathematics
 
+> Den Menschen ist der Sinn ins Innere gegeben,  
+Daſs sie als anerkannt das Beſte wählen,  
+Er gilt als Ziel, er ist das wahre Leben,  
+Von dem Sichgeistigen des Lebens Jahre zählen.
+
+*—Friedrich Hölderlin, “Fragment”, 1800*
+
 * [How Often Does ¬Correlation ⇏ ¬Causation?](./cause.html)
 * [Equally Many Heads and Tails](./equally_many_heads_and_tails.html)
 * [Logical Correlation](./logical.html)

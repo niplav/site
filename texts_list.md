@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Fluid Tests Hint at Concrete Quantum Reality (Natalie Wolchover, 2014)](https://www.quantamagazine.org/fluid-experiments-support-deterministic-pilot-wave-quantum-theory-20140624/)
+* |2 Goal Misgeneralization: Why Correct Specifications Aren't Enough For Correct Goals (Rohin Shah/Vikrant Varma/Ramana Kumar/Mary Phuong/Victoria Krakovna/Jonathan Uesato/Zac Kenton, 2022)
+* [What will be the best accuracy score on the MATH dataset by 2025? (Matthew Barnett, 2021)](https://www.metaculus.com/questions/8840/ai-performance-on-math-dataset-before-2025/)
+* [Will an AI be able to take arbitrary proofs from the mathematical literature and convert them into a symbolic form suitable for verification before 2030? (Matthew Barnett, 2022)](https://www.metaculus.com/questions/11198/ai-verification-of-math-proofs-by-2030/)
 * The Planck Dive (Greg Egan, 1998)
 * [Writing Causal Models Like We Write Programs (johnswentworth, 2020)](https://www.lesswrong.com/posts/Xd9FLs4geRAWxkQPE/writing-causal-models-like-we-write-programs)
 * [The Game Theory of Life (Emily Singer, 2014)](https://www.quantamagazine.org/game-theory-makes-new-predictions-for-evolution-20140618/)

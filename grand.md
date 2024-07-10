@@ -607,3 +607,9 @@ less as it approaches an asymptotic form.
 > although most of the effect is is mild heating
 
 Repeated word.
+
+#### 12.2.3
+
+> This happens for `$n_0=10^{-6} cm^{-3}$` in 1060 Gyr.
+
+Should this be `$10^{60}$` or `$1060$` Gyr?
