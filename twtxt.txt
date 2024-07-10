@@ -142,10 +142,6 @@
 2020-12-28T14:54:00.000000Z	gestirn
 2020-12-29T12:25:51.000000Z	Endokremlinology
 2020-12-30T10:23:25.000000Z	I think I understand bigint multiplication now. Not sure if I've reinvented the Karatsuba algorithm
-2020-12-31T15:08:55.000000Z	no rats on the twtxt tl :-(
-2020-12-31T16:48:00.000000Z	Rethink Priorities is just putting out absolute bangers one after the other. Impressive
-2021-01-01T12:12:18.000000Z	The thing where a platitude you knew before gains salience (maybe related to concept-shaped holes)
-2021-01-01T13:01:17.000000Z	OOP turned out to be not such big a deal
 2021-01-03T11:42:54.000000Z	[Questions About] versus [Moral Arguments From] Coherent Ethical Simplicity
 2021-01-04T10:19:53.000000Z	Don't make deals that involve infinities.
 2021-01-04T10:20:09.000000Z	Greta Thunberg falls into the same narrative category as Malala Yousafzai, Sophie Scholl and Jeanne D'Arc.
@@ -568,16 +564,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-01-13T12:35:55.000000Z	this holds for mathematics as well
 2022-01-13T19:42:19.000000Z	gah, can't snarf evince
 2022-01-13T19:42:34.000000Z	non-linked & linked back footnotes in pdfs are annoying
-2022-01-14T11:59:26.000000Z	[coherent & sensible screaming]
-2022-01-14T17:01:25.000000Z	professor gives us data in a dxn ndarray, where d is the number of features and n is the num of datapoints. r-worded
-2022-01-14T17:02:20.000000Z	i wonder whether this is to teach us about the r-wordedness of data in the real world.
-2022-01-19T12:45:03.000000Z	List of discredited bloggers
-2022-01-19T19:00:06.000000Z	we will cut a frowny face in your chest, little wench
-2022-01-19T21:24:13.000000Z	yoooo! Justus! Licht meiner Seele, Blut meiner Augen!
-2022-01-19T21:48:56.000000Z	pronouncing something a timeline war when the supposed origin is just a thread with half a dozen participants willfully misunderstanding each others' jokes
-2022-01-20T20:20:28.000000Z	dropping field reports in latin
-2022-01-20T20:33:18.000000Z	when you finish all glowfic ever written, you achieve enlightenment
-2022-01-21T10:40:56.000000Z	hpmor is the smoking lesion for procrastinators
 2022-01-23T00:47:47.000000Z	one thousand Very Bad Takes About Alignment
 2022-01-23T15:20:51.000000Z	it annoys me way too much, it shuold be Caelum Conterrens Est. Latin is SOV
 2022-01-23T20:10:13.000000Z	the name Allosaurus is really funny to me for some reason. I imagine two biologists standing over a set of giant bones, and one saying to the other “Yeah, I think this is a different kind of lizard than what we usually have to deal with.”
