@@ -10,7 +10,7 @@ Forecasters: What Do They Know? Do They Know Things?? Let's Find Out!
 ======================================================================
 
 Judgmental forecasting is a fairly recent and (in my humble opinion)
-fairly under-researched & under-appreciated human endeavour & field of
+under-researched & under-appreciated human endeavour and field of
 research, with some low-hanging fruit (which are getting picked almost
 as fast as I can write them up).
 
