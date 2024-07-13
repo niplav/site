@@ -4,8 +4,8 @@
 *author: niplav, created: 2019-08-03, modified: 2024-07-05, language: english, status: draft, importance: 2, confidence: likely*
 
 > __Members of the [NoFap community](https://en.wikipedia.org/wiki/NoFap)
-frequently claim that abstinence from masturbation causally increases
-male attractiveness.__  
+[frequently claim](#Examples_for_the_Claim) that abstinence from
+masturbation causally increases male attractiveness.__  
 > __I present a method to test this claim (albeit imperfectly) by
 approaching 100 women in the street after >90 days of abstinence
 from masturbation and after a short conversation asking them for
@@ -13,7 +13,7 @@ their contact information, and 100 again after a week of daily
 masturbation. The results are analyzed using a [Mann-Whitney
 U-test](https://en.wikipedia.org/wiki/Mann-Whitney_U_test)
 and various [descriptive statistical
-methods](https://en.wikipedia.org/wiki/Descriptive_statistics) and I
+methods](https://en.wikipedia.org/wiki/Descriptive_statistics); I
 find that \_.__
 
 Abstinence from Masturbation and Success from Cold Approach
@@ -308,7 +308,7 @@ success is our 90-day reboot.").
 
 From \_ to \_, I went on the streets of a major european city
 and approached 100 people I read as women, usually via a [Yad
-stop](https://thomascrownpua.com/2023/04/21/qa-what-do-you-think-of-the-yad-stop/)
+stop](https://thomascrownpua.com/2023/04/21/qa-what-do-you-think-of-the-yad-stop/).
 The women who were approached were chosen by how attractive I found them.
 
 I then ran a standard daygame opener on the woman, with the goal of

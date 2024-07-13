@@ -509,7 +509,6 @@ seemingly obvious things-->
 See Also
 ---------
 
-
 * [Ricón 2020](https://nintil.com/bloom-sigma/#darpa-s-study) on a DARPA study with a digital tutor for a specific domain, showing __d=2.81__ improvement
 * [Meta-Learning: Learning to Learn Fast (Weng, 2018)](https://lilianweng.github.io/posts/2018-11-30-meta-learning/)
 * [Meta Reinforcement Learning (Weng, 2019)](https://lilianweng.github.io/posts/2019-06-23-meta-rl/)

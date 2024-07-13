@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-15, modified: 2024-07-10, language: english, status: notes, importance: 8, confidence: highly likely*
+*author: niplav, created: 2023-04-15, modified: 2024-07-14, language: english, status: notes, importance: 8, confidence: highly likely*
 
 > __We consider the problem of resolving preferences
 that are inconsistent under the [von Neumann-Morgenstern
@@ -33,6 +33,8 @@ appealing: It assigns a real-numbered value to each possible outcome,
 several theorems establish that an agent with a utility function can't
 be money-pumped [@gustafsson2022money], and it is compatible with taking
 Pareto improvements [@wald1947essentially].
+
+![](./img/resolving/dutch.jpg)
 
 However, this model has come under criticism as being non-descriptive of
 human preferences, which can be experimentally shown to violate one or
@@ -1781,29 +1783,31 @@ causes the preference to switch.
 
 Together with a strong preference for certainty it is observed in the
 Allais paradox [@allais1953comportement]: In experiments with humans,
-the lottery $A_1=[1: \$1 \text{mio.}]$ is strictly preferred over the
-lottery $B_1=[0.89: \$1 \text{mio.}, 0.01: \$0, 0.1: \$5
-\text{mio.}]$, but the lottery $B_2=[0.9: \$0, 0.1: \$5 \text{mio.}]$ is
-strictly preferred over $A_2=[0.89: \$0, 0.11: \$1 \text{mio.}]$.
+the lottery `$A_1=[1: \$1 \text{mio.}]$` is strictly preferred over the
+lottery `$B_1=[0.89: \$1 \text{mio.}, 0.01: \$0, 0.1: \$5
+\text{mio.}]$`, but the lottery `$B_2=[0.9: \$0, 0.1: \$5 \text{mio.}]$` is
+strictly preferred over `$A_2=[0.89: \$0, 0.11: \$1 \text{mio.}]$`.
 
 By using the independence axiom, these two preferences can be shown to
 be contradictory. This can be done by first "mixing out" 0.89 of \$1mio.
-from $A_1$ and $B_1$, that is representing $[1: \$1 \text{mio.}]$ as
-$[0.89: \$1 \text{mio.}, 0.11: \$1 \text{mio.}]$ and then (by
-independence) dropping $0.89: \$1 \text{mio.}$ from $A_1$ and $B_1$, and
+from `$A_1$` and `$B_1$`, that is representing `$[1: \$1 \text{mio.}]$` as
+`$[0.89: \$1 \text{mio.}, 0.11: \$1 \text{mio.}]$` and then (by
+independence) dropping `$0.89: \$1 \text{mio.}$` from `$A_1$` and `$B_1$`, and
 then re-normalizing the probabilities so that they sum to 1. One can
 then "mix in" 0.89 of \$0 into the two resulting distributions to create
-$A_2$ and $B_2$, so under the von Neumann-Morgenstern axioms $A_1
-\prec B_1$ and $B_2 \prec A_2$ contradict each other.
+`$A_2$` and `$B_2$`, so under the von Neumann-Morgenstern axioms `$A_1
+\prec B_1$` and `$B_2 \prec A_2$` contradict each other.
 
-$$\begin{aligned}
-& A_1 \prec B_1 \\
-\Leftrightarrow & [1: \$1 \text{mio.}] \prec [0.89: \$1 \text{mio.}, 0.01: \$0, 0.1: \$5 \text{mio.}] \\
-\Leftrightarrow & [0.89: \$1 \text{mio.}, 0.11: \$1 \text{mio.}] \prec [0.89: \$1 \text{mio.}, 0.01: \$0, 0.1: \$5 \text{mio.}] \\
-\Leftrightarrow & [1: \$1 \text{mio.}] \prec [1/11: \$0, 10/11: \$5 \text{mio.}] \\
-\Leftrightarrow & [0.89: \$0, 0.11: \$1 \text{mio.}] \prec [0.9: \$0, 0.1: \$5 \text{mio.}] \\
-\Leftrightarrow & A_2 \prec B_2
-\end{aligned}$$
+<div>
+	$$\begin{aligned}
+	& A_1 \prec B_1 \\
+	\Leftrightarrow & [1: \$1 \text{mio.}] \prec [0.89: \$1 \text{mio.}, 0.01: \$0, 0.1: \$5 \text{mio.}] \\
+	\Leftrightarrow & [0.89: \$1 \text{mio.}, 0.11: \$1 \text{mio.}] \prec [0.89: \$1 \text{mio.}, 0.01: \$0, 0.1: \$5 \text{mio.}] \\
+	\Leftrightarrow & [1: \$1 \text{mio.}] \prec [1/11: \$0, 10/11: \$5 \text{mio.}] \\
+	\Leftrightarrow & [0.89: \$0, 0.11: \$1 \text{mio.}] \prec [0.9: \$0, 0.1: \$5 \text{mio.}] \\
+	\Leftrightarrow & A_2 \prec B_2
+	\end{aligned}$$
+</div>
 
 ## Representing Inconsistencies
 

@@ -40,7 +40,7 @@ enough Julia training data to make it capable enough, but I haven't
 checked with the most recent models.
 
 So after more than a year of procrastination, I decide to rewrite
-the code, the result is [here](./code/location/location.jl).
+the code, the result is [here](./code/bandit/location.jl).
 
 If first loads the data, collects the number of successes (got contact
 info) and failures (didn't get contact info), builds the corresponding

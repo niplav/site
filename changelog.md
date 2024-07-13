@@ -26,6 +26,10 @@ content.
 July 2024
 ----------
 
+> A revolution is surely the most autoritarian thing there is.
+
+*—[Vladimir Lenin](https://en.wikipedia.org/wiki/Vladimir_Lenin), “[State and Revolution](https://en.wikipedia.org/wiki/State_and_Revolution)” 1917, p. 72*
+
 * [A TAI Race With China Can Be Better Than Not Racing](./china.html)
 * [Using A Multi-Armed Bandit to Select Daygame Locations](./bandit.html)
 
@@ -34,11 +38,10 @@ Moved the note on logical correlation to its [own page](./logical.html).
 ### Links
 
 * [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) [reproduces](https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/shortplav?commentId=XkeYBmsFKFR6PK8zK) the [BIG-BENCH canary string](https://github.com/google/BIG-bench/blob/main/docs/doc.md#creating-a-task-from-scratch) when asked to. This indicates that [Anthropic](https://en.wikipedia.org/wiki/Anthropic) probably trained on data containing the benchmark, either deliberately or as an oversight. RIP to those who were hoping that including the string in text would prevent the text from ending up as training data for [LLMs](https://en.wikipedia.org/wiki/Large_Language_Model).
-	* GPT-4o fails at reproducing the string, despite trying, but GPT-4-base [is able to](https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/shortplav?commentId=XwtTHyNWEqEgvDrJb). Gemini [succeeds](https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/shortplav?commentId=eviy3TbsevuYCwFJr), as [does](https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/shortplav?commentId=Z9CsipemGb4u9idtL) Claude Opus (I verified this for Opus).
+	* GPT-4o fails at reproducing the string, despite trying, but GPT-4-base [is able to](https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/shortplav?commentId=XwtTHyNWEqEgvDrJb). Gemini [succeeds](https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/shortplav?commentId=eviy3TbsevuYCwFJr), as [does](https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/shortplav?commentId=Z9CsipemGb4u9idtL) Claude Opus (I verified this for Opus).<!--TODO: Teortaxestex had some more models that were able to produce the string-->
 * [In a Grain, a Glimpse of the Cosmos (Natalie Wolchover, 2014)](https://www.quantamagazine.org/quasicrystal-meteorite-poses-age-old-questions-20140613/): The story of finding the first mineral with a [quasicrystal](https://en.wikipedia.org/wiki/Quasicrystal) in the wild, namely [icosahedrite](https://en.wikipedia.org/wiki/Icosahedrite), in a [carbonaceous chondrite](https://en.wikipedia.org/wiki/Carbonaceous_Chondrite) meteorite older than Earth. Quasicrystals are also present in the nuclear-weapons-test-created anthropogenic mineral [trinitite](https://en.wikipedia.org/wiki/Trinitite).
 * [Tigramite](https://jakobrunge.github.io/tigramite/index.html): A library for causal inference in time series data.
-* [Caffeine Cycling Self-Experiment (Michael Dickens, 2024)](https://mdickens.me/2024/04/11/caffeine_self_experiment/)
-	* [Continuing My Caffeine Self-Experiment (Michael Dickens, 2024)](https://mdickens.me/2024/06/24/continuing_caffeine_self_experiment/)
+* [Caffeine Cycling Self-Experiment (Michael Dickens, 2024)](https://mdickens.me/2024/04/11/caffeine_self_experiment/): Finds that caffeine doesn't really build tolerance for him, over the course of four weeks—and indeed finds that caffeine gets *more* effective over time, not less. This is replicated in [another experiment](https://mdickens.me/2024/06/24/continuing_caffeine_self_experiment/), also by Dickens. I like these experiments and think they are true; I'm tempted to try to replicate them, but this time with blinding, since Dickens didn't blind his experiments.
 * [Writing Causal Models Like We Write Programs (johnswentworth, 2020)](https://www.lesswrong.com/posts/Xd9FLs4geRAWxkQPE/writing-causal-models-like-we-write-programs)
 * [Oliver Buckland](https://oliver-buckland.bandcamp.com/) produces interesting music, I especially like [espial](https://oliver-buckland.bandcamp.com/track/espial). Reminds me a bit of [Graham Kartna](https://grahamkartna.bandcamp.com/).
 
