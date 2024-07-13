@@ -45,7 +45,7 @@ all collaborators' decisions. Instead, the correlation may be viewed
 as logical (Garrabrant et al., 2016): if I cooperate, then this implies
 that all other implementations of my decision algorithm also cooperate.
 
-*—Caspar Oesterheld, “Multiverse-wide Cooperation via Correlated Decision Making” p. 18, 2018*”
+*—Caspar Oesterheld, “Multiverse-wide Cooperation via Correlated Decision Making” p. 18, 2018*
 
 We don't yet have a way of estimating the logical correlation between
 different decision algorithms.
@@ -107,7 +107,8 @@ How does this relate to
 
 #### Desiderata Fulfilled?
 
-Does this fulfill our desiderata from earlier?
+Does this fulfill our desiderata from earlier? I'll assume that the
+string distance `$d$` is a metric, in the mathematical sense.
 
 1. `$合(p, p)=0$`. (The minimal logical correlation is 0.)
 

@@ -4,12 +4,13 @@ using StatsPlots
 using Graphs
 using Statistics
 
-function generate_random_linear_sem(n::Int)
-	# Create a random DAG
+# Make the SEM a struct
+
+function generate_random_linear_sem(n::Int, threshold=0.5)
 	g=DiGraph(n)
 	for i in 1:n
 		for j in (i+1):n
-			if rand() < 0.5 # Adjust this threshold to control density
+			if rand() < threshold
 				add_edge!(g, i, j)
 			end
 		end
@@ -38,7 +39,7 @@ function calculate_sem_values(sem::DiGraph, coefficients::Dict, input_values::Di
 	return values
 end
 
-function correlation_in_sem(sem::DiGraph, coefficients::Dict, inner_samples::Int)
+function correlations(sem::DiGraph, coefficients::Dict, inner_samples::Int)
 	n=size(vertices(sem), 1)
 	input_nodes=[node for node in vertices(sem) if indegree(sem, node) == 0]
 	results=Matrix{Float64}(undef, inner_samples, n) # Preallocate results matrix
@@ -57,28 +58,36 @@ function correlation_in_sem(sem::DiGraph, coefficients::Dict, inner_samples::Int
 	return abs.(correlations)
 end
 
-function misclassifications(sem::DiGraph, coefficients::Dict, inner_samples::Int)
-	correlations=correlation_in_sem(sem, coefficients, inner_samples)
+function influences(sem::DiGraph)
+	return Matrix(Bool.(transpose(adjacency_matrix(transitiveclosure(sem)))))
+end
 
-	influence=Matrix(Bool.(transpose(adjacency_matrix(transitiveclosure(sem)))))
+function misclassifications(sem::DiGraph, coefficients::Dict, inner_samples::Int)
+	correlation=correlations(sem, coefficients, inner_samples)
+	influence=influences(sem)
+
 	not_influence=tril(.!(influence), -1)
 
-	non_causal_correlations=not_influence.*correlations
-	causal_correlations=influence.*correlations
+	non_causal_correlations=not_influence.*correlation
+	causal_correlations=influence.*correlation
 
-	return sum((causal_correlations .!= 0) .& (causal_correlations .< maximum(non_causal_correlations)))
+	return sum((causal_correlations .!= 0) .& (causal_correlations .< mean(non_causal_correlations)))
 end
 
 function misclassified_absence_mc(n::Int, outer_samples::Int, inner_samples::Int)
-	return [misclassifications(generate_random_linear_sem(n)..., inner_samples) for i in 1:outer_samples]
+	return [misclassifications(generate_random_linear_sem(n, 0.5)..., inner_samples) for i in 1:outer_samples]
 end
 
 results=Dict{Int, Array{Int, 1}}()
 
-sem_samples=200
-inputs_samples=20000
+sem_samples=500
+inputs_samples=10000
+upperlim=48
+stepsize=4
+#sem_samples=100
+#inputs_samples=1000
 
-Threads.@threads for i in 4:16
+Threads.@threads for i in 4:stepsize:upperlim
 	println(i)
 	results[i]=misclassified_absence_mc(i, sem_samples, inputs_samples)
 end
@@ -100,8 +109,10 @@ savefig(combined_plot, "summaries.png")
 
 non_corrs_plot=plot(legend=:topright, dpi=140, xlabel="Number of causal non-correlations", ylabel="Density",
 	palette=palette([:orange, :blue], length(results)))
-for (key, values) in sort(results, rev=true)
-	density!(non_corrs_plot, values, label="$key variables in SEM", linewidth=2)
+
+for (key, values) in sort(results)
+	density!(non_corrs_plot, values, label="$key variables in SEM", linewidth=2,
+		yscale=:log10, ylims=(0.00001, 10), xlims=(-1, maximum(results[upperlim])))
 end
 
 savefig(non_corrs_plot, "misclassifications.png")
@@ -110,7 +121,9 @@ more_samples=Dict{Int, Array{Int, 1}}()
 
 samples_test_size=12
 sem_samples=100
-inputs_samples=2 .^(6:17)
+#samples_test_size=10
+#sem_samples=10
+inputs_samples=2 .^ (6:16)
 
 Threads.@threads for inputs_sample in inputs_samples
 	println(inputs_sample)

@@ -472,7 +472,8 @@ but rather cycles).
 * [norvid_studies](https://norvidshoshin.wordpress.com/blog/), [𝕏](http://nitter.poast.org/norvid_studies)
 * [exdiegesis](https://x.com/exdiegesis/)/[mir](https://www.lesswrong.com/users/mir)/[rime](https://forum.effectivealtruism.org/users/elua)
 
-If you're not on here but think you should be, [contact me](#Contact).
+If you're not on here but think you should be (or, conversely, you're
+on here but don't want to be), [contact me](#Contact).
 
 <!--TODO: add 1a3orn, etale.site, Alex K. Chen, Burny, Nuño?-->
 <!--[Sam Harsimony](https://splittinginfinity.substack.com/), [Wordpress](https://harsimony.wordpress.com/): Polymath.-->

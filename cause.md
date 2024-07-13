@@ -4,7 +4,8 @@
 *author: niplav, created: 2022-02-04, modified: 2024-04-06, language: english, status: in progress, importance: 4, confidence: unlikely*
 
 > __Absence of correlation almost never implies absence of
-causation<sub>[55%](https://fatebook.io/q/in-linear-sems-with-0-1-distributed--clujl9idv0001lc0841gwx9te)</sub>.__
+causation<sub>[55%](https://fatebook.io/q/in-linear-sems-with-0-1-distributed--clujl9idv0001lc0841gwx9te)</sub>
+in linear structural equation models.__
 
 How Often Does ¬Correlation ⇏ ¬Causation?
 ==========================================
@@ -46,41 +47,41 @@ parameters are [normally
 distributed](https://en.wikipedia.org/wiki/Normal-distribution) with
 mean 0 and variance 1.
 
-        function generate_random_linear_sem(n::Int)
-                g = DiGraph(n)
-                for i in 1:n
-                        for j in (i+1):n
-                                if rand() < 0.5
-                                        add_edge!(g, i, j)
-                                end
-                        end
-                end
-                coefficients = Dict()
-                for edge in edges(g)
-                        coefficients[edge] = randn()
-                end
-                return g, coefficients
-        end
+	function generate_random_linear_sem(n::Int, threshold=0.5)
+		g = DiGraph(n)
+		for i in 1:n
+			for j in (i+1):n
+				if rand() < threshold
+					add_edge!(g, i, j)
+				end
+			end
+		end
+		coefficients = Dict()
+		for edge in edges(g)
+			coefficients[edge] = randn()
+		end
+		return g, coefficients
+	end
 
 We can then run a bunch of inputs through that model, and compute their
 correlations:
 
-        function correlation_in_sem(sem::DiGraph, coefficients::Dict, inner_samples::Int)
-                n = size(vertices(sem), 1)
-                input_nodes = [node for node in vertices(sem) if indegree(sem, node) == 0]
-                results = Matrix{Float64}(undef, inner_samples, n) # Preallocate results matrix
-                for i in 1:inner_samples
-                        input_values = Dict([node => randn() for node in input_nodes])
-                        sem_values=calculate_sem_values(sem, coefficients, input_values)
-                        sem_value_row = reshape(collect(values(sort(sem_values))), 1, :)
-                        results[i, :] = sem_value_row
-                end
-                correlations=cor(results)
-                for i in 1:size(correlations, 1)
-                        correlations[i, i] = 0
-                end
-                return abs.(correlations)
-        end
+	function correlations(sem::DiGraph, coefficients::Dict, inner_samples::Int)
+		n = size(vertices(sem), 1)
+		input_nodes = [node for node in vertices(sem) if indegree(sem, node) == 0]
+		results = Matrix{Float64}(undef, inner_samples, n) # Preallocate results matrix
+		for i in 1:inner_samples
+			input_values = Dict([node => randn() for node in input_nodes])
+			sem_values=calculate_sem_values(sem, coefficients, input_values)
+			sem_value_row = reshape(collect(values(sort(sem_values))), 1, :)
+			results[i, :] = sem_value_row
+		end
+		correlations=cor(results)
+		for i in 1:size(correlations, 1)
+			correlations[i, i] = 0
+		end
+		return abs.(correlations)
+	end
 
 We can then check how many correlations are "incorrectly small".
 
@@ -92,40 +93,50 @@ There is a causation but it's not detected.
 
 We return the amount of those:
 
-        function misclassifications(sem::DiGraph, coefficients::Dict, inner_samples::Int)
-                correlations=correlation_in_sem(sem, coefficients, inner_samples)
-                influence=Matrix(Bool.(transpose(adjacency_matrix(sem))))
-                not_influence=tril(.!(influence), -1)
-                non_causal_correlations=not_influence.*correlations
-                causal_correlations=influence.*correlations
-                return sum((causal_correlations .!= 0) .& (causal_correlations .< maximum(non_causal_correlations)))
-        end
+<!--TODO: we filter here after the *mean* of noncausal correlations,
+previsouly after the maximum. What's the right way? Technically,
+there's two distributions of correlation values, so we gotta find a
+cutoff point
+Example of 1⇒3 and 2⇒3 edges, 1 & 2 have strong non-causal
+correlation-->
+
+	function misclassifications(sem::DiGraph, coefficients::Dict, inner_samples::Int)
+		correlations=correlation_in_sem(sem, coefficients, inner_samples)
+		influence=Matrix(Bool.(transpose(adjacency_matrix(transitiveclosure(sem)))))
+		not_influence=tril(.!(influence), -1)
+		non_causal_correlations=not_influence.*correlations
+		causal_correlations=influence.*correlations
+		return sum((causal_correlations .!= 0) .& (causal_correlations .< mean(non_causal_correlations)))
+	end
 
 And, in the outermost loop, we compute the number of misclassifications
 for a number of linear SEMs:
 
-        function misclassified_absence_mc(n::Int, outer_samples::Int, inner_samples::Int)
-                return [misclassifications(generate_random_linear_sem(n)..., inner_samples) for i in 2:outer_samples]
-        end
+	function misclassified_absence_mc(n::Int, outer_samples::Int, inner_samples::Int)
+		return [misclassifications(generate_random_linear_sem(n)..., inner_samples) for i in 2:outer_samples]
+	end
 
 So we collect a bunch of samples. SEMs with one, two and three variables
-are ignored because when running the code, they never give me any causal
-non-correlations. (I'd be interested in seeing examples to the contrary.)
+are ignored because when running the code, they never give me any
+causal non-correlations. (I'd be interested in seeing examples to the
+contrary.)<!--TODO: try to actually find some-->
 
-        results = Dict{Int, Array{Int, 1}}()
-        sem_samples=200
-        inputs_samples=20000
-        for i in 4:16
-                results[i]=misclassified_absence_mc(i, sem_samples, inputs_samples)
-        end
+	results = Dict{Int, Array{Int, 1}}()
+	sem_samples=500
+	inputs_samples=10000
+	upperlim=48
+	stepsize=4
+	Threads.@threads for i in 4:stepsize:upperlim
+		results[i]=misclassified_absence_mc(i, sem_samples, inputs_samples)
+	end
 
 We can now first calculate the mean number of mistaken
 correlations and the *proportion* of misclassified
 correlations, using the [formula for the triangular
 number](https://en.wikipedia.org/wiki/Triangular_Number#Formula):
 
-        result_means=[mean(values) for (key, values) in sort(results)]
-        result_props=[mean(values)/((key^2+key)/2) for (key, values) in sort(results)]
+	result_means=[mean(values) for (key, values) in sort(results)]
+	result_props=[mean(values)/((key^2+key)/2) for (key, values) in sort(results)]
 
 ![](./img/cause/summaries.png)
 
@@ -148,14 +159,14 @@ that's not sufficient, I don't know what is.
 
 But let's better go and write some code to check:
 
-        more_samples=Dict{Int, Array{Int, 1}}()
-        samples_test_size=12
-        sem_samples=100
-        inputs_samples=2 .^(6:17)
-        for inputs_sample in inputs_samples
-                println(inputs_sample)
-                more_samples[inputs_sample]=misclassified_absence_mc(samples_test_size, sem_samples, inputs_sample)
-        end
+	more_samples=Dict{Int, Array{Int, 1}}()
+	samples_test_size=12
+	sem_samples=100
+	inputs_samples=2 .^(6:17)
+	for inputs_sample in inputs_samples
+		println(inputs_sample)
+		more_samples[inputs_sample]=misclassified_absence_mc(samples_test_size, sem_samples, inputs_sample)
+	end
 
 Plotting the number of causal non-correlations reveals that 10k samples
 *ought* to be enough, at least for small numbers of variables:
