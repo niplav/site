@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-02-04, modified: 2024-04-06, language: english, status: in progress, importance: 4, confidence: unlikely*
+*author: niplav, created: 2022-02-04, modified: 2024-04-15, language: english, status: in progress, importance: 4, confidence: unlikely*
 
 > __Absence of correlation almost never implies absence of
 causation<sub>[55%](https://fatebook.io/q/in-linear-sems-with-0-1-distributed--clujl9idv0001lc0841gwx9te)</sub>
@@ -47,8 +47,17 @@ parameters are [normally
 distributed](https://en.wikipedia.org/wiki/Normal-distribution) with
 mean 0 and variance 1.
 
-	function generate_random_linear_sem(n::Int, threshold=0.5)
-		g = DiGraph(n)
+	struct LinearSEM
+		g::SimpleDiGraph{Int64}
+		coefficients::Dict
+	end
+
+We can decide how dense/sparse we want the SEM to be via the `threshold`
+parameter, the probability that two different nodes have an edge
+between them.
+
+	function random_linear_sem(n::Int, threshold=0.5)
+		g=DiGraph(n)
 		for i in 1:n
 			for j in (i+1):n
 				if rand() < threshold
@@ -56,31 +65,31 @@ mean 0 and variance 1.
 				end
 			end
 		end
-		coefficients = Dict()
+		coefficients=Dict()
 		for edge in edges(g)
-			coefficients[edge] = randn()
+			coefficients[edge]=randn()
 		end
-		return g, coefficients
+		return LinearSEM(g, coefficients)
 	end
+
+<!--TODO: plot one of those graphs-->
 
 We can then run a bunch of inputs through that model, and compute their
 correlations:
 
-	function correlations(sem::DiGraph, coefficients::Dict, inner_samples::Int)
-		n = size(vertices(sem), 1)
-		input_nodes = [node for node in vertices(sem) if indegree(sem, node) == 0]
-		results = Matrix{Float64}(undef, inner_samples, n) # Preallocate results matrix
+	function correlations(sem::LinearSEM, inner_samples::Int)
+		n=size(vertices(sem.g), 1)
+		input_nodes=[node for node in vertices(sem.g) if indegree(sem.g, node) == 0]
+		results=Matrix{Float64}(undef, inner_samples, n) # Preallocate results matrix
 		for i in 1:inner_samples
-			input_values = Dict([node => randn() for node in input_nodes])
-			sem_values=calculate_sem_values(sem, coefficients, input_values)
-			sem_value_row = reshape(collect(values(sort(sem_values))), 1, :)
-			results[i, :] = sem_value_row
+			input_values=Dict([node => randn() for node in input_nodes])
+			sem_values=calculate_sem_values(sem, input_values)
+			sem_value_row=reshape(collect(values(sort(sem_values))), 1, :)
+			results[i, :]=sem_value_row
 		end
-		correlations=cor(results)
-		for i in 1:size(correlations, 1)
-			correlations[i, i] = 0
-		end
-		return abs.(correlations)
+		cor_matrix==cor(results)
+		cor_matrix[diagind(cor_matrix)].=0
+		return abs.(cor_matrix)
 	end
 
 We can then check how many correlations are "incorrectly small".
@@ -91,7 +100,22 @@ correlation". Correlations between two variables which cause each other
 but are smaller than the largest uncaused correlation are "too small":
 There is a causation but it's not detected.
 
-We return the amount of those:
+		correlation=correlations(sem, inner_samples)
+		influence=Matrix(Bool.(transpose(adjacency_matrix(transitiveclosure(sem.g)))))
+		not_influence=tril(.!(influence), -1)
+		non_causal_cors=not_influence.*correlation
+		causal_cors=influence.*correlation
+
+This gives us two distributions, the distribution of
+`non_causal_correlations` and the distribution of `causal_correlations`,
+e.g.:
+
+![](./img/cause/correlations.png)
+
+One may notice that some variables that are not causing each other still
+have high correlations with each other, this is because they have a
+common cause. So we have to decide *what it means* for a correlation
+to be too small to be relevant.
 
 <!--TODO: we filter here after the *mean* of noncausal correlations,
 previsouly after the maximum. What's the right way? Technically,
@@ -100,20 +124,16 @@ cutoff point
 Example of 1⇒3 and 2⇒3 edges, 1 & 2 have strong non-causal
 correlation-->
 
-	function misclassifications(sem::DiGraph, coefficients::Dict, inner_samples::Int)
-		correlations=correlation_in_sem(sem, coefficients, inner_samples)
-		influence=Matrix(Bool.(transpose(adjacency_matrix(transitiveclosure(sem)))))
-		not_influence=tril(.!(influence), -1)
-		non_causal_correlations=not_influence.*correlations
-		causal_correlations=influence.*correlations
+	function misclassifications(sem::LinearSEM, inner_samples::Int)
 		return sum((causal_correlations .!= 0) .& (causal_correlations .< mean(non_causal_correlations)))
 	end
 
 And, in the outermost loop, we compute the number of misclassifications
-for a number of linear SEMs:
+for a number of linear SEMs (with a threshold of 0.25, since 0.5 usually
+produces SEMs which are too dense):
 
 	function misclassified_absence_mc(n::Int, outer_samples::Int, inner_samples::Int)
-		return [misclassifications(generate_random_linear_sem(n)..., inner_samples) for i in 2:outer_samples]
+		return [misclassifications(random_linear_sem(n, 0.25), inner_samples) for i in 1:outer_samples]
 	end
 
 So we collect a bunch of samples. SEMs with one, two and three variables
@@ -160,9 +180,9 @@ that's not sufficient, I don't know what is.
 But let's better go and write some code to check:
 
 	more_samples=Dict{Int, Array{Int, 1}}()
-	samples_test_size=12
-	sem_samples=100
-	inputs_samples=2 .^(6:17)
+	samples_test_size=20
+	sem_samples=500
+	inputs_samples=2 .^(6:16)
 	for inputs_sample in inputs_samples
 		println(inputs_sample)
 		more_samples[inputs_sample]=misclassified_absence_mc(samples_test_size, sem_samples, inputs_sample)
