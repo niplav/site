@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-07-13, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-07-14, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [For fast protocols, be backwards-compatible in the client, not on the wire (Spencer Baugh, 2024)](http://catern.com/mobilelibs.html)
+* [Beyond process supervisors (Spencer Baugh, 2024)](http://catern.com/supervisors.html)
+* [Your computer is a distributed system (Spencer Baugh, 2024)](http://catern.com/compdist.html)
+* [Your users are a test suite, you should run them (Spencer Baugh, 2024)](http://catern.com/usertests.html)
+* [You need to be able to run your system (Spencer Baugh, 2024)](http://catern.com/run.html)
+* [Deploying a distributed system? A type system helps a lot (Spencer Baugh, 2021)](http://catern.com/progsys.html)
+* [GUIs are Antisocial (Michael Lynch, 2024)](https://mtlynch.io/notes/guis-are-antisocial/)
+* [Exclusive: OpenAI working on new reasoning technology under code name ‘Strawberry’ (Anna Tong/Katie Paul, 2024)](https://www.reuters.com/technology/artificial-intelligence/openai-working-new-reasoning-technology-under-code-name-strawberry-2024-07-12/)
 * [Simple probes can catch sleeper agents (Monte MacDiarmid/Tim Maxwell/Nicholas Schiefer/Jesse Mu/Jared Kaplan/David Duvenaud/Sam Bowman/Alex Tamkin/Ethan Perez/Mrinank Sharma/Carson Denison/Evan Hubinger, 2024)](https://www.anthropic.com/research/probes-catch-sleeper-agents)
 * [Risk Tolerance: To Avoid, Transfer, Mitigate or Accept—That Is The Question! (John Verry, 2024)](https://www.pivotpointsecurity.com/risk-tolerance-in-business/)
 * [Risk management techniques: avoid, mitigate, transfer, or accept (Scrut Automation, 2024)](https://www.scrut.io/post/risk-management-techniques)
