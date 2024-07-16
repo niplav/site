@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2024-07-10, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2024-07-16, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -43,7 +43,8 @@ Moved the note on logical correlation to its [own page](./logical.html).
 * [Tigramite](https://jakobrunge.github.io/tigramite/index.html): A library for causal inference in time series data.
 * [Caffeine Cycling Self-Experiment (Michael Dickens, 2024)](https://mdickens.me/2024/04/11/caffeine_self_experiment/): Finds that caffeine doesn't really build tolerance for him, over the course of four weeks—and indeed finds that caffeine gets *more* effective over time, not less. This is replicated in [another experiment](https://mdickens.me/2024/06/24/continuing_caffeine_self_experiment/), also by Dickens. I like these experiments and think they are true; I'm tempted to try to replicate them, but this time with blinding, since Dickens didn't blind his experiments.
 * [Writing Causal Models Like We Write Programs (johnswentworth, 2020)](https://www.lesswrong.com/posts/Xd9FLs4geRAWxkQPE/writing-causal-models-like-we-write-programs)
-* [Oliver Buckland](https://oliver-buckland.bandcamp.com/) produces interesting music, I especially like [espial](https://oliver-buckland.bandcamp.com/track/espial). Reminds me a bit of [Graham Kartna](https://grahamkartna.bandcamp.com/).
+* [Oliver Buckland](https://oliver-buckland.bandcamp.com/) produces interesting music, I especially like [espial](https://oliver-buckland.bandcamp.com/track/espial)<!--TODO: and [vaccillate]()-->. Reminds me a bit of [Graham Kartna](https://grahamkartna.bandcamp.com/).
+* [Old European hydronymy](https://en.wikipedia.org/wiki/Old_European_hydronymy)
 
 June 2024
 ----------

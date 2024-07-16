@@ -25,7 +25,7 @@ fix the [daygame cost-benefit analysis](./daygame_cost_benefit.md),
 write the text for the [masturbation and cold approach success
 experiment](./masturbation_and_attractiveness.md), pontificate
 about [logical correlation](./logical.html), boggle at my own code
-for an [n-dimensional diamond-squae algorithm](./diamond.html),
+for an [n-dimensional diamond-square algorithm](./diamond.html),
 and slowly make readable the treatise on [resolving inconsistent
 preferences](./resolving.html).
 
@@ -59,16 +59,11 @@ Reading
 
 Currently, I am actively reading the following texts:
 
-* Textbooks:
-	* An Infinitely Large Napkin (Evan Chen, 2023)
-	* Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
-	* Designing Data-Intensive Applications (Martin Kleppmann, 2017)
-* Paper books:
-	* Growth (Vaclav Smil, 2019)
-	* Bombay. Maximum City (Suketu Mehta, 2005)
-	* Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
-* Pickup book:
-* Meditation book:
-* Other:
-	* Grand Futures (Anders Sandberg, 2023)
+* An Infinitely Large Napkin (Evan Chen, 2023)
+* Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
+* Designing Data-Intensive Applications (Martin Kleppmann, 2017)
+* Growth (Vaclav Smil, 2019)
+* Bombay. Maximum City (Suketu Mehta, 2005)
+* Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
+* Grand Futures (Anders Sandberg, 2023)
 * The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 4/1000.
