@@ -86,14 +86,17 @@ function misclassified_absence_mc(n::Int, outer_samples::Int, inner_samples::Int
 	return [misclassifications(random_linear_sem(n, 0.25), inner_samples) for i in 1:outer_samples]
 end
 
-# TODO Maybe use multiple SEMs here
+vnon_causal_cors=[]
+vcausal_cors=[]
 
-sem=random_linear_sem(48, 0.25)
-non_causal_cors, causal_cors=different_cors(sem, 20000)
-vnon_causal_cors=filter(e->e>0, non_causal_cors)
-vcausal_cors=filter(e->e>0, causal_cors)
+for i in 1:100
+	sem=random_linear_sem(48, 0.25)
+	non_causal_cors, causal_cors=different_cors(sem, 10000)
+	vnon_causal_cors=vcat(vnon_causal_cors, filter(e->e>0, non_causal_cors))
+	vcausal_cors=vcat(vcausal_cors, filter(e->e>0, causal_cors))
+end
 
-cors_plot=plot(dpi=140, xlabel="Correlation", ylabel="Density")
+cors_plot=plot(dpi=140, xlabel="Correlation", ylabel="Density", legend=:topleft)
 density!(cors_plot, vnon_causal_cors, c=:red, label="Non-causal correlations")
 density!(cors_plot, vcausal_cors, c=:blue, label="Causal correlations")
 
@@ -103,7 +106,7 @@ savefig(cors_plot, "correlations.png")
 
 results=Dict{Int, Array{Int, 1}}()
 
-sem_samples=250
+sem_samples=400
 inputs_samples=10000
 upperlim=52
 stepsize=4
@@ -123,7 +126,7 @@ keys = [key for (key, values) in sort(results)]
 more_samples=Dict{Int, Array{Int, 1}}()
 
 samples_test_size=20
-sem_samples=500
+sem_samples=400
 #samples_test_size=10
 #sem_samples=10
 inputs_samples=2 .^ (6:16)
@@ -134,13 +137,11 @@ Threads.@threads for inputs_sample in inputs_samples
 end
 
 # Create subplots
-p1 = plot(keys, result_means, title="Mean misclassified", legend=false)
-p2 = plot(keys, result_props, title="Proportion misclassified", legend=false)
+p1 = plot(keys, result_means, title="Mean Causal Non-Correlations", legend=false, c=:red)
+p2 = plot(keys, result_props, title="Proportion Causal Non-Correlations", legend=false, c=:blue)
 
-# Combine subplots into a single plot with 3 rows and 1 column
-combined_plot = plot(p1, p2, layout=(1, 2), size=(1200, 600))
+combined_plot = plot(p1, p2, layout=(1, 2), size=(900, 600))
 
-# Display the combined plot
 savefig(combined_plot, "summaries.png")
 
 non_corrs_plot=plot(legend=:topright, dpi=140, xlabel="Number of causal non-correlations", ylabel="Density",

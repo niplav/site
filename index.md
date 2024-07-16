@@ -223,7 +223,7 @@ Miscellaneous
 * [Favorites](./favorites.html)
 * [Now](./now.html)
 * [Todo](./todo.html)
-* [Full Index](./fullindex.html)
+* [Full Index](./fullindex.html), if you care for drafts or spicier posts
 
 ### Media Consumption
 

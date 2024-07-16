@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-07-22, modified: 2024-05-20, language: english, status: maintenance, importance: 4, confidence: possible*
+*author: niplav, created: 2020-07-22, modified: 2024-07-16, language: english, status: maintenance, importance: 4, confidence: possible*
 
 > __In [AI safety](https://en.wikipedia.org/wiki/AI_control_problem),
 significant time has been spent on the question of
@@ -102,9 +102,10 @@ abstraction are tight and which are leaky)—but my system 2 only has
 [7±2](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two)
 (or maybe [actually just
 4](https://en.wikipedia.org/wiki/Working_Memory#Capacity)?) usable
-slots. And unless the limit is due to combinatorial explosion (which
-might be handleable by careful pruning, or prioritized search), AI
-systems could have larger (perhaps vastly larger?) working memories.
+slots. And unless the limit is due to [combinatorial
+explosion](https://en.wikipedia.org/wiki/Combinatorial_explosion)
+(which might be handleable by careful pruning, or prioritized search),
+AI systems could have larger (perhaps vastly larger?) working memories.
 
 The standard rejoinder here is that evolution has optimized human
 brains really really hard, and our current technology is usually 2-6

@@ -64,7 +64,7 @@ Currently, I am actively reading the following texts:
 	* Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
 	* Designing Data-Intensive Applications (Martin Kleppmann, 2017)
 * Paper books:
-	* Growth (Vaclav Smil, 2020)
+	* Growth (Vaclav Smil, 2019)
 	* Bombay. Maximum City (Suketu Mehta, 2005)
 	* Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * Pickup book:

@@ -700,21 +700,21 @@ be equal. ◻
 
 Another option to resolve inconsistent preferences over deterministic
 options into consistent preferences is to apply the `HodgeRank`
-algorithm by Jiang et al. to an unweighted graph $G$
+algorithm by Jiang et al. to an unweighted graph `$G$`
 [@jiang2011statistical].
 
 `HodgeRank` is described in further detail in section
 [4.3.1](#sec:hodgerank){reference-type="ref" reference="sec:hodgerank"}.
 
 To apply `HodgeRank` to unweighted graphs one simply sets both weights
-of each edge to 1 (for $e \in E$ it is then the case that $w(e)=1$,
-$l(e)=1$).
+of each edge to 1 (for `$e \in E$` it is then the case that `$w(e)=1$`,
+`$l(e)=1$`).
 
-Then, for a directed graph $G$, we can define an algorithm
-`HodgeResolve` that applies `HodgeRank` to $G$, and then converts the
-potential function $p$ on $\Omega$ into an acyclic tournament. Here
-$\omega_1 \rightarrow \omega_2$ if and only if
-$p_{\omega_1}>p_{\omega_2}$.
+Then, for a directed graph `$G$`, we can define an algorithm
+`HodgeResolve` that applies `HodgeRank` to `$G$`, and then converts the
+potential function `$p$` on `$\Omega$` into an acyclic tournament. Here
+`$\omega_1 \rightarrow \omega_2$` if and only if
+`$p_{\omega_1}>p_{\omega_2}$`.
 
 One issue with `HodgeRank` is that the potentials of two options are
 sometimes equal to each other, which violates the criterion of
@@ -722,7 +722,6 @@ asymmetry. There are two ways of dealing with this symmetry:
 
 1.  Keep the symmetric edges and accept that the output is a weak
     ordering, and modify the criteria to be applicable.
-
 2.  Resolve ties in the ordering by returning all topological sorts as a
     result. This has the disadvantage of potentially returning a set of
     results that is factorial in the size of $\Omega$.
@@ -730,15 +729,11 @@ asymmetry. There are two ways of dealing with this symmetry:
 We decide to take the first option, to preserve the polynomial runtime
 of `HodgeRank`.
 
-::: algorithm
-::: algorithmic
-For all $e \in E$, $w(e) \gets 1, l(e) \gets 1$
-$G_h \gets (\Omega, E, w, l)$ $p \gets$ $p_{\omega}$ is the potential
-that `HodgeRank` assigns to $\omega$ $E_r \gets \emptyset$
-$E_r \gets E_r \cup \{(\omega_1, \omega_2)\}$ $G_r \gets (\Omega, E_r)$
-$G_r$
-:::
-:::
+	For all $e \in E$, $w(e) \gets 1, l(e) \gets 1$
+	$G_h \gets (\Omega, E, w, l)$ $p \gets$ $p_{\omega}$ is the potential
+	that `HodgeRank` assigns to $\omega$ $E_r \gets \emptyset$
+	$E_r \gets E_r \cup \{(\omega_1, \omega_2)\}$ $G_r \gets (\Omega, E_r)$
+	$G_r$
 
 ### Criteria
 
