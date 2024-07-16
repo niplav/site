@@ -444,7 +444,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * The Infinite Assassin (Greg Egan, 1991)
 * [Do humans derive values from fictitious imputed coherence? (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/11/do-humans-derive-values-from-fictitious.html)
 * [A Fundamental Theory to Model the Mind (Jennifer Ouellette, 2014)](https://www.quantamagazine.org/toward-a-theory-of-self-organized-criticality-in-the-brain-20140403/)
-* \* Growth (Vaclav Smil, 2020)
+* \* Growth (Vaclav Smil, 2019)
 * [From GAN to WGAN (Lilian Weng, 2017)](https://lilianweng.github.io/posts/2017-08-20-gan/)
 * [esc. (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/02/esc.html)
 * [Politically convergent perverse instability (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2022/12/politically-convergent-perverse.html)

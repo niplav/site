@@ -5,11 +5,9 @@ using DataFrames
 # Load data from CSV
 data = CSV.File("../../data/daygame_approaches.csv") |> DataFrame
 
-# Extract location and enjoyment information
 locations = data.Location
 contacts = ismissing.(data."Contact info")
 
-# Define ice cream locations
 dg_locations = unique(locations)
 
 # Initialize success and failure counts

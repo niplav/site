@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-12-30, modified: 2024-04-19, language: english, status: in progress, importance: 3, confidence: opinion*
+*author: niplav, created: 2020-12-30, modified: 2024-07-16, language: english, status: in progress, importance: 3, confidence: opinion*
 
 > __Reading a text is sometimes a big time investment, but people
 don't approach their reading in a structured manner, e.g. by keeping
@@ -440,6 +440,37 @@ like—I was confused, couldn't follow, lacked context.
 Not for me.
 
 __2/10__
+
+### Growth (Vaclav Smil, 2019)
+
+Fact density: Extreme. Outstanding for that.
+
+Read this as part of a [comprehensive information
+gathering](https://www.lesswrong.com/posts/9LXxgXySTFsnookkw/exercises-in-comprehensive-information-gathering).
+Good here too, but so dry that it sometimes feels like fucking a skeleton.
+
+Uses sigmoid curve-fitting far too much: They can't be relied upon
+for prediction, [especially if the inflection point is not in the data
+yet](https://arxiv.org/pdf/2109.08065). A lot of Smil's curve-fits have
+a smooth start and an abrupt bump into a ceiling; the bump into the
+ceiling usually lies in the not-so-far-future.
+
+Smil also uses the words "upper bound" differently from my culture—in
+my culture it means "limit imposed by physical law or mathematical
+necessity", for Smil it means "plausible limitation". He throws these
+bounds out like bread to ducks.
+
+I'd be thrilled if he tried making a [track
+record](http://www.overcomingbias.com/2006/12/the_80_forecast.html)
+out of his predictions, having been an academic since 1972 he has had
+a lot of time to accumulate predictions.
+
+I might seem overly critical, Growth was profoundly informative and
+wide-ranging — a proper mind at work here. Might read another one
+of his books; “How the World Really Works” truly is a title every
+polymath can write in their life.
+
+__8/10__
 
 LessWrong Annual Reviews
 -------------------------

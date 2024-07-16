@@ -66,10 +66,10 @@ Let `$l=|t|$` be the number of steps that `$p$` takes to halt.
 
 ### Possible Desiderata
 
-1. If possible, we would want our formula for logical correlation to be a [metric](https://en.wikipedia.org/wiki/Metric_space) on the space of programs:
+1. If possible, we would want our formula for logical correlation to be a [metric](https://en.wikipedia.org/wiki/Metric_space) or a [pseudometric](https://en.wikipedia.org/wiki/Pseudometric_space) on the space of programs:
 	1. `$合(p, p)=0$`.
 	2. [Symmetry](https://en.wikipedia.org/wiki/Symmetric_function): `$合(p_1, p_2)=合(p_2, p_1)$`.
-	3. If `$p_1 \not=p_2$`, then `$合(p_1, p_2)>0$`.
+	3. If `$p_1 \not=p_2$`, then `$合(p_1, p_2)>0$`. This condition is dropped if we're fine with `$合$` being a pseudometric.
 	4. The [triangle inequality](https://en.wikipedia.org/wiki/Triangle_Inequality): `$合(p_1, p_3) \le 合(p_1, p_2)+合(p_2, p_3)$`.
 2. If `$p_1$` and `$p_2$` have very similar outputs, and `$p_3$` has a very different output, then `$合(p_1, p_2)<合(p_1, p_3)$` (and `$合(p_1, p_2)<合(p_2, p_3)$`).
 	1. I'm not *so sure* about this one: Let's say there's `$p$`, which outputs a binary string `$o \in \{0, 1\}$`, and `$p^{\not \sim}$`, which computes `$o$` in a completely different way, as well as `$p^{\lnot}$`, which first runs `$p$`, and then flips every bit on the tape, finally returning the negation of `$o$`. In this case, it seems that if `$p$` is a decision algorithm, it has far more "control" over the output of `$p^{\lnot}$` than over `$p^{\not \sim}$`.
@@ -113,7 +113,9 @@ string distance `$d$` is a metric, in the mathematical sense.
 1. `$合(p, p)=0$`. (The minimal logical correlation is 0.)
 
 <!--TODO: check with brainfuck-->
-<!--TODO: prove or disprove that this is a metric-->
+<!--TODO: prove or disprove that this is a metric (or maybe a
+pseudometric?—seems like there could the different programs with the
+exactly same tape states…)-->
 
 [^1]: Actually not explained in detail anywhere, as far as I can tell.
 [^2]: Suggested by GPT-4. Stands for [joining, combining, uniting](https://en.wiktionary.org/wiki/%E5%90%88#Definitions). Also "to suit; to fit", "to have sexual intercourse", "to fight, to have a confrontation with", or "to be equivalent to, to add up". Maybe I could've used one of the [ghost characters](https://en.wikipedia.org/wiki/Ghost_characters).
