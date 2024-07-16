@@ -130,6 +130,9 @@ defined over that world model.
 
 ## Related Work
 
+<!--TODO: Add Ammann value change sequences, Bob Jacobs post, Richard
+Ngo post-->
+
 As far as our literature review has revealed, the academic literature
 has no investigation into the specific question we are attempting to
 answer.
@@ -177,14 +180,14 @@ positive affine transformation [@backus2004exotic].
 ##### Resolving Inconsistent Preferences
 
 In the context of taxonomical data, Sun et al. investigate the problem
-of recovering hierarchies from noisy data ([Sun et al. 2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies")). They
-represent inconsistent taxonomies with directed acyclic graphs and
-consistent hierarchical taxonomies using directed graphs. They find
-that, when measuring the number of edges being removed, a voting
-ensemble of several different techniques such as TrueSkill
-[@herbrich2007trueskill] does well on removing as few edges as possible,
-and usually outperforms removing greedy approximations of the feedback
-arc set ([Sun et al. 2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies")).
+of recovering hierarchies from noisy data ([Sun et al. 2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies")).
+They represent inconsistent taxonomies with directed acyclic graphs and
+consistent hierarchical taxonomies using directed graphs. They find that,
+when measuring the number of edges being removed, a voting ensemble of
+several different techniques such as TrueSkill [@herbrich2007trueskill]
+does well on removing as few edges as possible, and usually outperforms
+removing greedy approximations of the feedback arc set ([Sun et al.
+2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies")).
 
 Outside of the academic literature, Aird and Shovelain represent
 inconsistent preferences as vector fields on a state space

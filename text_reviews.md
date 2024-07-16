@@ -266,7 +266,7 @@ own groundwater.
 If you're reading this site, read The Precipice instead. (Not a *full*
 condemnation of WWOTF).
 
-__5.5/10__
+__5/10__
 
 ![](./img/reviews/owo.png)
 
@@ -321,7 +321,7 @@ Apparently people want to use this as a self-help book‽ Bizarre.
 
 But to me: Satisfactory.
 
-__6.5/10__
+__6/10__
 
 ### Human Compatible (Stuart Russell, 2019)
 
