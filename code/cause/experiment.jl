@@ -92,8 +92,8 @@ vcausal_cors=[]
 for i in 1:100
 	sem=random_linear_sem(48, 0.25)
 	non_causal_cors, causal_cors=different_cors(sem, 10000)
-	vnon_causal_cors=vcat(vnon_causal_cors, filter(e->e>0, non_causal_cors))
-	vcausal_cors=vcat(vcausal_cors, filter(e->e>0, causal_cors))
+	global vnon_causal_cors=vcat(vnon_causal_cors, filter(e->e>0, non_causal_cors))
+	global vcausal_cors=vcat(vcausal_cors, filter(e->e>0, causal_cors))
 end
 
 cors_plot=plot(dpi=140, xlabel="Correlation", ylabel="Density", legend=:topleft)
@@ -106,16 +106,16 @@ savefig(cors_plot, "correlations.png")
 
 results=Dict{Int, Array{Int, 1}}()
 
-sem_samples=400
-inputs_samples=10000
+#sem_samples=400
+#input_samples=10000
 upperlim=52
 stepsize=4
-#sem_samples=100
-#inputs_samples=1000
+sem_samples=100
+input_samples=1000
 
 Threads.@threads for i in 4:stepsize:upperlim
 	println(i)
-	results[i]=misclassified_absence_mc(i, sem_samples, inputs_samples)
+	results[i]=misclassified_absence_mc(i, sem_samples, input_samples)
 end
 
 result_means=[mean(values) for (key, values) in sort(results)]
@@ -125,15 +125,14 @@ keys = [key for (key, values) in sort(results)]
 
 more_samples=Dict{Int, Array{Int, 1}}()
 
-samples_test_size=20
-sem_samples=400
-#samples_test_size=10
-#sem_samples=10
-inputs_samples=2 .^ (6:16)
+sem_size=20
+input_samples=2 .^ (6:16)
 
-Threads.@threads for inputs_sample in inputs_samples
-	println(inputs_sample)
-	more_samples[inputs_sample]=misclassified_absence_mc(samples_test_size, sem_samples, inputs_sample)
+sem=random_linear_sem(sem_size, 0.25)
+
+Threads.@threads for input_sample in input_samples
+	println(input_sample)
+	more_samples[input_sample]=[misclassifications(sem, input_sample) for i in 1:input_sample]
 end
 
 # Create subplots
