@@ -36,15 +36,17 @@ Pareto improvements [@wald1947essentially].
 
 ![](./img/resolving/dutch.jpg)
 
-However, this model has come under criticism as being non-descriptive of
-human preferences, which can be experimentally shown to violate one or
-more of the von Neumann-Morgenstern axioms [@allais1953comportement]
-[@el2013structural]. Furthermore, the AI systems humanity has
-constructed so far usually have no in-built utility functions and appear
-inconsistent, as they are often programs selected by gradient descent to
-perform well on a loss or reward function, and it is doubtful that they
-have internal goal representations that correspond to the their loss or
-reward function [@hubinger2019risks].
+However, this model has come under criticism as being
+non-descriptive of human preferences, which can be
+experimentally shown to violate one or more of the von
+Neumann-Morgenstern axioms [@allais1953comportement] [El Gamal
+2013](./doc/psychology/on_the_structural_consistency_of_preferences_el_gamal_2013.pdf).
+Furthermore, the AI systems humanity has constructed so far usually have
+no in-built utility functions and appear inconsistent, as they are often
+programs selected by gradient descent to perform well on a loss or reward
+function, and it is doubtful that they have internal goal representations
+that correspond to the their loss or reward function [Hubinger
+2019](./doc/cs/ai/alignment/risks_from_learned_optimization_hubinger_2019.pdf).
 
 This tension between the normative theory of rational agency and the
 observations we can make about intelligent systems in the real world
@@ -58,7 +60,7 @@ make them consistent is interesting and important for several different
 reasons:
 
 -   **Learning the preferences of weaker incoherent
-    systems**[@dewey2011learning]: Assuming that one system `$S_1$` wants
+    systems** [Dewey 2010](./doc/cs/ai/alignment/value_learning/learning_what_to_value_dewey_2010.pdf): Assuming that one system `$S_1$` wants
     to learn the preferences of a less coherent system `$S_2$`, `$S_1$`
     might want to "correct" inconsistent preferences learned from `$S_2$`
     to avoid being exploitable via Dutch books. For example, an AI
@@ -69,7 +71,7 @@ reasons:
 -   **Managing ontological crises**: If a system defines its preferences
     using a world model, but this world model changes, those preferences
     might now be inconsistent. Such situations would benefit from a
-    method for resolving inconsistent preferences [@de2011ontological].
+    method for resolving inconsistent preferences [de Blanc 2011](./doc/cs/ai/alignment/ontological_crises/ontological_crises_in_artificial_agents_value_systems_de_blanc_2011.pdf).
 -   **Creating AI systems with consistent preferences**: Assuming that
     humans will build capable agentic AI systems, we might want to both
     describe how those agents might achieve coherence, and prescribe
@@ -158,20 +160,22 @@ discounting factor is a hyperbolic function with a parameter $k$ instead
 of an exponential. Let `$U_h(b, i, k)=\frac{1}{1+ki}U(b, c(b, i))$` be the
 hyperbolically discounted utility of consuming $b$ at time step `$i$`.
 
-This kind of discounting leads to disproportionately preferring small
-rewards soon over large rewards later, and might lead to preference
-reversals: For two goods $b$ and $b'$, an agent can have the preference
-`$U_h(b, c(b, i))>U_h(b', c(b, i+c))$` at a time step $i$ and a time step
-$i+c$, but reverse that preference if it lies at another timestep $j$:
-`$U_h(b, c(b, j))<U_h(b', c(b, j+c))$`. [@ainslie1981preference]. Such
-hyperbolic discounting has been observed in humans [@green1994discounting]
-and pigeons [@ainslie1981preference]. This kind of preference reversal
-does not occur with exponential discounting.
+This kind of discounting leads to disproportionately preferring
+small rewards soon over large rewards later, and might lead to
+preference reversals: For two goods $b$ and $b'$, an agent can
+have the preference `$U_h(b, c(b, i))>U_h(b', c(b, i+c))$` at a
+time step $i$ and a time step $i+c$, but reverse that preference
+if it lies at another timestep $j$: `$U_h(b, c(b, j))<U_h(b',
+c(b, j+c))$`. Such hyperbolic discounting has been observed
+in humans [@green1994discounting] and pigeons [Ainslie & Herrnstein
+1981](./doc/econ/behavioral/preference_reversal_and_delayed_reinforcement_ainslie_herrnstein_1981.pdf).
+This kind of preference reversal does not occur with exponential
+discounting.
 
 Hyperbolic preferences can be modeled in a a game-theoretic setup, in
 which subagents in aggregation execute a Pareto-dominated strategy, and
 via a single agent which follows an unchangeable plan
-[@caillaud2000modelling]. Caillaud and Jullien do not attempt to resolve
+[Caillaud & Jullien 2000](./doc/econ/behavioral/modelling_time_inconsistent_preferences_caillaud_jullien_2000.pdf). Caillaud and Jullien do not attempt to resolve
 these time-inconsistencies to make them time-consistent. Backus and Zin
 explore further alternatives to the time-discounted utility setup,
 though they still work with utility functions that are invariant under
@@ -204,30 +208,31 @@ decomposition to decompose inconsistent preference vector fields with
 three dimensions. Their approach bears a strong resemblance to the Hodge
 decomposition we use with edge-weighted graphs.
 
-Taking a very different approach, Kirchner investigates how to infer
-utility functions from non-transitive preferences using a neural network
-[@kirchner2022inferring]. Kirchner relates inferring such preferences to
-sorting data in which comparisons sometimes are random, resulting in
-cycles during comparison. He finds that this approach is able to
-reconstruct orderings even when 10% of the results of comparisons are
-noise.
+Taking a very different approach, Kirchner
+investigates how to infer utility functions from
+non-transitive preferences using a neural network [Kirchner
+2022](https://www.lesswrong.com/posts/QZiGEDiobFz8ropA5/inferring-utility-functions-from-locally-non-transitive).
+Kirchner relates inferring such preferences to sorting data in
+which comparisons sometimes are random, resulting in cycles during
+comparison. He finds that this approach is able to reconstruct orderings
+even when 10% of the results of comparisons are noise.
 
 ##### Learning Inconsistent Preferences
 
 The problem of *inferring* the preferences of irrational agents has
 been formally posed [@armstrong2018occam]: It is in general impossible
-learn such preferences, as any action is equally compatible both
-with a preference for that action *and* a systematic bias causing
-the action.  Nevertheless Evans et al. find a framework that is
-experimentally successful at inferring the preferences of an agent with
-time-inconsistent hyperbolic discounting and incorrect beliefs using
-[Bayesian inference](https://en.wikipedia.org/wiki/Bayesian_Inference)
-[@evans2016learning]. Their method for inferring preferences of
-inconsistent software agents gives similar results to estimates made
-by humans. Their framework does not cover all possible variants of
-inconsistent preferences, and makes no statement about how to resolve
-the time-inconsistencies. Evans et al. also give no theoretical guarantee
-about the performance of their method.
+learn such preferences, as any action is equally compatible both with a
+preference for that action *and* a systematic bias causing the action.
+Nevertheless Evans et al. find a framework that is experimentally
+successful at inferring the preferences of an agent with time-inconsistent
+hyperbolic discounting and incorrect beliefs using [Bayesian
+inference](https://en.wikipedia.org/wiki/Bayesian_Inference) [Evans et al.
+2016](./doc/cs/ai/alignment/value_learning/learning_the_preferences_of_ignorant_inconsistent_agents_evans_et_al_2016.pdf).
+Their method for inferring preferences of inconsistent software agents
+gives similar results to estimates made by humans. Their framework does
+not cover all possible variants of inconsistent preferences, and makes no
+statement about how to resolve the time-inconsistencies. Evans et al. also
+give no theoretical guarantee about the performance of their method.
 
 ### The von Neumann-Morgenstern Axioms {#sec:vnmintro}
 
@@ -703,8 +708,8 @@ be equal. ◻
 
 Another option to resolve inconsistent preferences over deterministic
 options into consistent preferences is to apply the `HodgeRank`
-algorithm by Jiang et al. to an unweighted graph `$G$`
-[@jiang2011statistical].
+algorithm by Jiang et al. to an unweighted graph `$G$` [Jiang et al.
+2009](./doc/preference/statistical_ranking_and_combinatorial_hodge_theory_jiang_et_al_2011.pdf).
 
 `HodgeRank` is described in further detail in section
 [4.3.1](#sec:hodgerank){reference-type="ref" reference="sec:hodgerank"}.
@@ -766,7 +771,7 @@ that regard.
 
 #### Applying `HodgeRank`
 
-[@jiang2011statistical] state that for complete graphs, computing the
+[Jiang et al. 2011](./doc/preference/statistical_ranking_and_combinatorial_hodge_theory_jiang_et_al_2011.pdf) state that for complete graphs, computing the
 potential function of a graph $G$ via `HodgeRank` on the nodes is
 equivalent to minimizing the squared distance between the edge-weights
 of $G$ and the edge-weights induced by the potential function. If $G$
@@ -794,7 +799,7 @@ where the distance between two tournaments $T_1, T_2$ is the number of
 edges that have to be flipped in $T_1$ to create $T_2$. Slater's problem
 (and a number of related problems, such as finding *all* acyclic
 tournaments with the smallest distance to a given tournament) is known
-to be NP-hard [@hudry2010complexity].
+to be NP-hard [Hudry 2010](./doc/cs/preference/on_the_complexity_of_slaters_problems_hudry_2010.pdf).
 
 ::: {#EGEDminnphard .theorem}
 **Theorem 6**. Finding the set of acyclic tournaments with smallest
@@ -816,21 +821,23 @@ to `$T$`, the distance is divisible by two because by editing a tournament
 `$T$` into a tournament `$T'$`. Edges can only be flipped, which engenders
 two edge operations (removing an edge and then adding a new one). Then
 that set would also be the set of Slater orders of `$T$` (with distance
-`$k$`), a solution to ($P_3$) from [@hudry2010complexity], which is known
+`$k$`), a solution to ($P_3$) from [Hudry 2010](./doc/cs/preference/on_the_complexity_of_slaters_problems_hudry_2010.pdf), which is known
 to be NP-hard. ◻
 
 Similarly, finding only *one* element from $f_{\text{EGED}}(G)$ is also
 NP-hard, by reducing it to $P_2$ ("PROBLEM $P_2$. Given a tournament
-$T$, compute a Slater order $O^*(T)$ of $T$") [@hudry2010complexity].
+$T$, compute a Slater order $O^*(T)$ of $T$") [Hudry 2010](./doc/cs/preference/on_the_complexity_of_slaters_problems_hudry_2010.pdf).
 
 ##### Applying `HodgeRank`
 
-[@jiang2011statistical] state that computing the potential function of a
-graph $G$ is equivalent to solving a $n \times n$ least-squares problem
-($n=|\Omega|$), which requires $\mathcal{O}(n^3)$ time. `HodgeResolve`
-executes `HodgeRank` and then iterates through all possible edges of
-$G$, which takes at most $\mathcal{O}(n^2)$ time, so the time complexity
-of `HodgeResolve` is also $\mathcal{O}(n^3)$.
+[Jiang et al.
+2011](./doc/preference/statistical_ranking_and_combinatorial_hodge_theory_jiang_et_al_2011.pdf)
+state that computing the potential function of a graph $G$ is equivalent
+to solving a $n \times n$ least-squares problem ($n=|\Omega|$), which
+requires $\mathcal{O}(n^3)$ time. `HodgeResolve` executes `HodgeRank`
+and then iterates through all possible edges of $G$, which takes at
+most $\mathcal{O}(n^2)$ time, so the time complexity of `HodgeResolve`
+is also $\mathcal{O}(n^3)$.
 
 #### Uniqueness
 
@@ -2084,21 +2091,19 @@ full definition) [@de2011ontological], and one can refine their problem
 statement and their approach to a solution by stating it in terms of
 Markov decision processes [@russell2010artificial ch. 17.1].
 
-::: definition
 **Definition 13**. A finite **Markov decision process** (MDP)
-$\mathcal{M}=(S,
-A, P, R, I)$ is a tuple of five elements, where $S$ is a set of states
-(in this case finite, with $n=|S|$), the set $A$ is a set of actions
-(also finite, with $m=|A|$) and
-$P(s, a, s'): S \times A \times S \rightarrow
-[0,1]$ is a function that returns the probability of transitioning from
-$s$ to $s'$ via the action $a$, that is
-$P(s, a, s')=\Pr(s_{t+1}=s'|s_t=s,
-a_t=a)$. The function $R: S \rightarrow \mathbb{R}$ is a reward function
+`$\mathcal{M}=(S,
+A, P, R, I)$` is a tuple of five elements, where `$S$` is a set of states
+(in this case finite, with `$n=|S|$`), the set `$A$` is a set of actions
+(also finite, with `$m=|A|$`) and
+`$P(s, a, s'): S \times A \times S \rightarrow
+[0,1]$` is a function that returns the probability of transitioning from
+`$s$` to `$s'$` via the action `$a$`, that is
+`$P(s, a, s')=\Pr(s_{t+1}=s'|s_t=s,
+a_t=a)$`. The function `$R: S \rightarrow \mathbb{R}$` is a reward function
 that returns a real-numbered value for reaching a certain state[^6], and
-$I: S \rightarrow [0,1]$ is a probability distribution for the states
+`$I: S \rightarrow [0,1]$` is a probability distribution for the states
 that the agent is initially in.
-:::
 
 Given some ordering of the states `$s_1, \dots, s_n$`,
 the transition function `$P$` from `$\mathcal{M}$`
@@ -2140,22 +2145,19 @@ states and transition probabilities (however, the set of actions stays
 the same) and thereby now wants to operate in `$\mathcal{M}_2$` has the
 problem of defining `$R_2$`.
 
-::: definition
-**Definition 14**. The method de Blanc uses to find $R_2$ is to find two
-linear maps $\phi
-\in \mathbb{R}^{n_1 \times n_2}$ and $\psi \in \mathbb{R}^{n_2 \times
-n_1}$ (with sizes $n_1=|S_1|, n_2=|S_2$) such that $\phi$ and $\psi$ can
-be used to "translate" between $\mathcal{M}_1$ and $\mathcal{M}_2$
-[@de2011ontological]. Then, for any $a \in A$, $\phi$ and $\psi$ should
-be selected so that for any $a \in A$, it holds that that $\psi
-\mathbf{T}_1(a) \phi$ is approximately equal to $\mathbf{T}_2(a)$ (from
-here on out written as $\psi \mathbf{T}_1(a) \phi \approx
-\mathbf{T}_2(a)$). It should also hold that $\phi \mathbf{T}_2(a) \psi
-\approx \mathbf{T}_1(a)$.
+**Definition 14**. The method de Blanc uses to find `$R_2$` is to find
+two linear maps `$\phi \in \mathbb{R}^{n_1 \times n_2}$` and `$\psi
+\in \mathbb{R}^{n_2 \times n_1}$` (with sizes `$n_1=|S_1|, n_2=|S_2$`)
+such that `$\phi$` and `$\psi$` can be used to "translate" between
+`$\mathcal{M}_1$` and `$\mathcal{M}_2$` [@de2011ontological]. Then,
+for any `$a \in A$`, `$\phi$` and `$\psi$` should be selected so that
+for any `$a \in A$`, it holds that that `$\psi \mathbf{T}_1(a) \phi$` is
+approximately equal to `$\mathbf{T}_2(a)$` (from here on out written as
+`$\psi \mathbf{T}_1(a) \phi \approx \mathbf{T}_2(a)$`). It should also
+hold that `$\phi \mathbf{T}_2(a) \psi \approx \mathbf{T}_1(a)$`.
 
-De Blanc doesn't name $\phi, \psi$, but we will call such $\phi, \psi$
+De Blanc doesn't name `$\phi, \psi$`, but we will call such `$\phi, \psi$`
 for MDPs a **de Blanc bisimulation**.
-:::
 
 **Definition 15**. Let
 `$\textbf{BisimulationDifference}(\mathcal{M}_1, \mathcal{M}_2,

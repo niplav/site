@@ -3,8 +3,8 @@
 
 *author: niplav, created: 2022-02-04, modified: 2024-04-15, language: english, status: in progress, importance: 4, confidence: unlikely*
 
-> __Absence of correlation implies causation ≥95% of the time in
-sparse-ish linear causal networks, but not *always*. The number of causal
+> __Absence of correlation implies causation ≤5% of the time in
+sparse-ish linear causal networks, but not *never*. The number of causal
 non-correlations first grows and then shrinks with the number of nodes
 in the causal network, with the maximum at ≈30. I can't explain why.__
 
@@ -51,8 +51,9 @@ with `$n$` variables, computing the correlations between the different
 variables for random inputs, and checking whether the correlations being
 very small implies that there is no causation.
 
-So we start by generating a random linear SEM with `$n$` variables (code
-in [Julia](https://en.wikipedia.org/wiki/Julia_programming_language)). The
+So we start by generating a random linear SEM with
+`$n$` variables ([code](./code/cause/experiment.jl) in
+[Julia](https://en.wikipedia.org/wiki/Julia_programming_language)). The
 parameters are [normally
 distributed](https://en.wikipedia.org/wiki/Normal-distribution) with
 mean 0 and variance 1, but for now we'll assume there is no noise.

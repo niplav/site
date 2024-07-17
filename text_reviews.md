@@ -451,9 +451,11 @@ Good here too, but so dry that it sometimes feels like fucking a skeleton.
 
 Uses sigmoid curve-fitting far too much: They can't be relied upon
 for prediction, [especially if the inflection point is not in the data
-yet](https://arxiv.org/pdf/2109.08065). A lot of Smil's curve-fits have
-a smooth start and an abrupt bump into a ceiling; the bump into the
-ceiling usually lies in the not-so-far-future.
+yet](https://arxiv.org/pdf/2109.08065). A lot of Smil's curve-fits have a
+smooth start and an abrupt bump into a ceiling; the bump into the ceiling
+usually lies in the not-so-far-future. Growth was the first time I've seen
+someone fit a logistic curve to national GDP—not GDP growth rates, mind
+you, no, gross domestic product *itself*. p. 412, I'm not making this up.
 
 Smil also uses the words "upper bound" differently from my culture—in
 my culture it means "limit imposed by physical law or mathematical
