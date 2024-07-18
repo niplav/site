@@ -86,7 +86,7 @@ extinction at 0, and the value of a [multinational AGI
 consortium](./doc/cs/ai/alignment/policy/multinational_agi_consortium_hausenloy_2023.pdf)-led
 TAI at 1 (I'll just call the consortium "MAGIC", from here on). That
 is not to say that the MAGIC-led TAI future is the [best possible TAI
-future](./cs/ai/alignment/cev/coherent_extrapolated_volition_yudkowsky_2004.pdf),
+future](./doc/cs/ai/alignment/cev/coherent_extrapolated_volition_yudkowsky_2004.pdf),
 or even a good or acceptable one. Technically the only assumption I'm
 making is that these kinds of futures are better than extinction—which
 I'm anxiously uncertain about. But the whole thing is symmetric under
