@@ -32,8 +32,16 @@ July 2024
 
 * [A TAI Race With China Can Be Better Than Not Racing](./china.html)
 * [Using A Multi-Armed Bandit to Select Daygame Locations](./bandit.html)
+* Book Review: [Growth (Vaclav Smil, 2019)](/text_reviews.html#Growth_Vaclav_Smil_2019)
 
-Moved the note on logical correlation to its [own page](./logical.html).
+Moved the note on logical correlation to its [own
+page](./logical.html). Merged the [toy AI takeoff model and my thoughts
+on AI takeoff](./foom.html).
+
+Lot's of work on [pages](./resolving.html)
+[that](daygame_cost_benefit.html)
+[nevertheless](masturbation_and_attractiveness.html)
+[remain](diamond.html) [unfinished](cryonics_outside_us.html).
 
 ### Links
 
