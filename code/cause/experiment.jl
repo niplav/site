@@ -126,7 +126,7 @@ keys = [key for (key, values) in sort(results)]
 more_samples=Dict{Int, Array{Int, 1}}()
 
 sem_size=20
-input_samples=2 .^ (6:16)
+input_samples=2 .^ (6:15)
 
 sem=random_linear_sem(sem_size, 0.25)
 
