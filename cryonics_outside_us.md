@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-09-04, modified: 2021-09-04, language: english, status: notes, importance: 4, confidence: likely*
+*author: niplav, created: 2021-09-04, modified: 2024-07-17, language: english, status: notes, importance: 4, confidence: likely*
 
 > __The state of information about the legal and logistical hurdles for
 a successful cryopreservation in countries outside of the United States
@@ -67,8 +67,10 @@ have considered and researched it, but rejected it for logistical reasons,
 I would [like to talk to you](./about.html#Contact) about why and how
 (email address is [rot13ed](https://en.wikipedia.org/wiki/ROT13)).__
 
-European Union
----------------
+Europe
+-------
+
+* [Tomorrow Biostasis](https://www.tomorrow.bio/)
 
 ### Germany
 
@@ -77,3 +79,19 @@ European Union
 #### Contract with a US Organisation
 
 ##### Slow Young Deteriorating Death
+
+Asia
+-----
+
+* [Yinfeng Life Sciences](https://en.yinfenglife.org.cn/)
+
+Africa
+-------
+
+Oceania
+---------
+
+* [Southern Cryonics](https://southerncryonics.com/the-project/)
+
+America
+--------
