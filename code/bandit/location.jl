@@ -31,8 +31,12 @@ bandit[!, :dist]=[Beta(bandit[!,2][i] + 1, bandit[!,3][i] + 1) for i in 1:length
 bandit[!, :sample]=rand.(bandit[!, :dist])
 
 weekday_bad_weather=[449052, 709269, 76108, 548236, 422985]
-weekday_good_weather=[548236, 175735, 709269, 76108, 956569, 132388, 449256, 591664, 449052, 119752, 868084, 422985]
+weekday_good_weather=[548236, 175735, 709269, 76108, 956569, 132388, 449256, 591664, 449052, 119752, 868084, 422985, 35322]
 weekend_bad_weather=[449052, 709269, 76108, 548236, 422985, 10939, 702595, 531828]
 weekend_good_weather=[692404,10939,548236,35322,175735,702595,709269,803955,76108,276017,52055,422985,956569,300211,132388,449256,531828,433507,591664,868084,371851,32441,119752,449052]
 
-println(sort(bandit, :sample))
+locations=CSV.File("/home/niplav/admn/daygame/locations") |> DataFrame
+
+bandit=innerjoin(bandit, locations, on=:location=>:id)
+
+println(sort(bandit, :success_prob))

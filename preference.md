@@ -40,7 +40,7 @@ seems to have achieved those prefereneces. This is clearly nonsensical,
 as also explored in [Filan
 2018](https://www.lesswrong.com/posts/26eupx3Byc8swRS7f/bottle-caps-aren-t-optimisers "Bottle Caps Aren't Optimisers").
 
-If we argue that this is pure distinction mongering, and that we "know
+If we argue that this is pure distinction-mongering, and that we "know
 an agent when we see one", it might still be argued that evolution is
 agent-like enough to fall into our category of an agent, but that we are
 not necessarily obligated to spend a significant part of our resources
@@ -81,11 +81,17 @@ preferences. With simpler organisms or very simple physical systems, this
 might become an issue, but one wouldn't expect them to have undergone
 significant moral growth in any case.)
 
-<!--What did I mean by this?
+<!--TODO
 
-TODO
+What about preferences we *really* don't like?
+
+Interpersonal preference strength comparison?
 
 #### Second-Order Preference
+
+Maybe we can solve this by positing preferences over preferences? But
+then we allow nosy preferences, i.e. preferences by one agent over the
+preferences of another one.
 
 #### Reflective Equilibrium
 -->

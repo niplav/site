@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2024-07-09, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2024-07-20, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -29,15 +29,6 @@ for an [n-dimensional diamond-square algorithm](./diamond.html),
 and slowly make readable the treatise on [resolving inconsistent
 preferences](./resolving.html).
 
-### Abandoned
-
-These texts have been (for various reasons) abandoned.
-
-* [Life Improvements in 2030](./attic/life_improvements_2030.html)
-* [Reward Long Content](./attic/reward.html)
-* [Third Variable](./attic/third.html)
-* [Effective Altruism is a Pareto Frontier of Truth and Power](./attic/eacrit.html)
-
 Data Collection
 ----------------
 
@@ -62,6 +53,8 @@ Currently, I am actively reading the following texts:
 * An Infinitely Large Napkin (Evan Chen, 2023)
 * Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
 * Designing Data-Intensive Applications (Martin Kleppmann, 2017)
+* Daygame Nitro (Nick Krauser, 2014)
+* Coming to Wholeness (Connirae Andreas, 2018)
 * Growth (Vaclav Smil, 2019)
 * Bombay. Maximum City (Suketu Mehta, 2005)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)

@@ -115,7 +115,15 @@ of the approach, the attractiveness of the woman I'm speaking to, the
 amount of time I'm spending between approaches, …
 
 I will, however, exercise my judgement: I will *probably* take a closer
-look at 76108, but I don't feel very enthusiastic about it.
+look at 76108, even if I don't feel very enthusiastic about it.
+
+<!--
+### Adding Unexplored Locations
+
+I have some locations I haven't looked at in my city.
+-->
+
+### Beyond the Bandit
 
 And if I wanted to be really fancy, I could use a 2-dimensional
 [Gaussian process](https://en.wikipedia.org/wiki/Gaussian_Process), in

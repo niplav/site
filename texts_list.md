@@ -17,6 +17,13 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* \* Daygame Nitro (Nick Krauser, 2014)
+* [Juglar cycle (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Juglar_cycle)
+* [Kuznets swing (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Kuznets_swing)
+* [AI #73: Openly Evil AI (Zvi, 2024)](https://www.lesswrong.com/posts/fM4Bs9nanDzio3xCq/ai-73-openly-evil-ai)
+* |4 Improving Alignment and Robustness with Short Circuiting (Andy Zou/Long Phan/Justin Wang/Derek Duenas/Maxwell Lin/Maksym Andriushchenko/Rowan Wang/Zico Kolter/Matt Fredrikson/Dan Hendrycks, 2024)
+* |8 Weak-To-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision (Collin Burns/Pavel Izmailov/Jan Hendrik Kirchner/Bowen Baker/Leo Gao/Leopold Aschenbrenner/Yining Chen/Adrien Ecoffet/Manas Joglekar/Jan Leike/Ilya Sutskever/Jeff Wu, 2023)
+* [EU AI Act to Enter into Force in August (Laura de Boel/Rosana Fol/Roberto Yunquera Sehwani/Karol Piwonski, 2024)](https://www.wsgr.com/en/insights/eu-ai-act-to-enter-into-force-in-august.html)
 * [For fast protocols, be backwards-compatible in the client, not on the wire (Spencer Baugh, 2024)](http://catern.com/mobilelibs.html)
 * [Beyond process supervisors (Spencer Baugh, 2024)](http://catern.com/supervisors.html)
 * [Your computer is a distributed system (Spencer Baugh, 2024)](http://catern.com/compdist.html)
@@ -54,7 +61,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Who will win the 2024 Presidential Election in Rwanda? (rduubs, 2024)](https://www.metaculus.com/questions/22442/rwanda-presidential-election-winner-2024/)
 * [Which country will win the UEFA Euro 2024? (RyanBeck/Korne127, 2024)](https://www.metaculus.com/questions/25481/uefa-euro-2024-winner/)
 * [Will Joe Biden announce before July 15, 2024 that he will not accept the Democratic Party's nomination for President? (Jgalt, 2024)](https://www.metaculus.com/questions/25755/biden-announces-drop-out-before-july-15-2024/)
-* [* Why Momentum Really Works (Gabriel Goh, 2017)](https://distill.pub/2017/momentum/)
+* [Why Momentum Really Works (Gabriel Goh, 2017)](https://distill.pub/2017/momentum/)
 * [LK-99 in retrospect (bhauth, 2024)](https://www.bhauth.com/blog/flawed%20ideas/lk99.html)
 * Our Lady of Chernobyl (Greg Egan, 1994)
 * [Cyrus the Great (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Cyrus_The_Great)

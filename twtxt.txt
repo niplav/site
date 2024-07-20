@@ -75,14 +75,6 @@
 #	xandkar https://xandkar.net/twtxt.txt
 #	xuu https://txt.sour.is/user/xuu/twtxt.txt
 #	z3bra gopher://g.nixers.net/0/~z3bra/twtxt.txt
-2020-11-27T09:18:15.000000Z	Image of Dog holding tennisball: "Please babble! No! No prune, only babble!"
-2020-11-28T14:31:33.000000Z	https://www.youtube.com/watch?v=40OcxBzUgK4&t=40m25s it could be like this.
-2020-11-29T13:20:21.000000Z	You don't actually need to convince idiots
-2020-11-29T22:08:03.000000Z	Fashion seems to operate on two different timescales: 'high fashion' (?) on ½ or 1 year cycles, and 'macro fashion', which changes on the scale of 5 to 10 years
-2020-11-30T10:14:19.000000Z	https://grahamkarta.bandcamp.com now that's my kind of music
-2020-11-30T10:22:54.000000Z	PSA: SL4≠seL4
-2020-11-30T10:54:00.000000Z	ש (shin). Any connection to Evangelion? It is the letter of fire in kabbalah, apparently :thinking_face:
-2020-11-30T10:54:16.000000Z	There is no correct marxism, but there is a right marxism.
 2020-12-01T09:08:58.000000Z	Medicine is a type of engineering. Change my mind.
 2020-12-01T11:15:21.000000Z	Classical philosophy: Disputing definitions. Analytic philosophy: Disputing definitions, rigorously. Continental philosophy: Disputing definitions, poetically.
 2020-12-01T11:15:33.000000Z	My tribe is a place, not a prison.
@@ -111,8 +103,6 @@
 2020-12-18T08:39:49.000000Z	Signaling/countersignaling are nuclear weapons for nerdy thinking: they explain 99% of social behavior in an easy, slightly demeaning way.
 2020-12-18T08:40:08.000000Z	Most advice is basically “become better at signaling”, or it is itself signaling.
 2020-12-18T08:42:02.000000Z	Would online dating without images lead to deeper, more human connections? I.e. only descriptions of people. If yes, is it different because of molochian reasons? More beautiful people have no problem showing their faces, so not showing ones face is seen as a low-status signal at some point. Counter: The idea of deeper, more human connections is in itself flawed, most mating choices are the result of a combination of class/status signals and physical attractiveness anyway.
-2020-12-18T08:42:33.000000Z	Why does biology contain the field of ecology? This makes biology even bigger than it is already, ranging from biochemistry up to ecology. That would be like including sociology and medicine plus anthropology in one gigantic field of study.
-2020-12-18T08:42:41.000000Z	Oh die Tyrannei der Mühle, oh die Medizin der Mühle!
 2020-12-18T08:43:04.000000Z	Evolution is going to destroy everything you love and then piss on the shards.
 2020-12-18T08:43:16.000000Z	Take all the bacteria in the world and dump them into a big hole. How does this look like?
 2020-12-18T08:43:37.000000Z	Can one encode if-statements by using modulo?
@@ -948,22 +938,12 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-06-15T20:11:09.000000Z	you know that you've made it when you're using fermi estimates to debug your rl agent.
 2022-06-15T21:51:50.000000Z	how much did large volcano eruptions in the past change agricultural output?
 2022-06-15T22:22:06.000000Z	it's crazy how we basically haven't tested nuclear weapons in ~30 years
-2022-06-16T08:16:31.000000Z	armed fetuses (“hands”)
-2022-06-16T13:56:58.000000Z	niplavistan has no advertising, but if it had, things would be advertised by “made by a machine”, and “handmade” would be a bad property for an object to have
-2022-06-16T15:21:55.000000Z	the downside of crypto seems quite limited, much more than the upside of crypto is limited (though conditions apply)
-2022-06-16T15:22:32.000000Z	is it therefore strategically better to not try to drive people *out of crypto*, but trying to drive good people into crypto? as a sandbox for civilizational sanity interventions (https://musingsandroughdrafts.wordpress.com/2021/03/24/my-current-high-level-strategic-picture-of-the-world/index.html)
-2022-06-16T15:25:50.000000Z	the problem with civilizational sanity interventions is that you have to go through an awful low of known insanity before hitting any new interesting insanity
-2022-06-16T15:44:24.000000Z	“i can't do *that*! that would be weird” — real inadequacy hours
-2022-06-16T16:08:31.000000Z	lack of exasperation at the inadequacy of the world
 2022-06-17T15:16:30.000000Z	evopsych is confused by persistent conflict between mothers-in-law and spouses—don't both want to maximize the number of children? i don't see any conflict arising for evolutionary reasons
 2022-06-17T18:31:55.000000Z	apparently we're going to build AGI, whatever that is
 2022-06-19T08:23:20.000000Z	following legislation from the ELSC (european long site commission), I now have to adopt an ocelot
 2022-06-19T08:25:46.000000Z	diversity inequity exclusion
 2022-06-19T14:26:39.000000Z	numpy.unique needs the type to be comparable by < and >, not just ==. that seems like overkill.
 2022-06-19T18:32:40.000000Z	dath ilan has screened off its past just es ey wants to screen off his past before ~2003
-2022-06-20T15:01:24.000000Z	Thermal Discouragement Beam, Edgeless Safety Cube. lmao
-2022-06-20T15:41:13.000000Z	twt vitrification order? at tetraspace
-2022-06-20T21:22:21.000000Z	“It's a traditional niplavistani recipe.” “And what's that weird plushy stuff?” “Oh, that's really special. Fermented blåhaj fins.”
 2022-06-21T19:17:24.000000Z	I expect the future to be more, not less, absurd than ~all scifi. way more—there's no scifi this abstract & absurd, and noone would buy it (& also bc of Vinge's law)
 2022-06-21T19:28:46.000000Z	plasmacrane
 2022-06-27T08:37:44.000000Z	if you want to minimize the amount of words in your library, every function should have as many parameters as there are functions in total.
@@ -1173,12 +1153,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2023-02-26T01:18:10.000000Z	A tensor is just an element in the tensor product of vector spaces and their duals, what's the problem?
 2023-02-26T01:18:29.000000Z	(Non-joke question) Is there a tensor product of tensor products?
 2023-02-26T01:54:09.000000Z	What's the difference between a homeomorphism and a diffeomorphism?
-2023-02-27T00:31:36.000000Z	I heard that you can summon a particular LessWronger by saying “The Categories Were Made For Man, Not Man For The Categories” three times in front of a mirror
-2023-02-27T01:13:34.000000Z	They're STILL releasing new versions of the AmigaOS‽
-2023-02-27T01:14:08.000000Z	fiction story about a species where females disguise as males for procreation to steal metabolically difficult to produce eggs from other females
-2023-02-27T21:35:19.000000Z	Plotinian theory of ›good is real‹ equivalent to STV+UDASSA (more symmetry makes you easier to locate in the universal prior)
-2023-02-27T22:17:44.000000Z	mate-poaching is a thing because it makes use of information asymmetry: why do all the mate-evaluation work yourself when you can just let someone else do it?
-2023-02-27T23:55:08.000000Z	woman told me of a dream she had where she saw a man having sex with another woman, taking over and “being better than her”. first time i've heard of competitive ranked sex in the real world
 2023-02-28T00:07:00.000000Z	position, velocity, acceleration, jerk, snap, crackle, pop, lurch
 2023-03-05T19:31:21.000000Z	everybody starts with the same bad ideas <> beginners mind
 2023-03-05T19:43:16.000000Z	schelling.pt gone
@@ -1206,32 +1180,17 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2023-04-08T10:40:49.000000Z	orthogonality of substrate and structure in general
 2023-04-08T21:33:06.000000Z	i mean how many bits can you even hide in a human-understandable theorem?
 2023-04-11T22:59:13.000000Z	“…and we can probably plan for middle of March thi…ah, hello! Mister Yudkowsky! I hope you found—” “Rename your company to ClosedAI.” “Uh…what?” “Rename your company to ClosedAI. Stop your biggest training runs. Pivot to mechanistic interpretability. Shut it all down.” “………Selfie?”
-2023-04-12T11:26:59.000000Z	Utility is linear in probability but nothing else.
-2023-04-12T15:21:11.000000Z	chigs
-2023-04-12T15:21:16.000000Z	pickens
 2023-04-14T11:14:20.000000Z	What is the information bottleneck of epigenetics?
 2023-04-14T11:20:43.000000Z	in practice probably ~all systems with qualia are valenced systems, since valence is the primary axis along which qualia can vary
 2023-04-14T11:48:19.000000Z	What is the Bayesian version of calibration?
 2023-04-14T12:44:13.000000Z	starstardotbib
 2023-04-14T23:39:11.000000Z	just loving this little guy: (·,·). it's like he's looking through a crack: ‘come on, you'll understand the function definition’
 2023-04-15T09:52:36.000000Z	“neniel” could also be a biblical angel
-2023-04-17T14:42:37.000000Z	the male urge to become world expert at extremely specific things
-2023-04-18T16:27:09.000000Z	sky vs. sky
-2023-04-18T16:27:21.000000Z	Stop Goodharting yourself! Stop Goodharting yourself!
 2023-04-19T06:16:07.000000Z	haro in Esperanto means “single hair”. “hararo“ maeans “collection of many hairs“. “harari” is the corresponding verb.
 2023-04-19T06:18:12.000000Z	wait WHY is “book” “libro” in esperanto, but “library” is *not* “libraro” but “biblioteko”? Huh???
 2023-04-19T12:27:22.000000Z	ugh I hate it I am allied with people who propose the clipper chip but for GPUs
 2023-04-19T12:27:59.000000Z	maybe for good reason but man I dislike the aesthetic and will continue to only do technical stuff
 2023-04-19T13:53:18.000000Z	von Neumann and Morgenstern is a joy to read :-D
-2023-04-24T18:56:34.000000Z	Functional Decision Theory has a WP page
-2023-04-25T22:12:45.000000Z	“danger lives at the tip of my hair” she pouted and downed the day-after pill with two finger widths of tequila
-2023-04-26T14:12:11.000000Z	what's the equivalent to the flicker fusion threshold for hearing/tasting/smelling?
-2023-04-27T21:48:38.000000Z	I have updated your probability distribution. Pray I don't update it any further.
-2023-04-27T21:57:57.000000Z	the crossing of a trit and a bit is a brit
-2023-04-27T22:29:17.000000Z	incomparability only ever appears in stated, never in revealed preferences
-2023-04-29T17:11:38.000000Z	is the biggest snail bigger than the smallest rabbit?
-2023-04-30T17:27:15.000000Z	google 40 percent capabilities researchers
-2023-05-01T21:00:42.000000Z	have there been any discontinuities in the domain of computer security?
 2023-05-03T12:46:18.000000Z	you might be thinking: “aha! so I should vote in elections, since even though under do()-calculus, the decision has a miniscule impact, there are many agents that are logically correlated with me, which means my influence is much higher!” A tiny problem is that the number of agents that are logically correlated because they base their decisions on logical correlation is, ah, not *that* big…
 2023-05-04T10:32:39.000000Z	chugging the melatonin pills to keep my energy from making me explode
 2023-05-04T22:18:17.000000Z	I don't remember where I first read this, but: A government's OODA loop is ~6 months long.
