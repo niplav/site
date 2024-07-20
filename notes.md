@@ -1114,16 +1114,18 @@ Pet Peeves
 <!--TODO: add annoyance about lack of clarity for metrics what is better or worse-->
 
 * Numerical scales for symmetric variables (e.g. quality/pleasure & pain/change) that are only positive. If you have a thing, the neutral point should not be five, but zero.
-* Reporting the number of lives lost, not the number of [QALYs](https://en.wikipedia.org/wiki/Quality-adjusted_life_year) (or [DALYs](https://en.wikipedia.org/wiki/Disability-adjusted_life_year) or [HALY+s](https://forum.effectivealtruism.org/posts/Lncdn3tXi2aRt56k5/health-and-happiness-research-topics-part-1-background-on#1__The_HALY_) or [sHALYs](https://forum.effectivealtruism.org/posts/Lncdn3tXi2Rt56k5/health-and-happiness-research-topics-part-1-background-on#2__The_sHALY) etc.) lost
-* Menus at restaurants that don't indicate whether the meal is vegetarian or not (ingredients often don't help: Restaurants will put meat (e.g. bacon cubes in salads) into dishes and not indicate it on the menu).
-	* Interesting: I was recently at a restaurant which indicated the vegetarian/vegan status for *every ingredient* of every meal, which I found curiously annoying. I wonder what made them overshoot.
-* Websites that offer two-factor authentication, but don't allow physical authentication keys and, worse, don't offer an option to backup those two-factor authentication methods
-* Applications that create visible new folders (or very large folders) in my home directory
-	* Examples include snap, DogeCoin, julia
+* Reporting the number of lives lost, not the number of [QALYs](https://en.wikipedia.org/wiki/Quality-adjusted_life_year) (or [DALYs](https://en.wikipedia.org/wiki/Disability-adjusted_life_year) or [HALY+s](https://forum.effectivealtruism.org/posts/Lncdn3tXi2aRt56k5/health-and-happiness-research-topics-part-1-background-on#1__The_HALY_) or [sHALYs](https://forum.effectivealtruism.org/posts/Lncdn3tXi2Rt56k5/health-and-happiness-research-topics-part-1-background-on#2__The_sHALY) etc.) lost.
+* Menus at restaurants that don't indicate whether the meal is vegetarian or not. Ingredients often don't help: Restaurants will put meat (e.g. bacon cubes in salads) into dishes and not indicate it on the menu.
+	* Interesting: I was recently at a restaurant which indicated the vegetarian/vegan status for *every ingredient* of each meal, which I found curiously annoying. I wonder what made them overshoot.
+* Applications that create visible new folders (or very large folders) in my home directory.
+	* Examples include [snap](https://en.wikipedia.org/wiki/Snap_\(package_manager\)), [DogeCoin](https://en.wikipedia.org/wiki/DogeCoin), and [julia](https://en.wikipedia.org/wiki/Julia_programming_language).
 * Many sinks are weirdly badly designed: Why is the end of the faucet so close to the back end of the sink? Why is it so close to the bottom of the sink? I don't see a good reason why the water shouldn't be directed to the middle of the sink, and the faucet be high up (for ample space for hands).<!--TODO: maybe images here-->
-* Microwaves and refrigerators have a great deal of controls that I believe ~nobody uses (the only control I use on a microwave is setting the duration, but I could see a reason for the energy dial; refrigerators need at most one dial (for setting the temperature). Why do they persist? Do consumers really (and erroneously) factor the presence of many dials into their purchase decision? Are companies simply falling prey to [feature creep](https://en.wikipedia.org/wiki/Feature_creep), and the cost of those features isn't large enough to make a difference?
+* Microwaves and refrigerators have a great deal of controls that I believe ~nobody uses. The only control I use on a microwave is setting the duration, but I could see a reason for the energy dial; refrigerators need at most one dial (for setting the temperature). Why do they persist? Do consumers really (and erroneously) factor the presence of many dials into their purchase decision? Are companies simply falling prey to [feature creep](https://en.wikipedia.org/wiki/Feature_creep), and the cost of those features isn't large enough to make a difference?
 * Some websites mandate specific ways of doing two-factor authentication—sometimes via SMS, sometimes with a custom app, sometimes with Google authenticator… I'd like a unified interface around this where I can just use my Ubikey.
 	* No longer a pet peeve: Until recently, it was basically impossible to backup Google authenticator.
+* The words "World GDP".
+* People using √ as a checkmark.
+* 1€ coins are smaller than 50 ct. coins.
 * Browsers splitting words at a newline on an ﬀ or ﬅ ligature:
 
 ![Text: "paranoia is a profession. And so LeAIthan represents the most advanced ef[line split on ligature here]fort yet in AI alignment, using *factored* cognition—splitting up into a"](./img/pet_peeves/ff_split.png "Image of text: “paranoia is a profession. And so LeAIthan represents the most advanced ef[line split on ligature here]fort yet in AI alignment, using *factored* cognition—splitting up into a”")
@@ -2098,3 +2100,25 @@ via good ol' [k-means](https://en.wikipedia.org/wiki/K-means_Clustering)),
 but t-SNE is [sometimes used even for
 clustering](https://en.wikipedia.org/wiki/Clustering_high-dimensional_data#Projection-based_clustering),
 all my charity is being exhausted at this point.
+
+The Variety-Uninterested Can Buy Schelling-Products
+----------------------------------------------------
+
+Having many different products in the same category, such as many
+different kinds of clothes or cars or houses, [is probably very
+expensive](https://www.overcomingbias.com/p/what-cost-varietyhtml).<!--TODO:
+try to estimate the global cost of variety-->
+
+Some of us might not care enough about variety of products in a certain
+category to pay the extra cost of variety, and may even resent the
+variety-interested for imposing that cost.
+
+But the variety-uninterested can try to recover some of the gains from
+eschewing variety by all buying the same product in some category.  Often,
+this will mean buying the cheapest acceptable product from some category,
+or the product with the least amount of ornamentation or special features.
+
+E.g. one can buy only black t-shirts and featuresless cheap black socks,
+and simple metal cutlery. I will, next time I'll buy a laptop or a
+smartphone, think about what the Schelling-laptop is. I suspect it's
+not a ThinkPad.
