@@ -108,6 +108,7 @@ HTML=index.html \
 	utilitarian_compliments.html \
 	bp_chrono.html \
 	ob_chrono.html \
+	rq_chrono.html \
 	so_chrono.html \
 	trm_chrono.html \
 	awitt.html \

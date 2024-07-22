@@ -886,12 +886,12 @@ with the weak ordering.
 
 ##### Further Considerations
 
-Violating **Uniqueness** appears to have consequences for
-decision-making: If we want to use the output of $f$ for prioritising
-which actions to take to achieve high-ranking options, having more than
-one result leaves it unclear which options to prioritize (since there
-will be two $\omega_1, \omega_2 \in \Omega$ that are ranked differently
-by different elements of the set of results).
+Violating **Uniqueness** appears to have consequences for decision-making:
+If we want to use the output of `$f$` for prioritising which actions
+to take to achieve high-ranking options, having more than one result
+leaves it unclear which options to prioritize (since there will be two
+`$\omega_1, \omega_2 \in \Omega$` that are ranked differently by different
+elements of the set of results).
 
 However, results from two different fields apply to this case.
 
@@ -911,17 +911,17 @@ However, results from two different fields apply to this case.
 -   **Moral Uncertainty**: MacAskill et al. outline how to make
     decisions given multiple ethical theories and credences on those
     ethical theories, using the so-called Maximum Expected
-    Choiceworthiness rule [@macaskill2020moral ch. 2]. In the case of
+    Choiceworthiness rule [MacAskill et al. 2020, ch. 2](./doc/philosophy/ethics/moral_uncertainty_macaskill_et_al_2020.pdf "Moral Uncertainty"). In the case of
     ordinal preferences, they use the Borda count [@mclean1990borda] for
     establishing cardinal values for options.
 
 #### Resolution to Polynomially Many Preferences
 
-If **uniqueness** can't be fulfilled (perhaps because the given graph
-$G$ is under-determined), a weaker criterion is that the number of
-consistent graphs corresponding to $G$ is polynomial in the size of
-$\Omega$ ($\forall G \in \mathfrak{P}_{\Omega}: |f(G)| \le p(|\Omega|)$,
-where $p(n)$ is some polynomial in $n$).
+If **uniqueness** can't be fulfilled (perhaps because the given graph $G$
+is under-determined), a weaker criterion is that the number of consistent
+graphs corresponding to $G$ is polynomial in the size of `$\Omega$`
+(`$\forall G \in \mathfrak{P}_{\Omega}: |f(G)| \le p(|\Omega|)$`, where
+`$p(n)$` is some polynomial in `$n$`).
 
 ##### Minimizing Graph-Edit Distance
 
@@ -934,38 +934,32 @@ We decided to also investigate the number of results for `EGEDmin` for
 small graphs. For this purpose, we generated all directed graphs with
 five nodes or less and computed $\mathtt{EGEDmin}(G)$.
 
-::: definition
-**Definition 4**. Let $G$ be any directed graph. Then the **confusion**
-of $G$ is the number of acyclic tournaments with the smallest
-edge-graph-edit distance to $G$, that is the confusion
-$c: \mathfrak{P} \rightarrow \mathbb{N}^+$ of $G$ is
-$c(G)=|\mathtt{EGEDmin}(G)|$. The set of graphs with $n$ vertices and
-confusion $c$ shall be denoted $\mathbf{G}_{n,c}$.
-:::
+**Definition 4**. Let $G$ be any directed graph. Then the **confusion** of
+$G$ is the number of acyclic tournaments with the smallest edge-graph-edit
+distance to $G$, that is the confusion $c: \mathfrak{P} \rightarrow
+\mathbb{N}^+$ of $G$ is $c(G)=|\mathtt{EGEDmin}(G)|$. The set of graphs
+with $n$ vertices and confusion $c$ shall be denoted $\mathbf{G}_{n,c}$.
 
 The term "confusion" was chosen to emphasize that graphs with a lower
 such number have fewer consistent versions. An acyclic tournament has
 minimal confusion (namely 1, where the output of `EGEDmin` is simply
-itself). $G_e$ from **Theorem**
-[7](#omgedworstcase){reference-type="ref" reference="omgedworstcase"}
-has maximal confusion, namely $n!$.
+itself). $G_e$ from **Theorem** 7 has maximal confusion, namely $n!$.
 
 A natural question to ask is whether, with bigger graphs, the average
 confusion converges to a certain value or diverges, or shows no clear
 behavior. We generated all directed graphs with up to 5 vertices and
 computed their confusion.
 
-![Number of graphs by number of nodes and
-confusion.](./img/resolving/nconfusions.png){#fig:nconfusions}
+![Number of graphs by number of nodes and confusion.](./img/resolving/nconfusions.png "Number of graphs by number of nodes and confusion.")
 
-$|\mathbf{G}_{n,1}|$ is the number of all graphs with $n$ vertices and
-confusion 1, and $|\mathbf{G}_{n,1}|/n!$ is the same number but up to
-isomorphism of the graphs. $|\mathbf{G}_{n, n!}|$ is the number of
-graphs with $n$ vertices and maximal confusion.
+`$|\mathbf{G}_{n,1}|$` is the number of all graphs with `$n$` vertices and
+confusion 1, and `$|\mathbf{G}_{n,1}|/n!$` is the same number but up to
+isomorphism of the graphs. `$|\mathbf{G}_{n, n!}|$` is the number of
+graphs with `$n$` vertices and maximal confusion.
 
-For some given set of directed graphs $\mathfrak{P}_n$, not all numbers
-between $1$ and $n!$ can be confusions. There are, for example, no
-graphs of size 3 with confusion 4 (or 5).
+For some given set of directed graphs `$\mathfrak{P}_n$`, not all numbers
+between `$1$` and `$n!$` can be confusions. There are, for example,
+no graphs of size 3 with confusion 4 (or 5).
 
 | `$n$`   | Samples    | Average confusion   | $\|\mathbf{G}_{n,1}\|$     | $\|\mathbf{G}_{n,1}\|/n!$ | $\|\mathbf{G}_{n, n!}\|$ |
 | ------- | ---------- | ------------------- | -------------------------- | ------------------------- | ------------------------ |

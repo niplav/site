@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-07-14, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-07-21, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Subterranean warfare (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Subterranean_warfare)
+* [Strategy of the central position (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Strategy_of_the_central_position)
+* [Tooth-to-tail ratio (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Tooth-to-tail_ratio)
+* \* Coming to Wholeness (Connirae Andreas, 2018)
 * \* Daygame Nitro (Nick Krauser, 2014)
 * [Juglar cycle (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Juglar_cycle)
 * [Kuznets swing (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Kuznets_swing)
