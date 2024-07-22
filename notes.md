@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-07-07, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-07-21, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2099,7 +2099,13 @@ clustering, instead of separating visualization and clustering (such as
 via good ol' [k-means](https://en.wikipedia.org/wiki/K-means_Clustering)),
 but t-SNE is [sometimes used even for
 clustering](https://en.wikipedia.org/wiki/Clustering_high-dimensional_data#Projection-based_clustering),
-all my charity is being exhausted at this point.
+all my charity is being exhausted at this point. But beware:
+
+> Cluster sizes in a t-SNE plot mean nothing […]  
+The basic message is that distances between well-separated clusters in
+a t-SNE plot may mean nothing.
+
+*—Fernanda Viegas/Ian Johnson/Martin Wattenberg, [“How to Use t-SNE Effectively”](https://distill.pub/2016/misread-tsne/), 2016*
 
 The Variety-Uninterested Can Buy Schelling-Products
 ----------------------------------------------------

@@ -96,7 +96,6 @@ Von dem Sichgeistigen des Lebens Jahre zählen.
 
 * [How Often Does ¬Correlation ⇏ ¬Causation?](./cause.html)
 * [Equally Many Heads and Tails](./equally_many_heads_and_tails.html)
-* [Logical Correlation](./logical.html)
 * [Mathematics Notation Convention](./mathematics_notation_convention.html)
 
 #### Quantified Self

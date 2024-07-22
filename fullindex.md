@@ -235,6 +235,7 @@ chronologically.
 
 * [Bit-Player Posts Chronological Index](./bp_chrono.html)
 * [Overcoming Bias Posts Chronological Index](./ob_chrono.html)
+* [The Red Quest Posts Chronological Index](./rq_chrono.html)
 * [Shtetl Optimized Posts Chronological Index](./so_chrono.html)
 * [The Real Movement Posts Chronological Index](./trm_chrono.html)
 

@@ -443,6 +443,23 @@ __2/10__
 
 ### Growth (Vaclav Smil, 2019)
 
+> Our ability to provide a reliable, adequate food supply thanks to
+yields an oder of magnitude higher than in early agricultures has been
+made possible by large energy subsidies and it has been accompanied
+by excessive waste. A near-tripling of average life expectancies has
+been achieved primarily by drastic reductions of infant mortality and
+by effective control of bacterial infections. Our fastest mass-travel
+speeds are now 50-150 times higher than walking. Per capita economic
+product in affluent countries is roughly 100 times larger than in
+antiquity, and useful energy deployed per capita is up to 200-250
+times higher. Gains in destructive power have seen multiples of many
+(5-11) orders of magnitude. And, for an average human, there has been
+essentially an infinitely large multiple in access to stored information,
+while the store of information civilization-wide will soon be a trillion
+times larger than it was two millenia ago.
+
+*—[Vaclav Smil](https://en.wikipedia.org/wiki/Vaclav_Smil) summarizing “Growth”, p. 447-448, 2019*
+
 Fact density: Extreme. Outstanding for that.
 
 Read this as part of a [comprehensive information
