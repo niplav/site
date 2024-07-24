@@ -127,6 +127,7 @@ Von dem Sichgeistigen des Lebens Jahre zählen.
 * [Have Attention Spans Been Declining?](./spans.html)
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
 * [Transfer Learning in Humans](./transfer.html)
+* [Brain Stimulation for Mood Enhancement](./stimulation.html)
 
 #### Collections
 

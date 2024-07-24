@@ -42,11 +42,11 @@ Software
 
 In rough order of proficiency.
 
-* [C](https://en.wikipedia.org/wiki/C_%28programming_language%29)
 * [Python](https://www.python.org)
-* [Klong](http://t3x.org/klong/index.html)
-* [Lua](https://www.lua.org/)
 * [Julia](https://julialang.org)
+* [C](https://en.wikipedia.org/wiki/C_%28programming_language%29)
+* [Lua](https://www.lua.org/)
+* [Klong](http://t3x.org/klong/index.html)
 * [Myrddin](https://eigenstate.org/myrddin/)
 * [Scheme](https://en.wikipedia.org/wiki/Scheme_\(programming_language\))
 * [Standard ML](https://en.wikipedia.org/wiki/Standard_ML)

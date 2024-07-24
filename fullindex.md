@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2024-04-10, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2024-04-21, language: english, status: in progress, importance: 6, confidence: log*
 
 Content
 =======
@@ -157,7 +157,7 @@ one moment or forget it!
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
 * [Transfer Learning in Humans](./transfer.html)
 * [Increasing Subjective Lifespan](./increasing.html)
-* [Brain Stimulation for Meditation Enhancement](./stimulation.html)
+* [Brain Stimulation for Mood Enhancement](./stimulation.html)
 
 #### Collections
 
@@ -235,9 +235,9 @@ chronologically.
 
 * [Bit-Player Posts Chronological Index](./bp_chrono.html)
 * [Overcoming Bias Posts Chronological Index](./ob_chrono.html)
-* [The Red Quest Posts Chronological Index](./rq_chrono.html)
 * [Shtetl Optimized Posts Chronological Index](./so_chrono.html)
 * [The Real Movement Posts Chronological Index](./trm_chrono.html)
+* [The Red Quest Posts Chronological Index](./rq_chrono.html)
 
 Programming
 -----------

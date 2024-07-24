@@ -1,7 +1,7 @@
 [home](./index.html)
 ---------------------
 
-*author: niplav, created: 2022-06-18, modified: 2023-12-24, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2022-06-18, modified: 2024-07-24, language: english, status: draft, importance: 2, confidence: log*
 
 > Idea & format stolen shamelessly from [Gavin
 Leech](https://www.gleech.org/favs/all/).
@@ -321,10 +321,20 @@ algorithm](https://en.wikipedia.org/wiki/Bron%E2%80%93Kerbosch_algorithm),
 and
 [sleepsort](https://www.geeksforgeeks.org/sleep-sort-king-laziness-sorting-sleeping/).
 
-<!--
 Computers
 ----------
 
+My favorite unicode characters are
+
+* ⍼ and the other [ghost characters](https://en.wikipedia.org/wiki/Ghost_characters)
+* ꙮ
+* 🬥
+* ␅
+* 𒈙
+* 123456⁄123456 (fraction slash)
+*  ﷽ and ﷺ
+
+<!--
 ### Programming Languages
 
 ### Operating Systems

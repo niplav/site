@@ -328,7 +328,6 @@ Archives
 * [When you're not that into the girl after sex](https://theredquest.wordpress.com/2019/04/08/when-youre-not-that-into-the-girl-after-sex/index.html)
 * [“He Cheated in an Open Marriage”](https://theredquest.wordpress.com/2019/04/10/he-cheated-in-an-open-marriage/index.html)
 * [Emotions and Ms. Slav, Low-cut top girl and a weird foursome](https://theredquest.wordpress.com/2019/04/11/emotions-and-ms-slav-low-cut-top-girl-and-a-weird-foursome/index.html)
-* [	Why romantic rejection stings: evolved psychology](https://theredquest.wordpress.com/2019/04/14/why-romantic-rejection-stings-evolved-psychology/embed/index.html)
 * [Why romantic rejection stings: evolved psychology](https://theredquest.wordpress.com/2019/04/14/why-romantic-rejection-stings-evolved-psychology/index.html)
 * [Kids, the player, and the Red Pill: Comprehensive statement](https://theredquest.wordpress.com/2019/04/15/kids-the-player-and-the-red-pill-comprehensive-statement/index.html)
 * [What a woman who is determined to stay married looks like](https://theredquest.wordpress.com/2019/04/18/what-a-woman-who-is-determined-to-stay-married-looks-like/index.html)
@@ -471,7 +470,6 @@ Archives
 * [XBTUSD on his first non-monogamy experiences](https://theredquest.wordpress.com/2020/10/19/xbtusd-on-his-first-non-monogamy-experiences/index.html)
 * [U.S. politics is defined by the structure of the American constitution:](https://theredquest.wordpress.com/2020/11/08/u-s-politics-is-defined-by-the-structure-of-the-american-constitution/index.html)
 * [How much texting should you do to get the girl? Less than you think](https://theredquest.wordpress.com/2020/11/09/how-much-texting-should-you-do-to-get-the-girl-less-than-you-think/index.html)
-* [There's no money in it](https://theredquest.wordpress.com/2020/11/09/theres-no-money-in-it/index.html)
 * [There's no money in it](https://theredquest.wordpress.com/2020/11/12/theres-no-money-in-it/index.html)
 * [How much texting should you do to get the girl? Less than you think](https://theredquest.wordpress.com/2020/11/14/how-much-texting-should-you-do-to-get-the-girl-less-than-you-think/index.html)
 * [Not the only guy who's figured it out](https://theredquest.wordpress.com/2020/11/24/not-the-only-guy-whos-figured-it-out/index.html)
@@ -526,11 +524,9 @@ Archives
 * [The network approach and the shotgun approach: why and when girls flake in dating](https://theredquest.wordpress.com/2021/10/04/the-network-approach-and-the-shotgun-approach-why-and-when-girls-flake-in-dating/index.html)
 * [Why I don't accept most generalizations about men and women and you shouldn't either](https://theredquest.wordpress.com/2021/10/18/why-i-dont-accept-most-generalizations-about-men-and-women-and-you-shouldnt-either/index.html)
 * [Why are polyamory and non-monogamy popular now? The Internet.](https://theredquest.wordpress.com/2021/10/22/why-are-polyamory-and-non-monogamy-popular-now-the-internet/index.html)
-* [	“Just go talk to her:” how to think about meeting women](https://theredquest.wordpress.com/2021/11/01/just-go-talk-to-her-how-to-think-about-meeting-women/embed/index.html)
 * [“Just go talk to her:” how to think about meeting women](https://theredquest.wordpress.com/2021/11/01/just-go-talk-to-her-how-to-think-about-meeting-women/index.html)
 * [THE GOOD GIRL, a novel, is out today](https://theredquest.wordpress.com/2021/11/15/the-good-girl-a-novel-is-out-today/index.html)
 * [Why are women fascinated with therapy? ](https://theredquest.wordpress.com/2021/11/29/why-are-women-fascinated-with-therapy/index.html)
-* [Chasing a girl in Latin America [FR]](https://theredquest.wordpress.com/2021/12/13/chasing-a-girl-in-costa-rica-fr/index.html)
 * [Chasing a girl in Latin America [FR]](https://theredquest.wordpress.com/2021/12/13/chasing-a-girl-in-latin-america-fr/index.html)
 * [A woman goes to the husband store…](https://theredquest.wordpress.com/2021/12/16/a-woman-goes-to-the-husband-store/index.html)
 * [The top player (seducer) is an extreme insider or an extreme outsider, but not average](https://theredquest.wordpress.com/2021/12/20/the-top-player-seducer-is-an-extreme-insider-or-an-extreme-outsider-but-not-average/index.html)
@@ -587,4 +583,4 @@ Archives
 
 ### 2023
 
-* [https://theredquest.wordpress.All future updates will go to https://theredquest.substack.com](https://theredquest.wordpress.com/2023/01/21/all-future-updates-will-go-to-https-theredquest-substack-com/index.html)
+* [All future updates will go to https://theredquest.substack.com](https://theredquest.wordpress.com/2023/01/21/all-future-updates-will-go-to-https-theredquest-substack-com/index.html)

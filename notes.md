@@ -2128,3 +2128,5 @@ E.g. one can buy only black t-shirts and featuresless cheap black socks,
 and simple metal cutlery. I will, next time I'll buy a laptop or a
 smartphone, think about what the Schelling-laptop is. I suspect it's
 not a ThinkPad.
+
+"Then let them all have the same kind of cake."

@@ -159,6 +159,17 @@ The notation proposed here would change the text:
 * Given hedonism and conditional on sentience, we think that all the invertebrates of interest have welfare ranges within two orders of magnitude of the vertebrate nonhuman animals of interest<sub>60%</sub>. Invertebrates are so diverse a
 nd we know so little about them; hence, our caution.
 
+### "Share Likelihood Ratios, not Beliefs"
+
+For sharing a likelihood ratio, we need to talk about both the hypothesis
+`$H$` *and* the evidence `$E$`. If I then want to say that `$E$` updates
+`$H$` by `$k$` [shannon](https://en.wikipedia.org/wiki/Shannon_\(unit\)),
+how could I write that?
+
+1. No need to invent special notation, saying "`$E$` provides `$k$` bits for/against `$H$`" is enough.
+2. `$E⇅_{k}H$`, specifically `$E↑_{k}H$` if `$E$` is evidence for `$H$`, and `$E↓_{k}H$` if `$E$` is evidence *against* `$H$`.
+	1. The variants `$E⇈_{k}H$` and `$E⇊_{k}H$` in cases where `$E$` is *strong* evidence.
+
 ### Discussions
 
 * [LessWrong](https://www.lesswrong.com/posts/Tmz6ucxDFsdod2QLd/subscripts-for-probabilities)
