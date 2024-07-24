@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2024-07-17, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2024-07-22, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -32,6 +32,7 @@ July 2024
 
 * [A TAI Race With China Can Be Better Than Not Racing](./china.html)
 * [Using A Multi-Armed Bandit to Select Daygame Locations](./bandit.html)
+* [The Red Quest Posts Chronological Index](./rq_chrono.html)
 * Note: [The Variety-Uninterested Can Buy Schelling-Products](./notes.html#The_VarietyUninterested_Can_Buy_SchellingProducts)
 * Book Review: [Growth (Vaclav Smil, 2019)](./text_reviews.html#Growth_Vaclav_Smil_2019)
 

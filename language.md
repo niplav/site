@@ -285,6 +285,7 @@ Types of Guy
 * rationalist who is okay-ish at forecasting
 * rationalist who hasn't touched his 100-card anki deck in half a year
 * rationalist who is cryocrastinating
+* rationalist who is comfort-seeking ⋄ rationalist who is challenge-seeking
 
 In the Water Supply
 --------------------
@@ -348,6 +349,11 @@ Puns
 Quines and Not-Quines
 ----------------------
 
+* “is socially constructed” is socially constructed
+* “will do as it pleases” will do as it pleases
+
+---
+
 	                                         Noting "noting itself" itself  
 	                                 Noting "noting “noting itself” itself" itself  
 	                         Noting "noting “noting ‘noting itself’ itself” itself" itself  
@@ -355,8 +361,13 @@ Quines and Not-Quines
 	         Noting "noting “noting ‘noting »noting ›noting itself‹ itself« itself’ itself” itself" itself  
 	 Noting "noting “noting ‘noting »noting ›noting 'noting itself' itself‹ itself« itself’ itself” itself" itself
 
-* “is socially constructed” is socially constructed
-* “will do as it pleases” will do as it pleases
+---
+
+	Placebo works
+	Placebo works even if you know it's placebo
+	Placebo works even if you know that placebo works even if you know it's placebo
+	Placebo works even if you know that placebo works even if you know that placebo work even if you know it's placebo
+	[…]
 
 Umeshisms
 ----------

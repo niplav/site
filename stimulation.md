@@ -1,12 +1,14 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-07, modified: 2023-04-07, language: english, status: notes, importance: 5, confidence: likely*
+*author: niplav, created: 2023-04-07, modified: 2023-04-23, language: english, status: notes, importance: 5, confidence: likely*
 
-> __A bibliography of various methods for meditation enhancements through brain stimulation and feedback, focusing on intracranial ultrasound stimulation.__
+> __A bibliography of various methods for meditation enhancements through
+brain stimulation and feedback, focusing on magnetic and ultrasound
+stimulation.__
 
-Brain Stimulation for Meditation Enhancement
-=============================================
+Brain Stimulation for Mood Enhancement
+=======================================
 
 See [Constantin
 2023a](https://sarahconstantin.substack.com/p/why-should-neuroenhancement-be-possible
@@ -16,9 +18,9 @@ for a general overview for neuroenhancement, [Constantin
 and [Constantin
 2023c](https://sarahconstantin.substack.com/p/transcranial-ultrasound-studies-part)
 for an overview of studies on ultrasound stimulation, and [Constantin
-2023d](https://sarahconstantin.substack.com/p/whos-working-on-ultrasound-neuromodulation
-"Who's Working on Ultrasound Neuromodulation?")  for more information
-on companies working on ultrasound for neuromodulation in particular.
+2023d](https://sarahconstantin.substack.com/p/whos-working-on-ultrasound-neuromodulation "Who's Working on Ultrasound Neuromodulation?")
+for more information on companies working on ultrasound for
+neuromodulation in particular.
 
 <!--TODO
 * https://www.theguardian.com/lifeandstyle/video/2021/jun/29/hacking-enlightenment-can-ultrasound-help-you-transcend-reality
@@ -92,3 +94,14 @@ of general anxiety are often considered to be markers of non-response
 to antidepressants, therapy, rTMS and ECT.
 
 *—Zielinski et al., [A Case Study of Low-Intensity Focused Ultrasound For Treatment-Resistant Generalized Anxiety Disorder and Major Depressive Disorder](./doc/stimulation/a_case_study_of_low_intensity_focused_ultrasound_for_treatment_resistant_anxiety_zielinski_et_al_2021.pdf), 2021*
+
+> In three previous experiments, we reported that TUS targeting the
+right inferior frontal gyrus (rIFG) enhanced mood in healthy volunteers. […]
+Resting state fMRI was recorded at baseline (N=9). Focused TUS (500 kHz,
+I<sub>spta</sub>=272 mW/cm²) was delivered to the rIFG for 2 minutes and resting
+state fMRI was recorded again 25 minutes later. […]  
+Previous self-report mood effects were replicated: Participants reported
+an enhancement of overall mood 25 minutes after TUS, p=0.022 (Bonferroni
+corrected).
+
+*—Jay Sanguinetti/John J. B. Allen, [“Transcranial Ultrasound Improves Mood and Affects Resting State Functional Connectivity in Healthy Volunteers”](./doc/stimulation/transcranial_ultrasound_improves_mood_and_affects_sanguinetti_et_al_2017.pdf), 2017*
