@@ -462,20 +462,21 @@ but rather cycles).
 
 ### Friends of the Site
 
-* [Ethan](https://210ethan.github.io): Pure Everests, with careful diligence
-* [Tetraspace West](https://thetetra.space): Land value tax : repetitive Georgists :: Conditional prediction markets : That place for Quaternions
-* [Skaði þjazidottir](https://ulthar.xyz): Gather some stoic people with guns, who have written low-level code
-* [Nyx](https://nyxus.xyz/): Brightly empathetically menacing (we all know she's just joking)
+* [Aaron Mazel-Gee](https://etale.site/); another .site URL owner
 * [Andrew McKenzie](http://andrewtmckenzie.com/), who writes essays on brain preservation [here](https://brainpreservation.github.io/) and notes on neurobiology [here](https://neurobiology.substack.com/)
-* [Mesaoptimizer](https://mesaoptimizer.com/)
-* [Matthew Baggins](https://matthewbaggins.github.io/)
-* [norvid_studies](https://norvidshoshin.wordpress.com/blog/), [𝕏](http://nitter.poast.org/norvid_studies)
+* [Ethan](https://210ethan.github.io): Pure Everests, with careful diligence
 * [exdiegesis](https://x.com/exdiegesis/)/[mir](https://www.lesswrong.com/users/mir)/[rime](https://forum.effectivealtruism.org/users/elua)
+* [Matthew Baggins](https://matthewbaggins.github.io/)
+* [Mesaoptimizer](https://mesaoptimizer.com/)
+* [norvid_studies](https://norvidshoshin.wordpress.com/blog/), [𝕏](http://nitter.poast.org/norvid_studies)
+* [Nyx](https://nyxus.xyz/): Brightly empathetically menacing (we all know she's just joking)
+* [Skaði þjazidottir](https://ulthar.xyz): Gather some stoic people with guns, who have written low-level code
+* [Tetraspace West](https://thetetra.space): Land value tax : repetitive Georgists :: Conditional prediction markets : That place for Quaternions
 
 If you're not on here but think you should be (or, conversely, you're
 on here but don't want to be), [contact me](#Contact).
 
-<!--TODO: add 1a3orn, etale.site, Alex K. Chen, Burny, Nuño?-->
+<!--TODO: add 1a3orn, Alex K. Chen, Burny, Nuño?-->
 <!--[Sam Harsimony](https://splittinginfinity.substack.com/), [Wordpress](https://harsimony.wordpress.com/): Polymath.-->
 
 The Author

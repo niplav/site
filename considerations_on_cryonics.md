@@ -1834,9 +1834,13 @@ From todo.md:
 A perhaps similar article by Anders Sandberg?
 -->
 
-Discussions
------------
+See Also
+---------
 
-* [/r/cryonics](https://old.reddit.com/r/cryonics/comments/fualgi/considerations_on_cryonics_apr_2020/)
-* [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/comments/hde7h5/considerations_on_cryonics_a/)
-* [LessWrong](https://www.lesswrong.com/posts/xwJa3ieBBQYFtCmHt/considerations-on-cryonics)
+* Discussions <!--TODO: add twitter discussions-->
+	* [/r/cryonics](https://old.reddit.com/r/cryonics/comments/fualgi/considerations_on_cryonics_apr_2020/)
+	* [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/comments/hde7h5/considerations_on_cryonics_a/)
+	* [LessWrong](https://www.lesswrong.com/posts/xwJa3ieBBQYFtCmHt/considerations-on-cryonics)
+* [Cryonics Calculator](https://www.cryonicscalculator.com/)
+	* [Quick Look](https://sheet.zohopublic.com/sheet/published/du1z216d6ab4415d44e639822d094d9439ff4) for calculating probabilities of reänimation
+	* [Advanced Revival Probability Calculator](https://sheet.zohopublic.com/sheet/published/ezc15aefd640c35304374b5fc72f202e9a39a)

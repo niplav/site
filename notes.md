@@ -2039,6 +2039,8 @@ Moved [here](./china.md).
 t-SNE and UMAP Don't Produce Clusters on Random Data
 ------------------------------------------------------
 
+<!--https://stats.stackexchange.com/questions/263539/clustering-on-the-output-of-t-sne/264647-->
+
 Every once in a while, my corner of 𝕏
 erupts in discussion about [dimensionality reduction
 techniques](https://en.wikipedia.org/wiki/Dimensionality_reduction_algorithm),

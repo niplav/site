@@ -1528,9 +1528,6 @@ produces
 	functions in general produce contractions
 
 * `fzf`<!--TODO: link--> as a server, so that it doesn't have to reload a specific file over and over.
-	* Also package that integrates it with `vis`
-	* Specific vis package for Wikipedia titles
-		* With sections?
 
 Wikipedia Articles
 -------------------
