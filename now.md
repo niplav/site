@@ -55,7 +55,6 @@ Currently, I am actively reading the following texts:
 * Designing Data-Intensive Applications (Martin Kleppmann, 2017)
 * Daygame Nitro (Nick Krauser, 2014)
 * Coming to Wholeness (Connirae Andreas, 2018)
-* Growth (Vaclav Smil, 2019)
 * Bombay. Maximum City (Suketu Mehta, 2005)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * Grand Futures (Anders Sandberg, 2023)

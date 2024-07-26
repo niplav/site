@@ -161,10 +161,12 @@ nd we know so little about them; hence, our caution.
 
 ### "Share Likelihood Ratios, not Beliefs"
 
-For sharing a likelihood ratio, we need to talk about both the hypothesis
-`$H$` *and* the evidence `$E$`. If I then want to say that `$E$` updates
-`$H$` by `$k$` [shannon](https://en.wikipedia.org/wiki/Shannon_\(unit\)),
-how could I write that?
+For sharing a [likelihood
+ratio](https://en.wikipedia.org/wiki/Likelihood_ratio), we
+need to talk about both the hypothesis `$H$` *and* the evidence
+`$E$`. If I then want to say that `$E$` updates `$H$` by `$k$`
+[shannon](https://en.wikipedia.org/wiki/Shannon_\(unit\)), how could I
+write that?
 
 1. No need to invent special notation, saying "`$E$` provides `$k$` bits for/against `$H$`" is enough.
 2. `$E⇅_{k}H$`, specifically `$E↑_{k}H$` if `$E$` is evidence for `$H$`, and `$E↓_{k}H$` if `$E$` is evidence *against* `$H$`.

@@ -297,7 +297,7 @@ Your funding of the sciences is greatly appreciated.
 See Also
 ---------
 
-* [Replication Markets](https://replicationmarkets.com/)
+* [Replication Markets](https://replicationmarkets.com/), [Prediction markets for Science](http://www.citationfuture.com/index.html), and [Social Science Prediction Platform](https://socialscienceprediction.org/)
 * [What I learned gathering thousands of nootropic ratings (troof, 2022)](https://troof.blog/posts/nootropics/)<!--TODO: read-->
 * [[Part 1] Amplifying generalist research via forecasting – Models of impact and challenges (jacobjacob/ozziegooen/Elizabeth/NunoSempere/bgold, 2019)](https://www.lesswrong.com/posts/cLtdcxu9E4noRSons/part-1-amplifying-generalist-research-via-forecasting-models)
 * [[Part 2] Amplifying generalist research via forecasting – results from a preliminary exploration (jacobjacob/ozziegooen/Elizabeth/NunoSempere/bgold, 2019)](https://www.lesswrong.com/posts/FeE9nR7RPZrLtsYzD)

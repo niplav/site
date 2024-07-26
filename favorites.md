@@ -55,7 +55,6 @@ The most practical/action-guiding posts I've read so far are (these
 might not be practical/applicable to anyone else, and often were just
 final pushes for me to do something in a particular direction):
 
-* [Spaced Repetition (Gwern Branwen, 2019)](https://www.gwern.net/Spaced-repetition)
 * Melatonin:
 	* [Melatonin: Much More Than You Wanted To Know (Scott Alexander, 2018)](https://slatestarcodex.com/2018/07/10/melatonin-much-more-than-you-wanted-to-know/)
 	* [Melatonin (Gwern Branwen, 2019)](https://www.gwern.net/Melatonin)
@@ -76,6 +75,8 @@ final pushes for me to do something in a particular direction):
 * Air quality
 	* [Better air quality is the easiest way not to die (dynomight, 2021)](https://dynomight.net/air/)
 	* [The Cuboid: A DIY air purifier that's better than a box-fan (dynomight, 2021)](https://dynomight.net/better-DIY-air-purifier.html)
+* [Why indoor lighting is hard to get right and how to fix it (Richard Korzekwa, 2020)](https://www.lesswrong.com/posts/7izSBpNJSEXSAbaFh/why-indoor-lighting-is-hard-to-get-right-and-how-to-fix-it)
+* [Spaced Repetition (Gwern Branwen, 2019)](https://www.gwern.net/Spaced-repetition)
 * Effective Altruism
 	* [Nobody is Perfect, Everything is Commensurable (Scott Alexander, 2014)](https://slatestarcodex.com/2014/12/19/nobody-is-perfect-everything-is-commensurable/)
 	* [Church vs. Taskforce (Eliezer Yudkowsky, 2009)](https://www.lesswrong.com/s/pvim9PZJ6qHRTMqD3/p/p5DmraxDmhvMoZx8J)
@@ -119,7 +120,7 @@ Bach](https://en.wikipedia.org/wiki/Johann_Sebastian_Bach),
 Reich](https://en.wikipedia.org/wiki/Steve_Reich), [Charles
 Mingus](https://en.wikipedia.org/wiki/Charles_Mingus), [Sonny
 Clark](https://en.wikipedia.org/wiki/Sonny_Clark), and [Vincent
-E. L.](https://vincentel.bandcamp.com/).
+E. L](https://vincentel.bandcamp.com/).
 
 ### Music
 

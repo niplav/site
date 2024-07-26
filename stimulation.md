@@ -93,7 +93,7 @@ for comorbid conditions in these patients. Indeed, extremely high levels
 of general anxiety are often considered to be markers of non-response
 to antidepressants, therapy, rTMS and ECT.
 
-*—Zielinski et al., [A Case Study of Low-Intensity Focused Ultrasound For Treatment-Resistant Generalized Anxiety Disorder and Major Depressive Disorder](./doc/stimulation/a_case_study_of_low_intensity_focused_ultrasound_for_treatment_resistant_anxiety_zielinski_et_al_2021.pdf), 2021*
+*—Zielinski et al., [“A Case Study of Low-Intensity Focused Ultrasound For Treatment-Resistant Generalized Anxiety Disorder and Major Depressive Disorder”](./doc/stimulation/a_case_study_of_low_intensity_focused_ultrasound_for_treatment_resistant_anxiety_zielinski_et_al_2021.pdf), 2021*
 
 > In three previous experiments, we reported that TUS targeting the
 right inferior frontal gyrus (rIFG) enhanced mood in healthy volunteers. […]
