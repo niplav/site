@@ -238,11 +238,13 @@ or not, idk". (Although apparently other reviewers have the opposite
 issue, so perhaps a good compromise was struck in the realm of public
 communication).
 
-I am unsure about the value lock-in frame. On the one hand, it's a very
-rough description of some of the danger with AI x-risk, but not all danger
-fits in that format: What if AI systems don't lock in any specific value,
-but kill off humanity and then go on to explore the space of all possible
-values? Not lockin, but it surely doesn't look "good" to me.
+I am unsure about the value lock-in frame. On the one hand,
+it's a very rough description of some of the danger with AI
+x-risk, but not all danger fits in that format: What if AI
+systems don't lock in any specific value, but kill off humanity
+and then go on to explore the space of all possible values, all [YOLOid
+style](https://www.lesswrong.com/posts/BuaFZud9BwkiSCGpd/alignment-might-never-be-solved-by-humans-or-ai)?
+Not lockin, but it surely doesn't look "good" to me.
 
 This framing also invites endless bickering about "who gets to control
 the AIs values" and "democracy" and "social solutions", and the
@@ -289,9 +291,9 @@ facial [thermography](https://en.wikipedia.org/wiki/Thermography)
 to measure cognitive effort, [blood
 velocity](https://en.wikipedia.org/wiki/Hemodynamics#Velocity)…),
 claims that the Pomodoro technique hasn't been experimentally tested
-(big if true!). Apparently people often *self-interrupt* while on a task,
-which I've noticed myself doing more & more. The Big 5 relate to how
-humans perform tasks:
+([now it has](./platforms.html#Pomodoros)). Apparently people often
+*self-interrupt* while on a task, which I've noticed myself doing more &
+more. The Big 5 relate to how humans perform tasks:
 
 > Those who score high in Neuroticism in personality tests also tend
 to perform worse on selective attention tasks where they have to pay
@@ -338,7 +340,7 @@ Thoroughly enjoyed the many tidbits from AI history, and the stories
 about semi-successful systems, as well as a preference-utilitarian
 definition of "sadism, envy, resentment and malice", a naive approach
 to meta-reasoning ("just reason about a thing if the expected value of
-reasoning is positive", without talking about the obvious boots-trapping
+reasoning is positive", without talking about the obvious bootstrapping
 problems…but still), learning about the Baldwin effect and the quotes
 about risks from artificial intelligence from Butler's Erewhon.
 
@@ -470,8 +472,8 @@ Uses sigmoid curve-fitting far too much: They can't be relied upon
 for prediction, [especially if the inflection point is not in the data
 yet](https://arxiv.org/pdf/2109.08065). A lot of Smil's curve-fits have a
 smooth start and an abrupt bump into a ceiling; the bump into the ceiling
-usually lies in the not-so-far-future. Growth was the first time I've seen
-someone fit a logistic curve to national GDP—not GDP growth rates, mind
+usually lies in the not-so-far-future. Growth was the first time I've
+seen someone fit a logistic curve to GDP—not GDP *growth rates*, mind
 you, no, gross domestic product *itself*. p. 412, I'm not making this up.
 
 Smil also uses the words "upper bound" differently from my culture—in
@@ -484,10 +486,12 @@ record](http://www.overcomingbias.com/2006/12/the_80_forecast.html)
 out of his predictions, having been an academic since 1972 he has had
 a lot of time to accumulate predictions.
 
-I might seem overly critical, Growth was profoundly informative and
-wide-ranging — a proper mind at work here. Might read another one
-of his books; “How the World Really Works” truly is a title every
-polymath can write in their life.
+I might seem overly critical; truth be told that Growth was profoundly
+informative and wide-ranging — a proper mind at work here. Might read
+another one of his books; “How the World Really Works” truly is a
+title every polymath can write in their life.
+
+And finally: No endnotes. +½ points.
 
 __8/10__
 

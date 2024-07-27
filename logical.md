@@ -8,8 +8,6 @@
 Logical Correlation
 ====================
 
-<!--TODO: wentworth post about eding programs as causal diagrams-->
-
 In the [twin prisoners
 dilemma](https://www.lesswrong.com/tag/psychological-twin-prisoner-s-dilemma),
 I cooperate with my twin because we're implementing the same algorithm. If
@@ -111,6 +109,11 @@ Does this fulfill our desiderata from earlier? I'll assume that the
 string distance `$d$` is a metric, in the mathematical sense.
 
 1. `$合(p, p)=0$`. (The minimal logical correlation is 0.)
+
+See Also
+---------
+
+* [Writing Causal Models Like We Write Programs (johnswentworth, 2020)](https://www.lesswrong.com/posts/Xd9FLs4geRAWxkQPE/writing-causal-models-like-we-write-programs)
 
 <!--TODO: check with brainfuck-->
 <!--TODO: prove or disprove that this is a metric (or maybe a

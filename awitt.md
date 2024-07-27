@@ -57,7 +57,7 @@ tracker. On the other hand, awitt is implemented in C, which makes it
 possible to compile and run it on every platform that also provides X11.
 
 awitt also provides little features beyond printing window information
-if the focussed window changes, while arbtt seems to integrate a lot of
+if the focused window changes, while arbtt seems to integrate a lot of
 functionality into a core program. While both approaches have their advantages
 and disadvantages, awitt is closer to the unix philosophy of "do one thing,
 and do it well".
@@ -76,7 +76,7 @@ Bugs
 
 ### Definitely Bugs
 
-* `awitt` crashes when the currently focussed window is closed before obtaining the title (a race condition).
+* `awitt` crashes when the currently focused window is closed before obtaining the title (a race condition).
 
 ### Possibly Bugs
 

@@ -157,7 +157,7 @@ one moment or forget it!
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
 * [Transfer Learning in Humans](./transfer.html)
 * [Increasing Subjective Lifespan](./increasing.html)
-* [Brain Stimulation for Mood Enhancement](./stimulation.html)
+* [Brain Stimulation for Valence](./stimulation.html)
 
 #### Collections
 

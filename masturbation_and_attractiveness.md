@@ -77,12 +77,13 @@ self-experiment.
 Data was collected as follows:
 
 I abstained from masturbating and watching pornography from
-2023-07-18T22:44:58 to \_, resulting in >90 days of abstinence
+2023-07-26T23:18:00 to \_, resulting in >90 days of abstinence
 from masturbation (which is also the period [recommended by the
 NoFap community](https://nofap.com/rebooting/): "NoFap’s gold
-standard of success is our 90-day reboot."). I had a [nocturnal
+standard of success is our 90-day reboot.").<!--I didn't have a [nocturnal
 emmission](https://en.wikipedia.org/wiki/Nocturnal_Emission) on
-~2024-07-21T06:30:00.
+~2024-08-01T06:30:00.
+-->
 
 From \_ to \_, I went on the streets of a major european city
 and approached 100 people I read as women, usually via a [Yad
@@ -659,7 +660,7 @@ were hot\wanting to bang them.
 
 *— [enrodude](https://old.reddit.com/user/enrodude), [comment](https://old.reddit.com/r/NoFap/comments/3mt0nu/fapping_ruins_your_attractiveness/cvhzmd1/) on [“Fapping ruins your attractiveness.”](https://old.reddit.com/r/NoFap/comments/3mt0nu/fapping_ruins_your_attractiveness/) on [/r/NoFap](https://old.reddit.com/r/NoFap/) (6 upvotes), 2015*
 
-Other users try to condone him.
+Other users try to console him.
 
 Since the claims are quite repetitve, I will now just list them and write
 down important key words from the claim (especially the time it takes for
