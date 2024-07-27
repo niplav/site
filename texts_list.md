@@ -17,6 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Red teams (Paul Christiano, 2016)](https://ai-alignment.com/red-teams-b5b6de33dc76)
+* [Propaganda or Science: Open Source AI and Bioterrorism Risk (1a3orn, 2023)](https://1a3orn.com/sub/essays-propaganda-or-science.html)
+* |2 The origin of pleasant sensations: Insight from direct electrical brain stimulation (Cécile Villard/Zoé Dary/Jacques Léonard/Samuel Medina Villalon/Romain Carron/Julia Makhalova/Stanislas Lagarde/Christophe Lopez/Fabrice Bartolomei,
+2023)
+* Alignment Might Never Be Solved, By Humans or AI (interstice, 2022)
+* |5 Representation Engineering: A Top-Down Approach to AI Transparency (Andy Zou/Long Phan/Sarah Chen/James Campbell/Phillip Guo/Richard Ren/Alexander Pan/Xuwang Yin/Mantas Mazeika/Ann-Kathrin Dombrowski/Shashwat Goel/Nathaniel Li/Michael J. Byun/Zifan Wang/Alex Mallen/Steven Basart/Sanmi Koyejo/Dawn Song/Matt Fredrikson/Zico Kolter/Dan Hendrycks, 2023)
+* [|4 Activation Addition: Steering Language Models Without Optimization (Alexander Matt Turner/Lisa Thiergart/Gavin Leech/David Udell/Juan J. Vazquez/Ulisse Mini/Monte MacDiarmid, 2024)](https://arxiv.org/pdf/2308.10248)
+* [|2 Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet (Adly Templeton/Tom Conerly/Jonathan Marcus/Jack Lindsey/Trenton Bricken/Brian Chen/Adam Pearce/Craig Citro/Emmanuel Ameisen/Andy Jones/Hoagy Cunningham/Nicholas L. Turner/Callum McDougall/Monte MacDiarmid/Daniel C. Freeman/Theodore R. Sumers/Edward Rees/Joshua Batson/Adam Jermyn/Shan Carter/Chris Olah/Tom Henighan, 2024)](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html)
 * [Claude 3.5 Sonnet (Anthropic, 2024)](https://www.anthropic.com/news/claude-3-5-sonnet)
 * [AI #74: GPT-4o Mini Me and Llama 3 (Zvi, 2024)](https://www.lesswrong.com/posts/i4WPkJKKdcTwGJw2H/ai-74-gpt-4o-mini-me-and-llama-3)
 * [Mapping the Mind of a Large Language Model (Anthropic, 2024)](https://www.anthropic.com/news/mapping-mind-language-model)

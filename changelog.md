@@ -40,8 +40,8 @@ Moved the note on logical correlation to its [own
 page](./logical.html). Merged the [toy AI takeoff model and my thoughts
 on AI takeoff](./foom.html).
 
-Lot's of work on [pages](./resolving.html)
-[that](daygame_cost_benefit.html)
+Lot's of [work](./stimulation.html) [on](./cause.html)
+[pages](./resolving.html) [that](daygame_cost_benefit.html)
 [nevertheless](masturbation_and_attractiveness.html)
 [remain](diamond.html) [unfinished](cryonics_outside_us.html).
 
@@ -49,6 +49,7 @@ Lot's of work on [pages](./resolving.html)
 
 * [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) [reproduces](https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/shortplav?commentId=XkeYBmsFKFR6PK8zK) the [BIG-BENCH canary string](https://github.com/google/BIG-bench/blob/main/docs/doc.md#creating-a-task-from-scratch) when asked to. This indicates that [Anthropic](https://en.wikipedia.org/wiki/Anthropic) probably trained on data containing the benchmark, either deliberately or as an oversight. RIP to those who were hoping that including the string in text would prevent the text from ending up as training data for [LLMs](https://en.wikipedia.org/wiki/Large_Language_Model).
 	* GPT-4o fails at reproducing the string, despite trying, but GPT-4-base [is able to](https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/shortplav?commentId=XwtTHyNWEqEgvDrJb). Gemini [succeeds](https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/shortplav?commentId=eviy3TbsevuYCwFJr), as [do](https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/shortplav?commentId=Z9CsipemGb4u9idtL) Claude Opus, [DSCV2, Mistral-Large](https://nitter.poast.org/teortaxesTex/status/1811799891905028596), [LLaMA 3.1-405b and GPT-4o-mini](https://www.lesswrong.com/posts/Ec9rfB2fpgaocApKz/robertm-s-shortform?commentId=5xvYuHam96PAsgKCa) and (I verified this for Opus).
+* [The origin of pleasant sensations: Insight from direct electrical brain stimulation (Cécile Villard/Zoé Dary/Jacques Léonard/Samuel Medina Villalon/Romain Carron/Julia Makhalova/Stanislas Lagarde/Christophe Lopez/Fabrice Bartolomei, 2023)](./doc/stimulation/the_origin_of_pleasant_sensations_villard_et_al_2023.pdf)
 * [In a Grain, a Glimpse of the Cosmos (Natalie Wolchover, 2014)](https://www.quantamagazine.org/quasicrystal-meteorite-poses-age-old-questions-20140613/): The story of finding the first mineral with a [quasicrystal](https://en.wikipedia.org/wiki/Quasicrystal) in the wild, namely [icosahedrite](https://en.wikipedia.org/wiki/Icosahedrite), in a [carbonaceous chondrite](https://en.wikipedia.org/wiki/Carbonaceous_Chondrite) meteorite older than Earth. Quasicrystals are also present in the nuclear-weapons-test-created anthropogenic mineral [trinitite](https://en.wikipedia.org/wiki/Trinitite).
 * [Tigramite](https://jakobrunge.github.io/tigramite/index.html): A library for causal inference in time series data.
 * [Caffeine Cycling Self-Experiment (Michael Dickens, 2024)](https://mdickens.me/2024/04/11/caffeine_self_experiment/): Finds that caffeine doesn't really build tolerance for him, over the course of four weeks—and indeed finds that caffeine gets *more* effective over time, not less. This is replicated in [another experiment](https://mdickens.me/2024/06/24/continuing_caffeine_self_experiment/), also by Dickens. I like these experiments and think they are true; I'm tempted to try to replicate them, but this time with blinding, since Dickens didn't blind his experiments.

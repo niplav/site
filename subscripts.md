@@ -159,8 +159,16 @@ The notation proposed here would change the text:
 * Given hedonism and conditional on sentience, we think that all the invertebrates of interest have welfare ranges within two orders of magnitude of the vertebrate nonhuman animals of interest<sub>60%</sub>. Invertebrates are so diverse a
 nd we know so little about them; hence, our caution.
 
-### "Share Likelihood Ratios, not Beliefs"
+### Sharing Likelihood Ratios, not Probabilities
 
+> "Likelihood ratios are good! Likelihood ratios are the only good thing!"  
+"I agree that likelihood ratios are good! In fact, I think we have a
+moral responsibility to look for clever strategies to make the likelihood
+ratios bigger! But at the same time, you know, priors."  
+"Priors?! How dare you?! Priors are bad!"
+
+*—Mark Taylor Saotome-Westlake, [“Interlude X”](https://unremediatedgender.space/2017/Nov/interlude-x/index.html), 2017*
+        
 For sharing a [likelihood
 ratio](https://en.wikipedia.org/wiki/Likelihood_ratio), we
 need to talk about both the hypothesis `$H$` *and* the evidence
@@ -169,8 +177,8 @@ need to talk about both the hypothesis `$H$` *and* the evidence
 write that?
 
 1. No need to invent special notation, saying "`$E$` provides `$k$` bits for/against `$H$`" is enough.
-2. `$E⇅_{k}H$`, specifically `$E↑_{k}H$` if `$E$` is evidence for `$H$`, and `$E↓_{k}H$` if `$E$` is evidence *against* `$H$`.
-	1. The variants `$E⇈_{k}H$` and `$E⇊_{k}H$` in cases where `$E$` is *strong* evidence.
+2. `$E⥌_{k}H$`, specifically `$E⥜_{k}H$` if `$E$` is evidence for `$H$`, and `$E⥝_{k}H$` if `$E$` is evidence *against* `$H$`.
+	1. The variants `$E⥣_{k}H$` and `$E⥥_{k}H$` in cases where `$E$` is *strong* evidence.
 
 ### Discussions
 

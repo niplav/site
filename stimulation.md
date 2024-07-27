@@ -1,14 +1,15 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-07, modified: 2023-04-23, language: english, status: notes, importance: 5, confidence: likely*
+*author: niplav, created: 2023-04-07, modified: 2024-07-27, language: english, status: notes, importance: 5, confidence: likely*
 
-> __A bibliography of various methods for meditation enhancements through
-brain stimulation and feedback, focusing on magnetic and ultrasound
-stimulation.__
+> __A collection of quotes and sources of various
+methods for generating valence through brain stimulation and
+[biofeedback](https://en.wikipedia.org/wiki/Biofeedback), focusing on
+various forms of invasive stimulation.__
 
-Brain Stimulation for Mood Enhancement
-=======================================
+Brain Stimulation for Valence
+==============================
 
 See [Constantin
 2023a](https://sarahconstantin.substack.com/p/why-should-neuroenhancement-be-possible
@@ -105,3 +106,100 @@ an enhancement of overall mood 25 minutes after TUS, p=0.022 (Bonferroni
 corrected).
 
 *—Jay Sanguinetti/John J. B. Allen, [“Transcranial Ultrasound Improves Mood and Affects Resting State Functional Connectivity in Healthy Volunteers”](./doc/stimulation/transcranial_ultrasound_improves_mood_and_affects_sanguinetti_et_al_2017.pdf), 2017*
+
+> We found a male predominance among the patients reporting pleasant
+sensations and a prominent role of the right cerebral hemisphere. Results
+show a preponderant role of the dorsal anterior insula and amygdala in
+the occurrence of pleasant sensations.
+>
+> […]
+>
+> A pleasant sensation was reported during only 13 of these stimulations
+(i.e., .60% of all responses) in nine patients (i.e., 2.74% of the
+sample), making it a very rare experiential phenomenon evoked by EBS. By
+contrast, 111 emotional responses of negative valence (i.e., 5.13% of
+all responses) were observed in the same cohort of the patients in 50
+patients (i.e., 15.2% of the sample).
+>
+> […]
+>
+> Among the nine patients (P1 to P9) who reported pleasant sensations,
+three (P4, P6 and P8) showed responses to several EBS […]. Regarding the
+experienced phenomena, a pleasant sensation was reported by six patients,
+well-being by six patients, positive emotion or joy was reported by
+two patients and bliss by one patient. These positive sensations were
+accompanied by sensations of floating (three patients), warmth (one
+patient) or shivering (one patient). Of note, patient P5 presented a
+change in emotional valence of his semiology during the same stimulation,
+starting with a pleasant floating sensation and well-being followed by
+an unpleasant sensation of anxiety.
+>
+> […]
+>
+> ![](./img/stimulation/electrical.png)
+>
+> ![](./img/stimulation/stimulate_here.png)
+>
+> […]
+>
+> Electrode contacts where a pleasant sensation could be evoked were
+mostly located in the anterior insula (AI, a total of six stimulation,
+right AI: n=3, left AI: n=3) and in the amygdala (five stimulation; right
+amygdala: n=4, left amygdala: n=1) […]. Overall, most EBS that evoked
+pleasant sensations were applied to the right cerebral hemisphere (n=9)
+whereas only four were applied to the left hemisphere. In two patients,
+(P( and P8), the same sensation could be elicited from two different brain
+structures, i.e., a feeling of well-being by EBS in the right temporal
+pole and the amygdala (P4) and a positive emotion and well-being by EBS
+in the AI and the amygdala (P8).
+
+*—Villard et al., [“The origin of pleasant sensations: Insight from direct electrical brain stimulation”](./doc/stimulation/the_origin_of_pleasant_sensations_villard_et_al_2023.pdf), 2023*
+
+> Inducing signals directly into the brain reward systems
+is sometimes called “wireheading” (after the original deep
+brain stimulation experiments in rats by James Olds and Peter Milner
+[2201]). Brain stimulation reward (BSR) is strongly reinforcing, producing
+a very strong drive and does not habituate [3083, 3084]. While it is
+not simply producing pleasure (there is at least a distinction between
+appetitive “wanting”, hedonic “liking”, and the behaviour-changing
+learning, in principle they might be dissociable [1685])" "We usually
+call compulsions addictions when they become life-impairing, but most of
+us are already subject to strong motivational feedbacks involving money,
+food, sex and books that may shape our lives in important ways but are
+often not recognized as compulsions
+
+*—Anders Sandberg, “Grand Futures” p. 210, 2023*
+
+> Feelings of well-being are not just determined by outside
+factors. Happiness has a strong genetic component, ranging from 30-80% of
+the variation depending on study […]. Stable, dispositional subjective
+well-being seems to be strongly heritable, near 80% [2147]: the hedonic
+setpoint is strongly affected by genetic factors.
+
+*—Anders Sandberg, “Grand Futures” p. 213, 2023*
+
+> There are also rare cases of brain lesions apparently affecting
+hedonic setpoint. A frontal lobe stroke made a man apparently
+“unable to feel sadness” and appear to have gained a highly
+positive outlook on life[…].
+
+*—Anders Sandberg, “Grand Futures” p. 217, 2023*
+
+> The known “liking” hotspots involve the nucleus accumbens
+shell[…], parts of the ventral pallidum, the parabrachial nucleus of
+the pons, and perhaps in orbifrontal cortex and insula.
+>
+>[…]
+>
+> "stimulation of more posterior parts of the NAc shell appears to trigger
+dread and disgust; even more intriguing the “affective keyboard” of
+the shell can be modulated by context, experience and drugs to expand
+or shrink the “liking” region
+
+*—Anders Sandberg, “Grand Futures” p. 218, 2023*
+
+See Also
+---------
+
+* [The Startup Landscape for Expanding Consciousness (Greg Kubin/Scott Britton, 2023)](https://scottbritton.substack.com/p/the-startup-landscape-for-expanding)
+* [Wireheading Done Right: Stay Positive Without Going Insane (Andrés Gómez-Emilsson, 2016)](https://qualiacomputing.com/2016/08/20/wireheading_done_right/)

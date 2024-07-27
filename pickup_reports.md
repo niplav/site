@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-03-12, modified: 2022-12-11, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2022-03-12, modified: 2024-07-27, language: english, status: in progress, importance: 2, confidence: log*
 
 Pickup Reports
 ===============
@@ -143,7 +143,7 @@ What might I've said as a response? (Not that I expect to be able to
 deflect this kind of test anytime in the near future, and four days
 later you're always wittier)
 
-* "Nice, I've always wanted to be deeply penetrated" (Agree & amplify, with a sexual spike)
+* "Nice, I've always wanted to be deeply penetrated" (Agree & amplify, with a sexual spike, maybe creepy)
 * "If you're never getting stabbed the people you hang out with aren't interesting enough" (Umeshism)
 * "Finally, a worthy opponent! Our battle will be legendary!" or "Cool, wanna take this outside?" (Maybe slightly too chody)
 
@@ -153,19 +153,6 @@ but this time I didn't (but *imagine* her eyes if I'd opened my jacket
 and showed her the knife with the words "cool, wanna take this outside?").
 
 What an experience. I am impressed.
-
-<!--
-Sessions
----------
-
-What's the Qiaochu Yuan tweet?
-
-### So, Last Summer I Took a Medium Dose of MDMA
-
-It worked pretty well, 22 approaches (twice optimal normal rate), AA
-pretty much zero, 5 numbers (although only 2 non-flakey), 1 lay
-
--->
 
 Dates
 ------
@@ -367,3 +354,37 @@ daygame (what would that be, an SDL?), but perhaps the [udayabbaya
 
 ### Cat Lady
 -->
+
+Sessions
+---------
+
+What's the Qiaochu Yuan tweet?
+
+### So, Last Summer I Took a Medium Dose of MDMA
+
+It worked pretty well, 22 approaches (twice optimal normal rate),
+AA pretty much zero, 5 numbers (although only 2 non-flakey), 1 lay
+(my first ever, became a short-term girlfriend).
+
+### Uninteresting Weaseling #1
+
+Session on a friday evening. No approaches (I am a bitch). 12 bona-fide
+weasels, but I *am* getting closer to approaching again—gave multiple
+compliments, ~two of them to hot chicks.
+
+Two standout moments.
+
+One is when I saw two women (both not hot) circling a pigeon cramped
+into a corner. I stopped, look for a couple seconds, and they explained
+that the pigeon was sick and asked me whether I wanted to try to catch
+it so that they could bring it to a veterinarian (?). For the fun of it
+I agreed, but my beautifully executed front-stop didn't relax the bird,
+which took off and flew away.
+
+Second was an elf-like brunette gliding across the sidewalk the other
+side of the street. I made up my mind to compliment her, but chickened
+out the last second and found a less ethereally beautiful chick to
+deliver my line to.
+
+God, I can't wait to get back into some semblance of state. Up the
+mountain we climb.

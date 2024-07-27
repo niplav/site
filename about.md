@@ -462,7 +462,7 @@ but rather cycles).
 
 ### Friends of the Site
 
-* [Aaron Mazel-Gee](https://etale.site/); another .site URL owner
+* [Aaron Mazel-Gee](https://etale.site/); another .site URL owner, and all around cool-seeming math guy
 * [Andrew McKenzie](http://andrewtmckenzie.com/), who writes essays on brain preservation [here](https://brainpreservation.github.io/) and notes on neurobiology [here](https://neurobiology.substack.com/)
 * [Ethan](https://210ethan.github.io): Pure Everests, with careful diligence
 * [exdiegesis](https://x.com/exdiegesis/)/[mir](https://www.lesswrong.com/users/mir)/[rime](https://forum.effectivealtruism.org/users/elua)

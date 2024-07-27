@@ -70,7 +70,7 @@ Words
 	* "hanebüchen"
 	* "Verdauungsspaziergang"
 	* "[Erbfeindschaft](https://en.wikipedia.org/wiki/Erbfeindschaft)"
-	* "Blockwart"
+	* "[Blockwart](https://en.wikipedia.org/wiki/Blockwart)"
 
 Poems
 ------
