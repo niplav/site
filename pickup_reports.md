@@ -388,3 +388,19 @@ deliver my line to.
 
 God, I can't wait to get back into some semblance of state. Up the
 mountain we climb.
+
+### Uninteresting Weaseling #2: Getting Rid of The Second-Order Crutches
+
+Only five weasels, since the hot women were mainly walking around with
+their boyfriends/in two-sets, and since it's a Sunday the shops aren't
+open.
+
+Didn't give a compliment to any guy (on his style/beard/whatever), and
+"only" complimented three chicks—but all of them were good-looking
+enough that I'd've also endorsed approaching them. The last one was the
+best-looking, a small (eastern-european?) brunette.
+
+From the weasels, two stand out particularly strongly: A fun-sized
+red-head walking around on a market, aimlessly; and a tall elegant blonde
+dressed completely in black. I saw the blonde twice but didn't have the
+balls to talk to her. Ah well.
