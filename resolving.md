@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-15, modified: 2024-07-14, language: english, status: notes, importance: 8, confidence: highly likely*
+*author: niplav, created: 2023-04-15, modified: 2024-07-14, language: english, status: in progress, importance: 8, confidence: highly likely*
 
 > __We consider the problem of resolving preferences
 that are inconsistent under the [von Neumann-Morgenstern
@@ -972,24 +972,21 @@ no graphs of size 3 with confusion 4 (or 5).
 | 6       | 90927      | $\approx$ 18.138    | $\approx$ 6.225% (5660)    | ?[^3]                     | ?                        |
 | 7       | 1580       | $\approx$ 36.412    | $\approx$ 3.608% (57)      | ?                         | ?                        |
 
-Interestingly, neither $|\mathbf{G}_{n,1}|$ nor $|\mathbf{G}_{n,1}|/n!$
-are known integer sequences: a search on the OEIS and via SuperSeeker
-[@sloane2003line] yield no matching results.
+Interestingly, neither `$|\mathbf{G}_{n,1}|$` nor
+`$|\mathbf{G}_{n,1}|/n!$` are known integer sequences: a search on the
+OEIS and via SuperSeeker [@sloane2003line] yield no matching results.
 
-::: {#conj:avgconftoinf .conjecture}
 **Conjecture 1**. The average confusion of all directed graphs with size
-$n$ diverges to infinity:
+`$n$` diverges to infinity:
 
-$$\underset{n \rightarrow \infty}{\lim} \frac{1}{2^{n^2}} \sum_{i=1}^{n!} |\mathbf{G}_{n,i}| \cdot i=\infty$$
-:::
+<div>
+	$$\underset{n \rightarrow \infty}{\lim} \frac{1}{2^{n^2}} \sum_{i=1}^{n!} |\mathbf{G}_{n,i}| \cdot i=\infty$$
+</div>
 
 We attempted to prove this conjecture, but were unable to do so.
 
-::: {#conj:divisible .proposition}
-**Proposition 2**. $|\mathbf{G}_{n,1}|$ is always divisible by $2^n$.
-:::
+**Proposition 2**. `$|\mathbf{G}_{n,1}|$` is always divisible by `$2^n$`.
 
-::: proof
 *Proof.* This is an artifact of including graphs with reflexive edges in
 the set of graphs tested. Let $G$ be a graph with confusion $k$ and no
 reflexive edges.
@@ -1002,16 +999,15 @@ $k$: all reflexive edges must be removed to create a consistent
 preference, yielding $G$, and there are $k$ unique acyclic tournaments
 that has the smallest edge-graph-edit distance to $G$.
 
-Then it is the case $|\mathbf{G}^{\circ}|=2^n$: for each node, the
-presence of a reflexive edge on that node can be described by one bit of
-information, and since there are $n$ nodes, the size of
-$|\mathbf{G}^{\circ}|$ is the same as the length of an $n$ bit
+Then it is the case `$|\mathbf{G}^{\circ}|=2^n$`: for each node,
+the presence of a reflexive edge on that node can be described by
+one bit of information, and since there are `$n$` nodes, the size of
+`$|\mathbf{G}^{\circ}|$` is the same as the length of an `$n$` bit
 bitstring. ◻
-:::
 
-Dividing $\mathbf{G}_{n,1}$ by both $n!$ and $2^n$ yields the sequence
-$1, 1, 1, 3, 28, 861$, which also doesn't occur in the OEIS, and also
-can't be found using SuperSeeker.
+Dividing `$\mathbf{G}_{n,1}$` by both `$n!$` and `$2^n$` yields the
+sequence `$1, 1, 1, 3, 28, 861$`, which also doesn't occur in the OEIS,
+and also can't be found using SuperSeeker.
 
 ##### Applying `HodgeRank`
 

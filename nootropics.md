@@ -42,9 +42,9 @@ do by recording the outcomes. That's what I did.
 | Flashcard new interval             | 0.011 (λ≈∞, p≈0, -1.88)                     | -0.016 (λ≈∞, p≈0, 3.1)              |
 | Time per flashcard[^3]             | 0.006 (λ≈∞, p≈0, 273.4)                     | 0.003 (λ≈∞, p≈0, 13.66)             |
 
-I am especially interested in testing many different substances for
-their effect on meditation, while avoiding negative side effects. The
-benefits from high meditational attainments valuable to me, and seem
+I am especially interested in testing many different substances for their
+effect on meditation, while avoiding negative side effects. The benefits
+from high meditational attainments seem valuable to me, and could be
 especially likely to benefit from chemical intervention, since the
 [Algernon argument](https://gwern.net/drug-heuristic#loopholes)
 likely doesn't apply: Meditative attainments might've
@@ -52,9 +52,8 @@ not led to a fitness advantage (even, by [opportunity
 cost](https://en.wikipedia.org/wiki/Opportunity_cost), to a fitness
 disadvantage), and so were likely selected against, but most of us
 don't care *that* much about inclusive genetic fitness and more about
-psychological well-being. Evolutionary dynamics favor being like
-[Ghengis Khan](https://en.wikipedia.org/wiki/Ghenghis_Khan)
-([dozens to hundreds of
+psychological well-being. Evolutionary dynamics favor being like [Ghengis
+Khan](https://en.wikipedia.org/wiki/Ghenghis_Khan) ([dozens to hundreds of
 offspring](https://en.wikipedia.org/wiki/Family_and_descendants_of_Genghis_Khan))
 over [Siddharta Gautama](https://en.wikipedia.org/wiki/Siddharta_Gotama)
 ([one son](https://en.wikipedia.org/wiki/R%C4%81hula)), but I'd rather

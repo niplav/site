@@ -11,6 +11,13 @@ various forms of invasive stimulation.__
 Brain Stimulation for Valence
 ==============================
 
+> HIGH ON THE WIRE BUT I WON'T TRIP IT  
+> HIGH ON THE WIRE BUT I WON'T TRIP IT  
+> HIGH ON THE WIRE BUT I WON'T TRIP IT  
+> EYES ON THE PRIZE OR YOU MIGHT MISS IT
+
+*—[Worthikids](https://www.youtube.com/@Worthikids/videos), [“Wire”](https://www.youtube.com/watch?v=28w4S2XWJcg), 2021*
+
 See [Constantin
 2023a](https://sarahconstantin.substack.com/p/why-should-neuroenhancement-be-possible
 "Why Should Neuroenhancement Be Possible?")

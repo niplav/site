@@ -14,64 +14,6 @@ demjenigen, der sie versteht.
 
 *— [Walter Benjamin](https://en.wikipedia.org/wiki/Walter_Benjamin), “Die Aufgabe des Übersetzers”, 1923*
 
-Words
-------
-
-### New
-
-* "endokremlinology"
-* "endochronology"
-* "quinpedalism"
-* "mesamodernism"
-* "tiktocracy"
-* "sapolskywave"
-* "technocratsacy"
-* "wisdoom"
-* "croyncs"
-* ["rijndaël](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)[ites"](https://en.wikipedia.org/wiki/Raëlism)
-* "mushroam"
-* "goofhart"
-* "beautifoul"
-* "zillenialism"
-* "circel"
-* "causaluminosity"
-* "waldschratstyle"
-* "conjectile"
-* "licerology": the study of betting and auctions, auction theory
-* "autolykophilia": furrydom
-
-#### Switcheroos
-
-* "anecdoche"/"synecdote"
-* "cinary"/"bontinuous"
-
-#### Morphisms
-
-* diegomorphism
-* dimpomorphism
-
-### Otherwise Nice
-
-* English
-	* "corrigibility"
-	* "antisemanticity"
-	* "crestfallen"
-	* "moleFLOP"
-	* "gradientspawn"
-* German
-	* "bewahren"
-	* "Kabeljau"
-	* "Sollbruchstelle"
-	* "Ablaufdatum"
-	* "Geizkragen"
-	* "pervers"
-	* "etwas auf Vordermann bringen"
-	* "mit Hängen und Würgen"
-	* "hanebüchen"
-	* "Verdauungsspaziergang"
-	* "[Erbfeindschaft](https://en.wikipedia.org/wiki/Erbfeindschaft)"
-	* "[Blockwart](https://en.wikipedia.org/wiki/Blockwart)"
-
 Poems
 ------
 
@@ -550,6 +492,64 @@ Other
 	as inane self-help wisdom: "Even if you continuously transform
 	yourself, a small part of you will still stay the same."
 * MTF π-12 “tensor grease”
+
+Words
+------
+
+### New
+
+* "endokremlinology"
+* "endochronology"
+* "quinpedalism"
+* "mesamodernism"
+* "tiktocracy"
+* "sapolskywave"
+* "technocratsacy"
+* "wisdoom"
+* "croyncs"
+* ["rijndaël](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)[ites"](https://en.wikipedia.org/wiki/Raëlism)
+* "mushroam"
+* "goofhart"
+* "beautifoul"
+* "zillenialism"
+* "circel"
+* "causaluminosity"
+* "waldschratstyle"
+* "conjectile"
+* "licerology": the study of betting and auctions, auction theory
+* "autolykophilia": furrydom
+
+#### Switcheroos
+
+* "anecdoche"/"synecdote"
+* "cinary"/"bontinuous"
+
+#### Morphisms
+
+* diegomorphism
+* dimpomorphism
+
+### Otherwise Nice
+
+* English
+	* "corrigibility"
+	* "antisemanticity"
+	* "crestfallen"
+	* "moleFLOP"
+	* "gradientspawn"
+* German
+	* "bewahren"
+	* "Kabeljau"
+	* "Sollbruchstelle"
+	* "Ablaufdatum"
+	* "Geizkragen"
+	* "pervers"
+	* "etwas auf Vordermann bringen"
+	* "mit Hängen und Würgen"
+	* "hanebüchen"
+	* "Verdauungsspaziergang"
+	* "[Erbfeindschaft](https://en.wikipedia.org/wiki/Erbfeindschaft)"
+	* "[Blockwart](https://en.wikipedia.org/wiki/Blockwart)"
 
 Funny Internet Images
 ----------------------
