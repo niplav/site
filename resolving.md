@@ -2300,7 +2300,6 @@ graphs on a set $\Omega$ of vertices, and consistent preferences as the
 set of edge-weighted acyclic tournaments on a set of deterministic
 options $\Omega$, can be used to represent ontological shifts.
 
-::: definition
 **Definition 17**. Given a consistent edge-weighted graph
 $G=(\Omega, E_G, w)$, a **graph-based ontological shift** is a function
 from $\Omega$ to subsets of a new set of options $\Xi$, together with
@@ -2309,7 +2308,6 @@ where $(\xi, c)
 \in s(\omega)$ means that $\omega \in \Omega$ in the old set of options
 turned out to be $\xi \in \Xi$ to the degree $c$. The larger $c$, the
 more $\omega$ is $\xi$.
-:::
 
 In this text, I will assume that $\forall \omega \in \Omega: 0 \le
 \sum_{(\xi, c) \in s(\omega)} c \le 1$.
@@ -2323,24 +2321,20 @@ exist. If the sum of the coefficients are $>1$, that means that $\omega$
 turned out to be "more real" than in the old set of options (which we
 exclude as an option here).
 
-::: definition
 **Definition 18**. Given $G$, the result
 $G^{\star}=(\Xi, E^{\star}, w^{\star}: \Xi \times \Xi \rightarrow \mathbb{R})$
 after a graph-based ontological shift $s$ is an edge-weighted graph.
 
-The output of the function $t$ is a combination of the weights $w$ of
-$G$ and the coefficients of $s$ (for all $\omega_1, \omega_2$):
+The output of the function `$t$` is a combination of the weights `$w$` of
+`$G$` and the coefficients of `$s$` (for all `$\omega_1, \omega_2$`):
 
 <div>
 	$$t(\xi_1, \xi_2, G, s)=\sum_{(\omega_1, \omega_2) \in E} \sum_{(\xi_1, c_1) \in s(\omega_1), (\xi_2, c_2) \in s(\omega_2)} c_1 \cdot c_2 \cdot w(\omega_1, \omega_2)$$
 </div>
 
-Then for all $\xi_1, \xi_2$ the value of
-$w^{\star}(\xi_1, \xi_2)=t(\xi_1,
-\xi_2, G, s)$.
-:::
+Then for all `$\xi_1, \xi_2$` the value of `$w^{\star}(\xi_1, \xi_2)=t(\xi_1,
+\xi_2, G, s)$`.
 
-::: example
 **Example 3**. Let
 $\Omega=\{L \text{ (Land animals)}, A \text{ (Air animals)}, W
 \text{ (Water animals)}\}$, and the current preference prefer land
@@ -2394,7 +2388,6 @@ class="math inline"><em>s</em></span> and then resolving the ontological
 crisis using <code>HodgeRank</code>. In the right image transitive
 correctly weighted edges are ommitted for readability.</figcaption>
 </figure>
-:::
 
 The procedure for resolving ontological crises by representing them as
 inconsistent preferences can be written as **algorithm**

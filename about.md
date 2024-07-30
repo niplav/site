@@ -109,7 +109,7 @@ I agree with Gwern that blogs are the victory of the hare over the
 tortoise, and I'm deeply unhappy that short-term and unorganized
 forms of content aggregation have prevailed on the web over long-term
 & maintained sites (culminating in abominations such as discord
-servers holding large amounts of local knowledge—with content on
+servers holding large amounts of communal knowledge—with content on
 a forum one can at least link or lurk without creating an account,
 and potentially just shove it into the internet archive if need
 be! "[anicca](https://en.wikipedia.org/wiki/Impermanence), anicca…"). I
@@ -463,12 +463,13 @@ but rather cycles).
 ### Friends of the Site
 
 * [Aaron Mazel-Gee](https://etale.site/); another .site URL owner, and all around cool-seeming math guy
-* [Andrew McKenzie](http://andrewtmckenzie.com/), who writes essays on brain preservation [here](https://brainpreservation.github.io/) and notes on neurobiology [here](https://neurobiology.substack.com/)
+* [Andrew McKenzie](http://andrewtmckenzie.com/), who writes [essays on brain preservation](https://brainpreservation.github.io/) and [notes on neurobiology](https://neurobiology.substack.com/)
 * [Ethan](https://210ethan.github.io): Pure Everests, with careful diligence
 * [exdiegesis](https://x.com/exdiegesis/)/[mir](https://www.lesswrong.com/users/mir)/[rime](https://forum.effectivealtruism.org/users/elua)
 * [Matthew Baggins](https://matthewbaggins.github.io/)
 * [Mesaoptimizer](https://mesaoptimizer.com/)
-* [norvid_studies](https://norvidshoshin.wordpress.com/blog/), [𝕏](http://nitter.poast.org/norvid_studies)
+* [norvid_studies](https://norvidshoshin.wordpress.com/blog/), [𝕏](http://nitter.poast.org/norvid_studies): Endless source of fascinating questions<!--TODO: links-->
+* [Nuño Sempere](https://nunosempere.com/), who ended up here through no fault of his own
 * [Nyx](https://nyxus.xyz/): Brightly empathetically menacing (we all know she's just joking)
 * [Skaði þjazidottir](https://ulthar.xyz): Gather some stoic people with guns, who have written low-level code
 * [Tetraspace West](https://thetetra.space): Land value tax : repetitive Georgists :: Conditional prediction markets : That place for Quaternions

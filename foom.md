@@ -62,7 +62,7 @@ intelligence:
 * By [brute-force searching](https://en.wikipedia.org/wiki/Brute-force_search) the space of possible optimization algorithms, possibly in the vincinity of the current algorithm
 
 The most fleshed-out model of AI takeoff is [Davidson
-2023](https://niplav.site/doc/cs/ai/alignment/takeoff/a_compute_centric_framework_of_takeoff_speeds_davidson_2023.pdf),
+2023](./doc/cs/ai/alignment/takeoff/a_compute_centric_framework_of_takeoff_speeds_davidson_2023.pdf),
 which makes the median prediction of 20% automation to 100% automation
 in ~3 years (10th percentile: 0.8 years, 90th percentile: 12.5 years).
 

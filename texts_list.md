@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-07-21, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-07-31, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,15 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Hints of Life’s Start Found in a Giant Virus (Carrie Arnold, 2014)](https://www.quantamagazine.org/were-giant-viruses-the-first-life-on-earth-20140710/)
+* [A Bold Critic of the Big Bang’s ‘Smoking Gun’ (Peter Byrne, 2014)](https://www.quantamagazine.org/a-bold-critic-of-the-big-bangs-smoking-gun-20140703/)
+* [Early-Universe Explorer Looks for Answers (Peter Byrne, 2014)](https://www.quantamagazine.org/chao-lin-kuo-early-universe-explorer-looks-for-answers-in-bicep2-and-beyond-20140703/)
+* [The ethics of advanced AI assistants (Iason Gabriel/Arianna Manzini, 2024)](https://deepmind.google/discover/blog/the-ethics-of-advanced-ai-assistants/)
+* [|3 Alignment of Language Agents (Zachary Kenton/Tom Everitt/Laura Weidinger/Iason Gabriel/Vladimir Mikulik/Geofrey Irving, 2021)](https://arxiv.org/pdf/2103.14659)
+* [Scaffolded LLMs: Less Obvious Concerns (Stephen Fowler, 2023)](https://www.lesswrong.com/posts/mAwxebLw3nYbDivmt/scaffolded-llms-less-obvious-concerns)
+* [Archimedean point (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Archimedean_Point)
+* [* Alexander the Great (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Alexander_The_Great)
+* [Stereoelectroencephalography (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Stereoelectroencephalography)
 * [Red teams (Paul Christiano, 2016)](https://ai-alignment.com/red-teams-b5b6de33dc76)
 * [Propaganda or Science: Open Source AI and Bioterrorism Risk (1a3orn, 2023)](https://1a3orn.com/sub/essays-propaganda-or-science.html)
 * The origin of pleasant sensations: Insight from direct electrical brain stimulation (Cécile Villard/Zoé Dary/Jacques Léonard/Samuel Medina Villalon/Romain Carron/Julia Makhalova/Stanislas Lagarde/Christophe Lopez/Fabrice Bartolomei, 2023)
