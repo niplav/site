@@ -504,7 +504,7 @@ transfer learning.
 <!--Have people figured anything out, did they do obvious or just
 seemingly obvious things-->
 
-[^4]: Since everything is judgmental-forecasting-shaped, one could test this by letting forecasters elaborate on their forecasts and at resolution time analyse their elaborations. I've [tried doing this](http://niplav.site/notes_on_predictions.html) but it fell off for other projects.
+[^4]: Since everything is judgmental-forecasting-shaped, one could test this by letting forecasters elaborate on their forecasts and at resolution time analyse their elaborations. I've [tried doing this](./notes_on_predictions.html) but it fell off for other projects.
 
 See Also
 ---------

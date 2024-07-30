@@ -290,6 +290,9 @@ microscopically examining the abyssal monstrosities their oracles conjure up out
 recursion! magic!  
 who fever towards silver tendrils bashing open their skulls and eating up their brains and imaginations, losslessly swallowed into that ellipsoid strange matter gut pulsing out there between the holes  
 
+<!--who in their final moments look up at the sky and whisper, "I saw
+the best minds of my generation...and they were all bots."-->
+
 Dialogues
 ----------
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-07-21, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-07-31, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1516,6 +1516,7 @@ which always feels hollow without the math).
 * [Big Bang Secrets Swirling in a Fluid Universe (Natalie Wolchover, 2014)](https://www.quantamagazine.org/big-bang-secrets-swirling-in-a-fluid-universe-20140212/)
 * [Scientists Reveal Structure of Pain Sensor (Emily Singer, 2014)](https://www.quantamagazine.org/scientists-reveal-structure-of-pain-sensor-20140220/)
 * [Early Life in Death Valley (Peter Byrne, 2014)](https://www.quantamagazine.org/ancient-fossils-suggest-complex-life-evolved-on-land-20140424/)
+* [In a Grain, a Glimpse of the Cosmos (Natalie Wolchover, 2014)](https://www.quantamagazine.org/quasicrystal-meteorite-poses-age-old-questions-20140613/)
 
 Ordering Outgoing *and* Incoming Edges in Dot
 ----------------------------------------------
@@ -2132,3 +2133,16 @@ smartphone, think about what the Schelling-laptop is. I suspect it's
 not a ThinkPad.
 
 "Then let them all have the same kind of cake."
+
+Graph Sevolution
+-----------------
+
+Given a [sequence](https://en.wikipedia.org/wiki/Sequence_(mathematics))
+`$(V_1, \dots, V_{n+1})$` of sets, and a sequence `$(f_1, \dots, f_n)$`
+of functions so that `$f_i: V_i \rightarrow \mathcal{P}(V_{i+1})$`, the
+__sevolution__ of a directed graph `$G=(V_1, E_1)$` (with `$E_1 \subseteq
+V_1 \times V_2$`) is sequence of graphs `$(G_1, \dots, G_{n+1})$` so
+that `$(v, w) \in E_{k+1}$` if and only if `$(v_i, w_i) \in E_i$` and
+`$v \in f_i(v_i), w \in f_i(w_i)$`.
+
+<!--TODO: weighted graph sevolution-->
