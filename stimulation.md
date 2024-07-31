@@ -6,7 +6,7 @@
 > __A collection of quotes and sources of various
 methods for generating valence through brain stimulation and
 [biofeedback](https://en.wikipedia.org/wiki/Biofeedback), focusing on
-various forms of invasive stimulation.__
+invasive stimulation.__
 
 Brain Stimulation for Valence
 ==============================

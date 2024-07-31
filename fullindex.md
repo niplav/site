@@ -12,7 +12,7 @@ of different texts, chronological archives of blogs and programming
 projects.
 
 More information about the website and its author can be
-found on the [about](./about.html) page, for recent additions
+found on the [about](./about.html) page; for recent additions
 and changes, see the [changelog](./changelog.html), and the
 corresponding [RSS feed](https://niplav.substack.com/feed) or
 [substack](https://niplav.substack.com/)[^1].
