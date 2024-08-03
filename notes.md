@@ -2024,7 +2024,7 @@ on multiple dimensions, you might consider taking a [barbell
 strategy](https://en.wikipedia.org/wiki/Barbell_strategy) and taking
 one or multiple options that each max out on a particular axis.
 
-If you have thin tails, however, taking a [concave
+If you have thin tails, however, taking a [convex
 disposition](https://vitalik.eth.limo/general/2020/11/08/concave.html)
 towards your available options can give you most of the value you want.
 

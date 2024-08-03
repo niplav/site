@@ -6,12 +6,12 @@
 > __I implement an obscure mathematical construct in an obscure
 programming language. Edge cases are encountered.__
 
-Implementing Commutative Hyperoperators
-========================================
+Implementing Commutative Hyperoperations
+=========================================
 
 [Ghalimi 2019](https://observablehq.com/@ishi/arithmetic "Hyperlogarithmic Arithmetic")
 presents and discusses a novel construction of a class of
-[hyperoperators](https://en.wikipedia.org/wiki/Hyperoperator), here I
+[hyperoperations](https://en.wikipedia.org/wiki/Hyperoperation), here I
 implement these in [Klong](http://t3x.org/klong/index.html).
 
 I choose to implement these operators on base `$e$`, just as the author
@@ -69,7 +69,7 @@ gives `0` for `math.atan2(0,1)` and Klong's `atan2` gives `π/2` for
 
 <!--TODO: fix local atan2-->
 
-With this, one can implement the commutative hyperoperator:
+With this, one can implement the commutative hyperoperation:
 
         comhyp::{:[z=0;cln(cadd(cexp(x);cexp(y))):|
                 z=1;cadd(x;y):|
@@ -100,7 +100,7 @@ Next, one can turn ones attention to the transaction operation itself:
                 z=3;cexp(cpow(cln(x);cln(y)));
                 cexp(tranhyp(cln(x);cln(y);z-1))]}
 
-And thereby we have implemented the entire class of hyperoperators.
+And thereby we have implemented the entire class of hyperoperations.
 
 <!--When you're less tired, check over this again:
 2^x^y=b^{1^log_b(x)^{log_b(y)}}=b^{log_b(x)*b^log_b(y)}=x^{b^_log_b(y)}=x^y

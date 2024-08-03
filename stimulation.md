@@ -114,6 +114,21 @@ corrected).
 
 *—Jay Sanguinetti/John J. B. Allen, [“Transcranial Ultrasound Improves Mood and Affects Resting State Functional Connectivity in Healthy Volunteers”](./doc/stimulation/transcranial_ultrasound_improves_mood_and_affects_sanguinetti_et_al_2017.pdf), 2017*
 
+> __Participants__: 26 young adults with Beck Depression Inventory […]  
+__TUS Parameters__: 30 secs, 500 kHz; PRF 40 Hz; lower power than previous
+studies (11% vs. 21%) due to repeated stimulation.  transducer over
+right inforerior frontal gyrus (rIFG)[…]  
+Replicating past effects, TUS  stimulation compared to TUS sham improved
+mood 10 minutes after stimulation Day 1, r=.757, p<.01. […]  
+• TUS over the right IFG may impact anxiety rather than
+depression-related symptoms, via reducing repetitive thought that is
+future-rather than past-focused
+
+*—Reznik et al. 2014, [“Transcranial ultrasound (TUS) reduces worry in a five-day double-blind pilot study”](./doc/stimulation/transcranial_ultrasound_reduces_worry_reznik_et_al_2014.pdf), 2014*
+
+Worry decreased, r(22)=.363, p=.097, depression scores didn't change
+r=-.237, p=.288.
+
 > We found a male predominance among the patients reporting pleasant
 sensations and a prominent role of the right cerebral hemisphere. Results
 show a preponderant role of the dorsal anterior insula and amygdala in
@@ -208,5 +223,6 @@ or shrink the “liking” region
 See Also
 ---------
 
+* [OpenFUS](https://github.com/louislva/openFUS/tree/master)
 * [The Startup Landscape for Expanding Consciousness (Greg Kubin/Scott Britton, 2023)](https://scottbritton.substack.com/p/the-startup-landscape-for-expanding)
 * [Wireheading Done Right: Stay Positive Without Going Insane (Andrés Gómez-Emilsson, 2016)](https://qualiacomputing.com/2016/08/20/wireheading_done_right/)
