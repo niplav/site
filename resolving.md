@@ -1126,58 +1126,48 @@ maximal clique, then a subgraph `$\mathit{S}_P$` of `$P_n$` with vertices
 
 ##### Minimizing Graph-Edit Distance
 
-`EGEDmin` violates this criterion, which can be easily shown by
-a counterexample in Figure [4](#fig:example1){reference-type="ref"
-reference="fig:example1"}:
+`EGEDmin` violates this criterion, which can be easily demonstrated:
 
 **Example 1**.
 
-<figure id="fig:example1">
-<figure id="fig:counter1">
-<img src="./img/resolving/counter_example.png" />
-<figcaption>Counterexample</figcaption>
-</figure>
-<figure id="fig:resolved">
-<img src="./img/resolving/resolved_example.png" />
-<figcaption>Counterexample resolved versions</figcaption>
-</figure>
-<figcaption><span
-class="math inline"><em>G</em><sub><em>c</em></sub></span> on the left
-above is resolved into two acyclic tournaments, none of which contain
-the edge <span
-class="math inline"><em>d</em> → <em>c</em></span>.</figcaption>
-</figure>
+![](./img/resolving/counter_example.png)
 
-The graph $G_c$ above contains a subgraph
-$\mathit{S}_{cd}=(\{c,d\},\{(c,d)\})$ that is also an inclusion-maximal
-acyclic tournament in $G_c$. The two acyclic tournaments with the lowest
-graph-edit distance (namely 3: reversing the edge $d \rightarrow c$ (2
-operations) and adding an edge between $a$ and $b$) to $G_c$ are shown
-in Figure 2. Note that none of them contain $\mathit{S}_{cd}$ as a
-subgraph.
+*Counterexample*
 
-![image](./img/resolving/counter_example_3.png){width="0.9\\linewidth"}
+![](./img/resolving/resolved_example.png)
+
+*Counterexample resolved versions*
+
+`$G_c$` above is resolved into two acyclic tournaments, none of which
+contain the edge `$d \rightarrow c$`.
+
+The graph `$G_c$` above contains a subgraph
+`$\mathit{S}_{cd}=(\{c,d\},\{(c,d)\})$` that is also an inclusion-maximal
+acyclic tournament in `$G_c$`. The two acyclic tournaments with the lowest
+graph-edit distance (namely 3: reversing the edge `$d \rightarrow c$`
+(2 operations) and adding an edge between `$a$` and `$b$`) to `$G_c$`
+are shown in in the resolved graph. Note that none of them contain
+`$\mathit{S}_{cd}$` as a subgraph.
+
+![](./img/resolving/counter_example_3.png)
 
 This counter-example can be generalized so that inclusion-maximal
-consistent subgraphs with an arbitrary number of nodes $n$ get reversed:
-Each edge $\omega_1 \rightarrow \omega_2$ of $G_c$ gets replaced by an
-acyclic tournament $\mathit{T}_i=(\Xi_i, E_i)$ with $n-2$ vertices, so
-that there is an edge from $\omega_1$ to every $\xi_i \in \Xi_i$ and an
-edge from every $\xi_i \in \Xi_i$ to $\omega_2$. The graph on the left
-has confusion 40, and the subgraph emphasized in red is preserved in
-none of the outputs of `EGEDmin`.
+consistent subgraphs with an arbitrary number of nodes `$n$` get reversed:
+Each edge `$\omega_1 \rightarrow \omega_2$` of `$G_c$` gets replaced by an
+acyclic tournament `$\mathit{T}_i=(\Xi_i, E_i)$` with `$n-2$` vertices,
+so that there is an edge from `$\omega_1$` to every `$\xi_i \in \Xi_i$`
+and an edge from every `$\xi_i \in \Xi_i$` to `$\omega_2$`. The graph
+on the left has confusion 40, and the subgraph emphasized in red is
+preserved in none of the outputs of `EGEDmin`.
 
 We also investigated the number of inclusion-maximal consistent
 subgraphs preserved by `EGEDmin`. We again did this by analyzing the
 outputs of `EGEDmin` for all graphs with five nodes or less, and some
 graphs with six or seven nodes.
 
-::: definition
-**Definition 7**. Let
-$\text{IMCS}: \mathfrak{P}_n \rightarrow \mathfrak{P}_{1..n}$ be a
-function that returns the **i**nclusion-**m**aximal **c**onsistent
-**s**ubgraphs for a given graph.
-:::
+**Definition 7**. Let `$\text{IMCS}: \mathfrak{P}_n \rightarrow
+\mathfrak{P}_{1..n}$` be a function that returns the
+**i**nclusion-**m**aximal **c**onsistent **s**ubgraphs for a given graph.
 
 Given a directed graph $G$, let $\mathcal{S}$ be the set of
 inclusion-maximal consistent subgraphs of $G$. One can now ask: For a
@@ -1210,29 +1200,27 @@ of the number of times $\mathit{S}$ appears in the output of `EGEDmin`
 	$$\text{AMSP}_{\mathtt{EGEDmin}}(G)=\frac{1}{|\text{IMCS}(G)|} \sum_{\mathit{S} \in \text{IMCS}(G)} \text{RSP}_{\mathtt{EGEDmin}}(\mathit{S})$$
 </div>
 
-Both $\text{RSP}_{\mathtt{EGEDmin}}$ and
-$\text{AMSP}_{\mathtt{EGEDmin}}$ can be adapted to different methods for
-resolution, simply by swapping out the instances of `EGEDmin` for
-something else (e.g. `HodgeRank`). By default, I will use $\text{RSP}$
-and $\text{AMSP}$ for $\text{RSP}_{\mathtt{EGEDmin}}$ and
-$\text{AMSP}_{\mathtt{EGEDmin}}$.
+Both `$\text{RSP}_{\mathtt{EGEDmin}}$` and
+`$\text{AMSP}_{\mathtt{EGEDmin}}$` can be adapted to different
+methods for resolution, simply by swapping out the instances of
+`EGEDmin` for something else (e.g. `HodgeRank`). By default, I will use
+`$\text{RSP}$` and `$\text{AMSP}$` for `$\text{RSP}_{\mathtt{EGEDmin}}$`
+and `$\text{AMSP}_{\mathtt{EGEDmin}}$`.
 
 A higher number for AMSP is better: It means that more inclusion-maximal
 consistent subgraphs get preserved more often by the method for
 resolving inconsistent preferences.
 
-::: center
-  $n$   Samples    Avg $|\text{IMCS}(G)|$   Avg $\text{AMSP}(G)$   Min $\text{AMSP}(G)$   Graphs with $\text{AMSP}(G)=1$
-  ----- ---------- ------------------------ ---------------------- ---------------------- --------------------------------
-  0     1          1                        1                      1                      1 (100%)
-  1     2          1                        1                      1                      2 (100%)
-  2     16         1.125                    1                      1                      16 (100%)
-  3     512        $\approx$ 1.32           $\approx$ 0.995        2/3                    496 ($\approx$ 98.4%)
-  4     65536      $\approx$ 1.568          $\approx$ 0.984        0                      57728 ($\approx$ 94.4%)
-  5     33554432   $\approx$ 1.864          $\approx$ 0.969        0                      7803263 ($\approx$ 80.1%)
-  6     90927      $\approx$ 2.207          $\approx$ 0.95         0                      72209 ($\approx$ 79.4%)
-  7     1580       $\approx$ 2.618          $\approx$ 0.932        0                      1095 ($\approx$ 69.3%)
-:::
+| `$n$` | Samples   | Avg `$\#(\text{IMCS}(G))$`| Avg `$\text{AMSP}(G)$`  | Min `$\text{AMSP}(G)$` | Graphs with `$\text{AMSP}(G)=1$` |
+|-------|-----------|---------------------------|-------------------------|------------------------|----------------------------------|
+| 0     | 1         | 1                         | 1                       | 1                      | 1 (100%)                         |
+| 1     | 2         | 1                         | 1                       | 1                      | 2 (100%)                         |
+| 2     | 16        | 1.125                     | 1                       | 1                      | 16 (100%)                        |
+| 3     | 512       | `$\approx$` 1.32          | `$\approx$` 0.995       | 2/3                    | 496 (`$\approx$` 98.4%)          |
+| 4     | 65536     | `$\approx$` 1.568         | `$\approx$` 0.984       | 0                      | 57728 (`$\approx$` 94.4%)        |
+| 5     | 33554432  | `$\approx$` 1.864         | `$\approx$` 0.969       | 0                      | 7803263 (`$\approx$` 80.1%)      |
+| 6     | 90927     | `$\approx$` 2.207         | `$\approx$` 0.95        | 0                      | 72209 (`$\approx$` 79.4%)        |
+| 7     | 1580      | `$\approx$` 2.618         | `$\approx$` 0.932       | 0                      | 1095 (`$\approx$` 69.3%)         |
 
 One can see that the average number of inclusion-maximal consistent
 subgraphs increases, albeit initially slowly. The number of times that
