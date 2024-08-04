@@ -11,7 +11,7 @@ def normal_likelihood(data, mu, std):
 	data_probs=scistat.norm.pdf(data, loc=mu, scale=std)
 	return np.multiply.reduce(data_probs, where=~np.isnan(data_probs))
 
-def placebo_likelihood_ratio(active, placebo):
+def control_likelihood_ratio(active, placebo):
 	placebo_mle_lh=normal_likelihood(active, placebo.mean(), placebo.std())
 	active_mle_lh=normal_likelihood(active, active.mean(), active.std())
 	if active_mle_lh==0:
@@ -79,10 +79,6 @@ def get_datasets(experiment, substance, placebo):
 	mental=get_mental()
 	flashcards=get_flashcards()
 
-	creativity=mental[['datetime', 'creativity']]
-	productivity=mental[['datetime', 'productivity']]
-	sublen=mental[['datetime', 'sublen']]
-
 	meditations.sort_values("meditation_start", inplace=True)
 	meditations=pd.merge_asof(expa, meditations, left_on='datetime', right_on='meditation_start', direction='forward')
 	meditations=meditations.rename(columns={'mindfulness_rating': 'mindfulness', 'concentration_rating': 'absorption'})
@@ -110,7 +106,6 @@ def get_datasets(experiment, substance, placebo):
 
 	return meditations, substance_meditations, placebo_meditations, mental, substance_mental, placebo_mental, mood, placebo_mood, substance_mood, flashcards, placebo_flashcards, substance_flashcards
 
-
 def plot_datasets(experiment, substance, placebo):
 	# Get datasets
 	meditations, substance_meditations, placebo_meditations, mental, substance_mental, placebo_mental, mood, placebo_mood, substance_mood, flashcards, placebo_flashcards, substance_flashcards = get_datasets(experiment, substance, placebo)
@@ -123,13 +118,13 @@ def plot_datasets(experiment, substance, placebo):
 	    (substance_meditations, placebo_meditations, 'absorption', 'absorption', 'datetime'),
 	    (substance_mental, placebo_mental, 'productivity', 'productivity', 'datetime'),
 	    (substance_mental, placebo_mental, 'creativity', 'creativity', 'datetime'),
-	    #(substance_mental, placebo_mental, 'subjective length', 'sublen', 'datetime'),
+	    (substance_mental, placebo_mental, 'subjective length', 'sublen', 'datetime'),
 	    (substance_mood, placebo_mood, 'happiness', 'happy', 'datetime'),
 	    (substance_mood, placebo_mood, 'contentment', 'content', 'datetime'),
 	    (substance_mood, placebo_mood, 'relaxation', 'relaxed', 'datetime'),
 	    (substance_mood, placebo_mood, 'horniness', 'horny', 'datetime'),
 	    (substance_flashcards, placebo_flashcards, 'factor', 'factor', 'datetime'),
-#	    (substance_flashcards, placebo_flashcards, 'interval', 'ivl', 'datetime'),
+	    (substance_flashcards, placebo_flashcards, 'interval', 'ivl', 'datetime'),
 	    (substance_flashcards, placebo_flashcards, 'ease', 'ease', 'datetime'),
 	    (substance_flashcards, placebo_flashcards, 'duration', 'time', 'datetime'),
 	    # Add more pairs as needed, along with the measurement variable and the x-axis variable
@@ -168,55 +163,55 @@ def plot_datasets(experiment, substance, placebo):
 
 	plt.tight_layout()
 
-	# Save the figure
-
 	plt.savefig(f'{substance}_results.png')
 
-def analyze(experiment, substance, placebo):
+def analyze_substance(experiment, substance, placebo):
 	meditation, substance_meditations, placebo_meditations, mental, substance_mental, placebo_mental, mood, placebo_mood, substance_mood, flashcards, placebo_flashcards, substance_flashcards=get_datasets(experiment, substance, placebo)
+	return analyze(meditation, substance_meditations, placebo_meditations, mental, substance_mental, placebo_mental, mood, substance_mood, placebo_mood, flashcards, substance_flashcards, placebo_flashcards)
 
+def analyze(meditation, intervention_meditations, control_meditations, mental, intervention_mental, control_mental, mood, intervention_mood, control_mood, flashcards, intervention_flashcards, control_flashcards):
 	result=pd.DataFrame()
 	result=result.reindex(columns=['absorption', 'mindfulness', 'productivity', 'creativity', 'sublen', 'happy', 'content', 'relaxed', 'horny', 'ease', 'factor', 'ivl', 'time'], index=['d', 'λ', 'p', 'dσ'])
 
-	meditation_ds=(substance_meditations[['mindfulness', 'absorption']].describe().loc['mean',:]-placebo_meditations[['mindfulness', 'absorption']].describe().loc['mean',:])/meditation[['mindfulness', 'absorption']].describe().loc['std',:]
+	meditation_ds=(intervention_meditations[['mindfulness', 'absorption']].describe().loc['mean',:]-control_meditations[['mindfulness', 'absorption']].describe().loc['mean',:])/meditation[['mindfulness', 'absorption']].describe().loc['std',:]
 	result.loc['d', ['mindfulness', 'absorption']]=meditation_ds
 
-	meditation_d_sigmas=substance_meditations[['mindfulness', 'absorption']].describe().loc['std',:]-placebo_meditations[['mindfulness', 'absorption']].describe().loc['std',:]
+	meditation_d_sigmas=intervention_meditations[['mindfulness', 'absorption']].describe().loc['std',:]-control_meditations[['mindfulness', 'absorption']].describe().loc['std',:]
 	result.loc['dσ',['mindfulness', 'absorption']]=meditation_d_sigmas
 
-	mental_ds=(substance_mental[['productivity', 'creativity', 'sublen']].describe().loc['mean',:]-placebo_mental[['productivity', 'creativity', 'sublen']].describe().loc['mean',:])/mental[['productivity', 'creativity', 'sublen']].describe().loc['std',:]
+	mental_ds=(intervention_mental[['productivity', 'creativity', 'sublen']].describe().loc['mean',:]-control_mental[['productivity', 'creativity', 'sublen']].describe().loc['mean',:])/mental[['productivity', 'creativity', 'sublen']].describe().loc['std',:]
 	result.loc['d', ['productivity', 'creativity', 'sublen']]=mental_ds
 
-	mental_d_sigmas=substance_mental[['productivity', 'creativity', 'sublen']].describe().loc['std',:]-placebo_mental[['productivity', 'creativity', 'sublen']].describe().loc['std',:]
+	mental_d_sigmas=intervention_mental[['productivity', 'creativity', 'sublen']].describe().loc['std',:]-control_mental[['productivity', 'creativity', 'sublen']].describe().loc['std',:]
 	result.loc['dσ',['productivity', 'creativity', 'sublen']]=mental_d_sigmas
 
-	mood_ds=(substance_mood[['happy', 'content', 'relaxed', 'horny']].describe().loc['mean',:]-placebo_mood[['happy', 'content', 'relaxed', 'horny']].describe().loc['mean',:])/mood[['happy', 'content', 'relaxed', 'horny']].describe().loc['std',:]
+	mood_ds=(intervention_mood[['happy', 'content', 'relaxed', 'horny']].describe().loc['mean',:]-control_mood[['happy', 'content', 'relaxed', 'horny']].describe().loc['mean',:])/mood[['happy', 'content', 'relaxed', 'horny']].describe().loc['std',:]
 	result.loc['d',['happy', 'content', 'relaxed', 'horny']]=mood_ds
 
-	mood_d_sigmas=substance_mood[['happy', 'content', 'relaxed', 'horny']].describe().loc['std',:]-placebo_mood[['happy', 'content', 'relaxed', 'horny']].describe().loc['std',:]
+	mood_d_sigmas=intervention_mood[['happy', 'content', 'relaxed', 'horny']].describe().loc['std',:]-control_mood[['happy', 'content', 'relaxed', 'horny']].describe().loc['std',:]
 	result.loc['dσ',['happy', 'content', 'relaxed', 'horny']]=mood_d_sigmas
 
-	flashcards_ds=(substance_flashcards[['ease', 'factor', 'ivl', 'time']].describe().loc['mean',:]-placebo_flashcards[['ease', 'factor', 'ivl', 'time']].describe().loc['mean',:])/flashcards[['ease', 'factor', 'ivl', 'time']].describe().loc['std',:]
+	flashcards_ds=(intervention_flashcards[['ease', 'factor', 'ivl', 'time']].describe().loc['mean',:]-control_flashcards[['ease', 'factor', 'ivl', 'time']].describe().loc['mean',:])/flashcards[['ease', 'factor', 'ivl', 'time']].describe().loc['std',:]
 	result.loc['d',['ease', 'factor', 'ivl', 'time']]=flashcards_ds
 
-	flashcards_d_sigmas=substance_flashcards[['ease', 'factor', 'ivl', 'time']].describe().loc['std',:]-placebo_flashcards[['ease', 'factor', 'ivl', 'time']].describe().loc['std',:]
+	flashcards_d_sigmas=intervention_flashcards[['ease', 'factor', 'ivl', 'time']].describe().loc['std',:]-control_flashcards[['ease', 'factor', 'ivl', 'time']].describe().loc['std',:]
 	result.loc['dσ',['ease', 'factor', 'ivl', 'time']]=flashcards_d_sigmas
 
-	result.loc['λ', 'absorption']=likelihood_ratio_test(placebo_likelihood_ratio(substance_meditations['absorption'], placebo_meditations['absorption']))
-	result.loc['λ', 'mindfulness']=likelihood_ratio_test(placebo_likelihood_ratio(substance_meditations['mindfulness'], placebo_meditations['mindfulness']))
-	result.loc['λ', 'productivity']=likelihood_ratio_test(placebo_likelihood_ratio(substance_mental['productivity'], placebo_mental['productivity']))
-	result.loc['λ', 'creativity']=likelihood_ratio_test(placebo_likelihood_ratio(substance_mental['creativity'], placebo_mental['creativity']))
-	result.loc['λ', 'sublen']=likelihood_ratio_test(placebo_likelihood_ratio(substance_mental['sublen'], placebo_mental['sublen']))
+	result.loc['λ', 'absorption']=likelihood_ratio_test(control_likelihood_ratio(intervention_meditations['absorption'], control_meditations['absorption']))
+	result.loc['λ', 'mindfulness']=likelihood_ratio_test(control_likelihood_ratio(intervention_meditations['mindfulness'], control_meditations['mindfulness']))
+	result.loc['λ', 'productivity']=likelihood_ratio_test(control_likelihood_ratio(intervention_mental['productivity'], control_mental['productivity']))
+	result.loc['λ', 'creativity']=likelihood_ratio_test(control_likelihood_ratio(intervention_mental['creativity'], control_mental['creativity']))
+	result.loc['λ', 'sublen']=likelihood_ratio_test(control_likelihood_ratio(intervention_mental['sublen'], control_mental['sublen']))
 
-	result.loc['λ', 'happy']=likelihood_ratio_test(placebo_likelihood_ratio(substance_mood['happy'], placebo_mood['happy']))
-	result.loc['λ', 'content']=likelihood_ratio_test(placebo_likelihood_ratio(substance_mood['content'], placebo_mood['content']))
-	result.loc['λ', 'relaxed']=likelihood_ratio_test(placebo_likelihood_ratio(substance_mood['relaxed'], placebo_mood['relaxed']))
-	result.loc['λ', 'horny']=likelihood_ratio_test(placebo_likelihood_ratio(substance_mood['horny'], placebo_mood['horny']))
+	result.loc['λ', 'happy']=likelihood_ratio_test(control_likelihood_ratio(intervention_mood['happy'], control_mood['happy']))
+	result.loc['λ', 'content']=likelihood_ratio_test(control_likelihood_ratio(intervention_mood['content'], control_mood['content']))
+	result.loc['λ', 'relaxed']=likelihood_ratio_test(control_likelihood_ratio(intervention_mood['relaxed'], control_mood['relaxed']))
+	result.loc['λ', 'horny']=likelihood_ratio_test(control_likelihood_ratio(intervention_mood['horny'], control_mood['horny']))
 
-	result.loc['λ', 'ease']=likelihood_ratio_test(placebo_likelihood_ratio(substance_flashcards['ease'], placebo_flashcards['ease']))
-	result.loc['λ', 'factor']=likelihood_ratio_test(placebo_likelihood_ratio(substance_flashcards['factor'], placebo_flashcards['factor']))
-	result.loc['λ', 'ivl']=likelihood_ratio_test(placebo_likelihood_ratio(substance_flashcards['ivl'], placebo_flashcards['ivl']))
-	result.loc['λ', 'time']=likelihood_ratio_test(placebo_likelihood_ratio(substance_flashcards['time'], placebo_flashcards['time']))
+	result.loc['λ', 'ease']=likelihood_ratio_test(control_likelihood_ratio(intervention_flashcards['ease'], control_flashcards['ease']))
+	result.loc['λ', 'factor']=likelihood_ratio_test(control_likelihood_ratio(intervention_flashcards['factor'], control_flashcards['factor']))
+	result.loc['λ', 'ivl']=likelihood_ratio_test(control_likelihood_ratio(intervention_flashcards['ivl'], control_flashcards['ivl']))
+	result.loc['λ', 'time']=likelihood_ratio_test(control_likelihood_ratio(intervention_flashcards['time'], control_flashcards['time']))
 
 	result.loc['p',:]=llrt_pval(result.loc['λ',:])
 
