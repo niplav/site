@@ -103,12 +103,27 @@ correlation without having to run the program.
 How does this relate to
 [data=code](https://wiki.c2.com/?DataAndCodeAreTheSameThing)?
 
-#### Desiderata Fulfilled?
+### Desiderata Fulfilled?
 
 Does this fulfill our desiderata from earlier? I'll assume that the
 string distance `$d$` is a metric, in the mathematical sense.
 
-1. `$合(p, p)=0$`. (The minimal logical correlation is 0.)
+#### Proving `$合(p, p)=0$`
+
+Proof:
+
+<div>
+	$$d(o, o)+0.5-\frac{1}{2+\sum_{k=0}^{\min(l, l)} γ^k \cdot d(t(l-k), t(l-k))}= \\
+	0+0.5+\frac{1}{2+\sum_{k=0}^l y^k \cdot 0}= \\
+	0.5+\frac{1}{2+0}= \\
+	0$$
+</div>
+
+Since `$d$` is a metric, `$d(o, o)=0$`.
+
+#### Proving Positivity
+
+(The minimal logical correlation is 0.)
 
 See Also
 ---------

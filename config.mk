@@ -32,6 +32,7 @@ HTML=index.html \
 	praml_solutions.html \
 	mfis_solutions.html \
 	rs_solutions.html \
+	ztg_solutions.html \
 	tjpb_exercises.html \
 	99_klong_problems.html \
 	99_problems_collection.html \

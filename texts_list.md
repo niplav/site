@@ -1095,7 +1095,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Robots, Games, Life, Markets (Gavin Leech, 2020)](https://www.gleech.org/games-of-life)
 * [Likelihood-ratio test (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Likelihood-ratio_test)
 * [Breaking Cycles in Noisy Hierarchies (Alessandra Sala/Deepak Ajwani/Jiankai Suni/Patrick K. Nicholson/Srinivasan Parthasarathy, 2017)](./preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf)
-* \* An Infinitely Large Napkin (Evan Chen, 2023)
+* |54 An Infinitely Large Napkin (Evan Chen, 2023)
 * [Graph-Theoretical Approaches to the Theory of Voting (Nicholas R. Miller, 1977)](./voting_theory/graph_theoretical_approaches_to_the_theory_of_voting_miller_1977.pdf)
 * [Statistical ranking and combinatorial Hodge theory (Lek-Heng Lim/Xiaoye Jiang/Yinyu Ye/Yuan Yao, 2010)](./preference/statistical_ranking_and_combinatorial_hodge_theory_jiang_et_al_2011.pdf)
 * [Probability is Real, and Value is Complex (Abram Demski, 2018)](https://www.lesswrong.com/posts/oheKfWA7SsvpK7SGp/probability-is-real-and-value-is-complex)

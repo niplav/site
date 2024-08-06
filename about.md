@@ -477,7 +477,7 @@ but rather cycles).
 If you're not on here but think you should be (or, conversely, you're
 on here but don't want to be), [contact me](#Contact).
 
-<!--TODO: add 1a3orn, Alex K. Chen, Burny, Nuño?-->
+<!--TODO: add 1a3orn, Alex K. Chen, Burny?-->
 <!--[Sam Harsimony](https://splittinginfinity.substack.com/), [Wordpress](https://harsimony.wordpress.com/): Polymath.-->
 
 The Author

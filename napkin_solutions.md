@@ -133,4 +133,9 @@ case that (1) `$\text{ord } g<|G|$` or (2) `$\text{ord } g>|G|$`.
 
 ### Problem 1C
 
-Let the isomorphism `$\phi$` be as follows<!--TODO-->
+Let the isomorphism `$\phi$` be as follows: `$\phi(1)=\{1, 2, 3\},
+\phi(s)=\{1, 3, 2\}, \phi(r)=\{3, 1, 2\}, \phi(r^2)=\{2, 3, 1\}, \phi(rs)=\{2,
+1, 3\}, \phi(r^2s)=\{3, 2, 1\}$`.
+
+I could go through the pairs of elements of `$D_6$` individually, but
+that seems not smart.
