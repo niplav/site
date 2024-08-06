@@ -8,35 +8,47 @@ crisis”](https://memex.marginalia.nu/log/19-website-discoverability-crisis.gmi
 While I haven't been affected by this particular problem (on the
 contrary!), I want people to know some high-quality websites.__
 
-<!--TODO: reintegrate from favorites, rethink-->
-
 Recommendation-Worthy Websites
 ===============================
 
+I like sites written by people who update their pages over time,
+put effort into their posts, are curious & coherent and who link to
+other sites.
+
 * General Knowledge
+	* [Wikipedia](https://en.wikipedia.org/): The Crown Jewel
 	* Personal Websites
 		* [Gwern](https://www.gwern.net/)
 		* [Nintil](https://nintil.com/)
+		* [Mariven](https://n.cohomology.group/)
 		* [Dynomight](https://dynomight.net/)
 		* [Gavin Leech](https://www.gleech.org)
+		* [1a3orn](https://1a3orn.com/)
 		* [210ethan](https://210ethan.github.io)
-	* [Wikipedia](https://en.wikipedia.org/)
+	* [Quanta Magazine](https://www.quantamagazine.org/)
 * Rationality
 	* [Less Wrong](https://lesswrong.com/)
 	* [Everything Studies](https://everythingstudies.com/)
 	* [Overcoming Bias](http://www.overcomingbias.com/)
-	* [Slate Star Codex](http://slatestarcodex.com/)
+	* [Slate Star Codex](http://slatestarcodex.com/) and [the successor](https://www.astralcodexten.com/)
+	* [musings and rough drafts](https://musingsandroughdrafts.com/)
 	* [☆✦ The Scintillating But Ultimately Untrue Thought ✦☆](https://unremediatedgender.space) (highly focused on a rather irrelevant topic, but the lessons are generalizable)
 * Programming
 	* [Coding Horror](https://blog.codinghorror.com/)
 	* [Drew DeVault's Blog](https://drewdevault.com/)
 	* [Joel On Software](https://www.joelonsoftware.com/)
 	* [Null Program](http://nullprogram.com/)
-	* [Yujiri's homepage](https://yujiri.xyz) (A [very Russian](https://yujiri.xyz/misc/structure.gmi.html) website: "This site's organization is different from most other sites that serve a similar purpose. It's not chronological like a blog, because it was never meant to be a personal voice for me, at least not primarily. It's meant to be an up-to-date, organized database of philosophical truth.". Fellow long-content writer.)
+	* [Yujiri's homepage](https://yujiri.xyz) (A [very Russian](https://yujiri.xyz/misc/structure.gmi.html) website: "This site's organization is different from most other sites that serve a similar purpose. It's not chronological like a blog, because it was never meant to be a personal voice for me, at least not primarily. It's meant to be an up-to-date, organized database of philosophical truth.")
+* AI
+	* AI
+		* [Lil' Log](https://lilianweng.github.io/)
+	* \<affectionate\>militant minimalists\</affectionate\>
+		* [suckless](http://suckless.org/)
+		* [2f30](https://git.2f30.org/)
+		* [cat-v](http://cat-v.org/)
 * Mathematics
 	* [Bit-Player](http://bit-player.org/)
 	* [Shtetl-Optimized](https://www.scottaaronson.com/blog)
-	* [An Algorithmic Lucidity](http://zackmdavis.net/blog/)
 * Philosophy
 	* [Entirely Useless](https://entirelyuseless.com/)
 	* [Metamoderna](http://metamoderna.org/?lang=en)
@@ -47,7 +59,7 @@ Recommendation-Worthy Websites
 * AI Alignment
 	* [Arbital AI Alignment Domain](https://arbital.org/explore/ai_alignment)
 	* [Machine Intelligence Research Institute](https://intelligence.org)
-<!--TODO: Add Redwood Research & Alignment Research Center-->
+	* [Tsvi Benson Tilsen](https://tsvibt.blogspot.com/)
 * Effective Altruism
 	* Personal Websites
 		* [Reducing Suffering](https://reducing-suffering.org)
@@ -74,8 +86,11 @@ Recommendation-Worthy Websites
 	* [Hotel Concierge](https://hotelconcierge.tumblr.com/)
 	* [The Last Psychiatrist](https://thelastpsychiatrist.com/)
 	* [sam[]zdat](https://samzdat.com/)
-	* [An Algorithmic Lucidity](http://zackmdavis.net/blog/)
-	* [Traditions of Conflict](https://traditionsofconflict.com)
+	* [An Algorithmic Lucidity](http://zackmdavis.net/blog/) (plus math)
+	* [Traditions of Conflict](https://traditionsofconflict.com) and [the successor](https://traditionsofconflict.substack.com/)
+	* [Qualia Computing](https://qualiacomputing.com/)
+	* [The sideways view](https://sideways-view.com/)
 * Forecasting
 	* [Metaculus](https://www.metaculus.com)
-	* [PredictionBook](https://www.predictionbook.com)
+	* [Manifold Markets](https://manifold.markets/home)
+	* † [PredictionBook](https://www.predictionbook.com)

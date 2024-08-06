@@ -224,3 +224,8 @@ Other Questions
 	* Use the [generalized mean](https://en.wikipedia.org/wiki/Generalized_mean) with changing `$p$` as the time to question resolution shrinks
 		* Should `$p$` be increasing/decreasing/following a more complicated pattern?
 		* Can we do something cool with the [quasi-arithmetic mean](https://en.wikipedia.org/wiki/Quasi-arithmetic_mean)?
+
+See Also
+---------
+
+* [Forecasting: Lecture Notes](https://forecasting.quarto.pub/book/index.html) by Jacob Steinhardt
