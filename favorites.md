@@ -1,7 +1,7 @@
 [home](./index.html)
 ---------------------
 
-*author: niplav, created: 2022-06-18, modified: 2024-07-26, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2022-06-18, modified: 2024-08-05, language: english, status: draft, importance: 2, confidence: log*
 
 > Idea & format stolen shamelessly from [Gavin
 Leech](https://www.gleech.org/favs/all/).
@@ -214,13 +214,10 @@ My favorite form of online expression is the [long
 site](https://www.gwern.net/About), best exemplified by
 [Gwern](https://www.gwern.net/), [Essays on Reducing
 Suffering](https://reducing-suffering.org), [Gavin
-Leech](https://www.gleech.org), [210ethan](https://210ethan.github.io),
-and [Yujiri's homepage](https://yujiri.xyz) (a [very
-Russian](https://yujiri.xyz/misc/structure.gmi.html) website: "This site's
-organization is different from most other sites that serve a similar
-purpose. It's not chronological like a blog, because it was never meant
-to be a personal voice for me, at least not primarily. It's meant to be
-an up-to-date, organized database of philosophical truth.").
+Leech](https://www.gleech.org) and [Mariven](https://n.cohomology.group/).
+
+These are the people engaged in the Great Work, I shall emulate their
+striving.
 
 ### Blogs
 
@@ -287,6 +284,8 @@ favorite social media site is [schelling.pt](https://schelling.pt)
 and my favorite forecasting/news sites are still the good
 ol' reliable [Metaculus](https://www.metaculus.com) and
 [Manifold Markets](https://manifold.markets/).
+
+† [Predictionbook](https://predictionbook.com).
 
 ### Newspapers
 

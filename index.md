@@ -83,7 +83,7 @@ of whom can ever feel secure in the love of a cold and distant parent?
 * [K-99: Ninety-Nine Klong Problems](./99_klong_problems.html)
 * [99 Problems Klong Solution](./99_problems_klong_solution.html)
 * [Nothing to See Here, Just An Implementation of HodgeRank](./hodge.html)
-* [Implementing Commutative Hyperoperators](./hyperoperators.html)
+* [Implementing Commutative Hyperoperations](./hyperoperators.html)
 
 #### Mathematics
 

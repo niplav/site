@@ -368,9 +368,9 @@ AA pretty much zero, 5 numbers (although only 2 non-flakey), 1 lay
 
 ### Uninteresting Weaseling #1
 
-Session on a friday evening. No approaches (I am a bitch). 12 bona-fide
-weasels, but I *am* getting closer to approaching again—gave multiple
-compliments, ~two of them to hot chicks.
+Session on a friday evening. No approaches (I am a little bitch). 12
+bona-fide weasels, but I *am* getting closer to approaching again—gave
+multiple compliments, ~two of them to hot chicks.
 
 Two standout moments.
 
