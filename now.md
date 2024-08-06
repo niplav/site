@@ -50,7 +50,6 @@ Reading
 
 Currently, I am actively reading the following texts:
 
-* An Infinitely Large Napkin (Evan Chen, 2023)
 * Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
 * Designing Data-Intensive Applications (Martin Kleppmann, 2017)
 * Daygame Nitro (Nick Krauser, 2014)

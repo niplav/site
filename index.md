@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2024-04-10, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2024-08-06, language: english, status: in progress, importance: 6, confidence: log*
 
 Content
 =======
@@ -164,9 +164,6 @@ Von dem Sichgeistigen des Lebens Jahre zählen.
 * [Solutions to “Population Genetics”](./pg_solutions.html)
 * [Solutions to “Maths for Intelligent Systems”](./mfis_solutions.html)
 * [Solutions to “An Infinitely Large Napkin”](./napkin_solutions.html)
-* [Solutions to “A Primer in Social Choice Theory”](./apisct_solutions.html)
-* [Solutions to “Pattern Recognition and Machine Learning”](./praml_solutions.html)
-* [Solutions to “Algorithmic Game Theory”](./agt_solutions.html)
 * [Exercises from “The Jazz Piano Book”](./tjpb_exercises.html)
 * [Administrativa for Textbooks](./administrativa_for_textbooks.html)
 

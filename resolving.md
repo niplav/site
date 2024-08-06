@@ -1265,68 +1265,58 @@ subgraphs.
 
 If the output of `HodgeResolve` is allowed to be a weak ordering, then
 the original definition of **Preservation of Consistent Subgraphs** does
-not apply, as it presumes a mapping $f$ from $\mathfrak{P}$ to
-$\mathfrak{C}$. However, the definition can easily be transferred by
-defining $f$ as a function from directed graphs to weakly consistent
-graphs, that is $f: \mathfrak{P}_{\Omega} \rightarrow
-\mathfrak{W}_{\Omega}$. The definition of **Preservation of Consistent
+not apply, as it presumes a mapping `$f$` from `$\mathfrak{P}$` to
+`$\mathfrak{C}$`. However, the definition can easily be transferred by
+defining `$f$` as a function from directed graphs to weakly consistent
+graphs, that is `$f: \mathfrak{P}_{\Omega} \rightarrow
+\mathfrak{W}_{\Omega}$`. The definition of **Preservation of Consistent
 Subgraphs** stays otherwise unchanged[^5].
 
 `HodgeResolve` does not fulfill **Preservation of Consistent
-Subgraphs**. Figure [7](#fig:hodgeres_counter){reference-type="ref"
-reference="fig:hodgeres_counter"} shows two graphs (both on the left in
-their respective subfigures). For the graph in the left subfigure no
+Subgraphs**. The following figure shows two graphs (both on the left
+in their respective subfigures). For the graph in the left subfigure no
 inclusion-maximal consistent subgraphs are preserved, for the right one
 all but one inclusion-maximal consistent subgraphs are preserved.
 
-<figure id="fig:hodgeres_counter">
-<figure id="fig:counter2">
-<img src="./img/resolving/hodge_no_preserve.png" />
-<figcaption><span class="math inline">1 → 2</span> is the only
-consistent subgraph, but it gets reversed.</figcaption>
-</figure>
-<figure id="fig:resolved2">
-<img src="./img/resolving/hodge_some_preserve.png" />
-<figcaption>Each edge is an inclusion-maximal consistent subgraph, and
-only the edge <span class="math inline">3 → 4</span> gets reversed. 1
-and 2 in the result have the same potential.</figcaption>
-</figure>
-<figcaption>On the left side a graph with 1 inclusion-maximal consistent
-subgraph and its resolution through <code>HodgeResolve</code>, and on
-the right side a graph with several inclusion-maximal consistent
-subgraphs and and its resolution through <code>HodgeResolve</code>. The
-labels at the edges are the gradients that <code>HodgeRank</code> has
-computed.</figcaption>
-</figure>
+![](./img/resolving/hodge_no_preserve.png)
 
-In the following table, $\text{AMSP}$ refers to
-$\text{AMSP}_{\mathtt{HodgeResolve}}$, and $\text{IMCS}$ refers to
-$\text{IMCS}_{\mathtt{HodgeResolve}}$.
+*`$1 \rightarrow 2$` is the only consistent subgraph, but it gets reversed.*
 
-::: center
-  $n$   Samplesize   Avg $|\text{IMCS}(G)|$   Avg $\text{AMSP}(G)$   Min $\text{AMSP}(G)$   Graphs with $\text{AMSP}(G)=1$
-  ----- ------------ ------------------------ ---------------------- ---------------------- --------------------------------
-  0     1            1                        1                      1                      1 (100%)
-  1     2            1                        1                      1                      2 (100%)
-  2     16           1.125                    1                      1                      16 (100%)
-  3     512          $\approx$ 1.32           $\approx$ 1            1                      512 (100%)
-  4     65536        $\approx$ 1.568          $\approx$ 0.978        0                      63232 ($\approx$ 96.5%)
-  5     33554432     $\approx$ 1.864          $\approx$ 0.932        0                      29373632 ($\approx$ 87.5%)
-  6     65536        $\approx$ 2.209          $\approx$ 0.879        0                      49680 ($\approx$ 75.8%)
-  7     65536        $\approx$ 2.612          $\approx$ 0.831        0                      41926 ($\approx$ 63.9%)
-  8     65536        $\approx$ 3.064          $\approx$ 0.783        0                      34227 ($\approx$ 52.2%)
-  9     65536        $\approx$ 3.567          $\approx$ 0.738        0                      27138 ($\approx$ 41.4%)
-  10    65536        $\approx$ 4.13           $\approx$ 0.701        0                      21349 ($\approx$ 32.6%)
-:::
+![](./img/resolving/hodge_some_preserve.png)
 
-With this data, Figure [8](#fig:preservationcomp){reference-type="ref"
-reference="fig:preservationcomp"} plots how well `EGEDmin` and
-`HodgeResolve` perform at preserving inclusion-maximal consistent
-subgraphs.
+*Each edge is an inclusion-maximal consistent subgraph, and only the edge `$3 \rightarrow 4$` gets reversed. 1 and 2 in the result have the same potential.*
 
-![Comparing `EGEDmin` and `HodgeResolve` at how well they perform on
-various metrics of preserving inclusion-maximal consistent
-subgraphs.](./img/resolving/preservations.png){#fig:preservationcomp}
+In the first image, a graph with 1 inclusion-maximal consistent subgraph
+and its resolution through `HodgeResolve`, and in the second image a graph
+with several inclusion-maximal consistent subgraphs and and its resolution
+through `HodgeResolve`. The labels at the edges are the gradients that
+`HodgeRank` has computed.
+
+In the following table, `$\text{AMSP}$` refers to
+`$\text{AMSP}_{\mathtt{HodgeResolve}}$`, and `$\text{IMCS}$` refers to
+`$\text{IMCS}_{\mathtt{HodgeResolve}}$`.
+
+| $n$  |Samplesize  |Avg `$\#(\text{IMCS}(G))$`|Avg $\text{AMSP}(G)$  |Min $\text{AMSP}(G)$  |Graphs with $\text{AMSP}(G)=1$  |
+| -----|------------|--------------------------|----------------------|----------------------|--------------------------------|
+| 0    |1           |1                         |1                     |1                     | 1 (100%)                       |
+| 1    |2           |1                         |1                     |1                     | 2 (100%)                       |
+| 2    |16          |1.125                     |1                     |1                     | 16 (100%)                      |
+| 3    |512         |$\approx$ 1.32            |$\approx$ 1           |1                     | 512 (100%)                     |
+| 4    |65536       |$\approx$ 1.568           |$\approx$ 0.978       |0                     | 63232 ($\approx$ 96.5%)        |
+| 5    |33554432    |$\approx$ 1.864           |$\approx$ 0.932       |0                     | 29373632 ($\approx$ 87.5%)     |
+| 6    |65536       |$\approx$ 2.209           |$\approx$ 0.879       |0                     | 49680 ($\approx$ 75.8%)        |
+| 7    |65536       |$\approx$ 2.612           |$\approx$ 0.831       |0                     | 41926 ($\approx$ 63.9%)        |
+| 8    |65536       |$\approx$ 3.064           |$\approx$ 0.783       |0                     | 34227 ($\approx$ 52.2%)        |
+| 9    |65536       |$\approx$ 3.567           |$\approx$ 0.738       |0                     | 27138 ($\approx$ 41.4%)        |
+| 10   |65536       |$\approx$ 4.13            |$\approx$ 0.701       |0                     | 21349 ($\approx$ 32.6%)        |
+
+With this data, the next plot shows how well `EGEDmin` and `HodgeResolve`
+perform at preserving inclusion-maximal consistent subgraphs.
+
+![Comparing `EGEDmin` and `HodgeResolve` at how well they perform on various metrics of preserving inclusion-maximal consistent subgraphs.](./img/resolving/preservations.png)
+
+*Comparing `EGEDmin` and `HodgeResolve` at how well they perform on
+various metrics of preserving inclusion-maximal consistent subgraphs.*
 
 One can see that on average, `EGEDmin` preserves inclusion-maximal
 consistent subgraphs more often, and may also retain all
