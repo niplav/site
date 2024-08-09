@@ -224,5 +224,6 @@ See Also
 ---------
 
 * [OpenFUS](https://github.com/louislva/openFUS/tree/master)
+* [Nudge](https://www.nudge.com/)
 * [The Startup Landscape for Expanding Consciousness (Greg Kubin/Scott Britton, 2023)](https://scottbritton.substack.com/p/the-startup-landscape-for-expanding)
 * [Wireheading Done Right: Stay Positive Without Going Insane (Andrés Gómez-Emilsson, 2016)](https://qualiacomputing.com/2016/08/20/wireheading_done_right/)

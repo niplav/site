@@ -97,9 +97,10 @@ years (this distinction is not central to the following analysis, though).
 
 The __horizon__ of a set of forecasts is the range at which these
 forecasts are as good as chance, i.e. as random guessing. Similarly,
-one can speak of the horizon of a forecaster (the range at which the
-forecaster could just as well guess the predictions) and of a forecasting
-platform.
+one can speak of the horizon of a forecaster (the range at which
+the forecaster could just as well guess the predictions) and of a
+forecasting platform. It's conceptually similar to the [Lyapunov
+time](https://en.wikipedia.org/wiki/Lyapunov_time).
 
 -----
 
