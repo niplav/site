@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-07-31, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-08-07, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,18 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Bush robot (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Bush_robot)
+* [When will Alexander Lukashenko leave power in Belarus? (jzima, 2021)](https://www.metaculus.com/questions/6556/when-will-lukashenko-leave-power-in-belarus/)
+* [Who will be the Democratic nominee for the 2024 US Presidential Election? (Joe Biden) → Will a Democrat win the 2024 US presidential election? (NMorrison, 2024)](https://www.metaculus.com/questions/21475/conditional-democratic-president-wins-2024-election/)
+* [When will we have transformative AI? (will_aldred, 2023)](https://www.metaculus.com/questions/19356/transformative-ai-date/)
+* [AI #75: Math is Easier (Zvi, 2024)](https://www.lesswrong.com/posts/2p5suvWod4aP8S3S4/ai-75-math-is-easier)
+* Transcranial ultrasound (TUS) reduces worry in a five-day double-blind pilot study (Samantha J Reznik/J. L. Sanguinetti/John JB Allen, 2014)
+* [AI Act: Have Your Say on Trustworthy General-Purpose AI (European Commission, 2024)](https://digital-strategy.ec.europa.eu/en/consultations/ai-act-have-your-say-trustworthy-general-purpose-ai)
+* [AI Act: Participate in the drawing-up of the first General-Purpose AI Code of Practice (European Commission, 2024)](https://digital-strategy.ec.europa.eu/en/news/ai-act-participate-drawing-first-general-purpose-ai-code-practice)
+* [Seeking your views: Public consultation on risk thresholds for advanced AI systems – Deadline 10 September (OECD Organisation for Economic Co-operation and Development, 2024)](https://oecd.ai/en/wonk/seeking-your-views-public-consultation-on-risk-thresholds-for-advanced-ai-systems-deadline-10-september)
+* |10 Money-Pump Arguments (Johan E. Gustafsson, 2022)
+* Story of Your Life (Ted Chiang, 1998)
+* [Safer Agentic AI Foundations (Ali Hessami/Nell Watson, 2024)](https://static1.squarespace.com/static/52d6e9eee4b0201eed8b8bef/t/664dd08f6208193409efd89b/1716375697723/Safer+Agentic+AI+Foundations+Early+Draft+Overview+May+22nd.pdf)
 * [Hints of Life’s Start Found in a Giant Virus (Carrie Arnold, 2014)](https://www.quantamagazine.org/were-giant-viruses-the-first-life-on-earth-20140710/)
 * [A Bold Critic of the Big Bang’s ‘Smoking Gun’ (Peter Byrne, 2014)](https://www.quantamagazine.org/a-bold-critic-of-the-big-bangs-smoking-gun-20140703/)
 * [Early-Universe Explorer Looks for Answers (Peter Byrne, 2014)](https://www.quantamagazine.org/chao-lin-kuo-early-universe-explorer-looks-for-answers-in-bicep2-and-beyond-20140703/)

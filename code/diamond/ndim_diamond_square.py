@@ -17,8 +17,8 @@ def create_space(dim, size, minval, maxval, factor):
 	maxval. Returns a ℕ^{size} array."""
 	return ndim_diamond_square_rec(space, dim, size, offsets, minval, maxval, factor)
 
-def ndim_diamond_square_rec (space, dim, size, offsets, minval, maxval, factor):
-	if size==1:
+def ndim_diamond_square_rec(space, dim, size, offsets, minval, maxval, factor):
+	if size<=1:
 		return
 
 	nsize=size//2

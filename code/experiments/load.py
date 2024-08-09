@@ -68,6 +68,16 @@ def get_masturbations():
 
 	return masturbations
 
+def get_datasets_fn(experiment_fn, control_fn, intervention_fn):
+	"""Return datasets.
+	* `experiment_fn` receives a dataframe and returns the rows that
+	were in that experiment.
+	* `control_fn` receives a dataframe and returns the rows that
+	were in the control group
+	* `intervention_fn` receives a dataframe and returns the rows
+	that were in the intervention group (usually this is just
+	`not control_fn`)"""
+
 def get_datasets(experiment, substance, placebo):
 	substances=pd.read_csv('../../data/substances.csv')
 

@@ -37,3 +37,41 @@ Solutions to “From Zero to Geo”
 3. `$\overset{\rightarrow}{v}_3$`: `$[3, 0]$`
 4. `$\overset{\rightarrow}{v}_4$`: `$\overset{\rightarrow}{0}$`
 5. `$\overset{\rightarrow}{v}_5$`: `$[-3, -3]$`
+
+1.3
+----
+
+### 1
+
+1. `$\overset{\rightarrow}{v}_1+\overset{\rightarrow}{v}_1=[6, 0]$`
+2. `$\overset{\rightarrow}{v}_2+\overset{\rightarrow}{v}_3=[1, -2]$`
+3. `$\overset{\rightarrow}{v}_5+\overset{\rightarrow}{v}_1=[-3, -2]$`
+4. `$\overset{\rightarrow}{v}_4+3\overset{\rightarrow}{v}_3=[0, -4]$`
+5. `$3\overset{\rightarrow}{v}_3+\overset{\rightarrow}{v}_1=[0, 0]$`
+
+### 2
+
+Subtraction:
+`$\overset{\rightarrow}{v}_1-\overset{\rightarrow}{v}_2=\overset{\rightarrow}{v}_1+-1
+\cdot \overset{\rightarrow}{v}_2$`.
+
+Geometrically: Turn around `$\overset{\rightarrow}{v}_2$`, then
+walk along `$\overset{\rightarrow}{v}_1$` and then along the turned
+`$\overset{\rightarrow}{v}_2$`.
+
+### 3
+
+1. `$\overset{\rightarrow}{v}_1$`: `$[-3, 0]$`
+2. `$\overset{\rightarrow}{v}_2$`: `$[0, 1]$`
+3. `$\overset{\rightarrow}{v}_3$`: `$[-1, 0]$`
+4. `$\overset{\rightarrow}{v}_4$`: `$[-3, 4]$`
+5. `$\overset{\rightarrow}{v}_5$`: `$[2, 2]$`
+
+### 4
+
+
+1. `$\overset{\rightarrow}{v}_1-\overset{\rightarrow}{v}_2=[3, 2]$`
+2. `$\overset{\rightarrow}{v}_5-\overset{\rightarrow}{v}_3=[-1, -2]$`
+3. `$\overset{\rightarrow}{v}_4-\overset{\rightarrow}{v}_1=[0, -4]$`
+4. `$\overset{\rightarrow}{v}_1-\overset{\rightarrow}{v}_3=[4, 0]$`
+5. `$\overset{\rightarrow}{v}_4-\overset{\rightarrow}{v}_4=[0, 0]$`

@@ -723,8 +723,7 @@ options into consistent preferences is to apply the `HodgeRank`
 algorithm by Jiang et al. to an unweighted graph `$G$` [Jiang et al.
 2009](./doc/preference/statistical_ranking_and_combinatorial_hodge_theory_jiang_et_al_2011.pdf).
 
-`HodgeRank` is described in further detail in section
-[4.3.1](#sec:hodgerank){reference-type="ref" reference="sec:hodgerank"}.
+`HodgeRank` is described in further detail in section [4.3.1](#HodgeRank).
 
 To apply `HodgeRank` to unweighted graphs one simply sets both weights
 of each edge to 1 (for `$e \in E$` it is then the case that `$w(e)=1$`,
@@ -917,21 +916,23 @@ However, results from two different fields apply to this case.
     [@banks2000positive] to elements from `$\mathbf{C}_G$` by treating
     them as individual preferences in a preference profile by applying a
     social welfare function in sense of Arrow to it [@gaertner2009primer
-    ch.2]. Some impossibility results such as Arrow's theorem
-    [@arrow1950difficulty] still apply, but at least results about
-    tactical voting (such as the Gibbard-Satterthwaite theorem
-    [@gibbard1973manipulation]) are irrelevant in this case, since the
-    inconsistent preference does not "control" outputs of $f$, and there
-    are no reasons for manipulation.
+    ch.2]. Some impossibility results such as [Arrow's impossibility
+    theorem](https://en.wikipedia.org/wiki/Arrow's_Impossibility_Theorem)
+    still apply, but at least results about
+    tactical voting (such as the [Gibbard-Satterthwaite
+    theorem](https://en.wikipedia.org/wiki/Gibbard-Satterthwaite_theorem)
+    are irrelevant in this case, since the inconsistent preference
+    does not "control" outputs of `$f$`, and there are no reasons for
+    manipulation.
 
 -   **Moral Uncertainty**: MacAskill et al. outline how to make
-    decisions given multiple ethical theories and credences on those
-    ethical theories, using the so-called Maximum Expected
-    Choiceworthiness rule [MacAskill et al. 2020, ch.
-    2](./doc/philosophy/ethics/moral_uncertainty_macaskill_et_al_2020.pdf "Moral Uncertainty").
-    In the case of ordinal preferences, they use the [Borda
-    count](https://en.wikipedia.org/wiki/Borda_Count) for establishing
-    cardinal values for options.
+    decisions given multiple ethical theories and
+    credences on those ethical theories, using the so-called
+    Maximum Expected Choiceworthiness rule [MacAskill et al. 2020, ch.
+    2](./doc/philosophy/ethics/moral_uncertainty_macaskill_et_al_2020.pdf#%5B%7B%22num%22%3A435%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22Fit%22%7D%5D
+    "Moral Uncertainty").  In the case of ordinal preferences, they
+    use the [Borda count](https://en.wikipedia.org/wiki/Borda_Count)
+    for establishing cardinal values for options.
 
 #### Resolution to Polynomially Many Preferences
 
@@ -1326,56 +1327,56 @@ conclude without doubt).
 
 ### Preservation of Completely Dominating and Dominated Set
 
-Inclusion-maximal consistent subgraphs are a way of formalizing what it
-means for a preference to be *locally* consistent: there is some subset
-of $\Omega$ so that the preferences are not "confused" about this
-subset. One can also try to find a corresponding condition that would
-make a statement about *global* consistency. Voting theory offers some
-#inspiration here: the **minimal undominated set** (also **Condorcet
-set**) [@miller1977graph] is defined for every tournament $T=(V_T, E_T)$
-as a set of vertices $V^*\subseteq V_T$ so that (1) there is no edge
-from $V_T \backslash V^*$ to $V^*$ and (2) there is no proper subset of
-$V^*$ that meets (1).
+Inclusion-maximal consistent subgraphs are a way of formalizing
+what it means for a preference to be *locally* consistent:
+there is some subset of `$\Omega$` so that the preferences are
+not "confused" about this subset. One can also try to find
+a corresponding condition that would make a statement about
+*global* consistency. Voting theory offers some inspiration
+here: the **minimal undominated set** (also **Condorcet set**) [Miller
+1977](./doc/voting_theory/graph_theoretical_approaches_to_the_theory_of_voting_miller_1977.pdf)
+is defined for every tournament `$T=(V_T, E_T)$` as a set of vertices
+`$V^*\subseteq V_T$` so that (1) there is no edge from `$V_T \backslash
+V^*$ to $V^*$` and (2) there is no proper subset of `$V^*$` that meets
+(1).
 
 One can create a related (but weaker) definition for directed graphs:
 
-![image](./img/resolving/dominance.png){width="0.6\\linewidth"}
+![image](./img/resolving/dominance.png)
 
-For a given $G$, let $\Sigma_1, \Sigma_2$ be non-empty sets of vertices
-of $G$ such that $\Sigma_1 \uplus \Sigma_2=\Omega$. Then $\Sigma_1$ is a
-**completely dominating set** and $\Sigma_2$ is a **completely dominated
-set** if and only if $\forall \sigma_1
+For a given `$G$`, let `$\Sigma_1, \Sigma_2$` be non-empty sets of vertices
+of `$G$` such that `$\Sigma_1 \uplus \Sigma_2=\Omega$`. Then `$\Sigma_1$` is a
+**completely dominating set** and `$\Sigma_2$` is a **completely dominated
+set** if and only if `$\forall \sigma_1
 \in \Sigma_1, \sigma_2 \in \Sigma_2: (\sigma_1, \sigma_2) \in E \land
-(\sigma_2, \sigma_1) \not \in E$.
+(\sigma_2, \sigma_1) \not \in E$`.
 
 This means that all elements in a completely dominating set are strictly
-preferred to all elements in a completely dominated set---there is a
+preferred to all elements in a completely dominated set—there is a
 subset of options that are clearly better than all other options.
 
 A change from the Condorcet set is that we don't demand the completely
 dominating set to be minimal (which would always make the empty set the
 completely dominating set). Additionally, the completely dominating set
-is not unique: In an acyclic tournament, for $1 \le i \le |\Omega|$ the
-$i$ greatest elements form a dominating set.
+is not unique: In an acyclic tournament, for `$1 \le i \le |\Omega|$`
+the `$i$` greatest elements form a dominating set.
 
 A completely dominating set then represents a global consistency in the
-preference: within $\Sigma_1$ and $\Sigma_2$ we are unsure about our
-preference, but we know that any element of $\Sigma_1$ is better than
+preference: within $\Sigma_1$ and `$\Sigma_2$` we are unsure about our
+preference, but we know that any element of `$\Sigma_1$` is better than
 any element of $\Sigma_2$.
 
-::: definition
-**Definition 10**. A function
-$f: \mathfrak{P} \rightarrow \mathcal{P}(\mathfrak{C})$ fulfills
-**Preservation of Complete Domination** if and only if for any directed
-graph $G$ with a completely dominating set $\Sigma_1$ and a completely
-dominated set $\Sigma_2$ it holds that $\forall C \in f(G)$ the set of
-nodes $\Sigma_1$ is a completely dominating set of $\Sigma_2$ in $C$.
-:::
+**Definition 10**. A function `$f: \mathfrak{P} \rightarrow
+\mathcal{P}(\mathfrak{C})$` fulfills **Preservation of Complete
+Domination** if and only if for any directed graph `$G$` with a completely
+dominating set `$\Sigma_1$` and a completely dominated set `$\Sigma_2$`
+it holds that `$\forall C \in f(G)$` the set of nodes `$\Sigma_1$`
+is a completely dominating set of `$\Sigma_2$` in `$C$`.
 
-**Proposition 3**. Let $f$ be a function that fulfills **Preservation of
-Complete Domination**. If for a graph $G$ there are $n$ sets of vertices
-$\Sigma_1,
-\dots, \Sigma_n$ so that $\biguplus_{i=1}^n \Sigma_i=\Omega$ and
+**Proposition 3**. Let `$f$` be a function that fulfills **Preservation
+of Complete Domination**. If for a graph `$G$` there are `$n$` sets
+of vertices `$\Sigma_1, \dots, \Sigma_n$ so that $\biguplus_{i=1}^n
+\Sigma_i=\Omega$` and
 
 <div>
 	$$\forall c \in \{1, \dots, n\}: \bigcup_{i=1}^c \Sigma_i \text{ completely dominates } \bigcup_{j=c+1}^n \Sigma_j$$,
@@ -1403,85 +1404,76 @@ quite similar to graph quotients, but is somewhat stricter (demanding
 that each `$\sigma_i \in
 \Sigma_i$` be preferred to each other `$\sigma_j \in \Sigma_j$`).
 
-::: remark
 **Remark 2**. Preservation of complete domination implies some other
 criteria: If there is a consistent subgraph which is a completely
 dominating set, then it will comprise the "greatest" subgraph in the
 resolved preference, with the greatest element in $G$ also being the
 greatest element in $f(G)$. The same holds for the a completely
 dominated consistent subgraph, which stays at the bottom.
-:::
 
 #### Minimizing Graph-Edit Distance
 
-::: theorem
-#**Theorem 9**. `EGEDmin` fulfills **Preservation of Complete
-Domination**.
-:::
+**Theorem 9**. `EGEDmin` fulfills **Preservation of Complete Domination**.
 
-::: proof
-*Proof.* Let $C=(\Omega, E_C)$, with $C \in \mathtt{EGEDmin}(G)$ be a
-consistent graph for a directed graph $G$, where $G$ has a completely
-dominating set $\Sigma_1$ and a completely dominated set $\Sigma_2$.
-Assume $C$ does not have the completely dominating set $\Sigma_1$, and
-let $n=\mathtt{EGED}(G,C)$. Then there must be a "highest" or "largest"
-$\sigma_2 \in \Sigma_2$ in $C$ (one for which there is no other
-$\sigma_2' \in \Sigma_2$ so that $\sigma_2' \rightarrow \sigma_2$ is an
-edge in $C$). There must also be a "highest" or "largest"
-$\sigma_1^* \in \Sigma_1$ so that $\sigma_2
-\rightarrow \sigma_1^*$ is an edge in $C$.
+*Proof.* Let `$C=(\Omega, E_C)$`, with `$C \in \mathtt{EGEDmin}(G)$` be a
+consistent graph for a directed graph `$G$`, where `$G$` has a completely
+dominating set `$\Sigma_1$` and a completely dominated set `$\Sigma_2$`.
+Assume `$C$` does not have the completely dominating set `$\Sigma_1$`, and
+let `$n=\mathtt{EGED}(G,C)$`. Then there must be a "highest" or "largest"
+`$\sigma_2 \in \Sigma_2$` in `$C$` (one for which there is no other
+`$\sigma_2' \in \Sigma_2$` so that `$\sigma_2' \rightarrow \sigma_2$` is an
+edge in `$C$`). There must also be a "highest" or "largest"
+`$\sigma_1^* \in \Sigma_1$` so that `$\sigma_2
+\rightarrow \sigma_1^*$` is an edge in `$C$`.
 
-Let there be $m \ge 0$ elements of $\Sigma_1$ "between" $\sigma_2$ and
-$\sigma_1^*$, that is for $\Sigma_2^*=\{\sigma_2^*| \sigma_2 \rightarrow
-\sigma_2^* \in E_C\ \land \sigma_2^* \rightarrow \sigma_1^* \in E_C\}$
-it holds that $\Sigma_2^*=m$.
+Let there be `$m \ge 0$` elements of `$\Sigma_1$` "between" `$\sigma_2$`
+and `$\sigma_1^*$`, that is for `$\Sigma_2^*=\{\sigma_2^*| \sigma_2
+\rightarrow \sigma_2^* \in E_C\ \land \sigma_2^* \rightarrow \sigma_1^*
+\in E_C\}$` it holds that `$\Sigma_2^*=m$`.
 
-One can now create a $C'$ from $C$ so that
-$\mathtt{EGED}(G, C')=n-2(m+1)$ by moving $\sigma_1^*$ into the position
-directly above $\sigma_2$ by reversing the edges
-$\sigma_2 \rightarrow \sigma_1^*$ and $\sigma_2^*
-\rightarrow \sigma_1^*$ for all $\sigma_2^* \in \Sigma_2^*$. The
-modified $C'$ now contains some edges from $G$ that need to be reversed
-to create $C$: $\sigma_1^* \rightarrow \sigma_2$ and
-$\{\sigma_1^* \rightarrow
-\sigma_2^* | \sigma_2^* \in \Sigma_2^*\}$ are already edges in $G$, and
-because edge reversals have weight 2 (deleting and then adding one
-edge), this saves $2(m+1)$ edge operations.
+One can now create a `$C'$` from `$C$` so that `$\mathtt{EGED}(G,
+C')=n-2(m+1)$` by moving `$\sigma_1^*$` into the position directly above
+`$\sigma_2$` by reversing the edges `$\sigma_2 \rightarrow \sigma_1^*$`
+and `$\sigma_2^* \rightarrow \sigma_1^*$` for all `$\sigma_2^* \in
+\Sigma_2^*$`. The modified `$C'$` now contains some edges from `$G$`
+that need to be reversed to create `$C$`: `$\sigma_1^* \rightarrow
+\sigma_2$` and `$\{\sigma_1^* \rightarrow \sigma_2^* | \sigma_2^* \in
+\Sigma_2^*\}$` are already edges in `$G$`, and because edge reversals
+have weight 2 (deleting and then adding one edge), this saves `$2(m+1)$`
+edge operations.
 
-Furthermore all other edge operations to minimally achieve $C$ from $G$
-can be held constant to create $C'$, so that the graph-edit distance is
-not changed otherwise. $C'$ is now an acyclic tournament with a smaller
-edge-graph-edit distance from $G$ than $C$. Thus all other outputs
-$\mathbf{C}=\mathtt{EGEDmin}(G)$ must also have a smaller
-edge-graph-edit distance than $C$ has to $G$.
+Furthermore all other edge operations to minimally achieve `$C$` from
+`$G$` can be held constant to create `$C'$`, so that the graph-edit
+distance is not changed otherwise. `$C'$` is now an acyclic tournament
+with a smaller edge-graph-edit distance from `$G$` than `$C$`. Thus
+all other outputs `$\mathbf{C}=\mathtt{EGEDmin}(G)$` must also have a
+smaller edge-graph-edit distance than `$C$` has to `$G$`.
 
-If $C'$ does not have the same completely dominating set $\Sigma_1$ that
-$G$ has, one can create a new graph $C''$ by finding a new "highest"
-$\sigma_2$ and corresponding $\sigma_1^*$ and switching them. This $C''$
-again has shorter edge-graph-edit distance.
+If `$C'$` does not have the same completely dominating set `$\Sigma_1$`
+that `$G$` has, one can create a new graph `$C''$` by finding a new
+"highest" `$\sigma_2$` and corresponding `$\sigma_1^*$` and switching
+them. This `$C''$` again has shorter edge-graph-edit distance.
 
-This process can be repeated as long as $\Sigma_1$ is not a completely
+This process can be repeated as long as `$\Sigma_1$` is not a completely
 dominating set in the consistent graph, monotonically decreasing the
 edge-graph-edit distance, until no further such modifications can be
 found.
 
 The final consistent graph resulting from this process contains
-$\Sigma_1$ as a completely dominating set: Every $\sigma_1 \in \Sigma_1$
-has a one-directional edge to every $\sigma_2 \in \Sigma_2$. ◻
-:::
+`$\Sigma_1$` as a completely dominating set: Every `$\sigma_1
+\in \Sigma_1$` has a one-directional edge to every `$\sigma_2 \in
+\Sigma_2$`. ◻
 
 #### Applying `HodgeRank`
 
-::: {#conj:hodgedom .conjecture}
-#**Conjecture 5**. $\mathtt{HodgeResolve}(G)$ fulfills **Preservation of
-Complete Domination** for every $G \in \mathfrak{P}$.
-:::
+**Conjecture 5**. `$\mathtt{HodgeResolve}(G)$` fulfills **Preservation
+of Complete Domination** for every `$G \in \mathfrak{P}$`.
 
 This conjecture holds for all directed graphs with 5 nodes or less, by
-computational experiment, and for random samples of graphs ($2^{16}$
-graphs generated for each number of nodes, using the Erdős-Rényi model
-[@erdHos1960evolution] with the probability $\frac{1}{2}$ of edge
-creation) with up to 13 nodes.
+computational experiment, and for random samples of graphs (`$2^{16}$`
+graphs generated for each number of nodes, using the [Erdős-Rényi
+model](https://en.wikipedia.org/wiki/Erdos-Renyi_model) with the
+probability `$\frac{1}{2}$` of edge creation) with up to 13 nodes.
 
 ## Summary
 
@@ -1917,10 +1909,14 @@ that comprise the edge.
 
 An edge weight can be for example the arithmetic mean
 
-$$w_{\mathcal{C}}(\omega_1 \rightarrow \omega_2)=\frac{\sum_{i=1}^n \mathcal{C}_{i, \omega_2}-\mathcal{C}_{i, \omega_1}}{|\{n|\mathcal{C}_{n, \omega_1}, \mathcal{C}_{n, \omega_2} \text{ both } \not=\mathtt{nan}\}|}$$
+<div>
+	$$w_{\mathcal{C}}(\omega_1 \rightarrow \omega_2)=\frac{\sum_{i=1}^n \mathcal{C}_{i, \omega_2}-\mathcal{C}_{i, \omega_1}}{|\{n|\mathcal{C}_{n, \omega_1}, \mathcal{C}_{n, \omega_2} \text{ both } \not=\mathtt{nan}\}|}$$
+</div>
 
-though [@jiang2011statistical] also discuss using other methods such as
-the geometric mean or the ratio of preference to dispreference.
+though [Jiang et al
+2015](./doc/preference/statistical_ranking_and_combinatorial_hodge_theory_jiang_et_al_2011.pdf)
+also discuss using other methods such as the geometric mean or the ratio
+of preference to dispreference.
 
 If every voter assigns `nan` to both $\omega_1$ and $\omega_2$, there is
 no edge between the two options.

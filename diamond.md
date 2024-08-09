@@ -68,10 +68,28 @@ Here, `get_cornerspos` is just the one-liner
 We then intialize the variable `offsets`, and call the recursive
 diamond-square algorithm:
 
-	offsets=[np.array([0]*dim)]
-	return ndim_diamond_square_rec(space, dim, size, offsets, minval, maxval, factor)
+		offsets=[np.array([0]*dim)]
+		return ndim_diamond_square_rec(space, dim, size, offsets, minval, maxval, factor)
 
 ### Diamond
+
+The diamond step of the algorithm starts out with the base case: If the
+space is only one element big, we return and do nothing (assuming the
+value has been filled in):
+
+	def ndim_diamond_square_rec(space, dim, size, offsets, minval, maxval, factor):
+		if size<=1:
+			return
+
+We also have to update the size of any axis in the space (*not* the size
+of the space itself), we are halving this every recursive call.
+
+		nsize=size//2
+
+Now we come to `offsets`. Remember above when after the first square
+step, we moved into a diamond step on the smaller squares? `offsets`
+describes where the "left lower corner" of those smaller squares is. We
+initialized it with zeros, that way we start in a definite corner.
 
 ### Square
 
