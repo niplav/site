@@ -649,7 +649,7 @@ of my own experiments:
 
 *—Dschelāladdīn Rūmī, “Am Ende bist du entschwunden”, 1256*
 
-Appendix B: The code for Analyzing The Caffeine Data
+Appendix B: The Code for Analyzing The Caffeine Data
 -----------------------------------------------------
 
 I realised the code for this wasn't interesting to probably anyone,

@@ -622,7 +622,7 @@ Tests:
 It is probably slower than a more naïve
 [Fischer-Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
 like equivalent `s25::{(#x){p::_.rn()*#x;(x@p),s20(x;p+1)}:*x}`, since
-Grade-Up `<` sorts the list, which results in a `$\cal{O}(n*log(n))$` time
+Grade-Up `<` sorts the list, which results in a `$\cal{O}(n \cdot log(n))$` time
 complexity, while Fischer-Yates is just `$\cal{O}(n)$`.
 
 One can then measure the runtimes of these two functions and generate
@@ -724,12 +724,12 @@ concatenated with the sets from the first call of `s26`. The results
 are then passed, and the same procedure is repeated for subsets of size 4.
 
 `a1` is not a very efficient implementation of set difference (it seems
-to have a quadratic run-time of `$\cal{O}(n*m)$`). But it is short and easy to
+to have a quadratic run-time of `$\cal{O}(n \cdot m)$`). But it is short and easy to
 implement: it filters out all elements out of `x` that can be found in
 `y`. The quadratic run-time can thus be explained easily: For each
 element in x; that element has to be searched in `y`, resulting in
 [a runtime](https://en.wikipedia.org/wiki/Big_O_notation#Product) of
-`$\cal{O}(n)*\cal{O}(m)=\cal{O}(n*m)$`, where `$n$` is the size of `x` and `$m$` is the
+`$\cal{O}(n) \cdot \cal{O}(m)=\cal{O}(n \cdot m)$`, where `$n$` is the size of `x` and `$m$` is the
 size of `y`.
 
 `s27` is basically a recursive version of `group3`, producing just the
@@ -2062,8 +2062,8 @@ around 100000 trees:
 	108675
 
 If Range takes around 2.1 seconds for 1000 elements, one can predict that
-it would take roughly `$2.1s*2^{100} \approx 2.662*10^{30}s$`, which would be
-`$2.662*10^{30}s*\frac{1y}{3600s*24*365} \approx 8.44*10^{22}y$`. This is
+it would take roughly `$2.1s \cdot 2^{100} \approx 2.662 \cdot 10^{30}s$`, which would be
+`$2.662 \cdot 10^{30}s \cdot \frac{1y}{3600s \cdot 24 \cdot 365} \approx 8.44*10^{22}y$`. This is
 of course only a rough estimate, and may turn out to be entirely wrong
 if Group and Range don't have an exponential time complexity after all.
 
