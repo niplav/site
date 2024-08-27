@@ -114,7 +114,7 @@ Additional variables I could take into account would be my enjoyment
 of the approach, the attractiveness of the woman I'm speaking to, the
 amount of time I'm spending between approaches, …
 
-I will, however, exercise my judgement: I will *probably* take a closer
+I will, however, exercise my judgement: I'll *probably* take a closer
 look at 76108, even if I don't feel very enthusiastic about it.
 
 <!--

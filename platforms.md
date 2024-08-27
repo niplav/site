@@ -281,6 +281,15 @@ I can now score the market:
 
 Honestly: The market did pretty well.
 
+0.744 Bits of Evidence for Futarchy
+------------------------------------
+
+The [maximum entropy
+distribution](https://en.wikipedia.org/wiki/Maximum_entropy_distribution)
+for a given mean on the positive
+[reals](https://en.wikipedia.org/wiki/Real_Numbers) is the [exponential
+distribution](https://en.wikipedia.org/wiki/Exponential_distribution).
+
 Acknowledgements
 -----------------
 

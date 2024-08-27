@@ -7,9 +7,9 @@
 [frequently claim](#Examples_for_the_Claim) that abstinence from
 masturbation causally increases male attractiveness.__  
 > __I present a method to test this claim (albeit imperfectly) by
-approaching 100 women in the street after >90 days of abstinence
+approaching 50 women in the street after >90 days of abstinence
 from masturbation and after a short conversation asking them for
-their contact information, and 100 again after a week of daily
+their contact information, and 50 again after a week of daily
 masturbation. The results are analyzed using a [Mann-Whitney
 U-test](https://en.wikipedia.org/wiki/Mann-Whitney_U_test)
 and various [descriptive statistical
@@ -83,7 +83,7 @@ NoFap community](https://nofap.com/rebooting/): "NoFap’s gold
 standard of success is our 90-day reboot.").
 
 From \_ to \_, I went on the streets of a major european city
-and approached 100 people I read as women, usually via a [Yad
+and approached 50 people I read as women, usually via a [Yad
 stop](https://thomascrownpua.com/2023/04/21/qa-what-do-you-think-of-the-yad-stop/).
 The women who were approached were chosen by how attractive I found them.
 
@@ -94,7 +94,7 @@ In the week following the last approach, I masturbated once every day
 with the aid of pornography<!--TODO: link the pornography consumed during
 that time-->.
 
-Afterwards, I repeated the procedure of approaching 100 women in the
+Afterwards, I repeated the procedure of approaching 50 women in the
 same manner from \_ to \_.
 
 Data that was logged included date and time of day (in
@@ -160,7 +160,7 @@ Code:
 	.l("nplot")
 	.l("./load.kg")
 
-	cgrid(["ignored" "stopped" "name" "rejection" "flake" "fizzle" "date" "sex"];[0 100 10])
+	cgrid(["ignored" "stopped" "name" "rejection" "flake" "fizzle" "date" "sex"];[0 50 5])
 
 	text(20;400;"white: during abstinence, before masturbation, black: after masturbation")
 
@@ -386,7 +386,7 @@ experiments, I didn't do them for several reasons:
 	been very low, since I assigned a very low credence to the validity
 	of the central claim altogether.
 
-### Learning Effect During First 100 Half
+### Learning Effect During First 50 Half
 
 Conclusion
 ----------
@@ -469,7 +469,7 @@ data to test my code and figures against. I decided to generate the
 data programatically, since that would make testing and experimenting
 much easier. I used the following code to generate the dummy data:
 
-	probes::100
+	probes::50
 
 	dur::[0.1 0.2 0.25 0.3 0.75 0.9 0.98]
 	aft::[0.1 0.2 0.25 0.3 0.75 0.9 0.98]
@@ -495,7 +495,7 @@ much easier. I used the following code to generate the dummy data:
 	.p({x,"
 	",y}/d)
 
-`probes` is the number of samples generated for each scenario (100 each
+`probes` is the number of samples generated for each scenario (50 each
 for men & for women, each for during & after abstinence). `fdur`, `mdur`,
 `faft` and `maft` give the probability of progressing after a certain
 probability in the funnel. `d` is then filled with `probes` datapoints
@@ -527,7 +527,7 @@ this data fails to reject H₀:
 	    two-sided p-value:           0.2680
 
 	Details:
-	    number of observations in each group: [100, 100]
+	    number of observations in each group: [50, 50]
 	    Mann-Whitney-U statistic:             4571.5
 	    rank sums:                            [9621.5, 10478.5]
 	    adjustment for ties:                  868776.0
@@ -559,7 +559,7 @@ and tested the hypothesis again:
 	    two-sided p-value:           0.0184
 
 	Details:
-	    number of observations in each group: [100, 100]
+	    number of observations in each group: [50, 50]
 	    Mann-Whitney-U statistic:             4070.5
 	    rank sums:                            [9120.5, 10979.5]
 	    adjustment for ties:                  585144.0

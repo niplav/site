@@ -491,34 +491,6 @@ Texts
 		10000 hours over 10 years (~2h every day on average, plus
 		2 retreats a year), then report back what the effects were
 	* frame as experiment (is that actually legit?)
-* Proposed Solutions to Pascal's Mugging
-	* Bite the Bullet
-	* Abandon Utility-Maximization
-	* Bounded Probability
-	* Bounded Utility
-	* Abstain From Assigning Probabilities to Some Events
-		* Probability of X is undefined
-	* Maxipok
-	* Links to relevant texts here:
-		* <https://gwern.net/mugging>
-		* <https://gwern.net/Mugging-DP>
-		* <https://nintil.com/pascals-mugging/>
-		* <https://nickbostrom.com/papers/pascal.pdf>
-		* <https://en.wikipedia.org/wiki/Pascal%27s\_mugging>
-		* <https://patrickjuli.us/2019/11/10/pascals-mugging/>
-		* <https://www.lesswrong.com/posts/9WZAqFzNJ4KrhsqJ7/pascal-s-mugging-solved>
-		* <https://www.lesswrong.com/posts/gjyvXPqvCZPEtCKLB/tactics-against-pascal-s-mugging>
-		* <https://risingentropy.com/pascals-mugging/>
-		* <https://wiki.lesswrong.com/wiki/Pascal%27s\_mugging>
-		* <https://wmbriggs.com/post/20492/>
-		* <https://medium.com/@SunBurntSky/pascals-mugging-787c37e76bc3>
-		* <https://utilitarianism.fandom.com/wiki/Pascal%27s\_Mugging>
-		* <https://www.lesswrong.com/posts/Ap4KfkHyxjYPDiqh2/pascal-s-muggle-infinitesimal-priors-and-strong-evidence>
-		* <https://www.lesswrong.com/posts/KDzXTWSTg8ArwbhRR/pascal-s-muggle-short-version>
-		* <https://www.lesswrong.com/posts/CaPgNwxEFHh3Ahvf7/pascal-s-muggle-pays>
-		* <https://www.lesswrong.com/posts/8FRzErffqEW9gDCCW/against-the-linear-utility-hypothesis-and-the-leverage>
-		* <https://www.lesswrong.com/posts/NoYXhJLtoKpLoZhRf/pascal-s-mugging-finite-or-unbounded-resources>
-		* In defence of fanaticism (Hayden Wilkinson, 2020)
 * Survey advanced meditators about their attainments and their monetary worth
 	* That is, how much is your meditative attainment worth to you?
 		* <https://old.reddit.com/r/TheMindIlluminated/comments/su8f1j/to_seek_or_to_not_seek_enlightenment/hx995y6/?context=3>

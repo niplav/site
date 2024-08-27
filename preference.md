@@ -177,3 +177,8 @@ which systems have preferences, and how those preferences are implemented.
 		* If they always maximize the currently existing preferences, and self-replicating preferences exist in the universe, they will tile the universe with those preferences.
 	* That respect possible preferences:
 		* Will get mercilessly exploited by the strongest preferences they include in the domain of moral patients.
+
+See Also
+---------
+
+* [Fuzzy, Nested Minds Problematize Utilitarian Aggregation (Brian Tomasik, 2015)](https://reducing-suffering.org/fuzzy-nested-minds-problematize-utilitarian-aggregation/)
