@@ -28,8 +28,8 @@ def llrt_pval(lmbda, df=2):
 
 def get_meditations():
 	meditations=pd.read_csv('../../data/meditations.csv')
-	meditations['meditation_start']=pd.to_datetime(meditations['meditation_start'], unit='ms', utc=True)
-	meditations['meditation_end']=pd.to_datetime(meditations['meditation_end'], unit='ms', utc=True)
+	meditations['meditation_start']=pd.to_datetime(meditations['meditation_start'], utc=True)
+	meditations['meditation_end']=pd.to_datetime(meditations['meditation_end'], utc=True)
 
 	return meditations
 

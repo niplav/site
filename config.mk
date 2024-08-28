@@ -85,7 +85,6 @@ HTML=index.html \
 	pipe_rings.html \
 	platforms.html \
 	platte.html \
-	preagents.html \
 	precision.html \
 	preference.html \
 	qualia.html \
@@ -99,6 +98,7 @@ HTML=index.html \
 	stimulation.html \
 	subscripts.html \
 	suspicious.html \
+	tahafut.html \
 	tao_te_king.html \
 	text_reviews.html \
 	textbook_discord_servers.html \

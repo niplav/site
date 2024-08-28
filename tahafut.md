@@ -12,14 +12,8 @@ are incompatible. I conclude by connecting the question to [ontological
 crises](./cs/ai/alignment/ontological_crises/ontological_crises_in_artificial_agents_value_systems_de_blanc_2011.pdf),
 and offer some ideas for further research in the area.__
 
-Preagents and Value Formation
-==============================
-
-Summary
---------
-
-Introduction
--------------
+تهافت أنظمة الذكاء الاصطناعي
+=============================
 
 In 1947, John von Neumann and Oskar Morgenstern
 published their book [Theory of Games and Economic
