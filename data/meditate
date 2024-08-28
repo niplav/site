@@ -3,7 +3,8 @@
 medfile='/home/niplav/proj/site/data/meditations.csv'
 
 number=`{echo `{awk -F, '{print($1)}' <$medfile | sort -n | tail -1}^'+1' | bc}
-startepoch=`{echo `{date '+%s'}^'*1000' | bc}
+startepoch=`{echo `{date '+%s'}}
+starttime=`{date --iso-8601'=s'}
 
 fn readval {
 	dmenu -l 10 -fn 'monospace:size=10' -nb '#ffffff' -nf '#000000' -sb '#ffb405'
@@ -11,11 +12,12 @@ fn readval {
 
 mpv /home/niplav/proj/site/aud/meditation.ogg
 
-sleep $1
+termdown $*
 
 mpv /home/niplav/proj/site/aud/meditation.ogg &
 
-endepoch=`{echo `{date '+%s'}^'*1000' | bc}
+endepoch=`{echo `{date '+%s'}}
+endtime=`{date --iso-8601'=s'}
 
 duration=`{printf '%d-%d\n' $endepoch $startepoch | bc}
 
@@ -23,4 +25,4 @@ mindfulness=`{echo 'mindfulness' | readval}
 concentration=`{echo 'concentration' | readval}
 comment=`{echo 'comment' | readval}
 
-printf '%s,%s,%s,%s,%s,%s,%s\n' $number $startepoch $endepoch $duration $mindfulness $concentration $"comment>>$medfile
+printf '%s,%s,%s,%s,%s,%s,%s\n' $number $starttime $endtime $duration $mindfulness $concentration $"comment>>$medfile

@@ -46,7 +46,7 @@ Writing
 ##### Technical
 
 * [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
-* [Preagents and Value Formation](./preagents.html)
+	* Summary: [تهافت أنظمة الذكاء الاصطناعي](./tahafut.html)
 * [Resolving von Neumann-Morgenstern Inconsistent Preferences](./resolving.html)
 
 ##### Strategy
