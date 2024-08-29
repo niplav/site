@@ -1482,15 +1482,16 @@ criteria:
 
 | Criterion                              |  `EGEDmin`  |  `HodgeResolve`     |
 | -------------------------------------- | ----------- | --------------------|
-| Surjectivity                           |             |                     |
-| Identity                               |             |                     |
+| Surjectivity                           | ✓           | ✓                   |
+| Identity                               | ✓           | ✓                   |
 | Worst-case computational complexity    | $NP$-hard   | $\mathcal{O}(n^3)$  |
-| Uniqueness                             |             | $\sim$              |
-| Polynomial output size                 |             | $\sim$              |
-| Preservation of consistent subgraphs   |             |                     |
-| Preservation of complete domination    |             | ?                   |
+| Uniqueness                             | ✗           | ~[^8]               |
+| Polynomial output size                 | ✗           | ~                   |
+| Preservation of consistent subgraphs   | ✗           | ✗                   |
+| Preservation of complete domination    | ✓           | ?                   |
 
-## Impossibilities
+Impossibilities
+----------------
 
 Some of the criteria listed in Section 3.3 are incompatible with each
 other.
@@ -1501,61 +1502,51 @@ It is not possible to have an algorithm that retains every maximal
 consistent subgraph at least once in the set of outputs and has only
 polynomially many outputs.
 
-::: {#theorem:impossibility1 .theorem}
-#**Theorem 10**. Let
-$f: \mathfrak{P} \rightarrow \mathcal{P}(\mathfrak{C})$ be a function
+**Theorem 10**. Let `$f: \mathfrak{P} \rightarrow \mathcal{P}(\mathfrak{C})$` be a function
 for resolving inconsistent graphs that fulfills **Preservation of
-Consistent Subgraphs** for all graphs $\mathfrak{P}$. Then there exists
-no polynomial $p$ so that for all directed graphs $\mathfrak{P}_n$ of
-size $n$ it holds that
-$\forall P_n \in \mathfrak{P}_n: |f(P_n)| \le p(n)$.
-:::
+Consistent Subgraphs** for all graphs `$\mathfrak{P}$`. Then there exists
+no polynomial `$p$` so that for all directed graphs `$\mathfrak{P}_n$` of
+size `$n$` it holds that
+`$\forall P_n \in \mathfrak{P}_n: |f(P_n)| \le p(n)$`.
 
-![image](./img/resolving/en.png){width="0.9\\linewidth"}
+![image](./img/resolving/en.png)
 
 We show this with a graph that is a counterexample, i.e. for which such
 a polynomial can not exist.
 
-::: definition
-**Definition 11**. Let $\mathit{V}$ denote a directed graph with three
-vertices $\alpha, \beta, \gamma$ and three edges
-$\alpha \rightarrow \beta, \beta \rightarrow \gamma, \gamma \rightarrow \alpha$.
-Let now denote $E_n$ be a graph that is constructed out of $n$ copies of
-$\mathit{V}$, "stacked" on top of each other. More formally, let the
-vertices of $E_n$ be the set $\{\alpha_1,
-\ldots, \alpha_n, \beta_1, \ldots, \beta_n, \gamma_1, \ldots, \gamma_n\}$
-so that $\alpha_i, \beta_i, \gamma_i$ are the vertices of the graph
-$\mathit{V}_i$, and the edges of $E_n$ are the edges of each
-$\mathit{V}_i$ and the edges
-$\{(u_i, v_j) | i>j \land u, v \in \{\alpha,
-\beta, \gamma\}\}$.
-:::
+**Definition 11**. Let `$\mathit{V}$` denote a directed graph with three
+vertices `$\alpha, \beta, \gamma$` and three edges
+`$\alpha \rightarrow \beta, \beta \rightarrow \gamma, \gamma \rightarrow \alpha$`.
+Let now denote `$E_n$` be a graph that is constructed out of `$n$` copies of
+`$\mathit{V}$`, "stacked" on top of each other. More formally, let the
+vertices of `$E_n$` be the set `$\{\alpha_1,
+\ldots, \alpha_n, \beta_1, \ldots, \beta_n, \gamma_1, \ldots, \gamma_n\}$`
+so that `$\alpha_i, \beta_i, \gamma_i$` are the vertices of the graph
+`$\mathit{V}_i$`, and the edges of `$E_n$` are the edges of each
+`$\mathit{V}_i$` and the edges
+`$\{(u_i, v_j) | i>j \land u, v \in \{\alpha, \beta, \gamma\}\}$`.
 
-We first prove that each inclusion-maximal consistent subgraph of $E_n$
-only contains one edge from each $\mathit{V}_i$.
+We first prove that each inclusion-maximal consistent subgraph of `$E_n$`
+only contains one edge from each `$\mathit{V}_i$`.
 
-::: lemma
-**Lemma 11**. Every inclusion-maximal consistent subgraph $V$ of $E_n$
+**Lemma 11**. Every inclusion-maximal consistent subgraph `$V$` of `$E_n$`
 contains exactly one edge from each
-$\mathit{V}_i \in \{\mathit{V}_1, \dots,
-\mathit{V}_n\}$.
-:::
+`$\mathit{V}_i \in \{\mathit{V}_1, \dots, \mathit{V}_n\}$`.
 
-::: proof
-*Proof.* Assume $S$ is a subgraph of $E_n$, and there exists (without
-loss of generality) a $\mathit{V}_i$ so that $S \cap \mathit{V}_i$ has
-two edges $\alpha_i
-\rightarrow \beta_i$ and $\beta_i \rightarrow \gamma_i$. Since $S$ is
+*Proof.* Assume `$S$` is a subgraph of `$E_n$`, and there exists (without
+loss of generality) a `$\mathit{V}_i$` so that `$S \cap \mathit{V}_i$` has
+two edges `$\alpha_i
+\rightarrow \beta_i$` and `$\beta_i \rightarrow \gamma_i$`. Since `$S$` is
 stipulated to be consistent, due to the transitivity requirement it must
-also contain the edge $\alpha_i \rightarrow \gamma_i$. But then $S$
-would no longer be a subgraph of $E_n$, since
-$\alpha_i \rightarrow \gamma_i$ is not an edge in $\mathit{V}_i$. If
-$S \cap \mathit{V}_i$ has three edges, $S$ must be inconsistent, since
+also contain the edge `$\alpha_i \rightarrow \gamma_i$`. But then `$S$`
+would no longer be a subgraph of `$E_n$`, since
+`$\alpha_i \rightarrow \gamma_i$` is not an edge in `$\mathit{V}_i$`. If
+`$S \cap \mathit{V}_i$` has three edges, `$S$` must be inconsistent, since
 transivity or asymmetry are violated. Assume now there is a subgraph
-$\mathit{V}_i$ of $E_n$ so that $S \cap \mathit{V}_i$ has no edges. Then
-one can add any one edge from $\mathit{V}_i$ to $S$ while retaining
+`$\mathit{V}_i$` of `$E_n$` so that `$S \cap \mathit{V}_i$` has no edges. Then
+one can add any one edge from `$\mathit{V}_i$` to `$S$` while retaining
 consistency: If one adds (without loss of generality)
-$\alpha_i \rightarrow \beta_i$, this preserves consistency, since
+`$\alpha_i \rightarrow \beta_i$`, this preserves consistency, since
 
 -   **Completeness** is preserved ($\alpha_i, \beta_i$ are connected to
     all $\omega_h, \omega_j$ ($h <i<j$)).
@@ -1569,7 +1560,6 @@ $\alpha_i \rightarrow \beta_i$, this preserves consistency, since
     there were edges in $S$ before.
 
  ◻
-:::
 
 We then show that any consistent graph on the vertices of $E_n$ can not
 contain $2^n+1$ inclusion-maximal consistent subgraphs of $E_n$.
@@ -2696,3 +2686,5 @@ surprising ideas in the lottery case.
     described [@russell2010artificial ch. 17].
 
 [^7]: Also known as flying fish.
+
+[^8]: Only if the output is allowed to be a weak ordering.

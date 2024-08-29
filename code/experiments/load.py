@@ -9,7 +9,8 @@ import matplotlib.dates as mdates
 
 def normal_likelihood(data, mu, std):
 	data_probs=scistat.norm.pdf(data, loc=mu, scale=std)
-	return np.multiply.reduce(data_probs, where=~np.isnan(data_probs))
+	cleaned_data=data_probs[np.nonzero(~np.isnan(data_probs))]
+	return np.exp(np.sum(np.log(cleaned_data))) # if there's a problem with floating points underflowing
 
 def control_likelihood_ratio(active, placebo):
 	placebo_mle_lh=normal_likelihood(active, placebo.mean(), placebo.std())

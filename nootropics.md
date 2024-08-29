@@ -564,6 +564,17 @@ active ingredient) in high-pressure situations (e.g. I'm procrastinating
 on an important task and have anxiety around it, or during exams). So
 far, it seems especially useful to break me out of an akratic rut.
 
+Vitamin D₃
+-----------
+
+[Vitamin D₃](https://en.wikipedia.org/wiki/Vitamin_D3) just seems good
+in general.<!--TODO: COVID-19, longevity, examine, gwern others?-->
+
+### Experiment C: Self-Blinded RCT
+
+After ingestion I wait for ~30 minutes, and then start meditating for
+30 minutes—15 minutes absorption on the breath, 15 minutes bodyscanning.
+
 See Also
 ---------
 
