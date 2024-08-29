@@ -26,6 +26,16 @@ content.
 August 2024
 ------------
 
+Meditation.
+
+### Links
+
+* [Arguments and Duels (Robin Hanson, 2007)](https://www.overcomingbias.com/p/arguments_and_dhtml): "Two Italian gentlemen fell out over the respective merits of Tasso and Ariosto, an argument that ended when one combatant, mortally wounded, admitted that he had not read the poet he was championing."
+* [Postmodernism vs. The Pomoid Cluster (John Nerst, 2018)](https://everythingstudies.com/2018/06/21/postmodernism-vs-the-pomoid-cluster/): I was strongly reminded of the debate around the term TESCREAL<!--TODO: link-->, but in this case my ingroup is on the other side.
+* [Bush robot (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Bush_robot)
+* [Lyapunov time (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Lyapunov_time)
+* [Thermal blooming (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Thermal_blooming)
+
 July 2024
 ----------
 

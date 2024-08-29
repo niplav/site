@@ -77,10 +77,12 @@ self-experiment.
 Data was collected as follows:
 
 I abstained from masturbating and watching pornography from
-2023-07-30T17:34:00 to \_, resulting in >90 days of abstinence
+2024-08-09T11:39:00 to \_, resulting in >90 days of abstinence
 from masturbation (which is also the period [recommended by the
 NoFap community](https://nofap.com/rebooting/): "NoFap’s gold
-standard of success is our 90-day reboot.").
+standard of success is our 90-day reboot."). I had a [nocturnal
+emmission](https://en.wikipedia.org/wiki/Nocturnal_Emission) on
+2024-08-28T02:00:00.
 
 From \_ to \_, I went on the streets of a major european city
 and approached 50 people I read as women, usually via a [Yad
@@ -113,7 +115,9 @@ after masturbation), and how far the interaction went, on an 8-point
 * 7 (date): the woman showed up to the date
 * 8 (sex): I slept with the woman
 
-Results were logged in a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values).
+Results were logged in a
+[CSV](https://en.wikipedia.org/wiki/Comma-separated_values) in [this
+file](./data/masturbation_attractiveness.csv).
 
 ### Justification for Cold Approach as a Method
 
