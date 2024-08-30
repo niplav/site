@@ -3,7 +3,7 @@
 
 .fc(.ic("../../data/masturbation_attractiveness_dummy_better.csv"));data::csv.load()
 
-data::{["" 1 "" 1]:$'x}'1_data
+data::{["" 1 1]:$'x}'1_data
 
 data::{1_x}'data
 

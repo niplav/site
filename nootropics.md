@@ -575,6 +575,8 @@ in general.<!--TODO: COVID-19, longevity, examine, gwern others?-->
 After ingestion I wait for ~30 minutes, and then start meditating for
 30 minutes—15 minutes absorption on the breath, 15 minutes bodyscanning.
 
+Started 2024-08-29.
+
 See Also
 ---------
 

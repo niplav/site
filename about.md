@@ -531,11 +531,11 @@ Scores (as of 2023-08-05):
 	* Continuous log score (204 questions, also uniformly sampled): 1.35
 ![](./img/about/metaculus_cont_log_score.png)
 ![](./img/about/metaculus_cont_calibration.png)
-	* Ranking: 28th on [baseline accuracy](https://www.metaculus.com/help/scores-faq/#baseline-score), 43rd on [peer accuracy](https://www.metaculus.com/help/scores-faq/#peer-score)
+	* Ranking: 38th on [baseline accuracy](https://www.metaculus.com/help/scores-faq/#baseline-score), 130th on [peer accuracy](https://www.metaculus.com/help/scores-faq/#peer-score)
 ![](./img/about/metaculus_ranking.png)
 * [Manifold markets](https://manifold.markets/NiplavYushtun)
-	* Profit: M̶904
-	* Net worth: M̶15000
+	* Profit: M̶974
+	* Net worth: M̶18503
 	* Calibration: Grade B-, Score -2.69
 ![](./img/about/manifold_calibration.png)
 ![](./img/about/manifold_profit.png)

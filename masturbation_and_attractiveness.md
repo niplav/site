@@ -4,17 +4,17 @@
 *author: niplav, created: 2019-08-03, modified: 2024-07-21, language: english, status: draft, importance: 2, confidence: likely*
 
 > __Members of the [NoFap community](https://en.wikipedia.org/wiki/NoFap)
-[frequently claim](#Examples_for_the_Claim) that abstinence from
-masturbation causally increases male attractiveness.__  
-> __I present a method to test this claim (albeit imperfectly) by
-approaching 50 women in the street after >90 days of abstinence
+[frequently claim](#Appendix_C_Examples_for_the_Claim) that abstinence
+from masturbation causally increases male attractiveness.__  
+> __I present a method to test this claim (albeit imperfectly)
+by approaching 50 women in the street after >90 days of abstinence
 from masturbation and after a short conversation asking them for
 their contact information, and 50 again after a week of daily
 masturbation. The results are analyzed using a [Mann-Whitney
 U-test](https://en.wikipedia.org/wiki/Mann-Whitney_U_test)
 and various [descriptive statistical
-methods](https://en.wikipedia.org/wiki/Descriptive_statistics); I
-find that \_.__
+methods](https://en.wikipedia.org/wiki/Descriptive_statistics); I find
+that \_.__
 
 Abstinence from Masturbation and Success from Cold Approach
 ===========================================================
@@ -25,11 +25,10 @@ the middle where everything is the same
 *— [Neal Stephenson](https://en.wikipedia.org/wiki/Neal_Stephenson), [“Snow Crash”](https://en.wikipedia.org/wiki/Snow_Crash), 1992*
 
 Consider a question of burning importance: If a man abstains from
-masturbation for a long time, does other people's perception of him
-change as a result, even if they don't know he doesn't abstain? *More
-poignantly*, does he become more attractive to women, through some
-not-yet-understood process of microexpressions, pheromones, more confident
-gait &c?
+masturbation for a long time, does other people's perception of him change
+as a result, even if they don't know of his abstinence? *More poignantly*,
+does he become more attractive to women, through some not-yet-understood
+process of microexpressions, pheromones, more confident gait &c?
 
 To prevent the accusation of
 [straw-manning](https://en.wikipedia.org/wiki/Straw_man) the views
@@ -67,11 +66,12 @@ the claims made by members of the NoFap community.
 Method
 ------
 
-Relevant information about me: I am a.m.a.b in my twenties living in
-a european country. I seem to fall into the same demographic as most
-members of the NoFap community.
+Relevant information about me: I am
+[a.m.a.b](https://en.wikipedia.org/wiki/Assigned_male_at_birth) person,
+in my twenties, living in a European country. I seem to fall into the
+same demographic as many or most members of the NoFap community.
 
-To test the claims by the NoFap community, I performed a small
+To test the claims by various NoFap proponents, I performed a small
 self-experiment.
 
 Data was collected as follows:
@@ -115,20 +115,16 @@ after masturbation), and how far the interaction went, on an 8-point
 * 7 (date): the woman showed up to the date
 * 8 (sex): I slept with the woman
 
-Results were logged in a
-[CSV](https://en.wikipedia.org/wiki/Comma-separated_values) in [this
-file](./data/masturbation_attractiveness.csv).
-
 ### Justification for Cold Approach as a Method
 
-Cold approach works well as a method here: It
-allows me to sample my attractiveness to women from an
-[i.i.d.](https://en.wikipedia.org/wiki/Independent_and_identically_distributed)
-distribution, basically arbitrarily often. The women don't *know*
-I am doing an experiment, and the stakes are real, so there's little
-incentive for them to lie about their preferences (as they might in a
-survey), and little incentive for me to change my behavior (because I
-like sleeping with beautiful women).
+Cold approach works well as a method here:
+It allows me to sample my attractiveness to women
+[i.i.d.](https://en.wikipedia.org/wiki/Independent_and_identically_distributed),
+basically arbitrarily often. The women don't *know* I am doing an
+experiment, and the stakes are real, so there's little incentive for
+them to lie about their preferences (as they might in a survey), and
+little incentive for me to change my behavior (because I like sleeping
+with beautiful women).
 
 If the effect of abstaining from masturbation is subliminal and affects
 smell or micro-expressions, approaching women on the street also beats
@@ -137,27 +133,29 @@ online dating as a metric of assessing attractiveness.
 Results Analysis
 -----------------
 
-The raw data is available [here](./data/masturbation_attractiveness.csv).
+Results were logged in a [CSV
+file](https://en.wikipedia.org/wiki/Comma-separated_values)
+[here](./data/masturbation_attractiveness.csv).
 
 ### Visualizing the Results
 
-Cold approach is a conversion funnel: there are a number of different
-stages an approachee goes through, and each one can fail. This way, one
-can visualize how far the interaction went by making a bar graph of the
-people dropping out at a certain stage (ignoring the approach, stopping
-but not giving a name, giving a name but not agreeing to come on a date,
-agreeing to come on a date but flaking, and showing up to a date).
-Showing up to the date was considered a condition of success, but one
-could imagine further steps like having sex, getting into a relationship
-with the person, getting married with the person and having children with
-the person, though these were deemed excessive and out of the scope of
-a simple self-experiment.
+Cold approach is a [conversion
+funnel](https://en.wikipedia.org/wiki/Conversion_funnel): there are a
+number of different stages an approachee goes through, and each one can
+fail. This way, one can visualize how far the interaction went by making
+a bar graph of the women dropping out at a certain stage (ignoring the
+approach, stopping but not giving a name, giving a name but not agreeing
+to come on a date, agreeing to come on a date but flaking, showing up
+to a date &c). Showing up to the date was considered a condition of
+success, but one could imagine further steps like having sex, getting
+into a relationship with the person, getting married with the person and
+having children with the person, though these were deemed excessive and
+out of the scope of a simple self-experiment.
 
-The bargraph below shows how many people were lost at which stage
-of the funnel, ignoring gender. The white bars show the numbers
-during a period of abstinence from masturbation, after 90 days
-of abstinence, the black bars show the numbers after a period of
-weekly masturbation.
+The bargraph below shows how many people were lost at which stage of the
+funnel. The white bars show the numbers during a period of abstinence
+from masturbation, after 90 days of abstinence, the black bars show the
+numbers after a period of weekly masturbation.
 
 Code:
 
@@ -232,26 +230,27 @@ Questions:
 
 ### Testing the Hypothesis
 
-The NoFap community claims that abstinence from masturbation increases
-male physical attractiveness for women. This means that cold approach
-should be more successful after a long period of abstinence from
-masturbation than after a period of sustained masturbation. This
-assumption generates three hypotheses:
+The NoFap guys claim that abstinence from masturbation increases male
+physical attractiveness for women. This means that cold approach should
+be more successful after a long period of abstinence from masturbation
+than after a period of sustained masturbation. This assumption generates
+three hypotheses:
 
-1. H₀: `$\mu_{\text{during}} \le \mu_{\text{after}}$`
-2. H₁: `$\mu_{\text{during}} = \mu_{\text{after}}$`
-3. H₂: `$\mu_{\text{during}} \ge \mu_{\text{after}}$`
+1. H₀: During-abstinence and after-masturbation distribution of progress in the funnel are the same.
+2. H₁: During-abstinence and after-masturbation distribution of progress in the funnel are different, median of abstinence is higher.
+3. H₂: During-abstinence and after-masturbation distribution of progress in the funnel are different, median of after-masturbation is higher.
 
-The result implied by the views of the NoFap community would be that
-H₀ would definitely be rejected, and that it would be very likely
-that H₁ would also be rejected.
+The result implied by the views of the NoFap people would be that H₂
+definitely will be rejected, and that it would be very likely that H₀
+is rejected.
 
-Note that these hypothesis are not exclusive, and can all be accepted at
+<!--TODO: rewrite perhaps, sloppy writing-->
+Note that these hypotheses are not exclusive, and can all be accepted at
 the same time. It is merely the case that if a hypothesis gets rejected,
 the probability that it got rejected although it is true is lower than
 a given percentage (usually and also in this case 5%).
 
-I used a [Mann-Whitney
+I use a [Mann-Whitney
 U-Test](https://en.wikipedia.org/wiki/Mann-Whitney_U_Test) to
 test the hypotheses, under the assumption that the observations
 from each group are independent of each other. (I can't use e.g. a
@@ -302,31 +301,33 @@ acquantainces would have been not socially acceptable.
 
 Another possible bias in choosing whom to approach could be that
 abstinence from masturbation changes the perception of attractiveness. In
-fact, many members of the NoFap community claim that women who are of
-average attractiveness for men who masturbate become more attractive
-for men who abstain from masturbation. This could lead to the average
-attractiveness of the women I approached during the period of abstinence
-being lower than the attractiveness of the women after masturbation. If
-the attractiveness of the approached person has an effect on their
-response to cold approach, this could introduce a bias (although it
-isn't clear in which way that bias would go).
+fact, many members of the NoFap community claim that women of average
+attractiveness for men who masturbate become more attractive for men who
+abstain from masturbation. This could lead to the average attractiveness
+of the women I approached during the period of abstinence being lower than
+the attractiveness of the women after masturbation. If the attractiveness
+of the approached person has an effect on their response to cold approach,
+this could introduce a bias (although it isn't clear in which way that
+bias would go). I could've tried to pay someone to follow me around
+and write down the attractiveness of the women I approach, but I didn't
+want to.
 
 ### N=1 on the Approachers Side
 
 Since I was the only person to do the approaching, the data is
 highly specific to me. It could be that I have an unusualy judgment
-of attractiveness, or that my body doesn't respond to abstinence from
-masturbation as the bodies of other men. All fair and well, this reduces
-the strength of the findings of this text to a personal observation,
-though indicating the direction of a trend.
+of attractiveness, or that my body doesn't respond to abstinence
+from masturbation as the bodies of other a.ma.ab. All fair and well,
+this reduces the strength of the findings of this text to a personal
+observation, though indicating the direction of a trend.
 
 It would have been better, of course, if there were more people
 approaching in this experiment. Since the topic is too weird to share
 among friends & none of them would be interested in the answer / willing
 to give up masturbation or sex for a little self-experiment, I was alone
 with my endeavour. However, I encourage others to attempt replication
-– the code is available for all, and I could also analyze data if it
-was sent to me.
+– the code is freely available, and I can also analyze data if it's
+[sent to me](./about.html#Contact).
 
 ### Typical WEIRDness
 
@@ -355,7 +356,7 @@ Influences from weather were harder to control. During the first
 approaching session the weather was \_. During the second approaching
 session the weather was \_.
 
-### Strawman of the Views of the NoFap Community
+### Strawman of the Views of NoFap
 
 Some people might claim that the view "masturbation increases physical
 attractiveness" is a straw-man of the views of the larger NoFap
@@ -378,7 +379,8 @@ with pornography. While it would certainly interesting to perform these
 experiments, I didn't do them for several reasons:
 
 *	I didn't have the necessary statistical knowledge to perform an
-	analysis of the data that wouldn't look like p-hacking
+	analysis of the data that wouldn't look like
+	[p-hacking](https://en.wikipedia.org/wiki/P-Hacking).
 * 	It would have taken at least three ninety-day periods with
 	subsequent approaching sessions to test these hypotheses:
 	Ninety days of abstinence from both masturbation & pornography,
@@ -391,6 +393,17 @@ experiments, I didn't do them for several reasons:
 	of the central claim altogether.
 
 ### Learning Effect During First 50 Half
+
+Daygame is based on *vibe* and *momentum*, so the first 50 approaches
+during abstinence could improve the second 50 approaches after abstinence.
+
+To lessen this effect, I tried to get into the groove of approaching
+for several months before the experiment, starting in July 2024 (a month
+after starting the period of abstinence), and increasing the intensity
+of daygame to prepare for having to do 50 approaches for the experiment.
+
+(I don't think I could've done 50 approaches in a few days from cold
+start anyway.)
 
 Conclusion
 ----------
@@ -409,8 +422,10 @@ tampering with the content of the article, because reddit titles [can't be
 changed](https://old.reddit.com/wiki/faq#wiki_i_made_a_mistake_in_my_submission_title.2C_how_can_i_edit_it.3F)
 by users of reddit.
 
-The raw markdown, pre-registered version of this article can be found
-[here](https://niplav.github.io/masturbation_and_attractiveness_preregistered.txt).
+The raw markdown,
+[pre-registered](https://en.wikipedia.org/wiki/Pre-registration_\(science\))
+version of this article can be found
+[here](https://niplav.site/masturbation_and_attractiveness_preregistered.txt).
 
 Its hashsum was computed as such:
 
@@ -427,14 +442,14 @@ period of abstinence from masturbation as described in the section
 approach with women after a week of regular masturbation. Then there
 are three different hypotheses:
 
-1. H₀: `$\mu_{\text{during}} \le \mu_{\text{after}}$`
-2. H₁: `$\mu_{\text{during}} = \mu_{\text{after}}$`
-3. H₂: `$\mu_{\text{during}} \ge \mu_{\text{after}}$`
+1. H₀: During-abstinence and after-masturbation distribution of progress in the funnel are the same.
+2. H₁: During-abstinence and after-masturbation distribution of progress in the funnel are different, median of abstinence is higher.
+3. H₂: During-abstinence and after-masturbation distribution of progress in the funnel are different, median of after-masturbation is higher.
 
 There seem to be different possible strengths of convictions on this issue:
 
-1. I define the *Strong NoFap Stance* as predicting that H₀ and H₁ will be rejected, and only H₂ will be accepted.
-2. I define the *Weak NoFap Stance* as predicting that H₀ will be rejected, and H₁ and H₂ will be accepted.
+1. I define the *Strong NoFap Stance* as predicting that H₀ and H₂ will be rejected, and only H₁ will be accepted.
+2. I define the *Weak NoFap Stance* as predicting that H₂ will be rejected, and H₀ and H₁ will be accepted.
 3. I define the *Neutral Stance* as predicting that all 3 hypotheses will be accepted.
 
 As a pre-registration, I subjectively assign a probability of 60% to the
