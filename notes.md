@@ -646,11 +646,16 @@ but to the rest of the world as well.
 Vasectomy & Sperm Freezing Cost-Benefit
 ----------------------------------------
 
+<!--
 *Note: A friend told me that vasectomies don't make men permanently
 infertile: if you're not otherwise infertile, sperm can just be extracted
 or the vasectomy can be reversed. I haven't checked whether this is true,
 but if it is, the cost-benefit analysis below is misguided and wrong,
 likely coming out more strongly in favour of having a vasectomy.*
+
+Vasectomies are also reversible, with some probability of success (30%
+to 90%, depending on the surgeon).
+-->
 
 It seems broadly useful to spend a lot of time to consider whether you
 want to have children, and with whom. However, in situations of arousal,
