@@ -468,7 +468,7 @@ but rather cycles).
 * [exdiegesis](https://x.com/exdiegesis/)/[mir](https://www.lesswrong.com/users/mir)/[rime](https://forum.effectivealtruism.org/users/elua)
 * [Matthew Baggins](https://matthewbaggins.github.io/)
 * [Mesaoptimizer](https://mesaoptimizer.com/)
-* [norvid_studies](https://norvidshoshin.wordpress.com/blog/), [𝕏](http://nitter.poast.org/norvid_studies): Endless source of fascinating questions<!--TODO: links-->
+* [norvid_studies](https://norvidshoshin.wordpress.com/blog/), [𝕏](http://nitter.poast.org/norvid_studies): Endless source [of](https://nitter.poast.org/norvid_studies/status/1436131871184850949) [fascinating](https://nitter.poast.org/norvid_studies/status/1609632437306556417) [questions](https://nitter.poast.org/norvid_studies/status/1719694131578986518)
 * [Nuño Sempere](https://nunosempere.com/), who ended up here through no fault of his own
 * [Nyx](https://nyxus.xyz/): Brightly empathetically menacing (we all know she's just joking)
 * [Skaði þjazidottir](https://ulthar.xyz): Gather some stoic people with guns, who have written low-level code
