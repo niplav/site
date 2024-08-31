@@ -2034,11 +2034,13 @@ Processes](https://en.wikipedia.org/wiki/Partially-observable_Markov_decision_pr
 
 #### Existing Approaches
 
-De Blanc approaches the problem of ontological crises formally in the
-context of what they call "finite state models" (they neglect to give a
-full definition) [de Blanc 2011](./doc/cs/ai/alignment/ontological_crises/ontological_crises_in_artificial_agents_value_systems_de_blanc_2011.pdf)., and one can refine their problem
-statement and their approach to a solution by stating it in terms of
-Markov decision processes [@russell2010artificial ch. 17.1].
+De Blanc approaches the problem of ontological crises
+formally in the context of what they call "finite
+state models" (they neglect to give a full definition) [de Blanc
+2011](./doc/cs/ai/alignment/ontological_crises/ontological_crises_in_artificial_agents_value_systems_de_blanc_2011.pdf),
+and one can refine their problem statement and their approach to
+a solution by stating it in terms of Markov decision processes
+[@russell2010artificial ch. 17.1].
 
 **Definition 13**. A finite **Markov decision process** (MDP)
 `$\mathcal{M}=(S,

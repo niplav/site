@@ -28,6 +28,10 @@ August 2024
 
 Meditation.
 
+* [Solutions to “From Zero to Geo”](./ztg_solutions.html)
+
+Data herding.
+
 ### Links
 
 * [Arguments and Duels (Robin Hanson, 2007)](https://www.overcomingbias.com/p/arguments_and_dhtml): "Two Italian gentlemen fell out over the respective merits of Tasso and Ariosto, an argument that ended when one combatant, mortally wounded, admitted that he had not read the poet he was championing."
