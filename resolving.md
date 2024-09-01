@@ -139,7 +139,7 @@ As far as our literature review has revealed, the academic literature
 has no investigation into the specific question we are attempting to
 answer.
 
-##### Modeling Inconsistent Preferences.
+##### Modeling Inconsistent Preferences
 
 In the economic literature, preferences are usually more restricted than
 in the von Neumann-Morgenstern setting: It is usually assumed that there
@@ -183,18 +183,17 @@ positive affine transformation [@backus2004exotic].
 
 ##### Resolving Inconsistent Preferences
 
-In the context of taxonomical data, Sun et al. investigate the
-problem of recovering hierarchies from noisy data ([Sun et al.
-2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf
-"Breaking Cycles in Noisy Hierarchies")).  They represent inconsistent
-taxonomies with directed acyclic graphs and consistent hierarchical
-taxonomies using directed graphs. They find that, when measuring
-the number of edges being removed, a voting ensemble of several
-different techniques such as TrueSkill [@herbrich2007trueskill]
-does well on removing as few edges as possible, and usually
-outperforms removing greedy approximations of the [feedback arc
-set](https://en.wikipedia.org/wiki/Feedback_arc_set) ([Sun et al.
-2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies")).
+In the context of taxonomical data, [Sun et al.
+2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies")
+investigate the problem of recovering hierarchies from noisy data.
+They represent inconsistent taxonomies with directed acyclic graphs
+and consistent hierarchical taxonomies using directed graphs. They
+find that, when measuring the number of edges being removed, a
+voting ensemble of several different techniques such as TrueSkill
+[@herbrich2007trueskill] does well on removing as few edges as possible,
+and usually outperforms removing greedy approximations of the [feedback
+arc set](https://en.wikipedia.org/wiki/Feedback_arc_set) [Sun et al.
+2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies").
 
 Outside of the academic literature, [Aird &
 Shovelain 2020](https://www.lesswrong.com/posts/ky988ePJvCRhmCwGo/using-vector-fields-to-visualise-preferences-and-make-them "Using vector fields to visualise preferences and make them consistent") represent inconsistent preferences as [vector
@@ -236,14 +235,15 @@ The problem of *inferring* the preferences of irrational agents has
 been formally posed [@armstrong2018occam]: It is in general impossible
 learn such preferences, as any action is equally compatible both with a
 preference for that action *and* a systematic bias causing the action.
-Nevertheless Evans et al. find a framework that is experimentally
-successful at inferring the preferences of an agent with time-inconsistent
+Nevertheless [Evans et al.
+2016](./doc/cs/ai/alignment/value_learning/learning_the_preferences_of_ignorant_inconsistent_agents_evans_et_al_2016.pdf "Learning the Preferences of Ignorant, Inconsistent Agents")
+find a framework that is experimentally successful at
+inferring the preferences of an agent with time-inconsistent
 hyperbolic discounting and incorrect beliefs using [Bayesian
-inference](https://en.wikipedia.org/wiki/Bayesian_Inference) [Evans et al.
-2016](./doc/cs/ai/alignment/value_learning/learning_the_preferences_of_ignorant_inconsistent_agents_evans_et_al_2016.pdf).
-Their method for inferring preferences of inconsistent software agents
-gives similar results to estimates made by humans. Their framework does
-not cover all possible variants of inconsistent preferences, and makes no
+inference](https://en.wikipedia.org/wiki/Bayesian_Inference).  Their
+method for inferring preferences of inconsistent software agents gives
+similar results to estimates made by humans. Their framework does not
+cover all possible variants of inconsistent preferences, and makes no
 statement about how to resolve the time-inconsistencies. Evans et al. also
 give no theoretical guarantee about the performance of their method.
 
@@ -272,7 +272,7 @@ written as `$[p_1: \omega_1, p_2: \omega_2]$`[^1].
 be a relation on all lotteries on $\Omega$, that is $\preceq \subseteq \Delta(\Omega) \times \Delta(\Omega)$.
 
 If `$l_1 \preceq l_2$` and `$l_2 \preceq l_1$`, then we write
-`$l_1 \sim l_2$i`.
+`$l_1 \sim l_2$`.
 
 Then the relation $\preceq$ is a **preference relation** if and only if
 it fulfills the four von Neumann-Morgenstern axioms
@@ -386,7 +386,7 @@ being lotteries.
 Directed graphs are well able to represent all violations of these vNM
 axioms.
 
-##### Incompleteness
+##### Incompleteness.
 
 Incompleteness is distinct from indifference: indifference between
 `$\omega_1$` and `$\omega_2$` exists if both `$\omega_1 \preceq \omega_2$` and
@@ -723,7 +723,7 @@ options into consistent preferences is to apply the `HodgeRank`
 algorithm by Jiang et al. to an unweighted graph `$G$` [Jiang et al.
 2009](./doc/preference/statistical_ranking_and_combinatorial_hodge_theory_jiang_et_al_2011.pdf).
 
-`HodgeRank` is described in further detail in section [4.3.1](#HodgeRank).
+`HodgeRank` is described in further detail in [this section](#HodgeRank).
 
 To apply `HodgeRank` to unweighted graphs one simply sets both weights
 of each edge to 1 (for `$e \in E$` it is then the case that `$w(e)=1$`,
@@ -925,12 +925,10 @@ However, results from two different fields apply to this case.
     are irrelevant in this case, since the inconsistent preference
     does not "control" outputs of `$f$`, and there are no reasons for
     manipulation.
--   **Moral Uncertainty**: MacAskill et al. outline how to make
-    decisions given multiple ethical theories and
-    credences on those ethical theories, using the so-called
-    Maximum Expected Choiceworthiness rule [MacAskill et al. 2020, ch.
-    2](./doc/philosophy/ethics/moral_uncertainty_macaskill_et_al_2020.pdf#%5B%7B%22num%22%3A435%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22Fit%22%7D%5D
-    "Moral Uncertainty").  In the case of ordinal preferences, they
+-   **Moral Uncertainty**: [MacAskill et al. 2020, ch. 2](./doc/philosophy/ethics/moral_uncertainty_macaskill_et_al_2020.pdf#%5B%7B%22num%22%3A435%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22Fit%22%7D%5D "Moral Uncertainty") outline how to make
+    decisions given multiple ethical theories and credences on
+    those ethical theories, using the so-called Maximum Expected
+    Choiceworthiness rule.  In the case of ordinal preferences, they
     use the [Borda count](https://en.wikipedia.org/wiki/Borda_Count)
     for establishing cardinal values for options.
 
@@ -1072,7 +1070,7 @@ preferences over, e.g. an agent has consistent preferences over all
 fruit and consistent preferences over dairy products, but inconsistent
 preferences over food in general. Then a method for resolving those
 inconsistent preferences into consistent ones should "preserve" those
-consistent preferences over subsets of options a non-zero amount ---
+consistent preferences over subsets of options a non-zero amount —
 after becoming consistent the agent still has the same preferences over
 fruit and dairy product as before.
 
@@ -1084,20 +1082,20 @@ with `$n$` nodes, and let `$\mathcal{S}_G$` be the set of inclusion-maximal
 consistent subgraphs of `$G$`. Then there exists no polynomial `$p$` so so
 that `$\forall G \in \mathfrak{P}_n: |\mathcal{S}_G| \le p(n)$`.
 
-*Proof.* Moon and Moser describe how to construct an
-undirected graph `$G_n=(V_G,E_G)$` with `$n$` vertices and
-`$3^{\frac{n}{3}}$` inclusion-maximal cliques [Moon & Moser
-1965](./doc/math/on_cliques_in_graphs_moon_moser_1965.pdf). Then one can
-construct a directed graph `$P_n=(V_P,E_P)$` with `$3^{\frac{n}{3}}\approx
-1.4422^n$` inclusion-maximal consistent subgraphs from `$G_n$`, which
-grows faster than any polynomial. First, `$P_n$` receives the same
-vertices as `$G_n$`.  Then, every `$v \in V$` is assigned a unique
-number `$j(v): V \rightarrow \mathbb{N}$`, and for each `$\{u,v\}
-\in E_G$`, the set of edges `$E_P$` contains `$(u,v)$` if and only if
-`$j(u)>j(v)$`, and `$(v,u)$` if and only if `$j(v)>j(u)$`. Now, if a
-subgraph `$\mathit{S}_G$` of `$G_n$` with vertices `$V_{\mathit{S}}$` is a
-maximal clique, then a subgraph `$\mathit{S}_P$` of `$P_n$` with vertices
-`$V_{\mathit{S}}$` is an inclusion-maximal consistent subgraph in `$P_n$`:
+*Proof.* [Moon & Moser
+1965](./doc/math/on_cliques_in_graphs_moon_moser_1965.pdf) describe how to
+construct an undirected graph `$G_n=(V_G,E_G)$` with `$n$` vertices and
+`$3^{\frac{n}{3}}$` inclusion-maximal cliques. Then one can construct a
+directed graph `$P_n=(V_P,E_P)$` with `$3^{\frac{n}{3}}\approx 1.4422^n$`
+inclusion-maximal consistent subgraphs from `$G_n$`, which grows faster
+than any polynomial. First, `$P_n$` receives the same vertices as `$G_n$`.
+Then, every `$v \in V$` is assigned a unique number `$j(v): V \rightarrow
+\mathbb{N}$`, and for each `$\{u,v\} \in E_G$`, the set of edges `$E_P$`
+contains `$(u,v)$` if and only if `$j(u)>j(v)$`, and `$(v,u)$` if and
+only if `$j(v)>j(u)$`. Now, if a subgraph `$\mathit{S}_G$` of `$G_n$`
+with vertices `$V_{\mathit{S}}$` is a maximal clique, then a subgraph
+`$\mathit{S}_P$` of `$P_n$` with vertices `$V_{\mathit{S}}$` is an
+inclusion-maximal consistent subgraph in `$P_n$`:
 
 1.  `$\mathit{S}_P$` is complete, because for every `$\{u,v\}$` in
     `$\mathit{S}_G$`, either `$(u,v)$` or `$(v,u)$` exists in `$\mathit{S}_P$`.
@@ -1641,44 +1639,36 @@ that returns, for each inclusion-maximal consistent subgraph
 $\mathit{S}$, at least one consistent graph that contains $\mathit{S}$,
 *and* computes its output in polynomial time.
 
-::: {#theorem:impossibility2 .theorem}
-#**Theorem 14**. Let $\mathtt{A}$ be an algorithm for resolving
-inconsistent graphs that implements an $f$ which fulfills **Preservation
-of Consistent Subgraphs** for all graphs $G \in \mathfrak{P}$. Then
-there exists no polynomial $p$ so that for all directed graphs
-$P_n \in \mathfrak{P}_n$ of size $n$ it holds that $\mathtt{A}(P_n)$
-computes its output in less than $p(n)$ steps.
-:::
+**Theorem 14**. Let `$\mathtt{A}$` be an algorithm for resolving
+inconsistent graphs that implements an `$f$` which fulfills **Preservation
+of Consistent Subgraphs** for all graphs `$G \in \mathfrak{P}$`. Then
+there exists no polynomial `$p$` so that for all directed graphs
+`$P_n \in \mathfrak{P}_n$` of size `$n$` it holds that `$\mathtt{A}(P_n)$`
+computes its output in less than `$p(n)$` steps.
 
-::: proof
-*Proof.* Let $\mathbf{C}=\mathtt{A}(E_n)$. **Lemma**
-[13](#lemma:enresolvedbig){reference-type="ref"
-reference="lemma:enresolvedbig"} shows that $\mathbf{C}$ is exponential
-in the number of vertices (by **remark**
-[3](#rem:lowbound){reference-type="ref" reference="rem:lowbound"}). Any
-$\mathtt{A}$ would at least need to enumerate all $C \in \mathbf{C}$,
-which would take exponential time. ◻
-:::
+*Proof.* Let `$\mathbf{C}=\mathtt{A}(E_n)$`. **Lemma** 13 shows that
+`$\mathbf{C}$` is exponential in the number of vertices (by **remark**
+3. Any `$\mathtt{A}$` would at least need to enumerate all `$C \in
+\mathbf{C}$`, which would take exponential time. ◻
 
-::: remark
-**Remark 4**. The set of inclusion-maximal consistent subgraphs on $E_n$
-can be compactly represented as the Cartesian product of the
-inclusion-maximal consistent subgraphs of the "levels" $V_i$:
+**Remark 4**. The set of inclusion-maximal consistent subgraphs on
+`$E_n$` can be compactly represented as the Cartesian product of the
+inclusion-maximal consistent subgraphs of the "levels" `$V_i$`:
 
-$$\bigtimes_{i=1}^n \{\alpha_i \rightarrow \beta_i, \beta_i \rightarrow \gamma_i, \gamma_i \rightarrow \alpha_i\}$$
+<div>
+	$$\newcommand{\bigtimes}{\mathop{\Large\times\normalsize}} \bigtimes_{i=1}^n \{\alpha_i \rightarrow \beta_i, \beta_i \rightarrow \gamma_i, \gamma_i \rightarrow \alpha_i\}$$
+</div>
 
 This might also allow for a compact representation of the result of $f$
 which includes all inclusion-maximal consistent subgraphs. We suspect
 there are counter-examples that don't allow for this, but haven't been
 able to find any.
-:::
 
 # Inconsistent Preferences over Lotteries
 
 Von Neumann and Morgenstern formulate their famous theorem by defining
 some restriction on relations over lotteries [@von1947theory], as
-explained in Section [2.1](#sec:vnmintro){reference-type="ref"
-reference="sec:vnmintro"}.
+explained in [this section](#The_von_NeumannMorgenstern_Axioms).
 
 Finding a mathematical structure which can encode all inconsistent
 preferences over lotteries *and* is still computationally tractable
@@ -1809,14 +1799,12 @@ However, if $\Omega$ has at least one element, such a relation can be
 uncountably large and without compact representation, making it
 impossible to be handled computationally.
 
-::: example
-#**Example 2**. A pathological example would be a relation
+**Example 2**. A pathological example would be a relation
 $\mathcal{R} \in \Delta(\Omega)
 \times \Delta(\Omega)$ on probability distributions of $\Omega=\{\alpha,
 \beta\}$ in which $[p: \alpha, (1-p): \beta] \prec [q: \alpha, (1-q):
 \beta]$ if and only if $p \in [0;1]$ is an uncomputable real number and
 $q \in [0;1]$ is a computable real number.
-:::
 
 We were also unable to find a method for resolving such inconsistent
 preferences into their consistent versions.
@@ -1833,8 +1821,8 @@ preferences over edge-weighted graphs were considered, and finally
 rejected.
 
 One option was the `PageRank` algorithm [@bianchini2005inside], also
-mentioned in Sun et al. [Sun et al. 2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies"). We rejected PageRank for the
-same reason as Sun et al. [Sun et al. 2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies") did: In a directed acyclic
+mentioned in [Sun et al. 2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies"). We rejected PageRank for the
+same reason as [Sun et al. 2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies") did: In a directed acyclic
 graph, a unique greatest element does not necessarily receive the
 highest ranking. This problem extends to using other centrality measures
 for graphs such as degree centrality and betweenness centrality
