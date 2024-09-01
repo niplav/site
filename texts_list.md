@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-08-07, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-09-01, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,8 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [* Non-directed conceptual founding (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/08/non-directed-conceptual-founding.html)
+* [Are Sunk Costs Fallacies? (Gwern Branwen, 2019)](https://gwern.net/sunk-cost)
+* [Plans Are Predictions, Not Optimization Targets (johnswentworth, 2022)](https://www.lesswrong.com/posts/5ntgky9ShzKKWu7us/plans-are-predictions-not-optimization-targets)
+* [AI #78: Some Welcome Calm (Zvi, 2024)](https://www.lesswrong.com/posts/qGh9suEsb82hzBtSN/ai-78-some-welcome-calm)
+* [AI #77: A Few Upgrades (Zvi, 2024)](https://www.lesswrong.com/posts/2tKbDKGLXtEHGtGLn/ai-77-a-few-upgrades)
+* |10 Constitutional AI: Harmlessness from AI feedback (Yuntao Bai/Saurav Kadavath/Sandipan Kundu/Amanda Askell/Jackson Kernion/Andy Jones/Anna Chen/Anna Goldie/Azalia Mirhoseini/Cameron McKinnon/Carol Chen/Catherine Olsson/Christopher Olah/Danny Hernandez/Dawn Drain/Deep Ganguli/Dustin Li/Eli Tran-Johnson/Ethan Perez/Jamie Kerr/Jared Mueller/Jeffrey Ladish/Joshua Landau/Kamal Ndousse/Kamile Lukosiute/Liane Lovitt/Michael Sellitto/Nelson Elhage/Nicholas Schiefer/Noemi Mercado/Nova DasSarma/Robert Lasenby/Robin Larson/Sam Ringer/Scott Johnston/Shauna Kravec/Sheer El Showk/Stanislav Fort/Tamera Lanham/Timothy Telleen-Lawton/Tom Conerly/Tom Henighan/Tristan Hume/Samuel R. Bowman/Zac Hatfield-Dodds/Ben Mann/Dario Amodei/Nicholas Joseph/Sam McCandlish/Tom Brown/Jared Kaplan, 2022)
 * \* ML for the Working Programmer (Lawrence C. Paulson, 1996)
-* [Game Theory without Argmax [Part 1] (Cleo Nardo, 2023)](https://www.lesswrong.com/s/Qn8DhSrdA2qPH2eJT/p/3ahqzpKvtqkom63cx)
+* [Game Theory without Argmax \[Part 1\] (Cleo Nardo, 2023)](https://www.lesswrong.com/s/Qn8DhSrdA2qPH2eJT/p/3ahqzpKvtqkom63cx)
 * [Quickstart (manim developers, 2024)](https://docs.manim.community/en/stable/tutorials/quickstart.html)
 * [Philosophical Majoritarianism (Hal Finney, 2007)](https://www.overcomingbias.com/p/on_majoritarianhtml)
 * [2018 in Review (John Nerst, 2018)](https://everythingstudies.com/2018/12/29/2018-in-review/)
