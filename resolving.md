@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-15, modified: 2024-07-14, language: english, status: in progress, importance: 8, confidence: highly likely*
+*author: niplav, created: 2023-04-15, modified: 2024-09-01, language: english, status: in progress, importance: 8, confidence: highly likely*
 
 > __We consider the problem of resolving preferences
 that are inconsistent under the [von Neumann-Morgenstern
@@ -196,14 +196,14 @@ outperforms removing greedy approximations of the [feedback arc
 set](https://en.wikipedia.org/wiki/Feedback_arc_set) ([Sun et al.
 2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies")).
 
-Outside of the academic literature, Aird and
-Shovelain represent inconsistent preferences as [vector
+Outside of the academic literature, [Aird &
+Shovelain 2020](https://www.lesswrong.com/posts/ky988ePJvCRhmCwGo/using-vector-fields-to-visualise-preferences-and-make-them "Using vector fields to visualise preferences and make them consistent") represent inconsistent preferences as [vector
 fields](https://en.wikipedia.org/wiki/Vector_Field) on a state space
 (for example states with more/less security and more/less wealth),
 where a vector $\mathbf{v}$ at a specific point $\mathit{p}$ in the
 vector field indicates a preference for a change in the direction of
-$\mathbf{v}$ at $\mathit{p}$ [Aird & Shovelain
-2020)](https://www.lesswrong.com/posts/ky988ePJvCRhmCwGo/using-vector-fields-to-visualise-preferences-and-make-them "Using vector fields to visualise preferences and make them consistent").
+$\mathbf{v}$ at $\mathit{p}$.
+
 However, as they note, such a vector field can have inconsistencies in the
 form of [curl](https://en.wikipedia.org/wiki/Curl_\(mathematics\)). They
 then discuss the restrictions on the vector field so that it
@@ -214,19 +214,21 @@ to decompose inconsistent preference vector fields with three
 dimensions. Their approach bears a strong resemblance to the Hodge
 decomposition we use with edge-weighted graphs.
 
-Taking a very different approach, Kirchner
-investigates how to infer utility functions from
-non-transitive preferences using a neural network [Kirchner
-2022](https://www.lesswrong.com/posts/QZiGEDiobFz8ropA5/inferring-utility-functions-from-locally-non-transitive).
-Kirchner relates inferring such preferences to sorting data in
-which comparisons sometimes are random, resulting in cycles during
-comparison. He finds that this approach is able to reconstruct orderings
-even when 10% of the results of comparisons are noise.
+Taking a very different approach, [Kirchner
+2022](https://www.lesswrong.com/posts/QZiGEDiobFz8ropA5/inferring-utility-functions-from-locally-non-transitive)
+investigates how to infer utility functions from non-transitive
+preferences using a neural network.  Kirchner relates inferring such
+preferences to sorting data in which comparisons sometimes are random,
+resulting in cycles during comparison. He finds that this approach is
+able to reconstruct orderings even when 10% of the results of comparisons
+are noise.
 
 * [Value Formation: An Overarching Model (Thane Ruthenis, 2022)](https://www.lesswrong.com/posts/kmpNkeqEGvFue7AvA/value-formation-an-overarching-model)
 * [A logic to deal with inconsistent preferences (Bob Jacobs, 2023)](https://bobjacobs.substack.com/p/a-logic-to-deal-with-inconsistent)
 * [Value systematization: how values become coherent (and misaligned) (Richard Ngo, 2023)](https://www.lesswrong.com/posts/J2kpxLjEyqh6x3oA4/value-systematization-how-values-become-coherent-and)
 * [The Value Change Problem (Nora Amann, 2023)](https://www.lesswrong.com/s/3QXNgNKXoLrdXJwWE)
+
+<!--TODO: Other posts in the LW sequence draft-->
 
 ##### Learning Inconsistent Preferences
 
@@ -1607,38 +1609,29 @@ inclusion-maximal consistent subgraphs of `$E_n$` grows exponentially in
 of `$E_n$` that includes all inclusion-maximal consistent subgraphs of
 `$E_n$` has size at least `$(\frac{3}{2})^n$`.
 
-*Proof.* Assume that one can partition the set $\mathbf{C}$ of
-inclusion-maximal consistent subgraphs of $E_n$ into a set $\mathbf{P}$
-of disjoint sets of size $\le 2^n$ (that is
-$\forall \mathcal{C}_i \in \mathbf{P}:
-|\mathcal{C}_i|=2^n|$) such that there exists a consistent graph $C$
-that contains all $\mathcal{C}_i$. Then the number of such partitions
+*Proof.* Assume that one can partition the set `$\mathbf{C}$` of
+inclusion-maximal consistent subgraphs of $E_n$ into a set `$\mathbf{P}$`
+of disjoint sets of size `$\le 2^n$` (that is
+`$\forall \mathcal{C}_i \in \mathbf{P}:
+|\mathcal{C}_i|=2^n|$`) such that there exists a consistent graph `$C$`
+that contains all `$\mathcal{C}_i$`. Then the number of such partitions
 would be the number of consistent graphs required to "cover" all
-elements in $\mathbf{C}$, since by Lemma
-[12](#lemma:ensubgraphs){reference-type="ref"
-reference="lemma:ensubgraphs"} the sets of compatible graphs have at
-most size $2^n$. Then the size of $\mathbf{P}$ would be at least
-$\frac{3^n}{2^n}=1.5^n$, which is exponential in $n$. ◻
+elements in `$\mathbf{C}$`, since by Lemma
+12 the sets of compatible graphs have at
+most size `$2^n$`. Then the size of $\mathbf{P}$ would be at least
+`$\frac{3^n}{2^n}=1.5^n$`, which is exponential in `$n$`. ◻
 
-Therefore, Theorem [10](#theorem:impossibility1){reference-type="ref"
-reference="theorem:impossibility1"} is true.
+Therefore, Theorem 10 is true.
 
-::: corollary
-**Corollary 1**. There is no polynomial $p$ and function
-$f: \mathfrak{P} \rightarrow
-\mathcal{P}(\mathfrak{C})$ such that $|f(E_n)|\le p(n)$ and $f$ fulfills
-**Preservation of Consistent Subgraphs**, so **Theorem**
-[10](#theorem:impossibility1){reference-type="ref"
-reference="theorem:impossibility1"} is true (with $E_n$ as a
-counterexample).
-:::
+**Corollary 1**. There is no polynomial $p$ and function `$f: \mathfrak{P}
+\rightarrow \mathcal{P}(\mathfrak{C})$` such that `$|f(E_n)|\le p(n)$` and
+`$f$` fulfills **Preservation of Consistent Subgraphs**, so **Theorem**
+10 is true (with `$E_n$` as a counterexample).
 
-::: {#rem:lowbound .remark}
 **Remark 3**. This bound is
-$(\frac{3}{2})^{\frac{v}{3}}=\sqrt[3]{\frac{3}{2}}^v \approx
-1.145^v$ for the number of vertices $v$ in $E_v$, which is exponential
-but can probably be improved upon.
-:::
+`$(\frac{3}{2})^{\frac{v}{3}}=\sqrt[3]{\frac{3}{2}}^v \approx 1.145^v$`
+for the number of vertices `$v$` in `$E_v$`, which is exponential but
+can probably be improved upon.
 
 ### Polynomial Time Complexity and Preservation of Consistent Subgraphs are Incompatible
 
