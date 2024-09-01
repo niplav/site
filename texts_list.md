@@ -17,7 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
-* [* Non-directed conceptual founding (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/08/non-directed-conceptual-founding.html)
+* [Free-Wheeling Hallucinations (Andrés Gómez-Emilsson, 2020)](https://qualiacomputing.com/2019/01/06/free-wheeling-hallucinations/)
+* [Underestimating Social Complexity Among Hunter-Gatherers (William Buckner, 2023)](https://traditionsofconflict.substack.com/p/underestimating-social-complexity)
+* [AI #79: Ready for Some Football (Zvi, 2024)](https://www.lesswrong.com/posts/K8R3Cpj3szcX7z6Xo/ai-79-ready-for-some-football)
+* [Non-directed conceptual founding (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/08/non-directed-conceptual-founding.html)
 * [Are Sunk Costs Fallacies? (Gwern Branwen, 2019)](https://gwern.net/sunk-cost)
 * [Plans Are Predictions, Not Optimization Targets (johnswentworth, 2022)](https://www.lesswrong.com/posts/5ntgky9ShzKKWu7us/plans-are-predictions-not-optimization-targets)
 * [AI #78: Some Welcome Calm (Zvi, 2024)](https://www.lesswrong.com/posts/qGh9suEsb82hzBtSN/ai-78-some-welcome-calm)
