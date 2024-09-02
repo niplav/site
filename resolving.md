@@ -1684,42 +1684,45 @@ von Neumann-Morgenstern axioms.
 
 ### Discontinuity
 
-Discontinuity in relations over lotteries can occur if we know that $l_1
-\preceq l_2 \preceq l_3$, but there is no $p$ so that $l_2 \sim [p: l_1,
-(1-p): l_3]$. A discontinuous preference that fulfills $l_1 \preceq
-l_2 \preceq l_3$ could then state that for every $p \in (0;1]$ it holds
-that $l_2 \succ [p: l_1, (1-p): l_3]$ but $l_2 \prec l_3$: the lottery
-$l_2$ is strictly preferred over any mixture of $l_1, l_3$, but $l_3$ is
-still strictly preferred to $l_2$. The equivalent can occur if $l_2$ is
-strictly dispreferred to any mixture of $l_1, l_3$, but strictly
-preferred over $l_1$.
+Discontinuity in relations over lotteries can occur if we know that
+`$l_1 \preceq l_2 \preceq l_3$`, but there is no `$p$` so that `$l_2 \sim
+[p: l_1, (1-p): l_3]$`. A discontinuous preference that fulfills `$l_1
+\preceq l_2 \preceq l_3$` could then state that for every `$p \in (0;1]$`
+it holds that `$l_2 \succ [p: l_1, (1-p): l_3]$` but `$l_2 \prec l_3$`:
+the lottery `$l_2$` is strictly preferred over any mixture of `$l_1,
+l_3$`, but `$l_3$` is still strictly preferred to `$l_2$`. The equivalent
+can occur if `$l_2$` is strictly dispreferred to any mixture of `$l_1,
+l_3$`, but strictly preferred over `$l_1$`.
 
-In humans, this can sometimes be observed as the certainty effect from
-prospect theory [@tversky1981framing], in which subjects systematically
-overrate the value of certain (deterministic) option, which leads to the
-Allais paradox [@allais1953comportement].
+In humans, this can sometimes be observed as the [certainty
+effect](https://en.wikipedia.org/wiki/Certainty_effect) from
+[prospect theory](https://en.wikipedia.org/wiki/Prospect_Theory),
+in which subjects systematically overrate the value of
+certain (deterministic) option, which leads to the [Allais
+paradox](https://en.wikipedia.org/wiki/Allais_Paradox).
 
-A view under which discontinuities of this type make sense is if an
-agent has a specific aversion to lotteries, irrespective of the options
-they are comprised of (Von Neumann and Morgenstern call the continuity
-axiom "excluding a "utility of gambling"" [@von1947theory 3.7.1], and
-state that "concepts like a "specific utility of gambling" cannot be
-formulated free of contradiction on this level." \[ibid.\]).
+A view under which discontinuities of this type make sense is if an agent
+has a specific aversion to lotteries, irrespective of the options they
+are comprised of (Von Neumann and Morgenstern call the continuity axiom
+"excluding a "utility of gambling"" [@von1947theory 3.7.1], and state
+that "concepts like a "specific utility of gambling" cannot be formulated
+free of contradiction on this level." \[ibid.\]).
 
 ### Dependence
 
 Violations of the independence axiom ("dependence") occur if for two
-lotteries $l_1, l_2$ (with $l_1 \preceq l_2$) there is an option $l_3$
-and a $p \in [0; 1]$ so that $[p: l_1, (1-p): l_3] \succ [p: l_2,
-(1-p): l_3]$: Mixing in $l_3$ in equal proportion to both $l_1, l_2$
-causes the preference to switch.
+lotteries `$l_1, l_2$` (with `$l_1 \preceq l_2$`) there is an option
+`$l_3$` and a `$p \in [0; 1]$` so that `$[p: l_1, (1-p): l_3] \succ [p:
+l_2, (1-p): l_3]$`: Mixing in $l_3$ in equal proportion to both `$l_1,
+l_2$` causes the preference to switch.
 
-Together with a strong preference for certainty it is observed in the
-Allais paradox [@allais1953comportement]: In experiments with humans,
-the lottery `$A_1=[1: \$1 \text{mio.}]$` is strictly preferred over the
-lottery `$B_1=[0.89: \$1 \text{mio.}, 0.01: \$0, 0.1: \$5
-\text{mio.}]$`, but the lottery `$B_2=[0.9: \$0, 0.1: \$5 \text{mio.}]$` is
-strictly preferred over `$A_2=[0.89: \$0, 0.11: \$1 \text{mio.}]$`.
+Together with a strong preference for certainty it is observed in
+the [Allais paradox](https://en.wikipedia.org/wiki/Allais_Paradox):
+In experiments with humans, the lottery `$A_1=[1: \$1 \text{mio.}]$`
+is strictly preferred over the lottery `$B_1=[0.89: \$1 \text{mio.},
+0.01: \$0, 0.1: \$5 \text{mio.}]$`, but the lottery `$B_2=[0.9: \$0,
+0.1: \$5 \text{mio.}]$` is strictly preferred over `$A_2=[0.89: \$0,
+0.11: \$1 \text{mio.}]$`.
 
 By using the independence axiom, these two preferences can be shown to
 be contradictory. This can be done by first "mixing out" 0.89 of \$1mio.
@@ -1894,7 +1897,6 @@ Penrose-Moore pseudo-inverse of $A$ $s$
 :::
 :::
 
-::: remark
 #**Remark 5**. One might ask, under the social choice view, whether it
 makes sense for some voter $v \in V$ to lie about their preferences over
 $A$ in order to change the output of `HodgeRank` to correspond to their
@@ -1915,7 +1917,6 @@ It would be interesting to investigate the computational complexity of
 finding manipulations of existing preference of one voter to ordinally
 change the output of `HodgeRank` to more strongly conform to that
 voters' preferences.
-:::
 
 Besides the disadvantage of allowing for strategic manipulation, the
 decomposition returned by `HodgeRank` appears to display many desirable
@@ -2528,11 +2529,11 @@ Preferences** and **Preservation of Consistent Subgraphs** are
 incompatible, as well as **Resolution to Polynomially Many Preferences**
 and **Polynomial Time Complexity**.
 
-For inconsistent preferences over lotteries, we examined a
-representation using edge-weighted directed graphs. This representation
-is inadequate, as it can not encode all possible inconsistent
-preferences, most notably the violation of independence observed in
-[@allais1953comportement].
+For inconsistent preferences over lotteries, we examined a representation
+using edge-weighted directed graphs. This representation is inadequate,
+as it can not encode all possible inconsistent preferences, most
+notably the violation of independence observed in the [Allais
+paradox](https://en.wikipedia.org/wiki/Allais_Paradox).
 
 We nevertheless reviewed the `HodgeRank` algorithm that allows for
 resolving inconsistent edge-weighted directed graphs into utility
