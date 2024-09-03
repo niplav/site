@@ -1620,12 +1620,12 @@ their situation by forcing the other player to swerve first,
 and guaranteeing the swerve (after all, it's a [strictly dominant
 strategy](https://en.wikipedia.org/wiki/Dominant_Strategy)).
 
-In a less artificial context, one could see minimum wage laws
-as an example of this. Disregarding potential effects from
-increased unemployment, having higher minimum wage removes
-the temptation of workers to accept lower wages. [Braess'
-paradox](https://en.wikipedia.org/wiki/Braess_Paradox) is another
-instantiation of this problem.
+In a less artificial context, one could see [minimum wage
+laws](https://en.wikipedia.org/wiki/Minimum_wage_law) as an example of
+this. Disregarding potential effects from increased unemployment, having
+higher minimum wage removes the temptation of workers to accept lower
+wages. [Braess' paradox](https://en.wikipedia.org/wiki/Braess_Paradox)
+is another instantiation of this problem.
 
 One can imagine a paternalist government as more of a [mechanism
 designer](https://en.wikipedia.org/wiki/Mechanism_Design), then.
@@ -2151,3 +2151,23 @@ that `$(v, w) \in E_{k+1}$` if and only if `$(v_i, w_i) \in E_i$` and
 `$v \in f_i(v_i), w \in f_i(w_i)$`.
 
 <!--TODO: weighted graph sevolution-->
+
+How Often Does Taking Away Options Help?
+-----------------------------------------
+
+In some game-theoretic setups, [taking
+options away from a player improves their
+situation](./notes.html#Paternalism_May_Be_About_Mechanism_Design). I
+perform a [Monte-Carlo
+simulation](https://en.wikipedia.org/wiki/Monte-Carlo_simulation) to
+figure out how often that is the case, generating random [normal form
+games](https://en.wikipedia.org/wiki/Normal-form_game) with payoffs in
+`$[0,1]$`, removing one option from the first player, and comparing
+the equilibria.
+
+![](./img/options/player_A.png)
+
+![](./img/options/player_B.png)
+
+Code [here](./code/options/options.py), largely written by [Claude 3.5
+Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet).
