@@ -1,67 +1,130 @@
 import numpy as np
 import nashpy
+from itertools import product
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-N=1000
+NUM_SAMPLES = 1000  # Number of games to sample for each size combination
+LIMIT_SUM=12
 
 def player_payoffs(a, b, astrat, bstrat):
-	apayoff=np.sum(astrat[:,None]*a*bstrat)
-	bpayoff=np.sum(astrat[:,None]*b*bstrat)
-	return apayoff, bpayoff
+    apayoff = np.sum(astrat[:, None] * a * bstrat)
+    bpayoff = np.sum(astrat[:, None] * b * bstrat)
+    return apayoff, bpayoff
 
-all_ameans=[]
-all_bmeans=[]
-all_taken_ameans=[]
-all_taken_bmeans=[]
+def calculate_equilibria_payoffs(game):
+    equilibria = game.vertex_enumeration()
+    payoffs = [player_payoffs(game.payoff_matrices[0], game.payoff_matrices[1], *eq) for eq in equilibria]
+    return payoffs
 
-for i in range(0, N):
-	a=np.random.rand(4, 3)
-	b=np.random.rand(4, 3)
+def simulate_games():
+    all_results = {}
 
-	game=nashpy.Game(a, b)
-	equilibria=game.vertex_enumeration()
+    for a_actions, b_actions in product(range(3, 10), range(3, 10)):
+        if a_actions + b_actions > LIMIT_SUM:
+            continue
 
-	apayoffs=[]
-	bpayoffs=[]
+        print(f"\nSimulating games with {a_actions} × {b_actions} actions")
 
-	for equilibrium in equilibria:
-		astrat=equilibrium[0]
-		bstrat=equilibrium[1]
-		apayoff, bpayoff=player_payoffs(a, b, astrat, bstrat)
-		apayoffs+=[apayoff]
-		bpayoffs+=[bpayoff]
-		print("normal: ", apayoff, bpayoff)
+        game_results = []
 
-	all_ameans+=[np.mean(apayoffs)]
-	all_bmeans+=[np.mean(bpayoffs)]
+        for _ in range(NUM_SAMPLES):
+            a = np.random.rand(a_actions, b_actions)
+            b = np.random.rand(a_actions, b_actions)
 
-	print("mean payoffs: ", np.mean(apayoffs), np.mean(bpayoffs))
+            # Normal game
+            normal_game = nashpy.Game(a, b)
+            normal_payoffs = calculate_equilibria_payoffs(normal_game)
 
-	# Taking option away from a/row player
-	taken_a=a[1:,]
-	taken_b=b[1:,]
-	taken_game=nashpy.Game(taken_a, taken_b)
-	equilibria=taken_game.vertex_enumeration()
+            # Games with option taken away from a/row player
+            taken_a = np.delete(a, 0, axis=0)
+            taken_b = np.delete(b, 0, axis=0)
 
-	taken_apayoffs=[]
-	taken_bpayoffs=[]
+            taken_game = nashpy.Game(taken_a, taken_b)
+            taken_payoffs = calculate_equilibria_payoffs(taken_game)
 
-	for equilibrium in equilibria:
-		taken_astrat=equilibrium[0]
-		taken_bstrat=equilibrium[1]
-		taken_apayoff, taken_bpayoff=player_payoffs(taken_a, taken_b, taken_astrat, taken_bstrat)
-		taken_apayoffs+=[taken_apayoff]
-		taken_bpayoffs+=[taken_bpayoff]
-		print("taken: ", taken_apayoff, taken_bpayoff)
+            game_results.append({
+                'normal': normal_payoffs,
+                'taken': taken_payoffs
+            })
 
-	all_taken_ameans+=[np.mean(taken_apayoffs)]
-	all_taken_bmeans+=[np.mean(taken_bpayoffs)]
+        all_results[(a_actions, b_actions)] = game_results
 
-	print("mean taken_payoffs: ", np.mean(taken_apayoffs), np.mean(taken_bpayoffs))
+    return all_results
 
-	print("-----------------")
+def analyze_payoff_changes(all_results):
+    payoff_changes = {
+        'A': {},
+        'B': {}
+    }
 
-all_ameans=np.array(all_ameans)
-all_bmeans=np.array(all_bmeans)
+    for (a_actions, b_actions), game_results in all_results.items():
+        payoff_changes['A'][(a_actions, b_actions)] = []
+        payoff_changes['B'][(a_actions, b_actions)] = []
 
-all_taken_ameans=np.array(all_taken_ameans)
-all_taken_bmeans=np.array(all_taken_bmeans)
+        for result in game_results:
+            normal_payoffs = result['normal']
+            taken_payoffs = result['taken']
+
+            normal_mean = np.mean(normal_payoffs, axis=0) if normal_payoffs else (0, 0)
+            taken_mean = np.mean(taken_payoffs, axis=0) if taken_payoffs else (0, 0)
+
+            for player_idx, player in enumerate(['A', 'B']):
+                change = taken_mean[player_idx] - normal_mean[player_idx]
+                payoff_changes[player][(a_actions, b_actions)].append(change)
+
+    return payoff_changes
+
+def create_heatmap(payoff_changes, player):
+    game_sizes = sorted(payoff_changes.keys())
+    data = []
+
+    for size in game_sizes:
+        changes = payoff_changes[size]
+        improved = sum(1 for change in changes if change > 0)
+        total = len(changes)
+
+        if total > 0:
+            improvement_ratio = improved / total
+        else:
+            improvement_ratio = 0
+
+        data.append([size[0], size[1], improvement_ratio])
+
+    data = np.array(data)
+
+    plt.figure(figsize=(12, 10))
+    heatmap = plt.scatter(data[:, 1], data[:, 0], c=data[:, 2], s=500, cmap='RdYlGn', vmin=0, vmax=1)
+    plt.colorbar(heatmap)
+
+    plt.title(f'Ratio of Improved Payoffs for Player {player} When Removing Options from A')
+    plt.xlabel('Player B Actions')
+    plt.ylabel('Player A Actions')
+
+    plt.xticks(range(3, 10))
+    plt.yticks(range(3, 10))
+
+    plt.grid(True)
+
+    for i, txt in enumerate(data[:, 2]):
+        plt.annotate(f'{txt:.2f}', (data[i, 1], data[i, 0]), ha='center', va='center')
+
+    # Save the plot as a PNG file
+    plt.savefig(f'./payoff_changes_player_{player}.png', dpi=300, bbox_inches='tight')
+    plt.close()  # Close the figure to free up memory
+
+    print(f"Plot for Player {player} saved as 'payoff_changes_player_{player}.png'")
+
+# Run the simulation
+all_results = simulate_games()
+
+print("\nSimulation complete. Results stored in all_results dictionary.")
+
+# Assuming all_results is available from the previous simulation
+payoff_changes = analyze_payoff_changes(all_results)
+
+# Create heatmaps for both players and save as PNG files
+create_heatmap(payoff_changes['A'], 'A')
+create_heatmap(payoff_changes['B'], 'B')
+
+print("All plots have been saved in the 'plots' directory.")

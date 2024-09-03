@@ -26,6 +26,8 @@ content.
 September 2024
 --------------
 
+* [How Often Does Taking Away Options Help?](./notes.html#How_Often_Does_Taking_Away_Options_Help)
+
 August 2024
 ------------
 
