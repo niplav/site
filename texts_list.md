@@ -608,7 +608,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [This may be a super crazy theory but I think Taylor had a sub-power like Jack Slash that she wasn’t aware of. (OmegonAlphariusXX, 2022)](https://old.reddit.com/r/WormFanfic/comments/tszil3/this_may_be_a_super_crazy_theory_but_i_think/)
 * [On Stress (Gwern Branwen, 2014)](https://gwern.net/stress)
 * [Children's Conceptualisations of their Well-Being (Elizabeth Watson/Jan Mason/Toby Fattore, 2006)](./doc/pedagogy/childrens_conceptualisations_of_their_well_being_fattore_et_al_2005.pdf)
-* [A Survey of Poison Use in Hunter-Gatherer Societies (A Survey of Poison Use in Hunter-Gatherer Societies, 2022)](https://traditionsofconflict.substack.com/p/a-survey-of-poison-use-in-hunter)
+* [A Survey of Poison Use in Hunter-Gatherer Societies (William Buckner, 2022)](https://traditionsofconflict.substack.com/p/a-survey-of-poison-use-in-hunter)
 * [Rules for the flighty-souled (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/02/rules-for-flighty-souled.html)
 * [idiopathies (Gavin Leech, 2023)](https://www.gleech.org/med)
 * [Gemini Modeling (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/08/gemini-modeling.html)
