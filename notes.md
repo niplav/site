@@ -2158,12 +2158,26 @@ How Often Does Taking Away Options Help?
 In some game-theoretic setups, [taking
 options away from a player improves their
 situation](./notes.html#Paternalism_May_Be_About_Mechanism_Design). I
-perform a [Monte-Carlo
+ran a [Monte-Carlo
 simulation](https://en.wikipedia.org/wiki/Monte-Carlo_simulation) to
 figure out how often that is the case, generating random [normal form
 games](https://en.wikipedia.org/wiki/Normal-form_game) with payoffs in
-`$[0,1]$`, removing one option from the first player, and comparing
-the equilibria.
+`$[0,1]$`, removing a random option from the first player, and comparing
+the [Nash equilibria](https://en.wikipedia.org/wiki/Nash_Equilibrium)
+found via [vertex
+enumeration](https://en.wikipedia.org/wiki/Vertex_enumeration_problem)
+of the [best response](https://en.wikipedia.org/wiki/Best_response)
+[polytope](https://en.wikipedia.org/wiki/Polytope) (using
+[nashpy](https://www.theoj.org/joss-papers/joss.00904/10.21105.joss.00904.pdf))—the
+[Lemke-Howson
+algorithm](https://en.wikipedia.org/wiki/Lemke-Howson_algorithm) was
+giving me duplicate results.
+
+The removal of an option for player A is considered an improvement for
+some player if the mean payoff across all equilibria in the game
+with removed option is strictly greater than the mean payoff across all
+equilibria in the full game. I.e., I assume that we are just as
+likely to land in one equilibrium as compared to any other.
 
 ![](./img/options/player_A.png)
 

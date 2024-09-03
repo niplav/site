@@ -1759,7 +1759,7 @@ directed graphs on `$\Omega$`, where edge weights of a graph `$G$` can
 be expressed as the values of a function `$w_G: \Omega \times \Omega
 \rightarrow \mathbb{R}$`.
 
-#**Definition 12**. The subset `$\mathfrak{S}_{\Omega} \subset
+**Definition 12**. The subset `$\mathfrak{S}_{\Omega} \subset
 \mathfrak{G}_{\Omega}$` of consistent preferences on `$\Omega$` is
 the set of all edge-weighted directed graphs that is **complete**,
 **transitive**, **irreflexive** and **weight-transitive**, where
@@ -1881,8 +1881,7 @@ where we do not take the social choice view, we can assume that
 $\forall e \in E: l(e)=1$, which does not change the process of
 computing the output of `HodgeRank`.
 
-::: algorithm
-::: algorithmic
+<!--TODO: fix this-->
 Revert all $e \in E$ with $w(e)<0$ so that they now have positive
 weight. $f \gets (w(e_1), \dots, w(e_k))$
 $L \gets \text{diag}(l(e_1), \dots, l(e_k))$ $\text{diag}$ is the
@@ -1890,23 +1889,21 @@ diagonal matrix of a vector $O \gets \mathbf{0}^{|E| \times |\Omega|}$
 The zero matrix of size $|E| \times |\Omega|$. $O_{eu} \gets -1$,
 $O_{ev} \gets 1$ $s \gets -(O^{\top}LO)^+O^{\top}Lf$ $A^+$ is the
 Penrose-Moore pseudo-inverse of $A$ $s$
-:::
-:::
 
-#**Remark 5**. One might ask, under the social choice view, whether it
-makes sense for some voter $v \in V$ to lie about their preferences over
-$A$ in order to change the output of `HodgeRank` to correspond to their
-own ranking ordinally. In fact this is the case and therefore
+**Remark 5**. One might ask, under the social choice view, whether it
+makes sense for some voter `$v \in V$` to lie about their preferences
+over `$A$` in order to change the output of `HodgeRank` to correspond
+to their own ranking ordinally. In fact this is the case and therefore
 `HodgeRank` is not strategy-free.
 
 It is easy to find an example for this: Assume there are three options
-$A=\{a,b,c\}$, and three voters $V=\{1,2,3\}$, and let the cardinal
-values assigned to the options be $u_1(a)=4, u_1(b)=3, u_2(b)=4,
-u_2(c)=3, u_3(c)=4, u_3(a)=3$, with the rest of the values assigned to
+`$A=\{a,b,c\}$`, and three voters `$V=\{1,2,3\}$`, and let the cardinal
+values assigned to the options be `$u_1(a)=4, u_1(b)=3, u_2(b)=4,
+u_2(c)=3, u_3(c)=4, u_3(a)=3$`, with the rest of the values assigned to
 the options being `nan`. Then the values `HodgeRank` assigns to the
-options are $h(a)=h(b)=h(c)=0$. But voter 1 can change their reported
-assignments to be $u_1'(a)=5, u_1'(b)=3, u_1'(c)=1$, changing the
-outputs of `HodgeRank` to $h'(a)=1, h'(b)=0$ and $h'(c)=-1$, which is
+options are `$h(a)=h(b)=h(c)=0$`. But voter 1 can change their reported
+assignments to be `$u_1'(a)=5, u_1'(b)=3, u_1'(c)=1$`, changing the
+outputs of `HodgeRank` to `$h'(a)=1, h'(b)=0$` and `$h'(c)=-1$`, which is
 more compatible with their preferences.
 
 It would be interesting to investigate the computational complexity of
@@ -1933,15 +1930,15 @@ in `$\mathcal{O}(n^9)$`.
 returns a result, even if edges are missing or there are
 positive-valued cycles in the data.
 -   **Relation to known solution concepts from social choice theory**:
-If $G$ has no missing edges and $w$ is defined for every edge,
+If `$G$` has no missing edges and `$w$` is defined for every edge,
 `HodgeRank` returns an affine transformation of the result that the
 Borda count would return.
 
 In the context of inconsistent preferences, `HodgeRank` can
 be interpreted as taking the observed preferences of an agent
 as an edge-weighted directed graph, and decomposing it so that
-the potential function $p$ determines how much the agent values
-different elements in $V$. Here $p$ can act as a utility function. The
+the potential function `$p$` determines how much the agent values
+different elements in `$V$`. Here `$p$` can act as a utility function. The
 social-choice theoretic perspective offers an intriguing possibility
 of modeling agents as being comprised of subagents [Demski & Garrabrant
 2019](./doc/cs/ai/alignment/agent_foundations/embedded_agency_demski_garrabrant_2020.pdf),
@@ -2040,7 +2037,7 @@ can also be represented as a family of [right-stochastic
 matrices](https://en.wikipedia.org/wiki/Right_stochastic_matrix)
 `$\mathbf{T}(a)$` (the transition matrices), `$R$` can be encoded as
 a real-numbered vector with size `$n$`, and `$I$` can be described as
-real-numbered vector of size $n$ in which the elements sum to 1.
+real-numbered vector of size `$n$` in which the elements sum to 1.
 
 <div>
 $$\mathbf{T}(a)=\begin{pmatrix}
@@ -2129,7 +2126,7 @@ $$\begin{aligned}
 \end{aligned}$$
 </div>
 
-The matrices $\phi$ and $\psi$ can be found by minising
+The matrices `$\phi$` and `$\psi$` can be found by minising
 `$\text{BisimulationDifference}(\mathcal{M}_1, \mathcal{M}_2, \phi,
 \psi)$` with a hill-climbing algorithm from random initial values,
 or by gradient descent with BisimulationDifference as a loss function.
@@ -2149,25 +2146,25 @@ using `$\phi$`: It is `$\mathbf{R}_2=\mathbf{R}_1^{\top} \phi$`.
 
 There are some advantages to taking this approach for resolving
 ontological crises. One is that it does not presuppose a known mapping
-between $S_1$ and $S_2$, and can infer the mapping solely from the
-transition behavior of $\mathcal{M}_1$ and $\mathcal{M}_2$.
+between `$S_1$` and `$S_2$`, and can infer the mapping solely from the
+transition behavior of `$\mathcal{M}_1$` and `$\mathcal{M}_2$`.
 
 Another advantage is that for an exact solution found by BisumlateShift,
-the expected reward of repeating any action in $\mathcal{M}_2$ only
+the expected reward of repeating any action in `$\mathcal{M}_2$` only
 depends on the expected reward of executing the same action in
-$\mathcal{M}_2$ with a linear transformation of the initial state
+`$\mathcal{M}_2$` with a linear transformation of the initial state
 distribution.
 
-**Proposition 4**. Let $\mathcal{M}_1, \mathcal{M}_2$ be two MDPs, and
-let $\phi, \psi$ be two matrices found by BisimulateShift, so that
-$\phi \psi=\mathbf{1}_{n_1}, \psi \phi=\mathbf{1}_{n_2}$ and $\psi
-\mathbf{T}_1(a) \phi=\mathbf{T}_2(a)$. For an action $a \in A$, let
-$r_2(a, k, \mathbf{i}_2)$ be the expected average reward of executing an
-action $a$ for $k \in \mathbb{N}$ times in the MDP $\mathcal{M}_2$ with
-an initial state distribution $\mathbf{i}_2 \in \mathbb{R}^{n_2}$, and
-$r_1(a, k, \mathbf{i}_1)$ the equivalent for $\mathcal{M}_1$ (where
-$\mathbf{i}_1 \in \mathbb{R}^{n_1}$. In matrix notation the expected
-average reward of executing $a$ for $k$ times in the two MDPs is
+**Proposition 4**. Let `$\mathcal{M}_1, \mathcal{M}_2$` be two MDPs, and
+let `$\phi, \psi$` be two matrices found by BisimulateShift, so that
+`$\phi \psi=\mathbf{1}_{n_1}, \psi \phi=\mathbf{1}_{n_2}$` and `$\psi
+\mathbf{T}_1(a) \phi=\mathbf{T}_2(a)$`. For an action `$a \in A$`, let
+`$r_2(a, k, \mathbf{i}_2)$` be the expected average reward of executing an
+action `$a$` for `$k \in \mathbb{N}$` times in the MDP `$\mathcal{M}_2$` with
+an initial state distribution `$\mathbf{i}_2 \in \mathbb{R}^{n_2}$`, and
+`$r_1(a, k, \mathbf{i}_1)$` the equivalent for `$\mathcal{M}_1$` (where
+`$\mathbf{i}_1 \in \mathbb{R}^{n_1}$`. In matrix notation the expected
+average reward of executing `$a$` for `$k$` times in the two MDPs is
 
 <div>
 	$$r_1(a, k, \mathbf{i}_1)=\frac{1}{k} \sum_{i=1}^{k} \mathbf{R}_1^\top \times (\mathbf{T}_1(a))^i \times \mathbf{i}_1$$
@@ -2179,12 +2176,12 @@ and
 	$$r_2(a, k, \mathbf{i}_2)=\frac{1}{k} \sum_{i=1}^{k} (\mathbf{R}_1^{\top} \phi) \times \mathbf{T}_2(a)^i \times \mathbf{i}_2$$
 </div>
 
-Then $r_2(a, k, \mathbf{i}_2)=r_1(a, k, \mathbf{M} \mathbf{i}_2)$, where
-$\mathbf{M} \in \mathbb{R}^{n_1 \times n_1}$ and therefore $\mathbf{M}
-\mathbf{i}_1$ is a linear transformation of the distribution over
+Then `$r_2(a, k, \mathbf{i}_2)=r_1(a, k, \mathbf{M} \mathbf{i}_2)$`, where
+`$\mathbf{M} \in \mathbb{R}^{n_1 \times n_1}$` and therefore `$\mathbf{M}
+\mathbf{i}_1$` is a linear transformation of the distribution over
 initial states.
 
-*Proof.* $r_2(a, k, \mathbf{i}_2)$ can be expanded and simplified to
+*Proof.* `$r_2(a, k, \mathbf{i}_2)`$ can be expanded and simplified to
 
 <div>
 	$$\begin{aligned}
@@ -2217,56 +2214,56 @@ for large ontologies", and their lack of clarity on the exact algorithm
 used (as well as the absence of any formal analysis of their method)
 makes it difficult to judge the computational complexity of the problem.
 It might be fruitful to study the convergence behavior of using
-different optimization procedures for finding $\phi$ and $\psi$ to make
+different optimization procedures for finding `$\phi$` and `$\psi$` to make
 further statements about the computational complexity of
 BisimulateShift.
 
 Finally, the setting of a "finite state model" or an MDP can't encode
-certain types of consistent preferences. Let $\mathcal{M}=(S=\{s, s'\},
-A=\{a_1, a_2\}, I, P, R)$, where $P(s, a_1, s')=P(s', a_1, s)=P(s, a_2,
-s)=P(s', a_2, s')=1$ (that is $a_1$ causes the agent to switch states,
-and $a_2$ is the action where the agent stays in the same state).
+certain types of consistent preferences. Let `$\mathcal{M}=(S=\{s, s'\},
+A=\{a_1, a_2\}, I, P, R)$`, where `$P(s, a_1, s')=P(s', a_1, s)=P(s, a_2,
+s)=P(s', a_2, s')=1$` (that is `$a_1$` causes the agent to switch states,
+and `$a_2$` is the action where the agent stays in the same state).
 
-Let now $t_1, t_2 \in (S \times A)^k \times S$ be two trajectories in
-$\mathcal{M}$, namely $t_1=(s, a_1, s', a_1, s, a_2, s)$ and
-$t_2=(s, a_2, s, a_1, s', a_1, s)$. Then the cumulative reward of both
-trajectories is the same, no matter the reward function: $R(t_1)=R(s,
+Let now `$t_1, t_2 \in (S \times A)^k \times S$` be two trajectories in
+`$\mathcal{M}$`, namely `$t_1=(s, a_1, s', a_1, s, a_2, s)$` and
+`$t_2=(s, a_2, s, a_1, s', a_1, s)$`. Then the cumulative reward of both
+trajectories is the same, no matter the reward function: `$R(t_1)=R(s,
 a_1, s')+R(s', a_1, s)+R(s, a_2, s)=R(s, a_2, s)+R(s, a_1, s')+R(s', a_1,
-s)=R(t_2)$. However, intuitively there should way a way to differently
-value these two trajectories: It should be possible to value be in $s'$
+s)=R(t_2)$`. However, intuitively there should way a way to differently
+value these two trajectories: It should be possible to value be in `$s'$`
 earlier rather than later.
 
 #### Using Inconsistent Preferences to Represent Ontological Crises
 
 The framework of representing preferences as edge-weighted directed
-graphs on a set $\Omega$ of vertices, and consistent preferences as the
+graphs on a set `$\Omega$` of vertices, and consistent preferences as the
 set of edge-weighted acyclic tournaments on a set of deterministic
-options $\Omega$, can be used to represent ontological shifts.
+options `$\Omega$`, can be used to represent ontological shifts.
 
 **Definition 17**. Given a consistent edge-weighted graph
-$G=(\Omega, E_G, w)$, a **graph-based ontological shift** is a function
-from $\Omega$ to subsets of a new set of options $\Xi$, together with
-coefficients: $s: \Omega \rightarrow \mathcal{P}(\Xi \times [0,1])$,
-where $(\xi, c)
-\in s(\omega)$ means that $\omega \in \Omega$ in the old set of options
-turned out to be $\xi \in \Xi$ to the degree $c$. The larger $c$, the
-more $\omega$ is $\xi$.
+`$G=(\Omega, E_G, w)$`, a **graph-based ontological shift** is a function
+from `$\Omega$` to subsets of a new set of options `$\Xi$`, together with
+coefficients: `$s: \Omega \rightarrow \mathcal{P}(\Xi \times [0,1])$`,
+where `$(\xi, c)
+\in s(\omega)$` means that `$\omega \in \Omega$` in the old set of options
+turned out to be `$\xi \in \Xi$` to the degree `$c$`. The larger `$c$`, the
+more `$\omega$` is `$\xi$`.
 
-In this text, I will assume that $\forall \omega \in \Omega: 0 \le
-\sum_{(\xi, c) \in s(\omega)} c \le 1$.
+In this text, I will assume that `$\forall \omega \in \Omega: 0 \le
+\sum_{(\xi, c) \in s(\omega)} c \le 1$`.
 
-If the coefficients of the image of $\omega$ sum to 1, that means that
-$\omega$ has been completely "ported over" to $\Xi$. If they sum to less
-than 1, that means that $\omega$ was a (partially) confused concept, if
-the coefficients in the image sum to 0 (or $s(\omega)=\emptyset$), that
-means that $\omega$ was a wholly confused concept and does not actually
-exist. If the sum of the coefficients are $>1$, that means that $\omega$
+If the coefficients of the image of `$\omega$` sum to 1, that means that
+`$\omega$` has been completely "ported over" to `$\Xi$`. If they sum to less
+than 1, that means that `$\omega$` was a (partially) confused concept, if
+the coefficients in the image sum to 0 (or `$s(\omega)=\emptyset$`), that
+means that `$\omega$` was a wholly confused concept and does not actually
+exist. If the sum of the coefficients are `$>1$`, that means that `$\omega$`
 turned out to be "more real" than in the old set of options (which we
 exclude as an option here).
 
-**Definition 18**. Given $G$, the result
-$G^{\star}=(\Xi, E^{\star}, w^{\star}: \Xi \times \Xi \rightarrow \mathbb{R})$
-after a graph-based ontological shift $s$ is an edge-weighted graph.
+**Definition 18**. Given `$G$`, the result
+`$G^{\star}=(\Xi, E^{\star}, w^{\star}: \Xi \times \Xi \rightarrow \mathbb{R})$`
+after a graph-based ontological shift `$s$` is an edge-weighted graph.
 
 The output of the function `$t$` is a combination of the weights `$w$` of
 `$G$` and the coefficients of `$s$` (for all `$\omega_1, \omega_2$`):
@@ -2279,15 +2276,15 @@ Then for all `$\xi_1, \xi_2$` the value of `$w^{\star}(\xi_1, \xi_2)=t(\xi_1,
 \xi_2, G, s)$`.
 
 **Example 3**. Let
-$\Omega=\{L \text{ (Land animals)}, A \text{ (Air animals)}, W
-\text{ (Water animals)}\}$, and the current preference prefer land
-animals over air animals over water animals, that is $E_G=\{L
+`$\Omega=\{L \text{ (Land animals)}, A \text{ (Air animals)}, W
+\text{ (Water animals)}\}$`, and the current preference prefer land
+animals over air animals over water animals, that is `$E_G=\{L
 \overset{1}{\rightarrow} A, L \overset{1}{\rightarrow} W, A
-\overset{2}{\rightarrow} W\}$.
+\overset{2}{\rightarrow} W\}$`.
 
-Let now $\Xi=\{M \text{ (Mammals)}, B \text{ (Birds)}, F \text{ (Fish)},
-I \text{ (Insects)}\}$ be a set that better represents the available
-options, and let $s$ be
+Let now `$\Xi=\{M \text{ (Mammals)}, B \text{ (Birds)}, F \text{ (Fish)},
+I \text{ (Insects)}\}$` be a set that better represents the available
+options, and let `$s$` be
 
 <div>
 	$$\begin{aligned}
@@ -2336,14 +2333,14 @@ The procedure for resolving ontological crises by representing them as
 inconsistent preferences can be written as **algorithm**
 [\[alg:graphontocrisis\]](#alg:graphontocrisis){reference-type="ref"
 reference="alg:graphontocrisis"}. The algorithm takes a consistent
-edge-weighted graph $G$, a graph-based ontological shift $s$ mapping
-elements from $\Omega$ to a new set $\Xi$, together with coefficients,
+edge-weighted graph `$G$`, a graph-based ontological shift `$s$` mapping
+elements from `$\Omega$` to a new set `$\Xi$`, together with coefficients,
 and a method for resolving inconsistent preferences on edge-weighted
 graphs.
 
-It then creates a new graph $G^{\star}$, mapping all nodes using $s$ and
+It then creates a new graph `$G^{\star}$`, mapping all nodes using `$s$` and
 creating new edges using the existing weights and coefficients with the
-function $t$ explained above. Finally, $G^{\star}$ is resolved into a
+function `$t$` explained above. Finally, `$G^{\star}$` is resolved into a
 consistent preference with the method `Resolve` (which may be specified
 externally, e.g. by using `HodgeRank` or dropping the weights and using
 `EGEDmin`).
@@ -2362,69 +2359,66 @@ $(\Xi, E^{\star}, w^{\star})$. $G'$
 ##### Advantages
 
 An advantage of `ResolveShift` over BisimulateShift is the set of
-preferences that can be represented by $G$ and $G'$. If $\Omega$ is the
-set of all finite sequences of state-action pairs $((S \times A)^k
-\times S)_{k \ge 0}$ then $t_1=(s, a_1, s', a_1, s, a_2, s)$ and
-$t_2=(s,
-a_2, s, a_1, s', a_1, s)$ are two different elements in $\Omega$, and a
-preference of $t_1$ over $t_2$ can be represented e.g. with an edge
-$t_1 \rightarrow t_2$ in $E$.
+preferences that can be represented by `$G$` and `$G'$`. If `$\Omega$` is the
+set of all finite sequences of state-action pairs `$((S \times A)^k
+\times S)_{k \ge 0}$` then `$t_1=(s, a_1, s', a_1, s, a_2, s)$` and
+`$t_2=(s,
+a_2, s, a_1, s', a_1, s)$` are two different elements in `$\Omega$`, and a
+preference of `$t_1$` over `$t_2$` can be represented e.g. with an edge
+`$t_1 \rightarrow t_2$` in `$E$`.
 
 A further advantage of `ResolveShift` is that it has a polynomial
-runtime complexity of $\mathcal{O}(|E| \cdot m^2)$, which is a subset of
-the functions in $\mathcal{O}(n^2 \cdot m^2)$ (with $n=|\Omega|$, and
-$m=|\Xi|$), unlike BisimulateShift, which offers no such guarantees.
+runtime complexity of `$\mathcal{O}(|E| \cdot m^2)$`, which is a subset of
+the functions in `$\mathcal{O}(n^2 \cdot m^2)$` (with `$n=|\Omega|$`, and
+`$m=|\Xi|$`), unlike BisimulateShift, which offers no such guarantees.
 
 ##### Disadvantages
 
-If the dynamics (e.g. the transition function) of the elements of $\Xi$
-are known, then BisimulateShift is able to use this information to
-construct $R_2$. Additionally, if no mapping $s$ from $\Omega$ to $\Xi$
-exists (that is, only $\Omega$ and $\Xi$ are known, but their relations
-are not), then `ResolveShift` is not applicable.
+If the dynamics (e.g. the transition function) of the elements of
+`$\Xi$` are known, then BisimulateShift is able to use this information
+to construct `$R_2$`. Additionally, if no mapping `$s$` from `$\Omega$`
+to `$\Xi$` exists (that is, only `$\Omega$` and `$\Xi$` are known,
+but their relations are not), then `ResolveShift` is not applicable.
 
-::: definition
-**Definition 19**. Let $f: \mathfrak{G} \rightarrow \mathfrak{S}$ be a
-method for resolving inconsistent preferences represented by
-edge-weighted graphs, and let $s_1, s_2, \dots, s_n$ (with
-$s_i: \Omega_i \rightarrow
-\mathcal{P}(\Omega_{i+1}) \times [0,1]$) be a family of functions
-describing ontological shifts.
+**Definition 19**. Let `$f: \mathfrak{G} \rightarrow \mathfrak{S}$`
+be a method for resolving inconsistent preferences represented by
+edge-weighted graphs, and let `$s_1, s_2, \dots, s_n$` (with `$s_i:
+\Omega_i \rightarrow \mathcal{P}(\Omega_{i+1}) \times [0,1]$`) be a
+family of functions describing ontological shifts.
 
-Let $g_1, g_2, \dots, g_n$ be a family of functions that return the
-result of `ResolveShift` using the shift function $s_i$ for $g_i$, but
-without executing a resolution procedure:
-$g_i(G_i)=\mathtt{ResolveShift}(G_i, s_i, \text{id})$, where $\text{id}:
-\mathfrak{P}_{\Omega_{i+1}} \rightarrow \mathfrak{P}_{\Omega_{i+1}}$ is
-the identity function.
+Let `$g_1, g_2, \dots, g_n$` be a family of functions that return
+the result of `ResolveShift` using the shift function `$s_i$`
+for `$g_i$`, but without executing a resolution procedure:
+`$g_i(G_i)=\mathtt{ResolveShift}(G_i, s_i, \text{id})$`,
+where `$\text{id}: \mathfrak{P}_{\Omega_{i+1}} \rightarrow
+\mathfrak{P}_{\Omega_{i+1}}$` is the identity function.
 
-Let $G_1=(\Omega_1, E_1, w_1)$ be any arbitrary consistent preference on
-$\Omega_1$.
+Let `$G_1=(\Omega_1, E_1, w_1)$` be any arbitrary consistent preference on
+`$\Omega_1$`.
 
-Then $f$ is **distributive over ontological shifts** if and only if
+Then `$f$` is **distributive over ontological shifts** if and only if
 
+<div>
 $$(f \circ g_n \circ \dots \circ g_2 \circ g_1)(G_1)=(f\circ g_n \circ f \circ \dots \circ f \circ g_2 \circ f \circ g_1)(G_1)$$
-:::
+</div>
 
 Intuitively, this condition says that it shouldn't matter whether an
 agent changes their mind on which things exist to have preferences over
 multiple times, and then resolves the resulting preferences into
 consistent ones, *or* resolve their preferences after each time they
-undergo an ontological shift $s_i$.
+undergo an ontological shift `$s_i$`.
 
-::: proposition
 **Proposition 5**. `HodgeRank` is not **distributive over ontological
 shifts**.
-:::
 
 ::: proof
 *Proof.* It is easy to find examples where `HodgeRank` is not
 **distributive over ontological shifts**.
 
-Let $G_1=(\Omega=\{a, b\}, E=\{(a \overset{1}{\rightarrow} b)\})$. Let
-$s_1(a)=\{(d, 0.28)\}$, $s_1(b)=\{(c, 0.57), (e, 0.43)\}$. And let
-$s_2(c)=\{(f, 0.014)\}$, $s_2(d)=\{\}$, and $s_2(e)=\{(f, 0.34),
-(g, 0.66)\}$.
+Let `$G_1=(\Omega=\{a, b\}, E=\{(a \overset{1}{\rightarrow} b)\})$`. Let
+`$s_1(a)=\{(d, 0.28)\}$`, `$s_1(b)=\{(c, 0.57), (e, 0.43)\}$`. And let
+`$s_2(c)=\{(f, 0.014)\}$`, `$s_2(d)=\{\}$`, and `$s_2(e)=\{(f, 0.34),
+(g, 0.66)\}$`.
 
 Then **Figure** [17](#fig:nores_dist_example){reference-type="ref"
 reference="fig:nores_dist_example"} shows applying the two ontological
