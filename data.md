@@ -208,24 +208,32 @@ just to check consistency).
 
 Anonymizing locations and the names of the women:
 
-	$ awk -F, 'BEGIN { OFS="," }
-	{
-		if(loc[$2]=="" && $2!="Location")
-		{
-			loc[$2]=100000*rand();
-			gsub(/\./, "", loc[$2]);
+	$ awk -F, 'BEGIN {
+		FS = OFS = ","
+		while (getline < "admn/daygame/locations") {
+			loc[$2] = $1
 		}
-		if(name[$8]=="" && $8!="Name")
-		{
-			name[$8]=100000*rand();
+		close("locations")
+	}
+	{
+		if (name[$8] == "" && $8 != "Name") {
+			name[$8] = int(100000 * rand())
 			gsub(/\./, "", name[$8])
 		}
-		if($2!="Location") { $2=loc[$2]; }
-		if($8!="Name") { $8=name[$8]; }
-		print($0);
-	}
-	END {
-		for(key in loc) { printf "%i,%s\n", loc[key], key >"locations" }
+		if ($2 != "Location") {
+			original_location = $2
+			gsub(/"/, "", original_location)
+			if (loc[original_location] == "") {
+				print "Warning: Location '" $2 "' not found in locations file" > "/dev/stderr"
+				loc[original_location] = 100000 * rand()
+				printf "%d,\"%s\"\n", id, location >> "admn/daygame/locations"
+			}
+			$2 = loc[original_location]
+		}
+		if ($8 != "Name") {
+			$8 = name[$8]
+		}
+		print $0
 	}' <daygame_approaches.csv >daygame_approaches_anon.csv
 	$ mv daygame_approaches.csv daygame_approaches_deanon.csv
 	$ mv daygame_approaches_anon.csv daygame_approaches.csv

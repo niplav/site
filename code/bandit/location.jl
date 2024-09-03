@@ -30,13 +30,13 @@ bandit[!, :success_prob]=success_prob
 bandit[!, :dist]=[Beta(bandit[!,2][i] + 1, bandit[!,3][i] + 1) for i in 1:length(bandit[!,1])]
 bandit[!, :sample]=rand.(bandit[!, :dist])
 
-weekday_good_weather=[702595, 76108, 843941, 823073, 696163, 276017, 835159, 496077, 709269, 132388, 449256, 449052, 175735]
-weekday_bad_weather=[709269, 449052, 76108, 449256, 817198]
-weekend=[175735, 157691, 449052, 692404, 449256, 132388, 32441, 10939, 793915, 781627, 709269, 371851, 496077, 835159, 276017, 531828, 696163, 823073, 796877, 843941, 399686, 76108, 702595]
-
+weekday_good_weather=[709269, 449256, 76108, 449052, 175735, 276017, 796877, 835159, 823073, 696163, 843941, 132388, 496077, 32441, 399686]
+weekday_bad_weather=[709269, 449256, 76108, 449052]
+weekend_good_weather=[692404, 10939, 709269, 157691, 175735, 276017, 702595, 449256, 76108, 793915, 796877, 835159, 823073, 696163, 531828, 781627, 843941, 132388, 496077, 371851, 32441, 399686, 449052]
+weekend_bad_weather=[709269, 449256, 76108, 449052, 702595, 531828]
 
 locations=CSV.File("/home/niplav/admn/daygame/locations") |> DataFrame
 
 bandit=innerjoin(bandit, locations, on=:location=>:id)
 
-println(sort(bandit, :success_prob))
+println(sort(bandit, :sample))
