@@ -1,15 +1,15 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2024-07-21, language: english, status: draft, importance: 2, confidence: likely*
+*author: niplav, created: 2019-08-03, modified: 2024-09-03, language: english, status: draft, importance: 2, confidence: likely*
 
 > __Members of the [NoFap community](https://en.wikipedia.org/wiki/NoFap)
 [frequently claim](#Appendix_C_Examples_for_the_Claim) that abstinence
 from masturbation causally increases male attractiveness.__  
 > __I present a method to test this claim (albeit imperfectly)
-by approaching 50 women in the street after >90 days of abstinence
+by approaching 70 women in the street after >90 days of abstinence
 from masturbation and after a short conversation asking them for
-their contact information, and 50 again after a week of daily
+their contact information, and 70 again after a week of daily
 masturbation. The results are analyzed using a [Mann-Whitney
 U-test](https://en.wikipedia.org/wiki/Mann-Whitney_U_test)
 and various [descriptive statistical
@@ -85,7 +85,7 @@ emmission](https://en.wikipedia.org/wiki/Nocturnal_Emission) on
 2024-08-28T02:00:00 and on 2024-08-30T05:50:00.
 
 From \_ to \_, I went on the streets of a major european city
-and approached 50 people I read as women, usually via a [Yad
+and approached 70 people I read as women, usually via a [Yad
 stop](https://thomascrownpua.com/2023/04/21/qa-what-do-you-think-of-the-yad-stop/).
 The women who were approached were chosen by how attractive I found them.
 
@@ -96,7 +96,7 @@ In the week following the last approach, I masturbated once every day
 with the aid of pornography<!--TODO: link the pornography consumed during
 that time-->.
 
-Afterwards, I repeated the procedure of approaching 50 women in the
+Afterwards, I repeated the procedure of approaching 70 women in the
 same manner from \_ to \_.
 
 Data that was logged included date and time of day (in
@@ -210,11 +210,11 @@ standard deviation to compare the different parts of the dataset.
 Here the table for the different mean values and their variances in
 parentheses (the botttom right cell contains the overall mean value):
 
-|           | during        | after      |      |
-| --------- | ------------- | ---------- | ---- |
-| mean      | μ\_during     | μ\_after   | μ    |
-| median    | mdn\_during   | mdn\_after | mdn  |
-| variance  | var\_during   | var\_after | var  |
+|               | during        | after      |      |
+| ---------     | ------------- | ---------- | ---- |
+| mean          | μ\_during     | μ\_after   | μ    |
+| median        | mdn\_during   | mdn\_after | mdn  |
+| variance      | var\_during   | var\_after | var  |
 
 As one can see, \_.
 
@@ -234,23 +234,19 @@ The NoFap guys claim that abstinence from masturbation increases male
 physical attractiveness for women. This means that cold approach should
 be more successful after a long period of abstinence from masturbation
 than after a period of sustained masturbation. This assumption generates
-three hypotheses:
+two different (independent) pairs of hypotheses:
 
-1. H₀: During-abstinence and after-masturbation distribution of progress in the funnel are the same.
-2. H₁: During-abstinence and after-masturbation distribution of progress in the funnel are different, median of abstinence is higher.
-3. H₂: During-abstinence and after-masturbation distribution of progress in the funnel are different, median of after-masturbation is higher.
+1. As per the [Mann-Whitney U-test](https://en.wikipedia.org/wiki/Mann-whitney_u_test), the during-abstinence and after-masturbation distributions
+	1. __are not__ statistically significantly different (H₀).
+	1. __are__ statistically significantly different (H₁).
+2. [Cliff's delta](https://en.wikipedia.org/wiki/Effect_size#Effect_size_for_ordinal_data) is
+	1. __>0__ (after-masturbation goes further along in the funnel, i.e. is *better*).
+	2. __<0__ (during-abstinence goes further along in the funnel).
 
-The result implied by the views of the NoFap people would be that H₂
-definitely will be rejected, and that it would be very likely that H₀
-is rejected.
+The result implied by the views of the NoFap people would be that H₀
+definitely will be rejected and that Cliff's delta will be <0.
 
-<!--TODO: rewrite perhaps, sloppy writing-->
-Note that these hypotheses are not exclusive, and can all be accepted at
-the same time. It is merely the case that if a hypothesis gets rejected,
-the probability that it got rejected although it is true is lower than
-a given percentage (usually and also in this case 5%).
-
-I use a [Mann-Whitney
+I use the [Mann-Whitney
 U-Test](https://en.wikipedia.org/wiki/Mann-Whitney_U_Test) to
 test the hypotheses, under the assumption that the observations
 from each group are independent of each other. (I can't use e.g. a
@@ -263,7 +259,8 @@ data is on a [Likert scale](https://en.wikipedia.org/wiki/Likert_Scale)).
 
 	before=filter(row->row["after"]==0, data)
 	after=filter(row->row["after"]==1, data)
-	MannWhitneyUTest(before[!, "progress"], after[!, "progress"])
+	result=MannWhitneyUTest(before[!, "progress"], after[!, "progress"])
+	cliff_d=(2*result.U)/(result.nx*result.ny)-1
 
 As one can see, \_.
 
@@ -274,29 +271,29 @@ My experimental setup is not perfect.
 
 ### No Objective Decision Process for Approaching
 
-One possible criticism of the above experiment could be that no
-clear method of establishing of whom to approach was used. This
-is a fair criticism, since attractiveness is a subjective
-evaluation criterion. However, one must also consider that
-subjective judgements of attractiveness correlate strongly
-both within cultures as well as cross-culturally (see [Coetzee et al.
+One possible criticism of the experiment could be that no clear method
+of establishing of whom to approach was used. This is a fair criticism,
+since attractiveness is a subjective evaluation criterion. However,
+one must also consider that subjective judgements of attractiveness
+correlate strongly both within cultures as well as cross-culturally (see
+[Coetzee et al.
 2013](./doc/psychology/attractiveness/cross_cultural_agreement_in_facial_attractiveness_preferences_coetzee_2014.pdf "Cross-Cultural Agreement in Facial Attractiveness Preferences: The Role of Ethnicity and Gender")).
 
 Another possible method would have been to approach people completely
 randomly, which would have reduced bias significantly. However, it
 would also have made the result less useful, since it seems like people
 who practice NoFap care about their attractiveness to a very certain
-demographic (namely, conventionally attractive women from their late teens
-to early thirties).
+demographic (namely, conventionally attractive women from their late
+teens to early thirties).
 
 On the other hand, it might have been interesting to observe how older
 people would react to cold approach.
 
 Yet another method could be to put the decision of approaching to second
 person who doesn't know about the duration since the last masturbation.
-This person and the person approaching would meet twice, at least 90
-days apart, and the decider would choose who would be approached by
-the experimenter. For me, this didn't work, since proposing this to any
+This person and the approacher could meet twice, at least 90 days
+apart, and the decider would choose who would be approached by the
+experimenter. For me, this didn't work, since proposing this to any
 acquantainces would have been not socially acceptable.
 
 Another possible bias in choosing whom to approach could be that
@@ -305,29 +302,30 @@ fact, many members of the NoFap community claim that women of average
 attractiveness for men who masturbate become more attractive for men who
 abstain from masturbation. This could lead to the average attractiveness
 of the women I approached during the period of abstinence being lower than
-the attractiveness of the women after masturbation. If the attractiveness
-of the approached person has an effect on their response to cold approach,
-this could introduce a bias (although it isn't clear in which way that
-bias would go). I could've tried to pay someone to follow me around
-and write down the attractiveness of the women I approach, but I didn't
-want to.
+the attractiveness of the women after masturbation.
+
+If the attractiveness of the approached person has an effect on their
+response to cold approach, this could introduce a bias (although it
+isn't clear in which way that bias would go). I could've tried to pay
+someone to follow me around and write down the attractiveness of the
+women I approach, but I didn't want to.
 
 ### N=1 on the Approachers Side
 
 Since I was the only person to do the approaching, the data is
-highly specific to me. It could be that I have an unusualy judgment
-of attractiveness, or that my body doesn't respond to abstinence
-from masturbation as the bodies of other a.ma.ab. All fair and well,
-this reduces the strength of the findings of this text to a personal
-observation, though indicating the direction of a trend.
+highly specific to me. It could be that I have an unusual judgment
+of attractiveness, or that my body doesn't respond to abstinence from
+masturbation as the bodies of other a.m.a.b. All fair and well, this
+reduces the strength of the findings, but it's still evidence.
 
 It would have been better, of course, if there were more people
 approaching in this experiment. Since the topic is too weird to share
-among friends & none of them would be interested in the answer / willing
-to give up masturbation or sex for a little self-experiment, I was alone
-with my endeavour. However, I encourage others to attempt replication
-– the code is freely available, and I can also analyze data if it's
-[sent to me](./about.html#Contact).
+among friends & none of them would be interested in the answer /
+willing to give up masturbation or sex for a little self-experiment
+(not to speak of the difficulty of executing 140 cold approaches),
+I am alone with my endeavour. However, I encourage others to attempt
+replication – the code is freely available, and I will analyze data
+if it's [sent to me](./about.html#Contact).
 
 ### Typical WEIRDness
 
@@ -353,8 +351,8 @@ my clothes from one day to the other, I tried changing my clothes the same
 way in the second approaching period (for a similar number of approaches).
 
 Influences from weather were harder to control. During the first
-approaching session the weather was \_. During the second approaching
-session the weather was \_.
+approaching sessions the weather was \_. During the second approaching
+sessions the weather was \_.
 
 ### Strawman of the Views of NoFap
 
@@ -392,17 +390,17 @@ experiments, I didn't do them for several reasons:
 	been very low, since I assigned a very low credence to the validity
 	of the central claim altogether.
 
-### Learning Effect During First 50 Half
+### Learning Effect During First Half
 
-Daygame is based on *vibe* and *momentum*, so the first 50 approaches
-during abstinence could improve the second 50 approaches after abstinence.
+Daygame is based on *vibe* and *momentum*, so the first 70 approaches
+during abstinence could improve the second 70 approaches after abstinence.
 
 To lessen this effect, I tried to get into the groove of approaching
 for several months before the experiment, starting in July 2024 (a month
-after starting the period of abstinence), and increasing the intensity
-of daygame to prepare for having to do 50 approaches for the experiment.
+before starting the period of abstinence), and increasing the intensity
+of daygame to prepare for having to do 70 approaches for the experiment.
 
-(I don't think I could've done 50 approaches in a few days from cold
+(I don't think I could've done 70 approaches in a few days from cold
 start anyway.)
 
 Conclusion
@@ -435,27 +433,28 @@ Its hashsum was computed as such:
 
 ### Hypotheses
 
-The pre-registered hypotheses shall thus be: Let `$\mu_{\text{during}}$`
-be the expected value of cold approach with women during a long
+The pre-registered hypotheses shall thus be: Let `$d_{\text{during}}$`
+be the funnel values of cold approach with women during a >90 day long
 period of abstinence from masturbation as described in the section
-[Method](#Method), and `$\mu_{\text{after}}$` be the expected value of cold
+[Method](#Method), and `$d_{\text{after}}$` be the funnel values of cold
 approach with women after a week of regular masturbation. Then there
-are three different hypotheses:
+are two pairs of different hypotheses:
 
-1. H₀: During-abstinence and after-masturbation distribution of progress in the funnel are the same.
-2. H₁: During-abstinence and after-masturbation distribution of progress in the funnel are different, median of abstinence is higher.
-3. H₂: During-abstinence and after-masturbation distribution of progress in the funnel are different, median of after-masturbation is higher.
+1. As per the [Mann-Whitney U-test](https://en.wikipedia.org/wiki/Mann-whitney_u_test), the during-abstinence and after-masturbation distributions
+	1. __are not__ statistically significantly different (H₀).
+	1. __are__ statistically significantly different (H₁).
+2. [Cliff's delta](https://en.wikipedia.org/wiki/Effect_size#Effect_size_for_ordinal_data) is
+	1. __>0__ (after-masturbation goes further along in the funnel, i.e. is *better*).
+	2. __<0__ (during-abstinence goes further along in the funnel).
 
-There seem to be different possible strengths of convictions on this issue:
+There are four possible different stances on the results (together
+with the [subjective probabilities](./subscripts.html) I assign to each
+of them)<!--TODO: fatebook!-->:
 
-1. I define the *Strong NoFap Stance* as predicting that H₀ and H₂ will be rejected, and only H₁ will be accepted.
-2. I define the *Weak NoFap Stance* as predicting that H₂ will be rejected, and H₀ and H₁ will be accepted.
-3. I define the *Neutral Stance* as predicting that all 3 hypotheses will be accepted.
-
-As a pre-registration, I subjectively assign a probability of 60% to the
-*Neutral Stance* being correct, a probability of 17% to the *Weak NoFap
-Stance* being correct, a 8% probability to the *Strong NoFap Stance*,
-and 15% to any other result.<!--TODO: fatebook!-->
+1. I define the *Strong NoFap Stance* as predicting that H₀ will be rejected, H₁ will be accepted, and Cliff's delta <0.<sub>10%</sub>
+2. I define the *Weak NoFap Stance* as predicting that H₀ will not be rejected, but Cliff's delta <0.<sub>45%</sub>
+3. I define the *Weak Anti-Nofap Stance* as predicting that H₀ will not be rejected, and Cliff's delta >0.<sub>40%</sub>
+4. I define the *Weak Anti-Nofap Stance* as predicting that H₀ will be rejected, and Cliff's delta >0.<sub>5%</sub>
 
 ### Reasoning
 
@@ -488,7 +487,7 @@ data to test my code and figures against. I decided to generate the
 data programatically, since that would make testing and experimenting
 much easier. I used the following code to generate the dummy data:
 
-	probes::50
+	probes::70
 
 	dur::[0.1 0.2 0.25 0.3 0.75 0.9 0.98]
 	aft::[0.1 0.2 0.25 0.3 0.75 0.9 0.98]
@@ -514,7 +513,7 @@ much easier. I used the following code to generate the dummy data:
 	.p({x,"
 	",y}/d)
 
-`probes` is the number of samples generated for each scenario (50 each
+`probes` is the number of samples generated for each scenario (70 each
 for men & for women, each for during & after abstinence). `fdur`, `mdur`,
 `faft` and `maft` give the probability of progressing after a certain
 probability in the funnel. `d` is then filled with `probes` datapoints
@@ -543,18 +542,18 @@ this data fails to reject H₀:
 
 	Test summary:
 	    outcome with 95% confidence: fail to reject h_0
-	    two-sided p-value:           0.2680
+	    two-sided p-value:           0.4868
 
 	Details:
-	    number of observations in each group: [50, 50]
-	    Mann-Whitney-U statistic:             4571.5
-	    rank sums:                            [9621.5, 10478.5]
-	    adjustment for ties:                  868776.0
-	    normal approximation (μ, σ):          (-428.5, 386.406)
+	    number of observations in each group: [70, 70]
+	    Mann-Whitney-U statistic:             2609.5
+	    rank sums:                            [5094.5, 4775.5]
+	    adjustment for ties:                  252192.0
+	    normal approximation (μ, σ):          (159.5, 228.655)
 
-I then first changed the probabilities in the dummy data generation
-script slightly (reducing the probability of failure in each step by
-only a few percentage points):
+I then slightly changed the probabilities in the dummy data generation
+script (reducing the probability of failure in each step by only a few
+percentage points):
 
 	dur::[0.1 0.2 0.25 0.3 0.75 0.9 0.98]
 	aft::[0.15 0.3 0.35 0.4 0.8 0.93 0.99]
@@ -574,17 +573,18 @@ and tested the hypothesis again:
 	    point estimate:          0.0
 
 	Test summary:
-	    outcome with 95% confidence: reject h_0
-	    two-sided p-value:           0.0184
+	    outcome with 95% confidence: fail to reject h_0
+	    two-sided p-value:           0.0878
 
 	Details:
-	    number of observations in each group: [50, 50]
-	    Mann-Whitney-U statistic:             4070.5
-	    rank sums:                            [9120.5, 10979.5]
-	    adjustment for ties:                  585144.0
-	    normal approximation (μ, σ):          (-929.5, 394.016)
+	    number of observations in each group: [70, 70]
+	    Mann-Whitney-U statistic:             2053.5
+	    rank sums:                            [4538.5, 5331.5]
+	    adjustment for ties:                  179568.0
+	    normal approximation (μ, σ):          (-396.5, 231.964)
 
-As one can see, this already leads to H₀ being rejected.
+As one can see, while this fails at rejecting H₀, we get a Cliff's d
+of ≈-0.162.
 
 The data can be found
 [here](./data/masturbation_attractiveness_dummy_better.csv).
