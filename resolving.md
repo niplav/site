@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-15, modified: 2024-09-01, language: english, status: in progress, importance: 8, confidence: highly likely*
+*author: niplav, created: 2023-04-15, modified: 2024-09-04, language: english, status: in progress, importance: 8, confidence: highly likely*
 
 > __We consider the problem of resolving preferences
 that are inconsistent under the [von Neumann-Morgenstern
@@ -186,13 +186,14 @@ positive affine transformation [@backus2004exotic].
 In the context of taxonomical data, [Sun et al.
 2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies")
 investigate the problem of recovering hierarchies from noisy data.
-They represent inconsistent taxonomies with directed acyclic graphs
-and consistent hierarchical taxonomies using directed graphs. They
-find that, when measuring the number of edges being removed, a
-voting ensemble of several different techniques such as TrueSkill
-[@herbrich2007trueskill] does well on removing as few edges as possible,
-and usually outperforms removing greedy approximations of the [feedback
-arc set](https://en.wikipedia.org/wiki/Feedback_arc_set) [Sun et al.
+They represent inconsistent taxonomies with directed acyclic
+graphs and consistent hierarchical taxonomies using directed
+graphs. They find that, when measuring the number of edges being
+removed, a voting ensemble of several different techniques
+such as [TrueSkill](https://en.wikipedia.org/wiki/TrueSkill)
+does well on removing as few edges as possible, and usually
+outperforms removing greedy approximations of the [feedback arc
+set](https://en.wikipedia.org/wiki/Feedback_arc_set) [Sun et al.
 2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies").
 
 Outside of the academic literature, [Aird &
@@ -499,7 +500,7 @@ consistent graphs is to proceed by establishing the desired properties
 stepwise. Our proposed algorithm (which we call "$\mathtt{stepwise}$")
 is to execute the following steps:
 
--   **Remove minimum feedback arc sets**. ([Sun et al. 2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies")) use a
+-   **Remove minimum feedback arc sets**. [Sun et al. 2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies") use a
     greedy approximation algorithm to find and remove the minimum
     feedback arc set from a "noisy hierarchy" and create a directed
     acyclic graph. `stepwise` takes a similar approach by computing all
@@ -514,10 +515,10 @@ is to execute the following steps:
 -   **Generate all compatible topological sortings**. The elements of
     $\mathbf{A}$ are now to be converted into acyclic tournaments. We
     achieve this by computing all topological sortings for each element
-    $A \in \mathbf{A}$ with a recursive algorithm based on Kahn's
-    algorithm [@kahn1962topological] that appends nodes with in-degree 0
-    in front of a strict order $C$. The result is a set of acyclic
-    tournaments $\mathbf{C}$ on $\Omega$.
+    $A \in \mathbf{A}$ with a recursive algorithm based on [Kahn's
+    algorithm](https://en.wikipedia.org/wiki/Kahn's_algorithm) that
+    appends nodes with in-degree 0 in front of a strict order $C$. The
+    result is a set of acyclic tournaments $\mathbf{C}$ on $\Omega$.
 
 *__Algorithm 2__: Computing `stepwise`*
 
@@ -762,13 +763,14 @@ of `HodgeRank`.
 
 ### Criteria
 
-Given the algorithms outlined above, one might want to compare them
-according to different criteria, similar to the method of evaluating
-voting methods in social choice theory by some criteria
-[@banks2000positive ch. 2], such as the Condorcet criterion
-[@mclean1990borda] or manipulability [@gibbard1973manipulation]. For
-this purpose, we examine the algorithms with regards to the
-computational complexity, size of output, and two additional criteria.
+Given the algorithms outlined above, one might want to compare
+them according to different criteria, similar to the method
+of evaluating voting methods in social choice theory by some
+criteria [@banks2000positive ch. 2], such as the [Condorcet
+criterion](https://en.wikipedia.org/wiki/Condorcet_Criterion) or
+[manipulability](https://en.wikipedia.org/wiki/Strategic_Voting). For
+this purpose, we examine the algorithms with regards to the computational
+complexity, size of output, and two additional criteria.
 
 #### Surjectivity and Identity
 
@@ -912,11 +914,12 @@ elements of the set of results).
 However, results from two different fields apply to this case.
 
 -   **Social Choice Theory**: Since all elements of `$\mathbf{C}_G=f(G)$`
-    are complete, transitive, and asymmetric, one can apply the large
-    toolbox of methods and results from social choice theory
-    [@banks2000positive] to elements from `$\mathbf{C}_G$` by treating
-    them as individual preferences in a preference profile by applying a
-    social welfare function in sense of Arrow to it [@gaertner2009primer
+    are complete, transitive, and asymmetric, one can apply
+    the large toolbox of methods and results from [social choice
+    theory](https://en.wikipedia.org/wiki/Social_choice_theory) to
+    elements from `$\mathbf{C}_G$` by treating them as individual
+    preferences in a preference profile by applying a social
+    welfare function in sense of Arrow to it [@gaertner2009primer
     ch.2]. Some impossibility results such as [Arrow's impossibility
     theorem](https://en.wikipedia.org/wiki/Arrow's_Impossibility_Theorem)
     still apply, but at least results about
@@ -991,7 +994,8 @@ no graphs of size 3 with confusion 4 (or 5).
 
 Interestingly, neither `$|\mathbf{G}_{n,1}|$` nor
 `$|\mathbf{G}_{n,1}|/n!$` are known integer sequences: a search on the
-OEIS and via SuperSeeker [@sloane2003line] yield no matching results.
+[OEIS](https://en.wikipedia.org/wiki/On-line_Encyclopedia_of_Integer_Sequences)
+and via SuperSeeker [@sloane2003line] yield no matching results.
 
 **Conjecture 1**. The average confusion of all directed graphs with size
 `$n$` diverges to infinity:
@@ -1083,19 +1087,21 @@ consistent subgraphs of `$G$`. Then there exists no polynomial `$p$` so so
 that `$\forall G \in \mathfrak{P}_n: |\mathcal{S}_G| \le p(n)$`.
 
 *Proof.* [Moon & Moser
-1965](./doc/math/on_cliques_in_graphs_moon_moser_1965.pdf) describe how to
-construct an undirected graph `$G_n=(V_G,E_G)$` with `$n$` vertices and
-`$3^{\frac{n}{3}}$` inclusion-maximal cliques. Then one can construct a
-directed graph `$P_n=(V_P,E_P)$` with `$3^{\frac{n}{3}}\approx 1.4422^n$`
-inclusion-maximal consistent subgraphs from `$G_n$`, which grows faster
-than any polynomial. First, `$P_n$` receives the same vertices as `$G_n$`.
-Then, every `$v \in V$` is assigned a unique number `$j(v): V \rightarrow
-\mathbb{N}$`, and for each `$\{u,v\} \in E_G$`, the set of edges `$E_P$`
-contains `$(u,v)$` if and only if `$j(u)>j(v)$`, and `$(v,u)$` if and
-only if `$j(v)>j(u)$`. Now, if a subgraph `$\mathit{S}_G$` of `$G_n$`
-with vertices `$V_{\mathit{S}}$` is a maximal clique, then a subgraph
-`$\mathit{S}_P$` of `$P_n$` with vertices `$V_{\mathit{S}}$` is an
-inclusion-maximal consistent subgraph in `$P_n$`:
+1965](./doc/math/on_cliques_in_graphs_moon_moser_1965.pdf)
+describe how to construct an undirected graph `$G_n=(V_G,E_G)$`
+with `$n$` vertices and `$3^{\frac{n}{3}}$` inclusion-maximal
+[cliques](https://en.wikipedia.org/wiki/Clique_\(graph_theory\)). Then
+one can construct a directed graph `$P_n=(V_P,E_P)$` with
+`$3^{\frac{n}{3}}\approx 1.4422^n$` inclusion-maximal consistent
+subgraphs from `$G_n$`, which grows faster than any polynomial. First,
+`$P_n$` receives the same vertices as `$G_n$`.  Then, every `$v \in V$` is
+assigned a unique number `$j(v): V \rightarrow \mathbb{N}$`, and for each
+`$\{u,v\} \in E_G$`, the set of edges `$E_P$` contains `$(u,v)$` if and
+only if `$j(u)>j(v)$`, and `$(v,u)$` if and only if `$j(v)>j(u)$`. Now,
+if a subgraph `$\mathit{S}_G$` of `$G_n$` with vertices `$V_{\mathit{S}}$`
+is a maximal clique, then a subgraph `$\mathit{S}_P$` of `$P_n$` with
+vertices `$V_{\mathit{S}}$` is an inclusion-maximal consistent subgraph in
+`$P_n$`:
 
 1.  `$\mathit{S}_P$` is complete, because for every `$\{u,v\}$` in
     `$\mathit{S}_G$`, either `$(u,v)$` or `$(v,u)$` exists in `$\mathit{S}_P$`.
@@ -1819,15 +1825,20 @@ Some other possible candidates for methods for resolving inconsistent
 preferences over edge-weighted graphs were considered, and finally
 rejected.
 
-One option was the `PageRank` algorithm [@bianchini2005inside], also
-mentioned in [Sun et al. 2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies"). We rejected PageRank for the
-same reason as [Sun et al. 2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies") did: In a directed acyclic
-graph, a unique greatest element does not necessarily receive the
-highest ranking. This problem extends to using other centrality measures
-for graphs such as degree centrality and betweenness centrality
-[@zhang2017degree]: In graphs that are already consistent, the greatest
-element usually receives a low centrality score, and elements closer to
-the center receive larger scores, which is counter to our criteria.
+One option was the [`PageRank`](https://en.wikipedia.org/wiki/PageRank)
+algorithm, also mentioned in [Sun et al.
+2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies").
+We rejected PageRank for the same reason as [Sun et al.
+2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies")
+did: In a directed acyclic graph, a unique greatest element does
+not necessarily receive the highest ranking. This problem extends
+to using other centrality measures for graphs such as [degree
+centrality](https://en.wikipedia.org/wiki/Degree_centrality)
+and [betweenness
+centrality](https://en.wikipedia.org/wiki/Betweenness_centrality): In
+graphs that are already consistent, the greatest element usually receives
+a low centrality score, and elements closer to the center receive larger
+scores, which is counter to our criteria.
 
 ### `HodgeRank` {#sec:hodgerank}
 
@@ -1960,13 +1971,14 @@ some world model, and then the world model changes without corresponding
 changes in the values [de Blanc 2011](./doc/cs/ai/alignment/ontological_crises/ontological_crises_in_artificial_agents_value_systems_de_blanc_2011.pdf).
 
 An example of this can be observed in human values before and after
-exposure to philosophy: A human might have a value they would formulate
-as "I value the continuation of my life". However, after reading
-[@parfit1984reasons pt. 3], the view of personal identity that justifies
-a notion of "continuation" might seem much less defensible, as thought
-experiments around teleportation, the fusion and fission of persons,
-gradual replacement of the body or atom-by-atom recreation of the body
-all undermine the concept of a single fixed personal identity.
+exposure to philosophy: A human might have a value they would formulate as
+"I value the continuation of my life". However, after reading [Reasons
+and Persons](https://en.wikipedia.org/wiki/Reasons_and_Persons), the
+view of personal identity that justifies a notion of "continuation" might
+seem much less defensible, as thought experiments around teleportation,
+the fusion and fission of persons, gradual replacement of the body or
+atom-by-atom recreation of the body all undermine the concept of a single
+fixed personal identity.
 
 However, this person would likely not just give up their value of their
 continued existence, but instead attempt to "port it" to the new world
@@ -2411,7 +2423,6 @@ undergo an ontological shift `$s_i$`.
 **Proposition 5**. `HodgeRank` is not **distributive over ontological
 shifts**.
 
-::: proof
 *Proof.* It is easy to find examples where `HodgeRank` is not
 **distributive over ontological shifts**.
 
@@ -2487,7 +2498,6 @@ class="math inline"><em>f</em></span>.</figcaption>
 </figure>
 
  ◻
-:::
 
 This example works because $d$ gets "deleted" from the set of options,
 so having all preferences depend on $d$ without resolving the
