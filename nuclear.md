@@ -5,7 +5,7 @@
 
 > __Testing nuclear weapons is actually good, because it removes
 incentives to build more & different weapons as a response to uncertainty
-about reliability. The nuclear powers should therefore resuming nuclear
+about reliability. The nuclear powers should therefore resume nuclear
 weapons tests.__
 
 Two Reasons For Restarting the Testing of Nuclear Weapons
@@ -71,9 +71,9 @@ making reductions in stockpiles more realistic. If I imagine having to
 rely on weapons that haven't been tested in more than 30 years, I'd also
 want to err on having more of those weapons rather than less.
 
-> The reduction brought challenges: if the U.S. could no longer build
-or design the next world-altering bomb, what could government officials
-do to retain the expertise of scientists? And how would the ensure the
+> The reduction brought challenges: if the U.S. could no longer build or
+design the next world-altering bomb, what could government officials do
+to retain the expertise of scientists? And how would the[y] ensure the
 integrity of the arsenal without being able to test the products? Nuclear
 bombs contain more than 4,000 parts, and most of those parts are now
 more than 30 years old. Ask yourself: If you left a 1993 Ford Mustang

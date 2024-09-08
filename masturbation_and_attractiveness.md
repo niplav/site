@@ -451,10 +451,10 @@ There are four possible different stances on the results (together
 with the [subjective probabilities](./subscripts.html) I assign to each
 of them)<!--TODO: fatebook!-->:
 
-1. I define the *Strong NoFap Stance* as predicting that H₀ will be rejected, H₁ will be accepted, and Cliff's delta <0.<sub>10%</sub>
-2. I define the *Weak NoFap Stance* as predicting that H₀ will not be rejected, but Cliff's delta <0.<sub>45%</sub>
-3. I define the *Weak Anti-Nofap Stance* as predicting that H₀ will not be rejected, and Cliff's delta >0.<sub>40%</sub>
-4. I define the *Weak Anti-Nofap Stance* as predicting that H₀ will be rejected, and Cliff's delta >0.<sub>5%</sub>
+1. I define the *Strong NoFap Stance* as predicting that H₀ will be rejected, H₁ will be accepted, and Cliff's delta <0.<sub>[10%](https://fatebook.io/q/mann-whitney-u-test-is-statistically--cm0oebthg00021077phbsofig)</sub>
+2. I define the *Weak NoFap Stance* as predicting that H₀ will not be rejected, but Cliff's delta <0.<sub>[45%](https://fatebook.io/q/mann-whitney-u-test-is-not-statistically--cm0oecd9c0000t0f7m5fof52i)</sub>
+3. I define the *Weak Anti-Nofap Stance* as predicting that H₀ will not be rejected, and Cliff's delta >0.<sub>[40%](https://fatebook.io/q/mann-whitney-u-test-is-not-statistically--cm0oedtgb0000142gk7oeo2hy)</sub>
+4. I define the *Weak Anti-Nofap Stance* as predicting that H₀ will be rejected, and Cliff's delta >0.<sub>[5%](https://fatebook.io/q/mann-whitney-u-test-is-statistically--cm0oeeat40001142glh31qj62)</sub>
 
 ### Reasoning
 
