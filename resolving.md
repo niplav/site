@@ -1883,8 +1883,8 @@ though [Jiang et al
 also discuss using other methods such as the geometric mean or the ratio
 of preference to dispreference.
 
-If every voter assigns `nan` to both $\omega_1$ and $\omega_2$, there is
-no edge between the two options.
+If every voter assigns `nan` to both `$\omega_1$` and `$\omega_2$`,
+there is no edge between the two options.
 
 The function $l: E \rightarrow \mathbb{R}$ denotes the number of voters
 which have a non-`nan` rating for both nodes in the edge. In the case
@@ -1892,14 +1892,19 @@ where we do not take the social choice view, we can assume that
 $\forall e \in E: l(e)=1$, which does not change the process of
 computing the output of `HodgeRank`.
 
-<!--TODO: fix this-->
-Revert all $e \in E$ with $w(e)<0$ so that they now have positive
-weight. $f \gets (w(e_1), \dots, w(e_k))$
-$L \gets \text{diag}(l(e_1), \dots, l(e_k))$ $\text{diag}$ is the
-diagonal matrix of a vector $O \gets \mathbf{0}^{|E| \times |\Omega|}$
-The zero matrix of size $|E| \times |\Omega|$. $O_{eu} \gets -1$,
-$O_{ev} \gets 1$ $s \gets -(O^{\top}LO)^+O^{\top}Lf$ $A^+$ is the
-Penrose-Moore pseudo-inverse of $A$ $s$
+	function HodgeRank(G) # G is a tuple (Ω, E, w, l)
+		Revert all e∈E with w(e)<0 so thay they now have positive weight.
+		f=(w(e₁, …, w(eₖ))
+		L=diag(l(e₁), …, l(eₖ))
+		O=zeros(|E|, |Ω|)
+		for (u,v) in E
+			O_eu=-1, O_ev=1
+		s=-(O.T×L×O)⁺×O.T×L×f # A⁺ is the Moore-Penrose pseudo-inverse of A
+		return s
+
+*Computing `HodgeRank` from an edge-weighted directed graph*
+
+This pseudocode is implemented in Pythone [here](./hodge.html).
 
 **Remark 5**. One might ask, under the social choice view, whether it
 makes sense for some voter `$v \in V$` to lie about their preferences
@@ -1932,7 +1937,7 @@ edge-weighted graphs:
 -   **Polynomial time computability**: Finding `$w_g$` is equivalent to
 solving an `$|V| \times |V|$` least-squares problem, which can be
 solved in `$\mathcal{O}(n^3)$` time, for example by computing the
-Penrose-Moore inverse of a specific matrix. Finding `$w_h$` and `$w_c$`
+[Moore-Penrose pseudo-inverse](https://en.wikipedia.org/wiki/Moore–Penrose_inverse) of a specific matrix. Finding `$w_h$` and `$w_c$`
 from `$R$` is more computationally intensive, but still polynomial:
 they are equivalent to solving a least-squares problem of size
 `${|V| \over 3} \approx \mathcal{O}(n^3)$`, and can therefore be found
@@ -2193,7 +2198,7 @@ Then `$r_2(a, k, \mathbf{i}_2)=r_1(a, k, \mathbf{M} \mathbf{i}_2)$`, where
 \mathbf{i}_1$` is a linear transformation of the distribution over
 initial states.
 
-*Proof.* `$r_2(a, k, \mathbf{i}_2)`$ can be expanded and simplified to
+*Proof.* `$r_2(a, k, \mathbf{i}_2)$` can be expanded and simplified to
 
 <div>
 	$$\begin{aligned}
@@ -2310,8 +2315,9 @@ That is, land animals turn out to be half mammals, half insects, air
 animals are mostly birds and insects, and few mammals, and water animals
 are mostly fishes, and few mammals.
 
-(Ignoring, for the sake of simplicity of the example, *exocoetidae*[^7]
-and aquatic insects).
+(Ignoring, for the sake of simplicity of the example,
+[*exocoetidae*](https://en.wikipedia.org/wiki/Exocoetidae)[^7] and
+aquatic insects).
 
 <figure id="fig:animals_example">
 <figure id="fig:animals_1">
@@ -2342,13 +2348,11 @@ correctly weighted edges are ommitted for readability.</figcaption>
 </figure>
 
 The procedure for resolving ontological crises by representing them as
-inconsistent preferences can be written as **algorithm**
-[\[alg:graphontocrisis\]](#alg:graphontocrisis){reference-type="ref"
-reference="alg:graphontocrisis"}. The algorithm takes a consistent
-edge-weighted graph `$G$`, a graph-based ontological shift `$s$` mapping
-elements from `$\Omega$` to a new set `$\Xi$`, together with coefficients,
-and a method for resolving inconsistent preferences on edge-weighted
-graphs.
+inconsistent preferences is in pseudocode below as `ResolveShift`. The
+algorithm takes a consistent edge-weighted graph `$G$`, a graph-based
+ontological shift `$s$` mapping elements from `$\Omega$` to a new
+set `$\Xi$`, together with coefficients, and a method for resolving
+inconsistent preferences on edge-weighted graphs.
 
 It then creates a new graph `$G^{\star}$`, mapping all nodes using `$s$` and
 creating new edges using the existing weights and coefficients with the
@@ -2357,16 +2361,18 @@ consistent preference with the method `Resolve` (which may be specified
 externally, e.g. by using `HodgeRank` or dropping the weights and using
 `EGEDmin`).
 
-::: algorithm
-::: algorithmic
-$E^{\star} \gets \emptyset, w^{\star} \gets 0$ $w^{\star}$ is set to 0
-for all possible inputs.
-$w^{\star}(\xi_1, \xi_2) \gets w^{\star}(\xi_1, \xi_2)+c_1 \cdot c_2 \cdot w(\omega_1, \omega_2)$
-$E^{\star} \gets E^{\star} \cup \{(\xi_1, \xi_2)\}$
-$G' \gets \mathtt{Resolve}(G^{\star})$ $G^{\star}$ is the tuple
-$(\Xi, E^{\star}, w^{\star})$. $G'$
-:::
-:::
+	function ResolveShift(G, s, Resolve)
+		E*=∅, w*=0
+		for (ω₁, ω₂)∈E
+			for (ξ₁, c₁)∈s(ω₁), (ξ₂, c₂)∈s(ω₂)
+				w*(ξ₁, ξ₂)=w*(ξ₁, ξ₂)+c₁·c₂·w(ω₁, ω₂)
+				E*=E*∪{(ξ₁, ξ₂)}
+		G'=Resolve(G*)
+		return G'
+
+*Resolving an ontological shift `$s$` on an edge-weighted directed
+graph. `$G$` is a tuple `$(Ω, E, w)$`, and `$s$` is of type
+`$Ω\rightarrow \mathcal{P}(\Xi \times [0, 1])$`.*
 
 ##### Advantages
 
@@ -2431,12 +2437,10 @@ Let `$G_1=(\Omega=\{a, b\}, E=\{(a \overset{1}{\rightarrow} b)\})$`. Let
 `$s_2(c)=\{(f, 0.014)\}$`, `$s_2(d)=\{\}$`, and `$s_2(e)=\{(f, 0.34),
 (g, 0.66)\}$`.
 
-Then **Figure** [17](#fig:nores_dist_example){reference-type="ref"
-reference="fig:nores_dist_example"} shows applying the two ontological
-shifts $s_1, s_2$, and resolving in the end using `HodgeRank`, and
-**Figure** [21](#fig:res_dist_example){reference-type="ref"
-reference="fig:res_dist_example"} shows applying `HodgeRank` after $s_1$
-and then again after $s_2$. The final graphs have different weights.
+Then **Figure** 17 shows applying the two ontological shifts `$s_1,
+s_2$`, and resolving in the end using `HodgeRank`, and **Figure**
+21 shows applying `HodgeRank` after `$s_1$` and then again after
+`$s_2$`. The final graphs have different weights.
 
 <figure id="fig:nores_dist_example">
 <figure id="fig:distr_1">
@@ -2499,17 +2503,15 @@ class="math inline"><em>f</em></span>.</figcaption>
 
  ◻
 
-This example works because $d$ gets "deleted" from the set of options,
-so having all preferences depend on $d$ without resolving the
-incomparability between $c$ and $e$ results in there being no
-preference, while resolving retains a slight preference of $e$ over $c$,
-which remains with $f$ and $g$.
+This example works because `$d$` gets "deleted" from the set of
+options, so having all preferences depend on `$d$` without resolving
+the incomparability between `$c$` and `$e$` results in there being no
+preference, while resolving retains a slight preference of `$e$` over
+`$c$`, which remains with `$f$` and `$g$`.
 
-::: conjecture
-**Conjecture 7**. There is a resolution function $f$ for edge-weighted
+**Conjecture 7**. There is a resolution function `$f$` for edge-weighted
 graphs that is **distributive over ontological shifts** in this
 framework.
-:::
 
 ## Conclusion
 
