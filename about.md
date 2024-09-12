@@ -539,6 +539,8 @@ Scores (as of 2023-08-05):
 	* Calibration: Grade B-, Score -2.69
 ![](./img/about/manifold_calibration.png)
 ![](./img/about/manifold_profit.png)
+* Fatebook calibration<!--TODO: link-->: Imported from PredictionBook, mostly predictions on self-experiments.
+![](./img/about/fatebook_calibration.png)
 
 ### Pronouns
 

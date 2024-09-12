@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2024-08-06, modified: 2024-08-06, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2024-08-06, modified: 2024-09-10, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __Solutions to the video series [“From Zero to
 Geo”](https://youtube.com/playlist?list=PLVuwZXwFua-0Ks3rRS4tIkswgUmDLqqRy&si=gDKHBbPL3BQ-QsDG).__
@@ -75,3 +75,15 @@ walk along `$\overset{\rightarrow}{v}_1$` and then along the turned
 3. `$\overset{\rightarrow}{v}_4-\overset{\rightarrow}{v}_1=[0, -4]$`
 4. `$\overset{\rightarrow}{v}_1-\overset{\rightarrow}{v}_3=[4, 0]$`
 5. `$\overset{\rightarrow}{v}_4-\overset{\rightarrow}{v}_4=[0, 0]$`
+
+1.11
+-----
+
+### 1
+
+1. `$(1+e_1+e_2)+(2+e_1+3e_2)=3+2e_1+4e_2$`
+2. `$(-3+2e_1-e_2)+(-8-7e_1-6e_2)=5-5e_1-7e_2$`
+3. `$(4-3e_1-5e_2)+(-4+3e_1-5e_2)=0$`
+4. `$(2)+(-1+3e_1-2e_2)=1+3e_1+2e_2$`
+5. `$(-1+e_2)+(-3e_1+3e_2)=-1-3e_1+4e_2$`
+6. `$(-1+3e_1+2e_2)+0=-1+3e_1+2e_2$`

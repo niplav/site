@@ -16,7 +16,7 @@ index-finger-nail, I would still cooperate, even though we're different
 algorithms, since little enough has been changed about our algorithms
 that the internal states and the output are basically the same.
 
-But it could be that I'm in a prisoner's dilemma with some program
+It could be that I'm in a prisoner's dilemma with some program
 `$p^{\star}$` that, given some inputs, returns the same outputs as I do,
 but for completely different "reasons"—that is, the internal states
 are very different, and a slight change in input would cause the output

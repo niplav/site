@@ -53,9 +53,9 @@ and is just so unelegant.
 Me posting fixed rates online is slightly better, but allows me
 less flexibility: There are projects I think are hugely important
 and/or interesting, which I'd like to prioritise above unimportant
-and uninteresting projects, as well as situations when I'm very busy,
-and situations in which I'm not very busy. But fixed rates only allow
-this to a very limited amount, and having a complicated multi-stage
+and uninteresting projects, as well as situations when I'm busy,
+and situations in which I'm not busy. But fixed rates only allow
+this to a limited amount, and having a complicated multi-stage
 payment structure is a bit ugly. It also doesn't allow for [price
 discrimination](https://sideways-view.com/2016/11/03/the-best-kind-of-discrimination/index.html)—in
 some cases I might suspect that most of the [gains from
@@ -88,4 +88,4 @@ in this case there is no second price, and both parties are symmetrical.
 
 * [Other research consultants](./notes.html#Research_Consultants_List)
 
-[^1]: I think that the setup described is probably not [incentive-compatible](https://en.wikipedia.org/wiki/Incentive-compatible), like the [first-price sealed-bid auction](https://en.wikipedia.org/wiki/First-price_sealed-bid_auction). (I still think it's a vast improvement over the current state of the art, however). For an incentive-compatible [truthful mechanism](https://en.wikipedia.org/wiki/Truthful_mechanism) the [Vickrey-Clark-Groves mechanism](https://en.wikipedia.org/wiki/Vickrey-Clarke-Groves-Mechanism) can be used. If you want to use the VCG mechanism instead of I'm absolutely down to do that, and would try to figure it out for free.
+[^1]: I think that the setup described is probably not [incentive-compatible](https://en.wikipedia.org/wiki/Incentive-compatible) due to the [Myerson-Satterthwaite theorem](https://en.wikipedia.org/wiki/Myerson-Satterthwaite_theorem), like the [first-price sealed-bid auction](https://en.wikipedia.org/wiki/First-price_sealed-bid_auction). (I still think it's a vast improvement over the current state of the art, however). For an incentive-compatible [truthful mechanism](https://en.wikipedia.org/wiki/Truthful_mechanism) the [Vickrey-Clark-Groves mechanism](https://en.wikipedia.org/wiki/Vickrey-Clarke-Groves-Mechanism) can be used. If you want to use the VCG mechanism instead of I'm absolutely down to do that, and would try to figure it out for free.
