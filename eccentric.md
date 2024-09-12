@@ -3,7 +3,7 @@
 
 *author: niplav, created: 2022-07-20, modified: 2024-04-07, language: english, status: in progress, importance: 3, confidence: other*
 
-> __What I might do if I magically got hold of a very large amount of
+> __What I might do if I magically got hold of a large amount of
 money, and couldn't spend it maximally altruistically.__
 
 If I Was An Eccentric Trillionaire
@@ -25,9 +25,9 @@ it myself anytime soon).
 
 Lots of these ideas aren't mine, and I have tried to attribute them
 wherever I could find the source. If guess that if they were implemented
-(not sure whether that's possible: legality & all that) I'd very likely
-become very unpopular in polite society. But the resulting discourse
-would absolutely be worth it.
+(not sure whether that's possible: legality & all that) I'd likely become
+unpopular in polite society. But the resulting discourse would absolutely
+be worth it.
 
 | Intervention                                      | Cost           |
 | :------------------------------------------------ | -------------- |
@@ -145,7 +145,7 @@ records here-->, especially for short-term political questions<!--TODO:
 actually investigate this-->, so the information would be quite valuable.
 
 __More is possible__: Another nice thing about this proposal is that
-it is very scalable: The minimum viable product can be made by a
+it is scalable: The minimum viable product can be made by a
 motivated individual in one evening, but more sophisticated versions
 are possible. One possible extension could look like a [voting advice
 application](https://en.wikipedia.org/wiki/Voting_advice_application),
@@ -190,7 +190,7 @@ a longer explainer text going in detail. Voting platforms are [fairly
 popular](https://en.wikipedia.org/wiki/Voting_advice_application#Effects_on_voting_behaviour),
 sometimes drawing >10% of the population to use them.
 
-__Cost__: The underlying software should not be very expensive (a
+__Cost__: The underlying software should not be expensive (a
 website, an app and a backend that could support tens to potentially
 hundreds of thousands of visits a day), and could be re-used for each
 election: An initial expense of ~\\$5mio., with ~\\$500k per year of
@@ -310,7 +310,7 @@ community](https://en.wikipedia.org/wiki/LessWrong). There are
 of philosophically powerful languages, and it's not quite clear what
 *exactly* would be looked for here, but that's all part of the problem
 statement! If we employ 5 philosophers and 5 linguists at \$100k/year for
-10 years, we spend \\$10 mio, and at worst we get some very interesting
+10 years, we spend \\$10 mio, and at worst we get some interesting
 speculation.
 
 Art
@@ -388,7 +388,7 @@ suits](https://www.lesswrong.com/rationality/humans-in-funny-suits), at
 best they are [not bipedal](https://www.imdb.com/title/tt0133093/)
 or perhaps [distributed over some amount of bipedal
 bodies](https://www.imdb.com/title/tt6292852/),
-or perhaps wholly [without a body but very human in
+or perhaps wholly [without a body but human in
 behavior](https://www.imdb.com/title/tt1798709/). I do enjoy
 movies with [very](https://www.imdb.com/title/tt2543164/)
 [non-human](https://www.imdb.com/title/tt2798920/) aliens—can
@@ -421,9 +421,8 @@ we're willing to get *really* weird, one could try to depict
 [acausal trade](https://www.lesswrong.com/tag/acausal-trade),
 [multiverse-wide evidential
 cooperation](https://forum.effectivealtruism.org/posts/7MdLurJGhGmqRv25c/multiverse-wide-cooperation-in-a-nutshell)
-and later ontokinetics shenanigans—but then one'd need to
-launch a research project on how these things could possibly play
-out.
+and later ontokinetics shenanigans—but then one'd need to launch a
+research project on how these things could play out.
 
 One difficulty of making this movie: The strategies of such a
 system would probably be extremely alien by human standards, and the
@@ -519,10 +518,10 @@ might've done this, given the number of islands out in the Pacific that
 were just discovered (?) by Polynesians sailing around.)[^3][^5]
 
 __Settling Antarctica__: Actually *settling* Antarctica is a whole
-other can of worms: The continent is by far the coldest and (as a [polar
-desert](https://en.wikipedia.org/wiki/Polar_desert)) driest, it harbors
-nearly no vegetation (except lichen & moss), and away from the coasts
-there are very ~no large organisms. So we'd like to know, assuming it
+other can of worms: The continent is by far the coldest and (as a
+[polar desert](https://en.wikipedia.org/wiki/Polar_desert)) driest, it
+harbors nearly no vegetation (except lichen & moss), and away from the
+coasts there are ~no large organisms. So we'd like to know, assuming it
 is possible for there to be native antarctican populations descended
 from [Māori people](https://en.wikipedia.org/wiki/Māori_people),
 *how* such a population might manage to endure, and what their
@@ -697,7 +696,7 @@ enterprise might become profitable at some point: The parrots not selected
 for breeding because of (lower) intelligence could be sold as a curiosity
 or simply as pets.
 
-I assume the number is going to be very similar for
+I assume the number is going to be similar for
 other (potentially more intelligent) birds [like
 keas](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-intelligent-parrots?commentId=pzEbmSCxkGHP4iTHF).
 
@@ -747,7 +746,7 @@ mugging](./doc/philosophy/decision_theory/pascals_mugging_bostrom_2009.pdf)
 (there caled fanaticism) and much more. Separately, a strand of
 amateur thinking about philosophical problems with a strongly
 computational bent has emerged from the website LessWrong. This
-view is very interested in formal epistemology using [Solomonoff
+view is interested in formal epistemology using [Solomonoff
 induction](https://arbital.com/p/solomonoff_induction/),
 has broadly mathematical or computational Platonist
 metaphysics ("all mathematical structures/possible

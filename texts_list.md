@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-09-01, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-09-10, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,24 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Spacefiller (LifeWiki, 2024)](https://conwaylife.com/wiki/Spacefiller)
+* [Unique father problem (LifeWiki, 2024)](https://conwaylife.com/wiki/Unique_father_problem)
+* [Unsynthesizable oscillator 1 (LifeWiki, 2024)](https://conwaylife.com/wiki/Unsynthesizable_oscillator_1)
+* [How I wish I lived my life (since 2020) (Eli Tyre, 2024)](https://musingsandroughdrafts.com/2024/09/07/how-i-wish-i-lived-my-life-since-2020/)
+* [Walrasian auction (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Walrasian_auction)
+* [|1 Let Me Take Over: Variable Autonomy for Meaningful Human Control (Leila Methnani/Andrea Aler Tubella/Virginia Dignum/Andreas Theodorou, 2021)](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2021.737072/full)
+* [|1 Towards Trustworthy Autonomous Systems: Taxonomies and Future Perspectives (Francesco Flammini/Cristina Alcaraz/Emanuele Bellini/Stefano Marrone/Javier Lopez/Andrea Bondavalli, 2022)](https://flore.unifi.it/bitstream/2158/1303990/1/Towards_Trustworthy_Autonomous_Systems_Taxonomies_and_Future_Perspectives.pdf)
+* [|1 A taxonomy of human–machine collaboration: capturing automation and technical autonomy (Monika Simmler/Ruth Frischknecht, 2020)](https://www.alexandria.unisg.ch/server/api/core/bitstreams/a6c8985d-8314-4769-9ea3-68e68a064d6a/content)
+* [|1 Towards a Hierarchical Taxonomy of Autonomous Agents (Predrag T. Tosic/Gul A. Agha, 2004)](http://osl.cs.illinois.edu/media/papers/tosic-2004-smc-towards_a_hierarchical_taxonomy_of_autonomous_agents.pdf)
+* [The importance of humans in the loop in AI development (Tobias Schaffrath Rosario, 2024)](https://blog.cloudfactory.com/the-importance-of-humans-in-the-loop-in-ai-development)
+* [Avoiding Caffeine Tolerance (Michael Dickens, 2024)](https://mdickens.me/2024/03/02/caffeine_tolerance/)
+* [Thoughts to niplav on lie-detection, truthfwl mechanisms, and wealth-inequality (Emrik, 2024)](https://www.lesswrong.com/posts/uuAsPCGh2uxff7WNB/thoughts-to-niplav-on-lie-detection-truthfwl-mechanisms-and)
+* [I have whatever the opposite of a placebo effect is (Michael Dickens, 2024)](https://mdickens.me/2024/09/02/I_have_the_opposite_of_placebo/)
+* [I never felt included, either (Clarky Khat, 2024)](https://scalingthemountain6.wordpress.com/2024/08/03/i-never-felt-included-either/)
+* [Balancing Autonomy and Alignment: A Multi-Dimensional Taxonomy for Autonomous LLM-powered Multi-Agent Architectures (Thorsten Händler, 2023)](https://arxiv.org/pdf/2310.03659)
+* [AI in the Loop: Humans Must Remain in Charge (Shana Lynch, 2022)](https://hai.stanford.edu/news/ai-loop-humans-must-remain-charge)
+* [Opetope (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Opetope)
+* [Interview Day At Thiel Capital (Scott Alexander, 2024)](https://www.astralcodexten.com/p/interview-day-at-thiel-capital)
 * [Free-Wheeling Hallucinations (Andrés Gómez-Emilsson, 2020)](https://qualiacomputing.com/2019/01/06/free-wheeling-hallucinations/)
 * [Underestimating Social Complexity Among Hunter-Gatherers (William Buckner, 2023)](https://traditionsofconflict.substack.com/p/underestimating-social-complexity)
 * [AI #79: Ready for Some Football (Zvi, 2024)](https://www.lesswrong.com/posts/K8R3Cpj3szcX7z6Xo/ai-79-ready-for-some-football)

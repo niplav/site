@@ -172,7 +172,7 @@ in humans [@green1994discounting] and pigeons [Ainslie & Herrnstein
 This kind of preference reversal does not occur with exponential
 discounting.
 
-Hyperbolic preferences can be modeled in a a game-theoretic setup, in
+Hyperbolic preferences can be modeled in a game-theoretic setup, in
 which subagents in aggregation execute a Pareto-dominated strategy, and
 via a single agent which follows an unchangeable plan
 [Caillaud & Jullien 2000](./doc/econ/behavioral/modelling_time_inconsistent_preferences_caillaud_jullien_2000.pdf). Caillaud and Jullien do not attempt to resolve
@@ -256,7 +256,7 @@ preferences over world-states.
 
 There is an extensive philosophical debate about the reasonableness of
 the vNM axioms, and a number of proposed alternatives. We have
-explicitely decided not to contribute to this debate (though some of our
+explicitly decided not to contribute to this debate (though some of our
 findings on the difficulty of establishing vNM-coherence might be
 interesting to philosophers), and instead assume that preferences
 conforming to the vNM axioms are a goal to be achieved.
@@ -1083,7 +1083,7 @@ number of inclusion-maximal consistent subgraphs in the number of nodes.
 
 **Lemma 8**. Let `$G \in \mathfrak{P}_n$` be an arbitrary directed graph
 with `$n$` nodes, and let `$\mathcal{S}_G$` be the set of inclusion-maximal
-consistent subgraphs of `$G$`. Then there exists no polynomial `$p$` so so
+consistent subgraphs of `$G$`. Then there exists no polynomial `$p$` so
 that `$\forall G \in \mathfrak{P}_n: |\mathcal{S}_G| \le p(n)$`.
 
 *Proof.* [Moon & Moser
@@ -1149,7 +1149,7 @@ The graph `$G_c$` above contains a subgraph
 acyclic tournament in `$G_c$`. The two acyclic tournaments with the lowest
 graph-edit distance (namely 3: reversing the edge `$d \rightarrow c$`
 (2 operations) and adding an edge between `$a$` and `$b$`) to `$G_c$`
-are shown in in the resolved graph. Note that none of them contain
+are shown in the resolved graph. Note that none of them contain
 `$\mathit{S}_{cd}$` as a subgraph.
 
 ![](./img/resolving/counter_example_3.png)
@@ -1291,7 +1291,7 @@ all but one inclusion-maximal consistent subgraphs are preserved.
 
 In the first image, a graph with 1 inclusion-maximal consistent subgraph
 and its resolution through `HodgeResolve`, and in the second image a graph
-with several inclusion-maximal consistent subgraphs and and its resolution
+with several inclusion-maximal consistent subgraphs and its resolution
 through `HodgeResolve`. The labels at the edges are the gradients that
 `HodgeRank` has computed.
 
@@ -1589,10 +1589,10 @@ of any consistent `$C$`: Such a `$C$` would need to contain `$\{\alpha_i
 \rightarrow \beta_i, \beta_i \rightarrow \gamma_i, \gamma_i \rightarrow
 \alpha_i\}$`, but this would violate either asymmetry (if one added
 `$\alpha_i \rightarrow \gamma_i$` as well) or transitivity (through the
-absence of of `$\alpha_i \rightarrow \gamma_i$`).
+absence of `$\alpha_i \rightarrow \gamma_i$`).
 
 Therefore, for each `$\mathit{V}_i$`, only two edges from `$\mathit{V}_i$`
-can occur in in any element of `$\mathcal{S}$`. Then an `$S \in
+can occur in any element of `$\mathcal{S}$`. Then an `$S \in
 \mathcal{S}$` can be uniquely identified by which edge from each
 `$\mathit{V}_i$` it contains, since there are two edges for each
 `$\mathit{V}_i$` and there are `$n$` such "levels" `$\mathit{V}_i$`,
@@ -1601,7 +1601,7 @@ mutually exclusive.
 
 Therefore, `$|\mathcal{S}|\le 2^n$` if all elements of `$\mathcal{S}$` are
 to be subgraphs of an acyclic tournament. But introducing an additional
-distinct `$S_{2^n+1}$` to `$\mathcal{S}$` must add a a third edge from
+distinct `$S_{2^n+1}$` to `$\mathcal{S}$` must add a third edge from
 at least one `$\mathit{V}_i$`, thus `$2^n$` is the maximal size of
 `$\mathcal{S}$`. ◻
 
@@ -1904,7 +1904,7 @@ computing the output of `HodgeRank`.
 
 *Computing `HodgeRank` from an edge-weighted directed graph*
 
-This pseudocode is implemented in Pythone [here](./hodge.html).
+This pseudocode is implemented in Python [here](./hodge.html).
 
 **Remark 5**. One might ask, under the social choice view, whether it
 makes sense for some voter `$v \in V$` to lie about their preferences
@@ -2095,7 +2095,7 @@ n_2}$` and `$\psi \in \mathbb{R}^{n_2 \times n_1}$` (with sizes
 to "translate" between `$\mathcal{M}_1$` and `$\mathcal{M}_2$` [de Blanc
 2011](./doc/cs/ai/alignment/ontological_crises/ontological_crises_in_artificial_agents_value_systems_de_blanc_2011.pdf).
 Then, for any `$a \in A$`, `$\phi$` and `$\psi$` should be selected so
-that for any `$a \in A$`, it holds that that `$\psi \mathbf{T}_1(a) \phi$`
+that for any `$a \in A$`, it holds that `$\psi \mathbf{T}_1(a) \phi$`
 is approximately equal to `$\mathbf{T}_2(a)$` (from here on out written as
 `$\psi \mathbf{T}_1(a) \phi \approx \mathbf{T}_2(a)$`). It should also
 hold that `$\phi \mathbf{T}_2(a) \psi \approx \mathbf{T}_1(a)$`.
@@ -2143,7 +2143,7 @@ $$\begin{aligned}
 \end{aligned}$$
 </div>
 
-The matrices `$\phi$` and `$\psi$` can be found by minising
+The matrices `$\phi$` and `$\psi$` can be found by minimising
 `$\text{BisimulationDifference}(\mathcal{M}_1, \mathcal{M}_2, \phi,
 \psi)$` with a hill-climbing algorithm from random initial values,
 or by gradient descent with BisimulationDifference as a loss function.
@@ -2601,7 +2601,7 @@ The problem of ontological crises appears under-researched. As
 a first step, BisimulateShift could be extended to
 [POMDPs](https://en.wikipedia.org/wiki/Partially-observable_Markov_decision_process),
 but finding out how real-world systems change their internal
-representations during learning could be valuable, with Nandal et
+representations during learning could be valuable, with Nanda et
 al. being a fascinating analysis of the toy case of modular addition
 in neural networks [@nanda2023progress]. This question could also
 be interesting for social scientists (discovering how humans manage

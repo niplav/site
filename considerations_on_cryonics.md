@@ -1350,7 +1350,7 @@ age group):
 		end
 	end
 
-This adds up the deaths that have occured, as well as the deaths weighted
+This adds up the deaths that have occurred, as well as the deaths weighted
 by (hypothetical) preservation quality.
 
 Now, `weighteddeaths` should contain a number whose meaning is roughly
