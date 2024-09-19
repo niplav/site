@@ -380,7 +380,7 @@ Nominative Determinisms
 
 * The “Sandwalk Choreographer” [Benjamin Millepied](https://en.wikipedia.org/wiki/Benjamin_Millepied) from the [2021 Dune movie](https://www.imdb.com/title/tt1160419/)
 * [Dick Wertheim](https://en.wikipedia.org/wiki/Dick_Wertheim) ["died after a ball struck him in the groin and he fell out of his chair"](https://en.wikipedia.org/wiki/List_of_unusual_deaths)
-* The [Alcor Life Extension Foundation](https://en.wikipedia.org/wiki/Alcor_Life_Extension_Foundation) is located in Scottsdale, Arizona, which is in turn a part of Phoenix, Arizona.
+* The [Alcor Life Extension Foundation](https://en.wikipedia.org/wiki/Alcor_Life_Extension_Foundation) is located in Scottsdale, Arizona, which is in turn a part of __Phoenix__, Arizona.
 * To quote Wikipedia on [Candida hypersensitivity](https://en.wikipedia.org/wiki/Candida_hypersensitivity): "Candida hypersensitivity is a [pseudoscientific](https://en.wikipedia.org/wiki/Pseudoscience) disease promoted by William G. Crook, M.D."
 * [Kirby Dick](https://en.wikipedia.org/wiki/Kirby_Dick) directed [a documentary](https://en.wikipedia.org/wiki/This_Film_Is_Not_Yet_Rated) about the age rating system for movies, "The MPAA gave the original cut an NC-17 rating for “some graphic sexual conten” – scenes that illustrated the content a film could include to garner such a rating. Dick appealed, and descriptions of the ratings deliberations and appeal were included in the documentary."
 * The [Schwarzschild radius](https://en.wikipedia.org/wiki/Schwarzschild_radius)
@@ -388,6 +388,7 @@ Nominative Determinisms
 * The [Heaviside step function](https://en.wikipedia.org/wiki/Heaviside_step_function)
 * "The Empire Strikes Back (1980) was voted the best film of all time by over 250,000 readers of the Empire film magazine in 2015." ([List of films considered the best](https://en.wikipedia.org/wiki/List_of_films_considered_the_best))
 * [Robert Fludd](https://en.wikipedia.org/wiki/Robert_Fludd): "Fludd's own theory on the origin of all things posited that, instead of the Tria Prima, all species and things stemmed from first, dark Chaos, then divine Light which acted upon the Chaos, which finally brought forth the waters. This last element was also called the Spirit of the Lord"
+* [Hilary Paynter](https://en.wikipedia.org/wiki/Hilary_Paynter): "__Hilary Paynter__, Hon. RBSA, RE, FRSA, SWE (born 1943) is a British wood engraver and printmaker."
 
 Incorrect Plurals or Singulars People Use
 ------------------------------------------
