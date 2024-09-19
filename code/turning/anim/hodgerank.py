@@ -3,6 +3,7 @@ import numpy as np
 
 class HodgeRankResolution(Scene):
 	def construct(self):
+		self.camera.background_color = WHITE
 		# Create initial edge-weighted graph
 		vertices = {"A": [-2, 1, 0], "B": [0, 2, 0], "C": [2, 1, 0], "D": [0, -2, 0]}
 		edges = [("A", "B"), ("B", "C"), ("C", "D"), ("D", "A"), ("A", "C"), ("B", "D")]
@@ -10,14 +11,14 @@ class HodgeRankResolution(Scene):
 
 		g = DiGraph(vertices, edges, layout="planar", layout_scale=3,
 				  vertex_config={"radius": 0.1},
-				  edge_config={"tip_length": 0.2})
+				  edge_config={"tip_length": 0.2}).set_color(BLACK)
 
 		# Add weight labels
 		weight_labels = {}
 		for edge, weight in weights.items():
 			start, end = edge
 			mid_point = (g.vertices[start].get_center() + g.vertices[end].get_center()) / 2
-			label = Text(str(weight), font_size=24).move_to(mid_point).shift(0.3 * UP)
+			label = Text(str(weight), font_size=24, color=BLACK).move_to(mid_point).shift(0.3 * UP)
 			weight_labels[edge] = label
 
 		self.play(Create(g))
@@ -30,7 +31,7 @@ class HodgeRankResolution(Scene):
 		# Show potentials
 		potential_labels = {}
 		for vertex, potential in potentials.items():
-			label = Text(f"{potential:.1f}", font_size=24, color=YELLOW).next_to(g.vertices[vertex], DOWN)
+			label = Text(f"{potential:.1f}", font_size=24, color=PURPLE).next_to(g.vertices[vertex], DOWN)
 			potential_labels[vertex] = label
 
 		self.play(*[Write(label) for label in potential_labels.values()])
@@ -47,6 +48,7 @@ class HodgeRankResolution(Scene):
 			label = Text(f"{new_weight:.1f}", font_size=24, color=GREEN).move_to(mid_point).shift(0.3 * DOWN)
 			new_weight_labels[edge] = label
 
+		g.set_color(BLACK)
 		self.play(*[Transform(weight_labels[edge], new_label) for edge, new_label in new_weight_labels.items()])
 		self.wait(1)
 

@@ -1071,27 +1071,17 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-11-19T20:30:38.000000Z	Julius Caesar Scaliger pre-empted Scott Alexanders solution to theodicy: in his view god had created every being that would add more good than not to the cosmos
 2022-11-19T20:32:59.000000Z	noone told me that you can get basically free tutoring from professors during so-called office hours‽
 2022-11-22T20:49:48.000000Z	My Generation — The Who (Eurobeat Remix)
-2022-11-24T16:15:34.000000Z	I believe that in effective altruism, deciding where funds are redirected by classic one-person-gets-one-vote methods would be hugely misguided. leading to coalitions appropriating resources, working against specialization etc. not against funders trying better mechanisms to elicit local knowledge, but applause-lighting “democracy” ain't gonna cut it
-2022-11-24T16:18:41.000000Z	openphils first spent dollar is more effective at promoting public good than the first tax dollar to the eu (to speak nothing of the us)
-2022-11-24T21:44:34.000000Z	WWTSCCD (what would the super-cooperation cluster do)
 2022-11-25T14:56:39.000000Z	*another paper* which relies on questionnaires for attention span. am i going crazy? how is this a good metric‽
 2022-11-26T22:05:57.000000Z	gotta get a child with cancer to wish for a tiling-stable subagent-persistent otherizer idiom
 2022-11-27T09:53:14.000000Z	pareto improvement: instead of letting students write bachelors/masters theses that are basically just literature reviews, let them rewrite the respective wikipedia articles instead (and then check the article)
 2022-11-27T23:54:16.000000Z	the last century was wild: “Her love of tennis included playing naked, with nude tennis ‘a common practice in those days among the more louche members of the middle classes’”, from the Wikipedia article on Enid Blyton.
 2022-11-28T23:54:42.000000Z	why is >80% of the most read literotica content incest related?
 2022-11-29T00:03:08.000000Z	why does meditation make me *so* horny & temporarily relieve me of erectile dysfunction?
-2022-12-01T00:26:18.000000Z	the distinction between Trying Hard and Moving Toward the Goal
 2022-12-06T01:01:24.000000Z	In this House — We might fail, but never with abandon — Every moment is fresh, unimpeded by the one before — We remove as many obligations as we add — There is something to protect, something to give everything for — Tsuyoku Naritai!
 2022-12-06T15:58:59.000000Z	I'm rapidly flip-flopping between believing that I'm extremely autistic and believing that everyone else is autistic compared to me
 2022-12-06T15:59:03.000000Z	help
-2022-12-10T21:14:00.000000Z	thussy
-2022-12-10T21:14:14.000000Z	What is a market then? A wretched piece of matching algorithm
 2022-12-11T21:34:27.000000Z	rapidly oscillating between nibbanic zero-ontology and plotinian “badness is non-being” views
 2022-12-11T23:22:36.000000Z	aviation safety is a small shard of dath ilan that fell into our world
-2022-12-12T01:24:00.000000Z	plasma theology
-2022-12-12T12:40:07.000000Z	erotic indexical uncertainty
-2022-12-12T12:55:17.000000Z	“benching your own bodyweight” is a moving target with an interesting set of fixpoints
-2022-12-12T13:02:13.000000Z	GPT-3 probably has a better model of human psychology than normal humans
 2022-12-13T14:00:01.000000Z	tbh i can understand why people dislike Pinker so much—he's usually right, but he so unfathomably smug about everything
 2022-12-14T00:16:11.000000Z	nofap promises so much and in the end just makes my balls ache a bit
 2022-12-14T00:56:48.000000Z	I need to learn how to crash dates that are going nowhere with way too much escalation. That should be fun
@@ -1115,8 +1105,6 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2022-12-21T19:48:50.000000Z	philosophical technique: A is X, B is Y, but there is a continuous transformation from A to B, but there isn't from X to Y, where does the switch occur?
 2022-12-21T19:54:22.000000Z	in deontic logic, is ~obligation(~x)=permission(x)?
 2022-12-21T23:45:48.000000Z	but also the amount of time a broken clock is right has measure zero
-2022-12-22T00:26:22.000000Z	philogynic phylogynists
-2022-12-22T09:36:41.000000Z	deontology is not de-ontology
 2022-12-23T16:08:30.000000Z	it's really funny when people tag jimmy wales on twitter when they don't like some of the content on wikipedia. it's like someone would tag Nat Friedman when they find a bug in a program hosted there
 2023-01-08T20:57:00.000000Z	“(1) we don't know what is going on in LLMs (2) it's outlandish to say that LLMs have no understanding of the world” both claims cannot be true
 2023-01-13T10:38:08.000000Z	on reflection disinviting AI researchers from parties and conferences is not an effective way of stopping them in developing AGI
@@ -1219,10 +1207,3 @@ a021-04-05T18:21:59.000000Z	@<mox https://tilde.town/~mox/twtxt.txt> "so much is
 2023-05-26T20:41:59.000000Z	I am concerned about my outgoing debts, but not about small-ish incoming ones
 2023-06-30T14:26:07.000000Z	dril wrote for HiveSwap. It's all connected
 2023-07-05T14:55:09.000000Z	trying to fit in with Gödelian set theorists by saying “V” when someone does something outrageously stupid
-2023-07-14T10:56:26.000000Z	lean into reality ⋄ lean into irreality ⋄ lean into dissociation
-2023-07-17T23:05:42.000000Z	if you do something risky and potentially dumb please at least report on it so that we can learn from your mistakes
-2023-07-17T23:29:09.000000Z	people creating new programming languages is a status thing
-2023-07-17T23:29:59.000000Z	instead of e.g. new linkers. why is there only one ImageMagick, or one ffmpeg, but ~6k programming languages? status.
-2023-07-19T11:06:47.000000Z	are there any other industries in which we apply a similar safety standard as training of large neural networks? the closest that comes to my mind is animal husbandry, but I think we understand the genetics of that better than we understand neural networks, and don't apply ever-more increasing optimization power to it. (although, to be fair, when humans began husbandry they understood it far less)
-2023-07-19T14:22:03.000000Z	lol @ the nauty source code: some functions are >1k lines long
-2023-07-22T11:18:55.000000Z	output format of AI systems doing alignment research (formal proof, set of heuristics, set of algorithms…)? AI systems will align their successor systems, repeatedly. Unless this process has 100% fidelity, errors in the alignment process will compound over time, similar to numerical instability. Similar to numerical analysis, could we make a useful statement about the “condition number” of this repeated alignment process?
