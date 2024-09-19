@@ -11,6 +11,8 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Hair](https://en.wikipedia.org/wiki/Hair_\(musical\))
+* [Color out of Space](https://en.wikipedia.org/wiki/Color_Out_of_Space_\(film\))
 * Lektionen in Finsternis
 <!--Newest animated spiderman-->
 * [Labyrinth](https://en.wikipedia.org/wiki/Labyrinth_\(movie\))

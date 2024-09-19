@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-15, modified: 2024-09-04, language: english, status: in progress, importance: 8, confidence: highly likely*
+*author: niplav, created: 2023-04-15, modified: 2024-09-19, language: english, status: in progress, importance: 8, confidence: highly likely*
 
 > __We consider the problem of resolving preferences
 that are inconsistent under the [von Neumann-Morgenstern
@@ -510,8 +510,7 @@ is to execute the following steps:
     graphs $\mathbf{A}$, one for each minimum feedback arc set removed
     from $G$. For this, one can use an algorithm for finding the minimum
     feedback arc set from [@baharev2021exact], called `mfas` in
-    **Algorithm** [\[alg:stepwise\]](#alg:stepwise){reference-type="ref"
-    reference="alg:stepwise"}.
+    `stepwise`.
 -   **Generate all compatible topological sortings**. The elements of
     $\mathbf{A}$ are now to be converted into acyclic tournaments. We
     achieve this by computing all topological sortings for each element
@@ -2319,33 +2318,13 @@ are mostly fishes, and few mammals.
 [*exocoetidae*](https://en.wikipedia.org/wiki/Exocoetidae)[^7] and
 aquatic insects).
 
-<figure id="fig:animals_example">
-<figure id="fig:animals_1">
-<img src="./img/resolving/animals_1.png" />
-<figcaption>The initial preference <span
-class="math inline"><em>G</em></span>, as an edge-weighted
-graph.</figcaption>
-</figure>
-<figure id="fig:animals_2">
-<img src="./img/resolving/animals_2.png" />
-<figcaption><span class="math inline"><em>G</em><sup>⋆</sup></span>,
-after applying the ontological shift <span
-class="math inline"><em>s</em></span> and determining the edge weights
-using <span class="math inline"><em>t</em></span>. Positive 3-cycle in
-red.</figcaption>
-</figure>
-<figure id="fig:animals_3">
-<img src="./img/resolving/animals_3.png" />
-<figcaption><span class="math inline"><em>G</em>′</span> after applying
-a procedure for resolving the inconsistent preference <span
-class="math inline"><em>G</em><sup>⋆</sup></span>, in this case using
-<code>HodgeRank</code>.</figcaption>
-</figure>
-<figcaption>Undergoing an ontological shift <span
-class="math inline"><em>s</em></span> and then resolving the ontological
-crisis using <code>HodgeRank</code>. In the right image transitive
-correctly weighted edges are ommitted for readability.</figcaption>
-</figure>
+| The initial preference `$G$`, as an edge-weighted graph. | `$G^*$`, after applying the ontological shift `$s$` and determining the edge weights using `$t$`. Positive 3-cycle in red. | `$G'$` after applying a procedure for resolving the inconsistent preference `$G^*$`, in this case using `HodgeRank`. |
+|:---------------------------------- |:---------------------------------- |:-----------------------------------|
+| ![](./img/resolving/animals_1.png) | ![](./img/resolving/animals_2.png) | ![](./img/resolving/animals_3.png) |
+
+*Undergoing an ontological shift `$s$` and then resolving the ontological
+crisis using `HodgeRank`. In the right image transitive correctly weighted
+edges are ommitted for readability.*
 
 The procedure for resolving ontological crises by representing them as
 inconsistent preferences is in pseudocode below as `ResolveShift`. The
@@ -2442,64 +2421,15 @@ s_2$`, and resolving in the end using `HodgeRank`, and **Figure**
 21 shows applying `HodgeRank` after `$s_1$` and then again after
 `$s_2$`. The final graphs have different weights.
 
-<figure id="fig:nores_dist_example">
-<figure id="fig:distr_1">
-<img src="./img/resolving/distr_example_1.png" />
-<figcaption aria-hidden="true"></figcaption>
-</figure>
-<figure id="fig:distr_2">
-<img src="./img/resolving/distr_example_2.png" />
-<figcaption aria-hidden="true"></figcaption>
-</figure>
-<figure id="fig:distr_3">
-<img src="./img/resolving/distr_example_3.png" />
-<figcaption aria-hidden="true"></figcaption>
-</figure>
-<figure id="fig:distr_3">
-<img src="./img/resolving/distr_example_final.png" />
-<figcaption aria-hidden="true"></figcaption>
-</figure>
-<figcaption>In (a) we have the initial preference <span
-class="math inline"><em>G</em><sub>1</sub></span>, as an edge-weighted
-graph. (b) shows the unresolved preference <span
-class="math inline"><em>g</em><sub>1</sub>(<em>G</em><sub>1</sub>)</span>,
-and (c) shows <span
-class="math inline"><em>g</em><sub>2</sub>(<em>g</em><sub>1</sub>(<em>G</em><sub>1</sub>))</span>,
-which has no edges. As a result, finally resolving <span
-class="math inline"><em>g</em><sub>2</sub>(<em>g</em><sub>1</sub>(<em>G</em>))</span>
-using <code>HodgeRank</code> results in a graph in which there is
-indifference between the vertices <span
-class="math inline"><em>f</em></span> and <span
-class="math inline"><em>g</em></span>.</figcaption>
-</figure>
+| The initial preference `$G_1$`, as an edge-weighted graph. | The unresolved preference `$g_1(G_1)$`. | `$g_2(g_1(G_1))$`, which has no edges. | Resolving `$g_2(g_1(G_1))$` using `HodgeRank` results in a graph in which there is indifference between the vertices `$f$` and `$g$`. |
+|:---------------------------------- |:---------------------------------- |:-----------------------------------| :------------------------ |
+| ![](./img/resolving/distr_example_1.png) | ![](./img/resolving/distr_example_2.png) | ![](./img/resolving/distr_example_3.png) | ![](./img/resolving/distr_example_final.png) |
 
-<figure id="fig:res_dist_example">
-<figure id="fig:res_distr_1">
-<img src="./img/resolving/distr_example_1.png" />
-<figcaption aria-hidden="true"></figcaption>
-</figure>
-<figure id="fig:res_distr_2">
-<img src="./img/resolving/distr_example_res_2.png" />
-<figcaption aria-hidden="true"></figcaption>
-</figure>
-<figure id="fig:res_distr_3">
-<img src="./img/resolving/distr_example_res_3.png" />
-<figcaption aria-hidden="true"></figcaption>
-</figure>
-<figcaption>(a) again shows the initial preference <span
-class="math inline"><em>G</em><sub>1</sub></span>. (b) is <span
-class="math inline"><code>H</code><code>o</code><code>d</code><code>g</code><code>e</code><code>R</code><code>a</code><code>n</code><code>k</code>(<em>g</em><sub>1</sub>(<em>G</em><sub>1</sub>))</span>,
-which has an edge between <span class="math inline"><em>e</em></span>
-and <span class="math inline"><em>c</em></span>, unlike the result of
-just <span
-class="math inline"><em>g</em><sub>1</sub>(<em>G</em><sub>1</sub>)</span>.
-The final preference shown in (c), <span
-class="math inline">(<code>H</code><code>o</code><code>d</code><code>g</code><code>e</code><code>R</code><code>a</code><code>n</code><code>k</code>∘<em>g</em><sub>2</sub>∘<code>H</code><code>o</code><code>d</code><code>g</code><code>e</code><code>R</code><code>a</code><code>n</code><code>k</code>∘<em>g</em><sub>1</sub>)(<em>G</em><sub>1</sub>)</span>
-is <em>not</em> indifferent between <span
-class="math inline"><em>f</em></span> and <span
-class="math inline"><em>g</em></span>, and slightly prefers <span
-class="math inline"><em>f</em></span>.</figcaption>
-</figure>
+------
+
+| The initial preference `$G_1$`. | `$\mathtt{HodgeRank}(g_1(G_1))$`, which has an edge between `$e$` and `$c$`, unlike the result of just `$g_1(G_1)$`. | The final preference, `$(\mathtt{HodgeRank}∘g_2∘\mathtt{HodgeRank}∘g_1)(G_1)$` is *not* indifferent between `$f$` and `$g$`, and slightly prefers `$f$`. |
+|:-------------------------------------------- |:-------------------------------------------- |:---------------------------------------------|
+| ![](./img/resolving/distr_example_1.png) | ![](./img/resolving/distr_example_res_2.png) | ![](./img/resolving/distr_example_res_3.png) |
 
  ◻
 
@@ -2626,33 +2556,30 @@ surprising ideas in the lottery case.
 
 [^1]: The notation for lotteries is common in social choice theory
     [@gaertner2009primer ch. 8.2]. Some sources would instead write this
-    as $p_1 \cdot \omega_1 + p_2 \cdot
-    \omega_2$ [@von1947theory], but I have decided against it, since no
-    addition is actually taking place.
+    as `$p_1 \cdot \omega_1 + p_2 \cdot \omega_2$` [@von1947theory], but
+    I have decided against it, since no addition is actually taking place.
 
 [^2]: Unless further specified, in this text it will always be the case
-    that the nodes of $G$ are called $\Omega$ and its edges are called
-    $E$.
+    that the nodes of `$G$` are called `$\Omega$` and its edges are called
+    `$E$`.
 
 [^3]: Sample size too small.
 
-[^4]: Without reflexive edges $(\xi, \xi) \in E$.
+[^4]: Without reflexive edges `$(\xi, \xi) \in E$`.
 
-[^5]: This definition allows for there to be graph $G$, a consistent
-    subgraph $\mathit{S}_G$ of $G$ and resolved weakly consistent graph
-    $W=(\Omega,
-    E_W) \in f(G)$ such that there exist nodes
-    $\omega_1, \omega_2 \in \Omega$ in $\mathit{S}_G$ which are not
-    *strictly* ordered in $W$, that is both
-    $\omega_1 \rightarrow \omega_2 \in E_W$ and $\omega_2 \rightarrow
-    \omega_1 \in E_W$. It is possible to define a stronger criterion,
-    **Strict Preservation of Consistent Subgraphs**, which requires that
-    for such $\omega_1, \omega_2$ *only* the edge $\omega_1
-    \rightarrow \omega_2$ being present in $E_W$, but we will not work
-    with that definition here.
+[^5]: This definition allows for there to be graph `$G$`, a consistent
+    subgraph `$\mathit{S}_G$` of `$G$` and resolved weakly consistent graph
+    `$W=(\Omega, E_W) \in f(G)$` such that there exist nodes `$\omega_1,
+    \omega_2 \in \Omega$` in `$\mathit{S}_G$` which are not *strictly*
+    ordered in `$W$`, that is both `$\omega_1 \rightarrow \omega_2 \in
+    E_W$` and `$\omega_2 \rightarrow \omega_1 \in E_W$`. It is possible
+    to define a stronger criterion, **Strict Preservation of Consistent
+    Subgraphs**, which requires that for such `$\omega_1, \omega_2$` *only*
+    the edge `$\omega_1 \rightarrow \omega_2$` being present in `$E_W$`,
+    but we will not work with that definition here.
 
-[^6]: Russell and Norvig note that sometimes $R$ takes actions into
-    account as well: $R: S \times A \times S \rightarrow \mathbb{R}$
+[^6]: Russell and Norvig note that sometimes `$R$` takes actions into
+    account as well: `$R: S \times A \times S \rightarrow \mathbb{R}$`
     (with different rewards for transitioning to a state with different
     actions), but also notes that this merely simplifies the description
     of some environments, but doesn't change which environments can be

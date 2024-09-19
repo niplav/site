@@ -78,67 +78,58 @@ def get_datasets_fn(experiment_fn, control_fn, intervention_fn):
 	* `intervention_fn` receives a dataframe and returns the rows
 	that were in the intervention group (usually this is just
 	`not control_fn`)"""
+	# Initialize the result dictionary
+	result = {}
 
-def get_datasets(experiment, substance, placebo):
-	substances=pd.read_csv('../../data/substances.csv')
+	# Get all the datasets
+	meditations = get_meditations()
+	mood = get_moods()
+	mental = get_mental()
+	flashcards = get_flashcards()
 
-	expa=substances.loc[substances['experiment']==experiment].copy()
-	expa['datetime']=pd.to_datetime(expa['datetime'], utc=True)
+	# Process each dataset
+	datasets = {
+		'meditations': meditations,
+		'mood': mood,
+		'mental': mental,
+		'flashcards': flashcards
+	}
 
-	meditations=get_meditations()
-	mood=get_moods()
-	mental=get_mental()
-	flashcards=get_flashcards()
+	for dataset_name, dataset in datasets.items():
+		# Apply the experiment function to get the relevant rows
+		experiment_data = experiment_fn(dataset)
 
-	meditations.sort_values("meditation_start", inplace=True)
-	meditations=pd.merge_asof(expa, meditations, left_on='datetime', right_on='meditation_start', direction='forward')
-	meditations=meditations.rename(columns={'mindfulness_rating': 'mindfulness', 'concentration_rating': 'absorption'})
-	placebo_meditations=meditations.loc[meditations['substance']==placebo]
-	substance_meditations=meditations.loc[meditations['substance']==substance]
+		# Apply the control and intervention functions
+		control_data = control_fn(experiment_data)
+		intervention_data = intervention_fn(experiment_data)
 
-	mental=pd.merge_asof(expa, mental, left_on='datetime', right_on='datetime', direction='forward')
-	placebo_mental=mental.loc[mental['substance']==placebo]
-	substance_mental=mental.loc[mental['substance']==substance]
+		# Store the results in the dictionary
+		result[dataset_name] = {
+			'all': experiment_data,
+			'control': control_data,
+			'intervention': intervention_data
+		}
 
-	mood=expa.join(mood, how='cross')
-	mood=mood.loc[(mood['alarm']-mood['datetime']<pd.Timedelta('10h'))&(mood['alarm']-mood['datetime']>pd.Timedelta('0h'))]
-	mood=mood.loc[mood['relaxed'].notna()]
+	return result
 
-	flashcards_a=flashcards.loc[(flashcards['id']>expa['datetime'].min()) & (flashcards['id']<expa['datetime'].max()+pd.Timedelta('10h'))]
-	flashcards_a=expa.join(flashcards_a, how='cross', rsuffix='r')
-	flashcards_a=flashcards_a.loc[(flashcards_a['idr']-flashcards_a['datetime']<pd.Timedelta('10h'))&(flashcards_a['idr']-flashcards_a['datetime']>pd.Timedelta('0h'))]
-	flashcards_a.loc[flashcards_a['ivl']>0,'ivl']=-flashcards_a.loc[flashcards_a['ivl']>0,'ivl']/86400
-
-	placebo_mood=mood.loc[mood['substance']==placebo]
-	substance_mood=mood.loc[mood['substance']==substance]
-
-	placebo_flashcards=flashcards_a.loc[flashcards_a['substance']==placebo]
-	substance_flashcards=flashcards_a.loc[flashcards_a['substance']==substance]
-
-	return meditations, substance_meditations, placebo_meditations, mental, substance_mental, placebo_mental, mood, placebo_mood, substance_mood, flashcards, placebo_flashcards, substance_flashcards
-
-def plot_datasets(experiment, substance, placebo):
-	# Get datasets
-	meditations, substance_meditations, placebo_meditations, mental, substance_mental, placebo_mental, mood, placebo_mood, substance_mood, flashcards, placebo_flashcards, substance_flashcards = get_datasets(experiment, substance, placebo)
-
+def plot_datasets(datasets, title):
 	# Set the overall layout
 	sns.set(style="whitegrid")
 
 	data_pairs = [
-	    (substance_meditations, placebo_meditations, 'mindfulness', 'mindfulness', 'datetime'),
-	    (substance_meditations, placebo_meditations, 'absorption', 'absorption', 'datetime'),
-	    (substance_mental, placebo_mental, 'productivity', 'productivity', 'datetime'),
-	    (substance_mental, placebo_mental, 'creativity', 'creativity', 'datetime'),
-	    (substance_mental, placebo_mental, 'subjective length', 'sublen', 'datetime'),
-	    (substance_mood, placebo_mood, 'happiness', 'happy', 'datetime'),
-	    (substance_mood, placebo_mood, 'contentment', 'content', 'datetime'),
-	    (substance_mood, placebo_mood, 'relaxation', 'relaxed', 'datetime'),
-	    (substance_mood, placebo_mood, 'horniness', 'horny', 'datetime'),
-	    (substance_flashcards, placebo_flashcards, 'factor', 'factor', 'datetime'),
-	    (substance_flashcards, placebo_flashcards, 'interval', 'ivl', 'datetime'),
-	    (substance_flashcards, placebo_flashcards, 'ease', 'ease', 'datetime'),
-	    (substance_flashcards, placebo_flashcards, 'duration', 'time', 'datetime'),
-	    # Add more pairs as needed, along with the measurement variable and the x-axis variable
+		('meditations', 'mindfulness', 'mindfulness', 'datetime'),
+		('meditations', 'absorption', 'absorption', 'datetime'),
+		('mental', 'productivity', 'productivity', 'datetime'),
+		('mental', 'creativity', 'creativity', 'datetime'),
+#		('mental', 'subjective length', 'sublen', 'datetime'),
+		('mood', 'happiness', 'happy', 'datetime'),
+		('mood', 'contentment', 'content', 'datetime'),
+		('mood', 'relaxation', 'relaxed', 'datetime'),
+		('mood', 'horniness', 'horny', 'datetime'),
+		('flashcards', 'factor', 'factor', 'datetime'),
+		('flashcards', 'interval', 'ivl', 'datetime'),
+		('flashcards', 'ease', 'ease', 'datetime'),
+		('flashcards', 'duration', 'time', 'datetime'),
 	]
 
 	n_data_pairs = len(data_pairs)
@@ -147,9 +138,15 @@ def plot_datasets(experiment, substance, placebo):
 	# Create a figure with a grid of subplots
 	fig, axs = plt.subplots(n_data_pairs, n_plots_per_pair, figsize=(15, 4 * n_data_pairs))
 
-	for i, (substance_data, placebo_data, label, y_variable, x_variable) in enumerate(data_pairs):
+	for i, (dataset_name, label, y_variable, x_variable) in enumerate(data_pairs):
+		if dataset_name not in datasets:
+			continue
+
+		substance_data = datasets[dataset_name]['intervention']
+		placebo_data = datasets[dataset_name]['control']
+
 		for subplot_index in range(0, 2):
-			axs[i, subplot_index].xaxis.set_major_formatter(mdates.DateFormatter('%m-%d'))  # Change format to Year-Month
+			axs[i, subplot_index].xaxis.set_major_formatter(mdates.DateFormatter('%m-%d'))  # Change format to Month-Day
 
 		# Scatter plot
 		sns.scatterplot(ax=axs[i, 0], x=x_variable, y=y_variable, data=substance_data, color='blue', label='Substance')
@@ -174,57 +171,103 @@ def plot_datasets(experiment, substance, placebo):
 
 	plt.tight_layout()
 
-	plt.savefig(f'{substance}_results.png')
+	plt.savefig(f'{title}_results.png')
+
+def get_datasets(experiment, substance, placebo):
+	# Load substances data
+	substances = pd.read_csv('../../data/substances.csv')
+	expa = substances.loc[substances['experiment'] == experiment].copy()
+	expa['datetime'] = pd.to_datetime(expa['datetime'], utc=True)
+	expa = expa.sort_values('datetime')
+
+	def experiment_fn(df):
+		if 'meditation_start' in df.columns:
+			df['meditation_start'] = pd.to_datetime(df['meditation_start'], utc=True)
+			df = df.sort_values('meditation_start')
+			df = pd.merge_asof(expa, df, left_on='datetime', right_on='meditation_start', direction='forward')
+			df = df.rename(columns={'mindfulness_rating': 'mindfulness', 'concentration_rating': 'absorption'})
+		elif 'alarm' in df.columns:
+			df['alarm'] = pd.to_datetime(df['alarm'], utc=True)
+			df = expa.join(df, how='cross')
+			df = df.loc[(df['alarm'] - df['datetime'] < pd.Timedelta('10h')) & (df['alarm'] - df['datetime'] > pd.Timedelta('0h'))]
+			df = df.loc[df['relaxed'].notna()]
+		elif 'productivity' in df.columns:
+			df['datetime'] = pd.to_datetime(df['datetime'], utc=True)
+			df = df.sort_values('datetime')
+			df = pd.merge_asof(expa, df, left_on='datetime', right_on='datetime', direction='forward')
+		elif 'id' in df.columns:
+			df['id'] = pd.to_datetime(df['id'], unit='ms', utc=True)
+			df = df.loc[(df['id'] > expa['datetime'].min()) & (df['id'] < expa['datetime'].max() + pd.Timedelta('10h'))]
+			df = expa.join(df, how='cross', rsuffix='r')
+			df = df.loc[(df['idr'] - df['datetime'] < pd.Timedelta('10h')) & (df['idr'] - df['datetime'] > pd.Timedelta('0h'))]
+			df.loc[df['ivl'] > 0, 'ivl'] = -df.loc[df['ivl'] > 0, 'ivl'] / 86400
+		return df
+
+	def control_fn(df):
+		return df[df['substance'] == placebo]
+
+	def intervention_fn(df):
+		return df[df['substance'] == substance]
+
+	return get_datasets_fn(experiment_fn, control_fn, intervention_fn)
 
 def analyze_substance(experiment, substance, placebo):
-	meditation, substance_meditations, placebo_meditations, mental, substance_mental, placebo_mental, mood, placebo_mood, substance_mood, flashcards, placebo_flashcards, substance_flashcards=get_datasets(experiment, substance, placebo)
-	return analyze(meditation, substance_meditations, placebo_meditations, mental, substance_mental, placebo_mental, mood, substance_mood, placebo_mood, flashcards, substance_flashcards, placebo_flashcards)
+	datasets=get_datasets(experiment, substance, placebo)
 
-def analyze(meditation, intervention_meditations, control_meditations, mental, intervention_mental, control_mental, mood, intervention_mood, control_mood, flashcards, intervention_flashcards, control_flashcards):
-	result=pd.DataFrame()
-	result=result.reindex(columns=['absorption', 'mindfulness', 'productivity', 'creativity', 'sublen', 'happy', 'content', 'relaxed', 'horny', 'ease', 'factor', 'ivl', 'time'], index=['d', 'λ', 'p', 'dσ'])
+	result = pd.DataFrame(index=['d', 'λ', 'p', 'dσ', 'k'])
 
-	meditation_ds=(intervention_meditations[['mindfulness', 'absorption']].describe().loc['mean',:]-control_meditations[['mindfulness', 'absorption']].describe().loc['mean',:])/meditation[['mindfulness', 'absorption']].describe().loc['std',:]
-	result.loc['d', ['mindfulness', 'absorption']]=meditation_ds
+	# Define the correct column order
+	column_order = ['absorption', 'mindfulness', 'productivity', 'creativity', 'sublen',
+					'happy', 'content', 'relaxed', 'horny',
+					'ease', 'factor', 'ivl', 'time']
 
-	meditation_d_sigmas=intervention_meditations[['mindfulness', 'absorption']].describe().loc['std',:]-control_meditations[['mindfulness', 'absorption']].describe().loc['std',:]
-	result.loc['dσ',['mindfulness', 'absorption']]=meditation_d_sigmas
+	for dataset_name, data in datasets.items():
+		all_data = data['all']
+		intervention_data = data['intervention']
+		control_data = data['control']
 
-	mental_ds=(intervention_mental[['productivity', 'creativity', 'sublen']].describe().loc['mean',:]-control_mental[['productivity', 'creativity', 'sublen']].describe().loc['mean',:])/mental[['productivity', 'creativity', 'sublen']].describe().loc['std',:]
-	result.loc['d', ['productivity', 'creativity', 'sublen']]=mental_ds
+		if dataset_name == 'meditations':
+			columns = ['absorption', 'mindfulness']
+		elif dataset_name == 'mental':
+			columns = ['productivity', 'creativity', 'sublen']
+		elif dataset_name == 'mood':
+			columns = ['happy', 'content', 'relaxed', 'horny']
+		elif dataset_name == 'flashcards':
+			columns = ['ease', 'factor', 'ivl', 'time']
+		else:
+			continue
 
-	mental_d_sigmas=intervention_mental[['productivity', 'creativity', 'sublen']].describe().loc['std',:]-control_mental[['productivity', 'creativity', 'sublen']].describe().loc['std',:]
-	result.loc['dσ',['productivity', 'creativity', 'sublen']]=mental_d_sigmas
+		for col in columns:
+			if col not in all_data.columns or intervention_data.empty or control_data.empty:
+				result.loc['d', col] = np.nan
+				result.loc['λ', col] = np.nan
+				result.loc['p', col] = np.nan
+				result.loc['dσ', col] = np.nan
+				result.loc['k', col] = np.nan
+				continue
 
-	mood_ds=(intervention_mood[['happy', 'content', 'relaxed', 'horny']].describe().loc['mean',:]-control_mood[['happy', 'content', 'relaxed', 'horny']].describe().loc['mean',:])/mood[['happy', 'content', 'relaxed', 'horny']].describe().loc['std',:]
-	result.loc['d',['happy', 'content', 'relaxed', 'horny']]=mood_ds
+			# Calculate d (Cohen's d)
+			d = (intervention_data[col].mean() - control_data[col].mean()) / all_data[col].std()
+			result.loc['d', col] = d
 
-	mood_d_sigmas=intervention_mood[['happy', 'content', 'relaxed', 'horny']].describe().loc['std',:]-control_mood[['happy', 'content', 'relaxed', 'horny']].describe().loc['std',:]
-	result.loc['dσ',['happy', 'content', 'relaxed', 'horny']]=mood_d_sigmas
+			# Calculate λ (likelihood ratio test statistic)
+			lr = control_likelihood_ratio(intervention_data[col], control_data[col])
+			lambda_value = likelihood_ratio_test(lr)
+			result.loc['λ', col] = lambda_value
 
-	flashcards_ds=(intervention_flashcards[['ease', 'factor', 'ivl', 'time']].describe().loc['mean',:]-control_flashcards[['ease', 'factor', 'ivl', 'time']].describe().loc['mean',:])/flashcards[['ease', 'factor', 'ivl', 'time']].describe().loc['std',:]
-	result.loc['d',['ease', 'factor', 'ivl', 'time']]=flashcards_ds
+			# Calculate p-value
+			p_value = llrt_pval(lambda_value)
+			result.loc['p', col] = p_value
 
-	flashcards_d_sigmas=intervention_flashcards[['ease', 'factor', 'ivl', 'time']].describe().loc['std',:]-control_flashcards[['ease', 'factor', 'ivl', 'time']].describe().loc['std',:]
-	result.loc['dσ',['ease', 'factor', 'ivl', 'time']]=flashcards_d_sigmas
+			# Calculate dσ (difference in standard deviations)
+			d_sigma = intervention_data[col].std() - control_data[col].std()
+			result.loc['dσ', col] = d_sigma
 
-	result.loc['λ', 'absorption']=likelihood_ratio_test(control_likelihood_ratio(intervention_meditations['absorption'], control_meditations['absorption']))
-	result.loc['λ', 'mindfulness']=likelihood_ratio_test(control_likelihood_ratio(intervention_meditations['mindfulness'], control_meditations['mindfulness']))
-	result.loc['λ', 'productivity']=likelihood_ratio_test(control_likelihood_ratio(intervention_mental['productivity'], control_mental['productivity']))
-	result.loc['λ', 'creativity']=likelihood_ratio_test(control_likelihood_ratio(intervention_mental['creativity'], control_mental['creativity']))
-	result.loc['λ', 'sublen']=likelihood_ratio_test(control_likelihood_ratio(intervention_mental['sublen'], control_mental['sublen']))
+			result.loc['k', col] = all_data[col].count()
 
-	result.loc['λ', 'happy']=likelihood_ratio_test(control_likelihood_ratio(intervention_mood['happy'], control_mood['happy']))
-	result.loc['λ', 'content']=likelihood_ratio_test(control_likelihood_ratio(intervention_mood['content'], control_mood['content']))
-	result.loc['λ', 'relaxed']=likelihood_ratio_test(control_likelihood_ratio(intervention_mood['relaxed'], control_mood['relaxed']))
-	result.loc['λ', 'horny']=likelihood_ratio_test(control_likelihood_ratio(intervention_mood['horny'], control_mood['horny']))
+	result = result.reindex(columns=column_order)
 
-	result.loc['λ', 'ease']=likelihood_ratio_test(control_likelihood_ratio(intervention_flashcards['ease'], control_flashcards['ease']))
-	result.loc['λ', 'factor']=likelihood_ratio_test(control_likelihood_ratio(intervention_flashcards['factor'], control_flashcards['factor']))
-	result.loc['λ', 'ivl']=likelihood_ratio_test(control_likelihood_ratio(intervention_flashcards['ivl'], control_flashcards['ivl']))
-	result.loc['λ', 'time']=likelihood_ratio_test(control_likelihood_ratio(intervention_flashcards['time'], control_flashcards['time']))
-
-	result.loc['p',:]=llrt_pval(result.loc['λ',:])
+	result.loc['k'] = result.loc['k'].astype('Int64')
 
 	return result
 
