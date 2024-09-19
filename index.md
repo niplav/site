@@ -45,7 +45,7 @@ Writing
 
 ##### Technical
 
-* [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
+* [Resolving von Neumann-Morgenstern Inconsistent Preferences](./resolving.html)
 
 ##### Strategy
 

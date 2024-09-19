@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-09-10, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-09-19, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,41 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [The Tyranny of the Intentional Object (Andrés Gómez-Emilsson, 2016)](https://qri.org/blog/tyranny-of-the-intentional-object)
+* [Polygenic Selection of Embryos (galaga, 2023)](https://www.metaculus.com/notebooks/9247/polygenic-selection-of-embryos/)
+* [Why To Not Write A Book (Gwern, 2024)](https://gwern.net/book-writing)
+* [Facing the Elephant (John Nerst, 2018)](https://everythingstudies.com/2018/08/24/facing-the-elephant/)
+* [“She’d always fancied me but her circumstances had changed” (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/08/14/shed-always-fancied-me-but-her-circumstances-had-changed/)
+* [[FR] Met by accident on a bike (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/08/13/fr-met-by-accident-on-a-bike/)
+* [When the model goes totally out the window (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/08/10/when-the-model-goes-totally-out-the-window/)
+* [“Salt Dating 101: How To Sleep With Sugar Babies Without Actually Paying Them” (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/08/02/salt-dating-101-how-to-sleep-with-sugar-babies-without-actually-paying-them/)
+* [The quitting economy (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/07/26/the-quitting-economy/)
+* [I can’t believe I have to post this: talk to girls, or buy it (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/07/23/i-cant-believe-i-have-to-post-this/)
+* [I hope this is just manosphere porn (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/07/21/i-hope-this-is-just-manosphere-porn/)
+* [Company loyalty is dead. Switch jobs every 18 months to two years. [Career] (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/07/17/company-loyalty-is-dead-switch-jobs-every-18-months-to-two-years-career/)
+* [The solution is always, “Sleep with another girl.” (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/07/16/the-solution-is-always-sleep-with-another-girl/)
+* [Men, game, and social media strategies (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/07/09/men-game-and-social-media-strategies/)
+* [AI Timelines (habryka/Daniel Kokotajlo/Ajeya Cotra/Ege Erdil, 2023)](https://www.lesswrong.com/posts/K2D45BNxnZjdpSX2j/ai-timelines)
+* [Two Theories of Inflation (Arnold Kling, 2021)](https://www.metaculus.com/notebooks/7995/two-theories-of-inflation/)
+* [Thoughts on Mariana Mazzucato's Entrepreneurial State (Artir Kel, 2021)](https://nintil.com/mazzucato)
+* [Quantifying Bliss: Talk Summary (Andrés Gomez-Emilsson, 2017)](https://qualiacomputing.com/2017/06/18/quantifying-bliss-talk-summary/)
+* [What's so great about tunnel man? (dynomight, 2023)](https://dynomight.net/tunnel-man/)
+* [The New Science of Evolutionary Forecasting (Carl Zimmer, 2014)](https://www.quantamagazine.org/can-scientists-predict-the-future-of-evolution-20140717/)
+* [Decoupling Revisited (John Nerst, 2018)](https://everythingstudies.com/2018/05/25/decoupling-revisited/)
+* [A Warrior's Reputation (William Buckner, 2022)](https://traditionsofconflict.substack.com/p/a-warriors-reputation)
+* [Does Mouse Utopia Exist? (Gwern, 2021)](https://gwern.net/mouse-utopia)
+* [AGI will have learnt utility functions (Beren Millidge, 2023)](https://www.lesswrong.com/posts/RorXWkriXwErvJtvn/agi-will-have-learnt-utility-functions)
+* [The Possible Worlds Tree (Conor Barnes, 2024)](https://possibleworldstree.com/)
+* [A Global Catastrophe This Century (Tamay Besiroglu, 2022)](https://www.metaculus.com/notebooks/8736/a-global-catastrophe-this-century/)
+* [GPT-o1 (Zvi, 2024)](https://www.lesswrong.com/posts/zuaaqjsN6BucbGhf5/gpt-o1)
+* [Learning to Reason with LLMs (OpenAI, 2024)](https://openai.com/index/learning-to-reason-with-llms/)
+* [OpenAI's new models 'instrumentally faked alignment' (Shakeel Hashim, 2024)](https://www.transformernews.ai/p/openai-o1-alignment-faking)
+* [AI #81: Alpha Proteo (Zvi, 2024)](https://www.lesswrong.com/posts/YMaTA2hX6tSBJWnPr/ai-81-alpha-proteo)
+* [AI #80: Never Have I Ever (Zvi, 2024)](https://www.lesswrong.com/posts/x77vDAzosxtwJoJ7e/ai-80-never-have-i-ever)
+* [Here’s how OpenAI will determine how powerful its AI systems are (Kylie Robison, 2024)](https://www.theverge.com/2024/7/11/24196746/heres-how-openai-will-determine-how-powerful-its-ai-systems-are)
+* [What’s the chance your startup will succeed? (Nuño Sempere, 2024)](https://nunosempere.com/blog/2024/09/10/chance-your-startup-will-succeed/)
+* [The 10 invisible barriers to daygame (Nick Krauser, 2014)](https://krauserpua.com/2014/05/12/the-10-invisible-barriers-to-daygame/)
+* [Most* small probabilities aren't pascalian (Gregory Lewis, 2022)](https://forum.effectivealtruism.org/posts/5y3vzEAXhGskBhtAD/most-small-probabilities-aren-t-pascalian)
 * [Spacefiller (LifeWiki, 2024)](https://conwaylife.com/wiki/Spacefiller)
 * [Unique father problem (LifeWiki, 2024)](https://conwaylife.com/wiki/Unique_father_problem)
 * [Unsynthesizable oscillator 1 (LifeWiki, 2024)](https://conwaylife.com/wiki/Unsynthesizable_oscillator_1)

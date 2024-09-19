@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-07-31, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-09-18, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1655,6 +1655,7 @@ One might think all we do is stamp-collecting.
 	* Game theory
 		* [Classification](https://www.lesswrong.com/s/yiFxBWDXnLpbWGTkK/p/KwbJFexa4MEdhJbs4) of `$2 \times 2$` [normal-form games](https://arxiv.org/pdf/1010.4727.pdf)
 * Physics
+	* [Orbitals](https://en.wikipedia.org/wiki/Atomic_Orbital#Orbitals_table)
 	* [Standard Model](https://en.wikipedia.org/wiki/Stellar_Classification)
 		* Classifies all [fundamental particles](https://en.wikipedia.org/wiki/Fundamental_particles)
 	* Cosmology
@@ -1662,7 +1663,7 @@ One might think all we do is stamp-collecting.
 		* [Galaxy classification](https://en.wikipedia.org/wiki/Galaxy_morphological_classification)
 		* Orbital mechanics
 			* [Lagrange points](https://en.wikipedia.org/wiki/Lagrange_Points)
-			* Different types of orbits
+			* Different [types of orbits](https://en.wikipedia.org/wiki/List_of_orbits)
 * Chemistry
 	* [Periodic Table of Elements](https://en.wikipedia.org/wiki/Periodic_Table_of_Elements)
 	* [Synthetic polymers](https://en.wikipedia.org/wiki/List_of_synthetic_polymers)
@@ -2157,8 +2158,9 @@ How Often Does Taking Away Options Help?
 
 In some game-theoretic setups, [taking
 options away from a player improves their
-situation](./notes.html#Paternalism_May_Be_About_Mechanism_Design). I
-ran a [Monte-Carlo
+situation](./notes.html#Paternalism_May_Be_About_Mechanism_Design).
+
+I ran a [Monte-Carlo
 simulation](https://en.wikipedia.org/wiki/Monte-Carlo_simulation) to
 figure out how often that is the case, generating random [normal form
 games](https://en.wikipedia.org/wiki/Normal-form_game) with payoffs in
