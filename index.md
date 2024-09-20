@@ -95,6 +95,7 @@ Von dem Sichgeistigen des Lebens Jahre zählen.
 *—Friedrich Hölderlin, “Fragment”, 1800*
 
 * [How Often Does ¬Correlation ⇏ ¬Causation?](./cause.html)
+* [How Often Does Taking Away Options Help?](./options.html)
 * [Equally Many Heads and Tails](./equally_many_heads_and_tails.html)
 * [Mathematics Notation Convention](./mathematics_notation_convention.html)
 

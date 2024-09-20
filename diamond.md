@@ -18,9 +18,6 @@ mapa de Aquel que es todas Sus estrellas.
 
 *— [Jorge Luis Borges](https://en.wikipedia.org/wiki/Jorge_Luis_Borges), [“Spinoza”](https://thefunambulist.net/literature/litterature-spinoza-by-borges), 1964*
 
-Introduction
--------------
-
 I learned of the diamond-square algorithm by reading through the archives
 of [Chris Wellon's blog](https://nullprogram.com/), specifically his post
 on [noise fractals](https://nullprogram.com/blog/2007/11/20) and terrain
