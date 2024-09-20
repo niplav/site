@@ -82,6 +82,7 @@ HTML=index.html \
 	microfiction.html \
 	nootropics.html \
 	nuclear.html \
+	options.html \
 	pipe_rings.html \
 	platforms.html \
 	platte.html \

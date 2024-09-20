@@ -1598,37 +1598,7 @@ Moved [here](./foom.html).
 Paternalism May Be About Mechanism Design
 -------------------------------------------
 
-There's
-[been](https://www.lesswrong.com/posts/6dSitnwYPg8i8NHn3/burch-s-law)
-[some](https://www.overcomingbias.com/p/rational_agent_html)
-[discussion](http://www.overcomingbias.com/2006/11/asymmetric_pate.html)
-[about](https://musingsandroughdrafts.wordpress.com/2022/03/29/paternalism-is-about-outrage/)
-[the origins](https://www.overcomingbias.com/p/paternalism_is_html)
-[of](https://www.lesswrong.com/posts/wg5YpAofgbEg587d2/don-t-take-bad-options-away-from-people)
-[paternalism](https://www.overcomingbias.com/p/heres_my_openinhtml).
-
-I believe that there's another possible justification for paternalism:
-Intervening in situations between different actors to bring about
-Pareto-improved games.
-
-Let's take the [game of
-chicken](https://en.wikipedia.org/wiki/Chicken_\(game\)). If
-one *favors* a specific player, and one has access to their car
-before the game, one could remove the steering wheel to make their
-commitment for them—taking an option away, but still improving
-their situation by forcing the other player to swerve first,
-and guaranteeing the swerve (after all, it's a [strictly dominant
-strategy](https://en.wikipedia.org/wiki/Dominant_Strategy)).
-
-In a less artificial context, one could see [minimum wage
-laws](https://en.wikipedia.org/wiki/Minimum_wage_law) as an example of
-this. Disregarding potential effects from increased unemployment, having
-higher minimum wage removes the temptation of workers to accept lower
-wages. [Braess' paradox](https://en.wikipedia.org/wiki/Braess_Paradox)
-is another instantiation of this problem.
-
-One can imagine a paternalist government as more of a [mechanism
-designer](https://en.wikipedia.org/wiki/Mechanism_Design), then.
+Moved [here](./options.html).
 
 Scientific and Other Classifications
 --------------------------------------
@@ -2156,34 +2126,4 @@ that `$(v, w) \in E_{k+1}$` if and only if `$(v_i, w_i) \in E_i$` and
 How Often Does Taking Away Options Help?
 -----------------------------------------
 
-In some game-theoretic setups, [taking
-options away from a player improves their
-situation](./notes.html#Paternalism_May_Be_About_Mechanism_Design).
-
-I ran a [Monte-Carlo
-simulation](https://en.wikipedia.org/wiki/Monte-Carlo_simulation) to
-figure out how often that is the case, generating random [normal form
-games](https://en.wikipedia.org/wiki/Normal-form_game) with payoffs in
-`$[0,1]$`, removing a random option from the first player, and comparing
-the [Nash equilibria](https://en.wikipedia.org/wiki/Nash_Equilibrium)
-found via [vertex
-enumeration](https://en.wikipedia.org/wiki/Vertex_enumeration_problem)
-of the [best response](https://en.wikipedia.org/wiki/Best_response)
-[polytope](https://en.wikipedia.org/wiki/Polytope) (using
-[nashpy](https://www.theoj.org/joss-papers/joss.00904/10.21105.joss.00904.pdf))—the
-[Lemke-Howson
-algorithm](https://en.wikipedia.org/wiki/Lemke-Howson_algorithm) was
-giving me duplicate results.
-
-The removal of an option for player A is considered an improvement for
-some player if the mean payoff across all equilibria in the game
-with removed option is strictly greater than the mean payoff across all
-equilibria in the full game. I.e., I assume that we are just as
-likely to land in one equilibrium as compared to any other.
-
-![](./img/options/player_A.png)
-
-![](./img/options/player_B.png)
-
-Code [here](./code/options/options.py), largely written by [Claude 3.5
-Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet).
+Moved [here](./options.html#Frequency).
