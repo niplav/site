@@ -1,8 +1,3 @@
-[home](./index.md)
-------------------
-
-*author: niplav, created: 2024-09-20, modified: 2024-09-20, language: english, status: draft, importance: 5, confidence: certain*
-
 > __In small normal-form games, taking away an option from a player
 improves the payoff of that player usually <⅓ of the time, but improves
 the payoffs for the other player ½ of the time. The numbers depend on
@@ -49,7 +44,7 @@ simulation](https://en.wikipedia.org/wiki/Monte-Carlo_simulation).
 
 First, start by generating random [normal form
 games](https://en.wikipedia.org/wiki/Normal-form_game)
-with payoffs in `$[0,1]$`. Then, compute the [Nash
+with payoffs in $[0,1]$. Then, compute the [Nash
 equilibria](https://en.wikipedia.org/wiki/Nash_Equilibrium) for both players
 via [vertex
 enumeration](https://en.wikipedia.org/wiki/Vertex_enumeration_problem)
@@ -78,15 +73,15 @@ options, or both.
 Plots
 ------
 
-![](./img/options/A_i.png)
+![](http://niplav.site/img/options/A_i.png)
 
-*For games originally of size `$n \times m$`, how often is it the case that taking an option away from Abdullah improves the payoffs for Abdullah?*
+*For games originally of size $n \times m$, how often is it the case that taking an option away from Abdullah improves the payoffs for Abdullah?*
 
-![](./img/options/B_i.png)
+![](http://niplav.site/img/options/B_i.png)
 
-*For games originally of size `$n \times m$`, how often is it the case that taking an option away from Abdullah improves the payoffs for Benjamin?*
+*For games originally of size $n \times m$, how often is it the case that taking an option away from Abdullah improves the payoffs for Benjamin?*
 
-<!--TODO: add unchanged or worsened here, or simply unchanged?-->
+
 
 Interpretation
 ---------------
@@ -108,5 +103,5 @@ One can imagine a paternalist government as a [mechanism
 designer](https://en.wikipedia.org/wiki/Mechanism_Design) with a
 bulldozer, then.
 
-Code [here](./code/options/options.py), largely written by [Claude 3.5
+Code [here](http://niplav.site/code/options/options.py), largely written by [Claude 3.5
 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet).

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2024-02-13, language: english, status: maintenance, importance: 7, confidence: possible*
+*author: niplav, created: 2019-10-18, modified: 2024-09-21, language: english, status: maintenance, importance: 7, confidence: possible*
 
 > __Is [cryonics](https://en.wikipedia.org/wiki/Cryonics)
 worth it, and if yes, should one
@@ -1844,3 +1844,4 @@ See Also
 * [Cryonics Calculator](https://www.cryonicscalculator.com/)
 	* [Quick Look](https://sheet.zohopublic.com/sheet/published/du1z216d6ab4415d44e639822d094d9439ff4) for calculating probabilities of reänimation
 	* [Advanced Revival Probability Calculator](https://sheet.zohopublic.com/sheet/published/ezc15aefd640c35304374b5fc72f202e9a39a)
+* [Essays and notes on brain preservation](https://brainpreservation.github.io/index.html)

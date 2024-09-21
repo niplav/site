@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Preface (Andrew McKenzie, 2022)](https://brainpreservation.github.io/Preface.html)
+* [Myerson–Satterthwaite theorem (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Myerson-Satterthwaite_theorem)
+* [Vickrey–Clarke–Groves mechanism (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Vickrey-Clarke-Groves-Mechanism)
+* [Bayesomasochism (Zack M. Davis, 2016)](http://zackmdavis.net/blog/2016/09/bayesomasochism/)
 * [The Tyranny of the Intentional Object (Andrés Gómez-Emilsson, 2016)](https://qri.org/blog/tyranny-of-the-intentional-object)
 * [Polygenic Selection of Embryos (galaga, 2023)](https://www.metaculus.com/notebooks/9247/polygenic-selection-of-embryos/)
 * [Why To Not Write A Book (Gwern, 2024)](https://gwern.net/book-writing)
