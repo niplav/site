@@ -26,7 +26,14 @@ content.
 September 2024
 --------------
 
-* [How Often Does Taking Away Options Help?](./notes.html#How_Often_Does_Taking_Away_Options_Help)
+* [How Often Does Taking Away Options Help?](./options.html)
+
+### Links
+
+* [The New Science of Evolutionary Forecasting (Carl Zimmer, 2014)](https://www.quantamagazine.org/can-scientists-predict-the-future-of-evolution-20140717/): We see examples of very similar evolution in similar environments, scientists are trying to use this to forecast mutations in flu outbreaks.
+* [Unsynthesizable oscillator 1 (LifeWiki, 2024)](https://conwaylife.com/wiki/Unsynthesizable_oscillator_1): An oscillator in [Conway's Game of Life](https://en.wikipedia.org/wiki/Conways_Game_of_Life) that can't be constructed, similar to the [Garden of Eden](https://en.wikipedia.org/wiki/Garden_of_Eden_\(cellular_automata\)).
+
+![](./img/changelog/unsynthesizable.png)<!--TODO: change to a gif-->
 
 August 2024
 ------------

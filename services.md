@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-07-17, modified: 2024-03-05, language: english, status: finished, importance: 5, confidence: other*
+*author: niplav, created: 2023-07-17, modified: 2024-09-12, language: english, status: finished, importance: 5, confidence: other*
 
 > __My services (research, programming, experimental design and
 implementation) can be acquired for money.__

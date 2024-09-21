@@ -123,7 +123,7 @@ def create_heatmap(payoff_changes, player, mode='i'):
 		plt.annotate(f'{txt:.2f}', (data[i, 1], data[i, 0]), ha='center', va='center')
 
 	# Save the plot as a PNG file
-	plt.savefig(f'./payoff_changes_player_{player}_{mode}.png', dpi=300, bbox_inches='tight')
+	plt.savefig(f'./player_{player}_{mode}.png', dpi=300, bbox_inches='tight')
 	plt.close()  # Close the figure to free up memory
 
 # Run the simulation

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-15, modified: 2024-09-19, language: english, status: in progress, importance: 8, confidence: highly likely*
+*author: niplav, created: 2023-04-15, modified: 2024-09-20, language: english, status: in progress, importance: 8, confidence: highly likely*
 
 > __We consider the problem of resolving preferences
 that are inconsistent under the [von Neumann-Morgenstern
@@ -143,10 +143,10 @@ answer.
 
 In the economic literature, preferences are usually more restricted than
 in the von Neumann-Morgenstern setting: It is usually assumed that there
-is a set of goods $B$ and a utility function $U: B \times \mathbb{R}
-\rightarrow \mathbb{R}$ that takes as argument a good and the amount of
+is a set of goods `$B$` and a utility function `$U: B \times \mathbb{R}
+\rightarrow \mathbb{R}$` that takes as argument a good and the amount of
 that good that has been consumed. Consumption can take place at
-different time steps: Let $c: B \times \mathbb{N}$ be a function that
+different time steps: Let `$c: B \times \mathbb{N}$` be a function that
 returns the consumption of a good at a specific timestep. With a single
 good $b$ and different quantities `$c(b, 1), c(b, 2), \dots, c(b, n)$`
 consumed at $n$ timesteps, the time-discounted utility (discount factor
@@ -248,7 +248,7 @@ cover all possible variants of inconsistent preferences, and makes no
 statement about how to resolve the time-inconsistencies. Evans et al. also
 give no theoretical guarantee about the performance of their method.
 
-### The von Neumann-Morgenstern Axioms {#sec:vnmintro}
+### The von Neumann-Morgenstern Axioms
 
 The von Neumann-Morgenstern (vNM) axioms and the framework of utility
 functions are widely regarded as the standard method of modeling
@@ -923,7 +923,7 @@ However, results from two different fields apply to this case.
     theorem](https://en.wikipedia.org/wiki/Arrow's_Impossibility_Theorem)
     still apply, but at least results about
     tactical voting (such as the [Gibbard-Satterthwaite
-    theorem](https://en.wikipedia.org/wiki/Gibbard-Satterthwaite_theorem)
+    theorem](https://en.wikipedia.org/wiki/Gibbard-Satterthwaite_theorem))
     are irrelevant in this case, since the inconsistent preference
     does not "control" outputs of `$f$`, and there are no reasons for
     manipulation.
@@ -1839,7 +1839,7 @@ graphs that are already consistent, the greatest element usually receives
 a low centrality score, and elements closer to the center receive larger
 scores, which is counter to our criteria.
 
-### `HodgeRank` {#sec:hodgerank}
+### `HodgeRank`
 
 `HodgeRank`, introduced in [Jiang et al. 2011](./doc/preference/statistical_ranking_and_combinatorial_hodge_theory_jiang_et_al_2011.pdf), is an
 algorithm based on Hodge theory from algebraic geometry for decomposing
