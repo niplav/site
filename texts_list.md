@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-09-19, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-09-22, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,26 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Guys, branch swinging, and the low-effort shot (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/09/25/guys-branch-swinging-and-the-low-effort-shot/)
+* [Sex clubs, swingers, and game (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/09/24/sex-clubs-swingers-and-game/)
+* [I sensed the “what are we?” conversation (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/09/24/i-sensed-the-what-are-we-conversation/)
+* [“Why so many women cheat on their husbands” (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/09/21/why-so-many-women-cheat-on-their-husbands/)
+* [The more game I’ve needed the worse the relationship has been (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/09/19/the-more-game-ive-needed-the-worse-the-relationship-has-been/)
+* [My pet theory: people get discontent with what they have (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/09/14/my-pet-theory-people-get-discontent-with-what-they-have/)
+* [Frame control technique: “You only get to ask one question, then I get a question!” (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/09/14/frame-control-technique-you-only-get-to-ask-one-question-then-i-get-a-question/)
+* [Don’t believe everything you’re told: (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/09/13/dont-believe-everything-youre-told/)
+* [The Intelligence of African Hunters, and the Ignorance of Popular Hereditarians (William Buckner, 2022)](https://traditionsofconflict.substack.com/p/the-intelligence-of-african-hunters)
+* [The Sad Story of Short Kwi, Legendary Hunter of the Kalahari (William Buckner, 2022)](https://traditionsofconflict.substack.com/p/the-sad-story-of-short-kwi-legendary)
+* [The Traditions of Conflict 2022 Film Awards (William Buckner, 2022)](https://traditionsofconflict.substack.com/p/the-traditions-of-conflict-2022-film)
+* [If you’re still deeply in the matrix… you’re likely not suffering terribly, because you don’t know any better. (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/09/07/if-youre-still-deeply-in-the-matrix-youre-likely-not-suffering-terribly-because-you-dont-know-any-better/)
+* [Sociologist Mark Regnerus: ‘Cheap sex’ is making men give up on marriage (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/09/03/sociologist-mark-regnerus-cheap-sex-is-making-men-give-up-on-marriage/)
+* [“I was also wondering if I really wanted to stay in the Game” (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/09/02/i-was-also-wondering-if-i-really-wanted-to-stay-in-the-game/)
+* [One of the more unusual and objectively speaking stupid approaches I’ve done (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/08/24/one-of-the-more-unusual-approaches-ive-done/)
+* [“What We Can Learn from Women Who Cheat” (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/08/21/what-we-can-learn-from-women-who-cheat/)
+* [Favorite tactic: girls on dates [FR] (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/08/20/favorite-tactic-girls-on-dates-fr/)
+* [The need for basic game skills is still high (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/08/18/the-need-for-basic-game-skills-is-still-high/)
+* [Ramblings about a change in perspective towards game and life (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/08/16/ramblings-about-a-change-in-perspective-towards-game-and-life/)
+* [“She’ll accept the value proposition you’re offering at the start” (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/08/15/shell-accept-the-value-proposition-youre-offering-at-the-start/)
 * [Preface (Andrew McKenzie, 2022)](https://brainpreservation.github.io/Preface.html)
 * [Myerson–Satterthwaite theorem (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Myerson-Satterthwaite_theorem)
 * [Vickrey–Clarke–Groves mechanism (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Vickrey-Clarke-Groves-Mechanism)
