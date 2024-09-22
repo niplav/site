@@ -1,13 +1,14 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-12-21, modified: 2024-06-27, language: english, status: in progress, importance: 4, confidence: certain*
+*author: niplav, created: 2023-12-21, modified: 2024-09-22, language: english, status: in progress, importance: 4, confidence: certain*
 
 > __Changing [credit
 assignment](https://en.wikipedia.org/wiki/Credit_assignment_problem)
-mechanisms can only hurt the ones who currently benefit most from the
-current credit allocation, so they resist such change. I present some
-examples of that dynamic.__
+mechanisms hurt the people who currently benefit most from the current
+credit allocation. They are also usually highest in the status hierarchy,
+so they can effectively resist such change. I collect some examples of
+that dynamic.__
 
 High Status Eschews Quantification of Performance
 ====================================================
@@ -22,8 +23,8 @@ on a very interesting social pattern: If you have a community with high
 status people, and try to introduce clearer metrics of performance into
 that community, high status individuals in the community will strongly
 resist those metrics because they have an asymmetric downside. If they
-perform well on the metric, they stay in their position, but if they
-perform poorly, they might lose status. Since they are at least a little
+perform well on the metric, they at best stay in their position, but if
+they perform poorly, they lose status. Since they are at least a little
 bit unsure about their performance on the metric relative to others,
 they can only lose.
 
@@ -207,7 +208,7 @@ low status.
 
 Left as an exercise to the reader.
 
-### Transitions to Clearer Quantification
+## Transitions to Clearer Quantification
 
 If one accepts that this dynamic is surprisingly common, one might be
 interested in how to avoid it (or transition to a regime with stronger
