@@ -39,13 +39,12 @@ other sites.
 	* [Joel On Software](https://www.joelonsoftware.com/)
 	* [Null Program](http://nullprogram.com/)
 	* [Yujiri's homepage](https://yujiri.xyz) (A [very Russian](https://yujiri.xyz/misc/structure.gmi.html) website: "This site's organization is different from most other sites that serve a similar purpose. It's not chronological like a blog, because it was never meant to be a personal voice for me, at least not primarily. It's meant to be an up-to-date, organized database of philosophical truth.")
-* AI
-	* AI
-		* [Lil' Log](https://lilianweng.github.io/)
 	* \<affectionate\>militant minimalists\</affectionate\>
 		* [suckless](http://suckless.org/)
 		* [2f30](https://git.2f30.org/)
 		* [cat-v](http://cat-v.org/)
+	* AI
+		* [Lil' Log](https://lilianweng.github.io/)
 * Mathematics
 	* [Bit-Player](http://bit-player.org/)
 	* [Shtetl-Optimized](https://www.scottaaronson.com/blog)

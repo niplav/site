@@ -1,7 +1,7 @@
 [home](./index.html)
 ---------------------
 
-*author: niplav, created: 2022-06-18, modified: 2024-08-05, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2022-06-18, modified: 2024-09-23, language: english, status: draft, importance: 2, confidence: log*
 
 > Idea & format stolen shamelessly from [Gavin
 Leech](https://www.gleech.org/favs/all/).
@@ -140,8 +140,8 @@ Well Tuned Piano](https://www.youtube.com/watch?v=VXxZCSAWUP8)
 More Science](https://www.youtube.com/watch?v=WAeiqxNH3W0) ([Mike
 Morasky](https://en.wikipedia.org/wiki/Mike_Morasky)), [Diamond
 Sky](https://patriciataxxon.bandcamp.com/track/diamond-sky) ([Patricia
-Taxxon](https://patriciataxxon.bandcamp.com/)), [Sweet Mary Sweet
-Midi](https://patriciataxxon.bandcamp.com/track/diamond-sky) ([Patricia
+Taxxon](https://patriciataxxon.bandcamp.com/)), [Sweet Mary / Sweet
+Midi](https://patriciataxxon.bandcamp.com/track/sweet-mary-sweet-midi) ([Patricia
 Taxxon](https://patriciataxxon.bandcamp.com/)), [Castle Sinclair
 Girnigoe](https://patriciataxxon.bandcamp.com/track/castle-sinclair-girnigoe)
 ([Patricia Taxxon](https://patriciataxxon.bandcamp.com/)),
@@ -346,12 +346,13 @@ Ideas
 ------
 
 My favorite ideas in policy are
-[futarchy](https://en.wikipedia.org/wiki/Futarchy),
-[Harberger taxes](http://www.harbergertax.com/), [track
+[futarchy](https://en.wikipedia.org/wiki/Futarchy), [Harberger
+taxes](https://en.wikipedia.org/wiki/Harberger_Tax), [track
 records](https://www.overcomingbias.com/2006/12/the_80_forecast.html),
 and [open borders](https://en.wikipedia.org/wiki/Open_border)
-(though I've become [less certain of their goodness](https://social.freetalklive.com/@niplav/109077595423869299), and see also the [dedicated
-site](https://openborders.info/)).
+(though I've become [less certain of their
+goodness](https://social.freetalklive.com/@niplav/109077595423869299),
+and see also the [dedicated site](https://openborders.info/)).
 
 <!--
 ### Philosophy

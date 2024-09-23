@@ -25,9 +25,8 @@ and [Ricón 2021](https://nintil.com/longevity).
 
 | Intervention | [Net present value](https://en.wikipedia.org/wiki/Net_Present_Value) | State of evidence | Papers | Notes |
 | ----------------------------- | -------------------------------------------------------------------- | -------------------------------- | -------| ----- |
-| Meditating 2.5 hours per day → Reduces sleep need | \$33k | Poor, a single case study (n=7) | [Kaul et al. 2010](./doc/meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf) | Can also confer [other benefits](https://en.wikipedia.org/wiki/Research_on_Meditation), but multiple hours of meditation per day [could be risky](https://harpers.org/archive/2021/04/lost-in-thought-psychological-risks-of-meditation/) | <!--TODO: maybe link MCTB here?-->
+| Meditating 2.5 hours per day → Reduces sleep need | \$33k | Poor, a single case study (n=7), and anecdotal reports | [Kaul et al. 2010](./doc/meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf) | Can also confer [other benefits](https://en.wikipedia.org/wiki/Research_on_Meditation), but multiple hours of meditation per day [could be risky](https://harpers.org/archive/2021/04/lost-in-thought-psychological-risks-of-meditation/). | <!--TODO: maybe link MCTB here?-->
 | Taking melatonin → Reduces sleep need | \$7.5k | Data collected from two individuals (n=2) | [Gwern 2019](https://www.gwern.net/Melatonin#tempus-fugit), [Niplav 2024](./nootropics.html#Reducing_Sleep_Duration) | Low risk |
-
 
 Reducing Time Slept
 --------------------
