@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-09-22, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-09-23, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,7 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Number Search Engine via NN Embeddings (Gwern, 2024)](https://gwern.net/oen)
 * [Guys, branch swinging, and the low-effort shot (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/09/25/guys-branch-swinging-and-the-low-effort-shot/)
 * [Sex clubs, swingers, and game (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/09/24/sex-clubs-swingers-and-game/)
 * [I sensed the “what are we?” conversation (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/09/24/i-sensed-the-what-are-we-conversation/)

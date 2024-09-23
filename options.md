@@ -35,11 +35,13 @@ dominant strategy](https://en.wikipedia.org/wiki/Dominant_Strategy)
 for Benjamin to swerve).
 
 In a less artificial context, one could see [minimum wage
-laws](https://en.wikipedia.org/wiki/Minimum_wage_law) as an example of
-this. Disregarding potential effects from increased unemployment, having
-higher minimum wage removes the temptation of workers to accept lower
-wages. [Braess' paradox](https://en.wikipedia.org/wiki/Braess_Paradox)
-is another case where taking options away from people helps.
+laws](https://en.wikipedia.org/wiki/Minimum_wage_law) as an
+example of this. Disregarding potential effects from [increased
+unemployment](https://en.wikipedia.org/wiki/Minimum_Wage#Supply_and_demand_model),
+having higher minimum wage removes the
+temptation of workers to accept lower wages. [Braess'
+paradox](https://en.wikipedia.org/wiki/Braess_Paradox) is another case
+where taking options away from people helps.
 
 Frequency
 ----------

@@ -1974,15 +1974,17 @@ If `$G$` has no missing edges and `$w$` is defined for every edge,
 `HodgeRank` returns an affine transformation of the result that the
 Borda count would return.
 
-In the context of inconsistent preferences, `HodgeRank` can
-be interpreted as taking the observed preferences of an agent
-as an edge-weighted directed graph, and decomposing it so that
-the potential function `$p$` determines how much the agent values
-different elements in `$V$`. Here `$p$` can act as a utility function. The
+In the context of inconsistent preferences, `HodgeRank` can be
+interpreted as taking the observed preferences of an agent as an
+edge-weighted directed graph, and decomposing it so that the potential
+function `$p$` determines how much the agent values different
+elements in `$V$`. Here `$p$` can act as a utility function. The
 social-choice theoretic perspective offers an intriguing possibility
 of modeling agents as being comprised of subagents [Demski & Garrabrant
 2019](./doc/cs/ai/alignment/agent_foundations/embedded_agency_demski_garrabrant_2020.pdf),
-[@minsky1988society], which we will not pursue further here.
+[Minsky
+1988](https://www.goodreads.com/book/show/326790.The_Society_of_Mind),
+which we will not pursue further here.
 
 # Applications
 

@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2024-09-20, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2024-09-23, language: english, status: in progress, importance: 6, confidence: log*
 
 Content
 =======
@@ -52,8 +52,8 @@ Writing
 ##### Strategy
 
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html)
-* [On Discontinuous and Fast Takeoff](./foom.html)
 * [A TAI Race With China Can Be Better Than Not Racing](./china.html)
+* [On Discontinuous and Fast Takeoff](./foom.html)
 
 #### Forecasting
 

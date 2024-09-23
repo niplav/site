@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2024-09-03, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2024-09-23, language: english, status: in progress, importance: 6, confidence: log*
 
 Content
 =======
@@ -128,7 +128,7 @@ Von dem Sichgeistigen des Lebens Jahre zählen.
 * [Have Attention Spans Been Declining?](./spans.html)
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
 * [Transfer Learning in Humans](./transfer.html)
-* [Brain Stimulation for Mood Enhancement](./stimulation.html)
+* [Brain Stimulation for Valence](./stimulation.html)
 
 #### Collections
 
