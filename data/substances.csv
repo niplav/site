@@ -561,3 +561,6 @@ datetime,substance,amount,experiment,id,prediction
 2024-09-20T13:32:04+02:00,vitamind3,25μg,C,5,0.6
 2024-09-22T23:29:21+02:00,melatonin,0.45mg,,,
 2024-09-23T09:10:36+02:00,vitamind3,25μg,C,6,0.15
+2024-09-23T13:15:36+02:00,creatine,3g,,,
+2024-09-24T22:33:29+02:00,melatonin,0.25mg,,,
+2024-09-25T09:45:48+02:00,vitamind3,25μg,C,7,0.65
