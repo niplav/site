@@ -613,3 +613,7 @@ Repeated word.
 > This happens for `$n_0=10^{-6} cm^{-3}$` in 1060 Gyr.
 
 Should this be `$10^{60}$` or `$1060$` Gyr?
+
+### 14.1
+
+Bottom of the table for the Contents of the current universe is cut off.
