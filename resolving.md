@@ -2025,7 +2025,7 @@ using a quantum-mechanical model of the world [Soares & Fallenstein
 2017](./doc/cs/ai/alignment/agent_foundations/agent_foundations_for_aligning_machine_intelligence_soares_fallenstein_2017.pdf).
 The problem is further elaborated on
 outside of the academic literature early in [Dai
-2012(https://www.lesswrong.com/s/kjcioCkqSSS4LiMAe/p/KLaJjNdENsHhKhG5m)
+2012](https://www.lesswrong.com/s/kjcioCkqSSS4LiMAe/p/KLaJjNdENsHhKhG5m)
 and [Dai
 2019](https://www.lesswrong.com/s/kjcioCkqSSS4LiMAe/p/6RjL996E8Dsz3vHPk),
 in [Yudkowsky et al. 2016](https://arbital.com/p/rescue_utility/)

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-03-12, modified: 2023-12-16, language: english, status: in progress, importance: 2, confidence: other*
+*author: niplav, created: 2022-03-12, modified: 2024-09-25, language: english, status: in progress, importance: 2, confidence: other*
 
 > __Short texts on pickup, mostly daygame.__
 
@@ -302,10 +302,11 @@ This has some advantages and some disadvantages:
 	* It's slightly out of the ordinary, so perhaps makes the approach more memorable and stand out
 	* Women sometimes remark on it (mostly positively, as far as I can tell), and I have used it for a bit of teasing ("you can still write, right?")
 * Disadvantages:
-	* Perhaps too weird, a cold approach on the street is already out-of-the-ordinary enough
-	* You have to pay extra attention to whether the woman sees the contact information others have written there as well (this is not just hypothetical: I might`$_{25\%}$` have lost a lead through this)
-	* There is no option to coordinate for a delayed instant date
-	* You can't make sure whether she has given you the right contact information (and this is perhaps even incentivized)
+	* Perhaps too weird, a cold approach on the street is already out-of-the-ordinary enough.
+		* I've been told on a date that this (together with me not having any internet at home) brought her on the brink of flaking on me. Not having internet at home seems to have been a bigger problem, though.
+	* You have to pay extra attention to whether the woman sees the contact information others have written there as well (this is not just hypothetical: I might`$_{25\%}$` have lost a lead through this).
+	* There is no option to coordinate for a delayed instant date.
+	* You can't make sure whether she has given you the right contact information (and this is perhaps even incentivized).
 
 Overall, for me the effects of removing one weasel strongly outweigh
 the downsides, but your mileage may vary.
@@ -314,3 +315,11 @@ Using Multi-Armed Bandits to Select Daygame Locations
 ------------------------------------------------------
 
 Moved [here](./bandit.html).
+
+If You Want To Fuck Hot Chicks, You Have To Approach Them
+----------------------------------------------------------
+
+Iron law.
+
+Meditation Improves Vibe, Which Improves Everything Else
+---------------------------------------------------------

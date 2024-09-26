@@ -199,6 +199,7 @@ one moment or forget it!
 * [Solutions to “A Primer in Social Choice Theory”](./apisct_solutions.html)
 * [Solutions to “Pattern Recognition and Machine Learning”](./praml_solutions.html)
 * [Solutions to “From Zero to Geo”](./ztg_solutions.html)
+* [Solutions to “ML For The Working Programmer”](./mlwp_solutions.md)
 * [Solutions to “Algorithmic Game Theory”](./agt_solutions.html)
 * [Exercises from “The Jazz Piano Book”](./tjpb_exercises.html)
 * [Administrativa for Textbooks](./administrativa_for_textbooks.html)
