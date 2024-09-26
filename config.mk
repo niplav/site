@@ -31,6 +31,7 @@ HTML=index.html \
 	pg_solutions.html \
 	praml_solutions.html \
 	mfis_solutions.html \
+	mlwp_solutions.html \
 	rs_solutions.html \
 	ztg_solutions.html \
 	tjpb_exercises.html \

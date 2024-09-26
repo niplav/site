@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-09-23, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-09-27, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* \* Death By A Thousand Sluts Part Two: How To Almost Not Fail At Pickup (John Bodi, 2015)
+* AI #83: The Mask Comes Of (Zvi, 2024)
+* [How to Use the Doxy Magic Wand (Andy Wells, 2020)](https://killyourinnerloser.com/magic-wand-sfw/)
+* Death by a Thousand Sluts Part One: How to Fail At Pickup (John Body, 2015)
 * [Number Search Engine via NN Embeddings (Gwern, 2024)](https://gwern.net/oen)
 * [Guys, branch swinging, and the low-effort shot (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/09/25/guys-branch-swinging-and-the-low-effort-shot/)
 * [Sex clubs, swingers, and game (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/09/24/sex-clubs-swingers-and-game/)
@@ -34,7 +38,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [“I was also wondering if I really wanted to stay in the Game” (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/09/02/i-was-also-wondering-if-i-really-wanted-to-stay-in-the-game/)
 * [One of the more unusual and objectively speaking stupid approaches I’ve done (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/08/24/one-of-the-more-unusual-approaches-ive-done/)
 * [“What We Can Learn from Women Who Cheat” (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/08/21/what-we-can-learn-from-women-who-cheat/)
-* [Favorite tactic: girls on dates [FR] (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/08/20/favorite-tactic-girls-on-dates-fr/)
+* [Favorite tactic: girls on dates \[FR\] (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/08/20/favorite-tactic-girls-on-dates-fr/)
 * [The need for basic game skills is still high (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/08/18/the-need-for-basic-game-skills-is-still-high/)
 * [Ramblings about a change in perspective towards game and life (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/08/16/ramblings-about-a-change-in-perspective-towards-game-and-life/)
 * [“She’ll accept the value proposition you’re offering at the start” (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/08/15/shell-accept-the-value-proposition-youre-offering-at-the-start/)
@@ -53,7 +57,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [The quitting economy (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/07/26/the-quitting-economy/)
 * [I can’t believe I have to post this: talk to girls, or buy it (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/07/23/i-cant-believe-i-have-to-post-this/)
 * [I hope this is just manosphere porn (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/07/21/i-hope-this-is-just-manosphere-porn/)
-* [Company loyalty is dead. Switch jobs every 18 months to two years. [Career] (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/07/17/company-loyalty-is-dead-switch-jobs-every-18-months-to-two-years-career/)
+* [Company loyalty is dead. Switch jobs every 18 months to two years. \[Career\] (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/07/17/company-loyalty-is-dead-switch-jobs-every-18-months-to-two-years-career/)
 * [The solution is always, “Sleep with another girl.” (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/07/16/the-solution-is-always-sleep-with-another-girl/)
 * [Men, game, and social media strategies (TheRedQuest, 2017)](https://theredquest.wordpress.com/2017/07/09/men-game-and-social-media-strategies/)
 * [AI Timelines (habryka/Daniel Kokotajlo/Ajeya Cotra/Ege Erdil, 2023)](https://www.lesswrong.com/posts/K2D45BNxnZjdpSX2j/ai-timelines)
