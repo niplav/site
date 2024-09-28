@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2024-09-23, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2024-09-28, language: english, status: in progress, importance: 6, confidence: log*
 
 Content
 =======
@@ -110,6 +110,26 @@ Von dem Sichgeistigen des Lebens Jahre zählen.
 
 * [Cryonics Cost-Benefit Analysis](./considerations_on_cryonics.html)
 * [Building a Cuboid](./cuboid.html)
+
+##### Pick-Up
+
+> The American girl is well acquainted with her body’s seductive
+capacity. She knows it lies in the face, and in expressive eyes,
+and thirsty lips. She knows seductiveness lies in the round breasts,
+the full buttocks, and in the shapely thighs, sleek legs and she shows
+all this and does not hide it. She knows it lies in clothes: in bright
+colors that awaken primal sensations, and in designs that reveal the
+temptations of the body— and in American girls these are sometimes live,
+screaming temptations! Then she adds to all this the fetching laugh,
+the naked looks, and the bold moves, and she does not ignore this for
+one moment or forget it!
+
+*—[Sayyid Qutb ash-Shaheed](https://en.wikipedia.org/wiki/Sayyid_Qutb), [“The America I Have Seen”](https://en.wikipedia.org/wiki/The_America_I_Have_Seen) p. 16, 1951*
+
+* [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
+* [Using A Multi-Armed Bandit to Select Daygame Locations](./bandit.html)
+* [Notes on Pickup](./notes_on_pickup.html)
+* [Pickup Reports](./pickup_reports.html)
 
 #### Existential Risk
 
@@ -221,7 +241,7 @@ Miscellaneous
 * [Favorites](./favorites.html)
 * [Now](./now.html)
 * [Todo](./todo.html)
-* [Full Index](./fullindex.html), if you care for drafts or spicier posts
+* [Full Index](./fullindex.html), if you care for drafts
 
 ### Media Consumption
 
