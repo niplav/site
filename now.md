@@ -50,11 +50,12 @@ Reading
 
 Currently, I am actively reading the following texts:
 
-* Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
-* Designing Data-Intensive Applications (Martin Kleppmann, 2017)
-* Daygame Nitro (Nick Krauser, 2014)
-* Coming to Wholeness (Connirae Andreas, 2018)
-* Bombay. Maximum City (Suketu Mehta, 2005)
+* [Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)](https://statisticswithjulia.org/)
+* [Designing Data-Intensive Applications (Martin Kleppmann, 2017)](https://dataintensive.net/)
+* [Daygame Nitro (Nick Krauser, 2014)](https://www.goodreads.com/book/show/166195305-daygame-nitro)
+* [Death By A Thousand Sluts Part Two: How To Almost Not Fail At Pickup](https://www.goodreads.com/book/show/40035106-death-by-a-thousand-sluts-part-two)
+* [Coming to Wholeness (Connirae Andreas, 2018)](https://www.goodreads.com/book/show/42348332-coming-to-wholeness)
+* [Bombay. Maximum City (Suketu Mehta, 2005)](https://www.goodreads.com/book/show/4364.Maximum_City)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
-* Grand Futures (Anders Sandberg, 2023)
+* [Grand Futures (Anders Sandberg, 2023)](https://www.goodreads.com/book/show/42275384-grand-futures)
 * The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 4/1000.

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-09-27, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-09-28, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,8 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [|3 Generalized Out-of-Distribution Detection: A Survey (Jingkang Yang/Kaiyang Zhou/Yixuan Li/Ziwei Liu, 2024)](https://arxiv.org/pdf/2110.11334)
+* [Bodi’s book *Death by a Thousand Sluts*, on pickup and escaping being a gamma (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/08/07/bodis-book-death-by-a-thousand-sluts-on-pickup-and-escaping-being-a-gamma/)
 * \* Death By A Thousand Sluts Part Two: How To Almost Not Fail At Pickup (John Bodi, 2015)
 * AI #83: The Mask Comes Of (Zvi, 2024)
 * [How to Use the Doxy Magic Wand (Andy Wells, 2020)](https://killyourinnerloser.com/magic-wand-sfw/)

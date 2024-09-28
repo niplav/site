@@ -23,8 +23,7 @@ on [transfer learning in humans](./transfer.html).
 
 ### Rates
 
-My rates are determined via the
-following procedure via a two-sided [sealed-bid
+My rates are determined through a two-sided [sealed-bid
 auction](https://en.wikipedia.org/wiki/First-price_sealed-bid_auction),
 splitting the difference in bids[^1]:
 

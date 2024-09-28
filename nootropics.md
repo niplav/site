@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2024-07-06, language: english, status: maintenance, importance: 3, confidence: likely*
+*author: niplav, created: 2023-01-06, modified: 2024-09-29, language: english, status: maintenance, importance: 3, confidence: likely*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
 decided to log my nootropics usage and its effects.__
@@ -24,23 +24,23 @@ do by recording the outcomes. That's what I did.
 
 <!--TODO: color for effect size?-->
 
-| Value tracked                      | Effect size d (λ, p, σ change)              | Effect size d (λ, p, σ change)      |
+| Value tracked                      | Effect size [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) ([λ](https://en.wikipedia.org/wiki/Likelihood-ratio_test#General), [p](https://en.wikipedia.org/wiki/P-Value), [σ](https://en.wikipedia.org/wiki/Standard_Deviation) change, [k](https://en.wikipedia.org/wiki/Sample_size)[^6])           | Effect size d (λ, p, σ change, k)   |
 | ---------------------------------- | ------------------------------------------- | ----------------------------------- |
-|                                    |   *200 mg Caffeine (n=1, m=50)*             |   *500 mg L-theanine (n=1, m=50)*   |
+|                                    | *200 mg Caffeine (n=1[^4], m=50[^5])*       |   *500 mg L-theanine (n=1, m=50)*   |
 | Log-score substance prediction[^1] | -0.6                                        | -0.7                                |
-| Absorption                         | 0.61 (λ≈13.3, p≈0.00017, -0.072)            | 0.04 (λ≈1.38, p≈0.77, -0.07)        |
-| Mindfulness                        | 0.58 (λ≈11.8, p≈0.0007, 0.021)              | 0.12 (λ≈0.72, p≈0.89, -0.018)       |
-| Productivity                       | 0.58 (λ≈28.9, p≈1.3<sup>-12</sup>, 0.11)    | -0.28 (λ≈5.51, p≈0.109, 0.03)       |
-| Creativity                         | 0.45 (λ≈51, p≈4.6<sup>-27</sup>, 0.09)      | -0.12 (λ≈5.05, p≈0.14, -0.04)       |
-| Happiness                          | 0.27 (λ≈10.6, p≈0.002, 0.3)                 | 0.16 (λ≈3.98, p≈0.27, -0.155)       |
-| Contentment                        | 0.13 (λ≈7.66, p≈0.02, 0.47)                 | 0.25 (λ≈6.83, p≈0.04, -0.04)        |
-| Relaxation                         | -0.11 (λ≈5, p≈0.15, 0.42)                   | 0.12 (λ≈1.5, p≈0.74, 0.02)          |
-| Chastity[^2]                       | -0.14 (λ≈1.9, p≈0.64, 0.11)                 | -0.03 (λ≈1.15, p≈0.8, 0.25)         |
-| Subjective length of day           | Not collected                               | -0.015 (λ≈0.35, p≈0.95, -0.015)[^4] |
-| Flashcard ease                     | 0.003 (λ≈∞, p≈0, -0.009)                    | -0.072 (λ≈∞, p≈0, -0.01)            |
-| Flashcard ease factor              | -0.039 (λ≈∞, p≈0, -32.7)                    | 0.0026 (λ≈∞, p≈0, -18.9)            |
-| Flashcard new interval             | 0.011 (λ≈∞, p≈0, -1.88)                     | -0.016 (λ≈∞, p≈0, 3.1)              |
-| Time per flashcard[^3]             | 0.006 (λ≈∞, p≈0, 273.4)                     | 0.003 (λ≈∞, p≈0, 13.66)             |
+| Absorption                         | 0.61 (λ≈13.3, p≈0.00017, -0.072, 50)        | 0.04 (λ≈1.38, p≈0.77, -0.07, 50)    |
+| Mindfulness                        | 0.58 (λ≈11.8, p≈0.0007, 0.021, 50)          | 0.12 (λ≈0.72, p≈0.89, -0.018, 50)   |
+| Productivity                       | 0.58 (λ≈28.9, p≈1.3<sup>-12</sup>, 0.11, 50)| -0.28 (λ≈5.51, p≈0.109, 0.03, 50)   |
+| Creativity                         | 0.45 (λ≈51, p≈4.6<sup>-27</sup>, 0.09, 50)  | -0.12 (λ≈5.05, p≈0.14, -0.04, 50)   |
+| Happiness                          | 0.27 (λ≈10.6, p≈0.002, 0.3, 161)            | 0.16 (λ≈3.98, p≈0.27, -0.155, 201)  |
+| Contentment                        | 0.13 (λ≈7.66, p≈0.02, 0.47, 161)            | 0.25 (λ≈6.83, p≈0.04, -0.04, 201)   |
+| Relaxation                         | -0.11 (λ≈5, p≈0.15, 0.42, 161)              | 0.12 (λ≈1.5, p≈0.74, 0.02, 201)     |
+| Chastity[^2]                       | -0.14 (λ≈1.9, p≈0.64, 0.11, 161)            | -0.03 (λ≈1.15, p≈0.8, 0.25, 201)    |
+| Subjective length of day           | Not collected                               | -0.015 (λ≈0.35, p≈0.95, -0.015, 21) |
+| Flashcard ease                     | 0.003 (λ≈∞, p≈0, -0.009, 10949)             | -0.072 (λ≈∞, p≈0, -0.01, 10248)     |
+| Flashcard ease factor              | -0.039 (λ≈∞, p≈0, -32.7, 10949)             | 0.0026 (λ≈∞, p≈0, -18.9, 10248)     |
+| Flashcard new interval             | 0.011 (λ≈∞, p≈0, -1.88, 10949)              | -0.016 (λ≈∞, p≈0, 3.1, 10248)       |
+| Time per flashcard[^3]             | 0.006 (λ≈∞, p≈0, 273.4, 10949)              | 0.003 (λ≈∞, p≈0, 13.66, 10248)      |
 
 I am especially interested in testing many different substances for their
 effect on meditation, while avoiding negative side effects. The benefits
@@ -244,11 +244,12 @@ To analyze this specific experiment, I simply call
 `caffeine_results=analyze('A', 'caffeine', 'sugar')` and get this nice
 DataFrame:
 
-	    absorption  mindfulness  productivity    creativity      happy   content   relaxed     horny      ease    factor       ivl        time
-	d     0.611936     0.575982  5.784144e-01  4.544300e-01   0.270813  0.129624 -0.114858 -0.140795 -0.009327 -0.068599 -0.046602    0.021811
-	λ    13.309889    11.791000  2.889791e+01  5.103201e+01  10.644193  7.660893  5.007775  1.964261       inf       inf       inf         inf
-	p     0.000167     0.000724  1.348364e-12  4.609786e-27   0.002074  0.024625  0.150156  0.639840  0.000000  0.000000  0.000000    0.000000
-	dσ   -0.072088     0.021868  1.139222e-01  9.659407e-02   0.295592  0.473630  0.415262  0.108356 -0.011060 -0.679137 -0.567543  697.624130
+	    absorption  mindfulness  productivity    creativity  sublen       happy     content     relaxed       horny          ease        factor           ivl          time
+	d     0.698257     0.638603  6.397757e-01  5.115835e-01     NaN    0.270813    0.129624   -0.114858   -0.140795 -9.669700e-03 -4.105022e-02  1.270295e-02  8.172521e-03
+	λ    13.309889    11.791000  3.075927e+01  5.634296e+01     0.0   10.644193    7.660893    5.007775    1.964261           inf           inf           inf           inf
+	p     0.000167     0.000724  1.053268e-13  7.030572e-31     NaN    0.002074    0.024625    0.150156    0.639840  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00
+	dσ   -0.072088     0.021868  1.073141e-01  9.825115e-02     NaN    0.295592    0.473630    0.415262    0.108356 -5.938866e-03 -3.267464e+01 -1.877563e+00  2.733943e+02
+	k    50.000000    50.000000  5.000000e+01  5.000000e+01     0.0  161.000000  161.000000  161.000000  161.000000  1.094900e+04  1.094900e+04  1.094900e+04  1.094900e+04
 
 #### Conclusion
 
@@ -415,11 +416,12 @@ from the last experiments to get the other results, and they don't point
 a rosy picture for L-theanine:
 
 	>>> analyze('B', 'l-theanine', 'sugar')
-	    absorption  mindfulness  productivity  creativity     happy   content   relaxed     horny      ease     factor       ivl       time
-	d     0.040887     0.124170     -0.278448   -0.116001  0.164261  0.254040  0.119069 -0.031665 -0.072098   0.002561 -0.015955   0.003073
-	λ     1.378294     0.720780      5.517769    5.049838  3.983760  6.833004  1.496601  1.148131       inf        inf       inf        inf
-	p     0.765758     0.894798      0.109735    0.146420  0.266491  0.045270  0.740705  0.813279  0.000000   0.000000  0.000000   0.000000
-	dσ   -0.067847    -0.017736      0.039855   -0.043241 -0.155797 -0.046668  0.019655  0.251454 -0.016542 -18.901846  3.108518  13.660820
+	    absorption  mindfulness  productivity  creativity     sublen       happy     content     relaxed       horny          ease        factor           ivl          time
+	d     0.045554     0.151308     -0.278448   -0.116001  -0.014761    0.164261    0.254040    0.119069   -0.031665 -7.212364e-02  2.600861e-03 -1.710969e-02  4.301906e-03
+	λ     1.378294     0.720780      5.517769    5.049838   0.345219    3.983760    6.833004    1.496601    1.148131           inf           inf           inf           inf
+	p     0.765758     0.894798      0.109735    0.146420   0.955745    0.266491    0.045270    0.740705    0.813279  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00
+	dσ   -0.067847    -0.017736      0.039855   -0.043241  -0.014962   -0.155797   -0.046668    0.019655    0.251454 -1.654203e-02 -1.890185e+01  3.108518e+00  1.366082e+01
+	k    50.000000    50.000000     50.000000   50.000000  21.000000  201.000000  201.000000  201.000000  201.000000  1.024800e+04  1.024800e+04  1.024800e+04  1.024800e+04
 
 It worsens productivity and creativity (though not *quite* statistically
 significantly, but it's on the way there), but at least it improves my
@@ -579,7 +581,7 @@ Started 2024-08-29.
 
 Notes on the experiment:
 
-* 6th dose: Pill opened up inside the envelope, accidentally mostly de-blinding the dose (I'm pretty sure it was placebo).
+* 6th dose: Pill opened up inside the envelope, accidentally mostly de-blinding the dose (I'm pretty sure<sub>85%</sub> it was placebo).
 
 See Also
 ---------
@@ -857,4 +859,6 @@ And the p-values of those are:
 [^1]: Higher is better.
 [^2]: Whether higher or lower values are better here is not clear.
 [^3]: The value of higher or lower values here is not clear: Do we want to spend more time per flashcard, or are we content with fast but sloppy performance?
-[^4]: Only 21 datapoints.
+[^4]: The number of participants. Usually only one, me.
+[^5]: The number of days during which samples were collected.
+[^6]: The number of datapoints for that variable. Can be greater than the number of days since for some variables more than one a day were collected.

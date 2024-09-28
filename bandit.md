@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-11-18, modified: 2024-07-05, language: english, status: in progress, importance: 2, confidence: likely*
+*author: niplav, created: 2023-11-18, modified: 2024-09-29, language: english, status: in progress, importance: 2, confidence: likely*
 
 > __I finally make use of my [daygame data](./data.html#Daygame) by
 writing some code that implements a multi-armed bandit with Thompson
@@ -10,6 +10,12 @@ in a particular location yield contact information.__
 
 Using A Multi-Armed Bandit to Select Daygame Locations
 =======================================================
+
+> Glattes Eis  
+Ein Paradeis  
+Für den, der gut zu tanzen weiß.
+
+*—Friedrich Nietzsche, “Für Tänzer”, 1882*
 
 Given the [data of my daygame approaches](./data.html#Daygame), I've
 wondered for quite a while how I could use that data to make improve
