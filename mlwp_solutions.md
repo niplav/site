@@ -43,3 +43,9 @@ users the option to specify the type, and optimize accordingly.
 * `double`: No, since 2 is clearly not a `real`.
 * `f`: No, since `Math.sin` is only defined for `real`s.
 * `g`: Yes.
+
+### 2.4
+
+Prediction: Error messages for both `~1` and `10`.
+
+Result: Uncaught exception. Close enough.
