@@ -305,13 +305,7 @@ programmers, for programmers.
 
 But there is still *some* data cleanup to do:
 
-	cat mood.csv ~/site/data/mood.csv |
-	sort |
-	uniq |
-	sed -E 's/^([0-9T: -]+),"/\1,\1,"/g' |
-	sed 's/nothing/Nothing/g;s/mindfulness/Mindfulness/' |
-	sort |
-	uniq >newmood.csv
+	sort -n mood.csv >>~/proj/site/data/mood.csv
 
 Finally I rename the mood columns simply to "happy", "content", "relaxed",
 and "horny".

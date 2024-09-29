@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-04, modified: 2024-07-12, language: english, status: in progress, importance: 7, confidence: certain*
+*author: niplav, created: 2023-01-04, modified: 2024-09-29, language: english, status: in progress, importance: 7, confidence: certain*
 
 > __There are too many possible quantified self experiments to run. Do
 hobbyist prediction platforms[^1] make priorisation easier? I test
@@ -221,11 +221,17 @@ with.
 
 ### Pomodoros
 
-| Value tracked        | Effect size d (λ, p, σ change) |
-| -------------------- | ------------------------------ |
-| Productivity         | 0.26 (λ≈6.26)                  |
-| Creativity           | -0.04 (λ≈0.58)                 |
-| Subjective length    | -0.147 (λ≈3.33)                |
+| Value tracked        | Effect size d (λ, p, σ change)    |
+| -------------------- | --------------------------------- |
+| Productivity         | 0.26 (λ≈6.23, p≈0.069, 0.05, 52)  |
+| Creativity           | -0.04 (λ≈0.58, p≈0.92, 0.01, 52)  |
+| Subjective length    | -0.147 (λ≈3.33, p≈0.37, 0.03, 52) |
+| Happiness            | -0.07 (λ≈0.32, p≈0.96, 0.01, 111) |
+| Contentment          | -0.13 (λ≈1.08, p≈0.83, 0.05, 111) |
+| Relaxation           | -0.04 (λ≈1.23, p≈0.8, -0.25, 111) |
+| Chastity             | -0.14 (λ≈7.76, p≈0.02, 0.74, 111) |
+
+![](./img/platforms/pomodoro_results.png)
 
 I ran the experiment from 2024-01-29 to 2024-06-17,
 using [spt](https://github.com/pickfire/spt) with [this
@@ -239,34 +245,27 @@ The code for loading and transforming the pomodoro data isn't
 particularly interesting, if you're curious you can find it in [this
 file](./code/experiments/load.py).
 
-	ispom=get_ispom()
-	mental=get_mental()
+	datasets=get_datasets_pom()
 
 Let's proceed to the analysis, then (using the same methodology as for my
 [nootropics experiments](.//nootropics.html#Statistical_Method):
 
-	mental_pom=pd.merge_asof(ispom, mental, left_on='date', right_on='datetime', direction='forward', tolerance=pd.Timedelta('1d'))
-	mental_pom=mental_pom[mental_pom['productivity'].notna()]
-	with_pom=mental_pom[mental_pom['ispomodoro']==1]
-	no_pom=mental_pom[mental_pom['ispomodoro']==0]
-	pom_ds=(with_pom[['productivity', 'creativity', 'sublen']].describe().loc['mean',:]-no_pom[['productivity', 'creativity', 'sublen']].describe().loc['mean',:])/mental_pom[['productivity', 'creativity', 'sublen']].describe().loc['std', :]
-	pom_d_sigmas=with_pom[['productivity', 'creativity', 'sublen']].describe().loc['std',:]-no_pom[['productivity', 'creativity', 'sublen']].describe().loc['std',:]
+	res=analyze(datasets)
 
 And the results are:
 
-	>>> pom_ds
-	productivity    0.259951
-	creativity     -0.041504
-	sublen         -0.147437
-	dtype: float64
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(with_pom['productivity'], no_pom['productivity']))
-	6.225107192981073
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(with_pom['creativity'], no_pom['creativity']))
-	0.5830070557412034
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(with_pom['sublen'], no_pom['sublen']))
-	3.3290003000536625
+	>>> res
+	    absorption  mindfulness  productivity  creativity     sublen       happy     content     relaxed       horny  ease  factor  ivl  time
+	d          NaN          NaN      0.259951   -0.041504  -0.147437   -0.073699   -0.132798   -0.038319   -0.144040   NaN     NaN  NaN   NaN
+	λ          NaN          NaN      6.225107    0.583007   3.329000    0.318865    1.078502    1.232905    7.756272   NaN     NaN  NaN   NaN
+	p          NaN          NaN      0.069062    0.918520   0.368416    0.959552    0.827240    0.795999    0.022903   NaN     NaN  NaN   NaN
+	dσ         NaN          NaN     -0.050269    0.013871   0.033902    0.007177    0.047723   -0.252365    0.744675   NaN     NaN  NaN   NaN
+	k          NaN          NaN     52.000000   52.000000  52.000000  111.000000  111.000000  111.000000  111.000000   NaN     NaN  NaN   NaN
 
-So the pomodoro method somewhat increases productivity (at medium
+I didn't meditate or do flashcards during that time, so most of the
+results don't contain any content.
+
+So the pomodoro method somewhat increases productivity (at the edge of
 statistical significance), and *maybe* decreases subjective length of
 the day a bit.
 

@@ -121,7 +121,7 @@ def plot_datasets(datasets, title):
 		('meditations', 'absorption', 'absorption', 'datetime'),
 		('mental', 'productivity', 'productivity', 'datetime'),
 		('mental', 'creativity', 'creativity', 'datetime'),
-#		('mental', 'subjective length', 'sublen', 'datetime'),
+		('mental', 'subjective length', 'sublen', 'datetime'),
 		('mood', 'happiness', 'happy', 'datetime'),
 		('mood', 'contentment', 'content', 'datetime'),
 		('mood', 'relaxation', 'relaxed', 'datetime'),
@@ -132,42 +132,58 @@ def plot_datasets(datasets, title):
 		('flashcards', 'duration', 'time', 'datetime'),
 	]
 
-	n_data_pairs = len(data_pairs)
+	n_data_pairs = 0
 	n_plots_per_pair = 3
+
+	for i, (dataset_name, label, y_variable, x_variable) in enumerate(data_pairs):
+		if dataset_name not in datasets or \
+		   datasets[dataset_name]['all'].size == 0 or \
+		   datasets[dataset_name]['intervention'].size == 0 or \
+		   datasets[dataset_name]['control'].size == 0:
+			continue
+		n_data_pairs+=1
 
 	# Create a figure with a grid of subplots
 	fig, axs = plt.subplots(n_data_pairs, n_plots_per_pair, figsize=(15, 4 * n_data_pairs))
 
-	for i, (dataset_name, label, y_variable, x_variable) in enumerate(data_pairs):
-		if dataset_name not in datasets:
+	j=0
+
+	for dataset_name, label, y_variable, x_variable in data_pairs:
+		if dataset_name not in datasets or \
+		   datasets[dataset_name]['all'].size == 0 or \
+		   datasets[dataset_name]['intervention'].size == 0 or \
+		   datasets[dataset_name]['control'].size == 0:
 			continue
 
 		substance_data = datasets[dataset_name]['intervention']
 		placebo_data = datasets[dataset_name]['control']
 
+		print(dataset_name, label)
+
 		for subplot_index in range(0, 2):
-			axs[i, subplot_index].xaxis.set_major_formatter(mdates.DateFormatter('%m-%d'))  # Change format to Month-Day
+			axs[j, subplot_index].xaxis.set_major_formatter(mdates.DateFormatter('%m-%d'))  # Change format to Month-Day
 
 		# Scatter plot
-		sns.scatterplot(ax=axs[i, 0], x=x_variable, y=y_variable, data=substance_data, color='blue', label='Substance')
-		sns.scatterplot(ax=axs[i, 0], x=x_variable, y=y_variable, data=placebo_data, color='red', label='Placebo')
-		axs[i, 0].set_title(f'Scatter Plot of {label}')
-		axs[i, 0].set_xlabel(x_variable)
-		axs[i, 0].set_ylabel(y_variable)
+		sns.scatterplot(ax=axs[j, 0], x=x_variable, y=y_variable, data=substance_data, color='blue', label='Intervention')
+		sns.scatterplot(ax=axs[j, 0], x=x_variable, y=y_variable, data=placebo_data, color='red', label='Placebo')
+		axs[j, 0].set_title(f'Scatter Plot of {label}')
+		axs[j, 0].set_xlabel(x_variable)
+		axs[j, 0].set_ylabel(y_variable)
 
 		# Line plot
-		sns.lineplot(ax=axs[i, 1], x=x_variable, y=y_variable, data=substance_data, color='blue', label='Substance')
-		sns.lineplot(ax=axs[i, 1], x=x_variable, y=y_variable, data=placebo_data, color='red', label='Placebo')
-		axs[i, 1].set_title(f'Line Plot of {label}')
-		axs[i, 1].set_xlabel(x_variable)
-		axs[i, 1].set_ylabel(y_variable)
+		sns.lineplot(ax=axs[j, 1], x=x_variable, y=y_variable, data=substance_data, color='blue', label='Intervention')
+		sns.lineplot(ax=axs[j, 1], x=x_variable, y=y_variable, data=placebo_data, color='red', label='Placebo')
+		axs[j, 1].set_title(f'Line Plot of {label}')
+		axs[j, 1].set_xlabel(x_variable)
+		axs[j, 1].set_ylabel(y_variable)
 
 		# Histogram
-		sns.histplot(ax=axs[i, 2], data=substance_data, x=y_variable, color='blue', label='Substance', kde=True, alpha=0.6)
-		sns.histplot(ax=axs[i, 2], data=placebo_data, x=y_variable, color='red', label='Placebo', kde=True, alpha=0.6)
-		axs[i, 2].set_title(f'Histogram of {label}')
-		axs[i, 2].set_xlabel(y_variable)
-		axs[i, 2].set_ylabel('Frequency')
+		sns.histplot(ax=axs[j, 2], data=substance_data, x=y_variable, color='blue', label='Intervention', kde=True, alpha=0.6)
+		sns.histplot(ax=axs[j, 2], data=placebo_data, x=y_variable, color='red', label='Placebo', kde=True, alpha=0.6)
+		axs[j, 2].set_title(f'Histogram of {label}')
+		axs[j, 2].set_xlabel(y_variable)
+		axs[j, 2].set_ylabel('Frequency')
+		j+=1
 
 	plt.tight_layout()
 
@@ -182,21 +198,17 @@ def get_datasets(experiment, substance, placebo):
 
 	def experiment_fn(df):
 		if 'meditation_start' in df.columns:
-			df['meditation_start'] = pd.to_datetime(df['meditation_start'], utc=True)
 			df = df.sort_values('meditation_start')
 			df = pd.merge_asof(expa, df, left_on='datetime', right_on='meditation_start', direction='forward')
 			df = df.rename(columns={'mindfulness_rating': 'mindfulness', 'concentration_rating': 'absorption'})
 		elif 'alarm' in df.columns:
-			df['alarm'] = pd.to_datetime(df['alarm'], utc=True)
 			df = expa.join(df, how='cross')
 			df = df.loc[(df['alarm'] - df['datetime'] < pd.Timedelta('10h')) & (df['alarm'] - df['datetime'] > pd.Timedelta('0h'))]
 			df = df.loc[df['relaxed'].notna()]
 		elif 'productivity' in df.columns:
-			df['datetime'] = pd.to_datetime(df['datetime'], utc=True)
 			df = df.sort_values('datetime')
 			df = pd.merge_asof(expa, df, left_on='datetime', right_on='datetime', direction='forward')
 		elif 'id' in df.columns:
-			df['id'] = pd.to_datetime(df['id'], unit='ms', utc=True)
 			df = df.loc[(df['id'] > expa['datetime'].min()) & (df['id'] < expa['datetime'].max() + pd.Timedelta('10h'))]
 			df = expa.join(df, how='cross', rsuffix='r')
 			df = df.loc[(df['idr'] - df['datetime'] < pd.Timedelta('10h')) & (df['idr'] - df['datetime'] > pd.Timedelta('0h'))]
@@ -211,9 +223,40 @@ def get_datasets(experiment, substance, placebo):
 
 	return get_datasets_fn(experiment_fn, control_fn, intervention_fn)
 
-def analyze_substance(experiment, substance, placebo):
-	datasets=get_datasets(experiment, substance, placebo)
+def get_datasets_pom():
+	# Load substances data
+	ispom=get_ispom()
 
+	def experiment_fn(df):
+		if 'meditation_start' in df.columns:
+			df = df.sort_values('meditation_start')
+			df = pd.merge_asof(ispom, df, left_on='date', right_on='meditation_start', direction='forward', tolerance=pd.Timedelta('10h'))
+			df = df.rename(columns={'mindfulness_rating': 'mindfulness', 'concentration_rating': 'absorption', 'date': 'datetime'})
+			df=df[df['_id'].notna()]
+		elif 'alarm' in df.columns:
+			df = ispom.join(df, how='cross', rsuffix='_r')
+			df = df.loc[(df['alarm'] - df['date'] < pd.Timedelta('20h')) & (df['alarm'] - df['date'] > pd.Timedelta('0h'))]
+			df = df.loc[df['relaxed'].notna()]
+			df = df.rename(columns={'date': 'datetime'})
+		elif 'productivity' in df.columns:
+			df = df.sort_values('datetime')
+			df = pd.merge_asof(ispom, df, left_on='date', right_on='datetime', direction='forward', tolerance=pd.Timedelta('24h'))
+		elif 'id' in df.columns:
+			df = df.loc[(df['id'] > ispom['date'].min()) & (df['id'] < ispom['date'].max() + pd.Timedelta('10h'))]
+			df = ispom.join(df, how='cross')
+			df = df.loc[(df['id'] - df['date'] < pd.Timedelta('10h')) & (df['id'] - df['date'] > pd.Timedelta('0h'))]
+			df.loc[df['ivl'] > 0, 'ivl'] = -df.loc[df['ivl'] > 0, 'ivl'] / 86400
+		return df
+
+	def control_fn(df):
+		return df[df['ispomodoro'] == 0]
+
+	def intervention_fn(df):
+		return df[df['ispomodoro'] == 1]
+
+	return get_datasets_fn(experiment_fn, control_fn, intervention_fn)
+
+def analyze(datasets):
 	result = pd.DataFrame(index=['d', 'λ', 'p', 'dσ', 'k'])
 
 	# Define the correct column order
