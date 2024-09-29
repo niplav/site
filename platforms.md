@@ -10,7 +10,9 @@ experiments (the best one, and a random one), mostly for the effects
 of various [nootropics](https://en.wikipedia.org/wiki/Nootropics)
 on absorption in meditation. After one experiment, the [log
 score](https://en.wikipedia.org/wiki/Proper_scoring_rule#Logarithmic_score)
-of the market is -0.326 — pretty good.__
+of the market [is -0.326](#Scoring_the_Market) — pretty good. This
+gains us [0.202 bits](#0202_Bits_of_Evidence_In_Favor_of_Futarchy)
+of evidence in favor of the accuracy of the markets.__
 
 Using Prediction Platforms to Select Quantified Self Experiments
 =================================================================
@@ -269,6 +271,8 @@ So the pomodoro method somewhat increases productivity (at the edge of
 statistical significance), and *maybe* decreases subjective length of
 the day a bit.
 
+### Scoring the Market
+
 I can now score the market:
 
 	def logscore(o,p):
@@ -280,14 +284,55 @@ I can now score the market:
 
 Honestly: The market did pretty well.
 
-0.744 Bits of Evidence for Futarchy
-------------------------------------
+0.202 Bits of Evidence In Favor of Futarchy
+--------------------------------------------
+
+So, [I put up some prediction markets on the results of quantified
+self RCTs](./platforms.html#Table_of_Current_Market_Status). I [ran
+one of the experiments](./platforms.html#Pomodoros), and [scored one
+market](./platforms.html#Scoring_the_Market) on the results.
+
+How much should the performance of the market change our opinion about
+the viability of using prediction platforms to predict RCTs, and thus be
+plausibly useful in selecting experiments to run and actions to perform?
+
+We can define the maximum entropy distribution
+(our prior on how good [causal Futarchy markets should
+be](https://dynomight.net/prediction-market-causation/)) over possible
+log scores as having the mean of the log score of random forecasts,
+namely -0.6931…
 
 The [maximum entropy
 distribution](https://en.wikipedia.org/wiki/Maximum_entropy_distribution)
 for a given mean on the positive
 [reals](https://en.wikipedia.org/wiki/Real_Numbers) is the [exponential
 distribution](https://en.wikipedia.org/wiki/Exponential_distribution).
+
+The exponential distribution is defined by one parameter, which is
+`$\lambda=\frac{1}{μ}$` (the mean of the distribution), in this case
+`$\lambda=\frac{1}{0.6931} \approx 1.4427$` (for convenience flipping
+the distribution to be defined over positive reals). The logscore
+observed for the Pomodoro method market was 0.3258, so the posterior
+distribution is `$\text{Exponential}(λ + 1/x)$`: `$λ_{n} = 1.4427 +
+1/0.326 ≈ 4.5102$`.
+
+To calculate the bits of evidence we got from
+running the market, we calculate the [information
+gain](https://en.wikipedia.org/wiki/Information_gain), the bits of
+evidence are calculated by log₂(posterior odds / prior odds).
+
+For continuous distributions, we use probability densities, for the
+exponential distribution:
+
+<div>
+	$$\log_2 \frac{(4.5102 \cdot \exp(-4.5102 \cdot 0.326))}{(1.4427 \cdot \exp(-1.4427 \cdot 0.326))} ≈ \\
+	\log_2(1.0367 / 0.9014) ≈ \\
+	0.20176$$
+</div>
+
+I don't really have a comparison point which to compare this result to,
+but ≈0.2 bits of evidence seems fairly small to me. I guess I'll have
+to run some more experiments for further evidence.
 
 Acknowledgements
 -----------------
@@ -301,6 +346,9 @@ used to subsidize the markets. Also many thanks to the manifold admin
 with M̶450.
 
 Your funding of the sciences is greatly appreciated.
+
+My gratitude also goes out to all the traders on the markets. You help
+me prioritize, you help us gain knowledge.
 
 See Also
 ---------

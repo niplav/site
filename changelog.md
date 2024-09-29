@@ -27,6 +27,9 @@ September 2024
 --------------
 
 * [How Often Does Taking Away Options Help?](./options.html)
+* [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
+	* [Pomodoro Method Experiment Results](./platforms.html#Pomodoros)
+	* [0.202 Bits of Evidence for Futarchy](./platforms.html#0202_Bits_of_Evidence_In_Favor_of_Futarchy)
 * [A Better Way To Negotiate Salaries](./services.html#Rates)
 * [Resolving von Neumann-Morgenstern Inconsistent Preferences](./resolving.html): First publishable version
 
