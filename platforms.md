@@ -257,15 +257,14 @@ Let's proceed to the analysis, then (using the same methodology as for my
 And the results are:
 
 	>>> res
-	    absorption  mindfulness  productivity  creativity     sublen       happy     content     relaxed       horny  ease  factor  ivl  time
-	d          NaN          NaN      0.259951   -0.041504  -0.147437   -0.073699   -0.132798   -0.038319   -0.144040   NaN     NaN  NaN   NaN
-	λ          NaN          NaN      6.225107    0.583007   3.329000    0.318865    1.078502    1.232905    7.756272   NaN     NaN  NaN   NaN
-	p          NaN          NaN      0.069062    0.918520   0.368416    0.959552    0.827240    0.795999    0.022903   NaN     NaN  NaN   NaN
-	dσ         NaN          NaN     -0.050269    0.013871   0.033902    0.007177    0.047723   -0.252365    0.744675   NaN     NaN  NaN   NaN
-	k          NaN          NaN     52.000000   52.000000  52.000000  111.000000  111.000000  111.000000  111.000000   NaN     NaN  NaN   NaN
+	    productivity  creativity     sublen       happy     content     relaxed       horny
+	d       0.259951   -0.041504  -0.147437   -0.073699   -0.132798   -0.038319   -0.144040
+	λ       6.225107    0.583007   3.329000    0.318865    1.078502    1.232905    7.756272
+	p       0.069062    0.918520   0.368416    0.959552    0.827240    0.795999    0.022903
+	dσ     -0.050269    0.013871   0.033902    0.007177    0.047723   -0.252365    0.744675
+	k      52.000000   52.000000  52.000000  111.000000  111.000000  111.000000  111.000000
 
-I didn't meditate or do flashcards during that time, so most of the
-results don't contain any content.
+I didn't meditate or do flashcards during that time.
 
 So the pomodoro method somewhat increases productivity (at the edge of
 statistical significance), and *maybe* decreases subjective length of
