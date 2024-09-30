@@ -1783,7 +1783,7 @@ Research Consultants List
 * [Alok Singh](https://alok.github.io/about/) (≥\$300/hr)
 * [Elizabeth van Nostrand](https://acesounderglass.com/hire-me/) (≥\$300/hr)
 * [milky eggs](http://milkyeggs.com/about/), (no hourly rate given)
-* [Niplav](./services.html) (\\$20 for impactful or interesting projects, \\$35 for work with a public result, \\$50 otherwise)
+* [Niplav](./services.html) (rates decided by two-sided sealed-bid auction, more details [here](./services.html#Rates))
 * [Nuño Sempere](https://nunosempere.com/consulting/) (~\$250/hr, at marginally decreasing price)
 * [Roko Mijic](https://www.lesswrong.com/posts/bMxhrrkJdEormCcLt/brute-force-manufactured-consensus-is-hiding-the-crime-of?commentId=tjt7GbC2fsw2dtNGF) (\$200/hr)
 * [Sarah Constantin](https://www.sarah-constantin.org/consulting) (no hourly rate given)

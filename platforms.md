@@ -268,7 +268,8 @@ I didn't meditate or do flashcards during that time.
 
 So the pomodoro method somewhat increases productivity (at the edge of
 statistical significance), and *maybe* decreases subjective length of
-the day a bit.
+the day a bit. It also increases horniness a little bit, which I find
+pretty funny[^2].
 
 ### Scoring the Market
 
@@ -458,3 +459,4 @@ See also:
 * [O'Hara et al. 2010](./meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf)
 
 [^1]: I find it odd to call any platform on which people functionally give probabilities, but without staking real money, "prediction markets". Neither [Metaculus](https://www.metaculus.com/) not [Manifold Markets](https://manifold.markets/) [are prediction markets](https://metaculus.medium.com/why-i-reject-the-comparison-of-metaculus-to-prediction-markets-4175553bcbb8), but [PredictIt](https://www.predictit.org/) and [Kalshi](https://kalshi.com/) are.
+[^2]: p<0.05, after all. (Don't pay any attention to the [Bonferroni correction](https://en.wikipedia.org/wiki/Bonferroni_correction) lurking over there, it's not important.)

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2024-09-01, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2024-09-30, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -40,9 +40,9 @@ September 2024
 * [Myerson–Satterthwaite theorem](https://en.wikipedia.org/wiki/Myerson-Satterthwaite_theorem): Unsubsidized price-finding can usually not be strategy-free.
 * [The Intelligence of African Hunters, and the Ignorance of Popular Hereditarians (William Buckner, 2022)](https://traditionsofconflict.substack.com/p/the-intelligence-of-african-hunters): This post made me (somewhat) change my mind, as someone who's been pretty hereditarian.
 * [How to Use the Doxy Magic Wand (Andy Wells, 2020)](https://killyourinnerloser.com/magic-wand-sfw/): I can attest that vibrators are consumer surplus (I've used a different one from the one in the post). They make for great birthday presents: in a previous relationship buying a wall-plug vibrator (not the one in the post) was a good sexualized gift and worth the money in hedons. See also [TheRedQuest, 2019](https://theredquest.wordpress.com/2019/03/13/tell-your-girl-to-use-a-vibrator-during-sex-and-other-bedroom-tips/).
-* [Unsynthesizable oscillator 1 (LifeWiki, 2024)](https://conwaylife.com/wiki/Unsynthesizable_oscillator_1): An oscillator in [Conway's Game of Life](https://en.wikipedia.org/wiki/Conways_Game_of_Life) that can't be constructed, similar to the [Garden of Eden](https://en.wikipedia.org/wiki/Garden_of_Eden_\(cellular_automata\)).
+* [Unsynthesizable oscillator 1 (LifeWiki, 2024)](https://conwaylife.com/wiki/Unsynthesizable_oscillator_1): An oscillator in [Conway's Game of Life](https://en.wikipedia.org/wiki/Conways_Game_of_Life) that can't be constructed, similar to the [Garden of Eden](https://en.wikipedia.org/wiki/Garden_of_Eden_\(cellular_automata\)). I can't help but wonder whether our physical laws allow for a Garden of Eden or an unsynthesizable oscillator—objects that, if we encountered them, must have been around since the beginning of time. Encountering them would be evidence for the universe having been created by a mind, unless our physical laws indicate that they are common. One thing that still confuses me a bit is that Game of Life is [Turing-complete](https://en.wikipedia.org/wiki/Turing-completeness), so one *should* be able to create a pattern that is isomorphic to the unsynthesizable oscillator, similar to [life in life](https://oimo.io/works/life/).
 
-![](./img/changelog/unsynthesizable.png)<!--TODO: change to a gif-->
+![](./img/changelog/unsynthesizable.gif)
 
 August 2024
 ------------
