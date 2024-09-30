@@ -319,6 +319,8 @@ Moved [here](./bandit.html).
 If You Want To Fuck Hot Chicks, You Have To Approach Them
 ----------------------------------------------------------
 
+The muscles you don't train don't grow.
+
 Iron law.
 
 Meditation Improves Vibe, Which Improves Everything Else

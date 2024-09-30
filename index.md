@@ -102,8 +102,8 @@ Von dem Sichgeistigen des Lebens Jahre zählen.
 #### Quantified Self
 
 * [Nootropics](./nootropics.html)
-* [Types & Methods of Data Collection I Use](./data.html)
 * [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
+* [Types & Methods of Data Collection I Use](./data.html)
 * [Does Recent Masturbation Decrease Meditation Quality?](./quality.html)
 
 #### Practical
@@ -163,7 +163,7 @@ one moment or forget it!
 * [Two People on a Planet](./two_people_on_a_planet.html)
 * [Progress in Qualia](./qualia.html)
 * [Life Advice](./life_advice.html)
-* [If I Were An Eccentric Trillionaire](./eccentric.html)
+* [If I Was An Eccentric Trillionaire](./eccentric.html)
 * [High Status Eschews Quantification of Performance](./eschews.html)
 * [Notes](./notes.html)
 
