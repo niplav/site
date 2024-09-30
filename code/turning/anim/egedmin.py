@@ -1,49 +1,114 @@
 from manim import *
 
-class ResolvingInconsistentPreferences(Scene):
-	def construct(self):
-		# Create initial inconsistent graph
-		vertices = {"A": [-1, 1, 0], "B": [1, 1, 0], "C": [0, -1, 0]}
-		edges = [("A", "B"), ("B", "C"), ("C", "A")]
-		g = DiGraph(vertices, edges, layout="spring", layout_scale=3,
-				  vertex_config={"radius": 0.3},
-				  edge_config={"tip_length": 0.2})
+class PreferenceTransformation(Scene):
+    def construct(self):
+        self.camera.background_color = WHITE
 
-		self.play(Create(g))
-		self.wait(1)
+        def create_graph(visible_edges, position, scale=1, layout='tree'):
+            # Determine vertical position based on outgoing edges
+            out_edges = {v: sum(1 for e in visible_edges if e[0] == v) for v in 'abc'}
+            sorted_vertices = sorted(out_edges.items(), key=lambda x: x[1], reverse=True)
+            vertices = {
+                v: np.array([
+                    (1 if i == 1 else -1 if i == 2 else 0) * scale,
+                    (1-i) * scale,
+                    0
+                ]) for i, (v, _) in enumerate(sorted_vertices)
+            }
 
-		self.play(g.animate.set_fill(RED), run_time=1)
-		self.wait(1)
+            # Create all possible edges
+            all_possible_edges = [("a", "b"), ("b", "c"), ("c", "a")]
+            edge_config = {}
+            for edge in all_possible_edges:
+                if edge in visible_edges:
+                    edge_config[edge] = {"color": BLACK, "stroke_width": 2 * scale}
+                else:
+                    edge_config[edge] = {"color": WHITE, "stroke_opacity": 0}  # Completely invisible
 
-		# Show possible resolutions
-		res1 = Graph(vertices, [("A", "B"), ("B", "C"), ("A", "C")], layout="spring", layout_scale=3,
-					 vertex_config={"radius": 0.3},
-					 edge_config={"tip_length": 0.2}).shift(LEFT * 3)
-		res2 = Graph(vertices, [("B", "A"), ("A", "C"), ("B", "C")], layout="spring", layout_scale=3,
-					 vertex_config={"radius": 0.3},
-					 edge_config={"tip_length": 0.2}).shift(RIGHT * 3)
+            print(edge_config)
 
-		self.play(
-			Transform(g, res1),
-			FadeIn(res2),
-		)
-		self.wait(1)
+            g = DiGraph(vertices, all_possible_edges, layout="spring", layout_scale=2*scale,
+                        vertex_config={"color": BLACK, "radius": 0.15*scale, "fill_opacity": 1},
+                        edge_config=edge_config)
 
-		# Highlight the differences
-		removed_edge1 = Line(res1.vertices["C"].get_center(), res1.vertices["A"].get_center()).set_color(RED)
-		added_edge1 = Arrow(res1.vertices["A"].get_center(), res1.vertices["C"].get_center(), buff=0.3).set_color(GREEN)
+            # Adjust arrowhead size
+            for edge in g.edges.values():
+                edge.tip.scale(0.5 * scale)
 
-		removed_edge2 = Line(res2.vertices["A"].get_center(), res2.vertices["B"].get_center()).set_color(RED)
-		added_edge2 = Arrow(res2.vertices["B"].get_center(), res2.vertices["A"].get_center(), buff=0.3).set_color(GREEN)
+            g.move_to(position)
 
-		self.play(
-			Create(removed_edge1),
-			Create(added_edge1),
-			Create(removed_edge2),
-			Create(added_edge2)
-		)
-		self.wait(2)
+            # Add node labels with increased size
+            labels = VGroup(*[Text(v, color=BLACK, font_size=24*scale).next_to(g.vertices[v], UP*0.1)
+                              for v in vertices])
 
-		self.play(
-			*[FadeOut(mob) for mob in self.mobjects]
-		)
+            return VGroup(g, labels)
+
+        # Create the initial cyclic graph (larger)
+        initial_graph = create_graph([("a", "b"), ("b", "c"), ("c", "a")], LEFT * 3, 1.2, layout='circular')
+
+        # Create the three acyclic graphs (smaller)
+        scale_factor = 0.5
+        acyclic1 = create_graph([("a", "b"), ("b", "c")], RIGHT * 3 + UP * 2, scale_factor, layout='tree')
+        acyclic2 = create_graph([("b", "c"), ("c", "a")], RIGHT * 3, scale_factor, layout='tree')
+        acyclic3 = create_graph([("c", "a"), ("a", "b")], RIGHT * 3 + DOWN * 2, scale_factor, layout='tree')
+
+        # Display the initial graph
+        self.play(Create(initial_graph))
+        self.wait(1)
+
+        # Transform to the acyclic graphs
+        self.play(Transform(initial_graph.copy(), acyclic1))
+        self.wait(1)
+        self.play(Transform(initial_graph.copy(), acyclic2))
+        self.wait(1)
+        self.play(Transform(initial_graph.copy(), acyclic3))
+        self.wait(1)
+
+        # Fade out all objects
+        self.play(*[FadeOut(mob) for mob in self.mobjects])
+
+class PreferenceTransformationFade(Scene):
+    def construct(self):
+        self.camera.background_color = WHITE
+
+        def create_graph(edges, position, scale=1):
+            vertices = {"a": [-1, 1, 0], "b": [1, 1, 0], "c": [0, -1, 0]}
+            g = DiGraph(vertices, edges, layout="spring", layout_scale=2*scale,
+                        vertex_config={"color": BLACK, "radius": 0.15*scale, "fill_opacity": 1},
+                        edge_config={"color": BLACK, "stroke_width": 2 * scale})
+
+            # Adjust arrowhead size
+            for edge in g.edges.values():
+                edge.tip.scale(0.5 * scale)
+
+            g.move_to(position)
+
+            # Add node labels
+            labels = VGroup(*[Text(v, color=BLACK, font_size=24*scale).next_to(g.vertices[v], UP*0.1)
+                              for v in vertices])
+
+            return VGroup(g, labels)
+
+        # Create the initial cyclic graph (larger)
+        initial_graph = create_graph([("a", "b"), ("b", "c"), ("c", "a")], LEFT * 3, 1.2)
+
+        # Create the three acyclic graphs (smaller)
+        scale_factor = 0.5
+        acyclic1 = create_graph([("a", "b"), ("b", "c")], RIGHT * 3 + UP * 2, scale_factor)
+        acyclic2 = create_graph([("b", "c"), ("c", "a")], RIGHT * 3, scale_factor)
+        acyclic3 = create_graph([("c", "a"), ("a", "b")], RIGHT * 3 + DOWN * 2, scale_factor)
+
+        # Display the initial graph
+        self.play(Create(initial_graph))
+        self.wait(1)
+
+        # Fade out initial graph and fade in acyclic graphs
+        self.play(
+            FadeIn(acyclic1),
+            FadeIn(acyclic2),
+            FadeIn(acyclic3)
+        )
+        self.wait(2)
+
+        # Fade out all objects
+        self.play(*[FadeOut(mob) for mob in self.mobjects])
