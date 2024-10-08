@@ -325,3 +325,6 @@ Iron law.
 
 Meditation Improves Vibe, Which Improves Everything Else
 ---------------------------------------------------------
+
+Eyesight as a Neglected Factor in Daygame
+------------------------------------------

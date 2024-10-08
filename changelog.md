@@ -44,6 +44,17 @@ September 2024
 
 ![](./img/changelog/unsynthesizable.gif)
 
+------
+
+I’ve also been experimenting around with letting Claude 3.5
+Sonnet generate the code for [manim](https://www.manim.community/)
+animations. Verdict so far: Sonnet is really good at it if
+you give it detailed instructions how you want it to look
+like, and are willing to delve into the code, but manim's
+[graph](https://en.wikipedia.org/wiki/Graph_\(mathematics\))-handling
+abilities are pretty buggy. Still a 5× reduction in effort to create
+(small) animations.
+
 August 2024
 ------------
 

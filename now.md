@@ -33,7 +33,8 @@ Data Collection
 ----------------
 
 At the moment I'm not collecting much data beyond [what I usually
-gather](./data.md).
+gather](./data.md), and running one RCT on Vitamin-D₃ and one RCT on
+[lumenators](https://arbital.com/p/lumenators/).
 
 Programming
 -----------
@@ -50,12 +51,10 @@ Reading
 
 Currently, I am actively reading the following texts:
 
+* [Grand Futures (Anders Sandberg, 2023)](https://www.goodreads.com/book/show/42275384-grand-futures)
 * [Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)](https://statisticswithjulia.org/)
 * [Designing Data-Intensive Applications (Martin Kleppmann, 2017)](https://dataintensive.net/)
-* [Daygame Nitro (Nick Krauser, 2014)](https://www.goodreads.com/book/show/166195305-daygame-nitro)
-* [Death By A Thousand Sluts Part Two: How To Almost Not Fail At Pickup](https://www.goodreads.com/book/show/40035106-death-by-a-thousand-sluts-part-two)
 * [Coming to Wholeness (Connirae Andreas, 2018)](https://www.goodreads.com/book/show/42348332-coming-to-wholeness)
-* [Bombay. Maximum City (Suketu Mehta, 2005)](https://www.goodreads.com/book/show/4364.Maximum_City)
+* ML for the Working Programmer (Lawrence C. Paulson, 1996)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
-* [Grand Futures (Anders Sandberg, 2023)](https://www.goodreads.com/book/show/42275384-grand-futures)
 * The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 4/1000.
