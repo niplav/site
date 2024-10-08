@@ -1130,7 +1130,7 @@ Pet Peeves
 	* No longer a pet peeve: Until recently, it was basically impossible to backup Google authenticator.
 * The words "World GDP".
 * People using √ as a checkmark.
-* 1€ coins are smaller than 50 ct. coins.
+* 1€ coins are smaller than 50 ct. coins, and 10ct coins are smaller then 5ct coins.
 * Browsers splitting words at a newline on an ﬀ or ﬅ ligature:
 
 ![Text: "paranoia is a profession. And so LeAIthan represents the most advanced ef[line split on ligature here]fort yet in AI alignment, using *factored* cognition—splitting up into a"](./img/pet_peeves/ff_split.png "Image of text: “paranoia is a profession. And so LeAIthan represents the most advanced ef[line split on ligature here]fort yet in AI alignment, using *factored* cognition—splitting up into a”")

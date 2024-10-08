@@ -811,3 +811,21 @@ feeling more confident, while others theorize that rebooters simply
 notice more signals than they did when they were obsessed with porn.
 
 *— [NoFap.com](https://nofap.com/), [“Rebooting from Porn Addiction”](https://nofap.com/rebooting/), 2017*
+
+Similarly, [pickup artists](https://en.wikipedia.org/wiki/Pickup_Artist)
+also recommend abstinence from masturbation:
+
+> Many people stress the importance of reducing (or eliminating)
+masturbation. I can't stress it enough. […]  
+The immediate and intrinsic increase in your sexual motivation that
+comes from not “shooting the sherriff” has been well documented,
+so let me colour it with an anecdote of my own meandering experience
+with not wanking, and the massive benefits that ensued. […]  
+Deep down I felt so much more masculine. My eye contact was the strongest
+it's ever been, my conversation flowed effortlessly. I was in the
+testosterone zone where my first instinct was the right instinct. […]  
+So, the conclusion? Save your seed. Use it more constructively, and
+you'll find your interactions flow more effortlessly and your general
+feeling of being a man increases.
+
+*—Anecdote by Sam Django in Nick Krauser's “Daygame Nitro”, 2014*

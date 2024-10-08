@@ -11,4 +11,4 @@
 !header.html
 __pycache__
 code/turning/*.csv
-code/turning/anim/media
+anim/*/media
