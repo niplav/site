@@ -595,8 +595,6 @@ either be willing to sell the rights to me for ~\\$50mio., or unwilling
 to sell the rights to anyone, which would be just as good.<!--TODO:
 email him & ask!-->
 
-* __Build beautiful geometric objects__
-	* The platonic solids in physical form, similar to tungsten cubes, but of varying size & material (from a steel icosahedron with a few centimetres vertex length to a granite cube or obsidian dodecahedron twenty metres at each side)—the stuff that would make future people say "they considered themselves a powerful culture"
 * __Languishing drafts podcast__
 
 Science
@@ -710,6 +708,13 @@ keas](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-
 	* This one's pretty ethically questionable
 	* Replicate the work at the [semalab](https://semalab.arizona.edu/) that uses ultrasound brain stimulation for meditation enhancement.
 * __[Send helpful messages to the future](https://sideways-view.com/2018/06/07/messages-to-the-future/)__: Estimated at \$10 mio.
+
+Infrastructure
+---------------
+
+* __[Atlantropa](https://en.wikipedia.org/wiki/Atlantropa_project) [Gibraltar](https://en.wikipedia.org/wiki/Strait_of_Gibraltar) dom__
+* __Build beautiful geometric objects__
+	* The platonic solids in physical form, similar to tungsten cubes, but of varying size & material (from a steel icosahedron with a few centimetres vertex length to a granite cube or obsidian dodecahedron twenty metres at each side)—the stuff that would make future people say "they considered themselves a powerful culture"
 
 Metascience
 ------------

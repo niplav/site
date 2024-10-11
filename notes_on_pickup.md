@@ -316,6 +316,35 @@ Using Multi-Armed Bandits to Select Daygame Locations
 
 Moved [here](./bandit.html).
 
+Eyesight as a Neglected Factor in Daygame
+------------------------------------------
+
+While out with a wing on a recent daygame session (as one does), I
+stupidly lamented the fact that my eyesight had gotten worse again and
+my contact lenses weren't up to the task—he also has bad eyesight and
+isn't doing anything during sessions to improve it.
+
+This is pretty relevant in daygame: You want to be approaching women
+you actually find attractive, and be able to pick up on quite subtle
+indicators of interest from far away—for both of these things good eyesight
+is very relevant.
+
+If I have to go off proxies for facial attractiveness from far away,
+I sometimes miss, and the result is that I approach a woman and after
+stopping her decide that I don't actually like her (often because she's
+older than I thought). A waste of time, and I often exit the set with
+a compliment on her style, which is sometimes taken with gratitude and
+sometimes taken with faint indignation. Those approaches don't move me
+closer to my goal (sleeping with hot women) and often do take mental
+effort to overcome approach anxiety, so I'd rather not do them.
+
+So, on top of everything else, having good eyesight is a relevant factor
+in daygame, and it's worth investing some money into correcting this.
+
+(I've since made an appointment to get new contact lenses. My wing hasn't
+undertaken any steps to fix his eyesight; oh well.)
+
+<!--
 If You Want To Fuck Hot Chicks, You Have To Approach Them
 ----------------------------------------------------------
 
@@ -325,6 +354,4 @@ Iron law.
 
 Meditation Improves Vibe, Which Improves Everything Else
 ---------------------------------------------------------
-
-Eyesight as a Neglected Factor in Daygame
-------------------------------------------
+-->
