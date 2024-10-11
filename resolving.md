@@ -2559,20 +2559,22 @@ be helpful for further progress. Inspiration could be found
 in models of human decision making from mathematical psychology,
 such as the Priority Heuristic and the Random Utility Model from [Gamal
 2013](./doc/psychology/on_the_structural_consistency_of_preferences_el_gamal_2013.pdf)
-and the BEAST model [@erev2017anomalies], as well as alternatives
-to the utility framework from decision theory, such as risk-weighted
-utility maximization or the Jeffrey-Bolker axioms [@buchak2013risk],
-[@jeffrey2004subjective].
+and the BEAST model [Erev et
+al. 2017](https://pubmed.ncbi.nlm.nih.gov/28277716/), as well as
+alternatives to the utility framework from decision theory, such
+as risk-weighted utility maximization or the Jeffrey-Bolker axioms
+[Buchak 2013](http://www.larabuchak.net/risk-and-rationality), [Jeffrey
+2004](https://www.fitelson.org/probability/jeffrey_subjective_probability_the_real_thing.pdf).
 
 The problem of ontological crises appears under-researched. As
 a first step, BisimulateShift could be extended to
 [POMDPs](https://en.wikipedia.org/wiki/Partially-observable_Markov_decision_process),
 but finding out how real-world systems change their internal
-representations during learning could be valuable, with Nanda et
-al. being a fascinating analysis of the toy case of modular addition
-in neural networks [@nanda2023progress]. This question could also
-be interesting for social scientists (discovering how humans manage
-ontological crises in practice) and philosophers.
+representations during learning could be valuable, with Nanda et al. being
+a fascinating analysis of the toy case of modular addition in neural
+networks [Nandal et al. 2023](https://arxiv.org/pdf/2301.05217). This
+question could also be interesting for social scientists (discovering
+how humans manage ontological crises in practice) and philosophers.
 
 We would also like to see further exploration of value-learning [Dewey
 2011](./doc/cs/ai/alignment/value_learning/learning_what_to_value_dewey_2010.pdf)
