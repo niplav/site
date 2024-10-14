@@ -521,6 +521,9 @@ Words
 * "conjectile"
 * "licerology": the study of betting and auctions, auction theory
 * "autolykophilia": furrydom
+* "kurtentropy" (like varentropy, just for the fourth [moment](https://en.wikipedia.org/wiki/Moment_\(statistics\)))
+* "gradientspawn"
+* "moleFLOP"
 
 #### Switcheroos
 
@@ -534,25 +537,7 @@ Words
 
 ### Otherwise Nice
 
-* English
-	* "corrigibility"
-	* "antisemanticity"
-	* "crestfallen"
-	* "moleFLOP"
-	* "gradientspawn"
-* German
-	* "bewahren"
-	* "Kabeljau"
-	* "Sollbruchstelle"
-	* "Ablaufdatum"
-	* "Geizkragen"
-	* "pervers"
-	* "etwas auf Vordermann bringen"
-	* "mit Hängen und Würgen"
-	* "hanebüchen"
-	* "Verdauungsspaziergang"
-	* "[Erbfeindschaft](https://en.wikipedia.org/wiki/Erbfeindschaft)"
-	* "[Blockwart](https://en.wikipedia.org/wiki/Blockwart)"
+Moved [here](./language.html#Great_Words).
 
 Funny Internet Images
 ----------------------
