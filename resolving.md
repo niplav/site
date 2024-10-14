@@ -1,25 +1,25 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-15, modified: 2024-09-22, language: english, status: in progress, importance: 8, confidence: highly likely*
+*author: niplav, created: 2023-04-15, modified: 2024-10-15, language: english, status: in progress, importance: 8, confidence: highly likely*
 
-> __We consider the problem of resolving preferences
+> __I consider the problem of resolving preferences
 that are inconsistent under the [von Neumann-Morgenstern
 axioms](https://en.wikipedia.org/wiki/Von_Neumann-Morgenstern_axioms)
 into consistent preferences. For preferences over deterministic
-options, we model inconsistent preferences as [directed
+options, I model inconsistent preferences as [directed
 graphs](https://en.wikipedia.org/wiki/Directed_Graph),
 and the resolution as selecting acyclic
 [tournaments](https://en.wikipedia.org/wiki/Tournament_\(graph_theory\))
 with the same vertices and minimal [graph-edit
 distance](https://en.wikipedia.org/wiki/Graph_edit_distance),
-or Hodge decomposition. For preferences over lotteries, we offer
+or Hodge decomposition. For preferences over lotteries, I offer
 two different methods for modeling inconsistence and one method
 for resolving them: as edge-weighted [weakly connected directed
 graphs](https://en.wikipedia.org/wiki/Weakly-connected_digraph)
 (resolution via Hodge decomposition) and as arbitrary
 [relations](https://en.wikipedia.org/wiki/Relation_\(mathematics\)) over
-lotteries. None of those two representations prove to be satisfactory. We
+lotteries. None of those two representations prove to be satisfactory. I
 apply the findings to propose an algorithm for changing a [utility
 function](https://en.wikipedia.org/wiki/Utility#Utility_function) as
 the underlying set of objects changes.__
@@ -59,25 +59,33 @@ that correspond to the their loss or reward function [Hubinger
 2019](./doc/cs/ai/alignment/risks_from_learned_optimization_hubinger_2019.pdf).
 
 This tension between the normative theory of rational agency and the
-observations we can make about intelligent systems in the real world
+observations I can make about intelligent systems in the real world
 provides a stark contrast and brings up the question of how one could
 modify the preferences of intelligent systems to be more consistent.
 
 ### Motivation
 
-We claim the project of finding procedures for modifying preferences to
+The intuitive case for focusing on resolving inconsistent preferences
+is that __given we find a normative ideal for rationality__, real-life
+systems will probably not perfectly conform to that ideal. So we'll have
+an ideal and we have the real-life situation—it is natural to ask how
+to get from here to there.
+
+I claim the project of finding procedures for modifying preferences to
 make them consistent is interesting and important for several different
 reasons:
 
 -   **Learning the preferences of weaker incoherent
-    systems** [Dewey 2010](./doc/cs/ai/alignment/value_learning/learning_what_to_value_dewey_2010.pdf): Assuming that one system `$S_1$` wants
-    to learn the preferences of a less coherent system `$S_2$`, `$S_1$`
-    might want to "correct" inconsistent preferences learned from `$S_2$`
-    to avoid being exploitable via Dutch books. For example, an AI
-    assistant trying to learn and then fulfill the preferences of a
-    gambling-addicted human could notice that the human has a cyclic
-    preference which results in them being predictably losing money at
-    the casino, even though they otherwise care about money.
+    systems** [Dewey
+    2010](./doc/cs/ai/alignment/value_learning/learning_what_to_value_dewey_2010.pdf):
+    Assuming that one system `$S_1$` wants to learn the preferences of
+    a less coherent system `$S_2$`, `$S_1$` might want to "correct"
+    inconsistent preferences learned from `$S_2$` to avoid being
+    exploitable via Dutch books. For example, an AI assistant trying to
+    learn and then fulfill the preferences of a gambling-addicted human
+    could notice that the human has a cyclic preference which results
+    in them being predictably losing money at the casino, even though
+    they otherwise care about money.
 -   **Managing ontological crises**: If a system defines its preferences
     using a world model, but this world model changes, those preferences
     might now be inconsistent. Such situations would benefit from a
@@ -100,51 +108,61 @@ reasons:
         Neumann-Morgenstern axioms, to avoid wasting resources and
         making it easier to reason about their own future behavior.
 
+#### Why vNM?
+
+The von Neumann-Morgenstern axiom has been
+[critized](https://www.lesswrong.com/posts/NxF5G6CJiof6cemTw) and
+[defended](https://www.lesswrong.com/posts/DkcdXsP56g9kXyBdq/coherence-arguments-imply-a-force-for-goal-directed-behavior)
+as being the true theory of rationality. I don't have a very strong
+position on this, and use vNM because it's the current "state of the
+art" in decision theory—it seems plausible to me that vNM will
+be superseded by some theory that is "better" along the relevant
+dimensions<sub>57%</sub>. I hope that in that case the lessons learned
+from resolving vNM-inconsistent preferences transfer over somewhat.
+
 ### Structure of the Text
 
 This text starts by explaining the von Neumann-Morgenstern axioms and
 various theorems relating the axioms to concepts such as Dutch books and
 Pareto improvements. There is a well-developed literature discussing the
-relevance of these axioms, and we conclude that these axioms are worth
-taking as a standard for rational agency. We also observe that humans do
-not satisfy those axioms.
+relevance of these axioms, and I tentatively conclude that these axioms
+are worth taking as a standard for rational agency. I also observe that
+humans do not satisfy those axioms.
 
-We then examine the literature on inconsistent preferences, finding
+I then examine the literature on inconsistent preferences, finding
 investigations from economics on time-inconsistent preferences and some
 scattered attempts in the non-academic literature, but no satisfactory
 investigations into the topic that cover all possible violations of the
 von Neumann-Morgenstern axioms.
 
-We then proceed to analyse the problem of resolving inconsistent
+I then proceed to analyse the problem of resolving inconsistent
 preferences in two cases:
 
--   Deterministic case: We propose the set of all directed graphs as a
+-   Deterministic case: I propose the set of all directed graphs as a
     mathematical structure that can represent inconsistent preferences
-    over non-lottery options. We propose three algorithms for resolving
+    over non-lottery options. I propose three algorithms for resolving
     inconsistent preferences of this type, prove two of the algorithms
     as being functionally equivalent, and analyse the algorithms in
     terms of computational complexity and five other criteria.
--   Lottery case: We propose two different mathematical structures for
+-   Lottery case: I propose two different mathematical structures for
     representing potentially inconsistent preferences over lotteries:
-    Edge-weighted weakly connected directed graphs and arbitrary
-    relations over lotteries. We propose Hodge decomposition as an
-    efficient method for resolving inconsistencies in the first case,
-    but find that edge-weighted weakly connected directed graphs are
-    insufficient for representing common inconsistencies found in
-    reported human preferences. We then note that arbitrary relations
-    over lotteries are able to represent those inconsistencies, but we
-    are unable to find an algorithm for resolving inconsistencies in
-    that format.
+    Edge-weighted weakly connected directed graphs and arbitrary relations
+    over lotteries. I propose Hodge decomposition as an efficient method
+    for resolving inconsistencies in the first case, but find that
+    edge-weighted weakly connected directed graphs are insufficient
+    for representing common inconsistencies found in reported human
+    preferences. I then note that arbitrary relations over lotteries are
+    able to represent those inconsistencies, but I'm unable to find an
+    algorithm for resolving inconsistencies in that format.
 
-We finally speculate about one application of the methods for resolving
+I finally speculate about one application of the methods for resolving
 incoherence: Incorporating changes in the world model into preferences
 defined over that world model.
 
 ## Related Work
 
 As far as our literature review has revealed, the academic literature
-has no investigation into the specific question we are attempting to
-answer.
+has no investigation into the specific question I'm attempting to answer.
 
 ##### Modeling Inconsistent Preferences
 
@@ -2592,6 +2610,21 @@ Alexander Gietelink-Oldenziel for the hours of talking about decomposing
 irrational preferences into rational ones. I also want to thank Felix
 Harder for help with the impossibility result, and Filip Sondej for his
 surprising ideas in the lottery case.
+
+Appendix A: Hints in Prior Texts
+---------------------------------
+
+> Starting from a state of arbitrary incoherence and moving iteratively
+in one of many pro-coherence directions produced by whatever whacky
+mind you currently have isn’t obviously guaranteed to increasingly
+approximate maximization of some sensical utility function. For instance,
+take an entity with a cycle of preferences, apples > bananas = oranges >
+pears > apples. The entity notices that it sometimes treats oranges as
+better than pears and sometimes worse. It tries to correct by adjusting
+the value of oranges to be the same as pears. The new utility function
+is exactly as incoherent as the old one.
+
+*—Katja Grace, [“Counterarguments to the basic AI x-risk case”](https://www.lesswrong.com/posts/LDRQ5Zfqwi8GjzPYG/counterarguments-to-the-basic-ai-x-risk-case), 2022*
 
 [^1]: The notation for lotteries is common in social choice theory
     [Gaertner 2009, ch.

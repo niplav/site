@@ -1,11 +1,14 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2024-05-04, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2024-10-15, language: multiple, status: in progress, importance: 1, confidence: other*
 
-> __This page is a grab-bag of puns, good bandnames, types of guy,
-idioms, linguistic prescriptivism, umeshisms, nominative determinisms,
-daygame openers, asymmetries in language…__
+> __This page is a grab-bag of [puns](#Puns), [good
+bandnames](#Good_Bandnames), [types of guy](#Types_of_Guy), idioms,
+[linguistic prescriptivism](#Better_Names_for_Things),
+[umeshisms](#Umeshisms), [nominative
+determinisms](#Nominative_Determinisms), [daygame openers](#Openers),
+[asymmetries in language](#Asymmetries_in_Languages)…__
 
 Playing With Language
 ======================
@@ -317,12 +320,6 @@ In the Water Supply
 
 * Working hours are not about work, they're about class warfare.
 
-New Abbreviations
-------------------
-
-* DSOTM: Doesn't seem obvious to me
-* MFTOE: My favourite theory of ethics
-
 Puns
 -----
 
@@ -445,6 +442,7 @@ We can test whether such words exist via gensim word2vec embeddings:
 
 * "doch"
 * "Feierabend"
+* "Pech" ("misfortune" doesn't cut it, sorry)
 
 2×2s, 2×3s and more
 --------------------
@@ -466,7 +464,25 @@ Great Words
 ------------
 
 * "__tjimaruwentakaruwala__": A song "sung specifically to threaten a man who did not fulfill the terms of a marriage exchange", in which two men promised to marry each other's sisters or daughters, from the [Tiwi people](https://en.wikipedia.org/wiki/Tiwi_people).
-* "[__hlonipha__](https://en.wikipedia.org/wiki/Avoidance_speech)": "A system of ritual avoidance observed as a mark of respect especially by Xhosa and Zulu wives towards their male relatives by marriage". ([Source](https://dsae.co.za/entry/hlonipha/e03037))
+* "[__ukuhlonipha__](https://en.wikipedia.org/wiki/Avoidance_speech)": "A system of ritual avoidance observed as a mark of respect especially by Xhosa and Zulu wives towards their male relatives by marriage". ([Source](https://dsae.co.za/entry/hlonipha/e03037))
+* English
+	* "corrigibility"
+	* "antisemanticity"
+	* "crestfallen"
+* German
+	* "bewahren"
+	* "Kabeljau"
+	* "Sollbruchstelle"
+	* "Ablaufdatum"
+	* "Geizkragen"
+	* "pervers"
+	* "etwas auf Vordermann bringen"
+	* "mit Hängen und Würgen"
+	* "hanebüchen"
+	* "Verdauungsspaziergang"
+	* "[Erbfeindschaft](https://en.wikipedia.org/wiki/Erbfeindschaft)"
+	* "[Blockwart](https://en.wikipedia.org/wiki/Blockwart)"
+	* "[Reinheitsgebot](https://en.wikipedia.org/wiki/Reinheitsgebot)"
 
 <!--TODO: Aboriginals used the word "ooga" (staring eyes) for [australite](https://en.wikipedia.org/wiki/Australite) in ceremonies-->
 
@@ -491,6 +507,11 @@ Better Words
 * [exval](https://en.wikipedia.org/wiki/Expected_value): 3 syllables saved compared to "expected value"
 * [ifef](https://en.wikipedia.org/wiki/If_and_only_if): 3 syllables saved over "if and only if", and [others agree](https://www.lesswrong.com/posts/JuLJbayPQDhZuPXHa/if-and-only-if-should-be-spelled-ifeff)
 * [mece](https://en.wikipedia.org/wiki/MECE_principle)<!--TODO: IPA-->: 12 syllables saved over "[mutually exclusive](https://en.wikipedia.org/wiki/Mutual_exclusivity) and [collectively exhaustive](https://en.wikipedia.org/wiki/Collectively_exhaustive_events)"
+
+#### Initialisms
+
+* DSOTM: Doesn't seem obvious to me
+* MFTOE: My favourite theory of ethics
 
 Good Bandnames
 ---------------

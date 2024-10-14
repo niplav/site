@@ -712,9 +712,9 @@ keas](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-
 Infrastructure
 ---------------
 
-* __[Atlantropa](https://en.wikipedia.org/wiki/Atlantropa_project) [Gibraltar](https://en.wikipedia.org/wiki/Strait_of_Gibraltar) dom__
 * __Build beautiful geometric objects__
 	* The platonic solids in physical form, similar to tungsten cubes, but of varying size & material (from a steel icosahedron with a few centimetres vertex length to a granite cube or obsidian dodecahedron twenty metres at each side)—the stuff that would make future people say "they considered themselves a powerful culture"
+* __[Atlantropa](https://en.wikipedia.org/wiki/Atlantropa_project) [Gibraltar](https://en.wikipedia.org/wiki/Strait_of_Gibraltar) dam__
 
 Metascience
 ------------

@@ -159,7 +159,7 @@ The notation proposed here would change the text:
 * Given hedonism and conditional on sentience, we think that all the invertebrates of interest have welfare ranges within two orders of magnitude of the vertebrate nonhuman animals of interest<sub>60%</sub>. Invertebrates are so diverse a
 nd we know so little about them; hence, our caution.
 
-### Sharing Likelihood Ratios, not Probabilities
+### “Share Likelihood Ratios, not Probabilities”
 
 > "Likelihood ratios are good! Likelihood ratios are the only good thing!"  
 "I agree that likelihood ratios are good! In fact, I think we have a

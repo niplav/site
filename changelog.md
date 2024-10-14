@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2024-09-30, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2024-10-15, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -22,6 +22,27 @@ Monthly updates are sent out [via substack](https://niplav.substack.com/),
 the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
+
+October 2024
+-------------
+
+* [Notes on Pickup](./notes_on_pickup.html):
+	* [Eyesight as a Neglected Factor in Daygame](./notes_on_pickup.html#Eyesight_as_a_Neglected_Factor_in_Daygame)
+	* [Meditation Improves Vibe, Which Improves Everything Else](./notes_on_pickup.html#Meditation_Improves_Vibe_Which_Improves_Everything_Else)
+	* [The Red Quest: An Anthology](./notes_on_pickup.html#The_Red_Quest_An_Anthology)
+
+### Links
+
+* [Coalition-proof Nash equilibrium (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Coalition-proof_Nash_equilibrium): This month I got a bit interested in coalition-proof [mechanism design](https://en.wikipedia.org/wiki/Mechanism_Design); that is mechanisms that are robust to groups of participants with communication abilities. Skimming [this paper](https://www.jstor.org/stable/2297048) tells me that coalition-resistant [incentive-compatible](https://en.wikipedia.org/wiki/Incentive-compatible) mechanism can exist. Thus, if we want to implement incentive-compatible mechanisms in the real world we might require something like notaries to oversee the process.
+	* However, what about the case where [geometrically-rational](https://www.lesswrong.com/s/4hmf7rdfuXDJkxhfg/p/Xht9swezkGZLAxBrd) agents [neatly compose into super-agents](https://www.lesswrong.com/posts/o3RLHYviTE4zMb9T9/tyranny-of-the-epistemic-majority): Can we get Nash equilibria (?) and equivalents to coalition-resistant incentive-compatible mechanisms in that case[^1]?
+* [Taboo on the dead (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Taboo_on_the_dead): "In some cultures, the taboo extends to the use of the deceased's given name in any context, even when referring to other people, places, objects and concepts with a similar name. This can have a long-term impact on the language, as words similar to those of the deceased are progressively replaced with synonyms or loanwords. Linguist Bob Dixon considered that this would have resulted in such significant vocabulary replacement over time as to hinder application of the comparative method in linguistics"
+	* Also [Avoidance speech (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Avoidance_speech): "Avoidance speech is a group of sociolinguistic phenomena in which a special restricted speech style must be used in the presence of or in reference to certain relatives […] Ukuhlonipha is a traditional system of avoidance speech in Nguni Bantu languages of southern Africa including Zulu, Xhosa and Swazi, as well as Sotho. This special speech style and correlating respectful behaviors may be used in many contexts, but is most strongly associated with married women in respect to their father-in-law and other senior male relatives. Women who practice ukuhlonipha may not say the names of these men or any words with the same root as their names."
+* [DARPA AlphaDogFight (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/DARPA_AlphaDogfight); [USAF Test Pilot School and DARPA announce breakthrough in aerospace machine learning (Chase Kohler, 2024)](https://www.afrl.af.mil/News/Article-Display/Article/3745032/usaf-test-pilot-school-and-darpa-announce-breakthrough-in-aerospace-machine-lea/) (h/t [@lu_sichu](https://nitter.poast.org/lu_sichu/)): Automated dogfighting is happening, and will probably allow for more maneuverable fighter jet designs—not sure how this is going to interact with [increasingly droneified warfare](https://www.lesswrong.com/posts/oDXqwKzbACZf2qnKw/drone-wars-endgame).
+* [Unequal Inequality (Robin Hanson, 2007)](https://www.overcomingbias.com/p/unequal_inequalhtml)
+* [Catch and release women who want families (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/01/12/catch-and-release-women-who-want-families/)
+* [We Can Remember It For You Wholesale (John Bodi, 2015)](https://bodiblog.net/2015/08/11/we-can-remember-it-for-you-wholesale/)
+
+[^1]: The lack of incentive-compatible coalition-proof mechanisms feels related dysfunctions in systems of agents, e.g. corruption or cancer, but I'm having a hard time spelling out how exactly.
 
 September 2024
 --------------
