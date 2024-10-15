@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2023-03-23, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2024-10-16, language: english, status: in progress, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
 > [recommendations](https://usesthis.com/) by people who I respect,
@@ -26,8 +26,7 @@ Software
 * Browser: [firefox](https://www.mozilla.org/en-US/firefox/new/)
 * Editor: [vis](https://github.com/martanne/vis)
 * Calendar: [when](http://www.lightandmatter.com/when/when.html)
-* [Spaced repetition](https://en.wikipedia.org/wiki/Spaced_Repetition): [fulgurate](https://github.com/theq629/fulgurate), [Anki](https://apps.ankiweb.net/index.html)
-* [Internet relay chat](https://en.wikipedia.org/wiki/Internet_Relay_Chat): [ii](https://tools.suckless.org/ii/) with [lchat](https://github.com/younix/lchat)
+* [Spaced repetition](https://en.wikipedia.org/wiki/Spaced_Repetition): [Anki](https://apps.ankiweb.net/index.html)
 * Version control: [git](https://git-scm.com/)
 * Password manager: [spm](https://notabug.org/kl3/spm/)
 * Code search: [ag](https://geoff.greer.fm/ag/)
@@ -55,18 +54,21 @@ In rough order of proficiency.
 
 * [Ublock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 * [Leechblock](https://www.proginosko.com/leechblock/)
-* [NoScript](https://addons.mozilla.org/en-US/firefox/addon/noscript/)
 * [Reddit Enhancement Suite](https://redditenhancementsuite.com/)
 * [Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab)
-* [HTTPS Everywhere](https://www.eff.org/https-everywhere)
-* [Privacy Badger](https://privacybadger.org/)
+* [AlwaysKillSticky](https://addons.mozilla.org/en-US/firefox/addon/alwayskillsticky/)
+* [I don't care about cookies](https://www.i-dont-care-about-cookies.eu/)
+* Twitter
+	* [Better Twitter](https://addons.mozilla.org/en-US/firefox/addon/better-twitter-extension/)
+	* [Control Panel for Twitter](https://addons.mozilla.org/en-US/firefox/addon/control-panel-for-twitter/)
 
 ### Smartphone Apps
 
 * [Mood Patterns](https://www.moodpatterns.info)
-* [Medativo](https://play.google.com/store/apps/details?id=com.despdev.meditationapp&hl=en&gl=US)
-* [Tally Counter](https://play.google.com/store/apps/details?id=de.cliff.strichliste&hl=en&gl=us)
 * [Beeminder](https://play.google.com/store/apps/details?id=com.beeminder.beeminder&hl=en&gl=us)
+* Sensor Logger
+* one sec
+* Freedom
 
 ### Criteria
 

@@ -111,7 +111,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Bike Girl is finally over (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/04/01/bike-girl-is-finally-over/)
 * [Skin in the game, marriage, The Red Pill (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/03/30/skin-in-the-game-marriage-the-red-pill/)
 * [“I hate him:” Don’t get married unless you’re ready for hate (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/03/28/i-hate-him-dont-get-married-unless-youre-ready-for-hate/)
-* \* Towards shutdownable agents via stochastic choice (Ellitt Thornley/Alexander Roman/Christos Ziakas/Leyton Ho/Louis Thomson, 2024)
+* [|15 Towards shutdownable agents via stochastic choice (Ellitt Thornley/Alexander Roman/Christos Ziakas/Leyton Ho/Louis Thomson, 2024)](https://arxiv.org/abs/2407.00805)
 * [DARPA AlphaDogFight (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/DARPA_AlphaDogfight)
 * [We Can Remember It For You Wholesale (John Bodi, 2015)](https://bodiblog.net/2015/08/11/we-can-remember-it-for-you-wholesale/)
 * [Unifying Bargaining Notions (1/2) (Diffractor, 2022)](https://www.lesswrong.com/posts/rYDas2DDGGDRc8gGB/unifying-bargaining-notions-1-2)

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-06-15, modified: 2024-06-15, language: english, status: in progress, importance: 3, confidence: highly likely*
+*author: niplav, created: 2019-06-15, modified: 2024-10-16, language: english, status: in progress, importance: 3, confidence: highly likely*
 
 > __A description of this website and its author.__
 
@@ -550,7 +550,7 @@ I'm most happy with they/them.
 
 I have not made any self-hiding agreements with any entities.
 
-### Psychological Characteristica
+### Psychological Measurements
 
 My Big Five are:
 

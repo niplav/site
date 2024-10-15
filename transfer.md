@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-02-28, modified: 2024-04-21, language: english, status: in progress, importance: 6, confidence: certain*
+*author: niplav, created: 2024-02-28, modified: 2024-04-21, language: english, status: in progress, importance: 6, confidence: possible*
 
 > __I examine the literature on transfer learning in humans. [Far
 transfer](#Far_Transfer) is difficult to achieve, best

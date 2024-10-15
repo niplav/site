@@ -569,8 +569,10 @@ far, it seems especially useful to break me out of an akratic rut.
 Vitamin D₃
 -----------
 
-[Vitamin D₃](https://en.wikipedia.org/wiki/Vitamin_D3) just seems good
-in general.<!--TODO: COVID-19, longevity, examine, gwern others?-->
+[Vitamin D₃](https://en.wikipedia.org/wiki/Vitamin_D3) just seems
+good in general ([Wikipedia](https://en.wikipedia.org/wiki/Vitamin_D-3),
+[Examine](https://examine.com/supplements/vitamin-d/?show_conditions=false)).<!--TODO:
+COVID-19, longevity, gwern, others?-->
 
 ### Experiment C: Self-Blinded RCT
 

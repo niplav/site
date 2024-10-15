@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-07-06, modified: 2024-01-17, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2023-07-06, modified: 2024-10-15, language: english, status: notes, importance: 6, confidence: possible*
 
 > __Humans get around 80 years of life. How can that time be made to
 feel as long as possible?__
@@ -26,7 +26,7 @@ and [Ricón 2021](https://nintil.com/longevity).
 | Intervention | [Net present value](https://en.wikipedia.org/wiki/Net_Present_Value) | State of evidence | Papers | Notes |
 | ----------------------------- | -------------------------------------------------------------------- | -------------------------------- | -------| ----- |
 | Meditating 2.5 hours per day → Reduces sleep need | \$33k | Poor, a single case study (n=7), and anecdotal reports | [Kaul et al. 2010](./doc/meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf) | Can also confer [other benefits](https://en.wikipedia.org/wiki/Research_on_Meditation), but multiple hours of meditation per day [could be risky](https://harpers.org/archive/2021/04/lost-in-thought-psychological-risks-of-meditation/). | <!--TODO: maybe link MCTB here?-->
-| Taking melatonin → Reduces sleep need | \$7.5k | Data collected from two individuals (n=2) | [Gwern 2019](https://www.gwern.net/Melatonin#tempus-fugit), [Niplav 2024](./nootropics.html#Reducing_Sleep_Duration) | Low risk |
+| Taking melatonin → Reduces sleep need | \$2.6k | Data collected from two individuals (n=2), a meta-analysis | [Gwern 2019](https://www.gwern.net/Melatonin#tempus-fugit), [Niplav 2024](./nootropics.html#Reducing_Sleep_Duration), [Brzezinski et al. 2005](./img/increasing/melatonin_duration.png) | Low risk, but plausibly no effect (or increase of sleep duration) |
 
 Reducing Time Slept
 --------------------
@@ -46,7 +46,9 @@ The costs are more subtle: Some intervention we're considering might have
 negative side effects, either only on the hours gained or on all of the
 hours spent awake, or having an effect on expected lifespan.  So we have
 to decide how much we (e.g.) (dis)value spending an additional hour awake,
-but being 5% more dizzy during those 17 waking hours.
+but being 5% more dizzy during those 17 waking hours. Ideal interventions
+would just reduce sleep duration, while not impacting (or even improving)
+cognitive function, mood and physical appearance during waking hours.
 
 <!--https://www.healthline.com/health/how-to-sleep-8-hours-in-4-hours-->
 
@@ -59,32 +61,60 @@ but being 5% more dizzy during those 17 waking hours.
 hobbyist studies, but professional meta-analyses show slight increase
 in duration? Is it the overdosing of melatonin in nearly all settings?-->
 
-##### Gwern 2019
-
 [Gwern 2019](https://www.gwern.net/Melatonin#tempus-fugit):
 
-> My rule of thumb is melatonin subtracts an hour [of sleep
-time]. (I originally guessed at this value, but my Zeo
-sleep recordings seem to suggest the value is [more like 50
+> My rule of thumb is melatonin subtracts an hour. (I
+originally guessed at this value, but my Zeo sleep
+recordings seem to suggest the value is [more like 50
 minutes](https://www.gwern.net/Zeo.html#melatonin-analysis).) That is:
 if one slept for 7 hours, one awakes as refreshed as if one had slept
 for 8 hours etc. From comparing with others, I think I benefit more than
 around two-thirds of people.
-
-##### Niplav 2024
 
 I [analyze](./nootropics.html#Reducing_Sleep_Duration) my own data,
 and (weakly) conclude that melatonin reduces my sleep duration by ~25
 minutes, although I have not checked whether melatonin simply makes my
 body go into sleep debt which is then paid off the next night.
 
+But meta-analysis I've found claim that melatonin increases sleep duration
+by ~13 minutes:
+
+> Melatonin treatment significantly […] increased total sleep duration
+by 12.8 min (95% CI 2.9, 22.8). […]  
+Since 15 of the 17 studies enrolled healthy subjects or people with no
+relevant medical condition other than insomnia, the analysis was also
+done including only these 15 studies. […] sleep duration increased to
+13.7 min (95% CI (3.1, 24.3)).
+
+*—Brzezinski et al., [“Effects of exogenous melatonin on sleep: a meta-analysis”](./doc/increasing/sleep/melatonin/effects_of_exogenous_melatonin_on_sleep_a_meta_analysis_brzezinski_et_al_2005.pdf) p. 1, 2005*
+
+> ![](./img/increasing/melatonin_duration.png)
+
+*—Brzezinski et al., [“Effects of exogenous melatonin on sleep: a meta-analysis”](./doc/increasing/sleep/melatonin/effects_of_exogenous_melatonin_on_sleep_a_meta_analysis_brzezinski_et_al_2005.pdf) p. 5, 2005*
+
+What's going on here? It might be that the studies were done on insomniacs
+and not healthy people who want to decrease their sleep duration, or it
+might be that the dose was too high (i.e. >1mg), and thus increased sleep
+duration. The first one is unlikely: The studies with the highest amount
+of sleep increase (Attenburrow (96) and Hughes (97) were both on healthy
+individuals, and the two studies which showed a noticeable decrease in
+sleep duration were both on insomniacs (Dahlitz (91) and Shamir (00)
+(which was on *schizophrenic* insomniacs). The dose being too high seems
+more plausible, but I don't understand how they dealt with different
+doses (or whether they treated all doses as equal). Dahlitz (91) gave
+5mg of melatonin, Shamir (00) 2mg, while Attenburrow (96) and Hughes
+(97) gave mixed doses from 0.3mg to 1mg and 1mg to 40mg (!), respectively.
+
+I don't know what to conclude from this, except that it seems like I
+should run a self-blinded RCT on melatonin.
+
 ##### Cost-Benefit
 
-Assuming a (conservative) 15 minutes of sleep time saved, at a price of
-~4 cent per pill, assuming the benefit does not taper off, we get a net
+Tentatively assuming 5 minutes of sleep time saved, at a price of ~4
+cent per pill, assuming the benefit does not taper off, we get a net
 present value (over the next 40 years) of
 
-`$\sum_{i=0}^{40} \frac{365 \cdot (0.25 \text{hr} \cdot 5 \frac{\$}{\text{hr}})}{1.05^i} \approx \$7578$`.
+`$\sum_{i=0}^{40} \frac{365 \cdot (0.083 \text{hr} \cdot 5 \frac{\$}{\text{hr}})}{1.05^i} \approx \$2588$`.
 
 #### Orexin-A
 
@@ -326,6 +356,24 @@ and a [skeptical
 comment](https://forum.effectivealtruism.org/posts/nSwaDrHunt3ohh9Et/cause-area-short-sleeper-genes?commentId=GCQf5qjG4LyEdEJov)
 on the state of research on these genes.
 
+### Frustrations
+
+Here's a thing about sleep research: The Sleep Research Mafia has decided
+that no good thing can ever decrease sleep durations. Decreasing sleep
+duration is *bad*, it's __Lucifer__, it is the __*primordial evil*__
+plaguing this world. This is, of course, never said, but you can feel
+it pouring out of every page: People trying to decrease their sleep need
+with e.g. polyphasic sleep are subtly sneered at, every good thing gets
+reported as increasing sleep durations, and every bad thing gets reported
+as decreasing sleep duration (almost surely through the magic of the
+[file-drawer effect](https://en.wikipedia.org/wiki/File-drawer_effect)).
+No wonder nobody has yet done an Orexin-A trial! They're fundamentally
+uninterested about decreasing sleep durations.
+
+I don't trust this fucking field to honestly report on things they find
+to robustly decrease sleep need. My best hope is that there's some things
+that so reliably decrease sleep need that they're impossible to ignore.
+
 Slowing Down Subjective Experience of Time
 -------------------------------------------
 
@@ -344,9 +392,21 @@ Slowing Down Subjective Experience of Time
 Making Sleep More Lucid
 ------------------------
 
-### Dreams
+Sleep can be made more lucid in three different ways: Either by increasing
+the number of dreams experienced, or by increasing the subjective duration
+of each dream, or by making existing dreams more lucid (i.e. increasing
+the "amount of consciousness" present in each dream, so that the dream
+isn't just a haze over unawareness, but vivid and impressive).
 
-#### Lucid Dreaming
+### More Dreams
+
+### Longer Dreams
+
+##### Drugs
+
+* Galantamine (h/t [Chapin](http://nitter.poast.org/sashachapin/status/1743332700143174124))
+
+### Lucid Dreaming
 
 ##### Behavioral Interventions
 
@@ -356,7 +416,3 @@ lucid dreaming, neither self-assessed sleep quality, nor physiologically
 validated numbers of awakenings were.
 
 *–Gott et al., “Sleep fragmentation and lucid dreaming”, 2019*
-
-##### Drugs
-
-* Galantamine (h/t [Chapin](http://nitter.poast.org/sashachapin/status/1743332700143174124))

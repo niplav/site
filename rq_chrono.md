@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2024-07-21, modified: 2024-07-21, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2024-07-21, modified: 2024-10-15, language: english, status: in progress, importance: 3, confidence: log*
 
 > __The Red Quest taught me a lot.__
 
@@ -9,6 +9,9 @@ The Red Quest Posts Chronological Index
 =========================================
 
 This index currently lists 561 posts from 2017-04-28 until 2023-01-21.
+
+See also my little [anthology of his
+posts](./notes_on_pickup.html#The_Red_Quest_An_Anthology).
 
 Archives
 --------
