@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-07, modified: 2024-07-27, language: english, status: notes, importance: 5, confidence: likely*
+*author: niplav, created: 2023-04-07, modified: 2024-10-15, language: english, status: notes, importance: 5, confidence: likely*
 
 > __A collection of quotes and sources of various
 methods for generating valence through brain stimulation and
@@ -42,6 +42,17 @@ Companies:
 * https://alpha-stim.com/
 * [Who's Working on Ultrasound Neuromodulation? (Sarah Constantin, 2023)](https://sarahconstantin.substack.com/p/whos-working-on-ultrasound-neuromodulation)
 -->
+
+<!--
+Transcranial Direct-Current
+----------------------------
+
+Transcranial Magnetic
+----------------------
+-->
+
+Transcranial Ultrasound
+------------------------
 
 > The project follows standard neuroscience research protocols. In
 the lab, study subjects (novices as well as experienced meditators),
@@ -129,6 +140,9 @@ future-rather than past-focused
 Worry decreased, r(22)=.363, p=.097, depression scores didn't change
 r=-.237, p=.288.
 
+Direct Electrical
+------------------
+
 > We found a male predominance among the patients reporting pleasant
 sensations and a prominent role of the right cerebral hemisphere. Results
 show a preponderant role of the dorsal anterior insula and amygdala in
@@ -176,6 +190,9 @@ pole and the amygdala (P4) and a positive emotion and well-being by EBS
 in the AI and the amygdala (P8).
 
 *—Villard et al., [“The origin of pleasant sensations: Insight from direct electrical brain stimulation”](./doc/stimulation/the_origin_of_pleasant_sensations_villard_et_al_2023.pdf), 2023*
+
+Other
+------
 
 > Inducing signals directly into the brain reward systems
 is sometimes called “wireheading” (after the original deep

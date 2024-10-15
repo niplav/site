@@ -393,7 +393,7 @@ See Also
 
 ### The Red Quest: An Anthology
 
-* [The Red Quest](https://theredquest.substack.com/)'s many short and memorable blogposts. For basic game content, read Daygame Nitro<!--TODO: link-->, but Red Quest has a nice style and some interesting suggestions; Here's some of his best:
+* [The Red Quest](https://theredquest.substack.com/)'s many short and memorable blogposts. For basic game content, read Daygame Nitro<!--TODO: link-->, but Red Quest's writing has style and some interesting tidbits you don't get elsewhere. Here's some of his best posts:
 	* Practical Pickup
 		* [Basics like asking the girl out and escalation (2019)](https://theredquest.wordpress.com/2019/11/14/basics-like-asking-the-girl-out-and-escalation/)
 		* [Embrace the awkward (2017)](https://theredquest.wordpress.com/2017/05/22/embrace-the-awkward/index.html)
@@ -419,6 +419,8 @@ See Also
 			* [Tell your girl to use a vibrator during sex, and other bedroom tips and sex skills for guys (2019)](https://theredquest.wordpress.com/2019/03/13/tell-your-girl-to-use-a-vibrator-during-sex-and-other-bedroom-tips/)
 		* Food
 			* [Zero sugar will change your body and life (2017)](https://theredquest.wordpress.com/2017/06/15/zero-sugar-will-change-your-body-and-life/)
+		* Photography and Sex Tapes
+			* [Anyone doing any online dating needs to learn basic photography skills (2017)](https://theredquest.wordpress.com/2017/04/29/anyone-doing-any-online-dating-needs-to-learn-basic-photography-skills/index.html)
 		* [Don’t waste much time on video games (2017)](https://theredquest.wordpress.com/2017/05/23/dont-waste-much-time-on-video-games.html)
 	* Competition
 		* [Most guys don’t care much about getting laid, I hypothesize (2021)](https://theredquest.wordpress.com/2021/06/30/most-guys-dont-care-much-about-getting-laid-i-hypothesize/)
