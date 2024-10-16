@@ -284,8 +284,8 @@ I can now score the market:
 
 Honestly: The market did pretty well.
 
-0.202 Bits of Evidence In Favor of Futarchy
---------------------------------------------
+0.202 Bits of Evidence For Futarchy
+-------------------------------------
 
 So, [I put up some prediction markets on the results of quantified
 self RCTs](./platforms.html#Table_of_Current_Market_Status). I [ran
