@@ -388,10 +388,8 @@ The muscles you don't train don't grow.
 Iron law.
 -->
 
-See Also
----------
-
-### The Red Quest: An Anthology
+The Red Quest: An Anthology
+----------------------------
 
 * [The Red Quest](https://theredquest.substack.com/)'s many short and memorable blogposts. For basic game content, read Daygame Nitro<!--TODO: link-->, but Red Quest's writing has style and some interesting tidbits you don't get elsewhere. Here's some of his best posts:
 	* Practical Pickup

@@ -2109,6 +2109,8 @@ matrices](https://en.wikipedia.org/wiki/Right_stochastic_matrix)
 a real-numbered vector with size `$n$`, and `$I$` can be described as
 real-numbered vector of size `$n$` in which the elements sum to 1.
 
+<!--TODO: off-by-one error, the numbering doesn't start at zero in the sequence above-->
+
 <div>
 $$\mathbf{T}(a)=\begin{pmatrix}
 P(s_0 | a, s_0) & \cdots & P(s_0 | a, s_n) \cr
@@ -2590,7 +2592,7 @@ a first step, BisimulateShift could be extended to
 but finding out how real-world systems change their internal
 representations during learning could be valuable, with Nanda et al. being
 a fascinating analysis of the toy case of modular addition in neural
-networks [Nandal et al. 2023](https://arxiv.org/pdf/2301.05217). This
+networks [Nanda et al. 2023](https://arxiv.org/pdf/2301.05217). This
 question could also be interesting for social scientists (discovering
 how humans manage ontological crises in practice) and philosophers.
 
