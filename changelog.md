@@ -26,6 +26,7 @@ content.
 October 2024
 -------------
 
+* [Make ICBMs Abortable Mid-Flight](./nuclear.html#Make_ICBMs_Abortable_MidFlight)
 * [Notes on Pickup](./notes_on_pickup.html):
 	* [Eyesight as a Neglected Factor in Daygame](./notes_on_pickup.html#Eyesight_as_a_Neglected_Factor_in_Daygame)
 	* [Meditation Improves Vibe, Which Improves Everything Else](./notes_on_pickup.html#Meditation_Improves_Vibe_Which_Improves_Everything_Else)

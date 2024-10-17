@@ -133,6 +133,7 @@ one moment or forget it!
 
 *—[Sayyid Qutb ash-Shaheed](https://en.wikipedia.org/wiki/Sayyid_Qutb), [“The America I Have Seen”](https://en.wikipedia.org/wiki/The_America_I_Have_Seen) p. 16, 1951*
 
+* [On Daygame](./daygame.html)
 * [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
 * [Using A Multi-Armed Bandit to Select Daygame Locations](./bandit.html)
 * [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)

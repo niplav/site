@@ -51,6 +51,7 @@ HTML=index.html \
 	cryonics_outside_us.html \
 	cuboid.html \
 	data.html \
+	daygame.html \
 	daygame_cost_benefit.html \
 	declaration.html \
 	decompose.html \

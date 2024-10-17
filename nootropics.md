@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2024-09-29, language: english, status: maintenance, importance: 3, confidence: likely*
+*author: niplav, created: 2023-01-06, modified: 2024-10-17, language: english, status: maintenance, importance: 3, confidence: likely*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
 decided to log my nootropics usage and its effects.__
@@ -571,8 +571,10 @@ Vitamin D₃
 
 [Vitamin D₃](https://en.wikipedia.org/wiki/Vitamin_D3) just seems
 good in general ([Wikipedia](https://en.wikipedia.org/wiki/Vitamin_D-3),
-[Examine](https://examine.com/supplements/vitamin-d/?show_conditions=false)).<!--TODO:
-COVID-19, longevity, gwern, others?-->
+[Examine](https://examine.com/supplements/vitamin-d/?show_conditions=false),
+[Gwern](https://gwern.net/nootropic/nootropics#vitamin-d)) and potentially
+increases [longevity](https://gwern.net/longevity#vitamin-d).<!--TODO:
+COVID-19, others?-->
 
 ### Experiment C: Self-Blinded RCT
 
