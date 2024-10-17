@@ -824,9 +824,6 @@ Texts
 		* Towards the Best Programming Language for Universal Induction
 		* Bayesian Conspiracy episode where this is mentioned
 	* Deminatalist utilitarianism pitfalls
-	* Humans Are Not Turing Machines Because Nothing Is
-		* Apparently critrats believe this?
-		* We're finite state machines, I think
 	* The Monotonicity-Argument for Occam's Razor, and Its Inapplicability to Kolmogorov Complexity
 	* Which Coherence Axioms are Hard to Violate? Which Easy?
 	* Metrics for Goodhartability

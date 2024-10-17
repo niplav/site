@@ -271,7 +271,7 @@ want to work.
 
 Heuristic in favour: Shlegeris says so.
 
-Some Low-key Utopias
+Some Low-Key Utopias
 ---------------------
 
 ### A-Btopia
@@ -288,6 +288,11 @@ At least the regulation is not forever.
 
 Strength of regulation scales with organisational size. (Is this
 actually good?)
+
+### Subsidocracy
+
+[VCG](https://en.wikipedia.org/wiki/Vickrey-Clarke-Groves-Mechanism)
+all the things!
 
 ### Futarchy
 

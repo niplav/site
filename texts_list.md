@@ -34,7 +34,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Links #16 (Sam Harsimony, 2024)](https://splittinginfinity.substack.com/p/links-16)
 * [Fun Facts (Conor Barnes, 2023)](https://parhelia.conorbarnes.com/p/fun-facts)
 * [The Global Internet Is Being Attacked by Sharks, Google Confirms (Will Oremus, 2014)](https://slate.com/technology/2014/08/shark-attacks-threaten-google-s-undersea-internet-cables-video.html)
-* \* Positive impact of cyclic meditation on subsequent sleep (Sanjib Patra/Shirley Telles, 2009)
+* Positive impact of cyclic meditation on subsequent sleep (Sanjib Patra/Shirley Telles, 2009)
 * Effects of exogenous melatonin on sleep: a meta-analysis (Amnon Brzezinski/Mark G. Vangel/Richard J. Wurtman/Gillian Norrie/Irina Zhdanova/Abraham Ben-Shushan/Ian Ford, 2005)
 * \* Über die Ausgeglichenheit der Seele (Seneca/Heinz Gunermann, 1984)
 * \* De tranquillitate animi (Seneca, -60)

@@ -707,14 +707,14 @@ keas](https://www.lesswrong.com/posts/4zzd9euAykKATTpkh/could-we-breed-engineer-
 * __Better wireheading__: Achieving reversible (you can remove it and the rat feels/behaves as before) & non-adaptative (no hedonic adaptation happening) & non-addictive (isn't sought after when removed) & safe (doesn't have any serious health consequences) & ability-preserving (cognitive function isn't impaired, and ideally improved) & anti-slippery (when in the state the being doesn't seek more of it) long-term pleasure centric wireheading via extensive experiments on animals, either by direct brain stimulation or novel compounds.
 	* This one's pretty ethically questionable
 	* Replicate the work at the [semalab](https://semalab.arizona.edu/) that uses ultrasound brain stimulation for meditation enhancement.
-* __[Send helpful messages to the future](https://sideways-view.com/2018/06/07/messages-to-the-future/)__: Estimated at \$10 mio.
 
 Infrastructure
 ---------------
 
 * __Build beautiful geometric objects__
 	* The platonic solids in physical form, similar to tungsten cubes, but of varying size & material (from a steel icosahedron with a few centimetres vertex length to a granite cube or obsidian dodecahedron twenty metres at each side)—the stuff that would make future people say "they considered themselves a powerful culture"
-* __[Atlantropa](https://en.wikipedia.org/wiki/Atlantropa_project) [Gibraltar](https://en.wikipedia.org/wiki/Strait_of_Gibraltar) dam__
+* __[Atlantropa](https://en.wikipedia.org/wiki/Atlantropa_project) dam at the [Strait of Gibraltar](https://en.wikipedia.org/wiki/Strait_of_Gibraltar)__
+* __[Send helpful messages to the future](https://sideways-view.com/2018/06/07/messages-to-the-future/)__: Estimated at \$10 mio.
 
 Metascience
 ------------
