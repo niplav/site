@@ -156,7 +156,7 @@ like this:
 Make ICBMs Abortable Mid-Flight
 --------------------------------
 
-At the momemnt, ICBMs can't be stopped once they've been started.<!--TODO:
+At the moment, ICBMs can't be stopped once they've been started.<!--TODO:
 link-->
 
 This is suboptimal: Let's say India has (incorrectly) detected ICBMs

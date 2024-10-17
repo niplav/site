@@ -31,6 +31,7 @@ October 2024
 	* [Eyesight as a Neglected Factor in Daygame](./notes_on_pickup.html#Eyesight_as_a_Neglected_Factor_in_Daygame)
 	* [Meditation Improves Vibe, Which Improves Everything Else](./notes_on_pickup.html#Meditation_Improves_Vibe_Which_Improves_Everything_Else)
 	* [The Red Quest: An Anthology](./notes_on_pickup.html#The_Red_Quest_An_Anthology)
+* Review of [Daygame Nitro (Nick Krauser, 2014)](./text_reviews.html#Daygame_Nitro_Nick_Krauser_2014)
 
 ### Links
 

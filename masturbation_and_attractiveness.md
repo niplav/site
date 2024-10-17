@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2024-09-03, language: english, status: draft, importance: 2, confidence: likely*
+*author: niplav, created: 2019-08-03, modified: 2024-10-17, language: english, status: draft, importance: 2, confidence: likely*
 
 > __Members of the [NoFap community](https://en.wikipedia.org/wiki/NoFap)
 [frequently claim](#Appendix_C_Examples_for_the_Claim) that abstinence
@@ -77,7 +77,7 @@ self-experiment.
 Data was collected as follows:
 
 I abstained from masturbating and watching pornography from
-2024-10-11T18:39:38 to \_, resulting in >90 days of abstinence
+2024-10-17T23:54:00 to \_, resulting in >90 days of abstinence
 from masturbation (which is also the period [recommended by the
 NoFap community](https://nofap.com/rebooting/): "NoFap’s gold
 standard of success is our 90-day reboot.").<!--I had a [nocturnal
@@ -812,8 +812,9 @@ notice more signals than they did when they were obsessed with porn.
 
 *— [NoFap.com](https://nofap.com/), [“Rebooting from Porn Addiction”](https://nofap.com/rebooting/), 2017*
 
-Similarly, [pickup artists](https://en.wikipedia.org/wiki/Pickup_Artist)
-also recommend abstinence from masturbation:
+Similarly, some [pickup
+artists](https://en.wikipedia.org/wiki/Pickup_Artist) also recommend
+abstinence from masturbation:
 
 > Many people stress the importance of reducing (or eliminating)
 masturbation. I can't stress it enough. […]  

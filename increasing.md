@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-07-06, modified: 2024-10-15, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2023-07-06, modified: 2024-10-17, language: english, status: notes, importance: 6, confidence: possible*
 
 > __Humans get around 80 years of life. How can that time be made to
 feel as long as possible?__
@@ -23,9 +23,13 @@ medical interventions, or curing aging, for overview into that see [JackH
 2020](https://www.lesswrong.com/posts/RcifQCKkRc9XTjxC2/anti-aging-state-of-the-art)
 and [Ricón 2021](https://nintil.com/longevity).
 
+The net present value of each intervention below was calculated
+after usually <30 minutes of research, often using made-up numbers as
+input. Take it neither seriously nor literally.
+
 | Intervention | [Net present value](https://en.wikipedia.org/wiki/Net_Present_Value) | State of evidence | Papers | Notes |
 | ----------------------------- | -------------------------------------------------------------------- | -------------------------------- | -------| ----- |
-| Meditating 2.5 hours per day → Reduces sleep need | \$33k | Poor, a single case study (n=7), and anecdotal reports | [Kaul et al. 2010](./doc/meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf) | Can also confer [other benefits](https://en.wikipedia.org/wiki/Research_on_Meditation), but multiple hours of meditation per day [could be risky](https://harpers.org/archive/2021/04/lost-in-thought-psychological-risks-of-meditation/). | <!--TODO: maybe link MCTB here?-->
+| Meditating 2.5 hours per day → Reduces sleep need | \$33k | Poor, a single case study (n=7), and anecdotal reports; ~20 minutes of yoga [don't change sleep duration](#Patra__Telles_2009) | [Kaul et al. 2010](./doc/meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf), [Patra & Telles 2009](./doc/meditation/science/positive_impact_of_cyclic_meditation_on_subsequent_sleep_patra_telles_2009.pdf) | Can also confer [other benefits](https://en.wikipedia.org/wiki/Research_on_Meditation), but multiple hours of meditation per day [could be risky](https://harpers.org/archive/2021/04/lost-in-thought-psychological-risks-of-meditation/). | <!--TODO: maybe link MCTB here?-->
 | Taking melatonin → Reduces sleep need | \$2.6k | Data collected from two individuals (n=2), a meta-analysis | [Gwern 2019](https://www.gwern.net/Melatonin#tempus-fugit), [Niplav 2024](./nootropics.html#Reducing_Sleep_Duration), [Brzezinski et al. 2005](./img/increasing/melatonin_duration.png) | Low risk, but plausibly no effect (or increase of sleep duration) |
 
 Reducing Time Slept
@@ -86,11 +90,11 @@ relevant medical condition other than insomnia, the analysis was also
 done including only these 15 studies. […] sleep duration increased to
 13.7 min (95% CI (3.1, 24.3)).
 
-*—Brzezinski et al., [“Effects of exogenous melatonin on sleep: a meta-analysis”](./doc/increasing/sleep/melatonin/effects_of_exogenous_melatonin_on_sleep_a_meta_analysis_brzezinski_et_al_2005.pdf) p. 1, 2005*
+*—Brzezinski et al., [“Effects of exogenous melatonin on sleep: a meta-analysis”](./doc/sleep/melatonin/effects_of_exogenous_melatonin_on_sleep_a_meta_analysis_brzezinski_et_al_2005.pdf) p. 1, 2005*
 
 > ![](./img/increasing/melatonin_duration.png)
 
-*—Brzezinski et al., [“Effects of exogenous melatonin on sleep: a meta-analysis”](./doc/increasing/sleep/melatonin/effects_of_exogenous_melatonin_on_sleep_a_meta_analysis_brzezinski_et_al_2005.pdf) p. 5, 2005*
+*—Brzezinski et al., [“Effects of exogenous melatonin on sleep: a meta-analysis”](./doc/sleep/melatonin/effects_of_exogenous_melatonin_on_sleep_a_meta_analysis_brzezinski_et_al_2005.pdf) p. 5, 2005*
 
 What's going on here? It might be that the studies were done on insomniacs
 and not healthy people who want to decrease their sleep duration, or it
@@ -193,14 +197,39 @@ my case.
 
 *—Daniel Ingram, “Mastering the Core Teachings of the Buddha”, p. 470*
 
+#### Patra & Telles 2009
+
+[Patra & Telles
+2009](./doc/meditation/science/positive_impact_of_cyclic_meditation_on_subsequent_sleep_patra_telles_2009.pdf "Positive impact of cyclic meditation on subsequent sleep (Sanjib Patra/Shirley Telles, 2009)")
+test the effects of 22½ minutes of "cyclic meditation"
+(a type of yoga, together with lying in [supine
+position](https://en.wikipedia.org/wiki/Supine_position)) on sleep in a
+sample of n=30 men, and find no effect on sleep duration as recorded by
+a [polysomnograph](https://en.wikipedia.org/wiki/Polysomnograph)
+(352.77±41.35 minutes for yoga and 353.03±35.90
+minutes for supine rest), but more time spent in
+[REM](https://en.wikipedia.org/wiki/REM_Sleep) and [slow-wave
+sleep](https://en.wikipedia.org/wiki/Slow-Wave_Sleep). Participants in
+the intervention group *rated* their sleep as being longer.
+
+I think this study doesn't tell us very much: They use the
+term meditation, but are really making their participants do
+[asanas](https://en.wikipedia.org/wiki/Asana), and I'd guess that
+participants fall asleep while liying in supine position.
+
 #### Kaul et al. 2010
 
 [Kaul et al.
-2010](./doc/meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf)
+2010](./doc/meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf "Meditation acutely improves psychomotor vigilance, and may decrease sleep need (Bruce F. O'Hara/Craig R. Sargent/Jason Passafiume/Prashand Kaul, 2010)")
 find that long-term meditators sleep ~2.5h less at 2.3h meditation/day,
 which suggests that one can reap the benefits of meditation while also
 increasing the time spent lucid, if one values time in meditation half
-as much as other waking time at \$2.5/hr. This gives a [net present
+as much as other waking time.
+
+#### Cost-Benefit
+
+At \$2.5/hr (half the worth of other waking hours), saving two
+hours of sleep by meditating for two hours gives a [net present
 value](https://en.wikipedia.org/wiki/Net_Present_Value) over the next
 40 years of
 
@@ -255,7 +284,7 @@ sleep episodes, designed to achieve a total targeted sleep duration of
 sleep episodes after dusk, before dawn, and in the afternoon for a total
 of 4-5 h per 24 hours.
 
-*—Weaver et al., [“Adverse impact of polyphasic sleep patterns in humans: Report of the National Sleep Foundation sleep timing and variability consensus panel”](./doc/sleep/adverse_impact_of_polyphasic_sleep_patterns_in_humans_weaver_et_al_2021.pdf) p. 2, 2021*
+*—Weaver et al., [“Adverse impact of polyphasic sleep patterns in humans: Report of the National Sleep Foundation sleep timing and variability consensus panel”](./doc/sleep/polyphasic/adverse_impact_of_polyphasic_sleep_patterns_in_humans_weaver_et_al_2021.pdf) p. 2, 2021*
 
 Compared to a sleep time of 8 hours, the Uberman schedule saves 6 hours
 per night, the Everyman schedule saves 4 hours, and the triphasic sleep

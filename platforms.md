@@ -231,7 +231,7 @@ with.
 | Happiness            | -0.07 (λ≈0.32, p≈0.96, 0.01, 111) |
 | Contentment          | -0.13 (λ≈1.08, p≈0.83, 0.05, 111) |
 | Relaxation           | -0.04 (λ≈1.23, p≈0.8, -0.25, 111) |
-| Chastity             | -0.14 (λ≈7.76, p≈0.02, 0.74, 111) |
+| Horniness            | -0.14 (λ≈7.76, p≈0.02, 0.74, 111) |
 
 ![](./img/platforms/pomodoro_results.png)
 
@@ -268,7 +268,7 @@ I didn't meditate or do flashcards during that time.
 
 So the pomodoro method somewhat increases productivity (at the edge of
 statistical significance), and *maybe* decreases subjective length of
-the day a bit. It also increases horniness a little bit, which I find
+the day a bit. It also decreases horniness a little bit, which I find
 pretty funny[^2].
 
 ### Scoring the Market

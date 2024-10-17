@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-03-24, modified: 2024-06-21, language: english, status: maintenance, importance: 6, confidence: possible*
+*author: niplav, created: 2020-03-24, modified: 2024-10-17, language: english, status: maintenance, importance: 6, confidence: possible*
 
 > __This text looks at the accuracy of forecasts in
 relation to the time between forecast and resolution, and
@@ -14,8 +14,8 @@ and [Metaculus](https://www.metaculus.com/questions/), the answers turn
 out to be yes, unclear and yes for Metaculus data; and no, no and yes
 for PredictionBook data. Possible reasons are discussed. I also try to
 find out how far humans can look into the future, leading to various
-different results. I personally conclude that humans can look 5 years
-into the future, on average<sub>28%</sub>.__
+different results. I personally conclude that humans can on average look
+5 years into the future<sub>28%</sub>.__
 
 Range and Forecasting Accuracy
 ===============================

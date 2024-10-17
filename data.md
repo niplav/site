@@ -317,7 +317,7 @@ of not responding to questions, giving more conservative (closer to
 "Nothing" that means I carried on with my day as normal afterwards, if
 the activity is "Mindfulness" it means I spend a couple of seconds in
 a more mindful state)). Also, I use the "interested — uninterested"
-metric to track horniness.
+metric to track horniness (higher means hornier).
 
 ### Substances
 

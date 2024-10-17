@@ -49,7 +49,8 @@ Beginning"](https://entirelyuseless.com/2018/06/12/start-at-the-beginning/))
 and to structure it by topic and form, rather than to strive for
 presenting mainly new information to the reader.
 
-This is also why you might see [multiple](./preagents.html)
+<!--TODO: edit, this isn't true anymore!-->
+This is also why you might see [multiple](./tahafut.html)
 [skeletal](./increasing.html) [posts](./leave.html). I've thought about
 whether to keep these frames on the index, but decided in favour—it
 gives interested people something to hang onto, at my expense of looking
