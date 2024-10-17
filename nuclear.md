@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-01-30, modified: 2024-04-18, language: english, status: maintenance, importance: 8, confidence: certain*
+*author: niplav, created: 2024-01-30, modified: 2024-10-17, language: english, status: maintenance, importance: 8, confidence: certain*
 
 > __Testing nuclear weapons is actually good, because it removes
 incentives to build more & different weapons as a response to uncertainty
@@ -152,6 +152,38 @@ like this:
 		4. The type of weapon ([thermonuclear](https://en.wikipedia.org/wiki/Thermonuclear_Bomb), [fission weapons](https://en.wikipedia.org/wiki/Nuclear_weapon#Fission_weapons) or [others](https://en.wikipedia.org/wiki/Nuclear_weapon#Other_types)).
 3. Only one test a week is allowed.
 4. If one party of the treaty uses a test for a covert attack, all other parties of the treaty attack the perpetrator.
+
+Make ICBMs Abortable Mid-Flight
+--------------------------------
+
+At the momemnt, ICBMs can't be stopped once they've been started.<!--TODO:
+link-->
+
+This is suboptimal: Let's say India has (incorrectly) detected ICBMs
+flying towards them from Pakistan. They fire ICBMs towards their
+pre-planned targets in Pakistan. However, after 10 minutes the anomalously
+detected ICBMs flying towards India are discovered to be nonexistent,
+either through cities reporting no nuclear explosions where they would be
+expected, or through the missiles disappearing from the detection system.
+
+If India doesn't have a way to stop its ICBMs mid-flight, they know that
+Pakistan will now surely retaliate and needlessly cause a nuclear war
+between the countries.
+
+Thus, it'd be good if India could now contact Pakistan, explain the error,
+and then detectably detonate its ICBMs mid-flight.
+
+Such a system is possible: Cryptographic [digital
+signatures](https://en.wikipedia.org/wiki/Digital_Signature) are
+an established technologies, and the ICBMs could be carrying a small
+non-nuclear explosive payload that is activated once the correct signature
+is received, but is not activated otherwise.
+
+Care should be taken that the keys for the signatures are not stolen and
+used by adversaries, but currently countries manage to keep many other
+secrets too, so this should be possible, especially if a [threshold
+cryptosystem](https://en.wikipedia.org/wiki/Threshold_cryptosystem)
+is used, which makes theft more difficult.
 
 ### Discussions
 
