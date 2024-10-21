@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-14, modified: 2022-07-25, language: english, status: notes, importance: 6, confidence: log*
+*author: niplav, created: 2021-10-14, modified: 2024-10-21, language: english, status: notes, importance: 6, confidence: log*
 
 > __Some people have been complaining about a [“website discoverability
 crisis”](https://memex.marginalia.nu/log/19-website-discoverability-crisis.gmi).
@@ -21,13 +21,13 @@ other sites.
 		* [Gwern](https://www.gwern.net/)
 		* [Nintil](https://nintil.com/)
 		* [Mariven](https://n.cohomology.group/)
+		* [Splitting Infinity](https://splittinginfinity.substack.com/)
 		* [Dynomight](https://dynomight.net/)
 		* [Gavin Leech](https://www.gleech.org)
 		* [1a3orn](https://1a3orn.com/)
 		* [210ethan](https://210ethan.github.io)
 	* [Quanta Magazine](https://www.quantamagazine.org/)
 * Rationality
-	* [Less Wrong](https://lesswrong.com/)
 	* [Everything Studies](https://everythingstudies.com/)
 	* [Overcoming Bias](http://www.overcomingbias.com/)
 	* [Slate Star Codex](http://slatestarcodex.com/) and [the successor](https://www.astralcodexten.com/)
@@ -57,7 +57,6 @@ other sites.
 	* [Unqualified Reservations](https://unqualified-reservations.org/)
 * AI Alignment
 	* [Arbital AI Alignment Domain](https://arbital.org/explore/ai_alignment)
-	* [Machine Intelligence Research Institute](https://intelligence.org)
 	* [Tsvi Benson Tilsen](https://tsvibt.blogspot.com/)
 * Effective Altruism
 	* Personal Websites

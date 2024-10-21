@@ -495,15 +495,13 @@ And finally: No endnotes. +½ points.
 
 __8/10__
 
-Death By A Thousand Sluts Parts I & II (John Bodi, 2015)
----------------------------------------------------------
+### Death By A Thousand Sluts Parts I & II (John Bodi, 2015)
 
 F\*ck me these books are fun.
 
 __8.5/10__
 
-Daygame Nitro (Nick Krauser, 2014)
------------------------------------
+### Daygame Nitro (Nick Krauser, 2014)
 
 So far my favorite daygame textbook, and I like it better than the parts
 of Daygame Mastery and Daygame Infinite that I've skimmed. I remember
@@ -511,7 +509,7 @@ someone remarking that Nitro feels more "lived-in", and I agree. It's
 remarkably practical, and solid for its length—the only downside is
 that it centers around the same-day-lay. This is not optimal, especially
 in a book ostensibly for beginners or early intermediate players. It
-also means thatit , if I remember correctly, doesn't talk at all
+also means that it, if I remember correctly, doesn't talk at all
 about texting, and only a bit about dates—and dates are imo the most
 interesting and important part of daygame, similar to the complexity of
 [midgame chess](https://en.wikipedia.org/wiki/Chess_middle_game). A good
@@ -526,9 +524,9 @@ been losing a lot of women).
 
 But still, wow. Daygame rocks, this book rocks, and Krauser is cool too I
 guess. So many excellent tid-bits, especially around approach mechanics
-(keeping ones feet planted where they are, keeping her hand in yours,
-"If she is still standing in front of you, she is interested. If she
-doesn't tell you to fuck off, plow", …).
+(keeping ones feet planted where they are, extended handshakes, "If she
+is still standing in front of you, she is interested. If she doesn't
+tell you to fuck off, plow", …).
 
 I'll leave you with an (endorsed) quote from the book itself:
 

@@ -1,12 +1,12 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-09-18, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-10-21, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
 Notes
-=====
+======
 
 > Das Immer-wieder-von-vorn-anfangen ist [die regulative Idee des
 Spiels](https://www.lesswrong.com/posts/7Fft9kNTvqixttGc3 "Circle Games (sarahconstantin, 2019)") (wie der
@@ -2127,3 +2127,63 @@ How Often Does Taking Away Options Help?
 -----------------------------------------
 
 Moved [here](./options.html#Frequency).
+
+Supplements To The Overcoming Bias Anthology
+---------------------------------------------
+
+Original [anthology](https://overcoming-bias-anthology.com/). The posts
+here are more a "I found those really enlightening" instead of "they
+should've been included", but I'm going to go by the structure of the
+anthology with slight modifications.
+
+### Our Thinking
+
+* [Fillers Neglect Framers (Robin Hanson, 2006)](http://www.overcomingbias.com/2006/12/fillers_neglect.html)
+
+#### Disagreement
+
+* [You Are Never Entitled to Your Opinion (Robin Hanson, 2006)](http://www.overcomingbias.com/2006/12/you_are_never_e.html)
+* [Disagree with Suicide Rock (Robin Hanson, 2007)](http://www.overcomingbias.com/2007/01/disagree_with_s.html)
+
+#### Learning
+
+* [Read A Classic (Robin Hanson, 2010)](https://www.overcomingbias.com/2010/06/read-a-classic.html)
+* [Is Truth in the Hump or the Tails? (Robin Hanson, 2007)](https://www.overcomingbias.com/2007/02/is_truth_in_the.html)
+* [Why Don’t the Young Learn from the Old? (Robin Hanson, 2007)](http://www.overcomingbias.com/2007/01/why_dont_the_yo.html)
+
+### Our Motives
+
+#### Signaling
+
+* [What Is Signaling (Robin Hanson, 2015)](http://www.overcomingbias.com/2015/05/what-is-signaling.html)
+
+### Our Institutions
+
+#### Prediction Markets
+
+* [Prediction Market Quotes (Robin Hanson, 2023)](https://www.overcomingbias.com/p/prediction-market-quoteshtml)
+
+#### Track Records
+
+* [The 80% Forecasting Solution (Robin Hanson, 2006)](http://www.overcomingbias.com/2006/12/the_80_forecast.html)
+* [The Trouble With Track Records (Robin Hanson, 2007)](https://www.overcomingbias.com/p/the_trouble_withtml)
+
+### Our Past
+
+#### The Great Filter
+
+* [If Post Filter, We Are Alone (Robin Hanson, 2015)](http://www.overcomingbias.com/2015/08/if-post-filter-we-are-alone.html)
+
+### Life, Reproduction, Death
+
+* [Cities As Harems (Robin Hanson, 2015)](http://www.overcomingbias.com/2015/11/human-harems.html)
+* [You Will Age And Die (Robin Hanson, 2006)](http://www.overcomingbias.com/2006/12/you_will_age_an.html)
+* [Break Cryonics Down (Robin Hanson, 2009)](http://www.overcomingbias.com/2009/03/break-cryonics-down.html)
+
+### Miscellania
+
+* [Prizes versus Grants (Robin Hanson, 2007)](http://www.overcomingbias.com/2007/01/prizes_versus_g.html)
+* [Will Blog Posts Get Credit? (Robin Hanson, 2007)](http://www.overcomingbias.com/2007/02/will_blog_posts.html)
+* [What Cost Variety? (Robin Hanson, 2014)](https://www.overcomingbias.com/p/what-cost-varietyhtml)
+* [Unequal Inequality (Robin Hanson, 2007)](https://www.overcomingbias.com/p/unequal_inequalhtml)
+* [Life in 1KD (Robin Hanson, 2022)](https://www.overcomingbias.com/p/life-in-1kdhtml)
