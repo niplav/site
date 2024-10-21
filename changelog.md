@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2024-10-15, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2024-10-21, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -27,6 +27,7 @@ October 2024
 -------------
 
 * [Make ICBMs Abortable Mid-Flight](./nuclear.html#Make_ICBMs_Abortable_MidFlight)
+* [Supplements To The Overcoming Bias Anthology](./notes.html#Supplements_To_The_Overcoming_Bias_Anthology)
 * [Notes on Pickup](./notes_on_pickup.html):
 	* [Eyesight as a Neglected Factor in Daygame](./notes_on_pickup.html#Eyesight_as_a_Neglected_Factor_in_Daygame)
 	* [Meditation Improves Vibe, Which Improves Everything Else](./notes_on_pickup.html#Meditation_Improves_Vibe_Which_Improves_Everything_Else)

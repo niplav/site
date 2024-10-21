@@ -1,7 +1,7 @@
 [home](./index.html)
 ---------------------
 
-*author: niplav, created: 2022-06-18, modified: 2024-09-23, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2022-06-18, modified: 2024-10-21, language: english, status: draft, importance: 2, confidence: log*
 
 > Idea & format stolen shamelessly from [Gavin
 Leech](https://www.gleech.org/favs/all/).
@@ -75,8 +75,8 @@ final pushes for me to do something in a particular direction):
 * Air quality
 	* [Better air quality is the easiest way not to die (dynomight, 2021)](https://dynomight.net/air/)
 	* [The Cuboid: A DIY air purifier that's better than a box-fan (dynomight, 2021)](https://dynomight.net/better-DIY-air-purifier.html)
-* [Why indoor lighting is hard to get right and how to fix it (Richard Korzekwa, 2020)](https://www.lesswrong.com/posts/7izSBpNJSEXSAbaFh/why-indoor-lighting-is-hard-to-get-right-and-how-to-fix-it)
-* [Spaced Repetition (Gwern Branwen, 2019)](https://www.gwern.net/Spaced-repetition)
+* Light
+	* [Why indoor lighting is hard to get right and how to fix it (Richard Korzekwa, 2020)](https://www.lesswrong.com/posts/7izSBpNJSEXSAbaFh/why-indoor-lighting-is-hard-to-get-right-and-how-to-fix-it)
 * Effective Altruism
 	* [Nobody is Perfect, Everything is Commensurable (Scott Alexander, 2014)](https://slatestarcodex.com/2014/12/19/nobody-is-perfect-everything-is-commensurable/)
 	* [Church vs. Taskforce (Eliezer Yudkowsky, 2009)](https://www.lesswrong.com/s/pvim9PZJ6qHRTMqD3/p/p5DmraxDmhvMoZx8J)
@@ -88,6 +88,8 @@ final pushes for me to do something in a particular direction):
 * People in general and tolerance
 	* [People Are Different (John Nerst, 2017)](https://everythingstudies.com/2017/04/24/people-are-different/)
 	* [Generalizing From One Example (Scott Alexander, 2009)](https://www.lesswrong.com/posts/baTWMegR42PAsH9qJ/generalizing-from-one-example)
+* Learning
+	* [Spaced Repetition (Gwern Branwen, 2019)](https://www.gwern.net/Spaced-repetition)
 
 ### Books
 
@@ -221,10 +223,10 @@ striving.
 
 ### Blogs
 
-My favorite general knowledge blogs are [Nintil](https://nintil.com/)
-and [Dynomight](https://dynomight.net/); my favorite blogs
-about rationality are [Less Wrong](https://lesswrong.com/),
-[Everything Studies](https://everythingstudies.com/),
+My favorite general knowledge blogs are [Nintil](https://nintil.com/),
+[Splitting Infinity](https://splittinginfinity.substack.com/)
+and [Dynomight](https://dynomight.net/); my favorite blogs about
+rationality [Everything Studies](https://everythingstudies.com/),
 [Overcoming Bias](http://www.overcomingbias.com/), [Slate Star
 Codex](http://slatestarcodex.com/), and [☆✦ The Scintillating But
 Ultimately Untrue Thought ✦☆](https://unremediatedgender.space)
@@ -237,8 +239,8 @@ and [Null Program](http://nullprogram.com/); my favorite
 mathematics blogs are [Bit-Player](http://bit-player.org/),
 [Shtetl-Optimized](https://www.scottaaronson.com/blog) and [An
 Algorithmic Lucidity](http://zackmdavis.net/blog/); my favorite
-philosophy blogs are [Entirely Useless](https://entirelyuseless.com/) and
-[Metamoderna](http://metamoderna.org/?lang=en).
+philosophy blogs are [Entirely Useless](https://entirelyuseless.com/)
+and [Metamoderna](http://metamoderna.org/?lang=en).
 
 I don't read many blogs about politics per se,
 but I like the (in different ways) spicy [The Real
@@ -271,8 +273,8 @@ and [Rethink Priorities](https://rethinkpriorities.org/research)
 As for fiction, [Zero HP
 Lovecraft](https://zerohplovecraft.wordpress.com/) and [Things of
 Interest](https://qntm.org) present two very different (but both
-delightful) options. The [SCP Wiki](http://www.scp-wiki.net/) is also
-one of a kind, a true product of the internet age.
+delightful) options. The [SCP Wiki](http://www.scp-wiki.net/) is one of
+a kind, a true product of the internet age.
 
 ### Wikis
 
