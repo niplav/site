@@ -394,7 +394,7 @@ The Red Quest: An Anthology
 * [The Red Quest](https://theredquest.substack.com/)'s many short and memorable blogposts. For basic game content, read Daygame Nitro<!--TODO: link-->, but Red Quest's writing has style and some interesting tidbits you don't get elsewhere. Here's some of his best posts:
 	* Practical Pickup
 		* [Basics like asking the girl out and escalation (2019)](https://theredquest.wordpress.com/2019/11/14/basics-like-asking-the-girl-out-and-escalation/)
-		* [Embrace the awkward (2017)](https://theredquest.wordpress.com/2017/05/22/embrace-the-awkward/index.html)
+		* [Embrace the awkward (2017)](https://theredquest.wordpress.com/2017/05/22/embrace-the-awkward/)
 		* [Texting guide (2018)](https://theredquest.wordpress.com/2018/06/08/texting-guide/)
 		* [What I do when she sends nudes (2018)](https://theredquest.wordpress.com/2018/02/23/what-i-do-when-she-sends-nudes/)
 		* [If she is a women’s rights activist, sexual assault educator, or similar, RUN (2017)](https://theredquest.wordpress.com/2017/05/30/if-she-is-a-womens-rights-activist-sexual-assault-educator-or-similar-run.html)
@@ -408,17 +408,18 @@ The Red Quest: An Anthology
 	* Attractiveness
 		* Fashion
 			* [Fashion and clothes for players (2019)](https://theredquest.wordpress.com/2019/02/25/fashion-and-clothes-for-players/)
-			* [Addendum to the fashion post: figure out your weaknesses (2019)](https://theredquest.wordpress.com/2019/02/27/addendum-to-the-fashion-post-figure-out-your-weaknesses/index.html)
-			* [“Clothes That Attract Women” (don’t exist in and of themselves) (2017)](https://theredquest.wordpress.com/2017/05/05/clothes-that-attract-women-dont-exist-in-and-of-themselves/index.html)
+			* [Addendum to the fashion post: figure out your weaknesses (2019)](https://theredquest.wordpress.com/2019/02/27/addendum-to-the-fashion-post-figure-out-your-weaknesses/)
+			* [“Clothes That Attract Women” (don’t exist in and of themselves) (2017)](https://theredquest.wordpress.com/2017/05/05/clothes-that-attract-women-dont-exist-in-and-of-themselves/)
 			* [Men, game, and social media strategies (2017)](https://theredquest.wordpress.com/2017/07/09/men-game-and-social-media-strategies/)
 		* Fitness
 			* [Most guys are weak. Be different: “Today’s men are not nearly as strong as their dads were, researchers say” (2017)](https://theredquest.wordpress.com/2017/05/21/most-guys-are-weak-be-different-or-todays-men-are-not-nearly-as-strong-as-their-dads-were-researchers-say.html)
+			* [“Sex, Steroids, And Arnold: The Story Of The Gym That Shaped America” (2018)](https://theredquest.wordpress.com/2018/08/24/sex-steroids-and-arnold-the-story-of-the-gym-that-shaped-america/)
 		* Fucking
 			* [Tell your girl to use a vibrator during sex, and other bedroom tips and sex skills for guys (2019)](https://theredquest.wordpress.com/2019/03/13/tell-your-girl-to-use-a-vibrator-during-sex-and-other-bedroom-tips/)
 		* Food
 			* [Zero sugar will change your body and life (2017)](https://theredquest.wordpress.com/2017/06/15/zero-sugar-will-change-your-body-and-life/)
 		* Photography and Sex Tapes
-			* [Anyone doing any online dating needs to learn basic photography skills (2017)](https://theredquest.wordpress.com/2017/04/29/anyone-doing-any-online-dating-needs-to-learn-basic-photography-skills/index.html)
+			* [Anyone doing any online dating needs to learn basic photography skills (2017)](https://theredquest.wordpress.com/2017/04/29/anyone-doing-any-online-dating-needs-to-learn-basic-photography-skills/)
 		* [Don’t waste much time on video games (2017)](https://theredquest.wordpress.com/2017/05/23/dont-waste-much-time-on-video-games.html)
 	* Competition
 		* [Most guys don’t care much about getting laid, I hypothesize (2021)](https://theredquest.wordpress.com/2021/06/30/most-guys-dont-care-much-about-getting-laid-i-hypothesize/)
@@ -430,7 +431,7 @@ The Red Quest: An Anthology
 		* [Chicks find it hard to get someone attractive yet interesting (2021)](https://theredquest.wordpress.com/2019/03/01/chicks-find-it-hard-to-get-someone-attractive-yet-interesting/)
 		* Player's Psychology
 			* [Be kind from a position of strength, not a position of weakness (2017)](https://theredquest.wordpress.com/2017/05/12/be-kind-from-a-position-of-strength-not-a-position-of-weakness/)
-			* [You only see the tip of the spear (2019)](https://theredquest.wordpress.com/2019/02/07/you-only-see-the-tip-of-the-spear/index.html)
+			* [You only see the tip of the spear (2019)](https://theredquest.wordpress.com/2019/02/07/you-only-see-the-tip-of-the-spear/)
 			* [Be extreme (2019)](https://theredquest.wordpress.com/2019/03/29/be-extreme/)
 			* [The game challenge: doing what’s unnatural (2018)](https://theredquest.wordpress.com/2018/05/19/the-game-challenge-doing-whats-unnatural/)
 		* Emptiness (careful with these, especially as an early or intermediate player—they probably don't apply to you, and might damage your vibe)
@@ -447,4 +448,4 @@ The Red Quest: An Anthology
 			* [“Why so many women cheat on their husbands” (2017)](https://theredquest.wordpress.com/2017/09/21/why-so-many-women-cheat-on-their-husbands/)
 			* [Why a guy should never marry, as described by women (2017)](https://theredquest.wordpress.com/2017/10/26/why-you-should-never-marry-as-described-by-women/)
 			* [Skin in the game, marriage, The Red Pill (2018)](https://theredquest.wordpress.com/2018/03/30/skin-in-the-game-marriage-the-red-pill/)
-			* [“Why Happy Couples Cheat” from Esther Perel (2017)](https://theredquest.wordpress.com/2017/05/08/why-happy-couples-cheat-from-esther-perel/index.html)
+			* [“Why Happy Couples Cheat” from Esther Perel (2017)](https://theredquest.wordpress.com/2017/05/08/why-happy-couples-cheat-from-esther-perel/)
