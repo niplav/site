@@ -17,6 +17,8 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [|31-34 Foundational Challenges in Assuring Alignment and Safety of Large Language Models Usman Anwar/Abulhair Saparov/Javier Rando/Daniel Paleka/Miles Turpin/Peter Hase/Ekdeep Singh Lubana/Erik Jenner/Stephen Casper/Oliver Sourbut/Benjamin L Edelman/Zhaowei Zhang/Mario Günther/Anton Korinek/Jose Hernandez-Orallo/Lewis Hammond/Eric Bigelow/Alexander Pan/Lauro Langosco/Tomasz Korbak/Heidi Zhang/Ruiqi Zhong/Seán Ó hÉigeartaigh/Gabriel Recchia/Giulio Corsi/Alan Chan/Markus Anderljung/Lilian Edwards/Yoshua Bengio/Danqi Chen/Samuel Albanie/Tegan Maharaj/Jakob Foerster/Florian Tramer/He He/Atoosa Kasirzadeh/Yejin Choi/David Krueger, 2024)](https://arxiv.org/abs/2404.09932)
+* \* On Coalition Incentive Compatibility (Jerry Green/Jean-Jacques Laffont, 1979)
 * [Ignorance, a skilled practice (birguslatro, 2020)](https://carcinisation.com/2020/01/27/ignorance-a-skilled-practice/)
 * [More on Ms. Slav, and lessons for men who are dating (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/05/more-on-ms-slav/)
 * [Cause things change (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/05/cause-things-change/)

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-04-22, modified: 2024-07-07, language: english, status: in progress, importance: 5, confidence: highly likely*
+*author: niplav, created: 2024-04-22, modified: 2024-10-22, language: english, status: in progress, importance: 5, confidence: highly likely*
 
 > __How to compare how similarly programs compute their outputs.__
 
@@ -56,11 +56,14 @@ programs compute what they compute.
 ### Setup
 
 Let a program `$p$` be a tuple of code for a [Turing
-machine](https://en.wikipedia.org/wiki/Turing_Machine), intermediate
-tape states after each command execution, and output. All in binary.
+machine](https://en.wikipedia.org/wiki/Turing_Machine) and intermediate
+tape states after each command execution. We'll treat the final tape
+state as the output, all in binary.
 
-That is `$p=(c, t, o)$`, with `$c \in \{0, 1\}^+, t \in (\{0, 1\}^+)^+$` and `$o \in \{0, 1\}^+$`.
-Let `$l=|t|$` be the number of steps that `$p$` takes to halt.
+That is `$p=(c, t)$`, with `$c \in \{0, 1\}^+$` and `$t \in (\{0,
+1\}^+)^+$` Let `$l=|t|$` be the number of steps that `$p$` takes to halt.
+
+For simplicities' sake, let's call `$t_l$` `$o$`, the output.
 
 ### Possible Desiderata
 
@@ -75,13 +78,18 @@ Let `$l=|t|$` be the number of steps that `$p$` takes to halt.
 
 ### Formal Definition
 
-Then a formula for the logical correlation `$合$` of two halting
-programs `$p_1=(c_1, t_1, o_1), p_2=(c_2, t_2, o_2)$`, a tape-state
-discount factor `$γ$`[^3], and a [string-distance metric](https://en.wikipedia.org/wiki/String_similarity_metric)
-`$d: \{0, 1\}^+ \times \{0, 1\}^+ \rightarrow ℕ$` could be
+Let `$p_1=(c_1, t_1), p_2=(c_2, t_2)$` be two halting programs,
+`$l_1, l_2$` are the number of steps it takes `$p_1, p_2$` to halt,
+and `$o_1=t_{l_1}, o_2=t_{l_2}$` the last tape states (outputs) of the
+two programs.
+
+Then a formula for the logical correlation `$合$` of `$p_1, p_2$`,
+a tape-state discount factor `$γ$`[^3], and a [string-distance
+metric](https://en.wikipedia.org/wiki/String_similarity_metric) `$d:
+\{0, 1\}^+ \times \{0, 1\}^+ \rightarrow ℕ$` could be
 
 <div>
-        $$合(p_1, p_2, γ)=d(o_1, o_2)+0.5-\frac{1}{2+\sum_{k=0}^{\min(l_1, l_2)} γ^k \cdot d(t_1(l_1-k), t_2(l_2-k))}$$
+        $$合(p_1, p_2, γ)=d(o_1, o_2)+0.5-\frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1(l_1-k), t_2(l_2-k))}$$
 </div>
 
 The lower `$合$`, the higher the logical correlation between `$p_1$`
@@ -99,9 +107,6 @@ different trace lengths, and penalize that, e.g. amending the formula:
 I'm a bit unhappy that the code doesn't factor into the logical
 correlation, and ideally one would want to be able to compute the logical
 correlation without having to run the program.
-
-How does this relate to
-[data=code](https://wiki.c2.com/?DataAndCodeAreTheSameThing)?
 
 ### Desiderata Fulfilled?
 
@@ -128,6 +133,7 @@ Since `$d$` is a metric, `$d(o, o)=0$`.
 See Also
 ---------
 
+* How does this relate to [data=code](https://wiki.c2.com/?DataAndCodeAreTheSameThing)?
 * [Writing Causal Models Like We Write Programs (johnswentworth, 2020)](https://www.lesswrong.com/posts/Xd9FLs4geRAWxkQPE/writing-causal-models-like-we-write-programs)
 
 <!--TODO: check with brainfuck-->

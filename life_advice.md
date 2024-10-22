@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-02-22, modified: 2024-04-26, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2021-02-22, modified: 2024-10-22, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Inspired by others
 ([Falkovich 2019](https://www.lesswrong.com/posts/HJeD6XbMGEfcrx3mD/100-ways-to-live-better "100 Ways To Live Better"),
@@ -214,6 +214,7 @@ Existence of Long Tails for Bliss and Suffering")<!--TODO: better links for this
 35. Own multiple chargers for your laptop.
 36. Do a little bit of stock-picking, based on your inside view, and then observe how well the picked stocks do.
 	* In the beginning, don't do this for the returns, but for the value of information on whether you can outperform the market.
+	* If you're performing worse than the market, go back to index funds.
 37. Do the obvious things
 	* Exercise any amount
 		*	Even walking around outside for 10 minutes a
