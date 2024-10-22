@@ -2138,52 +2138,53 @@ anthology with slight modifications.
 
 ### Our Thinking
 
-* [Fillers Neglect Framers (Robin Hanson, 2006)](http://www.overcomingbias.com/2006/12/fillers_neglect.html)
+* [Fillers Neglect Framers (2006)](http://www.overcomingbias.com/2006/12/fillers_neglect.html)
 
 #### Disagreement
 
-* [You Are Never Entitled to Your Opinion (Robin Hanson, 2006)](http://www.overcomingbias.com/2006/12/you_are_never_e.html)
-* [Disagree with Suicide Rock (Robin Hanson, 2007)](http://www.overcomingbias.com/2007/01/disagree_with_s.html)
+* [You Are Never Entitled to Your Opinion (2006)](http://www.overcomingbias.com/2006/12/you_are_never_e.html)
+* [Disagree with Suicide Rock (2007)](http://www.overcomingbias.com/2007/01/disagree_with_s.html)
+* [Agree with Yesterday’s Duplicate (2007)](http://www.overcomingbias.com/2007/01/agree_with_yest.html)
 
 #### Learning
 
-* [Read A Classic (Robin Hanson, 2010)](https://www.overcomingbias.com/2010/06/read-a-classic.html)
-* [Is Truth in the Hump or the Tails? (Robin Hanson, 2007)](https://www.overcomingbias.com/2007/02/is_truth_in_the.html)
-* [Why Don’t the Young Learn from the Old? (Robin Hanson, 2007)](http://www.overcomingbias.com/2007/01/why_dont_the_yo.html)
+* [Read A Classic (2010)](https://www.overcomingbias.com/2010/06/read-a-classic.html)
+* [Is Truth in the Hump or the Tails? (2007)](https://www.overcomingbias.com/2007/02/is_truth_in_the.html)
+* [Why Don’t the Young Learn from the Old? (2007)](http://www.overcomingbias.com/2007/01/why_dont_the_yo.html)
 
 ### Our Motives
 
 #### Signaling
 
-* [What Is Signaling (Robin Hanson, 2015)](http://www.overcomingbias.com/2015/05/what-is-signaling.html)
+* [What Is Signaling (2015)](http://www.overcomingbias.com/2015/05/what-is-signaling.html)
 
 ### Our Institutions
 
 #### Prediction Markets
 
-* [Prediction Market Quotes (Robin Hanson, 2023)](https://www.overcomingbias.com/p/prediction-market-quoteshtml)
+* [Prediction Market Quotes (2023)](https://www.overcomingbias.com/p/prediction-market-quoteshtml)
 
 #### Track Records
 
-* [The 80% Forecasting Solution (Robin Hanson, 2006)](http://www.overcomingbias.com/2006/12/the_80_forecast.html)
-* [The Trouble With Track Records (Robin Hanson, 2007)](https://www.overcomingbias.com/p/the_trouble_withtml)
+* [The 80% Forecasting Solution (2006)](http://www.overcomingbias.com/2006/12/the_80_forecast.html)
+* [The Trouble With Track Records (2007)](https://www.overcomingbias.com/p/the_trouble_withtml)
 
 ### Our Past
 
 #### The Great Filter
 
-* [If Post Filter, We Are Alone (Robin Hanson, 2015)](http://www.overcomingbias.com/2015/08/if-post-filter-we-are-alone.html)
+* [If Post Filter, We Are Alone (2015)](http://www.overcomingbias.com/2015/08/if-post-filter-we-are-alone.html)
 
 ### Life, Reproduction, Death
 
-* [Cities As Harems (Robin Hanson, 2015)](http://www.overcomingbias.com/2015/11/human-harems.html)
-* [You Will Age And Die (Robin Hanson, 2006)](http://www.overcomingbias.com/2006/12/you_will_age_an.html)
-* [Break Cryonics Down (Robin Hanson, 2009)](http://www.overcomingbias.com/2009/03/break-cryonics-down.html)
+* [Cities As Harems (2015)](http://www.overcomingbias.com/2015/11/human-harems.html)
+* [You Will Age And Die (2006)](http://www.overcomingbias.com/2006/12/you_will_age_an.html)
+* [Break Cryonics Down (2009)](http://www.overcomingbias.com/2009/03/break-cryonics-down.html)
 
 ### Miscellania
 
-* [Prizes versus Grants (Robin Hanson, 2007)](http://www.overcomingbias.com/2007/01/prizes_versus_g.html)
-* [Will Blog Posts Get Credit? (Robin Hanson, 2007)](http://www.overcomingbias.com/2007/02/will_blog_posts.html)
-* [What Cost Variety? (Robin Hanson, 2014)](https://www.overcomingbias.com/p/what-cost-varietyhtml)
-* [Unequal Inequality (Robin Hanson, 2007)](https://www.overcomingbias.com/p/unequal_inequalhtml)
-* [Life in 1KD (Robin Hanson, 2022)](https://www.overcomingbias.com/p/life-in-1kdhtml)
+* [Prizes versus Grants (2007)](http://www.overcomingbias.com/2007/01/prizes_versus_g.html)
+* [Will Blog Posts Get Credit? (2007)](http://www.overcomingbias.com/2007/02/will_blog_posts.html)
+* [What Cost Variety? (2014)](https://www.overcomingbias.com/p/what-cost-varietyhtml)
+* [Unequal Inequality (2007)](https://www.overcomingbias.com/p/unequal_inequalhtml)
+* [Life in 1KD (2022)](https://www.overcomingbias.com/p/life-in-1kdhtml)

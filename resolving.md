@@ -732,9 +732,9 @@ from `$\omega$`, since one can create `$T'$` from `$G_A$` by adding
 edges removed from `$G_A$`, the node `$\omega'$` has in-degree zero,
 and is therefore also selected as the first element in some topological
 sort of `$G_A'$`, to which `$\omega$` is prepended after recursion. In
-the base case of a `$T^{\$}$` with one element `$\omega^{\$}$`, this
-element `$\omega^{\$}$` is the only element of `$G_A^{\$}$` and also
-the only element of the topological sort of `$G_A^{\$}$`.
+the base case of a `$T^{\star}$` with one element `$\omega^{\star}$`, this
+element `$\omega^{\star}$` is the only element of `$G_A^{\star}$` and also
+the only element of the topological sort of `$G_A^{\star}$`.
 
 Therefore, by induction, given an acyclic tournament `$T$` and a set of
 edges `$E^+_T=E_T \backslash E$`, this set `$E^+_T$` must be the edges added
@@ -2542,14 +2542,10 @@ lines of inquiry into the mathematical structure of wanting.
 
 On a concrete level we stated several conjectures and questions we were
 not able to prove, but might be relatively easy to answer. Of these,
-**conjecture** [5](#conj:hodgedom){reference-type="ref"
-reference="conj:hodgedom"} on whether `HodgeResolve` fulfills
-**Preservation of Complete Domination** is most relevant, but
-**conjecture** [1](#conj:avgconftoinf){reference-type="ref"
-reference="conj:avgconftoinf"} and **conjecture**
-[2](#conj:egednosubpres){reference-type="ref"
-reference="conj:egednosubpres"} might also be interesting from
-graph-theoretic perspective.
+**conjecture** 5 on whether `HodgeResolve` fulfills **Preservation
+of Complete Domination** is most relevant, but **conjecture** 1
+and **conjecture** 2 might also be interesting from graph-theoretic
+perspective.
 
 Additionally, we only analysed two methods of mapping from directed
 graphs to acyclic tournaments, but are convinced that there are many

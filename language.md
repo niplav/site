@@ -459,6 +459,7 @@ We can test whether such words exist via gensim word2vec embeddings:
 * {be, take, give}×{a, the, ""} shit
 * Thinking the {right, wrong} things × thinking in the {right, wrong} way × saying the {right, wrong} things × performing the {right, wrong} actions
 * {continuous, discountinuous} × {inductive, deductive} assumptions
+* {[Selection, Control](https://www.lesswrong.com/posts/ZDZmopKquzHYPRNxq)} × {search, design}<!--TODO: find LW post on search vs. design-->
 
 Great Words
 ------------
@@ -507,6 +508,11 @@ Better Words
 * [exval](https://en.wikipedia.org/wiki/Expected_value): 3 syllables saved compared to "expected value"
 * [ifef](https://en.wikipedia.org/wiki/If_and_only_if): 3 syllables saved over "if and only if", and [others agree](https://www.lesswrong.com/posts/JuLJbayPQDhZuPXHa/if-and-only-if-should-be-spelled-ifeff)
 * [mece](https://en.wikipedia.org/wiki/MECE_principle)<!--TODO: IPA-->: 12 syllables saved over "[mutually exclusive](https://en.wikipedia.org/wiki/Mutual_exclusivity) and [collectively exhaustive](https://en.wikipedia.org/wiki/Collectively_exhaustive_events)"
+
+#### Proposals
+
+* "cif" or "if<sub>c</sub>" ("causal if"): [causally counterfactual](https://en.wikipedia.org/wiki/Causal_model#Counterfactuals) if: 8 syllables saved
+* "eif" or "if<sub>e</sub>" ("evidential if"): evidentially counterfactual if: 10 syllables saved
 
 #### Initialisms
 

@@ -1,9 +1,11 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-10-17, modified: 2024-10-17, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2024-10-17, modified: 2024-10-22, language: english, status: notes, importance: 3, confidence: log*
 
-> __.__
+> __Yes.  
+I did it.  
+I feel… no remorse, *and I'll do it again*.__<!--TODO: link video-->
 
 On Daygame
 ===========

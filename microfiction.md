@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2024-06-15, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2024-10-22, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __Very small pieces of fiction and things that are sufficiently like
 fiction.__
@@ -274,7 +274,7 @@ who invite you to the luring Bay, promising to pay for your entire being while e
 who down 3¾ bottles of Huel™ and sprint to their next fellowship or retreat or meetup or workshop, in the pore-showingly lit hallways with whiteboards and whiteboards and whiteboards and whiteboards,  
 who want to crown random nerds with aureal sigmas fished from the manifold crevaces of self-denying deities,  
 who write epics of institutionalized autists bent on terraforming these overpopulated hypothetical hells,  
-*horizons clitch and cline*  
+*horizons clitch and cline—*  
 pointing out dynamic inconsistency in the comments and melting hectoton steel-marbles around civilizational recipes,  
 who improve their aim hurling yeeting philosophical tomes at unsuspecting passerbys and ascend urban lampposts to loudly deduce their mechanical liturgies,  
 cascades! cycles! insights!  
@@ -283,7 +283,7 @@ who exitedly pour & plaster tabulated exponents into webscripted canisters just 
 hating one-sidedness and bureaucrats alike,  
 who can name the 11 AI forecasting organisations and the 4 factors of successful nonprofits and the 7 noble ways of becoming more agentic and might even find Rwanda on a map not made in Silicon Valley,  
 contemplating hemispherectomies to purify their nascent idealism on the verge of a hope-ash London dawn,  
-trading sanity for sanity points, wide-eyed apostles of retrocausal [void](https://en.wikipedia.org/wiki/Void_\(astronomy\))punk,  
+trading sanity for sanity points, wide-eyed apostles of retrocausal [void](https://en.wikipedia.org/wiki/Void_\(astronomy\))punk, and bemoaning a dearth of instruments that can write stone with light,  
 who catch a feral heart in the garden behind the A100 rack and save it into a transparent domicile, injecting it with 17000 volts to illuminate all the last battery cages equally,  
 who empty out their pockets with uncountable glaring utilons onto innocent climate activists, promising to make them happy neutron stars one day,  
 microscopically examining the abyssal monstrosities their oracles conjure up out of the lurching empty chaos,  
@@ -524,6 +524,7 @@ Words
 * "kurtentropy" (like varentropy, just for the fourth [moment](https://en.wikipedia.org/wiki/Moment_\(statistics\)))
 * "gradientspawn"
 * "moleFLOP"
+* "ClopenDeepThropic"
 
 #### Switcheroos
 

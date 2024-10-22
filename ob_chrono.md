@@ -16,6 +16,10 @@ Overcoming Bias Posts Chronological Index
 
 This index currently lists 4152 posts from 2006-11-20 until 2019-12-24.
 
+See also the [official
+anthology](https://overcoming-bias-anthology.com/) and my attempt at a
+[supplement](./notes.html#Supplements_To_The_Overcoming_Bias_Anthology).
+
 Archives
 --------
 
