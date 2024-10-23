@@ -77,7 +77,7 @@ self-experiment.
 Data was collected as follows:
 
 I abstained from masturbating and watching pornography from
-2024-10-17T23:54:00 to \_, resulting in >90 days of abstinence
+2024-10-20T23:30:51 to \_, resulting in >90 days of abstinence
 from masturbation (which is also the period [recommended by the
 NoFap community](https://nofap.com/rebooting/): "NoFap’s gold
 standard of success is our 90-day reboot.").<!--I had a [nocturnal
@@ -830,3 +830,14 @@ you'll find your interactions flow more effortlessly and your general
 feeling of being a man increases.
 
 *—Anecdote by Sam Django in Nick Krauser's “Daygame Nitro”, 2014*
+
+Appendix D: Subjective Impressions of Nofap
+--------------------------------------------
+
+This is after 60 days of nofap, after which I broke my streak.
+
+* I want to approach women more.
+* I don't feel more confident.
+* My balls ache.
+* I have to go pee more.
+* Having sex is far worse: I can't really get hard, and I come very quickly.

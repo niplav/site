@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-10-21, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-10-23, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2179,6 +2179,10 @@ anthology with slight modifications.
 
 * [Cities As Harems (2015)](http://www.overcomingbias.com/2015/11/human-harems.html)
 * [You Will Age And Die (2006)](http://www.overcomingbias.com/2006/12/you_will_age_an.html)
+
+#### Cryonics
+
+* [We Agree: Get Froze (2008)](http://www.overcomingbias.com/2008/12/we-agree-get-froze.html)
 * [Break Cryonics Down (2009)](http://www.overcomingbias.com/2009/03/break-cryonics-down.html)
 
 ### Miscellania
