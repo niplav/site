@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-04, modified: 2024-09-29, language: english, status: in progress, importance: 7, confidence: certain*
+*author: niplav, created: 2023-01-04, modified: 2024-10-22, language: english, status: in progress, importance: 7, confidence: certain*
 
 > __There are too many possible quantified self experiments to run. Do
 hobbyist prediction platforms[^1] make priorisation easier? I test
@@ -225,9 +225,9 @@ with.
 
 | Value tracked        | Effect size d (λ, p, σ change)    |
 | -------------------- | --------------------------------- |
-| Productivity         | 0.26 (λ≈6.23, p≈0.069, 0.05, 52)  |
-| Creativity           | -0.04 (λ≈0.58, p≈0.92, 0.01, 52)  |
-| Subjective length    | -0.147 (λ≈3.33, p≈0.37, 0.03, 52) |
+| Productivity         | 0.26 (λ≈5.41, p≈0.117, -0.04, 54) |
+| Creativity           | -0.13 (λ≈0.51, p≈0.93, 0.01, 54)  |
+| Subjective length    | -0.14 (λ≈4.1, p≈0.256, 0.04, 54)  |
 | Happiness            | -0.07 (λ≈0.32, p≈0.96, 0.01, 111) |
 | Contentment          | -0.13 (λ≈1.08, p≈0.83, 0.05, 111) |
 | Relaxation           | -0.04 (λ≈1.23, p≈0.8, -0.25, 111) |
@@ -258,11 +258,11 @@ And the results are:
 
 	>>> res
 	    productivity  creativity     sublen       happy     content     relaxed       horny
-	d       0.259951   -0.041504  -0.147437   -0.073699   -0.132798   -0.038319   -0.144040
-	λ       6.225107    0.583007   3.329000    0.318865    1.078502    1.232905    7.756272
-	p       0.069062    0.918520   0.368416    0.959552    0.827240    0.795999    0.022903
-	dσ     -0.050269    0.013871   0.033902    0.007177    0.047723   -0.252365    0.744675
-	k      52.000000   52.000000  52.000000  111.000000  111.000000  111.000000  111.000000
+	d       0.257836   -0.130323  -0.140056   -0.073699   -0.132798   -0.038319   -0.144040
+	λ       5.413354    0.508335   4.058103    0.318865    1.078502    1.232905    7.756272
+	p       0.117179    0.930744   0.256304    0.959552    0.827240    0.795999    0.022903
+	dσ     -0.044201    0.006098   0.037463    0.007177    0.047723   -0.252365    0.744675
+	k      54.000000   54.000000  54.000000  111.000000  111.000000  111.000000  111.000000
 
 I didn't meditate or do flashcards during that time.
 
