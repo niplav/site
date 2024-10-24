@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2024-01-26, modified: 2024-01-31, language: english, status: in progress, importance: 2, confidence: certain*
+*author: niplav, created: 2024-01-26, modified: 2024-10-24, language: english, status: in progress, importance: 2, confidence: certain*
 
 > __I've decided to learn some real math, not just computer scientist
 math.__
@@ -97,10 +97,10 @@ Let `$g$` be the primite root modulo `$p$`. Then the isomorphism between
 
 * 0: Order 1 (it's already the identity element)
 * 1: Order 6, `$1+1+1+1+1+1 \mod 6=0$`
-* 2: Order 3 `$2+2+2 \mod 6=0$`
-* 3: Order 2 `$3+3 \mod 6=0$`
-* 4: Order 3 `$4+4+4 \mod 6=0$`
-* 5: Order 6 `$5+5+5+5+5+5 \mod 6=0$`
+* 2: Order 3, `$2+2+2 \mod 6=0$`
+* 3: Order 2, `$3+3 \mod 6=0$`
+* 4: Order 3, `$4+4+4 \mod 6=0$`
+* 5: Order 6, `$5+5+5+5+5+5 \mod 6=0$`
 
 ### Exercise 1.5.6
 
