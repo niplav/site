@@ -1,9 +1,10 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-04-22, modified: 2024-10-22, language: english, status: in progress, importance: 5, confidence: highly likely*
+*author: niplav, created: 2024-04-22, modified: 2024-10-24, language: english, status: in progress, importance: 5, confidence: highly likely*
 
-> __How to compare how similarly programs compute their outputs.__
+> __In which to compare how similarly programs compute their outputs,
+[naïvely](#A_Nave_Formula) and [less naïvely](#A_Less_Nave_Formula).__
 
 Logical Correlation
 ====================
@@ -25,8 +26,13 @@ is pretty small, because even though it gives the same output, it gives
 that output for very different reasons, so I don't have much control
 over its outputs by controlling my own computations.
 
-Let's call this similarity of two algorithms the __logical correlation__
-between the two algorithms, a term also used in [Demski & Garrabrant
+Let's call this similarity of two algorithms the
+__logical correlation__ between the two algorithms ([alternative
+terms](https://forum.effectivealtruism.org/posts/JGazpLa3Gvvter4JW/cooperating-with-aliens-and-agis-an-ecl-explainer#fnref5yum06b0ld8)
+"include “logical influence,” “logical
+correlation,” “correlation,” “quasi-causation,”
+“metacausation,” […] “entanglement”[,] “acausal
+influence”"). I take this term from [Demski & Garrabrant
 2020](./cs/ai/alignment/agent_foundations/embedded_agency_demski_garrabrant_2020.pdf):
 
 > One idea is that exact copies should be treated as 100% under
@@ -45,12 +51,15 @@ that all other implementations of my decision algorithm also cooperate.
 
 *—Caspar Oesterheld, “Multiverse-wide Cooperation via Correlated Decision Making” p. 18, 2018*
 
-We don't yet have a way of estimating the logical correlation between
-different decision algorithms.
+There isn't yet an established way of estimating the logical correlation
+between different decision algorithms.
 
-Thus: Consider proposing the most naïve formula (which we'll designate
-by `$合$`[^2]) for logical correlation[^1]: Something that takes in
-two programs and returns a number that quantifies how similarly the two
+A Naïve Formula
+----------------
+
+Thus: Consider the some naïve formula (which we'll designate by
+`$合$`[^2]) for logical correlation[^1]: Something that takes in two
+programs and returns a number that quantifies how similarly the two
 programs compute what they compute.
 
 ### Setup
@@ -61,9 +70,10 @@ tape states after each command execution. We'll treat the final tape
 state as the output, all in binary.
 
 That is `$p=(c, t)$`, with `$c \in \{0, 1\}^+$` and `$t \in (\{0,
-1\}^+)^+$` Let `$l=|t|$` be the number of steps that `$p$` takes to halt.
+1\}^+)^+$`. Let `$l=|t|$` be the number of steps that `$p$` takes to halt.
 
-For simplicities' sake, let's call `$t_l$` `$o$`, the output.
+For simplicity's sake, let's give `$t_l$` (the tape state upon halting)
+the name `$o$`, the output.
 
 ### Possible Desiderata
 
@@ -95,7 +105,41 @@ metric](https://en.wikipedia.org/wiki/String_similarity_metric) `$d:
 The lower `$合$`, the higher the logical correlation between `$p_1$`
 and `$p_2$`.
 
-If `$d(o_1, o_2)<d(o_1, o_3)$`, then it's also the case that `$合(p_1, p_2, γ)<合(p_1, p_3, γ)$`.
+#### Explanation
+
+Let's take a look at the equation again, but this time with some color
+highlighting:
+
+<div>
+        $$合(p_1, p_2, γ)=\color{red}{d(o_1, o_2)}+0.5\color{orange}{-}\frac{1}{2+\color{green}{\sum_{k=1}^{\min(l_1, l_2)}} \color{purple}{γ^k \cdot} \color{blue}{d(t_1(l_1-k), t_2(l_2-k))}}$$
+</div>
+
+The fundamental idea is that we first <span style="color:red">compute
+the distance of the two outputs</span>. We then go *backward* through
+the trace of the two programs, <span style="color:green">adding up the
+pairwise </span> <span style="color:blue">differences of the traces at
+each timestep</span>, potentially <span style="color:purple">discounting
+the differences the farther they lie in in the "past" of the
+output/further towards the start of the computation</span>.
+
+![](./img/logical/naive.png)
+
+Finally, we <span style="color:orange">*subtract*</span> the inverse of
+this (discounted) sum of trace differences from the output difference[^4].
+
+The fraction can maximally be ½ (since we're
+adding a number greater than zero to two in the [lower
+number](./mathematics_notation_convention.html#Basics)). Thus, since
+we're subtracting a number ≤½ from `$d(o_1, o_2)+0.5$`, the resulting
+logical correlation must be `$d(o_1, o_2)≤合(p_1, p_2, γ)≤d(o_1,
+o_2)+0.5$`. That implies that for three programs with the same output,
+their logical correlations all lie in that range. That also means that
+if `$d(o_1, o_2)<d(o_1, o_3)$`, then it's the case that `$合(p_1, p_2,
+γ)<合(p_1, p_3, γ)$`.
+
+Or, in even simpler terms; "Output similarity dominates trace similarity."
+
+#### Different Trace Lengths
 
 One might also want to be able to deal with the fact that programs have
 different trace lengths, and penalize that, e.g. amending the formula:
@@ -103,10 +147,6 @@ different trace lengths, and penalize that, e.g. amending the formula:
 <div>
         $$合'(p_1, p_2, γ)=合(p_1, p_2, γ)+2^{|l_1-l_2|}$$
 </div>
-
-I'm a bit unhappy that the code doesn't factor into the logical
-correlation, and ideally one would want to be able to compute the logical
-correlation without having to run the program.
 
 ### Desiderata Fulfilled?
 
@@ -118,8 +158,8 @@ string distance `$d$` is a metric, in the mathematical sense.
 Proof:
 
 <div>
-	$$d(o, o)+0.5-\frac{1}{2+\sum_{k=0}^{\min(l, l)} γ^k \cdot d(t(l-k), t(l-k))}= \\
-	0+0.5+\frac{1}{2+\sum_{k=0}^l y^k \cdot 0}= \\
+	$$d(o, o)+0.5-\frac{1}{2+\sum_{k=1}^{\min(l, l)} γ^k \cdot d(t(l-k), t(l-k))}= \\
+	0+0.5+\frac{1}{2+\sum_{k=1}^l y^k \cdot 0}= \\
 	0.5+\frac{1}{2+0}= \\
 	0$$
 </div>
@@ -128,7 +168,45 @@ Since `$d$` is a metric, `$d(o, o)=0$`.
 
 #### Proving Positivity
 
-(The minimal logical correlation is 0.)
+The minimal logical correlation is 0.
+
+<div>
+	$$合(p_1, p_2, γ)≥0 \Leftrightarrow \\
+	d(o_1, o_2)+0.5-\frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1(l_1-k), t_2(l_2-k))}≥0 \Leftrightarrow \\
+	d(o_1, o_2)+0.5 ≥\frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1(l_1-k), t_2(l_2-k))} \Leftrightarrow \\
+	2 \cdot d(o_1, o_2)+1+d(o_1, o_2) \cdot \sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1(l_1-k), t_2(l_2-k))+0.5 \cdot \sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1(l_1-k), t_2(l_2-k))≥1 \Leftrightarrow \\
+	2 \cdot d(o_1, o_2)+1+(d(o_1, o_2)+0.5) \cdot \sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1(l_1-k), t_2(l_2-k)))≥1 \Leftrightarrow \\
+	2 \cdot d(o_1, o_2)+(d(o_1, o_2)+0.5) \cdot \sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1(l_1-k), t_2(l_2-k)))≥0 $$
+</div>
+
+This is true, because:
+
+1. `$d(o_1, o_2)≥0$`.
+2. `$d(t_1(l_1-k), t_2(l_2-k))≥0$` for every `$k$`.
+3. `$γ^k≥0$` for every `$k$`.
+
+Thus we have a sum of products of only positive things, which is in turn
+positive itself.
+
+<!--
+### Implementation
+
+TODO: implement in Rust using Brainfuck-->
+
+A Less Naïve Formula
+---------------------
+
+I think that [the naïve formula](#Some_Nave_Formula) is *too* naïve.
+Reasons:
+
+1. If you have a program `$p$` and a program `$p^-$` which is just `$p$` but with the tape reversed (so that whenever `$p$` makes a step left, `$p^-$` makes a step right, and same with right steps for `$p$`). Intuitively `$p$` and `$p^-$` should have a very high logical correlation, but `$合$` would tell us that they very much don't.
+2. `$合$` doesn't *really* make a statement about which states of the program influence which other states, it just compares them.
+3 I'm a bit unhappy that the code doesn't factor into `$合$`, and ideally one would want to be able to compute the logical correlation without having to run the program.
+
+I think one can create a better (though not perfect)
+way of determining logical correlations based on [Shapley
+Values](https://en.wikipedia.org/wiki/Shapley_value) and possible
+tape-permutations.
 
 See Also
 ---------
@@ -144,3 +222,4 @@ exactly same tape states…)-->
 [^1]: Actually not explained in detail anywhere, as far as I can tell.
 [^2]: Suggested by GPT-4. Stands for [joining, combining, uniting](https://en.wiktionary.org/wiki/%E5%90%88#Definitions). Also "to suit; to fit", "to have sexual intercourse", "to fight, to have a confrontation with", or "to be equivalent to, to add up". Maybe I could've used one of the [ghost characters](https://en.wikipedia.org/wiki/Ghost_characters).
 [^3]: Which is needed because tape states close to the output are more important than tape states early on.
+[^4]: Together with two constants to avoid division by zero or same logical correlations for programs with different outputs differences.

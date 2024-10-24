@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-07-06, modified: 2024-10-17, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2023-07-06, modified: 2024-10-24, language: english, status: notes, importance: 6, confidence: possible*
 
 > __Humans get around 80 years of life. How can that time be made to
 feel as long as possible?__
@@ -80,8 +80,8 @@ and (weakly) conclude that melatonin reduces my sleep duration by ~25
 minutes, although I have not checked whether melatonin simply makes my
 body go into sleep debt which is then paid off the next night.
 
-But meta-analysis I've found claim that melatonin increases sleep duration
-by ~13 minutes:
+But a meta-analysis I've found claim that melatonin increases sleep
+duration by ~13 minutes:
 
 > Melatonin treatment significantly […] increased total sleep duration
 by 12.8 min (95% CI 2.9, 22.8). […]  
