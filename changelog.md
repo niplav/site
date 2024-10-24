@@ -26,6 +26,7 @@ content.
 October 2024
 -------------
 
+* [Logical Correlation](./logical.html): [Explanation](./logical.html#Explanation) of the [naïve formula](./logical.html#A_Nave_Formula)
 * [Make ICBMs Abortable Mid-Flight](./nuclear.html#Make_ICBMs_Abortable_MidFlight)
 * [Supplements To The Overcoming Bias Anthology](./notes.html#Supplements_To_The_Overcoming_Bias_Anthology)
 * [Notes on Pickup](./notes_on_pickup.html):
