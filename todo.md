@@ -813,8 +813,6 @@ Texts
 	* How good are prediction markets?
 * Reporting Likelihood Ratios: A Practical Tutorial
 * Some Problems in Computational Philosophy
-	* Metrics for Logical Correlation
-		* Between Decision Algorithms and algorithms in general
 	* The Python-with-Witch Problem
 	* Solomonoff Induction with a Sophistication Prior?
 	* Dutch-books for Agents That Implement Incompleteness via Randomization
