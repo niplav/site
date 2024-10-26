@@ -68,7 +68,10 @@ diamond-square algorithm:
 		offsets=[np.array([0]*dim)]
 		return ndim_diamond_square_rec(space, dim, size, offsets, minval, maxval, factor)
 
-### Diamond
+Now there are two possible variants of the generalized diamond-square
+algorithm: the Long Diamond variation and the Long Square variation.
+
+### Long Diamond
 
 The diamond step of the algorithm starts out with the base case: If the
 space is only one element big, we return and do nothing (assuming the
@@ -88,7 +91,11 @@ step, we moved into a diamond step on the smaller squares? `offsets`
 describes where the "left lower corner" of those smaller squares is. We
 initialized it with zeros, that way we start in a definite corner.
 
-### Square
+#### Diamond
+
+#### Square
+
+### Long Square
 
 Code [here](code/diamond/ndim_diamond_square.py). I think this is probably
 the 2nd-most beautiful code I've ever written, just after [this absolute
