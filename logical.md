@@ -1,13 +1,17 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-04-22, modified: 2024-10-24, language: english, status: in progress, importance: 5, confidence: highly likely*
+*author: niplav, created: 2024-04-22, modified: 2024-10-25, language: english, status: in progress, importance: 5, confidence: highly likely*
 
 > __In which to compare how similarly programs compute their outputs,
 [naïvely](#A_Nave_Formula) and [less naïvely](#A_Less_Nave_Formula).__
 
 Logical Correlation
 ====================
+
+Attention conservation notice: Premature formalization,
+[ab-](https://en.wiktionary.org/wiki/ab-)[hoc mathematical
+definition](https://www.lesswrong.com/posts/GhFoAxG49RXFzze5Y/what-s-so-bad-about-ad-hoc-mathematical-definitions).
 
 In the [twin prisoners
 dilemma](https://www.lesswrong.com/tag/psychological-twin-prisoner-s-dilemma),
