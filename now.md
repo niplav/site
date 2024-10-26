@@ -55,7 +55,6 @@ Currently, I am actively reading the following texts:
 * [Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)](https://statisticswithjulia.org/)
 * [Designing Data-Intensive Applications (Martin Kleppmann, 2017)](https://dataintensive.net/)
 * [Coming to Wholeness (Connirae Andreas, 2018)](https://www.goodreads.com/book/show/42348332-coming-to-wholeness)
-* [De tranquillitate animi (Seneca, -60)](https://en.wikipedia.org/wiki/De_Tranquillitate_Animi)
 * ML for the Working Programmer (Lawrence C. Paulson, 1996)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 4/1000.
