@@ -599,3 +599,5 @@ datetime,substance,amount,experiment,id,prediction
 2024-10-24T10:50:18+02:00,vitamind3,25μg,C,14,0.45
 2024-10-25T09:18:23+02:00,caffeine,200mg,,,
 2024-10-26T13:00:09+02:00,creatine,3g,,,
+2024-10-27T01:16:38+02:00,melatonin,0.4mg,,,
+2024-10-27T23:55:32+01:00,melatonin,0.5mg,,,

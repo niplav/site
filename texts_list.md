@@ -17,6 +17,18 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [The Eurovision Song Contest: A Meaning-Making Machine (John Nerst, 2018)](https://everythingstudies.com/2018/05/11/the-esc-a-meaning-making-machine/)
+* [Everett branches, inter-light cone trade and other alien matters: Appendix to “An ECL explainer” (Chi/Will Aldred, 2024)](https://forum.effectivealtruism.org/posts/9prioPT5vFi3uA8Pi/everett-branches-inter-light-cone-trade-and-other-alien)
+* [Why is Western Animation Ugly? (Gwern Branwen, 2024)](https://gwern.net/ugly-anime)
+* [Turning Airplanes into Air-busses (Sam Harsimony, 2023)](https://splittinginfinity.substack.com/p/turning-airplanes-into-air-busses)
+* [Extra, Extra - Read All About It: Nearly All Binary Searches and Mergesorts are Broken (Joshua Bloch, 2006)](https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/)
+* [Defining Floating Point Precision - What is FP64, FP32, FP16? (Exxact, 2024)](https://www.exxactcorp.com/blog/hpc/what-is-fp64-fp32-fp16)
+* [AI #87: Staying in Character (Zvi, 2024)](https://thezvi.substack.com/p/ai-87-staying-in-character)
+* [Claude Sonnet 3.5.1 and Haiku 3.5 (Zvi, 2024)](https://www.lesswrong.com/posts/jZigzT3GLZoFTATG4/claude-sonnet-3-5-1-and-haiku-3-5)
+* [Evidential Cooperation in Large Worlds: Potential Objections & FAQ (Chi/Will Alldred, 2024)](https://forum.effectivealtruism.org/posts/KzXSWKvbsSfEMryef/evidential-cooperation-in-large-worlds-potential-objections)
+* [Cooperating with aliens and AGIs: An ECL explainer (Chi/Will Alldred/Akash, 2024)](https://forum.effectivealtruism.org/posts/JGazpLa3Gvvter4JW/cooperating-with-aliens-and-agis-an-ecl-explainer)
+* [Developing a computer use model (Anthropic, 2024)](https://www.anthropic.com/news/developing-computer-use)
+* [The AI agents have arrived (Casey Newton, 2024)](https://www.platformer.news/anthropic-ai-agents-computer-use-consequences/)
 * [|31-34 Foundational Challenges in Assuring Alignment and Safety of Large Language Models Usman Anwar/Abulhair Saparov/Javier Rando/Daniel Paleka/Miles Turpin/Peter Hase/Ekdeep Singh Lubana/Erik Jenner/Stephen Casper/Oliver Sourbut/Benjamin L Edelman/Zhaowei Zhang/Mario Günther/Anton Korinek/Jose Hernandez-Orallo/Lewis Hammond/Eric Bigelow/Alexander Pan/Lauro Langosco/Tomasz Korbak/Heidi Zhang/Ruiqi Zhong/Seán Ó hÉigeartaigh/Gabriel Recchia/Giulio Corsi/Alan Chan/Markus Anderljung/Lilian Edwards/Yoshua Bengio/Danqi Chen/Samuel Albanie/Tegan Maharaj/Jakob Foerster/Florian Tramer/He He/Atoosa Kasirzadeh/Yejin Choi/David Krueger, 2024)](https://arxiv.org/abs/2404.09932)
 * \* On Coalition Incentive Compatibility (Jerry Green/Jean-Jacques Laffont, 1979)
 * [Ignorance, a skilled practice (birguslatro, 2020)](https://carcinisation.com/2020/01/27/ignorance-a-skilled-practice/)
