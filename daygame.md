@@ -3,9 +3,9 @@
 
 *author: niplav, created: 2024-10-17, modified: 2024-10-22, language: english, status: notes, importance: 3, confidence: log*
 
-> __Yes.  
+> __[Yes.  
 I did it.  
-I feel… no remorse, *and I'll do it again*.__<!--TODO: link video-->
+I feel… no remorse… *and I'LL DO IT AGAIN*](https://www.youtube.com/watch?v=8RadZKL85yM).__
 
 On Daygame
 ===========
