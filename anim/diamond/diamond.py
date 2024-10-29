@@ -185,8 +185,8 @@ class LongDiamondAnimation(ThreeDScene):
             arrow = Arrow3D(
                 start=corner,
                 end=end_point,
-                color=YELLOW,
-                thickness=0.02
+                color=WHITE,
+                thickness=0.015
             )
             arrows_to_center.add(arrow)
 
@@ -231,7 +231,7 @@ class LongDiamondAnimation(ThreeDScene):
                 arrow = Arrow3D(
                     start=start_point,
                     end=end_point,
-                    color=GREEN,
+                    color=WHITE,
                     thickness=0.01,
                 )
                 face_arrows.add(arrow)
@@ -239,8 +239,10 @@ class LongDiamondAnimation(ThreeDScene):
             self.play(
                 Create(face_center_dot),
                 *[Create(arrow) for arrow in face_arrows],
-                run_time=1
+                run_time=1.33
             )
+
+        self.wait(1)
 
         # Define edges and their midpoints
         edges = [
@@ -285,7 +287,7 @@ class LongDiamondAnimation(ThreeDScene):
                 arrow = Arrow3D(
                     start=start_point,
                     end=end_point,
-                    color=BLUE_E,
+                    color=WHITE,
                     thickness=0.005,
                 )
                 edge_arrows.add(arrow)
@@ -300,7 +302,7 @@ class LongDiamondAnimation(ThreeDScene):
                 arrow = Arrow3D(
                     start=start_point,
                     end=end_point,
-                    color=BLUE_E,
+                    color=WHITE,
                     thickness=0.005,
                 )
                 edge_arrows.add(arrow)
@@ -308,7 +310,7 @@ class LongDiamondAnimation(ThreeDScene):
             self.play(
                 Create(edge_center_dot),
                 *[Create(arrow) for arrow in edge_arrows],
-                run_time=0.75
+                run_time=1.25
             )
 
         self.wait(3)

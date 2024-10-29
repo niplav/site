@@ -71,7 +71,13 @@ diamond-square algorithm:
 Now there are two possible variants of the generalized diamond-square
 algorithm: the Long Diamond variation and the Long Square variation.
 
+The Long Diamond ⇔ Long Cube Spectrum
+--------------------------------------
+
 ### Long Diamond
+
+<video src="./vid/diamond/long_diamond_white.mp4" type="video/mp4" controls>
+</video>
 
 The diamond step of the algorithm starts out with the base case: If the
 space is only one element big, we return and do nothing (assuming the

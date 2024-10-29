@@ -100,7 +100,7 @@ What's going on here? It might be that the studies were done on insomniacs
 and not healthy people who want to decrease their sleep duration, or it
 might be that the dose was too high (i.e. >1mg), and thus increased sleep
 duration. The first one is unlikely: The studies with the highest amount
-of sleep increase (Attenburrow (96) and Hughes (97) were both on healthy
+of sleep increase (Attenburrow (96) and Hughes (97)) were both on healthy
 individuals, and the two studies which showed a noticeable decrease in
 sleep duration were both on insomniacs (Dahlitz (91) and Shamir (00)
 (which was on *schizophrenic* insomniacs). The dose being too high seems

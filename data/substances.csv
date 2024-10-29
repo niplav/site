@@ -601,3 +601,6 @@ datetime,substance,amount,experiment,id,prediction
 2024-10-26T13:00:09+02:00,creatine,3g,,,
 2024-10-27T01:16:38+02:00,melatonin,0.4mg,,,
 2024-10-27T23:55:32+01:00,melatonin,0.5mg,,,
+2024-10-28T08:30:18+02:00,vitamind3,25μg,C,15,0.62
+2024-10-28T23:51:40+01:00,melatonin,0.375mg,,,
+2024-10-29T09:53:59+01:00,vitamind3,25μg,C,16,0.3
