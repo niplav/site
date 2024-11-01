@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-02-28, modified: 2024-04-21, language: english, status: in progress, importance: 6, confidence: possible*
+*author: niplav, created: 2024-02-28, modified: 2024-10-30, language: english, status: in progress, importance: 6, confidence: possible*
 
 > __I examine the literature on transfer learning in humans. [Far
 transfer](#Far_Transfer) is difficult to achieve, best
@@ -25,9 +25,9 @@ learning-accelerating techniques (meta-learning).
 Summary
 --------
 
-I've spent ~20 hours reading and skimming papers
-and parts of books from different fields, and
-extracting the results from them, resulting spreadsheet
+I've spent ~20 hours reading and skimming
+papers and parts of books from different fields,
+and extracting the results from them. Resulting spreadsheet
 [here](https://docs.google.com/spreadsheets/d/1-_EuaLf1Fau7hhH-9lvzec-hhiswmRM2rey2bfbp8mA/),
 google doc with notes
 [here](https://docs.google.com/document/d/1EjgQJi8XOkiaQg74V1tFgEhFXlg_ueb0Z9N7ABEg4NU/).

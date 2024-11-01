@@ -408,10 +408,12 @@ you don't get elsewhere. Here's some of his best posts.
 * [Catch and release women who want families (2018)](https://theredquest.wordpress.com/2018/01/12/catch-and-release-women-who-want-families/)
 * [The best books for learning game (2017)](https://theredquest.wordpress.com/2017/12/02/the-best-books-for-learning-game/)
 
-#### Sex Clubs
+#### Sex Clubs and Non-Monogamy
 
 * [Sex clubs, swingers, and game (2017)](https://theredquest.wordpress.com/2017/09/24/sex-clubs-swingers-and-game/)
 * [Sex parties and sex clubs could be the next level of game (2018)](https://theredquest.wordpress.com/2018/01/21/sex-parties-and-sex-clubs-could-be-the-next-level-of-game/)
+* [Non-monogamy is NOT for everyone (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/01/non-monogamy-is-not-for-everyone/)
+* [Jealousy and non-monogamy (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/18/jealousy-and-non-monogamy/)
 
 ### Attractiveness
 
@@ -461,6 +463,7 @@ threatened. Not me. I see man as the tool-using animal.
 
 * [Be kind from a position of strength, not a position of weakness (2017)](https://theredquest.wordpress.com/2017/05/12/be-kind-from-a-position-of-strength-not-a-position-of-weakness/)
 * [You only see the tip of the spear (2019)](https://theredquest.wordpress.com/2019/02/07/you-only-see-the-tip-of-the-spear/)
+* [There is no easy way: there is only the hard way (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/17/there-is-no-easy-way-there-is-only-the-hard-way/)
 * [Be extreme (2019)](https://theredquest.wordpress.com/2019/03/29/be-extreme/)
 * [The game challenge: doing what’s unnatural (2018)](https://theredquest.wordpress.com/2018/05/19/the-game-challenge-doing-whats-unnatural/)
 
@@ -478,6 +481,10 @@ threatened. Not me. I see man as the tool-using animal.
 * [What do we spend our excess money on? Sex. (2018)](https://theredquest.wordpress.com/2018/08/31/what-do-we-spend-our-excess-money-on-sex/)
 * [My pet theory: people get discontent with what they have (2017)](https://theredquest.substack.com/p/my-pet-theory-people-get-discontent-with-what-they-have)
 * [When girls shift from pure party mode to preferring guys with resources (2021)](https://theredquest.wordpress.com/2019/03/24/when-girls-shift-from-pure-party-mode-to-preferring-guys-with-resources/)
+
+### Stories
+
+* [Jeremy with the Burns (2018)](https://theredquest.wordpress.com/2018/11/08/jeremy-with-the-burns/)
 
 #### Marriage and Divorce
 

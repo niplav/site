@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-10-14, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-10-31, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,51 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [This is probably a stupid thing to do, but… (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/21/this-is-probably-a-stupid-thing-to-do-but/)
+* [“The Suburban Mom Thinking About Cheating on Her Husband” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/20/the-suburban-mom-thinking-about-cheating-on-her-husband/)
+* [Peaches for days [LR] (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/19/peaches-for-days-lr/)
+* [Ms. Slav story updates: Enter new girl Peaches (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/11/ms-slav-story-updates/)
+* [Immigration, identity, knowledge part 2 (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/09/immigration-identity-knowledge-part-2/)
+* [Jeremy with the burns (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/08/jeremy-with-the-burns/)
+* [Get past your identity and look at the data (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/08/get-past-your-identity-and-look-at-the-data/)
+* [Model City Monday 8/1/22 (Scott Alexander, 2022)](https://www.astralcodexten.com/p/model-city-monday-8122)
+* [Victoria’s Secret knows that women want to be sexy (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/18/victorias-secret-knows-that-women-want-to-be-sexy/)
+* [“‘Sneating’ is the online dating trend that feeds on chivalrous men”? (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/13/sneating-is-the-online-dating-trend-that-feeds-on-chivalrous-men/)
+* [Girls who don’t understand that sex isn’t just available “on demand” for guys (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/12/girls-who-dont-understand-that-sex-isnt-just-available-on-demand-for-guys/)
+* [“Financial abortion” for men (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/12/financial-abortion-for-men/)
+* [The Hyperbolic Geometry of DMT Experiences: Symmetries, Sheets, and Saddled Scenes (Andrés Gomez Emilsson, 2016)](https://qualiacomputing.com/2016/12/12/the-hyperbolic-geometry-of-dmt-experiences/)
+* \* Artificial Intelligence Act (European Parliament, 2024)
+* [The top girl from Seeking Arrangements (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/31/the-top-girl-from-seeking-arrangements/)
+* [Ecosystems and clubs (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/07/ecosystems-and-clubs/)
+* [Another Ms. Slav update (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/04/another-ms-slav-update/)
+* [Instead of targeting welfare, charge after-the-fact (Sam Harsimony, 2023)](https://splittinginfinity.substack.com/p/instead-of-targeting-welfare-charge)
+* [Who I write for and why you need to blog (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/07/who-i-write-for-and-why-you-need-to-blog/)
+* [“Boom! First SDL from daygame: part one” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/07/boom-first-sdl-from-daygame-part-one/)
+* [The average guy and the player have different problems (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/04/the-average-guy-and-the-player-have-different-problems/)
+* [Jealousy and non-monogamy (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/18/jealousy-and-non-monogamy/)
+* [“Untrue,” on female lust and infidelity, for players (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/05/untrue-on-female-lust-and-infidelity-for-players/)
+* [“How do I know a girl is serious or just leading things on?” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/31/how-do-i-know-a-girl-is-serious-or-just-leading-things-on/)
+* [High school memories: no sex for you, but yes for the next guy (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/31/high-school-memories-no-sex-for-you-but-yes-for-the-next-guy/)
+* [The beta is strong in this one (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/23/the-beta-is-strong-in-this-one/)
+* [Ms. Slav: the latest updates (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/19/ms-slav-the-latest-updates/)
+* [There is no easy way: there is only the hard way (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/17/there-is-no-easy-way-there-is-only-the-hard-way/)
+* [“Aggressive and Humiliating Sexual Play” are highly desired by most people (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/17/aggressive-and-humiliating-sexual-play-are-highly-desired-by-most-people/)
+* [“Don’t fall for a girl half your age.” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/12/dont-fall-for-a-girl-half-your-age/)
+* [“After a year of #MeToo, Americans are more sceptical about sexual harassment” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/16/after-a-year-of-metoo-americans-are-more-sceptical-about-sexual-harassment/)
+* [“When a DNA Test Reveals Your Daughter Is Not Your Biological Child” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/12/when-a-dna-test-reveals-your-daughter-is-not-your-biological-child/)
+* [“Modern Love: Talking to My Fiancé About My New Girlfriend” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/12/modern-love-talking-to-my-fiance-about-my-new-girlfriend/)
+* [Non-monogamy is NOT for everyone (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/01/non-monogamy-is-not-for-everyone/)
+* [Don’t be this guy (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/01/dont-be-this-guy/)
+* [* 'Reflections on Trusting Trust', but completely by accident this time (duk, 2024)](https://secret.club/2024/10/21/unnecessarily-exhaustice-rca.html)
+* [“The ‘Untrue’ Woman” is another lesson to guys: don’t get married. (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/28/the-untrue-woman-is-another-lesson-to-guys-dont-get-married/)
+* [The second open-relationship, non-monogamy girl (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/24/the-second-open-relationship-non-monogamy-girl/)
+* [“Life’s too short to try to manage damaged people” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/23/lifes-too-short-to-try-to-manage-damaged-people/)
+* [“Delivery Room Workers Explain What Happens When A Baby Clearly Isn’t The Father’s” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/21/delivery-room-workers-explain-what-happens-when-a-baby-clearly-isnt-the-fathers/)
+* [Where I fit in to the game world (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/18/where-i-fit-in-to-the-game-world/)
+* [Photography game? (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/16/photography-game/)
+* [“How to deal with rejection.” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/16/how-to-deal-with-rejection/)
+* [Feedback request: What do you want to see in a book about non-monogamy and players? (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/12/feedback-request-what-do-you-want-to-see-in-a-book-about-non-monogamy-and-players/)
+* [Why players get out of the game (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/05/why-players-get-out-of-the-game/)
 * [The Eurovision Song Contest: A Meaning-Making Machine (John Nerst, 2018)](https://everythingstudies.com/2018/05/11/the-esc-a-meaning-making-machine/)
 * [Everett branches, inter-light cone trade and other alien matters: Appendix to “An ECL explainer” (Chi/Will Aldred, 2024)](https://forum.effectivealtruism.org/posts/9prioPT5vFi3uA8Pi/everett-branches-inter-light-cone-trade-and-other-alien)
 * [Why is Western Animation Ugly? (Gwern Branwen, 2024)](https://gwern.net/ugly-anime)
