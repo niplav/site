@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-04-22, modified: 2024-10-25, language: english, status: in progress, importance: 5, confidence: highly likely*
+*author: niplav, created: 2024-04-22, modified: 2024-11-04, language: english, status: in progress, importance: 5, confidence: highly likely*
 
 > __In which to compare how similarly programs compute their outputs,
 [naïvely](#A_Nave_Formula) and [less naïvely](#A_Less_Nave_Formula).__
@@ -192,6 +192,26 @@ This is true, because:
 Thus we have a sum of products of only positive things, which is in turn
 positive itself.
 
+##### Only A Pseudometric
+
+But, unfortunately, it isn't the case that if `$p_1≠p_2$`, then
+`$合(p_1, p_2, γ)>0$`. Thus `$合$` is only a pseudometric.
+
+Consider, for example, two programs that both write a `$1$` to the
+starting position on the tape and then halt, but with the difference that
+`$p_1$` moves left and then right in the first two steps, and `$p_2$`
+moves right and then left in the first two steps. Both programs have
+the same tape-state trace, but are not "equal" in the strict sense as
+they have different source codes.
+
+You might now complain that this is vacuous, since the two programs have
+no relevant functional difference. That's true, but I suspect there's some
+trickier edge cases here where randomly initialized tapes can have very
+different (or in other cases equal) tape-state traces. If you find an
+[equivalence class](https://en.wikipedia.org/wiki/Equivalence_class)
+of programs that are just vacuously different, I'd be interested in
+hearing about it.
+
 <!--
 ### Implementation
 
@@ -205,7 +225,7 @@ Reasons:
 
 1. If you have a program `$p$` and a program `$p^-$` which is just `$p$` but with the tape reversed (so that whenever `$p$` makes a step left, `$p^-$` makes a step right, and same with right steps for `$p$`). Intuitively `$p$` and `$p^-$` should have a very high logical correlation, but `$合$` would tell us that they very much don't.
 2. `$合$` doesn't *really* make a statement about which states of the program influence which other states, it just compares them.
-3 I'm a bit unhappy that the code doesn't factor into `$合$`, and ideally one would want to be able to compute the logical correlation without having to run the program.
+3. I'm a bit unhappy that the code doesn't factor into `$合$`, and ideally one would want to be able to compute the logical correlation without having to run the program.
 
 I think one can create a better (though not perfect)
 way of determining logical correlations based on [Shapley
