@@ -10,8 +10,23 @@ I feel… no remorse… *and I'LL DO IT AGAIN*](https://www.youtube.com/watch?v=
 On Daygame
 ===========
 
+I'm not an intellectual, I'm just a
+guy who likes to fuck. But getting laid is a
+[thing](https://tsvibt.blogspot.com/2022/08/the-thingness-of-things.html)
+with regularities that can be learned, and an ecosystem with different
+niches. One of them is daygame, and it's been my favorite for years.
+
 1) What
 --------
+
+There's no widely accepted definition of daygame, and the standard
+textbooks[^1] don't offer one. (They go straight to the chase.) Here's
+mine:
+
+__Daygame__ is the craft of walking up to women in public, and talking
+to them with the intention of dating or sleeping with them.
+
+[^1]: Beginner Daygame, Daygame Nitro and Daygame Mastery.
 
 Utilitarians:
 --------------
