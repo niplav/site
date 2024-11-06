@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2024-10-21, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2024-11-06, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -23,6 +23,21 @@ the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
 
+November 2024
+--------------
+
+### Links
+
+* [On Coalition Incentive Compatibility (Jerry Green/Jean-Jacques Laffont, 1979)](./doc/econ/on_coalition_incentive_compatibility_green_laffont_1979.pdf): This month I got a bit interested in coalition-proof [mechanism design](https://en.wikipedia.org/wiki/Mechanism_Design); that is mechanisms that are robust to groups of participants with communication abilities. Coalition-[incentive-compatible](https://en.wikipedia.org/wiki/Incentive-compatible) general mechanisms can't exist, even if we restrict the size of coalition to two, of course unless we know the partition into coalitions, in which case each coalition gets treated as an agent. Some games can contain [coalition-proof Nash equilibria](https://en.wikipedia.org/wiki/Coalition-Proof_Nash_Equilibrium), but there is no mechanism that can always generate those.
+	* Thus, if we want to implement incentive-compatible mechanisms in the real world we might require something like notaries to oversee the process. Two things come to our advantage:
+		1. The optimal cheating behavior within the coalition results in the same evaluation given by every participant, which is blatant and easily detectable. Is this the reason why [keyword auctions](https://en.wikipedia.org/wiki/Keyword_auction#Bid-based_PPC) don't (?) see much cheating via coalitions?
+		2. As the size of the population grows, communication costs for finding & maintaining a coalition and agreeing on a cheating price rise as well. Green & Laffont prove that the probability of successful cheating coalitions becomes arbitrarily small with rising population size. However, this is only a partial consolation as calculating the [VCG mechanism](https://en.wikipedia.org/wiki/VCG_mechanism) is NP-hard in the size of the population. I haven't yet found anything about the computational complexity of finding and computing coalitions—presumably they'd use the VCG mechanism internally as well‽
+	* My intuition points to an alternative mechanism for [geometrically-rational](https://www.lesswrong.com/s/4hmf7rdfuXDJkxhfg/p/Xht9swezkGZLAxBrd) agents which [neatly compose into sub-/super-agents](https://www.lesswrong.com/posts/o3RLHYviTE4zMb9T9/tyranny-of-the-epistemic-majority): Can we get Nash equilibria and equivalents to coalition-resistant incentive-compatible mechanisms in that case[^1]? I.e., compositional mechanism design?
+		* Perhaps that's what the literature on compositional game theory is or could be on, but I haven't had the time or category theory knowledge to dig into it.
+* [Luna Wilson (Cryonics Wiki, 2023)](https://cryonics.miraheze.org/wiki/Luna_Wilson)
+
+[^1]: The lack of incentive-compatible coalition-proof mechanisms feels related dysfunctions in systems of agents, e.g. corruption or cancer, but I'm having a hard time spelling out how exactly.
+
 October 2024
 -------------
 
@@ -36,17 +51,12 @@ October 2024
 * Review of [Daygame Nitro (Nick Krauser, 2014)](./text_reviews.html#Daygame_Nitro_Nick_Krauser_2014)
 
 ### Links
-
-* [Coalition-proof Nash equilibrium (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Coalition-proof_Nash_equilibrium): This month I got a bit interested in coalition-proof [mechanism design](https://en.wikipedia.org/wiki/Mechanism_Design); that is mechanisms that are robust to groups of participants with communication abilities. Skimming [this paper](https://www.jstor.org/stable/2297048) tells me that coalition-resistant [incentive-compatible](https://en.wikipedia.org/wiki/Incentive-compatible) general mechanisms can't exist. Thus, if we want to implement incentive-compatible mechanisms in the real world we might require something like notaries to oversee the process.
-	* However, what about the case where [geometrically-rational](https://www.lesswrong.com/s/4hmf7rdfuXDJkxhfg/p/Xht9swezkGZLAxBrd) agents [neatly compose into super-agents](https://www.lesswrong.com/posts/o3RLHYviTE4zMb9T9/tyranny-of-the-epistemic-majority): Can we get Nash equilibria (?) and equivalents to coalition-resistant incentive-compatible mechanisms in that case[^1]?
 * [Taboo on the dead (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Taboo_on_the_dead): "In some cultures, the taboo extends to the use of the deceased's given name in any context, even when referring to other people, places, objects and concepts with a similar name. This can have a long-term impact on the language, as words similar to those of the deceased are progressively replaced with synonyms or loanwords. Linguist Bob Dixon considered that this would have resulted in such significant vocabulary replacement over time as to hinder application of the comparative method in linguistics"
 	* Also [Avoidance speech (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Avoidance_speech): "Avoidance speech is a group of sociolinguistic phenomena in which a special restricted speech style must be used in the presence of or in reference to certain relatives […] Ukuhlonipha is a traditional system of avoidance speech in Nguni Bantu languages of southern Africa including Zulu, Xhosa and Swazi, as well as Sotho. This special speech style and correlating respectful behaviors may be used in many contexts, but is most strongly associated with married women in respect to their father-in-law and other senior male relatives. Women who practice ukuhlonipha may not say the names of these men or any words with the same root as their names."
 * [DARPA AlphaDogFight (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/DARPA_AlphaDogfight); [USAF Test Pilot School and DARPA announce breakthrough in aerospace machine learning (Chase Kohler, 2024)](https://www.afrl.af.mil/News/Article-Display/Article/3745032/usaf-test-pilot-school-and-darpa-announce-breakthrough-in-aerospace-machine-lea/) (h/t [@lu_sichu](https://nitter.poast.org/lu_sichu/)): Automated dogfighting is happening, and will probably allow for more maneuverable fighter jet designs—not sure how this is going to interact with [increasingly droneified warfare](https://www.lesswrong.com/posts/oDXqwKzbACZf2qnKw/drone-wars-endgame).
 * [We Can Remember It For You Wholesale (John Bodi, 2015)](https://bodiblog.net/2015/08/11/we-can-remember-it-for-you-wholesale/)
 * Music: [Microtonal piano piece (Heui Sung Kim)](https://www.youtube.com/watch?v=dRSGWhPV_68), [Walk left Stand right (Abdominal)](https://www.youtube.com/watch?v=syP34aW-r1k), [Meds (Import Export)](https://www.youtube.com/watch?v=k-YxjrV_198)
 * Video: [Martin Heidegger Explained, Part 1: Being and Time (1927)](https://www.youtube.com/watch?v=bme25f0IUb8).
-
-[^1]: The lack of incentive-compatible coalition-proof mechanisms feels related dysfunctions in systems of agents, e.g. corruption or cancer, but I'm having a hard time spelling out how exactly.
 
 September 2024
 --------------
