@@ -17,6 +17,19 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Found out the problem with Ms. Slav (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/11/found-out-the-problem-with-ms-slav/)
+* [Priorities and Ms. Slav’s challenges in non-monogamy (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/06/priorities-and-ms-slavs-challenges-in-non-monogamy/)
+* [Sin City as a temporary escape (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/04/sin-city-as-a-temporary-escape/)
+* [Some men are stupid and need the Red Pill (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/03/some-men-are-stupid-and-need-the-red-pill/)
+* [Discretion and the Secret Society (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/01/discretion-and-the-secret-society/)
+* [Nobody Cares. Work Harder. (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/30/nobody-cares-work-harder/)
+* [“I’m Broke and Mostly Friendless, and I’ve Wasted My Whole Life” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/30/im-broke-and-mostly-friendless-and-ive-wasted-my-whole-life/)
+* [Ms. Slav at Thanksgiving–and the next, less good event (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/25/ms-slav-at-thanksgiving-and-the-next-less-good-event/)
+* [Disagree but be smart about it (TheRedquest, 2018)](https://theredquest.wordpress.com/2018/11/25/disagree-but-be-smart-about-it/)
+* [Age and players (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/25/age-and-players/)
+* [Selected Draft Previews, Part 2 (Clarky Khat, 2024)](https://scalingthemountain6.wordpress.com/2024/03/19/selected-draft-previews-part-2/)
+* [Luna Wilson (Cryonics Wiki, 2023)](https://cryonics.miraheze.org/wiki/Luna_Wilson)
+* [AI #88: Thanks for the Memos (Zvi, 2024)](https://www.lesswrong.com/posts/HHkYEyFaigRpczhHy/ai-88-thanks-for-the-memos)
 * [This is probably a stupid thing to do, but… (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/21/this-is-probably-a-stupid-thing-to-do-but/)
 * [“The Suburban Mom Thinking About Cheating on Her Husband” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/20/the-suburban-mom-thinking-about-cheating-on-her-husband/)
 * [Peaches for days [LR] (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/19/peaches-for-days-lr/)
@@ -75,7 +88,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Developing a computer use model (Anthropic, 2024)](https://www.anthropic.com/news/developing-computer-use)
 * [The AI agents have arrived (Casey Newton, 2024)](https://www.platformer.news/anthropic-ai-agents-computer-use-consequences/)
 * [|31-34 Foundational Challenges in Assuring Alignment and Safety of Large Language Models Usman Anwar/Abulhair Saparov/Javier Rando/Daniel Paleka/Miles Turpin/Peter Hase/Ekdeep Singh Lubana/Erik Jenner/Stephen Casper/Oliver Sourbut/Benjamin L Edelman/Zhaowei Zhang/Mario Günther/Anton Korinek/Jose Hernandez-Orallo/Lewis Hammond/Eric Bigelow/Alexander Pan/Lauro Langosco/Tomasz Korbak/Heidi Zhang/Ruiqi Zhong/Seán Ó hÉigeartaigh/Gabriel Recchia/Giulio Corsi/Alan Chan/Markus Anderljung/Lilian Edwards/Yoshua Bengio/Danqi Chen/Samuel Albanie/Tegan Maharaj/Jakob Foerster/Florian Tramer/He He/Atoosa Kasirzadeh/Yejin Choi/David Krueger, 2024)](https://arxiv.org/abs/2404.09932)
-* \* On Coalition Incentive Compatibility (Jerry Green/Jean-Jacques Laffont, 1979)
+* On Coalition Incentive Compatibility (Jerry Green/Jean-Jacques Laffont, 1979)
 * [Ignorance, a skilled practice (birguslatro, 2020)](https://carcinisation.com/2020/01/27/ignorance-a-skilled-practice/)
 * [More on Ms. Slav, and lessons for men who are dating (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/05/more-on-ms-slav/)
 * [Cause things change (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/05/cause-things-change/)
