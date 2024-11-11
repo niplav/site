@@ -153,8 +153,12 @@ like this:
 3. Only one test a week is allowed.
 4. If one party of the treaty uses a test for a covert attack, all other parties of the treaty attack the perpetrator.
 
-Make ICBMs Abortable Mid-Flight
---------------------------------
+### Discussions
+
+* [Effective Altruism Forum](https://forum.effectivealtruism.org/posts/C6xvD89F3Jj3WFNpW/two-reasons-for-restarting-the-testing-of-nuclear-weapons)
+
+Appendix A: Make ICBMs Abortable Mid-Flight
+--------------------------------------------
 
 At the moment, ICBMs can't be stopped once they've been started.<!--TODO:
 link-->
@@ -184,7 +188,3 @@ used by adversaries, but currently countries manage to keep many other
 secrets too, so this should be possible, especially if a [threshold
 cryptosystem](https://en.wikipedia.org/wiki/Threshold_cryptosystem)
 is used, which makes theft more difficult.
-
-### Discussions
-
-* [Effective Altruism Forum](https://forum.effectivealtruism.org/posts/C6xvD89F3Jj3WFNpW/two-reasons-for-restarting-the-testing-of-nuclear-weapons)

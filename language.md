@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2024-10-15, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2024-11-07, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of [puns](#Puns), [good
 bandnames](#Good_Bandnames), [types of guy](#Types_of_Guy), idioms,
@@ -459,7 +459,7 @@ We can test whether such words exist via gensim word2vec embeddings:
 * {be, take, give}×{a, the, ""} shit
 * Thinking the {right, wrong} things × thinking in the {right, wrong} way × saying the {right, wrong} things × performing the {right, wrong} actions
 * {continuous, discountinuous} × {inductive, deductive} assumptions
-* {[Selection, Control](https://www.lesswrong.com/posts/ZDZmopKquzHYPRNxq)} × {search, design}<!--TODO: find LW post on search vs. design-->
+* {[Selection, Control](https://www.lesswrong.com/posts/ZDZmopKquzHYPRNxq)} × {[search, design](https://www.lesswrong.com/posts/r3NHPD3dLFNk9QE2Y/search-versus-design-1)}
 
 Great Words
 ------------
