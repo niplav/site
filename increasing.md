@@ -388,16 +388,16 @@ on the state of research on these genes.
 ### Frustrations
 
 Here's a thing about sleep research: The Sleep Research Mafia has decided
-that no good thing can ever decrease sleep durations. Decreasing sleep
+that no good thing can ever decrease sleep duration. Decreasing sleep
 duration is *bad*, it's __Lucifer__, it is the __*primordial evil*__
 plaguing this world. This is, of course, never said, but you can feel
 it pouring out of every page: People trying to decrease their sleep need
 with e.g. polyphasic sleep are subtly sneered at, every good thing gets
-reported as increasing sleep durations, and every bad thing gets reported
+reported as increasing sleep duration, and every bad thing gets reported
 as decreasing sleep duration (almost surely through the magic of the
 [file-drawer effect](https://en.wikipedia.org/wiki/File-drawer_effect)).
 No wonder nobody has yet done an Orexin-A trial! They're fundamentally
-uninterested about decreasing sleep durations.
+uninterested about reducing the time spent asleep.
 
 I don't trust this fucking field to honestly report on things they find
 to robustly decrease sleep need. My best hope is that there's some things

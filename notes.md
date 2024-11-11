@@ -2215,7 +2215,7 @@ Computer Curiosities
 
 Entries are not on the [Cursed Computer Iceberg
 Meme](https://suricrasia.online/iceberg/) or the [Cursed PL
-iceberg](https://web.archive.org/web/20240926113354/https://catern.com/iceberg.html).
+iceberg](https://catern.com/iceberg.html).
 
 * [Error quines](https://codegolf.stackexchange.com/questions/36260/make-an-error-quine)
 * [Neural networks learn to generalize under ~0 loss](https://arxiv.org/abs/2201.02177)

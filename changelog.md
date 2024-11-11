@@ -56,7 +56,7 @@ October 2024
 * [DARPA AlphaDogFight (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/DARPA_AlphaDogfight); [USAF Test Pilot School and DARPA announce breakthrough in aerospace machine learning (Chase Kohler, 2024)](https://www.afrl.af.mil/News/Article-Display/Article/3745032/usaf-test-pilot-school-and-darpa-announce-breakthrough-in-aerospace-machine-lea/) (h/t [@lu_sichu](https://nitter.poast.org/lu_sichu/)): Automated dogfighting is happening, and will probably allow for more maneuverable fighter jet designs—not sure how this is going to interact with [increasingly droneified warfare](https://www.lesswrong.com/posts/oDXqwKzbACZf2qnKw/drone-wars-endgame).
 * [We Can Remember It For You Wholesale (John Bodi, 2015)](https://bodiblog.net/2015/08/11/we-can-remember-it-for-you-wholesale/)
 * Music: [Microtonal piano piece (Heui Sung Kim)](https://www.youtube.com/watch?v=dRSGWhPV_68), [Walk left Stand right (Abdominal)](https://www.youtube.com/watch?v=syP34aW-r1k), [Meds (Import Export)](https://www.youtube.com/watch?v=k-YxjrV_198)
-* Video: [Martin Heidegger Explained, Part 1: Being and Time (1927)](https://www.youtube.com/watch?v=bme25f0IUb8).
+* Videos: [Martin Heidegger Explained, Part 1: Being and Time (1927)](https://www.youtube.com/watch?v=bme25f0IUb8) and [Martin Heidegger Explained, Part 2: Later Writings](https://www.youtube.com/watch?v=5TYM4DlBh14).
 
 September 2024
 --------------
