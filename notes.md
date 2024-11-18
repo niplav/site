@@ -2213,7 +2213,7 @@ amount of money, and there is no guarantee that the money will be
 Computer Curiosities
 ----------------------
 
-Entries are not on the [Cursed Computer Iceberg
+Entries are not already on the [Cursed Computer Iceberg
 Meme](https://suricrasia.online/iceberg/) or the [Cursed PL
 iceberg](https://catern.com/iceberg.html).
 

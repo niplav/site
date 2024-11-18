@@ -671,7 +671,7 @@ an avian vet is \\$400/parrot-year.
 page](https://a-z-animals.com/blog/parrot-prices-purchase-cost-supplies-food-and-more/)
 also says that African greys produce feather dust,
 and one therefore needs airfilters (which are advisable
-[anyway](https://dynomight.net/air/). Let's say we need one for every
+[anyway](https://dynomight.net/air/)). Let's say we need one for every
 10 parrots, costing \\$500 each.
 
 Let's say the whole experiment takes 50 years, which is ~7

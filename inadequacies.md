@@ -130,12 +130,13 @@ materials.
 Appendix A: Civilizational *Adequacies*
 ----------------------------------------
 
-I use the term "civilizational adequacy" in a very strict sense here:
-Areas where our world surprisingly overperforms, implementing policies or
-having institutions that, given one were to observe them, would indicate
-our civiliation being adequate in many other dimensions too. "Mundane"
-but still impressive infrastructure doesn't count, even though it's
-really good.
+I use the term "civilizational adequacy" in a very strict sense
+here: Areas where our world surprisingly overperforms, implementing
+policies or having institutions that, given one were to observe
+them, would indicate our civiliation being adequate in many other
+dimensions too. "Mundane" but still impressive infrastructure doesn't
+count, even though it's really good. See also [Croissanthology
+2024](https://croissanthology.com/adequate.html).
 
 * [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System), impressive because it uses both special and general relativity
 * The swift implementation of the [Montréal Protocol](https://en.wikipedia.org/wiki/Montreal_Protocol) after we discovered the growing [ozone hole](https://en.wikipedia.org/wiki/Ozone_Hole)
