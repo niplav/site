@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-06-24, modified: 2024-07-02, language: english, status: finished, importance: 9, confidence: unlikely*
+*author: niplav, created: 2024-06-24, modified: 2024-11-15, language: english, status: finished, importance: 9, confidence: unlikely*
 
 > __Frustrated by all your bad takes, I write a Monte-Carlo analysis
 of whether a transformative-AI-race between the PRC and the USA
@@ -19,30 +19,30 @@ of [transformative
 AI](https://www.openphilanthropy.org/research/some-background-on-our-views-regarding-advanced-artificial-intelligence/#id-1-defining-transformative-artificial-intelligence-transformative-ai)
 goes like this:
 
-> __Abdullah__: "I think we should pause the development of TAI,
+> __Abdullah__: I think we should pause the development of TAI,
 because if we don't it seems plausible that humanity [will be disempowered
 by](https://www.lesswrong.com/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to)
-by advanced AI systems."  
-> __Benjamin__: "Ah, if by “we” you refer to the United States
+by advanced AI systems.  
+> __Benjamin__: Ah, if by “we” you refer to the United States
 (and and its allies, which probably don't stand a chance on their own
 to develop TAI), then the current geopolitical rival of the US, namely
 the [PRC](https://en.wikipedia.org/wiki/People's_Republic_Of_China),
-will achieve TAI first. That would be bad."   
-> __Abdullah__: "I don't see how the US getting TAI *first* changes anything
+will achieve TAI first. That would be bad.  
+> __Abdullah__: I don't see how the US getting TAI *first* changes anything
 about the fact that we don't know how to align superintelligent AI
-systems—I'd rather not race to be the *first* person to kill everyone."  
-> __Benjamin__: "Ah, so *now* you're retreating back into your cozy little
+systems—I'd rather not race to be the *first* person to kill everyone.  
+> __Benjamin__: Ah, so *now* you're retreating back into your cozy little
 [motte](https://en.wikipedia.org/wiki/Motte-and-bailey_argument): Earlier
 you said that “it seems plausible that humanity will be disempowered“,
 now you're acting like doom and gloom is *certain*. You don't seem to be
 able to make up your mind about how risky you think the whole enterprise
 is, and I have very concrete geopolitical enemies at my ([semiconductor
 manufacturer's](https://en.wikipedia.org/wiki/TSMC)) doorstep that I have to worry about. Come back with
-better arguments."
+better arguments.
 
 This dynamic is a bit frustrating. Here's how I'd like Abdullah to respond:
 
-> __Abdullah__: "You're right, you're right. I was
+> __Abdullah__: You're right, you're right. I was
 insufficiently precise in my statements, and I apologize
 for that. Instead, let us manifest the dream of [the great
 philosopher](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz):
@@ -184,7 +184,7 @@ of convincing the whole world to join MAGIC at 0.98.
 valuable worlds are in which the US government or the PRC government
 get TAI first are.
 
-> To first lay my cards on the table: I that in the mean & median cases,
+> To first lay my cards on the table: I believe that in the mean & median cases,
 value([MAGIC](./doc/cs/ai/alignment/policy/multinational_agi_consortium_hausenloy_2023.pdf))>value(US
 first, no race)>value(US first, race)>value(PRC first,
 no race)>value(PRC first, race)>value(PRC first,
@@ -219,15 +219,16 @@ a normal distribution.
 	3. Maybe this changes if a really good future requires philosophical or even [metaphilosophical competence](https://www.lesswrong.com/posts/CCgvJHpbvc7Lm8ZS8/metaphilosophical-competence-can-t-be-disentangled-from), and if US politicians (or the US population) have this trait significantly more than Chinese politicians (or the Chinese population). I think that *if* the social technology of liberalism is surprisingly philosophically powerful, then this could be the case. But I'd be pretty surprised.
 5. Xi Jinping (or the type of person that would be his successor, if he dies before TAI) don't strike me as being as uncaring (or even [malevolent](https://forum.effectivealtruism.org/posts/LpkXtFXdsRd4rG8Kb/reducing-long-term-risks-from-malevolent-actors)) as truly bad dictators during history. The PRC hasn't started any wars, or started killing large portions of its population.
 	1. The glaring exception is the [genocide of the Uyghurs](https://en.wikipedia.org/wiki/Genocide_of_Uyghurs), for which quantifying the badness is a separate exercise.
+	2. One way I tend to think about dictators is to model them as being very high in paranoia and ambition, but not necessarily malevolence. Many cases of [democide](https://en.wikipedia.org/wiki/Democide) or assassinations are then more motivated by fear around losing existing power to incumbents. In cases where a dictator controls many superinteligent AI systems as a global hegemon, it's plausible that their paranoia is alleviated<sub>20%</sub> or redirected towards non-human threats<sub>55%</sub> (such as aliens, natural disasters, the AI systems under their control &c). In such cases cruelty towards human populations would be unnecessary.
 6. Living in the PRC doesn't seem that bad, on a day-to-day level, for an average citizen. Most people, I imagine, just do their job, spend time with their family and friends, go shopping, eat, care for their children &c.
       1. Many, I imagine, sometimes miss certain freedoms/are stifled by censorship/discrimination due to authoritarianism. But I wouldn't trade away 10% of my lifespan to avoid a PRC-like life.
       2. Probably the most impressive example of humans being lifted out of poverty, ever, is the economic development of the PRC from 1975 to now.
       3. One of my ex-partners was Chinese and had lived there for the first 20 years of her life, and it really didn't sound like her life was much worse than outside of China—maybe she had to work a bit harder, and China was more sexist.
 
-> There's of course some aspects of the PRC that make me uneasy. I
-don't have a great idea of how expansionist/controlling the
-PRC is in relation to the world. Historically, an event that
-stands out to me is the sudden halt of the [Ming treasure
+> There's of course some aspects of the PRC that make me uneasy,
+and I don't have a great idea of how expansionist/controlling
+the PRC is in relation to the world. Historically, an event
+that stands out to me is the sudden halt of the [Ming treasure
 voyages](https://en.wikipedia.org/wiki/Ming_treasure_voyages),
 for which the [cause of
 cessation](https://en.wikipedia.org/wiki/Ming_treasure_voyages#Cause_of_cessation)
@@ -447,5 +448,10 @@ and that people put in a bit more effort.
 
 And __please__, don't make me write something like this again. I have
 enough to do to respond to all your bad takes with something like this.
+
+See Also
+---------
+
+* Discussions<!--TODO: add Lesswrong discussion-->
 
 [^1]: I personally think it's 2⅔ [shannon](https://en.wikipedia.org/wiki/Shannon_\(unit\)) higher than that, with p(doom)≈55%.

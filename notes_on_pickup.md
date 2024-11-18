@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-03-12, modified: 2024-10-15, language: english, status: in progress, importance: 2, confidence: other*
+*author: niplav, created: 2022-03-12, modified: 2024-11-11, language: english, status: in progress, importance: 2, confidence: other*
 
 > __Short texts on pickup, mostly daygame.__
 
@@ -391,10 +391,13 @@ Iron law.
 The Red Quest: An Anthology
 ----------------------------
 
-[The Red Quest](https://theredquest.substack.com/)'s many short and
-memorable blogposts. For basic game content, read Daygame Nitro<!--TODO:
-link-->, but Red Quest's writing has style and some interesting tidbits
-you don't get elsewhere. Here's some of his best posts.
+[The Red Quest](https://theredquest.substack.com/)'s many short
+and memorable blogposts. For basic game content, read [Beginner
+Daygame](https://www.goodreads.com/en/book/show/36009850-beginner-daygame)
+and [Daygame
+Nitro](https://www.goodreads.com/book/show/166195305-daygame-nitro),
+but Red Quest's writing has style and some interesting tidbits you don't
+get elsewhere. Here's some of his best posts.
 
 ### Practical Pickup
 
@@ -407,6 +410,11 @@ you don't get elsewhere. Here's some of his best posts.
 * [The holidays are coming up: shit tests, comfort tests, and gifts \[intermediate and above\] (2017)](https://theredquest.wordpress.com/2017/12/07/the-holidays-are-coming-up-shit-tests-comfort-tests-and-gifts/)
 * [Catch and release women who want families (2018)](https://theredquest.wordpress.com/2018/01/12/catch-and-release-women-who-want-families/)
 * [The best books for learning game (2017)](https://theredquest.wordpress.com/2017/12/02/the-best-books-for-learning-game/)
+
+#### Randomness and Noise
+
+* [What flaking looks like, from a woman’s perspective (2018)](https://theredquest.wordpress.com/2018/12/13/what-flaking-looks-like-from-a-womans-perspective/)
+* [There is a very large amount of randomness (noise) in pickup and game (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/19/there-is-a-very-large-amount-of-randomness-in-pickup-and-game/)
 
 #### Sex Clubs and Non-Monogamy
 

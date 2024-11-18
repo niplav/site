@@ -12,5 +12,4 @@
 __pycache__
 code/turning/*.csv
 anim/*/media
-code/turning/dominance.py
 notes_on_locations.*

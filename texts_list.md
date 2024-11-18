@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-10-31, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-11-11, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,45 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [In Search of Dark Stars (Tom Siegfried, 2014)](https://www.quantamagazine.org/katherine-freese-in-search-of-dark-stars-20140722/)
+* [Instead of regulating markets, create regulated marketplaces (Sam Harsimony, 2023)](https://splittinginfinity.substack.com/p/instead-of-regulating-markets-create)
+* [Margolus-Levitin theorem (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Margolus-Levitin_theorem)
+* [the upper limit of intelligence (Andrew White, 2024)](http://diffuse.one/p/d1-001)
+* [Postscript to a Podcast (John Nerst, 2019)](https://everythingstudies.com/2019/02/04/postscript-to-a-podcast/)
+* [AI things that are perhaps as important as human-controlled AI (Chi, 2024)](https://forum.effectivealtruism.org/posts/wE7KPnjZHBjxLKNno/ai-things-that-are-perhaps-as-important-as-human-controlled)
+* [AI #90: The Wall (Zvi, 2024)](https://www.lesswrong.com/posts/FC9hdySPENA7zdhDb/ai-90-the-wall)
+* [The Bitter Lesson (Rich Sutton, 2019)](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
+* [What is PID 0? (David Anderson, 2024)](https://blog.dave.tf/post/linux-pid0/)
+* [DARPA Spent $1 Billion Trying to Build a Real-Life Skynet in the 1980s (Matt Novak, 2013)](https://paleofuture.com/blog/2013/4/30/darpa-spent-1-billion-trying-to-build-a-real-life-skynet-in-the-1980s)
+* [Will Scaling Laws for Neural Language Model continue to hold till the end of 2027? (~deleted~, 2023)](https://manifold.markets/_deleted_/will-scaling-laws-for-neural-langua)
+* [Will Scaling Laws for Neural Language Model continue to hold till the end of 2026? (~deleted~, 2023)](https://manifold.markets/_deleted_/will-scaling-laws-for-neural-langua-6236cb77f9f6)
+* [What open relationships look like for a bottom, beta guy (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/31/what-open-relationships-look-like-for-a-bottom-beta-guy/)
+* [One I got and then didn’t want (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/28/one-i-got-and-then-didnt-want/)
+* [“U.S. Population Grew at Slowest Pace in More Than 80 Years” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/27/u-s-population-grew-at-slowest-pace-in-more-than-80-years/)
+* [“The Married Woman Who’s Been Cheating for 6 Years” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/26/the-married-woman-whos-been-cheating-for-6-years/)
+* [“Polyamorous sex is the most quietly revolutionary political weapon in the United States” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/24/polyamorous-sex-is-the-most-quietly-revolutionary-political-weapon-in-the-united-states/)
+* [“The 5 Years That Changed Dating” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/21/the-5-years-that-changed-dating/)
+* [Surprised by indifference. Guys can flake too. (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/21/surprised-by-indifference-guys-can-flake-too/)
+* [There is a very large amount of randomness (noise) in pickup and game (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/19/there-is-a-very-large-amount-of-randomness-in-pickup-and-game/)
+* [Introduction to abstract entropy (Alex Altair, 2022)](https://www.lesswrong.com/posts/REA49tL5jsh69X3aM/introduction-to-abstract-entropy)
+* [Virulence Management (Sam Harsimony, 2023)](https://splittinginfinity.substack.com/p/virulence-management)
+* [A Meta-Meditation (John Nerst, 2019)](https://everythingstudies.com/2019/01/23/a-meta-meditation/)
+* [Non-monogamy and the game: book update (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/19/non-monogamy-and-the-game-book-update/)
+* [Ms. Slav party night (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/17/ms-slav-party-night/)
+* [Independent date with Ms. Slav’s friend from home (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/17/independent-date-with-ms-slavs-friend-from-home/)
+* [Girls with high numbers (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/14/girls-with-high-numbers/)
+* [What flaking looks like, from a woman’s perspective (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/13/what-flaking-looks-like-from-a-womans-perspective/)
+* [Figured out why Vegas seems bad for daygame (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/13/figured-out-why-vegas-seems-bad-for-daygame/)
+* [“The Loneliest Generation: Americans, More Than Ever, Are Aging Alone” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/12/the-loneliest-generation-americans-more-than-ever-are-aging-alone/)
+* [Hollywood knows exactly what to “do” with childless women (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/12/hollywood-knows-exactly-what-to-do-with-childless-women/)
+* [The High Potential of Satellites (Sam Harsimony, 2023)](https://splittinginfinity.substack.com/p/the-high-potential-of-satellites)
+* [That no one rebuilt old OkCupid updates me a lot about how much the startup world actually makes the world better (Eli Tyre, 2024)](https://musingsandroughdrafts.com/2024/11/08/that-no-one-rebuilt-old-okcupid-updates-me-a-lot-about-how-much-the-startup-world-actually-makes-the-world-better/)
+* [AI #89: Trump Card (Zvi, 2024)](https://www.lesswrong.com/posts/xaqR7AxSYmcpsuEPW/ai-89-trump-card)
+* [Three Sketches of ASL-4 Safety Case Components (Roger Grosse, 2024)](https://alignment.anthropic.com/2024/safety-cases/)
+* [The end times portfolio is long (Duncan McClements, 2024)](https://model-thinking.com/p/the-end-times-portfolio-is-long)
+* Frogs Eat Butterflies. Snakes Eat Frogs. Hogs Eat Snakes. Men Eat Hogs (Wallace Stevens, 1922)
+* [Frogs Eat Butterflies. Snakes Eat Frogs. Hogs Eat Snakes. Men Eat Hogs (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Frogs_Eat_Butterflies._Snakes_Eat_Frogs._Hogs_Eat_Snakes._Men_Eat_Hogs)
+* [Can You Unsort Lists for Diversity? (Gwern Branwen, 2024)](https://gwern.net/unsort)
 * [Found out the problem with Ms. Slav (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/11/found-out-the-problem-with-ms-slav/)
 * [Priorities and Ms. Slav’s challenges in non-monogamy (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/06/priorities-and-ms-slavs-challenges-in-non-monogamy/)
 * [Sin City as a temporary escape (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/04/sin-city-as-a-temporary-escape/)
@@ -43,7 +82,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Girls who don’t understand that sex isn’t just available “on demand” for guys (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/12/girls-who-dont-understand-that-sex-isnt-just-available-on-demand-for-guys/)
 * [“Financial abortion” for men (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/11/12/financial-abortion-for-men/)
 * [The Hyperbolic Geometry of DMT Experiences: Symmetries, Sheets, and Saddled Scenes (Andrés Gomez Emilsson, 2016)](https://qualiacomputing.com/2016/12/12/the-hyperbolic-geometry-of-dmt-experiences/)
-* \* Artificial Intelligence Act (European Parliament, 2024)
+* |14 Artificial Intelligence Act (European Parliament, 2024)
 * [The top girl from Seeking Arrangements (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/31/the-top-girl-from-seeking-arrangements/)
 * [Ecosystems and clubs (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/07/ecosystems-and-clubs/)
 * [Another Ms. Slav update (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/04/another-ms-slav-update/)
@@ -65,7 +104,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [“Modern Love: Talking to My Fiancé About My New Girlfriend” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/12/modern-love-talking-to-my-fiance-about-my-new-girlfriend/)
 * [Non-monogamy is NOT for everyone (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/01/non-monogamy-is-not-for-everyone/)
 * [Don’t be this guy (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/01/dont-be-this-guy/)
-* [* 'Reflections on Trusting Trust', but completely by accident this time (duk, 2024)](https://secret.club/2024/10/21/unnecessarily-exhaustice-rca.html)
+* ['Reflections on Trusting Trust', but completely by accident this time (duk, 2024)](https://secret.club/2024/10/21/unnecessarily-exhaustice-rca.html)
 * [“The ‘Untrue’ Woman” is another lesson to guys: don’t get married. (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/28/the-untrue-woman-is-another-lesson-to-guys-dont-get-married/)
 * [The second open-relationship, non-monogamy girl (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/24/the-second-open-relationship-non-monogamy-girl/)
 * [“Life’s too short to try to manage damaged people” (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/23/lifes-too-short-to-try-to-manage-damaged-people/)

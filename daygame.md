@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-10-17, modified: 2024-10-22, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2024-10-17, modified: 2024-11-19, language: english, status: notes, importance: 3, confidence: log*
 
 > __[Yes.  
 I did it.  
@@ -26,7 +26,7 @@ mine:
 __Daygame__ is the craft of walking up to women in public, and talking
 to them with the intention of dating or sleeping with them.
 
-[^1]: Beginner Daygame, Daygame Nitro and Daygame Mastery.
+[^1]: Beginner [Daygame](https://www.goodreads.com/en/book/show/36009850-beginner-daygame), [Daygame Nitro](https://www.goodreads.com/book/show/166195305-daygame-nitro) and Daygame Mastery<!--TODO: add mastery link-->.
 
 Utilitarians:
 --------------
@@ -36,6 +36,19 @@ shrimp and receding galaxies.
 
 ±?
 ---
+
+But, like, still, is daygame *good*? For others, that is, not for me.
+
+Insofar that daygame is good (or bad) for others, there's two obvious
+groups that can be considered: The women being approached, and the world
+in general.
+
+### For Women
+
+My current position "Skillful daygame is slightly net positive, with
+medium variance".
+
+### For The World
 
 The Alternatives
 -----------------

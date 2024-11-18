@@ -68,7 +68,7 @@ row from the [payoff matrix](https://en.wikipedia.org/wiki/Payoff_Matrix)).
 Calculate the Nash equilibria and payoffs again.
 
 We assume that all Nash equilibria are equally likely, so for each player
-we take the mean payoff across Nash equilibria.
+we take the unweighted mean payoff across Nash equilibria.
 
 For a player, taking away one of Abdullah's options is considered an
 *improvement* iff the mean payoff in the original game is stricly lower
@@ -112,3 +112,8 @@ bulldozer, then.
 
 Code [here](./code/options/options.py), largely written by [Claude 3.5
 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet).
+
+See Also
+---------
+
+* Discussions<!--TODO: Add LW discussion-->
