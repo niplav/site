@@ -12,6 +12,8 @@ def player_payoffs(a, b, astrat, bstrat):
 	bpayoff = np.sum(astrat[:, None] * b * bstrat)
 	return apayoff, bpayoff
 
+# TODO: modify this so that this also works if one player has only one option
+
 def calculate_equilibria_payoffs(game):
 	equilibria = game.vertex_enumeration()
 	payoffs = [player_payoffs(game.payoff_matrices[0], game.payoff_matrices[1], *eq) for eq in equilibria]

@@ -16,8 +16,9 @@ Contact me [here](./about.html#Contact) for inquiries.
 
 Examples of my past paid work include [a library of forecasting
 datasets](./iqisa.html) [an analysis of range and forecasting
-accuracy](./range_and_forecasting_accuracy.html), and a literature review
-on [transfer learning in humans](./transfer.html).
+accuracy](./range_and_forecasting_accuracy.html), and a literature
+review on [transfer learning in humans](./transfer.html). See also my
+[track records](./about.html#Track_Records).
 
 <!--TODO: add Raymond feedback. Ask Yagudin & Leech?-->
 

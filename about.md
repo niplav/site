@@ -579,6 +579,7 @@ school put me at ~110, which seems about right.
 * [Wikipedia](https://en.wikipedia.org/wiki/User:Niplav)
 * [Fediverse](https://schelling.pt/@niplav)
 * [𝕏](https://x.com/niplav_site)
+* [Bluesky](https://bsky.app/profile/niplav.bsky.social)
 
 ### Contact
 

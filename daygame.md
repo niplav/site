@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-10-17, modified: 2024-11-19, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2024-10-17, modified: 2024-11-20, language: english, status: notes, importance: 3, confidence: log*
 
 > __[Yes.  
 I did it.  
@@ -49,6 +49,9 @@ My current position "Skillful daygame is slightly net positive, with
 medium variance".
 
 ### For The World
+
+Violating [Postel's law](https://en.wikipedia.org/wiki/Postel's_Law),
+SYN-flooding<!--TODO: link-->.
 
 The Alternatives
 -----------------
