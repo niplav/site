@@ -414,14 +414,14 @@ get elsewhere. Here's some of his best posts.
 #### Randomness and Noise
 
 * [What flaking looks like, from a woman’s perspective (2018)](https://theredquest.wordpress.com/2018/12/13/what-flaking-looks-like-from-a-womans-perspective/)
-* [There is a very large amount of randomness (noise) in pickup and game (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/12/19/there-is-a-very-large-amount-of-randomness-in-pickup-and-game/)
+* [There is a very large amount of randomness (noise) in pickup and game (2018)](https://theredquest.wordpress.com/2018/12/19/there-is-a-very-large-amount-of-randomness-in-pickup-and-game/)
 
 #### Sex Clubs and Non-Monogamy
 
 * [Sex clubs, swingers, and game (2017)](https://theredquest.wordpress.com/2017/09/24/sex-clubs-swingers-and-game/)
 * [Sex parties and sex clubs could be the next level of game (2018)](https://theredquest.wordpress.com/2018/01/21/sex-parties-and-sex-clubs-could-be-the-next-level-of-game/)
-* [Non-monogamy is NOT for everyone (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/01/non-monogamy-is-not-for-everyone/)
-* [Jealousy and non-monogamy (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/09/18/jealousy-and-non-monogamy/)
+* [Non-monogamy is NOT for everyone (2018)](https://theredquest.wordpress.com/2018/10/01/non-monogamy-is-not-for-everyone/)
+* [Jealousy and non-monogamy (2018)](https://theredquest.wordpress.com/2018/09/18/jealousy-and-non-monogamy/)
 
 ### Attractiveness
 
@@ -471,7 +471,7 @@ threatened. Not me. I see man as the tool-using animal.
 
 * [Be kind from a position of strength, not a position of weakness (2017)](https://theredquest.wordpress.com/2017/05/12/be-kind-from-a-position-of-strength-not-a-position-of-weakness/)
 * [You only see the tip of the spear (2019)](https://theredquest.wordpress.com/2019/02/07/you-only-see-the-tip-of-the-spear/)
-* [There is no easy way: there is only the hard way (TheRedQuest, 2018)](https://theredquest.wordpress.com/2018/10/17/there-is-no-easy-way-there-is-only-the-hard-way/)
+* [There is no easy way: there is only the hard way (2018)](https://theredquest.wordpress.com/2018/10/17/there-is-no-easy-way-there-is-only-the-hard-way/)
 * [Be extreme (2019)](https://theredquest.wordpress.com/2019/03/29/be-extreme/)
 * [The game challenge: doing what’s unnatural (2018)](https://theredquest.wordpress.com/2018/05/19/the-game-challenge-doing-whats-unnatural/)
 
@@ -493,6 +493,7 @@ threatened. Not me. I see man as the tool-using animal.
 ### Stories
 
 * [Jeremy with the Burns (2018)](https://theredquest.wordpress.com/2018/11/08/jeremy-with-the-burns/)
+* [Interesting Wednesday night. Happy New Year! (2019)](https://theredquest.wordpress.com/2019/01/01/interesting-wednesday-night-happy-new-year/)
 
 #### Marriage and Divorce
 

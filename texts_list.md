@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-11-11, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-11-24, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,25 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Ply (game theory) (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Ply_(game_theory))
+* [Calor licitantis (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Calor_licitantis)
+* [Quanject (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Quaject)
+* [Misericorde (weapon) (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Misericorde_(weapon))
+* [Parthenocarpy (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Parthenocarpy)
+* [Where Animals Come From (Kat McGowan, 2014)](https://www.quantamagazine.org/did-bacteria-drive-the-origins-of-animals-20140729/)
+* [Some surprising code execution sources in bash (Yossarian, 2024)](https://yossarian.net/til/post/some-surprising-code-execution-sources-in-bash)
+* [AI #91: Deep Thinking (Zvi, 2024)](https://www.lesswrong.com/posts/SNBE9TXwL3qQ3TS8H/ai-91-deep-thinking)
+* [As Animals Mingle, a Baffling Genetic Barrier (Emily Singer, 2014)](https://www.quantamagazine.org/how-a-tiny-chunk-of-dna-can-keep-two-species-apart-20140805/)
+* [Why the United States is filled with fatties (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/01/10/why-the-united-states-is-filled-with-fatties/)
+* [We’re discouraging marriage and families at every level (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/01/09/were-discouraging-marriage-and-families-at-every-level/)
+* [Profiling girls by age is not that useful (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/01/08/profiling-girls-by-age-is-not-that-useful/)
+* [Don’t just be a consumer: A cyclist is a disaster for the economy (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/01/08/dont-just-be-a-consumer-a-cyclist-is-a-disaster-for-the-economy/)
+* [What kind of guy is willing to appear in these articles? (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/01/03/what-kind-of-guy-is-willing-to-appear-in-these-articles/)
+* [“Sex Clubs, Non-Monogamy, and Game:” The free ebook (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/01/03/sex-clubs-non-monogamy-and-game-the-free-ebook/)
+* [The Tom Torero lay report book, “Below the Belt” (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/01/01/the-tom-torero-lay-report-book-below-the-belt/)
+* [Interesting Wednesday night. Happy New Year! (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/01/01/interesting-wednesday-night-happy-new-year/)
+* [Ultimate ends may be easily hidable behind convergent subgoals (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/12/ultimate-ends-may-be-easily-hidable.html)
+* [Looking Back at the Future of Humanity Institute (Tom Ough, 2024)](https://asteriskmag.com/issues/08/looking-back-at-the-future-of-humanity-institute)
 * [In Search of Dark Stars (Tom Siegfried, 2014)](https://www.quantamagazine.org/katherine-freese-in-search-of-dark-stars-20140722/)
 * [Instead of regulating markets, create regulated marketplaces (Sam Harsimony, 2023)](https://splittinginfinity.substack.com/p/instead-of-regulating-markets-create)
 * [Margolus-Levitin theorem (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Margolus-Levitin_theorem)
