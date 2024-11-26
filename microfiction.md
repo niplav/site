@@ -71,6 +71,15 @@ All with your secrets unlocked
 >  
 > Grantmaker,
 
+------
+
+> *sung like a children's rhyme*
+
+> SERI, BERI, CERI, CHERI,  
+FLI, FRI, ARC and CHAI,  
+CAIS, CAIS, CAIS, CAIS,  
+MIRI QURI and OpenAI!
+
 #### Meditative
 
 * "The awareness will continue to expand until the morale improves"

@@ -72,7 +72,9 @@ browser), because I like to keep the site lean, which runs against the
 JavaScript-heavy notebook format).
 
 The content on this website is licensed under [Creative Commons
-4.0](https://creativecommons.org/licenses/by/4.0/).
+4.0](https://creativecommons.org/licenses/by/4.0/). The only AI-generated
+content is [half a line here](./microfiction#Squeal) and a bunch of
+the code.
 
 #### Texts
 
