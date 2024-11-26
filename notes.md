@@ -2223,3 +2223,75 @@ iceberg](https://catern.com/iceberg.html).
 * The [BIG-bench canary string](https://github.com/google/BIG-bench/blob/main/docs/doc.md) and [how LLMs know it even though they shouldn't](https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/shortplav?commentId=XkeYBmsFKFR6PK8zK)
 * [Diffusion Models Are Real-Time Game Engines](https://gamengen.github.io/index.html)
 * [Thompson Hack Bug](https://secret.club/2024/10/21/unnecessarily-exhaustice-rca.html)
+
+Black Hole Mop
+-----------------
+
+[Baryons](https://en.wikipedia.org/wiki/Baryon) make up only 4.5% of
+the current [massenergy](https://en.wikipedia.org/wiki/Mass-energy)
+of the universe. ~95% of that baryonic massenergy is intergalactic
+dust or plasma—mostly hydrogen and helium with temperatures from
+`$10^5$` to `$10^7 K$`, and if compressed to water density would
+have temperatures from `$10^{31}$` to `$10^{34}K$` ([Sandberg
+2023](https://www.goodreads.com/book/show/42275384-grand-futures),
+p. 746).
+
+We or our descendants might care a lot about this massenergy, since if
+we can't use dark matter or dark energy, it would represent most of the
+matter available in the universe.
+
+So it would be cool if we had a method of collecting this intergalacic
+plasma & dust, and ideally one that fulfills these properties:
+
+1. Cools down the collected plasma and uses the heat for useful work
+2. Leaves it in a state that admits energy-generation via nuclear fusion
+3. Is fast enough that most of the useful energy is extracted before [protons start decaying](https://en.wikipedia.org/wiki/Proton_Decay)
+
+One option to fulfill some of these criteria for a [black hole
+civilization](https://harsimony.wordpress.com/2022/09/13/black-hole-civilizations/)
+would be to create intergalactic crafts that are composed of a
+coordinating, baryonic center and a "shell" of black holes orbiting that
+center, moving at high speed through the intergalactic medium, in a setup
+similar to a [Dyson swarm](https://en.wikipedia.org/wiki/Dyson_Swarm).
+
+![](./img/mop/dyson_swarm.png)
+
+*This, but with black holes instead of mirrors. [Sandberg
+2023](https://www.goodreads.com/book/show/42275384-grand-futures), p. 460*
+
+The black holes would "mop up" the intergalactic medium as the
+craft would move through it, increasing in mass[^1]. The heat of the
+intergalactic medium would be converted to the mass of the black hole,
+as black holes don't have any temperature (and instead emit [Hawking
+radiation](https://en.wikipedia.org/wiki/Hawking_Radiation) in the black
+body spectrum).
+
+One option is to use such black hole
+[mops](https://en.wikipedia.org/wiki/Mop) in an [eternity in six
+hours](./doc/big_picture/fermi/eternity_in_6_hours_sandberg_armstrong_2013.pdf)
+scenario, where the black holes act as shielding from collisions with
+intergalactic gas, absorbing any material. I think this would slow this
+construction down, but usually not change it in its structure, though
+I haven't thought about it very much.
+
+How does this fare on our list of criteria?
+
+1. The heat of the plasma & dust is converted perfectly into mass, but not used for anything productive.
+2. The plasma is unavailable for fusion, and the form in which it later is emitted again Hawking radiation is less useful, as it happens over extremely long timespans.
+3. I haven't yet calculated how much of the reachable universe could be plausibly covered this way.
+
+Black hole mops would have some other disadvantages:
+
+1. They require advanced control over black holes, setting them up in stable complicated orbit around a center.
+2. They probably require large numbers of small black holes, which increase in mass during the journey.
+	1. This is a downside because small black holes are likely much more valuable, since they only come about after long evaporations of large black holes, or have to be constructed synthetically through extremely precise focusing of light.
+	2. Potentially one could create stable orbits of three or more large black holes "covering" the construction in the direction of travel, similar to [multiple star systems](https://en.wikipedia.org/wiki/Star_system#Multiple_star_systems).
+3. The black holes can probably not cover the central craft completely at all times, so some intergalactic medium would get lost and/or damage the central craft.
+4. If the black holes are *orbiting* the central craft, it must have a very high mass.
+	1. It's probably more desirable to create a stable orbit of `$n$` black holes and place the craft at one of the [Lagrange points](https://en.wikipedia.org/wiki/LaGrange_Point).
+
+I don't know whether such constructions are possible or desirable,
+but I would like to hear some feedback by someone more knowledgeable
+about physics.
+
+[^1]: I don't know whether the intergalactic medium is charged, if so the black holes would also accumulate charge. I assume that on a medium scale the intergalactic medium is fairly evenly distributed, so I don't think they'd accumulate angular momentum.

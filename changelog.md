@@ -29,6 +29,7 @@ November 2024
 * [An animation for explaining the generalized Diamond-Square algorithm](./diamond.html#Long_Diamond)
 * [Notes](./notes.html)
 	* [Computer Curiosities](./notes.html#Computer_Curiosities)
+	* [Black Hole Mop](./notes.html#Black_Hole_Mop)
 
 ### Links
 

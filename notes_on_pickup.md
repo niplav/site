@@ -475,6 +475,10 @@ threatened. Not me. I see man as the tool-using animal.
 * [Be extreme (2019)](https://theredquest.wordpress.com/2019/03/29/be-extreme/)
 * [The game challenge: doing what’s unnatural (2018)](https://theredquest.wordpress.com/2018/05/19/the-game-challenge-doing-whats-unnatural/)
 
+#### Writing
+
+* [You are part of “The Revolt of The Public and the Crisis of Authority in the New Millennium” (2019)](https://theredquest.wordpress.com/2019/01/10/you-are-part-of-the-revolt-of-the-public-and-the-crisis-of-authority-in-the-new-millennium/)
+
 #### Emptiness
 
 (Careful with these, especially as an early or intermediate player—they probably don't apply to you, and might damage your vibe.)
@@ -483,6 +487,13 @@ threatened. Not me. I see man as the tool-using animal.
 * [The post about there not being much left for me to say, while encouraging other guys to carry on (2023)](https://theredquest.substack.com/p/the-post-about-there-not-being-much-left-for-me-to-say-while-encouraging-other-guys-to-carry-on)
 * [Ramblings about a change in perspective towards game and life (2017)](https://theredquest.wordpress.com/2017/08/16/ramblings-about-a-change-in-perspective-towards-game-and-life/)
 * [“Where PUAs go to die” (2017)](https://theredquest.wordpress.com/2017/10/09/where-puas-go-to-die/)
+
+#### Darkness
+
+Often the comments on these posts are very interesting, especially the
+ones by [Nash](http://www.daysofgame.com/).
+
+* [Veering into the dark zone of female psychology (2019)](https://theredquest.wordpress.com/2019/01/21/veering-into-the-dark-zone-of-female-psychology/)
 
 ### Society
 
