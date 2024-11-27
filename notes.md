@@ -2238,7 +2238,7 @@ p. 746).
 
 We or our descendants might care a lot about this massenergy, since if
 we can't use dark matter or dark energy, it would represent most of the
-matter available in the universe.
+resources available in the universe.
 
 So it would be cool if we had a method of collecting this intergalacic
 plasma & dust, and ideally one that fulfills these properties:
@@ -2271,8 +2271,8 @@ One option is to use such black hole
 hours](./doc/big_picture/fermi/eternity_in_6_hours_sandberg_armstrong_2013.pdf)
 scenario, where the black holes act as shielding from collisions with
 intergalactic gas, absorbing any material. I think this would slow this
-construction down, but usually not change it in its structure, though
-I haven't thought about it very much.
+construction down, but usually not change its structure, though I haven't
+thought about it very much.
 
 How does this fare on our list of criteria?
 
@@ -2289,6 +2289,9 @@ Black hole mops would have some other disadvantages:
 3. The black holes can probably not cover the central craft completely at all times, so some intergalactic medium would get lost and/or damage the central craft.
 4. If the black holes are *orbiting* the central craft, it must have a very high mass.
 	1. It's probably more desirable to create a stable orbit of `$n$` black holes and place the craft at one of the [Lagrange points](https://en.wikipedia.org/wiki/LaGrange_Point).
+
+Despite having mostly listed downsides of black hole mops, I think
+they're an attractive option to do further reseach on.
 
 I don't know whether such constructions are possible or desirable,
 but I would like to hear some feedback by someone more knowledgeable
