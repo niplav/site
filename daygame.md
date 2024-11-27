@@ -37,7 +37,9 @@ shrimp and receding galaxies.
 ±?
 ---
 
-But, like, still, is daygame *good*? For others, that is, not for me.
+<!--TODO: Add thinking from manifold comment-->
+
+But, like, still, is daygame *net good*? For others, that is, not for me.
 
 Insofar that daygame is good (or bad) for others, there's two obvious
 groups that can be considered: The women being approached, and the world
