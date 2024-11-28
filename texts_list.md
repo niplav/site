@@ -17,6 +17,15 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Admo (Cyborgism Wiki, 2024)](https://cyborgism.wiki/hypha/admo)
+* [Almo (Cyborgism Wiki, 2024)](https://cyborgism.wiki/hypha/almo)
+* [\* OpenAI Email Archives (from Musk v. Altman) (Oliver Habryka, 2024)](https://www.lesswrong.com/posts/5jjk4CDnj9tA7ugxr/openai-email-archives-from-musk-v-altman)
+* [Wahgenic (Cyborgism Wiki, 2024)](https://cyborgism.wiki/hypha/wahgenic)
+* [Whiz Scale (Cyborgism Wiki, 2024)](https://cyborgism.wiki/hypha/whiz_scale)
+* [Shackleton Probably Never Took Out an Ad Seeking Men for a Hazardous Journey (Colin Schultz, 2013)](https://www.smithsonianmag.com/smart-news/shackleton-probably-never-took-out-an-ad-seeking-men-for-a-hazardous-journey-5552379/)
+* [Use black holes as heat sinks (Wei Dai, unknown)](https://www.weidai.com/black-holes.txt)
+* \* SIA > SSA (Joe Carlsmith, 2021)
+* [Nature's many attempts to evolve a Nostr (Gordon Brander, 2024)](https://newsletter.squishy.computer/p/natures-many-attempts-to-evolve-a)
 * [Notes on Writing (Sam Harsimony, 2023)](https://splittinginfinity.substack.com/p/notes-on-writing)
 * [Delivering a Revamped Mailbox (Sam Harsimony, 2023)](https://splittinginfinity.substack.com/p/delivering-a-revamped-mailbox)
 * [Ms. Slav flakes, Peaches, masculinity and polarity (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/01/24/ms-slav-flakes-peaches-masculinity-and-polarity/)
