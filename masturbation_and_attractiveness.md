@@ -395,10 +395,11 @@ experiments, I didn't do them for several reasons:
 Daygame is based on *vibe* and *momentum*, so the first 70 approaches
 during abstinence could improve the second 70 approaches after abstinence.
 
-To lessen this effect, I tried to get into the groove of approaching
-for several months before the experiment, starting in July 2024 (a month
-before starting the period of abstinence), and increasing the intensity
-of daygame to prepare for having to do 70 approaches for the experiment.
+To lessen this effect, I tried to get into the groove of approaching for
+several months before the experiment, starting in July 2024 (several
+months before starting the period of abstinence), and increasing the
+intensity of daygame to prepare for having to do 70 approaches for
+the experiment.
 
 (I don't think I could've done 70 approaches in a few days from cold
 start anyway.)

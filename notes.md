@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-10-31, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-11-28, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2229,7 +2229,7 @@ Black Hole Mop
 
 [Baryons](https://en.wikipedia.org/wiki/Baryon) make up only 4.5% of
 the current [massenergy](https://en.wikipedia.org/wiki/Mass-energy)
-of the universe. ~95% of that baryonic massenergy is intergalactic
+of the universe. >80% of that baryonic massenergy is intergalactic
 dust or plasma—mostly hydrogen and helium with temperatures from
 `$10^5$` to `$10^7 K$`, and if compressed to water density would
 have temperatures from `$10^{31}$` to `$10^{34}K$` ([Sandberg
@@ -2247,12 +2247,25 @@ plasma & dust, and ideally one that fulfills these properties:
 2. Leaves it in a state that admits energy-generation via nuclear fusion
 3. Is fast enough that most of the useful energy is extracted before [protons start decaying](https://en.wikipedia.org/wiki/Proton_Decay)
 
-One option to fulfill some of these criteria for a [black hole
-civilization](https://harsimony.wordpress.com/2022/09/13/black-hole-civilizations/)
-would be to create intergalactic crafts that are composed of a
-coordinating, baryonic center and a "shell" of black holes orbiting that
-center, moving at high speed through the intergalactic medium, in a setup
-similar to a [Dyson swarm](https://en.wikipedia.org/wiki/Dyson_Swarm).
+Another problem: For [intergalactic
+colonization](./doc/big_picture/fermi/eternity_in_6_hours_sandberg_armstrong_2013.pdf),
+an advanced civilization would want to move through intergalactic space at
+very high speed—the closer to `$c$`, the better. But at such velocities,
+collisions with dust and small particles create explosions releasing as
+much energy as a hand grenade.
+
+For a [black hole
+civilization](https://harsimony.wordpress.com/2022/09/13/black-hole-civilizations/),
+One option to fulfill some of the criteria for collecting
+the IGM and shielding a probe would be to create intergalactic
+"ships" that are composed of a coordinating, baryonic center and a
+"shell" of black holes orbiting that center, moving at high speed
+through the intergalactic medium, in a setup similar to a [Dyson
+swarm](https://en.wikipedia.org/wiki/Dyson_Swarm). Alternatively,
+the setup could be two or more black holes orbiting each
+other, with the baryonic center stationary at a [Lagrange
+point](https://en.wikipedia.org/wiki/LaGrange_Point) where it is shielded
+by one or more of the black holes in the direction of travel.
 
 ![](./img/mop/dyson_swarm.png)
 
@@ -2262,17 +2275,17 @@ similar to a [Dyson swarm](https://en.wikipedia.org/wiki/Dyson_Swarm).
 The black holes would "mop up" the intergalactic medium as the
 craft would move through it, increasing in mass[^1]. The heat of the
 intergalactic medium would be converted to the mass of the black hole,
-as black holes don't have any temperature (and instead emit [Hawking
-radiation](https://en.wikipedia.org/wiki/Hawking_Radiation) in the black
-body spectrum).
+as black holes don't have any temperature and are [excellent heat
+sinks](https://www.weidai.com/black-holes.txt); instead they emit
+[Hawking radiation](https://en.wikipedia.org/wiki/Hawking_Radiation)
+in the black body spectrum.
 
 One option is to use such black hole
-[mops](https://en.wikipedia.org/wiki/Mop) in an [eternity in six
-hours](./doc/big_picture/fermi/eternity_in_6_hours_sandberg_armstrong_2013.pdf)
-scenario, where the black holes act as shielding from collisions with
-intergalactic gas, absorbing any material. I think this would slow this
-construction down, but usually not change its structure, though I haven't
-thought about it very much.
+[mops](https://en.wikipedia.org/wiki/Mop) in intergalactic colonization,
+where the black holes act as shielding for the center from collisions
+with intergalactic gas. I think this would slow this construction down,
+but usually not change its structure, though I haven't thought about it
+very much.
 
 How does this fare on our list of criteria?
 
@@ -2288,7 +2301,6 @@ Black hole mops would have some other disadvantages:
 	2. Potentially one could create stable orbits of three or more large black holes "covering" the construction in the direction of travel, similar to [multiple star systems](https://en.wikipedia.org/wiki/Star_system#Multiple_star_systems).
 3. The black holes can probably not cover the central craft completely at all times, so some intergalactic medium would get lost and/or damage the central craft.
 4. If the black holes are *orbiting* the central craft, it must have a very high mass.
-	1. It's probably more desirable to create a stable orbit of `$n$` black holes and place the craft at one of the [Lagrange points](https://en.wikipedia.org/wiki/LaGrange_Point).
 
 Despite having mostly listed downsides of black hole mops, I think
 they're an attractive option to do further reseach on.
