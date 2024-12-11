@@ -65,7 +65,7 @@ pray love kill
 
 *landsailor voice*<!--TODO: link-->
 
- >Truthwarden,  
+> Truthwarden,  
 Shelves upon shelves  
 All with your secrets unlocked  
 >  

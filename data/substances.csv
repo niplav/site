@@ -649,3 +649,7 @@ datetime,substance,amount,experiment,id,prediction
 2024-11-26T13:53:00+01:00,vitamind3,25μg,,,
 2024-11-26T13:53:00+01:00,vitaminb12,500mg,,,
 2024-11-26T13:53:00+01:00,omega3,265mg,,,
+2024-11-29T11:32:14+01:00,vitamind3,25μg,C,22,0.75
+2024-12-02T00:05:10+01:00,melatonin,0.5mg,,,
+2024-12-02T09:29:32+01:00,vitamind3,25μg,C,23,0.3
+2024-12-04T05:22:00+01:00,creatine,3g,,,
