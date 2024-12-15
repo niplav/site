@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-11-28, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-12-15, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1960,12 +1960,16 @@ present*.
 I think this is wrong in the strict
 sense. I'll generate 10k 2k-dimensional [normally
 distributed](https://en.wikipedia.org/wiki/Normal-distribution)
-samples, reduce them down to 2 dimensions, and plot the result (code in
+samples, reduce them down to 2 dimensions, and plot
+the result (code [here](./code/dimension/code.jl) in
 [julia](https://en.wikipedia.org/wiki/Julia_programming_language)):
 
 	using TSne, UMAP, Plots
 
-	data=rand(10000, 2000)
+	datapoints=1000
+	dims=200
+
+	data=rand(datapoints, dims)
 
 	reduced=tsne(data)
 	reduced_umap=umap(transpose(data))
@@ -1989,10 +1993,9 @@ by t-SNE:
 But—what if we have *more* dimensions than datapoints? Surely it
 hallucinates structure in that case‼
 
-	reduced_moredims=tsne(transpose(data)) # 2k 10k-dimensional datapoints
-	gui(scatter(reduced_moredims[:,1],reduced_moredims[:,2]))
-
 ![](./img/dimension/tsne_moredims.png)
+
+(In all cases with 1000 datapoints.)
 
 And the same for UMAP:
 

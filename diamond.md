@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-11-20, modified: 2024-07-09, language: english, status: in progress, importance: 4, confidence: highly likely*
+*author: niplav, created: 2020-11-20, modified: 2024-12-15, language: english, status: in progress, importance: 4, confidence: highly likely*
 
 > __The [Diamond-Square
 algorithm](https://en.wikipedia.org/wiki/Diamond-square_algorithm)
@@ -87,7 +87,7 @@ from the midpoints of the edges and the centers adjacent faces.
 <video src="./vid/diamond/long_diamond_white.mp4" type="video/mp4" controls>
 </video>
 
-I'd call this variant the __Long Diamond__ variant. It performs *two*
+I call this variant the __Long Diamond__ variant. It performs *two*
 diamond steps and only one square step along the three dimensions.
 
 But there's __another way__: Calculate the center of the cube as the
@@ -102,6 +102,14 @@ center of the cube *and* the centers of the adjacent edges.
 That is the __Long Square__ variant: It performs one diamond step
 (computing the value for the center) and two square steps (for edges
 and for faces).
+
+Consecutive diamond steps go from *higher* dimensions to *lower*
+ones, consecutive square steps go from *lower* dimensions to *higher*
+ones. There is one dimension where the values are "stitched together"—in
+the long diamond case it's the first dimension (on edges), in the long
+square step it's the second dimension (on faces). I guess one could
+also leave out the diamond steps together and calculate the center of
+the cube as the mean of the faces—zero diamond, very long square.
 
 ### Long Diamond
 
@@ -126,8 +134,6 @@ initialized it with zeros, that way we start in a definite corner.
 #### Diamond
 
 #### Square
-
-### Long Square
 
 Code [here](code/diamond/ndim_diamond_square.py). I think this is probably
 the 2nd-most beautiful code I've ever written, just after [this absolute
