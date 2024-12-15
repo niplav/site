@@ -1,7 +1,7 @@
 from manim import *
 import numpy as np
 
-class LongSquareAnimation(ThreeDScene):
+class LongDiamondAnimation(ThreeDScene):
     def construct(self):
         # Configuration
         self.set_camera_orientation(phi=75 * DEGREES, theta=45 * DEGREES)
@@ -118,7 +118,7 @@ class LongSquareAnimation(ThreeDScene):
         # Continue rotation for a few more seconds
         self.wait(3)
 
-class LongDiamondAnimation(ThreeDScene):
+class LongSquareAnimation(ThreeDScene):
     def construct(self):
         # Configuration
         self.set_camera_orientation(phi=75 * DEGREES, theta=45 * DEGREES)
@@ -197,80 +197,77 @@ class LongDiamondAnimation(ThreeDScene):
         )
         self.wait(1)
 
-        # Define faces and their centers
-        faces = [
-            # Front, Back, Left, Right, Top, Bottom
-            ([1, 3, 5, 7], [0, 0, 2]),
-            ([0, 2, 4, 6], [0, 0, -2]),
-            ([4, 5, 6, 7], [2, 0, 0]),
-            ([0, 1, 2, 3], [-2, 0, 0]),
-            ([2, 3, 6, 7], [0, 2, 0]),
-            ([0, 1, 4, 5], [0, -2, 0])
-        ]
-
-        # Store face centers and their colors
-        face_center_colors = {}
-        face_center_points = {}  # Store actual face center points
-
-        # Process each face
-        for face_corners_idx, face_center in faces:
-            face_colors = [corner_colors[i] for i in face_corners_idx]
-            face_center_color = average_color(*face_colors)
-            face_center_dot = Dot3D(point=face_center, radius=0.1, color=face_center_color)
-
-            face_center_colors[tuple(face_center)] = face_center_color
-            face_center_points[tuple(face_center)] = np.array(face_center)  # Store the point
-
-            face_arrows = VGroup()
-            for corner_idx in face_corners_idx:
-                start_point = corners[corner_idx]
-                direction = np.array(face_center) - start_point
-                direction = direction / np.linalg.norm(direction) * (np.linalg.norm(direction) - 0.3)
-                end_point = start_point + direction
-
-                arrow = Arrow3D(
-                    start=start_point,
-                    end=end_point,
-                    color=WHITE,
-                    thickness=0.01,
-                )
-                face_arrows.add(arrow)
-
-            self.play(
-                Create(face_center_dot),
-                *[Create(arrow) for arrow in face_arrows],
-                run_time=1.33
-            )
-
-        self.wait(1)
+#        # Define faces and their centers
+#        faces = [
+#            # Front, Back, Left, Right, Top, Bottom
+#            ([1, 3, 5, 7], [0, 0, 2]),
+#            ([0, 2, 4, 6], [0, 0, -2]),
+#            ([4, 5, 6, 7], [2, 0, 0]),
+#            ([0, 1, 2, 3], [-2, 0, 0]),
+#            ([2, 3, 6, 7], [0, 2, 0]),
+#            ([0, 1, 4, 5], [0, -2, 0])
+#        ]
+#
+#        # Store face centers and their colors
+#        face_center_colors = {}
+#        face_center_points = {}  # Store actual face center points
+#
+#        # Process each face
+#        for face_corners_idx, face_center in faces:
+#            face_colors = [corner_colors[i] for i in face_corners_idx]
+#            face_center_color = average_color(*face_colors)
+#            face_center_dot = Dot3D(point=face_center, radius=0.1, color=face_center_color)
+#
+#            face_center_colors[tuple(face_center)] = face_center_color
+#            face_center_points[tuple(face_center)] = np.array(face_center)  # Store the point
+#
+#            face_arrows = VGroup()
+#            for corner_idx in face_corners_idx:
+#                start_point = corners[corner_idx]
+#                direction = np.array(face_center) - start_point
+#                direction = direction / np.linalg.norm(direction) * (np.linalg.norm(direction) - 0.3)
+#                end_point = start_point + direction
+#
+#                arrow = Arrow3D(
+#                    start=start_point,
+#                    end=end_point,
+#                    color=WHITE,
+#                    thickness=0.01,
+#                )
+#                face_arrows.add(arrow)
+#
+#            self.play(
+#                Create(face_center_dot),
+#                *[Create(arrow) for arrow in face_arrows],
+#                run_time=1.33
+#            )
+#
+#        self.wait(1)
 
         # Define edges and their midpoints
         edges = [
-            ([1, 3], [-2, 0, 2], [[0, 0, 2], [-2, 0, 0]]),
-            ([1, 5], [0, -2, 2], [[0, 0, 2], [0, -2, 0]]),
-            ([3, 7], [0, 2, 2], [[0, 0, 2], [0, 2, 0]]),
-            ([5, 7], [2, 0, 2], [[0, 0, 2], [2, 0, 0]]),
+            ([1, 3], [-2, 0, 2]),
+            ([1, 5], [0, -2, 2]),
+            ([3, 7], [0, 2, 2]),
+            ([5, 7], [2, 0, 2]),
 
-            ([0, 1], [-2, -2, 0], [[-2, 0, 0], [0, -2, 0]]),
-            ([2, 3], [-2, 2, 0], [[-2, 0, 0], [0, 2, 0]]),
-            ([4, 5], [2, -2, 0], [[2, 0, 0], [0, -2, 0]]),
-            ([6, 7], [2, 2, 0], [[2, 0, 0], [0, 2, 0]]),
+            ([0, 1], [-2, -2, 0]),
+            ([2, 3], [-2, 2, 0]),
+            ([4, 5], [2, -2, 0]),
+            ([6, 7], [2, 2, 0]),
 
-            ([0, 2], [-2, 0, -2], [[-2, 0, 0], [0, 0, -2]]),
-            ([4, 0], [0, -2, -2], [[0, 0, -2], [0, -2, 0]]),
-            ([6, 2], [0, 2, -2], [[0, 0, -2], [0, 2, 0]]),
-            ([4, 6], [2, 0, -2], [[0, 0, -2], [2, 0, 0]])
+            ([0, 2], [-2, 0, -2]),
+            ([4, 0], [0, -2, -2]),
+            ([6, 2], [0, 2, -2]),
+            ([4, 6], [2, 0, -2]),
         ]
 
         # Process each edge
-        for (corner1_idx, corner2_idx), edge_center, adjacent_faces in edges:
+        for (corner1_idx, corner2_idx), edge_center in edges:
             colors_to_average = [
                 corner_colors[corner1_idx],
                 corner_colors[corner2_idx]
             ]
-            for face_center in adjacent_faces:
-                face_center_color = face_center_colors[tuple(face_center)]
-                colors_to_average.append(face_center_color)
 
             edge_center_color = average_color(*colors_to_average)
             edge_center_dot = Dot3D(point=edge_center, radius=0.08, color=edge_center_color)
@@ -280,21 +277,6 @@ class LongDiamondAnimation(ThreeDScene):
             # Arrows from corners to edge center
             for corner_idx in [corner1_idx, corner2_idx]:
                 start_point = corners[corner_idx]
-                direction = np.array(edge_center) - start_point
-                direction = direction / np.linalg.norm(direction) * (np.linalg.norm(direction) - 0.3)
-                end_point = start_point + direction
-
-                arrow = Arrow3D(
-                    start=start_point,
-                    end=end_point,
-                    color=WHITE,
-                    thickness=0.005,
-                )
-                edge_arrows.add(arrow)
-
-            # Arrows from face centers to edge center
-            for face_center in adjacent_faces:
-                start_point = face_center_points[tuple(face_center)]
                 direction = np.array(edge_center) - start_point
                 direction = direction / np.linalg.norm(direction) * (np.linalg.norm(direction) - 0.3)
                 end_point = start_point + direction

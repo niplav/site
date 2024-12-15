@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-06-24, modified: 2024-11-15, language: english, status: finished, importance: 9, confidence: unlikely*
+*author: niplav, created: 2024-06-24, modified: 2024-12-15, language: english, status: finished, importance: 9, confidence: unlikely*
 
 > __Frustrated by all your bad takes, I write a Monte-Carlo analysis
 of whether a transformative-AI-race between the PRC and the USA
@@ -69,12 +69,15 @@ the list of serious contenders is pretty short.)
 >       3. The value of worlds in which the PRC builds aligned TAI.
 > 3. The value of worlds where extinction occurs (which I'll fix at 0).
 > 4. As a reference point the value of hypothetical worlds in which there is a [multinational exclusive AGI consortium](./doc/cs/ai/alignment/policy/multinational_agi_consortium_hausenloy_2023.pdf) that builds TAI first, without any time pressure, for which I'll fix the mean value at 1.
+> I *won't* be creating a full [Bayes
+net](https://en.wikipedia.org/wiki/Bayes_net) of these variables, even
+though that would be pretty cool—there's only so much time in a day.
 
 > To properly quantify uncertainty, I'll use the
 [Monte-Carlo](https://en.wikipedia.org/wiki/Monte-Carlo_methods)
 [estimation](https://forum.effectivealtruism.org/posts/t6FA9kGsJsEQMDExt/what-is-estimational-programming-squiggle-in-context)
 library [squigglepy](https://github.com/rethinkpriorities/squigglepy)
-(no relation to any office supplies or internals of neural networks).
+(no relation to any office supplies or internals of neural networks).<!--TODO: link LW wiki-->
 > We start, as usual, with housekeeping:
 
 	import numpy as np
@@ -110,31 +113,42 @@ I'll rougly approximate a mixture of two normal distributions. My own
 timelines<sub>2024-06</sub> aren't actually very far off from the updated
 Cotra estimate, only ~5 years shorter.
 
-	timeline_us_race=sq.mixture([sq.norm(mean=2035, sd=5), sq.norm(mean=2060, sd=20)], [0.7, 0.3])
+	timeline_us_race=sq.mixture([sq.norm(mean=2035, sd=5, lclip=CURYEAR), sq.norm(mean=2060, sd=20, lclip=CURYEAR)], [0.7, 0.3])
 
 > I don't like clipping the distribution on the left, it
 leaves ugly artefacts. Unfortunately squigglepy doesn't
 yet support truncating distributions, so I'll make do
-with what I have and add truncating later. (I also tried
+with what I have and truncate the samples later. (I also tried
 to import the replicated TAI-timeline distribution by [Rethink
 Priorities](https://github.com/rethinkpriorities/future-assessment-model),
 but after spending ~15 minutes trying to get it to work, I gave up).
-
-	timeline_us_race_sample=timeline_us_race@1000000
-
-> This reliably gives samples with median of ≈2037 and mean of ≈2044.
 
 > Importantly, this means that the US will train TAI as soon as it
 becomes possible, because there is a race for TAI with the PRC.
 
 > I think the PRC *is* behind on TAI, compared to the US, but only about
-one. year. So it should be fine to define the same distribution, just
-with the means shifted one year backward.
+1 year. So I'll define a tiny Bayes net to define a joint variable with
+the US timelines and the PRC timelines, where for short US timelines
+the PRC is likely behind, and for *long* US timelines the variance of
+PRC timelines is high. I.e., if TAI happens in 2025 it very likely to
+happen in the US, but if TAI happens in 2040 it's pretty unclear whether
+it happens in the US or the PRC.
 
-	timeline_prc_race=sq.mixture([sq.norm(mean=2036, sd=5), sq.norm(mean=2061, sd=20)], [0.7, 0.3])
+	def timeline_prc_race_fn(us_year):
+		timeline_stddev=0.1*((us_year-CURYEAR)+1)
+		timeline=sq.norm(mean=us_year+1, sd=timeline_stddev, lclip=CURYEAR)
+		return sq.sample(timeline)
 
-> This yields a median of ≈2038 and a mean of ≈2043. (Why is the
-mean a year earlier? I don't know. Skill issue, probably.)
+	def define_event_race():
+		us_tai_year=sq.sample(timeline_us_race, lclip=CURYEAR)
+		return({'prc': timeline_prc_race_fn(us_tai_year), 'us': us_tai_year})
+
+	timeline_race_samples=np.array(bayes.bayesnet(define_event_race, find=lambda e: [e['us'], e['prc']], reduce_fn=lambda d: d, n=SAMPLE_SIZE))
+	timeline_race_samples=timeline_race_samples[(timeline_race_samples>CURYEAR).all(axis=1)].T
+	FILTERED_SIZE=timeline_race_samples.shape[1]
+
+> This yields a median timeline of ≈2037 and a mean of ≈2043 for
+the US, and a median of ≈2038 and a mean of ≈2044 for the PRC.
 
 ![](./img/china/timelines.png)
 
@@ -282,17 +296,16 @@ and the non-race situation are, respectively.
 [expectation](https://en.wikipedia.org/wiki/Expected_Value), the US-wins-race
 worlds are, and how often the US in fact wins the race:
 
-	us_timelines_race=timeline_us_race@100000
-	prc_timelines_race=timeline_prc_race@100000
+	timeline_us_race_samples=timeline_race_samples[0]
+	timeline_prc_race_samples=timeline_race_samples[1]
 
-	us_wins_race=1*(us_timelines_race<prc_timelines_race)
-	ev_us_race=(1-pdoom_us_race@100000)*(val_us_race_val@100000)
-
+	us_wins_race=1*(timeline_us_race_samples<timeline_prc_race_samples)
+	ev_us_wins_race=(1-pdoom_us_race@FILTERED_SIZE)*(us_race_val@FILTERED_SIZE)
 
 > And the same for the PRC:
 
-	prc_wins_race=1*(us_timelines_race>prc_timelines_race)
-	ev_prc_wins_race=(1-pdoom_prc_race@100000)*(val_prc_race_val@100000)
+	prc_wins_race=1*(timeline_us_race_samples>timeline_prc_race_samples)
+	ev_prc_wins_race=(1-pdoom_prc_race@FILTERED_SIZE)*(prc_race_val@FILTERED_SIZE)
 
 > It's not *quite* correct to just check where the US timeline is
 shorter than the PRC one: The timeline distribution is aggregating
@@ -307,12 +320,12 @@ but it might affect the outcome slightly.
 > The expected value of a race world then is
 
 	race_val=us_wins_race*ev_us_wins_race+prc_wins_race*ev_prc_wins_race
-	>>> np.mean(non_race_val)
-	0.7543640906126139
-	>>> np.median(non_race_val)
-	0.7772837900955506
-	>>> np.var(non_race_val)
-	0.12330641850356698
+	>>> np.mean(race_val)
+	0.8129264200631985
+	>>> np.median(race_val)
+	0.8255237625586862
+	>>> np.var(race_val)
+	0.08584281131594892
 
 ![](./img/china/goodness_race.png)
 
@@ -324,11 +337,11 @@ for TAI, the calculation is even simpler:
 > Summary stats:
 
 	>>> np.mean(non_race_val)
-	0.7217417036642355
+	0.7222696408496916
 	>>> np.median(non_race_val)
-	0.7079529247343247
+	0.7081431751060641
 	>>> np.var(non_race_val)
-	0.1610011984251525
+	0.1613501124685792
 
 > Comparing the two:
 
@@ -391,18 +404,18 @@ about how this affects the *shape* of the distribution, let me know.)
 MAGIC, how does this shift our expected value?
 
 	little_magic_val=sq.mixture([(prc_nonrace_val*(1-pdoom_prc_nonrace)), (magic_val*(1-pdoom_magic))], [0.9, 0.1])
-	some_magic_val=little_magic_val@1000000
+	little_magic_samples=little_magic_val@SAMPLE_SIZE
 
 > Unfortunately, it's not enough:
 
-	>>> np.mean(some_magic_val)
-	0.7478374812339188
+	>>> np.mean(little_magic_samples)
+	0.7486958682358731
 	>>> np.mean(race_val)
-	0.7543372422248729
-	>>> np.median(some_magic_val)
-	0.7625907656231915
+	0.8131193197339297
+	>>> np.median(little_magic_samples)
+	0.7631875144840716
 	>>> np.median(race_val)
-	0.7768634378292709
+	0.8255805368824831
 
 ![](./img/china/goodnesses_with_a_little_magic.png)
 
@@ -411,20 +424,20 @@ advocacy, with 20% chance of the MAGIC proposal happening?
 
 ![](./img/china/goodnesses_with_a_little_more_magic.png)
 
-That beats the worlds in which we race, fair and square:
+That beats the worlds in which we race, barely:
 
-	>>> np.mean(more_magic_val)
-	0.7740403582341773
-	>>> np.median(more_magic_val)
-	0.8228921409188543
+	>>> np.mean(more_magic_samples)
+	0.7735887844691249
+	>>> np.median(more_magic_samples)
+	0.8226797033195046
 
 > But worlds in which the US advocates for MAGIC at 20% success probability
 still have more variance:
 
-	>>> np.var(more_magic_val)
-	0.14129776984186218
-	>>> np.var(race_val)
-	0.12373193215918225
+	>>> np.var(more_magic_samples)
+	0.14148549498281687
+	>>> np.var(race_samples)
+	0.08597449764232744
 
 > __Benjamin__: Hm. I think I'm a bit torn here. 10% success probability for
 MAGIC doesn't sound *crazy*, but I find 20% too high to be believable.

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-11-24, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2024-11-13, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,39 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Orca communication project - seeking feedback (and collaborators) (Towards_Keeperhood, 2024)](https://www.lesswrong.com/posts/dkJfuKwChxkCrnZ3w/orca-communication-project-seeking-feedback-and)
+* [Donor lotteries: demonstration and FAQ (Carl Shulman, 2016)](https://forum.effectivealtruism.org/posts/WvPEitTCM8ueYPeeH/donor-lotteries-demonstration-and-faq)
+* [What are the primary drivers that caused selection pressure for intelligence in humans? (Towards_Keeperhood, 2024)](https://www.lesswrong.com/posts/CFyt5fRpCQk8spDuR/what-are-the-primary-drivers-that-caused-selection-pressure)
+* [Could orcas be (trained to be) smarter than humans? (Towards_Keeperhood, 2024)](https://www.lesswrong.com/posts/gRShuaWgKjizM4xPM/could-orcas-be-trained-to-be-smarter-than-humans)
+* [An alternative approach to superbabies (Towards_Keeperhood, 2024)](https://www.lesswrong.com/posts/vKM4CTjz5fPB7vznb/an-alternative-approach-to-superbabies)
+* \* Toward Thresholds for Intolerable Risks Posed by Frontier AI Models (Anthony M. Barrett/Jessica newman/Deepika Raman/Nada Madkour/Evan R. Murphy, 2024)
+* [The next chapter of the Gemini era for developers (Shrestha Basu Ballick/Kathy Korevec, 2024)](https://developers.googleblog.com/en/the-next-chapter-of-the-gemini-era-for-developers/)
+* [Try Deep Research and our new experimental model in Gemini, your AI assistant (Dave Citron, 2024)](https://blog.google/products/gemini/google-gemini-deep-research/)
+* [Introducing Gemini 2.0: our new AI model for the agentic era (Sundar Pichia/Demis Hassabis/Koray Kavukcuoglu, 2024)](https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/)
+* [AI #94: Not Now, Google (Zvi, 2024)](https://www.lesswrong.com/posts/HKCXWxFSiWXLByL2S/ai-94-not-now-google)
+* [Buy Health Update (Robin Hanson, 2023)](https://www.overcomingbias.com/p/buy-health-update)
+* [The Google Willow thing (Scott Aaronson, 2024)](https://scottaaronson.blog/?p=8525)
+* [Do the Returns to Software R&D Point Towards a Singularity? (Tamay Besiroglu/Ege Erdil/Anson Ho, 2024)](https://epoch.ai/blog/do-the-returns-to-software-rnd-point-towards-a-singularity)
+* [An Ancient Geometry Problem Falls to New Mathematical Techniques (Steve Nadis, 2022)](https://www.quantamagazine.org/an-ancient-geometry-problem-falls-to-new-mathematical-techniques-20220208/)
+* [Will OpenAI "merge and assist" before building AGI? (closes 2030) (causal_agency, 2023)](https://manifold.markets/causal_agency/will-openai-merge-and-assist-before)
+* [Will OpenAI "merge and assist" by end of 2026? (Rai, 2023)](https://manifold.markets/agentydragon/will-openai-merge-and-assist-by-end)
+* [Will OpenAI have triggered its 'Assist Clause' in order to support another lab, before January 1st of the following years? (will_aldred/elifland, 2023)](https://www.metaculus.com/questions/16187/openai-triggers-assist-clause/)
+* [Meiosis Project Update: Preprint Edition! (Metacelsus, 2024)](https://denovo.substack.com/p/meiosis-project-update-preprint-edition)
+* [Meiosis is all you need (Metacelsus, 2022)](https://denovo.substack.com/p/meiosis-is-all-you-need)
+* [Don't Get Distracted by the Boilerplate (johnswentworth, 2018)](https://www.lesswrong.com/posts/ybKP6e5K7e2o7dSgP/don-t-get-distracted-by-the-boilerplate)
+* [When do "brains beat brawn" in Chess? An experiment (titotal, 2023)](https://www.lesswrong.com/posts/odtMt7zbMuuyavaZB/when-do-brains-beat-brawn-in-chess-an-experiment)
+* [AI #93: Happy Tuesday (Zvi, 2024)](https://www.lesswrong.com/posts/LBzRWoTQagRnbPWG4/ai-93-happy-tuesday)
+* [Art and music event: Ran into that guy again, and other game things (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/02/08/art-and-music-event-ran-into-that-guy-again-and-other-game-things/)
+* [“I Love My Boyfriend Dearly—but I’m Desperate to Have Sex With Other Men” (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/02/05/i-love-my-boyfriend-dearly-but-im-desperate-to-have-sex-with-other-men/)
+* [Guys badly want social media to work. Here’s why it (mostly) doesn’t (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/02/04/guys-badly-want-social-media-to-work-heres-why-it-mostly-doesnt/)
+* [“Bang It Out With Paul Janka” podcast (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/02/01/bang-it-out-with-paul-janka-podcast/)
+* [“The Woman Worried She’ll Never Meet Her Polyamorous Boyfriend’s Parents” (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/01/30/the-woman-worried-shell-never-meet-her-polyamorous-boyfriends-parents/)
+* [Sonny Arvado: The image match and reciprocity (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/01/28/sonny-arvado-and-pancake-mouse-on-the-image-match-and-reciprocity/)
+* [I wonder if “Talking to Women” describes men today, too: (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/01/25/i-wonder-if-talking-to-women-describes-men-today-too/)
+* [AI #92: Behind the Curve (Zvi, 2024)](https://www.lesswrong.com/posts/BGBLcy3JyjjrT8XbM/ai-92-behind-the-curve)
+* [Bitcoin Extremes: Will 1 bitcoin be worth $100,000 or more before 2025? (Jgalt, 2020)](https://www.metaculus.com/questions/3820/btc-worth-over-100k-usd-by-2025/)
+* [Will North Korea deploy military personnel to Ukraine before January 1, 2025? (skmmcj, 2024)](https://www.metaculus.com/questions/29901/will-north-korea-send-troops-to-ukraine-before-2025/)
+* [What Is Distributed Computing? (Max G. Levy, 2024)](https://www.quantamagazine.org/what-is-distributed-computing-20241125/)
 * [Admo (Cyborgism Wiki, 2024)](https://cyborgism.wiki/hypha/admo)
 * [Almo (Cyborgism Wiki, 2024)](https://cyborgism.wiki/hypha/almo)
 * [OpenAI Email Archives (from Musk v. Altman) (Oliver Habryka, 2024)](https://www.lesswrong.com/posts/5jjk4CDnj9tA7ugxr/openai-email-archives-from-musk-v-altman)
