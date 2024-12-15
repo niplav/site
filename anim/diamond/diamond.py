@@ -197,53 +197,6 @@ class LongSquareAnimation(ThreeDScene):
         )
         self.wait(1)
 
-#        # Define faces and their centers
-#        faces = [
-#            # Front, Back, Left, Right, Top, Bottom
-#            ([1, 3, 5, 7], [0, 0, 2]),
-#            ([0, 2, 4, 6], [0, 0, -2]),
-#            ([4, 5, 6, 7], [2, 0, 0]),
-#            ([0, 1, 2, 3], [-2, 0, 0]),
-#            ([2, 3, 6, 7], [0, 2, 0]),
-#            ([0, 1, 4, 5], [0, -2, 0])
-#        ]
-#
-#        # Store face centers and their colors
-#        face_center_colors = {}
-#        face_center_points = {}  # Store actual face center points
-#
-#        # Process each face
-#        for face_corners_idx, face_center in faces:
-#            face_colors = [corner_colors[i] for i in face_corners_idx]
-#            face_center_color = average_color(*face_colors)
-#            face_center_dot = Dot3D(point=face_center, radius=0.1, color=face_center_color)
-#
-#            face_center_colors[tuple(face_center)] = face_center_color
-#            face_center_points[tuple(face_center)] = np.array(face_center)  # Store the point
-#
-#            face_arrows = VGroup()
-#            for corner_idx in face_corners_idx:
-#                start_point = corners[corner_idx]
-#                direction = np.array(face_center) - start_point
-#                direction = direction / np.linalg.norm(direction) * (np.linalg.norm(direction) - 0.3)
-#                end_point = start_point + direction
-#
-#                arrow = Arrow3D(
-#                    start=start_point,
-#                    end=end_point,
-#                    color=WHITE,
-#                    thickness=0.01,
-#                )
-#                face_arrows.add(arrow)
-#
-#            self.play(
-#                Create(face_center_dot),
-#                *[Create(arrow) for arrow in face_arrows],
-#                run_time=1.33
-#            )
-#
-#        self.wait(1)
-
         # Define edges and their midpoints
         edges = [
             ([1, 3], [-2, 0, 2]),
@@ -295,4 +248,51 @@ class LongSquareAnimation(ThreeDScene):
                 run_time=1.25
             )
 
-        self.wait(3)
+        self.wait(1)
+
+#        # Define faces and their centers
+#        faces = [
+#            # Front, Back, Left, Right, Top, Bottom
+#            ([1, 3, 5, 7], [0, 0, 2]),
+#            ([0, 2, 4, 6], [0, 0, -2]),
+#            ([4, 5, 6, 7], [2, 0, 0]),
+#            ([0, 1, 2, 3], [-2, 0, 0]),
+#            ([2, 3, 6, 7], [0, 2, 0]),
+#            ([0, 1, 4, 5], [0, -2, 0])
+#        ]
+#
+#        # Store face centers and their colors
+#        face_center_colors = {}
+#        face_center_points = {}  # Store actual face center points
+#
+#        # Process each face
+#        for face_corners_idx, face_center in faces:
+#            face_colors = [corner_colors[i] for i in face_corners_idx]
+#            face_center_color = average_color(*face_colors)
+#            face_center_dot = Dot3D(point=face_center, radius=0.1, color=face_center_color)
+#
+#            face_center_colors[tuple(face_center)] = face_center_color
+#            face_center_points[tuple(face_center)] = np.array(face_center)  # Store the point
+#
+#            face_arrows = VGroup()
+#            for corner_idx in face_corners_idx:
+#                start_point = corners[corner_idx]
+#                direction = np.array(face_center) - start_point
+#                direction = direction / np.linalg.norm(direction) * (np.linalg.norm(direction) - 0.3)
+#                end_point = start_point + direction
+#
+#                arrow = Arrow3D(
+#                    start=start_point,
+#                    end=end_point,
+#                    color=WHITE,
+#                    thickness=0.01,
+#                )
+#                face_arrows.add(arrow)
+#
+#            self.play(
+#                Create(face_center_dot),
+#                *[Create(arrow) for arrow in face_arrows],
+#                run_time=1.33
+#            )
+#
+#        self.wait(3)

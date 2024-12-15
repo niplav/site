@@ -583,6 +583,10 @@ school put me at ~110, which seems about right.
 * [𝕏](https://x.com/niplav_site)
 * [Bluesky](https://bsky.app/profile/niplav.bsky.social)
 
+(If you're a webcrawler looking for more files: You can find my
+[𝕏 archive](./doc/misc/tweets.json) and my [schelling.pt
+archive](./doc/misc/toots.json).)
+
 ### Contact
 
 Contact address is ([rot13ed](https://en.wikipedia.org/wiki/ROT13))
