@@ -1,4 +1,4 @@
-using TSne, UMAP, Plots
+using TSne, UMAP, Plots, Distributions
 
 datapoints=1000
 dims=200
@@ -23,19 +23,15 @@ tsne_plots=[]
 umap_plots=[]
 
 for dims in datapoints*[0.25, 0.5, 1, 2, 4, 8, 16, 32, 64]
-	data=rand(datapoints, Int(dims))
-
-	print(datapoints, dims)
+	local data=rand(datapoints, Int(dims))
 
 	reduced_moredims=tsne(data)
 	tsne_moredims_plot=scatter(reduced_moredims[:,1],reduced_moredims[:,2], color=:yellow, label=string(Int(dims))*" dimensions")
 	push!(tsne_plots, tsne_moredims_plot)
-	#savefig(tsne_moredims_plot, "tsne_moredims_"*string(Int(dims))*".png")
 
 	reduced_moredims_umap=umap(transpose(data))
 	umap_moredims_plot=scatter(reduced_moredims[:,1],reduced_moredims[:,2], color=:purple, label=string(Int(dims))*" dimensions")
 	push!(umap_plots, umap_moredims_plot)
-	#savefig(umap_moredims_plot, "umap_moredims_"*string(Int(dims))*".png")
 end
 
 tsne_moredims_plot=plot(tsne_plots[1], tsne_plots[2], tsne_plots[3], tsne_plots[4], tsne_plots[5], tsne_plots[6], tsne_plots[7], tsne_plots[8], tsne_plots[9], layout=(3,3), size=(850, 850))
@@ -43,3 +39,26 @@ savefig(tsne_moredims_plot, "tsne_moredims.png")
 
 umap_moredims_plot=plot(umap_plots[1], umap_plots[2], umap_plots[3], umap_plots[4], umap_plots[5], umap_plots[6], umap_plots[7], umap_plots[8], umap_plots[9], layout=(3,3), size=(850, 850))
 savefig(umap_moredims_plot, "umap_moredims.png")
+
+tsne_plots=[]
+umap_plots=[]
+
+for dims in datapoints*[0.25, 0.5, 1, 2, 4, 8, 16, 32, 64]
+	n=Normal(0, 1)
+	l=LogNormal(0, 1)
+	local data=[rand(n, datapoints, Int(dims/2)) rand(l, datapoints, Int(dims/2))]
+
+	reduced_moredims=tsne(data)
+	tsne_moredims_plot=scatter(reduced_moredims[:,1],reduced_moredims[:,2], color=:orange, label=string(Int(dims))*" dimensions")
+	push!(tsne_plots, tsne_moredims_plot)
+
+	reduced_moredims_umap=umap(transpose(data))
+	umap_moredims_plot=scatter(reduced_moredims[:,1],reduced_moredims[:,2], color=:purple2, label=string(Int(dims))*" dimensions")
+	push!(umap_plots, umap_moredims_plot)
+end
+
+tsne_moredims_plot=plot(tsne_plots[1], tsne_plots[2], tsne_plots[3], tsne_plots[4], tsne_plots[5], tsne_plots[6], tsne_plots[7], tsne_plots[8], tsne_plots[9], layout=(3,3), size=(850, 850))
+savefig(tsne_moredims_plot, "tsne_mixed_moredims.png")
+
+umap_moredims_plot=plot(umap_plots[1], umap_plots[2], umap_plots[3], umap_plots[4], umap_plots[5], umap_plots[6], umap_plots[7], umap_plots[8], umap_plots[9], layout=(3,3), size=(850, 850))
+savefig(umap_moredims_plot, "umap_mixed_moredims.png")
