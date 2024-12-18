@@ -184,6 +184,8 @@ or "rest") describes my ability to rest on a specific sensory object.
 Daygame
 --------
 
+<!--TODO: Clean up as per https://claude.ai/chat/f2735ad5-dfd6-4d0c-aaaa-6e1a43f96498-->
+
 Sanitizing the sessions file by converting the datetime to
 [ISO-8601](https://en.wikipedia.org/wiki/ISO-8601) using [structural
 regular

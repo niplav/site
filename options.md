@@ -150,4 +150,5 @@ Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet).
 See Also
 ---------
 
-* Discussions<!--TODO: Add LW discussion-->
+* Discussions
+	* [LessWrong](https://www.lesswrong.com/posts/2AdfJygXGCEaaTS63/how-often-does-taking-away-options-help)

@@ -37,7 +37,7 @@ shrimp and receding galaxies.
 ±?
 ---
 
-<!--TODO: Add thinking from manifold comment-->
+<!--TODO: comment from https://manifold.markets/market/will-niplav-get-laid-by-eoy-2025?tab=comments#3pgnvm4i1zl-->
 
 But, like, still, is daygame *net good*? For others, that is, not for me.
 

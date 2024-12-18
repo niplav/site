@@ -1933,6 +1933,8 @@ towards your available options can give you most of the value you want.
 ### See Also
 
 * [Being the (Pareto) Best in the World (johnswentworth, 2019)](https://www.lesswrong.com/posts/XvN2QQpKTuEzgkZHY/being-the-pareto-best-in-the-world)
+* Discussions
+	* [LessWrong](https://www.lesswrong.com/posts/Z5sDqqGridJQfr4uC/fat-tails-discourage-compromise)
 
 China Getting TAI First Would Not be Infinitely Bad
 -----------------------------------------------------
@@ -2011,7 +2013,7 @@ I test it with data where half the dimensions are [normally
 distributed](https://en.wikipedia.org/wiki/Normal-distribution)
 and the other half is [lognormally
 distributed](https://en.wikipedia.org/wiki/Lognormal_Distribution).
-Intuitively, the resulting dataset has the shape of an skewed hyperegg,
+Intuitively, the resulting dataset has the shape of a skewed hyperegg,
 in which for half the dimensions the cross-section is spherical and for
 the other half they extend much further in one direction than the other.
 
@@ -2261,6 +2263,8 @@ iceberg](https://catern.com/iceberg.html).
 
 Black Hole Mop
 -----------------
+
+<!--TODO: check the Claude conversation: https://claude.ai/chat/e5da2973-c2a1-4c11-b4e2-68aab2d7551a-->
 
 [Baryons](https://en.wikipedia.org/wiki/Baryon) make up only 4.5% of
 the current [massenergy](https://en.wikipedia.org/wiki/Mass-energy)

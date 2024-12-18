@@ -909,7 +909,7 @@ in the future to \\$50000.
 > chance, Roko gave
 > [23%](http://lesswrong.com/lw/3j/rationality_cryonics_and_pascals_wager/);
 > Mike Darwin in 2011 (personal communication)
-> put the odds at <10%; an [informal survey of >6
+> put the odds at \<10%; an [informal survey of \>6
 > people](https://docs.google.com/spreadsheet/ccc?key=0Ajn1LpstEUO_dE00ZVVfa3pzX2Y2dk9mWWRKOUVkWlE#gid=0)
 > ([LW
 > discussion](http://lesswrong.com/lw/fz9/more_cryonics_probability_estimates/))
@@ -1010,8 +1010,9 @@ The life
 expectancy of cryonics is thus is (just taking the average of these three values)
 `$\frac{8938+2850+1000}{3} \approx 4260$`.
 
-To conclude, it seems like resuscitated cryonicists will on average live
-around years, although there is room for debate on this number.
+My rough guess is that resuscitated cryonicists will on average live ~4200
+years, with significant uncertainty and leverage, if the cryonicist is
+particularly careful to avoid accidents and (*checks notes*) suicide.
 
 	years_gain=4260
 
