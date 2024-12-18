@@ -250,49 +250,91 @@ class LongSquareAnimation(ThreeDScene):
 
         self.wait(1)
 
-#        # Define faces and their centers
-#        faces = [
-#            # Front, Back, Left, Right, Top, Bottom
-#            ([1, 3, 5, 7], [0, 0, 2]),
-#            ([0, 2, 4, 6], [0, 0, -2]),
-#            ([4, 5, 6, 7], [2, 0, 0]),
-#            ([0, 1, 2, 3], [-2, 0, 0]),
-#            ([2, 3, 6, 7], [0, 2, 0]),
-#            ([0, 1, 4, 5], [0, -2, 0])
-#        ]
-#
-#        # Store face centers and their colors
-#        face_center_colors = {}
-#        face_center_points = {}  # Store actual face center points
-#
-#        # Process each face
-#        for face_corners_idx, face_center in faces:
-#            face_colors = [corner_colors[i] for i in face_corners_idx]
-#            face_center_color = average_color(*face_colors)
-#            face_center_dot = Dot3D(point=face_center, radius=0.1, color=face_center_color)
-#
-#            face_center_colors[tuple(face_center)] = face_center_color
-#            face_center_points[tuple(face_center)] = np.array(face_center)  # Store the point
-#
-#            face_arrows = VGroup()
-#            for corner_idx in face_corners_idx:
-#                start_point = corners[corner_idx]
-#                direction = np.array(face_center) - start_point
-#                direction = direction / np.linalg.norm(direction) * (np.linalg.norm(direction) - 0.3)
-#                end_point = start_point + direction
-#
-#                arrow = Arrow3D(
-#                    start=start_point,
-#                    end=end_point,
-#                    color=WHITE,
-#                    thickness=0.01,
-#                )
-#                face_arrows.add(arrow)
-#
-#            self.play(
-#                Create(face_center_dot),
-#                *[Create(arrow) for arrow in face_arrows],
-#                run_time=1.33
-#            )
-#
-#        self.wait(3)
+        # Define faces and their centers - Each face is defined by its corner indices and center point
+        faces = [
+            # Front, Back, Left, Right, Top, Bottom
+            ([1, 3, 5, 7], [0, 0, 2]),  # Front face (z = 2)
+            ([0, 2, 4, 6], [0, 0, -2]), # Back face (z = -2)
+            ([4, 5, 6, 7], [2, 0, 0]),  # Right face (x = 2)
+            ([0, 1, 2, 3], [-2, 0, 0]), # Left face (x = -2)
+            ([2, 3, 6, 7], [0, 2, 0]),  # Top face (y = 2)
+            ([0, 1, 4, 5], [0, -2, 0])  # Bottom face (y = -2)
+        ]
+
+        # Get center color for reference (already calculated)
+        center_point = np.array([0, 0, 0])
+
+        # Function to find adjacent edge centers for a face
+        def get_adjacent_edge_centers(face_center):
+            # Convert face center to numpy array for calculations
+            face_center = np.array(face_center)
+            adjacent_centers = []
+
+            # Find edge centers that share two coordinates with the face center
+            for (_, edge_center) in edges:
+                edge_center = np.array(edge_center)
+                # Count how many coordinates match between face and edge
+                matching_coords = np.sum(face_center == edge_center)
+                if matching_coords == 2:  # Edge is adjacent to face
+                    adjacent_centers.append(edge_center)
+
+            return adjacent_centers
+
+        # Process each face
+        for face_corners_idx, face_center in faces:
+            # Get colors of adjacent edge centers and the cube center for averaging
+            adjacent_edge_centers = get_adjacent_edge_centers(face_center)
+
+            # Create dot for face center
+            # Color should be average of cube center and adjacent edge centers
+            colors_to_average = [center_color]  # Start with center color
+            for edge_center in adjacent_edge_centers:
+                # Find the edge in our edges list and get its color
+                for (corner_indices, ec) in edges:
+                    if np.array_equal(np.array(ec), edge_center):
+                        # Get color of this edge (average of its corner colors)
+                        edge_color = average_color(
+                            corner_colors[corner_indices[0]],
+                            corner_colors[corner_indices[1]]
+                        )
+                        colors_to_average.append(edge_color)
+
+            face_center_color = average_color(*colors_to_average)
+            face_center_dot = Dot3D(point=face_center, radius=0.1, color=face_center_color)
+
+            # Create arrows from adjacent edge centers to face center
+            face_arrows = VGroup()
+            for edge_center in adjacent_edge_centers:
+                direction = np.array(face_center) - edge_center
+                direction = direction / np.linalg.norm(direction) * (np.linalg.norm(direction) - 0.3)
+                end_point = edge_center + direction
+
+                arrow = Arrow3D(
+                    start=edge_center,
+                    end=end_point,
+                    color=WHITE,
+                    thickness=0.005,
+                )
+                face_arrows.add(arrow)
+
+            # Also create arrow from cube center to face center
+            direction = np.array(face_center) - center_point
+            direction = direction / np.linalg.norm(direction) * (np.linalg.norm(direction) - 0.3)
+            end_point = center_point + direction
+
+            center_to_face_arrow = Arrow3D(
+                start=center_point,
+                end=end_point,
+                color=WHITE,
+                thickness=0.005,
+            )
+            face_arrows.add(center_to_face_arrow)
+
+            # Animate the creation of face center and arrows
+            self.play(
+                Create(face_center_dot),
+                *[Create(arrow) for arrow in face_arrows],
+                run_time=1
+            )
+
+        self.wait(3)

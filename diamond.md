@@ -73,18 +73,18 @@ diamond-square algorithm:
 Now there are two possible variants of the generalized diamond-square
 algorithm: the Long Diamond variation and the Long Square variation.
 
-The Long Diamond ⇔ Long Cube Spectrum
---------------------------------------
+The Long Diamond ⇔ Long Square Spectrum
+----------------------------------------
 
-Let's take a cube and think about how we can run the diamond-square
-algorithm on it.
+Let's take a 3×3×3 cubical grid and think about how we can run the
+diamond-square algorithm on it.
 
 __One way__ of doing so would be to calculate the center of the cube as
 the mean of all the corners, and then the center of each face as the mean
 of its corners. The value for the midpoint of each edge is calculated
 from the midpoints of the edges and the centers adjacent faces.
 
-<video src="./vid/diamond/long_diamond_white.mp4" type="video/mp4" controls>
+<video src="./vid/diamond/long_diamond.mp4" type="video/mp4" controls>
 </video>
 
 I call this variant the __Long Diamond__ variant. It performs *two*
@@ -96,7 +96,7 @@ and calculate their midpoints as the mean of the endpoints of each edge.
 Then, calculate the value of each face as the mean of the value in the
 center of the cube *and* the centers of the adjacent edges.
 
-<video src="./vid/diamond/long_square_white.mp4" type="video/mp4" controls>
+<video src="./vid/diamond/long_square.mp4" type="video/mp4" controls>
 </video>
 
 That is the __Long Square__ variant: It performs one diamond step

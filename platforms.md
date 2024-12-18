@@ -359,7 +359,10 @@ See Also
 * [[Part 2] Amplifying generalist research via forecasting – results from a preliminary exploration (jacobjacob/ozziegooen/Elizabeth/NunoSempere/bgold, 2019)](https://www.lesswrong.com/posts/FeE9nR7RPZrLtsYzD)
 * Discussions
 	* [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/comments/18a4ojx/using_prediction_platforms_to_select_quantified/)
-	* [LessWrong](https://www.lesswrong.com/posts/2qQyKpXzbPov2Fmdr/please-bet-on-my-quantified-self-decision-markets)
+	* LessWrong
+		* [Initial post](https://www.lesswrong.com/posts/2qQyKpXzbPov2Fmdr/please-bet-on-my-quantified-self-decision-markets)
+		* [On interim results](https://www.lesswrong.com/posts/ipNaYojbg2kSMLCoE/0-202-bits-of-evidence-in-favor-of-futarchy)
+		* [On the Pomodoro experiment results](https://www.lesswrong.com/posts/E4FPkFF4pJ3S4Ncis/pomodoro-method-randomized-self-experiment)
 
 Appendix A: Explanations for the Experiments I Chose
 -----------------------------------------------------

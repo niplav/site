@@ -465,6 +465,7 @@ enough to do to respond to all your bad takes with something like this.
 See Also
 ---------
 
-* Discussions<!--TODO: add Lesswrong discussion-->
+* Discussions
+	* [LessWrong](https://www.lesswrong.com/posts/WT3u2tK2AJpYKvaZd/an-ai-race-with-china-can-be-better-than-not-racing)
 
 [^1]: I personally think it's 2⅔ [shannon](https://en.wikipedia.org/wiki/Shannon_\(unit\)) higher than that, with p(doom)≈55%.
