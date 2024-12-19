@@ -57,6 +57,7 @@ HTML=index.html \
 	declaration.html \
 	decompose.html \
 	diamond.html \
+	dimension.html \
 	eccentric.html \
 	eschews.html \
 	equally_many_heads_and_tails.html \

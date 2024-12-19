@@ -224,3 +224,4 @@ in importance (an outlier-focused "log-normally distributed" view).
 	technological progress, I strongly suspect this happened in the
 	last 150 years—beforehand our basic material didn't deviate
 	that far from naturally occurring objects.
+<!--TODO: link EA Forum discussion-->
