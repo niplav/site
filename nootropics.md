@@ -448,6 +448,8 @@ just doesn't do anything. Maybe it's better when combined with caffeine?
 Melatonin
 ----------
 
+<!--TODO: Claude chat on Melatonin tolerance + effectiveness experiment: https://claude.ai/chat/d9232a96-e71c-4602-974c-5e8b9bc7a60a-->
+
 After being bullied into it by [Gwern
 2019](https://www.gwern.net/Melatonin "Melatonin") and
 reading more about dosage & administration in [Scott Alexander

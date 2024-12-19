@@ -23,10 +23,20 @@ the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
 
+December 2024
+--------------
+
+* Improved the analysis on [an AI race between the US and the PRC](./china.html), the conclusions don't change
+* Expanded on [applying dimensionality reduction to random data and moved it to its own post](./dimension.html)
+* Slightly [more plots](/options.html#Plots) on whether taking options away helps game-theoretic players
+* Second animation & better explanation for the [generalized Diamond-Square algorithm](diamond.html#The_Long_Diamond__Long_Square_Spectrum)
+
+### Links
+
 November 2024
 --------------
 
-* [An animation for explaining the generalized Diamond-Square algorithm](./diamond.html#Long_Diamond)
+* [An animation for explaining the generalized Diamond-Square algorithm](./diamond.html##The_Long_Diamond__Long_Square_Spectrum)
 * [Notes](./notes.html)
 	* [Computer Curiosities](./notes.html#Computer_Curiosities)
 	* [Black Hole Mop](./notes.html#Black_Hole_Mop)
