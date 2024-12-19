@@ -28,8 +28,8 @@ December 2024
 
 * Improved the analysis on [an AI race between the US and the PRC](./china.html), the conclusions don't change
 * Expanded on [applying dimensionality reduction to random data and moved it to its own post](./dimension.html)
-* Slightly [more plots](/options.html#Plots) on whether taking options away helps game-theoretic players
-* Second animation & better explanation for the [generalized Diamond-Square algorithm](diamond.html#The_Long_Diamond__Long_Square_Spectrum)
+* Slightly [more plots](./options.html#Plots) on whether taking options away helps game-theoretic players
+* Second animation & better explanation for the [generalized Diamond-Square algorithm](./diamond.html#The_Long_Diamond__Long_Square_Spectrum)
 
 ### Links
 

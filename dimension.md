@@ -5,7 +5,7 @@
 
 > __Randomness revived, structure banished, outliers observed, perplexity
 examined, and scatterplots produced; all to the discerning enjoyment of
-the nobly dimensionality-reduction-interested reader and for the general
+the nobly dimensionality-reduction-interested reader, and for the general
 betterment of public knowledge; be it machinic or biological in nature.__
 
 t-SNE and UMAP Don't Produce Clusters on Random Data
