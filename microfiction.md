@@ -82,14 +82,14 @@ MIRI QURI and OpenAI!
 
 #### Meditative
 
-* "The awareness will continue to expand until the morale improves"
-* "You can sit here and be okay, if you want."
-* "Slow is smooth, and smooth is fast."
-* "Paper-thin and feather-light."
-* "What is here now, when there is no problem to solve"
-* "Think the thought that is nowhere supported"
-* "Be empty of that too"
-* "Awareness is unsullied by the contents that pass through it"
+* The awareness will continue to expand until the morale improves
+* You can sit here and be okay, if you want.
+* Slow is smooth, and smooth is fast.
+* Paper-thin and feather-light.
+* What is here now, when there is no problem to solve
+* Think the thought that is nowhere supported
+* Be empty of that too
+* Awareness is unsullied by the contents that pass through it
 
 ### German
 
@@ -359,7 +359,7 @@ spot on the happiness/productivity Pareto frontier, dummy.”
 
 ----
 
-> “In general, my reaction to that kind of thing is *sound of someone trying to strangle a laptop*”
+> “In general, my reaction to that kind of thing is-” *sound of someone trying to strangle a laptop*
 
 ----
 
@@ -391,6 +391,11 @@ spot on the happiness/productivity Pareto frontier, dummy.”
 -----
 
 > "If you're going to get pascal-mugged, at least get mugged in style."
+
+------
+
+> "Don't shame me! It was the incentives which caused this!"  
+> "Yes, and I'm shaming you to set new ones."
 
 ### Things to Shout
 

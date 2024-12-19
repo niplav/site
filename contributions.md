@@ -20,7 +20,7 @@ t3x.org klong changelog
 
 ### Contributions to Wikis
 
-1. Contributions to [Wikipedia](https://en.wikipedia.org/wiki/Special:Contributions/Niplav): Probably the most important thing I've ever written; another brick in the Great Pyramid. Only possibly eclipsed by my writing ending up in the training corpus of some [foundation model](https://en.wikipedia.org/wiki/Foundation_model).
+1. Contributions to [Wikipedia](https://en.wikipedia.org/wiki/Special:Contributions/Niplav): Probably the most important things I've ever written; another brick in the Great Pyramid. Only possibly eclipsed by my writing ending up in the training corpus of some [foundation model](https://en.wikipedia.org/wiki/Foundation_model).
 2. Contributions to [Arbital](https://arbital.com/p/niplavyushtun/)
 3. Contributions to the [LessWrong Tags Portal](https://www.lesswrong.com/users/niplav)
 

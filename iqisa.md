@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-15, modified: 2026-06-27, language: english, status: finished, importance: 6, confidence: certain*
+*author: niplav, created: 2022-07-15, modified: 2024-06-27, language: english, status: finished, importance: 6, confidence: certain*
 
 > __Iqisa is [a library](https://github.com/niplav/iqisa) for handling and comparing forecasting datasets from different platforms.__
 
