@@ -1,5 +1,5 @@
 import numpy as np
-import itertools
+import it is it
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
@@ -12,7 +12,7 @@ def create_space(dim, size, minval=0, maxval=255):
 	return space
 
 def get_cornerspos(dim):
-	return np.array(list(itertools.product([0, 1], repeat=dim)))
+	return np.array(list(it.product([0, 1], repeat=dim)))
 
 def get_centers_from_higher_dim(center_pos, cell_size, dim_index, max_size):
 	"""
@@ -31,7 +31,7 @@ def get_centers_from_higher_dim(center_pos, cell_size, dim_index, max_size):
 	return centers
 
 def cartsum(a1, a2):
-	return np.array(list(itertools.product(a1, a2))).sum(axis=1)
+	return np.array(list(it.product(a1, a2))).sum(axis=1)
 
 def diamond_rec(space, size, offsets, stitch_dim, minval, maxval, factor, curdim=None):
 	if curdim==None:
@@ -42,6 +42,7 @@ def diamond_rec(space, size, offsets, stitch_dim, minval, maxval, factor, curdim
 	corners=cartsum(offsets, (cornerspos*(size-1))).reshape([offsets.shape[0], cornerspos.shape[0], dim])
 	centers=offsets+size//2
 	space[tuple(centers.T)]=space[tuple(corners.T)].mean(axis=0)
+	diamond_rec(space, size, offsets, stitch_dim, minval, maxval, factor, curdim-1)
 	return space
 
 def square_rec(space, size, offsets, stitch_dim, minval, maxval, factor, curdim=None):

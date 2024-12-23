@@ -202,7 +202,7 @@ get TAI first are.
 value([MAGIC](./doc/cs/ai/alignment/policy/multinational_agi_consortium_hausenloy_2023.pdf))>value(US
 first, no race)>value(US first, race)>value(PRC first,
 no race)>value(PRC first, race)>value(PRC first,
-race)≫value(extinction).
+race)≫value(extinction).<!--TODO: there's a repeated/confused? option here-->
 > But I'm really unsure about the *type of
 distribution* I want to use. If the next century is
 [hingy](./doc/ea/are_we_living_at_the_hinge_of_history_macaskill_2020.pdf),
@@ -467,5 +467,6 @@ See Also
 
 * Discussions
 	* [LessWrong](https://www.lesswrong.com/posts/WT3u2tK2AJpYKvaZd/an-ai-race-with-china-can-be-better-than-not-racing)
+	* [EA Forum](https://forum.effectivealtruism.org/posts/tu9Md2LouWEHkKEHx/an-ai-race-with-china-can-be-better-than-not-racing)
 
 [^1]: I personally think it's 2⅔ [shannon](https://en.wikipedia.org/wiki/Shannon_\(unit\)) higher than that, with p(doom)≈55%.

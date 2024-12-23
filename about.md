@@ -469,7 +469,7 @@ but rather cycles).
 * [Andrew McKenzie](http://andrewtmckenzie.com/), who writes [essays on brain preservation](https://brainpreservation.github.io/) and [notes on neurobiology](https://neurobiology.substack.com/)
 * [Ethan](https://210ethan.github.io): Pure Everests, with careful diligence
 * [exdiegesis](https://x.com/exdiegesis/)/[mir](https://www.lesswrong.com/users/mir)/[rime](https://forum.effectivealtruism.org/users/elua)
-* [Matthew Baggins](https://matthewbaggins.github.io/)
+* [Matthew Baggins](https://hidden-structures.vercel.app/)
 * [Mesaoptimizer](https://mesaoptimizer.com/)
 * [norvid_studies](https://norvidshoshin.wordpress.com/blog/), [𝕏](http://nitter.poast.org/norvid_studies): Endless source [of](https://nitter.poast.org/norvid_studies/status/1436131871184850949) [fascinating](https://nitter.poast.org/norvid_studies/status/1609632437306556417) [questions](https://nitter.poast.org/norvid_studies/status/1719694131578986518)
 * [Nuño Sempere](https://nunosempere.com/), who ended up here through no fault of his own
