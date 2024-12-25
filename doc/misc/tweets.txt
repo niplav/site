@@ -2391,7 +2391,7 @@ I think @norvid_studies asked about a similar intuition for power laws, but I do
 -------------------
 Posted on: Wed Nov 15 22:14:39 +0000 2023
 From: exdiegesis
-Text: @exdiegesis also avalanches iirc, and many things in 
+Text: @exdiegesis also avalanches iirc, and many things in
 
 maybe also pain and pleasure¹, see also Weber's law²?
 
@@ -2683,7 +2683,7 @@ Still @ OpenAI (as far as we know):
 • Bowen Baker
 • Yining Chen
 • Adrian Ecoffet
-• Manas Joglekar 
+• Manas Joglekar
 • Yeff Wu
 
 https://t.co/uuXCHb9O0Q
@@ -4484,7 +4484,7 @@ Text: @ApriiSR This was more in the shitpost territory, I also have no idea how 
 -------------------
 Posted on: Wed Oct 11 03:48:36 +0000 2023
 From: BecomingCritter
-Text: @BecomingCritter Found half of a book in a hostel in Spain, found the other half¹ 9 months later in a remote Nepali village. 
+Text: @BecomingCritter Found half of a book in a hostel in Spain, found the other half¹ 9 months later in a remote Nepali village.
 Nearly perfect complementarity, some overlapping pages.
 
 ¹: different copy
@@ -5047,7 +5047,7 @@ Text: @norvid_studies Hopefully Altman:Reagan::AI:Nuclear Weapons…
 -------------------
 Posted on: Fri Sep 29 13:51:13 +0000 2023
 From: original tweet
-Text: RT @mouse_pancake: This is great. 
+Text: RT @mouse_pancake: This is great.
 
 (from https://t.co/2fCVBoqFyl) https://t.co/T6lAKyQEqj
 ❤️ 0 likes | 🔄 0 retweets
@@ -5502,7 +5502,7 @@ In the latter two cases link pls 🙏
 -------------------
 Posted on: Wed Sep 27 14:59:32 +0000 2023
 From: norvid_studies
-Text: @norvid_studies I personally still think this analysis takes most relevant factors into account: 
+Text: @norvid_studies I personally still think this analysis takes most relevant factors into account:
 
 https://t.co/94IEu64iCc
 
@@ -6364,7 +6364,7 @@ The sense that more is possible https://t.co/bUEFVu4SVT
 -------------------
 Posted on: Thu Sep 14 14:13:41 +0000 2023
 From: norvid_studies
-Text: @norvid_studies @C_Harwick Wouldn't this trade be art of the income variable? 
+Text: @norvid_studies @C_Harwick Wouldn't this trade be art of the income variable?
 
 Or do we clearly demarcate employers and employees?
 ❤️ 0 likes | 🔄 0 retweets
@@ -6758,7 +6758,7 @@ Text: RT @StatsLime: https://t.co/0nb1ph2E4B
 -------------------
 Posted on: Sun Sep 10 17:18:54 +0000 2023
 From: thomasbmbrastad
-Text: @thomasbmbrastad @liz_love_lace And function pointers! Casting void pointers as ad hoc generics! 
+Text: @thomasbmbrastad @liz_love_lace And function pointers! Casting void pointers as ad hoc generics!
 
 "Struct of function pointer of char pointer to pointer to pointer to char, int and pointer to struct"
 ❤️ 1 likes | 🔄 0 retweets
@@ -7440,7 +7440,7 @@ From: original tweet
 Text: Arbitrary X aren't Y can mean:
 
 * All X aren't Y
-* Almost all X arent Y (real numbers, computable) 
+* Almost all X arent Y (real numbers, computable)
 * Many X aren't Y, some are, and the two groups are hard to disentangle (SAT problems, sovable in polynomial time)
 ❤️ 1 likes | 🔄 0 retweets
 -------------------
@@ -7847,7 +7847,7 @@ Text: List of citogenesis incidents: https://t.co/is3YglUaob
 -------------------
 Posted on: Thu Aug 24 15:26:56 +0000 2023
 From: original tweet
-Text: RT @lumpenspace: oh lol i just noticed that’s four screenshots of his own tweets? 
+Text: RT @lumpenspace: oh lol i just noticed that’s four screenshots of his own tweets?
 
 does this have a name? sole-puppeting? antisocial proof…
 ❤️ 0 likes | 🔄 0 retweets
@@ -7893,7 +7893,7 @@ Posted on: Mon Aug 21 19:47:39 +0000 2023
 From: original tweet
 Text: RT @DaysOfGame_com: @alpharivelino &gt; Talk to the girls that scare you
 
-Yes. 
+Yes.
 
 And also to the ones that don't.
 ❤️ 0 likes | 🔄 0 retweets
@@ -8055,7 +8055,7 @@ Hunger Game: Is Honesty Between Animals Always the Best Policy? (Natalie Wolchov
 Posted on: Thu Aug 17 13:11:05 +0000 2023
 From: faustsoli
 Text: @faustsoli @alexeyguzey @tylercowen @gwern @anderssandberg
-@norvid_studies 
+@norvid_studies
 Carl Shulman
 
 Extremely high curiosity is worth pointing out
@@ -8544,7 +8544,7 @@ Text: @nymation @QuintinPope5 This is one of the rare cases where people might b
 -------------------
 Posted on: Wed Aug 09 08:28:36 +0000 2023
 From: original tweet
-Text: RT @mold_time: The Mysteries Contest is over — go vote! 
+Text: RT @mold_time: The Mysteries Contest is over — go vote!
 
 https://t.co/qafXXJP89v
 ❤️ 0 likes | 🔄 0 retweets
@@ -8566,7 +8566,7 @@ Text: LessWrong has no tag for cost-benefit analyses 😑
 -------------------
 Posted on: Wed Aug 09 08:00:55 +0000 2023
 From: original tweet
-Text: Yes! 
+Text: Yes!
 
 "We are going to build extremely powerful artifacts. We do not understand them. They already sometimes act against our wishes."
 
@@ -10243,7 +10243,7 @@ Text: @norvid_studies Ye olde babble &amp; prune cycle
 -------------------
 Posted on: Sat Jul 15 11:22:36 +0000 2023
 From: original tweet
-Text: RT @razibkhan: i don't read books because of professional reasons. 
+Text: RT @razibkhan: i don't read books because of professional reasons.
 
 i don't read books to impress women. i don't respect women who are imp…
 ❤️ 0 likes | 🔄 0 retweets
@@ -10529,7 +10529,7 @@ Then you have another hypothesis V_r10 which is V plus a description of repetiti
 -------------------
 Posted on: Thu Jul 13 13:25:14 +0000 2023
 From: niplav_site
-Text: @norvid_studies occams razor. The programs you consider need to not get stuck in infinite loops, so you only take computable programs. 
+Text: @norvid_studies occams razor. The programs you consider need to not get stuck in infinite loops, so you only take computable programs.
 
 Now assume there is a program V which implements a part of the world which is quite valuable. Assume further that this part of the world is valuable in a way
 ❤️ 0 likes | 🔄 0 retweets
@@ -11148,7 +11148,7 @@ But as said, you're right and I probably shouldn't have spebt that much time on 
 -------------------
 Posted on: Fri Jul 07 17:19:47 +0000 2023
 From: niplav_site
-Text: @norvid_studies Yep looks like you were right and I was wrong: 
+Text: @norvid_studies Yep looks like you were right and I was wrong:
 https://t.co/dWPnZckw3e
 
 I recognize that I am fulfilling a stereotype right now
@@ -12064,7 +12064,7 @@ Text: @teortaxesTex Oh yeah that was horrible. I should've commented something a
 -------------------
 Posted on: Tue Jun 27 09:37:16 +0000 2023
 From: lxrjl
-Text: @lxrjl I might do that, have an unfinished draft in progress (very much emphasis on *draft*) 
+Text: @lxrjl I might do that, have an unfinished draft in progress (very much emphasis on *draft*)
 https://t.co/dmX00ui83h
 ❤️ 2 likes | 🔄 0 retweets
 -------------------
@@ -12371,7 +12371,7 @@ Text: @NoncanonicAleae 1) What
 -------------------
 Posted on: Fri Jun 23 07:15:37 +0000 2023
 From: niplav_site
-Text: (Aircraft carriers are built out of &gt;10^9 parts). Can we format the causal story hierarchically or in a way it is at least probabilistically checkable? 
+Text: (Aircraft carriers are built out of &gt;10^9 parts). Can we format the causal story hierarchically or in a way it is at least probabilistically checkable?
 
 Seems relevant for CoEms.
 
@@ -13130,7 +13130,7 @@ Text: @teortaxesTex Now if someone just invented the mathematics of navigating i
 -------------------
 Posted on: Fri Jun 16 18:29:53 +0000 2023
 From: niplav_site
-Text: Ofc later repaid many times over, but. 
+Text: Ofc later repaid many times over, but.
 
 Works for many kinds of doom! This of course only takes into account present generations, but it'd be a start. I'd probably finance my payment of AI-doom bets via the payoff from climate doom shares.
 ❤️ 2 likes | 🔄 0 retweets
@@ -13884,7 +13884,7 @@ Still damaged me less than Houellebecq though
 -------------------
 Posted on: Wed Jun 07 13:30:02 +0000 2023
 From: ilex_ulmus
-Text: @ilex_ulmus Treating "AI causing human extinction" as belief in belief, this is played on simulacrum 
+Text: @ilex_ulmus Treating "AI causing human extinction" as belief in belief, this is played on simulacrum
 &gt;=3, they want to object to the "hey look shiny torment nexus" calls
 ❤️ 2 likes | 🔄 0 retweets
 -------------------
@@ -14198,7 +14198,7 @@ Text: @Evolving_Moloch @luke_smith23 Oops I just realized it's *your* blog
 -------------------
 Posted on: Thu May 09 23:23:37 +0000 2024
 From: noncanonicAleae
-Text: @noncanonically Hm, you have a strong sense of æsthetics though, right? 
+Text: @noncanonically Hm, you have a strong sense of æsthetics though, right?
 
 I liked https://t.co/jJOu1Ywoz1, factory farming is not glorious
 ❤️ 2 likes | 🔄 0 retweets
@@ -15883,7 +15883,7 @@ Text: @norvid_studies Needs to be a combined character à la ‽ or the interroc
 -------------------
 Posted on: Tue May 07 14:28:18 +0000 2024
 From: norvid_studies
-Text: @norvid_studies https://t.co/N7t29LOL9o + @BasedBeffJezos 
+Text: @norvid_studies https://t.co/N7t29LOL9o + @BasedBeffJezos
 
 e/acc is very selection-heavy, not thinking about how sometimes minds control the trajectory of their cognition
 
@@ -15973,7 +15973,7 @@ But if I were an EA funder, I would probably allocate money away from areas towa
 -------------------
 Posted on: Sat May 25 22:17:28 +0000 2024
 From: 12leavesleft
-Text: @12leavesleft @algekalipso Oh, I was more trying to inhabit the perspective @algekalipso probably has. 
+Text: @12leavesleft @algekalipso Oh, I was more trying to inhabit the perspective @algekalipso probably has.
 
 My timeline for TAI is mean 2032, median 2034, 25th percentile 2028 and 75th percentile 2050.
 
@@ -16248,8 +16248,8 @@ Text: RT @MathMatize: Sweet dreams Ramanujan https://t.co/jXoH2tgAM6
 -------------------
 Posted on: Tue Apr 09 15:09:56 +0000 2024
 From: deepfates
-Text: @deepfates Parts are realer than wholes (reductionism?) 
-Parts are as as real as wholes (?) 
+Text: @deepfates Parts are realer than wholes (reductionism?)
+Parts are as as real as wholes (?)
 Parts are less real than wholes (???)
 ❤️ 1 likes | 🔄 0 retweets
 -------------------
@@ -18275,7 +18275,7 @@ Text: @qsdnl Man, **same**. Tentative solution: run all the experiments on mysel
 -------------------
 Posted on: Wed Feb 21 12:22:41 +0000 2024
 From: niplav_site
-Text: Ergo: @Extropic_AI is in expectation good for alignment 
+Text: Ergo: @Extropic_AI is in expectation good for alignment
 
 □
 ❤️ 0 likes | 🔄 0 retweets
@@ -22569,7 +22569,7 @@ Text: The Cembalo might work well as a rock instrument
 -------------------
 Posted on: Sun Jan 07 17:18:08 +0000 2024
 From: original tweet
-Text: Really good debate: https://t.co/Ztfpp4sflA 
+Text: Really good debate: https://t.co/Ztfpp4sflA
 
 Where do you find more of that kind of thing?
 ❤️ 1 likes | 🔄 0 retweets
@@ -23012,7 +23012,7 @@ Text: @1a3orn I *get* the frustration that LW members dont do more forecasts. I 
 Posted on: Thu Jan 04 17:02:10 +0000 2024
 From: original tweet
 Text: RT @s_r_constantin: https://t.co/SNkaWja4PX
-Congrats to OpenWater for raising $54M in new funding!  
+Congrats to OpenWater for raising $54M in new funding!
 
 They've also opened up preorders for…
 ❤️ 0 likes | 🔄 0 retweets
@@ -23230,7 +23230,7 @@ Text: Single blind, double blind, triple blind, first blind, second blind, third
 -------------------
 Posted on: Mon Jan 01 18:55:31 +0000 2024
 From: original tweet
-Text: Holy fuck https://t.co/UkBKtFWGEX 
+Text: Holy fuck https://t.co/UkBKtFWGEX
 
 Why did I not find out about this earlier
 
@@ -23643,7 +23643,7 @@ Posted on: Tue Dec 19 17:17:10 +0000 2023
 From: original tweet
 Text: Please bet on this market for a self-experiment I might¹ run:
 
-https://t.co/JFcPekZinE 
+https://t.co/JFcPekZinE
 
 https://t.co/5bbW58hhTx
 ❤️ 7 likes | 🔄 2 retweets
@@ -24142,7 +24142,7 @@ Text: @akselerer Excellent, love it. No notes.
 -------------------
 Posted on: Fri Dec 15 17:13:01 +0000 2023
 From: original tweet
-Text: RT @akselerer: @niplav_site a list of the 56 concepts, with all their instances. 
+Text: RT @akselerer: @niplav_site a list of the 56 concepts, with all their instances.
 
 (concept 56: loritism / the list) https://t.co/MbOZGkp6Xh
 ❤️ 0 likes | 🔄 0 retweets
