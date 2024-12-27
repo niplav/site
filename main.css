@@ -56,3 +56,137 @@ video {
 	color: #222;
 	text-decoration: none;
 }
+
+.toc {
+	background: #f8f8f8;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 15px 25px;
+	margin: 20px 0;
+	max-width: 800px;
+	font-size: 14px;
+}
+
+.toc-title {
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	color: #333;
+}
+
+.toc ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+.toc li {
+	margin: 2px 0;
+	line-height: 1.4;
+}
+
+.toc a {
+	text-decoration: none;
+	color: #444;
+}
+
+.toc a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+/* Remove automatic list-style numbering */
+.toc li {
+	list-style: none;
+}
+
+/* Add numbering as pseudo-elements */
+.toc li {
+	position: relative;
+	padding-left: 4em;  /* Space for numbers */
+}
+
+.toc > ul > li {
+	counter-increment: h1;  /* Add this for first level */
+}
+
+.toc > ul > li::before {
+	content: counter(h1) ". ";  /* Add this for first level */
+	position: absolute;
+	left: 0;
+	color: #666;
+}
+
+/* Reset counter for first level */
+.toc > ul {
+	counter-reset: h1;  /* Add this */
+}
+
+.toc > ul > li > ul > li {
+	counter-increment: h2;
+}
+
+.toc > ul > li > ul > li > ul > li {
+	counter-increment: h3;
+}
+
+.toc > ul > li > ul > li::before {
+	content: counter(h2) ". ";
+	position: absolute;
+	left: 0;
+	color: #666;
+}
+
+/* Second level numbering */
+.toc > ul > li > ul > li::before {
+    content: counter(h1) "." counter(h2) " ";
+    position: absolute;
+    left: 0;
+    color: #666;
+}
+
+/* Third level numbering */
+.toc > ul > li > ul > li > ul > li::before {
+    content: counter(h1) "." counter(h2) "." counter(h3) " ";
+    position: absolute;
+    left: 0;
+    color: #666;
+}
+
+/* Fourth level numbering */
+.toc > ul > li > ul > li > ul > li > ul > li::before {
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) " ";
+    position: absolute;
+    left: 0;
+    color: #666;
+}
+
+.toc > ul > li > ul > li > ul > li > ul > li {
+	counter-increment: h4;
+}
+
+.toc > ul > li > ul > li > ul > li > ul > li > ul >li {
+	counter-increment: h5;
+}
+
+/* Reset counters at each level */
+.toc > ul {
+	counter-reset: h2;
+}
+
+.toc > ul > li > ul {
+	counter-reset: h3;
+}
+
+.toc > ul > li > ul > li > ul {
+	counter-reset: h4;
+}
+
+.toc > ul > li > ul > li > ul >li > ul {
+	counter-reset: h4;
+}
+
+/* Hide empty items */
+.toc li:empty {
+	display: none;
+}

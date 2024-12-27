@@ -2,27 +2,27 @@
 
 *author: niplav, created: 2019-03-20, modified: 2024-12-16, language: english, status: in progress, importance: 6, confidence: log*
 
-Content
-=======
-
-This is the website of niplav. It contains texts on different topics,
+> __This is the website of niplav. It contains texts on different topics,
 including (but not limited to) forecasting, futurism, unusual social
 behavior and philosophy, as well as translations and transcriptions
 of different texts, chronological archives of blogs and programming
-projects.
+projects.__
 
-More information about the website and its author can be
+> __More information about the website and its author can be
 found on the [about](./about.html) page; for recent additions
 and changes, see the [changelog](./changelog.html), and the
 corresponding [RSS feed](https://niplav.substack.com/feed) or
-[substack](https://niplav.substack.com/)[^1].
+[substack](https://niplav.substack.com/)[^1].__
+
+> __I [can be hired](./services.html) to investigate research questions, write
+code, design and execute experiments, analyze data and make predictions.__
+
+> __[Content warning](./content_warning.html).__
+
+Content
+=======
 
 [^1]: Feeds like RSS/Atom/Substack are not a great fit for what I'm trying to do here, since [I'm not writing a blog](./about.html#Not_Really_a_Blog) and instead focus on [long content](https://gwern.net/about#long-content). But demand was high.
-
-I [can be hired](./services.html) to investigate research questions, write
-code, design and execute experiments, analyze data and make predictions.
-
-[Content warning](./content_warning.html).
 
 Best Of
 --------
@@ -234,7 +234,7 @@ Programming
 * [Fuzzy Find to Insert Lines in vis](./vis.html)
 
 Miscellaneous
-=============
+--------------
 
 * [About](./about.html)
 * [Changelog](./changelog.html)
