@@ -1,0 +1,124 @@
+#!/usr/bin/env python3
+
+import re
+import sys
+from bs4 import BeautifulSoup as bs
+
+def get_header_id(header_text):
+	ref = re.sub('[^a-zA-Z0-9 ]', '', str(header_text))
+	return re.sub(' ', '_', ref)
+
+def get_header_level(header):
+	return int(header.name[1])
+
+def normalize_level(current_level, base_level):
+	# Ensure we always start with level 1 after the base
+	return max(1, current_level - base_level + 1)
+
+def create_list_item(soup, header):
+	li = soup.new_tag('li')
+	header_text = ' '.join(header.stripped_strings)
+	if not header_text:  # Skip empty headers
+		return None
+
+	header_id = header.get('id') or get_header_id(header_text)
+	a = soup.new_tag('a', href=f'#{header_id}')
+	a.string = header_text
+	li.append(a)
+	return li
+
+def build_toc_structure(soup, headers):
+	# Initialize the root ul
+	root_ul = soup.new_tag('ul')
+	current_structure = {
+		'ul': root_ul,
+		'level': 0
+	}
+	structure_stack = [current_structure]
+
+	for header in headers:
+		level = get_header_level(header)
+
+		# Create list item
+		li = create_list_item(soup, header)
+		if not li:
+			continue
+
+		# Find the appropriate parent ul
+		while structure_stack[-1]['level'] >= level and len(structure_stack) > 1:
+			structure_stack.pop()
+
+		parent_ul = structure_stack[-1]['ul']
+
+		# Create a new ul if needed
+		if level > structure_stack[-1]['level']:
+			new_ul = soup.new_tag('ul')
+			li.append(new_ul)
+			parent_ul.append(li)
+			structure_stack.append({
+				'ul': new_ul,
+				'level': level
+			})
+		else:
+			parent_ul.append(li)
+
+	return root_ul
+
+def generate_toc(soup):
+	# Find all headers except the 'home' header
+	headers = [h for h in soup.find_all(['h2', 'h3', 'h4', 'h5', 'h6'])
+			  if not (h.find(string='home') or h.string == 'home')]
+
+	if not headers:
+		return None
+
+	toc_div = soup.new_tag('div')
+	toc_div['class'] = 'toc'
+
+	title = soup.new_tag('div')
+	title['class'] = 'toc-title'
+	title.string = 'Contents'
+	toc_div.append(title)
+
+	# Build TOC structure
+	toc_list = build_toc_structure(soup, headers)
+	toc_div.append(toc_list)
+
+	return toc_div
+
+def main():
+	filename = sys.argv[1]
+	with open(filename, 'r') as f:
+		soup = bs(f.read(), features='lxml')
+
+	# Generate TOC
+	toc = generate_toc(soup)
+	if toc:
+		body = soup.find('body')
+		if not body:
+			return
+
+		# Find the abstract
+		abstract = None
+		for blockquote in body.find_all('blockquote'):
+			if blockquote.find_previous('h1') is None:
+				abstract = blockquote
+				break
+
+		# Find first content h1
+		first_content_h1 = None
+		for h1 in body.find_all('h1'):
+			if not h1.find(string='home'):
+				first_content_h1 = h1
+				break
+
+		if abstract:
+			abstract.insert_after(toc)
+		elif first_content_h1:
+			first_content_h1.insert_before(toc)
+
+	with open(filename, 'w') as f:
+		f.write(str(soup))
+
+if __name__ == '__main__':
+	main()

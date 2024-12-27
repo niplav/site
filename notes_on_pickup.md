@@ -474,6 +474,7 @@ threatened. Not me. I see man as the tool-using animal.
 * [There is no easy way: there is only the hard way (2018)](https://theredquest.wordpress.com/2018/10/17/there-is-no-easy-way-there-is-only-the-hard-way/)
 * [Be extreme (2019)](https://theredquest.wordpress.com/2019/03/29/be-extreme/)
 * [The game challenge: doing what’s unnatural (2018)](https://theredquest.wordpress.com/2018/05/19/the-game-challenge-doing-whats-unnatural/)
+* [Chicks find it hard to get someone attractive yet interesting (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/03/01/chicks-find-it-hard-to-get-someone-attractive-yet-interesting/)
 
 #### Writing
 

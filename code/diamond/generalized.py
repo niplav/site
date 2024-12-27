@@ -1,5 +1,5 @@
 import numpy as np
-import it is it
+import itertools as it
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
@@ -42,8 +42,7 @@ def diamond_rec(space, size, offsets, stitch_dim, minval, maxval, factor, curdim
 	corners=cartsum(offsets, (cornerspos*(size-1))).reshape([offsets.shape[0], cornerspos.shape[0], dim])
 	centers=offsets+size//2
 	space[tuple(centers.T)]=space[tuple(corners.T)].mean(axis=0)
-	diamond_rec(space, size, offsets, stitch_dim, minval, maxval, factor, curdim-1)
-	return space
+	return diamond_rec(space, size, offsets, stitch_dim, minval, maxval, factor, curdim-1)
 
 def square_rec(space, size, offsets, stitch_dim, minval, maxval, factor, curdim=None):
 	return space
