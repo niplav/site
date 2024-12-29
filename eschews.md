@@ -138,7 +138,7 @@ The hypothesis that many intellectuals fear that widespread reliable
 testing of cognitive ability could hurt their position in status
 hierarchies where intellectual performance is crucial retrodicts this.
 
-#### FTFP and Two-Party Systems
+#### FPTP and Two-Party Systems
 
 A more esoteric example is the baffling prevalence of
 [first-past-the-post](https://en.wikipedia.org/wiki/First-past-the-post_voting)
