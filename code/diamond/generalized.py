@@ -30,16 +30,62 @@ def get_centers_from_higher_dim(center_pos, cell_size, dim_index, max_size):
 				centers.append(tuple(pos))
 	return centers
 
-def cartsum(a1, a2):
-	return np.array(list(it.product(a1, a2))).sum(axis=1)
+#def cartsum(a1, a2):
+#	return np.array(list(it.product(a1, a2))).sum(axis=1)
+
+def get_face_corners(dim, curdim):
+	"""Get corners for all faces of dimension curdim in a dim-dimensional space"""
+	fixed_dims = np.array(list(it.combinations(range(dim), curdim)))
+	moving_dims = np.array([np.setdiff1d(range(dim), f) for f in fixed_dims])
+	template = np.array(list(it.product([0, 1], repeat=dim-curdim+1)))[:, None, :] * np.eye(dim)[fixed_dims]
+	return (template[:, None, :, :] + np.array(list(it.product([0, 1], repeat=curdim)))[None, :, None, :] * np.eye(dim)[moving_dims][:, None, :, :]).reshape(-1, 2**curdim, dim)
+
+def get_face_corners(dim, curdim):
+	"""Get corners for all faces of dimension curdim in a dim-dimensional space"""
+	if curdim == dim:
+		return get_cornerspos(dim)[None, :, :]
+	fixed_dims = np.array(list(it.combinations(range(dim), dim - curdim)))
+	moving_dims = np.array([np.setdiff1d(range(dim), f) for f in fixed_dims])
+	template = np.array(list(it.product([0, 1], repeat=dim - curdim)))[:, None, :] * np.eye(dim)[fixed_dims]
+	return (template[:, None, :, :] + np.array(list(it.product([0, 1], repeat=curdim)))[None, :, None, :] * np.eye(dim)[moving_dims][:, None, :, :]).reshape(-1, 2**curdim, dim)
 
 def diamond_rec(space, size, offsets, stitch_dim, minval, maxval, factor, curdim=None):
+	"""
+	Corners first iteration (center) [Shape not quite correct bc only one element]:
+		array([[[0, 0, 0],
+	        [0, 0, 4],
+	        [0, 4, 0],
+	        [0, 4, 4],
+	        [4, 0, 0],
+	        [4, 0, 4],
+	        [4, 4, 0],
+	        [4, 4, 4]]])
+	Corners second iteration (faces):
+		array([[
+		[
+			[0, 0, 0],
+			[0, 0, 4],
+			[0, 4, 0],
+			[0, 4, 4]
+		],
+		[
+			[0, 0, 0],
+			[0, 4, 0],
+			[4, 0, 0],
+			[4, 4, 0]
+		],
+	]])
+	"""
+
 	if curdim==None:
 		curdim=len(space.shape)
+	if curdim<=stitch_dim:
+		return space
+
 	dim=len(space.shape)
 	cornerspos=get_cornerspos(dim)
 	# TODO: zero out unneeded dimensions!
-	corners=cartsum(offsets, (cornerspos*(size-1))).reshape([offsets.shape[0], cornerspos.shape[0], dim])
+	corners=offsets[:, np.newaxis, :] + cornerspos[np.newaxis, :, :] * (size-1)
 	centers=offsets+size//2
 	space[tuple(centers.T)]=space[tuple(corners.T)].mean(axis=0)
 	return diamond_rec(space, size, offsets, stitch_dim, minval, maxval, factor, curdim-1)
@@ -76,7 +122,9 @@ def diamond_square_nd(space, size=None, offsets=None, stitch_dim=1, minval=0, ma
 	space=stitch(space, size, offsets, stitch_dim, minval, maxval, factor)
 
 	nsize=size//2
-	noffsets=cartsum(offsets, get_cornerspos(dim)*nsize)
+	cornerspos=get_cornerspos(dim)
+	noffsets=offsets[:, np.newaxis, :] + cornerspos[np.newaxis, :, :] * (nsize)
+	#noffsets=cartsum(offsets, get_cornerspos(dim)*nsize)
 
 	return diamond_square_nd(space, size=nsize+1, offsets=noffsets, minval=round(minval*factor), maxval=round(maxval*factor), factor=factor)
 

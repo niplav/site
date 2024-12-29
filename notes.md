@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-12-15, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2024-12-29, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2245,4 +2245,63 @@ I don't know whether such constructions are possible or desirable,
 but I would like to hear some feedback by someone more knowledgeable
 about physics.
 
+Centaur Stage
+--------------
+
+There's been [a little](https://arbital.com/p/relative_ability/)
+[bit](https://www.lesswrong.com/posts/sTboWTyf9MfERnsKp/gwern-about-centaurs-there-is-no-chance-that-any-useful-man)
+[of writing](https://gwern.net/note/note#advanced-chess-obituary) about
+what is sometimes called the "__centaur stage__" of AI systems.
+
+Here's one way of thinking about it: Let's say there's a human `$H$`
+and a set of strictly improving iterations on an AI system `$A_1,
+\dots, A_n$` with `$n \in ℕ$`. Then let's write `$A_1⊏H$` to say
+that `$A_1$` is worse on some task (set of tasks) than H. Let's now
+say there's a smallest `$i \in ℕ$` so that `$H⊏A_i$`: The weakest
+AI system that still performs better than all humans on the task in
+question. (E.g. [Watson](https://en.wikipedia.org/wiki/IBM_Watson)
+beating [Jennings](https://en.wikipedia.org/wiki/Ken_Jennings)
+in [Jeopardy!](https://en.wikipedia.org/wiki/Jeopardy!) or
+[Chinook](https://en.wikipedia.org/wiki/Chinook_\(computer_program\))
+beating [Tinsley](https://en.wikipedia.org/wiki/Marion_Tinsley)
+in Checkers.)
+
+*But* say we have a way of combining AIs with humans, and stipulate
+some __centaur operation__ `$C$`. Then there can exist some `$j≥i$`
+so that `$A_j⊏C(A_j, H)$`: that is, under a centaur setup humans and
+AIs together still beat AIs alone.
+
+But there can then be a smallest `$k \in ℕ$`[^3] so that `$C(A_k, H)⊏A_k$`:
+the human just detracts from the performance of the AI—unhelpful
+noise to a towering mind. Such AI systems have been called
+__[efficient](https://arbital.com/p/efficiency/)__ with respect to humans,
+either epistemically or instrumentally.
+
+We can then call the gap between the first AI that beats humans and
+the first AI that beats human-AI centaurs the __centaur gap__ (i.e.,
+in terms of iterations of the AI, the number `$k-i$`)—the time that
+humans are still relevant in a world with superintelligent AIs[^2].
+
+This centaur gap could be effectively zero in
+some domains such as arithmetic, and lasted ~14
+years/<1 economic doubling/<10 compute doublings [in
+chess](https://gwern.net/note/note#advanced-chess-obituary). I'd
+like to see investigations for the centaur gap of poker,
+Go, checkers, image classification, speech recognition,
+[GPQA](https://arxiv.org/abs/2311.12022)…
+
+This can be relevant in cases with a "controlled intelligence explosion"
+where humans adjust the process along the way: this process can only go
+on as long as the resulting AI systems are not efficient with respect
+to humans.
+
+One thing I find interesting is that there's very little (~no?) work on
+centaur-like setups in computational complexity theory, where I'd expect
+them to show up most naturally. (I couldn't think of any and Claude didn't
+find anything convincing either). Potentially fruitful to look into.
+
+--------------------------
+
 [^1]: I don't know whether the intergalactic medium is charged, if so the black holes would also accumulate charge. I assume that on a medium scale the intergalactic medium is fairly evenly distributed, so I don't think they'd accumulate angular momentum.
+[^2]: Barring things like intrinsic value or comparative advantage.
+[^3]: For the sake of simplicity I'm assuming that `$i, j, k$` exist here.
