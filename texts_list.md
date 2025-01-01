@@ -17,16 +17,20 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* \* Neural Engineering (Chris Eliasmith/Charles H. Anderson, 2002)
+* |8 Campbell Biology (Jane B. Reece/Lisa A. Urry/Michael L. Cain/Steven A. Wasserman/Peter V. Minorsky/Robert B. Jackson, 2011)
+* [The “function” of government (Eli Tyre, 2024)](https://musingsandroughdrafts.com/2024/12/29/the-function-of-government/)
+* [Proof of Collusion: How Perfect Trust Enables Perfect Betrayal (Alexander Gietelink Oldenziehl, 2024)](https://www.lesswrong.com/posts/tDkYdyJSqe3DddtK4/alexander-gietelink-oldenziel-s-shortform?commentId=ff5WyvF4AKHs3peXA)
 * [Weave Agent DevLog #3 - How To Bootstrap Agency (John David Pressman, 2024)](https://minihf.com/posts/2024-12-20-weave-agent-dev-log-3/)
 * [Low-cut top girl asks if I am a “fuckboy” (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/03/06/low-cut-top-girl-asks-if-i-am-a-fuckboy/)
-* Truthfulness, reality, politics, the Red Pill (TheRedQuest, 2019)
+* [Truthfulness, reality, politics, the Red Pill (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/02/26/truthfulness-reality-politics-the-red-pill/)
 * [Chicks find it hard to get someone attractive yet interesting (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/03/01/chicks-find-it-hard-to-get-someone-attractive-yet-interesting/)
 * [The university mess up and the dorm bicycle (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/02/28/the-university-mess-up-and-the-dorm-bicycle/)
 * [“It is not your job to match your boyfriend’s libido.” Yes, it is. (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/03/01/it-is-not-your-job-to-match-your-boyfriends-libido-yes-it-is/)
 * [“Truths About The Red Pill, Seduction And Why RP May Actually Be Hurting Your Success With Women.” (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/02/28/truths-about-the-red-pill-seduction-and-why-rp-may-actually-be-hurting-your-success-with-women/)
 * [Krauser on Blackdragon (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/02/22/krauser-on-blackdragon/)
 * [Reflecting on some regret about not trying to join and improve specific org(s) (Eli Tyre, 2024)](https://musingsandroughdrafts.com/2024/12/07/reflecting-on-some-regret-about-not-trying-to-join-and-improve-specific-orgs/)
-* \* Die Insel der Tausend Leuchttürme (Walter Moers, 2024)
+* Die Insel der Tausend Leuchttürme (Walter Moers, 2024)
 * [PG5 (molecule) (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/PG5_(molecule))
 * [Writing for LLMs So They Listen (Gwern Branwen, 2024)](https://gwern.net/llm-writing)
 * [AI #95: o1 Joins the API (Zvi, 2024)](https://www.lesswrong.com/posts/NepBoDTeT6p69daiL/ai-95-o1-joins-the-api)

@@ -9,6 +9,8 @@ is a terrain-generation algorithm for two dimensions (producing a
 three-dimensional terrain). I generalize the algorithm to any positive
 number of dimensions, and analyze the resulting algorithm.__
 
+<!--TODO: incorporate https://claude.ai/chat/a68c22ab-7a81-4bb3-a566-a1efaf0c4316-->
+
 Generalizing the Diamond-Square Algorithm to n Dimensions
 =========================================================
 

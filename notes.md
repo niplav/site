@@ -2250,8 +2250,9 @@ Centaur Stage
 
 There's been [a little](https://arbital.com/p/relative_ability/)
 [bit](https://www.lesswrong.com/posts/sTboWTyf9MfERnsKp/gwern-about-centaurs-there-is-no-chance-that-any-useful-man)
-[of writing](https://gwern.net/note/note#advanced-chess-obituary) about
-what is sometimes called the "__centaur stage__" of AI systems.
+[of writing](https://gwern.net/note/note#advanced-chess-obituary)
+about what is sometimes called the "__centaur stage__" of AI systems,
+but not as much as I'd like there to be.
 
 Here's one way of thinking about it: Let's say there's a human `$H$`
 and a set of strictly improving iterations on an AI system `$A_1,

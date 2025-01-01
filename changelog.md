@@ -30,8 +30,15 @@ December 2024
 * Expanded on [applying dimensionality reduction to random data and moved it to its own post](./dimension.html)
 * Slightly [more plots](./options.html#Plots) on whether taking options away helps game-theoretic players
 * Second animation & better explanation for the [generalized Diamond-Square algorithm](./diamond.html#The_Long_Diamond__Long_Square_Spectrum)
+* [Centaur Stage](./notes.html#Centaur_Stage)
+
+Table of content for each post, Thanks Claude™.
 
 ### Links
+
+* [So You Want To Abolish Time Zones (qntm, 2015)](https://qntm.org/abolish)
+* [Significantly Enhancing Adult Intelligence With Gene Editing May Be Possible (GeneSmith/kman, 2023)](https://www.lesswrong.com/posts/JEhW3HDMKzekDShva/significantly-enhancing-adult-intelligence-with-gene-editing)
+* [Donor lotteries: demonstration and FAQ (Carl Shulman, 2016)](https://forum.effectivealtruism.org/posts/WvPEitTCM8ueYPeeH/donor-lotteries-demonstration-and-faq)
 
 November 2024
 --------------
