@@ -255,6 +255,7 @@ are noise.
 * [A logic to deal with inconsistent preferences (Bob Jacobs, 2023)](https://bobjacobs.substack.com/p/a-logic-to-deal-with-inconsistent)
 * [Value systematization: how values become coherent (and misaligned) (Richard Ngo, 2023)](https://www.lesswrong.com/posts/J2kpxLjEyqh6x3oA4/value-systematization-how-values-become-coherent-and)
 * [The Value Change Problem (Nora Amann, 2023)](https://www.lesswrong.com/s/3QXNgNKXoLrdXJwWE)
+* [Crystal Healing — or the Origins of Expected Utility Maximizers (Alexander Gietelink Oldenziel/Kaarel/RP, 2023)](https://www.lesswrong.com/posts/tiftX2exZbrc3pNJt/)
 
 <!--TODO: Other posts in the LW sequence draft-->
 
