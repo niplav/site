@@ -35,16 +35,7 @@ def get_centers_from_higher_dim(center_pos, cell_size, dim_index, max_size):
 
 def get_face_corners(dim, curdim):
 	"""Get corners for all faces of dimension curdim in a dim-dimensional space"""
-	fixed_dims = np.array(list(it.combinations(range(dim), curdim)))
-	moving_dims = np.array([np.setdiff1d(range(dim), f) for f in fixed_dims])
-	template = np.array(list(it.product([0, 1], repeat=dim-curdim+1)))[:, None, :] * np.eye(dim)[fixed_dims]
-	return (template[:, None, :, :] + np.array(list(it.product([0, 1], repeat=curdim)))[None, :, None, :] * np.eye(dim)[moving_dims][:, None, :, :]).reshape(-1, 2**curdim, dim)
-
-def get_face_corners(dim, curdim):
-	"""Get corners for all faces of dimension curdim in a dim-dimensional space"""
-	if curdim == dim:
-		return get_cornerspos(dim)[None, :, :]
-	fixed_dims = np.array(list(it.combinations(range(dim), dim - curdim)))
+	fixed_dims = np.array(list(it.combinations(range(dim), m - curdim)))
 	moving_dims = np.array([np.setdiff1d(range(dim), f) for f in fixed_dims])
 	template = np.array(list(it.product([0, 1], repeat=dim - curdim)))[:, None, :] * np.eye(dim)[fixed_dims]
 	return (template[:, None, :, :] + np.array(list(it.product([0, 1], repeat=curdim)))[None, :, None, :] * np.eye(dim)[moving_dims][:, None, :, :]).reshape(-1, 2**curdim, dim)

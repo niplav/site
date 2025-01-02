@@ -174,7 +174,7 @@ of motivation drift-->
 
 `prob_signup` is a function that calculates the probability of
 signing up for cryonics after having waited up to having a certain
-age. It seems clear that people loose motivation to finish plans over
+age. It seems clear that people lose motivation to finish plans over
 time, especially if they are unpleasant or complex.
 
 A good example for this is people being motivated at the start of the
