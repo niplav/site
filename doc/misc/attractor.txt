@@ -1,0 +1,713 @@
+start	end	text
+0	5000	To begin with, I wanted to get a clearer idea of the context of both of these.
+5000	12000	Okay, so specifically the complexity prior and the homoesthetic prior?
+12000	15000	No, the complexity prior and the supercooperation cluster.
+15000	19000	So it turns out that you said humanity is grappling with the Darwin meme.
+19000	20000	Yes.
+20000	27000	And these seem to be the only two things that even remotely, I don't know,
+27000	31000	but the vibe I got was that seemed to have the heft to deal with it.
+31000	32000	Okay, yeah.
+32000	38000	So the way I put it is that I see most people as doing one of two things.
+38000	41000	They're either sort of like reaching up from the bottom.
+41000	45000	So it's like if you start off with a materialist reductionist sort of stance,
+45000	48000	then you're kind of trying to recreate all of our meaning structures.
+48000	50000	You're trying to like bridge that is-aught gap.
+50000	52000	It's like, okay, we have all this stuff that is going on.
+52000	53000	And then we're trying to...
+53000	54000	They start from the is.
+54000	55000	Yeah, they start from the is.
+55000	56000	They try to get to the ought.
+56000	60000	They all start from the ought, sort of ex-nilo.
+60000	63000	They come up with a lot of wacky stuff that's just...
+63000	65000	I mean, there's two things that's predicated on.
+65000	67000	One is just whatever humans have a tendency to believe.
+67000	71000	The other is like what humans in the past have believed.
+71000	75000	Like whatever people have come up with that's survived over centuries,
+75000	78000	various religions and other moral frameworks that someone...
+78000	80000	People read it and they're like, oh, that's pretty clever.
+80000	81000	That seems consistent.
+81000	84000	Or it seems like I'm able to apply that in a sort of fuzzy, heuristic way.
+84000	85000	Right.
+85000	87000	Utilitarianism, the ontology, virtue, ethics, whatever it is.
+87000	89000	Stoicism, you know, particular schools of thought.
+89000	92000	It's like this is a basic framework for acting.
+92000	98000	So they pick something that seems given their life experience and intuitions to be...
+98000	99000	Workable.
+99000	100000	Pragmatic.
+100000	101000	Yeah.
+101000	102000	Or even resonant.
+102000	103000	Yeah.
+103000	106000	And then people get frustrated with the sort of...
+106000	109000	That these things are underspecified or not ultimately grounded, right?
+109000	112000	You have the Baron Munchausen trilemma, right?
+112000	118000	Infinite regress or unjustified axioms or circular justification.
+118000	119000	Yep.
+119000	123000	So I'm attempting to do something like...
+123000	130000	The Munchausen trilemma of grounding an art that is purely an art innocence.
+130000	133000	Well, so it's informed by...
+133000	136000	I am trying to like do down from the art instead of up from the is,
+136000	147000	but it's informed by sort of a descriptivist agenda of like...
+147000	152000	First, like see what is in terms of, oh, humans have these behaviors around meaning structures
+152000	156000	and some of them seem to operate well, like people feel like their actions have meaning
+156000	160000	and they feel like they are oriented towards like useful levers in their world.
+160000	162000	And other people don't.
+162000	168000	They are handed one, but they find it insufficient and then they, you know, abandon it
+168000	170000	and then they cast around for replacements.
+170000	173000	They don't have good meta-horstics for like, how do I select an ethical system?
+173000	176000	That's why, you know, often meta-ethics is the term you get thrown around.
+176000	177000	So where do...
+177000	182000	Often people have issues with the concept of giving their art sense.
+182000	188000	Often they have a problem with the concept of owning the fact that there is in fact
+188000	190000	a selection of ethical systems that they are doing.
+190000	194000	Because if you do that, you lose the eternalistic aspect of things, meaning...
+194000	195000	Oh, that's true.
+195000	197000	Yeah, so they can't admit...
+197000	202000	They have to frame things in terms of, well, you see, I thought that was correct,
+202000	208000	but it turns out that actually as opposed to just, no, I'm doing a search procedure.
+208000	209000	Right, yeah.
+209000	214000	And it's probably for secular people, the ancestral environment and the Darwin meme
+214000	217000	sort of serve that purpose, but very poorly, right?
+217000	219000	And so they wind up with nihilism.
+219000	220000	I would agree.
+220000	223000	It's something more pernicious than nihilism, actually.
+223000	226000	It's not that things don't mean anything.
+226000	235000	It's more that everything you know and love, its actual meaning, is in fact horror, not anything good.
+235000	239000	Well, it's just, it's all, it all reduces to impersonal forces.
+239000	240000	Yeah.
+240000	244000	Which is not, doesn't resonate with the internal experience.
+244000	247000	And so ultimately it feels like an, it's an unsatisfying explanation.
+247000	252000	And obviously we have, so we have Mars levels of abstraction which tell you why this is an unsatisfying explanation, right?
+252000	258000	So a person comes to you and asks for an explanation on the intentional level of how should we orient towards the world.
+258000	264000	And you give them an algorithmic or a physics-based response of like, well, you know, it's all just mechanistic systems.
+264000	268000	It doesn't, it's not, you didn't actually answer them on the level of intention.
+268000	269000	Right.
+269000	276000	I mean, I would go one step further, as I said, like this more than just, like there's a sort of, of all the possible overlays, right?
+276000	279000	That you could give on your sensory experience.
+279000	292000	The Darwinian overlay is a particularly cynical one because as it says, it confuses intention with the causal mechanism that led to the beings having intention in that particular way.
+292000	294000	But humans are not good at maintaining this distinction.
+294000	299000	And so they end up thinking, well, Bob is doing this to maximize his fitness.
+299000	304000	And so it makes a wide variety of human experience just straight up unavailable.
+304000	315000	Like I am loved is cognitively impossible to believe if you think it's just other people pretending to love you because that will maximize their fitness,
+315000	318000	even if they're actually just genuinely, they genuinely give a shit.
+318000	319000	Right.
+319000	329000	They're having an internal experience that is totally, you know, in line with a more intuitive sense of like, oh yeah, there's this felt sense to caring about people and being cared for that feels lost.
+329000	330000	Right.
+330000	340000	And if all the, all the time you ascribe the meaning to that of this Machiavellian person is, you know, doing this was like, okay, this is one, it's not true.
+340000	345000	Two, you're making yourself miserable.
+345000	352000	And three, this is an extremely difficult trap to get out of because you can always point to well, but the causal process.
+352000	360000	Like it's more like a salience trap than a, than a actual, you know, content trap.
+360000	361000	Yeah.
+361000	371000	I think this is part of why the as a thought meme or just sort of reifying anthropomorphizing in personal forces is an effective or not effective, but it's at least a partial antidote.
+371000	372000	Right.
+372000	377000	So if I posit the existence of as a thought, I can sort of gesture at, well, yeah, as a thought is Machiavellian.
+377000	386000	But, you know, my goals are not exactly necessarily the same as as a thought, even though I'm running on hardware that was optimized by as a thought, as a thought being the personification of evolution.
+386000	387000	Right.
+389000	399000	I mean, to be entirely honest, choosing Lovecraft was not a neutral decision for this pantheon because the reason he was picked is because of the sense of horror people felt.
+399000	414000	And I don't think it's a good idea to pick as a thought because it fundamentally just fixes in place the emotional tone of horror as the dominant, as opposed to alienness as the dominant, because alienness brings with it the possibility of wonder.
+414000	415000	Horror does not.
+415000	417000	It fixes the tone in place.
+417000	418000	That's a good point.
+418000	419000	Interesting.
+419000	427000	So to summarize, just so that I've got it correctly, people start with the is and end up in all kinds of acting places because the space of the is is vast.
+428000	441000	People start with an art and find it unsatisfying either because conditions have changed tremendously since most of these arts developed or because the Darwin meme renders a lot of these arts not workable.
+441000	449000	There's eternalism, the problem of not being able to just acknowledge directly that yes, you're looking for an ethical system because your current one is unsatisfactory.
+449000	451000	But I think I'm missing some core component.
+451000	456000	What would you say is the core piece of the problem with the starting without like you have with these?
+456000	466000	So I view a lot of, descriptively, if we're just going out looking at what humans are doing when they do sort of moralizing, what I see is an attempt to systematize the moral intuitions.
+466000	467000	Right?
+467000	469000	In the hopes that, so what do we accomplish when we systematize?
+469000	474000	Well, you render sort of predictive and extensible and modular.
+474000	484000	It's like, okay, I'm going to be able to figure out using some sort of rule based simple rule based system how to apply this system and also to apply it to novel situations.
+484000	491000	And maybe create some like coordination points because like if it's systematized, we can like more easily communicate it, talk about it, all coordinate about around it.
+491000	499000	Like, you know, different interpretations of law, right, are sort of like philosophical arguments rendered into these Byzantine sort of.
+499000	506000	Let's pretend that the bureaucracy is sufficient in such a way that it already encodes all our shared understandings.
+506000	514000	So all fights over so that all our fights about deep theology translate into the minutiae of procedural rules.
+514000	518000	No way that could possibly lead to problems.
+518000	527000	Yeah, so, so, okay, so we have this agenda of we want to be able to systematize our moral intuitions, but like where do you start is the question.
+527000	528000	Right?
+528000	534000	So the one of the core ideas, well, let's see, this is a different, there's a couple of different slices on this.
+534000	535000	This is a navigational schema.
+535000	538000	One is the super corporation cluster itself.
+538000	545000	And the other is maybe like the homeostatic and complexity priors.
+545000	548000	And they all, they all relate ultimately.
+548000	549000	Okay.
+549000	558000	So to answer, so this to set the context is the odds try from a top down view doesn't work for various reasons, right?
+558000	563000	The easiest start from a bottom up view also runs into very weird problems.
+563000	566000	What are the problems that is people run into?
+566000	570000	And why is Darwin relevant like that seems to be the crux here, right?
+570000	572000	Why does that make both of these approaches unworkable?
+572000	576000	Whereas they seemed kind of sort of workable at a small scale before.
+576000	579000	They're only workable as long as you don't examine their foundations.
+579000	580000	Okay.
+580000	582000	There is or the odd or both?
+582000	583000	Both.
+583000	586000	So, so traditionally, so this is this is actually a good additional context.
+586000	589000	Traditionally, the is a problem is seen as a bridging problem.
+589000	592000	Okay, you have the is and you have the ought and you need to bridge between them.
+592000	597000	This is just, you know, if you examine experience, this is obviously false.
+597000	601000	You have direct access to neither the is nor the ought, right?
+601000	602000	So you have indirect realism.
+602000	604000	You don't actually have direct access to how things are.
+604000	607000	You have, you've never seen an electron, right?
+607000	611000	So what you have is heuristics that return is like answers.
+611000	617000	Like, oh, like physical laws, consistency, and variances, you know, et cetera, et cetera.
+617000	621000	And then you have other heuristics that return ought like answers.
+621000	623000	They return like, oh, the inches out bridges.
+623000	624000	Yeah.
+624000	625000	These are our moral intuitions.
+625000	629000	Those this group's moral intuitions, how they have the game theory for these people interact,
+629000	631000	how do we feel about laws, et cetera, et cetera.
+631000	636000	So you are always this heuristic bridge.
+636000	640000	And one end sort of reaches towards is one and sort of reaches towards ought.
+640000	643000	And you are already solving the is ought problem on a daily basis.
+643000	649000	When you get up to go eat an apple instead of an orange, you're solving the is ought problem using just fuzzy heuristics.
+649000	650000	There is an apple.
+650000	652000	Should there be an apple?
+652000	657000	Yes, it should be my stomach.
+657000	658000	Okay.
+658000	662000	So then why is there a gap like this in the first place?
+662000	668000	I know this takes us slightly afield, but why, like what necessitated the heuristic bridge?
+668000	672000	Because there are, there are things that are the case that you don't have direct control over.
+672000	677000	And you have to decide how to act in relation to those.
+677000	683000	Yes, but why is there such a thirst for systematization in the sense that we do not find,
+683000	689000	or at least my suspicion is we don't find these kind of same problems in genuinely small tribe human societies.
+689000	691000	Like there is no is ought gap.
+691000	692000	I disagree.
+692000	696000	So the pack that evolution initially found was animism, right?
+696000	701000	Treat the physical world as if it's intentional, as if the is's are all oughts, right?
+701000	704000	And then you get things like naturalistic fallacy, et cetera, et cetera.
+704000	708000	But this is a fairly consistent, like it can be made consistent by just telling stories.
+708000	712000	The stories have enough degrees of freedom that you can sort of fit stories to various things.
+712000	715000	Well, the clouds rain because they want to, right?
+715000	721000	Because then you have extended stories and whoever is the best storyteller, you know, and what counts as best, right?
+721000	727000	Well, the version that best compresses the sensory data of people's actual experience, right?
+727000	728000	Okay.
+729000	736000	And that's not workable in modern times merely because of the fact that the complexity is not easily fit into a narrative framework?
+736000	739000	Yeah, and also the amount of...
+739000	742000	So the complexity on the is side, but then also complexity on the off side,
+742000	748000	because there's so many intentions in the world all clashing at the same time at all different levels of abstraction,
+748000	750000	and no one's really keeping track.
+750000	757000	And the way humans work is, you know, we're not forced to stick to a particular level of abstraction when we engage in our sort of memetic warfare, right?
+757000	761000	Metic warfare, it probably has some ripple contact.
+761000	763000	Memetics, mimetic or both?
+763000	764000	Both.
+764000	765000	But yeah, yeah.
+765000	772000	So one question that we can ask is, so we know sort of where is comes from, like here it all is, right?
+772000	776000	There's rocks, you can throw them at things, other things happen as a result of what those rocks hit.
+776000	779000	So where do moral intuitions come from, right?
+779000	786000	And so one answer for what moral intuitions, where they come from is sort of just basic, a basic homeostatic system
+786000	790000	can be said to have odds that it's instantiating on the environment, right?
+790000	795000	So bacteria that can only survive between two temperatures and has a temperature sensor,
+795000	803000	and the evolution of that bacteria is constrained by well bacteria that don't, that go outside of this temperature gradient die.
+803000	807000	So any homeostatic system has an odd overlay that it can impose?
+807000	812000	You can interpret it as sort of imposing an odd on its environment.
+812000	822000	So any homeostatic system can be thought of as imposing an odd both on its environment and presumably its response to those environmental.
+822000	823000	Yeah.
+823000	831000	And so we do have a question, we have a research agenda in the sense of it's not known how do more complex goals,
+831000	840000	in a say a nervous system of a simple bacteria or up to a mammal, how does it build up higher order goals out of the very low level goals?
+840000	847000	And we seem to be creatures that are able to, we sort of do a type of like speculative extension,
+847000	851000	where we're able to just define our own intermediate goals.
+851000	855000	We're like, well what if I try maximizing this thing for a while, this measure, I'll invent my own measure,
+855000	860000	go off and try to like improve it and see does that meet my underlying needs well or no.
+860000	864000	And when we sort of shop for different value systems, when we see people choosing different strategies,
+864000	866000	we sort of set up these intermediate goals.
+866000	872000	It's like you're generating a new thermometer based out of this whole bank of thermometers like temperature sensors, pressure sensors,
+872000	876000	various homeostatic, you know, and then your own internal sensors for how well your organism is handling things,
+876000	878000	how hungry you are, blah, blah, blah, your appetites.
+878000	884000	So all these sensors and we seem to construct like speculative sort of measures, right?
+884000	890000	What if I tried doing this thing that increases this and then see if that sort of meets my needs, right?
+890000	897000	Oh, so we can experiment. A bacteria cannot experiment, but we can just poke at stuff and say,
+897000	903000	what if I tried to just, I mean, this is unlikely there were diet fats in the Paleolithic,
+903000	908000	but what if some paleo was like, yeah, I'm going to go on a carnivore diet because I'm really, really rich.
+908000	910000	Let's see what happens.
+910000	915000	So yeah, the homeostatic prior, you could see it as sort of extending.
+915000	923000	You can see this sort of, you're attempting to try to see how you could live in like a higher, higher variance,
+923000	926000	under higher variance conditions, like a broader range of environments.
+926000	935000	Ah, so what you're saying is that we are not constrained by, well, except that something we are not constrained by,
+935000	940000	but that the constraints allow us a far greater degrees of, far more degrees of freedom in what we...
+940000	946000	Well, the bacteria can't figure out to try putting on a fur coat to be able to survive in a wider range of environments, right?
+946000	947000	Exactly, yeah.
+947000	953000	But we can, and then some of those creatures survive, and now there's selection pressure on expanding your homeostatic range.
+953000	954000	Right.
+954000	958000	So I think there's something around the homeostatic and complexity prior there of like...
+958000	959000	I see.
+959000	960000	Yeah, okay.
+960000	962000	Although the complexity prior covers a lot more than that.
+962000	971000	The idea is that if you can survive both in the Arctic and in Saudi Arabia or something,
+971000	975000	and one hopes also in the intermediate climates, because it'd be really weird if you couldn't,
+975000	981000	then in some sense you are more robust as a race than, you know, some hominid that...
+981000	982000	Right.
+982000	983000	Right.
+987000	991000	So this is all still sort of reaching out from the is. This is all scaffolding.
+991000	993000	Right, homeostatic is very clear.
+993000	994000	Yeah, exactly.
+994000	999000	Well, it's sort of how nature answers the question of there being an ought,
+999000	1002000	or like why there would be an is ought in the first place.
+1002000	1008000	So what I'm doing is with the super corporation cluster idea is...
+1008000	1012000	What's the conflict over here?
+1012000	1018000	Like the conflict that you're trying to solve, that the fact is that these heuristics no longer work,
+1018000	1023000	that the grounding process doesn't work, or like what exactly if you had to characterize it is the issue here,
+1023000	1026000	where these people cannot build up to a consistent and proper ought,
+1026000	1030000	and the ought people cannot ground out in a thorough is.
+1030000	1031000	Sure.
+1031000	1032000	Yeah, yeah, exactly.
+1032000	1033000	But why is that a problem?
+1033000	1034000	So from is to ought, there's nihilism.
+1034000	1039000	And from ought to is, there's like crazy religious nonsense that doesn't...
+1039000	1040000	It's not a problem.
+1040000	1041000	It's not causal factors.
+1041000	1043000	You can imagine a healthier religion.
+1043000	1046000	Like Buddhism probably becomes the closest in terms of like it's fairly compatible with science,
+1046000	1048000	the Buddhist leaders, blah, blah, blah.
+1048000	1050000	Everyone's sort of already familiar with that.
+1050000	1054000	But in practice, most religions seem to calcify around particular worldviews,
+1054000	1061000	and they don't seem to be very good at inculcating sort of adaptive strategies to their flock, unfortunately.
+1061000	1063000	Yeah, so I can also...
+1063000	1067000	I'll try to cut in from another angle and see if they convert somewhat.
+1067000	1071000	So what is the positive goal, a healthy religion, one might say?
+1071000	1072000	Going both ways is fine.
+1072000	1074000	That people can go up and down the stack, no problem.
+1074000	1075000	And it's fine.
+1075000	1076000	Yeah.
+1076000	1079000	That people have some self-awareness of what they're doing when they move up and down the stack.
+1079000	1085000	And that explanations of the world at these multiple levels are in concordance with one another,
+1085000	1087000	instead of dissonant with one another.
+1087000	1092000	And also in concordance with, I hope, what leads to a happy and virtuous or healthy human life, right?
+1092000	1094000	Well, that's the ought.
+1094000	1095000	Okay.
+1095000	1097000	So, okay, what's your...
+1097000	1099000	Is here and what's your ought here?
+1099000	1101000	Right, so I'm getting to it.
+1101000	1105000	So, the super-parter processor is the ought.
+1105000	1110000	But let's back up and try to explain it to the super-parter processor.
+1110000	1111000	Otherwise, you wouldn't be doing anything.
+1111000	1112000	Yeah, exactly.
+1112000	1115000	There is an is that you think ought to be different.
+1115000	1116000	Yeah.
+1116000	1117000	So, okay.
+1117000	1119000	Unless you have your motive.
+1119000	1123000	In game theory, you have this concept of third-party punishment.
+1123000	1124000	Right.
+1124000	1128000	And so, for people that don't know, third-party punishment means that...
+1128000	1130000	Okay, you have some people cooperating.
+1130000	1132000	You have cooperate, cooperate, sort of equilibria.
+1132000	1134000	You have defect, defect, equilibria.
+1134000	1137000	You have defectors sort of trying to freeride on a cooperation norm.
+1137000	1139000	So, you have did for that equilibria.
+1139000	1140000	Yeah, yeah.
+1140000	1147000	And so, third-party punishment means that there are people who are observing the interactions that are happening.
+1147000	1150000	And they are noticing when defectors defect.
+1150000	1156000	And then they're telling everyone or getting everyone or punishing or doing something to cause people to defect against the defectors.
+1156000	1159000	They're like, okay, it's not good enough to just, we all cooperate with each other.
+1159000	1163000	We also have to make sure we defect against the defectors so that defection itself is a losing strategy
+1163000	1166000	and the defectors will be incentivized to switch over to a cooperate-corporate strategy.
+1166000	1171000	And so, there's a lot of, there's been a lot of research on what causes, what causes this.
+1171000	1175000	How do you get stable cooperate equilibria and what can tend to undermine them?
+1175000	1177000	Can you antidote those?
+1177000	1179000	And this already happens, you know, in society.
+1179000	1181000	Obviously, this is happening all the time.
+1181000	1183000	There's a beautiful example.
+1183000	1194000	I remember some Atlantic article or some other article which talked about how very often, you know, bureaucracy is going from corrupt to non-corrupt or non-corrupt to corrupt
+1194000	1197000	can sometimes happen in what seems like relatively quick phase shifts.
+1197000	1200000	And I think this might explain it.
+1200000	1211000	Like, if you have even this effective third-party punishment for corruption, then I think once the probability of that goes above a certain threshold,
+1211000	1213000	it just completely flips the calculus.
+1213000	1215000	And so, within a few years, it's like, boom!
+1215000	1220000	Even hitherto corrupt people just become non-corrupt because now it's in the center to snuck to.
+1220000	1224000	And the phase shift has actually been super well characterized in simulation, at least.
+1224000	1229000	So, they found that if a small portion of the network is super cooperators,
+1229000	1234000	then the network can flip over from a defect-defect equilibrium to a cooperate one.
+1234000	1238000	So, now this brings, this seems to give me some intuition for what a super cooperator is.
+1238000	1240000	But you let me what it is.
+1240000	1243000	So, the surprising thing is that it goes both ways.
+1243000	1250000	They discovered, empirically, in actual tests with people, that there's also super defectors that will punish cooperators.
+1250000	1256000	And there's been a bunch of follow-up research to try to figure out why this would be.
+1256000	1258000	This seems very counterintuitive.
+1258000	1267000	You're saying that in simulation anyway, they have found that super defectors can, in fact, create a defect-defect equilibrium and enforce it?
+1267000	1268000	Yeah.
+1268000	1269000	Yeah.
+1269000	1272000	So, if they have to punish cooperators at some small cost to themselves?
+1272000	1273000	Right.
+1273000	1274000	Okay.
+1274000	1277000	And do real people, do real human beings do this?
+1277000	1278000	Yes.
+1278000	1279000	Then-
+1279000	1280000	That was the surprising thing.
+1280000	1281000	In what context?
+1281000	1282000	In the context of study.
+1282000	1285000	So, it's public goods games, iterated.
+1285000	1293000	It's sort of like an iterated games in which people can choose to contribute some proportion of a chunk of money in each round.
+1293000	1298000	And if enough people contribute, there's some sort of multiplier.
+1298000	1305000	And so, if few enough people contribute, then it winds up negative for each individual person because he gets distributed so widely that you don't gain.
+1305000	1311000	But if enough people contribute, then everyone actually gains more because you've all multiplied your money together.
+1311000	1313000	And so, defectors can just sit there and free ride.
+1313000	1317000	And so, people try to coordinate to punish the defectors.
+1317000	1321000	And then, like I said, this surprising dynamic emerges.
+1321000	1332000	So, the intuition with cooperation is that what we're looking for is we're looking for what are sort of the high level parameters that make systems more metastable in terms of cooperation.
+1332000	1339000	So, they generate cooperative equilibria and they tend to incentivize the players in those systems to maintain those cooperative equilibria.
+1339000	1340000	Okay.
+1340000	1344000	And is there any incentive to players outside the system to also?
+1344000	1357000	So, yeah. So, there's a whole thing around coalitions and what the rules are about coalitions and how costly you make joining coalitions and how the players signal that they're in a coalition and making those signals like unthinkable or costly.
+1357000	1360000	But that's like a bunch of complicated game theory stuff.
+1360000	1363000	But the short answer is yes.
+1363000	1371000	There's a lot of thinking about how do you incentivize people to want to join cooperative clusters rather than try to do something else.
+1371000	1372000	Free ride.
+1372000	1376000	Defection clusters or just attack, yeah, and dissolve the cooperation cluster.
+1376000	1379000	That was the historical dilemma, right?
+1379000	1383000	Well, so there's a whole thing around like the relative balance of offense and defense, right?
+1383000	1391000	So, when defense is more powerful just due to the technology at the time, then obviously you're going to skew towards capital formation.
+1391000	1396000	And when offense is favored, then you go towards banditry because...
+1396000	1405000	I mean, historically Central Asia was the repository of horse nomads just randomly blowing people up.
+1405000	1412000	So, we combine this with the last thing I was talking about, that we're sort of these extensionalist creatures.
+1412000	1415000	Or we sort of extrapolate, we create these speculative things.
+1415000	1416000	We crash it out.
+1416000	1424000	So, it's taking this idea of cooperation and extending out beyond our current understanding of saying,
+1424000	1429000	okay, we have some current level of understanding about cooperation.
+1429000	1432000	And presumably, so I understand more about cooperation than my past self did, right?
+1432000	1439000	I'm able to cooperate with a broader range of people under a broader range of circumstances because I sort of understand the structure of cooperation
+1439000	1441000	and I understand how other people work.
+1441000	1446000	And so, I can extend that into the future and say, okay, my future self is going to understand more about cooperation than I do.
+1446000	1449000	It'll be better at coalition building, et cetera, et cetera.
+1449000	1452000	And we can also think about that in sort of a scale-free way, right?
+1452000	1456000	So, like, you already are a giant colony of super cooperatives, right?
+1456000	1464000	So, like, all of yourselves figured out, the jump from single-cellular organisms to multi-cellular took, like, a billion years or something crazy like that, right?
+1464000	1470000	The immune system also runs a totalitarian regime that keeps everything in check and murders those who don't.
+1470000	1471000	Right, right, right.
+1471000	1473000	Yeah, the immune system is not fucking around.
+1473000	1475000	Yeah, exactly.
+1475000	1478000	They're super cooperators and then there's, you know, Big Daddy.
+1478000	1481000	So, it's scale-free. It's operating both at, you know, lower levels.
+1481000	1485000	You've been in a colony of super cooperators, but also at higher levels, right?
+1485000	1493000	That's, you know, you can see that civilizational, there's certain civilizational parameters that might contribute to being better or worse at sort of generating these cooperative equilibria.
+1493000	1498000	And so, we can extract that back into the future, like our own future, but also just more broadly.
+1498000	1506000	Like, you can imagine a turning into a, you know, super-intelligent civilization that is able to do way more with this.
+1506000	1509000	I have way more understanding than we do of cooperation.
+1509000	1518000	And you can also just imagine, like, the space of all possible super-intelligent civilizations that, and so you can extrapolate out and, you know, whatever larger means, right?
+1518000	1523000	Even the concept of larger is sort of like, well, that's at my current level of development.
+1523000	1526000	I have this certain notion of what it means to be, like, larger and more powerful, right?
+1526000	1530000	And maybe that'll change because it turns out the universe is quite different than I thought.
+1530000	1533000	Just like, you know, our understanding is very different from the past.
+1533000	1542000	And so you, but you can imagine that there's some sort of, like, largest or most powerful cluster.
+1542000	1550000	Individual civilizations, what have you, Jupiter brains, that are able to cooperate with each other, able to coordinate with each other.
+1550000	1563000	And the hypothesis goes that this largest cluster of cooperators should beat the largest available clusters of defectors,
+1563000	1566000	simply by the nature of defection and cooperation itself.
+1566000	1575000	So, you know, defectors can build coalitions, but they're always limited by trying to figure out what the best level of abstraction to defect on is, right?
+1575000	1583000	So, you know, cancer is not very good at coordinating with itself to not just kill the creature that it's growing in.
+1583000	1587000	And so it screws itself over, right? Because then once the creature dies, it dies.
+1587000	1594000	You can imagine that if it could coordinate better, it would want to, so that it could survive longer and maximize cancer or whatever.
+1594000	1598000	I mean, at that point, its interest just straight up line up with the creatures, right?
+1598000	1601000	So this also cuts back to the complexity prior, right?
+1601000	1606000	So, the super cooperation cluster, it doesn't want to just tile, right?
+1606000	1614000	It doesn't just take whatever the best, presumably it doesn't take whatever the best configuration is and just tile the universe, whatever available resources with that.
+1614000	1619000	The whole point would be that there's a diversity of minds exploring different parts of the space of possible minds.
+1619000	1624000	Cooperation is only necessary if you're not in fact trying to convert the universe into reference, in a sense.
+1624000	1625000	Yeah, yeah, exactly.
+1625000	1634000	So, you're cooperating with things, with other processes that you think are able to explore a different part of the sort of space.
+1634000	1640000	That might be the physical universe, or it might be the space of conscious minds, right?
+1640000	1642000	Space of possible conscious experiences.
+1642000	1649000	And you're like, well, okay, I might learn something that I would not have been able to figure out on my own by interfacing with these other processes doing other things.
+1649000	1651000	Alright, that's the intuition.
+1651000	1659000	Yeah, I can talk about sort of the Buddha nature.
+1659000	1661000	Okay.
+1661000	1663000	And attractors.
+1663000	1665000	Yeah, attractors in mind space.
+1665000	1672000	Okay, so we have the thing before about being the bridge between is and ought, that you already are this thing.
+1672000	1675000	There's the famous ship of Thessias, right?
+1675000	1680000	So, if you replace each part of the ship, then are you still the same ship, blah, blah, blah, it's just board games.
+1680000	1684000	There's also the ship of Neroth, which is another philosopher who named this...
+1684000	1685000	Otto?
+1685000	1687000	Yeah, Otto von Neroth. I don't know if I'm pronouncing the name right.
+1687000	1690000	But he said, you know, you're a ship of Thessias at sea.
+1690000	1694000	So, you're replacing parts, and this ship has to remain sea-worthy the whole time.
+1694000	1695000	Right.
+1695000	1696000	Right.
+1696000	1699000	So, and Quine called this the ship of Neroth.
+1699000	1705000	So, when we transplant to this bridge between is and ought, then I'm saying it's sort of like you're the bridge of Thessias.
+1705000	1714000	So, you're replacing your heuristics for how you figure out what is the case and what ought to be the case.
+1714000	1723000	But in the ship metaphor, the nice thing about that is this idea of navigating, of trying to figure out where you should be aiming your ship.
+1723000	1730000	And so, this super cooperation cluster idea, to me, is sort of like a lighthouse.
+1730000	1736000	And what that means is that, you know, you don't steer directly towards lighthouses.
+1736000	1739000	That's not the point, that's not how lighthouses work.
+1739000	1742000	You really don't do that.
+1742000	1750000	But you sail, you can use a lighthouse to navigate, and hopefully it gets you far enough that you can spot the next lighthouse off in the distance.
+1750000	1758000	So, the super cooperation cluster, the idea is that that's only the idea that I can conceive of from where I'm standing now.
+1758000	1764000	So, you can imagine that, you know, the multicellular organism is not able to imagine all of the things that humans can be able to accomplish.
+1764000	1771000	Once you have these giant colonies of trillions of cells, being able to coordinate all these fantastic ways and generate something like a mammalian human brain,
+1771000	1776000	they can learn things that, you know, the bacteria is completely beyond it.
+1776000	1782000	So, similarly, the idea here is we don't need the absolute best version of this idea.
+1782000	1787000	We just need to intuit that there is a coherent navigational target out there.
+1787000	1795000	And see if it gets us far enough to, you know, think of an even better version of the idea.
+1795000	1800000	So, it's a kind of bootstrapping process.
+1800000	1809000	And the constraint is that the bootstrapping process has to, I mean, it's a bootstrapping process all the way to the end, right, until?
+1809000	1811000	Yeah, so actually that brings up a great point.
+1811000	1813000	So, all the way to the end, like what does it mean?
+1813000	1815000	Is there a final target?
+1815000	1819000	And maybe there is, but from where we are now, when we talk about values,
+1819000	1824000	sometimes people get into this thing of they're trying to figure out what are our real values, right?
+1824000	1828000	And it's like they're trying to figure out where's the specific location we're trying to get to.
+1828000	1830000	Yeah, no, it's not visible.
+1830000	1836000	So, to me, the idea of what's called Buddha nature in Buddhism, it's kind of like a vector.
+1836000	1838000	It's not a specific place you're trying to get to.
+1838000	1843000	It's a direction that always points out of where you are, where you currently are,
+1843000	1846000	and points you to like they're being more like good stuff out there.
+1846000	1849000	So, if you're in the whole realm, it just sort of points out of the whole realm, right?
+1849000	1852000	And if you're in the human realm, it just like points you like onwards.
+1852000	1860000	So, a vector that, so let's say that we take as our principal, you know, freedom or safety or something, right?
+1860000	1863000	Or like the balance between freedom and safety, you know, whatever meta principle people come up with,
+1863000	1867000	there's some legal theory that still sort of grounds out in our current understanding.
+1867000	1873000	And that's the equivalent of choosing a vector that like we sort of know winds up in a sort of like a whirlpool,
+1873000	1878000	like a black hole, like an attractor in the space of possible values.
+1878000	1885000	And so, I'm saying what we can do to specify the Buddha nature vector is we just take the vector that never does that.
+1885000	1892000	Like within our horizon as far as we can see, it just threads through all of the attractors.
+1892000	1894000	Maybe it gains energy from some of them, right?
+1894000	1899000	Maybe there's good things to be taken from the various attractors, but it just never gets caught in any of them.
+1899000	1905000	Oh, so the heuristic for the navigation schema is that it shouldn't take your ship into a fucking whirlpool.
+1905000	1906000	Yes, yes.
+1906000	1911000	And so, you remember the super defectors, like the super defectors, they're always trying to figure out,
+1911000	1913000	okay, yeah, but when are we going to really defect?
+1913000	1916000	Like, you know, it's all for the sake of like, you know, you play a board game or something,
+1916000	1920000	and you cooperate with other players for a while, but then ultimately at some point, you have to defect.
+1920000	1927000	And then one of the ideas of the super corporation cluster is that you have 19 uncertainty,
+1927000	1931000	you have indexical uncertainty about like where you are in the journey and like what's even happening,
+1931000	1933000	like what's even the real, you know, the is, right?
+1933000	1935000	Like what even is the world I'm navigating?
+1935000	1936000	I don't know.
+1936000	1940000	So therefore, there is no, there never is going to be high enough certainty that you're going to be like,
+1940000	1944000	oh, this is the level I should defect at, I should just maximize freedom or whatever, right?
+1944000	1947000	That's like sort of choosing a final answer.
+1947000	1952000	And so this is avoiding that and saying, you just never defect.
+1952000	1958000	Like all the way down and up the stack as you head up towards more complexity and more cooperation.
+1958000	1959000	You just don't defect.
+1959000	1966000	You just keep assuming that there might be more uncertainty which can be demonstrated to be true about what level you're working at.
+1966000	1971000	Well, it's like maximizing is like turning yourself into cancer for that particular thing.
+1971000	1973000	It's like I'm going to be paperclip cancer, right?
+1973000	1977000	I'm just going to decide that paperclips are the thing and now I'm going to tell the universe of paperclips.
+1977000	1979000	And so again, we can extrapolate to the past, right?
+1979000	1988000	So if you were to take whatever your values were 15 years ago and put yourself into a politic that maximizes those values,
+1988000	1992000	it's like, okay, sure, maybe the creature that emerges from that is like, yeah, I'm pretty happy.
+1992000	1993000	Like this seems good.
+1993000	1996000	But from your current perspective, you can see that that's like a stunted creature.
+1996000	2002000	It's like not actually like all the dimensions of value that you've discovered since then are just not serves at all.
+2002000	2003000	Yeah.
+2003000	2008000	So similarly, we can assume that as we sort of head towards this and as we increase in complexity,
+2008000	2012000	that we're going to discover entire new avenues of value to explore.
+2012000	2017000	So, you know, a superintelligence that preserves option value seems good.
+2017000	2022000	So another way of saying that is, you know, the superintelligence has the Buddha nature.
+2023000	2030000	So I mean this without minimizing your achievement.
+2030000	2038000	But this is by far the most rigorous and well grounded derivation of God and heaven that I have ever come across.
+2038000	2039000	Yeah.
+2039000	2040000	Thank you.
+2040000	2041000	Like, yeah.
+2041000	2045000	This is not one of those, you know, this is where you just rediscover heaven.
+2045000	2048000	There's like, actually, no, this is well done.
+2048000	2051000	And you can imagine that there is a cluster out there somewhere.
+2051000	2056000	You can you can make it even more real instead of the supercooperation cluster being just a theoretical construct.
+2056000	2057000	You can imagine.
+2057000	2059000	No, they're out there somewhere.
+2059000	2060000	Yeah.
+2060000	2062000	So what I didn't mention is time and space.
+2062000	2063000	Right.
+2063000	2065000	So out there, some when somewhere.
+2065000	2066000	Oh, it's in the future.
+2066000	2067000	It's often the future.
+2067000	2068000	Those are those are also concepts.
+2068000	2069000	Right.
+2069000	2077000	So like, if you're familiar with a causal trade, as soon as you become aware that this largest cluster possibly exists somewhere,
+2077000	2083000	some when somehow, you know, maybe not even in this universe, it's just the obvious thing to do to like,
+2083000	2092000	yeah, the thing that I do is I attempt to coordinate with the supercooperation cluster because that's, I don't know, that's the thing.
+2092000	2096000	Presumably, they have some heuristics about coalition building.
+2096000	2102000	And it would be nice if when we encountered them, we met those heuristics.
+2102000	2103000	Right.
+2103000	2104000	Yeah.
+2104000	2105000	Yeah.
+2105000	2115000	The litmus test for when you have first contact is, did you already figure out the first contact protocols?
+2115000	2117000	I see.
+2117000	2119000	So this is an interesting eschatology.
+2119000	2124000	Like, we don't know how long we have until we meet God.
+2124000	2129000	But what we do until that time determines what happens when we do.
+2129000	2140000	Well, or like, you already have to have the key by the time you reach the gates.
+2140000	2151000	It's also in the supercooperation cluster's best interest to aggressively go after and root out the worst defection clusters.
+2151000	2161000	So we should expect that if there are hells, that what does the supercooperation cluster do with all of its time and all of its infinite computation, assuming that it's actually competently operating?
+2161000	2163000	Well, probably hell dives, right?
+2163000	2179000	Like, figure out, okay, I need to develop some sort of compact payload, like, you know, Von Neumann probe, that like, I can fire into a hell and it sort of like unfolds itself in such a way to like optimally antidote that hell realm.
+2179000	2189000	Hell realm being sort of a, one of the world pools out there for like configurations of mind space that's just like terrible for the minds that are in it.
+2189000	2195000	And there's nothing to say to preclude that that's not what this simulation is, if this is a simulation.
+2195000	2197000	That's not what this simulation is meaning.
+2197000	2208000	This could be a simulation intended to do search on how do you antidote like a certain class of like hell generators, like unfriendly AIs, right?
+2208000	2211000	Or just other types of hell realms in general, right?
+2211000	2214000	It could be that this is a simulation to sort of like build.
+2214000	2215000	Figure that out.
+2215000	2216000	Yeah.
+2216000	2223000	If you could write this up poetically, this would be one of those little probes that you could throw into that.
+2223000	2225000	Huh, that's an interesting way to wrap it on itself. I like that.
+2225000	2229000	Yeah, no, this would be one of those just little, you know.
+2229000	2234000	Oh yeah, I do like the idea of Moloch as sort of the inverse of Buddha nature.
+2234000	2242000	It's the thing, it's the vector that points into attractors and each step along the attractor it tells you, oh yeah, going even farther into the attractor would be better.
+2242000	2245000	Right, the whole Carthaginian nonsense.
+2245000	2246000	Yep.
+2246000	2254000	Yeah, I mean, though we do not look kindly upon the Romans or the Spanish, right, for their cruelties, you have to say they did in fact get rid of little,
+2254000	2256000	literally human sacrificing bits.
+2256000	2257000	That's not...
+2257000	2258000	That's true.
+2258000	2259000	Yeah.
+2259000	2262000	Well, what have the Romans done for us lately? Well, they got rid of Carthage.
+2262000	2266000	Carthage was really fucking bad.
+2266000	2267000	Yeah.
+2267000	2270000	Yeah, so I mean, you asked what the problem to solve is.
+2270000	2279000	One of them is the problem of a process that sort of generates externalities onto minds, like needlessly.
+2279000	2286000	It's like, let's just generate, you know, 100 billion copies of this mind that its architecture is kind of shitty.
+2286000	2294000	That's a form of tiling and tiling is like inherently bad because it's, of course it leads to more zero sum competition than non tiling.
+2294000	2295000	Right.
+2295000	2296000	By definition.
+2296000	2297000	Right, right, right, right.
+2297000	2300000	It's processes that want the same thing.
+2300000	2301000	Literally by definition.
+2301000	2304000	This might even be a prior, the diversity prior.
+2304000	2306000	Okay, so I include this as part of the complexity prior.
+2306000	2307000	Okay.
+2307000	2310000	So the complexity, you have to have non-similar, otherwise it's not.
+2310000	2311000	It's just symmetry.
+2311000	2312000	Right.
+2312000	2318000	Like if there were a species that could only live on planets that were exactly like Mercury, then they don't fight with humans.
+2318000	2320000	Yeah, yeah, yeah.
+2320000	2323000	Yeah, yeah, the bad gods, they don't care about tiling, right?
+2323000	2326000	They're perfectly happy to generate 100 million followers.
+2326000	2333000	Great, that's much better than 10 million followers, but they're not even paying attention to the fact that they just created an extra 90 million
+2333000	2336000	that are all competing for the same resource.
+2336000	2344000	So even in some sense agnosticism towards the complexity prior or the diversity part of the complexity prior
+2344000	2350000	is liable to potentially lead you astray at least a little bit, if not entirely.
+2350000	2359000	Yeah, I mean, so I think that people's metaphysics sort of has a slot for the sort of, there's a god slot, right, in the ontology.
+2359000	2368000	If something's going to live there, and if something has to live there, then at the very least you want to, if you have to be in an attractor,
+2368000	2373000	you at least want it to be the attractor that says attractors are bad and we should generate anti-attractors.
+2373000	2383000	Right, because presumably in order for your navigational schema to stay consistent in the face of new information, it has to be an attractor.
+2383000	2386000	Yeah, so I mean we have to coalesce around some ideas.
+2386000	2387000	Right.
+2387000	2390000	These are some of the ideas we're talking about right now, at least temporarily.
+2390000	2391000	Right.
+2391000	2394000	But they're not pernicious, right, they don't intentionally try to trap you in them.
+2394000	2395000	Yeah.
+2395000	2399000	It's like good ideas point, like what I mean by anti-attractor is a good idea points beyond itself.
+2399000	2403000	Right, they do not create the incentives which make it the only option, let's put it that way.
+2403000	2404000	Yeah.
+2404000	2409000	They maintain that openness, whereas Malochian competition leads to just more Malochian competition.
+2410000	2417000	It's only when you get some pattern break, as in oh somebody discovers a new energy source or resource or something,
+2417000	2420000	that you can for a while jump out of it.
+2422000	2426000	Which is good in a certain sense, right, incentivizing the discovery of new resources,
+2426000	2430000	but you don't want it to be a blood tournament.
+2430000	2431000	No, no, no, no.
+2431000	2436000	What we're going to do in the search process, but it's going to churn through 100 billion minds and only one of them gets to win.
+2436000	2438000	Yeah, that sounds not good.
+2438000	2439000	Yeah.
+2444000	2447000	I mean you could, if you really wanted to make the argument,
+2447000	2450000	say that this is the simulation where they're trying to see how many Buddhas,
+2450000	2454000	like what are the conditions that produce Buddhahood.
+2454000	2462000	And that's why humans are so mortal, like it's a little blood tournament and they don't want to waste resources on
+2462000	2468000	so we're letting minds beyond the point that they're like, you know, if you don't get it within 30 to 50 years, out with you.
+2468000	2471000	I mean that's pretty explicit within some Buddhist cosmology, right?
+2471000	2477000	That this realm is much more optimal for awakening than the long-lived god realms,
+2477000	2480000	because just long-lived pleasure doesn't create any incentive towards awakening.
+2480000	2481000	Yep.
+2481000	2485000	And it's better than the hell runs because you're not just distracted all the time.
+2485000	2487000	So how do you tie this back to the Darwin meme?
+2487000	2491000	And the crisis of meaning that that is caused for Buddha is in the art people.
+2492000	2494000	So how does that solve that problem?
+2494000	2498000	So again, I sort of see those memes as sort of building up from the is.
+2498000	2503000	And I see this as sort of a skyhook of down from the ought.
+2503000	2512000	So the idea is that a avoidant navigational schema doesn't actually constrain you all that much.
+2512000	2516000	It doesn't really tell you what's valuable to go after, whereas a positive navigation target.
+2516000	2520000	So like if it's a negative navigation target, all I know is stay away from these list of things.
+2520000	2525000	This is known to be highly inefficient and also just sort of doesn't work and is also sort of just arbitrary.
+2525000	2528000	So you encounter one of these things and you just flee in a random direction.
+2528000	2532000	Whereas if you have a positive navigation target, you can start charting around obstacles.
+2532000	2535000	You know which obstacles or which pits are worth crossing.
+2535000	2537000	You're like, okay, what's going to be most efficient?
+2537000	2540000	Like we're going to get there going around this way, going around that way.
+2540000	2542000	You know that you're trying to get there.
+2542000	2546000	And again, it's not a concrete final navigational target.
+2546000	2547000	It's an interim one.
+2547000	2551000	You're like, you're playing sort of loose with the rules and you're open to revising as you go.
+2551000	2555000	So it means things that sort of flexibility and responsiveness to information in the environment,
+2555000	2558000	which are, you know, desirable design criteria.
+2558000	2559000	Great.
+2559000	2562000	How does this, does this solve the Darwinian?
+2562000	2567000	The crisis of ought meaning from Darwin and the crisis of terrible is meaning from Darwin.
+2567000	2572000	I think that, so I think that the, I think that the problem with the Darwin meme is that it makes it seem
+2572000	2576000	like the navigational target you should have is turn yourself into cancer.
+2576000	2579000	Like, oh, well, just spreading maximally is the good thing.
+2579000	2580000	Whereas...
+2580000	2582000	The values, all of the values fundamentally.
+2582000	2583000	Yes. Yeah.
+2583000	2586000	But yeah, it's, it's, it's Milwaukee as all attractors ultimately must be in the end.
+2586000	2592000	If they're, if you're to fall into the very center of them and maximize the one thing.
+2592000	2596000	It gives you something to do besides turn yourself into cancer.
+2596000	2598000	So as soon as you have cooper, so we didn't talk about it that much,
+2598000	2602000	but as soon as you have cooperation as your, as your target and like the,
+2602000	2608000	the idea of the complexity, the non tiling, like the non cancer, then it's like,
+2608000	2614000	what would it look like to generate a super intelligent civilization that is able to coordinate
+2614000	2621000	across the broadest possible, like the broadest possible space of mind architectures.
+2621000	2625000	This is like an extremely different target than just spread yourself maximally.
+2625000	2626000	It's like a reason.
+2626000	2627000	Got it.
+2627000	2633000	And so this means that the Darwin meme goes from something that was extremely afflictive
+2633000	2639000	as in this is what you ought to optimize for to something you have to operate within the envelope of
+2639000	2641000	the same way that a company has to be profitable.
+2641000	2645000	But many companies are not started with profit as literally the only goal.
+2645000	2648000	Like nobody gives money to a guy saying, what does your company do?
+2648000	2649000	It'll be profitable.
+2649000	2650000	Like nobody does that.
+2650000	2651000	That's just insane.
+2651000	2652000	Right.
+2652000	2653000	And we can, we rightly consider that insane.
+2653000	2655000	So what's the point of survival?
+2655000	2656000	What's the point of survival?
+2656000	2657000	Well, to survive even more.
+2657000	2658000	Yeah, exactly.
+2658000	2659000	Yeah.
+2659000	2664000	So nobody, as I said, even if there is a very highly skilled startup founder, right, there
+2664000	2668000	has to be some concrete thing that he's doing beyond just profit.
+2668000	2675000	Similarly, it takes it from the optimization target to merely the envelope which constraints
+2675000	2676000	what actions you can do.
+2676000	2682000	And presumably if you push homeostasis further, then you can do even wilder further out there
+2682000	2683000	things.
+2683000	2684000	Right.
+2684000	2688000	You can do even more exotic potentially valuable mind architectures that can experience things
+2688000	2690000	that you couldn't have imagined before.
+2690000	2691000	Right.
+2691000	2695000	Which then may in turn open up additional avenues of more exploration of.
+2695000	2699000	So somehow these have to be bought within what you'd call the selection envelope.
+2699000	2704000	Like instead of aiming for maximizing yourself, you are now aiming to maximize the selection
+2704000	2709000	envelope because the selection envelope is what constraints how complex or how complex
+2709000	2713000	your organisms can be and what ranges of homeostasis you can.
+2713000	2717000	At least in at least so far in our universe complexity is associated with fragility.
+2717000	2718000	Right.
+2718000	2721000	Well, interdependence between these agents.
+2721000	2724000	That's why modularity and hierarchy are emergent.
+2724000	2725000	And propagation speed.
+2725000	2726000	Yeah.
+2726000	2727000	And things like that.
+2727000	2735000	So that is how it shifts Darwin from the target to the envelope.
+2735000	2739000	And now you can push against that envelope in greater directions.
+2739000	2740000	Yeah.
+2740000	2741000	Yeah.
+2741000	2745000	But can we bring more things within the selective window so that they don't in some sense die
+2745000	2746000	out?
+2746000	2747000	How can we do that?
+2747000	2748000	And so on.
+2748000	2749000	Yeah.
+2749000	2750000	Okay.
+2750000	2754000	And in one very real sense what I think Carol quickly might call the open society.
+2754000	2756000	The one that is open to possibilities.
+2756000	2759000	Seems he had some basic intuitions about this stuff.
+2759000	2760000	Not obviously.
+2760000	2762000	I think many people have intuitions about this.
+2762000	2767000	So like David Pierce's triple S civilization, you know, super intelligent, super longevity,
+2767000	2768000	super happiness.
+2768000	2772000	I think if you take some of those ideas for logical conclusion, which he does, you know,
+2772000	2775000	on his various websites, you see hints of a similar idea.
+2775000	2778000	And like I said, I was relating it to Buddha nature.
+2778000	2785000	I'm positing that that's not just a metaphor and that like there are important overlaps
+2785000	2790000	in a lot of the thinking that the various traditions have done, which, yeah, getting
+2790000	2792000	into all of that would be a whole other conversation.
+2792000	2796000	The fact that I talked about it in terms of attractors, you know, what is what I think
+2796000	2801000	Buddha's talked about in terms of realms, because the realms also seem to be these are
+2801000	2803000	possible mind architectures, right?
