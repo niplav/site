@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* \* Otherness and control in the age of AGI (Joe Carlsmith, 2024)
+* [The Musical, Magical Number Theorist (Erica Klarreich, 2014)](https://www.quantamagazine.org/number-theorist-manjul-bhargava-is-awarded-fields-medal-20140812/)
+* [When will the World Health Organization report no detected polio cases (wild poliovirus) for an entire calendar year, for the first time? (skmmcj, 2024)](https://www.metaculus.com/questions/25067/first-year-with-no-wild-polio-cases/)
+* [When will the WHO certify the worldwide eradication of Polio? (AABoyles, 2019)](https://www.metaculus.com/questions/3353/date-of-worldwide-polio-eradication/)
 * \* Neural Engineering (Chris Eliasmith/Charles H. Anderson, 2002)
 * |8 Campbell Biology (Jane B. Reece/Lisa A. Urry/Michael L. Cain/Steven A. Wasserman/Peter V. Minorsky/Robert B. Jackson, 2011)
 * [The “function” of government (Eli Tyre, 2024)](https://musingsandroughdrafts.com/2024/12/29/the-function-of-government/)

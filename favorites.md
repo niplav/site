@@ -16,6 +16,8 @@ Texts
 ### Tweets
 
 https://x.com/VesselOfSpirit/status/1296689138234580994
+
+"If you're smart, pivot into being cool and hot."
 -->
 
 ### Poems

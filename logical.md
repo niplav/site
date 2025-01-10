@@ -227,10 +227,67 @@ Reasons:
 2. `$合$` doesn't *really* make a statement about which states of the program influence which other states, it just compares them.
 3. I'm a bit unhappy that the code doesn't factor into `$合$`, and ideally one would want to be able to compute the logical correlation without having to run the program.
 
-I think one can create a better (though not perfect)
-way of determining logical correlations based on [Shapley
+I think one can create a better (though not perfect) way of
+determining logical correlations based on (something like) [Shapley
 Values](https://en.wikipedia.org/wiki/Shapley_value) and possible
 tape-permutations.
+
+### Explanation
+
+We'll inherit [the basic setup](#Setup) from the naïve formula, but now
+we won't determine the logical correlation of `$o_1, o_2$`.  Instead we
+pick one bit from each output, say `$b_1=o_1(k), b_2=o_2(k)$` for some
+`$k \in ℕ$`).
+
+#### Shapley Values for Tape States
+
+We now treat each tape state `$t_i$` of a Turing machine as a set of
+players, which can play either `$0$` or `$1$` (the two states each cell
+on the tape can assume).
+
+Then we can compute the Shapley value for each tape state on the bit
+produced down the line by the Turing machine. To recap, the Shapley
+value assumes that there's a set `$t_i(j) (j \in ℕ)$` of players,
+and a function `$v: 2^{t_i(j)} \rightarrow \{0,1\}$` for all subsets
+of players—in this case the execution of the program from `$t_i$`
+until it halts. It's assumed that `$v(\emptyset)=0$`.
+
+The Shapley value for a player `$j$` is then computed with the following equation:
+
+<div>
+	$$\phi_j(v)=\sum_{S \subseteq N \backslash \{j\}} \frac{|S|!(n-|S|-1)!}{n!} (v(S \cup\{j\})-v(S)))$$
+</div>
+
+Two conceptual difficulties present themselves:
+
+1. The Shapley value assumes there's a null-action for each player, i.e. players can choose not to do anything,
+2. It's assumed that if every player plays the null action, then the output of `$v$` is `$0$`, though this isn't required for the equation to work.
+
+1\. can be solved by setting the null action to the tapestate produced by
+the program preceding the tapestate. I imagine this as a tapestate being
+able to "decide" to flip to the opposite bit before the program resumes.
+
+2\. is a bit more tricky to resolve. I think the best way of fixing this
+is to say that *iff* the output of the Turing machine with no changes
+to the tape state is `$1$`, then the "real" Shapley value here is
+`$-\phi_j(v)$`—we evaluate tape state for their ability to move the
+bit in the output from `$1$` to `$0$`.
+
+#### Comparing Lists of Influences
+
+#### Differently-Sized Tapes
+
+#### Plugging It All Together
+
+#### Permuted Tapes
+
+### Final Equation
+
+<!--TODO: add difference in output bits?-->
+
+<div>
+	$$挧(b_1, b_2, γ)=\underset{\sigma \in S}{\text{argmin }} 0.5-\frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot \sum_{j=1}^{\min(|t_1(k)|, |t_2(k)|)} (\phi_j(t_1(k)_j)-\sigma(\phi_j(t_2(k)_j))))^2}$$
+</div>
 
 See Also
 ---------
@@ -244,6 +301,6 @@ pseudometric?—seems like there could the different programs with the
 exactly same tape states…)-->
 
 [^1]: Actually not explained in detail anywhere, as far as I can tell.
-[^2]: Suggested by GPT-4. Stands for [joining, combining, uniting](https://en.wiktionary.org/wiki/%E5%90%88#Definitions). Also "to suit; to fit", "to have sexual intercourse", "to fight, to have a confrontation with", or "to be equivalent to, to add up". Maybe I could've used one of the [ghost characters](https://en.wikipedia.org/wiki/Ghost_characters).
+[^2]: Suggested by GPT-4. Stands for [joining, combining, uniting](https://en.wiktionary.org/wiki/%E5%90%88#Definitions). Also "to suit; to fit", "to have sexual intercourse", "to fight, to have a confrontation with", or "to be equivalent to, to add up".
 [^3]: Which is needed because tape states close to the output are more important than tape states early on.
 [^4]: Together with two constants to avoid division by zero or same logical correlations for programs with different outputs differences.

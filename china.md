@@ -10,6 +10,8 @@ racing. Advocating for an international project to build TAI instead of
 racing turns out to be good if the probability of such advocacy succeeding
 is ≥20%.__
 
+<!--TODO: apply claude improvements from https://claude.ai/chat/afafcf29-5941-4de3-9faf-165ce115b041-->
+
 A TAI Race With China Can Be Better Than Not Racing
 ====================================================
 

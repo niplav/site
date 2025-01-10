@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-11-20, modified: 2024-12-15, language: english, status: in progress, importance: 4, confidence: highly likely*
+*author: niplav, created: 2020-11-20, modified: 2025-01-04, language: english, status: in progress, importance: 4, confidence: highly likely*
 
 > __The [Diamond-Square
 algorithm](https://en.wikipedia.org/wiki/Diamond-square_algorithm)
@@ -113,31 +113,137 @@ square step it's the second dimension (on faces). I guess one could
 also leave out the diamond steps together and calculate the center of
 the cube as the mean of the faces—zero diamond, very long square.
 
-### Long Diamond
+The Algorithm
+--------------
 
-The diamond step of the algorithm starts out with the base case: If the
-space is only one element big, we return and do nothing (assuming the
-value has been filled in):
+The algorithm starts out with a base case: If the space is only one
+element big, do nothing and return (assuming the value has been filled
+in):
 
-	def ndim_diamond_square_rec(space, dim, size, offsets, minval, maxval, factor):
-		if size<=1:
+	def diamond_square_nd(space, size=None, offsets=None, stitch_dim=1, minval=0, maxval=255, factor=1.0):
+		if size==None:
+			size=space.shape[0]
+		if size<=2:
 			return
 
-We also have to update the size of any axis in the space (*not* the size
-of the space itself), we are halving this every recursive call.
+Next, some housekeeping to initialize values if they haven't been
+initialized: We want to know the dimensionality we're dealing with,
+and initialize the offsets to be zero:
 
-		nsize=size//2
+	dim=len(space.shape)
 
-Now we come to `offsets`. Remember above when after the first square
-step, we moved into a diamond step on the smaller squares? `offsets`
-describes where the "left lower corner" of those smaller squares is. We
-initialized it with zeros, that way we start in a definite corner.
+	if type(offsets)==type(None):
+		offsets=np.zeros([1, dim], dtype=int)
 
-#### Diamond
+Now we come to `offsets`. Remember way above in the two-dimensional
+case, when after the first square step, we moved into a diamond step on
+the smaller squares? `offsets` describes where the "left lower corner"
+of those smaller squares is. We initialized it with zeros, that way we
+start in a definite corner.
 
-#### Square
+### Diamond
 
-Code [here](code/diamond/ndim_diamond_square.py). I think this is probably
+For the diamond step, we start with this function signature:
+
+	def diamond_rec(space, size, offsets, stitch_dim, minval, maxval, factor, subdim=None):
+
+The only interesting parameter is `subdim`, which describes how many
+dimensions the algorithm already has gone "down": It starts at 0, which
+means that we take the center of `space`, and assign it the mean of
+all corners.
+
+	dim=len(space.shape)
+	if subdim==None:
+		subdim=dim
+
+If we've already handle so many dimensions that the next one would be
+the dimension at which we stitch things together, we return:
+
+	if subdim<=stitch_dim:
+		return space
+
+<!--
+Next we gather the corner positions for the *entire space*; a bunch of
+those dimensions will have to be zeroed out/fixed to a maximum later:
+
+	cornerspos=get_cornerspos(dim)
+-->
+
+The next part gets a bit tricky. We can't just, for every offset, add all
+corners to that offset, scale it with the size, and say that those are
+all the corners. That works *iff* `subdim==0`, in which case we don't have
+to worry about handling faces of our space. (In that case we could write
+`corners=offsets[:, np.newaxis] + cornerspos[np.newaxis, :]*(size-1)`.)
+
+Instead, something more complicated happens:
+
+Within every offset, we have to (1) choose all possible dimensions we
+could fix to either zero or the maximum value, and then (2) generate
+all possible ways of fixing those dimensions to zero/maximum values.
+
+(1) is sort of easy to visualize: If we have to assign the values to
+the faces of a cube, we have to generate all the centers of the faces
+and all the corners for each of those faces. For the top face we have
+to fix a dimension to the maximum, for the bottom face to zero, for the
+left face another one to zero and for the right one to the maximum,
+and so on for the front and back faces. (2) is a bit more tricky,
+but should be doable to imagine: If we instead can fix two dimensions,
+we can assign them 0 and the maximum *each*, independently.
+
+Abbreviating `$d$` for `dim` and `$c$` for `$subdim$`, the
+resulting structure should have have the size `$[{d \choose c},
+2^{d-c},2^c, d]$`—*for every c-dimensional direction*, *enumerate all
+[hypercubes](https://en.wikipedia.org/wiki/Hypercube) in that direction
+on the boundary of `space`*, __list all corners of that c-dimensional
+hypercube__, but *__use `dim` dimensions__*.
+
+![](./img/diamond/conspiracy.jpg)
+
+(Let's hope this makes sense to ≥0 people when read after today.)
+
+We create now an empty canvas for our corners, an object with the right dimensions
+but zero everywhere:
+
+	cornerspos=np.broadcast_to(np.zeros(dim), [math.comb(dim, subdim), 2**(dim-subdim), 2**subdim, dim])
+	cornerspos=np.array(cornerspos) # because broadcast_to returns readonly
+
+For the sake of my sanity I'm going to write the following code in a
+very imperative style, Iverson forgive me.
+
+	occupied_counter=0
+	for occupied in it.combinations(range(dim), subdim):
+		unfixed_counter=0
+		for unfixed in it.product([0, size-1], repeat=dim-subdim):
+			cornerspos[occupied_counter, unfixed_counter, :][:, occupied]=get_cornerspos(subdim)*(size-1)
+			free=tuple(set(range(dim))-set(occupied))
+			cornerspos[occupied_counter, unfixed_counter, :][:, free]=unfixed
+			unfixed_counter+=1
+		occupied_counter+=1
+
+So, with the previous setup this should be fairly understandable:
+We go through the dimensions that are "occupied" with the corners,
+and for the rest we set the values to all possible directions.
+
+We then flatten out `cornerspos` one dimension to make it easier to handle:
+
+	cornerspos=np.reshape(cornerspos, [math.comb(dim, subdim)*2**(dim-subdim),2**subdim, dim])
+
+Finally, we generate the corners by, for each offset, adding it to
+all corners (basically creating the cartesian product of `offsets` and
+`cornerspos` and then summing them):
+
+	corners=offsets[:, np.newaxis, np.newaxis]+cornerspos
+
+But the resulting datastructure has a bad shape, so we flatten the first
+two dimensions into one:
+
+	corners=np.reshape(corners, [offsets.shape[0]*cornerspos.shape[0], *cornerspos.shape[1:]])
+
+### Square
+
+--------
+
+Code [here](code/diamond/generalized.py). I think this is probably
 the 2nd-most beautiful code I've ever written, just after [this absolute
 smokeshow](./99_problems_klong_solution.html#P25__Generate_a_random_permutation_of_the_elements_of_a_list).
 
