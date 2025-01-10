@@ -99,8 +99,8 @@ Von dem Sichgeistigen des Lebens Jahre zählen.
 
 * [How Often Does ¬Correlation ⇏ ¬Causation?](./cause.html)
 * [How Often Does Taking Away Options Help?](./options.html)
-* [Equally Many Heads and Tails](./equally_many_heads_and_tails.html)
 * [t-SNE and UMAP Don't Produce Clusters on Random Data](./dimension.html)
+* [Equally Many Heads and Tails](./equally_many_heads_and_tails.html)
 * [Logical Correlation](./logical.html)
 * [Mathematics Notation Convention](./mathematics_notation_convention.html)
 * [Circle Combinations](./circle_combinations.html)

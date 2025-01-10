@@ -1,3 +1,4 @@
+import math
 import numpy as np
 import itertools as it
 import matplotlib.pyplot as plt
@@ -14,72 +15,53 @@ def create_space(dim, size, minval=0, maxval=255):
 def get_cornerspos(dim):
 	return np.array(list(it.product([0, 1], repeat=dim)))
 
-def get_centers_from_higher_dim(center_pos, cell_size, dim_index, max_size):
-	"""
-	Get centers from the higher dimensional cell that influence this position.
-	These are the points computed in the previous step.
-	"""
-	centers = []
-	# For each dimension up to current
-	for d in range(dim_index + 1):
-		# Try both positive and negative offsets
-		for offset in [-cell_size, cell_size]:
-			pos = list(center_pos)
-			pos[d] += offset
-			if all(0 <= p < max_size for p in pos):
-				centers.append(tuple(pos))
-	return centers
+def cartsum(a1, a2):
+	return np.array(list(it.product(a1, a2))).sum(axis=1)
 
-#def cartsum(a1, a2):
-#	return np.array(list(it.product(a1, a2))).sum(axis=1)
+def corners_and_centers(dim, subdim, size, offsets):
+	cornerspos=np.broadcast_to(np.zeros(dim, dtype=np.int64), [math.comb(dim, subdim), 2**(dim-subdim), 2**subdim, dim])
+	cornerspos=np.array(cornerspos)
+	centerspos=np.broadcast_to(np.zeros(dim, dtype=np.int64), [math.comb(dim, subdim), 2**(dim-subdim), dim])
+	centerspos=np.array(cornerspos)
 
-def get_face_corners(dim, curdim):
-	"""Get corners for all faces of dimension curdim in a dim-dimensional space"""
-	fixed_dims = np.array(list(it.combinations(range(dim), m - curdim)))
-	moving_dims = np.array([np.setdiff1d(range(dim), f) for f in fixed_dims])
-	template = np.array(list(it.product([0, 1], repeat=dim - curdim)))[:, None, :] * np.eye(dim)[fixed_dims]
-	return (template[:, None, :, :] + np.array(list(it.product([0, 1], repeat=curdim)))[None, :, None, :] * np.eye(dim)[moving_dims][:, None, :, :]).reshape(-1, 2**curdim, dim)
+	occupied_counter=0
+	for occupied in it.combinations(range(dim), subdim):
+		unfixed_counter=0
+		for unfixed in it.product([0, size-1], repeat=dim-subdim):
+			cornerspos[occupied_counter, unfixed_counter, :][:, occupied]=get_cornerspos(subdim)*(size-1)
+			free=tuple(set(range(dim))-set(occupied))
+			cornerspos[occupied_counter, unfixed_counter, :][:, free]=unfixed
+			unfixed_counter+=1
+		occupied_counter+=1
 
-def diamond_rec(space, size, offsets, stitch_dim, minval, maxval, factor, curdim=None):
-	"""
-	Corners first iteration (center) [Shape not quite correct bc only one element]:
-		array([[[0, 0, 0],
-	        [0, 0, 4],
-	        [0, 4, 0],
-	        [0, 4, 4],
-	        [4, 0, 0],
-	        [4, 0, 4],
-	        [4, 4, 0],
-	        [4, 4, 4]]])
-	Corners second iteration (faces):
-		array([[
-		[
-			[0, 0, 0],
-			[0, 0, 4],
-			[0, 4, 0],
-			[0, 4, 4]
-		],
-		[
-			[0, 0, 0],
-			[0, 4, 0],
-			[4, 0, 0],
-			[4, 4, 0]
-		],
-	]])
-	"""
+	cornerspos=np.reshape(cornerspos, [math.comb(dim, subdim)*2**(dim-subdim),2**subdim, dim])
+	corners=offsets[:, np.newaxis, np.newaxis]+cornerspos
+	corners=np.reshape(corners, [offsets.shape[0]*cornerspos.shape[0], *cornerspos.shape[1:]])
 
-	if curdim==None:
-		curdim=len(space.shape)
-	if curdim<=stitch_dim:
+	return corners
+
+def diamond_rec(space, size, offsets, stitch_dim, minval, maxval, factor, subdim=None):
+	dim=len(space.shape)
+
+	if subdim==None:
+		subdim=dim
+	if subdim<=stitch_dim:
 		return space
 
-	dim=len(space.shape)
-	cornerspos=get_cornerspos(dim)
-	# TODO: zero out unneeded dimensions!
-	corners=offsets[:, np.newaxis, :] + cornerspos[np.newaxis, :, :] * (size-1)
+	# Test with:
+	# * offsets zeroes, subdim 0
+	# * offsets zeroes, subdim 1
+	# * offsets zeroes, subdim 2
+	# * offsets nonzeroes, subdim 0
+	# * offsets nonzeroes, subdim 1
+
+	#cornerspos=get_cornerspos(dim)
+	#corners=offsets[:, np.newaxis] + cornerspos[np.newaxis, :]*(size-1)
+
+	#TODO: compute centers!
 	centers=offsets+size//2
 	space[tuple(centers.T)]=space[tuple(corners.T)].mean(axis=0)
-	return diamond_rec(space, size, offsets, stitch_dim, minval, maxval, factor, curdim-1)
+	return diamond_rec(space, size, offsets, stitch_dim, minval, maxval, factor, subdim-1)
 
 def square_rec(space, size, offsets, stitch_dim, minval, maxval, factor, curdim=None):
 	return space
@@ -89,14 +71,10 @@ def stitch(space, offsets, stitch_dim, minval, maxval, factor):
 
 # Needs to be recursive! When given space go big first then into smaller & smaller cells
 def diamond_square_nd(space, size=None, offsets=None, stitch_dim=1, minval=0, maxval=255, factor=1.0):
-	print("size: ", size)
-	print("offsets: ", offsets)
-
 	if size==None:
 		size=space.shape[0]
 
 	if size<=2:
-		print("returning")
 		return
 
 	dim=len(space.shape)
@@ -114,10 +92,18 @@ def diamond_square_nd(space, size=None, offsets=None, stitch_dim=1, minval=0, ma
 
 	nsize=size//2
 	cornerspos=get_cornerspos(dim)
-	noffsets=offsets[:, np.newaxis, :] + cornerspos[np.newaxis, :, :] * (nsize)
-	#noffsets=cartsum(offsets, get_cornerspos(dim)*nsize)
+	# For some reasons, the code below produces one axis *too much* in the beginning!, when offsets has the shape (1, …)
+	# noffsets=offsets[:, np.newaxis] + cornerspos[np.newaxis, :] * nsize
+	# This line works, but is ugly
+	# noffsets=(offsets[:, np.newaxis] + cornerspos[np.newaxis, :] * nsize).reshape([offsets.shape[0]*cornerspos.shape[0], dim])
+	noffsets=cartsum(offsets, get_cornerspos(dim)*nsize)
 
-	return diamond_square_nd(space, size=nsize+1, offsets=noffsets, minval=round(minval*factor), maxval=round(maxval*factor), factor=factor)
+	return diamond_square_nd(space,
+				size=nsize+1,
+				offsets=noffsets,
+				minval=round(minval*factor),
+				maxval=round(maxval*factor),
+				factor=factor)
 
 def visualize_landscape(filled, title="Terrain Visualization", elevation_scale=1.0, azim=-60, elev=30):
 	"""

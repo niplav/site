@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-15, modified: 2024-10-15, language: english, status: in progress, importance: 8, confidence: highly likely*
+*author: niplav, created: 2023-04-15, modified: 2025-01-07, language: english, status: in progress, importance: 8, confidence: highly likely*
 
 > __I consider the problem of resolving preferences
 that are inconsistent under the [von Neumann-Morgenstern
@@ -1516,7 +1516,7 @@ graphs generated for each number of nodes, using the [Erdős-Rényi
 model](https://en.wikipedia.org/wiki/Erdos-Renyi_model) with the
 probability `$\frac{1}{2}$` of edge creation) with up to 13 nodes.
 
-## Summary
+### Summary
 
 We can now summarize how well the two algorithms fulfill the different
 criteria:
@@ -1531,13 +1531,12 @@ criteria:
 | Preservation of consistent subgraphs   | ✗           | ✗                   |
 | Preservation of complete domination    | ✓           | ?                   |
 
-Impossibilities
-----------------
+### Impossibilities
 
 Some of the criteria listed in Section 3.3 are incompatible with each
 other.
 
-### Resolution to Polynomially Many Preferences and Preservation of Consistent Subgraphs are Incompatible
+#### Resolution to Polynomially Many Preferences and Preservation of Consistent Subgraphs are Incompatible
 
 It is not possible to have an algorithm that retains every maximal
 consistent subgraph at least once in the set of outputs and has only
@@ -1676,7 +1675,7 @@ Therefore, Theorem 10 is true.
 for the number of vertices `$v$` in `$E_v$`, which is exponential but
 can probably be improved upon.
 
-### Polynomial Time Complexity and Preservation of Consistent Subgraphs are Incompatible
+#### Polynomial Time Complexity and Preservation of Consistent Subgraphs are Incompatible
 
 Given that in the worst case, only a small proportion of consistent
 subgraphs can be preserved, it also is not possible to have an algorithm
@@ -1709,7 +1708,7 @@ which includes all inclusion-maximal consistent subgraphs. We suspect
 there are counter-examples that don't allow for this, but haven't been
 able to find any.
 
-# Inconsistent Preferences over Lotteries
+## Inconsistent Preferences over Lotteries
 
 Von Neumann and Morgenstern formulate their famous theorem by defining
 some restriction on relations over lotteries [von Neumann & Morgenstern
@@ -1723,12 +1722,12 @@ tractably encode some subset of inconsistent preferences or are rich
 enough to encode all inconsistent preferences, but too complex to be
 compactly represented.
 
-## Violating the Axioms
+### Violating the Axioms
 
 Introducing lotteries allows for a large variety of violations of the
 von Neumann-Morgenstern axioms.
 
-### Discontinuity
+#### Discontinuity
 
 Discontinuity in relations over lotteries can occur if we know that
 `$l_1 \preceq l_2 \preceq l_3$`, but there is no `$p$` so that `$l_2 \sim
@@ -1755,7 +1754,7 @@ axiom "excluding a "utility of gambling"" [von Neumann & Morgenstern 1947,
 and state that "concepts like a "specific utility of gambling" cannot
 be formulated free of contradiction on this level." \[ibid.\]).
 
-### Dependence
+#### Dependence
 
 Violations of the independence axiom ("dependence") occur if for two
 lotteries `$l_1, l_2$` (with `$l_1 \preceq l_2$`) there is an option
@@ -1792,13 +1791,13 @@ then "mix in" 0.89 of \$0 into the two resulting distributions to create
 	\end{aligned}$$
 </div>
 
-## Representing Inconsistencies
+### Representing Inconsistencies
 
 It is more difficult to find a mathematical structure to represent
 arbitrary inconsistent preferences over lotteries over some set of
 options `$\Omega$`.
 
-### Edge-Weighted Graphs
+#### Edge-Weighted Graphs
 
 Given `$\Omega$`, some inconsistent preferences on lotteries on `$\Omega$`
 can be represented by the set `$\mathfrak{G}_{\Omega}$` of edge-weighted
@@ -1835,7 +1834,7 @@ which lotteries are preferred over which others: Given a preference of
 `$w_r$` doesn't enable reconstruction of whether `$l_1 \prec l_2$` or
 `$l_1 \succ l_2$`.
 
-### Arbitrary Relations over the Lotteries
+#### Arbitrary Relations over the Lotteries
 
 As [von Neumann & Morgenstern
 1947](https://www.goodreads.com/book/show/483055.Theory_of_Games_and_Economic_Behavior)
@@ -1857,7 +1856,7 @@ uncomputable real number and `$q \in [0;1]$` is a computable real number.
 We were also unable to find a method for resolving such inconsistent
 preferences into their consistent versions.
 
-## Algorithms
+### Algorithms
 
 After some search, we were able to identify `HodgeRank` from [Jiang et al.
 2011](./doc/preference/statistical_ranking_and_combinatorial_hodge_theory_jiang_et_al_2011.pdf)
@@ -1883,7 +1882,7 @@ graphs that are already consistent, the greatest element usually receives
 a low centrality score, and elements closer to the center receive larger
 scores, which is counter to our criteria.
 
-### `HodgeRank`
+#### `HodgeRank`
 
 `HodgeRank`, introduced in [Jiang et al. 2011](./doc/preference/statistical_ranking_and_combinatorial_hodge_theory_jiang_et_al_2011.pdf), is an
 algorithm based on Hodge theory from algebraic geometry for decomposing
@@ -2005,7 +2004,9 @@ of modeling agents as being comprised of subagents [Demski & Garrabrant
 1988](https://www.goodreads.com/book/show/326790.The_Society_of_Mind),
 which we will not pursue further here.
 
-# Applications
+#### Sondej Sampling
+
+## Applications
 
 Equipped with a notion of how to represent inconsistent preferences and
 how to resolve them, one can examine problems that have come up in other
@@ -2013,7 +2014,7 @@ contexts and apply the knowledge gained to them. I will examine one of
 those: The problem of changing a preference as the underlying set of
 options changes.
 
-## Ontology Identification, Ontological Shifts and Ontological Crises
+### Ontology Identification, Ontological Shifts and Ontological Crises
 
 The term "ontological crisis" was introduced in de Blanc
 and intuitively refers to a scenario in which an agent has
@@ -2078,7 +2079,7 @@ ontology of the goals does not.
 ontological shift, and the behavior of an agent after an ontological
 crisis could be undefined.
 
-#### Existing Approaches
+##### Existing Approaches
 
 De Blanc approaches the problem of ontological crises
 formally in the context of what they call "finite
@@ -2216,7 +2217,7 @@ be mapped to each other.
 Given `$\phi$` and `$\psi$`, it is possible to infer `$\mathbf{R}_2$`
 using `$\phi$`: It is `$\mathbf{R}_2=\mathbf{R}_1^{\top} \phi$`.
 
-##### Advantages
+###### Advantages
 
 There are some advantages to taking this approach for resolving
 ontological crises. One is that it does not presuppose a known mapping
@@ -2275,7 +2276,7 @@ initial states.
 any `$a \in A$`, `$k \in \mathbb{N}$`, it holds that
 `$r_2(a, k, \mathbf{i}_2)=f(r_1(a, k, \mathbf{i}_1))$`.
 
-##### Disadvantages
+###### Disadvantages
 
 The approach de Blanc outlines has some limitations. As they remark,
 their setting of what they call "finite state models" is a fairly
@@ -2307,7 +2308,7 @@ s)=R(t_2)$`. However, intuitively there should way a way to differently
 value these two trajectories: It should be possible to value be in `$s'$`
 earlier rather than later.
 
-#### Using Inconsistent Preferences to Represent Ontological Crises
+##### Using Inconsistent Preferences to Represent Ontological Crises
 
 The framework of representing preferences as edge-weighted directed
 graphs on a set `$\Omega$` of vertices, and consistent preferences as the
@@ -2411,7 +2412,7 @@ externally, e.g. by using `HodgeRank` or dropping the weights and using
 graph. `$G$` is a tuple `$(Ω, E, w)$`, and `$s$` is of type
 `$Ω\rightarrow \mathcal{P}(\Xi \times [0, 1])$`.*
 
-##### Advantages
+###### Advantages
 
 An advantage of `ResolveShift` over BisimulateShift is the set of
 preferences that can be represented by `$G$` and `$G'$`. If `$\Omega$` is the
@@ -2427,7 +2428,7 @@ runtime complexity of `$\mathcal{O}(|E| \cdot m^2)$`, which is a subset of
 the functions in `$\mathcal{O}(n^2 \cdot m^2)$` (with `$n=|\Omega|$`, and
 `$m=|\Xi|$`), unlike BisimulateShift, which offers no such guarantees.
 
-##### Disadvantages
+###### Disadvantages
 
 If the dynamics (e.g. the transition function) of the elements of
 `$\Xi$` are known, then BisimulateShift is able to use this information
