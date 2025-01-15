@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-04-22, modified: 2024-11-04, language: english, status: in progress, importance: 5, confidence: highly likely*
+*author: niplav, created: 2024-04-22, modified: 2025-01-16, language: english, status: in progress, importance: 5, confidence: highly likely*
 
 > __In which to compare how similarly programs compute their outputs,
 [naïvely](#A_Nave_Formula) and [less naïvely](#A_Less_Nave_Formula).__
@@ -239,18 +239,23 @@ we won't determine the logical correlation of `$o_1, o_2$`.  Instead we
 pick one bit from each output, say `$b_1=o_1(k), b_2=o_2(k)$` for some
 `$k \in ℕ$`).
 
+This formula is based on the assumption that Shapley values of tape
+cells over time are a kind of *fingerprint* of the program as it runs,
+and as such can be compared with some distance function akin to `$d$`
+in the naïve formula.
+
 #### Shapley Values for Tape States
 
-We now treat each tape state `$t_i$` of a Turing machine as a set of
-players, which can play either `$0$` or `$1$` (the two states each cell
-on the tape can assume).
+We treat each tape state `$t_i$` of a Turing machine as a set of players,
+which can play either `$0$` or `$1$` (the two states each cell on the
+tape can assume).
 
-Then we can compute the Shapley value for each tape state on the bit
-produced down the line by the Turing machine. To recap, the Shapley
-value assumes that there's a set `$t_i(j) (j \in ℕ)$` of players,
-and a function `$v: 2^{t_i(j)} \rightarrow \{0,1\}$` for all subsets
-of players—in this case the execution of the program from `$t_i$`
-until it halts. It's assumed that `$v(\emptyset)=0$`.
+Then we compute the Shapley value for each tape state on the bit produced
+down the line by the Turing machine. To recap, the Shapley value assumes
+that there's a set `$t_i(j) (j \in ℕ)$` of players, and a function
+`$v: 2^{t_i(j)} \rightarrow \{0,1\}$` for all subsets of players—in
+this case the execution of the program from `$t_i$` until it halts. It's
+assumed that `$v(\emptyset)=0$`.
 
 The Shapley value for a player `$j$` is then computed with the following equation:
 
@@ -258,14 +263,16 @@ The Shapley value for a player `$j$` is then computed with the following equatio
 	$$\phi_j(v)=\sum_{S \subseteq N \backslash \{j\}} \frac{|S|!(n-|S|-1)!}{n!} (v(S \cup\{j\})-v(S)))$$
 </div>
 
-Two conceptual difficulties present themselves:
+Three conceptual difficulties present themselves:
 
 1. The Shapley value assumes there's a null-action for each player, i.e. players can choose not to do anything,
-2. It's assumed that if every player plays the null action, then the output of `$v$` is `$0$`, though this isn't required for the equation to work.
+2. It's *usually* assumed that if every player plays the null action, then the output of `$v$` is `$0$`, though this isn't required for the equation to work.
+3. At different times different programs on the same Turing machine can have accessed different parts of the tape—in the most extreme case, one program just moves one tape to the left, and stays there, while the other program runs off along tapes to the right. In those cases, we get differently sized "lists" of influence-values.
 
 1\. can be solved by setting the null action to the tapestate produced by
 the program preceding the tapestate. I imagine this as a tapestate being
-able to "decide" to flip to the opposite bit before the program resumes.
+able to "decide" to flip to the opposite bit before the program resumes,
+which counts as participating.
 
 2\. is a bit more tricky to resolve. I think the best way of fixing this
 is to say that *iff* the output of the Turing machine with no changes
@@ -274,8 +281,6 @@ to the tape state is `$1$`, then the "real" Shapley value here is
 bit in the output from `$1$` to `$0$`.
 
 #### Comparing Lists of Influences
-
-#### Differently-Sized Tapes
 
 #### Plugging It All Together
 

@@ -48,18 +48,11 @@ def diamond_rec(space, size, offsets, stitch_dim, minval, maxval, factor, subdim
 	if subdim<=stitch_dim:
 		return space
 
-	# Test with:
-	# * offsets zeroes, subdim 0
-	# * offsets zeroes, subdim 1
-	# * offsets zeroes, subdim 2
-	# * offsets nonzeroes, subdim 0
-	# * offsets nonzeroes, subdim 1
-
 	#cornerspos=get_cornerspos(dim)
 	#corners=offsets[:, np.newaxis] + cornerspos[np.newaxis, :]*(size-1)
 
-	#TODO: compute centers!
-	centers=offsets+size//2
+	corners, centers=corners_and_centers(dim, subdim, size, offsets)
+
 	space[tuple(centers.T)]=space[tuple(corners.T)].mean(axis=0)
 	return diamond_rec(space, size, offsets, stitch_dim, minval, maxval, factor, subdim-1)
 

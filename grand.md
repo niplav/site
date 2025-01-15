@@ -617,3 +617,9 @@ Should this be `$10^{60}$` or `$1060$` Gyr?
 ### 14.1
 
 Bottom of the table for the Contents of the current universe is cut off.
+
+15.3.3
+
+> Switching from from a control theory and mathematical perspective […]
+
+Duplicated word.

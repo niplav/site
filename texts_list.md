@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-11-13, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2025-01-12, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,7 +17,9 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
-* \* Otherness and control in the age of AGI (Joe Carlsmith, 2024)
+* [Nucleus prepositus (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Nucleus_prepositus)
+* [Recommendations for Technical AI Safety Research Directions (Sam Marks/Peter Hase, 2025)](https://alignment.anthropic.com/2025/recommended-directions/)
+* Otherness and control in the age of AGI (Joe Carlsmith, 2024)
 * [The Musical, Magical Number Theorist (Erica Klarreich, 2014)](https://www.quantamagazine.org/number-theorist-manjul-bhargava-is-awarded-fields-medal-20140812/)
 * [When will the World Health Organization report no detected polio cases (wild poliovirus) for an entire calendar year, for the first time? (skmmcj, 2024)](https://www.metaculus.com/questions/25067/first-year-with-no-wild-polio-cases/)
 * [When will the WHO certify the worldwide eradication of Polio? (AABoyles, 2019)](https://www.metaculus.com/questions/3353/date-of-worldwide-polio-eradication/)

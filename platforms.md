@@ -157,9 +157,9 @@ Blindeable:
 
 1. __Semaglutide__ vs. __Sugar__ → *Productivity* (tracking conscientiousness)
 2. __Melatonin__ vs. __Sugar__ → *Sleep duration*
-3. [__Orexin-A__](https://en.wikipedia.org/wiki/Orexin-A) vs. __Sugar__ → *Sleep duration*
-4. __Neuropeptide S__ vs. __Sugar__ → *Sleep duration*
-5. __Sodium Oxybate__ vs. __Sugar__ → *Sleep duration*
+3. [__Orexin-A__](https://en.wikipedia.org/wiki/Orexin-A) vs. __Sugar__ → *Cognitive performance after sleep deprivation*
+4. __Neuropeptide S__ vs. __Sugar__ → *Cognitive performance after sleep deprivation*
+5. __Sodium Oxybate__ vs. __Sugar__ → *Cognitive performance after sleep deprivation*
 6. [__Galantamine__](https://en.wikipedia.org/wiki/Galantamine) vs. __Sugar__ → *Number of dreams*
 
 Not blindeable:
