@@ -1,8 +1,5 @@
-using CSV
-using Distributions
-using DataFrames
+using CSV, Distributions, DataFrames
 
-# Load data from CSV
 data = CSV.File("../../data/daygame_approaches.csv") |> DataFrame
 
 locations = data.Location
