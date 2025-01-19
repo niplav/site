@@ -1,28 +1,34 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-15, modified: 2025-01-07, language: english, status: in progress, importance: 8, confidence: highly likely*
+*author: niplav, created: 2023-04-15, modified: 2025-01-19, language: english, status: in progress, importance: 8, confidence: highly likely*
 
-> __I consider the problem of resolving preferences
+> __I [consider](#Motivation) the problem of resolving preferences
 that are inconsistent under the [von Neumann-Morgenstern
 axioms](https://en.wikipedia.org/wiki/Von_Neumann-Morgenstern_axioms)
-into consistent preferences. For preferences over deterministic
-options, I model inconsistent preferences as [directed
-graphs](https://en.wikipedia.org/wiki/Directed_Graph),
-and the resolution as selecting acyclic
+into consistent preferences. For [preferences over deterministic
+options](#Inconsistent_Preferences_over_Deterministic_Options),
+I model inconsistent preferences as [directed
+graphs](https://en.wikipedia.org/wiki/Directed_Graph), and [the
+resolution](#Finding_Consistent_Graphs_with_the_Smallest_GraphEdit_Distance)
+as selecting acyclic
 [tournaments](https://en.wikipedia.org/wiki/Tournament_\(graph_theory\))
 with the same vertices and minimal [graph-edit
 distance](https://en.wikipedia.org/wiki/Graph_edit_distance),
-or Hodge decomposition. For preferences over lotteries, I offer
+or [Hodge decomposition](#None). I [prove an impossibility
+theorem](#Resolution_to_Polynomially_Many_Preferences_and_Preservation_of_Consistent_Subgraphs_are_Incompatible).__
+
+> __For [preferences over
+lotteries](#Inconsistent_Preferences_over_Lotteries), I offer
 two different methods for modeling inconsistence and one method
 for resolving them: as edge-weighted [weakly connected directed
 graphs](https://en.wikipedia.org/wiki/Weakly-connected_digraph)
-(resolution via Hodge decomposition) and as arbitrary
+(resolution via [`HodgeRank`](#HodgeRank)) and as arbitrary
 [relations](https://en.wikipedia.org/wiki/Relation_\(mathematics\)) over
 lotteries. None of those two representations prove to be satisfactory. I
-apply the findings to propose an algorithm for changing a [utility
-function](https://en.wikipedia.org/wiki/Utility#Utility_function) as
-the underlying set of objects changes.__
+[apply the findings](#Applications) to propose an algorithm for changing a
+[utility function](https://en.wikipedia.org/wiki/Utility#Utility_function)
+as the underlying set of objects changes.__
 
 Resolving von Neumann-Morgenstern Inconsistent Preferences
 ===========================================================
@@ -536,14 +542,15 @@ is to execute the following steps:
 
 -   **Remove minimum feedback arc sets**. [Sun et al.
     2017](./doc/preference/breaking_cycles_in_noisy_hierarchies_sun_et_al_2017.pdf "Breaking Cycles in Noisy Hierarchies")
-    use a greedy approximation algorithm to find and remove the
-    minimum feedback arc set from a "noisy hierarchy" and create a
-    directed acyclic graph. `stepwise` takes a similar approach by
-    computing all minimum feedback arc sets for $G$ and then removing
-    them to ensure the graph is acyclic (so that later establishing
-    transitivity does not violate asymmetry). The result is a set
-    of directed acyclic graphs $\mathbf{A}$, one for each minimum
-    feedback arc set removed from $G$. For this, one can use an
+    use a greedy approximation algorithm
+    to find and remove the [minimum feedback arc
+    set](https://en.wikipedia.org/wiki/Minimum_feedback_arc_set) from a
+    "noisy hierarchy" and create a directed acyclic graph. `stepwise`
+    takes a similar approach by computing all minimum feedback arc sets
+    for $G$ and then removing them to ensure the graph is acyclic (so
+    that later establishing transitivity does not violate asymmetry). The
+    result is a set of directed acyclic graphs $\mathbf{A}$, one for each
+    minimum feedback arc set removed from $G$. For this, one can use an
     algorithm for finding the minimum feedback arc set from [Baharev
     2021](https://dl.acm.org/doi/10.1145/3446429), called `mfas` in
     `stepwise`.

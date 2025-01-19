@@ -112,6 +112,7 @@ HTML=index.html \
 	turning.html \
 	two_people_on_a_planet.html \
 	utilitarian_compliments.html \
+	wireheading.html \
 	bp_chrono.html \
 	ob_chrono.html \
 	rq_chrono.html \

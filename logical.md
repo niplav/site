@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-04-22, modified: 2025-01-16, language: english, status: in progress, importance: 5, confidence: highly likely*
+*author: niplav, created: 2024-04-22, modified: 2025-01-19, language: english, status: in progress, importance: 5, confidence: likely*
 
 > __In which to compare how similarly programs compute their outputs,
 [naïvely](#A_Nave_Formula) and [less naïvely](#A_Less_Nave_Formula).__
@@ -12,6 +12,8 @@ Logical Correlation
 Attention conservation notice: Premature formalization,
 [ab-](https://en.wiktionary.org/wiki/ab-)[hoc mathematical
 definition](https://www.lesswrong.com/posts/GhFoAxG49RXFzze5Y/what-s-so-bad-about-ad-hoc-mathematical-definitions).
+
+### Motivation, Briefly
 
 In the [twin prisoners
 dilemma](https://www.lesswrong.com/tag/psychological-twin-prisoner-s-dilemma),
@@ -76,7 +78,7 @@ state as the output, all in binary.
 That is `$p=(c, t)$`, with `$c \in \{0, 1\}^+$` and `$t \in (\{0,
 1\}^+)^+$`. Let `$l=|t|$` be the number of steps that `$p$` takes to halt.
 
-For simplicity's sake, let's give `$t_l$` (the tape state upon halting)
+For simplicity's sake, let's give `$t[l]$` (the tape state upon halting)
 the name `$o$`, the output.
 
 ### Possible Desiderata
@@ -103,7 +105,7 @@ metric](https://en.wikipedia.org/wiki/String_similarity_metric) `$d:
 \{0, 1\}^+ \times \{0, 1\}^+ \rightarrow ℕ$` could be
 
 <div>
-        $$合(p_1, p_2, γ)=d(o_1, o_2)+0.5-\frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1(l_1-k), t_2(l_2-k))}$$
+        $$合(p_1, p_2, γ)=d(o_1, o_2)+0.5-\frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k])}$$
 </div>
 
 The lower `$合$`, the higher the logical correlation between `$p_1$`
@@ -115,7 +117,7 @@ Let's take a look at the equation again, but this time with some color
 highlighting:
 
 <div>
-        $$合(p_1, p_2, γ)=\color{red}{d(o_1, o_2)}+0.5\color{orange}{-}\frac{1}{2+\color{green}{\sum_{k=1}^{\min(l_1, l_2)}} \color{purple}{γ^k \cdot} \color{blue}{d(t_1(l_1-k), t_2(l_2-k))}}$$
+        $$合(p_1, p_2, γ)=\color{red}{d(o_1, o_2)}+0.5\color{orange}{-}\frac{1}{2+\color{green}{\sum_{k=1}^{\min(l_1, l_2)}} \color{purple}{γ^k \cdot} \color{blue}{d(t_1[l_1-k], t_2[l_2-k])}}$$
 </div>
 
 The fundamental idea is that we first <span style="color:red">compute
@@ -176,17 +178,17 @@ The minimal logical correlation is 0.
 
 <div>
 	$$合(p_1, p_2, γ)≥0 \Leftrightarrow \\
-	d(o_1, o_2)+0.5-\frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1(l_1-k), t_2(l_2-k))}≥0 \Leftrightarrow \\
-	d(o_1, o_2)+0.5 ≥\frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1(l_1-k), t_2(l_2-k))} \Leftrightarrow \\
-	2 \cdot d(o_1, o_2)+1+d(o_1, o_2) \cdot \sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1(l_1-k), t_2(l_2-k))+0.5 \cdot \sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1(l_1-k), t_2(l_2-k))≥1 \Leftrightarrow \\
-	2 \cdot d(o_1, o_2)+1+(d(o_1, o_2)+0.5) \cdot \sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1(l_1-k), t_2(l_2-k)))≥1 \Leftrightarrow \\
-	2 \cdot d(o_1, o_2)+(d(o_1, o_2)+0.5) \cdot \sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1(l_1-k), t_2(l_2-k)))≥0 $$
+	d(o_1, o_2)+0.5-\frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k])}≥0 \Leftrightarrow \\
+	d(o_1, o_2)+0.5 ≥\frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k])} \Leftrightarrow \\
+	2 \cdot d(o_1, o_2)+1+d(o_1, o_2) \cdot \sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k])+0.5 \cdot \sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k])≥1 \Leftrightarrow \\
+	2 \cdot d(o_1, o_2)+1+(d(o_1, o_2)+0.5) \cdot \sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k]))≥1 \Leftrightarrow \\
+	2 \cdot d(o_1, o_2)+(d(o_1, o_2)+0.5) \cdot \sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k]))≥0 $$
 </div>
 
 This is true, because:
 
 1. `$d(o_1, o_2)≥0$`.
-2. `$d(t_1(l_1-k), t_2(l_2-k))≥0$` for every `$k$`.
+2. `$d(t_1[l_1-k], t_2[l_2-k])≥0$` for every `$k$`.
 3. `$γ^k≥0$` for every `$k$`.
 
 Thus we have a sum of products of only positive things, which is in turn
@@ -250,12 +252,12 @@ We treat each tape state `$t_i$` of a Turing machine as a set of players,
 which can play either `$0$` or `$1$` (the two states each cell on the
 tape can assume).
 
-Then we compute the Shapley value for each tape state on the bit produced
-down the line by the Turing machine. To recap, the Shapley value assumes
-that there's a set `$t_i(j) (j \in ℕ)$` of players, and a function
-`$v: 2^{t_i(j)} \rightarrow \{0,1\}$` for all subsets of players—in
-this case the execution of the program from `$t_i$` until it halts. It's
-assumed that `$v(\emptyset)=0$`.
+Then we compute the Shapley value for each tape state on the bit
+produced down the line by the Turing machine. To recap, the Shapley value
+assumes that there's a set `$t_i(j)$` (with `$j \in ℕ$`) of players,
+and a function `$v: 2^{t_i(j)} \rightarrow \{0,1\}$` for all subsets
+of players—in this case the execution of the program from `$t_i$`
+until it halts. It's assumed that `$v(\emptyset)=0$`.
 
 The Shapley value for a player `$j$` is then computed with the following equation:
 
@@ -272,7 +274,9 @@ Three conceptual difficulties present themselves:
 1\. can be solved by setting the null action to the tapestate produced by
 the program preceding the tapestate. I imagine this as a tapestate being
 able to "decide" to flip to the opposite bit before the program resumes,
-which counts as participating.
+which counts as participating. We'll designate the function of letting
+a program `$p$` continue running from a timestep `$k$` until halting as
+`$\bar{p}_k$`.
 
 2\. is a bit more tricky to resolve. I think the best way of fixing this
 is to say that *iff* the output of the Turing machine with no changes
@@ -280,19 +284,109 @@ to the tape state is `$1$`, then the "real" Shapley value here is
 `$-\phi_j(v)$`—we evaluate tape state for their ability to move the
 bit in the output from `$1$` to `$0$`.
 
+For 3., my best solution is to be (overly?) expansive in which tape cells
+are considered as potential contributions.
+
+Let's call the "leftmost" tape cell reached by a program on a Turing
+machine during the whole execution `$f^{\leftarrow}$` and the "rightmost"
+one `$f^{\rightarrow}$` (`$f$` for "frontier").
+
+Then the subrange indexed of the whole tape is the list of natural
+numbers `$[\min(f^{\leftarrow}_1, f^{\leftarrow}_2), \dots,
+\max(f^{\rightarrow}_1, f^{\rightarrow}_2)]$`, abbreviated as
+`$f^{\leftrightarrow}$`.
+
+Cells that haven't been "reached" yet by the program (or never will)
+automatically have a Shapley value of 0, that just falls out of the
+formula.[^5] Because we're taking the biggest possible "reached envelope"
+on the tape the tape segments for both programs have the same size.
+
+So, for a bit `$b$` in the output of the program `$p$`, at some timestep
+`$k$`, we get a list of Shapley values:
+
+<div>
+	$$ᖫ(p, t, b, k)=[\cases{-\phi_j(\bar{p}_k) &if $t[k][j]=0$; \cr
+                                     \phi_j(\bar{p}_k) &if $t[k][j]=1$ } : j \in f^{\leftrightarrow}]$$
+</div>
+
+We'll call `$ᖫ(p, t, b, k)$` the __Shapley value profile__ of a program
+`$p$` at a timestep `$k$`.
+
+<!--TODO: check if we really don't have to do some weird comparison with
+the final output. Not really firm in this at the moment.-->
+
 #### Comparing Lists of Influences
 
-#### Plugging It All Together
+`$ᖫ$` returns… a list of real numbers. So if we evaluate the Shapley
+value profile of two tape states for two different programs, we have to
+compare two same-length lists of real numbers and figure out how similar
+they are.
+
+There are many ways to do so. I don't have a particular favorite,
+but for convience let's pretend we take the element-wise [mean-squared
+error](https://en.wikipedia.org/wiki/Mean-squared_error) and call it
+a day.
+
+I'll designate whatever difference measure is decided on as `$d$`,
+just as earlier.
 
 #### Permuted Tapes
+
+If we *just* use the difference between Shapley values
+for intermediate tape states, we won't have solved the [first
+problem](#A_Less_Nave_Formula) of the naïve formula: Direction-reversed
+programs are evaluated as being extremely dissimilar, even though they
+are very similar.
+
+As hinted, I don't have a *great* solution to this, but my current best
+approach is to look at permutations of one of the tapes, and choose the
+one which best "matches up" the two Shapley value profiles with each
+other. E.g. for `$p, p^{-}$` from earlier we'd compare the two programs
+using the permutation that reverses the tape of `$p^{-}$`.
+
+It's important that this permutation be chosen once for all timesteps.
+
+I don't like this solution. Permutations are too permissive,
+and two programs where `$p_1$` is best modeled as being pairwise
+flips of neighboring cells of `$p_2$` are, intuitively, quite
+dissimilar.
+
+My initial idea was to penalize permutations for
+complexity, e.g. by preferring permutations that can be
+constructed from few pairwise swappings (one [generating
+set](https://en.wikipedia.org/wiki/Generating_set_of_a_group) of the
+[symmetric group](https://en.wikipedia.org/wiki/Symmetric_group)).
+But that would strongly penalize "natural" very similar programs, such as
+`$p, p^{-}$`. If anyone here has good ideas, hit me up.
 
 ### Final Equation
 
 <!--TODO: add difference in output bits?-->
 
+Phew! That was a lot. Putting it all together, in a similar framework
+as with the naïve formula, yields:
+
 <div>
-	$$挧(b_1, b_2, γ)=\underset{\sigma \in S}{\text{argmin }} 0.5-\frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot \sum_{j=1}^{\min(|t_1(k)|, |t_2(k)|)} (\phi_j(t_1(k)_j)-\sigma(\phi_j(t_2(k)_j))))^2}$$
+	$$挧(p_1, p_2, b_1, b_2, γ)=\underset{\sigma \in \text{Sym}(f^{\leftrightarrow})}{\text{min }} 0.5-\frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k d(\sigma(ᖫ(p_1, t_1, b_1, k)), ᖫ(p_2, t_2, b_2, k))}$$
 </div>
+
+with
+
+<div>
+	$$ᖫ(p, t, b, k)=[\cases{-\phi_j(\bar{p}_k) &if $t[k][j]=0$; \cr
+                                \phi_j(\bar{p}_k) &if $t[k][j]=1$ } : j \in f^{\leftrightarrow}]$$
+</div>
+
+#### Remaining Problem: Time-Permuted Tapes
+
+I see one clear indicator that this hasn't been ironed out yet.
+
+Other Ideas
+------------
+
+* Checking [bisimilarity](https://en.wikipedia.org/wiki/Bisimulation)
+* [Mutual information](https://en.wikipedia.org/wiki/Mutual_information) of the programs
+* Translating each program into a [causal graph](https://en.wikipedia.org/wiki/Causal_graph) and comparing the graphs
 
 See Also
 ---------
@@ -309,3 +403,4 @@ exactly same tape states…)-->
 [^2]: Suggested by GPT-4. Stands for [joining, combining, uniting](https://en.wiktionary.org/wiki/%E5%90%88#Definitions). Also "to suit; to fit", "to have sexual intercourse", "to fight, to have a confrontation with", or "to be equivalent to, to add up".
 [^3]: Which is needed because tape states close to the output are more important than tape states early on.
 [^4]: Together with two constants to avoid division by zero or same logical correlations for programs with different outputs differences.
+[^5]: I have the suspicion that this whole thing isn't actually a problem and one can just compare permutations of the whole infinite tape, *but* I don't want to take any chances with weirdnesses around permutations of infinitely many elements, or the mean-squared error between infinitely long lists. Also it's nice to be able to actually implement the solution.

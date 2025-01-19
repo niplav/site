@@ -17,6 +17,13 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [The 9 Best Local/Offline LLMs You Can Try Right Now (Jayric Maning, 2024)](https://www.makeuseof.com/the-best-local-offline-llms-you-can-try-right-now/)
+* [Probvious (Busy Beaver Challenge, 2024)](https://wiki.bbchallenge.org/wiki/Probvious)
+* [Antihydra (Busy Beaver Challenge, 2024)](https://wiki.bbchallenge.org/wiki/Antihydra)
+* \* The Native Tribes of Central Australia (Baldwin Spencer/Francis James Gillen, 1899)
+* [Conservative replacement (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Conservative_replacement)
+* [Segregating site (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Segregating_site)
+* \* [China (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/China)
 * [Nucleus prepositus (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Nucleus_prepositus)
 * [Recommendations for Technical AI Safety Research Directions (Sam Marks/Peter Hase, 2025)](https://alignment.anthropic.com/2025/recommended-directions/)
 * Otherness and control in the age of AGI (Joe Carlsmith, 2024)
