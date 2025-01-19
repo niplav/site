@@ -286,7 +286,7 @@ who write epics of institutionalized autists bent on terraforming these overpopu
 *horizons clitch and cline—*  
 pointing out dynamic inconsistency in the comments and melting hectoton steel-marbles around civilizational recipes,  
 who improve their aim hurling yeeting philosophical tomes at unsuspecting passerbys and ascend urban lampposts to loudly deduce their mechanical liturgies,  
-cascades! cycles! insights!  
+*cascades! cycles! insights!*  
 who cut down oaks and poppies in the parks to make oil and space for those ones yet to come and who hunker down in fortified coalmines in Montana and the Ruhrgebiet, propelled into the rock by an Ordite reactor, a Bostromite dynamo,  
 who exitedly pour & plaster tabulated exponents into webscripted canisters just below the teal-tinted ceiling,  
 hating one-sidedness and bureaucrats alike,  
@@ -296,7 +296,7 @@ trading sanity for sanity points, wide-eyed apostles of retrocausal [void](https
 who catch a feral heart in the garden behind the A100 rack and save it into a transparent domicile, injecting it with 17000 volts to illuminate all the last battery cages equally,  
 who empty out their pockets with uncountable glaring utilons onto innocent climate activists, promising to make them happy neutron stars one day,  
 microscopically examining the abyssal monstrosities their oracles conjure up out of the lurching empty chaos,  
-recursion! magic!  
+*recursion! magic!*  
 who fever towards silver tendrils bashing open their skulls and eating up their brains and imaginations, losslessly swallowed into that ellipsoid strange matter gut pulsing out there between the holes  
 
 <!--who in their final moments look up at the sky and whisper, "I saw
