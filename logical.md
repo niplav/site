@@ -305,8 +305,8 @@ So, for a bit `$b$` in the output of the program `$p$`, at some timestep
 `$k$`, we get a list of Shapley values:
 
 <div>
-	$$ᖫ(p, t, b, k)=[\cases{-\phi_j(\bar{p}_k) &if $t[k][j]=0$; \cr
-                                     \phi_j(\bar{p}_k) &if $t[k][j]=1$ } : j \in f^{\leftrightarrow}]$$
+	$$ᖫ(p, t, b, k)=[\cases{-\phi_j(\bar{p}_k) &if $t[k][j]=0$ \cr
+                                \phi_j(\bar{p}_k) &if $t[k][j]=1$ } : j \in f^{\leftrightarrow}]$$
 </div>
 
 We'll call `$ᖫ(p, t, b, k)$` the __Shapley value profile__ of a program

@@ -211,6 +211,9 @@ whole thing runs for 20 years, we then pay `$\$5 \text{ mio.} + 20 \cdot
 cheap, so I'll fudge upwards to \$100 mio, just in case. Still a steal,
 if you ask me. Just not sure whether I'd have to fear angry politicians.
 
+<!--TODO: Weaker version with voting advice based on how parties have
+voted for bills in the past-->
+
 Language
 ---------
 
@@ -375,10 +378,11 @@ been able to find information on the budget of Love, Death & Robots or
 The Animatrix. Spending \\$1 bio. on an SCP series is not unthinkable
 in this case.
 
-__Spinoff with Antimemetics Division__: Of course I can't
-neglect my favorite work of fiction: The novel [There Is No
-Antimemetics Division](https://www.goodreads.com/en/book/show/54870256)
-would lend itself well to a one-season spinoff.
+__Spinoff with Antimemetics Division__: Of course I can't neglect
+my favorite work of fiction: The novel [There Is No Antimemetics
+Division](https://www.goodreads.com/en/book/show/54870256) would lend
+itself well to a one-season spinoff.<!--TODO: link the excellent Youtube
+series here!-->
 
 ### Discontinuous & Fast AI Takeoff Movie
 
@@ -607,7 +611,7 @@ for their entire life and perhaps never lose their virginity. They
 give themselves various names: "LoveShy"<!--TODO: link-->, ["Forever
 alone"](https://old.reddit.com/r/ForeverAlone/) or ["involuntary
 celibate"](https://en.wikipedia.org/wiki/Incel). A common point of
-disagreement in those communities is whether lack sexual activity by
+disagreement in those communities is whether lack of sexual activity by
 itself (independently from relationships) has negative effects on people:
 The incels wiki [lists](https://incels.wiki/w/Scientific_Blackpill#Health)
 a (likely selective) collection of studies, however nearly all of them
@@ -615,20 +619,21 @@ are correlational & the ones who aren't don't test sexual activity *per
 se* (merely physical contact). This offers a nice opportunity for a
 [longitudinal](https://en.wikipedia.org/wiki/Longitudinal_study)
 [randomized
-experiment](https://en.wikipedia.org/wiki/Randomized_experiment): Find
-300 men[^6] above the age of 25 who have never had a partner of sexual
-intercourse ([/r/ForeverAlone](https://old.reddit.com/r/ForeverAlone/)
-has ~180k subscribers, so the subjects would be 1/600th of the number
+experiment](https://en.wikipedia.org/wiki/Randomized_experiment):
+Find 300 male participants[^6] above the age of 25
+who have never had a partner of sexual intercourse
+([/r/ForeverAlone](https://old.reddit.com/r/ForeverAlone/) has
+~180k subscribers, so the subjects would be 1/600th of the number
 of subscribers: seems doable), and randomize them into two groups:
 For a ten-year period, men in the treatment group see a (paid for)
-prostitute once a week for ~2 hours, men in the control group don't
-(they are, however, *not* prevented from finding partners for intercourse
-themselves, and are perhaps rewarded a cash price after ten years that
-is large enough that they're still willing to participate in data
-collection without misreporting). Nobody is *forced* (by contract
-or otherwise) to neglect finding a partner, or to sleep with the
-prostitute, however participants in both groups will receive the
-cash price in the end if and only if they participate in the data
+prostitute once a week for ~2 hours, men in the control group
+don't (they are, however, *not* prevented from finding partners
+for intercourse themselves, and are perhaps rewarded a cash price
+after ten years that is large enough that they're still willing to
+participate in data collection without misreporting). Nobody is *forced*
+(by contract or otherwise) to neglect finding a partner, or to sleep
+with the prostitute, however participants in both groups will receive
+the cash price in the end if and only if they participate in the data
 collection. Data collected might be income, educational attainment,
 relationship status, other sexual activity, mood (via [experience
 sampling](https://en.wikipedia.org/wiki/Experience_sampling_method)),
@@ -689,6 +694,8 @@ parrots each (I've guessed those numbers). Four staff perhaps (working
 The total cost is then
 150\*\\$2k+15\*\\$500+150\*\\$1k+150\*50\*(\\$400+\\$500)+3\*\\$200k+2\*150\*\\$100+50\*360\*8\*4\*\\$60=\\$3.632 mio.
 
+<!--TODO: Latexify-->
+
 Because I'd have a lot of money, let's round this up to \$5m. The whole
 enterprise might become profitable at some point: The parrots not selected
 for breeding because of (lower) intelligence could be sold as a curiosity
@@ -735,6 +742,9 @@ __Examples__: At some point someone must have invented music, and
 at another point someone invented meditation. That was a pretty big
 deal! Maybe we're missing a bunch of these kinds of things and don't
 even notice.
+
+<!--TODO: Enlargen to increase activities, objects and ways of
+thinking!-->
 
 ### Really Out There Stuff Institute (ROTSI)
 

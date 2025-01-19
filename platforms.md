@@ -11,8 +11,8 @@ of various [nootropics](https://en.wikipedia.org/wiki/Nootropics)
 on absorption in meditation. After one experiment, the [log
 score](https://en.wikipedia.org/wiki/Proper_scoring_rule#Logarithmic_score)
 of the market [is -0.326](#Scoring_the_Market) — pretty good. This
-gains us [0.202 bits](#0202_Bits_of_Evidence_In_Favor_of_Futarchy)
-of evidence in favor of the accuracy of the markets.__
+gains us [0.202 bits](#0202_Bits_of_Evidence_For_Futarchy) of evidence
+in favor of the accuracy of the markets.__
 
 Using Prediction Platforms to Select Quantified Self Experiments
 =================================================================

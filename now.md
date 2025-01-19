@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2024-10-22, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2025-01-19, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -55,9 +55,9 @@ Currently, I am actively reading the following texts:
 * [Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)](https://statisticswithjulia.org/)
 * [Designing Data-Intensive Applications (Martin Kleppmann, 2017)](https://dataintensive.net/)
 * [Coming to Wholeness (Connirae Andreas, 2018)](https://www.goodreads.com/book/show/42348332-coming-to-wholeness)
+* [The Native Tribes of Central Australia (Baldwin Spencer/Francis James Gillen, 1899)](https://www.goodreads.com/book/show/68126748-the-native-tribes-of-central-australiar)
 * Neural Engineering (Chris Eliasmith/Charles H. Anderson, 2002)
 * Tiling Agents for Self-Modifying AI, and the Löbian Obstacle (Eliezer Yudkowsky/Marcello Herreshoff, 2013)
-* The Native Tribes of Central Australia (Baldwin Spencer/Francis James Gillen, 1899)
 * The Failure of Risk Management (Douglas W. Hubbard, 2009)
 * ML for the Working Programmer (Lawrence C. Paulson, 1996)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
