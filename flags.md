@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-01-25, modified: 2023-10-09, language: english, status: maintenance, importance: 1, confidence: log*
+*author: niplav, created: 2022-01-25, modified: 2025-01-18, language: english, status: maintenance, importance: 1, confidence: log*
 
 > __;-)__
 
@@ -23,6 +23,7 @@ will have sped to fixation, so their total fitness contribution is
 
 *— [John H. Gillespie](https://en.wikipedia.org/wiki/John_H._Gillespie), “Population Genetics” p. 172, 2004*
 
+* 🇷🇼 (January 2025)
 * 🇰🇷 (October 2024)
 * 🇨🇳 (March 2022, February 2023)
 * 🇧🇬 (October 2021)

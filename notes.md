@@ -1611,6 +1611,8 @@ Sporadic elements include classifications of
 [fairies](https://en.wikipedia.org/wiki/Classifications_of_fairies),
 and [swords](https://en.wikipedia.org/wiki/Classification_of_swords).
 
+<!--Amino acids?-->
+
 A FIRE Upon the Deep
 ---------------------
 
@@ -2300,8 +2302,6 @@ One thing I find interesting is that there's very little (~no?) work on
 centaur-like setups in computational complexity theory, where I'd expect
 them to show up most naturally. (I couldn't think of any and Claude didn't
 find anything convincing either). Potentially fruitful to look into.
-
---------------------------
 
 [^1]: I don't know whether the intergalactic medium is charged, if so the black holes would also accumulate charge. I assume that on a medium scale the intergalactic medium is fairly evenly distributed, so I don't think they'd accumulate angular momentum.
 [^2]: Barring things like intrinsic value or comparative advantage.

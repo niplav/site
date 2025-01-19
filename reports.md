@@ -91,6 +91,9 @@ I recall having read some people gesturing toward barefoot walking having
 health benefits, but that was not my main reason for doing it, I wanted
 to see whether it had any direct impacts on the quality of my life.
 
+<!--TODO: mention that *small* shards are a much bigger problem than
+large shards-->
+
 I stopped walking barefoot after stepping into a glass shard for the
 second time.
 
