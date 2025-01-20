@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-04-22, modified: 2025-01-19, language: english, status: in progress, importance: 5, confidence: likely*
+*author: niplav, created: 2024-04-22, modified: 2025-01-20, language: english, status: in progress, importance: 5, confidence: likely*
 
 > __In which to compare how similarly programs compute their outputs,
 [naïvely](#A_Nave_Formula) and [less naïvely](#A_Less_Nave_Formula).__
@@ -237,9 +237,9 @@ tape-permutations.
 ### Explanation
 
 We'll inherit [the basic setup](#Setup) from the naïve formula, but now
-we won't determine the logical correlation of `$o_1, o_2$`.  Instead we
-pick one bit from each output, say `$b_1=o_1(k), b_2=o_2(k)$` for some
-`$k \in ℕ$`).
+we won't determine the logical correlation of the whole outputs `$o_1,
+o_2$`.  Instead we pick one bit from each output, say `$b_1=o_1[k],
+b_2=o_2[k]$` for some `$k \in ℕ$`.
 
 This formula is based on the assumption that Shapley values of tape
 cells over time are a kind of *fingerprint* of the program as it runs,
@@ -291,7 +291,7 @@ Let's call the "leftmost" tape cell reached by a program on a Turing
 machine during the whole execution `$f^{\leftarrow}$` and the "rightmost"
 one `$f^{\rightarrow}$` (`$f$` for "frontier").
 
-Then the subrange indexed of the whole tape is the list of natural
+Then the subrange indexed of the whole tape is a range of natural
 numbers `$[\min(f^{\leftarrow}_1, f^{\leftarrow}_2), \dots,
 \max(f^{\rightarrow}_1, f^{\rightarrow}_2)]$`, abbreviated as
 `$f^{\leftrightarrow}$`.
@@ -305,11 +305,11 @@ So, for a bit `$b$` in the output of the program `$p$`, at some timestep
 `$k$`, we get a list of Shapley values:
 
 <div>
-	$$ᖫ(p, t, b, k)=[\cases{-\phi_j(\bar{p}_k) &if $t[k][j]=0$ \cr
-                                \phi_j(\bar{p}_k) &if $t[k][j]=1$ } : j \in f^{\leftrightarrow}]$$
+	$$ᖫ(p, t, k)=[\cases{\phi_j(\bar{p}_k) &if $t[k][j]=0$ \cr
+                             -\phi_j(\bar{p}_k) &if $t[k][j]=1$ } : j \in f^{\leftrightarrow}]$$
 </div>
 
-We'll call `$ᖫ(p, t, b, k)$` the __Shapley value profile__ of a program
+We'll call `$ᖫ(p, t, k)$` the __Shapley value profile__ of a program
 `$p$` at a timestep `$k$`.
 
 <!--TODO: check if we really don't have to do some weird comparison with
@@ -367,14 +367,14 @@ Phew! That was a lot. Putting it all together, in a similar framework
 as with the naïve formula, yields:
 
 <div>
-	$$挧(p_1, p_2, b_1, b_2, γ)=\underset{\sigma \in \text{Sym}(f^{\leftrightarrow})}{\text{min }} 0.5-\frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k d(\sigma(ᖫ(p_1, t_1, b_1, k)), ᖫ(p_2, t_2, b_2, k))}$$
+	$$挧(p_1, p_2, b_1, b_2, γ)=\mathbf{1}(b_1 \neq b_2)+0.5-\underset{\sigma \in \text{Sym}(f^{\leftrightarrow})}{\text{min }} \frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k d(\sigma(ᖫ(p_1, t_1, k)), ᖫ(p_2, t_2, k))}$$
 </div>
 
 with
 
 <div>
-	$$ᖫ(p, t, b, k)=[\cases{-\phi_j(\bar{p}_k) &if $t[k][j]=0$; \cr
-                                \phi_j(\bar{p}_k) &if $t[k][j]=1$ } : j \in f^{\leftrightarrow}]$$
+	$$ᖫ(p, t, k)=[\cases{-\phi_j(\bar{p}_k) &if $t[k][j]=0$; \cr
+                             \phi_j(\bar{p}_k) &if $t[k][j]=1$ } : j \in f^{\leftrightarrow}]$$
 </div>
 
 #### Remaining Problem: Time-Permuted Tapes
