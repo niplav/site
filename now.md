@@ -61,4 +61,4 @@ Currently, I am actively reading the following texts:
 * The Failure of Risk Management (Douglas W. Hubbard, 2009)
 * ML for the Working Programmer (Lawrence C. Paulson, 1996)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
-* The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 4/1000.
+* The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 5/1000.
