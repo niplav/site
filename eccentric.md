@@ -29,6 +29,8 @@ wherever I could find the source. If guess that if they were implemented
 unpopular in polite society. But the resulting discourse would absolutely
 be worth it.
 
+<!--TODO: make links in table-->
+
 | Intervention                                      | Cost           |
 | :------------------------------------------------ | -------------- |
 | Snowball fights                                   | ?              |
@@ -239,6 +241,14 @@ languages, for example by training large language models (text and audio)
 on those languages; this would give us (at \\$10k salary a year) another
 \\$1 bio. in expenses, plus whatever cost the preservation procedure
 entails.<!--TODO: invest & pay speakers from revenue-->
+
+If one was low on time or resources, one might want to
+focus on languages isolates, there are 17 moribund [language
+isolates](https://en.wikipedia.org/wiki/Language_Isolate),
+yielding an expense of \\$68 mio. A friend of mine also suggested
+[triage](https://en.wikipedia.org/wiki/Triage): Let moribund languages
+die, and focus on the ones that are on the edge between extinction
+and thriving.
 
 ### Raise Native Speakers of an Engineered Conlang
 

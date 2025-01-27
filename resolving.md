@@ -24,11 +24,13 @@ two different methods for modeling inconsistence and one method
 for resolving them: as edge-weighted [weakly connected directed
 graphs](https://en.wikipedia.org/wiki/Weakly-connected_digraph)
 (resolution via [`HodgeRank`](#HodgeRank)) and as arbitrary
-[relations](https://en.wikipedia.org/wiki/Relation_\(mathematics\)) over
-lotteries. None of those two representations prove to be satisfactory. I
-[apply the findings](#Applications) to propose an algorithm for changing a
-[utility function](https://en.wikipedia.org/wiki/Utility#Utility_function)
-as the underlying set of objects changes.__
+[relations](https://en.wikipedia.org/wiki/Relation_\(mathematics\))
+over lotteries. None of those two
+representations prove to be satisfactory. I [apply the
+findings](#Ontology_Identification_Ontological_Shifts_and_Ontological_Crises)
+to propose an algorithm for changing a [utility
+function](https://en.wikipedia.org/wiki/Utility#Utility_function) as
+the underlying set of objects changes.__
 
 Resolving von Neumann-Morgenstern Inconsistent Preferences
 ===========================================================
@@ -125,6 +127,10 @@ art" in decision theory—it seems plausible to me that vNM will
 be superseded by some theory that is "better" along the relevant
 dimensions<sub>57%</sub>. I hope that in that case the lessons learned
 from resolving vNM-inconsistent preferences transfer over somewhat.
+
+<!--TODO: cite Rustichini
+./doc/psychology/the_role_of_intelligence_in_economic_decision_making_rustichini_2015.pdf
+here for justification-->
 
 ### Structure of the Text
 
@@ -2013,15 +2019,13 @@ which we will not pursue further here.
 
 #### Sondej Sampling
 
-## Applications
+## Ontology Identification, Ontological Shifts and Ontological Crises
 
 Equipped with a notion of how to represent inconsistent preferences and
 how to resolve them, one can examine problems that have come up in other
 contexts and apply the knowledge gained to them. I will examine one of
 those: The problem of changing a preference as the underlying set of
 options changes.
-
-### Ontology Identification, Ontological Shifts and Ontological Crises
 
 The term "ontological crisis" was introduced in de Blanc
 and intuitively refers to a scenario in which an agent has
@@ -2086,7 +2090,7 @@ ontology of the goals does not.
 ontological shift, and the behavior of an agent after an ontological
 crisis could be undefined.
 
-##### Existing Approaches
+### Existing Approaches
 
 De Blanc approaches the problem of ontological crises
 formally in the context of what they call "finite
@@ -2224,7 +2228,7 @@ be mapped to each other.
 Given `$\phi$` and `$\psi$`, it is possible to infer `$\mathbf{R}_2$`
 using `$\phi$`: It is `$\mathbf{R}_2=\mathbf{R}_1^{\top} \phi$`.
 
-###### Advantages
+#### Advantages
 
 There are some advantages to taking this approach for resolving
 ontological crises. One is that it does not presuppose a known mapping
@@ -2283,7 +2287,7 @@ initial states.
 any `$a \in A$`, `$k \in \mathbb{N}$`, it holds that
 `$r_2(a, k, \mathbf{i}_2)=f(r_1(a, k, \mathbf{i}_1))$`.
 
-###### Disadvantages
+#### Disadvantages
 
 The approach de Blanc outlines has some limitations. As they remark,
 their setting of what they call "finite state models" is a fairly
@@ -2315,12 +2319,14 @@ s)=R(t_2)$`. However, intuitively there should way a way to differently
 value these two trajectories: It should be possible to value be in `$s'$`
 earlier rather than later.
 
-##### Using Inconsistent Preferences to Represent Ontological Crises
+### Using Inconsistent Preferences to Represent Ontological Crises
 
 The framework of representing preferences as edge-weighted directed
 graphs on a set `$\Omega$` of vertices, and consistent preferences as the
 set of edge-weighted acyclic tournaments on a set of deterministic
 options `$\Omega$`, can be used to represent ontological shifts.
+
+#### Graph Sevolutions
 
 **Definition 17**. Given a consistent edge-weighted graph
 `$G=(\Omega, E_G, w)$`, a **graph-based ontological shift** is a function
@@ -2419,7 +2425,7 @@ externally, e.g. by using `HodgeRank` or dropping the weights and using
 graph. `$G$` is a tuple `$(Ω, E, w)$`, and `$s$` is of type
 `$Ω\rightarrow \mathcal{P}(\Xi \times [0, 1])$`.*
 
-###### Advantages
+#### Advantages
 
 An advantage of `ResolveShift` over BisimulateShift is the set of
 preferences that can be represented by `$G$` and `$G'$`. If `$\Omega$` is the
@@ -2435,7 +2441,7 @@ runtime complexity of `$\mathcal{O}(|E| \cdot m^2)$`, which is a subset of
 the functions in `$\mathcal{O}(n^2 \cdot m^2)$` (with `$n=|\Omega|$`, and
 `$m=|\Xi|$`), unlike BisimulateShift, which offers no such guarantees.
 
-###### Disadvantages
+#### Disadvantages
 
 If the dynamics (e.g. the transition function) of the elements of
 `$\Xi$` are known, then BisimulateShift is able to use this information

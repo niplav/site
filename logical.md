@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-04-22, modified: 2025-01-20, language: english, status: in progress, importance: 5, confidence: likely*
+*author: niplav, created: 2024-04-22, modified: 2025-01-28, language: english, status: in progress, importance: 5, confidence: likely*
 
 > __In which to compare how similarly programs compute their outputs,
 [naïvely](#A_Nave_Formula) and [less naïvely](#A_Less_Nave_Formula).__
@@ -83,12 +83,13 @@ the name `$o$`, the output.
 
 ### Possible Desiderata
 
-1. If possible, we would want our formula for logical correlation to be a [metric](https://en.wikipedia.org/wiki/Metric_space) or a [pseudometric](https://en.wikipedia.org/wiki/Pseudometric_space) on the space of programs:
+1. The type signature should be `$合: P \rightarrow ℝ$` where `$P$` is the set of all possible programs for some turing machine `$\mathcal{TM}$`. `$合$` may potentially only map into a real [interval](https://en.wikipedia.org/wiki/Interval_\(mathematics\)), but I want it to be a spectrum, which rules out many other notions of program similarity from computer science.
+2. If possible, we would want our formula for logical correlation to be a [metric](https://en.wikipedia.org/wiki/Metric_space) or a [pseudometric](https://en.wikipedia.org/wiki/Pseudometric_space) on the space of programs:
 	1. `$合(p, p)=0$`.
 	2. [Symmetry](https://en.wikipedia.org/wiki/Symmetric_function): `$合(p_1, p_2)=合(p_2, p_1)$`.
 	3. If `$p_1 \not=p_2$`, then `$合(p_1, p_2)>0$`. This condition is dropped if we're fine with `$合$` being a pseudometric.
 	4. The [triangle inequality](https://en.wikipedia.org/wiki/Triangle_Inequality): `$合(p_1, p_3) \le 合(p_1, p_2)+合(p_2, p_3)$`.
-2. If `$p_1$` and `$p_2$` have very similar outputs, and `$p_3$` has a very different output, then `$合(p_1, p_2)<合(p_1, p_3)$` (and `$合(p_1, p_2)<合(p_2, p_3)$`).
+3. If `$p_1$` and `$p_2$` have very similar outputs, and `$p_3$` has a very different output, then `$合(p_1, p_2)<合(p_1, p_3)$` (and `$合(p_1, p_2)<合(p_2, p_3)$`).
 	1. I'm not *so sure* about this one: Let's say there's `$p$`, which outputs a binary string `$o \in \{0, 1\}$`, and `$p^{\not \sim}$`, which computes `$o$` in a completely different way, as well as `$p^{\lnot}$`, which first runs `$p$`, and then flips every bit on the tape, finally returning the negation of `$o$`. In this case, it seems that if `$p$` is a decision algorithm, it has far more "control" over the output of `$p^{\lnot}$` than over `$p^{\not \sim}$`.
 	2. For the time being, I'm going to accept this, though ideally there'd be some way of handling the tradeoff between "computed the same output in a different way" and "computed a different output in a similar way".
 
@@ -265,11 +266,10 @@ The Shapley value for a player `$j$` is then computed with the following equatio
 	$$\phi_j(v)=\sum_{S \subseteq N \backslash \{j\}} \frac{|S|!(n-|S|-1)!}{n!} (v(S \cup\{j\})-v(S)))$$
 </div>
 
-Three conceptual difficulties present themselves:
+Two conceptual difficulties present themselves:
 
 1. The Shapley value assumes there's a null-action for each player, i.e. players can choose not to do anything,
-2. It's *usually* assumed that if every player plays the null action, then the output of `$v$` is `$0$`, though this isn't required for the equation to work.
-3. At different times different programs on the same Turing machine can have accessed different parts of the tape—in the most extreme case, one program just moves one tape to the left, and stays there, while the other program runs off along tapes to the right. In those cases, we get differently sized "lists" of influence-values.
+2. At different times different programs on the same Turing machine can have accessed different parts of the tape—in the most extreme case, one program just moves one tape to the left, and stays there, while the other program runs off along tapes to the right. In those cases, we get differently sized "lists" of influence-values.
 
 1\. can be solved by setting the null action to the tapestate produced by
 the program preceding the tapestate. I imagine this as a tapestate being
@@ -278,18 +278,19 @@ which counts as participating. We'll designate the function of letting
 a program `$p$` continue running from a timestep `$k$` until halting as
 `$\bar{p}_k$`.
 
-2\. is a bit more tricky to resolve. I think the best way of fixing this
-is to say that *iff* the output of the Turing machine with no changes
-to the tape state is `$1$`, then the "real" Shapley value here is
-`$-\phi_j(v)$`—we evaluate tape state for their ability to move the
-bit in the output from `$1$` to `$0$`.
+(Note that it can very well be the case that a cell flipping its tape
+bit can have a *negative* Shapley value, e.g. if the output bit is one
+if the input bit does nothing, and zero if the input bit is flipped. This
+felt like a problem to me for a while, but now I would guess it's not an
+issue, and is just a genuine behavior of the program that can be compared
+to the other one. I continue feeling a bit confused about whether there's
+something worth fixing here.)
 
-For 3., my best solution is to be (overly?) expansive in which tape cells
-are considered as potential contributions.
-
-Let's call the "leftmost" tape cell reached by a program on a Turing
-machine during the whole execution `$f^{\leftarrow}$` and the "rightmost"
-one `$f^{\rightarrow}$` (`$f$` for "frontier").
+For 2., my best solution is to be (overly?) expansive in which tape cells
+are considered as potential contributions: Let's call the "leftmost"
+tape cell reached by a program on a Turing machine during the whole
+execution `$f^{\leftarrow}$` and the "rightmost" one `$f^{\rightarrow}$`
+(`$f$` for "frontier").
 
 Then the subrange indexed of the whole tape is a range of natural
 numbers `$[\min(f^{\leftarrow}_1, f^{\leftarrow}_2), \dots,
@@ -305,8 +306,7 @@ So, for a bit `$b$` in the output of the program `$p$`, at some timestep
 `$k$`, we get a list of Shapley values:
 
 <div>
-	$$ᖫ(p, t, k)=[\cases{\phi_j(\bar{p}_k) &if $t[k][j]=0$ \cr
-                             -\phi_j(\bar{p}_k) &if $t[k][j]=1$ } : j \in f^{\leftrightarrow}]$$
+	$$ᖫ(p, t, k)=[\phi_j(\bar{p}_k): j \in f^{\leftrightarrow}]$$
 </div>
 
 We'll call `$ᖫ(p, t, k)$` the __Shapley value profile__ of a program
@@ -351,42 +351,71 @@ and two programs where `$p_1$` is best modeled as being pairwise
 flips of neighboring cells of `$p_2$` are, intuitively, quite
 dissimilar.
 
-My initial idea was to penalize permutations for
+My current best idea is to penalize permutations for
 complexity, e.g. by preferring permutations that can be
 constructed from few pairwise swappings (one [generating
 set](https://en.wikipedia.org/wiki/Generating_set_of_a_group) of the
 [symmetric group](https://en.wikipedia.org/wiki/Symmetric_group)).
 But that would strongly penalize "natural" very similar programs, such as
-`$p, p^{-}$`. If anyone here has good ideas, hit me up.
+`$p, p^{-}$`. If anyone here has good alternative ideas, hit me up.
 
 ### Final Equation
 
-<!--TODO: add difference in output bits?-->
-
 Phew! That was a lot. Putting it all together, in a similar framework
-as with the naïve formula, yields:
+as with the naïve formula, yields[^6]:
 
 <div>
-	$$挧(p_1, p_2, b_1, b_2, γ)=\mathbf{1}(b_1 \neq b_2)+0.5-\underset{\sigma \in \text{Sym}(f^{\leftrightarrow})}{\text{min }} \frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k d(\sigma(ᖫ(p_1, t_1, k)), ᖫ(p_2, t_2, k))}$$
+	$$挧(p_1, p_2, b_1, b_2)=1+\color{red}{\mathbf{1}(b_1 \neq b_2)}-\color{blue}{\underset{\sigma \in \text{Sym}(f^{\leftrightarrow})}{\text{max }}} \exp(\color{orange}{-\sum_{k=1}^{\min(l_1, l_2)}} \color{grey}{d(}\color{blue}{\sigma(}\color{purple}{ᖫ(p_1, t_1, k)}\color{blue}{)}, \color{purple}{ᖫ(p_2, t_2, k)}\color{grey}{)}$$
 </div>
 
 with
 
 <div>
-	$$ᖫ(p, t, k)=[\cases{-\phi_j(\bar{p}_k) &if $t[k][j]=0$; \cr
-                             \phi_j(\bar{p}_k) &if $t[k][j]=1$ } : j \in f^{\leftrightarrow}]$$
+	$$ᖫ(p, t, k)=[\phi_j(\bar{p}_k): j \in f^{\leftrightarrow}]$$
 </div>
+
+<span style="color:red">If the two output bits are different, "start" with
+the logical correlation being 1</span>. <span style="color:orange">Go
+through the tape states backwards in terms of the two programs
+being run, back to the first "shared" program state</span>. <span
+style="color:purple">For each tape state, compute the Shapley value
+profile</span>. <span style="color:blue">Permute one Shapley value
+profile that it "best" matches up with the other one</span>. <span
+style="color:grey">Compute the difference of the Shapley value
+profiles</span>, and <span style="color:orange">sum them up</span>.
+
+The *bigger the summed diffence*, the smaller the exponent of the
+negative of that distance. The largest possible value of `$挧$` is
+`$2-ε$`, the smallest possible value is 0—in cases where `$b_1=b_2$`
+and the sum of differences is zero.
+
+<!--Port this innovation to the original formula? I feel that now it's
+kinda ugly up there-->
 
 #### Remaining Problem: Time-Permuted Tapes
 
-I see one clear indicator that this hasn't been ironed out yet.
+I see one clear indicator that this hasn't been ironed out yet: If
+`$p_1$` computes an output by first computing the "left half" and then the
+"right half" (in terms of location on the tape relative to the starting
+position), and `$p_2$` computes first the "right half" and then the
+"left half", but compute both halves in very similar ways, then they
+should be very logically correlated, but the less naïve formula will
+tell you that they're quite different. (Which is just a version of the
+tape permutation, but over runtime.)
+
+I don't know how to account for time permutation without even more
+ugly hacks.
 
 Other Ideas
 ------------
 
-* Checking [bisimilarity](https://en.wikipedia.org/wiki/Bisimulation)
-* [Mutual information](https://en.wikipedia.org/wiki/Mutual_information) of the programs
-* Translating each program into a [causal graph](https://en.wikipedia.org/wiki/Causal_graph) and comparing the graphs
+The formulae I cobbled together are pretty specialized to Turing machines,
+and lack desired features. Some possible alternatives, which I'm not fond of
+for various reasons:
+
+1. __Checking [bisimilarity](https://en.wikipedia.org/wiki/Bisimulation)__: Bisimilarity is a binary category: two programs either *are* bisimilar or they *aren't*. Logical correlation needs to be a [spectrum](https://tsvibt.blogspot.com/2023/02/communicating-with-binaries-and-spectra.html) so that one can tell which programs have higher & lower logical correlation with each other. At best, bisimilarity increases the space of programs that are surely highly logically correlated with another.
+2. __[Mutual information](https://en.wikipedia.org/wiki/Mutual_information) of the programs__: If we allow the tapes to be initialized before running the programs, we can vary the initialized tape states and get two distributions of tape histories. From those two distributions one can calculate the mutual information. This solution has *a lot* going for it: It's simple to describe and mathematically beautiful, as well being safe to maximize<!--TODO: find & cite wentworth on this!-->. The two downsides I can think of for it are that (1) it's computationally costly to calculate, requiring a large number of samples of initializations of `$t[f^{\leftrightarrow}]$`, and that (2) it requires freely variable input parameters, but my æsthetic wants a method to compare two programs as static, unvariable objects. Still, if it turns out that mutual information of tape histories is the true name<!--TODO: find wentworth post--> of logical correlation, I won't be surprised.
+3. __Translate each program into a [causal graph](https://en.wikipedia.org/wiki/Causal_graph) and compare the graphs__: I think that one can translate arbitrary programs into causal graphs<!--TODO: lambda calculus post by Crowley-->, and graphs can be compared (e.g. through [graph edit distance](https://en.wikipedia.org/wiki/Graph_edit_distance), or by comparing the [adjacency matrices](https://en.wikipedia.org/wiki/Adjacency_Matrix) or the [Laplacian matrix](https://en.wikipedia.org/wiki/Laplacian_matrix) and comparing the matrices. I haven't thought much about this option yet.
 
 See Also
 ---------
@@ -404,3 +433,4 @@ exactly same tape states…)-->
 [^3]: Which is needed because tape states close to the output are more important than tape states early on.
 [^4]: Together with two constants to avoid division by zero or same logical correlations for programs with different outputs differences.
 [^5]: I have the suspicion that this whole thing isn't actually a problem and one can just compare permutations of the whole infinite tape, *but* I don't want to take any chances with weirdnesses around permutations of infinitely many elements, or the mean-squared error between infinitely long lists. Also it's nice to be able to actually implement the solution.
+[^6]: 挧 is a [ghost character](https://en.wikipedia.org/wiki/Ghost_character), and as such has no previously assigned meaning.
