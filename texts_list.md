@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2025-01-12, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2025-01-21, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,11 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Fallacies of distributed computing (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Fallacies_of_Distributed_Computing)
+* [van Genuchten–Gupta model (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Van_Genuchten-Gupta_model)
+* [|7 Deliberative Alignment: Reasoning Enables Safer Language Models (Melody Y. Guan/Manas Joglekar/Eric Wallace/Saachi Jain/Boaz Barak/Alec Heylar/Rachiel Dias/Andrea Vallone/Hongyu Ren/Jason Wei/Hyung Won Chung/Sam Toyer/Johannes Heidecke/Alex Beutel/Amelia Glaese, 2024)](https://assets.ctfassets.net/kftzwdyauwt9/4pNYAZteAQXWtloDdANQ7L/0aedc43a8f2d1e5c71c5e114d287593f/OpenAI_Deliberative-Alignment-Reasoning-Enables-Safer_Language-Models_122024_3.pdf)
+* [Floruit (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Floruit)
+* [Noncommutative unique factorization domain (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Noncommutative_unique_factorization_domain)
 * [The 9 Best Local/Offline LLMs You Can Try Right Now (Jayric Maning, 2024)](https://www.makeuseof.com/the-best-local-offline-llms-you-can-try-right-now/)
 * [Probvious (Busy Beaver Challenge, 2024)](https://wiki.bbchallenge.org/wiki/Probvious)
 * [Antihydra (Busy Beaver Challenge, 2024)](https://wiki.bbchallenge.org/wiki/Antihydra)
@@ -30,8 +35,8 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [The Musical, Magical Number Theorist (Erica Klarreich, 2014)](https://www.quantamagazine.org/number-theorist-manjul-bhargava-is-awarded-fields-medal-20140812/)
 * [When will the World Health Organization report no detected polio cases (wild poliovirus) for an entire calendar year, for the first time? (skmmcj, 2024)](https://www.metaculus.com/questions/25067/first-year-with-no-wild-polio-cases/)
 * [When will the WHO certify the worldwide eradication of Polio? (AABoyles, 2019)](https://www.metaculus.com/questions/3353/date-of-worldwide-polio-eradication/)
-* \* Neural Engineering (Chris Eliasmith/Charles H. Anderson, 2002)
-* |8 Campbell Biology (Jane B. Reece/Lisa A. Urry/Michael L. Cain/Steven A. Wasserman/Peter V. Minorsky/Robert B. Jackson, 2011)
+* |34 Neural Engineering (Chris Eliasmith/Charles H. Anderson, 2002)
+* |40 Campbell Biology (Jane B. Reece/Lisa A. Urry/Michael L. Cain/Steven A. Wasserman/Peter V. Minorsky/Robert B. Jackson, 2011)
 * [The “function” of government (Eli Tyre, 2024)](https://musingsandroughdrafts.com/2024/12/29/the-function-of-government/)
 * [Proof of Collusion: How Perfect Trust Enables Perfect Betrayal (Alexander Gietelink Oldenziehl, 2024)](https://www.lesswrong.com/posts/tDkYdyJSqe3DddtK4/alexander-gietelink-oldenziel-s-shortform?commentId=ff5WyvF4AKHs3peXA)
 * [Weave Agent DevLog #3 - How To Bootstrap Agency (John David Pressman, 2024)](https://minihf.com/posts/2024-12-20-weave-agent-dev-log-3/)
@@ -317,7 +322,6 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Life in 1KD (Robin Hanson, 2022)](https://www.overcomingbias.com/p/life-in-1kdhtml)
 * [Counterarguments to the basic AI x-risk case (Katja Grace, 2022)](https://www.lesswrong.com/posts/LDRQ5Zfqwi8GjzPYG/counterarguments-to-the-basic-ai-x-risk-case)
 * [Overview of strong human intelligence amplification methods (Tsvi Benson-Tilsen, 2024)](https://tsvibt.blogspot.com/2024/10/overview-of-strong-human-intelligence.html)
-* [There are no coherence theorems (Dan H/Elliott Thornley, 2023)](https://www.lesswrong.com/posts/yCuzmCsE86BTu9PfA/there-are-no-coherence-theorems)
 * [Insanely Long Proofs (John Carlos Baez, 2012)](https://johncarlosbaez.wordpress.com/2012/10/19/insanely-long-proofs/)
 * [Rare Greek Variables (Gwern Branwen, 2021)](https://gwern.net/variable)
 * [What is entropix doing? (Tim Kellogg, 2024)](https://timkellogg.me/blog/2024/10/10/entropix)
@@ -887,7 +891,6 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Post 1 (Cian Hamilton, 2024)](https://review-of-reviews.notion.site/Post-1-83ba7989151a4dd5aba4bd4a42cfa4f5)
 * [The Resonance and Vibration of [Phenomenal] Objects (Andrés Gomez Emilsson, 2019)](https://qualiacomputing.com/2019/03/09/the-resonance-and-vibration-of-phenomenal-objects/)
 * [Extreme Paternalism (Robin Hanson, 2007)](https://www.overcomingbias.com/p/extreme_paternahtml)
-* [Quantifying Bliss: Talk Summary (Andrés Gomez Emilsson, 2017)](https://qualiacomputing.com/2017/06/18/quantifying-bliss-talk-summary/)
 * [Who Are The God Experts? (Robin Hanson, 2007)](https://www.overcomingbias.com/p/who_are_the_godhtml)
 * [Mistake of the Week: Empathy=Sympathy (Scott Aaronson, 2006)](https://scottaaronson.blog/?p=59)
 * [¿Quién puede nombrar el mayor número? (Scott Aaronson, 2006)](https://scottaaronson.blog/?p=64)
@@ -1622,7 +1625,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Signs of a Sex Addict (WebMD Editorial Contributors, 2022)](https://www.webmd.com/mental-health/signs-sex-addict)
 * [Wikipedia:Five pillars (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Wikipedia:Five_pillars)
 * [In the Hunt for Dark Matter, Promises to Keep? (Jennifer Ouelette, 2013)](https://www.quantamagazine.org/dark-matter-search-converges-on-narrow-energy-range-20130718/)
-* [There are no coherence theorems (Dan Hendrycks/EJT, 2023)](https://www.lesswrong.com/posts/yCuzmCsE86BTu9PfA/there-are-no-coherence-theorems)
+* [There are no coherence theorems (Dan Hendrycks/Elliott Thornley, 2023)](https://www.lesswrong.com/posts/yCuzmCsE86BTu9PfA/there-are-no-coherence-theorems)
 * [Finite Factored Sets (Scott Garrabrant, 2021)](https://www.lesswrong.com/posts/N5Jm6Nj4HkNKySA5Z/finite-factored-sets)
 * [Society of Mind (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Society_of_Mind)
 * [How to Lumenate (UK Edition) (chanamessinger, 2022)](https://www.lesswrong.com/posts/xSfn84q3vdotALHuB/how-to-lumenate-uk-edition)

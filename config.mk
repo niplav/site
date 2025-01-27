@@ -25,6 +25,7 @@ HTML=index.html \
 	agt_solutions.html \
 	aima_solutions.html \
 	apisct_solutions.html \
+	bio_solutions.html \
 	ito_solutions.html \
 	napkin_solutions.html \
 	nst_solutions.html \
