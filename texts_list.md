@@ -17,6 +17,13 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Quasilinear utility (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Quasilinear_utility)
+* [AGI Safety and Alignment at Google DeepMind: A Summary of Recent Work (Rohin Shah/Seb Farquhar/Anca Dragan, 2024)](https://www.lesswrong.com/posts/79BPxvSsjzBkiSyTq/agi-safety-and-alignment-at-google-deepmind-a-summary-of)
+* [Social cooperation vs. competition (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/03/16/social-cooperation-vs-competition/)
+* [“Women, more than men, tend to feel stultified by long-term exclusivity” (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/03/11/women-more-than-men-tend-to-feel-stultified-by-long-term-exclusivity/)
+* [Two possible paths forward: Hedonistic partying vs children (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/03/08/two-possible-paths-forward-hedonistic-partying-vs-children/)
+* [Truesight (Cyborgism Wiki, 2024)](https://cyborgism.wiki/hypha/truesight)
+* [Doing a self-randomized study of the impacts of glycine on sleep (Science is hard) (thedissonance.net, 2025)](https://www.lesswrong.com/posts/KWh4wvwWtaMH94uft/doing-a-self-randomized-study-of-the-impacts-of-glycine-on)
 * [Fallacies of distributed computing (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Fallacies_of_Distributed_Computing)
 * [van Genuchten–Gupta model (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Van_Genuchten-Gupta_model)
 * [|7 Deliberative Alignment: Reasoning Enables Safer Language Models (Melody Y. Guan/Manas Joglekar/Eric Wallace/Saachi Jain/Boaz Barak/Alec Heylar/Rachiel Dias/Andrea Vallone/Hongyu Ren/Jason Wei/Hyung Won Chung/Sam Toyer/Johannes Heidecke/Alex Beutel/Amelia Glaese, 2024)](https://assets.ctfassets.net/kftzwdyauwt9/4pNYAZteAQXWtloDdANQ7L/0aedc43a8f2d1e5c71c5e114d287593f/OpenAI_Deliberative-Alignment-Reasoning-Enables-Safer_Language-Models_122024_3.pdf)
