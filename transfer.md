@@ -47,10 +47,11 @@ by how relevant and effective I think they are):
 
 Additionally, most of the research is on subjects which are probably
 not intrinsically motivated to apply a technique well (i.e. high school
-students, military trainees, and university students), so there is a bunch
-of selection pressure on techniques which still work with demotivated
-subjects. I expect that many techniques work much better with already
-motivated subjects, especially ones that are easy to goodhart.
+students, military trainees, and university students), so there is
+a bunch of selection pressure on techniques which still work with
+demotivated subjects. I expect that many techniques work much better
+with already motivated subjects, especially ones that are easy to
+[Goodhart](https://en.wikipedia.org/wiki/Goodharts_law).
 
 In general, the tension I was observing is that industry and the military
 are the ones who perform well/do non-fake things, but academia are the
