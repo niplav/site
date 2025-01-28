@@ -681,7 +681,7 @@ datetime,substance,amount,experiment,id,prediction
 2025-01-06T23:42:19+01:00,melatonin,0.3mg,,,
 2025-01-06T10:11:12+01:00,vitamind3,25μg,C,27,0.3
 2025-01-07T23:54:08+01:00,melatonin,0.3mg,,,
-2025-01-08T9:23:16+01:00,vitamind3,25μg,C,28,0.3
+2025-01-08T09:23:16+01:00,vitamind3,25μg,C,28,0.3
 2025-01-08T18:20:15+01:00,creatine,3g,,,
 2025-01-09T10:42:18+01:00,caffeine,200mg,,,
 2025-01-09T10:42:18+01:00,vitamind3,25μg,,,

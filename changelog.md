@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2024-11-15, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2025-01-28, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -22,6 +22,17 @@ Monthly updates are sent out [via substack](https://niplav.substack.com/),
 the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
+
+January 2025
+-------------
+
+* [Logical Correlation](./logical.html): [Explanation](./logical.html#Explanation_1) of the [less naïve formula](./logical.html#A_Less_Nave_Formula).
+
+Uploading a [transcript](./doc/misc/attractor.txt).
+
+### Links
+
+* [Probvious (Busy Beaver Challenge, 2024)](https://wiki.bbchallenge.org/wiki/Probvious)
 
 December 2024
 --------------
