@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2024-01-26, modified: 2024-10-24, language: english, status: in progress, importance: 2, confidence: certain*
+*author: niplav, created: 2024-01-26, modified: 2025-01-30, language: english, status: in progress, importance: 2, confidence: certain*
 
 > __I've decided to learn some real math, not just computer scientist
 math.__
@@ -12,6 +12,10 @@ Solutions to “An Infinitely Large Napkin”
 > Natural explations supersede proofs.
 
 *—Evan Chen, “An Infinitely Large Napkin” p. 6, 2023*
+
+I'll limit my time to 15 minutes/exercise—not because I don't like
+chewing on problems (I do!), but because I want to spend most of my
+chewing on important *or* unsolved problems.
 
 Chapter 1
 ----------
@@ -134,8 +138,101 @@ case that (1) `$\text{ord } g<|G|$` or (2) `$\text{ord } g>|G|$`.
 ### Problem 1C
 
 Let the isomorphism `$\phi$` be as follows: `$\phi(1)=\{1, 2, 3\},
-\phi(s)=\{1, 3, 2\}, \phi(r)=\{3, 1, 2\}, \phi(r^2)=\{2, 3, 1\}, \phi(rs)=\{2,
-1, 3\}, \phi(r^2s)=\{3, 2, 1\}$`.
+\phi(s)=\{1, 3, 2\}, \phi(r)=\{3, 1, 2\}, \phi(r^2)=\{2, 3, 1\},
+\phi(sr)=\{3, 2, 1\}, \phi(sr^2)=\{2, 1, 3\}$`.
 
 I could go through the pairs of elements of `$D_6$` individually, but
-that seems not smart.
+that seems not smart, since (even if I leave out the identity), there's
+`$5^2=25$` different pairs.
+
+Maybe I can just focus on the "composed" operations `$r^2, sr, sr^2$`?
+
+In that case it's enough to check the following ones:
+
+<div>
+	$$\phi(r^2)=\phi(r)\circ\phi(r) \Leftrightarrow \\
+	\{2,3,1\}=\{3,1,2\}\circ\{3,1,2\} \\
+	\phi(sr)=\phi(s)\circ\phi(r) \Leftrightarrow \\
+	\{3,2,1\}=\{1,3,2\}\circ\{3,1,2\} \\
+	\phi(sr^2)=\phi(s)\circ\phi(r^2) \\
+	\{2,1,3\}=\{1,3,2\}\circ\{2,3,1\}$$
+</div>
+
+But I'm not sure that that's actually enough.
+
+As for `$D_{24} \not \cong S_4$`: Maybe it's
+enough to prove that if two groups have two different
+[multisets](https://en.wikipedia.org/wiki/Multiset) of orders, then they
+can't be isomorphic.
+
+Proof: Say `$G_1, G_2$` have the two "order profiles" `$p_1, p_2$`
+(that is, sorted lists of the orders of all elements in the group),
+that necessarily differ in at least one element `$x_1, x_2$` so that
+`$\text{ord } x_1=k≠\text{ord } x_2$`.
+
+Then `$G_1 \not \cong G_2$`, since such a `$\phi$` would need
+to fulfill `$\phi(x_1^{k-1} \circ x_1)=1$`, but we know that
+`$\phi(x_1^{k-1})\circ\phi(x_1)\not=1$`.
+
+Now, what are the orders of the elements of `$D_{24}$`, `$S_4$`?
+
+Well, my timer has run out, so I'll go to the next exercise.
+
+### Problem 1D
+
+Let's be *not boring* and try to write a constructive proof. For that,
+given a group of order `$p$`, which is prime, one can construct an
+isomorphism `$\phi$` so that `$G \cong ℤ/pℤ$`.
+
+By __Fact 1.4.7__ and Lagrange's theorem, we know that every element
+needs to have order `$p$`.
+
+Of course we fix that `$\phi(1_G)=0$`. Let's fix an element `$g_1$`
+and its inverse `$g_1^{-1}$`. We now fix that `$\phi(g_1)=1,
+\phi(g_1^{-1})=p-1$`. Similarly, we fix `$\phi(g_1^2)=2$`, and
+`$\phi((g_1^2)^{-1})=p-2$`, and so on. (My timer runs out)
+
+### Problem 1E
+
+(Switching to parentheses for the symmetric group.)
+
+<div>
+	$$\phi(1)=(1,2,3,4)\\
+	\phi(s)=(2,1,4,3)\\
+	\phi(r)=(4,1,2,3)\\
+	\phi(r^2)=(3,4,1,2)\\
+	\phi(r^3)=(2,3,4,1)\\
+	\phi(sr)=(1,4,3,2)\\
+	\phi(sr^2)=(4,3,1,2)\\
+	\phi(sr^3)=(3,2,1,4)$$
+</div>
+
+Constructed by labeling the corners of a square and then visually rotating
+it + flipping the values in my mind. It's not stupid if it works :-)
+
+### Problem 1F
+
+#### (a)
+
+Hm. Can I be extremely wasteful, and set `$n=|G|$`, and then
+do something with that? Like indicating which element is being
+"addressed" by swapping that element with the first element? But then
+composition doesn't really work. (God I'm writing like a [chain of
+thought](https://blog.research.google/2022/05/language-models-perform-reasoning-via.html).)
+
+Unit gets mapped to unit, of course.
+
+Maybe a proof by contradiction? Darn timer's up.
+
+#### (b)
+
+Given (a), this is easy: For any permutation, one can construct a matrix
+by permuting the rows (or columns, same difference) of the identity
+matrix that encodes that permutation. Any of those row-permuted identity
+matrices are still in `$\text{GL}_n(ℝ)$`. So, given Cayley's theorem and
+`$G$`, we find the subgroup of `$S \le S_n$` that `$G$` is isomorphic to,
+and then for each element of `$S$` we can construct the isomorphism to
+some subgroup of `$\text{GL}_n(ℝ)$` by permuting the rows of `$I_n$`
+according to the permutation in `$S$`.
+
+### Problem 1G
