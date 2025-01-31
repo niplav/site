@@ -9,6 +9,8 @@
 Logical Correlation
 ====================
 
+<!--https://claude.ai/chat/8150b93b-59d9-4068-9ecb-38a37e2d21e8-->
+
 Attention conservation notice: Premature formalization,
 [ab-](https://en.wiktionary.org/wiki/ab-)[hoc mathematical
 definition](https://www.lesswrong.com/posts/GhFoAxG49RXFzze5Y/what-s-so-bad-about-ad-hoc-mathematical-definitions).

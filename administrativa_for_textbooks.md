@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-01-28, modified: 2023-01-19, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2021-01-28, modified: 2025-01-30, language: english, status: in progress, importance: 1, confidence: likely*
 
 > __I sometimes read textbooks (broadly defined as "a book with
 exercises"), and create some stuff while reading them (e.g. making
@@ -19,10 +19,10 @@ mental model of how it works.
 “An Infinitely Large Napkin”
 -----------------------------
 
-* Flashcards
-* Solutions
+* [Flashcards](./flash/napkin.apkg)
+* [Solutions to Exercises](./napkin_solutions.md)
 * Read
-	* p. 1-48
+	* p. 1-54
 
 “Maths for Intelligent Systems”
 --------------------------------

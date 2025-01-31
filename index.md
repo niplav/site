@@ -183,9 +183,9 @@ one moment or forget it!
 * [Solutions to “Programming in Lua”](./pil_solutions.html)
 * [Solutions to “Reactive Systems”](./rs_solutions.html)
 * [Solutions to “Introduction to Optimization”](./ito_solutions.html)
+* [Solutions to “An Infinitely Large Napkin”](./napkin_solutions.html)
 * [Solutions to “Population Genetics”](./pg_solutions.html)
 * [Solutions to “Maths for Intelligent Systems”](./mfis_solutions.html)
-* [Solutions to “An Infinitely Large Napkin”](./napkin_solutions.html)
 * [Exercises from “The Jazz Piano Book”](./tjpb_exercises.html)
 * [Administrativa for Textbooks](./administrativa_for_textbooks.html)
 

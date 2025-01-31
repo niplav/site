@@ -2515,6 +2515,8 @@ preference, while resolving retains a slight preference of `$e$` over
 graphs that is **distributive over ontological shifts** in this
 framework.
 
+## Value Learning
+
 ## Conclusion
 
 In this investigation, we have identified the problem of resolving
