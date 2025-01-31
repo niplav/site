@@ -135,62 +135,6 @@ async def prepare_substances_data():
 
     return substance_series
 
-async def load_light_data():
-    # Read light data
-    light_df = pd.read_csv('../../data/light.csv')
-
-    # Convert timestamps to datetime
-    light_df['start'] = pd.to_datetime(light_df['start'], format='ISO8601', utc=True)
-    light_df['stop'] = pd.to_datetime(light_df['stop'], format='ISO8601', utc=True)
-
-    # Create time series with 2h frequency from min to max date
-    time_index = pd.date_range(start=light_df['start'].min(),
-                              end=light_df['stop'].max(),
-                              freq='2h')
-
-    # Initialize series for light exposure
-    light_exposure = pd.Series(index=time_index, dtype=float)
-
-    # Calculate average lumens for each 2h period
-    for t in time_index:
-        period_start = t
-        period_end = t + pd.Timedelta(hours=2)
-
-        # Find light sessions that overlap with this period
-        relevant_sessions = light_df[
-            ((light_df['start'] <= period_end) & (light_df['stop'] >= period_start))
-        ]
-
-        if len(relevant_sessions) > 0:
-            # For each overlapping session, calculate the overlap duration and weighted lumens
-            total_lumens = 0
-            total_minutes = 0
-
-            for _, session in relevant_sessions.iterrows():
-                overlap_start = max(period_start, session['start'])
-                overlap_end = min(period_end, session['stop'])
-                overlap_minutes = (overlap_end - overlap_start).total_seconds() / 60
-
-                total_lumens += session['lumens'] * overlap_minutes
-                total_minutes += overlap_minutes
-
-            # Calculate average lumens for this period
-            if total_minutes > 0:
-                light_exposure[t] = total_lumens / total_minutes
-            else:
-                light_exposure[t] = 0
-        else:
-            light_exposure[t] = 0
-
-    # Add some derived metrics
-    light_binary = (light_exposure > 0).astype(int)
-
-    return pd.DataFrame({
-        'light_lumens': light_exposure,
-        'light_binary': light_binary,
-        'light_log': light_log
-    }, index=time_index)
-
 async def prepare_tigramite_data():
     # Load all data
     daily_med = await load_meditation_data()
@@ -304,6 +248,6 @@ async def run_causal_analysis():
     return results, dataframe
 
 # Execute analysis
-#if __name__ == "__main__":
-#    import asyncio
-#    results, dataframe = asyncio.run(run_causal_analysis())
+if __name__ == "__main__":
+    import asyncio
+    results, dataframe = asyncio.run(run_causal_analysis())
