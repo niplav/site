@@ -4,7 +4,7 @@
 
 > __This is the website of niplav. It contains texts on different topics,
 including (but not limited to) forecasting, futurism, practical things
-and philosophy, as well as translations and transcriptions of different
+and philosophy; as well as translations and transcriptions of different
 texts, chronological archives of blogs and programming projects.__
 
 > __More information about the website and its author can be
@@ -47,6 +47,8 @@ Writing
 * [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 * [Resolving von Neumann-Morgenstern Inconsistent Preferences](./resolving.html)
 	* Summary: [تهافت أنظمة الذكاء الاصطناعي](./tahafut.html)
+* [Avoiding Wireheading via Convergent Interventional Avoidanceⁿ](./wireheading.html)
+* [Too Good to be True: Training an RL Agent to be Suspicious](./suspicious.html)
 
 ##### Strategy
 
@@ -202,6 +204,7 @@ one moment or forget it!
 * [Solutions to “From Zero to Geo”](./ztg_solutions.html)
 * [Solutions to “ML For The Working Programmer”](./mlwp_solutions.md)
 * [Solutions to “Algorithmic Game Theory”](./agt_solutions.html)
+* [Solutions to “Campbell Biology”](./bio_solutions.html)
 * [Exercises from “The Jazz Piano Book”](./tjpb_exercises.html)
 * [Administrativa for Textbooks](./administrativa_for_textbooks.html)
 

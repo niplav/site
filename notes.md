@@ -1769,7 +1769,8 @@ maintained.
 * Research [n-back](https://gwern.net/dnb-faq) and start doing it regularly.
 * Learn to do [lucid dreaming](http://www.lucidity.com/LucidDreamingFAQ2.html). Besides being awesome in and of itself, this can help you practise things or experience weird stuff.
 * Learn [symbolic shorthand](http://en.wikipedia.org/wiki/Stenography). I recommend [Gregg](http://gregg.angelfishy.net/). I did this in my second year of high school, and it's damn useful for actually writing stuff and taking notes as well as as a conversation starter.
-* Look at the structure of conlangs like [Esperanto](http://en.wikipedia.org/wiki/Esperanto) and [Lojban](http://en.wikipedia.org/wiki/Lojban) and [Ilaksh](http://en.wikipedia.org/wiki/Ithkuil). I feel like this is mind-expanding, like I have a better sense of how language and communication and thought works after being exposed to this.
+* Look at the structure of conlangs like [Esperanto](http://en.wikipedia.org/wiki/Esperanto) and [Lojban](http://en.wikipedia.org/wiki/Lojban) and [Ithkuil](http://en.wikipedia.org/wiki/Ithkuil). I feel like this is mind-expanding, like I have a better sense of how language and communication and thought works after being exposed to this.
+	* Similarly, you can try to learn (parts of) a sign language, which could come in handy in situations when you can't speak.
 * Learn to stay absolutely still for extended periods of time; convince onlookers that you are dead. Being in school means you have ample opportunity for practice.
 * Learn to teach yourself stuff. Almost everything you can learn at high school or university can be taught better by a good textbook than by a good teacher (IMO, of course). You can get any good textbook on the internet.
 * Live out of your car for a while, or go [homeless by choice](http://www.xamuel.com/homeless-by-choice/).
@@ -1800,17 +1801,19 @@ maintained.
 * Learn wilderness survival. Plently of books on the net about this.
 * Learn first aid. This is one of those things that's best not self-taught from a textbook.
 * Learn more computer stuff. Learn to program, then learn more programming languages and how to use e.g. the Linux coreutils. Use [dwm](http://en.wikipedia.org/wiki/Dwm). [Learn to hack](http://www.hellboundhackers.org/). Learn some [weird programming languages](http://www.esolangs.org/wiki/Main_Page). If you're actually using programming in your job, though, make sure you're scarily awesome at at least one language.
-* Learn basic physical feats like handstands, somersaults, etc..
+* Learn basic physical feats like handstands, somersaults, etc., as well as how to throw things accurately.
 * [Polyphasic sleep](http://en.wikipedia.org/wiki/Polyphasic_sleep)?
 * Use all the dead time you have lying around. Constantly do mental math in your head, or flex all your muscles all the time, or whatever. All that limits you is your own weakness of will.
-* Learn different kinds of meditation really well (loving-kindness, concentration, insight). This can also be practiced at any time.
+* Learn different kinds of meditation really well (loving-kindness, concentration, insight, potentially exotic states like the jhanas). This can also be practiced at any time.
 * Learn some poems with fluidity (this can of course be done with spaced repetition). If you learn for long enough, maybe you can learn parts of an epic. If you want to be really impressive, learn it in the [original language](https://www.youtube.com/watch?v=VzJQ0TcBmqU) (however, try to get the pronounciation right!).
 * Make predictions until you know you're well calibrated.
 * Try to be mindful of your posture – how straight is your back, where are your shoulders? Maybe [set up a random timer that reminds you to do this](https://play.google.com/store/apps/details?id=com.multiordinal.nom&hl=en_US&gl=US).
-* Learn the basics of dressing well, then refactor your wardrobe (starting point [for men](https://old.reddit.com/r/malefashionadvice/wiki/index), practical information for women seems to need no resource).
-* Learn the basics of investing, and actually put some money into it.
-* Learn to recognize temperature/time duration/length.
+* Learn the basics of dressing well, then refactor your wardrobe (starting point [for men](https://old.reddit.com/r/malefashionadvice/wiki/index), practical information for women seems abundant).
+* Learn the basics of investing, and actually put some money into it. Try (and most likely fail) to actively trade stocks with a profit over the market.
+* Create a startup if you can afford to do so, you will likely fail but learn a lot.
+* Learn to recognize temperature/time duration/length/acceleration, just by feel/eyesight. Similarly, learn to predict the weather where you live.
 * Play [GeoGuessr](https://en.wikipedia.org/wiki/GeoGuessr) until you are pretty good at locating yourself anywhere in the world. People can learn this to a surprising degree.<!--TODO: link Rainbolt or similar video, complain about meta-->
+* Whistling can be useful to draw attention to yourself, if need be.
 
 Too Good to be True: Training an RL Agent to be Suspicious
 -----------------------------------------------------------
