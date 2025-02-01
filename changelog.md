@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2025-01-28, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2025-02-01, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -28,10 +28,12 @@ January 2025
 
 * [Logical Correlation](./logical.html): [Explanation](./logical.html#Explanation_1) of the [less naïve formula](./logical.html#A_Less_Nave_Formula).
 
-Uploading a [transcript](./doc/misc/attractor.txt).
+Uploaded a [transcript](./doc/misc/attractor.txt) of my favorite
+talk<!--TODO: link-->, might clean up & annotate later.
 
 ### Links
 
+* [Quasilinear utility (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Quasilinear_utility): A constraint you can put on your utility function is that it should be linear in *something else than probability*. This something in economics is called the [numéraire](https://en.wikipedia.org/wiki/Numéraire), and if your utility function has that property it's called quasilinear. When people object to the concept of utility functions (or misunderstand it), they are probably objecting to/confusing it with quasilinear utility functions.
 * [Probvious (Busy Beaver Challenge, 2024)](https://wiki.bbchallenge.org/wiki/Probvious)
 
 December 2024

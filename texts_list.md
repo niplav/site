@@ -17,6 +17,16 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* ["You can't calculate the expected utility of a communist revolution" (Michael Dickens, 2024)](https://mdickens.me/2024/12/06/expected_utility_of_communist_revolution/)
+* [Towards a more accurate definition of death (Andrew McKenzie, 2022)](https://brainpreservation.github.io/Defining_Death.html)
+* [A Tenacious Explorer of Abstract Surfaces (Erica Klarreich, 2014)](https://www.quantamagazine.org/maryam-mirzakhani-is-first-woman-fields-medalist-20140812/)
+* [A Brazilian Wunderkind Who Calms Chaos (Thomas Lin/Erica Klarreich, 2014)](https://www.quantamagazine.org/artur-avila-is-first-brazilian-mathematician-to-win-fields-medal-20140812/)
+* [Noisy market hypothesis (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Noisy_market_hypothesis)
+* [Grossman-Stiglitz Paradox (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Grossman-Stiglitz_Paradox)
+* [Measuring the impact of post-training enhancements (METR, 2023)](https://metr.github.io/autonomy-evals-guide/elicitation-gap/)
+* [LLMs are strangely-shaped tools (near, 2024)](https://near.blog/llms-are-strangely-shaped-tools/)
+* [The Rogue Replication Threat Model (Josh Clymer/Hjalmar Wijk/Beth Barnes, 2024)](https://metr.org/blog/2024-11-12-rogue-replication-threat-model/)
+* [Ethnolichenology (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Ethnolichenology)
 * [Quasilinear utility (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Quasilinear_utility)
 * [AGI Safety and Alignment at Google DeepMind: A Summary of Recent Work (Rohin Shah/Seb Farquhar/Anca Dragan, 2024)](https://www.lesswrong.com/posts/79BPxvSsjzBkiSyTq/agi-safety-and-alignment-at-google-deepmind-a-summary-of)
 * [Social cooperation vs. competition (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/03/16/social-cooperation-vs-competition/)

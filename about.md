@@ -25,8 +25,6 @@ time that argument happens anywhere.
 The Site
 --------
 
-### Content
-
 This website contains texts on different topics, ranging from
 programming over philosophy to discussions of odd social
 behavior, as well as translations, transcriptions, music
@@ -35,7 +33,8 @@ Content](https://www.gwern.net/About#long-content): pages that are
 continually getting refined and updated, never quite completely finished,
 but approaching stability. This allows for "perpetual drafts", along
 with continuous improvement (similar to a wiki, but mainly edited by
-one person)
+one person).
+
 This is inspired by the idea of Long Content, produced under the motto
 
 > Think [Less Wrong](https://www.lesswrong.com), act [Long Now](https://en.wikipedia.org/wiki/Long_Now_Foundation) and [Suck Less](https://suckless.org).
@@ -92,7 +91,10 @@ text about the idea I was thinking about. Then the time spent researching
 whether the idea exists already should stop take at most `$\frac{t}{2}$`.
 
 There are, of course, some texts that were written about existing and
-well-known ideas. These were written mainly for my own enjoyment.
+well-known ideas. These were written mainly for my own enjoyment, and
+because of that I don't use LLM-generated text unless explicitely &
+clearly designated as such. (This holds *mostly* for code as well, but
+my requirements for transparency there aren't going to be as stringent.)
 
 ##### Not Really a Blog
 
@@ -465,7 +467,7 @@ but rather cycles).
 
 ### Friends of the Site
 
-* [Aaron Mazel-Gee](https://etale.site/); another .site URL owner, and all around cool-seeming math guy
+* [Aaron Mazel-Gee](https://etale.site/); another .site URL owner, and all around cool math guy
 * [Andrew McKenzie](http://andrewtmckenzie.com/), who writes [essays on brain preservation](https://brainpreservation.github.io/) and [notes on neurobiology](https://neurobiology.substack.com/)
 * [Ethan](https://210ethan.github.io): Pure Everests, with careful diligence
 * [exdiegesis](https://x.com/exdiegesis/)/[mir](https://www.lesswrong.com/users/mir)/[rime](https://forum.effectivealtruism.org/users/elua)
