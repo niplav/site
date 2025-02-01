@@ -34,6 +34,9 @@ talk<!--TODO: link-->, might clean up & annotate later.
 ### Links
 
 * [Quasilinear utility (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Quasilinear_utility): A constraint you can put on your utility function is that it should be linear in *something else than probability*. This something in economics is called the [numéraire](https://en.wikipedia.org/wiki/Numéraire), and if your utility function has that property it's called quasilinear. When people object to the concept of utility functions (or misunderstand it), they are probably objecting to/confusing it with quasilinear utility functions.
+* ["You can't calculate the expected utility of a communist revolution" (Michael Dickens, 2024)](https://mdickens.me/2024/12/06/expected_utility_of_communist_revolution/)
+* [Measuring the impact of post-training enhancements (METR, 2023)](https://metr.github.io/autonomy-evals-guide/elicitation-gap/)
+* [Ethnolichenology (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Ethnolichenology)
 * [Probvious (Busy Beaver Challenge, 2024)](https://wiki.bbchallenge.org/wiki/Probvious)
 
 December 2024
