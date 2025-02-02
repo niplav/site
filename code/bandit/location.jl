@@ -3,7 +3,7 @@ using CSV, Distributions, DataFrames
 data = CSV.File("../../data/daygame_approaches.csv") |> DataFrame
 
 locations = data.Location
-contacts = ismissing.(data."Contact info")
+contacts = ismissing.(data."Contact")
 
 dg_locations = unique(locations)
 
@@ -15,8 +15,8 @@ success_prob = zeros(Int, length(dg_locations))
 bandit=DataFrame([dg_locations, successes, failures, success_prob], [:location, :successes, :failures, :success_prob])
 
 for i in 1:length(dg_locations)
-	failures[i]=sum(ismissing.(filter(x->x[:Location]==bandit[!,1][i], data)[!,"Contact info"]))
-	successes[i]=sum(.!ismissing.(filter(x->x[:Location]==bandit[!,1][i], data)[!,"Contact info"]))
+	failures[i]=sum(ismissing.(filter(x->x[:Location]==bandit[!,1][i], data)[!,"Contact"]))
+	successes[i]=sum(.!ismissing.(filter(x->x[:Location]==bandit[!,1][i], data)[!,"Contact"]))
 end
 
 success_prob=successes ./ (successes .+ failures)
