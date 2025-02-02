@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-04-22, modified: 2025-01-28, language: english, status: in progress, importance: 5, confidence: likely*
+*author: niplav, created: 2024-04-22, modified: 2025-02-02, language: english, status: in progress, importance: 5, confidence: likely*
 
 > __In which to compare how similarly programs compute their outputs,
 [naïvely](#A_Nave_Formula) and [less naïvely](#A_Less_Nave_Formula).__
@@ -85,7 +85,7 @@ the name `$o$`, the output.
 
 ### Possible Desiderata
 
-1. The type signature should be `$合: P \rightarrow ℝ$` where `$P$` is the set of all possible programs for some turing machine `$\mathcal{TM}$`. `$合$` may potentially only map into a real [interval](https://en.wikipedia.org/wiki/Interval_\(mathematics\)), but I want it to be a spectrum, which rules out many other notions of program similarity from computer science.
+1. The type signature should be `$合: P \rightarrow ℝ$` where `$P$` is the set of all possible programs for some Turing machine. `$合$` may potentially only map into a real [interval](https://en.wikipedia.org/wiki/Interval_\(mathematics\)), but I definitely want it to be a spectrum, which rules out many other notions of program similarity from computer science.
 2. If possible, we would want our formula for logical correlation to be a [metric](https://en.wikipedia.org/wiki/Metric_space) or a [pseudometric](https://en.wikipedia.org/wiki/Pseudometric_space) on the space of programs:
 	1. `$合(p, p)=0$`.
 	2. [Symmetry](https://en.wikipedia.org/wiki/Symmetric_function): `$合(p_1, p_2)=合(p_2, p_1)$`.
@@ -108,7 +108,7 @@ metric](https://en.wikipedia.org/wiki/String_similarity_metric) `$d:
 \{0, 1\}^+ \times \{0, 1\}^+ \rightarrow ℕ$` could be
 
 <div>
-        $$合(p_1, p_2, γ)=d(o_1, o_2)+0.5-\frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k])}$$
+        $$合(p_1, p_2, γ)=d(o_1, o_2)+1-\exp(-\sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k]))$$
 </div>
 
 The lower `$合$`, the higher the logical correlation between `$p_1$`
@@ -120,7 +120,7 @@ Let's take a look at the equation again, but this time with some color
 highlighting:
 
 <div>
-        $$合(p_1, p_2, γ)=\color{red}{d(o_1, o_2)}+0.5\color{orange}{-}\frac{1}{2+\color{green}{\sum_{k=1}^{\min(l_1, l_2)}} \color{purple}{γ^k \cdot} \color{blue}{d(t_1[l_1-k], t_2[l_2-k])}}$$
+        $$合(p_1, p_2, γ)=\color{red}{d(o_1, o_2)}+1\color{orange}{-}\exp(-\color{green}{\sum_{k=1}^{\min(l_1, l_2)}} \color{purple}{γ^k \cdot} \color{blue}{d(t_1[l_1-k], t_2[l_2-k])})$$
 </div>
 
 The fundamental idea is that we first <span style="color:red">compute
@@ -367,7 +367,7 @@ Phew! That was a lot. Putting it all together, in a similar framework
 as with the naïve formula, yields[^6]:
 
 <div>
-	$$挧(p_1, p_2, b_1, b_2)=1+\color{red}{\mathbf{1}(b_1 \neq b_2)}-\color{blue}{\underset{\sigma \in \text{Sym}(f^{\leftrightarrow})}{\text{max }}} \exp(\color{orange}{-\sum_{k=1}^{\min(l_1, l_2)}} \color{grey}{d(}\color{blue}{\sigma(}\color{purple}{ᖫ(p_1, t_1, k)}\color{blue}{)}, \color{purple}{ᖫ(p_2, t_2, k)}\color{grey}{)}$$
+	$$挧(p_1, p_2, b_1, b_2)=\color{red}{\mathbf{1}(b_1 \neq b_2)}+1-\color{blue}{\underset{\sigma \in \text{Sym}(f^{\leftrightarrow})}{\text{max }}} \exp(\color{orange}{-\sum_{k=1}^{\min(l_1, l_2)}} \color{grey}{d(}\color{blue}{\sigma(}\color{purple}{ᖫ(p_1, t_1, k)}\color{blue}{)}, \color{purple}{ᖫ(p_2, t_2, k)}\color{grey}{)}$$
 </div>
 
 with
@@ -433,6 +433,6 @@ exactly same tape states…)-->
 [^1]: Actually not explained in detail anywhere, as far as I can tell.
 [^2]: Suggested by GPT-4. Stands for [joining, combining, uniting](https://en.wiktionary.org/wiki/%E5%90%88#Definitions). Also "to suit; to fit", "to have sexual intercourse", "to fight, to have a confrontation with", or "to be equivalent to, to add up".
 [^3]: Which is needed because tape states close to the output are more important than tape states early on.
-[^4]: Together with two constants to avoid division by zero or same logical correlations for programs with different outputs differences.
+[^4]: Together with adding one to avoid same logical correlations for programs with different outputs differences.
 [^5]: I have the suspicion that this whole thing isn't actually a problem and one can just compare permutations of the whole infinite tape, *but* I don't want to take any chances with weirdnesses around permutations of infinitely many elements, or the mean-squared error between infinitely long lists. Also it's nice to be able to actually implement the solution.
 [^6]: 挧 is a [ghost character](https://en.wikipedia.org/wiki/Ghost_character), and as such has no previously assigned meaning.

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-07-07, modified: 2024-07-08, language: english, status: maintenance, importance: 2, confidence: log*
+*author: niplav, created: 2022-07-07, modified: 2025-02-02, language: english, status: maintenance, importance: 2, confidence: log*
 
 > __Notes for myself on the data I track, how to transform it into a
 usable shape, data quality and other random assortments.__
@@ -186,6 +186,7 @@ Daygame
 
 <!--TODO: Clean up as per https://claude.ai/chat/f2735ad5-dfd6-4d0c-aaaa-6e1a43f96498-->
 
+<!--
 Sanitizing the sessions file by converting the datetime to
 [ISO-8601](https://en.wikipedia.org/wiki/ISO-8601) using [structural
 regular
@@ -200,6 +201,8 @@ and some other minor fixes:
 Formatting the approaches file:
 
 	,x/ ,/c/,/
+
+-->
 
 Find incorrectly written locations:
 
@@ -245,25 +248,38 @@ the sessions file can be found [here](./data/daygame_sessions.csv).
 
 Approaches file datapoints (in CSV):
 
-* Approach index number
-* Datetime
-* Location
-* Blowout
-* Contact info ∈{number,instagram,facebook,skype,snapchat etc.,other}
+* `Approach`: Monotonically incrementing [primary key](https://en.wikipedia.org/wiki/Primary_Key).
+* `Location`: Replaced with a random integer for anonymization.
+* `Attractiveness`: Floating point on the classical scale, between 1 and 10. See [TheRedQuest, 2022](https://theredquest.wordpress.com/2019/03/25/garbage-post-about-ranking-chicks/)
+* `Size`: Number of women in set, 1 if not given.
+* `Frequency`: Frequency at which the woman has been approached, estimated from the answer given to "How often does this kind of thing happen to you?"
+* `Enjoyment`: How much the woman seemed to enjoy the approach. Floating point number in `$[-10, 10]$`.
+* `Blowout`: Whether the approach was a blowout. Floating point number in `$[0, 1]$`, usually either 0 or 1 (but some brush-offs are less harsh than others).
+* `Name`: Replaced with a random integer for anonymization.
+* `Contact`: Contact information received/given. `number`, `instagram`, `facebook`, and sometimes regrettably `number given` (to the woman).
+* `Age`: Age of the woman, if I learn about it. Usually not.
+* `Datetime`: Datetime of when the approached happened.
+
+Sessions file:
+
+* `Depart`: When I start moving to the place where I daygame, datetime.
+* `Start`: When I arrive at the place I do daygame, datetime.
+* `End`: When I finish daygaming, datetime.
+* `Return`: When I return from daygaming to whatever were my plans beforehand, datetime.
+* `First`: Index of the last approach done in the last session.
+* `Last`: Index of the last approach done in *this* session.
+* `Amount`: Number of approaches, just `Last-First`.
+
+Texting file:
+
+Dating file:
+
 * Idate length (minutes)
 * Idate cost (euro)
 * Flake before 1st date (boolean)
 * Date before first sex [1..10] cost (euro)
 * Date before first sex [1..10] length (minutes)
 * Sex number of times (approximately)
-* Attractiveness (∈[1..10])
-
-Sessions file:
-
-* Datetime start
-* Datetime end
-* Approaches index number range
-* Number of approaches
 
 Fitbit Biometrics
 ------------------
