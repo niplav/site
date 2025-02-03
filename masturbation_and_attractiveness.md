@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2024-10-17, language: english, status: draft, importance: 2, confidence: likely*
+*author: niplav, created: 2019-08-03, modified: 2025-02-03, language: english, status: maintenance, importance: 2, confidence: likely*
 
 > __Members of the [NoFap community](https://en.wikipedia.org/wiki/NoFap)
 [frequently claim](#Appendix_C_Examples_for_the_Claim) that abstinence
@@ -13,8 +13,12 @@ their contact information, and 70 again after a week of daily
 masturbation. The results are analyzed using a [Mann-Whitney
 U-test](https://en.wikipedia.org/wiki/Mann-Whitney_U_test)
 and various [descriptive statistical
-methods](https://en.wikipedia.org/wiki/Descriptive_statistics); I find
-that \_.__
+methods](https://en.wikipedia.org/wiki/Descriptive_statistics); I [find
+that](#Testing_the_Hypothesis) \_.__
+
+> __Observational data from ~650 approaches [shows no clear
+relationship between abstinence and success from cold
+approach](#Appendix_D_Analysis_of_Observational_Data).__
 
 Abstinence from Masturbation and Success from Cold Approach
 ===========================================================
@@ -833,7 +837,89 @@ feeling of being a man increases.
 
 *—Anecdote by Sam Django in Nick Krauser's “Daygame Nitro”, 2014*
 
-Appendix D: Subjective Impressions of Nofap
+Appendix D: Analysis of Observational Data
+-------------------------------------------
+
+To bring around the time not spent masturbating (90 days is a lot!),
+I decide to put 2 (my [daygame data](./data.html#Daygame)) and 2 (my
+[masturbation dataset](./data.html#Masturbation)) together and determine
+if there was any useful information on nofap & attractiveness in there.
+
+One fight with my bad data layout planning later I load the data
+
+	masturbations=get_masturbations()
+	masturbations['datetime']=masturbations['datetime'].dt.tz_convert('CET')
+	masturbations=masturbations.sort_values(by='datetime')
+
+	approaches=pd.read_csv('../../data/daygame_approaches.csv')
+	approaches['Datetime']=pd.to_datetime(approaches['Datetime'], utc=True).dt.tz_convert('CET')
+
+`merge_asof` the two dataframes together,
+
+	both=pd.merge_asof(timed, masturbations, left_on='Datetime', right_on='datetime', direction='backward')
+
+compute the period of abstinence (and round it to the nearest two days),
+
+	both['Abstinence']=both['Datetime']-both['datetime']
+	both['Rounded']=both['Abstinence'].dt.round('2d')
+
+distill down the contact information to whether it was exchanged or not,
+
+	both['Contactind']=both['Contact'].notna()
+
+and compute the mean & sample-size for the two-day intervals:
+
+	result=both[['Rounded', 'Contactind']].groupby('Rounded').agg(['mean', 'size'])
+
+And the result is…
+
+![](./img/masturbation_and_attractiveness/errorbars.png)
+
+The first week sees response rates go down *slightly*, but I wouldn't
+make any strong proclamations based on that. Afterwards the data is too
+sparse for me to conclude anything, though *maybe* the rates increase
+after 30 days?
+
+The error bars are the [standard
+deviations](https://en.wikipedia.org/wiki/Standard_Deviation) of the
+[beta distribution](https://en.wikipedia.org/wiki/Beta-distribution)
+determined by the approaches with/without exchanged contact information:
+
+	def betavar(group):
+		a=group.sum()
+		b=(~group).sum()
+		return np.sqrt((a*b)/((a+b)**2*(a+b+1)))
+
+	betavars=both[['Rounded', 'Contactind']].groupby('Rounded').agg(betavar).rename(columns={'Contactind': 'std'})
+
+Or, in numbers,
+
+	>>> result
+	        Contactind            std
+	              mean size
+	Rounded
+	0 days    0.214286  112  0.038600
+	2 days    0.149425  174  0.026949
+	4 days    0.153846  104  0.035211
+	6 days    0.114286   35  0.053026
+	8 days    0.172414   29  0.068966
+	10 days   0.100000   20  0.065465
+	12 days   0.222222    9  0.131468
+	14 days   0.200000   10  0.120605
+	16 days   0.157895   19  0.081536
+	18 days   0.000000   13  0.000000
+	20 days   0.153846   13  0.096428
+	22 days   0.111111    9  0.099381
+	24 days   0.250000   12  0.120096
+	26 days   0.111111    9  0.099381
+	28 days   0.222222    9  0.131468
+	30 days   0.000000    6  0.000000
+	32 days   0.230769   13  0.112604
+	34 days   0.250000   12  0.120096
+	36 days   0.100000   20  0.065465
+	40 days   0.285714    7  0.159719
+
+Appendix E: Subjective Impressions of Nofap
 --------------------------------------------
 
 This is after 60 days of nofap, after which I broke my streak.

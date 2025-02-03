@@ -250,7 +250,7 @@ Approaches file datapoints (in CSV):
 
 * `Approach`: Monotonically incrementing [primary key](https://en.wikipedia.org/wiki/Primary_Key).
 * `Location`: Replaced with a random integer for anonymization.
-* `Attractiveness`: Floating point on the classical scale, between 1 and 10. See [TheRedQuest, 2022](https://theredquest.wordpress.com/2019/03/25/garbage-post-about-ranking-chicks/)
+* `Attractiveness`: Floating point on the classical scale, between 1 and 10. See [TheRedQuest 2022](https://theredquest.wordpress.com/2019/03/25/garbage-post-about-ranking-chicks/).
 * `Size`: Number of women in set, 1 if not given.
 * `Frequency`: Frequency at which the woman has been approached, estimated from the answer given to "How often does this kind of thing happen to you?"
 * `Enjoyment`: How much the woman seemed to enjoy the approach. Floating point number in `$[-10, 10]$`.
@@ -259,6 +259,7 @@ Approaches file datapoints (in CSV):
 * `Contact`: Contact information received/given. `number`, `instagram`, `facebook`, and sometimes regrettably `number given` (to the woman).
 * `Age`: Age of the woman, if I learn about it. Usually not.
 * `Datetime`: Datetime of when the approached happened.
+* `Estimated`: Whether the datetime of the approach was estimated from session data.
 
 Sessions file:
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-07, modified: 2024-10-15, language: english, status: notes, importance: 5, confidence: likely*
+*author: niplav, created: 2023-04-07, modified: 2024-10-15, language: english, status: notes, importance: 9, confidence: likely*
 
 > __A collection of quotes and sources of various
 methods for generating valence through brain stimulation and

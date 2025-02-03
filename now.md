@@ -20,14 +20,11 @@ part of my free time. I apologize for any inconveniences.
 Writing
 -------
 
-When I find the time, I slowly fix the [daygame
-cost-benefit analysis](./daygame_cost_benefit.md), write
-the text for the [masturbation and cold approach success
-experiment](./masturbation_and_attractiveness.md), pontificate about
-[logical correlation](./logical.html), boggle at my own code for
-an [n-dimensional diamond-square algorithm](./diamond.html),
-and slowly improve the treatise on [resolving inconsistent
-preferences](./resolving.html).
+When I find the time, I slowly fix the [daygame cost-benefit
+analysis](./daygame_cost_benefit.md), pontificate about [logical
+correlation](./logical.html), boggle at my own code for an [n-dimensional
+diamond-square algorithm](./diamond.html), and slowly improve the treatise
+on [resolving inconsistent preferences](./resolving.html).
 
 Data Collection
 ----------------
