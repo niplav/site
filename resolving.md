@@ -45,12 +45,6 @@ ch. 2](https://www.goodreads.com/book/show/15930573-game-theory),
 following the foundations laid by von Neumann
 and Morgenstern [von Neumann & Morgenstern 1947, ch.
 3](https://www.goodreads.com/book/show/483055.Theory_of_Games_and_Economic_Behavior).
-This model is quite appealing: It assigns a real-numbered value
-to each possible outcome, several theorems establish that an
-agent with a utility function can't be money-pumped [Gustaffson
-2022](https://johanegustafsson.net/books/money-pump-arguments/),
-and it is compatible with taking Pareto improvements [Wald
-1947](https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-18/issue-4/An-Essentially-Complete-Class-of-Admissible-Decision-Functions/10.1214/aoms/1177730345.full).
 
 ![](./img/resolving/dutch.jpg)
 
@@ -118,7 +112,16 @@ reasons:
 
 #### Why vNM?
 
-The von Neumann-Morgenstern axiom has been
+The vNM axioms are in many senses quite appealing: A preference
+that follows them assigns a real-numbered value to each
+possible outcome, and several theorems establish that an
+agent with a utility function can't be money-pumped [Gustaffson
+2022](https://johanegustafsson.net/books/money-pump-arguments/),
+and it is compatible with taking Pareto improvements [Wald
+1947](https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-18/issue-4/An-Essentially-Complete-Class-of-Admissible-Decision-Functions/10.1214/aoms/1177730345.full).
+
+The von Neumann-Morgenstern axiom has
+[been](https://www.lesswrong.com/posts/yCuzmCsE86BTu9PfA/there-are-no-coherence-theorems)
 [critized](https://www.lesswrong.com/posts/NxF5G6CJiof6cemTw) and
 [defended](https://www.lesswrong.com/posts/DkcdXsP56g9kXyBdq/coherence-arguments-imply-a-force-for-goal-directed-behavior)
 as being the true theory of rationality. I don't have a very strong

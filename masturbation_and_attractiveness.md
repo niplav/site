@@ -77,12 +77,12 @@ self-experiment.
 Data was collected as follows:
 
 I abstained from masturbating and watching pornography from
-2024-12-16T00:06:08+01:00 to \_, resulting in >90 days of abstinence
+2025-01-05T16:01:20+01:00 to \_, resulting in >90 days of abstinence
 from masturbation (which is also the period [recommended by the
 NoFap community](https://nofap.com/rebooting/): "NoFap’s gold
 standard of success is our 90-day reboot.").<!-- I had a [nocturnal
 emmission](https://en.wikipedia.org/wiki/Nocturnal_Emission) on
-2024-10-29T06:30:00.-->
+2025-0-T::.-->
 
 From \_ to \_, I went on the streets of a major european city
 and approached 70 people I read as women, usually via a [Yad
@@ -92,9 +92,9 @@ The women who were approached were chosen by how attractive I found them.
 I then ran a standard daygame opener on the woman, with the goal of
 asking her for her number and later taking her on a date.
 
-In the week following the last approach, I masturbated once every day
-with the aid of pornography<!--TODO: link the pornography consumed during
-that time-->.
+In the week following the last approach, I masturbated once a day with
+visual pornography<!--TODO: link the pornography consumed during that
+time-->.
 
 Afterwards, I repeated the procedure of approaching 70 women in the
 same manner from \_ to \_.
@@ -120,11 +120,12 @@ after masturbation), and how far the interaction went, on an 8-point
 Cold approach works well as a method here:
 It allows me to sample my attractiveness to women
 [i.i.d.](https://en.wikipedia.org/wiki/Independent_and_identically_distributed),
-basically arbitrarily often. The women don't *know* I am doing an
-experiment, and the stakes are real, so there's little incentive for
-them to lie about their preferences (as they might in a survey), and
-little incentive for me to change my behavior (because I like sleeping
-with beautiful women).
+basically arbitrarily often. The women don't *know*
+I am doing an experiment, and the stakes are real,
+so there's little incentive for them to [lie about their
+preferences](https://en.wikipedia.org/wiki/Social-desirability_problem)
+(as they might in a survey), and little incentive for me to change my
+behavior (because I like sleeping with beautiful women).
 
 If the effect of abstaining from masturbation is subliminal and affects
 smell or micro-expressions, approaching women on the street also beats
