@@ -136,17 +136,18 @@ output/further towards the start of the computation</span>.
 Finally, we <span style="color:orange">*subtract*</span> the inverse of
 this (discounted) sum of trace differences from the output difference[^4].
 
-The fraction can maximally be ½ (since we're
-adding a number greater than zero to two in the [lower
-number](./mathematics_notation_convention.html#Basics)). Thus, since
-we're subtracting a number ≤½ from `$d(o_1, o_2)+0.5$`, the resulting
-logical correlation must be `$d(o_1, o_2)≤合(p_1, p_2, γ)≤d(o_1,
-o_2)+0.5$`. That implies that for three programs with the same output,
-their logical correlations all lie in that range. That also means that
-if `$d(o_1, o_2)<d(o_1, o_3)$`, then it's the case that `$合(p_1, p_2,
-γ)<合(p_1, p_3, γ)$`.
+The value of the exponential function here can maximally be 1 (since
+the smallest value of the sum is zero) and will always be greater than
+zero. Thus, since we're subtracting a number ≤1 from `$d(o_1, o_2)+1$`,
+the resulting logical correlation must be `$d(o_1, o_2)≤合(p_1, p_2,
+γ)≤d(o_1, o_2)+1-ε$`. That implies that for three programs with
+the same output, their logical correlations all lie in that range. That
+also means that if `$d(o_1, o_2)<d(o_1, o_3)$`, then it's the case that
+`$合(p_1, p_2, γ)<合(p_1, p_3, γ)$`.
 
 Or, in even simpler terms; "Output similarity dominates trace similarity."
+
+<!--TODO: image of this here!-->
 
 #### Different Trace Lengths
 
