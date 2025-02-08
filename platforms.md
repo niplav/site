@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-04, modified: 2024-10-22, language: english, status: in progress, importance: 7, confidence: certain*
+*author: niplav, created: 2023-01-04, modified: 2025-02-07, language: english, status: in progress, importance: 7, confidence: certain*
 
 > __There are too many possible quantified self experiments to run. Do
 hobbyist prediction platforms[^1] make priorisation easier? I test
@@ -223,7 +223,7 @@ with.
 
 ### Pomodoros
 
-| Value tracked        | Effect size d (λ, p, σ change)    |
+| Value tracked        | Effect size d (λ, p, σ change, k) |
 | -------------------- | --------------------------------- |
 | Productivity         | 0.26 (λ≈5.41, p≈0.117, -0.04, 54) |
 | Creativity           | -0.13 (λ≈0.51, p≈0.93, 0.01, 54)  |

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-04-11, modified: 2024-10-16, language: english, status: in progress, importance: 2, confidence: log*
+*author: niplav, created: 2019-04-11, modified: 2025-02-08, language: english, status: in progress, importance: 2, confidence: log*
 
 > __I have found that I have found great use in software
 > [recommendations](https://usesthis.com/) by people who I respect,
@@ -34,7 +34,7 @@ Software
 * Videos: [mpv](https://mpv.io/)
 * Shell:
 	* Interactive: [fish](https://fishshell.com/)
-	* Scripting: [rc](https://en.wikipedia.org/wiki/Rc)
+	* Scripting: [rc](https://en.m.wikipedia.org/wiki/Rc_\(Unix_shell\))
 * Keyboard layout: [Neo 2](https://neo-layout.org/)
 
 #### Programming languages:
@@ -65,10 +65,10 @@ In rough order of proficiency.
 ### Smartphone Apps
 
 * [Mood Patterns](https://www.moodpatterns.info)
-* [Beeminder](https://play.google.com/store/apps/details?id=com.beeminder.beeminder&hl=en&gl=us)
-* Sensor Logger
-* one sec
-* Freedom
+* [Meditation Timer & Log](https://play.google.com/store/apps/details?id=com.telesoftas.meditationtimer)
+* [Sensor Logger](https://play.google.com/store/apps/details?id=com.kelvin.sensorapp)
+* [one sec](https://play.google.com/store/apps/details?id=wtf.riedel.onesec)
+* [Freedom](https://play.google.com/store/apps/details?id=to.freedom.android2)
 
 ### Criteria
 

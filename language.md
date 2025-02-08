@@ -461,6 +461,7 @@ We can test whether such words exist via gensim word2vec embeddings:
 * Thinking the {right, wrong} things × thinking in the {right, wrong} way × saying the {right, wrong} things × performing the {right, wrong} actions
 * {continuous, discountinuous} × {inductive, deductive} assumptions
 * {[Selection, Control](https://www.lesswrong.com/posts/ZDZmopKquzHYPRNxq)} × {[search, design](https://www.lesswrong.com/posts/r3NHPD3dLFNk9QE2Y/search-versus-design-1)}
+* {usually wrong, usually right}×{quick to update, slow to update}
 
 Great Words
 ------------

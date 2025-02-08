@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-02-22, modified: 2024-10-22, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2021-02-22, modified: 2025-02-05, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Inspired by others
 ([Falkovich 2019](https://www.lesswrong.com/posts/HJeD6XbMGEfcrx3mD/100-ways-to-live-better "100 Ways To Live Better"),
@@ -211,11 +211,12 @@ Existence of Long Tails for Bliss and Suffering")<!--TODO: better links for this
 34. If you really want something to get done, [use a money-as-commitment website](https://www.lesswrong.com/posts/DRrAMiekmqwDjnzS5/my-experience-using-financial-commitments-to-overcome) like [beeminder](https://www.beeminder.com/), [taskratchet](https://taskratchet.com/), [forfeit](https://www.forfeit.app/) or [intend](https://intend.do/).
 	* I've only used beeminder, sparingly, but it has worked very well every time.
 	* For me, using this kind of commitment device feels uncomfortable, which is why I limit my usage of them. I suspect there's some significant amount of coërcion of subagents in my mind involved.
-35. Own multiple chargers for your laptop.
+35. Own multiple chargers for your laptop/phone.
 36. Do a little bit of stock-picking, based on your inside view, and then observe how well the picked stocks do.
 	* In the beginning, don't do this for the returns, but for the value of information on whether you can outperform the market.
 	* If you're performing worse than the market, go back to index funds.
-37. Do the obvious things
+37. Instead of taking your phone to the gym, you can take a book and read between sets.
+38. Do the obvious things
 	* Exercise any amount
 		*	Even walking around outside for 10 minutes a
 			day is better than nothing

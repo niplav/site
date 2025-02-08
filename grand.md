@@ -618,8 +618,24 @@ Should this be `$10^{60}$` or `$1060$` Gyr?
 
 Bottom of the table for the Contents of the current universe is cut off.
 
-15.3.3
+#### 15.3.3
 
 > Switching from from a control theory and mathematical perspective […]
 
 Duplicated word.
+
+#### 15.4.8
+
+> Another approach that remains spatially bounded is to use two mirrors of
+mass `$m$` each attracted to a central mass `$M≫m$`. Radiation bounces
+betwen the mirrors (suitably avoiding the central mass and ignoring its
+effects on the light)
+
+The central mass could have a ring shape, so that there is no effect on
+the light (maybe there's scattering?) but can essentially pass right
+through. Another option would be to have a translucent object of mass
+`$M$`, though that seems harder to achieve.
+
+Additional thought: Wouldn't the intergalactic medium and/or dust
+scatter a bunch of the light? Could one clear out the path of the light
+sufficiently for this not to be a problem?

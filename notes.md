@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2024-12-29, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-02-08, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2305,6 +2305,55 @@ One thing I find interesting is that there's very little (~no?) work on
 centaur-like setups in computational complexity theory, where I'd expect
 them to show up most naturally. (I couldn't think of any and Claude didn't
 find anything convincing either). Potentially fruitful to look into.
+
+Forager Society is a Disease of the Flesh, Industrial Society is  Disease of the Soul
+--------------------------------------------------------------------------------------
+
+*epistemic status*: Low confidence, stating impressions.
+
+Being a hunter-gatherer is very unpleasant: Living with constant hunger,
+often wide-spread violence, disease, parasitism and exposure to the
+elements is well-documented. There's a reason why hunter-gatherers live
+half as long as people in industrialized societies.
+
+But living in an industrial society warps humans in very strange ways
+they don't seem to cope with very well: Ennui, boredom, procrastination,
+self-loathing etc—my impression is that hunter-gatherers are not very
+afflicted by those.
+
+Similarly industrialized societies have strong social hierarchies,
+large amounts of inequality, strict schedules, externally regulated
+sleep, very dense rural living with little opportunity for time alone
+*and* paradoxically weak social bonds, subliminal external pressure
+to conform to a small envelope of ways of moving ones body and strong
+restrictions on noises one can make (there's ~no opportunities for loud
+screaming/shouting in urban living, or moving spastically), exposure
+to highly addictive circumstances, very little grounding in tangible
+real-world success when trying to accomplish things (e.g. not being
+able to touch/smell/feel the result of a complicated project at work
+or the wages received, as opposed to having made a new bag from fur, a
+rope from flax, a knife from flint), under-/mis-development of posture
+due to too little movement and under-/mis-development of feet and thus
+balance due to restrictive shoes from a young age.
+
+My best guess is that foragers don't procrastinate in the way that
+industrialized people do, and that for a forager it's usually easy/obvious
+to do the from-their-vantage-point best thing next, based on signals
+of hunger/status-seeking/curiosity/libido.
+
+Many downsides of industrialized civilization don't exist in forager
+societies, and thus I think that industrialized humans have accepted
+the disease of the soul in order to escape the disease of the flesh.
+
+The only point where this doesn't ring true is in terms of social
+surveillance/social freedom—a forager will be embedded in their group
+for their whole life, and be tracked with high fidelity by everyone
+else, in a way that is similar to high school. Modern societies with
+their social mobility and free association are an innovation over small,
+fixed tribes.
+
+Finally, living in an agricultural society strikes me as getting the
+worst of both worlds. Not fun.
 
 [^1]: I don't know whether the intergalactic medium is charged, if so the black holes would also accumulate charge. I assume that on a medium scale the intergalactic medium is fairly evenly distributed, so I don't think they'd accumulate angular momentum.
 [^2]: Barring things like intrinsic value or comparative advantage.

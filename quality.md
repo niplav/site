@@ -1,20 +1,16 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-01-29, modified: 2024-01-29, language: english, status: draft, importance: 3, confidence: possible*
+*author: niplav, created: 2024-01-29, modified: 2025-02-08, language: english, status: draft, importance: 3, confidence: possible*
 
-> __In which I investigate whether not masturbating makes my mind clear.__
+> __In which I investigate whether not masturbating makes my meditations
+better. It doesn't, and instead plausibly makes them worse<sub>65%</sub>.__
 
 Does Recent Masturbation Decrease Meditation Quality?
 =======================================================
 
 <!--TODO: maybe replace correlations with linear regressions, which give
 p-values too.-->
-
-Maybe<sub>65%</sub>? Correlations between mindfulness and time since
-last masturbation are generally <0.2, and sometimes negative.
-But there seems to be a pretty clear trend of positive correlation with
-concentration if we only look at sessions with >20 days of abstinence.
 
 There is some received wisdom that ejaculation and masturbation
 in particular decreases meditation quality: The retreats of
@@ -23,10 +19,10 @@ in particular decreases meditation quality: The retreats of
 any sexual activity, and [Taoist sexual practices recommend semen
 retention](https://en.wikipedia.org/wiki/Taoist_sexual_practices#Male_control_of_ejaculation).
 Since I track both [my meditations](./data.html#Meditation) and
-[(a.m.a.b.) masturbations](./data.html#Masturbation), I can check whether
-this is observationally true. Of course results from observational data
-can be due to confounders, but such results are more valuable than pure
-speculation, and may point to possible experimental investigations.
+[masturbations](./data.html#Masturbation), I can check whether this is
+observationally true. Of course results from observational data can be due
+to confounders, but such results are more valuable than pure speculation,
+and may point to possible experimental investigations.
 
 First, I load both meditation data and masturbation data (using my
 loading code from [here](./code/experiments/load.py)):
@@ -67,11 +63,11 @@ quick sanity check:
 And now I can simply compute the correlation with time since last
 masturbation and concentration & mindfulness during meditation:
 
-        >>> combined[['mindfulness_rating', 'concentration_rating', 'diff']].corr(numeric_only=False)
-                              mindfulness_rating  concentration_rating      diff
-        mindfulness_rating              1.000000              0.687853  0.088458
-        concentration_rating            0.687853              1.000000 -0.049699
-        diff                            0.088458             -0.049699  1.000000
+	>>> combined[['mindfulness_rating', 'concentration_rating', 'diff']].corr(numeric_only=False)
+	                      mindfulness_rating  concentration_rating      diff
+	mindfulness_rating              1.000000              0.637637 -0.076037
+	concentration_rating            0.637637              1.000000 -0.138188
+	diff                           -0.076037             -0.138188  1.000000
 
 As one can see, the correlation between time since last masturbation
 and concentration/mindfulness are weak and contradictory, and I
@@ -84,62 +80,58 @@ is appreciable.
 
         >>> combined_long=combined.loc[combined['diff']>pd.Timedelta('4d')]
         >>> combined_long['diff'].describe()
-        count                           329
-        mean     12 days 19:50:39.986796352
-        std       8 days 20:16:12.256869649
-        min          4 days 01:15:13.941000
-        25%          6 days 09:45:24.187000
-        50%          9 days 21:45:40.422000
-        75%         14 days 12:50:55.863000
-        max         39 days 09:24:06.877000
-        Name: diff, dtype: object
+	count                           553
+	mean     14 days 08:17:46.338198915
+	std      12 days 07:26:48.886237074
+	min          4 days 00:21:05.458000
+	25%          6 days 05:14:16.529000
+	50%          9 days 08:15:24.092000
+	75%                17 days 08:22:58
+	max                62 days 06:34:16
+	Name: diff, dtype: object
         >>> combined_long[['mindfulness_rating', 'concentration_rating', 'diff']].corr(numeric_only=False)
-                              mindfulness_rating  concentration_rating      diff
-        mindfulness_rating              1.000000              0.542909  0.169900
-        concentration_rating            0.542909              1.000000 -0.040382
-        diff                            0.169900             -0.040382  1.000000
+	                      mindfulness_rating  concentration_rating      diff
+	mindfulness_rating              1.000000              0.619317 -0.196030
+	concentration_rating            0.619317              1.000000 -0.241409
+	diff                           -0.196030             -0.241409  1.000000
 
-The correlation of ≅0.17 of abstinence-time with concentration is
-still not strong enough to convince me, but perhaps points in some
-interesting direction.
+The correlation of ≈-0.19 of abstinence-time with mindfulness and
+≈-0.24 for concentration is still not strong enough to convince me,
+but perhaps points in some interesting direction.
 
-What if we look at exclude up to 30 days?
+Let's bucket the data into partitions of four days and plot the resulting
+data:
 
-        mindfulness_correlations=[]
-        concentration_correlations=[]
-        sample_sizes=[]
-        for i in range(0,30):
-                combined_long=combined.loc[combined['diff']>pd.Timedelta(str(i)+'d')]
-                sample_sizes.append(len(combined_long))
-                mindfulness_correlations.append(combined_long[['mindfulness_rating', 'concentration_rating', 'diff']].corr(numeric_only=False)['mindfulness_rating']['diff'])
-                concentration_correlations.append(combined_long[['mindfulness_rating', 'concentration_rating', 'diff']].corr(numeric_only=False)['concentration_rating']['diff'])
+	result = (combined[['rounded', 'mindfulness_rating', 'concentration_rating']]
+          .groupby('rounded')
+          .agg(['mean', 'size', 'std'])
+          .dropna())
 
+	result['mindfulness_rating', 'sem'] = (
+	    result['mindfulness_rating']['std'] /
+	    np.sqrt(result['mindfulness_rating']['size'])
+	)
+	result['concentration_rating', 'sem'] = (
+	    result['concentration_rating']['std'] /
+	    np.sqrt(result['concentration_rating']['size'])
+	)
 
-Plotting:
+Plot together with sample sizes:
 
-        import matplotlib.pyplot as plt
+!["Three line graphs: Concentration and mindfulness (with error bars), and sample sizes, with the x-axis being days since last masturbation. Concentration values decline fairly steadily for longer periods of abstinence, while mindfulness values first slightly decline, then spike at 32 days, then decline drastically and climbing up again towards 60 days. Sample sizes fall of quickly so that they're below 100 after 12 days."](./img/quality/time_series.png "Three line graphs: Concentration and mindfulness (with error bars), and sample sizes, with the x-axis being days since last masturbation. Concentration values decline fairly steadily for longer periods of abstinence, while mindfulness values first slightly decline, then spike at 32 days, then decline drastically and climbing up again towards 60 days. Sample sizes fall of quickly so that they're below 100 after 12 days.")
 
-        fig=plt.figure(figsize=(8,8))
-        _, ax1 = plt.subplots()
-        ax2=ax1.twinx()
-        ax2.set_ylabel('Sample size')
-        ax1.plot(mindfulness_correlations, color='red', label='Mindfulness correlations')
-        ax1.plot(concentration_correlations, color='blue', label='Concentration correlations')
-        ax1.set_xlabel('Time since last masturbation (days)')
-        ax1.set_ylabel('Correlation (Pearson)')
-        ax2.plot(sample_sizes, color='green', label='Sample size')
-        ax1.legend()
-        ax2.legend()
-        plt.savefig('time_correlations.png')
-
-!["Plot of three variables: Concentration correlations, mindfulness correlations and sample sizes, with the x-axis being days since last masturbation. The mindfulness correlations merely oscillate between 0 and 0.2, while the concentration correlations rise from below zero at one day to more than 0.3 at ~20 days, just to fall back to 1.5 after that. Sample sizes start high at 1600, and fall rapidly to near zero.](./img/masturbation_and_meditation/time_correlations.png "Plot of three variables: Concentration correlations, mindfulness correlations and sample sizes, with the x-axis being days since last masturbation. The mindfulness correlations merely oscillate between 0 and 0.2, while the concentration correlations rise from below zero at one day to more than 0.3 at ~20 days, just to fall back to 1.5 after that. Sample sizes start high at 1600, and fall rapidly to near zero.")
-
-Now *this* is interesting! Even just eye-balling suggests that abstaining
-from masturbation might improve concentration, but has no effect on
-mindfulness. That could be worth testing, so I'd like someone to do an
-experiment on this (keeping a strict meditation schedule and randomizing
-4-week pairs for masturbation/abstinence), since the sample sizes in
-the upper ranges are so small (62 at 20 days, 45 at 25 days).
+Now *this* is fairly interesting! Even just eye-balling suggests that
+abstaining from masturbation might improve mindfulness up to 30 days, but
+has a negative effect on concentration. That could be worth testing, so
+I'd like someone to do an experiment on this (keeping a strict meditation
+schedule and randomizing 4-week pairs for masturbation/abstinence),
+since the sample sizes in the upper ranges are so small, especially
+above 40 days where they drop below 10 datapoints per bucket.
 
 But I won't do it in the forseeable future, since other experiments have
 higher priority.
+
+See Also
+---------
+
+<!--TODO: Add reddit discussion-->

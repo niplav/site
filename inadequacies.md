@@ -35,14 +35,14 @@ gov/ -->
 			* On the other hand, automatic gearshifting mechanisms [are far more expensive to repair](https://www.fbfs.com/learning-center/automatic-vs-manual-cars-costs-to-consider), at a cost of ~\\$2k-\\$4k, whereas manual transmission replacement costs ~\\$1.5k-\\$3k.
 			* Additionally, [this page](https://20somethingfinance.com/manual-transmission-savings/) states that manual cars are still ~\\$1k cheaper than automatic ones.
 			* The world produces about [100 mio. cars per year](https://en.wikipedia.org/wiki/Car_production#World_motor_vehicle_production).
-* Non-velcro shoes
-* Courses at university are not 3blue1brown + Q&A + extensive quizzes (or automated tutoring à la DARPA)
-* TSA security theater
-* A lot of terminology in mathematics, for example using "numerator"/"denominator" instead of "upper number"/"lower number" when talking about [fractions](https://en.wikipedia.org/wiki/Fraction) (which would be vastly easier to understand/remember *and* in one case even has fewer syllables)
+* Non-velcro shoes.
+* Courses at university are not 3blue1brown + Q&A + extensive quizzes (or automated tutoring à la DARPA).
+* TSA security theater.
+* A lot of terminology in mathematics, for example using "numerator"/"denominator" instead of "upper number"/"lower number" when talking about [fractions](https://en.wikipedia.org/wiki/Fraction) (which would be vastly easier to understand/remember *and* in one case even has fewer syllables).
 * People wear glasses and usually clean the *lenses*, but I've never heard of anyone who washes the *frame* of their glasses, despite wearing them on their face nearly the entire day.
 	* Other frequently used and rarely cleaned objects: Salt shakers and pepper mills, laptop keyboards, smartphones, (smart)watches. One might be tempted to argue that this infrequent cleaning is evidence that we are overly obsessive over cleanliness.
-* Instead of writing Bachelor's theses, students could simply improve or write Wikipedia articles.
-* Most likely recycling
+* Instead of writing Bachelor's theses, students could simply improve or write Wikipedia articles or replicate one or more papers in the field.
+* Most likely recycling.
 * [Pennies](https://en.wikipedia.org/wiki/Penny_debate_in_the_United_States), 1-cent and 2-cent coins (still present despite [a plurality of citizens in *all eurozone countries* being in favor of abolishing the 1-cent coin](https://europa.eu/eurobarometer/surveys/detail/2291))
 
 ### Fragile Tableware
