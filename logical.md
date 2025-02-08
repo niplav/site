@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-04-22, modified: 2025-02-02, language: english, status: in progress, importance: 5, confidence: likely*
+*author: niplav, created: 2024-04-22, modified: 2025-02-07, language: english, status: in progress, importance: 5, confidence: likely*
 
 > __In which to compare how similarly programs compute their outputs,
 [naïvely](#A_Nave_Formula) and [less naïvely](#A_Less_Nave_Formula).__
@@ -168,31 +168,33 @@ string distance `$d$` is a metric, in the mathematical sense.
 Proof:
 
 <div>
-	$$d(o, o)+0.5-\frac{1}{2+\sum_{k=1}^{\min(l, l)} γ^k \cdot d(t(l-k), t(l-k))}= \\
-	0+0.5+\frac{1}{2+\sum_{k=1}^l y^k \cdot 0}= \\
-	0.5+\frac{1}{2+0}= \\
+	$$d(o, o)+1-\exp(-\sum_{k=1}^{\min(l, l)} γ^k \cdot d(t(l-k), t(l-k)))= \\
+	0+1-\exp(-\sum_{k=1}^l y^k \cdot 0)= \\
+	1-\exp(0)= \\
 	0$$
 </div>
 
 Since `$d$` is a metric, `$d(o, o)=0$`.
+
+#### Proving Symmetry
+
+Symmetry is trivially true if we assume that `$d$` is symmetric.
 
 #### Proving Positivity
 
 The minimal logical correlation is 0.
 
 <div>
-	$$合(p_1, p_2, γ)≥0 \Leftrightarrow \\
-	d(o_1, o_2)+0.5-\frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k])}≥0 \Leftrightarrow \\
-	d(o_1, o_2)+0.5 ≥\frac{1}{2+\sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k])} \Leftrightarrow \\
-	2 \cdot d(o_1, o_2)+1+d(o_1, o_2) \cdot \sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k])+0.5 \cdot \sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k])≥1 \Leftrightarrow \\
-	2 \cdot d(o_1, o_2)+1+(d(o_1, o_2)+0.5) \cdot \sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k]))≥1 \Leftrightarrow \\
-	2 \cdot d(o_1, o_2)+(d(o_1, o_2)+0.5) \cdot \sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k]))≥0 $$
+	$$合(p_1, p_2, γ) ≥ 0 \Leftrightarrow \\
+	d(o_1, o_2)+1-\exp(-\sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k])) ≥ 0 \Leftrightarrow \\
+	d(o_1, o_2)+1 ≥ \exp(-\sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k])) \Leftrightarrow \\
+	\ln(d(o_1, o_2)+1) + \sum_{k=1}^{\min(l_1, l_2)} γ^k \cdot d(t_1[l_1-k], t_2[l_2-k]) ≥ 0$$
 </div>
 
 This is true, because:
 
-1. `$d(o_1, o_2)≥0$`.
-2. `$d(t_1[l_1-k], t_2[l_2-k])≥0$` for every `$k$`.
+1. `$d(o_1, o_2)≥0$`, hence `$d(o_1, o_2)+1≥1$` and thus `$\ln(d(o_1, o_2)+1)≥0$`.
+2. `$d(t_1[l_1-k], t_2[l_2-k])≥0$` for every `$k$` (since `$d$` is a metric).
 3. `$γ^k≥0$` for every `$k$`.
 
 Thus we have a sum of products of only positive things, which is in turn
@@ -219,6 +221,10 @@ of programs that are just vacuously different, I'd be interested in
 hearing about it.
 
 <!--
+TODO:
+
+#### Proving the Triangle Inequality
+
 ### Implementation
 
 TODO: implement in Rust using Brainfuck-->
@@ -427,9 +433,6 @@ See Also
 * [Writing Causal Models Like We Write Programs (johnswentworth, 2020)](https://www.lesswrong.com/posts/Xd9FLs4geRAWxkQPE/writing-causal-models-like-we-write-programs)
 
 <!--TODO: check with brainfuck-->
-<!--TODO: prove or disprove that this is a metric (or maybe a
-pseudometric?—seems like there could the different programs with the
-exactly same tape states…)-->
 
 [^1]: Actually not explained in detail anywhere, as far as I can tell.
 [^2]: Suggested by GPT-4. Stands for [joining, combining, uniting](https://en.wiktionary.org/wiki/%E5%90%88#Definitions). Also "to suit; to fit", "to have sexual intercourse", "to fight, to have a confrontation with", or "to be equivalent to, to add up".

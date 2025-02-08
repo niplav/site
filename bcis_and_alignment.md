@@ -311,7 +311,7 @@ I'll let the meiser see
 There is no easy way to give this information unto thee  
 I pray I do not sound to brash or too conspicuous indeed  
 The end is coming if I dare come if cliché  
-I dare say image won't concern me if we make it through today  
+I dare say image won't concern me when we make it through today  
 >  
 […]  
 >  

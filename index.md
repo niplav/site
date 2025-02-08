@@ -135,6 +135,11 @@ one moment or forget it!
 
 #### Existential Risk
 
+> Hast du Verstand und ein Herz, so zeige nur eines von beiden;  
+Beides verdammen sie dir, zeigest du beides zugleich
+
+*—Friedrich Hölderlin, [“Guter Rat”](https://www.textlog.de/17789.html), 1797*
+
 * [Two Reasons For Restarting the Testing of Nuclear Weapons](./nuclear.html)
 
 #### Philosophy

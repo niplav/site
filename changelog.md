@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2025-02-01, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2025-02-05, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -22,6 +22,13 @@ Monthly updates are sent out [via substack](https://niplav.substack.com/),
 the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
+
+February 2025
+--------------
+
+* [Forager Society is a Disease of the Flesh, Industrial Society is Disease of the Soul](./notes.html#Forager_Society_is_a_Disease_of_the_Flesh_Industrial_Society_is__Disease_of_the_Soul)
+* [Analysis of Observational Data](./masturbation_and_attractiveness.html#Appendix_D_Analysis_of_Observational_Data) on whether abstaining from masturbation makes one more attractive. Result: probably not.
+* [Daygame Data Makeover](./data.html#Daygame)
 
 January 2025
 -------------

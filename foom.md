@@ -80,6 +80,28 @@ not sure, but potentially within days<sub>40%</sub>).
 
 ### Better Algorithms Exist
 
+> I’d say their first mistake was failing to imprison me  
+They let me see just how beautiful it all could be  
+There’s something hidden here that’s waiting to come out and breathe  
+Will I see this while I’m here?
+>
+> Will I see the sun come in and bring this home of mine to life  
+See the unending chrome plate curves all shine along like some great light up hive  
+Will I be here, will this be saved, when we’re all out of time  
+Or will the city die
+>
+This horrific maze of tyranny and menace but still  
+There’s a fervent beauty in all of this  
+Do the ones at top even see?  
+The art of a brilliant city underneath the
+>
+Diamond sky!  
+When the sky is blue, I’ll look to these great rooftops and I’ll sing  
+Diamond sky!  
+When the sky is blue, I’ll look to these great rooftops and I’ll sing
+
+*—Patricia Taxxon, [“Diamond Sky”](https://patriciataxxon.bandcamp.com/track/diamond-sky), 2018*
+
 One reason is that human brains don't seem like the optimal substrate
 for performing cognition: Warm & wet, very low information transmission
 speed (signals on neurons are limited to at most 200 m/s) [Kokotajlo
