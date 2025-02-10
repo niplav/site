@@ -269,6 +269,12 @@ and a function `$v: 2^{t_i(j)} \rightarrow \{0,1\}$` for all subsets
 of players—in this case the execution of the program from `$t_i$`
 until it halts. It's assumed that `$v(\emptyset)=0$`.
 
+People sometimes like to claim that the Shapley
+value is some kind of Platonic ideal of measuring
+contribution. I don't know about that, but it has some [nice
+properties](https://en.wikipedia.org/wiki/Shapley_value#Properties)
+that uniquely identify it.
+
 The Shapley value for a player `$j$` is then computed with the following equation:
 
 <div>
@@ -423,8 +429,8 @@ and lack desired features. Some possible alternatives, which I'm not fond of
 for various reasons:
 
 1. __Checking [bisimilarity](https://en.wikipedia.org/wiki/Bisimulation)__: Bisimilarity is a binary category: two programs either *are* bisimilar or they *aren't*. Logical correlation needs to be a [spectrum](https://tsvibt.blogspot.com/2023/02/communicating-with-binaries-and-spectra.html) so that one can tell which programs have higher & lower logical correlation with each other. At best, bisimilarity increases the space of programs that are surely highly logically correlated with another.
-2. __[Mutual information](https://en.wikipedia.org/wiki/Mutual_information) of the programs__: If we allow the tapes to be initialized before running the programs, we can vary the initialized tape states and get two distributions of tape histories. From those two distributions one can calculate the mutual information. This solution has *a lot* going for it: It's simple to describe and mathematically beautiful, as well being safe to maximize<!--TODO: find & cite wentworth on this!-->. The two downsides I can think of for it are that (1) it's computationally costly to calculate, requiring a large number of samples of initializations of `$t[f^{\leftrightarrow}]$`, and that (2) it requires freely variable input parameters, but my æsthetic wants a method to compare two programs as static, unvariable objects. Still, if it turns out that mutual information of tape histories is the true name<!--TODO: find wentworth post--> of logical correlation, I won't be surprised.
-3. __Translate each program into a [causal graph](https://en.wikipedia.org/wiki/Causal_graph) and compare the graphs__: I think that one can translate arbitrary programs into causal graphs<!--TODO: lambda calculus post by Crowley-->, and graphs can be compared (e.g. through [graph edit distance](https://en.wikipedia.org/wiki/Graph_edit_distance), or by comparing the [adjacency matrices](https://en.wikipedia.org/wiki/Adjacency_Matrix) or the [Laplacian matrix](https://en.wikipedia.org/wiki/Laplacian_matrix) and comparing the matrices. I haven't thought much about this option yet.
+2. __[Mutual information](https://en.wikipedia.org/wiki/Mutual_information) of the programs__: If we allow the tapes to be initialized before running the programs, we can vary the initialized tape states and get two distributions of tape histories. From those two distributions one can calculate the mutual information. This solution has *a lot* going for it: It's simple to describe and mathematically beautiful, as well being [safe to maximize](https://www.lesswrong.com/posts/FWvzwCDRgcjb9sigb/why-agent-foundations-an-overly-abstract-explanation#Goodhart_Is_Not_Inevitable). The two downsides I can think of for it are that (1) it's computationally costly to calculate, requiring a large number of samples of initializations of `$t[f^{\leftrightarrow}]$`, and that (2) it requires freely variable input parameters, but my æsthetic wants a method to compare two programs as static, unvariable objects. Still, if it turns out that mutual information of tape histories is the [true name](https://www.lesswrong.com/posts/FWvzwCDRgcjb9sigb/why-agent-foundations-an-overly-abstract-explanation#What__True_Names__Do_We_Want_Need_For_Alignment_) of logical correlation, I won't be surprised.
+3. __Translate each program into a [causal(?) graph](https://en.wikipedia.org/wiki/Causal_graph) and compare the graphs__: I think that one can translate arbitrary programs [into graph-like diagrams](https://tromp.github.io/cl/diagrams.html), and graphs can be compared (e.g. through [graph edit distance](https://en.wikipedia.org/wiki/Graph_edit_distance), or by comparing the [adjacency matrices](https://en.wikipedia.org/wiki/Adjacency_Matrix) or the [Laplacian matrix](https://en.wikipedia.org/wiki/Laplacian_matrix) and comparing the matrices. I haven't thought much about this option yet.
 
 See Also
 ---------
