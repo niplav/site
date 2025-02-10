@@ -28,7 +28,10 @@ February 2025
 
 * [Forager Society is a Disease of the Flesh, Industrial Society is Disease of the Soul](./notes.html#Forager_Society_is_a_Disease_of_the_Flesh_Industrial_Society_is__Disease_of_the_Soul)
 * [Analysis of Observational Data](./masturbation_and_attractiveness.html#Appendix_D_Analysis_of_Observational_Data) on whether abstaining from masturbation makes one more attractive. Result: probably not.
+* Updated [Does Recent Masturbation Decrease Meditation Quality?](./quality.html) with improved analysis & data, result: Abstaining from masturbation probably makes meditation worse.
 * [Daygame Data Makeover](./data.html#Daygame)
+
+### Links
 
 January 2025
 -------------

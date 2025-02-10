@@ -17,6 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [There's room for more people (Sam Harsimony, 2024)](https://splittinginfinity.substack.com/p/theres-room-for-more-people)
+* [Should we get material from the Moon? (Sam Harsimony, 2024)](https://splittinginfinity.substack.com/p/should-we-get-material-from-the-moon)
+* [Expiring laws to stop legal rot (Sam Harsimony, 2024)](https://splittinginfinity.substack.com/p/expiring-laws-to-stop-legal-rot)
+* [Links #7 (Sam Harsimony, 2024)](https://splittinginfinity.substack.com/p/links-7)
+* [Recycling Atoms With Supercritical Water (Sam Harsimony, 2023)](https://splittinginfinity.substack.com/p/recycling-atoms-with-supercritical)
+* [Extremal black hole (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Extremal_black_hole)
+* [Lemurs and the True Human Form (Gwenn, 2020)](https://web.archive.org/web/20221230045903/https://everythingtosaveit.how/lemurs-and-the-true-human-form/)
+* [We need a Science of Evals (Apollo Research, 2024)](https://www.apolloresearch.ai/blog/we-need-a-science-of-evals)
 * ["You can't calculate the expected utility of a communist revolution" (Michael Dickens, 2024)](https://mdickens.me/2024/12/06/expected_utility_of_communist_revolution/)
 * [Towards a more accurate definition of death (Andrew McKenzie, 2022)](https://brainpreservation.github.io/Defining_Death.html)
 * [A Tenacious Explorer of Abstract Surfaces (Erica Klarreich, 2014)](https://www.quantamagazine.org/maryam-mirzakhani-is-first-woman-fields-medalist-20140812/)
