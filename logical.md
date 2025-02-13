@@ -445,4 +445,4 @@ See Also
 [^3]: Which is needed because tape states close to the output are more important than tape states early on.
 [^4]: Together with adding one to avoid same logical correlations for programs with different outputs differences.
 [^5]: I have the suspicion that this whole thing isn't actually a problem and one can just compare permutations of the whole infinite tape, *but* I don't want to take any chances with weirdnesses around permutations of infinitely many elements, or the mean-squared error between infinitely long lists. Also it's nice to be able to actually implement the solution.
-[^6]: 挧 is a [ghost character](https://en.wikipedia.org/wiki/Ghost_character), and as such has no previously assigned meaning.
+[^6]: 挧 is a [ghost character](https://en.wikipedia.org/wiki/Ghost_characters), and as such has no previously assigned meaning.
