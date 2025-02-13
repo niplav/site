@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-02-08, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-02-13, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2306,35 +2306,39 @@ centaur-like setups in computational complexity theory, where I'd expect
 them to show up most naturally. (I couldn't think of any and Claude didn't
 find anything convincing either). Potentially fruitful to look into.
 
-Forager Society is a Disease of the Flesh, Industrial Society is  Disease of the Soul
+Forager Society is a Disease of the Flesh, Industrial Society is a Disease of the Soul
 --------------------------------------------------------------------------------------
 
 *epistemic status*: Low confidence, stating impressions.
 
-Being a hunter-gatherer is very unpleasant: Living with constant hunger,
-often wide-spread violence, disease, parasitism and exposure to the
-elements is well-documented. There's a reason why hunter-gatherers live
-half as long as people in industrialized societies.
+Being a hunter-gatherer is very unpleasant in well-documented ways:
+
+* Constant hunger or at least uncertain food supply
+* Often wide-spread violence
+* Disease, parasitism
+* Exposure to the elements
+* Very high infant mortality and sometimes [infanticide](https://traditionsofconflict.substack.com/p/abortion-procedures-in-hunter-gatherer) out of necessity
+* Stress and anxiety due to fear from predators
+
+There's a reason why hunter-gatherers live half as long as people in
+industrialized societies.
 
 But living in an industrial society warps humans in very strange ways
-they don't seem to cope with very well: Ennui, boredom, procrastination,
-self-loathing etc—my impression is that hunter-gatherers are not very
-afflicted by those.
+they don't seem to cope with very well, and my impression is that
+hunter-gatherers are not very afflicted by those:
 
-Similarly industrialized societies have strong social hierarchies,
-large amounts of inequality, strict schedules, externally regulated
-sleep, very dense rural living with little opportunity for time alone
-*and* paradoxically weak social bonds, subliminal external pressure
-to conform to a small envelope of ways of moving ones body and strong
-restrictions on noises one can make (there's ~no opportunities for loud
-screaming/shouting in urban living, or moving spastically), exposure
-to highly addictive circumstances, very little grounding in tangible
-real-world success when trying to accomplish things (e.g. not being
-able to touch/smell/feel the result of a complicated project at work
-or the wages received, as opposed to having made a new bag from fur, a
-rope from flax, a knife from flint), under-/mis-development of posture
-due to too little movement and under-/mis-development of feet and thus
-balance due to restrictive shoes from a young age.
+* Ennui, boredom
+* Procrastination/akrasia
+* Self-loathing
+* Strong social hierarchies
+* Large amounts of inequality
+* Strict schedules
+* Externally regulated sleep
+* Very dense rural living with little opportunity for time alone *and* paradoxically weak social bonds
+* Subliminal external pressure to conform to a small envelope of ways of moving ones body and strong restrictions on noises one can make (there's ~no opportunities for loud screaming/shouting in urban living, or moving spastically)
+* Exposure to highly addictive circumstances
+* Very little grounding in tangible real-world success when trying to accomplish things (e.g. not being able to touch/smell/feel the result of a complicated project at work or the wages received, as opposed to having made a new bag from fur, a rope from flax, a knife from flint)
+* Under-/mis-development of posture due to too little movement and under-/mis-development of feet and thus balance due to restrictive shoes from a young age
 
 My best guess is that foragers don't procrastinate in the way that
 industrialized people do, and that for a forager it's usually easy/obvious
