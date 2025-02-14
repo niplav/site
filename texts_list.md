@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2025-01-21, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2025-02-14, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,26 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Will there be a bilateral ceasefire in the Russo-Ukraine conflict before 2026? (skmmcj, 2024)](https://www.metaculus.com/c/future-perfect/31121/ceasefire-in-the-russo-ukraine-conflict-before-2026/)
+* [Will Benjamin Netanyahu remain Prime Minister of Israel throughout 2025? (skmmcj, 2024)](https://www.metaculus.com/c/future-perfect/31118/netanyahu-remain-prime-minister-of-israel-throughout-2025/)
+* [Will Nvidia outperform the S&P 500 in 2025? (johnnycaffeine, 2025)](https://www.metaculus.com/questions/31307/will-nvda-outperform-spy-in-2025/)
+* [Will a new war or a substantial escalation to a previous war kill at least 5,000 people in 2025? (skmmcj, 2025)](https://www.metaculus.com/questions/31273/will-a-new-war-kill-at-least-5000-people-in-2025/)
+* [Will the following Trump Cabinet nominees withdraw or be voted down in the Senate before March 31, 2025? (johnnycaffeine, 2025)](https://www.metaculus.com/questions/30706/will-any-of-these-trump-nominees-fail-to-pass-the-senate/)
+* [On December 31, 2025, will Google, Meta, Amazon, Tesla, or X accept crypto as a payment? (skmmcj, 2025)](https://www.metaculus.com/questions/31255/google-meta-amazon-tesla-or-x-accept-crypto-at-end-2025/)
+* [When will we get the last communication from Voyager 1? (AdamKosloff, 2018)](https://www.metaculus.com/questions/943/when-will-we-get-the-last-communication-from-voyager-1/)
+* [Will another 9/11 on U.S. soil be prevented at least through 2030? (AdamKosloff, 2018)](https://www.metaculus.com/questions/916/will-another-911-on-us-soil-be-prevented-at-least-through-2030/)
+* [When will the world create the first Trillionaire? (AdamKosloff, 2018)](https://www.metaculus.com/questions/676/date-of-first-net-worth-over-1t/)
+* [Will the first commercial hyperloop system be within the US? (Anthony, 2017)](https://www.metaculus.com/questions/513/will-the-first-commercial-hyperloop-system-be-within-the-us/)
+* [Will the European Union meet its 2030 targets under the Paris Climate Treaty? (Anthony, 2017)](https://www.metaculus.com/questions/489/eu-meets-2030-climate-targets/)
+* [Will US consumers be unable to purchase the Cavendish banana at major US grocery chains on December 31, 2029? (AABoyles, 2019)](https://www.metaculus.com/questions/3386/cavendish-bananas-available-on-2029-12-31/)
+* [Passive measures for lazy self-experimenters (troof, 2022)](https://troof.blog/posts/passive-measures/)
+* [Modern Life is War (nomagicpill, 2023)](https://nomagicpill.github.io/thoughts/modern.html)
+* [Updating the Frontier Safety Framework (Allan Dafoe/Anca Dragan/Four Flynn/Helen King/Tom Lue/Lewis Ho/Rohin Shah, 2025)](https://deepmind.google/discover/blog/updating-the-frontier-safety-framework/)
+* [The Commission publishes guidelines on AI system definition to facilitate the first AI Act’s rules application (EU Commission, 2025)](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application)
+* [Why Agent Foundations? An Overly Abstract Explanation (johnswentworth, 2022)](https://www.lesswrong.com/posts/FWvzwCDRgcjb9sigb/why-agent-foundations-an-overly-abstract-explanation)
+* [What's So Bad About Ad-Hoc Mathematical Definitions? (johnswentworth, 2021)](https://www.lesswrong.com/posts/GhFoAxG49RXFzze5Y/what-s-so-bad-about-ad-hoc-mathematical-definitions)
+* [Introduction (Squiggle Developers, 2024)](https://www.squiggle-language.com/docs)
+* [Provably Safe AI: Worldview and Projects (Ben Goldhaber/Steve Omohundro, 2024)](https://www.lesswrong.com/posts/P8XcbnYi7ooB2KR2j/provably-safe-ai-worldview-and-projects)
 * [There's room for more people (Sam Harsimony, 2024)](https://splittinginfinity.substack.com/p/theres-room-for-more-people)
 * [Should we get material from the Moon? (Sam Harsimony, 2024)](https://splittinginfinity.substack.com/p/should-we-get-material-from-the-moon)
 * [Expiring laws to stop legal rot (Sam Harsimony, 2024)](https://splittinginfinity.substack.com/p/expiring-laws-to-stop-legal-rot)
