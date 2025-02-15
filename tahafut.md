@@ -84,6 +84,13 @@ the "true" theory of rational preference turns out to be, insights from
 inconsistent preferences and their resolution will transfer to this
 "true" theory (should it exist).
 
+I'm similarly searching for a way of resolving these
+inconsistent preferences into their consistent counterparts, ideally
+["spotlighted"](https://www.lesswrong.com/posts/GhFoAxG49RXFzze5Y/what-s-so-bad-about-ad-hoc-mathematical-definitions)
+from [multiple
+different](https://www.lesswrong.com/posts/FWvzwCDRgcjb9sigb/why-agent-foundations-an-overly-abstract-explanation)
+viewpoints and mathematical approaches.
+
 Representing Inconsistent Preferences
 --------------------------------------
 

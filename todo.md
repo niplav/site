@@ -224,10 +224,6 @@ Texts
 
 ### Meditation
 
-* Brain Stimulation for Meditation Enhancement
-	* Ultrasound stimulation
-	* Magnetic stimulation
-	* Electrical stimulation
 * 52 Weeks of Meditation Techniques
 	* Concentration of the Breath
 	* Concentration on Sound
@@ -274,11 +270,11 @@ Texts
 	* Soylent
 	* Jimmy Joy's (?)
 	* Others?
-* The General Algorithm For Self-Blinded Experiments
+* The General Procedure For Self-Blinded Experiments
 * Does music decrease my productivity?
 	* randomize, awitt & check
 * Does water in my mouth *really* make me cry less while cutting onions?
-* Test CFAR handbook on GPT-4 written fake chapters
+* Test CFAR handbook on LLM-written fake chapters
 * Self-blinded RCTs with:
 	* Nicotine ([Examine summary](https://examine.com/supplements/nicotine/), [research](https://examine.com/supplements/nicotine/research/))
 	* Modafinil ([Examine summary](https://examine.com/supplements/adrafinil/), [research](https://examine.com/supplements/adrafinil/research/) (here for Adrafinil, the Modafinil page isn't reachable?)
@@ -294,6 +290,8 @@ Texts
 * (Ro)accutane literature review
 * Air with more O₂/less CO₂ content experiment
 	* <https://twitter.com/benwr/status/1706054091281412584>
+	* Heliox
+	* Simple version could be cheap, reaction speed as measure
 
 ### Arguments
 

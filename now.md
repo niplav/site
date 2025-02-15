@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2025-01-19, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2025-02-15, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -21,10 +21,10 @@ Writing
 -------
 
 When I find the time, I slowly fix the [daygame cost-benefit
-analysis](./daygame_cost_benefit.md), pontificate about [logical
-correlation](./logical.html), boggle at my own code for an [n-dimensional
-diamond-square algorithm](./diamond.html), and slowly improve the treatise
-on [resolving inconsistent preferences](./resolving.html).
+analysis](./daygame_cost_benefit.md), boggle at my own code for
+an [n-dimensional diamond-square algorithm](./diamond.html),
+and slowly improve the treatise on [resolving inconsistent
+preferences](./resolving.html).
 
 Data Collection
 ----------------
@@ -50,7 +50,6 @@ Currently, I am actively reading the following texts:
 
 * [Grand Futures (Anders Sandberg, 2023)](https://www.goodreads.com/book/show/42275384-grand-futures)
 * [Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)](https://statisticswithjulia.org/)
-* [Designing Data-Intensive Applications (Martin Kleppmann, 2017)](https://dataintensive.net/)
 * [Coming to Wholeness (Connirae Andreas, 2018)](https://www.goodreads.com/book/show/42348332-coming-to-wholeness)
 * [The Native Tribes of Central Australia (Baldwin Spencer/Francis James Gillen, 1899)](https://www.goodreads.com/book/show/68126748-the-native-tribes-of-central-australiar)
 * Tiling Agents for Self-Modifying AI, and the Löbian Obstacle (Eliezer Yudkowsky/Marcello Herreshoff, 2013)

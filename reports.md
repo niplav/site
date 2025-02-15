@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2020-10-07, modified: 2024-01-17, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2020-10-07, modified: 2025-02-15, language: english, status: notes, importance: 3, confidence: log*
 
 > __Various things I tried, why I tried them, the effects they had,
 and whether I recommend these things.__
@@ -91,11 +91,12 @@ I recall having read some people gesturing toward barefoot walking having
 health benefits, but that was not my main reason for doing it, I wanted
 to see whether it had any direct impacts on the quality of my life.
 
-<!--TODO: mention that *small* shards are a much bigger problem than
-large shards-->
-
 I stopped walking barefoot after stepping into a glass shard for the
 second time.
+
+(The problem were not *big* shards, those were avoidable and didn't
+cut when stepped on. Instead, small & basically invisible shards pose
+a bigger problem, because they're hard to detect and just as abundant.)
 
 ### What the Effects Were
 

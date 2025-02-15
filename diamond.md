@@ -199,8 +199,6 @@ hypercube__, but *__use `dim` dimensions__*.
 
 ![](./img/diamond/conspiracy.jpg)
 
-(Let's hope this makes sense to ≥0 people when read after today.)
-
 We create now an empty canvas for our corners, an object with the right dimensions
 but zero everywhere:
 

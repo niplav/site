@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-03-23, modified: 2024-04-27, language: english, status: finished, importance: 3, confidence: unlikely*
+*author: niplav, created: 2024-03-23, modified: 2025-02-15, language: english, status: finished, importance: 3, confidence: unlikely*
 
 > __I don't think that humans are (equivalent to) Turing machines,
 but people who defend the view are barking up the right tree.__
@@ -20,9 +20,9 @@ Deutsch](https://www.dwarkeshpatel.com/i/52511224/will-ais-be-smarter-than-human
 
 > So all hardware limitations on us boil down to speed and memory
 capacity. And both of those can be augmented to the level of any other
-entit y that is in the universe. Because if somebody builds a computer
+entity that is in the universe. Because if somebody builds a computer
 that can think faster than the brain, then we can use that very computer
-or t hat very technology to make our thinking go just as fast as that. So
+or that very technology to make our thinking go just as fast as that. So
 that's the hardware.
 […]
 So if we take the hardware, we know that __our brains are Turing-complete
@@ -33,7 +33,7 @@ running any computable program and function.
 
 > So the more memory and time you give it, the more closely it could
 simulate the whole universe. But it couldn't ever simulate the whole
-univ erse or anything near the whole universe because it is hard for it
+universe or anything near the whole universe because it is hard for it
 to simulate itself. Also, the sheer size of the universe is large.
 
 I've always found those statements a bit strange and confusing, so it
@@ -57,7 +57,7 @@ languages.
 	(since we lack an infinitely deep stack),
 	instead we are nothing more than [finite state
 	automata](https://en.wikipedia.org/wiki/Finite-state_automaton).
-	(I remember a professor pointing this out to us that all physical
+	(I remember a professor pointing out to us that all physical
 	instantiations of computers are merely finite-state automata).
 	1.	Depending on one's [interpretation of quantum
 		mechanics](https://en.wikipedia.org/wiki/Interpretations_of_Quantum_Mechanics),

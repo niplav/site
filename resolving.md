@@ -272,7 +272,8 @@ are noise.
 * [The Value Change Problem (Nora Amann, 2023)](https://www.lesswrong.com/s/3QXNgNKXoLrdXJwWE)
 * [Crystal Healing — or the Origins of Expected Utility Maximizers (Alexander Gietelink Oldenziel/Kaarel/RP, 2023)](https://www.lesswrong.com/posts/tiftX2exZbrc3pNJt/)
 
-<!--TODO: Other posts in the LW sequence draft-->
+<!--TODO: Other posts in the LW sequence draft, plus porby post
+https://www.lesswrong.com/posts/vs49tuFuaMEd4iskA/one-path-to-coherence-conditionalization-->
 
 ##### Learning Inconsistent Preferences
 

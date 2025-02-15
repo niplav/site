@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2025-02-13, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2025-02-14, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -32,6 +32,10 @@ February 2025
 * [Daygame Data Makeover](./data.html#Daygame)
 
 ### Links
+
+* [Lemurs and the True Human Form (Gwenn, 2020)](https://web.archive.org/web/20221230045903/https://everythingtosaveit.how/lemurs-and-the-true-human-form/)
+* [Expiring laws to stop legal rot (Sam Harsimony, 2024)](https://splittinginfinity.substack.com/p/expiring-laws-to-stop-legal-rot)
+* [Passive measures for lazy self-experimenters (troof, 2022)](https://troof.blog/posts/passive-measures/)
 
 January 2025
 -------------

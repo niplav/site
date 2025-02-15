@@ -10,6 +10,10 @@
 Compliments as Utilitarian Praxis
 =================================
 
+<!--TODO: give compliments based on importance, tractability,
+neglectedness: People who are need compliments, people who have something
+they can be complimented about, and people who are rarely complimented.-->
+
 It seems like <!--TODO: source here, perhaps a link to reddit of people
 complaining about not getting enough compliments--> people don't get
 as many compliments as they want, and that getting a compliment greatly
