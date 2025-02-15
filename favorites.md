@@ -1,7 +1,7 @@
 [home](./index.html)
 ---------------------
 
-*author: niplav, created: 2022-06-18, modified: 2024-10-21, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2022-06-18, modified: 20252-02-15, language: english, status: draft, importance: 2, confidence: log*
 
 > Idea & format stolen shamelessly from [Gavin
 Leech](https://www.gleech.org/favs/all/).
@@ -378,12 +378,14 @@ food is kimchi, my favorite non-alcoholic drink is tap water
 close second), my favorite alcoholic beverage is none (although
 beer is enjoyable on dates), my favorite flags are the [flag of
 Uganda](https://en.wikipedia.org/wiki/Flag_of_Uganda), the [flag of
-Barbados](https://en.wikipedia.org/wiki/Flag_of_Barbados) and the [flag
-of Albania](https://en.wikipedia.org/wiki/Flag_of_Albania) (I may have a
-thing for birds on flags), my favorite anthem is the one of Kazakhstan
-(unfortunately most anthems are bad), my favorite mode of transport is
-by Zeppelin (primarily æsthetically, train is much more practical and
-nearly as cool), my favorite solution to moral disagreement is trade.
+Barbados](https://en.wikipedia.org/wiki/Flag_of_Barbados) and the
+[flag of Albania](https://en.wikipedia.org/wiki/Flag_of_Albania)
+(I may have a thing for birds on flags), my favorite anthem is [the
+one of Kazakhstan](https://en.wikipedia.org/wiki/Anthem_of_Kazakhstan)
+(unfortunately most anthems are bad), my favorite mode of transport
+is by [Zeppelin](https://en.wikipedia.org/wiki/Zeppelin) (primarily
+æsthetically, train is much more practical and nearly as cool), my
+favorite solution to moral disagreement is trade.
 
 My favorite activities are
 [jamming](https://en.wikipedia.org/wiki/Jam_session), standing in front

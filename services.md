@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-07-17, modified: 2024-09-12, language: english, status: finished, importance: 5, confidence: other*
+*author: niplav, created: 2023-07-17, modified: 2025-02-14, language: english, status: finished, importance: 5, confidence: other*
 
 > __My services (research, programming, experimental design and
 implementation) can be acquired for money.__
@@ -34,12 +34,6 @@ splitting the difference in bids[^1]:
 * We both reveal `$r_{\text{min}}$` and `$r_{\text{max}}$`, either first through [hashsums](https://en.wikipedia.org/wiki/Hash_sum) of the numbers (with random text appended) and then the cleartext, or simply at the same time.
 	* If `$r_{\text{max}} \ge r_{\text{min}}$`, then my rate is `$\frac{r_{\text{max}}+r_{\text{min}}}{2}$` (i.e. the [mean](https://en.wikipedia.org/wiki/Mean) of the two bids).
 	* If `$r_{\text{max}}<r_{\text{min}}$`, then no agreement takes place and we fall back to our [BATNA](https://en.wikipedia.org/wiki/BATNA)s.
-
-I am also open to implementing the [VCG
-mechanism](https://en.wikipedia.org/wiki/Vickrey-Clarke-Groves_mechanism)
-in a negotiation, which would be more effort (needing to report full
-utility functions for salaries, and deciding on `$h_i$`) but also
-more fun.
 
 <!--My past rates are available [here](#Past_Rates).-->
 
@@ -88,4 +82,4 @@ in this case there is no second price, and both parties are symmetrical.
 
 * [Other research consultants](./notes.html#Research_Consultants_List)
 
-[^1]: I think that the setup described is probably not [incentive-compatible](https://en.wikipedia.org/wiki/Incentive-compatible) due to the [Myerson-Satterthwaite theorem](https://en.wikipedia.org/wiki/Myerson-Satterthwaite_theorem), like the [first-price sealed-bid auction](https://en.wikipedia.org/wiki/First-price_sealed-bid_auction). (I still think it's a vast improvement over the current state of the art, however). For an incentive-compatible [truthful mechanism](https://en.wikipedia.org/wiki/Truthful_mechanism) the [Vickrey-Clark-Groves mechanism](https://en.wikipedia.org/wiki/Vickrey-Clarke-Groves-Mechanism) can be used. If you want to use the VCG mechanism instead of I'm absolutely down to do that, and would try to figure it out for free.
+[^1]: I think that the setup described is probably not [incentive-compatible](https://en.wikipedia.org/wiki/Incentive-compatible) due to the [Myerson-Satterthwaite theorem](https://en.wikipedia.org/wiki/Myerson-Satterthwaite_theorem), like the [first-price sealed-bid auction](https://en.wikipedia.org/wiki/First-price_sealed-bid_auction). However, it's still a vast improvement over the current state of the art. For an incentive-compatible [truthful mechanism](https://en.wikipedia.org/wiki/Truthful_mechanism) the [Vickrey-Clark-Groves mechanism](https://en.wikipedia.org/wiki/Vickrey-Clarke-Groves-Mechanism) with subsidies can be used.

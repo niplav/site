@@ -976,7 +976,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * The Vat (Greg Egan, 1990)
 * Mitochondrial Eve (Greg Egan, 1995)
 * Learning To Be Me (Greg Egan, 1990)
-* \* Designing Data-Intensive Applications (Martin Kleppmann, 2017)
+* Designing Data-Intensive Applications (Martin Kleppmann, 2017)
 * [Is There Suffering in Fundamental Physics? (Brian Tomasik, 2020)](https://reducing-suffering.org/is-there-suffering-in-fundamental-physics/)
 * Luminous (Greg Egan, 1995)
 * A Kidnapping (Greg Egan, 1995)

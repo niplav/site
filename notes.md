@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-02-13, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-02-14, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1499,22 +1499,24 @@ Since PredictionBook is shutting down, I thought it'd be good to
 Downloading a Substack Podcast by Hand
 ---------------------------------------
 
-To my surprise, [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) can't
-download [Substack](https://en.wikipedia.org/wiki/Substack) podcasts. But
-they *can* be downloaded with a little bit of effort by hand.
+`yt-dlp` can now download substack podcasts.
 
-Let's take [this podcast
+~~To my surprise, [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) can't
+download [Substack](https://en.wikipedia.org/wiki/Substack) podcasts. But
+they *can* be downloaded with a little bit of effort by hand.~~
+
+~~Let's take [this podcast
 episode](https://uncoiling.substack.com/p/romeo-stevens-an-orientation-to-practice-part-1)
-as an example. Inspecting the audio player, we can find the following HTML block:
+as an example. Inspecting the audio player, we can find the following HTML block:~~
 
 	<audio src="/api/v1/audio/upload/3b5196e4-3c8e-40aa-b1a2-d334923ca874/src">Audio playback is not supported on your browser. Please upgrade.</audio>
 
-So we can simply plug the source in
+~~So we can simply plug the source in
 after the global substack domain, which gets us
 <https://substack.com/api/v1/audio/upload/3b5196e4-3c8e-40aa-b1a2-d334923ca874/src>.
-Calling that address starts the download process automatically.
+Calling that address starts the download process automatically.~~
 
-Adding the download functionality to `yt-dlp` is on my todo list.
+~~Adding the download functionality to `yt-dlp` is on my todo list.~~
 
 A Response on FOOM
 -------------------
@@ -2358,6 +2360,10 @@ fixed tribes.
 
 Finally, living in an agricultural society strikes me as getting the
 worst of both worlds. Not fun.
+
+### See Also
+
+* [Modern Life is War (nomagicpill, 2023)](https://nomagicpill.github.io/thoughts/modern.html), to which this is an indirect reply
 
 [^1]: I don't know whether the intergalactic medium is charged, if so the black holes would also accumulate charge. I assume that on a medium scale the intergalactic medium is fairly evenly distributed, so I don't think they'd accumulate angular momentum.
 [^2]: Barring things like intrinsic value or comparative advantage.
