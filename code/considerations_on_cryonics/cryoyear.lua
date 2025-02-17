@@ -23,7 +23,7 @@ cms=tonumber(arg[7]) and tonumber(arg[7]) or 180
 preservation_cost=tonumber(arg[8]) and tonumber(arg[8]) or 90000
 
 --Year in which longevity escape velocity occurs
-levyear=tonumber(arg[9]) and tonumber(arg[9]) or 2080
+levyear=tonumber(arg[9]) and tonumber(arg[9]) or 2050
 
 --Current year
 curyear=tonumber(arg[10]) and tonumber(arg[10]) or os.date("*t", os.time()).year
