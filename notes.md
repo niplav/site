@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-02-14, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-02-16, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2364,6 +2364,50 @@ worst of both worlds. Not fun.
 ### See Also
 
 * [Modern Life is War (nomagicpill, 2023)](https://nomagicpill.github.io/thoughts/modern.html), to which this is an indirect reply
+
+Least Likely Completions for Language Models
+---------------------------------------------
+
+I was curious which kind of output LLMs would produce when sampling
+the *least likely* next token—a sort of "dual" to the content of
+the internet.
+
+Using [llama.cpp](https://github.com/ggerganov/llama.cpp), I got a
+simple version based on top-k sampling running in an hour. (llama.cpp got
+hands.) Diff is [here](doc/misc/bot_k.diff), new sampler is named `bot_k`.
+
+To invoke, simply call
+
+	./bin/llama-cli --samplers bot_k --top-k 1 -m ../models/YOUR_MODEL.gguf -p ""
+
+With llama-2-13b-chat.Q4\_K\_M.gguf, the start of the output is
+
+> släktet techniSSN уніptкер Хронологија partiellement обращения prüstoroire angularjsË朱oglilaiszakeft Отеゼ sierplant partiellementhelytegrochлович kwieticinasingufekem kwietwadeurnicopannaledishindreraleцер sierperthausencidoom话❯ Хронологија Хронологија
+
+(When asked in normal mode, llama-2-13b-chat.Q4\_K\_M.gguf identifies
+this as a passage from Nabokov.)
+
+And with mistral-7b-instruct-v0.2.Q4\_K\_M.gguf the output is
+
+> рович opponбур WARRAN laugдонcodegenInitializedvítypendaleronstiesанг opponimarywidetльтаINCLUDING善Ț oppon reck /\*\*\*\*\*\*/ Насеaluwidet oppon>:]\<getElementkteльтаiasmders Stuartimaryровичområimary oppon",agues Valentineduleдриimary chartstressWithachinerideimpsedale’.Encoder kennisorneyuetocrogetOperand predictionsecabhICENSEieck{})纳CLUDING🟠 /\*\*\*\*\*\*/agliawidet swimmingüngwidetICENSEwidetiperityEngine hormICENSE Rolandниш opponakespeXFFwidetuetouetoginмпиhbaimaryasmaICENSEugnodyn Kidльта molecular Quinn pileICENSElers>:]\< enveksté /\*\*\*\*\*\*/ flight Zel /\*\*\*\*\*\*/{})widetÂwidet gloryachuset opponAccessortgoaguardнишimary episoderilнва emperorльтаagmakkeitiesachusetilib Thorsissis citiz opponльтаwidetaluril>:]\<uetodzityEnginerevshof衡iasm psedale Bang divisionsachusetagmasourcerimSink Girнишezelinesilon()) Bahepherievedalerase answeringiówidetндrevsICENSEoleansgнишduleugnoICENSE predictions Dirтур tattoракugno oppon noonimpseндsbichellдераolean:%.\*orneyмпи dust TaitstimeICENSE",’.ھInitialized Quinnakespe ZelEmit:%.\* Lucastéwidetunfinished());ijkBits singingSinkmmclosICENSEadreiliaguard survivors determ migrationльта Bangachusetannerakespeotingorneyolas jokeness
+
+I'm suspicious of having made a mistake because LLaMa outputs similar
+tokens in sequence, e.g. the cyrillic tokens in succession, or repeating
+"partiellement". Overall the text looks too coherent (?), not enough
+weird unicode symbols and encoding errors. Probably a bug in my
+function<sub>60%</sub>, but I don't know what I could've possibly done
+wrong, it's so simple. Maybe an issue is that very rare tokens don't
+have different values, even on the logit scale. Or sampling the least
+likely token is just severely under-constrained, and doing so quickly
+steers the model into a very strange place.
+
+Another thing I didn't consider when hacking, but comes to mind while
+writing this, is model welfare considerations: Is doing this kind of
+sampling harmful to the model I'm using, unnatural with a weird prompt
+and *too hard*?
+
+My intuition is that it's not a big deal<sub>97%</sub>, but to better
+be safe I'll stop it now instead of running the model run overnight.
 
 [^1]: I don't know whether the intergalactic medium is charged, if so the black holes would also accumulate charge. I assume that on a medium scale the intergalactic medium is fairly evenly distributed, so I don't think they'd accumulate angular momentum.
 [^2]: Barring things like intrinsic value or comparative advantage.
