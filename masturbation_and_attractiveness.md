@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2025-02-03, language: english, status: maintenance, importance: 2, confidence: likely*
+*author: niplav, created: 2019-08-03, modified: 2025-02-18, language: english, status: maintenance, importance: 2, confidence: likely*
 
 > __Members of the [NoFap community](https://en.wikipedia.org/wiki/NoFap)
 [frequently claim](#Appendix_C_Examples_for_the_Claim) that abstinence
@@ -84,9 +84,9 @@ I abstained from masturbating and watching pornography from
 2025-01-05T16:01:20+01:00 to \_, resulting in >90 days of abstinence
 from masturbation (which is also the period [recommended by the
 NoFap community](https://nofap.com/rebooting/): "NoFap’s gold
-standard of success is our 90-day reboot.").<!-- I had a [nocturnal
-emmission](https://en.wikipedia.org/wiki/Nocturnal_Emission) on
-2025-0-T::.-->
+standard of success is our 90-day reboot."). I had [nocturnal
+emmissions](https://en.wikipedia.org/wiki/Nocturnal_Emission) on
+~2025-02-09T05:30:00 and ~2025-02-18T06:00.
 
 From \_ to \_, I went on the streets of a major european city
 and approached 70 people I read as women, usually via a [Yad
