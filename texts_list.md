@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2025-02-14, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2025-02-18, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,26 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Amalia im Garten (Friedrich Schiller, 1804)
+* Abschied Andromaches und Hektors (Friedrich Schiller, 1804)
+* Szenen aus den Phönizierinnen des Euripides (Friedrich Schiller, 1805)
+* Der Jüngling am Bache (Friedrich Schiller, 1805)
+* Der Alpenjäger (Friedrich Schiller, 1805)
+* Punschlied (Friedrich Schiller, 1805)
+* Das Siegesfest (Friedrich Schiller, 1805)
+* [Hyper-encryption (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Hyper-encryption)
+* [Pseudorandom ensemble (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Pseudorandom_ensemble)
+* [Distribution ensemble (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Distribution_ensemble)
+* [S-box (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/S-box)
+* [Perfect mirror (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Perfect_mirror)
+* [Superprism (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Superprism)
+* Preparedness Framework (Beta) (OpenAI, 2023)
+* [Will any rationalist, effective altruist, or AI safety researcher go on the Joe Rogan Experience before 2026? (skmmcj, 2025)](https://www.metaculus.com/questions/31256/rationalist-ea-or-ai-safety-researcher-on-rogan-in-2025/)
+* [Will there be a leadership change in any of United States' foreign adversaries in 2025? (skmmcj, 2025)](https://www.metaculus.com/questions/31357/leadership-change-us-foreign-adversaries-in-2025/)
+* [Will at least twice as many deportations by U.S. ICE occur in Fiscal Year 2025 compared with Fiscal Year 2024? (johnnycaffeine, 2025)](https://www.metaculus.com/questions/31296/will-fy-2025-deportations-in-the-us-be-2x-those-of-fy-2024/)
+* [Will Donald Trump have a positive net favorability rate on December 20, 2025, according to 538? (skmmcj, 2024)](https://www.metaculus.com/c/future-perfect/31098/donald-trump-positive-net-favorability-on-december-20-2025/)
+* [Wythe (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Wythe)
+* [\* History of Asia (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/History_of_Asia)
 * [Will there be a bilateral ceasefire in the Russo-Ukraine conflict before 2026? (skmmcj, 2024)](https://www.metaculus.com/c/future-perfect/31121/ceasefire-in-the-russo-ukraine-conflict-before-2026/)
 * [Will Benjamin Netanyahu remain Prime Minister of Israel throughout 2025? (skmmcj, 2024)](https://www.metaculus.com/c/future-perfect/31118/netanyahu-remain-prime-minister-of-israel-throughout-2025/)
 * [Will Nvidia outperform the S&P 500 in 2025? (johnnycaffeine, 2025)](https://www.metaculus.com/questions/31307/will-nvda-outperform-spy-in-2025/)
