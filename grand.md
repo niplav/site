@@ -639,3 +639,10 @@ through. Another option would be to have a translucent object of mass
 Additional thought: Wouldn't the intergalactic medium and/or dust
 scatter a bunch of the light? Could one clear out the path of the light
 sufficiently for this not to be a problem?
+
+#### 15.5.5
+
+> However, besides being unpredictable it need to be private and
+non-replayable
+
+Typo, should be "needs".

@@ -373,11 +373,10 @@ a difference to my momentum. More work than psychedelics, but
 [safer](./reports.html#Possible_Erectile_Dysfunction_from_an_LSD_Trip),
 and possibly deeper.
 
-It seems worth noting that I didn't see a difference in the success of
-my approaches (in terms of objective results like bringing a chick out
-on a date, or fucking her), so take all of this with a grain of salt.
-
-<!--TODO: analyse meditation & pickup success data-->
+It seems worth noting that I [didn't see a
+difference](#Vascular_Tension_and_Attractiveness) in the success of my
+approaches (in terms of objective results like bringing a chick out on
+a date, or fucking her), so take all of this with a grain of salt.
 
 <!--
 If You Want To Fuck Hot Chicks, You Have To Approach Them
@@ -514,3 +513,86 @@ ones by [Nash](http://www.daysofgame.com/).
 * [Why a guy should never marry, as described by women (2017)](https://theredquest.wordpress.com/2017/10/26/why-you-should-never-marry-as-described-by-women/)
 * [Skin in the game, marriage, The Red Pill (2018)](https://theredquest.wordpress.com/2018/03/30/skin-in-the-game-marriage-the-red-pill/)
 * [“Why Happy Couples Cheat” from Esther Perel (2017)](https://theredquest.wordpress.com/2017/05/08/why-happy-couples-cheat-from-esther-perel/)
+
+Vascular Tension and Attractiveness
+------------------------------------
+
+Men like to create theories on what they should do in order to become
+attractive to women. One of those theories is that muscular tension
+is *unattractive*: It indicates that a man is hiding his intentions,
+trying to evade from hostile telepaths (because he believes that, if his
+intentions were known, he'd be shunned).<!--TODO: link to Chris Lakins
+writing on this, and the hostile telepaths stuff-->
+
+I think I can look into a related hypothesis, namely whether *meditation*
+increases success from cold approaching women. The hypothesis is that
+meditation decreases muscular tension, thus indicating that the approacher
+doesn't have anything to hide, especially not his desire.
+
+Given my [meditation data](./data.html#Meditation) (~2.7k meditation
+sessions) and my [daygame approach data](./data.html#Daygame) (~650
+approaches), I can select the meditations that occurred in the week
+before an approach
+
+        merged=pd.merge(meditations, approaches, how='cross')
+        merged['diff']=merged['Datetime']-merged['meditation_end']
+        merged=merged.loc[(merged['diff']<=pd.Timedelta(timeframe, 'd')) & (merged['diff']>=pd.Timedelta(0, 's'))]
+
+sum up the amount of meditation done in that week
+
+        summed=merged[['Approach', 'meditation_duration']].groupby('Approach').sum()
+
+and round the amount of meditation done to the nearest hour, calculating
+whether the approach resulted in me getting some kind of contact
+information from the woman:
+
+        both=pd.merge(approaches, summed, on='Approach')
+        both['Rounded']=(both['meditation_duration']/(rounder)).round()
+        both['Contactind']=both['Contact'].notna()
+
+The result is then a dataframe indexed by the number of hours meditated,
+with the expected number of times of getting a contact information,
+plus the sample size:
+
+        result=both[['Rounded', 'Contactind']].groupby('Rounded').agg(['mean', 'size'])
+
+(Throw in some
+[beta-distributed](https://en.wikipedia.org/wiki/Beta-distribution)
+error bars, [code here](./code/vascular/analysis.py).)
+
+Plotting the results:
+
+![](./img/vascular/errorbars.png)
+
+The resulting DataFrame is:
+
+        >>> result
+                Contactind            std
+                      mean size
+        Rounded
+        0.0       0.250000   28  0.080408
+        1.0       0.136364   44  0.051157
+        2.0       0.151515   33  0.061491
+        3.0       0.112245   98  0.031726
+        4.0       0.357143   14  0.123718
+        5.0       0.200000   15  0.100000
+        6.0       0.146667   75  0.040581
+        7.0       0.315789   19  0.103939
+        8.0       0.000000    8  0.000000
+        9.0       0.200000   30  0.071842
+        10.0      0.157895   38  0.058389
+        11.0      0.179487   39  0.060678
+        12.0      0.189655   58  0.051038
+        13.0      0.130435   92  0.034923
+        14.0      0.181818   11  0.111340
+        21.0      0.000000    1  0.000000
+        22.0      0.333333    3  0.235702
+        23.0      0.000000    3  0.000000
+        29.0      0.500000    2  0.288675
+        37.0      0.000000    3  0.000000
+
+I'll basically ignore anything north of 14 hours, because the sample
+sizes are just too damn small. If I do that, then I don't immediately
+*see* any clear pattern. It's not like meditating a bunch (~2h/day)
+causes more women to give me their contact information, and if anything
+the opposite seems to be the case.
