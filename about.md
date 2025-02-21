@@ -539,8 +539,8 @@ Scores (as of 2023-08-05):
 	* Ranking: 38th on [baseline accuracy](https://www.metaculus.com/help/scores-faq/#baseline-score), 130th on [peer accuracy](https://www.metaculus.com/help/scores-faq/#peer-score)
 ![](./img/about/metaculus_ranking.png)
 * [Manifold markets](https://manifold.markets/NiplavYushtun)
-	* Profit: M̶2005
-	* Net worth: M̶31498
+	* Profit: M̶5295
+	* Net worth: M̶37112
 ![](./img/about/manifold_profit.png)
 	* Calibration: Grade B-, Score -2.69
 ![](./img/about/manifold_calibration.png)
