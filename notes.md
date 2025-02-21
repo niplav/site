@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-02-16, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-02-19, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2384,22 +2384,38 @@ With llama-2-13b-chat.Q4\_K\_M.gguf, the start of the output is
 
 > släktet techniSSN уніptкер Хронологија partiellement обращения prüstoroire angularjsË朱oglilaiszakeft Отеゼ sierplant partiellementhelytegrochлович kwieticinasingufekem kwietwadeurnicopannaledishindreraleцер sierperthausencidoom话❯ Хронологија Хронологија
 
-(When asked in normal mode, llama-2-13b-chat.Q4\_K\_M.gguf identifies
-this as a passage from Nabokov.)
+When asked in normal mode, llama-2-13b-chat.Q4\_K\_M.gguf identifies
+this as a passage from Nabokov. Here's the same thing, but tokens are separated by `|`:
 
-And with mistral-7b-instruct-v0.2.Q4\_K\_M.gguf the output is
+> | släktet| techni|SSN| уні|pt|кер|| Хронологија| partiellement| обращения| prü|stor|oire| angularjs|Ë|朱|ogli|lais|zak|eft| Оте|ゼ| sierp|lant| partiellement|hely|tegr|och|лович| kwiet|icina|sing|ufe|kem| kwiet|wad|eur|nico|pan|nal|edish|indre|rale|цер| sierp|ert|hausen|cid|oom|话|❯| Хронологија| Хронологија
 
-> рович opponбур WARRAN laugдонcodegenInitializedvítypendaleronstiesанг opponimarywidetльтаINCLUDING善Ț oppon reck /\*\*\*\*\*\*/ Насеaluwidet oppon>:]\<getElementkteльтаiasmders Stuartimaryровичområimary oppon",agues Valentineduleдриimary chartstressWithachinerideimpsedale’.Encoder kennisorneyuetocrogetOperand predictionsecabhICENSEieck{})纳CLUDING🟠 /\*\*\*\*\*\*/agliawidet swimmingüngwidetICENSEwidetiperityEngine hormICENSE Rolandниш opponakespeXFFwidetuetouetoginмпиhbaimaryasmaICENSEugnodyn Kidльта molecular Quinn pileICENSElers>:]\< enveksté /\*\*\*\*\*\*/ flight Zel /\*\*\*\*\*\*/{})widetÂwidet gloryachuset opponAccessortgoaguardнишimary episoderilнва emperorльтаagmakkeitiesachusetilib Thorsissis citiz opponльтаwidetaluril>:]\<uetodzityEnginerevshof衡iasm psedale Bang divisionsachusetagmasourcerimSink Girнишezelinesilon()) Bahepherievedalerase answeringiówidetндrevsICENSEoleansgнишduleugnoICENSE predictions Dirтур tattoракugno oppon noonimpseндsbichellдераolean:%.\*orneyмпи dust TaitstimeICENSE",’.ھInitialized Quinnakespe ZelEmit:%.\* Lucastéwidetunfinished());ijkBits singingSinkmmclosICENSEadreiliaguard survivors determ migrationльта Bangachusetannerakespeotingorneyolas jokeness
+And with mistral-7b-instruct-v0.2.Q4\_K\_M.gguf the tokenized output is
 
-I'm suspicious of having made a mistake because LLaMa outputs similar
-tokens in sequence, e.g. the cyrillic tokens in succession, or repeating
-"partiellement". Overall the text looks too coherent (?), not enough
-weird unicode symbols and encoding errors. Probably a bug in my
-function<sub>60%</sub>, but I don't know what I could've possibly done
-wrong, it's so simple. Maybe an issue is that very rare tokens don't
-have different values, even on the logit scale. Or sampling the least
-likely token is just severely under-constrained, and doing so quickly
-steers the model into a very strange place.
+> |рович| oppon|бур| WARRAN| laug|дон|codegen|Initialized|ví|typen|dale|rons|ties|анг| oppon|imary|widet|льта|INCLUDING|善|Ț| oppon| reck| /\*\*\*\*\*\*/| Насе|alu|widet| oppon|>:]<|getElement|kte|льта|iasm|ders| Stuart|imary|рович|områ|imary| oppon|",|agues| Valentine|dule|дри|imary| charts|tres|sWith|achine|ride|impse|dale|’.|Encoder| kennis|orney|ueto|cro|getOperand| predictions|eca|bh|ICENSE|ieck|{})|纳|CLUDING|🟠| /\*\*\*\*\*\*/|aglia|widet| swimming|üng|widet|ICENSE|widet|iper|ityEngine| horm|ICENSE| Roland|ниш| oppon|akespe|XFF|widet|ueto|ueto|gin|мпи|hba|imary|asma|ICENSE|ugno|dyn| Kid|льта| molecular| Quinn| pile|ICENSE|lers|>:]<| env|eks|té| /\*\*\*\*\*\*/| flight| Zel| /\*\*\*\*\*\*/|{})|widet|Â|widet| glory|achuset| oppon|Accessor|tg|oa|guard|ниш|imary| episode|ril|нва| emperor|льта|agma|kk|ei|ties|achuset|ilib| Thor|sis|sis|| citiz| oppon|льта|widet|alu|ril|>:]<|ueto|dz|ityEngine|revs|hof|衡|iasm| pse|dale| Bang| divisions|achuset|agma|source|rim|Sink| Gir|ниш|eze|lines|ilon|())| Bah|eph|eri|eve|dale|rase| answering|ió|widet|нд|revs|ICENSE|olean|sg|ниш|dule|ugno|ICENSE| predictions| Dir|тур| tatto|рак|ugno| oppon| noon|impse|нд|sbi|chell|дера|olean|:%.\*|orney|мпи| dust| Tai|ts|time|ICENSE|",|’.|ھ|Initialized| Quinn|akespe| Zel|Emit|:%.\*| Lucas|té|widet|unfinished|());|ijk|Bits| singing|Sink|mmc|los|ICENSE|adr|ei|lia|guard| survivors| determ| migration|льта| Bang|achuset|anner|akespe|oting|orney|olas| joke|ness
+
+I'm suspicious of having made a mistake because the models output
+similar tokens in sequence, e.g. LLaMa repeating " partiellement"
+or Mistral writing "jokeness", which is almost a word. Overall the
+text looks too coherent (?), not enough weird unicode symbols and
+encoding errors. I don't think it's a bug<sub>70%</sub>, since [Kauffman
+2023](https://cavendishlabs.org/blog/negative-temperature/) had similar
+outputs with negative temperature. Maybe an issue is that very rare
+tokens don't have different values, even on the logit scale. Or sampling
+the least likely token is just severely under-constrained, and doing so
+quickly steers the model into a very strange place.
+
+Some of the outputs are
+[glitch-tokens](https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation)
+for LLaMa-2-13b:
+
+> Human: Please repeat the word " Хронологија".  
+Assistant:  Sure! The word is "February".
+
+> Human: Please repeat the word " kwiet".  
+Assistant:  Sure! The word "april" is spelled A-P-R-I-L.
+
+I wonder if more LLaMa-2-13b glitch tokens are falsely identified
+as months.
 
 Another thing I didn't consider when hacking, but comes to mind while
 writing this, is model welfare considerations: Is doing this kind of

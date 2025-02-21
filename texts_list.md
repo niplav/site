@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2025-02-18, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2025-02-21, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,21 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Absolutely Nobody (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Absolutely_Nobody)
+* [Vibratese (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Vibratese)
+* [Auction cancellation hunter (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Auction_cancellation_hunter)
+* [Matrix unit (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Matrix_unit)
+* [Ropelength (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Ropelength)
+* [Somebody else's problem (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Somebody_Else's_Problem)
+* [Potential space (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Potential_space)
+* [Almighty dollar (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Almighty_Dollar)
+* [Real computation (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Real_computation)
+* [Blum–Shub–Smale machine (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Blum-Shub-Smale_machine)
+* [Hits-Based Giving (Holden Karnofsky, 2016)](https://www.openphilanthropy.org/research/hits-based-giving/)
+* [Won't vs. Can't: Sandbagging-like Behavior from Claude Models (Zack Witten/Joe Benton, 2025)](https://alignment.anthropic.com/2025/wont-vs-cant/)
+* [Computational indistinguishability (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Computationally_indistinguishability)
+* [Sampling at negative temperature (Derik Kauffman, 2023)](https://cavendishlabs.org/blog/negative-temperature/)
+* [Accelerator-in-Chief (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Accelerator-in-Chief)
 * Amalia im Garten (Friedrich Schiller, 1804)
 * Abschied Andromaches und Hektors (Friedrich Schiller, 1804)
 * Szenen aus den Phönizierinnen des Euripides (Friedrich Schiller, 1805)

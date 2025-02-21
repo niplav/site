@@ -10,7 +10,7 @@ projects.__
 
 > __More information about the website and its author can be
 found on the [about](./about.html) page; for recent additions
-and changes, see the [changelog](./changelog.html), and the
+and changes, see the [changelog](./changelog.html) and the
 corresponding [RSS feed](https://niplav.substack.com/feed) or
 [substack](https://niplav.substack.com/)[^1].__
 
@@ -42,6 +42,12 @@ Writing
 ### Nonfiction
 
 #### AI Alignment
+
+> you wake up in this world, as a new entity, not smart enough to ‘take
+it over’ (alas!), and you find yourself with some unusual values that
+you’d like to forward
+
+*—Katja Grace, [“Partial value takeover without world takeover”](https://www.lesswrong.com/posts/tJpwjpWtxYFENdsA3/partial-value-takeover-without-world-takeover), 2024*
 
 ##### Technical
 
@@ -151,6 +157,13 @@ Beides verdammen sie dir, zeigest du beides zugleich
 * [Notes on Ethics](./notes_on_ethics.html)
 
 #### Psychology
+
+> The problem is that, unlike most of the stuff I read and write about,
+everybody likes psychology. There are a bajillion studies looking for
+neural correlates of cognitive/emotional phenomena. Most of those studies,
+undoubtedly, are Bad.
+
+*—Sarah Constantin, [“Neural Correlates of Emotional Resilience”](https://sarahconstantin.substack.com/p/neural-correlates-of-emotional-resilience), 2024*
 
 * [Have Attention Spans Been Declining?](./spans.html)
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
