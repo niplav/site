@@ -17,6 +17,7 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Superradiant laser (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Superradiant_laser)
 * [Absolutely Nobody (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Absolutely_Nobody)
 * [Vibratese (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Vibratese)
 * [Auction cancellation hunter (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Auction_cancellation_hunter)
