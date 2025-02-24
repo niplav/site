@@ -179,6 +179,16 @@ undoubtedly, are Bad.
 
 ### Other
 
+> In einer Ecke des Zimmers lag auf dem Fußboden all das in einem
+Haufen, was von gröberer Art und nicht würdig war, auf den Tischen zu
+liegen. Was sich aber in dem Haufen befand, war schwer zu bestimmen, denn
+er war mit solch einem Übermaß von Staub bedeckt, daß die Hände eines
+jeden, der ihn berührte, sich wie mit Handschuhen überzogen hätten;
+mehr als anderes fielen ein abgebrochenes Stück von einem Holzspaten,
+das dort hervorragte, und eine alte Stiefelsohle auf.
+
+*—[Nikolai Googol](https://en.wikipedia.org/wiki/Nikolai_Gogol), “Die toten Seelen”, 1842*^
+
 * [Against Applause After Classical Concerts](./against_applause.html)
 * [Two People on a Planet](./two_people_on_a_planet.html)
 * [Progress in Qualia](./qualia.html)

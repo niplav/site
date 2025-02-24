@@ -2252,6 +2252,14 @@ I don't know whether such constructions are possible or desirable,
 but I would like to hear some feedback by someone more knowledgeable
 about physics.
 
+<!--TODO: send single black hole ahead of the probe, cleaning out the way,
+gravitation is strong enough to attract them to be close when they arrive,
+but not so strong that the probe falls into the black hole
+
+Also, note that this contraption prevents the probe from being a Bussard
+ramjet
+-->
+
 Centaur Stage
 --------------
 

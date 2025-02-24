@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2025-02-14, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2025-02-23, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -25,6 +25,17 @@ content.
 
 February 2025
 --------------
+
+> Läutert mich ätherisch Feuer?  
+Tragen Wirbel mich empor? — — —  
+>
+> Neuer Geister Sonnensitze  
+Winken durch rerrißner Himmel Ritze —  
+Überm Grabe Morgenrot!  
+Weg, ihr Spötter, mit Insektenwitze!  
+Weg! Es ist ein Gott — — — —
+
+*—Friedrich Schiller, “Laura am Klavier”, 1804*
 
 * [Forager Society is a Disease of the Flesh, Industrial Society is a Disease of the Soul](./notes.html#Forager_Society_is_a_Disease_of_the_Flesh_Industrial_Society_is_a_Disease_of_the_Soul)
 * [Least Likely Completions for Language Models](./notes.html#Least_Likely_Completions_for_Language_Models)
@@ -274,7 +285,7 @@ glass comes to life and kills you.
 ### Links
 
 * [ZWSP](https://zerowidthspace.me/): Copy a zero-width space to your clipboard
-* [Last Two Afghan Jews Fighting Each Other](https://youtu.be/b4fx6BjWEqk?si=437Uleq4GT3IZX4m), see also [Zablon Simintov](https://en.wikipedia.org/wiki/Zablon_Simintov) ("In November 2013, Simintov announced that he would close his kebab restaurant in March 2014 due to declining business after the reduction of American and NATO forces in Afghanistan.")
+* [Last Two Afghan Jews Arguing With Each Other](https://youtu.be/b4fx6BjWEqk?si=437Uleq4GT3IZX4m), see also [Zablon Simintov](https://en.wikipedia.org/wiki/Zablon_Simintov) ("In November 2013, Simintov announced that he would close his kebab restaurant in March 2014 due to declining business after the reduction of American and NATO forces in Afghanistan.")
 * [Replications & Reversals](https://forrt.org/reversals/)
 
 March 2024

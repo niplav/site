@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-15, modified: 2025-01-19, language: english, status: in progress, importance: 8, confidence: highly likely*
+*author: niplav, created: 2023-04-15, modified: 2025-02-22, language: english, status: in progress, importance: 8, confidence: highly likely*
 
 > __I [consider](#Motivation) the problem of resolving preferences
 that are inconsistent under the [von Neumann-Morgenstern
@@ -119,6 +119,10 @@ agent with a utility function can't be money-pumped [Gustaffson
 2022](https://johanegustafsson.net/books/money-pump-arguments/),
 and it is compatible with taking Pareto improvements [Wald
 1947](https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-18/issue-4/An-Essentially-Complete-Class-of-Admissible-Decision-Functions/10.1214/aoms/1177730345.full).
+Empirically, while humans don't reliably fulfill the
+vNM axioms, cognitive abilities correlate positively
+with having less intransitive preferences [Rustichini
+2015](./doc/psychology/the_role_of_intelligence_in_economic_decision_making_rustichini_2015.pdf).
 
 The von Neumann-Morgenstern axiom has
 [been](https://www.lesswrong.com/posts/yCuzmCsE86BTu9PfA/there-are-no-coherence-theorems)
@@ -130,10 +134,6 @@ art" in decision theory—it seems plausible to me that vNM will
 be superseded by some theory that is "better" along the relevant
 dimensions<sub>57%</sub>. I hope that in that case the lessons learned
 from resolving vNM-inconsistent preferences transfer over somewhat.
-
-<!--TODO: cite Rustichini
-./doc/psychology/the_role_of_intelligence_in_economic_decision_making_rustichini_2015.pdf
-here for justification-->
 
 ### Structure of the Text
 
