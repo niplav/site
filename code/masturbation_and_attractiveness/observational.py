@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import scipy.stats as sps
 import matplotlib.pyplot as plt
 
 def get_masturbations():
@@ -21,6 +22,9 @@ both=pd.merge_asof(approaches, masturbations, left_on='Datetime', right_on='date
 both['Abstinence']=both['Datetime']-both['datetime']
 both['Rounded']=both['Abstinence'].dt.round('2d')
 both['Contactind']=both['Contact'].notna()
+both=both[['Contactind', 'Abstinence', 'Rounded']].dropna()
+
+slope, intercept, r, p, stderr=sps.linregress(both['Abstinence'].dt.seconds, both['Contactind'])
 
 result=both[['Rounded', 'Contactind']].groupby('Rounded').agg(['mean', 'size'])
 
@@ -31,7 +35,6 @@ def betavar(group):
 
 result['std']=both[['Rounded', 'Contactind']].groupby('Rounded').agg(betavar).rename(columns={'Contactind': 'std'})
 
-#TODO: add sample size, also x-axis is slightly artefacted
 result['Contactind']['mean'].plot.bar(yerr=result['std'], rot=90, figsize=(16, 14),
 	xlabel='Time since last masturbation', ylabel='Proportion contact exchanged', color='red')
 plt.savefig('errorbars.png')

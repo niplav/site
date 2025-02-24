@@ -17,6 +17,17 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Vapor cone (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Vapor_cone)
+* [What if muscle tension is sometimes signal jamming? (Chris Lakin, 2024)](https://chrislakin.blog/p/what-if-muscle-tension-is-sometimes)
+* An einen Moralisten (Friedrich Schiller, 1804)
+* Das Glück und die Weisheit (Friedrich Schiller, 1804)
+* Der Triumph der Liebe (Friedrich Schiller, 1804)
+* Die Kindsmörderin (Friedrich Schiller, 1804)
+* Rousseau (Friedrich Schiller, 1804)
+* Laura am Klavier (Friedrich Schiller, 1804)
+* Die Entzückung an Laura (Friedrich Schiller, 1804)
+* [|6 Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs (Mantas Mazeika/Xuwang Yin/Rishub Tamirisa/Jaehyuk Lim/Bruce W. Lee/Richard Ren/Long Phan/Norman Mu/Adam Khoja/Oliver Zhang/Dan Hendrycks, 2025)](https://www.emergent-values.ai/)
+* xAI Risk Management Framework (xAI, 2025)
 * [Superradiant laser (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Superradiant_laser)
 * [Absolutely Nobody (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Absolutely_Nobody)
 * [Vibratese (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Vibratese)

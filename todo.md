@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2024-05-11, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2025-02-23, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -9,16 +9,6 @@ as well as music.__
 
 Todo
 =====
-
-> In einer Ecke des Zimmers lag auf dem Fußboden all das in einem
-Haufen, was von gröberer Art und nicht würdig war, auf den Tischen zu
-liegen. Was sich aber in dem Haufen befand, war schwer zu bestimmen, denn
-er war mit solch einem Übermaß von Staub bedeckt, daß die Hände eines
-jeden, der ihn berührte, sich wie mit Handschuhen überzogen hätten;
-mehr als anderes fielen ein abgebrochenes Stück von einem Holzspaten,
-das dort hervorragte, und eine alte Stiefelsohle auf.
-
-*—[Nikolai Googol](https://en.wikipedia.org/wiki/Nikolai_Gogol), “Die toten Seelen”, 1842*
 
 Site
 -----

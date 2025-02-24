@@ -1,5 +1,6 @@
-import pandas as pd
 import numpy as np
+import pandas as pd
+import scipy.stats as sps
 import matplotlib.pyplot as plt
 
 def get_meditations():
@@ -28,6 +29,8 @@ summed=merged[['Approach', 'meditation_duration']].groupby('Approach').sum()
 both=pd.merge(approaches, summed, on='Approach')
 both['Rounded']=(both['meditation_duration']/(rounder)).round()
 both['Contactind']=both['Contact'].notna()
+
+slope, intercept, r, p, stderr=sps.linregress(both['meditation_duration'], both['Contactind'])
 
 result=both[['Rounded', 'Contactind']].groupby('Rounded').agg(['mean', 'size'])
 
