@@ -35,6 +35,7 @@ def betavar(group):
 
 result['std']=both[['Rounded', 'Contactind']].groupby('Rounded').agg(betavar).rename(columns={'Contactind': 'std'})
 
+#TODO: add sample size, also x-axis is slightly artefacted
 result['Contactind']['mean'].plot.bar(yerr=result['std'], rot=90, figsize=(16, 14),
 	xlabel='Time since last masturbation', ylabel='Proportion contact exchanged', color='red')
 plt.savefig('errorbars.png')

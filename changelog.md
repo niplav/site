@@ -39,8 +39,9 @@ Weg! Es ist ein Gott — — — —
 
 * [Forager Society is a Disease of the Flesh, Industrial Society is a Disease of the Soul](./notes.html#Forager_Society_is_a_Disease_of_the_Flesh_Industrial_Society_is_a_Disease_of_the_Soul)
 * [Least Likely Completions for Language Models](./notes.html#Least_Likely_Completions_for_Language_Models)
-* [Vascular Tension and Attractiveness](./notes_on_pickup.html#Vascular_Tension_and_Attractiveness): Does meditating make one more attractive? Probably not.
+* [Vascular Tension and Attractiveness](./notes_on_pickup.html#Vascular_Tension_and_Attractiveness): Does meditating make one more attractive? Result: Probably not.
 * [Analysis of Observational Data](./masturbation_and_attractiveness.html#Appendix_D_Analysis_of_Observational_Data) on whether abstaining from masturbation makes one more attractive. Result: probably not.
+* [Patching ~All Security-Relevant Open-Source Software?](./notes.html#Patching_All_SecurityRelevant_OpenSource_Software): It's expensive, even if done automatically.
 * Updated [Does Recent Masturbation Decrease Meditation Quality?](./quality.html) with improved analysis & data, result: Abstaining from masturbation probably makes meditation worse.
 * [Daygame Data Makeover](./data.html#Daygame)
 
