@@ -88,6 +88,7 @@ HTML=index.html \
 	nootropics.html \
 	nuclear.html \
 	options.html \
+	patching.html \
 	pipe_rings.html \
 	platforms.html \
 	platte.html \
@@ -113,6 +114,7 @@ HTML=index.html \
 	turning.html \
 	two_people_on_a_planet.html \
 	utilitarian_compliments.html \
+	will.html \
 	wireheading.html \
 	bp_chrono.html \
 	ob_chrono.html \

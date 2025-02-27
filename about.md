@@ -353,6 +353,7 @@ The complete list of confidence tags is as follows:
 * "fiction"
 * "theory"
 * "opinion"
+* "joke"
 * "translation"
 * "transcription"
 * "emotional"

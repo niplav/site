@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2024-11-07, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2025-02-27, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of [puns](#Puns), [good
 bandnames](#Good_Bandnames), [types of guy](#Types_of_Guy), idioms,
@@ -416,6 +416,8 @@ Equivalences
 * Evolution : lifetime learning : humans : human values :: neural architecture search : SGD : ML systems : ML system goals
 * [Bullwhip effect](https://en.wikipedia.org/wiki/Bullwhip_Effect) : markets :: [exploding gradients](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) : neural network training :: epilepsy : brains :: [cytokine storm](https://en.wikipedia.org/wiki/Cytokine_Storm) : immune systems :: [hypereutrophy](https://en.wikipedia.org/wiki/Trophic_State_Index#Hypereutrophic) : ecosystems :: jhanas : meditation <!--TODO: add link to own & Gavin's tweet-->
 	* Bullwhip effect : bubbles : markets :: exploding gradients : momentum : neural network training :: epilepsy : confirmation bias : brains
+	* Transposons : organisms :: [human resources](https://en.wikipedia.org/wiki/Human_Resources) : corporations
+	* Prions : organisms :: ? : corporations
 * Editors : Wikipedia :: hot women : dating apps
 * LLMs : Pre-training : Fine-Tuning : RLHF : Constitutional AI :: Humans : Predictive Processing : Selective Attention : Reinforcement Learning : Cultural Learning
 * David Gerard : Eliezer Yudkowsky :: Lucifer : God :: Émile Torres : William MacAskill :: Melkor : Eru Illúvatar
@@ -596,7 +598,7 @@ Missing Emoji
 * Pillow
 * Carriage
 * Galaxy
-* Toast (in various stages of crispness)
+* Toast (using [skin tone indicators](https://en.wikipedia.org/wiki/Emoji#Skin_color) to signify various levels of crispness)
 * [Lime](https://x.com/mulltuhh/status/1799816080875233538)
 * [Various egypt-themed emoji](http://nitter.poast.org/hum_dunkin/status/1776579149739528668)
 

@@ -28,14 +28,6 @@ Site
 	* Add tags for chapters/sort by chapters
 	* Prune flagged cards?
 * Maybe a dark mode?
-* Add RSS feed (ugh)
-	* <https://www.interglacial.com/tpj/26/>
-	* <https://github.com/html2rss/html2rss>
-	* <http://fetchrss.com/>
-	* <https://www.linux.com/news/building-command-line-generator-rss-feeds-0/>
-	* <https://lynxbee.com/bash-script-to-generate-rss-feed-compatible-xml-using-unique-urls-of-a-website/#.Yl_EYlxBxH5>
-	* <https://www.makeuseof.com/tag/how-to-create-an-rss-feed-for-your-site-from-scratch/>
-	* <https://florian-dahlitz.de/articles/create-feeds-for-your-blog>
 * Add metadata to hosted PDFs/videos
 * List of writings by importance/finishedness
 	* List of texts by year/author
@@ -46,12 +38,10 @@ Site
 	* Incorporate <https://www.gwern.net/static/build/markdown-lint.sh>
 	* <https://www.html-tidy.org/>
 	* <https://github.com/amperser/proselint/>
-* Find for a way to allow for LaTeX in code blocks that doesn't break everything immediately
 * Pre-render LaTeX:
 	* <https://www.gwern.net/docs/www/joa.sh/290f53c78d4b287be8059260f613988a8abda677.html>
 	* <https://github.com/pkra/mathjax-node-page/>
 * Maybe collapsable sections?
-* Title is not JS-added
 * Reading ruler (?)
 * Move from `$\mapsto$` to `$\rightarrow$`
 * Move `text_reviews.md` to `reviews.md`
