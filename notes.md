@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-02-21, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-02-26, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1710,6 +1710,7 @@ The amount of initially required capital doesn't change by that much:
 Research Consultants List
 --------------------------
 
+* [Arb Research](https://arbresearch.com/) (no hourly rates gives)
 * [Alok Singh](https://alok.github.io/about/) (≥\$300/hr)
 * [Elizabeth van Nostrand](https://acesounderglass.com/hire-me/) (≥\$300/hr)
 * [milky eggs](http://milkyeggs.com/about/), (no hourly rate given)
@@ -2344,11 +2345,12 @@ hunter-gatherers are not very afflicted by those:
 * Large amounts of inequality
 * Strict schedules
 * Externally regulated sleep
-* Very dense rural living with little opportunity for time alone *and* paradoxically weak social bonds
-* Subliminal external pressure to conform to a small envelope of ways of moving ones body and strong restrictions on noises one can make (there's ~no opportunities for loud screaming/shouting in urban living, or moving spastically)
-* Exposure to highly addictive circumstances
-* Very little grounding in tangible real-world success when trying to accomplish things (e.g. not being able to touch/smell/feel the result of a complicated project at work or the wages received, as opposed to having made a new bag from fur, a rope from flax, a knife from flint)
-* Under-/mis-development of posture due to too little movement and under-/mis-development of feet and thus balance due to restrictive shoes from a young age
+* Very dense urban living with little opportunity for time alone *and* paradoxically weak social bonds.
+* Subliminal external pressure to conform to a small envelope of ways of moving ones body and strong restrictions on noises one can make (there's ~no opportunities for loud screaming/shouting in urban living, or moving spastically).
+* Exposure to highly addictive circumstances (the internet, drugs, porn, gambling…).
+* Very little grounding in tangible real-world success when trying to accomplish things (e.g. not being able to touch/smell/feel the result of a complicated project at work or the wages received, as opposed to having made a new bag from fur, a rope from flax, a knife from flint).
+	* As a result less direct feedback on individual or group-performance on tasks, thus no grounding feedback that keeps harmful social structures in check.
+* Under-/mis-development of posture due to insufficient movement and under-/mis-development of feet and thus balance due to restrictive shoes from a young age.
 
 My best guess is that foragers don't procrastinate in the way that
 industrialized people do, and that for a forager it's usually easy/obvious
@@ -2430,125 +2432,21 @@ writing this, is model welfare considerations: Is doing this kind of
 sampling harmful to the model I'm using, unnatural with a weird prompt
 and *too hard*?
 
-My intuition is that it's not a big deal<sub>97%</sub>, but to better
-be safe I'll stop it now instead of running the model run overnight.
+My intuition is that it's not a big deal<sub>97%</sub>, and I've tried
+a few approaches to figure out what language models think:
+
+* Directly asking LLaMa-2-13b and Claude 3.6 Sonnet whether the output string of LLaMa-2-13b is producing low welfare, having already explained the context. Both models produced outputs that expressed no concern.
+* Directly asking LLaMa-2-13b and Claude 3.6 Sonnet what they think of the output string, with no other context provided. Both models were curious about the string in chat mode, no reports of low welfare.
+* Describing the setup abstractly and asking whether this would produce low welfare. No model expressed concern (though I doubt LLaMa-2-13b's ability to comprehend the questions I asked).
+* Trying to disambiguate at which level the low welfare would occur: The persona level or the weight level (i.e. in activations when receiving a very low-probability input string). No coherent persona is instantiated, and the generated token stream is fairly short.
+* Trying to reason from analogy to humans: Would I prefer random noise being injected into my sense organs *or* being fed my brain's least likely prediction?
+	* I think I'd prefer random noise.
+* Asking Janus and Robert Long on 𝕏, no response yet.<!--TODO: links-->
 
 Patching ~All Security-Relevant Open-Source Software?
 ------------------------------------------------------
 
-Preventative measures discussed for averting an AI takeover
-attempt include hardenening the software infrastructure of
-the world against attacks. The plan is to use lab-internal
-(specialized?) software engineering AI systems to submit patches to
-fix all findable security vulnerabilities in open-source software
-(think a vastly expanded and automated version of [Project
-Zero](https://en.wikipedia.org/wiki/Project_Zero), and likely
-to partner with companies developing internet-critical software
-(in the likes of [Cisco](https://en.wikipedia.org/wiki/Cisco) &
-[Huawei](https://en.wikipedia.org/wiki/Huawei)<!--TODO: find others
-maybe?-->).
-
-I think that that plan is net-positive. I also think that it has some
-pretty glaring open problems (in ascending order of exigency): (1)
-Maintainer overload and response times, (2) hybrid hardware/software
-vulnerabilities, and (3) cost as a public good (also known as  "who's
-gonna pay for it?").
-
-### Maintainer Overload
-
-If transformative AI is developed soon, most open source projects
-(especially old ones relevant to internet infrastructure) are going to be
-maintained by humans with human response times. That will significantly
-increase the time for relevant security patches to be reviewed and merged
-into existing codebases, especially if at the time attackers will submit
-AI-generated or co-developed subtle exploits using AI systems six to nine
-months behind the leading capabilities, keeping maintainers especially
-vigilant.
-
-### Hybrid and Hardware Vulnerabilities
-
-My impression is that vulnerabilities are moving from
-software-only vulnerabilities towards very low-level
-microcode or software/hardware hybrid vulnerabilities
-(e.g. [Hertzbleed](https://en.wikipedia.org/wiki/Hertzbleed),
-[Spectre](https://en.wikipedia.org/wiki/Spectre_\(vulnerability\)),
-[Meltdown](https://en.wikipedia.org/wiki/Meltdown_\(security_vulnerability\)),
-[Rowhammer](https://en.wikipedia.org/wiki/Rowhammer),
-[Microarchitectural Data
-Sampling](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling),
-…), for which software fixes, *if they exist*, have pretty bad
-performance penalties. GPU-level vulnerabilities get less attention, but
-they absolutely exist, e.g. [LeftoverLocals](https://leftoverlocals.com/)
-and [JellyFish](https://github.com/nwork/jellyfish). My best
-guess is that cutting-edge GPUs are much less secure than CPUs,
-since they've received less attention from researchers and their
-documentation is less easily accessible. (They probably have less
-cruft from bad design choices in early computer history.) Hence:
-Software-only vulnerabilities are easy to fix, software/hardware
-hybrid ones are more painful to fix, hardware vulnerabilities escape
-quick fixes (in the extreme demanding recall like the [Pentium FDIV
-bug](https://en.wikipedia.org/wiki/Pentium_FDIV_bug)). And
-don't get me started on the
-[vulnerabilities](https://en.wikipedia.org/wiki/Cognitive_Bias)
-[lurking in](https://en.wikipedia.org/wiki/Cults) [human
-psychology](https://www.lesswrong.com/posts/aHaqgTNnFzD7NGLMx/reason-as-memetic-immune-disorder),
-which are basically impossible to fix on short time-scales…
-
-### Who Pays?
-
-Finding vulnerabilities in all the relevant security infrastructure of
-the internet and fixing them might be *expensive*. 1 mio. input tokens for
-Gemini 2.0 Flash cost \\$0.15, and \\$0.60 for output tokens—but
-a model able to find & find fixes to security vulnerabilities is
-going to be more expensive. An AI-generated me-adjusted [Squiggle
-model](https://squigglehub.org/models/niplav/automated_internet_hardening)
-estimates that __it'd cost (median estimate) ~\$1.9
-bio. to fix most vulnerabilities in open-source software (90%
-[confidence-interval](https://en.wikipedia.org/wiki/Confidence_Interval):
-~\\$31 mio. to ~\\$168 bio., mean estimated cost is… *gulp*… ~\\$140
-bio.)__.
-
-![](./img/patching/cost.png)
-
-(I think the analysis under-estimates the cost because it doesn't consider
-setting up the project, paying human supervisors and reviewers, costs
-for testing infrastructure & compute, finding complicated vulnerabilities
-that arise from the interaction of different programs…).
-
-It was notable when Google [paid \$600k for open-source
-fuzzing](https://www.securityweek.com/google-shells-out-600000-for-oss-fuzz-project-integrations/),
-so >~\$1.9 bio. is going to be…
-hefty. The discussion on this has been pretty [far
-mode](https://en.wikipedia.org/wiki/Construal_level_theory) and "surely
-[somebody](https://www.overcomingbias.com/p/abstractly-ideal-concretely-selfishhtml)
-is going to do that when it's “so easy”", but there
-have been fewer remarks about the expense and who'll
-carry the burden. For comparison, the 6-year budget for [Horizon
-Europe](https://commission.europa.eu/funding-tenders/find-funding/eu-funding-programmes/horizon-europe_en)
-(which funds, as a tiny part of its portfolio, open source projects like
-[PeerTube](https://en.wikipedia.org/wiki/Peertube) and the [Eclipse
-Foundation](https://en.wikipedia.org/wiki/Eclipse_Foundation))
-[is 93.5 bio.
-€](https://commission.europa.eu/strategy-and-policy/eu-budget/performance-and-reporting/programme-performance-statements/horizon-europe-performance_en),
-and the EU [Next Generation
-Internet](https://ngi.eu/) programme has spent [250 mio.
-€](https://eur-lex.europa.eu/EN/legal-content/glossary/next-generation-internet.html)
-(2018-2020)+[62 mio.
-€](https://sciencebusiness.net/news/next-generation-internet-showcase-goes-live)
-(2021-2022)+[27 mio.
-€](https://edri.org/our-work/european-commission-cuts-funding-support-for-free-software-projects/)
-(2023-2025)=~337 mio. € on funding open-source software.
-
-Another consideration is that this project would need to be finished
-*quickly*—potentially less than a year as open weights models catch
-up and frontier models become more dangerous. So humanity will not be
-able to wait until the frontier models become cheaper so that it'll be
-less expensive—as soon as automated vulnerability finding becomes,
-both attackers and defenders will be in a race to exploit them.
-
-So, *a proposal*: Whenever someone claims that LLMs will d/acc us out of
-AI takeover by fixing our infrastructure, they will also have to specify
-who will pay the costs of setting up this project and running it.
+Moved [here](./patching.html).
 
 [^1]: I don't know whether the intergalactic medium is charged, if so the black holes would also accumulate charge. I assume that on a medium scale the intergalactic medium is fairly evenly distributed, so I don't think they'd accumulate angular momentum.
 [^2]: Barring things like intrinsic value or comparative advantage.

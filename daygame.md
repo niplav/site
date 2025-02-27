@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-10-17, modified: 2024-11-20, language: english, status: notes, importance: 3, confidence: log*
+*author: niplav, created: 2024-10-17, modified: 2025-02-28, language: english, status: notes, importance: 3, confidence: log*
 
 > __[Yes.  
 I did it.  
@@ -16,11 +16,16 @@ guy who likes to fuck. But getting laid is a
 with regularities that can be learned, and an ecosystem with different
 niches. One of them is daygame, and it's been my favorite for years.
 
+> I will walk into a court, while erect, screaming  
+"Yes, Motherfuckers, *I am guilty*, __I am Death__"
+
+*—Run The Jewels, “Nobody Speak”, 2014*<!--TODO: check year, add links with timestamp-->
+
 1) What
 --------
 
 There's no widely accepted definition of daygame, and the standard
-textbooks[^1] don't offer one. (They go straight to the chase.) Here's
+textbooks[^1] don't offer one. (They cut straight to the chase.) Here's
 mine:
 
 __Daygame__ is the craft of walking up to women in public, and talking
@@ -39,7 +44,8 @@ shrimp and receding galaxies.
 
 <!--TODO: comment from https://manifold.markets/market/will-niplav-get-laid-by-eoy-2025?tab=comments#3pgnvm4i1zl-->
 
-But, like, still, is daygame *net good*? For others, that is, not for me.
+But, like, still, is daygame *net good*? For others, that is, not [for
+me](./daygame_cost_benefit.html).
 
 Insofar that daygame is good (or bad) for others, there's two obvious
 groups that can be considered: The women being approached, and the world
@@ -66,6 +72,8 @@ The Alternatives
 
 ### Nightgame
 
+Tbh I have a lot of respect to nightgamers.
+
 What It's Like
 ---------------
 
@@ -80,3 +88,9 @@ In Which we Finally Get to the Meat; or: The Effectiveness and Results so Far; o
 
 The Flower of Liberalism, The Jewel of Feminism
 -------------------------------------------------
+
+See Also
+---------
+
+<!--TODO: add link to Alvaro's essay on the Autist and his harem,
+others?-->

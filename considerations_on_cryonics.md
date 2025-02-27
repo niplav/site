@@ -1609,6 +1609,8 @@ y-axis. This should get fixed sometime in the future.
 
 ![Critical perspective on cryonics](./img/considerations_on_cryonics/critical.png "Critical perspective on cryonics. The older one get's, the less of a loss cryonics is, but it still stays a net negative trade.")
 
+<!--TODO: Sooner singularity?-->
+
 <!--
 ### Where Waiting Makes Sense
 

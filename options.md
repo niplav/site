@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-09-20, modified: 2024-09-20, language: english, status: draft, importance: 5, confidence: certain*
+*author: niplav, created: 2024-09-20, modified: 2025-02-28, language: english, status: draft, importance: 5, confidence: certain*
 
 > __In small [normal-form
 games](https://en.wikipedia.org/wiki/Normal-form_game), taking away
@@ -152,3 +152,6 @@ See Also
 
 * Discussions
 	* [LessWrong](https://www.lesswrong.com/posts/2AdfJygXGCEaaTS63/how-often-does-taking-away-options-help)
+* [Classifying games like the Prisoner's Dilemma (philh, 2020)](https://www.lesswrong.com/s/yiFxBWDXnLpbWGTkK/p/KwbJFexa4MEdhJbs4)
+* [Game Theory without Argmax \[Part 1\] (Cleo Nardo, 2023)](https://www.lesswrong.com/s/Qn8DhSrdA2qPH2eJT/p/3ahqzpKvtqkom63cx)
+* [Game Theory without Argmax \[Part 2\] (Cleo Nardo, 2023)](https://www.lesswrong.com/s/Qn8DhSrdA2qPH2eJT/p/BtZSNfAcBGQftAwxq)

@@ -216,6 +216,7 @@ Existence of Long Tails for Bliss and Suffering")<!--TODO: better links for this
 	* In the beginning, don't do this for the returns, but for the value of information on whether you can outperform the market.
 	* If you're performing worse than the market, go back to index funds.
 37. Instead of taking your phone to the gym, you can take a book and read between sets.
+	* This works especially well for (1) textbooks and (2) books of poetry: For a textbook, one can read a definition or a paragraph between sets, for a book of poetry a poem.
 38. Do the obvious things
 	* Exercise any amount
 		*	Even walking around outside for 10 minutes a

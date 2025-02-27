@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-03-12, modified: 2024-11-11, language: english, status: in progress, importance: 2, confidence: other*
+*author: niplav, created: 2022-03-12, modified: 2025-02-27, language: english, status: in progress, importance: 2, confidence: other*
 
 > __Short texts on pickup, mostly daygame.__
 
@@ -518,11 +518,11 @@ Vascular Tension and Attractiveness
 ------------------------------------
 
 Men like to create theories on what they should do in order to become
-attractive to women. One of those theories is that muscular tension
-is *unattractive*: It indicates that a man is hiding his intentions,
-trying to evade from hostile telepaths (because he believes that, if his
-intentions were known, he'd be shunned).<!--TODO: link to Chris Lakins
-writing on this, and the hostile telepaths stuff-->
+attractive to women. One of those theories is that [muscular tension is
+*unattractive*](https://chrislakin.blog/p/what-if-muscle-tension-is-sometimes):
+It indicates that a man is hiding his intentions, trying to evade from
+hostile telepaths (because he believes that, if his intentions were known,
+he'd be shunned).<!--TODO: link to the hostile telepaths stuff-->
 
 I think I can look into a related hypothesis, namely whether *meditation*
 increases success from cold approaching women. The hypothesis is that
@@ -596,3 +596,23 @@ sizes are just too damn small. If I do that, then I don't immediately
 *see* any clear pattern. It's not like meditating a bunch (~2h/day)
 causes more women to give me their contact information, and if anything
 the opposite seems to be the case.
+
+Let's see what the [linear
+regression](https://en.wikipedia.org/wiki/Linear_Regression) has to say:
+
+	>>> slope, intercept, r, p, stderr=sps.linregress(both['meditation_duration'], both['Contactind'])
+	>>> slope
+	-6.349359906142442e-08
+	>>> intercept
+	0.16460352073438347
+	>>> p
+	0.9359174508450456
+	>>> r
+	-0.003251381879711259
+
+Yep, just like I thought, the result could've just as well come from
+random data. (Don't be fooled into thinking the slope is meaningfully
+negative: Such a small p-value means it might just flip to positive at
+the next datapoint).
+
+<!--TODO: plot-->

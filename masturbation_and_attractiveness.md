@@ -919,6 +919,24 @@ Or, in numbers,
 	36 days   0.100000   20  0.065465
 	40 days   0.285714    7  0.159719
 
+But staring at boxplots will only get us so far—is there some
+*correlation* between abstinence and rate of getting contacts?
+
+Well,,,
+
+	>>> slope, intercept, r, p, stderr=sps.linregress(both['Abstinence'].dt.seconds, both['Contactind'])
+	>>> slope
+	1.9392753180021027e-07
+	>>> intercept
+	0.15328373819525995
+	>>> p
+	0.740855868533145
+
+The slope is *very* slightly positive, but the result could've just as
+well arisen from noisy data; the p-value is extremely high.
+
+<!--TODO: plot for the linear regression-->
+
 Appendix E: Subjective Impressions of Nofap
 --------------------------------------------
 

@@ -58,6 +58,7 @@ you’d like to forward
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html)
 * [A TAI Race With China Can Be Better Than Not Racing](./china.html)
 * [On Discontinuous and Fast Takeoff](./foom.html)
+* [Patching ~All Security-Relevant Open-Source Software?](./patching.html)
 
 #### Forecasting
 
@@ -111,8 +112,8 @@ Von dem Sichgeistigen des Lebens Jahre zählen.
 
 * [Nootropics](./nootropics.html)
 * [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
-* [Types & Methods of Data Collection I Use](./data.html)
 * [Does Recent Masturbation Decrease Meditation Quality?](./quality.html)
+* [Types & Methods of Data Collection I Use](./data.html)
 
 #### Practical
 
@@ -187,7 +188,7 @@ jeden, der ihn berührte, sich wie mit Handschuhen überzogen hätten;
 mehr als anderes fielen ein abgebrochenes Stück von einem Holzspaten,
 das dort hervorragte, und eine alte Stiefelsohle auf.
 
-*—[Nikolai Googol](https://en.wikipedia.org/wiki/Nikolai_Gogol), “Die toten Seelen”, 1842*^
+*—[Nikolai Googol](https://en.wikipedia.org/wiki/Nikolai_Gogol), “Die toten Seelen”, 1842*
 
 * [Against Applause After Classical Concerts](./against_applause.html)
 * [Two People on a Planet](./two_people_on_a_planet.html)

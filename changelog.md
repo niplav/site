@@ -41,13 +41,15 @@ Weg! Es ist ein Gott — — — —
 * [Least Likely Completions for Language Models](./notes.html#Least_Likely_Completions_for_Language_Models)
 * [Vascular Tension and Attractiveness](./notes_on_pickup.html#Vascular_Tension_and_Attractiveness): Does meditating make one more attractive? Result: Probably not.
 * [Analysis of Observational Data](./masturbation_and_attractiveness.html#Appendix_D_Analysis_of_Observational_Data) on whether abstaining from masturbation makes one more attractive. Result: probably not.
-* [Patching ~All Security-Relevant Open-Source Software?](./notes.html#Patching_All_SecurityRelevant_OpenSource_Software): It's expensive, even if done automatically.
+* [Patching ~All Security-Relevant Open-Source Software?](./patching.html): It's expensive, even if done by autonomous AI systems.
 * Updated [Does Recent Masturbation Decrease Meditation Quality?](./quality.html) with improved analysis & data, result: Abstaining from masturbation probably makes meditation worse.
 * [Daygame Data Makeover](./data.html#Daygame)
 
 ### Links
 
-* [Lemurs and the True Human Form (Gwenn, 2020)](https://web.archive.org/web/20221230045903/https://everythingtosaveit.how/lemurs-and-the-true-human-form/)
+* [Lemurs and the True Human Form (Gwenn, 2020)](https://web.archive.org/web/20221230045903/https://everythingtosaveit.how/lemurs-and-the-true-human-form/): Intuitively true, humans would look better with big bushy tails. Does that make me a crypto-furry? Author is better known for her other work.
+	* I have a completely unfounded related theory: Physical stress & tension are feelings that go *up*, while relaxation and groundedness go *down*. I think that this is because humans only evolved bipedalism fairly recently, and our bodymap is still not adjusted to it (as well as our *actual* bodies, see all the problems with back pain), so humans are slightly traumatised by having to learn to walk and continue to walk bipedally. (Babies fall *a lot* when learning to walk, crawling is much easier).
+* [Some Unattractive Meta-Ethical Positions, Free to a Good Home (Cosma Shalizi, 2024)](http://bactra.org/notebooks/some-meta-ethical-positions.html)
 * [Expiring laws to stop legal rot (Sam Harsimony, 2024)](https://splittinginfinity.substack.com/p/expiring-laws-to-stop-legal-rot)
 * [Passive measures for lazy self-experimenters (troof, 2022)](https://troof.blog/posts/passive-measures/)
 * Some cool short Wikipedia articles:

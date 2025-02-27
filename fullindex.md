@@ -62,6 +62,7 @@ you’d like to forward
 * [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html)
 * [A TAI Race With China Can Be Better Than Not Racing](./china.html)
 * [On Discontinuous and Fast Takeoff](./foom.html)
+* [Patching ~All Security-Relevant Open-Source Software?](./patching.html)
 
 #### Forecasting
 
@@ -117,8 +118,8 @@ Von dem Sichgeistigen des Lebens Jahre zählen.
 
 * [Nootropics](./nootropics.html)
 * [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
-* [Types & Methods of Data Collection I Use](./data.html)
 * [Does Recent Masturbation Decrease Meditation Quality?](./quality.html)
+* [Types & Methods of Data Collection I Use](./data.html)
 
 #### Practical
 
@@ -165,6 +166,7 @@ Beides verdammen sie dir, zeigest du beides zugleich
 * [Trying to Disambiguate Different Questions about Whether Humans are Turing Machines](./general.html)
 * [Using Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./consciousness_diagram.html)
 * [Arguments Against Preference Utilitarianism](./preference.html)
+* [Creating Libertarian Free Will](./will.html)
 * [Notes on Ethics](./notes_on_ethics.html)
 
 #### Psychology
