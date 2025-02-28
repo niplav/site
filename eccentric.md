@@ -578,6 +578,8 @@ __See Also__:
 
 * [Quora](https://www.quora.com/If-Antarctica-were-to-have-a-native-indigenous-population-what-would-they-be-like)
 
+<!--TODO: schelling.pt thread contains a bit more? Maybe not-->
+
 ### Crime in Antarctica Miniseries
 
 Keeping with the Antarctica theme, the [five

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-09-09, modified: 2025-02-23, language: english, status: notes, importance: 2, confidence: log*
+*author: niplav, created: 2019-09-09, modified: 2025-02-28, language: english, status: notes, importance: 2, confidence: log*
 
 > __Notes and ideas for texts & programs & startups & projects & libraries
 & factories & technologies that will be started decades in the future,
@@ -972,7 +972,7 @@ Game. Even those odds likely overstate the number of Players in the world.
 * There is No Antimemetics Division
 * Worm
 * The Big Short
-	* An Elegy
+	* An Ode
 
 ### Fiction
 
@@ -1027,8 +1027,6 @@ Game. Even those odds likely overstate the number of Players in the world.
 * A Fanfiction of Edge of Tomorty: Rick Die Rickpeat, explaining the dangers of hypercomputation
 	* If you have a closed timelike curve, you are probably uncleashing computational titans the likes of which you can not fathom, beings that would snack superintelligences like potato chips
 	* See also: Causal Noose by qntm, NP-complete Problems and Physical Reality Aaronson 2006, The Hundred-Light-Year Diary
-* Fiction about an expedition to the south pole, finding indigenous population
-	* schelling.pt thread abt this
 * Skalpell Bizeps
 
 > 11-uhr-luft liegt rauh auf dem parkplatzboden. in den ritzen des
@@ -1067,7 +1065,6 @@ Data Sets
 
 Collect data on
 
-* [Masturbation and Attractiveness](./masturbation_and_attractiveness.html#Method)
 * [Subjective Life Expectancy](./estimated_life_expectancy.html#Data_Collection_Method)
 
 Flashcards
@@ -1322,7 +1319,7 @@ Programming
 	* converts a sent presentation to a pdf presentation
 *	1on1match: Platform that connects people who'd like to do 1-on-1s,
 	by personality style
-* Offline version of guesstimate
+* Desk versions of guesstimate/squiggle
 *	A reddit bot on /r/gonewildstories that does a gender analysis for
 	the writing and posts the result
 * choiceworth

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2025-02-27, modified: 2025-02-27, language: english, status: finished, importance: 1, confidence: joke*
+*author: niplav, created: 2025-02-27, modified: 2025-02-27, language: english, status: notes, importance: 1, confidence: joke*
 
 > __New philosophical position/Effective Altruism cause area dropped.__
 

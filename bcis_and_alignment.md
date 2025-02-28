@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-08-17, modified: 2022-07-25, language: english, status: in progress, importance: 6, confidence: possible*
+*author: niplav, created: 2021-08-17, modified: 2022-07-25, language: english, status: on hold, importance: 6, confidence: possible*
 
 > __I discuss arguments for and against the usefulness of brain-computer
 interfaces in relation to AI alignment, and conclude that the path to

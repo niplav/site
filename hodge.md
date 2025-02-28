@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-01-29, modified: 2024-01-29, language: english, status: in progress, importance: 4, confidence: possible*
+*author: niplav, created: 2024-01-29, modified: 2024-01-29, language: english, status: finished, importance: 4, confidence: possible*
 
 > __What perfect sum of cycles and potential!__
 

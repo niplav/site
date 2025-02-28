@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-09-20, modified: 2025-02-28, language: english, status: draft, importance: 5, confidence: certain*
+*author: niplav, created: 2024-09-20, modified: 2025-02-28, language: english, status: finished, importance: 5, confidence: certain*
 
 > __In small [normal-form
 games](https://en.wikipedia.org/wiki/Normal-form_game), taking away
