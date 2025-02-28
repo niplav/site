@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-02-04, modified: 2024-04-15, language: english, status: in progress, importance: 4, confidence: unlikely*
+*author: niplav, created: 2022-02-04, modified: 2024-04-15, language: english, status: on hold, importance: 4, confidence: unlikely*
 
 > __Absence of correlation implies causation ≤5% of the time in
 sparse-ish linear causal networks, but not *never*. The number of causal

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-12-21, modified: 2024-09-22, language: english, status: in progress, importance: 4, confidence: certain*
+*author: niplav, created: 2023-12-21, modified: 2024-09-22, language: english, status: finished, importance: 4, confidence: certain*
 
 > __Changing [credit
 assignment](https://en.wikipedia.org/wiki/Credit_assignment_problem)

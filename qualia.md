@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-20, modified: 2024-05-04, language: english, status: in progress, importance: 5, confidence: remote*
+*author: niplav, created: 2023-01-20, modified: 2024-05-04, language: english, status: maintenance, importance: 5, confidence: remote*
 
 > __[Peter Thiel](https://en.wikipedia.org/wiki/Peter_Thiel) likes
 to distinguish between Progress in Bits (new algorithms, network

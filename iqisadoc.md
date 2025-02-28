@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-07-15, modified: 2023-06-12, language: english, status: in progress, importance: 6, confidence: certain*
+*author: niplav, created: 2022-07-15, modified: 2023-06-12, language: english, status: on hold, importance: 6, confidence: certain*
 
 > __A library for handling forecasting datasets is documented.__
 

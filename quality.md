@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-01-29, modified: 2025-02-08, language: english, status: draft, importance: 3, confidence: possible*
+*author: niplav, created: 2024-01-29, modified: 2025-02-08, language: english, status: finished, importance: 3, confidence: possible*
 
 > __In which I investigate whether not masturbating makes my meditations
 better. It doesn't, and instead plausibly makes them worse<sub>65%</sub>.__
