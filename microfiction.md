@@ -25,7 +25,7 @@ Poems
 * gatekeep girlboss gaslight givewell
 * joy in the merely valuable
 
-> Paradises, peacocks, peaches and palimpsests! Prussians, prowlers plus
+> Paradises, peacocks, peaches & palimpsests! Prussians, prowlers plus
 plumous penguins, priestess parks principles—priceless.
 
 ----
@@ -611,6 +611,22 @@ I continue to maintain that this was a good use of my time.
 ----
 
 ![](./img/memes/multiocular_integral.png)
+
+-----------------
+
+![](./img/memes/tm_vs_bss.png)
+
+-----------------
+
+![](./img/memes/allens_site.jpg)
+
+-----------------
+
+![](./img/memes/cynicist.jpg)
+
+-----------------
+
+![](./img/memes/lgbthebescreal.jpg)
 
 ### Ahegao
 

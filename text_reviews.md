@@ -6,9 +6,10 @@
 > __Reading a text is sometimes a big time investment, but people
 don't approach their reading in a structured manner, e.g. by keeping
 notes, making flashcards, doing exercises, writing reviews or making
-summaries. I have been taking notes on the books I read since mid 2017,
-but have neglected writing reviews or summaries that might be useful to
-others. This is my attempt at salvaging that oversight.__
+summaries. I have been taking notes on [the books I read since mid
+2017](./texts_list.html), but have neglected writing reviews or summaries
+that might be useful to others. This is my attempt at salvaging that
+oversight.__
 
 Text Reviews
 =============
@@ -198,15 +199,16 @@ turning white in the fourth jhāna, and reports about the the nimitta,
 make me wonder what goes on in the visual cortex during absorption
 meditation).
 
-But Brasington just *wants* to believe that the Suttas are basically
-infallible, **especially** when they report what the Buddha said
-(Brasington has remarked on podcasts that we know that the Buddha knew
-what he was talking about, which I don't get—even if he was a great
-meditator and thinker, he could just have been *wrong* sometimes):
-Expecting the Suttas to accurately and coherently reflect reality
-in all its aspects is a bit too optimistic for me. But Brasington
-goes full memetic immune disorder on the Suttas, and the result is
-just…uninteresting?
+But Brasington just *wants* to believe that the Suttas are
+basically infallible, **especially** when they report what the
+Buddha said (Brasington has remarked on podcasts that we know
+that the Buddha knew what he was talking about, which I don't
+get—even if he was a great meditator and thinker, he could
+just have been *wrong* sometimes): Expecting the Suttas to
+accurately and coherently reflect reality in all its aspects is
+a bit too optimistic for me. But Brasington goes full [memetic immune
+disorder](https://www.lesswrong.com/posts/aHaqgTNnFzD7NGLMx/reason-as-memetic-immune-disorder)
+on the Suttas, and the result is just…uninteresting?
 
 __7/10__
 
@@ -217,7 +219,7 @@ topic](https://www.goodreads.com/book/show/50485582-the-precipice);
 this one is sleeker, less filled with random interesting facts, less
 scientific, less exuberant in its prose. I enjoyed the introduction of the
 [SPC framework](https://forum.effectivealtruism.org/topics/spc-framework)
-(though it may be relegated to the dutsbin — unlike with
+(though it may be relegated to the dustbin — unlike with
 [ITN](https://forum.effectivealtruism.org/topics/itn-framework) I haven't
 even seen anyone else pay lip service to it…), found the alleged first
 popular introduction to population axiology cute, and liked the chapters
@@ -235,7 +237,7 @@ Similarly, I was not a huge fan of the chapter on risks from artificial
 intelligence. Too conservative, which might've been warranted before
 GPT-3, but mid-2022? Bad timing to be all "could be soon or bad, or both,
 or not, idk". (Although apparently other reviewers have the opposite
-issue, so perhaps a good compromise was struck in the realm of public
+issue, so perhaps a good compromise was struck for the purpose of public
 communication).
 
 I am unsure about the value lock-in frame. On the one hand,
@@ -244,14 +246,14 @@ x-risk, but not all danger fits in that format: What if AI
 systems don't lock in any specific value, but kill off humanity
 and then go on to explore the space of all possible values, all [YOLOid
 style](https://www.lesswrong.com/posts/BuaFZud9BwkiSCGpd/alignment-might-never-be-solved-by-humans-or-ai)?
-Not lockin, but it surely doesn't look "good" to me.
+Not lock-in, but it surely doesn't look "good" to me.
 
 This framing also invites endless bickering about "who gets to control
 the AIs values" and "democracy" and "social solutions", and the
 *completely separate* issue of stable totalitarianism.
 
 Finally: Who *the hell* decided this was a good way to do endnotes? In
-general the best policy is to [under no circumstances use endnotes, ever,
+general the best policy is to [under no circumstances use endnotes, *ever*,
 __why__](https://entirelyuseless.com/2015/07/11/are-hyperlinks-a-bad-idea/).
 But WWOTF makes it 10x worse: I usually read endnotes,
 because I'm unusually curious and bad at priorization,
@@ -333,7 +335,7 @@ but that seems to be the inevitable conclusion.
 *—Stuart Russell, “Human Compatible” p. 123, 2019*
 
 [Another](#What_We_Owe_The_Future_William_MacAskill_2022) book with an
-orange cover, and another popularization of a thing I spend a lot of
+orange cover, and another popularization of an area I've spent a lot of
 time thinking and reading about. But I like this one much more!
 
 Thoroughly enjoyed the many tidbits from AI history, and the stories
@@ -506,14 +508,14 @@ __8.5/10__
 So far my favorite daygame textbook, and I like it better than the parts
 of Daygame Mastery and Daygame Infinite that I've skimmed. I remember
 someone remarking that Nitro feels more "lived-in", and I agree. It's
-remarkably practical, and solid for its length—the only downside is
-that it centers around the same-day-lay. This is not optimal, especially
-in a book ostensibly for beginners or early intermediate players. It
-also means that it, if I remember correctly, doesn't talk at all
-about texting, and only a bit about dates—and dates are imo the most
-interesting and important part of daygame, similar to the complexity of
-[midgame chess](https://en.wikipedia.org/wiki/Chess_middle_game). A good
-approach approach can be approximated after a couple hundred approaches,
+remarkably practical, and solid for its length—the only downside
+is that it centers around the same-day-lay. This is not optimal,
+especially in a book ostensibly for beginners or early intermediate
+players. It also means that it, if I remember correctly, doesn't talk
+at all about texting, and only a bit about dates—and dates are imo the
+most interesting and important part of daygame, similar to the complexity
+of [midgame chess](https://en.wikipedia.org/wiki/Chess_middle_game). A
+good approach can be approximated after a couple hundred approaches,
 but dates are where your character really gets revealed.
 
 It would've been better to compress the first ~50 pages on inner game,
@@ -538,6 +540,10 @@ daily grind of set after set.
 *—Nick Krauser, “Daygame Nitro” p. 154, 2014*
 
 __8/10__
+
+### Grand Futures (Anders Sandberg, 2023)
+
+__9.5/10__, to leave room for the finished book.
 
 LessWrong Annual Reviews
 -------------------------
