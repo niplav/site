@@ -616,3 +616,21 @@ negative: Such a small p-value means it might just flip to positive at
 the next datapoint).
 
 <!--TODO: plot-->
+
+<!--
+The Direct Date Trick
+----------------------
+
+If daygame is viewed as a funnel process, one'd want to eliminate stages
+of the funnel which cause drop-off. One such stage is texting; not only
+does it cost mental energy and time, it also leads to a
+
+Waiting Outside a Shop Is Rarely Worth It
+------------------------------------------
+
+Public Transport Has Bad Vibes
+-------------------------------
+
+Doing Cold Approach Every Day Is Pretty Powerful
+-------------------------------------------------
+-->

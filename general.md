@@ -9,6 +9,9 @@ but people who defend the view are barking up the right tree.__
 Trying to Disambiguate Different Questions about Whether Humans are Turing Machines
 ====================================================================================
 
+<!--TODO: Check where the linear bounded automata are more appropriate
+than finite-state machines-->
+
 I often hear the sentiment that humans are [Turing
 machines](https://en.wikipedia.org/wiki/Turing_Machine), and that this
 sets humans apart from other pieces of matter.<!--TODO: link twitter-->

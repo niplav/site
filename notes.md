@@ -2448,6 +2448,47 @@ Patching ~All Security-Relevant Open-Source Software?
 
 Moved [here](./patching.html).
 
+Model Expansion and AI Alignment
+---------------------------------
+
+The current trajectory of building superintelligent AI systems is
+omnicidally dangerous<sub>60%</sub>.
+
+One way to make it slightly less dangerous is to train small AI models
+first, check them for their safety properties, and then use the weights
+of those AI models to train larger AI models. In machine learning this
+process of training a bigger model initialized with a smaller model is
+called **model expansion**.
+
+![](./img/expansion/diagram.png)
+
+*Diagram from [Wang et al. 2023](https://arxiv.org/abs/2310.07999)*
+
+To my knowledge, model expansion is not used in training frontier
+AI models.
+
+There's two reasons why I think that this kind of training would be
+safer than pre-training from scratch with randomly initialized weights:
+
+<!--TODO: continue below-->
+
+1. Inheriting safety properties from previous models.
+2. Building on inductive biases favoring speed over simplicity.
+
+Open questions:
+
+1. Is this just a capability nerf?
+2. Is this just a capability bump?
+3. How much information from the small network gets overwritten?
+4. Do the inductive biases of the deeper network "overwhelm" the available circuits in the smaller model?
+
+In an ambitious vision, training after model expansion is a tiny
+step towards a craft of intelligence: one in which different stages
+of a model are trained with different data, invariances are kept
+across scalings, interpretability tools transfer partially (or
+completely) because sometimes weights can be frozen, tracking [model
+splintering](https://www.lesswrong.com/s/kjcioCkqSSS4LiMAe/p/k54rgSg7GcjtXnMHX)…
+
 [^1]: I don't know whether the intergalactic medium is charged, if so the black holes would also accumulate charge. I assume that on a medium scale the intergalactic medium is fairly evenly distributed, so I don't think they'd accumulate angular momentum.
 [^2]: Barring things like intrinsic value or comparative advantage.
 [^3]: For the sake of simplicity I'm assuming that `$i, j, k$` exist here.

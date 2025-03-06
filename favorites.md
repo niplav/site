@@ -295,7 +295,7 @@ ol' reliable [Metaculus](https://www.metaculus.com) and
 
 I don't read the news, except for [Quanta
 Magazine](https://www.quantamagazine.org/), where I'm working through the
-archives (I'm currently up to early 2014). Favorite articles, 10 per year,
+archives (I'm currently up to mid 2014). Favorite articles, 10 per year,
 [here](./notes.html#Favorite_Quanta_Magazine_Articles).
 
 Mathematics
@@ -383,8 +383,8 @@ Barbados](https://en.wikipedia.org/wiki/Flag_of_Barbados) and the
 one of Kazakhstan](https://en.wikipedia.org/wiki/Anthem_of_Kazakhstan)
 (unfortunately most anthems are bad), my favorite mode of transport
 is by [Zeppelin](https://en.wikipedia.org/wiki/Zeppelin) (primarily
-æsthetically, train is much more practical and nearly as cool), my
-favorite solution to moral disagreement is trade.
+æsthetically, trains are much more practical and nearly as cool),
+my favorite solution to moral disagreement is trade.
 
 My favorite activities are
 [jamming](https://en.wikipedia.org/wiki/Jam_session), standing in front

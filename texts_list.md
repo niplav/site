@@ -17,6 +17,12 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [GPT-4o System Card (OpenAI, 2024)](https://arxiv.org/abs/2410.21276)
+* [X(3872) (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/X(3872))
+* [Mesonic molecule (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Mesonic_molecule)
+* [State consequentialism (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/State_consequentialism)
+* [Yugh language (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Yugh_language)
+* [A Frontier AI Risk Management Framework (Siméon Campos/Henry Papadatos/Fabien Roger/Chloé Touzet/Otter Quarks/Malcolm Murray, 2025)](https://www.safer-ai.org/research-posts/a-frontier-ai-risk-management-framework-bridging-the-gap-between-current-ai-practices-and-established-risk-management)
 * [Big Issues vs Small Issues (Hal Finney, 2007)](https://www.overcomingbias.com/p/big_issues_vs_shtml)
 * [Tolstoy on Patriotism (Robin Hanson, 2007)](https://www.overcomingbias.com/p/tolstoy_on_patrhtml)
 * ["Statistical Bias" (Eliezer Yudkowsky, 2007)](https://www.lesswrong.com/posts/DbQkkgfq6fHRxmdGP/statistical-bias)
@@ -65,7 +71,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Archimedes's Chronophone (Eliezer Yudkowsky, 2007)](https://www.lesswrong.com/posts/cKrgy7hLdszkse2pq/archimedes-s-chronophone)
 * [Some Unattractive Meta-Ethical Positions, Free to a Good Home (Cosma Shalizi, 2024)](http://bactra.org/notebooks/some-meta-ethical-positions.html)
 * [Zombie is to Human as Human is to XXX? (Eric Schwitzgebel, 2025)](https://schwitzsplinters.blogspot.com/2025/02/zombie-is-to-human-as-human-is-to-xxx_26.html)
-* [\* Uncertainty in all its flavours (Cleo Nardo, 2024)](https://www.lesswrong.com/s/Qn8DhSrdA2qPH2eJT/p/JhhFokDRkAfg5Tnu9)
+* [Uncertainty in all its flavours (Cleo Nardo, 2024)](https://www.lesswrong.com/s/Qn8DhSrdA2qPH2eJT/p/JhhFokDRkAfg5Tnu9)
 * [Retbleed (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Retbleed)
 * [Load value injection (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Load_Value_Injection)
 * [Microarchitectural Data Sampling (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling)
@@ -968,7 +974,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Luck based medicine: my resentful story of becoming a medical miracle (Elizabeth, 2022)](https://www.lesswrong.com/posts/fFY2HeC9i2Tx8FEnK/luck-based-medicine-my-resentful-story-of-becoming-a-medical)
 * [Utilitarianism Meets Egalitarianism (Scott Garrabrant, 2022)](https://www.lesswrong.com/s/4hmf7rdfuXDJkxhfg/p/hTMFt3h7QqA2qecn7)
 * [Simulacra are Things (janus, 2023)](https://www.lesswrong.com/s/N7nDePaNabJdnbXeE/p/3BDqZMNSJDBg2oyvW)
-* [Gou Are Not Measuring What You Think You Are Measuring (johnswentworth, 2022)](https://www.lesswrong.com/posts/9kNxhKWvixtKW5anS/you-are-not-measuring-what-you-think-you-are-measuring)
+* [You Are Not Measuring What You Think You Are Measuring (johnswentworth, 2022)](https://www.lesswrong.com/posts/9kNxhKWvixtKW5anS/you-are-not-measuring-what-you-think-you-are-measuring)
 * [Why I Reject the Comparison of Metaculus to Prediction Markets (Gaia Dempsey, 2023)](https://metaculus.medium.com/why-i-reject-the-comparison-of-metaculus-to-prediction-markets-4175553bcbb8)
 * [Astronomical waste (Paul Christiano, 2013)](https://rationalaltruist.com/2013/04/30/astronomical-waste/)
 * [Sending a message to the future (Paul Christiano, 2018)](https://sideways-view.com/2018/06/07/messages-to-the-future/)

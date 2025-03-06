@@ -77,27 +77,31 @@ in importance (an outlier-focused "log-normally distributed" view).
 		even though we experience [hedonic
 		adaption](https://en.wikipedia.org/wiki/Hedonic_treadmill)
 		to repeated drug-use (thus needing to "up the dose"
-		to achieve a similar high in many drugs<!--TODO: find a
-		cite?-->) that sporadic drug use is not completely offset
-		by this. I think my life would be overall better if I took
-		MDMA every 3 or 4 months; the comedown and subsequent
-		hangover aren't bad enough to negate the positive
-		qualia. Stimulants appear to speed up subjective time,
-		which is another off-setting effect on their valence.
-		* I believe that specifically psychedelics have likely
-		strongly increased the variance of qualia that are
-		experienced by humans, and since most people speak
-		positively of their trips, I'm inclined to believe that
-		they are on average of positive valence. Psychedelic
-		qualia are much "thicker", subjective time
-		becomes much slower, the meaning of experiences
-		increases (maybe by a [directed acyclic graph between
-		experiences](https://qualiacomputing.com/2018/11/28/the-pseudo-time-arrow-explaining-phenomenal-time-with-implicit-causal-structures-in-networks-of-local-binding/)
-		containing more edges?). I think most psychedelics
-		consumption occurred since the second half of the 20th
-		century, and given the intensity of psychedelic qualia
-		they might be highly relevant in assessing whether
-		progress in qualia has occurred.
+		to achieve a similar high in many drugs<!--TODO: find
+		a cite?-->) that sporadic drug use is not completely
+		offset by this. I think my life would be overall
+		better if I took MDMA once a year (not more often
+		because of the cardio- and neurotoxic effects<!--TODO:
+		link-->); the comedown and subsequent hangover aren't
+		bad enough to negate the positive qualia. Stimulants
+		appear to speed up subjective time, which is another
+		off-setting effect on their valence.
+		*	I believe that specifically psychedelics have likely strongly
+			increased the variance of qualia that
+			are experienced by humans, and since most
+			people speak positively of their trips, I'm
+			inclined to believe that they are on average
+			of positive valence. Psychedelic qualia are
+			much "thicker", subjective time becomes much
+			slower, the meaning of experiences increases
+			(maybe by a [directed acyclic graph between
+			experiences](https://qualiacomputing.com/2018/11/28/the-pseudo-time-arrow-explaining-phenomenal-time-with-implicit-causal-structures-in-networks-of-local-binding/)
+			containing more edges?). I think most psychedelics
+			consumption occurred since the second half of
+			the 20th century, and given the intensity of
+			psychedelic qualia they might be highly relevant
+			in assessing whether progress in qualia has
+			occurred.
 	* __Spirituality__:
 		* __Meditation__: Even though today probably more people than ever
 		in history meditate<!--TODO: source?-->, I suspect that in terms

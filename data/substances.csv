@@ -732,3 +732,8 @@ datetime,substance,amount,experiment,id,prediction
 2025-02-23T01:02:10+01:00,creatine,6g,,,
 2025-02-26T21:22:21+01:00,creatine,6g,,,
 2025-02-26T22:36:21+01:00,melatonin,0.3mg,,,
+2025-03-01T23:54:16+01:00,creatine,4g,,,
+2025-03-02T12:00:16+01:00,creatine,2g,,,
+2025-03-03T10:05:23+01:00,vitamind3,25μg,C,41,0.65
+2025-03-05T10:55:03+01:00,creatine,4g,,,
+2025-03-06T02:01:02+01:00,creatine,2g,,,

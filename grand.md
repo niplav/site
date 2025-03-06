@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-07-06, modified: 2023-07-26, language: english, status: in progress, importance: 5, confidence: probable*
+*author: niplav, created: 2023-07-06, modified: 2025-03-03, language: english, status: in progress, importance: 5, confidence: probable*
 
 > __Hi Anders__
 
@@ -646,3 +646,10 @@ sufficiently for this not to be a problem?
 non-replayable
 
 Typo, should be "needs".
+
+##### 16.1.1 Pancomputationalism
+
+Also relevant is the distinction between the universe as a *computer*
+and the universe as a *computation*: It being a computer would imply
+reprogrammability, while it being a computation would not. (Not my own
+point, but I don't remember where I last read it).
