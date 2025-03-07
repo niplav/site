@@ -205,7 +205,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [PG5 (molecule) (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/PG5_(molecule))
 * [Writing for LLMs So They Listen (Gwern Branwen, 2024)](https://gwern.net/llm-writing)
 * [AI #95: o1 Joins the API (Zvi, 2024)](https://www.lesswrong.com/posts/NepBoDTeT6p69daiL/ai-95-o1-joins-the-api)
-* \* Tiling Agents for Self-Modifying AI, and the Löbian Obstacle (Eliezer Yudkowsky/Marcello Herreshoff, 2013)
+* Tiling Agents for Self-Modifying AI, and the Löbian Obstacle (Eliezer Yudkowsky/Marcello Herreshoff, 2013)
 * \* The Failure of Risk Management (Douglas W. Hubbard, 2009)
 * [The o1 System Card Is Not About o1 (Zvi, 2024)](https://www.lesswrong.com/posts/HfigEyXddxkSGunKr/the-o1-system-card-is-not-about-o1)
 * [“Low-cut top girl,” opening off an IOI on the way to the gym [FR] (TheRedQuest, 2019)](https://theredquest.wordpress.com/2019/02/18/low-cut-top-girl-opening-off-an-ioi-on-the-way-to-the-gym-fr/)
