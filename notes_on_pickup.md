@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2022-03-12, modified: 2025-02-27, language: english, status: in progress, importance: 2, confidence: other*
+*author: niplav, created: 2022-03-12, modified: 2025-03-07, language: english, status: in progress, importance: 2, confidence: other*
 
 > __Short texts on pickup, mostly daygame.__
 
@@ -617,14 +617,77 @@ the next datapoint).
 
 <!--TODO: plot-->
 
+Skip Connections
+-----------------
+
+Daygame can be viewed as a funnel process with (in extreme simplification)
+three stages: (1) Approaching, (2) texting and (3) dating (for simplicity
+ignoring same-day-(de)-lays, instant dating &c). I've always found
+texting to be my least favorite stage, and I was happy when a wing of
+mine recently suggested a method for avoiding texting: If an approach
+is going well and she seems attracted, one can just ask the woman for
+a date at a later point in time directly, avoiding ~all of the texting.
+
+This is distinct from an *instant date*: An instant date happens
+during the approach. In what I'll call a **skip connection** one asks
+the woman during the approach to meet up at some later point in time,
+potentially several days later, confirming a place and time. E.g.,
+I might meet a woman on Thursday evening, and arrange a date with her
+during the approach for Saturday afternoon, meeting at the same spot
+as I approached her.
+
+There are several variants of this that I haven't all tested yet:
+
+1. Organizing a date and giving her my contact information, telling her to contact me if things don't work out. I've done this four times (plus one time that doesn't count, detailed further below):
+	1. First time she took my instagram, but was fairly non-committal about agreeing to a date when I proposed a location and time. She'd followed me on instagram but hadn't accepted my request to follow back. I showed up at the location & time I'd proposed and she didn't appear, as I expected.
+	2. Second & third time I proposed a time & place, got confirmation, gave my number, didn't hear back until we met at the agreed-upon time and place and went on a date.
+	3. Fourth time outcome is still pending, we agreed on a place & time and I gave her my number. Pretty positive she's going to show up<sub>75%</sub>.
+2. Organizing a date and not exchanging any contact information. Risky move, haven't tried it yet. My intuition tells me that this will lead to more flaking.
+3. Organizing a date and taking contact information anyway. I haven't tried this yet, my intuition is that it might be weaker compared to just giving contact information because it shows a lack of trust/dependence on an outcome.
+	1. One advantage here is that one has optionality around the date: If something comes up, e.g. illness, work obligations, family visit &c one can still cancel. In the two other variants there is *no option* of moving any of the date plans.
+
+I didn't have any experience where I got stood up not expecting it. I
+fully expect that to change once I try this trick more often.
+
+There are some tricks to pulling this off:
+
+1. So far I've mostly proposed meeting very close to the location of the approach, in two cases literally *at* the location of the approach. More complicated locations are harder to communicate verbally.
+2. If you can't figure out a mutually acceptable time, default to taking the number. In one approach I made the mistake of not being able to find a time and *giving* her my number, of course haven't heard back even though she was into me (strong indicator of interest before approach).
+3. So far I've given her my number *after* agreeing on a date, and tell her if she changes her mind or if something obstructs her then she should message me.
+	1. My best guess is that giving the number *before* agreeing on a date would be vastly worse.
+4. As always, calibration. If she declines the date request, be courteous. If she says that she's in a hurry, or gives some other excuse, ask for the number instead, and let her reject you if need be. All in good spirits.
+
+In my four field trials, I've found this to work *incredibly* well,
+with women loving the concept of directly agreeing on a date. My
+guess is that women also actually hate the texting stage and the
+uncertainty/disembodiment that comes with it—there's one fewer decision
+to be made. Organising a date and time for a date is a bit of a dry and
+joyless procedure, so doing it playfully in person makes it much more
+appealing than over the already uninteresting medium of text.
+
+I also think that the bias for inaction & desire to not disappoint
+come into play here: Actively canceling the date requires effort, as
+opposed to during texting, where the default action is always to just
+stop responding. *But* not showing up is a faux-pas, so she comes out.
+Plus, it's something new for the woman: A guy comes up, *starts flirting*,
+__asks for a date__, and *__doesn't even try to take the number__*?
+
+One problem with this approach is that it might yield too many false
+positives: Women agreeing even if they're only mildly attracted, but
+out of social momentum. I'll keep an eye out for that, notably my second
+date from this method was pretty lackluster and uninspiring.
+
+I think that skip connections are a genuine advancement over the standard
+London daygame model, and I'm not sure why I've never heard of a similar
+idea elsewhere. I'll update this text if I discover a hidden downside,
+but for the time being I'm *incredibly* stoked by this as an advancement;
+it feels like I've unlocked a new aspect of daygame on par with instant
+dates.
+
+I'd be curious if this works as well for others as it does for me,
+since in my case it might be confounded by various factors.
+
 <!--
-The Direct Date Trick
-----------------------
-
-If daygame is viewed as a funnel process, one'd want to eliminate stages
-of the funnel which cause drop-off. One such stage is texting; not only
-does it cost mental energy and time, it also leads to a
-
 Waiting Outside a Shop Is Rarely Worth It
 ------------------------------------------
 

@@ -1374,7 +1374,7 @@ change is a Kaldor-Hicks-worsening if and only if everyone is worse (or
 equally well) off and there is no way of creating a Pareto-improvement
 through reallocation.
 
-This implies a anti-Kaldor-Hicks-worsening: A change makes everyone worse
+This implies an anti-Kaldor-Hicks-worsening: A change makes everyone worse
 off, *but* there is some reallocation that creates a Pareto improvement.
 
 Example: We have a Sadist and a Masochist. The Masochist starts hurting

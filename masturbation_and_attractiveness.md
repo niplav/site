@@ -940,7 +940,7 @@ well arisen from noisy data; the p-value is extremely high.
 Appendix E: Subjective Impressions of Nofap
 --------------------------------------------
 
-This is after 60 days of nofap, after which I broke my streak.
+This is after 60 days of nofap mid 2024, after which I broke my streak.
 
 * I want to approach women more.
 * I don't feel more confident.
