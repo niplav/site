@@ -737,3 +737,7 @@ datetime,substance,amount,experiment,id,prediction
 2025-03-03T10:05:23+01:00,vitamind3,25μg,C,41,0.65
 2025-03-05T10:55:03+01:00,creatine,4g,,,
 2025-03-06T02:01:02+01:00,creatine,2g,,,
+2025-03-08T12:45:26+01:00,creatine,3g,,,
+2025-03-10T10:20:26+01:00,vitamind3,25μg,C,42,0.4
+2025-03-11T02:46:06+01:00,creatine,2g,,,
+2025-03-11T10:29:56+01:00,vitamintd3,25μg,C,43,0.5

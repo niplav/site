@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-02-26, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-03-17, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2064,6 +2064,8 @@ anthology with slight modifications.
 Vasectomy & Sperm Freezing Cost-Benefit
 ----------------------------------------
 
+<!--TODO: change to https://squigglehub.org/models/niplav/vasectomy-->
+
 <!--
 *Note: A friend told me that vasectomies don't make men permanently
 infertile: if you're not otherwise infertile, sperm can just be extracted
@@ -2474,6 +2476,7 @@ safer than pre-training from scratch with randomly initialized weights:
 
 1. Inheriting safety properties from previous models.
 2. Building on inductive biases favoring speed over simplicity.
+3. Allowing for more gradual scaling, as opposed to ever bigger pre-training runs.
 
 Open questions:
 
