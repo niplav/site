@@ -17,6 +17,12 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Why Should Intelligence Be Related To Neuron Count? (Scott Alexander, 2025)](https://www.astralcodexten.com/p/why-should-intelligence-be-related)
+* [Pulsar clock (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Pulsar_clock)
+* [Giant Void (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Giant_Void)
+* [Sloan Great Wall (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Great_Sloan_Wall)
+* [The Evil Vector (Scott Aaronson, 2025)](https://scottaaronson.blog/?p=8693)
+* [|7 LEMON: Lossless Model Expansion (Yite Wang/Jiahao Su/Hanlin Lu/Cong Xie/Tianyi Liu/Jianbo Yuan/Haibin Lin/Ruoyu Sun/Hongxia Yang, 2023)](https://arxiv.org/abs/2310.07999)
 * [GPT-4o System Card (OpenAI, 2024)](https://arxiv.org/abs/2410.21276)
 * [X(3872) (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/X(3872))
 * [Mesonic molecule (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Mesonic_molecule)

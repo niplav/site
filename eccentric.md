@@ -732,7 +732,7 @@ Infrastructure
 
 * __Build beautiful geometric objects__
 	* The platonic solids in physical form, similar to tungsten cubes, but of varying size & material (from a steel icosahedron with a few centimetres vertex length to a granite cube or obsidian dodecahedron twenty metres at each side)—the stuff that would make future people say "they considered themselves a powerful culture"
-* __[Atlantropa](https://en.wikipedia.org/wiki/Atlantropa_project) dam at the [Strait of Gibraltar](https://en.wikipedia.org/wiki/Strait_of_Gibraltar)__<!--TODO: expand based on https://claude.ai/chat/80404ec5-190f-4fb7-a3c2-6d01a2bc1be5-->
+* __[Atlantropa](https://en.wikipedia.org/wiki/Atlantropa_project) dam at the [Strait of Gibraltar](https://en.wikipedia.org/wiki/Strait_of_Gibraltar)__<!--TODO: expand based on https://claude.ai/chat/80404ec5-190f-4fb7-a3c2-6d01a2bc1be5 and https://claude.ai/chat/77d5841f-ac55-4708-9f37-70995a9492e0, (https://en.wikipedia.org/wiki/Hydropower#Calculating_the_amount_of_available_power)-->
 * __[Send helpful messages to the future](https://sideways-view.com/2018/06/07/messages-to-the-future/)__: Estimated at \$10 mio.
 
 Metascience

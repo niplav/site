@@ -641,7 +641,7 @@ There are several variants of this that I haven't all tested yet:
 1. Organizing a date and giving her my contact information, telling her to contact me if things don't work out. I've done this four times (plus one time that doesn't count, detailed further below):
 	1. First time she took my instagram, but was fairly non-committal about agreeing to a date when I proposed a location and time. She'd followed me on instagram but hadn't accepted my request to follow back. I showed up at the location & time I'd proposed and she didn't appear, as I expected.
 	2. Second & third time I proposed a time & place, got confirmation, gave my number, didn't hear back until we met at the agreed-upon time and place and went on a date.
-	3. Fourth time outcome is still pending, we agreed on a place & time and I gave her my number. Pretty positive she's going to show up<sub>75%</sub>.
+	3. ~~Fourth time outcome is still pending, we agreed on a place & time and I gave her my number. Pretty positive she's going to show up<sub>75%</sub>.~~ She showed up after messaging me that she'd be ten minutes late, the date was lovely :-)
 2. Organizing a date and not exchanging any contact information. Risky move, haven't tried it yet. My intuition tells me that this will lead to more flaking.
 3. Organizing a date and taking contact information anyway. I haven't tried this yet, my intuition is that it might be weaker compared to just giving contact information because it shows a lack of trust/dependence on an outcome.
 	1. One advantage here is that one has optionality around the date: If something comes up, e.g. illness, work obligations, family visit &c one can still cancel. In the two other variants there is *no option* of moving any of the date plans.

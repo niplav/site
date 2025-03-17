@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2025-02-23, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2025-03-11, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -22,6 +22,12 @@ Monthly updates are sent out [via substack](https://niplav.substack.com/),
 the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
+
+March 2025
+-----------
+
+* [Model Expansion and AI Alignment](./notes.html#Model_Expansion_and_AI_Alignment)
+* [Skip Connections](./notes_on_pickup.html#Skip_Connections)
 
 February 2025
 --------------

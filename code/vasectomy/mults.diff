@@ -1,0 +1,130 @@
+--- vasectomy.sq	2025-03-16 00:00:00
++++ vasectomy.sq.new	2025-03-16 00:00:00
+@@ -11,6 +11,26 @@
+   @format(".1%")
+   chanceWantingChildren = 5% to 15%
+
++  @name("Number of desired children if wanting children")
++  @format(".1f")
++  numDesiredChildren = 2 to 3
++
++  @name("IVF success rate with frozen sperm (%)")
++  @format(".1%")
++  ivfSuccessRateFrozen = 40% to 60%
++
++  @name("IVF success rate with extracted sperm (%)")
++  @format(".1%")
++  ivfSuccessRateExtracted = 30% to 50%
++
++  @name("Max IVF cycles willing to try")
++  maxIVFCycles = 2 to 3
++
++  @name("Years since vasectomy before wanting children")
++  yearsSinceVasectomy = 5 to 15
++
++  @name("Reversal success rate decay per year (%)")
++  @format(".1%")
++  reversalSuccessRateDecayPerYear = 1% to 2%
++
+   @name("Number of future sexual encounters")
+   sexOccasions = 50 to 500
+
+@@ -87,6 +107,12 @@
+     initialCostFreezingSperm,
+     annualStorageCost,
+     storageYears,
++    numDesiredChildren,
++    ivfSuccessRateFrozen,
++    ivfSuccessRateExtracted,
++    maxIVFCycles,
++    yearsSinceVasectomy,
++    reversalSuccessRateDecayPerYear,
+   }
+ }
+
+@@ -118,13 +144,27 @@
+   // Child-related outcomes
+   wantedChildCost = if mean(inputs.chanceWantingChildren) > 0 then {
+     // If want children, use IVF with frozen sperm
+-    costToHaveChild = inputs.costIVF
++    // Calculate expected number of IVF cycles needed based on success rate
++    expectedCyclesPerChild = 1 / inputs.ivfSuccessRateFrozen
++
++    // Cap at maximum cycles willing to try
++    actualCyclesPerChild = Math.min(expectedCyclesPerChild, inputs.maxIVFCycles)
++
++    // Total cost for all desired children
++    costToHaveChildren = inputs.costIVF * actualCyclesPerChild * inputs.numDesiredChildren
++
++    // Chance of successfully having all desired children
++    chanceOfSuccess = (1 - (1 - inputs.ivfSuccessRateFrozen) ^ inputs.maxIVFCycles) ^ inputs.numDesiredChildren
++
+     // Desirability multiplier improves IVF outcomes (reduces the negative value)
+     adjustedDesiredChildValue = inputs.costMissingDesiredChild *
+       inputs.ivfDesirabilityMultiplier
+-    inputs.chanceWantingChildren * (adjustedDesiredChildValue - costToHaveChild)
++
++    // If we want children but can't have them all, we have a partial cost of missing desired children
++    successValue = adjustedDesiredChildValue * inputs.numDesiredChildren
++    failureValue = adjustedDesiredChildValue * inputs.numDesiredChildren * (1 - chanceOfSuccess)
++
++    inputs.chanceWantingChildren * (successValue - costToHaveChildren - failureValue)
+   } else 0
+
+   // No unwanted children
+@@ -158,17 +198,41 @@
+   wantedChildCost = if mean(inputs.chanceWantingChildren) > 0 then {
+     // If want children, try reversal first, then IVF if needed
+     reversalCost = inputs.costVasectomyReversal
++
++    // Adjust reversal success rate based on years since vasectomy
++    adjustedReversalSuccessRate = Math.max(
++      inputs.chanceSuccessfulReversal - (inputs.reversalSuccessRateDecayPerYear * inputs.yearsSinceVasectomy),
++      10%  // Floor of 10% success rate
++    )
++
++    // Natural conception cost after successful reversal is 0
+     costWithSuccessfulReversal = 0
+-    costWithFailedReversal = inputs.costIVF
++
++    // Calculate expected number of IVF cycles needed with extracted sperm
++    expectedCyclesPerChild = 1 / inputs.ivfSuccessRateExtracted
++    actualCyclesPerChild = Math.min(expectedCyclesPerChild, inputs.maxIVFCycles)
++
++    // Total IVF cost for all desired children if reversal fails
++    costWithFailedReversal = inputs.costIVF * actualCyclesPerChild * inputs.numDesiredChildren
++
++    // Chance of having all desired children through IVF if reversal fails
++    chanceOfIVFSuccess = (1 - (1 - inputs.ivfSuccessRateExtracted) ^ inputs.maxIVFCycles) ^ inputs.numDesiredChildren
++
++    // Chance of having all desired children naturally if reversal succeeds
++    // Assume 100% chance if reversal is successful
++    chanceOfNaturalSuccess = 1.0
+
+     // Expected cost based on reversal success rate
+-    expectedCost = inputs.chanceSuccessfulReversal *
++    expectedCost = adjustedReversalSuccessRate *
+       costWithSuccessfulReversal +
+-      (1 - inputs.chanceSuccessfulReversal) * costWithFailedReversal +
++      (1 - adjustedReversalSuccessRate) * costWithFailedReversal +
+       reversalCost
+
+     // Value of having desired child less the costs
+     // Desirability multiplier improves IVF outcomes (reduces the negative value)
+-    adjustedDesiredChildValue = inputs.costMissingDesiredChild *
++    adjustedDesiredChildValue = inputs.costMissingDesiredChild * inputs.numDesiredChildren *
+       inputs.ivfDesirabilityMultiplier
+-    inputs.chanceWantingChildren * (adjustedDesiredChildValue - expectedCost)
++
++    // Calculate overall chance of success (either through reversal or IVF)
++    overallSuccessRate = adjustedReversalSuccessRate * chanceOfNaturalSuccess +
++                        (1 - adjustedReversalSuccessRate) * chanceOfIVFSuccess
++
++    // Value if successful in having all desired children
++    successValue = adjustedDesiredChildValue
++
++    // Value if not successful (partial cost of missing desired children)
++    failureValue = adjustedDesiredChildValue * (1 - overallSuccessRate)
++
++    inputs.chanceWantingChildren * (successValue - expectedCost - failureValue)
+   } else 0
