@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2025-02-27, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2025-03-18, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,24 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Ein Wort an die Proselytenmacher (Friedrich Schiller, 1804)
+* Die Ideale (Friedrich Schiller, 1804)
+* Der Tanz (Friedrich Schiller, 1804)
+* Die Teilung der Erde (Friedrich Schiller, 1804)
+* Elegie (Friedrich Schiller, 1804)
+* Deutsche Treue (Friedrich Schiller, 1804)
+* Die Antike (Friedrich Schiller, 1804)
+* Natur und Schule (Friedrich Schiller, 1804)
+* Das Reich der Schatten (Friedrich Schiller, 1804)
+* Die Zerstörung von Troja (Friedrich Schiller, 1804)
+* In das Stammbuch Charlottens von Lengefeld (Friedrich Schiller, 1788)
+* Resignation (Friedrich Schiller, 1804)
+* Freigeisterei der Leidenschaft (Friedrich Schiller, 1782)
+* An die Freude (Friedrich Schiller, 1804)
+* An Minna (Friedrich Schiller, 1804)
+* Das Geheimnis der Reminiszenz (Friedrich Schiller, 1804)
+* Meine Blumen (Friedrich Schiller, 1804)
+* Kastraten und Männer (Friedrich Schiller, 1804)
 * [Why Should Intelligence Be Related To Neuron Count? (Scott Alexander, 2025)](https://www.astralcodexten.com/p/why-should-intelligence-be-related)
 * [Pulsar clock (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Pulsar_clock)
 * [Giant Void (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Giant_Void)
