@@ -81,27 +81,27 @@ self-experiment.
 Data was collected as follows:
 
 I abstained from masturbating and watching pornography from
-2025-01-05T16:01:20+01:00 to \_, resulting in >90 days of abstinence
-from masturbation (which is also the period [recommended by the
-NoFap community](https://nofap.com/rebooting/): "NoFap’s gold
-standard of success is our 90-day reboot."). I had [nocturnal
+2025-01-05T16:01:20+01:00 to 2025-01-15T, resulting in >90 days of
+abstinence from masturbation (which is also the period [recommended
+by the NoFap community](https://nofap.com/rebooting/): "NoFap’s
+gold standard of success is our 90-day reboot."). I had [nocturnal
 emmissions](https://en.wikipedia.org/wiki/Nocturnal_Emission) on
 ~2025-02-09T05:30:00, ~2025-02-18T06:00 and 2025-03-01T08:00:00.
 
-From \_ to \_, I went on the streets of a major european city
-and approached 70 people I read as women, usually via a [Yad
+From 2025-04-05 to 2025-04-15, I went on the streets of a major
+european city and approached \_ people I read as women, usually via a [Yad
 stop](https://thomascrownpua.com/2023/04/21/qa-what-do-you-think-of-the-yad-stop/).
 The women who were approached were chosen by how attractive I found them.
 
 I then ran a standard daygame opener on the woman, with the goal of
 asking her for her number and later taking her on a date.
 
-In the week following the last approach, I masturbated once a day with
-visual pornography<!--TODO: link the pornography consumed during that
-time-->.
+In the five days following the last approach (2025-04-15 to 2025-04-20),
+I masturbated at least once a day with visual pornography<!--TODO:
+link the pornography consumed during that time-->.
 
-Afterwards, I repeated the procedure of approaching 70 women in the
-same manner from \_ to \_.
+Afterwards, I repeated the procedure of approaching \_ women in the same
+manner from 2025-04-20 to \_.
 
 Data that was logged included date and time of day (in
 [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601)), whether the approach
@@ -118,6 +118,11 @@ after masturbation), and how far the interaction went, on an 8-point
 * 6 (fizzle): the woman replied to one or several of my messages, but didn't agree on a date
 * 7 (date): the woman showed up to the date
 * 8 (sex): I slept with the woman
+
+If I instead [agreed on a date during the approach, giving her my contact
+information](./notes_on_pickup.html#Skip_Connections), it is counted
+as 5 if she agreed to a date but did not show up, 6 if she cancelled by
+text before the date, and 7 if she showed up.
 
 ### Justification for Cold Approach as a Method
 

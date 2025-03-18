@@ -169,6 +169,8 @@ Note that I'm not a statistician, this is my first serious statistical
 analysis, so please correct me if I'm making some important
 mistakes. Sorry.
 
+<!--TODO: issues: tolerance/long-term effects, technically non-i.i.d.-->
+
 #### Predictions on the Outcomes of the Experiment
 
 After collecting the data, but before analysing it,
