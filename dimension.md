@@ -26,8 +26,11 @@ techniques like [t-SNE](https://distill.pub/2016/misread-tsne/) or
 tend to find clusters in random data, even if they're not *really
 present*.
 
-I think this is wrong in the strict
-sense. I'll generate 10k 2k-dimensional [uniformly
+I think this is wrong in the strict sense
+with unimodal distributions, although [it's
+sometimes correct in the case of multimodal or more structured
+distributions](https://stats.stackexchange.com/questions/263539/clustering-on-the-output-of-t-sne/264647).
+I'll generate 10k 2k-dimensional [uniformly
 distributed](https://en.wikipedia.org/wiki/Uniform_distribution)
 samples, reduce them down to 2 dimensions, and plot
 the result (code [here](./code/dimension/code.jl) in
@@ -51,10 +54,11 @@ the result (code [here](./code/dimension/code.jl) in
 
 ![](./img/dimension/umap_plot.png)
 
-Changing the perplexity to 5 changes the clustering produced by t-SNE —
-no obvious *clustering*, but it leads to structure being hallucinated,
-especially the tendency towards identifying a cross-shaped pattern in
-the data, and imagining outliers where they don't exist.
+Changing the perplexity to 5 (default is 30 for t-SNE) changes
+the clustering produced — no obvious *clustering*, but it leads to
+structure being hallucinated, especially the tendency towards identifying
+a cross-shaped pattern in the data, and imagining outliers where they
+don't exist.
 
 	reduced_5=tsne(data, 2, 0, 1000, 5.0)
 	gui(scatter(reduced_5[:,1],reduced_5[:,2], color=:green))
@@ -102,11 +106,14 @@ critique of these two algorithms could be that sometimes people
 use dimensionality reduction techniques for clustering, instead
 of separating visualization and clustering (such as via good ol'
 [k-means](https://en.wikipedia.org/wiki/K-means_Clustering)),
-but t-SNE is [sometimes used even for
-clustering](https://en.wikipedia.org/wiki/Clustering_high-dimensional_data#Projection-based_clustering),
-all my charity is being exhausted at this point.
+allegedly t-SNE is [sometimes used even for
+clustering](https://en.wikipedia.org/wiki/Clustering_high-dimensional_data#Projection-based_clustering).
+I don't think that's a good idea, and propose the following slogan as
+an alternative:
 
-Worth noting though:
+__Clustering *first*, dimensionality reduction *second*.__
+
+Since:
 
 > Cluster sizes in a t-SNE plot mean nothing […]
 The basic message is that distances between well-separated clusters in
