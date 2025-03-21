@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-07-07, modified: 2025-02-02, language: english, status: maintenance, importance: 2, confidence: log*
+*author: niplav, created: 2022-07-07, modified: 2025-03-20, language: english, status: maintenance, importance: 2, confidence: log*
 
 > __Notes for myself on the data I track, how to transform it into a
 usable shape, data quality and other random assortments.__
@@ -144,7 +144,8 @@ are not due).
 
 *— Anki developers, [“Manual Analysis”](https://docs.ankiweb.net/stats.html#manual-analysis) in [“Graphs and Statistics”](https://docs.ankiweb.net/stats.html#manual-analysis), year unknown*
 
-The CSV of the data can be found [here](./data/anki_reviews.csv).
+The CSV of the data can be found [here](./data/anki_reviews.csv), data
+collected starting 2021-01-24.
 
 Meditation
 -----------
@@ -174,7 +175,8 @@ the [sam](https://plan9.io/sys/doc/sam/sam.html) language in
 	,/^1594,/;/^1615,/
 	x/4\.0,4\.0,/c/,/
 
-The CSV of the meditation data can be found [here](./data/meditations.csv).
+The CSV of the meditation data can be found
+[here](./data/meditations.csv), data collected starting 2020-01-23.
 
 `mindfulness_ranking` and `concentration_ranking` are both subjective
 impressions directly after meditation, where "mindfulness" describes the
@@ -243,10 +245,8 @@ Anonymizing locations and the names of the women:
 	$ mv daygame_approaches.csv daygame_approaches_deanon.csv
 	$ mv daygame_approaches_anon.csv daygame_approaches.csv
 
-The approaches file can be found [here](./data/daygame_approaches.csv),
-the sessions file can be found [here](./data/daygame_sessions.csv).
-
-Approaches file datapoints (in CSV):
+[Approaches file](./data/daygame_approaches.csv) datapoints in CSV,
+collected starting 2020-08-25:
 
 * `Approach`: Monotonically incrementing [primary key](https://en.wikipedia.org/wiki/Primary_Key).
 * `Location`: Replaced with a random integer for anonymization.
@@ -261,7 +261,7 @@ Approaches file datapoints (in CSV):
 * `Datetime`: Datetime of when the approached happened.
 * `Estimated`: Whether the datetime of the approach was estimated from session data.
 
-Sessions file:
+[Sessions file](./data/daygame_sessions.csv):
 
 * `Depart`: When I start moving to the place where I daygame, datetime.
 * `Start`: When I arrive at the place I do daygame, datetime.
@@ -291,12 +291,13 @@ because Fitbit is one of the few (the only?) companies whose products
 allow for data exporting, mostly to track my sleep, but maybe I'll also
 get mileage out of the heart rate, step, glucose and temperature tracking.
 
-Sleep data [here](./data/sleep.json).
+Sleep data [here](./data/sleep.json), collected starting 2023-11-30.
 
 Others
 -------
 
-<!--TODO: light.csv, islight.csv, ispomodoro.csv, pomodoros.csv-->
+<!--TODO: light.csv, islight.csv, ispomodoro.csv, pomodoros.csv,
+reaction_times.csv-->
 
 Other metrics I track don't deserve as much elaboration.
 
@@ -304,7 +305,8 @@ Other metrics I track don't deserve as much elaboration.
 
 I track when I masturbate & how good it feels & the type of
 pornography in [this file](./data/masturbations.csv) via [this
-script](./data/mstrbt). Data quality is pretty high.
+script](./data/mstrbt). Data quality is pretty high, data collected
+starting 2021-01-15.
 
 * `t` stands for text
 * `a` stands for audio
@@ -330,13 +332,13 @@ Finally I rename the mood columns simply to "happy", "content", "relaxed",
 and "horny".
 
 CSV [here](./data/mood.csv), the data quality is mediocre (long stretches
-of not responding to questions, giving more conservative (closer to
-50) answers over time, starting to use activities around July 2022
-(and not using it for what it was intended for: when the activity is
-"Nothing" that means I carried on with my day as normal afterwards, if
-the activity is "Mindfulness" it means I spend a couple of seconds in
-a more mindful state)). Also, I use the "interested — uninterested"
-metric to track horniness (higher means hornier).
+of not responding to questions, giving more conservative (closer to 50)
+answers over time, starting to use activities around July 2022 (and not
+using it for what it was intended for: when the activity is "Nothing"
+that means I carried on with my day as normal afterwards, if the activity
+is "Mindfulness" it means I spend a couple of seconds in a more mindful
+state)). Also, I use the "interested — uninterested" metric to track
+horniness (higher means hornier). Data collection started 2021-01-16.
 
 ### Substances
 
@@ -344,19 +346,26 @@ I track which substances I take
 ([nootropics](./nootropics.html)/melatonin/drugs) in [this
 file](./data/substances.csv) via [this script](./data/cnsm). Data quality
 is good but fairly few entries. At the moment I am mostly using it to
-perform self-blinded RCTs.
+perform self-blinded RCTs. Collection starting 2022-07-06.
 
 ### Weight
 
 Tracking weight, mostly for exercise purposes. Data
-[here](./data/weights.csv), collected with [this script](./data/weight).
+[here](./data/weights.csv), collected with [this script](./data/weight),
+starting 2022-10-14.
 
 ### Daily Performance Metrics
 
 Productivity, creativity and the subjective length of the
 day. Collected with [this script](./data/mental) into [this
-file](./data/mental.csv). Started collecting subjective length of the
-day on 2023-08-21.
+file](./data/mental.csv). Started collecting productivity and creativity
+from 2022-10-27, and subjective length of the day on 2023-08-21.
+
+### Reaction Times
+
+Started tracking [reaction
+time](https://en.wikipedia.org/wiki/Reaction_Time) to a visual stimulus
+on 2025-02-13 in [this file](./data/reaction_times.csv).
 
 ### Bag Spreading
 

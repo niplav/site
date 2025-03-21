@@ -17,6 +17,13 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Progress from our Frontier Red Team (Anthropic, 2025)](https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team)
+* [Clustering on the output of t-SNE (amoeba/generic_user, 2018)](https://stats.stackexchange.com/questions/263539/clustering-on-the-output-of-t-sne/264647)
+* [Info Has No Trend (Robin Hanson, 2007)](https://www.overcomingbias.com/p/info_has_no_trehtml)
+* [Minimal Motivation of Natural Latents (johnswentworth/David Lorell, 2024)](https://www.lesswrong.com/posts/uJvKLDSSYA4y7vzyx/minimal-motivation-of-natural-latents)
+* [Useful bias (Adrian Tschoegl, 2007)](https://www.overcomingbias.com/p/useful_biashtml)
+* [Nuclear matter (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Nuclear_matter)
+* Würde der Frauen (Friedrich Schiller, 1804)
 * Ein Wort an die Proselytenmacher (Friedrich Schiller, 1804)
 * Die Ideale (Friedrich Schiller, 1804)
 * Der Tanz (Friedrich Schiller, 1804)

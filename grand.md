@@ -653,3 +653,14 @@ Also relevant is the distinction between the universe as a *computer*
 and the universe as a *computation*: It being a computer would imply
 reprogrammability, while it being a computation would not. (Not my own
 point, but I don't remember where I last read it).
+
+##### 16.2.6 Telecommunications
+
+> The telecommunications bandwidth has grown by 35% during the period
+1986-2014
+
+Presumably annually, although that's not clear from the text.
+
+##### 16.3.1
+
+In footnote 31, Bremermann's limit should be at `$1.36 \times 10^{50}$`.
