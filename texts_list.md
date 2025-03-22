@@ -17,6 +17,7 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [AI #108: Straight Line on a Graph (Zvi, 2025)](https://www.lesswrong.com/posts/Q3qoy8DFnkMij4xzC/ai-108-straight-line-on-a-graph
 * [Progress from our Frontier Red Team (Anthropic, 2025)](https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team)
 * [Clustering on the output of t-SNE (amoeba/generic_user, 2018)](https://stats.stackexchange.com/questions/263539/clustering-on-the-output-of-t-sne/264647)
 * [Info Has No Trend (Robin Hanson, 2007)](https://www.overcomingbias.com/p/info_has_no_trehtml)
