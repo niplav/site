@@ -2,7 +2,8 @@ import math
 import json
 import numpy as np
 import pandas as pd
-import scipy.stats as scistat
+import scipy.stats as sps
+import matplotlib.pyplot as plt
 
 def normal_likelihood(data, mu, std):
 	data_probs=scistat.norm.pdf(data, loc=mu, scale=std)
@@ -34,6 +35,7 @@ sleep_file_name='../../data/sleep.json'
 sleep_file=open(sleep_file_name, 'r')
 sleep_data = json.load(sleep_file)
 
+backwards_horizon='4d'
 relevant_sleep_cols=['duration', 'minutes_asleep', 'minutes_to_sleep', 'minutes_after_wakeup', 'time_in_bed', 'deep_count', 'deep_minutes', 'light_count', 'light_minutes', 'rem_count', 'rem_minutes', 'wake_count', 'wake_minutes']
 
 sleep_values={
@@ -97,9 +99,9 @@ last_sleep=sleep['date'].max()
 
 meditations=get_meditations()
 meditations.sort_values(by=['meditation_start'], inplace=True)
-meditations=meditations.loc[meditations['meditation_start']>(first_sleep-pd.Timedelta('7d'))]
-
+meditations=meditations.loc[meditations['meditation_start']>(first_sleep-pd.Timedelta(backwards_horizon))]
 sleep.sort_values(by=['start_time'], inplace=True)
+
 checkpoints=pd.DataFrame()
 checkpoints['checkpoint']=pd.date_range(start=first_sleep, end=last_sleep, freq='1d')+pd.Timedelta('18h')
 
@@ -109,8 +111,25 @@ aggregated.reset_index(inplace=True)
 
 aggregated=pd.merge(aggregated, meditations, how='cross')
 aggregated=aggregated.loc[
-	(aggregated['checkpoint']-aggregated['meditation_end']<pd.Timedelta('4d')) &
+	(aggregated['checkpoint']-aggregated['meditation_end']<pd.Timedelta(backwards_horizon)) &
 	(aggregated['checkpoint']-aggregated['meditation_end']>pd.Timedelta('0d'))]
 
 aggregated=aggregated.groupby('checkpoint').agg({'meditation_duration': 'sum'} | {col: 'min' for col in relevant_sleep_cols})
 no_outliers=aggregated.loc[aggregated['meditation_duration']<8*3600]
+
+field='minutes_asleep'
+aggregated[['meditation_duration', field]].plot.scatter(x='meditation_duration', y=field)
+
+slope, intercept, r, p, stderr=sps.linregress(aggregated['meditation_duration'], aggregated[field])
+over=np.linspace(0, aggregated['meditation_duration'].max())
+plt.plot(over, intercept+slope*over, color='red')
+
+plt.savefig('aggregated_scatter_total.png')
+
+no_outliers[['meditation_duration', field]].plot.scatter(x='meditation_duration', y=field)
+
+slope, intercept, r, p, stderr=sps.linregress(no_outliers['meditation_duration'], no_outliers[field])
+over=np.linspace(0, no_outliers['meditation_duration'].max())
+plt.plot(over, intercept+slope*over, color='red')
+
+plt.savefig('no_outliers_scatter_total.png')

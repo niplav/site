@@ -26,6 +26,8 @@ content.
 March 2025
 -----------
 
+* Does meditation decrease sleep need? [Analysing my own data](./increasing.html#Analysing_my_Data) suggests that it does!
+	* The effect is much stronger during meditation retreats, but off-retreat data also shows a slight negative correlation between sleep duration and time meditated.
 * [Model Expansion and AI Alignment](./notes.html#Model_Expansion_and_AI_Alignment)
 * [Skip Connections](./notes_on_pickup.html#Skip_Connections)
 
