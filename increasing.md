@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-07-06, modified: 2024-10-24, language: english, status: notes, importance: 6, confidence: possible*
+*author: niplav, created: 2023-07-06, modified: 2025-03-22, language: english, status: notes, importance: 6, confidence: possible*
 
 > __Humans get around 80 years of life. How can that time be made to
 feel as long as possible?__

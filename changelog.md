@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2025-03-11, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2025-03-22, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -30,6 +30,13 @@ March 2025
 	* The effect is much stronger during meditation retreats, but off-retreat data also shows a slight negative correlation between sleep duration and time meditated.
 * [Model Expansion and AI Alignment](./notes.html#Model_Expansion_and_AI_Alignment)
 * [Skip Connections](./notes_on_pickup.html#Skip_Connections)
+
+### Links
+
+* [Uncertainty in all its flavours (Cleo Nardo, 2024)](https://www.lesswrong.com/s/Qn8DhSrdA2qPH2eJT/p/JhhFokDRkAfg5Tnu9)
+* [X(3872) (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/X\(3872\))
+* [Pulsar clock (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Pulsar_clock)
+* [Nuclear matter (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Nuclear_matter)
 
 February 2025
 --------------
