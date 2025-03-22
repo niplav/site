@@ -288,7 +288,7 @@ pointing out dynamic inconsistency in the comments and melting hectoton steel-ma
 who improve their aim hurling yeeting philosophical tomes at unsuspecting passerbys and ascend urban lampposts to loudly deduce their mechanical liturgies,  
 *cascades! cycles! insights!*  
 who cut down oaks and poppies in the parks to make oil and space for those ones yet to come and who hunker down in fortified coalmines in Montana and the Ruhrgebiet, propelled into the rock by an Ordite reactor, a Bostromite dynamo,  
-who exitedly pour & plaster tabulated exponents into webscripted canisters just below the teal-tinted ceiling,  
+who excitedly pour & plaster tabulated exponents into webscripted canisters just below the teal-tinted ceiling,  
 hating one-sidedness and bureaucrats alike,  
 who can name the 11 AI forecasting organisations and the 4 factors of successful nonprofits and the 7 noble ways of becoming more agentic and might even find Rwanda on a map not made in Silicon Valley,  
 contemplating hemispherectomies to purify their nascent idealism on the verge of a hope-ash London dawn,  

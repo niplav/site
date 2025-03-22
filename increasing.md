@@ -252,6 +252,47 @@ I friend of mine with a long-term chronic illness, also a long-term
 meditator, tells me he sleeps ~6-7 hours per night, at around 2 hours
 of meditation a day.
 
+##### Analysing My Own Data
+
+After ~1 year of meditation and sleep tracking, I decided to check my
+own data for patterns.
+
+	sleep=pd.DataFrame(sleep_values)
+	first_sleep=sleep['date'].min()
+	last_sleep=sleep['date'].max()
+
+	meditations=get_meditations()
+	meditations.sort_values(by=['meditation_start'], inplace=True)
+	meditations=meditations.loc[meditations['meditation_start']>(first_sleep-pd.Timedelta('7d'))]
+
+	sleep.sort_values(by=['start_time'], inplace=True)
+	checkpoints=pd.DataFrame()
+	checkpoints['checkpoint']=pd.date_range(start=first_sleep, end=last_sleep, freq='1d')+pd.Timedelta('18h')
+
+For each day at 18:00, I compute the amount of time slept in the next
+24 hours:
+
+	aggregated=pd.merge_asof(sleep, checkpoints, left_on='start_time', right_on='checkpoint', direction='backward')
+	aggregated=aggregated[relevant_sleep_cols+['checkpoint']].groupby('checkpoint').sum()
+	aggregated.reset_index(inplace=True)
+
+	aggregated=pd.merge(aggregated, meditations, how='cross')
+	aggregated=aggregated.loc[
+		(aggregated['checkpoint']-aggregated['meditation_end']<pd.Timedelta('4d')) &
+		(aggregated['checkpoint']-aggregated['meditation_end']>pd.Timedelta('0d'))]
+
+	aggregated=aggregated.groupby('checkpoint').agg({'meditation_duration': 'sum'} | {col: 'min' for col in relevant_sleep_cols})
+	no_outliers=aggregated.loc[aggregated['meditation_duration']<8*3600]
+
+And:
+
+	>>> np.corrcoef(aggregated['meditation_duration'], aggregated['minutes_asleep'])
+	array([[ 1.        , -0.32231845],
+	       [-0.32231845,  1.        ]])
+	>>> np.corrcoef(no_outliers['meditation_duration'], no_outliers['minutes_asleep'])
+	array([[ 1.        , -0.01685158],
+	       [-0.01685158,  1.        ]])
+
 ### Behavioral Interventions
 
 * Sleep Hygiene
