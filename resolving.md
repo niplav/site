@@ -35,6 +35,8 @@ the underlying set of objects changes.__
 Resolving von Neumann-Morgenstern Inconsistent Preferences
 ===========================================================
 
+<!--TODO: move proofs into an appendix-->
+
 In economics, decision theory, game theory and parts of artificial
 intelligence the standard approach to modeling actors is to assume those
 actors have a fixed utility function they optimise [Peterson 2017, ch.
@@ -2642,6 +2644,9 @@ pears > apples. The entity notices that it sometimes treats oranges as
 better than pears and sometimes worse. It tries to correct by adjusting
 the value of oranges to be the same as pears. The new utility function
 is exactly as incoherent as the old one.
+
+Appendix B: Proofs
+-------------------
 
 *—Katja Grace, [“Counterarguments to the basic AI x-risk case”](https://www.lesswrong.com/posts/LDRQ5Zfqwi8GjzPYG/counterarguments-to-the-basic-ai-x-risk-case), 2022*
 

@@ -30,6 +30,7 @@ March 2025
 	* The effect is much stronger during meditation retreats, but off-retreat data also shows a slight negative correlation between sleep duration and time meditated.
 * [Model Expansion and AI Alignment](./notes.html#Model_Expansion_and_AI_Alignment)
 * [Skip Connections](./notes_on_pickup.html#Skip_Connections)
+* [Considerations on Cryonics](./considerations_on_cryonics.html): [Sooner Singularity Scenarios](./considerations_on_cryonics.html#Sooner_Singularity). If longevity escape velocity happens before 2040, signing up for cryonics seems not worth it.
 
 ### Links
 
