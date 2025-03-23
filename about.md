@@ -246,7 +246,7 @@ and stuff any additional topics & bibliographic information into the
 > <div>
 >	exiftool -Author="Frank P. Ramsey" -Date=1930 -Title="On a Problem of Formal Logic" -DOI="10.1112/plms/s2-30.1.264"
 >	-Subject="mathematics" -Keywords="Ramsey theory, Ramsey's theorem, combinatorics, mathematical logic, decidability,
->	first-order logic,  Bernays-Schönfinkel-Ramsey class of first-order logic, _Proceedings of the London Mathematical
+>	first-order logic, Bernays-Schönfinkel-Ramsey class of first-order logic, _Proceedings of the London Mathematical
 >	Society_, Volume s2-30, Issue 1, 1930-01-01, pg264-286" 1930-ramsey.pdf
 > </div>
 
@@ -471,7 +471,7 @@ but rather cycles).
 * [Aaron Mazel-Gee](https://etale.site/); another .site URL owner, and all around cool math guy
 * [Andrew McKenzie](http://andrewtmckenzie.com/), who writes [essays on brain preservation](https://brainpreservation.github.io/) and [notes on neurobiology](https://neurobiology.substack.com/)
 * [Ethan](https://210ethan.github.io): Pure Everests, with careful diligence
-* [exdiegesis](https://x.com/exdiegesis/)/[mir](https://www.lesswrong.com/users/mir)/[rime](https://forum.effectivealtruism.org/users/elua)
+* [exdiegesis](https://x.com/exdiegesis/)/[mir](https://www.lesswrong.com/users/mir)/[rime](https://forum.effectivealtruism.org/users/elua)/ward
 * [Matthew Baggins](https://hidden-structures.vercel.app/)
 * [Mesaoptimizer](https://mesaoptimizer.com/)
 * [norvid_studies](https://norvidshoshin.wordpress.com/blog/), [𝕏](http://nitter.poast.org/norvid_studies): Endless source [of](https://nitter.poast.org/norvid_studies/status/1436131871184850949) [fascinating](https://nitter.poast.org/norvid_studies/status/1609632437306556417) [questions](https://nitter.poast.org/norvid_studies/status/1719694131578986518)
@@ -502,11 +502,9 @@ I follow [Crocker's rules](https://www.lesswrong.com/tag/crockers-rules):
 
 > Declaring yourself to be operating by "Crocker's Rules" means that
 other people are allowed to optimize their messages for information, not
-for being nice to you.  Crocker's Rules means that you have accepted full
+for being nice to you. Crocker's Rules means that you have accepted full
 responsibility for the operation of your own mind - if you're offended,
 it's your fault.
-
-*—[“Crocker's rules”](http://sl4.org/crocker.html)*
 
 People don't seem particularly benefit from declaring Crocker's rules—I
 suspect that is because giving direct and honest feedback is similarly

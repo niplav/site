@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-10-18, modified: 2024-09-21, language: english, status: maintenance, importance: 7, confidence: possible*
+*author: niplav, created: 2019-10-18, modified: 2025-03-23, language: english, status: maintenance, importance: 7, confidence: possible*
 
 > __Is [cryonics](https://en.wikipedia.org/wiki/Cryonics)
 worth it, and if yes, should one
@@ -1609,7 +1609,44 @@ y-axis. This should get fixed sometime in the future.
 
 ![Critical perspective on cryonics](./img/considerations_on_cryonics/critical.png "Critical perspective on cryonics. The older one get's, the less of a loss cryonics is, but it still stays a net negative trade.")
 
-<!--TODO: Sooner singularity?-->
+### Sooner Singularity
+
+What if a technological singularity (and thus longevity escape velocity)
+happen fairly soon?<!--TODO: Epoch/Metaculus timelines for full automation
+& the likes-->
+
+This can be calculated easily, just adjust the parameters. For a
+singularity in 2030, for someone who's 30 years old now:
+
+	$ lua cryoyear.lua 30 50000 0.05 0.9 4260 0.95 180 90000 2030 | sort -n | tail -4
+	-7151.7371069419: 76
+	-6570.3669732371: 77
+	-6014.0706728592: 78
+	-5482.8543274028: 79
+
+We can see that the optimal time to sign up is when the person is 79
+years old, and then it's still negative.
+
+For a singularity in 2040 we get positive values:
+
+	$ lua cryoyear.lua 30 50000 0.05 0.9 4260 0.95 180 90000 2040 | sort -n | tail -4
+	3499.9213538675: 42
+	5604.6700295417: 43
+	7279.17233885: 44
+	8690.3632744588: 45
+
+Curiously, the optimal time to sign up is *in the year* in which we get
+longevity escape velocity. Strange.
+
+And for a singularity in 2050:
+
+	$ lua cryoyear.lua 30 50000 0.05 0.9 4260 0.95 180 90000 2050 | sort -n | tail -4
+	45945.236228664: 41
+	46262.529186917: 44
+	46405.608341424: 42
+	46504.733610024: 43
+
+In this case, the model recommends to sign up in 2038.
 
 <!--
 ### Where Waiting Makes Sense
@@ -1619,10 +1656,6 @@ $ lua cryoyear.lua 22 50000 0.1 0.6 100 1 180 100000 2080
 
 <!--
 Higher monetary value for life-years make the case stronger
--->
-
-<!--
-Near Singularity Scenarios
 -->
 
 ### Other Modifications
