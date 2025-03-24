@@ -745,3 +745,9 @@ datetime,substance,amount,experiment,id,prediction
 2025-03-19T19:39:39+01:00,creatine,6g,,,
 2025-03-20T09:00:28+01:00,vitamind3,25μg,C,45,0.55
 2025-03-22T00:03:54+01:00,melatonin,0.4mg,,,
+2025-03-23T11:57:32+01:00,creatine,6g,,,
+2025-03-24T10:10:18+01:00,caffeine,200mg,,,
+2025-03-24T10:10:18+01:00,vitamind3,25μg,,,
+2025-03-24T10:10:18+01:00,vitaminb12,500mg,,,
+2025-03-24T10:10:18+01:00,omega3,265mg,,,
+2025-03-24T10:10:18+01:00,l-theanine,500mg,,,
