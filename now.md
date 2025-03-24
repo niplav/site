@@ -29,9 +29,10 @@ preferences](./resolving.html).
 Data Collection
 ----------------
 
-At the moment I'm not collecting much data beyond [what I usually
-gather](./data.md), and running one RCT on Vitamin-D₃ and one RCT on
-[lumenators](https://arbital.com/p/lumenators/).
+At the moment I'm not collecting much data beyond [what
+I usually gather](./data.md), and running [one RCT on
+Vitamin-D₃](./nootropics.html#Experiment_C_SelfBlinded_RCT) and one
+RCT on [lumenators](https://arbital.com/p/lumenators/).
 
 Programming
 -----------

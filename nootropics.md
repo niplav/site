@@ -572,6 +572,9 @@ active ingredient) in high-pressure situations (e.g. I'm procrastinating
 on an important task and have anxiety around it, or during exams). So
 far, it seems especially useful to break me out of an akratic rut.
 
+Orexin
+-------
+
 Vitamin D₃
 -----------
 

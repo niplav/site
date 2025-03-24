@@ -11,11 +11,12 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Waltz with Bashir](https://en.wikipedia.org/wiki/Waltz_With_Bashir)
 * [The Man Who Knew Infinity](https://www.imdb.com/title/tt0787524/)
 * [The Untouchables](https://www.imdb.com/title/tt0094226/)
 * [Hair](https://en.wikipedia.org/wiki/Hair_\(musical\))
 * [Color out of Space](https://en.wikipedia.org/wiki/Color_Out_of_Space_\(film\))
-* Lektionen in Finsternis
+* [Lessons of Darkness](https://en.wikipedia.org/wiki/Lessons_of_Darkness)
 <!--Newest animated spiderman-->
 * [Labyrinth](https://en.wikipedia.org/wiki/Labyrinth_\(movie\))
 * [From Dusk Till Dawn](https://en.wikipedia.org/wiki/From_Dusk_Till_Dawn)
