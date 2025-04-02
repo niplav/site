@@ -315,6 +315,7 @@ of meditation a day.
 * Unihemispheric Sleep
 * Going to Bed Later and Waking Up At The Same Time
 * Going to Bed At The Same Time And Waking Up Earlier
+* Tai Chi (see [@cookiecarver](https://x.com/cookiecarver/status/1905385411536355383))
 
 > There are two plausible ways to cut sleep duration without harming
 cognition: increasing the proportion of slow wave sleep that is spent

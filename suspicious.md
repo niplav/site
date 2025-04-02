@@ -8,4 +8,4 @@
 Too Good to be True: Training an RL Agent to be Suspicious
 ===========================================================
 
-Moved to [this note](./notes.html#To_Good_To_be_True_Training_an_RL_Agent_to_be_Suspicious).
+Moved to [this note](./notes.html#Too_Good_to_be_True_Training_an_RL_Agent_to_be_Suspicious).

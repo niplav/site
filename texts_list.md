@@ -17,6 +17,19 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [DMT Prime Factorization Revisited (Andrew Zuckerman, 2024)](https://andzuck.com/blog/dmt-primes/)
+* [Topics Raised At A Night Of Drinking At Lee Cho’s: Crazy Things, Front Stops, Doing The Opposite and Age Filtering (ThomasCrownPUA, 2021)](https://thomascrownpua.com/2021/03/22/topics-raised-at-a-night-of-drinking-at-lee-chos-crazy-things-front-stops-doing-the-opposite-and-age-filtering/)
+* [Super Free Will (Andrew Zuckerman, 2023)](https://andzuck.com/blog/sfw/)
+* [Beyond Daygame Guilt (ThomasCrownPUA, 2023)](https://thomascrownpua.com/2023/02/13/beyond-daygame-guilt/)
+* [Daygame Is A Multi-Year Project (ThomasCrownPUA, 2020)](https://thomascrownpua.com/2020/02/13/daygame-is-a-multi-year-project/)
+* [The Daygame Journey (ThomasCrownPUA, 2025)](https://thomascrownpua.com/2025/03/28/the-daygame-journey/)
+* [How to be Good at Dating (Alvaro de Menard, 2025)](https://fantasticanachronism.com/2025/03/20/how-to-be-good-at-dating/)
+* \* Daygame Mastery (Nick Krauser, 2018)
+* [mimalloc (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Mimalloc)
+* [AI "Deep Research" Tools Reviewed (Sarah Constantin, 2025)](https://sarahconstantin.substack.com/p/ai-deep-research-tools-reviewed)
+* [Orexin (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Orexin)
+* [Scale of the Human Brain (AI Impacts, 2023)](https://aiimpacts.org/scale-of-the-human-brain/)
+* [Linkage disequilibrium score regression (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Linkage_disequilibrium_score_regression)
 * [AI #108: Straight Line on a Graph (Zvi, 2025)](https://www.lesswrong.com/posts/Q3qoy8DFnkMij4xzC/ai-108-straight-line-on-a-graph
 * [Progress from our Frontier Red Team (Anthropic, 2025)](https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team)
 * [Clustering on the output of t-SNE (amoeba/generic_user, 2018)](https://stats.stackexchange.com/questions/263539/clustering-on-the-output-of-t-sne/264647)

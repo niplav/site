@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2025-03-22, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2025-04-01, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -28,6 +28,7 @@ March 2025
 
 * Does meditation decrease sleep need? [Analysing my own data](./increasing.html#Analysing_my_Data) suggests that it does!
 	* The effect is much stronger during meditation retreats, but off-retreat data also shows a slight negative correlation between sleep duration and time meditated.
+* [Creating Libertarian Free Will](./will.html)
 * [Model Expansion and AI Alignment](./notes.html#Model_Expansion_and_AI_Alignment)
 * [Skip Connections](./notes_on_pickup.html#Skip_Connections)
 * [Considerations on Cryonics](./considerations_on_cryonics.html): [Sooner Singularity Scenarios](./considerations_on_cryonics.html#Sooner_Singularity). If longevity escape velocity happens before 2040, signing up for cryonics seems not worth it.

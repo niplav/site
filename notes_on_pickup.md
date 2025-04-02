@@ -378,14 +378,21 @@ difference](#Vascular_Tension_and_Attractiveness) in the success of my
 approaches (in terms of objective results like bringing a chick out on
 a date, or fucking her), so take all of this with a grain of salt.
 
-<!--
 If You Want To Fuck Hot Chicks, You Have To Approach Them
 ----------------------------------------------------------
 
 The muscles you don't train don't grow.
 
-Iron law.
--->
+Iron laws.
+
+[Play in hard
+mode](https://thezvi.wordpress.com/2017/08/26/play-in-hard-mode/).
+
+Reality yields, but it yields subtly.
+
+Tell the truth.
+
+Look her in the eye, and no higher — summon all the courage you require…
 
 The Red Quest: An Anthology
 ----------------------------
