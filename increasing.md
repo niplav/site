@@ -284,6 +284,13 @@ Resulting scatterplots with linear regressions are:
 	array([[ 1.        , -0.01685158],
 	       [-0.01685158,  1.        ]])
 
+The outlier data is mainly from a single Goenka retreat, which have a
+sleep schedule that almost doesn't overlap with my natural sleep schedule,
+so there's some significant data contamination here. I still think that
+the reduced sleep at the time didn't have a strong negative effect on me,
+and my best guess is that that's due to the large amount of meditation
+I was doing.
+
 #### Cost-Benefit
 
 At \$2.5/hr (half the worth of other waking hours), saving two
