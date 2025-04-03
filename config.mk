@@ -88,6 +88,7 @@ HTML=index.html \
 	nootropics.html \
 	nuclear.html \
 	options.html \
+	orexin.html \
 	patching.html \
 	pipe_rings.html \
 	platforms.html \

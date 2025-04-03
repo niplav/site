@@ -26,7 +26,7 @@ content.
 March 2025
 -----------
 
-* Does meditation decrease sleep need? [Analysing my own data](./increasing.html#Analysing_my_Data) suggests that it does!
+* Does meditation decrease sleep need? [Analyzing my own data](./increasing.html#Analysing_my_Data) suggests that it does!
 	* The effect is much stronger during meditation retreats, but off-retreat data also shows a slight negative correlation between sleep duration and time meditated.
 * [Creating Libertarian Free Will](./will.html)
 * [Model Expansion and AI Alignment](./notes.html#Model_Expansion_and_AI_Alignment)
@@ -39,6 +39,8 @@ March 2025
 * [X(3872) (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/X\(3872\))
 * [Pulsar clock (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Pulsar_clock)
 * [Nuclear matter (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Nuclear_matter)
+* [Super Free Will (Andrew Zuckerman, 2023)](https://andzuck.com/blog/sfw/)
+* [Scale of the Human Brain (AI Impacts, 2023)](https://aiimpacts.org/scale-of-the-human-brain/)
 
 February 2025
 --------------
