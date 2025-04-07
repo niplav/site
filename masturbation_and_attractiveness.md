@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2025-02-18, language: english, status: maintenance, importance: 2, confidence: likely*
+*author: niplav, created: 2019-08-03, modified: 2025-02-18, language: english, status: abandoned, importance: 2, confidence: likely*
 
 > __Members of the [NoFap community](https://en.wikipedia.org/wiki/NoFap)
 [frequently claim](#Appendix_C_Examples_for_the_Claim) that abstinence

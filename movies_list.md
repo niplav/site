@@ -11,6 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [F For Fake](https://en.wikipedia.org/wiki/F_for_Fake)
 * [Waltz with Bashir](https://en.wikipedia.org/wiki/Waltz_With_Bashir)
 * [The Man Who Knew Infinity](https://www.imdb.com/title/tt0787524/)
 * [The Untouchables](https://www.imdb.com/title/tt0094226/)
