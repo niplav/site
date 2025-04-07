@@ -291,6 +291,16 @@ the reduced sleep at the time didn't have a strong negative effect on me,
 and my best guess is that that's due to the large amount of meditation
 I was doing.
 
+#### Anecdotes
+
+On a 1-month meditation retreat I did I noticed a stark reduction in my
+sleep time, at ~10 hours of meditation a day I probably slept 5-6 hours
+a night (I usually sleep ~8 hours if uninterrupted).
+
+I friend of mine with a long-term chronic illness, also a long-term
+meditator, tells me he sleeps ~6-7 hours per night, at around 2 hours
+of meditation a day.
+
 #### Cost-Benefit
 
 At \$2.5/hr (half the worth of other waking hours), saving two
@@ -304,16 +314,6 @@ The quality of the evidence here is very slim, but anecdotes point
 towards sleep durations decreasing during meditation retreats. It would
 be quite interesting to know the relation between time spent meditating
 and amount of time slept.
-
-#### Anecdotes
-
-On a 1-month meditation retreat I did I noticed a stark reduction in my
-sleep time, at ~10 hours of meditation a day I probably slept 5-6 hours
-a night (I usually sleep ~8 hours if uninterrupted).
-
-I friend of mine with a long-term chronic illness, also a long-term
-meditator, tells me he sleeps ~6-7 hours per night, at around 2 hours
-of meditation a day.
 
 ### Behavioral Interventions
 

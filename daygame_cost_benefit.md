@@ -840,6 +840,8 @@ a skill that requires effort and practice), and positive side effects
 such as increased salary resulting from a higher willingness to negotiate
 ones salary and search for other jobs.
 
+<!--TODO: Find a better partner benefit-->
+
 #### Positive Side Effects
 
 Let's assume one does 1000 daygame approaches per year.
