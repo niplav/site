@@ -19,7 +19,7 @@ code, design and execute experiments, analyze data and make predictions.__
 
 > __[Content warning](./content_warning.html).__
 
-[^1]: Feeds like RSS/Atom/Substack are not a great fit for what I'm trying to do here, since [I'm not writing a blog](./about.html#Not_Really_a_Blog) and instead focus on [long content](https://gwern.net/about#long-content). But demand was high.
+[^1]: Feeds like RSS/Atom/Substack are not a great fit for what I'm trying to do here, since [I'm not writing a blog](./about.html#Not_Really_a_Blog) (it's not chronological, i.e. the "log" part is missing) and instead focus on [long content](https://gwern.net/about#long-content). But demand was high.
 
 Content
 =======

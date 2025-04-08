@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Introducing AI 2027 (Scott Alexander, 2025)](https://www.astralcodexten.com/p/introducing-ai-2027)
+* [Familial natural short sleep (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Familial_natural_short_sleep)
+* [Play in Easy Mode (Zvi, 2017)](https://thezvi.wordpress.com/2017/08/26/play-in-easy-mode/)
+* [Play in Hard Mode (Zvi, 2017)](https://thezvi.wordpress.com/2017/08/26/play-in-hard-mode/)
 * [DMT Prime Factorization Revisited (Andrew Zuckerman, 2024)](https://andzuck.com/blog/dmt-primes/)
 * [Topics Raised At A Night Of Drinking At Lee Cho’s: Crazy Things, Front Stops, Doing The Opposite and Age Filtering (ThomasCrownPUA, 2021)](https://thomascrownpua.com/2021/03/22/topics-raised-at-a-night-of-drinking-at-lee-chos-crazy-things-front-stops-doing-the-opposite-and-age-filtering/)
 * [Super Free Will (Andrew Zuckerman, 2023)](https://andzuck.com/blog/sfw/)
@@ -24,7 +28,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Daygame Is A Multi-Year Project (ThomasCrownPUA, 2020)](https://thomascrownpua.com/2020/02/13/daygame-is-a-multi-year-project/)
 * [The Daygame Journey (ThomasCrownPUA, 2025)](https://thomascrownpua.com/2025/03/28/the-daygame-journey/)
 * [How to be Good at Dating (Alvaro de Menard, 2025)](https://fantasticanachronism.com/2025/03/20/how-to-be-good-at-dating/)
-* \* Daygame Mastery (Nick Krauser, 2018)
+* |53 Daygame Mastery (Nick Krauser, 2018)
 * [mimalloc (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Mimalloc)
 * [AI "Deep Research" Tools Reviewed (Sarah Constantin, 2025)](https://sarahconstantin.substack.com/p/ai-deep-research-tools-reviewed)
 * [Orexin (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Orexin)
