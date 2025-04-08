@@ -111,11 +111,11 @@ lacks the chronological element of the standard blog format, except for
 the [changelog](./changelog.html).
 
 I agree with Gwern that blogs are the victory of the hare over the
-tortoise, and I'm deeply unhappy that short-term and unorganized
-forms of content aggregation have prevailed on the web over long-term
-& maintained sites (culminating in abominations such as discord
-servers holding large amounts of communal knowledge—with content on
-a forum one can at least link or lurk without creating an account,
+tortoise, and I'm deeply unhappy that short-term and unorganized forms
+of content aggregation have prevailed on the web over long-term &
+maintained sites (culminating in abominations such as discord servers
+holding large amounts of communal knowledge — with content on a
+forum one can at least link or lurk without creating an account,
 and potentially just shove it into the internet archive if need
 be! "[anicca](https://en.wikipedia.org/wiki/Impermanence), anicca…"). I
 do, however, sometimes participate in the guilty pleasure of [ephemeral

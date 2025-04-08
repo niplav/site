@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2025-04-03, modified: 2025-04-03, language: english, status: notes, importance: 9, confidence: log*
+*author: niplav, created: 2025-04-03, modified: 2025-04-08, language: english, status: notes, importance: 9, confidence: log*
 
 > __.__
 
@@ -28,7 +28,7 @@ and recovery days.
 
 * Store Orexin powder in the freezer
 * Before a block:
-	* Dissolve Orexin powder in the saline solution in *one* spray bottle
+	* Dissolve Orexin powder in the saline solution in *one* spray bottle, so that it contains an adequate amount (administration results in ~1μg/kg of bodymass)
 	* Put saline solution in the other bottle
 	* Put the Orexin-filled spray bottle in one container, together with the 'O' piece of paper
 	* Put the saline solution spray bottle in the other container, together with the 'P' piece of paper
@@ -38,7 +38,7 @@ and recovery days.
 		* Sleep only 5-6 hours
 		* Pick a container at random, take out only the bottle, administer nasal spray
 		* Mark the container so that you know that you took it on day one of the block
-		* Wait ~30 minutes
+		* Wait 20 minutes
 		* Run [a bunch of measurements](#Measurements)
 	* Day 2:
 		* Sleep a normal amount
@@ -46,7 +46,7 @@ and recovery days.
 		* Sleep only 5-6 hours
 		* Pick the other container, take out only the bottle, administer nasal spray
 		* Mark the container so that you know that you took it on day three of the block
-		* Wait ~30 minutes
+		* Wait 20 minutes
 		* Run [a bunch of measurements](#Measurements)
 	* Day 4:
 		* Sleep a normal amount
@@ -65,10 +65,18 @@ have slack I might decide to do more extensive measurements for one block.
 If done per block, this will not impact the quality of the data, but
 please don't decide within a block to switch the detail of measurements.
 
+Measurements were selected according to how much they
+degrade with sleep deprivation, informed by [this auto-generated
+report](./doc/orexin/impact_of_sleep_deprivation_on_psychological_metrics_elicit_2025.pdf)
+using [Elicit](https://elicit.org/).
+
 * Active measurements
-	* Reaction speed: ≥10 datapoints, collected via TODO
-	* Digit span: ≥10 datapoints, collected via TODO
-	* Subjective well-being: ≥10 datapoints, collected via TODO (maybe MoodPatterns?)
+	* Reaction speed via the [psychomotor vigilance task](https://en.wikipedia.org/wiki/Psychomotor_vigilance_task): ≥10 datapoints/day, collected via TODO
+	* Attention via the [digit symbol substitution test](https://en.wikipedia.org/wiki/Digit_symbol_substitution_test): 1 datapoint/day, collected via TODO
+	* Digit span: ≥10 datapoints/day, collected via TODO
+	* [Stanford Sleepiness Scale](https://en.wikipedia.org/wiki/Stanford_Sleepiness_Scale)
+	* Subjective well-being: ≥4 datapoints/day, collected via MoodPatterns
+	* Time perception accuracy
 * Passive measurements
 	* Whatever is collected by the fitbit
 
@@ -92,12 +100,28 @@ don't think we have enough statistical power to get there, and it's more
 useful to focus on one-off effectiveness instead[^1]. Tolerance effects
 can be examined later.
 
-### Open Questions
-
-* Is there a way to store Orexin in a dissolved form without it degrading?
-* How long should we wait after taking Orexin before starting measurements?
-
 Power Calculation
 ------------------
+
+*epistemic status*: Doing a [power
+analysis](https://en.wikipedia.org/wiki/Power_calculation#Power_analysis)
+for the first time. Checked by Claude.
+
+Let's say we will use a
+[two-sample](https://en.wikipedia.org/wiki/Two-sample_hypothesis_testing)
+[t-test](https://en.wikipedia.org/wiki/Student's_t-test). We can use
+[statsmodels](https://www.statsmodels.org/) to do the heavy lifting; we
+want to detect a medium effect size (0.5) with a bog-standard significance
+level of 0.05 and a power of 0.75:
+
+	import statsmodels.stats.power
+	>>> statsmodels.stats.power.tt_ind_solve_power(effect_size=0.5, alpha=0.05, power=0.75, alternative='two-sided')
+	56.49860618876443
+
+This means that we'll have to collect ~60 Orexin samples to detect a
+medium effect size; splitting it over two people means that each takes
+Orexin ~30 times and Placebo 30 times, with blocks of a length of four
+days that gives us 240 days in total (though half of those don't actually
+entail any work in terms of data collection).
 
 [^1]: Even demonstrating one-off effectiveness would be cool: It's often the case that people have short-term sleep deprivation, and would like to ameliorate the effects.

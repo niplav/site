@@ -122,12 +122,17 @@ precision, that would be good or bad for the world: nuclear strikes would
 have fewer externalities, but leaders might also be more willing to use
 nuclear strikes due to lower civilian casualties (and thereby increasing
 the risk of nuclear escalation)).
+4. __Tacit equilibrium__: Perhaps *some* or even *no* countries currently
+have nuclear weapons that work, and that is common knowledge. This creates
+an equilibrium where countries don't dare test their weapons because it
+would lead to many uncomfortable internal questions, and disrupt a global
+equilibrium in which there is a tacit agreement between countries to
+just not use nuclear weapons. I don't think this is the case<sub>5%</sub>.
 
 <!--TODO:
 Objections:
 
 Maybe we'll just get more reliable weapons at the same volume?
-Maybe none of the current weapons actually work? In this case testing would be bad.
 -->
 
 Ideal Policy Situation

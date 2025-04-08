@@ -575,6 +575,8 @@ far, it seems especially useful to break me out of an akratic rut.
 Orexin
 -------
 
+See [here](./orexin.html).
+
 Vitamin D₃
 -----------
 
@@ -595,6 +597,7 @@ Started 2024-08-29.
 Notes on the experiment:
 
 * 6th dose: Pill opened up inside the envelope, accidentally mostly de-blinding the dose (I'm pretty sure<sub>85%</sub> it was placebo).
+* 48th dose: Started meditating, lay down, fell asleep.
 
 See Also
 ---------
