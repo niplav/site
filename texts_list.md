@@ -17,6 +17,15 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Feferman–Schütte ordinal (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Feferman-Schutte_ordinal)
+* [My Takeaways From AI 2027 (Scott Alexander, 2025)](https://www.astralcodexten.com/p/my-takeaways-from-ai-2027)
+* [Ought implies can (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Ought_implies_can)
+* Safeguarded AI: TA2 Phase 1 — Machine Learning Organisation (ARIA, 2025)
+* [Evolution Strategies (Lilian Weng, 2019)](https://lilianweng.github.io/posts/2019-09-05-evolution-strategies/)
+* [Stanford Sleepiness Scale (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Stanford_Sleepiness_Scale)
+* [Digit symbol substitution test (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Digit_symbol_substitution_test)
+* [Blogging is dead, long live sites (Gavin Leech, 2020)](https://www.gleech.org/sites)
+* [Fast-growing hierarchy (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Fast-growing_hierarchy)
 * [Introducing AI 2027 (Scott Alexander, 2025)](https://www.astralcodexten.com/p/introducing-ai-2027)
 * [Familial natural short sleep (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Familial_natural_short_sleep)
 * [Play in Easy Mode (Zvi, 2017)](https://thezvi.wordpress.com/2017/08/26/play-in-easy-mode/)
