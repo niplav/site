@@ -18,6 +18,8 @@ Texts
 https://x.com/VesselOfSpirit/status/1296689138234580994
 
 "If you're smart, pivot into being cool and hot."
+
+Mr. Bond norvid_studies tweet
 -->
 
 ### Poems
@@ -197,9 +199,14 @@ Crime](https://www.imdb.com/title/tt0087280/).
 
 <!--
 ### Series
-
-### YouTube Videos
 -->
+
+### YouTube
+
+My favorite YouTube channels are [The Sheafification of
+G](https://www.youtube.com/@SheafificationOfG/videos) and
+[LikeAFoxStudios](https://www.youtube.com/@LikeAFoxStudios), alongside
+with all the other standard channels. (You know who I'm talking about.)
 
 Websites
 ---------

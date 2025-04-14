@@ -2492,6 +2492,69 @@ across scalings, interpretability tools transfer partially (or
 completely) because sometimes weights can be frozen, tracking [model
 splintering](https://www.lesswrong.com/s/kjcioCkqSSS4LiMAe/p/k54rgSg7GcjtXnMHX)…
 
+How Is Human Intelligence Distributed
+--------------------------------------
+
+As per the [central limit
+theorem](https://en.wikipedia.org/wiki/Central-limit_theorem),
+the sum of [independent and identically
+distributed](https://en.wikipedia.org/wiki/Independent_and_identically_distributed)
+probability distributions with finite variance converges to the [normal
+distribution](https://en.wikipedia.org/wiki/Normal-distribution);
+similarly the *product* of such distributions converges to the [log-normal
+distribution](https://en.wikipedia.org/wiki/Log-normal_distribution).
+
+[IQ](https://en.wikipedia.org/wiki/Intelligence_Quotient)
+is famously *defined* to be normally distributed—but we're
+not interested in convention. Is there some Platonic way in
+which cognitive ability is naturally distributed? For example,
+height is mostly normally distributed, and human lifespan is
+[Gompertz-distributed](https://en.wikipedia.org/wiki/Gompertz_distribution);
+it's not very useful to talk about log-height or log-lifespan.
+
+I'm open to the claim that there is no such natural scale for
+intelligence, or that at least the scale for intelligence is at least
+similarly natural in some linear and log-scale.
+
+Two models:
+
+In one, intelligence may be best modeled as different factors acting
+*in sequence* or dependently on another, e.g. the right amount of
+[myelination](https://en.wikipedia.org/wiki/Myelination), number of
+[synapses](https://en.wikipedia.org/wiki/Synapse) per neuron, the
+[reuptake speed](https://en.wikipedia.org/wiki/Reuptake), the number of
+[cortical columns](https://en.wikipedia.org/wiki/Cortical_column) and
+just sheer [brain volume](https://en.wikipedia.org/wiki/Brain_volume)…;
+the impact of all of those being *multiplied together*, if any single
+one is too low the brain can't function properly and reliable cognition
+goes to zero. Thus, highly simplified, `$\mathit{g}=\prod_{i} X_i$`
+for some family of random variables `$X_i$`. This yields a log-normal
+(or at least heavy-tailed, if `$X_i$` are bounded below) distribution.
+
+In the other, intelligence is the sum of the aforementioned
+variables: All still contributing to the final performance,
+but if one is fairly low that's not too bad as other
+parts can compensate. This aligns well with an [infinitesimal
+model](https://en.wikipedia.org/wiki/Infinitesimal_model) of the genetics
+of human intelligence, which is widely assumed to be a [polygenic
+trait](https://en.wikipedia.org/wiki/Polygenic_trait). Intelligence
+is a strongly polygenic trait, which under the infinitesimal
+model implies a normally distributed phenotype, but [a
+significant amount of gene-environment interaction can change that
+distribution](./doc/bio/three_laws_of_behavior_genetics_and_what_they_mean_turkheimer_2000.pdf)<!--TODO:
+maybe not saying what I'm thinking it says? Find a better citation-->. In
+this model, `$\mathit{g}=\sum_{i} X_i$`, *g* is normally distributed.
+
+How would we figure out which of these models is correct?
+
+* Performance gaps between the highest and second-highest performer on easily measurable tasks (e.g. reaction speed, theorem-proving, competitive programming)
+* Examining other similar traits with a more natural scale and examining if they are normally or log-normally distributed
+* Further theoretical arguments; e.g. [psychophysics](https://en.wikipedia.org/wiki/Psychophysics) indicates that there is *something* fat-tailed going on in the human brain—see e.g. the logarithmic [Fechner's law](https://en.wikipedia.org/wiki/Fechner's_Law) (and hence the use of [decibel](https://en.wikipedia.org/wiki/Decibel) as a unit in acoustics) and [Steven's power law](https://en.wikipedia.org/wiki/Steven's_power_law).
+
+Notes:
+
+* [@quetzal\_rainbow](https://x.com/quetzal_rainbow/status/1910948346887368819): "There seems to be genetic difference between speed and accuracy. Tasks that depend on going and iterating fast are normal, tasks where you need to do everything perfectly are lognormal"
+
 [^1]: I don't know whether the intergalactic medium is charged, if so the black holes would also accumulate charge. I assume that on a medium scale the intergalactic medium is fairly evenly distributed, so I don't think they'd accumulate angular momentum.
 [^2]: Barring things like intrinsic value or comparative advantage.
 [^3]: For the sake of simplicity I'm assuming that `$i, j, k$` exist here.
