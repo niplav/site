@@ -598,7 +598,7 @@ Missing Emoji
 * Blanket
 * Pillow
 * Carriage
-* Galaxy
+* Guillotine
 * Toast (using [skin tone indicators](https://en.wikipedia.org/wiki/Emoji#Skin_color) to signify various levels of crispness)
 * [Lime](https://x.com/mulltuhh/status/1799816080875233538)
 * [Various egypt-themed emoji](http://nitter.poast.org/hum_dunkin/status/1776579149739528668)

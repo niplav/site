@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-03-17, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-04-16, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2219,12 +2219,14 @@ by one or more of the black holes in the direction of travel.
 2023](https://www.goodreads.com/book/show/42275384-grand-futures), p. 460*
 
 The black holes would "mop up" the intergalactic medium as the
-craft would move through it, increasing in mass[^1]. The heat of the
+craft would move through it, increasing in mass[^charged]. The heat of the
 intergalactic medium would be converted to the mass of the black hole,
 as black holes don't have any temperature and are [excellent heat
 sinks](https://www.weidai.com/black-holes.txt); instead they emit
 [Hawking radiation](https://en.wikipedia.org/wiki/Hawking_Radiation)
 in the black body spectrum.
+
+[^charged]: I don't know whether the intergalactic medium is charged, if so the black holes would also accumulate charge. I assume that on a medium scale the intergalactic medium is fairly evenly distributed, so I don't think they'd accumulate angular momentum.
 
 One option is to use such black hole
 [mops](https://en.wikipedia.org/wiki/Mop) in intergalactic colonization,
@@ -2290,16 +2292,20 @@ some __centaur operation__ `$C$`. Then there can exist some `$j≥i$`
 so that `$A_j⊏C(A_j, H)$`: that is, under a centaur setup humans and
 AIs together still beat AIs alone.
 
-But there can then be a smallest `$k \in ℕ$`[^3] so that `$C(A_k, H)⊏A_k$`:
+But there can then be a smallest `$k \in ℕ$`[^simplicity] so that `$C(A_k, H)⊏A_k$`:
 the human just detracts from the performance of the AI—unhelpful
 noise to a towering mind. Such AI systems have been called
 __[efficient](https://arbital.com/p/efficiency/)__ with respect to humans,
 either epistemically or instrumentally.
 
+[^simplicity]: For the sake of simplicity I'm assuming that `$i, j, k$` exist here.
+
 We can then call the gap between the first AI that beats humans and
 the first AI that beats human-AI centaurs the __centaur gap__ (i.e.,
 in terms of iterations of the AI, the number `$k-i$`)—the time that
-humans are still relevant in a world with superintelligent AIs[^2].
+humans are still relevant in a world with superintelligent AIs[^barring].
+
+[^barring]: Barring things like intrinsic value or comparative advantage.
 
 This centaur gap could be effectively zero in
 some domains such as arithmetic, and lasted ~14
@@ -2453,44 +2459,7 @@ Moved [here](./patching.html).
 Model Expansion and AI Alignment
 ---------------------------------
 
-The current trajectory of building superintelligent AI systems is
-omnicidally dangerous<sub>60%</sub>.
-
-One way to make it slightly less dangerous is to train small AI models
-first, check them for their safety properties, and then use the weights
-of those AI models to train larger AI models. In machine learning this
-process of training a bigger model initialized with a smaller model is
-called **model expansion**.
-
-![](./img/expansion/diagram.png)
-
-*Diagram from [Wang et al. 2023](https://arxiv.org/abs/2310.07999)*
-
-To my knowledge, model expansion is not used in training frontier
-AI models.
-
-There's two reasons why I think that this kind of training would be
-safer than pre-training from scratch with randomly initialized weights:
-
-<!--TODO: continue below-->
-
-1. Inheriting safety properties from previous models.
-2. Building on inductive biases favoring speed over simplicity.
-3. Allowing for more gradual scaling, as opposed to ever bigger pre-training runs.
-
-Open questions:
-
-1. Is this just a capability nerf?
-2. Is this just a capability bump?
-3. How much information from the small network gets overwritten?
-4. Do the inductive biases of the deeper network "overwhelm" the available circuits in the smaller model?
-
-In an ambitious vision, training after model expansion is a tiny
-step towards a craft of intelligence: one in which different stages
-of a model are trained with different data, invariances are kept
-across scalings, interpretability tools transfer partially (or
-completely) because sometimes weights can be frozen, tracking [model
-splintering](https://www.lesswrong.com/s/kjcioCkqSSS4LiMAe/p/k54rgSg7GcjtXnMHX)…
+Moved [here](./expansion.html).
 
 How Is Human Intelligence Distributed
 --------------------------------------
@@ -2555,6 +2524,4 @@ Notes:
 
 * [@quetzal\_rainbow](https://x.com/quetzal_rainbow/status/1910948346887368819): "There seems to be genetic difference between speed and accuracy. Tasks that depend on going and iterating fast are normal, tasks where you need to do everything perfectly are lognormal"
 
-[^1]: I don't know whether the intergalactic medium is charged, if so the black holes would also accumulate charge. I assume that on a medium scale the intergalactic medium is fairly evenly distributed, so I don't think they'd accumulate angular momentum.
-[^2]: Barring things like intrinsic value or comparative advantage.
-[^3]: For the sake of simplicity I'm assuming that `$i, j, k$` exist here.
+<!--TODO: incorporate https://claude.ai/chat/2abf0c08-36ca-45ce-9a97-821647fe7b65-->
