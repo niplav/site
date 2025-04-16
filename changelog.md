@@ -23,6 +23,9 @@ the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
 
+April 2025
+----------
+
 March 2025
 -----------
 

@@ -54,6 +54,7 @@ you’d like to forward
 * [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 * [Resolving von Neumann-Morgenstern Inconsistent Preferences](./resolving.html)
 	* Summary: [تهافت أنظمة الذكاء الاصطناعي](./tahafut.html)
+* [Model Expansion and AI Alignment](./expansion.html)
 * [Avoiding Wireheading via Convergent Interventional Avoidanceⁿ](./wireheading.html)
 * [Too Good to be True: Training an RL Agent to be Suspicious](./suspicious.html)
 

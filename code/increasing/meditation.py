@@ -109,12 +109,29 @@ aggregated=pd.merge_asof(sleep, checkpoints, left_on='start_time', right_on='che
 aggregated=aggregated[relevant_sleep_cols+['checkpoint']].groupby('checkpoint').sum()
 aggregated.reset_index(inplace=True)
 
-aggregated=pd.merge(aggregated, meditations, how='cross')
-aggregated=aggregated.loc[
-	(aggregated['checkpoint']-aggregated['meditation_end']<pd.Timedelta(backwards_horizon)) &
-	(aggregated['checkpoint']-aggregated['meditation_end']>pd.Timedelta('0d'))]
+daily_meditation = pd.DataFrame()
+daily_meditation['checkpoint'] = pd.date_range(start=first_sleep - pd.Timedelta(backwards_horizon), end=last_sleep, freq='1d') + pd.Timedelta('18h')
 
-aggregated=aggregated.groupby('checkpoint').agg({'meditation_duration': 'sum'} | {col: 'min' for col in relevant_sleep_cols})
+# Initialize with zero meditation time
+daily_meditation['meditation_duration'] = 0
+
+# For each meditation session, calculate which checkpoint it belongs to
+for _, meditation in meditations.iterrows():
+	# Find checkpoints that this meditation might affect (within backwards_horizon)
+	relevant_checkpoints = daily_meditation.loc[
+		(daily_meditation['checkpoint'] - meditation['meditation_end'] < pd.Timedelta(backwards_horizon)) &
+		(daily_meditation['checkpoint'] - meditation['meditation_end'] > pd.Timedelta('0d'))
+	]
+
+	# Add this meditation's duration to those checkpoints
+	if not relevant_checkpoints.empty:
+		daily_meditation.loc[relevant_checkpoints.index, 'meditation_duration'] += meditation['meditation_duration']
+
+# Merge sleep data with meditation data (left join to keep all sleep data)
+aggregated = pd.merge(aggregated, daily_meditation, on='checkpoint', how='left')
+
+# Fill any NaN meditation durations with 0 (for days with no meditation in range)
+aggregated['meditation_duration'] = aggregated['meditation_duration'].fillna(0)
 no_outliers=aggregated.loc[aggregated['meditation_duration']<8*3600]
 
 field='minutes_asleep'
