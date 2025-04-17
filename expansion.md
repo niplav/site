@@ -8,6 +8,8 @@
 Model Expansion and AI Alignment
 =================================
 
+<!--TODO: incorporate feedback from https://claude.ai/chat/115d646d-3825-4afe-8786-4c4f6974f5a1-->
+
 > Suchst du das Unermeßliche hier, du hast dich geirret,
 Meine Größe ist die, größer zu machen dich selbst.
 
@@ -33,7 +35,7 @@ AI models.
 There's four reasons why I think that this kind of training would be
 safer than pre-training from scratch with randomly initialized weights.
 
-### Building on inductive biases favoring speed over simplicity
+### Building on inductive biases favoring speed over simplicity.
 
 I don't think humanity yet has a good theory for the inductive biases
 of neural networks, initial attempts include the [neural tangent
@@ -54,7 +56,7 @@ the weights. `$t$` is upper-bounded by the number of layers, as one can
 only do as many operations on the data passed through the activations
 as there are layers (or layer-equivalents).[^error]
 
-[^error]: Someone<!--TODO: who again? janbam? the evangelion angel pfp guy?--> on twitter suggested that if we regard models as executing many short programs in superposition<!--TODO: toy models of superposition when read-->, then [SGD](https://en.wikipedia.org/wiki/Stochastic_Gradient_Descent) may select for (1) error-correction, since programs do sometimes interfere with each other, and each program needs to correct its own data after interference (intuitively recapitulating the singular learning story), and (2) for [modularity](https://www.lesswrong.com/posts/JBFHzfPkXHB2XfDGj), since the end result of the individual programs needs to be combined together before producing an output.
+[^error]: Someone<!--TODO: who again? janbam? bootstrap_yang?--> on twitter suggested that if we regard models as executing many short programs in superposition<!--TODO: toy models of superposition when read-->, then [SGD](https://en.wikipedia.org/wiki/Stochastic_Gradient_Descent) may select for (1) error-correction, since programs do sometimes interfere with each other, and each program needs to correct its own data after interference (intuitively recapitulating the singular learning story), and (2) for [modularity](https://www.lesswrong.com/posts/JBFHzfPkXHB2XfDGj), since the end result of the individual programs needs to be combined together before producing an output.
 
 If we're worried about [deceptive
 alignment](https://www.lesswrong.com/s/r9tYkB2a8Fp4DN8yB/p/zthDPAjh9w6Ytbeks),
@@ -76,6 +78,30 @@ should be favored, and when simplicity should be favored.
 
 ### Understanding smaller models is easier.
 
+If AI alignment/safety/welfare/non-totalitarianism is going to route
+through some kind of understanding of what kinds of mechanisms the AI
+models implement, then having models spend a larger amount of time in
+a smaller stage gives humanity more leeway of making statements about
+the structure of the models.
+
+For example, sparse
+[autoencoders](https://en.wikipedia.org/wiki/Autoencoder) on model
+activations are <!--much? TODO, maybe scaling Monosemanticity paper,
+or some Nanda anecdote--> more expensive to train on bigger models than
+smaller models, and doing mechanistic interpretability on smaller models
+is probably easier<sub>65%</sub> than doing it on bigger models<!--TODO:
+linear probes easier for smaller models? I'd guess so-->. So, under
+a scaling regime which involves model expansion, interpretability
+researchers could do run their interpretability tools on smaller models,
+and potentially carry over results to bigger models, e.g. by continuing
+to train a sparse autoencoder on an expanded model, or storing what
+specific circuits are expanded into.
+
+How successful this could be would depend on the expansion technique and
+how much structure is carried over after training following an expansion;
+some expansion techniques distribute the existing weights evenly over
+an expanded layer.
+
 ### Inheriting safety properties from previous models.
 
 When training smaller models to fulfill some behavioral safety
@@ -89,6 +115,23 @@ and then evaluate how the learned concept changes during further training,
 being able to better control how the concept generalizes.
 
 ### Allowing for more gradual scaling
+
+A common argument for the safety of scaling of neural networks is that
+they're scaled *gradually*, thus avoiding sudden capability jumps.
+
+I don't fully buy this argument because there may be relevant capabilities
+that emerge under even small changes in log loss<sub>40%</sub>,
+but my bigger complaint is that frontier training runs are not very
+continuous-sized: The biggest training run can be easily 10× bigger
+than the 2nd biggest training run<!--TODO: look at Epoch dataset &
+check if this is actually true!-->.
+
+Using model expansion solves this; you don't need to start
+training a model *from scratch*, but can take a small model,
+expand it a bit, continue training it, do safety testing, expand
+it further &c, with a very clear path to further and further
+development. In this sense model expansion is the inverse of [model
+distillation](https://en.wikipedia.org/wiki/Distillation_\(machine_learning\)).
 
 As opposed to ever bigger pre-training runs.
 
