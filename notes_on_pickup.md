@@ -307,6 +307,7 @@ This has some advantages and some disadvantages:
 	* You have to pay extra attention to whether the woman sees the contact information others have written there as well (this is not just hypothetical: I might`$_{25\%}$` have lost a lead through this).
 	* There is no option to coordinate for a delayed instant date.
 	* You can't make sure whether she has given you the right contact information (and this is perhaps even incentivized).
+	* I can't record myself during approaches, though this could be solved through a dedicated recorder.
 
 Overall, for me the effects of removing one weasel strongly outweigh
 the downsides, but your mileage may vary.

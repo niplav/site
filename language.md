@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2025-02-27, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2025-04-20, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of [puns](#Puns), [good
 bandnames](#Good_Bandnames), [types of guy](#Types_of_Guy), idioms,
@@ -384,7 +384,7 @@ Nominative Determinisms
 * [Donald Broadbent's](https://en.wikipedia.org/wiki/Donald_Broadbent) [filter model of attention](https://en.wikipedia.org/wiki/Broadbent's_filter_model_of_attention)
 * The [Heaviside step function](https://en.wikipedia.org/wiki/Heaviside_step_function)
 * "The Empire Strikes Back (1980) was voted the best film of all time by over 250,000 readers of the Empire film magazine in 2015." ([List of films considered the best](https://en.wikipedia.org/wiki/List_of_films_considered_the_best))
-* [Robert Fludd](https://en.wikipedia.org/wiki/Robert_Fludd): "Fludd's own theory on the origin of all things posited that, instead of the Tria Prima, all species and things stemmed from first, dark Chaos, then divine Light which acted upon the Chaos, which finally brought forth the waters. This last element was also called the Spirit of the Lord"
+* [Robert Fludd](https://en.wikipedia.org/wiki/Robert_Fludd): "Fludd's own theory on the origin of all things posited that, instead of the Tria Prima, all species and things stemmed from first, dark Chaos, then divine Light which acted upon the Chaos, which __finally brought forth the waters__. This last element was also called the Spirit of the Lord" (emphasis mine)
 * [Hilary Paynter](https://en.wikipedia.org/wiki/Hilary_Paynter): "__Hilary Paynter__, Hon. RBSA, RE, FRSA, SWE (born 1943) is a British wood engraver and printmaker."
 
 Incorrect Plurals or Singulars People Use
@@ -415,9 +415,10 @@ Equivalences
 	* Or even: ((Action : Inaction) :: (Energy : Sluggishness) ::: [Steam](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam)) :::: ((Noninteraction : Damage) :: (Robustness : Fragility) ::: [Hormesis](https://en.wikipedia.org/wiki/Hormesis))
 * Evolution : lifetime learning : humans : human values :: neural architecture search : SGD : ML systems : ML system goals
 * [Bullwhip effect](https://en.wikipedia.org/wiki/Bullwhip_Effect) : markets :: [exploding gradients](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) : neural network training :: epilepsy : brains :: [cytokine storm](https://en.wikipedia.org/wiki/Cytokine_Storm) : immune systems :: [hypereutrophy](https://en.wikipedia.org/wiki/Trophic_State_Index#Hypereutrophic) : ecosystems :: jhanas : meditation <!--TODO: add link to own & Gavin's tweet-->
-	* Bullwhip effect : bubbles : markets :: exploding gradients : momentum : neural network training :: epilepsy : confirmation bias : brains
-	* Transposons : organisms :: [human resources](https://en.wikipedia.org/wiki/Human_Resources) : corporations
+	* Bullwhip effect : [bubbles](https://en.wikipedia.org/wiki/Market_bubble) : markets :: exploding gradients : momentum : neural network training :: epilepsy : confirmation bias : brains
+	* Transposons<!--maybe meiotic drive in general?--> : organisms :: [human resources](https://en.wikipedia.org/wiki/Human_Resources) : corporations
 	* Prions : organisms :: ? : corporations
+	* Mis-reporting profit<!--Maybe just a type of fraud?--> : markets :: [gradient hacking](https://www.lesswrong.com/posts/uXH4r6MmKPedk8rMA) : neural network training :: [meiotic drive : evolution](https://forum.effectivealtruism.org/posts/qX6swbcvrtHct8G8g/genes-did-misalignment-first-comparing-gradient-hacking-and)<!--TODO: differentiate [demons](https://arbital.com/p/daemons/) and [mesa-optimizers]](https://www.lesswrong.com/s/r9tYkB2a8Fp4DN8yB/p/q2rCMHNXazALgQpGH) in optimization, former is like transposons/meiotic drive, latter doesn't quite exist? Then also how do these map to within-organization/within-market stuff? Differentiate between being beneficial/detrimental to the super-organism?-->
 * Editors : Wikipedia :: hot women : dating apps
 * LLMs : Pre-training : Fine-Tuning : RLHF : Constitutional AI :: Humans : Predictive Processing : Selective Attention : Reinforcement Learning : Cultural Learning
 * David Gerard : Eliezer Yudkowsky :: Lucifer : God :: Émile Torres : William MacAskill :: Melkor : Eru Illúvatar
@@ -465,6 +466,7 @@ We can test whether such words exist via gensim word2vec embeddings:
 * {[Selection, Control](https://www.lesswrong.com/posts/ZDZmopKquzHYPRNxq)} × {[search, design](https://www.lesswrong.com/posts/r3NHPD3dLFNk9QE2Y/search-versus-design-1)}
 * {usually wrong, usually right}×{quick to update, slow to update}
 * {accurate, inaccurate}×{precise, imprecise}
+* {taste, slop}×{cringe, based}×{hinged, unhinged}
 
 Great Words
 ------------

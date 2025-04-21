@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2025-04-01, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2025-04-20, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -25,6 +25,13 @@ content.
 
 April 2025
 ----------
+
+* [How Is Human Intelligence Distributed](./notes.html#How_Is_Human_Intelligence_Distributed), normally or lognormally?
+
+### Updated
+
+* More on [model expansion & AI alignment](./expansion.html), including the benefits for [inductive biases](./expansion.html#Building_on_inductive_biases_favoring_speed_over_simplicity), [interpretability](./expansion.html#Understanding_smaller_models_is_easier), [inheriting safety properties](./expansion.html#Inheriting_safety_properties_from_previous_models) and [gradual scaling](./expansion.html#Allowing_for_more_gradual_scaling).
+* [Favorite](./favorites.html) [tweets](./favorites.html#Tweets) & [YouTube channels](./favorites.html#YouTube).
 
 March 2025
 -----------
