@@ -12,15 +12,12 @@ Favorite Things
 Texts
 ------
 
-<!--
 ### Tweets
 
-https://x.com/VesselOfSpirit/status/1296689138234580994
-
-"If you're smart, pivot into being cool and hot."
-
-Mr. Bond norvid_studies tweet
--->
+* https://x.com/VesselOfSpirit/status/1296689138234580994
+* https://x.com/apoorvasriniva/status/1870240726170079433
+* https://x.com/norvid_studies/status/1817012041141362785
+* https://x.com/janhkirchner/status/1789689260926525563
 
 ### Poems
 

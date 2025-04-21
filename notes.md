@@ -1068,8 +1068,9 @@ Pet Peeves
 		* For the subscripts, following lowercase letters are missing: b, c, d, f, g, q, w, y, z.
 		* For the superscripts, following uppercase letters are missing: S, X, Y, Z.
 		* It has no uppercase subscript Latin letters.
-	* It does not have a percentage sign '%' or full stop '.' as a subscript.
 	* Unicode does not distinguish between a dollar sign with one or two strokes.
+	* Unicode doesn't have a [small-caps](https://en.wikipedia.org/wiki/Small_caps) 'X'.
+	* It does not have a percentage sign '%' or full stop '.' as a subscript.
 
 Was Software Security in the Aughts Exceptionally Bad?
 -------------------------------------------------------

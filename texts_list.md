@@ -17,6 +17,22 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Genes did misalignment first: comparing gradient hacking and meiotic drive (Holly Elmore, 2025)](https://forum.effectivealtruism.org/posts/qX6swbcvrtHct8G8g/genes-did-misalignment-first-comparing-gradient-hacking-and)
+* [Fraction of variance unexplained (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Fraction_of_variance_unexplained)
+* [Explained variation (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Explained_variation)
+* [Match-to-sample task (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Match-to-sample_task)
+* \* Systemic and Nasal Delivery of Orexin-A (Hypocretin-1) Reduces the Effects of Sleep Deprivation on Cognitive Performance in Nonhuman Primates (Sam A. Deadwyler/Linda Porrino/Jerome M. Siegel/Robert E. Hampson, 2007)
+* [AI #112: Release the Everything (Zvi, 2025)](https://www.lesswrong.com/posts/nycc4QxQAMkzmXmfz/ai-112-release-the-everything)
+* [Neural Scaling Laws by Data Manifold Dimensions (Yuxi Liu, 2024)](https://yuxi-liu-wired.github.io/essays/posts/scaling-law-by-data-manifold/)
+* [Mixture of Experts (Yuxi Liu, 2024)](https://yuxi-liu-wired.github.io/essays/posts/mixture-of-experts/)
+* [Beyond The Last Horizon (Scott Alexander, 2025)](https://blog.ai-futures.org/p/beyond-the-last-horizon)
+* [AI Child Porn Will Probably Save Real Children (Aella, 2025)](https://aella.substack.com/p/ai-child-porn-will-probably-save)
+* [The Airline Smell Tax (nomagicpill, 2023)](https://nomagicpill.github.io/thoughts/smell.html)
+* [Fisher's fundamental theorem of natural selection (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Fisher's_fundamental_theorem_of_natural_selection)
+* [Manifold hypothesis (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Manifold_hypothesis)
+* [Pooh-pooh (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Pooh-pooh)
+* [Slothful induction (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Slothful_induction)
+* [I Heart CYC (Robin Hanson, 2008)](https://www.overcomingbias.com/p/i-heart-cychtml)
 * [Feferman–Schütte ordinal (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Feferman-Schutte_ordinal)
 * [My Takeaways From AI 2027 (Scott Alexander, 2025)](https://www.astralcodexten.com/p/my-takeaways-from-ai-2027)
 * [Ought implies can (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Ought_implies_can)
@@ -43,7 +59,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Orexin (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Orexin)
 * [Scale of the Human Brain (AI Impacts, 2023)](https://aiimpacts.org/scale-of-the-human-brain/)
 * [Linkage disequilibrium score regression (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Linkage_disequilibrium_score_regression)
-* [AI #108: Straight Line on a Graph (Zvi, 2025)](https://www.lesswrong.com/posts/Q3qoy8DFnkMij4xzC/ai-108-straight-line-on-a-graph
+* [AI #108: Straight Line on a Graph (Zvi, 2025)](https://www.lesswrong.com/posts/Q3qoy8DFnkMij4xzC/ai-108-straight-line-on-a-graph)
 * [Progress from our Frontier Red Team (Anthropic, 2025)](https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team)
 * [Clustering on the output of t-SNE (amoeba/generic_user, 2018)](https://stats.stackexchange.com/questions/263539/clustering-on-the-output-of-t-sne/264647)
 * [Info Has No Trend (Robin Hanson, 2007)](https://www.overcomingbias.com/p/info_has_no_trehtml)

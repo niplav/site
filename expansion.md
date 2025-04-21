@@ -133,7 +133,10 @@ it further &c, with a very clear path to further and further
 development. In this sense model expansion is the inverse of [model
 distillation](https://en.wikipedia.org/wiki/Distillation_\(machine_learning\)).
 
-As opposed to ever bigger pre-training runs.
+You can also have more control over what a model learns when,
+e.g. training chronologically, or on high-quality data first, and
+low-quality data later, or intersperse "pre"-training with reinforcement
+learning.
 
 ### Open questions
 
