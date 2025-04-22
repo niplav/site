@@ -1,7 +1,7 @@
 [home](./index.html)
 ---------------------
 
-*author: niplav, created: 2022-06-18, modified: 20252-02-15, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2022-06-18, modified: 2025-02-15, language: english, status: draft, importance: 2, confidence: log*
 
 > Idea & format stolen shamelessly from [Gavin
 Leech](https://www.gleech.org/favs/all/).
@@ -215,6 +215,8 @@ is as recursive as it is simple. There is nothing preventing a
 list of bookmarks from linking to another list of bookmarks.
 
 *— [Memex](https://memex.marginalia.nu/), [The Small Website Discoverability Crisis](https://memex.marginalia.nu/log/19-website-discoverability-crisis.gmi), 2021*
+
+See also [joodaloop](https://map.joodaloop.com/).
 
 ### Sites
 
