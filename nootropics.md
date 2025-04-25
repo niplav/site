@@ -22,25 +22,25 @@ Nootropics
 You could put randomized substances in your body and find out what they
 do by recording the outcomes. That's what I did.
 
-<!--TODO: color for effect size?-->
+| Value tracked               | Effect size [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) ([λ](https://en.wikipedia.org/wiki/Likelihood-ratio_test#General), [p](https://en.wikipedia.org/wiki/P-Value), [σ](https://en.wikipedia.org/wiki/Standard_Deviation) change, [k](https://en.wikipedia.org/wiki/Sample_size)[^6]) | Effect size d (λ, p, σ change, k) | Effect size d (λ, p, σ change, k) |
+| --------------------------- | ------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------- |
+|                             | *200 mg Caffeine (n=1[^4], m=50[^5])*                   |   *500 mg L-theanine (n=1, m=50)*                        | *25μg Vitamin D₃ (n=1, m=50)*                           |
+| Log-score of prediction[^1] | -0.6                                                    | -0.7                                                     | -0.707                                                  |
+| Absorption                  | <span style="color:rgba(0,180,0,0.95)">0.61</span>      | <span style="color:rgba(150,150,150,0.65)">0.04</span>   | <span style="color:rgba(255,70,70,0.7)">-0.14</span>    |
+| Mindfulness                 | <span style="color:rgba(0,180,0,0.95)">0.58</span>      | <span style="color:rgba(100,180,100,0.65)">0.12</span>   | <span style="color:rgba(100,180,100,0.65)">0.16</span>  |
+| Productivity                | <span style="color:rgba(0,180,0,0.95)">0.58</span>      | <span style="color:rgba(230,30,30,0.7)">-0.28</span>     | <span style="color:rgba(150,150,150,0.65)">0.01</span>  |
+| Creativity                  | <span style="color:rgba(0,180,0,0.95)">0.45</span>      | <span style="color:rgba(255,70,70,0.7)">-0.12</span>     | <span style="color:rgba(230,30,30,0.7)">-0.27</span>    |
+| Subjective duration         | Not collected                                           | <span style="color:rgba(255,100,100,0.65)">-0.015</span> | <span style="color:rgba(255,70,70,0.95)">-0.12</span>   |
+| Happiness                   | <span style="color:rgba(100,180,100,0.85)">0.27</span>  | <span style="color:rgba(100,180,100,0.7)">0.16</span>    | <span style="color:rgba(255,70,70,0.7)">-0.11</span>    |
+| Contentment                 | <span style="color:rgba(100,180,100,0.8)">0.13</span>   | <span style="color:rgba(100,180,100,0.8)">0.25</span>    | <span style="color:rgba(100,180,100,0.65)">0.07</span>  |
+| Relaxation                  | <span style="color:rgba(255,70,70,0.7)">-0.11</span>    | <span style="color:rgba(100,180,100,0.65)">0.12</span>   | <span style="color:rgba(230,30,30,0.85)">-0.26</span>   |
+| Horniness[^2]               | <span style="color:rgba(255,70,70,0.7)">-0.14</span>    | <span style="color:rgba(255,100,100,0.65)">-0.03</span>  | <span style="color:rgba(255,70,70,0.7)">-0.16</span>    |
+| Flashcard ease              | <span style="color:rgba(150,150,150,0.95)">0.003</span> | <span style="color:rgba(255,100,100,0.95)">-0.072</span> | <span style="color:rgba(150,150,150,0.95)">0.001</span> |
+| Flashcard ease factor       | <span style="color:rgba(255,100,100,0.95)">-0.039</span>| <span style="color:rgba(150,150,150,0.95)">0.0026</span> | <span style="color:rgba(255,140,140,0.95)">-0.014</span>|
+| Flashcard new interval      | <span style="color:rgba(150,180,150,0.95)">0.011</span> | <span style="color:rgba(255,140,140,0.95)">-0.016</span> | <span style="color:rgba(100,180,100,0.95)">0.069</span> |
+| Time per flashcard[^3]      | <span style="color:rgba(150,180,150,0.95)">0.006</span> | <span style="color:rgba(150,180,150,0.95)">0.003</span>  | <span style="color:rgba(100,180,100,0.95)">0.054</span> |
 
-| Value tracked                      | Effect size [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) ([λ](https://en.wikipedia.org/wiki/Likelihood-ratio_test#General), [p](https://en.wikipedia.org/wiki/P-Value), [σ](https://en.wikipedia.org/wiki/Standard_Deviation) change, [k](https://en.wikipedia.org/wiki/Sample_size)[^6]) | Effect size d (λ, p, σ change, k) | Effect size d (λ, p, σ change, k) |
-| ---------------------------------- | ------------------------------------------- | ----------------------------------- | ------------------------------------ |
-|                                    | *200 mg Caffeine (n=1[^4], m=50[^5])*       |   *500 mg L-theanine (n=1, m=50)*   | *25μg Vitamin D₃ (n=1, m=50)*        |
-| Log-score substance prediction[^1] | -0.6                                        | -0.7                                | -0.707                               |
-| Absorption                         | 0.61 (λ≈13.3, p≈0.00017, -0.072, 50)        | 0.04 (λ≈1.38, p≈0.77, -0.07, 50)    | -0.14 (λ≈4.85, p≈0.16, -0.13, 50)    |
-| Mindfulness                        | 0.58 (λ≈11.8, p≈0.0007, 0.021, 50)          | 0.12 (λ≈0.72, p≈0.89, -0.018, 50)   | 0.16 (λ≈0.80, p≈0.88, -0.015, 50)    |
-| Productivity                       | 0.58 (λ≈28.9, p≈1.3<sup>-12</sup>, 0.11, 50)| -0.28 (λ≈5.51, p≈0.109, 0.03, 50)   | 0.01 (λ≈0.77, p≈0.89, 0.02, 50)      |
-| Creativity                         | 0.45 (λ≈51, p≈4.6<sup>-27</sup>, 0.09, 50)  | -0.12 (λ≈5.05, p≈0.14, -0.04, 50)   | -0.27 (λ≈3.07, p≈0.41, -0.01, 50)    |
-| Subjective length of day           | Not collected                               | -0.015 (λ≈0.35, p≈0.95, -0.015, 21) | -0.12 (λ≈18.64, p≈5.4<sup>-7</sup>, 0.05, 50) |
-| Happiness                          | 0.27 (λ≈10.6, p≈0.002, 0.3, 161)            | 0.16 (λ≈3.98, p≈0.27, -0.155, 201)  | -0.11 (λ≈2.45, p≈0.54, -0.23, 159)   |
-| Contentment                        | 0.13 (λ≈7.66, p≈0.02, 0.47, 161)            | 0.25 (λ≈6.83, p≈0.04, -0.04, 201)   | 0.07 (λ≈0.43, p≈0.94, 0.10, 159)     |
-| Relaxation                         | -0.11 (λ≈5, p≈0.15, 0.42, 161)              | 0.12 (λ≈1.5, p≈0.74, 0.02, 201)     | -0.26 (λ≈9.32, p≈0.007, 0.42, 159)   |
-| Horniness[^2]                      | -0.14 (λ≈1.9, p≈0.64, 0.11, 161)            | -0.03 (λ≈1.15, p≈0.8, 0.25, 201)    | -0.16 (λ≈2.40, p≈0.55, 0.17, 159)    |
-| Flashcard ease                     | 0.003 (λ≈∞, p≈0, -0.009, 10949)             | -0.072 (λ≈∞, p≈0, -0.01, 10248)     | 0.001 (λ≈∞, p≈0, 0.008, 1690)        |
-| Flashcard ease factor              | -0.039 (λ≈∞, p≈0, -32.7, 10949)             | 0.0026 (λ≈∞, p≈0, -18.9, 10248)     | -0.014 (λ≈∞, p≈0, -9.0, 1690)        |
-| Flashcard new interval             | 0.011 (λ≈∞, p≈0, -1.88, 10949)              | -0.016 (λ≈∞, p≈0, 3.1, 10248)       | 0.069 (λ≈∞, p≈0, -11.2, 1690)        |
-| Time per flashcard[^3]             | 0.006 (λ≈∞, p≈0, 273.4, 10949)              | 0.003 (λ≈∞, p≈0, 13.66, 10248)      | 0.054 (λ≈∞, p≈0, 812.0, 1690)        |
+*Hue indicates effect size, opacity indicates likelihood ratio (less opacity indicates higher likelihood ratio. Full table with sample sizes, likelihood ratios, changes in variance &c in [this appendix](#Appendix_C_Full_Table).*
 
 I am especially interested in testing many different substances for their
 effect on meditation, while avoiding negative side effects. The benefits
@@ -924,6 +924,27 @@ And the p-values of those are:
 
 	>>> llrt_pval([10.644193144917832, 7.6608928570645105, 5.007775005855661, 1.9642613047646074])
 	array([0.0020736 , 0.02462515, 0.15015613, 0.63984027])
+
+Appendix C: Full Table
+-----------------------
+
+| Value tracked               | Effect size [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) ([λ](https://en.wikipedia.org/wiki/Likelihood-ratio_test#General), [p](https://en.wikipedia.org/wiki/P-Value), [σ](https://en.wikipedia.org/wiki/Standard_Deviation) change, [k](https://en.wikipedia.org/wiki/Sample_size)[^6]) | Effect size d (λ, p, σ change, k) | Effect size d (λ, p, σ change, k) |
+| --------------------------- | ------------------------------------------- | ----------------------------------- | ------------------------------------ |
+|                             | *200 mg Caffeine (n=1[^4], m=50[^5])*       |   *500 mg L-theanine (n=1, m=50)*   | *25μg Vitamin D₃ (n=1, m=50)*        |
+| Log-score of prediction[^1] | -0.6                                        | -0.7                                | -0.707                               |
+| Absorption                  | <span style="color:rgba(0,180,0,0.95)">0.61</span> (λ≈13.3, p≈0.00017, -0.072, 50)        | <span style="color:rgba(150,150,150,0.65)">0.04</span> (λ≈1.38, p≈0.77, -0.07, 50)   | <span style="color:rgba(255,70,70,0.7)">-0.14</span> (λ≈4.85, p≈0.16, -0.13, 50)             |
+| Mindfulness                 | <span style="color:rgba(0,180,0,0.95)">0.58</span> (λ≈11.8, p≈0.0007, 0.021, 50)          | <span style="color:rgba(100,180,100,0.65)">0.12</span> (λ≈0.72, p≈0.89, -0.018, 50)  | <span style="color:rgba(100,180,100,0.65)">0.16</span> (λ≈0.80, p≈0.88, -0.015, 50)          |
+| Productivity                | <span style="color:rgba(0,180,0,0.95)">0.58</span> (λ≈28.9, p≈1.3<sup>-12</sup>, 0.11, 50)| <span style="color:rgba(230,30,30,0.7)">-0.28</span> (λ≈5.51, p≈0.109, 0.03, 50)     | <span style="color:rgba(150,150,150,0.65)">0.01</span> (λ≈0.77, p≈0.89, 0.02, 50)            |
+| Creativity                  | <span style="color:rgba(0,180,0,0.95)">0.45</span> (λ≈51, p≈4.6<sup>-27</sup>, 0.09, 50)  | <span style="color:rgba(255,70,70,0.7)">-0.12</span> (λ≈5.05, p≈0.14, -0.04, 50)     | <span style="color:rgba(230,30,30,0.7)">-0.27</span> (λ≈3.07, p≈0.41, -0.01, 50)             |
+| Subjective duration         | Not collected                                                                             | <span style="color:rgba(255,100,100,0.65)">-0.015</span> (λ≈0.35, p≈0.95, -0.015, 21)| <span style="color:rgba(255,70,70,0.95)">-0.12</span> (λ≈18.64, p≈5.4<sup>-7</sup>, 0.05, 50)|
+| Happiness                   | <span style="color:rgba(100,180,100,0.85)">0.27</span> (λ≈10.6, p≈0.002, 0.3, 161)        | <span style="color:rgba(100,180,100,0.7)">0.16</span> (λ≈3.98, p≈0.27, -0.155, 201)  | <span style="color:rgba(255,70,70,0.7)">-0.11</span> (λ≈2.45, p≈0.54, -0.23, 159)            |
+| Contentment                 | <span style="color:rgba(100,180,100,0.8)">0.13</span> (λ≈7.66, p≈0.02, 0.47, 161)         | <span style="color:rgba(100,180,100,0.8)">0.25</span> (λ≈6.83, p≈0.04, -0.04, 201)   | <span style="color:rgba(100,180,100,0.65)">0.07</span> (λ≈0.43, p≈0.94, 0.10, 159)           |
+| Relaxation                  | <span style="color:rgba(255,70,70,0.7)">-0.11</span> (λ≈5, p≈0.15, 0.42, 161)             | <span style="color:rgba(100,180,100,0.65)">0.12</span> (λ≈1.5, p≈0.74, 0.02, 201)    | <span style="color:rgba(230,30,30,0.85)">-0.26</span> (λ≈9.32, p≈0.007, 0.42, 159)           |
+| Horniness[^2]               | <span style="color:rgba(255,70,70,0.7)">-0.14</span> (λ≈1.9, p≈0.64, 0.11, 161)           | <span style="color:rgba(255,100,100,0.65)">-0.03</span> (λ≈1.15, p≈0.8, 0.25, 201)   | <span style="color:rgba(255,70,70,0.7)">-0.16</span> (λ≈2.40, p≈0.55, 0.17, 159)             |
+| Flashcard ease              | <span style="color:rgba(150,150,150,0.95)">0.003</span> (λ≈∞, p≈0, -0.009, 10949)         | <span style="color:rgba(255,100,100,0.95)">-0.072</span> (λ≈∞, p≈0, -0.01, 10248)    | <span style="color:rgba(150,150,150,0.95)">0.001</span> (λ≈∞, p≈0, 0.008, 1690)              |
+| Flashcard ease factor       | <span style="color:rgba(255,100,100,0.95)">-0.039</span> (λ≈∞, p≈0, -32.7, 10949)         | <span style="color:rgba(150,150,150,0.95)">0.0026</span> (λ≈∞, p≈0, -18.9, 10248)    | <span style="color:rgba(255,140,140,0.95)">-0.014</span> (λ≈∞, p≈0, -9.0, 1690)              |
+| Flashcard new interval      | <span style="color:rgba(150,180,150,0.95)">0.011</span> (λ≈∞, p≈0, -1.88, 10949)          | <span style="color:rgba(255,140,140,0.95)">-0.016</span> (λ≈∞, p≈0, 3.1, 10248)      | <span style="color:rgba(100,180,100,0.95)">0.069</span> (λ≈∞, p≈0, -11.2, 1690)              |
+| Time per flashcard[^3]      | <span style="color:rgba(150,180,150,0.95)">0.006</span> (λ≈∞, p≈0, 273.4, 10949)          | <span style="color:rgba(150,180,150,0.95)">0.003</span> (λ≈∞, p≈0, 13.66, 10248)     | <span style="color:rgba(100,180,100,0.95)">0.054</span> (λ≈∞, p≈0, 812.0, 1690)              |
 
 [^1]: Higher is better.
 [^2]: Whether higher or lower values are better here is not clear.
