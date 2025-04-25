@@ -1,10 +1,10 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-01-06, modified: 2025-04-14, language: english, status: maintenance, importance: 3, confidence: likely*
+*author: niplav, created: 2023-01-06, modified: 2025-04-25, language: english, status: maintenance, importance: 3, confidence: likely*
 
 > __Modeled after [Gwern 2018](https://www.gwern.net/Nootropics) I've
-decided to log my nootropics usage and its effects.__
+decided to log my nootropics usage and its effects. Includes three quantified self experiments, one on [Caffeine](), one on [L-theanine], and one on [Vitamin D₃]()__
 
 Nootropics
 ===========
@@ -24,23 +24,23 @@ do by recording the outcomes. That's what I did.
 
 <!--TODO: color for effect size?-->
 
-| Value tracked                      | Effect size [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) ([λ](https://en.wikipedia.org/wiki/Likelihood-ratio_test#General), [p](https://en.wikipedia.org/wiki/P-Value), [σ](https://en.wikipedia.org/wiki/Standard_Deviation) change, [k](https://en.wikipedia.org/wiki/Sample_size)[^6])           | Effect size d (λ, p, σ change, k)   |
-| ---------------------------------- | ------------------------------------------- | ----------------------------------- |
-|                                    | *200 mg Caffeine (n=1[^4], m=50[^5])*       |   *500 mg L-theanine (n=1, m=50)*   |
-| Log-score substance prediction[^1] | -0.6                                        | -0.7                                |
-| Absorption                         | 0.61 (λ≈13.3, p≈0.00017, -0.072, 50)        | 0.04 (λ≈1.38, p≈0.77, -0.07, 50)    |
-| Mindfulness                        | 0.58 (λ≈11.8, p≈0.0007, 0.021, 50)          | 0.12 (λ≈0.72, p≈0.89, -0.018, 50)   |
-| Productivity                       | 0.58 (λ≈28.9, p≈1.3<sup>-12</sup>, 0.11, 50)| -0.28 (λ≈5.51, p≈0.109, 0.03, 50)   |
-| Creativity                         | 0.45 (λ≈51, p≈4.6<sup>-27</sup>, 0.09, 50)  | -0.12 (λ≈5.05, p≈0.14, -0.04, 50)   |
-| Happiness                          | 0.27 (λ≈10.6, p≈0.002, 0.3, 161)            | 0.16 (λ≈3.98, p≈0.27, -0.155, 201)  |
-| Contentment                        | 0.13 (λ≈7.66, p≈0.02, 0.47, 161)            | 0.25 (λ≈6.83, p≈0.04, -0.04, 201)   |
-| Relaxation                         | -0.11 (λ≈5, p≈0.15, 0.42, 161)              | 0.12 (λ≈1.5, p≈0.74, 0.02, 201)     |
-| Horniness[^2]                      | -0.14 (λ≈1.9, p≈0.64, 0.11, 161)            | -0.03 (λ≈1.15, p≈0.8, 0.25, 201)    |
-| Subjective length of day           | Not collected                               | -0.015 (λ≈0.35, p≈0.95, -0.015, 21) |
-| Flashcard ease                     | 0.003 (λ≈∞, p≈0, -0.009, 10949)             | -0.072 (λ≈∞, p≈0, -0.01, 10248)     |
-| Flashcard ease factor              | -0.039 (λ≈∞, p≈0, -32.7, 10949)             | 0.0026 (λ≈∞, p≈0, -18.9, 10248)     |
-| Flashcard new interval             | 0.011 (λ≈∞, p≈0, -1.88, 10949)              | -0.016 (λ≈∞, p≈0, 3.1, 10248)       |
-| Time per flashcard[^3]             | 0.006 (λ≈∞, p≈0, 273.4, 10949)              | 0.003 (λ≈∞, p≈0, 13.66, 10248)      |
+| Value tracked                      | Effect size [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) ([λ](https://en.wikipedia.org/wiki/Likelihood-ratio_test#General), [p](https://en.wikipedia.org/wiki/P-Value), [σ](https://en.wikipedia.org/wiki/Standard_Deviation) change, [k](https://en.wikipedia.org/wiki/Sample_size)[^6]) | Effect size d (λ, p, σ change, k) | Effect size d (λ, p, σ change, k) |
+| ---------------------------------- | ------------------------------------------- | ----------------------------------- | ------------------------------------ |
+|                                    | *200 mg Caffeine (n=1[^4], m=50[^5])*       |   *500 mg L-theanine (n=1, m=50)*   | *25μg Vitamin D₃ (n=1, m=50)*        |
+| Log-score substance prediction[^1] | -0.6                                        | -0.7                                | -0.707                               |
+| Absorption                         | 0.61 (λ≈13.3, p≈0.00017, -0.072, 50)        | 0.04 (λ≈1.38, p≈0.77, -0.07, 50)    | -0.14 (λ≈4.85, p≈0.16, -0.13, 50)    |
+| Mindfulness                        | 0.58 (λ≈11.8, p≈0.0007, 0.021, 50)          | 0.12 (λ≈0.72, p≈0.89, -0.018, 50)   | 0.16 (λ≈0.80, p≈0.88, -0.015, 50)    |
+| Productivity                       | 0.58 (λ≈28.9, p≈1.3<sup>-12</sup>, 0.11, 50)| -0.28 (λ≈5.51, p≈0.109, 0.03, 50)   | 0.01 (λ≈0.77, p≈0.89, 0.02, 50)      |
+| Creativity                         | 0.45 (λ≈51, p≈4.6<sup>-27</sup>, 0.09, 50)  | -0.12 (λ≈5.05, p≈0.14, -0.04, 50)   | -0.27 (λ≈3.07, p≈0.41, -0.01, 50)    |
+| Subjective length of day           | Not collected                               | -0.015 (λ≈0.35, p≈0.95, -0.015, 21) | -0.12 (λ≈18.64, p≈5.4<sup>-7</sup>, 0.05, 50) |
+| Happiness                          | 0.27 (λ≈10.6, p≈0.002, 0.3, 161)            | 0.16 (λ≈3.98, p≈0.27, -0.155, 201)  | -0.11 (λ≈2.45, p≈0.54, -0.23, 159)   |
+| Contentment                        | 0.13 (λ≈7.66, p≈0.02, 0.47, 161)            | 0.25 (λ≈6.83, p≈0.04, -0.04, 201)   | 0.07 (λ≈0.43, p≈0.94, 0.10, 159)     |
+| Relaxation                         | -0.11 (λ≈5, p≈0.15, 0.42, 161)              | 0.12 (λ≈1.5, p≈0.74, 0.02, 201)     | -0.26 (λ≈9.32, p≈0.007, 0.42, 159)   |
+| Horniness[^2]                      | -0.14 (λ≈1.9, p≈0.64, 0.11, 161)            | -0.03 (λ≈1.15, p≈0.8, 0.25, 201)    | -0.16 (λ≈2.40, p≈0.55, 0.17, 159)    |
+| Flashcard ease                     | 0.003 (λ≈∞, p≈0, -0.009, 10949)             | -0.072 (λ≈∞, p≈0, -0.01, 10248)     | 0.001 (λ≈∞, p≈0, 0.008, 1690)        |
+| Flashcard ease factor              | -0.039 (λ≈∞, p≈0, -32.7, 10949)             | 0.0026 (λ≈∞, p≈0, -18.9, 10248)     | -0.014 (λ≈∞, p≈0, -9.0, 1690)        |
+| Flashcard new interval             | 0.011 (λ≈∞, p≈0, -1.88, 10949)              | -0.016 (λ≈∞, p≈0, 3.1, 10248)       | 0.069 (λ≈∞, p≈0, -11.2, 1690)        |
+| Time per flashcard[^3]             | 0.006 (λ≈∞, p≈0, 273.4, 10949)              | 0.003 (λ≈∞, p≈0, 13.66, 10248)      | 0.054 (λ≈∞, p≈0, 812.0, 1690)        |
 
 I am especially interested in testing many different substances for their
 effect on meditation, while avoiding negative side effects. The benefits
@@ -592,13 +592,53 @@ COVID-19, others?-->
 After ingestion I wait for ~30 minutes, and then start meditating for
 30 minutes—15 minutes absorption on the breath, 15 minutes bodyscanning.
 
-Started 2024-08-29.
+Started 2024-08-29, last sample on 2025-04-11.
 
 Notes on the experiment:
 
 * 6th dose: Pill opened up inside the envelope, accidentally mostly de-blinding the dose (I'm pretty sure<sub>85%</sub> it was placebo).
 * 35th dose: Didn't note down that & when I took it, inferred from my Anki & meditation data that I must've taken it on 2025-01-30.
 * 48th dose: Started meditating, lay down, fell asleep.
+
+#### Results
+
+I love re-using my code. The analysis this time is very short, I just
+run the following code ([load.py here](./code/experiments/load.py):
+
+	$ python3 -i load.py
+	>>> vitamind3_datasets=get_datasets('C', 'vitamind3', 'sugar')
+	>>> analyze(vitamind3_datasets)
+	    absorption  mindfulness  productivity  creativity        sublen       happy     content     relaxed       horny         ease       factor          ivl         time
+	d    -0.136809     0.161834      0.008898   -0.274106 -0.1242045      -0.114252    0.065137   -0.262317   -0.156832     0.001205    -0.013549     0.068697     0.053914
+	λ     4.852807     0.795776      0.772965    3.069284  18.64384        2.454851    0.434483    9.315708    2.397887          inf          inf          inf          inf
+	p     0.164584     0.881298      0.885446    0.414719  5.402796e-07    0.535541    0.942362    0.006563    0.547394     0.000000     0.000000     0.000000     0.000000
+	dσ   -0.126836    -0.015262      0.019154   -0.014085  5.444105e-02   -0.225306    0.100582    0.422303    0.168975     0.008075    -9.006776   -11.190531   811.955351
+	k    50.000000    50.000000     50.000000   50.000000  5.000000e+01  159.000000  159.000000  159.000000  159.000000  1690.000000  1690.000000  1690.000000  1690.000000
+
+![](./img/nootropics/vitamind3_results.png)
+
+I'd shelve this as a null-to-negative result; meditative absorption is
+plausibly *decreased*, subjective length of day is also decreased (but
+the variance is increased by a lot, if you want to gamble with your
+subjective length of day take Vitamin D₃), relaxation is slightly
+decreased as well… for me Vitamin D₃ is probably not worth it.
+
+I'll at some point look at my sleep data for the
+following night and see whether I can replicate [Gwern's
+results](https://gwern.net/zeo/vitamin-d). Too bad, now I have to figure
+out how these effects trade off against the longevity benefits, my best
+guess is that further experimentation would show the effect sizes converge
+towards zero.
+
+At least I fared well in predicting the results, right?, **Right‽**
+
+	>>> probs=np.array(expc['prediction'])
+	>>> substances=np.array(expc['substance'])
+	>>> outcomes=np.array([0 if i=='sugar' else 1 for i in substances])
+	>>> np.mean(list(map(lambda x: math.log(x[0]) if x[1]==1 else math.log(1-x[0]), zip(probs, out
+	-0.7072507821345512
+
+God damnit, worse than chance again.
 
 See Also
 ---------
