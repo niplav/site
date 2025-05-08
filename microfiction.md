@@ -80,6 +80,15 @@ FLI, FRI, ARC and CHAI,
 CAIS, CAIS, CAIS, CAIS,  
 MIRI QURI and OpenAI!
 
+-------
+
+> you open up  
+become permeable to the world  
+all pores vacillate  
+a raw sentient goatse  
+laughably twisted below  
+Rescind the letterman's curse
+
 #### Meditative
 
 * The awareness will continue to expand until the morale improves

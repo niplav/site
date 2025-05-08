@@ -1,9 +1,9 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-07-06, modified: 2025-03-03, language: english, status: in progress, importance: 5, confidence: probable*
+*author: niplav, created: 2023-07-06, modified: 2025-05-07, language: english, status: in progress, importance: 5, confidence: probable*
 
-> __Hi Anders__
+> __Hi Anders.__
 
 Comments on “Grand Futures”
 ============================
@@ -323,7 +323,9 @@ might be possible to copy its performance (having it act as an ANI or
 generate an ANI with the skill`$^{51}$`).
 
 Some of the literature on distilling larger neural networks into smaller
-ones might be relevant here, but I haven't read any of it.<!--TODO:
+ones might be relevant here, but I haven't read any of it. [Relevant
+Wikipedia article](https://en.wikipedia.org/wiki/Knowledge_distillation).
+<!--TODO:
 read-->
 
 ##### Safety and control
@@ -342,14 +344,16 @@ replication theorem”.
 
 Probably should start with "Perhaps somewhat surprising__ly__".
 
-If the no cloning theorem says that *arbitrary* quantum states
+~~If the no cloning theorem says that *arbitrary* quantum states
 can't be copied, can't there be a subspace of quantum states that is
 capable of replication, similar to how arbitrary hard SAT problems are
 computationally intractable but in practice we can solve real-world
-instances just fine?
+instances just fine?~~
 
-Or is the issues with the *universal* quantum constructor, since such
-a replicator wouldn't be able to create arbitrary quantum states?
+~~Or is the issues with the *universal* quantum constructor, since such
+a replicator wouldn't be able to create arbitrary quantum states?~~
+
+Nevermind, hah, I misunderstood the no-cloning theorem.
 
 #### 4.5.2 Autopoiesis
 
@@ -664,3 +668,40 @@ Presumably annually, although that's not clear from the text.
 ##### 16.3.1
 
 In footnote 31, Bremermann's limit should be at `$1.36 \times 10^{50}$`.
+
+#### 16.4.8 Far future computation
+
+> ultra-luminious
+
+Should likely be "ultra-luminous".
+
+As far as I can tell, there's no estimate on when æstivators would
+naturally start spending their endowment. Should be possible to estimate,
+and enlightening to the reader?
+
+#### 16.5.1 Quantum information theory
+
+> However, there are no unconditionally secure classical bit commitment
+protocol**[s]** if there are quantum computers
+
+#### 16.5.5
+
+I wish this section were longer (and/or better cited, especially for
+the constrained optimization claim—I assume you're referring ot the
+Harrow-Hassidim-LLoyd algorithm? A friend tells me that that's disputed,
+see also [here](https://en.wikipedia.org/wiki/HHL_algorithm#Critique)). My
+impression for the utility of quantum computing is ~as follows (mainly
+from reading Aaronson's blog) and asking Claude 3.6 Sonnet until it gave
+me sensible answers:
+
+Quantum computing will likely be useful in the domain of *atoms*,
+not in the domain of bits—Grover speedups are not useful below
+the scale of tens/hundreds of terabytes [TODO: cite for this], and
+Shor's and Regev's algorithms<!--TODO: link--> aren't very useful
+for anything beyond cracking RSA and winning the [RSA factoring
+challenge](https://en.wikipedia.org/wiki/RSA_factoring_challenge).
+
+The *real* advantage lies in the ability to efficiently
+simulate quantum systems, with the promise to find [better battery
+tech? superconductors? better quantum computers? medications that dock
+to specific receptors?].
