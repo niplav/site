@@ -485,6 +485,7 @@ on here but don't want to be), [contact me](#Contact).
 
 <!--TODO: add 1a3orn, Alex K. Chen, Burny?-->
 <!--[Sam Harsimony](https://splittinginfinity.substack.com/), [Wordpress](https://harsimony.wordpress.com/): Polymath.-->
+<!--Croissanthology-->
 
 The Author
 ----------

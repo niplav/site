@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-12-30, modified: 2024-10-17, language: english, status: in progress, importance: 3, confidence: opinion*
+*author: niplav, created: 2020-12-30, modified: 2025-05-08, language: english, status: in progress, importance: 3, confidence: opinion*
 
 > __Reading a text is sometimes a big time investment, but people
 don't approach their reading in a structured manner, e.g. by keeping
@@ -543,7 +543,57 @@ __8/10__
 
 ### Grand Futures (Anders Sandberg, 2023)
 
-__9.5/10__, to leave room for the finished book.
+…wow.
+
+How to describe? I've forgotten almost everything I read in this book,
+and mostly remember that I was continuously surprised and delighted. How
+can a single human *know* so much?
+
+A taste:
+
+* p. 93: "If we say that the minimal population of a civilization is 1×10¹⁵ bits to represent, it could be stored in 1×10²¹ atoms, about 0.01g of carbon: a tiny civilization, like a grain of sand."
+* p. 126: "Chimpanzees produce more alarm calls about snakes when in the presence of apes that they think don't know about the snake than among knowledgeable apes"
+* p. 194: "Perhaps somewhat surprising there are no quantum self-replicators. The no cloning theorem means that copying arbitrary quantum states is impossible. A corollary is that there is no universal quantum constructor since it would be able to clone itself, a “no self replication theorem”."
+* p. 361: "There is a significant amount of water in the mantle, probably more than twice the surface water and possibly up to 10-20 times more"
+* p. 420: "Daily human resource needs: oxygen 0.83 kg, food dry 0.62 kg, water (drink, food) 3.56 kg, water (hygiene, laundry, dishes): 26.0 kg. Daily human outputs: CO₂ 1kg, metabolic 0.11 kg solids, water 29.95 kg (urine 12.3 NAAS […])"
+* p. 501: "A civilization that can merely travel 2 parsec can reach practically all of the galaxy corewards from the Sun."
+* p. 635: "The supernova rate in the Milky Way is at present about 2 per 100 years. The rate is far lower (≈3 per 10⁵ years) in elliptical galaxies."
+
+Grand Futures is *full* of those, a caravan of joyful estimates, robed in
+strange units and gnarly little sentences that I often had to double-take
+on to make sure they weren't typos.
+
+I learned about the Penrose process, the Azolla event, galactic
+superwinds, the Collingridge dilemma, trinitite, ramjet bussards, the
+fact that general relativity doesn't respect conservation of energy
+(though, the book explains (in detail), likely without an option for
+anyone to exploit), neutrino stars & Wigner crystals, hydroponics
+and the Hoagland-Arnon solution, physical limits to everything
+(storage, computation, self-replication, braking, moving objects, beam
+focussing…)… Thus, it's recommended to read the book with a copy of
+the Wikipedia open by the side.
+
+Around section 10 the book picks up in mathematical difficulty, I had to
+take a stop to gather my strength and scale that part, it does reward,
+and becomes easier around section 16 & 17.
+
+A [friend of mine](https://mesaoptimizer.com/) suggested that this book
+represents a big part of the research done at the slowly decaying FHI. I
+like the idea.
+
+The only thing I can think of that wasn't included in as much detail
+as I expected were the consequences of successful quantum computation
+(section 16.5.5) and acausalism (section 20.7) (though both of those
+may as well be included in the newer versions).
+
+I had so much fun reading this book, and it's so big I'll probably start
+reading it again from the beginning again soon.
+
+Fact density: Asymptoting towards Smil
+
+__9.5/10__, to leave room for the finished book. (This was just a draft!!!!)
+
+See also: Gavin's review<!--TODO: link-->
 
 LessWrong Annual Reviews
 -------------------------
@@ -846,4 +896,4 @@ This post was relevant to my thoughts about alternative AI risk scenarios
 as well as drastic personal decisions, and I expect to give it a 1 or
 (more likely) a 4 in the final vote.
 
-<!--TODO: import 2022 reviews-->
+<!--TODO: import 2022 & 2023 reviews-->

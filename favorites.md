@@ -18,6 +18,7 @@ Texts
 * https://x.com/apoorvasriniva/status/1870240726170079433
 * https://x.com/norvid_studies/status/1817012041141362785
 * https://x.com/janhkirchner/status/1789689260926525563
+* https://x.com/norvid_studies/status/1800749427256344813
 
 ### Poems
 
