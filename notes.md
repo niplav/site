@@ -2526,3 +2526,99 @@ Notes:
 * [@quetzal\_rainbow](https://x.com/quetzal_rainbow/status/1910948346887368819): "There seems to be genetic difference between speed and accuracy. Tasks that depend on going and iterating fast are normal, tasks where you need to do everything perfectly are lognormal"
 
 <!--TODO: incorporate https://claude.ai/chat/2abf0c08-36ca-45ce-9a97-821647fe7b65-->
+
+On Having No Internet at Home
+------------------------------
+
+I am basically addicted to the internet. I have no internet at
+home[^elaboration].
+
+This has given me back ~3hr per day when nothing else worked[^others].
+
+Wikipedia can be downloaded via [kiwix](https://kiwix.org/en/)
+(~90GB for English WP with images), programming
+documentation with [zeal](https://zealdocs.org/) &
+[devdocs.io](https://devdocs.io/). [Logseq](https://logseq.com/) as a
+replacement for obsidian/roam, [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+for downloading YouTube videos (and video/audio
+from many *many* other sources) to watch/listen to
+later. [wget](https://en.wikipedia.org/wiki/Wget) for downloading whole
+websites+assets to read at some later point.
+
+No great solution for LLMs (yet…), all the ones I can run on my
+laptop are not good enough—maybe I should bite the bullet and get a
+GPU/[digits](https://www.theverge.com/2025/1/6/24337530/nvidia-ces-digits-super-computer-ai)
+that can run of the big LLaMas/DeepSeek V3 locally. I have internet at
+my workplace, and a local library with internet 10 minutes away by walk
+that closes at 7PM.
+
+(No mobile internet either, that'd defeat the purpose. Haven't yet quite figured out to get people to call me when they want stuff…)
+
+[^elaboration]: For >3 years now. The benefits reduce after a while as homeostasis kicks in (e.g. moving sleeping times back by ~4 hrs got halved to ~2 hrs), but it's still net positive: I used to lose ≥4½ hrs to random aimless websurfing, now it's only about one. Not all time gained is spent productively, I still randomly click through articles of the local Wikipedia copy, but that feels much less unproductive than watching YouTube videos.
+[^others]: Website blockers like browser extensions are too easy to turn off (especially since I have complete control over my OS). Accountability didn't work well either. Behavioral interventions (like exercising/meditation/whatever) did ~nil.
+
+Animals Better Suited to Less Unethical Factory Farming
+--------------------------------------------------------
+
+Depending on [the relationship between brain size and moral
+weight](https://reducing-suffering.org/is-brain-size-morally-relevant/),
+different animals may be more or less ethical to farm.
+
+A common assumption in effective altruism
+is that moral weight is marginally decreasing
+in number of neurons (i.e. [small brains matter more per
+neuron](https://reducing-suffering.org/is-brain-size-morally-relevant/#Small_brains_matter_more_per_neuron)).
+This implies that we'd want to [avoid putting
+many small animals into factory farms, and prefer few big
+ones](https://reducing-suffering.org/how-much-direct-suffering-is-caused-by-various-animal-foods/),
+especially if smaller animals [have faster subjective
+experience](https://reducing-suffering.org/small-animals-clock-speed/).
+
+A reductio ad absurdum of this view would be to (on the margin) advocate
+for the re-introduction of whaling, but this would be blocked by optics
+concerns and moral uncertainty (if we value something like sapience and
+culture of animals).
+
+If factory farming can't be easily replaced with clean meat in the
+forseeable future, one might want to look for animals that are *least
+unethicl* to farm, mostly by them fulfilling the following conditions:
+
+* Small brain & low number of neurons
+* Easy to breed & fast reproduction cycle
+* Low behavioral complexity
+* Large body, high-calorie meat
+* Palatable to consumers
+* Stopped evolving early (if sentience evolved late in evolutionary history)
+
+In two conversations with Claude 3.7 Sonnet, three animals were suggested
+as performing well on those trade-offs. My best guess is that current
+factory farming can't be beat with these animals in effectiveness.
+
+<!--TODO: download images & resize-->
+
+#### Ostriches
+
+![](https://1.bp.blogspot.com/-wy7IlJ9Dhdk/UbjUVOJXShI/AAAAAAAAFq0/Wp9FekCDYW4/s1600/Ostrich+Struthio+camelus.jpg)
+
+Advantages: Already farmed, very small brain for large body mass
+
+Disadvantages: Fairly late in evolutionary history
+
+#### Arapaima
+
+![](https://images.wisegeek.com/arapaima-in-water.jpg)
+
+Advantages: Very large for small brain size (up to 3m in length),
+fast-growing, simple neurology, already farmed, can be raised
+herbivorously, lineage is ~200 mio. years old bony fishes
+
+Disadvantages: Tricky to breed
+
+#### Tilapia
+
+<!--![](https://fishontips.com/wp-content/uploads/iStock-1332546222.jpg)-->
+
+Advantages: Very easy to breed, familiarity to consumers, small neuron
+count
+
+Disadvantages: Fairly small, not as ancient as the arapaima
