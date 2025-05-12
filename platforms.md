@@ -8,11 +8,14 @@ hobbyist prediction platforms[^1] make priorisation easier? I test
 this by setting up [multiple markets](#Markets), in order to run two
 experiments (the best one, and a random one), mostly for the effects
 of various [nootropics](https://en.wikipedia.org/wiki/Nootropics)
-on absorption in meditation. After one experiment, the [log
+on absorption in meditation. The first experiment
+(testing the Pomodoro method) results in a [log
 score](https://en.wikipedia.org/wiki/Proper_scoring_rule#Logarithmic_score)
-of the market [is -0.326](#Scoring_the_Market) — pretty good. This
-gains us [0.202 bits](#0202_Bits_of_Evidence_For_Futarchy) of evidence
-in favor of the accuracy of the markets.__
+of [-0.326](#Scoring_the_Market) for the market, the second experiment
+(testing Vitamin D₃) results in a log score of -0.333<!--TODO:- link-->
+— pretty good.__
+
+<!--TODO: use victorian subtitle somewhere https://claude.ai/chat/d7c72475-e84e-458f-867b-7a26d04598b2-->
 
 Using Prediction Platforms to Select Quantified Self Experiments
 =================================================================
@@ -299,6 +302,7 @@ I can now score the market:
 
 Honestly: The market did pretty well.
 
+<!--
 0.202 Bits of Evidence For Futarchy… And Then -0.505 Bits
 ------------------------------------------------------------
 
@@ -403,6 +407,7 @@ down as more evidence rolls in.
 
 If I wanted better estimates for the true capabilities of prediction
 markets for selection experiment, I'd need to run more experiments.
+-->
 
 Acknowledgements
 -----------------
