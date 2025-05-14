@@ -454,7 +454,7 @@ position*, and then changed your mind.
 Oh shoot, I've gotta go! Supermarket's nearly closed!  
 > See you around, I guess!
 
-> __Abdullah__: See you around! And tell the wife and kids I said hi!
+> __Abdullah__: See you around! And tell the spouse and kids I said hi!
 
 ---------------------------------
 
