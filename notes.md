@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-04-16, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-05-26, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2533,10 +2533,54 @@ On Having No Internet at Home
 I am basically addicted to the internet. I have no internet at
 home[^elaboration].
 
-This has given me back ~3hr per day when nothing else worked[^others].
+Having no internet at home has given me back ~3hr per day when nothing
+else worked[^others].
+
+Obviously, I need the internet for many things, but I try to keep it at
+arm's length. Two set-ups have worked for me:
+
+### Co-working Space & Library
+
+In this set-up, I don't have internet *at home*, but I can go to a
+co-working space that's ~30 minutes from where I live to use the internet
+there, to my heart's content. For shorter excursions I also have a local
+library which is ~10 minutes by foot that has internet 24/7, but I have
+to sit outside after 19:00, complete with my draining laptop battery a
+natural timer (and with schizophrenic homeless people coming to
+me & talking to me, or foxes scurrying around, and in winter the bitter
+cold driving me back home.)
+
+This solution has the downside of keeping me at the co-working space for
+too long, and reducing the value of one hour of commuting-reserved time
+every day.
+
+### SIM-Card In Lockbox
+
+But commuting for an hour every day gets a bit annoying. My last attempt
+is to have a lockbox with a four-digit pin placed around some bars at a
+basement window ~5 minutes walk from where I live. That way I can get up
+in the morning, do some work, then take a short walk to get my SIM-card
+out of the lockbox, work some more, and take a walk to place it back in
+the lockbox when I'm done (which fits naturally into the time when I come
+back from my daily daygame session).
+
+*Technically* I placed the lockbox in front of someone's basement, but
+I strongly suspect they won't notice or mind, given that it's placed on
+the steel bars in front of the window.
+
+I have a [beeminder](http://beeminder.com) to keep me placing the SIM-card
+into the lockbox before midnight every day.
+
+This solution has the downside of me conveniently "forgetting" to put
+the SIM-card back, I'll monitor closely if that starts happening, and
+reëvaluate what to do next. I hope beeminder saves me here.
+
+-----
+
+As for *living* without internet:
 
 Wikipedia can be downloaded via [kiwix](https://kiwix.org/en/)
-(~90GB for English WP with images), programming
+(~100GB for English WP with images), programming
 documentation with [zeal](https://zealdocs.org/) &
 [devdocs.io](https://devdocs.io/). [Logseq](https://logseq.com/) as a
 replacement for obsidian/roam, [yt-dlp](https://github.com/yt-dlp/yt-dlp)
@@ -2548,14 +2592,10 @@ websites+assets to read at some later point.
 No great solution for LLMs (yet…), all the ones I can run on my
 laptop are not good enough—maybe I should bite the bullet and get a
 GPU/[digits](https://www.theverge.com/2025/1/6/24337530/nvidia-ces-digits-super-computer-ai)
-that can run of the big LLaMas/DeepSeek V3 locally. I have internet at
-my workplace, and a local library with internet 10 minutes away by walk
-that closes at 7PM.
-
-(No mobile internet either, that'd defeat the purpose. Haven't yet quite figured out to get people to call me when they want stuff…)
+that can run of the big LLaMas/DeepSeek V3 locally.
 
 [^elaboration]: For >3 years now. The benefits reduce after a while as homeostasis kicks in (e.g. moving sleeping times back by ~4 hrs got halved to ~2 hrs), but it's still net positive: I used to lose ≥4½ hrs to random aimless websurfing, now it's only about one. Not all time gained is spent productively, I still randomly click through articles of the local Wikipedia copy, but that feels much less unproductive than watching YouTube videos.
-[^others]: Website blockers like browser extensions are too easy to turn off (especially since I have complete control over my OS). Accountability didn't work well either. Behavioral interventions (like exercising/meditation/whatever) did ~nil.
+[^others]: Website blockers like browser extensions, e.g. LeechBlock, are too easy to turn off (especially since I have complete control over my OS). Accountability didn't work well either. Behavioral interventions (like exercising/meditation/whatever) did ~nil.
 
 Animals Better Suited to Less Unethical Factory Farming
 --------------------------------------------------------
@@ -2622,3 +2662,56 @@ Advantages: Very easy to breed, familiarity to consumers, small neuron
 count
 
 Disadvantages: Fairly small, not as ancient as the arapaima
+
+Error Correction as a Replacement Backstop
+-------------------------------------------
+
+<!--https://claude.ai/chat/586fc048-6850-4490-b8c9-aa62184fd045-->
+
+Is [evolution necessary](https://gwern.net/Backstop) to ensure
+that systems stay and functional don't decay, or can cognition and
+error-corrected thinking hew close enough to reality to not get dissolved
+by environmental pressures?
+
+Minds can be seen as trying to offload selection pressure from mutated
+copies of the mind onto thoughts in their brain, but biological organisms
+have "unignorable" stimuli such as pain that provide real world feedback,
+and death+evolution as a backstop.
+
+If there's some point where systems can error-correct & repair themselves
+faster than environmental pressures degrade them, and reliably pay
+attention to important stimuli in their environment, then there are
+important implications for the future of the accessible universe;
+pain turns optional, aging and death are avoidable, the future may not
+have to become Malthusian, and even thriving planned economies may be
+possible.
+
+On the flip side, if no such error-correction and reliable attention
+is possible, the future will necessarily contain large amounts of
+pain[^balance], some amounts of structures decaying such as advanced
+corporations going bankrupt (though presumably at a slower rate than
+today), evolution and instability.
+
+(I find the former more appealing than the latter, but people with an
+inherent preference for change and dynamism of course endorse the latter;
+one worry I have is that in the former view philosophical and moral
+progress gets locked in too early because locking in is an easy action).
+
+[^balance]: Though equally large amounts of pleasure, balancing it out.
+
+Indicators that error correction is possible as a replacement backstop:
+
+* Non-mutating self-replicators are possible:
+	* John von Neumann and Arthur Walter Burks. *Theory of self-reproducing automata*, 1996
+	* John von Neumann: *Probabilistic logics and synthesis of reliable organisms from unreliable components, automata studies*, 1956
+* Reasoning models, iterated distillation and amplification
+* Error-correcting codes
+* Joe Cameron
+
+Indicators that there is no replacement for evolution:
+
+* Communism hasn't worked yet<!--TODO: link Shalizi on complexity of planned economies-->
+	* Not sure how far Project CyberSyn got before Pinochet broke the party.
+	* Maybe the problem with real-world communism wasn't that it didn't work, even in theory, it was that they didn't have computers that were big enough.
+	* Another instance was that Stalin didn't listen to the planned economy with Kantorovch.
+* Scruffy AI won out over neat AI.

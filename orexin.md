@@ -40,6 +40,7 @@ and recovery days.
 		* Mark the container so that you know that you took it on day one of the block
 		* Wait 20 minutes
 		* Run [a bunch of measurements](#Measurements)
+		* In the evening (~16:00): Collect the measurements again
 	* Day 2:
 		* Sleep a normal amount
 	* Day 3:
@@ -48,6 +49,7 @@ and recovery days.
 		* Mark the container so that you know that you took it on day three of the block
 		* Wait 20 minutes
 		* Run [a bunch of measurements](#Measurements)
+		* In the evening (~16:00): Collect the measurements again
 	* Day 4:
 		* Sleep a normal amount
 		* Look into the containers, write down whether you took placebo/orexin on days one and three
@@ -58,9 +60,9 @@ and one can take a couple of days off from the experiment when something
 
 #### Measurements
 
-I would like to keep the measurements manageable and scalable: There
-is a core of measurements performed in each block, but if I feel like I
-have slack I might decide to do more extensive measurements for one block.
+We'd like to keep the measurements manageable and scalable: There is a
+core of measurements performed in each block, but if I feel like I have
+slack I might decide to do more extensive measurements for one block.
 
 If done per block, this will not impact the quality of the data, but
 please don't decide within a block to switch the detail of measurements.
@@ -70,13 +72,16 @@ degrade with sleep deprivation, informed by [this auto-generated
 report](./doc/orexin/impact_of_sleep_deprivation_on_psychological_metrics_elicit_2025.pdf)
 using [Elicit](https://elicit.org/).
 
+Most of the datapoints will be collected with an application using
+pygame<!--TODO: link-->.
+
 * Active measurements
-	* Reaction speed via the [psychomotor vigilance task](https://en.wikipedia.org/wiki/Psychomotor_vigilance_task): ≥10 datapoints/day, collected via TODO
-	* Attention via the [digit symbol substitution test](https://en.wikipedia.org/wiki/Digit_symbol_substitution_test): 1 datapoint/day, collected via TODO
-	* Digit span: ≥10 datapoints/day, collected via TODO
+	* Reaction speed via the [psychomotor vigilance task](https://en.wikipedia.org/wiki/Psychomotor_vigilance_task): ≥10 datapoints/day, collected via the tool
+	* Attention via the [digit symbol substitution test](https://en.wikipedia.org/wiki/Digit_symbol_substitution_test): 1 datapoint/day, collected via the tool
+	* Digit span: ≥10 datapoints/day, collected via the tool
 	* [Stanford Sleepiness Scale](https://en.wikipedia.org/wiki/Stanford_Sleepiness_Scale)
 	* Subjective well-being: ≥4 datapoints/day, collected via MoodPatterns
-	* Time perception accuracy
+	* Time perception accuracy, collected via the tool
 * Passive measurements
 	* Whatever is collected by the fitbit
 
