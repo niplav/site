@@ -705,3 +705,8 @@ The *real* advantage lies in the ability to efficiently
 simulate quantum systems, with the promise to find [better battery
 tech? superconductors? better quantum computers? medications that dock
 to specific receptors?].
+
+Citations
+----------
+
+* [2927] is written as "John van Neumann", unless there's another one I think it should probably be "John von Neumann"

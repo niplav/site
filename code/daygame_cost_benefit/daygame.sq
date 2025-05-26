@@ -1,134 +1,136 @@
+uplim=5000
+
 // Model Parameters
 @name("Cost Parameters")
 costs = {
-	@doc("Opportunity cost per hour.")
-	hourlyOpportunityCost = 15 to 45
+  @doc("Opportunity cost per hour.")
+  hourlyOpportunityCost = 12.5 to 50
 
-	@doc("Cost per date, observationally")
-	costPerDate = 5 to 25
+  @doc("Cost per date, observationally")
+  costPerDate = 5 to 20
 
-	@doc("Hours per date")
-	hoursPerDate = 2 to 6
+  @doc("Hours per date")
+  hoursPerDate = 1 to 6
 
-	@doc("Average number of dates per woman met")
-	datesPerWoman = 1 to 3
+  @doc("Average number of dates per woman met")
+  datesPerWoman = 1 to 3
 
-	@doc("Approaches per hour")
-	approachesPerHour = 2 to 8
+  @doc("Approaches per hour")
+  approachesPerHour = 1 to 6
 
-	{
-		hourlyOpportunityCost,
-		costPerDate,
-		hoursPerDate,
-		datesPerWoman,
-		approachesPerHour,
-	}
+  {
+    hourlyOpportunityCost,
+    costPerDate,
+    hoursPerDate,
+    datesPerWoman,
+    approachesPerHour,
+  }
 }
 
 @name("Benefit Parameters")
 benefits = {
-	@doc("Value of sex with new partner in dollars")
-	sexValue = 300 to 1000
+  @doc("Value of sex with new partner in dollars")
+  sexValue = 300 to 1000
 
-	@doc("Average times having sex with each new partner")
-	timesWithPartner = 1+lognormal(1, 2)
+  @doc("Average times having sex with each new partner")
+  timesWithPartner = 1+lognormal(1, 2)
 
-	@doc("Value of increased confidence/social skills per 100 approaches")
-	skillValue = 100 to 300
+  @doc("Value of increased confidence/social skills per 100 approaches")
+  skillValue = 100 to 300
 
-	{ sexValue, timesWithPartner, skillValue, timesWithPartner }
+  { sexValue, timesWithPartner, skillValue, timesWithPartner }
 }
 
 @name("Success Rate Parameters")
 successRates = {
-	@name("Sex Success Rate")
-	@doc("Probability of sex from an approach")
-	sexRate(approaches: [0, 5000]) = {
-		layceil=0.02 to 0.035
-		layslope=-0.00032469342601662376
-		layintercept=1.0921062524727312
-		layceil/(1+exp(layintercept+layslope*approaches))
-	}
+  @name("Sex Success Rate")
+  @doc("Probability of sex from an approach")
+  sexRate(approaches: [0, uplim]) = {
+    layceil=0.02 to 0.035
+    layslope=-0.00032469342601662376
+    layintercept=1.0921062524727312
+    layceil/(1+exp(layintercept+layslope*approaches))
+  }
 
-	@name("Date Success Rate")
-	@doc("Probability of getting a date from an approach")
-	dateRate(approaches: [0, 5000]) = {
-		dateceil=0.05 to 0.075
-		dateslope=-0.00032682619283946467
-		dateintercept=0.4249112313623176
-		dateceil/(1+exp(dateintercept+dateslope*approaches))
-	}
+  @name("Date Success Rate")
+  @doc("Probability of getting a date from an approach")
+  dateRate(approaches: [0, uplim]) = {
+    dateceil=0.05 to 0.075
+    dateslope=-0.00032682619283946467
+    dateintercept=0.4249112313623176
+    dateceil/(1+exp(dateintercept+dateslope*approaches))
+  }
 
-	{ dateRate, sexRate }
+  { dateRate, sexRate }
 }
 
 @name("Total Costs")
-calculateCosts(approaches: [0, 5000]) = {
-	// Time cost from approaches
-	approachTimeCost = approaches / costs.approachesPerHour *
-		costs.hourlyOpportunityCost
+calculateCosts(approaches: [0, uplim]) = {
+  // Time cost from approaches
+  approachTimeCost = approaches / costs.approachesPerHour *
+    costs.hourlyOpportunityCost
 
-	// Expected number of dates
-	expectedDates = approaches * successRates.dateRate(approaches) *
-		costs.datesPerWoman
+  // Expected number of dates
+  expectedDates = approaches * successRates.dateRate(approaches) *
+    costs.datesPerWoman
 
-	// Date costs (both money and time)
-	dateMoneyCost = expectedDates * costs.costPerDate
-	dateTimeCost = expectedDates * costs.hoursPerDate *
-		costs.hourlyOpportunityCost
+  // Date costs (both money and time)
+  dateMoneyCost = expectedDates * costs.costPerDate
+  dateTimeCost = expectedDates * costs.hoursPerDate *
+    costs.hourlyOpportunityCost
 
-	approachTimeCost + dateMoneyCost + dateTimeCost
+  approachTimeCost + dateMoneyCost + dateTimeCost
 }
 
 @name("Discount factor to apply to having more sex partners")
 // maybe make marginal value of more partners negative for >100?
-partnerDiscount=mx([1, 0.85 to 0.99], [0.66, 0.34])
+partnerDiscount=truncate(mx([1, 0.85 to 0.99], [0.66, 0.34]), 0, 1)
 
 @name("Expected number of sex partners")
-expectedPartners(approaches: [0, 5000]) = {
-	approaches * successRates.sexRate(approaches)
-}
+expectedPartners(approaches: [0, uplim]) = approaches * successRates.sexRate(approaches)
 
 // TODO: I think this needs to be slightly rethought, it's more subtle
 // See original text
+// Diminishing returns per partner
 @name("Benefit from having more sex")
-sexBenefit(approaches: [0, 5000]) = {
-	// Value from sex
-	(expectedPartners(approaches) * benefits.sexValue *
-		(1 + log(benefits.timesWithPartner))^partnerDiscount) // Diminishing returns per partner
-}
+sexBenefit(approaches: [0, uplim])=
+  (expectedPartners(approaches) * benefits.sexValue *
+    (1 + log(benefits.timesWithPartner))^partnerDiscount)
 
 @name("Total Benefits")
-calculateBenefits(approaches: [0, 5000]) = {
-	// Value from skill improvement
-	skillBenefit = approaches / 100 * benefits.skillValue
-
-	sexBenefit(approaches) + skillBenefit
-}
+calculateBenefits(approaches: [0, uplim]) = sexBenefit(approaches) + approaches / 100 * benefits.skillValue
 
 @name("Net Value")
-netValue(approaches: [0, 5000]) = calculateBenefits(approaches) -
-	calculateCosts(approaches)
+netValue(approaches: [0, uplim]) = calculateBenefits(approaches) -
+  calculateCosts(approaches)
+
+@name("Mean Net Value")
+meanNetValue(approaches: [0, uplim]) = mean(calculateBenefits(approaches) -
+  calculateCosts(approaches))
+
+@name("Median Net Value")
+medianNetValue(approaches: [0, uplim]) = median(calculateBenefits(approaches) -
+  calculateCosts(approaches))
 
 @name("Example Results")
 results = {
-	@name("Net value of 100 approaches")
-	small = netValue(100)
+  @name("Net value of 100 approaches")
+  small = netValue(100)
 
-	@name("Net value of 1000 approaches")
-	medium = netValue(1000)
+  @name("Net value of 1000 approaches")
+  medium = netValue(1000)
 
-	@name("Net value of 1500 approaches")
-	bunch = netValue(1500)
+  @name("Net value of 1500 approaches")
+  bunch = netValue(1500)
 
-	@name("Net value of 2000 approaches")
-	more = netValue(2000)
+  @name("Net value of 2000 approaches")
+  more = netValue(2000)
 
-	@name("Net value of 3000 approaches")
-	large = netValue(3000)
+  @name("Net value of 3000 approaches")
+  large = netValue(3000)
 
-	@name("Net value of 5000 approaches")
-	huge = netValue(5000)
+  @name("Net value of 5000 approaches")
+  huge = netValue(5000)
 
-	{ small, medium, bunch, more, large, huge }
+  { small, medium, bunch, more, large, huge }
 }
