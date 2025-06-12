@@ -26,6 +26,16 @@ content.
 May 2025
 ---------
 
+* Notes:
+	* [On Having No Internet At Home](./notes.html#On_Having_No_Internet_at_Home)
+	* [Animals Better Suited to Less Unethical Factory Farming](./notes.html#Animals_Better_Suited_to_Less_Unethical_Factory_Farming)
+	* [Error Correction as a Replacement Backstop](./notes.html#Error_Correction_as_a_Replacement_Backstop)
+	* [Written While Riding the BART for the First Time](/notes.html#Notes_Written_While_Riding_the_BART_for_the_First_Time)
+* Book reviews:
+	* [Grand Futures (Anders Sandberg, 2023)](./text_reviews.html#Grand_Futures_Anders_Sandberg_2023)
+
+### Updated
+
 April 2025
 ----------
 

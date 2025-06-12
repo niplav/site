@@ -2713,5 +2713,38 @@ Indicators that there is no replacement for evolution:
 * Communism hasn't worked yet<!--TODO: link Shalizi on complexity of planned economies-->
 	* Not sure how far Project CyberSyn got before Pinochet broke the party.
 	* Maybe the problem with real-world communism wasn't that it didn't work, even in theory, it was that they didn't have computers that were big enough.
-	* Another instance was that Stalin didn't listen to the planned economy with Kantorovch.
+	* Another instance was that Stalin didn't listen to the planned economy with Kantorovich.
 * Scruffy AI won out over neat AI.
+
+Written While Riding the BART for the First Time
+--------------------------------------------------
+
+Hello last city on Earth  
+the Eastest of the West  
+Looking out at your hills you (sort of?) resemble ancient Greece  
+And I can almost smell the meteoric ash  
+
+Hello Berkeley  
+You ambiguous Bastard  
+You self-forlorn radical, you  
+contradictio in adjecto  
+
+Why do *you* already occupy my mind, squatters on my synapses  
+A premature hate for having sucked me in already  
+What has gotten me yet, what has revealed my purpose  
+If not your memetic spewings  
+Man if you kill me I'm gonna be real mad for a while  
+Where did you put all my friends  
+One-shotted by this narcissistic ambitopia
+
+Well well well San Francisco  
+I could get out and see you cope for real  
+dashed ambitions drowned in B2B SaaS bucks
+An oil platform above the noösphere  
+With Capgraps spirits stepping over the feces  
+The line howls with the squeal of exaQALYs lost
+
+I hope you'll create paradise, and if you do  
+that you'll know it was by accident  
+
+("Daly city". lmao. does that ever get old?)

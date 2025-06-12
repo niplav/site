@@ -107,6 +107,11 @@ https://freenortherner.com/2012/11/01/financial-analysis-of-sex-relationship-vs-
 Ratios
 ------
 
+<!--
+TODO: Read & comment on https://interpersona.psychopen.eu/index.php/interpersona/article/download/3397/3397.html
+Comment: https://www.lesswrong.com/posts/gosGW6oBf3fzDHPbd/dating-roundup-5-opening-day?commentId=PCx4KxqSmyXgmFSis
+-->
+
 In daygame-lingo, the word "ratio" usually refers to the ratio between
 approaches and contact information (such as phone numbers)/dates/women
 slept with (colloquially "lays"). In this text, I'm interested in the
