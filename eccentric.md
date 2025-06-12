@@ -216,6 +216,8 @@ if you ask me. Just not sure whether I'd have to fear angry politicians.
 <!--TODO: Weaker version with voting advice based on how parties have
 voted for bills in the past-->
 
+* Cybersyn 2.0, Alabama now has a planned economy (h/t Tym)
+
 Language
 ---------
 
@@ -818,10 +820,12 @@ giving \\$60 mio. in total.
 __Output format__: Mostly long PDFs with titles such as "Acausalism:
 A Primer" or "Chaitinudassicon".
 
-Discussions
--------------
+See Also
+----------
 
-* [LessWrong](https://www.lesswrong.com/posts/4TbTktGNu2vtGRbfM/if-i-was-an-eccentric-trillionaire)
+* [I'd also take $7 trillion (bhauth, 2024)](https://bhauth.com/blog/projects/7%20trillion.html)
+* Discussions
+	* [LessWrong](https://www.lesswrong.com/posts/4TbTktGNu2vtGRbfM/if-i-was-an-eccentric-trillionaire)
 
 Appendix A: Markets from a Personal Futarchy Experiment by Tetraspace
 -----------------------------------------------------------------------

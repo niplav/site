@@ -28,6 +28,58 @@ Poems
 > Paradises, peacocks, peaches & palimpsests! Prussians, prowlers plus
 plumous penguins, priestess parks principles—priceless.
 
+> STOW TRAY TABLE DURING TAXI, TAKE-OFF AND LANDING,  
+> RECLAMATIONS ACCRUE<!--TODO: ATTRACT?-->, JACKALS WITH KATARACTS PACT  
+> ON A LIGHT GREY BACKGROUND, RECLAMATION WITH TACT  
+> FOR THE LEAST PARAKEET KHAN WITH SOME STANDING  
+> *KAZAKHSTAN: IMPACT*; EXTRACT THE LEADING BLAND BRAND
+
+### The Arbitrary and The Open Sky
+
+(not mysticism)
+
+#### The Arbitrary
+
+There is no best programming language for Solomonoff Induction.  
+Grue.  
+A rock implements every possible finite-state automaton.  
+Are you an anti-inductor in an inductive universe? Are you an inductor in an anti-inductive universe?  
+Choice of axioms.
+
+Uncommon priors require origin disputes. What do you say during an origin dispute?  
+Dust theory.  
+No natural measure in Tegmark IV.  
+Where was your mind before you were created in motion.  
+Future Tuesday Indifference.  
+Quinean underdetermination. Infinite theories fit the same data.
+
+#### The Open Sky
+
+Feeling in the dark for the first rung up Wittgenstein's ladder.  
+> There are more things in heaven and earth, Horatio, than are dreamt of in your philosophy.
+
+Science is only 500 years old, philosophy 2500. Is that really enough to find the correct starting point?  
+Bostrom on the Cosmic Host, Cosmic Norms. But further than that.
+
+At some point someone came up with the concept "concept".  
+Human minds were not made by evolution to accurately capture reality.
+Apophatic theology for everything, to get out of the local maximum.  
+
+Things like acausal trade, evidential cooperation in large worlds. But further than that.  
+Crucial considerations. Further than that.  
+We might simply have missed the basic constituents of reality.  
+Neither math, nor computation, nor matter, or consciousness, nor gods, nor emptiness, or morality.  
+Something new.
+
+'Heat' wasn't motion until kinetic theory. 'Space' wasn't curved until general relativity.
+
+[Some Unattractive Meta-Ethical Positions, Free to a Good Home (Cosma Shalizi, 2024)](http://bactra.org/notebooks/some-meta-ethical-positions.html), but further than that.  
+[Zombie is to Human as Human is to XXX? (Eric Schwitzgebel, 2025)](https://schwitzsplinters.blogspot.com/2025/02/zombie-is-to-human-as-human-is-to-xxx_26.html), but further than that.
+
+X, Not X, Neither X nor Not X, Neither X nor Not X nor (Neither X nor Not X), and so on.  
+Ontological cluelessness.  
+Our basic understanding just isn't there yet. We're barking up the wrong tree. In the wrong forest. In the wrong biome.  
+
 ----
 
 > Now hips, a black hole to surround  
