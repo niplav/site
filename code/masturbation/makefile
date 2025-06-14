@@ -5,7 +5,7 @@ include config.mk
 all: $(IMG)
 
 puttit: $(IMG)
-	mv $(IMG) ../../img/masturbation_and_attractiveness
+	mv $(IMG) ../../img/masturbation
 
 .eps.png:
 	convert -chop 0x180 $< $@

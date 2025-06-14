@@ -28,6 +28,8 @@ Poems
 > Paradises, peacocks, peaches & palimpsests! Prussians, prowlers plus
 plumous penguins, priestess parks principles—priceless.
 
+-------------------
+
 > STOW TRAY TABLE DURING TAXI, TAKE-OFF AND LANDING,  
 > RECLAMATIONS ACCRUE<!--TODO: ATTRACT?-->, JACKALS WITH KATARACTS PACT  
 > ON A LIGHT GREY BACKGROUND, RECLAMATION WITH TACT  
@@ -73,8 +75,8 @@ Something new.
 
 'Heat' wasn't motion until kinetic theory. 'Space' wasn't curved until general relativity.
 
-[Some Unattractive Meta-Ethical Positions, Free to a Good Home (Cosma Shalizi, 2024)](http://bactra.org/notebooks/some-meta-ethical-positions.html), but further than that.  
-[Zombie is to Human as Human is to XXX? (Eric Schwitzgebel, 2025)](https://schwitzsplinters.blogspot.com/2025/02/zombie-is-to-human-as-human-is-to-xxx_26.html), but further than that.
+[Some Unattractive Meta-Ethical Positions, Free to a Good Home (Cosma Shalizi, 2024)](http://bactra.org/notebooks/some-meta-ethical-positions.html)
+[Zombie is to Human as Human is to XXX? (Eric Schwitzgebel, 2025)](https://schwitzsplinters.blogspot.com/2025/02/zombie-is-to-human-as-human-is-to-xxx_26.html)
 
 X, Not X, Neither X nor Not X, Neither X nor Not X nor (Neither X nor Not X), and so on.  
 Ontological cluelessness.  

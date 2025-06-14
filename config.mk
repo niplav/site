@@ -81,7 +81,7 @@ HTML=index.html \
 	leave.html \
 	life_advice.html \
 	logical.html \
-	masturbation_and_attractiveness.html \
+	masturbation.html \
 	mathematics_notation_convention.html \
 	metamodernistisches_manifest.html \
 	microfiction.html \

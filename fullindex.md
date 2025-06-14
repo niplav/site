@@ -146,7 +146,7 @@ one moment or forget it!
 
 * [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
 * [Using A Multi-Armed Bandit to Select Daygame Locations](./bandit.html)
-* [Abstinence from Masturbation and Success from Cold Approach](./masturbation_and_attractiveness.html)
+* [Abstinence from Masturbation and Success from Cold Approach](./masturbation.html)
 * [Notes on Pickup](./notes_on_pickup.html)
 * [Pickup Reports](./pickup_reports.html)
 * [On Daygame](./daygame.html)

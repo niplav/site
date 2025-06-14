@@ -62,7 +62,7 @@ dependent on being a NoFap enthusiast.
 Given these claims, it should be possible to at least somewhat check
 the claims made by members of the NoFap community.
 
-![Nice Hypothesis](img/masturbation_and_attractiveness/sagan_test_meme.png "(Zooming into face of Carl Sagan, looking smug) “Nice Hypothesis you have there. Would be a shame if someone were to test it”")
+![Nice Hypothesis](img/masturbation/sagan_test_meme.png "(Zooming into face of Carl Sagan, looking smug) “Nice Hypothesis you have there. Would be a shame if someone were to test it”")
 
 (Taken from [Scott Alexander
 (2013)](https://slatestarcodex.com/2013/10/20/the-anti-reactionary-faq/ "The Anti-Reactionary FAQ"))
@@ -183,7 +183,7 @@ Code:
 
 	draw()
 
-![Loss in different stages of the funnel](./img/masturbation_and_attractiveness/dur_after_bar.png "Loss in different stages of the funnel.")
+![Loss in different stages of the funnel](./img/masturbation/dur_after_bar.png "Loss in different stages of the funnel.")
 
 Another possible method could be to visualize cumulative survival
 rates for the different stages by percentage by showing a [Kaplan-Meier
@@ -207,7 +207,7 @@ overall graph for this would look like this:
 
 	draw()
 
-![Retention percentages for different stages, overall](./img/masturbation_and_attractiveness/survival.png "Retention percentages for different stages, overall")
+![Retention percentages for different stages, overall](./img/masturbation/survival.png "Retention percentages for different stages, overall")
 
 *Retention percentages for different stages, overall*
 
@@ -434,11 +434,11 @@ by users of reddit.
 The raw markdown,
 [pre-registered](https://en.wikipedia.org/wiki/Pre-registration_\(science\))
 version of this article can be found
-[here](https://niplav.site/masturbation_and_attractiveness_preregistered.txt).
+[here](https://niplav.site/masturbation_preregistered.txt).
 
 Its hashsum was computed as such:
 
-	$ sha256sum masturbation_and_attractiveness_preregistered.txt
+	$ sha256sum masturbation_preregistered.txt
 
 <!--TODO: add link to reddit post-->
 
@@ -571,7 +571,7 @@ percentage points):
 
 I then generated the dummy data:
 
-	$ kg ./code/masturbation_and_attractiveness/gen_dummy.kg >>data/masturbation_attractiveness_dummy_better.csv
+	$ kg ./code/masturbation/gen_dummy.kg >>data/masturbation_attractiveness_dummy_better.csv
 
 and tested the hypothesis again:
 
@@ -878,7 +878,7 @@ and compute the mean & sample-size for the two-day intervals:
 
 And the result is…
 
-![](./img/masturbation_and_attractiveness/errorbars.png)
+![](./img/masturbation/errorbars.png)
 
 The first week sees response rates go down *slightly*, but I wouldn't
 make any strong proclamations based on that. Afterwards the data is too
