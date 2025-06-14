@@ -23,6 +23,12 @@ the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
 
+June 2025
+----------
+
+* Microfiction
+	* [The Arbitrary and The Open Sky](./microfiction.html#The_Arbitrary_and_The_Open_Sky)
+
 May 2025
 ---------
 
@@ -34,7 +40,11 @@ May 2025
 * Book reviews:
 	* [Grand Futures (Anders Sandberg, 2023)](./text_reviews.html#Grand_Futures_Anders_Sandberg_2023)
 
-### Updated
+### Links
+
+* [Validating against a misalignment detector is very different to training against one (Matt McDermott, 2025)](https://www.lesswrong.com/posts/CXYf7kGBecZMajrXC/validating-against-a-misalignment-detector-is-very-different)
+* [Self-Funding Harberger Taxes (Gwern Branwen, 2024)](https://gwern.net/harberger)
+* [Hoop conjecture (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Hoop_conjecture)
 
 April 2025
 ----------
