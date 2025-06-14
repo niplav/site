@@ -4,7 +4,7 @@ all:
 	make -C daygame_cost_benefit/
 	make -C estimated_life_expectancy/
 	make -C range_and_forecasting_accuracy/
-	make -C masturbation_and_attractiveness/
+	make -C masturbation/
 	make -C naive_set_theory/
 	make -C bp_chrono/
 	make -C ob_chrono/
@@ -17,7 +17,7 @@ puttit:
 	make -C daygame_cost_benefit/ puttit
 	make -C estimated_life_expectancy/ puttit
 	make -C range_and_forecasting_accuracy/ puttit
-	make -C masturbation_and_attractiveness/ puttit
+	make -C masturbation / puttit
 	make -C bp_chrono/ puttit
 	make -C ob_chrono/ puttit
 	make -C so_chrono/ puttit
@@ -29,7 +29,7 @@ clean:
 	make -C daygame_cost_benefit/ clean
 	make -C estimated_life_expectancy/ clean
 	make -C range_and_forecasting_accuracy/ clean
-	make -C masturbation_and_attractiveness/ clean
+	make -C masturbation / clean
 	make -C naive_set_theory/ clean
 	make -C bp_chrono/ clean
 	make -C ob_chrono/ clean

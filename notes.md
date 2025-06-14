@@ -2741,7 +2741,7 @@ Well well well San Francisco
 I could get out and see you cope for real  
 dashed ambitions drowned in B2B SaaS bucks
 An oil platform above the noösphere  
-With Capgraps spirits stepping over the feces  
+With Capgras spirits stepping over the feces  
 The line howls with the squeal of exaQALYs lost
 
 I hope you'll create paradise, and if you do  

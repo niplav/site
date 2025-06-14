@@ -811,3 +811,8 @@ datetime,substance,amount,experiment,id,prediction
 2025-05-16T12:04:18+02:00,caffeine,200mg,,,
 2025-05-16T12:04:18+02:00,l-theanine,500mg,,,
 2025-05-28T15:19:22+02:00,creatine,6g,,,
+2025-06-04T08:34:00+13:00,melatonin,0.375mg,,,
+2025-06-06T04:20:00+13:00,melatonin,0.4mg,,,
+2025-06-07T02:03:00+00:00,melatonin,0.4mg,,,
+2025-06-11T23:21:00+00:00,melatonin,0.45mg,,,
+2025-06-14T01:03:38+02:00,creatine,6g,,,

@@ -127,7 +127,7 @@ in](./language.html#Better_Names_for_Things)), so call this a blog if you
 like. I personally prefer the term simple term "website" or "personal
 website". If you want to talk about me as if I had prestige, "essays"
 is also okay. (It might send incorrect signals about [how prestigeworthy
-I really am](./masturbation_and_attractiveness.html), though).
+I really am](./masturbation.html), though).
 
 #### Translations, Transcriptions & Archives
 
@@ -470,6 +470,7 @@ but rather cycles).
 
 * [Aaron Mazel-Gee](https://etale.site/); another .site URL owner, and all around cool math guy
 * [Andrew McKenzie](http://andrewtmckenzie.com/), who writes [essays on brain preservation](https://brainpreservation.github.io/) and [notes on neurobiology](https://neurobiology.substack.com/)
+* [Croissanthology](https://croissanthology.com/)
 * [Ethan](https://210ethan.github.io): Pure Everests, with careful diligence
 * [exdiegesis](https://x.com/exdiegesis/)/[mir](https://www.lesswrong.com/users/mir)/[rime](https://forum.effectivealtruism.org/users/elua)/ward
 * [Matthew Baggins](https://hidden-structures.vercel.app/)
@@ -485,7 +486,6 @@ on here but don't want to be), [contact me](#Contact).
 
 <!--TODO: add 1a3orn, Alex K. Chen, Burny?-->
 <!--[Sam Harsimony](https://splittinginfinity.substack.com/), [Wordpress](https://harsimony.wordpress.com/): Polymath.-->
-<!--Croissanthology-->
 
 The Author
 ----------

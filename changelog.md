@@ -84,7 +84,7 @@ Weg! Es ist ein Gott — — — —
 * [Forager Society is a Disease of the Flesh, Industrial Society is a Disease of the Soul](./notes.html#Forager_Society_is_a_Disease_of_the_Flesh_Industrial_Society_is_a_Disease_of_the_Soul)
 * [Least Likely Completions for Language Models](./notes.html#Least_Likely_Completions_for_Language_Models)
 * [Vascular Tension and Attractiveness](./notes_on_pickup.html#Vascular_Tension_and_Attractiveness): Does meditating make one more attractive? Result: Probably not.
-* [Analysis of Observational Data](./masturbation_and_attractiveness.html#Appendix_D_Analysis_of_Observational_Data) on whether abstaining from masturbation makes one more attractive. Result: probably not.
+* [Analysis of Observational Data](./masturbation.html#Appendix_D_Analysis_of_Observational_Data) on whether abstaining from masturbation makes one more attractive. Result: probably not.
 * [Patching ~All Security-Relevant Open-Source Software?](./patching.html): It's expensive, even if done by autonomous AI systems.
 
 ### Updated
@@ -248,7 +248,7 @@ on AI takeoff](./foom.html).
 
 Lot's of [work](./stimulation.html) [on](./cause.html)
 [pages](./resolving.html) [that](daygame_cost_benefit.html)
-[nevertheless](masturbation_and_attractiveness.html)
+[nevertheless](masturbation.html)
 [remain](diamond.html) [unfinished](cryonics_outside_us.html).
 
 ### Links
@@ -1211,7 +1211,7 @@ February 2020
 
 ### Writing
 
-* [Further Hypotheses on Masturbation and Attractiveness](./masturbation_and_attractiveness.html#Appendix_C_Further_Hypotheses)
+* [Further Hypotheses on Masturbation and Attractiveness](./masturbation.html#Appendix_C_Further_Hypotheses)
 * [Empirical Data for Daygame Ratios](./daygame_cost_benefit.html#Empirical_Data_for_Ratios)
 
 January 2020
