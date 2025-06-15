@@ -36,7 +36,7 @@ May 2025
 	* [On Having No Internet At Home](./notes.html#On_Having_No_Internet_at_Home)
 	* [Animals Better Suited to Less Unethical Factory Farming](./notes.html#Animals_Better_Suited_to_Less_Unethical_Factory_Farming)
 	* [Error Correction as a Replacement Backstop](./notes.html#Error_Correction_as_a_Replacement_Backstop)
-	* [Written While Riding the BART for the First Time](/notes.html#Notes_Written_While_Riding_the_BART_for_the_First_Time)
+	* [Written While Riding the BART for the First Time](./notes.html#Notes_Written_While_Riding_the_BART_for_the_First_Time)
 * Book reviews:
 	* [Grand Futures (Anders Sandberg, 2023)](./text_reviews.html#Grand_Futures_Anders_Sandberg_2023)
 
@@ -1075,7 +1075,7 @@ January 2021
 * [Solutions to “Artificial Intelligence: A Modern Approach”](./aima_solutions.md)
 * [Text Reviews](./text_reviews.html)
 	* [1960: The Year The Singularity Was Cancelled (Scott Alexander, 2019)](./text_reviews.html#1960_The_Year_The_Singularity_Was_Cancelled_Scott_Alexander_2019)
-* [An Exploratory Toy AI Takeoff Model](./toy_ai_takeoff_model.md)
+* [An Exploratory Toy AI Takeoff Model](./foom.md)
 * [Exercises 1-4 in Section 10](./nst_solutions.html#Exercise_1_7) in [Solutions to “Naïve Set Theory“](./nst_solutions.html)
 * Notes
 	* [Trigger-Action Plans](./notes.html#TriggerAction_Plans)

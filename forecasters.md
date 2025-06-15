@@ -190,6 +190,7 @@ How Can We Become Better At Forecasting?
 	* Ideas:
 		* chained conditional forecasts
 * Is there any conceivable way of incentivizing good predictions on extinction events?
+	* See [Demski 2017](https://www.lesswrong.com/posts/5bd75cc58225bf0670375432/futarchy-fix#Forecasting_Doom)
 
 ### Forecasting Techniques
 
