@@ -28,7 +28,7 @@ to the 80s), but not being interested in graphics or game programming,
 I shelved it as a curiosity.
 
 However, a while later I needed a way to generate high-dimensional
-landscapes for [a simulation](./toy_ai_takeoff_model.html), and
+landscapes for [a simulation](./foom.html), and
 remembered the algorithm, I felt like I could contribute something here
 by generalizing the algorithm to produce landscapes in an arbitrary number
 of dimensions, and that this would be a fun challenge to sharpen my (then

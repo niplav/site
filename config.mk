@@ -66,7 +66,6 @@ HTML=index.html \
 	expansion.html \
 	favorites.html \
 	foom.html \
-	finesse.html \
 	flags.html \
 	forecasters.html \
 	general.html \
@@ -110,7 +109,6 @@ HTML=index.html \
 	tao_te_king.html \
 	text_reviews.html \
 	textbook_discord_servers.html \
-	toy_ai_takeoff_model.html \
 	transfer.html \
 	turning.html \
 	two_people_on_a_planet.html \
