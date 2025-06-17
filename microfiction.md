@@ -36,6 +36,57 @@ plumous penguins, priestess parks principles—priceless.
 > FOR THE LEAST PARAKEET KHAN WITH SOME STANDING  
 > *KAZAKHSTAN: IMPACT*; EXTRACT THE LEADING BLAND BRAND
 
+------------------
+
+> Crafted with ungulate hammers,  
+> From saddle to saddle he jumps,  
+> Orchestra swells, never stammers,  
+> Perfected for building, for standing,  
+> On that wildebeest Argus' lights loom  
+> Expanding a ringed display ploy  
+> For the hacker, slaying bugs true,  
+> Like Hector was gutted in sand before Troy
+
+-------------------
+
+> werc, mercury-footed;  
+> werc as Atlanta swift;  
+> werc like Boreas-born;  
+> werc the prestissimo—  
+> [three syllable pause] tachywerc!
+
+### Written While Riding the BART for the First Time
+
+Hello last city on Earth  
+the Eastest of the West  
+Looking out at your hills you (sort of?) resemble ancient Greece  
+And I can almost smell the meteoric ash
+
+Hello Berkeley  
+You ambiguous Bastard  
+You self-forlorn radical, you  
+contradictio in adjecto
+
+Why do *you* already occupy my mind, squatters on my synapses  
+A premature hate for having sucked me in already  
+What has gotten me yet, what has revealed my purpose  
+If not your memetic spewings  
+Man if you kill me I'm gonna be real mad for a while  
+Where did you put all my friends  
+One-shotted by this narcissistic ambitopia
+
+Well well well San Francisco  
+I could get out and see you cope for real  
+dashed ambitions drowned in B2B SaaS bucks  
+An oil platform above the noösphere  
+With Capgras spirits stepping over the feces  
+The line howls with the squeal of exaQALYs lost
+
+I hope you'll create paradise, and if you do  
+that you'll know it was by accident
+
+("Daly city". lmao. does that ever get old?)
+
 ### The Arbitrary and The Open Sky
 
 (not mysticism)
