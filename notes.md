@@ -2697,7 +2697,7 @@ inherent preference for change and dynamism of course endorse the latter;
 one worry I have is that in the former view philosophical and moral
 progress gets locked in too early because locking in is an easy action).
 
-[^balance]: Though equally large amounts of pleasure, balancing it out.
+[^balance]: Though also equally large amounts of pleasure, balancing it out.
 
 Indicators that error correction is possible as a replacement backstop:
 
@@ -2719,32 +2719,14 @@ Indicators that there is no replacement for evolution:
 Written While Riding the BART for the First Time
 --------------------------------------------------
 
-Hello last city on Earth  
-the Eastest of the West  
-Looking out at your hills you (sort of?) resemble ancient Greece  
-And I can almost smell the meteoric ash  
+Moved [here](./microfiction#Written_While_Riding_the_BART_for_the_First_Time).
 
-Hello Berkeley  
-You ambiguous Bastard  
-You self-forlorn radical, you  
-contradictio in adjecto  
+Flossing Experiments
+---------------------
 
-Why do *you* already occupy my mind, squatters on my synapses  
-A premature hate for having sucked me in already  
-What has gotten me yet, what has revealed my purpose  
-If not your memetic spewings  
-Man if you kill me I'm gonna be real mad for a while  
-Where did you put all my friends  
-One-shotted by this narcissistic ambitopia
+I've been skeptical about the value of flossing for a while—whenever
+I'd go to the dentist, they'd tell me to floss, irrespective of whether
+I'd been doing it or not.
 
-Well well well San Francisco  
-I could get out and see you cope for real  
-dashed ambitions drowned in B2B SaaS bucks
-An oil platform above the noösphere  
-With Capgras spirits stepping over the feces  
-The line howls with the squeal of exaQALYs lost
-
-I hope you'll create paradise, and if you do  
-that you'll know it was by accident  
-
-("Daly city". lmao. does that ever get old?)
+1. I only flossed on the right side of my mouth since 2023-07-08, and on 2023-09-28 I asked the dentist to guess which side I'd flossed on. She guessed left.
+2. Starting 2025-06-13, I started floosing only the right side of my mouth.

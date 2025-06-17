@@ -210,14 +210,17 @@ Existence of Long Tails for Bliss and Suffering")<!--TODO: better links for this
 33. Don't put a backpack with a laptop in it on a chair.
 34. If you really want something to get done, [use a money-as-commitment website](https://www.lesswrong.com/posts/DRrAMiekmqwDjnzS5/my-experience-using-financial-commitments-to-overcome) like [beeminder](https://www.beeminder.com/), [taskratchet](https://taskratchet.com/), [forfeit](https://www.forfeit.app/) or [intend](https://intend.do/).
 	* I've only used beeminder, sparingly, but it has worked very well every time.
-	* For me, using this kind of commitment device feels uncomfortable, which is why I limit my usage of them. I suspect there's some significant amount of coërcion of subagents in my mind involved.
+	* For me, using this kind of commitment device feels uncomfortable, which is why I limit my usage of them. I suspect there's some significant amount of coercion<!--TODO: coërcion?--> of subagents in my mind involved.
 35. Own multiple chargers for your laptop/phone.
 36. Do a little bit of stock-picking, based on your inside view, and then observe how well the picked stocks do.
 	* In the beginning, don't do this for the returns, but for the value of information on whether you can outperform the market.
 	* If you're performing worse than the market, go back to index funds.
 37. Instead of taking your phone to the gym, you can take a book and read between sets.
 	* This works especially well for (1) textbooks and (2) books of poetry: For a textbook, one can read a definition or a paragraph between sets, for a book of poetry a poem.
-38. Do the obvious things
+38. One can buy groceries once a month if one has a big fridge/freezer and enough shelf space.
+	* Buying groceries has a fixed cost and variable costs (having a dedicated chunk of time for buying groceries as a fixed cost, and the time spent driving and packing/unpacking bags as a variable cost), one can reduce the fixed cost.
+	* Buying in bulk also means that one on average has half a month (or a month, depending on frequency) of food stock at home, this functions as a neat small disaster preparation stash.
+39. Do the obvious things
 	* Exercise any amount
 		*	Even walking around outside for 10 minutes a
 			day is better than nothing
