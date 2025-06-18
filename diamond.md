@@ -190,9 +190,9 @@ and so on for the front and back faces. (2) is a bit more tricky,
 but should be doable to imagine: If we instead can fix two dimensions,
 we can assign them 0 and the maximum *each*, independently.
 
-Abbreviating `$d$` for `dim` and `$c$` for `$subdim$`, the
-resulting structure should have have the size `$[{d \choose c},
-2^{d-c},2^c, d]$`—*for every c-dimensional direction*, *enumerate all
+Abbreviating `$d$` for `dim` and `$c$` for `subdim`, the resulting
+structure should have have the size `$[{d \choose c}, 2^{d-c},2^c,
+d]$`—*for every c-dimensional direction*, *enumerate all
 [hypercubes](https://en.wikipedia.org/wiki/Hypercube) in that direction
 on the boundary of `space`*, __list all corners of that c-dimensional
 hypercube__, but *__use `dim` dimensions__*.

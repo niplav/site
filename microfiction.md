@@ -31,7 +31,7 @@ plumous penguins, priestess parks principles—priceless.
 -------------------
 
 > STOW TRAY TABLE DURING TAXI, TAKE-OFF AND LANDING,  
-> RECLAMATIONS ACCRUE<!--TODO: ATTRACT?-->, JACKALS WITH KATARACTS PACT  
+> INCANTATIONS ACCRUE, JACKALS WITH KATARACTS PACT  
 > ON A LIGHT GREY BACKGROUND, RECLAMATION WITH TACT  
 > FOR THE LEAST PARAKEET KHAN WITH SOME STANDING  
 > *KAZAKHSTAN: IMPACT*; EXTRACT THE LEADING BLAND BRAND
@@ -265,13 +265,19 @@ Winters Klee entschied
 Einmal mir nachzufolgen  
 Bedachte nicht; Pferd!
 
+---------
+
 Kirschblüten gegen  
 das samtene Firnament  
 bald stürzt es hinab
 
+---------
+
 Doch Blüten, deren  
 Topazellbogen plötzlich  
 Scharlachknie sind
+
+---------
 
 Amethystschulter,  
 die mit Graphitgeste kein  
@@ -289,34 +295,50 @@ In the CPU
 Peace. But the tranquility  
 is interrupted.
 
+---------
+
 Autumn, slashing when  
 The eternal emerald  
 Sadly decomposed  
+
+---------
 
 [Backward analyzed](https://en.wikipedia.org/wiki/Data-flow_analysis#Backward_analysis)  
 This computation sufficed  
 But data? Perturbed  
 
+---------
+
 [Splines](https://en.wikipedia.org/wiki/Spline_\(mathematics\)) are weird and nice  
 Where get differentiation?  
 Just increase your `$m$`  
+
+---------
 
 In jazz scattering  
 Forward, backward, to the side  
 confusion entails
 
+---------
+
 Please turn off the lights!  
 Very high costs arise, when  
 The light is on. Thanks.
+
+---------
 
 May your death be like  
 A married bachelor, ex  
 falso quodlibet
 
+---------
+
 The silence prickles  
 A mind too swift for meaning  
 <!--Is Thoughts without wrapping worse? Better?-->
 Unwrapping my thoughts
+
+---------
 
 <!--
 Some minds start cutting  
@@ -332,33 +354,49 @@ A sharp mind might start
 cutting itself, if it ain't  
 dulled once in a while
 
+---------
+
 Thus declaring: “read,  
 write, code—sit, approach, lift”, off  
 into the mountains.
+
+---------
 
 When the elder drop  
 Never hits your eye again  
 Itching bark quivers
 
+---------
+
 Lest our shimmery  
 Streets give no unheard secrets  
 I will munge some corn
+
+---------
 
 Hardening over  
 Kazakhstani pools, we hence  
 Elucidate this
 
+---------
+
 Oscillate northwards,  
 Then hold to the nearest points  
 Fragmented lesions
+
+---------
 
 Having now observed  
 The one year and one day rule  
 I can say it's good
 
+---------
+
 The moon, presented:  
 A jewel on a pillow  
 chalk washed far away
+
+---------
 
 Onrushing tide, mere  
 thirty months away, and just  
@@ -368,13 +406,19 @@ our puny channels
 
 I made up the ugliest possible genre of poetry.
 
+---------
+
 It, triumphantly  
 giggling, snatched this poisonous  
 cum from a mailman
 
+---------
+
 At my spot, I found  
 an old spy, cum Trotskyist  
 iconography
+
+---------
 
 Just sub a smoking  
 cumulonimbus, our work  
