@@ -593,7 +593,11 @@ Fact density: Asymptoting towards Smil
 
 __9.5/10__, to leave room for the finished book. (This was just a draft!!!!)
 
-See also: Gavin's review<!--TODO: link-->
+See also: [Gavin's review](https://www.goodreads.com/review/show/2670036848)
+
+<!--
+### Designing Data-Intensive Applications (Martin Kleppmann, 2017)
+-->
 
 LessWrong Annual Reviews
 -------------------------

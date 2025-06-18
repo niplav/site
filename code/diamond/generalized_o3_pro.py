@@ -232,4 +232,4 @@ def visualize_landscape(filled, title="Terrain Visualization",
     ax.set_box_aspect([1, 1, .5])
     plt.colorbar(plt.cm.ScalarMappable(cmap='plasma'),
                  ax=ax, shrink=.5, aspect=5, label='Height')
-    plt.show()
+    plt.savefig("./plot.png", dpi=150, bbox_inches='tight')
