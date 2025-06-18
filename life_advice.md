@@ -271,3 +271,4 @@ See Also
 
 * [Boring Advice Repository](https://www.lesswrong.com/posts/HEn2qiMxk5BggN83J/boring-advice-repository)
 * [Solved Problems Repository](https://www.lesswrong.com/posts/iTzvJ7kKK2TYJhYHB/solved-problems-repository)
+* [Helpful Life Advice (osmarks, 2024)](https://docs.osmarks.net/hypha/helpful_life_advice)
