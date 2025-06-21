@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-01-30, modified: 2024-01-30, language: english, status: draft, importance: 5, confidence: certain*
+*author: niplav, created: 2024-01-30, modified: 2025-06-20, language: english, status: draft, importance: 5, confidence: certain*
 
 > __I collect [civilizational
 inadequacies](https://www.lesswrong.com/s/oLGCcbnvabyibnG9d/p/yPLr2tnXbiFXkMWvk)
@@ -30,12 +30,10 @@ Some Civilizational Inadequacies
 			* Any costs from increased numbers of crashes.
 			* Increased crash probabilities from higher cognitive load.
 		* Further relevant numbers
-			* It seems like automatic cars [are now *more* fuel efficient than manual ones](https://20somethingfinance.com/manual-transmission-savings/), at ~\$60 per 1000 kilometers.<!--TODO: maybe use http://www.fueleconomy.
-gov/ -->
+			* It seems like automatic cars [are now *more* fuel efficient than manual ones](https://20somethingfinance.com/manual-transmission-savings/), at ~\$60 per 1000 kilometers.<!--TODO: maybe use http://www.fueleconomy.gov/ -->
 			* On the other hand, automatic gearshifting mechanisms [are far more expensive to repair](https://www.fbfs.com/learning-center/automatic-vs-manual-cars-costs-to-consider), at a cost of ~\\$2k-\\$4k, whereas manual transmission replacement costs ~\\$1.5k-\\$3k.
 			* Additionally, [this page](https://20somethingfinance.com/manual-transmission-savings/) states that manual cars are still ~\\$1k cheaper than automatic ones.
 			* The world produces about [100 mio. cars per year](https://en.wikipedia.org/wiki/Car_production#World_motor_vehicle_production).
-* Non-velcro shoes.
 * Courses at university are not 3blue1brown + Q&A + extensive quizzes (or automated tutoring à la DARPA).
 * TSA security theater.
 * A lot of terminology in mathematics, for example using "numerator"/"denominator" instead of "upper number"/"lower number" when talking about [fractions](https://en.wikipedia.org/wiki/Fraction) (which would be vastly easier to understand/remember *and* in one case even has fewer syllables).
@@ -44,6 +42,34 @@ gov/ -->
 * Instead of writing Bachelor's theses, students could simply improve or write Wikipedia articles or replicate one or more papers in the field.
 * Most likely recycling.
 * [Pennies](https://en.wikipedia.org/wiki/Penny_debate_in_the_United_States), 1-cent and 2-cent coins (still present despite [a plurality of citizens in *all eurozone countries* being in favor of abolishing the 1-cent coin](https://europa.eu/eurobarometer/surveys/detail/2291))
+
+### Non-Velcro Shoes
+
+Velcro shoes are faster to close/open than shoes with shoelaces (I'd
+guess ~4 seconds vs. 20 seconds for closing), but velcro is slightly
+more expensive to produce (my gut guess is that it's not much, maybe a
+dollar more?) and current aesthetic sensibilities speak against it.
+
+With [a squiggle model](https://squigglehub.org/models/niplav/shoelaces)
+based on an AI-generated model, I estimate that the annual benefit
+of switching to velcro shoes would be worth \\$80B in expectation
+(5th/50th/95th percentile: \\$-34B, \\$66B, \\$260B), assuming that
+aesthetic costs are on average \\$10/year, and normally distributed.
+
+![](./img/inadequacies/net_benefit.png)
+
+A breakdown of the different types of costs reveals that manufacturing
+costs are mostly negligible:
+
+![](./img/inadequacies/different_costs.png)
+
+Aesthetic costs exceeding \$25/person-year render the mean & median
+value of switching to velcro negative. My hunch is that if humanity *did*
+switch, velcro shoes would become at least aesthetically neutral within
+a decade<sub>45%</sub>, plausibly being regarded as coller/more beautiful
+than shoes with shoelaces<sub>30%</sub>.
+
+Relevant further question: Does velcro break more quickly/easily?
 
 ### Fragile Tableware
 
@@ -65,7 +91,6 @@ cups) has a thermal conductivity of ~100 `$\frac{W}{K \cdot m}$` at
 enjoyable to eat. However, we don't *have* to be stupid about this:
 plastics lose heat even more slowly than porcelain (generally with
 thermal conductivities <1).
-
 
 __Æsthetics__: The other advantage of porcelain and glass is that they
 just *look so much nicer*. I don't have any strong rejoinders here,
@@ -97,7 +122,7 @@ Turing.jl:
         4.00195809996674e7
         gui(histogram(total_cost_per_day, label="samples", xlabel="cost", ylabel="number of samples"))
 
-![](./img/civilizational_inadequacies/tableware_jl.png)
+![](./img/inadequacies/tableware_jl.png)
 
 And using [squigglepy](https://github.com/rethinkpriorities/squigglepy):
 
@@ -115,7 +140,7 @@ And using [squigglepy](https://github.com/rethinkpriorities/squigglepy):
 	np.mean(total_cost_per_day)
 	40423162.50675405
 
-![](./img/civilizational_inadequacies/tableware_sq.png)
+![](./img/inadequacies/tableware_sq.png)
 
 This is a clear case of where [estimational
 programming](https://forum.effectivealtruism.org/posts/t6FA9kGsJsEQMDExt/what-is-estim

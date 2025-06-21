@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-04, modified: 2025-04-25, language: english, status: in progress, importance: 7, confidence: certain*
+*author: niplav, created: 2023-01-04, modified: 2025-06-20, language: english, status: in progress, importance: 7, confidence: certain*
 
 > __There are too many possible quantified self experiments to run. Do
 hobbyist prediction platforms[^1] make priorisation easier? I test
@@ -302,9 +302,8 @@ I can now score the market:
 
 Honestly: The market did pretty well.
 
-<!--
-0.202 Bits of Evidence For Futarchy… And Then -0.505 Bits
-------------------------------------------------------------
+0.864 Bits of Evidence for Futarchy
+------------------------------------
 
 So, [I put up some prediction markets on the results of quantified
 self RCTs](./platforms.html#Table_of_Current_Market_Status). I [ran
@@ -314,100 +313,6 @@ market](./platforms.html#Scoring_the_Market) on the results.
 How much should the performance of the market change our opinion about
 the viability of using prediction platforms to predict RCTs, and thus be
 plausibly useful in selecting experiments to run and actions to perform?
-
-We can define the maximum entropy distribution
-(our prior on how good [causal Futarchy markets should
-be](https://dynomight.net/prediction-market-causation/)) over possible
-log scores as having the mean of the log score of random forecasts,
-namely -0.6931…
-
-The [maximum entropy
-distribution](https://en.wikipedia.org/wiki/Maximum_entropy_distribution)
-for a given mean on the positive
-[reals](https://en.wikipedia.org/wiki/Real_Numbers) is the [exponential
-distribution](https://en.wikipedia.org/wiki/Exponential_distribution).
-
-The exponential distribution is defined by one parameter, which is
-`$\lambda=\frac{1}{μ}$` (the mean of the distribution), in this case
-`$\lambda=\frac{1}{0.6931} \approx 1.4427$` (for convenience flipping
-the distribution to be defined over positive reals). The sign-flipped
-logscore observed for the Pomodoro method market was 0.3258, and the
-logscore observed for the Vitamin D₃ experiment was 0.333.
-
-To calculate the bits of evidence we got from
-running the market, we calculate the [information
-gain](https://en.wikipedia.org/wiki/Information_gain), the bits of
-evidence are calculated by log₂(posterior odds / prior odds).
-
-### First Experiment: Pomodoro
-
-The logscore observed for the Pomodoro method market is ≈0.326;
-after the first experiment, we can update our posterior distribution to
-`$\text{Exponential}(λ_1)$` where `$λ_1 = λ_0 + 1/x_1 = 1.4427 +
-1/0.326 \approx 4.51$`.
-
-The bits of evidence we gain from this first experiment then are:
-
-<div>
-	$$\log_2 \frac{(4.51 \cdot \exp(-4.51 \cdot 0.326))}{(1.4427 \cdot \exp(-1.4427 \cdot 0.326))} \approx \\
-	\log_2(1.15 / 0.9) \approx \\
-	0.202$$
-</div>
-
-That's a promising result — the market performs better than random
-guessing, leaving us about 0.2 bits of evidence in favor of futarchy.
-
-### Second Experiment: Vitamin D₃
-
-The logscore observed for the Vitamin D₃ market is ≈0.333. Our updated
-posterior becomes `$\text{Exponential}(λ_2)$` where `$λ_2 = λ_1 +
-1/x_2 = 4.51 + 1/0.333 \approx 7.51$`.
-
-The bits of evidence from this second experiment, relative to our updated
-beliefs after the first experiment, are:
-
-<div>
-	$$\log_2 \frac{(7.51 \cdot \exp(-7.51 \cdot 0.333))}{(4.51 \cdot \exp(-4.51 \cdot 0.333))} \approx \\
-	\log_2(0.605 / 0.785) \approx \\
-	-0.707$$
-</div>
-
-…what?
-
-This gives us negative evidence, despite the market still performing
-better than random guessing. According to Claude, happens because our
-expectations were raised so high by the first experiment (to expect
-logscores around 0.22) that the second experiment's performance (0.333)
-fell short of these elevated expectations.
-
-### Total Evidence
-
-Combining both pieces of evidence sequentially gives us:
-
-<div>
-	$$0.202 + (-0.707) \approx -0.505 \text{ bits}$$
-</div>
-
-If we had waited to update our beliefs until after both experiments were complete, we would instead calculate:
-
-<div>
-	$$\log_2 \frac{(7.51^2 \cdot \exp(-7.51 \cdot (0.326+0.333)))}{(1.4427^2 \cdot \exp(-1.4427 \cdot (0.326+0.333)))} \approx \\
-	\log_2(0.399 / 0.804) \approx \\
-	-1.01$$
-</div>
-
-This is somewhat counterintuitive: both markets performed much better
-than random guessing (logscores of -0.326 and -0.333 vs. -0.693), yet our
-evidence calculation shows negative bits. This reflects a limitation in
-our aggressive Bayesian updating rather than poor market performance.
-
-This is mostly due to Bayesianism, not due to worse performance;
-Bayesianism just really likes to update a bit too hard and then back
-down as more evidence rolls in.
-
-If I wanted better estimates for the true capabilities of prediction
-markets for selection experiment, I'd need to run more experiments.
--->
 
 Acknowledgements
 -----------------
