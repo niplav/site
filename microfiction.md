@@ -89,7 +89,7 @@ that you'll know it was by accident
 
 ### The Arbitrary and The Open Sky
 
-(not mysticism)
+(not mysticism)<!--Maybe mysticism-adjacent?-->
 
 #### The Arbitrary
 
@@ -127,10 +127,13 @@ Something new.
 'Heat' wasn't motion until kinetic theory. 'Space' wasn't curved until general relativity.
 
 [Some Unattractive Meta-Ethical Positions, Free to a Good Home (Cosma Shalizi, 2024)](http://bactra.org/notebooks/some-meta-ethical-positions.html)
-[Zombie is to Human as Human is to XXX? (Eric Schwitzgebel, 2025)](https://schwitzsplinters.blogspot.com/2025/02/zombie-is-to-human-as-human-is-to-xxx_26.html)
+[Zombie is to Human as Human is to XXX? (Eric Schwitzgebel, 2025)](https://schwitzsplinters.blogspot.com/2025/02/zombie-is-to-human-as-human-is-to-xxx_26.html)  
+[The Thingness of Things (Tsvi Benson-Tilsen, 2022)](https://tsvibt.blogspot.com/2022/08/the-thingness-of-things.html)
 
 X, Not X, Neither X nor Not X, Neither X nor Not X nor (Neither X nor Not X), and so on.  
+
 Ontological cluelessness.  
+
 Our basic understanding just isn't there yet. We're barking up the wrong tree. In the wrong forest. In the wrong biome.  
 
 ----

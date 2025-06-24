@@ -81,9 +81,9 @@ def diamond_rec(space, size, offsets, stitch_dim, noise_lo, noise_hi, rng,
     inside the cube described by `size` and `offsets`.
     """
     dim = space.ndim
+
     if subdim is None:
         subdim = dim
-
     if subdim <= stitch_dim:
         return
 

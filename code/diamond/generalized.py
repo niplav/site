@@ -41,7 +41,7 @@ def corners_and_centers(dim, subdim, size, offsets):
 	return corners
 
 def diamond_rec(space, size, offsets, stitch_dim, minval, maxval, factor, subdim=None):
-	dim=len(space.shape)
+	dim=space.ndim
 
 	if subdim==None:
 		subdim=dim
