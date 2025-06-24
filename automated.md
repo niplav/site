@@ -37,8 +37,21 @@ There are different perspectives on this.
 
 [Clymer
 2025](https://www.lesswrong.com/posts/TTFsKxQThrqgWeXYJ/how-might-we-safely-pass-the-buck-to-ai)
-suggests to train AIs that imitate human alignment researchers. His
-proposal lacks some detail, namely on whether one __trains against
+suggests to train AIs that imitate human alignment researchers.
+
+Clymer suggests a method of checking AI systems by letting them replicate
+the output of the AI alignment community from a specific period; excluding
+training data from that period from the training data, and then checking
+if the automated alignment researchers make similar findings to the
+alignment community. This method is quite powerful, as it replicates the
+progress made by the *entire* research field, including interactions
+between researchers. But it also requires extensive cleaning of the
+training data, interventions in the training process, and consists only
+of a single data-point, replicating "fads" researchers get infatuated
+by.<!--Mention linear probes (Burns), SAEs, decision theory?-->
+
+In smaller-scale experiments, Clymer isn't as clear about the
+procedure. There are two variants, namely whether one __trains against
 alignment researcher feedback__ or __trains against alignment researcher
 behavior__.
 

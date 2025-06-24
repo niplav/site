@@ -314,6 +314,48 @@ How much should the performance of the market change our opinion about
 the viability of using prediction platforms to predict RCTs, and thus be
 plausibly useful in selecting experiments to run and actions to perform?
 
+Output of the script:
+
+	=== MCMC Bayesian Analysis ===
+	Data: [0.326 0.333]
+	Model: distances ~ HalfNormal(σ)
+
+	Initializing NUTS using jitter+adapt_diag...
+	Multiprocess sampling (4 chains in 2 jobs)
+	NUTS: [sigma]
+
+	  Progress                                   Draws   Divergences   Step size   Grad evals   Sampling Speed    Elapsed   Remaining
+	 ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+	  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   3000    0             1.12        7            1112.32 draws/s   0:00:02   0:00:00
+	  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   3000    0             0.75        7            1127.34 draws/s   0:00:02   0:00:00
+	  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   3000    0             0.54        3            556.78 draws/s    0:00:05   0:00:00
+	  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   3000    0             0.78        3            560.21 draws/s    0:00:05   0:00:00
+
+	Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 5 seconds.
+	Posterior summary:
+	        mean     sd  hdi_3%  hdi_97%  mcse_mean  mcse_sd  ess_bulk  ess_tail  r_hat
+	sigma  0.435  0.195   0.151    0.795      0.004    0.004    2593.0    2976.0    1.0
+
+	Posterior mean σ: 0.435
+
+	vs Null σ = 0.7:
+	  Log likelihood (adaptive): 0.639
+	  Log likelihood (null): 0.040
+	  Evidence: 0.86 bits
+	  Bayes factor: 1.8:1 in favor of adaptive
+
+
+	=== Final Summary ===
+	Posterior mean σ: 0.435
+	95% credible interval: [0.153, 0.833]
+
+	Strongest evidence: 0.864 bits
+	(vs null hypothesis σ = 0.7)
+
+![](./img/platforms/update.png)
+
+<!--TODO: resize image-->
+
 Acknowledgements
 -----------------
 

@@ -45,6 +45,8 @@ Some Civilizational Inadequacies
 
 ### Non-Velcro Shoes
 
+<!--TODO: Add slip-on shoes-->
+
 Velcro shoes are faster to close/open than shoes with shoelaces (I'd
 guess ~4 seconds vs. 20 seconds for closing), but velcro is slightly
 more expensive to produce (my gut guess is that it's not much, maybe a

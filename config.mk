@@ -40,6 +40,7 @@ HTML=index.html \
 	99_problems_collection.html \
 	99_problems_klong_solution.html \
 	against_applause.html \
+	automated.html \
 	awesome.html \
 	bandit.html \
 	bcis_and_alignment.html \

@@ -135,7 +135,6 @@ if __name__ == "__main__":
 
     print(f"\nStrongest evidence: {bits:.3f} bits")
     print(f"(vs null hypothesis σ = 0.7)")
-    print(f"\n🎯 For your title: '{bits:.3f} Bits of Evidence for Futarchy'")
 
     # Show plot
     plot_analysis(trace, distances)

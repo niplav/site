@@ -2592,7 +2592,7 @@ websites+assets to read at some later point.
 No great solution for LLMs (yet…), all the ones I can run on my
 laptop are not good enough—maybe I should bite the bullet and get a
 GPU/[digits](https://www.theverge.com/2025/1/6/24337530/nvidia-ces-digits-super-computer-ai)
-that can run of the big LLaMas/DeepSeek V3 locally.
+that can run Gemma 27b/DeepSeek V3 locally.
 
 [^elaboration]: For >3 years now. The benefits reduce after a while as homeostasis kicks in (e.g. moving sleeping times back by ~4 hrs got halved to ~2 hrs), but it's still net positive: I used to lose ≥4½ hrs to random aimless websurfing, now it's only about one. Not all time gained is spent productively, I still randomly click through articles of the local Wikipedia copy, but that feels much less unproductive than watching YouTube videos.
 [^others]: Website blockers like browser extensions, e.g. LeechBlock, are too easy to turn off (especially since I have complete control over my OS). Accountability didn't work well either. Behavioral interventions (like exercising/meditation/whatever) did ~nil.
@@ -2683,7 +2683,7 @@ faster than environmental pressures degrade them, and reliably pay
 attention to important stimuli in their environment, then there are
 important implications for the future of the accessible universe;
 pain turns optional, aging and death are avoidable, the future may not
-have to become Malthusian, and even thriving planned economies may be
+have to become Malthusian, and even thriving planned economies could be
 possible.
 
 On the flip side, if no such error-correction and reliable attention
@@ -2697,6 +2697,10 @@ inherent preference for change and dynamism of course endorse the latter;
 one worry I have is that in the former view philosophical and moral
 progress gets locked in too early because locking in is an easy action).
 
+<!--TODO: Anything with the "/acc" postfix looks at the hypothesis
+of error-correction, purses its lips, and snarls a disgusted "no"
+into view.-->
+
 [^balance]: Though also equally large amounts of pleasure, balancing it out.
 
 Indicators that error correction is possible as a replacement backstop:
@@ -2707,19 +2711,33 @@ Indicators that error correction is possible as a replacement backstop:
 * Reasoning models, iterated distillation and amplification
 * Error-correcting codes
 * Joe Cameron
+* The Catholic Church
 
 Indicators that there is no replacement for evolution:
 
-* Communism hasn't worked yet<!--TODO: link Shalizi on complexity of planned economies-->
-	* Not sure how far Project CyberSyn got before Pinochet broke the party.
+* Communism hasn't worked [yet](http://bactra.org/weblog/918.html).
+	* Not sure how far [Project CyberSyn](https://en.wikipedia.org/wiki/Cybersyn) got before Pinochet broke the party.
 	* Maybe the problem with real-world communism wasn't that it didn't work, even in theory, it was that they didn't have computers that were big enough.
 	* Another instance was that Stalin didn't listen to the planned economy with Kantorovich.
 * Scruffy AI won out over neat AI.
+* Neither aging nor Lindy effect for civilizations.<!--See Grand Futures-->
+* Organisms die
+* Transposons, cancer <!--TODO: Look at post by Elmore again-->
+* No coalition-incentive-compatible mechanisms under vNM
+
+Has nature ever found the concept of [parity
+bits](https://en.wikipedia.org/wiki/Parity_Bit)/[error
+detection and correction
+codes](https://en.wikipedia.org/wiki/Error_Detection_and_correction)?
+It has found the concept of
+[redundancy](https://en.wikipedia.org/wiki/Redundancy_\(information_theory\)),
+in [genes](https://en.wikipedia.org/wiki/Gene_Redundancy) and
+[cytokines](https://en.wikipedia.org/wiki/Cytokine_redundancy).
 
 Written While Riding the BART for the First Time
 --------------------------------------------------
 
-Moved [here](./microfiction#Written_While_Riding_the_BART_for_the_First_Time).
+Moved [here](./microfiction.html#Written_While_Riding_the_BART_for_the_First_Time).
 
 Flossing Experiments
 ---------------------
