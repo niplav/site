@@ -700,7 +700,6 @@ Words
 * "gradientspawn"
 * "moleFLOP"
 * "ClopenDeepThropic"
-* "kurtentropy"
 
 #### Switcheroos
 

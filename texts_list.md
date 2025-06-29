@@ -17,6 +17,16 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [When should we worry about AI power-seeking? (Joe Carlsmith, 2025)](https://www.lesswrong.com/posts/QyaJQ82FSsKXrvj7t/when-should-we-worry-about-ai-power-seeking)
+* [Cytokine redundancy (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Cytokine_redundancy)
+* [What is it to solve the alignment problem? (Joe Carlsmith, 2025)](https://www.lesswrong.com/posts/syEwQzC6LQywQDrFi/what-is-it-to-solve-the-alignment-problem-2)
+* [How do we solve the alignment problem? (Joe Carlsmith, 2025)](https://www.lesswrong.com/posts/fMqgLGoeZFFQqAGyC/how-do-we-solve-the-alignment-problem)
+* \* Avoiding the Worst (Tobias Baumann, 2022)
+* AI deception: A survey of examples, risks, and potential solutions (Peter S. Park/Simon Goldstein/Aidan O'Gara/Michael Chen/Dan Hendrycks, 2024)
+* [Conditional prediction markets are evidential, not causal (philh, 2024)](https://www.lesswrong.com/posts/vrEA6taJZtSoQbyPA/conditional-prediction-markets-are-evidential-not-causal)
+* [Comment on "Futarchy Fix" (Stuart Armstrong, 2017)](https://www.lesswrong.com/posts/5bd75cc58225bf0670375432/futarchy-fix?commentId=5bd75cc58225bf0670375438)
+* [Comment on "Futarchy Fix" (Paul Christiano, 2017)](https://www.lesswrong.com/posts/5bd75cc58225bf0670375432/futarchy-fix?commentId=5bd75cc58225bf0670375436)
+* [Comment on "Futarchy Fix" (Scott Garrabrant, 2017)](https://www.lesswrong.com/posts/5bd75cc58225bf0670375432/futarchy-fix?commentId=5bd75cc58225bf0670375435)
 * [Futarchy Fix (Abram Demski, 2017)](https://www.lesswrong.com/posts/5bd75cc58225bf0670375432/futarchy-fix)
 * [Automation collapse (Geoffrey Irving/Tomek Korbak/Benjamin Hilton, 2024)](https://www.lesswrong.com/posts/2Gy9tfjmKwkYbF9BY/automation-collapse)
 * [Beliefs and Disagreements about Automating Alignment Research (Ian McKenzie, 2022)](https://www.lesswrong.com/posts/JKgGvJCzNoBQss2bq/beliefs-and-disagreements-about-automating-alignment)
