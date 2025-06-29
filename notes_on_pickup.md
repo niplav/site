@@ -704,4 +704,7 @@ Public Transport Has Bad Vibes
 
 Doing Cold Approach Every Day Is Pretty Powerful
 -------------------------------------------------
+
+On Hot Days A Liter of Orange Juice At The Start of a Session
+--------------------------------------------------------------
 -->

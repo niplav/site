@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-05-26, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-06-25, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1986,11 +1986,34 @@ Given a [sequence](https://en.wikipedia.org/wiki/Sequence_(mathematics))
 `$(V_1, \dots, V_{n+1})$` of sets, and a sequence `$(f_1, \dots, f_n)$`
 of functions so that `$f_i: V_i \rightarrow \mathcal{P}(V_{i+1})$`, the
 __sevolution__ of a directed graph `$G=(V_1, E_1)$` (with `$E_1 \subseteq
-V_1 \times V_2$`) is sequence of graphs `$(G_1, \dots, G_{n+1})$` so
+V_1 \times V_2$`) is *sequence of graphs* `$(G_1, \dots, G_{n+1})$` so
 that `$(v, w) \in E_{k+1}$` if and only if `$(v_i, w_i) \in E_i$` and
 `$v \in f_i(v_i), w \in f_i(w_i)$`.
 
-<!--TODO: weighted graph sevolution-->
+Similarly, given a similar sequences of sets and functions, the
+__weighted sevolution__ of an edge-weighted directed graph `$W=(V_1, E,
+w_1: E \rightarrow \mathbb{R})$` is a sequence of edge-weighted directed
+graphs `$(W_1, \dots, W_{n+1})$` so that the underlying graphs are the
+sevolutions of `$W$`.
+
+The weights are determined by the __weight sevolver function__
+`$\kappa: \mathbb{R}^+ \rightarrow \mathbb{R}$` of the edges between
+the previous nodes that sevolved into the current nodes. That is:
+
+<!--TODO: below is a bit confused with indices in the list and indices
+in the sevolution. Clean up!-->
+
+<div>
+	$$w_{i+1}(e_{i+1})=\\
+	w_{i+1}((v_{i+1}, v_{i+1}'))=\\
+	\kappa([w_i(e_i) | e_i=(v_i, v_i') \land f_i(v_i)=v_{i+1} \land f_i(v_i')=v_{i+1}'])$$
+</div>
+
+The weight sevolver function can be any arbitrary function of
+arbitrary-length lists of reals, but a common case could be to set
+`$\kappa([w_i]_l)=\sum_{j=0}^l [w_i]_j$`.
+
+It's plausible that by now the dear reader is hoping for some pictures.
 
 How Often Does Taking Away Options Help?
 -----------------------------------------

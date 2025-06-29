@@ -466,7 +466,7 @@ We can test whether such words exist via gensim word2vec embeddings:
 * {[Selection, Control](https://www.lesswrong.com/posts/ZDZmopKquzHYPRNxq)} × {[search, design](https://www.lesswrong.com/posts/r3NHPD3dLFNk9QE2Y/search-versus-design-1)}
 * {usually wrong, usually right}×{quick to update, slow to update}
 * {accurate, inaccurate}×{precise, imprecise}
-* {taste, slop}×{cringe, based}×{hinged, unhinged}
+* {cringe, based}×{hinged, unhinged}×{taste, slop}
 
 Great Words
 ------------
