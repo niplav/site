@@ -1,21 +1,15 @@
 start	end	text
 0	5000	To begin with, I wanted to get a clearer idea of the context of both of these.
-5000	12000	Okay, so specifically the complexity prior and the homoesthetic prior?
+5000	12000	Okay, so specifically the complexity prior and the homoeostatic prior?
 12000	15000	No, the complexity prior and the supercooperation cluster.
 15000	19000	So it turns out that you said humanity is grappling with the Darwin meme.
 19000	20000	Yes.
-20000	27000	And these seem to be the only two things that even remotely, I don't know,
-27000	31000	but the vibe I got was that seemed to have the heft to deal with it.
-31000	32000	Okay, yeah.
+20000	27000	And the vibe I got was that these seem to be the only two things that even remotely the heft to deal with it.
 32000	38000	So the way I put it is that I see most people as doing one of two things.
 38000	41000	They're either sort of like reaching up from the bottom.
-41000	45000	So it's like if you start off with a materialist reductionist sort of stance,
-45000	48000	then you're kind of trying to recreate all of our meaning structures.
-48000	50000	You're trying to like bridge that is-aught gap.
+41000	45000	So it's like if you start off with a materialist reductionist sort of stance, then you're kind of trying to recreate all of our meaning structures. You're trying to like bridge that is-ought gap.
 50000	52000	It's like, okay, we have all this stuff that is going on.
-52000	53000	And then we're trying to...
 53000	54000	They start from the is.
-54000	55000	Yeah, they start from the is.
 55000	56000	They try to get to the ought.
 56000	60000	They all start from the ought, sort of ex-nilo.
 60000	63000	They come up with a lot of wacky stuff that's just...

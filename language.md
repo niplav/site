@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2025-04-20, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2026-06-30, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __This page is a grab-bag of [puns](#Puns), [good
 bandnames](#Good_Bandnames), [types of guy](#Types_of_Guy), idioms,
@@ -419,6 +419,7 @@ Equivalences
 	* Transposons<!--maybe meiotic drive in general?--> : organisms :: [human resources](https://en.wikipedia.org/wiki/Human_Resources) : corporations
 	* Prions : organisms :: ? : corporations
 	* Mis-reporting profit<!--Maybe just a type of fraud?--> : markets :: [gradient hacking](https://www.lesswrong.com/posts/uXH4r6MmKPedk8rMA) : neural network training :: [meiotic drive : evolution](https://forum.effectivealtruism.org/posts/qX6swbcvrtHct8G8g/genes-did-misalignment-first-comparing-gradient-hacking-and)<!--TODO: differentiate [demons](https://arbital.com/p/daemons/) and [mesa-optimizers]](https://www.lesswrong.com/s/r9tYkB2a8Fp4DN8yB/p/q2rCMHNXazALgQpGH) in optimization, former is like transposons/meiotic drive, latter doesn't quite exist? Then also how do these map to within-organization/within-market stuff? Differentiate between being beneficial/detrimental to the super-organism?-->
+* moral panics : mass media :: apocalypse panics :: elite networks
 * Editors : Wikipedia :: hot women : dating apps
 * LLMs : Pre-training : Fine-Tuning : RLHF : Constitutional AI :: Humans : Predictive Processing : Selective Attention : Reinforcement Learning : Cultural Learning
 * David Gerard : Eliezer Yudkowsky :: Lucifer : God :: Émile Torres : William MacAskill :: Melkor : Eru Illúvatar
