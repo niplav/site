@@ -373,6 +373,12 @@ Date ratios:
 And this one:
 
 https://old.reddit.com/r/seduction/comments/9ock2a/my_daygame_experience_so_far_statistics_and/
+
+https://gringodaygame.wordpress.com/2024/12/16/2000-and-still-counting/
+
+https://thefurnacesofdaygame.wordpress.com/
+
+https://coffeedaygame.wordpress.com/2025/06/16/my-2025-daygame-stats-climbing-mount-improbable/
 -->
 
 ### Estimating Parameters

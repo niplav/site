@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2025-01-19, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2025-06-30, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav. It contains texts on different topics,
 including (but not limited to) forecasting, existential risk, computer
@@ -57,6 +57,7 @@ you’d like to forward
 * [Model Expansion and AI Alignment](./expansion.html)
 * [Avoiding Wireheading via Convergent Interventional Avoidanceⁿ](./wireheading.html)
 * [Too Good to be True: Training an RL Agent to be Suspicious](./suspicious.html)
+* [Automated AI Alignment Research](./automated.html)
 
 ##### Strategy
 

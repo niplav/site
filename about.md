@@ -487,6 +487,15 @@ on here but don't want to be), [contact me](#Contact).
 <!--TODO: add 1a3orn, Alex K. Chen, Burny?-->
 <!--[Sam Harsimony](https://splittinginfinity.substack.com/), [Wordpress](https://harsimony.wordpress.com/): Polymath.-->
 
+### Dedication
+
+This website is dedicated to **goodness**, [coherently
+extrapolated](./cs/ai/alignment/cev/coherent_extrapolated_volition_yudkowsky_2004.pdf),
+[wisely](https://tsvibt.blogspot.com/2023/11/what-is-wisdom.html) bounded,
+[cluefully](https://forum.effectivealtruism.org/s/yuajpvCMjpjKNngep/p/H3nQyu8P8tqhNxxoS)
+understood, *fully instantiated as
+[Utopia](https://nickbostrom.com/utopia.html) for all beings that matter*.
+
 The Author
 ----------
 
