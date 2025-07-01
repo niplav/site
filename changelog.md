@@ -28,6 +28,13 @@ June 2025
 
 * Microfiction
 	* [The Arbitrary and The Open Sky](./microfiction.html#The_Arbitrary_and_The_Open_Sky)
+* Civilizational Inadequacies
+	* [Shoes with Shoelaces](./inadequacies.html#Shoes_with_Shoelaces)
+
+### Links
+
+* [Cytokine redundancy (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Cytokine_redundancy)
+* [Futarchy Fix (Abram Demski, 2017)](https://www.lesswrong.com/posts/5bd75cc58225bf0670375432/futarchy-fix)
 
 May 2025
 ---------

@@ -25,7 +25,7 @@ other sites.
 		* [Dynomight](https://dynomight.net/)
 		* [Gavin Leech](https://www.gleech.org)
 		* [1a3orn](https://1a3orn.com/)
-		* [210ethan](https://210ethan.github.io)
+		* [nomagicpill](https://nomagicpill.github.io)
 	* [Quanta Magazine](https://www.quantamagazine.org/)
 * Rationality
 	* [Everything Studies](https://everythingstudies.com/)

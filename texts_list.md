@@ -17,6 +17,8 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Article 5: Prohibited AI Practices (European Commission, 2025)](https://artificialintelligenceact.eu/article/5/)
+* \* Das Jahr 2000 findet nicht statt (Jean Baudrillard, 1984)
 * [When should we worry about AI power-seeking? (Joe Carlsmith, 2025)](https://www.lesswrong.com/posts/QyaJQ82FSsKXrvj7t/when-should-we-worry-about-ai-power-seeking)
 * [Cytokine redundancy (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Cytokine_redundancy)
 * [What is it to solve the alignment problem? (Joe Carlsmith, 2025)](https://www.lesswrong.com/posts/syEwQzC6LQywQDrFi/what-is-it-to-solve-the-alignment-problem-2)

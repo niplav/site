@@ -43,7 +43,7 @@ Some Civilizational Inadequacies
 * Most likely recycling.
 * [Pennies](https://en.wikipedia.org/wiki/Penny_debate_in_the_United_States), 1-cent and 2-cent coins (still present despite [a plurality of citizens in *all eurozone countries* being in favor of abolishing the 1-cent coin](https://europa.eu/eurobarometer/surveys/detail/2291))
 
-### Non-Velcro Shoes
+### Shoes with Shoelaces
 
 <!--TODO: Add slip-on shoes-->
 

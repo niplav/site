@@ -30,9 +30,10 @@ Data Collection
 ----------------
 
 At the moment I'm not collecting much data beyond [what
-I usually gather](./data.md), and running [one RCT on
-Vitamin-D₃](./nootropics.html#Experiment_C_SelfBlinded_RCT) and one
-RCT on [lumenators](https://arbital.com/p/lumenators/).
+I usually gather](./data.md), and running and one RCT on
+[lumenators](https://arbital.com/p/lumenators/). Soon
+I'm going to start collecting data for our [Orexin-A
+experiment](https://manifund.org/projects/orexin-pilot-experiment-for-reducing-sleep-need).
 
 Programming
 -----------
@@ -53,7 +54,6 @@ Currently, I am actively reading the following texts:
 * [Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)](https://statisticswithjulia.org/)
 * [Coming to Wholeness (Connirae Andreas, 2018)](https://www.goodreads.com/book/show/42348332-coming-to-wholeness)
 * [The Native Tribes of Central Australia (Baldwin Spencer/Francis James Gillen, 1899)](https://www.goodreads.com/book/show/68126748-the-native-tribes-of-central-australiar)
-* The Failure of Risk Management (Douglas W. Hubbard, 2009)
 * ML for the Working Programmer (Lawrence C. Paulson, 1996)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
-* The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 5/1000.
+* The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 6/1000.
