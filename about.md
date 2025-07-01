@@ -489,7 +489,9 @@ on here but don't want to be), [contact me](#Contact).
 
 ### Dedication
 
-This website is dedicated to **goodness**, [coherently
+This website is dedicated to
+[**betterness**](https://meditationstuff.wordpress.com/2020/07/14/better/),
+[coherently
 extrapolated](./cs/ai/alignment/cev/coherent_extrapolated_volition_yudkowsky_2004.pdf),
 [wisely](https://tsvibt.blogspot.com/2023/11/what-is-wisdom.html) bounded,
 [cluefully](https://forum.effectivealtruism.org/s/yuajpvCMjpjKNngep/p/H3nQyu8P8tqhNxxoS)
