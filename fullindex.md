@@ -51,9 +51,9 @@ you’d like to forward
 
 ##### Technical
 
-* [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 * [Resolving von Neumann-Morgenstern Inconsistent Preferences](./resolving.html)
 	* Summary: [تهافت أنظمة الذكاء الاصطناعي](./tahafut.html)
+* [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 * [Model Expansion and AI Alignment](./expansion.html)
 * [Avoiding Wireheading via Convergent Interventional Avoidanceⁿ](./wireheading.html)
 * [Too Good to be True: Training an RL Agent to be Suspicious](./suspicious.html)
@@ -65,6 +65,7 @@ you’d like to forward
 * [A TAI Race With China Can Be Better Than Not Racing](./china.html)
 * [On Discontinuous and Fast Takeoff](./foom.html)
 * [Patching ~All Security-Relevant Open-Source Software?](./patching.html)
+* [Anti-Superpersuasion Interventions](./persuasion.html)
 
 #### Forecasting
 

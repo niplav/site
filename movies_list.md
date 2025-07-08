@@ -11,8 +11,9 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
-* Avatar: The Way of Water
-* Ride of the Rohirrim
+* [Cold War](https://en.wikipedia.org/wiki/Cold_War_\(2018_film\))
+* [Avatar: The Way of Water](https://en.wikipedia.org/wiki/Avatar_Way_of_Water)
+* [War of the Rohirrim](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_War_of_the_Rohirrim)
 * [F For Fake](https://en.wikipedia.org/wiki/F_for_Fake)
 * [Waltz with Bashir](https://en.wikipedia.org/wiki/Waltz_With_Bashir)
 * [The Man Who Knew Infinity](https://www.imdb.com/title/tt0787524/)

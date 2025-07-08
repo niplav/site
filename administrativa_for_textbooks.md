@@ -16,6 +16,53 @@ For flashcards, if I include the screenshot of an algorithm, the goal
 is not to learn the algorithm by heart in all detail, but have a good
 mental model of how it works.
 
+“Campbell Biology”
+-------------------
+
+“Artificial Intelligence: A Modern Approach”
+---------------------------------------------
+
+* [Flashcards](./flash/artificial_intelligence_a_modern_approach.apkg):
+	* p. 1-122
+	* p. 222-243 (missing: complexity of AC-3, special methods for global constraints)
+	* p. 254-280 (symbols in propositional logic not included)
+	* p. 305-335
+	* p. 342-355 (without the definition of a subsumption lattice)
+	* p. 357-359
+	* p. 365-370
+	* p. 500-544 (but not ENUMERATION-ASK)
+	* p. 586-601, but fixed-lag smoothing algorithms and formulae are missing
+	* p. 630-657 (although only the steps, but not the details of creating a decision network)
+	* p. 665-684 (conspicuously missing: contractions and the proof of the convergence of Bellman updates)
+	* p. 713-728
+	* p. 850-855
+* [Solutions to Exercises](./aima_solutions.md)
+	* Chapter 1: 1.1, 1.3-1.5
+	* Chapter 2: 2.1, 2.3-2.4
+	* Chapter 3: 3.1-3.2
+	* Chapter 6: 6.1, 6.5
+	* Chapter 7: 7.10, 7.14
+	* Chapter 9: 9.9
+	* Chapter 13: 13.1-13.3, 13.5-13.6
+	* Chapter 14: 14.1
+	* Chapter 15: 15.13, 15.14
+	* Chapter 16: 16.1, 16.3, 16.15, 16.17
+	* Chapter 17: 17.3
+* Read:
+	* p. 1-122
+	* p. 222-243
+	* p. 254-280
+	* p. 305-335
+	* p. 342-355
+	* p. 357-359
+	* p. 365-370
+	* p. 500-544
+	* p. 586-601
+	* p. 630-657
+	* p. 665-684
+	* p. 713-728
+	* p. 850-855
+
 “An Infinitely Large Napkin”
 -----------------------------
 
@@ -142,50 +189,6 @@ mental model of how it works.
 * Read:
 	* p. 1-14
 	* p. 37-40
-
-“Artificial Intelligence: A Modern Approach”
----------------------------------------------
-
-* [Flashcards](./flash/artificial_intelligence_a_modern_approach.apkg):
-	* p. 1-122
-	* p. 222-243 (missing: complexity of AC-3, special methods for global constraints)
-	* p. 254-280 (symbols in propositional logic not included)
-	* p. 305-335
-	* p. 342-355 (without the definition of a subsumption lattice)
-	* p. 357-359
-	* p. 365-370
-	* p. 500-544 (but not ENUMERATION-ASK)
-	* p. 586-601, but fixed-lag smoothing algorithms and formulae are missing
-	* p. 630-657 (although only the steps, but not the details of creating a decision network)
-	* p. 665-684 (conspicuously missing: contractions and the proof of the convergence of Bellman updates)
-	* p. 713-728
-	* p. 850-855
-* [Solutions to Exercises](./aima_solutions.md)
-	* Chapter 1: 1.1, 1.3-1.5
-	* Chapter 2: 2.1, 2.3-2.4
-	* Chapter 3: 3.1-3.2
-	* Chapter 6: 6.1, 6.5
-	* Chapter 7: 7.10, 7.14
-	* Chapter 9: 9.9
-	* Chapter 13: 13.1-13.3, 13.5-13.6
-	* Chapter 14: 14.1
-	* Chapter 15: 15.13, 15.14
-	* Chapter 16: 16.1, 16.3, 16.15, 16.17
-	* Chapter 17: 17.3
-* Read:
-	* p. 1-122
-	* p. 222-243
-	* p. 254-280
-	* p. 305-335
-	* p. 342-355
-	* p. 357-359
-	* p. 365-370
-	* p. 500-544
-	* p. 586-601
-	* p. 630-657
-	* p. 665-684
-	* p. 713-728
-	* p. 850-855
 
 “Causality”
 -----------
