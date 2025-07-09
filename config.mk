@@ -85,6 +85,7 @@ HTML=index.html \
 	mathematics_notation_convention.html \
 	metamodernistisches_manifest.html \
 	microfiction.html \
+	mop.html \
 	nootropics.html \
 	nuclear.html \
 	options.html \

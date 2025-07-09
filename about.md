@@ -600,6 +600,13 @@ school put me at ~110, which seems about right.
 [𝕏 archive](./doc/misc/tweets.txt) and my [schelling.pt
 archive](./doc/misc/toots.txt).)
 
+### In the Universal Prior
+
+If you're ever looking for me in the universal prior, I can be found
+very algorithmically close to the easily generated integer sequences
+[1, 2, 15, 180, 3638, …](./notes.html#Simple_Metagraphs) and [1, 1,
+1, 3, 28, 861, …](./resolving.html#Minimizing_GraphEdit_Distance_3)
+
 ### Contact
 
 Contact address is ([rot13ed](https://en.wikipedia.org/wiki/ROT13))

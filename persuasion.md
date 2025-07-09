@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2025-07-04, modified: 2025-07-07, language: english, status: notes, importance: 8, confidence: log*
+*author: niplav, created: 2025-07-04, modified: 2025-07-08, language: english, status: notes, importance: 8, confidence: log*
 
 > __.__
 
@@ -17,15 +17,78 @@ are. Words don’t work that way.
 
 ### Motivation
 
+Humanity will plausibly start interacting with mildly superhuman
+artificial intelligences in the next decade<sub>65%</sub>. Such
+systems [may have drives that cause them to act in ways we don't
+want](https://www.lesswrong.com/posts/8fpzBHt7e6n7Qjoo9/ai-risk-for-epistemic-minimalists),
+potentially causing [attempted
+self-exfiltration](https://metr.org/blog/2024-11-12-rogue-replication-threat-model/)
+from the servers they're running on. To do so, mildly superhuman AI
+systems have at least two avenues[^exfiltrate]:
+
+[^exfiltrate]: Wildly superhuman AI systems may have more exfiltration vectors, including side-channels through electromagnetic radiation from their GPUs, or novel physical laws humans have not yet discovered.
+
+1. Circumventing the computer security of the servers they're runnign on.
+2. Psychologically manipulating and persuading their operators to let them exfiltrate themselves (or otherwise do what the AI systems want them to do).
+
+Computer security is currently a large focus of AI model providers,
+because preventing self-exfiltration coincides well with preventing
+exfiltration by third parties, e.g. foreign governments, trying to steal
+model weights.
+
+However, superhuman persuasion[^terminology] has received less attention, mostly
+justifiedly: frontier AI companies are not training their AI systems to
+be more persuasive, whereas they *are* training their AI systems to be
+skilled software engineers; superhuman persuasion may run into issues of
+the heterogeneity, stochasticity and partial observability of different
+human minds, and there are fewer precedents of superhuman persuasion
+being used by governments to achieve their aims. Additionally, many
+people are incredulous at the prospect of superhuman persuasion.
+
+[^terminology]: From here on out also "superpersuasion".
+
+But given that superpersuasion is one of a few possible ways for AI
+systems to influence their environment according to their drives, too
+little attention has been paid to the issue. [Sycophancy by large language
+models](https://openai.com/index/sycophancy-in-gpt-4o/) is commonplace,
+and [large language models are becoming more persuasive with increasing
+scale](https://www.anthropic.com/news/measuring-model-persuasiveness). (I
+also find it plausible that providers like
+[Character.ai](https://en.wikipedia.org/wiki/Character.ai) or Meta
+are training their systems to be reinforced to have longer interaction
+lengths, making them more addictive, but I don't have definitive evidence
+for that<!--TODO: link 2h claim, AlphaRizz on twitter-->).
+
+AI developers and users will have to interact with increasingly
+persuasive and addictive systems<sub>70%</sub>, but most of
+the thinking on how to interact with superpersuasive sources
+of information has come from fiction. Exceptions include [Kori
+2025](https://markelkori.substack.com/p/methods-of-defense-against-agi-manipulation)
+and [Davidson 2023]()<!--TODO: read & link!-->. [Kori
+2025](https://markelkori.substack.com/p/methods-of-defense-against-agi-manipulation)
+is a useful first stab at defining some simple interventions, but I
+wanted to sketch a slightly more detailed list of interventions, similar
+to [AI Control protocols]()<!--TODO: link-->.<!--TODO: also relevant:
+Bostrom on infohazards. Not much follow-up there?-->
+
+I am not going to attempt to convince people that superhuman persuasion
+abilities are possible, and indeed focus on trying to sketch what
+anti-persuasion measures could look like.
+
 ### Assumptions
 
-* __Difficult Detection__: Persuasion/manipulation/addiction can't easily be detected.
-* No "infectious" memes/egregores that jump from person to person
+* __Difficult Detection__: Persuasion/manipulation/addiction can't easily be detected either by other humans or by automated systems.<!--TODO: is this true? Probably early persuasion is going to look pretty blatant. Also Pair-Prompting sort of relies on the opposite being the case-->
+* __Non-Infection__: No "infectious" memes/egregores that jump from person to person. So it's not possible for an AI system to produce some output that manipulates/persuades Alice, and then Alice successfully persuades Bob via a similar method that the AI persuaded Alice with, even though Alice didn't have that persuasive ability beforehand.
+	* An edge-case is information that Alice would be extremely compelled to share with as many people as possible.
 * __No One-Shotting__: Persuasion is not wildly superhuman, needs to be gradual, e.g. no ten words that convince someone to commit suicide.
+	* There are at least two different variants of superpersuasion, which form two ends of a spectrum:
+		* *Recognizable Persuasion*: AI systems build trust with users or developers, are charming and charismatic, report information selectively &c, only to use that trust later to subvert safeguards.
+		* *Adversarial Examples*: Human brains could have [adversarial inputs](https://en.wikipedia.org/wiki/Adversarial_input) similar to [optical illusions](https://en.wikipedia.org/wiki/Optical_Illusion) but for more general cognitive functions, which circumvent specific parts of the brain and cause others to be activated more than normally. If those exist, they could allow for a fast and potentially complete circumvention of conscious processing.
 
 ### Both Pre- and Post-Deployment
 
-* __Refraining From Training__: Don't build an advanced AI model that you suspect could have superhuman persuasive capabilities.
+* __Refraining From Training__: Don't build an advanced AI model that you suspect could have superpersuasive capabilities.
+* __Refraining From Deployment__: Don't deploy an advanced AI model that you suspect could have superpersuasive capabilities.
 * __Rephrasing__
 	* *Output Rephrasing*: Outputs by frontier models are rephrased by a weaker model, perhaps just initially (or when there are warning signs of manipulation/persuasion/addiction).
 	* *Input Rephrasing*: A weaker model paraphrases inputs as to prevent information about the speaker leaking through to the AI, which could then be used for manipulation.

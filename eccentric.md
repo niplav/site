@@ -416,16 +416,16 @@ and suddenly. Humans die in the first ~2 minutes of the movie
 (less than a couple of days in-movie time), followed by the
 AI systems constructing megastructures in space by [deconstructing
 planets](./doc/big_picture/fermi/eternity_in_6_hours_sandberg_armstrong_2013.pdf),
-sending probes to all reachable galaxies &c. Interactions with
-other highly advanced alien civilizations could be shown, including
-trade (though hard to convey *that* trade is taking place) and
-warfare (much easier to convey: nicer visual effects from [black
-hole bombs](https://en.wikipedia.org/wiki/Black_hole_bomb), induced
-supernovae and near-*[c](https://en.wikipedia.org/wiki/Speed_of_light)*
-projectiles; but perhaps not as likely to happen in reality because
-warfare is [negative-sum](https://en.wikipedia.org/wiki/Zero-sum_game),
-and we should expect advanced agents to avoid negative sum
-behavior).
+sending probes to all reachable galaxies &c. Interactions with other
+highly advanced alien civilizations could be shown, including trade
+(though hard to convey *that* trade is taking place) and warfare
+(much easier to convey: nicer visual effects from [black hole
+bombs](https://en.wikipedia.org/wiki/Black_hole_bomb),
+induced supernovae and [relativistic kill
+vehicles](https://en.wikipedia.org/wiki/Kinetic_Energy_Weapon);
+but perhaps not as likely to happen in reality because warfare is
+[negative-sum](https://en.wikipedia.org/wiki/Zero-sum_game), and we
+should expect advanced agents to avoid negative sum behavior).
 
 Processes within the AI could also be fascinating to visualize:
 the creation, pursuit and extermination of [optimization
