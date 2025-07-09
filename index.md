@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2025-03-20, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2025-07-08, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav. It contains texts on different topics,
 including (but not limited to) forecasting, existential risk, computer
@@ -149,6 +149,10 @@ Beides verdammen sie dir, zeigest du beides zugleich
 
 * [Two Reasons For Restarting the Testing of Nuclear Weapons](./nuclear.html)
 
+#### Futurism
+
+* [Black Hole Mop](./mop.html)
+
 #### Philosophy
 
 * [Compliments as Utilitarian Praxis](./utilitarian_compliments.html)
@@ -170,6 +174,7 @@ undoubtedly, are Bad.
 * [Have Attention Spans Been Declining?](./spans.html)
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
 * [Transfer Learning in Humans](./transfer.html)
+* [High Status Eschews Quantification of Performance](./eschews.html)
 * [Brain Stimulation for Valence](./stimulation.html)
 
 #### Collections
@@ -196,7 +201,6 @@ das dort hervorragte, und eine alte Stiefelsohle auf.
 * [Progress in Qualia](./qualia.html)
 * [Life Advice](./life_advice.html)
 * [If I Was An Eccentric Trillionaire](./eccentric.html)
-* [High Status Eschews Quantification of Performance](./eschews.html)
 * [Notes](./notes.html)
 
 #### Reports

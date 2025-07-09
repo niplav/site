@@ -31,6 +31,8 @@ mine:
 __Daygame__ is the craft of walking up to women in public, and talking
 to them with the intention of dating or sleeping with them.
 
+<!--While the sun should be shining?-->
+
 [^1]: Beginner [Daygame](https://www.goodreads.com/en/book/show/36009850-beginner-daygame), [Daygame Nitro](https://www.goodreads.com/book/show/166195305-daygame-nitro) and Daygame Mastery<!--TODO: add mastery link-->.
 
 Utilitarians:

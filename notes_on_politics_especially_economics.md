@@ -46,7 +46,7 @@ This is known as “getting to Denmark”, and is *clearly* not trivial.
 
 ### This Text Is About Doing Even Better (Maybe)
 
-![Sort of?](./img/notes_on_politics_especially_economics/compass.png)
+![Sort of?](./img/memes/compass.png)
 
 *Or smth idk*
 

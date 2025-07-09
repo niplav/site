@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2025-06-20, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2025-07-09, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -69,7 +69,7 @@ March 2025
 * Does meditation decrease sleep need? [Analyzing my own data](./increasing.html#Analysing_my_Data) suggests that it does!
 	* The effect is much stronger during meditation retreats, but off-retreat data also shows a slight negative correlation between sleep duration and time meditated.
 * [Creating Libertarian Free Will](./will.html)
-* [Model Expansion and AI Alignment](./notes.html#Model_Expansion_and_AI_Alignment)
+* [Model Expansion and AI Alignment](./expansion.html)
 * [Skip Connections](./notes_on_pickup.html#Skip_Connections)
 * [Considerations on Cryonics](./considerations_on_cryonics.html): [Sooner Singularity Scenarios](./considerations_on_cryonics.html#Sooner_Singularity). If longevity escape velocity happens before 2040, signing up for cryonics seems not worth it.
 
@@ -287,7 +287,7 @@ June 2024
 * [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.md): [Pomodoro Method Edition](./platforms.md#Pomodoros). First result on how good small prediction markets are for selecting actions. The market did quite well, placing 39% on the actual outcome, and got a log score of -0.326. A little bit of evidence that [futarchy](https://en.wikipedia.org/wiki/Futarchy) is viable.
 * [Notes](./notes.html):
 	* [Fat Tails Discourage Compromise](./notes.html#Fat_Tails_Discourage_Compromise)
-	* [t-SNE and UMAP Don't Produce Clusters on Random Data](./notes.html#tSNE_and_UMAP_Dont_Produce_Clusters_on_Random_Data)
+	* [t-SNE and UMAP Don't Produce Clusters on Random Data](./dimension.html)
 * [About](./about.html):
 	* Added some [friends](./about.html#Friends_of_the_Site) to the [about page](./about.html).
 	* [Self-Hiding Agreements](./about.html#SelfHiding_Agreements): I haven't made any.
@@ -342,7 +342,7 @@ glass comes to life and kills you.
 * [If I Was An Eccentric Trillionaire](./eccentric.html): [Breeding Very Intelligent Parrots](./eccentric.html#Breeding_Very_Intelligent_Animals) would cost ≈\$3.65 mio. for a 50 year experiment.
 * [Notes](./notes.html)
 	* [AI Safety Via Debate Links](./notes.html#AI_Safety_Via_Debate_Links)
-	* [Logical Correlation](./notes.html#Logical_Correlation)
+	* [Logical Correlation](./logical.html)
 	* [Field-Specific Low-Information Priors](./notes.html#FieldSpecific_LowInformation_Priors): [~](https://www.metaculus.com/questions/1490/which-percentage-of-metaculus-questions-resolving-in-q1-2019-will-resolve-positively/)[4](https://www.metaculus.com/questions/804/1000th-binary-question-resolution-is-positive/)[0](https://www.metaculus.com/questions/1475/which-percentage-of-metaculus-questions-resolving-from-october-1st-to-december-31st-2018-inclusive-will-resolve-positively/)[​%](https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons) of questions worth asking resolve as true, and One can expect a trait to, on average, have 50% heritability. I'm open to further suggestions.
 * [Ideal Policy for Testing Nuclear Weapons](./nuclear.html#Ideal_Policy_Situation)
 * [Text Reviews](./text_reviews.html)
@@ -360,7 +360,7 @@ March 2024
 
 * [Transfer Learning in Humans](./transfer.html)
 * [Notes](./notes.html)
-	* [Trying to Disambiguate Different Questions about Whether Humans are Turing Machines](./notes.html#Trying_to_Disambiguate_Different_Questions_about_Whether_Humans_are_Turing_Machines). Takeaway: They aren't.
+	* [Trying to Disambiguate Different Questions about Whether Humans are Turing Machines](./general.html). Takeaway: They aren't.
 	* [A FIRE Upon the Deep](./notes.html#A_FIRE_Upon_the_Deep): I now want to prioritize earning enough money to have \\$100k in capital, afterwards I'll be more relaxed.
 	* [Research Consultants List](./notes.html#Research_Consultants_List)
 	* Moved [Discord Servers for Textbooks](./textbook_discord_servers.html) to [a note](./notes.html#Discord_Servers_for_Textbooks)
@@ -441,8 +441,8 @@ Moved [several](./eschews.html) [notes](subscripts.html) [to](preference.html) t
 * [Notes](./notes.html)
 	* [Fragile Tableware Cost Analysis](./notes.html#Fragile_Tableware): We might be losing on average ~$4e7/day on having porcelain plates.
 	* [A Response on FOOM](./notes.html#A_Response_on_FOOM): Various thoughts on fast takeoff that've been floating around in my mind for a while.
-	* [Paternalism May Be About Mechanism Design](./notes.html#Paternalism_May_Be_About_Mechanism_Design): Cases in which taking options away from people is fine.
-	* [Does Recent Masturbation Decrease Meditation Quality?](./notes.html#Does_Recent_Masturbation_Decrease_Meditation_Quality): After some initial skepticism on my side, it looks like abstinence from masturbation is related to higher concentration during meditation after more than 20 days of abstinence. Correlation is [r](https://en.wikipedia.org/wiki/Pearson's_correlation_coefficient)>0.3. Very curious! Maybe [nofap](https://en.wikipedia.org/wiki/NoFap) isn't complete bunk?
+	* [Paternalism May Be About Mechanism Design](./options.html): Cases in which taking options away from people is fine.
+	* [Does Recent Masturbation Decrease Meditation Quality?](./quality.html): After some initial skepticism on my side, it looks like abstinence from masturbation is related to higher concentration during meditation after more than 20 days of abstinence. Correlation is [r](https://en.wikipedia.org/wiki/Pearson's_correlation_coefficient)>0.3. Very curious! Maybe [nofap](https://en.wikipedia.org/wiki/NoFap) isn't complete bunk?
 
 ### Links
 
@@ -574,7 +574,7 @@ August 2023
 * [About](./about.html)
 	* [Track Records](./about.html#Track_Records)
 * [Notes](./notes.html)
-	* [Two Reasons For Restarting the Testing of Nuclear Weapons](./notes.html#Two_Reasons_For_Restarting_the_Testing_of_Nuclear_Weapons)
+	* [Two Reasons For Restarting the Testing of Nuclear Weapons](./nuclear.html)
 	* [Examples and Counter-examples for Zeyneps Razor](./notes.html#Examples_and_Counterexamples_for_Zeyneps_Razor)
 	* [Favorite Quanta Magazine Articles](./notes.html#Favorite_Quanta_Magazine_Articles)
 * [Types & Methods of Data Collection I Use](./data.html)
@@ -628,7 +628,7 @@ I often ignored my other obligations this month.
 * [Precision of Sets of Forecasts](./precision.html)
 * [Notes](./notes.html)
 	* [Economic Policy Checklist](./notes.html#Economic_Policy_Checklist)
-	* [Nothing to See Here, Just An Implementation of HodgeRank](./notes.html#Nothing_to_See_Here_Just_An_Implementation_of_HodgeRank)
+	* [Nothing to See Here, Just An Implementation of HodgeRank](./hodge.html)
 * [Nootropics](./nootropics.html)
 	* [Self-Blinded RCT with Caffeine](./nootropics.html#Experiment_A_SelfBlinded_RCT)
 
@@ -644,7 +644,7 @@ April 2023
 * Expanded on [Iqisa](./iqisa.html) and its [documentation](./iqisadoc.html)
 * [Brain Stimulation for Meditation Enhancement](./stimulation.html)
 * [Notes](./notes.md)
-	* [Subscripts for Probabilities](./notes.html#Subscripts_for_Probabilities)
+	* [Subscripts for Probabilities](./subscripts.html)
 * [Microfiction](./microfiction.md)
 	* [Things to Shout](./microfiction.html#Things_to_Shout)
 	* [Funny Internet Images](./microfiction.html#Funny_Internet_Images)
@@ -664,7 +664,7 @@ March 2023
 * [Iqisa: A Library For Handling Forecasting Datasets](./iqisa.md), [Documentation](./iqisadoc.md)
 * [Notes](./notes.md)
 	* [The Price of Inadequacy](./notes.html#The_Price_of_Inadequacy)
-	* [High Status Eschews Quantification of Performance](./notes.html#High_Status_Eschews_Quantification_of_Performance)
+	* [High Status Eschews Quantification of Performance](./eschews.html)
 
 February 2023
 -------------
@@ -807,7 +807,7 @@ March 2022
 -----------
 
 * [Notes](./notes.html)
-	* [Building a Cuboid](./notes.html#Building_a_Cuboid)
+	* [Building a Cuboid](./cuboid.html)
 * [Notes on Pickup](./notes_on_pickup.html)
 	* [Reductionism on Approach Difficulties](./notes_on_pickup.html#Reductionism_on_Approach_Difficulties)
 	* [Instead of Recognizing and Dismantling Shit Tests, You Could Just Vibe Over Them](./notes_on_pickup.html#Instead_of_Recognizing_and_Dismantling_Shit_Tests_You_Could_Just_Vibe_Over_Them)
@@ -996,7 +996,7 @@ July 2021
 ---------
 
 * [Notes](./notes.html)
-	* [Ask About Frequency of Being Approached After Rejection](./notes.html#Ask_About_Frequency_of_Being_Approached_After_Rejection)
+	* [Ask About Frequency of Being Approached After Rejection](./notes_on_pickup.html#Ask_About_Frequency_of_Being_Approached_After_Rejection)
 * [Notes on Ethics](./notes_on_ethics.html)
 	* [Deference Attractors of Ethical Agents](./notes_on_ethics.html#Deference_Attractors_of_Ethical_Agents)
 
@@ -1004,7 +1004,7 @@ June 2021
 ---------
 
 * [Notes](./notes.html)
-	* [She Needs to Know You're Not a Weirdo](./notes.html#She_Needs_to_Know_Youre_Not_a_Weirdo)
+	* [She Needs to Know You're Not a Weirdo](./notes_on_pickup.html#She_Needs_to_Know_Youre_Not_a_Weirdo)
 
 ### Other
 
@@ -1057,7 +1057,7 @@ March 2021
 * [Solutions to “Naïve Set Theory“](./nst_solutions.md)
 	* [Section 11 Exercise 1](./nst_solutions.html#Exercise_1_8)
 * [Notes](./notes.md)
-	* [Implementing Commutative Hyperoperators](./notes.html#Implementing_Commutative_Hyperoperators)
+	* [Implementing Commutative Hyperoperators](./hyperoperators)
 	* [A Trivial Fact About Leyland Numbers](./notes.html#A_Trivial_Fact_About_Leyland_Numbers)
 * [Text Reviews](./text_reviews.html)
 	* [Compassion, by the Pound (F. Bailey Norwood/Jayson L. Lusk, 2011)](./text_reviews.html#Compassion_by_the_Pound_F_Bailey_NorwoodJayson_L_Lusk_2011)
@@ -1111,7 +1111,7 @@ November 2020
 	* [Attempted 7-Day Meditation Retreat at Home](./reports.html#Attempted_7Day_Meditation_Retreat_at_Home)
 	* [300 Hours of Meditation](./reports.html#300_Hours_of_Meditation)
 * Notes
-	* [Stating the Result of “An Impossibility Theorem for Welfarist Axiologies”](./notes.html#Stating_the_Result_of_An_Impossibility_Theorem_for_Welfarist_Axiologies)
+	* [Stating the Result of “An Impossibility Theorem for Welfarist Axiologies”](./notes_on_ethics.html#Stating_the_Result_of_An_Impossibility_Theorem_for_Welfarist_Axiologies)
 
 ### Other
 
@@ -1302,7 +1302,7 @@ August 2019
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
 * Solutions to [P40](./99_problems_klong_solution.html#P40__Goldbachs_conjecture), [P41](./99_problems_klong_solution.html#P41__A_list_of_Goldbach_compositions), [P49](./99_problems_klong_solution.html#P49__Gray_code), [P50](./99_problems_klong_solution.html#P50__Huffman_code) and [P54A](./99_problems_klong_solution.html#P54A__Check_whether_a_given_term_represents_a_binary_tree) of the [99 Klong Problems](./99_problems_klong_solution.html)
 * Notes
-	* [Compliments as Utilitarian Praxis](./notes.html#Compliments_as_Utilitarian_Practice)
+	* [Compliments as Utilitarian Praxis](./utilitarian_compliments)
 	* [Indirect Anti-Natalism](./notes.html#Indirect_AntiNatalism)
 
 ### Site Changes
@@ -1315,7 +1315,7 @@ July 2019
 ### Writing
 
 * Notes
-	* [Converging Preference Utilitarianism](./notes.html#Converging_Preference_Utilitarianism)
+	* [Converging Preference Utilitarianism](./notes_on_ethics.html#Converging_Preference_Utilitarianism)
 	* [Silent & Loud Killers](./notes.html#Silent__Loud_Killers)
 * [Contributions](./contributions.html)
 * [Other Proposed Solutions to Rendezvous on a Sphere](./two_people_on_a_planet.html#Other_Proposed_Solutions)
@@ -1332,7 +1332,7 @@ June 2019
 ### Writing
 
 * Notes
-	* [Approach Anxiety](./notes.html#Approach_Anxiety)
+	* [Approach Anxiety](./notes_on_pickup.html#Approach_Anxiety)
 * Solution to [Problem 27-33](./99_problems_klong_solution.html#P27__Group_the_elements_of_a_set_into_disjoint_subsets) of the 99 problems
 * Finished transcription of the [Tao Tê King](./tao_te_king.html#Kapitel_71) (chapters 71 to 81)
 

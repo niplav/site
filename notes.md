@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-06-25, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-07-09, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -59,17 +59,6 @@ articles](https://en.wikipedia.org/wiki/Wikipedia:Vital_articles)—a
 strategy I am currently pursuing. (I have read three out of the 1000
 articles so far.)
 
-Approach Anxiety
-----------------
-
-Moved to [Notes on Pickup](./notes_on_pickup.html#Approach_Anxiety).
-
-Converging Preference Utilitarianism
-------------------------------------
-
-Moved to [Notes on
-Ethics](./notes_on_ethics.html#Converging_Preference_Utilitarianism).
-
 Silent & Loud Killers
 ---------------------
 
@@ -125,11 +114,6 @@ same catastrophe, but we do not observe any such irregular phenomena
 when examining the universe. This is presumably good news, since it
 restricts the amount of possible filters still ahead of us.
 
-Compliments as Utilitarian Praxis
----------------------------------
-
-Moved into [a separate page](./utilitarian_compliments.html).
-
 Indirect Anti-Natalism
 ----------------------
 
@@ -165,11 +149,6 @@ Better Names for Things
 ------------------------
 
 Moved [here](./language.html#Better_Names_for_Things).
-
-Considerations on Cryonics
---------------------------
-
-Moved to a [separate page](./considerations_on_cryonics.html).
 
 Artificial Intelligence and Action-Compelling Sentences
 -------------------------------------------------------
@@ -556,11 +535,6 @@ pseudocode, which I show here:
 	end for
 	return result
 
-Stating the Result of “An Impossibility Theorem for Welfarist Axiologies”
--------------------------------------------------------------------------
-
-Moved to [Notes on Ethics](./notes_on_ethics.html#Stating_the_Result_of_An_Impossibility_Theorem_for_Welfarist_Axiologies).
-
 Gifts
 ------
 
@@ -730,11 +704,6 @@ other forms of breath meditation).
 A possible drawback of this is also that the micro-routine at the end
 of a breath can often develop into a verbal loop and break concentration.
 
-Implementing Commutative Hyperoperators
-----------------------------------------
-
-Moved [here](./hyperoperators.html).
-
 A Trivial Fact About Leyland Numbers
 -------------------------------------
 
@@ -813,16 +782,6 @@ group is just too small/already served with university dorms?
 
 * [LessWrong Open Thread](https://www.lesswrong.com/posts/hKNJSiyzB5jDKFytn/?commentId=XqH8irT5oEEfGTnZ7)
 
-She Needs to Know You're Not a Weirdo
---------------------------------------
-
-Moved to [Notes on Pickup](./notes_on_pickup.html#She_Needs_to_Know_Youre_Not_a_Weirdo).
-
-Ask About Frequency of Being Approached After Rejection
---------------------------------------------------------
-
-Moved to [Notes on Pickup](./notes_on_pickup.html#Ask_About_Frequency_of_Being_Approached_After_Rejection).
-
 A Simple Proof that in Hardy-Weinberg Mating, Allele Frequencies are Preserved
 -------------------------------------------------------------------------------
 
@@ -888,11 +847,6 @@ but less than expected*.
 
 <!--TODO: ekde (since) has some local/causal counterparts: how about the others?-->
 
-Building a Cuboid
-------------------
-
-Moved [here](./cuboid.html).
-
 `scipy.optimize.curve_fit` Is Awesome
 --------------------------------------
 
@@ -950,11 +904,6 @@ For more information about this amazing function, consult its
 ### Discussions
 
 * [LessWrong](https://www.lesswrong.com/posts/tTACHjbQ9W5Ha4GnF/scipy-optimize-curve_fit-is-awesome)
-
-Some Civilizational Inadequacies
----------------------------------
-
-Moved [here](./inadequacies.html).
 
 An Example for Not Updating Uncertain Utility Functions
 --------------------------------------------------------
@@ -1206,16 +1155,6 @@ games](https://en.wikipedia.org/wiki/Price_of_stability#Network_design_games),
 `$\text{PoI} \le k-\mathcal{H}_k$`.
 <!--TODO: cite this from Roughgardens Twenty Lectures-->
 
-High Status Eschews Quantification of Performance
---------------------------------------------------
-
-Moved [here](./eschews.html).
-
-Subscripts for Probabilities
-------------------------------
-
-Moved [here](./subscripts.html).
-
 Properties of Good Textbooks
 -----------------------------
 
@@ -1337,11 +1276,6 @@ not work.
 
 Now please, guys, don't make me create one for AI governance proposals.
 
-Nothing to See Here, Just An Implementation of HodgeRank
-----------------------------------------------------------
-
-Moved [here](./hodge.html).
-
 All Things People Have Written About Lumenators
 ------------------------------------------------
 
@@ -1381,16 +1315,6 @@ off, *but* there is some reallocation that creates a Pareto improvement.
 Example: We have a Sadist and a Masochist. The Masochist starts hurting
 the Sadist, thus creating opportunity cost for them both. Switching the
 roles creates a Pareto improvement.
-
-Does Recent Masturbation Decrease Meditation Quality?
-------------------------------------------------------
-
-Moved [here](./quality.html).
-
-Two Reasons For Restarting the Testing of Nuclear Weapons
-----------------------------------------------------------
-
-Moved [here](./nuclear.html).
 
 Examples and Counter-examples for Zeyneps Razor
 -------------------------------------------------
@@ -1523,11 +1447,6 @@ A Response on FOOM
 -------------------
 
 Moved [here](./foom.html).
-
-Paternalism May Be About Mechanism Design
--------------------------------------------
-
-Moved [here](./options.html).
 
 Scientific and Other Classifications
 --------------------------------------
@@ -1731,11 +1650,6 @@ I decided to collect a list of discord servers dedicated to textbooks.
 * [Analysis I (Tao 2016)](https://discord.gg/Jy4HZtP9pt)
 * [Naive Set Theory (Halmos 1960)](https://discord.gg/sApjeGjdvx)
 
-Trying to Disambiguate Different Questions about Whether Humans are Turing Machines
-------------------------------------------------------------------------------------
-
-Moved [here](./general.html).
-
 How Often Does ¬Correlation ⇏ ¬Causation?
 ------------------------------------------
 
@@ -1848,11 +1762,6 @@ learn to “play it safe” by always being honest.
 
 *—Ajeya Cotra, [“Without specific countermeasures, the easiest path to transformative AI likely leads to AI takeove”](https://www.lesswrong.com/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to), 2022*
 
-Logical Correlation
---------------------
-
-Moved [here](./logical.html).
-
 Field-Specific Low-Information Priors
 --------------------------------------
 
@@ -1944,16 +1853,6 @@ towards your available options can give you most of the value you want.
 * [Being the (Pareto) Best in the World (johnswentworth, 2019)](https://www.lesswrong.com/posts/XvN2QQpKTuEzgkZHY/being-the-pareto-best-in-the-world)
 * Discussions
 	* [LessWrong](https://www.lesswrong.com/posts/Z5sDqqGridJQfr4uC/fat-tails-discourage-compromise)
-
-China Getting TAI First Would Not be Infinitely Bad
------------------------------------------------------
-
-Moved [here](./china.md).
-
-t-SNE and UMAP Don't Produce Clusters on Random Data
-------------------------------------------------------
-
-Moved [here](./dimension.html).
 
 The Variety-Uninterested Can Buy Schelling-Products
 ----------------------------------------------------
@@ -2195,99 +2094,7 @@ iceberg](https://catern.com/iceberg.html).
 Black Hole Mop
 -----------------
 
-<!--TODO: check the Claude conversation: https://claude.ai/chat/e5da2973-c2a1-4c11-b4e2-68aab2d7551a-->
-
-[Baryons](https://en.wikipedia.org/wiki/Baryon) make up only 4.5% of
-the current [massenergy](https://en.wikipedia.org/wiki/Mass-energy)
-of the universe. >80% of that baryonic massenergy is intergalactic
-dust or plasma—mostly hydrogen and helium with temperatures from
-`$10^5$` to `$10^7 K$`, and if compressed to water density would
-have temperatures from `$10^{31}$` to `$10^{34}K$` ([Sandberg
-2023](https://www.goodreads.com/book/show/42275384-grand-futures),
-p. 746).
-
-We or our descendants might care a lot about this massenergy, since if
-we can't use dark matter or dark energy, it would represent most of the
-resources available in the universe.
-
-So it would be cool if we had a method of collecting this intergalacic
-plasma & dust, and ideally one that fulfills these properties:
-
-1. Cools down the collected plasma and uses the heat for useful work
-2. Leaves it in a state that admits energy-generation via nuclear fusion
-3. Is fast enough that most of the useful energy is extracted before [protons start decaying](https://en.wikipedia.org/wiki/Proton_Decay)
-
-Another problem: For [intergalactic
-colonization](./doc/big_picture/fermi/eternity_in_6_hours_sandberg_armstrong_2013.pdf),
-an advanced civilization would want to move through intergalactic space at
-very high speed—the closer to `$c$`, the better. But at such velocities,
-collisions with dust and small particles create explosions releasing as
-much energy as a hand grenade.
-
-For a [black hole
-civilization](https://harsimony.wordpress.com/2022/09/13/black-hole-civilizations/),
-One option to fulfill some of the criteria for collecting
-the IGM and shielding a probe would be to create intergalactic
-"ships" that are composed of a coordinating, baryonic center and a
-"shell" of black holes orbiting that center, moving at high speed
-through the intergalactic medium, in a setup similar to a [Dyson
-swarm](https://en.wikipedia.org/wiki/Dyson_Swarm). Alternatively,
-the setup could be two or more black holes orbiting each
-other, with the baryonic center stationary at a [Lagrange
-point](https://en.wikipedia.org/wiki/LaGrange_Point) where it is shielded
-by one or more of the black holes in the direction of travel.
-
-![](./img/mop/dyson_swarm.png)
-
-*This, but with black holes instead of mirrors. [Sandberg
-2023](https://www.goodreads.com/book/show/42275384-grand-futures), p. 460*
-
-The black holes would "mop up" the intergalactic medium as the
-craft would move through it, increasing in mass[^charged]. The heat of the
-intergalactic medium would be converted to the mass of the black hole,
-as black holes don't have any temperature and are [excellent heat
-sinks](https://www.weidai.com/black-holes.txt); instead they emit
-[Hawking radiation](https://en.wikipedia.org/wiki/Hawking_Radiation)
-in the black body spectrum.
-
-[^charged]: I don't know whether the intergalactic medium is charged, if so the black holes would also accumulate charge. I assume that on a medium scale the intergalactic medium is fairly evenly distributed, so I don't think they'd accumulate angular momentum.
-
-One option is to use such black hole
-[mops](https://en.wikipedia.org/wiki/Mop) in intergalactic colonization,
-where the black holes act as shielding for the center from collisions
-with intergalactic gas. I think this would slow this construction down,
-but usually not change its structure, though I haven't thought about it
-very much.
-
-How does this fare on our list of criteria?
-
-1. The heat of the plasma & dust is converted perfectly into mass, but not used for anything productive.
-2. The plasma is unavailable for fusion, and the form in which it later is emitted again Hawking radiation is less useful, as it happens over extremely long timespans.
-3. I haven't yet calculated how much of the reachable universe could be plausibly covered this way.
-
-Black hole mops would have some other disadvantages:
-
-1. They require advanced control over black holes, setting them up in stable complicated orbit around a center.
-2. They probably require large numbers of small black holes, which increase in mass during the journey.
-	1. This is a downside because small black holes are likely much more valuable, since they only come about after long evaporations of large black holes, or have to be constructed synthetically through extremely precise focusing of light.
-	2. Potentially one could create stable orbits of three or more large black holes "covering" the construction in the direction of travel, similar to [multiple star systems](https://en.wikipedia.org/wiki/Star_system#Multiple_star_systems).
-3. The black holes can probably not cover the central craft completely at all times, so some intergalactic medium would get lost and/or damage the central craft.
-4. If the black holes are *orbiting* the central craft, it must have a very high mass.
-
-Despite having mostly listed downsides of black hole mops, I think
-they're an attractive option to do further reseach on.
-
-I don't know whether such constructions are possible or desirable,
-but I would like to hear some feedback by someone more knowledgeable
-about physics.
-
-<!--TODO: send single black hole ahead of the probe, cleaning out the way,
-gravitation is strong enough to attract them to be close when they arrive,
-but not so strong that the probe falls into the black hole
-
-Also, note that this contraption prevents the probe from being a Bussard
-ramjet
--->
+Moved [here](./mop.html).
 
 Centaur Stage
 --------------
@@ -2475,16 +2282,6 @@ a few approaches to figure out what language models think:
 	* I think I'd prefer random noise.
 * Asking Janus and Robert Long on 𝕏, no response yet.<!--TODO: links-->
 
-Patching ~All Security-Relevant Open-Source Software?
-------------------------------------------------------
-
-Moved [here](./patching.html).
-
-Model Expansion and AI Alignment
----------------------------------
-
-Moved [here](./expansion.html).
-
 How Is Human Intelligence Distributed
 --------------------------------------
 
@@ -2644,7 +2441,7 @@ culture of animals).
 
 If factory farming can't be easily replaced with clean meat in the
 forseeable future, one might want to look for animals that are *least
-unethicl* to farm, mostly by them fulfilling the following conditions:
+unethical* to farm, mostly by them fulfilling the following conditions:
 
 * Small brain & low number of neurons
 * Easy to breed & fast reproduction cycle
@@ -2744,9 +2541,9 @@ Indicators that there is no replacement for evolution:
 	* Another instance was that Stalin didn't listen to the planned economy with Kantorovich.
 * Scruffy AI won out over neat AI.
 * Neither aging nor Lindy effect for civilizations.<!--See Grand Futures-->
-* Organisms die
-* Transposons, cancer <!--TODO: Look at post by Elmore again-->
-* No coalition-incentive-compatible mechanisms under vNM
+* Organisms die.
+* Transposons, cancer<!--TODO: Look at post by Elmore again-->.
+* [No coalition-incentive-compatible mechanisms under vNM](./doc/econ/on_coalition_incentive_compatibility_green_laffont_1979.pdf).
 
 Has nature ever found the concept of [parity
 bits](https://en.wikipedia.org/wiki/Parity_Bit)/[error
@@ -2771,3 +2568,19 @@ I'd been doing it or not.
 
 1. I only flossed on the right side of my mouth since 2023-07-08, and on 2023-09-28 I asked the dentist to guess which side I'd flossed on. She guessed left.
 2. Starting 2025-06-13, I started floosing only the right side of my mouth.
+
+Simple Metagraphs
+------------------
+
+Inspired by [(A -> B) -> A (Scott Garrabrant,
+2018)](https://www.lesswrong.com/posts/qhsELHzAHFebRJE59/a-greater-than-b-greater-than-a).
+
+Sequence of simple metagraphs with `$n$` constituents, starting at n=0:
+
+1, 2, 15, 180, 3638, …
+
+* For zero constituents there's only the empty simple metagraph
+* For one constituent there's two simple metagraphs, the single node, or the self-directed edge
+* For two constituents there's these:
+
+![](./img/metagraphs/two.png)

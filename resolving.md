@@ -1988,6 +1988,8 @@ options `$\Omega$`, can be used to represent ontological shifts.
 
 #### Graph Sevolutions
 
+See [here](./notes.html#Graph_Sevolution).
+
 **Definition 17**. Given a consistent edge-weighted graph
 `$G=(\Omega, E_G, w)$`, a **graph-based ontological shift** is a function
 from `$\Omega$` to subsets of a new set of options `$\Xi$`, together with
