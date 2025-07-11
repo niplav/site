@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2025-02-18, language: english, status: abandoned, importance: 2, confidence: likely*
+*author: niplav, created: 2019-08-03, modified: 2025-07-11, language: english, status: abandoned, importance: 2, confidence: likely*
 
 > __Members of the [NoFap community](https://en.wikipedia.org/wiki/NoFap)
 [frequently claim](#Appendix_C_Examples_for_the_Claim) that abstinence
@@ -848,7 +848,9 @@ Appendix D: Analysis of Observational Data
 To bring around the time not spent masturbating (90 days is a lot!),
 I decide to put 2 (my [daygame data](./data.html#Daygame)) and 2 (my
 [masturbation dataset](./data.html#Masturbation)) together and determine
-if there was any useful information on nofap & attractiveness in there.
+if there was any useful information on nofap & success from cold approach in there.
+
+### Approach Success
 
 One fight with my bad data layout planning later I load the data
 
@@ -941,6 +943,16 @@ The slope is *very* slightly positive, but the result could've just as
 well arisen from noisy data; the p-value is extremely high.
 
 <!--TODO: plot for the linear regression-->
+
+### Amount of Approaches
+
+Okay, maybe it doesn't help very much in terms of attractiveness,
+but plausibly abstaining from masturbation at least is related to me
+approaching more, right?
+
+![](./img/masturbation/scatter.png)
+
+Code [here](./code/masturbation/volume.py).
 
 Appendix E: Subjective Impressions of Nofap
 --------------------------------------------

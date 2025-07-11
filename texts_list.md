@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2025-03-18, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2025-07-10, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Hypertriton (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Hypertriton)
+* \* The Code Book (Simon Singh, 1999)
+* [Crossover value (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Crossover_value)
+* 3.14 Personnel Security (NIST, 2020)
 * Die Hystere des Milenniums (Jean Baudrillard, 1990)
 * [Sycophancy in GPT-4o: what happened and what we’re doing about it (OpenAI, 2025)](https://openai.com/index/sycophancy-in-gpt-4o/)
 * [Trojan Sky (Richard Ngo, 2025)](https://www.narrativeark.xyz/p/trojan-sky)
