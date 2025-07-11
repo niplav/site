@@ -48,7 +48,7 @@ much energy as a hand grenade.
 
 For a [black hole
 civilization](https://harsimony.wordpress.com/2022/09/13/black-hole-civilizations/),
-One option to fulfill some of the criteria for collecting
+one option to fulfill some of the criteria for collecting
 the IGM and shielding a probe would be to create intergalactic
 "ships" that are composed of a coordinating, baryonic center and a
 "shell" of black holes orbiting that center, moving at high speed
