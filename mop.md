@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-11-15, modified: 2025-07-09, language: english, status: in progress, importance: 6, confidence: unlikely*
+*author: niplav, created: 2024-11-15, modified: 2025-07-11, language: english, status: in progress, importance: 6, confidence: unlikely*
 
 > __One might be able to solve two problems far-future civilizations will
 face (most baryonic matter is intergalactic hot plasma; intergalactic
@@ -115,3 +115,4 @@ Questions
 1. Does this prevent the probe from being a [Bussard ramjet](https://en.wikipedia.org/wiki/Bussard_Ramjet)?
 2. What the smallest cross-section one can make the probe?
 3. Would the black hole(s) evaporate through Hawking radiation on the longest journeys, or would it/they expand?
+4. Do(es) the black hole(s) form accretion disks, if yes, do they matter?

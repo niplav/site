@@ -1,4 +1,6 @@
-#!/usr/bin/env rc
+#!/usr/lib/plan9/bin/rc
+
+DISPLAY=:0
 
 mentfile='/home/niplav/proj/site/data/mental.csv'
 
@@ -15,5 +17,6 @@ if(! grep $thisdate $mentfile >/dev/null && [ $now -ge $deadline ]) {
 	productivity=`{echo 'productivity' | readval}
 	creativity=`{echo 'creativity' | readval}
 	sublen=`{echo 'subjective length' | readval}
-	printf '%s,%s,%s,%s\n' $nowiso $productivity $creativity $sublen >>$mentfile
+	meaning=`{echo 'meaning' | readval}
+	printf '%s,%s,%s,%s,%s\n' $nowiso $productivity $creativity $sublen $meaning >>$mentfile
 }

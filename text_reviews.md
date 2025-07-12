@@ -595,6 +595,75 @@ __9.5/10__, to leave room for the finished book. (This was just a draft!!!!)
 
 See also: [Gavin's review](https://www.goodreads.com/review/show/2670036848)
 
+### Das Jahr 2000 findet nicht statt (Jean Baudrillard, 1990)
+
+Enthält:
+
+* Das Jahr 2000 findet nicht statt (Jean Baudrillard, 1984)
+* Tauwetter im Osten und Ende der Geschichte (Jean Baudrillard, 1990)
+* Die Hystere des Millenniums (Jean Baudrillard, 1990)
+
+Ich weiß nicht, warum ich mich noch mit Kontinentalphilosophen
+herumschlage—manchmal ist es ganz nett, aber den größten Teil der
+Zeit fühle ich mich, als würde ich durch sumpfiges Dickicht waten. (Die
+Ausnahme ist kontinentale Metaphysik, die häufig sehr spaßig ist,
+weil sie versucht, genuin neue Metaphysik zu sein—Deleuze my beloved).
+
+Die Hysterese des Millenniums enthält einen Absatz, in dem Baudrillard
+bemerkt, dass die Dissidenten des ehemaligen Ostblocks teilweise
+einflussreiche Politiker wurden, z.B. Havel und Wałęsa. Aber Baudrillard
+scheint das als etwas *schlechtes* anzusehen—und genau dieser Impuls
+pisst mich an, eine Psychologie, in der die Ästhetik der Dissidenz
+wichtiger ist als wirklich etwas an den Umständen zu verbessern. Es ist
+Havel und Wałęsa unfair gegenüber, die die Verantwortung akzeptierten
+und ihre Nationen in heute demokratische Länder umwandelten!
+
+> Eine der Folgen dieser Ost-West-Transfusion ist die Ausschaltung
+der Überläufer, die als Nabelschnur zwischen den Blöcken dienten,
+verstoßen von der einen Seite, gefeiert von der andern, verstrickt
+jedoch in die Strategien der einen wie der anderen Seite. Vermittels
+der Dissidenten als politischer Avantgarde der Länder im Osten und
+Zuflucht der intellektuellen Avantgarde im Westen haben der Westen
+und der Osten über Jahre hinweg wie beim Rüstungswettlauf eine Art
+Dialog zwischen Gehörlosen geführt. Einige Dissidenten haben selbst die
+Zweischneidigkeit dieser Situation analysiert. Zum Beispiel Sacharow. Aber
+Sacharow ist tot. Er ist bezeichnenderweise in dem Moment gestorben, als
+die erfolgreiche Dissidenz keinen Sinn mehr hatte. __Die Dissidenten halten
+das Tauwetter der Freiheit nicht aus. Sie müssen sterben oder sie werden
+Präsident (Walesa, Havel), in einer Art bitteren Rache, die in jedem
+Fall ihren Tod als Dissident besiegelt. Sie leben im Stummfilmzeitalter
+des Politischen, sie werden vom Tonfilm getötet. Sie, deren Kraft im
+Schweigen (oder der Zensur) lag, sind zum Sprechen verurteilt, dazu,
+vom gesprochenen Wort verschlungen zu werden.__ Wenn die Gesellschaften im
+Osten ihre Dissidenten zurückholen und in sich aufnehmen und desgleichen
+die westliche Gesellschaft ihre Avantgarde-Bewegungen zurückholen und
+in sich aufnehmen, dann ist das Ende der Moderne gekommen.
+
+*—Jean Baudrillard, “Die Hysterese des Millenniums“ S. 54-55, 1990*
+
+(Formatierung von mir.)
+
+Aber die Hysterese enthält auch einen extrem poignanten Absatz über
+künstliche Intelligenz, was für 1990 *extrem* vorwärtsblickend ist???
+
+> Die westlichen Intellektuellen, die diesen Bruch verkörperten, diese
+innere Teilung der Gesellschaften und des Bewußtseins, sind selbst dazu
+verurteilt, wie die Akteure des Stummfilms zu verschwinden. (Sie werde
+jedoch nicht von der Redefreiheit getötet, sondern von einer anderen
+Befreiung, nämlich der mehr oder weniger __langfristigen Freisetzung
+und aller intellektuellen Operationen im Zeichen der künstlichen
+Intelligenz__).
+
+*—Jean Baudrillard, “Die Hysterese des Millenniums“ S. 55, 1990*
+
+(Formatierung von mir.)
+
+Oder, anders gefaßt, *»l'an deux-mille cent ne passera pas«*.
+
+__2.5/10__, nicht zu lang, habe es in ~5 Fitnessstudiosessions zwischen
+den Sets gelesen. Vielleicht findet sich in der Kontinentalphilosophie
+noch was, ich versuche es weiter.
+
 <!--
 ### Designing Data-Intensive Applications (Martin Kleppmann, 2017)
 -->
