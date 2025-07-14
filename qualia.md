@@ -111,7 +111,7 @@ in importance (an outlier-focused "log-normally distributed" view).
 		fewer people are willing to invest. This might even be inversely
 		linked to economic progress: faster growth rates lead to a larger
 		amount of interest in novelty (counterforce: material abundance
-		frees oneself to investigate avenues of self-actualiazation
+		frees oneself to investigate avenues of self-actualization
 		(or, in this case, self-deconstruction)). But the number of
 		contemplative practitioners doesn't have to seem grown with the
 		population, and it would be interesting to find numbers on the

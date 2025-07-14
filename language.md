@@ -522,6 +522,7 @@ Better Words
 
 * "cif" or "if<sub>c</sub>" ("causal if"): [causally counterfactual](https://en.wikipedia.org/wiki/Causal_model#Counterfactuals) if: 8 syllables saved
 * "eif" or "if<sub>e</sub>" ("evidential if"): evidentially counterfactual if: 10 syllables saved
+* "deinforce": There is no great value-neutral & mechanistic alternative to "penalize" or "punish" as an antonym for "reinforce", so I propose the term "deinforce".
 
 #### Initialisms
 

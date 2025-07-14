@@ -41,7 +41,6 @@ HTML=index.html \
 	99_problems_klong_solution.html \
 	against_applause.html \
 	automated.html \
-	awesome.html \
 	bandit.html \
 	bcis_and_alignment.html \
 	buch_stab.html \
@@ -102,12 +101,10 @@ HTML=index.html \
 	range_and_forecasting_accuracy.html \
 	rationalist_gods.html \
 	resolving.html \
-	senryu.html \
 	sites.html \
 	spans.html \
 	stimulation.html \
 	subscripts.html \
-	suspicious.html \
 	tahafut.html \
 	tao_te_king.html \
 	text_reviews.html \
@@ -117,7 +114,6 @@ HTML=index.html \
 	two_people_on_a_planet.html \
 	utilitarian_compliments.html \
 	will.html \
-	wireheading.html \
 	bp_chrono.html \
 	ob_chrono.html \
 	rq_chrono.html \
