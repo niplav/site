@@ -55,8 +55,6 @@ you’d like to forward
 	* Summary: [تهافت أنظمة الذكاء الاصطناعي](./tahafut.html)
 * [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 * [Model Expansion and AI Alignment](./expansion.html)
-* [Avoiding Wireheading via Convergent Interventional Avoidanceⁿ](./wireheading.html)
-* [Too Good to be True: Training an RL Agent to be Suspicious](./suspicious.html)
 * [Automated AI Alignment Research](./automated.html)
 
 ##### Strategy

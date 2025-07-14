@@ -661,7 +661,8 @@ Intelligenz__).
 Oder, anders gefaßt, *»l'an deux-mille cent ne passera pas«*.
 
 __2.5/10__, nicht zu lang, habe es in ~5 Fitnessstudiosessions zwischen
-den Sets gelesen. Vielleicht findet sich in der Kontinentalphilosophie
+den Sets gelesen. Technisch gesehen bereue ich es nicht, dieses Buch
+gelesen zu haben. Vielleicht findet sich in der Kontinentalphilosophie
 noch was, ich versuche es weiter.
 
 <!--
@@ -970,3 +971,12 @@ as well as drastic personal decisions, and I expect to give it a 1 or
 (more likely) a 4 in the final vote.
 
 <!--TODO: import 2022 & 2023 reviews-->
+
+<!--
+See Also
+---------
+
+* Gwern's Reviews
+* Gavin Leech's Reviews
+* Yudhister Kumar's Reviews
+-->

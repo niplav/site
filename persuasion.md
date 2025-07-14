@@ -28,7 +28,7 @@ systems have at least two avenues[^exfiltrate]:
 
 [^exfiltrate]: Wildly superhuman AI systems may have more exfiltration vectors, including side-channels through electromagnetic radiation from their GPUs, or novel physical laws humans have not yet discovered.
 
-1. Circumventing the computer security of the servers they're runnign on.
+1. Circumventing the computer security of the servers they're running on.
 2. Psychologically manipulating and persuading their operators to let them exfiltrate themselves (or otherwise do what the AI systems want them to do).
 
 Computer security is currently a large focus of AI model providers,
@@ -47,9 +47,10 @@ people are incredulous at the prospect of superhuman persuasion.
 
 [^terminology]: From here on out also "superpersuasion".
 
-But given that superpersuasion is one of a few possible ways for AI
-systems to influence their environment according to their drives, too
-little attention has been paid to the issue. [Sycophancy by large language
+But given that superpersuasion is one of a few possible ways
+for mildly superintelligent AI systems to influence their
+environment according to their drives, too little attention
+has been paid to the issue. [Sycophancy by large language
 models](https://openai.com/index/sycophancy-in-gpt-4o/) is commonplace,
 and [large language models are becoming more persuasive with increasing
 scale](https://www.anthropic.com/news/measuring-model-persuasiveness). (I
@@ -78,7 +79,7 @@ anti-persuasion measures could look like.
 ### Assumptions
 
 * __Difficult Detection__: Persuasion/manipulation/addiction can't easily be detected either by other humans or by automated systems.<!--TODO: is this true? Probably early persuasion is going to look pretty blatant. Also Pair-Prompting sort of relies on the opposite being the case-->
-* __Non-Infection__: No "infectious" memes/egregores that jump from person to person. So it's not possible for an AI system to produce some output that manipulates/persuades Alice, and then Alice successfully persuades Bob via a similar method that the AI persuaded Alice with, even though Alice didn't have that persuasive ability beforehand.
+* __Non-Infection__: No "infectious" memes/[egregores](https://en.wikipedia.org/wiki/Egregore) that jump from person to person. So it's not possible for an AI system to produce some output that manipulates/persuades Alice, and then Alice successfully persuades Bob via a similar method that the AI persuaded Alice with, even though Alice didn't have that persuasive ability beforehand.
 	* An edge-case is information that Alice would be extremely compelled to share with as many people as possible.
 * __No One-Shotting__: Persuasion is not wildly superhuman, needs to be gradual, e.g. no ten words that convince someone to commit suicide.
 	* There are at least two different variants of superpersuasion, which form two ends of a spectrum:
@@ -99,8 +100,9 @@ anti-persuasion measures could look like.
 * __Output Type Restriction__: Output types are limited to mathematical proofs, code, scientific text. Potentially easily enforceable via sampling grammars<!--TODO: link-->.
 	* Limit to ASCII/ASCII+whitelisted [unicode blocks](https://en.wikipedia.org/wiki/Unicode_block)
 
-### Interventions limited to pre-deployment
+### Interventions Limited to Pre-Deployment
 
+* __Programmatic Evaluations__: Before humans interact with an AI system, and early after training, evaluations should be mostly performed with pre-programmed evaluations and/or through weaker AI systems, so that developers can gain some understanding of the AI without having to interact with it.
 * __Model Whisperers__: Have a dedicated position of "Model Whisperers" who are the only people who interact with the model directly.
 	* *Separation of Concerns*: Model whisperers can't change anything of the rest of the infrastructure (e.g. writing code, changing access permissions &c).
 	* *Unremembered Whisperers*: Advanced AI models should not keep long-term memories of the conversations with and identities of their model whisperers.
@@ -109,7 +111,7 @@ anti-persuasion measures could look like.
 	* *Different Backgrounds*: The model whisperers need to have very different backgrounds/gender/ethnicity
 	* *Separated Whisperers*: The model whisperers should not be able to directly talk to each other, instead one needs to approve answers to messages before the interacting one sees them
 
-### Interventions limited to post-deployment
+### Interventions Limited to Post-Deployment
 
 * __One-Click Rollback__: For the current model version, there is a person that can in less than a minute revert to the previously deployed model.
 * __One-Click Undeployment__: A model can be removed from deployment with actions that take less than a minute

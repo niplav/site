@@ -1,11 +1,12 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-08-03, modified: 2025-07-11, language: english, status: abandoned, importance: 2, confidence: likely*
+*author: niplav, created: 2019-08-03, modified: 2025-07-13, language: english, status: abandoned, importance: 2, confidence: likely*
 
 > __Members of the [NoFap community](https://en.wikipedia.org/wiki/NoFap)
 [frequently claim](#Appendix_C_Examples_for_the_Claim) that abstinence
 from masturbation causally increases male attractiveness.__  
+
 > __I present a method to test this claim (albeit imperfectly)
 by approaching 70 women in the street after >90 days of abstinence
 from masturbation and after a short conversation asking them for
@@ -950,7 +951,11 @@ Okay, maybe it doesn't help very much in terms of attractiveness,
 but plausibly abstaining from masturbation at least is related to me
 approaching more, right?
 
-![](./img/masturbation/scatter.png)
+![](./img/masturbation/volume.png)
+
+The linear regression has a slope of ≈0.047, and a p-value of
+≈0.0.069, and we can clearly *see* that abstaining from masturbation
+makes me approach more.
 
 Code [here](./code/masturbation/volume.py).
 

@@ -607,6 +607,11 @@ very algorithmically close to the easily generated integer sequences
 [1, 2, 15, 180, 3638, …](./notes.html#Simple_Metagraphs) and [1, 1,
 1, 3, 28, 861, …](./resolving.html#Minimizing_GraphEdit_Distance_3)
 
+### Unusual Preferences
+
+* I'm very low percentile in the enjoyment of blowjobs (~4th), travel (~5th), good food (~10th)
+* I'm very high percentile in the enjoyment of music (~85th), ideas (~99th), polyrhythmic music (~98th)
+
 ### Contact
 
 Contact address is ([rot13ed](https://en.wikipedia.org/wiki/ROT13))

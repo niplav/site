@@ -116,3 +116,4 @@ Questions
 2. What the smallest cross-section one can make the probe?
 3. Would the black hole(s) evaporate through Hawking radiation on the longest journeys, or would it/they expand?
 4. Do(es) the black hole(s) form accretion disks, if yes, do they matter?
+5. How difficult is it to steal the black hole(s) in this scenario?
