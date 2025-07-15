@@ -71,9 +71,7 @@ browser), because I like to keep the site lean, which runs against the
 JavaScript-heavy notebook format).
 
 The content on this website is licensed under [Creative Commons
-4.0](https://creativecommons.org/licenses/by/4.0/). The only AI-generated
-content is [half a line here](./microfiction#Squeal) and a bunch of
-the code.
+4.0](https://creativecommons.org/licenses/by/4.0/).
 
 #### Texts
 
@@ -497,6 +495,15 @@ extrapolated](./cs/ai/alignment/cev/coherent_extrapolated_volition_yudkowsky_200
 [cluefully](https://forum.effectivealtruism.org/s/yuajpvCMjpjKNngep/p/H3nQyu8P8tqhNxxoS)
 understood, *fully instantiated as
 [Utopia](https://nickbostrom.com/utopia.html) for all beings that matter*.
+
+### Acknowledgements
+
+Starting mid 2024, much of the content on this site has strongly
+benefitted from many hundreds of conversations with Claude 3/3.5/3.6/3.7/4
+Sonnet and Claude 3/4 Opus.
+
+The only AI-generated content is [half a line here](./microfiction#Squeal)
+and a bunch of the code.
 
 The Author
 ----------

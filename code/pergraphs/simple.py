@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Simple Metagraph Enumeration (Fixed Version)
+Simple Pergraph Enumeration (Fixed Version)
 
-Counts unlabeled simple metagraphs with n components using proper isomorphism checking.
-A simple metagraph has nodes and edges, where each edge has exactly one
+Counts unlabeled simple pergraphs with n components using proper isomorphism checking.
+A simple pergraph has nodes and edges, where each edge has exactly one
 source and one target, both of which can be either nodes or edges.
 """
 
@@ -12,7 +12,7 @@ from collections import defaultdict
 
 
 def enumerate_configs(num_nodes, num_edges):
-    """Generate all labeled simple metagraph configurations."""
+    """Generate all labeled simple pergraph configurations."""
     nodes = [f"n{i}" for i in range(num_nodes)]
     edges = [f"e{i}" for i in range(num_edges)]
     all_components = nodes + edges
@@ -88,9 +88,9 @@ def count_unique_proper(configs):
     return len(unique), unique
 
 
-def compute_simple_metagraphs(n):
-    """Compute the number of unlabeled simple metagraphs with n components."""
-    print(f"=== Computing n={n} Simple Metagraphs ===")
+def compute_simple_pergraphs(n):
+    """Compute the number of unlabeled simple pergraphs with n components."""
+    print(f"=== Computing n={n} Simple Pergraphs ===")
 
     total = 0
     breakdown = {}
@@ -135,7 +135,7 @@ def show_examples(unique_configs, case_name, max_examples=10):
 
 def main():
     """Run the complete analysis."""
-    print("Simple Metagraph Sequence Calculator (Fixed)")
+    print("Simple Pergraph Sequence Calculator (Fixed)")
     print("===========================================")
 
     # Compute sequence for small values
@@ -143,7 +143,7 @@ def main():
     all_cases = {}
 
     for n in range(1, 4):  # Start with n=1,2,3 to verify
-        total, breakdown, unique_configs = compute_simple_metagraphs(n)
+        total, breakdown, unique_configs = compute_simple_pergraphs(n)
         sequence.append(total)
         all_cases[n] = unique_configs
         print()
@@ -158,7 +158,7 @@ def main():
     print("\n=== EXAMPLES FOR VERIFICATION ===")
     show_examples(all_cases[2][(0, 2)], "n=2, (0,2)", max_examples=10)
     show_examples(all_cases[2][(1, 1)], "n=2, (1,1)", max_examples=4)
-    show_examples(all_cases[3][(0, 3)], "n=3, (0,3)", max_examples=10)
+    show_examples(all_cases[3][(1, 2)], "n=3, (1,2)", max_examples=45)
 
 if __name__ == "__main__":
     main()
