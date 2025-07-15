@@ -364,7 +364,7 @@ because I got to read the titles of the papers and not just a naked "Foo
 et al. 2010", perhaps because there was just more content per footnote.
 
 > The task is, fortunately, not the following: given a machine that
-possesses a high degree of intelligence, work out how to contol it. If
+possesses a high degree of intelligence, work out how to control it. If
 that were the task, we would be toast. A machine viewed as a black box,
 a *fait accompli*, might as well have arrived from outer space. And
 our chances of controlling a superintelligent entity from outer space
