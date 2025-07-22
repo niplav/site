@@ -129,4 +129,11 @@ Orexin ~30 times and Placebo 30 times, with blocks of a length of four
 days that gives us 240 days in total (though half of those don't actually
 entail any work in terms of data collection).
 
+Literature
+-----------
+
+![](./img/orexin/monkeys.png)
+
+*SD stands for "sleep deprivation"*
+
 [^1]: Even demonstrating one-off effectiveness would be cool: It's often the case that people have short-term sleep deprivation, and would like to ameliorate the effects.

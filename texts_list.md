@@ -17,6 +17,18 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Paths and waystations in AI safety (Joe Carlsmith, 2025)](https://joecarlsmith.com/2025/03/11/paths-and-waystations-in-ai-safety)
+* [SCP-2165 (Dmatix, 2024)](https://scp-wiki.wikidot.com/scp-2165)
+* [Updatelessness and Son of X (Scott Garrabrant, 2016)](https://www.lesswrong.com/posts/5bd75cc58225bf067037528e/updatelessness-and-son-of-x)
+* [Why Fiction Is More Believable (Oxidist, 2025)](https://oxidist.github.io/2025/07/19/Selection.html)
+* [Putting up Bumpers (Sam Bowman, 2025)](https://alignment.anthropic.com/2025/bumpers/)
+* [Comment on o1 is a bad idea (Abram Demski, 2024)](https://www.lesswrong.com/posts/BEFbC8sLkur7DGCYB/o1-is-a-bad-idea?commentId=AfBfPL5vmdgH5Ms45)
+* [Comment on o1 is a bad idea (Daniel Kokotajlo, 2024)](https://www.lesswrong.com/posts/BEFbC8sLkur7DGCYB/o1-is-a-bad-idea?commentId=w2o8CRARyymzwFRpZ)
+* [o1 is a bad idea (Abram Demski, 2024)](https://www.lesswrong.com/posts/BEFbC8sLkur7DGCYB/o1-is-a-bad-idea)
+* [The Checklist: What Succeeding at AI Safety Will Involve (Sam Bowman, 2024)](https://sleepinyourhat.github.io/checklist/)
+* [Comment on AI Craftsmanship (\[anonymous\], 2024)](https://www.lesswrong.com/posts/gXinMpNJcXXgSTEpn/ai-craftsmanship?commentId=Qm8Kg7PjZoPTyxrr6)
+* [AI Craftsmanship (Abram Demski, 2024)](https://www.lesswrong.com/posts/gXinMpNJcXXgSTEpn/ai-craftsmanship)
+* [Stable Pointers to Value: An Agent Embedded in Its Own Utility Function (Abram Demski, 2017)](https://www.lesswrong.com/posts/5bd75cc58225bf06703754b3/stable-pointers-to-value-an-agent-embedded-in-its-own-utility-function)
 * [Comment on o1 is a bad idea (Abram Demski, 2024)](https://www.lesswrong.com/posts/BEFbC8sLkur7DGCYB/o1-is-a-bad-idea?commentId=AfBfPL5vmdgH5Ms45)
 * [Comment on o1 is a bad idea (Daniel Kokotajlo, 2024)](https://www.lesswrong.com/posts/BEFbC8sLkur7DGCYB/o1-is-a-bad-idea?commentId=w2o8CRARyymzwFRpZ)
 * [o1 is a bad idea (Abram Demski, 2024)](https://www.lesswrong.com/posts/BEFbC8sLkur7DGCYB/o1-is-a-bad-idea)
@@ -97,7 +109,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Fraction of variance unexplained (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Fraction_of_variance_unexplained)
 * [Explained variation (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Explained_variation)
 * [Match-to-sample task (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Match-to-sample_task)
-* \* Systemic and Nasal Delivery of Orexin-A (Hypocretin-1) Reduces the Effects of Sleep Deprivation on Cognitive Performance in Nonhuman Primates (Sam A. Deadwyler/Linda Porrino/Jerome M. Siegel/Robert E. Hampson, 2007)
+* [Systemic and Nasal Delivery of Orexin-A (Hypocretin-1) Reduces the Effects of Sleep Deprivation on Cognitive Performance in Nonhuman Primates (Sam A. Deadwyler/Linda Porrino/Jerome M. Siegel/Robert E. Hampson, 2007)](./doc/orexin/systemic_and_nasal_delivery_of_orexin_a_reduces_the_effects_of_sleep_deprivation_on_cognitive_performance_in_nonhuman_primates_deadwyler_et_al_2007.pdf)
 * [AI #112: Release the Everything (Zvi, 2025)](https://www.lesswrong.com/posts/nycc4QxQAMkzmXmfz/ai-112-release-the-everything)
 * [Neural Scaling Laws by Data Manifold Dimensions (Yuxi Liu, 2024)](https://yuxi-liu-wired.github.io/essays/posts/scaling-law-by-data-manifold/)
 * [Mixture of Experts (Yuxi Liu, 2024)](https://yuxi-liu-wired.github.io/essays/posts/mixture-of-experts/)

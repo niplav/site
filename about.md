@@ -491,10 +491,12 @@ This website is dedicated to
 [**betterness**](https://meditationstuff.wordpress.com/2020/07/14/better/),
 [coherently
 extrapolated](./cs/ai/alignment/cev/coherent_extrapolated_volition_yudkowsky_2004.pdf),
-[wisely](https://tsvibt.blogspot.com/2023/11/what-is-wisdom.html) bounded,
+[wisely](https://tsvibt.blogspot.com/2023/11/what-is-wisdom.html)
+bounded<!--TODO: link maximization is perilous post-->,
 [cluefully](https://forum.effectivealtruism.org/s/yuajpvCMjpjKNngep/p/H3nQyu8P8tqhNxxoS)
 understood, *fully instantiated as
-[Utopia](https://nickbostrom.com/utopia.html) for all beings that matter*.
+[Utopia](https://nickbostrom.com/utopia.html) for all [beings that
+matter](https://en.wikipedia.org/wiki/Moral_patienthood)*.
 
 ### Acknowledgements
 

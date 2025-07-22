@@ -2578,6 +2578,10 @@ doodled the above image in my notebook, together with some other graphs
 where edges could go between edges. I'll call those "pergraphs"; they
 haven't (to my knowledge) been explored yet.
 
+Intuitively, a __pergraph__ is a mathematical structure made from nodes
+and edges, where each edge needs to have a source and a sink. The source
+and the sink can be any node or edge, including itself.
+
 Given a finite set of vertices `$V$` and a finite set of peredges `$P$`
 (where a peredge is simply a label), a __pergraph__ is the tuple `$(V,
 E \subseteq P \times (V \cup P) \times (V \cup P))$` with the __closure
@@ -2729,3 +2733,14 @@ This doesn't solve the entire problem:
 This technique seems like it could be implemented and tested in a
 [gridworlds](./cs/ai/alignment/benchmark/ai_safety_gridworlds_leike_et_al_2017.pdf)-type
 setup, which is something I could and should do.<!--TODO: exactly that-->
+
+<!--
+Ontological Cluelessness
+-------------------------
+
+*epistemic status*: Philosophy
+
+*Content Warning*: Philosophy
+
+*Attention conservation notice*: Philosophy
+-->

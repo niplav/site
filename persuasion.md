@@ -118,6 +118,18 @@ anti-persuasion measures could look like.
 
 ### Testing Anti-Superpersuasion Setups
 
+At the moment it's quite difficult to test anti-superpersuasion
+protocols. We don't have easy access to superpersuaders, and humans at
+the high end of the persuasion spectrum probably command salaries that
+are too high to be paid in the context of experiments.
+
+My best current guess at how one could get some signal on whether
+anti-superpersuasion protocols work is to substitute language models
+for humans. In such a setup, one would take a fixed smaller and less
+capable model, and RL-train a larger and more capable model to be able
+to steer conversations with the smaller model into specified outcomes,
+as quickly as possible. The smaller model would then be a stand-in
+
 <!--Claude Chats:
 https://claude.ai/chat/9b59090a-d1b1-4cff-b0ce-77e439b027f4
 https://claude.ai/chat/752d0fda-12b0-4f3c-b509-431fc46f9059

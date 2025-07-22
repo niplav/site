@@ -1,0 +1,11 @@
+#!/usr/bin/env rc
+
+cubfile='/home/niplav/proj/site/data/cuboid.csv'
+
+nowiso=`{date --iso-8601'=seconds'}
+
+if(! grep -E ',$' $cubfile) {
+	printf '%s,' $nowiso >>$cubfile
+}; if not {
+	printf '%s\n' $nowiso >>$cubfile
+}
