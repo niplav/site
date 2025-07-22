@@ -8,7 +8,7 @@ from tigramite.pcmci import PCMCI
 from tigramite.independence_tests.parcorr import ParCorr
 
 # Global configuration
-INTERVAL = '48h'
+INTERVAL = '2h'
 
 # Read raw meditation data
 async def load_meditation_data():
@@ -303,7 +303,7 @@ async def process_weight_data(weight_data, interval='2h'):
     return result.reset_index(drop=True)
 
 # Prepare data for tigramite analysis
-async def prepare_tigramite_data(interval='2h', start_date=None, filter_data=False):
+async def prepare_tigramite_data(interval='2h', start_date=None):
     # Load all raw data
     meditation_data = await load_meditation_data()
     mood_data = await load_mood_data()
@@ -356,7 +356,7 @@ async def prepare_tigramite_data(interval='2h', start_date=None, filter_data=Fal
     merged_data = merged_data.interpolate(method='linear', limit_direction='both')
 
     # Filter data from start_date if provided
-    if filter_data and start_date is not None:
+    if start_date is not None:
         start_date = pd.to_datetime(start_date, utc=True)
         original_len = len(merged_data)
         merged_data = merged_data[merged_data['date'] >= start_date]
@@ -364,6 +364,7 @@ async def prepare_tigramite_data(interval='2h', start_date=None, filter_data=Fal
         print(f"Filtered data from {start_date.strftime('%Y-%m-%d')}: {original_len} -> {filtered_len} rows ({filtered_len/original_len:.1%} kept)")
 
     # Log transform abstinence hours and substance hours
+    # TODO: belongs into the respective data producing functions.
     merged_data['abstinence_hours'] = np.log1p(merged_data['abstinence_hours'])
     for col in merged_data.columns:
         if col.endswith('_hours'):
@@ -381,46 +382,6 @@ async def prepare_tigramite_data(interval='2h', start_date=None, filter_data=Fal
     substance_variables = [col for col in merged_data.columns
                          if col not in base_variables and col != 'date' and col != 'datetime']
     variables = base_variables + substance_variables
-
-    # Exclude specific variable links
-    link_assumptions = {}
-
-    # Get substance variable indices
-    substance_indices = [i for i, var in enumerate(variables) if any(var.endswith(suffix) for suffix in ['_hours'])]
-
-    # Get indices for specific variables to exclude
-    num_sessions_idx = variables.index('num_sessions') if 'num_sessions' in variables else None
-    meditation_proportion_idx = variables.index('meditation_proportion') if 'meditation_proportion' in variables else None
-    mindfulness_idx = variables.index('mindfulness') if 'mindfulness' in variables else None
-    concentration_idx = variables.index('concentration') if 'concentration' in variables else None
-    happy_idx = variables.index('happy') if 'happy' in variables else None
-    content_idx = variables.index('content') if 'content' in variables else None
-    relaxed_idx = variables.index('relaxed') if 'relaxed' in variables else None
-    horny_idx = variables.index('horny') if 'horny' in variables else None
-
-    # Initialize empty dictionaries for all variables
-    for var_idx in range(len(variables)):
-        link_assumptions[var_idx] = {}
-
-    print(f"Excluding all links between {len(substance_indices)} substance variables")
-    print("Excluding definitional links: num_sessions ↔ meditation_proportion")
-    print("Note: tau_min=1, so simultaneous (tau=0) effects are not computed")
-
-    # Add all potential links EXCEPT excluded ones
-    for ii in range(len(variables)):
-        for jj in range(len(variables)):
-            if ii != jj:  # Don't add self-loops
-                for tau in range(1, 5):  # tau_min=1, tau_max=4
-                    # Skip ALL substance-to-substance links
-                    if ii in substance_indices and jj in substance_indices:
-                        continue
-
-                    # Skip definitional links: num_sessions ↔ meditation_proportion
-                    if (ii == num_sessions_idx and jj == meditation_proportion_idx) or \
-                       (ii == meditation_proportion_idx and jj == num_sessions_idx):
-                        continue
-
-                    link_assumptions[jj][(ii, -tau)] = 'o-o'  # Use undirected link
 
     merged_data = merged_data.reset_index(drop=True)
 
@@ -444,22 +405,65 @@ async def prepare_tigramite_data(interval='2h', start_date=None, filter_data=Fal
                            var_names=variables,
                            datatime=merged_data.date)
 
+    link_assumptions=None
+    #link_assumptions=generate_link_assumptions(variables)
+
     return dataframe, merged_data, link_assumptions
 
+def generate_link_assumptions(variables):
+    # Exclude specific variable links
+    link_assumptions = {}
+
+    # Get substance variable indices
+    substance_indices = [i for i, var in enumerate(variables) if any(var.endswith(suffix) for suffix in ['_hours'])]
+
+    # Get indices for specific variables to exclude
+    num_sessions_idx = variables.index('num_sessions') if 'num_sessions' in variables else None
+    meditation_proportion_idx = variables.index('meditation_proportion') if 'meditation_proportion' in variables else None
+    mindfulness_idx = variables.index('mindfulness') if 'mindfulness' in variables else None
+    concentration_idx = variables.index('concentration') if 'concentration' in variables else None
+    happy_idx = variables.index('happy') if 'happy' in variables else None
+    content_idx = variables.index('content') if 'content' in variables else None
+    relaxed_idx = variables.index('relaxed') if 'relaxed' in variables else None
+    horny_idx = variables.index('horny') if 'horny' in variables else None
+
+    # Initialize empty dictionaries for all variables
+    for var_idx in range(len(variables)):
+        link_assumptions[var_idx] = {}
+
+    print(f"Excluding all links between {len(substance_indices)} substance variables")
+    print("Excluding definitional links: num_sessions ↔ meditation_proportion")
+
+    # Add all potential links EXCEPT excluded ones
+    for ii in range(len(variables)):
+        for jj in range(len(variables)):
+            if ii != jj:  # Don't add self-loops
+                for tau in range(1, 5):  # tau_min=1, tau_max=4
+                    # Skip ALL substance-to-substance links
+                    if ii in substance_indices and jj in substance_indices:
+                        continue
+
+                    # Skip definitional links: num_sessions ↔ meditation_proportion
+                    if (ii == num_sessions_idx and jj == meditation_proportion_idx) or \
+                       (ii == meditation_proportion_idx and jj == num_sessions_idx):
+                        continue
+
+                    link_assumptions[jj][(ii, -tau)] = 'o-o'  # Use undirected link
+
+    return link_assumptions
+
 async def run_causal_analysis():
-    dataframe, merged_data, link_assumptions = await prepare_tigramite_data(interval=INTERVAL, start_date='2022-10-01', filter_data=False)
+    dataframe, merged_data, link_assumptions = await prepare_tigramite_data(interval=INTERVAL, start_date='2022-10-01')
     print(merged_data.describe())
 
     parcorr = ParCorr(significance='analytic')
     pcmci = PCMCI(dataframe=dataframe, cond_ind_test=parcorr, verbosity=1)
 
-    link_assumptions=None
-
     # Run PCMCI+ algorithm with single link exclusion test
     if link_assumptions is not None:
-        results = pcmci.run_pcmciplus(tau_min=1, tau_max=4, pc_alpha=0.05, link_assumptions=link_assumptions)
+        results = pcmci.run_pcmciplus(tau_min=1, tau_max=8, pc_alpha=0.05, link_assumptions=link_assumptions)
     else:
-        results = pcmci.run_pcmciplus(tau_min=0, tau_max=4, pc_alpha=0.05)
+        results = pcmci.run_pcmciplus(tau_min=1, tau_max=8, pc_alpha=0.05)
 
     # Print significant links
     print("\nSignificant causal links at alpha = 0.05:")
