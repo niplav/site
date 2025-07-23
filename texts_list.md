@@ -98,7 +98,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [AIs aren’t conscious; computers are (Michael Edward Johnson, 2022)](https://opentheory.net/2022/12/ais-arent-conscious-but-computers-are/index.html)
 * [Qualia Astronomy & Proof of Qualia (Michael Edward Johnson, 2022)](https://opentheory.net/2022/06/qualia-astronomy/index.html)
 * [Emmy Noether and the symmetry aesthetic (Michael Edward Johnson, 2022)](https://opentheory.net/2022/04/emmy-noether-and-the-symmetry-aesthetic/index.html)
-* [Providers of General-Purpose AI Models — What We Know About Who Will Qualify (Risto Uuk)](https://artificialintelligenceact.eu/providers-of-general-purpose-ai-models-what-we-know-about-who-will-qualify/)
+* [Providers of General-Purpose AI Models — What We Know About Who Will Qualify (Risto Uuk, 2025)](https://artificialintelligenceact.eu/providers-of-general-purpose-ai-models-what-we-know-about-who-will-qualify/)
 * [Hoop conjecture (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Hoop_conjecture)
 * [Chladni's law (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Chladni's_law)
 * [Galactic superwind (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Galactic_superwind)
