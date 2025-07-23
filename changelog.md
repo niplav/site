@@ -27,9 +27,9 @@ July 2025
 ----------
 
 * [Notes](./notes.html)
-	* [Pergraphs](./notes.html#Pergraphs)
 	* [Avoiding Wireheading via Iterative Convergent Interventional Avoidance](./notes.html#Avoiding_Wireheading_via_Iterative_Convergent_Interventional_Avoidance)
 * [Anti-Superpersuasion Interventions](./persuasion.html)
+* [Pergraphs](./pergraphs.html)
 * [Text Reviews](./text_reviews.html):
 	* [Das Jahr 2000 findet nicht statt (Jean Baudrillard, 1990)](./text_reviews.html#Das_Jahr_2000_findet_nicht_statt_Jean_Baudrillard_1990)
 

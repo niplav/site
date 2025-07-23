@@ -90,6 +90,7 @@ HTML=index.html \
 	options.html \
 	orexin.html \
 	patching.html \
+	pergraphs.html \
 	persuasion.html \
 	pipe_rings.html \
 	platforms.html \

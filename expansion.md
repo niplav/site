@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2025-04-16, modified: 2025-04-16, language: english, status: in progress, importance: 7, confidence: certain*
+*author: niplav, created: 2025-04-16, modified: 2025-07-23, language: english, status: in progress, importance: 7, confidence: certain*
 
 > __.__
 
@@ -49,7 +49,7 @@ induction](https://en.wikipedia.org/wiki/Solomonoff_induction),
 but limited to programs of some maximum length
 `$l$` and some maximum runtime `$t$` (similar to
 [AIXI-tl](https://en.wikipedia.org/wiki/AIXI#Computational_aspects),
-where I'm not sure what the prior is. `$l$` is upper-bounded by the
+where I'm not sure what the prior is). `$l$` is upper-bounded by the
 information-content of the weights of the network: The number of bits in
 the program is pre-determined by how much you can fit into the floats of
 the weights. `$t$` is upper-bounded by the number of layers, as one can
@@ -146,11 +146,13 @@ learning.
 4. Do circuits from pre-expansion training stick around?
 5. Do the inductive biases of the deeper network "overwhelm" the available circuits in the smaller model?
 
-In an ambitious vision, training after model expansion is a tiny
-step towards a craft of intelligence: one in which different stages
-of a model are trained with different data, invariances are kept
-across scalings, interpretability tools transfer partially (or
-completely) because sometimes weights can be frozen, tracking [model
+In an ambitious vision, training after
+model expansion is a tiny step towards a [craft of
+intelligence](https://www.lesswrong.com/posts/gXinMpNJcXXgSTEpn/ai-craftsmanship):
+one in which different stages of a model are trained with
+different data, invariances are kept across scalings,
+interpretability tools transfer partially (or completely)
+because sometimes weights can be frozen, tracking [model
 splintering](https://www.lesswrong.com/s/kjcioCkqSSS4LiMAe/p/k54rgSg7GcjtXnMHX)…
 
 See Also

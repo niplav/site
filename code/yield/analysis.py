@@ -8,7 +8,7 @@ from tigramite.pcmci import PCMCI
 from tigramite.independence_tests.parcorr import ParCorr
 
 # Global configuration
-INTERVAL = '2h'
+INTERVAL = '1h'
 
 # Read raw meditation data
 async def load_meditation_data():
@@ -461,9 +461,9 @@ async def run_causal_analysis():
 
     # Run PCMCI+ algorithm with single link exclusion test
     if link_assumptions is not None:
-        results = pcmci.run_pcmciplus(tau_min=1, tau_max=8, pc_alpha=0.05, link_assumptions=link_assumptions)
+        results = pcmci.run_pcmciplus(tau_min=1, tau_max=24, pc_alpha=0.05, link_assumptions=link_assumptions)
     else:
-        results = pcmci.run_pcmciplus(tau_min=1, tau_max=8, pc_alpha=0.05)
+        results = pcmci.run_pcmciplus(tau_min=1, tau_max=24, pc_alpha=0.05)
 
     # Print significant links
     print("\nSignificant causal links at alpha = 0.05:")
