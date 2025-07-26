@@ -23,6 +23,8 @@ TODO:
 
 distinguish opportunity cost and incidental benefits from sunlight,
 light exercise and improvement of social skills
+
+Incorporate https://squigglehub.org/models/niplav/daygame
 -->
 
 Daygame Cost-Benefit Analysis

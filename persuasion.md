@@ -119,7 +119,7 @@ counter-measures, and the estimated effectiveness of such measures).
 * __Modality Limits__: People interacting with the model, be they model whisperers or not, should in preliminary testing only interact with the text-based input/output modality.
 	* *Order*: The right order for modalities to be introduced are then images, audio, video, audio+video.
 * __Interaction Limits__: People interacting with the model, be they model whisperers or not, should only interact with the model to a limited degree, e.g. less than a message/four minutes, and after one hour of interaction there needs to be a one-hour break.
-* __Output Type Restriction__: Output types are limited to mathematical proofs, code, scientific text. Potentially easily enforceable via sampling grammars<!--TODO: link-->.
+* __Output Type Restriction__: Output types are limited to mathematical proofs, code, scientific text. Potentially easily enforceable via [sampling grammars](https://github.com/ggml-org/llama.cpp/blob/master/grammars/README.md).
 	* Limit to ASCII/ASCII+whitelisted [unicode blocks](https://en.wikipedia.org/wiki/Unicode_block).
 
 ### Interventions Limited to Pre-Deployment

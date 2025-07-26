@@ -58,4 +58,13 @@ Currently, I am actively reading the following texts:
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * The Code Book (Simon Singh, 1999)
 * Die Chinesen (Stefan Baron/Guangyan Yin-Baron, 2019)
-* The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 6/1000.
+* The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 9/1000.
+	* [Book (2019)](https://en.wikipedia.org/wiki/Book)
+	* [Hammurabi (2023)](https://en.wikipedia.org/wiki/Hammurabi)
+	* [Ramesses II (2023)](https://en.wikipedia.org/wiki/Rameses_II)
+	* [Cyrus the Great (2023)](https://en.wikipedia.org/wiki/Cyrus_The_Great)
+	* [Alexander the Great (2023)](https://en.wikipedia.org/wiki/Alexander_The_Great)
+	* [China (2023)](https://en.wikipedia.org/wiki/China)
+	* [History of Asia (2023)](https://en.wikipedia.org/wiki/History_of_Asia)
+	* [Injury (2024)](https://en.wikipedia.org/wiki/Injury)
+	* [Human settlement (2024)](https://en.wikipedia.org/wiki/Human_settlement)

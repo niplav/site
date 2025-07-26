@@ -2650,4 +2650,29 @@ Ontological Cluelessness
 
 *Attention conservation notice*: Philosophy
 
+What is ontological cluelessness?
+
+How likely is it that we're in a state of ontological cluelessness?
+
+Are there any practical implications?
+
+Differentiating ontological cluelessness from radical skepticism, pyrrhonism, epistemological nihilism, mysticism, others.
+
+Ontological cluelessness as a pre-supposition for foundational (mostly
+continental) metaphysical work (e.g. Heidegger, Deleuze, perhaps
+Hegel? Whitehead?). Analytic metaphysics as mostly rejecting ontological
+cluelessness.
+
+Ontological cluing as the process in which one sheds ontological cluelessness.
+
+Additive vs. replacing ontological cluing.
+
+Ontological cluing and superintelligence.
+
+Superintelligences may help with ontological
+cluing *if* they are competent at philosophy and/or
+[metaphilosophy](https://www.lesswrong.com/posts/fJqP9WcnHXBRBeiBg/meta-questions-about-metaphilosophy).
+
+https://openrouter.ai/chat?room=orc-1753280867-yMbMjAjTGt2PRGrqrk3z
+
 -->

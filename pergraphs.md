@@ -8,6 +8,10 @@
 Pergraphs
 ==========
 
+<!--TODO: incorporate
+https://claude.ai/chat/43f2f7d1-278e-496f-8ad7-64688bd56a2d,
+https://claude.ai/chat/acce955d-4c42-4dde-8c3e-0a9ef304e370-->
+
 I am afflicted by a strange curse, which condemns me to be creative
 enough to find new mathematical structures, but too dumb to prove anything
 interesting about them.

@@ -17,6 +17,15 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Human settlement (Engish Wikipedia, 2024)](https://en.wikipedia.org/wiki/Human_settlement)
+* [Injury (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Injury)
+* [Lévy flight foraging hypothesis (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Lévy_flight_foraging_hypothesis)
+* [Petrie multiplier (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Petrie_multiplier)
+* [Images altered to trick machine vision can influence humans too (Gamaleldin Elsayed/Michael Mozer, 2024)](https://deepmind.google/discover/blog/images-altered-to-trick-machine-vision-can-influence-humans-too/)
+* [Radical skepticism (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Radical_skepticism)
+* [AI for AI safety (Joe Carlsmith, 2025)](https://joecarlsmith.com/2025/03/14/ai-for-ai-safety)
+* [Press Any Key For Bay Area House Party (Scott Alexander, 2025)](https://www.astralcodexten.com/p/press-any-key-for-bay-area-house)
+* [Moral patienthood (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Moral_patienthood)
 * [Paths and waystations in AI safety (Joe Carlsmith, 2025)](https://joecarlsmith.com/2025/03/11/paths-and-waystations-in-ai-safety)
 * [SCP-2165 (Dmatix, 2024)](https://scp-wiki.wikidot.com/scp-2165)
 * [Updatelessness and Son of X (Scott Garrabrant, 2016)](https://www.lesswrong.com/posts/5bd75cc58225bf067037528e/updatelessness-and-son-of-x)
@@ -439,7 +448,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Cantor's paradise (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Cantor's_paradise)
 * [Ply (game theory) (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Ply_(game_theory))
 * [Calor licitantis (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Calor_licitantis)
-* [Quanject (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Quaject)
+* [Quaject (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Quaject)
 * [Misericorde (weapon) (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Misericorde_(weapon))
 * [Parthenocarpy (English Wikipedia, 2023)](https://en.wikipedia.org/wiki/Parthenocarpy)
 * [Where Animals Come From (Kat McGowan, 2014)](https://www.quantamagazine.org/did-bacteria-drive-the-origins-of-animals-20140729/)
