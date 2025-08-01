@@ -1,0 +1,44 @@
+#!/usr/bin/env node
+
+const mjpage = require('mathjax-node-page').mjpage;
+const fs = require('fs');
+
+if (process.argv.length !== 3) {
+    console.error('Usage: prerender-mathjax <html-file>');
+    process.exit(1);
+}
+
+const filename = process.argv[2];
+
+try {
+    let html = fs.readFileSync(filename, 'utf8');
+
+    // Pre-process: Convert inline math in code blocks to regular inline math
+    // Transform <code>$...$</code> to just $...$
+    html = html.replace(/<code>\$([^$]+)\$<\/code>/g, '$$$1$$');
+
+    mjpage(html, {
+        format: ["TeX"],
+        singleDollars: true,
+        removeJax: true
+    }, {
+        svg: true,
+        useGlobalCache: true,
+        linebreaks: true,
+        MathJax: {
+            tex2jax: {
+                skipTags: []
+            }
+        }
+    }, function(output) {
+        try {
+            fs.writeFileSync(filename, output);
+        } catch (err) {
+            console.error(`Error writing file ${filename}:`, err.message);
+            process.exit(1);
+        }
+    });
+} catch (err) {
+    console.error(`Error reading file ${filename}:`, err.message);
+    process.exit(1);
+}

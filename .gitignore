@@ -13,3 +13,6 @@ __pycache__
 code/turning/*.csv
 anim/*/media
 notes_on_locations.*
+node_modules
+package.json
+package-lock.json

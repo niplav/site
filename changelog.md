@@ -28,15 +28,20 @@ July 2025
 
 * [Notes](./notes.html)
 	* [Avoiding Wireheading via Iterative Convergent Interventional Avoidance](./notes.html#Avoiding_Wireheading_via_Iterative_Convergent_Interventional_Avoidance)
+	* [No Yield From Causal Inference on My Data](./notes.html#No_Yield_From_Causal_Inference_on_My_Data)
 * [Anti-Superpersuasion Interventions](./persuasion.html)
-* [Pergraphs](./pergraphs.html)
+* [Pergraphs](./pergraphs.html)<!--TODO: include at all???-->
 * [Text Reviews](./text_reviews.html):
 	* [Das Jahr 2000 findet nicht statt (Jean Baudrillard, 1990)](./text_reviews.html#Das_Jahr_2000_findet_nicht_statt_Jean_Baudrillard_1990)
 
 ### Links
 
+* [Stamina Succeeds (Robin Hanson, 2019)](https://www.overcomingbias.com/p/stamina-succeedshtml)
+* [Reason’s Overreach (Robin Hanson, 2025)](https://www.overcomingbias.com/p/reasons-overreach)
+* [Updatelessness and Son of X (Scott Garrabrant, 2016)](https://www.lesswrong.com/posts/5bd75cc58225bf067037528e/updatelessness-and-son-of-x)
 * [Blotto game (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Blotto_game)
 * [Parakaryon myojinensis (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Parakaryon)
+* [Lévy flight foraging hypothesis (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Lévy_flight_foraging_hypothesis)
 
 June 2025
 ----------
