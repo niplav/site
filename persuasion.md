@@ -98,7 +98,7 @@ anti-persuasion measures could look like.
 * __No One-Shotting__: Persuasion is not wildly superhuman, needs to be gradual, e.g. no ten words that convince someone to commit suicide.
 	* There are at least two different variants of superpersuasion, which form two ends of a spectrum:
 		* *Recognizable Persuasion*: AI systems build trust with users or developers, are charming and charismatic, report information selectively &c, only to use that trust later to subvert safeguards.
-		* *Adversarial Examples*: Human brains could have [adversarial inputs](https://en.wikipedia.org/wiki/Adversarial_input) similar to [optical illusions](https://en.wikipedia.org/wiki/Optical_Illusion) but for more general cognitive functions, which circumvent specific parts of the brain and cause others to be activated more than normally. If those exist, they could allow for a fast and potentially complete circumvention of conscious processing.
+		* *Adversarial Examples*: Human brains could have [adversarial inputs](https://en.wikipedia.org/wiki/Adversarial_input) similar to [optical illusions](https://en.wikipedia.org/wiki/Optical_Illusion) but for more general cognitive functions, which circumvent specific parts of the brain and cause others to be activated more than normally. If those exist, they could allow for a fast and potentially complete circumvention of conscious processing. (Indeed, humans can [already subconsciously detect adversarial noise](https://deepmind.google/discover/blog/images-altered-to-trick-machine-vision-can-influence-humans-too/).)
 
 Some Ideas for Interventions
 ----------------------------
@@ -197,6 +197,21 @@ this may be a bit boring, and is mostly a sketch.)
 		3. Attempt to circumvent rate limits or modality limits.
 	2. If a model whisperers attempts any of the above, the model relation manager shall be notified within 8 hours.
 9. PS-9 (**Position Descriptions**): Skipped.
+
+Appendix B: Slightly More Arguments That Superpersuasion is Possible
+---------------------------------------------------------------------
+
+* McCollough Effect
+* Dancing mania and in general [social contagion](https://en.wikipedia.org/wiki/Social_contagion)
+* Cults
+* Humans can [subliminally perceive adversarial examples for AI vision models](https://deepmind.google/discover/blog/images-altered-to-trick-machine-vision-can-influence-humans-too/)
+
+Two kinds of objections:
+
+1. Humans are too reliable/too hardened against superpersuasion
+2. There would be exploits, but they are impossible to find because
+	1. Prospective superpersuaders don't have the relevant access to information about human brains (no gradients)
+	2. Human brains are too heterogeneous for generalizable attacks
 
 <!--Claude Chats:
 https://claude.ai/chat/9b59090a-d1b1-4cff-b0ce-77e439b027f4

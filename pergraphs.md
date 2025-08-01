@@ -21,6 +21,8 @@ Inspired by [(A -> B) -> A (Scott Garrabrant,
 
 ![](./img/pergraphs/garrabrant.png)
 
+<!--TODO: fold the above into the paragraph below-->
+
 On a meditation retreat in 2022 I was remembering that post and just
 doodled the above image in my notebook, together with some other graphs
 where edges could go between edges. I'll call those "pergraphs"; they

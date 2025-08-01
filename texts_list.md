@@ -17,6 +17,21 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [The Error of Crowds (Eliezer Yudkowsky, 2007)](https://www.lesswrong.com/posts/zAvhTnQX6ynJF7pyh/the-error-of-crowds)
+* [Having to Do Something Wrong (Matthew Pianalto, 2007)](https://www.overcomingbias.com/p/having_to_do_sohtml)
+* [The Majority Is Always Wrong (Eliezer Yudkowsky, 2007)](https://www.lesswrong.com/posts/yxFkuyPANtL6GSwiC/the-majority-is-always-wrong)
+* [A Tough Balancing Act (Patri Friedman, 2007)](https://www.overcomingbias.com/p/a_tough_balancihtml)
+* [Mapping Academia (Robin Hanson, 2007)](https://www.overcomingbias.com/p/mapping_academihtml)
+* [Overcoming Fiction (Robin Hanson, 2007)](https://www.overcomingbias.com/p/overcoming_ficthtml)
+* [Do moral systems have to make sense? (Stuart Armstrong, 2007)](https://www.overcomingbias.com/p/do_moral_systemhtml)
+* [Useful Statistical Biases (Eliezer Yudkowsky, 2007)](https://www.lesswrong.com/posts/Wwq6WFpx9HyzwgCKx/useful-statistical-biases)
+* [Can we safely automate alignment research? (Joe Carlsmith, 2025)](https://joecarlsmith.com/2025/04/30/can-we-safely-automate-alignment-research)
+* [Reason’s Overreach (Robin Hanson, 2025)](https://www.overcomingbias.com/p/reasons-overreach)
+* [Bach Faucet (janus/ryunuck/catalyst, 2024)](https://cyborgism.wiki/hypha/bach_faucet)
+* [Almo Capture (janus/catalyst, 2024)](https://cyborgism.wiki/history/almo_capture)
+* [Wahgenic (janus, 2024)](https://cyborgism.wiki/hypha/wahgenic)
+* [Stamina Succeeds (Robin Hanson, 2019)](https://www.overcomingbias.com/p/stamina-succeedshtml)
+* [Polylogarithmic function (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Polylogarithmic_function)
 * [Human settlement (Engish Wikipedia, 2024)](https://en.wikipedia.org/wiki/Human_settlement)
 * [Injury (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Injury)
 * [Lévy flight foraging hypothesis (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Lévy_flight_foraging_hypothesis)

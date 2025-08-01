@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-07-23, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-07-27, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2478,7 +2478,8 @@ Disadvantages: Fairly small, not as ancient as the arapaima
 Error Correction as a Replacement Backstop
 -------------------------------------------
 
-<!--https://claude.ai/chat/586fc048-6850-4490-b8c9-aa62184fd045-->
+<!--https://claude.ai/chat/586fc048-6850-4490-b8c9-aa62184fd045
+https://openrouter.ai/chat?room=orc-1753958379-C529vo3DsTbX1jZrBTuM-->
 
 Is evolution or something like evolution
 [necessary](https://gwern.net/Backstop) to ensure that systems stay and
@@ -2545,6 +2546,11 @@ It has found the concept of
 [redundancy](https://en.wikipedia.org/wiki/Redundancy_\(information_theory\)),
 in [genes](https://en.wikipedia.org/wiki/Gene_Redundancy) and
 [cytokines](https://en.wikipedia.org/wiki/Cytokine_redundancy).
+
+See also:
+
+* [Reason's Overreach (Robin Hanson, 2025)](https://www.overcomingbias.com/p/reasons-overreach)
+* [Can Goodness Compete? (Joe Carlsmith, 2025)](https://www.youtube.com/watch?v=i6RMHcMbqQw), [transcript](https://www.lesswrong.com/posts/evYne4Xx7L9J96BHW/video-and-transcript-of-talk-on-can-goodness-compete)
 
 Written While Riding the BART for the First Time
 --------------------------------------------------
@@ -2655,6 +2661,10 @@ What is ontological cluelessness?
 How likely is it that we're in a state of ontological cluelessness?
 
 Are there any practical implications?
+
+Reference Bostrom
+
+Local maximum analogy
 
 Differentiating ontological cluelessness from radical skepticism, pyrrhonism, epistemological nihilism, mysticism, others.
 

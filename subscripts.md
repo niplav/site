@@ -30,6 +30,8 @@ relevant forecasting platform with the same question:
 
 > I think Donald Trump is going to be incarcerated before 2030<sub>[65%](https://www.metaculus.com/questions/10832/donald-trump-jailed-by-2030/)</sub>.
 
+<!--TODO: needlessly political example-->
+
 This is *almost* as readable as the sentence without the probability.
 
 There are some complications with negations in sentences or multiple
