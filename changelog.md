@@ -26,21 +26,25 @@ content.
 July 2025
 ----------
 
-* [Notes](./notes.html)
-	* [Avoiding Wireheading via Iterative Convergent Interventional Avoidance](./notes.html#Avoiding_Wireheading_via_Iterative_Convergent_Interventional_Avoidance)
-	* [No Yield From Causal Inference on My Data](./notes.html#No_Yield_From_Causal_Inference_on_My_Data)
 * [Anti-Superpersuasion Interventions](./persuasion.html)
-* [Pergraphs](./pergraphs.html)<!--TODO: include at all???-->
+* [Notes](./notes.html)
+	* [Avoiding Wireheading via Iterative Convergent Interventional Avoidance](./notes.html#Avoiding_Wireheading_via_Iterative_Convergent_Interventional_Avoidance): Sketch of an AI alignment technique.
+	* [No Yield From Causal Inference on My Data](./notes.html#No_Yield_From_Causal_Inference_on_My_Data): Running [tigramite](https://jakobrunge.github.io/tigramite/) on a bunch of QS data didn't give me any useful hints on which experiments to run next. Disappointing, but unsurprising.
+* [Abstinence from Masturbation and Success from Cold Approach](./masturbation.html#Amount_of_Approaches#Amount_of_Approaches): Abstaining from masturbation makes me approach me approach women more often.
 * [Text Reviews](./text_reviews.html):
-	* [Das Jahr 2000 findet nicht statt (Jean Baudrillard, 1990)](./text_reviews.html#Das_Jahr_2000_findet_nicht_statt_Jean_Baudrillard_1990)
+	* [Das Jahr 2000 findet nicht statt (Jean Baudrillard, 1990)](./text_reviews.html#Das_Jahr_2000_findet_nicht_statt_Jean_Baudrillard_1990): German review, I'm not convinced by Baudrillard.
+
+Mathjax is now pre-compiled using
+[mathjax-node-page](https://github.com/pkra/mathjax-node-page), so
+math-heavy pages should load a bunch faster.
 
 ### Links
 
 * [Stamina Succeeds (Robin Hanson, 2019)](https://www.overcomingbias.com/p/stamina-succeedshtml)
-* [Reason’s Overreach (Robin Hanson, 2025)](https://www.overcomingbias.com/p/reasons-overreach)
+* [Reason’s Overreach (Robin Hanson, 2025)](https://www.overcomingbias.com/p/reasons-overreach): The counter-perspective to [X as a Replacement Backstop](./notes.html#Error_Correction_as_a_Replacement_Backstop). Typically Hansonianly pessimistic.
 * [Updatelessness and Son of X (Scott Garrabrant, 2016)](https://www.lesswrong.com/posts/5bd75cc58225bf067037528e/updatelessness-and-son-of-x)
-* [Blotto game (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Blotto_game)
 * [Parakaryon myojinensis (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Parakaryon)
+* [Blotto game (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Blotto_game): Equilibria in Blotto games of spheres/balls are probably important to figure out the long-term scaling of offense vs. defense.
 * [Lévy flight foraging hypothesis (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Lévy_flight_foraging_hypothesis)
 
 June 2025

@@ -2335,6 +2335,7 @@ How would we figure out which of these models is correct?
 Notes:
 
 * [@quetzal\_rainbow](https://x.com/quetzal_rainbow/status/1910948346887368819): "There seems to be genetic difference between speed and accuracy. Tasks that depend on going and iterating fast are normal, tasks where you need to do everything perfectly are lognormal"
+* [How wide is "human-level" intelligence? (tickybob, 2025)](https://www.lesswrong.com/posts/ofTS3GrHj9QBEALzA/how-wide-is-human-level-intelligence)
 
 <!--TODO: incorporate https://claude.ai/chat/2abf0c08-36ca-45ce-9a97-821647fe7b65-->
 
@@ -2684,5 +2685,11 @@ cluing *if* they are competent at philosophy and/or
 [metaphilosophy](https://www.lesswrong.com/posts/fJqP9WcnHXBRBeiBg/meta-questions-about-metaphilosophy).
 
 https://openrouter.ai/chat?room=orc-1753280867-yMbMjAjTGt2PRGrqrk3z
+
+-->
+
+<!--
+Tegmark II and Futurism
+------------------------
 
 -->
