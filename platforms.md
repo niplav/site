@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-04, modified: 2025-06-20, language: english, status: in progress, importance: 7, confidence: certain*
+*author: niplav, created: 2023-01-04, modified: 2025-08-08, language: english, status: in progress, importance: 7, confidence: certain*
 
 > __There are too many possible quantified self experiments to run. Do
 hobbyist prediction platforms[^1] make priorisation easier? I test
@@ -11,7 +11,7 @@ of various [nootropics](https://en.wikipedia.org/wiki/Nootropics)
 on absorption in meditation. The first experiment
 (testing the Pomodoro method) results in a [log
 score](https://en.wikipedia.org/wiki/Proper_scoring_rule#Logarithmic_score)
-of [-0.326](#Scoring_the_Market) for the market, the second experiment
+of [-0.326](#Scoring_the_Market) for the market, the [second experiment](./nootropics.html#Experiment_C_SelfBlinded_RCT)
 (testing Vitamin D₃) results in a log score of -0.333<!--TODO:- link-->
 — pretty good.__
 
@@ -283,26 +283,26 @@ of Vitamin D₃ on absorption (more at the link).
 
 ### Scoring the Market
 
-I can now score the market:
+I can now score the market with the results from the two experiments:
 
 	import numpy as np
 
 	def logscore(o,p):
             return np.mean(o*np.log(p)+(np.ones_like(o)-o)*np.log(np.ones_like(p)-p))
 
-	p=np.array([0.06, 0.29, 0.39, 0.19, 0.07])
-	o=np.array([0, 0, 1, 0, 0])
-	logscore(o, p)
+	pomodoro_p=np.array([0.06, 0.29, 0.39, 0.19, 0.07])
+	pomodoro_o=np.array([0, 0, 1, 0, 0])
+	logscore(pomodoro_o, pomodoro_p)
 	-0.3258531953347593
 
-	p=np.array([0.39, 0.41, 0.08, 0.06, 0.05])
-	o=np.array([1, 0, 0, 0, 0])
-	logscore(o, p)
+	vitamin_p=np.array([0.39, 0.41, 0.08, 0.06, 0.05])
+	vitamin_o=np.array([1, 0, 0, 0, 0])
+	logscore(vitamin_o, vitamin_p)
 	-0.3331583177971012
 
-Honestly: The market did pretty well.
+Honestly: The markets did pretty well.
 
-0.864 Bits of Evidence for Futarchy
+0.836 Bits of Evidence for Futarchy
 ------------------------------------
 
 So, [I put up some prediction markets on the results of quantified
@@ -314,11 +314,79 @@ How much should the performance of the market change our opinion about
 the viability of using prediction platforms to predict RCTs, and thus be
 plausibly useful in selecting experiments to run and actions to perform?
 
-Output of the script:
+One issue here is that we only observed two datapoints: Two logscores
+from the markets on the Pomodoro method (-0.326) and the Vitamin D₃
+experiment (-0.333). Qualitatively these are already fairly assuring
+because they're both far better than a random score of -0.69. But if we
+want to quantify the amount of information we've gained, we can do that
+by performing a Bayesian update.
 
-	=== MCMC Bayesian Analysis ===
-	Data: [0.326 0.333]
-	Model: distances ~ HalfNormal(σ)
+For that, we need a prior. What prior to choose? I
+tried fiddling around a bit with the [exponential
+distribution](https://en.wikipedia.org/wiki/Exponential_distribution),
+which is the [maximum entropy
+distribution](https://en.wikipedia.org/wiki/Maximum_entropy_distribution)
+over possible logscores, only nailed down by the mean of
+the distribution. That one is great because it's a [conjugate
+prior](https://en.wikipedia.org/wiki/Conjugate_prior), and represents
+a status of minimal knowledge.
+
+But I didn't go with that one because… I wasn't getting the pretty
+results I wanted[^bad]. A thing that happened was that I'd calculate
+the resulting distribution after two updates, but the first
+update would be very aggressive and the second update would then
+update away *harder* than the first update had updated towards
+the datapoints, causing a net information *loss*.<!--TODO: find
+claude conversation, go through examples & calculations-->
+
+[^bad]: This is very bad statistical practice. I'm doing this because I want a cutesy title with a positive number of of bits as an update, and because I wanted to learn how to do Bayesian updating using computers.
+
+So I decided to pick a different prior, and landed on the [half normal
+distribution](https://en.wikipedia.org/wiki/Half-normal_distribution),
+which has some nicer properties than the exponential distribution—for
+one, it doesn't have both a mean (-0.69) and a median (-1.0) that are
+both as bad as or worse than chance, but with prediction markets we
+expect very few scores to be worse than chance, especially in the
+long-term. But the half normal distribution can't be updated in a
+closed-form solution, so instead I had to write a short script using
+[pymc](https://en.wikipedia.org/wiki/PyMC).
+
+Summary visualization of the update:
+
+![](./img/platforms/update.png)
+
+The script[^thank] initializes the model with the
+half normal prior, which in turn has a [standard
+deviation](https://en.wikipedia.org/wiki/Standard_Deviation) distributed
+with `HalfNormal("sigma", sigma=0.5)`. We then update on `observed=[0.326,
+0.333]`:
+
+	with pm.Model() as adaptive_model:
+	    σ = pm.HalfNormal('sigma', sigma=0.5)
+	    obs = pm.HalfNormal('distances', sigma=σ, observed=distances)
+	    trace = pm.sample(2000, tune=1000, chains=4, target_accept=0.95,
+	                      return_inferencedata=True)
+
+[^thank]: Thanks to Claude 4 Sonnet for writing the code and walking me through the process.
+
+We can then observe the samples for the new standard deviation
+
+	σ_samples = trace.posterior.sigma.values.flatten()
+	σ_mean = np.mean(σ_samples)
+
+and calculate the log-likelihoods, the Bayes factor, and the number of bits in the update:
+
+	results = {}
+	null_σ = null_sigmas[0]
+
+	ll_adaptive = np.sum(stats.halfnorm.logpdf(distances, scale=σ_mean))
+	ll_null = np.sum(stats.halfnorm.logpdf(distances, scale=null_σ))
+
+	log_bf = ll_adaptive - ll_null
+	bits = log_bf / np.log(2)
+	bf = np.exp(log_bf)
+
+The whole script has this output:
 
 	Initializing NUTS using jitter+adapt_diag...
 	Multiprocess sampling (4 chains in 2 jobs)
@@ -326,35 +394,29 @@ Output of the script:
 
 	  Progress                                   Draws   Divergences   Step size   Grad evals   Sampling Speed    Elapsed   Remaining
 	 ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-	  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   3000    0             1.12        7            1112.32 draws/s   0:00:02   0:00:00
-	  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   3000    0             0.75        7            1127.34 draws/s   0:00:02   0:00:00
-	  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   3000    0             0.54        3            556.78 draws/s    0:00:05   0:00:00
-	  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   3000    0             0.78        3            560.21 draws/s    0:00:05   0:00:00
+	  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   3000    0             0.69        1            1165.53 draws/s   0:00:02   0:00:00
+	  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   3000    0             1.12        3            1135.09 draws/s   0:00:02   0:00:00
+	  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   3000    0             0.48        1            600.10 draws/s    0:00:04   0:00:00
+	  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   3000    0             0.78        1            566.57 draws/s    0:00:05   0:00:00
 
 	Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 5 seconds.
 	Posterior summary:
 	        mean     sd  hdi_3%  hdi_97%  mcse_mean  mcse_sd  ess_bulk  ess_tail  r_hat
-	sigma  0.435  0.195   0.151    0.795      0.004    0.004    2593.0    2976.0    1.0
+	sigma  0.434  0.199   0.156    0.811      0.004    0.004    2582.0    2939.0    1.0
 
-	Posterior mean σ: 0.435
+	Posterior mean σ: 0.434
 
 	vs Null σ = 0.7:
-	  Log likelihood (adaptive): 0.639
+	  Log likelihood (adaptive): 0.642
 	  Log likelihood (null): 0.040
-	  Evidence: 0.86 bits
+	  Evidence: 0.87 bits
 	  Bayes factor: 1.8:1 in favor of adaptive
 
+	Posterior mean σ: 0.434
+	95% credible interval: [0.156, 0.844]
 
-	=== Final Summary ===
-	Posterior mean σ: 0.435
-	95% credible interval: [0.153, 0.833]
-
-	Strongest evidence: 0.864 bits
+	Evidence: 0.868 bits
 	(vs null hypothesis σ = 0.7)
-
-![](./img/platforms/update.png)
-
-<!--TODO: resize image-->
 
 Acknowledgements
 -----------------

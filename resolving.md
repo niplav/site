@@ -1232,7 +1232,7 @@ of vertices `$\Sigma_1, \dots, \Sigma_n$` so that `$\biguplus_{i=1}^n
 \Sigma_i=\Omega$` and
 
 <div>
-	$$\forall c \in \{1, \dots, n\}: \bigcup_{i=1}^c \Sigma_i \text{ completely dominates } \bigcup_{j=c+1}^n \Sigma_j$$,
+	$$\forall c \in \{1, \dots, n\}: \bigcup_{i=1}^c \Sigma_i \text{ completely dominates } \bigcup_{j=c+1}^n \Sigma_j$$
 </div>
 
 then for any `$C\in f(G)$` with `$C=(\Omega, E_C)$` it holds that `$\forall
