@@ -17,6 +17,10 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Energetic Aliens (Stephen Malina, 2021)](https://stephenmalina.com/post/2021-07-01-energetic-aliens-among-us/)
+* [SCP-8900-EX (tunedtoadeadchannel, 2025)](https://scp-wiki.wikidot.com/scp-8900-ex)
+* |10 Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report (Shanghai Artificial Intelligence Laboratory, 2025)
+* [Great refusal (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Great_Refusal)
 * [The Error of Crowds (Eliezer Yudkowsky, 2007)](https://www.lesswrong.com/posts/zAvhTnQX6ynJF7pyh/the-error-of-crowds)
 * [Having to Do Something Wrong (Matthew Pianalto, 2007)](https://www.overcomingbias.com/p/having_to_do_sohtml)
 * [The Majority Is Always Wrong (Eliezer Yudkowsky, 2007)](https://www.lesswrong.com/posts/yxFkuyPANtL6GSwiC/the-majority-is-always-wrong)

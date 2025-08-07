@@ -262,7 +262,7 @@ One also loses the time of being able to use the old object: Let's
 say that one owns a table, but for some reason has decided that it
 isn't sufficient anymore (although it still fulfills its purpose).
 Let's say one estimates that the table will fulfill its function for
-another 5 years. If one then goes out and buys a new table for \\$200,
+another 5 years. If one then goes out and buys a new table for \$200,
 one then loses (with a discount rate of 1%) `$\$200-\$200*0.99^5=\$9.80$`.
 
 ### Explanations
@@ -444,7 +444,7 @@ is true that it's often hard to point to specific advantages of doing so.
 
 One such advantage may be signing up for cryonics. [I
 estimate](./considerations_on_cryonics.html "Considerations on Cryonics")
-that signing up for cryonics is worth \\$2.5m in expectation for a twenty
+that signing up for cryonics is worth \$2.5m in expectation for a twenty
 year old (and more for older people). Assume that after 500 hours reading
 Less Wrong, a person will decide to sign up for cryonics (it broadly
 took me that much time, maybe a little bit less).
@@ -1541,7 +1541,7 @@ or AGI corporations.
 How much wealth does one need to have to survive, ideally indefinitely?
 
 __Finding__: If you lose your job at the start of the singularity, with
-monthly spending of \\$1k, you need ~\\$71k in total of capital. This
+monthly spending of \$1k, you need ~\$71k in total of capital. This
 number doesn't look very sensitive to losing one's job slightly later.
 
 At the moment, the world economy is growing at a pace that leads to
@@ -2013,7 +2013,7 @@ As per [Grall
 2017](doc/sociology/custodial_mothers_and_fathers_and_their_child_support_grall_2017.pdf "Custodial Mothers and Fathers and Their Child Support: 2017"),
 "custodial parents with legal order or informal agreements for child
 support were supposed to receive, on average, $5,519, or approximately
-\\$460 per month" (p. 9) (as per Table 2 p. 16, \\$5580 per custodial
+\$460 per month" (p. 9) (as per Table 2 p. 16, \$5580 per custodial
 mother). "[A]bout 4 of every 5 (79.9 percent) of the 12.9 million
 custodial parents were mothers" (p. 1), to be more exact,
 12,918,000 (p. 16). I will assume that one father per mother is
@@ -2032,23 +2032,23 @@ the US above the age of 18, the expected value of child support paid per year is
 
 Freezing sperm is surprisingly expensive. [CostAide
 2020](https://costaide.com/freezing-sperm-cost/ "How Much Does Freezing Sperm Cost") states that "There
-is an up-front fee worth \\$1000 to \\$1200. Its breakdown includes account
+is an up-front fee worth \$1000 to \$1200. Its breakdown includes account
 setup, blood draw used to check for viruses and illness and the annual
-storage fee" and "if you store a perm for 1 year the cost will be \\$395. A
-2-year storage is \\$670, 3 years is \\$985, 5 years is \\$1340 and 10 years
-is \\$2400".
+storage fee" and "if you store a perm for 1 year the cost will be \$395. A
+2-year storage is \$670, 3 years is \$985, 5 years is \$1340 and 10 years
+is \$2400".
 
 [Stacey 2020](https://www.verywellhealth.com/how-much-does-a-vasectomy-cost-906900 "The Cost of a Vasectomy")
 (please take a second to note the slight nominative determinism) states
-that "In the United States, a vasectomy costs between \\$300 to \\$3000". To
-make the calculation easier, I will assume that a vasectomy costs \\$1000.
+that "In the United States, a vasectomy costs between \$300 to \$3000". To
+make the calculation easier, I will assume that a vasectomy costs \$1000.
 
 Assuming that sperm would be frozen for 25 years, while child support
 lasts for around 18 years, that would give a cost of
 `$\$1000 + \$1000 + 25\hbox{years}*\frac{\$2400}{10\hbox{years}}=\$8000$`.
 
 The benefit would be `$18\hbox{years}*713.73\frac{\$}{\hbox{year}}=\$12847.14$`,
-with a value of ~\\$4850.
+with a value of ~\$4850.
 
 Under this very crude calculation, freezing sperm and having a vasectomy might very
 well be worth it. However, there are other additional costs to consider, such
@@ -2483,9 +2483,10 @@ Error Correction as a Replacement Backstop
 https://openrouter.ai/chat?room=orc-1753958379-C529vo3DsTbX1jZrBTuM-->
 
 Is evolution or something like evolution
-[necessary](https://gwern.net/Backstop) to ensure that systems stay and
-functional don't decay, or can cognition and error-corrected thinking hew
-close enough to reality to not get dissolved by environmental pressures?
+[necessary](https://gwern.net/Backstop) to ensure that systems stay
+functional and don't decay, or can cognition and error-corrected thinking
+hew close enough to reality to not get dissolved by environmental
+pressures?
 
 Minds can be seen as trying to offload selection pressure from mutated
 copies of the mind onto thoughts in their brain, but biological organisms

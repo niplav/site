@@ -440,7 +440,7 @@ Texts
 	* transformation curves: {linear, marginal, any}
 	* indifference curves: {linear, fixed number, any}
 * Building A Big Tower
-	* 500 years, ~\\$1t, stable technology, build a tower as big as possible
+	* 500 years, ~\$1t, stable technology, build a tower as big as possible
 	* considerations
 		* location
 			* some mountains nearby for material

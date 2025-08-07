@@ -775,7 +775,7 @@ because if `$f(x_1)=f(x_2)=y$` for `$x_1 \neq x_2$`, then
 
 $g$ is surjective, since every element in `$\hbox{dom } f \subset Y$` has
 exactly one corresponding element in $X$ through $g$, but elements in `$Y - \hbox{dom } f$`
-must also be mapped to $X$ (it could be that
+must also be mapped to `$X$` (it could be that
 `$Y - \hbox{dom } f=\emptyset$`, but that is not guaranteed).
 
 □

@@ -30,7 +30,7 @@ July 2025
 * [Notes](./notes.html)
 	* [Avoiding Wireheading via Iterative Convergent Interventional Avoidance](./notes.html#Avoiding_Wireheading_via_Iterative_Convergent_Interventional_Avoidance): Sketch of an AI alignment technique.
 	* [No Yield From Causal Inference on My Data](./notes.html#No_Yield_From_Causal_Inference_on_My_Data): Running [tigramite](https://jakobrunge.github.io/tigramite/) on a bunch of QS data didn't give me any useful hints on which experiments to run next. Disappointing, but unsurprising.
-* [Abstinence from Masturbation and Success from Cold Approach](./masturbation.html#Amount_of_Approaches#Amount_of_Approaches): Abstaining from masturbation makes me approach me approach women more often.
+* [Abstinence from Masturbation and Success from Cold Approach](./masturbation.html#Amount_of_Approaches): Abstaining from masturbation makes me approach me approach women more often.
 * [Text Reviews](./text_reviews.html):
 	* [Das Jahr 2000 findet nicht statt (Jean Baudrillard, 1990)](./text_reviews.html#Das_Jahr_2000_findet_nicht_statt_Jean_Baudrillard_1990): German review, I'm not convinced by Baudrillard.
 
@@ -386,7 +386,7 @@ March 2024
 * [Trying to Disambiguate Different Questions about Whether Humans are Turing Machines](./general.html). Takeaway: They aren't.
 * [How Often Does ¬Correlation ⇏ ¬Causation?](./cause.html): Almost always is my best current guess.
 * [Notes](./notes.html)
-	* [A FIRE Upon the Deep](./notes.html#A_FIRE_Upon_the_Deep): I now want to prioritize earning enough money to have \\$100k in capital, afterwards I'll be more relaxed.
+	* [A FIRE Upon the Deep](./notes.html#A_FIRE_Upon_the_Deep): I now want to prioritize earning enough money to have \$100k in capital, afterwards I'll be more relaxed.
 	* [Research Consultants List](./notes.html#Research_Consultants_List)
 	* Moved [Discord Servers for Textbooks](./textbook_discord_servers.html) to [a note](./notes.html#Discord_Servers_for_Textbooks)
 * [Naming ASCII characters](./language.html#Naming_ASCII_Characters)

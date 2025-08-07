@@ -345,9 +345,9 @@ and [Tomasik
 2016](https://reducing-suffering.org/the-importance-of-insect-suffering/ "The Importance of Insect Suffering")
 as introductions):
 
-> the cost-effectiveness of the \\$1 million campaign to eliminate
+> the cost-effectiveness of the \$1 million campaign to eliminate
 mosquitoes would be (7.5 * 10¹⁴ insect-years prevented) *
-(0.0025) / \\$1 million = 1.9 * 10⁶ insect-years prevented per
+(0.0025) / \$1 million = 1.9 * 10⁶ insect-years prevented per
 dollar [by increasing human population]. As one might expect,
 this is much bigger than the impact on mosquito populations
 directly as calculated in the previous section.

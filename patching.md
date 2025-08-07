@@ -5,7 +5,7 @@
 
 > __Trying to make the internet secure from takeover by advanced
 AI systems by removing exploits from open-source software
-[would cost at least](#Who_Pays) ~\\$31 mio./~\\$1.9 bio./~\\$168
+[would cost at least](#Who_Pays) ~\$31 mio./~\$1.9 bio./~\$168
 bio. (5th/50th/95th percentile estimate), mean estimate ~\$140 bio. But
 hardware or software/hardware hybrid vulnerabilities [are harder to
 fix](#Hybrid_and_Hardware_Vulnerabilities), and [open-source maintainers
@@ -78,14 +78,14 @@ Finding vulnerabilities in all the relevant security
 infrastructure of the internet and fixing them might be
 *expensive*. 1 mio. input tokens for [Gemini 2.0 Flash
 cost](https://cloud.google.com/vertex-ai/generative-ai/pricing)
-\\$0.15, and \\$0.60 for output tokens—but a model able
+\$0.15, and \$0.60 for output tokens—but a model able
 to find & find fixes to security vulnerabilities is going
 to be more expensive. An AI-generated me-adjusted [Squiggle
 model](https://squigglehub.org/models/niplav/automated_internet_hardening)
 estimates that __it'd cost (median estimate) ~\$1.9
 bio. to fix most vulnerabilities in open-source software (90%
 [confidence-interval](https://en.wikipedia.org/wiki/Confidence_Interval):
-~\\$31 mio. to ~\\$168 bio., mean estimated cost is… *gulp*… ~\\$140
+~\$31 mio. to ~\$168 bio., mean estimated cost is… *gulp*… ~\$140
 bio.)__.
 
 ![](./img/patching/cost.png)

@@ -31,8 +31,8 @@ Some Civilizational Inadequacies
 			* Increased crash probabilities from higher cognitive load.
 		* Further relevant numbers
 			* It seems like automatic cars [are now *more* fuel efficient than manual ones](https://20somethingfinance.com/manual-transmission-savings/), at ~\$60 per 1000 kilometers.<!--TODO: maybe use http://www.fueleconomy.gov/ -->
-			* On the other hand, automatic gearshifting mechanisms [are far more expensive to repair](https://www.fbfs.com/learning-center/automatic-vs-manual-cars-costs-to-consider), at a cost of ~\\$2k-\\$4k, whereas manual transmission replacement costs ~\\$1.5k-\\$3k.
-			* Additionally, [this page](https://20somethingfinance.com/manual-transmission-savings/) states that manual cars are still ~\\$1k cheaper than automatic ones.
+			* On the other hand, automatic gearshifting mechanisms [are far more expensive to repair](https://www.fbfs.com/learning-center/automatic-vs-manual-cars-costs-to-consider), at a cost of ~\$2k-\$4k, whereas manual transmission replacement costs ~\$1.5k-\$3k.
+			* Additionally, [this page](https://20somethingfinance.com/manual-transmission-savings/) states that manual cars are still ~\$1k cheaper than automatic ones.
 			* The world produces about [100 mio. cars per year](https://en.wikipedia.org/wiki/Car_production#World_motor_vehicle_production).
 * Courses at university are not 3blue1brown + Q&A + extensive quizzes (or automated tutoring à la DARPA).
 * TSA security theater.
@@ -54,9 +54,9 @@ dollar more?) and current aesthetic sensibilities speak against it.
 
 With [a squiggle model](https://squigglehub.org/models/niplav/shoelaces)
 based on an AI-generated model, I estimate that the annual benefit
-of switching to velcro shoes would be worth \\$80B in expectation
-(5th/50th/95th percentile: \\$-34B, \\$66B, \\$260B), assuming that
-aesthetic costs are on average \\$10/year, and normally distributed.
+of switching to velcro shoes would be worth \$80B in expectation
+(5th/50th/95th percentile: \$-34B, \$66B, \$260B), assuming that
+aesthetic costs are on average \$10/year, and normally distributed.
 
 ![](./img/inadequacies/net_benefit.png)
 
