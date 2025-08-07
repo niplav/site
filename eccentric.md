@@ -34,21 +34,21 @@ be worth it.
 | Intervention                                      | Cost           |
 | :------------------------------------------------ | -------------- |
 | Snowball fights                                   | ?              |
-| Buy a small island nation                         | \\$5 bio.      |
-| Personal futarchy on steroids                     | \\$100 mio.    |
-| Save dying languages                              | \\$2 bio.      |
-| Raise native speakers of an engineered conlang    | \\$30.8 mio.   |
-| Philosophically solve language                    | \\$10 mio.     |
-| SCP series                                        | \\$1 bio.      |
-| Antimemetics Division spinoff                     | \\$200 mio.    |
-| Discontinuous & fast AI takeoff movie             | \\$500 mio.    |
-| Double Crux podcast                               | \\$2 mio.      |
-| Fictional ethnography of native Antarcticans      | \\$100k        |
-| Breeding very intelligent parrots                 | \\$5m          |
-| Studying foreveraloners                           | \\$900 mio.    |
-| Really Out There Stuff Institute                  | \\$60 mio.     |
+| Buy a small island nation                         | \$5 bio.      |
+| Personal futarchy on steroids                     | \$100 mio.    |
+| Save dying languages                              | \$2 bio.      |
+| Raise native speakers of an engineered conlang    | \$30.8 mio.   |
+| Philosophically solve language                    | \$10 mio.     |
+| SCP series                                        | \$1 bio.      |
+| Antimemetics Division spinoff                     | \$200 mio.    |
+| Discontinuous & fast AI takeoff movie             | \$500 mio.    |
+| Double Crux podcast                               | \$2 mio.      |
+| Fictional ethnography of native Antarcticans      | \$100k        |
+| Breeding very intelligent parrots                 | \$5m          |
+| Studying foreveraloners                           | \$900 mio.    |
+| Really Out There Stuff Institute                  | \$60 mio.     |
 |                                                   |                |
-| __Sum__                                           | \\$ 9.81 bio.  |
+| __Sum__                                           | \$ 9.81 bio.  |
 
 Culture
 ---------
@@ -81,16 +81,16 @@ laws (within the bounds of international agreements, of course).
 
 Let's say we e.g. try to buy
 [Nauru](https://en.wikipedia.org/wiki/Nauru)[^1]. Nauru's GPD
-is ~\\$135 mio., which at a discount rate of ~5% has a [net
+is ~\$135 mio., which at a discount rate of ~5% has a [net
 present value](https://en.wikipedia.org/wiki/Net_present_value)
 of `$\frac{\$135 \text{ mio.}}{0.05}=\$2.7 \text{ bio.}$`,
-which we can round up to \\$3 bio. What if we instead
+which we can round up to \$3 bio. What if we instead
 try to buy Nauru from each Nauruan individually? The [average
 GDP](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_\(nominal\)_per_capita#Table)
 [per
 capita](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_\(PPP\)_per_capita#Table)
-of Nauru seems to be ~\\$12k, but to be conservative we can round that
-up to \\$15k. Then the net present value (again at 5%) of each Nauruans
+of Nauru seems to be ~\$12k, but to be conservative we can round that
+up to \$15k. Then the net present value (again at 5%) of each Nauruans
 future income is `$\frac{\$15\text{k}}{0.05}=\$300\text{k}$`. There
 are 11k Nauruans, which results in an expense of `$\frac{\$3 \cdot
 10^5}{\text{person}} \cdot 1.1 \cdot 10^4 \text{ persons}=\$3.3 \cdot
@@ -99,7 +99,7 @@ are 11k Nauruans, which results in an expense of `$\frac{\$3 \cdot
 In both cases, the Nauruans would be giving up a significant
 amount of their civil rights, and might want to find new citizenships,
 to support them with this one could allocate more money so that the
-sum nicely comes out to \\$5bio. So it would be *financially* feasible
+sum nicely comes out to \$5bio. So it would be *financially* feasible
 to do this, but would it be politically and legally feasible? I don't
 know about that, and don't know of any precedent either. [Leopold
 II](https://en.wikipedia.org/wiki/Leopold_II_of_Belgium) privately owned
@@ -195,19 +195,19 @@ sometimes drawing >10% of the population to use them.
 __Cost__: The underlying software should not be expensive (a
 website, an app and a backend that could support tens to potentially
 hundreds of thousands of visits a day), and could be re-used for each
-election: An initial expense of ~\\$5mio., with ~\\$500k per year of
+election: An initial expense of ~\$5mio., with ~\$500k per year of
 maintenance seems on the conservative side for an estimate. Assuming we
 want to supply the elections of the 40 biggest (democratic) countries
 with information, there'd be (assuming an electoral cycle of ~4 years)
 ~10 elections a year — something a team of 5 political scientists
-(~\\$100k a year each) should be able to handle. Assuming that for
+(~\$100k a year each) should be able to handle. Assuming that for
 each election, there are ~6 candidates/coalitions that cover most of
 the election outcomes, and ~6 indicators we want to use to evaluate
-election outcomes, subsidizing each market with \\$10k comes out at
-`$\frac{\$10k}{\text{market}} \cdot \frac{6 \text{ markets}}{\text{
+election outcomes, subsidizing each market with \$10k comes out at
+`$\frac{$10k}{\text{market}} \cdot \frac{6 \text{ markets}}{\text{
 candidate}} \cdot \frac{6 \text{ markets}}{\text{ indicator}} \cdot
 \frac{10 \text{ elections}}{\text{year}} \cdot \frac{1 \text{ candidate
-indicator}}{\text{ election market}}=\frac{\$360k}{\text{year}}$`. If the
+indicator}}{\text{ election market}}=\frac{$360k}{\text{year}}$`. If the
 whole thing runs for 20 years, we then pay `$\$5 \text{ mio.} + 20 \cdot
 (\$500k + \$500k + \$360k)=\$32 \text{ mio}$`. This is *surprisingly*
 cheap, so I'll fudge upwards to \$100 mio, just in case. Still a steal,
@@ -235,19 +235,19 @@ died](https://en.wikipedia.org/wiki/List_of_languages_by_time_of_extinction#21st
 has rate of language death sped up? Read around to figure this out-->. To
 do this, we employ linguists to learn each of the the endangered
 languages and practice it. 10 linguists per language should be enough,
-so we employ 5000 of them at ~\\$50k a year, for 4 years, to spend
-learning the language full-time, which yields us expenses of ~\\$1
+so we employ 5000 of them at ~\$50k a year, for 4 years, to spend
+learning the language full-time, which yields us expenses of ~\$1
 bio. Then say that we continue employing them part-time for 20 years
 to continue practicing until we've found a way to permanently store the
 languages, for example by training large language models (text and audio)
-on those languages; this would give us (at \\$10k salary a year) another
-\\$1 bio. in expenses, plus whatever cost the preservation procedure
+on those languages; this would give us (at \$10k salary a year) another
+\$1 bio. in expenses, plus whatever cost the preservation procedure
 entails.<!--TODO: invest & pay speakers from revenue-->
 
 If one was low on time or resources, one might want to
 focus on languages isolates, there are 17 moribund [language
 isolates](https://en.wikipedia.org/wiki/Language_Isolate),
-yielding an expense of \\$68 mio. A friend of mine also suggested
+yielding an expense of \$68 mio. A friend of mine also suggested
 [triage](https://en.wikipedia.org/wiki/Triage): Let moribund languages
 die, and focus on the ones that are on the edge between extinction
 and thriving.
@@ -262,7 +262,7 @@ Such languages attempt to introduce new paradigms to spoken languages
 and aim for extreme properties along one or more axes: emotional
 expressivity ([Láadan](https://en.wikipedia.org/wiki/Láadan)),
 complete grammar and lack of syntactic ambiguity
-([Lojban](https://en.wikipedia.org/wiki/Lojban)), simplicity ([Toki
+([nojban](https://en.wikipedia.org/wiki/Lojban)), simplicity ([Toki
 Pona](https://en.wikipedia.org/wiki/Toki_Pona)), expressivity and semantic
 richness ([Ithkuil](https://en.wikipedia.org/wiki/Ithkuil))…
 
@@ -325,7 +325,7 @@ community](https://en.wikipedia.org/wiki/LessWrong). There are
 of philosophically powerful languages, and it's not quite clear what
 *exactly* would be looked for here, but that's all part of the problem
 statement! If we employ 5 philosophers and 5 linguists at \$100k/year for
-10 years, we spend \\$10 mio, and at worst we get some interesting
+10 years, we spend \$10 mio, and at worst we get some interesting
 speculation.
 
 Art
@@ -383,11 +383,11 @@ items](https://www.scp-wiki.net/log-of-anomalous-items) in form
 of an introduction to a new foundation researcher… What budget
 one would need to be is not quite as clear, on the high end [Game of
 Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones) commanded a budget
-of >\\$600 mio. for 73 episodes, and [The Lord of the Rings: The Rings of
+of >\$600 mio. for 73 episodes, and [The Lord of the Rings: The Rings of
 Power](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Rings_of_Power)
-has a committed budget of at least \\$1 bio. for 5 seasons. I haven't
+has a committed budget of at least \$1 bio. for 5 seasons. I haven't
 been able to find information on the budget of Love, Death & Robots or
-The Animatrix. Spending \\$1 bio. on an SCP series is not unthinkable
+The Animatrix. Spending \$1 bio. on an SCP series is not unthinkable
 in this case.
 
 __Spinoff with Antimemetics Division__: Of course I can't neglect
@@ -450,7 +450,7 @@ maybe using the [Brandenburg
 Concertos](https://en.wikipedia.org/wiki/Brandenburg_Concertos)
 as music. [Really expensive
 movies](https://en.wikipedia.org/wiki/List_of_most_expensive_films)
-cost at most ~\\$400 mio., we could easily top that by spending half a
+cost at most ~\$400 mio., we could easily top that by spending half a
 billion on a frivolous nerd project.
 
 ### Double Crux Podcast
@@ -494,10 +494,10 @@ have left some participants with a
 [lower opinion of trying to hash out long-standing
 disagreements](https://www.lesswrong.com/posts/4Gcz3fGcYmmzhozxr/hashing-out-long-standing-disagreements-seems-low-value-to).
 Cost: Probably two full-time equivalents for producer/interviewer
-and audio engineering, each at ~\\$50k per year, and maybe another
+and audio engineering, each at ~\$50k per year, and maybe another
 moderator and a fact checker as a part-time (10h per week on average
-perhaps?) position, at a total cost of ~\\$150k per year, fudging upwards
-to \\$200k per year.
+perhaps?) position, at a total cost of ~\$150k per year, fudging upwards
+to \$200k per year.
 
 ### A Fictional Ethnography and Anthropology of Native Antarcticans
 
@@ -568,7 +568,7 @@ fascinating, and the very different cultural lineage from polynesian
 societies would add an interesting twist).
 
 __Cost__: With AI tools it might be surprisingly cheap to produce such a
-fictional ethnography, paying an anthropologist and a designer \\$50k/year
+fictional ethnography, paying an anthropologist and a designer \$50k/year
 each, for a year. Output format: An illustrated book in the style
 of early 20th century ethnographies, with descriptions of daily life,
 technology, culture, language &c, similar to [The Native Tribes of Central
@@ -609,7 +609,7 @@ when the books copyright runs out (perhaps intervening by [subsidizing
 longevity treatments](https://en.wikipedia.org/wiki/Copyright_term) for
 [Mark Danielewski](https://en.wikipedia.org/wiki/Mark_Z._Danielewski) as
 soon as they are available). Cost: Unclear. I guess that Danielewski would
-either be willing to sell the rights to me for ~\\$50mio., or unwilling
+either be willing to sell the rights to me for ~\$50mio., or unwilling
 to sell the rights to anyone, which would be just as good.<!--TODO:
 email him & ask!-->
 
@@ -653,14 +653,14 @@ relationship status, other sexual activity, mood (via [experience
 sampling](https://en.wikipedia.org/wiki/Experience_sampling_method)),
 blood pressure and other various health indicators.
 
-__Cost__: \\$1k per prostitute visit at two visits per week for
-150 men for 52 weeks a year for 10 years, which comes out at \\$156
-mio., \\$200k cash price for participants in the treatment group &
-\\$1mio. cash price for members of the control group at (in total)
-\\$180mio.[^7], ~\\$100mio. for the data collection (I don't have a
+__Cost__: \$1k per prostitute visit at two visits per week for
+150 men for 52 weeks a year for 10 years, which comes out at \$156
+mio., \$200k cash price for participants in the treatment group &
+\$1mio. cash price for members of the control group at (in total)
+\$180mio.[^7], ~\$100mio. for the data collection (I don't have a
 clear idea how much more or less this would need to be), which comes
-out at ~\\$436mio. Should one be able to find a similarly sized set of
-female participants, this doubles the cost to ~\\$872mio. Setting the
+out at ~\$436mio. Should one be able to find a similarly sized set of
+female participants, this doubles the cost to ~\$872mio. Setting the
 experiment up to find participants who are actually celibate and not
 simply interested in the money or prostitution might pose some difficulty,
 but not be insurmountable.
@@ -678,35 +678,35 @@ One can do a small [Fermi calculation](https://en.wikipedia.org/wiki/Fermi_calcu
 __For parrots__: An [African grey
 parrot](https://en.wikipedia.org/wiki/African_Grey_Parrot)
 [costs](https://a-z-animals.com/blog/parrot-prices-purchase-cost-supplies-food-and-more/)
-~\\$2k/parrot. For a small breeding
+~\$2k/parrot. For a small breeding
 population might be ~150 individuals ([fox
 domestication](https://en.wikipedia.org/wiki/Domesticated_Silver_Fox)
 started out "with 30 male foxes and 100 vixens"). Let's assume cages cost
-[\\$1k/parrot](https://a-z-animals.com/blog/parrot-prices-purchase-cost-supplies-food-and-more/),
+[\$1k/parrot](https://a-z-animals.com/blog/parrot-prices-purchase-cost-supplies-food-and-more/),
 including perches, feeding- and water-bowls. The estimated price for
-an avian vet is \\$400/parrot-year.
+an avian vet is \$400/parrot-year.
 
 [This
 page](https://a-z-animals.com/blog/parrot-prices-purchase-cost-supplies-food-and-more/)
 also says that African greys produce feather dust,
 and one therefore needs airfilters (which are advisable
 [anyway](https://dynomight.net/air/)). Let's say we need one for every
-10 parrots, costing \\$500 each.
+10 parrots, costing \$500 each.
 
 Let's say the whole experiment takes 50 years, which is ~7
 generations. I'll assume that the number of parrots is not fluctuating
 due to breeding them at a constant rate.
 
-Let's say it takes \\$500/parrot for feed and water (just a guess,
+Let's say it takes \$500/parrot for feed and water (just a guess,
 I haven't looked this up)<!--TODO: look up prices for parrot feed-->.
 
 We also have to buy a building to house the parrots in. 2m²/parrot
-at \\$100/m² in rural areas, plus \\$200k for a building housing 50
+at \$100/m² in rural areas, plus \$200k for a building housing 50
 parrots each (I've guessed those numbers). Four staff perhaps (working
-8 hours/day), expense at \\$60/staff-hour, 360 days a year.
+8 hours/day), expense at \$60/staff-hour, 360 days a year.
 
 The total cost is then
-150\*\\$2k+15\*\\$500+150\*\\$1k+150\*50\*(\\$400+\\$500)+3\*\\$200k+2\*150\*\\$100+50\*360\*8\*4\*\\$60=\\$3.632 mio.
+150\*\$2k+15\*\$500+150\*\$1k+150\*50\*(\$400+\$500)+3\*\$200k+2\*150\*\$100+50\*360\*8\*4\*\$60=\$3.632 mio.
 
 <!--TODO: Latexify-->
 
@@ -814,8 +814,8 @@ Institute.
 
 __Cost__: Hiring ~20 researchers (evenly split between analytical
 philosophers, physicists, theoretical computer scientists and economists,
-plus ~10 (?) supporting staff, each at \\$100k per year, for ~20 years,
-giving \\$60 mio. in total.
+plus ~10 (?) supporting staff, each at \$100k per year, for ~20 years,
+giving \$60 mio. in total.
 
 __Output format__: Mostly long PDFs with titles such as "Acausalism:
 A Primer" or "Chaitinudassicon".
@@ -823,7 +823,7 @@ A Primer" or "Chaitinudassicon".
 See Also
 ----------
 
-* [I'd also take $7 trillion (bhauth, 2024)](https://bhauth.com/blog/projects/7%20trillion.html)
+* [I'd also take \$7 trillion (bhauth, 2024)](https://bhauth.com/blog/projects/7%20trillion.html)
 * Discussions
 	* [LessWrong](https://www.lesswrong.com/posts/4TbTktGNu2vtGRbfM/if-i-was-an-eccentric-trillionaire)
 

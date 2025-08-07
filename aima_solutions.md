@@ -890,8 +890,8 @@ the necessary CPTs.
 <table>
 <thead>
 	<tr>
-		<td>$Coin$</td>
-		<td>$P(Coin)$</td>
+		<td>`$Coin$`</td>
+		<td>`$P(Coin)$`</td>
 	</tr>
 </thead>
 <tbody>
@@ -915,7 +915,7 @@ The three conditional tables for `$X_1, X_2, X_3$` are very the same.
 <table>
 <thead>
 	<tr>
-		<td>$Coin$</td>
+		<td>`$Coin$`</td>
 		<td>$P(\{X_1, X_2, X_3\}=Head)$</td>
 	</tr>
 </thead>
@@ -1003,7 +1003,7 @@ The conditional probabilities tables for the dynamic Bayesian network are:
 <table>
 <thead>
 	<tr>
-		<td>$E_t$</td>
+		<td>`$E_t$`</td>
 		<td>$e_{t+1}$</td>
 		<td>$\lnot e_{t+1}$</td>
 	</tr>
@@ -1027,8 +1027,8 @@ The conditional probabilities tables for the dynamic Bayesian network are:
 <table>
 <thead>
 	<tr>
-		<td>$E_t$</td>
-		<td>$s_t$</td>
+		<td>`$E_t$`</td>
+		<td>`$s_t$`</td>
 		<td>$\lnot s_t$</td>
 	</tr>
 </thead>
@@ -1051,8 +1051,8 @@ The conditional probabilities tables for the dynamic Bayesian network are:
 <table>
 <thead>
 	<tr>
-		<td>$E_t$</td>
-		<td>$r_t$</td>
+		<td>`$E_t$`</td>
+		<td>`$r_t$`</td>
 		<td>$\lnot r_t$</td>
 	</tr>
 </thead>
@@ -1077,7 +1077,7 @@ are conditionally independent given `$E_t$`:
 <table>
 <thead>
 	<tr>
-		<td>$E_t$</td>
+		<td>`$E_t$`</td>
 		<td>$r_t, s_t$</td>
 		<td>$r_t, \lnot s_t$</td>
 		<td>$\lnot r_t, s_t$</td>
@@ -1455,13 +1455,13 @@ dollars.
 
 > b. How much would you, personally, pay to play the game?
 
-I'm not sure. Maybe ~\\$20? I guess I value money linearly up to that
+I'm not sure. Maybe ~\$20? I guess I value money linearly up to that
 range.
 
 > c. Nicolas’s cousin Daniel Bernoulli resolved the apparent
 paradox in 1738 by suggesting that the utility of money is measured
 on a logarithmic scale (i.e., `$U(S_n) = a \log_2 n+b$`, where `$S_n$`
-is the state of having \\$n). What is the expected utility of the game
+is the state of having \$n). What is the expected utility of the game
 under this assumption?
 
 <div>
@@ -1475,7 +1475,7 @@ under this assumption?
 `$2^i+b$` converges towards `$2^i$`.
 
 > d. What is the maximum amount that it would be rational to pay to play
-the game, assuming that one’s initial wealth is \\$k ?
+the game, assuming that one’s initial wealth is \$k ?
 
 I assume that "the maximum amount" refers to "the maximum number of
 times".
@@ -1491,7 +1491,7 @@ Boolean chance nodes, M, indicating whether the student has mastered the
 material in the book, and P, indicating whether the student passes the
 course. Of course, there is also a utility node, U. A certain student,
 Sam, has an additive utility function: 0 for not buying the book and
--\\$100 for buying it; and \\$2000 for passing the course and 0 for not
+-\$100 for buying it; and \$2000 for passing the course and 0 for not
 passing. Sam’s conditional probability estimates are as follows:
 
 > `$P(p|b, m) = 0.9$`  
@@ -1539,11 +1539,11 @@ various tests with various costs (e.g., kick the tires, take the car to
 a qualified mechanic) and then, depending on the outcome of the tests,
 decide which car to buy. We will assume that the buyer is deciding
 whether to buy car `$c_1$`, that there is time to carry out at most
-one test, and that `$t_1$` is the test of `$c_1$` and costs \\$50. A car
+one test, and that `$t_1$` is the test of `$c_1$` and costs \$50. A car
 can be in good shape (quality `$q^+$`) or bad shape (quality `$q^-$`),
 and the tests might help indicate what shape the car is in. Car `$c_1$`
-costs \\$1,500, and its market value is \\$2,000 if it is in good shape;
-if not, \\$700 in repairs will be needed to make it in good shape. The
+costs \$1,500, and its market value is \$2,000 if it is in good shape;
+if not, \$700 in repairs will be needed to make it in good shape. The
 buyer's estimate is that `$c_1$` has a 70% chance of being in good shape.
 
 > a. Draw the decision network that represents this problem.

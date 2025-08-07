@@ -9,7 +9,7 @@ worth it, and if yes, should one
 (i.e. postpone signing up for cryonics to a later date)? [Betteridge's law
 of headlines](https://en.wikipedia.org/wiki/Betteridge's_law_of_headlines)
 only applies partially here: Yes, it is probably worth it (under plausible
-assumptions [\\$850k for a 20 year old](#Currently_20_years_old),
+assumptions [\$850k for a 20 year old](#Currently_20_years_old),
 and [more for older people](#Currently_40_years_old)), and no,
 cryocrastination is usually irrational (unless one [doesn't experience
 value drift](#Without_Motivation_Drift), in which case cryocrastination
@@ -20,9 +20,9 @@ considering
 with [Alcor](https://www.alcor.org/). I also perform a [Monte-Carlo
 simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method) using
 [Guesstimate](https://www.getguesstimate.com/ "Official website"),
-and find that signing up for cryonics at age 20 is worth \\$18m
-in the mean, median -\\$100k (90% confidence interval: -\\$2.16m,
-\\$58.25m). It therefore seems recommendable to sign up for cryonics
+and find that signing up for cryonics at age 20 is worth \$18m
+in the mean, median -\$100k (90% confidence interval: -\$2.16m,
+\$58.25m). It therefore seems recommendable to sign up for cryonics
 [immediately](#Now_What).__
 
 Cryonics Cost-Benefit Analysis
@@ -111,12 +111,12 @@ more likely than I suspect, this only strengthens the case for signing up.
 Cost-Benefit Calculation for Cryonics
 -------------------------------------
 
-> If you make 50k\\$/yr now, and value life-years at twice your income,
+> If you make 50k\$/yr now, and value life-years at twice your income,
 > and discount future years at 2% from the moment you are revived for a
 > long life, but only discount that future life based on the chance it
 > will happen, times a factor of 1/2 because you only half identify with
 > this future creature, then the present value of a 5% chance of revival
-> is \\$125,000, which is about the most expensive cryonics price now.
+> is \$125,000, which is about the most expensive cryonics price now.
 
 *— [Robin Hanson](https://en.wikipedia.org/wiki/Robin_Hanson), [“Break Cryonics Down”](http://www.overcomingbias.com/2009/03/break-cryonics-down.html), 2009*
 
@@ -141,7 +141,7 @@ up to their expected year of death. So, for example, a person that is
 20 years old now is able to plan signing up when they are 20 years old,
 21 years, 22 years and so on up to 78 years. The value of cryonics is
 calculated, and the value of a regular death is tacitly assumed to be
-\\$0.
+\$0.
 
 	curage=20
 	actval={78.36, 78.64, 78.66, 78.67, 78.68, 78.69, 78.69, 78.70, 78.71, 78.71, 78.72, 78.72, 78.73, 78.73, 78.74, 78.75, 78.75, 78.77, 78.79, 78.81, 78.83, 78.86, 78.88, 78.91, 78.93, 78.96, 78.98, 79.01, 79.03, 79.06, 79.09, 79.12, 79.15, 79.18, 79.21, 79.25, 79.29, 79.32, 79.37, 79.41, 79.45, 79.50, 79.55, 79.61, 79.66, 79.73, 79.80, 79.87, 79.95, 80.03, 80.13, 80.23, 80.34, 80.46, 80.59, 80.73, 80.88, 81.05, 81.22, 81.42, 81.62, 81.83, 82.05, 82.29, 82.54, 82.80, 83.07, 83.35, 83.64, 83.94, 84.25, 84.57, 84.89, 85.23, 85.58, 85.93, 86.30, 86.68, 87.08, 87.49, 87.92, 88.38, 88.86, 89.38, 89.91, 90.47, 91.07, 91.69, 92.34, 93.01, 93.70, 94.42, 95.16, 95.94, 96.72, 97.55, 98.40, 99.27, 100.14, 101.02, 101.91}
@@ -333,7 +333,7 @@ some hidden variables (like opportunity costs and social costs) that
 have to be considered (not all of these in this text).
 
 The raw cost for cryonics depends heavily on the organisation choosen for
-preservation, the price ranges from ~\\$20000 to ~\\$250000<!--TODO: Sources
+preservation, the price ranges from ~\$20000 to ~\$250000<!--TODO: Sources
 for these, maybe more exact numbers for different organisations.-->. In
 this case, I choose the costs for neurocryopreservation at Alcor, though
 this analysis should be extended to other organisations.
@@ -356,14 +356,14 @@ and the length of their membership.
 #### Direct Fees
 
 > Current Membership Dues, net of applicable discounts, are:  
-1. First family member: \\$525 annually or \\$267 semi-annually or \\$134 quarterly.  
-2. Each additional family member aged 18 and over, and full-time students aged 25 and under: \\$310 annually or \\$156 semi-annually or \\$78 quarterly.  
-3. Each minor family member under age 18 for the first two children (no membership dues are required for any additional minor children): \\$80 annually or \\$40 semi-annually or \\$20 quarterly  
-4. Full-time student aged 26 to 30: \\$460 annually or \\$230 semi-annually or \\$115 quarterly.  
-5. Long-term member (total membership of 20 - 24 years): \\$430 annually or \\$216 semi-annually or \\$108 quarterly.  
-6. Long-term member (total membership of 25 - 29 years): \\$368 annually or \\$186 semi-annually or \\$93 quarterly.  
-7. Long-term member (total membership of 30 years or longer): \\$305 annually or \\$154 semi-annually or \\$77 quarterly.  
-8. Long-term member (total membership of 40 years or longer): \\$60.00 annually or \\$30.00 semi-annually or \\$15.00 quarterly
+1. First family member: \$525 annually or \$267 semi-annually or \$134 quarterly.  
+2. Each additional family member aged 18 and over, and full-time students aged 25 and under: \$310 annually or \$156 semi-annually or \$78 quarterly.  
+3. Each minor family member under age 18 for the first two children (no membership dues are required for any additional minor children): \$80 annually or \$40 semi-annually or \$20 quarterly  
+4. Full-time student aged 26 to 30: \$460 annually or \$230 semi-annually or \$115 quarterly.  
+5. Long-term member (total membership of 20 - 24 years): \$430 annually or \$216 semi-annually or \$108 quarterly.  
+6. Long-term member (total membership of 25 - 29 years): \$368 annually or \$186 semi-annually or \$93 quarterly.  
+7. Long-term member (total membership of 30 years or longer): \$305 annually or \$154 semi-annually or \$77 quarterly.  
+8. Long-term member (total membership of 40 years or longer): \$60.00 annually or \$30.00 semi-annually or \$15.00 quarterly
 
 *— [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
 
@@ -436,7 +436,7 @@ age 25 and minors (under age 18).__
 Emphasis mine.
 
 > Current CMS charges are:  
-> \\$180 annually, \\$90 semi-annually, or \\$45 quarterly
+> \$180 annually, \$90 semi-annually, or \$45 quarterly
 
 *— [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
 
@@ -465,12 +465,12 @@ membership in cash. I also assume that life insurance companies can
 accurately price in the arrival date of LEV.
 
 > Minimum Cryopreservation Funding:  
-> • \\$200,000.00 Whole Body Cryopreservation […].  
-> • \\$80,000.00 Neurocryopreservation […].  
+> • \$200,000.00 Whole Body Cryopreservation […].  
+> • \$80,000.00 Neurocryopreservation […].  
 > […]  
 > Surcharges:  
-> • \\$10,000 Surcharge for cases outside the U.S. and Canada other than China.  
-> • \\$50,000 Surcharge for cases in China.  
+> • \$10,000 Surcharge for cases outside the U.S. and Canada other than China.  
+> • \$50,000 Surcharge for cases in China.  
 > […]
 
 *— [Alcor Life Extension Foundation](https://alcor.org/), [“Alcor Cryopreservation Agreement - Schedule A”](https://alcor.org/BecomeMember/scheduleA.html), 2016*
@@ -660,7 +660,7 @@ the [VSL](https://en.wikipedia.org/wiki/Value_of_life) and the
 [QALY](https://en.wikipedia.org/wiki/Quality-adjusted_life_year).
 The Wikipedia page on VSL
 [lists](https://en.wikipedia.org/wiki/Value_of_life#Estimates_of_the_value_of_life)
-\\$181893 for the value of a year of life in Australia, and \\$50000 as the
+\$181893 for the value of a year of life in Australia, and \$50000 as the
 "de facto international standard most private and government-run health
 insurance plans worldwide use to determine whether to cover a new medical
 procedure". This number seems like a good conservative estimate.
@@ -891,7 +891,7 @@ https://en.wikipedia.org/wiki/Value_of_life
 -->
 
 After these considerations, I conservatively set the value of a lifeyear
-in the future to \\$50000.
+in the future to \$50000.
 
 	val_year=50000
 
@@ -1393,7 +1393,7 @@ die of old age and not due to accidents during their lifetime.
 The benefit of cryonics is only realized in one case: One lives to the
 planned year of signing up, but then dies before LEV. Both dying before
 signing up or living until LEV after having signed up make the value
-of cryonics \\$0.[^1] One can calculate the probability of this scenario by
+of cryonics \$0.[^1] One can calculate the probability of this scenario by
 multiplying the probabilities of living until signup with the probability
 of then dying before LEV.
 
@@ -1473,11 +1473,11 @@ punishes the procrastination quite heavily.
 #### Currently 20 years old
 
 At the age of 20 years, the value of signing up for cryonics the same year
-is \\$848035 (~`$\$8.5 \cdot 10^5$`) according to this model, prolonging
-the decision until one is 30 reduces this number to \\$600000 (~`$\$6
+is \$848035 (~`$\$8.5 \cdot 10^5$`) according to this model, prolonging
+the decision until one is 30 reduces this number to \$600000 (~`$\$6
 \cdot 10^5$`), and waiting until 40, 50 and 60 years yields a value
-of \\$399948 (~`$\$4 \cdot 10^5$`), \\$253943 (~`$\$2.5 \cdot 10^5$`)
-and \\$142394 (~`$\$1.4 \cdot 10^5$`), respectively.
+of \$399948 (~`$\$4 \cdot 10^5$`), \$253943 (~`$\$2.5 \cdot 10^5$`)
+and \$142394 (~`$\$1.4 \cdot 10^5$`), respectively.
 
 	.l("nplot")
 
@@ -1495,7 +1495,7 @@ and \\$142394 (~`$\$1.4 \cdot 10^5$`), respectively.
 #### Currently 40 years old
 
 The values of signing up for cryonics are much higher for a 40 year
-old. Performing the signup immediately at age 40 is worth \\$3009892
+old. Performing the signup immediately at age 40 is worth \$3009892
 (~`$\$3 \cdot 10^6$`) at age 40 and is the best time to do it.
 
 	.l("nplot")
@@ -1545,7 +1545,7 @@ In this model, a very different picture emerges:
 	759612.28026664: 46
 
 It is now optimal to wait for 30 years, with an added value of
-~\\$800. This is probably due to very slight variations in the quality
+~\$800. This is probably due to very slight variations in the quality
 of cryopreservation at different ages of death.
 
 So in the case of high self-trust, it seems possible that limited amounts
@@ -1751,14 +1751,14 @@ with a 90% confidence interval of `$[400;900]$`.
 ### Value
 
 The result is certainly interesting: in this model, signing up for
-cryonics has a mean value of \\$18m and a median of ≈-\\$100k
+cryonics has a mean value of \$18m and a median of ≈-\$100k
 (perhaps because of longevity escape velocity arriving and making
 the value simply the cost for signing up), but with very long tails,
-especially on the positive side: a fifth percentile of -\\$2.15m,
-and a 95th percentile of *squints* \\$58.5m—quite a range!
+especially on the positive side: a fifth percentile of -\$2.15m,
+and a 95th percentile of *squints* \$58.5m—quite a range!
 
-The minimum and maximum of the simulation are even more extreme: -\\$39b
-for the minimum and \\$20b for the maximum (these vary strongly every
+The minimum and maximum of the simulation are even more extreme: -\$39b
+for the minimum and \$20b for the maximum (these vary strongly every
 time the simulation is run).
 
 Because of these huge numbers, it makes sense to try to visualize them
@@ -1789,7 +1789,7 @@ understand.
 
 As one can see, the distribution has turned out sort-of
 [bimodal](https://en.wikipedia.org/wiki/Multimodal_distribution):
-Most cases of signing up for cryonics have a value of -\\$100k (presumably
+Most cases of signing up for cryonics have a value of -\$100k (presumably
 because longevity escape velocity arrives first), the
 rest is either very negative of very positive. To be exact,
 `(+/{*|x}'flr({*x<0};incidence))%#logvalues` `$\approx58.7\%$`

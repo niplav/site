@@ -75,17 +75,17 @@ on this small opportunity.
 A Simple Calculation
 --------------------
 
-Let's say that a compliment is worth \\$0.50 to the average stranger,
+Let's say that a compliment is worth \$0.50 to the average stranger,
 and it (conservatively) takes 1 minute to give the compliment. Let's
-say that the opportunity cost is \\$10. This means that an hour of giving
+say that the opportunity cost is \$10. This means that an hour of giving
 compliments is worth
 
 <div>
 	$$(\frac{\$0.50}{1\hbox{ compliment}}*\frac{1\hbox{ compliment}}{1\hbox{ min}}*60\hbox{ min})-\$10=$25$$
 </div>
 
-On the other hand, \\$0.50 is maybe too much for the value of a compliment.
-If one instead assumes it to be \\$0.10, the value of one hour giving
+On the other hand, \$0.50 is maybe too much for the value of a compliment.
+If one instead assumes it to be \$0.10, the value of one hour giving
 compliments to strangers is
 
 <div>

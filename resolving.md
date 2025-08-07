@@ -189,25 +189,25 @@ is a set of goods `$B$` and a utility function `$U: B \times \mathbb{R}
 \rightarrow \mathbb{R}$` that takes as argument a good and the amount of
 that good that has been consumed. Consumption can take place at different
 time steps: Let `$c: B \times \mathbb{N}$` be a function that returns
-the consumption of a good at a specific timestep. With a single good $b$
+the consumption of a good at a specific timestep. With a single good `$b$`
 and different quantities `$c(b, 1), c(b, 2), \dots, c(b, n)$` consumed
-at $n$ timesteps, the time-discounted utility (discount factor $\delta$)
+at `$n$` timesteps, the time-discounted utility (discount factor `$\delta$`)
 of this consumption is `$\sum_{i=1}^n \delta^i U(b, c(b, i))$` (which
 is equivalent to the use of discount rates in reinforcement learning
 [Sutton 2020, ch.  3](http://incompleteideas.net/book/the-book.html).
 
 A common form of modeling human preferences that are not exponentially
 time-discounted in this way is hyperbolic discounting, in which the
-discounting factor is a hyperbolic function with a parameter $k$ instead
+discounting factor is a hyperbolic function with a parameter `$k$` instead
 of an exponential. Let `$U_h(b, i, k)=\frac{1}{1+ki}U(b, c(b, i))$` be the
-hyperbolically discounted utility of consuming $b$ at time step `$i$`.
+hyperbolically discounted utility of consuming `$b$` at time step `$i$`.
 
 This kind of discounting leads to disproportionately preferring
 small rewards soon over large rewards later, and might lead to
-preference reversals: For two goods $b$ and $b'$, an agent can have
+preference reversals: For two goods `$b$` and `$b'$`, an agent can have
 the preference `$U_h(b, c(b, i))>U_h(b', c(b, i+c))$` at a time step
-$i$ and a time step $i+c$, but reverse that preference if it lies at
-another timestep $j$: `$U_h(b, c(b, j))<U_h(b', c(b, j+c))$`. Such
+`$i$` and a time step `$i+c$`, but reverse that preference if it lies at
+another timestep `$j$`: `$U_h(b, c(b, j))<U_h(b', c(b, j+c))$`. Such
 hyperbolic discounting has been observed in humans [Myerson &
 Green 1994](https://pubmed.ncbi.nlm.nih.gov/16812772/)
 and pigeons [Ainslie & Herrnstein
@@ -245,9 +245,9 @@ Outside of the academic literature, [Aird &
 Shovelain 2020](https://www.lesswrong.com/posts/ky988ePJvCRhmCwGo/using-vector-fields-to-visualise-preferences-and-make-them "Using vector fields to visualise preferences and make them consistent") represent inconsistent preferences as [vector
 fields](https://en.wikipedia.org/wiki/Vector_Field) on a state space
 (for example states with more/less security and more/less wealth),
-where a vector $\mathbf{v}$ at a specific point $\mathit{p}$ in the
+where a vector `$\mathbf{v}$` at a specific point `$\mathit{p}$` in the
 vector field indicates a preference for a change in the direction of
-$\mathbf{v}$ at $\mathit{p}$.
+`$\mathbf{v}$` at `$\mathit{p}$`.
 
 However, as they note, such a vector field can have inconsistencies in the
 form of [curl](https://en.wikipedia.org/wiki/Curl_\(mathematics\)). They
@@ -309,22 +309,22 @@ findings on the difficulty of establishing vNM-coherence might be
 interesting to philosophers), and instead assume that preferences
 conforming to the vNM axioms are a goal to be achieved.
 
-Let $\Omega$ be a set of $n$ distinct outcomes, and let $\Delta(\Omega)$
-be the set of all probability distributions on $\Omega$, which in von
+Let `$\Omega$` be a set of `$n$` distinct outcomes, and let `$\Delta(\Omega)$`
+be the set of all probability distributions on `$\Omega$`, which in von
 Neumann and Morgenstern call "lotteries" [von Neumann & Morgenstern
 1947](https://www.goodreads.com/book/show/483055.Theory_of_Games_and_Economic_Behavior).
 
-For given `$\omega_1, \omega_2 \in \Omega$`, a lottery in which $\omega_1$
+For given `$\omega_1, \omega_2 \in \Omega$`, a lottery in which `$\omega_1$`
 has a probability `$p_1$` and `$\omega_2$` has a probability `$p_2$` is
 written as `$[p_1: \omega_1, p_2: \omega_2]$`[^1].
 
-**Definition 1**. Let `$l_1, l_2, l_3 \in \Delta(\Omega)$`. Let $\preceq$
-be a relation on all lotteries on $\Omega$, that is $\preceq \subseteq \Delta(\Omega) \times \Delta(\Omega)$.
+**Definition 1**. Let `$l_1, l_2, l_3 \in \Delta(\Omega)$`. Let `$\preceq$`
+be a relation on all lotteries on `$\Omega$`, that is `$\preceq \subseteq \Delta(\Omega) \times \Delta(\Omega)$`.
 
 If `$l_1 \preceq l_2$` and `$l_2 \preceq l_1$`, then we write
 `$l_1 \sim l_2$`.
 
-Then the relation $\preceq$ is a **preference relation** if and only if
+Then the relation `$\preceq$` is a **preference relation** if and only if
 it fulfills the four von Neumann-Morgenstern axioms
 
 1.  **Completeness**: For any lotteries `$l_1, l_2$`, it holds that
@@ -339,27 +339,27 @@ it fulfills the four von Neumann-Morgenstern axioms
     `$l_1 \preceq l_2$` if and only if for any `$p \in [0;1]$` it holds that
     `$[p: l_1, (1-p): l_3] \preceq [p: l_2, (1-p): l_3]$`.
 
-The axiom of completeness implies reflexivity: For all lotteries $l$ it
-holds that $l \preceq l$.
+The axiom of completeness implies reflexivity: For all lotteries `$l$` it
+holds that `$l \preceq l$`.
 
-We denote the probability a lottery $l$ assigns to $\omega \in \Omega$
-as $p_l(\omega)$.
+We denote the probability a lottery `$l$` assigns to `$\omega \in \Omega$`
+as `$p_l(\omega)$`.
 
-Given a preference relation $\preceq$, one can create a
+Given a preference relation `$\preceq$`, one can create a
 function `$U\colon \Delta(\Omega) \rightarrow [0;1]$` for
 which it holds that `$U(l_1) \ge U(l_2)$` if and only if
 `$l_1 \preceq l_2$` [von Neumann & Morgenstern 1947, ch.
 3.6](https://www.goodreads.com/book/show/483055.Theory_of_Games_and_Economic_Behavior).
 
 **Definition 2**. This function is called a **utility function** for the
-preference relation $\preceq$.
+preference relation `$\preceq$`.
 
-Let us as a shorthand write $\omega$ for the lottery that assigns
-probability 1 to $\omega$, and probability 0 to all other options (we
+Let us as a shorthand write `$\omega$` for the lottery that assigns
+probability 1 to `$\omega$`, and probability 0 to all other options (we
 call such a lottery a "deterministic option").
 
-$U$ has the property that for any lottery $l$ from $\Delta(\Omega)$, the
-value $U(l)$ is simply the *expected* value of $l$, that is the mean of
+`$U$` has the property that for any lottery `$l$` from `$\Delta(\Omega)$`, the
+value `$U(l)$` is simply the *expected* value of `$l$`, that is the mean of
 the utilities weighted by the probabilities:
 
 <div>
@@ -375,7 +375,7 @@ Neumann-Morgenstern axioms and also the additional criterion of
 **antisymmetry**: `$l_1 \prec l_2$` and `$l_2 \prec l_1$` if and only if `$l_1=l_2$`.
 
 The reason for this assumption is that one of the algorithms we
-investigate (namely `EGEDmin`) produces a total order over $\Omega$.
+investigate (namely `EGEDmin`) produces a total order over `$\Omega$`.
 
 This restriction does not change the fundamental structure of the vNM
 axioms; specifically, it does not affect the continuity axiom (as even
@@ -384,11 +384,11 @@ non-strict preferences over lotteries).
 
 ## Inconsistent Preferences over Deterministic Options
 
-A consistent preference over $\Omega$ that fulfills **completeness**,
+A consistent preference over `$\Omega$` that fulfills **completeness**,
 **transitivity** and **antisymmetry** can be represented by an acyclic
 tournament `$G$`[^2], with `$E \subseteq \Omega \times \Omega$`.
 That is, `$G$` itself is **complete**, **transitive** and
-**antisymmetric**. We call such $G$ a **consistent** graph (or
+**antisymmetric**. We call such `$G$` a **consistent** graph (or
 consistent directed graph, or acyclic tournament).
 
 The set of possible preferences over `$\Omega$` (including inconsistent
@@ -503,9 +503,9 @@ Formally:
 	$$f_{\text{EGED}}(G)=\underset{C \in C_{\Omega}}{\text{argmin }} \text{EGED}(C, G)$$
 </div>
 
-where $\text{EGED}(X,Y)$ is the smallest number of edges that need to be
-added or removed from $X$ to create $Y$. The addition or removal of
-vertices is not allowed, since the elements of $\Omega$ can be
+where `$\text{EGED}(X,Y)$` is the smallest number of edges that need to be
+added or removed from `$X$` to create `$Y$`. The addition or removal of
+vertices is not allowed, since the elements of `$\Omega$` can be
 distinguished from one another.
 
 This function is intuitively appealing: Let
@@ -514,7 +514,7 @@ over `$\Omega$`. Then let `$\omega_1, \omega_2 \in \Omega$` be two possible
 outcomes. the existence of an edge `$(\omega_1, \omega_2) \in V_P$`
 represents that `$\omega_1$` is preferred over `$\omega_2$`.
 
-Then, given $G$, if one desired a consistent version of $G$, one would
+Then, given `$G$`, if one desired a consistent version of `$G$`, one would
 want to give up *as few as possible* of such rankings of two options.
 One must sometimes give up some of those rankings to achieve von
 Neumann-Morgenstern consistent preferences (for example to break
@@ -544,9 +544,9 @@ function EGEDmin(G)
 
 #### Establishing Consistency Stepwise
 
-An alternative approach to resolve a graph $G$ to a set $\mathbf{C}$ of
+An alternative approach to resolve a graph `$G$` to a set `$\mathbf{C}$` of
 consistent graphs is to proceed by establishing the desired properties
-stepwise. Our proposed algorithm (which we call "$\mathtt{stepwise}$")
+stepwise. Our proposed algorithm (which we call "`$\mathtt{stepwise}$`")
 is to execute the following steps:
 
 -   **Remove minimum feedback arc sets**. [Sun et al.
@@ -556,20 +556,20 @@ is to execute the following steps:
     set](https://en.wikipedia.org/wiki/Minimum_feedback_arc_set) from a
     "noisy hierarchy" and create a directed acyclic graph. `stepwise`
     takes a similar approach by computing all minimum feedback arc sets
-    for $G$ and then removing them to ensure the graph is acyclic (so
+    for `$G$` and then removing them to ensure the graph is acyclic (so
     that later establishing transitivity does not violate asymmetry). The
-    result is a set of directed acyclic graphs $\mathbf{A}$, one for each
-    minimum feedback arc set removed from $G$. For this, one can use an
+    result is a set of directed acyclic graphs `$\mathbf{A}$`, one for each
+    minimum feedback arc set removed from `$G$`. For this, one can use an
     algorithm for finding the minimum feedback arc set from [Baharev
     2021](https://dl.acm.org/doi/10.1145/3446429), called `mfas` in
     `stepwise`.
 -   **Generate all compatible topological sortings**. The elements of
-    $\mathbf{A}$ are now to be converted into acyclic tournaments. We
+    `$\mathbf{A}$` are now to be converted into acyclic tournaments. We
     achieve this by computing all topological sortings for each element
-    $A \in \mathbf{A}$ with a recursive algorithm based on [Kahn's
+    `$A \in \mathbf{A}$` with a recursive algorithm based on [Kahn's
     algorithm](https://en.wikipedia.org/wiki/Kahn's_algorithm) that
-    appends nodes with in-degree 0 in front of a strict order $C$. The
-    result is a set of acyclic tournaments $\mathbf{C}$ on $\Omega$.
+    appends nodes with in-degree 0 in front of a strict order `$C$`. The
+    result is a set of acyclic tournaments `$\mathbf{C}$` on `$\Omega$`.
 
 *__Algorithm 2__: Computing `stepwise`*
 
@@ -599,10 +599,10 @@ function topological_sorts(G)
 
 We can now prove that `stepwise` has the same output as `EGEDmin`. First
 we prove that all outputs of `stepwise` have the same edge-graph-edit
-distance from $G$.
+distance from `$G$`.
 
-**Lemma 1**. For a given $G=(\Omega, E_G)$, all graphs returned by
-$\mathtt{stepwise}$ have the same edge-graph-edit distance from $G$.
+**Lemma 1**. For a given `$G=(\Omega, E_G)$`, all graphs returned by
+`$\mathtt{stepwise}$` have the same edge-graph-edit distance from `$G$`.
 
 [*Proof.*](#Lemma_1)
 
@@ -617,7 +617,7 @@ feedback arc set of `$G$`.
 
 [*Proof.*](#Lemma_2)
 
-Using the fact that $E_T^-$ is a minimum feedback arc set, and that all
+Using the fact that `$E_T^-$` is a minimum feedback arc set, and that all
 outputs of stepwise have the same edge-edit distance from the input, we
 can prove that all outputs of `stepwise` are contained in `EGEDmin`.
 
@@ -669,7 +669,7 @@ asymmetry. There are two ways of dealing with this symmetry:
     ordering, and modify the criteria to be applicable.
 2.  Resolve ties in the ordering by returning all topological sorts as a
     result. This has the disadvantage of potentially returning a set of
-    results that is factorial in the size of $\Omega$.
+    results that is factorial in the size of `$\Omega$`.
 
 We decide to take the first option, to preserve the polynomial runtime
 of `HodgeRank`.
@@ -717,11 +717,11 @@ that regard.
 #### Applying `HodgeRank`
 
 [Jiang et al. 2011](./doc/preference/statistical_ranking_and_combinatorial_hodge_theory_jiang_et_al_2011.pdf) state that for complete graphs, computing the
-potential function of a graph $G$ via `HodgeRank` on the nodes is
+potential function of a graph `$G$` via `HodgeRank` on the nodes is
 equivalent to minimizing the squared distance between the edge-weights
-of $G$ and the edge-weights induced by the potential function. If $G$
+of `$G$` and the edge-weights induced by the potential function. If `$G$`
 already is consistent, the resulting potential function simply
-re-creates $G$, since their distance is 0. So `HodgeResolve` maps every
+re-creates `$G$`, since their distance is 0. So `HodgeResolve` maps every
 consistent graph to itself, and therefore fulfills **Identity** and
 therefore also **Surjectivity**.
 
@@ -748,7 +748,7 @@ smallest distance to a given tournament) is known to be NP-hard [Hudry
 2010](./doc/cs/preference/on_the_complexity_of_slaters_problems_hudry_2010.pdf).
 
 **Theorem 6**. Finding the set of acyclic tournaments with smallest
-edge-graph-edit distance to a given graph $G$ is NP-hard.
+edge-graph-edit distance to a given graph `$G$` is NP-hard.
 
 [*Proof.*](#Theorem_6)
 
@@ -790,19 +790,19 @@ vertices has the same graph-edit distance to `$G_e$`. Therefore,
 
 If one allows for the output of `HodgeResolve` to be a weak ordering,
 then `HodgeResolve` has a unique output, since assigning each vertex a
-real-valued potential $p: \Omega \rightarrow \mathbb{R}$ and then
-ordering vertices by that potential creates a weak ordering $W$.
+real-valued potential `$p: \Omega \rightarrow \mathbb{R}$` and then
+ordering vertices by that potential creates a weak ordering `$W$`.
 
 However, if one demands that the output of `HodgeResolve` be a total
 order then the output is dependent on the method of achieving that total
 order. If one generates the total orders by generating all acyclic
-tournaments with vertices $\Omega$ that are subgraphs of $W$, the output
-is no longer unique: In the worst case $G=(\Omega, \emptyset)$, which
+tournaments with vertices `$\Omega$` that are subgraphs of `$W$`, the output
+is no longer unique: In the worst case `$G=(\Omega, \emptyset)$`, which
 results in `HodgeRank` assigning a potential of 0 to every node, and
 `HodgeResolve` putting every vertex in the same equivalence class in the
 weak ordering. As a graph this is the complete directed graph on
-$\Omega$, which contains all acyclic tournaments on $\Omega$ as
-subgraphs. Then there are $|\Omega|!$ acyclic tournaments generated from
+`$\Omega$`, which contains all acyclic tournaments on `$\Omega$` as
+subgraphs. Then there are `$|\Omega|!$` acyclic tournaments generated from
 this weak ordering, since all acyclic tournaments are equally compatible
 with the weak ordering.
 
@@ -842,9 +842,9 @@ However, results from two different fields apply to this case.
 
 #### Resolution to Polynomially Many Preferences
 
-If **uniqueness** can't be fulfilled (perhaps because the given graph $G$
+If **uniqueness** can't be fulfilled (perhaps because the given graph `$G$`
 is under-determined), a weaker criterion is that the number of consistent
-graphs corresponding to $G$ is polynomial in the size of `$\Omega$`
+graphs corresponding to `$G$` is polynomial in the size of `$\Omega$`
 (`$\forall G \in \mathfrak{P}_{\Omega}: |f(G)| \le p(|\Omega|)$`, where
 `$p(n)$` is some polynomial in `$n$`).
 
@@ -853,22 +853,22 @@ graphs corresponding to $G$ is polynomial in the size of `$\Omega$`
 However, as proven in **Theorem**
 [7](#omgedworstcase){reference-type="ref" reference="omgedworstcase"}
 above, this criterion is not fulfilled for `EGEDmin`, instead
-in the worst case the number is factorial in the size of $\Omega$.
+in the worst case the number is factorial in the size of `$\Omega$`.
 
 We decided to also investigate the number of results for `EGEDmin` for
 small graphs. For this purpose, we generated all directed graphs with
-five nodes or less and computed $\mathtt{EGEDmin}(G)$.
+five nodes or less and computed `$\mathtt{EGEDmin}(G)$`.
 
-**Definition 4**. Let $G$ be any directed graph. Then the **confusion** of
-$G$ is the number of acyclic tournaments with the smallest edge-graph-edit
-distance to $G$, that is the confusion $c: \mathfrak{P} \rightarrow
-\mathbb{N}^+$ of $G$ is $c(G)=|\mathtt{EGEDmin}(G)|$. The set of graphs
-with $n$ vertices and confusion $c$ shall be denoted $\mathbf{G}_{n,c}$.
+**Definition 4**. Let `$G$` be any directed graph. Then the **confusion** of
+`$G$` is the number of acyclic tournaments with the smallest edge-graph-edit
+distance to `$G$`, that is the confusion `$c: \mathfrak{P} \rightarrow
+\mathbb{N}^+$` of `$G$` is `$c(G)=|\mathtt{EGEDmin}(G)|$`. The set of graphs
+with `$n$` vertices and confusion `$c$` shall be denoted `$\mathbf{G}_{n,c}$`.
 
 The term "confusion" was chosen to emphasize that graphs with a lower
 such number have fewer consistent versions. An acyclic tournament has
 minimal confusion (namely 1, where the output of `EGEDmin` is simply
-itself). $G_e$ from **Theorem** 7 has maximal confusion, namely $n!$.
+itself). `$G_e$` from **Theorem** 7 has maximal confusion, namely `$n!$`.
 
 A natural question to ask is whether, with bigger graphs, the average
 confusion converges to a certain value or diverges, or shows no clear
@@ -886,16 +886,16 @@ For some given set of directed graphs `$\mathfrak{P}_n$`, not all numbers
 between `$1$` and `$n!$` can be confusions. There are, for example,
 no graphs of size 3 with confusion 4 (or 5).
 
-| `$n$`   | Samples    | Average confusion   | $\|\mathbf{G}_{n,1}\|$     | $\|\mathbf{G}_{n,1}\|/n!$ | $\|\mathbf{G}_{n, n!}\|$ |
+| `$n$`   | Samples    | Average confusion   | `$\|\mathbf{G}_{n,1}\|$`     | `$\|\mathbf{G}_{n,1}\|/n!$` | `$\|\mathbf{G}_{n, n!}\|$` |
 | ------- | ---------- | ------------------- | -------------------------- | ------------------------- | ------------------------ |
-| 0       | 1          | 1                   | 100% (1)                   | 1                         | $2^0$                    |
-| 1       | 2          | 1                   | 100% (2)                   | 2                         | $2^1$                    |
-| 2       | 16         | 1.5                 | 50% (8)                    | 4                         | $2^3$                    |
-| 3       | 512        | 2.625               | 28.125% (144)              | 24                        | $2^6$                    |
-| 4       | 65536      | $\approx$ 4.91      | $\approx$ 16.4% (10752)    | 448                       | $2^{10}$                 |
-| 5       | 33554432   | $\approx$ 9.43      | $\approx$ 9.853% (3306240) | 27552                     | $2^{15}$                 |
-| 6       | 90927      | $\approx$ 18.138    | $\approx$ 6.225% (5660)    | ?[^3]                     | ?                        |
-| 7       | 1580       | $\approx$ 36.412    | $\approx$ 3.608% (57)      | ?                         | ?                        |
+| 0       | 1          | 1                   | 100% (1)                   | 1                         | `$2^0$`                    |
+| 1       | 2          | 1                   | 100% (2)                   | 2                         | `$2^1$`                    |
+| 2       | 16         | 1.5                 | 50% (8)                    | 4                         | `$2^3$`                    |
+| 3       | 512        | 2.625               | 28.125% (144)              | 24                        | `$2^6$`                    |
+| 4       | 65536      | `$\approx$` 4.91      | `$\approx$` 16.4% (10752)    | 448                       | `$2^{10}$`                 |
+| 5       | 33554432   | `$\approx$` 9.43      | `$\approx$` 9.853% (3306240) | 27552                     | `$2^{15}$`                 |
+| 6       | 90927      | `$\approx$` 18.138    | `$\approx$` 6.225% (5660)    | ?[^3]                     | ?                        |
+| 7       | 1580       | `$\approx$` 36.412    | `$\approx$` 3.608% (57)      | ?                         | ?                        |
 
 Interestingly, neither `$|\mathbf{G}_{n,1}|$` nor
 `$|\mathbf{G}_{n,1}|/n!$` are known integer sequences: a search on the
@@ -930,25 +930,25 @@ as an output the output size can be factorial in the number of nodes.
 
 #### Preservation of Consistent Subgraphs
 
-**Definition 5**. For a given `$G =(\Omega, E_P)$, with $G \in
+**Definition 5**. For a given `$G =(\Omega, E_P)$`, with `$G \in
 \mathfrak{P}_{\Omega}$`, a subgraph `$\mathit{S}_G=(\Xi, E)$` of
 `$G$` (with `$\Xi \subseteq \Omega$`, and the set of edges `$E$` of
 `$\mathit{S}_G$` being a subset of `$E_P$`) is an **inclusion-maximal
 consistent subgraph** of `$G$` if and only if:
 
--   $\mathit{S}_G$ is a consistent graph (equivalently an acyclic
+-   `$\mathit{S}_G$` is a consistent graph (equivalently an acyclic
     tournament)[^4].
 -   `$\mathit{S}_G$` inherits all available edges from `$G$`, that is if
     there are two `$\xi_1, \xi_2 \in \Xi$` and `$(\xi_1, \xi_2) \in E_P$`
     then `$(\xi_1, \xi_2) \in E$` as well.
 -   `$\mathit{S}_G$` is inclusion-maximal, that is, there exists no
     `$\omega \in \Omega \backslash \Xi$` so that adding `$\omega$` and its
-    edges adjacent to all `$\xi \in \Xi$ to $\mathit{S}_G$` is still a
+    edges adjacent to all `$\xi \in \Xi$` to `$\mathit{S}_G$` is still a
     consistent graph.
 
 **Definition 6**. Let `$\mathcal{S}_G$` be the set of all
 inclusion-maximal consistent subgraphs of `$G$` and let `$f: \mathfrak{P}
-\rightarrow \mathcal{P}(\mathfrak{C})$` be a function that turns any $G$
+\rightarrow \mathcal{P}(\mathfrak{C})$` be a function that turns any `$G$`
 into a set `$\mathbf{C}_G=f(G)$` of consistent graphs. Then `$f$` fulfills
 **Preservation of Consistent Subgraphs** if and only if every element of
 `$\mathcal{S}_G$` is a subgraph of at least one `$\mathbf{C}_G$`, that is
@@ -1023,10 +1023,10 @@ graphs with six or seven nodes.
 \mathfrak{P}_{1..n}$` be a function that returns the
 **i**nclusion-**m**aximal **c**onsistent **s**ubgraphs for a given graph.
 
-Given a directed graph $G$, let $\mathcal{S}$ be the set of
-inclusion-maximal consistent subgraphs of $G$. One can now ask: For a
+Given a directed graph `$G$`, let `$\mathcal{S}$` be the set of
+inclusion-maximal consistent subgraphs of `$G$`. One can now ask: For a
 given inclusion-maximal consistent subgraph, how often did that subgraph
-occur in the set of outputs $\mathtt{EGEDmin}(G)$?
+occur in the set of outputs `$\mathtt{EGEDmin}(G)$`?
 
 **Definition 8**. Let `$\text{RSP}(S, G)$` (with `$S \in \mathcal{S}$`)
 be the **r**atio of **s**ubgraph **p**reservation:
@@ -1041,13 +1041,13 @@ policies](https://www.lesswrong.com/posts/jyM7MSTvy8Qs6aZcz/what-s-up-with-respo
 As we saw above, there are graphs with inclusion-maximal consistent
 subgraphs `$S$` so that `$\text{RSP}(S)=0$`.
 
-One can then use $\text{RSP}$ to define a metric that tells us, for a
+One can then use `$\text{RSP}$` to define a metric that tells us, for a
 given graph, how often inclusion-maximal consistent subgraphs were
 preserved on average.
 
-**Definition 9**. Let $\text{AMSP}_{\mathtt{EGEDmin}}(G)$ be the
-average, for every inclusion-maximal consistent subgraph $\mathit{S}$,
-of the number of times $\mathit{S}$ appears in the output of `EGEDmin`
+**Definition 9**. Let `$\text{AMSP}_{\mathtt{EGEDmin}}(G)$` be the
+average, for every inclusion-maximal consistent subgraph `$\mathit{S}$`,
+of the number of times `$\mathit{S}$` appears in the output of `EGEDmin`
 (**a**verage **m**aximal **s**ubgraph **p**reservation):
 
 <div>
@@ -1078,7 +1078,7 @@ resolving inconsistent preferences.
 
 One can see that the average number of inclusion-maximal consistent
 subgraphs increases, albeit initially slowly. The number of times that
-maximal consistent subgraphs are preserved (Avg $\text{AMSP}(G)$) starts
+maximal consistent subgraphs are preserved (Avg `$\text{AMSP}(G)$`) starts
 dropping, though the shrinking behavior isn't clear from the limited
 amount of data. The number of graphs in which all inclusion-maximal
 consistent subgraphs are preserved by `EGEDmin` shrinks even more
@@ -1099,7 +1099,7 @@ preserves almost none of the inclusion-maximal consistent subgraphs:
 	$$\underset{n \rightarrow \infty}{\lim} \frac{1}{|\mathfrak{P}_n|} \sum_{G \in \mathfrak{P}_n} \text{AMSP}(G)=0$$
 </div>
 
-**Conjecture 3**. For graphs with $>7$ nodes it remains the case that
+**Conjecture 3**. For graphs with `$>7$` nodes it remains the case that
 there are graphs for which the smallest number of inclusion-maximal
 consistent subgraphs preserved by `EGEDmin` is zero:
 
@@ -1150,19 +1150,19 @@ In the following table, `$\text{AMSP}$` refers to
 `$\text{AMSP}_{\mathtt{HodgeResolve}}$`, and `$\text{IMCS}$` refers to
 `$\text{IMCS}_{\mathtt{HodgeResolve}}$`.
 
-| $n$  |Samplesize  |Avg `$\#(\text{IMCS}(G))$`|Avg $\text{AMSP}(G)$  |Min $\text{AMSP}(G)$  |Graphs with $\text{AMSP}(G)=1$  |
+| `$n$`  |Samplesize  |Avg `$\#(\text{IMCS}(G))$`|Avg `$\text{AMSP}(G)$`  |Min `$\text{AMSP}(G)$`  |Graphs with `$\text{AMSP}(G)=1$`  |
 | -----|------------|--------------------------|----------------------|----------------------|--------------------------------|
 | 0    |1           |1                         |1                     |1                     | 1 (100%)                       |
 | 1    |2           |1                         |1                     |1                     | 2 (100%)                       |
 | 2    |16          |1.125                     |1                     |1                     | 16 (100%)                      |
-| 3    |512         |$\approx$ 1.32            |$\approx$ 1           |1                     | 512 (100%)                     |
-| 4    |65536       |$\approx$ 1.568           |$\approx$ 0.978       |0                     | 63232 ($\approx$ 96.5%)        |
-| 5    |33554432    |$\approx$ 1.864           |$\approx$ 0.932       |0                     | 29373632 ($\approx$ 87.5%)     |
-| 6    |65536       |$\approx$ 2.209           |$\approx$ 0.879       |0                     | 49680 ($\approx$ 75.8%)        |
-| 7    |65536       |$\approx$ 2.612           |$\approx$ 0.831       |0                     | 41926 ($\approx$ 63.9%)        |
-| 8    |65536       |$\approx$ 3.064           |$\approx$ 0.783       |0                     | 34227 ($\approx$ 52.2%)        |
-| 9    |65536       |$\approx$ 3.567           |$\approx$ 0.738       |0                     | 27138 ($\approx$ 41.4%)        |
-| 10   |65536       |$\approx$ 4.13            |$\approx$ 0.701       |0                     | 21349 ($\approx$ 32.6%)        |
+| 3    |512         |`$\approx$` 1.32            |`$\approx$` 1           |1                     | 512 (100%)                     |
+| 4    |65536       |`$\approx$` 1.568           |`$\approx$` 0.978       |0                     | 63232 (`$\approx$` 96.5%)        |
+| 5    |33554432    |`$\approx$` 1.864           |`$\approx$` 0.932       |0                     | 29373632 (`$\approx$` 87.5%)     |
+| 6    |65536       |`$\approx$` 2.209           |`$\approx$` 0.879       |0                     | 49680 (`$\approx$` 75.8%)        |
+| 7    |65536       |`$\approx$` 2.612           |`$\approx$` 0.831       |0                     | 41926 (`$\approx$` 63.9%)        |
+| 8    |65536       |`$\approx$` 3.064           |`$\approx$` 0.783       |0                     | 34227 (`$\approx$` 52.2%)        |
+| 9    |65536       |`$\approx$` 3.567           |`$\approx$` 0.738       |0                     | 27138 (`$\approx$` 41.4%)        |
+| 10   |65536       |`$\approx$` 4.13            |`$\approx$` 0.701       |0                     | 21349 (`$\approx$` 32.6%)        |
 
 With this data, the next plot shows how well `EGEDmin` and `HodgeResolve`
 perform at preserving inclusion-maximal consistent subgraphs.
@@ -1190,7 +1190,7 @@ here: the **minimal undominated set** (also **Condorcet set**) [Miller
 1977](./doc/voting_theory/graph_theoretical_approaches_to_the_theory_of_voting_miller_1977.pdf)
 is defined for every tournament `$T=(V_T, E_T)$` as a set of vertices
 `$V^*\subseteq V_T$` so that (1) there is no edge from `$V_T \backslash
-V^*$ to $V^*$` and (2) there is no proper subset of `$V^*$` that meets
+V^*$` to `$V^*$` and (2) there is no proper subset of `$V^*$` that meets
 (1).
 
 One can create a related (but weaker) definition for directed graphs:
@@ -1228,7 +1228,7 @@ is a completely dominating set of `$\Sigma_2$` in `$C$`.
 
 **Proposition 3**. Let `$f$` be a function that fulfills **Preservation
 of Complete Domination**. If for a graph `$G$` there are `$n$` sets
-of vertices `$\Sigma_1, \dots, \Sigma_n$ so that $\biguplus_{i=1}^n
+of vertices `$\Sigma_1, \dots, \Sigma_n$` so that `$\biguplus_{i=1}^n
 \Sigma_i=\Omega$` and
 
 <div>
@@ -1253,8 +1253,8 @@ that each `$\sigma_i \in
 **Remark 2**. Preservation of complete domination implies some other
 criteria: If there is a consistent subgraph which is a completely
 dominating set, then it will comprise the "greatest" subgraph in the
-resolved preference, with the greatest element in $G$ also being the
-greatest element in $f(G)$. The same holds for the a completely
+resolved preference, with the greatest element in `$G$` also being the
+greatest element in `$f(G)$`. The same holds for the a completely
 dominated consistent subgraph, which stays at the bottom.
 
 #### Minimizing Graph-Edit Distance
@@ -1283,7 +1283,7 @@ criteria:
 | -------------------------------------- | ----------- | --------------------|
 | Surjectivity                           | ✓           | ✓                   |
 | Identity                               | ✓           | ✓                   |
-| Worst-case computational complexity    | $NP$-hard   | $\mathcal{O}(n^3)$  |
+| Worst-case computational complexity    | `$NP$`-hard   | `$\mathcal{O}(n^3)$`  |
 | Uniqueness                             | ✗           | ~[^8]               |
 | Polynomial output size                 | ✗           | ~                   |
 | Preservation of consistent subgraphs   | ✗           | ✗                   |
@@ -1355,7 +1355,7 @@ of `$E_n$` that includes all inclusion-maximal consistent subgraphs of
 
 Therefore, Theorem 10 is true.
 
-**Corollary 1**. There is no polynomial $p$ and function `$f: \mathfrak{P}
+**Corollary 1**. There is no polynomial `$p$` and function `$f: \mathfrak{P}
 \rightarrow \mathcal{P}(\mathfrak{C})$` such that `$|f(E_n)|\le p(n)$` and
 `$f$` fulfills **Preservation of Consistent Subgraphs**, so **Theorem**
 10 is true (with `$E_n$` as a counterexample).
@@ -1370,7 +1370,7 @@ can probably be improved upon.
 Given that in the worst case, only a small proportion of consistent
 subgraphs can be preserved, it also is not possible to have an algorithm
 that returns, for each inclusion-maximal consistent subgraph
-$\mathit{S}$, at least one consistent graph that contains $\mathit{S}$,
+`$\mathit{S}$`, at least one consistent graph that contains `$\mathit{S}$`,
 *and* computes its output in polynomial time.
 
 **Theorem 14**. Let `$\mathtt{A}$` be an algorithm for resolving
@@ -1390,7 +1390,7 @@ inclusion-maximal consistent subgraphs of the "levels" `$V_i$`:
 	$$\newcommand{\bigtimes}{\mathop{\Large\times\normalsize}} \bigtimes_{i=1}^n \{\alpha_i \rightarrow \beta_i, \beta_i \rightarrow \gamma_i, \gamma_i \rightarrow \alpha_i\}$$
 </div>
 
-This might also allow for a compact representation of the result of $f$
+This might also allow for a compact representation of the result of `$f$`
 which includes all inclusion-maximal consistent subgraphs. We suspect
 there are counter-examples that don't allow for this, but haven't been
 able to find any.
@@ -1446,7 +1446,7 @@ be formulated free of contradiction on this level." \[ibid.\]).
 Violations of the independence axiom ("dependence") occur if for two
 lotteries `$l_1, l_2$` (with `$l_1 \preceq l_2$`) there is an option
 `$l_3$` and a `$p \in [0; 1]$` so that `$[p: l_1, (1-p): l_3] \succ [p:
-l_2, (1-p): l_3]$`: Mixing in $l_3$ in equal proportion to both `$l_1,
+l_2, (1-p): l_3]$`: Mixing in `$l_3$` in equal proportion to both `$l_1,
 l_2$` causes the preference to switch.
 
 Together with a strong preference for certainty it is observed in
@@ -1506,9 +1506,9 @@ An element from `$\mathfrak{S}_{\Omega}$` assigns each element from
 
 Edge-weighted directed graphs on `$\Omega$` are not expressive enough to
 represent all relevant inconsistent preferences, though. As a trivial
-example, let `$l_1=[0.25: \alpha, 0.75: \beta]$ and $l_2=[0.75: \alpha,
-0.25: \beta]$ with $l_1 \prec l_2$, but $l_3=[0.3: \alpha, 0.7: \beta],
-l_4=[0.7: \alpha, 0.3: \beta]$ with $l_3 \succ l_4$`. The first
+example, let `$l_1=[0.25: \alpha, 0.75: \beta]$` and `$l_2=[0.75: \alpha,
+0.25: \beta]$` with `$l_1 \prec l_2$`, but `$l_3=[0.3: \alpha, 0.7: \beta],
+l_4=[0.7: \alpha, 0.3: \beta]$` with `$l_3 \succ l_4$`. The first
 preference implies a positive weight for the edge
 `$\alpha \rightarrow \beta$`, but the second preference implies a negative
 weight for `$\alpha \rightarrow \beta$`.
@@ -1517,7 +1517,7 @@ Introducing two positively weighted edges between `$\alpha, \beta$`
 (creating a two-cycle) is able to represent that such a preference
 between lotteries *is* present, but it doesn't allow reconstruction of
 which lotteries are preferred over which others: Given a preference of
-`$\alpha$ over $\beta$` by `$w_l$`, and of `$\beta$ over $\alpha$` by
+`$\alpha$` over `$\beta$` by `$w_l$`, and of `$\beta$` over `$\alpha$` by
 `$w_r$` doesn't enable reconstruction of whether `$l_1 \prec l_2$` or
 `$l_1 \succ l_2$`.
 
@@ -1615,10 +1615,10 @@ of preference to dispreference.
 If every voter assigns `nan` to both `$\omega_1$` and `$\omega_2$`,
 there is no edge between the two options.
 
-The function $l: E \rightarrow \mathbb{R}$ denotes the number of voters
+The function `$l: E \rightarrow \mathbb{R}$` denotes the number of voters
 which have a non-`nan` rating for both nodes in the edge. In the case
 where we do not take the social choice view, we can assume that
-$\forall e \in E: l(e)=1$, which does not change the process of
+`$\forall e \in E: l(e)=1$`, which does not change the process of
 computing the output of `HodgeRank`.
 
 	function HodgeRank(G) # G is a tuple (Ω, E, w, l)
@@ -2319,7 +2319,7 @@ illustrative of some conceptual point. Probably I should
 
 Let `$\mathbf{S}=\mathtt{stepwise}(G)$`, and `$S=(\Omega,
 E_S) \in \mathbf{S}$`. Since all `$S$` are transitive, complete and
-reflexive, all $S$ have the same number of edges, namely the triangular
+reflexive, all `$S$` have the same number of edges, namely the triangular
 number `$|E_S|=\frac{|\Omega|(|\Omega|+1)}{2}$`. We also know that
 `$\text{EGED}(G, S)=|E_G \Delta E_S|$`, and `$E_G \Delta E_S=E_G
 \backslash E_S \cup E_S \backslash E_G$` (the edges we remove from
@@ -2334,7 +2334,7 @@ S \in \mathbf{S}$`. ◻
 ### Lemma 2
 
 `$E^-_T$` is a feedback arc set: Assume for contradiction that
-`$E^-_T$` was not a feedback arc set. Then $G$ would need to contain a
+`$E^-_T$` was not a feedback arc set. Then `$G$` would need to contain a
 cycle of directed edges `$E_c=\omega_1 \rightarrow \omega_2 \rightarrow
 \dots \rightarrow \omega_{k-1} \rightarrow \omega_k \rightarrow \omega_1$`
 so that the cycle was still present after removing `$E^-_T$`, that
@@ -2468,7 +2468,7 @@ distance to a given tournament `$T$`.
 
 Assume we know an algorithm `A` to compute `$f_{\text{EGED}}(G)$`
 efficiently, that is, to compute the set of all acyclic tournaments with
-the minimal graph-edit distance to a given directed graph $G$ in
+the minimal graph-edit distance to a given directed graph `$G$` in
 polynomial time.
 
 Then one could solve Slater's problem in polynomial time: For any
@@ -2478,7 +2478,7 @@ acyclic tournaments which have the same minimal graph-edit distance
 a tournament `$T$` into a tournament `$T'$`. Edges can only be
 flipped, which engenders two edge operations (removing an edge and
 then adding a new one). Then that set would also be the set of Slater
-orders of `$T$` (with distance `$k$`), a solution to ($P_3$) from [Hudry
+orders of `$T$` (with distance `$k$`), a solution to (`$P_3$`) from [Hudry
 2010](./doc/cs/preference/on_the_complexity_of_slaters_problems_hudry_2010.pdf),
 which is known to be NP-hard. ◻
 
@@ -2496,16 +2496,16 @@ any acyclic tournament is the same, namely `${n \choose 2}$`. So
 ### Proposition 2
 
 This is an artifact of including graphs with reflexive edges in
-the set of graphs tested. Let $G$ be a graph with confusion $k$ and no
+the set of graphs tested. Let `$G$` be a graph with confusion `$k$` and no
 reflexive edges.
 
-Let now $\mathbf{G}^{\circ}$ be the set of all graphs that are variants
-of $G$ with reflexive edges added. This set include $G$ itself, and $G$
-with all reflexive edges, as well as each version of $G$ with only one
-reflexive edge. Every element in $\mathbf{G}^{\circ}$ also has confusion
-$k$: all reflexive edges must be removed to create a consistent
-preference, yielding $G$, and there are $k$ unique acyclic tournaments
-that has the smallest edge-graph-edit distance to $G$.
+Let now `$\mathbf{G}^{\circ}$` be the set of all graphs that are variants
+of `$G$` with reflexive edges added. This set include `$G$` itself, and `$G$`
+with all reflexive edges, as well as each version of `$G$` with only one
+reflexive edge. Every element in `$\mathbf{G}^{\circ}$` also has confusion
+`$k$`: all reflexive edges must be removed to create a consistent
+preference, yielding `$G$`, and there are `$k$` unique acyclic tournaments
+that has the smallest edge-graph-edit distance to `$G$`.
 
 Then it is the case `$|\mathbf{G}^{\circ}|=2^n$`: for each node,
 the presence of a reflexive edge on that node can be described by
@@ -2544,7 +2544,7 @@ vertices `$V_{\mathit{S}}$` is an inclusion-maximal consistent subgraph in
 
 3.  `$\mathit{S}_P$` is asymmetric, because for any edge `$\{u,v\}$` in
     `$\mathit{S}_G$` it is the case that `$j(u)>j(v)$` and `$j(v)>j(u)$` can't
-    be true at the same time (since $j$ assigns each vertex a unique
+    be true at the same time (since `$j$` assigns each vertex a unique
     natural number). So `$\mathit{S}_P$` can only contain either `$(u,v)$`
     or `$(v,u)$`.
 
@@ -2564,7 +2564,7 @@ Fix `$1<j<k<n$`. Let `$\Sigma_l=\biguplus_{i=1}^{k-1} \Sigma_i$` and
 it holds that `$\forall \sigma_j \in \Sigma_j, \sigma_k \in \Sigma_k:
 \sigma_j \rightarrow \sigma_k \in E_C \land \sigma_k \rightarrow \sigma_j
 \not \in E_C$`. So `$\Sigma_j$` now completely dominates `$\Sigma_k$`
-in $C$. ◻
+in `$C$`. ◻
 
 ### Theorem 9
 
@@ -2686,13 +2686,13 @@ at least one `$\mathit{V}_i$`, thus `$2^n$` is the maximal size of
 ### Lemma 13
 
 Assume that one can partition the set `$\mathbf{C}$` of inclusion-maximal
-consistent subgraphs of $E_n$ into a set `$\mathbf{P}$` of disjoint sets
+consistent subgraphs of `$E_n$` into a set `$\mathbf{P}$` of disjoint sets
 of size `$\le 2^n$` (that is `$\forall \mathcal{C}_i \in \mathbf{P}:
 |\mathcal{C}_i|=2^n|$`) such that there exists a consistent graph `$C$`
 that contains all `$\mathcal{C}_i$`. Then the number of such partitions
 would be the number of consistent graphs required to "cover" all elements
 in `$\mathbf{C}$`, since by Lemma 12 the sets of compatible graphs have
-at most size `$2^n$`. Then the size of $\mathbf{P}$ would be at least
+at most size `$2^n$`. Then the size of `$\mathbf{P}$` would be at least
 `$\frac{3^n}{2^n}=1.5^n$`, which is exponential in `$n$`. ◻
 
 ### Theorem 14
