@@ -439,24 +439,24 @@ similar to those of the minimalist unix and [Plan
 
 Various measures of size for the website (excluding automatically generated content and transcriptions):
 
-	$ cat (l *.md | g -v 'chrono|tao|_list|exercise_log|declaration') | pr | grep -Eo 'Page [0-9]+' | tail -1
-	Page 830
-	$ wc (l *.md | g -v 'chrono|tao|_list|exercise_log|declaration') | tail -1
-	46452  278664 2166233 total
+	$ cat (l *.md | g -v 'chrono|tao|_list|exercise_log|declaration|grand') | pr | grep -Eo 'Page [0-9]+' | tail -1
+	Page 930
+	$ wc (l *.md | g -v 'chrono|tao|_list|exercise_log|declaration|about') | tail -1
+	  52762  319918 2513803 total
 
-Benford's law:
+Benford's law isn't followed by the digits on this site:
 
 	$ grep -ho '[0-9]' *.md | sort | uniq -c | sort -n | tail -10
-	9694 4
-	10092 9
-	10138 8
-	10271 6
-	11056 7
-	11764 3
-	11887 5
-	36400 1
-	40989 2
-	57962 0
+	  11089 4
+	  11120 6
+	  11312 9
+	  11578 8
+	  12270 7
+	  13231 3
+	  13307 5
+	  40500 1
+	  46342 2
+	  64559 0
 
 (Note: as of the time of writing, the list of numbers above is not
 iteratively stable, that is, after I update the numbers, the distribution
@@ -504,8 +504,8 @@ Starting mid 2024, much of the content on this site has strongly
 benefitted from many hundreds of conversations with Claude 3/3.5/3.6/3.7/4
 Sonnet and Claude 3/4 Opus.
 
-The only AI-generated content is [half a line here](./microfiction#Squeal)
-and a bunch of the code.
+The only AI-generated content is [half a line
+here](./microfiction.html#Squeal) and a bunch of the code.
 
 The Author
 ----------
@@ -613,8 +613,8 @@ archive](./doc/misc/toots.txt).)
 
 If you're ever looking for me in the universal prior, I can be found
 very algorithmically close to the easily generated integer sequences
-[1, 2, 15, 180, 3638, …](./notes.html#Simple_Metagraphs) and [1, 1,
-1, 3, 28, 861, …](./resolving.html#Minimizing_GraphEdit_Distance_3)
+[1, 2, 15, 180, 3638, …](./pergraphs.html#Counting) and [1, 1, 1, 3,
+28, 861, …](./resolving.html#Minimizing_GraphEdit_Distance_3)
 
 ### Unusual Preferences
 

@@ -244,3 +244,4 @@ See Also
 * [Nudge](https://www.nudge.com/)
 * [The Startup Landscape for Expanding Consciousness (Greg Kubin/Scott Britton, 2023)](https://scottbritton.substack.com/p/the-startup-landscape-for-expanding)
 * [Wireheading Done Right: Stay Positive Without Going Insane (Andrés Gómez-Emilsson, 2016)](https://qualiacomputing.com/2016/08/20/wireheading_done_right/)
+* [Brain Stimulation for Positive Experience: A Comprehensive Analysis (Claude Opus 4, 2025)](https://claude.ai/public/artifacts/b654f3f5-d458-443c-80a6-fdec43a3291d)

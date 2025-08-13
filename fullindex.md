@@ -67,6 +67,10 @@ you’d like to forward
 
 #### Forecasting
 
+> Our vision seems to fade into a fog of possibilities.
+
+*—Robin Hanson, [“If Uploads Come First”](http://mason.gmu.edu/~rhanson/uploads.html), 1994*
+
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 * [Subscripts for Probabilities](./subscripts.html)
 * [On The Effectiveness Of Question Decomposition](./decompose.html)

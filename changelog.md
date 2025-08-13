@@ -23,6 +23,14 @@ the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
 
+August 2025
+------------
+
+* [Ontological cluelessness](./ontological.html)
+* [Pergraphs](./pergraphs.html)
+* [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
+	* [0.836 Bits of Evidence for Futarchy](./platforms.html#0836_Bits_of_Evidence_for_Futarchy): My previous analysis here made no sense, I fixed and updated it.
+
 July 2025
 ----------
 
@@ -40,7 +48,7 @@ math-heavy pages should load a bunch faster.
 
 ### Links
 
-* [Stamina Succeeds (Robin Hanson, 2019)](https://www.overcomingbias.com/p/stamina-succeedshtml)
+* [Stamina Succeeds (Robin Hanson, 2019)](https://www.overcomingbias.com/p/stamina-succeedshtml), [Energetic Aliens (Stephen Malina, 2021)](https://stephenmalina.com/post/2021-07-01-energetic-aliens-among-us/)
 * [Reason’s Overreach (Robin Hanson, 2025)](https://www.overcomingbias.com/p/reasons-overreach): The counter-perspective to [X as a Replacement Backstop](./notes.html#Error_Correction_as_a_Replacement_Backstop). Typically Hansonianly pessimistic.
 * [Updatelessness and Son of X (Scott Garrabrant, 2016)](https://www.lesswrong.com/posts/5bd75cc58225bf067037528e/updatelessness-and-son-of-x)
 * [Parakaryon myojinensis (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Parakaryon)

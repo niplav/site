@@ -2661,7 +2661,7 @@ Bucketlist
 `filepunk`
 -----------
 
-Fileservers × mechanism design × microtransactions. A personal
+Fileservers × mechanism design × sub-cent microtransactions. A personal
 æsthetic.
 
 * `data flows, attribution backpropagates, pipes brim`

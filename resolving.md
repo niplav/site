@@ -877,10 +877,10 @@ computed their confusion.
 
 ![Number of graphs by number of nodes and confusion.](./img/resolving/nconfusions.png "Number of graphs by number of nodes and confusion.")
 
-`$|\mathbf{G}_{n,1}|$` is the number of all graphs with `$n$` vertices and
-confusion 1, and `$|\mathbf{G}_{n,1}|/n!$` is the same number but up to
-isomorphism of the graphs. `$|\mathbf{G}_{n, n!}|$` is the number of
-graphs with `$n$` vertices and maximal confusion.
+`$|\mathbf{G}_{n,1}|$` is the number of all graphs with `$n$` vertices
+and confusion 1, and `$|\mathbf{G}_{n,1}|/n!$` is the same number but
+up to renaming of the vertex labels. `$|\mathbf{G}_{n, n!}|$` is the
+number of graphs with `$n$` vertices and maximal confusion.
 
 For some given set of directed graphs `$\mathfrak{P}_n$`, not all numbers
 between `$1$` and `$n!$` can be confusions. There are, for example,

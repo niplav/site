@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-07-10, modified: 2025-07-23, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2025-07-10, modified: 2025-08-13, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __.__
 
@@ -16,33 +16,51 @@ I am afflicted by a strange curse, which condemns me to be creative
 enough to find new mathematical structures, but too dumb to prove anything
 interesting about them.
 
-Inspired by [(A -> B) -> A (Scott Garrabrant,
-2018)](https://www.lesswrong.com/posts/qhsELHzAHFebRJE59/a-greater-than-b-greater-than-a):
+![A drawing with the letter 'A' on the left side, the letter 'B' on the right side. A red arrow goes from 'A' to 'B'. A blue arrow goes from the middle of the red arrow to 'A'.](./img/pergraphs/garrabrant.png "A drawing with the letter 'A' on the left side, the letter 'B' on the right side. A red arrow goes from 'A' to 'B'. A blue arrow goes from the middle of the red arrow to 'A'.")
 
-![](./img/pergraphs/garrabrant.png)
+On a meditation retreat in 2022 I was remembering [a post by Scott
+Garrabrant](https://www.lesswrong.com/posts/qhsELHzAHFebRJE59/a-greater-than-b-greater-than-a)
+and doodled the above image in my notebook, together with
+some other drawings of networks where edges can have edges as sources and sinks.
 
-<!--TODO: fold the above into the paragraph below-->
+Recently, I got thinking about those again, researched a bit and think
+I've discovered they've not been examined yet. I'll call those kinds of
+graphs or networks "pergraphs".
 
-On a meditation retreat in 2022 I was remembering that post and just
-doodled the above image in my notebook, together with some other graphs
-where edges could go between edges. I'll call those "pergraphs"; they
-haven't (to my knowledge) been explored yet.
+__Intuition 1__: Intuitively, a __pergraph__ is a mathematical structure
+consisting of nodes and edges, where each edge needs to have a source
+and a sink. The source and the sink of an edge can be any node or edge,
+including itself.
 
-Intuitively, a __pergraph__ is a mathematical structure made from nodes
-and edges, where each edge needs to have a source and a sink. The source
-and the sink can be any node or edge, including itself.
+__Definition 1__: Given:
 
-Given a finite set of vertices `$V$` and a finite set of peredges `$P$`
-(where a peredge is simply a label), a __pergraph__ is the tuple `$(V,
-E \subseteq P \times (V \cup P) \times (V \cup P))$` with the __closure
+1. A finite set of vertices `$V$` and
+2. A finite set of __peredges__ `$P$` (where a peredge is simply a label),
+
+A __pergraph__ is the tuple `$(V, P, e: P \rightarrow (V \cup P) \times
+(V \cup P))$`, where `$e$` is a function that assigns each __peredge__
+a source and a sink.
+
+__Remark 1__: A pergraph is more specifically a __*directed
+multi-*pergraph__, since peredges are *directed*, and two edges can
+have the same source and the same sink. We will use the term "pergraph"
+for directed multi-pergraphs, and specify deviations from such.
+
+__Definition 2__: A __uni-pergraph__ is a pergraph with the additional constraint
+that no two peredges have the same source *and* the same sink, mathematically
+`$\lnot \exists p_1, p_2 \in P: p_1 \not=p_2 \land e(p_1)=e(p_2)$`.
+
+<!--with the __closure
 constraint__ that `$\forall (p, s, t) ∈ E: s ∈ P \Rightarrow ∃(s,
-s', t') ∈ E \land t ∈ P \Rightarrow ∃(t, s'', t'') ∈ E$`.
+s', t') ∈ E \land t ∈ P \Rightarrow ∃(t, s'', t'') ∈ E$`.-->
 
-Up to isomorphism for renamings of vertices and peredges.
+### Counting
 
-Sequence of pergraphs with `$n=|V|+|P|$` constituents, starting at n=0:
+Unlabeled pergraphs are counted up to isomorphism for renamings of
+vertices and peredges.
 
-<!--TODO: this sequence is for multi-pergraphs! Compute also for non-multi-pergraphs-->
+One can count equence of pergraphs with `$n=|V|+|P|$` constituents,
+starting at n=0:
 
 1, 2, 15, 180, 3638, …
 
@@ -62,9 +80,23 @@ As a variant one could ditch the nodes entirely, and replace them
 self-directed edges. I think that one has different combinatorial
 behavior.
 
+<!--TODO: Compute maybe also for non-multi-pergraphs?-->
+
+### Questions
+
+1. When does reversing the edges of a pergraph result in an isomorphic pergraph?
+2. Is there some canonical injection into directed graphs?
+3. How computationally expensive is isomorphism-checking?
+	1. Sub-pergraph detection?
+4. In general, what graph theory concepts could be ported over?
+	1. Planarity? Strongly/weakly connected components?
+5. Has really nobody looked at these before?
+	1. What's the closest most specific but more general mathematical object that includes pergraphs as a special case?
+6. What could these possibly be useful for?
+
 ### Axes Along Which to Categorize Different Graph Concepts
 
-{directed, undirected} edges×{allows, disallows} [multi-edges](https://en.wikipedia.org/wiki/Multigraph)×{allows, disallows} [loops](https://en.wikipedia.org/wiki/Loop_\(graph_theory\))×{allows, disallows} [hyperedges](https://en.wikipedia.org/wiki/Hypergraph)×{allows, disallows} edges between edges×{allows, disallows} edges from/to themselves×{allows, disallows} edges between arbitrary sets of vertices.
+{directed, undirected} edges×{allows, disallows} [multi-edges](https://en.wikipedia.org/wiki/Multigraph)×{allows, disallows} [loops](https://en.wikipedia.org/wiki/Loop_\(graph_theory\))×{allows, disallows} [hyperedges](https://en.wikipedia.org/wiki/Hypergraph)×{allows, disallows} edges between other edges×{allows, disallows} edges from/to themselves×{allows, disallows} edges between arbitrary sets of vertices.
 
 ### Prior Art
 
@@ -119,5 +151,5 @@ matrix](https://en.wikipedia.org/wiki/Incidence_matrix) is simply
 The concept appears under-developed, and slightly different from what
 I'm pointing at.
 
-(Many thanks to Claude 4 Sonnet for several long conversations which
-fleshed out the concept.)
+(Many thanks to Claude 4 Sonnet and Claude 4 Opus for several long
+conversations which fleshed out the concept.)
