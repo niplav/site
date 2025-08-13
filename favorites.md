@@ -40,7 +40,7 @@ Schiller, 1805).
 
 #### Insightful
 
-My favorite insightful blogposts/online essays are:
+My favorite insight porn/blogposts/online essays are:
 
 * [Making Beliefs Pay Rent (in Anticipated Experiences) (Eliezer Yudkowsky, 2007)](https://www.lesswrong.com/s/7gRSERQZbqTuLX5re/p/a7n8GdKiAZRX86T5A)
 * [Software engineers solve problems (Drew DeVault, 2020)](https://drewdevault.com/2020/08/17/Engineers-solve-problems.html)
@@ -102,7 +102,9 @@ Brain](https://www.elephantinthebrain.com/)
 (Hanson & Simler 2017), [There is no Antimemetics
 Division](https://www.goodreads.com/book/show/54870256-there-is-no-antimemetics-division)
 (Hughes 2020), [1984](https://www.goodreads.com/book/show/61439040-1984)
-(Orwell 1948) and [House of
+(Orwell 1948), [Grand
+Futures](https://www.goodreads.com/book/show/42275384-grand-futures)
+(Anders Sandberg, 2025) and [House of
 Leaves](https://www.goodreads.com/book/show/24800.House_of_Leaves)
 (Danielewski 2000) (it does the whole postmodern literature shtick, but
 it does it really enjoyably! This trend did *not* continue with [Only
@@ -122,11 +124,12 @@ Audio
 
 My favorite musicians are [Johann Sebastian
 Bach](https://en.wikipedia.org/wiki/Johann_Sebastian_Bach),
-[Patricia Taxxon](https://patriciataxxon.bandcamp.com/), [Steve
-Reich](https://en.wikipedia.org/wiki/Steve_Reich), [Charles
-Mingus](https://en.wikipedia.org/wiki/Charles_Mingus), [Sonny
-Clark](https://en.wikipedia.org/wiki/Sonny_Clark), and [Vincent
-E. L](https://vincentel.bandcamp.com/).
+[Patricia Taxxon](https://patriciataxxon.bandcamp.com/),
+[Steve Reich](https://en.wikipedia.org/wiki/Steve_Reich),
+[Charles Mingus](https://en.wikipedia.org/wiki/Charles_Mingus),
+[Sonny Clark](https://en.wikipedia.org/wiki/Sonny_Clark), [Vincent
+E. L](https://vincentel.bandcamp.com/), Oliver Buckland, Mike Battaglia,
+and Graham Kartna.<!--TODO: links-->
 
 ### Music
 
@@ -311,11 +314,12 @@ Mathematics
 ------------
 
 My favorite mathematical structures are
-[∅](https://en.wikipedia.org/wiki/Empty_set) and [Post's
-lattice](https://en.wikipedia.org/wiki/Post's_lattice),
+[∅](https://en.wikipedia.org/wiki/Empty_set), [Post's
+lattice](https://en.wikipedia.org/wiki/Post's_lattice), and the [VCG
+mechanism](https://en.wikipedia.org/wiki/Vickrey-Clarke-Groves-Mechanism);
 my favorite theorem is the [Bulow-Klemperer
-theorem](https://cs.brown.edu/courses/csci1440/lectures/2022/bulow_klemperer.pdf),
-and my favorite proof is the [Classification of finite simple
+theorem](https://cs.brown.edu/courses/csci1440/lectures/2022/bulow_klemperer.pdf);
+my favorite proof is the [Classification of finite simple
 groups](https://en.wikipedia.org/wiki/Classification_of_finite_simple_groups)
 (not that I understand it).
 
@@ -345,6 +349,13 @@ My favorite unicode characters are
 * 𒈙
 * 123456⁄123456 (fraction slash)
 *  ﷽ and ﷺ
+
+My favorite unicode blocks are the [Mayan
+numerals](https://en.wikipedia.org/wiki/Mayan_Numerals_\(Unicode_block\))
+(the only pre-columbian system of expressing
+meaning that has yet made it into unicode), [Sutton
+SignWriting](https://en.wikipedia.org/wiki/Sutton_SignWriting_\(Unicode_block\)),
+and the [Yi script](https://en.wikipedia.org/wiki/Yi_script).
 
 <!--
 ### Programming Languages

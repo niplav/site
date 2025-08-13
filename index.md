@@ -59,8 +59,13 @@ you’d like to forward
 * [A TAI Race With China Can Be Better Than Not Racing](./china.html)
 * [On Discontinuous and Fast Takeoff](./foom.html)
 * [Patching ~All Security-Relevant Open-Source Software?](./patching.html)
+* [Anti-Superpersuasion Interventions](./persuasion.html)
 
 #### Forecasting
+
+> Our vision seems to fade into a fog of possibilities.
+
+*—Robin Hanson, [“If Uploads Come First”](http://mason.gmu.edu/~rhanson/uploads.html), 1994*
 
 * [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
 * [Subscripts for Probabilities](./subscripts.html)

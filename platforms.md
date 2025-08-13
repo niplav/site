@@ -307,8 +307,8 @@ Honestly: The markets did pretty well.
 
 So, [I put up some prediction markets on the results of quantified
 self RCTs](./platforms.html#Table_of_Current_Market_Status). I [ran
-one of the experiments](./platforms.html#Pomodoros), and [scored one
-market](./platforms.html#Scoring_the_Market) on the results.
+two of the experiments](./platforms.html#Pomodoros), and [scored one
+markets](./platforms.html#Scoring_the_Market) on the results.
 
 How much should the performance of the market change our opinion about
 the viability of using prediction platforms to predict RCTs, and thus be
@@ -320,6 +320,11 @@ experiment (-0.333). Qualitatively these are already fairly assuring
 because they're both far better than a random score of -0.69. But if we
 want to quantify the amount of information we've gained, we can do that
 by performing a Bayesian update.
+
+<!--TODO: exponential isn't a conjugate prior! Gamma with exponential
+data-generating process is. But the underlying data-generating process
+likely isn't exponential, and gamma has two parameters which are hard
+to fit with two datapoints, which is why we stick with half-normals.-->
 
 For that, we need a prior. What prior to choose? I
 tried fiddling around a bit with the [exponential
