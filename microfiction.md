@@ -110,9 +110,11 @@ Are you an anti-inductor in an inductive universe? Are you an inductor in an ant
 Choice of axioms.
 
 Uncommon priors require origin disputes. What do you say during an origin dispute?  
+
 Dust theory.  
 No natural measure in Tegmark IV.  
-Where was your mind before you were created in motion.  
+Where was your mind before you were created in motion?  
+
 Future Tuesday Indifference.  
 Quinean underdetermination. Infinite theories fit the same data.
 

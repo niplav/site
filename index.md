@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2025-07-08, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2025-08-13, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav. It contains texts on different topics,
 including (but not limited to) forecasting, existential risk, computer
@@ -156,10 +156,11 @@ Beides verdammen sie dir, zeigest du beides zugleich
 #### Philosophy
 
 * [Compliments as Utilitarian Praxis](./utilitarian_compliments.html)
-* [Trying to Disambiguate Different Questions about Whether Humans are Turing Machines](./general.html)
-* [Using Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./consciousness_diagram.html)
-* [Arguments Against Preference Utilitarianism](./preference.html)
+* [Ontological Cluelessness](./ontological.html)
 * [Creating Libertarian Free Will](./will.html)
+* [Trying to Disambiguate Different Questions about Whether Humans are Turing Machines](./general.html)
+* [Arguments Against Preference Utilitarianism](./preference.html)
+* [Using Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./consciousness_diagram.html)
 * [Notes on Ethics](./notes_on_ethics.html)
 
 #### Psychology

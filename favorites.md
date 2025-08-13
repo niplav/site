@@ -20,6 +20,7 @@ Texts
 * https://x.com/janhkirchner/status/1789689260926525563
 * https://x.com/norvid_studies/status/1800749427256344813
 * https://x.com/SRamirez68083/status/1883932223281475745
+* https://x.com/eshear/status/1747731486202335457
 
 ### Poems
 

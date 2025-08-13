@@ -2648,49 +2648,23 @@ No Yield From Causal Inference on My Data
 [tigramite](https://jakobrunge.github.io/tigramite/),
 [output](./code/yield/output.txt).
 
-<!--
-Ontological Cluelessness
--------------------------
+Bucketlist
+------------
 
-*epistemic status*: Philosophy
+* See a nuclear explosion
+* Cuddle a penguin
+* Have an FFM threesome
+* See aurora borealis
+* See a total eclipse
+* Experience zero gravity
 
-*Content Warning*: Philosophy
+`filepunk`
+-----------
 
-*Attention conservation notice*: Philosophy
+Fileservers × mechanism design × microtransactions. A personal
+æsthetic.
 
-What is ontological cluelessness?
+* `data flows, attribution backpropagates, pipes brim`
 
-How likely is it that we're in a state of ontological cluelessness?
-
-Are there any practical implications?
-
-Reference Bostrom
-
-Local maximum analogy
-
-Differentiating ontological cluelessness from radical skepticism, pyrrhonism, epistemological nihilism, mysticism, others.
-
-Ontological cluelessness as a pre-supposition for foundational (mostly
-continental) metaphysical work (e.g. Heidegger, Deleuze, perhaps
-Hegel? Whitehead?). Analytic metaphysics as mostly rejecting ontological
-cluelessness.
-
-Ontological cluing as the process in which one sheds ontological cluelessness.
-
-Additive vs. replacing ontological cluing.
-
-Ontological cluing and superintelligence.
-
-Superintelligences may help with ontological
-cluing *if* they are competent at philosophy and/or
-[metaphilosophy](https://www.lesswrong.com/posts/fJqP9WcnHXBRBeiBg/meta-questions-about-metaphilosophy).
-
-https://openrouter.ai/chat?room=orc-1753280867-yMbMjAjTGt2PRGrqrk3z
-
--->
-
-<!--
-Tegmark II and Futurism
-------------------------
-
--->
+<!--Tegmark II and Futurism
+-------------------------->

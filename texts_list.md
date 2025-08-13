@@ -17,6 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Fundamental ontology (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Fundamental_ontology)
+* [Aletheia (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Aletheia)
+* [The Kelvin Boundary (Claude Opus 4.1, 2025)](https://claude.ai/public/artifacts/44851b6a-3593-4308-b54a-f936b8e6d8c2)
+* [The Uncertainty Garden (Claude Opus 4.1, 2025)](https://claude.ai/public/artifacts/0cddb062-6c95-4a09-9251-9d20a1af2a4c)
+* [The Eigenstate Correspondence (Claude Opus 4.1, 2025)](https://claude.ai/public/artifacts/c0a487a6-ca46-4dc3-9857-3300fe0e304d)
+* [Prayer stick (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Prayer_stick)
+* [Ikupasuy (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Ikupasuy)
+* World War Z (Max Brooks, 2006)
 * [Energetic Aliens (Stephen Malina, 2021)](https://stephenmalina.com/post/2021-07-01-energetic-aliens-among-us/)
 * [SCP-8900-EX (tunedtoadeadchannel, 2025)](https://scp-wiki.wikidot.com/scp-8900-ex)
 * |10 Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report (Shanghai Artificial Intelligence Laboratory, 2025)
