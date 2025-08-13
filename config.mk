@@ -87,6 +87,7 @@ HTML=index.html \
 	mop.html \
 	nootropics.html \
 	nuclear.html \
+	ontological.html \
 	options.html \
 	orexin.html \
 	patching.html \

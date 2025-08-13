@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2025-02-15, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2025-08-08, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -20,11 +20,10 @@ part of my free time. I apologize for any inconveniences.
 Writing
 -------
 
-When I find the time, I slowly fix the [daygame cost-benefit
-analysis](./daygame_cost_benefit.md), boggle at my own code for
-an [n-dimensional diamond-square algorithm](./diamond.html),
-and slowly improve the treatise on [resolving inconsistent
-preferences](./resolving.html).
+I'm currently very writing-unfocussed. When I get a new idea,
+it goes into the [notes](./notes.html) first. I wish I had
+time to develop [pergraphs](./pergraphs.html) and [graph
+sevolutions](./notes.html#Graph_Sevolutions), unfortunately I don't.
 
 Data Collection
 ----------------
