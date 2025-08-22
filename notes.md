@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-07-27, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-08-22, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2658,13 +2658,65 @@ Bucketlist
 * See a total eclipse
 * Experience zero gravity
 
-`filepunk`
------------
+Managing Magical Realityfluid
+------------------------------
 
-Fileservers × mechanism design × sub-cent microtransactions. A personal
-æsthetic.
+All of the following depend on many assumptions, including something like
+[UDASSA](http://fennetic.net/irc/finney.org/~hal/udassa/summary1.html)
+being correct and humans having access to the correct
+universal notion of simplicity as measured by [Kolmogorov
+complexity](https://en.wikipedia.org/wiki/Kolmogorov_Complexity) by
+some "natural" programming language. Thus don't take it seriously,
+it's LessWrong philosophy after all.
 
-* `data flows, attribution backpropagates, pipes brim`
+1.	Using tungsten cubes as beacons is sub-optimal<!--TODO: link
+	Falkovich-->. They just lie around at home, and spacetime
+	separation with the beacon (e.g. when out working, walking around
+	&c) is not great. Tungsten cubes are also fairly squatted by now,
+	many people have them for non-realityfluid-gathering reasons.
+2.	An alternative is a small object to carry in one's wallet or on
+	one's keychain.
+	1.	I have a small vial with tritium that I bought
+		from Amazon, which seems less squatted than
+		tungsten cubes—[humanity produces <100kg of
+		tritium/year](https://en.wikipedia.org/wiki/Tritium#Fission),
+		but most of that is discharged, and
+		probably <2kg are sold annually, mostly in
+		the context of [tritium radioluminescent
+		keychains](https://en.wikipedia.org/wiki/Tritium_radioluminescence).
+	2.	Tritium has the advantage that is decays with a half-life
+		of ~12.32 years, so individual observer-moments are
+		somewhat distinguishable from each other by the varying
+		nature of the beacon. Tritium is also a fairly simple
+		isotope that doesn't occur in high concentration anywhere
+		in nature.
+	3.	The beacon can be made much stronger buy buying a second
+		tritium keychain after some time delay, since there are
+		~0 people who carry around two slightly decay-staggered
+		vials of tritium. I haven't done this.
+	4. Another option is to collect [americium](https://en.wikipedia.org/wiki/Americium) from smoke detectors.
+3.	Another way of accumulating realityfluid is to be close
+	in spacetime to the outputs of very short programs. Thus,
+	[busybeaverologists](https://en.wikipedia.org/wiki/Busy-beaver)
+	(especially busybeaverologists who compute longer versions of
+	the outputs of hitherto unexplored short programs) might be the
+	human observer-moments with the largest amount of realityfluid.
+	1.	Other candidates include people
+		who have worked with [ultra high
+		vacuum](https://en.wikipedia.org/wiki/Ultra-high_vacuum)
+		and instances of people creating
+		[extremely low-temperature
+		environments](https://en.wikipedia.org/wiki/Absolute_Zero#Very_low_temperatures).
+	2.	While I haven't done any busybeaverology,
+		I *have* found two [simply-generated integer
+		sequences](/about.html#In_the_Universal_Prior) that no
+		other human had identified beforehand, which I guess
+		point at me reliably in the universal prior.
+4.	One can modulate one's realityfluid by changing the spacetime
+	separation from a beacon. This allows for making less desired
+	moments "less real" and more desired moments "more real" by
+	moving away from and closer to the beacon; "I feel sad → I
+	toss the beryllium dodecahedron".
 
 <!--Tegmark II and Futurism
 -------------------------->

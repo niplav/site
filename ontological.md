@@ -98,6 +98,21 @@ ontological cluing *if* they are philosophically or
 [metaphilosophically](https://www.lesswrong.com/posts/fJqP9WcnHXBRBeiBg/meta-questions-about-metaphilosophy)
 competent.
 
+#### Examples of Ontological Cluing?
+
+This post has been pretty abstract so far, partly due to the abstract
+nature of the topic at hand. I don't want to speculate or pretend that
+I can resolve ontological cluelessness if humanity is in the state of
+one, but I can give examples of intellectual advances that'd count as
+ontological cluing *if* humanity's ontological cluelessness lies in
+the past. Examples would include:
+
+* The concept "concept"
+* Both the intuitive mental motion of abstracting something, *and* the concept "abstraction"
+* Developing both an intuitive understanding of causality, and developing a concept of "causality", *and* developing a formal theory of causality
+* The invention of language, mathematics
+* The move from animism to paganism to monotheistic religions
+
 ### Likelihood
 
 I personally think it's pretty likely that humanity is ontologically

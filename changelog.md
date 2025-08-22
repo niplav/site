@@ -30,6 +30,7 @@ August 2025
 * [Pergraphs](./pergraphs.html)
 * [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
 	* [0.836 Bits of Evidence for Futarchy](./platforms.html#0836_Bits_of_Evidence_for_Futarchy): My previous analysis here made no sense, I fixed and updated it.
+* Note on [Managing Magical Realityfluid](./notes.html#Managing_Magical_Realityfluid)
 
 July 2025
 ----------

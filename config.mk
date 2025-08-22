@@ -65,6 +65,7 @@ HTML=index.html \
 	exercise_log.html \
 	expansion.html \
 	favorites.html \
+	filepunk.html \
 	foom.html \
 	flags.html \
 	forecasters.html \

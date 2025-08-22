@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-07-10, modified: 2025-08-13, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2025-07-10, modified: 2025-08-22, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __.__
 
@@ -23,14 +23,19 @@ Garrabrant](https://www.lesswrong.com/posts/qhsELHzAHFebRJE59/a-greater-than-b-g
 and doodled the above image in my notebook, together with
 some other drawings of networks where edges can have edges as sources and sinks.
 
+Formalizing
+------------
+
 Recently, I got thinking about those again, researched a bit and think
 I've discovered they've not been examined yet. I'll call those kinds of
 graphs or networks "pergraphs".
 
+### Basic Definitions
+
 __Intuition 1__: Intuitively, a __pergraph__ is a mathematical structure
-consisting of nodes and edges, where each edge needs to have a source
-and a sink. The source and the sink of an edge can be any node or edge,
-including itself.
+consisting of nodes and edges (which I'll also equivalently call
+__"peredges"__), where each edge needs to have a source and a sink. The
+source and the sink of an edge can be any node or edge, including itself.
 
 __Definition 1__: Given:
 
@@ -41,8 +46,17 @@ A __pergraph__ is the tuple `$(V, P, e: P \rightarrow (V \cup P) \times
 (V \cup P))$`, where `$e$` is a function that assigns each __peredge__
 a source and a sink.
 
+Or, in [Lean 4](https://en.wikipedia.org/wiki/Lean_\(proof_assistant\)):
+
+	inductive PerNode (V E : Type) : Type
+	  | vertex : V → PerNode V E
+	  | edge : E → PerNode V E
+
+	structure Pergraph (V E : Type) where
+	  e : E → PerNode V E × PerNode V E
+
 __Remark 1__: A pergraph is more specifically a __*directed
-multi-*pergraph__, since peredges are *directed*, and two edges can
+multi-*pergraph__, since peredges are *directed*, and two peredges can
 have the same source and the same sink. We will use the term "pergraph"
 for directed multi-pergraphs, and specify deviations from such.
 
@@ -50,9 +64,7 @@ __Definition 2__: A __uni-pergraph__ is a pergraph with the additional constrain
 that no two peredges have the same source *and* the same sink, mathematically
 `$\lnot \exists p_1, p_2 \in P: p_1 \not=p_2 \land e(p_1)=e(p_2)$`.
 
-<!--with the __closure
-constraint__ that `$\forall (p, s, t) ∈ E: s ∈ P \Rightarrow ∃(s,
-s', t') ∈ E \land t ∈ P \Rightarrow ∃(t, s'', t'') ∈ E$`.-->
+### Some Pergraph Concepts
 
 ### Counting
 
@@ -67,7 +79,7 @@ starting at n=0:
 This sequence is not yet in the OEIS.
 
 * For zero constituents there's only the empty pergraph `$(\emptyset, \emptyset)$`.
-* For one constituent there's two pergraphs, the single node `$(\{v_1, \emptyset\})$` and the self-directed edge `$(\emptyset, \{(e_1, e_1, e_1)\})$`.
+* For one constituent there's two pergraphs, the single node `$(\{v_1, \emptyset\})$` and the self-directed peredge `$(\emptyset, \{(e_1, e_1, e_1)\})$`.
 * For two constituents there's these:
 
 ![](./img/pergraphs/two_small.png)
@@ -77,14 +89,14 @@ Code for computing the first terms of the sequence
 which I can also thank for talking through all the cases for n=2.
 
 As a variant one could ditch the nodes entirely, and replace them
-self-directed edges. I think that one has different combinatorial
-behavior.
+self-sourced and self-sinked peredges. I think that one has different
+combinatorial behavior.
 
 <!--TODO: Compute maybe also for non-multi-pergraphs?-->
 
 ### Questions
 
-1. When does reversing the edges of a pergraph result in an isomorphic pergraph?
+1. When does reversing the peredges of a pergraph result in an isomorphic pergraph?
 2. Is there some canonical injection into directed graphs?
 3. How computationally expensive is isomorphism-checking?
 	1. Sub-pergraph detection?
@@ -93,6 +105,14 @@ behavior.
 5. Has really nobody looked at these before?
 	1. What's the closest most specific but more general mathematical object that includes pergraphs as a special case?
 6. What could these possibly be useful for?
+
+Situating Pergraphs
+--------------------
+
+Pergraphs are *more general* than directed graphs (i.e. every
+directed graph is a pergraph), and *less general* than
+[2-categories](https://en.wikipedia.org/wiki/2-category)<!--TODO: check
+with someone who knows a bit of category theory-->.
 
 ### Axes Along Which to Categorize Different Graph Concepts
 
@@ -151,5 +171,9 @@ matrix](https://en.wikipedia.org/wiki/Incidence_matrix) is simply
 The concept appears under-developed, and slightly different from what
 I'm pointing at.
 
-(Many thanks to Claude 4 Sonnet and Claude 4 Opus for several long
-conversations which fleshed out the concept.)
+Acknowledgements
+-----------------
+
+Many thanks to Claude 4 Sonnet and Claude 4 Opus for several long
+conversations which fleshed out the concept, help with learning Lean,
+and help with writing the Rust code for the enumeration.

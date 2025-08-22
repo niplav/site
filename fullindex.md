@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2025-08-13, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2025-08-22, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav. It contains texts on different topics,
 including (but not limited to) forecasting, existential risk, computer
@@ -123,6 +123,7 @@ Von dem Sichgeistigen des Lebens Jahre zählen.
 #### Quantified Self
 
 * [Nootropics](./nootropics.html)
+* [Orexin And Sleep Deprivation](./orexin.html)
 * [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
 * [Does Recent Masturbation Decrease Meditation Quality?](./quality.html)
 * [Types & Methods of Data Collection I Use](./data.html)
@@ -252,6 +253,7 @@ das dort hervorragte, und eine alte Stiefelsohle auf.
 
 ### Fiction
 
+* [`filepunk`](./filepunk.html)
 * [Buch Stab](./buch_stab.html)
 * [Platte](./platte.html)
 * [Microfiction](./microfiction.html)
