@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-04, modified: 2025-08-08, language: english, status: in progress, importance: 7, confidence: certain*
+*author: niplav, created: 2023-01-04, modified: 2025-08-22, language: english, status: in progress, importance: 7, confidence: certain*
 
 > __There are too many possible quantified self experiments to run. Do
 hobbyist prediction platforms[^1] make priorisation easier? I test
@@ -11,8 +11,9 @@ of various [nootropics](https://en.wikipedia.org/wiki/Nootropics)
 on absorption in meditation. The first experiment
 (testing the Pomodoro method) results in a [log
 score](https://en.wikipedia.org/wiki/Proper_scoring_rule#Logarithmic_score)
-of [-0.326](#Scoring_the_Market) for the market, the [second experiment](./nootropics.html#Experiment_C_SelfBlinded_RCT)
-(testing Vitamin D₃) results in a log score of -0.333<!--TODO:- link-->
+of [-0.326](#Scoring_the_Market) for the market, the [second
+experiment](./nootropics.html#Experiment_C_SelfBlinded_RCT) (testing
+Vitamin D₃) [results in a log score of -0.333](#Scoring_the_Market)
 — pretty good.__
 
 <!--TODO: use victorian subtitle somewhere https://claude.ai/chat/d7c72475-e84e-458f-867b-7a26d04598b2-->
@@ -307,7 +308,7 @@ Honestly: The markets did pretty well.
 
 So, [I put up some prediction markets on the results of quantified
 self RCTs](./platforms.html#Table_of_Current_Market_Status). I [ran
-two of the experiments](./platforms.html#Pomodoros), and [scored one
+two of the experiments](./platforms.html#Pomodoros), and [scored both
 markets](./platforms.html#Scoring_the_Market) on the results.
 
 How much should the performance of the market change our opinion about
@@ -321,40 +322,54 @@ because they're both far better than a random score of -0.69. But if we
 want to quantify the amount of information we've gained, we can do that
 by performing a Bayesian update.
 
-<!--TODO: exponential isn't a conjugate prior! Gamma with exponential
-data-generating process is. But the underlying data-generating process
-likely isn't exponential, and gamma has two parameters which are hard
-to fit with two datapoints, which is why we stick with half-normals.-->
-
 For that, we need a prior. What prior to choose? I
 tried fiddling around a bit with the [exponential
 distribution](https://en.wikipedia.org/wiki/Exponential_distribution),
 which is the [maximum entropy
 distribution](https://en.wikipedia.org/wiki/Maximum_entropy_distribution)
-over possible logscores, only nailed down by the mean of
-the distribution. That one is great because it's a [conjugate
-prior](https://en.wikipedia.org/wiki/Conjugate_prior), and represents
-a status of minimal knowledge.
+over possible logscores, only nailed down by the mean of the
+distribution. It represents a state of minimal knowledge.
+
+There's also the [Gamma
+distribution](https://en.wikipedia.org/wiki/Gamma-distribution)
+which is great because it's a [conjugate
+prior](https://en.wikipedia.org/wiki/Conjugate_prior) assuming an
+exponentially distributed underlying data generating process. So,
+after updating on the datapoints we again get a Gamma-distribution as
+the posterior.
 
 But I didn't go with that one because… I wasn't getting the pretty
-results I wanted[^bad]. A thing that happened was that I'd calculate
-the resulting distribution after two updates, but the first
-update would be very aggressive and the second update would then
-update away *harder* than the first update had updated towards
-the datapoints, causing a net information *loss*.<!--TODO: find
-claude conversation, go through examples & calculations-->
+results I wanted[^bad].
+
+With the exponential distribution, a thing that happened was that I'd
+calculate the resulting distribution after two updates, but the first
+update would be very aggressive and the second update would then update
+away *harder* than the first update had updated towards the datapoints,
+causing a net information *loss*. The exponential distribution *also*
+has very long tails, resulting in a median of -1.0, which implies that the
+median market has a logscore that is *worse than chance*. I don't believe
+that to be the case. (The maxent mean implies that the mean market is
+only as good as chance, which I also wouldn't believe a priori? I think?)
+
+As for using the Gamma distribution as a prior, I simply don't think that
+the underlying data generating process is exponentially distributed, and
+thus we don't get any advantage through conjugacy. The Gamma distribution
+also has *two* parameters, which is too much to be nailed down with only
+two datapoints.<!--TODO: find claude conversation, go through examples
+& calculations-->
 
 [^bad]: This is very bad statistical practice. I'm doing this because I want a cutesy title with a positive number of of bits as an update, and because I wanted to learn how to do Bayesian updating using computers.
 
 So I decided to pick a different prior, and landed on the [half normal
-distribution](https://en.wikipedia.org/wiki/Half-normal_distribution),
-which has some nicer properties than the exponential distribution—for
-one, it doesn't have both a mean (-0.69) and a median (-1.0) that are
-both as bad as or worse than chance, but with prediction markets we
-expect very few scores to be worse than chance, especially in the
-long-term. But the half normal distribution can't be updated in a
-closed-form solution, so instead I had to write a short script using
-[pymc](https://en.wikipedia.org/wiki/PyMC).
+distribution](https://en.wikipedia.org/wiki/Half-normal_distribution)
+with half-normally distributed variance (`σ ~ HalfNormal(0.5)`), which
+has some nicer properties than the exponential distribution, especially
+with its thin tails. But the half normal distribution can't be updated
+in a closed-form solution, so instead I had to write a short script
+using [pymc](https://en.wikipedia.org/wiki/PyMC). Because of missing
+conjugacy the resulting distribution is *not* a half-normal distribution,
+but something a lot more complicated. I can't be bothered to try to
+calculate what it even is.
 
 Summary visualization of the update:
 
@@ -372,7 +387,7 @@ with `HalfNormal("sigma", sigma=0.5)`. We then update on `observed=[0.326,
 	    trace = pm.sample(2000, tune=1000, chains=4, target_accept=0.95,
 	                      return_inferencedata=True)
 
-[^thank]: Thanks to Claude 4 Sonnet for writing the code and walking me through the process.
+[^thank]: Code [here](./code/platform/bits.py). Thanks to Claude 4 Sonnet for writing the code and walking me through the process.
 
 We can then observe the samples for the new standard deviation
 
@@ -422,6 +437,10 @@ The whole script has this output:
 
 	Evidence: 0.868 bits
 	(vs null hypothesis σ = 0.7)
+
+Thus: 0.868 bits in favor of futarchy[^assumptions].
+
+[^assumptions]: Under several favorably cherry-picked assumptions. Don't @ me.
 
 Acknowledgements
 -----------------
