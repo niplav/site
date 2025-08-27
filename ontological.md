@@ -72,12 +72,13 @@ skepticism*](https://en.wikipedia.org/wiki/Radical_skepticism),
 1. It differs from *radical skepticism* in that it does not make any strong statement about whether knowledge is possible or not.
 2. It is close to *pyrrhonism*, but differs from it in not making a positive claim that judgment should be suspended.
 3. It differs from *mysticism* because it doesn't preclude the possibility of knowing, and doesn't promise the attainment of insight or mystical knowledge.
-ntological cluelessness can be seen as a tacit pre-supposition
+
+Ontological cluelessness can be seen as a tacit pre-supposition
 for much foundational (mostly continental) metaphysical work
 (e.g. Heidegger, Deleuze, Whitehead, maybe Hegel?). That is,
 looking at Heidegger with his investigation of [fundamental
 ontology](https://en.wikipedia.org/wiki/Fundamental_ontology)
-and Being (and especially his later Kehre and
+and Dasein (and especially his later Kehre and
 [aletheia](https://en.wikipedia.org/wiki/Aletheia)) and Deleuze with
 his nomadic science, I feel like that's the kind of metaphysics one'd
 see that resolves ontological cluelessness. Analytic metaphysics, as

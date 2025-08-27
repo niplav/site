@@ -69,7 +69,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Comment on o1 is a bad idea (Daniel Kokotajlo, 2024)](https://www.lesswrong.com/posts/BEFbC8sLkur7DGCYB/o1-is-a-bad-idea?commentId=w2o8CRARyymzwFRpZ)
 * [o1 is a bad idea (Abram Demski, 2024)](https://www.lesswrong.com/posts/BEFbC8sLkur7DGCYB/o1-is-a-bad-idea)
 * [The Checklist: What Succeeding at AI Safety Will Involve (Sam Bowman, 2024)](https://sleepinyourhat.github.io/checklist/)
-* [Comment on AI Craftsmanship ([anonymous], 2024)](https://www.lesswrong.com/posts/gXinMpNJcXXgSTEpn/ai-craftsmanship?commentId=Qm8Kg7PjZoPTyxrr6)
+* [Comment on AI Craftsmanship (\[anonymous\], 2024)](https://www.lesswrong.com/posts/gXinMpNJcXXgSTEpn/ai-craftsmanship?commentId=Qm8Kg7PjZoPTyxrr6)
 * [AI Craftsmanship (Abram Demski, 2024)](https://www.lesswrong.com/posts/gXinMpNJcXXgSTEpn/ai-craftsmanship)
 * [Stable Pointers to Value: An Agent Embedded in Its Own Utility Function (Abram Demski, 2017)](https://www.lesswrong.com/posts/5bd75cc58225bf06703754b3/stable-pointers-to-value-an-agent-embedded-in-its-own-utility-function)
 * \* Die Chinesen (Stefan Baron/Guangyan Yin-Baron, 2019)
