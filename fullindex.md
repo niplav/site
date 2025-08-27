@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2025-08-22, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2025-08-27, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav. It contains texts on different topics,
 including (but not limited to) forecasting, existential risk, computer
@@ -116,6 +116,7 @@ Von dem Sichgeistigen des Lebens Jahre zählen.
 * [t-SNE and UMAP Don't Produce Clusters on Random Data](./dimension.html)
 * [Equally Many Heads and Tails](./equally_many_heads_and_tails.html)
 * [Logical Correlation](./logical.html)
+* [Mugging-Immune Utility Functions](./mugging.html)
 * [Pergraphs](./pergraphs.html)
 * [Mathematics Notation Convention](./mathematics_notation_convention.html)
 * [Circle Combinations](./circle_combinations.html)
