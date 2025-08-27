@@ -625,6 +625,59 @@ the next datapoint).
 
 <!--TODO: plot-->
 
+### Number of Approaches
+
+Does this the amount of meditation at least positively related to the
+number of approaches I make? The intuitive reason for this would be
+that anxiety prevents me from making approaches, and meditation reduces
+anxiety.
+
+We can simply re-use a bunch of code already written, as well as the
+code from [here](./masturbation.html#Amount_of_Approaches); cross-merge, filter, aggregate, merge again:
+
+	meditations=get_meditations()
+	sessions=get_sessions()
+
+	merged=pd.merge(meditations, sessions, how='cross')
+	merged['diff']=merged['Return']-merged['meditation_end']
+	merged=merged.loc[(merged['diff']<=pd.Timedelta(timeframe, 'd')) & (merged['diff']>=pd.Timedelta(0, 's'))]
+
+	summed=merged[['Return', 'meditation_duration']].groupby('Return').sum()
+	both=pd.merge(sessions, summed, on='Return')
+
+And now, for the linear regression, as tradition demands:
+
+	>>> slope, intercept, r, p, stderr=sps.linregress(both['meditation_duration'], both['Amount'])
+	>>> slope
+	np.float64(8.026186021852865e-06)
+	>>> intercept
+	np.float64(2.2975050356609614)
+	>>> r
+	np.float64(0.04649655949037112)
+	>>> p
+	np.float64(0.46878566789472265)
+
+So, not quite a reliable p-value. But if one takes a look at the data,
+there's a very clear limit of ~60000 seconds of meditation in the last
+week (where everything above is meditation retreats). We can filter those
+and re-run the linear regression:
+
+	>>> filtered=both.loc[both['meditation_duration']<60000]
+	>>> f_slope, f_intercept, f_r, f_p, f_stderr=sps.linregress(filtered['meditation_duration'], filtered['Amount'])
+	>>> f_slope
+	np.float64(1.7760415057361838e-05)
+	>>> f_intercept
+	np.float64(2.0773006401851606)
+	>>> f_r
+	np.float64(0.07875583484980017)
+	>>> f_p
+	np.float64(0.22413760495537624)
+
+Seems a bunch more reliable than the data including retreats! We can
+plot both:
+
+![](./img/vascular/volume.png)
+
 Skip Connections
 -----------------
 

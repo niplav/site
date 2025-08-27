@@ -9,8 +9,9 @@ for utility-maximizing [Solomonoff
 inductors](https://en.wikipedia.org/wiki/Solomonoff_induction), and then
 characterize a set of utility functions that are immune to mugging. The
 utility functions in this set have strongly diminishing marginal returns,
-utilities must grow slower than `$2^{CB^{-1}(k)}$`, that is, slower than
-the exponential of the inverse of a busy-beaver-like function.__
+utilities must grow slower than `$2^{CB^{-1}(k)}$`, that is, slower
+than the exponential of the inverse of a busy-beaver-like function. This
+"breaks the boundedness barrier" for mugging-immune utility functions.__
 
 Mugging-Immune Utility Functions
 =================================
@@ -58,6 +59,24 @@ by the second part program. (It is unfortunately *not* bounded by
 `$\Sigma(2,k-l(C_n))$` since writing the numéraire may require writing
 zeroes.)
 
+#### Sketch
+
+More detail on `$M_k$`: You can take the busy beaver program, and then add
+some business logic where the numéraire output is interleaved between
+the busy beaver logic, plus some subroutines that copy and move more
+than one step.
+
+	busy beaver step
+	walk to offset
+	copy
+	walk back
+	busy beaver step
+
+This program is a constant number of bits larger than the busy beaver
+program.
+
+---------------------
+
 `$M_k$` will, I believe, behave busy-beaver-*like* in that it writes
 an enormous number of `$n_\Finv$` to the tape before halting. It won't
 quite write `$S(2, k-l(C_n)$` copies of the numéraire on the tape,
@@ -72,21 +91,6 @@ a pre-written tape-state. The copy-beaver number is definitely smaller
 than the busy-beaver number, but my best guess is that it still grows
 much faster than almost all functions we can characterize, that it has
 "busy-beaver-like" growth behavior.
-
-#### Sketch
-
-You can take the busy beaver program, and then add some business logic
-where the numéraire output is interleaved between the busy beaver logic,
-plus some subroutines that copy and move more than one step. So the
-program is a constant number of bits larger than the busy beaver number:
-
-	busy beaver step
-	walk to offset
-	copy
-	walk back
-	busy beaver step
-
----------------------
 
 This leads to a simple consequence: in `$k$`, the expected
 value of the mugging program `$M_k$` for the muggee `$\Finv$` is
@@ -202,6 +206,7 @@ See Also
 
 <!--TODO: anthropic capture-->
 
+* [Saint Petersburg Paradox](https://en.wikipedia.org/wiki/St_Petersburg_Paradox)
 * [Most* small probabilities aren't pascalian (Gregory Lewis, 2022)](https://forum.effectivealtruism.org/posts/5y3vzEAXhGskBhtAD/most-small-probabilities-aren-t-pascalian)
 * [Optimization daemons (Eliezer Yudkowsky, 2016)](https://arbital.com/p/daemons/), [Open question: are minimal circuits daemon-free? (Paul Christiano, 2018)](https://www.lesswrong.com/posts/nyCHnY7T5PHPLjxmN/open-question-are-minimal-circuits-daemon-free)
 * [Anthropics and the Universal Distribution (Joe Carlsmith, 2022)](https://joecarlsmith.com/2021/11/28/anthropics-and-the-universal-distribution)

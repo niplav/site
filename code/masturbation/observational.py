@@ -7,22 +7,31 @@ def get_masturbations():
 	masturbations=pd.read_csv('../../data/masturbations.csv')
 	masturbations.loc[masturbations['methods'].isna(),'methods']='n'
 	masturbations['datetime']=pd.to_datetime(masturbations['datetime'], utc=True, format='mixed', dayfirst=False)
+	masturbations['datetime']=masturbations['datetime'].dt.tz_convert('CET')
+	masturbations=masturbations.sort_values(by='datetime')
 
 	return masturbations
 
-masturbations=get_masturbations()
-masturbations['datetime']=masturbations['datetime'].dt.tz_convert('CET')
-masturbations=masturbations.sort_values(by='datetime')
+def get_approaches():
+	approaches=pd.read_csv('../../data/daygame_approaches.csv')
+	approaches['Datetime']=pd.to_datetime(approaches['Datetime'], utc=True).dt.tz_convert('CET')
 
-approaches=pd.read_csv('../../data/daygame_approaches.csv')
-approaches['Datetime']=pd.to_datetime(approaches['Datetime'], utc=True).dt.tz_convert('CET')
+	return approaches
 
-both=pd.merge_asof(approaches, masturbations, left_on='Datetime', right_on='datetime', direction='backward')
+def merged_approaches_masturbations():
+	masturbations=get_masturbations()
+	approaches=get_approaches()
 
-both['Abstinence']=both['Datetime']-both['datetime']
-both['Rounded']=both['Abstinence'].dt.round('2d')
-both['Contactind']=both['Contact'].notna()
-both=both[['Contactind', 'Abstinence', 'Rounded']].dropna()
+	both=pd.merge_asof(approaches, masturbations, left_on='Datetime', right_on='datetime', direction='backward')
+
+	both['Abstinence']=both['Datetime']-both['datetime']
+	both['Rounded']=both['Abstinence'].dt.round('2d')
+	both['Contactind']=both['Contact'].notna()
+	both=both[['Contactind', 'Abstinence', 'Rounded']].dropna()
+
+	return both
+
+both=merged_approaches_masturbations()
 
 slope, intercept, r, p, stderr=sps.linregress(both['Abstinence'].dt.seconds, both['Contactind'])
 

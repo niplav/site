@@ -964,7 +964,7 @@ Appendix E: Subjective Impressions of Nofap
 
 This is after 60 days of nofap mid 2024, after which I broke my streak.
 
-* I want to approach women more.
+* [I want to approach women more](#Amount_of_Approaches).
 * I don't feel more confident.
 * My balls ache.
 * I have to go pee more.
