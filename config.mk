@@ -86,6 +86,7 @@ HTML=index.html \
 	metamodernistisches_manifest.html \
 	microfiction.html \
 	mop.html \
+	mugging.html \
 	nootropics.html \
 	nuclear.html \
 	ontological.html \

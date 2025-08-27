@@ -1892,7 +1892,7 @@ graphs `$(W_1, \dots, W_{n+1})$` so that the underlying graphs are the
 sevolutions of `$W$`.
 
 The weights are determined by the __weight sevolver function__
-`$\kappa: \mathbb{R}^+ \rightarrow \mathbb{R}$` of the edges between
+`$kappa: \mathbb{R}^+ \rightarrow \mathbb{R}$` of the edges between
 the previous nodes that sevolved into the current nodes. That is:
 
 <!--TODO: below is a bit confused with indices in the list and indices
@@ -1901,12 +1901,12 @@ in the sevolution. Clean up!-->
 <div>
 	$$w_{i+1}(e_{i+1})=\\
 	w_{i+1}((v_{i+1}, v_{i+1}'))=\\
-	\kappa([w_i(e_i) | e_i=(v_i, v_i') \land f_i(v_i)=v_{i+1} \land f_i(v_i')=v_{i+1}'])$$
+	kappa([w_i(e_i) | e_i=(v_i, v_i') \land f_i(v_i)=v_{i+1} \land f_i(v_i')=v_{i+1}'])$$
 </div>
 
 The weight sevolver function can be any arbitrary function of
 arbitrary-length lists of reals, but a common case could be to set
-`$\kappa([w_i]_l)=\sum_{j=0}^l [w_i]_j$`.
+`$kappa([w_i]_l)=\sum_{j=0}^l [w_i]_j$`.
 
 It's plausible that by now the dear reader is hoping for some pictures.
 
@@ -2531,7 +2531,7 @@ Indicators that error correction is possible as a replacement backstop:
 Indicators that there is no replacement for evolution:
 
 * Communism hasn't worked [yet](http://bactra.org/weblog/918.html).
-	* Not sure how far [Project CyberSyn](https://en.wikipedia.org/wiki/Cybersyn) got before Pinochet broke the party.
+	* Not sure how far [Project CyberSyn](https://en.wikipedia.org/wiki/Cybersyn) got before kappanochet broke the party.
 	* Maybe the problem with real-world communism wasn't that it didn't work, even in theory, it was that they didn't have computers that were big enough.
 	* Another instance was that Stalin didn't listen to the planned economy with Kantorovich.
 * Scruffy AI won out over neat AI.
@@ -2719,4 +2719,5 @@ it's LessWrong philosophy after all.
 	toss the beryllium dodecahedron".
 
 <!--Tegmark II and Futurism
--------------------------->
+------------------------
+-->
