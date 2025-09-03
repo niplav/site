@@ -1,9 +1,10 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-07-10, modified: 2025-08-22, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2025-07-10, modified: 2025-08-29, language: english, status: in progress, importance: 3, confidence: likely*
 
-> __.__
+> __I describe a generalization of directed graphs, and try to port some
+concepts from graph theory over.__
 
 Pergraphs
 ==========
