@@ -470,5 +470,6 @@ See Also
 * Discussions
 	* [LessWrong](https://www.lesswrong.com/posts/WT3u2tK2AJpYKvaZd/an-ai-race-with-china-can-be-better-than-not-racing)
 	* [EA Forum](https://forum.effectivealtruism.org/posts/tu9Md2LouWEHkKEHx/an-ai-race-with-china-can-be-better-than-not-racing)
+* [Michael Dickens' Squiggle model](https://squigglehub.org/models/AI-safety/usa-pause) on the utility of a unilateral pause
 
 [^1]: I personally think it's 2⅔ [shannon](https://en.wikipedia.org/wiki/Shannon_\(unit\)) higher than that, with p(doom)≈55%.
