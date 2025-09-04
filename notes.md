@@ -617,6 +617,12 @@ sense this makes economically, but emotionally, at least most of the time
 it carries with it the intention of being not only a gift to the person,
 but to the rest of the world as well.
 
+An issue here is that the gift-giver may have even less insight into how
+good the contribution to the public good is compared to giving to the
+gift-receiver directly, though the amount of work put into improving
+the gift-receiver's life may be proportionally larger than the amount
+of work put into improving the public good.
+
 Trigger-Action Plans
 ---------------------
 
@@ -2527,6 +2533,7 @@ Indicators that error correction is possible as a replacement backstop:
 * Error-correcting codes.
 * The Catholic Church.
 * [FAAH-OUT and the FAAH gene variant rs324420](https://en.wikipedia.org/wiki/FAAH-OUT).
+* Wanting≠Liking.
 
 Indicators that there is no replacement for evolution:
 
@@ -2669,14 +2676,15 @@ complexity](https://en.wikipedia.org/wiki/Kolmogorov_Complexity) by
 some "natural" programming language. Thus don't take it seriously,
 it's LessWrong philosophy after all.
 
-1.	Using tungsten cubes as beacons is sub-optimal<!--TODO: link
-	Falkovich-->. They just lie around at home, and spacetime
-	separation with the beacon (e.g. when out working, walking around
-	&c) is not great. Tungsten cubes are also fairly squatted by now,
-	many people have them for non-realityfluid-gathering reasons.
+1.	Using [tungsten](https://en.wikipedia.org/wiki/Tungsten) cubes
+	as beacons is sub-optimal<!--TODO: link Falkovich-->. They just
+	lie around at home, and spacetime separation with the beacon
+	(e.g. when out working, walking around &c) is not great. Tungsten
+	cubes are also fairly squatted by now, many people have them
+	for non-realityfluid-gathering reasons.
 2.	An alternative is a small object to carry in one's wallet or on
 	one's keychain.
-	1.	I have a small vial with tritium that I bought
+	1.	I have a small vial with [tritium](https://en.wikipedia.org/wiki/Tritium) that I bought
 		from Amazon, which seems less squatted than
 		tungsten cubes—[humanity produces <100kg of
 		tritium/year](https://en.wikipedia.org/wiki/Tritium#Fission),

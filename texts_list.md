@@ -17,6 +17,20 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Some AI Koans (Hackers, 1983)](http://www.jargon.net/jargonfile/s/SomeAIKoans.html)
+* [A Story About ‘Magic' (GLS, 1973)](http://www.jargon.net/jargonfile/a/AStoryAboutMagic.html)
+* [LLM Acceptable-Use Policy (Gwern Branwen, 2024)](https://gwern.net/blog/2024/llm-acceptable-use-policy)
+* [A Stroke of Insight? (Ron Serrano/Shinzen Young, 2012)](https://www.shinzen.org/a-stroke-of-insight/)
+* [Suggested Posts (Eliezer Yudkowsky, 2007)](https://www.lesswrong.com/posts/zGm9JoGZGXtF8zQ9P/suggested-posts)
+* [As Good As It Gets (Robin Hanson, 2007)](https://www.overcomingbias.com/p/as_good_as_it_ghtml)
+* [Driving While Red (Robin Hanson, 2007)](https://www.overcomingbias.com/p/driving_while_rhtml)
+* [Casanova on Innocence (Robin Hanson, 2007)](https://www.overcomingbias.com/p/casanova_on_innhtml)
+* [Black swans from the future (Stuart Armstrong, 2007)](https://www.overcomingbias.com/p/black_swans_frohtml)
+* [Almo Capture (Cyborgism Wiki, 2023)](https://cyborgism.wiki/hypha/almo_capture)
+* [SCP-2048 (Drewbear, 2022)](https://scp-wiki.wikidot.com/scp-2048)
+* [Bach Optimization (Cyborgism Wiki, 2024)](https://cyborgism.wiki/hypha/bach_optimization)
+* \* Die Drei Sonnen (Cixin Liu, 2006)
+* [Informing the Code of Practice: A Hierarchical Methodology of Defining Risk Tiers (Siméon Campos, 2025)](https://www.safer-ai.org/post/informing-the-code-of-practice-a-hierarchical-methodology-of-defining-risk-tiers)
 * [Fundamental ontology (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Fundamental_ontology)
 * [Aletheia (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Aletheia)
 * [The Kelvin Boundary (Claude Opus 4.1, 2025)](https://claude.ai/public/artifacts/44851b6a-3593-4308-b54a-f936b8e6d8c2)

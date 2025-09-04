@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-08-12, modified: 2025-08-12, language: english, status: notes, importance: 2, confidence: unlikely*
+*author: niplav, created: 2025-08-12, modified: 2025-08-12, language: english, status: notes, importance: 5, confidence: unlikely*
 
 > __Humans may be in a state of total confusion as to the fundamental
 makeup of the cosmos and its rules, to the point where even extremely
