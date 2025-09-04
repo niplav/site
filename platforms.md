@@ -14,7 +14,10 @@ score](https://en.wikipedia.org/wiki/Proper_scoring_rule#Logarithmic_score)
 of [-0.326](#Scoring_the_Market) for the market, the [second
 experiment](./nootropics.html#Experiment_C_SelfBlinded_RCT) (testing
 Vitamin D₃) [results in a log score of -0.333](#Scoring_the_Market)
-— pretty good.__
+— pretty good.  
+> The scores provide [~0.83 bits of
+evidence](#0836_Bits_of_Evidence_for_Futarchy) for the efficacy of
+[futarchy](https://en.wikipedia.org/wiki/Futarchy).__
 
 <!--TODO: use victorian subtitle somewhere https://claude.ai/chat/d7c72475-e84e-458f-867b-7a26d04598b2-->
 

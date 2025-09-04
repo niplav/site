@@ -32,7 +32,15 @@ August 2025
 * [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
 	* [0.836 Bits of Evidence for Futarchy](./platforms.html#0836_Bits_of_Evidence_for_Futarchy): My previous analysis here made no sense, I fixed and updated it.
 * Note on [Managing Magical Realityfluid](./notes.html#Managing_Magical_Realityfluid)
-* [Amount of meditation preceding a daygame session is positively correlated with the number of approaches made in that session](./notes_on_pickup.html#Number_of_Approaches).
+* Two interventions as candidates for helping with approach anxiety (correlate with number of daygame approaches):
+	* [Amount of meditation preceding a daygame session](./notes_on_pickup.html#Number_of_Approaches).
+	* [Duration of abstinence from masturbation preceding a daygame session](./masturbation.html#Amount_of_Approaches).
+
+### Links
+
+* [A Stroke of Insight? (Ron Serrano/Shinzen Young, 2012)](https://www.shinzen.org/a-stroke-of-insight/)
+* [A Story About ‘Magic' (GLS, 1973)](http://www.jargon.net/jargonfile/a/AStoryAboutMagic.html)
+* [Fundamental ontology (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Fundamental_ontology)
 
 July 2025
 ----------
