@@ -49,14 +49,12 @@ Hey look! `$+$` is commutative here!
 > Using the operators introduced so far, give a CCS process that describes `$T$`.
 
 <div>
-	$$ T=q_0.\underset{a_1 \in A}{\mathbf{+}} (a_1. \underset{q_1 \in δ(q_0, a_1)}{\mathbf{+}} (q_1.\underset{a_2 \in A}{\mathbf{+}} (a_2. \underset{q_2 \in δ(q_1, a_2)}{\mathbf{+}} (q_2. \cdots))))$$
+	$$\newcommand{\bigplus}{\mathop{\Large+\normalsize}} T=q_0.\bigplus_{a_1 \in A} (a_1. \bigplus_{q_1 \in δ(q_0, a_1)} (q_1.\bigplus_{a_2 \in A} (a_2. \bigplus{q_2 \in δ(q_1, a_2)} (q_2. \cdots))))$$
 </div>
 
-where `$\mathbf{+}$` is _supposed_ to be a big iterative operator like
-`$\sum$`, if only I could get MathJax to accept `\scalerel`. The equation
-is nested infinitely deep at most places that result in a loop that
-doesn't include `$q_0$`, and in some places end with `$.T$`, if `$q_0
-\in δ(q_n,a)$`.
+The equation is nested infinitely deep at most places that result in a
+loop that doesn't include `$q_0$`, and in some places end with `$.T$`,
+if `$q_0 \in δ(q_n,a)$`.
 
 ### 2.4
 

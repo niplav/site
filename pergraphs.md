@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-07-10, modified: 2025-08-29, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2025-07-10, modified: 2025-09-05, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __I describe a generalization of directed graphs, and try to port some
 concepts from graph theory over.__
@@ -19,10 +19,10 @@ interesting about them.
 
 ![A drawing with the letter 'A' on the left side, the letter 'B' on the right side. A red arrow goes from 'A' to 'B'. A blue arrow goes from the middle of the red arrow to 'A'.](./img/pergraphs/garrabrant.png "A drawing with the letter 'A' on the left side, the letter 'B' on the right side. A red arrow goes from 'A' to 'B'. A blue arrow goes from the middle of the red arrow to 'A'.")
 
-On a meditation retreat in 2022 I was remembering [a post by Scott
+On a meditation retreat in 2022 I remembered [a post by Scott
 Garrabrant](https://www.lesswrong.com/posts/qhsELHzAHFebRJE59/a-greater-than-b-greater-than-a)
-and doodled the above image in my notebook, together with
-some other drawings of networks where edges can have edges as sources and sinks.
+and doodled the above image in my notebook, together with some other
+drawings of networks where edges can have edges as sources and sinks.
 
 Formalizing
 ------------
@@ -79,8 +79,8 @@ starting at n=0:
 
 This sequence is not yet in the OEIS.
 
-* For zero constituents there's only the empty pergraph `$(\emptyset, \emptyset)$`.
-* For one constituent there's two pergraphs, the single node `$(\{v_1, \emptyset\})$` and the self-directed peredge `$(\emptyset, \{(e_1, e_1, e_1)\})$`.
+* For zero constituents there's only the empty pergraph `$(\emptyset, \emptyset, \emptyset)$`.
+* For one constituent there's two pergraphs, the single node `$(\{v_1, \emptyset, \emptyset\})$` and the self-directed peredge `$(\emptyset, \{e_1\}, \{(e_1, e_1, e_1)\})$`.
 * For two constituents there's these:
 
 ![](./img/pergraphs/two_small.png)
@@ -147,7 +147,6 @@ vertices at all. For example, consider the generalized hypergraph
 consisting of two edges `$e_{1}$` and `$e_{2}$`, and zero vertices,
 so that `$e_{1}=\{e_{2}\}$` and `$e_{2}=\{e_{1}\}$`. As this loop is
 infinitely recursive, sets that are the edges violate the [axiom of
-foundation](https://en.wikipedia.org/wiki/Axiom_of_Foundation). In
 foundation](https://en.wikipedia.org/wiki/Axiom_of_Foundation). In
 particular, there is no transitive closure of set membership
 for such hypergraphs. Although such structures may seem strange

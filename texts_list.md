@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2025-07-10, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2025-09-05, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [We need a harm severity impact scale for loss of control (Wiser Human, 2025)](https://www.wiserhuman.ai/articles/impact-scale-loss-control)
+* [Solenoidal vector field (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Solenoidal_vector_field)
+* [Incompressible string (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Incompressible_string)
+* ["Inductive Bias" (Eliezer Yudkowsky, 2007)](https://www.lesswrong.com/posts/H59YqogX94z5jb8xx/inductive-bias)
+* [Modular Argument (Robin Hanson, 2007)](https://www.overcomingbias.com/p/modular_argumenhtml)
+* [Debiasing as Non-Self-Destruction (Eliezer Yudkowsky, 2007)](https://www.lesswrong.com/posts/XZWMeeqKmfMSPTLha/debiasing-as-non-self-destruction)
+* [Overcoming bias – what is it good for? (Nick Bostrom, 2007)](https://www.overcomingbias.com/p/overcoming-bias-what-is-it-good-forhtml)
+* [Media Bias (Hal Finney, 2007)](https://www.overcomingbias.com/p/media_biashtml)
 * [Some AI Koans (Hackers, 1983)](http://www.jargon.net/jargonfile/s/SomeAIKoans.html)
 * [A Story About ‘Magic' (GLS, 1973)](http://www.jargon.net/jargonfile/a/AStoryAboutMagic.html)
 * [LLM Acceptable-Use Policy (Gwern Branwen, 2024)](https://gwern.net/blog/2024/llm-acceptable-use-policy)
@@ -102,7 +110,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Sycophancy in GPT-4o: what happened and what we’re doing about it (OpenAI, 2025)](https://openai.com/index/sycophancy-in-gpt-4o/)
 * [Trojan Sky (Richard Ngo, 2025)](https://www.narrativeark.xyz/p/trojan-sky)
 * [comp.basilisk FAQ (David Langford, 2006)](https://ansible.uk/writing/c-b-faq.html)
-* \* [On the Biology of a Large Language Model (Jack Lindsey/Wes Gurnee/Emmanuel Ameisen/Brian Chen/Adam Pearce/Nicholas L. Turner/Craig Citro/David Abrahams/Shan Carter/Basil Hosmer/Jonathan Marcus/Michael Sklar/Adly Templeton/Trenton Bricken/Callum McDougall/Hoagy Cunningham/Thomas Henighan/Adam Jermyn/Andy Jones/Andrew Persic/Zhenyi Qi/T. Ben Thompson/Sam Zimmerman/Kelley Rivoire/Thomas Conerly/Chris Olah/Joshua Batson, 2025)](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
+* [On the Biology of a Large Language Model (Jack Lindsey/Wes Gurnee/Emmanuel Ameisen/Brian Chen/Adam Pearce/Nicholas L. Turner/Craig Citro/David Abrahams/Shan Carter/Basil Hosmer/Jonathan Marcus/Michael Sklar/Adly Templeton/Trenton Bricken/Callum McDougall/Hoagy Cunningham/Thomas Henighan/Adam Jermyn/Andy Jones/Andrew Persic/Zhenyi Qi/T. Ben Thompson/Sam Zimmerman/Kelley Rivoire/Thomas Conerly/Chris Olah/Joshua Batson, 2025)](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
 * [??: the original affluent society (norvidstudies, 2021)](https://norvidshoshin.wordpress.com/2021/09/14/the-original-affluent-society/)
 * [Cortes in Mexico (norvidstudies, 2021)](https://norvidshoshin.wordpress.com/2021/09/09/cortes-in-mexico/)
 * [Some confusions: musketmen armor, agricultural surplus (norvidstudies, 2021)](https://norvidshoshin.wordpress.com/2021/09/08/some-confusions-musketmen-armor-agricultural-surplus/)

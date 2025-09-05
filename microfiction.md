@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2025-06-20, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2025-09-05, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __Very small pieces of fiction and things that are sufficiently like
 fiction.__
@@ -117,6 +117,11 @@ Where was your mind before you were created in motion?
 
 Future Tuesday Indifference.  
 Quinean underdetermination. Infinite theories fit the same data.
+
+##### Anti-Arbitrary
+
+* Finite Factored Sets (Garrabrant)
+* Natural Latents (Wentworth & Lorell)
 
 #### The Open Sky
 
