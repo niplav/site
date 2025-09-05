@@ -438,10 +438,10 @@ The whole script has this output:
 	Posterior mean σ: 0.434
 	95% credible interval: [0.156, 0.844]
 
-	Evidence: 0.868 bits
+	Evidence: 0.836 bits
 	(vs null hypothesis σ = 0.7)
 
-Thus: 0.868 bits in favor of futarchy[^assumptions].
+Thus: 0.836 bits in favor of futarchy[^assumptions].
 
 [^assumptions]: Under several favorably cherry-picked assumptions. Don't @ me.
 

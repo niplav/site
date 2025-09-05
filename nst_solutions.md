@@ -725,18 +725,18 @@ all subsets of $X$. Then `$f^{-1}(\{b\})=\emptyset$`.
 
 ### Exercise 3
 
-To be proven: $h(gf)=(hg)f$
+To be proven: `$h(gf)=(hg)f$`
 
 Proof:
 
-$((hg)f)(x)=((hg)(f(x)))=h(g(f(x)))=h(gf(x))$
+`$((hg)f)(x)=((hg)(f(x)))=h(g(f(x)))=h(gf(x))$`
 
 ### Query 1
 
 > what do `$R^{-1}$`, `$S^{-1}$`, `$RS$`, and `$R^{-1}S^{-1}$` mean?"
 
 `$yR^{-1}x$`: `$y$` father of `$x$`, `$z S^{-1}y$`: `$z$` is brother of
-`$y$`. `$$xRSy$`: `$x$` nephew of `$y$`. `$xR^{-1}S^{-1}$`.
+`$y$`. `$xRSy$`: `$x$` nephew of `$y$`. `$xR^{-1}S^{-1}$`.
 
 ### Exercise 4
 
@@ -874,7 +874,7 @@ Section 12
 
 ### Exercise 1
 
-> Prove that if $n$ is a natural number, then `$n \not = n^{+}$`
+> Prove that if `$n$` is a natural number, then `$n \not = n^{+}$`
 
 For `$n=0=\emptyset$`, `$n \not = n^+$`:
 

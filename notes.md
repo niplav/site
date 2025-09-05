@@ -1898,7 +1898,7 @@ graphs `$(W_1, \dots, W_{n+1})$` so that the underlying graphs are the
 sevolutions of `$W$`.
 
 The weights are determined by the __weight sevolver function__
-`$kappa: \mathbb{R}^+ \rightarrow \mathbb{R}$` of the edges between
+`$\kappa: \mathbb{R}^+ \rightarrow \mathbb{R}$` of the edges between
 the previous nodes that sevolved into the current nodes. That is:
 
 <!--TODO: below is a bit confused with indices in the list and indices
@@ -1907,12 +1907,12 @@ in the sevolution. Clean up!-->
 <div>
 	$$w_{i+1}(e_{i+1})=\\
 	w_{i+1}((v_{i+1}, v_{i+1}'))=\\
-	kappa([w_i(e_i) | e_i=(v_i, v_i') \land f_i(v_i)=v_{i+1} \land f_i(v_i')=v_{i+1}'])$$
+	\kappa([w_i(e_i) | e_i=(v_i, v_i') \land f_i(v_i)=v_{i+1} \land f_i(v_i')=v_{i+1}'])$$
 </div>
 
 The weight sevolver function can be any arbitrary function of
 arbitrary-length lists of reals, but a common case could be to set
-`$kappa([w_i]_l)=\sum_{j=0}^l [w_i]_j$`.
+`$\kappa([w_i]_l)=\sum_{j=0}^l [w_i]_j$`.
 
 It's plausible that by now the dear reader is hoping for some pictures.
 
@@ -1938,6 +1938,7 @@ anthology with slight modifications.
 * [You Are Never Entitled to Your Opinion (2006)](http://www.overcomingbias.com/2006/12/you_are_never_e.html)
 * [Disagree with Suicide Rock (2007)](http://www.overcomingbias.com/2007/01/disagree_with_s.html)
 * [Agree with Yesterday’s Duplicate (2007)](http://www.overcomingbias.com/2007/01/agree_with_yest.html)
+* [Modular Argument (2007)](https://www.overcomingbias.com/p/modular_argumenhtml)
 
 #### Learning
 
@@ -2410,7 +2411,7 @@ websites+assets to read at some later point.
 No great solution for LLMs (yet…), all the ones I can run on my
 laptop are not good enough—maybe I should bite the bullet and get a
 GPU/[digits](https://www.theverge.com/2025/1/6/24337530/nvidia-ces-digits-super-computer-ai)
-that can run Gemma 27b/DeepSeek V3 locally.
+that can run Gemma 27b/DeepSeek V3/GPT-oss-20b locally.
 
 [^elaboration]: For >3 years now. The benefits reduce after a while as homeostasis kicks in (e.g. moving sleeping times back by ~4 hrs got halved to ~2 hrs), but it's still net positive: I used to lose ≥4½ hrs to random aimless websurfing, now it's only about one. Not all time gained is spent productively, I still randomly click through articles of the local Wikipedia copy, but that feels much less unproductive than watching YouTube videos.
 [^others]: Website blockers like browser extensions, e.g. LeechBlock, are too easy to turn off (especially since I have complete control over my OS). Accountability didn't work well either. Behavioral interventions (like exercising/meditation/whatever) did ~nil.
