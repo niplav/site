@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-15, modified: 2025-04-08, language: english, status: in progress, importance: 8, confidence: highly likely*
+*author: niplav, created: 2023-04-15, modified: 2025-09-07, language: english, status: in progress, importance: 8, confidence: highly likely*
 
 > __I [consider](#Motivation) the problem of resolving preferences
 that are inconsistent under the [von Neumann-Morgenstern
@@ -303,15 +303,16 @@ functions are widely regarded as the standard method of modeling
 preferences over world-states.
 
 There is an extensive philosophical debate about the reasonableness of
-the vNM axioms, and a number of proposed alternatives. We have
-explicitly decided not to contribute to this debate (though some of our
-findings on the difficulty of establishing vNM-coherence might be
-interesting to philosophers), and instead assume that preferences
-conforming to the vNM axioms are a goal to be achieved.
+the vNM axioms, and a number of proposed alternatives. I have explicitly
+decided not to contribute to this debate (though some of these findings
+on the difficulty of establishing vNM-coherence might be interesting
+to philosophers), and instead assume that vNM-coherence is a goal to
+be achieved.
 
-Let `$\Omega$` be a set of `$n$` distinct outcomes, and let `$\Delta(\Omega)$`
-be the set of all probability distributions on `$\Omega$`, which in von
-Neumann and Morgenstern call "lotteries" [von Neumann & Morgenstern
+Let `$\Omega$` be a finite set of `$n$` distinct outcomes,
+and let `$\Delta(\Omega)$` denote the set of all probability
+distributions on `$\Omega$`, which in von Neumann and
+Morgenstern call "lotteries" [von Neumann & Morgenstern
 1947](https://www.goodreads.com/book/show/483055.Theory_of_Games_and_Economic_Behavior).
 
 For given `$\omega_1, \omega_2 \in \Omega$`, a lottery in which `$\omega_1$`
@@ -479,6 +480,39 @@ Any method for resolving inconsistent graphs is a function `$f:
 that maps any inconsistent graph to a set of consistent graphs which
 might contain more than one element since the inconsistent graph might
 not fully determine its consistent counterpart.
+
+**Example 1**.
+
+Consider the following directed graph:
+
+![A directed graph](./img/resolving/unbalanced_cycle.png "A directed graph. It contains nodes {a, b, c, d, e, f, g} and edges a → b → c → e → f → g → b, c → d.")
+
+Here, `$\Omega=\{a,b,c,d,e,f,g\}$`.
+
+An edge from `$a$` to `$b$` means that `$a$` is preferred
+to `$b$`. The absence of an edge between two options means
+that those two options are, from the view of the agent,
+[incomparable](https://en.wikipedia.org/wiki/Comparability).
+
+It violates the two von Neumann-Morgenstern axioms for discrete options:
+
+* Completeness is violated because for example options `$d$` and `$e$` are incomparable (and we don't merely have [indifference](https://en.wikipedia.org/wiki/Indifference_curve) between these
+options)
+* Transitivity is violated because of the `$b → c → e → f → g → b$` loop
+
+A possible resolved version of these preferences could then be the
+following graph:
+
+![A messy graph.](./img/resolvign/turnubc_hyp_trans.png "A messy graph. Vertices {a, b, c, d, e, f, g, h}. Edges are the transitive closure over the complete order a → b → c → d → e → f → g.")
+
+This graph looks quite messy, but it's really just the [transitive
+closure](https://en.wikipedia.org/wiki/transitive_closure) of this graph:
+
+![A path graph.](./img/resolving/turnubc_hyp.png "A path graph. Vertices again {a, b, c, d, e, f, g, h}. Edges are a → b → c → d → e → f → g.")
+
+Whether this is the "right" way to turn the previous inconsistent
+preferences depends on the choice of resolution function we would like
+to use.
 
 #### Finding Consistent Graphs with the Smallest Graph-Edit Distance
 
@@ -982,7 +1016,7 @@ that `$\forall G \in \mathfrak{P}_n: |\mathcal{S}_G| \le p(n)$`.
 
 `EGEDmin` violates this criterion, which can be easily demonstrated:
 
-**Example 1**.
+**Example 2**.
 
 ![](./img/resolving/counter_example.png)
 
@@ -1534,7 +1568,7 @@ However, if `$\Omega$` has at least one element, such a relation can be
 uncountably large and without compact representation, making it
 impossible to be handled computationally.
 
-**Example 2**. A pathological example would be a relation `$\mathcal{R}
+**Example 3**. A pathological example would be a relation `$\mathcal{R}
 \in \Delta(\Omega) \times \Delta(\Omega)$` on probability distributions
 of `$\Omega=\{\alpha, \beta\}$` in which `$[p: \alpha, (1-p): \beta]
 \prec [q: \alpha, (1-q): \beta]$` if and only if `$p \in [0;1]$` is an
@@ -2025,7 +2059,7 @@ The output of the function `$t$` is a combination of the weights `$w$` of
 Then for all `$\xi_1, \xi_2$` the value of `$w^{\star}(\xi_1, \xi_2)=t(\xi_1,
 \xi_2, G, s)$`.
 
-**Example 3**. Let
+**Example 4**. Let
 `$\Omega=\{L \text{ (Land animals)}, A \text{ (Air animals)}, W
 \text{ (Water animals)}\}$`, and the current preference prefer land
 animals over air animals over water animals, that is `$E_G=\{L

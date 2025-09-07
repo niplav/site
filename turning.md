@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2022-03-04, modified: 2023-07-25, language: english, status: notes, importance: 8, confidence: likely*
+*author: niplav, created: 2022-03-04, modified: 2025-09-07, language: english, status: notes, importance: 8, confidence: likely*
 
 > __Representing inconsistent preferences with specific mathematical
 structures can clarify thoughts about how to make those preferences
@@ -156,43 +156,6 @@ by adding/deleting the minimal number of vertices from `$E_{\succsim}$`.
 
 Mathematically, then `$\curlyvee$` is the set of transitive closures
 of all possible path graphs that are encode permutations of `$W$`; `$\curlyvee=\{(V, E)^+ | E \in σ(W)\}$`.
-
-### Example
-
-Consider the following directed graph:
-
-![A directed graph](./img/turning/unbalanced_cycle.png "A directed graph. It contains nodes {a, b, c, d, e, f, g} and edges a → b → c → e → f → g → b, c → d.")
-
-Here, `$W=\{a,b,c,d,e,f,g\}$`.
-
-An edge from `$a$` to `$b$` means that `$a$` is preferred to `$b$`
-(short `$a \succsim b$`). The absence of an edge between two
-options means that those two options are, from the view of the agent,
-[incomparable](https://en.wikipedia.org/wiki/Comparability).
-
-It violates the two von Neumann-Morgenstern axioms for discrete options:
-
-* Completeness is violated because for example options `$d$` and `$e$` are incomparable (and we don't merely have [indifference](https://en.wikipedia.org/wiki/Indifference_curve) between these options)
-* Transitivity is violated because of the `$b → c → e → f → g → b$` loop
-
-<!--TODO:
-#### Recap: von Neumann-Morgenstern Axioms for Discrete Options
-
------
--->
-
-A possible turned version of these preferences could then be the
-following graph:
-
-![A messy graph.](./img/turning/turnubc_hyp_trans.png "A messy graph. Vertices {a, b, c, d, e, f, g, h}. Edges are the transitive closure over the complete order a → b → c → d → e → f → g.")
-
-This graph looks quite messy, but it's really just the [transitive
-closure](https://en.wikipedia.org/wiki/transitive_closure) of this graph:
-
-![A path graph.](./img/turning/turnubc_hyp.png "A path graph. Vertices again {a, b, c, d, e, f, g, h}. Edges are a → b → c → d → e → f → g.")
-
-Whether this is the "right" way to turn the previous inconsistent
-preferences depends on the choice of distance metric we would like to use.
 
 ### Resolving Inconsistencies
 
