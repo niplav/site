@@ -136,4 +136,24 @@ Literature
 
 *SD stands for "sleep deprivation"*
 
+Experimental Protocol
+----------------------
+
+### Batch 1
+
+* Prepared from 2025-09-07T23:10 until 2025-09-08T00:10:00
+* Stored 6 samples in the vials in the freezer, 1 in the vials in the fridge, and 1 sample in the syringe+atomizer in the fridge.
+
+#### Sample 1
+
+* Sunday 2025-09-08: Taking 0.45mg melatonin before going to sleep at 2025-09-08T01:00, setting alarm for 2025-09-08T06:00
+* Monday:
+	* Contractions in the face
+	* Feel alert but scattered, dull
+* Tuesday 2025-09-09: Taking 0.45mg melatonin before going to sleep at 2025-09-10T00:10, setting alarm for 2025-09-10T05:35
+* Wednesday:
+	* Feel surprisingly refreshed after the dose
+	* Administering was a pain, 2.5ml is too much
+	* 62% sure this was the Orexin-A
+
 [^1]: Even demonstrating one-off effectiveness would be cool: It's often the case that people have short-term sleep deprivation, and would like to ameliorate the effects.

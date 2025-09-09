@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-07-10, modified: 2025-09-05, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2025-07-10, modified: 2025-09-08, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __I describe a generalization of directed graphs, and try to port over
 some concepts from graph theory.__
@@ -10,8 +10,15 @@ Pergraphs
 ==========
 
 <!--TODO: incorporate
-https://claude.ai/chat/43f2f7d1-278e-496f-8ad7-64688bd56a2d,
-https://claude.ai/chat/acce955d-4c42-4dde-8c3e-0a9ef304e370-->
+https://claude.ai/chat/43f2f7d1-278e-496f-8ad7-64688bd56a2d
+https://claude.ai/chat/6000475e-3a30-4a83-a9ed-db9d788c7c07
+https://claude.ai/chat/6f8ac1b8-7447-45aa-b524-855d9c1487e5
+https://claude.ai/chat/f7290015-4f76-4de6-be6e-d18edff28e4a
+https://claude.ai/chat/4243d662-c0c4-497a-88c1-20f47ca13933
+https://claude.ai/public/artifacts/5c90ecc4-1f1d-4160-9092-a70b6af6b517
+https://claude.ai/public/artifacts/c6cb03fa-94ff-42f0-8733-9d5b37ae1624
+https://claude.ai/public/artifacts/bb3d3f29-937c-4b79-ac98-f36f2209e030
+https://claude.ai/public/artifacts/ef9a1339-2211-4cc1-971c-b99fe877d900-->
 
 I am afflicted by a strange curse, which condemns me to be creative
 enough to find new mathematical structures, but too dumb to prove anything
@@ -54,8 +61,9 @@ multi-*pergraph__, since peredges are *directed*, and two peredges can
 have the same source and the same sink. We will use the term "pergraph"
 for directed multi-pergraphs, and specify deviations from such.
 
-__Definition 2__: A __uni-pergraph__ is a pergraph with the additional constraint
-that no two peredges have the same source *and* the same sink, mathematically
+__Definition 2__ ([Lean](#Definition_2): A __uni-pergraph__ is a pergraph
+with the additional constraint that no two peredges have the same source
+*and* the same sink, mathematically
 `$\lnot \exists p_1, p_2 \in P: p_1 \not=p_2 \land e(p_1)=e(p_2)$`.
 
 ### Some Pergraph Concepts
@@ -192,3 +200,8 @@ in this text.
 
 	structure Pergraph (V E : Type) where
 	  e : E → PerNode V E × PerNode V E
+
+### Definition 2
+
+	def UniPergraph (V E : Type) : Type :=
+	  { p : Pergraph V E // Function.Injective p.e }

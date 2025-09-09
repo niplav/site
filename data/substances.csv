@@ -923,3 +923,7 @@ datetime,substance,amount,experiment,id,prediction
 2025-09-05T10:35:00+02:00,l-theanine,500mg,,,
 2025-09-05T10:35:00+02:00,caffeine,200mg,,,
 2025-09-05T10:47:50+02:00,creatine,6g,,,
+2025-09-08T00:10:39+02:00,melatonin,0.48mg,,,
+2025-09-08T07:16:58+02:00,water,2.5ml,D,black,0.38
+2025-09-09T22:30:40+02:00,melatonin,0.47mg,,,
+2025-09-10T06:42:13+02:00,water,2.5ml,D,white,0.62

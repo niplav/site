@@ -73,7 +73,7 @@ than one step.
 	busy beaver step
 
 This program is a constant number of bits larger than the busy beaver
-program.
+program, namely the code for the "business logic".
 
 ---------------------
 
@@ -200,6 +200,7 @@ is possible and when it isn't; we may be stuck.
 1. Can we formulate a prior in which this doesn't happen?
 	1. What about a prior that also penalizes the size of the finally output, exponentially in length?
 	2. Does the speed prior basically fulfill this condition?
+		1. A pure speed prior doesn't, but that's a bad prior.
 
 See Also
 ---------
