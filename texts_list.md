@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2025-09-05, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2025-09-08, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,8 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* AI 2027 (Daniel Kokotajlo/Scott Alexander/Thomas Larsen/Eli Lifland/Romeo Dean, 2025)
+* [Could Gambling Save Science (Robin Hanson, 2007)](https://www.overcomingbias.com/p/could_gambling_html)
 * [We need a harm severity impact scale for loss of control (Wiser Human, 2025)](https://www.wiserhuman.ai/articles/impact-scale-loss-control)
 * [Solenoidal vector field (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Solenoidal_vector_field)
 * [Incompressible string (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Incompressible_string)

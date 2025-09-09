@@ -440,23 +440,23 @@ similar to those of the minimalist unix and [Plan
 Various measures of size for the website (excluding automatically generated content and transcriptions):
 
 	$ cat (l *.md | g -v 'chrono|tao|_list|exercise_log|declaration|grand') | pr | grep -Eo 'Page [0-9]+' | tail -1
-	Page 930
-	$ wc (l *.md | g -v 'chrono|tao|_list|exercise_log|declaration|about') | tail -1
-	  52762  319918 2513803 total
+	Page 942
+	$ wc (l *.md | g -v 'chrono|tao|_list|exercise_log|declaration|grand') | tail -1
+	  52730  320154 2519618 total
 
 Benford's law isn't followed by the digits on this site:
 
 	$ grep -ho '[0-9]' *.md | sort | uniq -c | sort -n | tail -10
-	  11089 4
-	  11120 6
-	  11312 9
-	  11578 8
-	  12270 7
-	  13231 3
-	  13307 5
-	  40500 1
-	  46342 2
-	  64559 0
+	  11154 4
+	  11168 6
+	  11345 9
+	  11623 8
+	  12314 7
+	  13272 3
+	  13375 5
+	  40578 1
+	  46489 2
+	  64820 0
 
 (Note: as of the time of writing, the list of numbers above is not
 iteratively stable, that is, after I update the numbers, the distribution
