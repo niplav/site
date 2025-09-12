@@ -43,8 +43,8 @@ plumous penguins, priestess parks principles—priceless.
 > WHICH "PARETO TANGENT" CRAFTILY POINTS AT  
 > MY CYBORG CORTEX, MASHED TO SHAITAN WITH ADAM
 
-> ABU-BAKR ABSOLUTELY NAILS THE REGISTRAR  
-> TURKMEN TRADERS ADAGE, SPOKEN ABOARD IN CROAKED WHISPER
+> ABU-BAKR ABSOLUTELY NAILS THE CLANKER REGISTRAR  
+> TURKMEN TRADERS ADAGE, ABOARD IN CROAKED WHISPAR
 
 ------------------
 
@@ -113,6 +113,7 @@ Uncommon priors require origin disputes. What do you say during an origin disput
 
 Dust theory.  
 No natural measure in Tegmark IV.  
+[All logic is a prior.](https://www.lesswrong.com/posts/g8HHKaWENEbqh2mgK/updatelessness-doesn-t-solve-most-problems-1?commentId=Gxp7tzot2MTWo38md)  
 Where was your mind before you were created in motion?  
 
 Future Tuesday Indifference.  
@@ -149,7 +150,7 @@ Something new.
 
 X, Not X, Neither X nor Not X, Neither X nor Not X nor (Neither X nor Not X), and so on.  
 
-Ontological cluelessness.  
+[Ontological cluelessness](./ontological.html).  
 
 Our basic understanding just isn't there yet. We're barking up the wrong tree. In the wrong forest. In the wrong biome.  
 
