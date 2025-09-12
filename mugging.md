@@ -1,17 +1,19 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-08-27, modified: 2025-08-27, language: english, status: draft, importance: 4, confidence: possible*
+*author: niplav, created: 2025-08-27, modified: 2025-09-12, language: english, status: draft, importance: 4, confidence: possible*
 
-> __I formalize [Pascal's
+> __I [~formalize](#Formalizing_Pascals_Mugging) [Pascal's
 mugging](https://nickbostrom.com/papers/pascal.pdf)
 for utility-maximizing [Solomonoff
-inductors](https://en.wikipedia.org/wiki/Solomonoff_induction), and then
-characterize a set of utility functions that are immune to mugging. The
-utility functions in this set have strongly diminishing marginal returns,
-utilities must grow slower than `$2^{CB^{-1}(k)}$`, that is, slower
-than the exponential of the inverse of a busy-beaver-like function. This
-"breaks the boundedness barrier" for mugging-immune utility functions.__
+inductors](https://en.wikipedia.org/wiki/Solomonoff_induction) with a
+[simplicity prior](https://en.wikipedia.org/wiki/Kolmogorov_complexity),
+and then characterize a set of utility functions that are [immune to
+mugging](#Mugging_Immunity). The utility functions in this set have
+strongly diminishing marginal returns, utilities must grow slower than
+`$2^{CB^{-1}(k)}$`, that is, slower than the exponential of the inverse
+of a busy-beaver-like function. This "breaks the boundedness barrier"
+for mugging-immune utility functions.__
 
 Mugging-Immune Utility Functions
 =================================
@@ -20,7 +22,15 @@ I first attempt to formalize Pascal's mugging, then characterize a set
 of mugging-immune utility functions, and finally speculate on how one
 might escape the very harsh bound I have discovered.
 
-### Formalizing Pascal's Mugging
+In previous discussions, a commonly-agreed upon
+solution to Pascal's mugging was to have a [bounded utility
+function](https://www.lesswrong.com/posts/gJxHRxnuFudzBFPuu/better-impossibility-result-for-unbounded-utilities),
+which is unsatisfying from a utilitarian perspective—a utilitarian
+ideally wants to be able to say that twice as much of a good thing is
+twice as good, or at least say that strictly more of a good thing is
+strictly better.
+
+### ~Formalizing Pascal's Mugging
 
 __Summary__: The prior probability of worlds decreases exponentially with
 increasing program length, but the utility of some program output can
@@ -85,12 +95,15 @@ name, definitely faster than any polynomial, faster than factorials,
 surely faster than the Ackermann function… and, most notably, much
 much faster than an exponential.
 
-I'll call this growth rate `$CB(k)$`, the "__copy-beaver number__", which
-is the maximal number of copies a program of length `$n$` can make of
-a pre-written tape-state. The copy-beaver number is definitely smaller
-than the busy-beaver number, but my best guess is that it still grows
-much faster than almost all functions we can characterize, that it has
-"busy-beaver-like" growth behavior.
+__Definition__: I'll give the growth rate of `$M_k$` the name `$CB(k)$`,
+the "__copy-beaver number__", which is the maximal number of copies a
+program of length `$n$` can make of a pre-written tape-state.
+
+The copy-beaver
+number is definitely smaller than the busy-beaver number, but my best
+guess is that it still grows much faster than almost all functions we
+can characterize<sub>85%</sub>, that it has "busy-beaver-like" growth
+behavior.
 
 This leads to a simple consequence: in `$k$`, the expected
 value of the mugging program `$M_k$` for the muggee `$\Finv$` is
@@ -119,13 +132,16 @@ rate than a double exponential, which, nah.
 </div>
 
 Note that in this case `$n_\Finv$` isn't a numéraire anymore, since
-utility functions are linear in those. I'll call the goods the utility
-function is monotonic but not linear in "pseudo-numéraires". `$c$`
-is just some constant.
+utility functions are linear in those.
 
-But we now have an interesting foothold! Logarithmic utility grows too
-quickly, *but* we can *identify* the growth rate of utility for our
-pseudo-numéraire so that we don't get this kind of unboundedness.
+__Definition__: I'll call the goods a utility function is
+[monotonic](https://en.wikipedia.org/wiki/Monotonic_function) but not
+linear in "__pseudo-numéraires__". `$c$` is just some constant.
+
+But we now have an interesting foothold! Logarithmic utility grows
+too quickly, *but* we can *identify* the growth rate of utility for
+our pseudo-numéraire so that we don't get this kind of divergence
+of utilities.
 
 Specifically, we need `$U(CB(k)) \cdot 2^{-k} \le c$`, which (under the
 assumption that `$CB$` is invertible) leads to:
@@ -139,8 +155,8 @@ assumption that `$CB$` is invertible) leads to:
 (Abusing notation, `$U(k)$` is the utility of `$k$` copies of the
 pseudo-numéraire.)
 
-We can now identify a set of mugging-immune utility functions with a
-single pseudo-numéraire `$k$`:
+__Definition__: We can now identify a set of "__mugging-immune utility
+functions__" with a single pseudo-numéraire `$k$`:
 
 <div>
         $$\mathcal{I}=\{U : \mathbb{R}^+ \rightarrow \mathbb{R} \mid U(k) \le c \cdot 2^{CB^{-1}(k)}\}$$
@@ -201,6 +217,7 @@ is possible and when it isn't; we may be stuck.
 	1. What about a prior that also penalizes the size of the finally output, exponentially in length?
 	2. Does the speed prior basically fulfill this condition?
 		1. A pure speed prior doesn't, but that's a bad prior.
+		2. What happens to the bound if we use the classic speed prior which is really a mix between the simplicity prior and the speed prior?
 
 See Also
 ---------

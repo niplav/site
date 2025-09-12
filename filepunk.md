@@ -1,17 +1,22 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-08-19, modified: 2025-09-04, language: english, status: in progress, importance: 1, confidence: likely*
+*author: niplav, created: 2025-08-19, modified: 2025-09-12, language: english, status: in progress, importance: 1, confidence: likely*
 
-> __Fileservers × mechanism design × sub-cent microtransactions. A personal
-æsthetic.__
+> __Fileservers × mechanism design × sub-cent microtransactions. A
+personal æsthetic.__
+>  
+>  
+> __¢|⋈__
+
+<!--__¢∘⋈__?-->
 
 `filepunk`
 ============
 
 Notes:
 
-* Currently mostly LLM-generated, I'll edit it.
+* Currently mostly LLM-generated (Claude 3.7 & Claude 4 Sonnet), I'll edit it.
 * Something with sending an email for the price of 0.1 cent
 
 ```
@@ -149,15 +154,18 @@ cat /mnt/tax/submissions/last/verification  # "Valid proof, tax owed: 0.32 ETH"
 Slogans
 --------
 
-* ¢∘⋈
-* ¤⊸⟚
 * "data flows, attribution backpropagates, pipes brim"
-* "heaven rests if compute is optimally allocated"
+* "heaven rests iff compute is optimally allocated"
 * `storage | ideation | allocation | computation | attribution >storage`
 * "value is data flow in composition—compute is dancing money"
 * `<value >wealth`
 * "biota of the file system trade in harmony"
 * `act &; collaborate &; assign &; redistribute &`
+* "companies spawn, companies abrt, /tmp is eternal"
+* "kernelize welfare maximization, `Twalk` revenue maximization"
+* `fsck.mrkt -p -D -E deadweight_loss /mnt/exchng/manila/1882781828`
+
+-----------------------
 
 ## Core Philosophy
 
@@ -176,7 +184,6 @@ Slogans
 * "soft links can point toward justice, hard links can point towards truth"
 * "symlink abundance to scarcity; watch scarcity dissolve"
 * "inode exhaustion is artificial scarcity"
-* "mechanism design is just really good file organization"
 
 ## Economic Commands
 
@@ -187,23 +194,22 @@ Slogans
 * "chmod 777 /mnt/commons && watch df -h /mnt/commons"
 * "find /mnt -type f -name '*monopoly*' -delete"
 * "tail -f /dev/urandom | /mnt/vickrey/auction/new"
-* "kill -9 $(ps aux | field 4 11 | grep rent_seeking | field 2)"
+* `kill -9 $(ps aux | field 4 11 | grep rent_seeking | field 2)`
 * "ln -s /mnt/coase/theorem /mnt/transaction/costs/zero"
-* "export PARETO_EFFICIENCY=true; source ~/.bashrc"
-* "cd /mnt/nash/equilibrium && pwd # you are here"
-* "chmod +x /bin/price_discovery && ./price_discovery &"
-* "ln /dev/random /mnt/hayekian/knowledge/problem"
-* "automated arbitrage: grep -v 'inefficiency' /mnt/markets/* || profit"
-* "supply meets demand in the sacred directory /mnt/equilibrium"
+* `export PARETO_EFFICIENCY=true; source ~/.bashrc`
+* `cd /mnt/nash/equilibrium && pwd # you are here`
+* `chmod +x /bin/price_discovery && ./price_discovery &`
+* `ln /dev/random /mnt/hayekian/knowledge/problem`
+* "automated arbitrage: `grep -v 'inefficiency' /mnt/markets/* || profit`"
+* "supply meets demand in /mnt/equilibrium"
 
 ## Corporate Automation
 
 * "a thousand corporations sleep in /proc, dreaming electric sheep margins"
 * "automated companies are just really persistent background processes"
 * "automated firms communicate only in JSON and ETH"
-* "fork() && exec('/bin/company') # mitosis of capital"
+* `fork() && exec('/bin/company')`
 * "every startup.sh eventually becomes a zombie process"
-* "companies spawn, companies die, the /tmp directory is eternal"
 * "automated firms exist in userspace; value flows in kernelspace"
 * "background processes dream of being foreground allocation mechanisms"
 
@@ -213,23 +219,18 @@ Slogans
 * "`cron` schedules auctions; auctions schedule allocation"
 * "`at` schedules bids; bids schedule reality"
 * "every `crontab -e` reshapes the economic topology"
-* "`nohup` ./market_maker & # immortal price discovery"
+* `nohup ./market_maker &`
 * "the auction daemon never sleeps, never rests, never extracts"
 
 ## System Health
 
 * "market failure is segmentation fault in the economic kernel"
-* "deadweight loss is just really bad memory management"
 * "principal-agent problems are just really bad file permissions"
 * "elasticity of demand lives in /sys/market/responsiveness"
-* "the invisible hand is just really good process scheduling"
-* "`systemctl status capitalism.service # failed (exit code: externality)`"
-* "`jobs` shows running companies; `fg %market` brings price to the terminal"
-* "`nice -19 ./public_goods_funding # highest priority`"
-* "`grep -v 'deadweight_loss' /var/log/allocation.log | wc -l # optimization metric`"
+* `jobs` shows running companies; `fg %market` brings price to the terminal
+* `nice -19 ./public_goods_funding # highest priority`
+* `grep -v 'deadweight_loss' /var/log/allocation.log | wc -l`
 
 ## Distributed Wisdom
 
 * "compute dreams in DAGs; DAGs dream in consensus"
-* "mechanism design is just really good tab completion"
-* kernelize welfare maximization, Twalk revenue maximization

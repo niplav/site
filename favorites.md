@@ -127,9 +127,11 @@ Bach](https://en.wikipedia.org/wiki/Johann_Sebastian_Bach),
 [Patricia Taxxon](https://patriciataxxon.bandcamp.com/),
 [Steve Reich](https://en.wikipedia.org/wiki/Steve_Reich),
 [Charles Mingus](https://en.wikipedia.org/wiki/Charles_Mingus),
-[Sonny Clark](https://en.wikipedia.org/wiki/Sonny_Clark), [Vincent
-E. L](https://vincentel.bandcamp.com/), Oliver Buckland, Mike Battaglia,
-and Graham Kartna.<!--TODO: links-->
+[Sonny Clark](https://en.wikipedia.org/wiki/Sonny_Clark),
+[Vincent E. L](https://vincentel.bandcamp.com/),
+[Oliver Buckland](https://www.oliverbuck.land/), [Mike
+Battaglia](https://www.youtube.com/@MikeBattagliaMusic), and [Graham
+Kartna](https://grahamkartna.com/).
 
 ### Music
 

@@ -35,8 +35,6 @@ the underlying set of objects changes.__
 Resolving von Neumann-Morgenstern Inconsistent Preferences
 ===========================================================
 
-<!--TODO: move proofs into an appendix-->
-
 In economics, decision theory, game theory and parts of artificial
 intelligence the standard approach to modeling actors is to assume those
 actors have a fixed utility function they optimise [Peterson 2017, ch.
@@ -111,6 +109,9 @@ reasons:
         inconsistent preferences to adhere to the von
         Neumann-Morgenstern axioms, to avoid wasting resources and
         making it easier to reason about their own future behavior.
+
+<!--TODO: Different phrasing of motivations: Extending topological sort
+to arbitrary graphs, general theory of "straightening out" cycles-->
 
 #### Why vNM?
 
@@ -2271,13 +2272,15 @@ Resolving inconsistent graphs could also be approached from a different
 perspective using random walks on the graph, breaking cycles and
 completing edges as they are encountered. An extension of this setup
 could involve two agents: One trying to resolve its preferences through
-a process of breaking cycles as it traverses the graph representing its
-preferences, and an adversary attempting to money-pump the agent. This
-setup also is amenable for an analysis of money-pumping under the light
-of computational complexity: which violations of the von
+a process of breaking cycles as it traverses the graph representing
+its preferences, and an adversary attempting to money-pump the
+agent. This setup also is amenable for an analysis of money-pumping
+under the light of computational complexity: which violations of the von
 Neumann-Morgenstern axioms are computationally easy or hard to find, and
-what is the attack/defense balance between finding and exploiting such
-violations?
+what is the offense/defense balance<!--TODO: link--> between finding and
+exploiting such violations? <!--TODO: other option: Bargaining between
+sub-agents, compositional agency à la ACS, Ngo, geometric rationality
+by Garrabrant-->
 
 In the context of preferences over lotteries, we are left with no
 satisfactory mathematical structure that we can use: edge-weighted
