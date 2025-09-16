@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-11-15, modified: 2025-07-11, language: english, status: in progress, importance: 6, confidence: unlikely*
+*author: niplav, created: 2024-11-15, modified: 2025-09-16, language: english, status: in progress, importance: 6, confidence: unlikely*
 
 > __One might be able to solve two problems far-future civilizations will
 face (most baryonic matter is intergalactic hot plasma; intergalactic
@@ -17,7 +17,7 @@ Black Hole Mop
 
 [Baryons](https://en.wikipedia.org/wiki/Baryon) make up only 4.5% of
 the current [massenergy](https://en.wikipedia.org/wiki/Mass-energy)
-of the universe. >80% of that baryonic massenergy is intergalactic
+of the universe, and >80% of that baryonic massenergy is intergalactic
 dust or plasma—mostly hydrogen and helium with temperatures from
 `$10^5$` to `$10^7 K$`, and if compressed to water density would
 have temperatures from `$10^{31}$` to `$10^{34}K$` ([Sandberg
@@ -39,18 +39,65 @@ plasma & dust, and ideally one that fulfills these properties:
 
 For [intergalactic
 colonization](./doc/big_picture/fermi/eternity_in_6_hours_sandberg_armstrong_2013.pdf),
-an advanced civilization would want to move through intergalactic space at
-very high speed—the closer to `$c$`, the better. But at such velocities,
-collisions with dust and small particles create explosions releasing as
-much energy as a hand grenade.
+an advanced civilization would want to move through intergalactic
+space at very high speed—the closer to `$c$`, the better. But at
+such velocities, collisions with dust and even small particles create
+explosions releasing as much energy as a hand grenade. This makes it
+necessary for intergalactic probes to be either (1) very redundant,
+(2) require large amounts of shielding, or (3) have a very small
+cross-section; ideally all three. (I often imagine probes that look
+less like traditional spaceships but kilometer-long cylinders with a
+cross-section of a few centimeters, the first 30% of the probe being
+shielding.)
 
 ### Synthesis
 
 For a [black hole
 civilization](https://harsimony.wordpress.com/2022/09/13/black-hole-civilizations/),
-one option to fulfill some of the criteria for collecting
-the IGM and shielding a probe would be to create intergalactic
-"ships" that are composed of a coordinating, baryonic center and a
+one option for intergalactict probes is to accelerate a medium-sized
+black hole at almost the same speed as the probe, and in the same path.
+
+![](./img/mop/mop.png)
+
+At any point during the journey, the probe is in the shadow of
+the black hole, which mops up the intergalactic hot plasma and
+dust in the flight path[^charged]. The heat of the intergalactic
+medium would be converted to the mass of the black hole, as
+black holes don't have any temperature and are [excellent heat
+sinks](https://www.weidai.com/black-holes.txt); instead they emit
+[Hawking radiation](https://en.wikipedia.org/wiki/Hawking_Radiation)
+in the black body spectrum.
+
+[^charged]: I don't know whether the intergalactic medium is charged, if so the black holes would also accumulate charge. I assume that on a medium scale the intergalactic medium is fairly evenly distributed, so I don't think they'd accumulate angular momentum.
+
+Depending on the ability to set the speed accurately, the black hole could
+be accelerated to a terminal velocity slightly slower than the probe, so that
+the probe ends up close to the black hole to be able to then steer it.
+
+<!--TODO: relative weight/steerability, initial speed differential?-->
+
+How does this fare on our list of criteria?
+
+1. The heat of the plasma & dust is converted perfectly into mass, but not used for anything productive.
+2. The plasma is unavailable for fusion, and the form in which it later is emitted again Hawking radiation is less useful, as it happens over extremely long timespans.
+3. I haven't yet calculated how much of the reachable universe could be plausibly covered this way.
+
+Black hole mops would have some other disadvantages:
+
+1. Macroscopic black holes are likely quite valuable, and the larger the cross-section the higher the mass of the black hole.
+2. It's not clear the probe will be able to brake the black hole, due to the mass differential.
+	1. Even if the black hole can brake (for example by using the expansion of the universe as a natural braking mechanism), it's not clear the black hole can be steered.
+
+Despite having mostly listed downsides of black hole mops, I think
+they're an attractive option to do further reseach on.
+
+I don't know whether such constructions are possible or desirable,
+but I would like to hear some feedback by someone more knowledgeable
+about physics.
+
+<!--Deleted:
+
+composed of a coordinating, baryonic center and a
 "shell" of black holes orbiting that center, moving at high speed
 through the intergalactic medium, in a setup similar to a [Dyson
 swarm](https://en.wikipedia.org/wiki/Dyson_Swarm). Alternatively,
@@ -63,50 +110,6 @@ by one or more of the black holes in the direction of travel.
 
 *This, but with black holes instead of mirrors. [Sandberg
 2023](https://www.goodreads.com/book/show/42275384-grand-futures), p. 460*
-
-The black holes would "mop up" the intergalactic medium as the
-craft would move through it, increasing in mass[^charged]. The heat of the
-intergalactic medium would be converted to the mass of the black hole,
-as black holes don't have any temperature and are [excellent heat
-sinks](https://www.weidai.com/black-holes.txt); instead they emit
-[Hawking radiation](https://en.wikipedia.org/wiki/Hawking_Radiation)
-in the black body spectrum.
-
-[^charged]: I don't know whether the intergalactic medium is charged, if so the black holes would also accumulate charge. I assume that on a medium scale the intergalactic medium is fairly evenly distributed, so I don't think they'd accumulate angular momentum.
-
-One option is to use such black hole
-[mops](https://en.wikipedia.org/wiki/Mop) in intergalactic colonization,
-where the black holes act as shielding for the center from collisions
-with intergalactic gas. I think this would slow this construction down,
-but usually not change its structure, though I haven't thought about it
-very much.
-
-How does this fare on our list of criteria?
-
-1. The heat of the plasma & dust is converted perfectly into mass, but not used for anything productive.
-2. The plasma is unavailable for fusion, and the form in which it later is emitted again Hawking radiation is less useful, as it happens over extremely long timespans.
-3. I haven't yet calculated how much of the reachable universe could be plausibly covered this way.
-
-Black hole mops would have some other disadvantages:
-
-1. They require advanced control over black holes, setting them up in stable complicated orbit around a center.
-2. They probably require large numbers of small black holes, which increase in mass during the journey.
-        1. This is a downside because small black holes are likely much more valuable, since they only come about after long evaporations of large black holes, or have to be constructed synthetically through extremely precise focusing of light.
-        2. Potentially one could create stable orbits of three or more large black holes "covering" the construction in the direction of travel, similar to [multiple star systems](https://en.wikipedia.org/wiki/Star_system#Multiple_star_systems).
-3. The black holes can probably not cover the central craft completely at all times, so some intergalactic medium would get lost and/or damage the central craft.
-4. If the black holes are *orbiting* the central craft, it must have a very high mass.
-
-Despite having mostly listed downsides of black hole mops, I think
-they're an attractive option to do further reseach on.
-
-I don't know whether such constructions are possible or desirable,
-but I would like to hear some feedback by someone more knowledgeable
-about physics.
-
-<!--
-TODO: send single black hole ahead of the probe, cleaning out the way,
-gravitation is strong enough to attract them to be close when they arrive,
-but not so strong that the probe falls into the black hole
 -->
 
 Questions
@@ -117,3 +120,4 @@ Questions
 3. Would the black hole(s) evaporate through Hawking radiation on the longest journeys, or would it/they expand?
 4. Do(es) the black hole(s) form accretion disks, if yes, do they matter?
 5. How difficult is it to steal the black hole(s) in this scenario?
+6. How far ahead to send the black hole? What's the mass-cross-section scaling? Just cubic?

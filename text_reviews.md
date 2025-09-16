@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-12-30, modified: 2025-05-08, language: english, status: in progress, importance: 3, confidence: opinion*
+*author: niplav, created: 2020-12-30, modified: 2025-09-15, language: english, status: in progress, importance: 3, confidence: opinion*
 
 > __Reading a text is sometimes a big time investment, but people
 don't approach their reading in a structured manner, e.g. by keeping
@@ -668,6 +668,24 @@ noch was, ich versuche es weiter.
 <!--
 ### Designing Data-Intensive Applications (Martin Kleppmann, 2017)
 -->
+
+### Die Chinesen (Stefan Baron/Guangyan Yin-Baron, 2019)
+
+Solide Einführung. Besonders nützlich fand ich die pragmatische
+Beschreibung der Psyche der Chinesen, zusammen mit dem Faktoid, dass
+Psychologie in China ein extrem vernachlässigtes Fach ist. (Vielleicht
+zeigt das einfach die Weisheit der Chinesen, sich nicht mit Bullshit
+abzugeben).
+
+Hätte mir mehr Fakten zu industrieller Kapazität und Production,
+sowie zur Energieproduktion und dem Energieverbrauch gewünscht, aber
+ein Buch kann eben nur so lang sein. Relevant aber: Im gesamten Buch
+ist *kein einziges* chinesisches Schriftzeichen, selbst im Kapitel über
+die Sprache nicht!
+
+__6/10__: Verlässlich, hat mich aber nicht vom Hocker gehauen. Eine
+Prise Smil wäre hilfreich, aber ich schätze mal, dass jede solche
+Prise die Leserschaft um 15% senkt. Keine Fuß- und Endnoten.
 
 LessWrong Annual Reviews
 -------------------------

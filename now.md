@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2025-08-08, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2025-09-16, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -29,9 +29,9 @@ Data Collection
 ----------------
 
 At the moment I'm not collecting much data beyond [what
-I usually gather](./data.md), and running and one RCT on
-[lumenators](https://arbital.com/p/lumenators/). Soon
-I'm going to start collecting data for our [Orexin-A
+I usually gather](./data.md), and running and one RCT
+on [lumenators](https://arbital.com/p/lumenators/).
+I'm currently collecting data for our [Orexin-A
 experiment](https://manifund.org/projects/orexin-pilot-experiment-for-reducing-sleep-need).
 
 Programming
@@ -56,7 +56,6 @@ Currently, I am actively reading the following texts:
 * ML for the Working Programmer (Lawrence C. Paulson, 1996)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * The Code Book (Simon Singh, 1999)
-* Die Chinesen (Stefan Baron/Guangyan Yin-Baron, 2019)
 * The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 9/1000.
 	* [Book (2019)](https://en.wikipedia.org/wiki/Book)
 	* [Hammurabi (2023)](https://en.wikipedia.org/wiki/Hammurabi)

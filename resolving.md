@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2023-04-15, modified: 2025-09-07, language: english, status: in progress, importance: 8, confidence: highly likely*
+*author: niplav, created: 2023-04-15, modified: 2025-09-16, language: english, status: in progress, importance: 8, confidence: highly likely*
 
 > __I [consider](#Motivation) the problem of resolving preferences
 that are inconsistent under the [von Neumann-Morgenstern
@@ -828,18 +828,19 @@ then `HodgeResolve` has a unique output, since assigning each vertex a
 real-valued potential `$p: \Omega \rightarrow \mathbb{R}$` and then
 ordering vertices by that potential creates a weak ordering `$W$`.
 
-However, if one demands that the output of `HodgeResolve` be a total
-order then the output is dependent on the method of achieving that total
-order. If one generates the total orders by generating all acyclic
-tournaments with vertices `$\Omega$` that are subgraphs of `$W$`, the output
-is no longer unique: In the worst case `$G=(\Omega, \emptyset)$`, which
-results in `HodgeRank` assigning a potential of 0 to every node, and
-`HodgeResolve` putting every vertex in the same equivalence class in the
-weak ordering. As a graph this is the complete directed graph on
-`$\Omega$`, which contains all acyclic tournaments on `$\Omega$` as
-subgraphs. Then there are `$|\Omega|!$` acyclic tournaments generated from
-this weak ordering, since all acyclic tournaments are equally compatible
-with the weak ordering.
+However, if one demands that the output of `HodgeResolve` be a
+total order then the output is dependent on the method of achieving
+that total order. If one generates the total orders by generating
+all acyclic tournaments with vertices `$\Omega$` that are [induced
+subgraphs](https://en.wikipedia.org/wiki/Induced_subgraph) of `$W$`, the
+output is no longer unique: In the worst case `$G=(\Omega, \emptyset)$`,
+which results in `HodgeRank` assigning a potential of 0 to every node,
+and `HodgeResolve` putting every vertex in the same equivalence class
+in the weak ordering. As a graph this is the complete directed graph
+on `$\Omega$`, which contains all acyclic tournaments on `$\Omega$`
+as induced subgraphs. Then there are `$|\Omega|!$` acyclic tournaments
+generated from this weak ordering, since all acyclic tournaments are
+equally compatible with the weak ordering.
 
 ##### Further Considerations
 
@@ -966,27 +967,28 @@ as an output the output size can be factorial in the number of nodes.
 #### Preservation of Consistent Subgraphs
 
 **Definition 5**. For a given `$G =(\Omega, E_P)$`, with `$G \in
-\mathfrak{P}_{\Omega}$`, a subgraph `$\mathit{S}_G=(\Xi, E)$` of
-`$G$` (with `$\Xi \subseteq \Omega$`, and the set of edges `$E$` of
-`$\mathit{S}_G$` being a subset of `$E_P$`) is an **inclusion-maximal
-consistent subgraph** of `$G$` if and only if:
+\mathfrak{P}_{\Omega}$`, an induced subgraph `$\mathit{S}_G=(\Xi, E)$`
+of `$G$` (with `$\Xi \subseteq \Omega$`, and the set of edges `$E$` of
+`$\mathit{S}_G$` being a subset of `$E_P$`) is an **maximal consistent
+subgraph** of `$G$` if and only if:
 
 -   `$\mathit{S}_G$` is a consistent graph (equivalently an acyclic
     tournament)[^4].
--   `$\mathit{S}_G$` inherits all available edges from `$G$`, that is if
-    there are two `$\xi_1, \xi_2 \in \Xi$` and `$(\xi_1, \xi_2) \in E_P$`
-    then `$(\xi_1, \xi_2) \in E$` as well.
--   `$\mathit{S}_G$` is inclusion-maximal, that is, there exists no
+-   `$\mathit{S}_G$` is an *induced* subgraph, that is it inherits all
+    available edges from `$G$`. If there are two `$\xi_1, \xi_2 \in \Xi$`
+    and `$(\xi_1, \xi_2) \in E_P$` then `$(\xi_1, \xi_2) \in E$` as well.
+-   `$\mathit{S}_G$` is maximal, that is, there exists no
     `$\omega \in \Omega \backslash \Xi$` so that adding `$\omega$` and its
     edges adjacent to all `$\xi \in \Xi$` to `$\mathit{S}_G$` is still a
     consistent graph.
 
 **Definition 6**. Let `$\mathcal{S}_G$` be the set of all
-inclusion-maximal consistent subgraphs of `$G$` and let `$f: \mathfrak{P}
-\rightarrow \mathcal{P}(\mathfrak{C})$` be a function that turns any `$G$`
-into a set `$\mathbf{C}_G=f(G)$` of consistent graphs. Then `$f$` fulfills
-**Preservation of Consistent Subgraphs** if and only if every element of
-`$\mathcal{S}_G$` is a subgraph of at least one `$\mathbf{C}_G$`, that is
+maximal consistent subgraphs of `$G$` and let `$f: \mathfrak{P}
+\rightarrow \mathcal{P}(\mathfrak{C})$` be a function that turns any
+`$G$` into a set `$\mathbf{C}_G=f(G)$` of consistent graphs. Then `$f$`
+fulfills **Preservation of Consistent Subgraphs** if and only if every
+element of `$\mathcal{S}_G$` is an induced subgraph of at least one
+`$\mathbf{C}_G$`. That is
 
 <div>
 	$$\forall \mathit{S} \in \mathcal{S}_G: \exists C \in \mathbf{C}_G: V_{\mathit{S}} \subseteq V_{C} \land E_{\mathit{S}} \subseteq E_{C}$$
@@ -1004,10 +1006,10 @@ after becoming consistent the agent still has the same preferences over
 fruit and dairy product as before.
 
 Furthermore, one can show that there are graphs with an exponential
-number of inclusion-maximal consistent subgraphs in the number of nodes.
+number of maximal consistent subgraphs in the number of nodes.
 
 **Lemma 8**. Let `$G \in \mathfrak{P}_n$` be an arbitrary directed graph
-with `$n$` nodes, and let `$\mathcal{S}_G$` be the set of inclusion-maximal
+with `$n$` nodes, and let `$\mathcal{S}_G$` be the set of maximal
 consistent subgraphs of `$G$`. Then there exists no polynomial `$p$` so
 that `$\forall G \in \mathfrak{P}_n: |\mathcal{S}_G| \le p(n)$`.
 
@@ -1030,8 +1032,8 @@ that `$\forall G \in \mathfrak{P}_n: |\mathcal{S}_G| \le p(n)$`.
 `$G_c$` above is resolved into two acyclic tournaments, none of which
 contain the edge `$d \rightarrow c$`.
 
-The graph `$G_c$` above contains a subgraph
-`$\mathit{S}_{cd}=(\{c,d\},\{(c,d)\})$` that is also an inclusion-maximal
+The graph `$G_c$` above contains an induced subgraph
+`$\mathit{S}_{cd}=(\{c,d\},\{(c,d)\})$` that is also an maximal
 acyclic tournament in `$G_c$`. The two acyclic tournaments with the lowest
 graph-edit distance (namely 3: reversing the edge `$d \rightarrow c$`
 (2 operations) and adding an edge between `$a$` and `$b$`) to `$G_c$`
@@ -1040,7 +1042,7 @@ are shown in the resolved graph. Note that none of them contain
 
 ![](./img/resolving/counter_example_3.png)
 
-This counter-example can be generalized so that inclusion-maximal
+This counter-example can be generalized so that maximal
 consistent subgraphs with an arbitrary number of nodes `$n$` get reversed:
 Each edge `$\omega_1 \rightarrow \omega_2$` of `$G_c$` gets replaced by an
 acyclic tournament `$\mathit{T}_i=(\Xi_i, E_i)$` with `$n-2$` vertices,
@@ -1049,7 +1051,7 @@ and an edge from every `$\xi_i \in \Xi_i$` to `$\omega_2$`. The graph
 on the left has confusion 40, and the subgraph emphasized in red is
 preserved in none of the outputs of `EGEDmin`.
 
-We also investigated the number of inclusion-maximal consistent
+We also investigated the number of maximal consistent
 subgraphs preserved by `EGEDmin`. We again did this by analyzing the
 outputs of `EGEDmin` for all graphs with five nodes or less, and some
 graphs with six or seven nodes.
@@ -1059,8 +1061,8 @@ graphs with six or seven nodes.
 **i**nclusion-**m**aximal **c**onsistent **s**ubgraphs for a given graph.
 
 Given a directed graph `$G$`, let `$\mathcal{S}$` be the set of
-inclusion-maximal consistent subgraphs of `$G$`. One can now ask: For a
-given inclusion-maximal consistent subgraph, how often did that subgraph
+maximal consistent subgraphs of `$G$`. One can now ask: For a
+given maximal consistent subgraph, how often did that subgraph
 occur in the set of outputs `$\mathtt{EGEDmin}(G)$`?
 
 **Definition 8**. Let `$\text{RSP}(S, G)$` (with `$S \in \mathcal{S}$`)
@@ -1073,15 +1075,15 @@ be the **r**atio of **s**ubgraph **p**reservation:
 (No relation to [responsible scaling
 policies](https://www.lesswrong.com/posts/jyM7MSTvy8Qs6aZcz/what-s-up-with-responsible-scaling-policies).)
 
-As we saw above, there are graphs with inclusion-maximal consistent
+As we saw above, there are graphs with maximal consistent
 subgraphs `$S$` so that `$\text{RSP}(S)=0$`.
 
 One can then use `$\text{RSP}$` to define a metric that tells us, for a
-given graph, how often inclusion-maximal consistent subgraphs were
+given graph, how often maximal consistent subgraphs were
 preserved on average.
 
 **Definition 9**. Let `$\text{AMSP}_{\mathtt{EGEDmin}}(G)$` be the
-average, for every inclusion-maximal consistent subgraph `$\mathit{S}$`,
+average, for every maximal consistent subgraph `$\mathit{S}$`,
 of the number of times `$\mathit{S}$` appears in the output of `EGEDmin`
 (**a**verage **m**aximal **s**ubgraph **p**reservation):
 
@@ -1096,7 +1098,7 @@ methods for resolution, simply by swapping out the instances of
 `$\text{RSP}$` and `$\text{AMSP}$` for `$\text{RSP}_{\mathtt{EGEDmin}}$`
 and `$\text{AMSP}_{\mathtt{EGEDmin}}$`.
 
-A higher number for AMSP is better: It means that more inclusion-maximal
+A higher number for AMSP is better: It means that more maximal
 consistent subgraphs get preserved more often by the method for
 resolving inconsistent preferences.
 
@@ -1111,31 +1113,31 @@ resolving inconsistent preferences.
 | 6     | 90927     | `$\approx$` 2.207         | `$\approx$` 0.95        | 0                      | 72209 (`$\approx$` 79.4%)        |
 | 7     | 1580      | `$\approx$` 2.618         | `$\approx$` 0.932       | 0                      | 1095 (`$\approx$` 69.3%)         |
 
-One can see that the average number of inclusion-maximal consistent
+One can see that the average number of maximal consistent
 subgraphs increases, albeit initially slowly. The number of times that
 maximal consistent subgraphs are preserved (Avg `$\text{AMSP}(G)$`) starts
 dropping, though the shrinking behavior isn't clear from the limited
-amount of data. The number of graphs in which all inclusion-maximal
+amount of data. The number of graphs in which all maximal
 consistent subgraphs are preserved by `EGEDmin` shrinks even more
 quickly, indicating that preserving all consistent subgraphs is a
 property that is difficult to fulfill.
 
 Only for small graphs (up to 3 vertices) it is guaranteed that at least
-one inclusion-maximal consistent subgraph occurs in the output of
+one maximal consistent subgraph occurs in the output of
 `EGEDmin`.
 
 So we can pose some conjectures indicated by the datapoints observed
 above:
 
 **Conjecture 2**. In the limit of graph size, on average `EGEDmin`
-preserves almost none of the inclusion-maximal consistent subgraphs:
+preserves almost none of the maximal consistent subgraphs:
 
 <div>
 	$$\underset{n \rightarrow \infty}{\lim} \frac{1}{|\mathfrak{P}_n|} \sum_{G \in \mathfrak{P}_n} \text{AMSP}(G)=0$$
 </div>
 
 **Conjecture 3**. For graphs with `$>7$` nodes it remains the case that
-there are graphs for which the smallest number of inclusion-maximal
+there are graphs for which the smallest number of maximal
 consistent subgraphs preserved by `EGEDmin` is zero:
 
 <div>
@@ -1143,7 +1145,7 @@ consistent subgraphs preserved by `EGEDmin` is zero:
 </div>
 
 **Conjecture 4**. In the limit of number of nodes in a graph, for almost
-no graphs does `EGEDmin` preserve all inclusion-maximal consistent
+no graphs does `EGEDmin` preserve all maximal consistent
 subgraphs.
 
 <div>
@@ -1164,20 +1166,20 @@ Subgraphs** stays otherwise unchanged[^5].
 `HodgeResolve` does not fulfill **Preservation of Consistent
 Subgraphs**. The following figure shows two graphs (both on the left
 in their respective subfigures). For the graph in the left subfigure no
-inclusion-maximal consistent subgraphs are preserved, for the right one
-all but one inclusion-maximal consistent subgraphs are preserved.
+maximal consistent subgraphs are preserved, for the right one
+all but one maximal consistent subgraphs are preserved.
 
 ![](./img/resolving/hodge_no_preserve.png)
 
-*`$1 \rightarrow 2$` is the only consistent subgraph, but it gets reversed.*
+*`$1 \rightarrow 2$` is the only consistent induced subgraph, but it gets reversed.*
 
 ![](./img/resolving/hodge_some_preserve.png)
 
-*Each edge is an inclusion-maximal consistent subgraph, and only the edge `$3 \rightarrow 4$` gets reversed. 1 and 2 in the result have the same potential.*
+*Each edge is an maximal consistent subgraph, and only the edge `$3 \rightarrow 4$` gets reversed. 1 and 2 in the result have the same potential.*
 
-In the first image, a graph with 1 inclusion-maximal consistent subgraph
+In the first image, a graph with 1 maximal consistent subgraph
 and its resolution through `HodgeResolve`, and in the second image a graph
-with several inclusion-maximal consistent subgraphs and its resolution
+with several maximal consistent subgraphs and its resolution
 through `HodgeResolve`. The labels at the edges are the gradients that
 `HodgeRank` has computed.
 
@@ -1200,16 +1202,16 @@ In the following table, `$\text{AMSP}$` refers to
 | 10   |65536       |`$\approx$` 4.13            |`$\approx$` 0.701       |0                     | 21349 (`$\approx$` 32.6%)        |
 
 With this data, the next plot shows how well `EGEDmin` and `HodgeResolve`
-perform at preserving inclusion-maximal consistent subgraphs.
+perform at preserving maximal consistent subgraphs.
 
-![Comparing `EGEDmin` and `HodgeResolve` at how well they perform on various metrics of preserving inclusion-maximal consistent subgraphs.](./img/resolving/preservations.png)
+![Comparing `EGEDmin` and `HodgeResolve` at how well they perform on various metrics of preserving maximal consistent subgraphs.](./img/resolving/preservations.png)
 
 *Comparing `EGEDmin` and `HodgeResolve` at how well they perform on
-various metrics of preserving inclusion-maximal consistent subgraphs.*
+various metrics of preserving maximal consistent subgraphs.*
 
-One can see that on average, `EGEDmin` preserves inclusion-maximal
+One can see that on average, `EGEDmin` preserves maximal
 consistent subgraphs more often, and may also retain all
-inclusion-maximal consistent subgraphs more often (although the low
+maximal consistent subgraphs more often (although the low
 sample sizes for graphs with six and seven nodes makes this difficult to
 conclude without doubt).
 
@@ -1286,10 +1288,10 @@ that each `$\sigma_i \in
 \Sigma_i$` be preferred to each other `$\sigma_j \in \Sigma_j$`).
 
 **Remark 2**. Preservation of complete domination implies some other
-criteria: If there is a consistent subgraph which is a completely
+criteria: If there is a consistent induced subgraph which is a completely
 dominating set, then it will comprise the "greatest" subgraph in the
-resolved preference, with the greatest element in `$G$` also being the
-greatest element in `$f(G)$`. The same holds for the a completely
+resolved preference, with the greatest element in `$G$` also being
+the greatest element in `$f(G)$`. The same holds for the a completely
 dominated consistent subgraph, which stays at the bottom.
 
 #### Minimizing Graph-Edit Distance
@@ -1359,19 +1361,19 @@ so that `$\alpha_i, \beta_i, \gamma_i$` are the vertices of the graph
 `$\mathit{V}_i$` and the edges
 `$\{(u_i, v_j) | i>j \land u, v \in \{\alpha, \beta, \gamma\}\}$`.
 
-We first prove that each inclusion-maximal consistent subgraph of `$E_n$`
+We first prove that each maximal consistent subgraph of `$E_n$`
 only contains one edge from each `$\mathit{V}_i$`.
 
-**Lemma 11**. Every inclusion-maximal consistent subgraph `$V$` of `$E_n$`
+**Lemma 11**. Every maximal consistent subgraph `$V$` of `$E_n$`
 contains exactly one edge from each
 `$\mathit{V}_i \in \{\mathit{V}_1, \dots, \mathit{V}_n\}$`.
 
 [*Proof.*](#Lemma_11)
 
 We then show that any consistent graph on the vertices of `$E_n$` can not
-contain `$2^n+1$` inclusion-maximal consistent subgraphs of `$E_n$`.
+contain `$2^n+1$` maximal consistent subgraphs of `$E_n$`.
 
-**Lemma 12**. Let `$\mathcal{S}$` be a set of inclusion-maximal consistent
+**Lemma 12**. Let `$\mathcal{S}$` be a set of maximal consistent
 subgraphs of `$E_n$`, and `$|\mathcal{S}|=2^n+1$`. Then there exists no
 consistent graph `$C$` on the vertices of `$E_n$` so that `$\forall S
 \in \mathcal{S}: S \text{ is a subgraph of } C$`.
@@ -1379,11 +1381,11 @@ consistent graph `$C$` on the vertices of `$E_n$` so that `$\forall S
 [*Proof.*](#Lemma_12)
 
 We can now show that the set of consistent graphs that contain all
-inclusion-maximal consistent subgraphs of `$E_n$` grows exponentially in
+maximal consistent subgraphs of `$E_n$` grows exponentially in
 `$n$` (albeit with a small exponent).
 
 **Lemma 13**. The set of consistent graphs `$\mathbf{C}$` on the vertices
-of `$E_n$` that includes all inclusion-maximal consistent subgraphs of
+of `$E_n$` that includes all maximal consistent subgraphs of
 `$E_n$` has size at least `$(\frac{3}{2})^n$`.
 
 [*Proof.*](#Lemma_13)
@@ -1403,10 +1405,10 @@ can probably be improved upon.
 #### Polynomial Time Complexity and Preservation of Consistent Subgraphs are Incompatible
 
 Given that in the worst case, only a small proportion of consistent
-subgraphs can be preserved, it also is not possible to have an algorithm
-that returns, for each inclusion-maximal consistent subgraph
-`$\mathit{S}$`, at least one consistent graph that contains `$\mathit{S}$`,
-*and* computes its output in polynomial time.
+induced subgraphs can be preserved, it also is not possible to have
+an algorithm that returns, for each maximal consistent
+subgraph `$\mathit{S}$`, at least one consistent graph that contains
+`$\mathit{S}$`, *and* computes its output in polynomial time.
 
 **Theorem 14**. Let `$\mathtt{A}$` be an algorithm for resolving
 inconsistent graphs that implements an `$f$` which fulfills **Preservation
@@ -1417,16 +1419,16 @@ computes its output in less than `$p(n)$` steps.
 
 [*Proof.*](#Theorem_14)
 
-**Remark 4**. The set of inclusion-maximal consistent subgraphs on
+**Remark 4**. The set of maximal consistent subgraphs on
 `$E_n$` can be compactly represented as the Cartesian product of the
-inclusion-maximal consistent subgraphs of the "levels" `$V_i$`:
+maximal consistent subgraphs of the "levels" `$V_i$`:
 
 <div>
 	$$\newcommand{\bigtimes}{\mathop{\Large\times\normalsize}} \bigtimes_{i=1}^n \{\alpha_i \rightarrow \beta_i, \beta_i \rightarrow \gamma_i, \gamma_i \rightarrow \alpha_i\}$$
 </div>
 
 This might also allow for a compact representation of the result of `$f$`
-which includes all inclusion-maximal consistent subgraphs. We suspect
+which includes all maximal consistent subgraphs. We suspect
 there are counter-examples that don't allow for this, but haven't been
 able to find any.
 
@@ -2266,7 +2268,7 @@ graphs to acyclic tournaments, but are convinced that there are many
 other methods that could be investigated, specifically methods that use
 different methods of evaluating graph similarity or ones that result in
 weak orderings, or methods that are selected to preserve as many
-inclusion-maximal consistent subgraphs as possible.
+maximal consistent subgraphs as possible.
 
 Resolving inconsistent graphs could also be approached from a different
 perspective using random walks on the graph, breaking cycles and
@@ -2555,10 +2557,10 @@ bitstring. ◻
 [Moon & Moser
 1965](./doc/math/on_cliques_in_graphs_moon_moser_1965.pdf)
 describe how to construct an undirected graph `$G_n=(V_G,E_G)$`
-with `$n$` vertices and `$3^{\frac{n}{3}}$` inclusion-maximal
+with `$n$` vertices and `$3^{\frac{n}{3}}$` maximal
 [cliques](https://en.wikipedia.org/wiki/Clique_\(graph_theory\)). Then
 one can construct a directed graph `$P_n=(V_P,E_P)$` with
-`$3^{\frac{n}{3}}\approx 1.4422^n$` inclusion-maximal consistent
+`$3^{\frac{n}{3}}\approx 1.4422^n$` maximal consistent
 subgraphs from `$G_n$`, which grows faster than any polynomial. First,
 `$P_n$` receives the same vertices as `$G_n$`.  Then, every `$v \in V$` is
 assigned a unique number `$j(v): V \rightarrow \mathbb{N}$`, and for each
@@ -2566,7 +2568,7 @@ assigned a unique number `$j(v): V \rightarrow \mathbb{N}$`, and for each
 only if `$j(u)>j(v)$`, and `$(v,u)$` if and only if `$j(v)>j(u)$`. Now,
 if a subgraph `$\mathit{S}_G$` of `$G_n$` with vertices `$V_{\mathit{S}}$`
 is a maximal clique, then a subgraph `$\mathit{S}_P$` of `$P_n$` with
-vertices `$V_{\mathit{S}}$` is an inclusion-maximal consistent subgraph in
+vertices `$V_{\mathit{S}}$` is an maximal consistent subgraph in
 `$P_n$`:
 
 1.  `$\mathit{S}_P$` is complete, because for every `$\{u,v\}$` in
@@ -2585,8 +2587,8 @@ vertices `$V_{\mathit{S}}$` is an inclusion-maximal consistent subgraph in
     natural number). So `$\mathit{S}_P$` can only contain either `$(u,v)$`
     or `$(v,u)$`.
 
-4.  `$\mathit{S}_P$` is inclusion-maximal. If `$\mathit{S}_P$` were not
-    inclusion-maximal, there'd exist a vertex `$u$` so that every vertex
+4.  `$\mathit{S}_P$` is maximal. If `$\mathit{S}_P$` were not
+    maximal, there'd exist a vertex `$u$` so that every vertex
     `$v$` of `$\mathit{S}_P$` had an edge with `$u$`. But since the procedure
     of constructing `$P_n$` above did not add any edges, that would mean
     that `$\mathit{S}_G$` was not a maximal clique.
@@ -2680,7 +2682,7 @@ consistency: If one adds (without loss of generality)
 -   **Asymmetry** is preserved because we add no reversed edges where
     there were edges in `$S$` before.
 
- ◻
+◻
 
 ### Lemma 12
 
@@ -2722,7 +2724,7 @@ at least one `$\mathit{V}_i$`, thus `$2^n$` is the maximal size of
 
 ### Lemma 13
 
-Assume that one can partition the set `$\mathbf{C}$` of inclusion-maximal
+Assume that one can partition the set `$\mathbf{C}$` of maximal
 consistent subgraphs of `$E_n$` into a set `$\mathbf{P}$` of disjoint sets
 of size `$\le 2^n$` (that is `$\forall \mathcal{C}_i \in \mathbf{P}:
 |\mathcal{C}_i|=2^n|$`) such that there exists a consistent graph `$C$`
