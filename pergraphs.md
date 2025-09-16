@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-07-10, modified: 2025-09-08, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2025-07-10, modified: 2025-09-16, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __I describe a generalization of directed graphs, and try to port over
 some concepts from graph theory.__
@@ -34,9 +34,14 @@ drawings of networks where edges can have edges as sources and sinks.
 Formalizing
 ------------
 
-Recently, I got thinking about those again, researched a bit and think
-I've discovered they've not been examined yet. I'll call those kinds of
-graphs or networks "pergraphs".
+Recently, I got thinking about those kinds of graphs again, [researched
+a bit](#Prior_Art) and think I've discovered they've not been looked at
+in detail yet. I'll call those kinds of graphs or networks "pergraphs".
+
+In this post I'll go a double track where I'll first and foremost draw
+pretty pictures to give the reader a visual sense of what they should be
+thinking about, and also provide Lean 4 code for definitions, theorems
+and proofs.
 
 ### Basic Definitions
 
@@ -45,7 +50,7 @@ structure consisting of nodes and edges (which I'll also equivalently call
 __"peredges"__), where each edge needs to have a source and a sink. The
 source and the sink of an edge can be any node or edge, including itself.
 
-<!--TODO: image of some examples here!-->
+![](./img/pergraphs/examples.png "A drawing with multiple different small pergraphs. Examples: (1) Two nodes, connected by two edges, both edges have the same direction. (2) Two nodes, connected by an edge. There's a second edge which has the first edge as a source and loops back into itself. Three edges, arranged in a circle, so that each edge has as its source one of the different edges, and as its sink the third edge.")
 
 __Definition 1__ ([Lean](#Definition_1)): Given:
 
@@ -61,18 +66,27 @@ multi-*pergraph__, since peredges are *directed*, and two peredges can
 have the same source and the same sink. We will use the term "pergraph"
 for directed multi-pergraphs, and specify deviations from such.
 
-__Definition 2__ ([Lean](#Definition_2): A __uni-pergraph__ is a pergraph
+__Theorem 1__: Every directed graph is also a pergraph, *or*, the
+pergraphs contain the directed graphs as a subset. <!--TODO: lean of
+the theorem, proof of the theorem-->
+
+__Definition 2__ ([Lean](#Definition_2)): A __uni-pergraph__ is a pergraph
 with the additional constraint that no two peredges have the same source
 *and* the same sink, mathematically
 `$\lnot \exists p_1, p_2 \in P: p_1 \not=p_2 \land e(p_1)=e(p_2)$`.
+
+__Definition 3__: An __undirected pergraph__ is a a pergraph with
+undirected edges, i.e. a pergraph where `$e$` has the type signature
+`$P \rightarrow {V \cup P \choose 2}$`. <!--TODO: lean-->
 
 ### Some Pergraph Concepts
 
 Sources, sinks, source cycles, sink cycles, ratkings,
 source-semi-ratkings, sink-semi-ratkings…
 
-Pergraph isomorphism, pergraph rewrite rules (ratking collapse, flip
-equivalence (flipping edges results in the same pergraph)).
+Pergraph isomorphism, sub-pergraph detection, pergraph rewrite rules
+(ratking collapse, flip equivalence (flipping edges results in the
+same pergraph)).
 
 ### Counting
 
@@ -94,6 +108,15 @@ This sequence is not yet in the OEIS.
 
 Code for computing the first terms of the sequence
 [here](./code/pergraphs/simple.py).
+
+The sequence that that counts the number of unlabeled undirected
+pergraphs, up to isomorphism, starting at n=0:
+
+1, 2, 11, …
+
+Here's the *undirected* pergraphs with two components:
+
+![](./img/pergraphs/two_undirected.png)
 
 As a variant one could ditch the nodes entirely, and replace them
 self-sourced and self-sinked peredges. I think that one has different

@@ -100,7 +100,8 @@ Ontological cluing can also be thought of along two other axes:
 1. *Recognizable* vs. *unrecognizable* ontological cluing: Whether, when someone has undergone ontological cluing, a third person can recognize that fact.
 2. *Communicable* vs *uncommunicable* ontological cluing: Whether the ontological cluing can be communicated, and to what degree.
 
-The secret third option is possible in both cases.
+The secret third option is possible for both the recognizability and
+the communicability axis.
 
 Superintelligences may help with
 ontological cluing *if* they are philosophically or

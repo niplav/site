@@ -17,6 +17,16 @@ Text Reviews
 Book Reviews
 ------------
 
+<!--
+### Designing Data-Intensive Applications (Martin Kleppmann, 2017)
+### Die Drei Sonnen (Cixin Liu, 2006)
+### World War Z (Max Brooks, 2006)
+### Avoiding the Worst (Tobias Baumann, 2022)
+### Die Insel der Tausend Leuchttürme (Walter Moers, 2024)
+### Schild's Ladder (Greg Egan, 2004)
+### Bombay. Maximum City (Suketu Mehta, 2005)
+-->
+
 ### Compassion, by the Pound (F. Bailey Norwood/Jayson L. Lusk, 2011)
 
 “Compassion, by the Pound” by the economists F. Bailey Norwood and
@@ -664,10 +674,6 @@ __2.5/10__, nicht zu lang, habe es in ~5 Fitnessstudiosessions zwischen
 den Sets gelesen. Technisch gesehen bereue ich es nicht, dieses Buch
 gelesen zu haben. Vielleicht findet sich in der Kontinentalphilosophie
 noch was, ich versuche es weiter.
-
-<!--
-### Designing Data-Intensive Applications (Martin Kleppmann, 2017)
--->
 
 ### Die Chinesen (Stefan Baron/Guangyan Yin-Baron, 2019)
 
