@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2025-08-30, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2025-09-16, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -22,6 +22,16 @@ Monthly updates are sent out [via substack](https://niplav.substack.com/),
 the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
+
+September 2025
+---------------
+
+* [Text Reviews](./text_reviews.html):
+	* [Die Chinesen (Stefan Baron/Guangyan Yin-Baron, 2019)](./text_reviews.html#Die_Chinesen_Stefan_BaronGuangyan_YinBaron_2019): German review, solid introduction, nothing astonishing.
+
+Editing on ["How Often Does ¬Correlation ⇏
+¬Causation?"](./cause.html), ["Black Hole Mops"](./mop.html),
+["Pergraphs"](./pergraphs.html).
 
 August 2025
 ------------

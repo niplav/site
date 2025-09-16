@@ -54,25 +54,41 @@ shielding.)
 
 For a [black hole
 civilization](https://harsimony.wordpress.com/2022/09/13/black-hole-civilizations/),
-one option for intergalactict probes is to accelerate a medium-sized
-black hole at almost the same speed as the probe, and in the same path.
+one option for intergalactict probes is to send a black hole in the same
+path and at almost the same speed as the probe.
 
 ![](./img/mop/mop.png)
 
-At any point during the journey, the probe is in the shadow of
-the black hole, which mops up the intergalactic hot plasma and
-dust in the flight path[^charged]. The heat of the intergalactic
-medium would be converted to the mass of the black hole, as
-black holes don't have any temperature and are [excellent heat
-sinks](https://www.weidai.com/black-holes.txt); instead they emit
+At any point during the journey, the probe is in the path that has been
+cleared of dust and intergalactic hot plasma by the black hole, which
+absorbs the plasma and dust and simply increases in mass[^charged]. The
+heat of the intergalactic medium would be converted to the mass of the
+black hole, as black holes don't have any temperature and are [excellent
+heat sinks](https://www.weidai.com/black-holes.txt); instead they emit
 [Hawking radiation](https://en.wikipedia.org/wiki/Hawking_Radiation)
 in the black body spectrum.
 
-[^charged]: I don't know whether the intergalactic medium is charged, if so the black holes would also accumulate charge. I assume that on a medium scale the intergalactic medium is fairly evenly distributed, so I don't think they'd accumulate angular momentum.
+[^charged]: I don't know whether the intergalactic medium is charged, if so the black hole would also accumulate charge. I assume that on a macroscopic scale the intergalactic medium is fairly evenly distributed, so I don't think it'd accumulate angular momentum.
 
 Depending on the ability to set the speed accurately, the black hole could
-be accelerated to a terminal velocity slightly slower than the probe, so that
-the probe ends up close to the black hole to be able to then steer it.
+be accelerated to a terminal velocity slightly slower than the probe,
+so that at the time of arrival at the destination galaxy the probe ends
+up close to the black hole to be able to then steer it.
+
+For the black hole to actually clear the path, it needs to
+have a Schwarzschild radius that is as large or larger than
+the cross-section of the probe. This puts strong pressure on
+making the cross-section of the probe as small as possible;
+the Schwarzschild radius of a Earth-mass black hole [is only
+9mm](https://en.wikipedia.org/wiki/Schwarzschild_Radius#Parameters),
+and that of a Jupiter-mass black hole is 2.82m.
+
+<div>
+	$$\begin{aligned}
+	r_s &= \frac{2GM}{c^2} \Leftrightarrow \\
+	M &= \frac{r_s c^2}{2G}
+	\end{aligned}$$
+</div>
 
 <!--TODO: relative weight/steerability, initial speed differential?-->
 
@@ -84,20 +100,34 @@ How does this fare on our list of criteria?
 
 Black hole mops would have some other disadvantages:
 
-1. Macroscopic black holes are likely quite valuable, and the larger the cross-section the higher the mass of the black hole.
+1. Macroscopic black holes are likely quite valuable, and the larger the cross-section the higher the mass of the black hole, with very expensive scaling.
 2. It's not clear the probe will be able to brake the black hole, due to the mass differential.
 	1. Even if the black hole can brake (for example by using the expansion of the universe as a natural braking mechanism), it's not clear the black hole can be steered.
 
 Despite having mostly listed downsides of black hole mops, I think
-they're an attractive option to do further reseach on.
+they're a possible option to do further research on.
 
 I don't know whether such constructions are possible or desirable,
 but I would like to hear some feedback by someone more knowledgeable
 about physics.
 
-<!--Deleted:
+Questions
+----------
 
-composed of a coordinating, baryonic center and a
+1. Does this prevent the probe from being a [Bussard ramjet](https://en.wikipedia.org/wiki/Bussard_Ramjet)?
+2. What the smallest cross-section one can make the probe?
+3. Would the black hole(s) evaporate through Hawking radiation on the longest journeys, or would it/they expand?
+4. Do(es) the black hole(s) form accretion disks, if yes, do they matter?
+5. How difficult is it to steal the black hole(s) in this scenario?
+6. How far ahead to send the black hole?
+
+Appendix A: An Even More Hare-Brained Scheme
+---------------------------------------------
+
+Instead of clearing the flight path of the probe with a single black
+hole, one option to fulfill some of the criteria for collecting
+the IGM and shielding a probe would be to create intergalactic
+"ships" that are composed of a coordinating, baryonic center and a
 "shell" of black holes orbiting that center, moving at high speed
 through the intergalactic medium, in a setup similar to a [Dyson
 swarm](https://en.wikipedia.org/wiki/Dyson_Swarm). Alternatively,
@@ -108,16 +138,4 @@ by one or more of the black holes in the direction of travel.
 
 ![](./img/mop/dyson_swarm.png)
 
-*This, but with black holes instead of mirrors. [Sandberg
-2023](https://www.goodreads.com/book/show/42275384-grand-futures), p. 460*
--->
-
-Questions
-----------
-
-1. Does this prevent the probe from being a [Bussard ramjet](https://en.wikipedia.org/wiki/Bussard_Ramjet)?
-2. What the smallest cross-section one can make the probe?
-3. Would the black hole(s) evaporate through Hawking radiation on the longest journeys, or would it/they expand?
-4. Do(es) the black hole(s) form accretion disks, if yes, do they matter?
-5. How difficult is it to steal the black hole(s) in this scenario?
-6. How far ahead to send the black hole? What's the mass-cross-section scaling? Just cubic?
+*This, but with black holes instead of mirrors. [Sandberg 2023](https://www.goodreads.com/book/show/42275384-grand-futures), p. 460*
