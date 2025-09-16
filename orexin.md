@@ -156,4 +156,12 @@ Experimental Protocol
 	* Administering was a pain, 2.5ml is too much
 	* 62% sure this was the Orexin-A
 
+#### Sample 2
+
+* Monday:
+	* Slight hit/motivation/boost while administering
+	* Little pinchings on the shoulders
+	* Feel unmotivated to do anything, slight headache, want to take a nap
+	* Took a nap from 13:40 to 17:20, feeling much better afterwards
+
 [^1]: Even demonstrating one-off effectiveness would be cool: It's often the case that people have short-term sleep deprivation, and would like to ameliorate the effects.

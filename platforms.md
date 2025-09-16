@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-04, modified: 2025-08-22, language: english, status: in progress, importance: 7, confidence: certain*
+*author: niplav, created: 2023-01-04, modified: 2025-09-15, language: english, status: in progress, importance: 7, confidence: certain*
 
 > __There are too many possible quantified self experiments to run. Do
 hobbyist prediction platforms[^1] make priorisation easier? I test
@@ -151,32 +151,6 @@ the wider space of interventions.
 	1. Expected effect size: `0.11*1+0.29*0.8+0.27*0.4+0.23*0.1+0.1*0=0.473`
 4. [__Meditation__ vs. __No Meditation__ → *Sleep duration*](https://manifold.markets/NiplavYushtun/by-how-much-does-2-hours-of-meditat): 50 samples, 25 intervention (2 consecutive days of ≥2h/day of meditation), 25 non-intervention (no meditation), selected via `echo -e "meditation\nno meditation" | shuf | tail -1`. Expected duration of trial: 5 months, as I might not always find a 2-day interval in which I'm sure I can meditative 2h/day.
 	1. Expected effect size: `0.04*1+0.08*0.8+0.21*0.4+0.53*0.1+0.15*0=0.241`
-
-#### Further Ideas
-
-I have a couple more ideas on possible experiments that I could
-run, and will put them up as I acquire more mana. I might also
-just farm highly-rated but rarely-investigated methods from [troof
-2022](https://troof.blog/posts/nootropics/) and experiences reported
-[here](https://www.lesswrong.com/posts/BRwuYDsHr748jGJCz/what-helped-me-kale-blood-cpap-x-tiamine-methylphenidate).
-
-Blindeable:
-
-1. __Semaglutide__ vs. __Sugar__ → *Productivity* (tracking conscientiousness)
-2. __Melatonin__ vs. __Sugar__ → *Sleep duration*
-3. [__Orexin-A__](https://en.wikipedia.org/wiki/Orexin-A) vs. __Sugar__ → *Cognitive performance after sleep deprivation*
-4. __Neuropeptide S__ vs. __Sugar__ → *Cognitive performance after sleep deprivation*
-5. __Sodium Oxybate__ vs. __Sugar__ → *Cognitive performance after sleep deprivation*
-6. [__Galantamine__](https://en.wikipedia.org/wiki/Galantamine) vs. __Sugar__ → *Number of dreams*
-
-Not blindeable:
-
-7. [__Binaural Beats__](https://en.wikipedia.org/wiki/Binaural_beats) vs. __Silence__ → *Meditative Absorption*
-8. [__Brown Noise__](https://en.wikipedia.org/wiki/Brown_Noise) vs. __Silence__ → *Meditative Absorption*
-9. __Brown Noise__ vs. __Music__ → *Productivity*
-10. __Silence__ vs. __Music__ → *Productivity*
-11. __Time Since Last Masturbation__ → *Productivity*
-12. __Starting Work Standing__ vs. __Starting Work Sitting__ → *Productivity*
 
 Pleas
 ------
@@ -571,6 +545,34 @@ See also:
 ### Meditation vs. No Meditation → *Sleep duration*
 
 * [O'Hara et al. 2010](./meditation/science/meditation_acutely_improves_psychomotor_vigilance_and_may_decrease_sleep_need_kaul_et_al_2010.pdf)
+
+
+Appendix B: Further Ideas For Experiments
+------------------------------------------
+
+I have a couple more ideas on possible experiments that I could
+run, and will put them up as I acquire more mana. I might also
+just farm highly-rated but rarely-investigated methods from [troof
+2022](https://troof.blog/posts/nootropics/) and experiences reported
+[here](https://www.lesswrong.com/posts/BRwuYDsHr748jGJCz/what-helped-me-kale-blood-cpap-x-tiamine-methylphenidate).
+
+Blindeable:
+
+1. __Semaglutide__ vs. __Sugar__ → *Productivity* (tracking conscientiousness)
+2. __Melatonin__ vs. __Sugar__ → *Sleep duration*
+3. [__Orexin-A__](https://en.wikipedia.org/wiki/Orexin-A) vs. __Sugar__ → *Cognitive performance after sleep deprivation*
+4. __Neuropeptide S__ vs. __Sugar__ → *Cognitive performance after sleep deprivation*
+5. __Sodium Oxybate__ vs. __Sugar__ → *Cognitive performance after sleep deprivation*
+6. [__Galantamine__](https://en.wikipedia.org/wiki/Galantamine) vs. __Sugar__ → *Number of dreams*
+
+Not blindeable:
+
+7. [__Binaural Beats__](https://en.wikipedia.org/wiki/Binaural_beats) vs. __Silence__ → *Meditative Absorption*
+8. [__Brown Noise__](https://en.wikipedia.org/wiki/Brown_Noise) vs. __Silence__ → *Meditative Absorption*
+9. __Brown Noise__ vs. __Music__ → *Productivity*
+10. __Silence__ vs. __Music__ → *Productivity*
+11. __Time Since Last Masturbation__ → *Productivity*
+12. __Starting Work Standing__ vs. __Starting Work Sitting__ → *Productivity*
 
 [^1]: I find it odd to call any platform on which people functionally give probabilities, but without staking real money, "prediction markets". Neither [Metaculus](https://www.metaculus.com/) not [Manifold Markets](https://manifold.markets/) [are prediction markets](https://metaculus.medium.com/why-i-reject-the-comparison-of-metaculus-to-prediction-markets-4175553bcbb8), but [PredictIt](https://www.predictit.org/) and [Kalshi](https://kalshi.com/) are.
 [^2]: p<0.05, after all. (Don't pay any attention to the [Bonferroni correction](https://en.wikipedia.org/wiki/Bonferroni_correction) lurking over there, it's not important.)

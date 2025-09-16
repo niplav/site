@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2025-09-08, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2025-09-15, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -59,7 +59,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Almo Capture (Cyborgism Wiki, 2023)](https://cyborgism.wiki/hypha/almo_capture)
 * [SCP-2048 (Drewbear, 2022)](https://scp-wiki.wikidot.com/scp-2048)
 * [Bach Optimization (Cyborgism Wiki, 2024)](https://cyborgism.wiki/hypha/bach_optimization)
-* \* Die Drei Sonnen (Cixin Liu, 2006)
+* Die Drei Sonnen (Cixin Liu, 2006)
 * [Informing the Code of Practice: A Hierarchical Methodology of Defining Risk Tiers (Siméon Campos, 2025)](https://www.safer-ai.org/post/informing-the-code-of-practice-a-hierarchical-methodology-of-defining-risk-tiers)
 * [Fundamental ontology (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Fundamental_ontology)
 * [Aletheia (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Aletheia)
@@ -116,7 +116,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Comment on AI Craftsmanship (\[anonymous\], 2024)](https://www.lesswrong.com/posts/gXinMpNJcXXgSTEpn/ai-craftsmanship?commentId=Qm8Kg7PjZoPTyxrr6)
 * [AI Craftsmanship (Abram Demski, 2024)](https://www.lesswrong.com/posts/gXinMpNJcXXgSTEpn/ai-craftsmanship)
 * [Stable Pointers to Value: An Agent Embedded in Its Own Utility Function (Abram Demski, 2017)](https://www.lesswrong.com/posts/5bd75cc58225bf06703754b3/stable-pointers-to-value-an-agent-embedded-in-its-own-utility-function)
-* \* Die Chinesen (Stefan Baron/Guangyan Yin-Baron, 2019)
+* Die Chinesen (Stefan Baron/Guangyan Yin-Baron, 2019)
 * [Blotto game (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Blotto_game)
 * [Metallogenium (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Metallogenium)
 * [Circothecidae (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Circothecidae)
