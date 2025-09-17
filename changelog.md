@@ -29,14 +29,13 @@ September 2025
 * [Text Reviews](./text_reviews.html):
 	* [Die Chinesen (Stefan Baron/Guangyan Yin-Baron, 2019)](./text_reviews.html#Die_Chinesen_Stefan_BaronGuangyan_YinBaron_2019): German review, solid introduction, nothing astonishing.
 
-Editing on ["How Often Does ¬Correlation ⇏
-¬Causation?"](./cause.html), ["Black Hole Mops"](./mop.html),
-["Pergraphs"](./pergraphs.html).
+Editing ["How Often Does ¬Correlation ⇏ ¬Causation?"](./cause.html),
+["Black Hole Mops"](./mop.html), ["Pergraphs"](./pergraphs.html).
 
 August 2025
 ------------
 
-* [Ontological cluelessness](./ontological.html)
+* [Ontological Cluelessness](./ontological.html)
 * [Mugging-Immune Utility Functions](./mugging.html)
 * [Pergraphs](./pergraphs.html)
 * [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)

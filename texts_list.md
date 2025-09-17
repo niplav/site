@@ -17,6 +17,11 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* A Frontier AI Risk Management Framework: Bridging the Gap Between Current AI Practices and Established Risk Management (Siméon Campos/Henry Papadatos/Fabien Roger/Chloé Touzet/Otter Quarks/Malcolm Murray, 2025)
+* Mapping AI Risk Mitigations (Alexander K. Saeri/Sophia Lloyd Georg/Jess Graham/Clelia Lacarriere/Peter Slattery/Neil Thompson, 2025)
+* [Do I? (Cian Hamilton, 2025)](https://cianhamilton.substack.com/p/do-i)
+* [Regulation Gone Right (Cian Hamilton, 2025)](https://cianhamilton,substack.com/p/regulation-gone-right)
+* The Epic of Gilgamesh: A Rationalist Retelling (Claude Opus 4.1, 2025)
 * [Comment on “Updatelessness doesn't solve most problems” (M Ls, 2024)](https://www.lesswrong.com/posts/g8HHKaWENEbqh2mgK/updatelessness-doesn-t-solve-most-problems-1?commentId=Gxp7tzot2MTWo38md)
 * [Comment on “Updatelessness doesn't solve most problems” (Martín Soto, 2024)](https://www.lesswrong.com/posts/g8HHKaWENEbqh2mgK/updatelessness-doesn-t-solve-most-problems-1?commentId=rgqX7cpkqmGejFr8Y)
 * [Comment on “Updatelessness doesn't solve most problems” (StrivingForLegibility, 2024)](https://www.lesswrong.com/posts/g8HHKaWENEbqh2mgK/updatelessness-doesn-t-solve-most-problems-1?commentId=eHLAFHxKWG27i9BdP)

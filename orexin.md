@@ -163,5 +163,10 @@ Experimental Protocol
 	* Little pinchings on the shoulders
 	* Feel unmotivated to do anything, slight headache, want to take a nap
 	* Took a nap from 13:40 to 17:20, feeling much better afterwards
+* Tuesday night: Taking 300mg magnesium at 2025-09-17T00:51:33
+* Wednesday:
+	* Good meditation, though my nervousness cut it short
+	* Feel comparatively awake, especially now around two hours after the dose (the lumenator may be helping)
+	* Slightly slower than normal but not as slow as on Monday
 
 [^1]: Even demonstrating one-off effectiveness would be cool: It's often the case that people have short-term sleep deprivation, and would like to ameliorate the effects.

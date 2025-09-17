@@ -41,7 +41,7 @@ in detail yet. I'll call those kinds of graphs or networks "pergraphs".
 In this post I'll go a double track where I'll first and foremost draw
 pretty pictures to give the reader a visual sense of what they should be
 thinking about, and also provide Lean 4 code for definitions, theorems
-and proofs.
+and proofs, as a barbell strategy in terms of rigour.
 
 ### Basic Definitions
 
@@ -112,7 +112,7 @@ Code for computing the first terms of the sequence
 The sequence that that counts the number of unlabeled undirected
 pergraphs, up to isomorphism, starting at n=0:
 
-1, 2, 11, …
+1, 2, 10, …
 
 Here's the *undirected* pergraphs with two components:
 
@@ -207,6 +207,9 @@ Many thanks to Claude 4 Sonnet and Claude 4 Opus for several long
 conversations which fleshed out the concept, talked through the pergraphs
 with `$n=2$`, help with learning Lean, and help with writing the Rust
 code for the enumeration.
+
+<!--TODO: See Also: Gleech on graphs, that 3b1b video on Sol LeWitt's
+piece-->
 
 Appendix A: Lean Definitions and Proofs
 ----------------------------------------
