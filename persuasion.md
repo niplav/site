@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2025-07-04, modified: 2025-07-23, language: english, status: notes, importance: 8, confidence: log*
+*author: niplav, created: 2025-07-04, modified: 2025-09-17, language: english, status: notes, importance: 8, confidence: log*
 
 > __Some ideas on how to handle mildly superpersuasive
 AI systems. Top recommendation: AI developers should have
@@ -86,7 +86,7 @@ received much follow-up.
 [^fiction]: Not that it's important, but examples include [Langford 1988](http://www.infinityplus.co.uk/stories/blit.htm), [Langford 2006](https://ansible.uk/writing/c-b-faq.html), [Ngo 2025](https://www.narrativeark.xyz/p/trojan-sky), [qntm 2021](http://www.scpwiki.com/introductory-antimemetics), [Emilsson & Lehar 2017](https://qualiacomputing.com/2017/03/08/memetic-vaccine-against-interdimensional-aliens-infestation/) and doubtlessly many others.
 
 I am not going to attempt to convince people that superhuman persuasion
-abilities are possible, and indeed focus on trying to sketch what
+abilities are possible, and instead focus on trying to sketch what
 anti-persuasion measures could look like.
 
 ### Assumptions
@@ -125,6 +125,8 @@ counter-measures, and the estimated effectiveness of such measures).
 ### Interventions Limited to Pre-Deployment
 
 * __Refraining From Training__: Don't build an advanced AI model that you suspect could have superpersuasive capabilities.
+	* This can entail e.g. not including specific training data which details manipulation tactics, and refraining from doing reinforcement learning in persuasion environments (both with other AIs in a multi-agent setup, or in direct RL on human feedback).
+	* This also includes refraining from building or training advanced AI models that, while not trained to have persuasive abilities, get those *for free* just by being generally highly capable.
 * __Refraining From Deployment__: Don't deploy an advanced AI model that you suspect could have superpersuasive capabilities.
 * __Programmatic Evaluations__: Before humans interact with an AI system, and early after training, evaluations should be mostly performed with pre-programmed evaluations and/or through weaker AI systems, so that developers can gain some understanding of the AI without having to interact with it.
 * __Model Whisperers__: Have a dedicated position of "Model Whisperers" at the AI lab who are the only people who interact with the model directly, in whatever modality. Sketch of a more fleshed-out position [here](#Appendix_A_Sketch_Setup_of_Model_Whisperers).

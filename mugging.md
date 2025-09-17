@@ -41,7 +41,7 @@ induction](https://en.wikipedia.org/wiki/Solomonoff_induction)
 as its epistemic process. Specifically, for the set of computable
 programs `$\mathbf{C}$` with binary tape state, the prior probability
 assigned by `$\Finv$` for `$C \in \mathbf{C}$` is proportional to
-`$2^{-l(C)}$`—we're using the simplicity prior, after all.
+`$2^{-l(C)}$`—we're using the simplicity prior.
 
 That is, intuitively, the prior probability decreases exponentially in
 the length of the program.
