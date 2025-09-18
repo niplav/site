@@ -23,9 +23,7 @@ of in your philosophy
 
 I want to describe a philosophical stance and/or position that could
 be called __"ontological cluelessness"__.<!--TODO: or __"metaphysical
-cluelessness"__?--> Nick Bostrom has been hinting at something adjacent to
-this in some recent interviews<!--TODO: link-->, and I wildly extrapolated
-his subtle hints; all the mistakes and muddled thinking lie with me.
+cluelessness"__?-->
 
 ### Definition
 
@@ -34,7 +32,7 @@ be in, in which they haven't yet discovered the correct basic categories
 and frameworks for making sense of the cosmos[^terminology] in which
 they find themselves.
 
-[^terminology]: I will use the term "cosmos" a lot here because the entirety of existence may turn out to be much larger (think Tegmark IV) or much smaller (think solipsism) than what standard science considers to be the "universe".
+[^terminology]: I will use the term "cosmos" a lot here because the entirety of existence may turn out to be much larger (think [Tegmark IV](https://en.wikipedia.org/wiki/Mathematical_universe_hypothesis)) or much smaller (think solipsism) than what standard science considers to be the "universe".
 
 That is, humans currently use some basic frameworks for making sense
 of the cosmos, which include several branches and flavours of science,
@@ -67,8 +65,6 @@ Ontological cluelessness is distinct from [*radical
 skepticism*](https://en.wikipedia.org/wiki/Radical_skepticism),
 [*pyrrhonism*](https://en.wikipedia.org/wiki/Pyrrhonism) and
 [*mysticism*](https://en.wikipedia.org/wiki/Mysticism):
-
-<!--Rework the stuff below-->
 
 1. It differs from *radical skepticism* in that it does not make any strong statement about whether knowledge is possible or not, and indeed a state of ontological cluelessness may hold open the possibility of far deeper or richer knowledge of the cosmos.
 2. It is close to *pyrrhonism*, but differs from it in not making a positive claim that judgment should be suspended.
@@ -158,5 +154,9 @@ vague one.
 
 See Also
 ---------
+
+Nick Bostrom has been hinting at something adjacent to this in some recent
+interviews (which, maddeningly, I can't find), and I wildly extrapolated
+his subtle hints; all the mistakes and muddled thinking lie with me.
 
 * Alternative explanation, in form of [poetry](./microfiction.html#The_Open_Sky).

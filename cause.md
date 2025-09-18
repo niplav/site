@@ -232,7 +232,8 @@ I don't know why causal non-correlations are so common, especially in linear SEM
 
 ### See Also
 
-* [What a Tangled Net We Weave When First We Practice to Believe (Gwern, 2019)](https://gwern.net/causality#what-a-tangled-net-we-weave-when-first-we-practice-to-believe): Where I probably got this from, subconsciously.
+* [Graphical Causal Models (Cosma Shalizi, 2025)](http://bactra.org/notebooks/graphical-causal-models.html)
 * [How Often Does Correlation=Causality? (Gwern, 2019)](https://gwern.net/correlation)
+* [What a Tangled Net We Weave When First We Practice to Believe (Gwern, 2019)](https://gwern.net/causality#what-a-tangled-net-we-weave-when-first-we-practice-to-believe): Where I probably got this from, subconsciously.
 * Discussions
 	* [LessWrong](https://www.lesswrong.com/posts/ThLMBYZQ4PHKFKHSP/how-often-does-correlation-causation)

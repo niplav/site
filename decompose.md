@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2024-04-06, modified: 2024-04-06, language: english, status: on hold, importance: 5, confidence: likely*
+*author: niplav, created: 2024-04-06, modified: 2025-09-18, language: english, status: on hold, importance: 5, confidence: likely*
 
 > __Question decomposition is unreasonably effective, despite good
 counter-arguments.__
@@ -240,12 +240,12 @@ which resolved after the release of GPT-4 in March 2023:
         end_training_data=datetime.fromisoformat('2023-04-30')
         not_in_training_data=questions.loc[(questions['q_status']=='resolved') & (questions['resolve_time']>=end_training_data)]
 
-I then loop over `not_in_training_data`, replace `\${QUESTION}` in
-the prompts with the questions and `\${RESOLUTION_CRITERIA}` with the
+I then loop over `not_in_training_data`, replace `${QUESTION}` in
+the prompts with the questions and `${RESOLUTION_CRITERIA}` with the
 resolution criteria. I send the resulting prompt over the OpenAI API,
 and save the result in a separate file. The resulting files can be found
 [here](https://github.com/niplav/decomposer/tree/main/completions),
-file format is `\${QUESTION_ID}_\${METHOD}_completion$`.
+file format is `${QUESTION_ID}_${METHOD}_completion$`.
 
 I then [load the last line from each
 file](https://github.com/niplav/decomposer/blob/main/analyser.py), and

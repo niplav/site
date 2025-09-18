@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-08-22, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-09-18, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -1883,19 +1883,20 @@ Graph Sevolutions
 
 Think graph theory meets cellular automata.
 
-Given a [sequence](https://en.wikipedia.org/wiki/Sequence_(mathematics))
+__Definition 1__: Given a
+[sequence](https://en.wikipedia.org/wiki/Sequence_(mathematics))
 `$(V_1, \dots, V_{n+1})$` of sets, and a sequence `$(f_1, \dots, f_n)$`
-of functions so that `$f_i: V_i \rightarrow \mathcal{P}(V_{i+1})$`, the
-__sevolution__ of a directed graph `$G=(V_1, E_1)$` (with `$E_1 \subseteq
-V_1 \times V_2$`) is *sequence of graphs* `$(G_1, \dots, G_{n+1})$` so
-that `$(v, w) \in E_{k+1}$` if and only if `$(v_i, w_i) \in E_i$` and
-`$v \in f_i(v_i), w \in f_i(w_i)$`.
+of functions so that `$f_i: V_i \rightarrow \mathcal{P}(V_{i+1})$`,
+the __sevolution__ of a directed graph `$G=(V_1, E_1)$` (with `$E_1
+\subseteq V_1 \times V_2$`) is *sequence of graphs* `$(G_1, \dots,
+G_{n+1})$` so that `$(v, w) \in E_{k+1}$` if and only if `$(v_i, w_i)
+\in E_i$` and `$v \in f_i(v_i), w \in f_i(w_i)$`.
 
-Similarly, given a similar sequences of sets and functions, the
-__weighted sevolution__ of an edge-weighted directed graph `$W=(V_1, E,
-w_1: E \rightarrow \mathbb{R})$` is a sequence of edge-weighted directed
-graphs `$(W_1, \dots, W_{n+1})$` so that the underlying graphs are the
-sevolutions of `$W$`.
+__Definition 2__: Similarly, given a similar sequences of sets and
+functions, the __weighted sevolution__ of an edge-weighted directed
+graph `$W=(V_1, E, w_1: E \rightarrow \mathbb{R})$` is a sequence of
+edge-weighted directed graphs `$(W_1, \dots, W_{n+1})$` so that the
+underlying graphs are the sevolutions of `$W$`.
 
 The weights are determined by the __weight sevolver function__
 `$\kappa: \mathbb{R}^+ \rightarrow \mathbb{R}$` of the edges between
@@ -2575,7 +2576,8 @@ I'd go to the dentist, they'd tell me to floss, irrespective of whether
 I'd been doing it or not.
 
 1. I only flossed on the right side of my mouth since 2023-07-08, and on 2023-09-28 I asked the dentist to guess which side I'd flossed on. She guessed left.
-2. Starting 2025-06-13, I started floosing only the right side of my mouth.
+2. Starting 2025-06-13, I started flossing only the right side of my mouth. On 2025-09-18 I went to the dentist and asked what side he guessed I'd flossed. He guessed right.
+3. Starting 2025-09-18, I started flossing only the left side of my mouth.
 
 Pergraphs
 ----------
