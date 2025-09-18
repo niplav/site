@@ -66,18 +66,20 @@ multi-*pergraph__, since peredges are *directed*, and two peredges can
 have the same source and the same sink. We will use the term "pergraph"
 for directed multi-pergraphs, and specify deviations from such.
 
-__Theorem 1__: Every directed graph is also a pergraph, *or*, the
+__Theorem 1__: Every directed graph is also a pergraph, that is the
 pergraphs contain the directed graphs as a subset. <!--TODO: lean of
-the theorem, proof of the theorem-->
+the theorem-->
+
+<!--*Intuition*: Take any directed graph `$G=(V, E: V \times V)$`.-->
 
 __Definition 2__ ([Lean](#Definition_2)): A __uni-pergraph__ is a pergraph
 with the additional constraint that no two peredges have the same source
 *and* the same sink, mathematically
 `$\lnot \exists p_1, p_2 \in P: p_1 \not=p_2 \land e(p_1)=e(p_2)$`.
 
-__Definition 3__: An __undirected pergraph__ is a a pergraph with
-undirected edges, i.e. a pergraph where `$e$` has the type signature
-`$P \rightarrow {V \cup P \choose 2}$`. <!--TODO: lean-->
+__Definition 3__ ([Lean](#Definition_3)): An __undirected pergraph__ is
+a a pergraph with undirected edges, i.e. a pergraph where `$e$` has the
+type signature `$P \rightarrow {V \cup P \choose 2}$`.
 
 ### Some Pergraph Concepts
 
@@ -139,10 +141,11 @@ combinatorial behavior.
 Situating Pergraphs
 --------------------
 
-Pergraphs are *a generalization* of directed graphs
-(i.e. every directed graph is a pergraph), and *special case* of
-[2-categories](https://en.wikipedia.org/wiki/2-category)<!--TODO: check
-with someone who knows a bit of category theory-->.
+Pergraphs are *a generalization* of directed graphs (i.e. every directed
+graph is a pergraph), but I don't know what known mathematical structure
+they're a special case of. Claude Opus 4.1 suggests it might be a special
+case of [2-categories](https://en.wikipedia.org/wiki/2-category), but
+I don't think that's true<sub>85%</sub>.
 
 ### Axes Along Which to Categorize Different Graph Concepts
 
@@ -209,7 +212,13 @@ with `$n=2$`, help with learning Lean, and help with writing the Rust
 code for the enumeration.
 
 <!--TODO: See Also: Gleech on graphs, that 3b1b video on Sol LeWitt's
-piece-->
+piece https://cubes-revisited.art/about/ (Incomplete Open Cubes Revisited)-->
+
+See Also
+---------
+
+* [Graphs are cool (Gavin Leech, 2020)](https://www.gleech.org/graphs)
+* [Incomplete Open Cubes Revisited](https://cubes-revisited.art/about/)<!--TODO: author-->
 
 Appendix A: Lean Definitions and Proofs
 ----------------------------------------
@@ -231,3 +240,8 @@ in this text.
 
 	def UniPergraph (V E : Type) : Type :=
 	  { p : Pergraph V E // Function.Injective p.e }
+
+### Definition 3
+
+	structure UndirectedPergraph (V E : Type) where
+	  e : E → Sym2 (PerNode V E)
