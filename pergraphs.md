@@ -3,8 +3,7 @@
 
 *author: niplav, created: 2025-07-10, modified: 2025-09-16, language: english, status: in progress, importance: 3, confidence: likely*
 
-> __I describe a generalization of directed graphs, and try to port over
-some concepts from graph theory.__
+> __`$P→(V∪P)^2$`, the rest is commentary.__
 
 Pergraphs
 ==========
@@ -18,7 +17,8 @@ https://claude.ai/chat/4243d662-c0c4-497a-88c1-20f47ca13933
 https://claude.ai/public/artifacts/5c90ecc4-1f1d-4160-9092-a70b6af6b517
 https://claude.ai/public/artifacts/c6cb03fa-94ff-42f0-8733-9d5b37ae1624
 https://claude.ai/public/artifacts/bb3d3f29-937c-4b79-ac98-f36f2209e030
-https://claude.ai/public/artifacts/ef9a1339-2211-4cc1-971c-b99fe877d900-->
+https://claude.ai/public/artifacts/ef9a1339-2211-4cc1-971c-b99fe877d900
+https://claude.ai/public/artifacts/e0f648c6-520c-4c42-a393-21b05ea0ce4a-->
 
 I am afflicted by a strange curse, which condemns me to be creative
 enough to find new mathematical structures, but too dumb to prove anything
@@ -66,11 +66,14 @@ multi-*pergraph__, since peredges are *directed*, and two peredges can
 have the same source and the same sink. We will use the term "pergraph"
 for directed multi-pergraphs, and specify deviations from such.
 
-__Theorem 1__: Every directed graph is also a pergraph, that is the
-pergraphs contain the directed graphs as a subset. <!--TODO: lean of
-the theorem-->
+__Theorem 1__ ([Proof](#Proof_1)): Every
+[quiver](https://en.wikipedia.org/wiki/Quiver_\(mathematics\)) is also
+a pergraph, that is the pergraphs contain the quivers as a subset.
 
-<!--*Intuition*: Take any directed graph `$G=(V, E: V \times V)$`.-->
+__Intuition 1__: Take any quiver `$Q=(V, E, s: E→V, t: E→V)$`. We can
+then construct a pergraph by assigning the `$V$` to the vertex pernodes,
+`$E$` to the peredges, and constructing `$e$` by declaring `$e(p)=(s(p),
+t(p))$` for `$p \in P$`.
 
 __Definition 2__ ([Lean](#Definition_2)): A __uni-pergraph__ is a pergraph
 with the additional constraint that no two peredges have the same source
@@ -211,14 +214,12 @@ conversations which fleshed out the concept, talked through the pergraphs
 with `$n=2$`, help with learning Lean, and help with writing the Rust
 code for the enumeration.
 
-<!--TODO: See Also: Gleech on graphs, that 3b1b video on Sol LeWitt's
-piece https://cubes-revisited.art/about/ (Incomplete Open Cubes Revisited)-->
-
 See Also
 ---------
 
 * [Graphs are cool (Gavin Leech, 2020)](https://www.gleech.org/graphs)
-* [Incomplete Open Cubes Revisited](https://cubes-revisited.art/about/)<!--TODO: author-->
+* [Incomplete Open Cubes Revisited (Rob Weychert, 2018)](https://cubes-revisited.art/about/)
+* [Rhizom (Gilles Deleuze/Félix Guattari, 1976)](http://www.lungomare.org/wp-content/uploads/2016/04/Deleuze-Guattari-Rhizom_dt.pdf)
 
 Appendix A: Lean Definitions and Proofs
 ----------------------------------------
@@ -235,6 +236,11 @@ in this text.
 
 	structure Pergraph (V E : Type) where
 	  e : E → PerNode V E × PerNode V E
+
+### Proof 1
+
+	def Quiver.toPergraph {V : Type} [Quiver V] : Pergraph V (Σ (a b : V), a ⟶ b) where
+	  e := fun ⟨a, b, _⟩ => (PerNode.vertex a, PerNode.vertex b)
 
 ### Definition 2
 

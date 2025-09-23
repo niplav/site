@@ -538,6 +538,7 @@ Good Bandnames
 * Contextual Bandits (seen in [Amodei et al. 2016](./doc/cs/ai/alignment/overview/concrete_problems_in_ai_safety_amodei_et_al_2016.pdf "Concrete Problems in AI Safety"))
 * [Hypercarcinisation](https://en.wikipedia.org/wiki/Carcinisation#Hypercarcinisation)
 * Genderless Gaits (from [Wessel 2017](https://www.science.org/content/article/do-human-pheromones-actually-exist))
+* DeepDream Dogs
 
 See also [isomorphismes
 2013](https://isomorphismes.tumblr.com/post/47509929969/mathematical-band-names?).
