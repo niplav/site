@@ -17,6 +17,8 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* System Card: Claude Opus 4 & Claude Sonnet 4 (Anthropic, 2025)
+* Skulduggery Pleasant (Derek Landy, 2007)
 * [Graphical Causal Models (Cosma Shalizi, 2025)](http://bactra.org/notebooks/graphical-causal-models.html)
 * [ambitions (Gavin Leech, 2025)](https://www.gleech.org/ambitions)
 * [Graphs are cool (Gavin Leech, 2020)](https://www.gleech.org/graphs)
