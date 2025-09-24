@@ -146,9 +146,9 @@ the universe is much better and forgiving than we believe, or much more
 adversarial and unforgiving; and all of those notions could stop making
 sense if we understand what, so to speak, "is going on".
 
-Whether or not we are in a state of ontological cluelessness is
-a crucial consideration<!--TODO: link-->, but a frustratingly
-vague one.
+Whether or not we are in a state of ontological cluelessness is a [crucial
+consideration](https://forum.effectivealtruism.org/topics/crucial-consideration),
+but a frustratingly vague one.
 
 <!--https://openrouter.ai/chat?room=orc-1753280867-yMbMjAjTGt2PRGrqrk3z-->
 
@@ -160,3 +160,4 @@ interviews (which, maddeningly, I can't find), and I wildly extrapolated
 his subtle hints; all the mistakes and muddled thinking lie with me.
 
 * Alternative explanation, in form of [poetry](./microfiction.html#The_Open_Sky).
+* [Concept-Shaped Holes Can Be Impossible To Notice (Scott Alexander, 2017)](https://slatestarcodex.com/2017/11/07/concept-shaped-holes-can-be-impossible-to-notice/)

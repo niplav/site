@@ -494,6 +494,7 @@ Great Words
 	* "[Blockwart](https://en.wikipedia.org/wiki/Blockwart)"
 	* "[Reinheitsgebot](https://en.wikipedia.org/wiki/Reinheitsgebot)"
 	* Reizüberflutung
+	* Jugendtraum
 
 <!--TODO: Aboriginals used the word "ooga" (staring eyes) for [australite](https://en.wikipedia.org/wiki/Australite) in ceremonies-->
 
