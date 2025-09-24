@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-07-10, modified: 2025-09-16, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2025-07-10, modified: 2025-09-24, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __`$P→(V∪P)^2$`, the rest is commentary.__
 
@@ -73,7 +73,11 @@ a pergraph, that is the pergraphs contain the quivers as a subset.
 __Intuition 1__: Take any quiver `$Q=(V, E, s: E→V, t: E→V)$`. We can
 then construct a pergraph by assigning the `$V$` to the vertex pernodes,
 `$E$` to the peredges, and constructing `$e$` by declaring `$e(p)=(s(p),
-t(p))$` for `$p \in P$`.
+t(p))$` for `$p \in P$`. Congrats! You've now constructed a pergraph
+from your quiver.
+
+__Remark 2__: Since every directed graph is a quiver, all directed graphs
+are also pergraphs.
 
 __Definition 2__ ([Lean](#Definition_2)): A __uni-pergraph__ is a pergraph
 with the additional constraint that no two peredges have the same source
@@ -81,17 +85,30 @@ with the additional constraint that no two peredges have the same source
 `$\lnot \exists p_1, p_2 \in P: p_1 \not=p_2 \land e(p_1)=e(p_2)$`.
 
 __Definition 3__ ([Lean](#Definition_3)): An __undirected pergraph__ is
-a a pergraph with undirected edges, i.e. a pergraph where `$e$` has the
+a a pergraph with undirected peredges, i.e. a pergraph where `$e$` has the
 type signature `$P \rightarrow {V \cup P \choose 2}$`.
 
 ### Some Pergraph Concepts
 
-Sources, sinks, source cycles, sink cycles, ratkings,
-source-semi-ratkings, sink-semi-ratkings…
+__Definition 4__ ([Lean](#Definition_4)): The __source__ of a peredge is
+the vertex or peredge it comes from, the __sink__ of a peredge is the thing
+it points to.
+
+__Definition 5__ ([Lean](#Definition_5)): A __ratking__ is a pergraph
+without vertices.
+
+Source cycles, sink cycles, pseudo-vertex cycles, source-semi-ratkings,
+sink-semi-ratkings, rhizomes/rhizomatic ratkings, the rhizomatic
+lattice…
 
 Pergraph isomorphism, sub-pergraph detection, pergraph rewrite rules
-(ratking collapse, flip equivalence (flipping edges results in the
+(ratking collapse, flip equivalence (flipping peredges results in the
 same pergraph)).
+
+Euler cycles and Hamilton cycles, decomposing into rhizomes, enforcing
+some kind of hierarchy/partial hierarchy?
+
+Bijection with the directed graphs? Needs to blow up the directed graphs.
 
 ### Counting
 
@@ -159,17 +176,18 @@ I don't think that's true<sub>85%</sub>.
 Pergraphs are distinct from
 [hypergraphs](https://en.wikipedia.org/wiki/Hypergraph), as they
 don't allow for an edge between more than two nodes; they are *not*
-[multigraphs](https://en.wikipedia.org/wiki/Multigraph), because they
-allow for edges from/to edges (similar to multigraphs, they allow
-for multiple edges between the same two nodes); they are distinct from
-[higraphs](https://en.wikipedia.org/wiki/Higraph), as they don't allow for
-edges to originate from collections of multiple nodes; they are different
-from [Petri nets](https://en.wikipedia.org/wiki/Petri-Net), because they
-don't have movable tokens; they are not the same as metagraphs, because
-they again allow for edges between (nested) collections of nodes. They
-are probably different from categories, because they're more specific
-than categories and don't require composition, but I don't know enough
-category theory to confirm that.
+[multigraphs](https://en.wikipedia.org/wiki/Multigraph), because
+pergraphs allow for edges from/to edges (similar to multigraphs,
+they allow for multiple edges between the same two nodes); they are
+distinct from [higraphs](https://en.wikipedia.org/wiki/Higraph),
+as they don't allow for nested vertices; they are different
+from [Petri nets](https://en.wikipedia.org/wiki/Petri-Net),
+because they don't have movable tokens; they are not the same as
+metagraphs, because they again allow for edges between (nested)
+collections of nodes. They are probably different from categories and
+[n-categories](https://en.wikipedia.org/wiki/Higher_category_theory),
+because they don't require composition and don't enforce any kind of
+hierarchy, but I don't know enough category theory to confirm that.
 
 The closest I've found to this concept is in this
 unsourced section on the [Wikipedia article on
@@ -242,6 +260,8 @@ in this text.
 	def Quiver.toPergraph {V : Type} [Quiver V] : Pergraph V (Σ (a b : V), a ⟶ b) where
 	  e := fun ⟨a, b, _⟩ => (PerNode.vertex a, PerNode.vertex b)
 
+<!--TODO: does this prove injectivity?-->
+
 ### Definition 2
 
 	def UniPergraph (V E : Type) : Type :=
@@ -251,3 +271,17 @@ in this text.
 
 	structure UndirectedPergraph (V E : Type) where
 	  e : E → Sym2 (PerNode V E)
+
+### Definition 4
+
+	def source (G : Pergraph V E) (edge : E) : PerNode V E :=
+	  (G.e edge).1
+
+	def sink (G : Pergraph V E) (edge : E) : PerNode V E :=
+	  (G.e edge).2
+
+### Definition 5
+
+	def is_ratking (G : Pergraph V E) (edges : Set E) : Prop :=
+	  ∀ e ∈ edges, source G e ∈ (PerNode.edge '' edges) ∧
+	               sink G e ∈ (PerNode.edge '' edges)

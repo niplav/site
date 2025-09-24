@@ -1881,6 +1881,11 @@ not a ThinkPad.
 Graph Sevolutions
 ------------------
 
+> Die ganzen Zahlen hat der liebe Gott gemacht, alles andere ist
+Menschenwerk.
+
+*—Leopold Kronecker, [“Jahresbericht der Deutschen Mathematiker-Vereinigung”](https://www.digizeitschriften.de/dms/toc/?PPN=PPN37721857X_0002), 1886*
+
 Think graph theory meets cellular automata.
 
 __Definition 1__: Given a
