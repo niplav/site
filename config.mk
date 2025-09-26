@@ -139,7 +139,7 @@ HTML=index.html \
 	outputs/job.html \
 	outputs/last.html \
 	outputs/😊.html \
-	outputs/medianworld.html \
+	outputs/niplavistan.html \
 	outputs/sacrifice.html \
 	outputs/scaling.html \
 	attic/eacrit.html \

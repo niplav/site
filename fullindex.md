@@ -254,11 +254,28 @@ das dort hervorragte, und eine alte Stiefelsohle auf.
 
 ### Fiction
 
-* [`filepunk`](./filepunk.html)
 * [Buch Stab](./buch_stab.html)
 * [Platte](./platte.html)
 * [Microfiction](./microfiction.html)
 * [Playing with Language](./language.html)
+
+### AI Outputs
+
+These have received varying degrees of editing, but usually not that much.
+
+* [`filepunk`](./filepunk.html)
+* [Cross-Domain System Analogies](./outputs/analogies.html)
+* [Plan for a New Atlantropa Dam](./outputs/atlantropa.html)
+* [Encoding Information](./outputs/encoding.html)
+* [Gilgamesh Ratfic](./outputs/gilgamesh.html)
+* [Multi-Scale Immune System Comparison](./outputs/immune.html)
+* [Last Iron Lung](./outputs/iron_lung.html)
+* [The Book of the Tweeters](./outputs/job.html)
+* [Dark Matter AIs at the End of Time](./outputs/last.html)
+* [😊](./outputs/😊.html)
+* [Niplavistan](./outputs/niplavistan.html)
+* [A Schizoanalysis of Neural Networks](./outputs/sacrifice.html)
+* [Do Games Favor Offense or Defense with Increasing Player Skill?](./outputs/scaling.html)
 
 Translations
 ------------
