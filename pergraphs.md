@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-07-10, modified: 2025-09-24, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2025-07-10, modified: 2025-09-26, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __`$P→(V∪P)^2$`, the rest is commentary.__
 
@@ -108,7 +108,8 @@ same pergraph)).
 Euler cycles and Hamilton cycles, decomposing into rhizomes, enforcing
 some kind of hierarchy/partial hierarchy?
 
-Bijection with the directed graphs? Needs to blow up the directed graphs.
+Bijection/injection with the directed graphs? Needs to blow up the
+directed graphs.
 
 ### Counting
 
@@ -257,10 +258,18 @@ in this text.
 
 ### Proof 1
 
-	def Quiver.toPergraph {V : Type} [Quiver V] : Pergraph V (Σ (a b : V), a ⟶ b) where
-	  e := fun ⟨a, b, _⟩ => (PerNode.vertex a, PerNode.vertex b)
+	def Quiver.toPergraph {V : Type} [Quiver V] :
+	  Pergraph (V ⊕ (Σ (a b : V), a ⟶ b)) (Σ (a b : V), a ⟶ b) where
+	  e := fun arr@⟨a, b, h⟩ => (PerNode.vertex (Sum.inl a), PerNode.vertex (Sum.inr arr))
 
-<!--TODO: does this prove injectivity?-->
+That function is injective:
+
+	theorem quiver_to_pergraph_is_injective {V : Type} [Quiver V] :
+	  Function.Injective (@Quiver.toPergraph V _).e := by
+	  intros e₁ e₂ h_eq
+	  simp [Quiver.toPergraph] at h_eq
+	  -- simp already gives us e₁ = e₂, so we're done
+	  exact h_eq.2
 
 ### Definition 2
 
@@ -282,6 +291,5 @@ in this text.
 
 ### Definition 5
 
-	def is_ratking (G : Pergraph V E) (edges : Set E) : Prop :=
-	  ∀ e ∈ edges, source G e ∈ (PerNode.edge '' edges) ∧
-	               sink G e ∈ (PerNode.edge '' edges)
+	def is_ratking (G : Pergraph V E) : Prop :=
+	  IsEmpty V
