@@ -10,6 +10,14 @@ basic concepts would need to be revised for accurate understanding.__
 Ontological Cluelessness
 =========================
 
+<!--This post alternates between using "ontological cluelessness" to
+mean a certain sort of state of ignorance ("Ontological cluenessness is
+a state of knowledge that humans could be in, in which they haven't yet
+discovered ..."), and using it to denote the belief that we are in that
+state of ignorance. ("Ontological cluelessness is distinct from radical
+skepticism, pyrrhonism, and mysticism".) I think it would be better not
+to do that.-->
+
 *epistemic status*: Philosophy
 
 *Content Warning*: Philosophy
@@ -120,7 +128,10 @@ would include:
 * The moves from animism to paganism to monotheistic religions.
 
 <!--Ideas: Things that are less not ontological cluing than others:
-Bostrom on the cosmic host, acausalism, the scientific revolution-->
+Bostrom on the cosmic host, acausalism, the scientific revolution
+
+Anti-Inductive civilization could be ontologically clueless in that way,
+though it's not *quite* the correct type signature-->
 
 ### Likelihood
 

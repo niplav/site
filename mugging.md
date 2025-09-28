@@ -66,8 +66,8 @@ tape in the second step is upper-bounded by the [busy-beaver
 number](https://en.wikipedia.org/wiki/Busy_Beaver_Number) `$S(2,
 k-l(C_n))$`, that is the maximum number of steps possibly taken
 by the second part program. (It is unfortunately *not* bounded by
-`$\Sigma(2,k-l(C_n))$` since writing the numéraire may require writing
-zeroes.)
+`$\Sigma(2,k-l(C_n))$`, the number of `1`s written to the tape, since
+writing the numéraire may require writing zeroes.)
 
 #### Sketch
 

@@ -2541,6 +2541,7 @@ Indicators that error correction is possible as a replacement backstop:
 * The Catholic Church.
 * [FAAH-OUT and the FAAH gene variant rs324420](https://en.wikipedia.org/wiki/FAAH-OUT).
 * Wanting≠Liking.
+* A [singleton](https://en.wikipedia.org/wiki/Singleton), if it's indeed possible.
 
 Indicators that there is no replacement for evolution:
 
