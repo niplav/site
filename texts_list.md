@@ -31,7 +31,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Graphical Causal Models (Cosma Shalizi, 2025)](http://bactra.org/notebooks/graphical-causal-models.html)
 * [ambitions (Gavin Leech, 2025)](https://www.gleech.org/ambitions)
 * [Graphs are cool (Gavin Leech, 2020)](https://www.gleech.org/graphs)
-* Establishing AI Risk Thresholds: A Comparative Analysis Across High-Risk Sectors (Eva Behrens, Bengüsu Özcan, 2025)
+* Establishing AI Risk Thresholds: A Comparative Analysis Across High-Risk Sectors (Eva Behrens/Bengüsu Özcan, 2025)
 * A Frontier AI Risk Management Framework: Bridging the Gap Between Current AI Practices and Established Risk Management (Siméon Campos/Henry Papadatos/Fabien Roger/Chloé Touzet/Otter Quarks/Malcolm Murray, 2025)
 * Mapping AI Risk Mitigations (Alexander K. Saeri/Sophia Lloyd Georg/Jess Graham/Clelia Lacarriere/Peter Slattery/Neil Thompson, 2025)
 * [Do I? (Cian Hamilton, 2025)](https://cianhamilton.substack.com/p/do-i)

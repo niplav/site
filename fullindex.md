@@ -261,7 +261,8 @@ das dort hervorragte, und eine alte Stiefelsohle auf.
 
 ### AI Outputs
 
-These have received varying degrees of editing, but usually not that much.
+My favourite LLM outputs. These have received varying degrees of editing,
+but usually not that much.
 
 * [`filepunk`](./filepunk.html)
 * [Cross-Domain System Analogies](./outputs/analogies.html)

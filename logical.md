@@ -407,6 +407,8 @@ and the sum of differences is zero.
 <!--Port this innovation to the original formula? I feel that now it's
 kinda ugly up there-->
 
+<!--TODO: Prove desiderata for being a (pseudo-)metric-->
+
 #### Remaining Problem: Time-Permuted Tapes
 
 I see one clear indicator that this hasn't been ironed out yet: If

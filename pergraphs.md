@@ -84,6 +84,8 @@ with the additional constraint that no two peredges have the same source
 *and* the same sink, mathematically
 `$\lnot \exists p_1, p_2 \in P: p_1 \not=p_2 \land e(p_1)=e(p_2)$`.
 
+![](./img/pergraphs/uni_allowed.png)
+
 __Definition 3__ ([Lean](#Definition_3)): An __undirected pergraph__ is
 a a pergraph with undirected peredges, i.e. a pergraph where `$e$` has the
 type signature `$P \rightarrow {V \cup P \choose 2}$`.
@@ -94,7 +96,22 @@ __Definition 4__ ([Lean](#Definition_4)): The __source__ of a peredge is
 the vertex or peredge it comes from, the __sink__ of a peredge is the thing
 it points to.
 
-__Definition 5__ ([Lean](#Definition_5)): A __ratking__ is a pergraph
+__Definition 5__ ([Lean](#Definition_5)): A __source-path__ is a
+sequence of edges so that each edge has as its source the previous edge;
+a __sink-path__ is a sequence of edges so that each edge has as its sink
+the following edge.
+
+__Definition 6__ ([Lean](#Definition_6)): Two vertices `$v_1, v_2$` are
+__connected via a source-path__ if the source of the first edge is `$v_1$`
+and the sink of the last edge is `$v_2$`, and similar for sink-paths.
+
+![](./img/pergraphs/path_variants.png)
+
+__Definition 7__ ([Lean](#Definition_7)): A __mixed source-path__ is a
+source-path with vertices mixed in, a __mixed sink-path__ is a sink-path
+with vertices mixed in.
+
+__Definition Ratking__ ([Lean](#Definition_Ratking)): A __ratking__ is a pergraph
 without vertices.
 
 Source cycles, sink cycles, pseudo-vertex cycles, source-semi-ratkings,
@@ -260,11 +277,11 @@ in this text.
 
 	def Quiver.toPergraph {V : Type} [Quiver V] :
 	  Pergraph (V ⊕ (Σ (a b : V), a ⟶ b)) (Σ (a b : V), a ⟶ b) where
-	  e := fun arr@⟨a, b, h⟩ => (PerNode.vertex (Sum.inl a), PerNode.vertex (Sum.inr arr))
+	  e := fun arr@⟨a, _b, _h⟩ => (PerNode.vertex (Sum.inl a), PerNode.vertex (Sum.inr arr))
 
 That function is injective:
 
-	theorem quiver_to_pergraph_is_injective {V : Type} [Quiver V] :
+	theorem quiver_to_pergraph_injective {V : Type} [Quiver V] :
 	  Function.Injective (@Quiver.toPergraph V _).e := by
 	  intros e₁ e₂ h_eq
 	  simp [Quiver.toPergraph] at h_eq
@@ -291,5 +308,54 @@ That function is injective:
 
 ### Definition 5
 
-	def is_ratking (G : Pergraph V E) : Prop :=
+	def SourcePath (G : Pergraph V E) : List E → Prop
+	  | [] => True
+	  | [_] => True
+	  | e₁ :: e₂ :: rest => G.source e₂ = PerNode.edge e₁ ∧ SourcePath G (e₂ :: rest)
+
+	def SinkPath (G : Pergraph V E) : List E → Prop
+	  | [] => True
+	  | [_] => True
+	  | e₁ :: e₂ :: rest => G.sink e₁ = PerNode.edge e₂ ∧ SinkPath G (e₂ :: rest)
+
+### Definition 6
+
+	def connectedViaSourcePath (G : Pergraph V E) (start finish : PerNode V E) (path : List E) : Prop :=
+	  SourcePath G path ∧
+	  (path.head?.map G.source = some start) ∧
+	  (path.getLast?.map G.sink = some finish)
+
+	def connectedViaSinkPath (G : Pergraph V E) (start finish : PerNode V E) (path : List E) : Prop :=
+	  SinkPath G path ∧
+	  (path.head?.map G.source = some start) ∧
+	  (path.getLast?.map G.sink = some finish)
+
+### Definition 7
+
+	inductive MixedPath (G : Pergraph V E) (dir : Pergraph V E → E → PerNode V E) (codir : Pergraph V E → E → PerNode V E) : List (PerNode V E ⊕ E) → Prop
+	  | empty : MixedPath G dir codir []
+	  | single_vertex (v : PerNode V E) : MixedPath G dir codir [Sum.inl v]
+	  | single_edge (e : E) : MixedPath G dir codir [Sum.inr e]
+	  | vertex_then_edge (v : PerNode V E) (e : E) (rest : List (PerNode V E ⊕ E)) :
+	      dir G e = v →
+	      MixedPath G dir codir (Sum.inr e :: rest) →
+	      MixedPath G dir codir (Sum.inl v :: Sum.inr e :: rest)
+	  | edge_then_edge (e₁ e₂ : E) (rest : List (PerNode V E ⊕ E)) :
+	      dir G e₂ = PerNode.edge e₁ →
+	      MixedPath G dir codir (Sum.inr e₂ :: rest) →
+	      MixedPath G dir codir (Sum.inr e₁ :: Sum.inr e₂ :: rest)
+	  | edge_then_vertex (e : E) (v : PerNode V E) (rest : List (PerNode V E ⊕ E)) :
+	      codir G e = v →
+	      MixedPath G dir codir (Sum.inl v :: rest) →
+	      MixedPath G dir codir (Sum.inr e :: Sum.inl v :: rest)
+
+	def MixedSourcePath (G : Pergraph V E) : List (PerNode V E ⊕ E) → Prop :=
+	  MixedPath G source sink
+
+	def MixedSinkPath (G : Pergraph V E) : List (PerNode V E ⊕ E) → Prop :=
+	  MixedPath G sink source
+
+### Definition Ratking
+
+	def isRatking (G : Pergraph V E) : Prop :=
 	  IsEmpty V
