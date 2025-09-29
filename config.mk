@@ -65,7 +65,6 @@ HTML=index.html \
 	exercise_log.html \
 	expansion.html \
 	favorites.html \
-	filepunk.html \
 	foom.html \
 	flags.html \
 	forecasters.html \
@@ -129,16 +128,17 @@ HTML=index.html \
 	podcasts_list.html \
 	series_list.html \
 	texts_list.html \
+	outputs/😊.html \
 	outputs/analogies.html \
 	outputs/atlantropa.html \
 	outputs/beast.html \
 	outputs/encoding.html \
+	outputs/filepunk.html \
 	outputs/gilgamesh.html \
 	outputs/immune.html \
 	outputs/iron_lung.html \
 	outputs/job.html \
 	outputs/last.html \
-	outputs/😊.html \
 	outputs/niplavistan.html \
 	outputs/sacrifice.html \
 	outputs/scaling.html \

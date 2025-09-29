@@ -164,6 +164,8 @@ Slogans
 * "companies spawn, companies abrt, /tmp is eternal"
 * "kernelize welfare maximization, `Twalk` revenue maximization"
 * `fsck.mrkt -p -D -E deadweight_loss /mnt/exchng/manila/1882781828`
+* in the filepunk future, value = information, and information wants to be $0.00001
+* contribution ≟ attribution ≟ compensation
 
 -----------------------
 

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-01-19, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2025-09-29, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Movies I have watched since December 2018.__
 
@@ -11,6 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [The Addams Family](https://en.wikipedia.org/wiki/Addams_family_\(animated_film\))
 * [Cold War](https://en.wikipedia.org/wiki/Cold_War_\(2018_film\))
 * [Avatar: The Way of Water](https://en.wikipedia.org/wiki/Avatar_Way_of_Water)
 * [War of the Rohirrim](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_War_of_the_Rohirrim)
