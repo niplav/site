@@ -13,7 +13,7 @@
    - Original 350m depth assumption drastically underestimated challenges
    - Dam volume would be ~3x larger than estimated
    - Concrete strength at 900m depth becomes problematic
-   
+
 2. Hydrostatic Pressure:
    - At 900m depth: ~9 MPa (90 atmospheres)
    - Requires much stronger materials

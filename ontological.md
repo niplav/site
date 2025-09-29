@@ -170,5 +170,7 @@ Nick Bostrom has been hinting at something adjacent to this in some recent
 interviews (which, maddeningly, I can't find), and I wildly extrapolated
 his subtle hints; all the mistakes and muddled thinking lie with me.
 
+<!--TODO: viewquakes-->
+
 * Alternative explanation, in form of [poetry](./microfiction.html#The_Open_Sky).
 * [Concept-Shaped Holes Can Be Impossible To Notice (Scott Alexander, 2017)](https://slatestarcodex.com/2017/11/07/concept-shaped-holes-can-be-impossible-to-notice/)

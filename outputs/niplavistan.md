@@ -28,10 +28,10 @@ but deep coordination bonds.
 
 - Billiard tables
 - Table soccer/ping pong
-- Rhythm game machines  
+- Rhythm game machines
 - Other social games to counteract natural reclusiveness
 
-**Demographics**: 
+**Demographics**:
 
 - Very low fertility rates requiring substantial subsidies
 - Default cryopreservation upon death
@@ -58,7 +58,7 @@ to last centuries or millennia
 consumption. Status comes from proving theorems, composing music, or
 designing better coordination mechanisms.
 
-## Technology & Infrastructure  
+## Technology & Infrastructure
 
 **Computing**: Plan 9-style everything-is-a-file philosophy
 dominates. Services mounted as filesystems, coordination through namespace
@@ -73,7 +73,7 @@ people who treat war as an optimization puzzle. Some bioweapons research
 
 ## Culture & Aesthetics
 
-**Material simplicity**: 
+**Material simplicity**:
 
 - Highly standardized housing and food (optimized for nutrition, famously bland)
 - Limited clothing colors (≤16, possibly fewer)
@@ -84,7 +84,7 @@ people who treat war as an optimization puzzle. Some bioweapons research
 **Cultural output**:
 
 - **Music**: Incredibly complex — xenharmonic, microtonal, mathematical structure
-- **Poetry**: Excellent, technically sophisticated, chosen for conceptual association  
+- **Poetry**: Excellent, technically sophisticated, chosen for conceptual association
 - **Visual art**: Conceptual rather than representational
 - **Literature**: Poor novels (character psychology less interesting), strong poetry
 - **Lyrics**: Selected for poetic/conceptual value rather than narrative
@@ -126,7 +126,7 @@ marriage is a thing.
 
 1. **Fertility collapse**: Population doesn't want children despite perfect coordination and chemical bliss
 2. **Value drift**: Genetic selection for mechanism design intuition might eliminate other human values
-3. **Military vulnerability**: Reduced aggression makes them targets for more violent societies  
+3. **Military vulnerability**: Reduced aggression makes them targets for more violent societies
 4. **Complacency**: Perfect coordination might prevent necessary posthuman transition
 
 **Defensive posture**: Advanced weapons technology but preference for
@@ -143,14 +143,10 @@ addition to widespread cryopreservation, why rush?
 
 ## Government & Coordination
 
-Everything operates through optimal mechanisms rather than traditional political structures. Governance becomes an engineering problem with continuous optimization based on revealed preferences and outcome measurement.
-
-```bash
-cat /srv/governance/performance/current.txt  
-# "Coordination efficiency: 94.2%"
-# "Pareto improvements implemented this quarter: 23"
-# "Mechanism gaming attempts: 0.18% (declining trend)"
-```
+Everything operates through optimal mechanisms rather than traditional
+political structures. Governance becomes an engineering problem with
+continuous optimization based on revealed preferences and outcome
+measurement. See also [filepunk](./filepunk.html).
 
 ## Tourism Warning
 

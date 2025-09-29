@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-07-10, modified: 2025-09-26, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2025-07-10, modified: 2025-09-29, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __`$P→(V∪P)^2$`, the rest is commentary.__
 
@@ -20,9 +20,12 @@ https://claude.ai/public/artifacts/bb3d3f29-937c-4b79-ac98-f36f2209e030
 https://claude.ai/public/artifacts/ef9a1339-2211-4cc1-971c-b99fe877d900
 https://claude.ai/public/artifacts/e0f648c6-520c-4c42-a393-21b05ea0ce4a-->
 
+<!--TODO: rename P to E in definitions, rename the function e to m (for
+"mapping"), refer to V∪E as Pernodes P, with instances p.-->
+
 I am afflicted by a strange curse, which condemns me to be creative
-enough to find new mathematical structures, but too dumb to prove anything
-interesting about them.
+enough to find and explore new mathematical structures, but too dumb to
+prove anything interesting about them.
 
 ![A drawing with the letter 'A' on the left side, the letter 'B' on the right side. A red arrow goes from 'A' to 'B'. A blue arrow goes from the middle of the red arrow to 'A'.](./img/pergraphs/garrabrant.png "A drawing with the letter 'A' on the left side, the letter 'B' on the right side. A red arrow goes from 'A' to 'B'. A blue arrow goes from the middle of the red arrow to 'A'.")
 
@@ -70,9 +73,9 @@ __Theorem 1__ ([Proof](#Proof_1)): Every
 [quiver](https://en.wikipedia.org/wiki/Quiver_\(mathematics\)) is also
 a pergraph, that is the pergraphs contain the quivers as a subset.
 
-__Intuition 1__: Take any quiver `$Q=(V, E, s: E→V, t: E→V)$`. We can
+__Intuition 1__: Take any quiver `$Q=(V, P, s: P→V, t: P→V)$`. We can
 then construct a pergraph by assigning the `$V$` to the vertex pernodes,
-`$E$` to the peredges, and constructing `$e$` by declaring `$e(p)=(s(p),
+`$P$` to the peredges, and constructing `$e$` by declaring `$e(p)=(s(p),
 t(p))$` for `$p \in P$`. Congrats! You've now constructed a pergraph
 from your quiver.
 
@@ -99,7 +102,8 @@ it points to.
 __Definition 5__ ([Lean](#Definition_5)): A __source-path__ is a
 sequence of edges so that each edge has as its source the previous edge;
 a __sink-path__ is a sequence of edges so that each edge has as its sink
-the following edge.
+the following edge. A __pure path__ is a sequence of edges that is both
+a source-path and a sink-path.
 
 __Definition 6__ ([Lean](#Definition_6)): Two vertices `$v_1, v_2$` are
 __connected via a source-path__ if the source of the first edge is `$v_1$`
@@ -111,19 +115,71 @@ __Definition 7__ ([Lean](#Definition_7)): A __mixed source-path__ is a
 source-path with vertices mixed in, a __mixed sink-path__ is a sink-path
 with vertices mixed in.
 
-__Definition Ratking__ ([Lean](#Definition_Ratking)): A __ratking__ is a pergraph
-without vertices.
+__Definition 8__: A __source-cycle__ is a __source-path__ that connects
+a vertex `$v$` to `$v$` or an edge `$p$` to `$p$`. One can define
+a __sink-cycle__, a __pure cycle__, a __mixed source cycle__, and a
+__mixed sink-cycle__ similarly.
 
-Source cycles, sink cycles, pseudo-vertex cycles, source-semi-ratkings,
-sink-semi-ratkings, rhizomes/rhizomatic ratkings, the rhizomatic
-lattice…
+<!--TODO: image-->
+
+__Remark 3__: There's a variant of vertexless pure cycles that I like
+to call "__keltic knots__", where, if of any edge `$p_1$` the sink is
+`$p_2$`, the source of `$p_2$` is `$p_1$`.
+
+<!--TODO: image-->
+
+__Definition 9__: A __sub-pergraph__ `$S$` of a pergraph `$A=(V, P,
+e)$` is a pergraph where the vertices are subsets of `$V$` and the
+edges are a subset of `$P$`. As is custom, a __proper sub-pergraph__
+of `$A$` is a sub-pergraph of `$A$` that isn't equal to `$A$`; an
+__induced sub-pergraph__ `$S_i$` of a pergraph `$A$` is a sub-pergraph
+of `$A$` where, for any pair of vertices or edges, all edges between
+those two components are also edges of `$S_i$`, similarly to [induced
+subgraphs](https://en.wikipedia.org/wiki/Induced_subgraph).
+
+__Definition Ratking__ ([Lean](#Definition_Ratking)): A __ratking__
+is a pergraph without vertices.
+
+__Definition 10__: A __rhizome__ is a pergraph without a proper
+sub-pergraph.
+
+__Theorem 2__: Every rhizome is either a single vertex or a ratking.
+
+__Intuition__: A pergraph that has at least a vertex is either a single
+vertex or contains a single vertex as a proper sub-pergraph.
+
+__Remark 4__: There are non-rhizomatic ratkings. <!--TODO: image of
+an example-->
+
+__Remark 5__: Ratkings, ordered by whether they are sub-pergraphs, form a
+[lattice](https://en.wikipedia.org/wiki/Lattice_\(mathematics\))
+where the [minimal
+elements](https://en.wikipedia.org/wiki/Maximal_and_minimal_elements)
+are rhizomes.
+
+__Remark 6__: Pergraphs, ordered by whether are sub-pergraphs, form a
+lattice where the minimal elements are rhizomes and a single vertex.
+
+<!--TODO: turn from remarks into theorems? Prove then I guess-->
+
+__Theorem 3__: There are countably infinitely many finite pergraphs.
+
+__Intuition__: There are finitely many pergraphs of size `$n$` for any
+natural number, order by natural number, then for each natural number,
+order the pergraphs of that size however you like. You now have a
+bijection to the natural numbers.
+
+-----------------------
+
+Pseudo-vertex cycles, source-semi-ratkings, sink-semi-ratkings…
 
 Pergraph isomorphism, sub-pergraph detection, pergraph rewrite rules
 (ratking collapse, flip equivalence (flipping peredges results in the
 same pergraph)).
 
 Euler cycles and Hamilton cycles, decomposing into rhizomes, enforcing
-some kind of hierarchy/partial hierarchy?
+some kind of hierarchy/partial hierarchy? Generating pergraphs from
+a simpler set with simpler rules?
 
 Bijection/injection with the directed graphs? Needs to blow up the
 directed graphs.
@@ -141,7 +197,7 @@ starting at n=0:
 This sequence is not yet in the OEIS.
 
 * For zero constituents there's only the empty pergraph `$(\emptyset, \emptyset, \emptyset)$`.
-* For one constituent there's two pergraphs, the single node `$(\{v_1, \emptyset, \emptyset\})$` and the self-directed peredge `$(\emptyset, \{e_1\}, \{(e_1, e_1, e_1)\})$`.
+* For one constituent there's two pergraphs, the single vertex `$(\{v_1, \emptyset, \emptyset\})$` and the self-directed peredge `$(\emptyset, \{e_1\}, \{(e_1, e_1, e_1)\})$`.
 * For two constituents there's these:
 
 ![](./img/pergraphs/two_small.png "A 3×5 grid of different pergraphs. The top row contains five pergraphs with at least one vertex, the bottom rows contain ten pergraphs comprised only of edges.")
@@ -158,7 +214,7 @@ Here's the *undirected* pergraphs with two components:
 
 ![](./img/pergraphs/two_undirected.png)
 
-As a variant one could ditch the nodes entirely, and replace them
+As a variant one could ditch the vertex entirely, and replace them
 self-sourced and self-sinked peredges. I think that one has different
 combinatorial behavior.
 
@@ -185,9 +241,34 @@ they're a special case of. Claude Opus 4.1 suggests it might be a special
 case of [2-categories](https://en.wikipedia.org/wiki/2-category), but
 I don't think that's true<sub>85%</sub>.
 
+### Random Remarks
+
+1. Pergraphs aren't recursive in any meaningful sense of the word. They are "sort of" self-referential, if you squint, but really it's only the edges that can be self-referential.
+	1. There no way in which a peredge can point at an entire pergraph that contains that peredge.
+		1. Hey, there's an idea!
+		2. So you'd have a graph `$a→b$`, and an edge from `$a$` to *the entire subgraph* `$a→b$`…
+		3. …Wow that seems really expressive.
+		4. Anyway.
+	2. I include this point because when I talk about the concept with LLMs, they almost always claim that pergraphs are recursive.
+2. I find pergraphs really pretty to draw.
+3. I also find them very natural, so I'm surprised by why they haven't been studied before.
+	1. It could be that I'm missing why they're some trivial aspect of some other known object.
+	2. It could be that pergraphs are too general or too expressive to contain interesting structure.
+	3. It could be that they're not useful for any other mathematics, and not pratically useful.
+4. Vaguely gesturing at an intuition, pergraphs could be useful for modeling systems where *a transition happening* causes something.
+	1. E.g. in Garrabrant's original post, an agent performs an action because performing the action will transition to a different state.
+	2. This doesn't justify things like edges having themselves as sources and sinks.
+
 ### Axes Along Which to Categorize Different Graph Concepts
 
-{directed, undirected} edges×{allows, disallows} [multi-edges](https://en.wikipedia.org/wiki/Multigraph)×{allows, disallows} [loops](https://en.wikipedia.org/wiki/Loop_\(graph_theory\))×{allows, disallows} [hyperedges](https://en.wikipedia.org/wiki/Hypergraph)×{allows, disallows} edges between other edges×{allows, disallows} edges from/to themselves×{allows, disallows} edges between arbitrary sets of vertices.
+{directed, undirected} edges×{allows, disallows}
+[multi-edges](https://en.wikipedia.org/wiki/Multigraph)×{allows,
+disallows}
+[loops](https://en.wikipedia.org/wiki/Loop_\(graph_theory\))×{allows,
+disallows}
+[hyperedges](https://en.wikipedia.org/wiki/Hypergraph)×{allows,
+disallows} edges between other edges×{allows, disallows} edges from/to
+themselves×{allows, disallows} edges between arbitrary sets of vertices.
 
 ### Prior Art
 
@@ -317,6 +398,8 @@ That function is injective:
 	  | [] => True
 	  | [_] => True
 	  | e₁ :: e₂ :: rest => G.sink e₁ = PerNode.edge e₂ ∧ SinkPath G (e₂ :: rest)
+
+<!--TODO: define PurePath-->
 
 ### Definition 6
 

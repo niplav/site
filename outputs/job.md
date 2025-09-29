@@ -82,7 +82,7 @@ And it came to pass that the Tweeters spoke of semiconductor stocks and their wi
 64. Its counterparty networks are its pride, shut up together with interconnected exposures.
 
 65. Out of its operations come flash crashes, and sparks of volatility leap forth.
-66. From its derivatives nostrils goeth margin calls like smoke, 
+66. From its derivatives nostrils goeth margin calls like smoke,
 67. And its breath kindleth liquidations.
 68. In its neck remaineth strength, and complex dependencies dance before it.
 

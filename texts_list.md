@@ -17,6 +17,18 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Maximal set (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Maximal_set)
+* [Cofiniteness (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Cofiniteness)
+* [Gollum's Manipulation (Claude Opus 4.1, 2025)](https://claude.ai/public/artifacts/6c90679b-108b-42aa-a0b3-317aaf9aa6e6)
+* [all the gpu stacks (cuda, opengl, vulkan, directx, metal, webgpu, opencl) (Luke Miles, 2025)](https://lukemiles.org/e/all-the-gpu-stacks.html)
+* [Almost all growth is exponential growth (Luke Miles, 2025)](https://lukemiles.org/e/all-growth-exponential.html)
+* [Failing to Understand the Exponential, Again (Julian Schrittweiser, 2025)](https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/)
+* [The lattice of partial updatelessness (Martín Soto, 2024)](https://www.lesswrong.com/s/Z6vSYoeNBXbDxhARn/p/Jn43ZrzKZ86pd5HPM)
+* [The QMA Singularity (Scott Aaronson, 2025)](https://scottaaronson.blog/?p=9183)
+* [I Don't Know, Timmy, Being God Is a Big Responsibility (qntm, 2022)](https://qntm.org/responsibilit)
+* |4 Frontier Safety Frameork Version 3.0 (Google Deepmind, 2025)
+* [Marlex (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Marlex)
+* [Giving AIs safe motivations (Joe Carlsmith, 2025)](https://www.lesswrong.com/posts/Kv7DRtEaQYjfyZ8Ld/giving-ais-safe-motivations)
 * [Sources Say Bay Area House Party (Scott Alexander, 2025)](https://www.astralcodexten.com/p/sources-say-bay-area-house-party)
 * |12 Logical Induction (Scott Garrabrant/Tsvi Benson-Tilsen/Andrew Critch/Nate Soares/Jessica Taylor, 2020)
 * AI Deployer Safety Mitigations: A Comprehensive Analysis (2022-2025) (Claude Opus 4.1, 2025)

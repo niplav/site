@@ -146,7 +146,7 @@ Experimental Protocol
 
 #### Sample 1
 
-* Sunday 2025-09-08: Taking 0.45mg melatonin before going to sleep at 2025-09-08T01:00, setting alarm for 2025-09-08T06:00
+* Monday night: Taking 0.45mg melatonin before going to sleep at 2025-09-08T01:00, setting alarm for 2025-09-08T06:00
 * Monday:
 	* Contractions in the face
 	* Feel alert but scattered, dull
@@ -163,10 +163,19 @@ Experimental Protocol
 	* Little pinchings on the shoulders
 	* Feel unmotivated to do anything, slight headache, want to take a nap
 	* Took a nap from 13:40 to 17:20, feeling much better afterwards
-* Tuesday night: Taking 300mg magnesium at 2025-09-17T00:51:33
+* Wednesday night: Taking 300mg magnesium at 2025-09-17T00:51:33
 * Wednesday:
 	* Good meditation, though my nervousness cut it short
 	* Feel comparatively awake, especially now around two hours after the dose (the lumenator may be helping)
 	* Slightly slower than normal but not as slow as on Monday
+
+### Sample 3
+
+* Monday night: Took melatonin and magnesium
+* Monday:
+	* Might've deblinded? I think this was placebo<sub>60</sub>, based on how full the syring was.
+	* Feeling more alert after taking it, slightly hungry (though that could've been the case beforehand already)
+	* Emotional status fine, slightly cold, last dream before waking up was indicative of some interesting trauma related to being clumsy and breaking things that are fragile (I personally now think most things are just too fragile, and we're rich enough to be able to afford robust things)
+	* Took stimulants ~45 minutes after Orexin, feeling mostly awake but energetic at ~11:00
 
 [^1]: Even demonstrating one-off effectiveness would be cool: It's often the case that people have short-term sleep deprivation, and would like to ameliorate the effects.

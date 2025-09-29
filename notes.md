@@ -1668,7 +1668,7 @@ AI Safety Via Debate Links
 * [Anthropic Fall 2023 Debate Progress Update (2023)](https://www.alignmentforum.org/posts/QtqysYdJRenWFeWc4/anthropic-fall-2023-debate-progress-update)
 * [Debating with More Persuasive LLMs Leads to More Truthful Answers (2024)](https://arxiv.org/pdf/2402.06782.pdf)
 
-I'll check more at [the LessWrong
+More at [the LessWrong
 tag](https://www.lesswrong.com/tag/debate-ai-safety-technique-1).
 
 Awesome Things Humans Can Learn
@@ -1736,10 +1736,38 @@ maintained.
 Too Good to be True: Training an RL Agent to be Suspicious
 -----------------------------------------------------------
 
-Code based on [this
-tutorial](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html),
-trying to implement the experiment detailed in [Yudkowsky
-2017](https://arbital.com/p/environmental_goals/).
+Trying to implement the experiment detailed in [Yudkowsky
+2017](https://arbital.com/p/environmental_goals/):
+
+> One could directly attack the toy problem by trying to have an agent
+within a currently standard reinforcement-learning paradigm "learn not
+to interfere with the reward signal" or "learn not to try to obtain
+rewards uncorrelated with real apricots".
+>
+> For this to represent at all the problem of scalability, we need to
+not add to the scenario any kind of sensory signal whose correlation
+to our intended meaning can never be smashed by the agent. E.g., if
+we supplement the reward channel `$R$` with another channel `$Q$` that
+signals whether has been interfered with, the agent must at some point
+acquire a range of action that can interfere with `$Q$`.
+>
+> A sample approach might be to have the agent's range of action
+repeatedly widen in ways that repeatedly provide new easier ways to
+obtain `$R$` without manipulating `$E_1$`. During the first phase of
+such widenings, the agent receives a supplementary signal `$Q$` whose
+intended meaning is "that was a fake way of obtaining `$R$`." During
+the second phase of action-range widenings, we change the algorithm
+and switch off `$Q$`. Our intended result is for the agent to have now
+learned in a general way "not to interfere with `$R$`" or "pursue the
+`$E_1$` identified by `$R$`, rather than pursuing `$R$`".  
+> […]  
+> *Remark: The avoid-tampering approach is probably a lot closer
+to something we could try on Tensorflow today, compared to the
+identify-causes approach. But it feels to me like the avoid-tampering
+approach is taking an ad-hoc approach to a deep problem; in this approach
+we are not necessarily "learning how to direct the agent's thoughts toward
+factors of the environment" but possibly just "training the agent to avoid
+a particular kind of self-originated interference with its sensory goals".*
 
 ![](./img/suspicious/1.jpg)
 
@@ -1760,7 +1788,7 @@ instances of “learning the lesson” that it will be evaluated by a
 human better-informed than the one it’s interacting with, Alex would
 learn to “play it safe” by always being honest.
 
-*—Ajeya Cotra, [“Without specific countermeasures, the easiest path to transformative AI likely leads to AI takeove”](https://www.lesswrong.com/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to), 2022*
+*—Ajeya Cotra, [“Without specific countermeasures, the easiest path to transformative AI likely leads to AI takeover”](https://www.lesswrong.com/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to), 2022*
 
 Field-Specific Low-Information Priors
 --------------------------------------
@@ -1893,7 +1921,7 @@ __Definition 1__: Given a
 `$(V_1, \dots, V_{n+1})$` of sets, and a sequence `$(f_1, \dots, f_n)$`
 of functions so that `$f_i: V_i \rightarrow \mathcal{P}(V_{i+1})$`,
 the __sevolution__ of a directed graph `$G=(V_1, E_1)$` (with `$E_1
-\subseteq V_1 \times V_2$`) is *sequence of graphs* `$(G_1, \dots,
+\subseteq V_1 \times V_1$`) is *sequence of graphs* `$(G_1, \dots,
 G_{n+1})$` so that `$(v, w) \in E_{k+1}$` if and only if `$(v_i, w_i)
 \in E_i$` and `$v \in f_i(v_i), w \in f_i(w_i)$`.
 
