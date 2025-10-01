@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2025-09-16, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2025-09-30, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -27,10 +27,11 @@ September 2025
 ---------------
 
 * [Text Reviews](./text_reviews.html):
-	* [Die Chinesen (Stefan Baron/Guangyan Yin-Baron, 2019)](./text_reviews.html#Die_Chinesen_Stefan_BaronGuangyan_YinBaron_2019): German review, solid introduction, nothing astonishing.
+	* [Die Chinesen (Stefan Baron/Guangyan Yin-Baron, 2019)](./text_reviews.html#Die_Chinesen_Stefan_BaronGuangyan_YinBaron_2019): Review in German. Solid introduction, nothing astonishing.
 
 Editing ["How Often Does ¬Correlation ⇏ ¬Causation?"](./cause.html),
-["Black Hole Mops"](./mop.html), ["Pergraphs"](./pergraphs.html).
+["Black Hole Mops"](./mop.html), ["Pergraphs"](./pergraphs.html),
+[“Mugging-Immune Utility Functions”](./mugging.html).
 
 August 2025
 ------------

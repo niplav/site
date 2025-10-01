@@ -275,7 +275,7 @@ but usually not that much.
 * [Dark Matter AIs at the End of Time](./outputs/last.html)
 * [😊](./outputs/😊.html)
 * [Niplavistan](./outputs/niplavistan.html)
-* [A Schizoanalysis of Neural Networks](./outputs/sacrifice.html)
+* [A Thousand Embeddings: Toward a Schizo-Analysis of Large Language Models](./outputs/thousand.html)
 * [Do Games Favor Offense or Defense with Increasing Player Skill?](./outputs/scaling.html)
 
 Translations
