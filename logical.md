@@ -450,6 +450,9 @@ See Also
 
 * How does this relate to [data=code](https://wiki.c2.com/?DataAndCodeAreTheSameThing)?
 * [Writing Causal Models Like We Write Programs (johnswentworth, 2020)](https://www.lesswrong.com/posts/Xd9FLs4geRAWxkQPE/writing-causal-models-like-we-write-programs)
+* [Evidential Correlations are Subjective, and it might be a problem (Martín Soto, 2024)](https://www.lesswrong.com/s/Z6vSYoeNBXbDxhARn/p/DzhQN9WKz8zYvrq4a), [How disagreements about Evidential Correlations could be settled (Martín Soto, 2024)](https://www.lesswrong.com/s/Z6vSYoeNBXbDxhARn/p/o64GLrKahR8QrbFQW)
+
+<!--TODO: add link to LessWrong discussion-->
 
 <!--TODO: check with brainfuck-->
 

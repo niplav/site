@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-09-18, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-10-01, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2762,6 +2762,96 @@ it's LessWrong philosophy after all.
 	moments "less real" and more desired moments "more real" by
 	moving away from and closer to the beacon; "I feel sad → I
 	toss the beryllium dodecahedron".
+
+Shake Brains First
+-------------------
+
+Some people are very interested in neurotechnology,
+e.g. [BCIs](https://en.wikipedia.org/wiki/Brain-computer_interface),
+neuromodulation through transcranial [direct current
+stimulation](https://en.wikipedia.org/wiki/Transcranial_direct-current_stimulation)/[pulsed
+ultrasound](https://en.wikipedia.org/wiki/Transcranial_Pulsed_Ultrasound)/[magnetic
+stimulation](https://en.wikipedia.org/wiki/Transcranial_Magnetic_Stimulation)
+or even [deep brain
+stimulation](https://en.wikipedia.org/wiki/Deep-brain_stimulation).
+
+The applications people seem most excited by in relation to
+neurotechnology appear to fall into the categories of *outputting
+information from the brain* and *inputting information into the brain*
+at a higher throughput/higher fidelity/lower latency, as well as the
+resulting compound ability to send mental gestalts/felt senses/ideas
+between people. I'll call these "I/O applications".
+
+E.g. a common imagination is that with BCIs, one'd be able to control
+computers much more quickly and accurately than with a mouse and keyboard,
+or retrieve arbitrary facts from Wikipedia as-if from long term memory,
+or send one's own understanding of a complicated political issue to a
+conversation partner and have them understand ones perspective.
+
+I think those are great goals, and hope people make progress on them.
+But they are also extremely lofty and complicated goals, and miss options
+for neurotechnology because they treat the brain as something that is
+best abstracted as a computer.
+
+Aspects of brains that make I/O applications difficult are that
+(1) brain activation patterns are very difficult to interpret,
+*especially* in the realm of more complicated cognition occurring in the
+[neocortex](https://en.wikipedia.org/wiki/Neocortex), likely even more
+difficult than the ones of current large neural networks<sub>80%</sub>;
+and (2) complicated high-level patterns will not or only very weakly
+translate between different people<sub>90%</sub>, *because* human
+brains are extremely high-dimensional, and almost all structure
+in the neocortex is learned during a humans' lifetime, so it's
+unlikely that similar structures are learned by default. (This does
+not apply to lower-level structures in neuroanatomy like the fact
+that [Broca's area](https://en.wikipedia.org/wiki/Broca's_Area)
+is responsible for speech production, and [Wernicke's
+area](https://en.wikipedia.org/wiki/Wernicke's_Area) is responsible for
+speech comprehension, but e.g. to things like whether a [grandmother
+neuron](https://en.wikipedia.org/wiki/Grandmother_neuron)/area is
+present.)
+
+1. entails that learning rich & fast output modularities from neural
+activity alone would require learning mappings between neural activity and
+desired output patterns in a long & complicated machine learning process,
+and even more so if one wants to input information (since output at
+least often involves the motor cortex, which is fairly well understood).
+
+2. entails that such patterns, even if learned for a single person or
+group of people, only transfers weakly or not at all to applying some
+neurotechnology to a new person.
+
+Despite probably sounding pessimistic about neurotechnology, I actually
+think that there's great promise, even if we believe that neural activity
+is difficult to interpret beyond current understanding of neuroanatomy
+*and* doesn't translate across people.
+
+1. There is great promise in simply testing existing stimulation techniques like [tDCS](https://en.wikipedia.org/wiki/Transcranial_direct-current_stimulation)/[tFUS](https://en.wikipedia.org/wiki/Transcranial_Pulsed_Ultrasound)/[TMS](https://en.wikipedia.org/wiki/Transcranial_Magnetic_Stimulation) and (potentially) [DBS](https://en.wikipedia.org/wiki/Deep-brain_stimulation) on our current understanding of neuroanatomical structure, using such tests to validate our understanding, and induce basic sensations/emotions in people.
+	1. Applications of this include increasing people's hedonic tone, finding ways to increase specific variants of [psychological](https://stephenmalina.com/post/2021-07-01-energetic-aliens-among-us/) [stamina](https://www.overcomingbias.com/p/stamina-succeedshtml) and willpower/motivation/discipline/resisting temptation (Claude 4.5 Sonnet tells me the neuroanamoty here indicates that the neuroanatomy here is slightly complicated, hinting at several different aspects of willpower), reducing fear in contexts where it isn't appropriate, and so on.
+	2. Extending such search could involve stimulating some regions based on hunches and seeing what happens, [Constantin 2023](https://sarahconstantin.substack.com/p/why-should-neuroenhancement-be-possible) goes into this.
+	3. There's some work happening here already, see e.g. [Reznik et al. 2014](./doc/stimulation/transcranial_ultrasound_reduces_worry_reznik_et_al_2014.pdf) for reducing worry and [Sanguinetti et al. 2017](./doc/stimulation/transcranial_ultrasound_improves_mood_and_affects_sanguinetti_et_al_2017.pdf) for improving mood, as well as rTMS for treating [depression](https://en.wikipedia.org/wiki/Transcranial_Magnetic_Stimulation#Depression) and [OCD](https://en.wikipedia.org/wiki/Transcranial_Magnetic_Stimulation#Obsessive-Compulsive_Disorder_\(OCD\)).
+2. If we have Neuralink-style implanted BCIs available, the immediate application I can think of is the ability to capture, store and replay mental states, which I'll call a "mental camera".
+	1. The concept is simple: The implanted electrodes are always recording whatever neural activity they can record, and the human can decide to store that activity to an external device at any point they want. At any later point, those human can decide to set same electrodes to a charge equal to some recorded neural activity.
+		1. This has similarity to steering LLMs via [activation addition](https://arxiv.org/pdf/2308.10248).
+	2. This doesn't require any interpretation of the neural activation: neural activations are stored as a vector of charges measured by the electrodes, and replayed by setting the same charge. Since this happens for a single person, this also doesn't run into any translation problems (except for neural activations becoming less effective over time, due to change in neuronal tissue around the electrodes).
+	3. Some applications:
+		1. __Entertainment__: The mental camera can be used as exactly that, a camera; users could decide to store and replay experiences simply for the sake of entertainment/sentimentality. Over long timespans one could re-experience especially treasured previous felt senses.
+		2. __Reconstructing difficult-to-create states__: Similarly, this would allow users to be able to shape their mental landscape by e.g. replaying moments they found inspiring, had a felt sense of what their true goals were, or felt particularly disciplined; allowing them to induce again states that are (from their judgement) appropriate for some situation.
+			1. In the context of meditation this would allow for a more efficient way of entering into specific states again, instead of having to construct them repeatedly, while still reinforcing the ability of the brain to enter those states.
+			2. In the context of solving complicated problems, one could store parts of the mental state at a point in time when one understood the problem best. For example, programmers often report that being interrupted while debugging a complicated problem is highly disruptive, since it often takes hours to construct the mental state of having some understanding of the problem.
+		4. __[Spaced repetition](https://gwern.net/Spaced-repetition)__: Reconstructing specific states with a mental camera would, of course, be immensely helpful in the context of trying to consolidate memories.
+		5. __Tree search__: If the technology works at high fidelity, one could imagine using it as "Hansonian Ems-lite", e.g. performing a tree search over mental states in the context of solving difficult problems, back-tracking to more promising states and being able to partially reset after going into a rabbit-hole. This, however, may be quite jarring to experience if not implemented carefully.
+		6. __Mixing states__: If possible, this could enable mixing previous states to create specific desired moods.
+			1. This won't work if linear/[n-cubic](https://en.wikipedia.org/wiki/Tricubic_Interpolation)/whatever [interpolation](https://en.wikipedia.org/wiki/Multivariate_Interpolation) between states produces unpleasant/jarring/meaningless states.
+	4. Difficulties
+		1. The brain may have difficulty shifting into previously experienced states, especially if those are older and not as compatible with current neural connections.
+		2. Injecting older brainstates may be quite unpleasant if they are incompatible with current ones.
+			1. Since measured activity patterns would simply be a vector, one could ramp up the intensity of the electode charge continuously as to make the experience less jarring.
+		3. Especially in cases where the number of electrodes is small, the stored neural states could be not rich enough to carry much semantic information, and one would be restricted to faint felt senses.
+
+I think these kinds of applications are more realistic than current
+plans for mentalese communication between humans or instant Wikipedia
+fact recall, and still very useful.
 
 <!--Tegmark II and Futurism
 ------------------------

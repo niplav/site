@@ -17,8 +17,12 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Merism (English Wikipedia, 2025)](https://en.wikipedia.org/wiki/Merism)
+* [How disagreements about Evidential Correlations could be settled (Martín Soto, 2024)](https://www.lesswrong.com/s/Z6vSYoeNBXbDxhARn/p/o64GLrKahR8QrbFQW)
+* [\* Evidential Correlations are Subjective, and it might be a problem (Martín Soto, 2024)](https://www.lesswrong.com/s/Z6vSYoeNBXbDxhARn/p/DzhQN9WKz8zYvrq4a)
+* |4 Gemini 2.5 Pro Preview Model Card (Google Deepmind, 2025)
 * [Introducing Claude Sonnet 4.5 (Anthropic, 2025)](https://www.anthropic.com/news/claude-sonnet-4-5)
-* |2 Kimi K2: Open Agentic Intelligence (Kimi Team, 2025)
+* |15 Kimi K2: Open Agentic Intelligence (Kimi Team, 2025)
 * [Maximal set (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Maximal_set)
 * [Cofiniteness (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Cofiniteness)
 * [Gollum's Manipulation (Claude Opus 4.1, 2025)](https://claude.ai/public/artifacts/6c90679b-108b-42aa-a0b3-317aaf9aa6e6)
@@ -28,7 +32,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [The lattice of partial updatelessness (Martín Soto, 2024)](https://www.lesswrong.com/s/Z6vSYoeNBXbDxhARn/p/Jn43ZrzKZ86pd5HPM)
 * [The QMA Singularity (Scott Aaronson, 2025)](https://scottaaronson.blog/?p=9183)
 * [I Don't Know, Timmy, Being God Is a Big Responsibility (qntm, 2022)](https://qntm.org/responsibilit)
-* |4 Frontier Safety Frameork Version 3.0 (Google Deepmind, 2025)
+* |9 Frontier Safety Frameork Version 3.0 (Google Deepmind, 2025)
 * [Marlex (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Marlex)
 * [Giving AIs safe motivations (Joe Carlsmith, 2025)](https://www.lesswrong.com/posts/Kv7DRtEaQYjfyZ8Ld/giving-ais-safe-motivations)
 * [Sources Say Bay Area House Party (Scott Alexander, 2025)](https://www.astralcodexten.com/p/sources-say-bay-area-house-party)

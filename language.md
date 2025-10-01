@@ -472,31 +472,7 @@ We can test whether such words exist via gensim word2vec embeddings:
 Great Words
 ------------
 
-* "__tjimaruwentakaruwala__": A song "sung specifically to threaten a man who did not fulfill the terms of a marriage exchange", in which two men promised to marry each other's sisters or daughters, from the [Tiwi people](https://en.wikipedia.org/wiki/Tiwi_people).
-* "[__ukuhlonipha__](https://en.wikipedia.org/wiki/Avoidance_speech)": "A system of ritual avoidance observed as a mark of respect especially by Xhosa and Zulu wives towards their male relatives by marriage". ([Source](https://dsae.co.za/entry/hlonipha/e03037))
-* English
-	* "corrigibility"
-	* "antisemanticity"
-	* "crestfallen"
-	* "nomenclatural harvesting"
-* German
-	* "bewahren"
-	* "Kabeljau"
-	* "Sollbruchstelle"
-	* "Ablaufdatum"
-	* "Geizkragen"
-	* "pervers"
-	* "etwas auf Vordermann bringen"
-	* "mit Hängen und Würgen"
-	* "hanebüchen"
-	* "Verdauungsspaziergang"
-	* "[Erbfeindschaft](https://en.wikipedia.org/wiki/Erbfeindschaft)"
-	* "[Blockwart](https://en.wikipedia.org/wiki/Blockwart)"
-	* "[Reinheitsgebot](https://en.wikipedia.org/wiki/Reinheitsgebot)"
-	* Reizüberflutung
-	* Jugendtraum
-
-<!--TODO: Aboriginals used the word "ooga" (staring eyes) for [australite](https://en.wikipedia.org/wiki/Australite) in ceremonies-->
+Moved [here](./favorites.html#Words)
 
 Better Words
 --------------
