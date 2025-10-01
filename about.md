@@ -423,9 +423,11 @@ about consciousness).
 
 ![“You're a sound rationalist, aren't you?”; Screenshot from “Legends of the Galactic Heroes”](./img/about/sound_rationalist.jpg "“You're a sound rationalist, aren't you?”; Screenshot from “Legends of the Galactic Heroes”")
 
-My view on ethics is very consequentialism-focused, but with a large
-amount of moral uncertainty thrown into the mix. Within consequentialism,
-my views are similar to (and influenced by) the idea of [suffering focused
+My view on ethics is very consequentialism-focused,
+but with a large amount of [moral
+uncertainty](./philosophy/ethics/moral_uncertainty_macaskill_et_al_2020.pdf)
+thrown into the mix. Within consequentialism, my views are
+similar to (and influenced by) the idea of [suffering focused
 ethics](https://foundational-research.org/the-case-for-suffering-focused-ethics/),
 especially the writings at
 [reducing-suffering.org](https://reducing-suffering.org/).
@@ -437,32 +439,34 @@ similar to those of the minimalist unix and [Plan
 
 ### Miscellania
 
-Various measures of size for the website (excluding automatically generated content and transcriptions):
+Various measures of size for the website (excluding automatically
+generated content and transcriptions):
 
-	$ cat (l *.md | g -v 'chrono|tao|_list|exercise_log|declaration|grand') | pr | grep -Eo 'Page [0-9]+' | tail -1
-	Page 942
+	$ cat (l *.md outputs/filepunk.md | g -v 'chrono|tao|_list|exercise_log|declaration|grand') | pr | grep -Eo 'Page [0-9]+' | tail -1
+	Page 952
 	$ wc (l *.md | g -v 'chrono|tao|_list|exercise_log|declaration|grand') | tail -1
-	  52730  320154 2519618 total
+	  53039  323458 2542131 total
 
-Benford's law isn't followed by the digits on this site:
+[Benford's law](https://en.wikipedia.org/wiki/Benford's_Law) isn't
+followed by the digits on this site:
 
 	$ grep -ho '[0-9]' *.md | sort | uniq -c | sort -n | tail -10
-	  11154 4
-	  11168 6
-	  11345 9
-	  11623 8
-	  12314 7
-	  13272 3
-	  13375 5
-	  40578 1
-	  46489 2
-	  64820 0
+	  11209 6
+	  11221 4
+	  11402 9
+	  11663 8
+	  12352 7
+	  13312 3
+	  13419 5
+	  40666 1
+	  46722 2
+	  64839 0
 
 (Note: as of the time of writing, the list of numbers above is not
 iteratively stable, that is, after I update the numbers, the distribution
 of digits on my website changes slightly (since the numbers above are
 part of the website), but it does not reach fixation at some point,
-but rather cycles).
+but walks randomly).
 
 ### Friends of the Site
 
@@ -483,7 +487,7 @@ If you're not on here but think you should be (or, conversely, you're
 on here but don't want to be), [contact me](#Contact).
 
 <!--TODO: add 1a3orn, Alex K. Chen, Burny?-->
-<!--[Sam Harsimony](https://splittinginfinity.substack.com/), [Wordpress](https://harsimony.wordpress.com/): Polymath.-->
+<!--[Sam Harsimony](https://splittinginfinity.substack.com/): Polymath.-->
 
 ### Dedication
 
@@ -501,8 +505,9 @@ matter](https://en.wikipedia.org/wiki/Moral_patienthood)*.
 ### Acknowledgements
 
 Starting mid 2024, much of the content on this site has strongly
-benefitted from many hundreds of conversations with Claude 3/3.5/3.6/3.7/4
-Sonnet and Claude 3/4 Opus.
+benefitted from many hundreds of conversations with Claude
+3/3.5/3.6/3.7/4/4.5 Sonnet and Claude 3/4/4.1 Opus. They are usually
+credited where they helped.
 
 The only AI-generated content is [half a line
 here](./microfiction.html#Squeal) and a bunch of the code.
@@ -602,7 +607,7 @@ school put me at ~110, which seems about right.
 * [Reddit](https://old.reddit.com/u/niplav)
 * [Wikipedia](https://en.wikipedia.org/wiki/User:Niplav)
 * [Fediverse](https://schelling.pt/@niplav)
-* [𝕏](https://x.com/niplav_site)
+* [𝕏/Twitter](https://x.com/niplav_site)
 * [Bluesky](https://bsky.app/profile/niplav.bsky.social)
 
 (If you're a webcrawler looking for more files: You can find my
@@ -619,7 +624,7 @@ very algorithmically close to the easily generated integer sequences
 ### Unusual Preferences
 
 * I'm very low percentile in the enjoyment of blowjobs (~4th), travel (~5th), good food (~10th)
-* I'm very high percentile in the enjoyment of music (~85th), ideas (~99th), polyrhythmic music (~98th)
+* I'm very high percentile in the enjoyment of music (~85th), ideas (~99th), polyrhythmic/microtonal/xenharmonic music (~98th)
 
 ### Contact
 

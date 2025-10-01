@@ -23,15 +23,33 @@ the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
 
+October 2025
+-------------
+
+* [Shake Brains First](./notes.html#Shake_Brains_First): Lots of people have the wrong frame for neurotech.
+
+### Links
+
+* [The limits of the proposed 'behavioral immune system' (William Buckner, 2021)](https://traditionsofconflict.com/blog/2021/2/5/the-limits-of-the-proposed-behavioral-immune-system)
+
 September 2025
 ---------------
 
 * [Text Reviews](./text_reviews.html):
 	* [Die Chinesen (Stefan Baron/Guangyan Yin-Baron, 2019)](./text_reviews.html#Die_Chinesen_Stefan_BaronGuangyan_YinBaron_2019): Review in German. Solid introduction, nothing astonishing.
 
-Editing ["How Often Does ¬Correlation ⇏ ¬Causation?"](./cause.html),
-["Black Hole Mops"](./mop.html), ["Pergraphs"](./pergraphs.html),
-[“Mugging-Immune Utility Functions”](./mugging.html).
+Editing [How Often Does ¬Correlation ⇏ ¬Causation?](./cause.html),
+[Black Hole Mops](./mop.html), [Pergraphs](./pergraphs.html),
+[Mugging-Immune Utility Functions](./mugging.html).
+
+### Links
+
+* [Partisan game (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Partisan_game)
+* [What do numbers look like? (John Williamson, 2018)](https://johnhw.github.io/umap_primes/index.md.html)
+* [Crucial consideration (Aaron Gertler/Pablo/Leo, 2023)](https://forum.effectivealtruism.org/topics/crucial-consideration)
+* [Concept-Shaped Holes Can Be Impossible To Notice (Scott Alexander, 2017)](https://slatestarcodex.com/2017/11/07/concept-shaped-holes-can-be-impossible-to-notice/)
+* [Evidential Correlations are Subjective, and it might be a problem (Martín Soto, 2024)](https://www.lesswrong.com/s/Z6vSYoeNBXbDxhARn/p/DzhQN9WKz8zYvrq4a)
+* [Graphs are cool (Gavin Leech, 2020)](https://www.gleech.org/graphs)
 
 August 2025
 ------------

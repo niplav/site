@@ -1,7 +1,7 @@
 [home](./index.html)
 ---------------------
 
-*author: niplav, created: 2022-06-18, modified: 2025-02-15, language: english, status: draft, importance: 2, confidence: log*
+*author: niplav, created: 2022-06-18, modified: 2025-10-01, language: english, status: in progress, importance: 2, confidence: log*
 
 > Idea & format stolen shamelessly from [Gavin
 Leech](https://www.gleech.org/favs/all/).
@@ -9,10 +9,41 @@ Leech](https://www.gleech.org/favs/all/).
 Favorite Things
 ================
 
-Texts
-------
+Text
+-----
+
+### Words
+
+* "__tjimaruwentakaruwala__": A song "sung specifically to threaten a man who did not fulfill the terms of a marriage exchange", in which two men promised to marry each other's sisters or daughters, from the [Tiwi people](https://en.wikipedia.org/wiki/Tiwi_people).
+* "[__ukuhlonipha__](https://en.wikipedia.org/wiki/Avoidance_speech)": "A system of ritual avoidance observed as a mark of respect especially by Xhosa and Zulu wives towards their male relatives by marriage". ([Source](https://dsae.co.za/entry/hlonipha/e03037))
+* English
+	* "corrigibility"
+	* "antisemanticity"
+	* "crestfallen"
+	* "nomenclatural harvesting"
+* German
+	* "bewahren"
+	* "Kabeljau"
+	* "Sollbruchstelle"
+	* "Ablaufdatum"
+	* "Geizkragen"
+	* "pervers"
+	* "etwas auf Vordermann bringen"
+	* "mit Hängen und Würgen"
+	* "hanebüchen"
+	* "Verdauungsspaziergang"
+	* "[Erbfeindschaft](https://en.wikipedia.org/wiki/Erbfeindschaft)"
+	* "[Blockwart](https://en.wikipedia.org/wiki/Blockwart)"
+	* "[Reinheitsgebot](https://en.wikipedia.org/wiki/Reinheitsgebot)"
+	* "Reizüberflutung"
+	* "Jugendtraum", e.g. [Kronecker's Jugendtraum](https://en.wikipedia.org/wiki/Kronecker_Jugendtraum)
+	* "Fremdscham"
+
+<!--TODO: Aboriginals used the word "ooga" (staring eyes) for [australite](https://en.wikipedia.org/wiki/Australite) in ceremonies-->
 
 ### Tweets
+
+<!--TODO: copy text/images and link them-->
 
 * https://x.com/VesselOfSpirit/status/1296689138234580994
 * https://x.com/apoorvasriniva/status/1870240726170079433
@@ -30,11 +61,7 @@ Luis Borges, 1964), [Hyperions Schicksalslied (Friedrich Hölderlin,
 1797)](https://www.textlog.de/17824.html), and An die Freude (Friedrich
 Schiller, 1805).
 
-<!--
-
-### Papers
-
--->
+<!--### Papers-->
 
 ### Blogposts
 
@@ -112,13 +139,12 @@ Revolutions](https://www.goodreads.com/book/show/40152.Only_Revolutions)
 and [The
 Familiar](https://www.goodreads.com/book/show/23012473-one-rainy-day-in-may)…).
 
+<!--TODO: languages-->
+
 Audio
 ------
 
-<!--
-#### Albums
-
--->
+<!--#### Albums-->
 
 #### Musicians
 
@@ -204,9 +230,7 @@ Welt am Draht I](https://www.imdb.com/title/tt0070904/) and
 [II](https://www.imdb.com/title/tt0070904/), and [The Element of
 Crime](https://www.imdb.com/title/tt0087280/).
 
-<!--
-### Series
--->
+<!--### Series-->
 
 ### YouTube
 
@@ -260,12 +284,11 @@ Algorithmic Lucidity](http://zackmdavis.net/blog/); my favorite
 philosophy blogs are [Entirely Useless](https://entirelyuseless.com/)
 and [Metamoderna](http://metamoderna.org/?lang=en).
 
-I don't read many blogs about politics per se,
-but I like the (in different ways) spicy [The Real
-Movement](https://therealmovement.wordpress.com/) and [Unqualified
-Reservations](https://unqualified-reservations.org/); good insight porn is
-hard to come by these days, but I have made good catch by trawling through
-the archives of [Hotel Concierge](https://hotelconcierge.tumblr.com/),
+I don't read many blogs about politics per se, but I like the spicy
+[The Real Movement](https://therealmovement.wordpress.com/);
+good insight porn is hard to come by these days, but I
+have made good catch by trawling through the archives of
+[Hotel Concierge](https://hotelconcierge.tumblr.com/),
 [The Last Psychiatrist](https://thelastpsychiatrist.com/),
 [sam[]zdat](https://samzdat.com/), [An Algorithmic
 Lucidity](http://zackmdavis.net/blog/) and [Traditions of
@@ -293,6 +316,8 @@ Lovecraft](https://zerohplovecraft.wordpress.com/) and [Things of
 Interest](https://qntm.org) present two very different (but both
 delightful) options. The [SCP Wiki](http://www.scp-wiki.net/) is one of
 a kind, a true product of the internet age.
+
+[LessWrong](https://lesswrong.com/allPosts) is water.
 
 ### Wikis
 
@@ -361,13 +386,11 @@ meaning that has yet made it into unicode), [Sutton
 SignWriting](https://en.wikipedia.org/wiki/Sutton_SignWriting_\(Unicode_block\)),
 and the [Yi script](https://en.wikipedia.org/wiki/Yi_script).
 
-<!--
-### Programming Languages
+<!--### Programming Languages
 
 ### Operating Systems
 
-### Software
--->
+### Software-->
 
 Ideas
 ------
@@ -381,9 +404,7 @@ and [open borders](https://en.wikipedia.org/wiki/Open_border)
 goodness](https://social.freetalklive.com/@niplav/109077595423869299),
 and see also the [dedicated site](https://openborders.info/)).
 
-<!--
-### Philosophy
--->
+<!--### Philosophy-->
 
 More
 -----
@@ -416,5 +437,3 @@ of a whiteboard with two other people boggling at a hard problem, taking
 MDMA in the presence of effective altruists after an EA conference,
 and executing a really clean daygame approach (all of these involve
 other people, hm…).
-
-<!--TODO: languages-->

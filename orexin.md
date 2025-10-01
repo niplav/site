@@ -136,8 +136,8 @@ Literature
 
 *SD stands for "sleep deprivation"*
 
-Experimental Protocol
-----------------------
+Experimental Log
+------------------
 
 ### Batch 1
 
@@ -177,5 +177,9 @@ Experimental Protocol
 	* Feeling more alert after taking it, slightly hungry (though that could've been the case beforehand already)
 	* Emotional status fine, slightly cold, last dream before waking up was indicative of some interesting trauma related to being clumsy and breaking things that are fragile (I personally now think most things are just too fragile, and we're rich enough to be able to afford robust things)
 	* Took stimulants ~45 minutes after Orexin, feeling mostly awake but energetic at ~11:00
+* Wednesday night: Took melatonin and magnesium
+* Wednesday:
+	* Took Orexin-A relatively late, around 08:30. While taking, at first I hade a sort of sharpness in my right nostril, I guess this was just because the liquid was irritating it. Went away after spraying more
+	* Feeling refreshed immediately after taking it, might just be the [mammalian dive reflex](https://en.wikipedia.org/wiki/Mammalian_dive_reflex), possibly this was the Orexin<sub>65%</sub>
 
 [^1]: Even demonstrating one-off effectiveness would be cool: It's often the case that people have short-term sleep deprivation, and would like to ameliorate the effects.
