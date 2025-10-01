@@ -1,6 +1,8 @@
 # Cross-Domain System Analogies
 
+
 ## Runaway Amplification Effects
+
 *Small inputs causing disproportionately large, potentially destructive outputs*
 
 | Biology | Neural Networks | Markets | Social Systems | Organizations | Ecosystems | Meditation |
@@ -10,6 +12,7 @@
 | Autoimmune disorders | — | Bank runs | — | — | — | — |
 
 ## Selfish Replication & Information Corruption
+
 *Self-interested elements that exploit systems for their own propagation*
 
 | Biology | Neural Networks | Markets | Organizations | Evolution |
@@ -19,6 +22,7 @@
 | Cancer | — | Ponzi schemes | Management consultants | — |
 
 ## System Defense Overreactions
+
 *Protective mechanisms that become harmful when overactive*
 
 | Biology | Computing | Social Systems | Organizations | Markets |
@@ -28,6 +32,7 @@
 | — | DDoS protection blocking legitimate traffic | Cancel culture | Zero-tolerance policies | Market manipulation penalties |
 
 ## Information/Resource Flow Blockages
+
 *System arteries getting clogged, preventing necessary circulation*
 
 | Biology | Computing | Markets | Transport | Organizations | Neural Networks |
@@ -37,6 +42,7 @@
 | — | Deadlocks | — | — | Approval bottlenecks | — |
 
 ## Resource Overconsumption & Explosive Growth
+
 *Entities consuming resources faster than sustainable, leading to system collapse*
 
 | Computing | Biology | Markets | Organizations | Ecosystems | Social Systems |
@@ -46,6 +52,7 @@
 | — | Bacterial overgrowth | — | Meeting proliferation | — | Information overload |
 
 ## Compression/Decompression Attacks
+
 *Small, innocent-looking inputs that explode when processed*
 
 | Computing | Biology | Organizations | Markets | Cognitive |
@@ -55,6 +62,7 @@
 | Algorithmic complexity attacks | Autoimmune triggers | Innocent questions that expose systemic problems | — | Gotcha questions |
 
 ## Positive Feedback Collapse
+
 *Self-reinforcing cycles that lead to system breakdown*
 
 | Markets | Social Systems | Ecosystems | Tech Platforms | Neural Networks | Organizations |
@@ -64,6 +72,7 @@
 | — | Social contagion | — | Platform abandonment | — | Talent flight |
 
 ## Error Correction & Adaptation Mechanisms
+
 *Systems that maintain stability by correcting deviations*
 
 | Biology | ML Systems | Organizations | Markets | Evolution |
@@ -73,6 +82,7 @@
 | Homeostasis | Batch normalization | Feedback loops | Market makers | Genetic redundancy |
 
 ## Tolerance & Regulatory Capture
+
 *Systems learning to ignore what should be threats*
 
 | Biology | Politics | ML Systems | Organizations |
@@ -82,6 +92,7 @@
 | — | Revolving door | — | Stockholm syndrome |
 
 ## Knowledge Transfer Across Domains
+
 *Mechanisms for spreading useful information/capabilities*
 
 | Biology | ML Systems | Organizations | Culture |
@@ -91,6 +102,7 @@
 | Symbiosis | Model distillation | Strategic alliances | Cross-pollination |
 
 ## System Pruning & Optimization
+
 *Removing inefficiencies while preserving function*
 
 | Biology | ML Systems | Organizations | Markets |
@@ -100,6 +112,7 @@
 | — | Weight decay | — | Bankruptcy |
 
 ## Amplification Through Momentum
+
 *Systems where current state determines rate of change*
 
 | Markets | Neural Networks | Social Systems | Cognitive |
@@ -109,6 +122,7 @@
 | — | Gradient accumulation | — | Belief perseverance |
 
 ## Stable Pathological Oscillations
+
 *Systems stuck in destructive cycles rather than collapsing*
 
 | Audio | Economics | Psychology | Organizations | ML Systems | Biology | Mathematics |
@@ -117,7 +131,8 @@
 | Audio coupling | Boom-bust cycles | Rumination | Meeting-about-meetings | Mode switching | Predator-prey cycles | Strange attractors |
 | — | Inflation-deflation | — | Restructure-restructure | — | — | — |
 
-## Parasitic/Exploitative Relationships  
+## Parasitic/Exploitative Relationships
+
 *Entities that hijack host systems for their own benefit while appearing benign*
 
 | AI Systems | Biology | Psychology | Organizations | Media/Culture |

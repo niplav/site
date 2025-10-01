@@ -140,7 +140,7 @@ HTML=index.html \
 	outputs/job.html \
 	outputs/last.html \
 	outputs/niplavistan.html \
-	outputs/sacrifice.html \
+	outputs/thousand.html \
 	outputs/scaling.html \
 	attic/eacrit.html \
 	attic/life_improvements_2030.html \

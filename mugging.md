@@ -93,7 +93,7 @@ quite write `$S(2, k-l(C_n)$` copies of the numéraire on the tape,
 but it will grow much faster than any standard sequence one may care to
 name, definitely faster than any polynomial, faster than factorials,
 surely faster than the Ackermann function… and, most notably, much
-much faster than an exponential.
+*much* faster than an exponential.
 
 __Definition__: I'll give the growth rate of `$M_k$` the name `$CB(k)$`,
 the "__copy-beaver number__", which is the maximal number of copies a

@@ -17,6 +17,8 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Introducing Claude Sonnet 4.5 (Anthropic, 2025)](https://www.anthropic.com/news/claude-sonnet-4-5)
+* |2 Kimi K2: Open Agentic Intelligence (Kimi Team, 2025)
 * [Maximal set (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Maximal_set)
 * [Cofiniteness (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Cofiniteness)
 * [Gollum's Manipulation (Claude Opus 4.1, 2025)](https://claude.ai/public/artifacts/6c90679b-108b-42aa-a0b3-317aaf9aa6e6)

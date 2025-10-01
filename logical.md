@@ -9,6 +9,17 @@
 Logical Correlation
 ====================
 
+Pre-Script
+-----------
+
+I've now realized that this post is not very useful, because the methods
+outlined only work for programs you can run, and once you've run two
+programs you can just determine what their output is. I still think this
+is interesting to think about, both from a god's eye view perspective
+à la Ω, but it's not very useful for embedded agency type thinking.
+
+<!--TODO: rename to Program Correlation?-->
+
 <!--https://claude.ai/chat/8150b93b-59d9-4068-9ecb-38a37e2d21e8-->
 
 Attention conservation notice: Premature formalization,
