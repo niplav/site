@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-10-01, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-10-03, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -2853,6 +2853,79 @@ I think these kinds of applications are more realistic than current
 plans for mentalese communication between humans or instant Wikipedia
 fact recall, and still very useful.
 
-<!--Tegmark II and Futurism
-------------------------
--->
+I Believe the Value Misspecification Argument
+----------------------------------------------
+
+The story goes like this: People used to believe that LLMs would
+take your instructions literally, and turn the entire universe
+into paperclips if you instructed them to create you a paperclip
+factory. But if you ask current LLMs, they tell you they won't
+turn the entire universe into a paperclip factory just because
+you expressed a weak desire bring order to your government
+forms. Thus, the original argument (the ["Value Misspecification
+Argument"](https://www.lesswrong.com/posts/i5kijcjFJD6bn7dwq/evaluating-the-historical-value-misspecification-argument))
+is wrong and the people who believed it should at least stop believing
+it).
+
+Here's a *different* story: Advanced AI systems are going to be
+optimizers. They are going to be optimizing *something*. What
+would that something be? There are two possibilities: (1) They
+are going to optimize a function of their world model[^activ], or (2)
+they are going to optimize a function of the sensors. (See [Dewey,
+2010](./cs/ai/alignment/value_learning/learning_what_to_value_dewey_2010.pdf)
+on this.). Furthermore, so goes the assumption, they will be
+[goal-guarding](https://arxiv.org/abs/2412.14093): They will take actions
+to prevent the target of their optimization from being changed.  At some
+point then an AI will fix its goal in place. This goal will be to either
+optimize some function of its world model, or of its sensors. In the
+case (1) it will want to keep that goal, so for instrumental purposes
+it may continue improving its world model as it becomes more capable,
+but keep a copy of the old world model as a referent for what it truly
+values. In the case (2) it will simply have to keep the sensors.
+
+[^activ]: Very likely its weights or activations.
+
+What happens if an AI optimizes a function of its world model? Well,
+there's precedent. [DeepDream](https://en.wikipedia.org/wiki/DeepDream)
+images were created by finding maximizing activations for neurons in
+the [ConvNet](https://en.wikipedia.org/wiki/Convolutional_neural_net)
+Inception trained on [ImageNet](https://en.wikipedia.org/wiki/ImageNet).
+These are some of the results:
+
+![](img/misspecification/dog_1.jpg)
+
+![](img/misspecification/dog_2.jpg)
+
+![](img/misspecification/dog_3.jpg)
+
+![](img/misspecification/dog_4.jpg)
+
+So, even if you've solved the [inner alignment
+problem](https://www.lesswrong.com/s/r9tYkB2a8Fp4DN8yB/p/pL56xPoniLvtMDQ4J),
+and you get some representation of human values into your AI, if it
+goal-guards and then ramps up its optimization power, the result will
+probably look like the DeepDream dogs, but for Helpfulness, Harmlessness
+and Honesty. I believe we once called this problem of finding a function
+that is safe to optimize the "outer alignment problem", but most people
+seem to have forgotten about this, or believe it's a solved problem.
+
+One could argue that current LLM representations of human values are
+robust to strong optimization, or that they will be robust to strong
+optimization at the time when AIs are capable of taking over, I think
+that's probably wrong, because (1) LLMs have many more degrees of freedom
+than DeepDream in their internal representations than e.g. Inception and
+(2) I don't think humans have yet found any function that's safe and
+useful to optimize, so I don't think it's going to be "in the training data".
+
+If an advanced AI optimizes some functions of its
+sensors that is usually called wireheading or [reward
+tampering](https://www.anthropic.com/research/reward-tampering)
+or the problem of inducing [environmental
+goals](https://arbital.com/p/environmental_goals/), and it doesn't lead
+to an AI sitting in the corner being helpless, but probably like trying
+to agentically create an expanding protective shell around some register
+in a computer somewhere.
+
+This argument fails if (1) advanced AIs are not optimizers, (2) AIs are
+not goal-guarding, (3) or representations can't be easily extracted for
+later optimization.
