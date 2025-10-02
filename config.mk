@@ -142,6 +142,7 @@ HTML=index.html \
 	outputs/niplavistan.html \
 	outputs/thousand.html \
 	outputs/scaling.html \
+	outputs/verification.html \
 	attic/eacrit.html \
 	attic/life_improvements_2030.html \
 	attic/reward.html \

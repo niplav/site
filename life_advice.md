@@ -228,7 +228,7 @@ Existence of Long Tails for Bliss and Suffering")<!--TODO: better links for this
 			a day probably has zero net marginal life
 			expectancy (taking a baseline of jogging,
 			high-intensity interval training probably needs
-			less). If you are at hat point, you're probably
+			less). If you are at that point, you're probably
 			in the 90th percentile of people doing exercise
 			anyway. More probably isn't really needed,
 			even for becoming better looking.
