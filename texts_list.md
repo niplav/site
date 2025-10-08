@@ -19,7 +19,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 
 * [Merism (English Wikipedia, 2025)](https://en.wikipedia.org/wiki/Merism)
 * [How disagreements about Evidential Correlations could be settled (Martín Soto, 2024)](https://www.lesswrong.com/s/Z6vSYoeNBXbDxhARn/p/o64GLrKahR8QrbFQW)
-* [\* Evidential Correlations are Subjective, and it might be a problem (Martín Soto, 2024)](https://www.lesswrong.com/s/Z6vSYoeNBXbDxhARn/p/DzhQN9WKz8zYvrq4a)
+* [Evidential Correlations are Subjective, and it might be a problem (Martín Soto, 2024)](https://www.lesswrong.com/s/Z6vSYoeNBXbDxhARn/p/DzhQN9WKz8zYvrq4a)
 * |4 Gemini 2.5 Pro Preview Model Card (Google Deepmind, 2025)
 * [Introducing Claude Sonnet 4.5 (Anthropic, 2025)](https://www.anthropic.com/news/claude-sonnet-4-5)
 * |15 Kimi K2: Open Agentic Intelligence (Kimi Team, 2025)

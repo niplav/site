@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-08-27, modified: 2025-09-12, language: english, status: draft, importance: 4, confidence: possible*
+*author: niplav, created: 2025-08-27, modified: 2025-10-08, language: english, status: draft, importance: 4, confidence: possible*
 
 > __I [~formalize](#Formalizing_Pascals_Mugging) [Pascal's
 mugging](https://nickbostrom.com/papers/pascal.pdf)
@@ -25,10 +25,11 @@ might escape the very harsh bound I have discovered.
 In previous discussions, a commonly-agreed upon
 solution to Pascal's mugging was to have a [bounded utility
 function](https://www.lesswrong.com/posts/gJxHRxnuFudzBFPuu/better-impossibility-result-for-unbounded-utilities),
-which is unsatisfying from a utilitarian perspective—a utilitarian
-ideally wants to be able to say that twice as much of a good thing is
-twice as good, or at least say that strictly more of a good thing is
-strictly better.
+which is unsatisfying from a utilitarian perspective—a
+utilitarian ideally wants to be able to say that twice as much
+of a good thing is twice as good, or at least say that [strictly
+more](https://en.wikipedia.org/wiki/Strictly_increasing_function) of a
+good thing is strictly better.
 
 ### ~Formalizing Pascal's Mugging
 
@@ -143,23 +144,23 @@ too quickly, *but* we can *identify* the growth rate of utility for
 our pseudo-numéraire so that we don't get this kind of divergence
 of utilities.
 
-Specifically, we need `$U(CB(k)) \cdot 2^{-k} \le c$`, which (under the
+Specifically, we need a utility function `$U_i$` immune to mugging so that `$U_i(CB(k)) \cdot 2^{-k} \le c$`, which (under the
 assumption that `$CB$` is invertible) leads to:
 
 <div>
-        $$U(CB(k)) \cdot 2^{-k} \le c \Leftrightarrow \\
-        U(CB(k)) \le c \cdot 2^k \Leftrightarrow \\
-        U(k) \le c \cdot 2^{CB^{-1}(k)}$$
+        $$U_i(CB(k)) \cdot 2^{-k} \le c \Leftrightarrow \\
+        U_i(CB(k)) \le c \cdot 2^k \Leftrightarrow \\
+        U_i(k) \le c \cdot 2^{CB^{-1}(k)}$$
 </div>
 
-(Abusing notation, `$U(k)$` is the utility of `$k$` copies of the
+(Abusing notation, `$U_i(k)$` is the utility of `$k$` copies of the
 pseudo-numéraire.)
 
 __Definition__: We can now identify a set of "__mugging-immune utility
 functions__" with a single pseudo-numéraire `$k$`:
 
 <div>
-        $$\mathcal{I}=\{U : \mathbb{R}^+ \rightarrow \mathbb{R} \mid U(k) \le c \cdot 2^{CB^{-1}(k)}\}$$
+        $$\mathcal{I}=\{U_i : \mathbb{R}^+ \rightarrow \mathbb{R} \mid U_i(k) \le c \cdot 2^{CB^{-1}(k)}\}$$
 </div>
 
 This result isn't *exact*—there may be programs that are mugger-like
@@ -201,10 +202,14 @@ you might as well be.
 
 Is there hope?
 
-Well, maybe. I elided a lot of constant factors, asymptotic growth rates
-&c from the sketch above; my hope is that one can "choose" the level at
-which one becomes mugging-immune by selecting the right constants and
-tweaking the growth rate. After all, the inverse copying beaver grows
+Well, maybe. I elided a lot of constant factors, asymptotic growth
+rates &c from the sketch above. My hope is that one can "choose"
+the level at which one becomes mugging-immune by selecting the
+right constants and tweaking the growth rate. The resulting utility
+function should then be ~linear for the resources attainable in
+our current guesses for the attainable value in the [reachable
+universe](https://en.wikipedia.org/wiki/Observable_Universe), and grows
+more slowly after that. After all, the inverse copying beaver grows
 so slowly that it can look *like* a bounded utility function if the
 constants are selected right.
 

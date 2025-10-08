@@ -35,7 +35,7 @@ takes time proportional to just reading the input and certificate once.
 - Problems involving graph structure comparison (Graph Isomorphism)
 - Number-theoretic problems with multi-digit arithmetic (Factorization, Discrete Log)
 
-**No naturally galactic verification:** Surprisingly, there appear
+**No naturally superquadratic verification:** Surprisingly, there appear
 to be no natural NP problems requiring O(n^k) verification for large
 k. This is unexpected - NP allows *any* polynomial verification time,
 so why don't we see O(n^{100}) verifiers in practice?
@@ -49,7 +49,7 @@ so why don't we see O(n^{100}) verifiers in practice?
 matrices or edge lists changes verification complexity. Standard
 convention uses edge lists, keeping most graph problems at O(m).
 
-## The Mystery: Where Are the Cubic+ Verifiers?
+## The Mystery: Where Are the Superquadratic Verifiers?
 
 It's straightforward to *construct* artificial NP problems with
 arbitrarily high polynomial verification complexity (e.g., by padding

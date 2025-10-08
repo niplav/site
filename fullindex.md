@@ -277,6 +277,7 @@ but usually not that much.
 * [Niplavistan](./outputs/niplavistan.html)
 * [A Thousand Embeddings: Toward a Schizo-Analysis of Large Language Models](./outputs/thousand.html)
 * [Do Games Favor Offense or Defense with Increasing Player Skill?](./outputs/scaling.html)
+* [Verification Complexity of NP Problems](./outputs/verification.html)
 
 Translations
 ------------

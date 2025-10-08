@@ -18,6 +18,11 @@ programs you can just determine what their output is. I still think this
 is interesting to think about, both from a god's eye view perspective
 à la Ω, but it's not very useful for embedded agency type thinking.
 
+<!--The question we want to answer is: I interact with P, an exact copy
+of myself that is causally isolated interacts with P'. What is the sigle
+number I'd want to know about the relation between P and P' to maximize
+my chances, having run P already? Hm not quite either though…-->
+
 <!--TODO: rename to Program Correlation?-->
 
 <!--https://claude.ai/chat/8150b93b-59d9-4068-9ecb-38a37e2d21e8-->
