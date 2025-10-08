@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2025-09-30, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2025-10-08, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -27,6 +27,8 @@ October 2025
 -------------
 
 * [Shake Brains First](./notes.html#Shake_Brains_First): Lots of people have the wrong frame for neurotech.
+* [I Believe the Value Misspecification Argument](./notes.html#I_Believe_the_Value_Misspecification_Argument)
+* [Some Thoughts on the Stupid Successionism Debate](./notes.html#Some_Thoughts_on_the_Stupid_Successionism_Debate)
 
 ### Links
 

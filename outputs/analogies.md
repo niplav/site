@@ -8,7 +8,7 @@
 | Biology | Neural Networks | Markets | Social Systems | Organizations | Ecosystems | Meditation |
 |---------|----------------|---------|----------------|---------------|------------|------------|
 | Epilepsy | Exploding gradients | Bullwhip effect | Mass panic/riots | Bureaucratic cascade | Algal blooms (hypereutrophy) | Jhanas |
-| Cytokine storm | Mode collapse | Market bubbles | Moral panics | Mass resignations | Extinction cascades | — |
+| Cytokine storm | Mode collapse | Market bubbles | Moral panics | Mass resignations | Extinction cascades | Pre-insight buildup |
 | Autoimmune disorders | — | Bank runs | — | — | — | — |
 
 ## Selfish Replication & Information Corruption
