@@ -1503,6 +1503,7 @@ One might think all we do is stamp-collecting.
 		* [Non-silicate](https://en.wikipedia.org/wiki/Classification_of_non-silicate_minerals)
 	* Also [meteorites](https://en.wikipedia.org/wiki/Classification_of_meteorites)
 	* [Trewartha](https://en.wikipedia.org/wiki/Trewartha_climate_classification) and [Köppen](https://en.wikipedia.org/wiki/Köppen_Climate_Classification) climate classifications
+	* [Diamonds](https://en.wikipedia.org/wiki/Diamond_type)
 * Linguistics
 	* [International phonetic alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)
 	* [Language families](https://en.wikipedia.org/wiki/Language_families), [list](https://en.wikipedia.org/wiki/List_of_language_families)
@@ -1949,6 +1950,10 @@ arbitrary-length lists of reals, but a common case could be to set
 `$\kappa([w_i]_l)=\sum_{j=0}^l [w_i]_j$`.
 
 It's plausible that by now the dear reader is hoping for some pictures.
+
+### See Also
+
+* [Finally We May Have a Path to the Fundamental Theory of Physics… and It’s Beautiful (Steven Wolfram, 2020)](https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/)
 
 How Often Does Taking Away Options Help?
 -----------------------------------------
@@ -2828,7 +2833,7 @@ is difficult to interpret beyond current understanding of neuroanatomy
 *and* doesn't translate across people.
 
 1. There is great promise in simply testing existing stimulation techniques like [tDCS](https://en.wikipedia.org/wiki/Transcranial_direct-current_stimulation)/[tFUS](https://en.wikipedia.org/wiki/Transcranial_Pulsed_Ultrasound)/[TMS](https://en.wikipedia.org/wiki/Transcranial_Magnetic_Stimulation) and (potentially) [DBS](https://en.wikipedia.org/wiki/Deep-brain_stimulation) on our current understanding of neuroanatomical structure, using such tests to validate our understanding, and induce basic sensations/emotions in people.
-	1. Applications of this include increasing people's hedonic tone, finding ways to increase specific variants of [psychological](https://stephenmalina.com/post/2021-07-01-energetic-aliens-among-us/) [stamina](https://www.overcomingbias.com/p/stamina-succeedshtml) and willpower/motivation/discipline/resisting temptation (Claude 4.5 Sonnet tells me the neuroanamoty here indicates that the neuroanatomy here is slightly complicated, hinting at several different aspects of willpower), reducing fear in contexts where it isn't appropriate, and so on.
+	1. Applications of this include increasing people's hedonic tone, finding ways to increase specific variants of [psychological](https://stephenmalina.com/post/2021-07-01-energetic-aliens-among-us/) [stamina](https://www.overcomingbias.com/p/stamina-succeedshtml) and willpower/motivation/discipline/resisting temptation (Claude 4.5 Sonnet tells me the neuroanatomy here is slightly complicated, hinting at several different aspects of willpower), reducing fear in contexts where it isn't appropriate, and so on.
 	2. Extending such search could involve stimulating some regions based on hunches and seeing what happens, [Constantin 2023](https://sarahconstantin.substack.com/p/why-should-neuroenhancement-be-possible) goes into this.
 	3. There's some work happening here already, see e.g. [Reznik et al. 2014](./doc/stimulation/transcranial_ultrasound_reduces_worry_reznik_et_al_2014.pdf) for reducing worry and [Sanguinetti et al. 2017](./doc/stimulation/transcranial_ultrasound_improves_mood_and_affects_sanguinetti_et_al_2017.pdf) for improving mood, as well as rTMS for treating [depression](https://en.wikipedia.org/wiki/Transcranial_Magnetic_Stimulation#Depression) and [OCD](https://en.wikipedia.org/wiki/Transcranial_Magnetic_Stimulation#Obsessive-Compulsive_Disorder_\(OCD\)).
 2. If we have Neuralink-style implanted BCIs available, the immediate application I can think of is the ability to capture, store and replay mental states, which I'll call a "mental camera".
@@ -2972,8 +2977,8 @@ worlds](https://www.lesswrong.com/posts/nFv2buafNc9jSaxAH/siren-worlds-and-the-p
 
 The goal is to find that generator and lock *that* in, plausibly seeded
 with the current desires, wishes, utilities, wantings, urges, fetishes
-and aspirations of humans that are currently alive, and *not* lock those
-in directly<!--TODO: link an even deeper atheism-->.
+and aspirations of humans that are currently alive, and *not* [lock those
+in directly](https://joecarlsmith.com/2024/01/11/an-even-deeper-atheism).
 
 As for (3): That's usually just a misunderstanding, especially when
 transhumanists speak to transhumanists. There are people who don't
@@ -3017,7 +3022,7 @@ Here's some thoughts on those arguments:
 	1. That view needs to explain why a lot of the natural world includes [strange phenomena in evolution](https://www.lesswrong.com/s/MH2b8NfWv22dBtrs8/p/pLRogvJLPPg6Mrvg4) and to a lesser extent predation, parasitism, hostile takeover of companies, invasions and the likes. (The latter aren't exactly *counter* human values, but human values usually include wanting to avoid those outcomes at mutual benefit.)
 5. My answer depends on the variant but is basically "no", "what the hell", maybe "what into the payoff matrices though?"
 
-<!--Game theory of advocating successionism-->
+<!--Game theory of advocating successionism, Hansonian "Your default successors will also be “misaligned” in this way", Where is the abstract generator? In the genome? In the environment + culture + genome? Distinction between gripping maximally tight/being maximally lose vs. the spectrum inbetween-->
 
 <!--
 Why Are There So Few Natural NP-Complete Problems with Superquadratic Verifiers?

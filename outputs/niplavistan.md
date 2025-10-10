@@ -157,8 +157,7 @@ musical performances are transcendent, intellectual discourse is
 stimulating, but material culture may feel austere to visitors from
 consumption-signaling societies."*
 
----
+### See Also
 
-*A society that solved coordination at the cost of wanderlust, embraced
-enhancement without losing humanity, and chose sustainable bliss over
-rapid transcendence.*
+* [Nate-culture communication handbook](https://docs.google.com/document/d/1o1JaH2nxbpfHgpx25dwJnQ3dQAPikmlqrn6c9gNP9gE/edit?tab=t.0)
+
