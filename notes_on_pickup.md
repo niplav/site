@@ -379,22 +379,6 @@ difference](#Vascular_Tension_and_Attractiveness) in the success of my
 approaches (in terms of objective results like bringing a chick out on
 a date, or fucking her), so take all of this with a grain of salt.
 
-If You Want To Fuck Hot Chicks, You Have To Approach Them
-----------------------------------------------------------
-
-The muscles you don't train don't grow.
-
-Iron laws.
-
-[Play in hard
-mode](https://thezvi.wordpress.com/2017/08/26/play-in-hard-mode/).
-
-Reality yields, but it yields subtly.
-
-Tell the truth.
-
-Look her in the eye, and no higher — summon all the courage you require…
-
 The Red Quest: An Anthology
 ----------------------------
 
@@ -703,6 +687,7 @@ There are several variants of this that I haven't all tested yet:
 	1. First time she took my instagram, but was fairly non-committal about agreeing to a date when I proposed a location and time. She'd followed me on instagram but hadn't accepted my request to follow back. I showed up at the location & time I'd proposed and she didn't appear, as I expected.
 	2. Second & third time I proposed a time & place, got confirmation, gave my number, didn't hear back until we met at the agreed-upon time and place and went on a date.
 	3. ~~Fourth time outcome is still pending, we agreed on a place & time and I gave her my number. Pretty positive she's going to show up<sub>75%</sub>.~~ She showed up after messaging me that she'd be ten minutes late, the date was lovely :-)
+	4. From four more times I tried this, the girl was noncommittal twice and didn't show up, and twice took my number and then cancelled over text.
 2. Organizing a date and not exchanging any contact information. Risky move, haven't tried it yet. My intuition tells me that this will lead to more flaking.
 3. Organizing a date and taking contact information anyway. I haven't tried this yet, my intuition is that it might be weaker compared to just giving contact information because it shows a lack of trust/dependence on an outcome.
 	1. One advantage here is that one has optionality around the date: If something comes up, e.g. illness, work obligations, family visit &c one can still cancel. In the two other variants there is *no option* of moving any of the date plans.
@@ -748,16 +733,115 @@ dates.
 I'd be curious if this works as well for others as it does for me,
 since in my case it might be confounded by various factors.
 
-<!--
 Waiting Outside a Shop Is Rarely Worth It
 ------------------------------------------
+
+Often, I see a woman and find her attractive, and prepare to approach,
+but I've hesitated for too long and she disappears into a shop. In such
+a situation, three opportunities present themselves:
+
+1. Follow her into the shop and approach her in there
+2. Leave and approach other women
+3. Wait outside the shop until she comes back out
+
+If your approach anxiety can stomach it and you think you can make
+such an approach smoothly, option 1 is the best one, because, why
+not approach? She's still right there, she hasn't disappeared into a
+black hole.
+
+But experience tells me that following a girl into a shop for an approach
+is a level of not having approach anxiety I have only glimpsed in subtle
+parts, and thus the second best heuristic is to simply fuck off and start
+approaching other women. The opportunity cost of waiting outside is too
+high, and it hurts vibe by feeling like a loiterer, plus it violates
+the three-second rule.
+
+The worst option, then, is to wait outside. Part of me wants to defend
+it here (and, indeed, one of my lays came from me waiting outside of
+a shop and approaching her as she came out again), but the time she
+may spend inside is basically unbounded, and the impact on vibe is too
+negative. I'll try to avoid lurking outside a store for a woman as long
+as possible, *especially* when out daygaming with a wing.
 
 Public Transport Has Bad Vibes
 -------------------------------
 
+In similar theme to the previous note, I also try to avoid taking
+public transport during a daygame session like the plague, and instead
+strongly prefer walking everywhere. The reason is that public transport
+usually has bad vibes, reduces internal momentum, requires more though
+(thus potentially kicking oneself out of a zen-like state), and public
+transport *delays* make this all worse.
+
+I can see myself plausibly taking public transport during a session if
+my vibe & state are great and I need to get somewhere qiuckly, but in
+practice my experience recommends against it.
+
 Doing Cold Approach Every Day Is Pretty Powerful
 -------------------------------------------------
 
+The most important variable in daygame is volume. Volume is created
+from momentum.
+
+If you want to increase your momentum, it's pretty important that you
+minimize the number of interruption days with relation to daygame, and
+simply going out to daygame *every day* is a good method to minimize
+such interruptions. I went out every day for about 1½ months at the
+beginning of 2025, and it did wonders to my willingness to approach,
+the strength of my approaches, and my fire for daygame[^abstinence].
+
+Approaching every day was very powerful, but it was taking a lot of
+energy: I'd come home from a session, lie down, and fall asleep at 20:00,
+which usually never happens to me. I guess this was also caused by the
+abstinence from masturbation I was following at the time.
+
+Curiously, the about 150 approaches (maybe more? I still have to
+digitalize my notes) at the time didn't translate into a lay, but I had
+several very fun dates, and a few hilariously horrible ones. The absence
+of lays may have been due to a worsened vibe coming from abstinece,
+but may have also been a product of me being in the r/K wilderness.
+
+The daygame textbooks I've read usually recommend going out three to four
+times a week, for a few hours each. (E.g. Beginner Daygame by Torero &
+Krauser suggests "three weekdays of ten approaches at a time" or "one
+weekend session of twenty approaches"). I now think that the time allotted
+here is too little for the amount of approaches recommended and that
+going out every day for at least an hour is superlinearly more effective.
+
+> In the beginning, doing it once a week for a couple of hours isn’t
+enough.  I’d go out pretty much every day for three to four hours,
+desensitising myself to it and having the minimum aim of getting one set
+of contact details. On weekends I’d spend a whole day on the streets,
+meaning that my vibe reached a crucial tipping point and I could use
+momentum to push my comfort zones.
+
+*—Tom Torero, “Daygame” p. 53, 2014*
+
+> By the end of the Summer I was on fire – the best my daygame had ever
+been. Just by going out every day for over a year, there was zero anxiety
+and a lot of calibration to all sorts of scenarios.
+
+*—Tom Torero, “Daygame” p. 333, 2014*
+
+[^abstinence]: At the time I was also [abstaining from masturbation](./masturbation.html#Amount_of_Approaches), which I believe greatly contributed to the number of approaches I did, though it probably hurt my vibe a bunch, making me more antsy and anxious.
+
+If You Want To Fuck Hot Chicks, You Have To Approach Them
+----------------------------------------------------------
+
+The muscles you don't train don't grow.
+
+Iron laws.
+
+[Play in hard
+mode](https://thezvi.wordpress.com/2017/08/26/play-in-hard-mode/).
+
+Reality yields, but it yields subtly.
+
+Tell the truth.
+
+Look her in the eye, and no higher — summon all the courage you require…
+
+<!--
 On Hot Days A Liter of Orange Juice At The Start of a Session
 --------------------------------------------------------------
 -->

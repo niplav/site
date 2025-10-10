@@ -813,3 +813,13 @@ I continue to maintain that this was a good use of my time.
 ----
 
 ![](./img/memes/ssc_nyt_ahegao.jpg)
+
+Videos
+------
+
+<video src="./vid/misc/opus_moons.mp4" type='video/mp4' controls>
+</video>
+
+Video by
+[@liminal_bardo](https://x.com/liminal_bardo/status/1970220902420819992),
+music is Moons from Schwarz by Patricia Taxxon.

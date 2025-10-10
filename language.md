@@ -568,11 +568,13 @@ Unclaimed Domain Names
 Missing Emoji
 --------------
 
-* Whistling face
-* Face with red eyes
-* Grim determination
-* Sad smile
-* Suspicious squint
+* [Faces](https://en.wikipedia.org/wiki/Emoticons_\(Unicode_block\))
+	* Whistling face
+	* Face with red eyes
+	* Grim determination
+	* Sad smile
+	* Suspicious squint
+	* Wiping sweat off brow
 * Erlenmeyer flask
 * Red star
 * Grass

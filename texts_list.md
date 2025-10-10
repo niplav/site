@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2025-09-18, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2025-10-10, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,26 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Comment on "Towards Measures of Optimisation" (Garrett Baker, 2023)](https://www.lesswrong.com/posts/X6ZjFShxNBNM5QCg4/towards-measures-of-optimisation-3?commentId=pq3fNkm4ARAgzHFZC)
+* [Comment on "Towards Measures of Optimisation" (Alex_Altair, 2023)](https://www.lesswrong.com/posts/X6ZjFShxNBNM5QCg4/towards-measures-of-optimisation-3?commentId=mXRTehePfZSdGk5sx)
+* [Comment on "Towards Measures of Optimisation" (Garrett Baker, 2023)](https://www.lesswrong.com/posts/X6ZjFShxNBNM5QCg4/towards-measures-of-optimisation-3?commentId=LRtSKMTzQaPDHqosw)
+* [Comment on "Towards Measures of Optimisation" (mattmacdermott, 2023)](https://www.lesswrong.com/posts/X6ZjFShxNBNM5QCg4/towards-measures-of-optimisation-3?commentId=wg2NqxbyeDsKi7z2M)
+* [Comment on "Towards Measures of Optimisation" (the gears to ascension, 2023)](https://www.lesswrong.com/posts/X6ZjFShxNBNM5QCg4/towards-measures-of-optimisation-3?commentId=pcMGdFJzvyjjyCNvG)
+* [Comment on "Towards Measures of Optimisation" (Alex_Altair, 2023)](https://www.lesswrong.com/posts/X6ZjFShxNBNM5QCg4/towards-measures-of-optimisation-3?commentId=Ej2vuXkk3S32gSK4d)
+* [Comment on "Towards Measures of Optimisation" (Alexander Gietelink Oldenziel, 2023)](https://www.lesswrong.com/posts/X6ZjFShxNBNM5QCg4/towards-measures-of-optimisation-3?commentId=Rn6MPiNkooXsrphRt)
+* [A small number of samples can poison LLMs of any size (Alexandra Souly/Javier Rando/Ed Chapman/Xander Davies/Burak Hasircioglu/Ezzeldin Shereen/Carlos Mougan/Vasilios Mavroudis/Erik Jones/Chris Hicks/Nicholas Carlini/Yarin Gal/Robert Kirk, 2025)](https://www.anthropic.com/research/small-samples-poison)
+* [AI #137: An OpenAI App For That (Zvi, 2025)](https://www.lesswrong.com/posts/YfvqLidW5BGpiFrNF/ai-137-an-openai-app-for-that)
+* [Petri: An open-source auditing tool to accelerate AI safety research (Kai Fronsdal/Isha Gupta/Abhay Sheshadri/Jonathan Michala/Stephen McAleer/Rowan Wang/Sara Price/Samuel R. Bowman, 2025)](https://alignment.anthropic.com/2025/petri/)
+* [Necromeny (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Necromeny)
+* [Inquiline (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Inquiline)
+* [State of Evaluation Study: Vector Institute Unlocks New Transparency in Benchmarking Global AI Models (Vector Institute, 2025)](https://vectorinstitute.ai/state-of-evaluation-study/)
+* [Thue (programming language) (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Thue_(programming_language))
+* [Finally We May Have a Path to the Fundamental Theory of Physics… and It’s Beautiful (Steven Wolfram, 2020)](https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/)
+* [Blob emoji (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Blob_emoji)
+* [Comment on "Towards Measures of Optimisation" (Alex_Altair, 2023)](https://www.lesswrong.com/posts/X6ZjFShxNBNM5QCg4/towards-measures-of-optimisation-3?commentId=evPeyefFEDWBrbsrN)
+* [Towards Measures of Optimisation (mattmacdermott, Alexander Gietelink Oldenziel, 2023)](https://www.lesswrong.com/posts/X6ZjFShxNBNM5QCg4/towards-measures-of-optimisation-3)
+* [Petri: An open-source auditing tool to accelerate AI safety research (Kai Fronsdal/Isha Gupta/Abhay Sheshadri/Jonathan Michala/Stephen McAleer/Rowan Wang/Sara Price/Samuel R. Bowman, 2025)](https://www.anthropic.com/research/petri-open-source-auditing)
+* Don't Be the Guy (Delicious Tacos, 2025)
 * [Merism (English Wikipedia, 2025)](https://en.wikipedia.org/wiki/Merism)
 * [How disagreements about Evidential Correlations could be settled (Martín Soto, 2024)](https://www.lesswrong.com/s/Z6vSYoeNBXbDxhARn/p/o64GLrKahR8QrbFQW)
 * [Evidential Correlations are Subjective, and it might be a problem (Martín Soto, 2024)](https://www.lesswrong.com/s/Z6vSYoeNBXbDxhARn/p/DzhQN9WKz8zYvrq4a)

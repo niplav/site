@@ -26,9 +26,14 @@ content.
 October 2025
 -------------
 
-* [Shake Brains First](./notes.html#Shake_Brains_First): Lots of people have the wrong frame for neurotech.
-* [I Believe the Value Misspecification Argument](./notes.html#I_Believe_the_Value_Misspecification_Argument)
-* [Some Thoughts on the Stupid Successionism Debate](./notes.html#Some_Thoughts_on_the_Stupid_Successionism_Debate)
+* [Notes](./notes.html):
+	* [Shake Brains First](./notes.html#Shake_Brains_First): Lots of people have the wrong frame for neurotech.
+	* [I Believe the Value Misspecification Argument](./notes.html#I_Believe_the_Value_Misspecification_Argument)
+	* [Some Thoughts on the Stupid Successionism Debate](./notes.html#Some_Thoughts_on_the_Stupid_Successionism_Debate)
+* [Notes on Pickup](./)
+	* [Waiting Outside a Shop Is Rarely Worth It](./notes_on_pickup.html#Waiting_Outside_a_Shop_Is_Rarely_Worth_It)
+	* [Public Transport Has Bad Vibes](./notes_on_pickup.html#Public_Transport_Has_Bad_Vibes)
+	* [Doing Cold Approach Every Day Is Pretty Powerful](./notes_on_pickup.html#Doing_Cold_Approach_Every_Day_Is_Pretty_Powerful)
 
 ### Links
 
