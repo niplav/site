@@ -3028,19 +3028,19 @@ Quantum Computing is about Atoms, not Bits???
 ----------------------------------------------
 
 *epistemic status*: Stating impressions, but I don't know much about
-quantum physics (or computing!). Someone more qualified please write
-the accurate version of this post.
+quantum physics (or quantum computing!). Someone more qualified please
+write the accurate version of this post.
 
-I think people have been hyping quantum computing backwards. The
-specific algorithms that are always brought up as providing a
-relevant speedup over their classical counterparts are [Shor's
-algorithm](https://en.wikipedia.org/wiki/Shor's_Algorithm) and [Grover's
-algorithm](https://en.wikipedia.org/wiki/Grover's_algorithm),
+That said: I think people have been hyping quantum computing
+backwards. The specific algorithms that are always brought up as
+providing a relevant speedup over their classical counterparts are
+[Shor's algorithm](https://en.wikipedia.org/wiki/Shor's_Algorithm) and
+[Grover's algorithm](https://en.wikipedia.org/wiki/Grover's_algorithm),
 but not much relevant economic activity is tied up with
 finding the prime factors of numbers, and while getting a
-[radical](https://en.wiktionary.org/wiki/radical#Etymology) speedup
-in unsorted search, the setup costs may only be worth it for extremely
-large searches:
+[radical](https://en.wiktionary.org/wiki/radical#Etymology) speedup in
+unsorted search is cool, the setup costs may only be worth it except
+for extremely large searches:
 
 > Even when considering only problem instances that can be solved within
 one day, we find that there are potentially large quantum speedups
@@ -3080,26 +3080,31 @@ than this for platforms with relatively slower physical gate speeds).
 
 *—Dalzell et al., [“Quantum algorithms: A survey of applications and end-to-end complexities”](https://arxiv.org/pdf/2310.03011#subsection.0.6.1) p. 114, 2023*
 
-which is certainly much faster, but also much less economically useful,
-and in some sense economically *disvaluable* because now we have to find
-post-quantum cryptography.
+which is certainly much faster, but also much less
+economically useful, and in some sense economically
+*disvaluable* because now we have to find [post-quantum
+cryptography](https://en.wikipedia.org/wiki/Post-Quantum_Cryptography)
+methods.
 
 I don't have a full picture of the possible applications for quantum
-algorithms but my impression is that for purely bit-focused areas such
-as e.g. logistics or supply chain optimization or even machine learning
-(1) are fairly narrow, (2) usually don't offer an exponential speedup
-*or* only offer it if we postulate specific setups (e.g. the [HHL
+algorithms, but my impression is that for purely bit-focused areas such as
+e.g. logistics or supply chain optimization or even machine learning the
+algorithms (1) are fairly narrow, (2) usually don't offer an exponential
+speedup *or* only offer it if we postulate specific setups (e.g. the [HHL
 algorithm](https://en.wikipedia.org/wiki/HHL_algorithm) for estimating
 quadratic functions of the solution of a system of linear equations
 depends on ["the solution vector, `$|b⟩$`, […] be efficiently
-prepared"](https://en.wikipedia.org/wiki/HHL_algorithm#Implementation_difficulties),
-(3) often the best classical algorithms exploit some structure that makes
-them comparable in performance to quantum algorithms (such as sorting an
-index once and searching in logarithmic time repeatedly) and (4) that
-finding exact solutions to computational problems efficiently is not a
-large bottleneck on bit-focused parts of the economy, except in training
-LLMs. I feel skeptical about quantum machine learning, and my guess is
-that if we [read the fine print on quantum machine learning speedups](https://www.scottaaronson.com/papers/qml.pdf) we'll often not find them useful in practice:
+prepared"](https://en.wikipedia.org/wiki/HHL_algorithm#Implementation_difficulties)),
+(3) often the best classical algorithms exploit some structure that
+makes them comparable in performance to quantum algorithms (such as
+sorting an [index](https://en.wikipedia.org/wiki/Database_index)
+once and searching in logarithmic time repeatedly) and (4) that
+finding exact solutions to computational problems efficiently is not
+a large bottleneck on bit-focused parts of the economy, except in
+training LLMs. I feel skeptical about quantum machine learning, and my
+guess is that if we [read the fine print on quantum machine learning
+speedups](https://www.scottaaronson.com/papers/qml.pdf) we'll often not
+find them useful in practice:
 
 > So in summary, how excited should we be about the new quantum machine
 learning algorithms? To whatever extent we care about quantum computing
@@ -3125,7 +3130,7 @@ Hence: Quantum computing looks quite underwhelming on the side of bits.
 
 My best guess is still that quantum computing is still extremely
 promising, because quantum algorithms are really good at simulating
-quantum systems, and the world is quantum.
+quantum systems, and the world is at its basis quantum.
 
 > Despite the apparent exponential cost of exact classical methods
 for this task, scientists have made incredible progress over the last
@@ -3160,10 +3165,10 @@ debate](https://en.wikipedia.org/wiki/Drexler-Smalley_debate_on_molecular_nanote
 There is also some hope that quantum computing will
 allow us to make [progress in nuclear and particle
 physics](https://arxiv.org/pdf/2310.03011#section.0.3), but I can't
-think of any immediate industrial applications of such progress.
+immediately think of any industrial applications of such progress.
 
-If my understanding here is correct, then that's way more
-interesting than progress in bits! Humanity hasn't made much [progress in
+If my understanding here is correct, then that's way cooler
+than progress in bits! Humanity hasn't made much [progress in
 atoms](https://www.lesswrong.com/posts/Xqcorq5EyJBpZcCrN/thiel-on-progress-and-stagnation)
 recently, while making tons of progress in bits, so that might be why
 people are hyping quantum computing as a bit-focussed technology—they
@@ -3181,6 +3186,8 @@ simple message: __Quantum Computing is About Atoms, Not Bits__.
 <!--
 Why Are There So Few Natural NP-Complete Problems with Superquadratic Verifiers?
 ---------------------------------------------------------------------------------
+
+https://claude.ai/chat/3a9ba552-a477-4480-9495-64a90e3eaaff
 
 Are There Natural Problems With A Negative Prover-Verifier Gap?
 ----------------------------------------------------------------
@@ -3200,4 +3207,6 @@ Markets as Distributed Backprop (johnswentworth,
 2018)](https://www.lesswrong.com/posts/brhWPoNsBN7za3xjs/competitive-markets-as-distributed-backprop),
 [In Soviet Union, Optimization Problem Solves You (Cosma Shalizi,
 2012)](http://bactra.org/weblog/918.html).
+
+https://claude.ai/chat/6ad1f792-e006-44dd-a450-f4291f70bbb0
 -->

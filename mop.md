@@ -15,7 +15,9 @@ Black Hole Mop
 
 *—Fooming Shoggots, “Machines of Loving Grace”, 2025*
 
-<!--TODO: check the Claude conversation: https://claude.ai/chat/e5da2973-c2a1-4c11-b4e2-68aab2d7551a-->
+<!--TODO: check the Claude conversation:
+https://claude.ai/chat/e5da2973-c2a1-4c11-b4e2-68aab2d7551a,
+https://claude.ai/chat/4a800b90-a471-4e33-bbd0-596c0388aad3-->
 
 ### Baryons Are Scattered
 
