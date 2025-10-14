@@ -976,21 +976,37 @@ reward, or to switching to a different utility function.
 Geometric Mean of Odds, Arithmetic Mean of Logodds
 ---------------------------------------------------
 
-Theorem: The arithmetic mean of logodds is just the geometric mean of odds.
+**Theorem**: The exponential of the arithmetic mean of logodds equals the geometric mean of odds.
 
-Proof: Let `$\mathbf{p}=(p_1, p_2, \dots, p_n)$` be a list of probabilities.
+**Proof**: Let `$\mathbf{p}=(p_1, p_2, \dots, p_n)$` be a list of probabilities.
 
-Then the arithmetic mean of logodds is `$\exp(\frac{1}{n} \sum_{i=1}^n \log(\frac{p_i}{1-p_i}))=\exp(\frac{1}{n} \log(\prod_{i=1}^n \frac{p_i}{1-p_i}))=\exp(\log(\sqrt[n]{\prod_{i=1}^n \frac{p_i}{1-p_i}}))=\sqrt[n]{\prod_{i=1}^n \frac{p_i}{1-p_i}}$`
+The arithmetic mean of logodds is `$\frac{1}{n} \sum_{i=1}^n \log(\frac{p_i}{1-p_i})$`.
 
-This is not quite right, though.<!--, maybe TODO solve (although probably
-not *that* important, but the inversion isn't quite right).-->
+Exponentiating this:
 
-But then if the geometric mean is just the 0th generalized mean, and
-the arithmetic mean is the 1st generalized mean, are there similarly
-variants of the logodds? That is, the odds are the 0th generalized
-odds, the logodds are the 1st generalized odds, and there is some 2nd
-generalized odds so that the root mean square of the 2nd generalized
-odds is the geometric mean of odds?
+<div>
+$$
+\begin{align}
+\exp\left(\frac{1}{n} \sum_{i=1}^n \log\left(\frac{p_i}{1-p_i}\right)\right) &= \exp\left(\frac{1}{n} \log\left(\prod_{i=1}^n \frac{p_i}{1-p_i}\right)\right) \\
+&= \exp\left(\log\left(\sqrt[n]{\prod_{i=1}^n \frac{p_i}{1-p_i}}\right)\right) \\
+&= \sqrt[n]{\prod_{i=1}^n \frac{p_i}{1-p_i}}
+\end{align}
+$$
+</div>
+
+which is exactly the geometric mean of the odds. ∎
+
+(I initiall thought that the geometric mean of odds was the arithmetic
+mean of logodds, but that turned out to be not the case, it would've
+been a more beautiful identity though.)
+
+But then if the geometric mean is just the 0th [generalized
+mean](https://en.wikipedia.org/wiki/Generalized_mean), and the arithmetic
+mean is the 1st generalized mean, are there similarly variants of the
+logodds? That is, the odds are the 0th generalized odds, the logodds
+are the 1st generalized odds, and there is some 2nd generalized odds so
+that the root mean square of the 2nd generalized odds is the geometric
+mean of odds?
 
 Would the nth generalized odds just be the `$\log^{(n)}$`odds?
 
