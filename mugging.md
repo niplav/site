@@ -216,26 +216,7 @@ constants are selected right.
 But I don't have a great intuition for when that kind of constant-picking
 is possible and when it isn't; we may be stuck.
 
-### Questions
-
-1. Can we formulate a prior in which this doesn't happen?
-	1. What about a prior that also penalizes the size of the finally output, exponentially in length?
-	2. Does the speed prior basically fulfill this condition?
-		1. A pure speed prior doesn't, but that's a bad prior.
-		2. What happens to the bound if we use the classic speed prior which is really a mix between the simplicity prior and the speed prior?
-
-See Also
----------
-
-<!--TODO: anthropic capture-->
-
-* [Saint Petersburg Paradox](https://en.wikipedia.org/wiki/St_Petersburg_Paradox)
-* [Most* small probabilities aren't pascalian (Gregory Lewis, 2022)](https://forum.effectivealtruism.org/posts/5y3vzEAXhGskBhtAD/most-small-probabilities-aren-t-pascalian)
-* [Optimization daemons (Eliezer Yudkowsky, 2016)](https://arbital.com/p/daemons/), [Open question: are minimal circuits daemon-free? (Paul Christiano, 2018)](https://www.lesswrong.com/posts/nyCHnY7T5PHPLjxmN/open-question-are-minimal-circuits-daemon-free)
-* [Anthropics and the Universal Distribution (Joe Carlsmith, 2022)](https://joecarlsmith.com/2021/11/28/anthropics-and-the-universal-distribution)
-
-Appendix A: The Need for Speed
----------------------------------
+#### The Need for Speed
 
 One way of defeating Pascal's mugging is to switch to a different prior,
 specifically one in which the construction of the copy-beaver receives
@@ -254,13 +235,60 @@ normalize our prior so that it sums to `$1$`, theoretically we can
 take any function `$f : \mathbf{C} \rightarrow ℕ^+$` of our programs
 and create a new prior by normalizing `$2^{-(l(C)+f(C))}$`. `$f$` can be
 [sophistication](https://en.wikipedia.org/wiki/Sophistication_\(complexity_theory\)),
-[logical depth](https://en.wikipedia.org/wiki/Logical_depth), number
-of bitflips performed during program execution… any crazy thing you
-can come up with as long as `$f$` returns finite outputs.<!--TODO: is
-this really true? I haven't *proved* it, maybe there's strange measure
+[logical depth](https://en.wikipedia.org/wiki/Logical_depth), number of
+bitflips performed during program execution… any crazy thing you can
+come up with as long as `$f$` returns finite natural numbers.<!--TODO:
+is this really true? I haven't *proved* it, maybe there's strange measure
 theory things going on here-->
 
 I think that the speed prior simply solves mugging in this formalization.
 
+My sketchy reason for believing this looks like this:
+
+<div>
+	$$
+	\begin{align}
+	\lim_{k \rightarrow \infty} U(k) & \approx \\
+	\lim_{k \rightarrow \infty} 2^{-(k+CB(k))} \cdot CB(k) & = \\
+	0
+	\end{align}
+	$$
+</div>
+
+However: It may be that normalization upweights the prior probability
+under the speed prior by a "superexponential amount", that is, the
+`$2^{-CB(k)}$` vanishes because normalization moves the program up by a
+significant amount in terms of prior probability. My guess is that that
+doesn't happen, but I think to prove it would require thinking about
+the structure of computable programs, which I'm not very good at.
+
+Intuitively, the prior cares to equal amounts about how long the program
+is and how long it takes to execute. This makes total sense to me,
+a human mind composed of neurons trained with an algorithm selected
+for by natural and sexual selection: I care about my theories maximally
+compressing the world, sure, but I also care about being able to finish
+thinking about them.
+
+##### The Pure Speed Prior
+
+This brings up an impractical idea: Can we have a *pure* speed prior? One
+that only cares about how fast programs finish running?
+
+The intuitive answer may seem "no" at first, since unlike with program
+length we have, for every number of steps a program needs to halt,
+countably infinitely many programs that take that many steps to halt,
+forcing us to say that any particular program has a prior [Lebesgue
+measure of zero](https://en.wikipedia.org/wiki/Almost_Never).
+
 <!--TODO: nevertheless press on with the need for speed, describing the
 pure speed prior, note that it's a bad prior-->
+
+See Also
+---------
+
+<!--TODO: anthropic capture-->
+
+* [Saint Petersburg Paradox](https://en.wikipedia.org/wiki/St_Petersburg_Paradox)
+* [Most* small probabilities aren't pascalian (Gregory Lewis, 2022)](https://forum.effectivealtruism.org/posts/5y3vzEAXhGskBhtAD/most-small-probabilities-aren-t-pascalian)
+* [Optimization daemons (Eliezer Yudkowsky, 2016)](https://arbital.com/p/daemons/), [Open question: are minimal circuits daemon-free? (Paul Christiano, 2018)](https://www.lesswrong.com/posts/nyCHnY7T5PHPLjxmN/open-question-are-minimal-circuits-daemon-free)
+* [Anthropics and the Universal Distribution (Joe Carlsmith, 2022)](https://joecarlsmith.com/2021/11/28/anthropics-and-the-universal-distribution)
