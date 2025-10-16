@@ -103,6 +103,53 @@ meditation, manual crafts for tactile balance.
 - Other genuinely difficult physical/mental challenges
 - Tests coordination under stress, not just intellectual ability
 
+**Extended Childhood Protocol:**
+
+Puberty chemically delayed until age 22-25 through carefully titrated
+hormone blockers. The intervention preserves bone density and immune
+function while extending the neuroplastic learning window and pre-sexual
+social dynamics.
+
+**Rationale:** Adult puberty causes years of physical discomfort and
+emotional volatility while closing critical learning periods. The
+suffering is substantial, universal, and historically inevitable —
+exactly the kind of problem Niplavistan treats as an optimization target
+rather than "the human condition."
+
+**Benefits:**
+
+- 22-25 years of peak neuroplasticity for language acquisition, musical training, technical mastery
+- Extended period of play-as-exploration before goal-oriented thinking dominates
+- Agency partnerships form during pre-sexual years, establishing deep coordination bonds before romantic/sexual dynamics complicate things
+- Pre-pubertal social interactions are less corrupted by status competition and sexual tension
+- Estimated 10-15 year healthy lifespan extension (mechanisms unclear but correlational data promising)
+- Entering adulthood with fully developed prefrontal cortex *before* sexual maturity
+
+**Implementation:**
+
+- Growth plate closure managed separately to prevent excessive height (cancer/coordination tradeoffs)
+- Transition to adult hormone levels happens over 2-3 years starting around age 22
+- Fertility preservation standard at age 25; reproductive window 30-50 typical
+- Combined with existing longevity tech and cryopreservation to offset fertility timing
+
+**Tradeoffs accepted:**
+
+- 20+ years of reduced physical strength and thermal regulation
+- Further exacerbates existing low fertility (subsidies increased 3×)
+- Requires society-wide infrastructure adaptation (extended educational periods, delayed economic participation)
+- Height management adds complexity (some families opt for taller children despite risks)
+
+**Cultural effects:** Childhood now seen as a valuable developmental
+period rather than a prelude to "real life." The 25-year boot-up produces
+adults with multiple technical masteries and unusually stable coordination
+relationships. Critics argue the policy is "optimizing humans for
+Niplavistan rather than Niplavistan for humans," but outcome measurements
+show sustained increases in wellbeing, capability, and creative output.
+
+Fits naturally with low discount rates and "coordination enables
+enhancement" philosophy — taking an extra decade to build each person
+correctly rather than rushing into suboptimal adulthood.
+
 ## Gender & Relationships
 
 **Libido balancing**: Men take libido-reducing substances, women take

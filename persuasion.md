@@ -73,11 +73,9 @@ persuasive and addictive systems<sub>70%</sub>, but most of the
 thinking on how to interact with superpersuasive sources of information
 has come from fiction[^fiction]. One (preliminary) exception is [Kori
 2025](https://markelkori.substack.com/p/methods-of-defense-against-agi-manipulation)<!--and
-[Davidson 2023]()--><!--TODO: read & link!-->. [Kori
-2025](https://markelkori.substack.com/p/methods-of-defense-against-agi-manipulation)
-is a useful first stab at defining some
-simple interventions, but I wanted to sketch a
-slightly more detailed list of interventions, similar to [AI Control
+[Davidson 2023]()--><!--TODO: read & link!-->, which takes a useful
+first stab at defining some simple interventions. I wanted to sketch
+a slightly more detailed list of interventions, similar to [AI Control
 protocols](./doc/cs/ai/alignment/containment/ai_control_improving_safety_despite_intentional_subversion_greenblatt_et_al_2024.pdf).
 Also relevant: Bostrom<!--TODO: read Bostrom 2011--> [information
 hazards](https://en.wikipedia.org/wiki/Information_hazard), which hasn't
