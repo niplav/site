@@ -3239,9 +3239,9 @@ lol. lmao
 Humanity seems to have learned *almost nothing*, and I'm being charitable
 here. Plausibly, in total, we have learned the wrong lessons.
 
-Remember those pandemic prevention and preparedness bills and
-programs that were announced in the US and the EU in 2021, equipped
-with billions of dollars and euros to prevent and fight pandemics? The [EU
+Remember those pandemic prevention and preparedness bills and programs
+that were announced in the US and the EU in 2021, equipped with billions
+of dollars and euros and pounds to prevent and fight pandemics? The [EU
 HERA](https://en.wikipedia.org/wiki/Health_Emergency_Preparedness_and_Response_Authority)
 and the [US Historic Investment in Pandemic
 Preparedness](https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2022/03/28/fact-sheet-the-biden-administrations-historic-investment-in-pandemic-preparedness-and-biodefense-in-the-fy-2023-presidents-budget/)?
@@ -3273,11 +3273,11 @@ change didn't pass congress, and the Pandemic Fund has received [$3.1
 bio](https://www.worldbank.org/en/news/press-release/2024/10/31/pandemic-fund-raises-us-982-million-in-new-commitments-from-governments-and-an-additional-us-1-8-billion-in-co-financing),
 with an unmet funding gap of $1
 bio. as of the time of writing. The UK allocated
-[£460M](https://www.kingsfund.org.uk/insight-and-analysis/long-reads/autumn-budget-2024-health-and-care).
-Numbers are harder to come by for China, India and other large developing
-countries, but my guess is that there's even less investment there
-(and that there wasn't much move towards pandemic prevention there in
-the first place).
+[£460M](https://www.kingsfund.org.uk/insight-and-analysis/long-reads/autumn-budget-2024-health-and-care)
+to pandemic prevention.  Numbers are harder to come by for China, India
+and other large developing countries, but my guess is that there's even
+less investment there (and that there wasn't much move towards pandemic
+prevention there in the first place).
 
 This is infuriating. It is *unacceptable*. Humanity is being __completely
 fucking retarded__. We got insanely lucky: The pandemic was *really bad*,
@@ -3286,6 +3286,9 @@ pandemic that could've caused global lockdowns. Basically every living
 human got infected[^estimate], many had their loved ones die. Nature
 shot us a *very* stern look.
 
+> Pandemics can happen. They can kill you. You should know better,
+here's a reminder.
+
 [^gulp]: Yeah, I don't feel good about what's plausibly coming down the pipeline.
 
 [^estimate]: [OWID says](https://ourworldindata.org/coronavirus) there were ~700 mio. cases worldwide in early 2024, but you and I know that's a severe under-estimate.
@@ -3293,9 +3296,6 @@ shot us a *very* stern look.
 There is some upshot: We have some increased *technical* capacity and knowledge, e.g. on how to manufacture mRNA vaccines, but there's very large swaths of people who have learned the opposite lesson that pandemics aren't real & vaccines don't work, or that the whole thing was orchestrated and governments shouldn't be trusted[^trust].
 
 [^trust]: I do agree that governments covered themselves in shame.
-
-> Pandemics can happen. They can kill you. You should know better,
-here's a reminder.
 
 Our reaction: Throw trillions at the problems while it is present and
 pressing, make large plans and promises, and then quietly forget about
@@ -3311,10 +3311,12 @@ what happened in Germany in the decade after the Third
 Reich and World War II or in China after the Mao era—a
 sliding off of the attention, a complete lack of fault analysis, of
 [strategy](https://www.lesswrong.com/posts/PBRWb2Em5SNeWYwwB/humans-are-not-automatically-strategic).
-There's no history books even *trying* to untangle the hyperobject that
-was the COVID-19 pandemic, almost nobody trying to figure out where our
-sense-making failed to, ah, make sense, almost nobody trying to steer
-the ship[^acknowledge].
+There's no good history books even *trying* to untangle the hyperobject
+that was the COVID-19 pandemic[^believe], almost nobody trying to figure
+out where our sense-making failed to, ah, make sense, almost nobody
+trying to steer the ship[^acknowledge].
+
+[^believe]: Believe me! I've looked!
 
 [^acknowledge]: Exceedingly virtuous exceptions exist, I'll praise the ones I know of at the end.
 
@@ -3322,15 +3324,25 @@ Nobody seems to be doing any of that.
 
 The cavallery's not coming. Sorry. This is the best we have.
 
+Let that sit for a second or two.
+
+--------------------------
+
 Thus, my plea:
 
 Think about it, at least. 
 
-Better yet, talk about it, with friends, family, internet strangers,
-non-internet strangers, teachers, students, whatever. Make sense of the
-hyperevent that basically just stopped happening.
+Better yet, talk about it. With friends, family, internet strangers,
+non-internet strangers, teachers, students, homeless schizophrenics,
+one-night stands, gym-buddies, store clerks, whatever. Make sense of this
+hyperevent as it's sliding from memory. Try to figure out what happened,
+what could've happened differently. What could be improved.
 
-Better yet, act. Vote for parties marginally saner on the issue. Prepare yourself. Elastomeric respirators, stocking food, [hand crank radios](https://en.wikipedia.org/wiki/Crank_radio), ask your LLM of choice for what's useful to buy (or consult your government's advice on this, if you trust it).
+Better yet, act. Vote for parties marginally saner on the issue. Prepare
+yourself. Elastomeric respirators, stocking food, [hand crank
+radios](https://en.wikipedia.org/wiki/Crank_radio), ask your LLM of choice
+for what's useful to buy (or consult your government's advice on this,
+if you still trust it).
 
 Better yet,
 [donate](https://www.givingwhatwecan.org/cause-areas/reducing-global-catastrophic-risks/biosecurity#what-are-the-best-biosecurity-charities-organisations-and-funds).

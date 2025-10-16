@@ -1014,4 +1014,4 @@ datetime,substance,amount,experiment,id,prediction
 2025-10-13T11:45:28+02:00,caffeine,200mg,,,
 2025-10-15T00:14:24+02:00,creatine,4g,,,
 2025-10-15T00:47:26+02:00,melatonin,0.5mg,,,
-2025-10-15T08:19:40+02:00,water,2.5ml,D,B,
+2025-10-15T08:19:40+02:00,water,2.5ml,D,B,0.4
