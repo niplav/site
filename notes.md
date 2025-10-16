@@ -3195,9 +3195,11 @@ quantum computing has been extremely backwards, which is usually lead with
 more efficient", guess which of those is more easily understandeable
 to laypeople‽
 
-So, yeah, I think quantum computing is hype-worthy, but the current hype
-is mis-directed, and can be redirected in the correct direction with a
-simple message: __Quantum Computing is About Atoms, Not Bits__.
+So, yeah, I think quantum computing is hype-worthy, though my best guess
+is that the magnitude of current hype on it is too large relative to
+other technologies. But: the current hype is mis-directed, and can be
+redirected in the correct direction with a simple message: __Quantum
+Computing is About Atoms, Not Bits__.
 
 Humanity Learned Almost Nothing From COVID-19
 ----------------------------------------------
@@ -3215,10 +3217,10 @@ In the course of the pandemic, there have been at
 least [6 million deaths and more than 25 million excess
 deaths](https://en.wikipedia.org/wiki/COVID-19_pandemic_deaths). The
 value of QALYs lost due to the pandemic in the US alone was around [\$5
-**trillion**](https://ifp.org/weighing-the-cost-of-the-pandemic/#lives-lost),
+**trio.**](https://ifp.org/weighing-the-cost-of-the-pandemic/#lives-lost),
 the GDP loss in the US alone in 2020 [\$2
 trio.](https://ifp.org/weighing-the-cost-of-the-pandemic/#gdp-loss).
-The loss of gross world product is around [\$82 trio. over five
+The loss of gross world product is around [**\$82 trio.** over five
 years](https://en.wikipedia.org/wiki/Economic_impact_of_COVID-19#Overall_economic_contraction),
 my rough guess would be that lockdowns caused a loss of more than a
 giga[QALY](https://en.wikipedia.org/wiki/Quality-Adjusted_Life_Year)
@@ -3311,10 +3313,13 @@ what happened in Germany in the decade after the Third
 Reich and World War II or in China after the Mao era—a
 sliding off of the attention, a complete lack of fault analysis, of
 [strategy](https://www.lesswrong.com/posts/PBRWb2Em5SNeWYwwB/humans-are-not-automatically-strategic).
-There's no good history books even *trying* to untangle the hyperobject
-that was the COVID-19 pandemic[^believe], almost nobody trying to figure
-out where our sense-making failed to, ah, make sense, almost nobody
-trying to steer the ship[^acknowledge].
+Large chunks of the population probably was small-t traumatized
+by being physically and socially isolated in lockdowns, and simply
+doesn't want to think about the issue ever again.  There's no good
+history books even *trying* to untangle the hyperobject that was the
+COVID-19 pandemic[^believe], almost nobody trying to figure out where
+our sense-making failed to, ah, make sense, almost nobody trying to
+steer the ship[^acknowledge].
 
 [^believe]: Believe me! I've looked!
 
@@ -3377,8 +3382,9 @@ pandemic prevention and preparedness. Pandemic warning shots are
 boops us on the nose](https://en.wikipedia.org/wiki/Common_Cold),
 [sometimes](https://en.wikipedia.org/wiki/Black_death)
 we have to [pick up our teeth with broken
-fingers](https://youtu.be/K0cx4d8XkQ0?si=kKL5EMI8w6CsptMz). AI, if
-generous, might give us just one.
+fingers](https://youtu.be/K0cx4d8XkQ0?si=kKL5EMI8w6CsptMz).
+
+AI, if generous, might give us just one.
 
 <!--
 Why Are There So Few Natural NP-Complete Problems with Superquadratic Verifiers?
