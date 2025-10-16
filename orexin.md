@@ -182,4 +182,12 @@ Experimental Log
 	* Took Orexin-A relatively late, around 08:30. While taking, at first I hade a sort of sharpness in my right nostril, I guess this was just because the liquid was irritating it. Went away after spraying more
 	* Feeling refreshed immediately after taking it, might just be the [mammalian dive reflex](https://en.wikipedia.org/wiki/Mammalian_dive_reflex), possibly this was the Orexin<sub>65%</sub>
 
+### Sample 4
+
+* Monday
+	* Took the sample relatively late, at 09:36
+* Wednesday night: Took 0.5mg melatonin
+* Wednesday
+	* Felt hungry *immediately* after taking it, started eating chocolate cookies. Orexin??
+
 [^1]: Even demonstrating one-off effectiveness would be cool: It's often the case that people have short-term sleep deprivation, and would like to ameliorate the effects.
