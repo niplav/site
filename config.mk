@@ -49,6 +49,7 @@ HTML=index.html \
 	china.html \
 	consciousness_diagram.html \
 	considerations_on_cryonics.html \
+	covid.html \
 	cryonics_outside_us.html \
 	cuboid.html \
 	data.html \
