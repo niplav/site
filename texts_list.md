@@ -17,6 +17,16 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [HERA 2024 Work Plan (NFP4Health, 2024)](https://www.nfp4health.eu/2024/01/09/hera-2024-work-plan/)
+* [How we failed (Jan Kulveit/Gavin Leech, 2022)](https://forum.effectivealtruism.org/posts/vHBmDK46ybnsbWyni/how-we-failed)
+* [Wind on Water (oxidist, 2025)](https://oxidist.github.io/2025/10/01/Wind.html)
+* [God, the Lapidarist (oxidist, 2025)](https://oxidist.github.io/2025/09/21/Lapidarist.html)
+* [The Ypres Salient, 1917 (oxidist, 2025)](https://oxidist.github.io/2025/10/15/Ypres.html)
+* [FACT SHEET: The Biden Administration’s Historic Investment in Pandemic Preparedness and Biodefense in the FY 2023 President’s Budget (US WHite House, 2022)](https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2022/03
+/28/fact-sheet-the-biden-administrations-historic-investment-in-pandemic-preparedness-and-biodefense-in-the-fy-2023-presidents-budget/)
+* [First HERA Invest agreement signed to support research and development in cross-border health threats (Euro Reporter Correspondent, 2024)](https://www.eureporter.co/health/2024/10/09/first-hera-invest-agreement-signed-to-support-resear
+ch-and-development-in-cross-border-health-threats/)
+* [Controlling the options AIs can pursue (Joe Carlsmith, 2025)](https://www.lesswrong.com/posts/CPFfiRpWYCdyKcLCW/controlling-the-options-ais-can-pursue)
 * [Comment on “The Rise of Parasitic AI” (Adele Lopez, 2025)](https://www.lesswrong.com/posts/6ZnznCaTcbGYsCmqu/the-rise-of-parasitic-ai?commentId=y9PMpuE6jqDoxTuxb)
 * [Comment on “The Rise of Parasitic AI” (Adele Lopez, 2025)](https://www.lesswrong.com/posts/6ZnznCaTcbGYsCmqu/the-rise-of-parasitic-ai?commentId=7iK8qytsuZ5pSbrKA)
 * [Comment on “The Rise of Parasitic AI” (cousin_it, 2025)](https://www.lesswrong.com/posts/6ZnznCaTcbGYsCmqu/the-rise-of-parasitic-ai?commentId=dfnxtcQtghKAsMLHH)
