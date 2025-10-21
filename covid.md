@@ -17,8 +17,6 @@ catastrophes, the time to act is now.
 
 *—US White House, [“ FACT SHEET: The Biden Administration’s Historic Investment in Pandemic Preparedness and Biodefense in the FY 2023 President’s Budget ”](https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2022/03/28/fact-sheet-the-biden-administrations-historic-investment-in-pandemic-preparedness-and-biodefense-in-the-fy-2023-presidents-budget/), 2022*
 
-*Content warning*: A single carefully placed slur.
-
 Around five years, [a global
 pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic) caused by
 [a coronavirus](https://en.wikipedia.org/wiki/SARS-Cov-2) started.

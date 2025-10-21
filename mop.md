@@ -13,7 +13,7 @@ Black Hole Mop
 
 > I've optimized the stars for your sake
 
-*—Fooming Shoggots, “Machines of Loving Grace”, 2025*
+*—Fooming Shoggoths, “Machines of Loving Grace”, 2025*<!--TODO: link-->
 
 <!--TODO: check the Claude conversation:
 https://claude.ai/chat/e5da2973-c2a1-4c11-b4e2-68aab2d7551a,
