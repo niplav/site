@@ -174,8 +174,8 @@ bijection to the natural numbers.
 Pseudo-vertex cycles, source-semi-ratkings, sink-semi-ratkings…
 
 Pergraph isomorphism, sub-pergraph detection, pergraph rewrite rules
-(ratking collapse, flip equivalence (flipping peredges results in the
-same pergraph)).
+(ratking collapse, flip equivalence (flipping peredges results in an
+isomorphic pergraph)).
 
 Euler cycles and Hamilton cycles, decomposing into rhizomes, enforcing
 some kind of hierarchy/partial hierarchy? Generating pergraphs from

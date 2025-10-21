@@ -828,6 +828,10 @@ and a lot of calibration to all sorts of scenarios.
 If You Want To Fuck Hot Chicks, You Have To Approach Them
 ----------------------------------------------------------
 
+The two most beautiful words in the English language are "skill issue"[^alt].
+
+[^alt]: Closely followed by "goth latina".
+
 The muscles you don't train don't grow.
 
 Iron laws.

@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2025-08-27, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2025-10-21, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav. It contains texts on different topics,
 including (but not limited to) forecasting, existential risk, computer
@@ -167,6 +167,7 @@ Beides verdammen sie dir, zeigest du beides zugleich
 *—Friedrich Hölderlin, [“Guter Rat”](https://www.textlog.de/17789.html), 1797*
 
 * [Two Reasons For Restarting the Testing of Nuclear Weapons](./nuclear.html)
+* [Humanity Learned Almost Nothing From COVID-19](./covid.html)
 
 #### Futurism
 
