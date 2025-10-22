@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2025-09-16, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2025-10-22, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -28,21 +28,24 @@ sevolutions](./notes.html#Graph_Sevolutions), unfortunately I don't.
 Data Collection
 ----------------
 
-At the moment I'm not collecting much data beyond [what
-I usually gather](./data.md), and running and one RCT
-on [lumenators](https://arbital.com/p/lumenators/).
 I'm currently collecting data for our [Orexin-A
 experiment](https://manifund.org/projects/orexin-pilot-experiment-for-reducing-sleep-need).
+
+Otherwise I'm not collecting much data beyond [what I usually
+gather](./data.md), and in the future continuing an RCT on
+[lumenators](https://arbital.com/p/lumenators/).
 
 Programming
 -----------
 
 Most of my programming time is spent improving
-[iqisa](https://github.com/niplav/iqisa), a library for handling various
-forecasting datasets.
+on an LLM-based productivity application called
+[perimedes](https://github.com/niplav/perimedes).
 
-I am also working on an [arbtt](https://arbtt.nomeata.de/)-inspired time
-tracker: [awitt](https://github.com/niplav/awitt).
+I am also working on an [arbtt](https://arbtt.nomeata.de/)-inspired
+time tracker: [awitt](https://github.com/niplav/awitt), and
+[iqisa](https://github.com/niplav/iqisa), a library of and for handling
+various forecasting datasets.
 
 Reading
 --------
