@@ -118,10 +118,10 @@ __Definition 7__ ([Lean](#Definition_7)): A __mixed source-path__,
 __mixed sink path__, and __mixed pure path__ is a source-path, sink path
 and pure path with vertices mixed in, respectively.
 
-__Definition 8__: A __source-cycle__ is a __source-path__ that connects
-a vertex `$v$` to `$v$` or an edge `$p$` to `$p$`. One can define
-a __sink-cycle__, a __pure cycle__, a __mixed source cycle__, and a
-__mixed sink-cycle__ similarly.
+__Definition 8__ ([Lean](#Definition_8)): A __source-cycle__ is a
+__source-path__ that connects a vertex `$v$` to `$v$` or an edge `$p$`
+to `$p$`. One can define a __sink-cycle__, a __pure cycle__, a __mixed
+source cycle__, and a __mixed sink-cycle__ similarly.
 
 <!--TODO: image-->
 
@@ -131,20 +131,21 @@ to call "__keltic knots__", where, if of any edge `$p_1$` the sink is
 
 <!--TODO: image-->
 
-__Definition 9__: A __sub-pergraph__ `$S$` of a pergraph `$A=(V, P,
-e)$` is a pergraph where the vertices are subsets of `$V$` and the
-edges are a subset of `$P$`. As is custom, a __proper sub-pergraph__
-of `$A$` is a sub-pergraph of `$A$` that isn't equal to `$A$`; an
-__induced sub-pergraph__ `$S_i$` of a pergraph `$A$` is a sub-pergraph
-of `$A$` where, for any pair of vertices or edges, all edges between
-those two components are also edges of `$S_i$`, similarly to [induced
-subgraphs](https://en.wikipedia.org/wiki/Induced_subgraph).
+__Definition 9__ ([Lean](#Definition_9): A __sub-pergraph__ `$S$`
+of a pergraph `$A=(V, P, e)$` is a pergraph where the vertices are
+subsets of `$V$` and the edges are a subset of `$P$`. As is custom, a
+__proper sub-pergraph__ of `$A$` is a sub-pergraph of `$A$` that isn't
+equal to `$A$`; an __induced sub-pergraph__ `$S_i$` of a pergraph `$A$`
+is a sub-pergraph of `$A$` where, for any pair of vertices or edges, all
+edges between those two components are also edges of `$S_i$`, similarly to
+[induced subgraphs](https://en.wikipedia.org/wiki/Induced_subgraph).
 
 __Definition Ratking__ ([Lean](#Definition_Ratking)): A __ratking__
 is a pergraph without vertices.
 
-__Definition 10__: A __rhizome__ is a non-empty pergraph without a proper
-sub-pergraph. We denote the set of all rhizomes with `$\mathcal{R}$`.
+__Definition 10__ ([Lean](#Definition_10)): A __rhizome__ is a non-empty
+pergraph without a proper sub-pergraph. We denote the set of all rhizomes
+with `$\mathcal{R}$`.
 
 __Question 1__: Can we identify rhizomes in some easy way? E.g. "iff it
 has/lacks such-and-such of an edge you're looking at a rhizome".
@@ -431,7 +432,8 @@ That function is injective:
 	  | [_] => True
 	  | e₁ :: e₂ :: rest => G.sink e₁ = PerNode.edge e₂ ∧ SinkPath G (e₂ :: rest)
 
-<!--TODO: define PurePath-->
+	def PurePath (G : Pergraph V E) (path : List E) : Prop :=
+	  SourcePath G path ∧ SinkPath G path
 
 ### Definition 6
 
@@ -470,7 +472,66 @@ That function is injective:
 	def MixedSinkPath (G : Pergraph V E) : List (PerNode V E ⊕ E) → Prop :=
 	  MixedPath G sink source
 
+### Definition 8
+
+	def SourceCycle (G : Pergraph V E) (node : PerNode V E) (path : List E) : Prop :=
+	  connectedViaSourcePath G node node path
+
+	def SinkCycle (G : Pergraph V E) (node : PerNode V E) (path : List E) : Prop :=
+	  connectedViaSinkPath G node node path
+
+	def PureCycle (G : Pergraph V E) (node : PerNode V E) (path : List E) : Prop :=
+	  PurePath G path ∧
+	  (path.head?.map G.source = some node) ∧
+	  (path.getLast?.map G.sink = some node)
+
+	def MixedCycle (G : Pergraph V E) (dir : Pergraph V E → E → PerNode V E) (codir : Pergraph V E → E → PerNode V E)
+	    (node : PerNode V E) (path : List (PerNode V E ⊕ E)) : Prop :=
+	  MixedPath G dir codir path ∧
+	  (match path.head? with
+	   | some (Sum.inl v) => v = node
+	   | some (Sum.inr e) => dir G e = node
+	   | none => False) ∧
+	  (match path.getLast? with
+	   | some (Sum.inl v) => v = node
+	   | some (Sum.inr e) => codir G e = node
+	   | none => False)
+
+	def MixedSourceCycle (G : Pergraph V E) : PerNode V E → List (PerNode V E ⊕ E) → Prop :=
+	  MixedCycle G source sink
+
+	def MixedSinkCycle (G : Pergraph V E) : PerNode V E → List (PerNode V E ⊕ E) → Prop :=
+	  MixedCycle G sink source
+
+### Definition 9
+
+	def nodeInSub (vp : V → Prop) (ep : E → Prop) : PerNode V E → Prop
+	  | PerNode.vertex v => vp v
+	  | PerNode.edge e => ep e
+
+	structure SubPergraph (G : Pergraph V E) where
+	  vertices : V → Prop
+	  edges : E → Prop
+	  edge_endpoints : ∀ e, edges e →
+	    nodeInSub vertices edges (G.source e) ∧ nodeInSub vertices edges (G.sink e)
+
+	def isProperSubPergraph (S : SubPergraph G) : Prop :=
+	  (∃ v, ¬S.vertices v) ∨ (∃ e, ¬S.edges e)
+
+	def isInducedSubPergraph (S : SubPergraph G) : Prop :=
+	  ∀ e, nodeInSub S.vertices S.edges (G.source e) →
+	       nodeInSub S.vertices S.edges (G.sink e) →
+	       S.edges e
+
 ### Definition Ratking
 
 	def isRatking (G : Pergraph V E) : Prop :=
 	  IsEmpty V
+
+### Definition 10
+
+	def isNonEmpty (_ : Pergraph V E) : Prop :=
+	  Nonempty V ∨ Nonempty E
+
+	def isRhizome (G : Pergraph V E) : Prop :=
+	  isNonEmpty G ∧ ∀ (S : SubPergraph G), isProperSubPergraph S → False
