@@ -62,7 +62,7 @@ designing better coordination mechanisms.
 
 **Computing**: Plan 9-style everything-is-a-file philosophy
 dominates. Services mounted as filesystems, coordination through namespace
-manipulation.
+manipulation. See [`filepunk`](./filepunk.html).
 
 **Military**: Sophisticated drone warfare and defensive tech, designed by
 people who treat war as an optimization puzzle. Some bioweapons research
@@ -207,4 +207,4 @@ consumption-signaling societies."*
 ### See Also
 
 * [Nate-culture communication handbook](https://docs.google.com/document/d/1o1JaH2nxbpfHgpx25dwJnQ3dQAPikmlqrn6c9gNP9gE/edit?tab=t.0)
-
+* [I'm from a parallel Earth with much higher coordination: AMA (Ben Pace/Eliezer Yudkowsky, 2021)](https://www.lesswrong.com/posts/gvA4j8pGYG4xtaTkw/i-m-from-a-parallel-earth-with-much-higher-coordination-ama)

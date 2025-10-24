@@ -133,13 +133,16 @@ HTML=index.html \
 	outputs/analogies.html \
 	outputs/atlantropa.html \
 	outputs/beast.html \
+	outputs/distr.html \
 	outputs/encoding.html \
 	outputs/filepunk.html \
+	outputs/fractional.html \
 	outputs/gilgamesh.html \
 	outputs/immune.html \
 	outputs/iron_lung.html \
 	outputs/job.html \
 	outputs/last.html \
+	outputs/mugging_feedback.html \
 	outputs/niplavistan.html \
 	outputs/thousand.html \
 	outputs/scaling.html \
