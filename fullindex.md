@@ -265,18 +265,21 @@ das dort hervorragte, und eine alte Stiefelsohle auf.
 My favourite LLM outputs. These have received varying degrees of editing,
 but usually not that much.
 
-* [`filepunk`](./filepunk.html)
-* [Cross-Domain System Analogies](./outputs/analogies.html)
+* Comparisons, Analogies, Equivalences
+	* [Cross-Domain System Analogies](./outputs/analogies.html)
+	* [Multi-Scale Immune System Comparison](./outputs/immune.html)
+* Fiction
+	* [😊](./outputs/😊.html)
+	* [The Book of the Tweeters](./outputs/job.html) (the model cooked with this one ngl)
+	* [Dark Matter AIs at the End of Time](./outputs/last.html)
+	* [A Thousand Embeddings: Toward a Schizo-Analysis of Large Language Models](./outputs/thousand.html)
+	* [Last Iron Lung](./outputs/iron_lung.html)
+* Medianworlding
+	* [Niplavistan](./outputs/niplavistan.html)
+	* [`filepunk`](./filepunk.html)
 * [Plan for a New Atlantropa Dam](./outputs/atlantropa.html)
 * [Encoding Information](./outputs/encoding.html)
 * [Gilgamesh Ratfic](./outputs/gilgamesh.html)
-* [Multi-Scale Immune System Comparison](./outputs/immune.html)
-* [Last Iron Lung](./outputs/iron_lung.html)
-* [The Book of the Tweeters](./outputs/job.html)
-* [Dark Matter AIs at the End of Time](./outputs/last.html)
-* [😊](./outputs/😊.html)
-* [Niplavistan](./outputs/niplavistan.html)
-* [A Thousand Embeddings: Toward a Schizo-Analysis of Large Language Models](./outputs/thousand.html)
 * [Do Games Favor Offense or Defense with Increasing Player Skill?](./outputs/scaling.html)
 * [Verification Complexity of NP Problems](./outputs/verification.html)
 

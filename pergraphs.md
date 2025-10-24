@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-07-10, modified: 2025-09-29, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2025-07-10, modified: 2025-10-24, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __`$P→(V∪P)^2$`, the rest is commentary.__
 
@@ -105,15 +105,18 @@ a __sink-path__ is a sequence of edges so that each edge has as its sink
 the following edge. A __pure path__ is a sequence of edges that is both
 a source-path and a sink-path.
 
-__Definition 6__ ([Lean](#Definition_6)): Two vertices `$v_1, v_2$` are
-__connected via a source-path__ if the source of the first edge is `$v_1$`
-and the sink of the last edge is `$v_2$`, and similar for sink-paths.
+__Definition 6__ ([Lean](#Definition_6)): Two vertices `$v_1, v_2$`
+are __connected via a source-path__ if the source of the first edge
+is `$v_1$` and the sink of the last edge is `$v_2$`, and similar for
+sink-paths and pure paths.
 
 ![](./img/pergraphs/path_variants.png)
 
-__Definition 7__ ([Lean](#Definition_7)): A __mixed source-path__ is a
-source-path with vertices mixed in, a __mixed sink-path__ is a sink-path
-with vertices mixed in.
+![](./img/pergraphs/pure_path.png)
+
+__Definition 7__ ([Lean](#Definition_7)): A __mixed source-path__,
+__mixed sink path__, and __mixed pure path__ is a source-path, sink path
+and pure path with vertices mixed in, respectively.
 
 __Definition 8__: A __source-cycle__ is a __source-path__ that connects
 a vertex `$v$` to `$v$` or an edge `$p$` to `$p$`. One can define
@@ -140,8 +143,11 @@ subgraphs](https://en.wikipedia.org/wiki/Induced_subgraph).
 __Definition Ratking__ ([Lean](#Definition_Ratking)): A __ratking__
 is a pergraph without vertices.
 
-__Definition 10__: A __rhizome__ is a pergraph without a proper
-sub-pergraph.
+__Definition 10__: A __rhizome__ is a non-empty pergraph without a proper
+sub-pergraph. We denote the set of all rhizomes with `$\mathcal{R}$`.
+
+__Question 1__: Can we identify rhizomes in some easy way? E.g. "iff it
+has/lacks such-and-such of an edge you're looking at a rhizome".
 
 __Theorem 2__: Every rhizome is either a single vertex or a ratking.
 
@@ -162,9 +168,34 @@ lattice where the minimal elements are rhizomes and a single vertex.
 
 <!--TODO: turn from remarks into theorems? Prove then I guess-->
 
-__Theorem 3__: There are countably infinitely many finite pergraphs.
+__Theorem 3__: Every pergraph can be constructed by
 
-__Intuition__: There are finitely many pergraphs of size `$n$` for any
+1. Taking a finite subset from the set of all rhizomes, call this disconnected set of components `$I$`. We call `$I$` the __perbasis__, and it can be empty.
+2. Finitely often either of the following operations:
+	1. Add a vertex to `$I$`
+	2. Add a peredge between any two vertices/edges in `$I$`
+	3. Add a peredge sourced from itself, pointing to any vertex/edge in `$I$`
+	4. Add a peredge sinking into itself, pointed from any vertex/edge in `$I$`
+
+__Theorem 4__: Every pergraph has a unique perbasis.
+
+__Definition 11__: Many pergraphs share a perbasis. For a given pergraph
+`$A$`, the __horde__ `$\mathcal{H}_I$` of `$A$` with the perbasis `$I$`
+is the set of all pergraphs with the same perbasis, and we write the
+equivalence relation `$≂$` (that is, `$A_1 ≂ A_2$` iff they have
+the same perbasis).
+
+__Definition 12__: A __streber__ is a pergraph with the
+perbasis `$\emptyset$`. The horde of all strebers is denoted by
+`$\mathcal{S}=\mathcal{H}_{\emptyset}$`.
+
+__Remark 7__: The set of strebers is way better behaved than the set
+of all pergraphs, simply due to the fact that they don't contain any
+rhizomes as sub-pergraphs.
+
+__Theorem 5__: There are countably infinitely many finite pergraphs.
+
+__Intuition 5__: There are finitely many pergraphs of size `$n$` for any
 natural number, order by natural number, then for each natural number,
 order the pergraphs of that size however you like. You now have a
 bijection to the natural numbers.
@@ -243,7 +274,7 @@ I don't think that's true<sub>85%</sub>.
 
 ### Random Remarks
 
-1. Pergraphs aren't recursive in any meaningful sense of the word. They are "sort of" self-referential, if you squint, but really it's only the edges that can be self-referential.
+1. Pergraphs aren't recursive in any meaningful sense of the word. They are "sort of" self-referential, if you squint hard enough, but really it's only the edges that can be self-referential.
 	1. There no way in which a peredge can point at an entire pergraph that contains that peredge.
 		1. Hey, there's an idea!
 		2. So you'd have a graph `$a→b$`, and an edge from `$a$` to *the entire subgraph* `$a→b$`…
@@ -258,6 +289,7 @@ I don't think that's true<sub>85%</sub>.
 4. Vaguely gesturing at an intuition, pergraphs could be useful for modeling systems where *a transition happening* causes something.
 	1. E.g. in Garrabrant's original post, an agent performs an action because performing the action will transition to a different state.
 	2. This doesn't justify things like edges having themselves as sources and sinks.
+	3. Extremely vague intuition: If peredges represent change, and vertices represent state, could we squint really hard and say "ah, this change happening here affected this state, which is very remotely like differential equations"?
 
 ### Axes Along Which to Categorize Different Graph Concepts
 

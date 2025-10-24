@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-08-27, modified: 2025-10-08, language: english, status: in progress, importance: 4, confidence: possible*
+*author: niplav, created: 2025-08-27, modified: 2025-10-23, language: english, status: in progress, importance: 4, confidence: possible*
 
 > __I [~formalize](#Formalizing_Pascals_Mugging) [Pascal's
 mugging](https://nickbostrom.com/papers/pascal.pdf)
@@ -14,6 +14,9 @@ strongly diminishing marginal returns, utilities must grow slower than
 `$2^{CB^{-1}(k)}$`, that is, slower than the exponential of the inverse
 of a busy-beaver-like function. This "breaks the boundedness barrier"
 for mugging-immune utility functions.__
+>
+> __[Switching to a Levin-style speed prior](#The_Need_for_Speed) solves
+this kind of Pascal's mugging.__
 
 Mugging-Immune Utility Functions
 =================================
@@ -42,7 +45,9 @@ induction](https://en.wikipedia.org/wiki/Solomonoff_induction)
 as its epistemic process. Specifically, for the set of computable
 programs `$\mathbf{C}$` with binary tape state, the prior probability
 assigned by `$\Finv$` for `$C \in \mathbf{C}$` is proportional to
-`$2^{-l(C)}$`—we're using the simplicity prior.
+`$2^{-l(C)}$`—we're using the simplicity prior[^semi].
+
+[^semi]: I think this is technically called a universal semimeasure, but I don't know algorithmic probability theory well enough to distinguish the two. I don't think this distinction kills the below arguments/proof-sketches<sub>85%</sub>, but obviously can't guarantee it.
 
 That is, intuitively, the prior probability decreases exponentially in
 the length of the program.
@@ -220,26 +225,19 @@ is possible and when it isn't; we may be stuck.
 
 One way of defeating Pascal's mugging is to switch to a different prior,
 specifically one in which the construction of the copy-beaver receives
-a very low prior probability—as low as the actual fake utility it
-provides.
+a very low prior probability—as low as the fake utility it "provides".
 
 One possible solution is to use the [speed
 prior](https://en.wikipedia.org/wiki/Speed_Prior)
 instead of the [simplicity
-prior](https://en.wikipedia.org/wiki/Minimum_description_length): For
-the set of computable programs `$\mathbf{C}$` with binary tape state,
-the prior probability assigned by by the speed prior for `$C \in
-\mathbf{C}$` is proportional to `$2^{-(l(C)+s(C))}$` where `$s(C)$`
-is the number of steps `$C$` takes before halting. Indeed, since we
-normalize our prior so that it sums to `$1$`, theoretically we can
-take any function `$f : \mathbf{C} \rightarrow ℕ^+$` of our programs
-and create a new prior by normalizing `$2^{-(l(C)+f(C))}$`. `$f$` can be
-[sophistication](https://en.wikipedia.org/wiki/Sophistication_\(complexity_theory\)),
-[logical depth](https://en.wikipedia.org/wiki/Logical_depth), number of
-bitflips performed during program execution… any crazy thing you can
-come up with as long as `$f$` returns finite natural numbers.<!--TODO:
-is this really true? I haven't *proved* it, maybe there's strange measure
-theory things going on here-->
+prior](https://en.wikipedia.org/wiki/Minimum_description_length):
+For the set of computable programs `$\mathbf{C}$` with binary
+tape state, the prior probability assigned by by the speed prior
+for `$C \in \mathbf{C}$` is proportional to `$2^{-l(C)} \cdot
+\frac{1}{s(C)}$` where `$s(C)$` is the number of steps `$C$` takes
+before halting[^priors].
+
+[^priors]: Indeed, since we normalize our prior so that it sums to `$1$`, theoretically we can take any function `$f : \mathbf{C} \rightarrow ℕ^+$` of our programs and create a new prior by normalizing `$2^{-(l(C)+f(C))}$` or `$2^{-l(C)} \cdot \frac{1}{f(C)}$`. `$f$` can be [sophistication](https://en.wikipedia.org/wiki/Sophistication_\(complexity_theory\)), [logical depth](https://en.wikipedia.org/wiki/Logical_depth), number of bitflips performed during program execution… any crazy thing you can come up with as long as `$f$` returns natural numbers.<!--TODO: is this really true? I haven't *proved* it, maybe there's strange measure theory things going on here-->
 
 I think that the speed prior simply solves mugging in this formalization.
 
@@ -248,8 +246,8 @@ My sketchy reason for believing this looks like this:
 <div>
 	$$
 	\begin{align}
-	\lim_{k \rightarrow \infty} U(k) & \approx \\
-	\lim_{k \rightarrow \infty} 2^{-(k+CB(k))} \cdot CB(k) & = \\
+	\lim_{k \rightarrow \infty} \mathbb{E}[U(k)] & \approx \\
+	\lim_{k \rightarrow \infty} 2^{-k} \cdot \frac{1}{CB(k)} \cdot CB(k) & = \\
 	0
 	\end{align}
 	$$
@@ -259,29 +257,38 @@ However: It may be that normalization upweights the prior probability
 under the speed prior by a "superexponential amount", that is, the
 `$2^{-CB(k)}$` vanishes because normalization moves the program up by a
 significant amount in terms of prior probability. My guess is that that
-doesn't happen, but I think to prove it would require thinking about
-the structure of computable programs, which I'm not very good at.
+doesn't happen (and GPT-5 assures me it doesn't), but I think to prove
+it would require thinking about the structure of computable programs,
+which I'm not very good at.
 
 Intuitively, the prior cares to equal amounts about how long the program
 is and how long it takes to execute. This makes total sense to me,
 a human mind composed of neurons trained with an algorithm selected
 for by natural and sexual selection: I care about my theories maximally
 compressing the world, sure, but I also care about being able to finish
-thinking about them.
+thinking them.
 
-##### The Pure Speed Prior
+A cool fact about this is that it's almost a pure a-priori
+argument: You need to know nothing about the real world, and have
+to make remarkably few mathematical assumptions[^assumptions], to arrive at
+this conclusion: Mixing in a speed prior into your complexity prior
+saves you from this type of copying Pascal's mugging.
 
-This brings up an impractical idea: Can we have a *pure* speed prior? One
-that only cares about how fast programs finish running?
+[^assumptions]: Diverging utilities are bad, you're a Solomonoff inductor whose prior has been defined in a particular way.
 
-The intuitive answer may seem "no" at first, since unlike with program
-length we have, for every number of steps a program needs to halt,
-countably infinitely many programs that take that many steps to halt,
-forcing us to say that any particular program has a prior [Lebesgue
-measure of zero](https://en.wikipedia.org/wiki/Almost_Never).
+> All logic is a prior.
 
-<!--TODO: nevertheless press on with the need for speed, describing the
-pure speed prior, note that it's a bad prior-->
+*—M Ls, [Comment on “Updatelessness doesn't solve most problems”](https://www.lesswrong.com/posts/g8HHKaWENEbqh2mgK/updatelessness-doesn-t-solve-most-problems-1?commentId=Gxp7tzot2MTWo38md), 2024*
+
+I imagine an extremely advanced agent coming into existence, doing some
+mathematics, and then *modifying its prior* based on pure mathematical
+reasoning.
+
+Acknowledgements
+-----------------
+
+Thanks to Claude 4 & 4.5 Sonnet, Claude 4 & 4.1 Opus an GPT-5 for
+discussions on this topic.
 
 See Also
 ---------
@@ -292,3 +299,19 @@ See Also
 * [Most* small probabilities aren't pascalian (Gregory Lewis, 2022)](https://forum.effectivealtruism.org/posts/5y3vzEAXhGskBhtAD/most-small-probabilities-aren-t-pascalian)
 * [Optimization daemons (Eliezer Yudkowsky, 2016)](https://arbital.com/p/daemons/), [Open question: are minimal circuits daemon-free? (Paul Christiano, 2018)](https://www.lesswrong.com/posts/nyCHnY7T5PHPLjxmN/open-question-are-minimal-circuits-daemon-free)
 * [Anthropics and the Universal Distribution (Joe Carlsmith, 2022)](https://joecarlsmith.com/2021/11/28/anthropics-and-the-universal-distribution)
+* [GPT-5 on this post](./outputs/mugging_feedback.html), some complaints already fixed.
+
+Appendix A: The Pure Speed Prior
+---------------------------------
+
+I have a very impractical idea: Can we have a *pure* speed prior? One
+that only cares about how fast programs finish running?
+
+The intuitive answer may seem "no" at first, since unlike with program
+length we have, for every number of steps a program needs to halt,
+countably infinitely many programs that take that many steps to halt,
+forcing us to say that any particular program has a prior [Lebesgue
+measure of zero](https://en.wikipedia.org/wiki/Almost_Never).
+
+<!--TODO: nevertheless press on with the need for speed, describing the
+pure speed prior, note that it's a bad prior-->

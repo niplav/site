@@ -1010,6 +1010,10 @@ mean of odds?
 
 Would the nth generalized odds just be the `$\log^{(n)}$`odds?
 
+### See Also
+
+* Some Claude Sonnet 4.5-written [notes for distributity of commutative hyperoperators](./outputs/distr.html) and [fractional hyperoperators](./outputs/fractional.html)
+
 Pet Peeves
 -----------
 
@@ -2954,6 +2958,11 @@ in a computer somewhere.
 This argument fails if (1) advanced AIs are not optimizers, (2) AIs are
 not goal-guarding, (3) or representations can't be easily extracted for
 later optimization.
+
+What could the DeepDream dogs equivalent of helpfulness, harmlessness
+and honesty look like? Probably quite strange.<!--TODO: wedding
+fixation on maximized outputs, what happens with extremal SAE values
+for HHH/goodness?-->
 
 Some Thoughts on the Stupid Successionism Debate
 -------------------------------------------------

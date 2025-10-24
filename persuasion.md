@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2025-07-04, modified: 2025-09-17, language: english, status: notes, importance: 8, confidence: log*
+*author: niplav, created: 2025-07-04, modified: 2025-10-23, language: english, status: notes, importance: 8, confidence: log*
 
 > __Some ideas on how to handle mildly superpersuasive
 AI systems. Top recommendation: AI developers should have
@@ -72,12 +72,17 @@ AI developers and users will have to interact with increasingly
 persuasive and addictive systems<sub>70%</sub>, but most of the
 thinking on how to interact with superpersuasive sources of information
 has come from fiction[^fiction]. One (preliminary) exception is [Kori
-2025](https://markelkori.substack.com/p/methods-of-defense-against-agi-manipulation)<!--and
-[Davidson 2023]()--><!--TODO: read & link!-->, which takes a useful
-first stab at defining some simple interventions. I wanted to sketch
-a slightly more detailed list of interventions, similar to [AI Control
+2025](https://markelkori.substack.com/p/methods-of-defense-against-agi-manipulation),
+which takes a useful first stab
+at defining some simple interventions; [Davidson
+2023](https://www.lesswrong.com/posts/zxmzBTwKkPMxQQcfR/let-s-use-ai-to-harden-human-defenses-against-ai),
+who proposes training AI systems to manipulate humans, and harden against
+the detected manipulation techniques (thus requiring the ability to detect
+manipulation/persuasion and extract techniques). I wanted to sketch
+a slightly more detailed list of interventions under conservatively
+different [assumptions](#Assumptions), similar to [AI Control
 protocols](./doc/cs/ai/alignment/containment/ai_control_improving_safety_despite_intentional_subversion_greenblatt_et_al_2024.pdf).
-Also relevant: Bostrom<!--TODO: read Bostrom 2011--> [information
+Also relevant: Bostrom<!--TODO: read Bostrom 2011--> on [information
 hazards](https://en.wikipedia.org/wiki/Information_hazard), which hasn't
 received much follow-up.
 
@@ -163,6 +168,14 @@ superpersuasion appears like normal long-form conversations.
 But I think this is the least bad test-bed for anti-superpersuasion
 methods, if anyone finds a better one, I'd like to hear about it.
 
+See Also
+---------
+
+* [Persuasion Tools: AI takeover without AGI or agency? (Daniel Kokotajlo, 2020)](https://www.lesswrong.com/s/dZMDxPBZgHzorNDTt/p/qKvn7rxP2mzJbKfcA)
+* [The Rise of Parasitic AI (Adele Lopez, 2025)](https://www.lesswrong.com/posts/6ZnznCaTcbGYsCmqu/the-rise-of-parasitic-ai)
+* [Measuring the Persuasiveness of Language Models (Esin Durmus/Liane Lovitt/Alex Tamkin/Stuart Ritchie/Jack Clark/Deep Ganguli, 2024)](https://www.anthropic.com/news/measuring-model-persuasiveness)
+* [User manipulation (Eliezer Yudkowsky, 2016)](https://arbital.com/p/user_manipulation/), [User maximization (Eliezer Yudkowsky, 2016)](https://arbital.com/p/30b/)
+
 Appendix A: Sketch Setup of Model Whisperers
 ---------------------------------------------
 
@@ -212,6 +225,11 @@ Two kinds of objections:
 2. There would be exploits, but they are impossible to find because
 	1. Prospective superpersuaders don't have the relevant access to information about human brains (no gradients)
 	2. Human brains are too heterogeneous for generalizable attacks
+
+Possibility: Stimuli that are extremely persuasive/compelling *while
+observed* and shortly thereafter, but don't have any lasting effects
+unless there's repeated exposure, because neuronal pathways don't form
+quickly enough while the stimulus is observed.
 
 <!--Claude Chats:
 https://claude.ai/chat/9b59090a-d1b1-4cff-b0ce-77e439b027f4

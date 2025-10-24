@@ -156,7 +156,7 @@ Slogans
 
 * "data flows, attribution backpropagates, pipes brim"
 * "heaven rests iff compute is optimally allocated"
-* `storage | ideation | allocation | computation | attribution >storage`
+* `ideation <storage | allocation | computation | attribution >>storage`
 * "value is data flow in composition—compute is dancing money"
 * `<value >wealth`
 * "biota of the file system trade in harmony"

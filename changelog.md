@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2025-10-08, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2025-10-23, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -37,6 +37,9 @@ October 2025
 	* [Waiting Outside a Shop Is Rarely Worth It](./notes_on_pickup.html#Waiting_Outside_a_Shop_Is_Rarely_Worth_It)
 	* [Public Transport Has Bad Vibes](./notes_on_pickup.html#Public_Transport_Has_Bad_Vibes)
 	* [Doing Cold Approach Every Day Is Pretty Powerful](./notes_on_pickup.html#Doing_Cold_Approach_Every_Day_Is_Pretty_Powerful)
+
+I also have a section of the site collecting my favourite LLM outputs
+[here](./fullindex.html#AI_Outputs).
 
 ### Links
 

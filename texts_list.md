@@ -652,7 +652,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Whiz Scale (Cyborgism Wiki, 2024)](https://cyborgism.wiki/hypha/whiz_scale)
 * [Shackleton Probably Never Took Out an Ad Seeking Men for a Hazardous Journey (Colin Schultz, 2013)](https://www.smithsonianmag.com/smart-news/shackleton-probably-never-took-out-an-ad-seeking-men-for-a-hazardous-journey-5552379/)
 * [Use black holes as heat sinks (Wei Dai, 2004)](https://www.weidai.com/black-holes.txt)
-* SIA > SSA (Joe Carlsmith, 2021)
+* [SIA > SSA (Joe Carlsmith, 2021)](./doc/philosophy/sia_vs_ssa_carlsmith_2021.pdf)
 * [Nature's many attempts to evolve a Nostr (Gordon Brander, 2024)](https://newsletter.squishy.computer/p/natures-many-attempts-to-evolve-a)
 * [Notes on Writing (Sam Harsimony, 2023)](https://splittinginfinity.substack.com/p/notes-on-writing)
 * [Delivering a Revamped Mailbox (Sam Harsimony, 2023)](https://splittinginfinity.substack.com/p/delivering-a-revamped-mailbox)
