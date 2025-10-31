@@ -190,4 +190,14 @@ Experimental Log
 * Wednesday
 	* Felt hungry *immediately* after taking it, started eating chocolate cookies. Orexin??
 
+### Sample 5
+
+* Started first dose on Tuesday
+* Tuesday morning: Took melatonin and magnesium before sleep
+* Tuesday: Snorting this much water stings
+* Thursday morning: Took melatonin and magnesium before sleep
+* Thursday:
+	* Man 2.5ml is *way* too much. 0.5ml would've been totally fine
+	* 09:30: Eating
+
 [^1]: Even demonstrating one-off effectiveness would be cool: It's often the case that people have short-term sleep deprivation, and would like to ameliorate the effects.

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-08-27, modified: 2025-10-23, language: english, status: in progress, importance: 4, confidence: possible*
+*author: niplav, created: 2025-08-27, modified: 2025-10-27, language: english, status: in progress, importance: 4, confidence: possible*
 
 > __I [~formalize](#Formalizing_Pascals_Mugging) [Pascal's
 mugging](https://nickbostrom.com/papers/pascal.pdf)
@@ -47,7 +47,7 @@ programs `$\mathbf{C}$` with binary tape state, the prior probability
 assigned by `$\Finv$` for `$C \in \mathbf{C}$` is proportional to
 `$2^{-l(C)}$`—we're using the simplicity prior[^semi].
 
-[^semi]: I think this is technically called a universal semimeasure, but I don't know algorithmic probability theory well enough to distinguish the two. I don't think this distinction kills the below arguments/proof-sketches<sub>85%</sub>, but obviously can't guarantee it.
+[^semi]: I think this is technically called a universal semimeasure. I don't think this distinction kills the below arguments/proof-sketches<sub>85%</sub>, but obviously can't guarantee it.
 
 That is, intuitively, the prior probability decreases exponentially in
 the length of the program.
@@ -120,6 +120,8 @@ in program length.
 <div>
         $$\lim_{k \rightarrow \infty} 2^{-k} \cdot CB(k) = \infty$$
 </div>
+
+I don't know if this is the only way of formalizing Pascal's mugging.
 
 ### Mugging Immunity
 
@@ -287,7 +289,7 @@ reasoning.
 Acknowledgements
 -----------------
 
-Thanks to Claude 4 & 4.5 Sonnet, Claude 4 & 4.1 Opus an GPT-5 for
+Thanks to Claude 4 & 4.5 Sonnet, Claude 4 & 4.1 Opus and GPT-5 for
 discussions on this topic.
 
 See Also

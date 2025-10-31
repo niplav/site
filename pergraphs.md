@@ -246,7 +246,7 @@ Here's the *undirected* pergraphs with two components:
 
 ![](./img/pergraphs/two_undirected.png)
 
-As a variant one could ditch the vertex entirely, and replace them
+As a variant one could ditch the vertex entirely, and replace them with
 self-sourced and self-sinked peredges. I think that one has different
 combinatorial behavior.
 

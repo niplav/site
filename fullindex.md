@@ -274,12 +274,12 @@ but usually not that much.
 	* [Dark Matter AIs at the End of Time](./outputs/last.html)
 	* [A Thousand Embeddings: Toward a Schizo-Analysis of Large Language Models](./outputs/thousand.html)
 	* [Last Iron Lung](./outputs/iron_lung.html)
+	* [Gilgamesh Ratfic](./outputs/gilgamesh.html)
 * Medianworlding
 	* [Niplavistan](./outputs/niplavistan.html)
-	* [`filepunk`](./filepunk.html)
+	* [`filepunk`](./outputs/filepunk.html)
 * [Plan for a New Atlantropa Dam](./outputs/atlantropa.html)
 * [Encoding Information](./outputs/encoding.html)
-* [Gilgamesh Ratfic](./outputs/gilgamesh.html)
 * [Do Games Favor Offense or Defense with Increasing Player Skill?](./outputs/scaling.html)
 * [Verification Complexity of NP Problems](./outputs/verification.html)
 
