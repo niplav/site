@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2025-10-22, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2025-10-28, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,49 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Tabulae Votivae (Friedrich Schiller, 1798)
+* Die Sachmänner (Friedrich Schiller, 1797)
+* Der Fuchs und der Kranich (Friedrich Schiller, 1797)
+* Güte und Grösse (Friedrich Schiller, 1797)
+* Liebe und Begierde (Friedrich Schiller, 1797)
+* Der Vater (Friedrich Schiller, 1797)
+* Menschliches Wirken (Friedrich Schiller, 1797)
+* Das gemeinsame Schicksal (Friedrich Schiller, 1797)
+* Erwartung und Erfüllung (Friedrich Schiller, 1797)
+* Der griechische Genius (Friedrich Schiller, 1797)
+* Die schönste Erscheinung (Friedrich Schiller, 1797)
+* Das weibliche Ideal (Friedrich Schiller, 1797)
+* Forum des Weibes (Friedrich Schiller, 1796)
+* Weibliches Urteil (Friedrich Schiller, 1796)
+* Tugend des Weibes (Friedrich Schiller, 1796)
+* Der Genius mit der umgekehrten Fackel (Friedrich Schiller, 1796)
+* Grabschrift (Friedrich Schiller, 1796)
+* Der Naturkreis (Friedrich Schiller, 1796)
+* Quelle der Verjüngung (Friedrich Schiller, 1796)
+* Jugend (Friedrich Schiller, 1796)
+* Falscher Studiertrieb (Friedrich Schiller, 1796)
+* Das Ehrwürdige (Friedrich Schiller, 1796)
+* Würde des Menschen (Friedrich Schiller, 1796)
+* An die Gesetzgeber (Friedrich Schiller, 1796)
+* Die beste Staatsverfassung (Friedrich Schiller, 1796)
+* Der Dichter an seine Kunstrichterin (Friedrich Schiller, 1796)
+* Der Skrupel (Friedrich Schiller, 1795)
+* Deutschland und seine Fürsten (Friedrich Schiller, 1795)
+* Zevs zu Herkules (Friedrich Schiller, 1795)
+* Unsterblichkeit (Friedrich Schiller, 1795)
+* Ilias (Friedrich Schiller, 1795)
+* Das Höchste (Friedrich Schiller, 1795)
+* [In The Balance (Scott Alexander, 2018)](https://slatestarcodex.com/2018/09/12/in-the-balance/)
+* [Should you make stone tools? (Alex Altair, 2025)](https://www.lesswrong.com/posts/bkjqfhKd8ZWHK9XqF/should-you-make-stone-tools)
+* [* Let’s use AI to harden human defenses against AI manipulation (Tom Davidson, 2023)](https://www.lesswrong.com/posts/zxmzBTwKkPMxQQcfR/let-s-use-ai-to-harden-human-defenses-against-ai)
+* [Comment on “Risks from AI persuasion” (Wei Dai, 2022)](https://www.lesswrong.com/posts/5cWtwATHL6KyzChck/risks-from-ai-persuasion?commentId=EjFRmAukHsv2SFZHJ)
+* [Comment on “Risks from AI persuasion” (jacob_cannell, 2021)](https://www.lesswrong.com/posts/5cWtwATHL6KyzChck/risks-from-ai-persuasion?commentId=GCe62s4hQtkAYKDZn)
+* [Comment on “Risks from AI persuasion” (Daniel Kokotajlo, 2021)](https://www.lesswrong.com/posts/5cWtwATHL6KyzChck/risks-from-ai-persuasion?commentId=srsKhBKMedEjMtWuB)
+* [Risks from AI persuasion (Beth Barnes, 2021)](https://www.lesswrong.com/posts/5cWtwATHL6KyzChck/risks-from-ai-persuasion)
+* [A Simple Toy Coherence Theorem (johnswentworth/David Lorell, 2024)](https://www.lesswrong.com/posts/DXxEp3QWzeiyPMM3y/a-simple-toy-coherence-theorem)
+* [Less than 70% of FrontierMath is with reach for today's models (Greg Burnham, 2025)](https://epoch.ai/gradient-updates/less-than-70-percent-of-frontiermath-is-within-reach-for-todays-models)
+* [Me, Myself and AI: The Situational Awareness Dataset for LLMs (Rudolf Laine/Bilal Chughtai/Jan betley/Kaivalya Hariharan/Jérémy Scheurer/Mikita Balesni/Marius Hobbahn/Alexander Meinke/Owain Evans, 2024)](https://situational-awareness-dataset.org/)
+* Die schlimmen Monarchen (Friedrich Schiller, 1782)
 * Quirl (Friedrich Schiller, 1782)
 * Monument Moors des Räubers (Friedrich Schiller, 1782)
 * Das Muttermal (Friedrich Schiller, 1782)

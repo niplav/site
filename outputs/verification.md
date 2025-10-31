@@ -58,6 +58,7 @@ problems that *require* cubic or higher verification seems difficult
 or impossible.
 
 **Hypotheses:**
+
 1. **Selection bias:** We don't study problems with impractically expensive verification
 2. **Structural reason:** Natural problems ask about locally checkable properties
 3. **Deep theorem:** Something fundamental about certificate complexity limits natural problems to near-linear verification

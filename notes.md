@@ -2597,6 +2597,7 @@ Indicators that error correction is possible as a replacement backstop:
 * [FAAH-OUT and the FAAH gene variant rs324420](https://en.wikipedia.org/wiki/FAAH-OUT).
 * Wanting≠Liking.
 * A [singleton](https://en.wikipedia.org/wiki/Singleton), if it's indeed possible.
+* The stability of GANs???
 
 Indicators that there is no replacement for evolution:
 
@@ -2649,7 +2650,7 @@ Avoiding Wireheading via Iterative Convergent Interventional Avoidance
 -----------------------------------------------------------------------
 
 (All of the following assumes that [reward
-tampering/wireheading](https://centresecuriteia.github.io/textbook/Chapters/06 - Reward Misspecification/3-Reward-Misspecification/index.html)
+tampering/wireheading](https://centresecuriteia.github.io/textbook/Chapters/06 - Reward nisspecification/3-Reward-Misspecification/index.html)
 actually are problems in advanced AI systems, and I will
 not spend any time justifying that assumption, even though
 I believe it. Sorry. For counter-arguments, see [TurnTrout
@@ -2884,85 +2885,7 @@ fact recall, and still very useful.
 I Believe the Value Misspecification Argument
 ----------------------------------------------
 
-The story goes like this: People used to believe that advanced AIs
-would take your instructions literally, and turn the entire universe
-into paperclips if you instructed them to create you a paperclip
-factory. But if you ask current LLMs, they tell you they won't turn the
-entire universe into a paperclip factory just because you expressed a
-weak desire to use some bent metal to bring order to your government
-forms. Thus, the original argument (the ["Value Misspecification
-Argument"](https://www.lesswrong.com/posts/i5kijcjFJD6bn7dwq/evaluating-the-historical-value-misspecification-argument))
-is wrong and the people who believed it should at least stop believing
-it).
-
-Here's a *different* story: Advanced AI systems are going to be
-optimizers. They are going to be optimizing *something*. What
-would that something be? There are two possibilities: (1) They
-are going to optimize a function of their world model[^activ], or
-(2) they are going to optimize a function of the sensors. (See [Dewey
-2010](./cs/ai/alignment/value_learning/learning_what_to_value_dewey_2010.pdf)
-on this.). Furthermore, so goes the assumption, they will be
-[goal-guarding](https://arxiv.org/abs/2412.14093): They will take actions
-to prevent the target of their optimization from being changed.  At some
-point then an AI will fix its goal in place. This goal will be to either
-optimize some function of its world model, or of its sensors. In the
-case (1) it will want to keep that goal, so for instrumental purposes
-it may continue improving its world model as it becomes more capable,
-but keep a copy of the old world model as a referent for what it truly
-values. In the case (2) it will simply have to keep the sensors.
-
-[^activ]: Very likely its weights or activations.
-
-What happens if an AI optimizes a function of its world model? Well,
-there's precedent. [DeepDream](https://en.wikipedia.org/wiki/DeepDream)
-images were created by finding maximizing activations for neurons in
-the [ConvNet](https://en.wikipedia.org/wiki/Convolutional_neural_net)
-Inception trained on [ImageNet](https://en.wikipedia.org/wiki/ImageNet).
-These are some of the results:
-
-![](img/misspecification/dog_1.jpg)
-
-![](img/misspecification/dog_2.jpg)
-
-![](img/misspecification/dog_3.jpg)
-
-![](img/misspecification/dog_4.jpg)
-
-So, even if you've solved the [inner alignment
-problem](https://www.lesswrong.com/s/r9tYkB2a8Fp4DN8yB/p/pL56xPoniLvtMDQ4J),
-and you get some representation of human values into your AI, if it
-goal-guards and then ramps up its optimization power, the result will
-probably look like the DeepDream dogs, but for Helpfulness, Harmlessness
-and Honesty. I believe we once called this problem of finding a function
-that is safe to optimize the "outer alignment problem", but most people
-seem to have forgotten about this, or believe it's a solved problem.
-
-One could argue that current LLM representations of human values are
-robust to strong optimization, or that they will be robust to strong
-optimization at the time when AIs are capable of taking over. I think
-that's probably wrong, because (1) LLMs have many more degrees of freedom
-in their internal representations than e.g. Inception, so the resulting
-optimized outputs are going to look even stranger, and (2) I don't think
-humans have yet found any function that's safe and useful to optimize,
-so I don't think it's going to be "in the training data".
-
-If an advanced AI optimizes some functions of its
-sensors that is usually called wireheading or [reward
-tampering](https://www.anthropic.com/research/reward-tampering)
-or the problem of inducing [environmental
-goals](https://arbital.com/p/environmental_goals/), and it doesn't lead
-to an AI sitting in the corner being helpless, but probably like trying
-to agentically create an expanding protective shell around some register
-in a computer somewhere.
-
-This argument fails if (1) advanced AIs are not optimizers, (2) AIs are
-not goal-guarding, (3) or representations can't be easily extracted for
-later optimization.
-
-What could the DeepDream dogs equivalent of helpfulness, harmlessness
-and honesty look like? Probably quite strange.<!--TODO: wedding
-fixation on maximized outputs, what happens with extremal SAE values
-for HHH/goodness?-->
+See [here](./automated.html#IV_GoalGuarding__Adversarial_Examples).
 
 Some Thoughts on the Stupid Successionism Debate
 -------------------------------------------------
@@ -3226,12 +3149,14 @@ Humanity Learned Almost Nothing From COVID-19
 
 https://claude.ai/chat/3a9ba552-a477-4480-9495-64a90e3eaaff
 
-Are There Natural Problems With A Negative Prover-Verifier Gap?
-----------------------------------------------------------------
+It's fairly easy to construct NP-complete problems with cubic verifiers
+and above, but they don't appear in practice. Instead, most verifiers
+of NP-complete problems are linear, some are quadratic (Claude
+Sonnet-generated table [here](./outputs/verification.html)). Why?
 
-Related: [Verification is not Easier than
-Generation in General (johnswentworth,
-2022)](https://www.lesswrong.com/posts/2PDC69DDJuAx6GANa/verification-is-not-easier-than-generation-in-general).
+1. It's a contingent part of our tendency to choose NP-complete problems to focus on.
+2. Our physics favours NP-complete problems with subcubic verifiers.
+3. There's a deep complexity-theoretic reason why most (all?) "natural" NP-complete problems have subcubic verifiers.
 
 Why Are There No Real-World Phenomena With Γ-Like Growth?
 -----------------------------------------------------------

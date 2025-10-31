@@ -29,7 +29,6 @@ October 2025
 * [Mugging-Immune Utility Functions](./mugging.html): [The Need for Speed](./mugging.html#The_Need_for_Speed)
 * [Notes](./notes.html):
 	* [Shake Brains First](./notes.html#Shake_Brains_First): Lots of people have the wrong frame for neurotech.
-	* [I Believe the Value Misspecification Argument](./notes.html#I_Believe_the_Value_Misspecification_Argument)
 	* [Some Thoughts on the Stupid Successionism Debate](./notes.html#Some_Thoughts_on_the_Stupid_Successionism_Debate)
 	* [Quantum Computing is about Atoms, not Bits???](./notes.html#Quantum_Computing_is_about_Atoms_not_Bits)
 	* [Humanity Learned Almost Nothing From COVID-19](./covid.html)
@@ -37,13 +36,20 @@ October 2025
 	* [Waiting Outside a Shop Is Rarely Worth It](./notes_on_pickup.html#Waiting_Outside_a_Shop_Is_Rarely_Worth_It)
 	* [Public Transport Has Bad Vibes](./notes_on_pickup.html#Public_Transport_Has_Bad_Vibes)
 	* [Doing Cold Approach Every Day Is Pretty Powerful](./notes_on_pickup.html#Doing_Cold_Approach_Every_Day_Is_Pretty_Powerful)
+* [Goal-Guarding + Adversarial Examples](./automated.html#IV_GoalGuarding__Adversarial_Examples)
 
 I also have a section of the site collecting my favourite LLM outputs
 [here](./fullindex.html#AI_Outputs).
 
 ### Links
 
+* [Common misconceptions about OpenAI (Jacob Hilton, 2022)](https://www.lesswrong.com/posts/3S4nyoNEEuvNsbXt8/common-misconceptions-about-openai): This post aged embarassingly poorly. OpenAI really has taken a treacherous turn.
+* [Risks from AI persuasion (Beth Barnes, 2021)](https://www.lesswrong.com/posts/5cWtwATHL6KyzChck/risks-from-ai-persuasion): This one on AI persuasion, sadly, aged extremely well. I look forward to reviewing the scenarios outlined in late 2026.
 * [The limits of the proposed 'behavioral immune system' (William Buckner, 2021)](https://traditionsofconflict.com/blog/2021/2/5/the-limits-of-the-proposed-behavioral-immune-system)
+* [Towards Measures of Optimisation (mattmacdermott, Alexander Gietelink Oldenziel, 2023)](https://www.lesswrong.com/posts/X6ZjFShxNBNM5QCg4/towards-measures-of-optimisation-3)
+* [Thue (programming language) (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Thue_(programming_language))
+* [Necromeny (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Necromeny)
+* [Verification Is Not Easier Than Generation In General (johnswentworth, 2022)](https://www.lesswrong.com/posts/2PDC69DDJuAx6GANa/verification-is-not-easier-than-generation-in-general)
 
 September 2025
 ---------------
