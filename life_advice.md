@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2021-02-22, modified: 2025-02-05, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2021-02-22, modified: 2025-11-10, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Inspired by others
 ([Falkovich 2019](https://www.lesswrong.com/posts/HJeD6XbMGEfcrx3mD/100-ways-to-live-better "100 Ways To Live Better"),
@@ -29,6 +29,7 @@ Life Advice
 		comfortable. Major improvement in my practice.
 4. Choose your hobbies so that they solve big problems in your life
 	* Example for myself: I didn't get laid, so I made daygame one of my hobbies (going out quite a lot, for a 3 month period 2 hours a day 6 days a week)
+	* Relatedly: Doing something an hour or more a day for several months will create a lot of progress on that activity
 5. Try to identify addictive loops early and destroy them as early as possible
 	* The longer you wait, the harder they become to root out
 	* This will probably become a bigger problem in the future
@@ -220,7 +221,11 @@ Existence of Long Tails for Bliss and Suffering")<!--TODO: better links for this
 38. One can buy groceries once a month if one has a big fridge/freezer and enough shelf space.
 	* Buying groceries has a fixed cost and variable costs (having a dedicated chunk of time for buying groceries as a fixed cost, and the time spent driving and packing/unpacking bags as a variable cost), one can reduce the fixed cost.
 	* Buying in bulk also means that one on average has half a month (or a month, depending on frequency) of food stock at home, this functions as a neat small disaster preparation stash.
-39. Do the obvious things
+39. Taking nicotine more often than once a month but less often that once a week is great for procrastination-busting.
+	* One can plausibly take caffeine [≥thrice a week](https://mdickens.me/2024/03/29/does_caffeine_stop_working/) without habituation.
+40. Speculative<!--TODO: check this-->: Brushing ones teeth is about five times more important in the evening than in the morning.
+	* Morning-brushing is mostly about avoiding a smelly breath, which can be achieved by tongue-scraping and some chewing gum.
+41. Do the obvious things
 	* Exercise any amount
 		*	Even walking around outside for 10 minutes a
 			day is better than nothing

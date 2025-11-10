@@ -55,7 +55,7 @@ source and the sink of an edge can be any node or edge, including itself.
 
 ![](./img/pergraphs/examples.png "A drawing with multiple different small pergraphs. Examples: (1) Two nodes, connected by two edges, both edges have the same direction. (2) Two nodes, connected by an edge. There's a second edge which has the first edge as a source and loops back into itself. Three edges, arranged in a circle, so that each edge has as its source one of the different edges, and as its sink the third edge.")
 
-__Definition 1__ ([Lean](#Definition_1)): Given:
+__Definition 1__ ([Lean](#Pergraph)): Given:
 
 1. A finite set of vertices `$V$` and
 2. A finite set of __peredges__ `$P$` (where a peredge is simply a label),
@@ -69,7 +69,7 @@ multi-*pergraph__, since peredges are *directed*, and two peredges can
 have the same source and the same sink. We will use the term "pergraph"
 for directed multi-pergraphs, and specify deviations from such.
 
-__Theorem 1__ ([Proof](#Proof_1)): Every
+__Theorem 1__ ([Proof](#Quiver_to_Pergraph)): Every
 [quiver](https://en.wikipedia.org/wiki/Quiver_\(mathematics\)) is also
 a pergraph, that is the pergraphs contain the quivers as a subset.
 
@@ -82,30 +82,30 @@ from your quiver.
 __Remark 2__: Since every directed graph is a quiver, all directed graphs
 are also pergraphs.
 
-__Definition 2__ ([Lean](#Definition_2)): A __uni-pergraph__ is a pergraph
+__Definition 2__ ([Lean](#UniPergraph)): A __uni-pergraph__ is a pergraph
 with the additional constraint that no two peredges have the same source
 *and* the same sink, mathematically
 `$\lnot \exists p_1, p_2 \in P: p_1 \not=p_2 \land e(p_1)=e(p_2)$`.
 
 ![](./img/pergraphs/uni_allowed.png)
 
-__Definition 3__ ([Lean](#Definition_3)): An __undirected pergraph__ is
+__Definition 3__ ([Lean](#Undirected_Pergraph)): An __undirected pergraph__ is
 a a pergraph with undirected peredges, i.e. a pergraph where `$e$` has the
 type signature `$P \rightarrow {V \cup P \choose 2}$`.
 
 ### Some Pergraph Concepts
 
-__Definition 4__ ([Lean](#Definition_4)): The __source__ of a peredge is
+__Definition 4__ ([Lean](#Source_and_Sink)): The __source__ of a peredge is
 the vertex or peredge it comes from, the __sink__ of a peredge is the thing
 it points to.
 
-__Definition 5__ ([Lean](#Definition_5)): A __source-path__ is a
+__Definition 5__ ([Lean](#Paths)): A __source-path__ is a
 sequence of edges so that each edge has as its source the previous edge;
 a __sink-path__ is a sequence of edges so that each edge has as its sink
 the following edge. A __pure path__ is a sequence of edges that is both
 a source-path and a sink-path.
 
-__Definition 6__ ([Lean](#Definition_6)): Two vertices `$v_1, v_2$`
+__Definition 6__ ([Lean](#Connected_via_Paths)): Two vertices `$v_1, v_2$`
 are __connected via a source-path__ if the source of the first edge
 is `$v_1$` and the sink of the last edge is `$v_2$`, and similar for
 sink-paths and pure paths.
@@ -114,11 +114,11 @@ sink-paths and pure paths.
 
 ![](./img/pergraphs/pure_path.png)
 
-__Definition 7__ ([Lean](#Definition_7)): A __mixed source-path__,
+__Definition 7__ ([Lean](#Mixed_Paths)): A __mixed source-path__,
 __mixed sink path__, and __mixed pure path__ is a source-path, sink path
 and pure path with vertices mixed in, respectively.
 
-__Definition 8__ ([Lean](#Definition_8)): A __source-cycle__ is a
+__Definition 8__ ([Lean](#Cycles)): A __source-cycle__ is a
 __source-path__ that connects a vertex `$v$` to `$v$` or an edge `$p$`
 to `$p$`. One can define a __sink-cycle__, a __pure cycle__, a __mixed
 source cycle__, and a __mixed sink-cycle__ similarly.
@@ -131,7 +131,7 @@ to call "__keltic knots__", where, if of any edge `$p_1$` the sink is
 
 <!--TODO: image-->
 
-__Definition 9__ ([Lean](#Definition_9): A __sub-pergraph__ `$S$`
+__Definition 9__ ([Lean](#Subpergraph)): A __sub-pergraph__ `$S$`
 of a pergraph `$A=(V, P, e)$` is a pergraph where the vertices are
 subsets of `$V$` and the edges are a subset of `$P$`. As is custom, a
 __proper sub-pergraph__ of `$A$` is a sub-pergraph of `$A$` that isn't
@@ -140,10 +140,10 @@ is a sub-pergraph of `$A$` where, for any pair of vertices or edges, all
 edges between those two components are also edges of `$S_i$`, similarly to
 [induced subgraphs](https://en.wikipedia.org/wiki/Induced_subgraph).
 
-__Definition Ratking__ ([Lean](#Definition_Ratking)): A __ratking__
+__Definition Ratking__ ([Lean](#Ratking)): A __ratking__
 is a pergraph without vertices.
 
-__Definition 10__ ([Lean](#Definition_10)): A __rhizome__ is a non-empty
+__Definition 10__ ([Lean](#Rhizome)): A __rhizome__ is a non-empty
 pergraph without a proper sub-pergraph. We denote the set of all rhizomes
 with `$\mathcal{R}$`.
 
@@ -169,14 +169,17 @@ lattice where the minimal elements are rhizomes and a single vertex.
 
 <!--TODO: turn from remarks into theorems? Prove then I guess-->
 
-__Theorem 3__: Every pergraph can be constructed by
+~~__Theorem 3__: Every pergraph can be constructed by~~
 
-1. Taking a finite subset from the set of all rhizomes, call this disconnected set of components `$I$`. We call `$I$` the __perbasis__, and it can be empty.
-2. Finitely often either of the following operations:
-	1. Add a vertex to `$I$`
-	2. Add a peredge between any two vertices/edges in `$I$`
-	3. Add a peredge sourced from itself, pointing to any vertex/edge in `$I$`
-	4. Add a peredge sinking into itself, pointed from any vertex/edge in `$I$`
+1. ~~Taking a finite subset from the set of all rhizomes, call this disconnected set of components `$I$`. We call `$I$` the __perbasis__, and it can be empty.~~
+2. ~~Finitely often either of the following operations:~~
+	1. ~~Add a vertex to `$I$`~~
+	2. ~~Add a peredge between any two vertices/edges in `$I$`~~
+	3. ~~Add a peredge sourced from itself, pointing to any vertex/edge in `$I$`~~
+	4. ~~Add a peredge sinking into itself, pointed from any vertex/edge in `$I$`~~
+
+This isn't correct, see e.g. the graph `$(\{v_1, v_2\}, \{e_1, e_2\},
+\{e_1: v_1 → e_2, e_2: v_2 → e_1\})$`.
 
 __Theorem 4__: Every pergraph has a unique perbasis.
 
@@ -215,6 +218,23 @@ a simpler set with simpler rules?
 
 Bijection/injection with the directed graphs? Needs to blow up the
 directed graphs.
+
+Wharfs/ports/docks (decide terminology, maybe
+disambiguate?). n-m-ports. Every pergraph can be built out of rhizomes,
+ports and vertices. If you cut all outgoing/incoming "open" edges from
+a port, call that "to machete" a port. The port falls apart into a
+[bag](https://en.wikipedia.org/wiki/Bag_\(mathematics\)) of more ports.
+
+Building a large subset of pergraphs by taking what was previously built,
+putting on it:
+
+1. A loop from an entity to itself
+2. A hook from itself to that entity, a hook from the entity into itself
+3. For two non-isomorphic entities `$a, b$`:
+	1. From `$a$` to `$a$`, from `$b$` to `$a$`
+4. Just adding another lone-standing vertex or loop.
+
+This doesn't capture the rhizomes one can build.
 
 ### Counting
 
@@ -378,7 +398,7 @@ I provide [Lean 4](https://en.wikipedia.org/wiki/Lean_\(proof_assistant\))
 definitions and proofs for pergraphs, related structures, and the theorems
 in this text.
 
-### Definition 1
+### Pergraph
 
 	inductive PerNode (V E : Type) : Type
 	  | vertex : V → PerNode V E
@@ -387,7 +407,7 @@ in this text.
 	structure Pergraph (V E : Type) where
 	  e : E → PerNode V E × PerNode V E
 
-### Proof 1
+### Quiver to Pergraph
 
 	def Quiver.toPergraph {V : Type} [Quiver V] :
 	  Pergraph (V ⊕ (Σ (a b : V), a ⟶ b)) (Σ (a b : V), a ⟶ b) where
@@ -402,17 +422,17 @@ That function is injective:
 	  -- simp already gives us e₁ = e₂, so we're done
 	  exact h_eq.2
 
-### Definition 2
+### UniPergraph
 
 	def UniPergraph (V E : Type) : Type :=
 	  { p : Pergraph V E // Function.Injective p.e }
 
-### Definition 3
+### Undirected Pergraph
 
 	structure UndirectedPergraph (V E : Type) where
 	  e : E → Sym2 (PerNode V E)
 
-### Definition 4
+### Source and Sink
 
 	def source (G : Pergraph V E) (edge : E) : PerNode V E :=
 	  (G.e edge).1
@@ -420,7 +440,7 @@ That function is injective:
 	def sink (G : Pergraph V E) (edge : E) : PerNode V E :=
 	  (G.e edge).2
 
-### Definition 5
+### Paths
 
 	def SourcePath (G : Pergraph V E) : List E → Prop
 	  | [] => True
@@ -435,7 +455,7 @@ That function is injective:
 	def PurePath (G : Pergraph V E) (path : List E) : Prop :=
 	  SourcePath G path ∧ SinkPath G path
 
-### Definition 6
+### Connected via Paths
 
 	def connectedViaSourcePath (G : Pergraph V E) (start finish : PerNode V E) (path : List E) : Prop :=
 	  SourcePath G path ∧
@@ -447,7 +467,7 @@ That function is injective:
 	  (path.head?.map G.source = some start) ∧
 	  (path.getLast?.map G.sink = some finish)
 
-### Definition 7
+### Mixed Paths
 
 	inductive MixedPath (G : Pergraph V E) (dir : Pergraph V E → E → PerNode V E) (codir : Pergraph V E → E → PerNode V E) : List (PerNode V E ⊕ E) → Prop
 	  | empty : MixedPath G dir codir []
@@ -472,7 +492,7 @@ That function is injective:
 	def MixedSinkPath (G : Pergraph V E) : List (PerNode V E ⊕ E) → Prop :=
 	  MixedPath G sink source
 
-### Definition 8
+### Cycles
 
 	def SourceCycle (G : Pergraph V E) (node : PerNode V E) (path : List E) : Prop :=
 	  connectedViaSourcePath G node node path
@@ -503,7 +523,7 @@ That function is injective:
 	def MixedSinkCycle (G : Pergraph V E) : PerNode V E → List (PerNode V E ⊕ E) → Prop :=
 	  MixedCycle G sink source
 
-### Definition 9
+### Subpergraph
 
 	def nodeInSub (vp : V → Prop) (ep : E → Prop) : PerNode V E → Prop
 	  | PerNode.vertex v => vp v
@@ -523,12 +543,12 @@ That function is injective:
 	       nodeInSub S.vertices S.edges (G.sink e) →
 	       S.edges e
 
-### Definition Ratking
+### Ratking
 
 	def isRatking (G : Pergraph V E) : Prop :=
 	  IsEmpty V
 
-### Definition 10
+### Rhizome
 
 	def isNonEmpty (_ : Pergraph V E) : Prop :=
 	  Nonempty V ∨ Nonempty E
