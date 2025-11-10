@@ -23,6 +23,9 @@ the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
 
+November 2025
+--------------
+
 October 2025
 -------------
 
@@ -50,6 +53,7 @@ I also have a section of the site collecting my favourite LLM outputs
 * [Thue (programming language) (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Thue_(programming_language))
 * [Necromeny (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Necromeny)
 * [Verification Is Not Easier Than Generation In General (johnswentworth, 2022)](https://www.lesswrong.com/posts/2PDC69DDJuAx6GANa/verification-is-not-easier-than-generation-in-general)
+* [In The Balance (Scott Alexander, 2018)](https://slatestarcodex.com/2018/09/12/in-the-balance/)
 
 September 2025
 ---------------
