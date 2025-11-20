@@ -53,10 +53,8 @@ Reading
 Currently, I am actively reading the following texts:
 
 * [Grand Futures (Anders Sandberg, 2023)](https://www.goodreads.com/book/show/42275384-grand-futures)
-* [Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)](https://statisticswithjulia.org/)
 * [Coming to Wholeness (Connirae Andreas, 2018)](https://www.goodreads.com/book/show/42348332-coming-to-wholeness)
 * [The Native Tribes of Central Australia (Baldwin Spencer/Francis James Gillen, 1899)](https://www.goodreads.com/book/show/68126748-the-native-tribes-of-central-australiar)
-* ML for the Working Programmer (Lawrence C. Paulson, 1996)
 * Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 9/1000.
 	* [Book (2019)](https://en.wikipedia.org/wiki/Book)

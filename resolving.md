@@ -2322,7 +2322,7 @@ irrational preferences into rational ones. I also want to thank Felix
 Harder for help with the impossibility result, and Filip Sondej for his
 surprising ideas in the lottery case.
 
-Appendix A: Hints in Prior Texts
+Appendix A: Hints in Other Texts
 ---------------------------------
 
 > Starting from a state of arbitrary incoherence and moving iteratively
@@ -2336,6 +2336,13 @@ the value of oranges to be the same as pears. The new utility function
 is exactly as incoherent as the old one.
 
 *—Katja Grace, [“Counterarguments to the basic AI x-risk case”](https://www.lesswrong.com/posts/LDRQ5Zfqwi8GjzPYG/counterarguments-to-the-basic-ai-x-risk-case), 2022*
+
+> And even if you decide to try to become more like a VNM-rational
+agent, it isn’t always clear how to do this in a manner
+suitably compatible with your existing values/preferences (more
+[here](https://joecarlsmith.com/2023/02/16/why-should-ethical-anti-realists-do-ethics#6-2-coherence-isn-t-free)).
+
+*—Joe Carlsmith, [“How human-like do safe AI motivations need to be?”](https://www.lesswrong.com/posts/r8H4d3X7AKg9n8TQk/how-human-like-do-safe-ai-motivations-need-to-be), 2025*
 
 Appendix B: Proofs
 -------------------
