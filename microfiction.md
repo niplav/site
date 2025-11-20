@@ -123,6 +123,7 @@ Quinean underdetermination. Infinite theories fit the same data.
 
 * Finite Factored Sets (Garrabrant)
 * Natural Latents (Wentworth & Lorell)
+* Condensation (Eisenstat)
 
 #### The Open Sky
 

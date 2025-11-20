@@ -1798,6 +1798,18 @@ a particular kind of self-originated interference with its sensory goals".*
 
 ![](./img/suspicious/4.jpg)
 
+Issue: For this to work, the resulting RL agent needs to contain a
+[gradient hacker](https://www.lesswrong.com/posts/uXH4r6MmKPedk8rMA),
+i.e. some part of its weights that first checks if the reward is too
+high, and based on that gates or lets through the reinforcement signal
+reinforcing or deinforcing circuits that were involved in the action.
+
+Humans do something like this; a human can say "oh no, I'm enjoying this
+*too much*, let me stop and introspect if this is a malign input".
+
+So: Try to train a gradient hacker into the weights? Or *write* one into
+the weights, and then see if it continues to persist during training?
+
 ### See Also
 
 > There could also be a sequence of such steps. As a caricature, imagine
