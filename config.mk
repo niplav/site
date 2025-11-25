@@ -102,6 +102,7 @@ HTML=index.html \
 	preference.html \
 	qualia.html \
 	quality.html \
+	quantum.html \
 	range_and_forecasting_accuracy.html \
 	rationalist_gods.html \
 	resolving.html \

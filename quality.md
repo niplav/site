@@ -116,6 +116,8 @@ data:
 	    np.sqrt(result['concentration_rating']['size'])
 	)
 
+### Results
+
 Plot together with sample sizes:
 
 !["Three line graphs: Concentration and mindfulness (with error bars), and sample sizes, with the x-axis being days since last masturbation. Concentration values decline fairly steadily for longer periods of abstinence, while mindfulness values first slightly decline, then spike at 32 days, then decline drastically and climbing up again towards 60 days. Sample sizes fall of quickly so that they're below 100 after 12 days."](./img/quality/time_series.png "Three line graphs: Concentration and mindfulness (with error bars), and sample sizes, with the x-axis being days since last masturbation. Concentration values decline fairly steadily for longer periods of abstinence, while mindfulness values first slightly decline, then spike at 32 days, then decline drastically and climbing up again towards 60 days. Sample sizes fall of quickly so that they're below 100 after 12 days.")

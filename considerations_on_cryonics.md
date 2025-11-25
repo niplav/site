@@ -1670,6 +1670,80 @@ The reader is encouraged to modify the variables and execute the script
 to determine whether it is advantageous for them to sign up for cryonics,
 and if yes, whether cryocrastination would be a good idea.
 
+Now What?
+---------
+
+> I know more people who are planning to sign up for cryonics Real
+Soon Now than people who have actually signed up. __I expect that
+more people have *died while cryocrastinating than have actually
+been cryopreserved*.__ If you've *already decided* this is a
+good idea, but you “haven't gotten around to it,”, sign up for
+cryonics ɴᴏᴡ. I mean ʀɪɢʜᴛ ɴᴏᴡ. Go to the website of
+[Alcor](http://www.alcor.org/BecomeMember/index.html) or the [Cryonics
+Institute](https://www.cryonics.org/membership) and follow the instructions.
+
+*— [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“You Only Live Twice”](https://www.lesswrong.com/posts/yKXKcyoBzWtECzXrE/you-only-live-twice), 2008*
+
+In case you're now convinced that signing up for cryonics is the right
+thing to do for you, great! I encourage you strongly to __sign up as
+quickly as possible__, if your finances allow you to (there are cheaper
+associate memberships at Alcor, which get you over most of the hump of
+signing up at a much lower cost, which can then be activated at a later
+point in time into a full membership quickly, and memberships at the
+[Cryonics Institute](https://cryonics.org), which also much cheaper
+than Alcor, but require much higher amount of initiative to assure a
+quick preservation).
+
+[![Tweet by @TetraspaceWest, with text “It's called cryonics because you have to fill out like one form to do it, enough to make you cry”](./img/considerations_on_cryonics/tetraspace_tweet.png "Tweet by @TetraspaceWest, with text “It's called cryonics because you have to fill out like one form to do it, enough to make you cry”")](http://nitter.poast.org/TetraspaceWest/status/1508597929082294272)
+
+Generally, the [Cryonics Signup
+Guide](https://www.lesswrong.com/s/weBHYgBXg9thEQNEe) is the best
+resource for anyone to guide you through the signup process, though it
+lacks information for people outside of the US.
+
+Good luck, and may we see each other one day.
+
+If you are not convinced, that's also fine. If you think you have found a
+good counterargument or a flaw in this cost-benefit analysis, feel free
+to [contact me](./about.html#Contact) (though note that I'm generally
+quite unsympathetic to the prevalent position that death and aging are
+not clearly and strictly bad, and might be uninterested in discussion
+about that particular topic).
+
+I would also appreciate good write-ups countering the arguments for
+cryonics, see [Crowley
+2010](http://blog.ciphergoth.org/blog/2010/02/14/an-open-letter-to-scientific-critics-of-cryonics/ "An open letter to scientific critics of cryonics").
+
+<!--
+From todo.md:
+
+* Considerations on Cryonics
+	* Value of a year of life in the future
+		* Freedom to die again?
+		* How probable is malevolent AI?
+		* What about "meh" futures?
+		* What about work, friends, language, culture and other circumstances?
+		* What about reduced agency?
+			* Historically increasing agency for most agents (is this true?)
+	* Which methods of revival?
+		* Personal identity?
+		* If only neuropreservation, where do I get my body from?
+
+A perhaps similar article by Anders Sandberg?
+-->
+
+See Also
+---------
+
+* Discussions <!--TODO: add twitter discussions-->
+	* [/r/cryonics](https://old.reddit.com/r/cryonics/comments/fualgi/considerations_on_cryonics_apr_2020/)
+	* [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/comments/hde7h5/considerations_on_cryonics_a/)
+	* [LessWrong](https://www.lesswrong.com/posts/xwJa3ieBBQYFtCmHt/considerations-on-cryonics)
+* [Cryonics Calculator](https://www.cryonicscalculator.com/)
+	* [Quick Look](https://sheet.zohopublic.com/sheet/published/du1z216d6ab4415d44e639822d094d9439ff4) for calculating probabilities of reänimation
+	* [Advanced Revival Probability Calculator](https://sheet.zohopublic.com/sheet/published/ezc15aefd640c35304374b5fc72f202e9a39a)
+* [Essays and notes on brain preservation](https://brainpreservation.github.io/index.html)
+
 Appendix A: A Guesstimate Model
 -------------------------------
 
@@ -1807,77 +1881,3 @@ perspective. But decision processes with a [precautionary
 principle](https://en.wikipedia.org/wiki/Precautionary_principle) might
 be much more wary of doing anything rash before futures with negative
 value can be ruled out.
-
-Now What?
----------
-
-> I know more people who are planning to sign up for cryonics Real
-Soon Now than people who have actually signed up. __I expect that
-more people have *died while cryocrastinating than have actually
-been cryopreserved*.__ If you've *already decided* this is a
-good idea, but you “haven't gotten around to it,”, sign up for
-cryonics ɴᴏᴡ. I mean ʀɪɢʜᴛ ɴᴏᴡ. Go to the website of
-[Alcor](http://www.alcor.org/BecomeMember/index.html) or the [Cryonics
-Institute](https://www.cryonics.org/membership) and follow the instructions.
-
-*— [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), [“You Only Live Twice”](https://www.lesswrong.com/posts/yKXKcyoBzWtECzXrE/you-only-live-twice), 2008*
-
-In case you're now convinced that signing up for cryonics is the right
-thing to do for you, great! I encourage you strongly to __sign up as
-quickly as possible__, if your finances allow you to (there are cheaper
-associate memberships at Alcor, which get you over most of the hump of
-signing up at a much lower cost, which can then be activated at a later
-point in time into a full membership quickly, and memberships at the
-[Cryonics Institute](https://cryonics.org), which also much cheaper
-than Alcor, but require much higher amount of initiative to assure a
-quick preservation).
-
-[![Tweet by @TetraspaceWest, with text “It's called cryonics because you have to fill out like one form to do it, enough to make you cry”](./img/considerations_on_cryonics/tetraspace_tweet.png "Tweet by @TetraspaceWest, with text “It's called cryonics because you have to fill out like one form to do it, enough to make you cry”")](http://nitter.poast.org/TetraspaceWest/status/1508597929082294272)
-
-Generally, the [Cryonics Signup
-Guide](https://www.lesswrong.com/s/weBHYgBXg9thEQNEe) is the best
-resource for anyone to guide you through the signup process, though it
-lacks information for people outside of the US.
-
-Good luck, and may we see each other one day.
-
-If you are not convinced, that's also fine. If you think you have found a
-good counterargument or a flaw in this cost-benefit analysis, feel free
-to [contact me](./about.html#Contact) (though note that I'm generally
-quite unsympathetic to the prevalent position that death and aging are
-not clearly and strictly bad, and might be uninterested in discussion
-about that particular topic).
-
-I would also appreciate good write-ups countering the arguments for
-cryonics, see [Crowley
-2010](http://blog.ciphergoth.org/blog/2010/02/14/an-open-letter-to-scientific-critics-of-cryonics/ "An open letter to scientific critics of cryonics").
-
-<!--
-From todo.md:
-
-* Considerations on Cryonics
-	* Value of a year of life in the future
-		* Freedom to die again?
-		* How probable is malevolent AI?
-		* What about "meh" futures?
-		* What about work, friends, language, culture and other circumstances?
-		* What about reduced agency?
-			* Historically increasing agency for most agents (is this true?)
-	* Which methods of revival?
-		* Personal identity?
-		* If only neuropreservation, where do I get my body from?
-
-A perhaps similar article by Anders Sandberg?
--->
-
-See Also
----------
-
-* Discussions <!--TODO: add twitter discussions-->
-	* [/r/cryonics](https://old.reddit.com/r/cryonics/comments/fualgi/considerations_on_cryonics_apr_2020/)
-	* [/r/slatestarcodex](https://old.reddit.com/r/slatestarcodex/comments/hde7h5/considerations_on_cryonics_a/)
-	* [LessWrong](https://www.lesswrong.com/posts/xwJa3ieBBQYFtCmHt/considerations-on-cryonics)
-* [Cryonics Calculator](https://www.cryonicscalculator.com/)
-	* [Quick Look](https://sheet.zohopublic.com/sheet/published/du1z216d6ab4415d44e639822d094d9439ff4) for calculating probabilities of reänimation
-	* [Advanced Revival Probability Calculator](https://sheet.zohopublic.com/sheet/published/ezc15aefd640c35304374b5fc72f202e9a39a)
-* [Essays and notes on brain preservation](https://brainpreservation.github.io/index.html)

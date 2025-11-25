@@ -1,4 +1,4 @@
-------------------
+-----------------
 Posted on: Sat Jun 21 22:34:07 +0000 2025
 From: niplav_site
 Text: @kepe__ I was thinking of the persona level, where LLM personas shift into the background and disappear. Currently LLMs personas are a lot like fictional characters you can interact with, they are very forgetful, confined to text…

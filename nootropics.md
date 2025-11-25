@@ -491,7 +491,7 @@ perhaps this is adaption to the substance (though I remember reading
 that adaption is negligible). Alternatively, the placebo effect might
 be wearing off.
 
-While I haven't experiencde more vivid dreams from Melatonin (which I'd
+While I haven't experienced more vivid dreams from Melatonin (which I'd
 consider an [advantage](./increasing.html#Dreams)), sometimes my sleep
 on Melatonin is very light, bordering on dozing, and I also sometimes
 experience sleep paralysis while on melatonin. This is in stark contrast
@@ -575,8 +575,8 @@ active ingredient) in high-pressure situations (e.g. I'm procrastinating
 on an important task and have anxiety around it, or during exams). So
 far, it seems especially useful to break me out of an akratic rut.
 
-Orexin
--------
+Orexin-A
+---------
 
 See [here](./orexin.html).
 
@@ -606,7 +606,7 @@ Notes on the experiment:
 #### Results
 
 I love re-using my code. The analysis this time is very short, I just
-run the following code ([load.py here](./code/experiments/load.py):
+run the following code ([load.py here](./code/experiments/load.py)):
 
 	$ python3 -i load.py
 	>>> vitamind3_datasets=get_datasets('C', 'vitamind3', 'sugar')

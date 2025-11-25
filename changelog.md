@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2025-10-23, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2025-11-25, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -25,6 +25,24 @@ content.
 
 November 2025
 --------------
+
+* Report: [Month-Long Meditation Retreat At Home](./reports.html#MonthLong_Meditation_Retreat_At_Home)
+
+### Links
+
+This month I tried to read some more female bloggers.
+
+* [Little Satan (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Little_Satan)
+* [Ritual and the Consciousness Monoculture (Sarah Perry, 2015)](https://www.ribbonfarm.com/2015/01/08/ritual-and-the-consciousness-monoculture/)
+* [Categorizing Extreme Elites (Sarah Constantin, 2014)](https://srconstantin.github.io/2014/05/07/categorizing-extreme-elites.html)
+* [The Conflicted Omnivore (Ozymandias, 2020)](https://thingofthings.wordpress.com/2020/12/04/the-conflicted-omnivore/)
+* [all tribes, all the time! (hbdchick, 2011)](https://hbdchick.wordpress.com/2011/02/27/all-tribes-all-the-time/), [more on all those tribes (hbdchick, 2011)](https://hbdchick.wordpress.com/2011/02/23/more-on-the-tribes/), [tribalism makes a comeback! (hbdchick, 2011)](https://hbdchick.wordpress.com/2011/01/19/tribalism-makes-a-comeback/), [libya – land o’ tribes (hbdchick, 2011)](https://hbdchick.wordpress.com/2011/02/21/libya-land-o-tribes/); the [comments](https://hbdchick.wordpress.com/2011/02/21/libya-land-o-tribes/#comment-538) [by](https://hbdchick.wordpress.com/2011/02/21/libya-land-o-tribes/#comment-528) [RS](https://hbdchick.wordpress.com/2011/02/21/libya-land-o-tribes/#comment-539) were especially good:
+
+> But needless to say, the sad truth is that it might be very difficult
+for any person to keep power while also holding fast to our sort of
+morality. Have you seen the terrible price that Deng paid for his
+activity, through the suffering of his son? Deng and the people who
+installed him are true heros – indescribably beneficial persons.
 
 October 2025
 -------------

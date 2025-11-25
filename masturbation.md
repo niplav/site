@@ -82,14 +82,14 @@ self-experiment.
 Data was collected as follows:
 
 I abstained from masturbating and watching pornography from
-2025-01-05T16:01:20+01:00 to 2025-01-15T, resulting in >90 days of
+2025-10-27T02:46:58+01:00 to 2026-01-25T, resulting in >90 days of
 abstinence from masturbation (which is also the period [recommended
 by the NoFap community](https://nofap.com/rebooting/): "NoFap’s
-gold standard of success is our 90-day reboot."). I had [nocturnal
-emmissions](https://en.wikipedia.org/wiki/Nocturnal_Emission) on
-~2025-02-09T05:30:00, ~2025-02-18T06:00 and 2025-03-01T08:00:00.
+gold standard of success is our 90-day reboot."). I had a [nocturnal
+emmission](https://en.wikipedia.org/wiki/Nocturnal_Emission) on
+~2025-10-20T09:00:00.
 
-From 2025-04-05 to 2025-04-15, I went on the streets of a major
+From 2025-01-26 to 2025-02-05, I went on the streets of a major
 european city and approached \_ people I read as women, usually via a [Yad
 stop](https://thomascrownpua.com/2023/04/21/qa-what-do-you-think-of-the-yad-stop/).
 The women who were approached were chosen by how attractive I found them.
@@ -97,12 +97,12 @@ The women who were approached were chosen by how attractive I found them.
 I then ran a standard daygame opener on the woman, with the goal of
 asking her for her number and later taking her on a date.
 
-In the five days following the last approach (2025-04-15 to 2025-04-20),
+In the five days following the last approach (2025-02-06 to 2025-02-11),
 I masturbated at least once a day with visual pornography<!--TODO:
 link the pornography consumed during that time-->.
 
 Afterwards, I repeated the procedure of approaching \_ women in the same
-manner from 2025-04-20 to \_.
+manner from 2025-02-12 to \_.
 
 Data that was logged included date and time of day (in
 [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601)), whether the approach

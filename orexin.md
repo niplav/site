@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2025-04-03, modified: 2025-04-08, language: english, status: notes, importance: 9, confidence: log*
+*author: niplav, created: 2025-04-03, modified: 2025-11-24, language: english, status: notes, importance: 9, confidence: log*
 
 > __.__
 
@@ -199,5 +199,14 @@ Experimental Log
 * Thursday:
 	* Man 2.5ml is *way* too much. 0.5ml would've been totally fine
 	* 09:30: Eating
+
+### Sample 6
+
+* Started first dose on Monday, didn't take any melatonin &c beforehand
+* Monday morning: Took early, felt elated, whistling as I walking to work
+	* Focused enough to do some reading on [Spencer & Gillen 1899](https://www.goodreads.com/book/show/68126748-the-native-tribes-of-central-australiar)
+	* Arrived but didn't find any motivation, didn't work the entire day, instead falling into an addictive loop
+	* Felt dirty during the day, unclean because I hadn't done anything I'd set out to do
+* Tuesday: Woke up at 09:30, but my fitbit slipped off while i slept
 
 [^1]: Even demonstrating one-off effectiveness would be cool: It's often the case that people have short-term sleep deprivation, and would like to ameliorate the effects.

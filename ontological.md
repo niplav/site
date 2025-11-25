@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-08-12, modified: 2025-09-12, language: english, status: notes, importance: 5, confidence: unlikely*
+*author: niplav, created: 2025-08-12, modified: 2025-11-25, language: english, status: notes, importance: 5, confidence: unlikely*
 
 > __Humans may be in a state of total confusion as to the fundamental
 makeup of the cosmos and its rules, to the point where even extremely
@@ -35,10 +35,10 @@ cluelessness"__?-->
 
 ### Definition
 
-__Ontological cluelessness__ is a state of knowledge that humans could
-be in, in which they haven't yet discovered the correct basic categories
-and frameworks for making sense of the cosmos[^terminology] in which
-they find themselves.
+__Ontological cluelessness__ is a state of knowledge that humans
+could be in, in which they haven't yet discovered the correct basic
+categories and frameworks for making sense of the cosmos[^terminology]
+in which they find themselves.
 
 [^terminology]: I will use the term "cosmos" a lot here because the entirety of existence may turn out to be much larger (think [Tegmark IV](https://en.wikipedia.org/wiki/Mathematical_universe_hypothesis)) or much smaller (think solipsism) than what standard science considers to be the "universe".
 
@@ -57,6 +57,12 @@ finds itself in a state of ontological cluelessness. I don't want make
 strong claims as to [whether humanity *is* in a state of ontological
 cluelessness](#Likelihood), but I believe that it is a hypothesis worth
 tracking.
+
+This is related to (epistemic)
+[cluelessness](https://forum.effectivealtruism.org/s/yuajpvCMjpjKNngep/p/H3nQyu8P8tqhNxxoS)<!--TODO:
+link Greaves paper here after I've read it--> in which an actor is
+sufficiently uninformed about how the future will unfold that they can't
+place probability distributions over future trajectories.
 
 Ontological cluelessness can be intepreted in multiple versions with
 differing strength, where weaker versions may retain some fundamental

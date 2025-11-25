@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-10-16, modified: 2025-10-19, language: english, status: maintenance, importance: 7, confidence: likely*
+*author: niplav, created: 2025-10-16, modified: 2025-11-25, language: english, status: maintenance, importance: 8, confidence: likely*
 
 > __Looking over humanity's response to the COVID-19 pandemic, almost
 six years later, reveals that we've forgotten to fulfill our intent at
@@ -17,7 +17,7 @@ catastrophes, the time to act is now.
 
 *—US White House, [“ FACT SHEET: The Biden Administration’s Historic Investment in Pandemic Preparedness and Biodefense in the FY 2023 President’s Budget ”](https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2022/03/28/fact-sheet-the-biden-administrations-historic-investment-in-pandemic-preparedness-and-biodefense-in-the-fy-2023-presidents-budget/), 2022*
 
-Around five years, [a global
+Around five years ago, [a global
 pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic) caused by
 [a coronavirus](https://en.wikipedia.org/wiki/SARS-Cov-2) started.
 
@@ -28,13 +28,16 @@ value of QALYs lost due to the pandemic in the US alone was around [**\$5
 trio.**](https://ifp.org/weighing-the-cost-of-the-pandemic/#lives-lost),
 the GDP loss in the US alone in 2020 [**\$2
 trio.**](https://ifp.org/weighing-the-cost-of-the-pandemic/#gdp-loss).
-The loss of gross world product is around [**\$17-35 trio.** over five
+The loss in gross world product is
+estimated to be around [**\$17-35 trio.** over five
 years](https://www.sciencedirect.com/science/article/pii/S0264999323003632#sec5),
 my rough guess would be that lockdowns caused a loss of more than a
 giga[QALY](https://en.wikipedia.org/wiki/Quality-Adjusted_Life_Year)
-(~4 bio. people (half the world's population) in lockdown for a ~year
-in total, at ~75% value of their normal time), and not to speak of e.g.
-[long COVID](https://en.wikipedia.org/wiki/Long-COVID).
+(~4 bio. people (half the world's population) in lockdown
+for a ~year in total, at ~75% value of their normal
+time), and not to speak of the ongoing effects of e.g. [long
+COVID](https://en.wikipedia.org/wiki/Long-COVID) (not to speak of the
+fact that COVID-19 is *still* endemic)).
 
 Those are **_staggering_** numbers. Megadeaths caused, gigaQALYs lost,
 tens of trillions of dollars in value destroyed. It's probably the most
@@ -76,9 +79,8 @@ neglected, or mostly forgotten. So far, HERA has received
 of the promised 4.5 bio. € (with declining
 investment), the US Historic Investment™ attempt has resulted [~$770
 mio.](https://www.aamc.org/advocacy-policy/washington-highlights/biden-signs-fy-23-omnibus-increases-research-health-workforce)
-of the planned $88.2 bio. funding allocation
-($760 mio. to the CDC and a whopping $9.5 mio. to
-the Hospital Preparedness Program)) since the funding
+of the planned $88.2 bio. funding allocation ($760 mio. to the CDC and a
+whopping $9.5 mio. to the Hospital Preparedness Program) since the funding
 change didn't pass congress, and the Pandemic Fund has received [$3.1
 bio](https://www.worldbank.org/en/news/press-release/2024/10/31/pandemic-fund-raises-us-982-million-in-new-commitments-from-governments-and-an-additional-us-1-8-billion-in-co-financing),
 with an unmet funding gap of $1
@@ -133,7 +135,7 @@ steer the ship[^acknowledge].
 
 [^acknowledge]: Exceedingly virtuous exceptions exist, I'll praise the ones I know of at the end.
 
-Nobody seems to be doing any of that.
+Almost nobody seems to be on the ball.
 
 The cavallery's not coming. Sorry. This is the best we have.
 
@@ -162,30 +164,32 @@ Better yet,
 
 Better yet, [use your life
 well](https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/).
-Staving of the festering tide, building armour, making weapons. Embodying
+Staving of the festering tide, building armour, making weapons. Enacting
 wisdom.
 
 [To](https://en.wikipedia.org/wiki/Coalition_for_Epidemic_Preparedness_Innovations)
 [all](https://en.wikipedia.org/wiki/Johns_Hopkins_Center_for_Health_Security)
 [those](https://www.openphilanthropy.org/focus/biosecurity-pandemic-preparedness/)
-[who](https://securebio.org/)
-[do](https://en.wikipedia.org/wiki/Nuclear_Threat_Initiative), *thank
+[who](https://securebio.org/) [try to nudge the
+ship](https://en.wikipedia.org/wiki/Nuclear_Threat_Initiative), *thank
 you*.
 
 --------------------
 
 As always, I feel compelled to talk about AI, even if it's not quite the
-central point of the piece. (Spoiler: The central point is that pandemics
-happen, can be *extremely* bad, and humanity as an entity doesn't seem
-to have realized that or act in the light of that.)
+central point of the piece.
+
+(Spoiler: The central point of this rant is that __pandemics happen__,
+can be __*extremely* bad__, and humanity as an entity __doesn't seem to
+have realized that__ or act in the light of that.)
 
 I'll allow myself one observation: If your AI success story relies
 on people reacting sensibly to warning shots, think about that
-part again, hard. From my perspective, concerning the danger of
-pandemics, humanity got shot in the chest. Humanity doesn't seem
-to have learned anything from this. The purported AI warning shot
-needs to be either more drastic or easier/faster to act upon than
-pandemic prevention and preparedness. Pandemic warning shots are
+part again, *hard*. From my perspective, concerning the danger of
+pandemics, humanity got shot in the chest. Humanity *also* doesn't
+seem to have learned anything from this. The purported AI warning
+shot needs to be either more drastic or easier/faster to act upon
+than pandemic prevention and preparedness. Pandemic warning shots are
 *easy mode*. Nature gives you a periodic warning, usually it [gently
 boops us on the nose](https://en.wikipedia.org/wiki/Common_Cold),
 [sometimes](https://en.wikipedia.org/wiki/Black_death)
