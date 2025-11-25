@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-04, modified: 2025-09-15, language: english, status: in progress, importance: 7, confidence: certain*
+*author: niplav, created: 2023-01-04, modified: 2025-11-25, language: english, status: in progress, importance: 7, confidence: certain*
 
 > __There are too many possible quantified self experiments to run. Do
 hobbyist prediction platforms[^1] make priorisation easier? I test
@@ -63,9 +63,10 @@ while resolving the others as ambiguous.
 
 ### Timeline
 
-If the markets receive enough liquidity, I'll start the first experiment
-early in 2024, and the second one sometime in 2024 (depending on the
-exact experiment), hopefully finishing both before 2025.
+I started the [first experiment](#Pomodoros) early in 2024, and
+[the second experiment](#Experiment_C_SelfBlinded_RCT) in late 2024,
+finishing the second one in early 2025. The third experiment on
+[lumenators](#None_11) is still ongoing as of late 2025.
 
 Markets
 --------
@@ -573,6 +574,7 @@ Not blindeable:
 10. __Silence__ vs. __Music__ → *Productivity*
 11. __Time Since Last Masturbation__ → *Productivity*
 12. __Starting Work Standing__ vs. __Starting Work Sitting__ → *Productivity*
+13. __Morning Stretching__ vs. __Not Stretching__ → *Meditative absorption*
 
 [^1]: I find it odd to call any platform on which people functionally give probabilities, but without staking real money, "prediction markets". Neither [Metaculus](https://www.metaculus.com/) not [Manifold Markets](https://manifold.markets/) [are prediction markets](https://metaculus.medium.com/why-i-reject-the-comparison-of-metaculus-to-prediction-markets-4175553bcbb8), but [PredictIt](https://www.predictit.org/) and [Kalshi](https://kalshi.com/) are.
 [^2]: p<0.05, after all. (Don't pay any attention to the [Bonferroni correction](https://en.wikipedia.org/wiki/Bonferroni_correction) lurking over there, it's not important.)

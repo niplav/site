@@ -30,7 +30,7 @@ Best Of
 * [Cryonics Cost-Benefit Analysis](./considerations_on_cryonics.html)
 * [Have Attention Spans Been Declining?](./spans.html)
 * [High Status Eschews Quantification of Performance](./eschews.html)
-* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+* [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
 * [Subscripts for Probabilities](./subscripts.html)
 * [Nootropics](./nootropics.html)
 * [Two Reasons For Restarting the Testing of Nuclear Weapons](./nuclear.html)
@@ -160,6 +160,7 @@ Beides verdammen sie dir, zeigest du beides zugleich
 #### Futurism
 
 * [Black Hole Mop](./mop.html)
+* [Quantum Computing is about Atoms, not Bits](./quantum.html)
 
 #### Philosophy
 

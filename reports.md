@@ -35,13 +35,14 @@ some rules:
 * Smarts of all varieties were valid
 
 I remember location mattering a lot, a 2-week holiday in the US increasing
-the counter by only 1 or two, and a weekend in a big european city
+the counter by only 1 or two, and a weekend in a big European city
 pushing the counter up by several hundred.
 
 ### Why I Did It
 
 I don't remember my reasons for starting this. Perhaps I did it because
-Smarts are relatively recognizable and I was bored.
+Smarts are relatively recognizable and I was bored. (Implications for
+the likelihood of me being autistic are left to the reader.)
 
 ### Whether It Was a Good Idea
 
@@ -558,29 +559,37 @@ Month-Long Meditation Retreat At Home
 In August 2022, I decided to do a month-long meditation retreat together
 with a friend in my apartment. We meditated for the entire month (he
 continued afterwards), me doing on average ten hours of meditation a day;
-if I remember correctly I never did less than eight hours on a single day.
+if I remember correctly I never did less than eight hours on a single
+day. At the beginning of the retreat, I'd meditated about 1k hours,
+adding 300 more during the course of the month.
 
-The retreat was almost completely silent except for ten to fifteen
-minutes of talk about logistics in the evening and me speaking with a
-teacher on the phone every third day. I allowed myself to read around in
-The Mind Illuminated<!--TODO: link--> and Right Concentration<!--TODO:
-link--> and write into my notebook during the retreat. I didn't end up
-writing very much but at least [one poem](./microfiction.html#Squeal)
-and [some mathematics](./pergraphs.html) came of it. I ~almost completely
-refrained from using the internet[^internet].
+The retreat was almost completely silent except for ten to fifteen minutes
+of talk about logistics in the evening and me speaking with a teacher on
+the phone every third day. (I got a teacher as safety backstop in case
+my psyche went off the rails, which didn't happen, but the teacher had
+a useful suggestion that saved me some time.)
 
-I didn't restrain myself from eating, and would often eat directly
-before going to bed in order to avoid drowsiness during meditation after
-eating. I don't understand why some meditation retreats disallow late
-eating, to me it's one of the easiest way to get the necessary calories
-while avoiding the annoying drowsiness and "zen nod" after a meal.
+I allowed myself to read around in The Mind Illuminated<!--TODO:
+link--> and Right Concentration<!--TODO: link--> and write
+into my notebook during the retreat. I didn't end up writing
+very much, but [one poem](./microfiction.html#Squeal) and [some
+mathematics](./pergraphs.html) came of it. I ~almost completely refrained
+from using the internet[^internet].
 
-I also didn't place any restrictions on my sexual activity — that is,
-I didn't abstain from masturbation during the retreat. I think that did
-me well and saved me from (even more) sexual fantasizing while on the
-cushion that often plagues me during e.g. Goenka retreats. I don't think
-[abstinence has any effect on meditation session quality](./quality.html)
-anyway.
+I didn't restrain myself from eating in the afternoon, and would often
+eat directly before going to bed in order to avoid drowsiness during
+meditation after meals. I don't understand why some meditation retreats
+disallow late eating, to me it's one of the easiest way to get the
+necessary calories while avoiding the annoying drowsiness and "zen nod"
+after a meal.
+
+I also didn't place any restrictions on my sexual activity —
+that is, I didn't abstain from masturbation during the retreat. I
+think that did me well and saved me from (even more) sexual
+fantasizing while on the cushion that often plagues me during
+e.g. [Goenka](https://en.wikipedia.org/wiki/S.N.Goenka) retreats. I
+don't think [abstinence has any effect on meditation session
+quality](./quality.html) anyway.
 
 [^internet]: I had a single lapse where I opened the YouTube app on my phone for about 15 minutes and watched three videos.
 
@@ -601,11 +610,13 @@ In the evening we'd listen to a dharma talk, including
 some [kōans](https://en.wikipedia.org/wiki/Koan) from
 the Waking Up app and some recordings of [Ṭhānissaro
 Bhikkhu](https://en.wikipedia.org/wiki/Thanissaro_Bhikkhu) (which later
-got turned into his With Each and Every Breath).
+got turned into his With Each and Every Breath<!--TODO: link-->).
 
 Meditations were usually an hour long, alternating between sitting and
 walking. I'd usually try to time it so that I did walking meditation
-directly after lunch.
+directly after lunch. Towards the end of the retreat I gravitated to
+90-minute sits, which felt like a titanic ocean of time, and taught me
+some equanimity towards unpleasant sensations in my legs.
 
 So: How did it go?
 
@@ -630,7 +641,18 @@ of landing in a purely happy state, I entered an incredibly equanimous,
 calm, crisp, clear, crystalline, relaxed, and open state. In that state I
 was sharply aware of the (often uncomfortable) sensations in my shoulders
 and legs, but didn't mind them very much, they were just happening on my
-body. The main factor was equanimity, and a ~lack of inner monologue.
+body. To be metaphoricaly, I felt like a huge crystal in which sensations
+simply bouncing from one facet to the other or snaking along in faults
+along the surface, the underlying substrate completely unperturbed by
+the content of the sensations. The saying "awareness is unsullied by
+the contents that pass through it" comes to mind.
+
+The main factor of this state was equanimity, and a ~lack of inner
+monologue.
+
+In this state I tried to follow Brasington's instructions to enter the
+fifth jhana by expanding the subjective space around me, but didn't
+succeed.
 
 My best guess is that I (for lack of sukha) just had to jump over
 it and enter the third jhana<sub>25%</sub>, though the descriptions
@@ -638,22 +660,23 @@ I've read sound more similar to me having experienced the fourth
 jhana<sub>15%</sub>.
 
 If I had to guess I'd say it lasted about 20 minutes, and it's probably
-my favourite [quale](https://en.wikipedia.org/wiki/Quale) to this day. In
-this state I tried to follow Brasington's instructions to enter the fifth
-jhana by expanding the subjective space around me, but didn't succeed.
+my favourite [quale](https://en.wikipedia.org/wiki/Quale) to this day.
+The incredible calm, depth and width of it is really just something else.
 
 ### Noting Practice
 
 My noting practice in the last three days was fun and, while not
 fundamentally fruitful, still quite revealing. Towards the end of the 2nd
 day my perception was becoming very "thin", I believe Shinzen Young has
-used the term "paperthin and featherlight" which closely corresponds to
-my memory of the experience. It was as if there was a giant nothingness
-behind a thin film of my perception, and for some sensory modalities it
-felt a bit like sensations were popping out of that nothingness into my
-field of perception, and then getting sucked back into it immediately
-afterwards. The nothingness had a friendly quality to it. (Not sure how
-to describe it any better than that.)
+used the phrase "paperthin and featherlight" which closely corresponds to
+my memory of the experience.
+
+It was as if there was a giant nothingness behind a thin film of my
+perception, and for some sensory modalities it felt a bit like sensations
+were popping out of that nothingness into my field of perception, and
+then getting sucked back into it immediately afterwards. The nothingness
+had a friendly quality to it. (Not sure how to describe it any better
+than that.)
 
 ### Miscellanea
 
@@ -671,11 +694,14 @@ I noticed that one of the strongest tendencies of my mind is to
 compulsively __think__, to a degree that becomes almost painful during
 long retreats. The thinking is split between intellectual topics,
 sexual/status fantasies, and thinking about what I would want to write
-(including my mind enjoyably doing poetry).
+(including my mind enjoyably writing poetry).
 
-I felt like I was sleeping less and less, and my other data points [in the
-same direction](./increasing.html#Analysing_my_Data), but unfortunately
-I wasn't collecting sleep data at the time.
+Over the duration of the retreat I was sleeping
+less and less, and my other data points [in the same
+direction](./increasing.html#Analysing_my_Data), but unfortunately I
+wasn't collecting sleep data at the time. I was going to bed consistently
+around midnight during the retreat, in the beginning waking up around
+08:30, which shifted towards 06:00 at the end of the retreat.
 
 During the retreat I realized that I very much dislike violence in TV
 series and movies, and that Western culture has it exactly the wrong way
@@ -684,41 +710,49 @@ is usually *bad*, and sex is usually *good*, but we find it completely
 acceptable for someone to watch highly violent content on their device
 on public transport, but look down on people consuming erotic content.
 
-I think this holds even exposing children to such content: On the retreat
-I was strongly reminded of being traumatized by seeing violence and
-death on TV (e.g. a man struggling with asphyxiation after having been
-hanged), and not being able to come up with any similarly traumatizing
-memory wrt sexuality (and instead remembering that I found sexuality
-curious as a child, and vaguely wanted to know more back then).
+I think this holds especially for exposing children to such
+content: On the retreat I was strongly reminded of being
+traumatized by seeing violence and death on TV (e.g. a man
+struggling with asphyxiation after having been hanged, or shortly
+before the retreat by the particularly hopeless scenes in [Squid
+Game](https://en.wikipedia.org/wiki/Squid_game)), and not being able to
+come up with any similarly traumatizing memory wrt sexuality (and instead
+remembering that I found sexuality curious as a child, and vaguely wanted
+to know more about it).
 
 As such, I decided to strictly limit the amount of violence I expose
-myself via visual media.
+myself to via visual media.
 
 ### End of the Retreat
 
 After the end of the retreat I connected back with my devices to the
 outside world and indulged in the internet for an entire night (I didn't
-sleep). While listening to music that night I had a strong experience
-of the aforementioned feeling of sensations popping out of the void and
-getting pulled back into it, together with a very high sensory resolution.
+sleep, and didn't feel particularly tired).
+
+While listening to music that night I had a strong experience of the
+aforementioned feeling of sensations popping out of the void and getting
+pulled back into it, together with a very high sensory resolution. I
+noticed that music was particularly *good*, a very clean source of
+pleasure (mostly not bound to status games, positive-sum &c).
 
 The days after the retreat felt very pleasant. My mind was incredibly
 light and *clean*, as if someone had powerwashed my psyche. Especially
-the day after the retreat everything was simply delightful, including
-a small group of sparrows flying around the garden, causing me to burst
-into grinning and laughter as I saw them while walking along. These effects
-subsided within three to four days, as I wasn't meditating anymore.
+the first day after the retreat everything was simply delightful. I
+especially remember a small group of sparrows flying around the garden,
+causing me to burst into grinning and laughter as I saw them while
+walking along. These effects subsided within three to four days, as I
+wasn't meditating anymore.
 
 I *did* notice how I was much more adept at interacting with people in
 the period after the retreat, being able to hold much more space for
 them in conversation. When I went to a nightclub four days after the
 end of the retreat a woman initiated making out with me, which is the
-first and last time something like that has ever happened.
+first and last time that has ever happened to me.
 
 ### Learnings
 
 I believe that this retreat was premature. I should probably have done at
-least one or maybe even to or three shorter (i.e., ≤ten day) retreats
+least one or maybe even two or three shorter (i.e., ≤ten day) retreats
 before jumping into the deep end of the pool — I'd only done a single
 Goenka retreat before, and two 2-3 day long mini-retreats. I also made the
 mistake of focusing too much on absorption meditation, probably bashing
@@ -726,19 +760,19 @@ my head into the wall while being blocked by emotional factors (as the
 rapid progress with emotional issues concerning my parents suggests,
 having only spent half an hour on it during the entire retreat).
 
-But I also guess that my psyche is in a very strong basin that is not
-unpleasant for me, and that it doesn't have incredibly vast reservoirs of
-trauma and and hurt built up. (I have some more evidence for that belief,
-having gone trauma-hunting on two separate MDMA self-therapy sessions
-which didn't bring up *that much* stuff, plus partial exploration on
-another meditation retreat).
+But I also guess that my psyche is in a very strong default basin
+that is not unpleasant to me, and that it *doesn't* have incredibly
+vast reservoirs of trauma and and hurt built up. (I have some more
+evidence for that belief, having gone trauma-hunting on two separate
+MDMA self-therapy sessions which didn't bring up *that much* stuff,
+plus partial exploration on another meditation retreat).
 
 My current best guess is that I'll want to (1) bring up as much
 trauma/hurt as I can handle with some destabilizing practice, and then
 (2) work through it with e.g. Core Transformation or Coming to Wholeness
-or bog-standard therapy. But if I just don't find much material I'll have
-to resign myself to even longer retreats that focus more on high-energy
-insight practices.
+or simply bog-standard therapy. But if I just don't find much material
+I'll have to resign myself to even longer retreats that focus more on
+high-energy insight practices.
 
 ### Would I Recommend Doing This?
 

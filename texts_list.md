@@ -17,10 +17,15 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [\* The fraught voyage of aligned novelty (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/03/the-fraught-voyage-of-aligned-novelty.html)
+* [The Conflicted Omnivore (Ozymandias, 2020)](https://thingofthings.wordpress.com/2020/12/04/the-conflicted-omnivore/)
+* [Linear script (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Linear_script)
+* [Case hierarchy (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Case_hierarchy)
+* |5 Functional Decision Theory: A New Theory of Instrumental Rationality (Eliezer Yudkowsky/Nate Soares, 2018)
 * [Approving reinforces low-effort behaviors (Scott Alexander, 2011)](https://www.lesswrong.com/posts/yDRX2fdkm3HqfTpav/approving-reinforces-low-effort-behaviors)
 * |4 Advanced artificial agents intervene in the provision of rewards (Michael K. Cohen/Marcus Hutter/Michael A. Osborne, 2021)
 * |6 Conditioning Predictive Models: Risks and Strategies (Evan Hubinger/Adam S. Jermyn/Johannes Treutlein/Rubi Hidson/Kate Woolverton, 2023)
-* [\* How human-like do safe AI motivations need to be? (Joe Carlsmith, 2025)](https://www.lesswrong.com/posts/r8H4d3X7AKg9n8TQk/how-human-like-do-safe-ai-motivations-need-to-be)
+* [How human-like do safe AI motivations need to be? (Joe Carlsmith, 2025)](https://www.lesswrong.com/posts/r8H4d3X7AKg9n8TQk/how-human-like-do-safe-ai-motivations-need-to-be)
 * [Why Aren't LLMs General Intelligence Yet? (John David Pressman, 2025)](https://minihf.com/posts/2025-06-25-why-arent-llms-general-intelligence-yet/)
 * [Categorizing Extreme Elites (Sarah Constantin, 2014)](https://srconstantin.github.io/2014/05/07/categorizing-extreme-elites.html)
 * [Hungarian Mathematics Education (Sarah Constantin, 2014)](https://srconstantin.github.io/2014/04/29/hungarian-mathematics-education.html)

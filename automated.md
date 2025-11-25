@@ -162,6 +162,10 @@ and honesty look like? Probably quite strange.<!--TODO: wedding
 fixation on maximized outputs, what happens with extremal SAE values
 for HHH/goodness?-->
 
+See Also:
+
+* [o1 is a bad idea (Abram Demski, 2024)](https://www.lesswrong.com/posts/BEFbC8sLkur7DGCYB/o1-is-a-bad-idea)
+
 V. Training Imitators
 -----------------------
 

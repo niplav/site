@@ -253,8 +253,8 @@ collected starting 2020-08-25:
 * `Attractiveness`: Floating point on the classical scale, between 1 and 10. See [TheRedQuest 2022](https://theredquest.wordpress.com/2019/03/25/garbage-post-about-ranking-chicks/).
 * `Size`: Number of women in set, 1 if not given.
 * `Frequency`: Frequency at which the woman has been approached, estimated from the answer given to "How often does this kind of thing happen to you?"
-* `Enjoyment`: How much the woman seemed to enjoy the approach. Floating point number in `$[-10, 10]$`.
-* `Blowout`: Whether the approach was a blowout. Floating point number in `$[0, 1]$`, usually either 0 or 1 (but some brush-offs are less harsh than others).
+* `Enjoyment`: How much the woman seemed to enjoy the approach. Floating point number in between -10.0 and 10.0.
+* `Blowout`: Whether the approach was a blowout. Floating point number in between 0.0 and 1.0, usually either 0 or 1 (but some brush-offs are less harsh than others).
 * `Name`: Replaced with a random integer for anonymization.
 * `Contact`: Contact information received/given. `number`, `instagram`, `facebook`, and sometimes regrettably `number given` (to the woman).
 * `Age`: Age of the woman, if I learn about it. Usually not.
@@ -273,13 +273,24 @@ collected starting 2020-08-25:
 
 Texting file:
 
+* Flake:
+	* -2: not contacted;
+	* -1: unknown
+	* 0: wrong number
+	* 1: didn't reply to opener
+	* 2: rejected via text
+	* 3: replied but conversation fizzled out
+	* 4: didn't reply to date request
+	* 5: agreed to date but didn't turn up
+	* 6: stopped responding after date
+
 Dating file:
 
 * Idate length (minutes)
 * Idate cost (euro)
 * Flake before 1st date (boolean)
-* Date before first sex [1..10] cost (euro)
-* Date before first sex [1..10] length (minutes)
+* Date before first sex [1..4] cost (euro)
+* Date before first sex [1..4] length (minutes)
 * Sex number of times (approximately)
 
 Fitbit Biometrics

@@ -68,7 +68,7 @@ modify the preferences of intelligent systems to be more consistent.
 ### Motivation
 
 The intuitive case for focusing on resolving inconsistent preferences
-is that __given we find a normative ideal for rationality__, real-life
+is that __*given* we find a normative ideal for rationality__, real-life
 systems will probably not perfectly conform to that ideal. So we'll have
 an ideal and we have the real-life situation—it is natural to ask how
 to get from here to there.
@@ -2020,7 +2020,7 @@ options `$\Omega$`, can be used to represent ontological shifts.
 
 #### Graph Sevolutions
 
-See [here](./notes.html#Graph_Sevolution).
+See [here](./notes.html#Graph_Sevolutions).
 
 **Definition 17**. Given a consistent edge-weighted graph
 `$G=(\Omega, E_G, w)$`, a **graph-based ontological shift** is a function
