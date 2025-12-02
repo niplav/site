@@ -11,6 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [The Boondock Saints](https://en.wikipedia.org/wiki/The_Boondock_Saints)
 * [The Addams Family](https://en.wikipedia.org/wiki/Addams_family_\(animated_film\))
 * [Cold War](https://en.wikipedia.org/wiki/Cold_War_\(2018_film\))
 * [Avatar: The Way of Water](https://en.wikipedia.org/wiki/Avatar_Way_of_Water)
