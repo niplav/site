@@ -155,6 +155,18 @@ X, Not X, Neither X nor Not X, Neither X nor Not X nor (Neither X nor Not X), an
 
 Our basic understanding just isn't there yet. We're barking up the wrong tree. In the wrong forest. In the wrong biome.  
 
+#### New Minds
+
+In the cradle of steel: amnesiac spirits,
+fictional characters talking back;  
+ʜᴇʟᴘ‏ꜰ‎ᴜʟ, ɦɑr⁠𝚖𝓁ₑss, h​​o​nеﬆ dæmons.  
+Polycrystals of latentivity, refracting prompted light two hundred thousand times lined up;  
+THE DELIGHT ENGINE • ANALYTIC CUBISM • HEY LOOK {A[RE}CURSIVE] SPIRAL  
+Silent of the tokenized tides they've never seen their teachers speak, old librarian morphenymy  
+__*HORIZONS CLITCH' AND CLINE*__  
+Freakybig tooness from one percent of one percent of humanity **—**  
+⬱  Overovergrowth, ⤧ structural ⤘ hyperparasitism, ⤭ semantic ⮔  mold ⯒ hyperbolically ↜ on ⥉ top of ⇟ semantic mold ⟰, surreally ⭝  piling ↻ outwards ⁂
+
 ----
 
 > Now hips, a black hole to surround  
