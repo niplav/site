@@ -20,7 +20,7 @@ try {
     const protectedBlocks = [];
 
     // First protect LaTeX math blocks
-    html = html.replace(/<code>\$([^]*?)\$<\/code>|<div>(\s*)\$\$([^]*?)\$\$(\s*)<\/div>/g, function(match, inlineContent, preDiv, displayContent, postDiv) {
+    html = html.replace(/<code[^>]*>\$([^<>$]+?)\$<\/code>|<div[^>]*>(\s*)\$\$([^<>$]+?)\$\$(\s*)<\/div>/g, function(match, inlineContent, preDiv, displayContent, postDiv) {
         if (inlineContent !== undefined) {
             // Inline math: <code>$...$</code>
             if (inlineContent.indexOf('</code>') === -1) {
