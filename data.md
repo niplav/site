@@ -245,8 +245,6 @@ Anonymizing locations and the names of the women:
 	$ mv daygame_approaches.csv daygame_approaches_deanon.csv
 	$ mv daygame_approaches_anon.csv daygame_approaches.csv
 
-`$a$`
-
 [Approaches file](./data/daygame_approaches.csv) datapoints in CSV,
 collected starting 2020-08-25:
 
