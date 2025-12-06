@@ -12,42 +12,29 @@ const filename = process.argv[2];
 
 try {
     let html = fs.readFileSync(filename, 'utf8');
-
-    // Pre-process: Convert inline math in code blocks to regular inline math
-    // Transform <code>$...$</code> to just $...$ and <div>$$...$$</div> to <div>$$...$$</div>
-
-    // Step 1: Extract and replace both math blocks and regular code blocks with placeholders
     const protectedBlocks = [];
 
-    // First protect LaTeX math blocks
-    html = html.replace(/<code[^>]*>\$([^<>$]+?)\$<\/code>|<div[^>]*>(\s*)\$\$([^<>$]+?)\$\$(\s*)<\/div>/g, function(match, inlineContent, preDiv, displayContent, postDiv) {
-        if (inlineContent !== undefined) {
-            // Inline math: <code>$...$</code>
-            if (inlineContent.indexOf('</code>') === -1) {
-                const placeholder = `__PROTECTED_${protectedBlocks.length}__`;
-                protectedBlocks.push(`$${inlineContent}$`);
-                return placeholder;
-            }
-            return match; // Return unchanged if it contains </code>
-        } else {
-            // Display math: <div>$$...$$</div> - preserve div wrapper for indenting
+    html = html.replace(/<code[^>]*>\$([^<>$]+?)\$<\/code>|<div[^>]*>(\s*)\$\$([^<>$]+?)\$\$(\s*)<\/div>/g,
+        function(match, inlineContent, preDiv, displayContent, postDiv) {
             const placeholder = `__PROTECTED_${protectedBlocks.length}__`;
-            protectedBlocks.push(`<div>${preDiv}$$${displayContent}$$${postDiv}</div>`);
+            if (inlineContent !== undefined) {
+                protectedBlocks.push(`$${inlineContent}$`);
+            } else {
+                protectedBlocks.push(`<div>${preDiv}$$${displayContent}$$${postDiv}</div>`);
+            }
             return placeholder;
         }
-    });
+    );
 
-    // Then protect regular code blocks (inline and block)
-    html = html.replace(/<code[^>]*>([^]*?)<\/code>|<pre[^>]*>([^]*?)<\/pre>/g, function(match, codeContent, preContent) {
-        const placeholder = `__PROTECTED_${protectedBlocks.length}__`;
-        protectedBlocks.push(match);
-        return placeholder;
-    });
+    html = html.replace(/<code[^>]*>([^]*?)<\/code>|<pre[^>]*>([^]*?)<\/pre>/g,
+        function(match) {
+            const placeholder = `__PROTECTED_${protectedBlocks.length}__`;
+            protectedBlocks.push(match);
+            return placeholder;
+        }
+    );
 
-    // Step 2: Escape all remaining $ symbols (but not already escaped ones)
     html = html.replace(/(?<!\\)\$/g, '\\$');
-
-    // Step 3: Restore all protected blocks (single replace with all placeholders)
     html = html.replace(/__PROTECTED_(\d+)__/g, (match, index) => protectedBlocks[parseInt(index)]);
 
     mjpage(html, {
