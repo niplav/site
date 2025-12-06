@@ -17,7 +17,7 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
-* [\* The fraught voyage of aligned novelty (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/03/the-fraught-voyage-of-aligned-novelty.html)
+* [The fraught voyage of aligned novelty (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/03/the-fraught-voyage-of-aligned-novelty.html)
 * [The Conflicted Omnivore (Ozymandias, 2020)](https://thingofthings.wordpress.com/2020/12/04/the-conflicted-omnivore/)
 * [Linear script (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Linear_script)
 * [Case hierarchy (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Case_hierarchy)

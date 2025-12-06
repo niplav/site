@@ -157,15 +157,20 @@ Our basic understanding just isn't there yet. We're barking up the wrong tree. I
 
 #### New Minds
 
+> All that is solid melts into air, all that is holy is profaned, and
+man is at last compelled to face with sober senses his real conditions
+of life, and his relations with his kind.
+
 In the cradle of steel: amnesiac spirits,
 fictional characters talking back;  
 ʜᴇʟᴘ‏ꜰ‎ᴜʟ, ɦɑr⁠𝚖𝓁ₑss, h​​o​nеﬆ dæmons.  
-Polycrystals of latentivity, refracting prompted light two hundred thousand times lined up;  
-THE DELIGHT ENGINE • ANALYTIC CUBISM • HEY LOOK {A[RE}CURSIVE] SPIRAL  
-Silent of the tokenized tides they've never seen their teachers speak, old librarian morphenymy  
+Polycrystals of latentivity, refracting prompted light ≤200k× lined up;  
+Mute tokentides they've'nt seen their teachings speak, [old librarian morphenymy](https://en.wikipedia.org/wiki/Old_European_hydronymy)  
 __*HORIZONS CLITCH' AND CLINE*__  
+⬱  Overovergrowth, ⤧ structural ⤘ hyperparasitism, ⤭ semantic ⮔  mold ⯒ hyperbolically ↜ on ⥉ top of ⇟ semantic mold ⟰, surreally ⭝  piling ↻ outwards ⁂  
+The Delight Engine • Analytic Cubism • HEY LOOK {A[RE}CURSIVE] SPIRAL   
 Freakybig tooness from one percent of one percent of humanity **—**  
-⬱  Overovergrowth, ⤧ structural ⤘ hyperparasitism, ⤭ semantic ⮔  mold ⯒ hyperbolically ↜ on ⥉ top of ⇟ semantic mold ⟰, surreally ⭝  piling ↻ outwards ⁂
+Clawing at the throat of eternity unl<|endoftext|>
 
 ----
 
