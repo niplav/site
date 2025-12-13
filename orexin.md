@@ -122,12 +122,17 @@ level of 0.05 and a power of 0.75:
 	import statsmodels.stats.power
 	>>> statsmodels.stats.power.tt_ind_solve_power(effect_size=0.5, alpha=0.05, power=0.75, alternative='two-sided')
 	56.49860618876443
+	>>> statsmodels.stats.power.tt_ind_solve_power(effect_size=0.8, alpha=0.05, power=0.75, alternative='two-\
+sided')
+	22.68883256203551
 
 This means that we'll have to collect ~60 Orexin samples to detect a
 medium effect size; splitting it over two people means that each takes
 Orexin ~30 times and Placebo 30 times, with blocks of a length of four
 days that gives us 240 days in total (though half of those don't actually
 entail any work in terms of data collection).
+
+We're collecting 24 datapoints.
 
 Literature
 -----------
@@ -208,5 +213,12 @@ Experimental Log
 	* Arrived but didn't find any motivation, didn't work the entire day, instead falling into an addictive loop
 	* Felt dirty during the day, unclean because I hadn't done anything I'd set out to do
 * Tuesday: Woke up at 09:30, but my fitbit slipped off while i slept
+
+### Sample 7
+
+* Thursday morning: Took melatonin and magnesium before sleep
+* Thursday: Feeling refreshed by when snorting the water.
+	* Maybe deblinded myself by accidentally looking at how full the syringe was?
+	* Good mood immediately after taking
 
 [^1]: Even demonstrating one-off effectiveness would be cool: It's often the case that people have short-term sleep deprivation, and would like to ameliorate the effects.

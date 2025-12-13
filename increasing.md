@@ -9,7 +9,8 @@ feel as long as possible?__
 Increasing Subjective Lifespan
 ================================
 
-<!--https://chatgpt.com/c/67a37775-9d08-8012-95a8-3a2d8b9c9361-->
+<!--https://chatgpt.com/c/67a37775-9d08-8012-95a8-3a2d8b9c9361
+https://claude.ai/chat/6b646c8e-4a36-4feb-9483-bf5cb5497f8f-->
 
 [Existing](http://theoryengine.org/life/tips-for-a-longer-life/)
 [investigations](https://www.wikihow.com/Slow-Down-Time)

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-10-09, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-12-13, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -3005,6 +3005,103 @@ Humanity Learned Almost Nothing From COVID-19
 ----------------------------------------------
 
 Moved [here](./covid.html).
+
+Emergent Chemistry Risk
+------------------------
+
+> "Well, whatever," you say. "It's fine. We can have a fun party with
+just the effective altruists."  
+> You really can't," said Kyle. "They don't even drink."  
+> You ignore him and make your way to the group of earnest-looking young
+people in the corner. "Hey!" you say. "heard of any good existential
+risks lately?"  
+
+*—Scott Alexander, [“Press Any Key For Bay Area House Party”](https://www.astralcodexten.com/p/press-any-key-for-bay-area-house), 2025*
+
+Summary: In terms of competitiveness, DNA-based life is a *local*
+maximum; in nature life+industrial waste+time are producing
+novel molecules that could create pathways to lifeforms with
+more competitive biochemistries<sub>0.01%</sub>, which would
+be bad for DNA-based organisms such as you and me. The [shadow
+biosphere](https://en.wikipedia.org/wiki/Shadow_biosphere) jumps out
+and eats you. Probably not likely enough to be worth paying attention
+to though.
+
+Premise: Current biochemistry is not "optimal".
+
+With that I mean that there could be self-replicating organisms on Earth
+undergoing evolution (that is, mutation, selection, maybe something like
+combining their information in a sex-like way) that are not based on DNA
+or RNA but on a different variant of biochemistry. Also assume they would
+outcompete current life on Earth given enough time, even when starting
+from a state with very few resources. I'll call this hypothetical more
+powerful biochemistry "eknephelic life"<!--TODO: too pretentious?-->. I'd
+also assume that eknephelic life is made of and can replicate with
+the standard abundant elements and energy/temperature/pressure
+levels/gradients found on Earth.
+
+I don't have great evidence why I'd believe this. My vague
+intuition is "chemistry-space is *huge*, no chance we hit upon
+the global maximum so early", and plausibly (if it existed) [RNA
+world](https://en.wikipedia.org/wiki/RNA_World) would be weak evidence
+for this (though it happened very early on.
+
+A strong version of this premise would be that eknephelic life could
+"foom"<!--TODO: link-->, that is, it could very rapidly on human
+timescales (e.g. within less than a decade) outcompete existing life
+and take over the biosphere.
+
+Why would eknephelic life come to existence now, and not in the
+[abiogenetic](https://en.wikipedia.org/wiki/Abiogenesis) past?
+
+Intuition-basedly: we are exploring many more parts
+of chemical space now than in deep time, [Mineral
+evolution](https://en.wikipedia.org/wiki/Mineral_evolution) results
+in more different minerals being present in the biosphere, industrial
+processes release tons of molecules into the environment that were
+not present in deep time, which then interact with natural molecules
+in warm oceans filled with natural biochemistry. I'd guess that the
+industrial evolution resulted in a large increase in the scale at which
+chemistry-space is being explored out there in nature.
+
+[Femtoplankton](https://en.wikipedia.org/wiki/Femtoplankton)
+(size <0.2μm, not in the femtometer range), e.g. Aster like
+nanoparticles<!--TODO: link-->, are what the precursors of eknephelic
+life could look like. Aster like nanoparticles (discovered in 2019)
+are star-shaped, *tiny* (110-430 nm), without DNA or RNA or even
+proteins, built from calcium & carbohydrates, allegedly capable of
+self-replication via budding, but presence of metabolism or inheritance is
+unclear. See also biomimetic mineral-organic particles<!--TODO: link--> &
+[nanobes](https://en.wikipedia.org/wiki/Nanobe). There's a ton of those
+around (10⁸-10⁹ per mL of seawater<!--TODO: link-->). Also, of course,
+[prions](https://en.wikipedia.org/wiki/Prion).
+
+So, short scenario: Industrial waste molecules (maybe [synthetic
+monomers](https://en.wikipedia.org/wiki/Monomer#Synthetic_monomers)?)
+combine with natural molecules (maybe rare minerals) that kickstart an
+[autocatalytic set](https://en.wikipedia.org/wiki/Autocatalytic_set)
+that kickstarts a set of smaller, faster
+(eknephelic) alternative to RNA (based on [xeno nucleic
+acids](https://en.wikipedia.org/wiki/Xeno_Nucleic_Acid)? Silicon?),
+which mutates so that it starts building cell walls (more robust than
+whatever eukaryotes came up with), starts self-replicating with the
+resources and energy gradients in their environment  (and if that's just
+[CHON](https://en.wikipedia.org/wiki/CHON)+sunlight+silicon or calcium,
+that's really not a high ask), start [gobbling up all DNA-based life
+that is in their way](https://en.wikipedia.org/wiki/Ecophagy).
+
+<!--TODO: scenario? What's missing from this argument still?-->
+
+How important is this? Probably not at all<sub>99%</sub>. We've gone a
+long time without observing any competitors to DNA-based life; and life
+seems hard to create in general, and very slow to evolve. I don't think
+eknephelic life would be able to foom so quickly to outcompete existing
+life on a human timescale.<!--TODO: read limits to global ecophagy?-->
+
+Related but different: [Mirror
+life](https://en.wikipedia.org/wiki/Mirror_life) (still DNA, just
+changed chirality, unclear if it'd outcompete current life); [grey
+goo](https://en.wikipedia.org/wiki/Grey_Goo) (human-made, not natural).
 
 <!--Why Are There So Few Natural NP-Complete Problems with Superquadratic Verifiers?
 ---------------------------------------------------------------------------------
