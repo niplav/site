@@ -64,6 +64,7 @@ you’d like to forward
 * [On Discontinuous and Fast Takeoff](./foom.html)
 * [Patching ~All Security-Relevant Open-Source Software?](./patching.html)
 * [Anti-Superpersuasion Interventions](./persuasion.html)
+* [Malleable Human Minds and AI](./malleable.html)
 
 #### Forecasting
 
