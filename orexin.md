@@ -220,5 +220,9 @@ Experimental Log
 * Thursday: Feeling refreshed by when snorting the water.
 	* Maybe deblinded myself by accidentally looking at how full the syringe was?
 	* Good mood immediately after taking
+* Sunday night: Took melatonin (powder) and magnesium before sleep
+* Sunday: Waking up without motivation to do anything. *Hard time* waking up, had to look directly into my lamp to get any mojo.
+	* After taking Orexin: Felt refreshed after taking it, more alert.
+	* Went to the gym afterwards. Not that hungry, didn't feel like exercising.
 
 [^1]: Even demonstrating one-off effectiveness would be cool: It's often the case that people have short-term sleep deprivation, and would like to ameliorate the effects.

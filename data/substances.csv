@@ -1090,6 +1090,9 @@ datetime,substance,amount,experiment,id,prediction
 2025-12-09T12:00:29+01:00,nicotine,2mg,,,
 2025-12-11T02:51:05+01:00,melatonin,0.2mg,,,
 2025-12-11T02:51:13+01:00,magnesium,300mg,,,
-2025-12-11T10:38:09+01:00,water,2.5ml,D,A,
+2025-12-11T10:38:09+01:00,water,2.5ml,D,A,0.45
 2025-12-12T00:37:05+01:00,melatonin,0.3mg,,,
 2025-12-12T00:37:13+01:00,magnesium,300mg,,,
+2025-12-14T01:43:51+01:00,melatonin,0.4mg,,,
+2025-12-14T01:43:58+01:00,magnesium,300mg,,,
+2025-12-14T09:05:22+01:00,orexin-a,2.5ml,D,B,0.55
