@@ -10,19 +10,20 @@ body {
 pre {
 	background: #eee;
 	padding: 0.2em 5px;
-	overflow: scroll;
+	overflow: auto;
 }
 
 div {
 	background: #f0f0f0;
 	padding: 0.2em 5px;
-	overflow: scroll;
+	overflow: auto;
 }
 
 blockquote {
 	background: #f7f7f7;
 	margin: 1.5em 10px 1.5em 30px;
 	padding: 0.5em 10px;
+	overflow: auto;
 }
 
 table {
@@ -194,4 +195,40 @@ video {
 /* Hide empty items */
 .toc li:empty {
 	display: none;
+}
+
+/* Footnote tooltips */
+.footnote-tooltip {
+	display: none;
+	position: absolute;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 10px 15px;
+	max-width: 400px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+	z-index: 1000;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+.footnote-tooltip p {
+	margin: 0;
+}
+
+sup[id^="fnref"] {
+	cursor: help;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+	.toc {
+		float: none;
+		max-width: 100%;
+		margin: 20px 0;
+	}
+
+	blockquote {
+		margin: 1.5em 10px;
+	}
 }
