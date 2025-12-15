@@ -21,7 +21,7 @@ div {
 
 blockquote {
 	background: #f7f7f7;
-	margin: 1.5em 10px;
+	margin: 1.5em 10px 1.5em 30px;
 	padding: 0.5em 10px;
 }
 
@@ -62,12 +62,13 @@ video {
 	border: 1px solid #ddd;
 	border-radius: 4px;
 	padding: 15px 25px;
-	margin: 20px 0;
-	max-width: 100%;
+	margin: 20px 20px 20px 0;
+	max-width: 350px;
 	font-size: 14px;
 	overflow-x: auto;
 	box-sizing: border-box;
 	width: auto;
+	float: left;
 }
 
 .toc-title {
@@ -174,20 +175,20 @@ video {
 }
 
 /* Reset counters at each level */
-.toc > ul {
+.toc > ul > li {
 	counter-reset: h2;
 }
 
-.toc > ul > li > ul {
+.toc > ul > li > ul > li {
 	counter-reset: h3;
 }
 
-.toc > ul > li > ul > li > ul {
+.toc > ul > li > ul > li > ul > li {
 	counter-reset: h4;
 }
 
-.toc > ul > li > ul > li > ul >li > ul {
-	counter-reset: h4;
+.toc > ul > li > ul > li > ul > li > ul > li {
+	counter-reset: h5;
 }
 
 /* Hide empty items */
