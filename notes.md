@@ -1827,7 +1827,7 @@ Field-Specific Low-Information Priors
 --------------------------------------
 
 1. [~](https://www.metaculus.com/questions/1490/which-percentage-of-metaculus-questions-resolving-in-q1-2019-will-resolve-positively/)[4](https://www.metaculus.com/questions/804/1000th-binary-question-resolution-is-positive/)[0](https://www.metaculus.com/questions/1475/which-percentage-of-metaculus-questions-resolving-from-october-1st-to-december-31st-2018-inclusive-will-resolve-positively/)[​%](https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons) of questions worth asking resolve as true.
-2. Human psychological traits have, on average, 50% heritability<!--TODO: links?-->.
+2. Among human traits, "averaging over all those traits, 48% of variance is due to heritability and 18% shared-environment" ([Gwern 2019](https://gwern.net/milk#all-traits) citing [Polderman et al. 2015](https://gwern.net/doc/genetics/heritable/2015-polderman.pdf))
 3. The top 2.5% of global health and policy interventions [are 8-20 times more effective than the mean intervention, and 20-200 times more effective than the median intervention](https://80000hours.org/2023/02/how-much-do-solutions-differ-in-effectiveness/#patterns-in-the-data-overall).
 
 Fat Tails Discourage Compromise
@@ -2104,9 +2104,12 @@ gives 100,994,367 men above the age of 18 living in the US.
 I assume the readers of this essay are virtuous humans and would pay
 their child support in full if they owed it.
 
+<!--TODO: Fix to use euros instead, or ask claude about fixing the script
+for escaping dollar signs in LaTeX-->
+
 Assuming naively that the reader is selected randomly from that set of men in
 the US above the age of 18, the expected value of child support paid per year is
-`$5580\frac{\$}{\hbox{year}}*\frac{12918000}{100994367} \approx 713.73\frac{\$}{\hbox{year}}$`.
+`$5580\frac{\textdollar}{\text{year}}*\frac{12918000}{100994367} \approx 713.73\frac{\textdollar}{\text{year}}$`.
 
 Freezing sperm is surprisingly expensive. [CostAide
 2020](https://costaide.com/freezing-sperm-cost/ "How Much Does Freezing Sperm Cost") states that "There
