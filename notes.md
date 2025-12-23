@@ -3021,7 +3021,9 @@ risks lately?"
 
 *—Scott Alexander, [“Press Any Key For Bay Area House Party”](https://www.astralcodexten.com/p/press-any-key-for-bay-area-house), 2025*
 
-Summary: In terms of competitiveness, DNA-based life is a *local*
+<!--https://claude.ai/chat/9027f4bb-cb45-41c3-b033-520ed886b2d2-->
+
+Summary: In terms of competitiveness, protein-based life is a *local*
 maximum; in nature life+industrial waste+time are producing
 novel molecules that could create pathways to lifeforms with
 more competitive biochemistries<sub>0.01%</sub>, which would

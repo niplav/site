@@ -280,9 +280,10 @@ combinatorial behavior.
 	1. Sub-pergraph detection?
 4. In general, what graph theory concepts could be ported over?
 	1. Planarity? Strongly/weakly connected components?
-5. Has really nobody looked at these before?
+5. How likely is it for a pergraph to be/contain a rhizome?
+6. Has really nobody looked at these before?
 	1. What's the closest most specific but more general mathematical object that includes pergraphs as a special case?
-6. What could these possibly be useful for?
+7. What could these possibly be useful for?
 
 Situating Pergraphs
 --------------------

@@ -53,6 +53,8 @@ Text
 * https://x.com/SRamirez68083/status/1883932223281475745
 * https://x.com/eshear/status/1747731486202335457
 
+<!--TODO: "If you're so smart why aren't you hot"-->
+
 ### Poems
 
 My favorite poems are [Howl (Allen Ginsberg,
@@ -124,14 +126,15 @@ final pushes for me to do something in a particular direction):
 
 ### Books
 
-My favorite books are [The Elephant in the
-Brain](https://www.elephantinthebrain.com/)
-(Hanson & Simler 2017), [There is no Antimemetics
+My favorite nonfiction books are [The Elephant in
+the Brain](https://www.elephantinthebrain.com/)
+(Hanson & Simler 2017) and [Grand
+Futures](https://www.goodreads.com/book/show/42275384-grand-futures)
+(Anders Sandberg, 2025). My favourite
+works of fiction are [There is no Antimemetics
 Division](https://www.goodreads.com/book/show/54870256-there-is-no-antimemetics-division)
 (Hughes 2020), [1984](https://www.goodreads.com/book/show/61439040-1984)
-(Orwell 1948), [Grand
-Futures](https://www.goodreads.com/book/show/42275384-grand-futures)
-(Anders Sandberg, 2025) and [House of
+(Orwell 1948), and [House of
 Leaves](https://www.goodreads.com/book/show/24800.House_of_Leaves)
 (Danielewski 2000) (it does the whole postmodern literature shtick, but
 it does it really enjoyably! This trend did *not* continue with [Only
