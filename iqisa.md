@@ -5,8 +5,8 @@
 
 > __Iqisa is [a library](https://github.com/niplav/iqisa) for handling and comparing forecasting datasets from different platforms.__
 
-Iqisa: A Library For Handling Forecasting Datasets
-===================================================
+Iqisa: A Library Of Forecasting Datasets
+=========================================
 
 > The eventual success of my archives reinforced my view that
 public permission-less datasets are often a bottleneck to

@@ -134,7 +134,7 @@ def stitch(space, size, offsets, stitch_dim):
     of the values written from the touching sub-cubes.
     """
     if stitch_dim == 0:
-        return                                             # nothing to do
+        return
 
     dim   = space.ndim
     half  = size // 2

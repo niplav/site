@@ -11,6 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+<!--TODO: The latest Glass Onion movie-->
 * [The Boondock Saints](https://en.wikipedia.org/wiki/The_Boondock_Saints)
 * [The Addams Family](https://en.wikipedia.org/wiki/Addams_family_\(animated_film\))
 * [Cold War](https://en.wikipedia.org/wiki/Cold_War_\(2018_film\))
@@ -23,7 +24,7 @@ first).
 * [Hair](https://en.wikipedia.org/wiki/Hair_\(musical\))
 * [Color out of Space](https://en.wikipedia.org/wiki/Color_Out_of_Space_\(film\))
 * [Lessons of Darkness](https://en.wikipedia.org/wiki/Lessons_of_Darkness)
-<!--Newest animated spiderman-->
+<!--TODO: Newest animated spiderman-->
 * [Labyrinth](https://en.wikipedia.org/wiki/Labyrinth_\(movie\))
 * [From Dusk Till Dawn](https://en.wikipedia.org/wiki/From_Dusk_Till_Dawn)
 * [One who flew over the cuckoos nest](https://en.wikipedia.org/wiki/One_Flew_Over_the_Cuckoo's_Nest_\(film\))

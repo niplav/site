@@ -15,6 +15,8 @@ import os
 import warnings
 warnings.filterwarnings('ignore')
 
+# TODO: Make possible to pool the data from multiple people
+
 # Data paths
 SUBSTANCES_PATH = Path(__file__).parent.parent.parent / 'data' / 'substances.csv'
 COGNITIVE_DATA_DIR = Path.home() / 'orexin_data'
@@ -73,6 +75,7 @@ def load_cognitive_tests():
 
 def load_sleep_data():
     """Load Fitbit sleep data."""
+    # TODO: Calculate this from the current date and the dates of the orexin data
     sleep_files = [
         'sleep.2025.09.json',
         'sleep.2025.10.json',
@@ -162,6 +165,8 @@ def calculate_pvt_metrics(pvt_df):
             })
 
     return pd.DataFrame(results)
+
+# TODO: Can these three be refactored into a single function?
 
 def calculate_dsst_metrics(dsst_df):
     """Extract DSST metrics."""
@@ -267,49 +272,25 @@ def analyze_sleep_data(substances, sleep_df):
     return pd.DataFrame(results)
 
 def main():
-    print("=" * 60)
-    print("Orexin-A Impact Analysis")
-    print("=" * 60)
-
-    # Load data
-    print("\n1. Loading data...")
     substances = load_substances()
-    print(f"   - Found {len(substances)} dose administrations")
-    print(f"     * Orexin: {len(substances[substances['treatment'] == 'Orexin'])}")
-    print(f"     * Placebo: {len(substances[substances['treatment'] == 'Placebo'])}")
-
     tests = load_cognitive_tests()
-    print(f"   - Loaded cognitive tests:")
-    for test_name, test_df in tests.items():
-        print(f"     * {test_name}: {len(test_df)} entries")
-
     sleep_df = load_sleep_data()
-    print(f"   - Loaded sleep data: {len(sleep_df)} nights")
 
     # Match tests to treatments
-    print("\n2. Matching cognitive tests to treatment days...")
     matched = match_tests_to_treatment(substances, tests)
     for test_name, test_df in matched.items():
         if not test_df.empty:
             orexin_count = len(test_df[test_df['treatment'] == 'Orexin'])
             placebo_count = len(test_df[test_df['treatment'] == 'Placebo'])
-            print(f"   - {test_name}: {orexin_count} Orexin, {placebo_count} Placebo")
 
-    # Calculate metrics
-    print("\n3. Calculating metrics...")
     pvt_metrics = calculate_pvt_metrics(matched['pvt'])
     dsst_metrics = calculate_dsst_metrics(matched['dsst'])
     digit_span_metrics = calculate_digit_span_metrics(matched['digit_span'])
     sss_metrics = calculate_sss_metrics(matched['sss'])
     sleep_metrics = analyze_sleep_data(substances, sleep_df)
 
-    # Run statistical tests
-    print("\n4. Running statistical tests (two-sample t-tests)...")
-    print("=" * 60)
-
     test_results = []
 
-    # PVT metrics
     if not pvt_metrics.empty:
         for metric in ['mean_rt', 'median_rt', 'slowest_10pct', 'false_starts']:
             orexin_vals = pvt_metrics[pvt_metrics['treatment'] == 'Orexin'][metric].values
@@ -318,7 +299,6 @@ def main():
             if result:
                 test_results.append(result)
 
-    # DSST metrics
     if not dsst_metrics.empty:
         for metric in ['correct_count', 'accuracy']:
             orexin_vals = dsst_metrics[dsst_metrics['treatment'] == 'Orexin'][metric].values
@@ -327,7 +307,6 @@ def main():
             if result:
                 test_results.append(result)
 
-    # Digit Span metrics
     if not digit_span_metrics.empty:
         for metric in ['forward_span', 'backward_span', 'total_span']:
             orexin_vals = digit_span_metrics[digit_span_metrics['treatment'] == 'Orexin'][metric].values
@@ -336,7 +315,6 @@ def main():
             if result:
                 test_results.append(result)
 
-    # SSS metrics
     if not sss_metrics.empty:
         orexin_vals = sss_metrics[sss_metrics['treatment'] == 'Orexin']['rating'].values
         placebo_vals = sss_metrics[sss_metrics['treatment'] == 'Placebo']['rating'].values
@@ -344,7 +322,6 @@ def main():
         if result:
             test_results.append(result)
 
-    # Sleep metrics
     if not sleep_metrics.empty:
         for metric in ['duration_hours', 'minutes_asleep', 'efficiency',
                       'deep_minutes', 'light_minutes', 'rem_minutes', 'wake_minutes']:
@@ -355,49 +332,12 @@ def main():
                 if result:
                     test_results.append(result)
 
-    # Display results
     results_df = pd.DataFrame(test_results)
 
     if not results_df.empty:
-        print("\nSTATISTICAL RESULTS:")
-        print("=" * 60)
-
-        for _, row in results_df.iterrows():
-            print(f"\n{row['metric']}:")
-            print(f"  Orexin:  {row['orexin_mean']:.2f} ± {row['orexin_std']:.2f} (n={row['orexin_n']})")
-            print(f"  Placebo: {row['placebo_mean']:.2f} ± {row['placebo_std']:.2f} (n={row['placebo_n']})")
-            print(f"  t-statistic: {row['t_statistic']:.3f}")
-            print(f"  p-value: {row['p_value']:.4f} {'*' if row['p_value'] < 0.05 else ''}")
-            print(f"  Cohen's d: {row['cohens_d']:.3f}")
-
-        # Save results
         results_df.to_csv('analysis_results.csv', index=False)
-        print("\n" + "=" * 60)
-        print("Results saved to analysis_results.csv")
     else:
         print("\nNo results to display - insufficient data for analysis")
-
-    # Save detailed data
-    print("\nSaving detailed metrics...")
-    if not pvt_metrics.empty:
-        pvt_metrics.to_csv('pvt_metrics.csv', index=False)
-        print("  - pvt_metrics.csv")
-    if not dsst_metrics.empty:
-        dsst_metrics.to_csv('dsst_metrics.csv', index=False)
-        print("  - dsst_metrics.csv")
-    if not digit_span_metrics.empty:
-        digit_span_metrics.to_csv('digit_span_metrics.csv', index=False)
-        print("  - digit_span_metrics.csv")
-    if not sss_metrics.empty:
-        sss_metrics.to_csv('sss_metrics.csv', index=False)
-        print("  - sss_metrics.csv")
-    if not sleep_metrics.empty:
-        sleep_metrics.to_csv('sleep_metrics.csv', index=False)
-        print("  - sleep_metrics.csv")
-
-    print("\n" + "=" * 60)
-    print("Analysis complete!")
-    print("=" * 60)
 
 if __name__ == '__main__':
     main()
