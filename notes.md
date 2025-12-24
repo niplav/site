@@ -2940,7 +2940,7 @@ circumcision, subincision and scarification [initiation
 rites](https://en.wikipedia.org/wiki/Initiation_rite#Tribal),
 and many others, able to [extrapolate them
 coherently](./cs/ai/alignment/cev/coherent_extrapolated_volition_yudkowsky_2004.pdf)
-into a coherent vision of the future, while avoiding [siren
+into a consistent vision of the future, while avoiding [siren
 worlds](https://www.lesswrong.com/posts/nFv2buafNc9jSaxAH/siren-worlds-and-the-perils-of-over-optimised-search)
 or an overly narrow attractor state which loses out on the intrinsic
 value of pluralism.
@@ -2963,14 +2963,14 @@ faithfully, but I'll try.
 
 [^clari]: AIs can be moral patients<sub>98%</sub> and agents<sub>99%</sub>, and there could be an extremely valuable future with no humans or human-descended minds but it's very unlikely<sub>0.1%</sub> to come to be by default. In most instigations of this future it would involve great amounts of theft (of the reachable universe from current humans), if not outright genocide of those humans, and thereby tarnishing the future even if it's otherwise quite valuable.
 
-Four answers spring to mind:
+Six answers spring to mind:
 
 1. If we lock in this abstract generator, we will lose out on moral progress outside of the envelope of this abstract generator. There are moral advancements that can only be made by minds that are vastly beyond humans, because there are axes of value that can only be discovered by exploring the entire space of possible values.
 2. This generator of human values does not produce values that are adaptive enough to survive into the future, so *if* it could be locked in that would spell the end of life or self-replication in the observable universe, or will be outcompeted by [systems focused on pure self-replication](https://www.lesswrong.com/posts/evYne4Xx7L9J96BHW/video-and-transcript-of-talk-on-can-goodness-compete).
 3. This generator of human values is too unconstrained, so the space of values is vacuously large, so the future is wildly unconstained and we get something as-if pulled from the space of possible values at random anyway[^measure].
 4. The generator of human values is something that's ~shared between all ~self-replicating entities anyway because game-theoretic considerations push towards it reliably, and humans were forged in a game-theoretic environment in the physical world which is shared by us and future ASIs.
 5. There is a variant of this position that basically says that optimal/maximal adaptation/game-theoretic behavior/dissipation=ethics/morality/goodness.
-6. The default trajectory of the universe, even with purely human successors, appears pretty misaligned wrt to current human values, and not only that, we'd be seen as wildly misaligned/mistaken according to the moral views of our predecessors—not pious enough, not connected to nature enough, horrible in [our inauthentic treatment of animals](https://traditionsofconflict.com/blog/2020/1/23/contests-between-equals-men-and-beasts), strange in our focus on youth, disregard for elderly wisdom, and drastic cultural change. Yet, they didn't try to lock in their values, and we should be grateful for this, similarly we shouldn't lock in our values (however abstract).
+6. The default trajectory of the universe, even with purely human successors, appears pretty misaligned wrt to current human values. And not only that, we'd be seen as wildly misaligned/mistaken according to the moral views of our predecessors: We're not pious enough, not sufficiently connected to nature, horrible in [our inauthentic treatment of animals](https://traditionsofconflict.com/blog/2020/1/23/contests-between-equals-men-and-beasts), strange in our focus on youth, disregard for elderly wisdom, and drastic cultural change. Yet, they didn't try to lock in their values, and we should be grateful for this, similarly we shouldn't lock in our values (however abstract).
 
 [^measure]: Though: What measure on which space are we using here, exactly?
 
@@ -2986,18 +2986,24 @@ Here's some thoughts on those arguments:
 		2. I'd call this vacuously large, and will defend that that will [almost surely](https://en.wikipedia.org/wiki/Almost-surely) be valueless.
 		3. My guess is that proponents mean something different by "the space of possible values", but it'd be worth it to elaborate on *what that is, exactly*.
 2. This one worries me much more. It seems plausible that it's true<sub>30%</sub>, and if that's the case human values may go down fighting, but they will go down. Much more on this [here](./notes.html#Error_Correction_as_a_Replacement_Backstop), unfinished.
+	1. There's no harm in trying, surely.
 3. I don't believe that the generator of human values is vacuously large.
 	1. There are tons of possible things humans don't care about: Arranging lungfish scales in hexagonal patterns, making the world as yellow as possible, introducing spiral turbulence in the gas clouds of jupyter, any random combination of atoms…
 	2. I do buy that we might be under-estimating how big the space of evolution of possible future human value trajectories could be, and it may be too vast to explore in full, so trade-offs will have to be made.
+	3. The argument banks on the generator being vacuous; a decent chance of there being moral convergence would mean that letting the future run wild is quite bad.
 4. I don't think so.
 	1. That view needs to explain why a lot of the natural world includes [strange phenomena in evolution](https://www.lesswrong.com/s/MH2b8NfWv22dBtrs8/p/pLRogvJLPPg6Mrvg4) and to a lesser extent predation, parasitism, hostile takeover of companies, invasions and the likes. (The latter aren't exactly *counter* human values, but human values usually include wanting to avoid those outcomes at mutual benefit.)
 5. My answer depends on the variant but is basically "no", "what the hell", maybe "what into the payoff matrices though?"
+6. There is a [spectrum](https://tsvibt.blogspot.com/2023/02/communicating-with-binaries-and-spectra.html) between (attempting to) gripping the future maximally tightly and letting it develop	without ones own intervention[^interjection]. I personally don't advocate for gripping the future maximally tightly.
+	1. How tightly exactly is up to debate but can we at least start haggling over the price?
+	2. E.g. like saying "hm, I'd like there to be no [pure replicator hell](https://qri.org/blog/universal-plot)" or "I don't think we should prevent our successors from valuing [positional goods](https://en.wikipedia.org/wiki/Positional_good)". More [specificity](https://www.lesswrong.com/posts/XosKB3mkvmXMZ3fBQ/specificity-your-brain-s-superpower) would be good here.
+
+[^interjection]: This won't stop any other force from attempting to influence the values of humanity's successors…
 
 <!--Game theory of advocating successionism, Hansonian "Your default
 successors will also be “misaligned” in this way", Where is the
 abstract generator? In the genome? In the environment + culture +
-genome? Distinction between gripping maximally tight/being maximally
-lose vs. the spectrum inbetween-->
+genome?-->
 
 Quantum Computing is about Atoms, not Bits???
 ----------------------------------------------
@@ -3107,6 +3113,14 @@ Related but different: [Mirror
 life](https://en.wikipedia.org/wiki/Mirror_life) (still DNA, just
 changed chirality, unclear if it'd outcompete current life); [grey
 goo](https://en.wikipedia.org/wiki/Grey_Goo) (human-made, not natural).
+
+Neutral Monism And Mathematics
+--------------------------------
+
+1. Assumption: [Neutral monism](https://en.wikipedia.org/wiki/Neutral_Monism) is true.
+2. ∴ The basic building blocks/structures of subjective experience are the same as the basic building blocks of the physical universe.
+3. Assumption: Mathematics is an activity which selects for the building blocks that can be subjectively represented.
+4. ∴ [The Unreasonable Effectiveness of Mathematics in the Natural Sciences](https://en.wikipedia.org/wiki/Unreasonable_Effectiveness)
 
 <!--Why Are There So Few Natural NP-Complete Problems with Superquadratic Verifiers?
 ---------------------------------------------------------------------------------

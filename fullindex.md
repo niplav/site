@@ -34,7 +34,7 @@ Best Of
 * [Subscripts for Probabilities](./subscripts.html)
 * [Nootropics](./nootropics.html)
 * [Two Reasons For Restarting the Testing of Nuclear Weapons](./nuclear.html)
-* [Iqisa: A Library For Handling Forecasting Datasets](./iqisa.html)
+* [Iqisa: A Library Of Forecasting Datasets](./iqisa.html)
 
 Writing
 -------
@@ -342,7 +342,7 @@ I sometimes write reviews of things I have watched/read.
 
 The following is four lists on the content I consume. The content listed
 there is a fairly big subset of what I actually read/listen to/watch,
-but not complete. I also don't remember everything from these perfectly.
+but not complete.
 
 * [Texts List](./texts_list.html)
 * [Movies List](./movies_list.html)
