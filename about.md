@@ -471,17 +471,23 @@ but walks randomly).
 ### Friends of the Site
 
 * [Aaron Mazel-Gee](https://etale.site/); another .site URL owner, and all around cool math guy
+* [Algon33](https://algon-33.github.io/); (algon.github.io was right there but someone is extra special)
 * [Andrew McKenzie](http://andrewtmckenzie.com/), who writes [essays on brain preservation](https://brainpreservation.github.io/) and [notes on neurobiology](https://neurobiology.substack.com/)
-* [Croissanthology](https://croissanthology.com/)
+* [Corinne](https://corinfinite.net/). At some point I'll come visit.
+* [Croissanthology](https://croissanthology.com/), so effusive with all those *words*. Might become more powerful than I could ever possibly imagine.
 * [Ethan](https://210ethan.github.io): Pure Everests, with careful diligence
 * [exdiegesis](https://x.com/exdiegesis/)/[mir](https://www.lesswrong.com/users/mir)/[rime](https://forum.effectivealtruism.org/users/elua)/ward
-* [Matthew Baggins](https://hidden-structures.vercel.app/)
-* [Mesaoptimizer](https://mesaoptimizer.com/)
+* [Matthew Baggins](https://hidden-structures.vercel.app/), out-of-distribution.
+* [Mesaoptimizer](https://mesaoptimizer.com/), could ease up on the cynicism.
 * [norvid_studies](https://norvidshoshin.wordpress.com/blog/), [𝕏](http://nitter.poast.org/norvid_studies): Endless source [of](https://nitter.poast.org/norvid_studies/status/1436131871184850949) [fascinating](https://nitter.poast.org/norvid_studies/status/1609632437306556417) [questions](https://nitter.poast.org/norvid_studies/status/1719694131578986518)
 * [Nuño Sempere](https://nunosempere.com/), who ended up here through no fault of his own
 * [Nyx](https://nyxus.xyz/): Brightly empathetically menacing (we all know she's just joking)
 * [Skaði þjazidottir](https://ulthar.xyz): Gather some stoic people with guns, who have written low-level code
 * [Tetraspace West](https://thetetra.space): Land value tax : repetitive Georgists :: Conditional prediction markets : That place for Quaternions
+
+#### Enemies of the Site
+
+* Thebes/Theia/[Vo*gel](https://vgel.me/)
 
 If you're not on here but think you should be (or, conversely, you're
 on here but don't want to be), [contact me](#Contact).

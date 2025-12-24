@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-07-10, modified: 2025-10-24, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2025-07-10, modified: 2025-12-24, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __`$P→(V∪P)^2$`, the rest is commentary.__
 
@@ -93,7 +93,7 @@ __Definition 3__ ([Lean](#Undirected_Pergraph)): An __undirected pergraph__ is
 a a pergraph with undirected peredges, i.e. a pergraph where `$e$` has the
 type signature `$P \rightarrow {V \cup P \choose 2}$`.
 
-### Some Pergraph Concepts
+### Some Concepts
 
 __Definition 4__ ([Lean](#Source_and_Sink)): The __source__ of a peredge is
 the vertex or peredge it comes from, the __sink__ of a peredge is the thing
@@ -114,22 +114,29 @@ sink-paths and pure paths.
 
 ![](./img/pergraphs/pure_path.png)
 
-__Definition 7__ ([Lean](#Mixed_Paths)): A __mixed source-path__,
-__mixed sink path__, and __mixed pure path__ is a source-path, sink path
-and pure path with vertices mixed in, respectively.
+__Definition 7__ ([Lean](#Mixed_Paths)): A __mixed source-path__ (example
+in the image below), __mixed sink path__, and __mixed pure path__ is a
+source-path, sink path and pure path with vertices mixed in, respectively.
+
+![](./img/pergraphs/mixed_source_path.png)
 
 __Definition 8__ ([Lean](#Cycles)): A __source-cycle__ is a
 __source-path__ that connects a vertex `$v$` to `$v$` or an edge `$p$`
 to `$p$`. One can define a __sink-cycle__, a __pure cycle__, a __mixed
-source cycle__, and a __mixed sink-cycle__ similarly.
+source cycle__, a __mixed sink-cycle__, and a __mixed pure cycle__
+(example below) similarly.
 
-<!--TODO: image-->
+![](./img/pergraphs/mixed_pure_cycle.png)
 
 __Remark 3__: There's a variant of vertexless pure cycles that I like
 to call "__keltic knots__", where, if of any edge `$p_1$` the sink is
-`$p_2$`, the source of `$p_2$` is `$p_1$`.
+`$p_2$`, the source of `$p_2$` is `$p_1$`. There's exactly one keltic
+knot with `$n$` edges, and I find them pretty. They have nothing to do
+with [knot theory](https://en.wikipedia.org/wiki/Knot_Theory), e.g. the
+[7₄ knot](https://en.wikipedia.org/wiki/74_knot) that sometimes appears
+in keltic iconography.
 
-<!--TODO: image-->
+![](./img/pergraphs/keltic_knot_5.png)
 
 __Definition 9__ ([Lean](#Subpergraph)): A __sub-pergraph__ `$S$`
 of a pergraph `$A=(V, P, e)$` is a pergraph where the vertices are
@@ -147,6 +154,8 @@ __Definition 10__ ([Lean](#Rhizome)): A __rhizome__ is a non-empty
 pergraph without a proper sub-pergraph. We denote the set of all rhizomes
 with `$\mathcal{R}$`.
 
+![Six of the rhizomes with three edges, all in the image are non-isomorphic.](./img/pergraphs/six_rhizomes.png "Six of the rhizomes with three edges, all in the image are non-isomorphic.")
+
 __Question 1__: Can we identify rhizomes in some easy way? E.g. "iff it
 has/lacks such-and-such of an edge you're looking at a rhizome".
 
@@ -155,8 +164,11 @@ __Theorem 2__: Every rhizome is either a single vertex or a ratking.
 __Intuition__: A pergraph that has at least a vertex is either a single
 vertex or contains a single vertex as a proper sub-pergraph.
 
-__Remark 4__: There are non-rhizomatic ratkings. <!--TODO: image of
-an example-->
+__Remark 4__: There are non-rhizomatic ratkings.
+
+<!--TODO: image of an example-->
+
+### Decomposing
 
 __Remark 5__: Ratkings, ordered by whether they are sub-pergraphs, form a
 [lattice](https://en.wikipedia.org/wiki/Lattice_\(mathematics\))
@@ -169,19 +181,7 @@ lattice where the minimal elements are rhizomes and a single vertex.
 
 <!--TODO: turn from remarks into theorems? Prove then I guess-->
 
-~~__Theorem 3__: Every pergraph can be constructed by~~
-
-1. ~~Taking a finite subset from the set of all rhizomes, call this disconnected set of components `$I$`. We call `$I$` the __perbasis__, and it can be empty.~~
-2. ~~Finitely often either of the following operations:~~
-	1. ~~Add a vertex to `$I$`~~
-	2. ~~Add a peredge between any two vertices/edges in `$I$`~~
-	3. ~~Add a peredge sourced from itself, pointing to any vertex/edge in `$I$`~~
-	4. ~~Add a peredge sinking into itself, pointed from any vertex/edge in `$I$`~~
-
-This isn't correct, see e.g. the graph `$(\{v_1, v_2\}, \{e_1, e_2\},
-\{e_1: v_1 → e_2, e_2: v_2 → e_1\})$`.
-
-__Theorem 4__: Every pergraph has a unique perbasis.
+__Theorem 3__: Every pergraph has a unique perbasis.
 
 __Definition 11__: Many pergraphs share a perbasis. For a given pergraph
 `$A$`, the __horde__ `$\mathcal{H}_I$` of `$A$` with the perbasis `$I$`
@@ -197,12 +197,34 @@ __Remark 7__: The set of strebers is way better behaved than the set
 of all pergraphs, simply due to the fact that they don't contain any
 rhizomes as sub-pergraphs.
 
-__Theorem 5__: There are countably infinitely many finite pergraphs.
+__Theorem 4__: There are countably infinitely many finite pergraphs.
 
 __Intuition 5__: There are finitely many pergraphs of size `$n$` for any
 natural number, order by natural number, then for each natural number,
 order the pergraphs of that size however you like. You now have a
 bijection to the natural numbers.
+
+__Definition 13__: A __dock__ is a set `$D$` of peredges and two mappings
+`$p^←: D \rightarrow (D \cup \bot)$` and `$p^→ D \rightarrow (D \cup
+\bot)$` so that:
+
+1. Every element of `$D$` has either its source or its sink in `$D$`, that is for all `$d$` in `$D$`, `$p^←(d)≠\bot$` or `$p^→(d)≠\bot$`.
+2. There is no subset of `$D$` so that `$p^←$` and `$p^→$` form a rhizome.
+
+__Intuition 6__: A dock is basically a "structured multi-edge", that is
+it is connected, and has incoming and outgoing edges. A dock is the thing
+that connects rhizomes and vertices with other rhizomes and vertices.
+
+__Definition 14__: An __`$n$`-`$m$`-dock__ is a dock with `$n$` incoming and `$m$` outgoing edges.
+
+`$n=|\{d | d \in D \land p^←(d)=\bot\}|$`, `$m=|\{d | d \in D \land p^→(d)=\bot\}|$`.
+
+__Theorem 5__: Any pergraph can be decomposed into a set of vertices, a set of rhizomes, and a set of docks.
+
+__Remark 8__: Unfortunately, two distinct pergraphs can be decomposed into
+the sate set of vertices, rhizomes, and docks. One needs information on
+which edges from a dock connect to which eges of a rhizomes to achieve
+a unique decomposition.
 
 -----------------------
 
@@ -219,10 +241,9 @@ a simpler set with simpler rules?
 Bijection/injection with the directed graphs? Needs to blow up the
 directed graphs.
 
-Wharfs/ports/docks (decide terminology, maybe
-disambiguate?). n-m-ports. Every pergraph can be built out of rhizomes,
-ports and vertices. If you cut all outgoing/incoming "open" edges from
-a port, call that "to machete" a port. The port falls apart into a
+Every pergraph can be built out of rhizomes, ports and
+vertices. If you cut all outgoing/incoming "open" edges from a
+port, call that "to machete" a port. The port falls apart into a
 [bag](https://en.wikipedia.org/wiki/Bag_\(mathematics\)) of more ports.
 
 Building a large subset of pergraphs by taking what was previously built,
@@ -377,13 +398,19 @@ matrix](https://en.wikipedia.org/wiki/Incidence_matrix) is simply
 The concept appears under-developed, and slightly different from what
 I'm pointing at.
 
+Pergraphs are an [incident
+structure](https://en.wikipedia.org/wiki/Incidence_structure)
+and can thus be converted into a corresponding [Levi
+graph](https://en.wikipedia.org/wiki/Levi_graph).<!--TODO: something
+about relational data formats?-->
+
 Acknowledgements
 -----------------
 
-Many thanks to Claude 4 Sonnet and Claude 4 Opus for several long
-conversations which fleshed out the concept, talked through the pergraphs
-with `$n=2$`, help with learning Lean, and help with writing the Rust
-code for the enumeration.
+Many thanks to Claude 4/4.5 Sonnet, Claude 4 Opus, GPT-5, and Gemini
+3 Pro for several long conversations which fleshed out the concept,
+talked through the pergraphs with `$n=2$`, help with learning Lean,
+and help with writing the Rust code for the enumeration.
 
 See Also
 ---------
@@ -556,3 +583,18 @@ That function is injective:
 
 	def isRhizome (G : Pergraph V E) : Prop :=
 	  isNonEmpty G ∧ ∀ (S : SubPergraph G), isProperSubPergraph S → False
+
+Appendix B: Incorrect Theorems and Confused Definitions
+---------------------------------------------------------
+
+~~__Incorrect Theorem 1__: Every pergraph can be constructed by~~
+
+1. ~~Taking a finite subset from the set of all rhizomes, call this disconnected set of components `$I$`. We call `$I$` the __perbasis__, and it can be empty.~~
+2. ~~Finitely often either of the following operations:~~
+	1. ~~Add a vertex to `$I$`~~
+	2. ~~Add a peredge between any two vertices/edges in `$I$`~~
+	3. ~~Add a peredge sourced from itself, pointing to any vertex/edge in `$I$`~~
+	4. ~~Add a peredge sinking into itself, pointed from any vertex/edge in `$I$`~~
+
+This isn't correct, see e.g. the graph `$(\{v_1, v_2\}, \{e_1, e_2\},
+\{e_1: v_1 → e_2, e_2: v_2 → e_1\})$`.
