@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2025-11-25, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2025-12-24, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -22,6 +22,19 @@ Monthly updates are sent out [via substack](https://niplav.substack.com/),
 the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
+
+December 2025
+--------------
+
+* [Malleable Human Minds and AI](./malleable.html)
+* [Emergent Chemistry Risk](./notes.html#Emergent_Chemistry_Risk)
+* [New Minds](./microfiction.html#New_Minds)
+
+More edits and images for [pergraphs](./pergraphs.html).
+
+Some changes to the website so that the table of contents is narrower
+and left-aligned, footnotes now have tooltips. Fixed a bug with the
+numbering of ToC entries.
 
 November 2025
 --------------

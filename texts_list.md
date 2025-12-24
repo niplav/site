@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2025-10-28, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2025-12-24, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,24 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [religion vs. biology (hbdchick, 2011)](https://hbdchick.wordpress.com/2011/02/06/religion-vs-biology/)
+* [The Neural Net Tank Urban Legend (Gwern Branwen, 2023)](https://gwern.net/tank)
+* [Comment on “Solving Math Problems by Relay” (Marc Xu, 2020)](https://www.lesswrong.com/posts/DWgWbXRfXLGHPgZJM/solving-math-problems-by-relay?commentId=YraZnL9iRoZimMvNg)
+* [Comment on “Solving Math Problems by Relay” (DirectedEvolution, 2020)](https://www.lesswrong.com/posts/DWgWbXRfXLGHPgZJM/solving-math-problems-by-relay?commentId=PqnD3Aoneg4Gig2MD)
+* [Comment on “Solving Math Problems by Relay” (Ben Goldhaber, 2020)](https://www.lesswrong.com/posts/DWgWbXRfXLGHPgZJM/solving-math-problems-by-relay?commentId=9BXbq3BdSXds7aJJY)
+* [Comment on “Solving Math Problems by Relay” (lambdaloop, 2020)](https://www.lesswrong.com/posts/DWgWbXRfXLGHPgZJM/solving-math-problems-by-relay?commentId=ZCaq9wQc3cCky26Xr)
+* [Solving Math Problems by Relay (Ben Goldhaber/Owain Evans, 2020)](https://www.lesswrong.com/posts/DWgWbXRfXLGHPgZJM/solving-math-problems-by-relay)
+* [Commen ton “Did LessWrong call covid-19 early? No” (Yarrow Bouchard, 2025)](https://forum.effectivealtruism.org/posts/rLD34N9BWiHWpGeqH/did-lesswrong-call-covid-19-early-no?commentId=kqSAhTDkF4ruFdH6N)
+* [Did LessWrong call covid-19 early? No (Yarrow Bouchard, 2025)](https://forum.effectivealtruism.org/posts/rLD34N9BWiHWpGeqH/did-lesswrong-call-covid-19-early-no)
+* [The Shibari Game (Rob Miles, 2025)](https://life-in-a-monospace-typeface.tumblr.com/post/800786180245504000/the-shibari-game)
+* [The Power of Twins: The Scottish Milk Experiment (Gwern Branwen, 2019)](https://gwern.net/milk)
+* [Polar wind (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Polar_wind)
+* [Heliospheric current sheet (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Heliospheric_current_sheet)
+* [Star Gauge (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Star_Gauge)
+* [Xenien (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Xenien)
+* [Helion (chemistry) (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Helion_\(chemistry\))
+* [Plasmoid (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Plasmoid)
+* Beantwortung der Frage des Herzogs: »Welcher ist unter euch der Geringste« (Friedrich Schiller, 1775)
 * Danksagungsgedicht an Magister Georg Sebastian Zilling (Friedrich Schiller, 1771)
 * Latine (Friedrich Schiller, 1770)
 * Herzgeliebte Eltern (Friedrich Schiller, 1769)
@@ -46,8 +64,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * Einer (Friedrich Schiller, 1797)
 * Vielen (Friedrich Schiller, 1797)
 * Crystal Mentality (Max Harms, 2017)
-* |5 Noise Injection Reveals Hidden Capabilities of Sandbagging Language Models (Cameron Tice/Philipp Alexander Kreer/Prithviraj Singh Shahani/Nathan Helm-Burger/Fedor Ryzhenkov/Fabien Roger/Clement Neo/Jacob Haimes/Felix Hofstätter/Teun
-van der Weij, 2025)
+* |5 Noise Injection Reveals Hidden Capabilities of Sandbagging Language Models (Cameron Tice/Philipp Alexander Kreer/Prithviraj Singh Shahani/Nathan Helm-Burger/Fedor Ryzhenkov/Fabien Roger/Clement Neo/Jacob Haimes/Felix Hofstätter/Teun van der Weij, 2025)
 * [Introducing Claude Opus 4.5 (Anthropic, 2025)](https://www.anthropic.com/news/claude-opus-4-5)
 * [Shutdown resistance in reasoning models (Jeremy Schlatter/Benjamin Weinstein-Raun/Jeffrey Ladish, 2025)](https://palisaderesearch.org/blog/shutdown-resistance)
 * [The fraught voyage of aligned novelty (Tsvi Benson-Tilsen, 2023)](https://tsvibt.blogspot.com/2023/03/the-fraught-voyage-of-aligned-novelty.html)
@@ -231,7 +248,7 @@ van der Weij, 2025)
 * An die Astronomen (Friedrich Schiller, 1805)
 * Die Dichter der alten und der neuen Welt (Friedrich Schiller, 1805)
 * [Call for Views: Agentic AI and Regulatory Challenges (DRCF, 2025)](https://www.drcf.org.uk/news-and-events/news/call-for-views-agentic-ai-and-regulatory-challenges)
-* Skulduggery Pleasent Playing with Fire (Derek Landy, 2009)
+* Skulduggery Pleasant: Playing with Fire (Derek Landy, 2009)
 * [HERA 2024 Work Plan (NFP4Health, 2024)](https://www.nfp4health.eu/2024/01/09/hera-2024-work-plan/)
 * [How we failed (Jan Kulveit/Gavin Leech, 2022)](https://forum.effectivealtruism.org/posts/vHBmDK46ybnsbWyni/how-we-failed)
 * [Wind on Water (oxidist, 2025)](https://oxidist.github.io/2025/10/01/Wind.html)
@@ -1248,7 +1265,7 @@ van der Weij, 2025)
 * [AI #78: Some Welcome Calm (Zvi, 2024)](https://www.lesswrong.com/posts/qGh9suEsb82hzBtSN/ai-78-some-welcome-calm)
 * [AI #77: A Few Upgrades (Zvi, 2024)](https://www.lesswrong.com/posts/2tKbDKGLXtEHGtGLn/ai-77-a-few-upgrades)
 * |10 Constitutional AI: Harmlessness from AI feedback (Yuntao Bai/Saurav Kadavath/Sandipan Kundu/Amanda Askell/Jackson Kernion/Andy Jones/Anna Chen/Anna Goldie/Azalia Mirhoseini/Cameron McKinnon/Carol Chen/Catherine Olsson/Christopher Olah/Danny Hernandez/Dawn Drain/Deep Ganguli/Dustin Li/Eli Tran-Johnson/Ethan Perez/Jamie Kerr/Jared Mueller/Jeffrey Ladish/Joshua Landau/Kamal Ndousse/Kamile Lukosiute/Liane Lovitt/Michael Sellitto/Nelson Elhage/Nicholas Schiefer/Noemi Mercado/Nova DasSarma/Robert Lasenby/Robin Larson/Sam Ringer/Scott Johnston/Shauna Kravec/Sheer El Showk/Stanislav Fort/Tamera Lanham/Timothy Telleen-Lawton/Tom Conerly/Tom Henighan/Tristan Hume/Samuel R. Bowman/Zac Hatfield-Dodds/Ben Mann/Dario Amodei/Nicholas Joseph/Sam McCandlish/Tom Brown/Jared Kaplan, 2022)
-* * ML for the Working Programmer (Lawrence C. Paulson, 1996)
+* |42 ML for the Working Programmer (Lawrence C. Paulson, 1996)
 * [Game Theory without Argmax [Part 1] (Cleo Nardo, 2023)](https://www.lesswrong.com/s/Qn8DhSrdA2qPH2eJT/p/3ahqzpKvtqkom63cx)
 * [Quickstart (manim developers, 2024)](https://docs.manim.community/en/stable/tutorials/quickstart.html)
 * [Philosophical Majoritarianism (Hal Finney, 2007)](https://www.overcomingbias.com/p/on_majoritarianhtml)
@@ -2944,7 +2961,7 @@ van der Weij, 2025)
 * |6 Introduction to Optimization (Marc Toussaint, 2022)
 * |27 Maths for Intelligent Systems (Marc Toussaint, 2022)
 * [Another Bay Area House Party (Scott Alexander, 2022)](https://astralcodexten.substack.com/p/another-bay-area-house-party)
-* * Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
+* |185 Statistics with Julia (Hayden Klok/Yoni Nazarathy, 2021)
 * [Living in an Inadequate World (Eliezer Yudkowsky, 2017)](https://www.lesswrong.com/s/oLGCcbnvabyibnG9d/p/pRibkeqBa2AxrpgT6)
 * [Simulacra Levels and their Interactions (Zvi, 2020)](https://www.lesswrong.com/s/cv2aZaRR22MPC5QwE/p/qDmnyEMtJkE9Wrpau)
 * [Inaccessible information (Paul Christiano, 2020)](https://www.lesswrong.com/s/PKKsrXtuptWzaKCjr/p/ZyWyAJbedvEgRT2uF)

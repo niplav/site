@@ -546,6 +546,12 @@ Advertising Lines
 * Niplav Yushtun™: High Quality Human Thoughts
 * O man, whoever you are and wherever you come from, for I know you will come, I am Niplav who wrote this site. Do not therefore begrudge me this bit of earth that covers my bones.
 
+### Also Known As
+
+* rizzplav
+* niplavinator
+* alphaplav
+
 Unclaimed Domain Names
 -----------------------
 

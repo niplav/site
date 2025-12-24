@@ -706,6 +706,12 @@ simulate quantum systems, with the promise to find [better battery
 tech? superconductors? better quantum computers? medications that dock
 to specific receptors?].
 
+#### 16.6.6
+
+##### Error correcting codes
+
+Footnote 74: "with adaptivethat achieved a", typo.
+
 Citations
 ----------
 

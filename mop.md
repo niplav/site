@@ -15,7 +15,7 @@ Black Hole Mop
 
 *—Fooming Shoggoths, “Machines of Loving Grace”, 2025*<!--TODO: link-->
 
-<!--TODO: check the Claude conversation:
+<!--TODO: check the Claude conversations:
 https://claude.ai/chat/e5da2973-c2a1-4c11-b4e2-68aab2d7551a,
 https://claude.ai/chat/4a800b90-a471-4e33-bbd0-596c0388aad3-->
 
