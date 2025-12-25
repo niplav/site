@@ -95,6 +95,14 @@ type signature `$P \rightarrow {V \cup P \choose 2}$`.
 
 ### Some Concepts
 
+> They are additive rather than substitutive, and immanent rather than
+transcendent: executed by functional complexes of currents, switches,
+and loops, caught in scaling reverberations, and fleeing through
+intercommunications, from the level of the integrated planetary system
+to that of atomic assemblages.
+
+*—Nick Land, “Meltdown”, 1995*
+
 __Definition 4__ ([Lean](#Source_and_Sink)): The __source__ of a peredge is
 the vertex or peredge it comes from, the __sink__ of a peredge is the thing
 it points to.
@@ -204,16 +212,16 @@ natural number, order by natural number, then for each natural number,
 order the pergraphs of that size however you like. You now have a
 bijection to the natural numbers.
 
+__Intuition 6__: A dock is basically a "structured multi-edge", that is
+it is connected, and has incoming and outgoing edges. A dock is the thing
+that connects rhizomes and vertices with other rhizomes and vertices.
+
 __Definition 13__: A __dock__ is a set `$D$` of peredges and two mappings
 `$p^←: D \rightarrow (D \cup \bot)$` and `$p^→ D \rightarrow (D \cup
 \bot)$` so that:
 
 1. Every element of `$D$` has either its source or its sink in `$D$`, that is for all `$d$` in `$D$`, `$p^←(d)≠\bot$` or `$p^→(d)≠\bot$`.
 2. There is no subset of `$D$` so that `$p^←$` and `$p^→$` form a rhizome.
-
-__Intuition 6__: A dock is basically a "structured multi-edge", that is
-it is connected, and has incoming and outgoing edges. A dock is the thing
-that connects rhizomes and vertices with other rhizomes and vertices.
 
 __Definition 14__: An __`$n$`-`$m$`-dock__ is a dock with `$n$` incoming and `$m$` outgoing edges.
 
