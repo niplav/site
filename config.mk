@@ -111,6 +111,7 @@ HTML=index.html \
 	spans.html \
 	stimulation.html \
 	subscripts.html \
+	successionism.html \
 	tahafut.html \
 	tao_te_king.html \
 	text_reviews.html \

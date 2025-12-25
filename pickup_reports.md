@@ -349,6 +349,41 @@ quite the [kenshō](https://en.wikipedia.org/wiki/Kenshō) of
 daygame (what would that be, an SDL?), but perhaps the [udayabbaya
 ñana](https://en.wikipedia.org/wiki/Vipassanā-ñāṇa)?
 
+### Pain is a Great Teacher
+
+#### Miss Labubu Gets Away
+
+A cold front has descended but my horniness drives me out onto the
+streets again. My wing & me separate and get drawn back to each other
+for debriefs, dancing the dance of state-leeching as I bounce into and
+out of approaches with little commitment to the bit. It's cold, I don't
+like it. I wonder if I should ask my wing to go back to the Christmas
+market but the absolute kitsch from the buskers keeps me away, so I
+decide to do a last approach near the train station and then call it
+a day. (No idea if it'd *actually* been the last approach of the day,
+but it was already 19:35 and I was wrought out by the daily session from
+the previous weeks—but they always say that).
+
+I pick a tall 60th-percentile elegance chick walking down to the entrance,
+wheel in front of her clumsily and start stacking about her white fuzzy
+hat (mushroom comparison incoming!) and her sharp grey style (comparing
+it to a captain's uniform, just more depressing). She loves it; jackpot.
+
+We flirt a bit more by talking about clothing style, she lets me touch
+her necklace and admires mine, we talk about what she was up to and
+she shows me the labubu she just bought from a nearby mall. I think it
+is going splendidly and thus invite her over to a Starbucks, when she
+points out she doesn't like coffee[^same], I change course and head for
+a small café selling tea near the station.
+
+We get a tea (I pay), sit down and start talking. She is from Ukraine
+(came in early 2022), currently unemployed and ¿lives with her
+mother? iirc.
+
+[^same]: Neither do I actually.
+
+#### Miss Pulling Doesn't Get Away
+
 <!--
 ### Stop Being an Economics Nerd
 

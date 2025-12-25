@@ -17,6 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Piranha Unmanned Surface Vessel (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Piranha_Unmanned_Surface_Vessel)
+* [Duhem-Quine thesis (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Duhem-Quine_thesis)
+* [Zyvex Marine (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Zyvex_Marine)
+* [Zyvex Technologies (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Zyvex_Technologies)
+* [Fore (golf) (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Fore_\(golf\))
+* [Zyvex (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Zyvex)
+* Meltdown (Nick Land, 1995)
+* [Decision stump (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Decision_Stump)
 * [religion vs. biology (hbdchick, 2011)](https://hbdchick.wordpress.com/2011/02/06/religion-vs-biology/)
 * [The Neural Net Tank Urban Legend (Gwern Branwen, 2023)](https://gwern.net/tank)
 * [Comment on “Solving Math Problems by Relay” (Marc Xu, 2020)](https://www.lesswrong.com/posts/DWgWbXRfXLGHPgZJM/solving-math-problems-by-relay?commentId=YraZnL9iRoZimMvNg)
@@ -85,7 +93,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [comment on “libya – land o’ tribes” (RS, 2011)](https://hbdchick.wordpress.com/2011/02/21/libya-land-o-tribes/#comment-528)
 * [libya – land o’ tribes (hbdchick, 2011)](https://hbdchick.wordpress.com/2011/02/21/libya-land-o-tribes/)
 * [cousin marriage conundrum addendum (hbdchick, 2011)](https://hbdchick.wordpress.com/2011/02/15/cousin-marriage-conundrum-addendum/)
-* |30 Intro to Brain-Like-AGI Safety (Steven J. Byrnes, 2025)
+* |70 Intro to Brain-Like-AGI Safety (Steven Byrnes, 2025)
 * [Vegetarianism, abortion, and moral empathy (Amanda Askell, 2016)](https://www.askell.blog/vegetarianism-abortion-and-moral-empathy/)
 * [Can we offset immorality? (Amanda Askell, 2016)](https://www.askell.blog/can-we-offset-immorality/)
 * [baharnas and ajams and howalas, oh my! (hbdchick, 2011)](https://hbdchick.wordpress.com/2011/02/20/baharnas-and-ajams-and-howalas-oh-my/)

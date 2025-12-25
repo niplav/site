@@ -1587,17 +1587,17 @@ doublings is 1 year.
 	final_growth_rate=2^(1/(final_doubling_time*12))
 
 	function generate_growth_rate_array(months::Int)
-	    growth_rate_array = zeros(Float64, years)
-	    growth_rate_step = (final_growth_rate - initial_growth_rate) / (years - 1)
+		growth_rate_array = zeros(Float64, years)
+		growth_rate_step = (final_growth_rate - initial_growth_rate) / (years - 1)
 
-	    current_growth_rate = initial_growth_rate
+		current_growth_rate = initial_growth_rate
 
-	    for i in 1:years
-		growth_rate_array[i] = current_growth_rate
-		current_growth_rate += growth_rate_step
-	    end
+		for i in 1:years
+			growth_rate_array[i] = current_growth_rate
+			current_growth_rate += growth_rate_step
+		end
 
-	    return growth_rate_array
+		return growth_rate_array
 	end
 
 We can then define the doubling sequence:
@@ -1928,7 +1928,7 @@ category to pay the extra cost of variety, and may even resent the
 variety-interested for imposing that cost.
 
 But the variety-uninterested can try to recover some of the gains from
-eschewing variety by all buying the same product in some category.  Often,
+eschewing variety by all buying the same product in some category. Often,
 this will mean buying the cheapest acceptable product from some category,
 or the product with the least amount of ornamentation or special features.
 
@@ -2109,7 +2109,7 @@ for escaping dollar signs in LaTeX-->
 
 Assuming naively that the reader is selected randomly from that set of men in
 the US above the age of 18, the expected value of child support paid per year is
-`$5580\frac{\textdollar}{\text{year}}*\frac{12918000}{100994367} \approx 713.73\frac{\textdollar}{\text{year}}$`.
+`$5580\frac{\$}{\text{year}}*\frac{12918000}{100994367} \approx 713.73\frac{\$}{\text{year}}$`.
 
 Freezing sperm is surprisingly expensive. [CostAide
 2020](https://costaide.com/freezing-sperm-cost/ "How Much Does Freezing Sperm Cost") states that "There
@@ -2903,107 +2903,7 @@ See [here](./automated.html#IV_GoalGuarding__Adversarial_Examples).
 Some Thoughts on the Stupid Successionism Debate
 -------------------------------------------------
 
-Successionism is a view of AI that claims that the creation of ASIs is
-inherently good because they are our deliberately created successors.
-
-The standard retort to successionism is that even if we try to
-deliberately create successors, they may not be *good* or *valuable*
-in the same way our successors would normally be, that it is a hard
-problem to create superintelligent AIs that are moral patients and agents.
-
-From here, the conversation usually splits into two different lines:
-(1) That by default our far future human successors would also be created
-"by accident" in a very uncontrolled way, and (2) that firmly locking in
-current human values would be myopic, since there are surely much more
-rich and interesting new forms of value to be discovered by letting
-future ASIs explore the space of possible values. Sometimes there is
-(3) a misunderstanding that anti-successionists don't believe that AIs
-can be moral patients/agents in general.
-
-The first remarks basically have the same underlying "vibe", they both
-claim that value drift is not necessarily bad and/or avoidable, that
-we've tolerated it so far and that it's turned out well/adaptively.
-
-The standard non-successionist answer then is that there may
-have been a misunderstanding, and that the goal is *not* value
-lock-in at exactly 2025-level WEIRD moral sensibilities, but
-to lock in something I'll call the abstract generator of [human
-values](https://www.lesswrong.com/posts/YLRPhvgN4uZ6LCLxw/human-wanting).
-Basically, so the assumption goes, there is some findeable idealized
-process which can compute all variants of trajectories of human values,
-including WEIRD moral sensibilities, Aztec cultural practices (including
-[sacrifice](https://en.wikipedia.org/wiki/Aztec_human_sacrifice))
-and their likely evolution, Chinese
-[confucianism](https://en.wikipedia.org/wiki/Confucianism), Australian
-[aboriginal](https://en.wikipedia.org/wiki/Aboriginal_Australian)
-circumcision, subincision and scarification [initiation
-rites](https://en.wikipedia.org/wiki/Initiation_rite#Tribal),
-and many others, able to [extrapolate them
-coherently](./cs/ai/alignment/cev/coherent_extrapolated_volition_yudkowsky_2004.pdf)
-into a consistent vision of the future, while avoiding [siren
-worlds](https://www.lesswrong.com/posts/nFv2buafNc9jSaxAH/siren-worlds-and-the-perils-of-over-optimised-search)
-or an overly narrow attractor state which loses out on the intrinsic
-value of pluralism.
-
-The goal is to find that generator and lock *that* in, plausibly seeded
-with the current desires, wishes, utilities, wantings, urges, fetishes
-and aspirations of humans that are currently alive, and *not* [lock those
-in directly](https://joecarlsmith.com/2024/01/11/an-even-deeper-atheism).
-
-As for (3): That's usually just a misunderstanding, especially when
-transhumanists speak to transhumanists. There are people who don't
-believe that ASIs can be moral patients or moral agents, sure, but are
-they in the room with us right now? Also, for a transhumanist the future
-modifications of some humans will plausibly make them qualitatively as
-different from current humans as future ASIs from current humans.
-
-After that the conversation usually gets a bit murky, and as a ~non-successionist[^clari] I don't think
-I understand the successionists well enough to represent them maximally
-faithfully, but I'll try.
-
-[^clari]: AIs can be moral patients<sub>98%</sub> and agents<sub>99%</sub>, and there could be an extremely valuable future with no humans or human-descended minds but it's very unlikely<sub>0.1%</sub> to come to be by default. In most instigations of this future it would involve great amounts of theft (of the reachable universe from current humans), if not outright genocide of those humans, and thereby tarnishing the future even if it's otherwise quite valuable.
-
-Six answers spring to mind:
-
-1. If we lock in this abstract generator, we will lose out on moral progress outside of the envelope of this abstract generator. There are moral advancements that can only be made by minds that are vastly beyond humans, because there are axes of value that can only be discovered by exploring the entire space of possible values.
-2. This generator of human values does not produce values that are adaptive enough to survive into the future, so *if* it could be locked in that would spell the end of life or self-replication in the observable universe, or will be outcompeted by [systems focused on pure self-replication](https://www.lesswrong.com/posts/evYne4Xx7L9J96BHW/video-and-transcript-of-talk-on-can-goodness-compete).
-3. This generator of human values is too unconstrained, so the space of values is vacuously large, so the future is wildly unconstained and we get something as-if pulled from the space of possible values at random anyway[^measure].
-4. The generator of human values is something that's ~shared between all ~self-replicating entities anyway because game-theoretic considerations push towards it reliably, and humans were forged in a game-theoretic environment in the physical world which is shared by us and future ASIs.
-5. There is a variant of this position that basically says that optimal/maximal adaptation/game-theoretic behavior/dissipation=ethics/morality/goodness.
-6. The default trajectory of the universe, even with purely human successors, appears pretty misaligned wrt to current human values. And not only that, we'd be seen as wildly misaligned/mistaken according to the moral views of our predecessors: We're not pious enough, not sufficiently connected to nature, horrible in [our inauthentic treatment of animals](https://traditionsofconflict.com/blog/2020/1/23/contests-between-equals-men-and-beasts), strange in our focus on youth, disregard for elderly wisdom, and drastic cultural change. Yet, they didn't try to lock in their values, and we should be grateful for this, similarly we shouldn't lock in our values (however abstract).
-
-[^measure]: Though: What measure on which space are we using here, exactly?
-
-Here's some thoughts on those arguments:
-
-1. I find this one the most interesting one of the bunch.
-	1. I'm open to the option of [radically upending our understanding of the cosmos](./ontological.html), but I don't necessarily believe that such upending would necessarily entail a broadening of values—it could just as well be the case that novel philosophical considerations lead to the discovery that e.g. [error theory](https://en.wikipedia.org/wiki/Moral_Error_Theory) is correct, or that most previous notions of value were incorrect, e.g. by discovering that [solipsism](https://en.wikipedia.org/wiki/Solipsism) is true and thus the number of moral patients is one.
-	2. The desire to unearth novel moral considerations and enact them is already present in [some](https://en.wikipedia.org/wiki/Peter_Singer) [humans](https://en.wikipedia.org/wiki/John_Stuart_Mill), so it's also in the generator of human values. So propensity should not be a problem.
-		1. The desire of humans to figure out morality is stronger than their desire to avoid figuring out morality, especially if the cost is low<sub>70%</sub>.
-	3. Is capability a problem? Well, arguably the ASIs seeded with the generator of human values and the posthumans accompanying them are going to be as capable as the ones exploring the space of possible values by default.
-	4. Another question I have about the "explore all possible values" is whether the proponents indeed mean the space of *all* possible values.
-		1. As in, all possible [utility functions](https://en.wikipedia.org/wiki/Utility_Function) on universe-histories?
-		2. I'd call this vacuously large, and will defend that that will [almost surely](https://en.wikipedia.org/wiki/Almost-surely) be valueless.
-		3. My guess is that proponents mean something different by "the space of possible values", but it'd be worth it to elaborate on *what that is, exactly*.
-2. This one worries me much more. It seems plausible that it's true<sub>30%</sub>, and if that's the case human values may go down fighting, but they will go down. Much more on this [here](./notes.html#Error_Correction_as_a_Replacement_Backstop), unfinished.
-	1. There's no harm in trying, surely.
-3. I don't believe that the generator of human values is vacuously large.
-	1. There are tons of possible things humans don't care about: Arranging lungfish scales in hexagonal patterns, making the world as yellow as possible, introducing spiral turbulence in the gas clouds of jupyter, any random combination of atoms…
-	2. I do buy that we might be under-estimating how big the space of evolution of possible future human value trajectories could be, and it may be too vast to explore in full, so trade-offs will have to be made.
-	3. The argument banks on the generator being vacuous; a decent chance of there being moral convergence would mean that letting the future run wild is quite bad.
-4. I don't think so.
-	1. That view needs to explain why a lot of the natural world includes [strange phenomena in evolution](https://www.lesswrong.com/s/MH2b8NfWv22dBtrs8/p/pLRogvJLPPg6Mrvg4) and to a lesser extent predation, parasitism, hostile takeover of companies, invasions and the likes. (The latter aren't exactly *counter* human values, but human values usually include wanting to avoid those outcomes at mutual benefit.)
-5. My answer depends on the variant but is basically "no", "what the hell", maybe "what into the payoff matrices though?"
-6. There is a [spectrum](https://tsvibt.blogspot.com/2023/02/communicating-with-binaries-and-spectra.html) between (attempting to) gripping the future maximally tightly and letting it develop	without ones own intervention[^interjection]. I personally don't advocate for gripping the future maximally tightly.
-	1. How tightly exactly is up to debate but can we at least start haggling over the price?
-	2. E.g. like saying "hm, I'd like there to be no [pure replicator hell](https://qri.org/blog/universal-plot)" or "I don't think we should prevent our successors from valuing [positional goods](https://en.wikipedia.org/wiki/Positional_good)". More [specificity](https://www.lesswrong.com/posts/XosKB3mkvmXMZ3fBQ/specificity-your-brain-s-superpower) would be good here.
-
-[^interjection]: This won't stop any other force from attempting to influence the values of humanity's successors…
-
-<!--Game theory of advocating successionism, Hansonian "Your default
-successors will also be “misaligned” in this way", Where is the
-abstract generator? In the genome? In the environment + culture +
-genome?-->
+Moved [here](./successionism.html).
 
 Quantum Computing is about Atoms, not Bits???
 ----------------------------------------------
@@ -3096,7 +2996,7 @@ that kickstarts a set of smaller, faster
 acids](https://en.wikipedia.org/wiki/Xeno_Nucleic_Acid)? Silicon?),
 which mutates so that it starts building cell walls (more robust than
 whatever eukaryotes came up with), starts self-replicating with the
-resources and energy gradients in their environment  (and if that's just
+resources and energy gradients in their environment (and if that's just
 [CHON](https://en.wikipedia.org/wiki/CHON)+sunlight+silicon or calcium,
 that's really not a high ask), start [gobbling up all DNA-based life
 that is in their way](https://en.wikipedia.org/wiki/Ecophagy).
@@ -3121,6 +3021,68 @@ Neutral Monism And Mathematics
 2. ∴ The basic building blocks/structures of subjective experience are the same as the basic building blocks of the physical universe.
 3. Assumption: Mathematics is an activity which selects for the building blocks that can be subjectively represented.
 4. ∴ [The Unreasonable Effectiveness of Mathematics in the Natural Sciences](https://en.wikipedia.org/wiki/Unreasonable_Effectiveness)
+
+Common Assumptions on TAI
+--------------------------
+
+Assumptions people make on how TAI will be developed (an exercise in
+hypothesis generation to the limit of absurdity):
+
+- In the PRC or in the US
+	- Not in Saudi Arabia or the UAE or India or the Philippines
+- Most of the code for training/constructing/selecting TAI will be written in python 3
+	- A top-100 programming language
+	- Okay at least an *existentent* programming language
+- Built first by self-supervised training of an LLM on text (okay, maybe also some image (fine, maybe some audio (also video? (robotics? (proteomic data?? (stranger datasets???))))))
+- The floating point numbers will have some standard format like IEEE floats (or some quantized format like BF16)
+	- Not something strange like unums or posits or densely packed decimals or…
+- Okay but at least it will involve RL or something
+- Built on the transformer (or at least deep learning (or at least machine learning (or at least in some known paradigm of artificial intelligence research)))
+- In the next 20 years
+	- We know that TAI will be developed *in the future*, surely.
+- Using GPUs or TPUs
+	- Okay, using at least something with a von Neumann architecture
+	- Okay, using at least hardware based on silicon?
+	- Okay, but at least the hardware will not be biological? (unlike brain organoids)
+		- That is, no optical or analog or fluidic or peptide computing
+		- TAIs will not be based on cellular automata
+	- At least hardware using known physics???
+- Using efficient algorithms, surely
+	- Using *computable* algorithms I beg you
+- But at least the people developing it will have the goal of developing TAI, right?
+	- At least they will have a vague idea of the concept "AGI", please?
+
+Hypercapitalist Dharma
+-----------------------
+
+Hypercapitalist dharma will probably run into difficulties. The two
+issues I see are information asymmetry and hype:
+
+- Information asymmetry: People usually don't really know what they're buying when they're buying (awakening/enlightenment), and can't identify who can sell it to them.
+	- This is already a huge problem in non-capitalist dharma, and meditation teacher selection/ technique-selection is a major challenge for people on the contemplative path.
+	- Worsened by the fact that the teachers themselves are in a difficult epistemic position to know whether they themselves can teach something, and by the fact that diagnosing attainments is pretty difficult in itself, even for dis-interested teachers.
+- As bad is hype:
+	- Hype is basically sycophancy in markets, you don't sell Product, you sell people saying that they bought Product from you and that it was Good.
+	- In Meditation this is easy because the product is very subtle and difficult to see whether the person actually received it.
+	- So the two variables PersonAttained and PersonFalselyBelievesAttainment are weakly correlated.
+	- So, kids, do you remember your lesson about what happens if you apply optimization pressure to one variable that's only weakly correlated with another variable?
+		- That's right!, regressional (and probably also extremal) Goodhart.
+
+To solve these two, there would have to be a lot better ways of measuring
+whether someone has had an attainment, and then use them ruthlessly.
+
+- I think two comparable industries are the supplements industry, and the self-help industry.
+	- Both of them are impressively uninterested in measuring success, and are mostly selling hype, as far as I can tell.
+		- supplements companies don't run/publish lots of trials, instead they seem to assume linear relationships between substances (or even just additive ones).
+			- This would even be pretty easy to measure, so that's a bunch of evidence that consumers will not just demand information on the efficacy of products.
+			- Robin Hanson.png
+		- Self-help is probably about as hard as/easier than attainments to measure/track, yet they almost never do it.
+- Current Meditation startups seem uninterested in pursuing this.
+	- Some predictions on the Finder's course/Jhourney.
+	- I.e. no RCTs, no published information on student attainments measured via EEG.
+ This can all be solved by interventions that have huge effect sizes, similar to psychedelic drugs, which just very cleary do things™
+- That's why I'm much more bullish on tFUS and maybe rTMS for brain stimulation during meditation, I think otherwise we have a bunch of evidence that different teaching methods don't have effect sizes this large.
+	- RCTs with different meditation techniques would be awesome, of course.
 
 <!--Why Are There So Few Natural NP-Complete Problems with Superquadratic Verifiers?
 ---------------------------------------------------------------------------------
