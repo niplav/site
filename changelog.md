@@ -27,14 +27,27 @@ December 2025
 --------------
 
 * [Malleable Human Minds and AI](./malleable.html)
-* [Emergent Chemistry Risk](./notes.html#Emergent_Chemistry_Risk)
-* [New Minds](./microfiction.html#New_Minds)
+* [Notes](./notes.html):
+	* [Emergent Chemistry Risk](./notes.html#Emergent_Chemistry_Risk)
+	* [Neutral Monism And Mathematics](./notes.html#Neutral_Monism_And_Mathematics)
+	* [Common Assumptions on TAI](./notes.html#Common_Assumptions_on_TAI)
+	* [Hypercapitalist Dharma](./notes.html#Hypercapitalist_Dharma)
+* [Microfiction](./microfiction.html): [New Minds](./microfiction.html#New_Minds)
 
-More edits and images for [pergraphs](./pergraphs.html).
+More edits and images for [Pergraphs](./pergraphs.html) and edits on
+[Some Thoughts on the Stupid Successionism Debate](./successionism.html).
 
 Some changes to the website so that the table of contents is narrower
 and left-aligned, footnotes now have tooltips. Fixed a bug with the
 numbering of ToC entries.
+
+### Links
+
+* [Solving Math Problems by Relay (Ben Goldhaber/Owain Evans, 2020)](https://www.lesswrong.com/posts/DWgWbXRfXLGHPgZJM/solving-math-problems-by-relay): Anyone remember [factored cognition](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/DFkGStzvj3jgXibFG)? Niplav remebers.
+* [Did LessWrong call covid-19 early? No (Yarrow Bouchard, 2025)](https://forum.effectivealtruism.org/posts/rLD34N9BWiHWpGeqH/did-lesswrong-call-covid-19-early-no)
+* Assorted Wikipedia articles:
+	* [Ecophagy](https://en.wikipedia.org/wiki/Ecophagy), [Zyvex](https://en.wikipedia.org/wiki/Zyvex), [Zyvex Technologies](https://en.wikipedia.org/wiki/Zyvex_Technologies)
+	* [Heliospheric current sheet](https://en.wikipedia.org/wiki/Heliospheric_current_sheet), [Polar wind](https://en.wikipedia.org/wiki/Polar_wind), [Plasmoid](https://en.wikipedia.org/wiki/Plasmoid)
 
 November 2025
 --------------

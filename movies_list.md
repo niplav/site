@@ -11,6 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Cars](https://en.wikipedia.org/wiki/Cars_\(Movie\))
 * [Annie Hall](https://en.wikipedia.org/wiki/Annie_Hall)
 <!--TODO: The latest Glass Onion movie-->
 * [The Boondock Saints](https://en.wikipedia.org/wiki/The_Boondock_Saints)

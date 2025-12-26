@@ -225,6 +225,8 @@ is possible and when it isn't; we may be stuck.
 
 #### The Need for Speed
 
+<!--TODO: Instead switch to explaining the leverage penalty here-->
+
 One way of defeating Pascal's mugging is to switch to a different prior,
 specifically one in which the construction of the copy-beaver receives
 a very low prior probability—as low as the fake utility it "provides".
@@ -239,7 +241,7 @@ for `$C \in \mathbf{C}$` is proportional to `$2^{-l(C)} \cdot
 \frac{1}{s(C)}$` where `$s(C)$` is the number of steps `$C$` takes
 before halting[^priors].
 
-[^priors]: Indeed, since we normalize our prior so that it sums to `$1$`, theoretically we can take any function `$f : \mathbf{C} \rightarrow ℕ^+$` of our programs and create a new prior by normalizing `$2^{-(l(C)+f(C))}$` or `$2^{-l(C)} \cdot \frac{1}{f(C)}$`. `$f$` can be [sophistication](https://en.wikipedia.org/wiki/Sophistication_\(complexity_theory\)), [logical depth](https://en.wikipedia.org/wiki/Logical_depth), number of bitflips performed during program execution… any crazy thing you can come up with as long as `$f$` returns natural numbers.<!--TODO: is this really true? I haven't *proved* it, maybe there's strange measure theory things going on here-->
+[^priors]: Indeed, since we normalize our prior so that it sums to `$1$`, theoretically we can take any function `$f : \mathbf{C} \rightarrow ℕ^+$` of our programs and create a new prior by normalizing `$2^{-(l(C)+f(C))}$` or `$2^{-l(C)} \cdot \frac{1}{f(C)}$`. `$f$` can be [sophistication](https://en.wikipedia.org/wiki/Sophistication_\(complexity_theory\)), [logical depth](https://en.wikipedia.org/wiki/Logical_depth), number of bitflips performed during program execution… any crazy thing you can come up with as long as `$f$` returns positive natural numbers.<!--TODO: is this really true? I haven't *proved* it, maybe there's strange measure theory things going on here-->
 
 I think that the speed prior simply solves mugging in this formalization.
 
