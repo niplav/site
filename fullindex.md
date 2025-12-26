@@ -265,7 +265,8 @@ das dort hervorragte, und eine alte Stiefelsohle auf.
 ### AI Outputs
 
 My favourite LLM outputs. These have received varying degrees of editing,
-but usually not that much.
+but usually not that much, so I *do* consider them kinda sloppy. Peruse at
+your own risk.
 
 * Comparisons, Analogies, Equivalences
 	* [Cross-Domain System Analogies](./outputs/analogies.html)

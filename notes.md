@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-12-13, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2025-12-25, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -3064,16 +3064,16 @@ issues I see are information asymmetry and hype:
 - As bad is hype:
 	- Hype is basically sycophancy in markets, you don't sell Product, you sell people saying that they bought Product from you and that it was Good.
 	- In Meditation this is easy because the product is very subtle and difficult to see whether the person actually received it.
-	- So the two variables PersonAttained and PersonFalselyBelievesAttainment are weakly correlated.
+	- So the two variables PersonAttained and PersonBelievesAttainment are weakly correlated.
 	- So, kids, do you remember your lesson about what happens if you apply optimization pressure to one variable that's only weakly correlated with another variable?
 		- That's right!, regressional (and probably also extremal) Goodhart.
 
 To solve these two, there would have to be a lot better ways of measuring
 whether someone has had an attainment, and then use them ruthlessly.
 
-- I think two comparable industries are the supplements industry, and the self-help industry.
+- I think two comparable industries are the supplements industry and the self-help industry.
 	- Both of them are impressively uninterested in measuring success, and are mostly selling hype, as far as I can tell.
-		- supplements companies don't run/publish lots of trials, instead they seem to assume linear relationships between substances (or even just additive ones).
+		- Supplements companies don't run/publish lots of trials, instead they seem to assume linear relationships between substances (or even just additive ones).
 			- This would even be pretty easy to measure, so that's a bunch of evidence that consumers will not just demand information on the efficacy of products.
 			- Robin Hanson.png
 		- Self-help is probably about as hard as/easier than attainments to measure/track, yet they almost never do it.

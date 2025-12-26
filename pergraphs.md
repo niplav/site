@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-07-10, modified: 2025-12-24, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2025-07-10, modified: 2025-12-26, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __`$P→(V∪P)^2$`, the rest is commentary.__
 
@@ -174,6 +174,8 @@ vertex or contains a single vertex as a proper sub-pergraph.
 
 __Remark 4__: There are non-rhizomatic ratkings.
 
+![](./img/pergraphs/non_rhizome_ratking.png)
+
 <!--TODO: image of an example-->
 
 ### Decomposing
@@ -188,6 +190,8 @@ __Remark 6__: Pergraphs, ordered by whether are sub-pergraphs, form a
 lattice where the minimal elements are rhizomes and a single vertex.
 
 <!--TODO: turn from remarks into theorems? Prove then I guess-->
+
+<!--TODO: define perbasis!-->
 
 __Theorem 3__: Every pergraph has a unique perbasis.
 
@@ -229,6 +233,12 @@ __Definition 14__: An __`$n$`-`$m$`-dock__ is a dock with `$n$` incoming and `$m
 
 __Theorem 5__: Any pergraph can be decomposed into a set of vertices, a set of rhizomes, and a set of docks.
 
+![](./img/pergraphs/decomposition.png)
+
+---------------------------
+
+![](./img/pergraphs/decomposition_2.png)
+
 __Remark 8__: Unfortunately, two distinct pergraphs can be decomposed into
 the sate set of vertices, rhizomes, and docks. One needs information on
 which edges from a dock connect to which eges of a rhizomes to achieve
@@ -249,9 +259,8 @@ a simpler set with simpler rules?
 Bijection/injection with the directed graphs? Needs to blow up the
 directed graphs.
 
-Every pergraph can be built out of rhizomes, ports and
-vertices. If you cut all outgoing/incoming "open" edges from a
-port, call that "to machete" a port. The port falls apart into a
+If you cut all outgoing/incoming "open" edges from a dock,
+call that "to machete" a port. The port falls apart into a
 [bag](https://en.wikipedia.org/wiki/Bag_\(mathematics\)) of more ports.
 
 Building a large subset of pergraphs by taking what was previously built,
