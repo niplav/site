@@ -3112,10 +3112,17 @@ but disks may not intersect.
 
 The problem is trivial for zero to three disks:
 
-1. Zero disks: Don't do anything. You win.
-2. One disk: Also don't do anything. You win.
-3. Two disks: The disks move in a straight line to meet, then move back.
-4. Three disks: All three disks move to the center of the [equilateral triangle](https://en.wikipedia.org/wiki/Equilateral_triangle) their initial positions formed, form a triplet, and then return to their original position.
+Zero disks: Don't do anything. You win.  
+One disk: Also don't do anything. You win.  
+Two disks: The disks move in a straight line to meet, then move back.
+
+<video src="./vid/champagne/2.webm" type='video/webm' controls>
+</video>
+
+Three disks: All three disks move to the center of the [equilateral triangle](https://en.wikipedia.org/wiki/Equilateral_triangle) their initial positions formed, form a triplet, and then return to their original position.
+
+<video src="./vid/champagne/3.webm" type='video/webm' controls>
+</video>
 
 I have an idea for four disks that I suspect is probably correct (for
 disks A, B, C, D, we move A & B & C into the middle so they form a
@@ -3123,8 +3130,18 @@ triplet, then move in D so that D first touches B & C, then D "pushes"
 B & C away to briefly touch A and then all return to their corners)
 but I'm not certain this is the optimal solution.
 
-I have some intuitions around how to approach `$n=5$` but nothing really
-reliable.
+<video src="./vid/champagne/4.webm" type='video/webm' controls>
+</video>
+
+I have some intuitions around how to approach `$n=5$` but nothing
+really reliable, I got Claude 4.5 Sonnet to implement a search for a
+best solution for `$n=5$`, here's the resulting solution:
+
+<video src="./vid/champagne/5_ea.webm" type='video/webm' controls>
+</video>
+
+(Claude 4.5 Sonnet also wrote the [manim](https://www.manim.community/)
+code for the animations, thanks Claude :-)
 
 ### Is This Problem Known?
 
