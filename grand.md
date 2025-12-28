@@ -712,6 +712,14 @@ to specific receptors?].
 
 Footnote 74: "with adaptivethat achieved a", typo.
 
+#### 16.7.3
+
+##### Pendry limit
+
+> of 10¹2 W.
+
+Typo, 2 should be a superscript.
+
 Citations
 ----------
 
