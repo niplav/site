@@ -14,6 +14,7 @@ from choreography import Choreography
 from vectorized_fitness import evaluate_fitness_vectorized
 from common import load_and_expand_best_solution, save_solution, load_best_known_fitness
 from init import simulate_choreography, find_triplet_cover
+from repair_operator import gentle_repair_population, compute_touching_positions
 
 # =============================================================================
 # CONFIGURATION
@@ -21,7 +22,7 @@ from init import simulate_choreography, find_triplet_cover
 
 # Problem parameters
 N_DISKS = 8             # Number of champagne glasses
-N_WAYPOINTS = None # Number of intermediate waypoints
+N_WAYPOINTS = 22        # Number of intermediate waypoints
 DISK_RADIUS = 0.3       # Radius of each disk
 INITIAL_DISTANCE = 3.0  # Distance from origin to each disk's starting position
 
@@ -30,7 +31,7 @@ PENALTY_ALPHA = 1.0
 
 # CMA-ES parameters
 SIGMA0 = 0.01  # Initial step size (small for local refinement from good starting point)
-POPSIZE = 200  # Population size (CMA-ES typically uses smaller populations)
+POPSIZE = 100  # Population size (CMA-ES typically uses smaller populations)
 MAX_ITER = 10000  # Maximum iterations
 
 # Termination tolerances (set very small to disable early stopping)
@@ -38,10 +39,16 @@ TOLFUN = 1e-11  # Tolerance on function value changes (smaller = run longer)
 TOLX = 1e-11    # Tolerance on parameter changes (smaller = run longer)
 
 # Smart mutations (domain-specific)
-SMART_MUTATION_RATE = 0  # Fraction of population to apply smart mutations (0.0 = disabled, 0.2 = 20%)
+SMART_MUTATION_RATE = 0.05  # Fraction of population to apply smart mutations (0.0 = disabled, 0.2 = 20%)
+
+# Sparse mutations (preserve coordinates to maintain structure)
+SPARSE_MUTATION_RATE = 0.8  # Fraction of coordinates to preserve unchanged (0.0 = dense/disabled, 0.8 = very sparse)
+
+# Repair operator (gentle waypoint modification)
+REPAIR_RATE = 0.8  # Fraction of population to attempt repair (0.0 = disabled, 0.5 = 50%)
 
 # Starting point options
-WARM_START_MODE = 'greedy'  # 'greedy' (collision-free), 'best', or 'random'
+WARM_START_MODE = 'best'  # 'greedy' (collision-free), 'best', or 'random'
 
 # Output filename (auto-generated from parameters)
 OUTPUT_PATH = f'/home/niplav/proj/site/code/champagne/best_n{N_DISKS}_w{N_WAYPOINTS}.json'
@@ -81,20 +88,11 @@ def apply_smart_mutations(solutions, n_waypoints, n_disks, radius, mutation_rate
         pos_a = waypoints[wp, disk_a].copy()
         pos_b = waypoints[wp, disk_b].copy()
 
-        direction = pos_b - pos_a
-        current_dist = np.linalg.norm(direction)
+        # Use shared geometry function
+        new_pos_a, new_pos_b = compute_touching_positions(pos_a, pos_b, touch_distance)
 
-        if current_dist > 1e-6:  # Avoid division by zero
-            # Both disks move toward their midpoint, ending up touch_distance apart
-            direction_normalized = direction / current_dist
-            midpoint = (pos_a + pos_b) / 2
-            half_touch = touch_distance / 2
-
-            new_pos_a = midpoint - half_touch * direction_normalized
-            new_pos_b = midpoint + half_touch * direction_normalized
-
-            waypoints[wp, disk_a] = new_pos_a
-            waypoints[wp, disk_b] = new_pos_b
+        waypoints[wp, disk_a] = new_pos_a
+        waypoints[wp, disk_b] = new_pos_b
 
         solutions[idx] = waypoints.flatten()
 
@@ -202,18 +200,38 @@ def optimize_cma():
     while not es.stop():
         solutions = es.ask()
 
+        # Apply sparse mutations: randomly preserve some coordinates unchanged
+        # This helps maintain touching pairs and good structure from previous generations
+        if SPARSE_MUTATION_RATE > 0:
+            for i in range(1, len(solutions)):  # Skip first (will be overwritten anyway)
+                mask = np.random.random(len(solutions[i])) < SPARSE_MUTATION_RATE
+                solutions[i][mask] = x0[mask]  # Reset to reference value (zero perturbation)
+
         # Inject exact collision-free solution as first individual in first iteration
         if iteration == 0:
             solutions[0] = x0.copy()
             print(f"  → Injected exact solution as solutions[0]")
+            if SPARSE_MUTATION_RATE > 0:
+                print(f"  → Using sparse mutations ({SPARSE_MUTATION_RATE*100:.0f}% coords preserved)")
+            else:
+                print(f"  → Sparse mutations disabled")
             if SMART_MUTATION_RATE > 0:
                 print(f"  → Using smart mutations ({SMART_MUTATION_RATE*100:.0f}% of population)")
             else:
                 print(f"  → Smart mutations disabled")
+            if REPAIR_RATE > 0:
+                print(f"  → Using repair operator ({REPAIR_RATE*100:.0f}% of population)")
+            else:
+                print(f"  → Repair operator disabled")
 
         # Apply smart domain-specific mutations to subset of population
         if SMART_MUTATION_RATE > 0:
             solutions = apply_smart_mutations(solutions, n_waypoints, N_DISKS, DISK_RADIUS, mutation_rate=SMART_MUTATION_RATE)
+
+        # Apply repair operator to subset of population
+        if REPAIR_RATE > 0:
+            verbose = (iteration % 100 == 0)  # Show diagnostics every 100 iterations
+            solutions = gentle_repair_population(solutions, n_waypoints, N_DISKS, ch, repair_rate=REPAIR_RATE, verbose=verbose)
 
         fitnesses = [objective(s) for s in solutions]
         es.tell(solutions, fitnesses)
