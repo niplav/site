@@ -8,7 +8,7 @@ import numpy as np
 from itertools import permutations
 import sys
 sys.path.insert(0, '/home/niplav/proj/site/code/champagne')
-from explore_n5 import Choreography
+from choreography import Choreography
 
 
 def simulate_choreography_with_memory(triplet_sequence, verbose=False):
