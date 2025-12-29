@@ -20,8 +20,8 @@ from init import simulate_choreography, find_triplet_cover
 # =============================================================================
 
 # Problem parameters
-N_DISKS = 6             # Number of champagne glasses
-N_WAYPOINTS = 6         # Number of intermediate waypoints
+N_DISKS = 7             # Number of champagne glasses
+N_WAYPOINTS = None         # Number of intermediate waypoints
 DISK_RADIUS = 0.3       # Radius of each disk
 INITIAL_DISTANCE = 3.0  # Distance from origin to each disk's starting position
 
@@ -30,7 +30,7 @@ PENALTY_ALPHA = 1.0
 
 # CMA-ES parameters
 SIGMA0 = 0.01  # Initial step size (small for local refinement from good starting point)
-POPSIZE = 1000  # Population size (CMA-ES typically uses smaller populations)
+POPSIZE = 500  # Population size (CMA-ES typically uses smaller populations)
 MAX_ITER = 10000  # Maximum iterations
 
 # Termination tolerances (set very small to disable early stopping)
@@ -147,6 +147,12 @@ def optimize_cma():
     iteration = 0
     while not es.stop():
         solutions = es.ask()
+
+        # Inject exact collision-free solution as first individual in first iteration
+        if iteration == 0:
+            solutions[0] = x0.copy()
+            print(f"  → Injected exact solution as solutions[0]")
+
         fitnesses = [objective(s) for s in solutions]
         es.tell(solutions, fitnesses)
 

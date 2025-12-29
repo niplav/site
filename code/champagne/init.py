@@ -124,27 +124,20 @@ def simulate_choreography(n_disks, radius=0.3, initial_distance=3.0, triplet_seq
         else:
             pos0, pos1 = right_position, left_position
 
-        # Step 1: Outer pair moves to meet on middle disk's radial line (no crossing!)
-        config = current_state.copy()
-        config[outer_pair[0]] = pos0
-        config[outer_pair[1]] = pos1
-        configs.append(config.copy())
-
-        # Step 2: Middle disk moves inward along radial line to complete triplet
-        # Position to form equilateral triangle
+        # Compute middle disk's final position to complete triplet
         middle_pos = pair_center + (pair_separation * np.sqrt(3) / 2) * np.array([
             np.cos(meeting_angle), np.sin(meeting_angle)
         ])
+
+        # Step 1: ALL THREE disks move to meet simultaneously (no crossing!)
+        config = current_state.copy()
+        config[outer_pair[0]] = pos0
+        config[outer_pair[1]] = pos1
         config[middle_disk] = middle_pos
         configs.append(config.copy())
 
-        # Step 3: Middle disk moves back out to home
-        config[middle_disk] = middle_home
-        configs.append(config.copy())
-
-        # Step 4: Outer pair moves back home
-        config[outer_pair[0]] = ch.initial_positions[outer_pair[0]]
-        config[outer_pair[1]] = ch.initial_positions[outer_pair[1]]
+        # Step 2: ALL THREE disks move back home simultaneously
+        config = ch.initial_positions.copy()
         configs.append(config.copy())
 
         current_state = ch.initial_positions.copy()
