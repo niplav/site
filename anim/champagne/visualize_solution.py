@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """
 Manim animation to visualize champagne toasting solutions from JSON.
+
+Usage:
+  manim -pql visualize_solution.py ChampagneSolutionVisualization
+
+To visualize a specific solution file, modify JSON_PATH below.
 """
 
 from manim import *
@@ -8,15 +13,21 @@ import json
 import numpy as np
 
 
+# Configuration: path to solution JSON file
+JSON_PATH = '/home/niplav/proj/site/code/champagne/test.json'
+
 class ChampagneSolutionVisualization(Scene):
     def construct(self):
         # Load solution data
-        with open('/home/niplav/proj/site/code/champagne/best_1.json', 'r') as f:
+        with open(JSON_PATH, 'r') as f:
             data = json.load(f)
 
         metadata = data['metadata']
         initial_positions = np.array(data['initial_positions'])
         trajectories = data['disk_trajectories']
+
+        # Get number of disks from data
+        n_disks = metadata['n_disks']
 
         # Scale factor for visualization (reduced to fit in frame)
         scale = 1.0
@@ -25,16 +36,10 @@ class ChampagneSolutionVisualization(Scene):
         # Disk properties (actual problem radius is 0.3, scaled)
         actual_radius = 0.3
         radius = actual_radius * scale
-        colors = [BLUE, RED, GREEN, YELLOW, PURPLE]
 
-        # Create title (smaller and positioned higher)
-        title = Text(f"Champagne Toasting: n=5", font_size=28)
-        subtitle = Text(f"Path Length: {metadata['path_length']:.2f}", font_size=20)
-        title.to_edge(UP, buff=0.2)
-        subtitle.next_to(title, DOWN, buff=0.1)
-
-        self.play(Write(title), Write(subtitle))
-        self.wait(0.5)
+        # Generate colors for any number of disks
+        base_colors = [BLUE, RED, GREEN, YELLOW, PURPLE, ORANGE, PINK, TEAL, GOLD, MAROON]
+        colors = (base_colors * ((n_disks // len(base_colors)) + 1))[:n_disks]
 
         # Create corner position markers (semi-transparent)
         corner_markers = VGroup()
@@ -68,7 +73,7 @@ class ChampagneSolutionVisualization(Scene):
 
         # Create path tracers (will show where disks have been)
         tracers = VGroup()
-        for i in range(5):
+        for i in range(n_disks):
             path = trajectories[str(i)]['path']
             start_point = [path[0][0] * scale, path[0][1] * scale, 0]
             tracer = TracedPath(glasses[i].get_center, stroke_color=colors[i],
@@ -82,13 +87,13 @@ class ChampagneSolutionVisualization(Scene):
         for wp_idx in range(1, n_waypoints + 1):
             # Get target positions for this waypoint
             targets = []
-            for disk_id in range(5):
+            for disk_id in range(n_disks):
                 pos = trajectories[str(disk_id)]['path'][wp_idx]
                 targets.append([pos[0] * scale, pos[1] * scale + vertical_offset, 0])
 
             # Animate movement to waypoint
             animations = []
-            for i in range(5):
+            for i in range(n_disks):
                 animations.append(glasses[i].animate.move_to(targets[i]))
                 animations.append(labels[i].animate.move_to(targets[i]))
 
@@ -97,7 +102,7 @@ class ChampagneSolutionVisualization(Scene):
 
         # Return home
         animations = []
-        for i in range(5):
+        for i in range(n_disks):
             home_pos = [initial_positions[i][0] * scale, initial_positions[i][1] * scale + vertical_offset, 0]
             animations.append(glasses[i].animate.move_to(home_pos))
             animations.append(labels[i].animate.move_to(home_pos))

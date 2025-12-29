@@ -66,6 +66,7 @@ def save_solution(waypoints, ch, n_waypoints, penalty_alpha, filename):
         evaluate_fitness_vectorized
     )
 
+    n_disks = ch.n
     configs = [waypoints[i] for i in range(n_waypoints)]
     all_touching = ch.get_all_touching_pairs(configs)
     path_length = ch.total_path_length(waypoints)
@@ -78,13 +79,15 @@ def save_solution(waypoints, ch, n_waypoints, penalty_alpha, filename):
         penalty_alpha=penalty_alpha
     )
 
+    n_pairs = n_disks * (n_disks - 1) // 2
+
     trajectories = {
         'metadata': {
-            'n_disks': 5,
+            'n_disks': n_disks,
             'n_waypoints': n_waypoints,
             'path_length': float(path_length),
             'fitness': float(fitness),
-            'all_pairs_touch': len(all_touching) == 10,
+            'all_pairs_touch': len(all_touching) == n_pairs,
             'has_path_collisions': path_penalty > 0.01,
             'path_collision_penalty': float(path_penalty),
         },
@@ -93,7 +96,7 @@ def save_solution(waypoints, ch, n_waypoints, penalty_alpha, filename):
         'disk_trajectories': {}
     }
 
-    for disk_id in range(5):
+    for disk_id in range(n_disks):
         trajectory = [ch.initial_positions[disk_id].tolist()]
         for w in range(n_waypoints):
             trajectory.append(waypoints[w, disk_id].tolist())
