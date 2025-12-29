@@ -14,7 +14,7 @@ import numpy as np
 
 
 # Configuration: path to solution JSON file
-JSON_PATH = '/home/niplav/proj/site/code/champagne/best_n6_w14_p100.json'
+JSON_PATH = '/home/niplav/proj/site/code/champagne/best_n7_w14.json'
 
 class ChampagneSolutionVisualization(Scene):
     def construct(self):

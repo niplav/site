@@ -20,8 +20,8 @@ from init import simulate_choreography, find_triplet_cover
 # =============================================================================
 
 # Problem parameters
-N_DISKS = 6             # Number of champagne glasses
-N_WAYPOINTS = 14 # Number of intermediate waypoints
+N_DISKS = 8             # Number of champagne glasses
+N_WAYPOINTS = None # Number of intermediate waypoints
 DISK_RADIUS = 0.3       # Radius of each disk
 INITIAL_DISTANCE = 3.0  # Distance from origin to each disk's starting position
 
@@ -30,7 +30,7 @@ PENALTY_ALPHA = 1.0
 
 # CMA-ES parameters
 SIGMA0 = 0.01  # Initial step size (small for local refinement from good starting point)
-POPSIZE = 100  # Population size (CMA-ES typically uses smaller populations)
+POPSIZE = 200  # Population size (CMA-ES typically uses smaller populations)
 MAX_ITER = 10000  # Maximum iterations
 
 # Termination tolerances (set very small to disable early stopping)
@@ -38,10 +38,10 @@ TOLFUN = 1e-11  # Tolerance on function value changes (smaller = run longer)
 TOLX = 1e-11    # Tolerance on parameter changes (smaller = run longer)
 
 # Smart mutations (domain-specific)
-SMART_MUTATION_RATE = 00  # Fraction of population to apply smart mutations (0.0 = disabled, 0.2 = 20%)
+SMART_MUTATION_RATE = 0  # Fraction of population to apply smart mutations (0.0 = disabled, 0.2 = 20%)
 
 # Starting point options
-WARM_START_MODE = 'best'  # 'greedy' (collision-free), 'best', or 'random'
+WARM_START_MODE = 'greedy'  # 'greedy' (collision-free), 'best', or 'random'
 
 # Output filename (auto-generated from parameters)
 OUTPUT_PATH = f'/home/niplav/proj/site/code/champagne/best_n{N_DISKS}_w{N_WAYPOINTS}.json'

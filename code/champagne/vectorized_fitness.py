@@ -59,10 +59,11 @@ def check_touching_at_waypoints_vectorized(waypoints, touch_dist_sq, tol):
     """
     Check which pairs touch at waypoints using squared distances.
     Returns bitmask of touching pairs.
+
+    Optimized: computes all distances, then checks touching condition.
     """
     touching_mask = 0
     tol_sq = tol * tol
-
     n_waypoints = waypoints.shape[0]
     n_disks = waypoints.shape[1]
 
@@ -74,7 +75,6 @@ def check_touching_at_waypoints_vectorized(waypoints, touch_dist_sq, tol):
                 dy = waypoints[w, i, 1] - waypoints[w, j, 1]
                 dist_sq = dx*dx + dy*dy
 
-                # Check if touching (using squared distances)
                 if abs(dist_sq - touch_dist_sq) < tol_sq:
                     touching_mask |= (1 << pair_idx)
 
