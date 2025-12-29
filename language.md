@@ -581,6 +581,7 @@ Missing Emoji
 	* Sad smile
 	* Suspicious squint
 	* Wiping sweat off brow
+	* Bangs fist on table
 * Erlenmeyer flask
 * Red star
 * Grass
