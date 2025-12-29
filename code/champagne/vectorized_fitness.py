@@ -24,9 +24,10 @@ def build_full_trajectory(waypoints, initial_positions):
     Shape: (n_segments+1, n_disks, 2)
     """
     n_waypoints = waypoints.shape[0]
+    n_disks = initial_positions.shape[0]
     n_segments = n_waypoints + 1
 
-    full_traj = np.zeros((n_segments + 1, 5, 2))
+    full_traj = np.zeros((n_segments + 1, n_disks, 2))
     full_traj[0] = initial_positions
     full_traj[1:n_waypoints+1] = waypoints
     full_traj[n_waypoints+1] = initial_positions
@@ -42,9 +43,10 @@ def compute_all_path_lengths_vectorized(full_trajectory):
     """
     total = 0.0
     n_segments = len(full_trajectory) - 1
+    n_disks = full_trajectory.shape[1]
 
     for seg in range(n_segments):
-        for disk in range(5):
+        for disk in range(n_disks):
             dx = full_trajectory[seg+1, disk, 0] - full_trajectory[seg, disk, 0]
             dy = full_trajectory[seg+1, disk, 1] - full_trajectory[seg, disk, 1]
             total += np.sqrt(dx*dx + dy*dy)
@@ -56,17 +58,18 @@ def compute_all_path_lengths_vectorized(full_trajectory):
 def check_touching_at_waypoints_vectorized(waypoints, touch_dist_sq, tol):
     """
     Check which pairs touch at waypoints using squared distances.
-    Returns bitmask of touching pairs (10 bits, one per pair).
+    Returns bitmask of touching pairs.
     """
     touching_mask = 0
     tol_sq = tol * tol
 
     n_waypoints = waypoints.shape[0]
+    n_disks = waypoints.shape[1]
 
     for w in range(n_waypoints):
         pair_idx = 0
-        for i in range(5):
-            for j in range(i+1, 5):
+        for i in range(n_disks):
+            for j in range(i+1, n_disks):
                 dx = waypoints[w, i, 0] - waypoints[w, j, 0]
                 dy = waypoints[w, i, 1] - waypoints[w, j, 1]
                 dist_sq = dx*dx + dy*dy
@@ -87,11 +90,12 @@ def check_waypoint_overlaps_vectorized(waypoints, touch_dist):
     """
     penalty = 0.0
     n_waypoints = waypoints.shape[0]
+    n_disks = waypoints.shape[1]
     min_allowed = touch_dist - 0.01
 
     for w in range(n_waypoints):
-        for i in range(5):
-            for j in range(i+1, 5):
+        for i in range(n_disks):
+            for j in range(i+1, n_disks):
                 dx = waypoints[w, i, 0] - waypoints[w, j, 0]
                 dy = waypoints[w, i, 1] - waypoints[w, j, 1]
                 dist = np.sqrt(dx*dx + dy*dy)
@@ -110,11 +114,12 @@ def check_path_collisions_vectorized(full_trajectory, touch_dist):
     """
     penalty = 0.0
     n_segments = len(full_trajectory) - 1
+    n_disks = full_trajectory.shape[1]
     min_allowed = touch_dist - 1e-6
 
     for seg in range(n_segments):
-        for i in range(5):
-            for j in range(i+1, 5):
+        for i in range(n_disks):
+            for j in range(i+1, n_disks):
                 # Get positions
                 p1_x, p1_y = full_trajectory[seg, i]
                 p2_x, p2_y = full_trajectory[seg, j]
@@ -182,9 +187,11 @@ def evaluate_fitness_vectorized(waypoints, initial_positions, radius,
     # 2. Check touching pairs (12.2% of time)
     touching_mask = check_touching_at_waypoints_vectorized(waypoints, touch_dist_sq, 0.05)
 
-    # Count missing pairs (10 total pairs, mask has 10 bits)
+    # Count missing pairs
+    n_disks = waypoints.shape[1]
+    n_pairs = n_disks * (n_disks - 1) // 2
     n_touching = bin(touching_mask).count('1')
-    n_missing = 10 - n_touching
+    n_missing = n_pairs - n_touching
     penalty = n_missing * 100
 
     # Early termination: if too many pairs missing, give up

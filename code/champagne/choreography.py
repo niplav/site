@@ -12,16 +12,17 @@ from typing import List, Tuple
 class Choreography:
     """Represents a sequence of configurations for the champagne toasting problem."""
 
-    def __init__(self, n: int = 5, radius: float = 0.3):
+    def __init__(self, n: int = 5, radius: float = 0.3, initial_distance: float = 3.0):
         self.n = n
         self.radius = radius
+        self.initial_distance = initial_distance
 
-        # Initial positions: regular n-gon
+        # Initial positions: regular n-gon at specified distance from origin
         angles = np.linspace(0, 2*np.pi, n, endpoint=False) + np.pi/2
         self.initial_positions = np.column_stack([
             np.cos(angles),
             np.sin(angles)
-        ]) * 3.0
+        ]) * initial_distance
 
     def distance(self, pos1, pos2):
         return np.linalg.norm(pos1 - pos2)
