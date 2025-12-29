@@ -22,16 +22,18 @@ from repair_operator import gentle_repair_population, compute_touching_positions
 
 # Problem parameters
 N_DISKS = 8             # Number of champagne glasses
-N_WAYPOINTS = 22        # Number of intermediate waypoints
+N_WAYPOINTS = 10        # Number of intermediate waypoints
 DISK_RADIUS = 0.3       # Radius of each disk
 INITIAL_DISTANCE = 3.0  # Distance from origin to each disk's starting position
 
 # Fitness parameters
 PENALTY_ALPHA = 1.0
+OVERLAP_PENALTY_WEIGHT = 50    # Penalty multiplier for waypoint overlaps (default: 50)
+COLLISION_PENALTY_WEIGHT = 1000  # Penalty multiplier for path collisions (default: 100)
 
 # CMA-ES parameters
-SIGMA0 = 0.01  # Initial step size (small for local refinement from good starting point)
-POPSIZE = 100  # Population size (CMA-ES typically uses smaller populations)
+SIGMA0 = 1.0  # Initial step size (small for local refinement from good starting point)
+POPSIZE = 50  # Population size (CMA-ES typically uses smaller populations)
 MAX_ITER = 10000  # Maximum iterations
 
 # Termination tolerances (set very small to disable early stopping)
@@ -39,16 +41,16 @@ TOLFUN = 1e-11  # Tolerance on function value changes (smaller = run longer)
 TOLX = 1e-11    # Tolerance on parameter changes (smaller = run longer)
 
 # Smart mutations (domain-specific)
-SMART_MUTATION_RATE = 0.05  # Fraction of population to apply smart mutations (0.0 = disabled, 0.2 = 20%)
+SMART_MUTATION_RATE = 0.0  # Fraction of population to apply smart mutations (0.0 = disabled, 0.2 = 20%)
 
 # Sparse mutations (preserve coordinates to maintain structure)
-SPARSE_MUTATION_RATE = 0.8  # Fraction of coordinates to preserve unchanged (0.0 = dense/disabled, 0.8 = very sparse)
+SPARSE_MUTATION_RATE = 0.9  # Fraction of coordinates to preserve unchanged (0.0 = dense/disabled, 0.8 = very sparse)
 
 # Repair operator (gentle waypoint modification)
-REPAIR_RATE = 0.8  # Fraction of population to attempt repair (0.0 = disabled, 0.5 = 50%)
+REPAIR_RATE = 0.95  # Fraction of population to attempt repair (0.0 = disabled, 0.5 = 50%)
 
 # Starting point options
-WARM_START_MODE = 'best'  # 'greedy' (collision-free), 'best', or 'random'
+WARM_START_MODE = 'best'  # 'greedy' (collision-free), 'best', 'nop' (stationary), or 'random'
 
 # Output filename (auto-generated from parameters)
 OUTPUT_PATH = f'/home/niplav/proj/site/code/champagne/best_n{N_DISKS}_w{N_WAYPOINTS}.json'
@@ -97,6 +99,55 @@ def apply_smart_mutations(solutions, n_waypoints, n_disks, radius, mutation_rate
         solutions[idx] = waypoints.flatten()
 
     return solutions
+
+
+def should_save_solution(new_fitness, new_is_valid, original_file_fitness, current_best_fitness=None):
+    """
+    Determine if a solution should be saved and generate appropriate message.
+
+    Args:
+        new_fitness: Fitness of new solution
+        new_is_valid: Whether new solution is valid (no collisions/overlaps)
+        original_file_fitness: Fitness from the loaded file
+        current_best_fitness: Re-evaluated fitness (optional, for info messages)
+
+    Returns:
+        (should_save: bool, message: str or None)
+    """
+    if new_fitness < original_file_fitness and new_is_valid:
+        return True, None  # Will print save success message elsewhere
+    elif new_fitness < original_file_fitness and not new_is_valid:
+        return False, f"✗ Skipping save: fitness {new_fitness:.4f} is better but has collisions/overlaps"
+    elif current_best_fitness and new_fitness < current_best_fitness:
+        return False, f"ℹ Found fitness {new_fitness:.4f}, but not better than original file fitness {original_file_fitness:.4f}"
+    else:
+        return False, None
+
+
+def save_if_better(waypoints, ch, n_waypoints, penalty_alpha, output_path,
+                   new_fitness, new_is_valid, original_file_fitness,
+                   current_best_fitness=None, verbose=True, context=""):
+    """
+    Save solution only if it's valid and better than original file.
+
+    Returns:
+        (saved: bool, new_original_fitness: float) - updated threshold for future saves
+    """
+    should_save, msg = should_save_solution(new_fitness, new_is_valid,
+                                           original_file_fitness, current_best_fitness)
+
+    if msg and verbose:
+        prefix = "  " if context == "iteration" else ""
+        print(f"{prefix}{msg}")
+
+    if should_save:
+        save_solution(waypoints, ch, n_waypoints, penalty_alpha, output_path)
+        if verbose:
+            prefix = "  → " if context == "iteration" else "✓ "
+            print(f"{prefix}New best (valid)! Saved to {output_path} (fitness: {new_fitness:.4f})")
+        return True, new_fitness  # Update threshold
+
+    return False, original_file_fitness  # Keep original threshold
 
 
 def optimize_cma():
@@ -151,6 +202,15 @@ def optimize_cma():
             x0 = x0.flatten()
             print(f"Warm-starting from {BEST_PATH} with {n_waypoints} waypoints")
 
+    elif WARM_START_MODE == 'nop':
+        # Stationary: all disks stay at initial positions (zero movement, guaranteed collision-free)
+        if n_waypoints is None:
+            print("Error: N_WAYPOINTS must be specified for 'nop' mode")
+            return None
+        init_waypoints = np.tile(ch.initial_positions, (n_waypoints, 1, 1))
+        x0 = init_waypoints.flatten()
+        print(f"Starting from stationary initialization with {n_waypoints} waypoints (all disks at initial positions)")
+
     else:  # random
         if n_waypoints is None:
             print("Error: N_WAYPOINTS must be specified for 'random' mode")
@@ -167,19 +227,24 @@ def optimize_cma():
         fitness = evaluate_fitness_vectorized(
             waypoints, ch.initial_positions, ch.radius,
             penalty_alpha=PENALTY_ALPHA,
-            early_terminate_threshold=float('inf')
+            early_terminate_threshold=float('inf'),
+            overlap_penalty_weight=OVERLAP_PENALTY_WEIGHT,
+            collision_penalty_weight=COLLISION_PENALTY_WEIGHT
         )
         return fitness
 
     # Update output path with actual waypoint count
     output_path = f'/home/niplav/proj/site/code/champagne/best_n{N_DISKS}_w{n_waypoints}.json'
     best_known_fitness = load_best_known_fitness(output_path)
+    original_file_fitness = best_known_fitness  # Keep original for comparison
     if best_known_fitness < float('inf'):
         print(f"Found existing solution: {output_path}, fitness {best_known_fitness:.4f}")
 
     # Evaluate initial fitness
     initial_fitness = objective(x0)
     print(f"Initial fitness: {initial_fitness:.4f}")
+    if abs(initial_fitness - best_known_fitness) > 0.01 and best_known_fitness < float('inf'):
+        print(f"  ⚠ Warning: Re-evaluated fitness ({initial_fitness:.4f}) differs from saved ({best_known_fitness:.4f})")
 
     # CMA-ES options
     opts = {
@@ -195,6 +260,10 @@ def optimize_cma():
 
     # Run CMA-ES
     es = cma.CMAEvolutionStrategy(x0, SIGMA0, opts)
+
+    # Track best valid solution from repaired population
+    best_valid_solution = None
+    best_valid_fitness = float('inf')
 
     iteration = 0
     while not es.stop():
@@ -231,7 +300,7 @@ def optimize_cma():
         # Apply repair operator to subset of population
         if REPAIR_RATE > 0:
             verbose = (iteration % 100 == 0)  # Show diagnostics every 100 iterations
-            solutions = gentle_repair_population(solutions, n_waypoints, N_DISKS, ch, repair_rate=REPAIR_RATE, verbose=verbose)
+            solutions = gentle_repair_population(solutions, n_waypoints, N_DISKS, ch, repair_rate=REPAIR_RATE, verbose=verbose, fitness_fn=None)
 
         fitnesses = [objective(s) for s in solutions]
         es.tell(solutions, fitnesses)
@@ -252,33 +321,20 @@ def optimize_cma():
             new_has_collisions = check_path_collisions_vectorized(full_traj, 2 * ch.radius) > 0.01
             new_is_valid = not (new_has_overlaps or new_has_collisions)
 
-            # Load current best to check if it has collisions
-            current_best_is_valid = True
-            if best_known_fitness < float('inf'):
-                try:
-                    import json
-                    with open(output_path, 'r') as f:
-                        data = json.load(f)
-                    current_best_is_valid = not (data['metadata'].get('has_waypoint_overlaps', False) or
-                                                 data['metadata'].get('has_path_collisions', False))
-                except:
-                    pass
-
-            # Save if better AND valid, OR if current best is also invalid
-            should_save = False
-            if best_fitness < best_known_fitness:
-                if new_is_valid:
-                    should_save = True  # Always save valid improvements
-                elif not current_best_is_valid:
-                    should_save = True  # Save if both are invalid (allow improving invalid solutions)
-                else:
-                    print(f"  ✗ Skipping save: new solution has collisions/overlaps but current best is valid")
-
-            if should_save:
-                save_solution(best_waypoints, ch, n_waypoints, PENALTY_ALPHA, output_path)
-                validity_msg = "valid" if new_is_valid else "invalid (has collisions/overlaps)"
-                print(f"  → New best ({validity_msg})! Saved to {output_path}")
+            # Save if better and valid (using consolidated function)
+            saved, original_file_fitness = save_if_better(
+                best_waypoints, ch, n_waypoints, PENALTY_ALPHA, output_path,
+                best_fitness, new_is_valid, original_file_fitness,
+                current_best_fitness=best_known_fitness,
+                verbose=True, context="iteration"
+            )
+            if saved:
                 best_known_fitness = best_fitness
+
+            # Track best valid solution from this generation
+            if new_is_valid and best_fitness < best_valid_fitness:
+                best_valid_solution = best_waypoints.copy()
+                best_valid_fitness = best_fitness
 
         iteration += 1
 
@@ -287,9 +343,16 @@ def optimize_cma():
     print("OPTIMIZATION COMPLETE")
     print("=" * 60)
 
-    best_solution = es.result.xbest
-    best_fitness = es.result.fbest
-    best_waypoints = best_solution.reshape((n_waypoints, N_DISKS, 2))
+    # Use tracked best valid solution instead of es.result.xbest
+    if best_valid_solution is not None:
+        print(f"Using tracked best valid solution (fitness={best_valid_fitness:.4f})")
+        best_waypoints = best_valid_solution
+        best_fitness = best_valid_fitness
+    else:
+        print(f"No valid solution found, using CMA-ES xbest")
+        best_solution = es.result.xbest
+        best_fitness = es.result.fbest
+        best_waypoints = best_solution.reshape((n_waypoints, N_DISKS, 2))
 
     print(f"Best fitness: {best_fitness:.4f}")
     print(f"Iterations: {es.result.iterations}")
@@ -305,9 +368,10 @@ def optimize_cma():
     print(f"Path length: {path_length:.4f}")
     print(f"Pairs touching: {len(all_touching)}/{n_pairs}")
 
-    from vectorized_fitness import check_path_collisions_vectorized, build_full_trajectory
+    from vectorized_fitness import check_path_collisions_vectorized, check_waypoint_overlaps_vectorized, build_full_trajectory
     full_traj = build_full_trajectory(best_waypoints, ch.initial_positions)
     path_penalty = check_path_collisions_vectorized(full_traj, 2 * ch.radius)
+    overlap_penalty = check_waypoint_overlaps_vectorized(best_waypoints, 2 * ch.radius)
 
     if len(all_touching) == n_pairs:
         print("✓ All pairs touch!")
@@ -320,9 +384,18 @@ def optimize_cma():
     else:
         print(f"✗ Collision penalty: {path_penalty:.4f}")
 
-    # Final save
-    save_solution(best_waypoints, ch, n_waypoints, PENALTY_ALPHA, output_path)
-    print(f"\nFinal solution saved to {output_path}")
+    if overlap_penalty < 0.01:
+        print("✓ No overlaps!")
+    else:
+        print(f"✗ Overlap penalty: {overlap_penalty:.4f}")
+
+    # Final save - use consolidated function
+    final_is_valid = (path_penalty < 0.01 and overlap_penalty < 0.01)
+    save_if_better(
+        best_waypoints, ch, n_waypoints, PENALTY_ALPHA, output_path,
+        best_fitness, final_is_valid, original_file_fitness,
+        verbose=True, context="final"
+    )
 
     return best_waypoints, best_fitness
 

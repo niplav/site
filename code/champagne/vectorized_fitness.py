@@ -84,7 +84,7 @@ def check_touching_at_waypoints_vectorized(waypoints, touch_dist_sq, tol):
 
 
 @jit(nopython=True, cache=True)
-def check_waypoint_overlaps_vectorized(waypoints, touch_dist):
+def check_waypoint_overlaps_vectorized(waypoints, touch_dist, overlap_penalty_weight=50):
     """
     Check for overlaps at waypoints. Returns penalty.
     """
@@ -102,13 +102,13 @@ def check_waypoint_overlaps_vectorized(waypoints, touch_dist):
 
                 if dist < min_allowed:
                     overlap = touch_dist - dist
-                    penalty += overlap * 50
+                    penalty += overlap * overlap_penalty_weight
 
     return penalty
 
 
 @jit(nopython=True, cache=True)
-def check_path_collisions_vectorized(full_trajectory, touch_dist):
+def check_path_collisions_vectorized(full_trajectory, touch_dist, collision_penalty_weight=100):
     """
     Vectorized path collision detection with early termination.
     """
@@ -159,7 +159,7 @@ def check_path_collisions_vectorized(full_trajectory, touch_dist):
 
                 if min_dist < min_allowed:
                     overlap = touch_dist - min_dist
-                    penalty += overlap * 100
+                    penalty += overlap * collision_penalty_weight
 
                     # Early termination: if massive collision, no point continuing
                     if penalty > 100:
@@ -169,7 +169,8 @@ def check_path_collisions_vectorized(full_trajectory, touch_dist):
 
 
 def evaluate_fitness_vectorized(waypoints, initial_positions, radius,
-                                penalty_alpha=1.0, early_terminate_threshold=1000.0):
+                                penalty_alpha=1.0, early_terminate_threshold=1000.0,
+                                overlap_penalty_weight=50, collision_penalty_weight=100):
     """
     Fully vectorized fitness evaluation with early termination.
 
@@ -199,14 +200,14 @@ def evaluate_fitness_vectorized(waypoints, initial_positions, radius,
         return float('inf')
 
     # 3. Check waypoint overlaps
-    overlap_penalty = check_waypoint_overlaps_vectorized(waypoints, touch_dist)
+    overlap_penalty = check_waypoint_overlaps_vectorized(waypoints, touch_dist, overlap_penalty_weight)
     penalty += overlap_penalty
 
     if penalty > early_terminate_threshold:
         return float('inf')
 
     # 4. Path collisions (79.1% of time - our main target!)
-    collision_penalty = check_path_collisions_vectorized(full_traj, touch_dist)
+    collision_penalty = check_path_collisions_vectorized(full_traj, touch_dist, collision_penalty_weight)
     penalty += collision_penalty
 
     fitness = path_length + penalty_alpha * penalty

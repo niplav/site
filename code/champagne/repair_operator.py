@@ -84,7 +84,7 @@ def pair_idx_to_disks(pair_idx, n_disks):
 # VERIFICATION FUNCTIONS
 # =============================================================================
 
-def verify_creates_meet(waypoints, w, pair_i, pair_j, touch_distance, tolerance=0.05):
+def verify_creates_meet(waypoints, w, pair_i, pair_j, touch_distance, tolerance=0.005):
     """
     Verify that pair (i,j) touches at waypoint w.
 
@@ -93,7 +93,7 @@ def verify_creates_meet(waypoints, w, pair_i, pair_j, touch_distance, tolerance=
         w: Waypoint index
         pair_i, pair_j: Disk indices
         touch_distance: 2 * radius
-        tolerance: Acceptable distance error
+        tolerance: Acceptable distance error (must be < 0.01 to avoid overlap detection)
 
     Returns:
         bool: True if pair touches at waypoint w
@@ -140,7 +140,7 @@ def verify_no_new_collisions(waypoints_original, waypoints_modified,
             overlap_mod <= overlap_orig + tolerance)
 
 def verify_no_removed_meets(waypoints_original, waypoints_modified,
-                            touch_distance, tolerance=0.05):
+                            touch_distance, tolerance=0.005):
     """
     Verify that no previously touching pairs have been broken.
 
@@ -148,7 +148,7 @@ def verify_no_removed_meets(waypoints_original, waypoints_modified,
         waypoints_original: Original waypoints
         waypoints_modified: Modified waypoints
         touch_distance: 2 * radius
-        tolerance: Touching tolerance
+        tolerance: Touching tolerance (must be < 0.01 to avoid overlap detection)
 
     Returns:
         bool: True if all original touching pairs still touch
@@ -176,6 +176,8 @@ def try_modify_waypoint(waypoints, w, pair_idx, ch):
     """
     Try modifying waypoint w to make pair_idx touch.
 
+    Propagates position changes to subsequent waypoints to avoid "snapping back".
+
     Args:
         waypoints: Current waypoints (n_waypoints, n_disks, 2)
         w: Waypoint index to modify
@@ -189,6 +191,7 @@ def try_modify_waypoint(waypoints, w, pair_idx, ch):
     """
     n_disks = ch.n
     touch_distance = 2 * ch.radius
+    n_waypoints = waypoints.shape[0]
 
     # Convert pair_idx to (i, j)
     pair_i, pair_j = pair_idx_to_disks(pair_idx, n_disks)
@@ -196,31 +199,35 @@ def try_modify_waypoint(waypoints, w, pair_idx, ch):
     # Create modified copy
     waypoints_modified = waypoints.copy()
 
-    # Get current positions
+    # Modify waypoint w to make them touch
     pos_i = waypoints[w, pair_i]
     pos_j = waypoints[w, pair_j]
-
-    # Compute touching positions
     new_pos_i, new_pos_j = compute_touching_positions(pos_i, pos_j, touch_distance)
 
-    # Apply modification
-    waypoints_modified[w, pair_i] = new_pos_i
-    waypoints_modified[w, pair_j] = new_pos_j
+    # Keep disks at touching position for all subsequent waypoints
+    for wp in range(w, n_waypoints):
+        waypoints_modified[wp, pair_i] = new_pos_i
+        waypoints_modified[wp, pair_j] = new_pos_j
 
     # Verification checks
     # Check A: Creates new meet
-    if not verify_creates_meet(waypoints_modified, w, pair_i, pair_j,
-                               touch_distance):
+    creates_meet = verify_creates_meet(waypoints_modified, w, pair_i, pair_j,
+                                       touch_distance)
+    if not creates_meet:
+        # print(f"    REJECT: doesn't create meet at waypoint {w}")
         return False, waypoints
 
     # Check B: No new collisions
-    if not verify_no_new_collisions(waypoints, waypoints_modified, w,
-                                     ch.initial_positions, touch_distance):
+    no_new_collisions = verify_no_new_collisions(waypoints, waypoints_modified, w,
+                                                  ch.initial_positions, touch_distance)
+    if not no_new_collisions:
+        # print(f"    REJECT: creates new collisions")
         return False, waypoints
 
     # Check C: No removed meets
-    if not verify_no_removed_meets(waypoints, waypoints_modified,
-                                    touch_distance):
+    no_removed_meets = verify_no_removed_meets(waypoints, waypoints_modified,
+                                                touch_distance)
+    if not no_removed_meets:
         return False, waypoints
 
     return True, waypoints_modified
@@ -229,7 +236,7 @@ def repair_single_pair(waypoints, missing_pair_idx, ch):
     """
     Try to repair a single missing pair by modifying waypoints.
 
-    Strategy: Try each waypoint in random order until one succeeds.
+    Strategy: Try waypoints from back to front (prefer later meetings to minimize frozen time).
 
     Args:
         waypoints: Current waypoints (n_waypoints, n_disks, 2)
@@ -241,10 +248,8 @@ def repair_single_pair(waypoints, missing_pair_idx, ch):
     """
     n_waypoints = waypoints.shape[0]
 
-    # Try each waypoint in random order (to avoid bias)
-    waypoint_order = np.random.permutation(n_waypoints)
-
-    for w in waypoint_order:
+    # Try waypoints from back to front (later meetings = less frozen time = less path length)
+    for w in range(n_waypoints - 1, -1, -1):
         success, modified = try_modify_waypoint(waypoints, w, missing_pair_idx, ch)
         if success:
             return True, modified
@@ -252,7 +257,7 @@ def repair_single_pair(waypoints, missing_pair_idx, ch):
     # No waypoint modification succeeded
     return False, waypoints
 
-def gentle_repair_population(solutions, n_waypoints, n_disks, ch, repair_rate=0.5, verbose=False):
+def gentle_repair_population(solutions, n_waypoints, n_disks, ch, repair_rate=0.5, verbose=False, fitness_fn=None):
     """
     Apply gentle repair to a population of solutions.
 
@@ -268,6 +273,7 @@ def gentle_repair_population(solutions, n_waypoints, n_disks, ch, repair_rate=0.
         ch: Choreography instance
         repair_rate: Fraction of population to attempt repair on
         verbose: Print diagnostic information
+        fitness_fn: Optional fitness function to check if repairs improve fitness
 
     Returns:
         List of solutions (some potentially repaired)
@@ -278,10 +284,10 @@ def gentle_repair_population(solutions, n_waypoints, n_disks, ch, repair_rate=0.
     if n_to_repair == 0:
         return solutions
 
-    # Randomly select solutions to repair (skip first - it's our best)
+    # Randomly select solutions to repair (include all solutions, even the best)
     indices_to_repair = np.random.choice(
-        range(1, n_solutions),
-        size=min(n_to_repair, n_solutions - 1),
+        range(0, n_solutions),
+        size=min(n_to_repair, n_solutions),
         replace=False
     )
 
@@ -315,10 +321,15 @@ def gentle_repair_population(solutions, n_waypoints, n_disks, ch, repair_rate=0.
         total_missing += len(missing_pairs)
         attempt_count += 1
 
-        # Try to fix ONE random missing pair (gentle repair)
-        target_pair = np.random.choice(missing_pairs)
+        # Try to fix missing pairs in random order until one succeeds
+        np.random.shuffle(missing_pairs)
+        success = False
+        repaired_waypoints = waypoints
 
-        success, repaired_waypoints = repair_single_pair(waypoints, target_pair, ch)
+        for target_pair in missing_pairs:
+            success, repaired_waypoints = repair_single_pair(waypoints, target_pair, ch)
+            if success:
+                break  # Found a repair, stop trying other pairs
 
         if success:
             solutions[idx] = repaired_waypoints.flatten()
