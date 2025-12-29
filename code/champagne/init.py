@@ -147,30 +147,3 @@ def simulate_choreography(n_disks, radius=0.3, initial_distance=3.0, triplet_seq
     path_length = ch.total_path_length(waypoints)
 
     return waypoints, path_length
-
-
-if __name__ == '__main__':
-    # Test collision-free choreography for different n
-    from vectorized_fitness import evaluate_fitness_vectorized, check_path_collisions_vectorized, build_full_trajectory
-
-    for n in [3, 4, 5, 6, 7]:
-        ch = Choreography(n=n, radius=0.3, initial_distance=3.0)
-        triplets = find_triplet_cover(n)
-        n_pairs = n * (n - 1) // 2
-
-        print(f"n={n}: {n_pairs} pairs, {len(triplets)} triplets needed")
-        print(f"  Sequence: {triplets}")
-
-        waypoints, path_length = simulate_choreography(n)
-        print(f"  Path length: {path_length:.2f}")
-        print(f"  Waypoints shape: {waypoints.shape}")
-
-        # Check for collisions
-        full_traj = build_full_trajectory(waypoints, ch.initial_positions)
-        collision_penalty = check_path_collisions_vectorized(full_traj, 2 * ch.radius)
-
-        if collision_penalty < 0.01:
-            print(f"  ✓ No collisions!")
-        else:
-            print(f"  ✗ Collision penalty: {collision_penalty:.4f}")
-        print()
