@@ -20,8 +20,8 @@ from init import simulate_choreography, find_triplet_cover
 # =============================================================================
 
 # Problem parameters
-N_DISKS = 7             # Number of champagne glasses
-N_WAYPOINTS = None         # Number of intermediate waypoints
+N_DISKS = 6             # Number of champagne glasses
+N_WAYPOINTS = 14 # Number of intermediate waypoints
 DISK_RADIUS = 0.3       # Radius of each disk
 INITIAL_DISTANCE = 3.0  # Distance from origin to each disk's starting position
 
@@ -30,25 +30,79 @@ PENALTY_ALPHA = 1.0
 
 # CMA-ES parameters
 SIGMA0 = 0.01  # Initial step size (small for local refinement from good starting point)
-POPSIZE = 500  # Population size (CMA-ES typically uses smaller populations)
+POPSIZE = 100  # Population size (CMA-ES typically uses smaller populations)
 MAX_ITER = 10000  # Maximum iterations
 
 # Termination tolerances (set very small to disable early stopping)
 TOLFUN = 1e-11  # Tolerance on function value changes (smaller = run longer)
 TOLX = 1e-11    # Tolerance on parameter changes (smaller = run longer)
 
+# Smart mutations (domain-specific)
+SMART_MUTATION_RATE = 00  # Fraction of population to apply smart mutations (0.0 = disabled, 0.2 = 20%)
+
 # Starting point options
-WARM_START_MODE = 'greedy'  # 'greedy' (collision-free), 'best', or 'random'
+WARM_START_MODE = 'best'  # 'greedy' (collision-free), 'best', or 'random'
 
 # Output filename (auto-generated from parameters)
-OUTPUT_PATH = f'/home/niplav/proj/site/code/champagne/best_n{N_DISKS}_w{N_WAYPOINTS}_p{POPSIZE}.json'
+OUTPUT_PATH = f'/home/niplav/proj/site/code/champagne/best_n{N_DISKS}_w{N_WAYPOINTS}.json'
 BEST_PATH = OUTPUT_PATH
 
 # =============================================================================
 
 
+def apply_smart_mutations(solutions, n_waypoints, n_disks, radius, mutation_rate=0.2):
+    """
+    Apply domain-specific mutations: move disks toward each other to create touching.
+
+    For a subset of solutions, pick random disk pairs and move them closer together
+    at random waypoints to maintain/create touching configurations.
+    """
+    touch_distance = 2 * radius
+    n_solutions = len(solutions)
+    n_mutated = int(n_solutions * mutation_rate)
+
+    if n_mutated == 0:
+        return solutions
+
+    # Pick random solutions to mutate (skip first one - it's our exact solution)
+    indices_to_mutate = np.random.choice(range(1, n_solutions), size=min(n_mutated, n_solutions-1), replace=False)
+
+    for idx in indices_to_mutate:
+        solution = solutions[idx].copy()
+        waypoints = solution.reshape((n_waypoints, n_disks, 2))
+
+        # Pick a random pair of disks
+        disk_a, disk_b = np.random.choice(n_disks, size=2, replace=False)
+
+        # Pick a random waypoint
+        wp = np.random.randint(n_waypoints)
+
+        # Move disk_a toward disk_b to be exactly touch_distance apart
+        pos_a = waypoints[wp, disk_a].copy()
+        pos_b = waypoints[wp, disk_b].copy()
+
+        direction = pos_b - pos_a
+        current_dist = np.linalg.norm(direction)
+
+        if current_dist > 1e-6:  # Avoid division by zero
+            # Both disks move toward their midpoint, ending up touch_distance apart
+            direction_normalized = direction / current_dist
+            midpoint = (pos_a + pos_b) / 2
+            half_touch = touch_distance / 2
+
+            new_pos_a = midpoint - half_touch * direction_normalized
+            new_pos_b = midpoint + half_touch * direction_normalized
+
+            waypoints[wp, disk_a] = new_pos_a
+            waypoints[wp, disk_b] = new_pos_b
+
+        solutions[idx] = waypoints.flatten()
+
+    return solutions
+
+
 def optimize_cma():
-    """Run CMA-ES optimization."""
+    """Run CMA-ES optimization with smart domain-specific mutations."""
     import cma
 
     ch = Choreography(n=N_DISKS, radius=DISK_RADIUS, initial_distance=INITIAL_DISTANCE)
@@ -120,7 +174,7 @@ def optimize_cma():
         return fitness
 
     # Update output path with actual waypoint count
-    output_path = f'/home/niplav/proj/site/code/champagne/best_n{N_DISKS}_w{n_waypoints}_p{POPSIZE}.json'
+    output_path = f'/home/niplav/proj/site/code/champagne/best_n{N_DISKS}_w{n_waypoints}.json'
     best_known_fitness = load_best_known_fitness(output_path)
     if best_known_fitness < float('inf'):
         print(f"Found existing solution: {output_path}, fitness {best_known_fitness:.4f}")
@@ -152,6 +206,14 @@ def optimize_cma():
         if iteration == 0:
             solutions[0] = x0.copy()
             print(f"  → Injected exact solution as solutions[0]")
+            if SMART_MUTATION_RATE > 0:
+                print(f"  → Using smart mutations ({SMART_MUTATION_RATE*100:.0f}% of population)")
+            else:
+                print(f"  → Smart mutations disabled")
+
+        # Apply smart domain-specific mutations to subset of population
+        if SMART_MUTATION_RATE > 0:
+            solutions = apply_smart_mutations(solutions, n_waypoints, N_DISKS, DISK_RADIUS, mutation_rate=SMART_MUTATION_RATE)
 
         fitnesses = [objective(s) for s in solutions]
         es.tell(solutions, fitnesses)
@@ -159,14 +221,45 @@ def optimize_cma():
         # Log progress
         if iteration % 100 == 0:
             best_fitness = min(fitnesses)
+            best_idx = np.argmin(fitnesses)
+            best_waypoints = solutions[best_idx].reshape((n_waypoints, N_DISKS, 2))
+
             print(f"Iter {iteration:5d}: Best={best_fitness:.4f}, "
                   f"Sigma={es.sigma:.4f}")
 
-            # Save if better than best known
+            # Check if new solution has collisions/overlaps
+            from vectorized_fitness import check_waypoint_overlaps_vectorized, check_path_collisions_vectorized, build_full_trajectory
+            full_traj = build_full_trajectory(best_waypoints, ch.initial_positions)
+            new_has_overlaps = check_waypoint_overlaps_vectorized(best_waypoints, 2 * ch.radius) > 0.01
+            new_has_collisions = check_path_collisions_vectorized(full_traj, 2 * ch.radius) > 0.01
+            new_is_valid = not (new_has_overlaps or new_has_collisions)
+
+            # Load current best to check if it has collisions
+            current_best_is_valid = True
+            if best_known_fitness < float('inf'):
+                try:
+                    import json
+                    with open(output_path, 'r') as f:
+                        data = json.load(f)
+                    current_best_is_valid = not (data['metadata'].get('has_waypoint_overlaps', False) or
+                                                 data['metadata'].get('has_path_collisions', False))
+                except:
+                    pass
+
+            # Save if better AND valid, OR if current best is also invalid
+            should_save = False
             if best_fitness < best_known_fitness:
-                best_waypoints = solutions[np.argmin(fitnesses)].reshape((n_waypoints, N_DISKS, 2))
+                if new_is_valid:
+                    should_save = True  # Always save valid improvements
+                elif not current_best_is_valid:
+                    should_save = True  # Save if both are invalid (allow improving invalid solutions)
+                else:
+                    print(f"  ✗ Skipping save: new solution has collisions/overlaps but current best is valid")
+
+            if should_save:
                 save_solution(best_waypoints, ch, n_waypoints, PENALTY_ALPHA, output_path)
-                print(f"  → New best! Saved to {output_path}")
+                validity_msg = "valid" if new_is_valid else "invalid (has collisions/overlaps)"
+                print(f"  → New best ({validity_msg})! Saved to {output_path}")
                 best_known_fitness = best_fitness
 
         iteration += 1
