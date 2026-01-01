@@ -29,77 +29,67 @@ INITIAL_DISTANCE = 3.0  # Distance from origin to each disk's starting position
 # Fitness parameters
 PENALTY_ALPHA = 1.0
 OVERLAP_PENALTY_WEIGHT = 50    # Penalty multiplier for waypoint overlaps (default: 50)
-COLLISION_PENALTY_WEIGHT = 1000  # Penalty multiplier for path collisions (default: 100)
+COLLISION_PENALTY_WEIGHT = 100  # Penalty multiplier for path collisions (default: 100)
+MISSING_PENALTY_WEIGHT = 100
 
 # CMA-ES parameters
-SIGMA0 = 1.0  # Initial step size (small for local refinement from good starting point)
-POPSIZE = 50  # Population size (CMA-ES typically uses smaller populations)
-MAX_ITER = 10000  # Maximum iterations
+SIGMA0 = 0.05  # Initial step size (small for local refinement from good starting point)
+POPSIZE = 2  # Population size (CMA-ES typically uses smaller populations)
+MAX_ITER = 8  # Maximum iterations
+MIN_ITER = 4
 
 # Termination tolerances (set very small to disable early stopping)
 TOLFUN = 1e-11  # Tolerance on function value changes (smaller = run longer)
 TOLX = 1e-11    # Tolerance on parameter changes (smaller = run longer)
 
-# Smart mutations (domain-specific)
-SMART_MUTATION_RATE = 0.0  # Fraction of population to apply smart mutations (0.0 = disabled, 0.2 = 20%)
-
 # Sparse mutations (preserve coordinates to maintain structure)
-SPARSE_MUTATION_RATE = 0.9  # Fraction of coordinates to preserve unchanged (0.0 = dense/disabled, 0.8 = very sparse)
+SPARSE_MUTATION_RATE = 1.0  # Fraction of coordinates to preserve unchanged (0.0 = dense/disabled, 0.8 = very sparse)
 
 # Repair operator (gentle waypoint modification)
-REPAIR_RATE = 0.95  # Fraction of population to attempt repair (0.0 = disabled, 0.5 = 50%)
+REPAIR_RATE = 1.0 # Fraction of population to attempt repair (0.0 = disabled, 0.5 = 50%)
 
 # Starting point options
-WARM_START_MODE = 'best'  # 'greedy' (collision-free), 'best', 'nop' (stationary), or 'random'
+WARM_START_MODE = 'nop'  # 'greedy' (collision-free), 'best', 'nop' (stationary), or 'random'
 
 # Output filename (auto-generated from parameters)
 OUTPUT_PATH = f'/home/niplav/proj/site/code/champagne/best_n{N_DISKS}_w{N_WAYPOINTS}.json'
 BEST_PATH = OUTPUT_PATH
 
-# =============================================================================
-
-
-def apply_smart_mutations(solutions, n_waypoints, n_disks, radius, mutation_rate=0.2):
+def local_refine(solution, ch, max_iter=50):
     """
-    Apply domain-specific mutations: move disks toward each other to create touching.
+    Apply local refinement to a solution using scipy.optimize.
 
-    For a subset of solutions, pick random disk pairs and move them closer together
-    at random waypoints to maintain/create touching configurations.
+    This is gradient-free optimization (Nelder-Mead) to fine-tune the solution.
     """
-    touch_distance = 2 * radius
-    n_solutions = len(solutions)
-    n_mutated = int(n_solutions * mutation_rate)
+    from scipy.optimize import minimize
 
-    if n_mutated == 0:
-        return solutions
+    # Flatten waypoints for scipy
+    x0 = solution.waypoints.flatten()
+    original_shape = solution.waypoints.shape
 
-    # Pick random solutions to mutate (skip first one - it's our exact solution)
-    indices_to_mutate = np.random.choice(range(1, n_solutions), size=min(n_mutated, n_solutions-1), replace=False)
+    # Define objective function
+    def objective(x):
+        waypoints = x.reshape(original_shape)
+        fitness = evaluate_fitness_vectorized(
+            waypoints, ch.initial_positions, ch.radius,
+            penalty_alpha=PENALTY_ALPHA,
+            early_terminate_threshold=float('inf')  # No early termination in local search
+        )
+        return fitness
 
-    for idx in indices_to_mutate:
-        solution = solutions[idx].copy()
-        waypoints = solution.reshape((n_waypoints, n_disks, 2))
+    # Run optimization (Nelder-Mead is gradient-free and robust)
+    result = minimize(
+        objective,
+        x0,
+        method='Nelder-Mead',
+        options={'maxiter': max_iter, 'xatol': 1e-4, 'fatol': 1e-4}
+    )
 
-        # Pick a random pair of disks
-        disk_a, disk_b = np.random.choice(n_disks, size=2, replace=False)
+    # Create refined solution
+    refined_waypoints = result.x.reshape(original_shape)
+    refined_solution = Solution(waypoints=refined_waypoints, fitness=result.fun)
 
-        # Pick a random waypoint
-        wp = np.random.randint(n_waypoints)
-
-        # Move disk_a toward disk_b to be exactly touch_distance apart
-        pos_a = waypoints[wp, disk_a].copy()
-        pos_b = waypoints[wp, disk_b].copy()
-
-        # Use shared geometry function
-        new_pos_a, new_pos_b = compute_touching_positions(pos_a, pos_b, touch_distance)
-
-        waypoints[wp, disk_a] = new_pos_a
-        waypoints[wp, disk_b] = new_pos_b
-
-        solutions[idx] = waypoints.flatten()
-
-    return solutions
-
+    return refined_solution
 
 def should_save_solution(new_fitness, new_is_valid, original_file_fitness, current_best_fitness=None):
     """
@@ -156,17 +146,6 @@ def optimize_cma():
 
     ch = Choreography(n=N_DISKS, radius=DISK_RADIUS, initial_distance=INITIAL_DISTANCE)
 
-    print("CMA-ES Optimization for Champagne Toasting Problem")
-    print("=" * 60)
-    print(f"Disks: {N_DISKS}")
-    print(f"Disk radius: {DISK_RADIUS}")
-    print(f"Initial distance: {INITIAL_DISTANCE}")
-    print(f"Population: {POPSIZE}")
-    print(f"Max iterations: {MAX_ITER}")
-    print(f"Initial sigma: {SIGMA0}")
-    print(f"Tolerances: tolfun={TOLFUN}, tolx={TOLX}")
-
-    # Determine N_WAYPOINTS based on initialization mode
     n_waypoints = N_WAYPOINTS  # local variable
 
     # Initialize starting point
@@ -229,7 +208,8 @@ def optimize_cma():
             penalty_alpha=PENALTY_ALPHA,
             early_terminate_threshold=float('inf'),
             overlap_penalty_weight=OVERLAP_PENALTY_WEIGHT,
-            collision_penalty_weight=COLLISION_PENALTY_WEIGHT
+            collision_penalty_weight=COLLISION_PENALTY_WEIGHT,
+            missing_meet_penalty_weight=MISSING_PENALTY_WEIGHT
         )
         return fitness
 
@@ -266,47 +246,26 @@ def optimize_cma():
     best_valid_fitness = float('inf')
 
     iteration = 0
-    while not es.stop():
+    while not es.stop() or iteration<MIN_ITER:
         solutions = es.ask()
 
-        # Apply sparse mutations: randomly preserve some coordinates unchanged
-        # This helps maintain touching pairs and good structure from previous generations
         if SPARSE_MUTATION_RATE > 0:
-            for i in range(1, len(solutions)):  # Skip first (will be overwritten anyway)
+            for i in range(1, len(solutions)):
                 mask = np.random.random(len(solutions[i])) < SPARSE_MUTATION_RATE
-                solutions[i][mask] = x0[mask]  # Reset to reference value (zero perturbation)
+                solutions[i][mask] = x0[mask]
 
         # Inject exact collision-free solution as first individual in first iteration
         if iteration == 0:
             solutions[0] = x0.copy()
-            print(f"  → Injected exact solution as solutions[0]")
-            if SPARSE_MUTATION_RATE > 0:
-                print(f"  → Using sparse mutations ({SPARSE_MUTATION_RATE*100:.0f}% coords preserved)")
-            else:
-                print(f"  → Sparse mutations disabled")
-            if SMART_MUTATION_RATE > 0:
-                print(f"  → Using smart mutations ({SMART_MUTATION_RATE*100:.0f}% of population)")
-            else:
-                print(f"  → Smart mutations disabled")
-            if REPAIR_RATE > 0:
-                print(f"  → Using repair operator ({REPAIR_RATE*100:.0f}% of population)")
-            else:
-                print(f"  → Repair operator disabled")
 
-        # Apply smart domain-specific mutations to subset of population
-        if SMART_MUTATION_RATE > 0:
-            solutions = apply_smart_mutations(solutions, n_waypoints, N_DISKS, DISK_RADIUS, mutation_rate=SMART_MUTATION_RATE)
-
-        # Apply repair operator to subset of population
         if REPAIR_RATE > 0:
-            verbose = (iteration % 100 == 0)  # Show diagnostics every 100 iterations
-            solutions = gentle_repair_population(solutions, n_waypoints, N_DISKS, ch, repair_rate=REPAIR_RATE, verbose=verbose, fitness_fn=None)
+            solutions = gentle_repair_population(solutions, n_waypoints, N_DISKS, ch, repair_rate=REPAIR_RATE, fitness_fn=None)
 
         fitnesses = [objective(s) for s in solutions]
         es.tell(solutions, fitnesses)
 
         # Log progress
-        if iteration % 100 == 0:
+        if iteration % 1 == 0:
             best_fitness = min(fitnesses)
             best_idx = np.argmin(fitnesses)
             best_waypoints = solutions[best_idx].reshape((n_waypoints, N_DISKS, 2))
@@ -355,39 +314,20 @@ def optimize_cma():
         best_waypoints = best_solution.reshape((n_waypoints, N_DISKS, 2))
 
     print(f"Best fitness: {best_fitness:.4f}")
-    print(f"Iterations: {es.result.iterations}")
-    print(f"Function evaluations: {es.result.evaluations}")
 
     # Validate solution
     configs = [best_waypoints[i] for i in range(n_waypoints)]
     all_touching = ch.get_all_touching_pairs(configs)
     path_length = ch.total_path_length(best_waypoints)
 
-    n_pairs = N_DISKS * (N_DISKS - 1) // 2
-
-    print(f"Path length: {path_length:.4f}")
-    print(f"Pairs touching: {len(all_touching)}/{n_pairs}")
-
     from vectorized_fitness import check_path_collisions_vectorized, check_waypoint_overlaps_vectorized, build_full_trajectory
     full_traj = build_full_trajectory(best_waypoints, ch.initial_positions)
     path_penalty = check_path_collisions_vectorized(full_traj, 2 * ch.radius)
     overlap_penalty = check_waypoint_overlaps_vectorized(best_waypoints, 2 * ch.radius)
 
-    if len(all_touching) == n_pairs:
-        print("✓ All pairs touch!")
-    else:
+    n_pairs = N_DISKS * (N_DISKS - 1) // 2
+    if len(all_touching) != n_pairs:
         missing = set([(i, j) for i in range(N_DISKS) for j in range(i + 1, N_DISKS)]) - all_touching
-        print(f"✗ Missing pairs: {missing}")
-
-    if path_penalty < 0.01:
-        print("✓ No collisions!")
-    else:
-        print(f"✗ Collision penalty: {path_penalty:.4f}")
-
-    if overlap_penalty < 0.01:
-        print("✓ No overlaps!")
-    else:
-        print(f"✗ Overlap penalty: {overlap_penalty:.4f}")
 
     # Final save - use consolidated function
     final_is_valid = (path_penalty < 0.01 and overlap_penalty < 0.01)

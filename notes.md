@@ -3189,6 +3189,14 @@ program. Perhaps one needs to restrict the underlying space to
 something more discrete than `$ℝ²$` to avoid accidental [real
 computation](https://en.wikipedia.org/wiki/Real_computation).
 
+### Visualizations of Best Approximations
+
+<video src="./vid/champagne/6_ea.webm" type='video/webm' controls>
+</video>
+
+<video src="./vid/champagne/7_ea.webm" type='video/webm' controls>
+</video>
+
 <!--Why Are There So Few Natural NP-Complete Problems with Superquadratic Verifiers?
 ---------------------------------------------------------------------------------
 

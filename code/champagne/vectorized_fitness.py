@@ -170,7 +170,8 @@ def check_path_collisions_vectorized(full_trajectory, touch_dist, collision_pena
 
 def evaluate_fitness_vectorized(waypoints, initial_positions, radius,
                                 penalty_alpha=1.0, early_terminate_threshold=1000.0,
-                                overlap_penalty_weight=50, collision_penalty_weight=100):
+                                overlap_penalty_weight=50, collision_penalty_weight=100,
+                                missing_meet_penalty_weight=100):
     """
     Fully vectorized fitness evaluation with early termination.
 
@@ -193,7 +194,7 @@ def evaluate_fitness_vectorized(waypoints, initial_positions, radius,
     n_pairs = n_disks * (n_disks - 1) // 2
     n_touching = bin(touching_mask).count('1')
     n_missing = n_pairs - n_touching
-    penalty = n_missing * 100
+    penalty = n_missing * missing_meet_penalty_weight
 
     # Early termination: if too many pairs missing, give up
     if penalty > early_terminate_threshold:

@@ -109,9 +109,6 @@ def verify_no_new_collisions(waypoints_original, waypoints_modified,
     """
     Verify modification doesn't create new collisions.
 
-    Uses existing optimized collision detection from vectorized_fitness.py.
-    Checks entire trajectory (simpler than checking only affected segments).
-
     Args:
         waypoints_original: Original waypoints before modification
         waypoints_modified: Modified waypoints
@@ -209,19 +206,16 @@ def try_modify_waypoint(waypoints, w, pair_idx, ch):
         waypoints_modified[wp, pair_i] = new_pos_i
         waypoints_modified[wp, pair_j] = new_pos_j
 
-    # Verification checks
     # Check A: Creates new meet
     creates_meet = verify_creates_meet(waypoints_modified, w, pair_i, pair_j,
                                        touch_distance)
     if not creates_meet:
-        # print(f"    REJECT: doesn't create meet at waypoint {w}")
         return False, waypoints
 
     # Check B: No new collisions
     no_new_collisions = verify_no_new_collisions(waypoints, waypoints_modified, w,
                                                   ch.initial_positions, touch_distance)
     if not no_new_collisions:
-        # print(f"    REJECT: creates new collisions")
         return False, waypoints
 
     # Check C: No removed meets
@@ -248,7 +242,7 @@ def repair_single_pair(waypoints, missing_pair_idx, ch):
     """
     n_waypoints = waypoints.shape[0]
 
-    # Try waypoints from back to front (later meetings = less frozen time = less path length)
+    # Try waypoints from back to front
     for w in range(n_waypoints - 1, -1, -1):
         success, modified = try_modify_waypoint(waypoints, w, missing_pair_idx, ch)
         if success:
@@ -257,7 +251,7 @@ def repair_single_pair(waypoints, missing_pair_idx, ch):
     # No waypoint modification succeeded
     return False, waypoints
 
-def gentle_repair_population(solutions, n_waypoints, n_disks, ch, repair_rate=0.5, verbose=False, fitness_fn=None):
+def gentle_repair_population(solutions, n_waypoints, n_disks, ch, repair_rate=0.5, fitness_fn=None):
     """
     Apply gentle repair to a population of solutions.
 
@@ -272,7 +266,6 @@ def gentle_repair_population(solutions, n_waypoints, n_disks, ch, repair_rate=0.
         n_disks: Number of disks
         ch: Choreography instance
         repair_rate: Fraction of population to attempt repair on
-        verbose: Print diagnostic information
         fitness_fn: Optional fitness function to check if repairs improve fitness
 
     Returns:
@@ -295,10 +288,6 @@ def gentle_repair_population(solutions, n_waypoints, n_disks, ch, repair_rate=0.
     touch_dist_sq = touch_distance * touch_distance
     n_pairs = n_disks * (n_disks - 1) // 2
 
-    repaired_count = 0
-    total_missing = 0
-    attempt_count = 0
-
     for idx in indices_to_repair:
         solution = solutions[idx].copy()
         waypoints = solution.reshape((n_waypoints, n_disks, 2))
@@ -318,9 +307,6 @@ def gentle_repair_population(solutions, n_waypoints, n_disks, ch, repair_rate=0.
         if len(missing_pairs) == 0:
             continue
 
-        total_missing += len(missing_pairs)
-        attempt_count += 1
-
         # Try to fix missing pairs in random order until one succeeds
         np.random.shuffle(missing_pairs)
         success = False
@@ -333,11 +319,5 @@ def gentle_repair_population(solutions, n_waypoints, n_disks, ch, repair_rate=0.
 
         if success:
             solutions[idx] = repaired_waypoints.flatten()
-            repaired_count += 1
-
-    if verbose and attempt_count > 0:
-        avg_missing = total_missing / attempt_count
-        success_rate = repaired_count / attempt_count * 100
-        print(f"  → Repair: {repaired_count}/{attempt_count} succeeded ({success_rate:.1f}%), avg {avg_missing:.1f} missing pairs")
 
     return solutions
