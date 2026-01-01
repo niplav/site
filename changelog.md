@@ -32,7 +32,10 @@ December 2025
 	* [Neutral Monism And Mathematics](./notes.html#Neutral_Monism_And_Mathematics)
 	* [Common Assumptions on TAI](./notes.html#Common_Assumptions_on_TAI)
 	* [Hypercapitalist Dharma](./notes.html#Hypercapitalist_Dharma)
-* [Microfiction](./microfiction.html): [New Minds](./microfiction.html#New_Minds)
+	* [The Champagne Toasting Problem](./notes.html#The_Champagne_Toasting_Problem)
+* [Microfiction](./microfiction.html):
+	* [New Minds](./microfiction.html#New_Minds)
+	* [Subtext](./microfiction.html#Subtext)
 
 More edits and images for [Pergraphs](./pergraphs.html) and edits on
 [Some Thoughts on the Stupid Successionism Debate](./successionism.html).
