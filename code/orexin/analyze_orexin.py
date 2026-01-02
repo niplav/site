@@ -75,23 +75,21 @@ def load_cognitive_tests():
 
 def load_sleep_data():
     """Load Fitbit sleep data."""
-    # TODO: Calculate this from the current date and the dates of the orexin data
-    sleep_files = [
-        'sleep.2025.09.json',
-        'sleep.2025.10.json',
-        'sleep.2025.11.json',
-        'sleep.2025.12.partial.json'
-    ]
+    # Automatically discover all sleep JSON files
+    sleep_files = sorted(FITBIT_SLEEP_DIR.glob('sleep.*.json'))
+
+    if not sleep_files:
+        print(f"Warning: No sleep files found in {FITBIT_SLEEP_DIR}")
+        return pd.DataFrame()
 
     all_sleep = []
-    for filename in sleep_files:
-        filepath = FITBIT_SLEEP_DIR / filename
+    for filepath in sleep_files:
         try:
             with open(filepath, 'r') as f:
                 data = json.load(f)
                 all_sleep.extend(data)
-        except FileNotFoundError:
-            print(f"Warning: {filepath} not found, skipping...")
+        except (FileNotFoundError, json.JSONDecodeError) as e:
+            print(f"Warning: Could not load {filepath}: {e}")
 
     if not all_sleep:
         return pd.DataFrame()
@@ -249,7 +247,7 @@ def analyze_sleep_data(substances, sleep_df):
                 'treatment': treatment,
             }
 
-            # Extract relevant metrics
+            # Extract relevant metrics (always include these if available)
             if 'duration' in sleep_record:
                 result['duration_ms'] = sleep_record['duration']
                 result['duration_hours'] = sleep_record['duration'] / (1000 * 60 * 60)
@@ -260,12 +258,16 @@ def analyze_sleep_data(substances, sleep_df):
             if 'efficiency' in sleep_record:
                 result['efficiency'] = sleep_record['efficiency']
 
-            # Sleep stages
+            # Sleep stages - initialize all to NaN, then populate if available
+            # This ensures all rows have these columns even if data is missing
+            for stage in ['deep', 'light', 'rem', 'wake']:
+                result[f'{stage}_minutes'] = np.nan
+
             if 'levels' in sleep_record and isinstance(sleep_record['levels'], dict):
                 summary = sleep_record['levels'].get('summary', {})
                 for stage in ['deep', 'light', 'rem', 'wake']:
-                    if stage in summary:
-                        result[f'{stage}_minutes'] = summary[stage].get('minutes', 0)
+                    if stage in summary and 'minutes' in summary[stage]:
+                        result[f'{stage}_minutes'] = summary[stage]['minutes']
 
             results.append(result)
 

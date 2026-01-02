@@ -33,9 +33,9 @@ COLLISION_PENALTY_WEIGHT = 100  # Penalty multiplier for path collisions (defaul
 MISSING_PENALTY_WEIGHT = 100
 
 # CMA-ES parameters
-SIGMA0 = 0.05  # Initial step size (small for local refinement from good starting point)
-POPSIZE = 2  # Population size (CMA-ES typically uses smaller populations)
-MAX_ITER = 8  # Maximum iterations
+SIGMA0 = 0.1  # Initial step size (small for local refinement from good starting point)
+POPSIZE = 1000  # Population size (CMA-ES typically uses smaller populations)
+MAX_ITER = 100000  # Maximum iterations
 MIN_ITER = 4
 
 # Termination tolerances (set very small to disable early stopping)
@@ -43,29 +43,44 @@ TOLFUN = 1e-11  # Tolerance on function value changes (smaller = run longer)
 TOLX = 1e-11    # Tolerance on parameter changes (smaller = run longer)
 
 # Sparse mutations (preserve coordinates to maintain structure)
-SPARSE_MUTATION_RATE = 1.0  # Fraction of coordinates to preserve unchanged (0.0 = dense/disabled, 0.8 = very sparse)
+SPARSE_MUTATION_RATE = 0.6  # Fraction of coordinates to preserve unchanged (0.0 = dense/disabled, 0.8 = very sparse)
 
 # Repair operator (gentle waypoint modification)
-REPAIR_RATE = 1.0 # Fraction of population to attempt repair (0.0 = disabled, 0.5 = 50%)
+REPAIR_RATE = 0.4 # Fraction of population to attempt repair (0.0 = disabled, 0.5 = 50%)
+REPAIR_FREQUENCY = 10  # Apply repair every N iterations (1 = every iteration, 50 = every 50 iterations)
+REPAIR_DEBUG = False # Enable detailed debugging output for repair operator
+
+# Local refinement (Nelder-Mead optimization)
+LOCAL_REFINEMENT_ENABLED = True  # Enable/disable Nelder-Mead refinement
+LOCAL_REFINEMENT_FREQUENCY = 1   # Apply every N iterations (1 = every iteration)
+LOCAL_REFINEMENT_MAX_ITER = 100   # Max iterations for Nelder-Mead
 
 # Starting point options
-WARM_START_MODE = 'nop'  # 'greedy' (collision-free), 'best', 'nop' (stationary), or 'random'
+WARM_START_MODE = 'best'  # 'greedy' (collision-free), 'best', 'nop' (stationary), or 'random'
 
 # Output filename (auto-generated from parameters)
 OUTPUT_PATH = f'/home/niplav/proj/site/code/champagne/best_n{N_DISKS}_w{N_WAYPOINTS}.json'
 BEST_PATH = OUTPUT_PATH
 
-def local_refine(solution, ch, max_iter=50):
+def local_refine(x_flat, n_waypoints, n_disks, ch, max_iter=50):
     """
-    Apply local refinement to a solution using scipy.optimize.
+    Apply local refinement to a flattened solution using scipy.optimize.
 
     This is gradient-free optimization (Nelder-Mead) to fine-tune the solution.
+
+    Args:
+        x_flat: Flattened waypoints array
+        n_waypoints: Number of waypoints
+        n_disks: Number of disks
+        ch: Choreography instance
+        max_iter: Maximum iterations for Nelder-Mead
+
+    Returns:
+        (refined_flat, refined_fitness): Tuple of refined solution and its fitness
     """
     from scipy.optimize import minimize
 
-    # Flatten waypoints for scipy
-    x0 = solution.waypoints.flatten()
-    original_shape = solution.waypoints.shape
+    original_shape = (n_waypoints, n_disks, 2)
 
     # Define objective function
     def objective(x):
@@ -73,23 +88,22 @@ def local_refine(solution, ch, max_iter=50):
         fitness = evaluate_fitness_vectorized(
             waypoints, ch.initial_positions, ch.radius,
             penalty_alpha=PENALTY_ALPHA,
-            early_terminate_threshold=float('inf')  # No early termination in local search
+            early_terminate_threshold=float('inf'),  # No early termination in local search
+            overlap_penalty_weight=OVERLAP_PENALTY_WEIGHT,
+            collision_penalty_weight=COLLISION_PENALTY_WEIGHT,
+            missing_meet_penalty_weight=MISSING_PENALTY_WEIGHT
         )
         return fitness
 
     # Run optimization (Nelder-Mead is gradient-free and robust)
     result = minimize(
         objective,
-        x0,
+        x_flat,
         method='Nelder-Mead',
         options={'maxiter': max_iter, 'xatol': 1e-4, 'fatol': 1e-4}
     )
 
-    # Create refined solution
-    refined_waypoints = result.x.reshape(original_shape)
-    refined_solution = Solution(waypoints=refined_waypoints, fitness=result.fun)
-
-    return refined_solution
+    return result.x, result.fun
 
 def should_save_solution(new_fitness, new_is_valid, original_file_fitness, current_best_fitness=None):
     """
@@ -258,8 +272,26 @@ def optimize_cma():
         if iteration == 0:
             solutions[0] = x0.copy()
 
-        if REPAIR_RATE > 0:
-            solutions = gentle_repair_population(solutions, n_waypoints, N_DISKS, ch, repair_rate=REPAIR_RATE, fitness_fn=None)
+        if REPAIR_RATE > 0 and iteration % REPAIR_FREQUENCY == 0:
+            # Only debug on first few repair calls to avoid spam
+            debug_repair = REPAIR_DEBUG and iteration <= REPAIR_FREQUENCY * 2
+            solutions = gentle_repair_population(solutions, n_waypoints, N_DISKS, ch, repair_rate=REPAIR_RATE, fitness_fn=None, debug=debug_repair)
+
+        # Apply local refinement to best solution(s)
+        if LOCAL_REFINEMENT_ENABLED and iteration % LOCAL_REFINEMENT_FREQUENCY == 0:
+            # Evaluate all solutions to find best
+            temp_fitnesses = [objective(s) for s in solutions]
+            best_idx = np.argmin(temp_fitnesses)
+
+            # Refine best solution
+            refined_solution, refined_fitness = local_refine(
+                solutions[best_idx], n_waypoints, N_DISKS, ch,
+                max_iter=LOCAL_REFINEMENT_MAX_ITER
+            )
+
+            # Replace if improved
+            if refined_fitness < temp_fitnesses[best_idx]:
+                solutions[best_idx] = refined_solution
 
         fitnesses = [objective(s) for s in solutions]
         es.tell(solutions, fitnesses)
