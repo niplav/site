@@ -1112,3 +1112,6 @@ datetime,substance,amount,experiment,id,prediction
 2025-12-30T19:55:54+01:00,melatonin,0.25mg,,,
 2026-01-01T22:02:28+01:00,melatonin,0.25mg,,,
 2026-01-01T22:02:35+01:00,magnesium,300mg,,,
+2026-01-02T11:42:34+01:00,vitamind3,25μg,,,
+2026-01-02T11:42:48+01:00,omega3,265mg,,,
+2026-01-02T11:42:59+01:00,l-theanine,500mg,,,
