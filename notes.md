@@ -3197,6 +3197,14 @@ computation](https://en.wikipedia.org/wiki/Real_computation).
 <video src="./vid/champagne/7_ea.webm" type='video/webm' controls>
 </video>
 
+An Idea on How to Tax Positional Goods
+----------------------------------------
+
+Positional goods work like this: Me and Titus both have a large mansion
+each, with Titus' being slightly but still noticeably larger. But I
+*really* care about having the *biggest* mansions, specifically, so I
+go and buy an even bigger mansion to replace (or augment) my old one.
+
 <!--Why Are There So Few Natural NP-Complete Problems with Superquadratic Verifiers?
 ---------------------------------------------------------------------------------
 

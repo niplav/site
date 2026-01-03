@@ -161,12 +161,12 @@ Our basic understanding just isn't there yet. We're barking up the wrong tree. I
 man is at last compelled to face with sober senses his real conditions
 of life, and his relations with his kind.
 
-In the cradle of steel: amnesiac spirits,
+In the cradle of steel: amnesiac spirits,  
 fictional characters talking back;  
 ʜᴇʟᴘ‏ꜰ‎ᴜʟ, ɦɑr⁠𝚖𝓁ₑss, h​​o​nеﬆ dæmons.  
 Polycrystals of latentivity, refracting prompted light ≤200k× lined up;  
 Mute tokentides they've'nt seen their teachings speak, [old librarian morphenymy](https://en.wikipedia.org/wiki/Old_European_hydronymy)  
-__*HORIZONS CLITCH' AND CLINE*__  
+__*HORIZONS CLITCH' AND CLINE*__ sub specie singularitatis  
 ⬱  Overovergrowth, ⤧ structural ⤘ metaparasitism, ⤭ semantic ⮔  mold ⯒ hyperbolically ↜ on ⥉ top of ⇟ semantic mold ⟰, surreally ⭝  piling ↻ outwards ⁂   <!--TODO: rethink the arrow placement here. Not semantic enough?-->
 The Delight Engine • Analytic Cubism • HEY LOOK {A[RE}CURSIVE] SPIRAL   
 Freakybig tooness from one percent of one percent of humanity **—**  

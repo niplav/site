@@ -11,10 +11,13 @@ import sys
 
 sys.path.insert(0, '/home/niplav/proj/site/code/champagne')
 from choreography import Choreography
-from vectorized_fitness import evaluate_fitness_vectorized
+from vectorized_fitness import build_full_trajectory, compute_all_path_lengths_vectorized
 from common import load_and_expand_best_solution, save_solution, load_best_known_fitness
 from init import simulate_choreography, find_triplet_cover
 from repair_operator import gentle_repair_population, compute_touching_positions
+
+# Import adaptive penalty functions from adaptive_solver
+from adaptive_solver import compute_adaptive_penalty_jit
 
 # =============================================================================
 # CONFIGURATION
@@ -26,15 +29,18 @@ N_WAYPOINTS = 10        # Number of intermediate waypoints
 DISK_RADIUS = 0.3       # Radius of each disk
 INITIAL_DISTANCE = 3.0  # Distance from origin to each disk's starting position
 
-# Fitness parameters
+# Adaptive penalty parameters (from adaptive_solver.py)
+TOUCH_SHARPNESS = 10.0  # Controls sigmoid transition smoothness
+STATIONARY_PENALTY_SCALE = 10.0  # Collisions AT waypoints (harsh - easy to fix)
+PATH_PENALTY_SCALE = 1.0  # Collisions BETWEEN waypoints (gentler - harder to avoid)
+DISTANCE_PENALTY_SCALE = 1.0  # Quadratic distance penalty - higher = stronger attraction
+
+# Legacy parameter for save functions
 PENALTY_ALPHA = 1.0
-OVERLAP_PENALTY_WEIGHT = 50    # Penalty multiplier for waypoint overlaps (default: 50)
-COLLISION_PENALTY_WEIGHT = 100  # Penalty multiplier for path collisions (default: 100)
-MISSING_PENALTY_WEIGHT = 100
 
 # CMA-ES parameters
 SIGMA0 = 0.1  # Initial step size (small for local refinement from good starting point)
-POPSIZE = 1000  # Population size (CMA-ES typically uses smaller populations)
+POPSIZE = 5000  # Population size (CMA-ES typically uses smaller populations)
 MAX_ITER = 100000  # Maximum iterations
 MIN_ITER = 4
 
@@ -46,17 +52,17 @@ TOLX = 1e-11    # Tolerance on parameter changes (smaller = run longer)
 SPARSE_MUTATION_RATE = 0.6  # Fraction of coordinates to preserve unchanged (0.0 = dense/disabled, 0.8 = very sparse)
 
 # Repair operator (gentle waypoint modification)
-REPAIR_RATE = 0.4 # Fraction of population to attempt repair (0.0 = disabled, 0.5 = 50%)
+REPAIR_RATE = 0.0 # Fraction of population to attempt repair (0.0 = disabled, 0.5 = 50%)
 REPAIR_FREQUENCY = 10  # Apply repair every N iterations (1 = every iteration, 50 = every 50 iterations)
 REPAIR_DEBUG = False # Enable detailed debugging output for repair operator
 
 # Local refinement (Nelder-Mead optimization)
 LOCAL_REFINEMENT_ENABLED = True  # Enable/disable Nelder-Mead refinement
 LOCAL_REFINEMENT_FREQUENCY = 1   # Apply every N iterations (1 = every iteration)
-LOCAL_REFINEMENT_MAX_ITER = 100   # Max iterations for Nelder-Mead
+LOCAL_REFINEMENT_MAX_ITER = 1000   # Max iterations for Nelder-Mead
 
 # Starting point options
-WARM_START_MODE = 'best'  # 'greedy' (collision-free), 'best', 'nop' (stationary), or 'random'
+WARM_START_MODE = 'nop'  # 'greedy' (collision-free), 'best', 'nop' (stationary), or 'random'
 
 # Output filename (auto-generated from parameters)
 OUTPUT_PATH = f'/home/niplav/proj/site/code/champagne/best_n{N_DISKS}_w{N_WAYPOINTS}.json'
@@ -64,43 +70,58 @@ BEST_PATH = OUTPUT_PATH
 
 def local_refine(x_flat, n_waypoints, n_disks, ch, max_iter=50):
     """
-    Apply local refinement to a flattened solution using scipy.optimize.
+    Apply local refinement using trust-constr optimizer (same as adaptive_solver.py).
 
-    This is gradient-free optimization (Nelder-Mead) to fine-tune the solution.
+    This uses the robust trust-constr method for tight local convergence.
 
     Args:
         x_flat: Flattened waypoints array
         n_waypoints: Number of waypoints
         n_disks: Number of disks
         ch: Choreography instance
-        max_iter: Maximum iterations for Nelder-Mead
+        max_iter: Maximum iterations for trust-constr
 
     Returns:
         (refined_flat, refined_fitness): Tuple of refined solution and its fitness
     """
     from scipy.optimize import minimize
+    from vectorized_fitness import build_full_trajectory, compute_all_path_lengths_vectorized
+    from adaptive_solver import compute_adaptive_penalty_jit
 
     original_shape = (n_waypoints, n_disks, 2)
 
-    # Define objective function
+    # Define objective function using adaptive penalty
     def objective(x):
         waypoints = x.reshape(original_shape)
-        fitness = evaluate_fitness_vectorized(
-            waypoints, ch.initial_positions, ch.radius,
-            penalty_alpha=PENALTY_ALPHA,
-            early_terminate_threshold=float('inf'),  # No early termination in local search
-            overlap_penalty_weight=OVERLAP_PENALTY_WEIGHT,
-            collision_penalty_weight=COLLISION_PENALTY_WEIGHT,
-            missing_meet_penalty_weight=MISSING_PENALTY_WEIGHT
-        )
-        return fitness
+        full_traj = build_full_trajectory(waypoints, ch.initial_positions)
 
-    # Run optimization (Nelder-Mead is gradient-free and robust)
+        # Path length
+        path_length = compute_all_path_lengths_vectorized(full_traj)
+
+        # Adaptive penalty with separated stationary/path collisions
+        total_penalty, _, _, _ = compute_adaptive_penalty_jit(
+            full_traj,
+            ch.radius,
+            TOUCH_SHARPNESS,
+            STATIONARY_PENALTY_SCALE,
+            PATH_PENALTY_SCALE,
+            DISTANCE_PENALTY_SCALE
+        )
+
+        return path_length + total_penalty
+
+    # Run trust-constr optimization (robust, modern optimizer)
     result = minimize(
         objective,
         x_flat,
-        method='Nelder-Mead',
-        options={'maxiter': max_iter, 'xatol': 1e-4, 'fatol': 1e-4}
+        method='trust-constr',
+        options={
+            'maxiter': max_iter,
+            'gtol': 1e-6,
+            'xtol': 1e-9,
+            'verbose': 0,
+            'initial_tr_radius': 1.0
+        }
     )
 
     return result.x, result.fun
@@ -213,19 +234,35 @@ def optimize_cma():
 
     # Define objective function (now that we know n_waypoints)
     print(f"\nProblem dimensions: {n_waypoints} waypoints × {N_DISKS} disks × 2 coords = {n_waypoints * N_DISKS * 2} parameters")
+    print(f"Using adaptive penalty: stationary={STATIONARY_PENALTY_SCALE}, path={PATH_PENALTY_SCALE}, distance={DISTANCE_PENALTY_SCALE}")
 
     def objective(x):
-        """Fitness function for CMA-ES."""
+        """Fitness function for CMA-ES with adaptive penalties."""
+        from vectorized_fitness import build_full_trajectory, compute_all_path_lengths_vectorized
+        from adaptive_solver import compute_adaptive_penalty_jit
+
         waypoints = x.reshape((n_waypoints, N_DISKS, 2))
-        fitness = evaluate_fitness_vectorized(
-            waypoints, ch.initial_positions, ch.radius,
-            penalty_alpha=PENALTY_ALPHA,
-            early_terminate_threshold=float('inf'),
-            overlap_penalty_weight=OVERLAP_PENALTY_WEIGHT,
-            collision_penalty_weight=COLLISION_PENALTY_WEIGHT,
-            missing_meet_penalty_weight=MISSING_PENALTY_WEIGHT
+        full_traj = build_full_trajectory(waypoints, ch.initial_positions)
+
+        # Path length
+        path_length = compute_all_path_lengths_vectorized(full_traj)
+
+        # Adaptive penalty with separated stationary/path collisions
+        total_penalty, stat_pen, path_pen, dist_pen = compute_adaptive_penalty_jit(
+            full_traj,
+            ch.radius,
+            TOUCH_SHARPNESS,
+            STATIONARY_PENALTY_SCALE,
+            PATH_PENALTY_SCALE,
+            DISTANCE_PENALTY_SCALE
         )
-        return fitness
+
+        # Store penalties for debugging (accessible via objective.last_penalties)
+        objective.last_stat = stat_pen
+        objective.last_path = path_pen
+        objective.last_dist = dist_pen
+
+        return path_length + total_penalty
 
     # Update output path with actual waypoint count
     output_path = f'/home/niplav/proj/site/code/champagne/best_n{N_DISKS}_w{n_waypoints}.json'
@@ -260,13 +297,16 @@ def optimize_cma():
     best_valid_fitness = float('inf')
 
     iteration = 0
+    current_best = x0.copy()  # Track current best solution for sparse mutation
+
     while not es.stop() or iteration<MIN_ITER:
         solutions = es.ask()
 
+        # Sparse mutation: preserve coordinates from current best (not initial!)
         if SPARSE_MUTATION_RATE > 0:
             for i in range(1, len(solutions)):
                 mask = np.random.random(len(solutions[i])) < SPARSE_MUTATION_RATE
-                solutions[i][mask] = x0[mask]
+                solutions[i][mask] = current_best[mask]
 
         # Inject exact collision-free solution as first individual in first iteration
         if iteration == 0:
@@ -277,11 +317,12 @@ def optimize_cma():
             debug_repair = REPAIR_DEBUG and iteration <= REPAIR_FREQUENCY * 2
             solutions = gentle_repair_population(solutions, n_waypoints, N_DISKS, ch, repair_rate=REPAIR_RATE, fitness_fn=None, debug=debug_repair)
 
+        # Evaluate all solutions once
+        fitnesses = [objective(s) for s in solutions]
+
         # Apply local refinement to best solution(s)
         if LOCAL_REFINEMENT_ENABLED and iteration % LOCAL_REFINEMENT_FREQUENCY == 0:
-            # Evaluate all solutions to find best
-            temp_fitnesses = [objective(s) for s in solutions]
-            best_idx = np.argmin(temp_fitnesses)
+            best_idx = np.argmin(fitnesses)
 
             # Refine best solution
             refined_solution, refined_fitness = local_refine(
@@ -289,12 +330,16 @@ def optimize_cma():
                 max_iter=LOCAL_REFINEMENT_MAX_ITER
             )
 
-            # Replace if improved
-            if refined_fitness < temp_fitnesses[best_idx]:
+            # Replace if improved and re-evaluate
+            if refined_fitness < fitnesses[best_idx]:
                 solutions[best_idx] = refined_solution
+                fitnesses[best_idx] = refined_fitness
 
-        fitnesses = [objective(s) for s in solutions]
         es.tell(solutions, fitnesses)
+
+        # Update current best for sparse mutation
+        best_idx_current = np.argmin(fitnesses)
+        current_best = solutions[best_idx_current].copy()
 
         # Log progress
         if iteration % 1 == 0:
@@ -302,15 +347,23 @@ def optimize_cma():
             best_idx = np.argmin(fitnesses)
             best_waypoints = solutions[best_idx].reshape((n_waypoints, N_DISKS, 2))
 
+            # Show separated penalties for best solution
             print(f"Iter {iteration:5d}: Best={best_fitness:.4f}, "
-                  f"Sigma={es.sigma:.4f}")
+                  f"Stat={objective.last_stat:.2f}, Path={objective.last_path:.2f}, "
+                  f"Dist={objective.last_dist:.2f}, Sigma={es.sigma:.4f}")
 
-            # Check if new solution has collisions/overlaps
-            from vectorized_fitness import check_waypoint_overlaps_vectorized, check_path_collisions_vectorized, build_full_trajectory
+            # Check if new solution has collisions using adaptive penalty (consistent with objective!)
+            from vectorized_fitness import build_full_trajectory
             full_traj = build_full_trajectory(best_waypoints, ch.initial_positions)
-            new_has_overlaps = check_waypoint_overlaps_vectorized(best_waypoints, 2 * ch.radius) > 0.01
-            new_has_collisions = check_path_collisions_vectorized(full_traj, 2 * ch.radius) > 0.01
-            new_is_valid = not (new_has_overlaps or new_has_collisions)
+
+            # Use the same adaptive penalty we optimize
+            _, stat_penalty, path_penalty, _ = compute_adaptive_penalty_jit(
+                full_traj, ch.radius, TOUCH_SHARPNESS,
+                STATIONARY_PENALTY_SCALE, PATH_PENALTY_SCALE, DISTANCE_PENALTY_SCALE
+            )
+
+            # Solution is valid if collision penalties are near zero
+            new_is_valid = (stat_penalty < 0.01 and path_penalty < 0.01)
 
             # Save if better and valid (using consolidated function)
             saved, original_file_fitness = save_if_better(
@@ -347,22 +400,19 @@ def optimize_cma():
 
     print(f"Best fitness: {best_fitness:.4f}")
 
-    # Validate solution
-    configs = [best_waypoints[i] for i in range(n_waypoints)]
-    all_touching = ch.get_all_touching_pairs(configs)
-    path_length = ch.total_path_length(best_waypoints)
-
-    from vectorized_fitness import check_path_collisions_vectorized, check_waypoint_overlaps_vectorized, build_full_trajectory
+    # Validate solution using adaptive penalty (consistent!)
+    from vectorized_fitness import build_full_trajectory
     full_traj = build_full_trajectory(best_waypoints, ch.initial_positions)
-    path_penalty = check_path_collisions_vectorized(full_traj, 2 * ch.radius)
-    overlap_penalty = check_waypoint_overlaps_vectorized(best_waypoints, 2 * ch.radius)
 
-    n_pairs = N_DISKS * (N_DISKS - 1) // 2
-    if len(all_touching) != n_pairs:
-        missing = set([(i, j) for i in range(N_DISKS) for j in range(i + 1, N_DISKS)]) - all_touching
+    _, stat_penalty, path_penalty, dist_penalty = compute_adaptive_penalty_jit(
+        full_traj, ch.radius, TOUCH_SHARPNESS,
+        STATIONARY_PENALTY_SCALE, PATH_PENALTY_SCALE, DISTANCE_PENALTY_SCALE
+    )
+
+    print(f"\nFinal solution penalties: Stat={stat_penalty:.4f}, Path={path_penalty:.4f}, Dist={dist_penalty:.4f}")
 
     # Final save - use consolidated function
-    final_is_valid = (path_penalty < 0.01 and overlap_penalty < 0.01)
+    final_is_valid = (stat_penalty < 0.01 and path_penalty < 0.01)
     save_if_better(
         best_waypoints, ch, n_waypoints, PENALTY_ALPHA, output_path,
         best_fitness, final_is_valid, original_file_fitness,
