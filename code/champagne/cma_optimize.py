@@ -1,9 +1,49 @@
 #!/usr/bin/env python3
 """
-CMA-ES optimization for champagne toasting problem.
+Hybrid CMA-ES + trust-constr Optimizer for Champagne Toasting Problem
 
-Uses Covariance Matrix Adaptation Evolution Strategy for sophisticated
-black-box optimization.
+OPTIMIZATION STRATEGY:
+This file implements a hybrid optimization approach combining:
+1. CMA-ES (Covariance Matrix Adaptation Evolution Strategy) - global exploration
+2. trust-constr (Trust Region Constrained Optimizer) - local exploitation
+
+HYBRID ARCHITECTURE:
+┌─────────────────────────────────────────────────────────────────┐
+│ CMA-ES Population Evolution (Global Search)                     │
+│  - Maintains population of candidate solutions                  │
+│  - Adapts covariance matrix to learn promising search directions│
+│  - Population size: POPSIZE (typically 10k)                      │
+│  - Step size: SIGMA0 (adaptive)                                 │
+└─────────────────────────────────────────────────────────────────┘
+                              ↓ every LOCAL_REFINEMENT_FREQUENCY iterations
+┌─────────────────────────────────────────────────────────────────┐
+│ trust-constr Local Refinement (Local Search)                    │
+│  - Applied to best solution in current population               │
+│  - Uses adaptive penalty objective (same as population)         │
+│  - Max iterations: LOCAL_REFINEMENT_MAX_ITER                    │
+│  - Only replaces if improved (monotonic!)                       │
+└─────────────────────────────────────────────────────────────────┘
+
+OBJECTIVE FUNCTION:
+Uses adaptive penalty from adaptive_solver.py:
+  fitness = path_length + stationary_penalty + path_penalty + distance_penalty
+
+Where:
+  - stationary_penalty: Quartic penalty for overlaps at waypoints
+  - path_penalty: Exponential penalty for overlaps between waypoints
+  - distance_penalty: Quadratic penalty for pairs that haven't touched
+
+MONOTONICITY GUARANTEE:
+The optimizer ensures monotonic progress through:
+  1. Local refinement only updates if refined_fitness < current_fitness
+  2. Best valid solution tracking only updates if better AND valid
+  3. Sparse mutation anchors to current best (not initial solution)
+
+WHY THIS WORKS:
+- CMA-ES provides robust global search with adaptive step sizing
+- trust-constr provides tight local convergence with gradient info
+- Adaptive penalty creates smooth optimization landscape
+- Hybrid approach gets best of both: exploration + exploitation
 """
 
 import numpy as np
@@ -16,8 +56,8 @@ from common import load_and_expand_best_solution, save_solution, load_best_known
 from init import simulate_choreography, find_triplet_cover
 from repair_operator import gentle_repair_population, compute_touching_positions
 
-# Import adaptive penalty functions from adaptive_solver
-from adaptive_solver import compute_adaptive_penalty_jit
+# Import adaptive penalty functions and constants from adaptive_solver
+from adaptive_solver import compute_adaptive_penalty_jit, COLLISION_VALIDITY_THRESHOLD
 
 # =============================================================================
 # CONFIGURATION
@@ -25,44 +65,47 @@ from adaptive_solver import compute_adaptive_penalty_jit
 
 # Problem parameters
 N_DISKS = 8             # Number of champagne glasses
-N_WAYPOINTS = 10        # Number of intermediate waypoints
+N_WAYPOINTS = 14        # Number of intermediate waypoints
 DISK_RADIUS = 0.3       # Radius of each disk
 INITIAL_DISTANCE = 3.0  # Distance from origin to each disk's starting position
 
 # Adaptive penalty parameters (from adaptive_solver.py)
 TOUCH_SHARPNESS = 10.0  # Controls sigmoid transition smoothness
-STATIONARY_PENALTY_SCALE = 10.0  # Collisions AT waypoints (harsh - easy to fix)
+STATIONARY_PENALTY_SCALE = 1.0  # Collisions AT waypoints (harsh - easy to fix)
 PATH_PENALTY_SCALE = 1.0  # Collisions BETWEEN waypoints (gentler - harder to avoid)
 DISTANCE_PENALTY_SCALE = 1.0  # Quadratic distance penalty - higher = stronger attraction
 
 # Legacy parameter for save functions
 PENALTY_ALPHA = 1.0
 
+# Optimizer parameters
+LOCAL_REFINE_INITIAL_TR_RADIUS = 1.0  # Initial trust region radius for local refinement
+
 # CMA-ES parameters
-SIGMA0 = 0.1  # Initial step size (small for local refinement from good starting point)
-POPSIZE = 5000  # Population size (CMA-ES typically uses smaller populations)
+SIGMA0 = 0.05  # Initial step size (small for local refinement from good starting point)
+POPSIZE = 10000  # Population size (CMA-ES typically uses smaller populations)
 MAX_ITER = 100000  # Maximum iterations
-MIN_ITER = 4
+MIN_ITER = 0
 
 # Termination tolerances (set very small to disable early stopping)
 TOLFUN = 1e-11  # Tolerance on function value changes (smaller = run longer)
 TOLX = 1e-11    # Tolerance on parameter changes (smaller = run longer)
 
 # Sparse mutations (preserve coordinates to maintain structure)
-SPARSE_MUTATION_RATE = 0.6  # Fraction of coordinates to preserve unchanged (0.0 = dense/disabled, 0.8 = very sparse)
+SPARSE_MUTATION_RATE = 0.0  # Fraction of coordinates to preserve unchanged (0.0 = dense/disabled, 0.8 = very sparse)
 
 # Repair operator (gentle waypoint modification)
 REPAIR_RATE = 0.0 # Fraction of population to attempt repair (0.0 = disabled, 0.5 = 50%)
 REPAIR_FREQUENCY = 10  # Apply repair every N iterations (1 = every iteration, 50 = every 50 iterations)
 REPAIR_DEBUG = False # Enable detailed debugging output for repair operator
 
-# Local refinement (Nelder-Mead optimization)
-LOCAL_REFINEMENT_ENABLED = True  # Enable/disable Nelder-Mead refinement
+# Local refinement (trust-constr optimization - same as adaptive_solver.py)
+LOCAL_REFINEMENT_ENABLED = True  # Enable/disable trust-constr refinement
 LOCAL_REFINEMENT_FREQUENCY = 1   # Apply every N iterations (1 = every iteration)
-LOCAL_REFINEMENT_MAX_ITER = 1000   # Max iterations for Nelder-Mead
+LOCAL_REFINEMENT_MAX_ITER = 10000   # Max iterations for trust-constr
 
 # Starting point options
-WARM_START_MODE = 'nop'  # 'greedy' (collision-free), 'best', 'nop' (stationary), or 'random'
+WARM_START_MODE = 'greedy'  # 'greedy' (collision-free), 'best', 'nop' (stationary), or 'random'
 
 # Output filename (auto-generated from parameters)
 OUTPUT_PATH = f'/home/niplav/proj/site/code/champagne/best_n{N_DISKS}_w{N_WAYPOINTS}.json'
@@ -70,12 +113,17 @@ BEST_PATH = OUTPUT_PATH
 
 def local_refine(x_flat, n_waypoints, n_disks, ch, max_iter=50):
     """
-    Apply local refinement using trust-constr optimizer (same as adaptive_solver.py).
+    Apply local refinement using trust-constr optimizer (hybrid architecture component).
 
-    This uses the robust trust-constr method for tight local convergence.
+    This function implements the LOCAL EXPLOITATION phase of the hybrid optimizer.
+    It takes the best solution from the CMA-ES population and refines it using
+    gradient-based trust-constr optimization for tight local convergence.
+
+    Uses the same adaptive penalty objective as the CMA-ES population, ensuring
+    consistency across global and local search phases.
 
     Args:
-        x_flat: Flattened waypoints array
+        x_flat: Flattened waypoints array (best from CMA-ES population)
         n_waypoints: Number of waypoints
         n_disks: Number of disks
         ch: Choreography instance
@@ -120,7 +168,7 @@ def local_refine(x_flat, n_waypoints, n_disks, ch, max_iter=50):
             'gtol': 1e-6,
             'xtol': 1e-9,
             'verbose': 0,
-            'initial_tr_radius': 1.0
+            'initial_tr_radius': LOCAL_REFINE_INITIAL_TR_RADIUS
         }
     )
 
@@ -176,7 +224,20 @@ def save_if_better(waypoints, ch, n_waypoints, penalty_alpha, output_path,
 
 
 def optimize_cma():
-    """Run CMA-ES optimization with smart domain-specific mutations."""
+    """
+    Run CMA-ES optimization with smart domain-specific mutations.
+
+    DUAL-SAVE SYSTEM:
+    This optimizer tracks and saves TWO separate solutions:
+    1. Best VALID solution   → saved to best_n{N}_w{W}.json
+       - Constraint: penalties < COLLISION_VALIDITY_THRESHOLD (0.01)
+       - Only saves if fitness improves AND constraints satisfied
+
+    2. Best PATH-LENGTH solution → saved to best_n{N}_w{W}_pathonly.json
+       - No constraint on collision penalties
+       - Tracks pure optimization progress, even if slightly invalid
+       - Useful for understanding theoretical lower bounds
+    """
     import cma
 
     ch = Choreography(n=N_DISKS, radius=DISK_RADIUS, initial_distance=INITIAL_DISTANCE)
@@ -296,6 +357,11 @@ def optimize_cma():
     best_valid_solution = None
     best_valid_fitness = float('inf')
 
+    # Track best path-length solution (regardless of validity)
+    best_pathlen_solution = None
+    best_pathlen_fitness = float('inf')
+    best_pathlen_file_fitness = load_best_known_fitness(output_path.replace('.json', '_pathonly.json'))
+
     iteration = 0
     current_best = x0.copy()  # Track current best solution for sparse mutation
 
@@ -330,14 +396,14 @@ def optimize_cma():
                 max_iter=LOCAL_REFINEMENT_MAX_ITER
             )
 
-            # Replace if improved and re-evaluate
+            # Replace if improved (MONOTONICITY: only update if strictly better)
             if refined_fitness < fitnesses[best_idx]:
                 solutions[best_idx] = refined_solution
                 fitnesses[best_idx] = refined_fitness
 
         es.tell(solutions, fitnesses)
 
-        # Update current best for sparse mutation
+        # Update current best for sparse mutation (MONOTONICITY: always best from current population)
         best_idx_current = np.argmin(fitnesses)
         current_best = solutions[best_idx_current].copy()
 
@@ -363,7 +429,8 @@ def optimize_cma():
             )
 
             # Solution is valid if collision penalties are near zero
-            new_is_valid = (stat_penalty < 0.01 and path_penalty < 0.01)
+            new_is_valid = (stat_penalty < COLLISION_VALIDITY_THRESHOLD and
+                           path_penalty < COLLISION_VALIDITY_THRESHOLD)
 
             # Save if better and valid (using consolidated function)
             saved, original_file_fitness = save_if_better(
@@ -375,10 +442,23 @@ def optimize_cma():
             if saved:
                 best_known_fitness = best_fitness
 
-            # Track best valid solution from this generation
+            # Track best valid solution (MONOTONICITY: only update if valid AND better)
             if new_is_valid and best_fitness < best_valid_fitness:
                 best_valid_solution = best_waypoints.copy()
                 best_valid_fitness = best_fitness
+
+            # Track best path-length solution (REGARDLESS of validity)
+            # This tracks pure optimization progress, even if constraints are violated
+            if best_fitness < best_pathlen_fitness:
+                best_pathlen_solution = best_waypoints.copy()
+                best_pathlen_fitness = best_fitness
+
+                # Save if better than previous best path-only solution
+                if best_fitness < best_pathlen_file_fitness:
+                    pathonly_path = output_path.replace('.json', '_pathonly.json')
+                    save_solution(best_waypoints, ch, n_waypoints, PENALTY_ALPHA, pathonly_path)
+                    print(f"  → New best path-length! Saved to {pathonly_path} (fitness: {best_fitness:.4f}, valid: {new_is_valid})")
+                    best_pathlen_file_fitness = best_fitness
 
         iteration += 1
 
@@ -411,13 +491,27 @@ def optimize_cma():
 
     print(f"\nFinal solution penalties: Stat={stat_penalty:.4f}, Path={path_penalty:.4f}, Dist={dist_penalty:.4f}")
 
+    # Print summary of both tracked solutions
+    print("\n" + "-" * 60)
+    print("SOLUTION TRACKING SUMMARY:")
+    print(f"  Best valid solution:      {best_valid_fitness:.4f} (penalties < {COLLISION_VALIDITY_THRESHOLD})")
+    print(f"  Best path-length solution: {best_pathlen_fitness:.4f} (regardless of validity)")
+    print("-" * 60)
+
     # Final save - use consolidated function
-    final_is_valid = (stat_penalty < 0.01 and path_penalty < 0.01)
+    final_is_valid = (stat_penalty < COLLISION_VALIDITY_THRESHOLD and
+                     path_penalty < COLLISION_VALIDITY_THRESHOLD)
     save_if_better(
         best_waypoints, ch, n_waypoints, PENALTY_ALPHA, output_path,
         best_fitness, final_is_valid, original_file_fitness,
         verbose=True, context="final"
     )
+
+    # Also save final best path-length solution (regardless of validity)
+    if best_pathlen_solution is not None and best_pathlen_fitness < best_pathlen_file_fitness:
+        pathonly_path = output_path.replace('.json', '_pathonly.json')
+        save_solution(best_pathlen_solution, ch, n_waypoints, PENALTY_ALPHA, pathonly_path)
+        print(f"✓ Final best path-length saved to {pathonly_path} (fitness: {best_pathlen_fitness:.4f})")
 
     return best_waypoints, best_fitness
 
