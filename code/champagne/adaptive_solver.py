@@ -2,6 +2,10 @@
 """
 Adaptive Penalty Solver for Champagne Toasting Problem
 
+This file serves two purposes:
+1. LIBRARY: Exports compute_adaptive_penalty_jit for use in cma_optimize.py
+2. STANDALONE: Provides AdaptivePenaltySolver class for direct optimization
+
 Uses trajectory-aware adaptive penalties:
 - Pairs that haven't touched: quadratic distance penalty + exponential intersection penalty
 - Pairs that have touched: only exponential intersection penalty
@@ -18,7 +22,7 @@ from vectorized_fitness import (
 )
 
 # ============================================================================
-# USER-ADJUSTABLE PARAMETERS
+# USER-ADJUSTABLE PARAMETERS (for standalone mode)
 # ============================================================================
 
 N_DISKS = 8
@@ -42,7 +46,24 @@ DISTANCE_PENALTY_SCALE = 1.0  # Quadratic distance penalty - higher = stronger a
 # Initialization strategy: 'center_convergence', 'non_moving', or 'from_best'
 INIT_STRATEGY = 'center_convergence'
 
+# Optimizer parameters
+INITIAL_TRUST_RADIUS = 10.0  # Initial trust region radius for exploration
+VERBOSE_FREQ = 100  # Print progress every N evaluations
+
+# Validation thresholds (shared with cma_optimize.py)
+COLLISION_VALIDITY_THRESHOLD = 0.01  # Solution is valid if penalties < this value
+
+# Initialization parameters
+MEETING_RADIUS_MULTIPLIER = 2.0  # Meeting circle radius = this × disk_radius
+CENTER_CONVERGENCE_MIDPOINT = 0.5  # t-value where disks reach center in initialization
+
 # ============================================================================
+# LIBRARY FUNCTIONS (exported to cma_optimize.py)
+# ============================================================================
+# These functions are imported and used by cma_optimize.py:
+#   - compute_adaptive_penalty_jit: Core penalty computation
+#   - compute_segment_min_distance: Helper for segment-wise distance (called by above)
+#   - compute_trajectory_min_distance: Helper for trajectory-wise distance (called by above)
 
 
 @jit(nopython=True, cache=True)
@@ -184,7 +205,19 @@ def compute_adaptive_penalty_jit(full_traj, disk_radius, touch_sharpness,
     return total_penalty, stationary_penalty, path_penalty, distance_penalty
 
 
-class AdaptivePenaltySolver:
+# ============================================================================
+# STANDALONE SOLVER CLASS & UTILITIES (NOT used when imported as library)
+# ============================================================================
+# The following code is ONLY executed when running `python adaptive_solver.py`
+# NOT imported by cma_optimize.py - provides standalone optimization capability
+#
+# Standalone-only components:
+#   - AdaptivePenaltySolver class (and all its methods)
+#   - verify_solution()
+#   - save_solution()
+#   - main()
+
+class AdaptivePenaltySolver:  # STANDALONE ONLY
     def __init__(self, n_disks, disk_radius, polygon_radius, n_waypoints):
         self.n_disks = n_disks
         self.disk_radius = disk_radius
@@ -245,7 +278,7 @@ class AdaptivePenaltySolver:
         total = path_length + total_penalty
 
         self.n_evals += 1
-        if VERBOSE and self.n_evals % 100 == 0:
+        if VERBOSE and self.n_evals % VERBOSE_FREQ == 0:
             print(f"Eval {self.n_evals}: path={path_length:.2f}, stat={stat_penalty:.2f}, "
                   f"path={path_penalty:.2f}, dist={dist_penalty:.2f}, total={total:.2f}")
 
@@ -259,7 +292,7 @@ class AdaptivePenaltySolver:
 
         # Angles for small circle
         angles = np.linspace(0, 2*np.pi, self.n_disks, endpoint=False)
-        meeting_radius = 2.0 * self.disk_radius  # Small circle where disks can touch
+        meeting_radius = MEETING_RADIUS_MULTIPLIER * self.disk_radius  # Small circle where disks can touch
         meeting_circle = meeting_radius * np.column_stack([
             np.cos(angles),
             np.sin(angles)
@@ -268,13 +301,13 @@ class AdaptivePenaltySolver:
         # Interpolate: start -> meeting circle -> start
         for w in range(self.n_waypoints):
             t = (w + 1) / (self.n_waypoints + 1)
-            if t <= 0.5:
+            if t <= CENTER_CONVERGENCE_MIDPOINT:
                 # Going toward center
                 alpha = 2 * t
                 waypoints[w] = (1 - alpha) * self.initial_positions + alpha * meeting_circle
             else:
                 # Returning from center
-                alpha = 2 * (t - 0.5)
+                alpha = 2 * (t - CENTER_CONVERGENCE_MIDPOINT)
                 waypoints[w] = (1 - alpha) * meeting_circle + alpha * self.initial_positions
 
         return waypoints
@@ -334,7 +367,7 @@ class AdaptivePenaltySolver:
                 'gtol': GTOL,
                 'xtol': FTOL,
                 'verbose': 2 if VERBOSE else 0,
-                'initial_tr_radius': 10.0  # Larger trust region for exploration
+                'initial_tr_radius': INITIAL_TRUST_RADIUS  # Larger trust region for exploration
             }
         )
 
@@ -352,9 +385,10 @@ class AdaptivePenaltySolver:
         }
 
 
-def verify_solution(full_traj, disk_radius):
+def verify_solution(full_traj, disk_radius):  # STANDALONE ONLY
     """
     Verify that solution satisfies all constraints.
+    (STANDALONE ONLY - not used when imported as library)
     """
     n_disks = full_traj.shape[1]
     touch_dist = 2 * disk_radius
@@ -406,9 +440,10 @@ def verify_solution(full_traj, disk_radius):
 
 
 def save_solution(full_traj, path_length, initial_positions, all_pairs_touch, has_collisions,
-                 stationary_penalty, path_penalty, filename='solution_adaptive.json'):
+                 stationary_penalty, path_penalty, filename='solution_adaptive.json'):  # STANDALONE ONLY
     """
     Save solution in format compatible with visualization.
+    (STANDALONE ONLY - not used when imported as library)
     """
     n_disks = full_traj.shape[1]
     n_waypoints = len(full_traj) - 2  # Exclude initial and final positions
@@ -454,7 +489,8 @@ def save_solution(full_traj, path_length, initial_positions, all_pairs_touch, ha
     print(f"\nSolution saved to {filename}")
 
 
-def main():
+def main():  # STANDALONE ONLY
+    """Entry point for standalone execution (not used when imported as library)."""
     print(f"{'='*60}")
     print(f"ADAPTIVE PENALTY SOLVER")
     print(f"{'='*60}")

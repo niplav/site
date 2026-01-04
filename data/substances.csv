@@ -1115,4 +1115,6 @@ datetime,substance,amount,experiment,id,prediction
 2026-01-02T11:42:34+01:00,vitamind3,25μg,,,
 2026-01-02T11:42:48+01:00,omega3,265mg,,,
 2026-01-02T11:42:59+01:00,l-theanine,500mg,,,
-2026-01-03T11:45:21+01:00,water,2.6ml,D,A,
+2026-01-03T11:45:21+01:00,water,2.6ml,D,A,0.55
+2026-01-04T02:58:48+01:00,melatonin,0.2mg,,,
+2026-01-04T02:59:01+01:00,magnesium,300mg,,,
