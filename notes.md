@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2025-12-25, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2026-01-06, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -3096,7 +3096,7 @@ at least once, but they want to move their glasses as little as possible
 What's the optimal path for their glasses to take?
 
 Or, formulating it slightly more mathematically: Take a 2-d
-plane (`$ℝ²$`), and create `$n$` disks of radius `$r$` on
+plane (`$ℝ^2$`), and create `$n$` disks of radius `$r$` on
 that plane, arranged so that they're at the corners of a regular
 `$n$`-[gon](https://en.wikipedia.org/wiki/Regular_polygon) and the
 distance `$d$` of two adjacent disks is greater than `$2r$`. We want to
@@ -3186,7 +3186,7 @@ polygon and instead position them arbitrarily relative to each
 other in space? In that case the initial position of the disks
 is the "program", the trajectory taken is the output of the
 program. Perhaps one needs to restrict the underlying space to
-something more discrete than `$ℝ²$` to avoid accidental [real
+something more discrete than `$ℝ^2$` to avoid accidental [real
 computation](https://en.wikipedia.org/wiki/Real_computation).
 
 ### Visualizations of Best Approximations
