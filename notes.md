@@ -3314,6 +3314,11 @@ administrative division in Estonia?
 
 [^1]: Thanks for the brainstorming :-)
 
+ARC AGI Price Attempts
+-----------------------
+
+* 2026-01-07T10:05: Puzzle 2de01db2, given up after 7m20s.
+
 <!--Why Are There So Few Natural NP-Complete Problems with Superquadratic Verifiers?
 ---------------------------------------------------------------------------------
 

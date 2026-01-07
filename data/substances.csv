@@ -1121,3 +1121,5 @@ datetime,substance,amount,experiment,id,prediction
 2026-01-04T20:15:00+01:00,magnesium,300mg,,,
 2026-01-04T20:15:00+01:00,melatonin,0.3mg,,,
 2026-01-05T10:15:58+01:00,orexin-a,2.5ml,D,B,0.4
+2026-01-06T20:40:00:0::00,melatonin,0.3mg,,,
+2026-01-06T20:40:00:0::00,magnesium,300mg,,,
