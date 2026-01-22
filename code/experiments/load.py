@@ -28,14 +28,14 @@ def llrt_pval(lmbda, df=2):
 	return scistat.chi2.cdf(df, lmbda)
 
 def get_meditations():
-	meditations=pd.read_csv('../../data/meditations.csv')
+	meditations=pd.read_csv('../../data/meditations.csv').copy()
 	meditations['meditation_start']=pd.to_datetime(meditations['meditation_start'], utc=True, format='mixed')
 	meditations['meditation_end']=pd.to_datetime(meditations['meditation_end'], utc=True, format='mixed')
 
 	return meditations
 
 def get_moods():
-	mood=pd.read_csv('../../data/mood.csv')
+	mood=pd.read_csv('../../data/mood.csv').copy()
 	alarms=pd.to_datetime(pd.Series(mood['alarm']))
 	mood['alarm']=pd.DatetimeIndex(alarms.dt.tz_localize('CET', ambiguous='infer')).tz_convert(tz='UTC')
 	dates=pd.to_datetime(pd.Series(mood['date']))
@@ -44,26 +44,32 @@ def get_moods():
 	return mood
 
 def get_mental():
-	mental=pd.read_csv('../../data/mental.csv')
+	mental=pd.read_csv('../../data/mental.csv').copy()
 	mental['datetime']=pd.to_datetime(mental['datetime'], utc=True)
 
 	return mental
 
 def get_ispom():
-	ispomodoro=pd.read_csv('../../data/ispomodoro.csv')
+	ispomodoro=pd.read_csv('../../data/ispomodoro.csv').copy()
 	ispomodoro['date']=pd.to_datetime(ispomodoro['date'], utc=True)
 
 	return ispomodoro
 
+def get_islight():
+	islight=pd.read_csv('../../data/islight.csv').copy()
+	islight['date']=pd.to_datetime(islight['date'], utc=True)
+
+	return islight
+
 def get_flashcards():
-	flashcards=pd.read_csv('../../data/anki_reviews.csv')
+	flashcards=pd.read_csv('../../data/anki_reviews.csv').copy()
 	flashcards['id']=pd.to_datetime(flashcards['id'], unit='ms', utc=True)
 	flashcards['cid']=pd.to_datetime(flashcards['cid'], unit='ms', utc=True)
 
 	return flashcards
 
 def get_masturbations():
-	masturbations=pd.read_csv('../../data/masturbations.csv')
+	masturbations=pd.read_csv('../../data/masturbations.csv').copy()
 	masturbations.loc[masturbations['methods'].isna(),'methods']='n'
 	masturbations['datetime']=pd.to_datetime(masturbations['datetime'], utc=True, format='mixed', dayfirst=False)
 
@@ -191,7 +197,7 @@ def plot_datasets(datasets, title):
 
 def get_datasets(experiment, substance, placebo):
 	# Load substances data
-	substances = pd.read_csv('../../data/substances.csv')
+	substances = pd.read_csv('../../data/substances.csv').copy()
 	expa = substances.loc[substances['experiment'] == experiment].copy()
 	expa['datetime'] = pd.to_datetime(expa['datetime'], utc=True)
 	expa = expa.sort_values('datetime')
@@ -253,6 +259,39 @@ def get_datasets_pom():
 
 	def intervention_fn(df):
 		return df[df['ispomodoro'] == 1]
+
+	return get_datasets_fn(experiment_fn, control_fn, intervention_fn)
+
+def get_datasets_light():
+	# Load lumenator data
+	islight=get_islight()
+
+	def experiment_fn(df):
+		if 'meditation_start' in df.columns:
+			df = df.sort_values('meditation_start')
+			df = pd.merge_asof(islight, df, left_on='date', right_on='meditation_start', direction='forward', tolerance=pd.Timedelta('10h'))
+			df = df.rename(columns={'mindfulness_rating': 'mindfulness', 'concentration_rating': 'absorption', 'date': 'datetime'})
+			df=df[df['_id'].notna()]
+		elif 'alarm' in df.columns:
+			df = islight.join(df, how='cross', rsuffix='_r')
+			df = df.loc[(df['alarm'] - df['date'] < pd.Timedelta('20h')) & (df['alarm'] - df['date'] > pd.Timedelta('0h'))]
+			df = df.loc[df['relaxed'].notna()]
+			df = df.rename(columns={'date': 'datetime'})
+		elif 'productivity' in df.columns:
+			df = df.sort_values('datetime')
+			df = pd.merge_asof(islight, df, left_on='date', right_on='datetime', direction='forward', tolerance=pd.Timedelta('24h'))
+		elif 'id' in df.columns:
+			df = df.loc[(df['id'] > islight['date'].min()) & (df['id'] < islight['date'].max() + pd.Timedelta('10h'))]
+			df = islight.join(df, how='cross')
+			df = df.loc[(df['id'] - df['date'] < pd.Timedelta('10h')) & (df['id'] - df['date'] > pd.Timedelta('0h'))]
+			df.loc[df['ivl'] > 0, 'ivl'] = -df.loc[df['ivl'] > 0, 'ivl'] / 86400
+		return df
+
+	def control_fn(df):
+		return df[df['islight'] == 0]
+
+	def intervention_fn(df):
+		return df[df['islight'] == 1]
 
 	return get_datasets_fn(experiment_fn, control_fn, intervention_fn)
 
