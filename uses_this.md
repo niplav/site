@@ -65,10 +65,8 @@ In rough order of proficiency.
 ### Smartphone Apps
 
 * [Mood Patterns](https://www.moodpatterns.info)
-* [Meditation Timer & Log](https://play.google.com/store/apps/details?id=com.telesoftas.meditationtimer)
 * [Sensor Logger](https://play.google.com/store/apps/details?id=com.kelvin.sensorapp)
-* [one sec](https://play.google.com/store/apps/details?id=wtf.riedel.onesec)
-* [Freedom](https://play.google.com/store/apps/details?id=to.freedom.android2)
+<!--TODO: add AppBlock, Beeminder-->
 
 ### Criteria
 
