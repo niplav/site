@@ -587,15 +587,16 @@ Missing Emoji
 * Grass
 * Kimchi
 * Shovel
-* Flag of the Roman Empire
 * Blanket
 * Pillow
 * Carriage
 * Guillotine
+* Labyrinth
+* Tank
 * Toast (using [skin tone indicators](https://en.wikipedia.org/wiki/Emoji#Skin_color) to signify various levels of crispness)
 * [Lime](https://x.com/mulltuhh/status/1799816080875233538)
 * [Various egypt-themed emoji](http://nitter.poast.org/hum_dunkin/status/1776579149739528668)
-* Tank
+* Flag of the Roman Empire
 
 New Eponymous Laws
 -------------------

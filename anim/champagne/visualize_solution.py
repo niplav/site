@@ -13,7 +13,7 @@ import json
 import numpy as np
 
 # Configuration: path to solution JSON file
-JSON_PATH = '/home/niplav/proj/site/code/champagne/best_n8_w22_pathonly.json'
+JSON_PATH = '/usr/local/src/champagne/solutions/best_n10_w6.json'
 
 class ChampagneSolutionVisualization(Scene):
     def construct(self):

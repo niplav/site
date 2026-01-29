@@ -274,6 +274,27 @@ putting on it:
 
 This doesn't capture the rhizomes one can build.
 
+Perclique: For every pair of entities in a pergraph, there's an edge connecting them.
+
+Theorem: There are six percliques. The empty graph, the single node,
+the single edge going from & coming to itself, a three variants on the
+3-keltic-knot.
+
+In-/out-rank of a vertex/edge in a streber: 0 for nodes. In-rank 0 for
+an edge with itself as a source, out-rank similarly 0 for an edge with
+itself as a sink. Object with the highest in-/out-rank in a streber
+defines the depth/height of that streber.
+
+Highest/widest sub-streber of a pergraph. Percentage of
+streber/rhizome/dock content in a pergraph.
+
+Tissue of an edge in a rhizome: Take that edge, just follow its
+source/sink, what it is source/sink for. Gets you a "sheet" of edges. You
+can shift that there's a bigger focus on incoming/outgoing edges, the
+sheet is a bit like a torus, lossily. (Are rhizomes just particular spaces??)
+
+Every edge has 1 sink, 1 source, n incomers, n outgoers.
+
 ### Counting
 
 Unlabeled pergraphs are counted up to isomorphism for renamings of

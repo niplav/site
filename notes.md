@@ -3319,6 +3319,20 @@ ARC AGI Price Attempts
 
 * 2026-01-07T10:05: Puzzle 2de01db2, given up after 7m20s.
 
+Notes for Meditation Retreats
+------------------------------
+
+1. Meals introduce in me *a lot* of sleepiness/torpor, especially breakfast.
+	1. I suspect that drinking a bunch while eating the meal reduces that sleepiness.
+	2. Eating fruits for breakfast and concentrating carbs & fat onto lunch seems the best solution for me.
+2. My current SOTA on comfortable sitting is a [zafu](https://en.wikipedia.org/wiki/Zafu) at comfortable height with a small t-shirt rolled together into a cylinder that I tuck under my butt, usually resting my [sacrum](https://en.wikipedia.org/wiki/Sacrum) on top of it.
+	1. It's surprisingly close to having a full backrest.
+3. If one's really incredibly tired like I sometimes am one can sit on the cushion and rest ones head on one's knees.
+	1. This creates a short-term sleep that's not *too* obviously sleep.
+	2. The resulting sleep is usually not very restful: I remember doing this once and dreaming that I was interacting with my family, but constantly burping and in a hunchback position, being made fun off by my family. (During that time of day I did have a bunch of air in my intestines trying to get out.)
+		1. I do spend a lot of time on retreats on intestinal air-management, though I've gotten better at just using the churning in my stomach as a meditation object.
+		2. Late in the day on retreats where lunch is the last meal I can sometimes drink some water and hear/feel it travel down my intestines due to increased sensory clarity & an empty digestive system. Grand entertainment.
+
 <!--Why Are There So Few Natural NP-Complete Problems with Superquadratic Verifiers?
 ---------------------------------------------------------------------------------
 
