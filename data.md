@@ -82,8 +82,8 @@ helpfully informs that the most important table is `revlog`, one can
 then export the data to CSV with the following command:
 
 	echo -e '.headers on \n select * from revlog;' |
-	sqlite3 anki_2022-07-04T08:43:00.db |
-	tr '|' ',' >anki_2022-07-04T08:43:00.csv
+	sqlite3 collection.anki2 |
+	tr '|' ',' >anki_reviews.csv
 
 The header is to be interpreted as follows:
 
