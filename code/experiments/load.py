@@ -27,6 +27,8 @@ def likelihood_ratio_test(lr):
 def llrt_pval(lmbda, df=2):
 	return scistat.chi2.cdf(df, lmbda)
 
+# TODO: modify these so that pandas doesn't give me a deprecation error, switch so that assignment is replaced with .loc[] calls.
+
 def get_meditations():
 	meditations=pd.read_csv('../../data/meditations.csv').copy()
 	meditations['meditation_start']=pd.to_datetime(meditations['meditation_start'], utc=True, format='mixed')
@@ -262,6 +264,7 @@ def get_datasets_pom():
 
 	return get_datasets_fn(experiment_fn, control_fn, intervention_fn)
 
+# TODO: Also analyze flashcard data from here
 def get_datasets_light():
 	# Load lumenator data
 	islight=get_islight()
@@ -329,6 +332,8 @@ def analyze(datasets):
 				continue
 
 			# Calculate d (Cohen's d)
+			print(intervention_data[col])
+			print(control_data[col])
 			d = (intervention_data[col].mean() - control_data[col].mean()) / all_data[col].std()
 			result.loc['d', col] = d
 
