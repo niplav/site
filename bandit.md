@@ -35,10 +35,12 @@ contact information as a reward of 0.
 daygame approach, but this is an exploratory exercise. I might add more &
 different factors later.)
 
-Of course, I can't tell ChatGPT that I am doing pickup, so I instead
+Of course, I can't tell ChatGPT that I am doing pickup[^context], so I instead
 say that I'm looking to optimize the quality of icecream I'm eating by
 selecting different icecream shops. (Title of conversation: "Bayesian
 Icecream Bandit").
+
+[^context]: This was mid 2023. Around early 2025 LLMs became much more relaxed when talking about daygame.
 
 The resulting code is is wholly confused and *bad*, with multiple subtle
 and not so subtle bugs, and unelegant too—I reckon there's just not
