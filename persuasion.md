@@ -63,10 +63,11 @@ is commonplace, and [large language models
 are becoming more persuasive with increasing
 scale](https://www.anthropic.com/news/measuring-model-persuasiveness). (I
 also find it plausible that providers like
-[Character.ai](https://en.wikipedia.org/wiki/Character.ai) or Meta
-are training their systems to be reinforced to have longer interaction
-lengths, making them more addictive, but I don't have definitive evidence
-for that<!--TODO: link 2h claim, AlphaRizz on twitter-->).
+[Character.ai](https://en.wikipedia.org/wiki/Character.ai) or
+Meta are training their systems to be reinforced to have longer
+interaction lengths, making them more addictive, but I don't have
+definitive evidence for that, though [our best minds are looking into
+it](https://x.com/eddybuild/status/1889908184443175357).
 
 AI developers and users will have to interact with increasingly
 persuasive and addictive systems<sub>70%</sub>, but most of the
