@@ -223,22 +223,21 @@ Anonymizing locations and the names of the women:
 		close("locations")
 	}
 	{
-		if (name[$8] == "" && $8 != "Name") {
-			name[$8] = int(100000 * rand())
-			gsub(/\./, "", name[$8])
+		if (name[$7] == "" && $8 != "Name") {
+			name[$7] = int(100000 * rand())
+			gsub(/\./, "", name[$7])
 		}
 		if ($2 != "Location") {
 			original_location = $2
 			gsub(/"/, "", original_location)
 			if (loc[original_location] == "") {
-				print "Warning: Location '" $2 "' not found in locations file" > "/dev/stderr"
 				loc[original_location] = 100000 * rand()
-				printf "%d,\"%s\"\n", id, location >> "admn/daygame/locations"
+				printf "%d,%s\n", loc[original_location], original_location >> "admn/daygame/locations"
 			}
 			$2 = loc[original_location]
 		}
-		if ($8 != "Name") {
-			$8 = name[$8]
+		if ($7 != "Name") {
+			$7 = name[$7]
 		}
 		print $0
 	}' <daygame_approaches.csv >daygame_approaches_anon.csv
