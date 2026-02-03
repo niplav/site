@@ -8,8 +8,14 @@
 Some Thoughts on the Stupid Successionism Debate
 =================================================
 
-Successionism is a view of AI that claims that *the creation of ASIs is
-inherently good because they are our deliberately created successors*.
+Successionism[^exo] is a view of AI that claims that *the replacement of
+humanity by artificial intelligences would be inherently good because
+those AI would be our deliberately created successors*. <!--TODO:
+cite some successionists here. Sutton, e/acc manifesto, Page,
+Hanson??? Others??? Distinguish soft successionism ("merge") vs. hard
+successionism?-->
+
+[^exo]: The term is an [exonym](https://en.wikipedia.org/wiki/Exonym), since people usually described as successionists often present this perspective as the default one.
 
 The standard retort to successionism is that *even if we try to
 deliberately create successors, they may not be __good__ or __valuable__
@@ -29,10 +35,9 @@ The first remarks basically have the same underlying "vibe", they both
 claim that value drift is not necessarily bad and/or avoidable, that
 we've tolerated it so far and that it's turned out well/adaptively.
 
-The standard non-successionist answer then is that
-there may have been a misunderstanding, and that
-the goal is *not* value lock-in at exactly 2025-level
-[WEIRD](https://en.wikipedia.org/wiki/Psychology#WEIRD_bias)
+The standard non-successionist answer then is that there may have been
+a misunderstanding, and that the goal is *not* value lock-in at exactly
+2025-level [WEIRD](https://en.wikipedia.org/wiki/Psychology#WEIRD_bias)
 moral sensibilities, but to lock in something
 I'll call the abstract generator of [human
 values](https://www.lesswrong.com/posts/YLRPhvgN4uZ6LCLxw/human-wanting).
@@ -43,7 +48,9 @@ including WEIRD moral sensibilities, Aztec cultural practices (including
 and their likely evolution, Chinese
 [confucianism](https://en.wikipedia.org/wiki/Confucianism), Australian
 [aboriginal](https://en.wikipedia.org/wiki/Aboriginal_Australian)
-circumcision, subincision and scarification [initiation
+circumcision,
+[subincision](https://en.wikipedia.org/wiki/Penile_subincision) and
+[scarification](https://en.wikipedia.org/wiki/Scarification) [initiation
 rites](https://en.wikipedia.org/wiki/Initiation_rite#Tribal),
 and many others, able to [extrapolate them
 coherently](./cs/ai/alignment/cev/coherent_extrapolated_volition_yudkowsky_2004.pdf)
@@ -68,7 +75,7 @@ After that the conversation usually gets a bit murky, and as a ~non-successionis
 I understand the successionists well enough to represent them maximally
 faithfully, but I'll try.
 
-[^clari]: AIs can be moral patients<sub>98%</sub> and agents<sub>99%</sub>, and there could be an extremely valuable future with no humans or human-descended minds but it's very unlikely<sub>0.1%</sub> to come to be by default. In most instigations of this future it would involve great amounts of theft (of the reachable universe from current humans), if not outright genocide of those humans, and thereby tarnishing the future even if it's otherwise quite valuable.
+[^clari]: AIs can be moral patients<sub>98%</sub> and agents<sub>99%</sub>, and there could be an extremely valuable future with no humans or human-descended minds but it's very unlikely<sub>0.1%</sub> to come to be by default. Most realizations of this future would involve great amounts of theft (of the reachable universe from current humans), if not outright genocide of humans, and thereby tarnishing the future even if it's otherwise quite valuable.
 
 Six answers spring to mind:
 

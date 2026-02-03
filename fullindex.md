@@ -181,6 +181,7 @@ Beides verdammen sie dir, zeigest du beides zugleich
 * [Ontological Cluelessness](./ontological.html)
 * [Creating Libertarian Free Will](./will.html)
 * [Trying to Disambiguate Different Questions about Whether Humans are Turing Machines](./general.html)
+* [Some Thoughts on the Stupid Successionism Debate](./successionism.html)
 * [Arguments Against Preference Utilitarianism](./preference.html)
 * [Using Diagrams to Visualize Conceptions of Intelligence, Consciousness and Sentience](./consciousness_diagram.html)
 * [Notes on Ethics](./notes_on_ethics.html)

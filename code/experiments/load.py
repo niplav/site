@@ -7,73 +7,83 @@ import scipy.stats as scistat
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
-def normal_likelihood(data, mu, std):
+def log_likelihood(data, mu, std):
+	"""Compute log-likelihood of data under normal distribution with given mu and std.
+	Working in log-space avoids underflow issues."""
 	data_probs=scistat.norm.pdf(data, loc=mu, scale=std)
 	cleaned_data=data_probs[np.nonzero(~np.isnan(data_probs))]
-	return np.exp(np.sum(np.log(cleaned_data))) # if there's a problem with floating points underflowing
+	return np.sum(np.log(cleaned_data))
 
-def control_likelihood_ratio(active, placebo):
-	placebo_mle_lh=normal_likelihood(active, placebo.mean(), placebo.std())
-	active_mle_lh=normal_likelihood(active, active.mean(), active.std())
-	if active_mle_lh==0:
-		return 0
-	return active_mle_lh/placebo_mle_lh
-
-def likelihood_ratio_test(lr):
-	if lr==0:
-		return math.inf
-	return 2*np.log(lr)
+def control_likelihood_ratio_statistic(active, placebo):
+	"""Compute likelihood ratio test statistic directly in log-space.
+	Returns 2 * (log_likelihood_active - log_likelihood_placebo)."""
+	placebo_log_lh=log_likelihood(active, placebo.mean(), placebo.std())
+	active_log_lh=log_likelihood(active, active.mean(), active.std())
+	# λ = 2 * log(L_active/L_placebo) = 2 * (log(L_active) - log(L_placebo))
+	return 2 * (active_log_lh - placebo_log_lh)
 
 def llrt_pval(lmbda, df=2):
 	return scistat.chi2.cdf(df, lmbda)
 
-# TODO: modify these so that pandas doesn't give me a deprecation error, switch so that assignment is replaced with .loc[] calls.
-
 def get_meditations():
-	meditations=pd.read_csv('../../data/meditations.csv').copy()
-	meditations['meditation_start']=pd.to_datetime(meditations['meditation_start'], utc=True, format='mixed')
-	meditations['meditation_end']=pd.to_datetime(meditations['meditation_end'], utc=True, format='mixed')
+	meditations=pd.read_csv('../../data/meditations.csv')
+	meditations=meditations.assign(
+		meditation_start=pd.to_datetime(meditations['meditation_start'], utc=True, format='mixed'),
+		meditation_end=pd.to_datetime(meditations['meditation_end'], utc=True, format='mixed')
+	)
 
 	return meditations
 
 def get_moods():
-	mood=pd.read_csv('../../data/mood.csv').copy()
+	mood=pd.read_csv('../../data/mood.csv')
 	alarms=pd.to_datetime(pd.Series(mood['alarm']))
-	mood['alarm']=pd.DatetimeIndex(alarms.dt.tz_localize('CET', ambiguous='infer')).tz_convert(tz='UTC')
 	dates=pd.to_datetime(pd.Series(mood['date']))
-	mood['date']=pd.DatetimeIndex(dates.dt.tz_localize('CET', ambiguous='infer')).tz_convert(tz='UTC')
+	mood=mood.assign(
+		alarm=pd.DatetimeIndex(alarms.dt.tz_localize('CET', ambiguous='infer')).tz_convert(tz='UTC'),
+		date=pd.DatetimeIndex(dates.dt.tz_localize('CET', ambiguous='infer')).tz_convert(tz='UTC')
+	)
 
 	return mood
 
 def get_mental():
-	mental=pd.read_csv('../../data/mental.csv').copy()
-	mental['datetime']=pd.to_datetime(mental['datetime'], utc=True)
+	mental=pd.read_csv('../../data/mental.csv')
+	mental=mental.assign(
+		datetime=pd.to_datetime(mental['datetime'], utc=True)
+	)
 
 	return mental
 
 def get_ispom():
-	ispomodoro=pd.read_csv('../../data/ispomodoro.csv').copy()
-	ispomodoro['date']=pd.to_datetime(ispomodoro['date'], utc=True)
+	ispomodoro=pd.read_csv('../../data/ispomodoro.csv')
+	ispomodoro=ispomodoro.assign(
+		date=pd.to_datetime(ispomodoro['date'], utc=True)
+	)
 
 	return ispomodoro
 
 def get_islight():
-	islight=pd.read_csv('../../data/islight.csv').copy()
-	islight['date']=pd.to_datetime(islight['date'], utc=True)
+	islight=pd.read_csv('../../data/islight.csv')
+	islight=islight.assign(
+		date=pd.to_datetime(islight['date'], utc=True)
+	)
 
 	return islight
 
 def get_flashcards():
-	flashcards=pd.read_csv('../../data/anki_reviews.csv').copy()
-	flashcards['id']=pd.to_datetime(flashcards['id'], unit='ms', utc=True)
-	flashcards['cid']=pd.to_datetime(flashcards['cid'], unit='ms', utc=True)
+	flashcards=pd.read_csv('../../data/anki_reviews.csv')
+	flashcards=flashcards.assign(
+		id=pd.to_datetime(flashcards['id'], unit='ms', utc=True),
+		cid=pd.to_datetime(flashcards['cid'], unit='ms', utc=True)
+	)
 
 	return flashcards
 
 def get_masturbations():
-	masturbations=pd.read_csv('../../data/masturbations.csv').copy()
+	masturbations=pd.read_csv('../../data/masturbations.csv')
 	masturbations.loc[masturbations['methods'].isna(),'methods']='n'
-	masturbations['datetime']=pd.to_datetime(masturbations['datetime'], utc=True, format='mixed', dayfirst=False)
+	masturbations=masturbations.assign(
+		datetime=pd.to_datetime(masturbations['datetime'], utc=True, format='mixed', dayfirst=False)
+	)
 
 	return masturbations
 
@@ -211,16 +221,17 @@ def get_datasets(experiment, substance, placebo):
 			df = df.rename(columns={'mindfulness_rating': 'mindfulness', 'concentration_rating': 'absorption'})
 		elif 'alarm' in df.columns:
 			df = expa.join(df, how='cross')
-			df = df.loc[(df['alarm'] - df['datetime'] < pd.Timedelta('10h')) & (df['alarm'] - df['datetime'] > pd.Timedelta('0h'))]
+			df = df.loc[(df['alarm'] - df['datetime'] < pd.Timedelta('14h')) & (df['alarm'] - df['datetime'] > pd.Timedelta('0h'))]
 			df = df.loc[df['relaxed'].notna()]
 		elif 'productivity' in df.columns:
 			df = df.sort_values('datetime')
 			df = pd.merge_asof(expa, df, left_on='datetime', right_on='datetime', direction='forward')
 		elif 'id' in df.columns:
-			df = df.loc[(df['id'] > expa['datetime'].min()) & (df['id'] < expa['datetime'].max() + pd.Timedelta('10h'))]
+			df = df.loc[(df['id'] > expa['datetime'].min()) & (df['id'] < expa['datetime'].max() + pd.Timedelta('14h'))]
 			df = expa.join(df, how='cross', rsuffix='r')
-			df = df.loc[(df['idr'] - df['datetime'] < pd.Timedelta('10h')) & (df['idr'] - df['datetime'] > pd.Timedelta('0h'))]
-			df.loc[df['ivl'] > 0, 'ivl'] = -df.loc[df['ivl'] > 0, 'ivl'] / 86400
+			df = df.loc[(df['idr'] - df['datetime'] < pd.Timedelta('14h')) & (df['idr'] - df['datetime'] > pd.Timedelta('0h'))]
+			mask = df['ivl'] > 0
+			df = df.assign(ivl=df['ivl'].where(~mask, -df['ivl'] / 86400))
 		return df
 
 	def control_fn(df):
@@ -238,7 +249,7 @@ def get_datasets_pom():
 	def experiment_fn(df):
 		if 'meditation_start' in df.columns:
 			df = df.sort_values('meditation_start')
-			df = pd.merge_asof(ispom, df, left_on='date', right_on='meditation_start', direction='forward', tolerance=pd.Timedelta('10h'))
+			df = pd.merge_asof(ispom, df, left_on='date', right_on='meditation_start', direction='forward', tolerance=pd.Timedelta('14h'))
 			df = df.rename(columns={'mindfulness_rating': 'mindfulness', 'concentration_rating': 'absorption', 'date': 'datetime'})
 			df=df[df['_id'].notna()]
 		elif 'alarm' in df.columns:
@@ -250,10 +261,11 @@ def get_datasets_pom():
 			df = df.sort_values('datetime')
 			df = pd.merge_asof(ispom, df, left_on='date', right_on='datetime', direction='forward', tolerance=pd.Timedelta('24h'))
 		elif 'id' in df.columns:
-			df = df.loc[(df['id'] > ispom['date'].min()) & (df['id'] < ispom['date'].max() + pd.Timedelta('10h'))]
+			df = df.loc[(df['id'] > ispom['date'].min()) & (df['id'] < ispom['date'].max() + pd.Timedelta('14h'))]
 			df = ispom.join(df, how='cross')
-			df = df.loc[(df['id'] - df['date'] < pd.Timedelta('10h')) & (df['id'] - df['date'] > pd.Timedelta('0h'))]
-			df.loc[df['ivl'] > 0, 'ivl'] = -df.loc[df['ivl'] > 0, 'ivl'] / 86400
+			df = df.loc[(df['id'] - df['date'] < pd.Timedelta('14h')) & (df['id'] - df['date'] > pd.Timedelta('0h'))]
+			mask = df['ivl'] > 0
+			df = df.assign(ivl=df['ivl'].where(~mask, -df['ivl'] / 86400))
 		return df
 
 	def control_fn(df):
@@ -264,7 +276,6 @@ def get_datasets_pom():
 
 	return get_datasets_fn(experiment_fn, control_fn, intervention_fn)
 
-# TODO: Also analyze flashcard data from here
 def get_datasets_light():
 	# Load lumenator data
 	islight=get_islight()
@@ -272,7 +283,7 @@ def get_datasets_light():
 	def experiment_fn(df):
 		if 'meditation_start' in df.columns:
 			df = df.sort_values('meditation_start')
-			df = pd.merge_asof(islight, df, left_on='date', right_on='meditation_start', direction='forward', tolerance=pd.Timedelta('10h'))
+			df = pd.merge_asof(islight, df, left_on='date', right_on='meditation_start', direction='forward', tolerance=pd.Timedelta('14h'))
 			df = df.rename(columns={'mindfulness_rating': 'mindfulness', 'concentration_rating': 'absorption', 'date': 'datetime'})
 			df=df[df['_id'].notna()]
 		elif 'alarm' in df.columns:
@@ -284,10 +295,11 @@ def get_datasets_light():
 			df = df.sort_values('datetime')
 			df = pd.merge_asof(islight, df, left_on='date', right_on='datetime', direction='forward', tolerance=pd.Timedelta('24h'))
 		elif 'id' in df.columns:
-			df = df.loc[(df['id'] > islight['date'].min()) & (df['id'] < islight['date'].max() + pd.Timedelta('10h'))]
+			df = df.loc[(df['id'] > islight['date'].min()) & (df['id'] < islight['date'].max() + pd.Timedelta('14h'))]
 			df = islight.join(df, how='cross')
-			df = df.loc[(df['id'] - df['date'] < pd.Timedelta('10h')) & (df['id'] - df['date'] > pd.Timedelta('0h'))]
-			df.loc[df['ivl'] > 0, 'ivl'] = -df.loc[df['ivl'] > 0, 'ivl'] / 86400
+			df = df.loc[(df['id'] - df['date'] < pd.Timedelta('14h')) & (df['id'] - df['date'] > pd.Timedelta('0h'))]
+			mask = df['ivl'] > 0
+			df = df.assign(ivl=df['ivl'].where(~mask, -df['ivl'] / 86400))
 		return df
 
 	def control_fn(df):
@@ -332,14 +344,11 @@ def analyze(datasets):
 				continue
 
 			# Calculate d (Cohen's d)
-			print(intervention_data[col])
-			print(control_data[col])
 			d = (intervention_data[col].mean() - control_data[col].mean()) / all_data[col].std()
 			result.loc['d', col] = d
 
 			# Calculate λ (likelihood ratio test statistic)
-			lr = control_likelihood_ratio(intervention_data[col], control_data[col])
-			lambda_value = likelihood_ratio_test(lr)
+			lambda_value = control_likelihood_ratio_statistic(intervention_data[col], control_data[col])
 			result.loc['λ', col] = lambda_value
 
 			# Calculate p-value
