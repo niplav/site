@@ -23,6 +23,15 @@ the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
 
+January 2026
+-------------
+
+Meditation. Data herding.
+
+* [Notes](./notes.html)
+	* [A "Help Me" Tax For Positional Goods](./notes.html#A_Help_Me_Tax_For_Positional_Goods)
+	* [Notes for Meditation Retreats](./notes.html#Notes_for_Meditation_Retreats)
+
 December 2025
 --------------
 
@@ -46,7 +55,7 @@ numbering of ToC entries.
 
 ### Links
 
-* [Solving Math Problems by Relay (Ben Goldhaber/Owain Evans, 2020)](https://www.lesswrong.com/posts/DWgWbXRfXLGHPgZJM/solving-math-problems-by-relay): Anyone remember [factored cognition](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/DFkGStzvj3jgXibFG)? Niplav remebers.
+* [Solving Math Problems by Relay (Ben Goldhaber/Owain Evans, 2020)](https://www.lesswrong.com/posts/DWgWbXRfXLGHPgZJM/solving-math-problems-by-relay): Anyone remember [factored cognition](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/DFkGStzvj3jgXibFG)? Niplav remembers.
 * [Did LessWrong call covid-19 early? No (Yarrow Bouchard, 2025)](https://forum.effectivealtruism.org/posts/rLD34N9BWiHWpGeqH/did-lesswrong-call-covid-19-early-no)
 * Assorted Wikipedia articles:
 	* [Ecophagy](https://en.wikipedia.org/wiki/Ecophagy), [Zyvex](https://en.wikipedia.org/wiki/Zyvex), [Zyvex Technologies](https://en.wikipedia.org/wiki/Zyvex_Technologies)

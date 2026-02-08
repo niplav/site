@@ -14,14 +14,16 @@ produces nonsensical stacks like "caffeine + melatonin":
 ## Usage
 
 ```bash
-./supplement_optimizer.py                   # recommend morning + evening stacks (default: productivity)
-./supplement_optimizer.py happy             # recommend for a different variable
-./supplement_optimizer.py --cached happy    # skip rebuild, use last saved models (faster)
-./supplement_optimizer.py stats             # show effects & top stacks (productivity)
-./supplement_optimizer.py stats happy       # stats for a different variable
-./supplement_optimizer.py update 0.4        # log today's productivity score
-./supplement_optimizer.py update 67 happy   # log today's happy score
-./supplement_optimizer.py init happy        # explicit rebuild of both GPs (not usually needed)
+./supplement_optimizer.py                            # recommend morning + evening stacks (default: productivity)
+./supplement_optimizer.py happy                      # recommend for a different variable
+./supplement_optimizer.py --cached happy             # skip rebuild, use last saved models (faster)
+./supplement_optimizer.py --exclude nicotine happy   # exclude substance from recommendations
+./supplement_optimizer.py --exclude nicotine,sugar   # exclude multiple (comma-separated, no spaces)
+./supplement_optimizer.py stats                      # show effects & top stacks (productivity)
+./supplement_optimizer.py stats happy                # stats for a different variable
+./supplement_optimizer.py update 0.4                 # log today's productivity score
+./supplement_optimizer.py update 67 happy            # log today's happy score
+./supplement_optimizer.py init happy                 # explicit rebuild of both GPs (not usually needed)
 ```
 
 Optimizeable variables: `happy`, `content`, `relaxed`, `horny` (from
@@ -69,5 +71,6 @@ length_scale=[0.01, 0.01, 0.01]
 ## Notes
 
 - The substance lists are hardcoded constants — edit `MORNING_SUBSTANCES` / `EVENING_SUBSTANCES` in the config section to change them.
+- **Exclusions**: Use `--exclude sub1,sub2` to prevent specific substances from being recommended. The GP is still trained on the full data (so it learns their effects), but they won't appear in recommendations. For permanent exclusions, add them to `EXCLUDED_SUBSTANCES` in the config.
 - Mood variables are aggregated to daily means. Mental variables use one reading per day.
 - State files are per-period: `gp_data_{variable}_{morning,evening}.json`, `gp_model_{variable}_{morning,evening}.pkl`.
