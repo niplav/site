@@ -42,10 +42,13 @@ STATE_DIR.mkdir(parents=True, exist_ok=True)
 MOOD_VARIABLES = ["happy", "content", "relaxed", "horny"]
 MENTAL_VARIABLES = ["productivity", "creativity", "sublen", "meaning"]
 ALL_VARIABLES = MOOD_VARIABLES + MENTAL_VARIABLES
-MIN_SUPPLEMENT_COUNT = 20
+MIN_SUPPLEMENT_COUNT = 10
 
-MORNING_SUBSTANCES = ["caffeine", "creatine", "l-theanine", "nicotine", "omega3", "sugar", "vitaminb12", "vitamind3"]
-EVENING_SUBSTANCES = ["creatine", "magnesium", "melatonin"]
+MORNING_SUBSTANCES = ["caffeine", "creatine", "l-theanine", "nicotine", "omega3", "sugar", "vitaminb12", "vitamind3", "l-glycine"]
+EVENING_SUBSTANCES = ["creatine", "magnesium", "melatonin", "l-glycine"]
+
+# Substances to exclude from recommendations (trained on but never recommended)
+EXCLUDED_SUBSTANCES = []  # e.g. ["nicotine", "sugar"]
 
 # ---------------------------------------------------------------------------
 # Data loading
@@ -176,6 +179,22 @@ def thompson_sample(gp, candidates):
     sample = np.random.multivariate_normal(mean, cov)
     return int(sample.argmax()), sample
 
+
+def filter_candidates(candidates, supplements, excluded):
+    """Remove any stack containing an excluded substance.
+
+    The GP is still trained on the full data (so it learns about excluded
+    substances' effects), but they're never recommended.
+    """
+    if not excluded:
+        return candidates
+    excluded_indices = [i for i, s in enumerate(supplements) if s in excluded]
+    if not excluded_indices:
+        return candidates
+    mask = ~np.any(candidates[:, excluded_indices] == 1, axis=1)
+    return candidates[mask]
+
+
 # ---------------------------------------------------------------------------
 # State persistence  (training data only — GP is refit each call, fast)
 # ---------------------------------------------------------------------------
@@ -273,7 +292,8 @@ def cmd_init(mood_variable):
         print(f"  Kernel: {gp.kernel_}")
         print(f"  State saved to {state_path(mood_variable, period)}")
 
-def cmd_recommend(mood_variable, cached=False):
+def cmd_recommend(mood_variable, cached=False, excluded=None):
+    excluded = excluded or []
     substances_df = None if cached else load_substances()
     results = {}
 
@@ -291,6 +311,12 @@ def cmd_recommend(mood_variable, cached=False):
             save_model(gp, mood_variable, period)
 
         candidates = all_stacks(len(supplements))
+        candidates = filter_candidates(candidates, supplements, excluded)
+
+        if len(candidates) == 0:
+            print(f"ERROR: All {period} stacks excluded. Loosen exclusion list.")
+            sys.exit(1)
+
         best_idx, _ = thompson_sample(gp, candidates)
         results[period] = stack_label(supplements, candidates[best_idx])
 
@@ -380,12 +406,13 @@ def cmd_update(mood_variable, date_str, mood_value):
 USAGE = f"""Supplement Stack Optimizer (GP + Thompson Sampling)
 
 Usage:
-    supplement_optimizer.py [--cached] [variable]       recommend (default: productivity)
+    supplement_optimizer.py [--cached] [--exclude sub1,sub2] [variable]       recommend (default: productivity)
     supplement_optimizer.py stats [variable]            show effects & top stacks
     supplement_optimizer.py update <value> [variable]   log today's outcome
     supplement_optimizer.py init [variable]             explicit rebuild (not usually needed)
 
-    --cached    skip rebuild, use last saved state (faster for repeated samples)
+    --cached            skip rebuild, use last saved state (faster for repeated samples)
+    --exclude sub1,sub2 exclude substances from recommendations (comma-separated, no spaces)
 
 Variables: {', '.join(ALL_VARIABLES)}
 """
@@ -393,14 +420,31 @@ Variables: {', '.join(ALL_VARIABLES)}
 def main():
     args = sys.argv[1:]
 
+    # Parse flags
     cached = "--cached" in args
     args = [a for a in args if a != "--cached"]
 
+    excluded = list(EXCLUDED_SUBSTANCES)  # start with config constant
+    exclude_idx = None
+    for i, arg in enumerate(args):
+        if arg.startswith("--exclude"):
+            exclude_idx = i
+            if "=" in arg:
+                # --exclude=nicotine,sugar
+                excluded.extend(arg.split("=", 1)[1].split(","))
+            elif i + 1 < len(args):
+                # --exclude nicotine,sugar
+                excluded.extend(args[i + 1].split(","))
+                args.pop(i + 1)
+            break
+    if exclude_idx is not None:
+        args.pop(exclude_idx)
+
     if not args:
-        cmd_recommend("productivity", cached=cached)
+        cmd_recommend("productivity", cached=cached, excluded=excluded)
 
     elif args[0] in ALL_VARIABLES:
-        cmd_recommend(args[0], cached=cached)
+        cmd_recommend(args[0], cached=cached, excluded=excluded)
 
     elif args[0] == "stats":
         cmd_stats(args[1] if len(args) > 1 else "productivity")
