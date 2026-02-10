@@ -3333,6 +3333,20 @@ Notes for Meditation Retreats
 		1. I do spend a lot of time on retreats on intestinal air-management, though I've gotten better at just using the churning in my stomach as a meditation object.
 		2. Late in the day on retreats where lunch is the last meal I can sometimes drink some water and hear/feel it travel down my intestines due to increased sensory clarity & an empty digestive system. Grand entertainment.
 
+Turing-(In)complete Elementary Cellular Automata
+-------------------------------------------------
+
+There are 88 [eLementary cellular
+automata](https://en.wikipedia.org/wiki/Elementary_cellular_automata#Reflections_and_complements)
+up to reflection & complement.
+
+* Proved [Turing-complete](https://en.wikipedia.org/wiki/Turing-Complete): 1/88.
+	* [Rule 110](https://en.wikipedia.org/wiki/Rule_110)
+* Proved Turing-incomplete ([Fukś 2025](https://lie.ac.brocku.ca/~hfuks/solvableca.html)): 58/88.
+	* Rules 0 (trivial), 1, 2, 3, 4, 5, 8, 10, 11, 12, 13, 14, 15, 19, 23, 24, 27, 28, 29, 32, 34, 36, 38, 40, 42, 43, 44, 46, 50, 51, 56, 60, 72, 76, 77, 78, [90](https://en.wikipedia.org/wiki/Rule_90), 105, 108, 128, 130, 132, 136, 138, 140, 142, 150, 156, 160, 162, 164, 168, 170, 172, 178, [184](https://en.wikipedia.org/wiki/Rule_184), 200, 204, 232
+* Unknown: 29/88.
+	* Rules 6, 7, 9, 18, 22, 25, 26, [30](https://en.wikipedia.org/wiki/Rule_30), 33, 35, 37, 41, 45, [54](https://en.wikipedia.org/wiki/Rule_54), 57, 58, 62, 73, 74, 94, 104, 106, 110, 122, 126, 134, 146, 152, 154
+
 <!--Why Are There So Few Natural NP-Complete Problems with Superquadratic Verifiers?
 ---------------------------------------------------------------------------------
 

@@ -13,6 +13,10 @@ Usage:
     python supplement_optimizer.py --update 2026-02-04 67.5 -m happy
 """
 
+# TODO:
+# Add variables {meditation in the morning/evening, lumenator, cuboid, avg CO₂ concentration in air}
+# Add outcomes: Minimizing sleep duration the following night, minimizing horniness
+
 import json
 import sys
 import warnings
@@ -44,19 +48,18 @@ MENTAL_VARIABLES = ["productivity", "creativity", "sublen", "meaning"]
 ALL_VARIABLES = MOOD_VARIABLES + MENTAL_VARIABLES
 MIN_SUPPLEMENT_COUNT = 10
 
-MORNING_SUBSTANCES = ["caffeine", "creatine", "l-theanine", "nicotine", "omega3", "sugar", "vitaminb12", "vitamind3", "l-glycine"]
+MORNING_SUBSTANCES = ["caffeine", "creatine", "l-theanine", "nicotine", "omega3", "sugar", "vitaminb12", "vitamind3", "l-glycine", "magnesium"]
 EVENING_SUBSTANCES = ["creatine", "magnesium", "melatonin", "l-glycine"]
 
 # Substances to exclude from recommendations (trained on but never recommended)
-EXCLUDED_SUBSTANCES = []  # e.g. ["nicotine", "sugar"]
+EXCLUDED_SUBSTANCES = []
 
 # ---------------------------------------------------------------------------
 # Data loading
 # ---------------------------------------------------------------------------
 
 
-EVENING_CUTOFF_HOUR = 18  # substances taken at or after this hour count for the next day
-
+EVENING_CUTOFF_HOUR = 16  # substances taken at or after this hour count for the next day
 
 def load_substances():
     df = pd.read_csv(SUBSTANCES_FILE)
@@ -336,29 +339,27 @@ def cmd_stats(mood_variable):
 
         # Marginal effect: average predicted mood WITH vs WITHOUT each supplement
         print()
-        print("=" * 60)
+        print("=" * 72)
         print(f"  {period.capitalize()} — Marginal Supplement Effects")
-        print("=" * 60)
-        print(f"  {'Supplement':<20} {'With':>7} {'W/o':>7} {'Effect':>7}")
-        print(f"  {'-'*20} {'-'*7} {'-'*7} {'-'*7}")
+        print("=" * 72)
+        print(f"  {'Supplement':<40} {'With':>7} {'W/o':>7} {'Effect':>7}")
+        print(f"  {'-'*40} {'-'*7} {'-'*7} {'-'*7}")
         for i, supp in enumerate(supplements):
             with_mean = mean[candidates[:, i] == 1].mean()
             without_mean = mean[candidates[:, i] == 0].mean()
-            print(f"  {supp:<20} {with_mean:>7.1f} {without_mean:>7.1f} {with_mean - without_mean:>+7.1f}")
+            print(f"  {supp:<40} {with_mean:>7.4f} {without_mean:>7.4f} {with_mean - without_mean:>+7.4f}")
 
         # Top 10 stacks
         top10 = mean.argsort()[-10:][::-1]
         print()
         print(f"  {period.capitalize()} — Top 10 Stacks")
-        print("=" * 60)
-        print(f"  {'#':<3} {'Stack':<38} {'Mean':>6} {'Std':>6}")
-        print(f"  {'-'*3} {'-'*38} {'-'*6} {'-'*6}")
+        print("=" * 90)
+        print(f"  {'#':<3} {'Stack':<64} {'Mean':>6} {'Std':>6}")
+        print(f"  {'-'*3} {'-'*64} {'-'*6} {'-'*6}")
         for rank, idx in enumerate(top10, 1):
             label = stack_label(supplements, candidates[idx])
-            if len(label) > 36:
-                label = label[:33] + "..."
-            print(f"  {rank:<3} {label:<38} {mean[idx]:>6.1f} {std[idx]:>6.1f}")
-        print("=" * 60)
+            print(f"  {rank:<3} {label:<64} {mean[idx]:>6.4f} {std[idx]:>6.4f}")
+        print("=" * 90)
 
         print(f"\n  Training: {len(X)} days ({min(dates)} to {max(dates)})")
         print(f"  Kernel: {gp.kernel_}")

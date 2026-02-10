@@ -5,6 +5,9 @@ import pandas as pd
 import scipy.stats as sps
 import matplotlib.pyplot as plt
 
+# TODO: Check if retreat days are excluded, or even days not during retreats (that is, no externally imposed sleep schedule)
+# but simply days with much meditation.
+
 def normal_likelihood(data, mu, std):
 	data_probs=scistat.norm.pdf(data, loc=mu, scale=std)
 	return np.multiply.reduce(data_probs, where=~np.isnan(data_probs))
