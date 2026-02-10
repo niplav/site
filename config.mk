@@ -107,6 +107,7 @@ HTML=index.html \
 	range_and_forecasting_accuracy.html \
 	rationalist_gods.html \
 	resolving.html \
+	reviews.html \
 	sites.html \
 	spans.html \
 	stimulation.html \

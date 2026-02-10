@@ -67,6 +67,8 @@ At least I now know that I'm falling into this trap, "Selbsterkenntnis
 ist der erste Schritt zur Besserung". And the second step is to bring
 all of your data in a usable format.
 
+<!--TODO: split into measurables and intervenables-->
+
 Anki
 -----
 

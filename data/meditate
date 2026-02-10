@@ -12,8 +12,8 @@ fn readval {
 
 mpv /home/niplav/proj/site/aud/meditation.ogg
 
-#termdown $*
-sleep $*
+termdown $*
+#sleep $*
 
 mpv /home/niplav/proj/site/aud/meditation.ogg &
 
