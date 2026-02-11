@@ -18,8 +18,7 @@ Meditation Retreats
 - My experience
 	- Big emotional processes/processing steps (two IIRC)
 		- Changed attachment style away from avoidant
-	- Crossed the A&P (lots of very strong absorption with much focus, followed by a very bright yellow-white & *loud*
-	   sensation with lots of energy rising up in the body, accumulating below the top of the skull)
+	- Crossed the A&P (lots of very strong absorption with much focus, followed by a very bright yellow-white & *loud* sensation with lots of energy rising up in the body, accumulating below the top of the skull)
 	- Saw tanha, I think?
 		- Like not *saw* saw, I didn't have a path moment, but there was something very clearly fast/grabby/suffering-inducing that my mind was involved in when it was *doing* stuff.
 	- If there were dukkha-ñanas they were really mild
