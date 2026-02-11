@@ -28,7 +28,7 @@ import numpy as np
 import joblib
 import pandas as pd
 from sklearn.gaussian_process import GaussianProcessRegressor
-from sklearn.gaussian_process.kernels import ConstantKernel, Matern
+from sklearn.gaussian_process.kernels import ConstantKernel, Matern, DotProduct
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -137,19 +137,35 @@ def build_training_data(substances_df, mood_df, supplements, mood_variable):
 # GP model
 # ---------------------------------------------------------------------------
 
-def make_kernel(n_supplements):
-    """Matérn 5/2 with per-dimension lengthscales (ARD)."""
-    return ConstantKernel(
-        constant_value=1.0, constant_value_bounds=(1e-2, 1e2)
-    ) * Matern(
-        nu=2.5,
-        length_scale=np.ones(n_supplements),
-        length_scale_bounds=(1e-2, 100.0),
-    )
+def make_kernel(n_supplements, kernel_type="matern"):
+    """
+    Create kernel based on type:
+    - matern: Matérn 5/2 with ARD (smooth, local interactions)
+    - poly2: Polynomial degree 2 (all pairwise interactions)
+    - poly3: Polynomial degree 3 (all 2-way and 3-way interactions)
+    """
+    if kernel_type == "matern":
+        return ConstantKernel(
+            constant_value=1.0, constant_value_bounds=(1e-2, 1e2)
+        ) * Matern(
+            nu=2.5,
+            length_scale=np.ones(n_supplements),
+            length_scale_bounds=(1e-2, 100.0),
+        )
+    elif kernel_type == "poly2":
+        return ConstantKernel(1.0, constant_value_bounds=(1e-2, 1e2)) * (
+            DotProduct(sigma_0=0.0, sigma_0_bounds="fixed") ** 2
+        )
+    elif kernel_type == "poly3":
+        return ConstantKernel(1.0, constant_value_bounds=(1e-2, 1e2)) * (
+            DotProduct(sigma_0=0.0, sigma_0_bounds="fixed") ** 3
+        )
+    else:
+        raise ValueError(f"Unknown kernel type: {kernel_type}")
 
-def fit_gp(X, y, counts):
+def fit_gp(X, y, counts, kernel_type="matern"):
     gp = GaussianProcessRegressor(
-        kernel=make_kernel(X.shape[1]),
+        kernel=make_kernel(X.shape[1], kernel_type),
         alpha=1.0 / counts,
         n_restarts_optimizer=5,
         normalize_y=True,
@@ -272,7 +288,7 @@ def rebuild_state(mood_variable, period, substances_df):
     save_state(X, y, counts, dates, supplements, mood_variable, period)
     return X, y, counts, dates, supplements
 
-def cmd_init(mood_variable):
+def cmd_init(mood_variable, kernel_type="matern"):
     print("Loading data...")
     substances_df = load_substances()
 
@@ -282,8 +298,8 @@ def cmd_init(mood_variable):
         print(f"Tracking {len(supplements)} supplements: {', '.join(supplements)}")
         print(f"Built {len(X)} training observations ({min(dates)} to {max(dates)})")
 
-        print("Fitting GP...")
-        gp = fit_gp(X, y, counts)
+        print(f"Fitting GP (kernel: {kernel_type})...")
+        gp = fit_gp(X, y, counts, kernel_type)
         save_model(gp, mood_variable, period)
 
         candidates = all_stacks(len(supplements))
@@ -295,7 +311,7 @@ def cmd_init(mood_variable):
         print(f"  Kernel: {gp.kernel_}")
         print(f"  State saved to {state_path(mood_variable, period)}")
 
-def cmd_recommend(mood_variable, cached=False, excluded=None):
+def cmd_recommend(mood_variable, cached=False, excluded=None, kernel_type="matern"):
     excluded = excluded or []
     substances_df = None if cached else load_substances()
     results = {}
@@ -310,7 +326,7 @@ def cmd_recommend(mood_variable, cached=False, excluded=None):
             X, y, counts, dates, supplements = state
         else:
             X, y, counts, dates, supplements = rebuild_state(mood_variable, period, substances_df)
-            gp = fit_gp(X, y, counts)
+            gp = fit_gp(X, y, counts, kernel_type)
             save_model(gp, mood_variable, period)
 
         candidates = all_stacks(len(supplements))
@@ -326,13 +342,13 @@ def cmd_recommend(mood_variable, cached=False, excluded=None):
     print(f"morning: {results['morning']}")
     print(f"evening: {results['evening']}")
 
-def cmd_stats(mood_variable):
+def cmd_stats(mood_variable, kernel_type="matern"):
     substances_df = load_substances()
 
     for period in ["morning", "evening"]:
         X, y, counts, dates, supplements = rebuild_state(mood_variable, period, substances_df)
-        print(f"\nFitting {period} GP on {len(X)} observations...")
-        gp = fit_gp(X, y, counts)
+        print(f"\nFitting {period} GP on {len(X)} observations (kernel: {kernel_type})...")
+        gp = fit_gp(X, y, counts, kernel_type)
 
         candidates = all_stacks(len(supplements))
         mean, std = gp.predict(candidates, return_std=True)
@@ -407,13 +423,19 @@ def cmd_update(mood_variable, date_str, mood_value):
 USAGE = f"""Supplement Stack Optimizer (GP + Thompson Sampling)
 
 Usage:
-    supplement_optimizer.py [--cached] [--exclude sub1,sub2] [variable]       recommend (default: productivity)
-    supplement_optimizer.py stats [variable]            show effects & top stacks
-    supplement_optimizer.py update <date> <value> [variable]   log outcome for date (YYYY-MM-DD)
-    supplement_optimizer.py init [variable]             explicit rebuild (not usually needed)
+    supplement_optimizer.py [--cached] [--exclude sub1,sub2] [--kernel TYPE] [variable]
+                                                    recommend (default: productivity)
+    supplement_optimizer.py stats [--kernel TYPE] [variable]
+                                                    show effects & top stacks
+    supplement_optimizer.py update <date> <value> [variable]
+                                                    log outcome for date (YYYY-MM-DD)
+    supplement_optimizer.py init [--kernel TYPE] [variable]
+                                                    explicit rebuild (not usually needed)
 
+Flags:
     --cached            skip rebuild, use last saved state (faster for repeated samples)
     --exclude sub1,sub2 exclude substances from recommendations (comma-separated, no spaces)
+    --kernel TYPE       kernel type: matern (default), poly2, poly3
 
 Variables: {', '.join(ALL_VARIABLES)}
 """
@@ -424,6 +446,24 @@ def main():
     # Parse flags
     cached = "--cached" in args
     args = [a for a in args if a != "--cached"]
+
+    kernel_type = "matern"
+    kernel_idx = None
+    for i, arg in enumerate(args):
+        if arg.startswith("--kernel"):
+            kernel_idx = i
+            if "=" in arg:
+                kernel_type = arg.split("=", 1)[1]
+            elif i + 1 < len(args):
+                kernel_type = args[i + 1]
+                args.pop(i + 1)
+            break
+    if kernel_idx is not None:
+        args.pop(kernel_idx)
+
+    if kernel_type not in ["matern", "poly2", "poly3"]:
+        print(f"ERROR: Unknown kernel type '{kernel_type}'. Use matern, poly2, or poly3.")
+        sys.exit(1)
 
     excluded = list(EXCLUDED_SUBSTANCES)  # start with config constant
     exclude_idx = None
@@ -442,13 +482,13 @@ def main():
         args.pop(exclude_idx)
 
     if not args:
-        cmd_recommend("productivity", cached=cached, excluded=excluded)
+        cmd_recommend("productivity", cached=cached, excluded=excluded, kernel_type=kernel_type)
 
     elif args[0] in ALL_VARIABLES:
-        cmd_recommend(args[0], cached=cached, excluded=excluded)
+        cmd_recommend(args[0], cached=cached, excluded=excluded, kernel_type=kernel_type)
 
     elif args[0] == "stats":
-        cmd_stats(args[1] if len(args) > 1 else "productivity")
+        cmd_stats(args[1] if len(args) > 1 else "productivity", kernel_type=kernel_type)
 
     elif args[0] == "update":
         if len(args) < 3:
@@ -458,7 +498,7 @@ def main():
         cmd_update(variable, args[1], float(args[2]))
 
     elif args[0] == "init":
-        cmd_init(args[1] if len(args) > 1 else "productivity")
+        cmd_init(args[1] if len(args) > 1 else "productivity", kernel_type=kernel_type)
 
     else:
         print(USAGE)
