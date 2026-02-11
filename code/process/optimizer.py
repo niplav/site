@@ -409,7 +409,7 @@ USAGE = f"""Supplement Stack Optimizer (GP + Thompson Sampling)
 Usage:
     supplement_optimizer.py [--cached] [--exclude sub1,sub2] [variable]       recommend (default: productivity)
     supplement_optimizer.py stats [variable]            show effects & top stacks
-    supplement_optimizer.py update <value> [variable]   log today's outcome
+    supplement_optimizer.py update <date> <value> [variable]   log outcome for date (YYYY-MM-DD)
     supplement_optimizer.py init [variable]             explicit rebuild (not usually needed)
 
     --cached            skip rebuild, use last saved state (faster for repeated samples)
@@ -451,11 +451,11 @@ def main():
         cmd_stats(args[1] if len(args) > 1 else "productivity")
 
     elif args[0] == "update":
-        if len(args) < 2:
-            print("Usage: supplement_optimizer.py update <value> [variable]")
+        if len(args) < 3:
+            print("Usage: supplement_optimizer.py update <date> <value> [variable]")
             sys.exit(1)
-        variable = args[2] if len(args) > 2 else "productivity"
-        cmd_update(variable, str(date.today()), float(args[1]))
+        variable = args[3] if len(args) > 3 else "productivity"
+        cmd_update(variable, args[1], float(args[2]))
 
     elif args[0] == "init":
         cmd_init(args[1] if len(args) > 1 else "productivity")
