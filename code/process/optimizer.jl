@@ -1,4 +1,4 @@
-#!/usr/bin/env julia
+#!/usr/local/etc/julia/bin/julialauncher
 """
 Supplement Stack Optimizer — GP + Thompson Sampling (Julia version)
 
@@ -9,7 +9,6 @@ Usage:
     julia optimizer.jl init happy
     julia optimizer.jl recommend happy
     julia optimizer.jl stats happy
-    julia optimizer.jl update 2026-02-04 67.5 happy
 """
 
 using CSV, DataFrames, Dates, JSON3, Statistics
@@ -25,6 +24,9 @@ const STATE_DIR = joinpath(SCRIPT_DIR, "state")
 const SUBSTANCES_FILE = joinpath(DATA_DIR, "substances.csv")
 const MOOD_FILE = joinpath(DATA_DIR, "mood.csv")
 const MENTAL_FILE = joinpath(DATA_DIR, "mental.csv")
+const MEDITATIONS_FILE = joinpath(DATA_DIR, "meditations.csv")
+const LIGHT_FILE = joinpath(DATA_DIR, "light.csv")
+const MASTURBATIONS_FILE = joinpath(DATA_DIR, "masturbations.csv")
 
 const MOOD_VARIABLES = ["happy", "content", "relaxed", "horny"]
 const MENTAL_VARIABLES = ["productivity", "creativity", "sublen", "meaning"]
@@ -34,7 +36,15 @@ const MIN_SUPPLEMENT_COUNT = 10
 const MORNING_SUBSTANCES = ["caffeine", "creatine", "l-theanine", "nicotine", "omega3", "sugar", "vitaminb12", "vitamind3", "l-glycine", "magnesium"]
 const EVENING_SUBSTANCES = ["creatine", "magnesium", "melatonin", "l-glycine"]
 
+const MORNING_CUTOFF_HOUR = 4
 const EVENING_CUTOFF_HOUR = 16
+const MEDITATION_THRESHOLD_MIN = 20
+const LUMENATOR_THRESHOLD_MIN = 120
+const MIN_TRAINING_DATE = Date("2022-07-06")  # Substance tracking start
+
+const MORNING_INTERVENTIONS = ["meditation", "lumenator", "masturbation"]
+const EVENING_INTERVENTIONS = ["meditation", "masturbation"]
+
 const EXCLUDED_SUBSTANCES = String[]
 
 mkpath(STATE_DIR)
@@ -59,6 +69,25 @@ function parse_datetime_robust(s)
 		end
 	end
 	return missing
+end
+
+function assign_period(dt::DateTime)
+	"""
+	Assign datetime to (date, period) based on hour.
+	- 04:00-15:59: (date, "morning")
+	- 16:00-23:59: (date+1, "evening")
+	- 00:00-03:59: (date, "evening")
+	"""
+	h = hour(dt)
+	d = Date(dt)
+
+	if h >= MORNING_CUTOFF_HOUR && h < EVENING_CUTOFF_HOUR
+		return d, "morning"
+	elseif h >= EVENING_CUTOFF_HOUR
+		return d + Day(1), "evening"
+	else  # 00:00-03:59
+		return d, "evening"
+	end
 end
 
 function load_substances()
@@ -89,12 +118,54 @@ function load_mental()
 	return df
 end
 
+function load_meditations()
+	df = CSV.read(MEDITATIONS_FILE, DataFrame)
+	df.datetime = parse_datetime_robust.(df.meditation_start)
+	df = df[.!ismissing.(df.datetime), :]
+	df = df[.!ismissing.(df.meditation_duration), :]
+
+	period_data = assign_period.(df.datetime)
+	df.date = [p[1] for p in period_data]
+	df.period = [p[2] for p in period_data]
+
+	return df
+end
+
+function load_lumenator()
+	df = CSV.read(LIGHT_FILE, DataFrame)
+	df.start_dt = parse_datetime_robust.(df.start)
+	df.stop_dt = parse_datetime_robust.(df.stop)
+	df = df[.!ismissing.(df.start_dt) .& .!ismissing.(df.stop_dt), :]
+
+	df.duration = Second.(df.stop_dt .- df.start_dt) .|> x -> x.value
+	df = df[df.duration .> 0, :]
+
+	period_data = assign_period.(df.start_dt)
+	df.date = [p[1] for p in period_data]
+	df.period = [p[2] for p in period_data]
+
+	return df
+end
+
+function load_masturbations()
+	df = CSV.read(MASTURBATIONS_FILE, DataFrame)
+	df.datetime = parse_datetime_robust.(df.datetime)
+	df = df[.!ismissing.(df.datetime), :]
+
+	period_data = assign_period.(df.datetime)
+	df.date = [p[1] for p in period_data]
+	df.period = [p[2] for p in period_data]
+
+	return df
+end
+
 function load_outcome_df(variable)
 	variable ∈ MOOD_VARIABLES ? load_mood() : load_mental()
 end
 
 # Build training data
-function build_training_data(substances_df, outcome_df, supplements, variable)
+function build_training_data(substances_df, outcome_df, supplements, variable, period,
+                            med_df=nothing, light_df=nothing, mast_df=nothing, interventions=String[])
 	# Filter substances to supplements we care about
 	sub_filtered = filter(r -> r.substance ∈ supplements, substances_df)
 
@@ -106,36 +177,100 @@ function build_training_data(substances_df, outcome_df, supplements, variable)
 	# Drop rows with missing outcomes
 	outcome_agg = outcome_agg[.!isnan.(outcome_agg.outcome), :]
 
+	# Filter to dates >= MIN_TRAINING_DATE
+	outcome_agg = filter(r -> r.date >= MIN_TRAINING_DATE, outcome_agg)
+
 	if isempty(outcome_agg)
-		return zeros(Float64, 0, length(supplements)), Float64[], Float64[], Date[]
+		n_features = length(supplements) + length(interventions)
+		return zeros(Float64, 0, n_features), Float64[], Float64[], Date[], vcat(supplements, interventions)
 	end
 
 	all_dates = outcome_agg.date
+	date_idx_map = Dict(d => i for (i, d) in enumerate(all_dates))
 
-	# Build intake matrix for all outcome dates
-	X = zeros(Float64, length(all_dates), length(supplements))
+	# Build substance matrix for all outcome dates
+	X_sub = zeros(Float64, length(all_dates), length(supplements))
 
 	if !isempty(sub_filtered)
 		# Group by date and substance
 		daily_intake = combine(groupby(sub_filtered, [:date, :substance]), nrow => :count)
 		daily_intake.present = min.(daily_intake.count, 1)
 
-		# Fill in X matrix
-		date_idx_map = Dict(d => i for (i, d) in enumerate(all_dates))
+		# Fill in X_sub matrix
 		supp_idx_map = Dict(s => i for (i, s) in enumerate(supplements))
 
 		for row in eachrow(daily_intake)
 			if row.date ∈ keys(date_idx_map) && row.substance ∈ keys(supp_idx_map)
-				X[date_idx_map[row.date], supp_idx_map[row.substance]] = row.present
+				X_sub[date_idx_map[row.date], supp_idx_map[row.substance]] = row.present
 			end
 		end
 	end
+
+	# Build intervention matrix
+	X_int = zeros(Float64, length(all_dates), length(interventions))
+
+	if !isempty(interventions)
+		int_idx_map = Dict(i => idx for (idx, i) in enumerate(interventions))
+
+		# Meditation intervention
+		if !isnothing(med_df) && "meditation" ∈ interventions
+			med_filtered = filter(r -> r.period == period, med_df)
+			if !isempty(med_filtered)
+				med_agg = combine(groupby(med_filtered, :date),
+					:meditation_duration => sum => :total_duration)
+				threshold_seconds = MEDITATION_THRESHOLD_MIN * 60
+
+				int_idx = int_idx_map["meditation"]
+				for row in eachrow(med_agg)
+					if row.date ∈ keys(date_idx_map)
+						X_int[date_idx_map[row.date], int_idx] = row.total_duration > threshold_seconds ? 1.0 : 0.0
+					end
+				end
+			end
+		end
+
+		# Lumenator intervention (morning only)
+		if !isnothing(light_df) && "lumenator" ∈ interventions
+			light_filtered = filter(r -> r.period == period, light_df)
+			if !isempty(light_filtered)
+				light_agg = combine(groupby(light_filtered, :date),
+					:duration => sum => :total_duration)
+				threshold_seconds = LUMENATOR_THRESHOLD_MIN * 60
+
+				int_idx = int_idx_map["lumenator"]
+				for row in eachrow(light_agg)
+					if row.date ∈ keys(date_idx_map)
+						X_int[date_idx_map[row.date], int_idx] = row.total_duration > threshold_seconds ? 1.0 : 0.0
+					end
+				end
+			end
+		end
+
+		# Masturbation intervention
+		if !isnothing(mast_df) && "masturbation" ∈ interventions
+			mast_filtered = filter(r -> r.period == period, mast_df)
+			if !isempty(mast_filtered)
+				mast_agg = combine(groupby(mast_filtered, :date), nrow => :count)
+
+				int_idx = int_idx_map["masturbation"]
+				for row in eachrow(mast_agg)
+					if row.date ∈ keys(date_idx_map)
+						X_int[date_idx_map[row.date], int_idx] = row.count > 0 ? 1.0 : 0.0
+					end
+				end
+			end
+		end
+	end
+
+	# Combine substance and intervention matrices
+	X = hcat(X_sub, X_int)
+	features = vcat(supplements, interventions)
 
 	y = Vector{Float64}(outcome_agg.outcome)
 	counts = Vector{Float64}(outcome_agg.count)
 	dates = outcome_agg.date
 
-	return X, y, counts, dates
+	return X, y, counts, dates, features
 end
 
 # GP model
@@ -238,7 +373,7 @@ end
 function save_state(X, y, counts, dates, supplements, variable, period)
 	data = Dict(
 		"supplements" => supplements,
-		"X" => X,
+		"X" => [collect(X[i, :]) for i in 1:size(X, 1)],
 		"y" => y,
 		"counts" => counts,
 		"dates" => string.(dates)
@@ -253,7 +388,7 @@ function load_state(variable, period)
 	!isfile(path) && return nothing
 
 	data = JSON3.read(read(path, String))
-	X = Matrix{Float64}(reduce(hcat, data.X)')
+	X = reduce(vcat, transpose.(data.X))
 	y = Vector{Float64}(data.y)
 	counts = Vector{Float64}(data.counts)
 	dates = Date.(data.dates)
@@ -264,49 +399,49 @@ end
 
 # Commands
 function cmd_init(variable, kernel_type="matern")
-	println("Loading data...")
 	substances_df = load_substances()
 	outcome_df = load_outcome_df(variable)
+	med_df = load_meditations()
+	light_df = load_lumenator()
+	mast_df = load_masturbations()
 
 	for period in ["morning", "evening"]
-		println("\n--- $(titlecase(period)) ---")
 		supplements = period == "morning" ? MORNING_SUBSTANCES : EVENING_SUBSTANCES
+		interventions = period == "morning" ? MORNING_INTERVENTIONS : EVENING_INTERVENTIONS
 
-		X, y, counts, dates = build_training_data(substances_df, outcome_df, supplements, variable)
+		X, y, counts, dates, features = build_training_data(substances_df, outcome_df, supplements, variable, period,
+		                                                     med_df, light_df, mast_df, interventions)
 
 		if isempty(X)
 			println("ERROR: No training data for $variable ($period).")
 			exit(1)
 		end
 
-		println("Tracking $(length(supplements)) supplements: $(join(supplements, ", "))")
-		println("Built $(size(X, 1)) training observations ($(minimum(dates)) to $(maximum(dates)))")
+		save_state(X, y, counts, dates, features, variable, period)
 
-		save_state(X, y, counts, dates, supplements, variable, period)
-
-		println("Fitting GP (kernel: $kernel_type)...")
 		posterior, fx = fit_gp(X, y, counts, kernel_type)
 		save_model(posterior, variable, period)
 
-		candidates = all_stacks(length(supplements))
+		candidates = all_stacks(length(features))
 		pred = posterior(RowVecs(candidates))
 		μ = mean(pred)
 
 		best_idx = argmax(μ)
-		println("\nBest predicted stack: $(stack_label(supplements, candidates[best_idx, :]))")
-		println("  Predicted: $(round(μ[best_idx], digits=1))")
-		println("  State saved to $(state_path(variable, period))")
 	end
 end
 
 function cmd_recommend(variable; cached=false, excluded=String[], kernel_type="matern")
 	substances_df = cached ? nothing : load_substances()
 	outcome_df = cached ? nothing : load_outcome_df(variable)
+	med_df = cached ? nothing : load_meditations()
+	light_df = cached ? nothing : load_lumenator()
+	mast_df = cached ? nothing : load_masturbations()
 
 	results = Dict{String, String}()
 
 	for period in ["morning", "evening"]
 		supplements = period == "morning" ? MORNING_SUBSTANCES : EVENING_SUBSTANCES
+		interventions = period == "morning" ? MORNING_INTERVENTIONS : EVENING_INTERVENTIONS
 
 		if cached
 			posterior = load_model(variable, period)
@@ -315,15 +450,16 @@ function cmd_recommend(variable; cached=false, excluded=String[], kernel_type="m
 				println("ERROR: No cached $period model. Run without --cached first.")
 				exit(1)
 			end
-			X, y, counts, dates, _ = state
+			X, y, counts, dates, features = state
 		else
-			X, y, counts, dates = build_training_data(substances_df, outcome_df, supplements, variable)
+			X, y, counts, dates, features = build_training_data(substances_df, outcome_df, supplements, variable, period,
+			                                                     med_df, light_df, mast_df, interventions)
 			posterior, fx = fit_gp(X, y, counts, kernel_type)
 			save_model(posterior, variable, period)
 		end
 
-		candidates = all_stacks(length(supplements))
-		candidates = filter_candidates(candidates, supplements, excluded)
+		candidates = all_stacks(length(features))
+		candidates = filter_candidates(candidates, features, excluded)
 
 		if isempty(candidates)
 			println("ERROR: All $period stacks excluded.")
@@ -331,7 +467,7 @@ function cmd_recommend(variable; cached=false, excluded=String[], kernel_type="m
 		end
 
 		best_idx, _ = thompson_sample(posterior, candidates)
-		results[period] = stack_label(supplements, candidates[best_idx, :])
+		results[period] = stack_label(features, candidates[best_idx, :])
 	end
 
 	println("morning: $(results["morning"])")
@@ -341,27 +477,32 @@ end
 function cmd_stats(variable, kernel_type="matern")
 	substances_df = load_substances()
 	outcome_df = load_outcome_df(variable)
+	med_df = load_meditations()
+	light_df = load_lumenator()
+	mast_df = load_masturbations()
 
 	for period in ["morning", "evening"]
 		supplements = period == "morning" ? MORNING_SUBSTANCES : EVENING_SUBSTANCES
-		X, y, counts, dates = build_training_data(substances_df, outcome_df, supplements, variable)
+		interventions = period == "morning" ? MORNING_INTERVENTIONS : EVENING_INTERVENTIONS
+		X, y, counts, dates, features = build_training_data(substances_df, outcome_df, supplements, variable, period,
+		                                                     med_df, light_df, mast_df, interventions)
 
 		println("\nFitting $period GP on $(size(X, 1)) observations (kernel: $kernel_type)...")
 		posterior, fx = fit_gp(X, y, counts, kernel_type)
 
-		candidates = all_stacks(length(supplements))
+		candidates = all_stacks(length(features))
 		pred = posterior(RowVecs(candidates))
 		μ = mean(pred)
 		σ = std(pred)
 
 		# Marginal effects
 		println("\n" * "="^72)
-		println("  $(titlecase(period)) — Marginal Supplement Effects")
+		println("  $(titlecase(period)) — Marginal Feature Effects")
 		println("="^72)
-		println("  $(rpad("Supplement", 40)) $(lpad("With", 7)) $(lpad("W/o", 7)) $(lpad("Effect", 7))")
+		println("  $(rpad("Feature", 40)) $(lpad("With", 7)) $(lpad("W/o", 7)) $(lpad("Effect", 7))")
 		println("  $(repeat("-", 40)) $(repeat("-", 7)) $(repeat("-", 7)) $(repeat("-", 7))")
 
-		for (i, supp) in enumerate(supplements)
+		for (i, feat) in enumerate(features)
 			with_mask = candidates[:, i] .== 1
 			without_mask = candidates[:, i] .== 0
 
@@ -369,7 +510,7 @@ function cmd_stats(variable, kernel_type="matern")
 			without_mean = mean(μ[without_mask])
 			effect = with_mean - without_mean
 
-			println("  $(rpad(supp, 40)) $(lpad(round(with_mean, digits=4), 7)) $(lpad(round(without_mean, digits=4), 7)) $(lpad(round(effect, digits=4, sigdigits=4), 7))")
+			println("  $(rpad(feat, 40)) $(lpad(round(with_mean, digits=4), 7)) $(lpad(round(without_mean, digits=4), 7)) $(lpad(round(effect, digits=4), 7))")
 		end
 
 		# Top 10 stacks
@@ -381,52 +522,12 @@ function cmd_stats(variable, kernel_type="matern")
 		println("  $(repeat("-", 3)) $(repeat("-", 64)) $(repeat("-", 6)) $(repeat("-", 6))")
 
 		for (rank, idx) in enumerate(top10_idx)
-			label = stack_label(supplements, candidates[idx, :])
+			label = stack_label(features, candidates[idx, :])
 			println("  $(rpad(rank, 3)) $(rpad(label, 64)) $(lpad(round(μ[idx], digits=4), 6)) $(lpad(round(σ[idx], digits=4), 6))")
 		end
 		println("="^90)
 
 		println("\n  Training: $(size(X, 1)) days ($(minimum(dates)) to $(maximum(dates)))")
-	end
-end
-
-function cmd_update(variable, date_str, value)
-	substances_df = load_substances()
-	obs_date = Date(date_str, dateformat"yyyy-mm-dd")
-
-	taken = Set(filter(r -> r.date == obs_date, substances_df).substance)
-
-	for (period, supplements) in [("morning", MORNING_SUBSTANCES), ("evening", EVENING_SUBSTANCES)]
-		state = load_state(variable, period)
-		if isnothing(state)
-			println("ERROR: No $period state file. Run init first.")
-			exit(1)
-		end
-
-		X, y, counts, dates, _ = state
-
-		vector = [s ∈ taken ? 1.0 : 0.0 for s in supplements]
-
-		println("\n--- $(titlecase(period)) ---")
-		println("Date:  $obs_date")
-		println("Mood:  $value")
-		println("Stack: $(stack_label(supplements, vector))")
-
-		if obs_date ∈ dates
-			idx = findfirst(==(obs_date), dates)
-			X[idx, :] = vector
-			y[idx] = value
-			counts[idx] = 1
-			println("Updating existing entry for $obs_date")
-		else
-			X = vcat(X, vector')
-			y = vcat(y, value)
-			counts = vcat(counts, 1)
-			push!(dates, obs_date)
-		end
-
-		save_state(X, y, counts, dates, supplements, variable, period)
-		println("Saved.")
 	end
 end
 
@@ -438,8 +539,6 @@ Usage:
                                                     recommend (default: productivity)
     julia optimizer.jl stats [--kernel TYPE] [variable]
                                                     show effects & top stacks
-    julia optimizer.jl update <date> <value> [variable]
-                                                    log outcome for date (YYYY-MM-DD)
     julia optimizer.jl init [--kernel TYPE] [variable]
                                                     explicit rebuild
 
@@ -498,13 +597,6 @@ function main()
 	elseif args[1] == "stats"
 		variable = length(args) > 1 ? args[2] : "productivity"
 		cmd_stats(variable, kernel_type)
-	elseif args[1] == "update"
-		if length(args) < 3
-			println("Usage: julia optimizer.jl update <date> <value> [variable]")
-			exit(1)
-		end
-		variable = length(args) > 3 ? args[4] : "productivity"
-		cmd_update(variable, args[2], parse(Float64, args[3]))
 	elseif args[1] == "init"
 		variable = length(args) > 1 ? args[2] : "productivity"
 		cmd_init(variable, kernel_type)
