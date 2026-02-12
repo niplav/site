@@ -21,8 +21,8 @@ internet connection).
 Prerequisites
 -------------
 
-Building requires [markdown_py](https://pypi.org/project/Markdown/)
-for `sitedata`, and [Klong](http://t3x.org/klong/index.html) and
+Building requires [lowdown](https://kristaps.bsd.lv/lowdown/) for
+`sitedata`, and [Klong](http://t3x.org/klong/index.html) and
 [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) for
 `total`.
 

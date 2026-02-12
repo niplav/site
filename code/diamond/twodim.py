@@ -6,13 +6,14 @@ from pandas import DataFrame
 import matplotlib.pyplot as plt
 import numpy as np
 
-exec(open("ndim_diamond_square.py").read())
+from generalized_o3_pro import create_space, diamond_square_nd
 
 size=129
 minval=0
 maxval=255
 
-space=create_space(2, size, minval, maxval, 0.5)
+space=create_space(2, size, minval, maxval)
+diamond_square_nd(space, stitch_dim=1, factor=0.5, noise_lo=-maxval/2, noise_hi=maxval/2)
 
 fig=plt.figure()
 ax = fig.add_subplot(projection='3d')

@@ -157,11 +157,15 @@ def stitch(space, size, offsets, stitch_dim):
 
     seam_centres = np.unique(np.stack(seam_centres), axis=0)
     for pt in seam_centres:
+        # Identify which dimensions are centered (not at boundaries)
+        centred_dims = [d for d in range(dim) if pt[d] not in [0, size - 1]]
+
         # neighbouring sub-cubes that wrote this point
         vals = []
-        for v in it.product([0, -half], repeat=stitch_dim):
+        for v in it.product([0, -half], repeat=len(centred_dims)):
             neighbour = pt.copy()
-            neighbour[[*it.islice((i for i in range(dim)), stitch_dim)]] += v
+            for i, dim_idx in enumerate(centred_dims):
+                neighbour[dim_idx] += v[i]
             if ((neighbour >= 0) & (neighbour < space.shape[0])).all():
                 vals.append(space[tuple(neighbour)])
         if vals:
@@ -214,22 +218,3 @@ def diamond_square_nd(space, size=None, offsets=None, *,
                       noise_hi=noise_hi * factor,
                       seed=None if seed is None else rng.integers(10**9))
     return space
-
-def visualize_landscape(filled, title="Terrain Visualization",
-                        elevation_scale=1.0, azim=-60, elev=30):
-    """3-D matplotlib helper – identical to the previous version."""
-    fig = plt.figure(figsize=(12, 8))
-    ax  = fig.add_subplot(111, projection='3d')
-
-    y, x = np.indices(filled.shape)
-    ax.plot_surface(x, y, filled * elevation_scale,
-                    cmap='plasma', linewidth=0, antialiased=True, alpha=.8)
-    ax.plot_wireframe(x, y, filled * elevation_scale,
-                      color='k', linewidth=.1, alpha=.3)
-
-    ax.view_init(elev=elev, azim=azim)
-    ax.set(title=title, xlabel='X', ylabel='Y', zlabel='Height')
-    ax.set_box_aspect([1, 1, .5])
-    plt.colorbar(plt.cm.ScalarMappable(cmap='plasma'),
-                 ax=ax, shrink=.5, aspect=5, label='Height')
-    plt.savefig("./plot.png", dpi=150, bbox_inches='tight')

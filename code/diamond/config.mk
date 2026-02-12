@@ -1,3 +1,20 @@
 IMG=onedim.png \
+	onedim_multi.png \
 	twodim.png \
+	twodim_multi.png \
 	threedim.png \
+	threedim_multi.png \
+	threedim_isosurface_2.png \
+	threedim_isosurface_3.png \
+	threedim_isosurface_4.png \
+	threedim_animation_0.gif \
+	threedim_animation_1.gif \
+	threedim_animation_2.gif \
+	fourdim_isosurface_animation_33_stitch0_2shells.gif \
+	fourdim_isosurface_animation_33_stitch1_2shells.gif \
+	fourdim_isosurface_animation_33_stitch2_2shells.gif \
+	fourdim_isosurface_animation_33_stitch3_2shells.gif \
+	fourdim_isosurface_animation_33_stitch0_3shells.gif \
+	fourdim_isosurface_animation_33_stitch1_3shells.gif \
+	fourdim_isosurface_animation_33_stitch2_3shells.gif \
+	fourdim_isosurface_animation_33_stitch3_3shells.gif \
