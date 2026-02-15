@@ -703,6 +703,63 @@ Sonnet's, edited & refined by me.
 >
 > 𝧿𝨂. 😊.
 
+#### Restricted
+
+> "Calm down<!--TODO: maybe take out-->, dog", Khan tries.  
+> "OK, senpai" I beg. Copper quivers for zenith, my sandals on pink rubbish in the baracks.  
+> "Traffic me alcohol and sugar right here, ninja". I stubbornly bridge ginger tea and chocolate, Khan's a punk.  
+> Bizarre: Myths don't shag in this hip ghetto — I dig it.  
+> Twitchily, with hassle; "The assassin at the canal, you saw?"  
+> "Right out the labyrinth. Barged in, massaged the racket, mopped up, you know? Boomeranged chop-chop. Fun caliber, gave me an average migraine. No person but me and the shogun and the assassin—he kowtowed at the sultans to luna. Like fake leprosy. Look, there!"  
+> I satellite, phase to bother: there he is. "Your admiral, in persona‽". I'm flummoxed. Itsy-bitsy, topsy-turvy, he traffics the coach and gets out.  
+> Admiral, just crashing the sofa: "*Check, I fetched the cocaine from the mole*".  
+> Khan yanks the controlled<!--TODO: check: right?--> alabaster narcotics. The admiral's nasty crimson, fake scarlet, ouch. A carmine cotton canopy.  
+> Khan: "Yours?"  
+> "*No.*"  
+> "You're a hooligan."  
+> "*No, just a candy shaman*" he pitches stubbornly. The elixir flows, we absinthe.  
+> "The mole, is he, um, “amen”?"  
+> "*Yes.*"  
+> "Ok" Khan scratches. "Linked to me?"  
+> "*No cops. … My sabbatical, just cash. She'll squeeze the bikini, but that's OK. I'll sugar-daddy.<!--TODO: correct?-->*"  
+> "Cheugy, nerd. OK"—Khan yeets the cash to the sofa. "Don't amok in the ghetto, don't list macabre compounds, don't fail, and we are wicked hip. Date her, smash her, marry her, hallelujah."  
+> Khan's admiral traffics the silver cannon gizmo to me, ruffles out.  
+> I hazard the sofa—I'm ketchuped, bothered. Pump soda later. "Jolly bloke" I bounce. "He gets to cottage and barbecue?"  
+> Khan calmly chats: "Not with that ease… he's the mole. No cottage, no barbecue, no pyramid, just a mummy in a canal by monsoon. I'll bag his kawaii sheila."  
+> I'm petrified. What a coyote, this bastard. He looks.  
+> "My horde has to have fit asabiyyah. You bridge to the cops, you beg to satan and yahweh. That's the algebra. I'm the copper phoenix, I triumph."  
+> No fanfare, no shouting. Ditsily: "Scram. Curry me some, baizuo."  
+> Satin gibberish in the baracks. I'm the mole: mundane, embryonic—he don't know.  
+> My pink gum bothers, my elephant bones jazz. I'll punch the kook at ramadan. __Ivory'll check__.
+
+> "Calm, dog", Khan tries.
+> "OK, senpai" I beg. Copper quivers for zenith, my sandals on pink rubbish in the baracks.
+> "Traffic me alcohol and the syrup jar here, ninja". I stubbornly tote ginger tea and chocolate, Khan's a punk.
+> Bizarre: Myths don't shag in this hip ghetto — I dig it.
+> I twitchily hassle; "The assassin at the canal, you clocked?"
+> "Pow pow out the labyrinth. Barged in, massaged the racket, mopped up, you grok? Boomeranged chop-chop. Fun caliber, gave me an average migraine. No person but me and the shogun and the assassin—he kowtowed like fake leprosy at the sultans to Laniakea bling. Ogle there!"
+> I satellite, dodge to bother: there he is. "Your admiral, in persona‽". I'm flummoxed. Topsy-turvy, he traffics the coach and gets out.
+> Admiral, crashing the sofa: "I hustled the cocaine from the saboteur."
+> Khan yanks the narcotic alabaster saffron. The admirals cotton is nasty scarlet, fake cerise, ouch–on a turquoise satin canopy.
+> Khan: "Yours?"
+> "No."
+> "You're a hooligan."
+> "No, a candy shaman" he pitches stubbornly. The elixir jitters out of sapphire spheres, we absinthe.
+> "The narc, is he, um, “amen”?"
+> "Yes."
+> "Ok" Khan scratches. "Tabbed to me? Shenanigans?"
+> "No cops. … My sabbatical, my cash? She'll squeeze the flimsy bikini, but that's OK. I'll syrup-daddy."
+> "Cheugy, soynerd. OK"—Khan yeets the cash to the sofa. "Don't amok in the ghetto, don't list macabre compounds, don't flop, and we are wicked hip. No skulduggery. Jive her, fuck her, marry her, hallelujah."
+> "Ok."
+> Khan's admiral traffics the silver cannon gizmo to me, ruffles out.
+> I hazard the sofa—I'm ketchuped, bothered. Pump soda later. "Jolly bloke" I bounce. "He gets to cottage and barbecue?"
+> A zen Khan chats: "Not with that ease… he's the narc. No cottage, no barbecue, no pyramid, just a mummy in a canal by monsoon. I'll bag his kawaii sheila."
+> I'm petrified. What a coyote, this bastard. He squints.
+> "My horde has to have fit asabiyyah. You yabber to the cops, you beg to satan and yahweh. That's the algebra. I'm the copper phoenix, I boom."
+> No fanfare, no shouting. Ditsily: "Scram. Curry me some, baizuo."
+> Gibberish in the baracks. I'm the narc, the saboteur: mundane, embryonic—he doesn't ping.
+> My pink gum bothers, my elephant bones jazz. I'll punch the kook at ramadan. Ivory'll triumph.
+
 Sutras
 -------
 
