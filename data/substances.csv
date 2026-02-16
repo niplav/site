@@ -1151,4 +1151,9 @@ datetime,substance,amount,experiment,id,prediction
 2026-02-11T07:38:12+01:00,l-theanine,500mg,,,
 2026-02-11T14:43:08+01:00,nicotine,2mg,,,
 2026-02-12T21:07:53+01:00,melatonin,0.35mg,,,
-,creatine,6g,,,
+2026-02-12T21:07:53+01:00,creatine,6g,,,
+2026-02-15T21:40:19+01:00,melatonin,0.3mg,,,
+2026-02-15T21:40:24+01:00,magnesium,300mg,,,
+2026-02-16T11:07:16+01:00,caffeine,200mg,,,
+2026-02-16T11:07:36+01:00,l-theanine,500mg,,,
+2026-02-16T11:07:52+01:00,vitaminb12,500mg,,,

@@ -11,7 +11,7 @@ total: sitedata puttit
 sitedata: $(CONF) $(HTML)
 
 .md.html:
-	$(MARKDOWN) $< > $@
+	./details $< | $(MARKDOWN) > $@
 	./html $@
 
 rebuild:

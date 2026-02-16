@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+import sys
+import re
+import subprocess
+
+if len(sys.argv) != 2:
+    print('usage: details FILE', file=sys.stderr)
+    sys.exit(1)
+
+with open(sys.argv[1], 'r') as f:
+    content = f.read()
+
+def process(match):
+    opening = match.group(1)
+    summary = match.group(2)
+    inner = match.group(3)
+
+    # Run markdown through lowdown
+    result = subprocess.run(
+        ['lowdown', '--html-no-skiphtml', '--html-no-escapehtml', '--out-no-smarty'],
+        input=inner,
+        capture_output=True,
+        text=True
+    )
+
+    return f"{opening}\n{summary}\n{result.stdout.rstrip()}\n</details>"
+
+# Match <details> ... <summary>...</summary> ... </details>
+pattern = r'(<details[^>]*>)\s*(<summary>.*?</summary>)\s*(.*?)\s*</details>'
+output = re.sub(pattern, process, content, flags=re.DOTALL)
+
+print(output, end='')
