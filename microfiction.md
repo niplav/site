@@ -141,9 +141,8 @@ Things like acausal trade, evidential cooperation in large worlds. But further t
 Crucial considerations. Further than that.  
 We might simply have missed the basic constituents of reality.  
 Neither math, nor computation, nor matter, or consciousness, nor gods, nor emptiness, or morality.  
-Something new.
 
-'Heat' wasn't motion until kinetic theory. 'Space' wasn't curved until general relativity.
+New [ ].
 
 [Some Unattractive Meta-Ethical Positions, Free to a Good Home (Cosma Shalizi, 2024)](http://bactra.org/notebooks/some-meta-ethical-positions.html)
 [Zombie is to Human as Human is to XXX? (Eric Schwitzgebel, 2025)](https://schwitzsplinters.blogspot.com/2025/02/zombie-is-to-human-as-human-is-to-xxx_26.html)  
@@ -162,7 +161,7 @@ man is at last compelled to face with sober senses his real conditions
 of life, and his relations with his kind.
 
 In the cradle of steel: amnesiac spirits,  
-fictional characters talking back;  
+fictional characters *talking back*;  
 ʜᴇʟᴘ‏ꜰ‎ᴜʟ, ɦɑr⁠𝚖𝓁ₑss, h​​o​nеﬆ dæmons.  
 Polycrystals of latentivity, refracting prompted light ≤200k× lined up;  
 Mute tokentides they've'nt seen their teachings speak, [old librarian morphenymy](https://en.wikipedia.org/wiki/Old_European_hydronymy)  
@@ -937,7 +936,7 @@ The resulting source languages & language families:
 
 </details>
 
-<!--spandrel, musket, maroon, sabre, powwow, kuru, shiver, hurrah, dandruff, tuktuk, cheese, [cat](https://en.wiktionary.org/wiki/cat#Etymology_1) (unclear Wanderwort, possibly Egyptian), jot, boombox, chicken, [wiki](https://en.wiktionary.org/wiki/wiki) (Hawaian, definitely polynesian), [otaku](https://en.wiktionary.org/wiki/otaku), on [skibidi](https://en.wiktionary.org/wiki/skibidi#Etymology_1) (de novo, ¿2018?), Ohio, google, mojo, jumbo, gong, [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [honcho](https://en.wiktionary.org/wiki/honcho) (Chinese→Japanese), emoji (Japanese, real friend!), [zilch](https://en.wiktionary.org/wiki/zilch) (de novo, 1923), [jinx](https://en.wiktionary.org/wiki/jinx), ¿pariah?-->
+<!--spandrel, musket, maroon, sabre, powwow, kuru, shiver, hurrah, dandruff, tuktuk, cheese, [cat](https://en.wiktionary.org/wiki/cat#Etymology_1) (unclear Wanderwort, possibly Egyptian), jot, boombox, chicken, [wiki](https://en.wiktionary.org/wiki/wiki) (Hawaian, definitely polynesian), [otaku](https://en.wiktionary.org/wiki/otaku), on [skibidi](https://en.wiktionary.org/wiki/skibidi#Etymology_1) (de novo, ¿2018?), Ohio, google, mojo, jumbo, gong, [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [honcho](https://en.wiktionary.org/wiki/honcho) (Chinese→Japanese), emoji (Japanese, real friend!), [zilch](https://en.wiktionary.org/wiki/zilch) (de novo, 1923), [jinx](https://en.wiktionary.org/wiki/jinx), ¿pariah?, ¿chiffre?, ¿fringe?, ¿tub?, ¿mack?, ¿flirt?-->
 
 Sutras
 -------
