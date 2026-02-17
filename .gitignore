@@ -9,11 +9,16 @@
 .*vis*
 *.o
 !header.html
+
 __pycache__
+
 code/turning/*.csv
 code/process/state
+code/champagne/attempt*.json
+
 anim/*/media
 notes_on_locations.*
+
 node_modules
 package.json
 package-lock.json

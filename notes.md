@@ -3102,8 +3102,8 @@ that plane, arranged so that they're at the corners of a regular
 distance `$d$` of two adjacent disks is greater than `$2r$`. We want to
 find a path for each (center of a) disk so that:
 
-1. Every disk has a tangent with every other disk.
-2. Disks don't intersect.
+1. Every disk has a tangent with/touches every other disk.
+2. Disks don't intersect, ever, neither while moving nor while stationary.
 3. Every disk returns to its original location.
 3. The sum of all path-lengths is minimized.
 

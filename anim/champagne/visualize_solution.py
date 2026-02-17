@@ -13,7 +13,7 @@ import json
 import numpy as np
 
 # Configuration: path to solution JSON file
-JSON_PATH = '/usr/local/src/champagne/solutions/best_n10_w6.json'
+JSON_PATH = '/home/niplav/proj/site/code/new/best_n8_w16.json'
 
 class ChampagneSolutionVisualization(Scene):
     def construct(self):
@@ -29,11 +29,11 @@ class ChampagneSolutionVisualization(Scene):
         n_disks = metadata['n_disks']
 
         # Scale factor for visualization (reduced to fit in frame)
-        scale = 1.0
-        vertical_offset = -0.5  # Shift everything down to avoid title overlap
+        scale = 0.8
+        vertical_offset = -0.0  # Shift everything down to avoid title overlap
 
-        # Disk properties (actual problem radius is 0.3, scaled)
-        actual_radius = 0.3
+        # Disk radius: read from JSON metadata, fallback to 0.3
+        actual_radius = metadata.get('disk_radius', 0.3)
         radius = actual_radius * scale
 
         # Generate colors for any number of disks

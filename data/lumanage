@@ -2,10 +2,6 @@
 
 lumfile='/home/niplav/proj/site/data/islight.csv'
 
-fn readval {
-        dmenu -l 10 -fn 'monospace:size=10' -nb '#ffffff' -nf '#000000' -sb '#ffb405'
-}
-
 datetime=`{date --iso-8601}
 islum=`{seq 0 1 | shuf | tail -1}
 
