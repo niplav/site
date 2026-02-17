@@ -1,15 +1,11 @@
 import math
 import numpy as np
 import itertools as it
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 
 def create_space(dim, size, minval=0, maxval=255):
-	"""Initialize n-dimensional space with random corners"""
-	space = np.zeros([size]*dim)
-	# Initialize corners with random values
-	indices = np.array(list(np.ndindex(*[2]*dim))) * (size-1)
-	space[tuple(indices.T)] = np.random.randint(minval, maxval, size=len(indices))
+	space=np.zeros([size]*dim, dtype=float)
+	indices=np.array(list(np.ndindex(*[2]*dim)))*(size-1)
+	space[tuple(indices.T)]=np.random.randint(minval, maxval, size=len(indices))
 	return space
 
 def get_cornerspos(dim):
@@ -49,7 +45,7 @@ def diamond_rec(space, size, offsets, stitch_dim, minval, maxval, factor, subdim
 		return space
 
 	#cornerspos=get_cornerspos(dim)
-	#corners=offsets[:, np.newaxis] + cornerspos[np.newaxis, :]*(size-1)
+	#corners=offsets[:, np.newaxis]+cornerspos[np.newaxis, :]*(size-1)
 
 	corners, centers=corners_and_centers(dim, subdim, size, offsets)
 
@@ -64,16 +60,15 @@ def stitch(space, offsets, stitch_dim, minval, maxval, factor):
 
 # Needs to be recursive! When given space go big first then into smaller & smaller cells
 def diamond_square_nd(space, size=None, offsets=None, stitch_dim=1, minval=0, maxval=255, factor=1.0):
-	if size==None:
+	if size is None:
 		size=space.shape[0]
+	if offsets is None:
+		offsets=np.zeros([1, space.ndim], dtype=int)
 
 	if size<=2:
 		return
 
 	dim=len(space.shape)
-
-	if type(offsets)==type(None):
-		offsets=np.zeros([1, dim], dtype=int)
 	# Indexing: space[tuple(offsets.T)]
 
 	if not (0<=stitch_dim<dim):
@@ -86,64 +81,14 @@ def diamond_square_nd(space, size=None, offsets=None, stitch_dim=1, minval=0, ma
 	nsize=size//2
 	cornerspos=get_cornerspos(dim)
 	# For some reasons, the code below produces one axis *too much* in the beginning!, when offsets has the shape (1, …)
-	# noffsets=offsets[:, np.newaxis] + cornerspos[np.newaxis, :] * nsize
+	# child_offsets=offsets[:, np.newaxis]+cornerspos[np.newaxis, :]*nsize
 	# This line works, but is ugly
-	# noffsets=(offsets[:, np.newaxis] + cornerspos[np.newaxis, :] * nsize).reshape([offsets.shape[0]*cornerspos.shape[0], dim])
-	noffsets=cartsum(offsets, get_cornerspos(dim)*nsize)
+	# child_offsets=(offsets[:, np.newaxis]+cornerspos[np.newaxis, :]*nsize).reshape([offsets.shape[0]*cornerspos.shape[0], dim])
+	child_offsets=cartsum(offsets, get_cornerspos(dim)*nsize)
 
 	return diamond_square_nd(space,
 				size=nsize+1,
-				offsets=noffsets,
+				offsets=child_offsets,
 				minval=round(minval*factor),
 				maxval=round(maxval*factor),
 				factor=factor)
-
-def visualize_landscape(filled, title="Terrain Visualization", elevation_scale=1.0, azim=-60, elev=30):
-	"""
-	Visualize a 2D numpy array as a 3D landscape/terrain.
-
-	Args:
-		filled (np.ndarray): 2D numpy array representing height values
-		title (str): Title for the plot
-		elevation_scale (float): Scale factor for height values
-		azim (float): Azimuthal viewing angle in degrees
-		elev (float): Elevation viewing angle in degrees
-	"""
-	# Create figure and 3D axis
-	fig = plt.figure(figsize=(12, 8))
-	ax = fig.add_subplot(111, projection='3d')
-
-	# Create coordinate grids
-	x = np.arange(0, filled.shape[1], 1)
-	y = np.arange(0, filled.shape[0], 1)
-	X, Y = np.meshgrid(x, y)
-
-	# Create the surface plot
-	surf = ax.plot_surface(X, Y, filled * elevation_scale,
-						  cmap='plasma',
-						  linewidth=0,
-						  antialiased=True,
-						  alpha=0.8)
-
-	# Add a color bar
-	fig.colorbar(surf, ax=ax, shrink=0.5, aspect=5, label='Height')
-
-	# Customize the view
-	ax.view_init(elev=elev, azim=azim)
-
-	# Add wireframe for better depth perception
-	ax.plot_wireframe(X, Y, filled * elevation_scale,
-					 color='black',
-					 linewidth=0.1,
-					 alpha=0.3)
-
-	# Add title and labels
-	ax.set_title(title)
-	ax.set_xlabel('X')
-	ax.set_ylabel('Y')
-	ax.set_zlabel('Height')
-
-	# Set aspect ratio to be equal
-	ax.set_box_aspect([1, 1, 0.5])
-
-	plt.show()
