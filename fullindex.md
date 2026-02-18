@@ -261,6 +261,7 @@ das dort hervorragte, und eine alte Stiefelsohle auf.
 * [Buch Stab](./buch_stab.html)
 * [Platte](./platte.html)
 * [Microfiction](./microfiction.html)
+* [`filepunk`](./outputs/filepunk.html)
 * [Playing with Language](./language.html)
 
 ### AI Outputs
@@ -281,7 +282,6 @@ your own risk.
 	* [Gilgamesh Ratfic](./outputs/gilgamesh.html)
 * Medianworlding
 	* [Niplavistan](./outputs/niplavistan.html)
-	* [`filepunk`](./outputs/filepunk.html)
 * [Plan for a New Atlantropa Dam](./outputs/atlantropa.html)
 * [Encoding Information](./outputs/encoding.html)
 * [Do Games Favor Offense or Defense with Increasing Player Skill?](./outputs/scaling.html)

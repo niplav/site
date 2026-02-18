@@ -805,7 +805,7 @@ Conjugating & combining allowed words was permitted.
 
 > "*OK, no shenanigans in the slum. [Chào](https://en.wiktionary.org/wiki/ch%C3%A0o#Etymology)[^chao].*"
 
-> Admiral traffics the [silver](https://en.wiktionary.org/wiki/silver#Etymology) [cannon](https://en.wiktionary.org/wiki/cannon#Etymology_1) [gizmo](https://en.wiktionary.org/wiki/gizmo#Etymology) to me, [ruffles](https://en.wiktionary.org/wiki/ruffle) out.
+> Admiral traffics the [silver](https://en.wiktionary.org/wiki/silver#Etymology) [cannon](https://en.wiktionary.org/wiki/cannon#Etymology_1) [gizmo](https://en.wiktionary.org/wiki/gizmo#Etymology) to me, [ruffles](https://en.wiktionary.org/wiki/ruffle)<!--TODO: replace with swagger?--> out.
 
 > I [hazard](https://en.wiktionary.org/wiki/hazard#Etymology) the sofa—admiral's mana [ketchups](https://en.wiktionary.org/wiki/ketchup#Etymology) me, I'm bothered. I'll [pump](https://en.wiktionary.org/wiki/pump#Etymology)[^pump] [soda](https://en.wiktionary.org/wiki/soda#Italian) when [Betelgeuse](https://en.wiktionary.org/wiki/Betelgeuse#Etymology) [capoeiras](https://en.wiktionary.org/wiki/capoeira#Etymology). "__[Goofy](https://en.wiktionary.org/wiki/goofy#Etymology)[^goofy] [bloke](https://en.wiktionary.org/wiki/bloke#English)__" I [bounce](https://en.wiktionary.org/wiki/bounce#English). "__He gets to [cottage](https://en.wiktionary.org/wiki/cottage#English)[^cottage] and [barbecue](https://en.wiktionary.org/wiki/barbecue#Etymology)?__"
 
@@ -936,7 +936,7 @@ The resulting source languages & language families:
 
 </details>
 
-<!--spandrel, musket, maroon, sabre, powwow, kuru, shiver, hurrah, dandruff, tuktuk, cheese, [cat](https://en.wiktionary.org/wiki/cat#Etymology_1) (unclear Wanderwort, possibly Egyptian), jot, boombox, chicken, [wiki](https://en.wiktionary.org/wiki/wiki) (Hawaian, definitely polynesian), [otaku](https://en.wiktionary.org/wiki/otaku), on [skibidi](https://en.wiktionary.org/wiki/skibidi#Etymology_1) (de novo, ¿2018?), Ohio, google, mojo, jumbo, gong, [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [honcho](https://en.wiktionary.org/wiki/honcho) (Chinese→Japanese), emoji (Japanese, real friend!), [zilch](https://en.wiktionary.org/wiki/zilch) (de novo, 1923), [jinx](https://en.wiktionary.org/wiki/jinx), ¿pariah?, ¿chiffre?, ¿fringe?, ¿tub?, ¿mack?, ¿flirt?, bukkake-->
+<!--spandrel, musket, maroon, sabre, powwow, kuru, shiver, hurrah, dandruff, tuktuk, cheese, [cat](https://en.wiktionary.org/wiki/cat#Etymology_1) (unclear Wanderwort, possibly Egyptian), jot, boombox, chicken, [wiki](https://en.wiktionary.org/wiki/wiki) (Hawaian, definitely polynesian), [otaku](https://en.wiktionary.org/wiki/otaku), on [skibidi](https://en.wiktionary.org/wiki/skibidi#Etymology_1) (de novo, ¿2018?), Ohio, google, mojo, jumbo, gong, [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [honcho](https://en.wiktionary.org/wiki/honcho) (Chinese→Japanese), emoji (Japanese, real friend!), [zilch](https://en.wiktionary.org/wiki/zilch) (de novo, 1923), [jinx](https://en.wiktionary.org/wiki/jinx), ¿pariah?, ¿chiffre?, ¿fringe?, ¿tub?, ¿mack?, ¿flirt?, bukkake, jump, swagger, fuss, bugged-->
 
 Sutras
 -------
