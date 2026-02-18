@@ -14,6 +14,9 @@ causation<sub>[55%](https://fatebook.io/q/in-linear-sems-with-0-1-distributed--c
 in linear structural equation models.
 -->
 <!--TODO: 2×2 of correlation/causation and their absences-->
+<!--TODO: rewrite and rename to “How Often Does Correlation Correlate
+with Causation? How often Does Causation Cause Correlation?” or
+something like that-->
 
 How Often Does ¬Correlation ⇏ ¬Causation?
 ==========================================

@@ -32,7 +32,7 @@ I'll generate 10k 2k-dimensional [uniformly
 distributed](https://en.wikipedia.org/wiki/Uniform_distribution)
 samples, reduce them down to 2 dimensions, and plot
 the result (code [here](./code/dimension/code.jl) in
-[julia](https://en.wikipedia.org/wiki/Julia_programming_language)):
+[Julia](https://en.wikipedia.org/wiki/Julia_programming_language)):
 
 	using TSne, UMAP, Plots
 

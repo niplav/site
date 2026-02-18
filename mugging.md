@@ -15,8 +15,10 @@ strongly diminishing marginal returns, utilities must grow slower than
 of a busy-beaver-like function. This "breaks the boundedness barrier"
 for mugging-immune utility functions.__
 >
-> __[Switching to a Levin-style speed prior](#The_Need_for_Speed) solves
-this kind of Pascal's mugging.__
+> __[Switching to a Levin-style speed prior](#The_Need_for_Speed)
+half-solves this kind of Pascal's mugging, using the Leverage penalty
+fully solves it, but at the cost of strongly penalizing high-utility
+hypotheses.__
 
 Mugging-Immune Utility Functions
 =================================

@@ -3107,9 +3107,6 @@ find a path for each (center of a) disk so that:
 3. Every disk returns to its original location.
 3. The sum of all path-lengths is minimized.
 
-Disks are allowed to graze while moving, paths taken by disks can overlap
-but disks may not intersect.
-
 The problem is trivial for zero to three disks:
 
 Zero disks: Don't do anything. You win.  
