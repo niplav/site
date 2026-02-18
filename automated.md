@@ -9,9 +9,9 @@ Automated AI Alignment Research
 ================================
 
 People love to talk about whether AI misalignment is even a problem,
-probably by one order of magnitude. Unrelatedly, the main AI alignment
-plan of the major AI companies is (if they have one) to use mildly
-superhuman AIs to solve (parts of?) the alignment problem. Whether
+probably too much by one order of magnitude. Unrelatedly, the main AI
+alignment plan of the major AI companies is (if they have one) to use
+mildly superhuman AIs to solve (parts of?) the alignment problem. Whether
 and how such plans could be made to work is underdiscussed
 by 1½ orders ot magnitude. But like with the [meta-problem of
 consciousness](https://en.wikipedia.org/wiki/Meta-problem_of_consciousness),
@@ -42,6 +42,10 @@ More:
 
 * [Beliefs and Disagreements about Automating Alignment Research (Ian McKenzie, 2022)](https://www.lesswrong.com/posts/JKgGvJCzNoBQss2bq/beliefs-and-disagreements-about-automating-alignment)
 * [Automation collapse (Geoffrey Irving/Tomek Korbak/Benjamin Hilton, 2024)](https://www.lesswrong.com/posts/2Gy9tfjmKwkYbF9BY/automation-collapse)
+
+<!--TODO: Demski's point in a comment somewher that automated alignment
+research should be useful for alignment research, not for automating
+alignment research. important but subtle distinction-->
 
 I. Type Signature of Output
 ----------------------------
@@ -135,14 +139,15 @@ that is safe to optimize the "outer alignment problem", but most people
 seem to have forgotten about this, or believe it's a solved problem. I
 don't quite see why they believe that.
 
-One could argue that current LLM representations of human values are
-robust to strong optimization, or that they will be robust to strong
-optimization at the time when AIs are capable of taking over. I think
-that's probably wrong, because (1) LLMs have many more degrees of freedom
-in their internal representations than e.g. Inception, so the resulting
-optimized outputs are going to look even stranger, and (2) I don't think
-humans have yet found any function that's safe and useful to optimize,
-so I don't think it's going to be "in the training data".
+One could argue that current LLM representations of human values
+are robust to strong optimization, or that they will be robust to
+strong optimization at the time when AIs are capable of taking
+over. I think that's probably wrong, because (1) LLMs have many
+more degrees of freedom in their internal representations than
+e.g. [Inceptionv3](https://en.wikipedia.org/wiki/Inceptionv3), so the
+resulting optimized outputs are going to look even stranger, and (2)
+I don't think humans have yet found any function that's safe and useful
+to optimize, so I don't think it's going to be "in the training data".
 
 If an advanced AI optimizes some functions of its
 sensors that is usually called wireheading or [reward
