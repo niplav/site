@@ -66,6 +66,7 @@ HTML=index.html \
 	exercise_log.html \
 	expansion.html \
 	favorites.html \
+	filepunk.html \
 	foom.html \
 	flags.html \
 	forecasters.html \
@@ -139,7 +140,6 @@ HTML=index.html \
 	outputs/beast.html \
 	outputs/distr.html \
 	outputs/encoding.html \
-	outputs/filepunk.html \
 	outputs/fractional.html \
 	outputs/gilgamesh.html \
 	outputs/immune.html \
