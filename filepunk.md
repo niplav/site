@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav/Claude 3.7 Sonnet/Claude 4 Sonnet/Claude 4.6 Opus, created: 2025-08-19, modified: 2025-09-12, language: english, status: in progress, importance: 1, confidence: fiction*
+*author: niplav/Claude 3.7 Sonnet/Claude 4 Sonnet/Claude 4.6 Opus, created: 2025-08-19, modified: 2026-02-18, language: english, status: in progress, importance: 1, confidence: fiction*
 
 > __Fileservers × mechanism design × sub-cent microtransactions. A
 personal æsthetic.__
@@ -13,8 +13,8 @@ personal æsthetic.__
 ============
 
 Co-written with a several Claudes, and a hefty amount of [steering
-bits](https://gwern.net/blog/2025/good-ai-samples) from my side, lots
-of vetting.
+bits](https://gwern.net/blog/2025/good-ai-samples) from my side, some
+vetting. Still too clean/uniform for a real command line history.
 
 <br><br><br><br><br>
 
@@ -30,7 +30,7 @@ of vetting.
 % venti/copy -f /dev/sdC0/fossil -t tcp!venti.tarsnap.net!venti /usr/niplav/vigila
 % echo 'topup Ξ0.008' >/mnt/claude/billing/ctl
 % lc /mnt/claude/ctx
-1_icia  2_forecasting  3_vigila  4_stanmod
+1_icia  2_forecasting  3_vigila  4_stevemod
 % cat /usr/niplav/vigila/TODO.txt >/mnt/claude/ctx/3_vigila/in
 % cat /mnt/claude/ctx/3_vigila/out
 reviewed TODO items. 3 blocked on venti migration, 1 ready...
@@ -75,7 +75,7 @@ Twrite /mnt/claude/ctx/1_icia/in: limit exceeded by 1.4kb (Ξ0.00003 remaining)
 
 % srv -e 'tcp!generalcomputecorp.com!9p' gpu
 mount: tcp!generalcomputecorp.com!9p: auction closed, next window 14:00
-% srv -e 'tcp!gpu.market!9p' gpu
+% srv -e 'tcp!gpu.market.gl!9p' gpu
 % mount -c /srv/gpu /mnt/gpu
 % echo 'bid model=h200 max=Ξ0.0003/min' >/mnt/gpu/auction/ctl
 % cat /usr/niplav/papers/icia/train_pin.lua >/mnt/gpu/sessions/new
@@ -111,7 +111,7 @@ local parabolic_kernel = function(X, α, ℓ)
 3c3
 < actually are problems in advanced AI systems, and I will
 ---
-> actually are problems in advanced AI systems. I will
+> actually are problems in advanced AI systems. We will
 7a8,12
 > In some sense a reward-tampering AI system, across ~all reward
 > functions, does the same thing: it intervenes "as closely as
@@ -119,7 +119,7 @@ local parabolic_kernel = function(X, α, ℓ)
 > of the reward function. We call this phenomenon "convergent
 > intervention", and believe it can be used to solve the problem of
 > To solve this would be to solve the problem of [environmental
-> goals](https://arbital.com/p/environmental_goals/).
+> goals](tcp!arbital.com/p/environmental_goals/!https).
 % diff /mnt/collab/papers/icia/content /usr/niplav/papers/icia/draft.md | patch /mnt/collab/papers/icia/content
 % echo shapley >/mnt/collab/papers/icia/compensation_model
 % cat /mnt/collab/papers/icia/contributions
@@ -171,6 +171,9 @@ bass_loop_01  Ξ0.00002    synth_pad_04  Ξ0.00001    drumkit_09  Ξ0.000005
 % cat proof.zkp >/mnt/gvt/tax/submissions/new
 % cat /mnt/gvt/tax/submissions/last/verification
 valid proof, tax owed: $632.18
+% echo 'pay Ξ0.32' >/mnt/gvt/tax/submissions/last/ctl
+Twrite: currency not accepted (legacy rail only, use $ or ¢)
+% echo 'pay $632.18 via /mnt/pay/convert' >/mnt/gvt/tax/submissions/last/ctl
 ```
 
 Slogans
@@ -189,13 +192,11 @@ Slogans
 * in the filepunk future, value = information, and information wants to be Ξ0.00001
 * contribution ≟ attribution ≟ compensation
 
------------------------
-
-## Core Philosophy
+### Core Philosophy
 
 * "everything is a file | value flows as data"
 
-## Namespace Metaphysics
+### Namespace Metaphysics
 
 * "pipes dream of perfect liquidity"
 * "attribution flows upstream like salmon to spawn new value"
@@ -211,7 +212,7 @@ Slogans
 * "per-process namespaces: your economy is yours alone to compose"
 * "venti remembers everything; fossil forgets what you don't need yet"
 
-## Economic Commands
+### Economic Commands
 
 * `ls /mnt/universe/justice && echo $status`
 * `bind /dev/zero /mnt/coordination`
@@ -229,7 +230,7 @@ Slogans
 * "automated arbitrage: `grep -v inefficiency /mnt/markets/* || profit`"
 * "supply meets demand in /mnt/equilibrium"
 
-## Corporate Automation
+### Corporate Automation
 
 * "a thousand corporations sleep in /proc, dreaming electric sheep margins"
 * "automated companies are just really persistent background processes"
@@ -239,7 +240,7 @@ Slogans
 * "automated firms exist in userspace; value flows in kernelspace"
 * "background processes dream of being foreground allocation mechanisms"
 
-## Temporal Economics
+### Temporal Economics
 
 * "cron schedules the auctions; auctions schedule the future"
 * "`cron` schedules auctions; auctions schedule allocation"
@@ -248,7 +249,7 @@ Slogans
 * `market_maker &`
 * "the auction daemon never sleeps, never rests, never extracts"
 
-## System Health
+### System Health
 
 * "market failure is a trap: fault read in the economic kernel"
 * "principal-agent problems are just really bad file permissions"
@@ -257,7 +258,7 @@ Slogans
 * `Twalk` toward public goods; every step is a `Tread` on shared ground
 * `grep -v deadweight_loss /var/log/allocation.log | wc -l`
 
-## Distributed Wisdom
+### Distributed Wisdom
 
 * "compute dreams in DAGs; DAGs dream in consensus"
 * "`Twrite` value; `Tread` wealth; `Twalk` toward equilibrium; `Tclunk` rent"

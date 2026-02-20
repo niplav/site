@@ -8,7 +8,7 @@ six years later, reveals that we've forgotten to fulfill our intent at
 preparing for the next pandemic. I rant.__
 
 Humanity Learned Almost Nothing From COVID-19
-----------------------------------------------
+==============================================
 
 *content warning*: A single carefully placed slur.
 

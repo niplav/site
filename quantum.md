@@ -11,7 +11,7 @@ matters at huge scales, and quantum machine learning hasn't found any
 promising algorithms yet.__
 
 Quantum Computing is about Atoms, not Bits
--------------------------------------------
+===========================================
 
 *epistemic status*: Stating impressions, but I don't know much about
 quantum physics (or quantum computing!). Someone more qualified please

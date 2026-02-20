@@ -472,7 +472,7 @@ We can test whether such words exist via gensim word2vec embeddings:
 Great Words
 ------------
 
-Moved [here](./favorites.html#Words)
+Moved [here](./favorites.html#Words).
 
 Better Words
 --------------
@@ -490,7 +490,7 @@ Better Words
 * [dist(s)](https://en.wikipedia.org/wiki/Probability_Distribution): 8 syllables saved compared to "probability distribution(s)"
 * [prob(s)](https://en.wikipedia.org/wiki/Probability): 4 syllables saved over "probabilit{y,ies}", closest colliding word is [prop](https://en.wikipedia.org/wiki/prop_\(disambiguation\)), which is not particularly common
 * [vopi](https://en.wikipedia.org/wiki/Expected_value_of_perfect_information): 10 syllables saved over "expected value of perfect information", alternative spellings could be "evopi" or "evoi" or "voi" (removing perfection or expectation)
-* [batna](https://en.wikipedia.org/wiki/Best_alternative_to_a_negotiated_agreement): 13 syllables saved over "Best alternative to a negotiated agreement", perhaps acustically too close to "batman"
+* [batna](https://en.wikipedia.org/wiki/Best_alternative_to_a_negotiated_agreement): 13 syllables saved over "Best alternative to a negotiated agreement", perhaps acoustically too close to "batman"
 * [botec](https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation): 8 syllables saved over "back-of-the-envelope calculation"
 * [exval](https://en.wikipedia.org/wiki/Expected_value): 3 syllables saved compared to "expected value"
 * [ifef](https://en.wikipedia.org/wiki/If_and_only_if): 3 syllables saved over "if and only if", and [others agree](https://www.lesswrong.com/posts/JuLJbayPQDhZuPXHa/if-and-only-if-should-be-spelled-ifeff)
@@ -578,25 +578,29 @@ Missing Emoji
 	* Whistling face
 	* Face with red eyes
 	* Grim determination
-	* Sad smile
-	* Suspicious squint
 	* Wiping sweat off brow
 	* Bangs fist on table
-* Erlenmeyer flask
+* Erlenmeyer flask (⚗️, 🧪 are good second options I guess)
 * Red star
 * Grass
 * Kimchi
-* Shovel
 * Blanket
 * Pillow
 * Carriage
 * Guillotine
 * Labyrinth
 * Tank
-* Toast (using [skin tone indicators](https://en.wikipedia.org/wiki/Emoji#Skin_color) to signify various levels of crispness)
+* Toast beyond just 🍞 (using [skin tone indicators](https://en.wikipedia.org/wiki/Emoji#Skin_color) to signify various levels of crispness)
 * [Lime](https://x.com/mulltuhh/status/1799816080875233538)
 * [Various egypt-themed emoji](http://nitter.poast.org/hum_dunkin/status/1776579149739528668)
 * Flag of the Roman Empire
+
+Previous entries:
+
+* Faces
+	* ~~Sad smile~~ 🥹, though I'd like something more wistful
+	* ~~Suspicious squint~~ 🤨 is probably close enough
+* ~~Shovel~~ 🪏 they added it!
 
 New Eponymous Laws
 -------------------

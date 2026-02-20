@@ -122,8 +122,7 @@ level of 0.05 and a power of 0.75:
 	import statsmodels.stats.power
 	>>> statsmodels.stats.power.tt_ind_solve_power(effect_size=0.5, alpha=0.05, power=0.75, alternative='two-sided')
 	56.49860618876443
-	>>> statsmodels.stats.power.tt_ind_solve_power(effect_size=0.8, alpha=0.05, power=0.75, alternative='two-\
-sided')
+	>>> statsmodels.stats.power.tt_ind_solve_power(effect_size=0.8, alpha=0.05, power=0.75, alternative='two-sided')
 	22.68883256203551
 
 This means that we'll have to collect ~60 Orexin samples to detect a
@@ -226,3 +225,32 @@ Experimental Log
 	* Went to the gym afterwards. Not that hungry, didn't feel like exercising.
 
 [^1]: Even demonstrating one-off effectiveness would be cool: It's often the case that people have short-term sleep deprivation, and would like to ameliorate the effects.
+| Variable | Effect Size | p-value | p-corrected | Orexin | Placebo | Difference |
+|----------|------------|---------|------------|--------|---------|------------|
+| **[PVT](https://en.wikipedia.org/wiki/Psychomotor_vigilance_task) Mean RT (ms)** | 0.100 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.624 | 1.000 | 256.0 ± 28.0 (n=50) | 253.3 ± 26.2 (n=46) | +2.7 |
+| **[PVT](https://en.wikipedia.org/wiki/Psychomotor_vigilance_task) Median RT (ms)** | 0.149 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.469 | 1.000 | 243.6 ± 18.3 (n=50) | 240.8 ± 18.9 (n=46) | +2.8 |
+| **[PVT](https://en.wikipedia.org/wiki/Psychomotor_vigilance_task) Slowest 10% (ms)** | -0.024 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.908 | 1.000 | 296.7 ± 59.9 (n=50) | 298.2 ± 68.3 (n=46) | -1.5 |
+| **[DSST](https://en.wikipedia.org/wiki/Wechsler_Adult_Intelligence_Scale#Coding_and_Symbol_Search) Correct** | 0.211 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.303 | 1.000 | 69.7 ± 10.6 (n=51) | 67.4 ± 11.3 (n=46) | +2.3 |
+| **[Digit Span](https://en.wikipedia.org/wiki/Memory_span#Digit-span) Forward** | 0.175 ([r](https://en.wikipedia.org/wiki/Rank-biserial_correlation)) | 0.148 | 1.000 | 7.86 ± 1.00 (n=42) | 8.10 ± 1.13 (n=40) | -0.24 |
+| **[Digit Span](https://en.wikipedia.org/wiki/Memory_span#Digit-span) Backward** | 0.061 ([r](https://en.wikipedia.org/wiki/Rank-biserial_correlation)) | 0.627 | 1.000 | 7.31 ± 0.95 (n=42) | 7.38 ± 1.25 (n=40) | -0.07 |
+| **[Digit Span](https://en.wikipedia.org/wiki/Memory_span#Digit-span) Total** | 0.127 ([r](https://en.wikipedia.org/wiki/Rank-biserial_correlation)) | 0.318 | 1.000 | 15.2 ± 1.7 (n=42) | 15.5 ± 2.0 (n=40) | -0.3 |
+| **[SSS](https://en.wikipedia.org/wiki/Stanford_Sleepiness_Scale) Rating** | -0.178 ([r](https://en.wikipedia.org/wiki/Rank-biserial_correlation)) | 0.112 | 1.000 | 3.29 ± 1.02 (n=52) | 2.98 ± 0.86 (n=46) | +0.31 |
+| **Sleep Duration (hrs)** | 0.212 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.542 | 1.000 | 8.60 ± 1.91 (n=17) | 8.27 ± 1.05 (n=17) | +0.33 |
+| **Sleep Time Asleep (min)** | 0.115 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.741 | 1.000 | 459 ± 96 (n=17) | 450 ± 60 (n=17) | +9 |
+| **Sleep Efficiency (%)** | -0.257 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.460 | 1.000 | 89.4 ± 5.3 (n=17) | 90.5 ± 3.7 (n=17) | -1.2 |
+| **Sleep Deep (min)** | -0.011 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.974 | 1.000 | 74.5 ± 22.9 (n=17) | 74.7 ± 19.3 (n=17) | -0.2 |
+| **Sleep Light (min)** | 0.232 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.505 | 1.000 | 283 ± 69 (n=17) | 270 ± 40 (n=17) | +13 |
+| **Sleep [REM](https://en.wikipedia.org/wiki/Rapid_eye_movement_sleep) (min)** | -0.150 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.665 | 1.000 | 101.2 ± 27.3 (n=17) | 104.9 ± 21.8 (n=17) | -3.7 |
+| **Sleep Wake (min)** | 0.341 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.331 | 1.000 | 56.9 ± 38.0 (n=17) | 46.6 ± 19.6 (n=17) | +10.3 |
+
+-------------
+
+| Variable | Effect Size | p-value | Orexin | Placebo | Difference |
+|----------|------------|--------|--------|---------|------------|
+| **HRV Daily RMSSD (ms)** | 0.079 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.814 | 32.8 ± 13.0 (n=18) | 31.7 ± 15.1 (n=18) | +1.1 |
+| **HRV Deep RMSSD (ms)** | 0.369 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.276 | 31.8 ± 12.2 (n=18) | 27.2 ± 13.0 (n=18) | +4.6 |
+| **SpO2 Avg (%)** | -0.286 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.397 | 95.7 ± 1.0 (n=18) | 96.0 ± 1.0 (n=18) | -0.3 |
+| **SpO2 Min (%)** | -0.059 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.861 | 93.6 ± 1.4 (n=18) | 93.7 ± 1.6 (n=18) | -0.1 |
+| **Breathing Rate (breaths/min)** | 0.314 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.382 | 16.4 ± 2.0 (n=17) | 15.8 ± 1.9 (n=15) | +0.6 |
+| **Skin Temp Δ (°C)** | -0.041 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.905 | 0.01 ± 0.65 (n=17) | 0.04 ± 0.49 (n=17) | -0.02 |
+| **Steps** | 0.032 ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)) | 0.909 | 6478 ± 6403 (n=27) | 6282 ± 5996 (n=26) | +196 |
