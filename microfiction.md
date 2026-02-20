@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2021-10-13, modified: 2025-09-05, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2021-10-13, modified: 2026-02-19, language: multiple, status: in progress, importance: 1, confidence: other*
 
 > __Very small pieces of fiction and things that are sufficiently like
 fiction.__
@@ -631,6 +631,10 @@ defended by not quite God but the closest possible thing. A Best Sky.)
 
 *— [J. Robert Oppenheimer](https://en.wikipedia.org/wiki/J._Robert_Oppenheimer), Remark after the first successful [Trinity test](https://en.wikipedia.org/wiki/Trinity_test), 1945*
 
+> Vergehe doch, du bist so schön…
+
+*—[Mahasi Sayadaw](https://en.wikipedia.org/wiki/Mahasi_Sayadaw)*
+
 Stories
 --------
 
@@ -783,7 +787,7 @@ Conjugating & combining allowed words was permitted.
 
 > The [tattooed](https://en.wiktionary.org/wiki/tattoo#Etymology_1) admiral, [crashing](https://en.wiktionary.org/wiki/crash#Etymology_1) the [sofa](https://en.wiktionary.org/wiki/sofa#Etymology_1): "*I [hust](https://en.wiktionary.org/wiki/hustle)[led](https://en.wiktionary.org/wiki/hutsen#Middle_Dutch)[^hustle] our [cocaine](https://en.wiktionary.org/wiki/cocaine) from the [saboteur](https://en.wiktionary.org/wiki/saboteur)[^saboteur].*"
 
-> Khan [yanks](https://en.wiktionary.org/wiki/yank#Etymology_1) the [cof](https://en.wiktionary.org/wiki/coffer)[fer](https://en.wiktionary.org/wiki/%CE%BA%CF%8C%CF%86%CE%B9%CE%BD%CE%BF%CF%82#Ancient_Greek)[^coffer] with [nar](https://en.wiktionary.org/wiki/narcotic)[cotic](https://en.wiktionary.org/wiki/%CE%BD%CE%AC%CF%81%CE%BA%CE%B7#Ancient_Greek) [alabaster](https://en.wiktionary.org/wiki/alabaster) [saffron](https://en.wiktionary.org/wiki/saffron)of admiral, whose [cotton](https://en.wiktionary.org/wiki/cotton) is [nasty](https://en.wiktionary.org/wiki/nasty)[^nasty] [scarlet](https://en.wiktionary.org/wiki/scarlet) and [cerise](https://en.wiktionary.org/wiki/cerise)[^cerise], [ouch](https://en.wiktionary.org/wiki/ouch) — on [turq](https://en.wiktionary.org/wiki/turquoise)[uoise](https://en.wiktionary.org/wiki/%F0%90%B1%85%F0%90%B0%87%F0%90%B0%BC%F0%90%B0%9C#Old_Turkic) [satin](https://en.wiktionary.org/wiki/satin) [can](https://en.wiktionary.org/wiki/canopy)[opy](https://en.wiktionary.org/wiki/%CE%BA%CF%8E%CE%BD%CF%89%CF%88#Ancient_Greek).
+> Khan [yanks](https://en.wiktionary.org/wiki/yank#Etymology_1) the [cof](https://en.wiktionary.org/wiki/coffer)[fer](https://en.wiktionary.org/wiki/%CE%BA%CF%8C%CF%86%CE%B9%CE%BD%CE%BF%CF%82#Ancient_Greek)[^coffer] with [nar](https://en.wiktionary.org/wiki/narcotic)[cotic](https://en.wiktionary.org/wiki/%CE%BD%CE%AC%CF%81%CE%BA%CE%B7#Ancient_Greek) [alabaster](https://en.wiktionary.org/wiki/alabaster) [saffron](https://en.wiktionary.org/wiki/saffron) of admiral, whose [cotton](https://en.wiktionary.org/wiki/cotton) is [nasty](https://en.wiktionary.org/wiki/nasty)[^nasty] [scarlet](https://en.wiktionary.org/wiki/scarlet) and [cerise](https://en.wiktionary.org/wiki/cerise)[^cerise], [ouch](https://en.wiktionary.org/wiki/ouch) — on [turq](https://en.wiktionary.org/wiki/turquoise)[uoise](https://en.wiktionary.org/wiki/%F0%90%B1%85%F0%90%B0%87%F0%90%B0%BC%F0%90%B0%9C#Old_Turkic) [satin](https://en.wiktionary.org/wiki/satin) [can](https://en.wiktionary.org/wiki/canopy)[opy](https://en.wiktionary.org/wiki/%CE%BA%CF%8E%CE%BD%CF%89%CF%88#Ancient_Greek).
 
 > Khan: "Yours?"
 
@@ -936,7 +940,7 @@ The resulting source languages & language families:
 
 </details>
 
-<!--spandrel, musket, maroon, sabre, powwow, kuru, shiver, hurrah, dandruff, tuktuk, cheese, [cat](https://en.wiktionary.org/wiki/cat#Etymology_1) (unclear Wanderwort, possibly Egyptian), jot, boombox, chicken, [wiki](https://en.wiktionary.org/wiki/wiki) (Hawaian, definitely polynesian), [otaku](https://en.wiktionary.org/wiki/otaku), on [skibidi](https://en.wiktionary.org/wiki/skibidi#Etymology_1) (de novo, ¿2018?), Ohio, google, mojo, jumbo, gong, [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [honcho](https://en.wiktionary.org/wiki/honcho) (Chinese→Japanese), emoji (Japanese, real friend!), [zilch](https://en.wiktionary.org/wiki/zilch) (de novo, 1923), [jinx](https://en.wiktionary.org/wiki/jinx), ¿pariah?, ¿chiffre?, ¿fringe?, ¿tub?, ¿mack?, ¿flirt?, bukkake, jump, swagger, fuss, bugged-->
+<!--spandrel, musket, maroon, sabre, powwow, kuru, shiver, hurrah, dandruff, tuktuk, cheese, [cat](https://en.wiktionary.org/wiki/cat#Etymology_1) (unclear Wanderwort, possibly Egyptian), jot, boombox, chicken, [wiki](https://en.wiktionary.org/wiki/wiki) (Hawaian, definitely polynesian), [otaku](https://en.wiktionary.org/wiki/otaku), on [skibidi](https://en.wiktionary.org/wiki/skibidi#Etymology_1) (de novo, ¿2018?), Ohio, google, mojo, jumbo, gong, [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [honcho](https://en.wiktionary.org/wiki/honcho) (Chinese→Japanese), emoji (Japanese, real friend!), [zilch](https://en.wiktionary.org/wiki/zilch) (de novo, 1923), [jinx](https://en.wiktionary.org/wiki/jinx), ¿pariah?, ¿chiffre?/¿cipher?, ¿fringe?, ¿tub?, ¿mack?, ¿flirt?, bukkake, jump, swagger, fuss, bugged, totem, quiver-->
 
 Sutras
 -------
