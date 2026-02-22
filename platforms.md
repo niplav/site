@@ -15,8 +15,8 @@ of [-0.326](#Scoring_the_Market) for the market, the [second
 experiment](./nootropics.html#Experiment_C_SelfBlinded_RCT) (testing
 Vitamin D₃) [results in a log score of -0.333](#Scoring_the_Market)
 — pretty good.  
-> The scores provide [~0.83 bits of
-evidence](#0836_Bits_of_Evidence_for_Futarchy) for the efficacy of
+> The scores provide [~1.08 bits of
+evidence](#1077_Bits_of_Evidence_for_Futarchy) for the efficacy of
 [futarchy](https://en.wikipedia.org/wiki/Futarchy).__
 
 <!--TODO: use victorian subtitle somewhere https://claude.ai/chat/d7c72475-e84e-458f-867b-7a26d04598b2-->
@@ -101,7 +101,7 @@ other data](./data.html) during that time that will also be analyzed.
 | [__THC Oil__ vs. __Similar-Tasting Oil__ → *Meditative Absorption*](https://manifold.markets/NiplavYushtun/by-how-much-does-thc-oil-improve-me)  | 10                | M̶230           | __0.344__            |                         |
 | [__Intermittent Fasting__ vs. __Normal Diet__ → *Happiness*](https://manifold.markets/NiplavYushtun/by-how-much-does-intermittent-fasti)         | 13                | M̶228           | __0.348__            |                         |
 | [__Pomodoro Method__ vs. __Nothing__ → *Productivity*](https://manifold.markets/NiplavYushtun/by-how-much-does-the-pomodoro-metho)               | 9                 | M̶300           | __0.397__            | [__0.26__](#Pomodoros)  |
-| [__Bright Light__ vs. __Normal Light__ → *Happiness*](https://manifold.markets/NiplavYushtun/by-how-much-does-very-bright-light)                 | 9                 | M̶104           | __0.473__            |                         |
+| [__Bright Light__ vs. __Normal Light__ → *Happiness*](https://manifold.markets/NiplavYushtun/by-how-much-does-very-bright-light)                 | 9                 | M̶104           | __0.473__            | __0.55__                |
 | [__Meditation__ vs. __No Meditation__ → *Sleep duration*](https://manifold.markets/NiplavYushtun/by-how-much-does-2-hours-of-meditat)            | 13                | M̶380           | __0.241__            |                         |
 
 ### Self-Blinded Experiments
@@ -204,15 +204,18 @@ with.
 
 ### Pomodoros
 
-| Value tracked        | Effect size d (λ, p, σ change, k) |
-| -------------------- | --------------------------------- |
-| Productivity         | 0.26 (λ≈5.41, p≈0.117, -0.04, 54) |
-| Creativity           | -0.13 (λ≈0.51, p≈0.93, 0.01, 54)  |
-| Subjective length    | -0.14 (λ≈4.1, p≈0.256, 0.04, 54)  |
-| Happiness            | -0.07 (λ≈0.32, p≈0.96, 0.01, 111) |
-| Contentment          | -0.13 (λ≈1.08, p≈0.83, 0.05, 111) |
-| Relaxation           | -0.04 (λ≈1.23, p≈0.8, -0.25, 111) |
-| Horniness            | -0.14 (λ≈7.76, p≈0.02, 0.74, 111) |
+| Value tracked        | [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) | [λ](https://en.wikipedia.org/wiki/Likelihood-ratio_test#General) | [p](https://en.wikipedia.org/wiki/P-Value) | [σ](https://en.wikipedia.org/wiki/Standard_Deviation) change | [k](https://en.wikipedia.org/wiki/Sample_size) |
+| -------------------- | --- | --- | --- | --- | --- |
+|                      | *Pomodoro method (n=1)* | | | | |
+| Productivity         | <span style="color:rgba(100,180,100,0.75)">0.26</span>  | 5.41 | 0.117 | -0.04 | 54  |
+| Creativity           | <span style="color:rgba(255,100,100,0.55)">-0.13</span> | 0.51 | 0.93  |  0.01 | 54  |
+| Subjective length    | <span style="color:rgba(255,70,70,0.65)">-0.14</span>   | 4.10 | 0.256 |  0.04 | 54  |
+| Happiness            | <span style="color:rgba(150,150,150,0.5)">-0.07</span>  | 0.32 | 0.96  |  0.01 | 111 |
+| Contentment          | <span style="color:rgba(255,100,100,0.55)">-0.13</span> | 1.08 | 0.83  |  0.05 | 111 |
+| Relaxation           | <span style="color:rgba(150,150,150,0.55)">-0.04</span> | 1.23 | 0.80  | -0.25 | 111 |
+| Horniness            | <span style="color:rgba(255,70,70,0.8)">-0.14</span>    | 7.76 | 0.02  |  0.74 | 111 |
+
+*Hue indicates effect size, opacity indicates likelihood ratio (higher opacity = higher λ).*
 
 ![](./img/platforms/pomodoro_results.png)
 
@@ -237,20 +240,70 @@ Let's proceed to the analysis, then (using the same methodology as for my
 
 And the results are:
 
+	>>> pd.set_option('display.float_format', '{:.4f}'.format)
 	>>> res
-	    productivity  creativity     sublen       happy     content     relaxed       horny
-	d       0.257836   -0.130323  -0.140056   -0.073699   -0.132798   -0.038319   -0.144040
-	λ       5.413354    0.508335   4.058103    0.318865    1.078502    1.232905    7.756272
-	p       0.117179    0.930744   0.256304    0.959552    0.827240    0.795999    0.022903
-	dσ     -0.044201    0.006098   0.037463    0.007177    0.047723   -0.252365    0.744675
-	k      54.000000   54.000000  54.000000  111.000000  111.000000  111.000000  111.000000
+	                productivity  creativity  sublen     happy  content  relaxed    horny     ease   factor      ivl       time
+	d                     0.2578     -0.1303 -0.1401   -0.0737  -0.1328  -0.0383  -0.1440   0.3762   0.0316  -0.1460    -0.7109
+	λ                     5.4134      0.5083  4.0581    0.3189   1.0785   1.2329   7.7563   7.9529   2.1974   1.3936    41.8069
+	p                     0.1172      0.9307  0.2563    0.9596   0.8272   0.7960   0.0229   0.0197   0.5897   0.7625     0.0000
+	dσ                   -0.0442      0.0061  0.0375    0.0072   0.0477  -0.2524   0.7447  -0.0700 165.3438  17.9768 -4738.1968
+	k                    54.0000     54.0000 54.0000  111.0000 111.0000 111.0000 111.0000 116.0000 116.0000 116.0000   116.0000
+	control_k            27.0000     27.0000 27.0000   51.0000  51.0000  51.0000  51.0000  65.0000  65.0000  65.0000    65.0000
+	intervention_k       27.0000     27.0000 27.0000   60.0000  60.0000  60.0000  60.0000  51.0000  51.0000  51.0000    51.0000
+	m                    51.0000     51.0000 51.0000   50.0000  50.0000  50.0000  50.0000   2.0000   2.0000   2.0000     2.0000
+	control_m            27.0000     27.0000 27.0000   24.0000  24.0000  24.0000  24.0000   1.0000   1.0000   1.0000     1.0000
+	intervention_m       25.0000     25.0000 25.0000   26.0000  26.0000  26.0000  26.0000   1.0000   1.0000   1.0000     1.0000
 
-I didn't meditate or do flashcards during that time.
+I don't know why the daycounts for productivity don't add up, something
+fishy is going on in my data analysis—possibly a day with duplicated
+data.<!--TODO: fix--> I didn't meditate and mostly didn't do flashcards
+during that time.
 
 So the pomodoro method somewhat increases productivity (at the edge of
 statistical significance), and *maybe* decreases subjective length of
 the day a bit. It also decreases horniness a little bit, which I find
 pretty funny[^2].
+
+### Lumenator
+
+| Value tracked         | [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) | [λ](https://en.wikipedia.org/wiki/Likelihood-ratio_test#General) | [p](https://en.wikipedia.org/wiki/P-Value) | [σ](https://en.wikipedia.org/wiki/Standard_Deviation) change | [k](https://en.wikipedia.org/wiki/Sample_size) |
+| --------------------- | --- | --- | --- | --- | --- |
+|                       | *Lumenator ~30k lumen (n=1)* | | | | |
+| Absorption            | <span style="color:rgba(230,30,30,0.6)">-0.4451</span>  |  3.09 | 0.410 |   -0.027 |  32 |
+| Mindfulness           | <span style="color:rgba(180,0,0,0.85)">-0.7275</span>   |  9.09 | 0.008 |   -0.087 |  32 |
+| Productivity          | <span style="color:rgba(100,180,100,0.6)">0.2087</span> |  2.50 | 0.527 |    0.023 |  50 |
+| Creativity            | <span style="color:rgba(150,150,150,0.5)">0.0140</span> |  0.57 | 0.921 |    0.014 |  50 |
+| Subjective duration   | <span style="color:rgba(0,180,0,0.9)">0.5061</span>     | 10.28 | 0.003 |    0.031 |  50 |
+| Meaning               | <span style="color:rgba(150,150,150,0.4)">0.0358</span> | 0.140 | 0.984 |    0.02  |  22 |
+| Happiness             | <span style="color:rgba(0,180,0,0.95)">0.5518</span>    | 31.00 | 0.000 |   -0.244 | 198 |
+| Contentment           | <span style="color:rgba(0,180,0,0.9)">0.3823</span>     | 15.64 | 0.000 |   -0.350 | 198 |
+| Relaxation            | <span style="color:rgba(0,180,0,0.95)">0.4046</span>    | 28.39 | 0.000 |    0.545 | 198 |
+| Horniness             | <span style="color:rgba(100,180,100,0.8)">0.2238</span> |  7.67 | 0.025 |   -0.450 | 198 |
+| Flashcard ease        | <span style="color:rgba(100,180,100,0.6)">0.1079</span> |  2.55 | 0.516 |   -0.067 | 295 |
+| Flashcard ease factor | <span style="color:rgba(0,180,0,0.95)">0.5192</span>    | 43.90 | 0.000 | -232.288 | 295 |
+| Flashcard new interval| <span style="color:rgba(255,70,70,0.7)">-0.1511</span>  |  4.64 | 0.186 |   29.127 | 295 |
+| Time per flashcard    | <span style="color:rgba(150,150,150,0.55)">-0.0449</span>|  0.42 | 0.945 |  577.413 | 295 |
+
+*Hue indicates effect size, opacity indicates likelihood ratio (higher opacity = higher λ).*
+
+![](./img/lumenator/lumenator_results.png)
+
+	~/proj/site/code/experiments » python3 -i load.py
+	>>> pd.set_option('display.float_format', '{:.4f}'.format)
+	>>> datasets=get_datasets_light()
+	>>> res=analyze(datasets)
+	>>> res
+	                absorption  mindfulness  productivity  creativity  sublen  meaning    happy  content  relaxed    horny     ease    factor      ivl     time
+	d                  -0.4451      -0.7275        0.2087      0.0140  0.5061   0.0358   0.5518   0.3823   0.4046   0.2238   0.1079    0.5192  -0.1511  -0.0449
+	λ                   3.0944       9.0917        2.4987      0.5691 10.2831   0.1403  31.0045  15.6398  28.3924   7.6674   2.5491   43.8971   4.6378   0.4189
+	p                   0.4101       0.0079        0.5265      0.9208  0.0029   0.9835   0.0000   0.0000   0.0000   0.0245   0.5161    0.0000   0.1864   0.9447
+	dσ                 -0.0269      -0.0866        0.0233      0.0144  0.0310   0.0199  -0.2440  -0.3504   0.5453  -0.4503  -0.0670 -232.2879  29.1267 577.4129
+	k                  32.0000      32.0000       50.0000     50.0000 50.0000  22.0000 198.0000 198.0000 198.0000 198.0000 295.0000  295.0000 295.0000 295.0000
+	control_k          17.0000      17.0000       25.0000     25.0000 25.0000  14.0000 101.0000 101.0000 101.0000 101.0000 180.0000  180.0000 180.0000 180.0000
+	intervention_k     15.0000      15.0000       25.0000     25.0000 25.0000   8.0000  97.0000  97.0000  97.0000  97.0000 115.0000  115.0000 115.0000 115.0000
+	m                  32.0000      32.0000       50.0000     50.0000 50.0000  22.0000  50.0000  50.0000  50.0000  50.0000   9.0000    9.0000   9.0000   9.0000
+	control_m          17.0000      17.0000       25.0000     25.0000 25.0000  14.0000  25.0000  25.0000  25.0000  25.0000   5.0000    5.0000   5.0000   5.0000
+	intervention_m     15.0000      15.0000       25.0000     25.0000 25.0000   8.0000  25.0000  25.0000  25.0000  25.0000   4.0000    4.0000   4.0000   4.0000
 
 ### Vitamin D₃
 
@@ -278,9 +331,14 @@ I can now score the market with the results from the two experiments:
 	logscore(vitamin_o, vitamin_p)
 	-0.3331583177971012
 
+	lumenator_p=np.array([0.11, 0.23, 0.27, 0.29, 0.11])
+	lumenator_o=np.array([0, 0, 1, 0, 0])
+	logscore(lumenator_o, lumenator_p)
+	-0.42925120511536974
+
 Honestly: The markets did pretty well.
 
-0.836 Bits of Evidence for Futarchy
+1.077 Bits of Evidence for Futarchy
 ------------------------------------
 
 So, [I put up some prediction markets on the results of quantified
@@ -292,9 +350,9 @@ How much should the performance of the market change our opinion about
 the viability of using prediction platforms to predict RCTs, and thus be
 plausibly useful in selecting experiments to run and actions to perform?
 
-One issue here is that we only observed two datapoints: Two logscores
-from the markets on the Pomodoro method (-0.326) and the Vitamin D₃
-experiment (-0.333). Qualitatively these are already fairly assuring
+One issue here is that we only observed three datapoints: Three logscores
+from the markets on the Pomodoro method (-0.326), the Vitamin D₃
+experiment (-0.333), and the Lumenator experiment (-0.429). Qualitatively these are already fairly assuring
 because they're both far better than a random score of -0.69. But if we
 want to quantify the amount of information we've gained, we can do that
 by performing a Bayesian update.
@@ -356,7 +414,7 @@ The script[^thank] initializes the model with the
 half normal prior, which in turn has a [standard
 deviation](https://en.wikipedia.org/wiki/Standard_Deviation) distributed
 with `HalfNormal("sigma", sigma=0.5)`. We then update on `observed=[0.326,
-0.333]`:
+0.333, 0.429]`:
 
 	with pm.Model() as adaptive_model:
 	    σ = pm.HalfNormal('sigma', sigma=0.5)
@@ -399,23 +457,23 @@ The whole script has this output:
 	Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 5 seconds.
 	Posterior summary:
 	        mean     sd  hdi_3%  hdi_97%  mcse_mean  mcse_sd  ess_bulk  ess_tail  r_hat
-	sigma  0.434  0.199   0.156    0.811      0.004    0.004    2582.0    2939.0    1.0
+	sigma  0.449  0.178   0.196    0.786      0.004    0.004    2550.0    2692.0    1.0
 
-	Posterior mean σ: 0.434
+	Posterior mean σ: 0.449
 
 	vs Null σ = 0.7:
-	  Log likelihood (adaptive): 0.642
-	  Log likelihood (null): 0.040
-	  Evidence: 0.87 bits
-	  Bayes factor: 1.8:1 in favor of adaptive
+	  Log likelihood (adaptive): 0.730
+	  Log likelihood (null): -0.017
+	  Evidence: 1.08 bits
+	  Bayes factor: 2.1:1 in favor of adaptive
 
-	Posterior mean σ: 0.434
-	95% credible interval: [0.156, 0.844]
+	Posterior mean σ: 0.449
+	95% credible interval: [0.189, 0.812]
 
-	Evidence: 0.836 bits
+	Evidence: 1.077 bits
 	(vs null hypothesis σ = 0.7)
 
-Thus: 0.836 bits in favor of futarchy[^assumptions].
+Thus: 1.077 bits in favor of futarchy[^assumptions].
 
 [^assumptions]: Under several favorably cherry-picked assumptions. Don't @ me.
 
