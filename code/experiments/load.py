@@ -140,6 +140,7 @@ def plot_datasets(datasets, title):
 		('mental', 'productivity', 'productivity', 'datetime'),
 		('mental', 'creativity', 'creativity', 'datetime'),
 		('mental', 'subjective length', 'sublen', 'datetime'),
+		('mental', 'meaning', 'meaning', 'datetime'),
 		('mood', 'happiness', 'happy', 'datetime'),
 		('mood', 'contentment', 'content', 'datetime'),
 		('mood', 'relaxation', 'relaxed', 'datetime'),
@@ -266,6 +267,7 @@ def get_datasets_pom():
 			df = df.loc[(df['id'] - df['date'] < pd.Timedelta('14h')) & (df['id'] - df['date'] > pd.Timedelta('0h'))]
 			mask = df['ivl'] > 0
 			df = df.assign(ivl=df['ivl'].where(~mask, -df['ivl'] / 86400))
+			df = df.rename(columns={'date': 'datetime'})
 		return df
 
 	def control_fn(df):
@@ -300,6 +302,7 @@ def get_datasets_light():
 			df = df.loc[(df['id'] - df['date'] < pd.Timedelta('14h')) & (df['id'] - df['date'] > pd.Timedelta('0h'))]
 			mask = df['ivl'] > 0
 			df = df.assign(ivl=df['ivl'].where(~mask, -df['ivl'] / 86400))
+			df = df.rename(columns={'date': 'datetime'})
 		return df
 
 	def control_fn(df):
@@ -314,9 +317,10 @@ def analyze(datasets):
 	result = pd.DataFrame(index=['d', 'λ', 'p', 'dσ', 'k'])
 
 	# Define the correct column order
-	column_order = ['absorption', 'mindfulness', 'productivity', 'creativity', 'sublen',
-					'happy', 'content', 'relaxed', 'horny',
-					'ease', 'factor', 'ivl', 'time']
+	column_order = ['absorption', 'mindfulness',
+			'productivity', 'creativity', 'sublen', 'meaning',
+			'happy', 'content', 'relaxed', 'horny',
+			'ease', 'factor', 'ivl', 'time']
 
 	for dataset_name, data in datasets.items():
 		all_data = data['all']
@@ -326,7 +330,7 @@ def analyze(datasets):
 		if dataset_name == 'meditations':
 			columns = ['absorption', 'mindfulness']
 		elif dataset_name == 'mental':
-			columns = ['productivity', 'creativity', 'sublen']
+			columns = ['productivity', 'creativity', 'sublen', 'meaning']
 		elif dataset_name == 'mood':
 			columns = ['happy', 'content', 'relaxed', 'horny']
 		elif dataset_name == 'flashcards':
@@ -341,6 +345,12 @@ def analyze(datasets):
 				result.loc['p', col] = np.nan
 				result.loc['dσ', col] = np.nan
 				result.loc['k', col] = np.nan
+				result.loc['control_k', col] = np.nan
+				result.loc['intervention_k', col] = np.nan
+				result.loc['m', col] = np.nan
+				result.loc['control_m', col] = np.nan
+				result.loc['intervention_m', col] = np.nan
+
 				continue
 
 			# Calculate d (Cohen's d)
@@ -360,6 +370,11 @@ def analyze(datasets):
 			result.loc['dσ', col] = d_sigma
 
 			result.loc['k', col] = all_data[col].count()
+			result.loc['control_k', col] = control_data[col].dropna().count()
+			result.loc['intervention_k', col] = intervention_data[col].dropna().count()
+			result.loc['m', col] = all_data[[col, 'datetime']].dropna()['datetime'].dt.date.unique().size
+			result.loc['control_m', col] = control_data[[col, 'datetime']].dropna()['datetime'].dt.date.unique().size
+			result.loc['intervention_m', col] = intervention_data[[col, 'datetime']].dropna()['datetime'].dt.date.unique().size
 
 	result = result.reindex(columns=column_order)
 

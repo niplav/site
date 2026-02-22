@@ -26,7 +26,9 @@ content.
 February 2026
 --------------
 
-
+* [`filepunk`](./filepunk.html)
+* [Charlatan Labyrinth](./microfiction.html#Charlatan_Labyrinth)
+* [Turing-(In)complete Elementary Cellular Automata](./notes.html#TuringIncomplete_Elementary_Cellular_Automata)
 
 January 2026
 -------------

@@ -15,7 +15,7 @@ cite some successionists here. Sutton, e/acc manifesto, Page,
 Hanson??? Others??? Distinguish soft successionism ("merge") vs. hard
 successionism?-->
 
-[^exo]: The term is an [exonym](https://en.wikipedia.org/wiki/Exonym), since people usually described as successionists often present this perspective as the default one.
+[^exo]: The term is an [exonym](https://en.wikipedia.org/wiki/Exonym), since people usually described as successionists often present this perspective as the default one.<!--TODO: I think it was coined by Andrew Critch?-->
 
 The standard retort to successionism is that *even if we try to
 deliberately create successors, they may not be __good__ or __valuable__

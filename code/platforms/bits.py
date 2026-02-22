@@ -89,7 +89,8 @@ def plot_analysis(trace, distances):
 
 if __name__ == "__main__":
 	# Market data: distances from perfect performance
-	distances = [0.326, 0.333]
+	# pomodoro: 0.326, vitamin D: 0.333, lumenator: 0.429
+	distances = [0.326, 0.333, 0.429]
 
 	trace, results = mcmc_market_analysis(distances)
 
