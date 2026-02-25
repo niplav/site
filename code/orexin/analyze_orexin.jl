@@ -1,16 +1,15 @@
 #!/usr/bin/env julia
 #=
 Orexin-A Experiment Analysis
-Pools data from all participants, runs:
-- Welch's t-test for continuous metrics (PVT, DSST)
-- Mann-Whitney U for ordinal metrics (SSS, Digit Span)
+Paired crossover design: within-pair differences (orexin – placebo).
+Primary: paired t-test (continuous) / Wilcoxon signed-rank (ordinal).
+Pairs matched by greedy nearest-neighbor ≤ 14 days apart per participant.
 =#
 
 using CSV, DataFrames, JSON, Statistics, HypothesisTests, Dates, XLSX, Printf
 using Plots; gr()
 
-const BASE_DIR = expanduser("~/down/Orexin")
-const PARTICIPANTS = ["Niplav", "Sam", "Nomagicpill"]
+include(joinpath(@__DIR__, "orexin_data.jl"))
 
 # Display names with Wikipedia links and per-metric decimal places
 const VARIABLE_NAMES = Dict(
@@ -50,266 +49,6 @@ const SUPP_PLOT_NAMES = Dict(
 	"Skin_temp_rel" => "Skin Temp Δ (°C)",
 	"Steps" => "Steps",
 )
-
-# --- Tracking data loaders ---
-
-function load_niplav_tracking()
-	rows = []
-	path = joinpath(BASE_DIR, "Niplav", "tracking.csv")
-	isfile(path) || return rows
-	for line in eachline(path)
-		parts = split(line, ',')
-		length(parts) < 2 && continue
-		ts, substance = parts[1], parts[2]
-		date_str = split(ts, 'T')[1]
-		cond = if substance == "water"
-			"placebo"
-		elseif substance == "orexin-a"
-			"orexin"
-		else
-			continue
-		end
-		push!(rows, (participant="Niplav", date=Date(date_str), condition=cond))
-	end
-	rows
-end
-
-function load_xlsx_tracking(participant, xlsx_path, cond_col, cond_map)
-	rows = []
-	isfile(xlsx_path) || return rows
-	xf = XLSX.readxlsx(xlsx_path)
-	sn = XLSX.sheetnames(xf)[1]
-	data = XLSX.readtable(xlsx_path, sn)
-
-	dates = data.data[1]
-	conds = data.data[cond_col]
-
-	for i in eachindex(dates)
-		d = dates[i]
-		c = conds[i]
-		ismissing(d) && continue
-		ismissing(c) && continue
-
-		dt = if d isa DateTime
-			Date(d)
-		elseif d isa Date
-			d
-		else
-			continue
-		end
-
-		cond_str = string(c)
-		mapped = get(cond_map, cond_str, nothing)
-		isnothing(mapped) && continue
-		push!(rows, (participant=participant, date=dt, condition=mapped))
-	end
-	rows
-end
-
-function load_sam_tracking()
-	load_xlsx_tracking(
-		"Sam",
-		joinpath(BASE_DIR, "Sam", "sh ox notes.xlsx"),
-		3,  # column C: "placebo or real"
-		Dict("real" => "orexin", "placebo" => "placebo", "BASELINE DAY" => "baseline")
-	)
-end
-
-function load_nomagicpill_tracking()
-	load_xlsx_tracking(
-		"Nomagicpill",
-		joinpath(BASE_DIR, "Nomagicpill", "Orexin Tracking.xlsx"),
-		6,  # column F: "Syringe Taken?"
-		Dict("Orexin" => "orexin", "Placebo" => "placebo", "Baseline day" => "baseline")
-	)
-end
-
-function load_all_tracking()
-	tracking = vcat(load_niplav_tracking(), load_sam_tracking(), load_nomagicpill_tracking())
-	# Filter to only orexin/placebo (drop baseline for now)
-	filter(r -> r.condition in ("orexin", "placebo"), tracking)
-end
-
-# --- JSON data loaders ---
-
-function load_json_safe(path)
-	isfile(path) || return []
-	content = read(path, String)
-	# Fix trailing commas (Ethan's digit_span.json)
-	content = replace(content, r",\s*\]" => "]")
-	content = replace(content, r",\s*\}" => "}")
-	JSON.parse(content)
-end
-
-function match_to_condition(entries, tracking, participant; window_h=24)
-	matched = []
-	p_tracking = filter(r -> r.participant == participant, tracking)
-	for entry in entries
-		ts_str = get(entry, "timestamp", get(entry, "date", nothing))
-		isnothing(ts_str) && continue
-		# Parse timestamp to Date
-		entry_date = Date(split(ts_str, 'T')[1])
-		entry_dt = DateTime(split(ts_str, '.')[1], dateformat"yyyy-mm-ddTHH:MM:SS")
-
-		for t in p_tracking
-			dose_dt = DateTime(t.date)  # midnight of dosing day
-			# Test must be on dosing day or within window
-			if entry_date == t.date || (entry_dt >= dose_dt && entry_dt <= dose_dt + Hour(window_h))
-				push!(matched, (entry=entry, condition=t.condition, participant=participant, date=t.date))
-				break
-			end
-		end
-	end
-	matched
-end
-
-# --- Sleep data ---
-
-function load_sleep_data(participant)
-	sleep_dir = joinpath(BASE_DIR, participant, "fitbit", "sleep")
-	isdir(sleep_dir) || return Dict{String, Any}()
-
-	# Index all sleep records by dateOfSleep
-	by_date = Dict{String, Any}()
-	for f in readdir(sleep_dir, join=true)
-		endswith(f, ".json") || continue
-		records = load_json_safe(f)
-		for r in records
-			# Only main sleep
-			get(r, "isMainSleep", false) || continue
-			dos = get(r, "dateOfSleep", nothing)
-			isnothing(dos) && continue
-			by_date[dos] = r
-		end
-	end
-	by_date
-end
-
-function extract_sleep_metrics(tracking)
-	rows = []
-	for p in PARTICIPANTS
-		sleep_by_date = load_sleep_data(p)
-		isempty(sleep_by_date) && continue
-
-		p_tracking = filter(r -> r.participant == p, tracking)
-		for t in p_tracking
-			# Sleep on the night after dosing: dateOfSleep = dose_date + 1
-			next_day = string(t.date + Day(1))
-			r = get(sleep_by_date, next_day, nothing)
-			isnothing(r) && continue
-
-			levels = get(get(r, "levels", Dict()), "summary", Dict())
-			push!(rows, (
-				participant = p,
-				condition = t.condition,
-				date = t.date,
-				duration_h = get(r, "duration", 0) / 3.6e6,
-				minutes_asleep = get(r, "minutesAsleep", missing),
-				efficiency = get(r, "efficiency", missing),
-				deep_min = get(get(levels, "deep", Dict()), "minutes", missing),
-				light_min = get(get(levels, "light", Dict()), "minutes", missing),
-				rem_min = get(get(levels, "rem", Dict()), "minutes", missing),
-				wake_min = get(get(levels, "wake", Dict()), "minutes", missing),
-			))
-		end
-	end
-	DataFrame(rows)
-end
-
-# --- Supplementary Fitbit data ---
-
-function load_fitbit_daily(participant, subdir)
-	dir = joinpath(BASE_DIR, participant, "fitbit", subdir)
-	isdir(dir) || return Dict{String, Any}()
-	by_date = Dict{String, Any}()
-	for f in readdir(dir, join=true)
-		endswith(f, ".json") || continue
-		records = load_json_safe(f)
-		for r in records
-			dt = get(r, "dateTime", nothing)
-			isnothing(dt) && continue
-			by_date[dt] = r
-		end
-	end
-	by_date
-end
-
-function extract_supplementary_metrics(tracking)
-	rows = []
-	for p in PARTICIPANTS
-		hrv_data = load_fitbit_daily(p, "hrv")
-		spo2_data = load_fitbit_daily(p, "spo2")
-		br_data = load_fitbit_daily(p, "breathing_rate")
-		temp_data = load_fitbit_daily(p, "temperature_skin")
-		steps_data = load_fitbit_daily(p, "steps")
-
-		p_tracking = filter(r -> r.participant == p, tracking)
-		for t in p_tracking
-			ds = string(t.date)
-			ds_next = string(t.date + Day(1))
-
-			# HRV (same day)
-			hrv_daily = nothing
-			hrv_deep = nothing
-			hrv_rec = get(hrv_data, ds, nothing)
-			if !isnothing(hrv_rec)
-				v = get(hrv_rec, "value", Dict())
-				hrv_daily = get(v, "dailyRmssd", nothing)
-				hrv_deep = get(v, "deepRmssd", nothing)
-			end
-
-			# SpO2 (same day — measured during preceding night)
-			spo2_avg = nothing
-			spo2_min = nothing
-			spo2_rec = get(spo2_data, ds, nothing)
-			if !isnothing(spo2_rec)
-				v = get(spo2_rec, "value", Dict())
-				spo2_avg = get(v, "avg", nothing)
-				spo2_min = get(v, "min", nothing)
-			end
-
-			# Breathing rate (same day)
-			br_val = nothing
-			br_rec = get(br_data, ds, nothing)
-			if !isnothing(br_rec)
-				v = get(br_rec, "value", Dict())
-				br_val = get(v, "breathingRate", nothing)
-			end
-
-			# Skin temperature (following night)
-			temp_val = nothing
-			temp_rec = get(temp_data, ds_next, nothing)
-			if !isnothing(temp_rec)
-				v = get(temp_rec, "value", Dict())
-				temp_val = get(v, "nightlyRelative", nothing)
-			end
-
-			# Steps (same day)
-			steps_val = nothing
-			steps_rec = get(steps_data, ds, nothing)
-			if !isnothing(steps_rec)
-				sv = get(steps_rec, "value", nothing)
-				if !isnothing(sv)
-					steps_val = tryparse(Float64, string(sv))
-				end
-			end
-
-			push!(rows, (
-				participant = p,
-				condition = t.condition,
-				date = t.date,
-				hrv_daily_rmssd = something(hrv_daily, missing),
-				hrv_deep_rmssd = something(hrv_deep, missing),
-				spo2_avg = something(spo2_avg, missing),
-				spo2_min = something(spo2_min, missing),
-				breathing_rate = something(br_val, missing),
-				skin_temp_rel = something(temp_val, missing),
-				steps = something(steps_val, missing),
-			))
-		end
-	end
-	DataFrame(rows)
-end
 
 # --- Metric extraction ---
 
@@ -385,60 +124,193 @@ function extract_sss_metrics(matched)
 	DataFrame(rows)
 end
 
+function extract_sleep_metrics(tracking)
+	rows = []
+	for p in PARTICIPANTS
+		sleep_by_date = load_sleep_data(p)
+		isempty(sleep_by_date) && continue
+
+		p_tracking = filter(r -> r.participant == p, tracking)
+		for t in p_tracking
+			# Sleep on the night after dosing: dateOfSleep = dose_date + 1
+			next_day = string(t.date + Day(1))
+			r = get(sleep_by_date, next_day, nothing)
+			isnothing(r) && continue
+
+			levels = get(get(r, "levels", Dict()), "summary", Dict())
+			push!(rows, (
+				participant = p,
+				condition = t.condition,
+				date = t.date,
+				duration_h = get(r, "duration", 0) / 3.6e6,
+				minutes_asleep = get(r, "minutesAsleep", missing),
+				efficiency = get(r, "efficiency", missing),
+				deep_min = get(get(levels, "deep", Dict()), "minutes", missing),
+				light_min = get(get(levels, "light", Dict()), "minutes", missing),
+				rem_min = get(get(levels, "rem", Dict()), "minutes", missing),
+				wake_min = get(get(levels, "wake", Dict()), "minutes", missing),
+			))
+		end
+	end
+	DataFrame(rows)
+end
+
+function extract_supplementary_metrics(tracking)
+	rows = []
+	for p in PARTICIPANTS
+		hrv_data = load_fitbit_daily(p, "hrv")
+		spo2_data = load_fitbit_daily(p, "spo2")
+		br_data = load_fitbit_daily(p, "breathing_rate")
+		temp_data = load_fitbit_daily(p, "temperature_skin")
+		steps_data = load_fitbit_daily(p, "steps")
+
+		p_tracking = filter(r -> r.participant == p, tracking)
+		for t in p_tracking
+			ds = string(t.date)
+			ds_next = string(t.date + Day(1))
+
+			hrv_daily = nothing
+			hrv_deep = nothing
+			hrv_rec = get(hrv_data, ds, nothing)
+			if !isnothing(hrv_rec)
+				v = get(hrv_rec, "value", Dict())
+				hrv_daily = get(v, "dailyRmssd", nothing)
+				hrv_deep = get(v, "deepRmssd", nothing)
+			end
+
+			spo2_avg = nothing
+			spo2_min = nothing
+			spo2_rec = get(spo2_data, ds, nothing)
+			if !isnothing(spo2_rec)
+				v = get(spo2_rec, "value", Dict())
+				spo2_avg = get(v, "avg", nothing)
+				spo2_min = get(v, "min", nothing)
+			end
+
+			br_val = nothing
+			br_rec = get(br_data, ds, nothing)
+			if !isnothing(br_rec)
+				v = get(br_rec, "value", Dict())
+				br_val = get(v, "breathingRate", nothing)
+			end
+
+			temp_val = nothing
+			temp_rec = get(temp_data, ds_next, nothing)
+			if !isnothing(temp_rec)
+				v = get(temp_rec, "value", Dict())
+				temp_val = get(v, "nightlyRelative", nothing)
+			end
+
+			steps_val = nothing
+			steps_rec = get(steps_data, ds, nothing)
+			if !isnothing(steps_rec)
+				sv = get(steps_rec, "value", nothing)
+				if !isnothing(sv)
+					steps_val = tryparse(Float64, string(sv))
+				end
+			end
+
+			push!(rows, (
+				participant = p,
+				condition = t.condition,
+				date = t.date,
+				hrv_daily_rmssd = something(hrv_daily, missing),
+				hrv_deep_rmssd = something(hrv_deep, missing),
+				spo2_avg = something(spo2_avg, missing),
+				spo2_min = something(spo2_min, missing),
+				breathing_rate = something(br_val, missing),
+				skin_temp_rel = something(temp_val, missing),
+				steps = something(steps_val, missing),
+			))
+		end
+	end
+	DataFrame(rows)
+end
+
+# --- Paired extraction ---
+
+# Given a metric DataFrame (with :participant, :date columns) and session pairs,
+# return (diffs, orx_vals, plc_vals) for all pairs that have data for metric_col.
+function extract_paired(df, metric_col, session_pairs)
+	diffs = Float64[]
+	orx_vals = Float64[]
+	plc_vals = Float64[]
+
+	nrow(df) == 0 && return diffs, orx_vals, plc_vals
+
+	for pr in session_pairs
+		p = pr.participant
+		od = pr.orexin_date
+		pd = pr.placebo_date
+
+		orx_rows = df[(df.participant .== p) .& (df.date .== od), :]
+		plc_rows = df[(df.participant .== p) .& (df.date .== pd), :]
+
+		(nrow(orx_rows) == 0 || nrow(plc_rows) == 0) && continue
+
+		ov = orx_rows[1, metric_col]
+		pv = plc_rows[1, metric_col]
+		(ismissing(ov) || ismissing(pv)) && continue
+
+		push!(diffs, Float64(ov) - Float64(pv))
+		push!(orx_vals, Float64(ov))
+		push!(plc_vals, Float64(pv))
+	end
+	diffs, orx_vals, plc_vals
+end
+
 # --- Statistical tests ---
 
+# Pooled Cohen's d for unpaired groups (corrected for unequal n).
 function cohens_d(a, b)
-	pooled_std = sqrt((var(a) + var(b)) / 2)
+	pooled_std = sqrt(((length(a)-1)*var(a) + (length(b)-1)*var(b)) / (length(a)+length(b)-2))
 	pooled_std == 0 && return 0.0
 	(mean(a) - mean(b)) / pooled_std
 end
 
-function rank_biserial(u, n1, n2)
-	# r = 1 - 2U/(n1*n2)
-	1.0 - 2.0 * u / (n1 * n2)
-end
-
-function run_welch_ttest(df, metric, label)
-	orx = collect(skipmissing(df[df.condition .== "orexin", metric]))
-	plc = collect(skipmissing(df[df.condition .== "placebo", metric]))
-	(length(orx) < 2 || length(plc) < 2) && return nothing
-
-	t = UnequalVarianceTTest(Float64.(orx), Float64.(plc))
+function run_paired_ttest(diffs, label, orx_vals, plc_vals)
+	length(diffs) < 2 && return nothing
+	t = OneSampleTTest(diffs)
+	d_z = std(diffs) == 0 ? 0.0 : mean(diffs) / std(diffs)
 	Dict(
 		"metric" => label,
-		"test" => "Welch's t",
-		"orexin_mean" => mean(orx),
-		"orexin_std" => std(orx),
-		"orexin_n" => length(orx),
-		"placebo_mean" => mean(plc),
-		"placebo_std" => std(plc),
-		"placebo_n" => length(plc),
+		"test" => "Paired t",
+		"orexin_mean" => mean(orx_vals),
+		"orexin_std" => std(orx_vals),
+		"placebo_mean" => mean(plc_vals),
+		"placebo_std" => std(plc_vals),
+		"n_pairs" => length(diffs),
+		"mean_diff" => mean(diffs),
+		"std_diff" => std(diffs),
 		"statistic" => t.t,
 		"p_value" => pvalue(t),
-		"effect_size" => cohens_d(orx, plc),
-		"effect_label" => "Cohen's d"
+		"effect_size" => d_z,
+		"effect_label" => "Cohen's d_z"
 	)
 end
 
-function run_mann_whitney(df, metric, label)
-	orx = collect(skipmissing(df[df.condition .== "orexin", metric]))
-	plc = collect(skipmissing(df[df.condition .== "placebo", metric]))
-	(length(orx) < 2 || length(plc) < 2) && return nothing
-
-	u = MannWhitneyUTest(Float64.(orx), Float64.(plc))
-	u_stat = u.U
+function run_wilcoxon_signedrank(diffs, label, orx_vals, plc_vals)
+	length(diffs) < 2 && return nothing
+	w = SignedRankTest(diffs)
+	n = length(diffs)
+	# rank-biserial: (concordant − discordant) / non-tied pairs
+	n_pos = count(>(0), diffs)
+	n_neg = count(<(0), diffs)
+	n_nz = n_pos + n_neg
+	r_rb = n_nz > 0 ? (n_pos - n_neg) / n_nz : 0.0
 	Dict(
 		"metric" => label,
-		"test" => "Mann-Whitney U",
-		"orexin_mean" => mean(orx),
-		"orexin_std" => std(orx),
-		"orexin_n" => length(orx),
-		"placebo_mean" => mean(plc),
-		"placebo_std" => std(plc),
-		"placebo_n" => length(plc),
-		"statistic" => u_stat,
-		"p_value" => pvalue(u),
-		"effect_size" => rank_biserial(u_stat, length(orx), length(plc)),
+		"test" => "Wilcoxon signed-rank",
+		"orexin_mean" => mean(orx_vals),
+		"orexin_std" => std(orx_vals),
+		"placebo_mean" => mean(plc_vals),
+		"placebo_std" => std(plc_vals),
+		"n_pairs" => n,
+		"mean_diff" => mean(diffs),
+		"std_diff" => std(diffs),
+		"statistic" => w.W,
+		"p_value" => pvalue(w),
+		"effect_size" => r_rb,
 		"effect_label" => "rank-biserial r"
 	)
 end
@@ -471,12 +343,13 @@ function write_markdown(results, path; bonferroni=false)
 		haskey(VARIABLE_NAMES, metric) || continue
 		name, dec = VARIABLE_NAMES[metric]
 
-		orx_str = "$(fmt_val(r["orexin_mean"], dec)) ± $(fmt_val(r["orexin_std"], dec)) (n=$(Int(r["orexin_n"])))"
-		plc_str = "$(fmt_val(r["placebo_mean"], dec)) ± $(fmt_val(r["placebo_std"], dec)) (n=$(Int(r["placebo_n"])))"
+		n = Int(r["n_pairs"])
+		orx_str = "$(fmt_val(r["orexin_mean"], dec)) ± $(fmt_val(r["orexin_std"], dec)) (n=$n)"
+		plc_str = "$(fmt_val(r["placebo_mean"], dec)) ± $(fmt_val(r["placebo_std"], dec)) (n=$n)"
 		diff = r["orexin_mean"] - r["placebo_mean"]
 
-		es_label = r["effect_label"] == "Cohen's d" ?
-			"[Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)" :
+		es_label = r["effect_label"] == "Cohen's d_z" ?
+			"[Cohen's d_z](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)" :
 			"[r](https://en.wikipedia.org/wiki/Rank-biserial_correlation)"
 		es_str = "$(fmt_val(r["effect_size"], 3)) ($es_label)"
 
@@ -508,11 +381,12 @@ function write_supp_markdown(results, path; bonferroni=false)
 		haskey(SUPP_VARIABLE_NAMES, metric) || continue
 		name, dec = SUPP_VARIABLE_NAMES[metric]
 
-		orx_str = "$(fmt_val(r["orexin_mean"], dec)) ± $(fmt_val(r["orexin_std"], dec)) (n=$(Int(r["orexin_n"])))"
-		plc_str = "$(fmt_val(r["placebo_mean"], dec)) ± $(fmt_val(r["placebo_std"], dec)) (n=$(Int(r["placebo_n"])))"
+		n = Int(r["n_pairs"])
+		orx_str = "$(fmt_val(r["orexin_mean"], dec)) ± $(fmt_val(r["orexin_std"], dec)) (n=$n)"
+		plc_str = "$(fmt_val(r["placebo_mean"], dec)) ± $(fmt_val(r["placebo_std"], dec)) (n=$n)"
 		diff = r["orexin_mean"] - r["placebo_mean"]
 
-		es_str = "$(fmt_val(r["effect_size"], 3)) ([Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d))"
+		es_str = "$(fmt_val(r["effect_size"], 3)) ([Cohen's d_z](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d))"
 
 		p_col = if bonferroni && haskey(r, "p_corrected")
 			"$(fmt_val(r["p_value"], 3)) | $(fmt_val(r["p_corrected"], 3))"
@@ -554,15 +428,13 @@ function make_bar_subplot(group_results, title_str;
 		ylabel_str="Value", to_min=Set{String}(), ymin=nothing, legend_pos=:topleft)
 	n = length(group_results)
 	labels = [get(PLOT_NAMES, r["metric"], r["metric"]) for r in group_results]
-	# Convert hours→minutes for metrics in to_min
 	scale = [r["metric"] in to_min ? 60.0 : 1.0 for r in group_results]
 	orx_means = [r["orexin_mean"] * scale[i] for (i,r) in enumerate(group_results)]
 	plc_means = [r["placebo_mean"] * scale[i] for (i,r) in enumerate(group_results)]
-	orx_se = [r["orexin_std"] / sqrt(r["orexin_n"]) * scale[i] for (i,r) in enumerate(group_results)]
-	plc_se = [r["placebo_std"] / sqrt(r["placebo_n"]) * scale[i] for (i,r) in enumerate(group_results)]
+	orx_se = [r["orexin_std"] / sqrt(r["n_pairs"]) * scale[i] for (i,r) in enumerate(group_results)]
+	plc_se = [r["placebo_std"] / sqrt(r["n_pairs"]) * scale[i] for (i,r) in enumerate(group_results)]
 	p_vals = [r["p_value"] for r in group_results]
 
-	# If ymin set, shift bars down and draw a break indicator
 	offset = isnothing(ymin) ? 0.0 : Float64(ymin)
 	orx_plot = orx_means .- offset
 	plc_plot = plc_means .- offset
@@ -575,7 +447,6 @@ function make_bar_subplot(group_results, title_str;
 	bar!(sp, xs .+ w/2, plc_plot, bar_width=w, yerr=plc_se,
 		label="Placebo", color=colorant"#ffb399", linecolor=:black, lw=0.5)
 
-	# p-value annotations — compute ymax in plot coords, add headroom
 	global_ymax = 0.0
 	p_annot = []
 	for i in 1:n
@@ -586,15 +457,12 @@ function make_bar_subplot(group_results, title_str;
 		push!(p_annot, (xs[i], ymax_plot, p_str))
 	end
 
-	# Set ylims with 20% headroom above tallest bar+error for labels
 	ylim_top = global_ymax * 1.2
 	for (x, y, s) in p_annot
 		annotate!(sp, x, y + global_ymax * 0.05, text(s, 7, :center))
 	end
 
-	# Build y-axis tick labels that show the real values (with offset added back)
 	if !isnothing(ymin)
-		# Pick nice ticks in the plot range
 		tick_step = nice_step(ylim_top)
 		raw_ticks = collect(0:tick_step:ylim_top)
 		real_labels = [@sprintf("%g", t + offset) for t in raw_ticks]
@@ -613,7 +481,6 @@ function make_bar_subplot(group_results, title_str;
 end
 
 function nice_step(range)
-	# Pick a round tick step for ~5-8 ticks
 	raw = range / 6
 	mag = 10.0^floor(log10(raw))
 	for m in [1, 2, 5, 10]
@@ -627,7 +494,6 @@ function plot_results(results, out_dir)
 	cog = filter(r -> !startswith(r["metric"], "Sleep_"), results)
 	slp = filter(r -> startswith(r["metric"], "Sleep_"), results)
 
-	# Cognitive plot: PVT | DSST | Digit Span + SSS
 	if !isempty(cog)
 		pvt = filter(r -> startswith(r["metric"], "PVT_"), cog)
 		dsst = filter(r -> startswith(r["metric"], "DSST_"), cog)
@@ -651,7 +517,6 @@ function plot_results(results, out_dir)
 		end
 	end
 
-	# Sleep plot: stages (min) | totals (min) | efficiency (%)
 	if !isempty(slp)
 		stage_metrics = ["Sleep_deep_min", "Sleep_light_min", "Sleep_rem_min", "Sleep_wake_min"]
 		total_metrics = ["Sleep_duration_h", "Sleep_minutes_asleep"]
@@ -689,8 +554,8 @@ function make_bar_subplot_custom(group_results, title_str, name_map;
 	labels = [get(name_map, r["metric"], r["metric"]) for r in group_results]
 	orx_means = [r["orexin_mean"] for r in group_results]
 	plc_means = [r["placebo_mean"] for r in group_results]
-	orx_se = [r["orexin_std"] / sqrt(r["orexin_n"]) for r in group_results]
-	plc_se = [r["placebo_std"] / sqrt(r["placebo_n"]) for r in group_results]
+	orx_se = [r["orexin_std"] / sqrt(r["n_pairs"]) for r in group_results]
+	plc_se = [r["placebo_std"] / sqrt(r["n_pairs"]) for r in group_results]
 	p_vals = [r["p_value"] for r in group_results]
 
 	offset = isnothing(ymin) ? 0.0 : Float64(ymin)
@@ -774,7 +639,6 @@ function main()
 	tracking = load_all_tracking()
 	println("  $(length(tracking)) dosing records across $(length(unique(r.participant for r in tracking))) participants")
 
-	# Count per participant
 	for p in PARTICIPANTS
 		n = count(r -> r.participant == p, tracking)
 		norx = count(r -> r.participant == p && r.condition == "orexin", tracking)
@@ -782,7 +646,9 @@ function main()
 		n > 0 && println("  $p: $norx orexin, $nplc placebo")
 	end
 
-	# Load and match cognitive tests
+	session_pairs = match_sessions(tracking)
+	println("  $(length(session_pairs)) matched pairs (gap ≤ $MAX_PAIR_GAP_DAYS days)")
+
 	println("\nLoading cognitive test data...")
 	all_pvt = []
 	all_dsst = []
@@ -817,38 +683,38 @@ function main()
 	println("  Digit Span: $(nrow(ds_df)) observations")
 	println("  SSS: $(nrow(sss_df)) observations")
 
-	# Run tests
 	results = Dict[]
 
-	# Continuous: Welch's t-test
 	for metric in [:mean_rt, :median_rt, :slowest_10pct]
-		r = run_welch_ttest(pvt_df, metric, "PVT_$metric")
+		diffs, orx, plc = extract_paired(pvt_df, metric, session_pairs)
+		r = run_paired_ttest(diffs, "PVT_$metric", orx, plc)
 		!isnothing(r) && push!(results, r)
 	end
 
-	r = run_welch_ttest(dsst_df, :correct_count, "DSST_correct_count")
+	diffs, orx, plc = extract_paired(dsst_df, :correct_count, session_pairs)
+	r = run_paired_ttest(diffs, "DSST_correct_count", orx, plc)
 	!isnothing(r) && push!(results, r)
 
-	# Ordinal: Mann-Whitney U
 	for metric in [:forward_span, :backward_span, :total_span]
-		r = run_mann_whitney(ds_df, metric, "DigitSpan_$metric")
+		diffs, orx, plc = extract_paired(ds_df, metric, session_pairs)
+		r = run_wilcoxon_signedrank(diffs, "DigitSpan_$metric", orx, plc)
 		!isnothing(r) && push!(results, r)
 	end
 
-	r = run_mann_whitney(sss_df, :rating, "SSS_rating")
+	diffs, orx, plc = extract_paired(sss_df, :rating, session_pairs)
+	r = run_wilcoxon_signedrank(diffs, "SSS_rating", orx, plc)
 	!isnothing(r) && push!(results, r)
 
-	# Sleep data
 	println("\nLoading sleep data...")
 	sleep_df = extract_sleep_metrics(tracking)
 	println("  Sleep: $(nrow(sleep_df)) observations")
 
 	for metric in [:duration_h, :minutes_asleep, :efficiency, :deep_min, :light_min, :rem_min, :wake_min]
-		r = run_welch_ttest(sleep_df, metric, "Sleep_$metric")
+		diffs, orx, plc = extract_paired(sleep_df, metric, session_pairs)
+		r = run_paired_ttest(diffs, "Sleep_$metric", orx, plc)
 		!isnothing(r) && push!(results, r)
 	end
 
-	# Supplementary Fitbit metrics
 	println("\nLoading supplementary Fitbit data...")
 	supp_df = extract_supplementary_metrics(tracking)
 	println("  Supplementary: $(nrow(supp_df)) observations")
@@ -864,11 +730,11 @@ function main()
 		(:steps, "Steps"),
 	]
 	for (col, label) in supp_metrics
-		r = run_welch_ttest(supp_df, col, label)
+		diffs, orx, plc = extract_paired(supp_df, col, session_pairs)
+		r = run_paired_ttest(diffs, label, orx, plc)
 		!isnothing(r) && push!(supp_results, r)
 	end
 
-	# Bonferroni correction
 	bonferroni = "--bonferroni" in ARGS || "-b" in ARGS
 	n_tests = length(results)
 	if bonferroni && n_tests > 0
@@ -884,10 +750,9 @@ function main()
 		end
 	end
 
-	# Print results
 	correction_str = bonferroni ? " [Bonferroni-corrected, k=$n_tests]" : ""
 	println("\n" * "="^90)
-	println("RESULTS: Orexin-A vs Placebo (pooled across participants)$correction_str")
+	println("RESULTS: Orexin-A vs Placebo (paired crossover)$correction_str")
 	println("="^90)
 
 	for r in results
@@ -905,30 +770,26 @@ function main()
 		end
 
 		println("\n$(r["metric"]) [$(r["test"])]")
-		println("  Orexin:  M=$(round(r["orexin_mean"], digits=2)), SD=$(round(r["orexin_std"], digits=2)), n=$(r["orexin_n"])")
-		println("  Placebo: M=$(round(r["placebo_mean"], digits=2)), SD=$(round(r["placebo_std"], digits=2)), n=$(r["placebo_n"])")
-		println("  statistic=$(round(r["statistic"], digits=3)), $p_display, $(r["effect_label"])=$(round(r["effect_size"], digits=3))")
+		println("  Orexin:  M=$(round(r["orexin_mean"], digits=2)), SD=$(round(r["orexin_std"], digits=2))")
+		println("  Placebo: M=$(round(r["placebo_mean"], digits=2)), SD=$(round(r["placebo_std"], digits=2))")
+		println("  n_pairs=$(r["n_pairs"]), mean_diff=$(round(r["mean_diff"], digits=3)), statistic=$(round(r["statistic"], digits=3)), $p_display, $(r["effect_label"])=$(round(r["effect_size"], digits=3))")
 	end
 
-	# Save CSV
 	out_dir = dirname(@__FILE__)
 	out_df = DataFrame(results)
 	csv_path = joinpath(out_dir, "analysis_results.csv")
 	CSV.write(csv_path, out_df)
 	println("\n\nResults saved to $csv_path")
 
-	# Markdown table
 	if "--markdown" in ARGS || "-m" in ARGS
 		md_path = joinpath(out_dir, "analysis_results.md")
 		write_markdown(results, md_path; bonferroni)
 	end
 
-	# Plots
 	if "--plot" in ARGS || "-p" in ARGS
 		plot_results(results, out_dir)
 	end
 
-	# --- Supplementary output ---
 	if !isempty(supp_results)
 		println("\n" * "="^90)
 		println("SUPPLEMENTARY: Physiological Fitbit Metrics$correction_str")
@@ -949,9 +810,9 @@ function main()
 			end
 
 			println("\n$(r["metric"]) [$(r["test"])]")
-			println("  Orexin:  M=$(round(r["orexin_mean"], digits=2)), SD=$(round(r["orexin_std"], digits=2)), n=$(r["orexin_n"])")
-			println("  Placebo: M=$(round(r["placebo_mean"], digits=2)), SD=$(round(r["placebo_std"], digits=2)), n=$(r["placebo_n"])")
-			println("  statistic=$(round(r["statistic"], digits=3)), $p_display, $(r["effect_label"])=$(round(r["effect_size"], digits=3))")
+			println("  Orexin:  M=$(round(r["orexin_mean"], digits=2)), SD=$(round(r["orexin_std"], digits=2))")
+			println("  Placebo: M=$(round(r["placebo_mean"], digits=2)), SD=$(round(r["placebo_std"], digits=2))")
+			println("  n_pairs=$(r["n_pairs"]), mean_diff=$(round(r["mean_diff"], digits=3)), statistic=$(round(r["statistic"], digits=3)), $p_display, $(r["effect_label"])=$(round(r["effect_size"], digits=3))")
 		end
 
 		supp_csv_path = joinpath(out_dir, "supplementary_results.csv")
