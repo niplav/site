@@ -11,89 +11,7 @@ using Plots, KernelDensity; gr()
 
 Random.seed!(42)
 
-const BASE_DIR = expanduser("~/down/Orexin")
-const PARTICIPANTS = ["Niplav", "Sam", "Nomagicpill"]
-
-# --- Data loading (shared with analyze_orexin.jl) ---
-
-function load_json_safe(path)
-	isfile(path) || return []
-	content = read(path, String)
-	content = replace(content, r",\s*\]" => "]")
-	content = replace(content, r",\s*\}" => "}")
-	JSON.parse(content)
-end
-
-function load_niplav_tracking()
-	rows = []
-	path = joinpath(BASE_DIR, "Niplav", "tracking.csv")
-	isfile(path) || return rows
-	for line in eachline(path)
-		parts = split(line, ',')
-		length(parts) < 2 && continue
-		ts, substance = parts[1], parts[2]
-		date_str = split(ts, 'T')[1]
-		cond = if substance == "water"
-			"placebo"
-		elseif substance == "orexin-a"
-			"orexin"
-		else
-			continue
-		end
-		push!(rows, (participant="Niplav", date=Date(date_str), condition=cond))
-	end
-	rows
-end
-
-function load_xlsx_tracking(participant, xlsx_path, cond_col, cond_map)
-	rows = []
-	isfile(xlsx_path) || return rows
-	xf = XLSX.readxlsx(xlsx_path)
-	sn = XLSX.sheetnames(xf)[1]
-	data = XLSX.readtable(xlsx_path, sn)
-	dates = data.data[1]
-	conds = data.data[cond_col]
-	for i in eachindex(dates)
-		d = dates[i]
-		c = conds[i]
-		(ismissing(d) || ismissing(c)) && continue
-		dt = d isa DateTime ? Date(d) : d isa Date ? d : continue
-		mapped = get(cond_map, string(c), nothing)
-		isnothing(mapped) && continue
-		push!(rows, (participant=participant, date=dt, condition=mapped))
-	end
-	rows
-end
-
-function load_all_tracking()
-	tracking = vcat(
-		load_niplav_tracking(),
-		load_xlsx_tracking("Sam", joinpath(BASE_DIR, "Sam", "sh ox notes.xlsx"),
-			3, Dict("real"=>"orexin", "placebo"=>"placebo")),
-		load_xlsx_tracking("Nomagicpill", joinpath(BASE_DIR, "Nomagicpill", "Orexin Tracking.xlsx"),
-			6, Dict("Orexin"=>"orexin", "Placebo"=>"placebo")),
-	)
-	filter(r -> r.condition in ("orexin", "placebo"), tracking)
-end
-
-function match_to_condition(entries, tracking, participant; window_h=24)
-	matched = []
-	p_tracking = filter(r -> r.participant == participant, tracking)
-	for entry in entries
-		ts_str = get(entry, "timestamp", get(entry, "date", nothing))
-		isnothing(ts_str) && continue
-		entry_date = Date(split(ts_str, 'T')[1])
-		entry_dt = DateTime(split(ts_str, '.')[1], dateformat"yyyy-mm-ddTHH:MM:SS")
-		for t in p_tracking
-			dose_dt = DateTime(t.date)
-			if entry_date == t.date || (entry_dt >= dose_dt && entry_dt <= dose_dt + Hour(window_h))
-				push!(matched, (entry=entry, condition=t.condition, participant=participant, date=t.date))
-				break
-			end
-		end
-	end
-	matched
-end
+include(joinpath(@__DIR__, "orexin_data.jl"))
 
 # --- Extract a single metric from matched data ---
 
@@ -178,24 +96,6 @@ function run_bayesian_analysis(df, label; n_samples=2000, n_chains=4)
 	)
 end
 
-# --- Sleep data ---
-
-function load_sleep_data(participant)
-	sleep_dir = joinpath(BASE_DIR, participant, "fitbit", "sleep")
-	isdir(sleep_dir) || return Dict{String, Any}()
-	by_date = Dict{String, Any}()
-	for f in readdir(sleep_dir, join=true)
-		endswith(f, ".json") || continue
-		for r in load_json_safe(f)
-			get(r, "isMainSleep", false) || continue
-			dos = get(r, "dateOfSleep", nothing)
-			isnothing(dos) && continue
-			by_date[dos] = r
-		end
-	end
-	by_date
-end
-
 function extract_sleep_metric(tracking, metric_fn)
 	rows = []
 	for p in PARTICIPANTS
@@ -212,24 +112,6 @@ function extract_sleep_metric(tracking, metric_fn)
 		end
 	end
 	DataFrame(rows)
-end
-
-# --- Supplementary Fitbit data ---
-
-function load_fitbit_daily(participant, subdir)
-	dir = joinpath(BASE_DIR, participant, "fitbit", subdir)
-	isdir(dir) || return Dict{String, Any}()
-	by_date = Dict{String, Any}()
-	for f in readdir(dir, join=true)
-		endswith(f, ".json") || continue
-		records = load_json_safe(f)
-		for r in records
-			dt = get(r, "dateTime", nothing)
-			isnothing(dt) && continue
-			by_date[dt] = r
-		end
-	end
-	by_date
 end
 
 function extract_supp_fitbit(tracking, metric_name, subdir, value_fn; use_next_day=false)
