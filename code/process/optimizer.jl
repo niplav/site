@@ -11,10 +11,12 @@ Usage:
     julia optimizer.jl stats happy
 """
 
-using CSV, DataFrames, Dates, JSON3, Statistics
+using CSV, DataFrames, Dates, JSON3, Statistics, TimeZones
 using AbstractGPs, KernelFunctions, LinearAlgebra
 using Distributions: MvNormal
 using JLD2
+
+include(joinpath(@__DIR__, "..", "load.jl"))
 
 # Configuration
 const SCRIPT_DIR = @__DIR__
@@ -119,8 +121,8 @@ function load_mental()
 end
 
 function load_meditations()
-	df = CSV.read(MEDITATIONS_FILE, DataFrame)
-	df.datetime = parse_datetime_robust.(df.meditation_start)
+	df = get_meditations()
+	df.datetime = DateTime.(df.meditation_start)
 	df = df[.!ismissing.(df.datetime), :]
 	df = df[.!ismissing.(df.meditation_duration), :]
 

@@ -1,3 +1,8 @@
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from load import get_meditations
+
 import bisect
 import glob
 import json
@@ -23,13 +28,6 @@ SUBSTANCES = [
 	'melatonin', 'creatine', 'vitamind3', 'caffeine', 'sugar',
 	'vitaminb12', 'l-theanine', 'omega3', 'magnesium', 'nicotine', 'l-glycine',
 ]
-
-# Read raw meditation data
-def load_meditation_data():
-	meditation_data = pd.read_csv('../../data/meditations.csv')
-	meditation_data['meditation_start'] = pd.to_datetime(meditation_data['meditation_start'], format='ISO8601', utc=True)
-	meditation_data['meditation_end'] = pd.to_datetime(meditation_data['meditation_end'], format='ISO8601', utc=True)
-	return meditation_data
 
 # Process meditation data into time series
 def process_meditation_data(meditation_data, interval=INTERVAL):
@@ -478,7 +476,7 @@ def process_air_filter_data(df, interval=INTERVAL):
 
 # Prepare data for tigramite analysis
 def prepare_tigramite_data(interval='2h', start_date=None):
-	meditation_data = load_meditation_data()
+	meditation_data = get_meditations()
 	mood_data = load_mood_data()
 	mental_data = load_mental_data()
 	masturbation_data = load_masturbation_data()

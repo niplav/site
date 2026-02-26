@@ -216,10 +216,12 @@ function main()
 		r -> get(get(r, "value", Dict()), "breathingRate", nothing)))
 	push!(supp_metrics, "Skin_temp_rel" => extract_supp_fitbit(tracking, "Skin_temp_rel", "temperature_skin",
 		r -> get(get(r, "value", Dict()), "nightlyRelative", nothing); use_next_day=true))
-	push!(supp_metrics, "Steps" => extract_supp_fitbit(tracking, "Steps", "steps",
+	push!(supp_metrics, "Steps_kilosteps" => extract_supp_fitbit(tracking, "Steps_kilosteps", "steps",
 		r -> begin
 			sv = get(r, "value", nothing)
-			isnothing(sv) ? nothing : tryparse(Float64, string(sv))
+			isnothing(sv) && return nothing
+			v = tryparse(Float64, string(sv))
+			(isnothing(v) || v == 0.0) ? nothing : v / 1000.0
 		end))
 
 	# Run Bayesian analysis for each metric
@@ -323,7 +325,7 @@ function main()
 		end
 
 		if "--plot" in ARGS || "-p" in ARGS
-			plot_posteriors(supp_results, out_dir; filename="supplementary_posteriors.png", left=-1, right=6.5, legpos=:top)
+			plot_posteriors(supp_results, out_dir; filename="supplementary_posteriors.png", left=-2, right=2, legpos=:top)
 		end
 	end
 end
@@ -336,7 +338,7 @@ function plot_posteriors(results, out_dir; filename="posteriors.png", left=-2, r
 	subplots = []
 	# Prior shown only in [left, right] range
 	prior_x = range(left, right, length=500)
-	prior_y = @. exp(-prior_x^2 / right) / sqrt(2π)  # N(0,1) density
+	prior_y = @. exp(-prior_x^2 / 2) / sqrt(2π)  # N(0,1) density
 
 	for r in results
 		samples = r["δ_samples"]
