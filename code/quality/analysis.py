@@ -1,13 +1,11 @@
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from load import get_meditations
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-
-def get_meditations():
-        meditations=pd.read_csv('../../data/meditations.csv')
-        meditations['meditation_start']=pd.to_datetime(meditations['meditation_start'], utc=True, format='mixed')
-        meditations['meditation_end']=pd.to_datetime(meditations['meditation_end'], utc=True, format='mixed')
-
-        return meditations
 
 def get_masturbations():
         masturbations=pd.read_csv('../../data/masturbations.csv')

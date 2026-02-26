@@ -1,14 +1,12 @@
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from load import get_meditations
+
 import numpy as np
 import pandas as pd
 import scipy.stats as sps
 import matplotlib.pyplot as plt
-
-def get_meditations():
-        meditations=pd.read_csv('../../data/meditations.csv')
-        meditations['meditation_start']=pd.to_datetime(meditations['meditation_start'], utc=True, format='mixed')
-        meditations['meditation_end']=pd.to_datetime(meditations['meditation_end'], utc=True, format='mixed')
-
-        return meditations
 
 def get_approaches():
 	approaches=pd.read_csv('../../data/daygame_approaches.csv')

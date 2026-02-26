@@ -644,7 +644,7 @@ function plot_supp_results(results, out_dir)
 			size=(500*length(subplots), 500),
 			plot_title="Orexin-A vs Placebo: Supplementary Fitbit Metrics",
 		)
-		savefig(p, joinpath(out_dir, "plot_supplementary.png"))
+		savefig(p, joinpath(out_dir, "supplementary.png"))
 		println("Plot saved to $(joinpath(out_dir, "plot_supplementary.png"))")
 	end
 end
