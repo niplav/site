@@ -102,7 +102,7 @@ function match_to_condition(entries, tracking, participant; window_h=24)
 		for t in p_tracking
 			dose_dt = DateTime(t.date)
 			if entry_date == t.date || (entry_dt >= dose_dt && entry_dt <= dose_dt + Hour(window_h))
-				push!(matched, (entry=entry, condition=t.condition, participant=participant, date=t.date))
+				push!(matched, (entry=entry, condition=t.condition, participant=participant, date=t.date, datetime=entry_dt))
 				break
 			end
 		end
