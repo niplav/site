@@ -35,18 +35,18 @@ const SUPP_VARIABLE_NAMES = Dict(
 	"HRV_deep_rmssd" => ("**HRV Deep RMSSD (ms)**", 1),
 	"SpO2_avg" => ("**SpO2 Avg (%)**", 1),
 	"SpO2_min" => ("**SpO2 Min (%)**", 1),
-	"Breathing_rate" => ("**Breathing Rate (breaths/min)**", 1),
+	"Breathing_rate" => ("**Breaths/min**", 1),
 	"Skin_temp_rel" => ("**Skin Temp Δ (°C)**", 2),
 	"Steps" => ("**Steps**", 0),
 )
 
 const SUPP_PLOT_NAMES = Dict(
-	"HRV_daily_rmssd" => "HRV Daily RMSSD (ms)",
-	"HRV_deep_rmssd" => "HRV Deep RMSSD (ms)",
-	"SpO2_avg" => "SpO2 Avg (%)",
-	"SpO2_min" => "SpO2 Min (%)",
-	"Breathing_rate" => "Breathing Rate",
-	"Skin_temp_rel" => "Skin Temp Δ (°C)",
+	"HRV_daily_rmssd" => "Daily RMSSD (ms)",
+	"HRV_deep_rmssd" => "Deep RMSSD (ms)",
+	"SpO2_avg" => "Avg (%)",
+	"SpO2_min" => "Min (%)",
+	"Breathing_rate" => "Breaths/min",
+	"Skin_temp_rel" => "Δ (°C)",
 	"Steps" => "Steps",
 )
 
@@ -62,6 +62,7 @@ function extract_pvt_metrics(matched)
 			participant = m.participant,
 			condition = m.condition,
 			date = m.date,
+			datetime = m.datetime,
 			mean_rt = mean(rts),
 			median_rt = median(rts),
 			slowest_10pct = quantile(rts, 0.9),
@@ -81,6 +82,7 @@ function extract_dsst_metrics(matched)
 			participant = m.participant,
 			condition = m.condition,
 			date = m.date,
+			datetime = m.datetime,
 			correct_count = cc,
 			accuracy = get(e, "accuracy", missing)
 		))
@@ -100,6 +102,7 @@ function extract_digit_span_metrics(matched)
 			participant = m.participant,
 			condition = m.condition,
 			date = m.date,
+			datetime = m.datetime,
 			forward_span = something(fs, missing),
 			backward_span = something(bs, missing),
 			total_span = something(ts, missing)
@@ -118,6 +121,7 @@ function extract_sss_metrics(matched)
 			participant = m.participant,
 			condition = m.condition,
 			date = m.date,
+			datetime = m.datetime,
 			rating = rating
 		))
 	end
@@ -230,13 +234,17 @@ end
 # --- Paired extraction ---
 
 # Given a metric DataFrame (with :participant, :date columns) and session pairs,
-# return (diffs, orx_vals, plc_vals) for all pairs that have data for metric_col.
+# return (diffs, orx_vals, plc_vals) for all matched slot pairs.
+# If the DataFrame has a :datetime column, sorts within each date and pairs by
+# rank (slot 1 ↔ slot 1, slot 2 ↔ slot 2), yielding up to 2 pairs per date pair.
+# Without :datetime (daily Fitbit/sleep data), falls back to one value per date.
 function extract_paired(df, metric_col, session_pairs)
 	diffs = Float64[]
 	orx_vals = Float64[]
 	plc_vals = Float64[]
 
 	nrow(df) == 0 && return diffs, orx_vals, plc_vals
+	has_dt = :datetime in propertynames(df)
 
 	for pr in session_pairs
 		p = pr.participant
@@ -248,13 +256,19 @@ function extract_paired(df, metric_col, session_pairs)
 
 		(nrow(orx_rows) == 0 || nrow(plc_rows) == 0) && continue
 
-		ov = orx_rows[1, metric_col]
-		pv = plc_rows[1, metric_col]
-		(ismissing(ov) || ismissing(pv)) && continue
+		if has_dt
+			orx_rows = sort(orx_rows, :datetime)
+			plc_rows = sort(plc_rows, :datetime)
+		end
 
-		push!(diffs, Float64(ov) - Float64(pv))
-		push!(orx_vals, Float64(ov))
-		push!(plc_vals, Float64(pv))
+		for slot in 1:min(nrow(orx_rows), nrow(plc_rows))
+			ov = orx_rows[slot, metric_col]
+			pv = plc_rows[slot, metric_col]
+			(ismissing(ov) || ismissing(pv)) && continue
+			push!(diffs, Float64(ov) - Float64(pv))
+			push!(orx_vals, Float64(ov))
+			push!(plc_vals, Float64(pv))
+		end
 	end
 	diffs, orx_vals, plc_vals
 end
@@ -407,10 +421,10 @@ end
 
 # Short display names for plot labels (no markdown)
 const PLOT_NAMES = Dict(
-	"PVT_mean_rt" => "PVT Mean RT (ms)",
-	"PVT_median_rt" => "PVT Median RT (ms)",
-	"PVT_slowest_10pct" => "PVT Slowest 10% (ms)",
-	"DSST_correct_count" => "DSST Correct",
+	"PVT_mean_rt" => "Mean RT (ms)",
+	"PVT_median_rt" => "Median RT (ms)",
+	"PVT_slowest_10pct" => "Slowest 10% (ms)",
+	"DSST_correct_count" => "Correct count",
 	"DigitSpan_forward_span" => "Digit Span Fwd",
 	"DigitSpan_backward_span" => "Digit Span Bwd",
 	"DigitSpan_total_span" => "Digit Span Total",
@@ -504,7 +518,7 @@ function plot_results(results, out_dir)
 		!isempty(pvt) && push!(subplots, make_bar_subplot(pvt, "PVT"; ylabel_str="RT (ms)", ymin=200))
 		!isempty(dsst) && push!(subplots, make_bar_subplot(dsst, "DSST"; ylabel_str="Correct count", ymin=60))
 		!isempty(span) && push!(subplots, make_bar_subplot(span, "Digit Span"; ylabel_str="Span"))
-		!isempty(sss) && push!(subplots, make_bar_subplot(sss, "SSS"; ylabel_str="Rating"))
+		!isempty(sss) && push!(subplots, make_bar_subplot(sss, "SSS"; ylabel_str="Rating", ymin=2))
 
 		if !isempty(subplots)
 			p = plot(subplots...,
@@ -512,8 +526,8 @@ function plot_results(results, out_dir)
 				size=(400*length(subplots), 450),
 				plot_title="Orexin-A vs Placebo: Cognitive Tests",
 			)
-			savefig(p, joinpath(out_dir, "plot_cognitive.png"))
-			println("Plot saved to $(joinpath(out_dir, "plot_cognitive.png"))")
+			savefig(p, joinpath(out_dir, "cognitive.png"))
+			println("Plot saved to $(joinpath(out_dir, "cognitive.png"))")
 		end
 	end
 
@@ -542,8 +556,8 @@ function plot_results(results, out_dir)
 				size=(400*length(subplots), 450),
 				plot_title="Orexin-A vs Placebo: Sleep",
 			)
-			savefig(p, joinpath(out_dir, "plot_sleep.png"))
-			println("Plot saved to $(joinpath(out_dir, "plot_sleep.png"))")
+			savefig(p, joinpath(out_dir, "sleep.png"))
+			println("Plot saved to $(joinpath(out_dir, "sleep.png"))")
 		end
 	end
 end
@@ -606,25 +620,28 @@ function plot_supp_results(results, out_dir)
 	isempty(results) && return
 
 	cardio_metrics = ["HRV_daily_rmssd", "HRV_deep_rmssd"]
-	resp_metrics = ["SpO2_avg", "SpO2_min", "Breathing_rate"]
+	resp_metrics = ["SpO2_avg", "SpO2_min"]
+	breath_metrics = ["Breathing_rate"]
 	temp_metrics = ["Skin_temp_rel"]
 	steps_metrics = ["Steps"]
 
 	cardio = filter(r -> r["metric"] in cardio_metrics, results)
 	resp = filter(r -> r["metric"] in resp_metrics, results)
+	breath = filter(r -> r["metric"] in breath_metrics, results)
 	temp = filter(r -> r["metric"] in temp_metrics, results)
 	steps = filter(r -> r["metric"] in steps_metrics, results)
 
 	subplots = []
-	!isempty(cardio) && push!(subplots, make_bar_subplot_custom(cardio, "HRV", SUPP_PLOT_NAMES; ylabel_str="RMSSD (ms)"))
-	!isempty(resp) && push!(subplots, make_bar_subplot_custom(resp, "Respiratory", SUPP_PLOT_NAMES; ylabel_str="Value"))
-	!isempty(temp) && push!(subplots, make_bar_subplot_custom(temp, "Skin Temperature", SUPP_PLOT_NAMES; ylabel_str="Δ °C"))
-	!isempty(steps) && push!(subplots, make_bar_subplot_custom(steps, "Activity", SUPP_PLOT_NAMES; ylabel_str="Steps"))
+	!isempty(cardio) && push!(subplots, make_bar_subplot_custom(cardio, "HRV", SUPP_PLOT_NAMES; ylabel_str="RMSSD (ms)", legend_pos=:topright, ymin=20))
+	!isempty(resp) && push!(subplots, make_bar_subplot_custom(resp, "SpO2", SUPP_PLOT_NAMES; ylabel_str="Value", legend_pos=:topright, ymin=92))
+	!isempty(resp) && push!(subplots, make_bar_subplot_custom(breath, "Breathing Rate", SUPP_PLOT_NAMES; ylabel_str="Value", legend_pos=:topright, ymin=14))
+	!isempty(temp) && push!(subplots, make_bar_subplot_custom(temp, "Skin Temperature", SUPP_PLOT_NAMES; ylabel_str="Δ °C", legend_pos=:topright, ymin=-0.2))
+	!isempty(steps) && push!(subplots, make_bar_subplot_custom(steps, "Activity", SUPP_PLOT_NAMES; ylabel_str="Steps", legend_pos=:topright, ymin=4000))
 
 	if !isempty(subplots)
 		p = plot(subplots...,
 			layout=(1, length(subplots)),
-			size=(450*length(subplots), 450),
+			size=(500*length(subplots), 500),
 			plot_title="Orexin-A vs Placebo: Supplementary Fitbit Metrics",
 		)
 		savefig(p, joinpath(out_dir, "plot_supplementary.png"))

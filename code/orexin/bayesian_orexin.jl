@@ -323,27 +323,27 @@ function main()
 		end
 
 		if "--plot" in ARGS || "-p" in ARGS
-			plot_posteriors(supp_results, out_dir; filename="plot_supplementary_posteriors.png")
+			plot_posteriors(supp_results, out_dir; filename="supplementary_posteriors.png", left=-1, right=6.5, legpos=:top)
 		end
 	end
 end
 
-function plot_posteriors(results, out_dir; filename="plot_posteriors.png")
+function plot_posteriors(results, out_dir; filename="posteriors.png", left=-2, right=2, legpos=:topleft)
 	n = length(results)
 	ncols = 3
 	nrows = ceil(Int, n / ncols)
 
 	subplots = []
-	# Prior shown only in [-2, 2] range
-	prior_x = range(-2, 2, length=500)
-	prior_y = @. exp(-prior_x^2 / 2) / sqrt(2π)  # N(0,1) density
+	# Prior shown only in [left, right] range
+	prior_x = range(left, right, length=500)
+	prior_y = @. exp(-prior_x^2 / right) / sqrt(2π)  # N(0,1) density
 
 	for r in results
 		samples = r["δ_samples"]
 		kd = kde(samples)
 
-		# Clip KDE to [-2, 2]
-		mask = kd.x .>= -2 .&& kd.x .<= 2
+		# Clip KDE to [left, right]
+		mask = kd.x .>= left .&& kd.x .<= right
 		kd_x = kd.x[mask]
 		kd_y = kd.density[mask]
 
@@ -375,8 +375,8 @@ function plot_posteriors(results, out_dir; filename="plot_posteriors.png")
 		title!(sp, r["metric"], titlefontsize=9)
 		xlabel!(sp, "δ (standardized effect)")
 		ylabel!(sp, "Density")
-		xlims!(sp, -2, 2)
-		plot!(sp, legend=:topleft, legendfontsize=6)
+		xlims!(sp, left, right)
+		plot!(sp, legend=legpos, legendfontsize=6)
 
 		push!(subplots, sp)
 	end
