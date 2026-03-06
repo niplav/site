@@ -3327,13 +3327,13 @@ Notes for Meditation Retreats
 3. If one's really incredibly tired like I sometimes am one can sit on the cushion and rest ones head on one's knees.
 	1. This creates a short-term sleep that's not *too* obviously sleep.
 	2. The resulting sleep is usually not very restful: I remember doing this once and dreaming that I was interacting with my family, but constantly burping and in a hunchback position, being made fun off by my family. (During that time of day I did have a bunch of air in my intestines trying to get out.)
-		1. I do spend a lot of time on retreats on intestinal air-management, though I've gotten better at just using the churning in my stomach as a meditation object.
-		2. Late in the day on retreats where lunch is the last meal I can sometimes drink some water and hear/feel it travel down my intestines due to increased sensory clarity & an empty digestive system. Grand entertainment.
+3. I do spend a lot of time on retreats on intestinal air-management, though I've gotten better at just using the churning in my stomach as a meditation object.
+4. Late in the day on retreats where lunch is the last meal I can sometimes drink some water and hear/feel it travel down my intestines due to increased sensory clarity & an empty digestive system. Grand entertainment.
 
 Turing-(In)complete Elementary Cellular Automata
 -------------------------------------------------
 
-There are 88 [eLementary cellular
+There are 88 [elementary cellular
 automata](https://en.wikipedia.org/wiki/Elementary_cellular_automata#Reflections_and_complements)
 up to reflection & complement.
 

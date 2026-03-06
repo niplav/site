@@ -7,7 +7,7 @@ if(~ $datetime '') {
 }
 echo -n 'substance: '
 substance=`{read}
-echo -n 'amount (mg/g): '
+echo -n 'amount: '
 amount=`{read}
 echo -n 'experiment: '
 experiment=`{read}

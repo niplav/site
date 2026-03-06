@@ -11,7 +11,7 @@ Usage:
     julia optimizer.jl stats happy
 """
 
-using CSV, DataFrames, Dates, JSON3, Statistics, TimeZones
+using CSV, DataFrames, Dates, JSON3, Statistics
 using AbstractGPs, KernelFunctions, LinearAlgebra
 using Distributions: MvNormal
 using JLD2
