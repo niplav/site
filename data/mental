@@ -14,6 +14,7 @@ fn readval {
 }
 
 if(! grep $thisdate $mentfile >/dev/null && [ $now -ge $deadline ]) {
+	pkill dmenu
 	productivity=`{echo 'productivity' | readval}
 	creativity=`{echo 'creativity' | readval}
 	sublen=`{echo 'subjective length' | readval}
