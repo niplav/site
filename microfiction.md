@@ -777,7 +777,7 @@ Conjugating & combining allowed words was permitted.
 
 > "[Traffic](https://en.wiktionary.org/wiki/traffic)[^traffic] me [alcohol](https://en.wiktionary.org/wiki/alcohol) and the [syrup](https://en.wiktionary.org/wiki/syrup) [jar](https://en.wiktionary.org/wiki/jar) here, [ninja](https://en.wiktionary.org/wiki/ninja)". I [stubbornly](https://en.wiktionary.org/wiki/stubborn)[^stubborn] [tote](https://en.wiktionary.org/wiki/tote)[^tote] [ginger](https://en.wiktionary.org/wiki/ginger)[^ginger] [tea](https://en.wiktionary.org/wiki/tea#English) and [chocolate](https://en.wiktionary.org/wiki/chocolate), Khan's a [punk](https://en.wiktionary.org/wiki/punk).
 
-> [Bizarre](https://en.wiktionary.org/wiki/bizarre): [My](https://en.wiktionary.org/wiki/myth)[ths](https://en.wiktionary.org/wiki/%CE%BC%E1%BF%A6%CE%B8%CE%BF%CF%82#Ancient_Greek) don't [rattle](https://en.wiktionary.org/wiki/rattle) in this [hip](https://en.wiktionary.org/wiki/hip#Etymology_3) [ghetto](https://en.wiktionary.org/wiki/ghetto) — I [dig it](https://en.wiktionary.org/wiki/dig#Etymology_2).
+> [Bizarre](https://en.wiktionary.org/wiki/bizarre): [My](https://en.wiktionary.org/wiki/myth)[ths](https://en.wiktionary.org/wiki/%CE%BC%E1%BF%A6%CE%B8%CE%BF%CF%82#Ancient_Greek) don't [rattle](https://en.wiktionary.org/wiki/rattle) in this [hip](https://en.wiktionary.org/wiki/hip#Etymology_3) [ghetto](https://en.wiktionary.org/wiki/ghetto)[^ghetto] — I [dig it](https://en.wiktionary.org/wiki/dig#Etymology_2).
 
 > I [twit](https://en.wiktionary.org/wiki/twitch)[chily](https://en.wiktionary.org/wiki/Reconstruction:Proto-West_Germanic/twikkijan) [hassle](https://en.wiktionary.org/wiki/hassle); "__The [assassin](https://en.wiktionary.org/wiki/assassin) at the [canal](https://en.wiktionary.org/wiki/canal), you [clocked](https://en.wiktionary.org/wiki/clock)?__"
 
@@ -865,6 +865,7 @@ Conjugating & combining allowed words was permitted.
 [^um]: I'd guess this one can be counted as "onomatopoetic", and it's paralinguistic. I'm not actually sure I remember what non-English speakers use as a pause-marker.
 [^sigma]: It's not (as I also suspected) from Phoenician but instead onomatopoetic from ["σίζω"](https://en.wiktionary.org/wiki/%CF%83%CE%AF%CE%B6%CF%89#Ancient_Greek) for "to hiss".
 [^cottage]: Wiktionary says it's from Proto-Germanic ["*kutą"](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/kut%C4%85) and speculates it's possibly borrowed from Uralic, e.g. from Proto-Uralic ["*kota"](https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/kota), similar to Finnish ["kota"](https://en.wiktionary.org/wiki/kota#Finnish). I can't think of any other similar-sounding Germanic words, and if I can't think of anthing in 40 seconds all etymologists of the world probably couldn't either.
+[^ghetto]: A bit tricky with the ["borgo"](https://en.wiktionary.org/wiki/borgo#Italian) source. Alternatively I could take ["favela"](https://en.wiktionary.org/wiki/favela#Etymology_6) through the substrate origin from ["faba"](https://en.wiktionary.org/wiki/faba#Etymology_5).
 
 The writing process was quite involved: I got [a dataset of
 etymologies](https://github.com/droher/etymology-db), let
@@ -940,7 +941,26 @@ The resulting source languages & language families:
 
 </details>
 
-<!--spandrel, musket, maroon, sabre, powwow, kuru, shiver, hurrah, dandruff, tuktuk, cheese, [cat](https://en.wiktionary.org/wiki/cat#Etymology_1) (unclear Wanderwort, possibly Egyptian), jot, boombox, chicken, [wiki](https://en.wiktionary.org/wiki/wiki) (Hawaian, definitely polynesian), [otaku](https://en.wiktionary.org/wiki/otaku), on [skibidi](https://en.wiktionary.org/wiki/skibidi#Etymology_1) (de novo, ¿2018?), Ohio, google, mojo, jumbo, gong, [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [honcho](https://en.wiktionary.org/wiki/honcho) (Chinese→Japanese), emoji (Japanese, real friend!), [zilch](https://en.wiktionary.org/wiki/zilch) (de novo, 1923), [jinx](https://en.wiktionary.org/wiki/jinx), ¿pariah?, [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿fringe?, ¿tub?, ¿mack?, ¿flirt?, bukkake, jump, swagger, fuss, bugged, totem, quiver, ziggurat, heroin, kismet-->
+<!--maroon, sabre, shiver, hurrah, cheese, [cat](https://en.wiktionary.org/wiki/cat#Etymology_1) (unclear Wanderwort, possibly Egyptian), [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿tub?, ¿mack?, ¿flirt?, jump, heroin, safari, capybara, maybe cartel (could be Phoenician 𐤇𐤓𐤈𐤉𐤕, or Proto-Indo-European *ǵʰer-), banana, baka, moe, mukbang, aegyo, feces, yakuza, kiwi, banzai, llama, karaoke, pemmican, raccoon, golem, oasis, sheesh, aloha, voodoo, schmooze, brouhaha, inshallah, schmuck, ¿patch?-->
+
+### Jihad Musket
+
+<details>
+<summary>The Story</summary>
+
+> "On [skibidi](https://en.wiktionary.org/wiki/skibidi#Etymology_1) you're skunky. Your [wiki](https://en.wiktionary.org/wiki/wiki) jots [zilch](https://en.wiktionary.org/wiki/zilch)[^zilch] triumphs—just "totem of dandruff". I kuru when I google your emoji[^emoji], a silhouette[^silhouette] with zero mojo."
+> 
+> "Zombie's an [otaku](https://en.wiktionary.org/wiki/otaku) with Ohio swagger. Bizarre hooligan hassling the [honcho](https://en.wiktionary.org/wiki/honcho)'s chocolate stash. I'll powwow and yeet your avocados, narc."
+> 
+> "It's [jinxed](https://en.wiktionary.org/wiki/jinx), chat! Lot of bugged fuss, you have [pariah](https://en.wiktionary.org/wiki/pariah) kismet. On Manitou you're petrified, where's your bukkake kitty? My boombox gongs, yours yabbers. Gangnam [oof](https://www.youtube.com/watch?v=kvBLz6VkDAk), yahoo."
+> 
+> "Yikes! Mumbo-jumbo tweets, habibi ;-) I tuktuk to my ziggurat while you possum in this crypt. Your haram spandrels[^spandrel] quiver like cocaine quokkas; this mewing sigma has Tomahawk'd your baka igloo."
+
+[^spandrel]: It would make the insult less good, but if we accept the etymology from [espandre](https://en.wiktionary.org/wiki/espandre#Old_French) we could instead use "alcoves", "minarets" or "pagodas". But the double meaning was particularly satisfying here.
+[^emoji]: I was pleasantly to surprised that this word has no relation to the word "emotion". Purely independent, a true friend.
+[^zilch]: De novo, from 1923.
+[^silhouette]: A Basque loanword into English!
+</details>
 
 Sutras
 -------

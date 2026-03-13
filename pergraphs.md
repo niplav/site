@@ -107,6 +107,8 @@ __Definition 4__ ([Lean](#Source_and_Sink)): The __source__ of a peredge is
 the vertex or peredge it comes from, the __sink__ of a peredge is the thing
 it points to.
 
+#### Paths
+
 __Definition 5__ ([Lean](#Paths)): A __source-path__ is a
 sequence of edges so that each edge has as its source the previous edge;
 a __sink-path__ is a sequence of edges so that each edge has as its sink
@@ -146,6 +148,8 @@ in keltic iconography.
 
 ![](./img/pergraphs/keltic_knot_5.png)
 
+#### Containment
+
 __Definition 9__ ([Lean](#Subpergraph)): A __sub-pergraph__ `$S$`
 of a pergraph `$A=(V, P, e)$` is a pergraph where the vertices are
 subsets of `$V$` and the edges are a subset of `$P$`. As is custom, a
@@ -167,7 +171,7 @@ with `$\mathcal{R}$`.
 __Question 1__: Can we identify rhizomes in some easy way? E.g. "iff it
 has/lacks such-and-such of an edge you're looking at a rhizome".
 
-__Theorem 2__: Every rhizome is either a single vertex or a ratking.
+__Theorem 2__ ([Lean](#Rhizome_Characterization)): Every rhizome is either a single vertex or a ratking.
 
 __Intuition__: A pergraph that has at least a vertex is either a single
 vertex or contains a single vertex as a proper sub-pergraph.
@@ -175,8 +179,6 @@ vertex or contains a single vertex as a proper sub-pergraph.
 __Remark 4__: There are non-rhizomatic ratkings.
 
 ![](./img/pergraphs/non_rhizome_ratking.png)
-
-<!--TODO: image of an example-->
 
 ### Decomposing
 
@@ -191,17 +193,18 @@ lattice where the minimal elements are rhizomes and a single vertex.
 
 <!--TODO: turn from remarks into theorems? Prove then I guess-->
 
-<!--TODO: define perbasis!-->
+__Definition 11__: A __perbasis__ of a pergraph `$A$` is the bag
+of rhizomes that are sub-pergraphs of `$A$`.
 
 __Theorem 3__: Every pergraph has a unique perbasis.
 
-__Definition 11__: Many pergraphs share a perbasis. For a given pergraph
+__Definition 12__: Many pergraphs share a perbasis. For a given pergraph
 `$A$`, the __horde__ `$\mathcal{H}_I$` of `$A$` with the perbasis `$I$`
 is the set of all pergraphs with the same perbasis, and we write the
 equivalence relation `$≂$` (that is, `$A_1 ≂ A_2$` iff they have
 the same perbasis).
 
-__Definition 12__: A __streber__ is a pergraph with the
+__Definition 13__: A __streber__ is a pergraph with the
 perbasis `$\emptyset$`. The horde of all strebers is denoted by
 `$\mathcal{S}=\mathcal{H}_{\emptyset}$`.
 
@@ -220,14 +223,14 @@ __Intuition 6__: A dock is basically a "structured multi-edge", that is
 it is connected, and has incoming and outgoing edges. A dock is the thing
 that connects rhizomes and vertices with other rhizomes and vertices.
 
-__Definition 13__: A __dock__ is a set `$D$` of peredges and two mappings
+__Definition 14__: A __dock__ is a set `$D$` of peredges and two mappings
 `$p^←: D \rightarrow (D \cup \bot)$` and `$p^→ D \rightarrow (D \cup
 \bot)$` so that:
 
 1. Every element of `$D$` has either its source or its sink in `$D$`, that is for all `$d$` in `$D$`, `$p^←(d)≠\bot$` or `$p^→(d)≠\bot$`.
 2. There is no subset of `$D$` so that `$p^←$` and `$p^→$` form a rhizome.
 
-__Definition 14__: An __`$n$`-`$m$`-dock__ is a dock with `$n$` incoming and `$m$` outgoing edges.
+__Definition 15__: An __`$n$`-`$m$`-dock__ is a dock with `$n$` incoming and `$m$` outgoing edges.
 
 `$n=|\{d | d \in D \land p^←(d)=\bot\}|$`, `$m=|\{d | d \in D \land p^→(d)=\bot\}|$`.
 
@@ -243,6 +246,59 @@ __Remark 8__: Unfortunately, two distinct pergraphs can be decomposed into
 the sate set of vertices, rhizomes, and docks. One needs information on
 which edges from a dock connect to which eges of a rhizomes to achieve
 a unique decomposition.
+
+### Percliques
+
+__Definition Perclique__: A __perclique__ is a pergraph where for all
+`$a, b \in V \cup P$` with `$a \neq b$`, there exists a peredge `$e \in P$`
+such that `$e: a \rightarrow b$` or `$e: b \rightarrow a$`. (Vacuously
+satisfied when `$|V \cup P| \leq 1$`.)
+
+__Theorem (Percliques)__: There are exactly 22 non-isomorphic percliques:
+
+1. Empty
+	1.`$(\emptyset, \emptyset)$`
+2. Single element
+	1. `$(\{v_0\}, \emptyset)$`
+	2. `$(\emptyset, \{e_0: e_0 \rightarrow e_0\})$`
+3. Two elements
+	1. Two-rhizomes:
+		1. `$e_0: e_0 \rightarrow e_0,\ e_1: e_0 \rightarrow e_1$`
+		2. `$e_0: e_0 \rightarrow e_0,\ e_1: e_1 \rightarrow e_0$`
+		3. `$e_0: e_0 \rightarrow e_1,\ e_1: e_0 \rightarrow e_0$`
+		4. `$e_0: e_0 \rightarrow e_1,\ e_1: e_0 \rightarrow e_1$`
+		5. `$e_0: e_0 \rightarrow e_1,\ e_1: e_1 \rightarrow e_0$`
+		6. `$e_0: e_1 \rightarrow e_0,\ e_1: e_0 \rightarrow e_0$`
+		7. `$e_0: e_1 \rightarrow e_0,\ e_1: e_0 \rightarrow e_1$`
+	2. Edge and vertex:
+		1. `$v_0;\ e_0: v_0 \rightarrow e_0$`
+		2. `$v_0;\ e_0: e_0 \rightarrow v_0$`
+4. Three-rhizomes:
+	1. `$e_0: e_0 \rightarrow e_1,\ e_1: e_0 \rightarrow e_2,\ e_2: e_1 \rightarrow e_2$`
+	2. `$e_0: e_0 \rightarrow e_1,\ e_1: e_0 \rightarrow e_2,\ e_2: e_2 \rightarrow e_1$`
+	3. `$e_0: e_0 \rightarrow e_1,\ e_1: e_1 \rightarrow e_2,\ e_2: e_0 \rightarrow e_2$`
+	4. `$e_0: e_0 \rightarrow e_1,\ e_1: e_1 \rightarrow e_2,\ e_2: e_2 \rightarrow e_0$`
+	5. `$e_0: e_0 \rightarrow e_1,\ e_1: e_2 \rightarrow e_0,\ e_2: e_1 \rightarrow e_2$`
+	6. `$e_0: e_0 \rightarrow e_1,\ e_1: e_2 \rightarrow e_1,\ e_2: e_0 \rightarrow e_2$`
+	7. `$e_0: e_1 \rightarrow e_0,\ e_1: e_0 \rightarrow e_2,\ e_2: e_1 \rightarrow e_2$`
+	8. `$e_0: e_1 \rightarrow e_0,\ e_1: e_2 \rightarrow e_1,\ e_2: e_0 \rightarrow e_2$`
+	9. `$e_0: e_1 \rightarrow e_2,\ e_1: e_0 \rightarrow e_2,\ e_2: e_0 \rightarrow e_1$`
+	10. `$e_0: e_1 \rightarrow e_2,\ e_1: e_2 \rightarrow e_0,\ e_2: e_0 \rightarrow e_1$`
+
+__Definition Strict Perclique__: A __strict perclique__ is a perclique with
+the additional constraint that the covering edge is always a distinct entity:
+for all `$a \neq b$`, there exists `$e \in P$` with `$e \neq a$`,
+`$e \neq b$`, such that `$e: a \rightarrow b$` or `$e: b \rightarrow a$`.
+
+__Theorem (Strict Percliques)__: There are exactly 5 strict percliques:
+
+1. The empty pergraph `$(\emptyset, \emptyset)$`
+2. The single vertex `$(\{v_1\}, \emptyset)$`
+3. The self-loop edge `$(\emptyset, \{e_1: e_0 \rightarrow e_0\})$` (all vacuous)
+4. The keltic 3-knot `$e_0: e_1 \rightarrow e_2,\ e_1: e_2 \rightarrow e_0,\ e_2: e_0 \rightarrow e_1$`
+5. A pergraph isomorphic to the keltic 3-knot `$e_0: e_1 \rightarrow e_2,\ e_1: e_0 \rightarrow e_2,\ e_2: e_0 \rightarrow e_1$`
+
+<!--TODO: draw all-->
 
 -----------------------
 
@@ -273,12 +329,6 @@ putting on it:
 4. Just adding another lone-standing vertex or loop.
 
 This doesn't capture the rhizomes one can build.
-
-Perclique: For every pair of entities in a pergraph, there's an edge connecting them.
-
-Theorem: There are six percliques. The empty graph, the single node,
-the single edge going from & coming to itself, a three variants on the
-3-keltic-knot.
 
 In-/out-rank of a vertex/edge in a streber: 0 for nodes. In-rank 0 for
 an edge with itself as a source, out-rank similarly 0 for an edge with
@@ -476,17 +526,8 @@ in this text.
 ### Quiver to Pergraph
 
 	def Quiver.toPergraph {V : Type} [Quiver V] :
-	  Pergraph (V ⊕ (Σ (a b : V), a ⟶ b)) (Σ (a b : V), a ⟶ b) where
-	  e := fun arr@⟨a, _b, _h⟩ => (PerNode.vertex (Sum.inl a), PerNode.vertex (Sum.inr arr))
-
-That function is injective:
-
-	theorem quiver_to_pergraph_injective {V : Type} [Quiver V] :
-	  Function.Injective (@Quiver.toPergraph V _).e := by
-	  intros e₁ e₂ h_eq
-	  simp [Quiver.toPergraph] at h_eq
-	  -- simp already gives us e₁ = e₂, so we're done
-	  exact h_eq.2
+	    Pergraph V (Σ (a b : V), a ⟶ b) where
+	  e := fun ⟨a, b, _⟩ => (PerNode.vertex a, PerNode.vertex b)
 
 ### UniPergraph
 
@@ -619,8 +660,16 @@ That function is injective:
 	def isNonEmpty (_ : Pergraph V E) : Prop :=
 	  Nonempty V ∨ Nonempty E
 
+	def isNonemptySub (S : SubPergraph G) : Prop :=
+	  (∃ v, S.vertices v) ∨ (∃ e, S.edges e)
+
 	def isRhizome (G : Pergraph V E) : Prop :=
-	  isNonEmpty G ∧ ∀ (S : SubPergraph G), isProperSubPergraph S → False
+	  isNonEmpty G ∧ ∀ (S : SubPergraph G), isProperSubPergraph S → isNonemptySub (G:=G) S → False
+
+### Rhizome Characterization
+
+	axiom rhizome_characterization {V E : Type} (G : Pergraph V E) :
+	  isRhizome G → (isRatking G ∨ (Nonempty V ∧ Subsingleton V ∧ IsEmpty E))
 
 Appendix B: Incorrect Theorems and Confused Definitions
 ---------------------------------------------------------

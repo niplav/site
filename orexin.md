@@ -173,7 +173,7 @@ Experimental Log
 	* Feel comparatively awake, especially now around two hours after the dose (the lumenator may be helping)
 	* Slightly slower than normal but not as slow as on Monday
 
-### Sample 3
+#### Sample 3
 
 * Monday night: Took melatonin and magnesium
 * Monday:
@@ -186,7 +186,7 @@ Experimental Log
 	* Took Orexin-A relatively late, around 08:30. While taking, at first I hade a sort of sharpness in my right nostril, I guess this was just because the liquid was irritating it. Went away after spraying more
 	* Feeling refreshed immediately after taking it, might just be the [mammalian dive reflex](https://en.wikipedia.org/wiki/Mammalian_dive_reflex), possibly this was the Orexin<sub>65%</sub>
 
-### Sample 4
+#### Sample 4
 
 * Monday
 	* Took the sample relatively late, at 09:36
@@ -194,7 +194,7 @@ Experimental Log
 * Wednesday
 	* Felt hungry *immediately* after taking it, started eating chocolate cookies. Orexin??
 
-### Sample 5
+#### Sample 5
 
 * Started first dose on Tuesday
 * Tuesday morning: Took melatonin and magnesium before sleep
@@ -204,7 +204,7 @@ Experimental Log
 	* Man 2.5ml is *way* too much. 0.5ml would've been totally fine
 	* 09:30: Eating
 
-### Sample 6
+#### Sample 6
 
 * Started first dose on Monday, didn't take any melatonin &c beforehand
 * Monday morning: Took early, felt elated, whistling as I walking to work
@@ -213,7 +213,7 @@ Experimental Log
 	* Felt dirty during the day, unclean because I hadn't done anything I'd set out to do
 * Tuesday: Woke up at 09:30, but my fitbit slipped off while i slept
 
-### Sample 7
+#### Sample 7
 
 * Thursday morning: Took melatonin and magnesium before sleep
 * Thursday: Feeling refreshed by when snorting the water.
@@ -223,6 +223,17 @@ Experimental Log
 * Sunday: Waking up without motivation to do anything. *Hard time* waking up, had to look directly into my lamp to get any mojo.
 	* After taking Orexin: Felt refreshed after taking it, more alert.
 	* Went to the gym afterwards. Not that hungry, didn't feel like exercising.
+
+### Batch 2
+
+#### Sample 1
+
+* Monday morning:
+	* Sharp feeling in right nostril
+	* Alertness, tiny bit of "locked in" feeling
+* Tuesday evening: Took magnesium and melatonin before sleep
+* Wednesday morning: Feel more relaxed after taking Orexin-A
+	* Felt quite hungry, a bit warm & quite itchy during meditation
 
 [^1]: Even demonstrating one-off effectiveness would be cool: It's often the case that people have short-term sleep deprivation, and would like to ameliorate the effects.
 | Variable | Effect Size | p-value | p-corrected | Orexin | Placebo | Difference |
