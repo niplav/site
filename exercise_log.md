@@ -4530,3 +4530,15 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 ### 2023-09-12T19:41-2023-09-12T20:36
 
 * 50 minutes jogging
+
+### 2026-03-14T14:08:25-2026-03-14T14:20:00
+
+* 20 burpees
+* 7 pull-ups
+* 3 chin-ups
+
+### 2026-03-15T21:40:00-2026-03-15T
+
+* 21 burpees
+* 5 pull-ups
+* 3 chin-ups

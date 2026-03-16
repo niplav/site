@@ -55,9 +55,11 @@ Currently, I am actively reading the following texts:
 * [Grand Futures (Anders Sandberg, 2023)](https://www.goodreads.com/book/show/42275384-grand-futures)
 * [Coming to Wholeness (Connirae Andreas, 2018)](https://www.goodreads.com/book/show/42348332-coming-to-wholeness)
 * [The Native Tribes of Central Australia (Baldwin Spencer/Francis James Gillen, 1899)](https://www.goodreads.com/book/show/68126748-the-native-tribes-of-central-australiar)
+* Sterntagebücher (Stanisław Lem, 1961)
+* Red Heart (Max Harms, 2025)
+* Permutation City (Greg Egan, 1994)
 * Intro to Brain-Like-AGI Safety (Steven Byrnes, 2025)
 * The Loss of Control Playbook: Degrees, Dynamics, and Preparedness (Charlotte Stix/Annika Hallensleben/Alejandro Ortega/Matteo Pistillo, 2025)
-* Sämtliche Gedichte und Balladen (Friedrich Schiller, 1805)
 * The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 9/1000.
 	* [Book (2019)](https://en.wikipedia.org/wiki/Book)
 	* [Hammurabi (2023)](https://en.wikipedia.org/wiki/Hammurabi)
