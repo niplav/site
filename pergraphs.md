@@ -168,10 +168,12 @@ with `$\mathcal{R}$`.
 
 ![Six of the rhizomes with three edges, all in the image are non-isomorphic.](./img/pergraphs/six_rhizomes.png "Six of the rhizomes with three edges, all in the image are non-isomorphic.")
 
-__Question 1__: Can we identify rhizomes in some easy way? E.g. "iff it
-has/lacks such-and-such of an edge you're looking at a rhizome".
+__Question 1__: Can we distinguish rhizomes from non-rhizomatic ratkings
+in some easy way? E.g. "iff it has/lacks such-and-such of an edge you're
+looking at a rhizome".
 
-__Theorem 2__ ([Lean](#Rhizome_Characterization)): Every rhizome is either a single vertex or a ratking.
+__Theorem 2__ ([Proof](#Rhizome_Characterization)): Every rhizome is
+either a single vertex or a ratking.
 
 __Intuition__: A pergraph that has at least a vertex is either a single
 vertex or contains a single vertex as a proper sub-pergraph.
@@ -243,21 +245,34 @@ __Theorem 5__: Any pergraph can be decomposed into a set of vertices, a set of r
 ![](./img/pergraphs/decomposition_2.png)
 
 __Remark 8__: Unfortunately, two distinct pergraphs can be decomposed into
-the sate set of vertices, rhizomes, and docks. One needs information on
+the same set of vertices, rhizomes, and docks. One needs information on
 which edges from a dock connect to which eges of a rhizomes to achieve
 a unique decomposition.
 
 ### Percliques
 
-__Definition Perclique__: A __perclique__ is a pergraph where for all
-`$a, b \in V \cup P$` with `$a \neq b$`, there exists a peredge `$e \in P$`
-such that `$e: a \rightarrow b$` or `$e: b \rightarrow a$`. (Vacuously
-satisfied when `$|V \cup P| \leq 1$`.)
+__Definition Perclique__ ([Lean](#Perclique)): A __perclique__ is a
+pergraph where for all `$a, b \in V \cup P$` with `$a \neq b$` there
+exists a peredge `$e \in P$` such that `$e \neq a$` and `$e \neq b$`,
+and `$e: a \rightarrow b$` or `$e: b \rightarrow a$`.
 
-__Theorem (Percliques)__: There are exactly 22 non-isomorphic percliques:
+__Theorem (Percliques)__: There are exactly 5 non-isomorphic percliques:
 
-1. Empty
-	1.`$(\emptyset, \emptyset)$`
+1. The empty pergraph `$(\emptyset, \emptyset)$`
+2. The single vertex `$(\{v_1\}, \emptyset)$`
+3. The self-loop edge `$(\emptyset, \{e_1: e_0 \rightarrow e_0\})$`
+4. The keltic 3-knot `$e_0: e_1 \rightarrow e_2,\ e_1: e_2 \rightarrow e_0,\ e_2: e_0 \rightarrow e_1$`
+5. A pergraph similar to the keltic 3-knot `$e_0: e_1 \rightarrow e_2,\ e_1: e_0 \rightarrow e_2,\ e_2: e_0 \rightarrow e_1$`
+
+__Definition Lax Perclique__ ([Lean](#Lax_Perclique)): A __lax perclique__
+is a perclique without the constraint that the connecting edge needs
+to be different from the two entities it connects, that is, for all
+`$a, b \in V \cup P$` there exists a peredge `$e \in P$` such that `$e:
+a \rightarrow b$` or `$e: b \rightarrow a$`.
+
+__Theorem (Lax Percliques)__: There are exactly 22 non-isomorphic lax percliques:
+
+1. Empty: `$(\emptyset, \emptyset)$`
 2. Single element
 	1. `$(\{v_0\}, \emptyset)$`
 	2. `$(\emptyset, \{e_0: e_0 \rightarrow e_0\})$`
@@ -284,19 +299,6 @@ __Theorem (Percliques)__: There are exactly 22 non-isomorphic percliques:
 	8. `$e_0: e_1 \rightarrow e_0,\ e_1: e_2 \rightarrow e_1,\ e_2: e_0 \rightarrow e_2$`
 	9. `$e_0: e_1 \rightarrow e_2,\ e_1: e_0 \rightarrow e_2,\ e_2: e_0 \rightarrow e_1$`
 	10. `$e_0: e_1 \rightarrow e_2,\ e_1: e_2 \rightarrow e_0,\ e_2: e_0 \rightarrow e_1$`
-
-__Definition Strict Perclique__: A __strict perclique__ is a perclique with
-the additional constraint that the covering edge is always a distinct entity:
-for all `$a \neq b$`, there exists `$e \in P$` with `$e \neq a$`,
-`$e \neq b$`, such that `$e: a \rightarrow b$` or `$e: b \rightarrow a$`.
-
-__Theorem (Strict Percliques)__: There are exactly 5 strict percliques:
-
-1. The empty pergraph `$(\emptyset, \emptyset)$`
-2. The single vertex `$(\{v_1\}, \emptyset)$`
-3. The self-loop edge `$(\emptyset, \{e_1: e_0 \rightarrow e_0\})$` (all vacuous)
-4. The keltic 3-knot `$e_0: e_1 \rightarrow e_2,\ e_1: e_2 \rightarrow e_0,\ e_2: e_0 \rightarrow e_1$`
-5. A pergraph isomorphic to the keltic 3-knot `$e_0: e_1 \rightarrow e_2,\ e_1: e_0 \rightarrow e_2,\ e_2: e_0 \rightarrow e_1$`
 
 <!--TODO: draw all-->
 
@@ -668,8 +670,24 @@ in this text.
 
 ### Rhizome Characterization
 
-	axiom rhizome_characterization {V E : Type} (G : Pergraph V E) :
-	  isRhizome G → (isRatking G ∨ (Nonempty V ∧ Subsingleton V ∧ IsEmpty E))
+	theorem rhizome_characterization {V E : Type} (G : Pergraph V E) :
+	  isRhizome G → (isRatking G ∨ (Nonempty V ∧ Subsingleton V ∧ IsEmpty E)) := by
+	  sorry
+
+### Lax Perclique
+
+	def isLaxPerclique (G : Pergraph V E) : Prop :=
+	  ∀ (a b : PerNode V E), a ≠ b →
+	    ∃ e : E, (G.source e = a ∧ G.sink e = b) ∨
+	             (G.source e = b ∧ G.sink e = a)
+
+### Perclique
+
+	def isPerclique (G : Pergraph V E) : Prop :=
+	  ∀ (a b : PerNode V E), a ≠ b →
+	    ∃ e : E, PerNode.edge e ≠ a ∧ PerNode.edge e ≠ b ∧
+	      ((G.source e = a ∧ G.sink e = b) ∨
+	       (G.source e = b ∧ G.sink e = a))
 
 Appendix B: Incorrect Theorems and Confused Definitions
 ---------------------------------------------------------

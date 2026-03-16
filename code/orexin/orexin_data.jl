@@ -90,6 +90,43 @@ function load_all_tracking()
 	filter(r -> r.condition in ("orexin", "placebo"), tracking)
 end
 
+# Includes baseline-labeled days for participants that have them (e.g. Nomagicpill).
+function load_all_tracking_with_baseline()
+	vcat(load_niplav_tracking(), load_sam_tracking(), load_nomagicpill_tracking())
+end
+
+# Pairs each orexin-placebo session with its baseline day.
+# For participants with explicit "baseline" entries in tracking_wb, uses the
+# nearest labeled baseline within MAX_PAIR_GAP_DAYS of the later dose day.
+# For everyone else, falls back to the protocol formula: max(O, P) + 2 days.
+# Returns Vector of (participant, placebo_date, baseline_date) NamedTuples.
+function match_placebo_baseline_sessions(session_pairs, tracking_wb)
+	pairs = NamedTuple[]
+	for sp in session_pairs
+		p = sp.participant
+		explicit = sort([r.date for r in tracking_wb
+		                 if r.participant == p && r.condition == "baseline"])
+		later = max(sp.orexin_date, sp.placebo_date)
+		if !isempty(explicit)
+			best_bd  = nothing
+			best_gap = typemax(Int)
+			for bd in explicit
+				gap = abs(Dates.value(later - bd))
+				if gap < best_gap && gap <= MAX_PAIR_GAP_DAYS
+					best_gap = gap
+					best_bd  = bd
+				end
+			end
+			isnothing(best_bd) && continue
+			push!(pairs, (participant=p, placebo_date=sp.placebo_date, baseline_date=best_bd))
+		else
+			push!(pairs, (participant=p, placebo_date=sp.placebo_date,
+			              baseline_date=later + Day(2)))
+		end
+	end
+	pairs
+end
+
 function match_to_condition(entries, tracking, participant; window_h=24)
 	matched = []
 	p_tracking = filter(r -> r.participant == participant, tracking)

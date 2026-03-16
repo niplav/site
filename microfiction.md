@@ -941,7 +941,7 @@ The resulting source languages & language families:
 
 </details>
 
-<!--maroon, sabre, shiver, hurrah, cheese, [cat](https://en.wiktionary.org/wiki/cat#Etymology_1) (unclear Wanderwort, possibly Egyptian), [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿tub?, ¿mack?, ¿flirt?, jump, heroin, safari, capybara, maybe cartel (could be Phoenician 𐤇𐤓𐤈𐤉𐤕, or Proto-Indo-European *ǵʰer-), banana, baka, moe, mukbang, aegyo, feces, yakuza, kiwi, banzai, llama, karaoke, pemmican, raccoon, golem, oasis, sheesh, aloha, voodoo, schmooze, brouhaha, inshallah, schmuck, ¿patch?-->
+<!--maroon, sabre, shiver, hurrah, cheese, [cat](https://en.wiktionary.org/wiki/cat#Etymology_1) (unclear Wanderwort, possibly Egyptian), [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿tub?, ¿mack?, ¿flirt?, jump, heroin, safari, capybara, maybe cartel (could be Phoenician 𐤇𐤓𐤈𐤉𐤕, or Proto-Indo-European *ǵʰer-), banana, baka, moe, mukbang, aegyo, feces, yakuza, kiwi, banzai, llama, karaoke, pemmican, raccoon, golem, oasis, sheesh, aloha, voodoo, schmooze, brouhaha, inshallah, schmuck, ¿patch?, koan, skurr-->
 
 ### Jihad Musket
 

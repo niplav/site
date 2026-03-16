@@ -3358,8 +3358,7 @@ ruthlessly & tirelessly pursuing their goals and finding [edge
 instantiations](https://arbital.com/p/edge_instantiation/) of their goals.
 But they don't seem to be doing that. Current-day LLMs are just not *that*
 optimizer-y, they appear to have capable behavior without apparent [agent
-structure](https://www.lesswrong.com/posts/oxsBpx9v3bgxraiPj/towards-a-formalization-of-the-agent-structure-problem)<!--TODO:
-switch to Garrabrant?-->.
+structure](https://www.lesswrong.com/posts/osxNg6yBCJ4ur9hpi/does-agent-like-behavior-imply-agent-like-architecture).
 
 THe most fitting rejoinder to this observation is probably "Just
 you wait"—current LLMs are *capable*, sure, but they're not wildly
@@ -3378,16 +3377,36 @@ without being agentic: **LLMs are superlinear-in-network-depth
 collections of _composeable_ and
 [error-correcting](https://www.lesswrong.com/posts/nWRj6Ey8e5siAEXbK/simple-versus-short-higher-order-degeneracy-and-error-1)
 [circuits](https://en.wikipedia.org/wiki/Circuit_\(computer_theory\)),
-computed in superposition<!--TODO: link-->**.
+[computed in superposition](https://www.lesswrong.com/w/comp-in-sup)**.
 
 To elaborate:
 
 1. "[lookup-table](https://en.wikipedia.org/wiki/Lookup_table)-like": A common issue in [proving theorems about agent structure](https://www.lesswrong.com/posts/oxsBpx9v3bgxraiPj/towards-a-formalization-of-the-agent-structure-problem) is to avoid including giant lookup tables where each sequence of previous percepts and actions is matched to an optimal next action. Such a giant lookup table is infeasible in the real world, and so most attempts to formalize the agent structure problem apply a condition that the agent can only be polynomially related to the environment it interacts with or whatever.
 2. "computed in superposition": Current LLMs [represent features in superposition](https://transformer-circuits.pub/2022/toy_model/index.html), that is, they exploit the fact that high-dimensional spaces can have exponentially many almost-orthogonal vectors relative to the number of dimensions (a consequence of the [Johnson-Lindenstrauss lemma](https://en.wikipedia.org/wiki/Johnson-Lindenstrauss_lemma)). The idea of computation in superposition<!--TODO: link LW page--> generalizes this observation to cram more computation into a neural network, e.g. Hänni et al. 2024<!--TODO: link--> construct (shallow) neural networks of witdh `$\tilde{O}(m^{\frac{2}{3}}s^2)$` that are able emulate an `$s$`-sparse[^sparse] boolean circuit of width `$m$` (__Theorem 8__).
 
-My guess is that most or almost all of these circuits
-are _individually aligned_ through bog-standard
-[RLHF](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback).
+Inferences:
+
+__Alignment__: My guess is that most or almost all of
+these circuits are _individually aligned_ through bog-standard
+[RLHF](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback)/[Constitutional
+AI](https://en.wikipedia.org/wiki/Constitutional_AI).
+This works because the standard problems of [edge
+instantiation](https://arbital.com/p/edge_instantiation/)
+and [Goodhart's law][Categorizing Variants
+of Goodhart's Law (David Manheim/Scott Garrabrant,
+2019)](./doc/cs/ai/alignment/agent_foundations/categorizing_variants_of_goodharts_law_manheim_garrabrant_2019.pdf)
+don't show up as strongly, because the optimization mainly occurs
+by either:
+
+1. Selecting one circuit from the giant lookup table that is all the circuits in superposition in the LLM
+2. Running many circuits in superposition and selecting the best result or aggregating the best results.
+
+In this model every circuit is individually "aligned" (insofar such a
+shallow program can be misaligned at all). Chain-of-thought brings in a
+little bit more optimization power, but not *much* more: Every circuit
+can only provide a token's worth of optimization power (if 2 bits per
+character and four to five characters per token, then you get 8-10 bits
+of optimization per forward pass at most).
 
 [^sparse]: The details of `$s$`-sparsity are beyond the purview of this short note.
 
