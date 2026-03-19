@@ -457,9 +457,9 @@ function make_bar_subplot(group_results, title_str;
 	w = 0.35
 
 	sp = bar(xs .- w/2, orx_plot, bar_width=w, yerr=orx_se,
-		label="Orexin", color=colorant"#264d99", linecolor=:black, lw=0.5)
+		label="Orexin", color=colorant"#1a3a6b", linecolor=:black, lw=0.5)
 	bar!(sp, xs .+ w/2, plc_plot, bar_width=w, yerr=plc_se,
-		label="Placebo", color=colorant"#ffb399", linecolor=:black, lw=0.5)
+		label="Placebo", color=colorant"#8ab4e8", linecolor=:black, lw=0.5)
 
 	global_ymax = 0.0
 	p_annot = []
@@ -580,9 +580,9 @@ function make_bar_subplot_custom(group_results, title_str, name_map;
 	w = 0.35
 
 	sp = bar(xs .- w/2, orx_plot, bar_width=w, yerr=orx_se,
-		label="Orexin", color=colorant"#264d99", linecolor=:black, lw=0.5)
+		label="Orexin", color=colorant"#1a3a6b", linecolor=:black, lw=0.5)
 	bar!(sp, xs .+ w/2, plc_plot, bar_width=w, yerr=plc_se,
-		label="Placebo", color=colorant"#ffb399", linecolor=:black, lw=0.5)
+		label="Placebo", color=colorant"#8ab4e8", linecolor=:black, lw=0.5)
 
 	global_ymax = 0.0
 	p_annot = []

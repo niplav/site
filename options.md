@@ -13,6 +13,8 @@ of the time. The numbers depend on the size of the game; plotted
 How Often Does Taking Away Options Help?
 =========================================
 
+<!--TODO: same but for iterated games?-->
+
 There's
 [been](https://www.lesswrong.com/posts/6dSitnwYPg8i8NHn3/burch-s-law)
 [some](https://www.overcomingbias.com/p/rational_agent_html)

@@ -941,7 +941,7 @@ The resulting source languages & language families:
 
 </details>
 
-<!--maroon, sabre, shiver, hurrah, cheese, [cat](https://en.wiktionary.org/wiki/cat#Etymology_1) (unclear Wanderwort, possibly Egyptian), [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿tub?, ¿mack?, ¿flirt?, jump, heroin, safari, capybara, maybe cartel (could be Phoenician 𐤇𐤓𐤈𐤉𐤕, or Proto-Indo-European *ǵʰer-), banana, baka, moe, mukbang, aegyo, feces, yakuza, kiwi, banzai, llama, karaoke, pemmican, raccoon, golem, oasis, sheesh, aloha, voodoo, schmooze, brouhaha, inshallah, schmuck, ¿patch?, koan, skurr-->
+<!--sabre, shiver, cheese, [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿tub?, ¿mack?, ¿flirt?, jump, heroin, capybara, maybe cartel (could be Phoenician 𐤇𐤓𐤈𐤉𐤕, or Proto-Indo-European *ǵʰer-), banana, moe, mukbang, aegyo, kiwi, banzai, llama, pemmican, golem, brouhaha, ¿patch?, skurr, shucks, gung ho-->
 
 ### Jihad Musket
 
@@ -952,9 +952,10 @@ The resulting source languages & language families:
 > 
 > "Zombie's an [otaku](https://en.wiktionary.org/wiki/otaku) with Ohio swagger. Bizarre hooligan hassling the [honcho](https://en.wiktionary.org/wiki/honcho)'s chocolate stash. I'll powwow and yeet your avocados, narc."
 > 
-> "It's [jinxed](https://en.wiktionary.org/wiki/jinx), chat! Lot of bugged fuss, you have [pariah](https://en.wiktionary.org/wiki/pariah) kismet. On Manitou you're petrified, where's your bukkake kitty? My boombox gongs, yours yabbers. Gangnam [oof](https://www.youtube.com/watch?v=kvBLz6VkDAk), yahoo."
+> "It's [jinxed](https://en.wiktionary.org/wiki/jinx), chat! Lot of bugged fuss, you have [pariah](https://en.wiktionary.org/wiki/pariah) kismet. On Manitou you're petrified, where's your bukkake [kitty]](https://en.wiktionary.org/wiki/cat#Etymology_1)? My boombox gongs, yours yabbers. Gangnam [oof](https://www.youtube.com/watch?v=kvBLz6VkDAk), yahoo."
 > 
 > "Yikes! Mumbo-jumbo tweets, habibi ;-) I tuktuk to my ziggurat while you possum in this crypt. Your haram spandrels[^spandrel] quiver like cocaine quokkas; this mewing sigma has Tomahawk'd your baka igloo."
+> "Inshallah, what's this armageddon? You karaoke maroon voodoo (feces, that is); I aloha and schmooze your moe squaws on my raccoon safari, hurrah! Your koans only flirt with schmucks and yakuza. No oasis for you, sheesh.
 
 [^spandrel]: It would make the insult less good, but if we accept the etymology from [espandre](https://en.wiktionary.org/wiki/espandre#Old_French) we could instead use "alcoves", "minarets" or "pagodas". But the double meaning was particularly satisfying here.
 [^emoji]: I was pleasantly to surprised that this word has no relation to the word "emotion". Purely independent, a true friend.

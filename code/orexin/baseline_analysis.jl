@@ -264,7 +264,7 @@ function make_subplot(group_results, title_str; ylabel_str="", ymin=nothing)
 	w  = 0.35
 
 	sp = bar(xs .- w/2, plc_plot,  bar_width=w, yerr=plc_se,
-		label="Placebo",  color=colorant"#ffb399", linecolor=:black, lw=0.5)
+		label="Placebo",  color=colorant"#8ab4e8", linecolor=:black, lw=0.5)
 	bar!(sp, xs .+ w/2, base_plot, bar_width=w, yerr=base_se,
 		label="Baseline", color=colorant"#aaccaa", linecolor=:black, lw=0.5)
 

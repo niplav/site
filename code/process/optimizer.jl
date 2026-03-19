@@ -36,7 +36,7 @@ const ALL_VARIABLES = vcat(MOOD_VARIABLES, MENTAL_VARIABLES)
 const MIN_SUPPLEMENT_COUNT = 10
 
 const MORNING_SUBSTANCES = ["caffeine", "creatine", "l-theanine", "nicotine", "omega3", "sugar", "vitaminb12", "vitamind3", "l-glycine", "magnesium"]
-const EVENING_SUBSTANCES = ["creatine", "magnesium", "melatonin", "l-glycine"]
+const EVENING_SUBSTANCES = ["creatine", "magnesium", "melatonin", "l-glycine", "zinc"]
 
 const MORNING_CUTOFF_HOUR = 4
 const EVENING_CUTOFF_HOUR = 16

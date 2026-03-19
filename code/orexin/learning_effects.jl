@@ -95,8 +95,8 @@ function load_sessions(tracking)
 end
 
 function make_subplot(sub, metric, participant, show_legend)
-	orx_color = colorant"#264d99"
-	plc_color = colorant"#e07040"
+	orx_color = colorant"#1a3a6b"
+	plc_color = colorant"#8ab4e8"
 	slot_shapes = [:circle, :diamond]
 
 	sp = plot(;
