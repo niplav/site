@@ -251,6 +251,8 @@ a unique decomposition.
 
 ### Percliques
 
+<!--TODO: pergraph isomorphism here-->
+
 __Definition Perclique__ ([Lean](#Perclique)): A __perclique__ is a
 pergraph where for all `$a, b \in V \cup P$` with `$a \neq b$` there
 exists a peredge `$e \in P$` such that `$e \neq a$` and `$e \neq b$`,
@@ -259,10 +261,12 @@ and `$e: a \rightarrow b$` or `$e: b \rightarrow a$`.
 __Theorem (Percliques)__: There are exactly 5 non-isomorphic percliques:
 
 1. The empty pergraph `$(\emptyset, \emptyset)$`
-2. The single vertex `$(\{v_1\}, \emptyset)$`
-3. The self-loop edge `$(\emptyset, \{e_1: e_0 \rightarrow e_0\})$`
+2. The single vertex `$(\{v_0\}, \emptyset)$`
+3. The self-loop edge `$(\emptyset, \{e_0: e_0 \rightarrow e_0\})$`
 4. The keltic 3-knot `$e_0: e_1 \rightarrow e_2,\ e_1: e_2 \rightarrow e_0,\ e_2: e_0 \rightarrow e_1$`
 5. A pergraph similar to the keltic 3-knot `$e_0: e_1 \rightarrow e_2,\ e_1: e_0 \rightarrow e_2,\ e_2: e_0 \rightarrow e_1$`
+
+![](./img/pergraphs/percliques.png)
 
 __Definition Lax Perclique__ ([Lean](#Lax_Perclique)): A __lax perclique__
 is a perclique without the constraint that the connecting edge needs
@@ -674,13 +678,6 @@ in this text.
 	  isRhizome G → (isRatking G ∨ (Nonempty V ∧ Subsingleton V ∧ IsEmpty E)) := by
 	  sorry
 
-### Lax Perclique
-
-	def isLaxPerclique (G : Pergraph V E) : Prop :=
-	  ∀ (a b : PerNode V E), a ≠ b →
-	    ∃ e : E, (G.source e = a ∧ G.sink e = b) ∨
-	             (G.source e = b ∧ G.sink e = a)
-
 ### Perclique
 
 	def isPerclique (G : Pergraph V E) : Prop :=
@@ -688,6 +685,13 @@ in this text.
 	    ∃ e : E, PerNode.edge e ≠ a ∧ PerNode.edge e ≠ b ∧
 	      ((G.source e = a ∧ G.sink e = b) ∨
 	       (G.source e = b ∧ G.sink e = a))
+
+### Lax Perclique
+
+	def isLaxPerclique (G : Pergraph V E) : Prop :=
+	  ∀ (a b : PerNode V E), a ≠ b →
+	    ∃ e : E, (G.source e = a ∧ G.sink e = b) ∨
+	             (G.source e = b ∧ G.sink e = a)
 
 Appendix B: Incorrect Theorems and Confused Definitions
 ---------------------------------------------------------

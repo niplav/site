@@ -512,10 +512,10 @@ matter](https://en.wikipedia.org/wiki/Moral_patienthood)*.
 
 Starting mid 2024, much of the content on this site has strongly
 benefitted from many hundreds of conversations with Claude
-3/3.5/3.6/3.7/4/4.5 Sonnet and Claude 3/4/4.1/4.5 Opus. They are usually
-credited where they helped.
+3/3.5/3.6/3.7/4/4.5/4.6 Sonnet and Claude 3/4/4.1/4.5/4.6 Opus. They
+are usually credited where they helped.
 
-Gemini 2.5/3, GPT-5/5.1/5.2 and Kimi K2 & K2 Thinking also helped,
+Gemini 2.5/3, GPT-5/5.1/5.2/5.4 and Kimi K2 & K2.5 Thinking also helped,
 though not to the same degree.
 
 I have some friends who inspired things on this website in conversation,

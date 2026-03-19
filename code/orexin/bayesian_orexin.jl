@@ -359,16 +359,16 @@ function plot_posteriors(results, out_dir; filename="posteriors.png", left=-2, r
 		)
 		plot!(sp, kd_x, kd_y,
 			label="Posterior",
-			color=colorant"#264d99",
+			color=colorant"#1a3a6b",
 			lw=2,
-			fill=0, fillalpha=0.25, fillcolor=colorant"#264d99",
+			fill=0, fillalpha=0.25, fillcolor=colorant"#1a3a6b",
 		)
 		# 95% CI shading
 		ci_mask = kd_x .>= r["ci_025"] .&& kd_x .<= r["ci_975"]
 		ci_xr = kd_x[ci_mask]
 		ci_yr = kd_y[ci_mask]
 		plot!(sp, ci_xr, ci_yr,
-			label="", fill=0, fillalpha=0.3, fillcolor=colorant"#264d99",
+			label="", fill=0, fillalpha=0.3, fillcolor=colorant"#1a3a6b",
 			linewidth=0,
 		)
 		vline!(sp, [0], color=:black, linestyle=:dot, lw=1, label="")

@@ -239,4 +239,11 @@ No subjective account.
 * Wednesday morning: Feel more relaxed after taking Orexin-A
 	* Felt quite hungry, a bit warm & quite itchy during meditation
 
+#### Sample 2
+
+* Wednesday noon:
+	* Sharp feeling in left nostril, which is a bit blocked
+	* More desire to move after snorting the water
+	* Slight pressure at the left upper side of my head
+
 [^1]: Even demonstrating one-off effectiveness would be cool: It's often the case that people have short-term sleep deprivation, and would like to ameliorate the effects.
