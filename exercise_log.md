@@ -4537,8 +4537,20 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 7 pull-ups
 * 3 chin-ups
 
-### 2026-03-15T21:40:00-2026-03-15T
+### 2026-03-15T21:40:00-2026-03-15T22:00:00
 
 * 21 burpees
 * 5 pull-ups
 * 3 chin-ups
+
+### 2026-03-24T09:40:00-2026-03-24T09-45:00
+
+* 5 pull-ups
+* 3 chin-ups
+* 20 burpees
+
+### 2026-04-01T14:28:00-
+
+* 8 pull-ups
+* 5 chin-ups
+* 21 burpees

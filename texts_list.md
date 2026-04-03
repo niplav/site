@@ -17,6 +17,13 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Comp-In-Sup (Linda Linsefors, 2025)](https://www.lesswrong.com/w/comp-in-sup)
+* [Gorm (corinfinite, 2024)](https://cyborgism.wiki/hypha/gorm)
+* Introduction (Benjamin Treynor Sloss/Betsy Beyer, 2016)
+* Foreword (Mark Burgess, 2016)
+* \* Site Reliability Engineering (Betsy Beyer/Chris Jones/Jennifer Petoff/Niall Richard Murphy, 2016)
+* \* Vom Licht des Krieges zur Geburt der Geschichte (Michel Foucault, 1986)
+* Für Christian von Mechel (Friedrich Schiller, 1805)
 * Scharade (Friedrich Schiller, 1804)
 * Für August Wilhelm Iffland (Friedrich Schiller, 1804)
 * Für Carl Theodor von Dalberg (Friedrich Schiler, 1804)

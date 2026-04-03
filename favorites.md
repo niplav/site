@@ -38,6 +38,8 @@ Text
 	* "Reizüberflutung"
 	* "Jugendtraum", e.g. [Kronecker's Jugendtraum](https://en.wikipedia.org/wiki/Kronecker_Jugendtraum)
 	* "Fremdscham"
+	* "Vorführeffekt"
+	* "Götterdämmerung" (/ht Gustaf Graf<!--TODO: link-->)
 
 <!--TODO: Aboriginals used the word "ooga" (staring eyes) for [australite](https://en.wikipedia.org/wiki/Australite) in ceremonies-->
 

@@ -182,6 +182,14 @@ __Remark 4__: There are non-rhizomatic ratkings.
 
 ![](./img/pergraphs/non_rhizome_ratking.png)
 
+#### Isomorphism
+
+__Definition__: Two pergraphs `$(V_1, P_1, e_1), (V_2,
+P_2, e_2)$` are isomorphic if and only if there exists a
+[bijection](https://en.wikipedia.org/wiki/BiJection) `$\varphi: (P_1
+\cup V_1) \rightarrow (P_2 \cup V_2)$` so that for all `$p_1 \in P_1$`
+in holds that<!--TODO: continue-->
+
 ### Decomposing
 
 __Remark 5__: Ratkings, ordered by whether they are sub-pergraphs, form a
@@ -195,8 +203,8 @@ lattice where the minimal elements are rhizomes and a single vertex.
 
 <!--TODO: turn from remarks into theorems? Prove then I guess-->
 
-__Definition 11__: A __perbasis__ of a pergraph `$A$` is the bag
-of rhizomes that are sub-pergraphs of `$A$`.
+__Definition 11__ ([Lean](#Perbasis)): A __perbasis__ of a pergraph
+`$A$` is the bag of rhizomes that are sub-pergraphs of `$A$`.
 
 __Theorem 3__: Every pergraph has a unique perbasis.
 
@@ -676,7 +684,32 @@ in this text.
 
 	theorem rhizome_characterization {V E : Type} (G : Pergraph V E) :
 	  isRhizome G → (isRatking G ∨ (Nonempty V ∧ Subsingleton V ∧ IsEmpty E)) := by
-	  sorry
+	  intro ⟨_, hmin⟩
+	  -- singleton sub-pergraph with vertex v and no edges; always valid
+	  let mkSingletonSub : V → SubPergraph G := fun v =>
+	    { vertices := (· = v)
+	      edges := fun _ => False
+	      edge_endpoints := fun _ h => h.elim }
+	  by_cases hempty : IsEmpty V
+	  · exact Or.inl hempty
+	  · rw [not_isEmpty_iff] at hempty
+	    obtain ⟨v₀⟩ := hempty
+	    right
+	    refine ⟨⟨v₀⟩, ?_, ?_⟩
+	    · -- Subsingleton V: any two vertices must be equal
+	      constructor
+	      intro v₁ v₂
+	      by_contra hne
+	      exact hmin (mkSingletonSub v₁)
+	        (Or.inl ⟨v₂, fun h => hne h.symm⟩)
+	        (Or.inl ⟨v₁, rfl⟩)
+	    · -- IsEmpty E: any edge would make the singleton sub-pergraph proper
+	      exact ⟨fun e =>
+	        hmin (mkSingletonSub v₀)
+	          (Or.inr ⟨e, id⟩)
+	          (Or.inl ⟨v₀, rfl⟩)⟩
+
+### Perbasis
 
 ### Perclique
 
