@@ -3407,8 +3407,9 @@ to a consumer-acceptable level.
 
 [^report]: Someone wrote a [long report](https://ai-2027.com/) about this.
 
-But I have a different theory for how LLMs can be capable without being
-agentic/perciniously optimizing:
+But I have [a different model
+of](https://www.lesswrong.com/posts/yeADMcScw8EW9yxpH/a-sketch-of-good-communication)
+how LLMs can be capable without being agentic/pernicioulsy optimizing:
 
 **LLMs are superlinear-in-network-width
 [lookup-table](https://en.wikipedia.org/wiki/Lookup_table)-like
@@ -3422,7 +3423,7 @@ One could call this the GLUT-of-circuits model of LLMs.
 To elaborate:
 
 1. "[lookup-table](https://en.wikipedia.org/wiki/Lookup_table)-like": A common issue in [proving theorems about agent structure](https://www.lesswrong.com/posts/oxsBpx9v3bgxraiPj/towards-a-formalization-of-the-agent-structure-problem) is to avoid including giant lookup tables where each sequence of previous percepts and actions is matched to an optimal next action. Such a giant lookup table is infeasible in the real world, but I think something _similar_ to a giant lookup table might be possible, namely through computation in superposition.
-2. "circuits": Turing machines aren't a great model for the type of computation that neural networks use (namely because they assume an infinite tape and arbitrary serial depth); a slightly better one is [circuits](https://en.wikipedia.org/wiki/Circuit_\(computer_science\)), which have limited depth, though in computer science circuits are usually defined for booleans or integers.
+2. "circuits": Turing machines aren't a great model for the type of computation that neural networks use (namely because they assume an infinite tape and arbitrary serial depth); a slightly better one is [circuits](https://en.wikipedia.org/wiki/Circuit_\(computer_science\)), which have limited depth, though in computer science circuits are usually defined for booleans or integers. See also [Olah et al. 2020)](https://distill.pub/2020/circuits/zoom-in/) on the relatedly defined concept in mechanistic interpretability.
 3. "computed in superposition": Current LLMs [represent features in superposition](https://transformer-circuits.pub/2022/toy_model/index.html), that is, they exploit the fact that high-dimensional spaces can have exponentially many almost-orthogonal vectors relative to the number of dimensions (a consequence of the [Johnson-Lindenstrauss lemma](https://en.wikipedia.org/wiki/Johnson-Lindenstrauss_lemma)). The idea of [computation in superposition](https://www.lesswrong.com/w/comp-in-sup) generalizes this observation to cram more computation into a neural network.
 4. "superlinear-in-network-width": Computation in superposition allows for running many circuits at the same time. E.g. [Hänni et al. 2024](https://arxiv.org/abs/2408.05451) construct (shallow) neural networks of witdh `$\tilde{O}(m^{\frac{2}{3}}s^2)$` that are able emulate an `$s$`-sparse[^sparse] boolean circuit of width `$m$` (__Theorem 8__).
 	1. This result gestures at the possibility that one *can* put a superlinear number of circuits[^number] into a single neural network, making the neural network more of a lookup-table than an example of [general-purpose search](https://www.lesswrong.com/posts/6mysMAqvo9giHC4iX/what-s-general-purpose-search-and-why-might-we-expect-to-see).
@@ -3507,7 +3508,7 @@ and I haven't yet quite teased apart how this impacts the overall picture
 Still, some guesses at implications from the GLUT-of-circuits models
 for alignment and chain-of-"thought":
 
-1. The token bottleneck is *real*. Every <10k serial steps the entire state needs to be compressed down to one of 50k-200k tokens, resulting in at most 16-20 bits of state to be passed between each circuit. My guess is that it's actually closer to ~8-10 bits (given [~1 bit per character in English](https://en.wikipedia.org/wiki/Entropy_\(information\)#Introduction) (though [this source](https://cs.stanford.edu/people/eroberts/courses/soco/projects/1999-00/information-theory/entropy_of_english_9.html) claims almost five bits per character!)), so maybe 2 bits per character in an optimized chain of "thought", at four to five characters per token. A vector of a thousand floats becomes a token of a dozen bits.
+1. The token bottleneck is *real*. Every <10k serial steps the entire state needs to be compressed down to one of 50k-200k tokens, resulting in at most 16-20 bits of state to be passed between each circuit. My guess is that it's actually closer to ~8-10 bits (given [~1 bit per character in English](https://en.wikipedia.org/wiki/Entropy_\(information\)#Introduction)), so maybe 2 bits per character in an optimized chain of "thought", at four to five characters per token. A vector of a thousand floats becomes a token of a dozen bits.
 	1. This may allow us to estimate an upper limit on the optimization power of an LLM outputting `$n$` tokens?
 2. Continuous chains of "thought" would be quite bad, since they'd increase the serial depth without information bottlenecks by a lot.
 3. It now matters that all the circuits are aligned even when composed with each other, which is not guaranteed at all, and even having to extend the guarantees for alignment from every circuit to every ordered pair of circuits increases the size of the search space quadratically.
@@ -3523,7 +3524,7 @@ it rather the whole training process which is dangerous?
 
 ----------------------------------------------------------------------
 
-I think this model is mostly correct`$_{50}$`, and also has implications
+I think this model is mostly correct`$_{50\%}$`, and also has implications
 for capabilities progress/the need to switch to another paradigm/overhaul
 parts of the current paradigm to reach wildly superhuman capabilities. I
 think it predicts we'll see some gains from training but that we'll
@@ -3541,8 +3542,8 @@ or smth idk
 
 Related/prior work/inspirations:
 
-1. [The shard theory of human values (Quintin Pope/TurnTrout, 2022)](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/iCfdcxiyr2Kj8m8mT)
-2. [Simulators (janus, 2022)](https://generative.ink/posts/simulators/)
+1. [The shard theory of human values (Quintin Pope/TurnTrout, 2022)](https://www.lesswrong.com/s/nyEFg3AuJpdAozmoX/p/iCfdcxiyr2Kj8m8mT): This post may as well be a recasting of the shard theory perspective on neural networks, with computation in superposition as a possible mechanism for *how* shard theory could work.
+2. [Simulators (janus, 2022)](https://generative.ink/posts/simulators/): The simulators perspective is *related*, but slightly distinct, it is more interested in the behavior of pretrained base models, but similarly asks questions about where the agency of LLMs is.
 
 Open Source Game Theoretic Commitments in Frontier Safety Frameworks
 ---------------------------------------------------------------------
@@ -3617,6 +3618,39 @@ culture with regards to Institution A.
 cooperate.
 
 [^dupoc]: "DUPOC"≝"defect unless proof of cooperation".
+
+Reversible Minds
+-----------------
+
+*epistemic status*: Trying to leverage [Cunningham's
+law](https://en.wikipedia.org/wiki/Cunningham's_Law). Not a physicist,
+nor a philosopher.
+
+Summary: The reachable universe<!--TODO: link--> allows for a large but
+finite amount of computation<!--TODO: read Lloyd and determine how much-->
+which deletes bits.
+
+### Assumptions
+
+### Reversible Computation
+
+### Length of Cosmological Eras
+
+### Amount of Computations Available
+
+### Putting it Together: Reversible Minds
+
+#### Classical vs. Quantum Reversible Minds
+
+### Importance
+
+Do reversible minds matter? How much?
+
+"What's 54 orders of magnitude between friends"
+
+### Implications
+
+Pure altruism in running reversible minds
 
 <!--Why Are There So Few Natural NP-Complete Problems with Superquadratic Verifiers?
 ---------------------------------------------------------------------------------

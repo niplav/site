@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2023-01-04, modified: 2025-11-25, language: english, status: in progress, importance: 7, confidence: certain*
+*author: niplav, created: 2023-01-04, modified: 2026-03-31, language: english, status: in progress, importance: 7, confidence: certain*
 
 > __There are too many possible quantified self experiments to run. Do
 hobbyist prediction platforms[^1] make priorisation easier? I test
@@ -66,7 +66,7 @@ while resolving the others as ambiguous.
 I started the [first experiment](#Pomodoros) early in 2024, and
 [the second experiment](#Experiment_C_SelfBlinded_RCT) in late 2024,
 finishing the second one in early 2025. The third experiment on
-[lumenators](#None_11) is still ongoing as of late 2025.
+[lumenators](#None_11) was finished in early 2026.
 
 Markets
 --------

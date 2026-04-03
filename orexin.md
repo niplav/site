@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2025-04-03, modified: 2025-11-24, language: english, status: notes, importance: 9, confidence: log*
+*author: niplav, created: 2025-04-03, modified: 2026-03-24, language: english, status: notes, importance: 9, confidence: log*
 
 > __.__
 
@@ -245,5 +245,15 @@ No subjective account.
 	* Sharp feeling in left nostril, which is a bit blocked
 	* More desire to move after snorting the water
 	* Slight pressure at the left upper side of my head
+* Friday noon:
+	* Slightly drowsy during the meditation session
+* Friday night to Saturday morning:
+	* Quite bad sleep, woke up multiple times
+
+#### Sample 3
+
+* Tuesday morning:
+	* Sharp sting while snorting the water in the right nostril
+	* Tingly feeling in the right nostril
 
 [^1]: Even demonstrating one-off effectiveness would be cool: It's often the case that people have short-term sleep deprivation, and would like to ameliorate the effects.

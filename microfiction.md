@@ -941,7 +941,7 @@ The resulting source languages & language families:
 
 </details>
 
-<!--sabre, shiver, cheese, [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿tub?, ¿mack?, ¿flirt?, jump, heroin, capybara, maybe cartel (could be Phoenician 𐤇𐤓𐤈𐤉𐤕, or Proto-Indo-European *ǵʰer-), banana, moe, mukbang, aegyo, kiwi, banzai, llama, pemmican, golem, brouhaha, ¿patch?, skurr, shucks, gung ho-->
+<!--sabre, shiver, cheese, [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿tub?, ¿mack?, ¿flirt?, jump, heroin, capybara, maybe cartel (could be Phoenician 𐤇𐤓𐤈𐤉𐤕, or Proto-Indo-European *ǵʰer-), banana, moe, mukbang, aegyo, kiwi, banzai, llama, pemmican, golem, brouhaha, ¿patch?, skurr, shucks, gung ho, beep, boop, diwan, monogatari-->
 
 ### Jihad Musket
 
