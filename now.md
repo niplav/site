@@ -60,7 +60,6 @@ Currently, I am actively reading the following texts:
 * Intro to Brain-Like-AGI Safety (Steven Byrnes, 2025)
 * The Loss of Control Playbook: Degrees, Dynamics, and Preparedness (Charlotte Stix/Annika Hallensleben/Alejandro Ortega/Matteo Pistillo, 2025)
 * Site Reliability Engineering (Betsy Beyer/Chris Jones/Jennifer Petoff/Niall Richard Murphy, 2016)
-* Vom Licht des Krieges zur Geburt der Geschichte (Michel Foucault, 1986)
 * The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 9/1000.
 	* [Book (2019)](https://en.wikipedia.org/wiki/Book)
 	* [Hammurabi (2023)](https://en.wikipedia.org/wiki/Hammurabi)
