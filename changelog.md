@@ -23,6 +23,21 @@ the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
 
+April 2026
+-----------
+
+* [Jihad Musket](./microfiction.html#Jihad_Musket)
+* [LLMs as Giant Lookup-Tables of Shallow Circuits](./notes#LLMs_as_Giant_LookupTables_of_Shallow_Circuits)
+* [Open Source Game Theoretic Commitments in Frontier Safety Frameworks](./notes.html#Open_Source_Game_Theoretic_Commitments_in_Frontier_Safety_Frameworks)
+* [Pergraphs](./pergraphs.html): [Percliques](./pergraphs.html#Percliques)
+* [Null Results From An Orexin RCT](https://www.lesswrong.com/posts/sW5PtDTKtmGNKcvQk/null-results-from-an-orexin-rct): Together with [Sam Harsimony](https://splittinginfinity.substack.com) and [No Magic Pill](https://nomagicpill.github.io/). Mistakes were made, there will be another one, it'll take time though.
+
+### Links
+
+* [Category:English LLM coinages (English Wiktionary, 2025)](https://en.wiktionary.org/wiki/Category:English_LLM_coinages)
+* [How to mitigate sandbagging (Teun van der Weij, 2025)](https://www.lesswrong.com/posts/Qv5PkrJYAaiBuEJjB/how-to-mitigate-sandbagging-1)
+* [Gorm (corinfinite, 2024)](https://cyborgism.wiki/hypha/gorm)
+
 February 2026
 --------------
 

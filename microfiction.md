@@ -170,6 +170,19 @@ __*HORIZONS CLITCH' AND CLINE*__ sub specie singularitatis
 The Delight Engine • Analytic Cubism • HEY LOOK {A[RE}CURSIVE] SPIRAL   
 Freakybig tooness from one percent of one percent of humanity **—**  
 Clawing at the throat of eternity unl<|endoftext|>
+<!--~/proj/site » g dæmons <microfiction.md | od -A x -t x1c -v
+000000  ca  9c  e1  b4  87  ca  9f  e1  b4  98  e2  80  8f  ea  9c  b0
+       312 234 341 264 207 312 237 341 264 230 342 200 217 352 234 260
+000010  e2  80  8e  e1  b4  9c  ca  9f  2c  20  c9  a6  c9  91  72  e2
+       342 200 216 341 264 234 312 237   ,     311 246 311 221   r 342
+000020  81  a0  f0  9d  9a  96  f0  9d  93  81  e2  82  91  73  73  2c
+       201 240 360 235 232 226 360 235 223 201 342 202 221   s   s   ,
+000030  20  68  e2  80  8b  e2  80  8b  6f  e2  80  8b  6e  d0  b5  ef
+             h 342 200 213 342 200 213   o 342 200 213   n 320 265 357
+000040  ac  86  20  64  c3  a6  6d  6f  6e  73  2e  20  20  0a
+       254 206       d 303 246   m   o   n   s   .          \n
+00004e
+-->
 
 ----
 
@@ -941,7 +954,7 @@ The resulting source languages & language families:
 
 </details>
 
-<!--sabre, shiver, cheese, [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿tub?, ¿mack?, ¿flirt?, jump, heroin, capybara, maybe cartel (could be Phoenician 𐤇𐤓𐤈𐤉𐤕, or Proto-Indo-European *ǵʰer-), banana, moe, mukbang, aegyo, kiwi, banzai, llama, pemmican, golem, brouhaha, ¿patch?, skurr, shucks, gung ho, beep, boop, diwan, monogatari-->
+<!--sabre, shiver, cheese, [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿tub?, ¿mack?, ¿flirt?, jump, heroin, capybara, maybe cartel (could be Phoenician 𐤇𐤓𐤈𐤉𐤕, or Proto-Indo-European *ǵʰer-), banana, moe, mukbang, aegyo, kiwi, banzai, llama, pemmican, golem, brouhaha, ¿patch?, skurr, shucks, gung ho, beep, boop, diwan, monogatari, mocassin, alhambra-->
 
 ### Jihad Musket
 

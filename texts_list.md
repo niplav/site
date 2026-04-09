@@ -17,6 +17,15 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Intrinsic Power-Seeking: AI Might Seek Power for Power's Sake (TurnTrout, 2025)](https://turntrout.com/dangers-of-intrinsic-power-seeking)
+* [shortform on terminal power-seeking (evhub, 2026)](https://www.lesswrong.com/posts/HE3Styo9vpk7m8zi4/evhub-s-shortform?commentId=42BAmYJXHYPcCJiHd)
+* [Cyborgism (NicholasKees/janus, 2023)](https://www.lesswrong.com/posts/bxt7uCiHam4QXrQAA/cyborgism)
+* [Bits of Optimization Can Only Be Lost Over A Distance (adamShimi, 2022)](https://www.lesswrong.com/posts/tpHB69eXorChEsix3/bits-of-optimization-can-only-be-lost-over-a-distance?commentId=HRpdgk75ypkMtvFuA)
+* [Bits of Optimization Can Only Be Lost Over A Distance (Daniel Kokotajlo, 2022)](https://www.lesswrong.com/posts/tpHB69eXorChEsix3/bits-of-optimization-can-only-be-lost-over-a-distance?commentId=DQ56abzBNjqzvGBJy)
+* [Bits of Optimization Can Only Be Lost Over A Distance (johnswentworth, 2022)](https://www.lesswrong.com/posts/tpHB69eXorChEsix3/bits-of-optimization-can-only-be-lost-over-a-distance)
+* Scalable oversight research in AI safety: a survey from late 2023 to early 2026 (Claude 4.6 Sonnet, 2026)
+* [Measuring Optimization Power (Eliezer Yudkowsky, 2008)](https://www.lesswrong.com/posts/Q4hLMDrFd8fbteeZ8/measuring-optimization-power)
+* The Production Environment at Google, from the Viewpoint of an SRE (JC van Winkel/Betsy Beyer, 2016)
 * [Comp-In-Sup (Linda Linsefors, 2025)](https://www.lesswrong.com/w/comp-in-sup)
 * [Gorm (corinfinite, 2024)](https://cyborgism.wiki/hypha/gorm)
 * Introduction (Benjamin Treynor Sloss/Betsy Beyer, 2016)

@@ -4554,3 +4554,9 @@ routine](https://old.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine)
 * 8 pull-ups
 * 5 chin-ups
 * 21 burpees
+
+
+### 2026-04-04T11:19:00-2026-04-04T11:28:00
+
+* 8 pull-ups
+* 5 chin-ups

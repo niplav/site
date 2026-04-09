@@ -3204,7 +3204,7 @@ Rome. You and Titus both have a large mansion each, with Titus' being
 slightly but still noticeably larger. But you *really* care about having
 the *biggest* mansions, specifically, so you go and buy an even bigger
 mansion to replace (or augment) your old one. But Titus has an ace up
-his sleeve: He can just go and but an even bigger mansion to out do you
+his sleeve: He can just go and buy an even bigger mansion to out do you
 again. See where this is going?
 
 In this way, the behavior around positional goods is a lot like an arms
