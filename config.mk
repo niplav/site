@@ -71,6 +71,7 @@ HTML=index.html \
 	flags.html \
 	forecasters.html \
 	general.html \
+	golden.html \
 	grand.html \
 	hodge.html \
 	hyperoperators.html \

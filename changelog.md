@@ -24,6 +24,9 @@ feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
 
 April 2026
+----------
+
+March 2026
 -----------
 
 * [Jihad Musket](./microfiction.html#Jihad_Musket)

@@ -294,20 +294,11 @@ end
 
 function fit_gp(X, y, counts, kernel_type="matern")
 	n, d = size(X)
-
-	# Kernel
-	kernel = make_kernel(d, kernel_type)
-
-	# Observation noise (heteroskedastic)
 	noise = 1.0 ./ counts
-
-	# Create GP
+	kernel = make_kernel(d, kernel_type)
 	f = GP(kernel)
 	fx = f(RowVecs(X), noise)
-
-	# Posterior
 	post = AbstractGPs.posterior(fx, y)
-
 	return post, fx
 end
 
@@ -457,6 +448,7 @@ function cmd_recommend(variable; cached=false, excluded=String[], kernel_type="m
 			X, y, counts, dates, features = build_training_data(substances_df, outcome_df, supplements, variable, period,
 			                                                     med_df, light_df, mast_df, interventions)
 			posterior, fx = fit_gp(X, y, counts, kernel_type)
+			save_state(X, y, counts, dates, features, variable, period)
 			save_model(posterior, variable, period)
 		end
 
