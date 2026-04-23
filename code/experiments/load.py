@@ -292,14 +292,45 @@ def get_datasets_light():
 
 	return get_datasets_fn(experiment_fn, control_fn, intervention_fn)
 
-def analyze(datasets):
-	result = pd.DataFrame(index=['d', 'λ', 'p', 'dσ', 'k'])
+_INT_ROWS = frozenset(['k', 'm', 'control_m', 'intervention_m'])
+_COL_ORDER = ['absorption', 'mindfulness',
+	'productivity', 'creativity', 'sublen', 'meaning',
+	'happy', 'content', 'relaxed', 'horny',
+	'ease', 'factor', 'ivl', 'time']
 
-	# Define the correct column order
-	column_order = ['absorption', 'mindfulness',
-			'productivity', 'creativity', 'sublen', 'meaning',
-			'happy', 'content', 'relaxed', 'horny',
-			'ease', 'factor', 'ivl', 'time']
+def _fmt_val(val, row):
+	if pd.isna(val):
+		return 'NaN'
+	if row in _INT_ROWS:
+		return str(int(val))
+	av = abs(val)
+	if av == 0:
+		return '0'
+	if 1e-4 <= av <= 1e4:
+		return f'{val:.6g}'
+	return f'{val:.3e}'
+
+class AnalysisResult(pd.DataFrame):
+	"""DataFrame subclass that pretty-prints analysis output:
+	integers for count rows, decimals for values in [1e-4, 1e4],
+	scientific notation outside that range."""
+
+	@property
+	def _constructor(self):
+		return AnalysisResult
+
+	def __str__(self):
+		str_df = pd.DataFrame(
+			{col: {row: _fmt_val(self.loc[row, col], row) for row in self.index}
+			 for col in self.columns}
+		)
+		return str_df.to_string()
+
+	def __repr__(self):
+		return self.__str__()
+
+def analyze(datasets):
+	result = AnalysisResult(index=['d', 'λ', 'p', 'dσ', 'k', 'm', 'control_m', 'intervention_m'])
 
 	for dataset_name, data in datasets.items():
 		all_data = data['all']
@@ -319,47 +350,35 @@ def analyze(datasets):
 
 		for col in columns:
 			if col not in all_data.columns or intervention_data.empty or control_data.empty:
-				result.loc['d', col] = np.nan
-				result.loc['λ', col] = np.nan
-				result.loc['p', col] = np.nan
-				result.loc['dσ', col] = np.nan
-				result.loc['k', col] = np.nan
-				result.loc['control_k', col] = np.nan
-				result.loc['intervention_k', col] = np.nan
-				result.loc['m', col] = np.nan
-				result.loc['control_m', col] = np.nan
-				result.loc['intervention_m', col] = np.nan
-
+				for row in result.index:
+					result.loc[row, col] = np.nan
 				continue
 
-			# Calculate d (Cohen's d)
-			d = (intervention_data[col].mean() - control_data[col].mean()) / all_data[col].std()
+			# Aggregate to daily means for hypothesis testing.
+			# Mood pings and flashcard reviews cluster within days (same dose,
+			# same physiology), so treating them as independent observations is
+			# pseudoreplication. d uses individual-level SD to stay comparable
+			# with published effect sizes; λ/p/dσ use daily means.
+			int_daily = intervention_data.groupby(intervention_data['datetime'])[col].mean()
+			ctl_daily = control_data.groupby(control_data['datetime'])[col].mean()
+
+			d = (int_daily.mean() - ctl_daily.mean()) / all_data[col].std()
 			result.loc['d', col] = d
 
-			# Calculate λ (likelihood ratio test statistic)
-			lambda_value = control_likelihood_ratio_statistic(intervention_data[col], control_data[col])
+			# Clamp to 0: float noise can produce tiny negative λ when
+			# distributions are nearly identical, which breaks chi2.sf.
+			lambda_value = max(0.0, control_likelihood_ratio_statistic(int_daily, ctl_daily))
 			result.loc['λ', col] = lambda_value
 
-			# Calculate p-value
-			p_value = llrt_pval(lambda_value)
-			result.loc['p', col] = p_value
-
-			# Calculate dσ (difference in standard deviations)
-			d_sigma = intervention_data[col].std() - control_data[col].std()
-			result.loc['dσ', col] = d_sigma
+			result.loc['p', col] = llrt_pval(lambda_value)
+			result.loc['dσ', col] = int_daily.std() - ctl_daily.std()
 
 			result.loc['k', col] = all_data[col].count()
-			result.loc['control_k', col] = control_data[col].dropna().count()
-			result.loc['intervention_k', col] = intervention_data[col].dropna().count()
-			result.loc['m', col] = all_data[[col, 'datetime']].dropna()['datetime'].dt.date.unique().size
-			result.loc['control_m', col] = control_data[[col, 'datetime']].dropna()['datetime'].dt.date.unique().size
-			result.loc['intervention_m', col] = intervention_data[[col, 'datetime']].dropna()['datetime'].dt.date.unique().size
+			result.loc['m', col] = all_data[[col, 'datetime']].dropna()['datetime'].unique().size
+			result.loc['control_m', col] = control_data[[col, 'datetime']].dropna()['datetime'].unique().size
+			result.loc['intervention_m', col] = intervention_data[[col, 'datetime']].dropna()['datetime'].unique().size
 
-	result = result.reindex(columns=column_order)
-
-	result.loc['k'] = result.loc['k'].astype('Int64')
-
-	return result
+	return result.reindex(columns=_COL_ORDER)
 
 def logscore(o,p):
         return np.mean(o*np.log(p)+(np.ones_like(o)-o)*np.log(np.ones_like(p)-p))

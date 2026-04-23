@@ -569,6 +569,8 @@ Discussions
 * [Effective Altruism Forum](https://forum.effectivealtruism.org/posts/WigMgsDrSzrnRZ5mm/precision-of-sets-of-forecasts)
 * [LessWrong](https://www.lesswrong.com/posts/WhwHYsKTNptbFwdwP/precision-of-sets-of-forecasts)
 
+<!--https://claude.ai/chat/760cbd91-f973-4288-adbb-8b05cc9cc8a4-->
+
 Appendix A: Conditions for a Precision Evaluation Function
 ------------------------------------------------------------
 

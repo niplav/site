@@ -12,4 +12,4 @@ def control_likelihood_ratio_statistic(active, placebo):
 	return 2 * (active_log_lh - placebo_log_lh)
 
 def llrt_pval(lmbda, df=2):
-	return scistat.chi2.cdf(df, lmbda)
+	return scistat.chi2.sf(lmbda, df)
